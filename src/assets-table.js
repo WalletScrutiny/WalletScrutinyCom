@@ -75,17 +75,17 @@ function updateTableVisibility() {
 }
 
 window.renderAssetsTable = async function({
-  htmlElementId,
-  pubkey,
-  appId,
-  sha256,
-  hideConfig,
-  showOnlyRows = 100,
-  sortByVersion = false,
-  enableSearch = false,
-  enableDraftsFilter = false,
-  enableAttachments = false
-}) {
+                                            htmlElementId,
+                                            pubkey,
+                                            appId,
+                                            sha256,
+                                            hideConfig,
+                                            showOnlyRows = 100,
+                                            sortByVersion = false,
+                                            enableSearch = false,
+                                            enableDraftsFilter = false,
+                                            enableAttachments = false
+                                          }) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
@@ -201,26 +201,26 @@ window.renderAssetsTable = async function({
     const verificationId = params.get('verificationId');
 
     if (verificationId) {
-        const result = findVerificationById(verificationId);
+      const result = findVerificationById(verificationId);
 
-        if (result) {
-            const { verification, sha256Hash } = result;
-            // Extract appId and platform from the found verification's tags
-            const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-            const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+      if (result) {
+        const { verification, sha256Hash } = result;
+        // Extract appId and platform from the found verification's tags
+        const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+        const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
-            // Call showVerificationModal after a short delay
-            setTimeout(() => {
-                window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
-            }, 100);
-        } else {
-           // Clear the hash if the verification ID is invalid/not found
-           console.warn('Verification ID from URL hash not found:', verificationId);
-           history.pushState("", document.title, window.location.pathname + window.location.search);
-        }
-    } else {
-        // Clear incomplete hash
+        // Call showVerificationModal after a short delay
+        setTimeout(() => {
+          window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
+        }, 100);
+      } else {
+        // Clear the hash if the verification ID is invalid/not found
+        console.warn('Verification ID from URL hash not found:', verificationId);
         history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
+    } else {
+      // Clear incomplete hash
+      history.pushState("", document.title, window.location.pathname + window.location.search);
     }
   }
 
@@ -333,8 +333,8 @@ window.renderAssetsTable = async function({
           } else {
             // For regular attestations, only keep the most recent one per user
             const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
-            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind && 
-                attestation.created_at > existingAttestation.created_at)) {
+            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
+              attestation.created_at > existingAttestation.created_at)) {
               latestAttestationsByUser.set(attestation.pubkey, attestation);
             }
           }
@@ -499,20 +499,20 @@ window.renderAssetsTable = async function({
 
         <td>`;
 
-        if (verifications.length > 0) {
-          for (const verification of verifications) {
-            const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
-            const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-            const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+      if (verifications.length > 0) {
+        for (const verification of verifications) {
+          const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
+          const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+          const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
-            const wallet = window.wallets.find(w => w.appId === identifier);
-            const walletTitle = wallet ? wallet.title : identifier;
+          const wallet = window.wallets.find(w => w.appId === identifier);
+          const walletTitle = wallet ? wallet.title : identifier;
 
-            rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
-          }
-        } else {
-          rowHTML += '-';
+          rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
         }
+      } else {
+        rowHTML += '-';
+      }
 
       rowHTML += `</td>`;
 
@@ -597,8 +597,8 @@ window.renderAssetsTable = async function({
                 const closeButton = document.getElementById('blossomCloseModalButton');
 
                 const downloadAction = () => {
-                    downloadBlossomFile(hash, downloadIcon);
-                    modal.style.display = 'none';
+                  downloadBlossomFile(hash, downloadIcon);
+                  modal.style.display = 'none';
                 };
 
                 // Remove previous listener to avoid duplicates if clicked multiple times
@@ -730,7 +730,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       await new Promise(resolve => setTimeout(resolve, 50));
     }
 
-    
+
     let attachmentsHTML = '';
 
     for (const attachment of verificationAttachments) {
@@ -821,12 +821,12 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
   shareButton.className = 'btn-small'; // Optional: Use existing styles
   shareButton.onclick = () => {
-      navigator.clipboard.writeText(window.location.href)
-          .then(() => showToast('Link copied to clipboard'))
-          .catch(err => {
-              console.error('Failed to copy link: ', err);
-              showToast('Failed to copy link', 'error');
-          });
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => showToast('Link copied to clipboard'))
+      .catch(err => {
+        console.error('Failed to copy link: ', err);
+        showToast('Failed to copy link', 'error');
+      });
   };
   modal.appendChild(shareButton);
 
@@ -841,7 +841,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   // Update hash only if not already set by initial load check
   const currentHash = `#verificationId=${verificationId}`;
   if (window.location.hash !== currentHash) {
-      location.hash = currentHash;
+    location.hash = currentHash;
   }
 
   const profile = await getNostrProfile(verification.pubkey);
@@ -870,7 +870,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     // Remove the dynamically added share button
     const shareBtn = document.getElementById('shareVerificationButton');
     if (shareBtn) {
-        shareBtn.remove();
+      shareBtn.remove();
     }
   };
 
@@ -879,11 +879,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const handleClick = function(event) {
     // Close only if click is outside the modal content area
     if (!content.contains(event.target) && event.target !== content && event.target.id !== 'closeModal' && !event.target.closest('.attestation-link')) {
-       // Check if the click target is outside the modal boundaries entirely
-        const modalRect = modal.getBoundingClientRect();
-        if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
-            closeModalAction();
-        }
+      // Check if the click target is outside the modal boundaries entirely
+      const modalRect = modal.getBoundingClientRect();
+      if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
+        closeModalAction();
+      }
     }
   };
 
@@ -911,7 +911,7 @@ window.handleAttachmentDownload = function(attachmentId) {
       showToast('Error: Attachment data is missing.', 'error');
       return;
     }
-  
+
     try {
       const blob = new Blob([attachmentData.content], { type: attachmentData.type });
       const url = URL.createObjectURL(blob);
