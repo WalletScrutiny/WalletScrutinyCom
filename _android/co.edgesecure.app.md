@@ -23,8 +23,9 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: []
-date: 2024-10-25
+appHashes: 
+- e6d4439d2cf6bb1622fdd5c90321a6298bf9aa1812a6bcaf376c02ee5cc7d575
+date: 2025-04-04
 signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
 reviewArchive:
 - date: 2024-10-25
@@ -87,101 +88,145 @@ Here is the result we got.
 ===== Begin Results =====
 appId:          co.edgesecure.app
 signer:         8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
-apkVersionName: 4.15.0
-apkVersionCode: 24101602
+apkVersionName: 4.25.0
+apkVersionCode: 25033103
 verdict:        
-appHash:        66342d9ece392d2245abc2ff175ffdb6d800fa3d0b659eb6b62f888e041dab7e
-commit:         e0c4a35df1d71c89e2242e0d57454775870ac454
+appHash:        e6d4439d2cf6bb1622fdd5c90321a6298bf9aa1812a6bcaf376c02ee5cc7d575
+commit:         7a607075661bd48d4b289d2202f6928b7b8267ea
 
-Diff:
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/app.config and /tmp/fromBuild_co.edgesecure.app_24101602/assets/app.config differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/dexopt/baseline.prof and /tmp/fromBuild_co.edgesecure.app_24101602/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/dexopt/baseline.profm and /tmp/fromBuild_co.edgesecure.app_24101602/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-core/plugin-bundle.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-core/plugin-bundle.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-core-js/edge-core.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-core-js/edge-core.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-core-js/edge-core.js.map and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-core-js/edge-core.js.map differ
-Only in /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 2963.chunk.js
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/4163.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/4163.chunk.js differ
-Only in /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 4580.chunk.js
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/5870.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/5870.chunk.js differ
-Only in /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 597.chunk.js
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/6271.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/6271.chunk.js differ
-Only in /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 6845.chunk.js
-Only in /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 780.chunk.js
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/8330.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/8330.chunk.js differ
-Only in /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 9119.chunk.js
-Only in /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased: 9228.chunk.js
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/algorand.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/algorand.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/axelar.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/axelar.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/cardano.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/cardano.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/edge-currency-accountbased.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/edge-currency-accountbased.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/ethereum.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/ethereum.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/fio.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/fio.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/hedera.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/hedera.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/polkadot.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/polkadot.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/ripple.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/ripple.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/solana.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/solana.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-accountbased/zcash.chunk.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-accountbased/zcash.chunk.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-currency-plugins/edge-currency-plugins.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-currency-plugins/edge-currency-plugins.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/edge-exchange-plugins/edge-exchange-plugins.js and /tmp/fromBuild_co.edgesecure.app_24101602/assets/edge-exchange-plugins/edge-exchange-plugins.js differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/index.android.bundle and /tmp/fromBuild_co.edgesecure.app_24101602/assets/index.android.bundle differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/sentry-debug-meta.properties and /tmp/fromBuild_co.edgesecure.app_24101602/assets/sentry-debug-meta.properties differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/assets/sentry-external-modules.txt and /tmp/fromBuild_co.edgesecure.app_24101602/assets/sentry-external-modules.txt differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/classes2.dex and /tmp/fromBuild_co.edgesecure.app_24101602/classes2.dex differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/classes3.dex and /tmp/fromBuild_co.edgesecure.app_24101602/classes3.dex differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/classes4.dex and /tmp/fromBuild_co.edgesecure.app_24101602/classes4.dex differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/classes5.dex and /tmp/fromBuild_co.edgesecure.app_24101602/classes5.dex differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/classes.dex and /tmp/fromBuild_co.edgesecure.app_24101602/classes.dex differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/DebugProbesKt.bin and /tmp/fromBuild_co.edgesecure.app_24101602/DebugProbesKt.bin differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libedge-core-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libexpo-modules-core.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libmymonero-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libreanimated.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/librnscreens.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libsentry-android.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libsentry.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libsentry.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/arm64-v8a/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/arm64-v8a/libzcashwalletsdk.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libedge-core-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libexpo-modules-core.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libmymonero-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libreanimated.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/librnscreens.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libsentry-android.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libsentry.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libsentry.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/armeabi-v7a/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/armeabi-v7a/libzcashwalletsdk.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libedge-core-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libexpo-modules-core.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libmymonero-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libreanimated.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/librnscreens.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libsentry-android.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libsentry.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libsentry.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86/libzcashwalletsdk.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libedge-core-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libexpo-modules-core.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libmymonero-jni.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libreanimated.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/librnscreens.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libsentry-android.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libsentry.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libsentry.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/lib/x86_64/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_24101602/lib/x86_64/libzcashwalletsdk.so differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.core_core-ktx.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.core_core-ktx.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.core_core.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.core_core.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata-core.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata-core.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-livedata.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-process.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-process.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-runtime.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-runtime.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-service.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-service.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/androidx.lifecycle_lifecycle-viewmodel.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_android.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_android.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_core.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_core.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_play_services.version and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/kotlinx_coroutines_play_services.version differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/META-INF/services/io.grpc.LoadBalancerProvider and /tmp/fromBuild_co.edgesecure.app_24101602/META-INF/services/io.grpc.LoadBalancerProvider differ
-Files /tmp/fromPlay_co.edgesecure.app_24101602/resources.arsc and /tmp/fromBuild_co.edgesecure.app_24101602/resources.arsc differ
+Diff (excluding .json and .xml files):
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/app.config and /tmp/fromBuild_co.edgesecure.app_25033103/assets/app.config differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/dexopt/baseline.prof and /tmp/fromBuild_co.edgesecure.app_25033103/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/dexopt/baseline.profm and /tmp/fromBuild_co.edgesecure.app_25033103/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-core/plugin-bundle.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-core/plugin-bundle.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-core-js/edge-core.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-core-js/edge-core.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-core-js/edge-core.js.map and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-core-js/edge-core.js.map differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-core-js: index.html
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 1083.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 1523.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/1565.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/1565.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/1700.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/1700.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 2075.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 2424.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 2505.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 2851.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 2963.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 3507.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 4089.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 4163.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 4649.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 4841.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/4864.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/4864.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 4937.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/5277.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/5277.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/537.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/537.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 5450.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/570.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/570.chunk.js differ
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 5870.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/5898.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/5898.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 597.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6271.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6271.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 6425.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 6682.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6729.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6729.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 6845.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6950.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/6950.chunk.js differ
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 6976.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/7190.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/7190.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/749.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/749.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/7798.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/7798.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 80.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/8163.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/8163.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/8330.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/8330.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 8502.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 8530.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 9119.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 9228.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 9325.chunk.js
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 9354.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: 9649.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/algorand.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/algorand.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/axelar.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/axelar.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/bnb.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/bnb.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/cardano.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/cardano.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/edge-currency-accountbased.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/edge-currency-accountbased.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/eos.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/eos.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/ethereum.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/ethereum.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/filecoin.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/filecoin.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/fio.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/fio.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/hedera.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/hedera.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/polkadot.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/polkadot.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/ripple.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/ripple.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/solana.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/solana.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/stellar.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/stellar.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: sui.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/tezos.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/tezos.chunk.js differ
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased: ton.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/tron.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/tron.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-accountbased/zcash.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-accountbased/zcash.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-currency-plugins/edge-currency-plugins.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-currency-plugins/edge-currency-plugins.js differ
+Only in /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-exchange-plugins: 426.chunk.js
+Only in /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-exchange-plugins: 581.chunk.js
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-exchange-plugins/726.chunk.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-exchange-plugins/726.chunk.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/edge-exchange-plugins/edge-exchange-plugins.js and /tmp/fromBuild_co.edgesecure.app_25033103/assets/edge-exchange-plugins/edge-exchange-plugins.js differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/index.android.bundle and /tmp/fromBuild_co.edgesecure.app_25033103/assets/index.android.bundle differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/sentry-debug-meta.properties and /tmp/fromBuild_co.edgesecure.app_25033103/assets/sentry-debug-meta.properties differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/assets/sentry-external-modules.txt and /tmp/fromBuild_co.edgesecure.app_25033103/assets/sentry-external-modules.txt differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/classes2.dex and /tmp/fromBuild_co.edgesecure.app_25033103/classes2.dex differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/classes3.dex and /tmp/fromBuild_co.edgesecure.app_25033103/classes3.dex differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/classes4.dex and /tmp/fromBuild_co.edgesecure.app_25033103/classes4.dex differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/classes5.dex and /tmp/fromBuild_co.edgesecure.app_25033103/classes5.dex differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/classes.dex and /tmp/fromBuild_co.edgesecure.app_25033103/classes.dex differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/DebugProbesKt.bin and /tmp/fromBuild_co.edgesecure.app_25033103/DebugProbesKt.bin differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libedge-core-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libexpo-modules-core.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libmymonero-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libreanimated.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/librnscreens.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libsentry-android.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libsentry.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libsentry.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/arm64-v8a/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/arm64-v8a/libzcashwalletsdk.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libedge-core-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libexpo-modules-core.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libmymonero-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libreanimated.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/librnscreens.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libsentry-android.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libsentry.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libsentry.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/armeabi-v7a/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/armeabi-v7a/libzcashwalletsdk.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libedge-core-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libexpo-modules-core.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libmymonero-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libreanimated.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/librnscreens.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libsentry-android.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libsentry.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libsentry.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86/libzcashwalletsdk.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libedge-core-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libedge-core-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libexpo-modules-core.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libexpo-modules-core.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libmymonero-jni.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libmymonero-jni.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libreanimated.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libreanimated.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/librnscreens.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/librnscreens.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libsentry-android.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libsentry-android.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libsentry.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libsentry.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/lib/x86_64/libzcashwalletsdk.so and /tmp/fromBuild_co.edgesecure.app_25033103/lib/x86_64/libzcashwalletsdk.so differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.core_core-ktx.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.core_core-ktx.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.core_core.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.core_core.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata-core.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata-core.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-livedata.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-process.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-process.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-runtime.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-runtime.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-service.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-service.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/androidx.lifecycle_lifecycle-viewmodel.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_android.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_android.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_core.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_core.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_play_services.version and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/kotlinx_coroutines_play_services.version differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/META-INF/services/io.grpc.LoadBalancerProvider and /tmp/fromBuild_co.edgesecure.app_25033103/META-INF/services/io.grpc.LoadBalancerProvider differ
+Files /tmp/fromPlay_co.edgesecure.app_25033103/resources.arsc and /tmp/fromBuild_co.edgesecure.app_25033103/resources.arsc differ
 
 Revision, tag (and its signature):
 
