@@ -1,19 +1,19 @@
 {% comment %}
-  custodianFullReview.html
-  
-  This file renders the detailed review page for a cryptocurrency custodian.
-  It displays comprehensive information about the custodian's security practices,
-  leadership, operations, track record, and other critical information.
-  
-  Consolidates:
-    - The "overview" text
-    - The "Apps" block
-    - The "audit" steps (hot/cold design, proofOfReserves, etc.)
-    - The timeline style for circles on the left
-    - The .step / .developer structure
-  Expects:
-    - include.custodian (all data under custodian.* in front matter)
-    - include.platformReview (optional if you want app store links, etc.)
+custodianFullReview.html
+
+This file renders the detailed review page for a cryptocurrency custodian.
+It displays comprehensive information about the custodian's security practices,
+leadership, operations, track record, and other critical information.
+
+Consolidates:
+- The "overview" text
+- The "Apps" block
+- The "audit" steps (hot/cold design, proofOfReserves, etc.)
+- The timeline style for circles on the left
+- The .step / .developer structure
+Expects:
+- include.custodian (all data under custodian.* in front matter)
+- include.platformReview (optional if you want app store links, etc.)
 {% endcomment %}
 
 {% assign custodian = include.custodian %}
@@ -39,163 +39,161 @@
     <span>Toggle View</span>
   </button>
 </div>
+
 <div class="see-also list-view">
+
   {% assign android_apps = custodian.androidApps | default: custodian.androidApp | default: empty_array %}
   {% if android_apps.size > 0 %}
-    {% if android_apps.first.url %}
-      {% for app in android_apps %}
-        <a href="{{ app.url }}" class="app-link">
-          <div class="list-content">
-            <div class="app-content">
-              {% assign app_id = app.url | split: '/' | last %}
-              {% if app.icon contains 'fa-' %}
-                <i class="{{ app.icon }}"></i>
-              {% else %}
-                {% assign png_path = "/images/wIcons/android/tiny/" | append: app_id | append: ".png" %}
-                {% assign jpg_path = "/images/wIcons/android/tiny/" | append: app_id | append: ".jpg" %}
-                {% assign placeholder_path = "/images/tinyNoicon.png" %}
-                <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ app.name }}" class="app-icon">
-              {% endif %}
-              <span class="app-name">{{ app.name }}</span>
-            </div>
-            <div class="app-store">Google Play</div>
-          </div>
-          <div class="grid-content">
-            {% if app.icon contains 'fa-' %}
-              <i class="{{ app.icon }}"></i>
-            {% else %}
-              {% assign app_id = app.url | split: '/' | last %}
-                {% assign png_path = "/images/wIcons/android/small/" | append: app_id | append: ".png" %}
-                {% assign jpg_path = "/images/wIcons/android/small/" | append: app_id | append: ".jpg" %}
-                {% assign placeholder_path = "/images/smallNoicon.png" %}
-                <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ app.name }}" class="app-icon">
-            {% endif %}
-          </div>
-        </a>
-      {% endfor %}
-    {% else %}
-      <a href="{{ android_apps.url }}" class="app-link">
-        <div class="list-content">
-          <div class="app-content">
-            {% assign app_id = android_apps.url | split: '/' | last %}
-            {% assign png_path = "/images/wIcons/android/tiny/" | append: app_id | append: ".png" %}
-              {% assign jpg_path = "/images/wIcons/android/tiny/" | append: app_id | append: ".jpg" %}
-              {% assign placeholder_path = "/images/tinyNoicon.png" %}
-              <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ android_apps.name }}" class="app-icon">
-            <span class="app-name">{{ android_apps.name }}</span>
-          </div>
-          <div class="app-store">Google Play</div>
-        </div>
-        <div class="grid-content">
-          {% assign app_id = android_apps.url | split: '/' | last %}
-            {% assign png_path = "/images/wIcons/android/small/" | append: app_id | append: ".png" %}
-              {% assign jpg_path = "/images/wIcons/android/small/" | append: app_id | append: ".jpg" %}
-              {% assign placeholder_path = "/images/smallNoicon.png" %}
-              <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ android_apps.name }}" class="app-icon">
-        </div>
-      </a>
-    {% endif %}
+  {% for app in android_apps %}
+  <a href="{{ app.url }}" class="app-link">
+    <div class="list-content">
+      <div class="app-content">
+        {% assign app_id = app.url | split: '/' | last %}
+        {% assign app_parts = app.url | split: '/' %}
+        {% assign app_type = app_parts[1] %}
+        {% assign tiny_png = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".png"
+        %}
+        {% assign tiny_jpg = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".jpg"
+        %}
+        {% assign tiny_placeholder = "/images/tinyNoicon.png" %}
+
+        <img src="{{ tiny_png }}" onerror="this.onerror=null;this.src='{{ tiny_jpg }}';" alt="{{ app.name }}"
+          class="app-icon" onerror="this.onerror=null;this.src='{{ tiny_placeholder }}';">
+        <span class="app-name">{{ app.name }}</span>
+      </div>
+      <div class="app-store">Google Play</div>
+    </div>
+
+    <div class="grid-content">
+      {% assign small_png = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".png"
+      %}
+      {% assign small_jpg = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".jpg"
+      %}
+      {% assign small_placeholder = "/images/smallNoicon.png" %}
+
+      <img src="{{ small_png }}" onerror="this.onerror=null;this.src='{{ small_jpg }}';" alt="{{ app.name }}"
+        class="app-icon" onerror="this.onerror=null;this.src='{{ small_placeholder }}';">
+    </div>
+  </a>
+  {% endfor %}
   {% endif %}
-  
+
   {% assign iphone_apps = custodian.iphoneApps | default: custodian.iphoneApp | default: empty_array %}
   {% if iphone_apps.size > 0 %}
-    {% if iphone_apps.first.url %}
-      {% for app in iphone_apps %}
-        <a href="{{ app.url }}" class="app-link">
-          <div class="list-content">
-            <div class="app-content">
-              {% assign app_id = app.url | split: '/' | last %}
-              <img src="/images/tinyNoicon.png" alt="{{ app.name }}" class="app-icon">
-              <span class="app-name">{{ app.name }}</span>
-            </div>
-            <div class="app-store">App Store</div>
-          </div>
-          <div class="grid-content">
-            {% if app.icon contains 'fa-' %}
-              <i class="{{ app.icon }}"></i>
-            {% else %}
-              {% assign app_id = app.url | split: '/' | last %}
-                {% assign png_path = "/images/wIcons/android/small/" | append: app_id | append: ".png" %}
-                {% assign jpg_path = "/images/wIcons/android/small/" | append: app_id | append: ".jpg" %}
-                {% assign placeholder_path = "/images/smallNoicon.png" %}
-                <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ app.name }}" class="app-icon">
-            {% endif %}
-          </div>
-        </a>
-      {% endfor %}
-    {% else %}
-      <a href="{{ iphone_apps.url }}" class="app-link">
-        <div class="list-content">
-          <div class="app-content">
-            {% assign app_id = iphone_apps.url | split: '/' | last %}
-            {% assign jpg_path = "/images/wIcons/iphone/tiny/" | append: app_id | append: ".jpg" %}
-              {% assign placeholder_path = "/images/tinyNoicon.png" %}
-              <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ iphone_apps.name }}" class="app-icon">
-            <span class="app-name">{{ iphone_apps.name }}</span>
-          </div>
-          <div class="app-store">App Store</div>
-        </div>
-        <div class="grid-content">
-          {% assign app_id = iphone_apps.url | split: '/' | last %}
-            {% assign jpg_path = "/images/wIcons/iphone/small/" | append: app_id | append: ".jpg" %}
-              {% assign placeholder_path = "/images/smallNoicon.png" %}
-              <img src="{{ jpg_path }}" onError="this.onerror=null;this.src='{{ placeholder_path }}';" alt="{{ iphone_apps.name }}" class="app-icon">
-        </div>
-      </a>
-    {% endif %}
+  {% for app in iphone_apps %}
+  <a href="{{ app.url }}" class="app-link">
+    <div class="list-content">
+      <div class="app-content">
+        {% assign app_id = app.url | split: '/' | last %}
+        {% assign app_parts = app.url | split: '/' %}
+        {% assign app_type = app_parts[1] %}
+
+        {% assign tiny_png = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".png"
+        %}
+        {% assign tiny_jpg = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".jpg"
+        %}
+        {% assign tiny_placeholder = "/images/tinyNoicon.png" %}
+
+        <img src="{{ tiny_png }}" onerror="this.onerror=null;this.src='{{ tiny_jpg }}';" alt="{{ app.name }}"
+          class="app-icon" onerror="this.onerror=null;this.src='{{ tiny_placeholder }}';">
+        <span class="app-name">{{ app.name }}</span>
+      </div>
+      <div class="app-store">App Store</div>
+    </div>
+
+    <div class="grid-content">
+      {% assign small_png = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".png"
+      %}
+      {% assign small_jpg = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".jpg"
+      %}
+      {% assign small_placeholder = "/images/smallNoicon.png" %}
+
+      <img src="{{ small_png }}" onerror="this.onerror=null;this.src='{{ small_jpg }}';" alt="{{ app.name }}"
+        class="app-icon" onerror="this.onerror=null;this.src='{{ small_placeholder }}';">
+    </div>
+  </a>
+  {% endfor %}
   {% endif %}
-  
+
   {% if custodian.webApp %}
-    <a href="{{ custodian.webApp.url }}" class="app-link">
-      <div class="list-content">
-        <div class="app-content">
-          <i class="fas fa-globe"></i>
-          <span class="app-name">{{ custodian.webApp.name }}</span>
-        </div>
-        <div class="app-store">Web</div>
-      </div>
-      <div class="grid-content">
+  <a href="{{ custodian.webApp.url }}" class="app-link">
+    <div class="list-content">
+      <div class="app-content">
         {% if custodian.webApp.icon contains 'fa-' %}
-          <i class="{{ custodian.webApp.icon }} fa-2x"></i>
+        <i class="{{ custodian.webApp.icon }}"></i>
         {% else %}
-          <img src="{{ custodian.webApp.icon }}" alt="{{ custodian.webApp.name }}" class="app-icon">
+        <img src="{{ custodian.webApp.icon }}" alt="{{ custodian.webApp.name }}" class="app-icon">
         {% endif %}
+        <span class="app-name">{{ custodian.webApp.name }}</span>
       </div>
-    </a>
+      <div class="app-store">Web</div>
+    </div>
+
+    <div class="grid-content">
+      {% if custodian.webApp.icon contains 'fa-' %}
+      <i class="{{ custodian.webApp.icon }} fa-2x"></i>
+      {% else %}
+      <img src="{{ custodian.webApp.icon }}" alt="{{ custodian.webApp.name }}" class="app-icon">
+      {% endif %}
+    </div>
+  </a>
   {% endif %}
 
   {% if custodian.browserExtension %}
-    <a href="{{ custodian.browserExtension.url }}" class="app-link">
-      <div class="list-content">
-        <div class="app-content">
-          <i class="fab fa-chrome"></i>
-          <span class="app-name">{{ custodian.browserExtension.name }}</span>
-        </div>
-        <div class="app-store">Chrome Extension</div>
+  <a href="{{ custodian.browserExtension.url }}" class="app-link">
+    <div class="list-content">
+      <div class="app-content">
+        <i class="fab fa-chrome"></i>
+        <span class="app-name">{{ custodian.browserExtension.name }}</span>
       </div>
-      <div class="grid-content">
-        <i class="fab fa-chrome fa-2x"></i>
-      </div>
-    </a>
+      <div class="app-store">Chrome Extension</div>
+    </div>
+
+    <div class="grid-content">
+      <i class="fab fa-chrome fa-2x"></i>
+    </div>
+  </a>
   {% endif %}
-  
+
   {% if custodian.desktopApp %}
-    <a href="{{ custodian.desktopApp.url }}" class="app-link">
-      <div class="list-content">
-        <div class="app-content">
-          <i class="fas fa-desktop"></i>
-          <span class="app-name">{{ custodian.desktopApp.name }}</span>
-        </div>
-        <div class="app-store">Desktop App</div>
+  <a href="{{ custodian.desktopApp.url }}" class="app-link">
+    <div class="list-content">
+      <div class="app-content">
+        {% assign app_parts = custodian.desktopApp.url | split: '/' %}
+        {% assign app_type = app_parts[1] %}
+        {% assign app_id = custodian.desktopApp.url | split: '/' | last %}
+        {% assign tiny_png = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".png"
+        %}
+        {% assign tiny_jpg = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".jpg"
+        %}
+        {% assign tiny_placeholder = "/images/tinyNoicon.png" %}
+
+        <img src="{{ tiny_png }}" onerror="this.onerror=null;this.src='{{ tiny_jpg }}';"
+          alt="{{ custodian.desktopApp.name }}" class="app-icon"
+          onerror="this.onerror=null;this.src='{{ tiny_placeholder }}';">
+        <span class="app-name">{{ custodian.desktopApp.name }}</span>
       </div>
-      <div class="grid-content">
-          <i class="fas fa-desktop fa-2x"></i>
-      </div>
-    </a>
+      <div class="app-store">Desktop App</div>
+    </div>
+
+    <div class="grid-content">
+      {% assign small_png = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".png"
+      %}
+      {% assign small_jpg = "/images/wIcons/" | append: app_type | append: "/small/" | append: app_id | append: ".jpg"
+      %}
+      {% assign small_placeholder = "/images/smallNoicon.png" %}
+
+      <img src="{{ small_png }}" onerror="this.onerror=null;this.src='{{ small_jpg }}';"
+        alt="{{ custodian.desktopApp.name }}" class="app-icon"
+        onerror="this.onerror=null;this.src='{{ small_placeholder }}';">
+    </div>
+  </a>
   {% endif %}
+
 </div>
 
 <hr />
+
 
 <!-- Timeline / Audit Steps -->
 <!-- HOT/COLD Design -->
@@ -206,13 +204,13 @@
     <div class="textbox">
       <div class="design-status">
         {% if custodian.hotColdDesign.status == "published" %}
-          <span class="badge design-published"><i class="fas fa-check"></i> Design Published</span>
+        <span class="badge design-published"><i class="fas fa-check"></i> Design Published</span>
         {% elsif custodian.hotColdDesign.status == "outdated" %}
-          <span class="badge design-outdated"><i class="fas fa-exclamation-triangle"></i> Documentation Outdated</span>
+        <span class="badge design-outdated"><i class="fas fa-exclamation-triangle"></i> Documentation Outdated</span>
         {% elsif custodian.hotColdDesign.status == "partial" %}
-          <span class="badge design-partial"><i class="fas fa-info-circle"></i> Partially Documented</span>
+        <span class="badge design-partial"><i class="fas fa-info-circle"></i> Partially Documented</span>
         {% else %}
-          <span class="badge design-unpublished"><i class="fas fa-times"></i> Not Published</span>
+        <span class="badge design-unpublished"><i class="fas fa-times"></i> Not Published</span>
         {% endif %}
       </div>
       <div class="last-updated">
@@ -222,21 +220,21 @@
         {{ custodian.hotColdDesign.details }}
       </div>
       {% if custodian.hotColdDesign.analysis %}
-        <div class="analysis">
-          {{ custodian.hotColdDesign.analysis }}
-        </div>
+      <div class="analysis">
+        {{ custodian.hotColdDesign.analysis }}
+      </div>
       {% endif %}
       {% if custodian.hotColdDesign.documentation_url %}
-        <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
-          <i class="fas fa-external-link-alt"></i> View Documentation
-        </a>
+      <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
+        <i class="fas fa-external-link-alt"></i> View Documentation
+      </a>
       {% endif %}
       {% if custodian.hotColdDesign.supporting_urls %}
-        {% for url in custodian.hotColdDesign.supporting_urls %}
-          <a href="{{ url }}" class="docs-link">
-            <i class="fas fa-external-link-alt"></i> Supporting Document {{ forloop.index }}
-          </a>
-        {% endfor %}
+      {% for url in custodian.hotColdDesign.supporting_urls %}
+      <a href="{{ url }}" class="docs-link">
+        <i class="fas fa-external-link-alt"></i> Supporting Document {{ forloop.index }}
+      </a>
+      {% endfor %}
       {% endif %}
     </div>
   </div>
@@ -250,58 +248,58 @@
     <div class="textbox">
       <div class="bitcoin-status">
         {% if custodian.bitcoinFocus.status == "bitcoin-only" %}
-          <span class="badge bitcoin-only">Bitcoin Only</span>
+        <span class="badge bitcoin-only">Bitcoin Only</span>
         {% elsif custodian.bitcoinFocus.status == "bitcoin-optimized" %}
-          <span class="badge bitcoin-optimized">Bitcoin Optimized</span>
+        <span class="badge bitcoin-optimized">Bitcoin Optimized</span>
         {% elsif custodian.bitcoinFocus.status == "multi-currency" %}
-          <span class="badge multi-currency">Multi-Currency Platform</span>
+        <span class="badge multi-currency">Multi-Currency Platform</span>
         {% endif %}
       </div>
       {% if custodian.bitcoinFocus.supportedAssets %}
-        <div class="supported-assets">
-          <h4>Supported Assets</h4>
-          <ul>
-            {% for asset in custodian.bitcoinFocus.supportedAssets %}
-              <li>{{ asset }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+      <div class="supported-assets">
+        <h4>Supported Assets</h4>
+        <ul>
+          {% for asset in custodian.bitcoinFocus.supportedAssets %}
+          <li>{{ asset }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
       {% if custodian.bitcoinFocus.bitcoinFeatures %}
-        <div class="bitcoin-features">
-          <h4>Bitcoin Features</h4>
-          <ul>
-            {% for feature in custodian.bitcoinFocus.bitcoinFeatures %}
-              <li>{{ feature }}</li>
-            {% endfor %}
-          </ul>
-        </div>
+      <div class="bitcoin-features">
+        <h4>Bitcoin Features</h4>
+        <ul>
+          {% for feature in custodian.bitcoinFocus.bitcoinFeatures %}
+          <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
       <div class="details">
         {% if custodian.bitcoinFocus.tradableAssets %}
-          <div class="asset-info">
-            <span class="asset-label">Tradable Assets:</span>
-            <span class="asset-value">{{ custodian.bitcoinFocus.tradableAssets }}</span>
-          </div>
+        <div class="asset-info">
+          <span class="asset-label">Tradable Assets:</span>
+          <span class="asset-value">{{ custodian.bitcoinFocus.tradableAssets }}</span>
+        </div>
         {% endif %}
         {% if custodian.bitcoinFocus.tradingPairs %}
-          <div class="asset-info">
-            <span class="asset-label">Trading Pairs:</span>
-            <span class="asset-value">{{ custodian.bitcoinFocus.tradingPairs }}</span>
-          </div>
+        <div class="asset-info">
+          <span class="asset-label">Trading Pairs:</span>
+          <span class="asset-value">{{ custodian.bitcoinFocus.tradingPairs }}</span>
+        </div>
         {% endif %}
         {% if custodian.bitcoinFocus.custodyAssets %}
-          <div class="asset-info">
-            <span class="asset-label">Custody-Only Assets:</span>
-            <span class="asset-value">{{ custodian.bitcoinFocus.custodyAssets }}</span>
-          </div>
+        <div class="asset-info">
+          <span class="asset-label">Custody-Only Assets:</span>
+          <span class="asset-value">{{ custodian.bitcoinFocus.custodyAssets }}</span>
+        </div>
         {% endif %}
         {% if custodian.bitcoinFocus.CompleteList %}
-          <div class="asset-info" style="margin-top: 1rem;">
-            <a href="{{ custodian.bitcoinFocus.CompleteList }}" class="docs-link">
-              <i class="fas fa-external-link-alt"></i> View Complete List
-            </a>
-          </div>
+        <div class="asset-info" style="margin-top: 1rem;">
+          <a href="{{ custodian.bitcoinFocus.CompleteList }}" class="docs-link">
+            <i class="fas fa-external-link-alt"></i> View Complete List
+          </a>
+        </div>
         {% endif %}
       </div>
     </div>
@@ -316,21 +314,21 @@
     <div class="textbox">
       <div class="reserves-status">
         {% if custodian.proofOfReserves.status == "cryptographic" %}
-          <span class="badge reserves-cryptographic"><i class="fas fa-check"></i> Cryptographic Proof</span>
+        <span class="badge reserves-cryptographic"><i class="fas fa-check"></i> Cryptographic Proof</span>
         {% elsif custodian.proofOfReserves.status == "traditional-audit" %}
-          <span class="badge reserves-traditional"><i class="fas fa-file-alt"></i> Traditional Audit</span>
+        <span class="badge reserves-traditional"><i class="fas fa-file-alt"></i> Traditional Audit</span>
         {% elsif custodian.proofOfReserves.status == "in-development" %}
-          <span class="badge reserves-development"><i class="fas fa-code"></i> In Development</span>
+        <span class="badge reserves-development"><i class="fas fa-code"></i> In Development</span>
         {% else %}
-          <span class="badge reserves-none"><i class="fas fa-times"></i> Not Available</span>
+        <span class="badge reserves-none"><i class="fas fa-times"></i> Not Available</span>
         {% endif %}
       </div>
 
       {% if custodian.proofOfReserves.auditFrequency %}
-        <div class="frequency">Updated {{ custodian.proofOfReserves.auditFrequency }}</div>
+      <div class="frequency">Updated {{ custodian.proofOfReserves.auditFrequency }}</div>
       {% endif %}
       {% if custodian.proofOfReserves.lastAudit %}
-        <div class="last-proof">Last Audit: {{ custodian.proofOfReserves.lastAudit }}</div>
+      <div class="last-proof">Last Audit: {{ custodian.proofOfReserves.lastAudit }}</div>
       {% endif %}
 
       <div class="details">
@@ -338,20 +336,20 @@
       </div>
 
       {% if custodian.proofOfReserves.auditUrl %}
-        <a href="{{ custodian.proofOfReserves.auditUrl }}" class="verify-link">
-          <i class="fas fa-external-link-alt"></i> View Audit Report
-        </a>
+      <a href="{{ custodian.proofOfReserves.auditUrl }}" class="verify-link">
+        <i class="fas fa-external-link-alt"></i> View Audit Report
+      </a>
       {% endif %}
 
       {% if custodian.proofOfReserves.developmentStatus %}
-        <div class="development-status">
-          <i class="fas fa-code"></i> {{ custodian.proofOfReserves.developmentStatus }}
-          {% if custodian.proofOfReserves.developmentUrl %}
-            <a href="{{ custodian.proofOfReserves.developmentUrl }}" class="docs-link">
-              <i class="fas fa-external-link-alt"></i> Learn More
-            </a>
-          {% endif %}
-        </div>
+      <div class="development-status">
+        <i class="fas fa-code"></i> {{ custodian.proofOfReserves.developmentStatus }}
+        {% if custodian.proofOfReserves.developmentUrl %}
+        <a href="{{ custodian.proofOfReserves.developmentUrl }}" class="docs-link">
+          <i class="fas fa-external-link-alt"></i> Learn More
+        </a>
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>
@@ -367,24 +365,24 @@
         <strong>Jurisdiction:</strong> {{ custodian.leadership.jurisdiction }}
       </div>
       {% if custodian.leadership.yearsInBusiness %}
-        <div class="years">
-          <strong>Years in Business:</strong> {{ custodian.leadership.yearsInBusiness }}
-        </div>
+      <div class="years">
+        <strong>Years in Business:</strong> {{ custodian.leadership.yearsInBusiness }}
+      </div>
       {% endif %}
       {% if custodian.leadership.team %}
-        <div class="team">
-          <h4>Leadership Team</h4>
-          <ul>
-            {% for member in custodian.leadership.team %}
-              <li>{{ member.name }} - {{ member.role }}{% if member.location %} ({{ member.location }}){% endif %}</li>
-            {% endfor %}
-          </ul>
-          {% if custodian.leadership.teamSource %}
-            <a href="{{ custodian.leadership.teamSource }}" class="verify-link" target="_blank">
-              <i class="fas fa-users"></i> Full Team
-            </a>
-          {% endif %}
-        </div>
+      <div class="team">
+        <h4>Leadership Team</h4>
+        <ul>
+          {% for member in custodian.leadership.team %}
+          <li>{{ member.name }} - {{ member.role }}{% if member.location %} ({{ member.location }}){% endif %}</li>
+          {% endfor %}
+        </ul>
+        {% if custodian.leadership.teamSource %}
+        <a href="{{ custodian.leadership.teamSource }}" class="verify-link" target="_blank">
+          <i class="fas fa-users"></i> Full Team
+        </a>
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>
@@ -403,7 +401,8 @@
           <p>Amount of BTC: {{ custodian.operations.cryptographicProof.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.cryptographicProof.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.cryptographicProof.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">{{ custodian.operations.cryptographicProof.source }}</a></p>
+          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">{{
+              custodian.operations.cryptographicProof.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
@@ -418,7 +417,8 @@
           <p>Amount of BTC: {{ custodian.operations.thirdPartyAudit.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.thirdPartyAudit.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.thirdPartyAudit.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">{{ custodian.operations.thirdPartyAudit.source }}</a></p>
+          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">{{
+              custodian.operations.thirdPartyAudit.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
@@ -442,14 +442,15 @@
           <p>Amount of BTC: {{ custodian.operations.selfReported.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.selfReported.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.selfReported.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">{{ custodian.operations.selfReported.source }}</a></p>
+          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">{{
+              custodian.operations.selfReported.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
         </div>
       </div>
       {% endif %}
-      
+
       {% if custodian.operations.notes %}
       <div class="notes-content hidden">
         <h4>Additional Info</h4>
@@ -473,70 +474,70 @@
     </p>
     <div class="textbox">
       {% if custodian.trackRecord.history %}
-        <div class="history">{{ custodian.trackRecord.history }}</div>
+      <div class="history">{{ custodian.trackRecord.history }}</div>
       {% endif %}
       {% if custodian.trackRecord.incidentHistory %}
       {% assign incidents = custodian.trackRecord.incidentHistory %}
-        <div class="incidents">
-          <div class="incident-title">
-            <h4>Incident History</h4>
-            {% if incidents.size > 1 %}
-            <button class="toggle-incidents" aria-expanded="false" aria-controls="incident-list">
-              <i class="fas fa-chevron-down"></i>
-              <span class="show-text">Show More</span>
-              <span class="hide-text">Show Less</span>
-            </button>
-            {% endif %}
-          </div>
-          {% if incidents.size > 0 %}
-            <div style="margin-bottom: 1rem; padding: 0.5rem 0;">
-              <li style="list-style: none; margin-bottom: 0;">
-                {{ incidents.first.description }}
-                {% if incidents.first.url %}
-                  <a href="{{ incidents.first.url }}" class="docs-link">
-                    <i class="fas fa-external-link-alt"></i> Details
-                  </a>
-                {% endif %}
-              </li>
-            </div>
-            {% if incidents.size > 1 %}
-              <ul id="incident-list" class="incident-list collapsed">
-                {% for incident in incidents offset:1 %}
-                  <li>
-                    {{ incident.description }}
-                    {% if incident.url %}
-                      <a href="{{ incident.url }}" class="docs-link">
-                        <i class="fas fa-external-link-alt"></i> Details
-                      </a>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          {% endif %}
-          {% if custodian.trackRecord.sourceIncidents %}
-            <div class="source-link">
-              <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
-                <i class="fas fa-external-link-alt"></i> {{ page.title | split: " " | first }} Status
-              </a>
-            </div>
+      <div class="incidents">
+        <div class="incident-title">
+          <h4>Incident History</h4>
+          {% if incidents.size > 1 %}
+          <button class="toggle-incidents" aria-expanded="false" aria-controls="incident-list">
+            <i class="fas fa-chevron-down"></i>
+            <span class="show-text">Show More</span>
+            <span class="hide-text">Show Less</span>
+          </button>
           {% endif %}
         </div>
+        {% if incidents.size > 0 %}
+        <div style="margin-bottom: 1rem; padding: 0.5rem 0;">
+          <li style="list-style: none; margin-bottom: 0;">
+            {{ incidents.first.description }}
+            {% if incidents.first.url %}
+            <a href="{{ incidents.first.url }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Details
+            </a>
+            {% endif %}
+          </li>
+        </div>
+        {% if incidents.size > 1 %}
+        <ul id="incident-list" class="incident-list collapsed">
+          {% for incident in incidents offset:1 %}
+          <li>
+            {{ incident.description }}
+            {% if incident.url %}
+            <a href="{{ incident.url }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Details
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        {% endif %}
+        {% if custodian.trackRecord.sourceIncidents %}
+        <div class="source-link">
+          <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
+            <i class="fas fa-external-link-alt"></i> {{ page.title | split: " " | first }} Status
+          </a>
+        </div>
+        {% endif %}
+      </div>
       {% endif %}
       {% if custodian.trackRecord.lastIncident %}
-        <div class="last-incident">
-          <strong>Last Incident:</strong> {{ custodian.trackRecord.lastIncident }}
-        </div>
+      <div class="last-incident">
+        <strong>Last Incident:</strong> {{ custodian.trackRecord.lastIncident }}
+      </div>
       {% endif %}
       {% if custodian.trackRecord.insuranceCoverage %}
-        <div class="insurance">
-          <strong>Insurance Coverage:</strong> 
-          {% if custodian.trackRecord.insuranceTermsUrl %}
-            <a href="{{ custodian.trackRecord.insuranceTermsUrl }}">{{ custodian.trackRecord.insuranceCoverage }}</a>
-          {% else %}
-            {{ custodian.trackRecord.insuranceCoverage }}
-          {% endif %}
-        </div>
+      <div class="insurance">
+        <strong>Insurance Coverage:</strong>
+        {% if custodian.trackRecord.insuranceTermsUrl %}
+        <a href="{{ custodian.trackRecord.insuranceTermsUrl }}">{{ custodian.trackRecord.insuranceCoverage }}</a>
+        {% else %}
+        {{ custodian.trackRecord.insuranceCoverage }}
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>
@@ -549,34 +550,34 @@
     <h3>What is the business model and revenue stream?</h3>
     <div class="textbox">
       {% if custodian.businessModel.type %}
-        <p><strong>Type:</strong> {{ custodian.businessModel.type }}</p>
+      <p><strong>Type:</strong> {{ custodian.businessModel.type }}</p>
       {% endif %}
       {% if custodian.businessModel.services %}
-        <div class="services">
-          <h4>Services Offered</h4>
-          <ul>
-            {% for service in custodian.businessModel.services %}
-              <li><a href="{{ service.url }}">{{ service.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
+      <div class="services">
+        <h4>Services Offered</h4>
+        <ul>
+          {% for service in custodian.businessModel.services %}
+          <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
       {% if custodian.businessModel.restrictedCountries %}
-        <div class="restricted-countries">
-          <div class="section-header">
-            <h4>Restricted Countries</h4>
-            {% if custodian.businessModel.restrictedCountriesSource %}
-              <a href="{{ custodian.businessModel.restrictedCountriesSource }}" class="subtle-source" target="_blank">
-                <i class="fas fa-info-circle"></i>
-              </a>
-            {% endif %}
-          </div>
-          <ul>
-            {% for country in custodian.businessModel.restrictedCountries %}
-              <li>{{ country }}</li>
-            {% endfor %}
-          </ul>
+      <div class="restricted-countries">
+        <div class="section-header">
+          <h4>Restricted Countries</h4>
+          {% if custodian.businessModel.restrictedCountriesSource %}
+          <a href="{{ custodian.businessModel.restrictedCountriesSource }}" class="subtle-source" target="_blank">
+            <i class="fas fa-info-circle"></i>
+          </a>
+          {% endif %}
         </div>
+        <ul>
+          {% for country in custodian.businessModel.restrictedCountries %}
+          <li>{{ country }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
     </div>
   </div>
@@ -589,37 +590,37 @@
     <h3>How risky of a business do they run?</h3>
     <div class="textbox">
       {% if custodian.riskAssessment %}
-        <div class="risk-factors">
-          <ul>
-            {% if custodian.riskAssessment.derivatives %}
-              <li>
-                <i class="fas fa-chart-line"></i> Offers derivatives trading
-                {% if custodian.riskAssessment.derivativesList %}
-                  <ul class="derivatives-list">
-                    {% for product in custodian.riskAssessment.derivativesList %}
-                      <li><a href="{{ product.url }}">{{ product.name }}</a></li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
+      <div class="risk-factors">
+        <ul>
+          {% if custodian.riskAssessment.derivatives %}
+          <li>
+            <i class="fas fa-chart-line"></i> Offers derivatives trading
+            {% if custodian.riskAssessment.derivativesList %}
+            <ul class="derivatives-list">
+              {% for product in custodian.riskAssessment.derivativesList %}
+              <li><a href="{{ product.url }}">{{ product.name }}</a></li>
+              {% endfor %}
+            </ul>
             {% endif %}
-            {% if custodian.riskAssessment.memecoins %}
-              <li>
-                <i class="fas fa-coins"></i> Lists memecoins
-                {% if custodian.riskAssessment.memecoinList %}
-                  <ul class="memecoin-list">
-                    {% for coin in custodian.riskAssessment.memecoinList %}
-                      <li><a href="{{ coin.url }}">{{ coin.name }}</a></li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-              </li>
+          </li>
+          {% endif %}
+          {% if custodian.riskAssessment.memecoins %}
+          <li>
+            <i class="fas fa-coins"></i> Lists memecoins
+            {% if custodian.riskAssessment.memecoinList %}
+            <ul class="memecoin-list">
+              {% for coin in custodian.riskAssessment.memecoinList %}
+              <li><a href="{{ coin.url }}">{{ coin.name }}</a></li>
+              {% endfor %}
+            </ul>
             {% endif %}
-            {% if custodian.riskAssessment.gambling %}
-              <li><i class="fas fa-dice"></i> Provides gambling services</li>
-            {% endif %}
-          </ul>
-        </div>
+          </li>
+          {% endif %}
+          {% if custodian.riskAssessment.gambling %}
+          <li><i class="fas fa-dice"></i> Provides gambling services</li>
+          {% endif %}
+        </ul>
+      </div>
       {% endif %}
     </div>
   </div>
@@ -633,28 +634,28 @@
     <div class="textbox">
       <div class="contributions">
         {% if custodian.bitcoinContribution.fossDevelopment %}
-          <span class="badge security-feature">FOSS Development</span>
+        <span class="badge security-feature">FOSS Development</span>
         {% endif %}
         {% if custodian.bitcoinContribution.protocolSupport %}
-          <span class="badge security-feature">Protocol Support</span>
+        <span class="badge security-feature">Protocol Support</span>
         {% endif %}
         {% if custodian.bitcoinContribution.research %}
-          <span class="badge security-feature">Research</span>
-          {% if custodian.bitcoinContribution.research_url %}
-            <a href="{{ custodian.bitcoinContribution.research_url }}" class="subtle-source" target="_blank">
-              <i class="fas fa-info-circle"></i>
-            </a>
-          {% endif %}
+        <span class="badge security-feature">Research</span>
+        {% if custodian.bitcoinContribution.research_url %}
+        <a href="{{ custodian.bitcoinContribution.research_url }}" class="subtle-source" target="_blank">
+          <i class="fas fa-info-circle"></i>
+        </a>
+        {% endif %}
         {% endif %}
       </div>
       {% if custodian.bitcoinContribution.contributions %}
-        <div class="contribution-details">
-          <ul>
+      <div class="contribution-details">
+        <ul>
           {% for contribution in custodian.bitcoinContribution.contributions %}
-            <li><a href="{{ contribution.url }}">{{ contribution.name }}</a></li>
+          <li><a href="{{ contribution.url }}">{{ contribution.name }}</a></li>
           {% endfor %}
-          </ul>
-        </div>
+        </ul>
+      </div>
       {% endif %}
     </div>
   </div>
@@ -668,24 +669,25 @@
     <div class="textbox">
       <div class="status {% if custodian.userAccess.kycRequired %}success{% else %}error{% endif %}">
         {% if custodian.userAccess.kycRequired %}
-        <i class="fas fa-check"></i> KYC Required  
+        <i class="fas fa-check"></i> KYC Required
         {% else %}
         <i class="fas fa-times"></i> KYC Not Required
         {% endif %}
       </div>
-      <div class="kyc-level"><i class="fas fa-unlock"></i> <strong>Level:</strong> {{ custodian.userAccess.kycLevel }}</div>
+      <div class="kyc-level"><i class="fas fa-unlock"></i> <strong>Level:</strong> {{ custodian.userAccess.kycLevel }}
+      </div>
       {% if custodian.userAccess.withdrawalLimits %}
-        <div class="limits">
-          <h4>Withdrawal Limits</h4>
-          {% if custodian.userAccess.withdrawalLimits.status == "tiered" %}
-            <span>Tiered limits by payment method</span>
-            {% if custodian.userAccess.withdrawalLimits.documentation_url %}
-              <a href="{{ custodian.userAccess.withdrawalLimits.documentation_url }}" class="subtle-source" target="_blank">
-                <i class="fas fa-info-circle"></i>
-              </a>
-            {% endif %}
-          {% endif %}
-        </div>
+      <div class="limits">
+        <h4>Withdrawal Limits</h4>
+        {% if custodian.userAccess.withdrawalLimits.status == "tiered" %}
+        <span>Tiered limits by payment method</span>
+        {% if custodian.userAccess.withdrawalLimits.documentation_url %}
+        <a href="{{ custodian.userAccess.withdrawalLimits.documentation_url }}" class="subtle-source" target="_blank">
+          <i class="fas fa-info-circle"></i>
+        </a>
+        {% endif %}
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>
@@ -698,24 +700,24 @@
     <h3>What are the security features and measures in place?</h3>
     <div class="textbox">
       {% if custodian.security.features %}
-        <div class="features">
-          {% for feature in custodian.security.features %}
-            <span class="badge security-feature">{{ feature }}</span>
-          {% endfor %}
-        </div>
+      <div class="features">
+        {% for feature in custodian.security.features %}
+        <span class="badge security-feature">{{ feature }}</span>
+        {% endfor %}
+      </div>
       {% endif %}
       {% if custodian.security.customInfrastructure %}
-        <div class="infrastructure">
-          <strong>Custom Infrastructure:</strong> 
-          {% if custodian.security.customInfrastructure == true %}
-            Yes
-          {% else %}
-            No (Outsourced)
-          {% endif %}
-        </div>
+      <div class="infrastructure">
+        <strong>Custom Infrastructure:</strong>
+        {% if custodian.security.customInfrastructure == true %}
+        Yes
+        {% else %}
+        No (Outsourced)
+        {% endif %}
+      </div>
       {% endif %}
       {% if custodian.security.details %}
-        <div class="details">{{ custodian.security.details }}</div>
+      <div class="details">{{ custodian.security.details }}</div>
       {% endif %}
     </div>
   </div>
@@ -743,8 +745,7 @@
 <script>
   // Pass custodian data from Jekyll to the JavaScript file
   const custodianData = {{ custodian | jsonify }}; // Liquid template syntax
-  
+
   // Initialize the custodian scoring system using the function from custodianScoring.js
   initCustodianScoring(custodianData);
 </script>
-
