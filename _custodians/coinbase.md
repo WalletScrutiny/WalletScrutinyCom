@@ -150,17 +150,24 @@ custodian:
       <p><strong>Important Note:</strong> The cbBTC reserves (26,887.68 BTC) represent only a small portion of Coinbase's total Bitcoin holdings, which according to Arkham Intelligence amount to approximately 887,000 BTC. cbBTC is specifically designated for cross-chain functionality and should not be confused with Coinbase's total Bitcoin custody.</p>
 
   trackRecord:
+    incidentHistoryProvided: true   # Reviewed and confirmed
     history: "Multiple security incidents affecting customer accounts"
     incidentHistory:
       - description: "Third-party bank data exposure affecting 154 customers' transaction data and personal information"
         date: "July 2024"
         url: "https://cybernews.com/news/coinbase-third-party-breach"
+        severity: "minor"            # Limited number of customers affected
+        resolved: true              # Issue addressed and customers notified
       - description: "Account compromise affecting over 6,000 customers through phishing attacks"
         date: "October 2021"
         url: "https://thecyberexpress.com/coinbase-cyber-attack-customer-data-sale"
+        severity: "major"            # Large number of customers affected
+        resolved: true              # Customers reimbursed and security improved
       - description: "SMS-based two-factor authentication vulnerability exploited, affecting over 6,000 accounts"
         date: "March-May 2021"
         url: "https://therecord.media/hackers-bypass-coinbase-2fa-to-steal-customer-funds"
+        severity: "major"            # Security vulnerability in authentication
+        resolved: true              # Vulnerability patched and security enhanced
     sourceIncidents: "https://status.coinbase.com/"
     lastIncident: "July 2024"
 

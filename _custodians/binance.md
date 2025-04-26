@@ -107,20 +107,29 @@ custodian:
       valid: false
 
   trackRecord:
+    incidentHistoryProvided: true   # Reviewed and confirmed
     history: "Multiple regulatory challenges and leadership changes, including CZ's departure in 2023"
     incidentHistory:
       - description: "Former CEO CZ pleads guilty to federal charges, steps down"
         date: "November 2023"
         url: "https://www.justice.gov/opa/pr/binance-and-ceo-plead-guilty-federal-charges-agree-pay-over-4-billion-criminal-monetary"
+        severity: "major"            # Major regulatory incident
+        resolved: true              # Resolved with settlement and leadership change
       - description: "7,000 BTC stolen from a Binance hot wallet"
         date: "May 2019"
         url: "https://www.binance.com/en/blog/365189201383344128"
+        severity: "major"            # Major security breach
+        resolved: true              # Resolved, funds covered by SAFU
       - description: "Alleged KYC data leak"
         date: "August 2019"
         url: "https://www.coindesk.com/markets/2019/08/07/binance-probing-kyc-data-alleged-leak"
+        severity: "minor"            # Limited impact, disputed authenticity
+        resolved: true              # Investigation completed
       - description: "$100M BNB Chain exploit"
         date: "October 2022"
         url: "https://www.binance.com/en/blog/ecosystem/the-bnb-chain-ecosystem-and-binance-exchange-update-3910070746874562153"
+        severity: "major"            # Major security incident
+        resolved: true              # Resolved, majority of funds secured
     sourceIncidents: "https://www.binance.com/en/blog"
     lastIncident: "November 2023"
 

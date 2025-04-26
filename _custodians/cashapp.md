@@ -121,13 +121,11 @@ custodian:
 
 
   trackRecord:
-    history: "Cash App is a subsidiary of Block Inc. (formerly Square), which has a strong focus on Bitcoin as part of its financial services. Jack Dorsey, CEO of Block, is a vocal Bitcoin advocate."
-    incidentHistory:
-      - description: ""
-        date: ""
-        url: ""
-    sourceIncidents: ""
-    lastIncident: ""
+    incidentHistoryProvided: true   # Reviewed and confirmed
+    history: "Cash App is a subsidiary of Block Inc. (formerly Square), which has a strong focus on Bitcoin as part of its financial services. Jack Dorsey, CEO of Block, is a vocal Bitcoin advocate. No major security incidents affecting user Bitcoin funds have been publicly reported."
+    incidentHistory: []             # No known major security incidents affecting Bitcoin custody
+    sourceIncidents: "https://investors.block.xyz/financials/sec-filings/"
+    lastIncident: ""               # No known major incidents
 
   businessModel:
     type: "Financial Services"

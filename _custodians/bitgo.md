@@ -136,13 +136,11 @@ custodian:
       
 
   trackRecord:
-    history: ""
-    incidentHistory:
-      - description: ""
-        date: ""
-        url: ""
-    sourceIncidents: ""
-    lastIncident: ""
+    incidentHistoryProvided: true   # Reviewed and confirmed
+    history: "BitGo has maintained a strong security track record with no major publicly reported security incidents affecting customer funds."
+    incidentHistory: []             # No known major security incidents
+    sourceIncidents: "https://www.bitgo.com/resources/blog/"
+    lastIncident: ""               # No known incidents
 
   businessModel:
     type: "Custody & Wallet Infrastructure"

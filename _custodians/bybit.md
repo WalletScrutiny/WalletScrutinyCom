@@ -111,11 +111,14 @@ custodian:
       <p>Bybit offers a range of products and services related to Bitcoin, including spot trading, derivatives trading, and staking.</p>
 
   trackRecord:
+    incidentHistoryProvided: true   # Reviewed and confirmed
     history: "Major security incident in February 2025"
     incidentHistory:
       - description: "Bybit was hacked for over $1.4 billion in liquid-staked Ether (stETH), Mantle Staked ETH (mETH), and other ERC-20 tokens."
         date: "February 2025"
         url: "https://cointelegraph.com.news/Bybit-exchange-hacked"
+        severity: "major"            # Major security breach
+        resolved: false              # Ongoing recovery efforts
     sourceIncidents: "https://www.bybit.com/en/announcement-info/deposit-withdraw/"
     lastIncident: "February 2025"
 

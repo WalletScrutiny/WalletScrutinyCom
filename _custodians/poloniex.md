@@ -23,8 +23,8 @@ custodian:
         linkedin: "https://www.linkedin.com/in/justinsuntron/"  
         github: ""    
     team:
-      - name: ""
-        role: ""
+      - name: "Justin Sun"
+        role: "Owner"
     teamSource: ""
 
   androidApp:
@@ -103,21 +103,29 @@ custodian:
       <p>Poloniex is a centralized cryptocurrency exchange offering trading in hundreds of cryptocurrencies. It was acquired by Circle in 2018 and later divested to Polo Digital Assets, Ltd., a Seychelles-based firm associated with TRON founder Justin Sun.</p>
 
   trackRecord:
-    history: "Multiple past security incidents and regulatory issues, highlighting vulnerabilities in platform security."
+    incidentHistoryProvided: true
     incidentHistory:
       - description: "Certik Reports Poloniex BTC, TRON, and ETH wallets compromised, losing $132 million."
         date: "2023-11-10"
         url: "https://www.certik.com/resources/blog/poloniex-incident-analysis"
-      - description: "Scammers exploited the lack of an official Poloniex app by publishing fake “Poloniex Exchange” and “Poloniex Company” apps, which garnered thousands of downloads​"
+        severity: "major"
+        resolved: true
+      - description: "Scammers exploited the lack of an official Poloniex app by publishing fake 'Poloniex Exchange' and 'Poloniex Company' apps, which garnered thousands of downloads."
         date: "2023-03-23"
-      - description: "Poloniex Forces Password Reset After Data Leak Found Online"
+        severity: "minor"
+        resolved: true
+      - description: "Poloniex Forces Password Reset After Data Leak Found Online."
         date: "2019-12-30"
         url: "https://www.bleepingcomputer.com/news/security/poloniex-forces-password-reset-after-data-leak-found-online/"
+        severity: "minor"
+        resolved: true
       - description: "Lost 12.3% of Bitcoin holdings due to a hack."
         date: "2014-03-05"
         url: "https://www.coindesk.com/markets/2014/03/05/poloniex-loses-123-of-its-bitcoins-in-latest-bitcoin-exchange-hack"
-    sourceIncidents: "https://support.poloniex.com/hc/en-us"
-    lastIncident: "2023-11-10"
+        severity: "major"
+        resolved: true
+  # incidentSeverityScore: 0
+  lastIncident: "2023-11-10"
 
   # 4.2 Compliance - Business Model
   businessModel:

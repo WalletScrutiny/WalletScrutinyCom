@@ -101,14 +101,19 @@ custodian:
       valid: true
 
   trackRecord:
+    incidentHistoryProvided: true   # Reviewed and confirmed
     history: "Consistent security and regulatory compliance, but has faced regulatory challenges."
     incidentHistory:
       - description: "Regulatory scrutiny from the SEC over securities offerings."
         date: "2023"
         url: "https://www.coindesk.com/kraken-sec-investigation"
+        severity: "minor"            # Regulatory issue, not a security breach
+        resolved: true              # Settled with SEC
       - description: "Past security incident where a bug led to unintended liquidations."
         date: "2021"
         url: "https://decrypt.co/66200/kraken-exchange-bug"
+        severity: "minor"            # Technical issue affecting trading
+        resolved: true              # Bug fixed and affected users compensated
     sourceIncidents: "https://status.kraken.com/"
     lastIncident: "2023"
 
