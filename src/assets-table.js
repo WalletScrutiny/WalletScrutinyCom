@@ -278,11 +278,12 @@ window.renderAssetsTable = async function({
       </tr>
     </thead>`;
 
-  let verificationEventIds = [];
+  let attachmentEventIDs = [];
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
-      verificationEventIds.push(item.items[0].id);
+      const fileEventIds = getFileAttachmentForVerificationEventId(item.items[0]);
+      attachmentEventIDs.push(...fileEventIds);
 
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
@@ -442,7 +443,7 @@ window.renderAssetsTable = async function({
 
   // ATTACHMENTS TABLE
   if (enableAttachments) {
-    const attachments = await getFileAttachments(verificationEventIds);
+    const attachments = await getFileAttachments(attachmentEventIDs);
 
     // document.getElementById(htmlElementId).appendChild(document.createElement('p').innerHTML = 'Scripts used to reproduce the application:');
 
@@ -457,29 +458,32 @@ window.renderAssetsTable = async function({
     `;
 
     attachments.forEach(attachment => {
-      const verificationId = attachment.tags.find(tag => tag[0] === 'e')?.[1] || '';
       const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
       const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
       const sizeInKb = Math.round(size / 1024);
 
-      // Find in sortedItems the verifications that uses this attachment
-      const verifications = sortedItems.filter(item => item.items.some(i => i.id === verificationId));
+      // Find in sortedItems the specific verification items that use this attachment
+      const verifications = sortedItems.flatMap(item =>
+        item.items.filter(i =>
+          i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
+        )
+      );
 
       const row = document.createElement('tr');
 
-      const attachmentId = `attachment-${verificationId}-${name.replace(/[^a-zA-Z0-9_-]/g, '-')}`;  // Generate a unique ID for this attachment instance
+      const attachmentUniqueId = `attachment-${attachment.id}`;
 
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
       const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-      attachmentDataStore[attachmentId] = {
+      attachmentDataStore[attachmentUniqueId] = {
         content: attachmentContent,
         type: attachmentContentType,
         filename: name
       };
 
       let rowHTML = `
-        <td>${name} <span id="${attachmentId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${name}">💾</span><br>
+        <td>${name} <span id="${attachmentUniqueId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentUniqueId}')" title="Download ${name}">💾</span><br>
           <small>(${attachmentContentType})</small> <br>
           ${sizeInKb} kB
         </td>
@@ -487,17 +491,15 @@ window.renderAssetsTable = async function({
         <td>`;
 
         if (verifications.length > 0) {
-          for (const verificationsForSameSha256 of verifications) {
-            for (const verification of verificationsForSameSha256.items) {
-              const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
-              const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-              const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+          for (const verification of verifications) {
+            const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
+            const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+            const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
-              const wallet = window.wallets.find(w => w.appId === identifier);
-              const walletTitle = wallet ? wallet.title : identifier;
+            const wallet = window.wallets.find(w => w.appId === identifier);
+            const walletTitle = wallet ? wallet.title : identifier;
 
-              rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}`;
-            }
+            rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
           }
         } else {
           rowHTML += '-';
