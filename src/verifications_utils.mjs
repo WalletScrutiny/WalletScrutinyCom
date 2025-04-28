@@ -1,925 +1,695 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
-import { nip19 } from 'nostr-tools';
+import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import {
-  assetRegistrationKind,
-  verificationKind,
-  verificationDraftKind,
-  codeSnippetKind,
-  endorsementKind,
-  explicitRelayUrls,
-  verificationEventsSinceTS,
-  mainRelayUrl,
-  nip89ClientTagD,
-  wsBotPublicKey
-} from "./nostr-constants.mjs";
-import WebSocket from "ws";
-if (typeof global !== 'undefined') {
-  global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
-}
+import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
 
-// Configure DOMPurify to be more restrictive
-const purifyConfig = {
-  ALLOWED_TAGS: ['div'], // No HTML tags allowed
-  ALLOWED_ATTR: ['id'], // Allow id attribute
-  SANITIZE_DOM: true,
-  WHOLE_DOCUMENT: false,
-  RETURN_DOM_FRAGMENT: false,
-  RETURN_DOM: false,
-  RETURN_TRUSTED_TYPE: false
-};
+window.DOMPurify = DOMPurify;
 
-let ndk;
-let ndkConnectionPromise = null; // Promise to track NDK connection status
-let resolveNostrConnectInitiated;
-const nostrConnectInitiatedPromise = new Promise(resolve => {
-  resolveNostrConnectInitiated = resolve;
-});
+let response = null;
+let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
-const connectTimeout = 2000;
+const table = document.createElement('table');
 
-const nostrConnect = function (nostrPrivateKey) {
-  // Assign the connection logic to the promise immediately
-  ndkConnectionPromise = (async () => {
-    let signer;
-    let hasBrowserExtension = await userHasBrowserExtension();
+let attachments = [];
+const attachmentDataStore = {};   // Define a store for attachment data globally accessible
 
-    if (hasBrowserExtension) {
-      console.debug("Signer: Using browser extension");
-      signer = new NDKNip07Signer();
-    } else if (nostrPrivateKey) {
-      console.debug("Signer: Using private key");
-      signer = new NDKPrivateKeySigner(nostrPrivateKey);
-    } else {
-      console.debug("Signer: No signer available");
-      signer = null;
+// Filter table rows
+function updateTableVisibility() {
+  const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
+  const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
+  const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
+
+  // Create a map to track latest versions when filter is active
+  const latestVersions = new Map();
+
+  // Get all rows except header and show-more
+  const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+
+  rows.forEach(row => {
+    const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
+    // Get the full SHA256 hash from the button's onclick attribute
+    const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
+    const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
+
+    // Find Verifications cell by looking at the header text
+    const headerCells = Array.from(table.querySelectorAll('th'));
+    const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
+    const verificationsCell = row.cells[verificationsIndex]?.textContent || '';
+    const hasVerifications = !verificationsCell.includes('No verifications yet');
+
+    // Get identifier for grouping latest versions
+    const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
+
+    let shouldShow = true;
+
+    if (showOnlyNoVerifications) {
+      shouldShow = !hasVerifications;
     }
 
-    ndk = new NDK({
-      explicitRelayUrls: explicitRelayUrls,
-      signer: signer
-    });
-
-    try {
-      await ndk.connect(connectTimeout);
-      console.log("NDK connected successfully.");
-    } catch (e) {
-      console.error("ndk connect failed", e);
-      // Try reconnecting without signer only if browser extension was detected and signer was initially set
-      if (hasBrowserExtension && ndk.signer) {
-        console.log("Trying to connect again without using a signer");
-        ndk.signer = null; // Modify the existing NDK instance's signer
-        await ndk.connect(connectTimeout); // Re-attempt connection, will throw if fails again
-        console.log("NDK connected successfully (without signer).");
+    if (shouldShow && showLatestOnly) {
+      if (!latestVersions.has(identifier)) {
+        latestVersions.set(identifier, true);
       } else {
-        // If no extension or connection failed even without signer, re-throw
-        showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-        throw e;
+        shouldShow = false;
       }
     }
-    // The promise resolves implicitly if connect succeeds, or throws/rejects if it fails
-  })(); // Immediately invoke the async function
 
-  // Signal that nostrConnect has been initiated and the promise is set
-  resolveNostrConnectInitiated();
-  console.debug("nostrConnect initiated, ndkConnectionPromise is set.");
-
-  return ndkConnectionPromise; // Return the promise
-};
-
-// Helper function to ensure NDK is connected before proceeding
-const ensureNdkConnected = async () => {
-  if (!ndkConnectionPromise) {
-    // nostrConnect hasn't been called yet, wait for it to be initiated
-    console.debug("ensureNdkConnected: Waiting for nostrConnect to be initiated...");
-    await nostrConnectInitiatedPromise;
-    console.debug("ensureNdkConnected: nostrConnect initiated.");
-  }
-  // Now we know ndkConnectionPromise is set (or was already set). Wait for the connection attempt to complete.
-  console.debug("ensureNdkConnected: Waiting for ndkConnectionPromise to resolve...");
-  await ndkConnectionPromise;
-  console.debug("ensureNdkConnected: ndkConnectionPromise resolved.");
-  if (!ndk) {
-    // Should not happen if nostrConnect was called and promise resolved, but as a safeguard
-    throw new Error("NDK object not initialized after connection.");
-  }
-};
-
-const getUserPubkey = async function() {
-  await ensureNdkConnected();
-  if (!ndk.signer) {
-    throw new Error("No signer available");
-  }
-  const user = await ndk.signer.user();
-  return user.pubkey;
-}
-
-const userHasBrowserExtension = function() {
-  return new Promise((resolve) => {
-    if (typeof window === 'undefined') {
-      resolve(false);
-    }
-    if (window.nostr) {
-      resolve(true);
+    if (shouldShow) {
+      shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
     }
 
-    // Wait a bit for the extension to load
-    setTimeout(() => {
-      console.debug("Browser extension:", Boolean(window.nostr));
-      resolve(Boolean(window.nostr));
-    }, 100);
+    row.style.display = shouldShow ? '' : 'none';
+  });
+
+
+  // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
+  const hideDraftsChecked = document.getElementById('hideDrafts').checked;
+  document.querySelectorAll('.draft-attestation').forEach(attestation => {
+    if (hideDraftsChecked) {
+      attestation.style.display = 'none';
+    } else {
+      // attestation is a tr?
+      const isATr = attestation.tagName === 'TR';
+      attestation.style.display = isATr ? 'table-row' : 'block';
+    }
   });
 }
 
-const validateSHA256 = function(hashes) {
-  if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
-    throw new Error("You must add at least one SHA256 hash");
-  }
-  for (const hash of hashes) {
-    if (!/^[0-9a-f]{64}$/i.test(hash)) {
-      throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string: " + hash);
-    }
-  }
-}
+window.renderAssetsTable = async function({
+                                            htmlElementId,
+                                            pubkey,
+                                            appId,
+                                            sha256,
+                                            hideConfig,
+                                            showOnlyRows = 100,
+                                            sortByVersion = false,
+                                            enableSearch = false,
+                                            enableDraftsFilter = false,
+                                            enableAttachments = false
+                                          }) {
+  let hasAssets = false;
 
-const getNostrProfile = async function (pubkey) {
-  await ensureNdkConnected();
-  const user = ndk.getUser({ pubkey });
-  return await user.fetchProfile();
-}
-
-const getNpubFromPubkey = async function (pubkey) {
-  await ensureNdkConnected();
-  const user = ndk.getUser({ pubkey });
-  return user.npub;
-}
-
-const getWSClientTag = function() {
-  return ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl];
-}
-
-const createAssetRegistration = async function ({
-                                                  sha256,
-                                                  appId,
-                                                  version,
-                                                  platform,
-                                                  description,
-                                                  createdAt = null
-                                                }) {
-  await ensureNdkConnected();
-  validateSHA256([sha256]);
-
-  if (!appId || !version || !description) {
-    throw new Error("Missing required parameters");
-  }
-
-  // Limit length of parameters
-  if (appId && appId.length > 50) {
-    throw new Error("App ID must be 50 characters or less");
-  }
-  if (version && version.length > 15) {
-    throw new Error("Version must be 15 characters or less");
-  }
-  if (platform && platform.length > 10) {
-    throw new Error("Platform must be 10 characters or less");
-  }
-  if (description && description.length > 120) {
-    throw new Error("Description must be 120 characters or less");
-  }
-
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = assetRegistrationKind;
-  ndkEvent.content = description;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [
-    ["x", sha256],
-    ["ox", sha256],
-    ["i", appId],
-    ["version", version],
-    getWSClientTag()
-  ];
-  if (platform) {
-    ndkEvent.tags.push(["platform", platform]);
-  }
-
-  eventSanitize(ndkEvent);
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`published to ${publishedToRelays.size} relays`)
-    return ndkEvent;
-  } catch (error) {
-    console.error("error publishing to relays", error);
-
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
-  }
-}
-
-const createVerification = async function ({
-                                             hashes,
-                                             description,
-                                             content,
-                                             status,
-                                             appId,
-                                             version,
-                                             platform,
-                                             createdAt = null,
-                                             isDraft = false,
-                                             draftVerificationEventId = null,
-                                             uploadedFileData = [],
-                                             reusedFileIds = []
-                                           }) {
-  await ensureNdkConnected();
-  validateSHA256(hashes);
-
-  if (!content || !status) {
-    throw new Error("Missing required parameters");
-  }
-
-  if (!['reproducible', 'not_reproducible', 'ftbfs', 'spam', 'notag', 'nosource', 'warning', 'obfuscated'].includes(status)) {
-    throw new Error("Invalid status");
-  }
-
-  // Limit length of parameters
-  if (appId && appId.length > 50) {
-    throw new Error("App ID must be 50 characters or less");
-  }
-  if (version && version.length > 15) {
-    throw new Error("Version must be 15 characters or less");
-  }
-  if (platform && platform.length > 10) {
-    throw new Error("Platform must be 10 characters or less");
-  }
-  if (description && description.length > 120) {
-    throw new Error("Description must be 120 characters or less");
-  }
-  if (content && content.length > 60000) {
-    throw new Error("Content must be 60000 characters or less");
-  }
-
-  // --- Upload Files Before Main Event Creation ---
-  let fileUploadResults = [];
-  let fileEventIds = [];
-  if (uploadedFileData.length > 0) {
-    console.log(`Uploading ${uploadedFileData.length} attached file(s) before creating verification...`);
-    const uploadPromises = uploadedFileData.map(fileData =>
-      uploadFileAttachment({
-        fileName: fileData.name,
-        fileType: fileData.type,
-        fileSize: fileData.size,
-        base64Data: fileData.base64Data
-      })
-    );
-    fileUploadResults = await Promise.all(uploadPromises);
-    console.log("File upload process completed.", fileUploadResults);
-
-    // Collect successful file event IDs
-    fileUploadResults.forEach(result => {
-      if (result.success && result.eventId) {
-        fileEventIds.push(result.eventId);
-      }
-    });
-
-    // Handle potential upload failures (optional: decide if this should halt verification creation)
-    const failedUploads = fileUploadResults.filter(r => !r.success);
-    if (failedUploads.length > 0) {
-      console.error("Some file uploads failed:", failedUploads);
-      // Decide whether to throw an error or just log it
-      // For now, let's throw an error if any upload fails
-      throw new Error(`Failed to upload file(s): ${failedUploads.map(f => f.fileName).join(', ')}`);
-    }
-  }
-  // --- End File Upload ---
-
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = isDraft ? verificationDraftKind : verificationKind;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.content = JSON.stringify({
-    description: description || '',
-    content: content,
+  response = await getAllAssetInformation({
+    pubkey,
+    appId,
+    sha256
   });
 
-  ndkEvent.tags = [
-    ["status", status],
-    getWSClientTag()
-  ];
+  // --- Add Blossom Download Warning Modal Structure ---
+  const blossomModalHTML = `
+    <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; text-align: center; border-radius: 8px; color: black;">
+        <span id="blossomCloseModalButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        <p style="margin-top: 30px; margin-bottom: 20px;">⚠️ This file was uploaded by a third party. We haven't verified its content, so please be careful before running it. ⚠️</p>
+        <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
+      </div>
+    </div>
+  `;
+  // Append modal to body to ensure it's outside the main container's potential overflow issues
+  if (!document.getElementById('blossomWarningModal')) {
+    document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
+  }
 
-  if (isDraft) {
-    let draftKey = '';
+  // Search and filter UI
+  if (enableSearch || enableDraftsFilter) {
+    const searchContainer = document.createElement('div');
+    searchContainer.className = 'assets-search-container';
+    searchContainer.style.marginBottom = '20px';
+    searchContainer.innerHTML = `
+      <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <input 
+          type="text" 
+          id="assetSearchInput" 
+          placeholder="Search by wallet name or hash..." 
+          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
+        >
+        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
+          <style>
+            @media (max-width: 768px) {
+              .checkbox-container {
+                flex-direction: column !important;
+                gap: 0 !important;
+              }
+            }
+          </style>
+          <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
+            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+              <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
+              <span>Show latest version only</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+              <input type="checkbox" id="showOnlyNoVerifications">
+              <span>Show only untested assets</span>
+            </label>
+          </div>
+        </div>
+        <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
+          <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
+          <span>Hide drafts</span>
+        </label>
+      </div>`;
 
-    if (appId) {
-      draftKey += `${appId}:`;
+    document.getElementById(htmlElementId).appendChild(searchContainer);
+
+    // Add event listeners for search and filters only if enableSearch is true
+    if (enableSearch) {
+      document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
+      document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
+      document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
     }
-
-    draftKey += `${version}:${platform}`;
-
-    ndkEvent.tags.push(["d", draftKey]);
+    if (enableDraftsFilter) {
+      document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
+    }
   }
 
-  if (appId) {
-    ndkEvent.tags.push(["i", appId]);
-  }
-  if (version) {
-    ndkEvent.tags.push(["version", version]);
-  }
-  if (platform) {
-    ndkEvent.tags.push(["platform", platform]);
-  }
-  hashes.forEach(hash => {
-    ndkEvent.tags.push(["x", hash]);
-  });
+  let hasVerifications = false;
 
-  // Add file event IDs as tags if any files were successfully uploaded
-  if (fileEventIds.length > 0) {
-    fileEventIds.forEach(fileEventId => {
-      ndkEvent.tags.push(["file-attachment", fileEventId]);
-    });
-  }
-  if (reusedFileIds.length > 0) {
-    reusedFileIds.forEach(fileEventId => {
-      ndkEvent.tags.push(["file-attachment", fileEventId]);
-    });
+  let combinedItems = new Map();
+
+  function mergeIntoCombined(sourceMap) {
+    for (const [key, value] of sourceMap.entries()) {
+      const existing = combinedItems.get(key) || [];
+      // Assuming 'value' is always an array based on the subsequent sorting logic
+      combinedItems.set(key, existing.concat(value));
+    }
   }
 
-  eventSanitize(ndkEvent); // Sanitize main event
+  mergeIntoCombined(response.verifications);
+  if (enableDraftsFilter) {
+    mergeIntoCombined(response.draftVerifications);
+  }
+  mergeIntoCombined(response.assets);
 
-  let mainEventId;
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    mainEventId = ndkEvent.id; // Get the ID of the published event
-    console.log(`Published verification (id: ${mainEventId}) to ${publishedToRelays.size} relays`);
-
-    if (!isDraft && draftVerificationEventId) {
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        await draftVerificationEvent.delete(reason, true);
+  // Helper function to find verification by ID across all SHA256 hashes
+  const findVerificationById = (idToFind) => {
+    const allMaps = [response.verifications, response.draftVerifications];
+    for (const map of allMaps) {
+      if (map) { // Check if the map exists (drafts might not)
+        for (const [sha256, attestations] of map.entries()) {
+          const found = attestations.find(att => att.id === idToFind);
+          if (found) {
+            return { verification: found, sha256Hash: sha256 };
+          }
+        }
       }
     }
-
-    return ndkEvent;
-
-  } catch (error) {
-    console.error("error publishing verification to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
-  }
-}
-
-const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
-  await ensureNdkConnected();
-  console.debug("Creating endorsement for verification: ", verificationEventId);
-
-  validateSHA256([sha256]);
-
-  if (!content || !status || !verificationEventId) {
-    throw new Error("Missing required parameters");
-  }
-
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = endorsementKind;
-  ndkEvent.content = content;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [
-    ["x", sha256],
-    ["d", verificationEventId],
-    ["status", status],
-    getWSClientTag()
-  ];
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`published endorsement to ${publishedToRelays.size} relays`);
-  } catch (error) {
-    console.error("error publishing endorsement to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
-  }
-}
-
-function getCreatedAt(createdAt) {
-  return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
-}
-
-function getFirstTag(event, tagName) {
-  const tags = event.getMatchingTags(tagName);
-  return tags.length === 0 ? "" : tags[0][1];
-}
-
-const getTimestampMonthsAgo = function(months = 6) {
-  const date = new Date();
-  date.setMonth(date.getMonth() - months);
-  return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
-}
-
-function isValidJSONObject(str) {
-  try {
-    const parsed = JSON.parse(str);
-    return parsed && typeof parsed === 'object' && !Array.isArray(parsed);
-  } catch (e) {
-    return false;
-  }
-}
-
-function eventSanitize(event) {
-  const isBrowser = typeof window !== 'undefined';
-
-  // Sanitize content
-  if (isValidJSONObject(event.content)) {
-    const contentObject = JSON.parse(event.content);
-
-    Object.keys(contentObject).forEach(key => {
-      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key], purifyConfig) : contentObject[key];
-
-      if (key === 'description') {
-        sanitizedContent = sanitizedContent.substring(0, 120);
-      } else if (key === 'content') {
-        sanitizedContent = sanitizedContent.substring(0, 60000);
-      }
-
-      contentObject[key] = sanitizedContent;
-    });
-
-    event.content = JSON.stringify(contentObject);
-  } else {
-    event.content = isBrowser ? DOMPurify.sanitize(event.content, purifyConfig) : event.content;
-    event.content = event.content.substring(0, 120);
-  }
-
-  // Sanitize tags
-  event.tags.forEach(tag => {
-    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1], purifyConfig) : tag[1];
-
-    // Remove any remaining double quotes from the sanitized tag
-    sanitizedTag = sanitizedTag.replace(/"/g, '');
-
-    if (tag[0] === 'i') {
-      sanitizedTag = sanitizedTag.substring(0, 50);
-    } else if (tag[0] === 'version') {
-      sanitizedTag = sanitizedTag.substring(0, 15);
-    } else if (['x', 'ox'].includes(tag[0])) {
-      sanitizedTag = sanitizedTag.substring(0, 64);
-    } else if (tag[0] === 'platform') {
-      sanitizedTag = sanitizedTag.substring(0, 10);
-    } else if (tag[0] === 'status') {
-      sanitizedTag = sanitizedTag.substring(0, 16);
-    }
-
-    tag[1] = sanitizedTag;
-  });
-}
-
-const getFirstValueFromTag = function(event, tagName) {
-  const tags = event.getMatchingTags(tagName);
-  return tags.length === 0 ? null : tags[0][1];
-}
-
-const getFileAttachmentIDsForVerificationEvent = function(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
-}
-
-const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
-  await ensureNdkConnected();
-
-  if (!fileName || !fileType || !base64Data) {
-    throw new Error("Missing required parameters for file upload");
-  }
-
-  if (fileSize > 60000) { // Double check size
-    throw new Error(`File ${fileName} exceeds the 60KB limit`);
-  }
-
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = codeSnippetKind;
-  ndkEvent.content = base64Data;
-  ndkEvent.created_at = getCreatedAt();
-  ndkEvent.tags = [
-    ["filename", fileName],
-    ["content-type", fileType],
-    ["size", fileSize.toString()],
-    getWSClientTag()
-  ];
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`Uploaded file ${fileName} (${fileSize} bytes) to ${publishedToRelays.size} relays`);
-    return { success: true, eventId: ndkEvent.id, fileName: fileName };
-  } catch (error) {
-    console.error(`Error uploading file ${fileName} to relays`, error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`Error publishing file to relay ${relay.url}`, err);
-      }
-    }
-    return { success: false, error: error, fileName: fileName };
-  }
-}
-
-const getFileAttachmentEvents = async function(fileEventIds) {
-  await ensureNdkConnected();
-
-  if (!fileEventIds || fileEventIds.length === 0) {
-    console.debug(`No file-event tags found on verification event ${fileEventIds}.`);
-    return [];
-  }
-
-  console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
-
-  return await ndk.fetchEvents({
-    kinds: [codeSnippetKind],
-    ids: fileEventIds
-  });
-}
-
-const getAllAttachmentsForAppId = async function(appId) {
-  const response = await getAllAssetInformation({
-    appId
-  });
-
-  const attachments = [];
-  const promises = [];
-
-  for (const sha256VerificationGroup of response.verifications.values()) {
-    for (const verification of sha256VerificationGroup) {
-      const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
-      if (fileEventIds.length > 0) {
-        promises.push(
-          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
-            // Process each fetched attachment event
-            fileAttachmentEvents.forEach(attachmentEvent => {
-              // Add the parent verification event to the attachment
-              attachmentEvent.parentVerificationEvent = verification;
-              attachments.push(attachmentEvent);
-            });
-          })
-        );
-      }
-    }
-  }
-
-  await Promise.all(promises);  // Wait for all promises to resolve before continuing
-
-  return attachments;
-}
-
-const getAllAssetInformation = async function({
-                                                months,
-                                                pubkey,
-                                                appId,
-                                                sha256
-                                              }) {
-  await ensureNdkConnected();
-  console.time('getAllAssetInformation');
-  const filter_assets = {
-    kinds: [assetRegistrationKind],
+    return null;
   };
-  if (months) {
-    console.debug(`Getting events from last ${months} months`);
-    filter_assets.since = getTimestampMonthsAgo(months);
+
+  // Check URL hash for verification details after fetching data
+  if (location.hash.startsWith('#verificationId=')) {
+    const params = new URLSearchParams(location.hash.substring(1));
+    const verificationId = params.get('verificationId');
+
+    if (verificationId) {
+      const result = findVerificationById(verificationId);
+
+      if (result) {
+        const { verification, sha256Hash } = result;
+        // Extract appId and platform from the found verification's tags
+        const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+        const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+        // Call showVerificationModal after a short delay
+        setTimeout(() => {
+          window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
+        }, 100);
+      } else {
+        // Clear the hash if the verification ID is invalid/not found
+        console.warn('Verification ID from URL hash not found:', verificationId);
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
+    } else {
+      // Clear incomplete hash
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
+  }
+
+  // It's items because they can be verifications or assets (no status or content)
+  // Convert to array and sort by most recent item in each group
+  const sortedItems = Array.from(combinedItems).map(([sha256, items]) => {
+    // Sort assets within each SHA256 group by date and take the most recent one
+    const sortedItems = items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    return {
+      sha256,
+      items: sortedItems
+    };
+  });
+
+  // Sort either by version or date depending on sortByVersion parameter
+  if (sortByVersion) {
+    sortedItems.sort((a, b) => {
+      const versionA = a.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionB = b.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+
+      // Check for VARY string first
+      const hasVaryA = versionA.includes('VARY');
+      const hasVaryB = versionB.includes('VARY');
+
+      if (hasVaryA !== hasVaryB) {
+        return hasVaryB ? 1 : -1; // Put VARY versions first
+      }
+
+      // Split versions into components and compare numerically
+      const partsA = versionA.split('.').map(part => parseInt(part) || 0);
+      const partsB = versionB.split('.').map(part => parseInt(part) || 0);
+
+      for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
+        const numA = partsA[i] || 0;
+        const numB = partsB[i] || 0;
+        if (numA !== numB) {
+          return numB - numA; // Sort in descending order
+        }
+      }
+      return 0;
+    });
   } else {
-    console.debug(`Getting events from ${verificationEventsSinceTS} onwards`);
-    filter_assets.since = verificationEventsSinceTS;
-  }
-  if (pubkey) {
-    filter_assets.authors = [pubkey];
-  }
-  if (appId) {
-    filter_assets["#i"] = Array.isArray(appId) ? appId : [appId];
-  }
-  if (sha256) {
-    filter_assets["#x"] = [sha256];
+    sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
+  if (enableAttachments && sortedItems.length > 0) {
+    let attachmentEventIDs = [];
+    sortedItems.forEach((item, index) => {
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
+      attachmentEventIDs.push(...fileEventIds);
+    });
 
-  const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],  // TODO: Add endorsementKind
+    attachments = await getFileAttachmentEvents(attachmentEventIDs);
   }
-  if (months) {
-    filter_verifications.since = getTimestampMonthsAgo(months);
+
+  table.innerHTML = `
+    <thead>
+      <tr>
+        ${hideConfig?.wallet ? '' : '<th style="max-width: 200px;">Wallet</th>'}
+        ${hideConfig?.wallet ? '<th style="max-width: 200px;">Version</th>' : ''}
+        <th class="hide-on-mobile" style="max-width: 300px;">Description</th>
+        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
+        <th class="hide-on-mobile">Binary</th>
+        <th>Verifications</th>
+        <th>Seen</th>
+      </tr>
+    </thead>`;
+
+  if (sortedItems.length > 0) {
+    sortedItems.forEach((item, index) => {
+      // Handle both legacy and new format
+      const binary = item.items ? item.items[0] : item;
+
+      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language,
+        {
+          year: '2-digit',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        }
+      );
+
+      const eventId = binary.id;
+      const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
+
+      const sha256HashKey = item.sha256;
+      const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
+      const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+      // Guess if it's an asset or a verification
+      hasAssets = binary.kind === assetRegistrationKind;
+      const itemDescription = hasAssets ? binary.content : JSON.parse(binary.content).description;
+
+      const standardAttestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const attestations = [...standardAttestations, ...draftAttestations];
+
+      let attestationList;
+      if (attestations.length > 0) {
+        hasVerifications = true;
+
+        const latestAttestationsByUser = new Map();
+        for (const attestation of attestations) {
+          // Always include draft verifications
+          if (attestation.kind === verificationDraftKind) {
+            // Add the draft with a key that includes both the pubkey and the draft ID to ensure we keep all drafts
+            latestAttestationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
+          } else {
+            // For regular attestations, only keep the most recent one per user
+            const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
+              attestation.created_at > existingAttestation.created_at)) {
+              latestAttestationsByUser.set(attestation.pubkey, attestation);
+            }
+          }
+        }
+
+        let listItems = '';
+        for (const attestation of latestAttestationsByUser.values()) {
+          const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          });
+
+          const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+
+          let statusText = null;
+
+          const isDraft = attestation.kind === verificationDraftKind;
+          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span>' : '';
+
+          statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
+
+          listItems += `<span
+                            onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
+                            class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
+                            style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+            <div style="line-height: 1.2; margin-bottom: 0.7em;">
+              ${draftBadge}
+              ${statusText}
+              <small style="display: block;">(${attestationDate})</small>
+            </div>
+          </span>`;
+        }
+        attestationList = `${listItems}
+        ${hideConfig?.buttons ? '' :
+          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
+      } else {
+        attestationList = `No verifications yet.
+        ${hideConfig?.buttons ? '' :
+          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
+      }
+
+      const wallet = window.wallets.find(w => w.appId === identifier);
+      const walletTitle = wallet ? wallet.title : identifier;
+
+      const row = document.createElement('tr');
+      row.className = index >= showOnlyRows ? 'hidden-row' : '';
+      const sanitizedVersion = version.replace(/\./g, '-');
+      row.setAttribute('id', `version-${sanitizedVersion}`);
+      row.innerHTML = `
+        ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+          </div>`).join('') : '-'}</span>` : walletTitle}
+          </td>`}
+        ${hideConfig?.wallet ? `<td>
+          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+          </div>`).join('') : '-'}</span>
+          </td>` : ''}
+        <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
+        ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
+          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button>
+          </div>`).join('') : '-'}
+        </td>`}
+        <td class="hide-on-mobile">
+          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+          `).join('') : '-'}
+        </td>
+        <td>${attestationList}</td>
+        <td>${date}</td>`;
+      table.appendChild(row);
+    });
+
+    if (sortedItems.length > showOnlyRows) {
+      const showMoreRow = document.createElement('tr');
+      showMoreRow.className = 'show-more-row';
+      showMoreRow.innerHTML = `
+        <td colspan="8" style="text-align: center;">
+          <a href="#" class="show-more-link">Show ${sortedItems.length - showOnlyRows} more</a>
+        </td>
+      `;
+      table.appendChild(showMoreRow);
+
+      const showMoreLink = showMoreRow.querySelector('.show-more-link');
+      showMoreLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        const hiddenRows = table.querySelectorAll('.hidden-row');
+        hiddenRows.forEach(row => row.classList.remove('hidden-row'));
+        showMoreRow.remove();
+      });
+    }
   } else {
-    filter_verifications.since = verificationEventsSinceTS;
-  }
-  if (pubkey) {
-    filter_verifications.authors = [pubkey];
-  }
-  if (appId) {
-    filter_verifications["#i"] = Array.isArray(appId) ? appId : [appId];
-  }
-  if (sha256) {
-    filter_verifications["#x"] = [sha256];
+    const row = document.createElement('tr');
+    if (pubkey) {
+      row.innerHTML = '<td colspan="8">No verifications found for this user</td>';
+    } else {
+      row.innerHTML = '<td colspan="8">No verifications found</td>';
+    }
+    table.appendChild(row);
   }
 
-  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
+  document.getElementById(htmlElementId).appendChild(table);
 
-  events.forEach(event => {
-    eventSanitize(event);
-  });
+  // ATTACHMENTS TABLE
+  if (enableAttachments && attachments.size > 0) {
+    const paragraph = document.createElement('p');
+    paragraph.innerHTML = 'Scripts used to reproduce the application:';
+    document.getElementById(htmlElementId).appendChild(paragraph);
 
-  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
+    const attachmentsTable = document.createElement('table');
+    attachmentsTable.innerHTML = `
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Used to reproduce</th>
+        </tr>
+      </thead>
+    `;
 
-  const assetsMap = new Map();
-  const verificationsMap = new Map();
-  const draftVerificationsMap = new Map();
-  const endorsementsMap = new Map();
+    attachments.forEach(attachment => {
+      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+      const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+      const sizeInKb = Math.round(size / 1024);
 
-  assets.forEach(asset => {
-    const sha256FromEventTag = getFirstTag(asset, 'x');
-    if (sha256FromEventTag) {
-      if (!assetsMap.has(sha256FromEventTag)) {
-        assetsMap.set(sha256FromEventTag, []);
+      // Find in sortedItems the specific verification items that use this attachment
+      const verifications = sortedItems.flatMap(item =>
+        item.items.filter(i =>
+          i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
+        )
+      );
+
+      const row = document.createElement('tr');
+      if (verifications.some(v => v.kind === verificationDraftKind)) {
+        row.classList.add('draft-attestation');
       }
-      assetsMap.get(sha256FromEventTag).push(asset);
+
+      // Decode and store attachment data
+      const attachmentContent = atob(attachment.content);
+      const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+      attachmentDataStore[attachment.id] = {
+        content: attachmentContent,
+        type: attachmentContentType,
+        filename: name,
+        sizeInKb: sizeInKb
+      };
+
+      let rowHTML = `
+        <td>${name} <span id="${attachment.id}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
+          <small>(${attachmentContentType})</small> <br>
+          ${sizeInKb} kB
+        </td>
+
+        <td>`;
+
+      if (verifications.length > 0) {
+        for (const verification of verifications) {
+          const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
+          const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+          const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+          const wallet = window.wallets.find(w => w.appId === identifier);
+          const walletTitle = wallet ? wallet.title : identifier;
+
+          rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+        }
+      } else {
+        rowHTML += '-';
+      }
+
+      rowHTML += `</td>`;
+
+      row.innerHTML = rowHTML;
+
+      attachmentsTable.appendChild(row);
+    });
+
+    document.getElementById(htmlElementId).appendChild(attachmentsTable);
+  }
+
+  // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
+  const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  rows.forEach(row => {
+    const attestations = Array.from(row.querySelectorAll('.attestation-link'));
+    if (attestations.every(attestation => attestation.classList.contains('draft-attestation'))) {
+      row.classList.add('draft-attestation');
     }
   });
 
-  verifications.forEach(verification => {
-    const sha256FromEventTag = getFirstTag(verification, 'x');
-    if (sha256FromEventTag) {
-      if (!verificationsMap.has(sha256FromEventTag)) {
-        verificationsMap.set(sha256FromEventTag, []);
+  // Apply initial filter only if enableSearch is true
+  if (enableSearch || enableDraftsFilter) {
+    updateTableVisibility();
+  }
+
+  // Setup Intersection Observer for lazy loading Blossom checks
+  const observedHashes = new Set();
+
+  // --- Helper function for actual download ---
+  const downloadBlossomFile = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    console.log('downloading');
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const filenameFromURL = response.url?.split('/').pop() ?? hash;
+
+      let filename = '';
+      const title = downloadIcon.getAttribute('data-title');
+      const version = downloadIcon.getAttribute('data-version');
+      const appid = downloadIcon.getAttribute('data-appid');
+
+      if (title && !title.includes(' ')) {
+        filename = `${title}-${version}-${filenameFromURL}`;
+      } else {
+        filename = `${appid}-${version}-${filenameFromURL}`;
       }
-      verificationsMap.get(sha256FromEventTag).push(verification);
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href); // Clean up blob URL
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
     }
+  };
+  // --- End helper function ---
+
+  const blossomObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(async entry => {
+      if (entry.isIntersecting) {
+        const row = entry.target;
+        const hashElements = row.querySelectorAll('.blossom-download');
+
+        for (const downloadIcon of hashElements) {
+          const hash = downloadIcon.id.replace('blossom-', '');
+
+          // Skip if we've already checked this hash
+          if (observedHashes.has(hash)) continue;
+          observedHashes.add(hash);
+
+          try {
+            const exists = await checkBlossomFile(hash);
+            if (exists) {
+              downloadIcon.style.display = 'inline';
+              downloadIcon.onclick = async () => {
+                const modal = document.getElementById('blossomWarningModal');
+                const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+                const closeButton = document.getElementById('blossomCloseModalButton');
+
+                const downloadAction = () => {
+                  downloadBlossomFile(hash, downloadIcon);
+                  modal.style.display = 'none';
+                };
+
+                // Remove previous listener to avoid duplicates if clicked multiple times
+                confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
+                document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+
+                const closeModal = () => {
+                  modal.style.display = 'none';
+                };
+                closeButton.onclick = closeModal;
+                modal.onclick = (event) => { // Close if clicking outside the content
+                  if (event.target === modal) {
+                    closeModal();
+                  }
+                };
+
+                modal.style.display = 'block'; // Show the modal
+              };
+            }
+          } catch (error) {
+            console.error(`Error checking hash ${hash} in Blossom:`, error);
+          }
+        }
+      }
+    });
+  }, {
+    root: null, // Use the viewport
+    rootMargin: '100px', // Start loading a bit before they become visible
+    threshold: 0.1 // Trigger when at least 10% of the element is visible
   });
 
-  draftVerifications.forEach(draftVerification => {
-    const sha256FromEventTag = getFirstTag(draftVerification, 'x');
-    if (sha256FromEventTag) {
-      if (!draftVerificationsMap.has(sha256FromEventTag)) {
-        draftVerificationsMap.set(sha256FromEventTag, []);
-      }
-      draftVerificationsMap.get(sha256FromEventTag).push(draftVerification);
-    }
+  // Observe all rows in the table
+  const tableRows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  tableRows.forEach(row => {
+    blossomObserver.observe(row);
   });
 
-  /*
-  endorsements.forEach(endorsement => {
-    const verificationEventId = getFirstTag(endorsement, 'd');
-    if (verificationEventId) {
-      if (!endorsementsMap.has(verificationEventId)) {
-        endorsementsMap.set(verificationEventId, []);
-      }
-      endorsementsMap.get(verificationEventId).push(endorsement);
-    }
-  });
-  */
+  // Function to handle filtering and update observer
+  function updateObserverForVisibleRows() {
+    const visibleRows = Array.from(table.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
 
-  console.timeEnd('getAllAssetInformation');
+    // Re-observe all visible rows to trigger checks for newly visible elements
+    visibleRows.forEach(row => {
+      blossomObserver.observe(row);
+    });
+  }
+
+  // Hook into the existing updateTableVisibility function to update observer when filtering
+  const originalUpdateTableVisibility = updateTableVisibility;
+  updateTableVisibility = function() {
+    originalUpdateTableVisibility();
+    updateObserverForVisibleRows();
+  };
+
+  // Initial check for visible rows
+  updateObserverForVisibleRows();
 
   return {
-    assets: assetsMap,
-    verifications: verificationsMap,
-    draftVerifications: draftVerificationsMap,
-    endorsements: endorsementsMap
+    hasAssets,
+    hasVerifications,
+    info: response
   };
-}
+};
 
-function getAppInfoFromEventInfo(eventInfo) {
-  const isAsset = eventInfo.kind === assetRegistrationKind;
+window.showVerificationModal = async function(sha256Hash, verificationId, appId, platform) {
+  document.body.classList.add("modal-open");
 
-  const createdAt = eventInfo.created_at;
-  const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
-  const content = isAsset ? eventInfo.content : JSON.parse(eventInfo.content).content;
-  const appId = eventInfo.tags.find(tag => tag[0] === 'i')?.[1];
-  const version = eventInfo.tags.find(tag => tag[0] === 'version')?.[1];
-  const platform = eventInfo.tags.find(tag => tag[0] === 'platform')?.[1];
-  const status = eventInfo.tags.find(tag => tag[0] === 'status')?.[1];
-  const url = eventInfo.tags.find(tag => tag[0] === 'url')?.[1];
-  const gitRevision = eventInfo.tags.find(tag => tag[0] === 'git_revision')?.[1];
-  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+  const verifications = response.verifications.get(sha256Hash) || [];
+  const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
+  const attestations = [...verifications, ...draftVerifications];
+  const verification  = attestations.find(a => a.id === verificationId);
+  const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
-  return { isAsset, appId, version, createdAt, description, content, platform, status, url, gitRevision, appHashes };
-}
+  const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-function showToast(message, type = 'success', duration = 4000) {
-  return new Promise((resolve) => {
-    // Remove existing toast if any
-    const existingToast = document.querySelector('.toast');
-    if (existingToast) {
-      existingToast.remove();
-    }
+  const modal = document.getElementById('verificationModal');
+  const content = document.getElementById('verificationContent');
 
-    let color;
-    if (type === 'error') {
-      duration = 6000;
-      color = '#ff5861';
-    } else if (type === 'success') {
-      color = '#00a96e';
-    } else if (type === 'warning') {
-      color = '#ffbe00';
-    } else if (type === 'info') {
-      color = '#00b6ff';
-    }
+  // Reset scroll positions before showing the modal again
+  setTimeout(() => {
+    content.scrollTop = 0;
+    content.scrollLeft = 0;
+  }, 0);
 
-    // Create new toast
-    const toast = document.createElement('div');
-    toast.className = 'toast';
-    toast.style.backgroundColor = color;
-    toast.innerHTML = message;
-    document.body.appendChild(toast);
+  modal.style.background = window.theme === 'dark' ? '#2d2d2df7' : '#e1e1e1f7';
+  modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 
-    // Show toast
-    setTimeout(() => toast.classList.add('show'), 250);
-
-    // Hide and remove toast after duration
-    setTimeout(() => {
-      toast.classList.remove('show');
-      toast.remove();
-      resolve();
-    }, duration);
-  });
-}
-
-const createNostrNote = async function (message) {
-  await ensureNdkConnected();
-  if (!message) {
-    throw new Error("Message is required");
-  }
-
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = 1;
-  ndkEvent.content = message;
-  ndkEvent.tags = [
-    getWSClientTag()
-  ];
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.debug(`published note to ${publishedToRelays.size} relays`);
-    return ndkEvent.id;
-  } catch (error) {
-    console.error("error publishing note to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-    throw error;
-  }
-}
-
-function setupAppIdAutocomplete() {
-  const appIdInput = document.getElementById('appId');
-  const suggestionsContainer = document.getElementById('appIdSuggestions');
-
-  function filterWallets(searchText) {
-    if (!window.wallets) return [];
-    return window.wallets.filter(wallet => {
-      const searchLower = searchText.toLowerCase();
-      return wallet.appId.toLowerCase().includes(searchLower) ||
-        wallet.title.toLowerCase().includes(searchLower);
-    });
-  }
-
-  // Helper function to decode HTML entities
-  function decodeHtmlEntities(text) {
-    const textArea = document.createElement('textarea');
-    textArea.innerHTML = text;
-    return textArea.value;
-  }
-
-  function showSuggestions(suggestions) {
-    suggestionsContainer.innerHTML = '';
-    if (suggestions.length === 0) {
-      suggestionsContainer.style.display = 'none';
-      return;
-    }
-
-    suggestions.forEach(wallet => {
-      const div = document.createElement('div');
-      div.className = 'suggestion-item';
-      // Decode HTML entities in the title before displaying
-      const decodedTitle = decodeHtmlEntities(wallet.title);
-      div.textContent = `${decodedTitle}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
-      div.onclick = () => {
-        appIdInput.value = wallet.appId;
-        suggestionsContainer.style.display = 'none';
-        appIdInput.dispatchEvent(new Event('input', { bubbles: true }));  // Manually trigger the input event after setting the value
-      };
-      suggestionsContainer.appendChild(div);
-    });
-
-    suggestionsContainer.style.display = 'block';
-  }
-
-  appIdInput.addEventListener('input', (e) => {
-    const searchText = e.target.value;
-    const filteredWallets = filterWallets(searchText);
-    showSuggestions(filteredWallets);
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
-      suggestionsContainer.style.display = 'none';
-    }
-  });
-}
-
-function getStatusText(status, short = false) {
-  switch (status) {
-    case 'reproducible':
-      return 'Reproducible when tested';
-    case 'not_reproducible':
-      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
-    case 'ftbfs':
-      return short ? 'Failed to build from source' : 'Failed to build from source provided';
-    case 'notag':
-      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
-    case 'nosource':
-      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
-    case 'obfuscated':
-      return short ? 'Source obfuscated' : 'Source code is obfuscated';
-    case 'warning':
-      return 'Warning';
-    default:
-      return status;
-  }
-}
-
-function isDebugEnv() {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-  return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
-}
-
-const getDraftVerificationEvent = async function(draftVerificationEventId) {
-  await ensureNdkConnected();
-  return await ndk.fetchEvent(draftVerificationEventId);
-}
-
-const deleteDraftVerification = async function(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
-  if (!draftVerificationEventId) {
-    showToast('No draft verification ID found', 'error');
-    return;
-  }
-
-  if (confirm('Are you sure you want to delete this draft verification? This action cannot be undone.')) {
-    try {
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        await draftVerificationEvent.delete(reason, true);
-      }
-
-      showToast('Draft verification deleted successfully');
-
-      if (moveToURL) {
-        window.location.href = moveToURL;
-      } else {
-        window.location.reload();
-      }
-    } catch (error) {
-      showToast(error.message, 'error');
-    }
-  }
-}
-
-const loadDraftVerificationsNotifications = async function () {
-  const myPubkey = await getUserPubkey();
-  if (!myPubkey) {
-    console.error('No pubkey found');
-    return;
-  }
-
-  const result = await getAllAssetInformation({months: 3, pubkey: myPubkey}); // TODO: improve this to get only draft verifications?
-
-  let myDraftVerifications = [];
-
-  for (const draftVerification of result.draftVerifications) {
-    const arrayDraftVerificationEventsForThisSha256 = draftVerification[1];
-
-    for (const draftVerificationEvent of arrayDraftVerificationEventsForThisSha256) {
-      myDraftVerifications.push(draftVerificationEvent);
-    }
-  }
-
-  if (myDraftVerifications && myDraftVerifications.length > 0) {
-    myDraftVerifications.forEach(verification => {
-      const identifier = verification.tags?.find(tag => tag[0] === 'i')?.[1];
-      const version = verification.tags?.find(tag => tag[0] === 'version')?.[1];
-      const wallet = window.wallets?.find(w => w.appId === identifier);
-      const walletTitle = wallet ? wallet.title : identifier ?? 'Unknown';
-
-      const verificationDate = new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
+  let otherVerificationsHTML = '';
+  if (otherVerificationsBySamePubkey.length > 0) {
+    for (const otherVerification of otherVerificationsBySamePubkey) {
+      const verificationDate = new Date(otherVerification.created_at * 1000).toLocaleDateString(navigator.language, {
         year: 'numeric',
         month: 'short',
         day: 'numeric',
@@ -927,86 +697,252 @@ const loadDraftVerificationsNotifications = async function () {
         minute: '2-digit'
       });
 
-      const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
-      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + ` ${getStatusText(status, true)}</span>`;
+      const status = otherVerification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-      addNotificationToIndicator('Unpublished Verification',
-        `${walletTitle} - ${version ? version+' -' : ''} ${verificationDate} ${statusIcon}
-        <br>
-        <button class="edit-button" onclick="doDraftVerificationAction('${verification.id}', 'edit')">Edit</button>
-        <button class="delete-button" onclick="doDraftVerificationAction('${verification.id}', 'delete')">Delete</button>`,'info')
-    });
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + '</span>';
+
+      otherVerificationsHTML += `<li>
+        ${verificationDate} ${statusIcon}
+      </li>`;
+    }
+    otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
-}
 
-function doDraftVerificationAction(draftVerificationEventId, action) {
-  if (action === 'edit') {
-    window.location.href = `/new_verification?draftVerificationEventId=${draftVerificationEventId}&action=${action}`;
-  } else if (action === 'delete') {
-    let goToURL = null;
+  const isDraft = verification.kind === verificationDraftKind;
+  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.</p>` : '';
 
-    if (window.location.pathname.includes('new_verification')) {
-      goToURL = '/assets/';
+  content.innerHTML += `
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
+    <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  })}</p>
+    <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+
+  const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+
+  if (verificationAttachments.length > 0) {
+    // Wait here until attachmentDataStore is filled
+    while (Object.keys(attachmentDataStore).length === 0) {
+      await new Promise(resolve => setTimeout(resolve, 50));
     }
 
-    deleteDraftVerification(draftVerificationEventId, goToURL);
+
+    let attachmentsHTML = '';
+
+    for (const attachment of verificationAttachments) {
+      const attachmentId = attachment[1];
+      const attachmentInfo = attachmentDataStore[attachmentId];
+
+      if (attachmentInfo) {
+        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.type})</small> - ${attachmentInfo.sizeInKb} kB  <span id="${attachmentId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span></li>`;
+      }
+    }
+
+    content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
   }
-}
 
-if (typeof window !== 'undefined') {
-  window.nostrConnect = nostrConnect;
-  window.createAssetRegistration = createAssetRegistration;
-  window.createVerification = createVerification;
-  window.createEndorsement = createEndorsement;
-  window.createNostrNote = createNostrNote;
-  window.getNostrProfile = getNostrProfile;
-  window.getAllAssetInformation = getAllAssetInformation;
-  window.getFirstTag = getFirstTag;
-  window.getUserPubkey = getUserPubkey;
-  window.userHasBrowserExtension = userHasBrowserExtension;
-  window.showToast = showToast;
-  window.getNpubFromPubkey = getNpubFromPubkey;
-  window.setupAppIdAutocomplete = setupAppIdAutocomplete;
-  window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
-  window.nip19 = nip19;
-  window.purifyConfig = purifyConfig;
-  window.getStatusText = getStatusText;
-  window.loadDraftVerificationsNotifications = loadDraftVerificationsNotifications;
-  window.doDraftVerificationAction = doDraftVerificationAction;
-  window.getDraftVerificationEvent = getDraftVerificationEvent;
-  window.deleteDraftVerification = deleteDraftVerification;
-  window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
-  window.uploadFileAttachment = uploadFileAttachment;
-  window.getFileAttachmentEvents = getFileAttachmentEvents;
-  window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
-}
+  if (otherVerificationsHTML !== '') {
+    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+  }
 
-export {
-  nostrConnect,
-  createAssetRegistration,
-  createVerification,
-  createEndorsement,
-  createNostrNote,
-  getNostrProfile,
-  getAllAssetInformation,
-  getFirstTag,
-  getUserPubkey,
-  userHasBrowserExtension,
-  showToast,
-  getNpubFromPubkey,
-  setupAppIdAutocomplete,
-  getAppInfoFromEventInfo,
-  nip19,
-  purifyConfig,
-  isDebugEnv,
-  getStatusText,
-  loadDraftVerificationsNotifications,
-  doDraftVerificationAction,
-  getDraftVerificationEvent,
-  deleteDraftVerification,
-  getFirstValueFromTag,
-  getFileAttachmentIDsForVerificationEvent,
-  uploadFileAttachment,
-  getFileAttachmentEvents,
-  getAllAttachmentsForAppId
+  const itemContent = JSON.parse(verification.content).content;
+
+  content.innerHTML += `
+    <p><strong>Information:</strong>
+      <div class="markdown-content">${marked.parse(itemContent)}</div>
+    </p>
+  `;
+
+  // Play asciicast
+  if (verification.content.includes('ascii_cast_player')) {
+    // Check if asciinema player scripts are already loaded
+    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+    // Only add JS if not already present
+    let asciinemaPlayerJS;
+    if (!asciinemaJSExists) {
+      asciinemaPlayerJS = document.createElement('script');
+      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+      document.head.appendChild(asciinemaPlayerJS);
+    }
+
+    // Only add CSS if not already present
+    if (!ascinemaCSSExists) {
+      const asciinemaPlayerCSS = document.createElement('link');
+      asciinemaPlayerCSS.rel = 'stylesheet';
+      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+      document.head.appendChild(asciinemaPlayerCSS);
+    }
+
+    if (!platform) {    // Extract platform from the URL path
+      const urlParts = window.location.pathname.split('/').filter(Boolean);
+      if (urlParts.length > 0) {
+        platform = urlParts[0];
+      }
+    }
+
+    // Function to initialize the player
+    const initPlayer = () => {
+      AsciinemaPlayer.create(
+        '/assets/casts/' + platform + '/' + appId + '.cast',
+        document.getElementById('ascii_cast_player'),
+        {
+          idleTimeLimit: 1,
+          autoPlay: true,
+          rows: 25
+        }
+      );
+    };
+
+    // If we just added the script, wait for it to load
+    if (!asciinemaJSExists && asciinemaPlayerJS) {
+      asciinemaPlayerJS.onload = initPlayer;
+    } else {
+      // Script was already loaded, initialize player directly
+      initPlayer();
+    }
+  }
+
+  modal.style.display = 'block';
+
+  // Add share button dynamically
+  const shareButton = document.createElement('button');
+  shareButton.id = 'shareVerificationButton';
+  // Use innerHTML to include the Font Awesome icon and text
+  shareButton.innerHTML = '<i class="fas fa-share-alt"></i> Copy link to this verification';
+  shareButton.title = 'Copy link to this verification';
+  shareButton.style.position = 'absolute';
+  shareButton.style.top = '15px';
+  shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
+  shareButton.className = 'btn-small'; // Optional: Use existing styles
+  shareButton.onclick = () => {
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => showToast('Link copied to clipboard'))
+      .catch(err => {
+        console.error('Failed to copy link: ', err);
+        showToast('Failed to copy link', 'error');
+      });
+  };
+  modal.appendChild(shareButton);
+
+  // Add blur to all divs except verificationModal
+  document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+    div.style.filter = 'blur(5px)';
+  });
+
+  // Store original URL before changing hash
+  originalUrlBeforeModal = window.location.pathname + window.location.search;
+
+  // Update hash only if not already set by initial load check
+  const currentHash = `#verificationId=${verificationId}`;
+  if (window.location.hash !== currentHash) {
+    location.hash = currentHash;
+  }
+
+  const profile = await getNostrProfile(verification.pubkey);
+
+  document.getElementById('attempt-by').innerHTML = profile ? `
+    <div class="profile-card">
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'">
+        <div>${profile.name || verification.pubkey}</div>
+        ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+      </div>
+    </div>
+  ` : verification.pubkey;
+
+  const closeModalAction = () => {
+    modal.style.display = 'none';
+    window.removeEventListener('click', handleClick);
+    window.removeEventListener('keydown', handleKeyDown);
+    document.body.classList.remove("modal-open");
+    // Remove blur from all divs
+    document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+      div.style.filter = '';
+    });
+    // Restore original URL (remove hash)
+    history.pushState("", document.title, originalUrlBeforeModal);
+    // Remove the dynamically added share button
+    const shareBtn = document.getElementById('shareVerificationButton');
+    if (shareBtn) {
+      shareBtn.remove();
+    }
+  };
+
+  document.getElementById('closeModal').onclick = closeModalAction;
+
+  const handleClick = function(event) {
+    // Close only if click is outside the modal content area
+    if (!content.contains(event.target) && event.target !== content && event.target.id !== 'closeModal' && !event.target.closest('.attestation-link')) {
+      // Check if the click target is outside the modal boundaries entirely
+      const modalRect = modal.getBoundingClientRect();
+      if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
+        closeModalAction();
+      }
+    }
+  };
+
+  const handleKeyDown = function(event) {
+    if (event.key === 'Escape') {
+      closeModalAction();
+    }
+  };
+
+  window.addEventListener('click', handleClick);
+  window.addEventListener('keydown', handleKeyDown);
+};
+
+// Function to handle attachment download using stored data
+window.handleAttachmentDownload = function(attachmentId) {
+  const modal = document.getElementById('blossomWarningModal');
+  const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+  const closeButton = document.getElementById('blossomCloseModalButton');
+
+  const downloadAction = () => {
+    const attachmentData = attachmentDataStore[attachmentId];
+
+    if (!attachmentData || !attachmentData.content) {
+      console.error('Attachment data or content is missing for ID:', attachmentId);
+      showToast('Error: Attachment data is missing.', 'error');
+      return;
+    }
+
+    try {
+      const blob = new Blob([attachmentData.content], { type: attachmentData.type });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = attachmentData.filename;
+      document.body.appendChild(a); // Append anchor to body
+      a.click();
+      document.body.removeChild(a); // Clean up anchor
+      URL.revokeObjectURL(url); // Clean up blob URL
+    } catch (error) {
+      console.error('Error preparing download:', error);
+      showToast('Error preparing download.', 'error');
+    }
+
+    modal.style.display = 'none';
+  };
+
+  // Remove previous listener to avoid duplicates if clicked multiple times
+  confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
+  document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
+  closeButton.onclick = closeModal;
+  modal.onclick = (event) => { // Close if clicking outside the content
+    if (event.target === modal) {
+      closeModal();
+    }
+  };
+
+  modal.style.display = 'block';
 };
