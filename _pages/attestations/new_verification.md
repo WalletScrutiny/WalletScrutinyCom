@@ -377,6 +377,24 @@ async function loadUrlParamsAndGetAssetInfo() {
 
     const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
     if (draftVerificationEvent) {
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
+      const attachments = await getFileAttachmentEvents(fileEventIds);
+
+      attachments.forEach(attachment => {
+        const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+        const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+        const attachmentContent = atob(attachment.content);
+        const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+        uploadedFiles.push({
+          name: name,
+          size: size,
+          type: attachmentContentType,
+          data: attachmentContent
+        });
+      });
+      displayFiles();
+
       const eventContent = JSON.parse(draftVerificationEvent.content);
 
       document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';

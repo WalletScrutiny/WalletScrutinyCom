@@ -269,11 +269,11 @@ window.renderAssetsTable = async function({
   if (enableAttachments && sortedItems.length > 0) {
     let attachmentEventIDs = [];
     sortedItems.forEach((item, index) => {
-      const fileEventIds = getFileAttachmentForVerificationEventId(item.items[0]);
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
       attachmentEventIDs.push(...fileEventIds);
     });
 
-    attachments = await getFileAttachments(attachmentEventIDs);
+    attachments = await getFileAttachmentEvents(attachmentEventIDs);
   }
 
   table.innerHTML = `
