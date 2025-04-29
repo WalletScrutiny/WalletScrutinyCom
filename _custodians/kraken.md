@@ -37,17 +37,21 @@ custodian:
         role: "Chief Growth & Marketing Officer @ Kraken"
     teamSource: "https://www.kraken.com/about"
 
-  androidApps:
-    - name: "Kraken - Buy Bitcoin & Crypto"
-      url: "/android/com.kraken.trade"
-    - name: "Kraken - Buy TRUMP & Bitcoin"
-      url: "/android/com.kraken.invest.app"
+  androidApp:
+    name: "Kraken - Buy Bitcoin & Crypto"
+    url: "/android/com.kraken.trade"
 
-  iphoneApps:
-    - name: "Kraken - Buy Bitcoin & Crypto"
-      url: "/iphone/com.kraken.trade.app"
-    - name: "Kraken: Buy Crypto & Bitcoin"
-      url: "/iphone/com.kraken.invest.app"
+  androidApp2:
+    name: "Kraken - Buy TRUMP & Bitcoin"
+    url: "/android/com.kraken.invest.app"
+
+  iphoneApp:
+    name: "Kraken - Buy Bitcoin & Crypto"
+    url: "/iphone/com.kraken.trade.app"
+    
+  iphoneApp2:
+    name: "Kraken: Buy Crypto & Bitcoin"
+    url: "/iphone/com.kraken.invest.app"
   
   desktopApp:
     name: "Kraken: Desktop Wallet"

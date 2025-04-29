@@ -41,8 +41,23 @@ Expects:
 </div>
 
 <div class="see-also list-view">
+  {% assign empty_array = "" | split: "" %}
+  {% assign android_apps = empty_array %}
+  
+  {% if custodian.androidApps %}
+    {% assign android_apps = custodian.androidApps %}
+  {% else %}
+    {% if custodian.androidApp %}
+      {% assign android_apps = android_apps | push: custodian.androidApp %}
+    {% endif %}
+    {% if custodian.androidApp2 %}
+      {% assign android_apps = android_apps | push: custodian.androidApp2 %}
+    {% endif %}
+    {% if custodian.androidApp3 %}
+      {% assign android_apps = android_apps | push: custodian.androidApp3 %}
+    {% endif %}
+  {% endif %}
 
-  {% assign android_apps = custodian.androidApps | default: custodian.androidApp | default: empty_array %}
   {% if android_apps.size > 0 %}
   {% for app in android_apps %}
   <a href="{{ app.url }}" class="app-link">
@@ -78,7 +93,22 @@ Expects:
   {% endfor %}
   {% endif %}
 
-  {% assign iphone_apps = custodian.iphoneApps | default: custodian.iphoneApp | default: empty_array %}
+  {% assign iphone_apps = empty_array %}
+  
+  {% if custodian.iphoneApps %}
+    {% assign iphone_apps = custodian.iphoneApps %}
+  {% else %}
+    {% if custodian.iphoneApp %}
+      {% assign iphone_apps = iphone_apps | push: custodian.iphoneApp %}
+    {% endif %}
+    {% if custodian.iphoneApp2 %}
+      {% assign iphone_apps = iphone_apps | push: custodian.iphoneApp2 %}
+    {% endif %}
+    {% if custodian.iphoneApp3 %}
+      {% assign iphone_apps = iphone_apps | push: custodian.iphoneApp3 %}
+    {% endif %}
+  {% endif %}
+
   {% if iphone_apps.size > 0 %}
   {% for app in iphone_apps %}
   <a href="{{ app.url }}" class="app-link">
@@ -87,7 +117,6 @@ Expects:
         {% assign app_id = app.url | split: '/' | last %}
         {% assign app_parts = app.url | split: '/' %}
         {% assign app_type = app_parts[1] %}
-
         {% assign tiny_png = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".png"
         %}
         {% assign tiny_jpg = "/images/wIcons/" | append: app_type | append: "/tiny/" | append: app_id | append: ".jpg"
