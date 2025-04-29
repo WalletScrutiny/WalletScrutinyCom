@@ -141,6 +141,7 @@ custodian:
         details: "Fees on payment services"
 
   riskAssessment:
+    description: ""
     derivatives: false
     derivativesList:
       - name: ""

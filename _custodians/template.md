@@ -126,6 +126,7 @@ custodian:
         details: ""
 
   riskAssessment:
+    description: ""
     derivatives: false # Boolean: offers derivative trading
     derivativesList: # List of derivative products if applicable
       - name: ""

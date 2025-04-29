@@ -20,7 +20,7 @@ custodian:
       social:
         twitter: "https://x.com/Leishman"
         linkedin: "https://www.linkedin.com/in/aleishman"
-        github: ""
+        github: "https://github.com/leishman"
     team:
       - name: "Alexander Leishman"
         role: "Founder, CEO & CTO"
@@ -28,7 +28,17 @@ custodian:
         role: "Chief Operating Officer"
       - name: "Cem Paya"
         role: "Chief Security Officer"
-    teamSource: "https://river.com/company"
+      - name: "Bill Mongan"
+        role: "General Counsel"
+      - name: "James Page"
+        role: "Chief Product Officer"
+      - name: "Ellen Weaver"
+        role: "Director of People"
+      - name: "Joe Bryan"
+        role: "Director of Finance"
+      - name: "Sam Wouters"
+        role: "Director of Marketing"
+    teamSource: "https://river.com/about"
 
   androidApp:
     name: "River: Buy Bitcoin Instantly"
@@ -108,7 +118,7 @@ custodian:
     incidentHistoryProvided: true   # must flip to true once reviewed
     incidentHistory: []             # empty array as no incidents reported
     # incidentSeverityScore: 0       # manual override (–5 to +5)
-    lastIncident: ""               # Month YYYY (used only if you prefer date logic)
+    lastIncident: "No incidents reported"
 
   businessModel:
     type: "Bitcoin Brokerage, Custody & Mining"
@@ -140,6 +150,7 @@ custodian:
       - "Non-US Territories"
 
   riskAssessment:
+    description: "River Financial operates with minimal risk factors as a Bitcoin-only platform. They do not offer derivatives trading, memecoins, or gambling services, focusing exclusively on Bitcoin custody, brokerage, and mining operations with strong security practices."
     derivatives: false
     derivativesList: []
     memecoins: false

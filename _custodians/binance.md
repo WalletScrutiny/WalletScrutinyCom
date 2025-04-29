@@ -159,6 +159,7 @@ custodian:
         details: "Asset listings, margin lending, staking, and various services"
 
   riskAssessment:
+    description: ""
     derivatives: true
     derivativesList:
       - name: "Binance Futures"

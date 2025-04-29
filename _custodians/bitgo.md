@@ -160,6 +160,7 @@ custodian:
         details: ""
 
   riskAssessment:
+    description: ""
     derivatives: false
     derivativesList:
       - name: ""

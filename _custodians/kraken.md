@@ -139,6 +139,7 @@ custodian:
         details: "Percentage-based on assets staked."
 
   riskAssessment:
+    description: ""
     derivatives: true
     derivativesList:
       - name: "Kraken Futures"

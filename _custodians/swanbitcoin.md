@@ -132,6 +132,7 @@ custodian:
     restrictedCountries: []
 
   riskAssessment:
+    description: ""
     derivatives: false
     derivativesList: []
     memecoins: false

@@ -149,6 +149,7 @@ custodian:
 
   # 4.2 Compliance - Risk Assessment
   riskAssessment:
+    description: ""
     derivatives: true
     derivativesList:
       - name: "Poloniex Futures"

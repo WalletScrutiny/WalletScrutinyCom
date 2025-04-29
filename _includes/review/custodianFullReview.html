@@ -619,6 +619,11 @@ Expects:
     <h3>How risky of a business do they run?</h3>
     <div class="textbox">
       {% if custodian.riskAssessment %}
+      {% if custodian.riskAssessment.description and custodian.riskAssessment.description != "" %}
+      <div class="risk-description">
+        <p>{{ custodian.riskAssessment.description }}</p>
+      </div>
+      {% endif %}
       <div class="risk-factors">
         <ul>
           {% if custodian.riskAssessment.derivatives %}

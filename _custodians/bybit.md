@@ -140,6 +140,7 @@ custodian:
         details: "Based on assets under custody"
 
   riskAssessment:
+    description: ""
     derivatives: true
     derivativesList:
       - name: "Perpetual Contracts"
