@@ -9,6 +9,7 @@ let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 const table = document.createElement('table');
 
+let attachments = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible
 
 // Filter table rows
@@ -265,6 +266,16 @@ window.renderAssetsTable = async function({
     sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
+  if (enableAttachments && sortedItems.length > 0) {
+    let attachmentEventIDs = [];
+    sortedItems.forEach((item, index) => {
+      const fileEventIds = getFileAttachmentForVerificationEventId(item.items[0]);
+      attachmentEventIDs.push(...fileEventIds);
+    });
+
+    attachments = await getFileAttachments(attachmentEventIDs);
+  }
+
   table.innerHTML = `
     <thead>
       <tr>
@@ -278,13 +289,8 @@ window.renderAssetsTable = async function({
       </tr>
     </thead>`;
 
-  let attachmentEventIDs = [];
-
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
-      const fileEventIds = getFileAttachmentForVerificationEventId(item.items[0]);
-      attachmentEventIDs.push(...fileEventIds);
-
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
@@ -442,10 +448,10 @@ window.renderAssetsTable = async function({
   document.getElementById(htmlElementId).appendChild(table);
 
   // ATTACHMENTS TABLE
-  if (enableAttachments) {
-    const attachments = await getFileAttachments(attachmentEventIDs);
-
-    // document.getElementById(htmlElementId).appendChild(document.createElement('p').innerHTML = 'Scripts used to reproduce the application:');
+  if (enableAttachments && attachments.size > 0) {
+    const paragraph = document.createElement('p');
+    paragraph.innerHTML = 'Scripts used to reproduce the application:';
+    document.getElementById(htmlElementId).appendChild(paragraph);
 
     const attachmentsTable = document.createElement('table');
     attachmentsTable.innerHTML = `
@@ -471,19 +477,19 @@ window.renderAssetsTable = async function({
 
       const row = document.createElement('tr');
 
-      const attachmentUniqueId = `attachment-${attachment.id}`;
-
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
       const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-      attachmentDataStore[attachmentUniqueId] = {
+
+      attachmentDataStore[attachment.id] = {
         content: attachmentContent,
         type: attachmentContentType,
-        filename: name
+        filename: name,
+        sizeInKb: sizeInKb
       };
 
       let rowHTML = `
-        <td>${name} <span id="${attachmentUniqueId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentUniqueId}')" title="Download ${name}">💾</span><br>
+        <td>${name} <span id="${attachment.id}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
           <small>(${attachmentContentType})</small> <br>
           ${sizeInKb} kB
         </td>
@@ -712,6 +718,29 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     minute: '2-digit'
   })}</p>
     <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+
+  const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+
+  if (verificationAttachments.length > 0) {
+    // Wait here until attachmentDataStore is filled
+    while (Object.keys(attachmentDataStore).length === 0) {
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+
+    
+    let attachmentsHTML = '';
+
+    for (const attachment of verificationAttachments) {
+      const attachmentId = attachment[1];
+      const attachmentInfo = attachmentDataStore[attachmentId];
+
+      if (attachmentInfo) {
+        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.type})</small> - ${attachmentInfo.sizeInKb} kB  <span id="${attachmentId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span></li>`;
+      }
+    }
+
+    content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
+  }
 
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
