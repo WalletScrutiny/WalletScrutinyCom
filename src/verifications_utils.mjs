@@ -484,7 +484,7 @@ const getFirstValueFromTag = function(event, tagName) {
   return tags.length === 0 ? null : tags[0][1];
 }
 
-const getFileAttachmentForVerificationEventId = function(event) {
+const getFileAttachmentIDsForVerificationEvent = function(event) {
   return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
 }
 
@@ -525,7 +525,7 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
   }
 }
 
-const getFileAttachments = async function(fileEventIds) {
+const getFileAttachmentEvents = async function(fileEventIds) {
   await ensureNdkConnected();
 
   if (!fileEventIds || fileEventIds.length === 0) {
@@ -937,9 +937,9 @@ if (typeof window !== 'undefined') {
   window.doDraftVerificationAction = doDraftVerificationAction;
   window.getDraftVerificationEvent = getDraftVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
-  window.getFileAttachmentForVerificationEventId = getFileAttachmentForVerificationEventId;
+  window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
-  window.getFileAttachments = getFileAttachments;
+  window.getFileAttachmentEvents = getFileAttachmentEvents;
 }
 
 export {
@@ -966,7 +966,7 @@ export {
   getDraftVerificationEvent,
   deleteDraftVerification,
   getFirstValueFromTag,
-  getFileAttachmentForVerificationEventId,
+  getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
-  getFileAttachments
+  getFileAttachmentEvents
 };
