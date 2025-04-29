@@ -533,7 +533,7 @@ const getFileAttachments = async function(fileEventIds) {
     return [];
   }
 
-  console.debug(`Fetching ${fileEventIds.length} file attachments for verification event ${fileEventIds}.`);
+  console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
     kinds: [codeSnippetKind],
