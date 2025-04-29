@@ -476,6 +476,9 @@ window.renderAssetsTable = async function({
       );
 
       const row = document.createElement('tr');
+      if (verifications.some(v => v.kind === verificationDraftKind)) {
+        row.classList.add('draft-attestation');
+      }
 
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
