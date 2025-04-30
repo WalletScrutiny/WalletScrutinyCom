@@ -261,8 +261,8 @@ permalink: /new_verification/
       <div id="availableScriptsList" class="available-scripts-list"></div>
     </div>
 
-    <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em;">Publish Verification as a Draft</button>
-    <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em;">Publish Verification</button>
+    <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em; margin-top: 2em">Publish Verification as a Draft</button>
+    <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em; margin-top: 2em">Publish Verification</button>
     <a id="deleteDraft" style="color: red; cursor: pointer;">Delete Draft</a>
     <p>
       <small>
