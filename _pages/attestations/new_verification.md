@@ -83,37 +83,62 @@ permalink: /new_verification/
   /* Styles for attachment scripts */
   .available-scripts-container {
     margin-top: 50px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 10px;
-    display: none; /* Hidden by default */
+    margin-bottom: 50px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 13px;
+    background-color: var(--neutral-6);
+    display: none;
   }
   .available-scripts-list {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    max-height: 150px; /* Limit height and add scroll */
+    gap: 8px;
+    max-height: 200px;
     overflow-y: auto;
+    border-top: 1px solid #e9ecef;
   }
   .script-item {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 5px;
+    gap: 15px;
+    padding: 10px;
     border-radius: 4px;
-    border-bottom: 1px solid #eee; /* Separator */
+    background-color: var(--neutral-5);
+    border: 1px solid #e9ecef;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .script-item:hover {
+    background-color: #cfcfcf;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   }
   .script-item span {
     flex: 1;
     word-break: break-word;
+    font-size: 0.95em; /* Slightly smaller font */
+    color: var(--neutral-0);
   }
   .add-script {
     color: green;
     cursor: pointer;
     border: none;
     background: none;
-    padding: 0 5px;
-    font-size: 1.2em;
+    padding: 5px 8px;
+    font-size: 1.3em;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  .add-script:hover {
+    background-color: rgba(0, 128, 0, 0.1);
+  }
+  .add-script[style*="color: red"]:hover {
+     background-color: rgba(255, 0, 0, 0.1);
   }
 </style>
 
