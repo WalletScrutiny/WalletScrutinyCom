@@ -541,6 +541,32 @@ const getFileAttachmentEvents = async function(fileEventIds) {
   });
 }
 
+const getAllAttachmentsForAppId = async function(appId) {
+  const response = await getAllAssetInformation({
+    appId
+  });
+
+  const attachments = [];
+  const promises = [];
+
+  response.verifications.forEach(sha256VerificationGroup => {
+    for (const verification of sha256VerificationGroup) {
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
+      if (fileEventIds.length > 0) {
+        promises.push(
+          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
+            attachments.push(...fileAttachmentEvents);
+          })
+        );
+      }
+    }
+  });
+
+  await Promise.all(promises);  // Wait for all promises to resolve before continuing
+
+  return attachments;
+}
+
 const getAllAssetInformation = async function({
                                                 months,
                                                 pubkey,
@@ -940,6 +966,7 @@ if (typeof window !== 'undefined') {
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
   window.getFileAttachmentEvents = getFileAttachmentEvents;
+  window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
 }
 
 export {
@@ -968,5 +995,6 @@ export {
   getFirstValueFromTag,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
-  getFileAttachmentEvents
+  getFileAttachmentEvents,
+  getAllAttachmentsForAppId
 };
