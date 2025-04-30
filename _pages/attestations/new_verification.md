@@ -219,7 +219,7 @@ permalink: /new_verification/
     </div>
 
     <div id="availableScriptsContainer" class="available-scripts-container">
-      <small>Available build scripts for this App ID:</small>
+      <small id="availableScriptsTitle">Available build scripts for this App ID:</small>
       <div id="availableScriptsList" class="available-scripts-list"></div>
     </div>
 
@@ -583,7 +583,7 @@ async function handleSubmit(event) {
          name: file.name,
          type: file.type || 'application/octet-stream', // Default MIME type
          size: file.size,
-         base64Data: await readFileAsBase64(file)
+         base64Data: file.data ? btoa(file.data) : ''
        });
     }
   } catch (error) {
@@ -613,7 +613,8 @@ async function handleSubmit(event) {
     assetEventId: assetEventId,
     isDraft: isDraft,
     draftVerificationEventId: draftVerificationEventId,
-    uploadedFileData: uploadedFileData
+    uploadedFileData: uploadedFileData,
+    reusedFileIds: reusedFileIds
   };
 
   try {
@@ -650,8 +651,8 @@ function updateCharCount() {
   }
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  loadUrlParamsAndGetAssetInfo();
+document.addEventListener('DOMContentLoaded', async function() {
+  await loadUrlParamsAndGetAssetInfo();
   updateCharCount(); // Initial count
   setupDropZone();
 
