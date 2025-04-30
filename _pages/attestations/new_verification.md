@@ -77,6 +77,42 @@ permalink: /new_verification/
     font-size: 1.2em;
     padding: 0 5px;
   }
+
+  /* Styles for attachment scripts */
+  .available-scripts-container {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    display: none; /* Hidden by default */
+  }
+  .available-scripts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-height: 150px; /* Limit height and add scroll */
+    overflow-y: auto;
+  }
+  .script-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    border-bottom: 1px solid #eee; /* Separator */
+  }
+  .script-item span {
+    flex: 1;
+    word-break: break-word;
+  }
+  .add-script {
+    color: green;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0 5px;
+    font-size: 1.2em;
+  }
 </style>
 
 <div class="form-container">
@@ -183,7 +219,12 @@ permalink: /new_verification/
       <small class="form-text" id="hashesHelpText"></small>
     </div>
 
-    <!-- New Dropzone Area -->
+    <div id="availableScriptsContainer" class="available-scripts-container">
+      <small>Available build scripts for this App ID:</small>
+      <div id="availableScriptsList" class="available-scripts-list"></div>
+    </div>
+
+    <!-- File Dropzone Area -->
     <div class="form-group" style="margin-top: 2em;">
       <label>Attach Files (Optional, max 60KB each):</label>
       <label for="fileInput" id="dropZone" class="drop-zone">
@@ -193,7 +234,7 @@ permalink: /new_verification/
       <div id="fileList" class="file-list"></div>
       <small class="form-text">Attach relevant scripts used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</small>
     </div>
-    <!-- End New Dropzone Area -->
+    <!-- End File Dropzone Area -->
 
     <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em;">Publish Verification as a Draft</button>
     <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em;">Publish Verification</button>
@@ -589,6 +630,68 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const draftVerificationEventId = urlParams.get('draftVerificationEventId');
     await deleteDraftVerification(draftVerificationEventId, '/assets/');
+  });
+
+  // Add event listener for appId input
+  const appIdInput = document.getElementById('appId');
+  appIdInput.addEventListener('input', async (event) => {
+    const appId = event.target.value.trim();
+    const availableScriptsContainer = document.getElementById('availableScriptsContainer');
+    const availableScriptsList = document.getElementById('availableScriptsList');
+
+    if (appId) {
+      try {
+        const attachments = await getAllAttachmentsForAppId(appId);
+
+        availableScriptsList.innerHTML = '';
+
+        if (attachments.length > 0) {
+          availableScriptsContainer.style.display = 'block'; // Show the container
+          attachments.forEach(attachment => {
+            console.log('***********  attachment', attachment);
+            const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
+            const size = attachment.tags.find(tag => tag[0] === 'size')?.[1];
+            const sizeText = size ? `(${(size / 1024).toFixed(1)} KB)` : '';
+            const attachmentContent = atob(attachment.content);
+            const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+            const scriptItem = document.createElement('div');
+            scriptItem.className = 'script-item';
+            scriptItem.innerHTML = `
+              <span>${name} ${sizeText}</span>
+              <button type="button" class="add-script" title="Add this script to attached files">
+                <i class="fas fa-plus"></i>
+              </button>
+            `;
+
+            scriptItem.querySelector('.add-script').addEventListener('click', () => {
+              const fileSize = size ? parseInt(size) : new Blob([attachmentContent]).size;
+
+              if (uploadedFiles.some(f => f.name === name && f.size === fileSize)) {
+                showToast(`Script "${name}" is already added.`, 'warning');
+                return;
+              }
+
+              const scriptFile = new File([attachmentContent], name, { type: attachmentContentType });
+              uploadedFiles.push(scriptFile);
+              displayFiles(); // Update the main file list
+              showToast(`Script "${name}" added to attachments.`, 'success');
+            });
+
+            availableScriptsList.appendChild(scriptItem);
+          });
+        } else {
+          availableScriptsContainer.style.display = 'none'; // Hide if no attachments
+        }
+      } catch (error) {
+        console.error('Error fetching attachments:', error);
+        availableScriptsContainer.style.display = 'none'; // Hide on error
+        showToast('Error fetching available scripts.', 'error');
+      }
+    } else {
+      availableScriptsContainer.style.display = 'none'; // Hide if appId is empty
+      availableScriptsList.innerHTML = '';
+    }
   });
 
   addHashBtn.addEventListener('click', () => {
