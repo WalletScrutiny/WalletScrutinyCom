@@ -245,8 +245,20 @@ permalink: /new_verification/
       <small class="form-text" id="hashesHelpText"></small>
     </div>
 
+    <!-- Script Usage Selector -->
+    <div class="form-group">
+        <label for="scriptUsage">Script Usage:</label>
+        <select id="scriptUsage" name="scriptUsage" class="form-control">
+            <option value="none">No scripts used or instructions are in the content field</option>
+            <option value="reuse">Use script from another verification</option>
+            <option value="upload">Upload new script</option>
+        </select>
+        <small class="form-text">Select how you are providing build verification scripts, if any.</small>
+    </div>
+    <!-- End Script Usage Selector -->
+
     <!-- File Dropzone Area -->
-    <div class="form-group" style="margin-top: 2em;">
+    <div id="fileDropzoneArea" class="form-group" style="margin-top: 2em; display: none;">
       <label>If you've used one or more scripts created by you, attach them here (Optional, max 60KB each):</label>
       <label for="fileInput" id="dropZone" class="drop-zone">
         <span class="drop-zone-text">Drag & drop files here to attach relevant scripts or Docker files used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
@@ -531,6 +543,7 @@ async function loadUrlParamsAndGetAssetInfo() {
 async function loadAndDisplayAvailableScripts(appId) {
   const availableScriptsContainer = document.getElementById('availableScriptsContainer');
   const availableScriptsList = document.getElementById('availableScriptsList');
+  const scriptUsageSelector = document.getElementById('scriptUsage');
 
   availableScriptsContainer.style.display = 'none'; // Hide by default
   availableScriptsList.innerHTML = '';
@@ -539,7 +552,7 @@ async function loadAndDisplayAvailableScripts(appId) {
     try {
       const attachments = await getAllAttachmentsForAppId(appId);
 
-      if (attachments.length > 0) {
+      if (attachments.length > 0 && scriptUsageSelector.value === 'reuse') {
         availableScriptsContainer.style.display = 'block';
         attachments.forEach(attachment => {
           const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
@@ -708,10 +721,31 @@ function updateCharCount() {
   }
 }
 
+function handleScriptSectionVisibility() {
+  const selection = document.getElementById('scriptUsage').value;
+  const dropzoneArea = document.getElementById('fileDropzoneArea');
+  const availableScriptsArea = document.getElementById('availableScriptsContainer');
+  const appId = document.getElementById('appId').value.trim(); // Get current appId
+
+  dropzoneArea.style.display = 'none';
+  availableScriptsArea.style.display = 'none';
+
+  if (selection === 'upload') {
+    dropzoneArea.style.display = 'block';
+  } else if (selection === 'reuse') {
+    loadAndDisplayAvailableScripts(appId);
+  }
+}
+
 document.addEventListener('DOMContentLoaded', async function() {
   await loadUrlParamsAndGetAssetInfo();
   updateCharCount(); // Initial count
   setupDropZone();
+
+  // Script Usage Selector Logic
+  const scriptUsageSelector = document.getElementById('scriptUsage');
+  scriptUsageSelector.addEventListener('change', handleScriptSectionVisibility);
+  handleScriptSectionVisibility();
 
   document.getElementById('content').addEventListener('input', updateCharCount);
 
@@ -730,7 +764,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   const appIdInput = document.getElementById('appId');
   appIdInput.addEventListener('input', async (event) => {
     const appId = event.target.value.trim();
-    await loadAndDisplayAvailableScripts(appId);
+    if (scriptUsageSelector.value === 'reuse') {
+        await loadAndDisplayAvailableScripts(appId);
+    }
   });
 
   addHashBtn.addEventListener('click', () => {
