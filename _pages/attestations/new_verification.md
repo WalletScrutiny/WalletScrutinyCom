@@ -524,10 +524,6 @@ async function handleSubmit(event) {
   let uploadedFileData = [];
   try {
     for (const file of uploadedFiles) {
-       if (file.size > 60000) {
-           throw new Error(`File "${file.name}" is too large (max 60KB)`);
-       }
-
        uploadedFileData.push({
          name: file.name,
          type: file.type || 'application/octet-stream', // Default MIME type
