@@ -549,18 +549,23 @@ const getAllAttachmentsForAppId = async function(appId) {
   const attachments = [];
   const promises = [];
 
-  response.verifications.forEach(sha256VerificationGroup => {
-    for (const verification of sha256VerificationGroup) {
-      const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
-      if (fileEventIds.length > 0) {
-        promises.push(
-          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
-            attachments.push(...fileAttachmentEvents);
-          })
-        );
+  for (const sha256VerificationGroup of response.verifications.values()) {
+      for (const verification of sha256VerificationGroup) {
+          const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
+          if (fileEventIds.length > 0) {
+              promises.push(
+                  getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
+                      // Process each fetched attachment event
+                      fileAttachmentEvents.forEach(attachmentEvent => {
+                          // Add the parent verification event to the attachment
+                          attachmentEvent.parentVerificationEvent = verification;
+                          attachments.push(attachmentEvent);
+                      });
+                  })
+              );
+          }
       }
-    }
-  });
+  }
 
   await Promise.all(promises);  // Wait for all promises to resolve before continuing
 
