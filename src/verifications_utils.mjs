@@ -813,6 +813,7 @@ function setupAppIdAutocomplete() {
       div.onclick = () => {
         appIdInput.value = wallet.appId;
         suggestionsContainer.style.display = 'none';
+        appIdInput.dispatchEvent(new Event('input', { bubbles: true }));  // Manually trigger the input event after setting the value
       };
       suggestionsContainer.appendChild(div);
     });
