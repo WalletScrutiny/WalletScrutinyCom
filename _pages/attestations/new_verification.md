@@ -207,7 +207,7 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
-      <label for="otherHashes" id="hashesLabel"></label>
+      <label id="hashesLabel"></label>
       <div class="hash-input-container">
         <input type="text" id="newHash" class="form-control" placeholder="Enter hash">
         <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
@@ -215,7 +215,6 @@ permalink: /new_verification/
         </button>
       </div>
       <div id="hashList" class="hash-list"></div>
-      <input type="hidden" id="otherHashes" name="otherHashes">
       <small class="form-text" id="hashesHelpText"></small>
     </div>
 
@@ -232,7 +231,7 @@ permalink: /new_verification/
       </label>
       <input type="file" id="fileInput" multiple hidden>
       <div id="fileList" class="file-list"></div>
-      <small class="form-text">Attach relevant scripts used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</small>
+      <small class="form-text">Attach relevant scripts or Docker files used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</small>
     </div>
     <!-- End File Dropzone Area -->
 
@@ -253,25 +252,16 @@ permalink: /new_verification/
 </div>
 
 <script>
-let hashes = [];
-let hashList, otherHashesInput, hashInput;
+let otherHashes = [];
+let newHashInputField;
 let uploadedFiles = []; // Store File objects
-
-function updateHiddenInput() {
-  if (otherHashesInput) {
-    otherHashesInput.value = hashes.join(',');
-  }
-}
+let reusedFileIds = [];
 
 function addHash(hash) {
   if (!hash) return;
-  if (hashes.includes(hash)) {
+  if (otherHashes.includes(hash)) {
     showToast('This hash is already in the list', 'error');
     return;
-  }
-  
-  if (!hashList) {
-    hashList = document.getElementById('hashList');
   }
   
   const hashItem = document.createElement('div');
@@ -284,16 +274,14 @@ function addHash(hash) {
   `;
 
   hashItem.querySelector('.remove-hash').addEventListener('click', () => {
-    hashes = hashes.filter(h => h !== hash);
+    otherHashes = otherHashes.filter(h => h !== hash);
     hashItem.remove();
-    updateHiddenInput();
   });
 
-  hashList.appendChild(hashItem);
-  hashes.push(hash);
-  updateHiddenInput();
-  if (hashInput) {
-    hashInput.value = '';
+  document.getElementById('hashList').appendChild(hashItem);
+  otherHashes.push(hash);
+  if (newHashInputField) {
+    newHashInputField.value = '';
   }
 } 
 
@@ -556,12 +544,11 @@ async function handleSubmit(event) {
   const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
   const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
   const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
-  const otherHashesValue = document.getElementById('otherHashes').value.trim();
 
   // Combine sha256 and otherHashes into a single parameter
   let hashes = sha256 ? [sha256] : [];
-  if (otherHashesValue) {
-    hashes = hashes.concat(otherHashesValue.split(','));
+  if (otherHashes.length > 0) {
+    hashes = hashes.concat(otherHashes);
   }
 
   const formData = {
@@ -620,10 +607,8 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('content').addEventListener('input', updateCharCount);
 
   // Hash management
-  hashInput = document.getElementById('newHash');
+  newHashInputField = document.getElementById('newHash');
   const addHashBtn = document.getElementById('addHash');
-  hashList = document.getElementById('hashList');
-  otherHashesInput = document.getElementById('otherHashes');
 
   const deleteDraftBtn = document.getElementById('deleteDraft');
   deleteDraftBtn.addEventListener('click', async function() {
@@ -695,7 +680,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   addHashBtn.addEventListener('click', () => {
-    const hash = hashInput.value.trim();
+    const hash = newHashInputField.value.trim();
     if (!hash) {
       showToast('Please enter a hash value', 'error');
       return;
@@ -707,7 +692,7 @@ document.addEventListener('DOMContentLoaded', function() {
     addHash(hash);
   });
 
-  hashInput.addEventListener('keypress', (e) => {
+  newHashInputField.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
       e.preventDefault();
       addHashBtn.click();
