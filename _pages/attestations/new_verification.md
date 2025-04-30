@@ -283,7 +283,7 @@ function addHash(hash) {
   if (newHashInputField) {
     newHashInputField.value = '';
   }
-} 
+}
 
 function validateForm() {
   const content = document.getElementById('content').value.trim();
@@ -494,16 +494,71 @@ async function loadUrlParamsAndGetAssetInfo() {
   message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
   const infoMessage = document.querySelector('.info-message');
   infoMessage.innerHTML = message;
+
+  // Initial call to load scripts if appId is pre-filled
+  const initialAppId = document.getElementById('appId').value.trim();
+  if (initialAppId) {
+    await loadAndDisplayAvailableScripts(initialAppId);
+  }
 }
 
-// Function to read a file as Base64
-function readFileAsBase64(file) {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => resolve(reader.result.split(',')[1]); // Get Base64 part
-    reader.onerror = error => reject(error);
-    reader.readAsDataURL(file);
-  });
+async function loadAndDisplayAvailableScripts(appId) {
+  const availableScriptsContainer = document.getElementById('availableScriptsContainer');
+  const availableScriptsList = document.getElementById('availableScriptsList');
+  const availableScriptsTitle = document.getElementById('availableScriptsTitle'); // Get the title element
+
+  availableScriptsContainer.style.display = 'none'; // Hide by default
+  availableScriptsList.innerHTML = '';
+  availableScriptsTitle.textContent = 'Available build scripts for this App ID:'; // Reset title text
+
+  if (appId) {
+    try {
+      const attachments = await getAllAttachmentsForAppId(appId);
+
+      if (attachments.length > 0) {
+        availableScriptsContainer.style.display = 'block';
+        availableScriptsTitle.textContent = `Available build scripts for ${appId}:`;
+        attachments.forEach(attachment => {
+          const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
+          const size = attachment.tags.find(tag => tag[0] === 'size')?.[1];
+          const sizeText = size ? `(${(size / 1024).toFixed(1)} KB)` : '';
+          const attachmentContent = atob(attachment.content);
+          const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+          const parentVerificationEvent = attachment.parentVerificationEvent;
+          const version = parentVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1];
+          const status = parentVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1];
+
+          const scriptItem = document.createElement('div');
+          scriptItem.className = 'script-item';
+          scriptItem.innerHTML = `
+            <span>${name} ${sizeText} ${version ? ` - (used in verification for v${version} ${status ? ` - ${status}` : ''})` : ''}</span>
+            <button type="button" class="add-script" title="Add this script to attached files">
+              <i class="fas fa-plus"></i>
+            </button>
+          `;
+
+          scriptItem.querySelector('.add-script').addEventListener('click', () => {
+            const fileSize = size ? parseInt(size) : new Blob([attachmentContent]).size;
+
+            if (uploadedFiles.some(f => f.name === name && f.size === fileSize && f.type === attachmentContentType && f.data === attachmentContent)) {
+              showToast(`Script "${name}" is already added.`, 'warning');
+              return;
+            }
+
+            reusedFileIds.push(attachment.id);
+            displayFiles(); // Update the main file list
+            showToast(`Script "${name}" added to attachments.`, 'success');
+          });
+
+          availableScriptsList.appendChild(scriptItem);
+        });
+      }
+    } catch (error) {
+      console.error('Error fetching attachments for appId', appId, ':', error);
+      showToast('Error fetching available scripts.', 'error');
+    }
+  }
 }
 
 async function handleSubmit(event) {
@@ -617,62 +672,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const appIdInput = document.getElementById('appId');
   appIdInput.addEventListener('input', async (event) => {
     const appId = event.target.value.trim();
-    const availableScriptsContainer = document.getElementById('availableScriptsContainer');
-    const availableScriptsList = document.getElementById('availableScriptsList');
-
-    if (appId) {
-      try {
-        const attachments = await getAllAttachmentsForAppId(appId);
-
-        availableScriptsList.innerHTML = '';
-
-        if (attachments.length > 0) {
-          availableScriptsContainer.style.display = 'block'; // Show the container
-          attachments.forEach(attachment => {
-            console.log('***********  attachment', attachment);
-            const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
-            const size = attachment.tags.find(tag => tag[0] === 'size')?.[1];
-            const sizeText = size ? `(${(size / 1024).toFixed(1)} KB)` : '';
-            const attachmentContent = atob(attachment.content);
-            const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-
-            const scriptItem = document.createElement('div');
-            scriptItem.className = 'script-item';
-            scriptItem.innerHTML = `
-              <span>${name} ${sizeText}</span>
-              <button type="button" class="add-script" title="Add this script to attached files">
-                <i class="fas fa-plus"></i>
-              </button>
-            `;
-
-            scriptItem.querySelector('.add-script').addEventListener('click', () => {
-              const fileSize = size ? parseInt(size) : new Blob([attachmentContent]).size;
-
-              if (uploadedFiles.some(f => f.name === name && f.size === fileSize)) {
-                showToast(`Script "${name}" is already added.`, 'warning');
-                return;
-              }
-
-              const scriptFile = new File([attachmentContent], name, { type: attachmentContentType });
-              uploadedFiles.push(scriptFile);
-              displayFiles(); // Update the main file list
-              showToast(`Script "${name}" added to attachments.`, 'success');
-            });
-
-            availableScriptsList.appendChild(scriptItem);
-          });
-        } else {
-          availableScriptsContainer.style.display = 'none'; // Hide if no attachments
-        }
-      } catch (error) {
-        console.error('Error fetching attachments:', error);
-        availableScriptsContainer.style.display = 'none'; // Hide on error
-        showToast('Error fetching available scripts.', 'error');
-      }
-    } else {
-      availableScriptsContainer.style.display = 'none'; // Hide if appId is empty
-      availableScriptsList.innerHTML = '';
-    }
+    await loadAndDisplayAvailableScripts(appId);
   });
 
   addHashBtn.addEventListener('click', () => {
