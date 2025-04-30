@@ -47,10 +47,11 @@ permalink: /new_verification/
     background-color: #f8f9fa; /* Light background color */
     border: 2px dashed #ccc;
     border-radius: 4px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     cursor: pointer;
     color: #666;
+    line-height: 22px !important;
   }
   .drop-zone.dragover {
     background-color: #e9ecef;
@@ -58,6 +59,7 @@ permalink: /new_verification/
   }
   .drop-zone-text {
     display: block;
+    color: black;
   }
   .file-list {
     margin-top: 10px;
@@ -80,7 +82,7 @@ permalink: /new_verification/
 
   /* Styles for attachment scripts */
   .available-scripts-container {
-    margin-top: 10px;
+    margin-top: 50px;
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 10px;
@@ -218,22 +220,21 @@ permalink: /new_verification/
       <small class="form-text" id="hashesHelpText"></small>
     </div>
 
-    <div id="availableScriptsContainer" class="available-scripts-container">
-      <small id="availableScriptsTitle">Available build scripts for this App ID:</small>
-      <div id="availableScriptsList" class="available-scripts-list"></div>
-    </div>
-
     <!-- File Dropzone Area -->
     <div class="form-group" style="margin-top: 2em;">
-      <label>Attach Files (Optional, max 60KB each):</label>
+      <label>If you've used one or more scripts created by you, attach them here (Optional, max 60KB each):</label>
       <label for="fileInput" id="dropZone" class="drop-zone">
-        <span class="drop-zone-text">Drag & drop files here, or click to select</span>
+        <span class="drop-zone-text">Drag & drop files here to attach relevant scripts or Docker files used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
       </label>
       <input type="file" id="fileInput" multiple hidden>
       <div id="fileList" class="file-list"></div>
-      <small class="form-text">Attach relevant scripts or Docker files used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</small>
     </div>
     <!-- End File Dropzone Area -->
+
+    <div id="availableScriptsContainer" class="form-group available-scripts-container">
+      <label>If you've used a script created by another user in a different verification, mark it here. There's no need to upload it again:</label>
+      <div id="availableScriptsList" class="available-scripts-list"></div>
+    </div>
 
     <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em;">Publish Verification as a Draft</button>
     <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em;">Publish Verification</button>
@@ -505,11 +506,9 @@ async function loadUrlParamsAndGetAssetInfo() {
 async function loadAndDisplayAvailableScripts(appId) {
   const availableScriptsContainer = document.getElementById('availableScriptsContainer');
   const availableScriptsList = document.getElementById('availableScriptsList');
-  const availableScriptsTitle = document.getElementById('availableScriptsTitle'); // Get the title element
 
   availableScriptsContainer.style.display = 'none'; // Hide by default
   availableScriptsList.innerHTML = '';
-  availableScriptsTitle.textContent = 'Available build scripts for this App ID:'; // Reset title text
 
   if (appId) {
     try {
@@ -517,7 +516,6 @@ async function loadAndDisplayAvailableScripts(appId) {
 
       if (attachments.length > 0) {
         availableScriptsContainer.style.display = 'block';
-        availableScriptsTitle.textContent = `Available build scripts for ${appId}:`;
         attachments.forEach(attachment => {
           const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
           const size = attachment.tags.find(tag => tag[0] === 'size')?.[1];
@@ -529,26 +527,60 @@ async function loadAndDisplayAvailableScripts(appId) {
           const version = parentVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1];
           const status = parentVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1];
 
+          const app = window.wallets.find(it => it.appId === appId) ?? null;
+          const appTitle = app?.title ?? appId;
+
           const scriptItem = document.createElement('div');
           scriptItem.className = 'script-item';
           scriptItem.innerHTML = `
-            <span>${name} ${sizeText} ${version ? ` - (used in verification for v${version} ${status ? ` - ${status}` : ''})` : ''}</span>
-            <button type="button" class="add-script" title="Add this script to attached files">
+            <span>${name} ${sizeText} ${version ? ` - (used in verification for ${appTitle} v${version} ${status ? ` - ${status}` : ''})` : ''}</span>
+            <button type="button" class="add-script" title="Mark this script as used in this verification">
               <i class="fas fa-plus"></i>
-            </button>
-          `;
+            </button>`;
 
-          scriptItem.querySelector('.add-script').addEventListener('click', () => {
+          const addScriptButton = scriptItem.querySelector('.add-script');
+          const icon = addScriptButton.querySelector('i');
+          const attachmentId = attachment.id; // Store attachment id
+
+          // Check if already added on load
+          if (reusedFileIds.includes(attachmentId)) {
+            icon.classList.remove('fa-plus');
+            icon.classList.add('fa-minus');
+            addScriptButton.title = "Remove this script from the verification";
+            addScriptButton.style.color = 'red';
+          }
+
+          addScriptButton.addEventListener('click', () => {
+            const isAdding = icon.classList.contains('fa-plus');
             const fileSize = size ? parseInt(size) : new Blob([attachmentContent]).size;
 
-            if (uploadedFiles.some(f => f.name === name && f.size === fileSize && f.type === attachmentContentType && f.data === attachmentContent)) {
-              showToast(`Script "${name}" is already added.`, 'warning');
-              return;
-            }
+            if (isAdding) {
+              // Prevent adding if the same file (based on name/size/type/content) is already uploaded
+              if (uploadedFiles.some(f => f.name === name && f.size === fileSize && f.type === attachmentContentType && f.data === attachmentContent)) {
+                showToast(`Script "${name}" is already uploaded. Cannot reuse and upload the same script.`, 'warning');
+                return;
+              }
 
-            reusedFileIds.push(attachment.id);
-            displayFiles(); // Update the main file list
-            showToast(`Script "${name}" added to attachments.`, 'success');
+              if (reusedFileIds.includes(attachmentId)) {
+                showToast(`Script "${name}" is already marked for reuse.`, 'warning');
+                return;
+              }
+
+              reusedFileIds.push(attachmentId);
+              icon.classList.remove('fa-plus');
+              icon.classList.add('fa-minus');
+              addScriptButton.title = "Remove this script from the verification";
+              addScriptButton.style.color = 'red'; // Change color to red
+              showToast(`Script "${name}" added to the verification.`, 'success');
+            } else {
+              // Remove the ID from the reused list
+              reusedFileIds = reusedFileIds.filter(id => id !== attachmentId);
+              icon.classList.remove('fa-minus');
+              icon.classList.add('fa-plus');
+              addScriptButton.title = "Mark this script as used in this verification";
+              addScriptButton.style.color = 'green'; // Change color back to green
+              showToast(`Script "${name}" removed from the verification.`, 'info');
+            }
           });
 
           availableScriptsList.appendChild(scriptItem);
