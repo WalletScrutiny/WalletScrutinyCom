@@ -63,21 +63,48 @@ permalink: /new_verification/
   }
   .file-list {
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
   .file-item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 5px;
-    border-bottom: 1px solid #eee;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: var(--neutral-5);
+    border: 1px solid #e9ecef;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  .file-item:hover {
+    background-color: #cfcfcf;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .file-item span {
+    flex: 1;
+    word-break: break-word;
+    font-size: 0.95em;
+    color: var(--neutral-0);
   }
   .remove-file {
     color: red;
     cursor: pointer;
     border: none;
     background: none;
-    font-size: 1.2em;
-    padding: 0 5px;
+    padding: 5px 8px;
+    font-size: 2.1em;
+    border-radius: 50%;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+  .remove-file:hover {
+     background-color: rgba(255, 0, 0, 0.1);
   }
 
   /* Styles for attachment scripts */
@@ -259,9 +286,8 @@ permalink: /new_verification/
 
     <!-- File Dropzone Area -->
     <div id="fileDropzoneArea" class="form-group" style="margin-top: 2em; display: none;">
-      <label>If you've used one or more scripts created by you, attach them here (Optional, max 60KB each):</label>
       <label for="fileInput" id="dropZone" class="drop-zone">
-        <span class="drop-zone-text">Drag & drop files here to attach relevant scripts or Docker files used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
+        <span class="drop-zone-text">If you've used <b>scripts</b> or <b>docker files</b> to build the asset, <b>drag & drop</b> them here to attach them (max 60KB each). Each file will be linked to this verification and could be used by other users to reproduce the asset.</span>
       </label>
       <input type="file" id="fileInput" multiple hidden>
       <div id="fileList" class="file-list"></div>
@@ -269,7 +295,7 @@ permalink: /new_verification/
     <!-- End File Dropzone Area -->
 
     <div id="availableScriptsContainer" class="form-group available-scripts-container">
-      <label>If you've used a script created by another user in a different verification, mark it here. There's no need to upload it again:</label>
+      <label>If you've used a script created by another user in a different verification, mark it here with the <i class="fas fa-plus" style="color: green;"></i> icon:</label>
       <div id="availableScriptsList" class="available-scripts-list"></div>
     </div>
 
@@ -461,6 +487,12 @@ async function loadUrlParamsAndGetAssetInfo() {
         });
       });
       displayFiles();
+
+      // If files were loaded from the draft, set the script usage selector to 'upload'
+      if (uploadedFiles.length > 0) {
+        document.getElementById('scriptUsage').value = 'upload';
+        handleScriptSectionVisibility();
+      }
 
       const eventContent = JSON.parse(draftVerificationEvent.content);
 
