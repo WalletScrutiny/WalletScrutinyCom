@@ -16,7 +16,7 @@ issue:
 icon: lisk.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-25
 reviewArchive: 
 twitter: LiskHQ

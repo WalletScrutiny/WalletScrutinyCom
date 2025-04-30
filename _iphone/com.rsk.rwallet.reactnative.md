@@ -18,7 +18,7 @@ issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
 meta: removed
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2023-05-17
 signer: 

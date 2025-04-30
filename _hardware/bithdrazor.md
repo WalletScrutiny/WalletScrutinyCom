@@ -7,8 +7,8 @@ authors:
 - leo
 released: 2019-03-08
 discontinued: 
-updated: 2021-12-14
-version: v4.1.8
+updated: 2022-12-07
+version: v4.2.0
 binaries: https://github.com/bithd/bithd-mcu/releases/
 dimensions:
 - 83
@@ -26,7 +26,7 @@ issue:
 icon: bithdrazor.png
 bugbounty: 
 meta: discontinued
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - 784c7448e0b713ef7952ebd454d4e809b15adffd23ac84cfdd3af06358e7cfe2
 date: 2022-11-25

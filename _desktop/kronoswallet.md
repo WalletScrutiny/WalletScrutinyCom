@@ -16,7 +16,7 @@ issue:
 icon: kronoswallet.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-25
 reviewArchive: 
 twitter: KronosWallet

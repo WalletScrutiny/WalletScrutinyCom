@@ -18,7 +18,7 @@ issue:
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2020-12-19
 signer: 

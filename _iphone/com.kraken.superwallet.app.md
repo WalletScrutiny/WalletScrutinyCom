@@ -18,7 +18,7 @@ issue:
 icon: com.kraken.superwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2025-02-04
 signer: 

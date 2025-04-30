@@ -20,7 +20,7 @@ issue: https://github.com/cypherstack/stack_wallet/issues/984
 icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2023-09-11
 signer: 
