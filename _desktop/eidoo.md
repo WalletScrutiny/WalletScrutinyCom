@@ -16,8 +16,8 @@ issue:
 icon: eidoo.png
 bugbounty: 
 meta: defunct
-verdict: wip
-date: 2025-04-02
+verdict: nosource
+date: 2025-04-15
 reviewArchive: 
 twitter: eidoo_io
 social: 

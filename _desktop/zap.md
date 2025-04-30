@@ -16,12 +16,16 @@ issue:
 icon: zap.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2024-04-25
+verdict: sourceavailable
+date: 2025-04-25
 reviewArchive: 
 twitter: ln_zap
 social: 
 features: 
+- ln
 
 ---
 
+## App Description
+
+The app's website now redirects to Strike.me and the repository has been archived. This app has been **obsoleted** and the website zaphq.io now redirects to strike.me.

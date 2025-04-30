@@ -15,9 +15,9 @@ repository: https://github.com/Lily-Technologies/lily-wallet
 issue: 
 icon: lilywallet.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-04-25
+meta: stale
+verdict: sourceavailable
+date: 2025-04-15
 reviewArchive: 
 twitter: LilyWallet
 social: 
@@ -25,3 +25,8 @@ features:
 
 ---
 
+## App Description
+
+> Lily Wallet is a desktop application designed for managing Bitcoin in multisignature vaults. It emphasizes security and sovereignty by enabling users to create wallets with customizable multisig configurations using hardware wallets or air-gapped keys. Lily supports advanced features like time-locked recovery paths, labeling, and account-level organization. Users retain full control of their keys and funds, with no reliance on third-party custody. It also allows coordination with a locally running Bitcoin Core node or third-party Electrum server, enhancing privacy and reliability.
+
+It hasn't been updated since 2023.

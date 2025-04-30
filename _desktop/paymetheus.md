@@ -16,8 +16,8 @@ issue:
 icon: 
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2024-04-25
+verdict: sourceavailable
+date: 2025-04-25
 reviewArchive: 
 twitter: 
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+Despite being source-available, this program has not been updated for over 9 years. This is **obsolete**.

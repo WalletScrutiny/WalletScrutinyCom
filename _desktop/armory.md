@@ -15,9 +15,9 @@ repository: https://github.com/goatpig/BitcoinArmory
 issue: 
 icon: armory.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-04-24
+meta: obsolete
+verdict: sourceavailable
+date: 2025-04-15
 reviewArchive: 
 twitter: armory
 social:
@@ -26,3 +26,6 @@ features:
 
 ---
 
+## App Description
+
+> Bitcoin Armory is a desktop-based Bitcoin wallet focused on advanced security and cold storage. It supports full Bitcoin wallet functionality, allowing users to generate and manage private keys entirely offline. The wallet is **source-available**. Armory is best known for enabling secure air-gapped setups, multi-signature wallets, and deterministic key generation. 
