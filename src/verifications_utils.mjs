@@ -346,11 +346,6 @@ const createVerification = async function ({
       ndkEvent.tags.push(["file-attachment", fileEventId]);
     });
   }
-  if (reusedFileIds.length > 0) {
-    reusedFileIds.forEach(fileEventId => {
-      ndkEvent.tags.push(["file-attachment", fileEventId]);
-    });
-  }
 
   eventSanitize(ndkEvent); // Sanitize main event
 
