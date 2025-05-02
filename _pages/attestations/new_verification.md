@@ -276,7 +276,7 @@ permalink: /new_verification/
         <div class="form-group">
             <label for="scriptUsage">Script Usage:</label>
             <select id="scriptUsage" name="scriptUsage" class="form-control">
-                <option value="none">No scripts used or instructions are in the content field</option>
+                <option value="none">Manual build (no scripts used or instructions are specified in the content field)</option>
                 <option value="reuse">Use script from another verification</option>
                 <option value="upload">Upload new script</option>
             </select>
