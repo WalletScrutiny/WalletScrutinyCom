@@ -681,11 +681,27 @@ permalink: /new_verification/
     let uploadedFileData = [];
     try {
       for (const file of uploadedFiles) {
+        let base64Data = '';
+        if (file.data) {
+          // File from draft, data is already available as a string
+          base64Data = btoa(file.data);
+        } else if (file instanceof File) {
+          // Standard File object, read its content asynchronously
+          const buffer = await file.arrayBuffer();
+          // Convert ArrayBuffer to binary string for btoa
+          const bytes = new Uint8Array(buffer);
+          let binaryString = '';
+          for (let i = 0; i < bytes.byteLength; i++) {
+            binaryString += String.fromCharCode(bytes[i]);
+          }
+          base64Data = btoa(binaryString);
+        }
+
         uploadedFileData.push({
           name: file.name,
           type: file.type || 'application/octet-stream', // Default MIME type
           size: file.size,
-          base64Data: file.data ? btoa(file.data) : ''
+          base64Data: base64Data
         });
       }
     } catch (error) {
