@@ -19,7 +19,7 @@ issue:
 icon: co.hodlwallet.jpg
 bugbounty: 
 meta: stale
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-07-10
 signer: 

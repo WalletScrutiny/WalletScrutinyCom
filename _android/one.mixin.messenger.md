@@ -21,7 +21,7 @@ issue: https://github.com/MixinNetwork/android-app/issues/4980
 icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2024-09-19
 signer: 

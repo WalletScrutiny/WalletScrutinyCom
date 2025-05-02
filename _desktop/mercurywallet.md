@@ -16,7 +16,7 @@ issue:
 icon: mercurywallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-25
 reviewArchive: 
 twitter: mercury_wallet

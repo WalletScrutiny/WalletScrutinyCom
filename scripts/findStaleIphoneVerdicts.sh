@@ -6,7 +6,7 @@ for wsid in $wsids ; do
   iphoneFiles=$( rgrep -l "wsId: $wsid" _iphone/ )
   androidVerdict=$( grep "^verdict: [A-Za-z]" "$androidFiles" 2> /dev/null | sed 's/verdict: //g' )
   iphoneVerdict=$( grep "^verdict: [A-Za-z]" "$iphoneFiles" 2> /dev/null | sed 's/verdict: //g' )
-  if [ "$androidVerdict" != "$iphoneVerdict" ] && [ "$androidVerdict $iphoneVerdict" != "reproducible nonverifiable" ] ; then
+  if [ "$androidVerdict" != "$iphoneVerdict" ] && [ "$androidVerdict $iphoneVerdict" != "sourceavailable" ] ; then
     echo
     echo $wsid
     echo "$androidFiles      $androidVerdict"

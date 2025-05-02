@@ -16,7 +16,7 @@ issue:
 icon: wavesdex.png
 bugbounty: 
 meta: deprecated
-verdict: wip
+verdict: sourceavailable
 date: 2025-04-02
 reviewArchive: 
 twitter: Waves_Exchange

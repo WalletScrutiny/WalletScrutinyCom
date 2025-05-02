@@ -14,13 +14,13 @@ version: 2.5.8
 stars: 3.9
 ratings: 1061
 reviews: 34
-website: https://lightning-wallet.com/
-repository: https://github.com/btcontract/wallet
+website: 
+repository: https://github.com/Tactical-Advantage-Trading/wallet
 issue: 
 icon: com.btcontract.wallet.png
 bugbounty: 
 meta: removed
-verdict: reproducible
+verdict: sourceavailable
 appHashes: []
 date: 2024-11-22
 signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a

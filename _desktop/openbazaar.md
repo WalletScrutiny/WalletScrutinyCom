@@ -16,7 +16,7 @@ issue:
 icon: openbazaar.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 date: 2025-04-07
 reviewArchive: 
 twitter: openbazaar

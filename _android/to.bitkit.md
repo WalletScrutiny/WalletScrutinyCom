@@ -21,7 +21,7 @@ issue: https://github.com/synonymdev/bitkit/issues/2414
 icon: to.bitkit.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-12-25
 signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7

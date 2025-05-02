@@ -1,8 +1,8 @@
 <div class="step application-build">
-    {% if page.verdict == 'reproducible' %}
-    <i class="i-reproducible circle"></i>
+    {% if page.verdict == 'sourceavailable' %}
+    <i class="i-sourceavailable circle"></i>
     {% else %}
-    <i class="i-reproducible circle disabled"></i>
+    <i class="i-sourceavailable circle disabled"></i>
     {% endif %}
     <div class="title">
         <h3>Application build</h3>
@@ -48,10 +48,8 @@
                 document.getElementById('appsTable').style.display = 'none';
               }
 
-              if (pageVerdict === 'reproducible') {
-                document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can register an asset for a newer version so somebody can verify it by dropping the binary file there.";
-              } else if (pageVerdict === 'nonverifiable') {
-                document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+              if (pageVerdict === 'sourceavailable') {
+                document.getElementById('verificationMessage').innerHTML = "This application has its source code available. You can register an asset for a newer version so somebody can verify its reproducibility by dropping the binary file there.";
               } else if (['wip', 'fewusers'].includes(pageVerdict)) {
                 document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
               }

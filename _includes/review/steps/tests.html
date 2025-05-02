@@ -51,7 +51,7 @@
   {% endif %}
   {% for criterion in criteria %}
     {% if include.verdict == criterion %}
-      {% unless include.verdict == 'reproducible' or include.verdict == 'diy' %}
+      {% unless include.verdict == 'sourceavailable' or include.verdict == 'diy' %}
         {% assign failPoint = failPoint | plus: 1 %}
         {% assign class = 'fail'%}
         {% assign icon = '<i class="fas fa-times-circle"></i>' %}
