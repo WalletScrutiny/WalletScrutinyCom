@@ -10,13 +10,13 @@ version: 1.3.8
 binaries: 
 provider: Atomex OÜ
 providerWebsite: https://atomex.me
-website: https://atomex.me/wallet
-repository: https://github.com/atomex-me/atomex.client.desktop
+website: 
+repository: 
 issue: 
 icon: atomex.png
 bugbounty: 
-meta: ok
-verdict: sourceavailable
+meta: defunct
+verdict: nosource
 date: 2024-04-24
 reviewArchive: 
 twitter: atomex_official
@@ -25,3 +25,10 @@ features:
 
 ---
 
+## App Description
+
+Emblazoned on the webpage: 
+
+> We are sad to announce that the Atomex team will no longer support the project =(
+
+The GitHub repository for the desktop is also no longer available.

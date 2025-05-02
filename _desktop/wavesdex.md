@@ -17,7 +17,7 @@ icon: wavesdex.png
 bugbounty: 
 meta: deprecated
 verdict: sourceavailable
-date: 2025-04-02
+date: 2025-04-12
 reviewArchive: 
 twitter: Waves_Exchange
 social: 
