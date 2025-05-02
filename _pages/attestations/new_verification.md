@@ -6,8 +6,16 @@ permalink: /new_verification/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
+
+<script type="text/javascript">
+  // Initialize the preview button functionality when the DOM is loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof initializePreviewButton === 'function') {
+      initializePreviewButton();
+    }
+  });
+</script>
 
 <div class="form-container">
   <div class="info-message"></div>
@@ -433,23 +441,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-    document.getElementById('writeTab').addEventListener('click', (e) => {
-    e.preventDefault();
-    document.getElementById('writeTab').classList.add('active');
-    document.getElementById('previewTab').classList.remove('active');
-    document.getElementById('content').style.display = 'block';
-    document.getElementById('markdownPreview').style.display = 'none';
-  });
-
-  document.getElementById('previewTab').addEventListener('click', (e) => {
-    e.preventDefault();
-    document.getElementById('previewTab').classList.add('active');
-    document.getElementById('writeTab').classList.remove('active');
-    document.getElementById('content').style.display = 'none';
-    const markdownText = document.getElementById('content').value;
-    document.getElementById('markdownPreview').innerHTML = marked.parse(markdownText);
-    document.getElementById('markdownPreview').style.display = 'block';
-  });
+    // Initialize the preview button functionality
+    initializePreviewButton();
 });
 
 </script>
