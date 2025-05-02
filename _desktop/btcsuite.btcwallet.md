@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2015-03-04
 discontinued: 
-updated: 2025-04-17
-version: 0.16.13
+updated: 2024-03-09
+version: 1.5.3
 binaries: 
 provider: 
 providerWebsite: 
@@ -16,7 +16,7 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-24
 reviewArchive: 
 twitter: 

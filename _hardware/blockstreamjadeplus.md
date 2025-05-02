@@ -24,7 +24,7 @@ issue:
 icon: blockstreamjadeplus.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 appHashes: 
 date: 2025-01-04
 signer: 

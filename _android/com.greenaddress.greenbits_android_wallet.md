@@ -11,7 +11,7 @@ appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
 updated: 2025-04-01
-version: 4.1.8
+version: 4.1.5
 stars: 4.4
 ratings: 946
 reviews: 140
@@ -21,7 +21,7 @@ issue: https://github.com/Blockstream/green_android/issues/253
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes:
 - c5f04cdba74164db04a2e036462846c97a01c80879a095b6883af84249cb2736
 date: 2025-03-07

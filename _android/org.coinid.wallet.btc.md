@@ -19,7 +19,7 @@ issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2024-07-05
 signer: 

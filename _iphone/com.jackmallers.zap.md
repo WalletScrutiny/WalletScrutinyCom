@@ -18,7 +18,7 @@ issue:
 icon: com.jackmallers.zap.jpg
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: 
 date: 2022-04-25
 signer: 

@@ -15,14 +15,14 @@ updated: 2024-10-22
 version: 4.5.7
 stars: 4
 ratings: 2500
-reviews: 343
+reviews: 342
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: reproducible
 appHashes:
 - 042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94
 date: 2024-10-23

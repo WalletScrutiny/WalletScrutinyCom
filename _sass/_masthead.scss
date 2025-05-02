@@ -51,7 +51,8 @@
     }
     .result-pl-inner {
       &.obsolete,
-      &.defunct {
+      &.defunct,
+      &.outdated {
         &:hover {
           .wallet-icon {
             filter: grayscale(0) invert(1) !important;
@@ -308,7 +309,8 @@
           grid-template-columns: 50px 1fr;
         }
         &.obsolete,
-        &.defunct {
+        &.defunct,
+        &.outdated {
           opacity: 0.6;
           &:hover {
             opacity: 1;

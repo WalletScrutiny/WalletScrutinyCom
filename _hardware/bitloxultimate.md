@@ -26,7 +26,7 @@ issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty: 
 meta: obsolete
-verdict: sourceavailable
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

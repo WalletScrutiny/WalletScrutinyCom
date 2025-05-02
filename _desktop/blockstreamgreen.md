@@ -11,12 +11,12 @@ binaries:
 provider: Blockstream
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/green/
-repository: https://github.com/Blockstream/green_qt
+repository: 
 issue: 
 icon: blockstreamgreen.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-25
 reviewArchive: 
 twitter: Blockstream

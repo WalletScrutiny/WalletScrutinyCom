@@ -1,6 +1,6 @@
 ---
 wsId: breetBitcoin
-title: 'Breet: Making Crypto Spendable'
+title: 'BREET: Sell Bitcoin, USDT, ETH'
 altTitle: 
 authors:
 - danny
@@ -8,15 +8,15 @@ users: 100000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21
-updated: 2025-04-16
-version: 7.0.6
+updated: 2024-06-20
+version: 4.1.7
 stars: 4.5
 ratings: 
-reviews: 163
+reviews: 162
 website: https://breet.app
 repository: 
 issue: 
-icon: com.app.breet.jpg
+icon: com.app.breet.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive

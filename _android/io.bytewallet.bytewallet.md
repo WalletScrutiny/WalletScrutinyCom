@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-20
 updated: 2025-03-18
 version: VARY
-stars: 3.5
+stars: 3.4
 ratings: 
 reviews: 49
 website: https://www.bytefederal.com

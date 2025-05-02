@@ -1,4 +1,4 @@
-import AppInfoParser from 'app-info-parser/src/apk';
+import AppInfoParser from 'app-info-parser';
 
 export function formatFileSize(bytes) {
   if (bytes === 0) return '0 Bytes';

@@ -18,7 +18,7 @@ issue:
 icon: org.coinid.jpg
 bugbounty: 
 meta: obsolete
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2025-02-13
 signer: 

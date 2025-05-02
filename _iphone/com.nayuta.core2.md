@@ -13,12 +13,12 @@ version: 1.5.1
 stars: 0
 reviews: 0
 website: https://nayuta.co/nayuta-wallet-2022
-repository: https://github.com/nayutaco/NayutaWalletApp/tree/ios-v1.2.0
+repository: 
 issue: 
 icon: com.nayuta.core2.jpg
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: []
 date: 2024-10-07
 signer: 

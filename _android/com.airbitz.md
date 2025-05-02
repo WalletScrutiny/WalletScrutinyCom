@@ -19,7 +19,7 @@ issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: com.airbitz.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2021-12-29
 signer: 

@@ -9,11 +9,11 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2025-04-11
-version: 7.44.0
+updated: 2025-03-27
+version: 7.43.0
 stars: 4.5
 ratings: 57131
-reviews: 5965
+reviews: 5948
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 issue: 

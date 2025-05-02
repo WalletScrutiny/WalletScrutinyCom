@@ -18,7 +18,7 @@ issue:
 icon: com.incognito.wallet.jpg
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: 
 date: 2024-05-18
 signer: 

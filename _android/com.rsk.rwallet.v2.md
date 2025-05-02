@@ -21,7 +21,7 @@ issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2024-04-03
 signer: 

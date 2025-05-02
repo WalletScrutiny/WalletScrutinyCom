@@ -16,7 +16,7 @@ issue:
 icon: mixin.messenger.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-25
 reviewArchive: 
 twitter: Mixin_Network

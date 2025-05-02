@@ -19,7 +19,7 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: co.acinq.phoenix.jpg
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: []
 date: 2024-07-05
 signer: 

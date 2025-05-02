@@ -19,7 +19,7 @@ issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2021-10-01
 signer: 

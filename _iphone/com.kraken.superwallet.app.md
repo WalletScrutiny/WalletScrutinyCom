@@ -11,14 +11,14 @@ released: 2024-04-17
 updated: 2025-03-31
 version: 1.18.1
 stars: 4.7
-reviews: 417
+reviews: 401
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
-issue: 
+issue: https://github.com/krakenfx/wallet/issues/53
 icon: com.kraken.superwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: 
 date: 2025-02-04
 signer: 

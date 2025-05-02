@@ -1,6 +1,6 @@
 ---
 wsId: byteWallet
-title: 'ByteVault: Self-Custody Wallet'
+title: 'ByteWallet: Buy & Sell Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bytefederal.bytewallet
 appCountry: us
 idd: '1569062610'
 released: 2021-07-27
-updated: 2025-04-20
-version: 1.6.0.7
+updated: 2025-03-19
+version: 1.6.0.6
 stars: 3.5
 reviews: 44
-website: http://bytefederal.com/vault
+website: https://www.bytefederal.com/
 repository: 
 issue: 
 icon: com.bytefederal.bytewallet.jpg

@@ -18,7 +18,7 @@ issue:
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2021-12-29
 signer: 

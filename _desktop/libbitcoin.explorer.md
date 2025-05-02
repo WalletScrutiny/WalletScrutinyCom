@@ -15,9 +15,9 @@ repository: https://github.com/libbitcoin/libbitcoin-explorer
 issue: 
 icon: libbitcoin.explorer.png
 bugbounty: 
-meta: ok
-verdict: sourceavailable
-date: 2024-05-09
+meta: stale
+verdict: nowallet
+date: 2025-04-23
 reviewArchive: 
 twitter: 
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+Libbitcoin Explorer is a limited terminal application that allows users to generate private keys and manage transactions. On its own, it does **not function as a wallet** but rather provides some tools for wallet generation. 

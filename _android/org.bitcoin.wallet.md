@@ -20,7 +20,7 @@ issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7
 icon: org.bitcoin.wallet.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: 
 date: 2021-06-16
 signer: 

@@ -17,7 +17,7 @@ icon: jaxxliberty.png
 bugbounty: 
 meta: defunct
 verdict: nosource
-date: 2025-04-02
+date: 2025-04-23
 reviewArchive: 
 twitter: jaxx_io
 social: 
@@ -31,6 +31,5 @@ Jaxx Liberty, developed by Decentral Inc., was officially discontinued on March 
 
 The migration process relied on users' 12-word backup phrases, allowing them to restore their wallets in the new environment while maintaining control of their private keys.
 
-With the service now completely defunct, users must migrate to alternative solutions to maintain access to their digital assets. 
+With the service now completely **defunct**, users must migrate to alternative solutions to maintain access to their digital assets. Previously, it was only partially source-available which gives it a historical verdict of **not source available**.
 
-This app is  **defunct**.

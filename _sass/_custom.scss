@@ -573,6 +573,18 @@
   .item {
     display: none;
     cursor: pointer;
+    &.outdated {
+      .tile-head {
+        opacity: 0.5;
+        filter: grayscale(1);
+      }
+      &:hover {
+        .tile-head {
+          opacity: 1;
+          filter: grayscale(0);
+        }
+      }
+    }
     &.obsolete,
     &.defunct {
       &::before {

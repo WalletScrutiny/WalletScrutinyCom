@@ -99,40 +99,41 @@ permalink: /verifiers/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
-    const response = await getAllAssetInformation({});
-
-    const attestatorInfo = new Map();
-
-    for (const [sha256, verificationList] of response.verifications) {
-      for (const verification of verificationList) {
-        const pubkey = verification.pubkey;
-
-        const pubkeyInfo = attestatorInfo.get(pubkey) || {
-          verifications: 0,
-          endorsements: 0,
-          npub: ''
-        };
-
-        pubkeyInfo.verifications += 1;
-
-        const endorsements = response.endorsements.get(verification.id) || [];
-        const reproducibleEndorsements = endorsements.filter(endorsement =>
-          getFirstTag(endorsement, 'status') === 'reproducible'
-        ).length;
-        pubkeyInfo.endorsements += reproducibleEndorsements;
-
-        try {
-          pubkeyInfo.npub = await getNpubFromPubkey(pubkey);
-        } catch(e) {
-            console.error(`Failed to get npub for ${pubkey}`, e);
-            pubkeyInfo.npub = pubkey.substring(0, 10) + '...'; // Fallback value
-        }
-
-        attestatorInfo.set(pubkey, pubkeyInfo);
-      }
+    try {
+      await nostrConnect();
+    } catch (e) {
+      console.error("Failed to connect to Nostr", e);
+      document.getElementById('loadingSpinner').style.display = 'none';
+      showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
+      return;
     }
 
-    const sortedAttestators = Array.from(attestatorInfo.entries())
+    const response = await getAllAssetInformation({});
+
+    const attestatorStats = new Map();
+
+    response.verifications.forEach((verificationList, sha256) => {
+      verificationList.forEach(verification => {
+        const pubkey = verification.pubkey;
+
+        const currentStats = attestatorStats.get(pubkey) || {
+          verifications: 0,
+          endorsements: 0
+        };
+
+        currentStats.verifications += 1;
+
+        const endorsements = response.endorsements.get(verification.id) || [];
+        const reproducibleEndorsements = endorsements.filter(endorsement => 
+          getFirstTag(endorsement, 'status') === 'reproducible'
+        ).length;
+        currentStats.endorsements += reproducibleEndorsements;
+
+        attestatorStats.set(pubkey, currentStats);
+      });
+    });
+
+    const sortedAttestators = Array.from(attestatorStats.entries())
       .sort((a, b) => (b[1].verifications + b[1].endorsements) - (a[1].verifications + a[1].endorsements));
 
     const tableHTML = `
@@ -144,11 +145,12 @@ permalink: /verifiers/
           </tr>
         </thead>
         <tbody>
-          ${sortedAttestators.map(([pubkey, info]) => `
+          ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
-              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${ info.npub }</a></td>
-              <td class="attestation-count-column">${info.verifications}</td> <!-- , ${info.endorsements} -->
-            </tr>`).join('')}
+              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
+              <td class="attestation-count-column">${stats.verifications}</td> <!-- , ${stats.endorsements} -->
+            </tr>
+          `).join('')}
         </tbody>
       </table>
     `;

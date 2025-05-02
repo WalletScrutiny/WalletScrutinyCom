@@ -11,9 +11,9 @@ appCountry:
 released: 2018-03-22
 updated: 2025-03-25
 version: 4.56.5
-stars: 4.2
+stars: 3.7
 ratings: 79
-reviews: 27
+reviews: 10
 website: https://ownbit.io
 repository: 
 issue: 

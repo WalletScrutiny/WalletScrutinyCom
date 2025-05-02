@@ -16,8 +16,8 @@ author_profile: true
     The content of this div gets replaced if JS is enabled.
   -->
   {% assign platform = "android" %}
-  {% assign verdicts = "sourceavailable" | split: "," %}
-  {% assign selectedVerdict = "sourceavailable" %}
+  {% assign verdicts = "reproducible" | split: "," %}
+  {% assign selectedVerdict = "reproducible" %}
   <div class="page-section"></div>
 </div>
 

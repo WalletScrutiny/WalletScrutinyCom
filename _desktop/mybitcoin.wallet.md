@@ -16,7 +16,7 @@ issue:
 icon: 
 bugbounty: 
 meta: stale
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-25
 reviewArchive: 
 twitter: 

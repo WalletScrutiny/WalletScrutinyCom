@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-31
 updated: 2025-03-14
 version: 5.5.0
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 84
+reviews: 83
 website: https://kuwallet.com
 repository: 
 issue: 

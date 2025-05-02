@@ -16,7 +16,7 @@ issue:
 icon: guarda.png
 bugbounty: 
 meta: obsolete
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-25
 reviewArchive: 
 twitter: GuardaWallet

@@ -78,7 +78,7 @@ pre {
         <li>Verify a specific binary - Use a computer to drop your binary file in our verification tool to check existing verifications or create new ones.</li>
     </ul>
 
-    {% include /verifications/dragAndDropArea.html %}
+    {% include /verifications/dragAndDropArea.html nostr_connect_needed=true %}
 
     <p>If the <b>binary is new to the network</b>, you'll be prompted to register it providing some additional information so testers know where it came from and for which product it is.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing verifications, access build instructions, or create your own verification.</p>
@@ -98,7 +98,7 @@ pre {
     <h3>Option 1: Using Our Tool</h3>
     <p>Simply use a computer (mobile not supported for now) and drag and drop your file into the drop zone below, and we'll calculate the SHA256 hash for you automatically.</p>
 
-    {% include /verifications/dragAndDropArea.html %}
+    {% include /verifications/dragAndDropArea.html nostr_connect_needed=false %}
 
     <h3>Option 2: Using sha256sum (Command Line)</h3>
     <p class="p-pre-code">On Linux or macOS, open a terminal and run:</p>

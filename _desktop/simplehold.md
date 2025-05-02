@@ -16,7 +16,7 @@ issue:
 icon: simplehold.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 date: 2024-05-09
 reviewArchive: 
 twitter: 

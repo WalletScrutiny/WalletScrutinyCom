@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.stormbird.alphawallet.jpg
 bugbounty: 
-meta: removed
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2025-04-22
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: Alpha_wallet

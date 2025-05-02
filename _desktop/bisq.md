@@ -16,7 +16,7 @@ issue:
 icon: bisq.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 date: 2024-04-24
 reviewArchive: 
 twitter: bisq_network

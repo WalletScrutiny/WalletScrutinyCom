@@ -11,14 +11,14 @@ released: 2015-12-14
 updated: 2025-03-25
 version: 6.10.0
 stars: 4.5
-reviews: 370
+reviews: 367
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
 issue: 
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: []
 date: 2023-04-22
 signer: 

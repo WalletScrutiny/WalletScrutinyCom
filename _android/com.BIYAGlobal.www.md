@@ -4,15 +4,15 @@ title: BiyaPay-汇款美港股投资出金不冻卡
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 10000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
 updated: 2025-04-02
 version: 2.8.650
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 14
+reviews: 12
 website: https://www.biyagl.com
 repository: 
 issue: 

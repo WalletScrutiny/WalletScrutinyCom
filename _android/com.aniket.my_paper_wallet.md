@@ -14,12 +14,12 @@ stars: 3.8
 ratings: 
 reviews: 
 website: 
-repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet
+repository: 
 issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1
 icon: com.aniket.my_paper_wallet.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2024-04-03
 signer: 

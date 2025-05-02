@@ -24,7 +24,7 @@ issue: https://github.com/cardware-wallet/cardware-hardware/issues/1
 icon: cardware.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: wip
 appHashes: 
 date: 2025-04-02
 signer: 

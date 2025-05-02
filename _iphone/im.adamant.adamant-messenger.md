@@ -18,7 +18,7 @@ issue:
 icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: []
 date: 2024-09-19
 signer: 

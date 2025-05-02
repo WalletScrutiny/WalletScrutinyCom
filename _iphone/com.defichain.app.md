@@ -12,7 +12,7 @@ updated: 2024-08-29
 version: 2.43.3
 stars: 0
 reviews: 0
-website: https://t.me/defiblockchain
+website: https://defichain.com/
 repository: 
 issue: 
 icon: com.defichain.app.jpg
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/defichain.official
 - https://www.reddit.com/r/defiblockchain
 features: 
-developerName: David Pusch
+developerName: Cake DeFi
 
 ---
 

@@ -20,7 +20,7 @@ issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: nonverifiable
 appHashes: 
 date: 2024-05-07
 signer: 

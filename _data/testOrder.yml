@@ -15,10 +15,13 @@ verdicts:
   - custodial
   - nosource
   - obfuscated
-  - sourceavailable
+  - ftbfs
+  - nonverifiable
+  - reproducible
   - diy
 metas:
   - defunct
   - obsolete
   - stale
+  - outdated
   - discontinued

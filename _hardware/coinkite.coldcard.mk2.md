@@ -23,7 +23,7 @@ issue:
 icon: coinkite.coldcard.mk2.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
-verdict: sourceavailable
+verdict: reproducible
 appHashes: 
 date: 2023-10-08
 signer: 

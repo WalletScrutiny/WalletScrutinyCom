@@ -1,11 +1,10 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind } from "./nostr-constants.mjs";
 
 window.DOMPurify = DOMPurify;
 
 let response = null;
-let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 const table = document.createElement('table');
 
@@ -14,7 +13,6 @@ function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
-  const hideDrafts = document.getElementById('hideDrafts').checked;
 
   // Create a map to track latest versions when filter is active
   const latestVersions = new Map();
@@ -57,47 +55,38 @@ function updateTableVisibility() {
 
     row.style.display = shouldShow ? '' : 'none';
   });
-
-
-  // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
-  const hideDraftsChecked = document.getElementById('hideDrafts').checked;
-  document.querySelectorAll('.draft-attestation').forEach(attestation => {
-    if (hideDraftsChecked) {
-      attestation.style.display = 'none';
-    } else {
-      // attestation is a tr?
-      const isATr = attestation.tagName === 'TR';
-      attestation.style.display = isATr ? 'table-row' : 'block';
-    }
-  });
 }
 
-window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false, enableDraftsFilter = false}) {
-  let hasAssets = false;
+function getStatusText(status, short = false) {
+  switch (status) {
+    case 'reproducible':
+      return 'Reproducible when tested';
+    case 'not_reproducible':
+      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
+    case 'ftbfs':
+      return short ? 'Failed to build from source' : 'Failed to build from source provided';
+    case 'notag':
+      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
+    case 'nosource':
+      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
+    case 'obfuscated':
+      return short ? 'Source obfuscated' : 'Source code is obfuscated';
+    case 'warning':
+      return 'Warning';
+    default:
+      return status;
+  }
+}
 
+window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
   response = await getAllAssetInformation({
     pubkey,
     appId,
     sha256
   });
 
-  // --- Add Blossom Download Warning Modal Structure ---
-  const blossomModalHTML = `
-    <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
-      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; text-align: center; border-radius: 8px; color: black;">
-        <span id="blossomCloseModalButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
-        <p style="margin-top: 30px; margin-bottom: 20px;">⚠️ This file was uploaded by a third party. We haven't verified its content, so please be careful before running it. ⚠️</p>
-        <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
-      </div>
-    </div>
-  `;
-  // Append modal to body to ensure it's outside the main container's potential overflow issues
-  if (!document.getElementById('blossomWarningModal')) {
-    document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
-  }
-
   // Search and filter UI
-  if (enableSearch || enableDraftsFilter) {
+  if (enableSearch) {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'assets-search-container';
     searchContainer.style.marginBottom = '20px';
@@ -107,9 +96,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           type="text" 
           id="assetSearchInput" 
           placeholder="Search by wallet name or hash..." 
-          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
+          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px;"
         >
-        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
+        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap;">
           <style>
             @media (max-width: 768px) {
               .checkbox-container {
@@ -120,7 +109,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           </style>
           <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
-              <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
+              <input type="checkbox" id="showLatestVersionOnly" checked>
               <span>Show latest version only</span>
             </label>
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
@@ -129,87 +118,16 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             </label>
           </div>
         </div>
-        <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
-          <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
-          <span>Hide drafts</span>
-        </label>
-      </div>`;
+      </div>
+    `;
 
     document.getElementById(htmlElementId).appendChild(searchContainer);
-
-    // Add event listeners for search and filters only if enableSearch is true
-    if (enableSearch) {
-      document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
-      document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
-      document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
-    }
-    if (enableDraftsFilter) {
-      document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
-    }
   }
 
+  let hasAssets = false;
   let hasVerifications = false;
 
-  let combinedItems = new Map();
-
-  function mergeIntoCombined(sourceMap) {
-    for (const [key, value] of sourceMap.entries()) {
-      const existing = combinedItems.get(key) || [];
-      // Assuming 'value' is always an array based on the subsequent sorting logic
-      combinedItems.set(key, existing.concat(value));
-    }
-  }
-
-  mergeIntoCombined(response.verifications);
-  if (enableDraftsFilter) {
-    mergeIntoCombined(response.draftVerifications);
-  }
-  mergeIntoCombined(response.assets);
-
-  // Helper function to find verification by ID across all SHA256 hashes
-  const findVerificationById = (idToFind) => {
-    const allMaps = [response.verifications, response.draftVerifications];
-    for (const map of allMaps) {
-      if (map) { // Check if the map exists (drafts might not)
-        for (const [sha256, attestations] of map.entries()) {
-          const found = attestations.find(att => att.id === idToFind);
-          if (found) {
-            return { verification: found, sha256Hash: sha256 };
-          }
-        }
-      }
-    }
-    return null;
-  };
-
-  // Check URL hash for verification details after fetching data
-  if (location.hash.startsWith('#verificationId=')) {
-    const params = new URLSearchParams(location.hash.substring(1));
-    const verificationId = params.get('verificationId');
-
-    if (verificationId) {
-        const result = findVerificationById(verificationId);
-
-        if (result) {
-            const { verification, sha256Hash } = result;
-            // Extract appId and platform from the found verification's tags
-            const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-            const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
-
-            // Call showVerificationModal after a short delay
-            setTimeout(() => {
-                window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
-            }, 100);
-        } else {
-           // Clear the hash if the verification ID is invalid/not found
-           console.warn('Verification ID from URL hash not found:', verificationId);
-           history.pushState("", document.title, window.location.pathname + window.location.search);
-        }
-    } else {
-        // Clear incomplete hash
-        history.pushState("", document.title, window.location.pathname + window.location.search);
-    }
-  }
+  const combinedItems = new Map([...response.verifications.entries(), ...response.assets.entries()]);
 
   // It's items because they can be verifications or assets (no status or content)
   // Convert to array and sort by most recent item in each group
@@ -221,6 +139,13 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       items: sortedItems
     };
   });
+
+  // Add event listeners for search and filters only if enableSearch is true
+  if (enableSearch) {
+    document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
+    document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
+    document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
+  }
 
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
@@ -260,11 +185,12 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         ${hideConfig?.wallet ? '<th style="max-width: 200px;">Version</th>' : ''}
         <th class="hide-on-mobile" style="max-width: 300px;">Description</th>
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
-        <th class="hide-on-mobile">Binary</th>
+        <th class="hide-on-mobile">Download</th>
         <th>Verifications</th>
         <th>Seen</th>
       </tr>
-    </thead>`;
+    </thead>
+  `;
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
@@ -272,7 +198,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       const binary = item.items ? item.items[0] : item;
 
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language,
-        {
+        binary.isLegacy ? {
+          year: '2-digit',
+          month: 'short',
+          day: 'numeric'
+        } : {
           year: '2-digit',
           month: 'short',
           day: 'numeric',
@@ -286,16 +216,33 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
       const sha256HashKey = item.sha256;
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
       const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
       // Guess if it's an asset or a verification
-      hasAssets = binary.kind === assetRegistrationKind;
-      const itemDescription = hasAssets ? binary.content : JSON.parse(binary.content).description;
+      const isAsset = binary.kind === assetRegistrationKind;
+      const itemDescription = isAsset ? binary.content : JSON.parse(binary.content).description;
 
-      const standardAttestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
-      const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
-      const attestations = [...standardAttestations, ...draftAttestations];
+      if (isAsset) {
+        hasAssets = true;
+      }
+
+      let longStatus = null;
+
+      if (binary.isLegacy) {
+        let openLinkTag = null;
+
+        if (binary.gitRevision) {
+          const firstPathToken = window.location.pathname.split('/').filter(Boolean)[0];
+          openLinkTag = '<a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/' + binary.gitRevision + '/_' + firstPathToken + '/' + appId + '.md">';
+          longStatus = '';
+        }
+
+        longStatus += (oldInfoStatus === 'reproducible' ? '✅ ' : '❌ ') + openLinkTag + getStatusText(oldInfoStatus, true) + (openLinkTag ? '</a>' : '');
+      }
+
+      const attestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
 
       let attestationList;
       if (attestations.length > 0) {
@@ -303,17 +250,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
         const latestAttestationsByUser = new Map();
         for (const attestation of attestations) {
-          // Always include draft verifications
-          if (attestation.kind === verificationDraftKind) {
-            // Add the draft with a key that includes both the pubkey and the draft ID to ensure we keep all drafts
-            latestAttestationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
-          } else {
-            // For regular attestations, only keep the most recent one per user
-            const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
-            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind && 
-                attestation.created_at > existingAttestation.created_at)) {
-              latestAttestationsByUser.set(attestation.pubkey, attestation);
-            }
+          const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+          if (!existingAttestation || attestation.created_at > existingAttestation.created_at) {
+            latestAttestationsByUser.set(attestation.pubkey, attestation);
           }
         }
 
@@ -331,17 +270,10 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
           let statusText = null;
 
-          const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span>' : '';
-
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
-          listItems += `<span
-                            onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
-                            class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
-                            style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+          listItems += `<span onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
-              ${draftBadge}
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
             </div>
@@ -386,10 +318,10 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         </td>`}
         <td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download binary from our server">💾</span>
           `).join('') : '-'}
         </td>
-        <td>${attestationList}</td>
+        <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
         <td>${date}</td>`;
       table.appendChild(row);
     });
@@ -424,55 +356,13 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   document.getElementById(htmlElementId).appendChild(table);
 
-  // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
-  const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
-  rows.forEach(row => {
-    const attestations = Array.from(row.querySelectorAll('.attestation-link'));
-    if (attestations.every(attestation => attestation.classList.contains('draft-attestation'))) {
-      row.classList.add('draft-attestation');
-    }
-  });
-
   // Apply initial filter only if enableSearch is true
-  if (enableSearch || enableDraftsFilter) {
+  if (enableSearch) {
     updateTableVisibility();
   }
 
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
-
-  // --- Helper function for actual download ---
-  const downloadBlossomFile = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 9000);
-    console.log('downloading');
-    try {
-      const response = await fetch(getBlossomFileURL(hash));
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-      const filenameFromURL = response.url?.split('/').pop() ?? hash;
-
-      let filename = '';
-      const title = downloadIcon.getAttribute('data-title');
-      const version = downloadIcon.getAttribute('data-version');
-      const appid = downloadIcon.getAttribute('data-appid');
-
-      if (title && !title.includes(' ')) {
-        filename = `${title}-${version}-${filenameFromURL}`;
-      } else {
-        filename = `${appid}-${version}-${filenameFromURL}`;
-      }
-
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(await response.blob());
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href); // Clean up blob URL
-    } catch (error) {
-      console.error('Error downloading file:', error);
-      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
-    }
-  };
-  // --- End helper function ---
 
   const blossomObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(async entry => {
@@ -491,39 +381,30 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             const exists = await checkBlossomFile(hash);
             if (exists) {
               downloadIcon.style.display = 'inline';
-              // --- Modify onclick to show modal ---
               downloadIcon.onclick = async () => {
-                const modal = document.getElementById('blossomWarningModal');
-                const confirmButton = document.getElementById('blossomConfirmDownloadButton');
-                const closeButton = document.getElementById('blossomCloseModalButton');
+                showToast('Preparing file to download, wait a moment...', 'info', 6000);
 
-                // Define the download action
-                const downloadAction = () => {
-                    downloadBlossomFile(hash, downloadIcon);
-                    modal.style.display = 'none';
-                };
+                try {
+                  const response = await fetch(getBlossomFileURL(hash));
+                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-                // Remove previous listener to avoid duplicates if clicked multiple times
-                confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
-                document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+                  const filenameFromURL = response.url?.split('/').pop() ?? hash;
 
-
-                // Close modal listeners
-                const closeModal = () => {
-                  modal.style.display = 'none';
-                  // Make sure to remove the specific listener for the confirm button when closing
-                  // This is handled by replaceWith above, but good practice if not cloning
-                };
-                closeButton.onclick = closeModal;
-                modal.onclick = (event) => { // Close if clicking outside the content
-                  if (event.target === modal) {
-                    closeModal();
+                  let filename = '';
+                  if (downloadIcon.getAttribute('data-title') && !downloadIcon.getAttribute('data-title').includes(' ')) {
+                    filename = downloadIcon.getAttribute('data-title') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
+                  } else {
+                    filename = downloadIcon.getAttribute('data-appid') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
                   }
-                };
 
-                modal.style.display = 'block'; // Show the modal
+                  const a = document.createElement('a');
+                  a.href = URL.createObjectURL(await response.blob());
+                  a.download = filename;
+                  a.click();
+                } catch (error) {
+                  showToast('Error downloading file.', 'error');
+                }
               };
-              // --- End modification ---
             }
           } catch (error) {
             console.error(`Error checking hash ${hash} in Blossom:`, error);
@@ -573,11 +454,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 window.showVerificationModal = async function(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
 
-  const verifications = response.verifications.get(sha256Hash) || [];
-  const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
-  const attestations = [...verifications, ...draftVerifications];
-  const verification  = attestations.find(a => a.id === verificationId);
-  const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
+  const verifications = response.verifications.get(sha256Hash);
+  const verification  = verifications.find(a => a.id === verificationId);
+  const otherVerificationsBySamePubkey = verifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
@@ -615,10 +494,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
 
-  const isDraft = verification.kind === verificationDraftKind;
-  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.</p>` : '';
-
-  content.innerHTML += `
+  content.innerHTML = `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
@@ -694,39 +570,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   modal.style.display = 'block';
 
-  // Add share button dynamically
-  const shareButton = document.createElement('button');
-  shareButton.id = 'shareVerificationButton';
-  // Use innerHTML to include the Font Awesome icon and text
-  shareButton.innerHTML = '<i class="fas fa-share-alt"></i> Copy link to this verification';
-  shareButton.title = 'Copy link to this verification';
-  shareButton.style.position = 'absolute';
-  shareButton.style.top = '15px';
-  shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
-  shareButton.className = 'btn-small'; // Optional: Use existing styles
-  shareButton.onclick = () => {
-      navigator.clipboard.writeText(window.location.href)
-          .then(() => showToast('Link copied to clipboard'))
-          .catch(err => {
-              console.error('Failed to copy link: ', err);
-              showToast('Failed to copy link', 'error');
-          });
-  };
-  modal.appendChild(shareButton);
-
   // Add blur to all divs except verificationModal
   document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
     div.style.filter = 'blur(5px)';
   });
-
-  // Store original URL before changing hash
-  originalUrlBeforeModal = window.location.pathname + window.location.search;
-
-  // Update hash only if not already set by initial load check
-  const currentHash = `#verificationId=${verificationId}`;
-  if (window.location.hash !== currentHash) {
-      location.hash = currentHash;
-  }
 
   const profile = await getNostrProfile(verification.pubkey);
 
@@ -740,7 +587,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>
   ` : verification.pubkey;
 
-  const closeModalAction = () => {
+  document.getElementById('closeModal').onclick = function() {
     modal.style.display = 'none';
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
@@ -749,31 +596,31 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
       div.style.filter = '';
     });
-    // Restore original URL (remove hash)
-    history.pushState("", document.title, originalUrlBeforeModal);
-    // Remove the dynamically added share button
-    const shareBtn = document.getElementById('shareVerificationButton');
-    if (shareBtn) {
-        shareBtn.remove();
-    }
   };
 
-  document.getElementById('closeModal').onclick = closeModalAction;
-
   const handleClick = function(event) {
-    // Close only if click is outside the modal content area
-    if (!content.contains(event.target) && event.target !== content && event.target.id !== 'closeModal' && !event.target.closest('.attestation-link')) {
-       // Check if the click target is outside the modal boundaries entirely
-        const modalRect = modal.getBoundingClientRect();
-        if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
-            closeModalAction();
-        }
+    if (!modal.contains(event.target)) {
+      modal.style.display = 'none';
+      window.removeEventListener('click', handleClick);
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.classList.remove("modal-open");
+      // Remove blur from all divs
+      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+        div.style.filter = '';
+      });
     }
   };
 
   const handleKeyDown = function(event) {
     if (event.key === 'Escape') {
-      closeModalAction();
+      modal.style.display = 'none';
+      window.removeEventListener('click', handleClick);
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.classList.remove("modal-open");
+      // Remove blur from all divs
+      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+        div.style.filter = '';
+      });
     }
   };
 

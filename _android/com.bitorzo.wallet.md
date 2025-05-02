@@ -20,7 +20,7 @@ issue: https://github.com/Bitorzo/Bitorzo/issues/2
 icon: com.bitorzo.wallet.jpg
 bugbounty: 
 meta: removed
-verdict: sourceavailable
+verdict: ftbfs
 appHashes: 
 date: 2024-03-02
 signer: 

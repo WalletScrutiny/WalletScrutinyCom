@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: me.mobi.app.jpg
 bugbounty: 
-meta: obsolete
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-04-22
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: mobimeglobal

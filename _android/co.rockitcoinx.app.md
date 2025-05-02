@@ -12,7 +12,7 @@ updated: 2025-03-27
 version: 3.7.2
 stars: 4.2
 ratings: 
-reviews: 184
+reviews: 181
 website: https://rockitcoin.com
 repository: 
 issue: 
