@@ -28,13 +28,13 @@ git checkout core/v${version}
 COMMIT_HASH=$(git rev-parse HEAD)
 
 # Build firmware
-bash -c "./build-docker.sh --models R core/v${version}"
+bash -c "./build-docker.sh --models T2B1 core/v${version}"
 
 # Store fingerprints
-FINGERPRINTS=$(sha256sum build/core-R/bootloader/bootloader.bin
-sha256sum build/core-R/firmware/firmware.bin
-sha256sum build/core-R-bitcoinonly/bootloader/bootloader.bin
-sha256sum build/core-R-bitcoinonly/firmware/firmware.bin)
+FINGERPRINTS=$(sha256sum build/core-T2B1/bootloader/bootloader.bin
+sha256sum build/core-T2B1/firmware/firmware.bin
+sha256sum build/core-T2B1-bitcoinonly/bootloader/bootloader.bin
+sha256sum build/core-T2B1-bitcoinonly/firmware/firmware.bin)
 
 # Zero out signatures
 vendorHeaderSize=4608
@@ -47,7 +47,7 @@ dd if=/dev/zero of=trezor-t2b1-${version}.bin.zeroed bs=1 seek=$seekSize count=6
 dd if=/dev/zero of=trezor-t2b1-${version}-bitcoinonly.bin.zeroed bs=1 seek=$seekSize count=65 conv=notrunc 2>/dev/null
 
 # Store zeroed comparison
-ZEROED_COMPARISON=$(sha256sum *.zeroed build/core-R{,-bitcoinonly}/firmware/firmware.bin | sort)
+ZEROED_COMPARISON=$(sha256sum *.zeroed build/core-T2B1{,-bitcoinonly}/firmware/firmware.bin | sort)
 
 # Cleanup downloaded and temporary files
 cd ..
