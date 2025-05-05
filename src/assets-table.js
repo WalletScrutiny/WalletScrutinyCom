@@ -379,7 +379,7 @@ window.renderAssetsTable = async function({
           let statusText = null;
 
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span>' : '';
+          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span> <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=' + attestation.id + '&action=edit\'" title="Edit Draft">✏️</span>' : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -900,7 +900,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   const isDraft = verification.kind === verificationDraftKind;
-  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.</p>` : '';
+  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
 
   content.innerHTML += `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
