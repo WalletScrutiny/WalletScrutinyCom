@@ -110,6 +110,23 @@ window.renderAssetsTable = async function({
     document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
   }
 
+  // Add attachment preview modal structure
+  const attachmentPreviewModalHTML = `
+    <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+      <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+          <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
+          <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        </div>
+        <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
+      </div>
+    </div>
+  `;
+  // Append preview modal to body
+  if (!document.getElementById('attachmentPreviewModal')) {
+    document.body.insertAdjacentHTML('beforeend', attachmentPreviewModalHTML);
+  }
+
   // Search and filter UI
   if (enableSearch || enableDraftsFilter) {
     const searchContainer = document.createElement('div');
@@ -513,7 +530,9 @@ window.renderAssetsTable = async function({
       };
 
       let rowHTML = `
-        <td>${name} <small>(${sizeInKb} kB)</small> <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
+        <td>${name} <small>(${sizeInKb} kB)</small> 
+          <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
+          <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
           <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
         </td>
 
@@ -910,7 +929,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       const attachmentInfo = attachmentDataStore[attachmentId];
 
       if (attachmentInfo) {
-        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.type})</small> - ${attachmentInfo.sizeInKb} kB  <span id="${attachmentId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span></li>`;
+        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
+          <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+          <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
       }
     }
 
@@ -1117,4 +1138,67 @@ window.handleAttachmentDownload = function(attachmentId) {
   };
 
   modal.style.display = 'block';
+};
+
+// Function to handle attachment preview
+window.handleAttachmentPreview = function(attachmentId) {
+  const attachmentData = attachmentDataStore[attachmentId];
+  
+  if (!attachmentData || !attachmentData.content) {
+    console.error('Attachment data or content is missing for ID:', attachmentId);
+    showToast('Error: Attachment data is missing.', 'error');
+    return;
+  }
+
+  // Get modal elements
+  const modal = document.getElementById('attachmentPreviewModal');
+  const previewContent = document.getElementById('previewContent');
+  const previewFileName = document.getElementById('previewFileName');
+  const closeButton = document.getElementById('previewCloseButton');
+  
+  // Set the filename
+  previewFileName.textContent = attachmentData.filename;
+  
+  // Clear previous content
+  previewContent.innerHTML = '';
+  
+  try {
+    // Handle text content - simplified for all files
+    const textContent = attachmentData.content;
+    
+    // Display content in a preformatted element
+    previewContent.innerHTML = `<pre>${DOMPurify.sanitize(textContent)}</pre>`;
+    
+    // Set modal close action
+    closeButton.onclick = function() {
+      modal.style.display = 'none';
+    };
+    
+    // Close modal when clicking outside
+    modal.onclick = function(event) {
+      if (event.target === modal) {
+        closeButton.onclick();
+      }
+    };
+    
+    // Show the modal
+    modal.style.display = 'block';
+    
+    // Reset scroll position to top
+    previewContent.scrollTop = 0;
+    previewContent.scrollLeft = 0;
+    
+    // Close on ESC key
+    const handleKeyDown = function(event) {
+      if (event.key === 'Escape') {
+        closeButton.onclick();
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    
+  } catch (error) {
+    console.error('Error creating preview:', error);
+    showToast('Error creating preview.', 'error');
+  }
 };
