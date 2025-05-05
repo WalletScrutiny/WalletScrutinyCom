@@ -464,6 +464,13 @@ window.renderAssetsTable = async function({
     `;
 
     attachments.forEach(attachment => {
+      const date = new Date(attachment.created_at * 1000).toLocaleDateString(navigator.language, {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
       const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
       const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
       const sizeInKb = Math.round(size / 1024);
@@ -494,7 +501,9 @@ window.renderAssetsTable = async function({
       let rowHTML = `
         <td>${name} <span id="${attachment.id}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
           <small>(${attachmentContentType})</small> <br>
-          ${sizeInKb} kB
+          ${sizeInKb} kB <br>
+          <small>Uploaded: ${date}</small> <br>
+          <small>By: <span id="profile-${attachment.pubkey}">${attachment.pubkey}</span></small>
         </td>
 
         <td>`;
