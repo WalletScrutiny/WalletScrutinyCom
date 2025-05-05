@@ -143,6 +143,9 @@ const validateSHA256 = function(hashes) {
 }
 
 const getNostrProfile = async function (pubkey) {
+  if (!pubkey) {
+    return null;
+  }
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();

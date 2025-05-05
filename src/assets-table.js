@@ -84,7 +84,8 @@ window.renderAssetsTable = async function({
                                             sortByVersion = false,
                                             enableSearch = false,
                                             enableDraftsFilter = false,
-                                            enableAttachments = false
+                                            enableAttachments = false,
+                                            showProfilePictures = true
                                           }) {
   let hasAssets = false;
 
@@ -289,8 +290,14 @@ window.renderAssetsTable = async function({
       </tr>
     </thead>`;
 
+  let profilePubkeys = [];
+
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
+      if (showProfilePictures && !profilePubkeys.includes(item.items[0].pubkey)) {
+        profilePubkeys.push(item.items[0].pubkey);
+      }
+
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
@@ -365,6 +372,7 @@ window.renderAssetsTable = async function({
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
+              <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
             </div>
@@ -449,6 +457,12 @@ window.renderAssetsTable = async function({
 
   // ATTACHMENTS TABLE
   if (enableAttachments && attachments.size > 0) {
+    attachments.forEach(attachment => {
+      if (showProfilePictures && !profilePubkeys.includes(attachment.pubkey)) {
+        profilePubkeys.push(attachment.pubkey);
+      }
+    });
+
     const paragraph = document.createElement('p');
     paragraph.innerHTML = 'Scripts used to reproduce the application:';
     document.getElementById(htmlElementId).appendChild(paragraph);
@@ -499,11 +513,8 @@ window.renderAssetsTable = async function({
       };
 
       let rowHTML = `
-        <td>${name} <span id="${attachment.id}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
-          <small>(${attachmentContentType})</small> <br>
-          ${sizeInKb} kB <br>
-          <small>Uploaded: ${date}</small> <br>
-          <small>By: <span id="profile-${attachment.pubkey}">${attachment.pubkey}</span></small>
+        <td>${name} <small>(${sizeInKb} kB)</small> <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span><br>
+          <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
         </td>
 
         <td>`;
@@ -664,6 +675,158 @@ window.renderAssetsTable = async function({
 
   // Initial check for visible rows
   updateObserverForVisibleRows();
+
+  if (showProfilePictures) {
+    profilePubkeys.forEach(async pubkey => {
+      try {
+        const profile = await getNostrProfile(pubkey);
+        if (!profile) {
+          return;
+        }
+        const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
+
+        profileElementsForThisPubkey.forEach(profileElement => {
+          profileElement.innerHTML = `
+            <div class="profile-circle-container" data-name="${profile.name || pubkey}">
+              ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
+              <div class="profile-hover-modal">
+                <div class="profile-modal-content">
+                  ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
+                  <br>
+                  <span>${profile.name || pubkey}</span>
+                  <button class="profile-page-btn" onclick="window.open('/verifier/?pubkey=${pubkey}', '_blank', 'noopener,noreferrer')">Verifier Page</button>
+                </div>
+              </div>
+            </div>
+          `;
+          
+          // Add event listeners to each profile element to handle hover behavior
+          const container = profileElement.querySelector('.profile-circle-container');
+          const modal = container.querySelector('.profile-hover-modal');
+          let timeout;
+          
+          container.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+            modal.style.display = 'block';
+          });
+          
+          container.addEventListener('mouseleave', (e) => {
+            // Check if mouse is moving towards the modal
+            const rect = modal.getBoundingClientRect();
+            // Only start timeout if mouse is not moving toward the modal
+            if (e.clientY >= rect.bottom || e.clientY <= rect.top || 
+                e.clientX >= rect.right || e.clientX <= rect.left) {
+              timeout = setTimeout(() => {
+                if (!modal.matches(':hover')) {
+                  modal.style.display = 'none';
+                }
+              }, 300); // 300ms delay gives time to move mouse to modal
+            }
+          });
+          
+          modal.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+          });
+          /*
+          modal.addEventListener('mouseleave', () => {
+            timeout = setTimeout(() => {
+              modal.style.display = 'none';
+            }, 300);
+          });
+          */
+          
+          // Stop clicks from propagating through the modal
+          modal.addEventListener('click', (e) => {
+            e.stopPropagation();
+          });
+        });
+      } catch (error) {
+        console.error(`Error loading profile for ${pubkey}:`, error);
+      }
+    });
+
+    const profileStyles = document.createElement('style');
+    profileStyles.textContent = `
+      .profile-circle-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .profile-circle {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      
+      .profile-hover-modal {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        min-width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30px;
+        text-align: center;
+        color: #333;
+        pointer-events: auto; /* Ensure the modal captures all pointer events */
+        cursor: default; /* Show arrow cursor instead of hand */
+      }
+      
+      .profile-modal-content {
+        pointer-events: none; /* Make the entire content non-clickable */
+        cursor: default;
+      }
+      
+      .profile-modal-content .profile-page-btn {
+        pointer-events: auto; /* Re-enable pointer events only for the button */
+        cursor: pointer;
+      }
+      
+      .profile-modal-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      
+      .profile-page-btn {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      
+      .profile-hover-modal:before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 10px;
+      }
+      
+      /* Dark theme support */
+      body.dark-theme .profile-hover-modal {
+        background-color: #2d2d2d;
+        color: white;
+      }
+    `;
+    document.head.appendChild(profileStyles);
+  }
 
   return {
     hasAssets,
