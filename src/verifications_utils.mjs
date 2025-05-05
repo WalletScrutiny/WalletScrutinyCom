@@ -5,6 +5,7 @@ import {
   assetRegistrationKind,
   verificationKind,
   verificationDraftKind,
+  codeSnippetKind,
   endorsementKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
@@ -32,7 +33,7 @@ let ndk;
 let ndkConnectionPromise = null; // Promise to track NDK connection status
 let resolveNostrConnectInitiated;
 const nostrConnectInitiatedPromise = new Promise(resolve => {
-    resolveNostrConnectInitiated = resolve;
+  resolveNostrConnectInitiated = resolve;
 });
 
 const connectTimeout = 2000;
@@ -88,20 +89,20 @@ const nostrConnect = function (nostrPrivateKey) {
 
 // Helper function to ensure NDK is connected before proceeding
 const ensureNdkConnected = async () => {
-    if (!ndkConnectionPromise) {
-        // nostrConnect hasn't been called yet, wait for it to be initiated
-        console.debug("ensureNdkConnected: Waiting for nostrConnect to be initiated...");
-        await nostrConnectInitiatedPromise;
-        console.debug("ensureNdkConnected: nostrConnect initiated.");
-    }
-    // Now we know ndkConnectionPromise is set (or was already set). Wait for the connection attempt to complete.
-    console.debug("ensureNdkConnected: Waiting for ndkConnectionPromise to resolve...");
-    await ndkConnectionPromise;
-    console.debug("ensureNdkConnected: ndkConnectionPromise resolved.");
-    if (!ndk) {
-         // Should not happen if nostrConnect was called and promise resolved, but as a safeguard
-         throw new Error("NDK object not initialized after connection.");
-    }
+  if (!ndkConnectionPromise) {
+    // nostrConnect hasn't been called yet, wait for it to be initiated
+    console.debug("ensureNdkConnected: Waiting for nostrConnect to be initiated...");
+    await nostrConnectInitiatedPromise;
+    console.debug("ensureNdkConnected: nostrConnect initiated.");
+  }
+  // Now we know ndkConnectionPromise is set (or was already set). Wait for the connection attempt to complete.
+  console.debug("ensureNdkConnected: Waiting for ndkConnectionPromise to resolve...");
+  await ndkConnectionPromise;
+  console.debug("ensureNdkConnected: ndkConnectionPromise resolved.");
+  if (!ndk) {
+    // Should not happen if nostrConnect was called and promise resolved, but as a safeguard
+    throw new Error("NDK object not initialized after connection.");
+  }
 };
 
 const getUserPubkey = async function() {
@@ -142,6 +143,9 @@ const validateSHA256 = function(hashes) {
 }
 
 const getNostrProfile = async function (pubkey) {
+  if (!pubkey) {
+    return null;
+  }
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();
@@ -230,7 +234,9 @@ const createVerification = async function ({
                                              platform,
                                              createdAt = null,
                                              isDraft = false,
-                                             draftVerificationEventId = null
+                                             draftVerificationEventId = null,
+                                             uploadedFileData = [],
+                                             reusedFileIds = []
                                            }) {
   await ensureNdkConnected();
   validateSHA256(hashes);
@@ -259,6 +265,40 @@ const createVerification = async function ({
   if (content && content.length > 60000) {
     throw new Error("Content must be 60000 characters or less");
   }
+
+  // --- Upload Files Before Main Event Creation ---
+  let fileUploadResults = [];
+  let fileEventIds = [];
+  if (uploadedFileData.length > 0) {
+    console.log(`Uploading ${uploadedFileData.length} attached file(s) before creating verification...`);
+    const uploadPromises = uploadedFileData.map(fileData =>
+      uploadFileAttachment({
+        fileName: fileData.name,
+        fileType: fileData.type,
+        fileSize: fileData.size,
+        base64Data: fileData.base64Data
+      })
+    );
+    fileUploadResults = await Promise.all(uploadPromises);
+    console.log("File upload process completed.", fileUploadResults);
+
+    // Collect successful file event IDs
+    fileUploadResults.forEach(result => {
+      if (result.success && result.eventId) {
+        fileEventIds.push(result.eventId);
+      }
+    });
+
+    // Handle potential upload failures (optional: decide if this should halt verification creation)
+    const failedUploads = fileUploadResults.filter(r => !r.success);
+    if (failedUploads.length > 0) {
+      console.error("Some file uploads failed:", failedUploads);
+      // Decide whether to throw an error or just log it
+      // For now, let's throw an error if any upload fails
+      throw new Error(`Failed to upload file(s): ${failedUploads.map(f => f.fileName).join(', ')}`);
+    }
+  }
+  // --- End File Upload ---
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = isDraft ? verificationDraftKind : verificationKind;
@@ -298,11 +338,26 @@ const createVerification = async function ({
     ndkEvent.tags.push(["x", hash]);
   });
 
-  eventSanitize(ndkEvent);
+  // Add file event IDs as tags if any files were successfully uploaded
+  if (fileEventIds.length > 0) {
+    fileEventIds.forEach(fileEventId => {
+      ndkEvent.tags.push(["file-attachment", fileEventId]);
+    });
+  }
+  if (reusedFileIds.length > 0) {
+    reusedFileIds.forEach(fileEventId => {
+      ndkEvent.tags.push(["file-attachment", fileEventId]);
+    });
+  }
+
+  eventSanitize(ndkEvent); // Sanitize main event
+
+  let mainEventId;
 
   try {
     const publishedToRelays = await ndkEvent.publish();
-    console.log(`published verification to ${publishedToRelays.size} relays`);
+    mainEventId = ndkEvent.id; // Get the ID of the published event
+    console.log(`Published verification (id: ${mainEventId}) to ${publishedToRelays.size} relays`);
 
     if (!isDraft && draftVerificationEventId) {
       const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
@@ -312,6 +367,7 @@ const createVerification = async function ({
     }
 
     return ndkEvent;
+
   } catch (error) {
     console.error("error publishing verification to relays", error);
     if (error instanceof NDKPublishError) {
@@ -435,6 +491,94 @@ function eventSanitize(event) {
 const getFirstValueFromTag = function(event, tagName) {
   const tags = event.getMatchingTags(tagName);
   return tags.length === 0 ? null : tags[0][1];
+}
+
+const getFileAttachmentIDsForVerificationEvent = function(event) {
+  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
+}
+
+const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
+  await ensureNdkConnected();
+
+  if (!fileName || !fileType || !base64Data) {
+    throw new Error("Missing required parameters for file upload");
+  }
+
+  if (fileSize > 60000) { // Double check size
+    throw new Error(`File ${fileName} exceeds the 60KB limit`);
+  }
+
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = codeSnippetKind;
+  ndkEvent.content = base64Data;
+  ndkEvent.created_at = getCreatedAt();
+  ndkEvent.tags = [
+    ["filename", fileName],
+    ["content-type", fileType],
+    ["size", fileSize.toString()],
+    getWSClientTag()
+  ];
+
+  try {
+    const publishedToRelays = await ndkEvent.publish();
+    console.log(`Uploaded file ${fileName} (${fileSize} bytes) to ${publishedToRelays.size} relays`);
+    return { success: true, eventId: ndkEvent.id, fileName: fileName };
+  } catch (error) {
+    console.error(`Error uploading file ${fileName} to relays`, error);
+    if (error instanceof NDKPublishError) {
+      for (const [relay, err] of error.errors) {
+        console.error(`Error publishing file to relay ${relay.url}`, err);
+      }
+    }
+    return { success: false, error: error, fileName: fileName };
+  }
+}
+
+const getFileAttachmentEvents = async function(fileEventIds) {
+  await ensureNdkConnected();
+
+  if (!fileEventIds || fileEventIds.length === 0) {
+    console.debug(`No file-event tags found on verification event ${fileEventIds}.`);
+    return [];
+  }
+
+  console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
+
+  return await ndk.fetchEvents({
+    kinds: [codeSnippetKind],
+    ids: fileEventIds
+  });
+}
+
+const getAllAttachmentsForAppId = async function(appId) {
+  const response = await getAllAssetInformation({
+    appId
+  });
+
+  const attachments = [];
+  const promises = [];
+
+  for (const sha256VerificationGroup of response.verifications.values()) {
+    for (const verification of sha256VerificationGroup) {
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
+      if (fileEventIds.length > 0) {
+        promises.push(
+          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
+            // Process each fetched attachment event
+            fileAttachmentEvents.forEach(attachmentEvent => {
+              // Add the parent verification event to the attachment
+              attachmentEvent.parentVerificationEvent = verification;
+              attachments.push(attachmentEvent);
+            });
+          })
+        );
+      }
+    }
+  }
+
+  await Promise.all(promises);  // Wait for all promises to resolve before continuing
+
+  return attachments;
 }
 
 const getAllAssetInformation = async function({
@@ -672,6 +816,7 @@ function setupAppIdAutocomplete() {
       div.onclick = () => {
         appIdInput.value = wallet.appId;
         suggestionsContainer.style.display = 'none';
+        appIdInput.dispatchEvent(new Event('input', { bubbles: true }));  // Manually trigger the input event after setting the value
       };
       suggestionsContainer.appendChild(div);
     });
@@ -833,6 +978,10 @@ if (typeof window !== 'undefined') {
   window.doDraftVerificationAction = doDraftVerificationAction;
   window.getDraftVerificationEvent = getDraftVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
+  window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
+  window.uploadFileAttachment = uploadFileAttachment;
+  window.getFileAttachmentEvents = getFileAttachmentEvents;
+  window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
 }
 
 export {
@@ -858,5 +1007,9 @@ export {
   doDraftVerificationAction,
   getDraftVerificationEvent,
   deleteDraftVerification,
-  getFirstValueFromTag
+  getFirstValueFromTag,
+  getFileAttachmentIDsForVerificationEvent,
+  uploadFileAttachment,
+  getFileAttachmentEvents,
+  getAllAttachmentsForAppId
 };

@@ -9,12 +9,14 @@ let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 const table = document.createElement('table');
 
+let attachments = [];
+const attachmentDataStore = {};   // Define a store for attachment data globally accessible
+
 // Filter table rows
 function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
-  const hideDrafts = document.getElementById('hideDrafts').checked;
 
   // Create a map to track latest versions when filter is active
   const latestVersions = new Map();
@@ -72,7 +74,19 @@ function updateTableVisibility() {
   });
 }
 
-window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false, enableDraftsFilter = false}) {
+window.renderAssetsTable = async function({
+                                            htmlElementId,
+                                            pubkey,
+                                            appId,
+                                            sha256,
+                                            hideConfig,
+                                            showOnlyRows = 100,
+                                            sortByVersion = false,
+                                            enableSearch = false,
+                                            enableDraftsFilter = false,
+                                            enableAttachments = false,
+                                            showProfilePictures = true
+                                          }) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
@@ -94,6 +108,23 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   // Append modal to body to ensure it's outside the main container's potential overflow issues
   if (!document.getElementById('blossomWarningModal')) {
     document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
+  }
+
+  // Add attachment preview modal structure
+  const attachmentPreviewModalHTML = `
+    <div id="attachmentPreviewModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+      <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+          <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
+          <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        </div>
+        <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
+      </div>
+    </div>
+  `;
+  // Append preview modal to body
+  if (!document.getElementById('attachmentPreviewModal')) {
+    document.body.insertAdjacentHTML('beforeend', attachmentPreviewModalHTML);
   }
 
   // Search and filter UI
@@ -188,26 +219,26 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     const verificationId = params.get('verificationId');
 
     if (verificationId) {
-        const result = findVerificationById(verificationId);
+      const result = findVerificationById(verificationId);
 
-        if (result) {
-            const { verification, sha256Hash } = result;
-            // Extract appId and platform from the found verification's tags
-            const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-            const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+      if (result) {
+        const { verification, sha256Hash } = result;
+        // Extract appId and platform from the found verification's tags
+        const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+        const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
-            // Call showVerificationModal after a short delay
-            setTimeout(() => {
-                window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
-            }, 100);
-        } else {
-           // Clear the hash if the verification ID is invalid/not found
-           console.warn('Verification ID from URL hash not found:', verificationId);
-           history.pushState("", document.title, window.location.pathname + window.location.search);
-        }
-    } else {
-        // Clear incomplete hash
+        // Call showVerificationModal after a short delay
+        setTimeout(() => {
+          window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
+        }, 100);
+      } else {
+        // Clear the hash if the verification ID is invalid/not found
+        console.warn('Verification ID from URL hash not found:', verificationId);
         history.pushState("", document.title, window.location.pathname + window.location.search);
+      }
+    } else {
+      // Clear incomplete hash
+      history.pushState("", document.title, window.location.pathname + window.location.search);
     }
   }
 
@@ -253,6 +284,16 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
+  if (enableAttachments && sortedItems.length > 0) {
+    let attachmentEventIDs = [];
+    sortedItems.forEach((item, index) => {
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
+      attachmentEventIDs.push(...fileEventIds);
+    });
+
+    attachments = await getFileAttachmentEvents(attachmentEventIDs);
+  }
+
   table.innerHTML = `
     <thead>
       <tr>
@@ -266,8 +307,14 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       </tr>
     </thead>`;
 
+  let profilePubkeys = [];
+
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
+      if (showProfilePictures && !profilePubkeys.includes(item.items[0].pubkey)) {
+        profilePubkeys.push(item.items[0].pubkey);
+      }
+
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
@@ -310,8 +357,8 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           } else {
             // For regular attestations, only keep the most recent one per user
             const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
-            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind && 
-                attestation.created_at > existingAttestation.created_at)) {
+            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
+              attestation.created_at > existingAttestation.created_at)) {
               latestAttestationsByUser.set(attestation.pubkey, attestation);
             }
           }
@@ -332,7 +379,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           let statusText = null;
 
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span>' : '';
+          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span> <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=' + attestation.id + '&action=edit\'" title="Edit Draft">✏️</span>' : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -342,6 +389,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
+              <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
             </div>
@@ -424,6 +472,97 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   document.getElementById(htmlElementId).appendChild(table);
 
+  // ATTACHMENTS TABLE
+  if (enableAttachments && attachments.size > 0) {
+    attachments.forEach(attachment => {
+      if (showProfilePictures && !profilePubkeys.includes(attachment.pubkey)) {
+        profilePubkeys.push(attachment.pubkey);
+      }
+    });
+
+    const paragraph = document.createElement('p');
+    paragraph.innerHTML = 'Scripts used to reproduce the application:';
+    document.getElementById(htmlElementId).appendChild(paragraph);
+
+    const attachmentsTable = document.createElement('table');
+    attachmentsTable.innerHTML = `
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Used to reproduce</th>
+        </tr>
+      </thead>
+    `;
+
+    attachments.forEach(attachment => {
+      const date = new Date(attachment.created_at * 1000).toLocaleDateString(navigator.language, {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+      const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+      const sizeInKb = Math.round(size / 1024);
+
+      // Find in sortedItems the specific verification items that use this attachment
+      const verifications = sortedItems.flatMap(item =>
+        item.items.filter(i =>
+          i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
+        )
+      );
+
+      const row = document.createElement('tr');
+      if (verifications.some(v => v.kind === verificationDraftKind)) {
+        row.classList.add('draft-attestation');
+      }
+
+      // Decode and store attachment data
+      const attachmentContent = atob(attachment.content);
+      const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+      attachmentDataStore[attachment.id] = {
+        content: attachmentContent,
+        type: attachmentContentType,
+        filename: name,
+        sizeInKb: sizeInKb
+      };
+
+      let rowHTML = `
+        <td>${name} <small>(${sizeInKb} kB)</small> 
+          <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
+          <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
+          <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
+        </td>
+
+        <td>`;
+
+      if (verifications.length > 0) {
+        for (const verification of verifications) {
+          const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
+          const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+          const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+          const wallet = window.wallets.find(w => w.appId === identifier);
+          const walletTitle = wallet ? wallet.title : identifier;
+
+          rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+        }
+      } else {
+        rowHTML += '-';
+      }
+
+      rowHTML += `</td>`;
+
+      row.innerHTML = rowHTML;
+
+      attachmentsTable.appendChild(row);
+    });
+
+    document.getElementById(htmlElementId).appendChild(attachmentsTable);
+  }
+
   // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
   const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
   rows.forEach(row => {
@@ -491,28 +630,22 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             const exists = await checkBlossomFile(hash);
             if (exists) {
               downloadIcon.style.display = 'inline';
-              // --- Modify onclick to show modal ---
               downloadIcon.onclick = async () => {
                 const modal = document.getElementById('blossomWarningModal');
                 const confirmButton = document.getElementById('blossomConfirmDownloadButton');
                 const closeButton = document.getElementById('blossomCloseModalButton');
 
-                // Define the download action
                 const downloadAction = () => {
-                    downloadBlossomFile(hash, downloadIcon);
-                    modal.style.display = 'none';
+                  downloadBlossomFile(hash, downloadIcon);
+                  modal.style.display = 'none';
                 };
 
                 // Remove previous listener to avoid duplicates if clicked multiple times
                 confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
                 document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
 
-
-                // Close modal listeners
                 const closeModal = () => {
                   modal.style.display = 'none';
-                  // Make sure to remove the specific listener for the confirm button when closing
-                  // This is handled by replaceWith above, but good practice if not cloning
                 };
                 closeButton.onclick = closeModal;
                 modal.onclick = (event) => { // Close if clicking outside the content
@@ -523,7 +656,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
                 modal.style.display = 'block'; // Show the modal
               };
-              // --- End modification ---
             }
           } catch (error) {
             console.error(`Error checking hash ${hash} in Blossom:`, error);
@@ -562,6 +694,158 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   // Initial check for visible rows
   updateObserverForVisibleRows();
+
+  if (showProfilePictures) {
+    profilePubkeys.forEach(async pubkey => {
+      try {
+        const profile = await getNostrProfile(pubkey);
+        if (!profile) {
+          return;
+        }
+        const profileElementsForThisPubkey = document.querySelectorAll(`.profile-${pubkey}`);
+
+        profileElementsForThisPubkey.forEach(profileElement => {
+          profileElement.innerHTML = `
+            <div class="profile-circle-container" data-name="${profile.name || pubkey}">
+              ${profile.image ? `<img src="${profile.image}" class="profile-circle" onerror="this.style.display='none'"/>` : ''}
+              <div class="profile-hover-modal">
+                <div class="profile-modal-content">
+                  ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
+                  <br>
+                  <span>${profile.name || pubkey}</span>
+                  <button class="profile-page-btn" onclick="window.open('/verifier/?pubkey=${pubkey}', '_blank', 'noopener,noreferrer')">Verifier Page</button>
+                </div>
+              </div>
+            </div>
+          `;
+          
+          // Add event listeners to each profile element to handle hover behavior
+          const container = profileElement.querySelector('.profile-circle-container');
+          const modal = container.querySelector('.profile-hover-modal');
+          let timeout;
+          
+          container.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+            modal.style.display = 'block';
+          });
+          
+          container.addEventListener('mouseleave', (e) => {
+            // Check if mouse is moving towards the modal
+            const rect = modal.getBoundingClientRect();
+            // Only start timeout if mouse is not moving toward the modal
+            if (e.clientY >= rect.bottom || e.clientY <= rect.top || 
+                e.clientX >= rect.right || e.clientX <= rect.left) {
+              timeout = setTimeout(() => {
+                if (!modal.matches(':hover')) {
+                  modal.style.display = 'none';
+                }
+              }, 300); // 300ms delay gives time to move mouse to modal
+            }
+          });
+          
+          modal.addEventListener('mouseenter', () => {
+            clearTimeout(timeout);
+          });
+          /*
+          modal.addEventListener('mouseleave', () => {
+            timeout = setTimeout(() => {
+              modal.style.display = 'none';
+            }, 300);
+          });
+          */
+          
+          // Stop clicks from propagating through the modal
+          modal.addEventListener('click', (e) => {
+            e.stopPropagation();
+          });
+        });
+      } catch (error) {
+        console.error(`Error loading profile for ${pubkey}:`, error);
+      }
+    });
+
+    const profileStyles = document.createElement('style');
+    profileStyles.textContent = `
+      .profile-circle-container {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .profile-circle {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      
+      .profile-hover-modal {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+        min-width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 30px;
+        text-align: center;
+        color: #333;
+        pointer-events: auto; /* Ensure the modal captures all pointer events */
+        cursor: default; /* Show arrow cursor instead of hand */
+      }
+      
+      .profile-modal-content {
+        pointer-events: none; /* Make the entire content non-clickable */
+        cursor: default;
+      }
+      
+      .profile-modal-content .profile-page-btn {
+        pointer-events: auto; /* Re-enable pointer events only for the button */
+        cursor: pointer;
+      }
+      
+      .profile-modal-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      
+      .profile-page-btn {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      
+      .profile-hover-modal:before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 10px;
+      }
+      
+      /* Dark theme support */
+      body.dark-theme .profile-hover-modal {
+        background-color: #2d2d2d;
+        color: white;
+      }
+    `;
+    document.head.appendChild(profileStyles);
+  }
 
   return {
     hasAssets,
@@ -616,7 +900,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   const isDraft = verification.kind === verificationDraftKind;
-  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.</p>` : '';
+  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
 
   content.innerHTML += `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
@@ -628,6 +912,31 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     minute: '2-digit'
   })}</p>
     <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+
+  const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+
+  if (verificationAttachments.length > 0) {
+    // Wait here until attachmentDataStore is filled
+    while (Object.keys(attachmentDataStore).length === 0) {
+      await new Promise(resolve => setTimeout(resolve, 50));
+    }
+
+
+    let attachmentsHTML = '';
+
+    for (const attachment of verificationAttachments) {
+      const attachmentId = attachment[1];
+      const attachmentInfo = attachmentDataStore[attachmentId];
+
+      if (attachmentInfo) {
+        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
+          <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+          <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+      }
+    }
+
+    content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
+  }
 
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
@@ -705,12 +1014,12 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
   shareButton.className = 'btn-small'; // Optional: Use existing styles
   shareButton.onclick = () => {
-      navigator.clipboard.writeText(window.location.href)
-          .then(() => showToast('Link copied to clipboard'))
-          .catch(err => {
-              console.error('Failed to copy link: ', err);
-              showToast('Failed to copy link', 'error');
-          });
+    navigator.clipboard.writeText(window.location.href)
+      .then(() => showToast('Link copied to clipboard'))
+      .catch(err => {
+        console.error('Failed to copy link: ', err);
+        showToast('Failed to copy link', 'error');
+      });
   };
   modal.appendChild(shareButton);
 
@@ -725,7 +1034,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   // Update hash only if not already set by initial load check
   const currentHash = `#verificationId=${verificationId}`;
   if (window.location.hash !== currentHash) {
-      location.hash = currentHash;
+    location.hash = currentHash;
   }
 
   const profile = await getNostrProfile(verification.pubkey);
@@ -754,7 +1063,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     // Remove the dynamically added share button
     const shareBtn = document.getElementById('shareVerificationButton');
     if (shareBtn) {
-        shareBtn.remove();
+      shareBtn.remove();
     }
   };
 
@@ -763,11 +1072,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const handleClick = function(event) {
     // Close only if click is outside the modal content area
     if (!content.contains(event.target) && event.target !== content && event.target.id !== 'closeModal' && !event.target.closest('.attestation-link')) {
-       // Check if the click target is outside the modal boundaries entirely
-        const modalRect = modal.getBoundingClientRect();
-        if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
-            closeModalAction();
-        }
+      // Check if the click target is outside the modal boundaries entirely
+      const modalRect = modal.getBoundingClientRect();
+      if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
+        closeModalAction();
+      }
     }
   };
 
@@ -779,4 +1088,117 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
+};
+
+// Function to handle attachment download using stored data
+window.handleAttachmentDownload = function(attachmentId) {
+  const modal = document.getElementById('blossomWarningModal');
+  const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+  const closeButton = document.getElementById('blossomCloseModalButton');
+
+  const downloadAction = () => {
+    const attachmentData = attachmentDataStore[attachmentId];
+
+    if (!attachmentData || !attachmentData.content) {
+      console.error('Attachment data or content is missing for ID:', attachmentId);
+      showToast('Error: Attachment data is missing.', 'error');
+      return;
+    }
+
+    try {
+      const blob = new Blob([attachmentData.content], { type: attachmentData.type });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = attachmentData.filename;
+      document.body.appendChild(a); // Append anchor to body
+      a.click();
+      document.body.removeChild(a); // Clean up anchor
+      URL.revokeObjectURL(url); // Clean up blob URL
+    } catch (error) {
+      console.error('Error preparing download:', error);
+      showToast('Error preparing download.', 'error');
+    }
+
+    modal.style.display = 'none';
+  };
+
+  // Remove previous listener to avoid duplicates if clicked multiple times
+  confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
+  document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
+  closeButton.onclick = closeModal;
+  modal.onclick = (event) => { // Close if clicking outside the content
+    if (event.target === modal) {
+      closeModal();
+    }
+  };
+
+  modal.style.display = 'block';
+};
+
+// Function to handle attachment preview
+window.handleAttachmentPreview = function(attachmentId) {
+  const attachmentData = attachmentDataStore[attachmentId];
+  
+  if (!attachmentData || !attachmentData.content) {
+    console.error('Attachment data or content is missing for ID:', attachmentId);
+    showToast('Error: Attachment data is missing.', 'error');
+    return;
+  }
+
+  // Get modal elements
+  const modal = document.getElementById('attachmentPreviewModal');
+  const previewContent = document.getElementById('previewContent');
+  const previewFileName = document.getElementById('previewFileName');
+  const closeButton = document.getElementById('previewCloseButton');
+  
+  // Set the filename
+  previewFileName.textContent = attachmentData.filename;
+  
+  // Clear previous content
+  previewContent.innerHTML = '';
+  
+  try {
+    // Handle text content - simplified for all files
+    const textContent = attachmentData.content;
+    
+    // Display content in a preformatted element
+    previewContent.innerHTML = `<pre>${DOMPurify.sanitize(textContent)}</pre>`;
+    
+    // Set modal close action
+    closeButton.onclick = function() {
+      modal.style.display = 'none';
+    };
+    
+    // Close modal when clicking outside
+    modal.onclick = function(event) {
+      if (event.target === modal) {
+        closeButton.onclick();
+      }
+    };
+    
+    // Show the modal
+    modal.style.display = 'block';
+    
+    // Reset scroll position to top
+    previewContent.scrollTop = 0;
+    previewContent.scrollLeft = 0;
+    
+    // Close on ESC key
+    const handleKeyDown = function(event) {
+      if (event.key === 'Escape') {
+        closeButton.onclick();
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    
+  } catch (error) {
+    console.error('Error creating preview:', error);
+    showToast('Error creating preview.', 'error');
+  }
 };

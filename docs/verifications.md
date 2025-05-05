@@ -8,9 +8,8 @@ A verification is a signed statement about a binary with a specific hash, declar
 - Reproducibility status (reproducible/not_reproducible)
 - Detailed explanation of the reproduction attempt
 - Build instructions or documentation used
-- The reproducer can update their replaceable verifications
-
-The user will be able to publish a verification directly or as a draft. In the latter case, it will not be displayed directly (only if users opt to view them), and it can be definitively published later.
+- The reproducer will be able to publish a verification directly or as a draft. In the latter case, it will not be displayed directly (only if users opt to view them), and it can be definitively published later.
+- The reproducer can upload scripts or other files that help with the reproduction process. These files will be displayed in the verification details.
 
 ### Trust Model
 Trust in verifications is built through:
@@ -62,12 +61,14 @@ Trust in verifications is built through:
   "id":      "<verification-event-id>",
   "kind":    30301,
   "tags":    [
-    ["i",        "<product-id>"],         // app.zeusln.zeus
-    ["version",  "<version>"],            // 1.2.3
-    ["x",        "<hash-binary-1>"],      // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
-    ["x",        "<hash-binary-2>"],      // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
-    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
-    ["status",   "<status>"]              // reproducible | not_reproducible | ftbfs | spam | notag | nosource | warning | obfuscated
+    ["i",        "<product-id>"],           // app.zeusln.zeus
+    ["version",  "<version>"],              // 1.2.3
+    ["x",        "<hash-binary-1>"],        // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["x",        "<hash-binary-2>"],        // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["platform", "<asset-platform>"],       // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["status",   "<status>"]                // reproducible | not_reproducible | ftbfs | spam | notag | nosource | warning | obfuscated
+    ["file-attachment", "<file-attachment-event-id>"]       // file-attachment-event-id 1
+    ["file-attachment", "<file-attachment-event-id>"]       // file-attachment-event-id 2 ...
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
@@ -93,6 +94,20 @@ Has the same structure as the Verification event, but with the following differe
   "content": {
     [...],                                // same content as the Verification event
   }
+}
+```
+
+#### File Attachment
+```json
+{
+  "id":      "<file-attachment-event-id>",
+  "kind":    1063,
+  "tags":    [
+    ["filename", "<file-name>"],
+    ["content-type", "<mime-type>"],
+    ["size", "<file-size>"]
+  ],
+  "content": "<Base64 encoded file content>"
 }
 ```
 
