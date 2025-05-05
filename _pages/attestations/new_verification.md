@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Creating New Verification"
 permalink: /new_verification/
 ---
 
@@ -168,6 +167,8 @@ permalink: /new_verification/
         background-color: rgba(255, 0, 0, 0.1);
     }
 </style>
+
+<h1 id="pageTitle" class="page__title">Creating New Verification</h1>
 
 <div class="form-container">
     <div class="info-message"></div>
@@ -467,6 +468,9 @@ permalink: /new_verification/
       if (draftButton) {
         draftButton.textContent = 'Save Draft Verification';
       }
+
+      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
+      document.title = 'Editing Draft Verification | Wallet Scrutiny';
 
       const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
