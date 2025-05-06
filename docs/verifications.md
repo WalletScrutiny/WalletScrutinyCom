@@ -79,7 +79,7 @@ Trust in verifications is built through:
 
 #### Verification Draft
 
-Has the same structure as the Verification event, but with the following differences:
+Has the same structure as the Verification event, with the following differences:
 - `kind`: 30801
 - `tags`: includes a `d` tag with the draft key: ${appId}:${version}:${platform}
 
@@ -111,19 +111,6 @@ Has the same structure as the Verification event, but with the following differe
 }
 ```
 
-#### Endorsement
-```json
-{
-  "kind":    30302,
-  "tags":    [
-    ["d",       "<verification-event-id>"],
-    ["x",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
-    ["status",  "reproducible"]
-  ],
-  "content": "Brief summary of what happened when you tried to reproduce a specific verification. No markdown permitted"
-}
-```
-
 Max length of fields (chars):
 * Asset description - `content`: 120
 * Verification - content.`description`: 120
@@ -133,8 +120,6 @@ Max length of fields (chars):
 * Tag `x/ox`: 64
 * Tag `platform`: 10
 * Tag `status`: 16
-
-*Note: Replacing the Verification event invalidates the Endorsement. Clients should find where this happens and ask for re-endorsement.*
 
 ## Functionality presented to users
 1. Assets Registry page: by default will show the latest assets reported by users, with search functionality that let users search
