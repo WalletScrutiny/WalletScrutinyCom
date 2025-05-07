@@ -236,7 +236,8 @@ const createVerification = async function ({
                                              isDraft = false,
                                              draftVerificationEventId = null,
                                              uploadedFileData = [],
-                                             reusedFileIds = []
+                                             reusedFileIds = [],
+                                             outputFiles = []
                                            }) {
   await ensureNdkConnected();
   validateSHA256(hashes);
@@ -347,6 +348,12 @@ const createVerification = async function ({
   if (reusedFileIds.length > 0) {
     reusedFileIds.forEach(fileEventId => {
       ndkEvent.tags.push(["file-attachment", fileEventId]);
+    });
+  }
+
+  if (outputFiles.length > 0) {
+    outputFiles.forEach(file => {
+      ndkEvent.tags.push(["output-file", file.name, file.hash]);
     });
   }
 

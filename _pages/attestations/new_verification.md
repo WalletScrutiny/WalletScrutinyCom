@@ -295,6 +295,17 @@ permalink: /new_verification/
         </div>
         <!-- End File Dropzone Area -->
 
+        <!-- Blossom File Dropzone Area -->
+        <div id="blossomDropzoneArea" class="form-group" style="margin-top: 2em;">
+            <label for="blossomFileInput" id="blossomDropZone" class="drop-zone">
+                <span class="drop-zone-text">For larger files, drag & drop them here to upload to the Blossom server. These files will be uploaded when you save or publish your verification.</span>
+            </label>
+            <input type="file" id="blossomFileInput" multiple hidden>
+            <div id="blossomFileList" class="file-list"></div>
+        </div>
+        <div class="blossom-upload-status"></div>
+        <!-- End Blossom File Dropzone Area -->
+
         <div id="availableScriptsContainer" class="form-group available-scripts-container">
             <label>If you've used a script created by another user in a different verification, mark it here with the <i class="fas fa-plus" style="color: green;"></i> icon:</label>
             <div id="availableScriptsList" class="available-scripts-list"></div>
@@ -321,6 +332,7 @@ permalink: /new_verification/
   let newHashInputField;
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
+  let outputFiles = []; // Store files for Blossom upload
 
   function addHash(hash) {
     if (!hash) return;
@@ -439,6 +451,83 @@ permalink: /new_verification/
   }
   // --- End File Handling Functions ---
 
+  // --- Output File Handling Functions ---
+  function displayOutputFiles() {
+    const fileListElement = document.getElementById('blossomFileList');
+    fileListElement.innerHTML = ''; // Clear existing list
+
+    outputFiles.forEach((file, index) => {
+      console.log("****** file", file);
+      const fileItem = document.createElement('div');
+      fileItem.className = 'file-item';
+      fileItem.innerHTML = `
+      <span>${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+      <button type="button" class="remove-file" title="Remove this file" data-index="${index}">×</button>`;
+
+      fileItem.querySelector('.remove-file').addEventListener('click', (e) => {
+        const indexToRemove = parseInt(e.target.getAttribute('data-index'));
+        outputFiles.splice(indexToRemove, 1);
+        displayOutputFiles(); // Update the list
+      });
+      fileListElement.appendChild(fileItem);
+    });
+  }
+
+  async function handleOutputFiles(files) {
+    const newFiles = Array.from(files);
+    let errors = [];
+    
+    for (const file of newFiles) {
+      // Avoid duplicates based on name and size
+      if (!outputFiles.some(f => f.name === file.name && f.size === file.size)) {
+        try {
+          const hash = await calculateFileHash(file);
+          outputFiles.push({
+            data: file,
+            name: file.name,
+            size: file.size,
+            hash: hash
+          });
+        } catch (error) {
+          console.error("Error calculating hash for file:", file.name, error);
+          errors.push(`Could not calculate hash for "${file.name}": ${error.message}`);
+        }
+      } else {
+        errors.push(`File "${file.name}" is already added.`);
+      }
+    }
+    
+    if (errors.length > 0) {
+      showToast(errors.join('<br>'), 'error', 6000 + (errors.length * 2000));
+    }
+    displayOutputFiles();
+  }
+
+  function setupBlossomDropZone() {
+    const dropZone = document.getElementById('blossomDropZone');
+    const fileInput = document.getElementById('blossomFileInput');
+
+    fileInput.addEventListener('change', async (e) => {
+      await handleOutputFiles(e.target.files);
+      fileInput.value = ''; // Reset input to allow selecting the same file again
+    });
+
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+
+    dropZone.addEventListener('dragleave', () => {
+      dropZone.classList.remove('dragover');
+    });
+
+    dropZone.addEventListener('drop', async (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      await handleOutputFiles(e.dataTransfer.files);
+    });
+  }
+  // --- End Output File Handling Functions ---
 
   async function loadUrlParamsAndGetAssetInfo() {
     const showError = (message) => {
@@ -714,6 +803,19 @@ permalink: /new_verification/
       return; // Stop submission if file processing fails
     }
 
+    if (outputFiles.length > 0) {
+      try {
+        showToast('Uploading files to Blossom server, please wait...', 'info', 5000);
+        for (const file of outputFiles) {
+          await uploadToBlossom(file.data, file.hash);
+        }
+      } catch (error) {
+        document.getElementById('loadingSpinner').style.display = 'none';
+        showToast(`Error uploading files to Blossom: ${error.message}`, 'error');
+        return;
+      }
+    }
+
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
     const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
@@ -736,7 +838,8 @@ permalink: /new_verification/
       isDraft: isDraft,
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
-      reusedFileIds: reusedFileIds
+      reusedFileIds: reusedFileIds,
+      outputFiles: outputFiles
     };
 
     try {
@@ -793,6 +896,7 @@ permalink: /new_verification/
     await loadUrlParamsAndGetAssetInfo();
     updateCharCount(); // Initial count
     setupDropZone();
+    setupBlossomDropZone();
 
     // Script Usage Selector Logic
     const scriptUsageSelector = document.getElementById('scriptUsage');

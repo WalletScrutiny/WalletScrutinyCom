@@ -317,3 +317,4 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
 
 window.handleUploadAsset = handleUploadAsset;
 window.maxFileSize = maxFileSize;
+window.calculateFileHash = calculateFileHash;
