@@ -642,7 +642,7 @@ window.renderAssetsTable = async function({
 
                 // Remove previous listener to avoid duplicates if clicked multiple times
                 confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
-                document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+                confirmButton.addEventListener('click', downloadAction);
 
                 const closeModal = () => {
                   modal.style.display = 'none';
