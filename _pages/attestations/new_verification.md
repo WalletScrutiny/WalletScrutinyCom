@@ -190,7 +190,7 @@ permalink: /new_verification/
 
         <div class="form-group">
             <label for="version">Version (*):</label>
-            <input type="text" id="version" name="version" class="form-control" required maxlength="15">
+            <input type="text" id="version" name="version" class="form-control" required maxlength="30">
             <small class="form-text">Example: 0.9.2</small>
         </div>
 

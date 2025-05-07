@@ -180,8 +180,8 @@ const createAssetRegistration = async function ({
   if (appId && appId.length > 50) {
     throw new Error("App ID must be 50 characters or less");
   }
-  if (version && version.length > 15) {
-    throw new Error("Version must be 15 characters or less");
+  if (version && version.length > 30) {
+    throw new Error("Version must be 30 characters or less");
   }
   if (platform && platform.length > 10) {
     throw new Error("Platform must be 10 characters or less");
@@ -254,8 +254,8 @@ const createVerification = async function ({
   if (appId && appId.length > 50) {
     throw new Error("App ID must be 50 characters or less");
   }
-  if (version && version.length > 15) {
-    throw new Error("Version must be 15 characters or less");
+  if (version && version.length > 30) {
+    throw new Error("Version must be 30 characters or less");
   }
   if (platform && platform.length > 10) {
     throw new Error("Platform must be 10 characters or less");
@@ -482,7 +482,7 @@ function eventSanitize(event) {
     if (tag[0] === 'i') {
       sanitizedTag = sanitizedTag.substring(0, 50);
     } else if (tag[0] === 'version') {
-      sanitizedTag = sanitizedTag.substring(0, 15);
+      sanitizedTag = sanitizedTag.substring(0, 30);
     } else if (['x', 'ox'].includes(tag[0])) {
       sanitizedTag = sanitizedTag.substring(0, 64);
     } else if (tag[0] === 'platform') {
