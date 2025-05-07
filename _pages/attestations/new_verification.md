@@ -298,7 +298,12 @@ permalink: /new_verification/
         <!-- Blossom File Dropzone Area -->
         <div id="blossomDropzoneArea" class="form-group" style="margin-top: 2em;">
             <label for="blossomFileInput" id="blossomDropZone" class="drop-zone">
-                <span class="drop-zone-text">For larger files, drag & drop them here to upload to the Blossom server. These files will be uploaded when you save or publish your verification.</span>
+                <span class="drop-zone-text" style="width: 100%">
+                  <p>For larger files, <b>drag & drop</b> them here to upload to our server. These files will be uploaded when you save or publish your verification.</p>
+                  <p>- <b>Asciicast</b> files are supported. The first one will play automatically in the verification.</p>
+                  <p>- <b>Diffoscope</b> files are supported.</p>
+                  <p>- You can also upload other log files, like build logs showing successful or failed builds.</p>
+                </span>
             </label>
             <input type="file" id="blossomFileInput" multiple hidden>
             <div id="blossomFileList" class="file-list"></div>
@@ -457,7 +462,6 @@ permalink: /new_verification/
     fileListElement.innerHTML = ''; // Clear existing list
 
     outputFiles.forEach((file, index) => {
-      console.log("****** file", file);
       const fileItem = document.createElement('div');
       fileItem.className = 'file-item';
       fileItem.innerHTML = `

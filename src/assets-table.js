@@ -914,13 +914,14 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
 
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+  const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
+  // Show attachments (scripts used to reproduce)
   if (verificationAttachments.length > 0) {
     // Wait here until attachmentDataStore is filled
     while (Object.keys(attachmentDataStore).length === 0) {
       await new Promise(resolve => setTimeout(resolve, 50));
     }
-
 
     let attachmentsHTML = '';
 
@@ -938,11 +939,31 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
   }
 
+  let firstAsciicastFileSHA256 = null;
+
+  // Show output files
+  if (verificationOutputFiles.length > 0) {
+    let outputFilesHTML = '';
+    for (const outputFile of verificationOutputFiles) {
+      if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
+        firstAsciicastFileSHA256 = outputFile[2];
+      }
+      outputFilesHTML += `<li>${outputFile[1]}
+        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+    }
+
+    content.innerHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+  }
+
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
 
-  const itemContent = JSON.parse(verification.content).content;
+  let itemContent = JSON.parse(verification.content).content;
+
+  if (firstAsciicastFileSHA256) {
+    itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
+  }
 
   content.innerHTML += `
     <p><strong>Information:</strong>
@@ -950,9 +971,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </p>
   `;
 
-  // Play asciicast
-  if (verification.content.includes('ascii_cast_player')) {
-    // Check if asciinema player scripts are already loaded
+  // Play asciicast (legacy asciicasts can only be played on old verifications)
+  if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
+    // Check if asciinema player assets are already loaded
     const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
     const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
 
@@ -972,17 +993,24 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       document.head.appendChild(asciinemaPlayerCSS);
     }
 
-    if (!platform) {    // Extract platform from the URL path
-      const urlParts = window.location.pathname.split('/').filter(Boolean);
-      if (urlParts.length > 0) {
-        platform = urlParts[0];
+    let castURL;
+    if (firstAsciicastFileSHA256) {
+      castURL = getBlossomFileURL(firstAsciicastFileSHA256);
+    } else {
+      if (!platform) {    // Extract platform from the URL path
+        const urlParts = window.location.pathname.split('/').filter(Boolean);
+        if (urlParts.length > 0) {
+          platform = urlParts[0];
+        }
       }
+
+      castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
     }
 
     // Function to initialize the player
     const initPlayer = () => {
       AsciinemaPlayer.create(
-        '/assets/casts/' + platform + '/' + appId + '.cast',
+        castURL,
         document.getElementById('ascii_cast_player'),
         {
           idleTimeLimit: 1,
@@ -992,12 +1020,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       );
     };
 
-    // If we just added the script, wait for it to load
     if (!asciinemaJSExists && asciinemaPlayerJS) {
-      asciinemaPlayerJS.onload = initPlayer;
+      asciinemaPlayerJS.onload = initPlayer;  // If we just added the script, wait for it to load
     } else {
-      // Script was already loaded, initialize player directly
-      initPlayer();
+      initPlayer();   // Script was already loaded, initialize player directly
     }
   }
 
