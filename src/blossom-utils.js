@@ -90,7 +90,7 @@ function displayBlossomUploadError(errorMessage) {
     `);
 }
 
-export async function checkBlossomFile(hash, overrideCache = false) {
+export async function checkFileExistsInBlossom(hash, overrideCache = false) {
     // Check cache first
     if (!overrideCache) {
         const cachedResult = getCachedResult(hash);
@@ -110,7 +110,7 @@ export function getBlossomFileURL(hash) {
 }
 
 if (typeof window !== 'undefined') {
-    window.checkBlossomFile = checkBlossomFile;
+    window.checkFileExistsInBlossom = checkFileExistsInBlossom;
     window.getBlossomFileURL = getBlossomFileURL;
     window.uploadToBlossom = uploadToBlossom;
 }

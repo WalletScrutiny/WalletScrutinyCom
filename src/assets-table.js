@@ -627,8 +627,7 @@ window.renderAssetsTable = async function({
           observedHashes.add(hash);
 
           try {
-            const exists = await checkBlossomFile(hash);
-            if (exists) {
+            if (await checkFileExistsInBlossom(hash)) {
               downloadIcon.style.display = 'inline';
               downloadIcon.onclick = async () => {
                 const modal = document.getElementById('blossomWarningModal');

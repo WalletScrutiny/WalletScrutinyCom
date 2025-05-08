@@ -167,7 +167,7 @@ async function processFiles(files, dropAreaElement) {
 
   const [allAssetsInformation, fileExistsInBlossomServer] = await Promise.all([
     getAllAssetInformation({ sha256: hash }),
-    checkBlossomFile(hash, true)
+    checkFileExistsInBlossom(hash, true)
   ]);
   /////////////////////////////////////////////////////////////////////
 
