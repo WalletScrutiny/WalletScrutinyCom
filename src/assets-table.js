@@ -580,11 +580,33 @@ window.renderAssetsTable = async function({
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
 
-  // --- Helper function for actual download ---
-  const downloadBlossomFile = async (hash, downloadIcon) => {
+  // --- Helper function for actual download with data in downloadIcon ---
+  window.downloadBlossomFile = async (hash, filename) => {
     showToast('Preparing file to download, wait a moment...', 'info', 9000);
-    console.log('downloading');
     try {
+      // This makes the download process way slower, but it's
+      // the only way to change to a different filename
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href); // Clean up blob URL
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+  // --- End helper function ---
+
+  // --- Helper function for actual download with data in downloadIcon ---
+  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    try {
+      // This makes the download process way slower, but it's
+      // the only way to change to a different filename
       const response = await fetch(getBlossomFileURL(hash));
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -617,9 +639,9 @@ window.renderAssetsTable = async function({
     entries.forEach(async entry => {
       if (entry.isIntersecting) {
         const row = entry.target;
-        const hashElements = row.querySelectorAll('.blossom-download');
+        const blossomDownloads = row.querySelectorAll('.blossom-download');
 
-        for (const downloadIcon of hashElements) {
+        for (const downloadIcon of blossomDownloads) {
           const hash = downloadIcon.id.replace('blossom-', '');
 
           // Skip if we've already checked this hash
@@ -635,7 +657,7 @@ window.renderAssetsTable = async function({
                 const closeButton = document.getElementById('blossomCloseModalButton');
 
                 const downloadAction = () => {
-                  downloadBlossomFile(hash, downloadIcon);
+                  downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
                   modal.style.display = 'none';
                 };
 
@@ -949,7 +971,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         firstAsciicastFileSHA256 = outputFile[2];
       }
       outputFilesHTML += `<li>${outputFile[1]}
-        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
     }
 
     content.innerHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
@@ -1027,8 +1049,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     }
   }
 
-  modal.style.display = 'block';
-
   // Add share button dynamically
   const shareButton = document.createElement('button');
   shareButton.id = 'shareVerificationButton';
@@ -1048,6 +1068,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       });
   };
   modal.appendChild(shareButton);
+
+  modal.style.display = 'block';
 
   // Add blur to all divs except verificationModal
   document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
@@ -1126,7 +1148,7 @@ window.handleAttachmentDownload = function(attachmentId) {
     const attachmentData = attachmentDataStore[attachmentId];
 
     if (!attachmentData || !attachmentData.content) {
-      console.error('Attachment data or content is missing for ID:', attachmentId);
+      console.error('handleAttachmentDownload - Attachment data or content is missing for ID:', attachmentId);
       showToast('Error: Attachment data is missing.', 'error');
       return;
     }
@@ -1171,7 +1193,7 @@ window.handleAttachmentPreview = function(attachmentId) {
   const attachmentData = attachmentDataStore[attachmentId];
   
   if (!attachmentData || !attachmentData.content) {
-    console.error('Attachment data or content is missing for ID:', attachmentId);
+    console.error('handleAttachmentPreview - Attachment data or content is missing for ID:', attachmentId);
     showToast('Error: Attachment data is missing.', 'error');
     return;
   }
