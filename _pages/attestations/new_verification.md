@@ -279,7 +279,7 @@ permalink: /new_verification/
             <select id="scriptUsage" name="scriptUsage" class="form-control">
                 <option value="none">Manual build (no scripts used or instructions are specified in the content field)</option>
                 <option value="reuse">Use script from another verification</option>
-                <option value="upload">Upload new script</option>
+                <option value="upload">Upload new scripts</option>
             </select>
             <small class="form-text">Select how you are providing build verification scripts, if any.</small>
         </div>
@@ -465,7 +465,7 @@ permalink: /new_verification/
       const fileItem = document.createElement('div');
       fileItem.className = 'file-item';
       fileItem.innerHTML = `
-      <span>${file.name} (${(file.size / 1024 / 1024).toFixed(2)} MB)</span>
+      <span>${file.name} ${!isNaN(file.size) ? `(${(file.size / 1024 / 1024).toFixed(2)} MB)` : ''}</span>
       <button type="button" class="remove-file" title="Remove this file" data-index="${index}">×</button>`;
 
       fileItem.querySelector('.remove-file').addEventListener('click', (e) => {
@@ -584,6 +584,15 @@ permalink: /new_verification/
           });
         });
         displayFiles();
+
+        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+        verificationOutputFiles.forEach(outputFile => {
+          outputFiles.push({
+            name: outputFile[1],
+            hash: outputFile[2]
+          });
+        });
+        displayOutputFiles();
 
         // If files were loaded from the draft, set the script usage selector to 'upload'
         if (uploadedFiles.length > 0) {
