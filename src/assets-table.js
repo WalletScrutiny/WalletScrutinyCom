@@ -768,13 +768,6 @@ window.renderAssetsTable = async function({
           modal.addEventListener('mouseenter', () => {
             clearTimeout(timeout);
           });
-          /*
-          modal.addEventListener('mouseleave', () => {
-            timeout = setTimeout(() => {
-              modal.style.display = 'none';
-            }, 300);
-          });
-          */
           
           // Stop clicks from propagating through the modal
           modal.addEventListener('click', (e) => {
@@ -799,6 +792,7 @@ window.renderAssetsTable = async function({
         border-radius: 50%;
         object-fit: cover;
         cursor: pointer;
+        margin-right: 5px;
       }
       
       .profile-hover-modal {
