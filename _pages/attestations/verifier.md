@@ -87,10 +87,8 @@ permalink: /verifier/
       document.getElementById('loadingSpinner').style.display = 'block';
 
       const npub = await getNpubFromPubkey(pubkey);
-
       document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
 
-      // Profile
       const profile = await getNostrProfile(pubkey);
 
       if (!profile) {
@@ -105,15 +103,18 @@ permalink: /verifier/
             </div>`;
         }
       }
-
-      // Binaries
-      await renderAssetsTable({htmlElementId:'binariesTable', pubkey, showProfilePictures: false});
-
-      document.getElementById('loadingSpinner').style.display = 'none';
     } catch (error) {
       console.error('Error loading profile:', error);
       document.getElementById('attestator').innerHTML = 'Error loading profile';
-      document.getElementById('loadingSpinner').style.display = 'none';
     }
+
+    try {
+      await renderAssetsTable({htmlElementId:'binariesTable', pubkey, showProfilePictures: false});
+    } catch (error) {
+      console.error('Error loading binaries:', error);
+      document.getElementById('binariesTable').innerHTML = 'Error loading binaries';
+    }
+
+    document.getElementById('loadingSpinner').style.display = 'none';
   })();
 </script>
