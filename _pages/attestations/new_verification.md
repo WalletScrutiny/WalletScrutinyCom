@@ -300,8 +300,8 @@ permalink: /new_verification/
             <label for="blossomFileInput" id="blossomDropZone" class="drop-zone">
                 <span class="drop-zone-text" style="width: 100%">
                   <p>For larger files, <b>drag & drop</b> them here to upload to our server. These files will be uploaded when you save or publish your verification.</p>
-                  <p>- <b>Asciicast</b> files are supported. The first one will play automatically in the verification.</p>
-                  <p>- <b>Diffoscope</b> files are supported.</p>
+                  <p>- <b>Asciicast</b> files are supported (*.cast). The first one will autoplay in the verification.</p>
+                  <p>- <b>Diffoscope</b> files are supported (diffo*.html).</p>
                   <p>- You can also upload other log files, like build logs showing successful or failed builds.</p>
                 </span>
             </label>
