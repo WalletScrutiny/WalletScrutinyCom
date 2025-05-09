@@ -1143,6 +1143,50 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   window.addEventListener('keydown', handleKeyDown);
 };
 
+function insertDiffoscopeAssets() {
+  const diffoscopeCSSExists = document.querySelector('link[href="/assets/css/diffoscope-modal.css"]');
+  const diffoscopeJSExists = document.querySelector('script[src="/assets/js/diffoscope-modal.js"]');
+
+  // Only add CSS if not already present
+  if (!diffoscopeCSSExists) {
+    const diffoscopeCSS = document.createElement('link');
+    diffoscopeCSS.rel = 'stylesheet';
+    diffoscopeCSS.href = '/assets/css/diffoscope-modal.css';
+    document.head.appendChild(diffoscopeCSS);
+  }
+
+  // Only add JS if not already present
+  if (!diffoscopeJSExists) {
+    const diffoscopeJS = document.createElement('script');
+    diffoscopeJS.src = '/assets/js/diffoscope-modal.js';
+    document.head.appendChild(diffoscopeJS);
+  }
+}
+
+function insertAsciinemaAssets() {
+  // Check if asciinema player assets are already loaded
+  const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+  const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+  // Only add JS if not already present
+  let asciinemaPlayerJS;
+  if (!asciinemaJSExists) {
+    asciinemaPlayerJS = document.createElement('script');
+    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+    document.head.appendChild(asciinemaPlayerJS);
+  }
+
+  // Only add CSS if not already present
+  if (!ascinemaCSSExists) {
+    const asciinemaPlayerCSS = document.createElement('link');
+    asciinemaPlayerCSS.rel = 'stylesheet';
+    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+    document.head.appendChild(asciinemaPlayerCSS);
+  }
+
+  return asciinemaJSExists;
+}
+
 // Function to handle attachment download using stored data
 window.handleAttachmentDownload = function(attachmentId) {
   const modal = document.getElementById('blossomWarningModal');
