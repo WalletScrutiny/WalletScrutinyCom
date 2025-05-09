@@ -860,12 +860,19 @@ permalink: /new_verification/
       document.getElementById('loadingSpinner').style.display = 'none';
       await showToast(isDraft ? 'Draft published successfully!' : 'Verification published successfully!');
 
-      if (!isDraft && hashes.length > 0) {
-        window.location.href = '/asset/?sha256=' + hashes[0]; // Redirect using the first hash
-      } else if (!isDraft) {
-        window.location.href = '/assets/'; // Fallback redirect if no hash
+      if (isDraft) {
+        const userPubkey = await getUserPubkey();
+        if (userPubkey) {
+          window.location.href = '/verifier/?pubkey=' + userPubkey;
+        }
+      } else {
+        if (hashes.length > 0) {
+          window.location.href = '/asset/?sha256=' + hashes[0]; // Redirect using the first hash
+        } else {
+          window.location.href = '/assets/'; // Fallback redirect if no hash
+        }
       }
-      // No redirect for drafts, user stays on page
+
     } catch (error) {
       document.getElementById('loadingSpinner').style.display = 'none';
       showToast(error.message, 'error');
