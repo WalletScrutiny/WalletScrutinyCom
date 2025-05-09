@@ -580,11 +580,33 @@ window.renderAssetsTable = async function({
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
 
-  // --- Helper function for actual download ---
-  const downloadBlossomFile = async (hash, downloadIcon) => {
+  // --- Helper function for actual download with data in downloadIcon ---
+  window.downloadBlossomFile = async (hash, filename) => {
     showToast('Preparing file to download, wait a moment...', 'info', 9000);
-    console.log('downloading');
     try {
+      // This makes the download process way slower, but it's
+      // the only way to change to a different filename
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href); // Clean up blob URL
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+  // --- End helper function ---
+
+  // --- Helper function for actual download with data in downloadIcon ---
+  const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    try {
+      // This makes the download process way slower, but it's
+      // the only way to change to a different filename
       const response = await fetch(getBlossomFileURL(hash));
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
@@ -617,9 +639,9 @@ window.renderAssetsTable = async function({
     entries.forEach(async entry => {
       if (entry.isIntersecting) {
         const row = entry.target;
-        const hashElements = row.querySelectorAll('.blossom-download');
+        const blossomDownloads = row.querySelectorAll('.blossom-download');
 
-        for (const downloadIcon of hashElements) {
+        for (const downloadIcon of blossomDownloads) {
           const hash = downloadIcon.id.replace('blossom-', '');
 
           // Skip if we've already checked this hash
@@ -627,8 +649,7 @@ window.renderAssetsTable = async function({
           observedHashes.add(hash);
 
           try {
-            const exists = await checkBlossomFile(hash);
-            if (exists) {
+            if (await checkFileExistsInBlossom(hash)) {
               downloadIcon.style.display = 'inline';
               downloadIcon.onclick = async () => {
                 const modal = document.getElementById('blossomWarningModal');
@@ -636,13 +657,14 @@ window.renderAssetsTable = async function({
                 const closeButton = document.getElementById('blossomCloseModalButton');
 
                 const downloadAction = () => {
-                  downloadBlossomFile(hash, downloadIcon);
+                  downloadBlossomFileWithDownloadIcon(hash, downloadIcon);
                   modal.style.display = 'none';
                 };
 
                 // Remove previous listener to avoid duplicates if clicked multiple times
                 confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
-                document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+                const newConfirmButton = document.getElementById('blossomConfirmDownloadButton');
+                newConfirmButton.addEventListener('click', downloadAction);
 
                 const closeModal = () => {
                   modal.style.display = 'none';
@@ -746,13 +768,6 @@ window.renderAssetsTable = async function({
           modal.addEventListener('mouseenter', () => {
             clearTimeout(timeout);
           });
-          /*
-          modal.addEventListener('mouseleave', () => {
-            timeout = setTimeout(() => {
-              modal.style.display = 'none';
-            }, 300);
-          });
-          */
           
           // Stop clicks from propagating through the modal
           modal.addEventListener('click', (e) => {
@@ -777,6 +792,7 @@ window.renderAssetsTable = async function({
         border-radius: 50%;
         object-fit: cover;
         cursor: pointer;
+        margin-right: 5px;
       }
       
       .profile-hover-modal {
@@ -847,6 +863,17 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
+  document.getElementById(htmlElementId).appendChild(`
+    <div id="diffoscopeModal" class="diffoscope-modal">
+      <div class="diffoscope-modal-content">
+          <div class="diffoscope-controls">
+              <span class="diffoscope-maximize" title="Maximize">⛶</span>
+              <span class="diffoscope-close" title="Close">✖</span>
+          </div>
+          <iframe id="diffoscopeFrame"></iframe>
+      </div>
+    </div>`);
+
   return {
     hasAssets,
     hasVerifications,
@@ -914,13 +941,14 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
 
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
+  const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
+  // Show attachments (scripts used to reproduce)
   if (verificationAttachments.length > 0) {
     // Wait here until attachmentDataStore is filled
     while (Object.keys(attachmentDataStore).length === 0) {
       await new Promise(resolve => setTimeout(resolve, 50));
     }
-
 
     let attachmentsHTML = '';
 
@@ -938,51 +966,68 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
   }
 
+  let firstAsciicastFileSHA256 = null;
+  let diffoscopeFiles = [];
+
+  // Show output files
+  if (verificationOutputFiles.length > 0) {
+    let outputFilesHTML = '';
+    for (const outputFile of verificationOutputFiles) {
+      if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
+        firstAsciicastFileSHA256 = outputFile[2];
+      }
+      if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
+        diffoscopeFiles.push(outputFile);
+      }
+      outputFilesHTML += `<li>${outputFile[1]}
+        <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
+    }
+
+    content.innerHTML += `<p><strong>Output files:</strong></p><ul class="attestation-other-attempts">${outputFilesHTML}</ul>`;
+  }
+
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
 
-  const itemContent = JSON.parse(verification.content).content;
+  let itemContent = JSON.parse(verification.content).content;
 
-  content.innerHTML += `
-    <p><strong>Information:</strong>
-      <div class="markdown-content">${marked.parse(itemContent)}</div>
-    </p>
-  `;
+  // Diffoscope special treatment
+  let diffoscopeHTML = '';
+  if (diffoscopeFiles.length > 0) {
+    diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+                         <p>Diffoscope files attached (click to see report):</p>`;
+    for (const file of diffoscopeFiles) {
+      diffoscopeHTML += `<button class="btn btn-small btn-info" style="width: auto;" onclick="openDiffoscopeModal('${getBlossomFileURL(file[2])}')">${file[1]}</button>`;
+    }
+    diffoscopeHTML += '</div>';
+  }
 
-  // Play asciicast
-  if (verification.content.includes('ascii_cast_player')) {
-    // Check if asciinema player scripts are already loaded
-    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
-    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
-
-    // Only add JS if not already present
-    let asciinemaPlayerJS;
-    if (!asciinemaJSExists) {
-      asciinemaPlayerJS = document.createElement('script');
-      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-      document.head.appendChild(asciinemaPlayerJS);
+  // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
+  if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
+    if (firstAsciicastFileSHA256) {
+      itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
     }
 
-    // Only add CSS if not already present
-    if (!ascinemaCSSExists) {
-      const asciinemaPlayerCSS = document.createElement('link');
-      asciinemaPlayerCSS.rel = 'stylesheet';
-      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-      document.head.appendChild(asciinemaPlayerCSS);
-    }
-
-    if (!platform) {    // Extract platform from the URL path
-      const urlParts = window.location.pathname.split('/').filter(Boolean);
-      if (urlParts.length > 0) {
-        platform = urlParts[0];
+    let castURL;
+    if (firstAsciicastFileSHA256) {
+      castURL = getBlossomFileURL(firstAsciicastFileSHA256);
+    } else {
+      if (!platform) {    // Extract platform from the URL path
+        const urlParts = window.location.pathname.split('/').filter(Boolean);
+        if (urlParts.length > 0) {
+          platform = urlParts[0];
+        }
       }
+
+      castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
     }
 
-    // Function to initialize the player
+    const asciinemaJSExists = insertAsciinemaAssets();
+
     const initPlayer = () => {
       AsciinemaPlayer.create(
-        '/assets/casts/' + platform + '/' + appId + '.cast',
+        castURL,
         document.getElementById('ascii_cast_player'),
         {
           idleTimeLimit: 1,
@@ -992,16 +1037,22 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       );
     };
 
-    // If we just added the script, wait for it to load
     if (!asciinemaJSExists && asciinemaPlayerJS) {
-      asciinemaPlayerJS.onload = initPlayer;
+      asciinemaPlayerJS.onload = initPlayer;  // If we just added the script, wait for it to load
     } else {
-      // Script was already loaded, initialize player directly
-      initPlayer();
+      initPlayer();   // Script was already loaded, initialize player directly
     }
   }
 
-  modal.style.display = 'block';
+  content.innerHTML += `
+  <p><strong>Information:</strong>
+    <div class="markdown-content">
+      ${diffoscopeHTML}
+      ${marked.parse(itemContent)}
+    </div>
+  </p>`;
+
+  insertDiffoscopeAssets();
 
   // Add share button dynamically
   const shareButton = document.createElement('button');
@@ -1022,6 +1073,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       });
   };
   modal.appendChild(shareButton);
+
+  modal.style.display = 'block';
 
   // Add blur to all divs except verificationModal
   document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
@@ -1090,6 +1143,50 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   window.addEventListener('keydown', handleKeyDown);
 };
 
+function insertDiffoscopeAssets() {
+  const diffoscopeCSSExists = document.querySelector('link[href="/assets/css/diffoscope-modal.css"]');
+  const diffoscopeJSExists = document.querySelector('script[src="/assets/js/diffoscope-modal.js"]');
+
+  // Only add CSS if not already present
+  if (!diffoscopeCSSExists) {
+    const diffoscopeCSS = document.createElement('link');
+    diffoscopeCSS.rel = 'stylesheet';
+    diffoscopeCSS.href = '/assets/css/diffoscope-modal.css';
+    document.head.appendChild(diffoscopeCSS);
+  }
+
+  // Only add JS if not already present
+  if (!diffoscopeJSExists) {
+    const diffoscopeJS = document.createElement('script');
+    diffoscopeJS.src = '/assets/js/diffoscope-modal.js';
+    document.head.appendChild(diffoscopeJS);
+  }
+}
+
+function insertAsciinemaAssets() {
+  // Check if asciinema player assets are already loaded
+  const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+  const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+  // Only add JS if not already present
+  let asciinemaPlayerJS;
+  if (!asciinemaJSExists) {
+    asciinemaPlayerJS = document.createElement('script');
+    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+    document.head.appendChild(asciinemaPlayerJS);
+  }
+
+  // Only add CSS if not already present
+  if (!ascinemaCSSExists) {
+    const asciinemaPlayerCSS = document.createElement('link');
+    asciinemaPlayerCSS.rel = 'stylesheet';
+    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+    document.head.appendChild(asciinemaPlayerCSS);
+  }
+
+  return asciinemaJSExists;
+}
+
 // Function to handle attachment download using stored data
 window.handleAttachmentDownload = function(attachmentId) {
   const modal = document.getElementById('blossomWarningModal');
@@ -1100,7 +1197,7 @@ window.handleAttachmentDownload = function(attachmentId) {
     const attachmentData = attachmentDataStore[attachmentId];
 
     if (!attachmentData || !attachmentData.content) {
-      console.error('Attachment data or content is missing for ID:', attachmentId);
+      console.error('handleAttachmentDownload - Attachment data or content is missing for ID:', attachmentId);
       showToast('Error: Attachment data is missing.', 'error');
       return;
     }
@@ -1145,7 +1242,7 @@ window.handleAttachmentPreview = function(attachmentId) {
   const attachmentData = attachmentDataStore[attachmentId];
   
   if (!attachmentData || !attachmentData.content) {
-    console.error('Attachment data or content is missing for ID:', attachmentId);
+    console.error('handleAttachmentPreview - Attachment data or content is missing for ID:', attachmentId);
     showToast('Error: Attachment data is missing.', 'error');
     return;
   }

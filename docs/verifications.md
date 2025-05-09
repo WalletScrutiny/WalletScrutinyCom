@@ -66,9 +66,11 @@ Trust in verifications is built through:
     ["x",        "<hash-binary-1>"],        // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["x",        "<hash-binary-2>"],        // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["platform", "<asset-platform>"],       // Linux (Intel/AMD) (Ubuntu/Debian)
-    ["status",   "<status>"]                // reproducible | not_reproducible | ftbfs | spam | notag | nosource | warning | obfuscated
-    ["file-attachment", "<file-attachment-event-id>"]       // file-attachment-event-id 1
-    ["file-attachment", "<file-attachment-event-id>"]       // file-attachment-event-id 2 ...
+    ["status",   "<status>"],               // reproducible | not_reproducible | ftbfs | spam | notag | nosource | warning | obfuscated
+    ["file-attachment", "<file-attachment-event-id-1>"],        // file-attachment-event-id 1
+    ["file-attachment", "<file-attachment-event-id-2>"],        // file-attachment-event-id 2 ...
+    ["output-file", "filename-file-1", "<hash-output-file-1>"], // filename-file-1, hash-output-file-1
+    ["output-file", "filename-file-2", "<hash-output-file-2>"]  // filename-file-2, hash-output-file-2 ...
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
@@ -77,9 +79,12 @@ Trust in verifications is built through:
 }
 ```
 
+* file-attachment - event_id of the event containing the file used to reproduce the binary (see below)
+* output-file - hash of the output logs of the reproduction process, or asciicast file, or diffoscope file, etc.
+
 #### Verification Draft
 
-Has the same structure as the Verification event, but with the following differences:
+Has the same structure as the Verification event, with the following differences:
 - `kind`: 30801
 - `tags`: includes a `d` tag with the draft key: ${appId}:${version}:${platform}
 
@@ -111,19 +116,6 @@ Has the same structure as the Verification event, but with the following differe
 }
 ```
 
-#### Endorsement
-```json
-{
-  "kind":    30302,
-  "tags":    [
-    ["d",       "<verification-event-id>"],
-    ["x",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
-    ["status",  "reproducible"]
-  ],
-  "content": "Brief summary of what happened when you tried to reproduce a specific verification. No markdown permitted"
-}
-```
-
 Max length of fields (chars):
 * Asset description - `content`: 120
 * Verification - content.`description`: 120
@@ -133,8 +125,8 @@ Max length of fields (chars):
 * Tag `x/ox`: 64
 * Tag `platform`: 10
 * Tag `status`: 16
-
-*Note: Replacing the Verification event invalidates the Endorsement. Clients should find where this happens and ask for re-endorsement.*
+* Tag `output-file`: 64
+* Tag `file-attachment`: 64
 
 ## Functionality presented to users
 1. Assets Registry page: by default will show the latest assets reported by users, with search functionality that let users search
