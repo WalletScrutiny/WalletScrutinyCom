@@ -863,6 +863,17 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
+  document.getElementById(htmlElementId).appendChild(`
+    <div id="diffoscopeModal" class="diffoscope-modal">
+      <div class="diffoscope-modal-content">
+          <div class="diffoscope-controls">
+              <span class="diffoscope-maximize" title="Maximize">⛶</span>
+              <span class="diffoscope-close" title="Close">✖</span>
+          </div>
+          <iframe id="diffoscopeFrame"></iframe>
+      </div>
+    </div>`);
+
   return {
     hasAssets,
     hasVerifications,
@@ -956,6 +967,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   let firstAsciicastFileSHA256 = null;
+  let diffoscopeFiles = [];
 
   // Show output files
   if (verificationOutputFiles.length > 0) {
@@ -963,6 +975,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     for (const outputFile of verificationOutputFiles) {
       if (!firstAsciicastFileSHA256 && outputFile[1].includes('.cast')) {
         firstAsciicastFileSHA256 = outputFile[2];
+      }
+      if (outputFile[1].includes('diffo') && outputFile[1].includes('html')) {
+        diffoscopeFiles.push(outputFile);
       }
       outputFilesHTML += `<li>${outputFile[1]}
         <span id="${outputFile[1]}" style="cursor: pointer; margin-left: 10px;" onclick="downloadBlossomFile('${outputFile[2]}', '${outputFile[1]}')" title="Download ${outputFile[1]}">💾</span></li>`;
@@ -977,36 +992,21 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   let itemContent = JSON.parse(verification.content).content;
 
-  if (firstAsciicastFileSHA256) {
-    itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
+  // Diffoscope special treatment
+  let diffoscopeHTML = '';
+  if (diffoscopeFiles.length > 0) {
+    diffoscopeHTML += `<div class="diffoscope-files" style="margin-top: 10px; margin-bottom: 20px; display: flex; flex-direction: column; gap: 10px; align-items: flex-start;">
+                         <p>Diffoscope files attached (click to see report):</p>`;
+    for (const file of diffoscopeFiles) {
+      diffoscopeHTML += `<button class="btn btn-small btn-info" style="width: auto;" onclick="openDiffoscopeModal('${getBlossomFileURL(file[2])}')">${file[1]}</button>`;
+    }
+    diffoscopeHTML += '</div>';
   }
 
-  content.innerHTML += `
-    <p><strong>Information:</strong>
-      <div class="markdown-content">${marked.parse(itemContent)}</div>
-    </p>
-  `;
-
-  // Play asciicast (legacy asciicasts can only be played on old verifications)
+  // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
   if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
-    // Check if asciinema player assets are already loaded
-    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
-    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
-
-    // Only add JS if not already present
-    let asciinemaPlayerJS;
-    if (!asciinemaJSExists) {
-      asciinemaPlayerJS = document.createElement('script');
-      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-      document.head.appendChild(asciinemaPlayerJS);
-    }
-
-    // Only add CSS if not already present
-    if (!ascinemaCSSExists) {
-      const asciinemaPlayerCSS = document.createElement('link');
-      asciinemaPlayerCSS.rel = 'stylesheet';
-      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-      document.head.appendChild(asciinemaPlayerCSS);
+    if (firstAsciicastFileSHA256) {
+      itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
     }
 
     let castURL;
@@ -1023,7 +1023,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
     }
 
-    // Function to initialize the player
+    const asciinemaJSExists = insertAsciinemaAssets();
+
     const initPlayer = () => {
       AsciinemaPlayer.create(
         castURL,
@@ -1042,6 +1043,16 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       initPlayer();   // Script was already loaded, initialize player directly
     }
   }
+
+  content.innerHTML += `
+  <p><strong>Information:</strong>
+    <div class="markdown-content">
+      ${diffoscopeHTML}
+      ${marked.parse(itemContent)}
+    </div>
+  </p>`;
+
+  insertDiffoscopeAssets();
 
   // Add share button dynamically
   const shareButton = document.createElement('button');
