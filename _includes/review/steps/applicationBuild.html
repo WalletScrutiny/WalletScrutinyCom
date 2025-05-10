@@ -34,6 +34,20 @@
 
         <script>
           window.addEventListener('load', async () => {
+            // Wait for verifications.bundle.min.js to be fully loaded
+            await new Promise(resolve => {
+              if (typeof renderAssetsTable !== 'undefined') {
+                resolve();
+              } else {
+                const checkInterval = setInterval(() => {
+                  if (typeof renderAssetsTable !== 'undefined') {
+                    clearInterval(checkInterval);
+                    resolve();
+                  }
+                }, 50);
+              }
+            });
+
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',
