@@ -12,6 +12,8 @@ const table = document.createElement('table');
 let attachments = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible
 
+const userPubkey = await getUserPubkey();
+
 // Filter table rows
 function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
@@ -64,12 +66,11 @@ function updateTableVisibility() {
   // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
   const hideDraftsChecked = document.getElementById('hideDrafts').checked;
   document.querySelectorAll('.draft-attestation').forEach(attestation => {
-    if (hideDraftsChecked) {
+    if (hideDraftsChecked && !attestation.getAttribute('data-pubkey_verifiers')?.includes(userPubkey)) {
       attestation.style.display = 'none';
     } else {
       // attestation is a tr?
-      const isATr = attestation.tagName === 'TR';
-      attestation.style.display = isATr ? 'table-row' : 'block';
+      attestation.style.display = attestation.tagName === 'TR' ? 'table-row' : 'block';
     }
   });
 }
@@ -128,56 +129,56 @@ window.renderAssetsTable = async function({
   }
 
   // Search and filter UI
-  if (enableSearch || enableDraftsFilter) {
-    const searchContainer = document.createElement('div');
-    searchContainer.className = 'assets-search-container';
-    searchContainer.style.marginBottom = '20px';
-    searchContainer.innerHTML = `
-      <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
-        <input 
-          type="text" 
-          id="assetSearchInput" 
-          placeholder="Search by wallet name or hash..." 
-          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
-        >
-        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
-          <style>
-            @media (max-width: 768px) {
-              .checkbox-container {
-                flex-direction: column !important;
-                gap: 0 !important;
-              }
+  const searchContainer = document.createElement('div');
+  searchContainer.className = 'assets-search-container';
+  searchContainer.style.marginBottom = '20px';
+  searchContainer.style.display = enableSearch || enableDraftsFilter ? 'block' : 'none';
+  searchContainer.innerHTML = `
+    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+      <input 
+        type="text" 
+        id="assetSearchInput" 
+        placeholder="Search by wallet name or hash..." 
+        style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
+      >
+      <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
+        <style>
+          @media (max-width: 768px) {
+            .checkbox-container {
+              flex-direction: column !important;
+              gap: 0 !important;
             }
-          </style>
-          <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
-            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
-              <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
-              <span>Show latest version only</span>
-            </label>
-            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
-              <input type="checkbox" id="showOnlyNoVerifications">
-              <span>Show only untested assets</span>
-            </label>
-          </div>
+          }
+        </style>
+        <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
+          <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+            <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
+            <span>Show latest version only</span>
+          </label>
+          <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+            <input type="checkbox" id="showOnlyNoVerifications">
+            <span>Show only untested assets</span>
+          </label>
         </div>
-        <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
-          <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
-          <span>Hide drafts</span>
-        </label>
-      </div>`;
+      </div>
+      <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
+        <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
+        <span>Hide others' drafts</span>
+      </label>
+    </div>`;
 
-    document.getElementById(htmlElementId).appendChild(searchContainer);
+  document.getElementById(htmlElementId).appendChild(searchContainer);
 
-    // Add event listeners for search and filters only if enableSearch is true
-    if (enableSearch) {
-      document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
-      document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
-      document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
-    }
-    if (enableDraftsFilter) {
-      document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
-    }
+  // Add event listeners for search and filters only if enableSearch is true
+  if (enableSearch) {
+    document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
+    document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
+    document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
   }
+  if (enableDraftsFilter) {
+    document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
+  }
+
 
   let hasVerifications = false;
 
@@ -192,9 +193,7 @@ window.renderAssetsTable = async function({
   }
 
   mergeIntoCombined(response.verifications);
-  if (enableDraftsFilter) {
-    mergeIntoCombined(response.draftVerifications);
-  }
+  mergeIntoCombined(response.draftVerifications);
   mergeIntoCombined(response.assets);
 
   // Helper function to find verification by ID across all SHA256 hashes
@@ -344,28 +343,28 @@ window.renderAssetsTable = async function({
       const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
       const attestations = [...standardAttestations, ...draftAttestations];
 
-      let attestationList;
+      let verificationsList;
       if (attestations.length > 0) {
         hasVerifications = true;
 
-        const latestAttestationsByUser = new Map();
+        const latestVerificationsByUser = new Map();
         for (const attestation of attestations) {
           // Always include draft verifications
           if (attestation.kind === verificationDraftKind) {
             // Add the draft with a key that includes both the pubkey and the draft ID to ensure we keep all drafts
-            latestAttestationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
+            latestVerificationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
           } else {
             // For regular attestations, only keep the most recent one per user
-            const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+            const existingAttestation = latestVerificationsByUser.get(attestation.pubkey);
             if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind &&
               attestation.created_at > existingAttestation.created_at)) {
-              latestAttestationsByUser.set(attestation.pubkey, attestation);
+              latestVerificationsByUser.set(attestation.pubkey, attestation);
             }
           }
         }
 
         let listItems = '';
-        for (const attestation of latestAttestationsByUser.values()) {
+        for (const attestation of latestVerificationsByUser.values()) {
           const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
             year: 'numeric',
             month: 'short',
@@ -386,6 +385,7 @@ window.renderAssetsTable = async function({
           listItems += `<span
                             onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
                             class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
+                            data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
@@ -395,11 +395,11 @@ window.renderAssetsTable = async function({
             </div>
           </span>`;
         }
-        attestationList = `${listItems}
+        verificationsList = `${listItems}
         ${hideConfig?.buttons ? '' :
           `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
-        attestationList = `No verifications yet.
+        verificationsList = `No verifications yet.
         ${hideConfig?.buttons ? '' :
           `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
@@ -437,7 +437,7 @@ window.renderAssetsTable = async function({
             <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
           `).join('') : '-'}
         </td>
-        <td>${attestationList}</td>
+        <td>${verificationsList}</td>
         <td>${date}</td>`;
       table.appendChild(row);
     });
@@ -566,16 +566,25 @@ window.renderAssetsTable = async function({
   // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
   const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
   rows.forEach(row => {
-    const attestations = Array.from(row.querySelectorAll('.attestation-link'));
-    if (attestations.every(attestation => attestation.classList.contains('draft-attestation'))) {
+    const verifications = Array.from(row.querySelectorAll('.attestation-link'));
+
+    let pubkeyVerifications = [];
+    verifications.forEach(verification => {
+      const pubkey = verification.getAttribute('data-pubkey_verifiers');
+      if (pubkey) {
+        pubkeyVerifications.push(pubkey);
+      }
+    });
+
+    if (verifications.every(verification => verification.classList.contains('draft-attestation'))) {
       row.classList.add('draft-attestation');
+      if (pubkeyVerifications.length > 0) {
+        row.dataset.pubkey_verifiers = pubkeyVerifications.join(', ');
+      }
     }
   });
 
-  // Apply initial filter only if enableSearch is true
-  if (enableSearch || enableDraftsFilter) {
-    updateTableVisibility();
-  }
+  updateTableVisibility();
 
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
@@ -863,9 +872,10 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
-  document.getElementById(htmlElementId).appendChild(`
-    <div id="diffoscopeModal" class="diffoscope-modal">
-      <div class="diffoscope-modal-content">
+  try {
+    document.getElementById(htmlElementId).appendChild(`
+      <div id="diffoscopeModal" class="diffoscope-modal">
+        <div class="diffoscope-modal-content">
           <div class="diffoscope-controls">
               <span class="diffoscope-maximize" title="Maximize">⛶</span>
               <span class="diffoscope-close" title="Close">✖</span>
@@ -873,6 +883,9 @@ window.renderAssetsTable = async function({
           <iframe id="diffoscopeFrame"></iframe>
       </div>
     </div>`);
+  } catch (error) {
+    console.error('Catching this problem for now, but we should fix it:', error);
+  }
 
   return {
     hasAssets,

@@ -860,12 +860,19 @@ permalink: /new_verification/
       document.getElementById('loadingSpinner').style.display = 'none';
       await showToast(isDraft ? 'Draft published successfully!' : 'Verification published successfully!');
 
-      if (!isDraft && hashes.length > 0) {
-        window.location.href = '/asset/?sha256=' + hashes[0]; // Redirect using the first hash
-      } else if (!isDraft) {
-        window.location.href = '/assets/'; // Fallback redirect if no hash
+      const url = `/${document.getElementById("platform").value}/${document.getElementById("appId").value}/`;
+      const response = await fetch(url, { method: 'HEAD' });
+      if (response.ok) {
+        window.location.href = url;
+      } else {
+        const userPubkey = await getUserPubkey();
+        if (userPubkey) {
+          window.location.href = '/verifier/?pubkey=' + userPubkey;
+        } else {
+          window.location.href = '/assets/'; // Fallback redirect if we couldn't guess the page to redirect to
+        }
       }
-      // No redirect for drafts, user stays on page
+
     } catch (error) {
       document.getElementById('loadingSpinner').style.display = 'none';
       showToast(error.message, 'error');
