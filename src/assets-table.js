@@ -163,7 +163,7 @@ window.renderAssetsTable = async function({
       </div>
       <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
         <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
-        <span>Hide drafts</span>
+        <span>Hide others' drafts</span>
       </label>
     </div>`;
 
