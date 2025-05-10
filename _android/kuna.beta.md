@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: kuna.beta.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-15
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: KunaExchange

@@ -6,22 +6,22 @@ authors:
 - leo
 - mohammad
 - keraliss
-users: 100000
+users: 500000
 appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
 updated: 2025-04-08
 version: '53.3'
-stars: 4
+stars: 4.1
 ratings: 650
-reviews: 204
+reviews: 207
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - 9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
 date: 2025-02-24

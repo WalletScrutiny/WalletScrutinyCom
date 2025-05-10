@@ -55,6 +55,18 @@ function isEmpty (obj) {
     }
   }
 
-  await fs.writeFile('_includes/allOpinions.json', JSON.stringify(all));
+  // Format the JSON with one line per top-level key for better diffs
+  const formatJson = (obj) => {
+    const entries = Object.entries(obj);
+    if (entries.length === 0) return '{}';
+    
+    const formattedEntries = entries.map(([key, value]) => 
+      `  "${key}":${JSON.stringify(value)}`
+    );
+    
+    return `{\n${formattedEntries.join(',\n')}\n}`;
+  };
+
+  await fs.writeFile('_includes/allOpinions.json', formatJson(all));
   process.exit(0);
 })();

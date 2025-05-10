@@ -12,7 +12,7 @@ updated: 2025-04-07
 version: 2.4.0
 stars: 2.9
 ratings: 
-reviews: 8
+reviews: 9
 website: https://slingshot.finance
 repository: 
 issue: 

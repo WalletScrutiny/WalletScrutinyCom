@@ -1,0 +1,8 @@
+short: Source Available
+title: Source code is available
+color: 'var(--indifferent, #3d506d)'
+redflag: false
+message: The provider of the product also shares source code.
+question: Is the source code of this wallet available?
+details: >
+  The source code for this wallet is available, so further build verifications can be done by anyone.

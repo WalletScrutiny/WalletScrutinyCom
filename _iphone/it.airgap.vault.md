@@ -18,7 +18,7 @@ issue:
 icon: it.airgap.vault.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2023-12-30
 signer: 

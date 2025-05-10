@@ -14,14 +14,14 @@ updated: 2025-03-06
 version: '10.25'
 stars: 4.1
 ratings: 29247
-reviews: 2095
+reviews: 2098
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 7088544f9714059cbc86d9db8110b95b7ae4db4f1b0a513ddb3378739a35183d
 date: 2025-03-10

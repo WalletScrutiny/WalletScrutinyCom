@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitbuy.mobileApp
 appCountry: ca
 released: 2019-10-15
-updated: 2025-04-02
-version: 5.0.9
+updated: 2025-04-20
+version: 5.1.0
 stars: 4.3
 ratings: 1381
-reviews: 1349
+reviews: 1350
 website: https://bitbuy.ca/
 repository: 
 issue: 

@@ -1,10 +1,5 @@
-{% assign show_pill = false %}
-{% assign pill_verdicts = "reproducible,nonverifiable,ftbfs,obfuscated" | split: "," %}
+{% assign pill_verdicts = "obfuscated,sourceavailable" | split: "," %}
 
 {% if pill_verdicts contains page.verdict and page.meta == "ok" %}
-  {% assign show_pill = true %}
-{% endif %}
-
-{% if show_pill %}
     <div class="label" data-for="embed-pill" data-text="Embed" data-suffix="a button on your website"></div>
 {% endif %}

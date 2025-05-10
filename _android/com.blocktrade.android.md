@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.blocktrade.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-19
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: Blocktradecom

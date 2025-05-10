@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-26
+date: 2025-04-14
 signer: 
 reviewArchive: 
 twitter: BitGo

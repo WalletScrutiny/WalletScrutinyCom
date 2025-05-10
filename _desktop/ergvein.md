@@ -16,7 +16,7 @@ issue:
 icon: ergvein.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 date: 2024-05-08
 reviewArchive: 
 twitter: hxr_team

@@ -1,15 +1,15 @@
 We concentrate on a tiny aspect of wallet security and to better understand
-what we do and do not do, this page explains the rough process of how we work.
+what we do and do not do, this page explains the rough process of how the platform works.
 
 ## What we do
 
-To put it dramatically, we search for the obvious potential to empty all the wallets
+To put it dramatically, WalletScrutiny helps identify the obvious potential to empty all the wallets
 of all the users at once. Could the provider of the wallet, with enough criminal
 energy, defraud all its users at once, without this being possible to be
 detected before it is
 too late? (If he could in theory, then a sufficiently motivated criminal could
 also put him under duress to steal your funds or manipulate him into stealing
-your coins with social engineering or with a backdoor.)
+your coins with social engineering or with a backdoor).
 
 This horror scenario is possible whenever the provider can obtain a copy of the wallet
 backup and thus access all the users' funds at once. He could collect the
@@ -48,43 +48,49 @@ start, which probably is the case for some wallets, too.
   binary on your device with the one reported here. For hardware wallets it's even
   harder to make general statements about the device you hold in hands.
 
-## Our manual review goes as follows:
+## How verifications work
 
-We take the perspective of a **curious potential user** of the respective product.
-We take all information from publicly available sources as we do not assume that
-potential users would sign NDAs prior to using a wallet. We also do not consider
-hard to find information. Our verdict therefore is based on what we can find
-within a *few clicks* from the product's description. We occasionally search
-GitHub for the identifiers but without endorsement from the official website,
-any repository we find this way is not very promising to provide reproducible
-builds but we are happy to leave an issue on a source code repository about our
-findings.
+Tests and verifications on WalletScrutiny are now primarily contributed by users through our [Verifications](/verifications/) functionality. This community-driven approach allows for:
+
+1. Wider coverage of wallet releases
+2. Faster verification of new versions
+3. Multiple independent confirmations of the same wallet version
+
+Users can contribute their own verification results, which are then displayed on the wallet's page. This distributed approach ensures that no single entity is responsible for all verifications, increasing trust in the results.
+
+We encourage wallet users to [participate in the verification process](/verifications/) and contribute their findings to help the community.
+
+## Review process:
+
+The review process takes the perspective of a **curious potential user** of the respective product.
+Information is taken from publicly available sources as we do not assume that
+potential users would sign NDAs prior to using a wallet. Hard to find information is also not considered. The verdict therefore is based on what can be found
+within a *few clicks* from the product's description. Occasionally, GitHub searches for identifiers may be performed, but without endorsement from the official website,
+any repository found this way is not very promising to provide reproducible
+builds.
 
 ## Priorities
 
-We cannot re-evaluate all the wallets every hour and as this is a side-project
-still, we might not be able to update anything for a month or three straight.
+Verifications cannot be performed on all wallets continuously, and as this is a community-driven platform, some wallets may not be updated for extended periods.
 
-But when we update reviews, we try to proceed as follows:
+When users contribute verifications, we recommend they follow these priorities:
 
-1. Re-evaluate new releases of {%
+1. Verify new releases of {%
    include verdictBadge.html verdict="reproducible" type='short' %}
    wallets as they become available. If
    users opt for a wallet because it is reproducible, they **should be waiting for
-   this re-evaluation** before updating.
+   verification** of the new release before updating.
 1. Check if any of the {% include verdictBadge.html verdict="nonverifiable" type='short' %} wallets updated their issues on their
    repositories.
-1. Make general improvements of the platform
-1. Evaluate the most relevant {% include verdictBadge.html verdict="wip" type='short' %} wallets
+1. Verify the most relevant {% include verdictBadge.html verdict="wip" type='short' %} wallets
 
 ## Wrap it up
 
-In the end we report our findings. All wallets that fail at any of the above
-questions are considered high risk in our estimate. We might contact the wallet
+In the end, verification findings are reported. All wallets that fail at any of the above
+questions are considered high risk. The community may contact the wallet
 provider, try to find out what went wrong and report on the respective
 communication.
 
-In the end, even if we conclude not to trust a wallet this doesn't mean the
-wallet was out to steal your coins. It just means that we are confident that
-with enough criminal energy this wallet could theoretically steal all the funds
+In the end, even if a wallet is concluded not to be trusted, this doesn't mean the
+wallet was out to steal your coins. It just means that with enough criminal energy this wallet could theoretically steal all the funds
 of all its users.

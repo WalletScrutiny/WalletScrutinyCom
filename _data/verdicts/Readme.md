@@ -20,27 +20,22 @@ For example, a new verdict can be named “newverdict.yml”
 
 ### Step 2
 
-Look out for these three files. Each of them has a list of all the site’s verdicts. 
+Look out for these files. Each of them has a list of all the site’s verdicts. 
 
-- _includes/grid_of_wallets.html
-- _includes/grid_of_wallets_proportional.html
-- scripts/migrate.mjs
+- assets/js/searchWallets.js
 
-New verdicts might need addition to lists like in [grid_of_wallets](/_includes/grid_of_wallets.html)
-or the two `verdictOrder` variables.
+New verdicts might need addition to the `verdictOrder` variable.
 
 It will typically look like this: 
 
-> *verdicts = "reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled"*
+> *const verdictOrder = ['nosource', 'diy', [...], 'nowallet'];*
 
 Add the new verdict:
 
-> *verdicts = "reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled,newverdict"*
+> *const verdictOrder = ['nosource', 'diy', [...], 'nowallet', 'newverdict'];*
 
 Note: The position matters. The new verdict needs to be inserted accordingly.
 Currently, these lists are used for all platforms but the "newverdict" might apply to only one platform. One has to fit it in such that the corresponding platform's verdicts are in order.
-
-Make sure to modify each of the three files with the list of all verdicts.
 
 ### Step 3
 

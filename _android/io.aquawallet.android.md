@@ -11,7 +11,7 @@ appCountry:
 released: 2024-01-02
 updated: 2025-02-18
 version: 0.2.10
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 15
 website: https://aquawallet.io
@@ -20,7 +20,7 @@ issue: https://github.com/AquaWallet/aqua-wallet/issues/9
 icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2024-09-06
 signer: 

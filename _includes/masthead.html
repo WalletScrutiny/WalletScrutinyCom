@@ -31,6 +31,7 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications"><i class="fas fa-bell"></i></a></li>
           <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
         </ul>
         <button><div class="navicon"></div></button>
@@ -42,6 +43,14 @@
 
 <div id="loadingSpinner" style="display: none;">
   <div class="spinner"></div>
+</div>
+
+<div id="notificationsPanel" class="notifications-panel" style="display: none;">
+  <div class="notifications-header">
+    <h3>Notifications</h3>
+    <button class="close-notifications" onclick="hideNotifications()"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="notifications-list"></div>
 </div>
 
 <script>
@@ -59,9 +68,71 @@
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
   }
 
+  function addNotificationToIndicator(title, details, type = 'info'){
+    const notificationsList = document.querySelector('.notifications-list');
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.innerHTML = `
+      <div class="notification-content">
+        <div class="title-row">
+          <i class="fas fa-${type === 'info' ? 'info-circle' : type === 'warning' ? 'exclamation-triangle' : 'check-circle'}"></i>
+          <span>${title}</span>
+        </div>
+        <div class="details-row">
+          <span>${details}</span>
+        </div>
+      </div>
+    `;
+    notificationsList.appendChild(notification);
+    
+    document.querySelector(".notifications-indicator").style.display = "block";
+  }
+
+  function showNotifications(){
+    const indicator = document.querySelector(".notifications-indicator");
+    const panel = document.getElementById('notificationsPanel');
+    const rect = indicator.getBoundingClientRect();
+
+    // Ensure panel is measurable by making it temporarily visible but off-screen
+    panel.style.visibility = 'hidden';
+    panel.style.display = 'block';
+    const panelWidth = panel.offsetWidth;
+    panel.style.display = 'none'; // Hide it again before final positioning
+    panel.style.visibility = 'visible';
+
+    // Position panel below the indicator
+    panel.style.top = `${rect.bottom + window.scrollY}px`;
+
+    // Align panel's right edge with indicator's left edge
+    panel.style.left = `${rect.left + window.scrollX - panelWidth}px`; 
+
+    // Make the panel visible at the calculated position
+    panel.style.display = 'block';
+  }
+  function hideNotifications(){
+    document.getElementById('notificationsPanel').style.display = "none";
+  }
+
+  // Close notifications panel when clicking outside
+  document.addEventListener('click', (event) => {
+    const notificationsPanel = document.getElementById('notificationsPanel');
+    const notificationsIndicator = document.querySelector(".notifications-indicator");
+    if (!notificationsPanel.contains(event.target) && 
+        !notificationsIndicator.contains(event.target) && 
+        notificationsPanel.style.display === "block") {
+      hideNotifications();
+    }
+  });
+
   document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
     const self = document.querySelector(".navicon").parentNode;
     const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2);
     document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`;
+  });
+
+  // Load notifications
+  window.addEventListener('load', async () => {
+    await nostrConnect();
+    await loadDraftVerificationsNotifications();
   });
 </script>

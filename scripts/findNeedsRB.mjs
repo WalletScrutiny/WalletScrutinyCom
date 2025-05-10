@@ -85,7 +85,7 @@ const analyzeFiles = () => {
       console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
         toLength(dateOrEmpty(n.updated), 10),
         toLength(n.file, 50),
-        toLength(n.verdict === 'reproducible' ? 'REPRODUCIBLE' : n.verdict, 15),
+        toLength(n.verdict === 'sourceavailable' ? 'SOURCEAVAILABLE' : n.verdict, 15),
         toLength('' + n.dtDays, 4),
         n.title);
     }
@@ -94,14 +94,14 @@ const analyzeFiles = () => {
   if (needOtherVerdicts.length > 0) {
     console.log(`
 ----------------------------
-🚀 ${fBold}May need updating former verdict: nosource, ftbfs, or obfuscated${fNormal}
+🚀 ${fBold}May need updating former verdict: nosource or obfuscated${fNormal}
 ----------------------------
 `);
     for (const n of needOtherVerdicts) {
       console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
         toLength(dateOrEmpty(n.updated), 10),
         toLength(n.file, 50),
-        toLength(n.verdict === 'reproducible' ? `REPRODUCIBLE` : n.verdict, 15),
+        toLength(n.verdict, 15),
         toLength('' + n.dtDays, 4),
         n.title);
     }
@@ -119,7 +119,7 @@ const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
   const sixMonthsAgo = new Date();
   sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
-  if ((verdict === 'reproducible' || verdict === 'nonverifiable') && updated && date < updated) {
+  if ((verdict === 'sourceavailable') && updated && date < updated) {
     const dtDays = Math.round((new Date() - updated) / 1000 / 60 / 60 / 24);
     needVerification.push({
       updated: updated,
@@ -128,7 +128,7 @@ const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
       dtDays: dtDays,
       title: header.altTitle || header.title
     });
-  } else if ((verdict === 'nosource' || verdict === 'ftbfs' || verdict === 'obfuscated') && new Date(date) < sixMonthsAgo) {
+  } else if ((verdict === 'nosource' || verdict === 'obfuscated') && new Date(date) < sixMonthsAgo) {
     const dtDays = Math.round((new Date() - new Date(date)) / 1000 / 60 / 60 / 24);
     needOtherVerdicts.push({
       updated: date,

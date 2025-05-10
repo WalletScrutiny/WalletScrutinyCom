@@ -1,4 +1,4 @@
-{% assign pill_verdicts = "reproducible,nonverifiable,ftbfs,obfuscated" | split: "," %}
+{% assign pill_verdicts = "obfuscated,sourceavailable" | split: "," %}
 
 {% if pill_verdicts contains verdict %}
 <div class="embed-pill">

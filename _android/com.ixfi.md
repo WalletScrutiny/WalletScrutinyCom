@@ -12,7 +12,7 @@ updated: 2025-03-29
 version: 1.9.96
 stars: 4.7
 ratings: 
-reviews: 65
+reviews: 64
 website: https://ixfi.com
 repository: 
 issue: 

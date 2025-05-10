@@ -8,8 +8,8 @@ appId: xbo.mobile.app
 appCountry: cy
 idd: '1638748643'
 released: 2022-09-24
-updated: 2025-04-02
-version: 2.4.1
+updated: 2025-04-15
+version: 2.5.0
 stars: 5
 reviews: 7
 website: https://www.xbo.com/

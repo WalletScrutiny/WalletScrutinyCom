@@ -19,7 +19,7 @@ issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issue
 icon: tech.hodler.core.png
 bugbounty: 
 meta: removed
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2024-04-26
 signer: 

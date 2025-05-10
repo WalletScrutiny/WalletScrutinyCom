@@ -11,7 +11,7 @@ released: 2016-06-25
 updated: 2024-12-05
 version: 6.7.5
 stars: 4.8
-reviews: 564
+reviews: 565
 website: https://www.bbae.com
 repository: 
 issue: 

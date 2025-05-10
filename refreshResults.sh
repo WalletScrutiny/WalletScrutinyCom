@@ -1,6 +1,6 @@
-echo "Reproducible wallets with version changes (need analysis):"
+echo "Source available wallets with version changes (need analysis):"
 for f in $( git diff -G'version' --name-only ); do
-  if grep -q "^verdict: reproducible" $f; then
+  if grep -q "^verdict: sourceavailable" $f; then
     echo $f changed to $( grep '^version' $f )
   fi
 done

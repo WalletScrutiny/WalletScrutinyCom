@@ -25,7 +25,7 @@ issue: https://github.com/trezor/trezor-firmware/issues/4586
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628
 - 14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de

@@ -49,9 +49,9 @@ function searchByWords(query, wallet) {
 }
 
 function performSearch (wallets, query = false, platform = false) {
-  const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
+  const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
   const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
-  const metaOrder = ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'];
+  const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct'];
 
   const workingArray = [];
   let walletsTemp = false;
@@ -241,9 +241,7 @@ function makeCompactResultsHTML (wallet) {
         </small>
       </span>
       <span class="stats">
-      ${wallet.meta && wallet.meta !== 'outdated'
-        ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`
-        : ''}
+        <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
       ${wallet.meta && wallet.meta !== 'ok'
         ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
         : ''}

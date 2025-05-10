@@ -25,7 +25,7 @@ issue:
 icon: bitfiwallet.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 appHashes: 
 date: 2024-08-12
 signer: 

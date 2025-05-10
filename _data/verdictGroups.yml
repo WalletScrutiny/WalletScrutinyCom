@@ -1,14 +1,12 @@
 - key: allPassed
   verdicts:
-  - reproducible
+  - sourceavailable
   title: All tests passed.
   short: All tests passed
   abstract: Reproducibility
   comment: The project either does not require binaries or the binaries provided are provably generated from the source provided.
 - key: codeIssues
   verdicts:
-  - nonverifiable
-  - ftbfs
   - obfuscated
   title: Build issues or source-code issues.
   short: Source-code available
@@ -77,7 +75,6 @@
   verdicts:
   - wip
   metas:
-  - outdated
   title: Pending review.
   short: Pending review
   abstract: Pending review

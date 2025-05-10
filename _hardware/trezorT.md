@@ -26,7 +26,7 @@ issue:
 icon: trezorT.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
 - 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903

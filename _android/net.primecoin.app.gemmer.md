@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-12-15
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: 

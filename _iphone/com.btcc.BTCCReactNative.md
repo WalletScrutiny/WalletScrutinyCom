@@ -11,7 +11,7 @@ released: 2017-01-20
 updated: 2025-03-31
 version: 3.2.00
 stars: 4.3
-reviews: 118
+reviews: 122
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 repository: 
 issue: 

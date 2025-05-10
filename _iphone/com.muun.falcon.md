@@ -11,14 +11,14 @@ released: 2019-10-11
 updated: 2025-03-25
 version: 2.9.1
 stars: 4.3
-reviews: 256
+reviews: 263
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
 icon: com.muun.falcon.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2021-07-30
 signer: 

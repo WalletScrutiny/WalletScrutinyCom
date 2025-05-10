@@ -18,7 +18,7 @@ issue:
 icon: world.bitkey.app.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-03-14
 signer: 

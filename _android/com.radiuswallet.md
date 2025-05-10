@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.radiuswallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-01-27
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ appId: com.yykj.bitfree.en
 appCountry: ph
 idd: '1453815920'
 released: 2019-02-24
-updated: 2025-04-07
-version: 5.2.0
+updated: 2025-04-14
+version: 5.2.3
 stars: 0
 reviews: 0
 website: 

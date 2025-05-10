@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: net.panteam.pt.BTC.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-02-13
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: 
