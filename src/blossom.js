@@ -74,7 +74,7 @@ export async function sha256(data) {
 }
 
 // Check if a blob exists on the server
-export async function hasBlob(sha256, fileExtension = '', serverUrl) {
+export async function blossomServerHasBlob(sha256, fileExtension = '', serverUrl) {
   const url = `${serverUrl}/${sha256}${fileExtension}`;
   try {
     const response = await fetch(url, { method: 'HEAD' });

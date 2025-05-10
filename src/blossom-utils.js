@@ -1,4 +1,4 @@
-import { hasBlob, uploadBlobWithProgress } from './blossom.js';
+import { blossomServerHasBlob, uploadBlobWithProgress } from './blossom.js';
 import { updateDomElementInClass } from './drag-and-drop-utils.js';
 
 const blossomServerUrl = 'https://files.nostr.info';
@@ -44,9 +44,7 @@ function getCachedResult(hash) {
 
 export async function uploadToBlossom(file, hash) {
     try {
-        const exists = await hasBlob(hash, '', blossomServerUrl);
-
-        if (exists) {
+        if (await blossomServerHasBlob(hash, '', blossomServerUrl)) {
             console.log(`Blob ${hash} already exists in Blossom`);
         } else {
             console.log(`Uploading blob ${hash} to Blossom`);
@@ -92,7 +90,7 @@ function displayBlossomUploadError(errorMessage) {
     `);
 }
 
-export async function checkBlossomFile(hash, overrideCache = false) {
+export async function checkFileExistsInBlossom(hash, overrideCache = false) {
     // Check cache first
     if (!overrideCache) {
         const cachedResult = getCachedResult(hash);
@@ -102,7 +100,7 @@ export async function checkBlossomFile(hash, overrideCache = false) {
     }
 
     // If not in cache or expired, make the API call
-    const exists = await hasBlob(hash, '', blossomServerUrl);
+    const exists = await blossomServerHasBlob(hash, '', blossomServerUrl);
     setCache(hash, exists);
     return exists;
 }
@@ -112,7 +110,7 @@ export function getBlossomFileURL(hash) {
 }
 
 if (typeof window !== 'undefined') {
-    window.checkBlossomFile = checkBlossomFile;
+    window.checkFileExistsInBlossom = checkFileExistsInBlossom;
     window.getBlossomFileURL = getBlossomFileURL;
     window.uploadToBlossom = uploadToBlossom;
 }
