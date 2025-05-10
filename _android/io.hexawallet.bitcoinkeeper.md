@@ -19,7 +19,7 @@ issue: https://github.com/bithyve/bitcoin-keeper/issues/6097
 icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - ef3d78cc482c6e6171a3b87ee344db0a097196c62736132fb4dcee898d905781
 date: 2025-02-12

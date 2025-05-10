@@ -16,7 +16,7 @@ issue:
 icon: bitcoinkeeper.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2025-02-12
 reviewArchive: 
 twitter: bitcoinKeeper_

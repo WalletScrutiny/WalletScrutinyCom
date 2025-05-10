@@ -4,10 +4,8 @@
   <p><i class="fab fa-twitter"></i>
   <span>
     {% case page.verdict %}
-    {% when "reproducible" %}
-      Please follow {{ title | escape }} and thank them for being reproducible
-    {% when "nonverifiable" %}
-      Please help us spread the word, asking {{ title | escape }} to support reproducible builds
+    {% when "sourceavailable" %}
+      Please follow {{ title | escape }} and thank them for having the source code available
     {% when "nosource" %}
       Please help us spread the word discussing transparency with {{ title | escape }}
     {% when "custodial" %}

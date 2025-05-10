@@ -20,19 +20,19 @@ issue:
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: []
-date: 2024-08-20
-signer: 
+verdict: nosource
+appHashes: 1b9a070277ab84f0fd4af1dc44a7d861c82f309951d947aaa2bf9cbe431e926c
+date: 2025-03-21
+signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
 reviewArchive:
 - date: 2024-08-20
   version: 5.18.6
-  appHashes: []
+  appHashes: 
   gitRevision: 7dca9fc061b5239ece7294a0c8529fd0828ce608
   verdict: nosource
 - date: 2024-07-02
   version: 5.5.1
-  appHashes: []
+  appHashes:
   gitRevision: 541a3a95426d5d277d7590282bb5e1e1f341a4c0
   verdict: nosource
 twitter: tangem
@@ -43,6 +43,28 @@ developerName: Tangem
 features: 
 
 ---
+
+**Update 2025-03-21**
+
+We conducted another attempt to build the Tangem Wallet app from source. The main repository at https://github.com/tangem/tangem-app-android is publicly available, but the build process fails when trying to initialize the required submodules:
+
+```
+git submodule update --init --recursive
+Cloning into '/workspace/tangem-app-android/app/src/main/assets/tangem-app-config'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+The app depends on two critical submodules that are private:
+- `tangem-app-config` at git@github.com:tangem/tangem-app-config.git
+- `tangem-android-tools` at git@github.com:tangem/tangem-android-tools.git
+
+These submodules use SSH URLs (git@github.com:...) rather than HTTPS URLs, which indicates they require SSH authentication to access. Without these components, it's impossible to build the app from the available source code.
+
+This confirms our previous findings that the app should be classified as **nosource** since essential components remain private.
 
 **Update 2024-08-20** 
 

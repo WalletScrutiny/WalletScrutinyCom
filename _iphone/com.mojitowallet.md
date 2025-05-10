@@ -18,7 +18,7 @@ issue:
 icon: com.mojitowallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2023-09-06
 signer: 
