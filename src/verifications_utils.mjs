@@ -369,7 +369,7 @@ const createVerification = async function ({
     if (!isDraft && draftVerificationEventId) {
       const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
-        await draftVerificationEvent.delete(reason, true);
+        await draftVerificationEvent.delete('deleting draft, as verification was published', true);
       }
     }
 

@@ -883,7 +883,7 @@ window.renderAssetsTable = async function({
       </div>
     </div>`);
   } catch (error) {
-    console.error('Catching this problem for now, but we should fix it:', error);
+    console.debug('Catching this problem for now, but we should fix it:', error);
   }
 
   return {
@@ -1015,12 +1015,23 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     diffoscopeHTML += '</div>';
   }
 
+  // Adding AsciiCast html
+  let asciicastHTML = '';
+  if (firstAsciicastFileSHA256) {
+    asciicastHTML = `<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>`;
+  }
+
+  content.innerHTML += `
+  <p><strong>Information:</strong>
+    <div class="markdown-content">
+      ${diffoscopeHTML}
+      ${asciicastHTML}
+      ${marked.parse(itemContent)}
+    </div>
+  </p>`;
+
   // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
   if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
-    if (firstAsciicastFileSHA256) {
-      itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
-    }
-
     let castURL;
     if (firstAsciicastFileSHA256) {
       castURL = getBlossomFileURL(firstAsciicastFileSHA256);
@@ -1035,7 +1046,25 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
     }
 
-    const asciinemaJSExists = insertAsciinemaAssets();
+    // Check if asciinema player assets are already loaded
+    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+    // Only add JS if not already present
+    let asciinemaPlayerJS;
+    if (!asciinemaJSExists) {
+      asciinemaPlayerJS = document.createElement('script');
+      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+      document.head.appendChild(asciinemaPlayerJS);
+    }
+
+    // Only add CSS if not already present
+    if (!ascinemaCSSExists) {
+      const asciinemaPlayerCSS = document.createElement('link');
+      asciinemaPlayerCSS.rel = 'stylesheet';
+      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+      document.head.appendChild(asciinemaPlayerCSS);
+    }
 
     const initPlayer = () => {
       AsciinemaPlayer.create(
@@ -1056,15 +1085,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     }
   }
 
-  content.innerHTML += `
-  <p><strong>Information:</strong>
-    <div class="markdown-content">
-      ${diffoscopeHTML}
-      ${marked.parse(itemContent)}
-    </div>
-  </p>`;
-
-  insertDiffoscopeAssets();
+  if (diffoscopeFiles.length > 0) {
+    insertDiffoscopeAssets();
+  }
 
   // Add share button dynamically
   const shareButton = document.createElement('button');
@@ -1173,30 +1196,6 @@ function insertDiffoscopeAssets() {
     diffoscopeJS.src = '/assets/js/diffoscope-modal.js';
     document.head.appendChild(diffoscopeJS);
   }
-}
-
-function insertAsciinemaAssets() {
-  // Check if asciinema player assets are already loaded
-  const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
-  const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
-
-  // Only add JS if not already present
-  let asciinemaPlayerJS;
-  if (!asciinemaJSExists) {
-    asciinemaPlayerJS = document.createElement('script');
-    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-    document.head.appendChild(asciinemaPlayerJS);
-  }
-
-  // Only add CSS if not already present
-  if (!ascinemaCSSExists) {
-    const asciinemaPlayerCSS = document.createElement('link');
-    asciinemaPlayerCSS.rel = 'stylesheet';
-    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-    document.head.appendChild(asciinemaPlayerCSS);
-  }
-
-  return asciinemaJSExists;
 }
 
 // Function to handle attachment download using stored data
