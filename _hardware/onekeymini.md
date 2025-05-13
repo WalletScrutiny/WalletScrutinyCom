@@ -6,8 +6,8 @@ authors:
 - mohammad
 released: 2020-12-08
 discontinued: 
-updated: 2021-10-16
-version: 3.0.0
+updated: 2024-08-12
+version: 3.9.0
 binaries: 
 dimensions: 
 weight: 
@@ -19,16 +19,22 @@ shop: >-
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
+issue: https://github.com/OneKeyHQ/firmware/issues/579
 icon: onekeymini.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
 appHashes:
-- 88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae
-date: 2023-07-12
+- 70134b755f3246621b67029a11c5913c782e698ccf3a36aa736e8a73832f41f0
+date: 2025-03-13
 signer: 
 reviewArchive:
+- date: 2023-07-12
+  version: 3.0.0
+  appHashes:
+  - 88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae
+  gitRevision: a51dc3d4e00e983c9ec22934df15bc9f09036173
+  verdict: nonverifiable
 - date: 2022-12-28
   version: 
   appHashes: []
@@ -43,83 +49,99 @@ features:
 
 ---
 
-**Update 2023-07-12**: We followed the steps that provider sent to us and ran a script which is based on their
-[Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-mini.yml).
-Here is the result for v3.0.0:
+## Initial Findings
 
+We conducted a reproducibility test for OneKey Mini firmware v3.9.0 using a modified hardware-specific script. The test involved building the firmware from source code and comparing it with the official firmware downloaded from GitHub.
+
+### Build and Download Process
+
+We successfully built the firmware from the OneKey GitHub repository using their provided build system. The build process completed without errors, producing a firmware file named `mini.3.9.0-Stable-0321-a8b4519.bin` (where 0321 represents the build date).
+
+We then downloaded the official firmware from GitHub using the URL:
 ```
-$ sha256sum downloaded-firmware.bin mini.3.0.0-Stable-0712-b860d10.bin
-
-88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae  downloaded-firmware.bin
-afd46d3dc8d871dd8ff1310459e25474725260602b77d3fa5d183e9fdfb5bedc  mini.3.0.0-Stable-0712-b860d10.bin
-```
-The hashes were different, So we had a look at the diff of the hex formatted binaries:
-
-```
-$ xxd mini.3.0.0-Stable-0712-b860d10.bin > mini.3.0.0-Stable-0712-b860d10.hex
-$ xxd downloaded-firmware.bin > downloaded-firmware.hex
-$ diff mini.3.0.0-Stable-0712-b860d10.hex downloaded-firmware.hex
-
-...
-
-12773c12773
-< 00031e40: 33f0 53fb 28b1 a248 d8f7 02ff 0146 0320  3.S.(..H.....F.
----
-> 00031e40: 34f0 b4fd 28b1 a248 d8f7 02ff 0146 0320  4...(..H.....F.
-12778,12779c12778,12779
-< 00031e90: de80 0135 efe7 9048 d6e7 0121 2046 35f0  ...5...H...! F5.
-< 00031ea0: a1fb 90b1 8d48 d8f7 d3fe 0146 0320 ddf7  .....H.....F. ..
----
-> 00031e90: de80 0135 efe7 9048 d6e7 0121 2046 33f0  ...5...H...! F3.
-> 00031ea0: c3fa 90b1 8d48 d8f7 d3fe 0146 0320 ddf7  .....H.....F. ..
-12805,12808c12805,12808
-< 00032040: 013b a342 b8d0 e0e7 8146 374d dfe7 35f0  .;.B.....F7M..5.
-< 00032050: 59fa dde9 0d01 0faa 33f0 aef8 18b3 0220  Y.......3......
-< 00032060: dcf7 70f8 0028 3ff4 16af 35f0 61fa 2f4a  ..p..(?...5.a./J
-< 00032070: 2f49 35f0 3afa 4ff4 c872 2146 1ca8 3bf0  /I5.:.O..r!F..;.
----
-> 00032040: 013b a342 b8d0 e0e7 8146 374d dfe7 33f0  .;.B.....F7M..3.
-> 00032050: 7bf9 dde9 0d01 0faa 33f0 aef8 18b3 0220  {.......3......
-> 00032060: dcf7 70f8 0028 3ff4 16af 33f0 83f9 2f4a  ..p..(?...3.../J
-> 00032070: 2f49 33f0 5df9 4ff4 c872 2146 1ca8 3bf0  /I3.].O..r!F..;.
-12810,12812c12810,12812
-< 00032090: 9bff 14a9 1ca8 20f0 41f8 35f0 6ffa 2549  ...... .A.5.o.%I
-< 000320a0: 14aa 35f0 12fa 1198 35f0 7cfa 0023 0ca9  ..5.....5.|..#..
-< 000320b0: 1ca8 0c93 35f0 36fb 0446 0028 c4d0 0748  ....5.6..F.(...H
----
-> 00032090: 9bff 14a9 1ca8 20f0 41f8 33f0 91f9 2549  ...... .A.3...%I
-> 000320a0: 14aa 33f0 35f9 1198 33f0 9ef9 0023 0ca9  ..3.5...3....#..
-> 000320b0: 1ca8 0c93 33f0 58fa 0446 0028 c4d0 0748  ....3.X..F.(...H
-12818,12819c12818,12819
-< 00032110: 66e2 0908 44dc 0e08 4053 0120 b4db 0e08  f...D...@S. ....
-< 00032120: 12c3 0908 c4db 0e08 6d53 0120 9f1f 0c08  ........mS. ....
----
-> 00032110: 66e2 0908 44dc 0e08 3853 0120 b4db 0e08  f...D...8S. ....
-> 00032120: 12c3 0908 c4db 0e08 6553 0120 9f1f 0c08  ........eS. ....
-17158c17158
-< 00043050: 373a 0c08 433a 0c08 31d5 0e08 583a 0c08  7:..C:..1...X:..
----
-> 00043050: 373a 0c08 433a 0c08 aed3 0e08 583a 0c08  7:..C:......X:..
-25889,25890c25889,25890
-< 00065200: 00f0 89f9 0028 61d1 5146 07a8 02f0 b8fc  .....(a.QF......
-< 00065210: 0028 5bd1 5146 07a8 02f0 64fc 0138 0628  .([.QF....d..8.(
----
-> 00065200: 01f0 eafb 0028 61d1 5146 07a8 00f0 24fa  .....(a.QF....$.
-> 00065210: 0028 5bd1 5146 07a8 00f0 d0f9 0138 0628  .([.QF.......8.(
-
-...
+https://github.com/OneKeyHQ/firmware/releases/download/mini%2Fv3.9.0/mini.3.9.0-Stable-0807-a8b4519.signed.bin
 ```
 
-The above diff result is truncated because there are a lot of diffs.
-We reported this problem in
-[an issue on Github](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406).
-Sadly at the current state, This firmware is **not verifiable**.
+### Hash Comparison
 
-**Update 2022-12-28**: The provider sent us a
-[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
-We have to check this.
+We calculated SHA-256 hashes for both firmware files:
+```
+710186dec742eb0a27ff23a762d257a2cb60e565cc3f6fc8380a5e10f0d882b0  mini.3.9.0-Stable-0321-a8b4519.bin
+70134b755f3246621b67029a11c5913c782e698ccf3a36aa736e8a73832f41f0  downloaded-firmware.bin
+```
 
-## Product Description
+The hashes are different, which indicates that the built firmware is not bit-for-bit identical to the official firmware.
+
+Following OneKey's documentation, we also calculated checksums excluding the first 1024 bytes (which contains the signature):
+```
+31ffa36ddf6221d02072245d9b7458dac908cc80f307100b2dad1f852c8d7cd0  mini.3.9.0-Stable-0321-a8b4519.bin (excluding signature)
+5b506fe9c7ca702b6bf974ef1b386921b90e3825f9273dfbb98fcf0ffb053030  downloaded-firmware.bin (excluding signature)
+```
+
+Even after excluding the signature section, the hashes still differ, indicating that there are differences in the actual firmware content beyond just the signature.
+
+### Binary Comparison
+
+We performed a binary comparison using `cmp`, `hexdump`, and other tools. Both firmware files have identical size (979,516 bytes). The file headers and initial binary content are identical for the first 320 bytes, with the first difference occurring at byte 321.
+
+Here's a comparison of the first few bytes of both files:
+```
+00000000  4d 49 4e 49 1f a4 01 08  00 00 00 00 3c ee 0e 00  |MINI........<...|
+00000010  02 63 63 00 02 63 63 00  39 00 00 00 00 00 00 00  |.cc..cc.9.......|
+```
+
+The "MINI" identifier at the beginning is present in both files, confirming they are for the same device type.
+
+Analysis of the differences revealed:
+
+1. **First difference at byte 321**: This is within what OneKey documentation describes as the signature section (first 1024 bytes).
+
+2. **Total differing bytes**: 295 bytes out of 979,516 bytes differ between the two firmware files (approximately 0.03% of the total).
+
+3. **Pattern of differences**: The differences are concentrated in three main areas:
+   - Early differences starting at byte 321 (likely signature-related)
+   - A section around bytes 788-804 where the built firmware contains zeros
+   - Later differences around byte 628694-628696
+
+4. **Embedded version strings**: Both firmware files contain their respective build date strings:
+   ```
+   mini.3.9.0-Stable-0807-a8b4519  (in downloaded firmware)
+   mini.3.9.0-Stable-0321-a8b4519  (in built firmware)
+   ```
+
+### Interpretation and Next Steps
+
+Our analysis reveals that while the core firmware code appears largely identical, there are specific differences that prevent bit-for-bit verification. These differences are consistent with what we would expect from:
+
+1. **Signature differences**: The OneKey documentation explicitly mentions that a 1024-byte signature is added to the firmware, which is verified by the bootloader at device startup.
+
+2. **Build-specific metadata**: The build date is embedded in the firmware, causing differences between builds from different times.
+
+3. **Potential non-deterministic build elements**: Some elements of the build process may introduce non-deterministic outputs, such as timestamps or compiler-specific artifacts.
+
+According to OneKey's documentation, the proper verification method is to compare the firmware content excluding the first 1024 bytes (signature section). However, our test shows that even with this approach, the hashes still differ.
+
+To make the firmware fully reproducible, we would need to:
+
+1. Identify all sources of non-determinism in the build process
+2. Modify the build environment to use deterministic compilation settings
+3. Potentially separate the signature process from the build process
+4. Work with OneKey to understand any intentional differences between the public source code and the released firmware
+
+## Conclusion
+
+Based on our testing, the OneKey Mini firmware v3.9.0 is **not verifiable** in the strict sense, as we cannot produce a bit-for-bit identical copy of the official firmware, even when following OneKey's recommended verification process of excluding the signature section.
+
+While the differences are relatively small (295 bytes out of 979,516 bytes, or about 0.03%), they prevent complete verification. These differences are likely related to build environment specifics, timestamps, and the signature process rather than intentional code changes.
+
+This finding is consistent with OneKey's documentation, which acknowledges that the firmware undergoes a signing process after compilation. However, the fact that differences persist even after excluding the signature section suggests additional non-deterministic elements in the build process that affect reproducibility.
+
+
+## Updated Issue
+
+We [updated the issue](https://github.com/OneKeyHQ/firmware/issues/579#issuecomment-2721075263) for the OneKeyMini reproducible build to inform the developers of our findings.
+
+# Product Description
 
 Not to be confused with the {% include walletLink.html wallet='hardware/onekey' verdict='true' %}, the One Key Mini supports many cryptocurrencies including: BTC, LTC, BCH, ETH, BTG, DASH, USDT, DOGE and more. It supports many DeFi protocols and can connect to Metamask.
 
