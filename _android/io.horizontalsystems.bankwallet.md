@@ -23,10 +23,16 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 appHashes:
-- 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-date: 2025-03-07
+- 14d97cabb2c3d24582acca48364fb3dad1cbb04a14fc8493ab3f358cb3bb961f
+date: 2025-04-04
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2025-03-07
+  version: 0.41.4
+  appHashes:
+  - 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
+  gitRevision: 319bc673b4793bbd3149d9e9a52bb448f3fcc371
+  verdict: reproducible
 - date: 2024-12-27
   version: 0.41.3
   appHashes:
@@ -335,36 +341,9 @@ features:
 
 ---
 
-Here we test if the latest version can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}:
+### Review
 
-
-
-```
-===== Begin Results =====
-appId:          io.horizontalsystems.bankwallet
-signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.41.4
-apkVersionCode: 127
-verdict:        reproducible
-appHash:        94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-commit:         a5bc8996ebe7e5e310a68d70a8e9068f597de932
-
-Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.SF
-
-Revision, tag (and its signature):
-
-===== End Results =====
-
-```
-
-{% include asciicast %}
-
-
-Version 0.41.4 is **reproducible**
+Unstoppable is a wallet developed by Horizontal Systems. It is source-available and has consistently reproducible builds over several years. 
 
 ### Thank you to Horizontal Systems for repeat donations
 
