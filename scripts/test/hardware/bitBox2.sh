@@ -1,90 +1,147 @@
-#!/bin/bash
+#!/bin/bash -e
+# BitBox02 Firmware Build and Validation Script
+# Can be run as: ./scripts/test/hardware/bitBox2.sh 9.22.0
 
-### provide this script with the version without "v" and the published buildHash
-
-version=$1
-ARCHIVE=/tmp  # Set ARCHIVE to /tmp to ensure write permissions
-WORKSPACE="$HOME/wsTest"  # Use $HOME instead of ~
-
-# recreate and cd into test folder
-if [ -d "$WORKSPACE" ]; then
-    read -p "Directory $WORKSPACE already exists. Would you like to remove it? (y/n): " response
-    if [[ "$response" =~ ^[Yy]$ ]]; then
-        rm -rf "$WORKSPACE"
-    else
-        echo "Aborting script as $WORKSPACE already exists and cannot be removed."
+# Check if running in wrapper mode (just version number provided)
+if [ $# -eq 1 ] && [[ $1 =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+    # Running in wrapper mode, reconfigure parameters
+    VERSION_NUMBER=$1
+    VERSION="firmware-btc-only/v${VERSION_NUMBER}"
+    MAKE_COMMAND="make firmware-btc"
+else
+    # Running in direct mode (full parameters provided)
+    if [ $# -ne 2 ]; then
+        echo "Usage:"
+        echo "  $0 <version_number>                    # For BTC-only version"
+        echo "  $0 <version> <make_command>            # For direct version/command specification"
+        echo "Examples:"
+        echo "  $0 9.22.0                              # Build and validate BTC-only v9.22.0"
+        echo "  $0 firmware-btc-only/v9.22.0 'make firmware-btc'  # Same as above"
+        echo "  $0 firmware/v9.22.0 'make firmware'    # Build and validate full firmware v9.22.0"
         exit 1
     fi
+    VERSION=$1
+    MAKE_COMMAND=$2
+    # Extract version number from full version string
+    VERSION_NUMBER=$(echo "$VERSION" | grep -o '[0-9]\+\.[0-9]\+\.[0-9]\+')
 fi
 
-mkdir -p "$WORKSPACE"
-cd "$WORKSPACE" || exit 1
+echo "Version: $VERSION"
+echo "Version number: $VERSION_NUMBER"
+echo "Make command: $MAKE_COMMAND"
 
-# clone the repository with retry logic
-MAX_RETRIES=3
-retry_count=0
-while [ $retry_count -lt $MAX_RETRIES ]; do
-    echo "Attempting to clone repository (attempt $((retry_count + 1))/$MAX_RETRIES)..."
-    if git clone --depth 1 https://github.com/BitBoxSwiss/bitbox02-firmware; then
-        break
-    fi
-    retry_count=$((retry_count + 1))
-    if [ $retry_count -eq $MAX_RETRIES ]; then
-        echo "Failed to clone repository after $MAX_RETRIES attempts"
-        exit 1
-    fi
-    echo "Clone failed, retrying in 5 seconds..."
-    sleep 5
-done
+# Detect system architecture
+ARCH=$(uname -m)
+echo "System Architecture: $ARCH"
 
-cd bitbox02-firmware || exit 1
-
-# Download the firmware using wget with retry
-MAX_RETRIES=3
-retry_count=0
-while [ $retry_count -lt $MAX_RETRIES ]; do
-    if wget -O "firmware-btc.v${version}.signed.bin" \
-        "https://github.com/BitBoxSwiss/bitbox02-firmware/releases/download/firmware-btc-only%2Fv${version}/firmware-btc.v${version}.signed.bin"; then
-        break
-    fi
-    retry_count=$((retry_count + 1))
-    if [ $retry_count -eq $MAX_RETRIES ]; then
-        echo "Failed to download firmware after $MAX_RETRIES attempts"
-        exit 1
-    fi
-    echo "Download failed, retrying in 5 seconds..."
-    sleep 5
-done
-
-# keep a copy of signed download for later ...
-cp "firmware-btc.v${version}.signed.bin" "$ARCHIVE/bitbox02-firmware-btc.v${version}.signed.bin"
-
-signedHash=$(sha256sum "firmware-btc.v${version}.signed.bin")
-
-# build btc only version
-if [ ! -f "releases/build.sh" ]; then
-    echo "Error: build.sh not found. Repository structure may have changed."
-    exit 1
+# Extract firmware type (btc-only or full)
+if [[ "$VERSION" == *"btc-only"* ]]; then
+    FIRMWARE_TYPE="btc"
+    FIRMWARE_RELEASE_PATH="firmware-btc-only"
+else
+    FIRMWARE_TYPE=""
+    FIRMWARE_RELEASE_PATH="firmware"
 fi
 
-./releases/build.sh "firmware-btc-only/v${version}" "make firmware-btc"
-builtHash=$(sha256sum temp/build/bin/firmware-btc.bin)
+# delete previous clone
+rm -rf temp
 
-# unpack signed binary
-head -c 588 "firmware-btc.v${version}.signed.bin" > p_head.bin
-tail -c +589 "firmware-btc.v${version}.signed.bin" > p_firmware-btc.bin
-downloadStrippedSigHash=$(sha256sum p_firmware-btc.bin)
+# Verbose clone
+echo "Cloning repository for version: $VERSION"
+git clone --depth 1 --branch "$VERSION" --recurse-submodules https://github.com/BitBoxSwiss/bitbox02-firmware temp
+cd temp
+
+# Fetch tags
+git fetch --tags
+
+# Patch for specific versions if needed
+if [[ "$VERSION" == "firmware-btc-only/v9.15.0" || "$VERSION" == "firmware/v9.15.0" ]]; then
+  sed -i 's/RUN CARGO_HOME=\/opt\/cargo cargo install bindgen-cli --version 0.65.1/RUN CARGO_HOME=\/opt\/cargo cargo install bindgen-cli --version 0.65.1 --locked/' Dockerfile
+fi
+
+# Debug: show Dockerfile content around Go download
+echo "Dockerfile Go download section:"
+sed -n '/go1.19.3.linux-/p' Dockerfile
+
+# Modify Dockerfile to use explicit architecture
+case "$ARCH" in
+    x86_64)
+        sed -i 's|go1.19.3.linux-${TARGETARCH}|go1.19.3.linux-amd64|g' Dockerfile
+        ;;
+    aarch64|arm64)
+        sed -i 's|go1.19.3.linux-${TARGETARCH}|go1.19.3.linux-arm64|g' Dockerfile
+        ;;
+    *)
+        echo "Unsupported architecture: $ARCH"
+        exit 1
+        ;;
+esac
+
+# Build the Docker image
+echo "Building Docker image for firmware version: $VERSION"
+docker build --pull --platform linux/amd64 --force-rm --no-cache -t bitbox02-firmware .
+
+# Revert local Dockerfile patch
+git checkout -- Dockerfile
+
+# Run firmware build command inside Docker
+echo "Running firmware build command: $MAKE_COMMAND"
+docker run -it --rm --volume "$(pwd)":/bb02 bitbox02-firmware bash -c "git config --global --add safe.directory /bb02 && cd /bb02 && $MAKE_COMMAND"
+
+# Download the official signed firmware
+echo "Downloading official signed firmware..."
+if [[ "$FIRMWARE_TYPE" == "btc" ]]; then
+    DOWNLOAD_URL="https://github.com/BitBoxSwiss/bitbox02-firmware/releases/download/${FIRMWARE_RELEASE_PATH}%2Fv${VERSION_NUMBER}/firmware-btc.v${VERSION_NUMBER}.signed.bin"
+    SIGNED_FILENAME="firmware-btc.v${VERSION_NUMBER}.signed.bin"
+    BUILT_FIRMWARE_PATH="build/bin/firmware-btc.bin"
+    FIRMWARE_PREFIX="firmware-btc"
+else
+    DOWNLOAD_URL="https://github.com/BitBoxSwiss/bitbox02-firmware/releases/download/${FIRMWARE_RELEASE_PATH}%2Fv${VERSION_NUMBER}/firmware.v${VERSION_NUMBER}.signed.bin"
+    SIGNED_FILENAME="firmware.v${VERSION_NUMBER}.signed.bin"
+    BUILT_FIRMWARE_PATH="build/bin/firmware.bin"
+    FIRMWARE_PREFIX="firmware"
+fi
+
+echo "Downloading from: $DOWNLOAD_URL"
+wget -O "$SIGNED_FILENAME" "$DOWNLOAD_URL"
+
+# Calculate hash of signed download
+signedHash=$(sha256sum "$SIGNED_FILENAME")
+echo "Hash of signed download: $signedHash"
+
+# Calculate hash of built binary
+builtHash=$(sha256sum "$BUILT_FIRMWARE_PATH")
+echo "Hash of built binary: $builtHash"
+
+# Unpack signed binary
+echo "Unpacking signed binary..."
+head -c 588 "$SIGNED_FILENAME" > p_head.bin
+tail -c +589 "$SIGNED_FILENAME" > p_${FIRMWARE_PREFIX}.bin
+downloadStrippedSigHash=$(sha256sum p_${FIRMWARE_PREFIX}.bin)
+
+# Extract version and calculate device firmware hash
 cat p_head.bin | tail -c +$(( 8 + 6 * 64 + 1 )) | head -c 4 > p_version.bin
-firmwareBytesCount=$(wc -c p_firmware-btc.bin | sed 's/ .*//g')
+firmwareBytesCount=$(wc -c p_${FIRMWARE_PREFIX}.bin | sed 's/ .*//g')
 maxFirmwareSize=884736
 paddingBytesCount=$(( maxFirmwareSize - firmwareBytesCount ))
 dd if=/dev/zero ibs=1 count=$paddingBytesCount 2>/dev/null | tr "\000" "\377" > p_padding.bin
-downloadFirmwareHash=$( cat p_version.bin p_firmware-btc.bin p_padding.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64 )
+downloadFirmwareHash=$( cat p_version.bin p_${FIRMWARE_PREFIX}.bin p_padding.bin | sha256sum | cut -c1-64 | xxd -r -p | sha256sum | cut -c1-64 )
 
-echo "Hashes of
-signed download             $signedHash
-signed download minus sig.  $downloadStrippedSigHash
-built binary                $builtHash
-firmware as shown in device $downloadFirmwareHash
-                           (The latter is a double sha256 over version,
-                            firmware and padding)"
+echo "============================================================"
+echo "Firmware Validation Results:"
+echo "============================================================"
+echo "Signed download:             $signedHash"
+echo "Signed download minus sig:   $downloadStrippedSigHash"
+echo "Built binary:                $builtHash"
+echo "Firmware as shown in device: $downloadFirmwareHash"
+echo "                            (The latter is a double sha256 over version,"
+echo "                             firmware and padding)"
+echo "============================================================"
+
+# Print firmware binary locations
+echo "Local firmware binary created at:"
+echo "$(pwd)/$BUILT_FIRMWARE_PATH"
+
+cd ..
+
+echo "Validation complete."
