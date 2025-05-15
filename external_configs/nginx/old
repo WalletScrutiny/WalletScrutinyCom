@@ -1,0 +1,31 @@
+server {
+    server_name old.walletscrutiny.com;
+    add_header  Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
+    root /home/leo/wsg_old/www;
+    index index.html;
+
+    access_log /var/log/nginx/access_walletscrutiny_old.log;
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    listen 443 ssl http2;
+    ssl_certificate /etc/letsencrypt/live/old.walletscrutiny.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/old.walletscrutiny.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+    server_tokens off;
+    brotli_static on;
+}
+
+server {
+    if ($host = old.walletscrutiny.com) {
+        return 301 https://$host$request_uri;
+    }
+
+    server_name old.walletscrutiny.com;
+    listen 80;
+    return 404;
+}

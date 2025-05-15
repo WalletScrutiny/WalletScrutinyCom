@@ -23,7 +23,12 @@ permalink: /assets/
 <script>
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
-    await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
-    document.getElementById('loadingSpinner').style.display = 'none';
+    try {
+      await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
+    } catch (error) {
+      console.error('Error rendering assets table: ', error);
+    } finally {
+      document.getElementById('loadingSpinner').style.display = 'none';
+    }
   })();
 </script>

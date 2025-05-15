@@ -1,0 +1,36 @@
+server {
+    server_name walletscrutiny.com;
+    add_header Permissions-Policy "interest-cohort=()";
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
+    location /.well-known/nostr.json {
+        add_header Access-Control-Allow-Origin "*";
+    }
+    root /home/leo/wsg;
+    index index.html;
+
+    access_log /var/log/nginx/access_walletscrutiny.log;
+
+    error_page 404 /404.html;
+    location = /404.html {
+        internal;
+    }
+
+    listen 443 ssl http2;
+    ssl_certificate /etc/letsencrypt/live/beta.walletscrutiny.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/beta.walletscrutiny.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+    server_tokens off;
+    brotli_static on;
+}
+
+server {
+    add_header Permissions-Policy "interest-cohort=()";
+    if ($host = walletscrutiny.com) {
+        return 301 https://$host$request_uri;
+    }
+
+    server_name walletscrutiny.com;
+    listen 80;
+    return 404;
+}
