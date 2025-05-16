@@ -153,6 +153,11 @@ custodian:
     incidentHistoryProvided: true   # Reviewed and confirmed
     history: "Multiple security incidents affecting customer accounts"
     incidentHistory:
+      - description: "Cyber criminals bribed overseas support agents to steal customer data affecting <1% of monthly transacting users"
+        date: "May 2025"
+        url: "https://www.coindesk.com/business/2025/05/15/coinbase-says-criminals-stole-customer-data-offers-20m-bug-bounty"
+        severity: "major"            # Significant data breach involving insider threats
+        resolved: true              # Employees terminated, customers reimbursed, security enhanced
       - description: "Third-party bank data exposure affecting 154 customers' transaction data and personal information"
         date: "July 2024"
         url: "https://cybernews.com/news/coinbase-third-party-breach"
@@ -169,7 +174,7 @@ custodian:
         severity: "major"            # Security vulnerability in authentication
         resolved: true              # Vulnerability patched and security enhanced
     sourceIncidents: "https://status.coinbase.com/"
-    lastIncident: "July 2024"
+    lastIncident: "May 2025"
 
   businessModel:
     type: "Exchange & Custody"
