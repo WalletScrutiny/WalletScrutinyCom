@@ -43,21 +43,6 @@ function downloadImageFile (url, iconPath, callback) {
   });
 }
 
-function addReviewArchive (header) {
-  // don't archive undefined or pseudo verdicts
-  if (header.verdict === undefined || 'wip,fewusers,stale,obsolete,defunct'.includes(header.verdict)) {
-    return;
-  }
-  header.reviewArchive = header.reviewArchive || [];
-  header.reviewArchive.unshift({
-    date: header.date,
-    version: header.version,
-    appHash: '',
-    gitRevision: getMasterHead(),
-    verdict: header.verdict
-  });
-}
-
 function getMasterHead () {
   return `${fs.readFileSync('.git/refs/heads/master')}`.trim();
 }
@@ -203,7 +188,6 @@ function writeResult (folder, header, body) {
 
 export default {
   addDefunctIfNew,
-  addReviewArchive,
   checkHeaderKeys,
   dateOrEmpty,
   downloadImageFile,
