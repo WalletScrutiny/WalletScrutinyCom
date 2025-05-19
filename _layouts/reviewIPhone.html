@@ -33,18 +33,8 @@ layout: default
             <i class="i-app-store"></i> App Store
           </a>
 
-          {% if page.version %}
-          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
-              Latest Release: 
-              {{ page.version }}
-                <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
-              {{ page.updated | date_to_long_string: "ordinal" }}
-            </span>
-          </div>
-          {% endif %}
-
+          <div class="secondary-text" id="version-number"></div>
         </div>
-
       </div>
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='iphone' filterPlatform='true' %}

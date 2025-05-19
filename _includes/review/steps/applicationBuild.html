@@ -44,6 +44,16 @@
               enableAttachments: true
             });
 
+            const versionNumberElement = document.getElementById('version-number');
+            if (versionNumberElement) {
+              const versionInfo = getMaxAssetVersion(attestationsInfo);
+              let versionInfoText = '<p>Latest Release: <b>' + versionInfo.lastVersion + '</b> <small>(' + versionInfo.lastVersionDate + ')</small>';
+              if (versionInfo.lastVerifiedVersion !== versionInfo.lastVersion) {
+                versionInfoText += '<br>Last <span style="color: #008000;">Verified Release</span>: <b>' + versionInfo.lastVerifiedVersion + '</b> <small>(' + versionInfo.lastVerifiedVersionDate + ')</small>';
+              }
+              versionNumberElement.innerHTML = versionInfoText + '</p>';
+            }
+
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {
                 document.getElementById('appsTable').style.display = 'none';

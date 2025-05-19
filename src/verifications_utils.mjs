@@ -963,6 +963,61 @@ function doDraftVerificationAction(draftVerificationEventId, action) {
   }
 }
 
+function getMaxAssetVersion(getAllAssetInformationResult) {
+  // Helper to compare semantic versions like "1.2.3"
+  function compareVersions(a, b) {
+    const pa = a.split('.').map(Number);
+    const pb = b.split('.').map(Number);
+    for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+      const na = pa[i] || 0;
+      const nb = pb[i] || 0;
+      if (na > nb) return 1;
+      if (na < nb) return -1;
+    }
+    return 0;
+  }
+
+  let maxVersion = null;
+  let maxDate = null;
+  let verifiedVersion = null;
+  let verifiedDate = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.info.verifications.values(), ...getAllAssetInformationResult.info.assets.values()];
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const versionTag = asset.tags.find(tag => tag[0] === 'version');
+      if (versionTag) {
+        const version = versionTag[1];
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          maxVersion = version;
+          maxDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+
+        const verifiedVersionTag = asset.tags.find(tag => tag[0] === 'status' && tag[1] === 'reproducible');
+        if (verifiedVersionTag && (!verifiedVersion || compareVersions(version, verifiedVersion) > 0)) {
+          verifiedVersion = version;
+          verifiedDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    lastVersion: maxVersion,
+    lastVersionDate: maxDate,
+    lastVerifiedVersion: verifiedVersion,
+    lastVerifiedVersionDate: verifiedDate
+  };
+}
+
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
@@ -989,6 +1044,7 @@ if (typeof window !== 'undefined') {
   window.uploadFileAttachment = uploadFileAttachment;
   window.getFileAttachmentEvents = getFileAttachmentEvents;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
+  window.getMaxAssetVersion = getMaxAssetVersion;
 }
 
 export {
@@ -1018,5 +1074,6 @@ export {
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
   getFileAttachmentEvents,
-  getAllAttachmentsForAppId
+  getAllAttachmentsForAppId,
+  getMaxAssetVersion
 };
