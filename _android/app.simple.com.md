@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-13
 signer: 
-reviewArchive: 
 twitter: smpl_app
 social:
 - https://t.me/smpl_app

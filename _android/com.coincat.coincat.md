@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: Coincat_in
 social:
 - https://vk.com/coincat

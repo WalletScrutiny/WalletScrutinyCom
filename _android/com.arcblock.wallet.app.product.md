@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-06
 signer: 
-reviewArchive: 
 twitter: ArcBlock_io
 social:
 - https://t.me/ArcBlock

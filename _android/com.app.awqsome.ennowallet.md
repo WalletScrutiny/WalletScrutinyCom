@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-17
 signer: 
-reviewArchive: 
 twitter: ennowallet
 social:
 - https://www.facebook.com/EnnoWallet/

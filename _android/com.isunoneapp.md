@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: isunone1
 social: 
 redirect_from: 

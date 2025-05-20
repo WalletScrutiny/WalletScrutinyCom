@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: Xerium3
 social:
 - https://www.facebook.com/Xerium

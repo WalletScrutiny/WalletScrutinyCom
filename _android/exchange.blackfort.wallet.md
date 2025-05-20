@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-10-22
 signer: 
-reviewArchive: 
 twitter: BlackFort_Tech
 social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange

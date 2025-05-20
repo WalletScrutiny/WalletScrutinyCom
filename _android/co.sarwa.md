@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-28
 signer: 
-reviewArchive: 
 twitter: SarwaCo
 social:
 - https://www.facebook.com/SarwaSocial

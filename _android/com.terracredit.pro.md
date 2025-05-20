@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: terrabitcrypto
 social: 
 redirect_from: 

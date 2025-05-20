@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: koinal_io
 social:
 - https://www.linkedin.com/company/koinal-io

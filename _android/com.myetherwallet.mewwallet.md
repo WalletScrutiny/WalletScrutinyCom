@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-02-05
 signer: 
-reviewArchive: 
 twitter: myetherwallet
 social:
 - https://www.linkedin.com/company/myetherwallet

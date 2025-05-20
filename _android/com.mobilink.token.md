@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-30
 signer: 
-reviewArchive: 
 twitter: mobilinkcoin
 social: 
 redirect_from: 

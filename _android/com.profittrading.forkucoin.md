@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-20
 signer: 
-reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp

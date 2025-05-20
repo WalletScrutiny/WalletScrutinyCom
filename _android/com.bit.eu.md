@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-28
 signer: 
-reviewArchive: 
 twitter: BiteeuExchange
 social:
 - https://www.linkedin.com/company/biteeu

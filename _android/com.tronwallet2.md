@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-01-15
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

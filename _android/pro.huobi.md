@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial

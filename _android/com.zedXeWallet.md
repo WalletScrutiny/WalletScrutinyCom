@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-12
 signer: 
-reviewArchive: 
 twitter: Zed_Xe
 social:
 - https://www.facebook.com/ZedXe

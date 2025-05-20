@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-21
 signer: 
-reviewArchive: 
 twitter: happydelio
 social:
 - https://www.facebook.com/delio.io

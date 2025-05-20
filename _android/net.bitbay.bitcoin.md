@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-25
 signer: 
-reviewArchive: 
 twitter: BitBay
 social:
 - https://www.linkedin.com/company/bitbay

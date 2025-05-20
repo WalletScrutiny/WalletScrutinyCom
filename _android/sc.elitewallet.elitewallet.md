@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-07-10
 signer: 
-reviewArchive: 
 twitter: EliteWallet
 social:
 - https://t.me/elite_wallet

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: bitcoin_asia
 social:
 - https://www.facebook.com/BitcoinAsia.Token/

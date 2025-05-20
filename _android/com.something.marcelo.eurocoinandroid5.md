@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-29
 signer: 
-reviewArchive: 
 twitter: eurocoinpay
 social:
 - https://t.me/eurocoinpay_io

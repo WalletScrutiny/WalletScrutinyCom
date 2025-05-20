@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: clubkonnect247
 social:
 - https://www.facebook.com/clubkonnect247

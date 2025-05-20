@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2020-03-20
 signer: 
-reviewArchive: 
 twitter: bitlish_com
 social:
 - https://www.linkedin.com/company/bitlish

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: XGo_official
 social:
 - https://t.me/+Z536yScjjQg0NzE0

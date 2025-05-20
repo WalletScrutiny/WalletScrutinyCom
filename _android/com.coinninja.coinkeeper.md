@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-07-21
 signer: 
-reviewArchive: 
 twitter: dropbitapp
 social:
 - https://www.facebook.com/DropBit-2094204254174419

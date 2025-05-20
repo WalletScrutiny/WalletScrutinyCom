@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: BalletCrypto
 social:
 - https://www.linkedin.com/company/balletcrypto

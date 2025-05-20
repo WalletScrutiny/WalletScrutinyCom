@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-02
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitoex

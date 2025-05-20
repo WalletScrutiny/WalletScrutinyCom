@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: DefexaCrypto
 social:
 - https://discord.com/invite/JaSnYuXYS5

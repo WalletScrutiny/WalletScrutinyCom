@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: oobit
 social:
 - https://t.me/OObit

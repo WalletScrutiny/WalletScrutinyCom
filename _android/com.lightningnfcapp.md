@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-04-04
 signer: 
-reviewArchive: 
 twitter: ones_and_zeroz
 social:
 - https://www.linkedin.com/company/ones-and-zeros-technology-limited

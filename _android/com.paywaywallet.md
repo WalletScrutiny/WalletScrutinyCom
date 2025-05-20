@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-21
 signer: 
-reviewArchive: 
 twitter: pay_way
 social:
 - https://www.facebook.com/paywayuganda

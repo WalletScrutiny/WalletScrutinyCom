@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-05
 signer: 
-reviewArchive: 
 twitter: abbcfoundation
 social:
 - https://www.linkedin.com/company/abbcfoundation

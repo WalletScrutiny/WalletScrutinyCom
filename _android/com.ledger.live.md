@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2020-11-17
 signer: 
-reviewArchive: 
 twitter: Ledger
 social:
 - https://www.linkedin.com/company/ledgerhq

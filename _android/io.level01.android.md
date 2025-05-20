@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: level01io
 social:
 - https://www.facebook.com/level01platform

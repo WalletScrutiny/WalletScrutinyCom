@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-14
 signer: 
-reviewArchive: 
 twitter: powertradehq
 social: 
 redirect_from: 

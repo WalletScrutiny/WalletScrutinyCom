@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-03
 signer: 
-reviewArchive: 
 twitter: Arzifofficial
 social: 
 redirect_from: 

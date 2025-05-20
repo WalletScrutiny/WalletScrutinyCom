@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: ettawallet
 social: 
 redirect_from: 

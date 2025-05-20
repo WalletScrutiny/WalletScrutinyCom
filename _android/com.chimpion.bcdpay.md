@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: chimpionio
 social:
 - https://www.facebook.com/Chimpionio/

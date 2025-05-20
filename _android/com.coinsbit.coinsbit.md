@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: c0insbit
 social:
 - https://t.me/coinsbit_chat

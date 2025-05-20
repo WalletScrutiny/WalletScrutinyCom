@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: bigomexofficial
 social:
 - https://www.linkedin.com/company/bigomex-bigomex-6225b81b2

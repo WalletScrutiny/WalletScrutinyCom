@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-29
 signer: 
-reviewArchive: 
 twitter: KeystoneWallet
 social:
 - https://github.com/KeystoneHQ

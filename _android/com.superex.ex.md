@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-31
 signer: 
-reviewArchive: 
 twitter: SuperExet
 social:
 - https://www.facebook.com/superexdex

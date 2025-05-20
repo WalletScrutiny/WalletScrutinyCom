@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2025-03-10
 signer: 
-reviewArchive: 
 twitter: Cypher_Box
 social:
 - https://t.me/cypher_box

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: Kifpoolme
 social:
 - https://kifpool.me

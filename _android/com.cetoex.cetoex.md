@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: Cetoex
 social:
 - https://t.me/CetoEXExchange

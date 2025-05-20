@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-26
 signer: 
-reviewArchive: 
 twitter: PointPay1
 social:
 - https://www.linkedin.com/company/pointpay

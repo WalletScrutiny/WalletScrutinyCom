@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: CtsKola
 social:
 - https://t.me/+ubgDH4F2B-ZiMDVl

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: emcd_io
 social:
 - https://t.me/emcd_community

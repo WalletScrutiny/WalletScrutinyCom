@@ -22,12 +22,6 @@ verdict: fake
 appHashes: []
 date: 2021-07-26
 signer: 
-reviewArchive:
-- date: 2021-06-04
-  version: 1.0.1.4.5
-  appHashes: []
-  gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
-  verdict: obfuscated
 twitter: 
 social: 
 redirect_from: 

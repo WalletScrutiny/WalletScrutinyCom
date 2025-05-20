@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-30
 signer: 
-reviewArchive: 
 twitter: cropty_app
 social:
 - https://www.youtube.com/@croptytv

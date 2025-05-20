@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-06-01
 signer: 
-reviewArchive: 
 twitter: ngrave_official
 social:
 - https://www.facebook.com/ngrave.io

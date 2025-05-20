@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-14
 signer: 
-reviewArchive: 
 twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru

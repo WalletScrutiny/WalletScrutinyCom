@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal

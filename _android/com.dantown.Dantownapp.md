@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-21
 signer: 
-reviewArchive: 
 twitter: godantown
 social: 
 redirect_from: 

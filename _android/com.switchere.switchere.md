@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-19
 signer: 
-reviewArchive: 
 twitter: Switchere_com
 social:
 - https://www.facebook.com/switchere.official

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-20
 signer: 
-reviewArchive: 
 twitter: xwg_games
 social:
 - https://medium.com/x-world-games

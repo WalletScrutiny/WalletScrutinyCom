@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: xensor_iot
 social: 
 redirect_from: 

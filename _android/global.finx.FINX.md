@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-11-29
 signer: 
-reviewArchive: 
 twitter: FINXSupport
 social:
 - https://medium.com/@FINXGlobal

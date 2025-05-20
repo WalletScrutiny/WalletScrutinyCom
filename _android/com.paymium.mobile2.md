@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-03
 signer: 
-reviewArchive: 
 twitter: paymium
 social:
 - https://www.linkedin.com/company/paymium

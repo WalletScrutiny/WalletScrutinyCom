@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: ZipmexTH
 social:
 - https://www.facebook.com/ZipmexThailand

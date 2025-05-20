@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-10-09
 signer: 
-reviewArchive: 
 twitter: CoinPayU
 social:
 - https://www.facebook.com/coinpayu

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-03
 signer: 
-reviewArchive: 
 twitter: BitkapO
 social:
 - https://www.linkedin.com/company/limitlesstech237

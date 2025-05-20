@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: youniqx
 social:
 - https://www.facebook.com/YOUNIQXbyOeSD

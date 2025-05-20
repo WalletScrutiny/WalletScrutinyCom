@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: bit2me
 social:
 - https://www.linkedin.com/company/bit2me

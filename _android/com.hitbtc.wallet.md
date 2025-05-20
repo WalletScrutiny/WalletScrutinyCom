@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-15
 signer: 
-reviewArchive: 
 twitter: hitbtc
 social:
 - https://www.facebook.com/hitbtc

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: CoinSwitchKuber
 social:
 - https://www.linkedin.com/company/coinswitch

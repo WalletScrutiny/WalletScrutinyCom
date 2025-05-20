@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-14
 signer: 
-reviewArchive: 
 twitter: BitGo
 social:
 - https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-28
 signer: 
-reviewArchive: 
 twitter: 8vGlobal
 social:
 - https://www.facebook.com/8V.Global

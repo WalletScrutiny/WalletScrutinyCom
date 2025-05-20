@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: paperwallettop
 social: 
 redirect_from: 

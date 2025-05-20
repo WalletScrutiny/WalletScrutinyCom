@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-10-12
 signer: 
-reviewArchive: 
 twitter: paxful
 social:
 - https://www.facebook.com/paxful

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: neteller
 social:
 - https://www.facebook.com/NETELLER

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-03-15
 signer: 
-reviewArchive: 
 twitter: binance
 social:
 - https://www.facebook.com/binance

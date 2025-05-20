@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-23
 signer: 
-reviewArchive: 
 twitter: SystemAvacus
 social:
 - https://t.me/joinchat/QW-3ZVRlSgUs1ItWCQj7AQ

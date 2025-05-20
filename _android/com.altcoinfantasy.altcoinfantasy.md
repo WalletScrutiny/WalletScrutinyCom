@@ -24,7 +24,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: altcoinfantasy
 social:
 - https://www.facebook.com/altcoinfantasy

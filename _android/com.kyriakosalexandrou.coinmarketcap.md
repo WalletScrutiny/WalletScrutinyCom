@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-16
 signer: 
-reviewArchive: 
 twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp

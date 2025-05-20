@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-28
 signer: 
-reviewArchive: 
 twitter: StealthEX_io
 social:
 - https://www.youtube.com/channel/UCeES_XBesX76ge7xf1meuSw

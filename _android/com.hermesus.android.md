@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: hermesus_us
 social: 
 redirect_from: 

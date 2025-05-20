@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-28
 signer: 
-reviewArchive: 
 twitter: Atani_Official
 social:
 - https://www.linkedin.com/company/atani

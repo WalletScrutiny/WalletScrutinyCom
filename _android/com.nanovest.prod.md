@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-03
 signer: 
-reviewArchive: 
 twitter: nanovest_io
 social:
 - https://www.facebook.com/nanovest

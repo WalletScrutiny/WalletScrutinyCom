@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: Unocoin
 social:
 - https://www.linkedin.com/company/unocoin

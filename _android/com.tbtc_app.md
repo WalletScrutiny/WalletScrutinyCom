@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: thebtcco
 social:
 - https://www.facebook.com/thebtcco

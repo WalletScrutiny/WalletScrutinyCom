@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: zam_io
 social:
 - https://www.linkedin.com/company/11770701

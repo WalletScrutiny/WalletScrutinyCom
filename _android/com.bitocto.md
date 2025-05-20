@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: bitoctoexchange
 social:
 - https://www.linkedin.com/company/bitocto

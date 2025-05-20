@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-28
 signer: 
-reviewArchive: 
 twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices

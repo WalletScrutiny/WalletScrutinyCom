@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: RealTPlatform
 social:
 - https://www.linkedin.com/company/realtplatform

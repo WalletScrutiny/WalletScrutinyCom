@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: BTCEX_exchange
 social:
 - https://www.reddit.com/user/BTCEX_exchange

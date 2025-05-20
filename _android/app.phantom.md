@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: phantom
 social:
 - https://www.reddit.com/r/phantom/

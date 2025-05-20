@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2021-11-30
 signer: 
-reviewArchive: 
 twitter: daoconsensus
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-05-30
 signer: 
-reviewArchive: 
 twitter: CENTURION_INVST
 social:
 - https://t.me/centurioninvestgroup

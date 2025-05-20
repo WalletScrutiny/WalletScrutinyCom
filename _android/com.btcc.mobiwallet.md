@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-12-22
 signer: 
-reviewArchive: 
 twitter: mobimeglobal
 social:
 - https://www.facebook.com/mobimeglobal

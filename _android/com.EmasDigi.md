@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

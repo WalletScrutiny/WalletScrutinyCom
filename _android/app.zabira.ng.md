@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-17
 signer: 
-reviewArchive: 
 twitter: thezabira
 social:
 - https://www.facebook.com/thezabira

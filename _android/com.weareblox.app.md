@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: weareblox
 social:
 - https://www.linkedin.com/company/weareblox

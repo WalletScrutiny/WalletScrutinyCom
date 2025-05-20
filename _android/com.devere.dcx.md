@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-04-10
 signer: 
-reviewArchive: 
 twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070

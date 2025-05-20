@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-19
 signer: 
-reviewArchive: 
 twitter: CoinTRTurkiye
 social:
 - https://t.me/CoinTRTurkiye
