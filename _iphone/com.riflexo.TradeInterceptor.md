@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: ThinkMarketscom
 social:
 - https://www.linkedin.com/company/thinkmarkets

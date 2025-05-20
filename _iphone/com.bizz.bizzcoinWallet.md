@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: bizz_coin
 social:
 - https://www.facebook.com/BizzCoinOfficial

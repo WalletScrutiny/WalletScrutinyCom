@@ -28,7 +28,6 @@ verdict: wip
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: id3services
 social:
 - https://www.linkedin.com/company/id-3-services-limited/

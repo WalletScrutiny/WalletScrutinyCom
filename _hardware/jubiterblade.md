@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2021-12-12
 signer: 
-reviewArchive: 
 twitter: JuBiterWallet
 social:
 - https://www.linkedin.com/company/jubiter-wallet

@@ -31,31 +31,6 @@ appHashes:
 - 518ad41643ee8a0aa6a6422f8534ac94f56cd65bc637aea4db7f3fdbb53255c3
 date: 2024-05-10
 signer: 
-reviewArchive:
-- date: 2024-05-10
-  version: 7.9.3
-  appHashes:
-  - 24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137
-  gitRevision: be5f9df23562d45de56c97b023d975e7fb636d2d
-  verdict: reproducible
-- date: 2023-05-25
-  version: 7.8.0
-  appHashes:
-  - 31c1cdd945a7331e01b3cced866cb28add5b49eef87c2bbc08370e5aa7daf9bf
-  gitRevision: 191d84904d55d79a68e06b7883218d4fd2fbfaea
-  verdict: nonverifiable
-- date: 2022-08-07
-  version: 7.2.1
-  appHashes:
-  - c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff
-  gitRevision: 4d17758721800cfb909014c9a158065de16cc6d3
-  verdict: reproducible
-- date: 2021-07-31
-  version: 7.1.7
-  appHashes:
-  - 2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594
-  gitRevision: a85e2c7f21cf7c56d050ae09b4053e00c989e8c0
-  verdict: reproducible
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform

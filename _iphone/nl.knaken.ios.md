@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: knaken_eu
 social:
 - https://www.facebook.com/knakeneu

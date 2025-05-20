@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: FUNCTIONX_IO
 social:
 - https://www.linkedin.com/company/functionx

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: FIAHUBVN
 social:
 - https://www.facebook.com/FiahubVN

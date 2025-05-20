@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: goTenna
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-02
 signer: 
-reviewArchive: 
 twitter: prizmbit
 social:
 - https://www.facebook.com/prizmbit

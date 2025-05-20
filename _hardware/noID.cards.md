@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2024-01-05
 signer: 
-reviewArchive: 
 twitter: noidcards
 social:
 - >-

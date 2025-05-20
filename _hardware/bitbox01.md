@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-17
 signer: 
-reviewArchive: 
 twitter: ShiftCryptoHQ
 social:
 - https://www.facebook.com/Shiftcrypto

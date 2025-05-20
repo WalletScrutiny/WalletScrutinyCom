@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-06
 signer: 
-reviewArchive: 
 twitter: obsidiamlatam
 social:
 - https://www.facebook.com/obsidiamexchange

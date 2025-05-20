@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-10
 signer: 
-reviewArchive: 
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-30
 signer: 
-reviewArchive: 
 twitter: xapobankapp
 social:
 - https://www.linkedin.com/company/xapobankapp

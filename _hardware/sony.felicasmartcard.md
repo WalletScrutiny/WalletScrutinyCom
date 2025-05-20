@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2023-09-30
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

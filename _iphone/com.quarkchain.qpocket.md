@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-12-26
 signer: 
-reviewArchive: 
 twitter: qPocket_wallet
 social: 
 features: 

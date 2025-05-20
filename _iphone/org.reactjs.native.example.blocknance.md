@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-18
 signer: 
-reviewArchive: 
 twitter: blocknanceATM
 social:
 - https://blockchain.com.do

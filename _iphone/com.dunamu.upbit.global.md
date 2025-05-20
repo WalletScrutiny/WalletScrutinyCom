@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-30
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/upbit-official

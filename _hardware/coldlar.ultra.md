@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-16
 signer: 
-reviewArchive: 
 twitter: Coldlar
 social: 
 features: 

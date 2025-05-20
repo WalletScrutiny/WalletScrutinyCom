@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: diviproject
 social:
 - https://www.facebook.com/diviproject

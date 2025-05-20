@@ -28,7 +28,6 @@ verdict: plainkey
 appHashes: 
 date: 2025-02-06
 signer: 
-reviewArchive: 
 twitter: satochipwallet
 social:
 - https://www.linkedin.com/company/satochip/

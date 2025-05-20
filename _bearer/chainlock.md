@@ -24,7 +24,6 @@ meta: ok
 verdict: prefilled
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: youniqx
 social:
 - https://www.linkedin.com/company/youniqx-identity-ag

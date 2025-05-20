@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: WallacyWallet
 social:
 - https://www.facebook.com/Wallacy.io

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-31
 signer: 
-reviewArchive: 
 twitter: coinexcom
 social:
 - https://www.facebook.com/TheCoinEx

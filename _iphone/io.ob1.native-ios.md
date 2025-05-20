@@ -21,7 +21,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-01-15
 signer: 
-reviewArchive: 
 twitter: HavenPrivacy
 social:
 - https://www.reddit.com/r/havenapp

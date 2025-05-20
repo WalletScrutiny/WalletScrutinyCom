@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-03-23
 signer: 
-reviewArchive: 
 twitter: _vault12_
 social:
 - https://www.facebook.com/GetVault12/

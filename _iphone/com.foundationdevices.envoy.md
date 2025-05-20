@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-01-02
 signer: 
-reviewArchive: 
 twitter: FOUNDATIONdvcs
 social:
 - https://foundationdevices.com

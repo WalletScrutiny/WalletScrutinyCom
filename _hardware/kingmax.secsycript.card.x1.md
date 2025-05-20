@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: KINGMAX_tweet
 social:
 - https://www.facebook.com/kingmax.global/

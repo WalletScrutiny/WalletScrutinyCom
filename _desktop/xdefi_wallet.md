@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: nosource
 date: 2024-05-09
-reviewArchive: 
 twitter: xdefi_wallet
 social: 
 features: 

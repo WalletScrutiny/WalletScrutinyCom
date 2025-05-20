@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: keep_stick
 social:
 - https://www.linkedin.com/company/keep-stick/

@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: iSafePal
 social:
 - https://www.youtube.com/channel/UCfqztNiZWV62Eu9kiqKf6WQ

@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: studentcoinorg
 social:
 - https://www.linkedin.com/company/student-coin-worldwide

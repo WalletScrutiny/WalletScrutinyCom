@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-17
 signer: 
-reviewArchive: 
 twitter: CointreeAus
 social:
 - https://www.linkedin.com/company/cointree

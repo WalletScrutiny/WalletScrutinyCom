@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-11-21
 signer: 
-reviewArchive: 
 twitter: TradeAries
 social:
 - https://www.linkedin.com/company/tradearies

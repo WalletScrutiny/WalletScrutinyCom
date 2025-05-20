@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-29
 signer: 
-reviewArchive: 
 twitter: CobakOfficial
 social:
 - https://www.linkedin.com/company/cobak

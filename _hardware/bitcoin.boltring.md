@@ -26,12 +26,6 @@ verdict: nowallet
 appHashes: []
 date: 2023-12-11
 signer: 
-reviewArchive:
-- date: 2023-02-07
-  version: 
-  appHashes: []
-  gitRevision: 77948be1370e50d2b79fdd154ace87768fbe27c1
-  verdict: unreleased
 twitter: bitcoin_ring
 social:
 - https://www.youtube.com/@BitcoinRing

@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-04
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/GCMASIA.Forex.Trading.Platform

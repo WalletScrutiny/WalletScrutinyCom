@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-28
 signer: 
-reviewArchive: 
 twitter: iconomicom
 social:
 - https://www.linkedin.com/company/iconominet

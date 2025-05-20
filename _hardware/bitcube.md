@@ -26,7 +26,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: BitCubeWallet
 social:
 - https://www.facebook.com/bitcubewallet

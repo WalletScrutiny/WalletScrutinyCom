@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: FinanceChainge
 social:
 - https://www.linkedin.com/company/chainge-finance

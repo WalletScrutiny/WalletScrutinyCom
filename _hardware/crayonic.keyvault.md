@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-28
 signer: 
-reviewArchive: 
 twitter: crayonic_com
 social:
 - https://www.linkedin.com/company/crayonic/

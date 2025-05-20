@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: OrgTabank
 social:
 - https://www.facebook.com/tabank.org

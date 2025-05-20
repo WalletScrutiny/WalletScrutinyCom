@@ -25,7 +25,6 @@ verdict: wip
 appHashes: 
 date: 2023-04-06
 signer: 
-reviewArchive: 
 twitter: dorjwa
 social:
 - https://t.me/dorjwa

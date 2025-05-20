@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-18
 signer: 
-reviewArchive: 
 twitter: Coinyexdotcom
 social:
 - https://t.me/coinyexchannel

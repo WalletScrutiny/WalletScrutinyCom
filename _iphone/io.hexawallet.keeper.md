@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2025-02-12
 signer: 
-reviewArchive: 
 twitter: bitcoinKeeper_
 social:
 - https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ

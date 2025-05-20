@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2023-11-15
 signer: 
-reviewArchive: 
 twitter: cryptnox
 social: 
 features: 

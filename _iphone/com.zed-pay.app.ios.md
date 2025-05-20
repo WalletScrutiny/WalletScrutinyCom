@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: ZedPayCo
 social:
 - https://www.linkedin.com/company/zedpaycompany

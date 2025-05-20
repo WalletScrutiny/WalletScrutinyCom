@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: THORWalletDEX
 social:
 - https://t.me/THORWalletOfficial

@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: WXNetwork
 social:
 - https://waves.exchange

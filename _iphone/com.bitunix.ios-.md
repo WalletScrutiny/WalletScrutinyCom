@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: BitunixOfficial
 social:
 - https://t.me/bitunixglobal

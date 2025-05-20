@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: pier_wallet
 social:
 - https://www.linkedin.com/company/pierwallet

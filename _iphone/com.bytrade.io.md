@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: bytradeio
 social:
 - https://www.facebook.com/bytrade.io

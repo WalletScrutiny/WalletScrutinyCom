@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-10-02
 signer: 
-reviewArchive: 
 twitter: cryptorefills
 social:
 - https://www.instagram.com/cryptorefillsofficial/

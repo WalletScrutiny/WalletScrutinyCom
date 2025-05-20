@@ -26,7 +26,6 @@ verdict: vapor
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx

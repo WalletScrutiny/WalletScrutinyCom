@@ -24,7 +24,6 @@ meta: ok
 verdict: prefilled
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: crptsecure
 social:
 - https://www.facebook.com/crptsecure/

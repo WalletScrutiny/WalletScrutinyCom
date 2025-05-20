@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: unreleased
 date: 2024-04-25
-reviewArchive: 
 twitter: DuxReserve
 social:
 - https://linkedin.com/company/duxreserve

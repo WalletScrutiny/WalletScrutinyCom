@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet

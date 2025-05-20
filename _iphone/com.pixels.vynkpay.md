@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: vynkgroup
 social:
 - https://vynkpay.app

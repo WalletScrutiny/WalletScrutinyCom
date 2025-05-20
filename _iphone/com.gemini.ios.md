@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-01-04
 signer: 
-reviewArchive: 
 twitter: gemini
 social:
 - https://www.linkedin.com/company/geminitrust

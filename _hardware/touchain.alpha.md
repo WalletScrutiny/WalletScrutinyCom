@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2023-03-03
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/TouChain_NFT

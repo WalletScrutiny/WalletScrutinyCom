@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-10
 signer: 
-reviewArchive: 
 twitter: isunone1
 social:
 - https://www.linkedin.com/company/isunone

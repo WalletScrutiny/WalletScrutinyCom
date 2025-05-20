@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-01-06
 signer: 
-reviewArchive: 
 twitter: zondaglobal
 social:
 - https://www.linkedin.com/company/zondaglobal/

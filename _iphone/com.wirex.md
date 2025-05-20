@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited

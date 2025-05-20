@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: CorporationGhb
 social:
 - http://ghbwallet.com

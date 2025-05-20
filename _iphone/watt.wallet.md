@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: watt_me_token
 social:
 - https://t.me/watt_me

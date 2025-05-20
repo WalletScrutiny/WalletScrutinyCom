@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-10-16
 signer: 
-reviewArchive: 
 twitter: A4Finance
 social:
 - https://discord.com/invite/spexy

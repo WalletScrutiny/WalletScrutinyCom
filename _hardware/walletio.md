@@ -29,7 +29,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: io_wallet
 social:
 - https://medium.com/@walletio

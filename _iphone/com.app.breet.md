@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: breetapp
 social:
 - https://www.facebook.com/breetapp

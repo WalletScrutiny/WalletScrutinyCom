@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: keywallet
 social:
 - https://www.facebook.com/KeyWallet-115870833116672/

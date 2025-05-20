@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: capitual
 social:
 - https://www.instagram.com/capitual/

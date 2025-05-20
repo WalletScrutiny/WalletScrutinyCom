@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: salletone
 social:
 - https://www.facebook.com/salletone

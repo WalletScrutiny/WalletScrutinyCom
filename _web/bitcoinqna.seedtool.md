@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2025-04-23
-reviewArchive: 
 twitter: BitcoinQ_A
 social: 
 features: 

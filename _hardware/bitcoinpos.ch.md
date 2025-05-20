@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: bitcoin_pos
 social:
 - https://www.instagram.com/bitcoinpos/

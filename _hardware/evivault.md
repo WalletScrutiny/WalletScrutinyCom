@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-02
 signer: 
-reviewArchive: 
 twitter: EviVault
 social: 
 features: 

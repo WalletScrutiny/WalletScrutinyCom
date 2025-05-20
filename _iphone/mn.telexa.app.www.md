@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-10-28
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/Telexa.mn/

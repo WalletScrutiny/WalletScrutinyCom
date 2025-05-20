@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2021-12-10
 signer: 
-reviewArchive: 
 twitter: bc_vault
 social:
 - https://www.linkedin.com/company/bcvault

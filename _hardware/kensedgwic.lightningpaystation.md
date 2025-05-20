@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-21
 signer: 
-reviewArchive: 
 twitter: ksedgwic
 social:
 - https://keybase.io/ksedgwic

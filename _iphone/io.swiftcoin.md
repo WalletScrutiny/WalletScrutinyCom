@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: SwiftCoin380
 social:
 - https://swiftcoin.io

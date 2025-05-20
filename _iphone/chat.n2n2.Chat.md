@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: get_zion
 social:
 - https://www.instagram.com/get_zion

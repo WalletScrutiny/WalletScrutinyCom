@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: ctrl_wallet
 social:
 - https://discord.gg/ctrlwallet

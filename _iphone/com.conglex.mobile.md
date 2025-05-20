@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-06
 signer: 
-reviewArchive: 
 twitter: conglexglobal
 social:
 - https://www.linkedin.com/company/conglex-nigeria/

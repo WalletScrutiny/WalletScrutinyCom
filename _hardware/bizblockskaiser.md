@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2023-01-20
 signer: 
-reviewArchive: 
 twitter: bizblocks7
 social:
 - https://www.facebook.com/kaiserwallet

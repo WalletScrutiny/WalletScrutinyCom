@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-14
 signer: 
-reviewArchive: 
 twitter: Seki_APP
 social:
 - https://www.linkedin.com/company/sekiapp

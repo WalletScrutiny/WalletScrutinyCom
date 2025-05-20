@@ -24,7 +24,6 @@ meta: defunct
 verdict: sealed-plainkey
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: myCryptoVAULTne
 social:
 - https://www.facebook.com/Crypto-Vault-1607275746177425/

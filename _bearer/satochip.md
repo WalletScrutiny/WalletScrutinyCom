@@ -28,7 +28,6 @@ meta: ok
 verdict: sealed-noita
 date: 2022-11-03
 signer: 
-reviewArchive: 
 twitter: satochipwallet
 social:
 - https://www.linkedin.com/company/satochip

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://alfwallet.io

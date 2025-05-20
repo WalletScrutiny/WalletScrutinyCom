@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-15
 signer: 
-reviewArchive: 
 twitter: tokoinindonesia
 social:
 - https://www.facebook.com/tokoinindonesia

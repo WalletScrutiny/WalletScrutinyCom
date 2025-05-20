@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: FlitsNode
 social:
 - https://www.facebook.com/flitsnode
