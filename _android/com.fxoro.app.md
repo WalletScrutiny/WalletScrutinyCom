@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-08-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/people/FXORO-India/100087993320592

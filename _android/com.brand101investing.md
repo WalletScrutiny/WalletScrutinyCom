@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-04-07
 signer: 
-reviewArchive: 
 twitter: 101Investing_eu
 social:
 - https://www.linkedin.com/company/73520735

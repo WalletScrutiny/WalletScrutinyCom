@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: SimpleHold
 social:
 - https://t.me/simplehold_io

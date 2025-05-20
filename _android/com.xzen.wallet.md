@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-15
 signer: 
-reviewArchive: 
 twitter: XZENwallet
 social:
 - https://www.facebook.com/xzenwallet

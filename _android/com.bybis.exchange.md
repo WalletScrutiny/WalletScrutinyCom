@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: ByBIS_Official
 social:
 - https://www.facebook.com/bybisofficial

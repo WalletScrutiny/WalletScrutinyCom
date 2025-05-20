@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-24
 signer: 
-reviewArchive: 
 twitter: ctrl_wallet
 social:
 - https://discord.gg/ctrlwallet

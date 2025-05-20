@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-17
 signer: 
-reviewArchive: 
 twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid

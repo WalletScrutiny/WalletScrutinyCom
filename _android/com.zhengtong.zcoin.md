@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: ZT_exchange
 social:
 - https://www.facebook.com/ZT.exchange

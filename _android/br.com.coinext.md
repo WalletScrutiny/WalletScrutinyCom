@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: coinext_oficial
 social:
 - https://www.linkedin.com/company/coinext

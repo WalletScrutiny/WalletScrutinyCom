@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-31
 signer: 
-reviewArchive: 
 twitter: deribitexchange
 social:
 - https://www.linkedin.com/company/deribit/

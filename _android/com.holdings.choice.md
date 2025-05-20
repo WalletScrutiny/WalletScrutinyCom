@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: choicebyKT
 social:
 - https://www.instagram.com/choiceapp.io

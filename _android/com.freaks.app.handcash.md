@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2019-12-25
 signer: 
-reviewArchive: 
 twitter: handcashapp
 social: 
 redirect_from:

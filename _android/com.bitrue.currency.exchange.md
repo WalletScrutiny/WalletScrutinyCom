@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-11-17
 signer: 
-reviewArchive: 
 twitter: BitrueOfficial
 social:
 - https://www.facebook.com/BitrueOfficial

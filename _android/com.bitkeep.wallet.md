@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep

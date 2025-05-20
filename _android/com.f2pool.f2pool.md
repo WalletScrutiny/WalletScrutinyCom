@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: F2Pool_Official
 social:
 - https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: SafestMasterKey
 social: 
 redirect_from: 

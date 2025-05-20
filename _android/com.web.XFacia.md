@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-17
 signer: 
-reviewArchive: 
 twitter: XfaciaXchange
 social:
 - https://www.facebook.com/XFACIAXCHANGE

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-25
 signer: 
-reviewArchive: 
 twitter: Barchart
 social:
 - https://www.linkedin.com/company/barchart.com-inc.

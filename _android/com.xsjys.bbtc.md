@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-07-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/cd_exglobal

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-06-07
 signer: 
-reviewArchive: 
 twitter: rockwallet
 social:
 - https://www.facebook.com/rockwalletofficial

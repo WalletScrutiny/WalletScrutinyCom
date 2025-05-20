@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: AquaBitcoin
 social:
 - https://www.instagram.com/aquabitcoin

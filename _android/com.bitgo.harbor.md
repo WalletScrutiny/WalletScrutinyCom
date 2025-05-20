@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-26
 signer: 
-reviewArchive: 
 twitter: BitGo
 social:
 - https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg

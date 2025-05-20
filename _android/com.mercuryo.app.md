@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-11-17
 signer: 
-reviewArchive: 
 twitter: Mercuryo_io
 social:
 - https://www.linkedin.com/company/mercuryo-io

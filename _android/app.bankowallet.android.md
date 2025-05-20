@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-10
 signer: 
-reviewArchive: 
 twitter: BankoWallet1
 social:
 - mailto:support@bankowallet.com

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: coindirectcom
 social:
 - https://www.linkedin.com/company/coindirect

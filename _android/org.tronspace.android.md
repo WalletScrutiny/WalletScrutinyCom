@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-27
 signer: 
-reviewArchive: 
 twitter: Kointrack_tech
 social:
 - https://www.instagram.com/kointrack

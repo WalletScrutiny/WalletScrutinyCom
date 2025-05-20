@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: KamixApp
 social:
 - https://www.linkedin.com/company/kamixapp

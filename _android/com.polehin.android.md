@@ -23,17 +23,6 @@ verdict: obfuscated
 appHashes: []
 date: 2024-03-02
 signer: 
-reviewArchive:
-- date: 2020-03-30
-  version: 3.1.4
-  appHashes: []
-  gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
-  verdict: custodial
-- date: 2019-11-22
-  version: 3.1.4
-  appHashes: []
-  gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
-  verdict: nosource
 twitter: polehincom
 social:
 - https://www.facebook.com/polehincom

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-10
 signer: 
-reviewArchive: 
 twitter: GoodCryptoApp
 social:
 - https://www.linkedin.com/company/goodcrypto

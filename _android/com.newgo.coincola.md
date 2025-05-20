@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-03
 signer: 
-reviewArchive: 
 twitter: CoinCola_Global
 social:
 - https://www.linkedin.com/company/coincola

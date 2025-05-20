@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-04
 signer: 
-reviewArchive: 
 twitter: useaccrue
 social:
 - https://www.instagram.com/useaccrue/

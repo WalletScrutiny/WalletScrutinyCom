@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-13
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/amarkets

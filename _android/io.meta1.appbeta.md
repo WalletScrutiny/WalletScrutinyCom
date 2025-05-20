@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-09
 signer: 
-reviewArchive: 
 twitter: META1Coin
 social:
 - https://www.facebook.com/meta1coin

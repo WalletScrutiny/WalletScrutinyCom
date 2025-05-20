@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-12-09
 signer: 
-reviewArchive: 
 twitter: obiexfinance
 social:
 - https://www.facebook.com/obiexfinance

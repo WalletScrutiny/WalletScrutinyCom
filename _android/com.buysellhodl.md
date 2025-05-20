@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: BuySellHodlApp
 social:
 - https://www.facebook.com/groups/buysellhodl

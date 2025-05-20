@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-31
 signer: 
-reviewArchive: 
 twitter: optherium
 social:
 - https://optherium.com

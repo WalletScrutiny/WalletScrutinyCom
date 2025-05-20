@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-10
 signer: 
-reviewArchive: 
 twitter: getbabb
 social:
 - https://www.linkedin.com/company/babb

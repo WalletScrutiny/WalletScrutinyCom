@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-07
 signer: 
-reviewArchive: 
 twitter: ari10com
 social:
 - https://www.instagram.com/senexpay

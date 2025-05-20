@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: chiliz
 social:
 - https://www.facebook.com/Chilizdotcom

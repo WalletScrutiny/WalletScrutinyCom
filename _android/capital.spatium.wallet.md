@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: spatium_news
 social:
 - https://www.linkedin.com/company/spatium-capital

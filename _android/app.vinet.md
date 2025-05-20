@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/vinetexchange

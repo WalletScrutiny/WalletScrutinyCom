@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2021-08-09
 signer: 
-reviewArchive: 
 twitter: GetVegaApp
 social: 
 redirect_from:

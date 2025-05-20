@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: KinesisMonetary
 social:
 - https://www.linkedin.com/company/kinesismoney

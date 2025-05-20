@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: blocknanceATM
 social:
 - https://www.linkedin.com/company/blocknance

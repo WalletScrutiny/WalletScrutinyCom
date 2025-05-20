@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: 3S_Wallet
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-23
 signer: 
-reviewArchive: 
 twitter: NooneWallet
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: alicebob_wallet
 social: 
 redirect_from: 

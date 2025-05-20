@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-01-31
 signer: 
-reviewArchive: 
 twitter: RoyalQuantify
 social:
 - https://www.facebook.com/profile.php?id=100088554828642

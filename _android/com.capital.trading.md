@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-02-08
 signer: 
-reviewArchive: 
 twitter: capitalcom
 social:
 - https://www.linkedin.com/company/capital.com

@@ -25,7 +25,6 @@ verdict: fewusers
 appHashes: 
 date: 2022-03-16
 signer: 
-reviewArchive: 
 twitter: BHEXOfficial
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: tokocrypto
 social:
 - https://www.linkedin.com/company/toko

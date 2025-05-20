@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: pintuid
 social:
 - https://www.facebook.com/pintucrypto

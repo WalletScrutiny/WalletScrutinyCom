@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-26
 signer: 
-reviewArchive: 
 twitter: PocketBitsIndia
 social:
 - https://www.linkedin.com/company/pocketbits.in

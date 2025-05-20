@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: koinfox
 social:
 - https://www.facebook.com/koinfox/

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: Nova_DAXglobal
 social:
 - https://www.linkedin.com/company/novadax-do-brasil

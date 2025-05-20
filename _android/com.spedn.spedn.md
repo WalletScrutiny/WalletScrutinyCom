@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-11-19
 signer: 
-reviewArchive: 
 twitter: FlexaHQ
 social:
 - https://www.facebook.com/flexa

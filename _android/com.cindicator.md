@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: Cindicator
 social:
 - https://www.facebook.com/crowdindicator

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-01
 signer: 
-reviewArchive: 
 twitter: QuppyPay
 social:
 - https://www.linkedin.com/company/quppy

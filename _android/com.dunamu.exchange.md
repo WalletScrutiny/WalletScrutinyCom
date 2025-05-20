@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: upbitglobal
 social:
 - https://www.linkedin.com/company/upbit-official

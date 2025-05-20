@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: Citexofficial
 social:
 - https://www.facebook.com/citexglobal

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: ExchangeJpex
 social:
 - https://www.facebook.com/JPEX-Japan-Exchange-100535999063470

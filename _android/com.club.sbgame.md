@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: sbg_global
 social: 
 redirect_from: 

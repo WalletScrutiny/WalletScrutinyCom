@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-31
 signer: 
-reviewArchive: 
 twitter: Digitra_com
 social:
 - https://www.facebook.com/DigitraGlobal/

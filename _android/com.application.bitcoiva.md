@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-07-29
 signer: 
-reviewArchive: 
 twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169

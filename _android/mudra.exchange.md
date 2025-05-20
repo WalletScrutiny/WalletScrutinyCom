@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-05-19
 signer: 
-reviewArchive: 
 twitter: mudraex
 social:
 - https://www.linkedin.com/company/mudraex

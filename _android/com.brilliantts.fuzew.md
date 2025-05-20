@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-16
 signer: 
-reviewArchive: 
 twitter: w_fuze
 social:
 - https://www.facebook.com/Fuzewcard

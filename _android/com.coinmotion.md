@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: Coinmotion
 social:
 - https://www.linkedin.com/company/coinmotion

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-25
 signer: 
-reviewArchive: 
 twitter: vowcurrency
 social:
 - https://vowcurrency.com

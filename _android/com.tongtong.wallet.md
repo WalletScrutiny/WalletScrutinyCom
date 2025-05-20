@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: tomatochain
 social:
 - https://www.instagram.com/tomatochain_official/

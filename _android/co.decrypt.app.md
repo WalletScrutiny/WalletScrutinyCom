@@ -24,7 +24,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-13
 signer: 
-reviewArchive: 
 twitter: decryptmedia
 social:
 - https://www.facebook.com/decryptmedia

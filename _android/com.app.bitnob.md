@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-07
 signer: 
-reviewArchive: 
 twitter: Bitnob_official
 social:
 - https://www.linkedin.com/company/bitnob

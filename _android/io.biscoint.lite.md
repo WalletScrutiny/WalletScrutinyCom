@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-03-02
 signer: 
-reviewArchive: 
 twitter: BityOficial
 social:
 - https://www.facebook.com/bitybankoficial

@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2022-01-13
 signer: 
-reviewArchive: 
 twitter: Coiny_io
 social:
 - https://www.facebook.com/coiny.io

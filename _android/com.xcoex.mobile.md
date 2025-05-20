@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-17
 signer: 
-reviewArchive: 
 twitter: OfficialXcoex
 social:
 - https://www.facebook.com/xcoex

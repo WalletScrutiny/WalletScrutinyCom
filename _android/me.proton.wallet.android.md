@@ -27,7 +27,6 @@ appHashes:
 - 784d21ba934d509d426e98da41bac5ca5f176cbe6c5c9c0d6addc5e5c87c075d
 date: 2025-02-14
 signer: dcc9439ec1a6c6a8d0203f3423ee42bcc8b970628e53cb73a0393f398dd5b853
-reviewArchive: 
 twitter: ProtonPrivacy
 social:
 - https://www.reddit.com/r/ProtonMail

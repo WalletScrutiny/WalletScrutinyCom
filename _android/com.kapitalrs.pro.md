@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-05-21
 signer: 
-reviewArchive: 
 twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS

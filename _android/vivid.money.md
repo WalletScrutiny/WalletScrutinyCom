@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: vivid_en
 social:
 - https://www.linkedin.com/company/vividmoney

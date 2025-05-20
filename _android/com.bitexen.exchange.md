@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-01
 signer: 
-reviewArchive: 
 twitter: bitexencom
 social:
 - https://www.linkedin.com/company/bitexen

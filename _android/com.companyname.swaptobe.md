@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-29
 signer: 
-reviewArchive: 
 twitter: swap_tobe
 social:
 - https://t.me/swaptobeglobal

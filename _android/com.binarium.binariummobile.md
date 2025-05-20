@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/binariumcom

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: tuned_com
 social:
 - https://www.facebook.com/tuned

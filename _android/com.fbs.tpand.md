@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-05-18
 signer: 
-reviewArchive: 
 twitter: financefreedomsuccess
 social:
 - https://www.facebook.com/financefreedomsuccess

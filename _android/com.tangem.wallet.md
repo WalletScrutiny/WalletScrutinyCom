@@ -24,17 +24,6 @@ verdict: nosource
 appHashes: 1b9a070277ab84f0fd4af1dc44a7d861c82f309951d947aaa2bf9cbe431e926c
 date: 2025-03-21
 signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
-reviewArchive:
-- date: 2024-08-20
-  version: 5.18.6
-  appHashes: 
-  gitRevision: 7dca9fc061b5239ece7294a0c8529fd0828ce608
-  verdict: nosource
-- date: 2024-07-02
-  version: 5.5.1
-  appHashes: 
-  gitRevision: 541a3a95426d5d277d7590282bb5e1e1f341a4c0
-  verdict: nosource
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem

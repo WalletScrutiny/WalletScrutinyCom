@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2019-12-28
 signer: 
-reviewArchive: 
 twitter: handcashapp
 social: 
 redirect_from:

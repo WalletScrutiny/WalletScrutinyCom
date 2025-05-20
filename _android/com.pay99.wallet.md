@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-12-26
 signer: 
-reviewArchive: 
 twitter: voude99
 social:
 - https://www.linkedin.com/company/99app

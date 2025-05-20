@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-31
 signer: 
-reviewArchive: 
 twitter: KassioNetwork
 social:
 - https://www.linkedin.com/company/kassionetwork/

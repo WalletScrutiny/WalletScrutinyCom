@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-28
 signer: 
-reviewArchive: 
 twitter: TheAryaApp
 social:
 - https://www.linkedin.com/company/thearyaapp

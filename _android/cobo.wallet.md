@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/coboofficial
