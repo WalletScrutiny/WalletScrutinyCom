@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: Coinlend2018
 social:
 - https://www.facebook.com/Coinlend

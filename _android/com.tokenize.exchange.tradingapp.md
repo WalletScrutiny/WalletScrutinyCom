@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-08
 signer: 
-reviewArchive: 
 twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange

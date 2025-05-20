@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-28
 signer: 
-reviewArchive: 
 twitter: cctip_com
 social:
 - https://www.reddit.com/r/CCTip/

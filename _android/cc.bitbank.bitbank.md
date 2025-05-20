@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: bitbank_inc
 social:
 - https://www.instagram.com/bitbank_official

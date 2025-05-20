@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: Talken_
 social: 
 redirect_from: 

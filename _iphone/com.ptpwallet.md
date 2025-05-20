@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-05
 signer: 
-reviewArchive: 
 twitter: PtpWallet
 social:
 - https://www.facebook.com/PTPWalletPage

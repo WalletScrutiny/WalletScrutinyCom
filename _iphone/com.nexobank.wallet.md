@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-22
 signer: 
-reviewArchive: 
 twitter: NexoFinance
 social:
 - https://www.facebook.com/nexofinance

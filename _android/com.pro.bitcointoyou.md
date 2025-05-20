@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-18
 signer: 
-reviewArchive: 
 twitter: bitcointoyou
 social:
 - https://www.linkedin.com/company/bitcointoyou

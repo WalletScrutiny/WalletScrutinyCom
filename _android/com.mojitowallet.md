@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-12-21
 signer: 
-reviewArchive: 
 twitter: mintlayer
 social:
 - https://t.me/mintlayer

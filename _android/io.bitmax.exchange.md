@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-11
 signer: 
-reviewArchive: 
 twitter: AscendEX_Global
 social:
 - https://www.facebook.com/AscendEXOfficial

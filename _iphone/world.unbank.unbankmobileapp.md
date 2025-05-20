@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: unbankworld
 social:
 - https://www.facebook.com/unbankworld

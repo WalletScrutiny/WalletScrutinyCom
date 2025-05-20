@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: bitmama
 social:
 - https://www.facebook.com/bitmama

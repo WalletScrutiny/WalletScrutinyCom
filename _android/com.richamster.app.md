@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-14
 signer: 
-reviewArchive: 
 twitter: Richamster_com
 social:
 - https://www.facebook.com/richamstercom

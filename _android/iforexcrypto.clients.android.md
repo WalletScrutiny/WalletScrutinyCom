@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: iforexcrypto_o
 social:
 - https://www.facebook.com/iFOREXCrypto

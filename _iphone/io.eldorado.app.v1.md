@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: eldoradoio
 social:
 - https://www.linkedin.com/company/eldoradoio

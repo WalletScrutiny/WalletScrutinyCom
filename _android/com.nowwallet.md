@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: NOW_Wallet
 social:
 - https://www.facebook.com/ChangeNOW.io/

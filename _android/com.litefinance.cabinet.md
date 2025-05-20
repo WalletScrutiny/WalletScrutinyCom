@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: litefinanceeng
 social: 
 redirect_from: 

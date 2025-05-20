@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-06
 signer: 
-reviewArchive: 
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr

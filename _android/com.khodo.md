@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-02-10
 signer: 
-reviewArchive: 
 twitter: buymalawi
 social:
 - https://www.facebook.com/buybitcoinmalawi

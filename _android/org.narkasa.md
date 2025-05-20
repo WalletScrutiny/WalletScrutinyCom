@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: narkasacom
 social:
 - https://www.facebook.com/narkasacom

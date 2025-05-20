@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-12-15
 signer: 
-reviewArchive: 
 twitter: LiskHQ
 social:
 - https://www.linkedin.com/company/lisk

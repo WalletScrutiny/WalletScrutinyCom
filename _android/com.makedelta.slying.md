@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/profile.php?id=100083754173968

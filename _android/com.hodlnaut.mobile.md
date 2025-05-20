@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-07
 signer: 
-reviewArchive: 
 twitter: hodlnautdotcom
 social: 
 redirect_from: 

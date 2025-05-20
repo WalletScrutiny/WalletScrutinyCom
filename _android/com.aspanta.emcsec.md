@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: emercoin_press
 social:
 - https://t.me/emercoin_official

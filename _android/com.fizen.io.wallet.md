@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-03-31
 signer: 
-reviewArchive: 
 twitter: fizenwallet
 social:
 - https://www.linkedin.com/company/fizen-io/

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange

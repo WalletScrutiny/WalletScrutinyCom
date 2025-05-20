@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: snowball_money
 social: 
 features: 

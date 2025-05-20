@@ -14,7 +14,7 @@ const folder = `_${category}/`;
 const headers = ('title appId authors released discontinued updated version ' +
                 'binaries dimensions weight provider providerWebsite website ' +
                 'shop country price repository issue icon bugbounty meta ' +
-                'verdict appHashes date signer reviewArchive twitter social features').split(' ');
+                'verdict appHashes date signer twitter social features').split(' ');
 
 async function refreshAll () {
   fs.readdir(folder, async (err, files) => {

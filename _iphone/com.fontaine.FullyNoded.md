@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: FullyNoded
 social: 
 features: 

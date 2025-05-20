@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-17
 signer: 
-reviewArchive: 
 twitter: BigONEexchange
 social:
 - https://www.facebook.com/exBigONE

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: HBWallet_Ether
 social: 
 redirect_from: 

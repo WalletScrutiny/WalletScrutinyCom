@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: ajglobalv
 social:
 - https://www.facebook.com/AJGLOBALVENTURES

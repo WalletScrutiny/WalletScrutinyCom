@@ -25,7 +25,6 @@ meta: defunct
 verdict: sealed-plainkey
 date: 2022-11-11
 signer: 
-reviewArchive: 
 twitter: bitpiggys
 social:
 - https://www.facebook.com/Bitpiggys/

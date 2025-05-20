@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-12
 signer: 
-reviewArchive: 
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal

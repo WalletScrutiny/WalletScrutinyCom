@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-02
 signer: 
-reviewArchive: 
 twitter: CoinRivet
 social:
 - https://coinrivet.com

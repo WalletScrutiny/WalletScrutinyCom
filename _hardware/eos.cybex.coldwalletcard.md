@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-18
 signer: 
-reviewArchive: 
 twitter: EOSCYBEX
 social: 
 features: 

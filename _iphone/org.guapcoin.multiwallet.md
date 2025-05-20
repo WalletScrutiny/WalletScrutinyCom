@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: guapcoin
 social:
 - https://t.me/+VE9iA6mWwgB7oQZ0

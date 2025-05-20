@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/census.cx

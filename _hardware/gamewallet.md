@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-21
 signer: 
-reviewArchive: 
 twitter: CupOJoseph
 social:
 - https://discord.com/invite/F9wzKs4dvj

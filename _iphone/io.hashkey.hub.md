@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-26
 signer: 
-reviewArchive: 
 twitter: HashkeyHub
 social:
 - https://www.hashkey.com

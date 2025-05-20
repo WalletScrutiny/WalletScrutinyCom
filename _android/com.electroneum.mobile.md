@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2020-06-08
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

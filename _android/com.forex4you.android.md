@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/forex4you

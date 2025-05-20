@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet

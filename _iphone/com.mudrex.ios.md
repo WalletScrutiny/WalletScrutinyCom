@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: officialmudrex
 social:
 - https://www.linkedin.com/company/mudrex

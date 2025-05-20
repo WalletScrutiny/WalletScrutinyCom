@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-28
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://vk.com/vexel_is

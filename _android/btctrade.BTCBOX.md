@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-19
 signer: 
-reviewArchive: 
 twitter: BtcboxE
 social:
 - https://www.facebook.com/btcbox/

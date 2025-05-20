@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: AbraGlobal
 social:
 - https://www.linkedin.com/company/abra

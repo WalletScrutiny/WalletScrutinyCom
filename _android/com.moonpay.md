@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: moonpay
 social:
 - https://www.linkedin.com/company/moonpay

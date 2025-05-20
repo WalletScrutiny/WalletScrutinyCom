@@ -22,7 +22,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: AfinCoin
 social:
 - https://www.facebook.com/asianfintech

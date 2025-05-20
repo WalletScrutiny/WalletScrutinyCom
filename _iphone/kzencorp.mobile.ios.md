@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2020-04-27
 signer: 
-reviewArchive: 
 twitter: zengo
 social: 
 features: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: swissborg
 social:
 - https://www.linkedin.com/company/swissborg

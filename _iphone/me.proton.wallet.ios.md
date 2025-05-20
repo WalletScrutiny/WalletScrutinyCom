@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-05-20
 signer: 
-reviewArchive: 
 twitter: ProtonPrivacy
 social:
 - https://www.reddit.com/r/ProtonMail

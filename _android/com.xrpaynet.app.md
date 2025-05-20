@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-24
 signer: 
-reviewArchive: 
 twitter: XRPayNet
 social:
 - https://xrpaynet.com

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-15
 signer: 
-reviewArchive: 
 twitter: coincollectHQ
 social: 
 features: 

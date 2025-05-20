@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: SignaturCo
 social:
 - https://www.linkedin.com/company/signaturco/about/

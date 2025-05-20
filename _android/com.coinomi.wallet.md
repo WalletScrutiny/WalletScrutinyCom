@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-14
 signer: 
-reviewArchive: 
 twitter: CoinomiWallet
 social:
 - https://www.linkedin.com/company/coinomi

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-11-11
 signer: 
-reviewArchive: 
 twitter: defichain
 social:
 - https://www.linkedin.com/company/defichain

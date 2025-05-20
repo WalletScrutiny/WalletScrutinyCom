@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-08-08
 signer: 
-reviewArchive: 
 twitter: BCB_Official1
 social:
 - https://www.facebook.com/bitcoinblackofficial

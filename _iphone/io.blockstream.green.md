@@ -22,12 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2020-12-19
 signer: 
-reviewArchive:
-- date: 2020-12-19
-  version: 4.1.0
-  appHashes: []
-  gitRevision: 1d915d864d956ae13a1ea1939a7121444ceee3b2
-  verdict: nonverifiable
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream

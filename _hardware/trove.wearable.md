@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: layer_design
 social:
 - https://instagram.com/layer_design/

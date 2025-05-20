@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: wirexapp
 social:
 - https://github.com/wirexapp

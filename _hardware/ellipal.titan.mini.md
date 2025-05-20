@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-15
 signer: 
-reviewArchive: 
 twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub

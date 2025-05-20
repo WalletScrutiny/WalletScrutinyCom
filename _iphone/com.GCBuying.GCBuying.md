@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: gcbuying
 social: 
 features: 

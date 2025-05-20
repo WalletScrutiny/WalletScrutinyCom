@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: gosatsapp
 social: 
 redirect_from: 

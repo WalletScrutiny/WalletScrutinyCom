@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: bitfyapp
 social:
 - https://www.facebook.com/bitfyapp

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-25
 signer: 
-reviewArchive: 
 twitter: BTC_india
 social:
 - https://www.linkedin.com/company/bitcoin-india

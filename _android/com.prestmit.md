@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-02
 signer: 
-reviewArchive: 
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-13
 signer: 
-reviewArchive: 
 twitter: SimpleFXcom
 social:
 - https://www.facebook.com/simplefxltd

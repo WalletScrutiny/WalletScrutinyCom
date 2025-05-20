@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-29
 signer: 
-reviewArchive: 
 twitter: ExchangeTimex
 social:
 - https://www.facebook.com/timex.io

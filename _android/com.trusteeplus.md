@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-23
 signer: 
-reviewArchive: 
 twitter: TrusteeGlobal
 social:
 - https://t.me/trustee_ru

@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-02-28
 signer: 
-reviewArchive: 
 twitter: SwissBitcoinPay
 social:
 - https://www.linkedin.com/company/swiss-bitcoin-pay

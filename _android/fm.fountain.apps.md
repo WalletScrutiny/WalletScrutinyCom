@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-23
 signer: 
-reviewArchive: 
 twitter: fountain_app
 social: 
 redirect_from: 

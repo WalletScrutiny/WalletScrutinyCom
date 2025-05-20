@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: tokenomy
 social:
 - https://www.linkedin.com/company/tokenomy

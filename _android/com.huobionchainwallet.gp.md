@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2021-04-20
 signer: 
-reviewArchive: 
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet

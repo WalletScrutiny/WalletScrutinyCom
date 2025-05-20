@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2023-03-03
 signer: 
-reviewArchive: 
 twitter: lubanso
 social:
 - https://t.me/lubanso

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: coinut_exchange
 social:
 - https://www.facebook.com/CoinutExchange

@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: Crypto2CashHQ
 social:
 - https://www.facebook.com/crypto2cashhq

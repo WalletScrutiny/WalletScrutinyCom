@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-19
 signer: 
-reviewArchive: 
 twitter: cex_io
 social:
 - https://www.linkedin.com/company/cex-io

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-03
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://arcticwallet.io

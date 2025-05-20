@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: mysmartcasht
 social:
 - https://www.instagram.com/smartcash_za

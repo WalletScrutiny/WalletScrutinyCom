@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: vastbank
 social:
 - https://www.linkedin.com/company/vastbank

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-11
 signer: 
-reviewArchive: 
 twitter: klever_io
 social:
 - https://discord.gg/klever-io

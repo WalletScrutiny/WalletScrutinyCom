@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2020-05-07
 signer: 
-reviewArchive: 
 twitter: PureWallet
 social: 
 redirect_from:

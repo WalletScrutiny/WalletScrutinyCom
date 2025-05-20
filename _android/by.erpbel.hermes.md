@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-09
 signer: 
-reviewArchive: 
 twitter: bynexio
 social:
 - https://www.facebook.com/bynex.io

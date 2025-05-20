@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-06
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/Husky-HDW20-112466137545897

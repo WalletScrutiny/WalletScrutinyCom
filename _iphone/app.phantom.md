@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-21
 signer: 
-reviewArchive: 
 twitter: phantom
 social:
 - https://www.reddit.com/r/phantom/

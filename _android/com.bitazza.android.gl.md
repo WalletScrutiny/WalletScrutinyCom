@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-09
 signer: 
-reviewArchive: 
 twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal

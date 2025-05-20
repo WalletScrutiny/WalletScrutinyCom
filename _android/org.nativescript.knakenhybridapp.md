@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-19
 signer: 
-reviewArchive: 
 twitter: knaken_eu
 social:
 - https://www.facebook.com/knakeneu

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-15
 signer: 
-reviewArchive: 
 twitter: KuCoinCom
 social:
 - https://www.linkedin.com/company/kucoin

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-02-25
 signer: 
-reviewArchive: 
 twitter: io_wallet
 social:
 - https://medium.com/@walletio

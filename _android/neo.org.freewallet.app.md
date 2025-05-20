@@ -24,12 +24,6 @@ verdict: nobtc
 appHashes: []
 date: 2023-01-02
 signer: 
-reviewArchive:
-- date: 2021-05-02
-  version: 2.5.2
-  appHashes: []
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: nobtc
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org

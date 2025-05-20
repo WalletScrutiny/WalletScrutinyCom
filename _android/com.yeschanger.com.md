@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: YesChanger
 social:
 - https://www.youtube.com/channel/UCtwM__wt_329f4OxX-c_m4A

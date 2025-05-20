@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: MetaMask
 social:
 - https://discord.com/invite/consensys

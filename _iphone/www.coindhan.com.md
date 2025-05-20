@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: coin_dhan
 social:
 - https://www.facebook.com/CoinDhanOfficial/

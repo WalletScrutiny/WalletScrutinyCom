@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: stasisnet
 social:
 - https://www.linkedin.com/company/stasisnet

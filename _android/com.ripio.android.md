@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-03-28
 signer: 
-reviewArchive: 
 twitter: ripioapp
 social:
 - https://www.linkedin.com/company/ripio

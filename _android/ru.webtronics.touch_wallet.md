@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: Touch_Wallet
 social:
 - https://t.me/TouchWalletEN

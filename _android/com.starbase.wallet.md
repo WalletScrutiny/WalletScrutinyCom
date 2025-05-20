@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: deploystarship
 social:
 - https://www.youtube.com/c/DeployStarShipNFT

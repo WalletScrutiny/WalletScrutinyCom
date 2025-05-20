@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2023-03-23
 signer: 
-reviewArchive: 
 twitter: Ledger
 social:
 - https://www.linkedin.com/company/ledgerhq

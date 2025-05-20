@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-23
 signer: 
-reviewArchive: 
 twitter: decoin_io
 social:
 - https://www.facebook.com/DECOIN.io

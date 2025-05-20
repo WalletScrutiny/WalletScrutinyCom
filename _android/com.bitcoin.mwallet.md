@@ -24,12 +24,6 @@ verdict: nosource
 appHashes: []
 date: 2024-07-15
 signer: 
-reviewArchive:
-- date: 2019-12-20
-  version: 5.13.3
-  appHashes: []
-  gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
-  verdict: nonverifiable
 twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news

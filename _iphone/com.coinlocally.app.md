@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-21
 signer: 
-reviewArchive: 
 twitter: coinlocallyclyc
 social: 
 features: 

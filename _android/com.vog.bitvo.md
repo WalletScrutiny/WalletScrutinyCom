@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange

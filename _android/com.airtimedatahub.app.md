@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-06-18
 signer: 
-reviewArchive: 
 twitter: airtimedatahub
 social:
 - https://www.facebook.com/Airtimedatahub

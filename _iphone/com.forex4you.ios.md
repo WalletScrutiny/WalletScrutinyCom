@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: []
 date: 2021-12-24
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

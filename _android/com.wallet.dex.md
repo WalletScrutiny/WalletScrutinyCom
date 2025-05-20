@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: Dexwallets
 social:
 - https://www.facebook.com/profile.php?id=100088051538476&mibextid=LQQJ4d

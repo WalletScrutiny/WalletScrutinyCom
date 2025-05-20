@@ -25,22 +25,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2025-01-22
 signer: 
-reviewArchive:
-- date: 2023-10-03
-  version: 1.51.5
-  appHashes: []
-  gitRevision: 84b2b2e4897e57ca4a3cd4d8a89f516d5102a8fc
-  verdict: ftbfs
-- date: 2020-01-24
-  version: 1.29.347
-  appHashes: []
-  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
-  verdict: nonverifiable
-- date: 2019-12-28
-  version: '1.0'
-  appHashes: []
-  gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
-  verdict: nonverifiable
 twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet

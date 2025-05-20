@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-23
 signer: 
-reviewArchive: 
 twitter: anchorusd
 social: 
 redirect_from: 

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-04-10
 signer: 
-reviewArchive: 
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-01-23
 signer: 
-reviewArchive: 
 twitter: dzengicom
 social:
 - >-

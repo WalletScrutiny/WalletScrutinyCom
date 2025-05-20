@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-30
 signer: 
-reviewArchive: 
 twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: mercurycash
 social:
 - https://www.facebook.com/mercurycash

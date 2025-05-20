@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-30
 signer: 
-reviewArchive: 
 twitter: B21Official
 social:
 - https://www.linkedin.com/company/b21-limited

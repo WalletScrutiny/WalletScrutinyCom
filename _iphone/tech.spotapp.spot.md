@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-05-14
 signer: 
-reviewArchive: 
 twitter: spot_bitcoin
 social:
 - https://www.linkedin.com/company/spot-bitcoin

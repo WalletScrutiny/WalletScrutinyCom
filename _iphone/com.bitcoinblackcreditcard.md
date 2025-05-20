@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: btc_blackcard
 social:
 - https://t.me/Bitcoin_Black_Card

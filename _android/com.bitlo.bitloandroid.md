@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/

@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-12-04
 signer: 
-reviewArchive: 
 twitter: Trading4Pro
 social: 
 features: 

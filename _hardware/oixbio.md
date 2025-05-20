@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: OiXGlobal
 social:
 - https://www.linkedin.com/company/oixglobal/

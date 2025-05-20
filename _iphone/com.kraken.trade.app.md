@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-14
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

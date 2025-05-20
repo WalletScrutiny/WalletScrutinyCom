@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: TradeStrikeBVI
 social:
 - https://www.linkedin.com/company/strikex

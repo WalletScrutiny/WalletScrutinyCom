@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-02-19
 signer: 
-reviewArchive: 
 twitter: BithumbOfficial
 social:
 - https://www.facebook.com/bithumb

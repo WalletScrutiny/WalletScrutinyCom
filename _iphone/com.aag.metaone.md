@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: aag_ventures
 social:
 - https://www.linkedin.com/company/aag-ventures

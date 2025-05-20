@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp

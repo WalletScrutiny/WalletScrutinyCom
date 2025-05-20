@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: mayaofficialph
 social:
 - https://www.youtube.com/c/mayaiseverything

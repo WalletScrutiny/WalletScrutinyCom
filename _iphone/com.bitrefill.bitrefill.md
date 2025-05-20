@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: []
 date: 2021-09-12
 signer: 
-reviewArchive: 
 twitter: bitrefill
 social:
 - https://www.facebook.com/bitrefill

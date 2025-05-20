@@ -24,7 +24,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-02-22
 signer: 
-reviewArchive: 
 twitter: capitalcom
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: thoryieldapp
 social:
 - https://discord.com/invite/thorswap

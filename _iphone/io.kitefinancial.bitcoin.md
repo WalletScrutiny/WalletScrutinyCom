@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial

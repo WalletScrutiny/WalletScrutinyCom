@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: ViaBTC
 social:
 - https://www.facebook.com/viabtc

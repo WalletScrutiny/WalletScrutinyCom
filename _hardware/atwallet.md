@@ -29,7 +29,6 @@ verdict: plainkey
 appHashes: 
 date: 2021-12-03
 signer: 
-reviewArchive: 
 twitter: authentrend
 social:
 - https://www.linkedin.com/company/authentrend

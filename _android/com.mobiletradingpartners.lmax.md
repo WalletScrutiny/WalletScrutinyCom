@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-02-24
 signer: 
-reviewArchive: 
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: MetrixCoin
 social:
 - https://www.reddit.com/r/Linda_Project_Inc

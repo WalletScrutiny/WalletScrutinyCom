@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-31
 signer: 
-reviewArchive: 
 twitter: indodax
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: CitadelDAO
 social:
 - https://www.reddit.com/r/citadeldao/

@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-04-12
 signer: 
-reviewArchive: 
 twitter: venmo
 social:
 - https://www.instagram.com/venmo/

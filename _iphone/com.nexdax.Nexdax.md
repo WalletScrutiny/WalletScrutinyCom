@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-30
 signer: 
-reviewArchive: 
 twitter: nexdax_exchange
 social:
 - https://www.facebook.com/nexdax

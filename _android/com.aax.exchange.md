@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: AAXExchange
 social:
 - https://www.linkedin.com/company/aax-atom-asset-exchange

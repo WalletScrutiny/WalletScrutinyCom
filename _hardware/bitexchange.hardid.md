@@ -27,7 +27,6 @@ verdict: plainkey
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - mailto:admin@lightningasic.com

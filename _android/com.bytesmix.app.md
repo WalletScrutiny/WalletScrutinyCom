@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: bytesmix
 social:
 - https://www.facebook.com/bytesmix

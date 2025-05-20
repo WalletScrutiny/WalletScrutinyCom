@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official

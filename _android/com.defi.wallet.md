@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-16
 signer: 
-reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom

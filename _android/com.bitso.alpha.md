@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: WOOnetwork
 social:
 - https://www.facebook.com/WOOnetwork.official

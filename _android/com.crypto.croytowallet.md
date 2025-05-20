@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/profile.php?id=100075743690970

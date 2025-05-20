@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-10
 signer: 
-reviewArchive: 
 twitter: AmmerCards
 social:
 - https://www.facebook.com/ammercards

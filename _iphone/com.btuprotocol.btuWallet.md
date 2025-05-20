@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: versoapp
 social: 
 features: 

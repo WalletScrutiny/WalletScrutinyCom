@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2021-12-20
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://github.com/SecurityArts

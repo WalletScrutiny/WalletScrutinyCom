@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-06-29
 signer: 
-reviewArchive: 
 twitter: Gomining_token
 social:
 - https://t.me/gmt_token

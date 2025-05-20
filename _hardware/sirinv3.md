@@ -26,7 +26,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-12-03
 signer: 
-reviewArchive: 
 twitter: SIRINLABS
 social:
 - https://www.linkedin.com/company/sirin-labs

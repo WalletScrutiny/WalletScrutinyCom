@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-25
 signer: 
-reviewArchive: 
 twitter: btccom_official
 social:
 - https://www.linkedin.com/company/btc.com

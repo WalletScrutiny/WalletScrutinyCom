@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: kyc_coin
 social:
 - https://www.linkedin.com/company/kyccoin

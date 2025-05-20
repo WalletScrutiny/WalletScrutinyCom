@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2023-02-02
 signer: 
-reviewArchive: 
 twitter: KeyPalWallet
 social:
 - https://medium.com/@Keypal

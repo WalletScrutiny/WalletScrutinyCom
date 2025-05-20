@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-03-07
 signer: 
-reviewArchive: 
 twitter: BiKiEnglish
 social:
 - https://www.facebook.com/bikiexchange

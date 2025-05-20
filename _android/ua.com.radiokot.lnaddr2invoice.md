@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-28
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/in/radiokot

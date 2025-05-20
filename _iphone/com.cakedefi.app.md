@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-25
 signer: 
-reviewArchive: 
 twitter: cakedefi
 social:
 - https://www.linkedin.com/company/cakedefi

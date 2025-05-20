@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

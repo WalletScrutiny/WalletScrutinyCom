@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-03
 signer: 
-reviewArchive: 
 twitter: anycoin_cz
 social:
 - https://www.facebook.com/anycoinCZ

@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-02
 signer: 
-reviewArchive: 
 twitter: AnnyCrypto
 social: 
 features: 

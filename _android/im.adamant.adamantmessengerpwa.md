@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-09-18
 signer: 
-reviewArchive: 
 twitter: adamant_im
 social:
 - https://vk.com/adamant_im

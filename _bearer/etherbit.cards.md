@@ -24,7 +24,6 @@ meta: ok
 verdict: nobtc
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: EtherbitHQ
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: shinobi_wallet
 social:
 - https://discord.com/invite/fg5fFwYYgt

@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-12-26
 signer: 
-reviewArchive: 
 twitter: mercadopago
 social:
 - https://www.facebook.com/mercadopago

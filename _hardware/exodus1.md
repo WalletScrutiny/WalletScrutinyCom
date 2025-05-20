@@ -27,7 +27,6 @@ verdict: nosource
 appHashes: 
 date: 2021-11-26
 signer: 
-reviewArchive: 
 twitter: htcexodus
 social:
 - https://www.facebook.com/htcexodus

@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-03
 signer: 
-reviewArchive: 
 twitter: Cycle_bit
 social:
 - https://www.facebook.com/hellocyclebit

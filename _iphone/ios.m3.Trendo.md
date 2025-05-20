@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/fxtrendo/

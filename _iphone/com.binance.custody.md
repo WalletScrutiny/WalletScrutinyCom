@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: CeffuGlobal
 social:
 - https://www.linkedin.com/company/ceffu

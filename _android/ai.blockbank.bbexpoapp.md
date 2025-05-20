@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank

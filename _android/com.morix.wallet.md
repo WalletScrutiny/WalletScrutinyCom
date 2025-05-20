@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-10-10
 signer: 
-reviewArchive: 
 twitter: MoriXjp
 social: 
 redirect_from: 

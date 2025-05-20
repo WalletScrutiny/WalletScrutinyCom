@@ -27,32 +27,6 @@ verdict: nosource
 appHashes: []
 date: 2024-10-21
 signer: 
-reviewArchive:
-- date: 2024-07-30
-  version: 14.22.1
-  appHashes: []
-  gitRevision: d4e9ece8eca4cdf26337b7f25b982b7c1209e0e5
-  verdict: ftbfs
-- date: 2024-07-20
-  version: 14.10.1
-  appHashes: []
-  gitRevision: 03703dbef3fcabdbb7a9ca18963e255aab7de5b7
-  verdict: ftbfs
-- date: 2022-11-02
-  version: 14.10.1
-  appHashes: []
-  gitRevision: 542873cd51a2ae85cae03cfe7272e34e53f3f4d3
-  verdict: ftbfs
-- date: 2022-11-02
-  version: 12.6.4
-  appHashes: []
-  gitRevision: b323422a62c5d226572c32bffc8b499bbd9716a1
-  verdict: nosource
-- date: 2019-11-29
-  version: 
-  appHashes: []
-  gitRevision: 8a474ddd867e50ed46404ed9d81f2a893bbf6619
-  verdict: ftbfs
 twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-

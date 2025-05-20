@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: WISeKey
 social:
 - https://www.facebook.com/wisekeysocial/

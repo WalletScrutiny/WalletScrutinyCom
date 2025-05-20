@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: EverspaceWallet
 social:
 - https://everspace.app

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

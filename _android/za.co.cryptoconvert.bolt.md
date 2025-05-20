@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-25
 signer: 
-reviewArchive: 
 twitter: CryptoConverted
 social: 
 redirect_from: 

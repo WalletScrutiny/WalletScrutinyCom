@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: ChangeNOW_io
 social:
 - https://www.facebook.com/ChangeNOW.io

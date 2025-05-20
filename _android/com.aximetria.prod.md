@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-08
 signer: 
-reviewArchive: 
 twitter: aximetriagmbh
 social:
 - https://www.linkedin.com/company/aximetriagmbh

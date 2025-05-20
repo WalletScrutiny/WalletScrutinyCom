@@ -25,7 +25,6 @@ meta: ok
 verdict: sealed-plainkey
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: LynxCollection
 social:
 - https://www.facebook.com/lynxartcollection/

@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: DFX_Swiss
 social:
 - https://www.instagram.com/dfx.swiss/

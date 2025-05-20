@@ -25,12 +25,6 @@ verdict: nosource
 appHashes: []
 date: 2025-01-27
 signer: 
-reviewArchive:
-- date: 2022-03-11
-  version: 2.2.7
-  appHashes: []
-  gitRevision: 
-  verdict: nonverifiable
 twitter: velasblockchain
 social:
 - https://www.linkedin.com/company/velas-ag

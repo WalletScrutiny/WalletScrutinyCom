@@ -25,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-09
 signer: 
-reviewArchive: 
 twitter: NftYdaze
 social:
 - https://www.instagram.com/nftydaze/

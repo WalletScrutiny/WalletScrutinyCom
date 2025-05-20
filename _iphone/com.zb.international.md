@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: ZBexchange
 social:
 - https://zb.com

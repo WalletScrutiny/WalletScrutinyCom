@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: CoinCasso
 social:
 - https://www.linkedin.com/company/coincasso

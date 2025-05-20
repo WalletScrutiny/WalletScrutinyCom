@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-31
 signer: 
-reviewArchive: 
 twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/

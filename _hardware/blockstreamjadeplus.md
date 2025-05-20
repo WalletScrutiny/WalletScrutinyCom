@@ -28,7 +28,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-01-04
 signer: 
-reviewArchive: 
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream

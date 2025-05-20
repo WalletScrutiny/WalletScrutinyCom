@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: bit2me
 social:
 - https://www.linkedin.com/company/bit2me

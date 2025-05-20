@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: bitkubofficial
 social:
 - https://www.linkedin.com/company/bitkub

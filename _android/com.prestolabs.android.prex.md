@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: AQXofficial
 social:
 - https://www.linkedin.com/company/aqx-official

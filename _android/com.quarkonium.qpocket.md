@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: qPocket_wallet
 social: 
 redirect_from: 

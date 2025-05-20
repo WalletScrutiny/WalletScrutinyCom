@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-05-16
 signer: 
-reviewArchive: 
 twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet

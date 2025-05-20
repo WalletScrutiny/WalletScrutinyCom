@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: TAPSIGNER
 social:
 - https://www.facebook.com/CoinKite/

@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-05-08
-reviewArchive: 
 twitter: defichain
 social:
 - https://www.reddit.com/r/defiblockchain/

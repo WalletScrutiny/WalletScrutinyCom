@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-01-23
 signer: 
-reviewArchive: 
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: OfficialApeXdex
 social:
 - https://apexdex.medium.com

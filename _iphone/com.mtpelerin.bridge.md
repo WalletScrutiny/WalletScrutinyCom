@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: mtpelerin
 social:
 - https://www.linkedin.com/company/mt-pelerin

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-08-28
 signer: 
-reviewArchive: 
 twitter: coolwallet
 social:
 - https://www.facebook.com/coolwallet

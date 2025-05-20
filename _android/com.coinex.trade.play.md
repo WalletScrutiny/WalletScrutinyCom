@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-04-15
 signer: 
-reviewArchive: 
 twitter: coinexcom
 social:
 - https://www.facebook.com/TheCoinEx

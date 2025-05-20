@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: SonitixO
 social:
 - https://www.facebook.com/Sonitix

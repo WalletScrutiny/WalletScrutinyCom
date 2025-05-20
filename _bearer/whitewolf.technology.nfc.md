@@ -24,7 +24,6 @@ meta: ok
 verdict: nowallet
 date: 2023-12-07
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

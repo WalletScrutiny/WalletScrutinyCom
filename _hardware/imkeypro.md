@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-02-18
 signer: 
-reviewArchive: 
 twitter: imkeyofficial
 social: 
 features: 

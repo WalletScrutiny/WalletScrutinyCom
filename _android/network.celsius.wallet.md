@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: celsiusnetwork
 social:
 - https://www.linkedin.com/company/celsiusnetwork

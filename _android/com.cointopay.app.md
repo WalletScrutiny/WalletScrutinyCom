@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-05-24
 signer: 
-reviewArchive: 
 twitter: Cointopay
 social:
 - https://www.facebook.com/CointopayInternational

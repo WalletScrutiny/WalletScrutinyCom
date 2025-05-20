@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-22
 signer: 
-reviewArchive: 
 twitter: BraveCorporati1
 social:
 - https://www.linkedin.com/company/brave-corporation

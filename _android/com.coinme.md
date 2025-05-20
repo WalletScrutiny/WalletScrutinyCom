@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: Coinme
 social:
 - https://www.linkedin.com/company/coinme

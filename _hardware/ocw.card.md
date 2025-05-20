@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2023-04-05
 signer: 
-reviewArchive: 
 twitter: ocwallet
 social:
 - https://www.instagram.com/ocwallet

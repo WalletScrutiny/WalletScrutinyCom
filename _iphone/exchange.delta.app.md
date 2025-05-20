@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-14
 signer: 
-reviewArchive: 
 twitter: Delta_Exchange
 social:
 - https://www.facebook.com/deltaexchg

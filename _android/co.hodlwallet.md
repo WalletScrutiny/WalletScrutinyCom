@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: hodlwallet
 social:
 - https://www.facebook.com/hodlwallet

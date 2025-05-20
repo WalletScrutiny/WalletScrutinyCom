@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-18
 signer: 
-reviewArchive: 
 twitter: bitcoin_ira
 social:
 - https://www.linkedin.com/company/bitcoinira

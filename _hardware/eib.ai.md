@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: EIB_Exchange
 social:
 - https://www.facebook.com/EIB.Exchange/

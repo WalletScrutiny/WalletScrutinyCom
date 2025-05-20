@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-24
 signer: 
-reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom

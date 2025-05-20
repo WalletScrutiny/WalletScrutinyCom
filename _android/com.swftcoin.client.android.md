@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: SwftCoin
 social:
 - https://www.linkedin.com/company/swftcoin

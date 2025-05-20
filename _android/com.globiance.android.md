@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: globiance
 social:
 - https://www.facebook.com/Globiance

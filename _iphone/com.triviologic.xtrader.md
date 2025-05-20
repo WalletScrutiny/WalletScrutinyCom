@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade

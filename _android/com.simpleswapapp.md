@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-10-12
 signer: 
-reviewArchive: 
 twitter: SimpleSwap_io
 social:
 - https://www.facebook.com/SimpleSwap.io

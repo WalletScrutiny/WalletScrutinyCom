@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: gorilainvest
 social:
 - https://www.facebook.com/GorilaInvest

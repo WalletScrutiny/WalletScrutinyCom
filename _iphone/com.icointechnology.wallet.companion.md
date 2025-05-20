@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-28
 signer: 
-reviewArchive: 
 twitter: icoin_crypto
 social:
 - https://www.youtube.com/channel/UCPf8OvpLr7D6KnKNsSb3AKA

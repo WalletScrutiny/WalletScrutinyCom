@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-09-07
 signer: 
-reviewArchive: 
 twitter: myecurrencyng
 social:
 - https://www.instagram.com/myecurrencyng

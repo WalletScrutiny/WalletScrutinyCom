@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: lreasor
 social:
 - https://www.facebook.com/SupraFinLtd

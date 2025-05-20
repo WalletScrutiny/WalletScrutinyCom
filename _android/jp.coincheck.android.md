@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: coincheckjp
 social:
 - https://www.facebook.com/coincheck

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-11
 signer: 
-reviewArchive: 
 twitter: Relai_app
 social:
 - https://www.linkedin.com/company/relai-app

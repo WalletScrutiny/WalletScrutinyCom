@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: sourceavailable
 date: 2025-04-22
-reviewArchive: 
 twitter: coin_with_us
 social: 
 features: 
