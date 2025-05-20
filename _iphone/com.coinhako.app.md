@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-24
 signer: 
-reviewArchive: 
 twitter: coinhako
 social:
 - https://www.linkedin.com/company/coinhako

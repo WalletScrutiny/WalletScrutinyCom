@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: Aofex2
 social:
 - https://www.facebook.com/AofexDigitalCurrencyExchange

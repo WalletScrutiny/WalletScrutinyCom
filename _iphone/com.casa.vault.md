@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-05-22
 signer: 
-reviewArchive: 
 twitter: CasaHODL
 social: 
 features: 

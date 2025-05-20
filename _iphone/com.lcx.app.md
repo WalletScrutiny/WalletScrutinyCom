@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: lcx
 social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ

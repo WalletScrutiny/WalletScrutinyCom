@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: ChangeXapp
 social:
 - https://t.me/changex_official

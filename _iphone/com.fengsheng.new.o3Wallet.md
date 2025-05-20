@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: O3_Labs
 social:
 - https://github.com/O3Labs

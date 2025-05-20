@@ -27,7 +27,6 @@ meta: ok
 verdict: sealed-plainkey
 date: 2023-08-03
 signer: 
-reviewArchive: 
 twitter: SATSCARD
 social:
 - https://www.facebook.com/CoinKite/

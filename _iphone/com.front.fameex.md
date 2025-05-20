@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: FameexGlobal
 social:
 - https://www.facebook.com/FAMEEXGLOBAL

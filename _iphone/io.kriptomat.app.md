@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: kriptomat
 social:
 - https://www.linkedin.com/company/kriptomat

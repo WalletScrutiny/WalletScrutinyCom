@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: rockitcoin
 social:
 - https://www.facebook.com/RockItCoin

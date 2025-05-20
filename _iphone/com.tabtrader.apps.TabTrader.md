@@ -24,7 +24,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-04-17
 signer: 
-reviewArchive: 
 twitter: tabtraderpro
 social:
 - https://www.linkedin.com/company/tabtrader

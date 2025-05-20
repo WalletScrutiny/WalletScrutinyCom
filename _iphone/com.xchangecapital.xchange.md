@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-15
 signer: 
-reviewArchive: 
 twitter: XchangeO
 social:
 - https://xchange.ltd

@@ -22,7 +22,6 @@ verdict: obfuscated
 appHashes: 
 date: 2024-06-23
 signer: 
-reviewArchive: 
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV

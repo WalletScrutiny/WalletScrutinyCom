@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-19
 signer: 
-reviewArchive: 
 twitter: realcoinunited
 social: 
 features: 

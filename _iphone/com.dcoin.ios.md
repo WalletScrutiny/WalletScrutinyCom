@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: dcoinexchange
 social:
 - https://www.linkedin.com/company/dcoin-exchange

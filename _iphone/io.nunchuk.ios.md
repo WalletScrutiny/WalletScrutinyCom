@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-06
 signer: 
-reviewArchive: 
 twitter: nunchuk_io
 social:
 - https://nunchuk.medium.com/

@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2023-09-08
 signer: 
-reviewArchive: 
 twitter: stack_wallet
 social:
 - https://discord.com/invite/mRPZuXx3At

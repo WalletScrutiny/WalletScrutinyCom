@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: afripay_io
 social:
 - https://instagram.com/afripay_io/

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://monabit.io

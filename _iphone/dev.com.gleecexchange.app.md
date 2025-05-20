@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-28
 signer: 
-reviewArchive: 
 twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial

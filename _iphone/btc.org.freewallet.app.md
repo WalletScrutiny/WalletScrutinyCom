@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-13
 signer: 
-reviewArchive: 
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org

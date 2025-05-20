@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: coinmama
 social:
 - https://www.linkedin.com/company/coinmama

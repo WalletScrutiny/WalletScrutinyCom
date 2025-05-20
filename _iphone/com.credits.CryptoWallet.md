@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: creditscom
 social:
 - https://t.me/creditscom

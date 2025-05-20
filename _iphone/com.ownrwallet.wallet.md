@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-08-26
 signer: 
-reviewArchive: 
 twitter: ownrwallet
 social:
 - https://www.facebook.com/ownrwallet

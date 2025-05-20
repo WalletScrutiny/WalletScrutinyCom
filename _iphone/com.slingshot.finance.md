@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-24
 signer: 
-reviewArchive: 
 twitter: SlingshotCrypto
 social:
 - https://discord.com/invite/H3UcvgtASR

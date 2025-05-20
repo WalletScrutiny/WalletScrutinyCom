@@ -27,7 +27,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: ARCHOS
 social:
 - https://www.linkedin.com/company/archos

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-14
 signer: 
-reviewArchive: 
 twitter: ProtonPrivacy
 social:
 - https://www.reddit.com/r/ProtonMail

@@ -26,7 +26,6 @@ verdict: nosource
 appHashes: 
 date: 2022-03-08
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/zerotrace.org

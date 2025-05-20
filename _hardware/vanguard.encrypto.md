@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: FranckMullerBTC
 social:
 - https://www.instagram.com/franckmuller_encrypto/

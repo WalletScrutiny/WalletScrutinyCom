@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: Stablex_Turkey
 social:
 - https://www.instagram.com/stablexofficial

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-01-23
 signer: 
-reviewArchive: 
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: fasset_official
 social:
 - https://www.linkedin.com/company/fassethq

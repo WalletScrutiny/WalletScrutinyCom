@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: tapbitglobal
 social:
 - https://www.tapbit.com

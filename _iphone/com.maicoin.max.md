@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: Max_exch
 social:
 - https://www.facebook.com/MaiCoinAssetExchange

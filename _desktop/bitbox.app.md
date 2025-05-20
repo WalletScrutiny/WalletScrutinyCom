@@ -18,7 +18,6 @@ bugbounty: https://shiftcrypto.ch/bug-bounty-program
 meta: ok
 verdict: sourceavailable
 date: 2024-04-25
-reviewArchive: 
 twitter: ShiftCryptoHQ
 social: 
 features: 

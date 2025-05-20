@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-13
 signer: 
-reviewArchive: 
 twitter: secretkeylabs
 social: 
 features: 

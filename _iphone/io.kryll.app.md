@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-08-07
 signer: 
-reviewArchive: 
 twitter: kryll_io
 social: 
 features: 

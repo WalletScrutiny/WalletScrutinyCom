@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: META1Coin
 social:
 - https://www.facebook.com/meta1coin

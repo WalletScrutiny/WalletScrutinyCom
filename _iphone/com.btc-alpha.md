@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: btcalpha
 social:
 - https://www.linkedin.com/company/btcalpha

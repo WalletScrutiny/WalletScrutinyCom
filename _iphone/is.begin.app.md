@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: BeginWallet
 social: 
 features: 

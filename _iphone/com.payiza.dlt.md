@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-02
 signer: 
-reviewArchive: 
 twitter: payizamoney
 social:
 - https://www.facebook.com/payizamoney

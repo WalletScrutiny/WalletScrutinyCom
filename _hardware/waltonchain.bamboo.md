@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2022-12-07
 signer: 
-reviewArchive: 
 twitter: Waltonchain
 social:
 - https://www.reddit.com/r/waltonchain

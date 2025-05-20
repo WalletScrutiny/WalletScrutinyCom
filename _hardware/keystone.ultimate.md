@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-02-17
 signer: 
-reviewArchive: 
 twitter: KeystoneWallet
 social: 
 features: 

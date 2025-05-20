@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-02-21
 signer: 
-reviewArchive: 
 twitter: EjaraApp
 social:
 - https://www.facebook.com/Ejaracapital

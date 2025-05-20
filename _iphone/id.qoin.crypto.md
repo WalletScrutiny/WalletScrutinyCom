@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://qoinpay.id

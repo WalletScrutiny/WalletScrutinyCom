@@ -29,7 +29,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-08-12
 signer: 
-reviewArchive: 
 twitter: thebitfi
 social:
 - https://www.linkedin.com/company/bitfi

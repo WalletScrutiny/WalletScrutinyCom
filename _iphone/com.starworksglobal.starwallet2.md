@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-14
 signer: 
-reviewArchive: 
 twitter: starworksglobal
 social:
 - https://www.facebook.com/starworksglobal

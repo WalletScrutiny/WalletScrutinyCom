@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-23
 signer: 
-reviewArchive: 
 twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net

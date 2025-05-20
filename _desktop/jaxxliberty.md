@@ -18,7 +18,6 @@ bugbounty:
 meta: defunct
 verdict: nosource
 date: 2025-04-23
-reviewArchive: 
 twitter: jaxx_io
 social: 
 features: 

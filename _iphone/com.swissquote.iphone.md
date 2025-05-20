@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: Swissquote
 social:
 - https://www.linkedin.com/company/swissquote

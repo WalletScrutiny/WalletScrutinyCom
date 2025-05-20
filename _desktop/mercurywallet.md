@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-04-25
-reviewArchive: 
 twitter: mercury_wallet
 social: 
 features: 

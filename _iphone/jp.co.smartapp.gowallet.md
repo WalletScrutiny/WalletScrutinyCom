@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: gowallet_app_
 social:
 - https://www.facebook.com/gowalletappli

@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-22
 signer: 
-reviewArchive: 
 twitter: flipper_zero
 social: 
 features: 

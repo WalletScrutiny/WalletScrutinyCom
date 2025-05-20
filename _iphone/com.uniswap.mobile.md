@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: uniswap
 social:
 - https://discord.com/invite/FCfyBSbCU5

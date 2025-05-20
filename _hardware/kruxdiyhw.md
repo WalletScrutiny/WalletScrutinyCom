@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2024-01-22
 signer: 
-reviewArchive: 
 twitter: selfcustodykrux
 social:
 - https://t.me/SC_Krux

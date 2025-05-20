@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: cex_io
 social:
 - https://t.me/CEX_IO

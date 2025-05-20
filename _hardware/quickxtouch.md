@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange

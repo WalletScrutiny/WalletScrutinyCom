@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-03-09
 signer: 
-reviewArchive: 
 twitter: banosuperapp
 social:
 - https://www.facebook.com/banosuperapp

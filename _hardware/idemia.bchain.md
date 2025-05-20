@@ -25,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-02-09
 signer: 
-reviewArchive: 
 twitter: idemiagroup
 social:
 - https://www.linkedin.com/company/idemiagroup/

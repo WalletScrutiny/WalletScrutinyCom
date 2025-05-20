@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-09
 signer: 
-reviewArchive: 
 twitter: coinchangeio
 social:
 - https://www.linkedin.com/company/coinchange/

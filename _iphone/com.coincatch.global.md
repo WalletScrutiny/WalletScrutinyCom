@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: coincatchcom
 social:
 - https://www.coincatch.com

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-10
 signer: 
-reviewArchive: 
 twitter: BLOCKBANKapp
 social:
 - https://www.facebook.com/blockbank

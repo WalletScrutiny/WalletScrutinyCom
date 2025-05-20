@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/wirebitdigital

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: globiance
 social:
 - https://www.facebook.com/Globiance

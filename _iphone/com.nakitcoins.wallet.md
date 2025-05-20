@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: nakitcoins
 social:
 - https://www.facebook.com/NakitCoins

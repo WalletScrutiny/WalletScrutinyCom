@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-11-23
 signer: 
-reviewArchive: 
 twitter: BitcoinComfy
 social: 
 features: 

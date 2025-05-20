@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-09
 signer: 
-reviewArchive: 
 twitter: swapsapp_
 social:
 - https://www.swaps.app

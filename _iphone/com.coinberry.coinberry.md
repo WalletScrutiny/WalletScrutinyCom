@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: CoinberryHQ
 social:
 - https://www.linkedin.com/company/coinberry

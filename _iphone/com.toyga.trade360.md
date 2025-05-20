@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: Trade360_LTD
 social:
 - https://www.linkedin.com/company/trade360ltd

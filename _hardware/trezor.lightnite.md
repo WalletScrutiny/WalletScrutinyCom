@@ -28,7 +28,6 @@ verdict: wip
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: lightnitegame
 social: 
 features: 

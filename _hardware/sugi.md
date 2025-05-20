@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-03
 signer: 
-reviewArchive: 
 twitter: SugiCard
 social:
 - https://www.linkedin.com/company/sugi-card

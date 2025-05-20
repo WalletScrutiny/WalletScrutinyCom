@@ -24,7 +24,6 @@ meta: obsolete
 verdict: prefilled
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://bitcointalk.org/index.php?action=profile;u=83038

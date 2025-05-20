@@ -24,7 +24,6 @@ meta: ok
 verdict: wip
 date: 2023-03-10
 signer: 
-reviewArchive: 
 twitter: belibitcoinindo
 social:
 - https://www.facebook.com/beli.bitcoin.indonesia/

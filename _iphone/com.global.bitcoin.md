@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-14
 signer: 
-reviewArchive: 
 twitter: BitcoinGlobalEx
 social:
 - https://www.facebook.com/BitcoinGlobalEx

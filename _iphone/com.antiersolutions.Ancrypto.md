@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: AnCryptoWallet
 social:
 - https://www.linkedin.com/company/ancrypto

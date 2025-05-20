@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: pallapay_com
 social:
 - https://www.linkedin.com/company/pallapay/

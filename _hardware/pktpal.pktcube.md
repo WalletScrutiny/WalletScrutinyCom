@@ -28,7 +28,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-18
 signer: 
-reviewArchive: 
 twitter: pkt_pal
 social:
 - https://www.facebook.com/PKT-Pal-100210012141935/
