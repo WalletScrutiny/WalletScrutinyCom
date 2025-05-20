@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-02-18
 signer: 
-reviewArchive: 
 twitter: klever_io
 social:
 - https://www.linkedin.com/company/klever-app

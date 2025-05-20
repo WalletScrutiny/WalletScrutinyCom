@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

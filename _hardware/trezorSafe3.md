@@ -33,20 +33,6 @@ appHashes:
 - 9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46
 date: 2025-02-22
 signer: 
-reviewArchive:
-- date: 2024-10-11
-  version: 2.8.0
-  appHashes:
-  - 877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1
-  - c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3
-  gitRevision: c481c44ae4f0a71ebdb7a4fa45f53e9ad3822c01
-  verdict: reproducible
-- date: 2024-04-01
-  version: 2.6.4
-  appHashes:
-  - 3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2
-  gitRevision: 94f7ab3986d010659c65faab60e2de3737a31adf
-  verdict: reproducible
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io

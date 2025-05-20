@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2025-04-22
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/gingerwallet

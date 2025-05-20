@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: wallet_dot
 social: 
 features: 

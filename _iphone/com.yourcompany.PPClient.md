@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-22
 signer: 
-reviewArchive: 
 twitter: PayPal
 social:
 - https://www.linkedin.com/company/paypal

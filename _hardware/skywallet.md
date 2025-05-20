@@ -26,7 +26,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-12-10
 signer: 
-reviewArchive: 
 twitter: skycoinproject
 social:
 - https://www.linkedin.com/company/skycoin

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-28
 signer: 
-reviewArchive: 
 twitter: yieldapp
 social:
 - https://www.trofi.group

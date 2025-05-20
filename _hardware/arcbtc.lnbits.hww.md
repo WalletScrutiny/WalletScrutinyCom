@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2023-02-14
 signer: 
-reviewArchive: 
 twitter: arcbtc
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-29
 signer: 
-reviewArchive: 
 twitter: TruBit_Latam
 social: 
 features: 

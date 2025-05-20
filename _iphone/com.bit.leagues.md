@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-04
 signer: 
-reviewArchive: 
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup

@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: nosource
 date: 2025-04-23
-reviewArchive: 
 twitter: atomicwallet
 social:
 - https://www.facebook.com/AtomicWallet/

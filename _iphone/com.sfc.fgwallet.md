@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-06-30
 signer: 
-reviewArchive: 
 twitter: srsfintech
 social:
 - https://www.linkedin.com/company/srsfintech/

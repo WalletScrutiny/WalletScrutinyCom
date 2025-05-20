@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: xBank_Official
 social:
 - https://discord.com/invite/PGBVwcaeQE

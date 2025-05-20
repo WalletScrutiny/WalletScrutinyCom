@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2024-03-14
 signer: 
-reviewArchive: 
 twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official

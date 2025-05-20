@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: PoolinWallet
 social:
 - https://www.linkedin.com/company/poolinwallet

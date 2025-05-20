@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: realMatrixport
 social:
 - https://www.linkedin.com/company/matrixport

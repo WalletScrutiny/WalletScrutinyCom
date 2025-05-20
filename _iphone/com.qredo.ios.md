@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-11
 signer: 
-reviewArchive: 
 twitter: QredoNetwork
 social:
 - https://www.linkedin.com/company/qredo/

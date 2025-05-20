@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-11-10
 signer: 
-reviewArchive: 
 twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network

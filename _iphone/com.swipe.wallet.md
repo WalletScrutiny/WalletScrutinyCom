@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-07-06
 signer: 
-reviewArchive: 
 twitter: SwipeWallet
 social:
 - https://www.facebook.com/Swipe

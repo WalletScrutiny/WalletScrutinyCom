@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: Ledger
 social:
 - https://www.ledger.com/ledger-live

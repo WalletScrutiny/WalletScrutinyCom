@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: walledoteam
 social:
 - https://www.facebook.com/WalledoTeam

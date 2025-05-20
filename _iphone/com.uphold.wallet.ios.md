@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-14
 signer: 
-reviewArchive: 
 twitter: UpholdInc
 social:
 - https://www.linkedin.com/company/upholdinc

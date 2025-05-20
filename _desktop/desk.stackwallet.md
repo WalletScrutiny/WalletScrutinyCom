@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-05-15
-reviewArchive: 
 twitter: stack_wallet
 social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA

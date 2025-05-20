@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: SlimTechGearCo
 social:
 - https://www.instagram.com/slimtechgearco

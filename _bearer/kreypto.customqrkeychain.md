@@ -25,7 +25,6 @@ meta: ok
 verdict: vapor
 date: 2022-05-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

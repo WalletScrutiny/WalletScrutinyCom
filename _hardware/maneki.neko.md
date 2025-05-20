@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-21
 signer: 
-reviewArchive: 
 twitter: TheNeko_io
 social:
 - https://medium.com/@thenekoofficial

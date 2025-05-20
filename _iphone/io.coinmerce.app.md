@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: coinmerce
 social:
 - https://www.facebook.com/CoinmerceNL

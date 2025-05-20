@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2023-04-28
 signer: 
-reviewArchive: 
 twitter: ilinkeds
 social:
 - https://www.linkedin.com/in/ilinkeds/

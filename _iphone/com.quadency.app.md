@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-07
 signer: 
-reviewArchive: 
 twitter: quadency
 social:
 - https://www.linkedin.com/company/quadency/

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-06-16
 signer: 
-reviewArchive: 
 twitter: Lumi_wallet
 social:
 - https://www.facebook.com/lumiwallet

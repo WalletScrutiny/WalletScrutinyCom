@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp

@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-01-05
 signer: 
-reviewArchive: 
 twitter: AquaBitcoin
 social:
 - https://www.facebook.com/profile.php?id=100095180887605

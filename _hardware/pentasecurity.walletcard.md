@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: pentasecsystems
 social:
 - https://www.linkedin.com/company/penta-security-systems-inc-/

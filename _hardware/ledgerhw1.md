@@ -26,7 +26,6 @@ verdict: noita
 appHashes: 
 date: 2022-01-22
 signer: 
-reviewArchive: 
 twitter: Ledger
 social:
 - https://www.linkedin.com/company/ledgerhq

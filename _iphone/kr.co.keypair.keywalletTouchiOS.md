@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx

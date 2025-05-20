@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: coreapp
 social:
 - https://t.me/avalancheavax

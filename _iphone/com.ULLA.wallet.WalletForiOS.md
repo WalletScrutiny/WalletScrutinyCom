@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-09
 signer: 
-reviewArchive: 
 twitter: WOWEARNENG
 social:
 - https://wowearn.com

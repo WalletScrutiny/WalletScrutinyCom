@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-07-15
 signer: 
-reviewArchive: 
 twitter: Blockchain
 social:
 - https://www.linkedin.com/company/blockchain

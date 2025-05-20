@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2021-04-24
 signer: 
-reviewArchive: 
 twitter: ex_scudo
 social:
 - https://www.facebook.com/exscudo

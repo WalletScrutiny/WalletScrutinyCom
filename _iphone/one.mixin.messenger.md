@@ -24,12 +24,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2021-11-17
 signer: 
-reviewArchive:
-- date: 2021-11-17
-  version: 2.0.2
-  appHashes: []
-  gitRevision: fe3cfeb1b5229e6f850188ec34137d1b700d9663
-  verdict: ftbfs
 twitter: MixinMessenger
 social:
 - https://www.facebook.com/MixinNetwork

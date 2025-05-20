@@ -30,7 +30,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-08
 signer: 
-reviewArchive: 
 twitter: hashwallet
 social:
 - https://www.linkedin.com/company/esignus

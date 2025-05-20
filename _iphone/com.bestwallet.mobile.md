@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-30
 signer: 
-reviewArchive: 
 twitter: bestwallethq
 social:
 - https://t.me/Best_Wallet_Announcements

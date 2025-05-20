@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: hodlwithLedn
 social:
 - https://www.linkedin.com/company/ledn-inc

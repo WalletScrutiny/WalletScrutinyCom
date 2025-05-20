@@ -23,12 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2022-03-13
 signer: 
-reviewArchive:
-- date: 2019-11-10
-  version: 1.10.1
-  appHashes: []
-  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
-  verdict: ftbfs
 twitter: edgewallet
 social:
 - https://www.linkedin.com/company/edgeapp

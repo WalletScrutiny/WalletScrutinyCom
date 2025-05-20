@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-11-25
 signer: 
-reviewArchive: 
 twitter: blockchainmind_
 social:
 - https://www.facebook.com/blockchainmind

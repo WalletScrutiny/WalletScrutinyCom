@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: Liquid_Global
 social:
 - https://www.linkedin.com/company/quoine

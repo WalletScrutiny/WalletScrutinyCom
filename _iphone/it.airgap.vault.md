@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2023-12-30
 signer: 
-reviewArchive: 
 twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap

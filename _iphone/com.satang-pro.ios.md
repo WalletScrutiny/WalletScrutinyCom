@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: SatangOfficial_
 social:
 - https://www.facebook.com/satangcorp

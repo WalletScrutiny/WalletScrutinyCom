@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-10
 signer: 
-reviewArchive: 
 twitter: klever_io
 social:
 - https://www.linkedin.com/company/klever-app

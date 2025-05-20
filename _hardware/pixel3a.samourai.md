@@ -28,7 +28,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/PixelWallet

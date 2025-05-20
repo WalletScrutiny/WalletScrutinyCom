@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: coinsdogroup
 social:
 - https://www.facebook.com/CoinsDogroup

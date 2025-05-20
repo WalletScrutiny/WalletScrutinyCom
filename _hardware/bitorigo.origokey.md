@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.youtube.com/channel/UCY1x6SbzjQ30y1WizD4dyPw

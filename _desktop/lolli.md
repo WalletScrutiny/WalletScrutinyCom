@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: custodial
 date: 2025-04-12
-reviewArchive: 
 twitter: trylolli
 social:
 - https://discord.com/invite/RWTSNXHAnq

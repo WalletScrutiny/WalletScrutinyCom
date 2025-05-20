@@ -25,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2022-05-03
 signer: 
-reviewArchive: 
 twitter: TJ_Wallet
 social:
 - https://www.facebook.com/tjwalletglobal

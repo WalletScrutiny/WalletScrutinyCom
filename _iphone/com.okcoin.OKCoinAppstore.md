@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-06-17
 signer: 
-reviewArchive: 
 twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin

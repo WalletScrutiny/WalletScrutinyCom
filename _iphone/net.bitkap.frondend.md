@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-04
 signer: 
-reviewArchive: 
 twitter: BitkapO
 social:
 - https://bitkap.africa

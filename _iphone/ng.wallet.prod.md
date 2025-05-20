@@ -24,7 +24,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: walletsafrica
 social:
 - https://www.facebook.com/walletsafrica

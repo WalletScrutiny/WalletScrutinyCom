@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: NordFX
 social: 
 features: 

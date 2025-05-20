@@ -25,7 +25,6 @@ verdict: wip
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: gk8_security
 social:
 - https://www.linkedin.com/company/gk8/

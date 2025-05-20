@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285

@@ -29,7 +29,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2025-02-05
 signer: 
-reviewArchive: 
 twitter: SalletOne
 social:
 - https://www.facebook.com/salletone

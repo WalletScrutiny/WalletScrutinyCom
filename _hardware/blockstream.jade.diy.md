@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2023-12-06
 signer: 
-reviewArchive: 
 twitter: epic_curious
 social: 
 features: 

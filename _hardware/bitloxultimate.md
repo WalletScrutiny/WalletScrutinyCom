@@ -30,7 +30,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: bitlox
 social:
 - https://www.facebook.com/BitLoxWallet

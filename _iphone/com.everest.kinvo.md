@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-23
 signer: 
-reviewArchive: 
 twitter: kinvoapp
 social:
 - https://www.linkedin.com/company/kinvoapp

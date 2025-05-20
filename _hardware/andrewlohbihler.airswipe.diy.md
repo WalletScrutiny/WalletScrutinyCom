@@ -25,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-21
 signer: 
-reviewArchive: 
 twitter: andawna
 social: 
 features: 

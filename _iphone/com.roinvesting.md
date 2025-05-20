@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-12-05
 signer: 
-reviewArchive: 
 twitter: Roinvesting
 social:
 - https://www.linkedin.com/company/roinvesting

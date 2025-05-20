@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-25
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

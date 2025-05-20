@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2025-04-10
-reviewArchive: 
 twitter: nunchuk_io
 social: 
 features: 

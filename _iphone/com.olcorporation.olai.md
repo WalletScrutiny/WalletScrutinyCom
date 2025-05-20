@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: ImePlatform
 social:
 - https://t.me/ime_en

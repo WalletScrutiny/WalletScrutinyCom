@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: public
 social:
 - https://www.instagram.com/publicapp

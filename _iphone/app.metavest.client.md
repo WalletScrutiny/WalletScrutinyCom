@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-08
 signer: 
-reviewArchive: 
 twitter: MetavestApp
 social:
 - https://metavest.app

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: MoonXBT_Global
 social:
 - https://www.facebook.com/MoonXBT

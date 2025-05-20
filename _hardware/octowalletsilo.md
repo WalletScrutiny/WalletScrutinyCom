@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-02-18
 signer: 
-reviewArchive: 
 twitter: octowallet
 social:
 - https://www.facebook.com/OctoWallet-276588143113128

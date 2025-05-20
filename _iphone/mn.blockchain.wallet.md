@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: EDCBlockchain
 social:
 - https://www.linkedin.com/company/edcblockchain

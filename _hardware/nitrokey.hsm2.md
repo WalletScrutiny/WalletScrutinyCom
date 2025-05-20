@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: nitrokey
 social:
 - https://www.linkedin.com/company/nitrokey

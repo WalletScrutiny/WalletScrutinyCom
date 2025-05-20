@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: KooP360
 social:
 - https://www.facebook.com/KOOP360

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: Bit4you1
 social:
 - https://www.facebook.com/bit4you.io/

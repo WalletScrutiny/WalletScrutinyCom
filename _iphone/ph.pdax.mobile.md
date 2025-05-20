@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: pdaxph
 social:
 - https://www.linkedin.com/company/pdaxph

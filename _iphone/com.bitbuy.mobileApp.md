@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: bitbuy
 social:
 - https://www.linkedin.com/company/bitbuyca

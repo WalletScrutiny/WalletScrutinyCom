@@ -22,7 +22,6 @@ verdict: obfuscated
 appHashes: 
 date: 2023-05-30
 signer: 
-reviewArchive: 
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial

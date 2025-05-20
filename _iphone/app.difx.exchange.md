@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: difx_io
 social:
 - https://www.linkedin.com/company/difx-io

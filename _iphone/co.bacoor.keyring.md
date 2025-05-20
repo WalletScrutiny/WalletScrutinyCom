@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-11-17
 signer: 
-reviewArchive: 
 twitter: KEYRING_PRO
 social: 
 features: 

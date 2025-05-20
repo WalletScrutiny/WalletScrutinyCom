@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: KoinparkInfo
 social:
 - https://www.linkedin.com/company/koinpark

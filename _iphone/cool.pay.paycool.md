@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: Pay_dot_Cool
 social: 
 features: 

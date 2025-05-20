@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-01-04
 signer: 
-reviewArchive: 
 twitter: CoinbaseWallet
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://defiato.com

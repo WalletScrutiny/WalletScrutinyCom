@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-16
 signer: 
-reviewArchive: 
 twitter: lyopayofficial
 social:
 - https://www.facebook.com/lyopayofficial

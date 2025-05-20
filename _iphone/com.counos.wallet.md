@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform

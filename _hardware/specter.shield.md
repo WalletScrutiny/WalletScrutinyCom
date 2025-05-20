@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2023-02-07
 signer: 
-reviewArchive: 
 twitter: specterwallet
 social:
 - https://www.linkedin.com/company/specterlabs

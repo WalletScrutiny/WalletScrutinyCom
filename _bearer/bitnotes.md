@@ -24,7 +24,6 @@ meta: ok
 verdict: vapor
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: bitnotesorg
 social:
 - https://www.facebook.com/Icynote-100908298821873

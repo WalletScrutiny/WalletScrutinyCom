@@ -28,7 +28,6 @@ verdict: prefilled
 appHashes: 
 date: 2022-03-11
 signer: 
-reviewArchive: 
 twitter: cryobit
 social:
 - https://www.reddit.com/user/CryoBit_co/

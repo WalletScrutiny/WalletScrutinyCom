@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: NitroExOfficial
 social:
 - https://www.linkedin.com/company/nitroex

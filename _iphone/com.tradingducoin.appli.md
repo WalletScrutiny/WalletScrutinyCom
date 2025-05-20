@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-08
 signer: 
-reviewArchive: 
 twitter: TradingduCoin
 social:
 - https://www.facebook.com/TradingduCoin

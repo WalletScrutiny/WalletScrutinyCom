@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: CoinStats
 social:
 - https://www.facebook.com/CoinStats
