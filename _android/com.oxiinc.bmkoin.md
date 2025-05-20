@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-31
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.youtube.com/channel/UC9hIY0-u6Lt1f1NHIt7VF_w

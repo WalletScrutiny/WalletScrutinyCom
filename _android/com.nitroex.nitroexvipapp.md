@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: NitroExOfficial
 social:
 - https://www.linkedin.com/company/nitroex

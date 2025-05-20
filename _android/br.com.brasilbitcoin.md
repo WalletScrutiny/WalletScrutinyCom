@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-10
 signer: 
-reviewArchive: 
 twitter: brbtcoficial
 social:
 - https://www.facebook.com/brbtcoficial

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-21
 signer: 
-reviewArchive: 
 twitter: Chainverseorg
 social:
 - https://t.me/chainverse_community

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-22
 signer: 
-reviewArchive: 
 twitter: openex_hq
 social:
 - http://discord.gg/openex

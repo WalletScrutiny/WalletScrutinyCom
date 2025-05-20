@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: eversendapp
 social:
 - https://www.linkedin.com/company/eversend

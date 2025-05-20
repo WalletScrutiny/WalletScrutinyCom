@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-01
 signer: 
-reviewArchive: 
 twitter: valoraApp
 social:
 - https://www.facebook.com/ValoraApp

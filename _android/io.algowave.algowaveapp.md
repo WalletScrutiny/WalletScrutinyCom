@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-05
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://web.archive.org/web/20211208164813/https://www.algowave.io/

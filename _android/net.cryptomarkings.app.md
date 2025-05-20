@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: crypto_markings
 social:
 - https://www.facebook.com/people/Cryptomarkings/100086460615673

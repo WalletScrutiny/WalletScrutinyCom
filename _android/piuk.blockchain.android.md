@@ -24,13 +24,6 @@ verdict: nosource
 appHashes: []
 date: 2024-09-12
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
-reviewArchive:
-- date: 2020-07-11
-  version: 6.35.0
-  appHashes:
-  - 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
-  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
-  verdict: nonverifiable
 twitter: blockchain
 social:
 - https://www.linkedin.com/company/blockchain

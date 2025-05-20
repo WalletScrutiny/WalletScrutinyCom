@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: TheMARAverse
 social:
 - https://www.linkedin.com/company/themaraverse

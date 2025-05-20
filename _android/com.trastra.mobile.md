@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: Trastra_ltd
 social:
 - https://www.linkedin.com/company/trastra

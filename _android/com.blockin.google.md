@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: officialpoolin
 social:
 - https://www.linkedin.com/company/poolin

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-10-12
 signer: 
-reviewArchive: 
 twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin

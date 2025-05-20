@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: swan
 social:
 - https://www.instagram.com/swanbitcoin

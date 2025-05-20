@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-03
 signer: 
-reviewArchive: 
 twitter: ompfinex
 social:
 - https://www.linkedin.com/company/ompfinex/

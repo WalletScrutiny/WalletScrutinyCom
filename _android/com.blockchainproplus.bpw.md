@@ -22,7 +22,6 @@ verdict: obfuscated
 appHashes: 
 date: 2021-07-02
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

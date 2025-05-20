@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/%EA%B2%9C%ED%8D%BC-2178994162345350

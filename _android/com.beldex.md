@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-11-26
 signer: 
-reviewArchive: 
 twitter: beldexcoin
 social:
 - https://www.linkedin.com/company/beldex-coin

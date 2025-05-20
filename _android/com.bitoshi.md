@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: Bitoshiafrica
 social:
 - https://www.linkedin.com/company/bitoshiafrica

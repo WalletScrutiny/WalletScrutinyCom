@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-06
 signer: 
-reviewArchive: 
 twitter: KointraTR
 social:
 - https://www.instagram.com/kointracom/

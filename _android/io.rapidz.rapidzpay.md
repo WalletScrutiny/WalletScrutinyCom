@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: Rapidz_io
 social:
 - https://t.me/RapidzCommunity

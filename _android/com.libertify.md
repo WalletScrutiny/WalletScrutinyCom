@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-29
 signer: 
-reviewArchive: 
 twitter: Libertify_
 social:
 - https://www.instagram.com/libertify_ig

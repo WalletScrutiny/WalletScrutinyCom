@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: giottus
 social:
 - https://www.linkedin.com/company/giottus

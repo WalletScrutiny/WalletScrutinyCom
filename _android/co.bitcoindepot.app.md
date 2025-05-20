@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-08
 signer: 
-reviewArchive: 
 twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot

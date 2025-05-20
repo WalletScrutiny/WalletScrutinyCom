@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-20
 signer: 
-reviewArchive: 
 twitter: thisisarculus
 social:
 - https://www.linkedin.com/company/thisisarculus

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: CoinCap_io
 social:
 - https://www.facebook.com/watch/?v=365220420785166

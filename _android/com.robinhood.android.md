@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: RobinhoodApp
 social:
 - https://www.linkedin.com/company/robinhood

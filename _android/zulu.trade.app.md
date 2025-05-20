@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: zulutrade
 social:
 - https://www.linkedin.com/company/zulutrade

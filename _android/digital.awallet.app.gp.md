@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://awallet.digital/

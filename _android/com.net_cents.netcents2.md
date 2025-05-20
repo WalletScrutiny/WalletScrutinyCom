@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-11
 signer: 
-reviewArchive: 
 twitter: netcentshq
 social:
 - https://www.linkedin.com/company/net-cents

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-12-15
 signer: 
-reviewArchive: 
 twitter: UFUND1
 social:
 - https://www.facebook.com/ufundrealbusiness

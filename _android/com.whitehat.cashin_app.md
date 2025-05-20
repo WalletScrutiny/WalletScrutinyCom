@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: cashin_app
 social:
 - https://www.facebook.com/Cashin.app1

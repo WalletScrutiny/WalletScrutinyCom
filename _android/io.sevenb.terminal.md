@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: sevenb_roker
 social:
 - https://www.facebook.com/SevenBbroker

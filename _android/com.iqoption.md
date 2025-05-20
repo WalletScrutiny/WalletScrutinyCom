@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: IQOption
 social:
 - https://www.instagram.com/iqoption_official

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-15
 signer: 
-reviewArchive: 
 twitter: bitfree_us
 social:
 - https://bitfree.us

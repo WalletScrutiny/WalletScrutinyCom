@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-09
 signer: 
-reviewArchive: 
 twitter: Vauld_
 social:
 - https://www.linkedin.com/company/vauld

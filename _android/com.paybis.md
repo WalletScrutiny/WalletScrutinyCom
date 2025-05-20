@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-11-02
 signer: 
-reviewArchive: 
 twitter: paybis
 social: 
 redirect_from: 

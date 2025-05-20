@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-01-19
 signer: 
-reviewArchive: 
 twitter: tapswapkenya
 social:
 - https://www.instagram.com/tapswap_kenya/

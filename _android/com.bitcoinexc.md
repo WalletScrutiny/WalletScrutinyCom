@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-06
 signer: 
-reviewArchive: 
 twitter: fmcpay
 social:
 - https://www.facebook.com/fmcpay/

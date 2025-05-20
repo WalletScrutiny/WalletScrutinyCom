@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: BithumbGlobal
 social:
 - https://www.linkedin.com/company/bithumbglobal

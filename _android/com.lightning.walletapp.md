@@ -23,18 +23,6 @@ verdict: nosource
 appHashes: []
 date: 2024-04-19
 signer: 
-reviewArchive:
-- date: 2021-08-21
-  version: 0.4.4
-  appHashes:
-  - ffcffa9d3053590b98f845622ab5a4748023245fbacc48f6798ca9ff753f86c6
-  gitRevision: 6b9f4e0124b3b4f7d4daa2425d704af536624d90
-  verdict: ftbfs
-- date: 2019-11-23
-  version: '0.4'
-  appHashes: []
-  gitRevision: e511edf295583aebceb624641e41f26e73064022
-  verdict: nonverifiable
 twitter: 
 social: 
 redirect_from:

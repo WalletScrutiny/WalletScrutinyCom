@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-20
 signer: 
-reviewArchive: 
 twitter: NamiTrade
 social:
 - https://www.reddit.com/r/NAMIcoin/

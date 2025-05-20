@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-15
 signer: 
-reviewArchive: 
 twitter: BiconomyCom
 social:
 - https://www.facebook.com/BiconomyCom

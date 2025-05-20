@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-01-18
 signer: 
-reviewArchive: 
 twitter: B2zExchange
 social:
 - https://www.linkedin.com/company/b2z-exchange/about/

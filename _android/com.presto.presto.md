@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/prestohq.io

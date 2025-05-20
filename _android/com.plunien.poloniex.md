@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex

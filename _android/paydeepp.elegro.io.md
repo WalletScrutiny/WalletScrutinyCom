@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-14
 signer: 
-reviewArchive: 
 twitter: NikoTech
 social:
 - https://www.linkedin.com/company/niko-technologies-ou

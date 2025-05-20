@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: koinkoin13
 social:
 - https://www.reddit.com/r/KoinKoin_io/

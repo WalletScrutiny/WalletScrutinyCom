@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-01-18
 signer: 
-reviewArchive: 
 twitter: ln_strike
 social: 
 redirect_from:

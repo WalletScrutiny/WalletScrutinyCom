@@ -22,7 +22,6 @@ verdict: fake
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

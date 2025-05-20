@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-16
 signer: 
-reviewArchive: 
 twitter: defiantApp
 social: 
 redirect_from: 

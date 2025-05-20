@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-12
 signer: 
-reviewArchive: 
 twitter: coinbase
 social:
 - https://www.linkedin.com/company/coinbase

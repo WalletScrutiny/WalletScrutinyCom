@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-11-28
 signer: 
-reviewArchive: 
 twitter: DigiFinex
 social:
 - https://www.linkedin.com/company/digifinex-global

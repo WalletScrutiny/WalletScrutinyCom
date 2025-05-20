@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: btc_nigeria
 social:
 - https://www.facebook.com/mybtcnigeria

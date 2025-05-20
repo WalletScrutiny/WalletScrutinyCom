@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-12-29
 signer: 
-reviewArchive: 
 twitter: btccom_official
 social:
 - https://www.facebook.com/btccom

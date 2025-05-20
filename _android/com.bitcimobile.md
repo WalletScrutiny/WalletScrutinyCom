@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-28
 signer: 
-reviewArchive: 
 twitter: bitcicom
 social:
 - https://www.linkedin.com/company/bitcicom/

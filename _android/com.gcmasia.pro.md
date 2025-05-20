@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/GCMASIA.Forex.Trading.Platform

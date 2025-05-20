@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: Mayex_Global
 social:
 - https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA

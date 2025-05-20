@@ -24,7 +24,6 @@ verdict: wip
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: ExchangilyC
 social:
 - https://www.facebook.com/Exchangily-439040053240813

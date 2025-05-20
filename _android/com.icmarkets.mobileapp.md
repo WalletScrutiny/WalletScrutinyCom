@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-21
 signer: 
-reviewArchive: 
 twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market

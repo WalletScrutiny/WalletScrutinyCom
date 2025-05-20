@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-25
 signer: 
-reviewArchive: 
 twitter: QmallExchange
 social:
 - https://www.linkedin.com/company/qmallexchange/about/

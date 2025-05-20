@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-21
 signer: 
-reviewArchive: 
 twitter: CoinhubMongolia
 social:
 - https://www.linkedin.com/company/coinhub-mongolia/

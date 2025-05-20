@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: tabdealplatform
 social:
 - https://www.facebook.com/tabdealplatform

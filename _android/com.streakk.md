@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: streakkofficial
 social:
 - https://www.facebook.com/profile.php?id=100082035586084

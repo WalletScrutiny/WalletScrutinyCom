@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: argentHQ
 social: 
 redirect_from: 

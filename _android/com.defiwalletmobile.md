@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-12
 signer: 
-reviewArchive: 
 twitter: slavi_io
 social:
 - https://t.me/SlaviDappGroup

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-20
 signer: 
-reviewArchive: 
 twitter: probos_wallet
 social:
 - https://t.me/probos_info

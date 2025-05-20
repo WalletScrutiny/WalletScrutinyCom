@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: bidarzpro
 social:
 - https://www.linkedin.com/company/bidarz/

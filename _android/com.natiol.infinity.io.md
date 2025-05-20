@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-07
 signer: 
-reviewArchive: 
 twitter: natiolinfinity
 social:
 - https://natiol.io

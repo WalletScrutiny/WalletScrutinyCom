@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-22
 signer: 
-reviewArchive: 
 twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: cTrader
 social:
 - https://www.linkedin.com/company/ctrader

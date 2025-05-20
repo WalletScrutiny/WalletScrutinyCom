@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: enjin
 social:
 - https://www.linkedin.com/company/enjin

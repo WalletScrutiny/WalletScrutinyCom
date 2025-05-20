@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: bitcoin_ox
 social:
 - https://www.facebook.com/bitcoinoxwallet

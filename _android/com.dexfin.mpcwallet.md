@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-09
 signer: 
-reviewArchive: 
 twitter: https://twitter.com/dexfinexchange
 social:
 - https://www.linkedin.com/company/dexfin

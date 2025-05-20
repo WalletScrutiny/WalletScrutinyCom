@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-30
 signer: 
-reviewArchive: 
 twitter: getsafle
 social: 
 redirect_from: 

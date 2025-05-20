@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: DeviantCoin
 social:
 - https://www.facebook.com/DeviantCoin

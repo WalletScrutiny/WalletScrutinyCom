@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-10
 signer: 
-reviewArchive: 
 twitter: morpher_io
 social:
 - https://www.linkedin.com/company/morpher

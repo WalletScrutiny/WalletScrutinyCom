@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp

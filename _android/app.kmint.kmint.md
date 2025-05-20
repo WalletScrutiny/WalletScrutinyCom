@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-04-06
 signer: 
-reviewArchive: 
 twitter: KMINT_protocol
 social:
 - https://t.me/KMINT_protocol

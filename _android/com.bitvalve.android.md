@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-03
 signer: 
-reviewArchive: 
 twitter: bitvalve
 social: 
 redirect_from: 

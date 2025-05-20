@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app

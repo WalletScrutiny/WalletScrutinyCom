@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: XChangeon
 social: 
 redirect_from: 

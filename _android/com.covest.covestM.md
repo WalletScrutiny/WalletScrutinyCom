@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-17
 signer: 
-reviewArchive: 
 twitter: COVEST_Official
 social:
 - https://t.me/covestpro

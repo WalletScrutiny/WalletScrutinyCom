@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: bitpinmarket
 social:
 - https://t.me/bitpin

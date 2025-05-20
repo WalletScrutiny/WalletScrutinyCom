@@ -27,39 +27,6 @@ appHashes:
 - 3da406028595ae50141e13a3530e7702766577eb69551c18d5cfaecbf399fb31
 date: 2025-03-19
 signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
-reviewArchive:
-- date: 2025-03-07
-  version: 0.9.0
-  appHashes:
-  - 426154e8f2e8d35516cfeedbc6cbd46a0d858ce29113332150a5cb2ac4254bca
-  - 40dc6d9e97c40a9fe6e581d097c85df5b86336d56f3b60617670cc8ecef3d135
-  - c0185e90f5622ff0955394f91d748b42c1539a6390011cd65306b8d09c224908
-  gitRevision: 0c2ee77bc6fa44c4441757e04959606e0c3e9145
-  verdict: reproducible
-- date: 2024-01-02
-  version: 0.8.9
-  appHashes:
-  - e7affe23ce103db8283001a023a4e03676a8fe49f167c42809762d8189ff657a
-  - 053c9e37743b36ab574d444df64460e8fd55050604715713423fe47fd7e8deac
-  - 42ee0b6f7b85e704b71357a0cb07678ca11cae38f56c9f4522c0bbfbe502c0bd
-  gitRevision: c7352ffe4c17654cdfc05bc24ff60c5832de792d
-  verdict: nonverifiable
-- date: 2024-01-02
-  version: 0.8.8
-  appHashes:
-  - 23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a
-  gitRevision: 16370f5e0f023ab1aee882013b60db42bddd55eb
-  verdict: nonverifiable
-- date: 2024-10-21
-  version: 0.8.7
-  appHashes: []
-  gitRevision: 8e88c9ff17f8903e91d21c64e95f6031b1f7dab2
-  verdict: nonverifiable
-- date: 2024-10-21
-  version: 0.8.7
-  appHashes: []
-  gitRevision: 8e88c9ff17f8903e91d21c64e95f6031b1f7dab2
-  verdict: ftbfs
 twitter: BitBananaApp
 social:
 - https://discord.gg/Xg85BuTc9A

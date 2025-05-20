@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-01-31
 signer: 
-reviewArchive: 
 twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFamilyOfficial

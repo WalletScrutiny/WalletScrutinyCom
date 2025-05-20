@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: MIRAQLE_MQL
 social:
 - https://www.instagram.com/miraqle_official

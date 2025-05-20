@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-11
 signer: 
-reviewArchive: 
 twitter: Kyrrexcom
 social:
 - https://www.linkedin.com/company/kyrrex
