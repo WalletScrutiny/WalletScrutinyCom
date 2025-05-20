@@ -24,7 +24,6 @@ meta: defunct
 verdict: prefilled
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.bitrated.com/BG4

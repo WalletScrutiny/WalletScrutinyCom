@@ -24,7 +24,6 @@ meta: ok
 verdict: nobtc
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: GoldexPlus
 social: 
 features: 

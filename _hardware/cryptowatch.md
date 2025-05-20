@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: thecryptowatchO
 social:
 - https://www.facebook.com/pg/The-Crypto-Watch-294696411478627

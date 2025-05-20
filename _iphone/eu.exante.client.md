@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-16
 signer: 
-reviewArchive: 
 twitter: EXANTE_EU
 social:
 - https://www.linkedin.com/company/exante-ltd

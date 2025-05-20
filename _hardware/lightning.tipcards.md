@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2023-03-03
 signer: 
-reviewArchive: 
 twitter: SatoshiEngTech
 social:
 - https://www.youtube.com/@satoshiengineering

@@ -26,7 +26,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: TheSpartaCard
 social:
 - https://www.linkedin.com/company/spartacard

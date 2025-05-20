@@ -31,26 +31,6 @@ appHashes:
 - d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
 date: 2024-12-18
 signer: 
-reviewArchive:
-- date: 2024-12-18
-  version: 0.8.0
-  appHashes:
-  - 1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
-  - 11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
-  - c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
-  - 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
-  gitRevision: 93f538c4a309c720acb3a344ddb614b5d546cefa
-  verdict: reproducible
-- date: 2023-09-14
-  version: 0.7.0
-  appHashes: []
-  gitRevision: ecbebc9a15b23cf32825669dd3ebb1a647f7a332
-  verdict: reproducible
-- date: 2022-03-26
-  version: 0.4.5
-  appHashes: []
-  gitRevision: bb77f0f230d1ae52c437d16db7f43d440d9aa003
-  verdict: nonverifiable
 twitter: SeedSigner
 social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS

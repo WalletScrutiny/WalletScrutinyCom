@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: HuobiWallet
 social:
 - https://www.facebook.com/HuobiWallet

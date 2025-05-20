@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: UZythOfficial
 social:
 - https://www.facebook.com/profile.php?id=100075999047886

@@ -28,7 +28,6 @@ verdict: wip
 appHashes: 
 date: 2022-02-18
 signer: 
-reviewArchive: 
 twitter: thebitfreezer
 social:
 - https://www.linkedin.com/company/bitfreezer

@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2022-05-20
 signer: 
-reviewArchive: 
 twitter: ledger
 social:
 - https://www.facebook.com/Ledger/

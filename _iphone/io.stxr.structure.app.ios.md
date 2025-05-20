@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-10-16
 signer: 
-reviewArchive: 
 twitter: structure_fi
 social:
 - https://www.linkedin.com/company/structurefi

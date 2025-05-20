@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-12
 signer: 
-reviewArchive: 
 twitter: VSTMEX
 social:
 - https://t.me/VSTMEX001

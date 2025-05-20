@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2021-07-30
 signer: 
-reviewArchive: 
 twitter: muunwallet
 social: 
 features:

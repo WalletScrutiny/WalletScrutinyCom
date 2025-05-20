@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: ByteTradeIo
 social:
 - https://www.facebook.com/bytehubDAPP

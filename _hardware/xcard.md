@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: xcardbymobilum
 social:
 - https://www.linkedin.com/in/mobilumcom/

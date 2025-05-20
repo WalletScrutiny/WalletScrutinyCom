@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: hotbit_korea
 social: 
 features: 

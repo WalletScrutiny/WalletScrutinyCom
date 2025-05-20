@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: wanchain_org
 social:
 - https://www.facebook.com/wanchainfoundation

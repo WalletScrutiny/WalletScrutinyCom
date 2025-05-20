@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-30
 signer: 
-reviewArchive: 
 twitter: worldcoin
 social:
 - https://www.linkedin.com/company/worldcoinproject

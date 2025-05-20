@@ -27,7 +27,6 @@ meta: ok
 verdict: prefilled
 date: 2023-09-29
 signer: 
-reviewArchive: 
 twitter: materialbitcoin
 social:
 - https://www.facebook.com/MaterialBitcoin

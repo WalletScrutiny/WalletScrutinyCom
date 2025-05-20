@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 date: 2024-05-08
-reviewArchive: 
 twitter: BirthdayDev
 social: 
 features: 

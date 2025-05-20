@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-07-03
-reviewArchive: 
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash

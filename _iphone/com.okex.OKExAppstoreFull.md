@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-23
 signer: 
-reviewArchive: 
 twitter: OKEx
 social:
 - https://www.facebook.com/okexofficial

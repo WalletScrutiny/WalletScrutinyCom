@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-21
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

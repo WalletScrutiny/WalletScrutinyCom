@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: BulwarkCrypto
 social:
 - https://www.reddit.com/r/BulwarkCoin/

@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/tdexnetwork

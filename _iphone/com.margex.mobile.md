@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: margexcom
 social:
 - https://margex.com

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-23
 signer: 
-reviewArchive: 
 twitter: Unicoin5
 social:
 - https://www.facebook.com/unicoindcx

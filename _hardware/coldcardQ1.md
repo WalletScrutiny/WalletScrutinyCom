@@ -32,25 +32,6 @@ appHashes:
 - b7f961a8dd9a957d532da1e98b411b790fc25187c5d58f72380faaba129ca1b1
 date: 2025-02-21
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
-reviewArchive:
-- date: 2024-11-05
-  version: 1.3.0Q
-  appHashes:
-  - cb23d9c1ace86724de450893239773e711f9c68486cd7d08fc6e4da5db1cc2b3
-  gitRevision: 934a9ec154a8225ff3bcb838078318deab3ff6c4
-  verdict: reproducible
-- date: 2024-08-12
-  version: 1.2.3Q
-  appHashes:
-  - 54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f
-  gitRevision: 0eae1408092d9dc6c7c7d4ad328c4f32fa968325
-  verdict: reproducible
-- date: 2024-05-31
-  version: 1.2.1Q
-  appHashes:
-  - 90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae
-  gitRevision: f75bca706d73b85a627828802bc757f705bd9921
-  verdict: reproducible
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard

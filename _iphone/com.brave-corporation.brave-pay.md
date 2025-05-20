@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: BraveCorporati1
 social:
 - https://www.bravepay.net

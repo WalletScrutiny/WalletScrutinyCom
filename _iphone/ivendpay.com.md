@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-04
 signer: 
-reviewArchive: 
 twitter: ivendpay
 social:
 - https://www.linkedin.com/company/ivendpay

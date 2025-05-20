@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2023-07-03
 signer: 
-reviewArchive: 
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou

@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: SeedHammer
 social: 
 features: 

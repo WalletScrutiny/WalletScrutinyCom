@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: sourceavailable
 date: 2024-05-08
-reviewArchive: 
 twitter: hxr_team
 social:
 - https://www.facebook.com/hxr.team/

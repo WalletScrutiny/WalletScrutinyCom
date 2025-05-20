@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: coinbene
 social:
 - https://www.linkedin.com/company/coinbene-official

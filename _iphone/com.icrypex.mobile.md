@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-31
 signer: 
-reviewArchive: 
 twitter: icrypex
 social:
 - https://medium.com/icrypex

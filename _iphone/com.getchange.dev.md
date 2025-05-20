@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-04
 signer: 
-reviewArchive: 
 twitter: changefinance
 social:
 - https://www.linkedin.com/company/changeinvest

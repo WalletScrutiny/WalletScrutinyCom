@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-09
 signer: 
-reviewArchive: 
 twitter: WazirxIndia
 social:
 - https://www.linkedin.com/company/wazirx

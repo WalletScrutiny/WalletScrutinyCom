@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2021-11-22
 signer: 
-reviewArchive: 
 twitter: coinflexdotcom
 social:
 - https://www.linkedin.com/company/coinflex

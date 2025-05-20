@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: BitPreco
 social:
 - https://www.linkedin.com/company/bitpreco

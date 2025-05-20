@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-30
 signer: 
-reviewArchive: 
 twitter: getMaiar
 social:
 - https://www.linkedin.com/company/getmaiar

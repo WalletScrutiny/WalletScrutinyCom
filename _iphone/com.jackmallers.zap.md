@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: ln_zap
 social: 
 features:

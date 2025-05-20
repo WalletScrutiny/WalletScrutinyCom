@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-21
 signer: 
-reviewArchive: 
 twitter: hodllabs
 social:
 - https://www.linkedin.com/company/hodllabs/

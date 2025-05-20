@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-21
 signer: 
-reviewArchive: 
 twitter: AnkerPay
 social:
 - https://www.facebook.com/AnkerPlatform

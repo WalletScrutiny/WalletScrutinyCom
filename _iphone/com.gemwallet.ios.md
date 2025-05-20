@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-06-12
 signer: 
-reviewArchive: 
 twitter: GemWalletApp
 social:
 - https://github.com/gemwalletcom

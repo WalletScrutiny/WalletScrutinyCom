@@ -33,45 +33,6 @@ appHashes:
 - f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964
 date: 2025-02-28
 signer: 
-reviewArchive:
-- date: 2025-02-21
-  version: v5.4.1
-  appHashes:
-  - eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e
-  - ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94
-  gitRevision: 149e3366c5f7be34cae384c9b221ee79935eafd5
-  verdict: reproducible
-- date: 2024-01-02
-  version: v6.3.4X
-  appHashes:
-  - 681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13
-  - 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336
-  gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
-  verdict: reproducible
-- date: 2024-10-01
-  version: v5.4.0
-  appHashes:
-  - 04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5
-  gitRevision: d7dc11abaa3b2e7aae9321e66de7eea53a03f064
-  verdict: reproducible
-- date: 2024-08-15
-  version: v5.3.3
-  appHashes:
-  - a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28
-  gitRevision: 8644d08aa08a2187b92322fcd6fa5184ebeba288
-  verdict: reproducible
-- date: 2023-10-08
-  version: v5.1.4
-  appHashes:
-  - 4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea
-  gitRevision: f7e12618fa33223fde14fce8c27c4a98833bb15c
-  verdict: reproducible
-- date: 2023-06-22
-  version: v5.1.2
-  appHashes:
-  - 7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a
-  gitRevision: 8c8a96cc2119fd85e4a8ffdc88ff2921c0085ed6
-  verdict: reproducible
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: []
 date: 2021-07-28
 signer: 
-reviewArchive: 
 twitter: yellowcard_app
 social:
 - https://www.linkedin.com/company/yellowcardapp

@@ -18,7 +18,6 @@ bugbounty:
 meta: defunct
 verdict: nosource
 date: 2024-04-24
-reviewArchive: 
 twitter: atomex_official
 social: 
 features: 

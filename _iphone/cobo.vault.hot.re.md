@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2021-11-17
 signer: 
-reviewArchive: 
 twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/cobo-official

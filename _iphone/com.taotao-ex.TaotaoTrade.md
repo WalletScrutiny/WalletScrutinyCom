@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-26
 signer: 
-reviewArchive: 
 twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg

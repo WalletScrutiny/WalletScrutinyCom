@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-05-18
 signer: 
-reviewArchive: 
 twitter: EliteWallet
 social:
 - https://t.me/elite_wallet

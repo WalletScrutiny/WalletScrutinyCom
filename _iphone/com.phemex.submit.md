@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-20
 signer: 
-reviewArchive: 
 twitter: phemex_official
 social:
 - https://www.linkedin.com/company/phemex

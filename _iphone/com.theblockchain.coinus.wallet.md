@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-31
 signer: 
-reviewArchive: 
 twitter: CoinUs_Official
 social:
 - https://www.facebook.com/CoinUsOfficial

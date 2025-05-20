@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-04-17
 signer: 
-reviewArchive: 
 twitter: circle
 social:
 - https://linkedin.com/company/circle-internet-financial

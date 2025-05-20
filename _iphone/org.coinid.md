@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: COINiDGroup
 social: 
 features: 

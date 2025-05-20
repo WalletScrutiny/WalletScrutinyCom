@@ -21,7 +21,6 @@ verdict: wip
 appHashes: 
 date: 2021-01-15
 signer: 
-reviewArchive: 
 twitter: iSafePal
 social: 
 features: 

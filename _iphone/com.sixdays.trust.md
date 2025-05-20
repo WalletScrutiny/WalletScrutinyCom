@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2020-12-23
 signer: 
-reviewArchive: 
 twitter: trustwalletapp
 social:
 - https://www.facebook.com/trustwalletapp

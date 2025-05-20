@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: stakwork
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-06
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.tbitex.com

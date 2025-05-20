@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-07
 signer: 
-reviewArchive: 
 twitter: LetsBit_ok
 social:
 - https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw

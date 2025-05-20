@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-25
 signer: 
-reviewArchive: 
 twitter: cryptonatorcom
 social: 
 features: 

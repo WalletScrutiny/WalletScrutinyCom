@@ -28,7 +28,6 @@ verdict: plainkey
 appHashes: 
 date: 2022-02-18
 signer: 
-reviewArchive: 
 twitter: MoriXjp
 social: 
 features: 

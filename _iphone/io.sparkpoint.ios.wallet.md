@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-08-31
 signer: 
-reviewArchive: 
 twitter: sparkpointio
 social:
 - https://www.linkedin.com/company/sparkpointio

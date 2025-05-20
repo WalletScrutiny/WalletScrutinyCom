@@ -28,7 +28,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-20
 signer: 
-reviewArchive: 
 twitter: stepansnigirev
 social: 
 features: 

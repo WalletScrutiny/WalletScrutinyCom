@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: keevowallet
 social:
 - https://www.facebook.com/keevowallet

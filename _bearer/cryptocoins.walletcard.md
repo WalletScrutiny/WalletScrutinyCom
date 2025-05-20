@@ -28,7 +28,6 @@ meta: defunct
 verdict: prefilled
 date: 2023-04-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

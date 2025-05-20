@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-07-01
 signer: 
-reviewArchive: 
 twitter: cchallengesborg
 social: 
 features: 

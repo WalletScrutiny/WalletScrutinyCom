@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-02-20
 signer: 
-reviewArchive: 
 twitter: MUIcommunity
 social:
 - https://www.linkedin.com/company/metamui

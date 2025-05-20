@@ -28,7 +28,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-07-07
 signer: 
-reviewArchive: 
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal

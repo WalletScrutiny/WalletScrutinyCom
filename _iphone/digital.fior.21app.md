@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: 21bitcoinApp
 social:
 - https://www.facebook.com/21bitcoinapp

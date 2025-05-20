@@ -32,13 +32,6 @@ appHashes:
 - 90d795380fa7def90f4924a672b64d086b55892266be8baae12c63871ab6598b
 date: 2022-04-18
 signer: 
-reviewArchive:
-- date: 2021-12-11
-  version: 4.1.7
-  appHashes:
-  - 0a89405429ea6aa5abe8533f538f45bbaff36044b62aefcaaa63ef52bffebde0
-  gitRevision: 5039bd8dc007690d50a6b60b5768c239255434af
-  verdict: reproducible
 twitter: 
 social: 
 features: 

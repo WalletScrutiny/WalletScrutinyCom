@@ -25,7 +25,6 @@ verdict: unreleased
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: xelloxWallet
 social:
 - https://www.linkedin.com/company/xellox/

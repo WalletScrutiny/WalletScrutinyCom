@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: PatriciaSwitch
 social:
 - https://www.instagram.com/welcometopatricia

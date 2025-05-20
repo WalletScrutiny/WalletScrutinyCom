@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-15
 signer: 
-reviewArchive: 
 twitter: haha_app
 social:
 - https://www.linkedin.com/company/haha-app

@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-05-09
-reviewArchive: 
 twitter: shockbtc
 social: 
 features: 

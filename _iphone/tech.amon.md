@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-17
 signer: 
-reviewArchive: 
 twitter: amonwallet
 social:
 - https://www.facebook.com/amonwallet

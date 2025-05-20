@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-15
 signer: 
-reviewArchive: 
 twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc

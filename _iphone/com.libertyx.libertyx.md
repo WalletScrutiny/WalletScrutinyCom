@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: libertyx
 social:
 - https://www.linkedin.com/company/libertyx

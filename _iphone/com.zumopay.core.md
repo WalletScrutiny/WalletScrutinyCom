@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: zumopay
 social:
 - https://www.linkedin.com/company/zumomoney

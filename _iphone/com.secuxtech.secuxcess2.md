@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

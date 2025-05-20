@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2023-03-08
 signer: 
-reviewArchive: 
 twitter: uhodl
 social:
 - https://twitter.com/art_k42

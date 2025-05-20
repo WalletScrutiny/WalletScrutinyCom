@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-18
 signer: 
-reviewArchive: 
 twitter: cryptoforce_in
 social:
 - https://www.facebook.com/cryptoforceindia

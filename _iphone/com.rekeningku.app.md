@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com

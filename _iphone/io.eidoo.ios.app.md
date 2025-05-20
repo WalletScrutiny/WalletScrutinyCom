@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: eidoo_io
 social:
 - https://t.me/eidoocryptoworld

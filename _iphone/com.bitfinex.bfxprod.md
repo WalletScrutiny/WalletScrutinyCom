@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-31
 signer: 
-reviewArchive: 
 twitter: bitfinex
 social:
 - https://www.linkedin.com/company/bitfinex

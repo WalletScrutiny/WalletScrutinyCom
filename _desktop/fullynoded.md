@@ -18,7 +18,6 @@ bugbounty:
 meta: stale
 verdict: sourceavailable
 date: 2024-04-25
-reviewArchive: 
 twitter: FullyNoded
 social: 
 features: 

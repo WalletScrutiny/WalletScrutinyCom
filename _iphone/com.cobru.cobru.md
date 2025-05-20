@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-30
 signer: 
-reviewArchive: 
 twitter: cobruapp
 social:
 - https://www.facebook.com/cobruapp

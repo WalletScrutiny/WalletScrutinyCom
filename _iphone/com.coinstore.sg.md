@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: coinstore_en
 social:
 - https://www.linkedin.com/company/coinstore

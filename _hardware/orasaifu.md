@@ -28,7 +28,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: OrasaifuWallet
 social:
 - https://www.facebook.com/OraSaifu/

@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: nosource
 date: 2024-04-25
-reviewArchive: 
 twitter: ownrwallet
 social: 
 features: 

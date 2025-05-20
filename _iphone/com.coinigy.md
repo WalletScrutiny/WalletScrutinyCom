@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: coinigy
 social:
 - https://www.linkedin.com/company/coinigy

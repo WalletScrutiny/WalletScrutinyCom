@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: airtimedatahub
 social:
 - https://www.facebook.com/Airtimedatahub

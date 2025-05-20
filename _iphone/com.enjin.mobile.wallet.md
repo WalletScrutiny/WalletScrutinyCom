@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-17
 signer: 
-reviewArchive: 
 twitter: enjin
 social:
 - https://www.linkedin.com/company/enjin
