@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-09-22
 updated: 2025-05-08
 version: 2.1.11
-stars: 2
+stars: 1.9
 ratings: 377
-reviews: 200
+reviews: 196
 website: https://ecos.am
 repository: 
 issue: 

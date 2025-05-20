@@ -12,7 +12,7 @@ updated: 2025-04-14
 version: 2.18.0
 stars: 4.8
 ratings: 34617
-reviews: 48719
+reviews: 48722
 website: https://www.tokocrypto.com
 repository: 
 issue: 
