@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2020-12-08
 signer: 
-reviewArchive: 
 twitter: chainzillaio
 social:
 - https://www.reddit.com/r/ChainZilla

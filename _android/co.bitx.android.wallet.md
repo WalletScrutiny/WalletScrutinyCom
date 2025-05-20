@@ -23,12 +23,6 @@ verdict: custodial
 appHashes: []
 date: 2020-10-12
 signer: 
-reviewArchive:
-- date: 2019-11-14
-  version: 6.8.0
-  appHashes: []
-  gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
-  verdict: nosource
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal

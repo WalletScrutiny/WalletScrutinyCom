@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: haruinvest
 social:
 - https://www.facebook.com/haruinvest

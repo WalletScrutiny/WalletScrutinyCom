@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-08-16
 signer: 
-reviewArchive: 
 twitter: Exolix_com
 social:
 - https://www.facebook.com/www.exolix

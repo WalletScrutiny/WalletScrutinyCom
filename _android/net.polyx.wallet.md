@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: Polyxchange
 social:
 - https://www.facebook.com/Polyxchange

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: Oduwacoin
 social:
 - https://www.facebook.com/Oduwacoin

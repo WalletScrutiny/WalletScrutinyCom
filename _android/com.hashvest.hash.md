@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: gethashapp
 social:
 - https://www.facebook.com/goHashApp

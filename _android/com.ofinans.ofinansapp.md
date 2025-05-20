@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: MiracleCashMore
 social:
 - https://www.instagram.com/miraclecashandmore/

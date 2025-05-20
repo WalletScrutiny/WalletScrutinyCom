@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX/

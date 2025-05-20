@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: SkillingTrading
 social:
 - https://www.linkedin.com/company/skilling

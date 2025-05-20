@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-09
 signer: 
-reviewArchive: 
 twitter: bitmarkets_com
 social:
 - https://discord.com/invite/fNCXVKFtfB

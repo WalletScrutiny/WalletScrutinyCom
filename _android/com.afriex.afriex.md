@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-30
 signer: 
-reviewArchive: 
 twitter: afriexapp
 social:
 - https://www.linkedin.com/company/afriex

@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-12-18
 signer: 
-reviewArchive: 
 twitter: keepser
 social: 
 redirect_from: 

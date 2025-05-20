@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: Localcoinswap_
 social:
 - https://www.linkedin.com/company/localcoinswap

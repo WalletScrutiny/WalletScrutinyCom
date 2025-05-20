@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-29
 signer: 
-reviewArchive: 
 twitter: treasurewallett
 social:
 - https://www.facebook.com/TreasuresWallet

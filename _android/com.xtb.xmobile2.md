@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: xtbuk
 social:
 - https://www.linkedin.com/company/xtb-international

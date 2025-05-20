@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: paraticacom
 social:
 - https://www.linkedin.com/company/paratica/

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

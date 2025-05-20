@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: metalpaysme
 social:
 - https://www.facebook.com/metalpaysme

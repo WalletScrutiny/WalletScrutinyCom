@@ -23,12 +23,6 @@ verdict: nosource
 appHashes: []
 date: 2021-12-29
 signer: 
-reviewArchive:
-- date: 2020-08-29
-  version: '2.1'
-  appHashes: []
-  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
-  verdict: nonverifiable
 twitter: 
 social: 
 redirect_from:

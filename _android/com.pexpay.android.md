@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: Pexpay_official
 social:
 - https://www.facebook.com/pexpay.official/

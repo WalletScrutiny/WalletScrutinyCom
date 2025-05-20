@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-10
 signer: 
-reviewArchive: 
 twitter: bitnovo
 social:
 - https://www.facebook.com/BitcoinBitnovo

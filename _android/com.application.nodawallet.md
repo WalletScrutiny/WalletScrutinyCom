@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-30
 signer: 
-reviewArchive: 
 twitter: DexNodaWallett
 social:
 - https://www.linkedin.com/company/noda-project-8b4a251b3

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: vynkgroup
 social:
 - https://www.linkedin.com/in/vynkchain-community-59b283208

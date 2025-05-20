@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-21
 signer: 
-reviewArchive: 
 twitter: BingbonOfficial
 social:
 - https://www.linkedin.com/company/bingbon

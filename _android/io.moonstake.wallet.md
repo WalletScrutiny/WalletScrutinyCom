@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: moonstake
 social:
 - https://www.linkedin.com/company/moonstake

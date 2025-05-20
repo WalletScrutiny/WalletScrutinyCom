@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-05-07
 signer: 
-reviewArchive: 
 twitter: Coinomo_EN
 social:
 - https://www.instagram.com/coinomo_id

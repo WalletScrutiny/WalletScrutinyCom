@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-10
 signer: 
-reviewArchive: 
 twitter: kite_financial
 social:
 - https://www.facebook.com/kitefinancial

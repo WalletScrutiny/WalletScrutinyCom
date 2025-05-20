@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-15
 signer: 
-reviewArchive: 
 twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial

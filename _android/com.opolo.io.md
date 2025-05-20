@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: OpoloWallet
 social:
 - https://www.linkedin.com/company/opolo-ltd/

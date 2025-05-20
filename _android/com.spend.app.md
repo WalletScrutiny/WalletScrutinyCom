@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-05-18
 signer: 
-reviewArchive: 
 twitter: Spendcom
 social:
 - https://www.facebook.com/spend

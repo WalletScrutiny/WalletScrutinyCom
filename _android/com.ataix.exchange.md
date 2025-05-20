@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: ATAIXcom
 social:
 - https://www.linkedin.com/company/ataixcom

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-11
 signer: 
-reviewArchive: 
 twitter: banexcoin
 social:
 - https://www.linkedin.com/company/banexcoin/

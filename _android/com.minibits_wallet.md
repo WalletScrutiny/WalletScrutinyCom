@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-29
 signer: 
-reviewArchive: 
 twitter: MinibitsCash
 social: 
 redirect_from: 

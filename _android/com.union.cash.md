@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: unioncash_eu
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-13
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/FollowMyMoneyOfficial

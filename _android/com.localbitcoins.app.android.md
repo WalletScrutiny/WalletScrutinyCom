@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: LocalBitcoins
 social:
 - https://www.linkedin.com/company/localbitcoins

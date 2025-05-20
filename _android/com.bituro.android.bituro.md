@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp

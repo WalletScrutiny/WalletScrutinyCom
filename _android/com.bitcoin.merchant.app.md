@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-05-24
 signer: 
-reviewArchive: 
 twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news

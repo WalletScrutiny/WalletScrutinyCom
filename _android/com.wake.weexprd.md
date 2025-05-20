@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-17
 signer: 
-reviewArchive: 
 twitter: WEEX_Official
 social:
 - https://www.facebook.com/WEEXGlobal

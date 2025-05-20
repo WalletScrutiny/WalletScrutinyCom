@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-20
 signer: 
-reviewArchive: 
 twitter: BTCMarkets
 social:
 - https://www.facebook.com/btcmarkets

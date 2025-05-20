@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-07
 signer: 
-reviewArchive: 
 twitter: SALTlending
 social:
 - https://www.linkedin.com/company/saltlending

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/capex.mn

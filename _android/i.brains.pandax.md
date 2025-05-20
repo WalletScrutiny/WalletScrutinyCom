@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: PandarNG
 social: 
 redirect_from: 

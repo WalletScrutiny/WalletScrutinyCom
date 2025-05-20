@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: TalosAfrica
 social:
 - https://www.facebook.com/profile.php?id=100064741792233

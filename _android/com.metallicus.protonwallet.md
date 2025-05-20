@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr

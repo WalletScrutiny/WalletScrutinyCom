@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-09
 signer: 
-reviewArchive: 
 twitter: RevixInvest
 social:
 - https://www.facebook.com/RevixInvest

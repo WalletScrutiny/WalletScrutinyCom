@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/teamorinoco/videos/554519616420848

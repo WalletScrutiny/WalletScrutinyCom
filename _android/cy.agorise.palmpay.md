@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-30
 signer: 
-reviewArchive: 
 twitter: Agorise_world
 social: 
 redirect_from: 

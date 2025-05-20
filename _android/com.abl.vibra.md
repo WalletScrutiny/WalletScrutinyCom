@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: VibraAfrica
 social:
 - https://www.linkedin.com/company/vibraafrica/

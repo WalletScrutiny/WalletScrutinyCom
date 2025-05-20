@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-19
 signer: 
-reviewArchive: 
 twitter: OceanexOfficial
 social:
 - https://www.facebook.com/OceanExPROOfficial

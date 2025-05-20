@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-01-19
 signer: 
-reviewArchive: 
 twitter: GoCrypto_
 social:
 - https://www.facebook.com/gocrypto.eligma

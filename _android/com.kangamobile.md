@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-20
 signer: 
-reviewArchive: 
 twitter: KangaExchange
 social:
 - https://www.linkedin.com/company/kangaexchange/

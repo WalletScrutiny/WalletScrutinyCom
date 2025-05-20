@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-12-29
 signer: 
-reviewArchive: 
 twitter: HexaWallet
 social: 
 redirect_from:

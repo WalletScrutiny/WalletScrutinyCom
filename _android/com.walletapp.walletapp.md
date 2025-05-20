@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2021-06-18
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

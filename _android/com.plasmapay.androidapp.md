@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2021-11-17
 signer: 
-reviewArchive: 
 twitter: 0xPlasma
 social:
 - https://www.linkedin.com/company/0xplasma

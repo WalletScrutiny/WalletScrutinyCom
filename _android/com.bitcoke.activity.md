@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-09
 signer: 
-reviewArchive: 
 twitter: BitCokedotcom
 social: 
 redirect_from: 

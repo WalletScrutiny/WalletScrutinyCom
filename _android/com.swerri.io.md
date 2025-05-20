@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: Swerriapp
 social:
 - https://www.linkedin.com/company/swerri/

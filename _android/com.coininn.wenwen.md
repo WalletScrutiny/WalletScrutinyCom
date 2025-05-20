@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: coin_inn
 social:
 - https://www.linkedin.com/company/coininnwealthuab

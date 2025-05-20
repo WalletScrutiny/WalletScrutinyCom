@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-04
 signer: 
-reviewArchive: 
 twitter: smilesbitcoin
 social:
 - https://www.facebook.com/smilesbitcoin

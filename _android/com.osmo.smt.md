@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: osmowallet
 social:
 - https://www.linkedin.com/company/osmo-wallet

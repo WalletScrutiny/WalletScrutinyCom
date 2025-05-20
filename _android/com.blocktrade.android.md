@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: Blocktradecom
 social:
 - https://www.linkedin.com/company/blocktradecom

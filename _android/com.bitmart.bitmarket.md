@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-20
 signer: 
-reviewArchive: 
 twitter: BitMartExchange
 social:
 - https://www.linkedin.com/company/bitmart

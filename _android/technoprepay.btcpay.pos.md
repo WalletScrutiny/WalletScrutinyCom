@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-03
 signer: 
-reviewArchive: 
 twitter: technoprepay
 social:
 - https://www.facebook.com/profile.php?id=100063462636616

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-06-20
 signer: 
-reviewArchive: 
 twitter: youhodler
 social:
 - https://www.linkedin.com/company/youhodler

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: wisebitcoin
 social: 
 redirect_from: 

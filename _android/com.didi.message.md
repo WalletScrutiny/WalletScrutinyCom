@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: DiDimessage
 social:
 - https://www.facebook.com/DiDi-Message-105506995020030

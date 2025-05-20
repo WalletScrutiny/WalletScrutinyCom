@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: capex_en
 social:
 - https://www.linkedin.com/company/capexglobal

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-06-23
 signer: 
-reviewArchive: 
 twitter: nyecoin1
 social:
 - https://www.linkedin.com/in/nye-coin-58b031181

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-09
 signer: 
-reviewArchive: 
 twitter: skrill
 social:
 - https://www.facebook.com/Skrillpayments

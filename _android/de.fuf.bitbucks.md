@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: bit_bucks
 social:
 - https://www.facebook.com/bitbucks.io

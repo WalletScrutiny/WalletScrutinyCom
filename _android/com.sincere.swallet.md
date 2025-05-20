@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-11
 signer: 
-reviewArchive: 
 twitter: SWallet_ai
 social:
 - https://www.facebook.com/SWallet.en

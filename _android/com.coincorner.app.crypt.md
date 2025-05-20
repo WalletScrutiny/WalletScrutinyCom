@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-02
 signer: 
-reviewArchive: 
 twitter: CoinCorner
 social:
 - https://www.facebook.com/CoinCorner

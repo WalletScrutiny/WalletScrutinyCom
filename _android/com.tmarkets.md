@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: T1_Markets
 social:
 - https://www.facebook.com/t1markets

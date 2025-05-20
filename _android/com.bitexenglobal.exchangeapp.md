@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019

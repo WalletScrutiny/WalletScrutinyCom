@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-16
 signer: 
-reviewArchive: 
 twitter: fxwallet
 social:
 - https://www.facebook.com/Fxwallet.info

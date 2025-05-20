@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-22
 signer: 
-reviewArchive: 
 twitter: bytefederal
 social:
 - https://www.facebook.com/bytefederal

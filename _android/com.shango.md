@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2021-07-16
 signer: 
-reviewArchive: 
 twitter: shangoapp
 social:
 - https://www.facebook.com/shangoapp

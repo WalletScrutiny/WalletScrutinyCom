@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: stibits
 social: 
 redirect_from: 

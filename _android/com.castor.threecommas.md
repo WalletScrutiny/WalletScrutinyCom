@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: 3commas_io
 social:
 - https://www.facebook.com/3commas.io/

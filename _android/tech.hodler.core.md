@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: HODLER_TECH
 social: 
 redirect_from: 

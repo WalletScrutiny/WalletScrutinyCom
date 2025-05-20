@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: token_vera
 social:
 - https://www.linkedin.com/company/vera-token-74a925218

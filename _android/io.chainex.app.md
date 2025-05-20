@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: ChainEXIO
 social:
 - https://www.linkedin.com/company/chainexio

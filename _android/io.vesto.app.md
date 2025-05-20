@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-26
 signer: 
-reviewArchive: 
 twitter: vestoprotocol
 social:
 - https://www.linkedin.com/company/vesto-llc

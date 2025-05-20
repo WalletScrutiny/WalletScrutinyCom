@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: mybitstore
 social:
 - https://facebook.com/mybitstore

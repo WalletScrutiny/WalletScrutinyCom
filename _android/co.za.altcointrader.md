@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-22
 signer: 
-reviewArchive: 
 twitter: AltCoinTraderSA
 social: 
 redirect_from: 

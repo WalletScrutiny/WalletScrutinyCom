@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-03
 signer: 
-reviewArchive: 
 twitter: bitcom_exchange
 social:
 - https://www.linkedin.com/company/bitcom-exchange

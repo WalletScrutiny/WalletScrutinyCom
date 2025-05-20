@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-16
 signer: 
-reviewArchive: 
 twitter: paribucom
 social:
 - https://www.youtube.com/c/Paribu

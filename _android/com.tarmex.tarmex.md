@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: Tarmexio
 social:
 - https://www.facebook.com/Tarmex.exchange

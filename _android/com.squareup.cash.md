@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-08-06
 signer: 
-reviewArchive: 
 twitter: cashapp
 social: 
 redirect_from:

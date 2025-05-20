@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-09-12
 signer: 
-reviewArchive: 
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash

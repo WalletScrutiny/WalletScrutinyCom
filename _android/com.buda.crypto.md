@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-07
 signer: 
-reviewArchive: 
 twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom

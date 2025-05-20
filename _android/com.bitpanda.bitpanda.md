@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: Bitpanda_global
 social:
 - https://www.facebook.com/BITPANDA

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: AltbaseApp
 social:
 - https://www.youtube.com/channel/UCFHlUl2j_mSoFQATODb7MyQ

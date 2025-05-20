@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: kryptogo_
 social:
 - https://www.facebook.com/kryptogo
