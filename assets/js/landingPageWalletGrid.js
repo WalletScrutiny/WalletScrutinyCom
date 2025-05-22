@@ -6,11 +6,6 @@ window.verdictCount = {};
 let isInitializing = true;
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } };
 
-window.addEventListener('allWalletsLoaded', () => {
-  isInitializing = false;
-  updateWalletGridInputOriginatingFromURL();
-});
-
 for (const [key, value] of Object.entries(wfInputTargets)) {
   if (value.type === 'dropdown') {
     addDropdownEvents(key, () => { 
