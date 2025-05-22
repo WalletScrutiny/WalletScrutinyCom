@@ -7,6 +7,11 @@
 {% endif %}
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
+<script>
+  (async function() {
+    window.allAssetInformation = await getAllAssetInformation({months: 6});
+  })();
+</script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}

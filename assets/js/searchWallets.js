@@ -86,6 +86,32 @@ function performSearch (wallets, query = false, platform = false) {
     if (a.verdict !== b.verdict && a.verdict && b.verdict) {
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
     }
+    if (a.verdict === 'sourceavailable' && b.verdict === 'sourceavailable') {
+      try {
+        if (!window.allAssetInformation) {
+          return 0;
+        }
+
+        const resultA = getWeightForAppFromAssetInformation(a.appId);
+        const aWeight = resultA.weight;
+        const aLastVersionVerified = resultA.lastVersionVerified;
+
+        const resultB = getWeightForAppFromAssetInformation(b.appId);
+        const bWeight = resultB.weight;
+        const bLastVersionVerified = resultB.lastVersionVerified;
+
+        // First compare by lastVersionVerified
+        if (aLastVersionVerified !== bLastVersionVerified) {
+          return bLastVersionVerified - aLastVersionVerified;
+        }
+        // If lastVersionVerified are equal, compare by weight
+        return bWeight - aWeight;
+
+      } catch (e) {
+        console.error(e);
+        return 0;
+      }
+    }
     if (a.meta !== b.meta && a.meta && b.meta) {
       return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
     }
