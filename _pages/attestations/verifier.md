@@ -56,8 +56,6 @@ permalink: /verifier/
   <div id="verificationContent"></div>
 </div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'), purifyConfig);

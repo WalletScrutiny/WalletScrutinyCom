@@ -6,8 +6,6 @@ permalink: /new_asset/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <div class="form-container">
   <div class="info-message">
     <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information<span class="drag-and-drop-area bigScreenOnly">, or drag and drop your binary file here so we calculate some fields for you</span>:</p>
