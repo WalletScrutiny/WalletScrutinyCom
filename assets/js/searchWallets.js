@@ -258,6 +258,12 @@ function makeCompactResultsHTML (wallet) {
     for (let i = 0; i < wallet.score.numerator; i++) { passed += '<i class="pass"></i>'; }
     for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += '<i class="fail"></i>'; }
   }
+
+  let lastVerificationStatus = null;
+  if (window.allAssetInformation) {
+    lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+  }
+
   result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
     <div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>
       <span class="result-title-wrapper">
@@ -268,14 +274,15 @@ function makeCompactResultsHTML (wallet) {
       </span>
       <span class="stats">
         <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-      ${wallet.meta && wallet.meta !== 'ok'
-        ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-        : ''}
-      ${wallet.score
-        ? `<div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-          <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-          <div>${passed}${failed}</div>
-        </div>`
+        ${lastVerificationStatus ? `<br><span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : ''}
+        ${wallet.meta && wallet.meta !== 'ok'
+          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
+          : ''}
+        ${wallet.score
+          ? `<div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
+            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
+            <div>${passed}${failed}</div>
+          </div>`
         : ''}
     </span>
     </a>`;

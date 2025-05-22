@@ -963,23 +963,23 @@ function doDraftVerificationAction(draftVerificationEventId, action) {
   }
 }
 
+// Helper to compare semantic versions like "1.2.3"
+function compareVersions(a, b) {
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const na = pa[i] || 0;
+    const nb = pb[i] || 0;
+    if (na > nb) return 1;
+    if (na < nb) return -1;
+  }
+  return 0;
+}
+
 function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
   // Check if getAllAssetInformationResult.verifications is defined
   if (!getAllAssetInformationResult.verifications) {
     throw new Error('getAllAssetInformationResult.verifications is not defined');
-  }
-
-  // Helper to compare semantic versions like "1.2.3"
-  function compareVersions(a, b) {
-    const pa = a.split('.').map(Number);
-    const pb = b.split('.').map(Number);
-    for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
-      const na = pa[i] || 0;
-      const nb = pb[i] || 0;
-      if (na > nb) return 1;
-      if (na < nb) return -1;
-    }
-    return 0;
   }
 
   let maxVersion = null;
@@ -1022,6 +1022,32 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
     lastVerifiedVersion: verifiedVersion,
     lastVerifiedVersionDate: verifiedDate
   };
+}
+
+function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) {
+  let verification = null;
+  let maxVersion = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const version = asset.tags.find(tag => tag[0] === 'version')?.[1];
+      const appIdTag = asset.tags.find(tag => tag[0] === 'i')?.[1];
+      if (version && (appIdTag === appId)) {
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          verification = asset;
+          maxVersion = version;
+        }
+      }
+    }
+  }
+
+  if (verification) {
+    return verification.tags.find(tag => tag[0] === 'status')?.[1];
+  }
+
+  return null;
 }
 
 function getWeightForAppFromAssetInformation(appId) {
@@ -1087,6 +1113,7 @@ if (typeof window !== 'undefined') {
   window.getFileAttachmentEvents = getFileAttachmentEvents;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
   window.getMaxAssetVersion = getMaxAssetVersion;
+  window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
   window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
 }
 
