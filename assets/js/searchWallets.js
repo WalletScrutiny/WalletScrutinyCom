@@ -86,6 +86,9 @@ function performSearch (wallets, query = false, platform = false) {
     if (a.verdict !== b.verdict && a.verdict && b.verdict) {
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
     }
+    if (a.meta !== b.meta && a.meta && b.meta) {
+      return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
+    }
     if (a.verdict === 'sourceavailable' && b.verdict === 'sourceavailable') {
       try {
         if (!window.allAssetInformation) {
@@ -111,9 +114,6 @@ function performSearch (wallets, query = false, platform = false) {
         console.error(e);
         return 0;
       }
-    }
-    if (a.meta !== b.meta && a.meta && b.meta) {
-      return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
     }
     if (a.folder !== b.folder) {
       return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
