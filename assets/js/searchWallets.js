@@ -274,7 +274,7 @@ function makeCompactResultsHTML (wallet) {
       </span>
       <span class="stats">
         <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-        ${lastVerificationStatus ? `<br><span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : ''}
+        ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<br><span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<br><span>❓ Not verified yet</span>') : ''}
         ${wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : ''}
