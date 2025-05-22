@@ -3,13 +3,21 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 {% endif %}
-{% if page.url == "/" %}
+
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
+<script>
+  (async function() {
+    window.allAssetInformation = await getAllAssetInformation({months: 6});
+    window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+  })();
+</script>
+
+{% if page.url == "/" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
+
 <script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
 <script>
   window.addEventListener('load', function() {

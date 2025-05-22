@@ -5,8 +5,6 @@ permalink: /new_verification/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <style>
     .hash-input-container {
         display: flex;
