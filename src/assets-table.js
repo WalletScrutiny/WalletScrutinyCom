@@ -871,20 +871,16 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
-  try {
-    document.getElementById(htmlElementId).appendChild(`
-      <div id="diffoscopeModal" class="diffoscope-modal">
-        <div class="diffoscope-modal-content">
-          <div class="diffoscope-controls">
-              <span class="diffoscope-maximize" title="Maximize">⛶</span>
-              <span class="diffoscope-close" title="Close">✖</span>
-          </div>
-          <iframe id="diffoscopeFrame"></iframe>
-      </div>
-    </div>`);
-  } catch (error) {
-    console.debug('Catching this problem for now, but we should fix it:', error);
-  }
+  document.getElementById(htmlElementId).innerHTML += `
+    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
+      <div class="diffoscope-modal-content">
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
+        <iframe id="diffoscopeFrame"></iframe>
+    </div>
+  </div>`;
 
   return {
     hasAssets,
