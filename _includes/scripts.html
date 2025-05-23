@@ -8,8 +8,10 @@
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 <script>
   (async function() {
+    await nostrConnect();
     window.allAssetInformation = await getAllAssetInformation({months: 6});
     window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+    loadDraftVerificationsNotifications();
   })();
 </script>
 

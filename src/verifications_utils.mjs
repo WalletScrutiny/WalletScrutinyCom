@@ -118,16 +118,40 @@ const userHasBrowserExtension = function() {
   return new Promise((resolve) => {
     if (typeof window === 'undefined') {
       resolve(false);
+      return;
     }
+    
     if (window.nostr) {
       resolve(true);
+      return;
     }
 
-    // Wait a bit for the extension to load
-    setTimeout(() => {
-      console.debug("Browser extension:", Boolean(window.nostr));
-      resolve(Boolean(window.nostr));
-    }, 100);
+    // Retry system: 20 attempts every 20ms
+    let attempts = 0;
+    const maxAttempts = 20;
+    const retryDelay = 20;
+
+    const checkExtension = () => {
+      attempts++;
+      
+      if (window.nostr) {
+        console.debug("Browser extension found on attempt:", attempts);
+        resolve(true);
+        return;
+      }
+      
+      if (attempts >= maxAttempts) {
+        console.debug("Browser extension not found after", maxAttempts, "attempts");
+        resolve(false);
+        return;
+      }
+      
+      // Schedule next attempt
+      setTimeout(checkExtension, retryDelay);
+    };
+
+    // Start the retry process
+    setTimeout(checkExtension, retryDelay);
   });
 }
 
@@ -910,15 +934,14 @@ const loadDraftVerificationsNotifications = async function () {
     return;
   }
 
-  const result = await getAllAssetInformation({months: 3, pubkey: myPubkey}); // TODO: improve this to get only draft verifications?
-
   let myDraftVerifications = [];
 
-  for (const draftVerification of result.draftVerifications) {
+  for (const draftVerification of window.allAssetInformation.draftVerifications) {
     const arrayDraftVerificationEventsForThisSha256 = draftVerification[1];
-
     for (const draftVerificationEvent of arrayDraftVerificationEventsForThisSha256) {
-      myDraftVerifications.push(draftVerificationEvent);
+      if (draftVerificationEvent.pubkey === myPubkey) {
+        myDraftVerifications.push(draftVerificationEvent);
+      }
     }
   }
 
