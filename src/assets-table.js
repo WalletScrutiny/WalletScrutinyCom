@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationDraftKind, codeSnippetKind } from "./nostr-constants.mjs";
 
 window.DOMPurify = DOMPurify;
 
@@ -501,7 +501,15 @@ window.renderAssetsTable = async function({
         hour: '2-digit',
         minute: '2-digit'
       });
-      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+
+      let name;
+      if (attachment.kind === codeSnippetKind) {
+        const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
+        const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+        name = `${attachmentName}.${extension}`;
+      } else {  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+        name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+      }
       const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
       const sizeInKb = Math.round(size / 1024);
 

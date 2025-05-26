@@ -2,11 +2,13 @@ import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstValueFromTag } from "../../src/verifications_utils.mjs";
 global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 
 const connectTimeout = 2000;
+
+const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind];
 
 const ndk = new NDK({
   explicitRelayUrls: explicitRelayUrls,
@@ -27,13 +29,12 @@ async function fetchAndSaveEvents() {
     const since = getTimestampMonthsAgo();
     console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
     const events = await ndk.fetchEvents({
-      kinds: [assetRegistrationKind, verificationKind, endorsementKind],
+      kinds: nostrKindsToBackup,
       since: since
     });
 
     console.log("Creating output directories if they don't exist...");
     const baseDir = path.join(process.cwd(), "backup", "nostr-verification-events");
-    const kinds = [assetRegistrationKind, verificationKind, endorsementKind];
     
     // Create backup directory if it doesn't exist
     const backupDir = path.join(process.cwd(), "backup");
@@ -41,7 +42,7 @@ async function fetchAndSaveEvents() {
       fs.mkdirSync(backupDir, { recursive: true });
     }
 
-    for (const kind of kinds) {
+    for (const kind of nostrKindsToBackup) {
       const kindDir = path.join(baseDir, kind.toString());
       if (!fs.existsSync(kindDir)) {
         fs.mkdirSync(kindDir, { recursive: true });
