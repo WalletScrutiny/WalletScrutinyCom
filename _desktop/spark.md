@@ -21,6 +21,12 @@ date: 2024-04-25
 twitter: 
 social: 
 features: 
+- ln
 
 ---
 
+## App Description
+
+> ⚡️ A minimalistic wallet GUI for c-lightning, accessible over the web or through mobile and desktop apps.
+
+This program appears to have been abandoned and that's why we are marking it as **obsolete**.
