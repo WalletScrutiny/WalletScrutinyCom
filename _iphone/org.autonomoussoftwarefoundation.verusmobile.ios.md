@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-04-24
 signer: 
-reviewArchive: 
 twitter: veruscoin
 social:
 - https://www.youtube.com/channel/UC_-KCHBxaDwSgNMdE3LMThg
