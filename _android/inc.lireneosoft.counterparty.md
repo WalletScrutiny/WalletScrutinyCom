@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me

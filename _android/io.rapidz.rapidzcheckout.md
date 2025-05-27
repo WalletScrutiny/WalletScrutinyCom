@@ -3,7 +3,7 @@ wsId:
 title: Rapidz Checkout
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.rapidz.rapidzcheckout
 appCountry: 
 released: 2022-06-06
@@ -22,7 +22,6 @@ verdict: fewusers
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

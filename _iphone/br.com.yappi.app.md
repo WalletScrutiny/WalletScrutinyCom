@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: yappi_br
 social:
 - https://www.facebook.com/yappi.br

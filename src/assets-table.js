@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationDraftKind, codeSnippetKind } from "./nostr-constants.mjs";
 
 window.DOMPurify = DOMPurify;
 
@@ -12,10 +12,8 @@ const table = document.createElement('table');
 let attachments = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible
 
-const userPubkey = await getUserPubkey();
-
 // Filter table rows
-function updateTableVisibility() {
+async function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
@@ -62,6 +60,7 @@ function updateTableVisibility() {
     row.style.display = shouldShow ? '' : 'none';
   });
 
+  const userPubkey = await getUserPubkey();
 
   // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
   const hideDraftsChecked = document.getElementById('hideDrafts').checked;
@@ -104,8 +103,8 @@ window.renderAssetsTable = async function({
         <p style="margin-top: 30px; margin-bottom: 20px;">⚠️ This file was uploaded by a third party. We haven't verified its content, so please be careful before running it. ⚠️</p>
         <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
       </div>
-    </div>
-  `;
+    </div>`;
+
   // Append modal to body to ensure it's outside the main container's potential overflow issues
   if (!document.getElementById('blossomWarningModal')) {
     document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
@@ -121,8 +120,8 @@ window.renderAssetsTable = async function({
         </div>
         <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
       </div>
-    </div>
-  `;
+    </div>`;
+
   // Append preview modal to body
   if (!document.getElementById('attachmentPreviewModal')) {
     document.body.insertAdjacentHTML('beforeend', attachmentPreviewModalHTML);
@@ -445,20 +444,12 @@ window.renderAssetsTable = async function({
     if (sortedItems.length > showOnlyRows) {
       const showMoreRow = document.createElement('tr');
       showMoreRow.className = 'show-more-row';
+      showMoreRow.id = 'show-more-row';
       showMoreRow.innerHTML = `
-        <td colspan="8" style="text-align: center;">
-          <a href="#" class="show-more-link">Show ${sortedItems.length - showOnlyRows} more</a>
-        </td>
-      `;
+        <td colspan="8" style="text-align: center; padding: 15px;">
+          <button id="show-more-link" onclick="showMoreRows()" style="cursor: pointer; background: none; border: none; color: #0066cc; text-decoration: underline; font-size: inherit; padding: 5px 10px;">Show ${sortedItems.length - showOnlyRows} more</button>
+        </td>`;
       table.appendChild(showMoreRow);
-
-      const showMoreLink = showMoreRow.querySelector('.show-more-link');
-      showMoreLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        const hiddenRows = table.querySelectorAll('.hidden-row');
-        hiddenRows.forEach(row => row.classList.remove('hidden-row'));
-        showMoreRow.remove();
-      });
     }
   } else {
     const row = document.createElement('tr');
@@ -502,7 +493,15 @@ window.renderAssetsTable = async function({
         hour: '2-digit',
         minute: '2-digit'
       });
-      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+
+      let name;
+      if (attachment.kind === codeSnippetKind) {
+        const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
+        const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+        name = `${attachmentName}.${extension}`;
+      } else {  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+        name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+      }
       const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
       const sizeInKb = Math.round(size / 1024);
 
@@ -872,20 +871,16 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
-  try {
-    document.getElementById(htmlElementId).appendChild(`
-      <div id="diffoscopeModal" class="diffoscope-modal">
-        <div class="diffoscope-modal-content">
-          <div class="diffoscope-controls">
-              <span class="diffoscope-maximize" title="Maximize">⛶</span>
-              <span class="diffoscope-close" title="Close">✖</span>
-          </div>
-          <iframe id="diffoscopeFrame"></iframe>
-      </div>
-    </div>`);
-  } catch (error) {
-    console.error('Catching this problem for now, but we should fix it:', error);
-  }
+  document.getElementById(htmlElementId).innerHTML += `
+    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
+      <div class="diffoscope-modal-content">
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
+        <iframe id="diffoscopeFrame"></iframe>
+    </div>
+  </div>`;
 
   return {
     hasAssets,
@@ -903,9 +898,15 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const verification  = attestations.find(a => a.id === verificationId);
   const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
+  window.currentVerification = verification;
+
   const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
   const modal = document.getElementById('verificationModal');
+  modal.innerHTML = `
+    <span id="closeModal">&times;</span>
+    <div id="verificationContent"></div>`;
+
   const content = document.getElementById('verificationContent');
 
   // Reset scroll positions before showing the modal again
@@ -1016,12 +1017,23 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     diffoscopeHTML += '</div>';
   }
 
+  // Adding AsciiCast html
+  let asciicastHTML = '';
+  if (firstAsciicastFileSHA256) {
+    asciicastHTML = `<br><div id="ascii_cast_player" class="asciicast-player" style="margin-bottom: 20px;"></div>`;
+  }
+
+  content.innerHTML += `
+  <p><strong>Information:</strong>
+    <div class="markdown-content">
+      ${diffoscopeHTML}
+      ${asciicastHTML}
+      ${marked.parse(itemContent)}
+    </div>
+  </p>`;
+
   // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
   if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
-    if (firstAsciicastFileSHA256) {
-      itemContent += `<br><div id="ascii_cast_player" style="margin-top: 20px;"></div>`;
-    }
-
     let castURL;
     if (firstAsciicastFileSHA256) {
       castURL = getBlossomFileURL(firstAsciicastFileSHA256);
@@ -1036,7 +1048,25 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
     }
 
-    const asciinemaJSExists = insertAsciinemaAssets();
+    // Check if asciinema player assets are already loaded
+    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+
+    // Only add JS if not already present
+    let asciinemaPlayerJS;
+    if (!asciinemaJSExists) {
+      asciinemaPlayerJS = document.createElement('script');
+      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+      document.head.appendChild(asciinemaPlayerJS);
+    }
+
+    // Only add CSS if not already present
+    if (!ascinemaCSSExists) {
+      const asciinemaPlayerCSS = document.createElement('link');
+      asciinemaPlayerCSS.rel = 'stylesheet';
+      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+      document.head.appendChild(asciinemaPlayerCSS);
+    }
 
     const initPlayer = () => {
       AsciinemaPlayer.create(
@@ -1057,35 +1087,21 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     }
   }
 
-  content.innerHTML += `
-  <p><strong>Information:</strong>
-    <div class="markdown-content">
-      ${diffoscopeHTML}
-      ${marked.parse(itemContent)}
-    </div>
-  </p>`;
+  if (diffoscopeFiles.length > 0) {
+    insertDiffoscopeAssets();
+  }
 
-  insertDiffoscopeAssets();
+  const verificationActions = document.createElement('div');
+  verificationActions.id = 'verification-action-buttons';
+  verificationActions.style.marginTop = '10px';
+  verificationActions.innerHTML = `
+      <img onclick="showVerificationButtons()" id="verification-nostr-icon" src="/images/nostr_logo.svg" alt="Nostr Logo" title="Show Nostr actions" />
+      <button onclick="openEventInNjump('${verification.id}')" class="btn-small button-closed-by-default">Open in njump</button>
+      <button onclick="copyNostrEmbedToClipboard('${verification.id}')" class="btn-small button-closed-by-default">Copy Nostr embed code</button>
+      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>
+      <button onclick="copyLinkToVerificationToClipboard()" class="btn-small"><i class="fas fa-share-alt"></i> Copy link to this verification</button>`;
 
-  // Add share button dynamically
-  const shareButton = document.createElement('button');
-  shareButton.id = 'shareVerificationButton';
-  // Use innerHTML to include the Font Awesome icon and text
-  shareButton.innerHTML = '<i class="fas fa-share-alt"></i> Copy link to this verification';
-  shareButton.title = 'Copy link to this verification';
-  shareButton.style.position = 'absolute';
-  shareButton.style.top = '15px';
-  shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
-  shareButton.className = 'btn-small'; // Optional: Use existing styles
-  shareButton.onclick = () => {
-    navigator.clipboard.writeText(window.location.href)
-      .then(() => showToast('Link copied to clipboard'))
-      .catch(err => {
-        console.error('Failed to copy link: ', err);
-        showToast('Failed to copy link', 'error');
-      });
-  };
-  modal.appendChild(shareButton);
+  modal.appendChild(verificationActions);
 
   modal.style.display = 'block';
 
@@ -1117,6 +1133,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const closeModalAction = () => {
     modal.style.display = 'none';
+    window.currentVerification = null;
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
     document.body.classList.remove("modal-open");
@@ -1126,11 +1143,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     });
     // Restore original URL (remove hash)
     history.pushState("", document.title, originalUrlBeforeModal);
-    // Remove the dynamically added share button
-    const shareBtn = document.getElementById('shareVerificationButton');
-    if (shareBtn) {
-      shareBtn.remove();
-    }
   };
 
   document.getElementById('closeModal').onclick = closeModalAction;
@@ -1174,30 +1186,6 @@ function insertDiffoscopeAssets() {
     diffoscopeJS.src = '/assets/js/diffoscope-modal.js';
     document.head.appendChild(diffoscopeJS);
   }
-}
-
-function insertAsciinemaAssets() {
-  // Check if asciinema player assets are already loaded
-  const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
-  const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
-
-  // Only add JS if not already present
-  let asciinemaPlayerJS;
-  if (!asciinemaJSExists) {
-    asciinemaPlayerJS = document.createElement('script');
-    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-    document.head.appendChild(asciinemaPlayerJS);
-  }
-
-  // Only add CSS if not already present
-  if (!ascinemaCSSExists) {
-    const asciinemaPlayerCSS = document.createElement('link');
-    asciinemaPlayerCSS.rel = 'stylesheet';
-    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-    document.head.appendChild(asciinemaPlayerCSS);
-  }
-
-  return asciinemaJSExists;
 }
 
 // Function to handle attachment download using stored data
@@ -1248,6 +1236,16 @@ window.handleAttachmentDownload = function(attachmentId) {
   };
 
   modal.style.display = 'block';
+};
+
+// Function to show verification buttons and hide Nostr icon
+window.showVerificationButtons = function() {
+  const buttonClosedByDefault = document.getElementById('verification-action-buttons').querySelectorAll('.button-closed-by-default');
+  buttonClosedByDefault.forEach(button => {
+    button.classList.remove('button-closed-by-default');
+  });
+
+  document.getElementById('verification-nostr-icon').style.display = 'none';
 };
 
 // Function to handle attachment preview

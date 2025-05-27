@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: 'WhaleFin: Prime Crypto Service'
+title: Amber Premium Global
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2025-04-17
-version: 3.1.1
+updated: 2025-05-22
+version: 3.2.4
 stars: 4.6
 ratings: 2656
 reviews: 238
-website: https://www.whalefin.com
+website: https://www.ambr.io/global
 repository: 
 issue: 
 icon: io.ambergroup.amber.png
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-11
 signer: 
-reviewArchive: 
 twitter: ambergroup_io
 social:
 - https://www.linkedin.com/company/amberbtc

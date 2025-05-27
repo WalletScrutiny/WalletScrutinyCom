@@ -8,10 +8,10 @@ appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
 released: 2022-09-27
-updated: 2025-04-21
-version: 3.14.2
-stars: 3.9
-reviews: 60
+updated: 2025-05-16
+version: 3.17.0
+stars: 3.8
+reviews: 62
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: OfficialApeXdex
 social:
 - https://apex.exchange

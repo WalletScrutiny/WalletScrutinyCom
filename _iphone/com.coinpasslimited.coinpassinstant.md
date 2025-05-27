@@ -8,8 +8,8 @@ appId: com.coinpasslimited.coinpassinstant
 appCountry: gb
 idd: '1530358553'
 released: 2020-11-20
-updated: 2025-01-20
-version: 3.4.0
+updated: 2025-05-20
+version: 3.6.5
 stars: 3.3
 reviews: 19
 website: https://coinpass.com/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: coinpassglobal
 social:
 - https://www.facebook.com/coinpassglobal

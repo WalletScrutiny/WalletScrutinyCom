@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.boquanhash.dotwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-05-18
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: wallet_dot
 social: 
 features: 

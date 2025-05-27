@@ -8,8 +8,8 @@ users: 100000
 appId: app.difx.exchange
 appCountry: 
 released: 
-updated: 2024-10-09
-version: 5.1.4
+updated: 2025-05-23
+version: 5.1.8
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-29
 signer: 
-reviewArchive: 
 twitter: difx_io
 social:
 - https://www.linkedin.com/company/difx-io

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-30
 signer: 
-reviewArchive: 
 twitter: gomoonwallet
 social:
 - https://www.facebook.com/moonwallet.net

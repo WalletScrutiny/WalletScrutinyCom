@@ -8,10 +8,10 @@ appId: com.sigen.sigenapp
 appCountry: ru
 idd: 1505741102
 released: 2020-04-20
-updated: 2025-04-17
-version: 2.9.55
+updated: 2025-05-20
+version: 2.9.58
 stars: 4.8
-reviews: 3667
+reviews: 3668
 website: https://sigen.pro/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: SIGENpro
 social:
 - https://www.facebook.com/sigen.pro

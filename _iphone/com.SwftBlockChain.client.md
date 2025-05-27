@@ -8,8 +8,8 @@ appId: com.SwftBlockChain.client
 appCountry: jp
 idd: '1435569339'
 released: 2018-09-28
-updated: 2025-04-17
-version: 6.2.1
+updated: 2025-05-23
+version: 6.5.1
 stars: 4
 reviews: 23
 website: http://www.swft.pro
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: SwftCoin
 social:
 - https://www.linkedin.com/company/swftcoin

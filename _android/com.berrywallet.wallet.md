@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: BerryChain
 social:
 - https://www.facebook.com/berrychain.official

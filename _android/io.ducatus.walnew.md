@@ -8,8 +8,8 @@ users: 10000
 appId: io.ducatus.walnew
 appCountry: 
 released: 2019-12-05
-updated: 2025-04-17
-version: 3.11.39
+updated: 2025-05-07
+version: 3.11.43
 stars: 3.8
 ratings: 346
 reviews: 8
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-11
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

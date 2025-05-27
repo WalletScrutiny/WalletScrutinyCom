@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-01
 updated: 2024-10-23
 version: '4'
-stars: 2.8
+stars: 2.9
 ratings: 
-reviews: 48
+reviews: 47
 website: https://swapitway.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/swapitway

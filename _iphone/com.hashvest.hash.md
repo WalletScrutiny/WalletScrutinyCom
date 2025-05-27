@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-10-31
 signer: 
-reviewArchive: 
 twitter: gethashapp
 social:
 - https://www.facebook.com/goHashApp

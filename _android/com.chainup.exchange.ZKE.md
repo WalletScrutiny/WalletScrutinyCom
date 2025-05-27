@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: ZKE_com
 social:
 - https://www.youtube.com/channel/UCGe7ywdJ-0nNad4nbyPHGgg

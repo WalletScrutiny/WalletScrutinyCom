@@ -11,7 +11,7 @@ released: 2020-01-30
 updated: 2025-03-10
 version: 1.20.21
 stars: 4.3
-reviews: 5303
+reviews: 5307
 website: https://www.tryanchor.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: anchorusd
 social: 
 features: 

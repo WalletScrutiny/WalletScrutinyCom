@@ -8,11 +8,11 @@ users: 10000
 appId: com.wiseki.sekiapp
 appCountry: 
 released: 2022-05-31
-updated: 2024-09-30
-version: 2.2.8
+updated: 2025-05-21
+version: 2.3.0
 stars: 4.2
 ratings: 
-reviews: 18
+reviews: 19
 website: https://sekiapp.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-14
 signer: 
-reviewArchive: 
 twitter: Seki_APP
 social:
 - https://www.linkedin.com/company/sekiapp

@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://ctpay.io

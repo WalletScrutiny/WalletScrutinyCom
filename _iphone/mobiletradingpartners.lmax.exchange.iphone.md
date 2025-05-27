@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-10
 signer: 
-reviewArchive: 
 twitter: LMAX
 social:
 - https://www.linkedin.com/company/lmax-group

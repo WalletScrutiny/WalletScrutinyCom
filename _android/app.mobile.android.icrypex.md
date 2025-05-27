@@ -8,11 +8,11 @@ users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
 released: 2021-09-02
-updated: 2025-04-09
-version: '17.0'
+updated: 2025-05-15
+version: '18.1'
 stars: 3.2
 ratings: 
-reviews: 9
+reviews: 10
 website: https://www.icrypex.com.tr/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: icrypex
 social:
 - https://medium.com/icrypex

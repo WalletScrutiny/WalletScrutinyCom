@@ -8,8 +8,8 @@ users: 10000
 appId: by.erpbel.hermes
 appCountry: 
 released: 2022-10-06
-updated: 2025-02-25
-version: 2.7.0
+updated: 2025-04-24
+version: 2.8.0
 stars: 2.7
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-09
 signer: 
-reviewArchive: 
 twitter: bynexio
 social:
 - https://www.facebook.com/bynex.io

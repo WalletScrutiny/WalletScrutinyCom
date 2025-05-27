@@ -8,8 +8,8 @@ users: 10000
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28
-updated: 2025-03-27
-version: 1.0.7
+updated: 2025-05-26
+version: 1.1.0
 stars: 2.6
 ratings: 
 reviews: 5
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: getplatnova
 social:
 - https://www.facebook.com/getplatnova

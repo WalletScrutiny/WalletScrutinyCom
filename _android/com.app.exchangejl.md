@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: Krypterzxchange
 social:
 - https://www.facebook.com/Krypterz-101716118890363

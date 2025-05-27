@@ -22,7 +22,6 @@ verdict: fewusers
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: x7exchange
 social:
 - https://t.me/x7exchange

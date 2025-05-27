@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-11
 signer: 
-reviewArchive: 
 twitter: bullcoinfinance
 social:
 - https://www.reddit.com/r/bullcoinfinance

@@ -8,8 +8,8 @@ appId: world.unbank.unbankmobileapp
 appCountry: us
 idd: '1587374229'
 released: 2022-05-03
-updated: 2025-04-17
-version: 2.11.1
+updated: 2025-05-05
+version: 2.12.0
 stars: 4.1
 reviews: 41
 website: https://www.unbank.com/
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: unbankworld
 social:
 - https://www.facebook.com/unbankworld

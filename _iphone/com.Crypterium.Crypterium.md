@@ -11,7 +11,7 @@ released: 2018-03-26
 updated: 2025-01-31
 version: '13.0'
 stars: 4.2
-reviews: 932
+reviews: 933
 website: https://choise.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-20
 signer: 
-reviewArchive: 
 twitter: crypterium
 social:
 - https://www.facebook.com/crypterium.org

@@ -27,12 +27,6 @@ meta: ok
 verdict: sealed-plainkey
 date: 2022-10-31
 signer: 
-reviewArchive:
-- date: 2021-07-11
-  version: ''
-  appHash: 
-  gitRevision: 
-  verdict: noita
 twitter: COLDCARDwallet
 social:
 - https://github.com/opendime

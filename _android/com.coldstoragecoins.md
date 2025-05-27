@@ -10,7 +10,7 @@ appCountry:
 released: 2018-08-14
 updated: 2025-01-30
 version: 4.0.0
-stars: 2.7
+stars: 2.8
 ratings: 
 reviews: 41
 website: https://coldstoragecoins.com
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/BlockchainMint

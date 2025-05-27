@@ -22,10 +22,7 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="verificationModal">
-  <span id="closeModal">&times;</span>
-  <div id="verificationContent"></div>
-</div>
+<div id="verificationModal"></div>
 
 <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 

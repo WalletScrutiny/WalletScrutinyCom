@@ -10,8 +10,8 @@ idd: 1406211993
 released: 2018-08-04
 updated: 2025-03-03
 version: '35.9'
-stars: 4.4
-reviews: 4629
+stars: 4.5
+reviews: 5957
 website: https://emberfund.io/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: Ember_Fund
 social:
 - https://github.com/ember-fund

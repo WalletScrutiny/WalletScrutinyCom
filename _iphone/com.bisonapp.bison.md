@@ -8,8 +8,8 @@ appId: com.bisonapp.bison
 appCountry: lv
 idd: '1362518159'
 released: 2020-01-09
-updated: 2025-04-15
-version: 4.10.0
+updated: 2025-05-20
+version: 4.12.0
 stars: 5
 reviews: 2
 website: https://bisonapp.com/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app

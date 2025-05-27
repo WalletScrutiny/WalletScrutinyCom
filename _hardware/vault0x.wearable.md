@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: vault0x
 social:
 - https://www.facebook.com/vault0x/

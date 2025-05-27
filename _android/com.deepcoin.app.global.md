@@ -8,8 +8,8 @@ users: 100000
 appId: com.deepcoin.app.global
 appCountry: 
 released: 2020-12-08
-updated: 2025-04-12
-version: 7.5.03
+updated: 2025-05-07
+version: 7.5.15
 stars: 4.1
 ratings: 
 reviews: 26
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/deepcoinpro/

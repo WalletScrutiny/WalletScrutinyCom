@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.zamzam.bank.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-05-04
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

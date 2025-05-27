@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: tradewithpilot
 social:
 - https://www.facebook.com/tradewithpilot

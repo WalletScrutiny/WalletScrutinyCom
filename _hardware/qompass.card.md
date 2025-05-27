@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-04
 signer: 
-reviewArchive: 
 twitter: QompassMarkets
 social:
 - https://www.facebook.com/Qompass.io/posts/239076303321207

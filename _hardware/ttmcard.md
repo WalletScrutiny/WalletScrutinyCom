@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2024-01-08
 signer: 
-reviewArchive: 
 twitter: 0xMarsDAO
 social:
 - https://www.youtube.com/@MarsDAO

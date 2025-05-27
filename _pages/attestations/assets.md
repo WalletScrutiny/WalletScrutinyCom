@@ -13,17 +13,19 @@ permalink: /assets/
 
 <div id="binariesTable"></div>
 
-<div id="verificationModal">
-  <span id="closeModal">&times;</span>
-  <div id="verificationContent"></div>
-</div>
+<div id="verificationModal"></div>
 
 <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
-    await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
-    document.getElementById('loadingSpinner').style.display = 'none';
+    try {
+      await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
+    } catch (error) {
+      console.error('Error rendering assets table: ', error);
+    } finally {
+      document.getElementById('loadingSpinner').style.display = 'none';
+    }
   })();
 </script>

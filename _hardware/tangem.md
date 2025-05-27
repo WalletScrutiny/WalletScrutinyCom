@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2024-01-06
 signer: 
-reviewArchive: 
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem

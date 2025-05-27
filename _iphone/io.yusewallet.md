@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-09-04
 signer: 
-reviewArchive: 
 twitter: YuseToken
 social:
 - https://www.facebook.com/yusetoken

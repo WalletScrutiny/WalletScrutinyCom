@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2025-03-29
-version: '2.0'
+updated: 2025-05-19
+version: '2.03'
 stars: 2.7
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019

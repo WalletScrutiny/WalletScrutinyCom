@@ -8,8 +8,8 @@ appId: com.bitmex.app.ios
 appCountry: bh
 idd: '1589023233'
 released: 2022-04-11
-updated: 2025-04-07
-version: 2.5.11
+updated: 2025-05-13
+version: 3.0.3
 stars: 0
 reviews: 0
 website: https://www.bitmex.com/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX/

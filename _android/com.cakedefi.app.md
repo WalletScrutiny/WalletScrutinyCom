@@ -12,7 +12,7 @@ updated: 2025-04-09
 version: 7.4.0
 stars: 2.8
 ratings: 1135
-reviews: 196
+reviews: 197
 website: https://bake.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-04
 signer: 
-reviewArchive: 
 twitter: cakedefi
 social:
 - https://www.linkedin.com/company/cakedefi

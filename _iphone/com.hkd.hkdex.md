@@ -11,7 +11,7 @@ released: 2020-07-13
 updated: 2024-07-01
 version: 3.1.1
 stars: 2.6
-reviews: 49
+reviews: 52
 website: http://hkd.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: HKD_exchange
 social:
 - https://www.facebook.com/hkdexchange/

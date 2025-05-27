@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: AQRU_Official
 social:
 - https://aqru.io

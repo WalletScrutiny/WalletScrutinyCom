@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-01-15
 signer: 
-reviewArchive: 
 twitter: nayuta_en
 social: 
 redirect_from: 

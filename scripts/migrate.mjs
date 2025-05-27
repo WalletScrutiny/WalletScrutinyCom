@@ -23,17 +23,7 @@ const migration = function (header, body, fileName, categoryHelper) {
       header[f] = new Date(header[f]);
     }
   }
-  if (header.reviewArchive && Array.isArray(header.reviewArchive)) {
-    header.reviewArchive = header.reviewArchive
-      .map(archive => {
-        if (archive.date) {
-          archive.date = new Date(archive.date);
-        } else {
-          console.error(`No date in entry ${JSON.stringify(archive)} in _${category}/${fileName}.`)
-        }
-        return archive;
-      });
-  }
+
  // Convert numeric fields from strings to numbers
   const numericFields = ['ratings', 'stars', 'users', 'reviews'];
   for (const f of numericFields) {

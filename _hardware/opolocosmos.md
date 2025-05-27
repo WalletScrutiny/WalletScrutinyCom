@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2022-11-09
 signer: 
-reviewArchive: 
 twitter: OpoloWallet
 social:
 - https://www.linkedin.com/company/opolo-ltd

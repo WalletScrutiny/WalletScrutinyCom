@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: COREXmn
 social:
 - https://www.instagram.com/corex.mn

@@ -13,7 +13,7 @@ updated: 2024-11-25
 version: 3.0.0
 stars: 2.7
 ratings: 27085
-reviews: 14100
+reviews: 14122
 website: https://www.chivowallet.com
 repository: 
 issue: 
@@ -24,12 +24,6 @@ verdict: obfuscated
 appHashes: []
 date: 2024-11-29
 signer: 
-reviewArchive:
-- date: 2021-10-10
-  version: 1.1.0
-  appHashes: []
-  gitRevision: fa227d42296cae666acec49c980629e0b2a71636
-  verdict: custodial
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV

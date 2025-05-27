@@ -8,8 +8,8 @@ appId: paybusiness.elegro.eu
 appCountry: us
 idd: '1526117414'
 released: 2020-08-14
-updated: 2025-02-06
-version: '4.0'
+updated: 2025-05-15
+version: '4.1'
 stars: 0
 reviews: 0
 website: https://business.elegro.eu/elegro-business-wallet
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: elegro_eu
 social:
 - https://www.linkedin.com/company/niko-technologies-ou

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: defiantApp
 social: 
 features: 

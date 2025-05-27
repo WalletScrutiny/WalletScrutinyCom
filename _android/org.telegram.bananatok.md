@@ -12,7 +12,7 @@ updated: 2025-02-17
 version: 5.0.4
 stars: 3.9
 ratings: 
-reviews: 1429
+reviews: 1428
 website: http://www.bananatok.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-27
 signer: 
-reviewArchive: 
 twitter: kr_bna
 social:
 - https://www.facebook.com/bananatok

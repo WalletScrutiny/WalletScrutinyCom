@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: ua.money.storage.moneystorage.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

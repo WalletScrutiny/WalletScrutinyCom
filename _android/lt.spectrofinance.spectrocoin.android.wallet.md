@@ -8,8 +8,8 @@ users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
 appCountry: 
 released: 2014-12-05
-updated: 2025-02-06
-version: 2.8.0
+updated: 2025-04-29
+version: 2.9.0
 stars: 3.8
 ratings: 3150
 reviews: 44
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-10-12
 signer: 
-reviewArchive: 
 twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin

@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: io.cryptex24.mobile.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-25
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

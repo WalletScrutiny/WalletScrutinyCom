@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-05-11
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

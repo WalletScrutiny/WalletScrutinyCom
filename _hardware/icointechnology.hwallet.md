@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://icointechnology.com/news/

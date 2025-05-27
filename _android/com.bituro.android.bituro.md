@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-08-18
 updated: 2025-02-16
 version: 1.31.0
-stars: 4.3
+stars: 4.4
 ratings: 9148
-reviews: 481
+reviews: 483
 website: https://bituro.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp

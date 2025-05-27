@@ -8,8 +8,8 @@ appId: com.pundix.fx.connect
 appCountry: us
 idd: 1504798360
 released: 2021-03-25
-updated: 2025-04-09
-version: 5.3.0
+updated: 2025-05-07
+version: 5.4.0
 stars: 3.1
 reviews: 64
 website: https://pundi.ai/
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: FUNCTIONX_IO
 social:
 - https://www.linkedin.com/company/functionx

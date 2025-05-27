@@ -4,12 +4,12 @@ title: 'Bybit TR: Kripto Borsası'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: org.narkasa
 appCountry: 
 released: 2020-10-30
-updated: 2025-03-05
-version: 4.56.0
+updated: 2025-04-25
+version: 4.57.0
 stars: 3.5
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: narkasacom
 social:
 - https://www.facebook.com/narkasacom

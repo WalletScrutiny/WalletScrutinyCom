@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-16
 updated: 2025-04-21
 version: '7.50'
-stars: 4.6
+stars: 4.5
 ratings: 2711
-reviews: 1062
+reviews: 1079
 website: https://finabase.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

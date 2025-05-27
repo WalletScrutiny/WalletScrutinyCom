@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-01-31
 signer: 
-reviewArchive: 
 twitter: invest_lite
 social: 
 redirect_from: 

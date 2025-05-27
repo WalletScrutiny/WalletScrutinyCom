@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: io.stormx.ios.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-22
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: stormxio
 social:
 - https://www.linkedin.com/company/StormX

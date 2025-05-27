@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: diy
 date: 2025-04-23
-reviewArchive: 
 twitter: YetiWallet
 social: 
 features: 

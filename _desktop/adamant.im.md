@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2024-04-24
-reviewArchive: 
 twitter: adamant_im
 social: 
 features: 

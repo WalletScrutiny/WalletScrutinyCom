@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitcoinira
 appCountry: us
 released: 2021-06-15
-updated: 2025-04-15
-version: 1.5.77
+updated: 2025-05-13
+version: 1.5.79
 stars: 4.4
 ratings: 508
 reviews: 524
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-18
 signer: 
-reviewArchive: 
 twitter: bitcoin_ira
 social:
 - https://www.linkedin.com/company/bitcoinira

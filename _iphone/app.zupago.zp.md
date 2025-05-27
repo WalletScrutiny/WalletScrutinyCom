@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-12-19
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

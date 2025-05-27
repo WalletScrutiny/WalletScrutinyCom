@@ -1,6 +1,6 @@
 ---
 wsId: BitnovoWallet
-title: Bitnovo - Buy Bitcoin
+title: Bitnovo - Buy Bitcoin & More
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.bitnovo.Wallet
 appCountry: in
 idd: 1553430666
 released: 2021-10-27
-updated: 2025-03-12
-version: 3.0.47
+updated: 2025-05-07
+version: 3.0.48
 stars: 0
 reviews: 0
 website: https://www.bitnovo.com
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: bitnovo
 social:
 - https://www.linkedin.com/company/Bitnovo

@@ -8,9 +8,9 @@ users: 1000000
 appId: com.iggroup.android.cfd
 appCountry: br
 released: 2015-05-11
-updated: 2025-04-17
-version: 25.4.16
-stars: 3.8
+updated: 2025-05-23
+version: 25.5.13
+stars: 3.9
 ratings: 
 reviews: 14
 website: http://www.ig.com
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-12-06
 signer: 
-reviewArchive: 
 twitter: IGInternationa1
 social:
 - https://www.linkedin.com/company/ig-international-

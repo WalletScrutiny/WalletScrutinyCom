@@ -14,7 +14,7 @@ updated: 2024-11-21
 version: 2.1.7
 stars: 4.1
 ratings: 335
-reviews: 31
+reviews: 30
 website: http://Bither.net
 repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
@@ -25,7 +25,6 @@ verdict: obfuscated
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

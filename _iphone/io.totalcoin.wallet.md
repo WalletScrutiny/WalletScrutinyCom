@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-01
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/totalcoin.io

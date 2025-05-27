@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: cfc_io
 social:
 - https://www.facebook.com/CFCEarnMoney

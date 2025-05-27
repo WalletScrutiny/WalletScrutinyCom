@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: bitbarg
 social:
 - https://www.linkedin.com/company/bitbarg-com

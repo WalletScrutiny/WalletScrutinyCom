@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 date: 2024-04-24
-reviewArchive: 
 twitter: BTCZOfficial
 social: 
 features: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.yykj.bitfree.en
 appCountry: 
 released: 2019-01-26
-updated: 2025-04-12
-version: 5.2.3
+updated: 2025-05-16
+version: 5.3.1
 stars: 3.8
 ratings: 
 reviews: 26
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-15
 signer: 
-reviewArchive: 
 twitter: bitfree_us
 social:
 - https://bitfree.us

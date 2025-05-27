@@ -21,7 +21,7 @@ function scrollToVersion(version) {
   const versionId = `version-${version.replace(/\./g, '-')}`; // Generate row ID
 
   const observer = new MutationObserver((mutations, obs) => {
-    const showMoreButton = document.querySelector('a.show-more-link');
+    const showMoreButton = document.getElementById('show-more-link');
     const targetElement = document.getElementById(versionId);
 
     // Row is visible, we can directly scroll to it

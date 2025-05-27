@@ -11,7 +11,7 @@ released: 2016-05-12
 updated: 2025-03-27
 version: 6.2.62
 stars: 3.6
-reviews: 1588
+reviews: 1589
 website: https://www.unocoin.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: Unocoin
 social:
 - https://www.linkedin.com/company/unocoin

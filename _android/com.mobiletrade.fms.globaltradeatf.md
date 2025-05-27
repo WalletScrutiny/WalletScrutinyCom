@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: TradeATF
 social:
 - https://www.linkedin.com/company/globaltradeatf

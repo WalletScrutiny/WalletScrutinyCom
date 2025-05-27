@@ -12,7 +12,7 @@ updated: 2025-03-31
 version: '6.0'
 stars: 4.3
 ratings: 
-reviews: 15
+reviews: 16
 website: https://pionechain.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-29
 signer: 
-reviewArchive: 
 twitter: swap_tobe
 social:
 - https://t.me/swaptobeglobal

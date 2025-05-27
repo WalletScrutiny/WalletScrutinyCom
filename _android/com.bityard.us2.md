@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-03-07
 signer: 
-reviewArchive: 
 twitter: BitYard_Global
 social:
 - https://www.linkedin.com/company/bityard

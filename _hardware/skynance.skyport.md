@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: skynanceworld
 social:
 - https://www.instagram.com/skynanceworld/

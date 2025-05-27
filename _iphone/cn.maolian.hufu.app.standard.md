@@ -11,7 +11,7 @@ released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
 stars: 2.8
-reviews: 149
+reviews: 148
 website: https://hoo.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-08
 signer: 
-reviewArchive: 
 twitter: Hoo_exchange
 social:
 - https://www.facebook.com/hooexchange

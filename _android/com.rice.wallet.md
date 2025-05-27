@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: RiceDeFiWallet
 social:
 - https://www.facebook.com/ricewallet.io

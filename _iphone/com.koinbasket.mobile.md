@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-19
 signer: 
-reviewArchive: 
 twitter: koinbasket
 social:
 - https://www.facebook.com/profile.php?id=100084588470406

@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-01-24
 updated: 2025-01-17
 version: 4.4.25
-stars: 4.1
+stars: 4
 ratings: 63867
-reviews: 2764
+reviews: 2795
 website: https://cryptocompany.site/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

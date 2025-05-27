@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: INX_Group
 social:
 - https://www.linkedin.com/company/theinxdigitalcompany

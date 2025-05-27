@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: Nexo
 social:
 - https://pro.nexo.com

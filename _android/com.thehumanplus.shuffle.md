@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-11
 signer: 
-reviewArchive: 
 twitter: hupayx
 social:
 - https://medium.com/@hupayx

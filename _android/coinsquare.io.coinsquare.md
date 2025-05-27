@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: coinsquare
 social:
 - https://www.facebook.com/coinsquare.io

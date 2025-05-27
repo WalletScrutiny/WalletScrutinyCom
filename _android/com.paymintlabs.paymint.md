@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: paymint_wallet
 social: 
 redirect_from:

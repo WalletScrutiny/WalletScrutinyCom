@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2022-10-08
 signer: 
-reviewArchive: 
 twitter: ngrave_official
 social:
 - https://twitter.com/ngrave_official

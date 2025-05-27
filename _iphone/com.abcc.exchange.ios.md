@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: ABCCExOfficial
 social:
 - https://www.facebook.com/ABCC-Exchange-558472047871367

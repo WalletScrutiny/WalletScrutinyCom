@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: mintlayer
 social:
 - https://t.me/mintlayer

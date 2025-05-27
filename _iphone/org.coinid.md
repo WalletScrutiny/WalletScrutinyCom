@@ -17,12 +17,11 @@ repository: https://github.com/COINiD/COINiDVault
 issue: 
 icon: org.coinid.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: sourceavailable
 appHashes: 
-date: 2025-02-13
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: COINiDGroup
 social: 
 features: 

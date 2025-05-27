@@ -8,8 +8,8 @@ users: 10000
 appId: com.dantown.Dantownapp
 appCountry: 
 released: 2021-03-27
-updated: 2025-03-20
-version: 2.0.70
+updated: 2025-05-03
+version: 2.0.71
 stars: 4.1
 ratings: 
 reviews: 38
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-21
 signer: 
-reviewArchive: 
 twitter: godantown
 social: 
 redirect_from: 

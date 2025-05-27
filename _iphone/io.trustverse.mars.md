@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-05-18
 signer: 
-reviewArchive: 
 twitter: TrustVerse
 social:
 - https://www.trustverse.io

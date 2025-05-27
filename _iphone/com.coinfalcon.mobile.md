@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-11
 signer: 
-reviewArchive: 
 twitter: coinfalcon
 social:
 - https://www.facebook.com/CoinFalcon

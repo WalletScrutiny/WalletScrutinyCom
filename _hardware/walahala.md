@@ -28,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: walahala_dex
 social:
 - https://www.linkedin.com/company/walahala/

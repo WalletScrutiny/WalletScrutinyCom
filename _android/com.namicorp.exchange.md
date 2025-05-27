@@ -8,8 +8,8 @@ users: 50000
 appId: com.namicorp.exchange
 appCountry: 
 released: 2019-11-06
-updated: 2025-04-04
-version: 2.2.8
+updated: 2025-05-20
+version: 2.2.11
 stars: 4.1
 ratings: 
 reviews: 11
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-20
 signer: 
-reviewArchive: 
 twitter: NamiTrade
 social:
 - https://www.reddit.com/r/NAMIcoin/

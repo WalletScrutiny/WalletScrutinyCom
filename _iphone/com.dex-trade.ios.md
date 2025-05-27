@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: dextrade_
 social:
 - https://www.linkedin.com/company/dex-trade-exchange

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-23
 signer: 
-reviewArchive: 
 twitter: dyorexcom
 social:
 - https://www.linkedin.com/company/dyorexcom

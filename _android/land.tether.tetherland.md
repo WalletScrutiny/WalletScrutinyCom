@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-02-25
 signer: 
-reviewArchive: 
 twitter: tetherland
 social:
 - https://www.linkedin.com/company/tetherland

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: WeAreSaitama
 social:
 - https://www.facebook.com/groups/1275234186328559

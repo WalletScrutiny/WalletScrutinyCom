@@ -8,8 +8,8 @@ appId: is.begin.app
 appCountry: us
 idd: '1642488837'
 released: 2022-11-03
-updated: 2025-03-26
-version: 1.21.2
+updated: 2025-04-24
+version: 1.30.0
 stars: 4
 reviews: 11
 website: https://begin.is
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: BeginWallet
 social: 
 features: 

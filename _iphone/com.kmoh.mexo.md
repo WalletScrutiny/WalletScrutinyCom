@@ -8,8 +8,8 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2025-03-31
-version: 3.7.3
+updated: 2025-05-13
+version: 3.7.5
 stars: 4.9
 reviews: 135
 website: https://help.trubit.com/en
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio

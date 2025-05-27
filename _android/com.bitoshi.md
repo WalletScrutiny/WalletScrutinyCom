@@ -12,7 +12,7 @@ updated: 2025-04-15
 version: 1.4.2
 stars: 4.5
 ratings: 
-reviews: 25
+reviews: 27
 website: https://bitoshi.africa
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: Bitoshiafrica
 social:
 - https://www.linkedin.com/company/bitoshiafrica

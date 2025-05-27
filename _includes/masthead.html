@@ -129,10 +129,4 @@
     const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2);
     document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`;
   });
-
-  // Load notifications
-  window.addEventListener('load', async () => {
-    await nostrConnect();
-    await loadDraftVerificationsNotifications();
-  });
 </script>

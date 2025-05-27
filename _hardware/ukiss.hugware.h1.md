@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: UKISSTech
 social:
 - https://www.linkedin.com/company/ukiss-tech/

@@ -8,8 +8,8 @@ users: 50000
 appId: com.kangamobile
 appCountry: 
 released: 2020-01-03
-updated: 2025-04-17
-version: 1.22.2
+updated: 2025-05-22
+version: 1.23.0
 stars: 3.5
 ratings: 
 reviews: 6
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-20
 signer: 
-reviewArchive: 
 twitter: KangaExchange
 social:
 - https://www.linkedin.com/company/kangaexchange/

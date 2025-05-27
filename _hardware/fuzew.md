@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2021-12-03
 signer: 
-reviewArchive: 
 twitter: w_fuze
 social:
 - https://www.facebook.com/Fuzewcard

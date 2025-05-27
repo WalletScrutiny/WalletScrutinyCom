@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: sourceavailable
 date: 2024-05-08
-reviewArchive: 
 twitter: lightningpeach
 social:
 - https://www.facebook.com/Bitfury

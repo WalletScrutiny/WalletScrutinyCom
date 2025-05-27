@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-12-15
 signer: 
-reviewArchive: 
 twitter: satpile
 social: 
 features: 

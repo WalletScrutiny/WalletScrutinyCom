@@ -118,16 +118,40 @@ const userHasBrowserExtension = function() {
   return new Promise((resolve) => {
     if (typeof window === 'undefined') {
       resolve(false);
+      return;
     }
+    
     if (window.nostr) {
       resolve(true);
+      return;
     }
 
-    // Wait a bit for the extension to load
-    setTimeout(() => {
-      console.debug("Browser extension:", Boolean(window.nostr));
-      resolve(Boolean(window.nostr));
-    }, 100);
+    // Retry system: 20 attempts every 20ms
+    let attempts = 0;
+    const maxAttempts = 20;
+    const retryDelay = 20;
+
+    const checkExtension = () => {
+      attempts++;
+      
+      if (window.nostr) {
+        console.debug("Browser extension found on attempt:", attempts);
+        resolve(true);
+        return;
+      }
+      
+      if (attempts >= maxAttempts) {
+        console.debug("Browser extension not found after", maxAttempts, "attempts");
+        resolve(false);
+        return;
+      }
+      
+      // Schedule next attempt
+      setTimeout(checkExtension, retryDelay);
+    };
+
+    // Start the retry process
+    setTimeout(checkExtension, retryDelay);
   });
 }
 
@@ -369,7 +393,7 @@ const createVerification = async function ({
     if (!isDraft && draftVerificationEventId) {
       const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
-        await draftVerificationEvent.delete(reason, true);
+        await draftVerificationEvent.delete('deleting draft, as verification was published', true);
       }
     }
 
@@ -515,12 +539,16 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
     throw new Error(`File ${fileName} exceeds the 60KB limit`);
   }
 
+  const name = fileName.split('.').slice(0, -1).join('.') ?? '';
+  const extension = fileName.split('.').pop() ?? '';
+
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = codeSnippetKind;
   ndkEvent.content = base64Data;
   ndkEvent.created_at = getCreatedAt();
   ndkEvent.tags = [
-    ["filename", fileName],
+    ["name", name],
+    ["extension", extension],
     ["content-type", fileType],
     ["size", fileSize.toString()],
     getWSClientTag()
@@ -552,7 +580,7 @@ const getFileAttachmentEvents = async function(fileEventIds) {
   console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
-    kinds: [codeSnippetKind],
+    kinds: [assetRegistrationKind, codeSnippetKind],  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
     ids: fileEventIds
   });
 }
@@ -910,15 +938,14 @@ const loadDraftVerificationsNotifications = async function () {
     return;
   }
 
-  const result = await getAllAssetInformation({months: 3, pubkey: myPubkey}); // TODO: improve this to get only draft verifications?
-
   let myDraftVerifications = [];
 
-  for (const draftVerification of result.draftVerifications) {
+  for (const draftVerification of window.allAssetInformation.draftVerifications) {
     const arrayDraftVerificationEventsForThisSha256 = draftVerification[1];
-
     for (const draftVerificationEvent of arrayDraftVerificationEventsForThisSha256) {
-      myDraftVerifications.push(draftVerificationEvent);
+      if (draftVerificationEvent.pubkey === myPubkey) {
+        myDraftVerifications.push(draftVerificationEvent);
+      }
     }
   }
 
@@ -963,6 +990,129 @@ function doDraftVerificationAction(draftVerificationEventId, action) {
   }
 }
 
+// Helper to compare semantic versions like "1.2.3"
+function compareVersions(a, b) {
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const na = pa[i] || 0;
+    const nb = pb[i] || 0;
+    if (na > nb) return 1;
+    if (na < nb) return -1;
+  }
+  return 0;
+}
+
+function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
+  // Check if getAllAssetInformationResult.verifications is defined
+  if (!getAllAssetInformationResult.verifications) {
+    throw new Error('getAllAssetInformationResult.verifications is not defined');
+  }
+
+  let maxVersion = null;
+  let maxDate = null;
+  let verifiedVersion = null;
+  let verifiedDate = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const versionTag = asset.tags.find(tag => tag[0] === 'version');
+      const appIdTag = asset.tags.find(tag => tag[0] === 'i');
+      if (versionTag && (!appId || appIdTag[1] === appId)) {
+        const version = versionTag[1];
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          maxVersion = version;
+          maxDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+
+        const verifiedVersionTag = asset.tags.find(tag => tag[0] === 'status' && tag[1] === 'reproducible');
+        if (verifiedVersionTag && (!verifiedVersion || compareVersions(version, verifiedVersion) > 0)) {
+          verifiedVersion = version;
+          verifiedDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    lastVersion: maxVersion,
+    lastVersionDate: maxDate,
+    lastVerifiedVersion: verifiedVersion,
+    lastVerifiedVersionDate: verifiedDate
+  };
+}
+
+function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) {
+  let verification = null;
+  let maxVersion = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const version = asset.tags.find(tag => tag[0] === 'version')?.[1];
+      const appIdTag = asset.tags.find(tag => tag[0] === 'i')?.[1];
+      if (version && (appIdTag === appId)) {
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          verification = asset;
+          maxVersion = version;
+        }
+      }
+    }
+  }
+
+  if (verification) {
+    return verification.tags.find(tag => tag[0] === 'status')?.[1];
+  }
+
+  return null;
+}
+
+function getWeightForAppFromAssetInformation(appId) {
+  if (!window.allAssetInformation) {
+    throw new Error('window.allAssetInformation is not defined yet');
+  }
+
+  const { lastVersion, lastVersionDate, lastVerifiedVersion, lastVerifiedVersionDate } = getMaxAssetVersion(window.allAssetInformation, appId);
+
+  let numberOfVerifications = 0;
+  let numberOfReproducibleVerifications = 0;
+
+  for (const verifications of window.allAssetInformation.verifications.values()) {
+    for (const verification of verifications) {
+      const appIdCurrentVerification = verification.tags.find(tag => tag[0] === 'i')?.[1];
+      const status = verification.tags.find(tag => tag[0] === 'status')?.[1];
+
+      if (appIdCurrentVerification === appId) {
+        numberOfVerifications += 1;
+
+        if (status === 'reproducible') {
+          numberOfReproducibleVerifications += 1;
+        }
+      }
+    }
+  }
+
+  let weight = numberOfReproducibleVerifications / numberOfVerifications;
+  if (isNaN(weight)) {
+    weight = 0;
+  }
+
+  return {
+    weight,
+    lastVersionVerified: (lastVerifiedVersion && (lastVerifiedVersion === lastVersion)) ? 1 : -1
+  };
+}
+
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
@@ -989,6 +1139,9 @@ if (typeof window !== 'undefined') {
   window.uploadFileAttachment = uploadFileAttachment;
   window.getFileAttachmentEvents = getFileAttachmentEvents;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
+  window.getMaxAssetVersion = getMaxAssetVersion;
+  window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
+  window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
 }
 
 export {
@@ -1018,5 +1171,6 @@ export {
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
   getFileAttachmentEvents,
-  getAllAttachmentsForAppId
+  getAllAttachmentsForAppId,
+  getMaxAssetVersion
 };

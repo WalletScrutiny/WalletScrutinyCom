@@ -10,8 +10,8 @@ idd: 1524167720
 released: 2020-08-05
 updated: 2025-03-19
 version: 1.16.3
-stars: 4
-reviews: 109
+stars: 3.9
+reviews: 116
 website: https://koshelek.ru/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-01-01
 signer: 
-reviewArchive: 
 twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru

@@ -1,6 +1,6 @@
 ---
 wsId: coincola
-title: CoinCol - P2P Buy & Sell BTC
+title: CoinCola - P2P Buy & Sell BTC
 altTitle: 
 authors:
 - leo
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-03
 signer: 
-reviewArchive: 
 twitter: CoinCola_Global
 social:
 - https://www.linkedin.com/company/coincola

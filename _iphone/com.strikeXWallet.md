@@ -11,7 +11,7 @@ released: 2022-10-21
 updated: 2025-03-18
 version: '20.03'
 stars: 4.8
-reviews: 232
+reviews: 233
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: TradeStrikeBVI
 social:
 - https://tradestrike.io/strikex-wallet

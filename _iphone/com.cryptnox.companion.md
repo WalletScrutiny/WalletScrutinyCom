@@ -10,8 +10,8 @@ idd: '1583011693'
 released: 2021-10-10
 updated: 2025-04-20
 version: 2.8.3
-stars: 3.7
-reviews: 3
+stars: 4
+reviews: 4
 website: https://www.cryptnox.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-15
 signer: 
-reviewArchive: 
 twitter: CryptnoxTech
 social:
 - https://github.com/Cryptnox-Software

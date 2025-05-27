@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: QuarashiN
 social:
 - https://www.linkedin.com/company/quarashi-network

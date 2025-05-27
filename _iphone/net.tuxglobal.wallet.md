@@ -1,6 +1,6 @@
 ---
 wsId: tuxWallet
-title: TUX WALLET
+title: TUX Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: net.tuxglobal.wallet
 appCountry: kw
 idd: '1495945761'
 released: 2020-02-04
-updated: 2025-04-19
-version: 3.1.1
+updated: 2025-05-14
+version: 3.1.6
 stars: 0
 reviews: 0
 website: https://tux-wallet.com/
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-18
 signer: 
-reviewArchive: 
 twitter: Coinyexdotcom
 social:
 - https://t.me/coinyexchannel

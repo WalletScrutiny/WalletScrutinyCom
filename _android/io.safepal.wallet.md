@@ -9,11 +9,11 @@ users: 1000000
 appId: io.safepal.wallet
 appCountry: 
 released: 2019-05-26
-updated: 2025-04-15
-version: 4.8.12
-stars: 4.5
+updated: 2025-05-14
+version: 4.8.14
+stars: 4.6
 ratings: 13497
-reviews: 912
+reviews: 927
 website: https://www.safepal.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: iSafePal
 social: 
 redirect_from: 

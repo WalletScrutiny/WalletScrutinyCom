@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-12-05
 signer: 
-reviewArchive: 
 twitter: BurencyOfficial
 social:
 - https://www.linkedin.com/company/burencyofficial

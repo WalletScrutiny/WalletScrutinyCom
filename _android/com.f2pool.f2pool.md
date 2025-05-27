@@ -8,7 +8,7 @@ users: 100000
 appId: com.f2pool.f2pool
 appCountry: 
 released: 2018-09-04
-updated: 2025-03-24
+updated: 2025-04-27
 version: VARY
 stars: 4.3
 ratings: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: F2Pool_Official
 social:
 - https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg

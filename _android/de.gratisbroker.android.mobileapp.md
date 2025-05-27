@@ -8,9 +8,9 @@ users: 100000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: 2021-06-02
-updated: 2025-04-10
-version: 5.4.14
-stars: 3.9
+updated: 2025-05-20
+version: 5.4.31
+stars: 3.8
 ratings: 
 reviews: 7
 website: https://www.finanzen.net/zero
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-03-02
 signer: 
-reviewArchive: 
 twitter: FinanzenNet
 social:
 - https://www.facebook.com/finanzen.net

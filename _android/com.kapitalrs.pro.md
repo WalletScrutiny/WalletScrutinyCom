@@ -8,8 +8,8 @@ users: 100000
 appId: com.kapitalrs.pro
 appCountry: 
 released: 2017-02-07
-updated: 2024-08-18
-version: 90.4.010
+updated: 2025-05-12
+version: 100.02.005
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-05-21
 signer: 
-reviewArchive: 
 twitter: Kapital_RS
 social:
 - https://www.facebook.com/kapitalRS

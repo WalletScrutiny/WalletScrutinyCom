@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/daxmnofficial

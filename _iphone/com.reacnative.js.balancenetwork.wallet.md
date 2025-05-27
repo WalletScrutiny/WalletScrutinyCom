@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-31
 signer: 
-reviewArchive: 
 twitter: balancenetwork_
 social:
 - https://www.linkedin.com/company/balancenetwork

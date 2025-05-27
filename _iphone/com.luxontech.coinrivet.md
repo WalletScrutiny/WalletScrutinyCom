@@ -8,8 +8,8 @@ appId: com.luxontech.coinrivet
 appCountry: ca
 idd: '1617049863'
 released: 2022-05-11
-updated: 2025-03-26
-version: 1.3.13
+updated: 2025-05-22
+version: 1.3.15
 stars: 0
 reviews: 0
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-02
 signer: 
-reviewArchive: 
 twitter: CoinRivet
 social:
 - https://coinrivet.com

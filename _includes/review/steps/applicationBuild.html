@@ -27,27 +27,12 @@
 
         <div style="margin-top: 4px; display: none;" id="createVerificationButton"></div>
 
-        <div id="verificationModal">
-            <span id="closeModal">&times;</span>
-            <div id="verificationContent"></div>
-        </div>
+        <div id="verificationModal"></div>
+
+        <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
         <script>
           window.addEventListener('load', async () => {
-            // Wait for verifications.bundle.min.js to be fully loaded
-            await new Promise(resolve => {
-              if (typeof renderAssetsTable !== 'undefined') {
-                resolve();
-              } else {
-                const checkInterval = setInterval(() => {
-                  if (typeof renderAssetsTable !== 'undefined') {
-                    clearInterval(checkInterval);
-                    resolve();
-                  }
-                }, 50);
-              }
-            });
-
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',
@@ -57,6 +42,28 @@
               enableDraftsFilter: true,
               enableAttachments: true
             });
+
+            const versionNumberElement = document.getElementById('version-number');
+            if (versionNumberElement) {
+              const versionInfo = getMaxAssetVersion(attestationsInfo.info);
+
+              let versionInfoText = '<p style="margin-top: 0;">';
+
+              if (typeof wsVersion !== 'undefined' && wsVersion) {
+                versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVersion + '</b><br>';
+              }
+
+              if (versionInfo.lastVersion) {
+                versionInfoText += 'Latest release found in a <b>Verification</b>: <b>' + versionInfo.lastVersion + '</b> <small>(' + versionInfo.lastVersionDate + ')</small><br>';
+              }
+
+              if (versionInfo.lastVerifiedVersion && (versionInfo.lastVerifiedVersion !== versionInfo.lastVersion)) {
+                versionInfoText += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: <b>' + versionInfo.lastVerifiedVersion + '</b> <small>(' + versionInfo.lastVerifiedVersionDate + ')</small>';
+              }
+
+              versionInfoText += '</p>';
+              versionNumberElement.innerHTML = versionInfoText;
+            }
 
             if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {

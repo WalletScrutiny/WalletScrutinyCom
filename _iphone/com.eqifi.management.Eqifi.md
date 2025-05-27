@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.eqifi.management.Eqifi.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-05-04
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: eqifi_finance
 social:
 - https://www.facebook.com/EQIFi

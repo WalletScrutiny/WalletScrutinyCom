@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-08-26
 signer: 
-reviewArchive: 
 twitter: KyberSwap
 social: 
 redirect_from:

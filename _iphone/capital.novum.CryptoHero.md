@@ -10,8 +10,8 @@ idd: '1488574255'
 released: 2019-12-18
 updated: 2023-11-06
 version: 2.2.1
-stars: 3.6
-reviews: 26
+stars: 3.8
+reviews: 31
 website: https://www.cryptohero.ai
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

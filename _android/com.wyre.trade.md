@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: wyretrade
 social:
 - https://www.facebook.com/Wyretrade-105994018302814

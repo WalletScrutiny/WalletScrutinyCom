@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: haladinar
 social:
 - https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html

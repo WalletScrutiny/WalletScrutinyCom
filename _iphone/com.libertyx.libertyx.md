@@ -10,8 +10,8 @@ idd: 966538981
 released: 2015-02-20
 updated: 2025-02-24
 version: 4.1.4
-stars: 3.6
-reviews: 198
+stars: 3.7
+reviews: 200
 website: https://libertyx.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: libertyx
 social:
 - https://www.linkedin.com/company/libertyx

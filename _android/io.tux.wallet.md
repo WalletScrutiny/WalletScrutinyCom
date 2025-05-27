@@ -8,12 +8,12 @@ users: 5000
 appId: io.tux.wallet
 appCountry: 
 released: 2020-01-28
-updated: 2025-04-18
-version: 3.1.1
+updated: 2025-05-13
+version: 3.1.6
 stars: 
 ratings: 
 reviews: 
-website: https://coinyex.com/
+website: https://tux-wallet.com/
 repository: 
 issue: 
 icon: io.tux.wallet.png
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: Coinyexdotcom
 social:
 - https://t.me/coinyexchannel

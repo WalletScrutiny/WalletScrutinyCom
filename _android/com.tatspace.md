@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-12
 signer: 
-reviewArchive: 
 twitter: tatspaceapp
 social:
 - https://www.linkedin.com/company/the-abit-app/

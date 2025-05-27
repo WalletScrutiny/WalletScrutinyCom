@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-04
 signer: 
-reviewArchive: 
 twitter: Tidex_Exchange
 social:
 - https://www.facebook.com/TidexExchange

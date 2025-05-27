@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-05-10
 signer: 
-reviewArchive: 
 twitter: MOBOX_Official
 social: 
 redirect_from: 

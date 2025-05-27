@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-05-15
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: CitadelDAO
 social:
 - https://www.reddit.com/r/citadeldao

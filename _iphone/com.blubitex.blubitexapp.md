@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: blubitex
 social:
 - https://www.facebook.com/blubitexofficial

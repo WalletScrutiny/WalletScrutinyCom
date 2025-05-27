@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-22
 signer: 
-reviewArchive: 
 twitter: safemoon
 social:
 - https://www.linkedin.com/company/safemoon/

@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: VIPS_Finstock
 social:
 - https://www.linkedin.com/company/vipsfinstock

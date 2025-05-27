@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: stormxio
 social:
 - https://www.linkedin.com/company/StormX

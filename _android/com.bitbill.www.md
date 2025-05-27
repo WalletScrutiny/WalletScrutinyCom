@@ -1,6 +1,6 @@
 ---
 wsId: ownbit
-title: 'Ownbit: Cold & MultiSig Wallet'
+title: 'Ownbit: MultiSig & Cold Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 10000
 appId: com.bitbill.www
 appCountry: 
 released: 2018-03-22
-updated: 2025-03-25
-version: 4.56.5
-stars: 4.2
+updated: 2025-04-29
+version: 4.57.0
+stars: 3.9
 ratings: 79
-reviews: 27
+reviews: 14
 website: https://ownbit.io
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

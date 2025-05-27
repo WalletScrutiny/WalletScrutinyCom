@@ -7,8 +7,8 @@ appId: dev.com.gleecexchange.app
 appCountry: ca
 idd: '1541005487'
 released: 2021-02-18
-updated: 2025-03-20
-version: 1.36.0
+updated: 2025-05-14
+version: 1.37.0
 stars: 0
 reviews: 0
 website: https://gleecbtc.com
@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-28
 signer: 
-reviewArchive: 
 twitter: GleecOfficial
 social:
 - https://www.facebook.com/gleecofficial

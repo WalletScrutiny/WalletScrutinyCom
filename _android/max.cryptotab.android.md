@@ -12,7 +12,7 @@ updated: 2025-01-17
 version: 7.2.23
 stars: 4.2
 ratings: 
-reviews: 1408
+reviews: 1482
 website: https://cryptocompany.site/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-01-31
 signer: 
-reviewArchive: 
 twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFamilyOfficial

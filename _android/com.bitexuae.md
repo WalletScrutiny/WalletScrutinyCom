@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: bitexexch
 social:
 - https://www.linkedin.com/company/bitexworldwide

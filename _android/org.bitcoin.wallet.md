@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-06-16
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

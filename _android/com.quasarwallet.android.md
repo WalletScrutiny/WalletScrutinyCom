@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-05
 updated: 2024-08-29
 version: '1.5'
-stars: 3.1
+stars: 2.7
 ratings: 
-reviews: 6
+reviews: 8
 website: https://quasarwallet.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: reflextoken
 social:
 - https://www.facebook.com/reflextoken

@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.coinut.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-05-30
+date: 2025-05-26
 signer: 
-reviewArchive: 
 twitter: coinut_exchange
 social:
 - https://www.facebook.com/CoinutExchange

@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: mightywalletc
 social: 
 features: 

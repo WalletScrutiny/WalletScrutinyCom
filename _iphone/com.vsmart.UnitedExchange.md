@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-15
 signer: 
-reviewArchive: 
 twitter: exchange_united
 social:
 - https://www.facebook.com/UnitedExchange.io

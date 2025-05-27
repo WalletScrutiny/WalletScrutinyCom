@@ -1,6 +1,6 @@
 ---
 wsId: cTrader
-title: 'cTrader: Trading Forex, Stocks'
+title: 'cTrader: Forex & Stock Trading'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.spotware.ct
 appCountry: 
 released: 2014-02-10
-updated: 2025-04-15
-version: 5.2.150
+updated: 2025-05-21
+version: 5.3.140
 stars: 4.7
 ratings: 
-reviews: 290
+reviews: 299
 website: https://ctrader.com/forum
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: cTrader
 social:
 - https://www.linkedin.com/company/ctrader

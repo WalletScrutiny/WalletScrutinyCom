@@ -8,8 +8,8 @@ appId: com.triviologic.xtrader
 appCountry: cl
 idd: 864027750
 released: 2014-05-30
-updated: 2025-04-01
-version: 7.0.7
+updated: 2025-05-12
+version: 7.0.9
 stars: 2.5
 reviews: 28
 website: https://www.xtrade.com/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade

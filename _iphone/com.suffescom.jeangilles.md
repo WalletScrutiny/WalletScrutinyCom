@@ -8,8 +8,8 @@ appId: com.suffescom.jeangilles
 appCountry: us
 idd: '1642934824'
 released: 2022-09-16
-updated: 2025-02-12
-version: '1.7'
+updated: 2025-05-09
+version: 1.10.3
 stars: 3.7
 reviews: 18
 website: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://jgcapitalbitcoin.com

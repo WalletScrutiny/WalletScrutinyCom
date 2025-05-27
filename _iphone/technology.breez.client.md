@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: breez_tech
 social:
 - http://breez.technology

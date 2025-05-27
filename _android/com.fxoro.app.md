@@ -8,8 +8,8 @@ users: 10000
 appId: com.fxoro.app
 appCountry: 
 released: 2022-06-16
-updated: 2025-04-17
-version: 1.5.5
+updated: 2025-05-11
+version: 1.5.7
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-08-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/people/FXORO-India/100087993320592

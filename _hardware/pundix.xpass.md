@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-06
 signer: 
-reviewArchive: 
 twitter: PundiXLabs
 social:
 - https://www.linkedin.com/company/pundix/

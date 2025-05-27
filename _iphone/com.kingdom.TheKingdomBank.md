@@ -8,8 +8,8 @@ appId: com.kingdom.TheKingdomBank
 appCountry: bg
 idd: '1626275936'
 released: 2022-06-15
-updated: 2025-04-15
-version: 9.0.6
+updated: 2025-05-08
+version: 9.0.7
 stars: 0
 reviews: 0
 website: https://portal.thekingdombank.com/signup
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: kingdombankcom
 social:
 - https://www.linkedin.com/company/thekingdombank

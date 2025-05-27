@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/NetDania-146001445410373

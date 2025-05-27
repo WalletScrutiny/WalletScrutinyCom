@@ -28,7 +28,6 @@ verdict: unreleased
 appHashes: 
 date: 2024-10-18
 signer: 
-reviewArchive: 
 twitter: hrdwlt
 social:
 - https://medium.com/@hrdwlt

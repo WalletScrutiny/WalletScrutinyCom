@@ -8,10 +8,10 @@ appId: com.app.KoinParkios
 appCountry: in
 idd: '6448510693'
 released: 2023-05-10
-updated: 2025-03-21
-version: '4.5'
+updated: 2025-04-23
+version: '4.8'
 stars: 4
-reviews: 69
+reviews: 74
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: KoinparkInfo
 social:
 - https://www.linkedin.com/company/koinpark

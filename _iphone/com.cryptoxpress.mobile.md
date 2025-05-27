@@ -8,10 +8,10 @@ appId: com.cryptoxpress.mobile
 appCountry: in
 idd: '1591792414'
 released: 2021-11-18
-updated: 2025-03-08
-version: 1.0.24
+updated: 2025-05-20
+version: 1.0.30
 stars: 4.6
-reviews: 19
+reviews: 21
 website: https://cryptoxpress.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: crypto_xpress
 social:
 - https://www.facebook.com/iamCryptoxpress/

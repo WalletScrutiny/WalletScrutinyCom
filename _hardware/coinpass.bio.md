@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-11-26
 signer: 
-reviewArchive: 
 twitter: FEITIAN_Tech
 social:
 - https://www.linkedin.com/company/feitian-technologies-co.-ltd./

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-01-05
 signer: 
-reviewArchive: 
 twitter: Mathwallet
 social:
 - https://discord.com/invite/gXSfnk5eP5

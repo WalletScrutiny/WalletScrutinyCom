@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: BitoEX_Official
 social:
 - https://www.facebook.com/bitopro.bito

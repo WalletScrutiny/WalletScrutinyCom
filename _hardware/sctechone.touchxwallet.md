@@ -28,7 +28,6 @@ verdict: plainkey
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.youtube.com/channel/UCsbq19j1XK-qQmF5jTa5FOA

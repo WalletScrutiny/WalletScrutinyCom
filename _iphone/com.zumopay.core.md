@@ -11,7 +11,7 @@ released: 2019-11-07
 updated: 2025-04-07
 version: 5.13.0
 stars: 4.3
-reviews: 304
+reviews: 305
 website: https://app.zumo.tech
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: zumopay
 social:
 - https://www.linkedin.com/company/zumomoney

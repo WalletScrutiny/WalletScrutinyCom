@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: BG_Wallet
 social:
 - https://www.facebook.com/bgwallet

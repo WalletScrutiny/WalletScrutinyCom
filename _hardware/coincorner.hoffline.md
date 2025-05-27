@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2023-01-20
 signer: 
-reviewArchive: 
 twitter: CoinCorner
 social: 
 features: 

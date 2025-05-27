@@ -10,7 +10,7 @@ appCountry:
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
-stars: 4.2
+stars: 4
 ratings: 
 reviews: 9
 website: https://icmarkets.com
@@ -23,12 +23,11 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: IC_Markets
 social:
 - https://www.linkedin.com/company/icmarkets
 redirect_from: 
-developerName: IC Markets - Trade CFDs on Stocks, Forex & More
+developerName: Raw Trading Ltd
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: is.begin.app
 appCountry: 
 released: 2022-10-30
-updated: 2025-03-26
-version: 1.21.2
+updated: 2025-04-23
+version: 1.30.0
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: BeginWallet
 social: 
 redirect_from: 

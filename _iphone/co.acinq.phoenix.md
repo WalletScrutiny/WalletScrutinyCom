@@ -9,8 +9,8 @@ appId: co.acinq.phoenix
 appCountry: gb
 idd: '1544097028'
 released: 2021-07-13
-updated: 2025-04-08
-version: 2.5.3
+updated: 2025-05-14
+version: 2.6.0
 stars: 4.8
 reviews: 19
 website: https://phoenix.acinq.co
@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: PhoenixWallet
 social: 
 features:

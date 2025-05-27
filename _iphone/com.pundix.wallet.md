@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-12-28
 signer: 
-reviewArchive: 
 twitter: PundiXLabs
 social:
 - https://www.linkedin.com/company/pundix

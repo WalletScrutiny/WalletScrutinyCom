@@ -8,10 +8,10 @@ appId: com.biconomy.Innovation
 appCountry: us
 idd: '1486151349'
 released: 2019-11-06
-updated: 2025-03-31
-version: 2.2.22
-stars: 4.4
-reviews: 109
+updated: 2025-05-12
+version: 2.2.24
+stars: 4.5
+reviews: 139
 website: http://www.biconomy.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: BiconomyCom
 social:
 - https://www.facebook.com/BiconomyCom

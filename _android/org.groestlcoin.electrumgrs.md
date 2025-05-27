@@ -7,8 +7,8 @@ users: 500
 appId: org.groestlcoin.electrumgrs
 appCountry: 
 released: 2018-06-02
-updated: 2024-03-18
-version: 4.5.4.0
+updated: 2025-04-29
+version: 4.5.8
 stars: 
 ratings: 
 reviews: 
@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2025-03-14
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

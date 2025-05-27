@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: CPass_Official
 social:
 - https://www.instagram.com/cpass_official

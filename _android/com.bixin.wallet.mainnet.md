@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ

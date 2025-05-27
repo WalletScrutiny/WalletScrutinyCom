@@ -8,7 +8,7 @@ users: 100000
 appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
 released: 2020-03-04
-updated: 2025-01-15
+updated: 2025-05-26
 version: 3.3.3
 stars: 3.9
 ratings: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: hitbtc
 social:
 - https://www.facebook.com/hitbtc

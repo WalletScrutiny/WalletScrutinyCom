@@ -8,10 +8,10 @@ appId: com.futurance.futurex
 appCountry: tr
 idd: '1583183728'
 released: 2021-10-27
-updated: 2025-04-17
-version: 5.0.3
+updated: 2025-05-21
+version: 5.0.9
 stars: 4.2
-reviews: 133
+reviews: 135
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: Fexobit
 social:
 - https://www.linkedin.com/company/fexobit

@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: app.difx.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-24
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: difx_io
 social:
 - https://www.linkedin.com/company/difx-io

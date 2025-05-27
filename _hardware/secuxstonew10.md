@@ -29,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2022-11-24
 signer: 
-reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/jtechtrade

@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-06-09
 signer: 
-reviewArchive: 
 twitter: moonlet_wallet
 social:
 - https://github.com/Moonlet

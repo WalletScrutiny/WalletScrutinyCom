@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: TigerWitGlobal
 social:
 - https://www.linkedin.com/company/tigerwit-group-

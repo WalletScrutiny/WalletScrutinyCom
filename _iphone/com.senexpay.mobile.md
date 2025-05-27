@@ -10,8 +10,8 @@ idd: '1627864145'
 released: 2022-08-18
 updated: 2024-04-08
 version: 1.5.3
-stars: 4.1
-reviews: 8
+stars: 4.2
+reviews: 9
 website: https://senexpay.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

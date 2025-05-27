@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-14
 signer: 
-reviewArchive: 
 twitter: letskrypto
 social: 
 redirect_from: 

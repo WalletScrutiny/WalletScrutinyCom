@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - mailto:es_contact@excelsecu.com

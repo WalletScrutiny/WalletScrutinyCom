@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: offline_crypto
 social:
 - https://www.facebook.com/offlinecrypto/

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-06-11
 updated: 2025-04-04
 version: 7.0.5
-stars: 4.4
+stars: 4.3
 ratings: 348
-reviews: 9
+reviews: 8
 website: https://profittradingapp.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-13
 signer: 
-reviewArchive: 
 twitter: ProfitTrading_
 social:
 - https://www.facebook.com/profittradingapp

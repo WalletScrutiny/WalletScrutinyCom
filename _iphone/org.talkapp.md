@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-01
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://talkapp.org

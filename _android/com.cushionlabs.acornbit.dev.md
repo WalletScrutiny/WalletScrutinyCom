@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-03-17
 signer: 
-reviewArchive: 
 twitter: acornbitsupport
 social:
 - https://t.me/acornbitofficial

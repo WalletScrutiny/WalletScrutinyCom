@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: wedgefinancial
 social:
 - https://www.linkedin.com/company/wedgefinancial

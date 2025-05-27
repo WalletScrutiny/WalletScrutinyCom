@@ -25,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

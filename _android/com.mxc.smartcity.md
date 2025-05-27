@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-10-16
 signer: 
-reviewArchive: 
 twitter: mxcfoundation
 social:
 - https://www.facebook.com/MXCfoundation

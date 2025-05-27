@@ -8,8 +8,8 @@ appId: it.airgap.wallet
 appCountry: 
 idd: 1420996542
 released: 2018-08-24
-updated: 2025-01-28
-version: 3.32.6
+updated: 2025-05-05
+version: 3.32.7
 stars: 3.7
 reviews: 31
 website: https://airgap.it/
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-03-07
 signer: 
-reviewArchive: 
 twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap

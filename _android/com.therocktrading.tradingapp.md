@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: therocktrading
 social: 
 redirect_from: 

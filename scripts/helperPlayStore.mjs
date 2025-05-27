@@ -16,7 +16,7 @@ const category = 'android';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
                 'updated version stars ratings reviews website repository ' +
-                'issue icon bugbounty meta verdict appHashes date signer reviewArchive ' +
+                'issue icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social redirect_from developerName features').split(' ');
 
 async function refreshAll (ids, markDefunct) {

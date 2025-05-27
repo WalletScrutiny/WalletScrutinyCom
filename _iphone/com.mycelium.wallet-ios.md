@@ -11,18 +11,17 @@ released: 2014-12-17
 updated: 2023-05-10
 version: '1.18'
 stars: 2.1
-reviews: 384
+reviews: 386
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
 issue: 
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: sourceavailable
 appHashes: 
-date: 2024-05-06
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: MyceliumCom
 social:
 - https://www.linkedin.com/company/mycelium

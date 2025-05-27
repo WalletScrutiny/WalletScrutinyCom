@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: theamgen
 social:
 - https://www.facebook.com/theamgen

@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: evercoin
 social: 
 features: 

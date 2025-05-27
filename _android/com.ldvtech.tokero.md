@@ -8,11 +8,11 @@ users: 10000
 appId: com.ldvtech.tokero
 appCountry: 
 released: 2021-06-02
-updated: 2024-11-27
-version: 4.4.4
+updated: 2025-04-18
+version: 4.5.3
 stars: 5
 ratings: 
-reviews: 4
+reviews: 5
 website: https://web.tokero.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-28
 signer: 
-reviewArchive: 
 twitter: tokeroexchange
 social:
 - https://www.facebook.com/TokeroExchange/

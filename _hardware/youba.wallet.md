@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: yooba_io
 social: 
 features: 

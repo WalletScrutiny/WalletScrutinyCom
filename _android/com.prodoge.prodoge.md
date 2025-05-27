@@ -4,12 +4,12 @@ title: ALX Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.prodoge.prodoge
 appCountry: 
 released: 2019-09-17
-updated: 2024-07-19
-version: '3.35'
+updated: 2025-05-05
+version: '3.36'
 stars: 5
 ratings: 
 reviews: 5
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-30
 signer: 
-reviewArchive: 
 twitter: Leadwallet
 social:
 - https://www.linkedin.com/company/leadwallet

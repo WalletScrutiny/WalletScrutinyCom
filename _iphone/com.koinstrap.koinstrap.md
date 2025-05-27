@@ -11,7 +11,7 @@ released: 2020-08-31
 updated: 2023-11-27
 version: 3.3.7
 stars: 4.7
-reviews: 35
+reviews: 34
 website: https://koinstrap.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-22
 signer: 
-reviewArchive: 
 twitter: koinstrap
 social:
 - https://www.facebook.com/koinstrap

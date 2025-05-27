@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-04
 signer: 
-reviewArchive: 
 twitter: MoonfarmFinance
 social:
 - https://www.facebook.com/profile.php?id=100069712269738

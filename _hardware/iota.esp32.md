@@ -25,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: iota
 social: 
 features: 

@@ -18,7 +18,6 @@ bugbounty:
 meta: stale
 verdict: nowallet
 date: 2025-04-22
-reviewArchive: 
 twitter: QtTrader
 social: 
 features: 

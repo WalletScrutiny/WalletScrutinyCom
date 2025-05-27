@@ -8,8 +8,8 @@ users: 10000
 appId: fior.digital21app
 appCountry: 
 released: 
-updated: 2025-04-09
-version: 2.0.40
+updated: 2025-05-12
+version: 2.0.42
 stars: 4.8
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: 21bitcoinApp
 social:
 - https://www.facebook.com/21bitcoinapp

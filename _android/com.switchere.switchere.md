@@ -12,7 +12,7 @@ updated: 2024-08-07
 version: 1.1.24
 stars: 3.4
 ratings: 
-reviews: 44
+reviews: 45
 website: https://switchere.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-03-19
 signer: 
-reviewArchive: 
 twitter: Switchere_com
 social:
 - https://www.facebook.com/switchere.official

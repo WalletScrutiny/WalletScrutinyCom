@@ -4,12 +4,12 @@ title: 업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소
 altTitle: 
 authors:
 - danny
-users: 5000000
+users: 10000000
 appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
-updated: 2025-04-15
-version: 1.32.5p1
+updated: 2025-05-23
+version: 1.32.10
 stars: 3.4
 ratings: 29440
 reviews: 18
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: upbitglobal
 social:
 - https://www.linkedin.com/company/upbit-official

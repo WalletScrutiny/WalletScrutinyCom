@@ -28,7 +28,6 @@ meta: ok
 verdict: sealed-plainkey
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: satochipwallet
 social:
 - https://www.linkedin.com/company/satochip

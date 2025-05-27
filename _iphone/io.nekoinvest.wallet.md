@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://nekoinvest.io

@@ -25,7 +25,6 @@ verdict: wip
 appHashes: 
 date: 2022-11-25
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

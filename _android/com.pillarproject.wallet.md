@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2020-02-20
 signer: 
-reviewArchive: 
 twitter: PillarWallet
 social: 
 redirect_from:

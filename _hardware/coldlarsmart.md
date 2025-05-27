@@ -26,7 +26,6 @@ verdict: wip
 appHashes: 
 date: 2024-12-09
 signer: 
-reviewArchive: 
 twitter: Coldlar
 social: 
 features: 

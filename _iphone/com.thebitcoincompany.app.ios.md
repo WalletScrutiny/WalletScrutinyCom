@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: thebtcco
 social:
 - https://www.facebook.com/thebtcco

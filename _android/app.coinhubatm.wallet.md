@@ -10,9 +10,9 @@ appCountry:
 released: 2022-12-11
 updated: 2025-03-24
 version: 4.16.0
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 12
+reviews: 13
 website: https://coinhubatm.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: Coinhubusa
 social:
 - https://www.linkedin.com/company/coinhubatm

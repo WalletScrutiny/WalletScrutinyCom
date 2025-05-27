@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-18
 signer: 
-reviewArchive: 
 twitter: altswitchglobal
 social: 
 features: 

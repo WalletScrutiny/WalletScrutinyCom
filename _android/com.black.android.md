@@ -8,8 +8,8 @@ users: 10000
 appId: com.black.android
 appCountry: 
 released: 2021-07-09
-updated: 2025-01-16
-version: '58'
+updated: 2025-04-26
+version: '61'
 stars: 2.3
 ratings: 
 reviews: 5
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

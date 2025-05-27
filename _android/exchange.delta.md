@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-08
 signer: 
-reviewArchive: 
 twitter: Delta_Exchange
 social:
 - https://www.facebook.com/deltaexchg

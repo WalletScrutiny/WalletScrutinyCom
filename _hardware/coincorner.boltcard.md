@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-25
 signer: 
-reviewArchive: 
 twitter: CoinCorner
 social:
 - https://www.facebook.com/CoinCorner/

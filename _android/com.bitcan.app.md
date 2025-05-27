@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-28
 signer: 
-reviewArchive: 
 twitter: bitkanofficial
 social: 
 redirect_from: 

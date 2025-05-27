@@ -10,10 +10,10 @@ appId: im.token.app
 appCountry: 
 released: 2018-05-31
 updated: 2025-04-18
-version: 2.16.3
-stars: 4.3
+version: 2.16.4
+stars: 4.4
 ratings: 4350
-reviews: 232
+reviews: 233
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: imTokenOfficial
 social: 
 redirect_from: 

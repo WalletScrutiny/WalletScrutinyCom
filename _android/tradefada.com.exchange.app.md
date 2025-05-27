@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-02
 signer: 
-reviewArchive: 
 twitter: tradefada
 social:
 - https://www.facebook.com/Tradefada01

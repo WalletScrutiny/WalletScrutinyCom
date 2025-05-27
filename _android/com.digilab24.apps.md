@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-15
 signer: 
-reviewArchive: 
 twitter: CPass_Official
 social:
 - https://www.instagram.com/cpass_official

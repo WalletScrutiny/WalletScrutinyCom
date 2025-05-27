@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-04-09
 signer: 
-reviewArchive: 
 twitter: conio
 social:
 - https://www.linkedin.com/company/conio
