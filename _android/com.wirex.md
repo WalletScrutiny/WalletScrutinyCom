@@ -10,7 +10,7 @@ appCountry:
 released: 2016-03-31
 updated: 2025-05-01
 version: 4.09.50
-stars: 3.7
+stars: 3.8
 ratings: 26258
 reviews: 1103
 website: https://wirexapp.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited

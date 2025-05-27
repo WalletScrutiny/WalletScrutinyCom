@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio

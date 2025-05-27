@@ -26,7 +26,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-01-20
 signer: 
-reviewArchive: 
 twitter: BaanxGroup
 social:
 - https://www.linkedin.com/company/baanxgroup

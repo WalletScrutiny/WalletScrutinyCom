@@ -8,11 +8,11 @@ users: 1000000
 appId: atws.app
 appCountry: us
 released: 2010-12-15
-updated: 2025-05-14
-version: 8.4.840
+updated: 2025-05-21
+version: 8.4.844
 stars: 4.6
 ratings: 7723
-reviews: 1342
+reviews: 1349
 website: http://ibkr.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: ibkr
 social:
 - https://www.linkedin.com/company/interactive-brokers

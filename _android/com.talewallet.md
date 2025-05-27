@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-11-12
 signer: 
-reviewArchive: 
 twitter: TaleWallet
 social:
 - https://www.linkedin.com/company/nexttales

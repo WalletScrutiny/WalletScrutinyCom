@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 date: 2025-04-24
-reviewArchive: 
 twitter: coinomiwallet
 social: 
 features: 

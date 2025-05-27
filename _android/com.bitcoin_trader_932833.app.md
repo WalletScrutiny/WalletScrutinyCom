@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://the-bitcoin-traderapp.cyou

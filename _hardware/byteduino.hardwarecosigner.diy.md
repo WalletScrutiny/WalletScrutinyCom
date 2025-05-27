@@ -25,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-12-07
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

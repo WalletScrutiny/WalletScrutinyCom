@@ -29,7 +29,6 @@ verdict: plainkey
 appHashes: 
 date: 2021-12-08
 signer: 
-reviewArchive: 
 twitter: ecomi_
 social:
 - https://www.linkedin.com/company/ecomi-technology

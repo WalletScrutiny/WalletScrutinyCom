@@ -8,8 +8,8 @@ users: 1000
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
-updated: 2025-05-05
-version: '3.8'
+updated: 2025-05-19
+version: '3.9'
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: btc_blackcard
 social:
 - https://t.me/Bitcoin_Black_Card

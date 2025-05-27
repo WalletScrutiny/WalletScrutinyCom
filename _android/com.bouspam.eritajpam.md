@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-20
 signer: 
-reviewArchive: 
 twitter: eritajpam
 social: 
 redirect_from: 

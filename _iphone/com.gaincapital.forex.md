@@ -11,7 +11,7 @@ released: 2020-10-14
 updated: 2025-04-30
 version: 1.218.6954
 stars: 4.4
-reviews: 161
+reviews: 164
 website: https://www.forex.com/en-uk/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-16
 signer: 
-reviewArchive: 
 twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom

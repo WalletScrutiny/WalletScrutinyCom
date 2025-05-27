@@ -11,7 +11,7 @@ released: 2017-05-05
 updated: 2025-04-18
 version: 7.0.5(623)
 stars: 4.7
-reviews: 1729
+reviews: 1747
 website: http://www.99pay.kr
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-12-26
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

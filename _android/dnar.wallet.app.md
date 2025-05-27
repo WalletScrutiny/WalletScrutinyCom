@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: dnarhq
 social:
 - https://www.facebook.com/dnar.inc

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-19
 updated: 2024-11-27
 version: 2.3.6
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 15
 website: https://boundlesspay.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: boundlesspay
 social:
 - https://www.facebook.com/boundlesspayofficial/

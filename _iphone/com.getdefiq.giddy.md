@@ -8,10 +8,10 @@ appId: com.getdefiq.giddy
 appCountry: us
 idd: '1596780905'
 released: 2022-03-02
-updated: 2025-05-05
-version: 3.9.7
+updated: 2025-05-22
+version: 3.9.9
 stars: 4.7
-reviews: 319
+reviews: 320
 website: https://giddy.co
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-10
 signer: 
-reviewArchive: 
 twitter: giddydefi
 social:
 - https://www.linkedin.com/company/giddydefi

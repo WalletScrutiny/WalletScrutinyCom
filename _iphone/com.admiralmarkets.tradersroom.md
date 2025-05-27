@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: AdmiralsGlobal
 social:
 - https://www.linkedin.com/company/-admiral-markets-group

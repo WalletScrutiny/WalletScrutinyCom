@@ -24,7 +24,6 @@ meta: ok
 verdict: nowallet
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: lnbits
 social: 
 features:

@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: bideskcom
 social:
 - https://www.facebook.com/bideskcom

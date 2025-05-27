@@ -22,11 +22,10 @@ verdict: fewusers
 appHashes: 
 date: 2024-01-19
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Francesco - Sonikchain Team
+developerName: Evegram Inc.
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: ventAfrica
-title: Vent Africa - Crypto to Cash
+title: 'Vent: Sell BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: ventafricaHQ
 social:
 - https://t.me/ventafrica

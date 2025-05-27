@@ -17,8 +17,7 @@ icon: simple.bitcoinj.png
 bugbounty: 
 meta: obsolete
 verdict: unreleased
-date: 2025-04-24
-reviewArchive: 
+date: 2025-04-25
 twitter: 
 social: 
 features: 

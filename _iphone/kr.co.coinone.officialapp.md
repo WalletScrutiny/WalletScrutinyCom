@@ -11,7 +11,7 @@ released: 2018-03-27
 updated: 2025-05-12
 version: 5.7.0
 stars: 2.6
-reviews: 947
+reviews: 948
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: CoinoneOfficial
 social:
 - https://coinone.co.kr

@@ -28,7 +28,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-12-14
 signer: 
-reviewArchive: 
 twitter: keepser
 social:
 - https://www.linkedin.com/company/keepser

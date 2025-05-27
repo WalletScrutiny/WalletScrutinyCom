@@ -8,8 +8,8 @@ appId: io.nanovest
 appCountry: us
 idd: '1580892310'
 released: 2021-12-20
-updated: 2025-05-06
-version: 4.8.0
+updated: 2025-05-20
+version: 4.9.0
 stars: 4.8
 reviews: 16
 website: https://nanovest.io/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: nanovest_io
 social:
 - https://www.facebook.com/nanovest

@@ -8,8 +8,8 @@ users: 500000
 appId: io.ts.converter
 appCountry: 
 released: 2023-02-26
-updated: 2025-04-29
-version: 3.12.7
+updated: 2025-05-21
+version: 3.12.8
 stars: 3.6
 ratings: 
 reviews: 10
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-01-19
 signer: 
-reviewArchive: 
 twitter: tapswapkenya
 social:
 - https://www.instagram.com/tapswap_kenya/

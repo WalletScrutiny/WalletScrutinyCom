@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-05-23
 signer: 
-reviewArchive: 
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform

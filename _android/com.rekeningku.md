@@ -9,7 +9,7 @@ appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
 updated: 2025-05-09
-version: 4.2.04
+version: 4.3.00
 stars: 4.5
 ratings: 22977
 reviews: 50
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com

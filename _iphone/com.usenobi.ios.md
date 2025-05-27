@@ -11,7 +11,7 @@ released: 2020-07-15
 updated: 2025-03-18
 version: 3.6.8
 stars: 4.8
-reviews: 82
+reviews: 83
 website: https://usenobi.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-12
 signer: 
-reviewArchive: 
 twitter: usenobi
 social:
 - https://www.facebook.com/usenobi

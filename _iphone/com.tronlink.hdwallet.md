@@ -11,7 +11,7 @@ released: 2019-03-02
 updated: 2025-05-06
 version: 4.16.0
 stars: 3.9
-reviews: 1118
+reviews: 1121
 website: https://www.tronlink.org
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-06-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-14
 signer: 
-reviewArchive: 
 twitter: capitalikalatam
 social:
 - https://www.facebook.com/CapitalikaWalletExchange

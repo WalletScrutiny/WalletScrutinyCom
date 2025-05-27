@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-18
 signer: 
-reviewArchive: 
 twitter: Vuollet_io
 social:
 - https://t.me/vuollet

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-08-26
 signer: 
-reviewArchive: 
 twitter: Oduwacoin
 social:
 - https://www.oduwacoin.io

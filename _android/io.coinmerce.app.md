@@ -8,8 +8,8 @@ users: 50000
 appId: io.coinmerce.app
 appCountry: 
 released: 2018-07-09
-updated: 2025-02-18
-version: 6.3.1
+updated: 2025-05-23
+version: 6.5.0
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: coinmerce
 social:
 - https://www.facebook.com/CoinmerceNL

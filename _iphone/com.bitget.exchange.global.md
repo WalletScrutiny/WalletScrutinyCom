@@ -10,8 +10,8 @@ idd: 1442778704
 released: 2018-11-29
 updated: 2025-05-16
 version: 2.57.0
-stars: 4.5
-reviews: 1786
+stars: 4.4
+reviews: 1833
 website: https://www.bitget.com/en
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-17
 signer: 
-reviewArchive: 
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget

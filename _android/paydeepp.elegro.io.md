@@ -8,8 +8,8 @@ users: 10000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
-updated: 2025-04-23
-version: 5.4.5
+updated: 2025-05-22
+version: 5.4.6
 stars: 3.4
 ratings: 
 reviews: 1
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-14
 signer: 
-reviewArchive: 
 twitter: NikoTech
 social:
 - https://www.linkedin.com/company/niko-technologies-ou

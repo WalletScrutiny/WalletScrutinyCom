@@ -12,7 +12,7 @@ updated: 2025-05-12
 version: 10.65.0
 stars: 4.1
 ratings: 
-reviews: 321824
+reviews: 322646
 website: https://venmo.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-04-12
 signer: 
-reviewArchive: 
 twitter: venmo
 social:
 - https://www.instagram.com/venmo/

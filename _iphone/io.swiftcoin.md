@@ -8,8 +8,8 @@ appId: io.swiftcoin
 appCountry: my
 idd: '6443595428'
 released: 2023-04-03
-updated: 2025-04-16
-version: 3.1.3
+updated: 2025-05-22
+version: 3.1.4
 stars: 5
 reviews: 9
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: SwiftCoin380
 social:
 - https://swiftcoin.io

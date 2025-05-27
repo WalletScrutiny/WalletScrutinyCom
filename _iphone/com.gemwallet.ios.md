@@ -10,8 +10,8 @@ idd: '6448712670'
 released: 2023-07-17
 updated: 2025-05-13
 version: 1.3.173
-stars: 4.5
-reviews: 133
+stars: 4.6
+reviews: 150
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
 issue: 
@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-06-12
 signer: 
-reviewArchive: 
 twitter: GemWalletApp
 social:
 - https://github.com/gemwalletcom

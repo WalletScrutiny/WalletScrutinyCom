@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: CoinUs_Official
 social:
 - https://www.facebook.com/CoinUsOfficial

@@ -11,7 +11,7 @@ released: 2021-03-30
 updated: 2025-05-13
 version: 3.2.1
 stars: 4.4
-reviews: 933
+reviews: 942
 website: https://bitcoindepot.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-08
 signer: 
-reviewArchive: 
 twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot

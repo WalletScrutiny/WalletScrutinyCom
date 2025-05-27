@@ -11,7 +11,7 @@ updated: 2024-11-01
 version: 5.0.0
 stars: 4.8
 ratings: 
-reviews: 19
+reviews: 21
 website: https://crystalballmarkets.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2024-08-21
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -17,8 +17,7 @@ icon: defichain.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2025-04-14
-reviewArchive: 
+date: 2025-05-08
 twitter: defichain
 social:
 - https://www.reddit.com/r/defiblockchain/

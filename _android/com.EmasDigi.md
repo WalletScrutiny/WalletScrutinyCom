@@ -9,7 +9,7 @@ appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
 updated: 2025-05-08
-version: 6.3.4
+version: 6.3.7
 stars: 4.4
 ratings: 27168
 reviews: 115
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

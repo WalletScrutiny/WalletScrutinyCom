@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-04
 signer: 
-reviewArchive: 
 twitter: sylo
 social:
 - https://www.linkedin.com/company/sylo.io

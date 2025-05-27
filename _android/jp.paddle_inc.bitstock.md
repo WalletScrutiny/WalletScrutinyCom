@@ -10,9 +10,9 @@ appCountry: jp
 released: 2019-09-03
 updated: 2025-04-01
 version: 1.4.66
-stars: 3.6
+stars: 3.5
 ratings: 3029
-reviews: 1959
+reviews: 1966
 website: https://www.paddle-inc.jp/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

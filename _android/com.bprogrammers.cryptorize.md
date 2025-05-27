@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-04
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/BProgrammers

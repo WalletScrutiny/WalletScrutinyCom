@@ -28,7 +28,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-21
 signer: 
-reviewArchive: 
 twitter: zeokku
 social: 
 features: 

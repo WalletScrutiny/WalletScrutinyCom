@@ -12,7 +12,7 @@ updated: 2025-04-29
 version: 1.189.5
 stars: 3.9
 ratings: 275
-reviews: 34
+reviews: 35
 website: https://bitnob.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-07
 signer: 
-reviewArchive: 
 twitter: Bitnob_official
 social:
 - https://www.linkedin.com/company/bitnob

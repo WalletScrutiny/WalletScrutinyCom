@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/FitQian-294969777791556/

@@ -11,7 +11,7 @@ released: 2021-06-01
 updated: 2025-05-06
 version: 3.14.0
 stars: 4.7
-reviews: 13145
+reviews: 13523
 website: https://kraken.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

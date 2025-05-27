@@ -12,7 +12,7 @@ updated: 2025-04-15
 version: 3.5.3
 stars: 4.2
 ratings: 
-reviews: 11
+reviews: 12
 website: https://www.snowball.money/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: snowball_money
 social: 
 redirect_from: 

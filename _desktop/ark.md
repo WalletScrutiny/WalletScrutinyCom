@@ -18,7 +18,6 @@ bugbounty:
 meta: defunct
 verdict: nobtc
 date: 2025-04-22
-reviewArchive: 
 twitter: arkecosystem
 social: 
 features: 

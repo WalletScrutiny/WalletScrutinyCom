@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-01-30
 signer: 
-reviewArchive: 
 twitter: coinmama
 social:
 - https://www.linkedin.com/company/coinmama

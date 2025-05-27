@@ -12,7 +12,7 @@ updated: 2025-03-23
 version: 1.23.1
 stars: 4.6
 ratings: 1913
-reviews: 415
+reviews: 416
 website: http://thndr.games
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: thndrgames
 social: 
 redirect_from: 

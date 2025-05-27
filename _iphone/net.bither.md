@@ -13,7 +13,7 @@ released: 2014-07-25
 updated: 2024-06-13
 version: 2.1.4
 stars: 3.1
-reviews: 61
+reviews: 62
 website: https://bither.net
 repository: https://github.com/bither/bither-ios
 issue: 
@@ -24,7 +24,6 @@ verdict: obfuscated
 appHashes: []
 date: 2024-10-09
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

@@ -11,7 +11,7 @@ released: 2018-07-29
 updated: 2025-02-19
 version: 6.3.1
 stars: 3.7
-reviews: 93
+reviews: 96
 website: https://coinmerce.io/en/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: coinmerce
 social:
 - https://www.facebook.com/CoinmerceNL

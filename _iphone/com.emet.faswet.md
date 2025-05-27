@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2025-01-09
 signer: 
-reviewArchive: 
 twitter: emet_group_eng
 social:
 - https://www.instagram.com/emetbusinessgroupeng

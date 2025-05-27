@@ -22,7 +22,6 @@ verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: coingrig
 social:
 - https://www.linkedin.com/company/coingrig/

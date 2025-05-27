@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-16
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/ace.exchange.tw

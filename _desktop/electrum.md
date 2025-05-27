@@ -17,8 +17,7 @@ icon: electrum.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-24
-reviewArchive: 
+date: 2025-04-25
 twitter: ElectrumWallet
 social: 
 features: 

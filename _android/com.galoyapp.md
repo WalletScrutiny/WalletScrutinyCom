@@ -9,11 +9,11 @@ users: 100000
 appId: com.galoyapp
 appCountry: 
 released: 2020-11-24
-updated: 2025-04-23
-version: 2.2.306
+updated: 2025-05-23
+version: 2.2.315
 stars: 4.5
 ratings: 
-reviews: 40
+reviews: 41
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
 issue: 
@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-20
 signer: 
-reviewArchive: 
 twitter: blinkbtc
 social:
 - >-
@@ -32,7 +31,7 @@ social:
 - https://t.me/blinkbtc
 - https://snort.social/p/community@blink.sv
 redirect_from: 
-developerName: Galoy Inc
+developerName: Blink El Salvador S.A. de C.V.
 features:
 - ln
 

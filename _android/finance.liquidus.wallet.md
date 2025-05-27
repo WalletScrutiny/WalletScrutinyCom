@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-18
 signer: 
-reviewArchive: 
 twitter: LiquidusFinance
 social:
 - https://t.me/liquidusfinance

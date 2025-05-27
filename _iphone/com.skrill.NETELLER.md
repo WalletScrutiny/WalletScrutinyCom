@@ -11,7 +11,7 @@ released: 2016-05-02
 updated: 2025-05-14
 version: 3.160.0
 stars: 4.5
-reviews: 909
+reviews: 918
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: neteller
 social: 
 features: 

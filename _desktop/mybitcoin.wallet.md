@@ -17,8 +17,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-24
-reviewArchive: 
+date: 2024-04-25
 twitter: 
 social: 
 features: 

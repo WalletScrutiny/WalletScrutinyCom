@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: Mathwallet
 social: 
 features: 

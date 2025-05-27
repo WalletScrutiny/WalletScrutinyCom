@@ -11,7 +11,7 @@ released: 2014-07-18
 updated: 2023-06-20
 version: 5.3.110
 stars: 4.7
-reviews: 3492
+reviews: 3490
 website: https://www.okcoin.com/mobile
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-06-17
 signer: 
-reviewArchive: 
 twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin

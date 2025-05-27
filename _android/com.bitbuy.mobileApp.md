@@ -12,7 +12,7 @@ updated: 2025-04-20
 version: 5.1.0
 stars: 4.2
 ratings: 1381
-reviews: 1356
+reviews: 1358
 website: https://bitbuy.ca/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-11
 signer: 
-reviewArchive: 
 twitter: bitbuy
 social:
 - https://www.linkedin.com/company/bitbuyca

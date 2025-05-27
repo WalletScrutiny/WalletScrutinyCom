@@ -10,9 +10,9 @@ appCountry:
 released: 2014-12-15
 updated: 2025-05-15
 version: 5.5.1
-stars: 4.5
+stars: 4.4
 ratings: 97568
-reviews: 436
+reviews: 441
 website: http://indodax.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-31
 signer: 
-reviewArchive: 
 twitter: indodax
 social: 
 redirect_from: 

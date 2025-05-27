@@ -9,9 +9,9 @@ appCountry:
 released: 2017-12-13
 updated: 2025-03-24
 version: 5.7.0
-stars: 2.9
+stars: 2.8
 ratings: 58803
-reviews: 2060
+reviews: 2061
 website: http://electroneum.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2020-06-08
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

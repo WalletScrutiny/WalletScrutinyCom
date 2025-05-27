@@ -10,8 +10,8 @@ users: 1000
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07
-updated: 2025-04-02
-version: 1.1.0
+updated: 2025-05-20
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
@@ -25,13 +25,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-12-25
 signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
-reviewArchive:
-- date: 2024-06-16
-  version: 1.0.1
-  appHashes:
-  - 7b571191e0d74c1e9c748574d6c3bdde73851712646d73ae9f3ccf5cb4f06f5d
-  gitRevision: 1d915d864d956ae13a1ea1939a7121444ceee3b2
-  verdict: nonverifiable
 twitter: bitkitwallet
 social:
 - https://discord.com/invite/DxTBJXvJxn

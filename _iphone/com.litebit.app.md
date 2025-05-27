@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-21
 signer: 
-reviewArchive: 
 twitter: litebiteu
 social:
 - https://www.linkedin.com/company/litebit

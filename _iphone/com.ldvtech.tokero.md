@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-28
 signer: 
-reviewArchive: 
 twitter: tokeroexchange
 social:
 - https://www.facebook.com/TokeroExchange/

@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-28
 signer: 
-reviewArchive: 
 twitter: signalFCU
 social:
 - https://www.linkedin.com/company/signal-financial-federal-credit-union

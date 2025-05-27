@@ -21,7 +21,6 @@ verdict: nosource
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: ethos_io
 social:
 - https://www.facebook.com/ethosplatform

@@ -26,7 +26,6 @@ verdict: nosource
 appHashes: 
 date: 2022-11-26
 signer: 
-reviewArchive: 
 twitter: graysingapore
 social:
 - https://www.linkedin.com/company/gray-tech-international-private-limited

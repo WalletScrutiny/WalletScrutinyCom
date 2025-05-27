@@ -10,7 +10,7 @@ appCountry:
 released: 2023-08-09
 updated: 2025-02-08
 version: 1.3.13
-stars: 4.1
+stars: 4
 ratings: 
 reviews: 26
 website: https://uxuy.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: uxuycom
 social:
 - https://t.me/uxuycom

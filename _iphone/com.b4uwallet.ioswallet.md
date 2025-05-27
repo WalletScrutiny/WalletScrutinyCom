@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: b4uwallet_b4u
 social:
 - https://www.facebook.com/B4uwalletofficial

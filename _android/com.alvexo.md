@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: Alvexo_Trade
 social:
 - https://www.linkedin.com/company/alvexo

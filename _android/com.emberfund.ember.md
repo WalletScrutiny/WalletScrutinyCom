@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-01-24
 updated: 2025-02-26
 version: '35.9'
-stars: 4.5
+stars: 4.6
 ratings: 1026
-reviews: 2076
+reviews: 2085
 website: https://www.emberfund.io/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: Ember_Fund
 social:
 - https://github.com/ember-fund

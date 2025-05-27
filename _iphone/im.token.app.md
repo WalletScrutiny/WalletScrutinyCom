@@ -11,7 +11,7 @@ released: 2018-06-07
 updated: 2025-04-18
 version: 2.16.4
 stars: 4.2
-reviews: 1021
+reviews: 1023
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-05-02
 signer: 
-reviewArchive: 
 twitter: imTokenOfficial
 social: 
 features: 

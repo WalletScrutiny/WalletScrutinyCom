@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: truzact
 social:
 - https://www.instagram.com/truzact1

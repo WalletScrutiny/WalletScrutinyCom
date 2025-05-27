@@ -8,8 +8,8 @@ users: 100000
 appId: com.getdefiq.giddy
 appCountry: 
 released: 2022-02-25
-updated: 2025-05-04
-version: 3.9.7
+updated: 2025-05-25
+version: 3.9.10
 stars: 4.3
 ratings: 
 reviews: 127
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-10
 signer: 
-reviewArchive: 
 twitter: giddydefi
 social:
 - https://www.linkedin.com/company/giddydefi

@@ -11,9 +11,9 @@ appCountry:
 released: 2019-09-30
 updated: 2025-05-15
 version: 2.5.56
-stars: 4.2
+stars: 4.1
 ratings: 24688
-reviews: 874
+reviews: 875
 website: https://roqqu.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-16
 signer: 
-reviewArchive: 
 twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay

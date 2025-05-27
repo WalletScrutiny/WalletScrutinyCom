@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: pallapay_com
 social:
 - https://www.facebook.com/pallapay

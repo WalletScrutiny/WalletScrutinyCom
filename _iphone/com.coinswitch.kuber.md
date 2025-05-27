@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2025-04-17
 version: 7.1.1
 stars: 4.5
-reviews: 57545
+reviews: 57608
 website: https://coinswitch.co
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: CoinSwitchKuber
 social:
 - https://www.linkedin.com/company/coinswitch

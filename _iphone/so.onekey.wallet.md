@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-18
 signer: 
-reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv

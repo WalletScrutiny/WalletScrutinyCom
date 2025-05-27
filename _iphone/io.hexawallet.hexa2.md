@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: HexaWallet
 social:
 - https://www.linkedin.com/company/bithyve

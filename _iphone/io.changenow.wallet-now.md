@@ -8,10 +8,10 @@ appId: io.changenow.wallet-now
 appCountry: us
 idd: '1591216386'
 released: 2021-10-23
-updated: 2025-05-11
-version: 3.15.2
+updated: 2025-05-23
+version: 3.15.3
 stars: 4.5
-reviews: 697
+reviews: 701
 website: https://walletnow.app
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-04-08
 signer: 
-reviewArchive: 
 twitter: NOW_Wallet
 social:
 - https://www.facebook.com/ChangeNOW.io/

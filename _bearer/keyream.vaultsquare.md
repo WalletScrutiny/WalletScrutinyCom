@@ -25,7 +25,6 @@ meta: defunct
 verdict: wip
 date: 2023-03-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/keyreamqr

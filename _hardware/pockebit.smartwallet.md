@@ -26,7 +26,6 @@ verdict: vapor
 appHashes: 
 date: 2023-09-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://web.archive.org/web/20181226144130/https://pockebit.com/

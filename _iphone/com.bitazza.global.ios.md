@@ -11,7 +11,7 @@ released: 2022-04-07
 updated: 2025-05-07
 version: 3.9.17
 stars: 4.6
-reviews: 164
+reviews: 165
 website: https://www.bitazza.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-09
 signer: 
-reviewArchive: 
 twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal

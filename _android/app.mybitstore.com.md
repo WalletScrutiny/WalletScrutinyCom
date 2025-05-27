@@ -8,7 +8,7 @@ users: 10000
 appId: app.mybitstore.com
 appCountry: 
 released: 2021-08-12
-updated: 2025-05-15
+updated: 2025-05-22
 version: 7.0.9
 stars: 4.2
 ratings: 20
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: mybitstore
 social:
 - https://facebook.com/mybitstore

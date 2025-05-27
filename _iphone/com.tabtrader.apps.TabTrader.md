@@ -13,7 +13,7 @@ released: 2016-09-02
 updated: 2025-03-28
 version: 5.2.7
 stars: 4.7
-reviews: 4325
+reviews: 4324
 website: https://tabtrader.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-04-17
 signer: 
-reviewArchive: 
 twitter: tabtraderpro
 social:
 - https://www.linkedin.com/company/tabtrader

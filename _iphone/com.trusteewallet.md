@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet

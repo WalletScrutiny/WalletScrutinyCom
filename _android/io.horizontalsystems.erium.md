@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-18
 signer: 
-reviewArchive: 
 twitter: EriumExchange
 social:
 - https://t.me/Erium_exchange

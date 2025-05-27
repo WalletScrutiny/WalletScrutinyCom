@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: 2021-09-20
-updated: 2025-05-15
-version: 1.40.12
+updated: 2025-05-19
+version: 1.40.13
 stars: 4.7
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-21
 signer: 
-reviewArchive: 
 twitter: crypto_xpress
 social:
 - https://www.facebook.com/iamCryptoxpress/

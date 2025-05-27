@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-04
 signer: 
-reviewArchive: 
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar

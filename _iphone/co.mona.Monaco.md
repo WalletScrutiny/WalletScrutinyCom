@@ -11,7 +11,7 @@ released: 2017-08-31
 updated: 2025-05-13
 version: 3.210.11
 stars: 4.7
-reviews: 305461
+reviews: 307331
 website: https://crypto.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-24
 signer: 
-reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom

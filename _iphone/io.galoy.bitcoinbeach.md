@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-20
 signer: 
-reviewArchive: 
 twitter: blinkbtc
 social:
 - >-

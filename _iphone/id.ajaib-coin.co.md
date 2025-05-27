@@ -11,7 +11,7 @@ released: 2022-08-16
 updated: 2025-05-11
 version: 2.72.1
 stars: 4.3
-reviews: 2950
+reviews: 2990
 website: https://alpha.ajaib.co.id/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

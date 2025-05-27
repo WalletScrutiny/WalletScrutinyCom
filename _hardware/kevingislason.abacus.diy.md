@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-24
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.youtube.com/channel/UC1ARtCwT4FUZZtJbMvKwl6Q/videos

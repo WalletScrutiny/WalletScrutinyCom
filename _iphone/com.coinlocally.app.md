@@ -11,7 +11,7 @@ released: 2020-01-28
 updated: 2025-04-30
 version: 3.0.1
 stars: 3.9
-reviews: 138
+reviews: 139
 website: https://coinlocally.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-21
 signer: 
-reviewArchive: 
 twitter: coinlocallyclyc
 social: 
 features: 

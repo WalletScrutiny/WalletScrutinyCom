@@ -11,7 +11,7 @@ released: 2021-01-27
 updated: 2025-04-29
 version: 3.0.33
 stars: 4.4
-reviews: 1064
+reviews: 1066
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: giottus
 social:
 - https://www.linkedin.com/company/giottus

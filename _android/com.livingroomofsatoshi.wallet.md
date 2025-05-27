@@ -12,7 +12,7 @@ updated: 2025-03-31
 version: 2.7.7
 stars: 4
 ratings: 758
-reviews: 211
+reviews: 212
 website: http://www.walletofsatoshi.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-25
 signer: 
-reviewArchive: 
 twitter: walletofsatoshi
 social:
 - https://www.facebook.com/walletofsatoshi

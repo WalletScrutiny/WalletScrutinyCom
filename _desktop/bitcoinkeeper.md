@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: nowallet
 date: 2025-04-14
-reviewArchive: 
 twitter: bitcoinKeeper_
 social:
 - https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ

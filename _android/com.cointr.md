@@ -8,11 +8,11 @@ users: 100000
 appId: com.cointr
 appCountry: 
 released: 2022-08-17
-updated: 2025-05-12
-version: 3.3.0
-stars: 3.4
+updated: 2025-05-20
+version: 3.4.0
+stars: 3.5
 ratings: 
-reviews: 5
+reviews: 6
 website: https://support.cointr.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-19
 signer: 
-reviewArchive: 
 twitter: CoinTRTurkiye
 social:
 - https://t.me/CoinTRTurkiye

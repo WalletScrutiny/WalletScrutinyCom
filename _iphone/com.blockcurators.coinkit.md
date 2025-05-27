@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-21
 signer: 
-reviewArchive: 
 twitter: coinkit_
 social: 
 features: 

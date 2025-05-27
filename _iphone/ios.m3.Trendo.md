@@ -11,7 +11,7 @@ released: 2020-09-29
 updated: 2025-05-15
 version: 4.1.61
 stars: 5
-reviews: 55
+reviews: 57
 website: https://fxtrendo.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/fxtrendo/

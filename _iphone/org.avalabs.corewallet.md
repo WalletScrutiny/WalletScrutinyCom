@@ -8,8 +8,8 @@ appId: org.avalabs.corewallet
 appCountry: us
 idd: '6443685999'
 released: 2022-11-28
-updated: 2025-04-01
-version: 0.14.27
+updated: 2025-05-19
+version: 0.14.28
 stars: 4.5
 reviews: 75
 website: https://www.core.app/
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-02
 signer: 
-reviewArchive: 
 twitter: coreapp
 social:
 - https://t.me/avalancheavax

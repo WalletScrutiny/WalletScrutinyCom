@@ -99,14 +99,14 @@ table {
 .hidden-row {
   display: none;
 }
-.show-more-link {
+#show-more-link {
   display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
   color: var(--accent-text);
   cursor: pointer;
 }
-.show-more-link:hover {
+#show-more-link:hover {
   text-decoration: underline;
 }
 
@@ -426,4 +426,21 @@ input, textarea, select {
 .badge-big {
   font-size: 2em;
   padding: 6px 18px;
+}
+
+#verification-action-buttons {
+  top: 15px;
+  right: 50px;
+  position: absolute;
+}
+#verification-nostr-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.button-closed-by-default {
+  display: none;
 }

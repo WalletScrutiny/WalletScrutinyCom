@@ -12,7 +12,7 @@ updated: 2025-04-25
 version: 3.0.1
 stars: 4.7
 ratings: 42784
-reviews: 19488
+reviews: 19560
 website: https://www.trbinance.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: BinanceTR
 social:
 - https://www.facebook.com/TRBinanceTR

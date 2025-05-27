@@ -8,10 +8,10 @@ appId: com.wiseki.sekiapp.new
 appCountry: ng
 idd: '1622624126'
 released: 2022-06-22
-updated: 2024-10-01
-version: 2.2.8
+updated: 2025-05-19
+version: 2.2.9
 stars: 4.3
-reviews: 59
+reviews: 61
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-14
 signer: 
-reviewArchive: 
 twitter: Seki_APP
 social:
 - https://www.linkedin.com/company/sekiapp

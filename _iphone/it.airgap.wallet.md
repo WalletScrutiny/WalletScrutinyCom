@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-03-07
 signer: 
-reviewArchive: 
 twitter: AirGap_it
 social:
 - https://www.reddit.com/r/AirGap

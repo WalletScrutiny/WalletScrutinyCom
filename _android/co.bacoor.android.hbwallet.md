@@ -8,12 +8,12 @@ users: 100000
 appId: co.bacoor.android.hbwallet
 appCountry: us
 released: 2017-07-17
-updated: 2025-04-11
-version: 4.8.0
+updated: 2025-05-23
+version: 4.9.0
 stars: 4.5
 ratings: 2137
-reviews: 48
-website: https://www.hb-wallet.com/
+reviews: 49
+website: https://hbwallet.app/
 repository: 
 issue: 
 icon: co.bacoor.android.hbwallet.png
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: HBWallet_Ether
 social: 
 redirect_from: 

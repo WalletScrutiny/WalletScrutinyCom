@@ -9,8 +9,8 @@ appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
 updated: 2025-05-15
-version: 10.28.0
-stars: 4.5
+version: 10.29.0
+stars: 4.4
 ratings: 603
 reviews: 41
 website: https://www.xapobank.com/
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-06
 signer: 
-reviewArchive: 
 twitter: xapobankapp
 social:
 - https://www.linkedin.com/company/xapobankapp

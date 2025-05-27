@@ -11,7 +11,7 @@ released: 2022-02-09
 updated: 2025-04-21
 version: 4.6.5
 stars: 4.4
-reviews: 494
+reviews: 496
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: margexcom
 social:
 - https://margex.com

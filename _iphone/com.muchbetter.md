@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2025-05-15
 version: 4.27.0
 stars: 4.3
-reviews: 445
+reviews: 446
 website: https://www.muchbetter.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: paymuchbetter
 social:
 - https://www.linkedin.com/company/mir-muchbetter

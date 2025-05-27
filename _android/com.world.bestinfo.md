@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

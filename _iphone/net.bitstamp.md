@@ -11,7 +11,7 @@ released: 2019-01-30
 updated: 2025-04-16
 version: '4.6'
 stars: 4.8
-reviews: 6762
+reviews: 6787
 website: https://www.bitstamp.net/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-01-23
 signer: 
-reviewArchive: 
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp

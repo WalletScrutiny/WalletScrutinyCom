@@ -11,7 +11,7 @@ released: 2021-11-28
 updated: 2025-05-09
 version: 3.0.18
 stars: 4.8
-reviews: 37
+reviews: 38
 website: http://thorwallet.org
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: THORWalletDEX
 social:
 - https://t.me/THORWalletOfficial

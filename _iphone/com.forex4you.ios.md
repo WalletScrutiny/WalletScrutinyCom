@@ -11,7 +11,7 @@ released: 2015-10-11
 updated: 2025-04-13
 version: 6.7.4
 stars: 4.7
-reviews: 557
+reviews: 580
 website: https://www.markets4you.com/en/contact-us/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: []
 date: 2021-12-24
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

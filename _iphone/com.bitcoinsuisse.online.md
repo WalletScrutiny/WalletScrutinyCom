@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinSuisse
-title: Bitcoin Suisse
+title: 'Bitcoin Suisse: Crypto Natives'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.bitcoinsuisse.online
 appCountry: pl
 idd: '1555493299'
 released: 2021-09-21
-updated: 2025-04-25
-version: 2.16.2
+updated: 2025-05-19
+version: 2.17.0
 stars: 0
 reviews: 0
 website: https://www.bitcoinsuisse.com/mobile-app
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-22
 signer: 
-reviewArchive: 
 twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag

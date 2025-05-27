@@ -8,9 +8,9 @@ users: 100000
 appId: com.coinspace.app
 appCountry: 
 released: 2015-05-01
-updated: 2025-03-28
-version: 6.10.0
-stars: 4.5
+updated: 2025-05-21
+version: 6.11.0
+stars: 4.6
 ratings: 1234
 reviews: 88
 website: https://coin.space
@@ -23,12 +23,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2023-04-22
 signer: 
-reviewArchive:
-- date: 2019-12-16
-  version: v2.16.3
-  appHashes: []
-  gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
-  verdict: ftbfs
 twitter: coinappwallet
 social:
 - https://www.linkedin.com/company/coin-space

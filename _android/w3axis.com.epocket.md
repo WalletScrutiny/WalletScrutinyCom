@@ -8,8 +8,8 @@ users: 10000
 appId: w3axis.com.epocket
 appCountry: 
 released: 2018-06-23
-updated: 2025-05-16
-version: '2.80'
+updated: 2025-05-24
+version: '2.81'
 stars: 5
 ratings: 
 reviews: 1
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: e_Pocket
 social:
 - https://www.instagram.com/epocketau

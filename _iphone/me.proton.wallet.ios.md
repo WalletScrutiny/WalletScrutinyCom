@@ -10,19 +10,18 @@ idd: '6479609548'
 released: 2025-02-10
 updated: 2025-05-14
 version: 1.2.1
-stars: 4.4
-reviews: 37
+stars: 4.5
+reviews: 45
 website: https://proton.me/wallet
 repository: 
 issue: 
 icon: me.proton.wallet.ios.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: sourceavailable
 appHashes: 
-date: 2025-02-14
+date: 2025-05-20
 signer: 
-reviewArchive: 
 twitter: ProtonPrivacy
 social:
 - https://www.reddit.com/r/ProtonMail

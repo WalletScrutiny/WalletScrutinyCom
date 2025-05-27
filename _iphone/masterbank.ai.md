@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-19
 signer: 
-reviewArchive: 
 twitter: masterpay7
 social:
 - https://t.me/mastercoin_official

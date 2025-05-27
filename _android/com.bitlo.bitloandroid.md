@@ -12,7 +12,7 @@ updated: 2025-05-02
 version: 2.1.31
 stars: 4.4
 ratings: 
-reviews: 2471
+reviews: 2477
 website: https://www.bitlo.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/

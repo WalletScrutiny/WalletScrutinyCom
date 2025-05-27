@@ -22,7 +22,6 @@ verdict: obfuscated
 appHashes: 
 date: 2023-01-11
 signer: 
-reviewArchive: 
 twitter: TokenPocket_TP
 social:
 - https://www.facebook.com/TokenPocket

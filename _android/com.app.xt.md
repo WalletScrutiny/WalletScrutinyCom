@@ -8,8 +8,8 @@ users: 1000000
 appId: com.app.xt
 appCountry: 
 released: 2021-04-14
-updated: 2025-05-15
-version: 5.0.4
+updated: 2025-05-21
+version: 5.0.5
 stars: 3.4
 ratings: 
 reviews: 209
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-31
 signer: 
-reviewArchive: 
 twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/

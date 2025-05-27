@@ -8,8 +8,8 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 2024-09-04
-updated: 2025-05-13
-version: 1.3.15
+updated: 2025-05-21
+version: 1.3.17
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-17
 signer: 
-reviewArchive: 
 twitter: Digiexchangeid
 social:
 - https://www.facebook.com/digitalexchangeid

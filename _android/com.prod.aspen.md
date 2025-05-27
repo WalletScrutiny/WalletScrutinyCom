@@ -3,12 +3,12 @@ wsId:
 title: Aspen Digital
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.prod.aspen
 appCountry: 
 released: 2022-06-28
-updated: 2025-05-14
-version: 2.1.16
+updated: 2025-05-19
+version: 2.1.17
 stars: 
 ratings: 
 reviews: 
@@ -18,11 +18,10 @@ issue:
 icon: com.prod.aspen.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

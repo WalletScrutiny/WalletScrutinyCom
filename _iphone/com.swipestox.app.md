@@ -8,8 +8,8 @@ appId: com.swipestox.app
 appCountry: in
 idd: 1182702365
 released: 2017-01-15
-updated: 2025-04-22
-version: 9.2.1
+updated: 2025-05-21
+version: 9.2.2
 stars: 4.8
 reviews: 52
 website: https://www.naga.com
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting

@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: PositionEx
 social:
 - https://www.reddit.com/r/PositionExchange

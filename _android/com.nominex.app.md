@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: NominexExchange
 social:
 - https://www.linkedin.com/company/nominex

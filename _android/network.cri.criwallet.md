@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: Cri_Vivranium
 social:
 - https://www.facebook.com/cosmeta.us

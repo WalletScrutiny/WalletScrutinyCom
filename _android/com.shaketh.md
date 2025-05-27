@@ -8,8 +8,8 @@ users: 500000
 appId: com.shaketh
 appCountry: 
 released: 2018-02-20
-updated: 2025-05-08
-version: 3.17.0
+updated: 2025-05-23
+version: 3.18.4
 stars: 4.5
 ratings: 10533
 reviews: 19
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: shakepay
 social:
 - https://www.facebook.com/shakepay

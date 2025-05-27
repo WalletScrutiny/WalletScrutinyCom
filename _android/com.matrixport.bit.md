@@ -8,8 +8,8 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2025-05-13
-version: 2.0.9
+updated: 2025-05-23
+version: 2.0.12
 stars: 3.7
 ratings: 245
 reviews: 28
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-03
 signer: 
-reviewArchive: 
 twitter: bitcom_exchange
 social:
 - https://www.linkedin.com/company/bitcom-exchange

@@ -8,8 +8,8 @@ appId: com.zed-pay.app.ios
 appCountry: us
 idd: '6444008269'
 released: 2022-11-07
-updated: 2025-04-24
-version: 1.4.4
+updated: 2025-05-23
+version: 1.4.5
 stars: 4
 reviews: 4
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: ZedPayCo
 social:
 - https://www.linkedin.com/company/zedpaycompany

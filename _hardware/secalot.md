@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2023-09-29
 signer: 
-reviewArchive: 
 twitter: SecalotDongle
 social:
 - https://www.facebook.com/secalotDongle

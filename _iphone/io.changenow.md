@@ -11,7 +11,7 @@ released: 2020-06-29
 updated: 2025-04-09
 version: 2.9.3
 stars: 4.8
-reviews: 2114
+reviews: 2119
 website: https://changenow.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: ChangeNOW_io
 social:
 - https://www.facebook.com/ChangeNOW.io

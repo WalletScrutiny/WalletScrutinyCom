@@ -17,8 +17,7 @@ icon: btc.paperwalletgen.png
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-24
-reviewArchive: 
+date: 2025-05-09
 twitter: 
 social: 
 features: 

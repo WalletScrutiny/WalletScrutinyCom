@@ -4,15 +4,15 @@ title: Slingshot - Buy crypto & memes
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.slingshot.finance
 appCountry: us
 released: 2023-02-16
 updated: 2025-04-07
 version: 2.4.0
-stars: 2.9
+stars: 2.8
 ratings: 
-reviews: 11
+reviews: 12
 website: https://slingshot.finance
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-06-28
 signer: 
-reviewArchive: 
 twitter: SlingshotCrypto
 social:
 - https://discord.com/invite/H3UcvgtASR

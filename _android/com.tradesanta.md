@@ -12,7 +12,7 @@ updated: 2025-05-06
 version: 3.2.8
 stars: 3.6
 ratings: 707
-reviews: 56
+reviews: 57
 website: https://tradesanta.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

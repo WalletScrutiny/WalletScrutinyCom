@@ -17,8 +17,7 @@ icon: ciphrex.msigna.png
 bugbounty: 
 meta: obsolete
 verdict: sourceavailable
-date: 2025-04-24
-reviewArchive: 
+date: 2025-04-25
 twitter: ciphrex
 social:
 - https://www.linkedin.com/company/ciphrex-llc/

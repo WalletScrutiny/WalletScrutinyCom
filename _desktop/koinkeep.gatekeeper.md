@@ -17,8 +17,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: nowallet
-date: 2025-04-14
-reviewArchive: 
+date: 2025-04-25
 twitter: koinkeep
 social: 
 features: 

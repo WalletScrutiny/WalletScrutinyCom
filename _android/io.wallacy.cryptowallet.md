@@ -10,7 +10,7 @@ appCountry:
 released: 2023-07-19
 updated: 2025-01-14
 version: 0.1.15
-stars: 4.6
+stars: 4.7
 ratings: 
 reviews: 30
 website: https://wallacy.io/
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: WallacyWallet
 social:
 - https://www.facebook.com/Wallacy.io

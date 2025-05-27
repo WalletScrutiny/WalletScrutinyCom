@@ -24,7 +24,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2022-02-07
 signer: 
-reviewArchive: 
 twitter: BlixtWallet
 social: 
 redirect_from: 

@@ -10,8 +10,8 @@ idd: '6457257372'
 released: 2023-08-23
 updated: 2025-02-08
 version: 1.3.13
-stars: 3.8
-reviews: 17
+stars: 3.7
+reviews: 18
 website: https://uxuy.com/wallet
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: uxuycom
 social:
 - https://t.me/uxuycom

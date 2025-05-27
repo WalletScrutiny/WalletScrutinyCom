@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-08
 signer: 
-reviewArchive: 
 twitter: digiexchange3
 social:
 - https://www.facebook.com/digiexchangenews

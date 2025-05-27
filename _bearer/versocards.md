@@ -24,7 +24,6 @@ meta: defunct
 verdict: prefilled
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: VersoCards
 social:
 - https://github.com/VersoSolutions

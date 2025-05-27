@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-05-04
 signer: 
-reviewArchive: 
 twitter: devinbileck
 social: 
 features: 

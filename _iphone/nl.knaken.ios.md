@@ -10,7 +10,7 @@ released: 2021-06-10
 updated: 2025-05-14
 version: 5.5.2
 stars: 4.6
-reviews: 134
+reviews: 138
 website: https://knaken.eu/
 repository: 
 issue: 
@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: knaken_eu
 social:
 - https://www.facebook.com/knakeneu

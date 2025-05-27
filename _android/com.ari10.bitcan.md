@@ -8,8 +8,8 @@ users: 10000
 appId: com.ari10.bitcan
 appCountry: 
 released: 2022-06-14
-updated: 2025-05-13
-version: 2.4.0
+updated: 2025-05-15
+version: 2.5.0
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-07
 signer: 
-reviewArchive: 
 twitter: ari10com
 social:
 - https://www.instagram.com/senexpay

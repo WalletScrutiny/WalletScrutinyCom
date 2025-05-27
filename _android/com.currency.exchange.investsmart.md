@@ -12,7 +12,7 @@ updated: 2024-12-10
 version: 1.42.11
 stars: 4
 ratings: 216
-reviews: 199
+reviews: 200
 website: https://dzengi.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-06
 signer: 
-reviewArchive: 
 twitter: currencycom
 social:
 - https://www.facebook.com/currencycom

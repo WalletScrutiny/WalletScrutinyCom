@@ -8,10 +8,10 @@ appId: com.coincatch.global
 appCountry: us
 idd: '6449619148'
 released: 2023-07-05
-updated: 2025-04-11
-version: 1.15.1
-stars: 4.6
-reviews: 77
+updated: 2025-05-22
+version: 1.15.3
+stars: 4.7
+reviews: 87
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: coincatchcom
 social:
 - https://www.coincatch.com

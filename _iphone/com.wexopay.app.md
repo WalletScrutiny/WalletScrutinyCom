@@ -11,7 +11,7 @@ released: 2021-02-09
 updated: 2025-05-16
 version: 3.3.0
 stars: 4.8
-reviews: 520
+reviews: 524
 website: https://wexopay.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: WexoOfficial
 social:
 - https://www.facebook.com/wexopay

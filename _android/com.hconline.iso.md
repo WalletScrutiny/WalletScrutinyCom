@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: Starteos
 social:
 - https://www.facebook.com/starteos.io.7

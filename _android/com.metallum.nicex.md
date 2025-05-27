@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-07
 signer: 
-reviewArchive: 
 twitter: NiceXExchange
 social:
 - https://www.facebook.com/NiceXExchange

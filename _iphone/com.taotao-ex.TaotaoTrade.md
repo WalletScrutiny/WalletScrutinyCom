@@ -11,7 +11,7 @@ released: 2019-06-02
 updated: 2025-03-26
 version: 3.27.0
 stars: 1.8
-reviews: 535
+reviews: 537
 website: https://www.sbivc.co.jp/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-26
 signer: 
-reviewArchive: 
 twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg

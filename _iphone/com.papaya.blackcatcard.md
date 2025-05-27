@@ -10,8 +10,8 @@ idd: 1449352913
 released: 2019-03-07
 updated: 2025-04-09
 version: 1.2.69
-stars: 5
-reviews: 5
+stars: 4.3
+reviews: 6
 website: https://blackcatcard.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

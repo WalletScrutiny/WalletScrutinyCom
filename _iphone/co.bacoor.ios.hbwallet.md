@@ -8,8 +8,8 @@ appId: co.bacoor.ios.hbwallet
 appCountry: us
 idd: '1273639572'
 released: 2017-08-23
-updated: 2025-04-13
-version: 4.8.0
+updated: 2025-05-26
+version: 4.9.0
 stars: 4.6
 reviews: 363
 website: https://hbwallet.app
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: HBWallet_Ether
 social: 
 features: 

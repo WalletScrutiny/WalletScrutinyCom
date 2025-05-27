@@ -11,7 +11,7 @@ released: 2016-03-22
 updated: 2025-05-15
 version: 4.10.0
 stars: 3.7
-reviews: 786
+reviews: 789
 website: https://wirexapp.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited

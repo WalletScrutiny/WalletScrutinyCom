@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: roqqupay
 social:
 - https://www.facebook.com/roqqupay

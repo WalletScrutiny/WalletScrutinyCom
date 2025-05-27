@@ -26,7 +26,6 @@ verdict: noita
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

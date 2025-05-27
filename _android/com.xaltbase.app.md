@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-01-31
 signer: 
-reviewArchive: 
 twitter: 100XCoin_
 social:
 - https://www.linkedin.com/company/100xCoin

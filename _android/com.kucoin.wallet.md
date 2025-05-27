@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: KuWallet
 social: 
 redirect_from: 

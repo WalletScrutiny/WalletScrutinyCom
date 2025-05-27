@@ -11,7 +11,7 @@ released: 2018-10-25
 updated: 2025-05-13
 version: 4.39.1
 stars: 4.5
-reviews: 2239
+reviews: 2240
 website: https://www.argent.xyz
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: argentHQ
 social: 
 features: 

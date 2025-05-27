@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-20
 signer: 
-reviewArchive: 
 twitter: ScallopOfficial
 social:
 - https://www.linkedin.com/company/scallopx/

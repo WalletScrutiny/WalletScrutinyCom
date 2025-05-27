@@ -11,7 +11,7 @@ released: 2020-04-09
 updated: 2025-04-30
 version: 2.0.2
 stars: 4.6
-reviews: 26294
+reviews: 26289
 website: https://www.btcturk.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: btcturk
 social:
 - https://www.linkedin.com/company/btcturk

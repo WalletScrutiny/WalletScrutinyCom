@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-08
 signer: 
-reviewArchive: 
 twitter: CoinCRED_
 social:
 - https://www.facebook.com/CoinCRED.Official/

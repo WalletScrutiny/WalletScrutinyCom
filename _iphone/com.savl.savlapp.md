@@ -11,7 +11,7 @@ released: 2018-04-22
 updated: 2025-04-30
 version: 8.4.0
 stars: 4.5
-reviews: 263
+reviews: 268
 website: https://unitywallet.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-09-11
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/savl.official

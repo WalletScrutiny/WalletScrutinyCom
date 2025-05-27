@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: tradethegames
 social:
 - https://www.facebook.com/tradethegames

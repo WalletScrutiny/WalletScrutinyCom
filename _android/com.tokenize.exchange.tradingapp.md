@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-12-03
 updated: 2025-03-26
 version: 2.0.21
-stars: 4.1
+stars: 4.4
 ratings: 
-reviews: 7
+reviews: 18
 website: https://tokenize.exchange/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-08
 signer: 
-reviewArchive: 
 twitter: TokenizeXchange
 social:
 - https://www.facebook.com/tokenize.exchange

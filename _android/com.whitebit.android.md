@@ -8,11 +8,11 @@ users: 1000000
 appId: com.whitebit.android
 appCountry: ua
 released: 2019-06-07
-updated: 2025-05-08
-version: 3.46.1
+updated: 2025-05-16
+version: 3.47.0
 stars: 4.8
 ratings: 1962
-reviews: 1250
+reviews: 1252
 website: https://whitebit.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-10
 signer: 
-reviewArchive: 
 twitter: whitebit
 social:
 - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange

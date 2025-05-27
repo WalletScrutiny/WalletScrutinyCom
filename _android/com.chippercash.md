@@ -13,7 +13,7 @@ updated: 2025-04-10
 version: 1.125.1
 stars: 4.3
 ratings: 59630
-reviews: 3149
+reviews: 3153
 website: https://chippercash.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp

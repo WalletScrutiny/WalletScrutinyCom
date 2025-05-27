@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-25
 signer: 
-reviewArchive: 
 twitter: deltastock
 social:
 - https://www.linkedin.com/company/deltastock-ad

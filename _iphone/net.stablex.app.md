@@ -8,10 +8,10 @@ appId: net.stablex.app
 appCountry: tr
 idd: '1591457284'
 released: 2021-10-26
-updated: 2025-05-12
-version: 3.0.3
+updated: 2025-05-22
+version: 3.0.5
 stars: 3.6
-reviews: 59
+reviews: 60
 website: https://stablex.com.tr
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: Stablex_Turkey
 social:
 - https://www.instagram.com/stablexofficial

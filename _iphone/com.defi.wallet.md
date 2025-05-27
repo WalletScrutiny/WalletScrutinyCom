@@ -8,10 +8,10 @@ appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
 released: 2020-05-20
-updated: 2025-05-12
-version: 2.16.0
+updated: 2025-05-26
+version: 2.18.0
 stars: 4.7
-reviews: 12844
+reviews: 12905
 website: https://crypto.com/onchain
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-24
 signer: 
-reviewArchive: 
 twitter: cryptocom
 social:
 - https://www.linkedin.com/company/cryptocom

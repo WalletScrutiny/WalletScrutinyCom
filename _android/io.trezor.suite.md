@@ -10,9 +10,9 @@ appCountry:
 released: 2023-05-09
 updated: 2025-04-29
 version: 25.4.2
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 73
+reviews: 76
 website: https://trezor.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: trezor
 social:
 - https://www.reddit.com/r/TREZOR

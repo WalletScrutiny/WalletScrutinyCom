@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: Alpha_wallet
 social:
 - https://www.reddit.com/r/AlphaWallet

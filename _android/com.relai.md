@@ -8,8 +8,8 @@ users: 100000
 appId: com.relai
 appCountry: 
 released: 
-updated: 2025-05-05
-version: 3.0.2
+updated: 2025-05-17
+version: 3.0.3
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: Relai_app
 social:
 - https://www.linkedin.com/company/relai-app

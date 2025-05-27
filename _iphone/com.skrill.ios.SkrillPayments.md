@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2025-05-16
 version: 3.160.0
 stars: 4.5
-reviews: 7593
+reviews: 7647
 website: https://www.skrill.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: skrill
 social:
 - https://www.facebook.com/Skrillpayments

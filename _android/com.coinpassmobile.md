@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinpassmobile
 appCountry: 
 released: 
-updated: 2025-01-13
-version: 3.4.0-coinpass
+updated: 2025-03-31
+version: 3.6.5-coinpass
 stars: 2.8
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-14
 signer: 
-reviewArchive: 
 twitter: coinpassglobal
 social:
 - https://www.facebook.com/coinpassglobal

@@ -25,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: GoldlinksGlobal
 social:
 - https://www.facebook.com/GoldlinksGlobal/

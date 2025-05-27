@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: ArthBitExchange
 social:
 - https://www.facebook.com/ArthBitExchange

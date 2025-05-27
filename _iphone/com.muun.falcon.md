@@ -11,7 +11,7 @@ released: 2019-10-11
 updated: 2025-04-23
 version: 2.9.2
 stars: 4.2
-reviews: 268
+reviews: 269
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2021-07-30
 signer: 
-reviewArchive: 
 twitter: muunwallet
 social: 
 features:

@@ -12,7 +12,7 @@ updated: 2025-05-15
 version: 5.6.2
 stars: 3.6
 ratings: 116
-reviews: 131
+reviews: 132
 website: https://www.batonex.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-19
 signer: 
-reviewArchive: 
 twitter: wisebitcoin
 social: 
 redirect_from: 

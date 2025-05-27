@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: OCL890
 social:
 - https://t.me/npasglobal

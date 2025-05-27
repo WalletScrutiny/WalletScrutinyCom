@@ -11,7 +11,7 @@ released: 2018-04-28
 updated: 2025-03-05
 version: 0.5.37
 stars: 3.9
-reviews: 63
+reviews: 64
 website: https://www.coinigy.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-11
 signer: 
-reviewArchive: 
 twitter: coinigy
 social:
 - https://www.linkedin.com/company/coinigy

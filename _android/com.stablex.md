@@ -8,8 +8,8 @@ users: 10000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27
-updated: 2025-05-09
-version: 3.0.3
+updated: 2025-05-20
+version: 3.0.5
 stars: 3.1
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-03
 signer: 
-reviewArchive: 
 twitter: Stablex_Turkey
 social:
 - https://www.instagram.com/stablexofficial

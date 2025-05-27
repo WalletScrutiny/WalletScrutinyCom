@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-25
 signer: 
-reviewArchive: 
 twitter: PlenaFinance
 social: 
 redirect_from: 

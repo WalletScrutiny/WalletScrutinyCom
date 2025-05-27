@@ -10,8 +10,8 @@ idd: '1372054956'
 released: 2020-04-29
 updated: 2025-05-06
 version: 6.1.9
-stars: 4.6
-reviews: 4187
+stars: 4.5
+reviews: 4206
 website: https://www.nicehash.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: NiceHashMining
 social:
 - https://www.linkedin.com/company/nicehash

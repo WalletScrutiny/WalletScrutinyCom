@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2025-04-24
-reviewArchive: 
 twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg

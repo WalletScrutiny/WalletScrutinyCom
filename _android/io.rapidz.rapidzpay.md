@@ -8,8 +8,8 @@ users: 10000
 appId: io.rapidz.rapidzpay
 appCountry: 
 released: 2021-06-21
-updated: 2025-05-02
-version: 2.15.8
+updated: 2025-05-16
+version: 2.15.9
 stars: 3.7
 ratings: 
 reviews: 5
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: Rapidz_io
 social:
 - https://t.me/RapidzCommunity

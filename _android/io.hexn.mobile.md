@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: hexn_io
 social:
 - https://www.facebook.com/hexnio

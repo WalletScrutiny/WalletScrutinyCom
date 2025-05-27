@@ -8,7 +8,7 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2025-05-09
+updated: 2025-05-23
 version: 13.4.0
 stars: 3.6
 ratings: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-10
 signer: 
-reviewArchive: 
 twitter: SyfeSG
 social:
 - https://www.linkedin.com/company/syfe

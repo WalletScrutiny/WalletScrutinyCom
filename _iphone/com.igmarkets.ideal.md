@@ -11,7 +11,7 @@ released: 2011-01-24
 updated: 2025-05-16
 version: 10.2584.0
 stars: 4.5
-reviews: 2764
+reviews: 2765
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-23
 signer: 
-reviewArchive: 
 twitter: IGInternationa1
 social:
 - https://www.linkedin.com/company/ig-international-

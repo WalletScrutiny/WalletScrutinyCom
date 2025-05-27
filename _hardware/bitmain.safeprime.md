@@ -26,7 +26,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-04-06
 signer: 
-reviewArchive: 
 twitter: BITMAINtech
 social:
 - https://t.me/bitmain

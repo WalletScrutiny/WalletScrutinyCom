@@ -8,8 +8,8 @@ appId: com.yykj.bitfree.en
 appCountry: ph
 idd: '1453815920'
 released: 2019-02-24
-updated: 2025-05-12
-version: 5.2.9
+updated: 2025-05-19
+version: 5.3.1
 stars: 0
 reviews: 0
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-09
 signer: 
-reviewArchive: 
 twitter: bitfree_us
 social:
 - https://bitfree.us

@@ -8,8 +8,8 @@ appId: com.dcglobal.app
 appCountry: us
 idd: '1610058833'
 released: 2022-02-26
-updated: 2025-05-07
-version: 7.5.15
+updated: 2025-05-22
+version: 7.5.19
 stars: 4.3
 reviews: 12
 website: https://www.deepcoin.com
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/deepcoinpro/

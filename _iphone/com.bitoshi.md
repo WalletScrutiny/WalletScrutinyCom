@@ -10,8 +10,8 @@ idd: '1627285591'
 released: 2022-10-17
 updated: 2025-04-16
 version: 1.4.2
-stars: 4.7
-reviews: 1296
+stars: 4.8
+reviews: 1320
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: Bitoshiafrica
 social:
 - https://bitoshi.africa

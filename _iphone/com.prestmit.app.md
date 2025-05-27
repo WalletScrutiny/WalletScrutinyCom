@@ -11,7 +11,7 @@ released: 2021-08-20
 updated: 2025-04-15
 version: 7.2.340
 stars: 4.4
-reviews: 3706
+reviews: 3861
 website: https://prestmit.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-02
 signer: 
-reviewArchive: 
 twitter: prestmit
 social:
 - https://www.facebook.com/prestmit

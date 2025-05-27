@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: JunoFinanceHQ
 social:
 - https://www.linkedin.com/company/junofinancehq

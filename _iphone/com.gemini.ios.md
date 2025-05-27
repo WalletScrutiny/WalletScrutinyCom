@@ -1,6 +1,6 @@
 ---
 wsId: geminiwallet
-title: 'Gemini: Buy Bitcoin & Crypto'
+title: 'Gemini: Bitcoin Credit Card'
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: com.gemini.ios
 appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2025-05-16
-version: 25.515.0
+updated: 2025-05-24
+version: 25.522.0
 stars: 4.8
-reviews: 104639
+reviews: 105065
 website: https://www.gemini.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-01-04
 signer: 
-reviewArchive: 
 twitter: gemini
 social:
 - https://www.linkedin.com/company/geminitrust

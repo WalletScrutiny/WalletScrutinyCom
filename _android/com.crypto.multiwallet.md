@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2025-04-14
 signer: 
-reviewArchive: 
 twitter: GuardaWallet
 social:
 - https://www.facebook.com/guarda.co

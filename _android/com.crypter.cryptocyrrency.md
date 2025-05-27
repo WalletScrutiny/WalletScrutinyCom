@@ -8,8 +8,8 @@ users: 1000000
 appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
-updated: 2025-03-08
-version: 3.6.1
+updated: 2025-05-23
+version: 3.6.3
 stars: 4.3
 ratings: 78687
 reviews: 2694
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: TrustSwap
 social:
 - https://www.linkedin.com/company/TrustSwap

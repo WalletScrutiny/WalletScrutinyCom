@@ -11,7 +11,7 @@ released: 2022-10-25
 updated: 2025-03-21
 version: '137'
 stars: 4.7
-reviews: 12
+reviews: 13
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: tomipioneers
 social:
 - https://discord.com/invite/tomi

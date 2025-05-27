@@ -12,7 +12,7 @@ updated: 2024-11-28
 version: 1.0.63
 stars: 4.2
 ratings: 2217
-reviews: 2007
+reviews: 2040
 website: https://www.flitpay.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-30
 signer: 
-reviewArchive: 
 twitter: flitpayofficial
 social:
 - https://www.facebook.com/flitpay

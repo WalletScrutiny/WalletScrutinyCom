@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: Exto_Labs
 social:
 - https://www.linkedin.com/company/extolabs/

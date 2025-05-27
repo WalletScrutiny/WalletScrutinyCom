@@ -8,8 +8,8 @@ users: 10000
 appId: im.adamant.adamantmessengerpwa
 appCountry: 
 released: 2020-06-13
-updated: 2025-03-12
-version: 4.9.1
+updated: 2025-03-29
+version: 4.9.2
 stars: 4.2
 ratings: 
 reviews: 16
@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-09-18
 signer: 
-reviewArchive: 
 twitter: adamant_im
 social:
 - https://vk.com/adamant_im

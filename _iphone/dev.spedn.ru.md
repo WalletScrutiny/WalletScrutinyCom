@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-01-01
 signer: 
-reviewArchive: 
 twitter: koshelek_ru
 social:
 - https://www.facebook.com/koshelekru

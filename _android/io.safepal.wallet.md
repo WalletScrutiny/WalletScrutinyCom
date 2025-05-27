@@ -13,7 +13,7 @@ updated: 2025-05-14
 version: 4.8.14
 stars: 4.6
 ratings: 13497
-reviews: 919
+reviews: 927
 website: https://www.safepal.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: iSafePal
 social: 
 redirect_from: 

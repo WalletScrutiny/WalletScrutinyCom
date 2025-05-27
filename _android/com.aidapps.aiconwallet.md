@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-06-21
 signer: 
-reviewArchive: 
 twitter: AiconOfficial
 social: 
 redirect_from: 

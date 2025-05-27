@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: tomipioneers
 social:
 - https://discord.com/invite/tomi

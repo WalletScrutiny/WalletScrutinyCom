@@ -8,8 +8,8 @@ users: 100000
 appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
-updated: 2025-05-13
-version: 1.20.7
+updated: 2025-05-20
+version: 1.20.9
 stars: 3.2
 ratings: 3998
 reviews: 34
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/upbit-official

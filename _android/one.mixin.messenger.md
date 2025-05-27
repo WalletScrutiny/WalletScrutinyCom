@@ -10,7 +10,7 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2025-04-25
+updated: 2025-05-14
 version: 3.0.0
 stars: 4.4
 ratings: 1252
@@ -25,12 +25,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-09-19
 signer: 
-reviewArchive:
-- date: 2021-10-18
-  version: 0.32.6
-  appHashes: []
-  gitRevision: 7145041114617ce3cbf596302a4fa7deb1a5df74
-  verdict: ftbfs
 twitter: MixinMessenger
 social:
 - https://www.facebook.com/MixinNetwork

@@ -11,7 +11,7 @@ released: 2019-01-16
 updated: 2025-05-13
 version: 6.5.2
 stars: 4.6
-reviews: 5280
+reviews: 5290
 website: https://weareblox.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: weareblox
 social:
 - https://www.linkedin.com/company/weareblox

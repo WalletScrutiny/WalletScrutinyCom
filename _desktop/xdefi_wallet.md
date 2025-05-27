@@ -17,8 +17,7 @@ icon: xdefi_wallet.jpg
 bugbounty: 
 meta: deprecated
 verdict: nosource
-date: 2025-04-14
-reviewArchive: 
+date: 2024-05-09
 twitter: xdefi_wallet
 social: 
 features: 

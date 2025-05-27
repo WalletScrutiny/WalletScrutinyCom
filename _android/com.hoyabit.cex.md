@@ -8,8 +8,8 @@ users: 10000
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10
-updated: 2025-05-08
-version: 1.36.0
+updated: 2025-05-23
+version: 1.37.0
 stars: 4.9
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-02
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/HOYABITExchange

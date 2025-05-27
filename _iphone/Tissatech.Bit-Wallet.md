@@ -11,7 +11,7 @@ released: 2019-02-09
 updated: 2024-11-30
 version: 4.5.0
 stars: 4.7
-reviews: 567
+reviews: 565
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-08-15
 signer: 
-reviewArchive: 
 twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc

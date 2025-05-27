@@ -8,8 +8,8 @@ users: 5000
 appId: com.kryptogo.walletapp
 appCountry: 
 released: 2021-12-28
-updated: 2025-05-16
-version: 3.62.0
+updated: 2025-05-25
+version: 3.63.1
 stars: 4.4
 ratings: 
 reviews: 2
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: kryptogo_
 social:
 - https://www.facebook.com/kryptogo

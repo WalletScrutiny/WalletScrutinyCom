@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-01-09
 signer: 
-reviewArchive: 
 twitter: VidulumApp
 social:
 - https://www.facebook.com/VidulumTeam

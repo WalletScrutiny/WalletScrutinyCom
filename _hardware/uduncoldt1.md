@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-03-11
 signer: 
-reviewArchive: 
 twitter: UdunWallet
 social:
 - https://youtube.com/channel/UC7L0QolnaIDfM41nrbt6Uhw

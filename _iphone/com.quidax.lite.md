@@ -11,7 +11,7 @@ released: 2022-01-13
 updated: 2025-02-12
 version: 1.22.0
 stars: 4.4
-reviews: 1805
+reviews: 1811
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal

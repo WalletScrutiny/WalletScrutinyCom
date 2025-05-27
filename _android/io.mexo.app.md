@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-30
 updated: 2025-05-12
 version: 3.7.4
-stars: 3.2
+stars: 3.3
 ratings: 401
 reviews: 17
 website: http://www.mexo.io
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-04
 signer: 
-reviewArchive: 
 twitter: mexo_io
 social:
 - https://www.linkedin.com/company/mexoio

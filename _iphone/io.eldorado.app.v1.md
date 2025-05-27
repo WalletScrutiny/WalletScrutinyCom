@@ -11,7 +11,7 @@ released: 2022-04-20
 updated: 2025-05-16
 version: 1.3.1492
 stars: 4.9
-reviews: 5763
+reviews: 6036
 website: https://eldorado.io/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: eldoradoio
 social:
 - https://www.linkedin.com/company/eldoradoio

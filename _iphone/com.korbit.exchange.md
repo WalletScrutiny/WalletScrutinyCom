@@ -8,8 +8,8 @@ appId: com.korbit.exchange
 appCountry: kr
 idd: 1434511619
 released: 2018-10-18
-updated: 2025-04-29
-version: 11.2.0
+updated: 2025-05-26
+version: 11.2.1
 stars: 2.5
 reviews: 618
 website: http://www.korbit.co.kr
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

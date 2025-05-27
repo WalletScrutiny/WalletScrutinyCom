@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: Gate.io Trade Bitcoin & Crypto
+title: Gate Trade Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2025-05-12
-version: 7.3.0
+updated: 2025-05-19
+version: 7.4.1
 stars: 4.7
 ratings: 17546
-reviews: 6624
-website: https://gate.io/
+reviews: 6636
+website: https://www.gate.com/
 repository: 
 issue: 
 icon: com.gateio.gateio.png
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal

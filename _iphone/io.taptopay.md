@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: taptopayapp
 social:
 - https://www.facebook.com/profile.php?id=100084868899589

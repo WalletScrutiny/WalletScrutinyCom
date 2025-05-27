@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: PayPlux
 social:
 - https://www.facebook.com/PayPlux

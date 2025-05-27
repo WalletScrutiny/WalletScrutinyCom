@@ -11,7 +11,7 @@ released: 2022-09-27
 updated: 2025-05-12
 version: 1.0.776
 stars: 3.6
-reviews: 136
+reviews: 139
 website: https://ncwallet.net/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

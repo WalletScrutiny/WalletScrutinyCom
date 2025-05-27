@@ -8,10 +8,10 @@ appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
-updated: 2025-05-12
-version: 3.46.1
+updated: 2025-05-19
+version: 3.47.0
 stars: 4.7
-reviews: 2951
+reviews: 2984
 website: https://whitebit.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-10
 signer: 
-reviewArchive: 
 twitter: whitebit
 social:
 - https://www.linkedin.com/company/whitebit-cryptocurrency-exchange

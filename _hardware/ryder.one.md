@@ -29,7 +29,6 @@ verdict: unreleased
 appHashes: 
 date: 2024-10-31
 signer: 
-reviewArchive: 
 twitter: Ryder_ID
 social:
 - https://www.instagram.com/ryder.btc/

@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-10
 signer: 
-reviewArchive: 
 twitter: encrygma
 social: 
 features: 

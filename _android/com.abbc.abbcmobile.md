@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-05
 signer: 
-reviewArchive: 
 twitter: abbcfoundation
 social:
 - https://www.facebook.com/abbcfoundation/

@@ -12,7 +12,7 @@ updated: 2025-05-03
 version: 5.4.4
 stars: 3.1
 ratings: 259
-reviews: 708
+reviews: 710
 website: https://app.load.ng/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-27
 signer: 
-reviewArchive: 
 twitter: loadngautomated
 social: 
 redirect_from: 

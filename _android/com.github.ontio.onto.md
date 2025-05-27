@@ -8,8 +8,8 @@ users: 100000
 appId: com.github.ontio.onto
 appCountry: us
 released: 2018-06-27
-updated: 2025-05-07
-version: 4.9.4
+updated: 2025-05-26
+version: 4.9.5
 stars: 4.4
 ratings: 1170
 reviews: 128
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: ONTOWallet
 social: 
 redirect_from: 

@@ -10,8 +10,8 @@ idd: '6448510693'
 released: 2023-05-10
 updated: 2025-04-23
 version: '4.8'
-stars: 3.9
-reviews: 72
+stars: 4
+reviews: 74
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: KoinparkInfo
 social:
 - https://www.linkedin.com/company/koinpark

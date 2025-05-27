@@ -8,8 +8,8 @@ users: 100000
 appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28
-updated: 2025-04-18
-version: 2.7.0
+updated: 2025-05-15
+version: 2.7.1
 stars: 3.6
 ratings: 424
 reviews: 95
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: KinesisMonetary
 social:
 - https://www.linkedin.com/company/kinesismoney

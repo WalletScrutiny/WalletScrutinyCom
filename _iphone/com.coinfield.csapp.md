@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-28
 signer: 
-reviewArchive: 
 twitter: CoinFieldEx
 social:
 - https://www.linkedin.com/company/coinfield

@@ -8,8 +8,8 @@ users: 100000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21
-updated: 2025-04-16
-version: 7.0.6
+updated: 2025-05-22
+version: 7.0.7
 stars: 4.5
 ratings: 
 reviews: 165
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: breetapp
 social:
 - https://www.facebook.com/breetapp

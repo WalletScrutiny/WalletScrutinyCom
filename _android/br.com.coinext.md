@@ -9,7 +9,7 @@ appId: br.com.coinext
 appCountry: 
 released: 2019-11-19
 updated: 2025-05-14
-version: 2.19.8
+version: 2.20.4
 stars: 4.7
 ratings: 
 reviews: 6
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: coinext_oficial
 social:
 - https://www.linkedin.com/company/coinext

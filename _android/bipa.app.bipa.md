@@ -8,8 +8,8 @@ users: 100000
 appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
-updated: 2025-04-30
-version: 4.0.17
+updated: 2025-05-23
+version: 4.0.18
 stars: 4.5
 ratings: 
 reviews: 12
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: usebipa
 social: 
 redirect_from: 

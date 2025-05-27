@@ -8,8 +8,8 @@ users: 5000
 appId: io.ngrave.liquid
 appCountry: 
 released: 2021-11-06
-updated: 2024-12-24
-version: 2.8.5
+updated: 2025-05-21
+version: 2.9.4
 stars: 3.1
 ratings: 
 reviews: 15
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-06-01
 signer: 
-reviewArchive: 
 twitter: ngrave_official
 social:
 - https://www.facebook.com/ngrave.io

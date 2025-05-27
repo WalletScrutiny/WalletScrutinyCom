@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: genesis_vision
 social:
 - https://www.linkedin.com/company/genesis-vision

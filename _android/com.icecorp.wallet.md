@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: icewalofficial
 social:
 - https://www.facebook.com/icewalofficial

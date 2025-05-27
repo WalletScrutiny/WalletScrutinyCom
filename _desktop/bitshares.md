@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 date: 2025-04-24
-reviewArchive: 
 twitter: xbtsdex
 social: 
 features: 

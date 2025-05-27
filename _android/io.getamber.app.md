@@ -8,8 +8,8 @@ users: 10000
 appId: io.getamber.app
 appCountry: 
 released: 2021-06-21
-updated: 2025-04-24
-version: 5.6.10
+updated: 2025-05-14
+version: 5.7.0
 stars: 4.4
 ratings: 
 reviews: 26
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: theamberapp
 social:
 - https://www.facebook.com/theamberapp

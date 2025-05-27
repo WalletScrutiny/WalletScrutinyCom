@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: BlockchainComns
 social: 
 features: 

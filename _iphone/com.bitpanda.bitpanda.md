@@ -8,10 +8,10 @@ appId: com.bitpanda.bitpanda
 appCountry: at
 idd: '1449018960'
 released: 2019-11-29
-updated: 2025-05-15
-version: 2.99.1
+updated: 2025-05-26
+version: 3.0.1
 stars: 4.7
-reviews: 22257
+reviews: 22326
 website: https://www.bitpanda.com/app
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-29
 signer: 
-reviewArchive: 
 twitter: Bitpanda_global
 social:
 - https://www.facebook.com/BITPANDA

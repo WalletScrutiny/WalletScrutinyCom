@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: OfficialYibi
 social:
 - https://t.me/yibioffical00

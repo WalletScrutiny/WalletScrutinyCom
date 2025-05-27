@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-22
 updated: 2025-05-08
 version: '45'
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 791
+reviews: 807
 website: https://gomining.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-06-29
 signer: 
-reviewArchive: 
 twitter: Gomining_token
 social:
 - https://t.me/gmt_token

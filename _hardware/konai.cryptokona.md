@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/konai.story/

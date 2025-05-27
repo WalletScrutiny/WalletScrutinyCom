@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/jeangillescapital

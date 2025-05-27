@@ -10,9 +10,9 @@ appCountry: GI
 released: 2021-09-28
 updated: 2024-12-04
 version: 1.32.0
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 555
+reviews: 559
 website: https://bitso.com/alpha/landing
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668

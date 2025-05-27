@@ -8,8 +8,8 @@ appId: com.zbx.www
 appCountry: us
 idd: 1458088759
 released: 2019-05-26
-updated: 2025-05-15
-version: 2.5.7
+updated: 2025-05-20
+version: 2.5.8
 stars: 4.3
 reviews: 4
 website: https://www.zbx.one/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: zbx_com
 social:
 - https://www.linkedin.com/company/zbx

@@ -11,7 +11,7 @@ released: 2021-05-12
 updated: 2025-05-09
 version: 3.6.2
 stars: 4
-reviews: 93
+reviews: 95
 website: https://www.coinstore.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: coinstore_en
 social:
 - https://www.linkedin.com/company/coinstore

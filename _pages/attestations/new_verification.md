@@ -3,9 +3,9 @@ layout: archive
 permalink: /new_verification/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
     .hash-input-container {
@@ -327,10 +327,7 @@ permalink: /new_verification/
     </form>
 </div>
 
-<div id="verificationModal">
-    <span id="closeModal">&times;</span>
-    <div id="verificationContent"></div>
-</div>
+<div id="verificationModal"></div>
 
 <script>
   let otherHashes = [];
@@ -571,7 +568,15 @@ permalink: /new_verification/
         const attachments = await getFileAttachmentEvents(fileEventIds);
 
         attachments.forEach(attachment => {
-          const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+          let name;
+          if (attachment.kind === codeSnippetKind) {
+            const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
+            const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+            name = `${attachmentName}.${extension}`;
+          } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+            name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+          }
+
           const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
           const attachmentContent = atob(attachment.content);
           const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';

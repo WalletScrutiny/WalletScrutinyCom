@@ -8,8 +8,8 @@ users: 1000
 appId: com.teroxx
 appCountry: us
 released: 2019-08-26
-updated: 2025-04-25
-version: 3.0.39
+updated: 2025-05-16
+version: 3.0.40
 stars: 4.2
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-15
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.cryptofarm
 appCountry: 
 released: 2021-06-10
-updated: 2025-04-11
-version: 1.0.1506
+updated: 2025-05-22
+version: 1.0.1584
 stars: 3.7
 ratings: 6172
-reviews: 705
+reviews: 713
 website: https://cryptotab.farm/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFarm

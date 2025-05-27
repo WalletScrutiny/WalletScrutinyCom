@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: blocktechbrew
 social:
 - https://www.instagram.com/blocktechbrew

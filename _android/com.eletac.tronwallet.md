@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-25
 signer: 
-reviewArchive: 
 twitter: VisionCryptoApp
 social: 
 redirect_from: 

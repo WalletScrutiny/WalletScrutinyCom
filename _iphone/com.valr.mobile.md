@@ -9,8 +9,8 @@ appId: com.valr.mobile
 appCountry: jp
 idd: 1453499428
 released: 2019-09-27
-updated: 2025-04-30
-version: 1.1.14
+updated: 2025-05-21
+version: 1.1.15
 stars: 0
 reviews: 0
 website: https://www.valr.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: valrdotcom
 social:
 - https://www.linkedin.com/company/valr

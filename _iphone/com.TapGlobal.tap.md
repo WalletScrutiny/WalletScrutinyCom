@@ -11,7 +11,7 @@ released: 2019-12-20
 updated: 2025-05-15
 version: 3.4.9
 stars: 4.6
-reviews: 1820
+reviews: 1823
 website: https://www.withtap.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

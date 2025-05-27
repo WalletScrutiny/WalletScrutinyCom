@@ -8,11 +8,11 @@ users: 100000
 appId: app.coingram
 appCountry: 
 released: 2019-07-02
-updated: 2025-04-22
+updated: 2025-05-24
 version: '4.6'
 stars: 4.8
 ratings: 43980
-reviews: 1245
+reviews: 1256
 website: https://www.coingraam.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-04-22
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

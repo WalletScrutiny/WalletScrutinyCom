@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-12-08
 signer: 
-reviewArchive: 
 twitter: GridlockCrypto
 social:
 - https://www.facebook.com/GridlockNetwork

@@ -12,7 +12,7 @@ updated: 2025-04-21
 version: '7.50'
 stars: 4.5
 ratings: 2711
-reviews: 1076
+reviews: 1079
 website: https://finabase.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

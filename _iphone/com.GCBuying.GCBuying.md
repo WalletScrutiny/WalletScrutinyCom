@@ -11,7 +11,7 @@ released: 2021-06-30
 updated: 2025-04-10
 version: 1.2.0
 stars: 4
-reviews: 117
+reviews: 119
 website: https://gcbuying.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: gcbuying
 social: 
 features: 

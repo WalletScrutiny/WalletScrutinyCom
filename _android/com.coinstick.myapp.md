@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-12-02
 signer: 
-reviewArchive: 
 twitter: coinstickHQ
 social:
 - https://www.facebook.com/CoinstickHQ

@@ -17,8 +17,7 @@ icon: shockwallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-24
-reviewArchive: 
+date: 2024-05-09
 twitter: shockbtc
 social: 
 features: 

@@ -11,7 +11,7 @@ released: 2015-08-19
 updated: 2025-05-12
 version: 10.50.0
 stars: 3.8
-reviews: 1308
+reviews: 1315
 website: https://www.htx.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial

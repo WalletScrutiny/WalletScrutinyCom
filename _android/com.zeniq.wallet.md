@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-04
 signer: 
-reviewArchive: 
 twitter: Zeniq_tech
 social:
 - https://www.linkedin.com/company/zeniq-hub/

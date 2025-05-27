@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-06
 signer: 
-reviewArchive: 
 twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation

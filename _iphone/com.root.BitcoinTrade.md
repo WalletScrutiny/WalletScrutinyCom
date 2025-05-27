@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/bitcointrade

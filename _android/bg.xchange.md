@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-21
 signer: 
-reviewArchive: 
 twitter: xchangebg
 social:
 - https://www.facebook.com/xchangebg

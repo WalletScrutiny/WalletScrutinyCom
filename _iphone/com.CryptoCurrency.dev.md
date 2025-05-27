@@ -11,7 +11,7 @@ released: 2018-02-21
 updated: 2025-02-04
 version: 3.4.5
 stars: 4.7
-reviews: 2454
+reviews: 2455
 website: https://thecrypto.app
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: TrustSwap
 social:
 - https://www.linkedin.com/company/TrustSwap

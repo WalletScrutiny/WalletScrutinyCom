@@ -8,8 +8,8 @@ users: 10000
 appId: com.lcx.app
 appCountry: 
 released: 2021-10-26
-updated: 2025-05-08
-version: 2.3.53
+updated: 2025-05-23
+version: 2.3.55
 stars: 3.3
 ratings: 
 reviews: 38
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-22
 signer: 
-reviewArchive: 
 twitter: lcx
 social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ

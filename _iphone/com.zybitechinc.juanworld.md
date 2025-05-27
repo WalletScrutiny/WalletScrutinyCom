@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/juancash/

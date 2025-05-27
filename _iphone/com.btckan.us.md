@@ -11,7 +11,7 @@ released: 2015-06-24
 updated: 2025-04-15
 version: 8.30.1
 stars: 3.4
-reviews: 43
+reviews: 44
 website: https://bitkan.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: bitkanofficial
 social: 
 features: 

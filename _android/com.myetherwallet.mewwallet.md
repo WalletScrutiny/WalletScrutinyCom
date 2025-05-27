@@ -12,7 +12,7 @@ updated: 2025-04-28
 version: 2.9.6
 stars: 4.3
 ratings: 7093
-reviews: 628
+reviews: 630
 website: http://mewwallet.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-02-05
 signer: 
-reviewArchive: 
 twitter: myetherwallet
 social:
 - https://www.linkedin.com/company/myetherwallet

@@ -8,8 +8,8 @@ appId: com.binance.custody
 appCountry: sg
 idd: '1595828184'
 released: 2021-12-01
-updated: 2025-05-12
-version: 4.11.1
+updated: 2025-05-24
+version: 4.12.1
 stars: 4.7
 reviews: 3
 website: https://www.ceffu.com
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: CeffuGlobal
 social:
 - https://www.linkedin.com/company/ceffu

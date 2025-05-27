@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-07-11
 signer: 
-reviewArchive: 
 twitter: finqcom
 social: 
 features: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.independentreserve.mobileapp
 appCountry: 
 released: 2021-10-18
-updated: 2025-04-17
-version: 10.1.1
+updated: 2025-05-21
+version: 10.2.0
 stars: 4.2
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: indepreserve
 social:
 - https://www.linkedin.com/company/independent-reserve

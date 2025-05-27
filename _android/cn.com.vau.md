@@ -8,11 +8,11 @@ users: 5000000
 appId: cn.com.vau
 appCountry: cn
 released: 2019-07-06
-updated: 2025-04-24
-version: 3.60.0
-stars: 3.3
+updated: 2025-05-19
+version: 3.61.1
+stars: 3.2
 ratings: 8949
-reviews: 2621
+reviews: 2666
 website: https://www.vantagemarkets.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: VantageFX
 social:
 - https://www.linkedin.com/company/vantage-fx

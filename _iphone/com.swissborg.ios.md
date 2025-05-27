@@ -11,7 +11,7 @@ released: 2020-03-31
 updated: 2025-05-12
 version: 1.109.0
 stars: 4.5
-reviews: 2270
+reviews: 2274
 website: https://swissborg.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: swissborg
 social:
 - https://www.linkedin.com/company/swissborg

@@ -8,10 +8,10 @@ appId: africa.obiex.app
 appCountry: ng
 idd: '1567887163'
 released: 2021-06-18
-updated: 2025-05-13
-version: 3.8.5
+updated: 2025-05-24
+version: 3.8.7
 stars: 4.6
-reviews: 601
+reviews: 602
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-08-01
 signer: 
-reviewArchive: 
 twitter: obiexfinance
 social:
 - https://www.facebook.com/obiexfinance

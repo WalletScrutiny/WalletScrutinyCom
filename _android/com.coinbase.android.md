@@ -12,7 +12,7 @@ updated: 2025-05-09
 version: 13.17.9
 stars: 4.5
 ratings: 666901
-reviews: 110645
+reviews: 110851
 website: https://coinbase.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-12
 signer: 
-reviewArchive: 
 twitter: coinbase
 social:
 - https://www.linkedin.com/company/coinbase

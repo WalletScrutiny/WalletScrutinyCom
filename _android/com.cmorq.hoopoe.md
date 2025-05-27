@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-06-22
 signer: 
-reviewArchive: 
 twitter: cmorq_
 social:
 - https://www.instagram.com/cmorq_/

@@ -11,7 +11,7 @@ released: 2020-02-21
 updated: 2020-02-22
 version: '1.0'
 stars: 2.8
-reviews: 77
+reviews: 78
 website: https://www.altcointrader.co.za/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-03
 signer: 
-reviewArchive: 
 twitter: AltCoinTraderSA
 social: 
 features: 

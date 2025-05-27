@@ -10,8 +10,8 @@ idd: '1644015124'
 released: 2022-11-22
 updated: 2025-05-01
 version: 2.5.7
-stars: 4.7
-reviews: 272
+stars: 4.6
+reviews: 276
 website: https://prestohq.io/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-31
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/prestohq.io

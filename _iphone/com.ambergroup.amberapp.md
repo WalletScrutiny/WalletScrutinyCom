@@ -8,8 +8,8 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: '1515652068'
 released: 2020-09-21
-updated: 2025-05-03
-version: 3.2.1
+updated: 2025-05-26
+version: 3.2.4
 stars: 4.5
 reviews: 195
 website: https://www.ambr.io/global
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-11
 signer: 
-reviewArchive: 
 twitter: ambergroup_io
 social:
 - https://www.linkedin.com/company/amberbtc

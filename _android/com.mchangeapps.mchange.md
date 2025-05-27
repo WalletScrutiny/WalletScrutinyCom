@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.youtube.com/watch?v=cofz1LnJWnk

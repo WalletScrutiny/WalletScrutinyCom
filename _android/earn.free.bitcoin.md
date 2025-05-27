@@ -12,7 +12,7 @@ updated: 2024-02-26
 version: '1.9'
 stars: 4.5
 ratings: 
-reviews: 4266
+reviews: 4272
 website: http://freebitcoinapp.net/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

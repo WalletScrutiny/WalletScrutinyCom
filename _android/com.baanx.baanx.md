@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-30
 signer: 
-reviewArchive: 
 twitter: baanx_bxx
 social:
 - https://www.facebook.com/baanxapp

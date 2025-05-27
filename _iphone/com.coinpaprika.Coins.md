@@ -11,7 +11,7 @@ released: 2019-12-03
 updated: 2025-04-10
 version: 2.8.19
 stars: 4.8
-reviews: 978
+reviews: 979
 website: http://coins.coinpaprika.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: CoinsOneApp
 social:
 - https://www.facebook.com/CoinsOneApp

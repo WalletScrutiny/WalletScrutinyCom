@@ -12,7 +12,7 @@ updated: 2025-05-05
 version: 4.1.7
 stars: 3.5
 ratings: 4416
-reviews: 3561
+reviews: 3560
 website: https://www.bitwala.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: nuribanking
 social: 
 redirect_from: 

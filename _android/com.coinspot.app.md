@@ -12,7 +12,7 @@ updated: 2025-05-08
 version: 3.6.8
 stars: 4.8
 ratings: 3068
-reviews: 2046
+reviews: 2055
 website: https://www.coinspot.com.au
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-10
 signer: 
-reviewArchive: 
 twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau

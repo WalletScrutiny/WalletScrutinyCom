@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2025-05-15
-version: 5.4.0
+updated: 2025-05-20
+version: 5.4.2
 stars: 2.7
 ratings: 3064
 reviews: 22
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-23
 signer: 
-reviewArchive: 
 twitter: coinhako
 social:
 - https://www.linkedin.com/company/coinhako

@@ -27,7 +27,6 @@ meta: ok
 verdict: prefilled
 date: 2024-01-15
 signer: 
-reviewArchive: 
 twitter: TrustBlock_Ltd
 social:
 - https://www.youtube.com/@trustblockltd9578

@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-22
 signer: 
-reviewArchive: 
 twitter: pvt_pay
 social:
 - https://www.linkedin.com/company/pvt-pay/

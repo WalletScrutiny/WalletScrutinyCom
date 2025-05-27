@@ -26,7 +26,6 @@ verdict: nosource
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: diywallet
 social: 
 features: 

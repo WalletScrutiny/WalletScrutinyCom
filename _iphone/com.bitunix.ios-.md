@@ -10,8 +10,8 @@ idd: '6446243957'
 released: 2023-04-11
 updated: 2025-05-13
 version: 3.1.0
-stars: 3.9
-reviews: 123
+stars: 4
+reviews: 138
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: BitunixOfficial
 social:
 - https://t.me/bitunixglobal

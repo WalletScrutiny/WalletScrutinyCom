@@ -8,8 +8,8 @@ users: 5000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2025-04-28
-version: 1.8.7
+updated: 2025-05-24
+version: 1.8.8
 stars: 3.3
 ratings: 
 reviews: 10
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: ScallopOfficial
 social:
 - https://www.linkedin.com/company/scallopx

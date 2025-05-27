@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-04-25
 signer: 
-reviewArchive: 
 twitter: coinburp
 social:
 - https://www.linkedin.com/company/coinburp

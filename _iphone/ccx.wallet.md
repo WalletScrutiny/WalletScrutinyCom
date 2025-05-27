@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2021-09-19
 signer: 
-reviewArchive: 
 twitter: CoinCasso
 social:
 - https://www.linkedin.com/company/coincasso

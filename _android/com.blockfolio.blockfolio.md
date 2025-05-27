@@ -23,12 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive:
-- date: 2019-11-10
-  version: 4.0.1
-  appHashes: []
-  gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
-  verdict: nowallet
 twitter: Blockfolio
 social:
 - https://www.facebook.com/Blockfolio

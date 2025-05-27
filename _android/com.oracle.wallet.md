@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-01-31
 signer: 
-reviewArchive: 
 twitter: Oracle_Wallet
 social:
 - https://www.facebook.com/oracle8.org

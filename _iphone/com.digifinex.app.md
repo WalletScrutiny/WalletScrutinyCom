@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: DigiFinex
 social:
 - https://www.linkedin.com/company/digifinex-global

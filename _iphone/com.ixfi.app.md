@@ -8,8 +8,8 @@ appId: com.ixfi.app
 appCountry: ro
 idd: '1614823165'
 released: 2022-03-22
-updated: 2025-05-14
-version: 1.7.24
+updated: 2025-05-19
+version: 1.7.25
 stars: 4.9
 reviews: 98
 website: https://www.ixfi.com/landing
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange

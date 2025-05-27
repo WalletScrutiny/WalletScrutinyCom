@@ -11,7 +11,7 @@ released: 2020-03-06
 updated: 2025-05-11
 version: 11.109.12
 stars: 4.8
-reviews: 8416
+reviews: 8419
 website: https://afriexapp.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-30
 signer: 
-reviewArchive: 
 twitter: afriexapp
 social:
 - https://www.linkedin.com/company/afriex
