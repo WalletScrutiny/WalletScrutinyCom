@@ -327,10 +327,7 @@ permalink: /new_verification/
     </form>
 </div>
 
-<div id="verificationModal">
-    <span id="closeModal">&times;</span>
-    <div id="verificationContent"></div>
-</div>
+<div id="verificationModal"></div>
 
 <script>
   let otherHashes = [];

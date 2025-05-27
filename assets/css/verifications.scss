@@ -427,3 +427,20 @@ input, textarea, select {
   font-size: 2em;
   padding: 6px 18px;
 }
+
+#verification-action-buttons {
+  top: 15px;
+  right: 50px;
+  position: absolute;
+}
+#verification-nostr-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.button-closed-by-default {
+  display: none;
+}
