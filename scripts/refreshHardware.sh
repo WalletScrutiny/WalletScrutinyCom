@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# checkHardware.sh - Script to check for updates in hardware wallet files
+# refreshHardware.sh - Script to check for updates in hardware wallet files
 # This script checks GitHub repositories for new releases and updates the corresponding files
 # with the latest version and release date.
 
@@ -11,11 +11,13 @@ YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Source the GitHub utilities
+SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
+source "$SCRIPT_DIR/github_utils.sh"
+
 # Variables
-HARDWARE_DIR="/home/dannybuntu/work/walletScrutinyCom/_hardware"
+HARDWARE_DIR="_hardware"
 GITHUB_TOKEN=""
-RATE_LIMIT_REMAINING=0
-RATE_LIMIT_RESET=0
 FILES_ANALYZED=0
 FILES_UPDATED=0
 FILES_SKIPPED=0
@@ -45,12 +47,8 @@ while getopts "g:d" opt; do
     esac
 done
 
-# Check if GitHub token is provided or available in environment
-if [ -z "$GITHUB_TOKEN" ]; then
-    if [ ! -z "$GITHUB_API_TOKEN" ]; then
-        GITHUB_TOKEN=$GITHUB_API_TOKEN
-    fi
-fi
+# Use the shared GitHub token parsing function
+parse_github_token "$@"
 
 # Debug function
 debug() {
@@ -59,71 +57,20 @@ debug() {
     fi
 }
 
-# Function to check GitHub rate limit
+# Function to check GitHub rate limit - wrapper around the shared function
 check_rate_limit() {
-    local response
-    local auth_header=""
-
-    # Ensure jq is installed
-    if ! command -v jq >/dev/null 2>&1; then
-        echo -e "${RED}The jq utility is required for this script to run.${NC}"
-        echo -e "${YELLOW}Install it with: sudo apt install jq${NC}"
-        exit 1
-    fi
-
-    # Set up authorization header if token is provided
-    if [ -n "$GITHUB_TOKEN" ]; then
-        auth_header="Authorization: token $GITHUB_TOKEN"
-        debug "Using GitHub token for rate limit check"
-    else
-        debug "No GitHub token provided for rate limit check"
-    fi
-
-    # Make API request with proper timeout
-    if [ -n "$auth_header" ]; then
-        response=$(curl -s -m 10 -H "$auth_header" https://api.github.com/rate_limit)
-    else
-        response=$(curl -s -m 10 https://api.github.com/rate_limit)
-    fi
-
-    if [ "$DEBUG" = true ]; then
-        debug "Rate limit API response: $response"
-    fi
-
-    # Check if we got a valid response
-    if [[ -z "$response" || "$response" != *"rate"* ]]; then
-        echo -e "${RED}Failed to get rate limit information from GitHub API${NC}"
-        RATE_LIMIT_REMAINING=0
-        return 1
-    fi
-
-    # Use jq to extract rate limit information
-    RATE_LIMIT_REMAINING=$(echo "$response" | jq '.rate.remaining')
-    RATE_LIMIT_RESET=$(echo "$response" | jq '.rate.reset')
-
-    debug "Rate limit remaining: $RATE_LIMIT_REMAINING"
-    debug "Rate limit reset: $RATE_LIMIT_RESET"
-
-    # Check if rate limit is low
-    if [ -z "$RATE_LIMIT_REMAINING" ] || [ "$RATE_LIMIT_REMAINING" -lt 10 ]; then
-        local reset_time="unknown time"
-        if [ "$RATE_LIMIT_RESET" -gt 0 ]; then
-            reset_time=$(date -d @$RATE_LIMIT_RESET 2>/dev/null || date -r $RATE_LIMIT_RESET 2>/dev/null)
-        fi
-
-        echo -e "${RED}GitHub API rate limit nearly exhausted. Limit will reset at: $reset_time${NC}"
-
+    # Call the shared function from github_utils.sh
+    if ! check_rate_limit; then
+        echo -e "${RED}GitHub API rate limit check failed${NC}"
+        
         if [ -z "$GITHUB_TOKEN" ]; then
             echo -e "${YELLOW}Consider using a GitHub token with -g parameter to avoid rate limiting.${NC}"
             echo "Create a token at: https://github.com/settings/tokens"
         fi
-
-        if [ -z "$RATE_LIMIT_REMAINING" ] || [ "$RATE_LIMIT_REMAINING" -lt 5 ]; then
-            echo -e "${RED}Exiting due to API rate limit.${NC}"
-            exit 1
-        fi
+        
+        exit 1
     fi
-
+    
     return 0
 }
 
@@ -151,142 +98,45 @@ update_field() {
     return 1
 }
 
-# Function to get latest release from GitHub API
+# Function to get latest release from GitHub API - wrapper around the shared function
 get_latest_release() {
-    local repo=$1
-    local api_url="https://api.github.com/repos/$repo/releases/latest"
-    local response
-    local status_code
-    local auth_header=""
-
-    debug "Getting latest release for repo: $repo"
-    debug "API URL: $api_url"
-
-    # Set up authorization header if token is provided
-    if [ -n "$GITHUB_TOKEN" ]; then
-        auth_header="Authorization: token $GITHUB_TOKEN"
-        debug "Using GitHub token for API request"
-    else
-        debug "No GitHub token provided for API request"
-    fi
-
-    # Make API request with proper timeout to avoid hanging
-    if [ -n "$auth_header" ]; then
-        response=$(curl -s -m 10 -w "%{http_code}" -H "$auth_header" "$api_url")
-    else
-        response=$(curl -s -m 10 -w "%{http_code}" "$api_url")
-    fi
-
-    # Extract status code from response
-    status_code=${response: -3}
-    response=${response:0:${#response}-3}
-
-    debug "API response status code: $status_code"
-
-    if [ "$DEBUG" = true ]; then
-        debug "API response (truncated): ${response:0:100}..."
-    fi
-
-    # Handle HTTP errors
-    if [ "$status_code" != "200" ]; then
-        case $status_code in
-            404)
-                echo "ERROR|$status_code: Repository not found or no releases available."
-            ;;
-            403)
-                echo "ERROR|$status_code: API rate limit exceeded or access forbidden."
-                check_rate_limit
-            ;;
-            401)
-                echo "ERROR|$status_code: Unauthorized. Check your GitHub token."
-            ;;
-            000)
-                echo "ERROR|$status_code: Connection timeout or network issue."
-            ;;
-            *)
-                echo "ERROR|$status_code: HTTP status $status_code when accessing GitHub API."
-            ;;
-        esac
-        return 1
-    fi
-
-    # Check for empty response
-    if [ -z "$response" ]; then
-        echo "ERROR: Empty response from GitHub API."
-        return 1
-    fi
-
-    # Try to find releases in the response
-    if [[ ! "$response" == *"tag_name"* ]]; then
-        echo "ERROR: No releases found in the GitHub API response."
-        return 1
-    fi
-
-    # Extract version and date using jq
-    local version=$(echo "$response" | jq -r '.tag_name // .[0].tag_name // empty')
-    local published_date=$(echo "$response" | jq -r '.published_at // .[0].published_at // empty' | cut -d'T' -f1)
+    local repo_path=$1
     
-    # Debug the extracted version
-    debug "Raw extracted version: $version"
-
-    debug "Extracted version: $version"
-    debug "Extracted date: $published_date"
-
-    if [ -z "$version" ]; then
-        echo "ERROR: Could not extract version from GitHub API response."
+    # Call the shared function from github_utils.sh
+    local result=$(get_latest_release "$repo_path")
+    local status=$?
+    
+    # Check if the call was successful
+    if [ $status -eq 0 ]; then
+        debug "Latest release info: $result"
+        echo "$result"
+        return 0
+    else
+        debug "Failed to get latest release: $result"
+        echo "$result"
         return 1
     fi
-
-    if [ -z "$published_date" ]; then
-        echo "WARNING: Could not extract published date, using today's date."
-        published_date=$(date +%Y-%m-%d)
-    fi
-
-    echo "$version|$published_date"
-    return 0
 }
 
-# Function to retry API calls with exponential backoff
+# Function to retry API calls with exponential backoff - wrapper around the shared function
 retry_api_call() {
-    local repo=$1
-    local max_attempts=3
-    local attempt=1
-    local result
-    local status_code
-
-    while [ $attempt -le $max_attempts ]; do
-        # Pass both result and status code back using a delimiter
-        result=$(get_latest_release "$repo")
-        status=$?
-        
-        # Extract status code if present (format: ERROR|404)
-        if [[ "$result" == ERROR\|* ]]; then
-            status_code=$(echo "$result" | cut -d'|' -f2)
-            result="ERROR"
-        else
-            status_code=""
-        fi
-        
-        if [ $status -eq 0 ]; then
-            echo "$result"
-            return 0
-        fi
-
-        # Only show retry message if not on last attempt
-        if [ $attempt -lt $max_attempts ]; then
-            echo -e "${YELLOW}Attempt $attempt failed. Retrying in $((2**attempt)) seconds...${NC}"
-            sleep $((2**attempt))
-        fi
-        ((attempt++))
-    done
-
-    # Return both error and status code
-    if [ -n "$status_code" ]; then
-        echo "ERROR|$status_code"
+    local repo_path=$1
+    
+    debug "Attempting API call for $repo_path with retries"
+    
+    # Call the shared function from github_utils.sh
+    local result=$(retry_api_call "$repo_path")
+    local status=$?
+    
+    if [ $status -eq 0 ]; then
+        debug "API call successful: $result"
+        echo "$result"
+        return 0
     else
-        echo "ERROR"
+        debug "API call failed after retries: $result"
+        echo "$result"
+        return 1
     fi
-    return 1
 }
 
 # Main function to process hardware wallet files

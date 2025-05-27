@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Source the GitHub utilities
+SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
+source "$SCRIPT_DIR/github_utils.sh"
+
 # Default values
 DETAILED_REPORT=false
 GITHUB_TOKEN=""
@@ -16,6 +20,9 @@ done
 # Reset getopts
 OPTIND=1
 
+# Use the shared GitHub token parsing function
+parse_github_token "$@"
+
 # Show GitHub token usage message if not provided
 if [ -z "$GITHUB_TOKEN" ]; then
     echo -e "\033[33mTo avoid rate limits: $0 -g YOUR_TOKEN  or  export GITHUB_TOKEN=YOUR_TOKEN\033[0m"
@@ -23,7 +30,6 @@ if [ -z "$GITHUB_TOKEN" ]; then
     # Check if GITHUB_TOKEN is in environment
     if [ ! -z "${GITHUB_TOKEN:-}" ]; then
         echo -e "\033[32mFound GITHUB_TOKEN in environment. Using that.\033[0m"
-        GITHUB_TOKEN="${GITHUB_TOKEN}"
     fi
 fi
 
@@ -73,27 +79,12 @@ update_value() {
     fi
 }
 
-# Function to get HTTP error description
-get_http_error_desc() {
-    local code=$1
-    case $code in
-        400) echo "Bad Request" ;;
-        401) echo "Unauthorized" ;;
-        403) echo "Forbidden" ;;
-        404) echo "Not Found" ;;
-        422) echo "Unprocessable Entity" ;;
-        429) echo "Rate Limit Exceeded" ;;
-        500) echo "Server Error" ;;
-        503) echo "Service Unavailable" ;;
-        *) echo "HTTP $code" ;;
-    esac
-}
+# Use get_http_error_desc from github_utils.sh
 
 # Function to get latest GitHub release version with rate limiting avoidance
 get_latest_github_release() {
     local repo_url=$1
     local error_code=""
-    local retry_count=0
     
     # Extract owner and repo name from GitHub URL
     local repo_path=$(echo "$repo_url" | sed 's|https://github.com/||g')
@@ -101,93 +92,26 @@ get_latest_github_release() {
     # Add a delay to avoid hitting rate limits
     sleep $API_DELAY
     
-    # Function to make API request with retries
-    make_api_request() {
-        local url=$1
-        local attempt=0
-        local response
-        
-        while [ $attempt -lt $MAX_RETRIES ]; do
-            # Get the API response with headers
-            if [ -n "$GITHUB_TOKEN" ]; then
-                response=$(curl -s -H "Authorization: token $GITHUB_TOKEN" -w "\n%{http_code}" "$url")
-            else
-                response=$(curl -s -w "\n%{http_code}" "$url")
-            fi
-            local http_code=$(echo "$response" | tail -n1)
-            local body=$(echo "$response" | sed '$d')
-            
-            # Check for rate limiting
-            if [ "$http_code" = "429" ] || ([ "$http_code" = "403" ] && echo "$body" | grep -q "rate limit"); then
-                # Rate limited - retry after delay
-                attempt=$((attempt + 1))
-                if [ $attempt -lt $MAX_RETRIES ]; then
-                    sleep $RETRY_DELAY
-                    continue
-                else
-                    local desc=$(get_http_error_desc "$http_code")
-                    echo "" # Empty version
-                    echo "RL:$http_code:$desc" >&2 # Output error code to stderr
-                    return 1
-                fi
-            elif [ "$http_code" != "200" ]; then
-                # Other HTTP error
-                local desc=$(get_http_error_desc "$http_code")
-                echo "" # Empty version
-                echo "HTTP:$http_code:$desc" >&2 # Output error code to stderr
-                return 1
-            else
-                # Success - return the body and code
-                echo "$body"
-                echo "200" >&2
-                return 0
-            fi
-        done
-    }
-    
-    # Use GitHub API to get the latest release
-    local api_url="https://api.github.com/repos/$repo_path/releases/latest"
-    
-    # Make the API request
-    local body=$(make_api_request "$api_url")
+    # Use the shared function from github_utils.sh
+    local result=$(retry_api_call "$repo_path")
     local status=$?
     
     # If request failed, return the error
     if [ $status -ne 0 ]; then
-        return
+        echo "" # Empty version
+        echo "$result" >&2 # Output error code to stderr
+        return 1
     fi
     
-    # Get the tag_name (version) from the API response
-    local latest_version=$(echo "$body" | grep -m 1 '"tag_name":' | sed -E 's/.*"tag_name": "?([^,"]*)"?.*/\1/')
+    # Extract version from the result (format: tag|date)
+    local latest_version=$(echo "$result" | cut -d'|' -f1)
     
-    # If no latest release found, try to get the latest tag
-    if [ -z "$latest_version" ]; then
-        api_url="https://api.github.com/repos/$repo_path/tags"
-        
-        # Add a delay before making another request
-        sleep $API_DELAY
-        
-        # Make the API request for tags
-        body=$(make_api_request "$api_url")
-        status=$?
-        
-        # If request failed, return the error
-        if [ $status -ne 0 ]; then
-            return
-        fi
-        
-        latest_version=$(echo "$body" | grep -m 1 '"name":' | sed -E 's/.*"name": "?([^,"]*)"?.*/\1/')
-    fi
-    
-    # If still no version found
+    # If no version found
     if [ -z "$latest_version" ]; then
         echo "" # Empty version
         echo "NV:No version found" >&2 # Output error code to stderr
-        return
+        return 1
     fi
-    
-    # Remove 'v' prefix if present
-    latest_version=$(echo "$latest_version" | sed 's/^v//')
     
     echo "$latest_version"
 }
@@ -323,7 +247,7 @@ if [ "$DETAILED_REPORT" = true ]; then
             echo "  To avoid rate limiting in the future, you can:"
             echo "    1. Wait at least an hour before running again"
             echo "    2. Increase API_DELAY at the top of the script"
-            echo "    3. Use a GitHub personal access token (not implemented yet)"
+            echo "    3. Use a GitHub personal access token with the -g parameter"
         fi
     fi
     
