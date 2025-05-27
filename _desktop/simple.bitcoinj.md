@@ -16,11 +16,14 @@ issue:
 icon: simple.bitcoinj.png
 bugbounty: 
 meta: obsolete
-verdict: sourceavailable
-date: 2024-04-25
+verdict: unreleased
+date: 2025-04-25
 twitter: 
 social: 
 features: 
 
 ---
 
+Simple BitcoinJ GUI Wallet is a minimalistic, open-source Bitcoin wallet built using JavaFX and the BitcoinJ library. It is intended as a lightweight educational or experimental desktop wallet and operates on Bitcoin's testnet by default.
+
+The project has seen limited development activity and minimal community engagement. It is suitable for developers or users seeking a basic Java-based Bitcoin wallet, but it may not be appropriate for production use without further maintenance or review. Its a project that was started but **never really finished**, and now its forgotten.

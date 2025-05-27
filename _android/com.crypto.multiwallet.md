@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-07-13
+date: 2025-04-14
 signer: 
 twitter: GuardaWallet
 social:

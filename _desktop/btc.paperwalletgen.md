@@ -15,13 +15,17 @@ repository: https://github.com/chandler-stimson/bitcoin-paper-wallet
 issue: 
 icon: btc.paperwalletgen.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: sourceavailable
-date: 2024-05-09
+date: 2025-05-09
 twitter: 
 social: 
 features: 
 
 ---
 
-Chrome extension.
+## App Description
+
+​The Bitcoin Paper Wallet Generator Chrome extension, last updated on September 17, 2022, offers users the ability to generate random Bitcoin private (WIF) and public keys or verify compressed and uncompressed BTC addresses within a secure window. Features include native random seed generation, enhanced randomness through browser metadata and mouse movements, and support for both BASE58 (P2PKH) and BECH32 (P2WPKH) address formats.
+
+With no update since 2022, and no official website, this app is **obsolete**. However, it is still available for download both in the Chrome store and in the repository.

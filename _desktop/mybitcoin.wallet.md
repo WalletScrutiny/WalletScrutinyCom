@@ -6,7 +6,7 @@ authors:
 released: 2018-02-27
 discontinued: 
 updated: 2023-02-23
-version: 1.89.0.0
+version: 
 binaries: 
 provider: Panteam Ltd.
 providerWebsite: http://panteam.net
@@ -15,7 +15,7 @@ repository: https://github.com/panteam-net/pt.BTC
 issue: 
 icon: 
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: sourceavailable
 date: 2024-04-25
 twitter: 
@@ -24,4 +24,10 @@ features:
 
 ---
 
-The providers' website is not accessible.
+## App Description
+
+The providers' website is not accessible. 
+
+> This is a cross platform bitcoin wallet. 
+
+With the website gone and with no development in the last 2 years in its GitHub repository, this program is **obsolete**

@@ -15,12 +15,15 @@ repository:
 issue: 
 icon: coinomi.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
-date: 2024-04-24
+date: 2025-04-24
 twitter: coinomiwallet
 social: 
 features: 
 
 ---
 
+## App Description
+
+The desktop apps (Windows, macOS and Linux) are very much outdated (2020). However, their website is still online and their mobile apps are still updated. The desktop apps are **obsolete**. Their [GitHub organization's page](https://github.com/coinomi), only features two unrelated repositories. The desktops programs are **not source-available**.
