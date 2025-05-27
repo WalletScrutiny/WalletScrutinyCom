@@ -99,14 +99,14 @@ table {
 .hidden-row {
   display: none;
 }
-.show-more-link {
+#show-more-link {
   display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
   color: var(--accent-text);
   cursor: pointer;
 }
-.show-more-link:hover {
+#show-more-link:hover {
   text-decoration: underline;
 }
 

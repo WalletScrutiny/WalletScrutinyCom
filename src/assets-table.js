@@ -444,20 +444,12 @@ window.renderAssetsTable = async function({
     if (sortedItems.length > showOnlyRows) {
       const showMoreRow = document.createElement('tr');
       showMoreRow.className = 'show-more-row';
+      showMoreRow.id = 'show-more-row';
       showMoreRow.innerHTML = `
-        <td colspan="8" style="text-align: center;">
-          <a href="#" class="show-more-link">Show ${sortedItems.length - showOnlyRows} more</a>
-        </td>
-      `;
+        <td colspan="8" style="text-align: center; padding: 15px;">
+          <button id="show-more-link" onclick="showMoreRows()" style="cursor: pointer; background: none; border: none; color: #0066cc; text-decoration: underline; font-size: inherit; padding: 5px 10px;">Show ${sortedItems.length - showOnlyRows} more</button>
+        </td>`;
       table.appendChild(showMoreRow);
-
-      const showMoreLink = showMoreRow.querySelector('.show-more-link');
-      showMoreLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        const hiddenRows = table.querySelectorAll('.hidden-row');
-        hiddenRows.forEach(row => row.classList.remove('hidden-row'));
-        showMoreRow.remove();
-      });
     }
   } else {
     const row = document.createElement('tr');

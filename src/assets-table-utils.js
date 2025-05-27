@@ -1,5 +1,14 @@
 import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
 
+window.showMoreRows = function() {
+  const hiddenRows = document.querySelectorAll('.hidden-row');
+  hiddenRows.forEach(row => row.classList.remove('hidden-row'));
+  document.getElementById('show-more-row').remove();
+};
+
+///////////////////////////////////////////////////////////////////////
+// NOSTR ACTIONS
+///////////////////////////////////////////////////////////////////////
 window.openEventInNjump = function(eventId) {
   try {
     // Create a nevent string using NIP-19 format
