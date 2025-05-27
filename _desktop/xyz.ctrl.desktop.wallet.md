@@ -18,7 +18,6 @@ bugbounty:
 meta: ok
 verdict: nosource
 date: 2025-04-24
-reviewArchive: 
 twitter: ctrl_wallet
 social:
 - https://discord.com/invite/ctrlwallet
