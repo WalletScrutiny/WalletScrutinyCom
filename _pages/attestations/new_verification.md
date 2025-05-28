@@ -9,27 +9,28 @@ permalink: /new_verification/
 
 <style>
       .tab-button {
-        background-color: #e9e9e9;
-        border: 1px solid #ccc;
+        background-color: var(--neutral-7);
+        border: 1px solid var(--neutral-4);
         padding: 0.4em 1em;
         border-radius: 5px 5px 0 0;
         font-weight: bold;
         cursor: pointer;
+        color: var(--text);
       }
       .tab-button:hover {
-        background-color: #dcdcdc;
+        background-color: var(--neutral-6);
       }
       .tab-button.active {
-        background-color: #ffffff;
-        border: 1px solid #ccc;
-        border-bottom: 1px solid white;
+        background-color: var(--neutral-5);
+        border: 1px solid var(--neutral-4);
+        border-bottom: 1px solid var(--neutral-5);
         position: relative;
         top: 1px;
         z-index: 2;
       }
 
       #editorContainer {
-        border: 1px solid #ccc;
+        border: 1px solid var(--neutral-4);
         border-top: none;
         padding: 0;
         border-radius: 0 0 5px 5px;
@@ -47,6 +48,63 @@ permalink: /new_verification/
       #editorContainer .form-control {
         margin: 0;
         border-radius: 0 0 5px 5px;
+      }
+      
+      /* Markdown preview styling */
+      #markdownPreview ul {
+        list-style-type: disc;
+        padding-left: 2em;
+        margin: 1em 0;
+      }
+      #markdownPreview ol {
+        list-style-type: decimal;
+        padding-left: 2em;
+        margin: 1em 0;
+      }
+      #markdownPreview ul ul,
+      #markdownPreview ol ul {
+        list-style-type: circle;
+        margin: 0.5em 0;
+      }
+      #markdownPreview ul ul ul,
+      #markdownPreview ol ul ul {
+        list-style-type: square;
+      }
+      #markdownPreview ul ol,
+      #markdownPreview ol ol {
+        list-style-type: lower-alpha;
+        margin: 0.5em 0;
+      }
+      #markdownPreview ul ol ol,
+      #markdownPreview ol ol ol {
+        list-style-type: lower-roman;
+      }
+      #markdownPreview li {
+        margin: 0.3em 0;
+      }
+      
+      /* Code block styling */
+      #markdownPreview pre,
+      #markdownPreview code {
+        font-family: monospace;
+      }
+      #markdownPreview pre {
+        background-color: var(--neutral-6);
+        border: 1px solid var(--neutral-4);
+        border-radius: 4px;
+        padding: 1em;
+        overflow-x: auto;
+        margin: 1em 0;
+      }
+      #markdownPreview pre code {
+        display: block;
+      }
+      #markdownPreview code {
+        background-color: var(--neutral-6);
+        border: 1px solid var(--neutral-4);
+        border-radius: 3px;
+        padding: 0.2em 0.4em;
+        font-size: 0.9em;
       }
     .hash-input-container {
         display: flex;
@@ -304,7 +362,7 @@ permalink: /new_verification/
 
             <div id="editorContainer">
                 <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:#f9f9f9; border:1px solid #ccc; border-radius:4px; min-height:10em;"></div>
+                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
             </div>
             <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
         </div>
