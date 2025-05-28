@@ -51,20 +51,45 @@ permalink: /new_verification/
       }
       
       /* Markdown preview styling */
+      #markdownPreview h1, #markdownPreview h2, #markdownPreview h3, 
+      #markdownPreview h4, #markdownPreview h5, #markdownPreview h6 {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        line-height: 1.2;
+      }
+      #markdownPreview h1 {
+        font-size: 2em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+      }
+      #markdownPreview h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+      }
+      #markdownPreview h3 {
+        font-size: 1.3em;
+      }
+      #markdownPreview h4 {
+        font-size: 1.1em;
+      }
+      #markdownPreview p {
+        margin: 0.5em 0;
+      }
       #markdownPreview ul {
         list-style-type: disc;
         padding-left: 2em;
-        margin: 1em 0;
+        margin: 0.5em 0;
       }
       #markdownPreview ol {
         list-style-type: decimal;
         padding-left: 2em;
-        margin: 1em 0;
+        margin: 0.5em 0;
       }
       #markdownPreview ul ul,
       #markdownPreview ol ul {
         list-style-type: circle;
-        margin: 0.5em 0;
+        margin: 0;
       }
       #markdownPreview ul ul ul,
       #markdownPreview ol ul ul {
@@ -73,14 +98,20 @@ permalink: /new_verification/
       #markdownPreview ul ol,
       #markdownPreview ol ol {
         list-style-type: lower-alpha;
-        margin: 0.5em 0;
+        margin: 0;
       }
       #markdownPreview ul ol ol,
       #markdownPreview ol ol ol {
         list-style-type: lower-roman;
       }
       #markdownPreview li {
-        margin: 0.3em 0;
+        margin: 0.1em 0;
+      }
+      #markdownPreview blockquote {
+        border-left: 4px solid var(--neutral-4);
+        padding-left: 1em;
+        margin: 0.5em 0;
+        color: var(--neutral-2);
       }
       
       /* Code block styling */
@@ -89,19 +120,23 @@ permalink: /new_verification/
         font-family: monospace;
       }
       #markdownPreview pre {
-        background-color: var(--neutral-6);
-        border: 1px solid var(--neutral-4);
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
         border-radius: 4px;
-        padding: 1em;
+        padding: 0.8em;
         overflow-x: auto;
-        margin: 1em 0;
+        margin: 0.5em 0;
       }
       #markdownPreview pre code {
         display: block;
+        background: none;
+        border: none;
+        padding: 0;
+        line-height: 1.4;
       }
       #markdownPreview code {
-        background-color: var(--neutral-6);
-        border: 1px solid var(--neutral-4);
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
         border-radius: 3px;
         padding: 0.2em 0.4em;
         font-size: 0.9em;
