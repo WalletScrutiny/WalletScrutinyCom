@@ -17,7 +17,8 @@ module.exports = {
       './src/drag-and-drop.js',
       './src/verifications_utils.mjs',
       './src/assets-table-utils.js',
-      './src/assets-table.js'
+      './src/assets-table.js',
+      './src/preview-button.js'
     ]
   },
   output: {
