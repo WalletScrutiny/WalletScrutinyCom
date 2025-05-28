@@ -8,25 +8,28 @@ permalink: /new_verification/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
+      /* Tab styling with light/dark mode support */
       .tab-button {
-        background-color: var(--neutral-7);
+        background-color: #444; /* Dark background for inactive tab in both modes */
         border: 1px solid var(--neutral-4);
         padding: 0.4em 1em;
         border-radius: 5px 5px 0 0;
         font-weight: bold;
         cursor: pointer;
-        color: var(--text);
+        color: #aaa; /* Light grey text for inactive tab */
       }
       .tab-button:hover {
-        background-color: var(--neutral-6);
+        background-color: #555;
+        color: #ccc; /* Slightly more visible on hover */
       }
       .tab-button.active {
-        background-color: var(--neutral-5);
+        background-color: #f5f5f5; /* Light background for active tab in both modes */
         border: 1px solid var(--neutral-4);
-        border-bottom: 1px solid var(--neutral-5);
+        border-bottom: 1px solid #f5f5f5;
         position: relative;
         top: 1px;
         z-index: 2;
+        color: #333; /* Dark text for active tab */
       }
 
       #editorContainer {
