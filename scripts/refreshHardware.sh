@@ -60,20 +60,29 @@ check_rate_limit
 # Locate files
 # -----------------------------------------------------------------------------
 HARDWARE_DIR="/home/dannybuntu/work/walletScrutinyCom/_hardware"
-mapfile -t files < <(printf '%s\n' "$HARDWARE_DIR"/*.md 2>/dev/null || true)
+all_files=("$HARDWARE_DIR"/*.md)
+FILES_ANALYZED=${#all_files[@]}
 
-if (( ${#files[@]} == 0 )); then
-  echo "No .md files found in $HARDWARE_DIR — nothing to do."
+# Only keep files with 'verdict: sourceavailable'
+files=()
+for f in "${all_files[@]}"; do
+  if grep -q '^verdict: *sourceavailable' "$f"; then
+    files+=("$f")
+  fi
+done
+SOURCE_AVAILABLE=${#files[@]}
+
+if [[ ${#files[@]} -eq 0 ]]; then
+  echo "No sourceavailable .md files found in $HARDWARE_DIR — nothing to do."
   exit 0
 fi
 
-echo "Starting hardware update on ${#files[@]} files..."
+echo "Starting hardware update on ${#files[@]} sourceavailable files..."
 echo
 
 # -----------------------------------------------------------------------------
 # Prepare counters & helper functions
 # -----------------------------------------------------------------------------
-FILES_ANALYZED=0
 FILES_UPDATED=0
 FILES_SKIPPED=0
 declare -a SKIPPED_REASONS
@@ -96,27 +105,32 @@ update_field() {
 # Main loop
 # -----------------------------------------------------------------------------
 for file in "${files[@]}"; do
-  ((FILES_ANALYZED++))
   name=$(basename "$file")
 
   verdict=$(extract_field "$file" verdict)
-  if [[ ! $verdict =~ ^(reproducible|sourceavailable|wip)$ ]]; then
+  # Only process sourceavailable files (already filtered, but keep for safety)
+  if [[ "$verdict" != "sourceavailable" ]]; then
     continue
   fi
 
   repo_url=$(extract_field "$file" repository)
   if [[ -z $repo_url || $repo_url == https://github.com/ ]]; then
+    ((FILES_SKIPPED++))
     continue
   fi
 
   repo_path=${repo_url#https://github.com/}
   echo -e "\033[0;34mProcessing $name\033[0m"
-  echo "current 'verdict: $verdict'"
 
   debug "Calling retry_api_call for $repo_path"
   release_info=$(retry_api_call "$repo_path")
   if [[ $release_info == ERROR* ]]; then
     echo -e "\033[0;31mFetch failed: $release_info\033[0m"
+    if [[ $release_info == *"404"* ]]; then
+      echo "'repository: $repo_url'"
+    fi
+    ((FILES_SKIPPED++))
+    echo
     continue
   fi
 
@@ -142,9 +156,9 @@ for file in "${files[@]}"; do
     ((FILES_UPDATED++))
   else
     echo "Already up to date."
-    echo -e "  \033[0;34mAlready up to date ($current_version)\033[0m"
     debug "$name remains at $current_version"
   fi
+  echo
 
   check_rate_limit
   echo
@@ -155,6 +169,7 @@ done
 # -----------------------------------------------------------------------------
 echo "===== Hardware Summary ====="
 echo "Files analyzed: $FILES_ANALYZED"
+echo "Source available: $SOURCE_AVAILABLE"
 echo "Files updated:  $FILES_UPDATED"
 echo "Files skipped:  $FILES_SKIPPED"
 
