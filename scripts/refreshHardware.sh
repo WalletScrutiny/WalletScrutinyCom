@@ -87,6 +87,43 @@ FILES_UPDATED=0
 FILES_SKIPPED=0
 declare -a SKIPPED_REASONS
 
+# Coldcard version tag fetcher
+get_latest_coldcard_version() {
+  # $1: model (mk1, mk2, mk3, mk4, q, mk4edge, qedge)
+  local model="$1"
+  local regex suffix
+  case "$model" in
+    mk4)
+      regex='v5\.[0-9]+\.[0-9]+$'
+      ;;
+    mk3|mk2)
+      regex='v4\.[0-9]+\.[0-9]+$'
+      ;;
+    mk1)
+      regex='v3\.[0-9]+\.[0-9]+$'
+      ;;
+    q)
+      regex='v1\.[0-9]+\.[0-9]+Q$'
+      ;;
+    *)
+      echo "Unknown Coldcard model: $model" >&2
+      return 1
+      ;;
+  esac
+  # Fetch tags (first 100 is enough for now)
+  local tags_json
+  tags_json=$(curl -s "https://api.github.com/repos/Coldcard/firmware/tags?per_page=100")
+  local tags_list
+  tags_list=$(echo "$tags_json" | jq -r '.[].name')
+  # New robust tag parsing: extract version after last -v, match prefix, pick highest
+  local versions
+  versions=$(echo "$tags_list" | \
+    sed -nE 's/.*-v([0-9]+\.[0-9]+\.[0-9]+[A-Z]*).*/v\1/p')
+  local latest_version
+  latest_version=$(echo "$versions" | grep -E "$regex" | sort -V | tail -n1)
+  echo "$latest_version"
+}
+
 extract_field() {
   # Usage: extract_field file fieldName
   grep -m1 "^$2:" "$1" | sed "s/^$2:[[:space:]]*//;s/[\"']//g"
@@ -121,6 +158,56 @@ for file in "${files[@]}"; do
 
   repo_path=${repo_url#https://github.com/}
   echo -e "\033[0;34mProcessing $name\033[0m"
+
+  # Coldcard special handling
+  if [[ "$repo_url" == "https://github.com/Coldcard/firmware" ]]; then
+    # Determine model from filename (lowercase, strip extension)
+    model=""
+    fname="$(basename "$file" .md | tr '[:upper:]' '[:lower:]')"
+    # Enhanced model detection for coinkite.coldcard.* patterns
+    if [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk4 ]]; then
+      model="mk4"
+    elif [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk3 ]]; then
+      model="mk3"
+    elif [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk2 ]]; then
+      model="mk2"
+    elif [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk1 ]]; then
+      model="mk1"
+    elif [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*q ]]; then
+      model="q"
+    fi
+    if [[ -n "$model" ]]; then
+      latest_version=$(get_latest_coldcard_version "$model")
+      release_date=""
+      current_version=$(extract_field "$file" version)
+      current_updated=$(extract_field "$file" updated)
+      updated=0
+      # Special handling for mk1 legacy device
+      if [[ "$model" == "mk1" && -z "$latest_version" ]]; then
+        echo -e "\033[1;33mNo tags found for mk1 (legacy device). Please update manually if needed.\033[0m"
+        ((FILES_SKIPPED++))
+        echo
+        continue
+      fi
+      # Uniform output for Coldcard status
+      if [[ -n "$latest_version" && "$current_version" != "$latest_version" ]]; then
+        echo "- 'version: $current_version'"
+        echo "+ 'version: $latest_version'"
+        update_field "$file" version "$current_version" "$latest_version"
+        updated=1
+      fi
+      if [[ $updated -eq 1 ]]; then
+        echo -e "\033[1;33mUpdated to latest version.\033[0m"
+        ((FILES_UPDATED++))
+      else
+        echo "Already up to date."
+        debug "$name remains at $current_version"
+      fi
+      echo
+      continue
+    fi
+    # If model not matched, fallback to regular API
+  fi
 
   debug "Calling retry_api_call for $repo_path"
   release_info=$(retry_api_call "$repo_path")
