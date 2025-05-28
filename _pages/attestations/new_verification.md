@@ -16,7 +16,7 @@ permalink: /new_verification/
         border-radius: 5px 5px 0 0;
         font-weight: bold;
         cursor: pointer;
-        color: #aaa; /* Light grey text for inactive tab */
+        color: rgba(255, 255, 255, 0.75); /* 75% opacity white text for inactive tab */
       }
       .tab-button:hover {
         background-color: #555;
@@ -64,6 +64,7 @@ permalink: /new_verification/
         font-size: 2em;
         border-bottom: 1px solid var(--neutral-4);
         padding-bottom: 0.3em;
+        text-align: left;
       }
       #markdownPreview h2 {
         font-size: 1.5em;
@@ -79,15 +80,20 @@ permalink: /new_verification/
       #markdownPreview p {
         margin: 0.5em 0;
       }
+      /* Compact list styling */
+      #markdownPreview h3 {
+        margin-top: 0.8em;
+        margin-bottom: 0.3em;
+      }
       #markdownPreview ul {
         list-style-type: disc;
         padding-left: 2em;
-        margin: 0.5em 0;
+        margin: 0.2em 0;
       }
       #markdownPreview ol {
         list-style-type: decimal;
         padding-left: 2em;
-        margin: 0.5em 0;
+        margin: 0.2em 0;
       }
       #markdownPreview ul ul,
       #markdownPreview ol ul {
@@ -108,7 +114,14 @@ permalink: /new_verification/
         list-style-type: lower-roman;
       }
       #markdownPreview li {
-        margin: 0.1em 0;
+        margin: 0;
+        line-height: 1.2;
+      }
+      /* Fix spacing between list items */
+      #markdownPreview ul li,
+      #markdownPreview ol li {
+        margin-bottom: 0;
+        padding-bottom: 0;
       }
       #markdownPreview blockquote {
         border-left: 4px solid var(--neutral-4);
