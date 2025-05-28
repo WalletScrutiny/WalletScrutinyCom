@@ -8,6 +8,155 @@ permalink: /new_verification/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
+      /* Tab styling with light/dark mode support */
+      .tab-button {
+        background-color: #444; /* Dark background for inactive tab in both modes */
+        border: 1px solid var(--neutral-4);
+        padding: 0.4em 1em;
+        border-radius: 5px 5px 0 0;
+        font-weight: bold;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.25); /* 75% opacity white text for inactive tab */
+      }
+      .tab-button:hover {
+        background-color: #555;
+        color: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
+      }
+      .tab-button.active {
+        background-color: #f5f5f5; /* Light background for active tab in both modes */
+        border: 1px solid var(--neutral-4);
+        border-bottom: 1px solid #f5f5f5;
+        position: relative;
+        top: 1px;
+        z-index: 2;
+        color: #333; /* Dark text for active tab */
+      }
+
+      #editorContainer {
+        border: 1px solid var(--neutral-4);
+        border-top: none;
+        padding: 0;
+        border-radius: 0 0 5px 5px;
+        position: relative;
+        z-index: 1;
+      }
+      #editorTabs {
+        display: flex;
+        gap: 0.5em;
+        margin-bottom: 0;
+        position: relative;
+        top: 1px;
+        z-index: 1;
+      }
+      #editorContainer .form-control {
+        margin: 0;
+        border-radius: 0 0 5px 5px;
+      }
+      
+      /* Markdown preview styling */
+      #markdownPreview h1, #markdownPreview h2, #markdownPreview h3, 
+      #markdownPreview h4, #markdownPreview h5, #markdownPreview h6 {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        line-height: 1.2;
+      }
+      #markdownPreview h1 {
+        font-size: 2em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+        text-align: left;
+      }
+      #markdownPreview h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+      }
+      #markdownPreview h3 {
+        font-size: 1.3em;
+      }
+      #markdownPreview h4 {
+        font-size: 1.1em;
+      }
+      #markdownPreview p {
+        margin: 0.5em 0;
+      }
+      /* Compact list styling */
+      #markdownPreview h3 {
+        margin-top: 0.8em;
+        margin-bottom: 0.3em;
+      }
+      #markdownPreview ul {
+        list-style-type: disc;
+        padding-left: 2em;
+        margin: 0.2em 0;
+      }
+      #markdownPreview ol {
+        list-style-type: decimal;
+        padding-left: 2em;
+        margin: 0.2em 0;
+      }
+      #markdownPreview ul ul,
+      #markdownPreview ol ul {
+        list-style-type: circle;
+        margin: 0;
+      }
+      #markdownPreview ul ul ul,
+      #markdownPreview ol ul ul {
+        list-style-type: square;
+      }
+      #markdownPreview ul ol,
+      #markdownPreview ol ol {
+        list-style-type: lower-alpha;
+        margin: 0;
+      }
+      #markdownPreview ul ol ol,
+      #markdownPreview ol ol ol {
+        list-style-type: lower-roman;
+      }
+      #markdownPreview li {
+        margin: 0;
+        line-height: 1.2;
+      }
+      /* Fix spacing between list items */
+      #markdownPreview ul li,
+      #markdownPreview ol li {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      #markdownPreview blockquote {
+        border-left: 4px solid var(--neutral-4);
+        padding-left: 1em;
+        margin: 0.5em 0;
+        color: var(--neutral-2);
+      }
+      
+      /* Code block styling */
+      #markdownPreview pre,
+      #markdownPreview code {
+        font-family: monospace;
+      }
+      #markdownPreview pre {
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
+        border-radius: 4px;
+        padding: 0.8em;
+        overflow-x: auto;
+        margin: 0.5em 0;
+      }
+      #markdownPreview pre code {
+        display: block;
+        background: none;
+        border: none;
+        padding: 0;
+        line-height: 1.4;
+      }
+      #markdownPreview code {
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
+        border-radius: 3px;
+        padding: 0.2em 0.4em;
+        font-size: 0.9em;
+      }
     .hash-input-container {
         display: flex;
         gap: 10px;
@@ -257,7 +406,15 @@ permalink: /new_verification/
         <div class="form-group">
             <label for="content">Content (*):</label>
             <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
-            <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+            <div id="editorTabs" style="display: flex; gap: 0.5em;">
+                <button type="button" id="writeTab" class="tab-button active">Write</button>
+                <button type="button" id="previewTab" class="tab-button">Preview</button>
+            </div>
+
+            <div id="editorContainer">
+                <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
+            </div>
             <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
         </div>
 
@@ -969,5 +1126,17 @@ permalink: /new_verification/
         addHashBtn.click();
       }
     });
+
+    // Initialize the preview button functionality
+    initializePreviewButton();
+  });
+</script>
+
+<script type="text/javascript">
+  // Initialize the preview button functionality when the DOM is loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof initializePreviewButton === 'function') {
+      initializePreviewButton();
+    }
   });
 </script>

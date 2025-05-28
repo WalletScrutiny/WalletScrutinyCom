@@ -32,7 +32,7 @@ features:
 ## Related to
 
 - {% include walletLink.html wallet='android/io.nunchuk.android' verdict='true' %}
-- {% include walletLink.html wallet='android/io.nunchuk.ios' verdict='true' %}
+- {% include walletLink.html wallet='iphone/io.nunchuk.ios' verdict='true' %}
 
 ## App Description
 
