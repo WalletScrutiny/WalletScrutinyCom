@@ -16,11 +16,11 @@ permalink: /new_verification/
         border-radius: 5px 5px 0 0;
         font-weight: bold;
         cursor: pointer;
-        color: rgba(255, 255, 255, 0.75); /* 75% opacity white text for inactive tab */
+        color: rgba(255, 255, 255, 0.25); /* 75% opacity white text for inactive tab */
       }
       .tab-button:hover {
         background-color: #555;
-        color: #ccc; /* Slightly more visible on hover */
+        color: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
       }
       .tab-button.active {
         background-color: #f5f5f5; /* Light background for active tab in both modes */
