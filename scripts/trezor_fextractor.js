@@ -37,7 +37,7 @@ class TrezorFirmwareExtractor {
         this.firmwareDirs = {
             'T2B1': 'https://api.github.com/repos/trezor/data/contents/firmware/t2b1?ref=master',
             'T2T1': 'https://api.github.com/repos/trezor/data/contents/firmware/t2t1?ref=master',
-            'LEGACY': 'https://api.github.com/repos/trezor/trezor-firmware/releases',
+            'LEGACY': 'https://github.com/trezor/trezor-firmware/tags', // Changed to tags page for legacy
             'T3T1': 'https://api.github.com/repos/trezor/data/contents/firmware/t3t1?ref=master'
         };
         
@@ -78,7 +78,8 @@ class TrezorFirmwareExtractor {
                 method: 'GET',
                 headers: {
                     'User-Agent': this.userAgent,
-                    'Accept': 'application/vnd.github.v3+json'
+                    // Use different Accept header based on URL
+                    'Accept': url.includes('api.github.com') ? 'application/vnd.github.v3+json' : 'text/html,application/xhtml+xml'
                 }
             };
             
@@ -104,53 +105,50 @@ class TrezorFirmwareExtractor {
                 });
                 
                 res.on('end', () => {
-                    if (res.statusCode >= 200 && res.statusCode < 300) {
-                        resolve({
-                            text: data,
-                            json: () => {
-                                try {
-                                    return JSON.parse(data);
-                                } catch (e) {
-                                    throw new Error(`Invalid JSON: ${e.message}`);
-                                }
-                            }
-                        });
-                    } else if (res.statusCode === 403 && data.includes('rate limit')) {
+                    if (res.statusCode === 403 && data.includes('rate limit')) {
                         // Handle rate limiting
+                        this.rateLimitRemaining = 0;
+                        
                         if (retryCount < 3) {
+                            // Try again after waiting
                             setTimeout(() => {
                                 this.makeRequest(url, retryCount + 1)
                                     .then(resolve)
                                     .catch(reject);
-                            }, 1000 * (retryCount + 1));
+                            }, 5000); // Wait 5 seconds before retrying
                         } else {
-                            reject(new Error(`Rate limit exceeded. Try again later or use a GitHub token.`));
+                            reject(new Error('GitHub API rate limit exceeded. Try using a token with the -g parameter.'));
                         }
-                    } else if (res.statusCode === 406 && urlObj.hostname === 'github.com') {
-                        // For HTML pages that return 406, try a different approach
-                        // This happens with the legacy version page
-                        const newUrl = url.replace('https://github.com', 'https://api.github.com/repos');
-                        if (retryCount < 1) {
-                            this.makeRequest(newUrl, retryCount + 1)
-                                .then(resolve)
-                                .catch(reject);
-                        } else {
-                            reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-                        }
-                    } else {
-                        reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+                        return;
                     }
+                    
+                    if (res.statusCode >= 400) {
+                        reject(new Error(`HTTP error ${res.statusCode}: ${data}`));
+                        return;
+                    }
+                    
+                    // Return an object with both text and json methods
+                    resolve({
+                        text: data,
+                        json: () => {
+                            try {
+                                return JSON.parse(data);
+                            } catch (e) {
+                                return null;
+                            }
+                        }
+                    });
                 });
-            });
-            
-            // Set a timeout for the request
-            req.setTimeout(10000, () => {
-                req.destroy();
-                reject(new Error('Request timeout after 10 seconds'));
             });
             
             req.on('error', (err) => {
                 reject(err);
+            });
+            
+            // Set a timeout for the request
+            req.setTimeout(30000, () => {
+                req.abort();
+                reject(new Error('Request timed out'));
             });
             
             req.end();
@@ -165,22 +163,8 @@ class TrezorFirmwareExtractor {
             const url = this.firmwareDirs[modelCode];
             const response = await this.makeRequest(url);
             
-            if (modelCode === 'LEGACY') {
-                // Handle legacy releases differently
-                const releases = response.json();
-                for (const release of releases) {
-                    if (release.tag_name && release.tag_name.startsWith('legacy/')) {
-                        const version = release.tag_name.replace('legacy/v', '');
-                        return {
-                            version: version,
-                            filename: release.tag_name,
-                            upload_date: release.published_at ? release.published_at.substring(0, 10) : 'N/A',
-                            model_code: modelCode,
-                            model_name: this.models[modelCode] || modelCode
-                        };
-                    }
-                }
-            } else {
+            // Only handle non-LEGACY models here (LEGACY is handled separately in getLegacyVersion)
+            if (modelCode !== 'LEGACY') {
                 const files = response.json();
                 
                 // Extract version numbers from .bin files
@@ -254,9 +238,12 @@ class TrezorFirmwareExtractor {
      */
     async extractAllVersionsFirmwareDirs() {
         const results = {};
-        
+
         console.log("\nExtracting from firmware directories...");
         for (const modelCode of Object.keys(this.firmwareDirs)) {
+            // Skip LEGACY model here as it will be handled separately
+            if (modelCode === 'LEGACY') continue;
+            
             console.log(`Processing ${modelCode} (${this.models[modelCode] || modelCode})...`);
             const result = await this.getLatestFromFirmwareDir(modelCode);
             if (result) {
@@ -266,85 +253,70 @@ class TrezorFirmwareExtractor {
                 console.log(`  ✗ Failed to extract version info`);
             }
         }
-        
+
         return results;
     }
 
     /**
-     * Get latest legacy (Trezor One) version from GitHub tags page
+     * Get latest legacy (Trezor One) version from GitHub API
      */
     async getLegacyVersion() {
         try {
-            // Use GitHub tags page directly
-            const url = "https://github.com/trezor/trezor-firmware/tags";
-            console.log(`Fetching legacy version from: ${url}`);
-            
-            const response = await this.makeRequest(url);
-            const html = response.text;
-            
-            // Parse the HTML to extract legacy tags and dates
-            const legacyVersions = [];
-            
-            // First, extract all legacy version entries
-            // Look for patterns like: legacy/v1.13.1
-            const legacyEntries = html.match(/legacy\/v(\d+\.\d+\.\d+)[\s\S]*?(?=(?:legacy\/v|core\/v|<\/div>))/g) || [];
-            
-            for (const entry of legacyEntries) {
-                // Extract version number
-                const versionMatch = entry.match(/legacy\/v(\d+\.\d+\.\d+)/);
-                if (!versionMatch) continue;
-                
-                const version = versionMatch[1];
-                
-                // Extract date information
-                // Look for patterns like: "3 days ago" or "on Mar 6" or "May 26, 2025"
-                const dateMatch = entry.match(/(\d+\s+days?\s+ago|on\s+[A-Za-z]+\s+\d+|[A-Za-z]+\s+\d+,\s+\d{4})/);
-                
-                let dateInfo = 'N/A';
-                if (dateMatch) {
-                    dateInfo = dateMatch[1].trim();
-                    // Clean up date format if needed
-                    if (dateInfo.startsWith('on ')) {
-                        dateInfo = dateInfo.substring(3);
-                    }
-                }
-                
-                legacyVersions.push([version, dateInfo]);
-                console.log(`Found legacy version: ${version} (${dateInfo})`);
+            // Use GitHub API to get tags
+            const apiUrl = "https://api.github.com/repos/trezor/trezor-firmware/tags?per_page=100";
+            console.log(`Fetching legacy version from GitHub API: ${apiUrl}`);
+
+            const response = await this.makeRequest(apiUrl);
+            const tags = response.json();
+
+            if (!tags || !Array.isArray(tags)) {
+                console.log("Failed to get tags from GitHub API");
+                return null;
             }
-            
-            // If we couldn't extract any versions with the above approach, try a simpler one
-            if (legacyVersions.length === 0) {
-                console.log("Using alternative parsing method for legacy versions...");
-                
-                // Find all legacy version tags
-                const versionMatches = html.match(/legacy\/v(\d+\.\d+\.\d+)/g) || [];
-                
-                for (const vMatch of versionMatches) {
-                    const version = vMatch.replace('legacy/v', '');
-                    
-                    // Find the date near this version tag
-                    const sectionStart = html.indexOf(vMatch);
-                    if (sectionStart === -1) continue;
-                    
-                    // Extract a chunk of HTML after the version
-                    const chunk = html.substring(sectionStart, sectionStart + 200);
-                    
-                    // Try to find date patterns in this chunk
-                    let dateInfo = 'N/A';
-                    const dateMatch = chunk.match(/(\d+\s+days?\s+ago|on\s+[A-Za-z]+\s+\d+|[A-Za-z]+\s+\d+,\s+\d{4})/i);
-                    if (dateMatch) {
-                        dateInfo = dateMatch[1].trim();
-                        if (dateInfo.startsWith('on ')) {
-                            dateInfo = dateInfo.substring(3);
+
+            console.log(`Found ${tags.length} tags to process`);
+
+            // Filter for legacy tags (format: legacy/v1.x.x)
+            const legacyTags = tags.filter(tag => tag.name && tag.name.startsWith('legacy/v'));
+            console.log(`Found ${legacyTags.length} legacy tags`);
+
+            if (legacyTags.length === 0) {
+                console.log("No legacy tags found");
+                return null;
+            }
+
+            // Extract version numbers and commit info
+            const legacyVersions = [];
+            for (const tag of legacyTags) {
+                const versionMatch = tag.name.match(/legacy\/v(\d+\.\d+\.\d+)/);
+                if (!versionMatch) continue;
+
+                const version = versionMatch[1];
+                const commitHash = (tag.commit && tag.commit.sha) ? tag.commit.sha.substring(0, 7) : 'N/A';
+
+                // Get commit details to extract date
+                let dateInfo = 'N/A';
+                try {
+                    if (tag.commit && tag.commit.url) {
+                        const commitResponse = await this.makeRequest(tag.commit.url);
+                        const commitData = commitResponse.json();
+                        
+                        if (commitData && commitData.commit && commitData.commit.committer && commitData.commit.committer.date) {
+                            // Format: 2025-05-27T12:34:56Z -> 2025-05-27
+                            const dateStr = commitData.commit.committer.date;
+                            if (dateStr && typeof dateStr === 'string' && dateStr.includes('T')) {
+                                dateInfo = dateStr.split('T')[0];
+                            }
                         }
                     }
-                    
-                    legacyVersions.push([version, dateInfo]);
-                    console.log(`Found legacy version (alt method): ${version} (${dateInfo})`);
+                } catch (commitError) {
+                    console.log(`  ⚠ Couldn't fetch commit info for ${tag.name}: ${commitError.message}`);
                 }
+
+                legacyVersions.push([version, dateInfo, commitHash]);
+                console.log(`Found legacy version: ${version} (${dateInfo}) [${commitHash}]`);
             }
-            
+
             if (legacyVersions.length > 0) {
                 // Sort versions to get the latest
                 const sortedVersions = legacyVersions.sort((a, b) => {
@@ -362,17 +334,19 @@ class TrezorFirmwareExtractor {
                     return 0;
                 });
                 
-                const [latestVersion, dateInfo] = sortedVersions[0]; // Get the first (highest) version
+                const [latestVersion, dateInfo, commitHash] = sortedVersions[0]; // Get the first (highest) version
+                console.log(`✓ Latest legacy version: ${latestVersion} (${dateInfo}) [${commitHash}]`);
                 
                 return {
                     version: latestVersion,
                     filename: `legacy/v${latestVersion}`,
                     upload_date: dateInfo,
+                    commit_hash: commitHash,
                     model_code: 'LEGACY',
                     model_name: this.models['LEGACY']
                 };
             } else {
-                console.log("No legacy versions found on the tags page");
+                console.log("No legacy versions found");
             }
         } catch (error) {
             console.log(`Error getting legacy version: ${error.message}`);
@@ -390,7 +364,7 @@ class TrezorFirmwareExtractor {
         console.log(`\n${'='.repeat(80)}`);
         console.log(`RESULTS - ${methodName}`);
         console.log(`${'='.repeat(80)}`);
-        console.log(`${'Model'.padEnd(20)} ${'Code'.padEnd(8)} ${'Version'.padEnd(10)} ${'Filename'.padEnd(25)} Upload Date`);
+        console.log(`${'Model'.padEnd(20)} ${'Code'.padEnd(8)} ${'Version'.padEnd(10)} ${'Filename'.padEnd(25)} ${'Upload Date'.padEnd(15)} Commit`);
         console.log(`${'-'.repeat(80)}`);
         
         for (const [modelCode, info] of Object.entries(results)) {
@@ -398,7 +372,8 @@ class TrezorFirmwareExtractor {
             const version = info.version;
             const filename = info.filename || 'N/A';
             const uploadDate = info.upload_date || info.date || 'N/A';
-            console.log(`${modelName.padEnd(20)} ${modelCode.padEnd(8)} ${version.padEnd(10)} ${filename.padEnd(25)} ${uploadDate}`);
+            const commitHash = info.commit_hash || 'N/A';
+            console.log(`${modelName.padEnd(20)} ${modelCode.padEnd(8)} ${version.padEnd(10)} ${filename.padEnd(25)} ${uploadDate.padEnd(15)} ${commitHash}`);
         }
         
         // Add note about GitHub token if needed
