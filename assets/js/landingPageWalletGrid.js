@@ -74,7 +74,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 
     let lastVerificationStatus = null;
     if (window.allAssetInformation) {
-      lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+      lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
     }
 
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");

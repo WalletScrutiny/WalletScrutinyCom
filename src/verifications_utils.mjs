@@ -1051,7 +1051,7 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
   };
 }
 
-function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) {
+function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId, platform) {
   let verification = null;
   let maxVersion = null;
 
@@ -1061,7 +1061,8 @@ function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) 
     for (const asset of assetArray) {
       const version = asset.tags.find(tag => tag[0] === 'version')?.[1];
       const appIdTag = asset.tags.find(tag => tag[0] === 'i')?.[1];
-      if (version && (appIdTag === appId)) {
+      const platformTag = asset.tags.find(tag => tag[0] === 'platform')?.[1];
+      if (version && (appIdTag === appId) && (platformTag === platform)) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           verification = asset;
           maxVersion = version;
