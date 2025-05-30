@@ -2,8 +2,6 @@ import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind, codeSnippetKind } from "./nostr-constants.mjs";
 
-window.DOMPurify = DOMPurify;
-
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 

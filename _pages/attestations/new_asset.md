@@ -4,8 +4,6 @@ title: "Registering New Asset"
 permalink: /new_asset/
 ---
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <div class="form-container">
@@ -65,80 +63,77 @@ permalink: /new_asset/
 </div>
 
 <script>
-async function loadUrlParams() {
-  const showError = (message) => {
-    document.querySelector('.form-container').style.display = 'none';
-    
-    const errorDiv = document.createElement('div');
-    errorDiv.className = 'error-message';
-    errorDiv.innerHTML = `
-      <p>${message}</p>
-      <p><a href="/nostr/" target="_blank">(learn more about Nostr)</a></p>
-      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
-    `;
-    
-    document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
-  };
-  
-  if (!await userHasBrowserExtension()) {
-    showError('A Nostr browser extension is required to create assets.');
-    return;
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    const formData = {
+      description: document.getElementById('description').value.trim(),
+      version: document.getElementById('version').value.trim(),
+      appId: document.getElementById('appId').value.trim(),
+      sha256: document.getElementById('sha256').value.trim(),
+      platform: document.getElementById('platform').value
+    };
+
+    if (!formData.appId) delete formData.appId;
+    if (!formData.platform) delete formData.platform;
+
+    const spinner = document.getElementById('loadingSpinner');
+    spinner.style.display = 'block';
+
+    try {
+      await createAssetRegistration(formData);
+
+      if (window.currentFile && window.currentHash && ((window.currentFile.size / 1024 / 1024) <= maxFileSize)) {
+        await uploadToBlossom(window.currentFile, window.currentHash);
+      }
+
+      spinner.style.display = 'none';
+      await showToast('Asset registered successfully!');
+      window.location.href = '/asset/?sha256=' + formData.sha256;
+    } catch (error) {
+      spinner.style.display = 'none';
+      showToast(error.message, 'error');
+    }
   }
 
-  if (window.wallets && window.wallets.length > 0) {
-    setupAppIdAutocomplete();
-  }
+  window.addEventListener('verificationsDataLoaded', async () => {
+    const showError = (message) => {
+      document.querySelector('.form-container').style.display = 'none';
+      
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'error-message';
+      errorDiv.innerHTML = `
+        <p>${message}</p>
+        <p><a href="/nostr/" target="_blank">(learn more about Nostr)</a></p>
+        <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>`;
+      
+      document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
+    };
 
-  const urlParams = new URLSearchParams(window.location.search);
-  
-  const fields = ['description', 'version', 'sha256', 'appId', 'platform'];
-  fields.forEach(field => {
-    const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
-    if (value) {
-      document.getElementById(field).value = value;
+    if (!await userHasBrowserExtension()) {
+      showError('A Nostr browser extension is required to create assets.');
+      return;
+    }
+
+    if (window.wallets && window.wallets.length > 0) {
+      setupAppIdAutocomplete();
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+
+    const fields = ['description', 'version', 'sha256', 'appId', 'platform'];
+    fields.forEach(field => {
+      const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
+      if (value) {
+        document.getElementById(field).value = value;
+      }
+    });
+
+    // If sha256 is provided, hide all drag and drop areas
+    if (urlParams.get('sha256')) {
+      document.querySelectorAll('.drag-and-drop-area').forEach(element => {
+        element.style.display = 'none';
+      });
     }
   });
-
-  // If sha256 is provided, hide all drag and drop areas
-  if (urlParams.get('sha256')) {
-    document.querySelectorAll('.drag-and-drop-area').forEach(element => {
-      element.style.display = 'none';
-    });
-  }
-}
-
-async function handleSubmit(event) {
-  event.preventDefault();
-
-  const formData = {
-    description: document.getElementById('description').value.trim(),
-    version: document.getElementById('version').value.trim(),
-    appId: document.getElementById('appId').value.trim(),
-    sha256: document.getElementById('sha256').value.trim(),
-    platform: document.getElementById('platform').value
-  };
-
-  if (!formData.appId) delete formData.appId;
-  if (!formData.platform) delete formData.platform;
-
-  const spinner = document.getElementById('loadingSpinner');
-  spinner.style.display = 'block';
-
-  try {
-    await createAssetRegistration(formData);
-
-    if (window.currentFile && window.currentHash && ((window.currentFile.size / 1024 / 1024) <= maxFileSize)) {
-      await uploadToBlossom(window.currentFile, window.currentHash);
-    }
-
-    spinner.style.display = 'none';
-    await showToast('Asset registered successfully!');
-    window.location.href = '/asset/?sha256=' + formData.sha256;
-  } catch (error) {
-    spinner.style.display = 'none';
-    showToast(error.message, 'error');
-  }
-}
-
-document.addEventListener('DOMContentLoaded', loadUrlParams);
 </script>

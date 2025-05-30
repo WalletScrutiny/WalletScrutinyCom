@@ -1107,6 +1107,7 @@ function getWeightForAppFromAssetInformation(appId) {
 }
 
 if (typeof window !== 'undefined') {
+  window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;

@@ -29,10 +29,8 @@
 
         <div id="verificationModal"></div>
 
-        <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
         <script>
-          window.addEventListener('load', async () => {
+          window.addEventListener('verificationsUILoaded', async () => {
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',

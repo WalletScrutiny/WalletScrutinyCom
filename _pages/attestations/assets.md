@@ -15,11 +15,10 @@ permalink: /assets/
 
 <div id="verificationModal"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
+
+  window.addEventListener('verificationsUILoaded', async () => {
     try {
       await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
     } catch (error) {
@@ -27,5 +26,5 @@ permalink: /assets/
     } finally {
       document.getElementById('loadingSpinner').style.display = 'none';
     }
-  })();
+  });
 </script>

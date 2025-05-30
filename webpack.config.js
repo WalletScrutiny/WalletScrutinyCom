@@ -10,7 +10,8 @@ module.exports = {
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    verifications: {
+    dom_sanitization: ['dompurify'],
+    verifications_data: {
       import: [
         './src/verifications_utils.mjs',
       ],
@@ -22,11 +23,12 @@ module.exports = {
         './src/blossom.js',
         './src/blossom-utils.js',
         './src/drag-and-drop.js',
+        './src/assets-table-utils.js',
+        './src/assets-table.js',
         './src/preview-button.js'
       ],
       dependOn: ['dom_sanitization'],
     },
-    dom_sanitization: ['dompurify'],
   },
   output: {
     filename: '[name].bundle.min.js',

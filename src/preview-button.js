@@ -3,7 +3,6 @@
  * It properly imports the marked library from node modules instead of using a CDN
  */
 
-// Import marked from the node modules
 import {marked} from 'marked';
 
 /**
@@ -70,7 +69,4 @@ function setupPreviewButtons() {
   }
 }
 
-// Make the function available globally for use in HTML
-if (typeof window !== 'undefined') {
-  window.initializePreviewButton = initializePreviewButton;
-}
+window.initializePreviewButton = initializePreviewButton;
