@@ -377,7 +377,13 @@ window.renderAssetsTable = async function({
           let statusText = null;
 
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span> <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=' + attestation.id + '&action=edit\'" title="Edit Draft">✏️</span>' : '';
+          const draftBadge = isDraft ? `
+            <span class="badge badge-warning">Draft</span> 
+            <span
+              class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
+              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${attestation.id}&action=edit\'"
+            >✏️</span>`
+            : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -386,7 +392,7 @@ window.renderAssetsTable = async function({
                             class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
-            <div style="line-height: 1.2; margin-bottom: 0.7em;">
+            <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
@@ -396,11 +402,11 @@ window.renderAssetsTable = async function({
         }
         verificationsList = `${listItems}
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" rel="noopener noreferrer">Create another verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
         verificationsList = `No verifications yet.
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" rel="noopener noreferrer">Create verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);
