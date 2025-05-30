@@ -32,6 +32,120 @@ parse_github_token() {
   elif [ -n "${GITHUB_API_TOKEN:-}" ]; then
     GITHUB_TOKEN="$GITHUB_API_TOKEN"
   fi
+  
+  # Debug output if token is present
+  if [ -n "$GITHUB_TOKEN" ]; then
+    echo "Using GitHub token: ${GITHUB_TOKEN:0:4}..." >&2
+  else
+    echo "No GitHub token provided. API rate limits may apply." >&2
+  fi
+}
+
+# =============================================================================
+# Enhanced GitHub API functions from MR 462
+# =============================================================================
+
+# Fetch tags from a GitHub repository with proper error handling
+# Usage: fetch_github_tags "owner" "repo" [per_page]
+# Returns: JSON array of tags or error message
+fetch_github_tags() {
+  local owner="$1"
+  local repo="$2"
+  local per_page="${3:-100}"
+  
+  local response
+  response=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+    "https://api.github.com/repos/$owner/$repo/tags?per_page=$per_page")
+  
+  # Check for errors
+  if echo "$response" | jq -e 'has("message")' > /dev/null 2>&1; then
+    handle_github_error "$response"
+    return $?
+  fi
+  
+  echo "$response"
+  return 0
+}
+
+# Extract version from tag name using optional pattern
+# Usage: extract_version_from_tag "tag_name" [pattern]
+# Returns: Extracted version or original tag if no match
+extract_version_from_tag() {
+  local tag="$1"
+  local pattern="$2"
+  
+  if [[ -n "$pattern" ]]; then
+    if [[ "$tag" =~ $pattern ]]; then
+      echo "${BASH_REMATCH[1]}"
+    else
+      echo "$tag"
+    fi
+  else
+    # Default: extract any version pattern
+    if [[ "$tag" =~ ([0-9]+\.[0-9]+\.[0-9]+) ]]; then
+      echo "${BASH_REMATCH[0]}"
+    else
+      echo "$tag"
+    fi
+  fi
+}
+
+# Handle GitHub API errors with appropriate messages
+# Usage: handle_github_error "response_json"
+# Returns: 1 for general errors, 2 for rate limit errors
+handle_github_error() {
+  local response="$1"
+  local error_msg
+  error_msg=$(echo "$response" | jq -r '.message')
+  
+  if [[ "$error_msg" == *"API rate limit exceeded"* ]]; then
+    local rate_limit
+    rate_limit=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+      "https://api.github.com/rate_limit")
+    
+    local reset_time
+    reset_time=$(echo "$rate_limit" | jq -r '.resources.core.reset')
+    local reset_date
+    reset_date=$(date -d "@$reset_time" +"%H:%M:%S")
+    
+    echo "GitHub API rate limit exceeded. Resets at $reset_date" >&2
+    return 2
+  else
+    echo "GitHub API error: $error_msg" >&2
+    return 1
+  fi
+}
+
+# Get the date of a specific commit
+# Usage: get_commit_date "owner" "repo" "commit_sha"
+# Returns: Commit date in ISO format
+get_commit_date() {
+  local owner="$1"
+  local repo="$2"
+  local commit_sha="$3"
+  
+  local commit
+  commit=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+    "https://api.github.com/repos/$owner/$repo/commits/$commit_sha")
+  
+  if echo "$commit" | jq -e 'has("message")' > /dev/null 2>&1; then
+    handle_github_error "$commit"
+    return $?
+  fi
+  
+  echo "$commit" | jq -r '.commit.author.date'
+  return 0
+}
+
+# Find tags matching a specific pattern
+# Usage: match_tags_by_pattern "tags_json" "regex_pattern"
+# Returns: Name of the latest matching tag or empty string
+match_tags_by_pattern() {
+  local tags_json="$1"
+  local pattern="$2"
+  
+  echo "$tags_json" | jq -r --arg pattern "$pattern" \
+    '[.[] | select(.name | test($pattern))] | sort_by(.name) | reverse | .[0].name // ""'
 }
 
 # Check GitHub rate limit and exit if it falls below thresholds

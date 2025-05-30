@@ -28,13 +28,12 @@ usage() {
 # -----------------------------------------------------------------------------
 # Parse flags
 # -----------------------------------------------------------------------------
-# Reset in case github_utils alters OPTIND
 OPTIND=1
 while getopts "g:d" opt; do
   case $opt in
-    g) GITHUB_TOKEN="$OPTARG" ;;
-    d) DEBUG=true        ;;
-    *) usage             ;;
+    g) GITHUB_TOKEN="$OPTARG" ;;  
+    d) DEBUG=true        ;;  
+    *) usage             ;;  
   esac
 done
 shift $((OPTIND-1))
@@ -85,7 +84,69 @@ echo
 # -----------------------------------------------------------------------------
 FILES_UPDATED=0
 FILES_SKIPPED=0
-declare -a SKIPPED_REASONS
+SKIPPED_REASONS=()
+
+# Fetch Trezor version information from releases.json or GitHub releases API
+# Usage: fetch_trezor_version "model_code"
+# Returns: JSON with version and date
+fetch_trezor_version() {
+  local model_code="$1"
+  local releases_url="" response version release_date timestamp
+
+  # pick the right JSON endpoint
+  case "$model_code" in
+    1|legacy|trezorOne)   releases_url="https://data.trezor.io/firmware/1/releases.json"    ;;
+    2|core|trezorT)       releases_url="https://data.trezor.io/firmware/2/releases.json"    ;;
+    t2b1|trezorSafe3)     releases_url="https://data.trezor.io/firmware/t2b1/releases.json" ;;
+    t3t1|trezorSafe5)     releases_url="https://data.trezor.io/firmware/t3t1/releases.json" ;;
+    *)
+      debug "Unknown Trezor model code: $model_code"
+      echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+      return 0
+      ;;
+  esac
+
+  debug "Fetching Trezor JSON from $releases_url"
+  response=$(curl -sfL "$releases_url") || {
+    debug "  ↳ curl failed, falling back"
+    echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+    return 0
+  }
+
+  # bail out if it's not valid JSON
+  if ! echo "$response" | jq -e . >/dev/null 2>&1; then
+    debug "  ↳ invalid JSON, falling back"
+    echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+    return 0
+  fi
+
+  # pull out the version array -> "1.13.1" style
+  version=$(echo "$response" \
+    | jq -r '.[0].version | map(tostring) | join(".")' 2>/dev/null)
+  [[ -z $version || $version == null ]] && version="unknown"
+  debug "  ↳ version = $version"
+
+  # if they shipped a timestamp, use it
+  timestamp=$(echo "$response" \
+    | jq -r '.[0].timestamp // empty' 2>/dev/null)
+  if [[ -n $timestamp ]]; then
+    release_date=$(date -d "@$timestamp" +%F 2>/dev/null) || release_date=""
+  fi
+
+  # otherwise, fall back to GitHub's published_at
+  if [[ -z $release_date ]]; then
+    debug "  ↳ fetching GitHub published_at"
+    release_date=$(curl -sfL -H "Accept: application/vnd.github.v3+json" \
+      "https://api.github.com/repos/trezor/trezor-firmware/releases/latest" \
+      | jq -r '.published_at // empty' 2>/dev/null \
+      | cut -d"T" -f1)
+  fi
+  # final fallback to today
+  [[ -z $release_date ]] && release_date="$(date +%F)"
+
+  debug "  ↳ date  = $release_date"
+  echo "{\"version\":\"v$version\",\"date\":\"$release_date\"}"
+}
 
 # Coldcard version tag fetcher
 get_latest_coldcard_version() {
@@ -207,6 +268,89 @@ for file in "${files[@]}"; do
       continue
     fi
     # If model not matched, fallback to regular API
+  fi
+
+  # Trezor special handling
+  provider=$(extract_field "$file" provider | tr '[:upper:]' '[:lower:]')
+  app_id=$(extract_field "$file" appId)
+  file_lc=$(basename "$file" | tr '[:upper:]' '[:lower:]')
+  app_id_lc=$(echo "$app_id" | tr '[:upper:]' '[:lower:]')
+  
+  # Robust Trezor detection: match provider, repo, appId, or filename (case-insensitive, partial)
+  debug "Checking Trezor detection for $file (provider=$provider, repo=$repo_path, app_id=$app_id, file=$file_lc)"
+  if [[ "$provider" == *trezor* || "$repo_path" == *trezor* || "$app_id_lc" == *trezor* || "$file_lc" == *trezor* ]]; then
+    echo -e "\033[0;34mDetected Trezor device in $(basename \"$file\")\033[0m"
+    
+    # Map the file to the correct firmware code
+    firmware_code=""
+    if [[ "$file_lc" == *trezorone* ]]; then 
+      firmware_code="legacy"
+      app_id="trezorOne"
+    elif [[ "$file_lc" == *trezort* ]]; then 
+      firmware_code="core"
+      app_id="trezorT"
+    elif [[ "$file_lc" == *trezorsafe3* ]]; then 
+      firmware_code="t2b1"
+      app_id="trezorSafe3"
+    elif [[ "$file_lc" == *trezorsafe5* ]]; then 
+      firmware_code="t3t1"
+      app_id="trezorSafe5"
+    fi
+    
+    if [[ -n "$firmware_code" ]]; then
+      echo -e "\033[0;34mUsing firmware code '$firmware_code' for Trezor device\033[0m"
+      
+      # Fetch version info directly from Trezor releases.json
+      debug "Fetching Trezor version info from releases.json for $firmware_code"
+      version_info=$(fetch_trezor_version "$firmware_code")
+      fetch_result=$?
+      
+      if [[ $fetch_result -ne 0 ]]; then
+        echo -e "\033[1;33mFailed to fetch version info for $app_id. Please update manually if needed.\033[0m"
+        ((FILES_SKIPPED++))
+        SKIPPED_REASONS+=("Failed to fetch version info for $app_id from releases.json")
+        echo
+        continue
+      fi
+      
+      # Parse the version info from releases.json
+      latest_version=$(echo "$version_info" | jq -r '.version')
+      release_date=$(echo "$version_info" | jq -r '.date')
+      debug "Found version $latest_version from releases.json"
+      
+      current_version=$(extract_field "$file" version)
+      current_updated=$(extract_field "$file" updated)
+      updated=0
+      if [[ "$current_version" != "$latest_version" ]]; then
+        echo "- 'version: $current_version'"
+        echo "+ 'version: $latest_version'"
+        update_field "$file" version "$current_version" "$latest_version"
+        updated=1
+      fi
+      if [[ "$current_updated" != "$release_date" ]]; then
+        echo "- 'updated: $current_updated'"
+        echo "+ 'updated: $release_date'"
+        update_field "$file" updated "$current_updated" "$release_date"
+        updated=1
+      fi
+      
+      if [[ $updated -eq 1 ]]; then
+        echo -e "\033[1;33mUpdated to latest version.\033[0m"
+        ((FILES_UPDATED++))
+      else
+        echo "Already up to date."
+        debug "$name remains at $current_version"
+      fi
+      
+      echo
+      continue
+    else
+      echo -e "\033[1;33mDetected Trezor device but could not determine firmware code. Please check mapping.\033[0m"
+      ((FILES_SKIPPED++))
+      SKIPPED_REASONS+=("Unknown Trezor model: $(basename \"$file\")")
+      echo
+      continue
+    fi
   fi
 
   debug "Calling retry_api_call for $repo_path"
