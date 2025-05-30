@@ -893,13 +893,6 @@ function getStatusText(status, short = false) {
   }
 }
 
-function isDebugEnv() {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-  return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
-}
-
 const getDraftVerificationEvent = async function(draftVerificationEventId) {
   await ensureNdkConnected();
   return await ndk.fetchEvent(draftVerificationEventId);
@@ -1161,7 +1154,6 @@ export {
   getAppInfoFromEventInfo,
   nip19,
   purifyConfig,
-  isDebugEnv,
   getStatusText,
   loadDraftVerificationsNotifications,
   doDraftVerificationAction,

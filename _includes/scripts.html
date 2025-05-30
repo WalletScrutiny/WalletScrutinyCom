@@ -8,6 +8,7 @@
 {% assign excluded_pages = "/verifications/,/assets/,/asset/,/new_verification/,/new_asset/,/verifiers/,/verifier/,/hardware/" | split: "," %}
 {% assign starts_with_review = page.layout | slice: 0, 6 %}
 {% unless excluded_pages contains page.url or starts_with_review == "review" %}
+<script type="text/javascript" src="{{'/dist/dom_sanitization.bundle.min.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 {% endunless %}
 <script>

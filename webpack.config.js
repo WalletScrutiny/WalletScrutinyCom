@@ -10,16 +10,23 @@ module.exports = {
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    verifications: [
-      './src/drag-and-drop-utils.js',
-      './src/blossom.js',
-      './src/blossom-utils.js',
-      './src/drag-and-drop.js',
-      './src/verifications_utils.mjs',
-      './src/assets-table-utils.js',
-      './src/assets-table.js',
-      './src/preview-button.js'
-    ]
+    verifications: {
+      import: [
+        './src/verifications_utils.mjs',
+      ],
+      dependOn: ['dom_sanitization'],
+    },
+    verifications_ui: {
+      import: [
+        './src/drag-and-drop-utils.js',
+        './src/blossom.js',
+        './src/blossom-utils.js',
+        './src/drag-and-drop.js',
+        './src/preview-button.js'
+      ],
+      dependOn: ['dom_sanitization'],
+    },
+    dom_sanitization: ['dompurify'],
   },
   output: {
     filename: '[name].bundle.min.js',
