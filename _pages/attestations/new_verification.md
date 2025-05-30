@@ -992,7 +992,6 @@ permalink: /new_verification/
     }
 
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
-    const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
 
     // Combine sha256 and otherHashes into a single parameter
@@ -1009,7 +1008,6 @@ permalink: /new_verification/
       version: document.getElementById('version').value.trim(),
       status: document.getElementById('status').value,
       platform: document.getElementById('platform').value,
-      assetEventId: assetEventId,
       isDraft: isDraft,
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
