@@ -170,9 +170,19 @@ const getNostrProfile = async function (pubkey) {
   if (!pubkey) {
     return null;
   }
+
+  const cacheKey = 'profile-' + pubkey;
+
+  const profileFromCache = getCachedResultIfNotExpired(cacheKey);
+  if (profileFromCache) {
+    return profileFromCache;
+  }
+
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
-  return await user.fetchProfile();
+  const profile = await user.fetchProfile();
+  setCache(cacheKey, profile);
+  return profile;
 }
 
 const getNpubFromPubkey = async function (pubkey) {
@@ -1105,6 +1115,46 @@ function getWeightForAppFromAssetInformation(appId) {
     weight,
     lastVersionVerified: (lastVerifiedVersion && (lastVerifiedVersion === lastVersion)) ? 1 : -1
   };
+}
+
+////////////////////////////////////////////////////////////////////
+// CACHE FUNCTIONS
+////////////////////////////////////////////////////////////////////
+
+function getCache(key) {
+  try {
+    const cache = localStorage.getItem(key);
+    return cache ? JSON.parse(cache) : {};
+  } catch (error) {
+    console.error('Error reading from cache:', error);
+    return null;
+  }
+}
+
+function setCache(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify({
+      value: value,
+      timestamp: Date.now()
+    }));
+  } catch (error) {
+      console.error('Error writing to cache:', error);
+  }
+}
+
+function getCachedResultIfNotExpired(key) {
+  const CACHE_EXPIRATION_TIME = 3 * 60 * 60 * 1000; // 3 hours in milliseconds
+
+  const cache = getCache(key);
+    
+  if (cache) {
+      const isExpired = Date.now() - cache.timestamp > CACHE_EXPIRATION_TIME;
+      if (!isExpired) {
+          return cache.value;
+      }
+  }
+
+  return null;
 }
 
 if (typeof window !== 'undefined') {
