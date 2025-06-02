@@ -3,8 +3,6 @@ layout: archive
 permalink: /new_verification/
 ---
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
@@ -694,150 +692,155 @@ permalink: /new_verification/
       const errorDiv = document.createElement('div');
       errorDiv.className = 'error-message';
       errorDiv.innerHTML = `
-      <p>${message}</p>
-      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
-    `;
+        <p>${message}</p>
+        <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>`;
 
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
 
-    if (!await userHasBrowserExtension()) {
-      showError('A Nostr browser extension is required to create verifications.');
-      return;
-    }
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const draftVerificationEventId = urlParams.get('draftVerificationEventId');
-    const action = urlParams.get('action');
-
-    if (draftVerificationEventId && action) {
-      const draftButton = document.querySelector('button[name="draft"]');
-      if (draftButton) {
-        draftButton.textContent = 'Save Draft Verification';
+    window.addEventListener('verificationsUILoaded', async () => {
+      if (!await userHasBrowserExtension()) {
+        showError('A Nostr browser extension is required to create verifications.');
+        return;
       }
 
-      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
-      document.title = 'Editing Draft Verification | Wallet Scrutiny';
+      document.getElementById('loadingSpinner').style.display = 'block';
 
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
-        const attachments = await getFileAttachmentEvents(fileEventIds);
+      const urlParams = new URLSearchParams(window.location.search);
+      const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+      const action = urlParams.get('action');
 
-        attachments.forEach(attachment => {
-          let name;
-          if (attachment.kind === codeSnippetKind) {
-            const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
-            const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
-            name = `${attachmentName}.${extension}`;
-          } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-            name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
-          }
-
-          const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
-          const attachmentContent = atob(attachment.content);
-          const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-
-          uploadedFiles.push({
-            name: name,
-            size: size,
-            type: attachmentContentType,
-            data: attachmentContent
-          });
-        });
-        displayFiles();
-
-        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
-        verificationOutputFiles.forEach(outputFile => {
-          outputFiles.push({
-            name: outputFile[1],
-            hash: outputFile[2]
-          });
-        });
-        displayOutputFiles();
-
-        // If files were loaded from the draft, set the script usage selector to 'upload'
-        if (uploadedFiles.length > 0) {
-          document.getElementById('scriptUsage').value = 'upload';
-          handleScriptSectionVisibility();
+      if (draftVerificationEventId && action) {
+        const draftButton = document.querySelector('button[name="draft"]');
+        if (draftButton) {
+          draftButton.textContent = 'Save Draft Verification';
         }
 
-        const eventContent = JSON.parse(draftVerificationEvent.content);
+        document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
+        document.title = 'Editing Draft Verification | Wallet Scrutiny';
 
-        document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
-        document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
-        document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
-        document.getElementById('description').value = eventContent.description || '';
-        document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
-        document.getElementById('content').value = eventContent.content || '';
+        const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+        if (draftVerificationEvent) {
+          const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
+          const attachments = await getFileAttachmentEvents(fileEventIds);
 
-        const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
-        hashes.forEach(hash => addHash(hash));
+          attachments.forEach(attachment => {
+            let name;
+            if (attachment.kind === codeSnippetKind) {
+              const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
+              const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+              name = `${attachmentName}.${extension}`;
+            } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+              name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+            }
+
+            const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+            const attachmentContent = atob(attachment.content);
+            const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+            uploadedFiles.push({
+              name: name,
+              size: size,
+              type: attachmentContentType,
+              data: attachmentContent
+            });
+          });
+          displayFiles();
+
+          const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+          verificationOutputFiles.forEach(outputFile => {
+            outputFiles.push({
+              name: outputFile[1],
+              hash: outputFile[2]
+            });
+          });
+          displayOutputFiles();
+
+          // If files were loaded from the draft, set the script usage selector to 'upload'
+          if (uploadedFiles.length > 0) {
+            document.getElementById('scriptUsage').value = 'upload';
+            handleScriptSectionVisibility();
+          }
+
+          const eventContent = JSON.parse(draftVerificationEvent.content);
+
+          document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
+          document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
+          document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
+          document.getElementById('description').value = eventContent.description || '';
+          document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
+          document.getElementById('content').value = eventContent.content || '';
+
+          const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+          hashes.forEach(hash => addHash(hash));
+        } else {
+          showToast('Draft verification not found', 'error');
+        }
       } else {
-        showToast('Draft verification not found', 'error');
+        const deleteDraftBtn = document.getElementById('deleteDraft');
+        if (deleteDraftBtn) {
+          deleteDraftBtn.style.display = 'none';
+        }
       }
-    } else {
-      const deleteDraftBtn = document.getElementById('deleteDraft');
-      if (deleteDraftBtn) {
-        deleteDraftBtn.style.display = 'none';
+
+      if (window.wallets && window.wallets.length > 0) {
+        setupAppIdAutocomplete();
       }
-    }
 
-    if (window.wallets && window.wallets.length > 0) {
-      setupAppIdAutocomplete();
-    }
-
-    const fields = ['version', 'appId', 'platform'];
-    fields.forEach(field => {
-      const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
-      if (value) {
-        document.getElementById(field).value = value;
-      }
-    });
-
-    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
-
-    // Update the hashes label based on whether sha256 is present
-    const hashesLabel = document.getElementById('hashesLabel');
-    const hashesHelpText = document.getElementById('hashesHelpText');
-    if (sha256) {
-      hashesLabel.textContent = 'Additional related hashes:';
-      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
-    } else {
-      hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
-    }
-
-    let message = '';
-
-    if (sha256) {
-      // Show asset information and previous verifications
-      const result = await renderAssetsTable({
-        htmlElementId:'previousAttestations',
-        sha256: sha256,
-        hideConfig: {buttons: true}
+      const fields = ['version', 'appId', 'platform'];
+      fields.forEach(field => {
+        const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
+        if (value) {
+          document.getElementById(field).value = value;
+        }
       });
 
-      if (!result.hasVerifications) {
-        document.getElementById('previousAttestations').style.display = 'none';
-      }
+      const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
 
-      if (result.hasVerifications) {
-        message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
+      // Update the hashes label based on whether sha256 is present
+      const hashesLabel = document.getElementById('hashesLabel');
+      const hashesHelpText = document.getElementById('hashesHelpText');
+      if (sha256) {
+        hashesLabel.textContent = 'Additional related hashes:';
+        hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
       } else {
-        message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
+        hashesLabel.textContent = 'Asset hashes*:';
+        hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
       }
-    }
 
-    message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
-    const infoMessage = document.querySelector('.info-message');
-    infoMessage.innerHTML = message;
+      let message = '';
 
-    // Initial call to load scripts if appId is pre-filled
-    const initialAppId = document.getElementById('appId').value.trim();
-    if (initialAppId) {
-      await loadAndDisplayAvailableScripts(initialAppId);
-    }
+      if (sha256) {
+        // Show asset information and previous verifications
+        const result = await renderAssetsTable({
+          htmlElementId:'previousAttestations',
+          sha256: sha256,
+          hideConfig: {buttons: true}
+        });
+
+        if (!result.hasVerifications) {
+          document.getElementById('previousAttestations').style.display = 'none';
+        }
+
+        if (result.hasVerifications) {
+          message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
+        } else {
+          message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
+        }
+      }
+
+      message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
+      const infoMessage = document.querySelector('.info-message');
+      infoMessage.innerHTML = message;
+
+      // Initial call to load scripts if appId is pre-filled
+      const initialAppId = document.getElementById('appId').value.trim();
+      if (initialAppId) {
+        await loadAndDisplayAvailableScripts(initialAppId);
+      }
+
+      document.getElementById('loadingSpinner').style.display = 'none';
+    });
   }
 
   async function loadAndDisplayAvailableScripts(appId) {
@@ -1126,15 +1129,8 @@ permalink: /new_verification/
     });
 
     // Initialize the preview button functionality
-    initializePreviewButton();
-  });
-</script>
-
-<script type="text/javascript">
-  // Initialize the preview button functionality when the DOM is loaded
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof initializePreviewButton === 'function') {
+    window.addEventListener('verificationsUILoaded', async () => {
       initializePreviewButton();
-    }
+    });
   });
 </script>

@@ -53,36 +53,34 @@ permalink: /verifier/
 
 <div id="verificationModal"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  const urlParams = new URLSearchParams(window.location.search);
-  const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'), purifyConfig);
-  let pubkey = rawPubkey;
+  document.getElementById('loadingSpinner').style.display = 'block';
 
-  // Try to decode if it's a bech32 format (npub or nprofile)
-  if (rawPubkey && (rawPubkey.startsWith('npub') || rawPubkey.startsWith('nprofile'))) {
-    try {
-      const decoded = nip19.decode(rawPubkey);
-      if (decoded.type === 'npub') {
-        pubkey = decoded.data;
-      } else if (decoded.type === 'nprofile') {
-        pubkey = decoded.data.pubkey;
+  window.addEventListener('verificationsUILoaded', async () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'), purifyConfig);
+    let pubkey = rawPubkey;
+
+    // Try to decode if it's a bech32 format (npub or nprofile)
+    if (rawPubkey && (rawPubkey.startsWith('npub') || rawPubkey.startsWith('nprofile'))) {
+      try {
+        const decoded = nip19.decode(rawPubkey);
+        if (decoded.type === 'npub') {
+          pubkey = decoded.data;
+        } else if (decoded.type === 'nprofile') {
+          pubkey = decoded.data.pubkey;
+        }
+      } catch (error) {
+        console.error('Error decoding bech32 pubkey:', error);
+        document.getElementById('attestator').innerHTML = 'Error: Invalid pubkey format';
       }
-    } catch (error) {
-      console.error('Error decoding bech32 pubkey:', error);
-      document.getElementById('attestator').innerHTML = 'Error: Invalid pubkey format';
     }
-  }
 
-  if (!pubkey) {
-    document.getElementById('attestator').innerHTML = 'Error: No pubkey provided';
-  }
+    if (!pubkey) {
+      document.getElementById('attestator').innerHTML = 'Error: No pubkey provided';
+    }
 
-  (async () => {
     try {
-      document.getElementById('loadingSpinner').style.display = 'block';
-
       const npub = await getNpubFromPubkey(pubkey);
       document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
 
@@ -113,5 +111,5 @@ permalink: /verifier/
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';
-  })();
+  });
 </script>

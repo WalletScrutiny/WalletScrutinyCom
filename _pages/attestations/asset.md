@@ -24,12 +24,10 @@ permalink: /asset/
 
 <div id="verificationModal"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
 
+  window.addEventListener('verificationsUILoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     document.getElementById('sha256title').innerHTML = sha256;
@@ -62,5 +60,5 @@ permalink: /asset/
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';
-  })();
+  });
 </script>
