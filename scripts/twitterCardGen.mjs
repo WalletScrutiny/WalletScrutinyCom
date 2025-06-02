@@ -4,23 +4,7 @@ import { createCanvas, loadImage, registerFont } from 'canvas';
 import yaml from 'js-yaml';
 import path from 'path';
 import pLimit from 'p-limit';
-
-// Try to import Nostr utilities, but don't fail if they're not available
-let nostrConnect, getAllAssetInformation;
-try {
-  const nostrUtils = await import('../src/verifications_utils.mjs');
-  nostrConnect = nostrUtils.nostrConnect;
-  getAllAssetInformation = nostrUtils.getAllAssetInformation;
-  console.log('[DEBUG] Successfully imported Nostr utilities');
-} catch (error) {
-  console.warn('[DEBUG] Could not import Nostr utilities:', error.message);
-  // Create dummy functions that return empty data
-  nostrConnect = async () => console.log('[DEBUG] Using dummy nostrConnect');
-  getAllAssetInformation = async () => {
-    console.log('[DEBUG] Using dummy getAllAssetInformation');
-    return { verifications: new Map(), assets: new Map() };
-  };
-}
+import { execSync } from 'child_process';
 
 // Constants
 const fsp = fs.promises;
@@ -34,7 +18,7 @@ const mdFolders = [
 
 // Configuration flags
 const SKIP_NOSTR = process.argv.includes('--skip-nostr'); // Skip Nostr integration if this flag is provided
-const NOSTR_TIMEOUT = 30000; // 30 seconds timeout for Nostr operations
+const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
 let bgImage, reproducibleImage, sourceavailableImage;
 // Load the "reproducible" image
@@ -45,8 +29,8 @@ const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
-// Nostr verification info
-let allNostrVerificationInfo = { verifications: new Map(), assets: new Map() };
+// Cache for Nostr verification info to avoid repeated grep/jq calls
+let nostrVerificationCache = new Map();
 
 // Timer variables
 let totalFiles = 0;
@@ -68,67 +52,39 @@ async function loadResources () {
   
   registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
   
-  // Fetch Nostr verification information if available
-  console.log('\x1b[1m[NOSTR] Starting Nostr data loading process\x1b[0m');
-  let nostrAvailable = true;
+  // Check if Nostr backup directory exists
+  console.log('\x1b[1m[NOSTR] Checking for local Nostr backup files\x1b[0m');
+  let nostrAvailable = false;
   
-  // Initialize allNostrVerificationInfo with empty maps
-  allNostrVerificationInfo = { verifications: new Map(), assets: new Map() };
+  // Clear the verification cache
+  nostrVerificationCache.clear();
   
-  // Only try to connect to Nostr if the utilities were successfully imported and skip-nostr flag is not set
-  if (typeof nostrConnect === 'function' && typeof getAllAssetInformation === 'function' && !SKIP_NOSTR) {
+  if (!SKIP_NOSTR && fs.existsSync(NOSTR_BACKUP_PATH)) {
     try {
-      console.log('[NOSTR] About to call nostrConnect to initialize connection...');
-      // Initialize Nostr connection explicitly with a timeout
-      try {
-        await Promise.race([
-          nostrConnect(),
-          new Promise((_, reject) => setTimeout(() => reject(new Error(`Nostr connection timeout after ${NOSTR_TIMEOUT/1000} seconds`)), NOSTR_TIMEOUT))
-        ]);
-        console.log('[NOSTR] nostrConnect completed successfully');
-      } catch (connError) {
-        console.error('[NOSTR] nostrConnect failed:', connError.message);
-        nostrAvailable = false;
-      }
+      // Check if there are any JSON files in the backup directory
+      const result = execSync(`find ${NOSTR_BACKUP_PATH} -name "*.json" | wc -l`, { encoding: 'utf8' });
+      const fileCount = parseInt(result.trim(), 10);
       
-      // Only try to get asset information if connection was successful
-      if (nostrAvailable) {
-        console.log('[NOSTR] About to call getAllAssetInformation...');
-        try {
-          // Download ALL nostr information in one go with 6 months of data
-          console.log('[NOSTR] Downloading all attestations from the last 6 months...');
-          allNostrVerificationInfo = await Promise.race([
-            getAllAssetInformation({ months: 6 }),
-            new Promise((_, reject) => setTimeout(() => reject(new Error(`getAllAssetInformation timeout after ${NOSTR_TIMEOUT/1000} seconds`)), NOSTR_TIMEOUT))
-          ]);
-          
-          // Display success message in bright yellow
-          console.log('\x1b[33;1m[NOSTR] Successfully downloaded all attestations from Nostr!\x1b[0m');
-          console.log(`[NOSTR] Loaded: ${allNostrVerificationInfo.verifications.size} verifications, ${allNostrVerificationInfo.assets.size} assets`);
-        } catch (assetError) {
-          console.warn(`[NOSTR] Could not load asset information: ${assetError.message}`);
-          nostrAvailable = false;
-        }
+      if (fileCount > 0) {
+        console.log(`\x1b[33;1m[NOSTR] Found ${fileCount} Nostr verification files in local backup!\x1b[0m`);
+        nostrAvailable = true;
+      } else {
+        console.log('[NOSTR] No Nostr verification files found in backup directory');
       }
     } catch (error) {
-      console.warn(`[NOSTR] Overall Nostr process failed: ${error.message}`);
-      console.error('[NOSTR] Error stack:', error.stack);
-      nostrAvailable = false;
+      console.warn(`[NOSTR] Error checking Nostr backup files: ${error.message}`);
     }
+  } else if (SKIP_NOSTR) {
+    console.log('[NOSTR] --skip-nostr flag provided, skipping Nostr integration');
   } else {
-    if (SKIP_NOSTR) {
-      console.log('[NOSTR] --skip-nostr flag provided, skipping Nostr integration');
-    } else {
-      console.log('[NOSTR] Nostr utilities not available, skipping Nostr integration');
-    }
-    nostrAvailable = false;
+    console.log(`[NOSTR] Nostr backup directory not found at ${NOSTR_BACKUP_PATH}`);
   }
   
   // Log the final status
   if (!nostrAvailable) {
     console.log('[NOSTR] Will proceed without Nostr data');
   } else {
-    console.log(`[NOSTR] Nostr data loaded: ${allNostrVerificationInfo.verifications.size} verifications, ${allNostrVerificationInfo.assets.size} assets`);
+    console.log('[NOSTR] Local Nostr backup files will be used for verification data');
   }
   
   // Find and display all apps with verdict: sourceavailable AND meta: ok
@@ -269,65 +225,80 @@ function compareVersions(a, b) {
   return 0;
 }
 
-// Function to get Nostr attestation summary for an app
-function getNostrAttestationSummaryForApp(nostrData, appId) {
-  if (!nostrData || (!nostrData.verifications && !nostrData.assets)) {
-    console.warn(`Nostr data is missing or incomplete for ${appId}`);
+// Function to get Nostr attestation summary for an app using grep and jq on local files
+function getNostrAttestationSummaryForApp(appId) {
+  // Check if we already have cached results for this appId
+  if (nostrVerificationCache.has(appId)) {
+    return nostrVerificationCache.get(appId);
+  }
+
+  if (!fs.existsSync(NOSTR_BACKUP_PATH)) {
+    console.warn(`Nostr backup directory not found at ${NOSTR_BACKUP_PATH}`);
     return null;
   }
 
-  let latestVerificationEvent = null;
-  let maxVersion = null;
-  let attestationCount = 0;
-
-  // Combine verifications and assets for searching
-  const allEventsArrays = [];
-  if (nostrData.verifications instanceof Map) {
-    allEventsArrays.push(...Array.from(nostrData.verifications.values()).flat());
-  }
-  if (nostrData.assets instanceof Map) {
-    allEventsArrays.push(...Array.from(nostrData.assets.values()).flat());
-  }
-
-  for (const event of allEventsArrays) {
-    if (!event || !event.tags) continue;
-    const eventAppIdTag = event.tags.find(tag => tag[0] === 'i');
-    const eventVersionTag = event.tags.find(tag => tag[0] === 'version');
-
-    if (eventAppIdTag && eventAppIdTag[1] === appId) {
-      attestationCount++; // Count all events for this appId
-      if (eventVersionTag) { // Only consider for 'latest' if it has a version
-        const currentVersion = eventVersionTag[1];
-        if (!maxVersion || compareVersions(currentVersion, maxVersion) > 0) {
-          maxVersion = currentVersion;
-          latestVerificationEvent = event;
-        }
-      }
+  try {
+    // First, find all files containing this appId using grep
+    const grepCommand = `grep -r "${appId}" ${NOSTR_BACKUP_PATH} --include="*.json" | cut -d: -f1`;
+    const matchingFiles = execSync(grepCommand, { encoding: 'utf8' }).trim().split('\n').filter(Boolean);
+    
+    if (matchingFiles.length === 0) {
+      console.log(`[NOSTR] No verification files found for ${appId}`);
+      const emptySummary = {
+        latestStatus: null,
+        latestVersion: null,
+        latestDate: null,
+        attestationCount: 0
+      };
+      nostrVerificationCache.set(appId, emptySummary);
+      return emptySummary;
     }
-  }
-
-  if (latestVerificationEvent) {
-    const statusTag = latestVerificationEvent.tags.find(tag => tag[0] === 'status');
-    return {
-      latestStatus: statusTag ? statusTag[1] : 'unknown',
-      latestVersion: maxVersion,
-      latestDate: new Date(latestVerificationEvent.created_at * 1000).toISOString().split('T')[0],
-      attestationCount: attestationCount
+    
+    console.log(`[NOSTR] Found ${matchingFiles.length} verification files for ${appId}`);
+    
+    // Use jq to extract and process the verification events
+    const jqCommand = `cat ${matchingFiles.join(' ')} | jq -c 'select(.tags[]? | select(.[0] == "i" and .[1] == "${appId}")) | {id: .id, created_at: .created_at, version: (.tags[] | select(.[0] == "version") | .[1]), status: (.tags[] | select(.[0] == "status") | .[1]), date: (.created_at | tostring)}' | jq -s 'sort_by(.created_at) | reverse'`;
+    
+    const events = JSON.parse(execSync(jqCommand, { encoding: 'utf8' }).trim() || '[]');
+    
+    if (events.length === 0) {
+      console.log(`[NOSTR] No valid verification events found for ${appId}`);
+      const emptySummary = {
+        latestStatus: null,
+        latestVersion: null,
+        latestDate: null,
+        attestationCount: 0
+      };
+      nostrVerificationCache.set(appId, emptySummary);
+      return emptySummary;
+    }
+    
+    // Get the most recent event (already sorted in reverse chronological order)
+    const latestEvent = events[0];
+    
+    // Format the date from Unix timestamp
+    const formattedDate = latestEvent.date ? 
+      new Date(parseInt(latestEvent.date) * 1000).toISOString().split('T')[0] : null;
+    
+    const summary = {
+      latestStatus: latestEvent.status || 'unknown',
+      latestVersion: latestEvent.version || null,
+      latestDate: formattedDate,
+      attestationCount: events.length
     };
-  } else if (attestationCount > 0) {
+    
+    // Cache the results
+    nostrVerificationCache.set(appId, summary);
+    return summary;
+  } catch (error) {
+    console.error(`[NOSTR] Error processing verification data for ${appId}: ${error.message}`);
     return {
       latestStatus: null,
       latestVersion: null,
       latestDate: null,
-      attestationCount: attestationCount
+      attestationCount: 0
     };
   }
-  return {
-    latestStatus: null,
-    latestVersion: null,
-    latestDate: null,
-    attestationCount: 0
-  };
 }
 
 // Progress Tracking Function
@@ -726,9 +697,98 @@ async function drawOnCanvas (data, iconImage) {
     ctx.fillStyle = 'rgba(122, 122, 122, 1.0)'; // Dark gray color
     ctx.textAlign = 'center';
     ctx.fillText(data.developerName, width / 2, devNameY);
+    
+    // For source available apps with meta: ok, display Nostr verification below developer name
+    // instead of "Source code is available" text
+    if (data.verdict === 'sourceavailable') {
+      // Calculate position based on whether developer name exists
+      const nostrY = data.developerName ? titleY + 80 : titleY + 40;
+      
+      // Properly center the box in the card
+      const boxWidth = 280; // Width of the Nostr info box
+      const nostrX = width / 2 - (boxWidth / 2) + 30; // Center the box, with slight adjustment to the right
+      
+      // Display Nostr verification information for sourceavailable apps with meta: ok
+      if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrAttestationCount > 0)) {
+        ctx.save();
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
+        
+        // Adjust height based on whether we have all information
+        const boxHeight = data.nostrAttestationCount > 0 && data.nostrBuildStatus && data.latestDate ? 120 : 
+                         (data.nostrAttestationCount > 0 || data.nostrBuildStatus) ? 90 : 50;
+        const boxX = nostrX - 10;
+        const boxY = nostrY - 25;
+        
+        // Draw Nostr bg information box - rounded rectangle with semi-transparent background
+        ctx.beginPath();
+        ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
+        ctx.fill();
+        ctx.restore();
+        
+        // ===== BEGIN NOSTR INFO =====
+        // Draw Nostr header
+        ctx.font = 'bold 16px Barlow';
+        ctx.fillStyle = '#333333';
+        ctx.fillText('Nostr Verification', nostrX, nostrY - 5);
+        
+        // Draw status text if available
+        if (data.nostrBuildStatus) {
+          const statusText = `Build: ${data.nostrBuildStatus}`;
+          const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
+                             (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
+          
+          ctx.font = 'bold 18px Barlow';
+          ctx.fillStyle = statusColor;
+          ctx.fillText(statusText, nostrX, nostrY + 25);
+        }
+        
+        // Draw attestation count if available
+        if (data.nostrAttestationCount > 0) {
+          ctx.font = 'normal 18px Barlow';
+          ctx.fillStyle = '#333333';
+          ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, nostrX, nostrY + 55);
+        }
+        
+        // Draw date of latest verification if available
+        if (data.latestDate) {
+          ctx.font = 'normal 18px Barlow';
+          ctx.fillStyle = '#333333';
+          ctx.fillText(`Latest: ${data.latestDate}`, nostrX, nostrY + 85);
+        }
+        // ===== END NOSTR INFO =====
+      } else if (data.meta === 'ok') {
+        // If no Nostr data but app is source available with meta: ok, show a note
+        ctx.save();
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
+        
+        const nostrText = 'No Nostr attestations yet';
+        ctx.font = 'normal 14px Barlow';
+        const textMetrics = ctx.measureText(nostrText);
+        
+        // Calculate box dimensions with proper padding
+        const messageBoxWidth = textMetrics.width + 60;
+        const boxHeight = 30;
+        
+        // Center the box
+        const boxX = width / 2 - (messageBoxWidth / 2);
+        const boxY = nostrY - 15;
+        
+        // Draw Nostr bg information box - rounded rectangle with semi-transparent background
+        ctx.beginPath();
+        ctx.roundRect(boxX, boxY, messageBoxWidth, boxHeight, 8);
+        ctx.fill();
+        ctx.restore();
+        
+        // Nostr info - Draw the text centered in the box
+        ctx.fillStyle = '#666666';
+        ctx.fillText(nostrText, nostrX, nostrY + 5); // "No Nostr attestations yet"
+      } else {
+        // No additional text for source available apps with meta != ok
+        // The badge already indicates source availability
+      }
+    }
   }
   
-  // Verdict - centered below developer name
   const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
   if (data.verdict === 'reproducible') {
     await overlayReproducibleImage(ctx);
@@ -737,75 +797,6 @@ async function drawOnCanvas (data, iconImage) {
   // Add source available badge and Nostr verification info if needed
   if (data.verdict === 'sourceavailable') {
     await overlaySourceAvailableImage(ctx);
-    
-    // Display Nostr verification on the right side
-    const nostrX = width - 250; // Right side
-    const nostrY = 150; // Near the bottom
-    
-    // Draw a semi-transparent background for Nostr information
-    if (data.nostrBuildStatus || data.nostrAttestationCount > 0) {
-      ctx.save();
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-      const boxWidth = 220;
-      const boxHeight = data.nostrAttestationCount > 0 ? 70 : 40;
-      const boxX = nostrX - 10;
-      const boxY = nostrY - 25;
-      
-      // Draw rounded rectangle
-      ctx.beginPath();
-      ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
-      ctx.fill();
-      ctx.restore();
-      
-      // Draw Nostr header
-      ctx.font = 'bold 14px Barlow';
-      ctx.fillStyle = '#333333';
-      ctx.fillText('Nostr Verification', nostrX, nostrY - 5);
-      
-      // Draw status text if available
-      if (data.nostrBuildStatus) {
-        const statusText = `Build: ${data.nostrBuildStatus}`;
-        const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
-                           (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
-        
-        ctx.font = 'bold 16px Barlow';
-        ctx.fillStyle = statusColor;
-        ctx.fillText(statusText, nostrX, nostrY + 20);
-      }
-      
-      // Draw attestation count if available
-      if (data.nostrAttestationCount > 0) {
-        ctx.font = 'normal 16px Barlow';
-        ctx.fillStyle = '#333333';
-        ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, nostrX, nostrY + 45);
-      }
-    } else {
-      // If no Nostr data but app is source available, show a note
-      // Create a properly centered text box
-      const nostrText = 'No Nostr attestations yet';
-      ctx.font = 'normal 14px Barlow';
-      const textMetrics = ctx.measureText(nostrText);
-      
-      // Calculate box dimensions with proper padding
-      const boxWidth = textMetrics.width + 60; // Increase padding for better text containment
-      const boxHeight = 30;
-      
-      // Center the box horizontally
-      const boxX = nostrX - 60; // Shift left to better center the text
-      const boxY = nostrY + 35; // Adjust to center vertically
-      
-      // Draw rounded rectangle background
-      ctx.save();
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-      ctx.beginPath();
-      ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
-      ctx.fill();
-      ctx.restore();
-      
-      // Draw the text centered in the box
-      ctx.fillStyle = '#666666';
-      ctx.fillText(nostrText, nostrX + 70, nostrY + 55); // Shift text 20px to the right
-    }
   }
   
   const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
@@ -813,31 +804,36 @@ async function drawOnCanvas (data, iconImage) {
   // Set font first so we can measure text properly
   ctx.font = '400 19px Barlow'; // Reduced by 5px total (3px + 2px)
   
-  // Draw a subtle rounded rectangle background for the verdict
-  const verdictMetrics = ctx.measureText(mappedVerdict);
-  const verdictWidth = verdictMetrics.width + 60; // Add more padding for longer verdicts
-  const verdictHeight = 36;
-  const verdictX = centerX - (verdictWidth / 2);
-  const verdictRectY = verdictY - 24; // Position rectangle to center text vertically
+  // Skip drawing verdict box and text for sourceavailable apps with meta: ok
+  if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
+    // Draw a subtle rounded rectangle background for the verdict
+    const verdictMetrics = ctx.measureText(mappedVerdict);
+    const verdictWidth = verdictMetrics.width + 60; // Add more padding for longer verdicts
+    const verdictHeight = 36;
+    const verdictX = centerX - (verdictWidth / 2);
+    const verdictRectY = verdictY - 24; // Position rectangle to center text vertically
+    
+    // Draw rounded rectangle with 16px radius (very rounded)
+    ctx.save();
+    ctx.fillStyle = 'rgba(255, 255, 255, 1.0)'; // Full opacity white background
+    ctx.beginPath();
+    ctx.moveTo(verdictX + 16, verdictRectY);
+    ctx.lineTo(verdictX + verdictWidth - 16, verdictRectY);
+    ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY, verdictX + verdictWidth, verdictRectY + 16);
+    ctx.lineTo(verdictX + verdictWidth, verdictRectY + verdictHeight - 16);
+    ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY + verdictHeight, verdictX + verdictWidth - 16, verdictRectY + verdictHeight);
+    ctx.lineTo(verdictX + 16, verdictRectY + verdictHeight);
+    ctx.quadraticCurveTo(verdictX, verdictRectY + verdictHeight, verdictX, verdictRectY + verdictHeight - 16);
+    ctx.lineTo(verdictX, verdictRectY + 16);
+    ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 16, verdictRectY);
+    ctx.fill();
+    ctx.restore();
+  }
   
-  // Draw rounded rectangle with 16px radius (very rounded)
-  ctx.save();
-  ctx.fillStyle = 'rgba(255, 255, 255, 1.0)'; // Full opacity white background
-  ctx.beginPath();
-  ctx.moveTo(verdictX + 16, verdictRectY);
-  ctx.lineTo(verdictX + verdictWidth - 16, verdictRectY);
-  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY, verdictX + verdictWidth, verdictRectY + 16);
-  ctx.lineTo(verdictX + verdictWidth, verdictRectY + verdictHeight - 16);
-  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY + verdictHeight, verdictX + verdictWidth - 16, verdictRectY + verdictHeight);
-  ctx.lineTo(verdictX + 16, verdictRectY + verdictHeight);
-  ctx.quadraticCurveTo(verdictX, verdictRectY + verdictHeight, verdictX, verdictRectY + verdictHeight - 16);
-  ctx.lineTo(verdictX, verdictRectY + 16);
-  ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 16, verdictRectY);
-  ctx.fill();
-  ctx.restore();
-  
-  // Draw the verdict text
-  printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 19px Barlow', 41, 30);
+  // Draw the verdict text, but skip for sourceavailable apps with meta: ok since they show Nostr info instead
+  if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
+    printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 19px Barlow', 41, 30);
+  }
   
   // If verdict is sourceavailable AND meta is not 'ok', display the meta verdict message underneath
   if (data.verdict === 'sourceavailable' && data.meta && data.meta !== 'ok') {
@@ -939,10 +935,10 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
 
     console.log(`\x1b[36m[NOSTR] Processing source available app: ${data.title} (${file})\x1b[0m`);
     
-    if (data.appId && allNostrVerificationInfo && !SKIP_NOSTR) {
+    if (data.appId && !SKIP_NOSTR && fs.existsSync(NOSTR_BACKUP_PATH)) {
       try {
-        console.log(`[NOSTR] Checking Nostr data for ${data.appId}...`);
-        const nostrAttestationSummary = getNostrAttestationSummaryForApp(allNostrVerificationInfo, data.appId);
+        console.log(`[NOSTR] Checking local Nostr data for ${data.appId}...`);
+        const nostrAttestationSummary = getNostrAttestationSummaryForApp(data.appId);
         
         // Always store the count, even if no 'latest' event was suitable
         if (nostrAttestationSummary) {
@@ -958,6 +954,12 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
         if (nostrAttestationSummary && nostrAttestationSummary.latestStatus) {
           console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrAttestationSummary.latestStatus}, V=${nostrAttestationSummary.latestVersion || 'N/A'}, Date=${nostrAttestationSummary.latestDate || 'N/A'}\x1b[0m`);
           data.nostrBuildStatus = nostrAttestationSummary.latestStatus;
+          
+          // Store the latest date for display in the Twitter card
+          if (nostrAttestationSummary.latestDate) {
+            data.latestDate = nostrAttestationSummary.latestDate;
+            console.log(`[NOSTR] Latest verification date: ${data.latestDate}`);
+          }
           
           // Only override version and date if Nostr provides them
           if (nostrAttestationSummary.latestVersion) {
@@ -977,8 +979,8 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
       }
     } else if (data.appId && SKIP_NOSTR) {
       console.log(`\x1b[33m[NOSTR] Skipping Nostr data for ${data.appId} due to --skip-nostr flag\x1b[0m`);
-    } else if (data.appId && !allNostrVerificationInfo) {
-      console.warn(`\x1b[33m[NOSTR] No Nostr data available for ${data.appId}. Using MD data only.\x1b[0m`);
+    } else if (data.appId && !fs.existsSync(NOSTR_BACKUP_PATH)) {
+      console.warn(`\x1b[33m[NOSTR] No Nostr backup directory available for ${data.appId}. Using MD data only.\x1b[0m`);
     } else if (!data.appId) {
       console.warn(`\x1b[31m[NOSTR] No appId in MD for ${file}. Cannot query Nostr.\x1b[0m`);
     }
