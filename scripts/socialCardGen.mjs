@@ -382,7 +382,7 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
   ctx.shadowOffsetY = 5;
 
   drawRoundedRect(ctx, cardX, cardY, cardWidth, cardHeight, CARD_CORNER_RADIUS);
-  ctx.fillStyle = 'white'; // Temp fill for shadow casting
+  ctx.fillStyle = 'rgba(255, 255, 255, 0.75)'; // 75% opaque white for the card
   ctx.fill();
   
   ctx.shadowColor = 'transparent'; // Reset shadow
@@ -538,16 +538,31 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
       ctx.shadowOffsetX = 3;
       ctx.shadowOffsetY = 3;
       
-      // Draw the icon with shadow
+      // Create a rounded rectangle clipping path for the icon (12px radius)
+      ctx.beginPath();
+      const iconRadius = 12;
+      ctx.moveTo(iconDrawX + iconRadius, iconDrawY);
+      ctx.lineTo(iconDrawX + ICON_ON_CARD_SIZE - iconRadius, iconDrawY);
+      ctx.quadraticCurveTo(iconDrawX + ICON_ON_CARD_SIZE, iconDrawY, iconDrawX + ICON_ON_CARD_SIZE, iconDrawY + iconRadius);
+      ctx.lineTo(iconDrawX + ICON_ON_CARD_SIZE, iconDrawY + ICON_ON_CARD_SIZE - iconRadius);
+      ctx.quadraticCurveTo(iconDrawX + ICON_ON_CARD_SIZE, iconDrawY + ICON_ON_CARD_SIZE, iconDrawX + ICON_ON_CARD_SIZE - iconRadius, iconDrawY + ICON_ON_CARD_SIZE);
+      ctx.lineTo(iconDrawX + iconRadius, iconDrawY + ICON_ON_CARD_SIZE);
+      ctx.quadraticCurveTo(iconDrawX, iconDrawY + ICON_ON_CARD_SIZE, iconDrawX, iconDrawY + ICON_ON_CARD_SIZE - iconRadius);
+      ctx.lineTo(iconDrawX, iconDrawY + iconRadius);
+      ctx.quadraticCurveTo(iconDrawX, iconDrawY, iconDrawX + iconRadius, iconDrawY);
+      ctx.closePath();
+      ctx.clip();
+      
+      // Draw the icon with shadow and rounded corners
       ctx.drawImage(appIconForCard, iconDrawX, iconDrawY, ICON_ON_CARD_SIZE, ICON_ON_CARD_SIZE);
       
-      // Reset shadow settings
+      // Reset shadow settings and clipping
       ctx.restore();
       
       // Add version number centered below the icon
       if (data.version) {
         const versionText = `${data.version}`; // Just the version number, no label
-        ctx.font = 'normal 16px Barlow';
+        ctx.font = 'normal 14px "Barlow"';
         ctx.fillStyle = '#333333';
         const versionWidth = ctx.measureText(versionText).width;
         const versionX = iconDrawX + (ICON_ON_CARD_SIZE - versionWidth) / 2; // Center align with icon
@@ -566,7 +581,7 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
 
   // Add website URL in a rounded rectangle at the bottom right
   const websiteText = "walletscrutiny.com";
-  ctx.font = 'normal 12px Barlow';
+  ctx.font = 'normal 12px "Barlow"';
   
   // Measure text to create appropriately sized rectangle
   const websiteTextWidth = ctx.measureText(websiteText).width;
@@ -607,7 +622,7 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
   ctx.textBaseline = 'middle';
   
   // Use lowercase letters with bold font
-  ctx.font = 'bold 10px Barlow';
+  ctx.font = 'bold 10px "Barlow"';
   ctx.fillText(websiteText, websiteRectX + (websiteRectWidth / 2), websiteRectY + (websiteRectHeight / 2));
   
   // Reset text alignment
@@ -623,14 +638,14 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
   const textWidth = cardWidth - (ICON_ON_CARD_MARGIN_LEFT + ICON_ON_CARD_SIZE + 25) - 15; // Adjusted available width for text
 
   // Print app title (moved down by 15px and 5px to the right)
-  printText(data.title, ctx, textStartX, cardY + ICON_ON_CARD_MARGIN_TOP + 20, '#000000', 'bold 30px Barlow', textWidth, 36);
+  printText(data.title, ctx, textStartX, cardY + ICON_ON_CARD_MARGIN_TOP + 20, '#000000', 'bold 23px "Barlow"', textWidth, 36);
 
   // Print verdict (moved down accordingly and 5px to the right)
   const verdictText = verdictMap[data.verdict] || data.verdict;
   const verdictColor = data.verdict === 'reproducible' || data.verdict === 'wip' ? '#A0A21A' // Darker Yellow/Green
     : data.verdict === 'custodial' || data.verdict === 'nobtc' || data.verdict === 'noSource' || data.verdict === 'defunct' || data.verdict === 'offline' || data.verdict === 'scam' ? '#CC0000' // Darker Red
       : '#333333'; // Dark Gray for others
-  printText(verdictText, ctx, textStartX, cardY + ICON_ON_CARD_MARGIN_TOP + 60, verdictColor, 'bold 22px Barlow', textWidth, 26);
+  printText(verdictText, ctx, textStartX, cardY + ICON_ON_CARD_MARGIN_TOP + 60, verdictColor, 'bold 19px "Barlow"', textWidth, 26);
   
   // Info section below the main header (icon, title, verdict)
   const infoStartY = cardY + ICON_ON_CARD_MARGIN_TOP + ICON_ON_CARD_SIZE + 60; // Start further below to account for stars
@@ -644,7 +659,7 @@ async function drawOnCanvas(data, appIconForCard, iconPalette) {
     const nostrStatusColor = data.nostrBuildStatus === 'success' ? '#28A745' // Bootstrap Success Green
       : data.nostrBuildStatus === 'failure' ? '#DC3545' // Bootstrap Danger Red
         : '#FFC107'; // Bootstrap Warning Yellow
-    printText(nostrStatusText, ctx, infoStartX, currentInfoY, nostrStatusColor, 'bold 18px Barlow', cardWidth - 40, 22);
+    printText(nostrStatusText, ctx, infoStartX, currentInfoY, nostrStatusColor, 'bold 18px "Barlow"', cardWidth - 40, 22);
     currentInfoY += infoLineHeight;
   }
   // Print Nostr attestation count if available
