@@ -1,6 +1,7 @@
 const webpack = require("webpack");
 const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   devtool: 'source-map',
@@ -80,6 +81,7 @@ module.exports = {
         ],
         blocking: true
       }
-    })
+    }),
+    // new BundleAnalyzerPlugin()
   ]
 };
