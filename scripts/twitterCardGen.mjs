@@ -5,6 +5,23 @@ import yaml from 'js-yaml';
 import path from 'path';
 import pLimit from 'p-limit';
 
+// Try to import Nostr utilities, but don't fail if they're not available
+let nostrConnect, getAllAssetInformation;
+try {
+  const nostrUtils = await import('../src/verifications_utils.mjs');
+  nostrConnect = nostrUtils.nostrConnect;
+  getAllAssetInformation = nostrUtils.getAllAssetInformation;
+  console.log('[DEBUG] Successfully imported Nostr utilities');
+} catch (error) {
+  console.warn('[DEBUG] Could not import Nostr utilities:', error.message);
+  // Create dummy functions that return empty data
+  nostrConnect = async () => console.log('[DEBUG] Using dummy nostrConnect');
+  getAllAssetInformation = async () => {
+    console.log('[DEBUG] Using dummy getAllAssetInformation');
+    return { verifications: new Map(), assets: new Map() };
+  };
+}
+
 // Constants
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
@@ -14,12 +31,22 @@ const mdFolders = [
   '_hardware',
   '_iphone',
   '_desktop']; // MD file folders
+
+// Configuration flags
+const SKIP_NOSTR = process.argv.includes('--skip-nostr'); // Skip Nostr integration if this flag is provided
+const NOSTR_TIMEOUT = 30000; // 30 seconds timeout for Nostr operations
 const backgroundImage = 'images/twCard/socGenCardblue.png';
-let bgImage, reproducibleImage;
+let bgImage, reproducibleImage, sourceavailableImage;
 // Load the "reproducible" image
 const reproducibleImagePath = 'images/twCard/reproducible-dark.png';
+// Load the "sourceavailable" image
+const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
+// Load meta verdicts
+const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
+// Nostr verification info
+let allNostrVerificationInfo = { verifications: new Map(), assets: new Map() };
 
 // Timer variables
 let totalFiles = 0;
@@ -30,7 +57,151 @@ const startTime = Date.now();
 async function loadResources () {
   bgImage = await loadImage(backgroundImage);
   reproducibleImage = await loadImage(reproducibleImagePath);
+  
+  // Load the sourceavailable image
+  try {
+    sourceavailableImage = await loadImage(sourceavailableImagePath);
+  } catch (error) {
+    console.warn(`Could not load sourceavailable image from ${sourceavailableImagePath}: ${error.message}`);
+    // Continue without the image
+  }
+  
   registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
+  
+  // Fetch Nostr verification information if available
+  console.log('\x1b[1m[NOSTR] Starting Nostr data loading process\x1b[0m');
+  let nostrAvailable = true;
+  
+  // Initialize allNostrVerificationInfo with empty maps
+  allNostrVerificationInfo = { verifications: new Map(), assets: new Map() };
+  
+  // Only try to connect to Nostr if the utilities were successfully imported and skip-nostr flag is not set
+  if (typeof nostrConnect === 'function' && typeof getAllAssetInformation === 'function' && !SKIP_NOSTR) {
+    try {
+      console.log('[NOSTR] About to call nostrConnect to initialize connection...');
+      // Initialize Nostr connection explicitly with a timeout
+      try {
+        await Promise.race([
+          nostrConnect(),
+          new Promise((_, reject) => setTimeout(() => reject(new Error(`Nostr connection timeout after ${NOSTR_TIMEOUT/1000} seconds`)), NOSTR_TIMEOUT))
+        ]);
+        console.log('[NOSTR] nostrConnect completed successfully');
+      } catch (connError) {
+        console.error('[NOSTR] nostrConnect failed:', connError.message);
+        nostrAvailable = false;
+      }
+      
+      // Only try to get asset information if connection was successful
+      if (nostrAvailable) {
+        console.log('[NOSTR] About to call getAllAssetInformation...');
+        try {
+          // Download ALL nostr information in one go with 6 months of data
+          console.log('[NOSTR] Downloading all attestations from the last 6 months...');
+          allNostrVerificationInfo = await Promise.race([
+            getAllAssetInformation({ months: 6 }),
+            new Promise((_, reject) => setTimeout(() => reject(new Error(`getAllAssetInformation timeout after ${NOSTR_TIMEOUT/1000} seconds`)), NOSTR_TIMEOUT))
+          ]);
+          
+          // Display success message in bright yellow
+          console.log('\x1b[33;1m[NOSTR] Successfully downloaded all attestations from Nostr!\x1b[0m');
+          console.log(`[NOSTR] Loaded: ${allNostrVerificationInfo.verifications.size} verifications, ${allNostrVerificationInfo.assets.size} assets`);
+        } catch (assetError) {
+          console.warn(`[NOSTR] Could not load asset information: ${assetError.message}`);
+          nostrAvailable = false;
+        }
+      }
+    } catch (error) {
+      console.warn(`[NOSTR] Overall Nostr process failed: ${error.message}`);
+      console.error('[NOSTR] Error stack:', error.stack);
+      nostrAvailable = false;
+    }
+  } else {
+    if (SKIP_NOSTR) {
+      console.log('[NOSTR] --skip-nostr flag provided, skipping Nostr integration');
+    } else {
+      console.log('[NOSTR] Nostr utilities not available, skipping Nostr integration');
+    }
+    nostrAvailable = false;
+  }
+  
+  // Log the final status
+  if (!nostrAvailable) {
+    console.log('[NOSTR] Will proceed without Nostr data');
+  } else {
+    console.log(`[NOSTR] Nostr data loaded: ${allNostrVerificationInfo.verifications.size} verifications, ${allNostrVerificationInfo.assets.size} assets`);
+  }
+  
+  // Find and display all apps with verdict: sourceavailable AND meta: ok
+  await findSourceAvailableApps();
+}
+
+// Function to find and display all apps with verdict: sourceavailable AND meta: ok
+async function findSourceAvailableApps() {
+  console.log('\x1b[36;1m[APPS] Finding all apps with verdict: sourceavailable AND meta: ok\x1b[0m');
+  
+  const sourceAvailableApps = [];
+  
+  // Process each platform folder
+  for (const mdFolder of mdFolders) {
+    const mdFilesPath = mdFolder;
+    const files = await fsp.readdir(mdFilesPath);
+    
+    // Process each markdown file
+    for (const file of files) {
+      try {
+        // Read the file content
+        const filePath = path.join(mdFilesPath, file);
+        const content = await fsp.readFile(filePath, 'utf8');
+        
+        // Extract front matter
+        const frontMatterMatch = content.match(/---\r?\n([\s\S]*?)\r?\n---/);
+        if (frontMatterMatch) {
+          const frontMatter = yaml.load(frontMatterMatch[1]);
+          
+          // Check if verdict is sourceavailable AND meta is ok
+          if (frontMatter.verdict === 'sourceavailable' && 
+              frontMatter.meta === 'ok') {
+            
+            // Add to the list
+            sourceAvailableApps.push({
+              file: file,
+              platform: mdFolder.substring(1),
+              title: frontMatter.title || 'Unknown',
+              appId: frontMatter.appId || null
+            });
+          }
+        }
+      } catch (error) {
+        console.error(`[APPS] Error processing file ${file}:`, error.message);
+      }
+    }
+  }
+  
+  // Display the results
+  if (sourceAvailableApps.length > 0) {
+    console.log('\x1b[32;1m[APPS] Found', sourceAvailableApps.length, 'apps with verdict: sourceavailable AND meta: ok\x1b[0m');
+    console.log('\x1b[33;1m[APPS] List of sourceavailable apps that will be processed with Nostr data:\x1b[0m');
+    
+    // Table header
+    console.log('\x1b[36m%-40s %-15s %-30s\x1b[0m', 'Title', 'Platform', 'App ID');
+    console.log('-'.repeat(85));
+    
+    // Table rows
+    sourceAvailableApps.forEach(app => {
+      // Use a simple truncation for console display
+      const truncatedTitle = app.title.length > 38 ? app.title.substring(0, 35) + '...' : app.title;
+      console.log('%-40s %-15s %-30s', 
+        truncatedTitle,
+        app.platform,
+        app.appId || 'N/A'
+      );
+    });
+    console.log('-'.repeat(85));
+  } else {
+    console.log('\x1b[31m[APPS] No apps found with verdict: sourceavailable AND meta: ok\x1b[0m');
+  }
+  
+  return sourceAvailableApps;
 }
 
 function wrapText (text, length) {
@@ -46,18 +217,117 @@ function formatDate (dateString) {
   return `${year}-${month}-${day}`;
 }
 
-function loadVerdicts (verdictPath) {
+function loadVerdicts (dirPath) {
   const verdictMap = {};
-  fs.readdirSync(verdictPath).forEach((filename) => {
-    if (filename.endsWith('.yml')) {
-      const filePath = path.join(verdictPath, filename);
-      const verdict = path.parse(filename).name;
-      const yamlData = fs.readFileSync(filePath, 'utf8');
-      const data = yaml.load(yamlData);
-      verdictMap[verdict] = data.title;
+  const files = fs.readdirSync(dirPath);
+  for (const file of files) {
+    if (file.endsWith('.yml')) {
+      const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
+      const verdict = yaml.load(content);
+      const key = file.replace('.yml', '');
+      verdictMap[key] = verdict.title;
     }
-  });
+  }
   return verdictMap;
+}
+
+function loadMetaVerdicts (dirPath) {
+  const metaVerdictMap = {};
+  const files = fs.readdirSync(dirPath);
+  for (const file of files) {
+    if (file.endsWith('.yml')) {
+      const content = fs.readFileSync(path.join(dirPath, file), 'utf8');
+      const verdict = yaml.load(content);
+      // Only include verdicts with meta: true
+      if (verdict.meta === true) {
+        const key = file.replace('.yml', '');
+        metaVerdictMap[key] = {
+          title: verdict.title || '',
+          message: verdict.message || ''
+        };
+      }
+    }
+  }
+  return metaVerdictMap;
+}
+
+// Helper function to compare semantic versions
+function compareVersions(a, b) {
+  if (a === b) return 0;
+  
+  const aParts = a.split('.').map(Number);
+  const bParts = b.split('.').map(Number);
+  
+  for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+    const aVal = i < aParts.length ? aParts[i] : 0;
+    const bVal = i < bParts.length ? bParts[i] : 0;
+    
+    if (aVal > bVal) return 1;
+    if (aVal < bVal) return -1;
+  }
+  
+  return 0;
+}
+
+// Function to get Nostr attestation summary for an app
+function getNostrAttestationSummaryForApp(nostrData, appId) {
+  if (!nostrData || (!nostrData.verifications && !nostrData.assets)) {
+    console.warn(`Nostr data is missing or incomplete for ${appId}`);
+    return null;
+  }
+
+  let latestVerificationEvent = null;
+  let maxVersion = null;
+  let attestationCount = 0;
+
+  // Combine verifications and assets for searching
+  const allEventsArrays = [];
+  if (nostrData.verifications instanceof Map) {
+    allEventsArrays.push(...Array.from(nostrData.verifications.values()).flat());
+  }
+  if (nostrData.assets instanceof Map) {
+    allEventsArrays.push(...Array.from(nostrData.assets.values()).flat());
+  }
+
+  for (const event of allEventsArrays) {
+    if (!event || !event.tags) continue;
+    const eventAppIdTag = event.tags.find(tag => tag[0] === 'i');
+    const eventVersionTag = event.tags.find(tag => tag[0] === 'version');
+
+    if (eventAppIdTag && eventAppIdTag[1] === appId) {
+      attestationCount++; // Count all events for this appId
+      if (eventVersionTag) { // Only consider for 'latest' if it has a version
+        const currentVersion = eventVersionTag[1];
+        if (!maxVersion || compareVersions(currentVersion, maxVersion) > 0) {
+          maxVersion = currentVersion;
+          latestVerificationEvent = event;
+        }
+      }
+    }
+  }
+
+  if (latestVerificationEvent) {
+    const statusTag = latestVerificationEvent.tags.find(tag => tag[0] === 'status');
+    return {
+      latestStatus: statusTag ? statusTag[1] : 'unknown',
+      latestVersion: maxVersion,
+      latestDate: new Date(latestVerificationEvent.created_at * 1000).toISOString().split('T')[0],
+      attestationCount: attestationCount
+    };
+  } else if (attestationCount > 0) {
+    return {
+      latestStatus: null,
+      latestVersion: null,
+      latestDate: null,
+      attestationCount: attestationCount
+    };
+  }
+  return {
+    latestStatus: null,
+    latestVersion: null,
+    latestDate: null,
+    attestationCount: 0
+  };
 }
 
 // Progress Tracking Function
@@ -325,6 +595,41 @@ async function overlayReproducibleImage (ctx) {
   ctx.globalAlpha = 1;
 }
 
+// Utility function to overlay "sourceavailable" image
+async function overlaySourceAvailableImage (ctx) {
+  if (sourceavailableImage) {
+    try {
+      console.log('[DEBUG] Drawing source available badge');
+      // Position in the left side of the card
+      const x = 50;
+      const y = 95; // Near the bottom left
+      
+      // Maintain aspect ratio - the image is 500x500
+      const width = 220; // Smaller width for better appearance
+      const height = width; // Keep it circular by maintaining 1:1 ratio
+      
+      // Draw with proper circle clipping to ensure it looks good
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(x + width/2, y + height/2, width/2, 0, Math.PI * 2, true);
+      ctx.closePath();
+      ctx.clip();
+      
+      // Draw the image within the clipping path
+      ctx.drawImage(sourceavailableImage, x, y, width, height);
+      
+      // Restore context
+      ctx.restore();
+      
+      console.log('[DEBUG] Source available badge drawn successfully');
+    } catch (error) {
+      console.error('[DEBUG] Error drawing source available badge:', error.message);
+    }
+  } else {
+    console.warn('[DEBUG] Source available image not loaded');
+  }
+}
+
 // Core Functions - Canvas Image and Text Overlays
 
 async function drawOnCanvas (data, iconImage) {
@@ -429,6 +734,80 @@ async function drawOnCanvas (data, iconImage) {
     await overlayReproducibleImage(ctx);
   }
   
+  // Add source available badge and Nostr verification info if needed
+  if (data.verdict === 'sourceavailable') {
+    await overlaySourceAvailableImage(ctx);
+    
+    // Display Nostr verification on the right side
+    const nostrX = width - 250; // Right side
+    const nostrY = 150; // Near the bottom
+    
+    // Draw a semi-transparent background for Nostr information
+    if (data.nostrBuildStatus || data.nostrAttestationCount > 0) {
+      ctx.save();
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+      const boxWidth = 220;
+      const boxHeight = data.nostrAttestationCount > 0 ? 70 : 40;
+      const boxX = nostrX - 10;
+      const boxY = nostrY - 25;
+      
+      // Draw rounded rectangle
+      ctx.beginPath();
+      ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
+      ctx.fill();
+      ctx.restore();
+      
+      // Draw Nostr header
+      ctx.font = 'bold 14px Barlow';
+      ctx.fillStyle = '#333333';
+      ctx.fillText('Nostr Verification', nostrX, nostrY - 5);
+      
+      // Draw status text if available
+      if (data.nostrBuildStatus) {
+        const statusText = `Build: ${data.nostrBuildStatus}`;
+        const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
+                           (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
+        
+        ctx.font = 'bold 16px Barlow';
+        ctx.fillStyle = statusColor;
+        ctx.fillText(statusText, nostrX, nostrY + 20);
+      }
+      
+      // Draw attestation count if available
+      if (data.nostrAttestationCount > 0) {
+        ctx.font = 'normal 16px Barlow';
+        ctx.fillStyle = '#333333';
+        ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, nostrX, nostrY + 45);
+      }
+    } else {
+      // If no Nostr data but app is source available, show a note
+      // Create a properly centered text box
+      const nostrText = 'No Nostr attestations yet';
+      ctx.font = 'normal 14px Barlow';
+      const textMetrics = ctx.measureText(nostrText);
+      
+      // Calculate box dimensions with proper padding
+      const boxWidth = textMetrics.width + 60; // Increase padding for better text containment
+      const boxHeight = 30;
+      
+      // Center the box horizontally
+      const boxX = nostrX - 60; // Shift left to better center the text
+      const boxY = nostrY + 35; // Adjust to center vertically
+      
+      // Draw rounded rectangle background
+      ctx.save();
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+      ctx.beginPath();
+      ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
+      ctx.fill();
+      ctx.restore();
+      
+      // Draw the text centered in the box
+      ctx.fillStyle = '#666666';
+      ctx.fillText(nostrText, nostrX + 70, nostrY + 55); // Shift text 20px to the right
+    }
+  }
+  
   const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
   
   // Set font first so we can measure text properly
@@ -459,6 +838,49 @@ async function drawOnCanvas (data, iconImage) {
   
   // Draw the verdict text
   printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 19px Barlow', 41, 30);
+  
+  // If verdict is sourceavailable AND meta is not 'ok', display the meta verdict message underneath
+  if (data.verdict === 'sourceavailable' && data.meta && data.meta !== 'ok') {
+    // Get the meta verdict message
+    let metaMessage = '';
+    
+    // Try to get the message from the metaVerdictMap
+    if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
+      metaMessage = metaVerdictMap[data.meta].message;
+    } else {
+      // Fallback to just the meta value
+      metaMessage = data.meta;
+    }
+    
+    // Draw a subtle rounded rectangle background for the meta message
+    // Ensure first letter of metaMessage is lowercase
+    let formattedMetaMessage = metaMessage;
+    if (formattedMetaMessage.length > 0) {
+      formattedMetaMessage = formattedMetaMessage.charAt(0).toLowerCase() + formattedMetaMessage.slice(1);
+    }
+    
+    const metaText = `But ${formattedMetaMessage}`;
+    ctx.font = 'italic 14px Barlow'; // Reduced from 16px to 14px
+    const metaMetrics = ctx.measureText(metaText);
+    const metaWidth = Math.min(metaMetrics.width + 40, width - 100); // Add padding but limit width
+    const metaHeight = 30;
+    const metaX = centerX - (metaWidth / 2);
+    const metaY = verdictY + 40; // Position below the verdict text
+    
+    // Draw rounded rectangle with 12px radius
+    ctx.save();
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'; // Semi-transparent white background
+    ctx.beginPath();
+    ctx.roundRect(metaX, metaY - 20, metaWidth, metaHeight, 12);
+    ctx.fill();
+    ctx.restore();
+    
+    // Draw the meta message text
+    ctx.font = 'italic 14px Barlow'; // Reduced from 16px to 14px
+    ctx.fillStyle = '#d33100'; // Use the stale.yml color as default for meta messages
+    ctx.textAlign = 'center';
+    ctx.fillText(metaText, centerX, metaY);
+  }
   
   // Reset text alignment to default
   ctx.textAlign = 'start';
@@ -508,6 +930,71 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     console.error(`Error processing file ${file}: `, error);
     totalFiles--;
     return;
+  }
+  
+  // Add Nostr data for sourceavailable apps with meta: ok
+  if (data.verdict === 'sourceavailable' && data.meta === 'ok') {
+    data.nostrBuildStatus = null; // Initialize
+    data.nostrAttestationCount = 0; // Initialize
+
+    console.log(`\x1b[36m[NOSTR] Processing source available app: ${data.title} (${file})\x1b[0m`);
+    
+    if (data.appId && allNostrVerificationInfo && !SKIP_NOSTR) {
+      try {
+        console.log(`[NOSTR] Checking Nostr data for ${data.appId}...`);
+        const nostrAttestationSummary = getNostrAttestationSummaryForApp(allNostrVerificationInfo, data.appId);
+        
+        // Always store the count, even if no 'latest' event was suitable
+        if (nostrAttestationSummary) {
+          data.nostrAttestationCount = nostrAttestationSummary.attestationCount;
+          
+          if (data.nostrAttestationCount > 0) {
+            console.log(`\x1b[32m[NOSTR] Found ${data.nostrAttestationCount} attestations for ${data.appId}\x1b[0m`);
+          } else {
+            console.log(`\x1b[33m[NOSTR] No attestations found for ${data.appId}\x1b[0m`);
+          }
+        }
+
+        if (nostrAttestationSummary && nostrAttestationSummary.latestStatus) {
+          console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrAttestationSummary.latestStatus}, V=${nostrAttestationSummary.latestVersion || 'N/A'}, Date=${nostrAttestationSummary.latestDate || 'N/A'}\x1b[0m`);
+          data.nostrBuildStatus = nostrAttestationSummary.latestStatus;
+          
+          // Only override version and date if Nostr provides them
+          if (nostrAttestationSummary.latestVersion) {
+            data.version = nostrAttestationSummary.latestVersion;
+            console.log(`[NOSTR] Updated version to ${data.version} from Nostr`);
+          }
+          if (nostrAttestationSummary.latestDate) {
+            data.date = nostrAttestationSummary.latestDate;
+            console.log(`[NOSTR] Updated date to ${data.date} from Nostr`);
+          }
+        } else {
+          console.log(`\x1b[33m[NOSTR] No latest status found in Nostr data for ${data.appId}\x1b[0m`);
+        }
+      } catch (error) {
+        console.error(`\x1b[31m[NOSTR] Error processing Nostr data for ${data.appId}: ${error.message}\x1b[0m`);
+        // Continue without Nostr data
+      }
+    } else if (data.appId && SKIP_NOSTR) {
+      console.log(`\x1b[33m[NOSTR] Skipping Nostr data for ${data.appId} due to --skip-nostr flag\x1b[0m`);
+    } else if (data.appId && !allNostrVerificationInfo) {
+      console.warn(`\x1b[33m[NOSTR] No Nostr data available for ${data.appId}. Using MD data only.\x1b[0m`);
+    } else if (!data.appId) {
+      console.warn(`\x1b[31m[NOSTR] No appId in MD for ${file}. Cannot query Nostr.\x1b[0m`);
+    }
+    
+    // Summary of Nostr data for this app
+    if (data.nostrBuildStatus || data.nostrAttestationCount > 0) {
+      console.log(`\x1b[36m[NOSTR] Final data for ${data.title}: buildStatus=${data.nostrBuildStatus || 'N/A'}, attestationCount=${data.nostrAttestationCount}\x1b[0m`);
+    }
+  } else if (data.verdict === 'sourceavailable' && data.meta !== 'ok') {
+    console.log(`\x1b[33m[NOSTR] App ${data.title} has verdict 'sourceavailable' but meta is not 'ok' (${data.meta}). Skipping Nostr processing.\x1b[0m`);
+    data.nostrBuildStatus = null;
+    data.nostrAttestationCount = 0;
+  } else {
+    // For verdicts other than 'sourceavailable', initialize Nostr fields to null
+    data.nostrBuildStatus = null;
+    data.nostrAttestationCount = 0;
   }
 
   // Draw on the canvas
