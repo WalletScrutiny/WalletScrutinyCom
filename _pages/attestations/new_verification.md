@@ -692,9 +692,8 @@ permalink: /new_verification/
       const errorDiv = document.createElement('div');
       errorDiv.className = 'error-message';
       errorDiv.innerHTML = `
-      <p>${message}</p>
-      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
-    `;
+        <p>${message}</p>
+        <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>`;
 
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
@@ -704,6 +703,8 @@ permalink: /new_verification/
         showError('A Nostr browser extension is required to create verifications.');
         return;
       }
+
+      document.getElementById('loadingSpinner').style.display = 'block';
 
       const urlParams = new URLSearchParams(window.location.search);
       const draftVerificationEventId = urlParams.get('draftVerificationEventId');
@@ -837,6 +838,8 @@ permalink: /new_verification/
       if (initialAppId) {
         await loadAndDisplayAvailableScripts(initialAppId);
       }
+
+      document.getElementById('loadingSpinner').style.display = 'none';
     });
   }
 
