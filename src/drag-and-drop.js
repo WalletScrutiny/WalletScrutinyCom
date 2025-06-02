@@ -13,7 +13,7 @@ import { isDebugEnv } from './verifications_common.js';
 const uploadsActivated = true;
 const maxFileSize = 500;  // MB
 
-document.addEventListener("DOMContentLoaded", async function () {
+window.addEventListener("verificationsUILoaded", async function () {
   initializeDragAndDrop();
 });
 

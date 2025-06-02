@@ -5,7 +5,8 @@
 
 <script>
   // Load verifications_data.bundle.min.js asynchronously and then
-  // trigger the verificationsDataLoaded event and load verifications_ui.bundle.min.js
+  // trigger the verificationsDataLoaded event and load verifications_ui.bundle.min.js,
+  // which will trigger the verificationsUILoaded event.
   const verificationsScript = document.createElement('script');
 
   verificationsScript.onload = () => {
