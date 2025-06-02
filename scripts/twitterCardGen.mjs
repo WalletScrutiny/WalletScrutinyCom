@@ -21,10 +21,9 @@ const SKIP_NOSTR = process.argv.includes('--skip-nostr'); // Skip Nostr integrat
 const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
 let bgImage, reproducibleImage, sourceavailableImage;
-// Load the "reproducible" image
-const reproducibleImagePath = 'images/twCard/reproducible-dark.png';
-// Load the "sourceavailable" image
+// Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
+const reproducibleImagePath = 'images/twCard/reproducible.png';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
@@ -39,16 +38,28 @@ let oldTotalFiles = 0;
 const startTime = Date.now();
 
 async function loadResources () {
-  bgImage = await loadImage(backgroundImage);
-  reproducibleImage = await loadImage(reproducibleImagePath);
+  // Load the background image
+  try {
+    bgImage = await loadImage(backgroundImage);
+  } catch (error) {
+    console.warn(`Could not load background image from ${backgroundImage}: ${error.message}`);
+  }
   
   // Load the sourceavailable image
   try {
     sourceavailableImage = await loadImage(sourceavailableImagePath);
   } catch (error) {
     console.warn(`Could not load sourceavailable image from ${sourceavailableImagePath}: ${error.message}`);
-    // Continue without the image
   }
+  
+  // Load the reproducible image
+  try {
+    reproducibleImage = await loadImage(reproducibleImagePath);
+  } catch (error) {
+    console.warn(`Could not load reproducible image from ${reproducibleImagePath}: ${error.message}`);
+  }
+  
+  // Register fonts
   
   registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
   
@@ -545,61 +556,28 @@ function drawCircuitLines(ctx, startX, startY, length, direction, color = 'rgba(
 }
 
 // Utility function to overlay "reproducible" image
-async function overlayReproducibleImage (ctx) {
-  // Overlay the "reproducible" image
-  const x = 500;
-  const y = 180;
-  const width = 200;
-  const height = 40;
-  ctx.drawImage(reproducibleImage, x, y, width, height);
-
-  // Add a subtle line
-  ctx.globalAlpha = 0.3; // 70% transparency
-  ctx.strokeStyle = 'rgb(128, 128, 128)'; // Set the line color to light gray
-  ctx.lineWidth = 1;
-
-  ctx.beginPath();
-  ctx.moveTo(205, 182); // match the above (x, y)
-  ctx.lineTo(750, 182);
-  ctx.stroke();
-  ctx.closePath();
-  ctx.globalAlpha = 1;
-}
-
-// Utility function to overlay "sourceavailable" image
-async function overlaySourceAvailableImage (ctx) {
+// Overlay source-available badge with resizing
+async function overlaySourceAvailableImage(ctx) {
   if (sourceavailableImage) {
-    try {
-      console.log('[DEBUG] Drawing source available badge');
-      // Position in the left side of the card
-      const x = 50;
-      const y = 95; // Near the bottom left
-      
-      // Maintain aspect ratio - the image is 500x500
-      const width = 220; // Smaller width for better appearance
-      const height = width; // Keep it circular by maintaining 1:1 ratio
-      
-      // Draw with proper circle clipping to ensure it looks good
-      ctx.save();
-      ctx.beginPath();
-      ctx.arc(x + width/2, y + height/2, width/2, 0, Math.PI * 2, true);
-      ctx.closePath();
-      ctx.clip();
-      
-      // Draw the image within the clipping path
-      ctx.drawImage(sourceavailableImage, x, y, width, height);
-      
-      // Restore context
-      ctx.restore();
-      
-      console.log('[DEBUG] Source available badge drawn successfully');
-    } catch (error) {
-      console.error('[DEBUG] Error drawing source available badge:', error.message);
-    }
-  } else {
-    console.warn('[DEBUG] Source available image not loaded');
+    const width = 200; // your preferred width
+    const height = 200; // your preferred height
+    const x = 60;
+    const y = 145;
+    ctx.drawImage(sourceavailableImage, x, y, width, height);
   }
 }
+
+// Overlay reproducible badge with resizing
+async function overlayReproducibleImage(ctx) {
+  if (reproducibleImage) {
+    const width = 284;
+    const height = 160;
+    const x = 800 - width - 20;
+    const y = 163;
+    ctx.drawImage(reproducibleImage, x, y, width, height);
+  }
+}
+
 
 // Core Functions - Canvas Image and Text Overlays
 
@@ -621,7 +599,7 @@ async function drawOnCanvas (data, iconImage) {
   const iconWidth = 80;
   const iconHeight = 80;
   const iconX = (width / 2) - (iconWidth / 2); // Center horizontally
-  const iconY = 150; // 100 if 1024x576
+  const iconY = 140; // Moved 10px up
   
   // Circuit lines have been removed as requested
   
@@ -681,9 +659,9 @@ async function drawOnCanvas (data, iconImage) {
     ctx.restore();
   }
   
-  // Title - centered below version
+  // Title - centered below version, with enough space for version
   ctx.textAlign = 'center';  // Print the title (truncate if longer than 20 characters)
-  const titleY = iconY + iconHeight + 60; // 60px below the icon
+  const titleY = iconY + iconHeight + 50; // Ensure enough space for version
   let displayTitle = data.title || 'Unknown Title';
   if (displayTitle.length > 20) {
     displayTitle = displayTitle.substring(0, 20) + '...';
@@ -692,7 +670,7 @@ async function drawOnCanvas (data, iconImage) {
   
   // Developer Name - in dark gray
   if (data.developerName) {
-    const devNameY = titleY + 33; // Moved 7px closer to title
+    const devNameY = titleY + 23; // Moved 10px up
     ctx.font = '400 20px Barlow';
     ctx.fillStyle = 'rgba(122, 122, 122, 1.0)'; // Dark gray color
     ctx.textAlign = 'center';
@@ -702,66 +680,94 @@ async function drawOnCanvas (data, iconImage) {
     // instead of "Source code is available" text
     if (data.verdict === 'sourceavailable') {
       // Calculate position based on whether developer name exists
-      const nostrY = data.developerName ? titleY + 80 : titleY + 40;
+      const nostrY = data.developerName ? titleY + 70 : titleY + 30; // Moved 10px up
       
-      // Properly center the box in the card
-      const boxWidth = 280; // Width of the Nostr info box
-      const nostrX = width / 2 - (boxWidth / 2) + 30; // Center the box, with slight adjustment to the right
+      // No need for separate nostrX variable - we'll use width/2 for centering everything
       
       // Display Nostr verification information for sourceavailable apps with meta: ok
       if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrAttestationCount > 0)) {
+        // 1. Measure each line with the correct font - no header text anymore
+        ctx.font = 'bold 18px Barlow';
+        const buildStatusWidth = data.nostrBuildStatus ? ctx.measureText(`Build: ${data.nostrBuildStatus}`).width : 0;
+        // For reproducible status, measure just the word without 'Build:'
+        const reproducibleWidth = data.nostrBuildStatus === 'reproducible' ? ctx.measureText('reproducible').width : 0;
+
+        ctx.font = 'normal 18px Barlow';
+        const attestationWidth = data.nostrAttestationCount > 0 ? ctx.measureText(`Attestations: ${data.nostrAttestationCount}`).width : 0;
+        const dateWidth = data.latestDate ? ctx.measureText(`Latest: ${data.latestDate}`).width : 0;
+
+        // 2. Find the max width, add padding
+        const maxTextWidth = Math.max(buildStatusWidth, attestationWidth, dateWidth);
+        const boxWidth = maxTextWidth + 70; // Add enough padding for longest string
+
+        // 3. Center the box on the canvas
+        const boxX = (width / 2) - (boxWidth / 2);
+        const boxY = nostrY - 15; // Move up since we removed the header
+        
+        // Adjust box height - for reproducible builds, we don't show the build status text
+        let boxHeight;
+        if (data.nostrBuildStatus === 'reproducible') {
+          // One less line of text for reproducible builds
+          boxHeight = data.nostrAttestationCount > 0 && data.latestDate ? 50 :
+                     data.nostrAttestationCount > 0 || data.latestDate ? 30 : 0; // No box if no text
+        } else {
+          boxHeight = data.nostrAttestationCount > 0 && data.nostrBuildStatus && data.latestDate ? 70 :
+                     (data.nostrAttestationCount > 0 || data.nostrBuildStatus) ? 45 : 25;
+        }
+
+        // 4. Draw Nostr bg information box - rounded rectangle with semi-transparent background
         ctx.save();
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
-        
-        // Adjust height based on whether we have all information
-        const boxHeight = data.nostrAttestationCount > 0 && data.nostrBuildStatus && data.latestDate ? 120 : 
-                         (data.nostrAttestationCount > 0 || data.nostrBuildStatus) ? 90 : 50;
-        const boxX = nostrX - 10;
-        const boxY = nostrY - 25;
-        
-        // Draw Nostr bg information box - rounded rectangle with semi-transparent background
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
         ctx.beginPath();
         ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 8);
         ctx.fill();
         ctx.restore();
-        
+
+        // 5. Draw text, all using width/2 as center
         // ===== BEGIN NOSTR INFO =====
-        // Draw Nostr header
-        ctx.font = 'bold 16px Barlow';
-        ctx.fillStyle = '#333333';
-        ctx.fillText('Nostr Verification', nostrX, nostrY - 5);
+        ctx.textAlign = 'center';
+        const textX = width / 2;
         
-        // Draw status text if available
+        // Create a variable to track the current Y position for text
+        let currentTextY = nostrY;
+        
+        // Draw status text if available - no header anymore
         if (data.nostrBuildStatus) {
-          const statusText = `Build: ${data.nostrBuildStatus}`;
-          const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
-                             (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
-          
-          ctx.font = 'bold 18px Barlow';
-          ctx.fillStyle = statusColor;
-          ctx.fillText(statusText, nostrX, nostrY + 25);
+          // Special handling for 'reproducible' status
+          if (data.nostrBuildStatus === 'reproducible') {
+            // Don't show text since we have a reproducible badge now
+            // No need to increment Y position since we're not drawing anything
+          } else {
+            // Normal rendering for other build statuses
+            ctx.font = 'bold 18px Barlow';
+            const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
+                               (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
+            ctx.fillStyle = statusColor;
+            ctx.fillText(`Build: ${data.nostrBuildStatus}`, textX, currentTextY + 5);
+            currentTextY += 25; // Increment for next text item
+          }
         }
         
         // Draw attestation count if available
         if (data.nostrAttestationCount > 0) {
           ctx.font = 'normal 18px Barlow';
           ctx.fillStyle = '#333333';
-          ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, nostrX, nostrY + 55);
+          ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, textX, currentTextY + 5);
+          currentTextY += 25; // Increment for next text item
         }
         
         // Draw date of latest verification if available
         if (data.latestDate) {
           ctx.font = 'normal 18px Barlow';
           ctx.fillStyle = '#333333';
-          ctx.fillText(`Latest: ${data.latestDate}`, nostrX, nostrY + 85);
+          ctx.fillText(`Latest: ${data.latestDate}`, textX, currentTextY + 5);
         }
         // ===== END NOSTR INFO =====
       } else if (data.meta === 'ok') {
         // If no Nostr data but app is source available with meta: ok, show a note
-        ctx.save();
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
-        
         const nostrText = 'No Nostr attestations yet';
+        
+        // Set font before measuring text
         ctx.font = 'normal 14px Barlow';
         const textMetrics = ctx.measureText(nostrText);
         
@@ -769,19 +775,22 @@ async function drawOnCanvas (data, iconImage) {
         const messageBoxWidth = textMetrics.width + 60;
         const boxHeight = 30;
         
-        // Center the box
+        // Center the box on the canvas
         const boxX = width / 2 - (messageBoxWidth / 2);
         const boxY = nostrY - 15;
         
         // Draw Nostr bg information box - rounded rectangle with semi-transparent background
+        ctx.save();
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
         ctx.beginPath();
         ctx.roundRect(boxX, boxY, messageBoxWidth, boxHeight, 8);
         ctx.fill();
         ctx.restore();
         
         // Nostr info - Draw the text centered in the box
+        ctx.textAlign = 'center';
         ctx.fillStyle = '#666666';
-        ctx.fillText(nostrText, nostrX, nostrY + 5); // "No Nostr attestations yet"
+        ctx.fillText(nostrText, width / 2, nostrY + 5); // "No Nostr attestations yet"
       } else {
         // No additional text for source available apps with meta != ok
         // The badge already indicates source availability
@@ -797,6 +806,17 @@ async function drawOnCanvas (data, iconImage) {
   // Add source available badge and Nostr verification info if needed
   if (data.verdict === 'sourceavailable') {
     await overlaySourceAvailableImage(ctx);
+    
+    // Debug logging for reproducible badge condition
+    console.log(`[DEBUG] App: ${data.title}, Verdict: ${data.verdict}, nostrBuildStatus: ${data.nostrBuildStatus}`);
+    
+    // Draw the reproducible badge if nostrBuildStatus is 'reproducible'
+    if (data.nostrBuildStatus === 'reproducible') {
+      console.log(`[DEBUG] Drawing reproducible badge for ${data.title}`);
+      await overlayReproducibleImage(ctx);
+    } else {
+      console.log(`[DEBUG] Not drawing reproducible badge for ${data.title} - status is not 'reproducible'`);
+    }
   }
   
   const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
@@ -806,9 +826,16 @@ async function drawOnCanvas (data, iconImage) {
   
   // Skip drawing verdict box and text for sourceavailable apps with meta: ok
   if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
-    // Draw a subtle rounded rectangle background for the verdict
-    const verdictMetrics = ctx.measureText(mappedVerdict);
-    const verdictWidth = verdictMetrics.width + 60; // Add more padding for longer verdicts
+    // Get wrapped lines for the verdict text to calculate proper width
+    const verdictLines = wrapText(mappedVerdict, 41);
+    
+    // Set font before measuring text
+    ctx.font = '400 19px Barlow';
+    
+    // Calculate width based on the widest line
+    const verdictWidths = verdictLines.map(line => ctx.measureText(line).width);
+    const maxVerdictWidth = Math.max(...verdictWidths);
+    const verdictWidth = maxVerdictWidth + 80; // Add more padding for longer verdicts
     const verdictHeight = 36;
     const verdictX = centerX - (verdictWidth / 2);
     const verdictRectY = verdictY - 24; // Position rectangle to center text vertically
@@ -955,6 +982,11 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
           console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrAttestationSummary.latestStatus}, V=${nostrAttestationSummary.latestVersion || 'N/A'}, Date=${nostrAttestationSummary.latestDate || 'N/A'}\x1b[0m`);
           data.nostrBuildStatus = nostrAttestationSummary.latestStatus;
           
+          // Debug output for reproducible status
+          if (nostrAttestationSummary.latestStatus === 'reproducible') {
+            console.log(`\x1b[32m[NOSTR] ★★★ REPRODUCIBLE BUILD DETECTED for ${data.appId} ★★★\x1b[0m`);
+          }
+          
           // Store the latest date for display in the Twitter card
           if (nostrAttestationSummary.latestDate) {
             data.latestDate = nostrAttestationSummary.latestDate;
@@ -991,11 +1023,17 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     }
   } else if (data.verdict === 'sourceavailable' && data.meta !== 'ok') {
     console.log(`\x1b[33m[NOSTR] App ${data.title} has verdict 'sourceavailable' but meta is not 'ok' (${data.meta}). Skipping Nostr processing.\x1b[0m`);
-    data.nostrBuildStatus = null;
+    // Don't reset nostrBuildStatus if it's 'reproducible' to ensure badge displays
+    if (data.nostrBuildStatus !== 'reproducible') {
+      data.nostrBuildStatus = null;
+    }
     data.nostrAttestationCount = 0;
   } else {
     // For verdicts other than 'sourceavailable', initialize Nostr fields to null
-    data.nostrBuildStatus = null;
+    // Don't reset nostrBuildStatus if it's 'reproducible' to ensure badge displays
+    if (data.nostrBuildStatus !== 'reproducible') {
+      data.nostrBuildStatus = null;
+    }
     data.nostrAttestationCount = 0;
   }
 
