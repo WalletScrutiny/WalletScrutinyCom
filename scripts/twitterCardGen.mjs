@@ -23,7 +23,7 @@ const backgroundImage = 'images/twCard/socGenCardblue.png';
 let bgImage, reproducibleImage, sourceavailableImage;
 // Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
-const reproducibleImagePath = 'images/twCard/reproducible.png';
+const reproducibleImagePath = 'images/twCard/reproducible7b.png';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
@@ -563,20 +563,37 @@ async function overlaySourceAvailableImage(ctx) {
     const height = 200; // your preferred height
     const x = 60;
     const y = 145;
+    
+    // Add drop shadow for the source-available badge
+    ctx.save();
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 10;
+    ctx.shadowOffsetX = 2;
+    ctx.shadowOffsetY = 2;
     ctx.drawImage(sourceavailableImage, x, y, width, height);
+    ctx.restore();
   }
 }
 
 // Overlay reproducible badge with resizing
 async function overlayReproducibleImage(ctx) {
   if (reproducibleImage) {
-    const width = 284;
-    const height = 160;
-    const x = 800 - width - 20;
-    const y = 163;
+    const width = 140;
+    const height = 140;
+    const x = 800 - width - 90;
+    const y = 170;
+    
+    // Add drop shadow for the reproducible badge
+    ctx.save();
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 10;
+    ctx.shadowOffsetX = 2;
+    ctx.shadowOffsetY = 2;
     ctx.drawImage(reproducibleImage, x, y, width, height);
+    ctx.restore();
   }
 }
+
 
 
 // Core Functions - Canvas Image and Text Overlays
@@ -595,31 +612,36 @@ async function drawOnCanvas (data, iconImage) {
   // Draw the adjusted background image
   ctx.drawImage(adjustedBgImage, 0, 0, width, height);
 
+
+  
   // Draw the resized icon image at specified coordinates
   const iconWidth = 80;
   const iconHeight = 80;
   const iconX = (width / 2) - (iconWidth / 2); // Center horizontally
   const iconY = 140; // Moved 10px up
   
-  // Circuit lines have been removed as requested
-  
-  // Create rounded rectangle clipping path for the icon
-  ctx.save();
-  ctx.beginPath();
-  ctx.moveTo(iconX + 12, iconY);
-  ctx.lineTo(iconX + iconWidth - 12, iconY);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 12);
-  ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 12);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 12, iconY + iconHeight);
-  ctx.lineTo(iconX + 12, iconY + iconHeight);
-  ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 12);
-  ctx.lineTo(iconX, iconY + 12);
-  ctx.quadraticCurveTo(iconX, iconY, iconX + 12, iconY);
-  ctx.closePath();
-  ctx.clip();
-  
-  ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-  ctx.restore();
+  // Apply drop shadow and clip, then draw the icon
+ctx.save();
+ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+ctx.shadowBlur = 10;
+ctx.shadowOffsetX = 3;
+ctx.shadowOffsetY = 3;
+
+ctx.beginPath();
+ctx.moveTo(iconX + 24, iconY);
+ctx.lineTo(iconX + iconWidth - 24, iconY);
+ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
+ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
+ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
+ctx.lineTo(iconX + 24, iconY + iconHeight);
+ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
+ctx.lineTo(iconX, iconY + 24);
+ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
+ctx.closePath();
+ctx.clip();
+
+ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
+ctx.restore();
   
   // Center everything below the icon
   const centerX = iconX + (iconWidth / 2);
@@ -655,16 +677,16 @@ async function drawOnCanvas (data, iconImage) {
     // Set text alignment to center
     ctx.textAlign = 'center';
     ctx.font = 'bold 14px Barlow';
-    printText(data.version, ctx, centerX, versionY, 'black', 'bold 14px Barlow', 7, 10);
+    printText(data.version, ctx, centerX, versionY, 'black', 'bold 16px Barlow', 7, 10);
     ctx.restore();
   }
   
   // Title - centered below version, with enough space for version
   ctx.textAlign = 'center';  // Print the title (truncate if longer than 20 characters)
-  const titleY = iconY + iconHeight + 50; // Ensure enough space for version
+  const titleY = iconY + iconHeight + 60; // Ensure enough space for version
   let displayTitle = data.title || 'Unknown Title';
-  if (displayTitle.length > 20) {
-    displayTitle = displayTitle.substring(0, 20) + '...';
+  if (displayTitle.length > 23) {
+    displayTitle = displayTitle.substring(0, 23) + '...';
   }
   printText(displayTitle, ctx, centerX, titleY, 'white', '22px Barlow', 42, 29);
   
@@ -818,6 +840,8 @@ async function drawOnCanvas (data, iconImage) {
       console.log(`[DEBUG] Not drawing reproducible badge for ${data.title} - status is not 'reproducible'`);
     }
   }
+  
+
   
   const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
   
@@ -1036,6 +1060,8 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     }
     data.nostrAttestationCount = 0;
   }
+
+
 
   // Draw on the canvas
   const canvas = await drawOnCanvas(data, iconImage);
