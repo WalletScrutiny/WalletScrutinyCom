@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Iritech, Inc
 providerWebsite: https://www.iritech.com/
-website: >-
-  https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications
+website: https://www.iritech.com/news-events/news/irikey-%E2%80%93-iris-based-secure-id-management-blockchain-applications
 shop: 
 country: 
 price: 

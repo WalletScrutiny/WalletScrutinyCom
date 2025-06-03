@@ -30,8 +30,7 @@ signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
 twitter: BitBananaApp
 social:
 - https://discord.gg/Xg85BuTc9A
-- >-
-  https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
+- https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
 redirect_from: 
 developerName: Michael Wünsch
 features: 

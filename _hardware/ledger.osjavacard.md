@@ -15,8 +15,7 @@ dimensions:
 weight: 0.75
 provider: Ledger
 providerWebsite: https://www.ledger.com/
-website: >-
-  https://web.archive.org/web/20160601075009/https://www.ledgerwallet.com/products/6-ledger-unplugged
+website: https://web.archive.org/web/20160601075009/https://www.ledgerwallet.com/products/6-ledger-unplugged
 shop: 
 country: FR
 price: 29EUR

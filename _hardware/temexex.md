@@ -15,10 +15,8 @@ dimensions:
 weight: 30
 provider: Temexe X
 providerWebsite: https://temexe.com/
-website: >-
-  https://www.amazon.com/-/es/Temexe-Cryptocurrency-Bluetooth-Encryption-recuperaciA13%B3n/dp/B07GJJ7RRS/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8
-shop: >-
-  https://www.amazon.com/-/es/Temexe-Cryptocurrency-Bluetooth-Encryption-recuperaciA13%B3n/dp/B07GJJ7RRS/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8
+website: https://www.amazon.com/-/es/Temexe-Cryptocurrency-Bluetooth-Encryption-recuperaciA13%B3n/dp/B07GJJ7RRS/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8
+shop: https://www.amazon.com/-/es/Temexe-Cryptocurrency-Bluetooth-Encryption-recuperaciA13%B3n/dp/B07GJJ7RRS/ref=cm_cr_arp_d_bdcrb_top?ie=UTF8
 country: US
 price: 
 repository: 

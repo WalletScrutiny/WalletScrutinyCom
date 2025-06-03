@@ -11,8 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: >-
-  https://web.archive.org/web/20210518113430/https://quickx.io/index.html#products
+providerWebsite: https://web.archive.org/web/20210518113430/https://quickx.io/index.html#products
 website: https://quickx.io
 shop: 
 country: 

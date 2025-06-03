@@ -18,8 +18,7 @@ ratings: 26
 reviews: 28
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android
-issue: >-
-  https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936
+issue: https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
@@ -33,8 +32,7 @@ signer: 79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42
 twitter: nunchuk_io
 social:
 - https://nunchuk.medium.com/
-- >-
-  https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
+- https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
 redirect_from: 
 developerName: Nunchuk Inc
 features: 

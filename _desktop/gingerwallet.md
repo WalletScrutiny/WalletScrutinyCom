@@ -21,8 +21,7 @@ date: 2025-04-22
 twitter: 
 social:
 - https://t.me/gingerwallet
-- >-
-  https://njump.me/npub1rqw94s9dt8lf0lernt72w29ctkr0skc5mjpy6e92ppktnvms0kwq540l8l
+- https://njump.me/npub1rqw94s9dt8lf0lernt72w29ctkr0skc5mjpy6e92ppktnvms0kwq540l8l
 features:
 - coinjoin
 - tor

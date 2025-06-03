@@ -5,8 +5,7 @@ authors:
 - danny
 icon: altcoininvest.be.card.png
 date: 2022-05-17
-website: >-
-  https://www.kickstarter.com/projects/1363677689/simple-yet-brilliant-safe-multi-crypto-currency-co#
+website: https://www.kickstarter.com/projects/1363677689/simple-yet-brilliant-safe-multi-crypto-currency-co#
 provider: Frederic Exelmans
 country: BE
 meta: ok

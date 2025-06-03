@@ -25,8 +25,7 @@ date: 2025-02-28
 signer: 
 twitter: tando_me
 social:
-- >-
-  https://njump.me/npub1tand04svfdhrt7lhg6687fh0y2xvxfpr9nkkj27rqfrxfpeklldsp48sax
+- https://njump.me/npub1tand04svfdhrt7lhg6687fh0y2xvxfpr9nkkj27rqfrxfpeklldsp48sax
 - https://www.instagram.com/tando_to
 - https://www.linkedin.com/company/tando-me
 - https://www.tiktok.com/@tando.me

@@ -167,6 +167,7 @@ function getResult (header, body) {
 ${yaml.dump(header, {
   noArrayIndent: true,
   schema: schema,
+  lineWidth: -1,
   styles: {
     '!!timestamp': 'plain'  // Prevent quoting of dates
   }

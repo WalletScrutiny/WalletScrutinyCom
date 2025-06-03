@@ -13,10 +13,8 @@ dimensions:
 weight: 
 provider: Shift Crypto
 providerWebsite: https://shiftcrypto.ch
-website: >-
-  https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B06XGKQ929
-shop: >-
-  https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B06XGKQ929
+website: https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B06XGKQ929
+shop: https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B06XGKQ929
 country: CH
 price: 54.75 USD
 repository: 

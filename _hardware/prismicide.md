@@ -16,8 +16,7 @@ weight:
 provider: PRISMicide
 providerWebsite: 
 website: https://web.archive.org/web/20140704160112/http://www.prismicide.com/
-shop: >-
-  https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
+shop: https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-hardware-wallet-and-anti-prism-platform#/
 country: FR
 price: 
 repository: 

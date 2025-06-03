@@ -14,8 +14,7 @@ weight:
 provider: Bixin
 providerWebsite: 
 website: https://onekey.so/
-shop: >-
-  https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
+shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
