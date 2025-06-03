@@ -20,10 +20,11 @@ const mdFolders = [
 const SKIP_NOSTR = process.argv.includes('--skip-nostr'); // Skip Nostr integration if this flag is provided
 const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
-let bgImage, reproducibleImage, sourceavailableImage;
+let bgImage, reproducibleImage, sourceavailableImage, androidImage;
 // Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 const reproducibleImagePath = 'images/twCard/reproducible7b.png';
+const androidImagePath = 'images/twCard/android_icon.png';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
@@ -57,6 +58,13 @@ async function loadResources () {
     reproducibleImage = await loadImage(reproducibleImagePath);
   } catch (error) {
     console.warn(`Could not load reproducible image from ${reproducibleImagePath}: ${error.message}`);
+  }
+  
+  // Load the android image
+  try {
+    androidImage = await loadImage(androidImagePath);
+  } catch (error) {
+    console.warn(`Could not load android image from ${androidImagePath}: ${error.message}`);
   }
   
   // Register fonts
@@ -594,7 +602,27 @@ async function overlayReproducibleImage(ctx) {
   }
 }
 
-
+// Draw Android icon as a background element for Android apps
+async function drawAndroidBackground(ctx, width, height) {
+  if (androidImage) {
+    // Use the natural size of the Android icon
+    const androidIconWidth = androidImage.width;
+    const androidIconHeight = androidImage.height;
+    
+    // Center horizontally and align with bottom of card
+    const x = (width - androidIconWidth) / 2;
+    const y = height - androidIconHeight - 19; // Align with bottom of card
+    
+    // Position the Android icon at the bottom center of the card
+    
+    // Draw with low opacity to make it a subtle background element
+    ctx.save();
+    ctx.globalAlpha = 0.15; // Very transparent
+    ctx.drawImage(androidImage, x, y);
+    ctx.globalAlpha = 1.0; // Reset opacity
+    ctx.restore();
+  }
+}
 
 // Core Functions - Canvas Image and Text Overlays
 
@@ -611,8 +639,11 @@ async function drawOnCanvas (data, iconImage) {
   
   // Draw the adjusted background image
   ctx.drawImage(adjustedBgImage, 0, 0, width, height);
-
-
+  
+  // Add Android icon as background for Android apps
+  if (data.isAndroidApp) {
+    await drawAndroidBackground(ctx, width, height);
+  }
   
   // Draw the resized icon image at specified coordinates
   const iconWidth = 80;
@@ -621,27 +652,27 @@ async function drawOnCanvas (data, iconImage) {
   const iconY = 140; // Moved 10px up
   
   // Apply drop shadow and clip, then draw the icon
-ctx.save();
-ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
-ctx.shadowBlur = 10;
-ctx.shadowOffsetX = 3;
-ctx.shadowOffsetY = 3;
+  ctx.save();
+  ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+  ctx.shadowBlur = 10;
+  ctx.shadowOffsetX = 3;
+  ctx.shadowOffsetY = 3;
 
-ctx.beginPath();
-ctx.moveTo(iconX + 24, iconY);
-ctx.lineTo(iconX + iconWidth - 24, iconY);
-ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
-ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
-ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
-ctx.lineTo(iconX + 24, iconY + iconHeight);
-ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
-ctx.lineTo(iconX, iconY + 24);
-ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
-ctx.closePath();
-ctx.clip();
+  ctx.beginPath();
+  ctx.moveTo(iconX + 24, iconY);
+  ctx.lineTo(iconX + iconWidth - 24, iconY);
+  ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
+  ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
+  ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
+  ctx.lineTo(iconX + 24, iconY + iconHeight);
+  ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
+  ctx.lineTo(iconX, iconY + 24);
+  ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
+  ctx.closePath();
+  ctx.clip();
 
-ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-ctx.restore();
+  ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
+  ctx.restore();
   
   // Center everything below the icon
   const centerX = iconX + (iconWidth / 2);
@@ -841,7 +872,7 @@ ctx.restore();
     }
   }
   
-
+  // Android icon is now drawn as a background element earlier in the function
   
   const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
   
@@ -963,12 +994,15 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     totalFiles--;
     return;
   }
+  
+  // Check if the app is from the _android folder
+  data.isAndroidApp = mdFilesPath.includes('_android');
 
   let iconImagePath = path.join('images', 'wIcons', platform, 'small', `${data.icon}`);
   if (!fs.existsSync(iconImagePath)) {
     iconImagePath = fallbackIcon;
   }
-
+  
   // Load the bg image and icon
   let iconImage;
   try {
