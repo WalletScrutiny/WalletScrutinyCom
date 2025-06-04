@@ -24,7 +24,7 @@ const sourceAvailableBgImage = 'images/twCard/sourceavailableBG.png';
 let bgImage, reproducibleImage, sourceavailableImage, androidImage, sourceAvailableBg;
 // Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
-const reproducibleImagePath = 'images/twCard/reproducible7b.png';
+const reproducibleImagePath = 'images/twCard/reproducible.png';
 const androidImagePath = 'images/twCard/android_icon.png';
 const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
@@ -597,7 +597,7 @@ async function drawAndroidBackground(ctx, width, height, data) {
     
     // Center horizontally and align with bottom of card
     const x = (width - androidIconWidth) / 2;
-    const y = height - androidIconHeight - 20; // lessen last value to move android icon down
+    const y = height - androidIconHeight - 18; // lessen last value to move android icon down
     
     // Position the Android icon at the bottom center of the card
     
