@@ -16,8 +16,7 @@ const mdFolders = [
   '_iphone',
   '_desktop']; // MD file folders
 
-// Configuration flags
-const SKIP_NOSTR = process.argv.includes('--skip-nostr'); // Skip Nostr integration if this flag is provided
+// Configuration paths
 const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
 const sourceAvailableBgImage = 'images/twCard/sourceavailableBG.png';
@@ -30,6 +29,12 @@ const fallbackIcon = 'images/smallNoicon.png';
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
+// Manual mapping for Nostr build statuses
+const nostrStatusMap = {
+  'reproducible': 'Reproducible',
+  'not_reproducible': 'Not Reproducible',
+  'ftbfs': 'The verifier failed to build the app from the source code'
+};
 // Cache for Nostr verification info to avoid repeated grep/jq calls
 let nostrVerificationCache = new Map();
 
@@ -86,7 +91,7 @@ async function loadResources () {
   // Clear the verification cache
   nostrVerificationCache.clear();
   
-  if (!SKIP_NOSTR && fs.existsSync(NOSTR_BACKUP_PATH)) {
+  if (fs.existsSync(NOSTR_BACKUP_PATH)) {
     try {
       // Check if there are any JSON files in the backup directory
       const result = execSync(`find ${NOSTR_BACKUP_PATH} -name "*.json" | wc -l`, { encoding: 'utf8' });
@@ -101,8 +106,6 @@ async function loadResources () {
     } catch (error) {
       console.warn(`[NOSTR] Error checking Nostr backup files: ${error.message}`);
     }
-  } else if (SKIP_NOSTR) {
-    console.log('[NOSTR] --skip-nostr flag provided, skipping Nostr integration');
   } else {
     console.log(`[NOSTR] Nostr backup directory not found at ${NOSTR_BACKUP_PATH}`);
   }
@@ -252,8 +255,8 @@ function compareVersions(a, b) {
   return 0;
 }
 
-// Function to get Nostr attestation summary for an app using grep and jq on local files
-function getNostrAttestationSummaryForApp(appId) {
+// Function to get Nostr verification summary for an app using grep and jq on local files
+function getNostrVerificationSummaryForApp(appId) {
   // Check if we already have cached results for this appId
   if (nostrVerificationCache.has(appId)) {
     return nostrVerificationCache.get(appId);
@@ -275,7 +278,7 @@ function getNostrAttestationSummaryForApp(appId) {
         latestStatus: null,
         latestVersion: null,
         latestDate: null,
-        attestationCount: 0,
+        verificationCount: 0,
         reproducibleCount: 0
       };
       nostrVerificationCache.set(appId, emptySummary);
@@ -295,7 +298,7 @@ function getNostrAttestationSummaryForApp(appId) {
         latestStatus: null,
         latestVersion: null,
         latestDate: null,
-        attestationCount: 0,
+        verificationCount: 0,
         reproducibleCount: 0
       };
       nostrVerificationCache.set(appId, emptySummary);
@@ -309,14 +312,14 @@ function getNostrAttestationSummaryForApp(appId) {
     const formattedDate = latestEvent.date ? 
       new Date(parseInt(latestEvent.date) * 1000).toISOString().split('T')[0] : null;
     
-    // Count how many attestations have status 'reproducible'
+    // Count how many verifications have status 'reproducible'
     const reproducibleCount = events.filter(event => event.status === 'reproducible').length;
     
     const summary = {
       latestStatus: latestEvent.status || 'unknown',
       latestVersion: latestEvent.version || null,
       latestDate: formattedDate,
-      attestationCount: events.length,
+      verificationCount: events.length,
       reproducibleCount: reproducibleCount
     };
     
@@ -329,7 +332,7 @@ function getNostrAttestationSummaryForApp(appId) {
       latestStatus: null,
       latestVersion: null,
       latestDate: null,
-      attestationCount: 0,
+      verificationCount: 0,
       reproducibleCount: 0
     };
   }
@@ -690,68 +693,64 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
   }
   
   // Nostr verification box in the center and right side
-  if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrAttestationCount > 0)) {
+  if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrVerificationCount > 0)) {
     // Create a large box for Nostr information
-    const nostrBoxX = width / 2 - 230; // increase x in 2 - x value to move nostr box horizontally
-    const nostrBoxY = 130;
-    const nostrBoxWidth = 600;
-    const nostrBoxHeight = height - nostrBoxY - 35; // decrease x in h - nbY -x to increase nostr box height
+    const nostrBoxX = 170;
+    const nostrBoxY = 148;
+    const nostrBoxWidth = 610;
+    const nostrBoxHeight = 280;
     
-    // Draw a semi-transparent box for Nostr information
+    // Draw Nostr box with rounded corners
     ctx.save();
-    ctx.fillStyle = 'rgba(240, 240, 240, 0.85)';
     ctx.beginPath();
-    ctx.roundRect(nostrBoxX, nostrBoxY, nostrBoxWidth, nostrBoxHeight, 10);
+    ctx.roundRect(nostrBoxX, nostrBoxY, nostrBoxWidth, nostrBoxHeight, 15);
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'; // Black background with 50% transparency
     ctx.fill();
-    
-    // Add a subtle border
-    ctx.strokeStyle = 'rgba(117, 12, 138, 0.6)';
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    ctx.roundRect(nostrBoxX, nostrBoxY, nostrBoxWidth, nostrBoxHeight, 10);
-    ctx.stroke();
     ctx.restore();
-    
+        
     // Draw Nostr information title
     ctx.font = 'bold 22px Barlow';
-    ctx.fillStyle = '#333333';
+    ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
-    ctx.fillText('Nostr Verification', nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 30);
+    ctx.fillText('Nostr Verification', nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 50);
     
     // Create a variable to track the current Y position for text
-    let currentTextY = nostrBoxY + 60;
+    let currentTextY = nostrBoxY + 90;
     
     // Draw build status if available
     if (data.nostrBuildStatus) {
+      // Get mapped status text or use original if no mapping exists
+      const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
+      
       // Special handling for 'reproducible' status
       if (data.nostrBuildStatus === 'reproducible') {
         ctx.font = 'bold 20px Barlow';
-        ctx.fillStyle = '#28A745'; // Green for reproducible
-        ctx.fillText('Build Status: Reproducible', nostrBoxX + nostrBoxWidth / 2, currentTextY);
+        ctx.fillStyle = '#4AE06B'; // Brighter green for reproducible on dark background
+        ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       } else {
         // Normal rendering for other build statuses
         ctx.font = 'bold 20px Barlow';
-        const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
-                          (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
+        const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
+                          (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
         ctx.fillStyle = statusColor;
-        ctx.fillText(`Build Status: ${data.nostrBuildStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
+        ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       }
       currentTextY += 40;
     }
     
-    // Draw attestation count if available
-    if (data.nostrAttestationCount > 0) {
+    // Draw verification count if available
+    if (data.nostrVerificationCount > 0) {
       ctx.font = 'normal 18px Barlow';
-      ctx.fillStyle = '#333333';
+      ctx.fillStyle = '#FFFFFF'; // White text for dark background
       
       // Display reproducible count if available
       if (data.nostrReproducibleCount > 0) {
-        ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrAttestationCount} attestations`, 
+        ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`, 
                     nostrBoxX + nostrBoxWidth / 2, currentTextY);
         currentTextY += 30;
-        ctx.fillText('reproducible', nostrBoxX + nostrBoxWidth / 2, currentTextY);
+        ctx.fillText('are reproducible', nostrBoxX + nostrBoxWidth / 2, currentTextY);
       } else {
-        ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, 
+        ctx.fillText(`Verifications: ${data.nostrVerificationCount}`, 
                     nostrBoxX + nostrBoxWidth / 2, currentTextY);
       }
       currentTextY += 40;
@@ -760,7 +759,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     // Draw date of latest verification if available
     if (data.latestDate) {
       ctx.font = 'normal 18px Barlow';
-      ctx.fillStyle = '#333333';
+      ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest verification: ${data.latestDate}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
       currentTextY += 40;
@@ -769,17 +768,17 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     // Draw latest version verified if available
     if (data.nostrBuildStatus && data.latestVersion) {
       ctx.font = 'normal 18px Barlow';
-      ctx.fillStyle = '#333333';
+      ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest version verified: ${data.latestVersion}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
     }
   } else if (data.meta === 'ok') {
     // If no Nostr data but app is source available with meta: ok, show a note
-    const nostrText = 'No Nostr attestations yet';
+    const nostrText = 'No Nostr verifications yet';
     
     // Draw the text in the center-right area
     ctx.font = 'normal 18px Barlow';
-    ctx.fillStyle = '#666666';
+    ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
     ctx.fillText(nostrText, width * 0.75, height / 2);
   }
@@ -949,7 +948,7 @@ async function drawOnCanvas (data, iconImage) {
       // No need for separate nostrX variable - we'll use width/2 for centering everything
       
       // Display Nostr verification information for sourceavailable apps with meta: ok
-      if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrAttestationCount > 0)) {
+      if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrVerificationCount > 0)) {
         // 1. Measure each line with the correct font - no header text anymore
         ctx.font = 'bold 18px Barlow';
         const buildStatusWidth = data.nostrBuildStatus ? ctx.measureText(`Build: ${data.nostrBuildStatus}`).width : 0;
@@ -957,16 +956,16 @@ async function drawOnCanvas (data, iconImage) {
         const reproducibleWidth = data.nostrBuildStatus === 'reproducible' ? ctx.measureText('reproducible').width : 0;
 
         ctx.font = 'normal 18px Barlow';
-        // Calculate width for attestation count text, including reproducible count if available
-        let attestationWidth = 0;
-        if (data.nostrAttestationCount > 0) {
+        // Calculate width for verification count text, including reproducible count if available
+        let verificationWidth = 0;
+        if (data.nostrVerificationCount > 0) {
           if (data.nostrReproducibleCount > 0) {
             // Measure both lines and take the wider one
-            const line1Width = ctx.measureText(`${data.nostrReproducibleCount} of ${data.nostrAttestationCount} attestations`).width;
+            const line1Width = ctx.measureText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`).width;
             const line2Width = ctx.measureText('reproducible').width;
-            attestationWidth = Math.max(line1Width, line2Width);
+            verificationWidth = Math.max(line1Width, line2Width);
           } else {
-            attestationWidth = ctx.measureText(`Attestations: ${data.nostrAttestationCount}`).width;
+            verificationWidth = ctx.measureText(`Verifications: ${data.nostrVerificationCount}`).width;
           }
         }
         
@@ -978,7 +977,7 @@ async function drawOnCanvas (data, iconImage) {
                            ctx.measureText(`Latest status: ${data.nostrBuildStatus}`).width : 0;
 
         // 2. Find the max width, add padding
-        const maxTextWidth = Math.max(buildStatusWidth, attestationWidth, dateWidth, versionWidth, statusWidth);
+        const maxTextWidth = Math.max(buildStatusWidth, verificationWidth, dateWidth, versionWidth, statusWidth);
         const boxWidth = maxTextWidth + 100; // Add more padding to ensure text fits
 
         // 3. Center the box on the canvas
@@ -991,12 +990,12 @@ async function drawOnCanvas (data, iconImage) {
         // Count how many text lines we'll have
         let lineCount = 0;
         
-        // Attestation count (1 or 2 lines depending on if it's reproducible)
-        if (data.nostrAttestationCount > 0) {
+        // Verification count (1 or 2 lines depending on if it's reproducible)
+        if (data.nostrVerificationCount > 0) {
           if (data.nostrReproducibleCount > 0) {
             lineCount += 2; // Two lines for reproducible count
           } else {
-            lineCount += 1; // One line for regular attestation count
+            lineCount += 1; // One line for regular verification count
           }
         }
         
@@ -1051,16 +1050,18 @@ async function drawOnCanvas (data, iconImage) {
           } else {
             // Normal rendering for other build statuses
             ctx.font = 'bold 18px Barlow';
-            const statusColor = data.nostrBuildStatus === 'success' ? '#28A745' : 
-                               (data.nostrBuildStatus === 'failed' ? '#DC3545' : '#FFC107');
+            const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
+                               (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
             ctx.fillStyle = statusColor;
-            ctx.fillText(`Build: ${data.nostrBuildStatus}`, textX, currentTextY + 5);
+            // Get mapped status text or use original if no mapping exists
+            const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
+            ctx.fillText(`Latest Build Status: ${mappedStatus}`, textX, currentTextY + 15);
             currentTextY += 25; // Increment for next text item
           }
         }
         
-        // Draw attestation count if available
-        if (data.nostrAttestationCount > 0) {
+        // Draw verification count if available
+        if (data.nostrVerificationCount > 0) {
           currentTextY += 25; // Increment for next text item
           ctx.font = 'normal 18px Barlow';
           ctx.fillStyle = '#333333';
@@ -1069,12 +1070,12 @@ async function drawOnCanvas (data, iconImage) {
           if (data.nostrReproducibleCount > 0) {
             // Split into two lines for better readability
             ctx.font = 'normal 16px Barlow';
-            ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrAttestationCount} attestations`, textX, currentTextY + 5);
+            ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`, textX, currentTextY + 5);
             currentTextY += 20; // Add space for second line (tighter spacing)
             ctx.fillText('reproducible', textX, currentTextY + 5);
           } else {
             ctx.font = 'normal 16px Barlow';
-            ctx.fillText(`Attestations: ${data.nostrAttestationCount}`, textX, currentTextY + 5);
+            ctx.fillText(`Verifications: ${data.nostrVerificationCount}`, textX, currentTextY + 5);
           }
           currentTextY += 20; // Increment for next text item (tighter spacing)
         }
@@ -1082,7 +1083,7 @@ async function drawOnCanvas (data, iconImage) {
         // Draw date of latest verification if available
         if (data.latestDate) {
           ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#333333';
+          ctx.fillStyle = '#FFFFFF'; // White text for dark background
           ctx.fillText(`Latest verification: ${data.latestDate}`, textX, currentTextY + 5);
           currentTextY += 20; // Increment for next text item (tighter spacing)
         }
@@ -1090,7 +1091,7 @@ async function drawOnCanvas (data, iconImage) {
         // Draw latest version verified if available
         if (data.nostrBuildStatus && data.latestVersion) {
           ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#333333';
+          ctx.fillStyle = '#FFFFFF'; // White text for dark background
           ctx.fillText(`Latest version verified: ${data.latestVersion}`, textX, currentTextY + 5);
           currentTextY += 20; // Increment for next text item (tighter spacing)
         }
@@ -1101,13 +1102,15 @@ async function drawOnCanvas (data, iconImage) {
             !data.nostrBuildStatus.includes('success') && 
             !data.nostrBuildStatus.includes('failed')) {
           ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#FFC107'; // Yellow for other statuses
-          ctx.fillText(`Latest status: ${data.nostrBuildStatus}`, textX, currentTextY + 5);
+          ctx.fillStyle = '#FFD54F'; // Brighter yellow for better visibility on dark background
+          // Get mapped status text or use original if no mapping exists
+          const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
+          ctx.fillText(`Latest status: ${mappedStatus}`, textX, currentTextY + 5);
         }
         // ===== END NOSTR INFO =====
       } else if (data.meta === 'ok') {
         // If no Nostr data but app is source available with meta: ok, show a note
-        const nostrText = 'No Nostr attestations yet';
+        const nostrText = 'No Nostr verifications yet';
         
         // Set font before measuring text
         ctx.font = 'normal 14px Barlow';
@@ -1132,7 +1135,7 @@ async function drawOnCanvas (data, iconImage) {
         // Nostr info - Draw the text centered in the box
         ctx.textAlign = 'center';
         ctx.fillStyle = '#666666';
-        ctx.fillText(nostrText, width / 2, nostrY + 5); // "No Nostr attestations yet"
+        ctx.fillText(nostrText, width / 2, nostrY + 5); // "No Nostr verifications yet"
       } else {
         // No additional text for source available apps with meta != ok
         // The badge already indicates source availability
@@ -1305,52 +1308,52 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
   // Add Nostr data for sourceavailable apps with meta: ok
   if (data.verdict === 'sourceavailable' && data.meta === 'ok') {
     data.nostrBuildStatus = null; // Initialize
-    data.nostrAttestationCount = 0; // Initialize
+    data.nostrVerificationCount = 0; // Initialize
     data.nostrReproducibleCount = 0; // Initialize
 
     console.log(`\x1b[36m[NOSTR] Processing source available app: ${data.title} (${file})\x1b[0m`);
     
-    if (data.appId && !SKIP_NOSTR && fs.existsSync(NOSTR_BACKUP_PATH)) {
+    if (data.appId && fs.existsSync(NOSTR_BACKUP_PATH)) {
       try {
         console.log(`[NOSTR] Checking local Nostr data for ${data.appId}...`);
-        const nostrAttestationSummary = getNostrAttestationSummaryForApp(data.appId);
+        const nostrVerificationSummary = getNostrVerificationSummaryForApp(data.appId);
         
         // Always store the count, even if no 'latest' event was suitable
-        if (nostrAttestationSummary) {
-          data.nostrAttestationCount = nostrAttestationSummary.attestationCount;
-          data.nostrReproducibleCount = nostrAttestationSummary.reproducibleCount;
+        if (nostrVerificationSummary) {
+          data.nostrVerificationCount = nostrVerificationSummary.verificationCount;
+          data.nostrReproducibleCount = nostrVerificationSummary.reproducibleCount;
           
-          if (data.nostrAttestationCount > 0) {
-            console.log(`\x1b[32m[NOSTR] Found ${data.nostrAttestationCount} attestations for ${data.appId} (${data.nostrReproducibleCount} reproducible)\x1b[0m`);
+          if (data.nostrVerificationCount > 0) {
+            console.log(`\x1b[32m[NOSTR] Found ${data.nostrVerificationCount} verifications for ${data.appId} (${data.nostrReproducibleCount} reproducible)\x1b[0m`);
           } else {
-            console.log(`\x1b[33m[NOSTR] No attestations found for ${data.appId}\x1b[0m`);
+            console.log(`\x1b[33m[NOSTR] No verifications found for ${data.appId}\x1b[0m`);
           }
         }
 
-        if (nostrAttestationSummary && nostrAttestationSummary.latestStatus) {
-          console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrAttestationSummary.latestStatus}, V=${nostrAttestationSummary.latestVersion || 'N/A'}, Date=${nostrAttestationSummary.latestDate || 'N/A'}\x1b[0m`);
-          data.nostrBuildStatus = nostrAttestationSummary.latestStatus;
+        if (nostrVerificationSummary && nostrVerificationSummary.latestStatus) {
+          console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrVerificationSummary.latestStatus}, V=${nostrVerificationSummary.latestVersion || 'N/A'}, Date=${nostrVerificationSummary.latestDate || 'N/A'}\x1b[0m`);
+          data.nostrBuildStatus = nostrVerificationSummary.latestStatus;
           
           // Debug output for reproducible status
-          if (nostrAttestationSummary.latestStatus === 'reproducible') {
+          if (nostrVerificationSummary.latestStatus === 'reproducible') {
             console.log(`\x1b[32m[NOSTR] ★★★ REPRODUCIBLE BUILD DETECTED for ${data.appId} ★★★\x1b[0m`);
           }
           
           // Store the latest date for display in the Twitter card
-          if (nostrAttestationSummary.latestDate) {
-            data.latestDate = nostrAttestationSummary.latestDate;
+          if (nostrVerificationSummary.latestDate) {
+            data.latestDate = nostrVerificationSummary.latestDate;
             console.log(`[NOSTR] Latest verification date: ${data.latestDate}`);
           }
           
           // Only override version and date if Nostr provides them
-          if (nostrAttestationSummary.latestVersion) {
+          if (nostrVerificationSummary.latestVersion) {
             // Store latest version in both fields - one for display in version badge, one for info box
-            data.version = nostrAttestationSummary.latestVersion;
-            data.latestVersion = nostrAttestationSummary.latestVersion;
+            data.version = nostrVerificationSummary.latestVersion;
+            data.latestVersion = nostrVerificationSummary.latestVersion;
             console.log(`[NOSTR] Updated version to ${data.version} from Nostr`);
           }
-          if (nostrAttestationSummary.latestDate) {
-            data.date = nostrAttestationSummary.latestDate;
+          if (nostrVerificationSummary.latestDate) {
+            data.date = nostrVerificationSummary.latestDate;
             console.log(`[NOSTR] Updated date to ${data.date} from Nostr`);
           }
         } else {
@@ -1360,8 +1363,6 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
         console.error(`\x1b[31m[NOSTR] Error processing Nostr data for ${data.appId}: ${error.message}\x1b[0m`);
         // Continue without Nostr data
       }
-    } else if (data.appId && SKIP_NOSTR) {
-      console.log(`\x1b[33m[NOSTR] Skipping Nostr data for ${data.appId} due to --skip-nostr flag\x1b[0m`);
     } else if (data.appId && !fs.existsSync(NOSTR_BACKUP_PATH)) {
       console.warn(`\x1b[33m[NOSTR] No Nostr backup directory available for ${data.appId}. Using MD data only.\x1b[0m`);
     } else if (!data.appId) {
@@ -1369,8 +1370,8 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     }
     
     // Summary of Nostr data for this app
-    if (data.nostrBuildStatus || data.nostrAttestationCount > 0) {
-      console.log(`\x1b[36m[NOSTR] Final data for ${data.title}: buildStatus=${data.nostrBuildStatus || 'N/A'}, attestationCount=${data.nostrAttestationCount}, reproducibleCount=${data.nostrReproducibleCount || 0}\x1b[0m`);
+    if (data.nostrBuildStatus || data.nostrVerificationCount > 0) {
+      console.log(`\x1b[36m[NOSTR] Final data for ${data.title}: buildStatus=${data.nostrBuildStatus || 'N/A'}, verificationCount=${data.nostrVerificationCount}, reproducibleCount=${data.nostrReproducibleCount || 0}\x1b[0m`);
     }
   } else if (data.verdict === 'sourceavailable' && data.meta !== 'ok') {
     console.log(`\x1b[33m[NOSTR] App ${data.title} has verdict 'sourceavailable' but meta is not 'ok' (${data.meta}). Skipping Nostr processing.\x1b[0m`);
@@ -1378,7 +1379,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     if (data.nostrBuildStatus !== 'reproducible') {
       data.nostrBuildStatus = null;
     }
-    data.nostrAttestationCount = 0;
+    data.nostrVerificationCount = 0;
     data.nostrReproducibleCount = 0;
   } else {
     // For verdicts other than 'sourceavailable', initialize Nostr fields to null
@@ -1386,7 +1387,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     if (data.nostrBuildStatus !== 'reproducible') {
       data.nostrBuildStatus = null;
     }
-    data.nostrAttestationCount = 0;
+    data.nostrVerificationCount = 0;
     data.nostrReproducibleCount = 0;
   }
 
