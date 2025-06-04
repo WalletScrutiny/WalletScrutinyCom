@@ -1,0 +1,84 @@
+---
+layout: default
+permalink: /custodians/
+---
+
+{% include base_path %}
+
+<div class="custodians-title-wrapper">
+  <h1 class="custodians-title">Custodians</h1>
+</div>
+
+<div class="custodians-grid">
+  {% assign custodians = site.custodians | sort: "name" %}
+  {% for custodian in custodians %}
+    {% unless custodian.name contains "template" %}
+      <a href="{{ custodian.url }}" class="custodian-card-link">
+        <div class="custodian-card">
+          <div class="custodian-header">
+            {% if custodian.icon %}
+              <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
+            {% endif %}
+            {% assign jurisdiction_text = custodian.custodian.leadership.jurisdiction | strip_html | strip | replace: '"', '' %}
+            <div class="flag-container" title="{{ jurisdiction_text }}">
+              {% if custodian.custodian.leadership.jurisdiction contains '<img' %}
+                {% assign img_html = custodian.custodian.leadership.jurisdiction | split: '<img' | last | split: '>' | first %}
+                <img{{ img_html }}>
+              {% else %}
+                {% assign jurisdiction_parts = custodian.custodian.leadership.jurisdiction | strip | split: ' ' %}
+                {% if jurisdiction_parts.size > 0 %}
+                  <span class="flag-emoji">{{ jurisdiction_parts[0] }}</span>
+                {% endif %}
+              {% endif %}
+            </div>
+            <h2 class="custodian-title">{{ custodian.title }}</h2>
+          </div>
+          
+          <div class="card-content">
+            <!-- BTC Under Custody directly below the company name -->
+            {% assign btcAmount = "N/A" %}
+            {% assign btcSource = "" %}
+            {% assign btcDate = "" %}
+            {% if custodian.custodian.operations.cryptographicProof.valid and custodian.custodian.operations.cryptographicProof.btcAmount != "" %}
+              {% assign btcAmount = custodian.custodian.operations.cryptographicProof.btcAmount %}
+              {% assign btcSource = custodian.custodian.operations.cryptographicProof.source %}
+              {% assign btcDate = custodian.custodian.operations.cryptographicProof.lastUpdated %}
+            {% elsif custodian.custodian.operations.thirdPartyAudit.valid and custodian.custodian.operations.thirdPartyAudit.btcAmount != "" %}
+              {% assign btcAmount = custodian.custodian.operations.thirdPartyAudit.btcAmount %}
+              {% assign btcSource = custodian.custodian.operations.thirdPartyAudit.source %}
+              {% assign btcDate = custodian.custodian.operations.thirdPartyAudit.lastUpdated %}
+            {% elsif custodian.custodian.operations.selfReported.valid and custodian.custodian.operations.selfReported.btcAmount != "" %}
+              {% assign btcAmount = custodian.custodian.operations.selfReported.btcAmount %}
+              {% assign btcSource = custodian.custodian.operations.selfReported.source %}
+              {% assign btcDate = custodian.custodian.operations.selfReported.lastUpdated %}
+            {% endif %}
+            
+            <div class="btc-custody-section">
+              <div class="btc-value">{{ btcAmount }}</div>
+              <div class="btc-label">Est. BTC Under Custody</div>
+              {% if btcSource != "" %}
+                <i class="fas fa-info-circle btc-info-icon" title="Source: {{ btcSource }}&#10;Last Updated: {{ btcDate }}"></i>
+              {% endif %}
+            </div>
+
+            <!-- Bottom section with Users and Years in 2-column layout -->
+            <div class="bottom-metrics">
+              <div class="bottom-metric-item">
+                <div class="bottom-metric-label">Users</div>
+                <div class="bottom-metric-value">{{ custodian.custodian.operations.users | default: "N/A" }}</div>
+              </div>
+              
+              <div class="bottom-metric-item">
+                <div class="bottom-metric-label">Years</div>
+                <div class="bottom-metric-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/custodians.css">
+<script src="{{ base_path }}/assets/js/custodians.js" defer></script>

@@ -1,0 +1,136 @@
+---
+layout: archive
+title: Custodian Statistics
+permalink: /custodian-stats/
+---
+
+<div class="container">
+    <div class="stats-container">
+        <div class="custodian-list">
+        {% assign custodians = site.custodians | where: "platformReview.type", "custodians" %}
+        {% assign sorted_pairs = "" | split: "," %}
+        
+        {% for custodian in custodians %}
+            {% assign third_party = custodian.custodian.operations.thirdPartyAudit.totalAssets | remove: '$' | remove: 'B USD' | remove: 'B' %}
+            {% assign self_reported = custodian.custodian.operations.selfReported.totalAssets | remove: '$' | remove: 'B USD' | remove: 'B' %}
+            
+            {% if third_party != '' %}
+                {% assign sort_value = third_party | times: 1.0 %}
+            {% else %}
+                {% assign sort_value = self_reported | times: 1.0 %}
+            {% endif %}
+            
+            {% capture sort_key %}{{ sort_value | times: 1000 | round | prepend: '000000' | slice: -6, 6 }}:{{ custodian.title }}{% endcapture %}
+            {% assign sorted_pairs = sorted_pairs | push: sort_key %}
+        {% endfor %}
+        
+        {% assign sorted_pairs = sorted_pairs | sort | reverse %}
+        {% assign sorted_custodians = "" | split: "," %}
+        
+        {% for pair in sorted_pairs %}
+            {% assign custodian_title = pair | split: ":" | last %}
+            {% assign custodian = custodians | where: "title", custodian_title | first %}
+            {% assign sorted_custodians = sorted_custodians | push: custodian %}
+        {% endfor %}
+        
+        {% assign max_tauc = sorted_custodians | map: 'custodian.operations.thirdPartyAudit.totalAssets' | concat: sorted_custodians | map: 'custodian.operations.selfReported.totalAssets' | compact | first | remove: '$' | remove: 'B USD' | remove: 'B' %}
+        
+        {% for custodian in sorted_custodians %}
+            {% assign tauc = custodian.custodian.operations.thirdPartyAudit.totalAssets | remove: '$' | remove: 'B USD' | remove: 'B' %}
+            {% if tauc == '' %}
+                {% assign tauc = custodian.custodian.operations.selfReported.totalAssets | remove: '$' | remove: 'B USD' | remove: 'B' %}
+                {% assign audit_type = 'self-reported' %}
+            {% else %}
+                {% assign audit_type = 'third-party audit' %}
+            {% endif %}
+            
+            {% assign percentage = tauc | times: 100.0 | divided_by: max_tauc | default: 1 %}
+            
+            {% if custodian.title contains 'Binance' %}
+                {% assign bar_color = 'linear-gradient(90deg, #F3BA2F 0%, #F0B90B 100%)' %}
+            {% elsif custodian.title contains 'Coinbase' %}
+                {% assign bar_color = 'linear-gradient(90deg, #0052FF 0%, #0A46E4 100%)' %}
+            {% elsif custodian.title contains 'Kraken' %}
+                {% assign bar_color = 'linear-gradient(90deg, #5741D9 0%, #4632C9 100%)' %}
+            {% else %}
+                {% assign bar_color = 'linear-gradient(90deg, #2196F3 0%, #1976D2 100%)' %}
+            {% endif %}
+            
+            <div class="custodian-row" style="background: {{ bar_color }}">
+                <div class="custodian-info">
+                    <img src="{{ site.baseurl }}/images/wIcons/custodians/{{ custodian.icon }}" 
+                         alt="{{ custodian.title }} Logo" 
+                         class="custodian-logo"
+                         onerror="console.log('Failed to load image:', this.src);">
+                    <span class="custodian-name">{{ custodian.title }}</span>
+                </div>
+                <div class="tauc-info">
+                    <span class="tauc-value">${{ tauc }}B</span>
+                    <span class="audit-type">({{ audit_type }})</span>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+<style>
+.stats-container {
+    margin-top: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custodian-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.custodian-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.custodian-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.custodian-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    /filter: brightness(0) invert(1);
+}
+
+.custodian-name {
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: white;
+}
+
+.tauc-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tauc-value {
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+}
+
+.audit-type {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+</style>

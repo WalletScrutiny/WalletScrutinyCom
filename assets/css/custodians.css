@@ -1,0 +1,363 @@
+.custodians-title-wrapper {
+  text-align: center;
+  padding: 2rem 1rem 0.5rem;
+  background-color: var(--light-bluish-gray);
+}
+
+.custodians-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.custodians-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem; /* Equal spacing in both directions */
+  padding: 1.5rem;
+  width: 85%;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.custodian-card-link {
+  text-decoration: none !important;
+  color: inherit;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.custodian-card-link:hover .custodian-card {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background-color: #f8f9fa;
+  border-color: #d1d5da;
+}
+
+.custodian-card-link:hover {
+  text-decoration: none !important;
+}
+
+.custodian-card {
+  background: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  font-size: 0.8rem;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(var(--white) -80%, #f8f9fa 600%);
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+}
+
+.custodian-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  height: auto;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.custodian-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin-right: 0;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.custodian-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #24292e;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+}
+
+.custodian-info {
+  margin-bottom: 0.5rem;
+  height: auto;
+  flex-grow: 1;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0;
+  border-bottom: none;
+  height: 1.5rem;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  color: #586069;
+  font-size: 0.7rem;
+}
+
+/* Targeting Years in Business specifically */
+.info-row:first-of-type .info-label {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.info-value {
+  color: #24292e;
+  font-weight: 500;
+  font-size: 0.7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 60%;
+  text-align: right;
+}
+
+/* Make Years in Business value bolder and larger */
+.info-row:first-child .info-value {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.jurisdiction {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flag-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: help;
+}
+
+.flag-container img {
+  width: 20px;
+  height: auto;
+}
+
+.flag-container span:not(.flag-emoji) {
+  display: none;
+}
+
+.flag-emoji {
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1.3em; /* Only show the flag emoji, clip the rest */
+}
+
+.custodian-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: none; /* Removed horizontal line */
+  text-align: center;
+  height: auto;
+}
+
+/* BTC Under Custody section */
+.btc-custody-section {
+  text-align: center;
+  padding: 0.5rem 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btc-value {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.btc-label {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.btc-info-icon {
+  margin-left: 0.25rem;
+  cursor: help;
+  vertical-align: middle;
+}
+
+/* Bottom metrics section with Users and Years */
+.bottom-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 0;
+  padding: 0 1.5rem;
+}
+
+.bottom-metric-item {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+/* Adjust Users position (left metric) */
+.bottom-metric-item:first-child {
+  transform: translate(-40px, 15px);
+}
+
+/* Adjust Years position (right metric) */
+.bottom-metric-item:last-child {
+  transform: translate(40px, 15px);
+}
+
+.bottom-metric-label {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.bottom-metric-value {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Card content wrapper */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-rows: 1.25rem 1.75rem 1.75rem;
+  height: 100%;
+  align-items: center;
+}
+
+.metric-value {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0366d6;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 0.25rem;
+}
+
+.metric-label {
+  font-size: 0.65rem;
+  color: #586069;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 0.25rem;
+}
+
+.metric-info {
+  grid-row: 1;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-icon {
+  color: #586069;
+  font-size: 0.75rem;
+  cursor: help;
+}
+
+@media (max-width: 1400px) {
+  .custodians-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1200px;
+    width: 85%;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .custodians-grid {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    width: 85%;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .custodians-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    width: 85%;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .custodians-grid {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 90%;
+    width: 85%;
+    padding: 1rem;
+  }
+  
+  .custodian-logo {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .custodian-title {
+    font-size: 1rem;
+  }
+}
