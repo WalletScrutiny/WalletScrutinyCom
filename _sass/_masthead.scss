@@ -135,7 +135,7 @@
       align-items: center;
       color: var(--accent-text);
       padding-left: 10px;
-      i {
+      svg {
         display: none;
         cursor: pointer;
       }
@@ -146,17 +146,8 @@
         }
       }
       &.edited {
-        .fa-times {
+        .reset-search {
           display: inline-block;
-        }
-      }
-      &.hint-return {
-        i.enter {
-          display: inline-block;
-          &::before {
-            font-style: normal;
-            content: attr(data-symbol);
-          }
         }
       }
     }

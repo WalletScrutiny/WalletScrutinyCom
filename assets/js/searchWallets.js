@@ -340,22 +340,26 @@ if (document.querySelector('.searchbar')) {
   document.body.addEventListener('click', () => {
     exitSearchUI();
   });
-  document.querySelector('.reset-search').addEventListener('click', (event) => {
-    event.stopPropagation();
-    window.searchTerm = '';
-    document.querySelector('.searchbar').value = '';
-    document.querySelector('.search-controls').classList.remove('hint-return');
-    document.querySelector('.wallet-search').classList.remove('active');
-    document.querySelector('.search-controls').classList.remove('working');
-    document.querySelector('.search-controls').classList.remove('edited');
-    exitSearchUI();
-  });
-  document.querySelectorAll('.search-trigger-target').forEach((ele) => {
-    ele.addEventListener('click', (event) => {
-      event.stopPropagation();
-      searchTrigger();
+
+  const searchControlsElement = document.querySelector('.search-controls');
+  if (searchControlsElement) {
+    searchControlsElement.addEventListener('click', function(event) {
+      const resetButton = event.target.closest('.reset-search');
+      if (resetButton && this.contains(resetButton)) {
+        event.stopPropagation();
+        window.searchTerm = '';
+        const searchbar = document.querySelector('.searchbar');
+        if (searchbar) {
+          searchbar.value = '';
+        }
+        document.querySelector('.wallet-search').classList.remove('active');
+        this.classList.remove('working');
+        this.classList.remove('edited');
+        exitSearchUI();
+      }
     });
-  });
+  }
+
   document.querySelector('.searchbar').value = '';
   document.querySelector('.searchbar').addEventListener('input', () => {
     window.searchTerm = document.querySelector('.searchbar').value;
@@ -375,14 +379,6 @@ if (document.querySelector('.searchbar')) {
     } else {
       document.querySelector('.wallet-search').classList.remove('mobile-active');
       document.querySelector('.mobile-search-shortcut').classList.remove('active');
-    }
-  });
-  document.querySelector('.searchbar').addEventListener('click', (event) => {
-    event.stopPropagation();
-    if (window.searchTerm && window.searchTerm.length > 0) {
-      document.querySelector('.search-controls').classList.add('hint-return');
-    } else {
-      document.querySelector('.search-controls').classList.remove('hint-return');
     }
   });
 }
