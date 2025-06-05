@@ -64,10 +64,11 @@ const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 const reproducibleImagePath = 'images/twCard/reproducible.png';
 const androidImagePath = 'images/twCard/android_icon.png';
 const appleImagePath = 'images/twCard/apple_logo.png';
+const desktopImagePath = 'images/twCard/desktop_logo.png';
 const fallbackIcon = 'images/smallNoicon.png';
 
 // Global variables for images
-let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, sourceAvailableBg;
+let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, desktopImage, sourceAvailableBg;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
@@ -120,6 +121,13 @@ async function loadResources () {
     androidImage = await loadImage(androidImagePath);
   } catch (error) {
     console.error(`Error loading Android logo: ${error.message}`);
+  }
+
+  // Load Desktop logo
+  try {
+    desktopImage = await loadImage(desktopImagePath);
+  } catch (error) {
+    console.error(`Error loading Desktop logo: ${error.message}`);
   }
 
   // Load Apple logo
@@ -381,7 +389,7 @@ function getNostrVerificationSummaryForApp(appId) {
     console.log(`[NOSTR] Found ${matchingFiles.length} verification files for ${appId}`);
     
     // Use jq to extract and process the verification events
-    const jqCommand = `cat ${matchingFiles.join(' ')} | jq -c 'select(.tags[]? | select(.[0] == "i" and .[1] == "${appId}")) | {id: .id, created_at: .created_at, version: (.tags[] | select(.[0] == "version") | .[1]), status: (.tags[] | select(.[0] == "status") | .[1]), date: (.created_at | tostring)}' | jq -s 'sort_by(.created_at) | reverse'`;
+    const jqCommand = `cat ${matchingFiles.join(' ')} | jq -c 'select(.tags[]? | select(.[0] == "i" and .[1] == "${appId}")) | {id: .id, created_at: .created_at, version: (.tags[] | select(.[0] == "version") | .[1]), status: (.tags[] | select(.[0] == "status") | .[1]), platform: (.tags[] | select(.[0] == "platform") | .[1]), date: (.created_at | tostring)}' | jq -s 'sort_by(.created_at) | reverse'`;
     
     const events = JSON.parse(execSync(jqCommand, { encoding: 'utf8' }).trim() || '[]');
     
@@ -413,7 +421,8 @@ function getNostrVerificationSummaryForApp(appId) {
       latestVersion: latestEvent.version || null,
       latestDate: formattedDate,
       verificationCount: events.length,
-      reproducibleCount: reproducibleCount
+      reproducibleCount: reproducibleCount,
+      platform: latestEvent.platform || null
     };
     
     // Cache the results
@@ -426,7 +435,8 @@ function getNostrVerificationSummaryForApp(appId) {
       latestVersion: null,
       latestDate: null,
       verificationCount: 0,
-      reproducibleCount: 0
+      reproducibleCount: 0,
+      platform: null
     };
   }
 }
@@ -705,6 +715,34 @@ async function drawAppleBackground(ctx, width, height) {
   }
 }
 
+// Draw Desktop logo as a background element for Desktop apps
+async function drawDesktopBackground(ctx, width, height) {
+  console.log('\x1b[36m[DESKTOP] drawDesktopBackground called\x1b[0m');
+  if (desktopImage) {
+    // Use the natural size of the Desktop logo
+    const desktopIconWidth = desktopImage.width;
+    const desktopIconHeight = desktopImage.height;
+    
+    // Position the Desktop logo on the canvas - same position as Apple logo
+    const x = width - desktopIconWidth - 50; // 50px from right edge
+    const y = height - desktopIconHeight - 50; // 50px from bottom edge
+    
+    console.log(`\x1b[36m[DESKTOP] Drawing Desktop logo at position (${x}, ${y}) with size ${desktopIconWidth}x${desktopIconHeight}\x1b[0m`);
+    
+    // Draw the Desktop logo with original size
+    // It should be above the background but below everything else
+    ctx.save();
+    ctx.globalAlpha = 0.4; // Same opacity as Apple logo
+    ctx.drawImage(desktopImage, x, y);
+    ctx.globalAlpha = 1.0; // Reset opacity
+    ctx.restore();
+    
+    console.log('\x1b[32m[DESKTOP] Desktop logo drawn successfully\x1b[0m');
+  } else {
+    console.log('\x1b[31m[DESKTOP] desktopImage is not loaded\x1b[0m');
+  }
+}
+
 // Source Available Layout Function
 async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
   const width = canvas.width;
@@ -797,8 +835,15 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     ctx.textAlign = 'center';
     ctx.fillText(displayTitle, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 40);
     
+    // Display platform information if available
+    if (data.platform) {
+      ctx.font = 'normal 22px Barlow';
+      ctx.fillStyle = '#AAAAAA'; // Light gray text for platform info
+      ctx.fillText(`(for ${data.platform.charAt(0).toUpperCase() + data.platform.slice(1)})`, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 70);
+    }
+    
     // Create a variable to track the current Y position for text
-    let currentTextY = nostrBoxY + 80;
+    let currentTextY = nostrBoxY + (data.platform ? 100 : 80);
     
     // Draw build status if available
     if (data.nostrBuildStatus) {
@@ -945,6 +990,11 @@ async function drawOnCanvas (data, iconImage) {
   // Add Apple logo for Apple apps
   if (data.isAppleApp) {
     await drawAppleBackground(ctx, width, height);
+  }
+  
+  // Add Desktop logo for Desktop apps
+  if (data.isDesktopApp) {
+    await drawDesktopBackground(ctx, width, height);
   }
   
   // Draw the resized icon image at specified coordinates
@@ -1182,6 +1232,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
   // Check if the app is from the _android or _iphone folder
   data.isAndroidApp = mdFilesPath.includes('_android');
   data.isAppleApp = mdFilesPath.includes('_iphone');
+  data.isDesktopApp = mdFilesPath.includes('_desktop');
   
   // Debug iPhone app detection
   if (data.isAppleApp) {
@@ -1241,6 +1292,12 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
           if (nostrVerificationSummary.latestDate) {
             data.latestDate = nostrVerificationSummary.latestDate;
             console.log(`[NOSTR] Latest verification date: ${data.latestDate}`);
+          }
+          
+          // Store platform information if available
+          if (nostrVerificationSummary.platform) {
+            data.platform = nostrVerificationSummary.platform;
+            console.log(`[NOSTR] Platform: ${data.platform}`);
           }
           
           // Only override version and date if Nostr provides them
