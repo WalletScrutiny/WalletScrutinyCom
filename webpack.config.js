@@ -30,6 +30,9 @@ module.exports = {
       ],
       dependOn: ['dom_sanitization'],
     },
+    font_awesome: [
+      './src/font-awesome.js'
+    ]
   },
   output: {
     filename: '[name].bundle.min.js',
@@ -64,6 +67,7 @@ module.exports = {
     minimizer: [new TerserPlugin({
       extractComments: false,
     })],
+    usedExports: true
   },
   plugins: [
     new webpack.ProvidePlugin({
