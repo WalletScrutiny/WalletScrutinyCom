@@ -77,7 +77,7 @@ const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
 const nostrStatusMap = {
   'reproducible': 'Reproducible',
   'not_reproducible': 'Not Reproducible',
-  'ftbfs': 'The verifier failed to build the app from the source code'
+  'ftbfs': 'The verifier failed to build the app from source'
 };
 // Cache for Nostr verification info to avoid repeated grep/jq calls
 let nostrVerificationCache = new Map();
@@ -880,7 +880,18 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
         const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
                           (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
         ctx.fillStyle = statusColor;
-        ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
+        
+        // For all build statuses, check if it's 'ftbfs' (failed to build from source)
+        if (data.nostrBuildStatus === 'ftbfs') {
+          // Split the text across two lines for better display
+          ctx.fillText('Latest Build Status: The verifier failed', nostrBoxX + nostrBoxWidth / 2, currentTextY);
+          currentTextY += 30; // Move down for the second line
+          ctx.fillText('to build the app from source', nostrBoxX + nostrBoxWidth / 2, currentTextY);
+          currentTextY += 0; // Add a little extra space after the second line
+        } else {
+          // For all other statuses, display on a single line
+          ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
+        }
       }
       currentTextY += 40;
     }
@@ -1017,7 +1028,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw the source available badge for apps without Nostr verifications
     // in a different position than for apps with Nostr verifications
-    const badgeX = 20; // Position in the bottom left
+    const badgeX = 10; // Position in the bottom left
     const badgeY = height - 260; // Position at the bottom
     
     // Draw source available badge for verdict:sourceavailable and meta:ok but with no nostr
