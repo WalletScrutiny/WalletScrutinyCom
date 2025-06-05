@@ -40,6 +40,8 @@ import {
   faChevronDown,
   faFilter,
   faInfoCircle,
+  faAnglesRight,
+  faAnglesLeft,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -73,6 +75,8 @@ library.add(
   faChevronDown,
   faFilter,
   faInfoCircle,
+  faAnglesRight,
+  faAnglesLeft,
   // Brands
   faXTwitter,
   faSquareFacebook,

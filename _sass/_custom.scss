@@ -104,41 +104,6 @@
         }
       }
     }
-    &.chevrons-before,
-    &.chevrons-after {
-      position: relative;
-      &::before {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        background: var(--neutral-7);
-        border-radius: 2px;
-        font-family: "Font Awesome 5 Free";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0.75;
-        -moz-osx-font-smoothing: grayscale;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        line-height: 1;
-        font-weight: 900;
-      }
-    }
-    &.chevrons-before {
-      &::before {
-        content: "\f100";
-        right: calc(100% + 2px);
-      }
-    }
-    &.chevrons-after {
-      &::before {
-        content: "\f101";
-        left: calc(100% + 2px);
-      }
-    }
   }
 }
 .dark {
