@@ -521,36 +521,6 @@ function getRandomHueRotation() {
   return Math.floor(Math.random() * 360);
 }
 
-// Function to draw circuit-like lines with main lines emanating from center
-function drawCircuitLines(ctx, startX, startY, length, direction, color = 'rgba(255, 255, 255, 0.4)') {
-  ctx.save();
-  ctx.strokeStyle = color;
-  ctx.lineWidth = 1.5;
-  
-  // Starting point
-  let x = startX;
-  let y = startY;
-  
-  // Create 3-4 main lines emanating from the center
-  const numMainLines = Math.floor(Math.random() * 2) + 3; // 3-4 main lines
-  const mainLineSpacing = 10; // Spacing between main lines
-  
-  for (let j = 0; j < numMainLines; j++) {
-    // Offset each main line vertically
-    const lineY = y + (j * mainLineSpacing) - ((numMainLines-1) * mainLineSpacing / 2);
-    
-    // Draw main horizontal line
-    ctx.beginPath();
-    ctx.moveTo(x, lineY);
-    ctx.lineTo(x + (length * direction), lineY);
-    ctx.stroke();
-    
-    
-  }
-  
-  ctx.restore();
-}
-
 // Utility function to overlay "reproducible" image
 // Overlay source-available badge with resizing
 async function overlaySourceAvailableImage(ctx) {
@@ -558,7 +528,7 @@ async function overlaySourceAvailableImage(ctx) {
     const width = 200; // your preferred width
     const height = 200; // your preferred height
     const x = 60;
-    const y = 145;
+    const y = 350;
     
     // Add drop shadow for the source-available badge
     ctx.save();
@@ -576,8 +546,8 @@ async function overlayReproducibleImage(ctx) {
   if (reproducibleImage) {
     const width = 140;
     const height = 140;
-    const x = 800 - width - 90;
-    const y = 170;
+    const x = 700;
+    const y = 50;
     
     // Add drop shadow for the reproducible badge
     ctx.save();
@@ -626,11 +596,11 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     await drawAndroidBackground(ctx, width, height, data);
   }
   
-  // Draw the app icon in the top left frame
+  // Draw the app icon in the top left frame appIcon for sourceavailable
   const iconWidth = 100;
   const iconHeight = 100;
-  const iconX = 40; // Position in the top left
-  const iconY = 40; // Position in the top left
+  const iconX = 25; // Position in the top left
+  const iconY = 160; // Position in the top left
   
   // Apply drop shadow and clip, then draw the icon
   ctx.save();
@@ -655,50 +625,41 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
   ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
   ctx.restore();
   
-  // App name  
+  // Prepare app name and developer name variables but don't draw them yet
+  // We'll draw them after the Nostr verification box to ensure they appear on top
   let displayTitle = data.title || 'Unknown Title';
   if (displayTitle.length > 30) {
-    displayTitle = displayTitle.substring(0, 35) + '...';
-  }
-  
-  // Draw app name 
-  ctx.font = 'bold 22px Barlow';
-  ctx.fillStyle = 'white';
-  ctx.textAlign = 'left';
-  ctx.fillText(displayTitle, iconX + iconWidth + 20, iconY + 30);
-  
-  // Developer name 
-  if (data.developerName) {
-    ctx.font = '400 18px Barlow';
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
-    ctx.textAlign = 'left';
-    ctx.fillText(`${data.developerName}`, 160, 115);
+    displayTitle = displayTitle.substring(0, 30) + '...';
   }
   
   // Draw the source available badge below the icon
-  const badgeX = -10;
-  const badgeY = 120;
+  const badgeX = -15;
+  const badgeY = 250;
   
   // Fixed dimensions for badges
   const badgeWidth = 250;
   const badgeHeight = 250;
   
   // Draw source available badge
-  ctx.drawImage(sourceavailableImage, badgeX, badgeY, 200, 200);
+  ctx.drawImage(sourceavailableImage, badgeX, badgeY, 180, 180);
   
   // If nostrBuildStatus is 'reproducible', draw the reproducible badge beside the source available badge
+  // To adjust the reproducible badge position:
+  // - Change reproducibleBadgeX to move horizontally (higher values move right)
+  // - Change the Y value (280) in ctx.drawImage to move vertically (higher values move down)
+  // - The last two parameters (140, 140) control width and height respectively
   if (data.nostrBuildStatus === 'reproducible') {
-    const reproducibleBadgeX = 20;
-    ctx.drawImage(reproducibleImage, reproducibleBadgeX, 280, 140, 140);
+    const reproducibleBadgeX = 625;
+    ctx.drawImage(reproducibleImage, reproducibleBadgeX, 10, 140, 140);
   }
   
   // Nostr verification box in the center and right side
   if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrVerificationCount > 0)) {
     // Create a large box for Nostr information
-    const nostrBoxX = 170;
-    const nostrBoxY = 148;
-    const nostrBoxWidth = 610;
-    const nostrBoxHeight = 280;
+    const nostrBoxX = 140;
+    const nostrBoxY = 148; // Reverted to original position
+    const nostrBoxWidth = 640;
+    const nostrBoxHeight = 280; // Reverted to original height
     
     // Draw Nostr box with rounded corners
     ctx.save();
@@ -708,14 +669,14 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     ctx.fill();
     ctx.restore();
         
-    // Draw Nostr information title
-    ctx.font = 'bold 22px Barlow';
+    // Draw app title inside the Nostr box at the top
+    ctx.font = 'bold 26px Barlow';
     ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
-    ctx.fillText('Nostr Verification', nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 50);
+    ctx.fillText(displayTitle, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 40);
     
     // Create a variable to track the current Y position for text
-    let currentTextY = nostrBoxY + 90;
+    let currentTextY = nostrBoxY + 80;
     
     // Draw build status if available
     if (data.nostrBuildStatus) {
@@ -724,12 +685,12 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
       
       // Special handling for 'reproducible' status
       if (data.nostrBuildStatus === 'reproducible') {
-        ctx.font = 'bold 20px Barlow';
+        ctx.font = 'bold 24px Barlow';
         ctx.fillStyle = '#4AE06B'; // Brighter green for reproducible on dark background
         ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       } else {
         // Normal rendering for other build statuses
-        ctx.font = 'bold 20px Barlow';
+        ctx.font = 'bold 24px Barlow';
         const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
                           (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
         ctx.fillStyle = statusColor;
@@ -740,7 +701,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw verification count if available
     if (data.nostrVerificationCount > 0) {
-      ctx.font = 'normal 18px Barlow';
+      ctx.font = 'normal 22px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       
       // Display reproducible count if available
@@ -758,7 +719,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw date of latest verification if available
     if (data.latestDate) {
-      ctx.font = 'normal 18px Barlow';
+      ctx.font = 'normal 22px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest verification: ${data.latestDate}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
@@ -767,7 +728,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw latest version verified if available
     if (data.nostrBuildStatus && data.latestVersion) {
-      ctx.font = 'normal 18px Barlow';
+      ctx.font = 'normal 22px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest version verified: ${data.latestVersion}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
@@ -824,6 +785,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     ctx.fillText(metaText, width / 2, metaY);
   }
   
+  // App title and developer name are now drawn inside the Nostr info box
   return canvas;
 }
 
@@ -938,209 +900,6 @@ async function drawOnCanvas (data, iconImage) {
     ctx.fillStyle = 'rgba(122, 122, 122, 1.0)'; // Dark gray color
     ctx.textAlign = 'center';
     ctx.fillText(data.developerName, width / 2, devNameY);
-    
-    // For source available apps with meta: ok, display Nostr verification below developer name
-    // instead of "Source code is available" text
-    if (data.verdict === 'sourceavailable') {
-      // Calculate position based on whether developer name exists
-      const nostrY = data.developerName ? titleY + 50 : titleY + 20; // Moved further up
-      
-      // No need for separate nostrX variable - we'll use width/2 for centering everything
-      
-      // Display Nostr verification information for sourceavailable apps with meta: ok
-      if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrVerificationCount > 0)) {
-        // 1. Measure each line with the correct font - no header text anymore
-        ctx.font = 'bold 18px Barlow';
-        const buildStatusWidth = data.nostrBuildStatus ? ctx.measureText(`Build: ${data.nostrBuildStatus}`).width : 0;
-        // For reproducible status, measure just the word without 'Build:'
-        const reproducibleWidth = data.nostrBuildStatus === 'reproducible' ? ctx.measureText('reproducible').width : 0;
-
-        ctx.font = 'normal 18px Barlow';
-        // Calculate width for verification count text, including reproducible count if available
-        let verificationWidth = 0;
-        if (data.nostrVerificationCount > 0) {
-          if (data.nostrReproducibleCount > 0) {
-            // Measure both lines and take the wider one
-            const line1Width = ctx.measureText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`).width;
-            const line2Width = ctx.measureText('reproducible').width;
-            verificationWidth = Math.max(line1Width, line2Width);
-          } else {
-            verificationWidth = ctx.measureText(`Verifications: ${data.nostrVerificationCount}`).width;
-          }
-        }
-        
-        // Calculate width for date and version information
-        const dateWidth = data.latestDate ? ctx.measureText(`Latest verification: ${data.latestDate}`).width : 0;
-        const versionWidth = (data.nostrBuildStatus && data.latestVersion) ? 
-                            ctx.measureText(`Latest version verified: ${data.latestVersion}`).width : 0;
-        const statusWidth = (data.nostrBuildStatus && data.nostrBuildStatus !== 'reproducible') ? 
-                           ctx.measureText(`Latest status: ${data.nostrBuildStatus}`).width : 0;
-
-        // 2. Find the max width, add padding
-        const maxTextWidth = Math.max(buildStatusWidth, verificationWidth, dateWidth, versionWidth, statusWidth);
-        const boxWidth = maxTextWidth + 100; // Add more padding to ensure text fits
-
-        // 3. Center the box on the canvas
-        const boxX = (width / 2) - (boxWidth / 2);
-        const boxY = nostrY - 15; // Move up since we removed the header
-        
-        // Adjust box height based on content
-        let boxHeight = 30; // Base height
-        
-        // Count how many text lines we'll have
-        let lineCount = 0;
-        
-        // Verification count (1 or 2 lines depending on if it's reproducible)
-        if (data.nostrVerificationCount > 0) {
-          if (data.nostrReproducibleCount > 0) {
-            lineCount += 2; // Two lines for reproducible count
-          } else {
-            lineCount += 1; // One line for regular verification count
-          }
-        }
-        
-        // Latest verification date
-        if (data.latestDate) {
-          lineCount += 1;
-        }
-        
-        // Latest version verified
-        if (data.nostrBuildStatus && data.latestVersion) {
-          lineCount += 1;
-        }
-        
-        // Latest status (only if not reproducible)
-        if (data.nostrBuildStatus && data.nostrBuildStatus !== 'reproducible') {
-          lineCount += 1;
-        }
-        
-        // Calculate height based on line count (20px per line plus more padding to ensure text fits)
-        boxHeight = lineCount > 0 ? (lineCount * 20) + 35 : 0; // No box if no text
-
-        // 4. Draw Nostr bg information box - rounded rectangle with semi-transparent background
-        ctx.save();
-        // Use a slightly more elegant background with a subtle border
-        ctx.fillStyle = 'rgba(240, 240, 240, 0.85)';
-        ctx.beginPath();
-        ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 10);
-        ctx.fill();
-        
-        // Add a subtle border
-        ctx.strokeStyle = 'rgba(200, 200, 200, 0.6)';
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.roundRect(boxX, boxY, boxWidth, boxHeight, 10);
-        ctx.stroke();
-        ctx.restore();
-
-        // 5. Draw text, left-aligned for better readability
-        // ===== BEGIN NOSTR INFO =====
-        ctx.textAlign = 'center';
-        const textX = boxX + boxWidth / 2; // Center of the box
-        
-        // Create a variable to track the current Y position for text
-        let currentTextY = boxY + 20; // Start 20px from the top of the box for better spacing
-        
-        // Draw status text if available - no header anymore
-        if (data.nostrBuildStatus) {
-          // Special handling for 'reproducible' status
-          if (data.nostrBuildStatus === 'reproducible') {
-            // Don't show text since we have a reproducible badge now
-            // No need to increment Y position since we're not drawing anything
-          } else {
-            // Normal rendering for other build statuses
-            ctx.font = 'bold 18px Barlow';
-            const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
-                               (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
-            ctx.fillStyle = statusColor;
-            // Get mapped status text or use original if no mapping exists
-            const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
-            ctx.fillText(`Latest Build Status: ${mappedStatus}`, textX, currentTextY + 15);
-            currentTextY += 25; // Increment for next text item
-          }
-        }
-        
-        // Draw verification count if available
-        if (data.nostrVerificationCount > 0) {
-          currentTextY += 25; // Increment for next text item
-          ctx.font = 'normal 18px Barlow';
-          ctx.fillStyle = '#333333';
-          
-          // Display reproducible count if available
-          if (data.nostrReproducibleCount > 0) {
-            // Split into two lines for better readability
-            ctx.font = 'normal 16px Barlow';
-            ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`, textX, currentTextY + 5);
-            currentTextY += 20; // Add space for second line (tighter spacing)
-            ctx.fillText('reproducible', textX, currentTextY + 5);
-          } else {
-            ctx.font = 'normal 16px Barlow';
-            ctx.fillText(`Verifications: ${data.nostrVerificationCount}`, textX, currentTextY + 5);
-          }
-          currentTextY += 20; // Increment for next text item (tighter spacing)
-        }
-        
-        // Draw date of latest verification if available
-        if (data.latestDate) {
-          ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#FFFFFF'; // White text for dark background
-          ctx.fillText(`Latest verification: ${data.latestDate}`, textX, currentTextY + 5);
-          currentTextY += 20; // Increment for next text item (tighter spacing)
-        }
-        
-        // Draw latest version verified if available
-        if (data.nostrBuildStatus && data.latestVersion) {
-          ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#FFFFFF'; // White text for dark background
-          ctx.fillText(`Latest version verified: ${data.latestVersion}`, textX, currentTextY + 5);
-          currentTextY += 20; // Increment for next text item (tighter spacing)
-        }
-        
-        // Draw latest status if available, not 'reproducible', and not already shown as build status
-        if (data.nostrBuildStatus && 
-            data.nostrBuildStatus !== 'reproducible' && 
-            !data.nostrBuildStatus.includes('success') && 
-            !data.nostrBuildStatus.includes('failed')) {
-          ctx.font = 'normal 16px Barlow';
-          ctx.fillStyle = '#FFD54F'; // Brighter yellow for better visibility on dark background
-          // Get mapped status text or use original if no mapping exists
-          const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
-          ctx.fillText(`Latest status: ${mappedStatus}`, textX, currentTextY + 5);
-        }
-        // ===== END NOSTR INFO =====
-      } else if (data.meta === 'ok') {
-        // If no Nostr data but app is source available with meta: ok, show a note
-        const nostrText = 'No Nostr verifications yet';
-        
-        // Set font before measuring text
-        ctx.font = 'normal 14px Barlow';
-        const textMetrics = ctx.measureText(nostrText);
-        
-        // Calculate box dimensions with proper padding
-        const messageBoxWidth = textMetrics.width + 60;
-        const boxHeight = 30;
-        
-        // Center the box on the canvas
-        const boxX = width / 2 - (messageBoxWidth / 2);
-        const boxY = nostrY - 15;
-        
-        // Draw Nostr bg information box - rounded rectangle with semi-transparent background
-        ctx.save();
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; // Semi-transparent white background
-        ctx.beginPath();
-        ctx.roundRect(boxX, boxY, messageBoxWidth, boxHeight, 8);
-        ctx.fill();
-        ctx.restore();
-        
-        // Nostr info - Draw the text centered in the box
-        ctx.textAlign = 'center';
-        ctx.fillStyle = '#666666';
-        ctx.fillText(nostrText, width / 2, nostrY + 5); // "No Nostr verifications yet"
-      } else {
-        // No additional text for source available apps with meta != ok
-        // The badge already indicates source availability
-      }
-    }
   }
   
   const mappedVerdict = verdictMap[data.verdict] || data.verdict || 'Unknown Verdict';
@@ -1148,20 +907,11 @@ async function drawOnCanvas (data, iconImage) {
     await overlayReproducibleImage(ctx);
   }
   
-  // Add source available badge and Nostr verification info if needed
+  // This code should never execute for source-available apps since they are redirected to
+  // drawSourceAvailableLayout at the beginning of this function.
+  // Only add badges for non-source-available apps here
   if (data.verdict === 'sourceavailable') {
-    await overlaySourceAvailableImage(ctx);
-    
-    // Debug logging for reproducible badge condition
-    console.log(`[DEBUG] App: ${data.title}, Verdict: ${data.verdict}, nostrBuildStatus: ${data.nostrBuildStatus}`);
-    
-    // Draw the reproducible badge if nostrBuildStatus is 'reproducible'
-    if (data.nostrBuildStatus === 'reproducible') {
-      console.log(`[DEBUG] Drawing reproducible badge for ${data.title}`);
-      await overlayReproducibleImage(ctx);
-    } else {
-      console.log(`[DEBUG] Not drawing reproducible badge for ${data.title} - status is not 'reproducible'`);
-    }
+    console.log(`[WARNING] Unexpected execution path for source-available app ${data.title} in drawOnCanvas`);
   }
   
   // Android icon is now drawn as a background element earlier in the function
