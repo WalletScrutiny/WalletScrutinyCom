@@ -25,6 +25,11 @@ const { values } = parseArgs({
       short: 'f',
       default: '',
     },
+    single: {
+      type: 'string',
+      short: 's',
+      default: '',
+    },
     help: {
       type: 'boolean',
       short: 'h',
@@ -38,19 +43,62 @@ if (values.help) {
   console.log('Usage: node twitterCardGen.mjs [options]');
   console.log('Options:');
   console.log('  -f, --folder <folder>  Process only the specified folder (e.g., _android, _bearer, _hardware, _iphone, _desktop)');
+  console.log('  -s, --single <file>    Process only a single file (e.g., _hardware/bithdwatch2.md)');
   console.log('  -h, --help             Show this help message');
   process.exit(0);
 }
 
+// Check for single file processing
+let singleFilePath = null;
+let singleFileName = null;
+
 // Determine which folders to process
 let mdFolders = allMdFolders;
-if (values.folder) {
+
+if (values.single) {
+  // Parse the single file path
+  singleFilePath = values.single;
+  
+  // Ensure path starts with underscore
+  if (!singleFilePath.startsWith('_')) {
+    console.error(`Error: File path must start with a folder name prefixed with underscore (e.g., _hardware/file.md)`);
+    process.exit(1);
+  }
+  
+  // Extract folder and file name
+  const pathParts = singleFilePath.split('/');
+  if (pathParts.length !== 2) {
+    console.error(`Error: Invalid file path format. Expected format: _folder/filename.md`);
+    process.exit(1);
+  }
+  
+  const folderName = pathParts[0];
+  singleFileName = pathParts[1];
+  
+  // Validate folder
+  if (!allMdFolders.includes(folderName)) {
+    console.error(`Error: Invalid folder name '${folderName}'. Valid options are: ${allMdFolders.join(', ')}`);
+    process.exit(1);
+  }
+  
+  // Check if file exists
+  if (!fs.existsSync(singleFilePath)) {
+    console.error(`Error: File '${singleFilePath}' does not exist.`);
+    process.exit(1);
+  }
+  
+  // Set folder to process
+  mdFolders = [folderName];
+  console.log(`Processing only single file: ${singleFilePath}`);
+} 
+// Determine which folders to process if not processing a single file
+else if (values.folder) {
   const folderName = values.folder.startsWith('_') ? values.folder : `_${values.folder}`;
   if (allMdFolders.includes(folderName)) {
     mdFolders = [folderName];
     console.log(`Processing only folder: ${folderName}`);
   } else {
-    console.error(`Error: Folder '${folderName}' not found. Available folders: ${allMdFolders.join(', ')}`);
+    console.error(`Error: Invalid folder name '${values.folder}'. Valid options are: ${allMdFolders.map(f => f.substring(1)).join(', ')}`);
     process.exit(1);
   }
 }
@@ -1060,6 +1108,11 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     // Try to get the message from the metaVerdictMap
     if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
       metaMessage = metaVerdictMap[data.meta].message;
+      // Special handling for 'defunct' meta verdict to prevent text overflow
+      if (data.meta === 'defunct') {
+        // Truncate the message to "This product went out of business...or so"
+        metaMessage = "This product went out of business...or so";
+      }
     } else {
       // Fallback to just the meta value
       metaMessage = data.meta;
@@ -1343,6 +1396,11 @@ async function drawOnCanvas (data, iconImage) {
     // Try to get the message from the metaVerdictMap
     if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
       metaMessage = metaVerdictMap[data.meta].message;
+      // Special handling for 'defunct' meta verdict to prevent text overflow
+      if (data.meta === 'defunct') {
+        // Truncate the message to "This product went out of business...or so"
+        metaMessage = "This product went out of business...or so";
+      }
     } else {
       // Fallback to just the meta value
       metaMessage = data.meta;
@@ -1553,28 +1611,55 @@ async function processFiles () {
   }
 
   const asyncTasks = [];
-  for (const mdFolder of mdFolders) {
-    const mdFilesPath = mdFolder;
-    const platform = mdFolder.substring(1);
-    
-    // Check if folder exists
-    if (!fs.existsSync(mdFilesPath)) {
-      console.error(`Error: Folder '${mdFilesPath}' does not exist.`);
-      continue;
-    }
-    
-    const files = await fsp.readdir(mdFilesPath);
-    const outputFolderPath = `images/social/${platform}`;
-    if (!fs.existsSync(outputFolderPath)) {
-      fs.mkdirSync(outputFolderPath);
-    }
+  
+  // If processing a single file
+  if (singleFileName) {
+    for (const mdFolder of mdFolders) {
+      const mdFilesPath = mdFolder;
+      const platform = mdFolder.substring(1);
+      
+      // Check if folder exists
+      if (!fs.existsSync(mdFilesPath)) {
+        console.error(`Error: Folder '${mdFilesPath}' does not exist.`);
+        continue;
+      }
+      
+      const outputFolderPath = `images/social/${platform}`;
+      if (!fs.existsSync(outputFolderPath)) {
+        fs.mkdirSync(outputFolderPath);
+      }
 
-    console.log(`Processing ${files.length} files from ${mdFolder}...`);
-    for (const file of files) {
+      console.log(`Processing single file ${singleFileName} from ${mdFolder}...`);
       totalFiles++;
-      asyncTasks.push(limit(() => processOneFile(platform, mdFilesPath, file, outputFolderPath)));
+      asyncTasks.push(limit(() => processOneFile(platform, mdFilesPath, singleFileName, outputFolderPath)));
+    }
+  } 
+  // Process all files in the specified folders
+  else {
+    for (const mdFolder of mdFolders) {
+      const mdFilesPath = mdFolder;
+      const platform = mdFolder.substring(1);
+      
+      // Check if folder exists
+      if (!fs.existsSync(mdFilesPath)) {
+        console.error(`Error: Folder '${mdFilesPath}' does not exist.`);
+        continue;
+      }
+      
+      const files = await fsp.readdir(mdFilesPath);
+      const outputFolderPath = `images/social/${platform}`;
+      if (!fs.existsSync(outputFolderPath)) {
+        fs.mkdirSync(outputFolderPath);
+      }
+
+      console.log(`Processing ${files.length} files from ${mdFolder}...`);
+      for (const file of files) {
+        totalFiles++;
+        asyncTasks.push(limit(() => processOneFile(platform, mdFilesPath, file, outputFolderPath)));
+      }
     }
   }
+  
   await Promise.all(asyncTasks);
 }
 
