@@ -5,27 +5,69 @@ import yaml from 'js-yaml';
 import path from 'path';
 import pLimit from 'p-limit';
 import { execSync } from 'child_process';
+import { parseArgs } from 'node:util';
 
 // Constants
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
-const mdFolders = [
+const allMdFolders = [
   '_android',
   '_bearer',
   '_hardware',
   '_iphone',
   '_desktop']; // MD file folders
 
+// Parse command line arguments
+const { values } = parseArgs({
+  options: {
+    folder: {
+      type: 'string',
+      short: 'f',
+      default: '',
+    },
+    help: {
+      type: 'boolean',
+      short: 'h',
+    }
+  },
+});
+
+// Show help if requested
+if (values.help) {
+  console.log('Twitter Card Generator');
+  console.log('Usage: node twitterCardGen.mjs [options]');
+  console.log('Options:');
+  console.log('  -f, --folder <folder>  Process only the specified folder (e.g., _android, _bearer, _hardware, _iphone, _desktop)');
+  console.log('  -h, --help             Show this help message');
+  process.exit(0);
+}
+
+// Determine which folders to process
+let mdFolders = allMdFolders;
+if (values.folder) {
+  const folderName = values.folder.startsWith('_') ? values.folder : `_${values.folder}`;
+  if (allMdFolders.includes(folderName)) {
+    mdFolders = [folderName];
+    console.log(`Processing only folder: ${folderName}`);
+  } else {
+    console.error(`Error: Folder '${folderName}' not found. Available folders: ${allMdFolders.join(', ')}`);
+    process.exit(1);
+  }
+}
+
 // Configuration paths
 const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
 const sourceAvailableBgImage = 'images/twCard/sourceavailableBG.png';
-let bgImage, reproducibleImage, sourceavailableImage, androidImage, sourceAvailableBg;
 // Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 const reproducibleImagePath = 'images/twCard/reproducible.png';
 const androidImagePath = 'images/twCard/android_icon.png';
+const appleImagePath = 'images/twCard/apple_logo.png';
 const fallbackIcon = 'images/smallNoicon.png';
+
+// Global variables for images
+let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, sourceAvailableBg;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
@@ -77,7 +119,17 @@ async function loadResources () {
   try {
     androidImage = await loadImage(androidImagePath);
   } catch (error) {
-    console.warn(`Could not load android image from ${androidImagePath}: ${error.message}`);
+    console.error(`Error loading Android logo: ${error.message}`);
+  }
+
+  // Load Apple logo
+  try {
+    appleImage = await loadImage(appleImagePath);
+    console.log(`\x1b[32m[APPLE] Successfully loaded Apple logo from ${appleImagePath}\x1b[0m`);
+    // Log the dimensions of the Apple logo
+    console.log(`\x1b[32m[APPLE] Apple logo dimensions: ${appleImage.width}x${appleImage.height}\x1b[0m`);
+  } catch (error) {
+    console.error(`\x1b[31m[APPLE] Error loading Apple logo: ${error.message}\x1b[0m`);
   }
   
   // Register fonts
@@ -624,6 +676,35 @@ async function drawAndroidBackground(ctx, width, height, data) {
   }
 }
 
+// Draw Apple logo as a background element for Apple apps
+async function drawAppleBackground(ctx, width, height) {
+  console.log('\x1b[36m[APPLE] drawAppleBackground called\x1b[0m');
+  if (appleImage) {
+    // Use the natural size of the Apple logo
+    const appleIconWidth = appleImage.width;
+    const appleIconHeight = appleImage.height;
+    
+    // Position the Apple logo on the canvas - offset to the right side
+    // This makes it more visible as a background element
+    const x = width - appleIconWidth - 50; // 50px from right edge
+    const y = height - appleIconHeight - 50; // 50px from bottom edge
+    
+    console.log(`\x1b[36m[APPLE] Drawing Apple logo at position (${x}, ${y}) with size ${appleIconWidth}x${appleIconHeight}\x1b[0m`);
+    
+    // Draw the Apple logo with original size
+    // It should be above the background but below everything else
+    ctx.save();
+    ctx.globalAlpha = 0.4; // Increased opacity from 0.2 to 0.4
+    ctx.drawImage(appleImage, x, y);
+    ctx.globalAlpha = 1.0; // Reset opacity
+    ctx.restore();
+    
+    console.log('\x1b[32m[APPLE] Apple logo drawn successfully\x1b[0m');
+  } else {
+    console.log('\x1b[31m[APPLE] appleImage is not loaded\x1b[0m');
+  }
+}
+
 // Source Available Layout Function
 async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
   const width = canvas.width;
@@ -711,7 +792,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     ctx.restore();
         
     // Draw app title inside the Nostr box at the top
-    ctx.font = 'bold 28px Barlow';
+    ctx.font = 'bold 30px Barlow';
     ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
     ctx.fillText(displayTitle, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 40);
@@ -726,12 +807,12 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
       
       // Special handling for 'reproducible' status
       if (data.nostrBuildStatus === 'reproducible') {
-        ctx.font = 'bold 26px Barlow';
+        ctx.font = 'bold 28px Barlow';
         ctx.fillStyle = '#4AE06B'; // Brighter green for reproducible on dark background
         ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       } else {
         // Normal rendering for other build statuses
-        ctx.font = 'bold 26px Barlow';
+        ctx.font = 'bold 28px Barlow';
         const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
                           (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
         ctx.fillStyle = statusColor;
@@ -742,7 +823,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw verification count if available
     if (data.nostrVerificationCount > 0) {
-      ctx.font = 'normal 24px Barlow';
+      ctx.font = 'normal 26px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       
       // Display reproducible count if available
@@ -761,7 +842,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     // Draw time since latest verification if available
     if (data.latestDate) {
       const timeSinceText = getTimeSinceLastVerification(data.latestDate);
-      ctx.font = 'normal 24px Barlow';
+      ctx.font = 'normal 26px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(timeSinceText, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       currentTextY += 40;
@@ -769,7 +850,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw latest version verified if available
     if (data.nostrBuildStatus && data.latestVersion) {
-      ctx.font = 'normal 24px Barlow';
+      ctx.font = 'normal 26px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest version verified: ${data.latestVersion}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
@@ -779,7 +860,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     const nostrText = 'No Nostr verifications yet';
     
     // Draw the text in the center-right area
-    ctx.font = 'normal 26px Barlow';
+    ctx.font = 'normal 28px Barlow';
     ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
     ctx.fillText(nostrText, width * 0.75, height / 2);
@@ -807,20 +888,21 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     const metaText = `But ${formattedMetaMessage}`;
     
     // Draw a subtle rounded rectangle background for the meta message
-    const metaWidth = ctx.measureText(metaText).width + 40;
-    const metaHeight = 30;
+    ctx.font = 'italic 18px Barlow';
+    const metaMetrics = ctx.measureText(metaText);
+    const metaWidth = Math.min(metaMetrics.width + 120, width - 80);
+    const metaHeight = 36;
     const metaX = width / 2 - metaWidth / 2;
     const metaY = height / 2;
     
     ctx.save();
     ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
     ctx.beginPath();
-    ctx.roundRect(metaX, metaY - 20, metaWidth, metaHeight, 12);
+    ctx.roundRect(metaX, metaY - 22, metaWidth, metaHeight, 12);
     ctx.fill();
     ctx.restore();
     
     // Draw the meta message text
-    ctx.font = 'italic 14px Barlow';
     ctx.fillStyle = '#d33100';
     ctx.textAlign = 'center';
     ctx.fillText(metaText, width / 2, metaY);
@@ -839,11 +921,13 @@ async function drawOnCanvas (data, iconImage) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
-  // Check if this is a source available app
-  if (data.verdict === 'sourceavailable') {
-    // Use the special layout for source available apps
+  // Check if this is a source available app with meta: ok
+  if (data.verdict === 'sourceavailable' && data.meta === 'ok') {
+    // Use the special layout only for source available apps with meta: ok
     return await drawSourceAvailableLayout(data, iconImage, canvas, ctx);
   }
+  
+  // For source available apps without meta: ok, we'll use the standard layout
   
   // For all other apps, use the standard layout
   // Adjust the hue of the background image (randomly for each card)
@@ -856,6 +940,11 @@ async function drawOnCanvas (data, iconImage) {
   // Add Android icon as background for Android apps
   if (data.isAndroidApp) {
     await drawAndroidBackground(ctx, width, height, data);
+  }
+  
+  // Add Apple logo for Apple apps
+  if (data.isAppleApp) {
+    await drawAppleBackground(ctx, width, height);
   }
   
   // Draw the resized icon image at specified coordinates
@@ -948,11 +1037,23 @@ async function drawOnCanvas (data, iconImage) {
     await overlayReproducibleImage(ctx);
   }
   
-  // This code should never execute for source-available apps since they are redirected to
-  // drawSourceAvailableLayout at the beginning of this function.
-  // Only add badges for non-source-available apps here
+  // Add badges based on app verdict
+  // For source-available apps with meta: ok, we use drawSourceAvailableLayout
+  // For source-available apps without meta: ok, we use this standard layout
   if (data.verdict === 'sourceavailable') {
-    console.log(`[WARNING] Unexpected execution path for source-available app ${data.title} in drawOnCanvas`);
+    // This is expected for source-available apps without meta: ok
+    console.log(`Using standard layout for source-available app ${data.title} (meta: ${data.meta})`);
+    
+    // Add source-available badge for these apps too
+    if (sourceavailableImage) {
+      ctx.save();
+      ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+      ctx.shadowBlur = 10;
+      ctx.shadowOffsetX = 2;
+      ctx.shadowOffsetY = 2;
+      ctx.drawImage(sourceavailableImage, 60, 150, 200, 200);
+      ctx.restore();
+    }
   }
   
   // Android icon is now drawn as a background element earlier in the function
@@ -997,7 +1098,7 @@ async function drawOnCanvas (data, iconImage) {
   
   // Draw the verdict text, but skip for sourceavailable apps with meta: ok since they show Nostr info instead
   if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
-    printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 19px Barlow', 41, 30);
+    printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 20px Barlow', 41, 30);
   }
   
   // If verdict is sourceavailable AND meta is not 'ok', display the meta verdict message underneath
@@ -1021,26 +1122,26 @@ async function drawOnCanvas (data, iconImage) {
     }
     
     const metaText = `But ${formattedMetaMessage}`;
-    ctx.font = 'italic 14px Barlow'; // Reduced from 16px to 14px
+    ctx.font = 'italic 22px Barlow'; // Enlarged to 22, must also set value for other ctx.font
     const metaMetrics = ctx.measureText(metaText);
-    const metaWidth = Math.min(metaMetrics.width + 40, width - 100); // Add padding but limit width
-    const metaHeight = 30;
+    const metaWidth = Math.min(metaMetrics.width + 48, width - 32); // Add padding but limit width
+    const metaHeight = 34;
     const metaX = centerX - (metaWidth / 2);
     const metaY = verdictY + 40; // Position below the verdict text
     
     // Draw rounded rectangle with 12px radius
     ctx.save();
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)'; // Semi-transparent white background
+    ctx.fillStyle = 'rgba(211, 49, 0, 0.9)'; // Semi-transparent white background
     ctx.beginPath();
     ctx.roundRect(metaX, metaY - 20, metaWidth, metaHeight, 12);
     ctx.fill();
     ctx.restore();
     
     // Draw the meta message text
-    ctx.font = 'italic 14px Barlow'; // Reduced from 16px to 14px
-    ctx.fillStyle = '#d33100'; // Use the stale.yml color as default for meta messages
+    ctx.font = 'italic 22px Barlow'; // must also set in other ctx.font (verdict: sa but not meta:ok)
+    ctx.fillStyle = '#ffffff'; // Use the stale.yml color as default for meta messages
     ctx.textAlign = 'center';
-    ctx.fillText(metaText, centerX, metaY);
+    ctx.fillText(metaText, centerX, metaY + 6);
   }
   
   // Reset text alignment to default
@@ -1078,8 +1179,14 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     return;
   }
   
-  // Check if the app is from the _android folder
+  // Check if the app is from the _android or _iphone folder
   data.isAndroidApp = mdFilesPath.includes('_android');
+  data.isAppleApp = mdFilesPath.includes('_iphone');
+  
+  // Debug iPhone app detection
+  if (data.isAppleApp) {
+    console.log(`\x1b[36m[APPLE] Found iPhone app: ${data.title} in ${mdFilesPath}\x1b[0m`);
+  }
 
   let iconImagePath = path.join('images', 'wIcons', platform, 'small', `${data.icon}`);
   if (!fs.existsSync(iconImagePath)) {
@@ -1208,12 +1315,20 @@ async function processFiles () {
   for (const mdFolder of mdFolders) {
     const mdFilesPath = mdFolder;
     const platform = mdFolder.substring(1);
+    
+    // Check if folder exists
+    if (!fs.existsSync(mdFilesPath)) {
+      console.error(`Error: Folder '${mdFilesPath}' does not exist.`);
+      continue;
+    }
+    
     const files = await fsp.readdir(mdFilesPath);
     const outputFolderPath = `images/social/${platform}`;
     if (!fs.existsSync(outputFolderPath)) {
       fs.mkdirSync(outputFolderPath);
     }
 
+    console.log(`Processing ${files.length} files from ${mdFolder}...`);
     for (const file of files) {
       totalFiles++;
       asyncTasks.push(limit(() => processOneFile(platform, mdFilesPath, file, outputFolderPath)));
