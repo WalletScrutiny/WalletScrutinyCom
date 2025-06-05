@@ -255,6 +255,47 @@ function compareVersions(a, b) {
   return 0;
 }
 
+// Helper function to calculate and format time since last verification
+function getTimeSinceLastVerification(dateString) {
+  try {
+    // Parse the date string (format: YYYY-MM-DD)
+    const [year, month, day] = dateString.split('-').map(num => parseInt(num, 10));
+    const verificationDate = new Date(year, month - 1, day); // Month is 0-indexed in JavaScript
+    
+    // Get current date
+    const currentDate = new Date();
+    
+    // Calculate difference in milliseconds
+    const diffMs = currentDate - verificationDate;
+    
+    // Convert to days
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    
+    // Format based on the time difference
+    if (diffDays < 7) {
+      // Less than a week
+      return diffDays <= 1 ? 
+        'Verified yesterday' : 
+        `${diffDays} days since last verification`;
+    } else if (diffDays < 30) {
+      // Less than a month
+      const weeks = Math.floor(diffDays / 7);
+      return weeks === 1 ? 
+        '1 week since last verification' : 
+        `${weeks} weeks since last verification`;
+    } else {
+      // Months or more
+      const months = Math.floor(diffDays / 30);
+      return months === 1 ? 
+        '1 month since last verification' : 
+        `${months} months since last verification`;
+    }
+  } catch (error) {
+    console.error(`Error parsing date: ${dateString}`, error);
+    return `Latest verification: ${dateString}`; // Fallback to original format
+  }
+}
+
 // Function to get Nostr verification summary for an app using grep and jq on local files
 function getNostrVerificationSummaryForApp(appId) {
   // Check if we already have cached results for this appId
@@ -670,7 +711,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     ctx.restore();
         
     // Draw app title inside the Nostr box at the top
-    ctx.font = 'bold 26px Barlow';
+    ctx.font = 'bold 28px Barlow';
     ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
     ctx.fillText(displayTitle, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 40);
@@ -685,12 +726,12 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
       
       // Special handling for 'reproducible' status
       if (data.nostrBuildStatus === 'reproducible') {
-        ctx.font = 'bold 24px Barlow';
+        ctx.font = 'bold 26px Barlow';
         ctx.fillStyle = '#4AE06B'; // Brighter green for reproducible on dark background
         ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       } else {
         // Normal rendering for other build statuses
-        ctx.font = 'bold 24px Barlow';
+        ctx.font = 'bold 26px Barlow';
         const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
                           (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
         ctx.fillStyle = statusColor;
@@ -701,7 +742,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     
     // Draw verification count if available
     if (data.nostrVerificationCount > 0) {
-      ctx.font = 'normal 22px Barlow';
+      ctx.font = 'normal 24px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       
       // Display reproducible count if available
@@ -717,18 +758,18 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
       currentTextY += 40;
     }
     
-    // Draw date of latest verification if available
+    // Draw time since latest verification if available
     if (data.latestDate) {
-      ctx.font = 'normal 22px Barlow';
+      const timeSinceText = getTimeSinceLastVerification(data.latestDate);
+      ctx.font = 'normal 24px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
-      ctx.fillText(`Latest verification: ${data.latestDate}`, 
-                  nostrBoxX + nostrBoxWidth / 2, currentTextY);
+      ctx.fillText(timeSinceText, nostrBoxX + nostrBoxWidth / 2, currentTextY);
       currentTextY += 40;
     }
     
     // Draw latest version verified if available
     if (data.nostrBuildStatus && data.latestVersion) {
-      ctx.font = 'normal 22px Barlow';
+      ctx.font = 'normal 24px Barlow';
       ctx.fillStyle = '#FFFFFF'; // White text for dark background
       ctx.fillText(`Latest version verified: ${data.latestVersion}`, 
                   nostrBoxX + nostrBoxWidth / 2, currentTextY);
@@ -738,7 +779,7 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     const nostrText = 'No Nostr verifications yet';
     
     // Draw the text in the center-right area
-    ctx.font = 'normal 18px Barlow';
+    ctx.font = 'normal 26px Barlow';
     ctx.fillStyle = '#FFFFFF'; // White text for dark background
     ctx.textAlign = 'center';
     ctx.fillText(nostrText, width * 0.75, height / 2);
