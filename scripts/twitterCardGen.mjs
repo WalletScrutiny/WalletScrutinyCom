@@ -1214,9 +1214,41 @@ async function drawOnCanvas (data, iconImage) {
   }
   printText(displayTitle, ctx, centerX, titleY, 'white', '22px Barlow', 42, 29);
   
+  // Get platform name based on folder name
+  let platformName = '';
+  if (data.isAppleApp) {
+    platformName = 'iPhone';
+  } else if (data.isAndroidApp) {
+    platformName = 'Android';
+  } else if (data.isDesktopApp) {
+    platformName = 'Desktop';
+  } else if (data.isHardwareApp) {
+    platformName = 'Hardware';
+  } else {
+    // Extract from folder name if available
+    if (data.folderName && data.folderName.startsWith('_')) {
+      platformName = data.folderName.substring(1); // Remove underscore
+      platformName = platformName.charAt(0).toUpperCase() + platformName.slice(1); // Capitalize first letter
+      if (platformName === 'Iphone') platformName = 'iPhone'; // Special case for iPhone
+      if (platformName === 'Web') platformName = 'Web';
+      if (platformName === 'Bearer') platformName = 'Bearer';
+      if (platformName === 'Others') platformName = 'Other';
+    }
+  }
+  
+  // Display platform information if available
+  let platformY = titleY + 30;
+  if (platformName) {
+    ctx.font = 'normal 20px Barlow';
+    ctx.fillStyle = '#AAAAAA'; // Light gray text for platform info
+    ctx.textAlign = 'center';
+    ctx.fillText(`(for ${platformName})`, centerX, platformY);
+    platformY += 10; // Add some extra space after platform info
+  }
+  
   // Developer Name - in dark gray
   if (data.developerName) {
-    const devNameY = titleY + 23; // Moved 10px up
+    const devNameY = platformY + 13; // Position below platform info
     ctx.font = '400 20px Barlow';
     ctx.fillStyle = 'rgba(122, 122, 122, 1.0)'; // Dark gray color
     ctx.textAlign = 'center';
@@ -1249,7 +1281,18 @@ async function drawOnCanvas (data, iconImage) {
   
   // Android icon is now drawn as a background element earlier in the function
   
-  const verdictY = (data.developerName ? titleY + 80 : titleY + 40); // Position based on whether developer name exists
+  // Calculate verdict position based on what elements are present
+  let verdictY;
+  if (data.developerName) {
+    // If we have platform info and developer name, position accordingly
+    verdictY = platformY + 43; // Position below developer name
+  } else if (platformName) {
+    // If we have platform info but no developer name
+    verdictY = platformY + 30; // Position below platform info
+  } else {
+    // If we have neither platform info nor developer name
+    verdictY = titleY + 40; // Position below title
+  }
   
   // Set font first so we can measure text properly
   ctx.font = '400 19px Barlow'; // Reduced by 5px total (3px + 2px)
