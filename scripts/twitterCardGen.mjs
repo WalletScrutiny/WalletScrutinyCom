@@ -65,10 +65,11 @@ const reproducibleImagePath = 'images/twCard/reproducible.png';
 const androidImagePath = 'images/twCard/android_icon.png';
 const appleImagePath = 'images/twCard/apple_logo.png';
 const desktopImagePath = 'images/twCard/desktop_logo.png';
+const sadNostrichImagePath = 'images/twCard/sad_nostrich.png';
 const fallbackIcon = 'images/smallNoicon.png';
 
 // Global variables for images
-let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, desktopImage, sourceAvailableBg;
+let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage, sourceAvailableBg;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
@@ -128,6 +129,13 @@ async function loadResources () {
     desktopImage = await loadImage(desktopImagePath);
   } catch (error) {
     console.error(`Error loading Desktop logo: ${error.message}`);
+  }
+
+  // Load Sad Nostrich image
+  try {
+    sadNostrichImage = await loadImage(sadNostrichImagePath);
+  } catch (error) {
+    console.error(`Error loading Sad Nostrich image: ${error.message}`);
   }
 
   // Load Apple logo
@@ -756,34 +764,40 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     await drawAndroidBackground(ctx, width, height, data);
   }
   
-  // Draw the app icon in the top left frame appIcon for sourceavailable
-  const iconWidth = 100;
-  const iconHeight = 100;
-  const iconX = 25; // Position in the top left
-  const iconY = 160; // Position in the top left
+  // Only draw the app icon in the left side if we have Nostr verifications
+  // For apps without Nostr verifications, the icon will be drawn in the center later
+  let hasNostrData = data.nostrBuildStatus || (data.nostrVerificationCount && data.nostrVerificationCount > 0);
   
-  // Apply drop shadow and clip, then draw the icon
-  ctx.save();
-  ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
-  ctx.shadowBlur = 10;
-  ctx.shadowOffsetX = 3;
-  ctx.shadowOffsetY = 3;
+  if (hasNostrData) {
+    // Draw the app icon in the top left frame appIcon for sourceavailable
+    const iconWidth = 100;
+    const iconHeight = 100;
+    const iconX = 25; // Position in the top left
+    const iconY = 160; // Position in the top left
+    
+    // Apply drop shadow and clip, then draw the icon
+    ctx.save();
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 10;
+    ctx.shadowOffsetX = 3;
+    ctx.shadowOffsetY = 3;
 
-  ctx.beginPath();
-  ctx.moveTo(iconX + 24, iconY);
-  ctx.lineTo(iconX + iconWidth - 24, iconY);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
-  ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
-  ctx.lineTo(iconX + 24, iconY + iconHeight);
-  ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
-  ctx.lineTo(iconX, iconY + 24);
-  ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
-  ctx.closePath();
-  ctx.clip();
+    ctx.beginPath();
+    ctx.moveTo(iconX + 24, iconY);
+    ctx.lineTo(iconX + iconWidth - 24, iconY);
+    ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
+    ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
+    ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
+    ctx.lineTo(iconX + 24, iconY + iconHeight);
+    ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
+    ctx.lineTo(iconX, iconY + 24);
+    ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
+    ctx.closePath();
+    ctx.clip();
 
-  ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-  ctx.restore();
+    ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
+    ctx.restore();
+  }
   
   // Prepare app name and developer name variables but don't draw them yet
   // We'll draw them after the Nostr verification box to ensure they appear on top
@@ -792,16 +806,21 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     displayTitle = displayTitle.substring(0, 30) + '...';
   }
   
-  // Draw the source available badge below the icon
-  const badgeX = -15;
-  const badgeY = 250;
-  
   // Fixed dimensions for badges
   const badgeWidth = 250;
   const badgeHeight = 250;
   
-  // Draw source available badge
-  ctx.drawImage(sourceavailableImage, badgeX, badgeY, 180, 180);
+  // Check if app has Nostr data (defined earlier in the function)
+  // Only draw the source available badge here if the app has Nostr verifications
+  // For apps without Nostr verifications, we'll draw it later in a different position
+  if (data.nostrBuildStatus || (data.nostrVerificationCount && data.nostrVerificationCount > 0)) {
+    // Draw the source available badge below the icon
+    const badgeX = -15;
+    const badgeY = 250;
+    
+    // Draw source available badge
+    ctx.drawImage(sourceavailableImage, badgeX, badgeY, 180, 180);
+  }
   
   // If nostrBuildStatus is 'reproducible', draw the reproducible badge beside the source available badge
   // To adjust the reproducible badge position:
@@ -904,11 +923,122 @@ async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
     // If no Nostr data but app is source available with meta: ok, show a note
     const nostrText = 'No Nostr verifications yet';
     
-    // Draw the text in the center-right area
-    ctx.font = 'normal 28px Barlow';
-    ctx.fillStyle = '#FFFFFF'; // White text for dark background
+    // Draw the text in the center
+    const textX = width * 0.5; // X position of the text (center of right half)
+    const textY = height / 2 + 60; // Y position moved down by 30 pixels
+    // To move the text left: Decrease textX (e.g., from width * 0.75 to width * 0.65 or a smaller value).
+    // To move the text down: Increase textY (e.g., from height / 2 - 30 to height / 2 or a larger value).
+
+    // Get platform name based on folder name (remove underscore and capitalize first letter)
+    let platformName = '';
+    if (data.isAppleApp) {
+      platformName = 'iOS';
+    } else if (data.isAndroidApp) {
+      platformName = 'Android';
+    } else if (data.isDesktopApp) {
+      platformName = 'Desktop';
+    } else if (data.isHardwareApp) {
+      platformName = 'Hardware';
+    } else {
+      // Extract from folder name if available
+      if (data.folderName && data.folderName.startsWith('_')) {
+        platformName = data.folderName.substring(1); // Remove underscore
+        platformName = platformName.charAt(0).toUpperCase() + platformName.slice(1); // Capitalize first letter
+      }
+    }
+    
+    // Draw the app icon at the top
+    const iconWidth = 100;
+    const iconHeight = 100;
+    const iconX = textX - iconWidth / 2; // Center horizontally with text
+    const iconY = textY - 180; // Position above the title
+    
+    // Apply drop shadow and clip, then draw the icon
+    ctx.save();
+    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
+    ctx.shadowBlur = 10;
+    ctx.shadowOffsetX = 3;
+    ctx.shadowOffsetY = 3;
+
+    ctx.beginPath();
+    ctx.moveTo(iconX + 24, iconY);
+    ctx.lineTo(iconX + iconWidth - 24, iconY);
+    ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
+    ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
+    ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
+    ctx.lineTo(iconX + 24, iconY + iconHeight);
+    ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
+    ctx.lineTo(iconX, iconY + 24);
+    ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
+    ctx.closePath();
+    ctx.clip();
+
+    ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
+    ctx.restore();
+
+    // Draw title
+    ctx.font = 'bold 30px Barlow';
+    ctx.fillStyle = '#FFFFFF'; // White text
     ctx.textAlign = 'center';
-    ctx.fillText(nostrText, width * 0.75, height / 2);
+    ctx.fillText(data.title, textX, textY - 35);
+    
+    // Draw platform info
+    if (platformName) {
+      ctx.font = 'normal 26px Barlow';
+      ctx.fillStyle = '#AAAAAA'; // Light gray text
+      ctx.fillText(`(for ${platformName})`, textX, textY);
+    }
+    
+    // Draw version if available
+    if (data.version) {
+      ctx.font = 'normal 20px Barlow';
+      ctx.fillStyle = '#FFFFFF'; // White text
+      ctx.fillText(`Version: ${data.version}`, textX, textY + 27);
+    }
+    
+    // Draw blue rounded rectangle for "No Nostr verifications yet" text
+    const rectWidth = 420;
+    const rectHeight = 40;
+    const rectX = textX - rectWidth / 2;
+    const rectY = textY + 40;
+    
+    ctx.save();
+    ctx.beginPath();
+    ctx.roundRect(rectX, rectY, rectWidth, rectHeight, 10);
+    ctx.fillStyle = 'rgba(0, 100, 255, 0.5)'; // Semi-transparent blue
+    ctx.fill();
+    ctx.restore();
+    
+    // Draw "No Nostr verifications yet" text
+    ctx.font = 'normal 28px Barlow';
+    ctx.fillStyle = '#FFFFFF'; // White text
+    ctx.textAlign = 'center';
+    ctx.fillText(nostrText, textX, textY + 70);
+    
+    // Draw the source available badge for apps without Nostr verifications
+    // in a different position than for apps with Nostr verifications
+    const badgeX = 20; // Position in the bottom left
+    const badgeY = height - 260; // Position at the bottom
+    
+    // Draw source available badge for verdict:sourceavailable and meta:ok but with no nostr
+    ctx.drawImage(sourceavailableImage, badgeX, badgeY, 200, 200);
+    
+    // Draw the sad nostrich image beneath the text
+    if (sadNostrichImage) {
+      // Calculate image dimensions - adjust these values to resize the image
+      const imgWidth = 204; // Width of the image - adjust this to make it larger/smaller
+      const imgHeight = 306; // Height of the image - adjust this to make it larger/smaller
+      
+      // Calculate position - adjust these values to move the image around
+      const imgX = imgWidth / 2 + 500; // Center horizontally with the text
+      const imgY = textY - 80; // Position below the text - increase this value to move it down
+      
+      // Draw the image
+      ctx.drawImage(sadNostrichImage, imgX, imgY, imgWidth, imgHeight);
+      console.log(`\x1b[36m[NOSTR] Drawing Sad Nostrich at position (${imgX}, ${imgY}) with size ${imgWidth}x${imgHeight}\x1b[0m`);
+    } else {
+      console.log('\x1b[31m[NOSTR] sadNostrichImage is not loaded\x1b[0m');
+    }
   }
   
   // If meta is not 'ok', display the meta verdict message
