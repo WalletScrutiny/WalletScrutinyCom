@@ -13,7 +13,7 @@ appCountry:
 released: 2020-07-07
 updated: 2025-04-13
 version: 0.10.2
-stars: 4.2
+stars: 4.3
 ratings: 45
 reviews: 37
 website: https://zeusln.com

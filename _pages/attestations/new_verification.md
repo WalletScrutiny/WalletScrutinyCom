@@ -3,11 +3,158 @@ layout: archive
 permalink: /new_verification/
 ---
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
+      /* Tab styling with light/dark mode support */
+      .tab-button {
+        background-color: #444; /* Dark background for inactive tab in both modes */
+        border: 1px solid var(--neutral-4);
+        padding: 0.4em 1em;
+        border-radius: 5px 5px 0 0;
+        font-weight: bold;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.25); /* 75% opacity white text for inactive tab */
+      }
+      .tab-button:hover {
+        background-color: #555;
+        color: rgba(255, 255, 255, 0.4); /* Slightly more visible on hover */
+      }
+      .tab-button.active {
+        background-color: #f5f5f5; /* Light background for active tab in both modes */
+        border: 1px solid var(--neutral-4);
+        border-bottom: 1px solid #f5f5f5;
+        position: relative;
+        top: 1px;
+        z-index: 2;
+        color: #333; /* Dark text for active tab */
+      }
+
+      #editorContainer {
+        border: 1px solid var(--neutral-4);
+        border-top: none;
+        padding: 0;
+        border-radius: 0 0 5px 5px;
+        position: relative;
+        z-index: 1;
+      }
+      #editorTabs {
+        display: flex;
+        gap: 0.5em;
+        margin-bottom: 0;
+        position: relative;
+        top: 1px;
+        z-index: 1;
+      }
+      #editorContainer .form-control {
+        margin: 0;
+        border-radius: 0 0 5px 5px;
+      }
+      
+      /* Markdown preview styling */
+      #markdownPreview h1, #markdownPreview h2, #markdownPreview h3, 
+      #markdownPreview h4, #markdownPreview h5, #markdownPreview h6 {
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        line-height: 1.2;
+      }
+      #markdownPreview h1 {
+        font-size: 2em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+        text-align: left;
+      }
+      #markdownPreview h2 {
+        font-size: 1.5em;
+        border-bottom: 1px solid var(--neutral-4);
+        padding-bottom: 0.3em;
+      }
+      #markdownPreview h3 {
+        font-size: 1.3em;
+      }
+      #markdownPreview h4 {
+        font-size: 1.1em;
+      }
+      #markdownPreview p {
+        margin: 0.5em 0;
+      }
+      /* Compact list styling */
+      #markdownPreview h3 {
+        margin-top: 0.8em;
+        margin-bottom: 0.3em;
+      }
+      #markdownPreview ul {
+        list-style-type: disc;
+        padding-left: 2em;
+        margin: 0.2em 0;
+      }
+      #markdownPreview ol {
+        list-style-type: decimal;
+        padding-left: 2em;
+        margin: 0.2em 0;
+      }
+      #markdownPreview ul ul,
+      #markdownPreview ol ul {
+        list-style-type: circle;
+        margin: 0;
+      }
+      #markdownPreview ul ul ul,
+      #markdownPreview ol ul ul {
+        list-style-type: square;
+      }
+      #markdownPreview ul ol,
+      #markdownPreview ol ol {
+        list-style-type: lower-alpha;
+        margin: 0;
+      }
+      #markdownPreview ul ol ol,
+      #markdownPreview ol ol ol {
+        list-style-type: lower-roman;
+      }
+      #markdownPreview li {
+        margin: 0;
+        line-height: 1.2;
+      }
+      /* Fix spacing between list items */
+      #markdownPreview ul li,
+      #markdownPreview ol li {
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      #markdownPreview blockquote {
+        border-left: 4px solid var(--neutral-4);
+        padding-left: 1em;
+        margin: 0.5em 0;
+        color: var(--neutral-2);
+      }
+      
+      /* Code block styling */
+      #markdownPreview pre,
+      #markdownPreview code {
+        font-family: monospace;
+      }
+      #markdownPreview pre {
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
+        border-radius: 4px;
+        padding: 0.8em;
+        overflow-x: auto;
+        margin: 0.5em 0;
+      }
+      #markdownPreview pre code {
+        display: block;
+        background: none;
+        border: none;
+        padding: 0;
+        line-height: 1.4;
+      }
+      #markdownPreview code {
+        background-color: rgba(0, 0, 0, 0.07); /* Light gray with opacity that works in both modes */
+        border: none;
+        border-radius: 3px;
+        padding: 0.2em 0.4em;
+        font-size: 0.9em;
+      }
     .hash-input-container {
         display: flex;
         gap: 10px;
@@ -257,7 +404,15 @@ permalink: /new_verification/
         <div class="form-group">
             <label for="content">Content (*):</label>
             <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
-            <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+            <div id="editorTabs" style="display: flex; gap: 0.5em;">
+                <button type="button" id="writeTab" class="tab-button active">Write</button>
+                <button type="button" id="previewTab" class="tab-button">Preview</button>
+            </div>
+
+            <div id="editorContainer">
+                <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
+            </div>
             <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
         </div>
 
@@ -537,150 +692,155 @@ permalink: /new_verification/
       const errorDiv = document.createElement('div');
       errorDiv.className = 'error-message';
       errorDiv.innerHTML = `
-      <p>${message}</p>
-      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
-    `;
+        <p>${message}</p>
+        <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>`;
 
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
 
-    if (!await userHasBrowserExtension()) {
-      showError('A Nostr browser extension is required to create verifications.');
-      return;
-    }
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const draftVerificationEventId = urlParams.get('draftVerificationEventId');
-    const action = urlParams.get('action');
-
-    if (draftVerificationEventId && action) {
-      const draftButton = document.querySelector('button[name="draft"]');
-      if (draftButton) {
-        draftButton.textContent = 'Save Draft Verification';
+    window.addEventListener('verificationsUILoaded', async () => {
+      if (!await userHasBrowserExtension()) {
+        showError('A Nostr browser extension is required to create verifications.');
+        return;
       }
 
-      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
-      document.title = 'Editing Draft Verification | Wallet Scrutiny';
+      document.getElementById('loadingSpinner').style.display = 'block';
 
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
-        const attachments = await getFileAttachmentEvents(fileEventIds);
+      const urlParams = new URLSearchParams(window.location.search);
+      const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+      const action = urlParams.get('action');
 
-        attachments.forEach(attachment => {
-          let name;
-          if (attachment.kind === codeSnippetKind) {
-            const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
-            const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
-            name = `${attachmentName}.${extension}`;
-          } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-            name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
-          }
-
-          const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
-          const attachmentContent = atob(attachment.content);
-          const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-
-          uploadedFiles.push({
-            name: name,
-            size: size,
-            type: attachmentContentType,
-            data: attachmentContent
-          });
-        });
-        displayFiles();
-
-        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
-        verificationOutputFiles.forEach(outputFile => {
-          outputFiles.push({
-            name: outputFile[1],
-            hash: outputFile[2]
-          });
-        });
-        displayOutputFiles();
-
-        // If files were loaded from the draft, set the script usage selector to 'upload'
-        if (uploadedFiles.length > 0) {
-          document.getElementById('scriptUsage').value = 'upload';
-          handleScriptSectionVisibility();
+      if (draftVerificationEventId && action) {
+        const draftButton = document.querySelector('button[name="draft"]');
+        if (draftButton) {
+          draftButton.textContent = 'Save Draft Verification';
         }
 
-        const eventContent = JSON.parse(draftVerificationEvent.content);
+        document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
+        document.title = 'Editing Draft Verification | Wallet Scrutiny';
 
-        document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
-        document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
-        document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
-        document.getElementById('description').value = eventContent.description || '';
-        document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
-        document.getElementById('content').value = eventContent.content || '';
+        const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+        if (draftVerificationEvent) {
+          const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
+          const attachments = await getFileAttachmentEvents(fileEventIds);
 
-        const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
-        hashes.forEach(hash => addHash(hash));
+          attachments.forEach(attachment => {
+            let name;
+            if (attachment.kind === codeSnippetKind) {
+              const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
+              const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+              name = `${attachmentName}.${extension}`;
+            } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+              name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+            }
+
+            const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+            const attachmentContent = atob(attachment.content);
+            const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+
+            uploadedFiles.push({
+              name: name,
+              size: size,
+              type: attachmentContentType,
+              data: attachmentContent
+            });
+          });
+          displayFiles();
+
+          const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+          verificationOutputFiles.forEach(outputFile => {
+            outputFiles.push({
+              name: outputFile[1],
+              hash: outputFile[2]
+            });
+          });
+          displayOutputFiles();
+
+          // If files were loaded from the draft, set the script usage selector to 'upload'
+          if (uploadedFiles.length > 0) {
+            document.getElementById('scriptUsage').value = 'upload';
+            handleScriptSectionVisibility();
+          }
+
+          const eventContent = JSON.parse(draftVerificationEvent.content);
+
+          document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
+          document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
+          document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
+          document.getElementById('description').value = eventContent.description || '';
+          document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
+          document.getElementById('content').value = eventContent.content || '';
+
+          const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+          hashes.forEach(hash => addHash(hash));
+        } else {
+          showToast('Draft verification not found', 'error');
+        }
       } else {
-        showToast('Draft verification not found', 'error');
+        const deleteDraftBtn = document.getElementById('deleteDraft');
+        if (deleteDraftBtn) {
+          deleteDraftBtn.style.display = 'none';
+        }
       }
-    } else {
-      const deleteDraftBtn = document.getElementById('deleteDraft');
-      if (deleteDraftBtn) {
-        deleteDraftBtn.style.display = 'none';
+
+      if (window.wallets && window.wallets.length > 0) {
+        setupAppIdAutocomplete();
       }
-    }
 
-    if (window.wallets && window.wallets.length > 0) {
-      setupAppIdAutocomplete();
-    }
-
-    const fields = ['version', 'appId', 'platform'];
-    fields.forEach(field => {
-      const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
-      if (value) {
-        document.getElementById(field).value = value;
-      }
-    });
-
-    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
-
-    // Update the hashes label based on whether sha256 is present
-    const hashesLabel = document.getElementById('hashesLabel');
-    const hashesHelpText = document.getElementById('hashesHelpText');
-    if (sha256) {
-      hashesLabel.textContent = 'Additional related hashes:';
-      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
-    } else {
-      hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
-    }
-
-    let message = '';
-
-    if (sha256) {
-      // Show asset information and previous verifications
-      const result = await renderAssetsTable({
-        htmlElementId:'previousAttestations',
-        sha256: sha256,
-        hideConfig: {buttons: true}
+      const fields = ['version', 'appId', 'platform'];
+      fields.forEach(field => {
+        const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
+        if (value) {
+          document.getElementById(field).value = value;
+        }
       });
 
-      if (!result.hasVerifications) {
-        document.getElementById('previousAttestations').style.display = 'none';
-      }
+      const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
 
-      if (result.hasVerifications) {
-        message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
+      // Update the hashes label based on whether sha256 is present
+      const hashesLabel = document.getElementById('hashesLabel');
+      const hashesHelpText = document.getElementById('hashesHelpText');
+      if (sha256) {
+        hashesLabel.textContent = 'Additional related hashes:';
+        hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
       } else {
-        message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
+        hashesLabel.textContent = 'Asset hashes*:';
+        hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
       }
-    }
 
-    message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
-    const infoMessage = document.querySelector('.info-message');
-    infoMessage.innerHTML = message;
+      let message = '';
 
-    // Initial call to load scripts if appId is pre-filled
-    const initialAppId = document.getElementById('appId').value.trim();
-    if (initialAppId) {
-      await loadAndDisplayAvailableScripts(initialAppId);
-    }
+      if (sha256) {
+        // Show asset information and previous verifications
+        const result = await renderAssetsTable({
+          htmlElementId:'previousAttestations',
+          sha256: sha256,
+          hideConfig: {buttons: true}
+        });
+
+        if (!result.hasVerifications) {
+          document.getElementById('previousAttestations').style.display = 'none';
+        }
+
+        if (result.hasVerifications) {
+          message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
+        } else {
+          message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
+        }
+      }
+
+      message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
+      const infoMessage = document.querySelector('.info-message');
+      infoMessage.innerHTML = message;
+
+      // Initial call to load scripts if appId is pre-filled
+      const initialAppId = document.getElementById('appId').value.trim();
+      if (initialAppId) {
+        await loadAndDisplayAvailableScripts(initialAppId);
+      }
+
+      document.getElementById('loadingSpinner').style.display = 'none';
+    });
   }
 
   async function loadAndDisplayAvailableScripts(appId) {
@@ -835,7 +995,6 @@ permalink: /new_verification/
     }
 
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
-    const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
 
     // Combine sha256 and otherHashes into a single parameter
@@ -852,7 +1011,6 @@ permalink: /new_verification/
       version: document.getElementById('version').value.trim(),
       status: document.getElementById('status').value,
       platform: document.getElementById('platform').value,
-      assetEventId: assetEventId,
       isDraft: isDraft,
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
@@ -968,6 +1126,11 @@ permalink: /new_verification/
         e.preventDefault();
         addHashBtn.click();
       }
+    });
+
+    // Initialize the preview button functionality
+    window.addEventListener('verificationsUILoaded', async () => {
+      initializePreviewButton();
     });
   });
 </script>

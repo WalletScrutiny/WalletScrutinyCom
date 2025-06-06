@@ -9,7 +9,7 @@ appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
 released: 2020-03-04
 updated: 2025-05-26
-version: 3.3.3
+version: 3.3.4
 stars: 3.9
 ratings: 
 reviews: 5

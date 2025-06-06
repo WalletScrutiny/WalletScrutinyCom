@@ -8,8 +8,8 @@ appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
 released: 2021-03-01
-updated: 2025-05-13
-version: 3.7.5
+updated: 2025-05-28
+version: 3.7.6
 stars: 4.9
 reviews: 135
 website: https://help.trubit.com/en

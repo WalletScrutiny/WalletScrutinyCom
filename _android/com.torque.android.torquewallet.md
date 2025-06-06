@@ -13,8 +13,7 @@ version: 1.1.15
 stars: 4.2
 ratings: 
 reviews: 13
-website: >-
-  https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
+website: https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
 repository: 
 issue: 
 icon: com.torque.android.torquewallet.png

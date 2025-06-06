@@ -14,7 +14,7 @@ updated: 2025-05-02
 version: 3.32.7
 stars: 4.2
 ratings: 110
-reviews: 14
+reviews: 13
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/197

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-04-01
+date: 2025-05-30
 signer: 
 twitter: coinpalapp
 social:

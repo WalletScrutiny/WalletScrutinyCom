@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.thoryield.androidapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-06-03
+date: 2025-06-05
 signer: 
 twitter: thoryieldapp
 social:

@@ -12,7 +12,7 @@ updated: 2025-04-20
 version: 5.1.0
 stars: 4.2
 ratings: 1381
-reviews: 1358
+reviews: 1362
 website: https://bitbuy.ca/
 repository: 
 issue: 

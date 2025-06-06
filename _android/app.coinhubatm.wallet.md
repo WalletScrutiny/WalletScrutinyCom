@@ -4,7 +4,7 @@ title: Coinhub Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: app.coinhubatm.wallet
 appCountry: 
 released: 2022-12-11

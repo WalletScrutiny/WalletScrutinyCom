@@ -4,7 +4,7 @@ title: Blockchain Mint
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.coldstoragecoins
 appCountry: 
 released: 2018-08-14

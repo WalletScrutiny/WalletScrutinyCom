@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bprogrammers.cryptorize.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-04
+date: 2025-05-30
 signer: 
 twitter: 
 social:

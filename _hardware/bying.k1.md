@@ -30,8 +30,7 @@ date: 2024-10-18
 signer: 
 twitter: Bying_official
 social:
-- >-
-  https://weibo.com/p/1006066414521474/home?from=page_100606&mod=TAB&is_all=1#place
+- https://weibo.com/p/1006066414521474/home?from=page_100606&mod=TAB&is_all=1#place
 - https://t.me/Byingofficial
 features: 
 

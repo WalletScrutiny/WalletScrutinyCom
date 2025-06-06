@@ -16,8 +16,7 @@ weight: 350
 provider: Franck Muller
 providerWebsite: https://www.franckmuller.com/
 website: https://franckmullerencrypto.com/
-shop: >-
-  https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
+shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
 country: 
 price: 12000CHF
 repository: 

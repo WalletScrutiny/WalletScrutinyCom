@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.chain.zconprotocol.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-01-19
+date: 2025-05-30
 signer: 
 twitter: BISKIT_TOKEN
 social:

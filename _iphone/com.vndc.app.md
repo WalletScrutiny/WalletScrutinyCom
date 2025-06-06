@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.vndc.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-11
+date: 2025-05-30
 signer: 
 twitter: vncd_official
 social: 

@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: 'Paxful: Buy Bitcoin & Ethereum'
+title: 'Paxful: Buy BTC, USDT, ETH'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2025-05-08
 version: 2.9.46.716
 stars: 3.3
 ratings: 21528
-reviews: 1959
+reviews: 1958
 website: https://Paxful.com
 repository: 
 issue: 

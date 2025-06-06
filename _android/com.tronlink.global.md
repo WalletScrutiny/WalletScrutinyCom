@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-09
 updated: 2025-05-03
 version: 4.16.0
-stars: 4.1
+stars: 4
 ratings: 
 reviews: 59
 website: https://www.tronlink.org

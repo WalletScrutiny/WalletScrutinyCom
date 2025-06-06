@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: jaytesrac.com.hobu_app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-12-28
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.btuprotocol.btuWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2021-10-19
+date: 2025-05-30
 signer: 
 twitter: versoapp
 social: 

@@ -1,6 +1,6 @@
 ---
 wsId: ironwallet
-title: 'IronWallet: Cold Crypto Wallet'
+title: 'IronWallet: Crypto Wallet'
 altTitle: 
 authors:
 - danny

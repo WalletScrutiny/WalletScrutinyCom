@@ -9,11 +9,11 @@ users: 1000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
 released: 2023-03-26
-updated: 2025-04-04
-version: 0.9.4
-stars: 3.8
+updated: 2025-06-01
+version: 0.9.5
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 5
 website: https://bitbanana.app/
 repository: https://github.com/michaelWuensch/BitBanana
 issue: https://github.com/michaelWuensch/BitBanana/issues/95
@@ -30,8 +30,7 @@ signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
 twitter: BitBananaApp
 social:
 - https://discord.gg/Xg85BuTc9A
-- >-
-  https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
+- https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
 redirect_from: 
 developerName: Michael Wünsch
 features: 

@@ -11,7 +11,7 @@ released: 2022-12-07
 updated: 2025-05-16
 version: 1.50.0
 stars: 4.4
-reviews: 372
+reviews: 373
 website: https://www.lbfinanzas.com
 repository: 
 issue: 

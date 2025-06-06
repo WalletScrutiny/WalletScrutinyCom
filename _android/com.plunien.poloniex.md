@@ -29,7 +29,7 @@ social:
 redirect_from:
 - /com.plunien.poloniex/
 - /posts/com.plunien.poloniex/
-developerName: Polo Digital Assets, Ltd
+developerName: poloniex
 features: 
 
 ---

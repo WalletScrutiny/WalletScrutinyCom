@@ -8,11 +8,11 @@ users: 5000
 appId: com.xrpaynet.app
 appCountry: 
 released: 2022-07-05
-updated: 2025-05-09
-version: 3.0.0.prod
+updated: 2025-05-29
+version: 3.0.2.prod
 stars: 4.2
 ratings: 
-reviews: 40
+reviews: 41
 website: 
 repository: 
 issue: 

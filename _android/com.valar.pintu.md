@@ -4,15 +4,15 @@ title: 'Pintu: Buy & Invest Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
 updated: 2025-05-23
-version: 3.72.0
+version: 3.73.0
 stars: 4.4
 ratings: 28130
-reviews: 179
+reviews: 180
 website: https://pintu.co.id/
 repository: 
 issue: 

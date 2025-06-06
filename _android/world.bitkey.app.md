@@ -8,11 +8,11 @@ users: 5000
 appId: world.bitkey.app
 appCountry: US
 released: 2024-02-28
-updated: 2025-05-23
-version: 2025.10.0 (5)
+updated: 2025-05-28
+version: 2025.10.1 (1)
 stars: 4.2
 ratings: 
-reviews: 24
+reviews: 25
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/647

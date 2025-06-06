@@ -16,8 +16,7 @@ weight: 45
 provider: Ryder (Marvin Janssen)
 providerWebsite: 
 website: https://www.ryder.id/
-shop: >-
-  https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for-everyone
+shop: https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for-everyone
 country: SG
 price: 179USD
 repository: https://github.com/Light-Labs/protocol

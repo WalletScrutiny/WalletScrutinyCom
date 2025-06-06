@@ -10,8 +10,8 @@ idd: '1360632912'
 released: 2018-03-26
 updated: 2025-01-31
 version: '13.0'
-stars: 4.2
-reviews: 933
+stars: 4.1
+reviews: 934
 website: https://choise.com/
 repository: 
 issue: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.gleec.gleecdex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-07-05
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

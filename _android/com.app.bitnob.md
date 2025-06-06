@@ -12,7 +12,7 @@ updated: 2025-04-29
 version: 1.189.5
 stars: 3.9
 ratings: 275
-reviews: 35
+reviews: 36
 website: https://bitnob.com
 repository: 
 issue: 

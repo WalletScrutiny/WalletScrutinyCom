@@ -170,9 +170,19 @@ const getNostrProfile = async function (pubkey) {
   if (!pubkey) {
     return null;
   }
+
+  const cacheKey = 'profile-' + pubkey;
+
+  const profileFromCache = getCachedResultIfNotExpired(cacheKey);
+  if (profileFromCache) {
+    return profileFromCache;
+  }
+
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
-  return await user.fetchProfile();
+  const profile = await user.fetchProfile();
+  setCache(cacheKey, profile);
+  return profile;
 }
 
 const getNpubFromPubkey = async function (pubkey) {
@@ -893,13 +903,6 @@ function getStatusText(status, short = false) {
   }
 }
 
-function isDebugEnv() {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-  return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
-}
-
 const getDraftVerificationEvent = async function(draftVerificationEventId) {
   await ensureNdkConnected();
   return await ndk.fetchEvent(draftVerificationEventId);
@@ -1051,7 +1054,7 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
   };
 }
 
-function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) {
+function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId, platform) {
   let verification = null;
   let maxVersion = null;
 
@@ -1061,7 +1064,8 @@ function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId) 
     for (const asset of assetArray) {
       const version = asset.tags.find(tag => tag[0] === 'version')?.[1];
       const appIdTag = asset.tags.find(tag => tag[0] === 'i')?.[1];
-      if (version && (appIdTag === appId)) {
+      const platformTag = asset.tags.find(tag => tag[0] === 'platform')?.[1];
+      if (version && (appIdTag === appId) && (platformTag === platform)) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           verification = asset;
           maxVersion = version;
@@ -1113,7 +1117,48 @@ function getWeightForAppFromAssetInformation(appId) {
   };
 }
 
+////////////////////////////////////////////////////////////////////
+// CACHE FUNCTIONS
+////////////////////////////////////////////////////////////////////
+
+function getCache(key) {
+  try {
+    const cache = localStorage.getItem(key);
+    return cache ? JSON.parse(cache) : {};
+  } catch (error) {
+    console.error('Error reading from cache:', error);
+    return null;
+  }
+}
+
+function setCache(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify({
+      value: value,
+      timestamp: Date.now()
+    }));
+  } catch (error) {
+      console.error('Error writing to cache:', error);
+  }
+}
+
+function getCachedResultIfNotExpired(key) {
+  const CACHE_EXPIRATION_TIME = 3 * 60 * 60 * 1000; // 3 hours in milliseconds
+
+  const cache = getCache(key);
+    
+  if (cache) {
+      const isExpired = Date.now() - cache.timestamp > CACHE_EXPIRATION_TIME;
+      if (!isExpired) {
+          return cache.value;
+      }
+  }
+
+  return null;
+}
+
 if (typeof window !== 'undefined') {
+  window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;
@@ -1161,7 +1206,6 @@ export {
   getAppInfoFromEventInfo,
   nip19,
   purifyConfig,
-  isDebugEnv,
   getStatusText,
   loadDraftVerificationsNotifications,
   doDraftVerificationAction,

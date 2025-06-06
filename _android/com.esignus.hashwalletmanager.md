@@ -8,8 +8,8 @@ users: 1000
 appId: com.esignus.hashwalletmanager
 appCountry: 
 released: 2022-09-22
-updated: 2025-04-19
-version: 2.20.4
+updated: 2025-05-29
+version: 2.20.7
 stars: 2.7
 ratings: 
 reviews: 3

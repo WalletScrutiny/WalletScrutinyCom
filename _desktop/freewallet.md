@@ -20,7 +20,7 @@ verdict: sourceavailable
 date: 2025-04-25
 twitter: FreeWallet
 social:
-- https://www.facebook.com/freewallet.io 
+- https://www.facebook.com/freewallet.io
 features: 
 
 ---

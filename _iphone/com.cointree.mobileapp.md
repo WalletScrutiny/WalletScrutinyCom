@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.cointree.mobileapp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-17
+date: 2025-05-30
 signer: 
 twitter: CointreeAus
 social:

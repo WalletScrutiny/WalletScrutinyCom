@@ -4,15 +4,15 @@ title: ActTrader
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.acttrader
 appCountry: 
 released: 2021-12-29
 updated: 2025-04-29
 version: 2.2.36
-stars: 2.3
+stars: 2.2
 ratings: 
-reviews: 10
+reviews: 11
 website: https://acttrader.com
 repository: 
 issue: 

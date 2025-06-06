@@ -1,6 +1,6 @@
 ---
 wsId: nebeus
-title: 'Nebeus: IBANs for Crypto'
+title: 'Nebeus: Your new way of paying'
 altTitle: 
 authors:
 - danny

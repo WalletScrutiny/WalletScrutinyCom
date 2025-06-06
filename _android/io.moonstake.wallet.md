@@ -12,7 +12,7 @@ updated: 2025-04-16
 version: 2.34.1
 stars: 3.4
 ratings: 2237
-reviews: 16
+reviews: 17
 website: https://moonstake.io
 repository: 
 issue: 

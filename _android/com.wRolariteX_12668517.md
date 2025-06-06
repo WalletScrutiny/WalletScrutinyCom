@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.wRolariteX_12668517.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2025-04-06
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

@@ -11,8 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Chia Tze Hank
-providerWebsite: >-
-  https://hankrobot.wordpress.com/2019/07/26/creating-your-own-hardware-wallet-to-store-your-private-keys/
+providerWebsite: https://hankrobot.wordpress.com/2019/07/26/creating-your-own-hardware-wallet-to-store-your-private-keys/
 website: 
 shop: 
 country: UK

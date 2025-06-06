@@ -20,7 +20,7 @@ verdict: sourceavailable
 date: 2024-04-25
 twitter: lightning
 social: 
-features: 
+features:
 - ln
 
 ---

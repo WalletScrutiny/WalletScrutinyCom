@@ -13,7 +13,7 @@ updated: 2025-05-23
 version: 3.42.1
 stars: 4.6
 ratings: 5008
-reviews: 1174
+reviews: 1188
 website: https://changelly.com/
 repository: 
 issue: 

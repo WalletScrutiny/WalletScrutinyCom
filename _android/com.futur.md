@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.futur.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-05-30
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

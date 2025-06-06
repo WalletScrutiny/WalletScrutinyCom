@@ -11,7 +11,7 @@ released: 2018-08-04
 updated: 2025-03-03
 version: '35.9'
 stars: 4.5
-reviews: 5957
+reviews: 6259
 website: https://emberfund.io/
 repository: 
 issue: 

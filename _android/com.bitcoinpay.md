@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitcoinpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-03-12
+date: 2025-06-03
 signer: 
 twitter: 
 social: 

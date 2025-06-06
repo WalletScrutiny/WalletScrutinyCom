@@ -1,6 +1,6 @@
 ---
 wsId: GreenBitcoinWallet
-title: 'Green: Bitcoin Wallet'
+title: Blockstream BTC Wallet (Green)
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2025-04-01
+updated: 2025-05-26
 version: 4.1.8
 stars: 4.4
 ratings: 946
@@ -18,7 +18,7 @@ reviews: 142
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
 issue: https://github.com/Blockstream/green_android/issues/253
-icon: com.greenaddress.greenbits_android_wallet.png
+icon: com.greenaddress.greenbits_android_wallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable

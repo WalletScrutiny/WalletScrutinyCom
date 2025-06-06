@@ -93,12 +93,10 @@ permalink: /verifiers/
 
 <div id="attestatorsTable"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
 
+  window.addEventListener('verificationsUILoaded', async () => {
     const response = await getAllAssetInformation({});
 
     const attestatorInfo = new Map();
@@ -179,5 +177,5 @@ permalink: /verifiers/
         console.error(`Error loading profile for ${pubkey}:`, error);
       }
     }
-  })();
+  });
 </script>

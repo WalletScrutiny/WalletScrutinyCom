@@ -8,11 +8,11 @@ users: 500000
 appId: com.spotware.ct
 appCountry: 
 released: 2014-02-10
-updated: 2025-05-21
-version: 5.3.140
+updated: 2025-05-28
+version: 5.3.150
 stars: 4.7
 ratings: 
-reviews: 299
+reviews: 301
 website: https://ctrader.com/forum
 repository: 
 issue: 

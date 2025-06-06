@@ -12,7 +12,7 @@ updated: 2025-05-25
 version: 3.1.2
 stars: 4.3
 ratings: 
-reviews: 249
+reviews: 248
 website: https://pandar.ng
 repository: 
 issue: 

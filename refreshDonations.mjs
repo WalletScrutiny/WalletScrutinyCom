@@ -53,7 +53,7 @@ fetch(btcpayServerUrl + apiEndpointInvoices, {
         .catch(console.error);
     };
 
-    file.write('<tr><td>...</td><td>...</td><td>...</td></tr>\n</table>\n');
+    file.write('<tr><td>...</td><td>...</td></tr>\n</table>\n');
   })
   .catch(console.error);
 

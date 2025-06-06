@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.app.vuollet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-18
+date: 2025-05-30
 signer: 
 twitter: Vuollet_io
 social:

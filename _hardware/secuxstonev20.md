@@ -17,10 +17,8 @@ dimensions:
 weight: 120
 provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: >-
-  https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
-shop: >-
-  https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
+website: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
+shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.vircap.main.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-28
+date: 2025-05-30
 signer: 
 twitter: 
 social:

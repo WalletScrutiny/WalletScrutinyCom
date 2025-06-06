@@ -3,16 +3,16 @@ wsId: lavaXYZ
 title: Lava
 altTitle: 
 authors:
-- danny 
+- danny
 appId: xyz.lava.mobile
 appCountry: us
 idd: '1661751123'
-released: '2024-04-29T07:00:00Z'
+released: 2024-04-29
 updated: 2025-05-21
 version: 1.10.22
-stars: 4.86667
+stars: 4.9
 reviews: 45
-website: ''
+website: 
 repository: 
 issue: 
 icon: xyz.lava.mobile.jpg

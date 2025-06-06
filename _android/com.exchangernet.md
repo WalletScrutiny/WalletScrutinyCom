@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exchangernet - Money Exchanger
+title: Exchangernet
 altTitle: 
 authors:
 - danny

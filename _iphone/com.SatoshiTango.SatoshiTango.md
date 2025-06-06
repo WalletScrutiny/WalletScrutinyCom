@@ -9,8 +9,8 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: jp
 idd: '1002555958'
 released: 2015-07-08
-updated: 2025-04-27
-version: 5.4.0
+updated: 2025-05-29
+version: 5.5.0
 stars: 4.5
 reviews: 2
 website: http://www.satoshitango.com

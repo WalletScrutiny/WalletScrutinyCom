@@ -13,8 +13,7 @@ weight:
 provider: CardContact Systems GmbH
 providerWebsite: http://www.cardcontact.de
 website: http://smartbtc.eu
-shop: >-
-  https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
+shop: https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
 country: DE
 price: 34EUR
 repository: https://github.com/CardContact/sc-hsm-embedded

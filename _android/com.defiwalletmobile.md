@@ -19,10 +19,10 @@ repository: https://github.com/SlvLabs/slavi-wallet
 issue: https://github.com/SlvLabs/slavi-wallet/issues/8
 icon: com.defiwalletmobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-09-12
+date: 2025-05-30
 signer: 
 twitter: slavi_io
 social:

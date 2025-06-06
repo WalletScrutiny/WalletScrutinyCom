@@ -11,7 +11,7 @@ updated: 2024-11-01
 version: 5.0.0
 stars: 4.8
 ratings: 
-reviews: 21
+reviews: 22
 website: https://crystalballmarkets.com/
 repository: 
 issue: 

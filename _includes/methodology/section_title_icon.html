@@ -1,17 +1,19 @@
 {% case include.verdict %}
-  {% when 'wip' %}                {% assign iconClass="fas fa-square circle" %}
-  {% when 'fewusers' %}           {% assign iconClass="fas fa-users circle" %}
-  {% when 'nowallet' %}           {% assign iconClass="i-wallet circle" %}
-  {% when 'nosendreceive' %}      {% assign iconClass="i-arrows circle" %}
-  {% when 'custodial', 'noita' %} {% assign iconClass="i-key circle" %}
-  {% when 'nosource' %}           {% assign iconClass="i-code circle" %}
-  {% when 'sourceavailable' %}    {% assign iconClass="i-sourceavailable circle" %}
-  {% when 'fake' %}               {% assign iconClass="fas fa-user-secret circle" %}
+  {% when 'wip' %}                {% assign iconClass="fas fa-square" %}
+  {% when 'fewusers' %}           {% assign iconClass="fas fa-users" %}
+  {% when 'nowallet' %}           {% assign iconClass="i-wallet" %}
+  {% when 'nosendreceive' %}      {% assign iconClass="i-arrows" %}
+  {% when 'custodial', 'noita' %} {% assign iconClass="i-key" %}
+  {% when 'nosource' %}           {% assign iconClass="i-code" %}
+  {% when 'sourceavailable' %}    {% assign iconClass="i-sourceavailable" %}
+  {% when 'fake' %}               {% assign iconClass="fas fa-user-secret" %}
 {% endcase %}
 
 {% if iconClass %}
 <div class="section-title">
-    <i class="{{iconClass}}"></i>
-    <h3>{{include.title}}</h3>
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="{{iconClass}}" style="z-index: 2; font-size: 21px;"></i>
+  </i>
+  <h3>{{include.title}}</h3>
 </div>
 {% endif %}

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coincred.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-08
+date: 2025-05-30
 signer: 
 twitter: CoinCRED_
 social:

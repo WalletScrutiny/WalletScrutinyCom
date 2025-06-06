@@ -13,8 +13,7 @@ weight:
 provider: Keyream
 providerWebsite: 
 website: https://keyream.com
-shop: >-
-  https://www.facebook.com/commerce/products/vaultsquare---carbon-black/1875980742506273
+shop: https://www.facebook.com/commerce/products/vaultsquare---carbon-black/1875980742506273
 country: US
 price: 19 USD
 repository: 

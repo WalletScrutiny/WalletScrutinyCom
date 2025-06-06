@@ -11,7 +11,7 @@ released: 2017-08-01
 updated: 2025-03-10
 version: '9.17'
 stars: 4.8
-reviews: 35199
+reviews: 35214
 website: https://www.hodl.mobi
 repository: 
 issue: 

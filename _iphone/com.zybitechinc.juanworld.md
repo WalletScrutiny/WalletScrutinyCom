@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.zybitechinc.juanworld.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-17
+date: 2025-06-03
 signer: 
 twitter: 
 social:

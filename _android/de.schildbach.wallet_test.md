@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: de.schildbach.wallet_test.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2021-10-16
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

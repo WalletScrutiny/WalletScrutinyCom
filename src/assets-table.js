@@ -2,8 +2,6 @@ import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind, codeSnippetKind } from "./nostr-constants.mjs";
 
-window.DOMPurify = DOMPurify;
-
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
@@ -377,7 +375,13 @@ window.renderAssetsTable = async function({
           let statusText = null;
 
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span> <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=' + attestation.id + '&action=edit\'" title="Edit Draft">✏️</span>' : '';
+          const draftBadge = isDraft ? `
+            <span class="badge badge-warning">Draft</span> 
+            <span
+              class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
+              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${attestation.id}&action=edit\'"
+            >✏️</span>`
+            : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -386,7 +390,7 @@ window.renderAssetsTable = async function({
                             class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
-            <div style="line-height: 1.2; margin-bottom: 0.7em;">
+            <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
@@ -396,11 +400,11 @@ window.renderAssetsTable = async function({
         }
         verificationsList = `${listItems}
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
         verificationsList = `No verifications yet.
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);
@@ -412,7 +416,7 @@ window.renderAssetsTable = async function({
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
             <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>` : walletTitle}
@@ -743,7 +747,7 @@ window.renderAssetsTable = async function({
                   ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
                   <br>
                   <span>${profile.name || pubkey}</span>
-                  <button class="profile-page-btn" onclick="window.open('/verifier/?pubkey=${pubkey}', '_blank', 'noopener,noreferrer')">Verifier Page</button>
+                  <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
                 </div>
               </div>
             </div>

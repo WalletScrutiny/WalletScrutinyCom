@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.zimi.arkpay.PROD.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-16
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

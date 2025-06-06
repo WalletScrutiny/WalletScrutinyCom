@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.rootone.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-15
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

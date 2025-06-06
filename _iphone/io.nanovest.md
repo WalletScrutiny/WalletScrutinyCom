@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.nanovest.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-23
+date: 2025-06-03
 signer: 
 twitter: nanovest_io
 social:

@@ -4,12 +4,12 @@ title: Bitexen Global
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2025-05-19
-version: '2.03'
+updated: 2025-05-24
+version: '2.04'
 stars: 2.7
 ratings: 
 reviews: 

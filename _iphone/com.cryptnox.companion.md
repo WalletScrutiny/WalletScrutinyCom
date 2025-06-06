@@ -10,8 +10,8 @@ idd: '1583011693'
 released: 2021-10-10
 updated: 2025-04-20
 version: 2.8.3
-stars: 4
-reviews: 4
+stars: 4.2
+reviews: 5
 website: https://www.cryptnox.com
 repository: 
 issue: 

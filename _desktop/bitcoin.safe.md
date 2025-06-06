@@ -21,7 +21,7 @@ date: 2025-04-24
 twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg
-- https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v 
+- https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
 features: 
 
 ---

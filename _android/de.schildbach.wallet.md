@@ -20,11 +20,11 @@ repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: sourceavailable
 appHashes:
 - 7088544f9714059cbc86d9db8110b95b7ae4db4f1b0a513ddb3378739a35183d
-date: 2025-03-10
+date: 2025-05-30
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 twitter: 
 social: 

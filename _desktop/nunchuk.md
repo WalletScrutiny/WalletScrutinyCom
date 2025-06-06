@@ -20,19 +20,20 @@ verdict: sourceavailable
 date: 2025-04-25
 twitter: nunchuk_io
 social:
-- https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email 
-features: 
+- https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email
+features:
 - taproot
 - multisig
 - inheritance
 - hardware integration
 - decoy wallet
+
 ---
 
 ## Related to
 
 - {% include walletLink.html wallet='android/io.nunchuk.android' verdict='true' %}
-- {% include walletLink.html wallet='android/io.nunchuk.ios' verdict='true' %}
+- {% include walletLink.html wallet='iphone/io.nunchuk.ios' verdict='true' %}
 
 ## App Description
 

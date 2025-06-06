@@ -12,7 +12,7 @@ updated: 2025-05-16
 version: 7.0.3
 stars: 4.4
 ratings: 
-reviews: 25
+reviews: 26
 website: https://gorila.com.br
 repository: 
 issue: 

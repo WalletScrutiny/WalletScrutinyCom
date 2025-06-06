@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-21
 updated: 2025-05-08
 version: 6.3.7
-stars: 4.4
+stars: 4.5
 ratings: 27168
 reviews: 115
 website: https://pluang.com

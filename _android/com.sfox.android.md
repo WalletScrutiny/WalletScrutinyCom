@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.sfox.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-02-28
+date: 2025-05-30
 signer: 
 twitter: SFox
 social:

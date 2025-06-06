@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.metasigns.hotx.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-07
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2021-05-14
+date: 2025-05-30
 signer: 
 twitter: spot_bitcoin
 social:

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cryptokara.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-04-06
+date: 2025-05-30
 signer: 
 twitter: 
 social: 

@@ -30,7 +30,7 @@ social:
 - https://t.me/fexobit
 - https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q
 features: 
-developerName: Futurance Finans Teknolojileri A.S
+developerName: FUTURANCE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

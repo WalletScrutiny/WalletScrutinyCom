@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: 'Gate.io: Buy Bitcoin & Crypto'
+title: 'Gate: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.gateio.app.gateio-app
 appCountry: id
 idd: 1294998195
 released: 2017-11-03
-updated: 2025-05-19
-version: 7.4.0
+updated: 2025-06-04
+version: 7.6.0
 stars: 4.5
-reviews: 1309
-website: https://gate.io
+reviews: 1312
+website: https://www.gate.com
 repository: 
 issue: 
 icon: com.gateio.app.gateio-app.jpg

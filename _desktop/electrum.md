@@ -20,7 +20,7 @@ verdict: sourceavailable
 date: 2025-04-25
 twitter: ElectrumWallet
 social: 
-features: 
+features:
 - 2fa
 - multisig
 

@@ -3,7 +3,7 @@ wsId:
 title: DexTrade
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: org.dextrade.wallet
 appCountry: 
 released: 2022-08-22
@@ -18,7 +18,7 @@ issue:
 icon: org.dextrade.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 

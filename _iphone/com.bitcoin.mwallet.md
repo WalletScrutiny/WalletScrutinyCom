@@ -8,10 +8,10 @@ appId: com.bitcoin.mwallet
 appCountry: 
 idd: '1252903728'
 released: 2017-07-11
-updated: 2025-05-22
-version: 8.75.0
+updated: 2025-06-05
+version: 8.77.0
 stars: 4.7
-reviews: 36535
+reviews: 36778
 website: https://wallet.bitcoin.com/
 repository: 
 issue: 

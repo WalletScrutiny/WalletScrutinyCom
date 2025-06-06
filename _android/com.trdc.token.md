@@ -9,7 +9,7 @@ appCountry:
 released: 2021-11-10
 updated: 2022-06-13
 version: 1.0.9
-stars: 4.6
+stars: 4.3
 ratings: 
 reviews: 7
 website: https://trdctoken.com

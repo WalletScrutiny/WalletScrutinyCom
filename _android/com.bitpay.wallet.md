@@ -15,13 +15,12 @@ updated: 2025-05-05
 version: 14.31.1
 stars: 4
 ratings: 9809
-reviews: 2252
+reviews: 2255
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 issue: https://github.com/bitpay/bitpay-app/issues/1431
 icon: com.bitpay.wallet.png
-bugbounty: >-
-  https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
+bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
 verdict: nosource
 appHashes: []
