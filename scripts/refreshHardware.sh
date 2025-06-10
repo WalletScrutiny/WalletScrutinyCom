@@ -91,61 +91,83 @@ SKIPPED_REASONS=()
 # Returns: JSON with version and date
 fetch_trezor_version() {
   local model_code="$1"
-  local releases_url="" response version release_date timestamp
-
-  # pick the right JSON endpoint
+  local trezor_model="" version="" release_date=""
+  
+  # Map the firmware code to the model code used by the JS script
   case "$model_code" in
-    1|legacy|trezorOne)   releases_url="https://data.trezor.io/firmware/1/releases.json"    ;;
-    2|core|trezorT)       releases_url="https://data.trezor.io/firmware/2/releases.json"    ;;
-    t2b1|trezorSafe3)     releases_url="https://data.trezor.io/firmware/t2b1/releases.json" ;;
-    t3t1|trezorSafe5)     releases_url="https://data.trezor.io/firmware/t3t1/releases.json" ;;
+    1|legacy|trezorOne)   trezor_model="LEGACY" ;;
+    2|core|trezorT)       trezor_model="T2T1"   ;;
+    t2b1|trezorSafe3)     trezor_model="T2B1"   ;;
+    t3t1|trezorSafe5)     trezor_model="T3T1"   ;;
     *)
       debug "Unknown Trezor model code: $model_code"
-      echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+      echo "unknown"
+      echo "$(date +%F)"
       return 0
       ;;
   esac
-
-  debug "Fetching Trezor JSON from $releases_url"
-  response=$(curl -sfL "$releases_url") || {
-    debug "  ↳ curl failed, falling back"
-    echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+  
+  debug "Fetching Trezor version info for $trezor_model using trezor_fextractor.js"
+  
+  # Run the JavaScript extractor with the new --json and --model flags
+  local json_output=""
+  
+  if [[ -n "$GITHUB_TOKEN" ]]; then
+    debug "  ↳ Running with GitHub token"
+    json_output=$(node "$script_dir/trezor_fextractor.js" -g "$GITHUB_TOKEN" --json --model "$trezor_model" 2>/dev/null)
+  else
+    debug "  ↳ Running without GitHub token"
+    json_output=$(node "$script_dir/trezor_fextractor.js" --json --model "$trezor_model" 2>/dev/null)
+  fi
+  
+  local exit_code=$?
+  debug "  ↳ JavaScript extractor exit code: $exit_code"
+  
+  # Check if the script execution was successful
+  if [[ $exit_code -ne 0 || -z "$json_output" ]]; then
+    debug "  ↳ JavaScript extractor failed or returned empty output"
+    echo "unknown"
+    echo "$(date +%F)"
     return 0
-  }
-
-  # bail out if it's not valid JSON
-  if ! echo "$response" | jq -e . >/dev/null 2>&1; then
-    debug "  ↳ invalid JSON, falling back"
-    echo '{"version":"unknown","date":"'"$(date +%F)"'"}'
+  fi
+  
+  # Parse the JSON output
+  if command -v jq &>/dev/null; then
+    version=$(echo "$json_output" | jq -r '.version')
+    release_date=$(echo "$json_output" | jq -r '.date')
+  else
+    # Fallback if jq is not available - basic parsing
+    version=$(echo "$json_output" | grep -o '"version":"[^"]*"' | cut -d'"' -f4)
+    release_date=$(echo "$json_output" | grep -o '"date":"[^"]*"' | cut -d'"' -f4)
+  fi
+  
+  debug "  ↳ Parsed version: $version"
+  debug "  ↳ Parsed date: $release_date"
+  
+  if [[ -z "$version" || "$version" == "unknown" || "$version" == "null" ]]; then
+    debug "  ↳ Could not extract version for $trezor_model"
+    echo "unknown"
+    echo "$(date +%F)"
     return 0
   fi
-
-  # pull out the version array -> "1.13.1" style
-  version=$(echo "$response" \
-    | jq -r '.[0].version | map(tostring) | join(".")' 2>/dev/null)
-  [[ -z $version || $version == null ]] && version="unknown"
-  debug "  ↳ version = $version"
-
-  # if they shipped a timestamp, use it
-  timestamp=$(echo "$response" \
-    | jq -r '.[0].timestamp // empty' 2>/dev/null)
-  if [[ -n $timestamp ]]; then
-    release_date=$(date -d "@$timestamp" +%F 2>/dev/null) || release_date=""
+  
+  # If release date is empty, use current date
+  if [[ -z "$release_date" || "$release_date" == "null" ]]; then
+    release_date=$(date +%F)
   fi
-
-  # otherwise, fall back to GitHub's published_at
-  if [[ -z $release_date ]]; then
-    debug "  ↳ fetching GitHub published_at"
-    release_date=$(curl -sfL -H "Accept: application/vnd.github.v3+json" \
-      "https://api.github.com/repos/trezor/trezor-firmware/releases/latest" \
-      | jq -r '.published_at // empty' 2>/dev/null \
-      | cut -d"T" -f1)
+  
+  debug "  ↳ Found version $version from JS extractor"
+  debug "  ↳ Found date $release_date from JS extractor"
+  
+  # Add 'v' prefix for legacy Trezor One
+  if [[ "$trezor_model" == "LEGACY" && ! "$version" =~ ^v ]]; then
+    version="v$version"
   fi
-  # final fallback to today
-  [[ -z $release_date ]] && release_date="$(date +%F)"
-
-  debug "  ↳ date  = $release_date"
-  echo "{\"version\":\"v$version\",\"date\":\"$release_date\"}"
+  
+  # Output the results
+  echo "$version"
+  echo "$release_date"
+  return 0
 }
 
 # Coldcard version tag fetcher
@@ -300,23 +322,21 @@ for file in "${files[@]}"; do
     if [[ -n "$firmware_code" ]]; then
       echo -e "\033[0;34mUsing firmware code '$firmware_code' for Trezor device\033[0m"
       
-      # Fetch version info directly from Trezor releases.json
-      debug "Fetching Trezor version info from releases.json for $firmware_code"
-      version_info=$(fetch_trezor_version "$firmware_code")
+      # Fetch version info using the JavaScript extractor
+      debug "Fetching Trezor version info using JavaScript extractor for $firmware_code"
+      # The function now returns version and date on separate lines
+      latest_version=$(fetch_trezor_version "$firmware_code" | head -1)
+      release_date=$(fetch_trezor_version "$firmware_code" | tail -1)
       fetch_result=$?
       
-      if [[ $fetch_result -ne 0 ]]; then
+      if [[ $fetch_result -ne 0 || -z "$latest_version" || "$latest_version" == "unknown" ]]; then
         echo -e "\033[1;33mFailed to fetch version info for $app_id. Please update manually if needed.\033[0m"
         ((FILES_SKIPPED++))
-        SKIPPED_REASONS+=("Failed to fetch version info for $app_id from releases.json")
+        SKIPPED_REASONS+=("Failed to fetch version info for $app_id from JavaScript extractor")
         echo
         continue
       fi
-      
-      # Parse the version info from releases.json
-      latest_version=$(echo "$version_info" | jq -r '.version')
-      release_date=$(echo "$version_info" | jq -r '.date')
-      debug "Found version $latest_version from releases.json"
+      debug "Found version $latest_version from JavaScript extractor"
       
       current_version=$(extract_field "$file" version)
       current_updated=$(extract_field "$file" updated)
