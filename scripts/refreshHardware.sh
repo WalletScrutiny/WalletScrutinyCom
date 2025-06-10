@@ -3,7 +3,7 @@
 # scripts/refreshHardware.sh  - Check & update hardware wallet markdown files
 # =============================================================================
 
-# 1) Determine our own directory before enabling “nounset”
+# 1) Determine our own directory before enabling "nounset"
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # 2) Now turn on strict mode
@@ -38,7 +38,7 @@ while getopts "g:d" opt; do
 done
 shift $((OPTIND-1))
 
-debug() { $DEBUG && echo -e "\033[0;33mDEBUG:\033[0m $*"; }
+debug() { $DEBUG && echo -e "\033[0;33mDEBUG:\033[0m $*" >&2; }
 
 # -----------------------------------------------------------------------------
 # Hand off our token to github_utils (it sets $GITHUB_TOKEN internally)
@@ -86,6 +86,183 @@ FILES_UPDATED=0
 FILES_SKIPPED=0
 SKIPPED_REASONS=()
 
+# Enhanced API call with better error handling and validation
+safe_api_call() {
+  local url="$1"
+  local token="$2"
+  local response
+  local http_code
+  
+  debug "Making API call to: $url"
+  
+  if [[ -n "$token" ]]; then
+    response=$(curl -s -w "\n%{http_code}" -H "Authorization: token $token" "$url")
+  else
+    response=$(curl -s -w "\n%{http_code}" "$url")
+  fi
+  
+  # Extract HTTP code from last line
+  http_code=$(echo "$response" | tail -n1)
+  response=$(echo "$response" | head -n -1)
+  
+  debug "HTTP response code: $http_code"
+  debug "Response preview: $(echo "$response" | head -c 200)..."
+  
+  # Check for HTTP errors
+  if [[ "$http_code" -ge 400 ]]; then
+    debug "HTTP error $http_code for URL: $url"
+    echo "ERROR_HTTP_$http_code"
+    return 1
+  fi
+  
+  # Validate JSON format
+  if ! echo "$response" | jq empty 2>/dev/null; then
+    debug "Invalid JSON response from: $url"
+    debug "Raw response: $response"
+    echo "ERROR_INVALID_JSON"
+    return 1
+  fi
+  
+  echo "$response"
+  return 0
+}
+
+# Fetch BitLox Ultimate firmware version from GitHub releases
+# Usage: fetch_bitlox_version
+# Returns: version and date on separate lines
+fetch_bitlox_version() {
+  debug "Fetching BitLox Ultimate firmware version from GitHub releases"
+  
+  local api_url="https://api.github.com/repos/BitLox/bitlox-firmware/releases"
+  local json_output
+  local version="unknown"
+  local release_date="$(date +%F)"
+  
+  json_output=$(safe_api_call "$api_url" "$GITHUB_TOKEN")
+  local exit_code=$?
+  
+  if [[ $exit_code -ne 0 || "$json_output" == ERROR* ]]; then
+    debug "Failed to fetch BitLox releases: $json_output"
+    echo "unknown"
+    echo "$(date +%F)"
+    return 0
+  fi
+  
+  # Parse the JSON output to get the latest release
+  if command -v jq &>/dev/null; then
+    version=$(echo "$json_output" | jq -r '.[0].tag_name // "unknown"')
+    release_date=$(echo "$json_output" | jq -r '.[0].published_at // ""' | cut -d'T' -f1)
+  else
+    version=$(echo "$json_output" | grep -o '"tag_name":"[^"]*"' | head -1 | cut -d'"' -f4)
+    release_date=$(echo "$json_output" | grep -o '"published_at":"[^"]*"' | head -1 | cut -d'"' -f4 | cut -d'T' -f1)
+  fi
+  
+  debug "Parsed BitLox version: $version"
+  debug "Parsed BitLox release date: $release_date"
+  
+  if [[ -z "$version" || "$version" == "unknown" || "$version" == "null" ]]; then
+    debug "Could not extract BitLox version"
+    echo "unknown"
+    echo "$(date +%F)"
+    return 0
+  fi
+  
+  if [[ -z "$release_date" || "$release_date" == "null" ]]; then
+    release_date=$(date +%F)
+  fi
+  
+  echo "$version $release_date"
+  return 0
+}
+
+# Fetch Blockstream Jade firmware version from GitHub releases
+# Usage: fetch_jade_version ["plus"]
+# Returns: version and date on separate lines
+fetch_jade_version() {
+  local is_plus="$1"
+  debug "Fetching Blockstream Jade${is_plus:+ Plus} firmware version from GitHub tags"
+  
+  local api_url="https://api.github.com/repos/Blockstream/jade/tags"
+  local json_output
+  local version="unknown"
+  local release_date="$(date +%F)"
+  
+  json_output=$(safe_api_call "$api_url" "$GITHUB_TOKEN")
+  local exit_code=$?
+  
+  if [[ $exit_code -ne 0 || "$json_output" == ERROR* ]]; then
+    debug "Failed to fetch Jade tags: $json_output"
+    echo "unknown"
+    echo "$(date +%F)"
+    return 0
+  fi
+  
+  if command -v jq &>/dev/null; then
+    version=$(echo "$json_output" | jq -r '.[0].name // "unknown"')
+    debug "Jade raw version from jq: $version"
+    
+    # Get commit SHA for the tag to fetch commit date
+    local commit_sha=$(echo "$json_output" | jq -r '.[0].commit.sha // ""')
+    debug "Jade commit SHA: $commit_sha"
+    
+    if [[ -n "$commit_sha" && "$commit_sha" != "null" ]]; then
+      local commit_url="https://api.github.com/repos/Blockstream/jade/commits/$commit_sha"
+      debug "Fetching commit info from: $commit_url"
+      
+      local commit_info=$(safe_api_call "$commit_url" "$GITHUB_TOKEN")
+      debug "Commit info response code: $?"
+      debug "Commit info preview: ${commit_info:0:100}..."
+      
+      if [[ $? -eq 0 && "$commit_info" != ERROR* ]]; then
+        release_date=$(echo "$commit_info" | jq -r '.commit.committer.date // ""' | cut -d'T' -f1)
+        debug "Extracted release date from commit: $release_date"
+      else
+        debug "Failed to get valid commit info"
+      fi
+    else
+      debug "No valid commit SHA found"
+    fi
+  else
+    version=$(echo "$json_output" | grep -o '"name":"[^"]*"' | head -1 | cut -d'"' -f4)
+    debug "Jade raw version from grep: $version"
+    
+    # Get commit SHA for the tag to fetch commit date
+    local commit_sha=$(echo "$json_output" | grep -o '"sha":"[^"]*"' | head -1 | cut -d'"' -f4)
+    debug "Jade commit SHA (grep): $commit_sha"
+    
+    if [[ -n "$commit_sha" ]]; then
+      local commit_url="https://api.github.com/repos/Blockstream/jade/commits/$commit_sha"
+      debug "Fetching commit info from: $commit_url (grep path)"
+      
+      local commit_info=$(curl -s -H "Authorization: token $GITHUB_TOKEN" "$commit_url")
+      debug "Commit info preview (grep): ${commit_info:0:100}..."
+      
+      release_date=$(echo "$commit_info" | grep -o '"date":"[^"]*"' | head -1 | cut -d'"' -f4 | cut -d'T' -f1)
+      debug "Extracted release date from commit (grep): $release_date"
+    else
+      debug "No valid commit SHA found (grep path)"
+    fi
+  fi
+  
+  debug "Parsed Jade${is_plus:+ Plus} version: $version"
+  debug "Parsed Jade${is_plus:+ Plus} release date: $release_date"
+  
+  if [[ -z "$version" || "$version" == "unknown" || "$version" == "null" ]]; then
+    debug "Could not extract Jade${is_plus:+ Plus} version"
+    echo "unknown"
+    echo "$(date +%F)"
+    return 0
+  fi
+  
+  if [[ -z "$release_date" || "$release_date" == "null" ]]; then
+    release_date=$(date +%F)
+  fi
+  
+  echo "$version"
+  echo "$release_date"
+  return 0
+}
+
 # Fetch Trezor version information from releases.json or GitHub releases API
 # Usage: fetch_trezor_version "model_code"
 # Returns: JSON with version and date
@@ -93,7 +270,6 @@ fetch_trezor_version() {
   local model_code="$1"
   local trezor_model="" version="" release_date=""
   
-  # Map the firmware code to the model code used by the JS script
   case "$model_code" in
     1|legacy|trezorOne)   trezor_model="LEGACY" ;;
     2|core|trezorT)       trezor_model="T2T1"   ;;
@@ -109,70 +285,62 @@ fetch_trezor_version() {
   
   debug "Fetching Trezor version info for $trezor_model using trezor_fextractor.js"
   
-  # Run the JavaScript extractor with the new --json and --model flags
   local json_output=""
   
   if [[ -n "$GITHUB_TOKEN" ]]; then
-    debug "  ↳ Running with GitHub token"
-    json_output=$(node "$script_dir/trezor_fextractor.js" -g "$GITHUB_TOKEN" --json --model "$trezor_model" 2>/dev/null)
+    debug "Running with GitHub token"
+    json_output=$(node "$script_dir/trezor_fextractor.js" -g "$GITHUB_TOKEN" --json --model "$trezor_model" --debug 2>/dev/null)
   else
-    debug "  ↳ Running without GitHub token"
-    json_output=$(node "$script_dir/trezor_fextractor.js" --json --model "$trezor_model" 2>/dev/null)
+    debug "Running without GitHub token"
+    json_output=$(node "$script_dir/trezor_fextractor.js" --json --model "$trezor_model" --debug 2>/dev/null)
   fi
   
   local exit_code=$?
-  debug "  ↳ JavaScript extractor exit code: $exit_code"
+  debug "JavaScript extractor exit code: $exit_code"
   
-  # Check if the script execution was successful
   if [[ $exit_code -ne 0 || -z "$json_output" ]]; then
-    debug "  ↳ JavaScript extractor failed or returned empty output"
+    debug "JavaScript extractor failed or returned empty output"
     echo "unknown"
     echo "$(date +%F)"
     return 0
   fi
   
-  # Parse the JSON output
   if command -v jq &>/dev/null; then
     version=$(echo "$json_output" | jq -r '.version')
     release_date=$(echo "$json_output" | jq -r '.date')
   else
-    # Fallback if jq is not available - basic parsing
     version=$(echo "$json_output" | grep -o '"version":"[^"]*"' | cut -d'"' -f4)
     release_date=$(echo "$json_output" | grep -o '"date":"[^"]*"' | cut -d'"' -f4)
   fi
   
-  debug "  ↳ Parsed version: $version"
-  debug "  ↳ Parsed date: $release_date"
+  debug "Parsed version: $version"
+  debug "Parsed date: $release_date"
   
   if [[ -z "$version" || "$version" == "unknown" || "$version" == "null" ]]; then
-    debug "  ↳ Could not extract version for $trezor_model"
+    debug "Could not extract version for $trezor_model"
     echo "unknown"
     echo "$(date +%F)"
     return 0
   fi
   
-  # If release date is empty, use current date
   if [[ -z "$release_date" || "$release_date" == "null" ]]; then
     release_date=$(date +%F)
   fi
   
-  debug "  ↳ Found version $version from JS extractor"
-  debug "  ↳ Found date $release_date from JS extractor"
+  debug "Found version $version from JS extractor"
+  debug "Found date $release_date from JS extractor"
   
-  # Add 'v' prefix for legacy Trezor One
   if [[ "$trezor_model" == "LEGACY" && ! "$version" =~ ^v ]]; then
     version="v$version"
   fi
   
-  # Output the results
   echo "$version"
   echo "$release_date"
   return 0
 }
 
-# Coldcard version tag fetcher
+# Enhanced Coldcard version tag fetcher with better error handling
 get_latest_coldcard_version() {
-  # $1: model (mk1, mk2, mk3, mk4, q, mk4edge, qedge)
   local model="$1"
   local regex suffix
   case "$model" in
@@ -193,27 +361,86 @@ get_latest_coldcard_version() {
       return 1
       ;;
   esac
-  # Fetch tags (first 100 is enough for now)
+  
+  local api_url="https://api.github.com/repos/Coldcard/firmware/tags?per_page=100"
   local tags_json
-  tags_json=$(curl -s "https://api.github.com/repos/Coldcard/firmware/tags?per_page=100")
+  
+  tags_json=$(safe_api_call "$api_url" "$GITHUB_TOKEN")
+  local exit_code=$?
+  
+  if [[ $exit_code -ne 0 || "$tags_json" == ERROR* ]]; then
+    debug "Failed to fetch Coldcard tags: $tags_json"
+    return 1
+  fi
+  
   local tags_list
-  tags_list=$(echo "$tags_json" | jq -r '.[].name')
-  # New robust tag parsing: extract version after last -v, match prefix, pick highest
+  local tag_name
+  local tag_sha
+  
+  if command -v jq &>/dev/null; then
+    tags_list=$(echo "$tags_json" | jq -r '.[].name' 2>/dev/null)
+  else
+    tags_list=$(echo "$tags_json" | grep -o '"name":"[^"]*"' | cut -d'"' -f4)
+  fi
+  
+  if [[ -z "$tags_list" ]]; then
+    debug "No tags found in response"
+    return 1
+  fi
+  
   local versions
   versions=$(echo "$tags_list" | \
     sed -nE 's/.*-v([0-9]+\.[0-9]+\.[0-9]+[A-Z]*).*/v\1/p')
   local latest_version
   latest_version=$(echo "$versions" | grep -E "$regex" | sort -V | tail -n1)
-  echo "$latest_version"
+  
+  if [[ -n "$latest_version" ]]; then
+    debug "Found latest Coldcard $model version: $latest_version"
+    
+    # Get the tag name that matches our version
+    if command -v jq &>/dev/null; then
+      tag_name=$(echo "$tags_json" | jq -r --arg version "$latest_version" '.[] | select(.name | contains($version)) | .name' | head -1)
+      tag_sha=$(echo "$tags_json" | jq -r --arg name "$tag_name" '.[] | select(.name == $name) | .commit.sha' 2>/dev/null)
+    else
+      tag_name=$(echo "$tags_list" | grep "$latest_version" | head -1)
+      tag_sha=$(echo "$tags_json" | grep -A 5 "\"name\":\"$tag_name\"" | grep -o '"sha":"[^"]*"' | head -1 | cut -d'"' -f4)
+    fi
+    
+    debug "Found tag name: $tag_name with SHA: $tag_sha"
+    
+    # Get the commit date for this tag
+    local release_date="$(date +%F)" # Default to today
+    if [[ -n "$tag_sha" ]]; then
+      local commit_url="https://api.github.com/repos/Coldcard/firmware/commits/$tag_sha"
+      debug "Fetching commit info from: $commit_url"
+      
+      local commit_info=$(safe_api_call "$commit_url" "$GITHUB_TOKEN")
+      if [[ $? -eq 0 && "$commit_info" != ERROR* ]]; then
+        if command -v jq &>/dev/null; then
+          release_date=$(echo "$commit_info" | jq -r '.commit.committer.date // ""' | cut -d'T' -f1)
+        else
+          release_date=$(echo "$commit_info" | grep -o '"date":"[^"]*"' | head -1 | cut -d'"' -f4 | cut -d'T' -f1)
+        fi
+        debug "Extracted release date from commit: $release_date"
+      else
+        debug "Failed to get valid commit info, using current date"
+      fi
+    fi
+    
+    echo "$latest_version"
+    echo "$release_date"
+    return 0
+  else
+    debug "No matching version found for pattern: $regex"
+    return 1
+  fi
 }
 
 extract_field() {
-  # Usage: extract_field file fieldName
   grep -m1 "^$2:" "$1" | sed "s/^$2:[[:space:]]*//;s/[\"']//g"
 }
 
 update_field() {
-  # Usage: update_field file fieldName oldValue newValue
   if [[ $3 != $4 ]]; then
     perl -i -pe "s|^$2: .*|$2: $4|" "$1"
     return 0
@@ -228,7 +455,6 @@ for file in "${files[@]}"; do
   name=$(basename "$file")
 
   verdict=$(extract_field "$file" verdict)
-  # Only process sourceavailable files (already filtered, but keep for safety)
   if [[ "$verdict" != "sourceavailable" ]]; then
     continue
   fi
@@ -241,13 +467,13 @@ for file in "${files[@]}"; do
 
   repo_path=${repo_url#https://github.com/}
   echo -e "\033[0;34mProcessing $name\033[0m"
+  
+  file_lc=$(basename "$file" | tr '[:upper:]' '[:lower:]')
 
   # Coldcard special handling
   if [[ "$repo_url" == "https://github.com/Coldcard/firmware" ]]; then
-    # Determine model from filename (lowercase, strip extension)
     model=""
     fname="$(basename "$file" .md | tr '[:upper:]' '[:lower:]')"
-    # Enhanced model detection for coinkite.coldcard.* patterns
     if [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk4 ]]; then
       model="mk4"
     elif [[ "$fname" =~ (coldcard|coinkite\.coldcard)[^a-z0-9]*mk3 ]]; then
@@ -260,25 +486,39 @@ for file in "${files[@]}"; do
       model="q"
     fi
     if [[ -n "$model" ]]; then
-      latest_version=$(get_latest_coldcard_version "$model")
-      release_date=""
+      # Get both version and release date
+      { read -r latest_version; read -r release_date; } < <(get_latest_coldcard_version "$model")
+      fetch_result=$?
+      
       current_version=$(extract_field "$file" version)
       current_updated=$(extract_field "$file" updated)
       updated=0
-      # Special handling for mk1 legacy device
+      
       if [[ "$model" == "mk1" && -z "$latest_version" ]]; then
-        echo -e "\033[1;33mNo tags found for mk1 (legacy device). Please update manually if needed.\033[0m"
+        echo -e "\033[1;33mNo tags found for mk1. Checking if this is expected for legacy device.\033[0m"
         ((FILES_SKIPPED++))
         echo
         continue
       fi
-      # Uniform output for Coldcard status
+      
+      debug "Coldcard $model: Found version=$latest_version, date=$release_date"
+      
+      # Update version if needed
       if [[ -n "$latest_version" && "$current_version" != "$latest_version" ]]; then
         echo "- 'version: $current_version'"
         echo "+ 'version: $latest_version'"
         update_field "$file" version "$current_version" "$latest_version"
         updated=1
       fi
+      
+      # Update date if needed
+      if [[ -n "$release_date" && "$release_date" != "null" && "$current_updated" != "$release_date" ]]; then
+        echo "- 'updated: $current_updated'"
+        echo "+ 'updated: $release_date'"
+        update_field "$file" updated "$current_updated" "$release_date"
+        updated=1
+      fi
+      
       if [[ $updated -eq 1 ]]; then
         echo -e "\033[1;33mUpdated to latest version.\033[0m"
         ((FILES_UPDATED++))
@@ -289,21 +529,111 @@ for file in "${files[@]}"; do
       echo
       continue
     fi
-    # If model not matched, fallback to regular API
   fi
 
+  # BitLox Ultimate special handling
+  if [[ "$repo_url" == "https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app" || "$file_lc" == *bitloxultimate* ]]; then
+    echo -e "\033[0;34mDetected BitLox Ultimate device in $(basename "$file")\033[0m"
+    
+    debug "Fetching BitLox Ultimate version info"
+    { read -r latest_version; read -r release_date; } < <(fetch_bitlox_version)
+    fetch_result=$?
+    
+    if [[ $fetch_result -ne 0 || -z "$latest_version" || "$latest_version" == "unknown" ]]; then
+      echo -e "\033[1;33mFailed to fetch version info for BitLox Ultimate. Please update manually if needed.\033[0m"
+      ((FILES_SKIPPED++))
+      SKIPPED_REASONS+=("Failed to fetch version info for BitLox Ultimate")
+      echo
+      continue
+    fi
+    debug "Found BitLox Ultimate version $latest_version from GitHub releases"
+    
+    current_version=$(extract_field "$file" version)
+    current_updated=$(extract_field "$file" updated)
+    updated=0
+    if [[ "$current_version" != "$latest_version" ]]; then
+      echo "- 'version: $current_version'"
+      echo "+ 'version: $latest_version'"
+      update_field "$file" version "$current_version" "$latest_version"
+      updated=1
+    fi
+    # Only update the date if we have a valid release date and it's different from current
+    if [[ -n "$release_date" && "$release_date" != "null" && "$current_updated" != "$release_date" ]]; then
+      echo "- 'updated: $current_updated'"
+      echo "+ 'updated: $release_date'"
+      update_field "$file" updated "$current_updated" "$release_date"
+      updated=1
+    fi
+    if [[ $updated -eq 1 ]]; then
+      echo -e "\033[1;33mUpdated to latest version.\033[0m"
+      ((FILES_UPDATED++))
+    else
+      echo "Already up to date."
+      debug "$name remains at $current_version"
+    fi
+    echo
+    continue
+  fi
+  
+  # Blockstream Jade special handling
+  if [[ "$repo_url" == "https://github.com/Blockstream/jade" ]]; then
+    is_plus=""
+    if [[ "$file_lc" == *jadeplus* ]]; then
+      is_plus="plus"
+      echo -e "\033[0;34mDetected Blockstream Jade Plus device in $(basename "$file")\033[0m"
+    else
+      echo -e "\033[0;34mDetected Blockstream Jade device in $(basename "$file")\033[0m"
+    fi
+    
+    debug "Fetching Blockstream Jade${is_plus:+ Plus} version info"
+    { read -r latest_version; read -r release_date; } < <(fetch_jade_version "$is_plus")
+    fetch_result=$?
+    
+    if [[ $fetch_result -ne 0 || -z "$latest_version" || "$latest_version" == "unknown" ]]; then
+      echo -e "\033[1;33mFailed to fetch version info for Blockstream Jade${is_plus:+ Plus}. Please update manually if needed.\033[0m"
+      ((FILES_SKIPPED++))
+      SKIPPED_REASONS+=("Failed to fetch version info for Blockstream Jade${is_plus:+ Plus}")
+      echo
+      continue
+    fi
+    debug "Found Blockstream Jade${is_plus:+ Plus} version $latest_version from GitHub releases"
+    
+    current_version=$(extract_field "$file" version)
+    current_updated=$(extract_field "$file" updated)
+    updated=0
+    if [[ "$current_version" != "$latest_version" ]]; then
+      echo "- 'version: $current_version'"
+      echo "+ 'version: $latest_version'"
+      update_field "$file" version "$current_version" "$latest_version"
+      updated=1
+    fi
+    # Only update the date if we have a valid release date and it's different from current
+    if [[ -n "$release_date" && "$release_date" != "null" && "$current_updated" != "$release_date" ]]; then
+      echo "- 'updated: $current_updated'"
+      echo "+ 'updated: $release_date'"
+      update_field "$file" updated "$current_updated" "$release_date"
+      updated=1
+    fi
+    if [[ $updated -eq 1 ]]; then
+      echo -e "\033[1;33mUpdated to latest version.\033[0m"
+      ((FILES_UPDATED++))
+    else
+      echo "Already up to date."
+      debug "$name remains at $current_version"
+    fi
+    echo
+    continue
+  fi
+  
   # Trezor special handling
   provider=$(extract_field "$file" provider | tr '[:upper:]' '[:lower:]')
   app_id=$(extract_field "$file" appId)
-  file_lc=$(basename "$file" | tr '[:upper:]' '[:lower:]')
   app_id_lc=$(echo "$app_id" | tr '[:upper:]' '[:lower:]')
   
-  # Robust Trezor detection: match provider, repo, appId, or filename (case-insensitive, partial)
   debug "Checking Trezor detection for $file (provider=$provider, repo=$repo_path, app_id=$app_id, file=$file_lc)"
   if [[ "$provider" == *trezor* || "$repo_path" == *trezor* || "$app_id_lc" == *trezor* || "$file_lc" == *trezor* ]]; then
     echo -e "\033[0;34mDetected Trezor device in $(basename \"$file\")\033[0m"
     
-    # Map the file to the correct firmware code
     firmware_code=""
     if [[ "$file_lc" == *trezorone* ]]; then 
       firmware_code="legacy"
@@ -322,11 +652,8 @@ for file in "${files[@]}"; do
     if [[ -n "$firmware_code" ]]; then
       echo -e "\033[0;34mUsing firmware code '$firmware_code' for Trezor device\033[0m"
       
-      # Fetch version info using the JavaScript extractor
       debug "Fetching Trezor version info using JavaScript extractor for $firmware_code"
-      # The function now returns version and date on separate lines
-      latest_version=$(fetch_trezor_version "$firmware_code" | head -1)
-      release_date=$(fetch_trezor_version "$firmware_code" | tail -1)
+      { read -r latest_version; read -r release_date; } < <(fetch_trezor_version "$firmware_code")
       fetch_result=$?
       
       if [[ $fetch_result -ne 0 || -z "$latest_version" || "$latest_version" == "unknown" ]]; then
@@ -347,7 +674,8 @@ for file in "${files[@]}"; do
         update_field "$file" version "$current_version" "$latest_version"
         updated=1
       fi
-      if [[ "$current_updated" != "$release_date" ]]; then
+      # Only update the date if we have a valid release date and it's different from current
+      if [[ -n "$release_date" && "$release_date" != "null" && "$current_updated" != "$release_date" ]]; then
         echo "- 'updated: $current_updated'"
         echo "+ 'updated: $release_date'"
         update_field "$file" updated "$current_updated" "$release_date"
@@ -396,7 +724,8 @@ for file in "${files[@]}"; do
     update_field "$file" version "$current_version" "$latest_version"
     updated=1
   fi
-  if [[ "$current_updated" != "$release_date" ]]; then
+  # Only update the date if we have a valid release date and it's different from current
+  if [[ -n "$release_date" && "$release_date" != "null" && "$current_updated" != "$release_date" ]]; then
     echo "- 'updated: $current_updated'"
     echo "+ 'updated: $release_date'"
     update_field "$file" updated "$current_updated" "$release_date"
