@@ -19,7 +19,7 @@ issue:
 icon: com.lnflash.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: sourceavailable
 appHashes: 
 date: 2025-06-13
 signer: 
@@ -73,4 +73,14 @@ features:
 
 ## Analysis
 
-Flash Wallet explicitly identifies as **custodial**, stating that it relies on "dedicated global partners managing Lightning Network liquidity and channels," and offers features like "Stabilized USD-equivalent accounts"—both of which indicate that users do not hold their own private keys. These services require backend infrastructure controlled by the operator, meaning user funds are held on their behalf. Despite using open-source infrastructure like Galoy or Blink, the operational model of Flash fits the definition of a **custodial wallet** as it centralizes control over user assets and transaction routing.
+Flash Wallet explicitly identifies as *hybrid-custodial*, stating that it relies on "dedicated global partners managing Lightning Network liquidity and channels," and offers features like "Stabilized USD-equivalent accounts"—both of which indicate that users do not hold their own private keys. These services require backend infrastructure controlled by the operator, meaning user funds are held on their behalf.
+
+They have a tiered model where if you provide your sms or email, the backup of the seed phrases is made available. 
+
+To quote:
+
+> Flash is a hybrid custodial wallet, so your backups on your Cash(USD) wallet are automatically encrypted and stored when you add a phone number or email address to Flash App. However, your Bitcoin wallet is completely under your control, and you will need to secure the backup yourself. In order to restore your Cash(USD) wallet in the event that you lose your device, you will to follow our restore process (Import Wallet) and provide your phone number or email address. For your BTC wallet we strongly recommend writing down your backup phrase and storing it in a secure place as soon as possible.
+>
+> IMPORTANT: If you lose your device and do not have your backup phrase, you will not be able to restore your BTC wallet and your Bitcoin will be lost. Treat your Bitcoin wallet like your savings account, and your Cash(USD) wallet like the cash in your pocket; we recommend that you only store as much cash on Flash as you would carry in your pocket.
+
+The app supported both Bitcoin and lightning. We tested this and was provided with the 12-word seed phrases. This app's **source is available.**

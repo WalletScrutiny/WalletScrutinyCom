@@ -18,7 +18,7 @@ issue:
 icon: com.lnflash.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: sourceavailable
 appHashes: 
 date: 2025-06-13
 signer: 
