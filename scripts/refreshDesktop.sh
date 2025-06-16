@@ -149,19 +149,20 @@ for file in "$DESKTOP_DIR"/*.md; do
     # Check if it's a GitHub repository
     if [[ "$repo_url" == *"github.com"* ]]; then
         # Get latest release version from GitHub and capture error code
-        error_output=$(get_latest_github_release "$repo_url" 2>&1 1>/dev/null)
-        latest_version=$(get_latest_github_release "$repo_url" 2>/dev/null)
+        # Capture release info with error handling
+        release_output=$(get_latest_github_release "$repo_url" 2>&1)
+        if [[ $? -ne 0 || "$release_output" == ERROR* ]]; then
+            fetch_failed_files+=("$filename")
+            fetch_error_codes+=("${release_output:6}")  # remove "ERROR|" prefix
+            continue
+        fi
+
+        latest_version="$release_output"
         
-        # Skip if couldn't get latest version
-        if [ -z "$latest_version" ]; then
-            # If we have an error code, use it
-            if [ -n "$error_output" ]; then
-                fetch_failed_files+=("$filename")
-                fetch_error_codes+=("$error_output")
-            else
-                fetch_failed_files+=("$filename")
-                fetch_error_codes+=("UNK") # Unknown error
-            fi
+        # Final safeguard: ensure not accidentally writing "ERROR" to version
+        if [[ -z "$latest_version" || "$latest_version" == ERROR* ]]; then
+            fetch_failed_files+=("$filename")
+            fetch_error_codes+=("UNK")
             continue
         fi
         

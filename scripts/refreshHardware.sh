@@ -523,7 +523,7 @@ for file in "${files[@]}"; do
         echo -e "\033[1;33mUpdated to latest version.\033[0m"
         ((FILES_UPDATED++))
       else
-        echo "Already up to date."
+        echo "Already up to date. (current: $current_version, updated: $current_updated)"
         debug "$name remains at $current_version"
       fi
       echo
@@ -568,7 +568,7 @@ for file in "${files[@]}"; do
       echo -e "\033[1;33mUpdated to latest version.\033[0m"
       ((FILES_UPDATED++))
     else
-      echo "Already up to date."
+      echo "Already up to date. (current: $current_version, updated: $current_updated)"
       debug "$name remains at $current_version"
     fi
     echo
@@ -618,7 +618,7 @@ for file in "${files[@]}"; do
       echo -e "\033[1;33mUpdated to latest version.\033[0m"
       ((FILES_UPDATED++))
     else
-      echo "Already up to date."
+      echo "Already up to date. (current: $current_version, updated: $current_updated)"
       debug "$name remains at $current_version"
     fi
     echo
@@ -686,7 +686,7 @@ for file in "${files[@]}"; do
         echo -e "\033[1;33mUpdated to latest version.\033[0m"
         ((FILES_UPDATED++))
       else
-        echo "Already up to date."
+        echo "Already up to date. (current: $current_version, updated: $current_updated)"
         debug "$name remains at $current_version"
       fi
       
@@ -735,7 +735,7 @@ for file in "${files[@]}"; do
     echo -e "\033[1;33mUpdated to latest version.\033[0m"
     ((FILES_UPDATED++))
   else
-    echo "Already up to date."
+    echo "Already up to date. (current: $current_version, updated: $current_updated)"
     debug "$name remains at $current_version"
   fi
   echo
