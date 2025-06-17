@@ -35,14 +35,14 @@ fi
 
 echo " * Refreshing Desktop apps..."
 if [ -n "$githubToken" ]; then
-  ./scripts/refreshDesktop.sh -r -g "$githubToken"
+  node scripts/refreshDesktop.mjs -r -g "$githubToken"
 else
   echo "   ⚠️  Skipping Desktop refresh — no GitHub token (-g) provided"
 fi
 
 echo " * Refreshing Hardware apps..."
 if [ -n "$githubToken" ]; then
-  ./scripts/refreshHardware.sh -g "$githubToken"
+  node scripts/refreshHardware.mjs -g "$githubToken"
 else
   echo "   ⚠️  Skipping Hardware refresh — no GitHub token (-g) provided"
 fi
