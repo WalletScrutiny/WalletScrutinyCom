@@ -1,18 +1,39 @@
 #!/usr/bin/env node
 
 /**
- * Hardware wallet refresh script - JavaScript port of refreshHardware.sh
+ * Hardware wallet refresh script
  * Updates version information for hardware wallet markdown files
  */
 
 import fs from 'fs';
 import path from 'path';
-import axios from 'axios';
 import minimist from 'minimist';
 import { execSync } from 'child_process';
 import helper from './helper.mjs';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
+import { 
+  colors, 
+  createStats, 
+  getGitHubToken, 
+  generateReport, 
+  getMarkdownFiles,
+  parseFrontmatter,
+  updateVersionInContent,
+  isValidVerdict,
+  isValidMeta,
+  sleep,
+  extractRepoUrl,
+  handleProcessingError,
+  debugLog
+} from './refresh_common.mjs';
+import { 
+  fetchAllTags,
+  fetchCommitInfo,
+  extractRepoPath,
+  getRateLimitDelay,
+  fetchLatestRelease
+} from './github_common.mjs';
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
@@ -30,29 +51,8 @@ const HARDWARE_DIR = '_hardware';
 const VALID_VERDICTS = ['sourceavailable'];
 const VALID_META = 'ok';
 
-// Colors for output
-const colors = {
-  green: '\x1b[32m',
-  yellow: '\x1b[33m',
-  red: '\x1b[31m',
-  cyan: '\x1b[36m',
-  reset: '\x1b[0m',
-  gray: '\x1b[90m'
-};
-
 // Statistics tracking
-const stats = {
-  processed: 0,
-  updated: 0,
-  skipped: {
-    noRepo: [],
-    invalidVerdict: [],
-    invalidMeta: [],
-    noReleases: [],
-    upToDate: [],
-    errors: []
-  }
-};
+const stats = createStats();
 
 function showUsage() {
   console.log(`
@@ -73,16 +73,6 @@ Examples:
 `);
 }
 
-function getGitHubToken() {
-  return args['github-token'] || process.env.GITHUB_TOKEN;
-}
-
-function debugLog(message) {
-  if (args.debug) {
-    console.log(`[DEBUG] ${message}`);
-  }
-}
-
 // Device-specific version fetchers
 async function fetchColdcardVersion(model, token) {
   const regex = {
@@ -98,12 +88,8 @@ async function fetchColdcardVersion(model, token) {
   }
 
   try {
-    const response = await axios.get('https://api.github.com/repos/Coldcard/firmware/tags?per_page=100', {
-      headers: token ? { 'Authorization': `token ${token}` } : {},
-      timeout: 10000
-    });
-
-    const tags = response.data;
+    const tags = await fetchAllTags('Coldcard/firmware', token);
+    
     if (!tags || tags.length === 0) {
       throw new Error('No tags found');
     }
@@ -139,18 +125,18 @@ async function fetchColdcardVersion(model, token) {
     
     if (matchingTag && matchingTag.commit && matchingTag.commit.sha) {
       try {
-        const commitResponse = await axios.get(`https://api.github.com/repos/Coldcard/firmware/commits/${matchingTag.commit.sha}`, {
-          headers: token ? { 'Authorization': `token ${token}` } : {},
-          timeout: 10000
-        });
-        releaseDate = commitResponse.data.commit.committer.date.split('T')[0];
+        const commitInfo = await fetchCommitInfo('Coldcard/firmware', matchingTag.commit.sha, token);
+        releaseDate = commitInfo.date;
       } catch (commitError) {
-        debugLog(`Failed to get commit date for Coldcard ${model}: ${commitError.message}`);
+        debugLog(`Failed to get commit date for Coldcard ${model}: ${commitError.message}`, args);
       }
     }
 
-    return { version: latestVersion, date: releaseDate };
-    
+    return {
+      version: latestVersion,
+      date: releaseDate
+    };
+
   } catch (error) {
     throw new Error(`Failed to fetch Coldcard ${model} version: ${error.message}`);
   }
@@ -158,44 +144,60 @@ async function fetchColdcardVersion(model, token) {
 
 async function fetchJadeVersion(isPlus, token) {
   try {
-    const response = await axios.get('https://api.github.com/repos/Blockstream/jade/tags', {
-      headers: token ? { 'Authorization': `token ${token}` } : {},
-      timeout: 10000
-    });
-
-    const tags = response.data;
+    const tags = await fetchAllTags('Blockstream/Jade', token);
+    
     if (!tags || tags.length === 0) {
-      return { version: 'unknown', date: new Date().toISOString().split('T')[0] };
+      throw new Error('No tags found');
     }
 
-    const latestTag = tags[0];
-    let releaseDate = new Date().toISOString().split('T')[0];
+    // Filter for appropriate version pattern
+    const versionPattern = isPlus ? /^[0-9]+\.[0-9]+\.[0-9]+$/ : /^[0-9]+\.[0-9]+\.[0-9]+$/;
+    const versions = tags
+      .map(tag => tag.name)
+      .filter(name => versionPattern.test(name))
+      .sort((a, b) => {
+        const aParts = a.split('.').map(Number);
+        const bParts = b.split('.').map(Number);
+        for (let i = 0; i < 3; i++) {
+          const diff = aParts[i] - bParts[i];
+          if (diff !== 0) return diff;
+        }
+        return 0;
+      });
+
+    if (versions.length === 0) {
+      throw new Error('No matching versions found');
+    }
+
+    const latestVersion = versions[versions.length - 1];
+    const matchingTag = tags.find(tag => tag.name === latestVersion);
     
-    if (latestTag.commit && latestTag.commit.sha) {
+    let releaseDate = new Date().toISOString().split('T')[0];
+    if (matchingTag && matchingTag.commit && matchingTag.commit.sha) {
       try {
-        const commitResponse = await axios.get(`https://api.github.com/repos/Blockstream/jade/commits/${latestTag.commit.sha}`, {
-          headers: token ? { 'Authorization': `token ${token}` } : {},
-          timeout: 10000
-        });
-        releaseDate = commitResponse.data.commit.committer.date.split('T')[0];
+        const commitInfo = await fetchCommitInfo('Blockstream/Jade', matchingTag.commit.sha, token);
+        releaseDate = commitInfo.date;
       } catch (commitError) {
-        debugLog(`Failed to get commit date for Jade: ${commitError.message}`);
+        debugLog(`Failed to get commit date for Jade: ${commitError.message}`, args);
       }
     }
 
-    return { version: latestTag.name, date: releaseDate };
-    
+    return {
+      version: latestVersion,
+      date: releaseDate
+    };
+
   } catch (error) {
-    return { version: 'unknown', date: new Date().toISOString().split('T')[0] };
+    throw new Error(`Failed to fetch Jade version: ${error.message}`);
   }
 }
 
 async function fetchTrezorVersion(firmwareCode, token) {
   const modelMap = {
-    'trezorOne': 'LEGACY',
-    'trezorT': 'T2T1', 
-    'trezorSafe3': 'T2B1',
-    'trezorSafe5': 'T3T1'
+    'trezor-one': 'LEGACY',
+    'trezor-t': 'T2T1', 
+    'trezor-safe-3': 'T2B1',
+    'trezor-safe-5': 'T3T1'
   };
 
   const trezorModel = modelMap[firmwareCode];
@@ -205,7 +207,7 @@ async function fetchTrezorVersion(firmwareCode, token) {
 
   try {
     return new Promise((resolve, reject) => {
-      const scriptPath = path.join(path.dirname(fileURLToPath(import.meta.url)), 'trezor_fextractor.js');
+      const scriptPath = path.join(path.dirname(fileURLToPath(import.meta.url)), 'trezor_fextractor.mjs');
       const args = ['--json', '--model', trezorModel];
       
       if (token) {
@@ -229,7 +231,7 @@ async function fetchTrezorVersion(firmwareCode, token) {
       
       child.on('close', (code) => {
         if (code !== 0) {
-          reject(new Error(`trezor_fextractor.js exited with code ${code}: ${stderr}`));
+          reject(new Error(`trezor_fextractor.mjs exited with code ${code}: ${stderr}`));
           return;
         }
         
@@ -250,12 +252,12 @@ async function fetchTrezorVersion(firmwareCode, token) {
           
           resolve({ version, date });
         } catch (parseError) {
-          reject(new Error(`Invalid trezor_fextractor.js output format: ${stdout}`));
+          reject(new Error(`Invalid trezor_fextractor.mjs output format: ${stdout}`));
         }
       });
       
       child.on('error', (error) => {
-        reject(new Error(`Failed to spawn trezor_fextractor.js: ${error.message}`));
+        reject(new Error(`Failed to spawn trezor_fextractor.mjs: ${error.message}`));
       });
     });
     
@@ -265,182 +267,106 @@ async function fetchTrezorVersion(firmwareCode, token) {
 }
 
 async function getDeviceVersion(fileName, repoUrl, token) {
-  const fileNameLower = fileName.toLowerCase();
-  
-  // Coldcard devices
-  if (repoUrl === 'https://github.com/Coldcard/firmware' || 
-      fileNameLower.includes('coldcard')) {
-    const model = fileNameLower.includes('mk4') ? 'mk4' : 
-                  fileNameLower.includes('mk3') ? 'mk3' : 
-                  fileNameLower.includes('mk2') ? 'mk2' : 
-                  fileNameLower.includes('mk1') ? 'mk1' : 
-                  fileNameLower.includes('q') ? 'q' : 
-                  'unknown';
+  // Special handling for specific hardware devices
+  if (fileName.includes('coldcard')) {
+    const model = fileName.includes('mk4') ? 'mk4' : 
+                  fileName.includes('mk3') ? 'mk3' : 
+                  fileName.includes('mk2') ? 'mk2' : 
+                  fileName.includes('mk1') ? 'mk1' : 
+                  fileName.includes('q') ? 'q' : 'mk4';
     return await fetchColdcardVersion(model, token);
   }
   
-  // Blockstream Jade
-  if (repoUrl === 'https://github.com/Blockstream/Jade' || 
-      fileNameLower.includes('jade')) {
-    return await fetchJadeVersion(fileNameLower.includes('plus'), token);
+  if (fileName.includes('jade')) {
+    const isPlus = fileName.includes('plus');
+    return await fetchJadeVersion(isPlus, token);
   }
   
-  // Trezor devices
-  if (repoUrl && (repoUrl.includes('trezor') || fileNameLower.includes('trezor'))) {
-    const firmwareCode = fileNameLower === 'trezorone.md' ? 'trezorOne' : 
-                         fileNameLower === 'trezort.md' ? 'trezorT' : 
-                         fileNameLower === 'trezorsafe3.md' ? 'trezorSafe3' : 
-                         fileNameLower === 'trezorsafe5.md' ? 'trezorSafe5' : 
-                         'unknown';
+  if (fileName.includes('trezor')) {
+    const fileNameLower = fileName.toLowerCase();
+    const firmwareCode = fileNameLower.includes('one') ? 'trezor-one' :
+                        fileNameLower.includes('safe3') ? 'trezor-safe-3' :
+                        fileNameLower.includes('safe5') ? 'trezor-safe-5' :
+                        'trezor-t';
     return await fetchTrezorVersion(firmwareCode, token);
   }
   
-  // Generic GitHub repository
-  if (repoUrl && repoUrl.includes('github.com')) {
-    try {
-      const response = await axios.get(`https://api.github.com/repos/${repoUrl.replace('https://github.com/', '')}/releases/latest`, {
-        headers: token ? { 'Authorization': `token ${token}` } : {},
-        timeout: 10000
-      });
-      
-      return {
-        version: response.data.tag_name,
-        date: response.data.published_at.split('T')[0]
-      };
-      
-    } catch (error) {
-      if (error.response?.status === 404) {
-        // No releases found, try tags as fallback
-        try {
-          const tagsResponse = await axios.get(`https://api.github.com/repos/${repoUrl.replace('https://github.com/', '')}/tags`, {
-            headers: token ? { 'Authorization': `token ${token}` } : {},
-            timeout: 10000
-          });
-          
-          if (tagsResponse.data && tagsResponse.data.length > 0) {
-            // Get the latest tag (first in the array)
-            const latestTag = tagsResponse.data[0];
-            
-            // Try to get commit date for the tag
-            try {
-              const commitResponse = await axios.get(`https://api.github.com/repos/${repoUrl.replace('https://github.com/', '')}/commits/${latestTag.commit.sha}`, {
-                headers: token ? { 'Authorization': `token ${token}` } : {},
-                timeout: 10000
-              });
-              
-              return {
-                version: latestTag.name,
-                date: commitResponse.data.commit.committer.date.split('T')[0]
-              };
-            } catch (commitError) {
-              // If we can't get commit date, use current date
-              return {
-                version: latestTag.name,
-                date: new Date().toISOString().split('T')[0]
-              };
-            }
-          } else {
-            throw new Error(`No releases or tags found: ${repoUrl}`);
-          }
-        } catch (tagsError) {
-          if (tagsError.response?.status === 404) {
-            throw new Error(`Repository not found: ${repoUrl}`);
-          }
-          throw new Error(`No releases or tags found: ${repoUrl}`);
-        }
-      } else if (error.response?.status === 403) {
-        throw new Error('Rate limited - GitHub token recommended');
-      } else if (error.response?.status === 404) {
-        throw new Error(`Repository not found: ${repoUrl}`);
-      } else if (error.code === 'ENOTFOUND' || error.code === 'ETIMEDOUT') {
-        throw new Error('Network error');
-      }
-      throw error;
-    }
-  }
-  
-  throw new Error('Unknown device type or no repository specified');
+  // For other devices, use generic GitHub release fetching
+  return await fetchLatestRelease(repoUrl, token);
 }
 
 async function processFile(fileName) {
   const filePath = path.join(HARDWARE_DIR, fileName);
   
   try {
-    // Load file using existing helper
-    const content = { header: {}, body: '' };
-    helper.loadFromFile(filePath, content);
+    const content = fs.readFileSync(filePath, 'utf8');
+    const frontmatter = parseFrontmatter(content);
     
-    const { header, body } = content;
-    
-    // Check if verdict and meta are valid for processing
-    if (!VALID_VERDICTS.includes(header.verdict) || header.meta !== VALID_META) {
-      if (!VALID_VERDICTS.includes(header.verdict)) {
-        stats.skipped.invalidVerdict.push({
-          file: fileName,
-          verdict: header.verdict || 'none'
-        });
-      }
-      if (header.meta !== VALID_META) {
-        stats.skipped.invalidMeta.push({
-          file: fileName,
-          meta: header.meta || 'none'
-        });
-      }
-      return;
-    }
-    
-    console.log(`Processing ${colors.cyan}${fileName}${colors.reset} (${header.verdict})...`);
-    
-    // Get device version using specialized logic
-    const token = getGitHubToken();
-    const { version: latestVersion, date: releaseDate } = await getDeviceVersion(
-      fileName, 
-      header.repository, 
-      token
-    );
-    
-    const currentVersion = header.version;
-    
-    if (currentVersion === latestVersion) {
-      stats.skipped.upToDate.push({
+    // Validate verdict
+    if (!isValidVerdict(frontmatter.verdict, VALID_VERDICTS)) {
+      stats.skipped.invalidVerdict.push({
         file: fileName,
-        version: currentVersion
+        verdict: frontmatter.verdict
       });
-      console.log(`  ✓ Already up to date: ${currentVersion}`);
       return;
     }
     
-    // Update header
-    header.version = latestVersion;
-    header.updated = releaseDate;
-    header.date = new Date().toISOString().split('T')[0];
+    // Validate meta
+    if (!isValidMeta(frontmatter.meta, VALID_META)) {
+      stats.skipped.invalidMeta.push({
+        file: fileName,
+        meta: frontmatter.meta
+      });
+      return;
+    }
     
-    // Write updated file
-    helper.writeResult(HARDWARE_DIR + '/', header, body);
+    console.log(`\n🔐 Processing: ${colors.cyan}${fileName}${colors.reset}`);
     
-    stats.updated++;
-    console.log(`  ${colors.green}✓ Updated${colors.reset}: ${currentVersion || 'none'} → ${colors.green}${latestVersion}${colors.reset}`);
-    
-  } catch (error) {
-    if (error.message.startsWith('Repository not found:')) {
+    // Extract repository URL
+    const repoUrl = extractRepoUrl(content);
+    if (!repoUrl) {
       stats.skipped.noRepo.push({
         file: fileName,
-        repository: error.message.split(': ')[1]
+        reason: 'No repository URL found'
       });
-      console.log(`  ${colors.red}✗ Repository not found${colors.reset}: ${error.message.split(': ')[1]}`);
-    } else if (error.message.startsWith('No releases or tags found:')) {
-      stats.skipped.noReleases.push({
-        file: fileName,
-        repository: error.message.split(': ')[1]
-      });
-      console.log(`  ${colors.yellow}✗ No releases or tags found${colors.reset}: ${error.message.split(': ')[1]}`);
-    } else {
-      stats.skipped.errors.push({
-        file: fileName,
-        error: error.message
-      });
-      console.log(`  ${colors.red}✗ Error${colors.reset}: ${error.message}`);
+      console.log(`  ${colors.red}✗ No repository URL found${colors.reset}`);
+      return;
     }
+    
+    console.log(`  Repository: ${repoUrl}`);
+    
+    const token = getGitHubToken(args);
+    
+    try {
+      // Get device-specific version
+      const release = await getDeviceVersion(fileName, repoUrl, token);
+      
+      console.log(`  Current: ${frontmatter.version || 'unknown'}`);
+      console.log(`  Latest: ${release.version}`);
+      
+      // Check if update is needed
+      if (frontmatter.version === release.version) {
+        stats.skipped.upToDate.push({
+          file: fileName,
+          version: release.version
+        });
+        console.log(`  ${colors.green}✓ Already up to date${colors.reset}`);
+        return;
+      }
+      
+      // Update the file
+      const updatedContent = updateVersionInContent(content, release.version, release.date);
+      fs.writeFileSync(filePath, updatedContent);
+      
+      stats.updated++;
+      console.log(`  ${colors.green}✓ Updated${colors.reset}: ${frontmatter.version} → ${release.version}`);
+      
+    } catch (error) {
+      handleProcessingError(error, fileName, stats);
+    }
+    
+  } catch (error) {
+    handleProcessingError(error, fileName, stats);
   }
 }
 
@@ -465,7 +391,7 @@ Examples:
     process.exit(0);
   }
   
-  const token = getGitHubToken();
+  const token = getGitHubToken(args);
   if (!token) {
     console.log(`${colors.yellow}⚠️  No GitHub token provided. API requests may be rate limited.${colors.reset}`);
     console.log(`   Use -g <token> or set GITHUB_TOKEN environment variable.`);
@@ -474,71 +400,24 @@ Examples:
   console.log(`${colors.cyan}🔐 Refreshing hardware wallet versions...${colors.reset}`);
   
   try {
-    const files = fs.readdirSync(HARDWARE_DIR).filter(file => file.endsWith('.md'));
+    const files = getMarkdownFiles(HARDWARE_DIR);
     stats.processed = files.length;
     
     console.log(`Found ${files.length} hardware wallet files`);
     console.log(`with 'meta:ok' and 'verdict: sourceavailable'`);
     
+    const delay = getRateLimitDelay(!!token);
+    
     // Process files sequentially to avoid rate limiting
     for (const file of files) {
       await processFile(file);
-      // Small delay to be nice to GitHub API
-      await new Promise(resolve => setTimeout(resolve, 200));
+      // Rate limiting delay
+      await sleep(delay);
     }
     
     console.log(`\n${colors.green}✓ Completed${colors.reset}: ${stats.updated} files updated out of ${stats.processed} processed`);
     
-    // Generate detailed summary
-    if (args.debug) {
-      if (stats.skipped.invalidVerdict.length > 0) {
-        console.log(`\n${colors.yellow}Skipped - Invalid verdict:${colors.reset}`);
-        stats.skipped.invalidVerdict.forEach(item => {
-          console.log(`  • ${item.file} (verdict: ${item.verdict})`);
-        });
-      }
-      
-      if (stats.skipped.invalidMeta.length > 0) {
-        console.log(`\n${colors.yellow}Skipped - Invalid meta:${colors.reset}`);
-        stats.skipped.invalidMeta.forEach(item => {
-          console.log(`  • ${item.file} (meta: ${item.meta})`);
-        });
-      }
-    } else {
-      const totalSkippedInvalid = stats.skipped.invalidVerdict.length + stats.skipped.invalidMeta.length;
-      if (totalSkippedInvalid > 0) {
-        console.log(`\n${colors.yellow}Skipped - Invalid files:${colors.reset} ${totalSkippedInvalid} files (use -d to see details)`);
-      }
-    }
-    
-    if (stats.skipped.noRepo.length > 0) {
-      console.log(`\n${colors.yellow}Skipped - Repository not found:${colors.reset}`);
-      stats.skipped.noRepo.forEach(item => {
-        console.log(`  • ${item.file} (${item.repository})`);
-      });
-    }
-    
-    if (stats.skipped.noReleases.length > 0) {
-      console.log(`\n${colors.yellow}Skipped - No releases or tags found:${colors.reset}`);
-      stats.skipped.noReleases.forEach(item => {
-        console.log(`  • ${item.file} (${item.repository})`);
-      });
-    }
-    
-    if (stats.skipped.upToDate.length > 0) {
-      console.log(`\n${colors.cyan}Already up to date:${colors.reset}`);
-      stats.skipped.upToDate.forEach(item => {
-        console.log(`  • ${item.file} (${item.version})`);
-      });
-    }
-    
-    // Generate summary
-    if (stats.skipped.errors.length > 0) {
-      console.log(`\n${colors.red}Errors encountered:${colors.reset}`);
-      stats.skipped.errors.forEach(item => {
-        console.log(`  • ${item.file}: ${item.error}`);
-      });
-    }
+    generateReport(stats, args, 'hardware');
     
   } catch (error) {
     console.error(`${colors.red}Fatal error:${colors.reset} ${error.message}`);
