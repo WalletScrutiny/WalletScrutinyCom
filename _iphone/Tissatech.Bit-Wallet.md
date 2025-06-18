@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-15
+date: 2025-06-18
 signer: 
 twitter: bitwalletinc
 social:

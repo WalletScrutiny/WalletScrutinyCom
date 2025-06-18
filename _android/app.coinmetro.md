@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: Coinmetro
+title: 'Coinmetro: Buy BTC ETH SOL XRP'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: app.coinmetro
 appCountry: us
 released: 2017-12-10
-updated: 2025-06-02
-version: 5.50.843
+updated: 2025-06-16
+version: 5.50.845
 stars: 4.4
 ratings: 419
 reviews: 87

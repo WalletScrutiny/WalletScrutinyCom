@@ -10,8 +10,8 @@ idd: 1406211993
 released: 2018-08-04
 updated: 2025-03-03
 version: '35.9'
-stars: 4.5
-reviews: 6424
+stars: 4.6
+reviews: 6619
 website: https://emberfund.io/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2025-05-29
 version: 1.42.11
 stars: 4
 ratings: 216
-reviews: 202
+reviews: 203
 website: https://dzengi.com/
 repository: 
 issue: 

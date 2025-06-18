@@ -8,8 +8,8 @@ users: 5000000
 appId: com.btckorea.bithumb
 appCountry: 
 released: 2017-09-26
-updated: 2025-05-28
-version: 3.4.7
+updated: 2025-06-11
+version: 3.4.8
 stars: 2.9
 ratings: 25850
 reviews: 71

@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-10-27
 updated: 2025-05-07
 version: 3.0.48
-stars: 3.2
+stars: 3.3
 ratings: 
 reviews: 12
 website: https://www.bitnovo.com

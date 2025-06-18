@@ -8,10 +8,10 @@ appId: com.paymaya.ios
 appCountry: ph
 idd: '991673877'
 released: 2015-09-29
-updated: 2025-05-26
-version: 2.106.0
+updated: 2025-06-18
+version: 2.107.0
 stars: 4.7
-reviews: 218644
+reviews: 218971
 website: https://www.maya.ph/
 repository: 
 issue: 

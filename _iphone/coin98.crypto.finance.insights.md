@@ -11,7 +11,7 @@ released: 2021-05-14
 updated: 2025-06-06
 version: 16.0.0
 stars: 4.5
-reviews: 653
+reviews: 654
 website: https://coin98.com
 repository: 
 issue: 

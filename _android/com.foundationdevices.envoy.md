@@ -11,7 +11,7 @@ appCountry: US
 released: 2022-04-01
 updated: 2025-02-01
 version: 1.8.6
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 5
 website: https://foundationdevices.com/

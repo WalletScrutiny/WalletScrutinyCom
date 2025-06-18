@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-13
 updated: 2025-05-29
 version: 2.8.670
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 16
 website: https://www.biyagl.com

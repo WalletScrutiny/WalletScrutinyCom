@@ -13,7 +13,7 @@ updated: 2025-05-23
 version: 2.2.315
 stars: 4.5
 ratings: 
-reviews: 41
+reviews: 43
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
 issue: 

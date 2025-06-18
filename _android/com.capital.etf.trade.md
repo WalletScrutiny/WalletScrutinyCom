@@ -11,7 +11,7 @@ appCountry:
 released: 
 updated: 2025-06-10
 version: 2.3.0
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 6
 website: https://capital.com/

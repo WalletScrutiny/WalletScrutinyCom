@@ -12,7 +12,7 @@ updated: 2025-05-31
 version: 5.0.2
 stars: 3.6
 ratings: 
-reviews: 80
+reviews: 81
 website: https://coinlocally.com
 repository: 
 issue: 

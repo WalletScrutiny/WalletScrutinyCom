@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bouspam.eritajpam.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-20
+date: 2025-06-18
 signer: 
 twitter: eritajpam
 social: 

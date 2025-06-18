@@ -8,8 +8,8 @@ users: 1000
 appId: technoprepay.btcpay.pos
 appCountry: 
 released: 2022-04-16
-updated: 2025-06-10
-version: 8.4.0
+updated: 2025-06-17
+version: 8.8.0
 stars: 
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ appId: com.ixfi.app
 appCountry: ro
 idd: '1614823165'
 released: 2022-03-22
-updated: 2025-05-19
-version: 1.7.25
+updated: 2025-06-16
+version: 1.7.27
 stars: 4.9
 reviews: 98
 website: https://www.ixfi.com/landing

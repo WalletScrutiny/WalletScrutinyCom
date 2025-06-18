@@ -19,10 +19,10 @@ repository: https://github.com/shapeshift/mobile-app
 issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2024-08-09
+date: 2025-06-18
 signer: 
 twitter: ShapeShift_io
 social:

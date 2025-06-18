@@ -12,7 +12,7 @@ updated: 2025-06-10
 version: 4.5.6
 stars: 2.6
 ratings: 208
-reviews: 225
+reviews: 226
 website: https://www.smilesbitcoin.com/
 repository: 
 issue: 
