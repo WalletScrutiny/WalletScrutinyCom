@@ -790,8 +790,12 @@ function setupAppIdAutocomplete() {
 
   appIdInput.addEventListener('input', (e) => {
     const searchText = e.target.value;
-    const filteredWallets = filterWallets(searchText);
-    showSuggestions(filteredWallets);
+    if (searchText.length > 1) {
+      const filteredWallets = filterWallets(searchText);
+      showSuggestions(filteredWallets);
+    } else {
+      showSuggestions([]);
+    }
   });
 
   document.addEventListener('click', (e) => {
