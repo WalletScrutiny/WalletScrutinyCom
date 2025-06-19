@@ -778,17 +778,17 @@ permalink: /new_verification/
       }
     }
 
-      if (window.wallets && window.wallets.length > 0) {
-        setupAppIdAutocomplete();
-      }
+    if (window.wallets && window.wallets.length > 0) {
+      setupAppIdAutocomplete();
+    }
 
-      const fields = ['version', 'appId', 'platform'];
-      fields.forEach(field => {
-        const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
-        if (value) {
-          document.getElementById(field).value = value;
-        }
-      });
+    const fields = ['version', 'appId', 'platform'];
+    fields.forEach(field => {
+      const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
+      if (value) {
+        document.getElementById(field).value = value;
+      }
+    });
 
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
 
