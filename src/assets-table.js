@@ -1035,7 +1035,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <div class="markdown-content">
       ${diffoscopeHTML}
       ${asciicastHTML}
-      ${marked.parse(itemContent)}
+      <div style="white-space: pre-wrap;">${marked.parse(itemContent)}</div>
     </div>
   </p>`;
 
