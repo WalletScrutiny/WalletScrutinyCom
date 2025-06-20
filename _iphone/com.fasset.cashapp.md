@@ -8,8 +8,8 @@ appId: com.fasset.cashapp
 appCountry: us
 idd: '1599893605'
 released: 2021-12-14
-updated: 2025-06-09
-version: '3.30'
+updated: 2025-06-19
+version: '3.31'
 stars: 3.2
 reviews: 11
 website: https://fasset.io/

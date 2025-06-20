@@ -11,7 +11,7 @@ released: 2019-06-30
 updated: 2025-06-15
 version: 5.17.1
 stars: 4
-reviews: 1440
+reviews: 1439
 website: https://nexo.com
 repository: 
 issue: 

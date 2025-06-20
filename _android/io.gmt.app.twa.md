@@ -12,7 +12,7 @@ updated: 2025-05-08
 version: '45'
 stars: 4.3
 ratings: 
-reviews: 869
+reviews: 874
 website: https://gomining.com
 repository: 
 issue: 

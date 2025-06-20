@@ -8,10 +8,10 @@ appId: com.rocketsfintech.accrue-dca
 appCountry: gh
 idd: '1604973055'
 released: 2022-01-18
-updated: 2025-05-29
-version: 4.2.5
+updated: 2025-06-12
+version: 4.3.1
 stars: 4.4
-reviews: 2732
+reviews: 2735
 website: https://useaccrue.com
 repository: 
 issue: 

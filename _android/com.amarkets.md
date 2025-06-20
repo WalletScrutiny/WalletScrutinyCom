@@ -1,6 +1,6 @@
 ---
 wsId: AMarkets
-title: 'AMarkets: Trading & Investing'
+title: 'AMarkets: Finance & Trading'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.amarkets
 appCountry: us
 released: 2019-05-31
-updated: 2025-06-05
-version: 2.1.92
+updated: 2025-06-12
+version: 2.1.93
 stars: 4.6
 ratings: 2509
 reviews: 259

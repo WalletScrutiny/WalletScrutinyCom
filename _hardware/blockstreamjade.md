@@ -9,7 +9,7 @@ authors:
 released: 2021-01-01
 discontinued: 
 updated: 2025-03-14
-version: 1.0.34
+version: 1.0.35
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
@@ -33,7 +33,7 @@ appHashes:
 - 83098f274244f1b676a2f161da155e6c3444f0a30450fd758a26046a88654ce2
 - e056250e6f75cda5b14a91cc8aef6edcf6a9875cdae2f41ea9b96bd88fdd0e46
 - e38355055873ed9ab10c19cb425a64497589c78c7dad041ec351599e2c2c1b52
-date: 2025-04-04
+date: 2025-04-17
 signer: 
 twitter: Blockstream
 social:

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.moonpay
 appCountry: 
 released: 2023-04-18
-updated: 2025-06-12
-version: 2.0.7
-stars: 3.5
+updated: 2025-06-17
+version: 2.0.8
+stars: 4
 ratings: 
-reviews: 604
+reviews: 613
 website: https://www.moonpay.com/
 repository: 
 issue: 

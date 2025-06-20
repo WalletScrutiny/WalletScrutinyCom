@@ -6,7 +6,7 @@ authors:
 released: 2015-03-04
 discontinued: 
 updated: 2025-04-17
-version: 0.16.13
+version: 0.16.14
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-24
+date: 2025-05-26
 twitter: 
 social: 
 features: 

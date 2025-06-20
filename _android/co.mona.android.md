@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy BTC, CRO, XRP
+title: 'Crypto.com: Buy Bitcoin & CRO'
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2025-06-17
 version: 3.212.10
 stars: 4.5
 ratings: 281384
-reviews: 54379
+reviews: 54390
 website: https://crypto.com/
 repository: 
 issue: 

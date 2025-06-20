@@ -12,7 +12,7 @@ updated: 2025-06-18
 version: 1.73.2
 stars: 4.2
 ratings: 6161
-reviews: 360
+reviews: 358
 website: https://www.probit.com
 repository: 
 issue: 

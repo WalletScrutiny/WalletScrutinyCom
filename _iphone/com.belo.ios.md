@@ -11,7 +11,7 @@ released: 2021-09-08
 updated: 2025-06-11
 version: 6.7.0
 stars: 4.5
-reviews: 36
+reviews: 37
 website: https://belo.app
 repository: 
 issue: 

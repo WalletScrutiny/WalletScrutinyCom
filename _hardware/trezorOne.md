@@ -7,7 +7,7 @@ authors:
 released: 2014-07-29
 discontinued: 
 updated: 2023-03-06
-version: 1.12.1
+version: 1.13.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
 - 60
@@ -28,7 +28,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - 859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8
-date: 2023-05-25
+date: 2025-05-06
 signer: 
 twitter: trezor
 social:

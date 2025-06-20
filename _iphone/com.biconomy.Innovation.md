@@ -8,8 +8,8 @@ appId: com.biconomy.Innovation
 appCountry: us
 idd: '1486151349'
 released: 2019-11-06
-updated: 2025-06-17
-version: 2.3.10
+updated: 2025-06-19
+version: 2.3.11
 stars: 4.5
 reviews: 139
 website: http://www.biconomy.com/

@@ -6,7 +6,7 @@ authors:
 released: 2020-09-02
 discontinued: 
 updated: 2025-02-27
-version: 2.1.3
+version: 2.2.3
 binaries: 
 provider: Craig Raw
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: sparrow.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
+date: 2025-06-10
 twitter: SparrowWallet
 social: 
 features: 

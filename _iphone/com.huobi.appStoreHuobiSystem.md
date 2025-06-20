@@ -11,7 +11,7 @@ released: 2015-08-19
 updated: 2025-06-12
 version: 10.53.0
 stars: 3.8
-reviews: 1324
+reviews: 1325
 website: https://www.htx.com
 repository: 
 issue: 

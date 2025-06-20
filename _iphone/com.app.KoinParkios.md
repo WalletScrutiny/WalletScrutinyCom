@@ -8,8 +8,8 @@ appId: com.app.KoinParkios
 appCountry: in
 idd: '6448510693'
 released: 2023-05-10
-updated: 2025-06-17
-version: '4.9'
+updated: 2025-06-18
+version: '5.0'
 stars: 4
 reviews: 76
 website: 

@@ -13,7 +13,7 @@ updated: 2025-06-16
 version: 4.58.0
 stars: 4.8
 ratings: 204
-reviews: 27
+reviews: 28
 website: https://keys.casa
 repository: 
 issue: 

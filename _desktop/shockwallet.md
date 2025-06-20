@@ -6,7 +6,7 @@ authors:
 released: 2022-11-17
 discontinued: 
 updated: 2025-02-21
-version: 0.0.17-beta
+version: .0.0.19-beta
 binaries: 
 provider: ShockNet
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: shockwallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-05-09
+date: 2025-06-10
 twitter: shockbtc
 social: 
 features: 
