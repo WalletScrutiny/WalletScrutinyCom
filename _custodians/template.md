@@ -1,17 +1,16 @@
 ---
-# Template Version: Alpha 2
-# This template contains the standard structure for custodian reviews.
+# Template Version: 2.0
+# This template contains the standard structure for custodian reviews, based on coinbase.md.
 # Please fill in all relevant fields and remove any that don't apply.
 layout: reviewCustodian
 title: "" # Full legal name of the company
 platformReview:
   type: custodians
   appId: "" # Lowercase, no spaces, used as identifier
-icon: "" # Company logo filename (jpg/jpeg/png)
+icon: "" # Company logo filename (e.g., company.png)
 
 custodian:
   crunchbaseUrl: "" # Crunchbase company profile URL
-
   leadership:
     jurisdiction: "" # Format: 🏴 "Country Name" (use country flag emoji)
     yearsInBusiness: "" # Number of years since founding
@@ -37,7 +36,7 @@ custodian:
   iphoneApp:
     name: "" # App name as shown in App Store
     url: "" # Internal review URL format: "/iphone/[bundle.id]"
-
+  
   webApp:
     name: "" # Web wallet name
     url: "" # Internal review URL format: "/others/[domain]"
@@ -47,18 +46,13 @@ custodian:
     name: "" # Extension name
     url: "" # Internal review URL format: "/others/ext.[name]"
 
-  desktopApp:
-    name: "" # Desktop application name
-    url: "" # Internal review URL format
-    platform: "" # Options: "Windows", "MacOS", "Linux", or multiple comma-separated
-
   hotColdDesign:
     status: "" # Options: "published", "outdated", "partial", "none"
     lastUpdated: # Format: YYYY-MM-DD
     details: "" # Detailed description of storage architecture
     documentation_url: "" # URL to official documentation
     analysis: "" # Additional analysis of the design
-    supporting_urls: # Additional documentation URLs
+    supporting_urls:
       - ""
 
   bitcoinFocus:
@@ -78,6 +72,8 @@ custodian:
     developmentUrl: "" # URL to development updates/roadmap
 
   operations:
+    incidentResponsePolicy: "" # URL to public incident response policy/documentation
+    incidentDisclosure: "" # URL to public incident disclosure page
     users: "" # Number of users
     cryptographicProof:
       btcAmount: "" # Amount of BTC verified cryptographically
@@ -86,7 +82,7 @@ custodian:
       source: "" # Source of cryptographic verification
       sourceUrl: "" # URL to verification source
       valid: false # Boolean: is the proof valid and current
-
+    
     thirdPartyAudit:
       btcAmount: "" # Amount of BTC verified by third party
       totalAssets: "" # Total value of assets verified by third party
@@ -94,7 +90,7 @@ custodian:
       source: "" # Name of third-party auditor
       sourceUrl: "" # URL to audit report
       valid: false # Boolean: is the audit valid and current
-
+    
     selfReported:
       btcAmount: "" # Amount of BTC self-reported
       totalAssets: "" # Total value of assets self-reported
@@ -107,14 +103,15 @@ custodian:
 
   trackRecord:
     incidentHistoryProvided: false   # must flip to true once reviewed
+    history: "" # Summary of incident history
     incidentHistory:                 # array of incidents
       - description: ""
         date: ""                     # Month YYYY
         url: ""
         severity: "minor"            # "minor" or "major"
         resolved: false              # true if fully addressed
-    incidentSeverityScore: 0         # manual override (–5 to +5)
-    lastIncident: ""                 # Month YYYY (used only if you prefer date logic)
+    sourceIncidents: "" # URL to status page or incident source
+    lastIncident: ""                 # Month YYYY
 
   businessModel:
     type: "" # Primary business type
@@ -135,21 +132,24 @@ custodian:
     memecoinList: # List of meme coins if applicable
       - name: ""
         url: ""
+    gambling: false # Boolean: offers gambling services
 
-  # User Access Controls
+  bitcoinContribution:
+    fossDevelopment: false
+    research: false
+    protocolSupport: false
+    research_url: ""
+    contributions:
+      - name: ""
+        url: ""
+
   userAccess:
-    # Boolean: KYC required
-    kycRequired:
-    # KYC levels if applicable
-    kycLevel: ""
-    # Withdrawal limits
+    kycRequired: false # Boolean: KYC required
+    kycLevel: "" # KYC levels if applicable
     withdrawalLimits:
-      # "fixed" or "tiered"
-      status: ""
-      # URL to withdrawal limit documentation
-      documentation_url: ""
+      status: "" # "fixed" or "tiered"
+      documentation_url: "" # URL to withdrawal limit documentation
 
-  # Security Features
   security:
     # Note: Methodology terms (Comprehensive/Basic/Non-existent) are implemented via specific checks for the same detail levels
     features: [] # 1.2: Add "Multi-signature Wallets" for +5 pts. 1.3: Add "Cold Storage" for +5 pts. Alternative terms for Multi-Sig: TSS, MPC, Threshold Signing in hotColdDesign.details
@@ -181,4 +181,7 @@ custodian:
       auditReports: [] # Adding report with URL gives +3 more pts (transparency)
       insuranceCoverage: "" # Setting to non-empty gives +2 more pts (insurance coverage)
       insuranceCoverageURL: "" # Optional: URL to insurance policy details
+
 ---
+
+# Add any additional non-frontmatter information here.
