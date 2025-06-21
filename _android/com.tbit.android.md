@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-10
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/tbit-global

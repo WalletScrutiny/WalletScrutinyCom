@@ -8,8 +8,8 @@ appId: com.secuxtech.secuxcess2
 appCountry: tc
 idd: '1477437607'
 released: 2019-09-12
-updated: 2025-04-21
-version: 1.31.3
+updated: 2025-04-28
+version: 1.31.4
 stars: 0
 reviews: 0
 website: https://www.secuxtech.com
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

@@ -8,10 +8,10 @@ appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: 2022-04-07
-updated: 2025-04-17
-version: 3.9.14
+updated: 2025-06-09
+version: 3.9.20
 stars: 4.6
-reviews: 161
+reviews: 168
 website: https://www.bitazza.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-09
 signer: 
-reviewArchive: 
 twitter: BitazzaGlobal
 social:
 - https://www.facebook.com/bitazzaglobal

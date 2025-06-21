@@ -10,8 +10,8 @@ idd: 1587180582
 released: 2021-09-27
 updated: 2024-08-13
 version: 2.13.07
-stars: 2.9
-reviews: 37
+stars: 2.8
+reviews: 38
 website: https://skyewallet.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: skyewallet
 social: 
 features: 

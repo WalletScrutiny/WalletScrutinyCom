@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-19
 signer: 
-reviewArchive: 
 twitter: chain
 social:
 - https://t.me/chain

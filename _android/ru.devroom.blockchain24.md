@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: ru.devroom.blockchain24.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-06-23
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

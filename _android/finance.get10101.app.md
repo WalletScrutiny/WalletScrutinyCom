@@ -19,12 +19,11 @@ repository: https://github.com/get10101/10101
 issue: 
 icon: finance.get10101.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-08-07
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: get10101
 social: 
 redirect_from: 

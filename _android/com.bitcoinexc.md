@@ -1,6 +1,6 @@
 ---
 wsId: FMCPay
-title: FMCPAY
+title: 'FMCPAY: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitcoinexc
 appCountry: 
 released: 2021-09-01
-updated: 2025-03-05
-version: 1.20.2
-stars: 3.1
+updated: 2025-05-13
+version: '1.21'
+stars: 3.2
 ratings: 
-reviews: 57
+reviews: 66
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-06
 signer: 
-reviewArchive: 
 twitter: fmcpay
 social:
 - https://www.facebook.com/fmcpay/

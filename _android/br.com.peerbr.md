@@ -8,8 +8,8 @@ users: 100000
 appId: br.com.peerbr
 appCountry: 
 released: 2019-05-24
-updated: 2025-03-12
-version: 6.3.1
+updated: 2025-05-21
+version: 6.4.0
 stars: 5
 ratings: 
 reviews: 2
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/peerbr

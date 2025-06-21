@@ -8,8 +8,8 @@ users: 500000
 appId: com.plunien.poloniex
 appCountry: 
 released: 2017-06-19
-updated: 2025-04-18
-version: 2.15.1
+updated: 2025-05-27
+version: 2.16.2
 stars: 3.1
 ratings: 7425
 reviews: 234
@@ -23,14 +23,13 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: Poloniex
 social:
 - https://www.facebook.com/poloniex
 redirect_from:
 - /com.plunien.poloniex/
 - /posts/com.plunien.poloniex/
-developerName: Polo Digital Assets, Ltd
+developerName: poloniex
 features: 
 
 ---

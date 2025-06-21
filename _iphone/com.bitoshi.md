@@ -11,7 +11,7 @@ released: 2022-10-17
 updated: 2025-04-16
 version: 1.4.2
 stars: 4.8
-reviews: 1245
+reviews: 1377
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-01
 signer: 
-reviewArchive: 
 twitter: Bitoshiafrica
 social:
 - https://bitoshi.africa

@@ -8,11 +8,11 @@ users: 10000000
 appId: org.fxclub.libertex
 appCountry: cl
 released: 2015-05-22
-updated: 2025-04-03
-version: 2.44.0
+updated: 2025-06-16
+version: 2.45.0
 stars: 4
 ratings: 77624
-reviews: 1253
+reviews: 1260
 website: https://libertex.org
 repository: 
 issue: 
@@ -23,11 +23,10 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-09
 signer: 
-reviewArchive: 
 twitter: libertex_latam
 social: 
 redirect_from: 
-developerName: Libertex International Company Limited
+developerName: Libertex International Company LLC
 features: 
 
 ---

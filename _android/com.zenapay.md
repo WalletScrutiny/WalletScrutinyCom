@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/ZenaPay

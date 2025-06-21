@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.bonsystem.chain.showgo.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-03-15
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

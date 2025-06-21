@@ -1,6 +1,6 @@
 ---
 wsId: krakenInvest
-title: 'Kraken: Buy Bitcoin & Crypto'
+title: 'Kraken: Buy Stocks & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.kraken.invest.app
 appCountry: us
 idd: '1481947260'
 released: 2021-06-01
-updated: 2025-04-21
-version: 3.12.0
+updated: 2025-06-19
+version: 3.20.3
 stars: 4.7
-reviews: 12507
+reviews: 14395
 website: https://kraken.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

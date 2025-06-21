@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

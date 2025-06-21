@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-26
 signer: 
-reviewArchive: 
 twitter: C2CXExchange
 social: 
 redirect_from: 

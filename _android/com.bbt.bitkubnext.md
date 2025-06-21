@@ -8,8 +8,8 @@ users: 50000
 appId: com.bbt.bitkubnext
 appCountry: 
 released: 2021-09-21
-updated: 2025-04-02
-version: 2.12.3
+updated: 2025-06-16
+version: 2.14.1
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-15
 signer: 
-reviewArchive: 
 twitter: bitkubchain
 social:
 - https://www.facebook.com/bitkubchainofficial

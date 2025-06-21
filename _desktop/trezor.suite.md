@@ -6,7 +6,7 @@ authors:
 released: 2016-06-28
 discontinued: 
 updated: 2024-04-19
-version: 24.4.3
+version: 25.6.2
 binaries: 
 provider: Trezor
 providerWebsite: https://trezor.io
@@ -17,8 +17,7 @@ icon: trezor.suite.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
-reviewArchive: 
+date: 2025-06-18
 twitter: trezor
 social: 
 features: 

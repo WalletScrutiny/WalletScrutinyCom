@@ -6,7 +6,7 @@ authors:
 released: 2024-06-06
 discontinued: 
 updated: 2025-04-12
-version: 2.0.18
+version: 2.0.19
 binaries: https://github.com/GingerPrivacy/GingerWallet/releases
 provider: GingerPrivacy
 providerWebsite: https://gingerwallet.io
@@ -17,8 +17,7 @@ icon: gingerwallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-22
-reviewArchive: 
+date: 2025-05-27
 twitter: 
 social:
 - https://t.me/gingerwallet

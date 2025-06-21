@@ -8,8 +8,8 @@ users: 100000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2025-04-15
-version: 2.5.6
+updated: 2025-05-16
+version: 2.5.7
 stars: 4
 ratings: 836
 reviews: 56
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-17
 signer: 
-reviewArchive: 
 twitter: BigONEexchange
 social:
 - https://www.facebook.com/exBigONE

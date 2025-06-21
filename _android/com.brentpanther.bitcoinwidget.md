@@ -7,11 +7,11 @@ users: 100000
 appId: com.brentpanther.bitcoinwidget
 appCountry: 
 released: 2013-03-11
-updated: 2025-03-21
-version: 8.6.5
-stars: 4.1
+updated: 2025-06-11
+version: 8.7.1
+stars: 4.2
 ratings: 2110
-reviews: 215
+reviews: 218
 website: http://www.brentpanther.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-03-05
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

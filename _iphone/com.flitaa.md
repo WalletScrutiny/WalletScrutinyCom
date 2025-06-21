@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: getflitaa
 social:
 - https://www.facebook.com/getflitaa

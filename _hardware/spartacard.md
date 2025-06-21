@@ -13,8 +13,7 @@ weight:
 provider: SpartaCard Pty.
 providerWebsite: 
 website: https://web.archive.org/web/20180625114658/https://www.spartacard.com/
-shop: >-
-  https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardware-wallet#/
+shop: https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardware-wallet#/
 country: AU
 price: 99USD
 repository: 
@@ -26,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: TheSpartaCard
 social:
 - https://www.linkedin.com/company/spartacard

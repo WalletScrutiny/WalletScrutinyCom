@@ -8,10 +8,10 @@ appId: za.co.Bitx
 appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2025-04-17
-version: 8.81.3
+updated: 2025-05-29
+version: 8.84.1
 stars: 4.2
-reviews: 3622
+reviews: 3630
 website: https://www.luno.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-05-12
 signer: 
-reviewArchive: 
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal

@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: HODLER_TECH
 social:
 - https://www.facebook.com/hodler.tech

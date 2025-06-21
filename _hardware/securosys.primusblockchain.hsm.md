@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-05-18
 signer: 
-reviewArchive: 
 twitter: securosys
 social:
 - https://www.linkedin.com/company/securosys/

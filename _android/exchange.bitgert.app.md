@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-11
 signer: 
-reviewArchive: 
 twitter: exchangebitgert
 social:
 - https://www.reddit.com/r/Bitgert

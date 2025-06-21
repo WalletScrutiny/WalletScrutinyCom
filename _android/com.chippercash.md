@@ -9,11 +9,11 @@ users: 5000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2025-04-10
-version: 1.125.1
+updated: 2025-06-18
+version: 1.126.1
 stars: 4.3
 ratings: 59630
-reviews: 3139
+reviews: 3164
 website: https://chippercash.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: chippercashapp
 social:
 - https://www.facebook.com/Chippercashapp

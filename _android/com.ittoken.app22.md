@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-08-07
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://im-token.farm

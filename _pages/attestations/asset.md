@@ -4,8 +4,6 @@ title: "Asset Information"
 permalink: /asset/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <h2 id="sha256title" style="text-align: center; margin-bottom: 2em;"></h2>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
@@ -22,17 +20,10 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="verificationModal">
-  <span id="closeModal">&times;</span>
-  <div id="verificationContent"></div>
-</div>
-
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
 
+  window.addEventListener('verificationsUILoaded', async () => {
     const urlParams = new URLSearchParams(window.location.search);
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     document.getElementById('sha256title').innerHTML = sha256;
@@ -65,5 +56,5 @@ permalink: /asset/
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';
-  })();
+  });
 </script>

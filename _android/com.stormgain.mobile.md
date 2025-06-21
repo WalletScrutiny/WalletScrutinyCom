@@ -10,9 +10,9 @@ appCountry: de
 released: 2019-07-08
 updated: 2024-08-07
 version: 1.52.1
-stars: 3.7
+stars: 3.6
 ratings: 114954
-reviews: 989
+reviews: 988
 website: https://stormgain.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-03-10
 signer: 
-reviewArchive: 
 twitter: StormGain_com
 social:
 - https://www.facebook.com/StormGain.official

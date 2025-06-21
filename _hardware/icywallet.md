@@ -16,8 +16,7 @@ website: https://web.archive.org/web/20180107060156/https://icywallet.com/
 shop: 
 country: US
 price: 
-repository: >-
-  https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
+repository: https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
 issue: 
 icon: icywallet.png
 bugbounty: 
@@ -26,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-27
 signer: 
-reviewArchive: 
 twitter: neatnikllc
 social: 
 features: 

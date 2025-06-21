@@ -1,15 +1,52 @@
 {% include base_path %}
 
+<script type="text/javascript" src="{{'/dist/dom_sanitization.bundle.min.js' | relative_url }}"></script>
+
+<script>
+  // Load verifications_data.bundle.min.js asynchronously and then
+  // trigger the verificationsDataLoaded event and load verifications_ui.bundle.min.js,
+  // which will trigger the verificationsUILoaded event.
+  const verificationsScript = document.createElement('script');
+
+  verificationsScript.onload = () => {
+    window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
+
+    (async function() {
+      await nostrConnect();
+
+      // If not on the home page, wait 1 second to let verifications load first
+      // If it's the home page, we want it as fast as possible
+      {% if page.url != "/" %}
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      {% endif %}
+
+      window.allAssetInformation = await getAllAssetInformation({months: 6});
+      window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      loadDraftVerificationsNotifications();
+    })();
+
+    // Load verifications_ui.bundle.min.js asynchronously and then trigger the verificationsUILoaded event
+    const verificationsUIScript = document.createElement('script');
+
+    verificationsUIScript.onload = () => {
+      window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    };
+
+    verificationsUIScript.src = '{{ base_path }}/dist/verifications_ui.bundle.min.js';
+    document.body.appendChild(verificationsUIScript);
+  };
+
+  verificationsScript.src = '{{ base_path }}/dist/verifications_data.bundle.min.js';
+  document.body.appendChild(verificationsScript);
+</script>
+
 <script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
-{% if page.layout contains "review" %}
-<script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-{% endif %}
+
 {% if page.url == "/" %}
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
+
 <script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
 <script>
   window.addEventListener('load', function() {
@@ -25,3 +62,7 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
 <script type="text/javascript" src="{{ base_path }}/dist/jquery.bundle.min.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
+<script type="text/javascript" defer src="{{ base_path }}/dist/font_awesome.bundle.min.js"></script>
+{% if page.layout contains "review" %}
+<script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+{% endif %}

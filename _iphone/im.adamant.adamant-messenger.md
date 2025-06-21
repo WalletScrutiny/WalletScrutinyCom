@@ -11,7 +11,7 @@ released: 2018-08-04
 updated: 2025-01-20
 version: 3.10.0
 stars: 4.9
-reviews: 17
+reviews: 18
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-iOS
 issue: 
@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-09-19
 signer: 
-reviewArchive: 
 twitter: adamant_im
 social:
 - https://vk.com/adamant_im

@@ -10,8 +10,8 @@ idd: 1440135740
 released: 2018-12-20
 updated: 2025-03-26
 version: 6.0.3
-stars: 4.1
-reviews: 80
+stars: 4.2
+reviews: 81
 website: https://kriptomat.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: kriptomat
 social:
 - https://www.linkedin.com/company/kriptomat

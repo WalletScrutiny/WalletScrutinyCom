@@ -8,10 +8,10 @@ appId: com.antiersolutions.Ancrypto
 appCountry: in
 idd: '1660898349'
 released: 2023-03-24
-updated: 2025-04-17
-version: '44'
+updated: 2025-06-09
+version: '47'
 stars: 4.5
-reviews: 19
+reviews: 20
 website: https://gemspocket.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: AnCryptoWallet
 social:
 - https://www.linkedin.com/company/ancrypto

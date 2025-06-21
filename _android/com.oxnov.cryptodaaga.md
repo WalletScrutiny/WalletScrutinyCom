@@ -12,7 +12,7 @@ updated: 2025-01-27
 version: 5.1.2
 stars: 4.6
 ratings: 
-reviews: 2
+reviews: 3
 website: 
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://cryptodaaga.com

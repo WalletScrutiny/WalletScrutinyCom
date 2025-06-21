@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: 'Satoshi Tango: Bitcoin - USDT'
+title: 'Satoshi Tango: Buy Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 100000
 appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 released: 2015-06-24
-updated: 2025-01-24
-version: 5.3.0
+updated: 2025-06-17
+version: 5.6.0
 stars: 3.8
 ratings: 5466
 reviews: 43
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-03
 signer: 
-reviewArchive: 
 twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina

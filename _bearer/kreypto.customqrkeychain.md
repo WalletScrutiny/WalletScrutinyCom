@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Kreypto
 providerWebsite: 
-website: >-
-  https://www.kickstarter.com/projects/899547039/kreypto-custom-qr-crypto-keychains/description
+website: https://www.kickstarter.com/projects/899547039/kreypto-custom-qr-crypto-keychains/description
 shop: 
 country: ES
 price: 
@@ -25,7 +24,6 @@ meta: ok
 verdict: vapor
 date: 2022-05-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

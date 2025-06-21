@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.centurion.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-06-09
 signer: 
-reviewArchive: 
 twitter: CENTURION_INVST
 social:
 - https://centurioninvest.com

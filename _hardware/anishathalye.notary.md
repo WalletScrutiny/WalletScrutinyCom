@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2024-10-18
 signer: 
-reviewArchive: 
 twitter: anishathalye
 social: 
 features: 

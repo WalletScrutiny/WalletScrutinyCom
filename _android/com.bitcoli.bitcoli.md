@@ -10,7 +10,7 @@ appCountry:
 released: 2023-01-13
 updated: 2024-10-09
 version: 1.2.1
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 7
 website: https://BitcoLi.com
@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-28
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Bitmain
 providerWebsite: https://bitmain.com
-website: >-
-  https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
+website: https://file12.bitmain.com/shop-product/firmware/SafePrime%20FAQs%2013102016.pdf
 shop: 
 country: CN
 price: 
@@ -26,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-04-06
 signer: 
-reviewArchive: 
 twitter: BITMAINtech
 social:
 - https://t.me/bitmain

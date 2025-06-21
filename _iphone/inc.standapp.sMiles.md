@@ -8,10 +8,10 @@ appId: inc.standapp.sMiles
 appCountry: us
 idd: 1492458803
 released: 2020-12-18
-updated: 2025-04-08
-version: '10.4'
+updated: 2025-06-16
+version: '10.8'
 stars: 4.5
-reviews: 4225
+reviews: 4308
 website: https://www.smilesbitcoin.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-04
 signer: 
-reviewArchive: 
 twitter: smilesbitcoin
 social:
 - https://www.facebook.com/smilesbitcoin

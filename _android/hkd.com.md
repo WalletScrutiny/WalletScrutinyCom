@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: HKD_exchange
 social:
 - https://www.facebook.com/hkdexchange/

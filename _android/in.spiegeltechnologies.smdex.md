@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-05
 signer: 
-reviewArchive: 
 twitter: SMDex_io
 social:
 - https://t.me/SMDEX

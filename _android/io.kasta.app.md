@@ -8,8 +8,8 @@ users: 10000
 appId: io.kasta.app
 appCountry: 
 released: 
-updated: 2024-11-05
-version: 2.0.0
+updated: 2025-05-28
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-03-02
 signer: 
-reviewArchive: 
 twitter: ka_app
 social:
 - https://t.me/kasta_app

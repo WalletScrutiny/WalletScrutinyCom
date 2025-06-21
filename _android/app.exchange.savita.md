@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: app.exchange.savita.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-08-15
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/savitaglobal

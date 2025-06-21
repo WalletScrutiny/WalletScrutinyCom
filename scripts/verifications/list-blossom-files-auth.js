@@ -165,22 +165,22 @@ async function listAllFiles() {
       
       // Extract important tags
       const tags = file.tags || [];
-      const sha256Tag = tags.find(tag => tag[0] === 'x');
-      const sizeTag = tags.find(tag => tag[0] === 'size');
-      const altTag = tags.find(tag => tag[0] === 'alt');
-      const expirationTag = tags.find(tag => tag[0] === 'expiration');
+      const sha256Tag = getFirstTagValue(file, 'x', 'unknown');
+      const sizeTag = getFirstTagValue(file, 'size');
+      const altTag = getFirstTagValue(file, 'alt');
+      const expirationTag = getFirstTagValue(file, 'expiration');
       
-      if (sha256Tag) console.log(`  SHA256: ${sha256Tag[1]}`);
-      if (sizeTag) console.log(`  Size: ${sizeTag[1]} bytes`);
-      if (altTag) console.log(`  Alt: ${altTag[1]}`);
+      if (sha256Tag) console.log(`  SHA256: ${sha256Tag}`);
+      if (sizeTag) console.log(`  Size: ${sizeTag} bytes`);
+      if (altTag) console.log(`  Alt: ${altTag}`);
       if (expirationTag) {
-        const expirationDate = new Date(parseInt(expirationTag[1]) * 1000);
+        const expirationDate = new Date(parseInt(expirationTag) * 1000);
         console.log(`  Expires: ${expirationDate.toLocaleString()}`);
       }
-      
+
       console.log(`  Content: ${file.content || 'No content'}`);
       console.log(`  Created: ${new Date(file.created_at * 1000).toLocaleString()}`);
-      console.log(`  URL: ${serverUrl}/${sha256Tag ? sha256Tag[1] : 'unknown'}`);
+      console.log(`  URL: ${serverUrl}/${sha256Tag}`);
     });
     
   } catch (error) {

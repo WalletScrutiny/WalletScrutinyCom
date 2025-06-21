@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Aibit: Buy Bitcoin & Crypto'
+title: 'Aibit: 425X Leverage, Max ROI'
 altTitle: 
 authors: 
 users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2025-04-18
-version: 4.8.8
+updated: 2025-06-06
+version: 4.9.6
 stars: 4.4
 ratings: 
 reviews: 4
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: aibitcom
 social:
 - https://www.aibit.com/

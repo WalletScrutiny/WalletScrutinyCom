@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitmex.app.android
 appCountry: 
 released: 
-updated: 2025-04-04
-version: 2.5.11
+updated: 2025-06-05
+version: 3.1.1
 stars: 3.2
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-29
 signer: 
-reviewArchive: 
 twitter: bitmex
 social:
 - https://www.reddit.com/r/BitMEX/

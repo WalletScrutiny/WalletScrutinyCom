@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.maskexnnew.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-07
+date: 2025-06-05
 signer: 
-reviewArchive: 
 twitter: MaskexGlobal
 social:
 - https://www.facebook.com/MaskEXGlobal/

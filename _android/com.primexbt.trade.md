@@ -4,15 +4,15 @@ title: PrimeXBT — Trading Platform
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.primexbt.trade
 appCountry: 
 released: 2022-02-10
-updated: 2025-04-15
-version: 4.16.2
-stars: 3.9
+updated: 2025-06-17
+version: 4.20.3
+stars: 4
 ratings: 
-reviews: 48
+reviews: 52
 website: https://primexbt.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-02
 signer: 
-reviewArchive: 
 twitter: primexbt
 social:
 - https://www.facebook.com/primexbt

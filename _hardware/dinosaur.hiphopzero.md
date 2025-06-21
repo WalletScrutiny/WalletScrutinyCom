@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Stellaw.info (@__gbg__)
 providerWebsite: https://stellaw.info
-website: >-
-  https://www.stellaw.info/blog/2016/3/5/dinosaur-hiphop-zero-alphaprototype-dev-kits-for-sale
+website: https://www.stellaw.info/blog/2016/3/5/dinosaur-hiphop-zero-alphaprototype-dev-kits-for-sale
 shop: 
 country: 
 price: 75USD
@@ -26,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-04-29
 signer: 
-reviewArchive: 
 twitter: __gbg__
 social: 
 features: 

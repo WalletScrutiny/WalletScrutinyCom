@@ -12,7 +12,7 @@ updated: 2024-12-18
 version: 2.4.3
 stars: 4.3
 ratings: 
-reviews: 40
+reviews: 39
 website: https://gridlock.network/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-12-08
 signer: 
-reviewArchive: 
 twitter: GridlockCrypto
 social:
 - https://www.facebook.com/GridlockNetwork

@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Nic Raboy
 providerWebsite: 
-website: >-
-  https://www.thepolyglotdeveloper.com/2018/03/create-bitcoin-hardware-wallet-golang-raspberry-pi-zero/
+website: https://www.thepolyglotdeveloper.com/2018/03/create-bitcoin-hardware-wallet-golang-raspberry-pi-zero/
 shop: 
 country: US
 price: 
@@ -26,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: nraboy
 social: 
 features: 

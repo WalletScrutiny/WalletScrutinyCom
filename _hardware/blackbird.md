@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: blackbirdwallet
 social:
 - https://www.facebook.com/blackbirdwallet

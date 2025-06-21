@@ -8,10 +8,10 @@ appId: xyz.ctrl.wallet
 appCountry: us
 idd: '6630386336'
 released: 2024-12-10
-updated: 2025-03-10
-version: 2.0.2
+updated: 2025-05-28
+version: 2.2.1
 stars: 5
-reviews: 6
+reviews: 7
 website: https://ctrl.xyz/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: ctrl_wallet
 social:
 - https://discord.gg/ctrlwallet

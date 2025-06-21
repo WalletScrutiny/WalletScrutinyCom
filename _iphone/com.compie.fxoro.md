@@ -8,8 +8,8 @@ appId: com.compie.fxoro
 appCountry: th
 idd: '1579042568'
 released: 2022-06-16
-updated: 2025-04-21
-version: 1.5.5
+updated: 2025-06-19
+version: 1.6.0
 stars: 0
 reviews: 0
 website: http://fxoro.com
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-08-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/people/FXORO-India/100087993320592

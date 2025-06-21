@@ -4,15 +4,15 @@ title: 'Coinbase: Buy BTC, ETH, SOL'
 altTitle: 
 authors:
 - leo
-users: 10000000
+users: 50000000
 appId: com.coinbase.android
 appCountry: 
 released: 2013-03-01
-updated: 2025-04-12
-version: 13.13.8
+updated: 2025-06-13
+version: 13.21.10
 stars: 4.5
 ratings: 666901
-reviews: 110003
+reviews: 111220
 website: https://coinbase.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-12
 signer: 
-reviewArchive: 
 twitter: coinbase
 social:
 - https://www.linkedin.com/company/coinbase

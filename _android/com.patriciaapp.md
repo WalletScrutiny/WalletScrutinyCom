@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: PatriciaSwitch
 social:
 - https://www.facebook.com/patricia.com.ng

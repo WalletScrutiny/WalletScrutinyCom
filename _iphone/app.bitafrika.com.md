@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-17
 signer: 
-reviewArchive: 
 twitter: _bitafrika
 social:
 - https://www.facebook.com/bitafrika

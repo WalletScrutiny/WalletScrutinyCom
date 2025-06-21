@@ -13,8 +13,7 @@ weight:
 provider: oderem0 - an eBay seller
 providerWebsite: 
 website: 
-shop: >-
-  https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true&si=wNIoKyvq8YnrTuLkYDBFxXzHl64%253D&orig_cvip=true&nordt=true&rt=nc&_trksid=p2047675.l2557
+shop: https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true&si=wNIoKyvq8YnrTuLkYDBFxXzHl64%253D&orig_cvip=true&nordt=true&rt=nc&_trksid=p2047675.l2557
 country: UK
 price: 3.69 GBP
 repository: 
@@ -26,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-11-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

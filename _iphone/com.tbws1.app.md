@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-25
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://theblackwallstreet.com

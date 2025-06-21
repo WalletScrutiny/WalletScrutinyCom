@@ -12,7 +12,7 @@ updated: 2023-11-22
 version: 23.11.1
 stars: 3.2
 ratings: 
-reviews: 116
+reviews: 118
 website: https://spedn.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-11-19
 signer: 
-reviewArchive: 
 twitter: FlexaHQ
 social:
 - https://www.facebook.com/flexa

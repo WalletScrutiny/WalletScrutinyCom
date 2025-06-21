@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-11-10
 signer: 
-reviewArchive: 
 twitter: Coinmena
 social:
 - https://www.linkedin.com/company/coinmena

@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinjar.riemann
 appCountry: au
 released: 2019-11-21
-updated: 2025-04-20
-version: 3.19.0
-stars: 4.6
+updated: 2025-06-11
+version: 3.26.0
+stars: 4.5
 ratings: 1248
-reviews: 1095
+reviews: 1104
 website: https://www.coinjar.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: getcoinjar
 social:
 - https://www.linkedin.com/company/coinjar

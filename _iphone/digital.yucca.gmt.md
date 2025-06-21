@@ -8,10 +8,10 @@ appId: digital.yucca.gmt
 appCountry: us
 idd: '1622100275'
 released: 2022-10-21
-updated: 2025-04-18
-version: 3.3.13
-stars: 4.3
-reviews: 3485
+updated: 2025-05-29
+version: 3.3.18
+stars: 4.5
+reviews: 5528
 website: https://gomining.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-07-24
 signer: 
-reviewArchive: 
 twitter: Gomining_token
 social:
 - https://t.me/gmt_token

@@ -8,10 +8,10 @@ appId: com.uniswap.mobile
 appCountry: us
 idd: '6443944476'
 released: 2023-04-12
-updated: 2025-04-14
-version: '1.49'
+updated: 2025-06-05
+version: 1.52.2
 stars: 4.8
-reviews: 15560
+reviews: 16427
 website: https://wallet.uniswap.org/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: uniswap
 social:
 - https://discord.com/invite/FCfyBSbCU5

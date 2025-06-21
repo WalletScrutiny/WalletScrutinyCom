@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-01-06
 signer: 
-reviewArchive: 
 twitter: instacryptoin
 social:
 - https://www.linkedin.com/company/instacryptoin

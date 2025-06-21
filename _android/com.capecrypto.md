@@ -8,8 +8,8 @@ users: 1000
 appId: com.capecrypto
 appCountry: 
 released: 2022-04-25
-updated: 2024-12-19
-version: 3.0.3
+updated: 2025-06-10
+version: 3.1.1
 stars: 3.3
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: capecryptoSA
 social:
 - https://www.linkedin.com/company/capecrypto

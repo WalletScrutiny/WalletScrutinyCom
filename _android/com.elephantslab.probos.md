@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.elephantslab.probos.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-09-20
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: probos_wallet
 social:
 - https://t.me/probos_info

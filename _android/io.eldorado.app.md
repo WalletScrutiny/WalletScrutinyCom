@@ -8,11 +8,11 @@ users: 1000000
 appId: io.eldorado.app
 appCountry: 
 released: 2022-04-19
-updated: 2025-04-09
-version: 1.3.1451
-stars: 4.8
+updated: 2025-06-18
+version: 1.3.1548
+stars: 4.6
 ratings: 
-reviews: 431
+reviews: 479
 website: https://eldorado.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: eldoradoio
 social:
 - https://www.linkedin.com/company/eldoradoio

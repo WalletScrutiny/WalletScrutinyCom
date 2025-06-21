@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: trade.bot.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

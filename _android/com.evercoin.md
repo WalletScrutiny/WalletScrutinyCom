@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: everc0in
 social:
 - https://www.facebook.com/evercoin

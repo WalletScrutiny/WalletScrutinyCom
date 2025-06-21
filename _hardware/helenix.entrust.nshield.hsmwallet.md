@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-18
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.linkedin.com/company/helenix/

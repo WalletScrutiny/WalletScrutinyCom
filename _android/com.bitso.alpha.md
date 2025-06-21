@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitso.alpha
 appCountry: GI
 released: 2021-09-28
-updated: 2024-12-04
-version: 1.32.0
+updated: 2025-06-17
+version: 1.33.5
 stars: 3.9
 ratings: 
-reviews: 554
+reviews: 560
 website: https://bitso.com/alpha/landing
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: Bitso
 social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668

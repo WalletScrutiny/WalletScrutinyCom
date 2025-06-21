@@ -24,7 +24,6 @@ meta: discontinued
 verdict: prefilled
 date: 2023-12-07
 signer: 
-reviewArchive: 
 twitter: denariumbitcoin
 social:
 - https://www.facebook.com/denariumbitcoin

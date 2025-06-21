@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: capital.spatium.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-02-18
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: spatium_news
 social:
 - https://www.linkedin.com/company/spatium-capital

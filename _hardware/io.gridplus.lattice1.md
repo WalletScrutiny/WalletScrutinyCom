@@ -25,7 +25,6 @@ verdict: nosource
 appHashes: 
 date: 2023-06-22
 signer: 
-reviewArchive: 
 twitter: gridplus
 social:
 - https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ

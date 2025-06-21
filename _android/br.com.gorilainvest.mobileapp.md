@@ -8,11 +8,11 @@ users: 100000
 appId: br.com.gorilainvest.mobileapp
 appCountry: 
 released: 2019-05-13
-updated: 2025-03-28
-version: 6.8.1
+updated: 2025-05-16
+version: 7.0.3
 stars: 4.4
 ratings: 
-reviews: 25
+reviews: 26
 website: https://gorila.com.br
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: gorilainvest
 social:
 - https://www.facebook.com/GorilaInvest

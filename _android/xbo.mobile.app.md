@@ -4,12 +4,12 @@ title: XBO.com - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: xbo.mobile.app
 appCountry: 
 released: 2022-09-24
-updated: 2025-04-15
-version: 2.5.0
+updated: 2025-06-12
+version: 2.9.1
 stars: 4.4
 ratings: 
 reviews: 16
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: XboOfficial
 social:
 - https://www.facebook.com/xbocom

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: finqcom
 social: 
 redirect_from: 

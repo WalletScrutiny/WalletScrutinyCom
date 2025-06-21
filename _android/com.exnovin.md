@@ -8,8 +8,8 @@ users: 100000
 appId: com.exnovin
 appCountry: 
 released: 2018-07-06
-updated: 2025-03-28
-version: 2.4.6
+updated: 2025-06-14
+version: 2.5.1
 stars: 3.9
 ratings: 2380
 reviews: 86
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: Exnovin_io
 social:
 - https://www.linkedin.com/company/exnovin

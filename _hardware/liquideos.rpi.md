@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: EOS
 providerWebsite: 
-website: >-
-  https://medium.com/@liquideos/how-to-build-an-eos-hardware-wallet-a-step-by-step-guide-a62445786c0f
+website: https://medium.com/@liquideos/how-to-build-an-eos-hardware-wallet-a-step-by-step-guide-a62445786c0f
 shop: 
 country: 
 price: 
@@ -26,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

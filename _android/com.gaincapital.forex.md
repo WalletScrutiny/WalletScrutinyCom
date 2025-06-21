@@ -8,11 +8,11 @@ users: 100000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11
-updated: 2025-04-09
-version: '1.214'
-stars: 3.8
+updated: 2025-04-25
+version: '1.217'
+stars: 3.7
 ratings: 392
-reviews: 26
+reviews: 27
 website: https://www.forex.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-16
 signer: 
-reviewArchive: 
 twitter: forexcom
 social:
 - https://www.facebook.com/FOREXcom

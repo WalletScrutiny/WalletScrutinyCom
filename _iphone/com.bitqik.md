@@ -8,8 +8,8 @@ appId: com.bitqik
 appCountry: jp
 idd: '1645041960'
 released: 2022-09-26
-updated: 2024-09-27
-version: 2.1.1
+updated: 2025-04-23
+version: 3.0.0
 stars: 5
 reviews: 1
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: bitqikofficial
 social:
 - https://www.facebook.com/bitqik

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: PumaPay
 social:
 - https://www.linkedin.com/company/decentralized-vision

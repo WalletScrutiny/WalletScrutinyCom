@@ -8,8 +8,8 @@ users: 10000
 appId: com.se.digital.brokerage.mobile
 appCountry: 
 released: 2021-12-08
-updated: 2025-04-08
-version: 2.16.0
+updated: 2025-05-07
+version: 2.16.2
 stars: 4.3
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-11
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/XSpringDigital

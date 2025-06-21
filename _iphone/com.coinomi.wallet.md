@@ -8,10 +8,10 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2025-04-21
-version: 1.50.5
+updated: 2025-06-18
+version: 1.60.1
 stars: 4.5
-reviews: 1953
+reviews: 1976
 website: https://www.coinomi.com/en/about/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-05
 signer: 
-reviewArchive: 
 twitter: CoinomiWallet
 social:
 - https://www.linkedin.com/company/coinomi

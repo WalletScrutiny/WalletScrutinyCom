@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.sapien.sapienwallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-03-11
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/SapienWallet

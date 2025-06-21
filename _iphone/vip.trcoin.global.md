@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-16
 signer: 
-reviewArchive: 
 twitter: CoinTRpro
 social:
 - https://www.cointr.pro

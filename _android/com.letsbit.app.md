@@ -8,9 +8,9 @@ users: 100000
 appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06
-updated: 2025-04-08
-version: v1.48.0
-stars: 2.8
+updated: 2025-06-10
+version: v1.51.0
+stars: 2.9
 ratings: 
 reviews: 17
 website: https://lbfinanzas.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-07
 signer: 
-reviewArchive: 
 twitter: LetsBit_ok
 social:
 - https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw

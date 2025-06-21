@@ -8,9 +8,9 @@ users: 10000
 appId: com.presto.presto
 appCountry: 
 released: 2022-04-21
-updated: 2025-04-12
-version: 2.5.6
-stars: 3.9
+updated: 2025-04-22
+version: 2.5.7
+stars: 4
 ratings: 
 reviews: 11
 website: https://prestohq.io/
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-29
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/prestohq.io

@@ -8,9 +8,9 @@ users: 500000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2025-04-14
-version: 4.2.04
-stars: 4.4
+updated: 2025-05-28
+version: 4.3.01
+stars: 4.5
 ratings: 22977
 reviews: 50
 website: https://reku.id
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-27
 signer: 
-reviewArchive: 
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com

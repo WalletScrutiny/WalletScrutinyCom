@@ -8,8 +8,8 @@ users: 500000
 appId: de.bisonapp
 appCountry: 
 released: 
-updated: 2025-04-11
-version: 4.10.0
+updated: 2025-06-16
+version: 4.13.2
 stars: 4.6
 ratings: 
 reviews: 3
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-05
 signer: 
-reviewArchive: 
 twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-02
 signer: 
-reviewArchive: 
 twitter: Suni_wallet
 social:
 - https://www.instagram.com/suni_wallet

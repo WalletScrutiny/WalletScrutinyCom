@@ -11,7 +11,7 @@ released: 2020-04-08
 updated: 2023-11-02
 version: 5.3.0
 stars: 2
-reviews: 51
+reviews: 53
 website: https://www.bibox.pro
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-28
 signer: 
-reviewArchive: 
 twitter: Bibox365
 social:
 - https://www.linkedin.com/company/biboxexchange

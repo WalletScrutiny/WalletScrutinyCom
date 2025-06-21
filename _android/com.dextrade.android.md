@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.dextrade.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-06
+date: 2025-06-03
 signer: 
-reviewArchive: 
 twitter: dextrade_
 social:
 - https://www.linkedin.com/company/dex-trade-exchange

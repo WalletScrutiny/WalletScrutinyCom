@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: network.wx.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2025-01-06
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: WXNetwork
 social:
 - https://waves.exchange

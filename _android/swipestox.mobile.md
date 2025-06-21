@@ -8,8 +8,8 @@ users: 500000
 appId: swipestox.mobile
 appCountry: gb
 released: 2015-10-20
-updated: 2025-04-07
-version: 8.0.400
+updated: 2025-06-13
+version: 8.0.414
 stars: 3.2
 ratings: 5636
 reviews: 200
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting

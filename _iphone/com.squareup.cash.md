@@ -8,10 +8,10 @@ appId: com.squareup.cash
 appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2025-04-21
-version: '4.96'
+updated: 2025-06-16
+version: '5.4'
 stars: 4.8
-reviews: 7435018
+reviews: 7597691
 website: https://cash.app
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-22
 signer: 
-reviewArchive: 
 twitter: cashapp
 social: 
 features: 

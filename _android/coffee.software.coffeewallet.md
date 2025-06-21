@@ -25,7 +25,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-07-03
 signer: 
-reviewArchive: 
 twitter: CoffeeWallet
 social:
 - https://www.reddit.com/r/CoffeeWallet/

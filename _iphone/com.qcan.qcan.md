@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.qcan.qcan.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-02-18
+date: 2025-06-03
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

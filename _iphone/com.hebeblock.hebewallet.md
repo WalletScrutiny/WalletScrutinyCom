@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2023-08-25
 signer: 
-reviewArchive: 
 twitter: BlockHebe
 social: 
 features: 

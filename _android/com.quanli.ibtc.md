@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/ibtcex

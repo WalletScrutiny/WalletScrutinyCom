@@ -25,7 +25,6 @@ verdict: diy
 appHashes: 
 date: 2024-10-22
 signer: 
-reviewArchive: 
 twitter: tulipan81
 social:
 - https://t.me/sfylwallet

@@ -11,7 +11,7 @@ released: 2021-08-30
 updated: 2025-04-01
 version: 5.4.7
 stars: 3.6
-reviews: 44
+reviews: 45
 website: https://www.mathwallet.org
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-01-05
 signer: 
-reviewArchive: 
 twitter: Mathwallet
 social:
 - https://discord.com/invite/gXSfnk5eP5

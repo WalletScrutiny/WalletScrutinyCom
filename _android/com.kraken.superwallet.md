@@ -8,22 +8,21 @@ users: 100000
 appId: com.kraken.superwallet
 appCountry: 
 released: 2024-04-11
-updated: 2025-03-26
-version: 1.18.1 (29)
+updated: 2025-06-17
+version: 1.19.0 (3)
 stars: 4.6
 ratings: 
-reviews: 65
+reviews: 78
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: https://github.com/krakenfx/wallet/discussions/59
 icon: com.kraken.superwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 appHashes: 
-date: 2025-02-04
+date: 2025-06-06
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx
@@ -45,8 +44,6 @@ Kraken Superwallet is a self-custodial cryptocurrency wallet designed for secure
 - Security Model – The wallet’s security architecture follows Kraken’s established security practices, including open-source code audits.
 - Dapp Integration – Features a built-in browser for interacting with decentralized applications (dapps) and monitoring DeFi positions.
 
-The wallet is source-available, with security audits ensuring code integrity and trustworthiness. It serves as a gateway to decentralized finance while maintaining strong security and privacy principles.
-
 ## Analysis
 
-This app is **for verification**
+The wallet is **source-available** and should be verified using Nostr verifications.

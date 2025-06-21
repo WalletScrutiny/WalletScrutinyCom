@@ -1,6 +1,6 @@
 ---
 wsId: Bitstamp
-title: 'Bitstamp: Buy and Sell Crypto'
+title: 'Bitstamp by Robinhood: Buy BTC'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: net.bitstamp.app
 appCountry: 
 released: 2019-01-29
-updated: 2025-04-16
-version: 4.5.2
+updated: 2025-05-30
+version: 4.6.1
 stars: 4.6
 ratings: 11088
-reviews: 644
+reviews: 650
 website: https://www.bitstamp.net
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp

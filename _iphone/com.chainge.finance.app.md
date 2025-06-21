@@ -11,7 +11,7 @@ released: 2021-08-04
 updated: 2024-10-14
 version: 0.8.3
 stars: 4
-reviews: 87
+reviews: 88
 website: https://www.chainge.finance/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-21
 signer: 
-reviewArchive: 
 twitter: FinanceChainge
 social:
 - https://www.linkedin.com/company/chainge-finance

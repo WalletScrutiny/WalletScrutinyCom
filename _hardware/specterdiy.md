@@ -28,7 +28,6 @@ verdict: diy
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: SpecterWallet
 social: 
 features: 

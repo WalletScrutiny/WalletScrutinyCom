@@ -8,11 +8,11 @@ users: 100000
 appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
-updated: 2025-04-09
-version: 8.6.0
-stars: 3.3
+updated: 2025-06-10
+version: 8.11.0
+stars: 3.4
 ratings: 
-reviews: 40
+reviews: 42
 website: https://www.swissquote.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-20
 signer: 
-reviewArchive: 
 twitter: Swissquote
 social:
 - https://www.linkedin.com/company/swissquote

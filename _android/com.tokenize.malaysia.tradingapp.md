@@ -24,7 +24,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-30
 signer: 
-reviewArchive: 
 twitter: TokenizeM
 social:
 - https://www.facebook.com/tokenizemalaysia

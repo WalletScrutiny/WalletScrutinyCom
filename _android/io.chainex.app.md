@@ -8,8 +8,8 @@ users: 10000
 appId: io.chainex.app
 appCountry: 
 released: 
-updated: 2025-04-10
-version: 2.1.28
+updated: 2025-05-26
+version: 2.1.31
 stars: 3.4
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: ChainEXIO
 social:
 - https://www.linkedin.com/company/chainexio

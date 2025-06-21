@@ -8,10 +8,10 @@ appId: com.deribit
 appCountry: in
 idd: '1293674041'
 released: 2017-11-17
-updated: 2025-04-20
-version: 3.14.0
+updated: 2025-06-16
+version: 3.16.1
 stars: 5
-reviews: 5
+reviews: 6
 website: http://www.deribit.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: deribitexchange
 social:
 - https://www.linkedin.com/company/deribit/

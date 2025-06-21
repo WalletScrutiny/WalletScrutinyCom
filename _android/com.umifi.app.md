@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-02-25
 signer: 
-reviewArchive: 
 twitter: officialumifi
 social: 
 redirect_from: 

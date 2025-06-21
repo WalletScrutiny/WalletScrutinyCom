@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: CoinbasePro
 social:
 - https://www.facebook.com/coinbase

@@ -25,7 +25,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-03-08
 signer: 
-reviewArchive: 
 twitter: zymbit
 social:
 - https://www.linkedin.com/company/zymbit

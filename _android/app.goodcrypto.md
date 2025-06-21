@@ -8,8 +8,8 @@ users: 100000
 appId: app.goodcrypto
 appCountry: 
 released: 2019-05-20
-updated: 2025-03-20
-version: 2.2.5
+updated: 2025-05-16
+version: 2.3.0
 stars: 4.2
 ratings: 1058
 reviews: 142
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-08-10
 signer: 
-reviewArchive: 
 twitter: GoodCryptoApp
 social:
 - https://www.linkedin.com/company/goodcrypto

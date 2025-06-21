@@ -11,7 +11,7 @@ released: 2022-01-27
 updated: 2023-02-07
 version: 1.5.3
 stars: 4.4
-reviews: 43
+reviews: 42
 website: https://ricewallet.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: RiceDeFiWallet
 social:
 - https://www.facebook.com/ricewallet.io

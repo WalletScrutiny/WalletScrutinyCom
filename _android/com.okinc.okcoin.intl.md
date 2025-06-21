@@ -12,18 +12,17 @@ updated: 2024-04-30
 version: 5.3.120
 stars: 3.3
 ratings: 4636
-reviews: 628
+reviews: 629
 website: http://www.okcoin.com
 repository: 
 issue: 
 icon: com.okinc.okcoin.intl.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-09-11
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: OKcoin
 social:
 - https://www.linkedin.com/company/okcoin

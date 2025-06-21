@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-22
 signer: 
-reviewArchive: 
 twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp/

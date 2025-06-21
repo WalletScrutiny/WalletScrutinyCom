@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: Bluenio
 providerWebsite: 
-website: >-
-  https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/posts
+website: https://www.kickstarter.com/projects/1459210729/nio-card-a-smart-card-which-upgrades-your-phone-an/posts
 shop: 
 country: UK
 price: 59.99 GBP
@@ -26,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-10
 signer: 
-reviewArchive: 
 twitter: bluenio
 social: 
 features: 

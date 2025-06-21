@@ -9,7 +9,7 @@ appId: com.mercuryo.app
 appCountry: 
 released: 2019-09-03
 updated: 2025-03-31
-version: 2.8.12
+version: 2.8.14
 stars: 4.3
 ratings: 2732
 reviews: 108
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-11-17
 signer: 
-reviewArchive: 
 twitter: Mercuryo_io
 social:
 - https://www.linkedin.com/company/mercuryo-io

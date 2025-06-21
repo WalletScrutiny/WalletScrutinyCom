@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: CryptoConfirmo
 social:
 - https://www.linkedin.com/company/confirmoltd

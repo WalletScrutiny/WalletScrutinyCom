@@ -68,7 +68,6 @@ layout: default
       </footer>
 
       {% if page.share %}
-        <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
         {% assign defaultMessage = page.title | markdownify | strip_html | strip %}
         <div class="social-share active" style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 10px;">{% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}</div>
       {% endif %}

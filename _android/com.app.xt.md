@@ -4,15 +4,15 @@ title: 'XT.com: Buy Bitcoin & Ethereum'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.app.xt
 appCountry: 
 released: 2021-04-14
-updated: 2025-04-21
-version: 4.89.0
+updated: 2025-06-17
+version: 5.1.5
 stars: 3.5
 ratings: 
-reviews: 205
+reviews: 211
 website: http://www.xt.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-31
 signer: 
-reviewArchive: 
 twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/

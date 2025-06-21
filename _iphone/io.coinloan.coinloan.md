@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: coin_loan
 social:
 - https://www.linkedin.com/company/coinloan

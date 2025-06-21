@@ -4,8 +4,6 @@ title: "Top Build Verifiers"
 permalink: /verifiers/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <style>
   table { 
     width: 100%;
@@ -93,12 +91,10 @@ permalink: /verifiers/
 
 <div id="attestatorsTable"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
 
+  window.addEventListener('verificationsUILoaded', async () => {
     const response = await getAllAssetInformation({});
 
     const attestatorInfo = new Map();
@@ -117,7 +113,7 @@ permalink: /verifiers/
 
         const endorsements = response.endorsements.get(verification.id) || [];
         const reproducibleEndorsements = endorsements.filter(endorsement =>
-          getFirstTag(endorsement, 'status') === 'reproducible'
+          getFirstTagValue(endorsement, 'status') === 'reproducible'
         ).length;
         pubkeyInfo.endorsements += reproducibleEndorsements;
 
@@ -179,5 +175,5 @@ permalink: /verifiers/
         console.error(`Error loading profile for ${pubkey}:`, error);
       }
     }
-  })();
+  });
 </script>

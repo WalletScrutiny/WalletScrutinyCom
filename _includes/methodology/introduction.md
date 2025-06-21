@@ -75,12 +75,11 @@ Verifications cannot be performed on all wallets continuously, and as this is a 
 
 When users contribute verifications, we recommend they follow these priorities:
 
-1. Verify new releases of {%
-   include verdictBadge.html verdict="reproducible" type='short' %}
+1. Verify new releases of {% include verdictBadge.html verdict="sourceavailable" type='short' %}
    wallets as they become available. If
    users opt for a wallet because it is reproducible, they **should be waiting for
    verification** of the new release before updating.
-1. Check if any of the {% include verdictBadge.html verdict="nonverifiable" type='short' %} wallets updated their issues on their
+1. Check if any of the {% include verdictBadge.html verdict="nosource" type='short' %} wallets updated their issues on their
    repositories.
 1. Verify the most relevant {% include verdictBadge.html verdict="wip" type='short' %} wallets
 

@@ -11,7 +11,7 @@ released: 2017-08-01
 updated: 2025-03-10
 version: '9.17'
 stars: 4.8
-reviews: 35166
+reviews: 35225
 website: https://www.hodl.mobi
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-06-24
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

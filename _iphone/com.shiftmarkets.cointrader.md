@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: shiftmarkets
 social:
 - https://www.linkedin.com/company/shiftmarkets

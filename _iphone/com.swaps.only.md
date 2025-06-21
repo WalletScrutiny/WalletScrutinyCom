@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.swaps.only.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-08-09
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: swapsapp_
 social:
 - https://www.swaps.app

@@ -1,6 +1,6 @@
 ---
 wsId: beloCrypto
-title: 'Belo: your financial passport'
+title: 'belo: your financial passport'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.belo.android
 appCountry: 
 released: 2021-08-23
-updated: 2025-04-09
-version: 5.2.17
+updated: 2025-06-10
+version: 6.7.0
 stars: 3.8
 ratings: 
 reviews: 65
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-30
 signer: 
-reviewArchive: 
 twitter: belo_app
 social:
 - https://www.linkedin.com/company/belo-app

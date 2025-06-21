@@ -4,15 +4,15 @@ title: 'MEXC: Buy Bitcoin BTC & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000000
+users: 10000000
 appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
-updated: 2025-04-08
+updated: 2025-06-16
 version: VARY
-stars: 4.8
+stars: 4.6
 ratings: 12371
-reviews: 1229
+reviews: 1456
 website: https://www.mexc.com
 repository: 
 issue: 
@@ -23,14 +23,13 @@ verdict: custodial
 appHashes: 
 date: 2021-08-21
 signer: 
-reviewArchive: 
 twitter: MEXC_Global
 social:
 - https://www.linkedin.com/company/mexcglobal
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
-developerName: MEXC
+developerName: MEXC Ltd
 features: 
 
 ---

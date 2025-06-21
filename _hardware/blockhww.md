@@ -22,14 +22,12 @@ price: 150USD
 repository: https://github.com/proto-at-block/bitkey
 issue: 
 icon: blockhww.png
-bugbounty: >-
-  https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
+bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita
 appHashes: 
 date: 2024-03-14
 signer: 
-reviewArchive: 
 twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official

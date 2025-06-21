@@ -9,8 +9,8 @@ users: 500000
 appId: coin98.crypto.finance.media
 appCountry: us
 released: 2019-12-19
-updated: 2025-04-09
-version: 15.10.1
+updated: 2025-06-06
+version: 16.0.0
 stars: 4.2
 ratings: 18096
 reviews: 262
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-15
 signer: 
-reviewArchive: 
 twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet

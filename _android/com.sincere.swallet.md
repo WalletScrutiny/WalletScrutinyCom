@@ -12,7 +12,7 @@ updated: 2023-04-21
 version: 2.6.0
 stars: 4.4
 ratings: 
-reviews: 27
+reviews: 28
 website: https://s-wallet.ai
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-11
 signer: 
-reviewArchive: 
 twitter: SWallet_ai
 social:
 - https://www.facebook.com/SWallet.en

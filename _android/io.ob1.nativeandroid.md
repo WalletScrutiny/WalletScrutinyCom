@@ -22,12 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2021-01-23
 signer: 
-reviewArchive:
-- date: 2020-08-04
-  version: ''
-  appHashes: 
-  gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
-  verdict: nosource
 twitter: HavenPrivacy
 social:
 - https://www.reddit.com/r/havenapp

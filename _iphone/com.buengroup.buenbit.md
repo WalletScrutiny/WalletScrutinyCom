@@ -8,8 +8,8 @@ appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
 released: 2021-11-23
-updated: 2025-04-21
-version: 3.32.0
+updated: 2025-06-09
+version: 3.35.0
 stars: 4.9
 reviews: 16
 website: https://www.buenbit.com/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: FUNtoken_io
 social:
 - https://xfun.io

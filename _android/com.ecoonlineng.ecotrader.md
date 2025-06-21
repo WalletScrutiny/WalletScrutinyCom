@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-13
 updated: 2024-05-12
 version: 4.9.1
-stars: 3.9
+stars: 3.7
 ratings: 
 reviews: 16
 website: https://programmerscourt.com
@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-03-30
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://ecoonlineng.com/

@@ -11,7 +11,7 @@ released: 2019-09-30
 updated: 2024-10-01
 version: 6.3.9
 stars: 4.5
-reviews: 223
+reviews: 224
 website: https://monnos.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: monnosGlobal
 social:
 - https://www.linkedin.com/company/monnosglobal

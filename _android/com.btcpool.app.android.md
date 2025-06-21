@@ -12,7 +12,7 @@ updated: 2025-03-14
 version: 2.4.5
 stars: 4
 ratings: 261
-reviews: 28
+reviews: 29
 website: https://cloverpool.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-09-25
 signer: 
-reviewArchive: 
 twitter: btccom_official
 social:
 - https://www.linkedin.com/company/btc.com

@@ -8,11 +8,11 @@ users: 1000000
 appId: app.simple.com
 appCountry: 
 released: 2023-04-24
-updated: 2025-04-16
-version: 3.8.2
+updated: 2025-06-17
+version: 3.9.5
 stars: 4.7
 ratings: 
-reviews: 1772
+reviews: 1808
 website: https://simple.app/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-13
 signer: 
-reviewArchive: 
 twitter: smpl_app
 social:
 - https://t.me/smpl_app

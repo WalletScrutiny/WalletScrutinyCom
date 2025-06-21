@@ -8,8 +8,8 @@ appId: com.trading.iqoption
 appCountry: gb
 idd: '871125783'
 released: 2014-05-15
-updated: 2025-02-13
-version: '4.74'
+updated: 2025-06-02
+version: '4.77'
 stars: 3.8
 reviews: 1253
 website: http://eu.iqoption.com
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-09-02
 signer: 
-reviewArchive: 
 twitter: IQOption
 social:
 - https://www.instagram.com/iqoption_official

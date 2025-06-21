@@ -4,15 +4,15 @@ title: 'Bitkub: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2025-04-10
-version: 3.56.0
+updated: 2025-06-13
+version: 3.62.0
 stars: 4.1
 ratings: 18826
-reviews: 43
+reviews: 42
 website: http://www.bitkub.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-04
 signer: 
-reviewArchive: 
 twitter: bitkubofficial
 social:
 - https://www.linkedin.com/company/bitkub

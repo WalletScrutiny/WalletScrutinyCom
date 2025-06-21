@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: bobablocks
 social:
 - https://www.instagram.com/bobablocks.io

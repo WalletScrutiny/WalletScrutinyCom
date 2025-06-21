@@ -11,7 +11,7 @@ released: 2018-12-10
 updated: 2025-03-28
 version: 1.5.2
 stars: 4.4
-reviews: 14440
+reviews: 14501
 website: https://cheeese.monex.co.jp/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-07-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

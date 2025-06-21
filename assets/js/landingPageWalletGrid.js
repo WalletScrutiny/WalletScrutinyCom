@@ -6,11 +6,6 @@ window.verdictCount = {};
 let isInitializing = true;
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } };
 
-window.addEventListener('allWalletsLoaded', () => {
-  isInitializing = false;
-  updateWalletGridInputOriginatingFromURL();
-});
-
 for (const [key, value] of Object.entries(wfInputTargets)) {
   if (value.type === 'dropdown') {
     addDropdownEvents(key, () => { 
@@ -74,7 +69,14 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
   for (let i = 0; i < paginationLimit; i++) {
     const numb = (page * paginationLimit) + i;
     const wallet = workingArray[numb];
+
     if (!wallet) { break }
+
+    let lastVerificationStatus = null;
+    if (window.allAssetInformation) {
+      lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
+    }
+
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
     const icon = getIcon(wallet.folder);
     const delay = (i + 1) * 80;
@@ -100,6 +102,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
         </div>
         ${wallet.score
           ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
+            ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<span>❓ Not verified yet</span>') : ''}
             <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
             <div>${passed}${failed}</div>
           </div>`
@@ -166,7 +169,9 @@ function generateAndAppendPagination(workingArray, pageNo) {
     const index = allowedTargets.indexOf(i) + 1;
     const clickTarget = document.createElement("div");
     clickTarget.classList.add("click-target");
-    clickTarget.innerHTML = i + 1;
+    
+    let content = `${i + 1}`; // Initialize content with page number
+
     clickTarget.setAttribute("data-index", i);
     if (i == page) { clickTarget.classList.add("selected"); }
 
@@ -175,9 +180,15 @@ function generateAndAppendPagination(workingArray, pageNo) {
         clickTarget.classList.add("major-gap");
         additionalGapSet = true;
       }
-      if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) { clickTarget.classList.add("chevrons-after"); }
-      if (!allowedTargets[index - 1] && page > (index + 3)) { clickTarget.classList.add("chevrons-before"); }
 
+      if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) {
+        content += `&nbsp;<i class="fa-solid fa-angles-right"></i>`;
+      }
+      if (!allowedTargets[index - 1] && page > (index + 3)) {
+        content = `<i class="fa-solid fa-angles-left"></i>&nbsp;` + content;
+      }
+      
+      clickTarget.innerHTML = content; // Set the final content
 
       if ((allowedTargets[i] + 1 !== allowedTargets[i + 1]) && !primaryGapSet) {
         clickTarget.classList.add("major-gap");
@@ -339,6 +350,11 @@ document.querySelector(".query-string").addEventListener("input", () => {
     window.history.pushState('data', null, `/?platform=${platform}&page=0&query-string=${queryRaw}`);
     updateWalletGridInputOriginatingFromURL();
   }, 500);
+});
+
+window.addEventListener('allAssetInformationLoaded', () => {
+  isInitializing = false;
+  updateWalletGridInputOriginatingFromURL();
 });
 
 window.addEventListener("allWalletsLoaded", () => {

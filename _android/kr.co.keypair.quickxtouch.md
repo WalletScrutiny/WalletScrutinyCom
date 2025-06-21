@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2022-03-07
 signer: 
-reviewArchive: 
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx

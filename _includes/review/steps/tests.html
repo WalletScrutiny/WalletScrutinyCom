@@ -3,7 +3,9 @@
 {% assign failPoint = 0 %}
 
 <div class="step methodology">
-  <i class="fas fa-vial circle"></i>
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-vial" style="z-index: 2; font-size: 20px;"></i>
+  </i>
   <div class="title">
     {% if count == criteria.size %}
       {% assign numerator = 'all' %}

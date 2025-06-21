@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exchanger101
+title: Exchanger101:Coins,Giftcard,Da
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.exchanger101.app
 appCountry: 
 released: 2021-09-30
-updated: 2025-01-17
-version: 1.22.7
+updated: 2025-06-19
+version: 1.45.20
 stars: 4.3
 ratings: 
 reviews: 7
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-05-24
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -23,11 +23,9 @@ verdict: fewusers
 appHashes: 
 date: 2024-04-19
 signer: 
-reviewArchive: 
 twitter: noidcards
 social:
-- >-
-  https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
+- https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 redirect_from: 
 developerName: noID.cards
 features: 

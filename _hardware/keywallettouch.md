@@ -29,7 +29,6 @@ verdict: noita
 appHashes: 
 date: 2023-02-07
 signer: 
-reviewArchive: 
 twitter: keywallet
 social:
 - https://www.youtube.com/channel/UCpw_1bcmnaI-TIHZP5hXXww/videos

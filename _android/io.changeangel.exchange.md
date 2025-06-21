@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: io.changeangel.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-03-07
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -6,7 +6,7 @@ authors:
 released: 2020-05-21
 discontinued: 
 updated: 2024-04-22
-version: 2.0.4
+version: 2.0.25
 binaries: 
 provider: Blockstream
 providerWebsite: https://blockstream.com/
@@ -17,8 +17,7 @@ icon: blockstreamgreen.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
-reviewArchive: 
+date: 2025-04-24
 twitter: Blockstream
 social: 
 features: 

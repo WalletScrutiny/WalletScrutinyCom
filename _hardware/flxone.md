@@ -17,8 +17,7 @@ weight: 15
 provider: FLX Partnership Limited
 providerWebsite: https://flxwallet.com/
 website: https://flxwallet.com/specifications.html
-shop: >-
-  https://www.amazon.com/FLX-One-Simple-use-Cryptocurrency/dp/B07JHMDV9X/ref=sr_1_2?ie=UTF8&qid=1540514793&sr=8-2&keywords=flx+wallet
+shop: https://www.amazon.com/FLX-One-Simple-use-Cryptocurrency/dp/B07JHMDV9X/ref=sr_1_2?ie=UTF8&qid=1540514793&sr=8-2&keywords=flx+wallet
 country: US
 price: 69.99USD
 repository: 
@@ -30,7 +29,6 @@ verdict: wip
 appHashes: 
 date: 2021-12-08
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

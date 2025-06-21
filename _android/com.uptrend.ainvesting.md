@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-06-07
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://ainvesting.eu

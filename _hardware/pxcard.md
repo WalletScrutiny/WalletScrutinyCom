@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2024-10-22
 signer: 
-reviewArchive: 
 twitter: pxcard_official
 social:
 - https://www.youtube.com/channel/UCYsNryvy53XR1UYVKmyHR0g

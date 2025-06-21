@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-04-28
 signer: 
-reviewArchive: 
 twitter: CoincastApp
 social:
 - https://www.facebook.com/coincastcrypto/

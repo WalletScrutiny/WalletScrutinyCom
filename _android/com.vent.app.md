@@ -1,6 +1,6 @@
 ---
 wsId: ventAfrica
-title: Vent Africa - Crypto to Cash
+title: 'Vent: Sell BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.vent.app
 appCountry: 
 released: 2022-01-26
-updated: 2025-03-16
-version: 1.10.13
+updated: 2025-05-29
+version: 1.10.16
 stars: 4.7
 ratings: 
 reviews: 6
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-10
 signer: 
-reviewArchive: 
 twitter: ventafricaHQ
 social:
 - https://t.me/ventafrica

@@ -8,8 +8,8 @@ users: 1000000
 appId: com.mudrexmobile
 appCountry: 
 released: 
-updated: 2025-04-17
-version: '12.32'
+updated: 2025-06-16
+version: '12.39'
 stars: 3.3
 ratings: 
 reviews: 4
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: officialmudrex
 social:
 - https://www.linkedin.com/company/mudrex

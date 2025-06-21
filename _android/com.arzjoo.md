@@ -12,7 +12,7 @@ updated: 2024-12-31
 version: 3.2.3
 stars: 3.9
 ratings: 3741
-reviews: 84
+reviews: 82
 website: https://sarmayex.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: arzjoo
 social: 
 redirect_from:

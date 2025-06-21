@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: moonstake
 social:
 - https://www.linkedin.com/company/moonstake

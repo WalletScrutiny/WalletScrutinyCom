@@ -10,9 +10,9 @@ appCountry: gb
 released: 2019-04-09
 updated: 2025-03-31
 version: 2.24.4
-stars: 2.8
+stars: 2.6
 ratings: 884
-reviews: 9
+reviews: 10
 website: https://www.bitsacard.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-11-02
 signer: 
-reviewArchive: 
 twitter: bitsa_oficial
 social:
 - https://www.linkedin.com/company/bitsacard

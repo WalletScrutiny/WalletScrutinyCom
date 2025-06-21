@@ -8,10 +8,10 @@ appId: com.sticpay.app
 appCountry: us
 idd: 1274956968
 released: 2017-09-05
-updated: 2025-01-07
-version: '3.88'
-stars: 4.4
-reviews: 24
+updated: 2025-05-09
+version: '3.89'
+stars: 4.3
+reviews: 26
 website: https://www.sticpay.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-01
 signer: 
-reviewArchive: 
 twitter: SticPay
 social:
 - https://www.linkedin.com/company/sticpay

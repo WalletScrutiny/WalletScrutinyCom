@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-13
 signer: 
-reviewArchive: 
 twitter: EasyBit_com
 social:
 - https://www.instagram.com/EasyBit_com

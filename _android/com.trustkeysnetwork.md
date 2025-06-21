@@ -12,7 +12,7 @@ updated: 2024-10-22
 version: 2.4.3
 stars: 4.7
 ratings: 583
-reviews: 24
+reviews: 25
 website: https://trustkeys.network
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-16
 signer: 
-reviewArchive: 
 twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network

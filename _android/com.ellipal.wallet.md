@@ -1,6 +1,6 @@
 ---
 wsId: ELLIPAL
-title: 'ELLIPAL: Crypto Bitcoin Wallet'
+title: 'ELLIPAL: Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 100000
 appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02
-updated: 2025-03-26
-version: 4.6.1
-stars: 4
+updated: 2025-05-19
+version: 4.7.3
+stars: 3.9
 ratings: 933
-reviews: 512
+reviews: 523
 website: http://www.ellipal.com
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub

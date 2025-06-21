@@ -1,32 +1,23 @@
-2025-04-09:
-- _android/com.oslmobile
-- _android/com.trastra.mobile
-- _android/one.citadel.mobile
-- _android/ua.money.storage.moneystorage
-- _iphone/com.defexa.CryptoWallet-Defexa
-- _iphone/io.stormx.ios
-2025-04-10:
-- _android/com.blockin.google
-- _android/com.nova.dax
-2025-04-14:
-- _android/com.merseyside.cripto
-- _iphone/app.simple.com
-- _iphone/io.nanovest
-2025-04-15:
-- _iphone/app.ctmwallet
-- _android/com.scc.UniteGlobal
-- _android/com.zinary.apps
-- _android/kr.co.newlinkcorp.cashierest
-2025-04-22:
-- _android/app.ctmwallet
-- _android/com.koinbasket.mobile
-- _android/com.swerri.io
-- _android/com.ttmbank.wallet.app
-- _iphone/capital.spatium.wallet
-- _iphone/com.mymetapay.MyMetaPay
-- _iphone/com.sapien.sapienwallet
-- _iphone/com.technoloader.ttg
-- _iphone/io.cryptex24.mobile
-- _iphone/net.coinpayments.coinpaymentsapp
-- _iphone/org.coinid
-- _iphone/org.coinid.wallet.btc
+2025-06-06:
+- _android/com.Android.Inc.bitwallet
+- _iphone/com.uxuy
+- _iphone/io.eldorado.app.v1
+- _iphone/ru.trustpool.wallet
+2025-06-09:
+- _android/com.velas.mobile_wallet
+- _android/org.orinocodev.orinoco.io
+2025-06-11:
+- _android/com.ninja.ninjapay.me
+- _iphone/com.eqifi.management.Eqifi
+2025-06-18:
+- _android/com.eliminatum.app
+- _android/com.mobile.stablehouse.env.stablehouse.io
+- _android/com.rinnas.aj_global
+- _android/com.vcoin.wallet
+- _iphone/com.bancryp.bancrypApp
+- _iphone/com.blocktrade.ios
+2025-06-20:
+- _android/io.lisk.mobile
+- _iphone/com.rinnas.ajGlobal
+- _iphone/com.tabtrader.apps.TabTrader
+- _iphone/io.eligma.btcwallet

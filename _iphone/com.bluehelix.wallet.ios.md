@@ -24,7 +24,6 @@ verdict: wip
 appHashes: 
 date: 2022-10-21
 signer: 
-reviewArchive: 
 twitter: BHEXOfficial
 social: 
 features: 

@@ -16,8 +16,7 @@ weight: 350
 provider: Franck Muller
 providerWebsite: https://www.franckmuller.com/
 website: https://franckmullerencrypto.com/
-shop: >-
-  https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
+shop: https://franckmullerencrypto.com/product/franck-muller-41mm-free-the-money-free-the-world/
 country: 
 price: 12000CHF
 repository: 
@@ -29,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-04-04
 signer: 
-reviewArchive: 
 twitter: FranckMullerBTC
 social:
 - https://www.instagram.com/franckmuller_encrypto/

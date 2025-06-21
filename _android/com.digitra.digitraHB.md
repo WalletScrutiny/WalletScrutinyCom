@@ -8,8 +8,8 @@ users: 100000
 appId: com.digitra.digitraHB
 appCountry: 
 released: 2022-03-05
-updated: 2025-04-08
-version: 1.0.146
+updated: 2025-06-12
+version: 1.0.153
 stars: 4.3
 ratings: 
 reviews: 10
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-07-31
 signer: 
-reviewArchive: 
 twitter: Digitra_com
 social:
 - https://www.facebook.com/DigitraGlobal/

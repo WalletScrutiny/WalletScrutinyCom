@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: 3commas_io
 social:
 - https://www.facebook.com/3Commas.io

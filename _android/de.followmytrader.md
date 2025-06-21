@@ -8,8 +8,8 @@ users: 10000
 appId: de.followmytrader
 appCountry: 
 released: 2020-03-09
-updated: 2025-04-10
-version: 3.4.1
+updated: 2025-05-29
+version: 3.5.0
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-04-13
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/FollowMyMoneyOfficial

@@ -22,7 +22,6 @@ verdict: obfuscated
 appHashes: 
 date: 2024-04-26
 signer: 
-reviewArchive: 
 twitter: MFC_tech
 social:
 - https://www.linkedin.com/company/groups/13539593

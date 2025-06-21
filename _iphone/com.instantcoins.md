@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-02-16
 signer: 
-reviewArchive: 
 twitter: instantcoins_ng
 social:
 - https://www.facebook.com/instantcoins

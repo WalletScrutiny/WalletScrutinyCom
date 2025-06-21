@@ -11,18 +11,17 @@ released: 2019-02-09
 updated: 2024-11-30
 version: 4.5.0
 stars: 4.7
-reviews: 569
+reviews: 565
 website: 
 repository: 
 issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-15
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: bitwalletinc
 social:
 - https://www.facebook.com/BitWalletInc

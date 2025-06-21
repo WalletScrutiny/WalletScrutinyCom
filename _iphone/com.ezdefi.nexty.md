@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: ezDeFi
 social:
 - https://www.facebook.com/ezdefi

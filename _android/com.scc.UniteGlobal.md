@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.scc.UniteGlobal.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-02
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

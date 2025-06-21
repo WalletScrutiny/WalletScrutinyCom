@@ -12,8 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: >-
-  https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description
+website: https://www.kickstarter.com/projects/blackcard/black-card-online-privacy-simplified/description
 shop: 
 country: US
 price: 
@@ -26,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-05-10
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

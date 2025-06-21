@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: IQTrader_io
 social:
 - https://www.instagram.com/iqtraderofficial/

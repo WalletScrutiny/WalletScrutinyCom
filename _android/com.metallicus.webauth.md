@@ -8,11 +8,11 @@ users: 50000
 appId: com.metallicus.webauth
 appCountry: 
 released: 2021-12-11
-updated: 2025-03-28
-version: 2.1.27
-stars: 4.3
+updated: 2025-04-29
+version: 2.1.30
+stars: 4.1
 ratings: 
-reviews: 66
+reviews: 69
 website: https://webauth.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: protonxpr
 social:
 - https://www.facebook.com/protonxpr

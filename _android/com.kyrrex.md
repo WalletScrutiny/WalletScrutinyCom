@@ -8,8 +8,8 @@ users: 5000
 appId: com.kyrrex
 appCountry: 
 released: 
-updated: 2025-04-09
-version: 4.2.48
+updated: 2025-05-30
+version: production/v4.2.54
 stars: 4.3
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-11
 signer: 
-reviewArchive: 
 twitter: Kyrrexcom
 social:
 - https://www.linkedin.com/company/kyrrex

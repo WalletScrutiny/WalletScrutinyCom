@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-12-23
 signer: 
-reviewArchive: 
 twitter: holduz_io
 social:
 - https://t.me/holduz_io

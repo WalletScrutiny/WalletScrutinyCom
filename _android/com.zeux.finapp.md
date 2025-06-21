@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-04
 signer: 
-reviewArchive: 
 twitter: ZeuxApp
 social:
 - https://www.linkedin.com/company/zeux

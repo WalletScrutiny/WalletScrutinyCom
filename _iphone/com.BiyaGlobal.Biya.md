@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: BiyaPay-汇款美股港股投资行情
+title: BiyaPay
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.BiyaGlobal.Biya
 appCountry: sn
 idd: '1546702297'
 released: 2021-02-09
-updated: 2025-04-03
-version: 2.8.650
+updated: 2025-06-19
+version: 2.8.680
 stars: 0
 reviews: 0
 website: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.biyagl.com

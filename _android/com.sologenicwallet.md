@@ -11,18 +11,17 @@ updated: 2024-05-29
 version: 3.0.13
 stars: 4.2
 ratings: 3701
-reviews: 156
+reviews: 157
 website: https://www.sologenic.com/
 repository: 
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2020-06-20
+date: 2025-05-26
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from:

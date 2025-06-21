@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.blockin.google.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2021-09-15
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: officialpoolin
 social:
 - https://www.linkedin.com/company/poolin

@@ -16,10 +16,8 @@ dimensions:
 weight: 62
 provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: >-
-  https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
-shop: >-
-  https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
+website: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
+shop: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobile-user/
 country: TW
 price: 119USD
 repository: https://github.com/secuxtech/SecuXMCU
@@ -31,7 +29,6 @@ verdict: nosource
 appHashes: 
 date: 2024-11-01
 signer: 
-reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

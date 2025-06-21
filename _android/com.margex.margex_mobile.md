@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.margex.margex_mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-08
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: margexcom
 social:
 - https://www.facebook.com/margexcom

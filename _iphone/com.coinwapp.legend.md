@@ -8,10 +8,10 @@ appId: com.coinwapp.legend
 appCountry: us
 idd: '1494077068'
 released: 2020-01-14
-updated: 2025-04-18
-version: 10.0.30
-stars: 4.1
-reviews: 37
+updated: 2025-06-11
+version: 10.0.40
+stars: 3.9
+reviews: 39
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-07
 signer: 
-reviewArchive: 
 twitter: CoinWOfficial
 social:
 - https://www.coinw.com

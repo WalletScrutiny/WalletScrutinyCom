@@ -4,15 +4,15 @@ title: 'Best: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bestwallet.mobile
 appCountry: 
 released: 2023-07-24
-updated: 2025-04-08
-version: 2.6.3
-stars: 4.4
+updated: 2025-05-30
+version: 2.8.1
+stars: 4.2
 ratings: 
-reviews: 623
+reviews: 681
 website: https://www.bestwallet.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-08-30
 signer: 
-reviewArchive: 
 twitter: bestwallethq
 social:
 - https://t.me/Best_Wallet_Announcements

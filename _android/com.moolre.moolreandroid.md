@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-30
 signer: 
-reviewArchive: 
 twitter: moolrehq
 social:
 - https://www.instagram.com/moolrehq

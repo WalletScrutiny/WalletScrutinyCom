@@ -13,8 +13,7 @@ weight:
 provider: BitCube
 providerWebsite: 
 website: https://www.bitcubewallet.com/
-shop: >-
-  https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
+shop: https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
 country: CN
 price: 
 repository: 
@@ -26,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2022-04-11
 signer: 
-reviewArchive: 
 twitter: BitCubeWallet
 social:
 - https://www.facebook.com/bitcubewallet

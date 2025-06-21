@@ -12,7 +12,7 @@ updated: 2024-09-23
 version: 1.0.0
 stars: 4.7
 ratings: 
-reviews: 80
+reviews: 82
 website: https://cash-in.app
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: cashin_app
 social:
 - https://www.facebook.com/Cashin.app1

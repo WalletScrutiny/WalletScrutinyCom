@@ -8,10 +8,10 @@ appId: com.wirex
 appCountry: us
 idd: 1090004654
 released: 2016-03-22
-updated: 2025-04-17
-version: 4.9.0
+updated: 2025-06-06
+version: 4.10.2
 stars: 3.7
-reviews: 775
+reviews: 794
 website: https://wirexapp.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-10
 signer: 
-reviewArchive: 
 twitter: wirexapp
 social:
 - https://www.linkedin.com/company/wirex-limited

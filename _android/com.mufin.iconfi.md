@@ -23,11 +23,10 @@ verdict: custodial
 appHashes: 
 date: 2024-12-31
 signer: 
-reviewArchive: 
 twitter: ICONFiWorld
 social: 
 redirect_from: 
-developerName: UFI PTE. LTD.
+developerName: GROW3
 features: 
 
 ---

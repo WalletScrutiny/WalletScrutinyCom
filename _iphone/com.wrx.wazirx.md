@@ -7,10 +7,10 @@ appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2025-03-05
-version: '2.4'
+updated: 2025-05-08
+version: '2.5'
 stars: 4.2
-reviews: 53081
+reviews: 53141
 website: https://wazirx.com
 repository: 
 issue: 
@@ -21,7 +21,6 @@ verdict: custodial
 appHashes: 
 date: 2021-08-09
 signer: 
-reviewArchive: 
 twitter: WazirxIndia
 social:
 - https://www.linkedin.com/company/wazirx

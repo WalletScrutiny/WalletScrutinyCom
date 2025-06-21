@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2023-08-31
 version: 1.71.1
 stars: 4.6
-reviews: 111
+reviews: 112
 website: https://ownrwallet.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-08-26
 signer: 
-reviewArchive: 
 twitter: ownrwallet
 social:
 - https://www.facebook.com/ownrwallet

@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.funex.coin.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-17
+date: 2025-06-20
 signer: 
-reviewArchive: 
 twitter: Funexclub
 social:
 - https://funexcoin.com

@@ -18,7 +18,6 @@ bugbounty:
 meta: obsolete
 verdict: sourceavailable
 date: 2025-04-07
-reviewArchive: 
 twitter: openbazaar
 social: 
 features: 

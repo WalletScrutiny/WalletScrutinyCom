@@ -6,7 +6,7 @@ authors:
 released: 2023-11-18
 discontinued: 
 updated: 2024-07-28
-version: 18.2.3
+version: 18.2.4
 binaries: https://github.com/piratecash/piratecash/releases
 provider: 
 providerWebsite: 
@@ -17,8 +17,7 @@ icon: cash.p.terminal.desktop.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-07-03
-reviewArchive: 
+date: 2025-05-06
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash

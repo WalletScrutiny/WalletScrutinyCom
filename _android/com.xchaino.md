@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-15
 signer: 
-reviewArchive: 
 twitter: exchaino
 social:
 - https://www.instagram.com/myexchaino

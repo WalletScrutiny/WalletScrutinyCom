@@ -8,8 +8,8 @@ users: 50000
 appId: hk.edigest.edapp
 appCountry: 
 released: 2020-08-21
-updated: 2024-11-22
-version: '1.90'
+updated: 2025-06-03
+version: '1.92'
 stars: 3.3
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-06-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

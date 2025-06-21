@@ -8,8 +8,8 @@ appId: io.rapidz.rapidzpayios
 appCountry: us
 idd: '1558420115'
 released: 2021-06-29
-updated: 2025-04-16
-version: 2.15.5
+updated: 2025-05-28
+version: 2.15.9
 stars: 3
 reviews: 2
 website: https://www.rapidz.io/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-19
 signer: 
-reviewArchive: 
 twitter: Rapidz_io
 social:
 - https://t.me/RapidzCommunity

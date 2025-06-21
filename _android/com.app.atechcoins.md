@@ -10,9 +10,9 @@ appCountry:
 released: 2020-11-10
 updated: 2025-03-20
 version: 1.1.8
-stars: 3.4
+stars: 3.5
 ratings: 85
-reviews: 8
+reviews: 9
 website: https://www.atechcoins.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-03-03
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

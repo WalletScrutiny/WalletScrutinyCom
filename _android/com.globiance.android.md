@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.globiance.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-20
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: globiance
 social:
 - https://www.facebook.com/Globiance

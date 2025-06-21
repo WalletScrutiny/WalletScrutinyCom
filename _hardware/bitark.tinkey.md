@@ -25,7 +25,6 @@ verdict: noita
 appHashes: 
 date: 2022-05-17
 signer: 
-reviewArchive: 
 twitter: officialtinkey
 social:
 - https://www.instagram.com/bitark.b.c/

@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.iBTC.trade.hk.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-06-20
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.instagram.com/ibtcex

@@ -11,7 +11,7 @@ released: 2021-11-09
 updated: 2023-04-18
 version: 2.0.2
 stars: 3.9
-reviews: 39
+reviews: 40
 website: https://www.coinchange.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-09
 signer: 
-reviewArchive: 
 twitter: coinchangeio
 social:
 - https://www.linkedin.com/company/coinchange/

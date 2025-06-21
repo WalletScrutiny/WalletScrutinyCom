@@ -15,21 +15,6 @@ figure.highlight {
   overflow: auto;
   color: var(--permanent-white);
 
-  // &:before {
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   padding: 0.5em;
-  //   background-color: var(--nav, $lighter-gray);
-  //   color: var(--accent, $lighter-gray);
-  //   content: "\f121";
-  //   font-family: "Font Awesome 5 Free" !important;
-  //   font-size: $type-size-6;
-  //   line-height: 1;
-  //   text-transform: none;
-  //   speak: none;
-  // }
-
   .highlight {
     margin: 0;
     font-family: $monospace;

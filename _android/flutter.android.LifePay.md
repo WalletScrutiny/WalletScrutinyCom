@@ -23,11 +23,9 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: lifpay
 social:
-- >-
-  https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
+- https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
 - https://t.me/lifpay
 redirect_from: 
 developerName: ProminentWise

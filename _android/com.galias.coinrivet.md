@@ -8,8 +8,8 @@ users: 1000
 appId: com.galias.coinrivet
 appCountry: 
 released: 
-updated: 2025-04-09
-version: 1.3.2.1175
+updated: 2025-05-14
+version: 1.3.4.1180
 stars: 4.2
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-04-02
 signer: 
-reviewArchive: 
 twitter: CoinRivet
 social:
 - https://coinrivet.com

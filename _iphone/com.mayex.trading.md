@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-07-05
 signer: 
-reviewArchive: 
 twitter: Mayex_Global
 social:
 - https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA

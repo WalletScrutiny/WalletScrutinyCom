@@ -9,8 +9,8 @@ users: 100000
 appId: com.bitpie
 appCountry: 
 released: 2016-10-23
-updated: 2025-04-03
-version: 5.0.190.g
+updated: 2025-05-14
+version: 5.0.191.g
 stars: 3.9
 ratings: 847
 reviews: 126
@@ -19,12 +19,11 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-06-11
 signer: 
-reviewArchive: 
 twitter: BitpieWallet
 social:
 - https://www.facebook.com/BitpieOfficial

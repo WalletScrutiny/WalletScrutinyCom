@@ -8,11 +8,11 @@ users: 100000
 appId: co.rockitcoinx.app
 appCountry: 
 released: 2019-09-20
-updated: 2025-03-27
-version: 3.7.2
-stars: 4.2
+updated: 2025-06-10
+version: 3.7.5
+stars: 4.1
 ratings: 
-reviews: 184
+reviews: 187
 website: https://rockitcoin.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-24
 signer: 
-reviewArchive: 
 twitter: rockitcoin
 social:
 - https://www.facebook.com/RockItCoin

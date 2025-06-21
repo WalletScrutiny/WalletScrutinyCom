@@ -25,7 +25,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-04-03
 signer: 
-reviewArchive: 
 twitter: rsksmart
 social:
 - https://www.facebook.com/RSKsmart

@@ -31,8 +31,8 @@
   .diffoscope-modal-content.maximized {
     max-width: 95vw;
     width: 95vw;
-    height: 95vh;
-    max-height: 95vh;
+    height: 90vh;
+    max-height: 90vh;
   }
 
   .diffoscope-controls {

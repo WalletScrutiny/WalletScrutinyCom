@@ -6,7 +6,7 @@ authors:
 released: 2021-04-16
 discontinued: 
 updated: 2024-04-13
-version: 0.7.1
+version: 0.8.2-beta
 binaries: 
 provider: KomodoPlatform
 providerWebsite: https://komodoplatform.com/
@@ -17,8 +17,7 @@ icon: atomicdex.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-24
-reviewArchive: 
+date: 2025-01-15
 twitter: KomodoPlatform
 social: 
 features: 

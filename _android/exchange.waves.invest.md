@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: WXNetwork
 social:
 - https://www.facebook.com/WavesExchange-110844914984722

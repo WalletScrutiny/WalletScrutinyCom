@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-06-12
 signer: 
-reviewArchive: 
 twitter: deex_exchange
 social:
 - https://www.facebook.com/groups/deex.exchange

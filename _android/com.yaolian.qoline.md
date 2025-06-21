@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2025-02-14
 signer: 
-reviewArchive: 
 twitter: salletone
 social:
 - https://www.facebook.com/salletone

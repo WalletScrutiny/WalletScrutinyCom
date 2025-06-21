@@ -28,7 +28,6 @@ verdict: prefilled
 appHashes: 
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

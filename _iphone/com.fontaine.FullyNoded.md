@@ -8,8 +8,8 @@ appId: com.fontaine.FullyNoded
 appCountry: 
 idd: 1436425586
 released: 2018-10-03
-updated: 2025-03-15
-version: 1.3.2
+updated: 2025-05-23
+version: 1.3.3
 stars: 4.9
 reviews: 45
 website: https://fullynoded.app
@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2023-11-17
 signer: 
-reviewArchive: 
 twitter: FullyNoded
 social: 
 features: 

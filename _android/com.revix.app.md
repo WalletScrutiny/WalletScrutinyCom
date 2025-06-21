@@ -8,8 +8,8 @@ users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2025-03-13
-version: 2.4.0
+updated: 2025-04-16
+version: 2.4.1
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-09
 signer: 
-reviewArchive: 
 twitter: RevixInvest
 social:
 - https://www.facebook.com/RevixInvest

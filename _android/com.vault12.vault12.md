@@ -8,8 +8,8 @@ users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: 2019-08-28
-updated: 2025-02-27
-version: 2.6.0
+updated: 2025-05-14
+version: 2.6.3
 stars: 4.3
 ratings: 
 reviews: 130
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-02-13
 signer: 
-reviewArchive: 
 twitter: _vault12_
 social:
 - https://www.facebook.com/GetVault12/

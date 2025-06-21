@@ -11,7 +11,7 @@ released: 2020-01-12
 updated: 2021-08-29
 version: '2.0'
 stars: 4.6
-reviews: 110
+reviews: 109
 website: https://orbitnetwork.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

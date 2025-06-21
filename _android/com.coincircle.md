@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: coincircle
 social:
 - https://www.linkedin.com/company/coincircle

@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2025-04-16
-version: 4.1.3
+updated: 2025-05-05
+version: 4.1.7
 stars: 3.5
 ratings: 4416
-reviews: 3563
+reviews: 3559
 website: https://www.bitwala.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: nuribanking
 social: 
 redirect_from: 

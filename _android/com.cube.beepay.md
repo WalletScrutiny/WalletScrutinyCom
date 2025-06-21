@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: BeFiWalletverse
 social:
 - https://t.me/befiwallet

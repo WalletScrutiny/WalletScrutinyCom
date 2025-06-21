@@ -11,19 +11,6 @@ export async function signer(event) {
   return await window.nostr.signEvent(event);
 }
 
-// Get the current user's public key
-export async function getCurrentPublicKey() {
-  if (!isNostrAvailable()) {
-    throw new Error('Nostr provider is not available');
-  }
-  try {
-    return await window.nostr.getPublicKey();
-  } catch (error) {
-    console.error('Error getting public key:', error);
-    throw error;
-  }
-}
-
 // Create and sign an authorization event
 export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
   const event = {
@@ -143,6 +130,7 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
 }
 
 // List blobs for a specific public key
+/*
 export async function listBlobs(pubkey, serverUrl, since = null, until = null, requireAuth = false) {
   let url = `${serverUrl}/list/${pubkey}`;
   const params = new URLSearchParams();
@@ -171,3 +159,4 @@ export async function listBlobs(pubkey, serverUrl, since = null, until = null, r
     return [];
   }
 }
+*/

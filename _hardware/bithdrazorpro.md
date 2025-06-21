@@ -28,7 +28,6 @@ verdict: nosource
 appHashes: 
 date: 2022-11-23
 signer: 
-reviewArchive: 
 twitter: bitpiewallet
 social: 
 features: 

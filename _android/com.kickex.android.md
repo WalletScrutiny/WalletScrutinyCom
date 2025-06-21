@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-02-16
 signer: 
-reviewArchive: 
 twitter: kickexcom
 social:
 - https://www.facebook.com/kickex.official

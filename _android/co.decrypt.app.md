@@ -13,7 +13,7 @@ updated: 2024-07-18
 version: 5.0.0
 stars: 4
 ratings: 2220
-reviews: 219
+reviews: 220
 website: https://decrypt.co/
 repository: 
 issue: 
@@ -24,7 +24,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-13
 signer: 
-reviewArchive: 
 twitter: decryptmedia
 social:
 - https://www.facebook.com/decryptmedia

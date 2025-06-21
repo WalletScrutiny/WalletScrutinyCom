@@ -12,7 +12,7 @@ updated: 2025-03-14
 version: 5.5.0
 stars: 4.3
 ratings: 
-reviews: 84
+reviews: 85
 website: https://kuwallet.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: KuWallet
 social: 
 redirect_from: 

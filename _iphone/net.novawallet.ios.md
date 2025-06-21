@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2025-04-01
 signer: 
-reviewArchive: 
 twitter: solidus_v
 social:
 - https://www.facebook.com/vsolidus

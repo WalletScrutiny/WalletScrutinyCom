@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: FrontierDotXYZ
 social: 
 features: 

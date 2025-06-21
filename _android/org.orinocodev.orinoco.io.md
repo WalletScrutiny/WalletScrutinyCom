@@ -12,7 +12,7 @@ updated: 2024-06-18
 version: 1.0.0
 stars: 4
 ratings: 
-reviews: 15
+reviews: 16
 website: https://orinoco.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-04-15
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/teamorinoco/videos/554519616420848

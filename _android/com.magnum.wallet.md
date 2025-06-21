@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: magnum_wallet
 social: 
 redirect_from:

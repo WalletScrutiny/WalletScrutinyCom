@@ -4,12 +4,12 @@ title: Bitexen Global
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2025-03-29
-version: '2.0'
+updated: 2025-06-12
+version: '2.07'
 stars: 2.7
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-09-06
 signer: 
-reviewArchive: 
 twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019

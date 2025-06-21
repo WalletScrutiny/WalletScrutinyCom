@@ -8,10 +8,10 @@ appId: io.nash.app
 appCountry: de
 idd: 1475759236
 released: 2019-09-06
-updated: 2025-03-28
-version: 17.0.15
+updated: 2025-04-24
+version: 17.0.16
 stars: 4.8
-reviews: 105
+reviews: 106
 website: https://nash.io
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: nashsocial
 social:
 - https://www.linkedin.com/company/nashsocial

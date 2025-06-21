@@ -8,8 +8,8 @@ users: 1000
 appId: app.bitcoinjungle.mobile
 appCountry: 
 released: 2021-12-05
-updated: 2025-03-13
-version: 1.3.6
+updated: 2025-04-24
+version: 1.3.7
 stars: 4.2
 ratings: 
 reviews: 1
@@ -23,11 +23,9 @@ verdict: custodial
 appHashes: 
 date: 2023-10-20
 signer: 
-reviewArchive: 
 twitter: bitcoinjunglecr
 social:
-- >-
-  https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
+- https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
 - https://t.me/bitcoinfreedomfestival
 - https://github.com/Bitcoin-Jungle
 redirect_from: 

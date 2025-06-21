@@ -8,8 +8,8 @@ users: 5000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2025-04-18
-version: 0.41.12
+updated: 2025-05-29
+version: 0.41.18
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-09-12
 signer: 
-reviewArchive: 
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash

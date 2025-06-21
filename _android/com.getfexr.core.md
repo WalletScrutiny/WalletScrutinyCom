@@ -7,7 +7,7 @@ users: 100
 appId: com.getfexr.core
 appCountry: 
 released: 2022-06-08
-updated: 2025-04-09
+updated: 2025-05-05
 version: clubman
 stars: 4.3
 ratings: 
@@ -22,7 +22,6 @@ verdict: fewusers
 appHashes: 
 date: 2025-02-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

@@ -8,8 +8,8 @@ appId: com.genesisblock.GenesisBlock
 appCountry: us
 idd: 1495538730
 released: 2020-05-09
-updated: 2025-04-21
-version: 0.3.5
+updated: 2025-05-12
+version: 0.3.9
 stars: 4.4
 reviews: 55
 website: https://hightop.com
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-11
 signer: 
-reviewArchive: 
 twitter: genesisblockhq
 social:
 - https://www.linkedin.com/company/genesisblockhq

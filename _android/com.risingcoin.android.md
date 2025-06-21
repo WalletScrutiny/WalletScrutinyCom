@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: Risingcoin_rsc
 social:
 - https://www.facebook.com/profile.php?id=100086988191584

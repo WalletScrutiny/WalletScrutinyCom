@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-04
 signer: 
-reviewArchive: 
 twitter: 2cashnetwork
 social:
 - https://www.linkedin.com/company/2cash

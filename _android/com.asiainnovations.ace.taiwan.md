@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.asiainnovations.ace.taiwan.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-10-16
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/ace.exchange.tw

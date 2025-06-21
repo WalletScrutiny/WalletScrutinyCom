@@ -8,8 +8,8 @@ users: 10000
 appId: com.bmdf.lemonbitcoinfaucet
 appCountry: 
 released: 2022-07-05
-updated: 2025-03-28
-version: 4.3.0
+updated: 2025-04-25
+version: 4.4.0
 stars: 4
 ratings: 
 reviews: 15
@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.bmdf.lemonbitcoinfaucet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-07-21
+date: 2025-06-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

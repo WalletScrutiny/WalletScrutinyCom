@@ -4,7 +4,7 @@ title: Stack Duo
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.cypherstack.stackduo
 appCountry: 
 released: 2024-06-29
@@ -23,7 +23,6 @@ verdict: fewusers
 appHashes: 
 date: 2024-05-31
 signer: 
-reviewArchive: 
 twitter: stack_wallet
 social:
 - https://discord.com/invite/mRPZuXx3At

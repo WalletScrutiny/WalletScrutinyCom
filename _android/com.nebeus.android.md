@@ -1,6 +1,6 @@
 ---
 wsId: nebeus
-title: 'Nebeus: IBANs for Crypto'
+title: 'Nebeus: Your new way of paying'
 altTitle: 
 authors:
 - danny
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-25
 signer: 
-reviewArchive: 
 twitter: NebeusWorld
 social:
 - https://www.linkedin.com/company/nebeus/

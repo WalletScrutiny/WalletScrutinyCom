@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-17
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/exnoderu

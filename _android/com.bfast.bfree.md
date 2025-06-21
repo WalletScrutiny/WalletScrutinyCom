@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.bfast.bfree.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-06
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/BProgrammers

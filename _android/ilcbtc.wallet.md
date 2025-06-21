@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-10-10
 signer: 
-reviewArchive: 
 twitter: ILC_B_Project
 social:
 - https://www.facebook.com/ILCoinBlockchainProject

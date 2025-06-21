@@ -11,7 +11,7 @@ released: 2021-10-06
 updated: 2025-04-02
 version: '4.2'
 stars: 4.8
-reviews: 14646
+reviews: 14652
 website: https://vgxfoundation.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2025-02-26
 signer: 
-reviewArchive: 
 twitter: safemoon
 social: 
 features: 

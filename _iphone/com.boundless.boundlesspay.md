@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.boundless.boundlesspay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-04-14
+date: 2025-06-05
 signer: 
-reviewArchive: 
 twitter: boundlesspay
 social:
 - https://www.facebook.com/boundlesspayofficial/

@@ -8,12 +8,12 @@ users: 500000
 appId: com.xrpllabs.xumm
 appCountry: 
 released: 2020-12-29
-updated: 2025-04-09
-version: 4.0.5
+updated: 2025-06-17
+version: 4.1.4
 stars: 4.6
 ratings: 
-reviews: 484
-website: https://xumm.app/
+reviews: 487
+website: https://xaman.app
 repository: 
 issue: 
 icon: com.xrpllabs.xumm.png
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-03
 signer: 
-reviewArchive: 
 twitter: XummWallet
 social: 
 redirect_from: 

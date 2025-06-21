@@ -1,6 +1,6 @@
 ---
 wsId: bitci
-title: Bitci Borsa
+title: SafeBit
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2025-04-15
-version: 20.0.3
+updated: 2025-06-18
+version: 21.0.5
 stars: 2.3
 ratings: 
 reviews: 14
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2022-06-28
 signer: 
-reviewArchive: 
 twitter: bitcicom
 social:
 - https://www.linkedin.com/company/bitcicom/

@@ -8,8 +8,8 @@ appId: app.simple.com
 appCountry: gb
 idd: '1603406843'
 released: 2022-05-06
-updated: 2025-04-18
-version: 3.8.2
+updated: 2025-06-18
+version: 3.9.5
 stars: 4.8
 reviews: 215
 website: https://simple.app/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-10-07
 signer: 
-reviewArchive: 
 twitter: smpl_app
 social:
 - https://t.me/smpl_app

@@ -8,10 +8,10 @@ appId: world.bitkey.app
 appCountry: us
 idd: '6476990471'
 released: 2024-03-13
-updated: 2025-03-31
-version: 2025.6.0
-stars: 4.6
-reviews: 84
+updated: 2025-05-29
+version: 2025.10.1
+stars: 4.7
+reviews: 89
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: 
@@ -22,12 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-03-14
 signer: 
-reviewArchive:
-- date: 2024-03-14
-  version: 2024.74.1
-  appHashes: []
-  gitRevision: 1c24468eb363380524219e74a72b68eed75509f4
-  verdict: nonverifiable
 twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official

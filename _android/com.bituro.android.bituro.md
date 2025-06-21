@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bituro.android.bituro
 appCountry: us
 released: 2015-08-18
-updated: 2025-02-16
-version: 1.31.0
-stars: 4.3
+updated: 2025-06-15
+version: 1.33.0
+stars: 4.4
 ratings: 9148
-reviews: 481
+reviews: 487
 website: https://bituro.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2021-11-01
 signer: 
-reviewArchive: 
 twitter: bituroapp
 social:
 - https://www.facebook.com/BituroApp

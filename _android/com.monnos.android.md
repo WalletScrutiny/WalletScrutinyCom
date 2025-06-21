@@ -12,7 +12,7 @@ updated: 2024-11-29
 version: 6.3.14
 stars: 3.7
 ratings: 931
-reviews: 477
+reviews: 476
 website: https://monnos.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-09-23
 signer: 
-reviewArchive: 
 twitter: monnosGlobal
 social:
 - https://www.linkedin.com/company/monnosglobal

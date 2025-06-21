@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2025-04-09
 signer: 
-reviewArchive: 
 twitter: slavi_io
 social:
 - https://t.me/SlaviDappGroup

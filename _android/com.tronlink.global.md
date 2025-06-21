@@ -8,11 +8,11 @@ users: 100000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2025-04-03
-version: 4.15.1
-stars: 4.1
+updated: 2025-06-10
+version: 4.16.1
+stars: 4
 ratings: 
-reviews: 57
+reviews: 59
 website: https://www.tronlink.org
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-06-13
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

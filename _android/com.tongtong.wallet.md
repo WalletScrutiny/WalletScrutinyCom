@@ -8,8 +8,8 @@ users: 10000
 appId: com.tongtong.wallet
 appCountry: 
 released: 2022-04-21
-updated: 2025-03-27
-version: 1.7.05
+updated: 2025-05-13
+version: 1.7.08
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-20
 signer: 
-reviewArchive: 
 twitter: tomatochain
 social:
 - https://www.instagram.com/tomatochain_official/

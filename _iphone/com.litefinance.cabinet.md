@@ -11,7 +11,7 @@ released: 2023-01-11
 updated: 2025-02-21
 version: '2.3'
 stars: 3.7
-reviews: 24
+reviews: 25
 website: https://www.liteforex.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-02-10
 signer: 
-reviewArchive: 
 twitter: litefinanceeng
 social: 
 features: 

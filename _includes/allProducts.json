@@ -96,6 +96,7 @@
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
         "icon": "{{ post.icon }}",
+        "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}

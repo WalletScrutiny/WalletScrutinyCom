@@ -8,8 +8,8 @@ users: 100000
 appId: com.ixfi
 appCountry: 
 released: 2022-01-19
-updated: 2025-03-29
-version: 1.9.96
+updated: 2025-06-14
+version: 1.10.5
 stars: 4.7
 ratings: 
 reviews: 64
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-08
 signer: 
-reviewArchive: 
 twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange

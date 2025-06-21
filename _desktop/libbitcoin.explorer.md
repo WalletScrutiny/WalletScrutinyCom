@@ -18,7 +18,6 @@ bugbounty:
 meta: stale
 verdict: nowallet
 date: 2025-04-23
-reviewArchive: 
 twitter: 
 social: 
 features: 

@@ -9,6 +9,11 @@ server {
     index index.html;
 
     access_log /var/log/nginx/access_walletscrutiny.log;
+    error_log /var/log/nginx/error_walletscrutiny.log;
+
+    open_file_cache max=500 inactive=10m;
+    open_file_cache_valid 15m;
+    open_file_cache_min_uses 1;
 
     error_page 404 /404.html;
     location = /404.html {
@@ -22,6 +27,30 @@ server {
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
     server_tokens off;
     brotli_static on;
+
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+
+    location ~* \.(html|htm)$ {
+        expires 1h;
+        add_header Cache-Control "public, must-revalidate";
+        add_header Vary Accept-Encoding;
+    }
+    location ~* \.(css|js)$ {
+        expires 3h;
+        add_header Cache-Control "public, immutable";
+        add_header Vary Accept-Encoding;
+    }
+    location ~* \.(jpg|jpeg|png|gif|ico|svg)$ {
+        expires 1d;
+        add_header Cache-Control "public, immutable";
+    }
+    location ~* \.(woff|woff2|ttf)$ {
+        expires 1y;
+        add_header Cache-Control "public, must-revalidate";
+        add_header Vary Accept-Encoding;
+    }
 }
 
 server {

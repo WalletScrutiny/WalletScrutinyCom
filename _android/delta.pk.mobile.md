@@ -12,7 +12,7 @@ updated: 2024-12-12
 version: 5.9.11
 stars: 4.1
 ratings: 410
-reviews: 58
+reviews: 59
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-08-30
 signer: 
-reviewArchive: 
 twitter: deltastock
 social:
 - https://www.linkedin.com/company/deltastock-ad

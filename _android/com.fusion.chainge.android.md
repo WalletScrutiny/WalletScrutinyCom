@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.fusion.chainge.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-06-20
 signer: 
-reviewArchive: 
 twitter: FinanceChainge
 social:
 - https://www.linkedin.com/company/chainge-finance

@@ -8,11 +8,11 @@ users: 100000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
-updated: 2025-03-25
-version: 25.3.1
+updated: 2025-06-06
+version: 25.5.3
 stars: 3.1
 ratings: 
-reviews: 71
+reviews: 78
 website: https://trezor.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-07-18
 signer: 
-reviewArchive: 
 twitter: trezor
 social:
 - https://www.reddit.com/r/TREZOR

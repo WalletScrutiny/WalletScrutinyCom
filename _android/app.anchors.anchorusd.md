@@ -12,18 +12,17 @@ updated: 2025-03-10
 version: 1.20.21
 stars: 2.2
 ratings: 2482
-reviews: 847
+reviews: 846
 website: https://www.tryanchor.com
 repository: 
 issue: 
 icon: app.anchors.anchorusd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-23
+date: 2025-06-03
 signer: 
-reviewArchive: 
 twitter: anchorusd
 social: 
 redirect_from: 

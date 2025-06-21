@@ -1,6 +1,6 @@
 ---
 wsId: gemWallet
-title: Gem Wallet - Crypto Bitcoin
+title: 'Gem Crypto Wallet: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.gemwallet.android
 appCountry: ae
 released: 2023-06-26
-updated: 2025-04-09
-version: 1.2.345
+updated: 2025-06-19
+version: 1.3.2
 stars: 5
 ratings: 
 reviews: 4
@@ -23,12 +23,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-08-05
 signer: 
-reviewArchive:
-- date: 2024-08-05
-  version: 1.2.144
-  appHashes: []
-  gitRevision: 4d35b58691a7b46c61502395f1864e0cc5f4c268
-  verdict: nonverifiable
 twitter: GemWalletApp
 social:
 - https://github.com/gemwalletcom

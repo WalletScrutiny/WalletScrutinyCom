@@ -25,7 +25,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-02-17
 signer: 
-reviewArchive: 
 twitter: hi_firefly
 social: 
 features: 

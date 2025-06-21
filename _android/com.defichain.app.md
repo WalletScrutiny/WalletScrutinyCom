@@ -12,18 +12,17 @@ updated: 2024-08-29
 version: 2.43.3
 stars: 3.3
 ratings: 319
-reviews: 309
+reviews: 311
 website: https://defichain.com
 repository: 
 issue: 
 icon: com.defichain.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2021-11-11
+date: 2025-06-11
 signer: 
-reviewArchive: 
 twitter: defichain
 social:
 - https://www.linkedin.com/company/defichain

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-04-14
 signer: 
-reviewArchive: 
 twitter: bitqikofficial
 social:
 - https://www.facebook.com/bitqik

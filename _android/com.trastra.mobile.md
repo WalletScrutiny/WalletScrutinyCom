@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.trastra.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-17
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: Trastra_ltd
 social:
 - https://www.linkedin.com/company/trastra

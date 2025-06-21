@@ -8,8 +8,8 @@ users: 50000
 appId: hippotech.bank.droid
 appCountry: 
 released: 
-updated: 2025-03-21
-version: '3.73'
+updated: 2025-05-01
+version: '3.74'
 stars: 3.9
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-12-15
 signer: 
-reviewArchive: 
 twitter: ziglumoney
 social:
 - https://www.facebook.com/ziglumoney

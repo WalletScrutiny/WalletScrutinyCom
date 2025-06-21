@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: co.bitfrost.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-05-24
+date: 2025-06-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

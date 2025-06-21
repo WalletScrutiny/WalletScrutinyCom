@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-04-16
 signer: 
-reviewArchive: 
 twitter: jaxx_io
 social:
 - https://www.facebook.com/JaxxWallet

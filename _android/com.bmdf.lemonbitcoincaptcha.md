@@ -8,8 +8,8 @@ users: 10000
 appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 
 released: 2022-07-11
-updated: 2025-04-18
-version: 4.6.0
+updated: 2025-04-24
+version: 4.7.0
 stars: 4
 ratings: 
 reviews: 6
@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.bmdf.lemonbitcoincaptcha.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-06-13
+date: 2025-06-06
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

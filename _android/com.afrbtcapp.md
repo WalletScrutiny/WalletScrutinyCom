@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-05
 updated: 2024-07-12
 version: 4.2.2
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 127
+reviews: 128
 website: https://www.afrbtc.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-25
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

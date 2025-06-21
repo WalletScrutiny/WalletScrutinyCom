@@ -23,13 +23,12 @@ verdict: nobtc
 appHashes: 
 date: 2024-09-20
 signer: 
-reviewArchive: 
 twitter: xwg_games
 social:
 - https://medium.com/x-world-games
 - https://github.com/XWorldGames
 redirect_from: 
-developerName: XWG Technology
+developerName: KENERGETICS INNOVATIVE INC. PTE. LTD.
 features: 
 
 ---

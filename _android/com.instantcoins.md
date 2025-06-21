@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: instantcoins_ng
 social:
 - https://www.facebook.com/instantcoins

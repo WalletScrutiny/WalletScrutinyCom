@@ -7,11 +7,11 @@ users: 1000000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2025-04-14
-version: 3.71.0
-stars: 4.5
+updated: 2025-06-17
+version: 3.82.0
+stars: 4.6
 ratings: 6090
-reviews: 2866
+reviews: 2928
 website: https://www.ledger.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2020-11-17
 signer: 
-reviewArchive: 
 twitter: Ledger
 social:
 - https://www.linkedin.com/company/ledgerhq

@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2024-10-23
 signer: 
-reviewArchive: 
 twitter: jackocoins
 social:
 - https://www.facebook.com/jackocoins

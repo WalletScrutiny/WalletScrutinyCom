@@ -6,7 +6,7 @@ authors:
 released: 2017-11-22
 discontinued: 
 updated: 2024-03-20
-version: 4.6.2
+version: 4.9.1
 binaries: 
 provider: Adamant
 providerWebsite: 
@@ -17,8 +17,7 @@ icon: adamant.im.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-24
-reviewArchive: 
+date: 2025-03-29
 twitter: adamant_im
 social: 
 features: 

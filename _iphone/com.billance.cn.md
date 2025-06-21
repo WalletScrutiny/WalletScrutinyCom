@@ -8,10 +8,10 @@ appId: com.billance.cn
 appCountry: us
 idd: '1610497530'
 released: 2022-03-01
-updated: 2025-04-12
-version: 3.9.4
-stars: 4.1
-reviews: 23
+updated: 2025-06-06
+version: 3.9.8
+stars: 4
+reviews: 25
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: tapbitglobal
 social:
 - https://www.tapbit.com

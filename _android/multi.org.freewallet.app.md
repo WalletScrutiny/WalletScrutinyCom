@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-01-02
 signer: 
-reviewArchive: 
 twitter: freewalletorg
 social:
 - https://www.facebook.com/freewallet.org

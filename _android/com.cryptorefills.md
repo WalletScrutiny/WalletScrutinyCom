@@ -12,7 +12,7 @@ updated: 2024-09-06
 version: 1.0.11
 stars: 3.9
 ratings: 
-reviews: 43
+reviews: 44
 website: https://www.cryptorefills.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-12-01
 signer: 
-reviewArchive: 
 twitter: cryptorefills
 social:
 - https://www.instagram.com/cryptorefillsofficial/

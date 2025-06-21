@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.qmall.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-02-25
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: QmallExchange
 social:
 - https://www.linkedin.com/company/qmallexchange/about/

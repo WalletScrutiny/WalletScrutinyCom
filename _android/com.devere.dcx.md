@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.devere.dcx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2025-04-10
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: deveregroup
 social:
 - https://www.facebook.com/deVere-Crypto-196359191107070

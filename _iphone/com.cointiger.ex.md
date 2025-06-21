@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2022-01-15
 signer: 
-reviewArchive: 
 twitter: CoinTigerEX
 social:
 - https://www.facebook.com/CoinTigerEX

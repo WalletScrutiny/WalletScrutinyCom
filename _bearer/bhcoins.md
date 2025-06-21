@@ -12,8 +12,7 @@ dimensions:
 weight: 8.6
 provider: yamaka and aEnima
 providerWebsite: 
-website: >-
-  https://web.archive.org/web/20140414040117/https://bitcointalk.org/index.php?topic=292223.0
+website: https://web.archive.org/web/20140414040117/https://bitcointalk.org/index.php?topic=292223.0
 shop: 
 country: AR
 price: 
@@ -25,7 +24,6 @@ meta: defunct
 verdict: prefilled
 date: 2022-05-19
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

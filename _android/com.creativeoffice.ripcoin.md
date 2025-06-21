@@ -10,9 +10,9 @@ appCountry:
 released: 2021-02-25
 updated: 2025-02-05
 version: '33200'
-stars: 3.5
+stars: 3.6
 ratings: 
-reviews: 226
+reviews: 225
 website: https://antcoin.antf.online/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-02-08
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

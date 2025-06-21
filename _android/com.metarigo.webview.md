@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.metarigo.webview.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-09-05
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

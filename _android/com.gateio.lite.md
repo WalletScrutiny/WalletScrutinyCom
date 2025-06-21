@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: gate_io
 social:
 - https://www.facebook.com/gateioglobal

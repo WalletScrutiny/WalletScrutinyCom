@@ -8,8 +8,8 @@ users: 1000
 appId: com.ultorexapp.io
 appCountry: 
 released: 2022-07-01
-updated: 2025-01-23
-version: 1.1.17
+updated: 2025-05-26
+version: 1.1.18
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-28
 signer: 
-reviewArchive: 
 twitter: UltorexOfficial
 social:
 - https://www.facebook.com/ultorex

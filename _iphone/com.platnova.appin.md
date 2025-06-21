@@ -8,10 +8,10 @@ appId: com.platnova.appin
 appCountry: us
 idd: '1619003446'
 released: 2022-04-26
-updated: 2025-03-27
-version: 1.0.7
-stars: 3.9
-reviews: 78
+updated: 2025-06-10
+version: 1.1.1
+stars: 3.7
+reviews: 87
 website: https://platnova.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-11-02
 signer: 
-reviewArchive: 
 twitter: getplatnova
 social:
 - https://www.facebook.com/getplatnova

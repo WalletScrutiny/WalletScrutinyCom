@@ -8,11 +8,11 @@ users: 500000
 appId: com.wake.weexprd
 appCountry: 
 released: 2022-02-23
-updated: 2025-04-15
-version: 4.3.14
-stars: 4.5
+updated: 2025-06-04
+version: 4.3.23
+stars: 4.2
 ratings: 
-reviews: 139
+reviews: 195
 website: https://www.weex.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-08-17
 signer: 
-reviewArchive: 
 twitter: WEEX_Official
 social:
 - https://www.facebook.com/WEEXGlobal

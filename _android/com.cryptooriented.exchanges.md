@@ -3,7 +3,7 @@ wsId:
 title: Crypto Exchanges
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.cryptooriented.exchanges
 appCountry: 
 released: 2018-01-10
@@ -22,7 +22,6 @@ verdict: fewusers
 appHashes: 
 date: 2023-12-31
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

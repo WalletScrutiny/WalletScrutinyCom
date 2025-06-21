@@ -10,19 +10,18 @@ idd: 1496672790
 released: 2020-01-28
 updated: 2023-05-11
 version: 2.1.9
-stars: 2.4
-reviews: 11
+stars: 2.3
+reviews: 12
 website: https://dex-trade.com/
 repository: 
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: dextrade_
 social:
 - https://www.linkedin.com/company/dex-trade-exchange

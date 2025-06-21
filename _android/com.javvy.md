@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-26
 signer: 
-reviewArchive: 
 twitter: javvycrypto
 social:
 - https://www.linkedin.com/company/javvy/about

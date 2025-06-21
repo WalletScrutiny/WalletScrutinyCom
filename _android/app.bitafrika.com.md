@@ -12,7 +12,7 @@ updated: 2025-03-27
 version: 4.9.9
 stars: 3.5
 ratings: 
-reviews: 157
+reviews: 160
 website: https://bitafrika.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-06
 signer: 
-reviewArchive: 
 twitter: _bitafrika
 social:
 - https://www.facebook.com/bitafrika

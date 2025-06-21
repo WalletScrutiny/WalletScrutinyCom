@@ -6,13 +6,13 @@ import {
   verificationKind,
   verificationDraftKind,
   codeSnippetKind,
-  endorsementKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
   nip89ClientTagD,
   wsBotPublicKey
 } from "./nostr-constants.mjs";
+import { userHasBrowserExtension } from './verifications_common.mjs';
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -36,13 +36,13 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
   resolveNostrConnectInitiated = resolve;
 });
 
-const connectTimeout = 2000;
+const connectTimeout = 1;
 
 const nostrConnect = function (nostrPrivateKey) {
   // Assign the connection logic to the promise immediately
   ndkConnectionPromise = (async () => {
     let signer;
-    let hasBrowserExtension = await userHasBrowserExtension();
+    const hasBrowserExtension = await userHasBrowserExtension();
 
     if (hasBrowserExtension) {
       console.debug("Signer: Using browser extension");
@@ -58,6 +58,19 @@ const nostrConnect = function (nostrPrivateKey) {
     ndk = new NDK({
       explicitRelayUrls: explicitRelayUrls,
       signer: signer
+    });
+
+    // Add event listeners for connection monitoring
+    ndk.pool.on('relay:connect', (relay) => {
+      console.debug(`✅ Connected to relay: ${relay.url}`);
+    });
+
+    ndk.pool.on('relay:disconnect', (relay) => {
+      console.debug(`❌ Disconnected from relay: ${relay.url}`);
+    });
+
+    ndk.pool.on('relay:error', (relay, error) => {
+      console.error(`🔥 Relay error (${relay.url}):`, error);
     });
 
     try {
@@ -114,23 +127,6 @@ const getUserPubkey = async function() {
   return user.pubkey;
 }
 
-const userHasBrowserExtension = function() {
-  return new Promise((resolve) => {
-    if (typeof window === 'undefined') {
-      resolve(false);
-    }
-    if (window.nostr) {
-      resolve(true);
-    }
-
-    // Wait a bit for the extension to load
-    setTimeout(() => {
-      console.debug("Browser extension:", Boolean(window.nostr));
-      resolve(Boolean(window.nostr));
-    }, 100);
-  });
-}
-
 const validateSHA256 = function(hashes) {
   if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
     throw new Error("You must add at least one SHA256 hash");
@@ -146,9 +142,19 @@ const getNostrProfile = async function (pubkey) {
   if (!pubkey) {
     return null;
   }
+
+  const cacheKey = 'profile-' + pubkey;
+
+  const profileFromCache = getCachedResultIfNotExpired(cacheKey);
+  if (profileFromCache) {
+    return profileFromCache;
+  }
+
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
-  return await user.fetchProfile();
+  const profile = await user.fetchProfile();
+  setCache(cacheKey, profile);
+  return profile;
 }
 
 const getNpubFromPubkey = async function (pubkey) {
@@ -159,6 +165,52 @@ const getNpubFromPubkey = async function (pubkey) {
 
 const getWSClientTag = function() {
   return ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl];
+}
+
+async function publishNdkEvent(ndkEvent, eventType = 'event') {
+  try {
+    const publishedToRelays = await ndkEvent.publish();
+    console.debug(`Published ${eventType} (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
+    return ndkEvent;
+  } catch (error) {
+    console.error(`Error publishing ${eventType} to relays`, error);
+    
+    if (error instanceof NDKPublishError) {
+      for (const [relay, err] of error.errors) {
+        console.error(`Error publishing ${eventType} to relay ${relay.url}`, err);
+      }
+    }
+
+    return null;
+  }
+}
+
+function createNdkEvent(kind, content, tags = [], createdAt = null) {
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = kind;
+  ndkEvent.content = content;
+  ndkEvent.created_at = getCreatedAt(createdAt);
+  ndkEvent.tags = [...tags, getWSClientTag()];
+  return ndkEvent;
+}
+
+function validateParameterLengths(params) {
+  const validationRules = {
+    appId: { maxLength: 50, name: 'App ID' },
+    version: { maxLength: 30, name: 'Version' },
+    platform: { maxLength: 10, name: 'Platform' },
+    description: { maxLength: 120, name: 'Description' },
+    content: { maxLength: 60000, name: 'Content' }
+  };
+
+  for (const [paramName, value] of Object.entries(params)) {
+    if (value && validationRules[paramName]) {
+      const rule = validationRules[paramName];
+      if (value.length > rule.maxLength) {
+        throw new Error(`${rule.name} must be ${rule.maxLength} characters or less`);
+      }
+    }
+  }
 }
 
 const createAssetRegistration = async function ({
@@ -176,52 +228,23 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
-  // Limit length of parameters
-  if (appId && appId.length > 50) {
-    throw new Error("App ID must be 50 characters or less");
-  }
-  if (version && version.length > 30) {
-    throw new Error("Version must be 30 characters or less");
-  }
-  if (platform && platform.length > 10) {
-    throw new Error("Platform must be 10 characters or less");
-  }
-  if (description && description.length > 120) {
-    throw new Error("Description must be 120 characters or less");
-  }
+  validateParameterLengths({ appId, version, platform, description });
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = assetRegistrationKind;
-  ndkEvent.content = description;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [
+  const tags = [
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["version", version],
-    getWSClientTag()
+    ["version", version]
   ];
   if (platform) {
-    ndkEvent.tags.push(["platform", platform]);
+    tags.push(["platform", platform]);
   }
 
+  const ndkEvent = createNdkEvent(assetRegistrationKind, description, tags, createdAt);
   eventSanitize(ndkEvent);
 
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`published to ${publishedToRelays.size} relays`)
-    return ndkEvent;
-  } catch (error) {
-    console.error("error publishing to relays", error);
-
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
-  }
+  await publishNdkEvent(ndkEvent, 'asset registration');
+  return ndkEvent;
 }
 
 const createVerification = async function ({
@@ -250,22 +273,7 @@ const createVerification = async function ({
     throw new Error("Invalid status");
   }
 
-  // Limit length of parameters
-  if (appId && appId.length > 50) {
-    throw new Error("App ID must be 50 characters or less");
-  }
-  if (version && version.length > 30) {
-    throw new Error("Version must be 30 characters or less");
-  }
-  if (platform && platform.length > 10) {
-    throw new Error("Platform must be 10 characters or less");
-  }
-  if (description && description.length > 120) {
-    throw new Error("Description must be 120 characters or less");
-  }
-  if (content && content.length > 60000) {
-    throw new Error("Content must be 60000 characters or less");
-  }
+  validateParameterLengths({ appId, version, platform, description, content });
 
   // --- Upload Files Before Main Event Creation ---
   let fileUploadResults = [];
@@ -290,103 +298,82 @@ const createVerification = async function ({
       }
     });
 
-    // Handle potential upload failures (optional: decide if this should halt verification creation)
+    // Handle potential upload failures
     const failedUploads = fileUploadResults.filter(r => !r.success);
     if (failedUploads.length > 0) {
       console.error("Some file uploads failed:", failedUploads);
-      // Decide whether to throw an error or just log it
-      // For now, let's throw an error if any upload fails
       throw new Error(`Failed to upload file(s): ${failedUploads.map(f => f.fileName).join(', ')}`);
     }
   }
-  // --- End File Upload ---
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = isDraft ? verificationDraftKind : verificationKind;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.content = JSON.stringify({
+  const fullContent = JSON.stringify({
     description: description || '',
     content: content,
   });
 
-  ndkEvent.tags = [
-    ["status", status],
-    getWSClientTag()
-  ];
+  const tags = [["status", status]];
 
   if (isDraft) {
     let draftKey = '';
-
     if (appId) {
       draftKey += `${appId}:`;
     }
-
     draftKey += `${version}:${platform}`;
-
-    ndkEvent.tags.push(["d", draftKey]);
+    tags.push(["d", draftKey]);
   }
 
   if (appId) {
-    ndkEvent.tags.push(["i", appId]);
+    tags.push(["i", appId]);
   }
   if (version) {
-    ndkEvent.tags.push(["version", version]);
+    tags.push(["version", version]);
   }
   if (platform) {
-    ndkEvent.tags.push(["platform", platform]);
+    tags.push(["platform", platform]);
   }
   hashes.forEach(hash => {
-    ndkEvent.tags.push(["x", hash]);
+    tags.push(["x", hash]);
   });
 
-  // Add file event IDs as tags if any files were successfully uploaded
+  // Add file event IDs as tags
   if (fileEventIds.length > 0) {
     fileEventIds.forEach(fileEventId => {
-      ndkEvent.tags.push(["file-attachment", fileEventId]);
+      tags.push(["file-attachment", fileEventId]);
     });
   }
   if (reusedFileIds.length > 0) {
     reusedFileIds.forEach(fileEventId => {
-      ndkEvent.tags.push(["file-attachment", fileEventId]);
+      tags.push(["file-attachment", fileEventId]);
     });
   }
 
   if (outputFiles.length > 0) {
     outputFiles.forEach(file => {
-      ndkEvent.tags.push(["output-file", file.name, file.hash]);
+      tags.push(["output-file", file.name, file.hash]);
     });
   }
 
-  eventSanitize(ndkEvent); // Sanitize main event
+  const ndkEvent = createNdkEvent(
+    isDraft ? verificationDraftKind : verificationKind,
+    fullContent,
+    tags,
+    createdAt
+  );
+  eventSanitize(ndkEvent);
 
-  let mainEventId;
+  await publishNdkEvent(ndkEvent, 'verification');
 
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    mainEventId = ndkEvent.id; // Get the ID of the published event
-    console.log(`Published verification (id: ${mainEventId}) to ${publishedToRelays.size} relays`);
-
-    if (!isDraft && draftVerificationEventId) {
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        await draftVerificationEvent.delete('deleting draft, as verification was published', true);
-      }
+  if (!isDraft && draftVerificationEventId) {
+    const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+    if (draftVerificationEvent) {
+      await draftVerificationEvent.delete('deleting draft, as verification was published', true);
     }
-
-    return ndkEvent;
-
-  } catch (error) {
-    console.error("error publishing verification to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
   }
+
+  return ndkEvent;
 }
 
+/*
 const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
   await ensureNdkConnected();
   console.debug("Creating endorsement for verification: ", verificationEventId);
@@ -397,39 +384,19 @@ const createEndorsement = async function ({sha256, content, status, verification
     throw new Error("Missing required parameters");
   }
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = endorsementKind;
-  ndkEvent.content = content;
-  ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [
+  const tags = [
     ["x", sha256],
     ["d", verificationEventId],
-    ["status", status],
-    getWSClientTag()
+    ["status", status]
   ];
 
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`published endorsement to ${publishedToRelays.size} relays`);
-  } catch (error) {
-    console.error("error publishing endorsement to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-
-    throw error;
-  }
+  const ndkEvent = createNdkEvent(endorsementKind, content, tags, createdAt);
+  await publishNdkEvent(ndkEvent, 'endorsement');
 }
+*/
 
 function getCreatedAt(createdAt) {
   return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
-}
-
-function getFirstTag(event, tagName) {
-  const tags = event.getMatchingTags(tagName);
-  return tags.length === 0 ? "" : tags[0][1];
 }
 
 const getTimestampMonthsAgo = function(months = 6) {
@@ -495,11 +462,6 @@ function eventSanitize(event) {
   });
 }
 
-const getFirstValueFromTag = function(event, tagName) {
-  const tags = event.getMatchingTags(tagName);
-  return tags.length === 0 ? null : tags[0][1];
-}
-
 const getFileAttachmentIDsForVerificationEvent = function(event) {
   return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
 }
@@ -515,28 +477,23 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
     throw new Error(`File ${fileName} exceeds the 60KB limit`);
   }
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = codeSnippetKind;
-  ndkEvent.content = base64Data;
-  ndkEvent.created_at = getCreatedAt();
-  ndkEvent.tags = [
-    ["filename", fileName],
+  const name = fileName.split('.').slice(0, -1).join('.') ?? '';
+  const extension = fileName.split('.').pop() ?? '';
+
+  const tags = [
+    ["name", name],
+    ["extension", extension],
     ["content-type", fileType],
-    ["size", fileSize.toString()],
-    getWSClientTag()
+    ["size", fileSize.toString()]
   ];
 
+  const ndkEvent = createNdkEvent(codeSnippetKind, base64Data, tags);
+
   try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.log(`Uploaded file ${fileName} (${fileSize} bytes) to ${publishedToRelays.size} relays`);
+    await publishNdkEvent(ndkEvent, `file ${fileName}`);
     return { success: true, eventId: ndkEvent.id, fileName: fileName };
   } catch (error) {
-    console.error(`Error uploading file ${fileName} to relays`, error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`Error publishing file to relay ${relay.url}`, err);
-      }
-    }
+    console.error(`Error uploading file ${fileName}`, error);
     return { success: false, error: error, fileName: fileName };
   }
 }
@@ -552,7 +509,7 @@ const getFileAttachmentEvents = async function(fileEventIds) {
   console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
-    kinds: [codeSnippetKind],
+    kinds: [assetRegistrationKind, codeSnippetKind],  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
     ids: fileEventIds
   });
 }
@@ -595,7 +552,8 @@ const getAllAssetInformation = async function({
                                                 sha256
                                               }) {
   await ensureNdkConnected();
-  console.time('getAllAssetInformation');
+  const randomNumber = Math.floor(Math.random() * 100);
+  console.time('getAllAssetInformation' + randomNumber);
   const filter_assets = {
     kinds: [assetRegistrationKind],
   };
@@ -641,9 +599,9 @@ const getAllAssetInformation = async function({
     eventSanitize(event);
   });
 
-  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
+  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
+  const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
+  const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
   //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
@@ -652,7 +610,7 @@ const getAllAssetInformation = async function({
   const endorsementsMap = new Map();
 
   assets.forEach(asset => {
-    const sha256FromEventTag = getFirstTag(asset, 'x');
+    const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
     if (sha256FromEventTag) {
       if (!assetsMap.has(sha256FromEventTag)) {
         assetsMap.set(sha256FromEventTag, []);
@@ -662,7 +620,7 @@ const getAllAssetInformation = async function({
   });
 
   verifications.forEach(verification => {
-    const sha256FromEventTag = getFirstTag(verification, 'x');
+    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
     if (sha256FromEventTag) {
       if (!verificationsMap.has(sha256FromEventTag)) {
         verificationsMap.set(sha256FromEventTag, []);
@@ -672,7 +630,7 @@ const getAllAssetInformation = async function({
   });
 
   draftVerifications.forEach(draftVerification => {
-    const sha256FromEventTag = getFirstTag(draftVerification, 'x');
+    const sha256FromEventTag = getFirstTagValue(draftVerification, 'x', null);
     if (sha256FromEventTag) {
       if (!draftVerificationsMap.has(sha256FromEventTag)) {
         draftVerificationsMap.set(sha256FromEventTag, []);
@@ -683,7 +641,7 @@ const getAllAssetInformation = async function({
 
   /*
   endorsements.forEach(endorsement => {
-    const verificationEventId = getFirstTag(endorsement, 'd');
+    const verificationEventId = getFirstTagValue(endorsement, 'd', null);
     if (verificationEventId) {
       if (!endorsementsMap.has(verificationEventId)) {
         endorsementsMap.set(verificationEventId, []);
@@ -693,7 +651,7 @@ const getAllAssetInformation = async function({
   });
   */
 
-  console.timeEnd('getAllAssetInformation');
+  console.timeEnd('getAllAssetInformation' + randomNumber);
 
   return {
     assets: assetsMap,
@@ -703,21 +661,37 @@ const getAllAssetInformation = async function({
   };
 }
 
+function getFirstTagValue(event, tagName, valueIfNull = '') {
+  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+}
+
 function getAppInfoFromEventInfo(eventInfo) {
   const isAsset = eventInfo.kind === assetRegistrationKind;
 
   const createdAt = eventInfo.created_at;
   const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
   const content = isAsset ? eventInfo.content : JSON.parse(eventInfo.content).content;
-  const appId = eventInfo.tags.find(tag => tag[0] === 'i')?.[1];
-  const version = eventInfo.tags.find(tag => tag[0] === 'version')?.[1];
-  const platform = eventInfo.tags.find(tag => tag[0] === 'platform')?.[1];
-  const status = eventInfo.tags.find(tag => tag[0] === 'status')?.[1];
-  const url = eventInfo.tags.find(tag => tag[0] === 'url')?.[1];
-  const gitRevision = eventInfo.tags.find(tag => tag[0] === 'git_revision')?.[1];
+  const appId = getFirstTagValue(eventInfo, 'i');
+  const version = getFirstTagValue(eventInfo, 'version');
+  const platform = getFirstTagValue(eventInfo, 'platform');
+  const status = getFirstTagValue(eventInfo, 'status');
+  const url = getFirstTagValue(eventInfo, 'url');
+  const gitRevision = getFirstTagValue(eventInfo, 'git_revision');
   const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
 
-  return { isAsset, appId, version, createdAt, description, content, platform, status, url, gitRevision, appHashes };
+  return {
+    isAsset,
+    appId,
+    version,
+    createdAt,
+    description,
+    content,
+    platform,
+    status,
+    url,
+    gitRevision,
+    appHashes,
+  };
 }
 
 function showToast(message, type = 'success', duration = 4000) {
@@ -765,26 +739,9 @@ const createNostrNote = async function (message) {
     throw new Error("Message is required");
   }
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = 1;
-  ndkEvent.content = message;
-  ndkEvent.tags = [
-    getWSClientTag()
-  ];
-
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    console.debug(`published note to ${publishedToRelays.size} relays`);
-    return ndkEvent.id;
-  } catch (error) {
-    console.error("error publishing note to relays", error);
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        console.error(`error publishing to relay ${relay.url}`, err);
-      }
-    }
-    throw error;
-  }
+  const ndkEvent = createNdkEvent(1, message);
+  await publishNdkEvent(ndkEvent, 'note');
+  return ndkEvent.id;
 }
 
 function setupAppIdAutocomplete() {
@@ -833,8 +790,12 @@ function setupAppIdAutocomplete() {
 
   appIdInput.addEventListener('input', (e) => {
     const searchText = e.target.value;
-    const filteredWallets = filterWallets(searchText);
-    showSuggestions(filteredWallets);
+    if (searchText.length > 1) {
+      const filteredWallets = filterWallets(searchText);
+      showSuggestions(filteredWallets);
+    } else {
+      showSuggestions([]);
+    }
   });
 
   document.addEventListener('click', (e) => {
@@ -863,13 +824,6 @@ function getStatusText(status, short = false) {
     default:
       return status;
   }
-}
-
-function isDebugEnv() {
-  if (typeof window === 'undefined') {
-    return false;
-  }
-  return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
 }
 
 const getDraftVerificationEvent = async function(draftVerificationEventId) {
@@ -910,24 +864,23 @@ const loadDraftVerificationsNotifications = async function () {
     return;
   }
 
-  const result = await getAllAssetInformation({months: 3, pubkey: myPubkey}); // TODO: improve this to get only draft verifications?
-
   let myDraftVerifications = [];
 
-  for (const draftVerification of result.draftVerifications) {
+  for (const draftVerification of window.allAssetInformation.draftVerifications) {
     const arrayDraftVerificationEventsForThisSha256 = draftVerification[1];
-
     for (const draftVerificationEvent of arrayDraftVerificationEventsForThisSha256) {
-      myDraftVerifications.push(draftVerificationEvent);
+      if (draftVerificationEvent.pubkey === myPubkey) {
+        myDraftVerifications.push(draftVerificationEvent);
+      }
     }
   }
 
   if (myDraftVerifications && myDraftVerifications.length > 0) {
     myDraftVerifications.forEach(verification => {
-      const identifier = verification.tags?.find(tag => tag[0] === 'i')?.[1];
-      const version = verification.tags?.find(tag => tag[0] === 'version')?.[1];
+      const identifier = getFirstTagValue(verification, 'i', 'Unknown');
+      const version = getFirstTagValue(verification, 'version', null);
       const wallet = window.wallets?.find(w => w.appId === identifier);
-      const walletTitle = wallet ? wallet.title : identifier ?? 'Unknown';
+      const walletTitle = wallet ? wallet.title : identifier;
 
       const verificationDate = new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
         year: 'numeric',
@@ -937,7 +890,7 @@ const loadDraftVerificationsNotifications = async function () {
         minute: '2-digit'
       });
 
-      const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
+      const status = getFirstTagValue(verification, 'status');
       const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + ` ${getStatusText(status, true)}</span>`;
 
       addNotificationToIndicator('Unpublished Verification',
@@ -963,17 +916,205 @@ function doDraftVerificationAction(draftVerificationEventId, action) {
   }
 }
 
+// Helper to compare semantic versions like "1.2.3"
+function compareVersions(a, b) {
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const na = pa[i] || 0;
+    const nb = pb[i] || 0;
+    if (na > nb) return 1;
+    if (na < nb) return -1;
+  }
+  return 0;
+}
+
+function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
+  // Check if getAllAssetInformationResult.verifications is defined
+  if (!getAllAssetInformationResult.verifications) {
+    throw new Error('getAllAssetInformationResult.verifications is not defined');
+  }
+
+  let maxVersion = null;
+  let maxDate = null;
+  let verifiedVersion = null;
+  let verifiedDate = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const version = getFirstTagValue(asset, 'version');
+      const appIdFromTag = getFirstTagValue(asset, 'i');
+      if (version && (!appId || appIdFromTag === appId)) {
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          maxVersion = version;
+          maxDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+
+        const status = getFirstTagValue(asset, 'status');
+        if (status === 'reproducible' && (!verifiedVersion || compareVersions(version, verifiedVersion) > 0)) {
+          verifiedVersion = version;
+          verifiedDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+          });
+        }
+      }
+    }
+  }
+
+  return {
+    lastVersion: maxVersion,
+    lastVersionDate: maxDate,
+    lastVerifiedVersion: verifiedVersion,
+    lastVerifiedVersionDate: verifiedDate
+  };
+}
+
+function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId, platform) {
+  let verification = null;
+  let maxVersion = null;
+
+  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+
+  for (const assetArray of allAssetArrays) {
+    for (const asset of assetArray) {
+      const version = getFirstTagValue(asset, 'version', null);
+      const appIdFromTag = getFirstTagValue(asset, 'i');
+      const platformFromTag = getFirstTagValue(asset, 'platform');
+      if (version && (appIdFromTag === appId) && (platformFromTag === platform)) {
+        if (!maxVersion || compareVersions(version, maxVersion) > 0) {
+          verification = asset;
+          maxVersion = version;
+        }
+      }
+    }
+  }
+
+  if (verification) {
+    return getFirstTagValue(verification, 'status');
+  }
+
+  return null;
+}
+
+function getWeightForAppFromAssetInformation(appId) {
+  if (!window.allAssetInformation) {
+    throw new Error('window.allAssetInformation is not defined yet');
+  }
+
+  const { lastVersion, lastVersionDate, lastVerifiedVersion, lastVerifiedVersionDate } = getMaxAssetVersion(window.allAssetInformation, appId);
+
+  let numberOfVerifications = 0;
+  let numberOfReproducibleVerifications = 0;
+
+  for (const verifications of window.allAssetInformation.verifications.values()) {
+    for (const verification of verifications) {
+      const appIdCurrentVerification = getFirstTagValue(verification, 'i');
+      const status = getFirstTagValue(verification, 'status');
+
+      if (appIdCurrentVerification === appId) {
+        numberOfVerifications += 1;
+
+        if (status === 'reproducible') {
+          numberOfReproducibleVerifications += 1;
+        }
+      }
+    }
+  }
+
+  let weight = numberOfReproducibleVerifications / numberOfVerifications;
+  if (isNaN(weight)) {
+    weight = 0;
+  }
+
+  return {
+    weight,
+    lastVersionVerified: (lastVerifiedVersion && (lastVerifiedVersion === lastVersion)) ? 1 : -1
+  };
+}
+
+////////////////////////////////////////////////////////////////////
+// CACHE FUNCTIONS
+////////////////////////////////////////////////////////////////////
+
+function getCache(key) {
+  try {
+    const cache = localStorage.getItem(key);
+    return cache ? JSON.parse(cache) : {};
+  } catch (error) {
+    console.error('Error reading from cache:', error);
+    return null;
+  }
+}
+
+function setCache(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify({
+      value: value,
+      timestamp: Date.now()
+    }));
+  } catch (error) {
+      console.error('Error writing to cache:', error);
+  }
+}
+
+function getCachedResultIfNotExpired(key) {
+  const CACHE_EXPIRATION_TIME = 3 * 60 * 60 * 1000; // 3 hours in milliseconds
+
+  const cache = getCache(key);
+    
+  if (cache) {
+      const isExpired = Date.now() - cache.timestamp > CACHE_EXPIRATION_TIME;
+      if (!isExpired) {
+          return cache.value;
+      }
+  }
+
+  return null;
+}
+
+const cleanupNdkConnections = function() {
+  if (ndk) {
+    try {
+      // Close all relay connections
+      let closedConnections = 0;
+      for (const relay of ndk.pool.relays.values()) {
+        if (relay.connectivity.status === 5) { // Connected
+          console.warn(`🔌 Closing relay connection: ${relay.url}`);
+          relay.disconnect();
+          closedConnections++;
+        }
+      }
+
+      console.warn(`🔌 Closed ${closedConnections} relay connections`);
+
+      // Clear the pool
+      ndk.pool.relays.clear();
+      console.warn("🧹 NDK pool cleared");
+    } catch (error) {
+      console.error("❌ Error during NDK cleanup:", error);
+    }
+    ndk = null;
+    ndkConnectionPromise = null;
+    console.warn("✅ NDK cleanup completed");
+  }
+};
+
 if (typeof window !== 'undefined') {
+  window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;
-  window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
-  window.getFirstTag = getFirstTag;
   window.getUserPubkey = getUserPubkey;
-  window.userHasBrowserExtension = userHasBrowserExtension;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
@@ -989,34 +1130,40 @@ if (typeof window !== 'undefined') {
   window.uploadFileAttachment = uploadFileAttachment;
   window.getFileAttachmentEvents = getFileAttachmentEvents;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
+  window.getMaxAssetVersion = getMaxAssetVersion;
+  window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
+  window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
+  window.cleanupNdkConnections = cleanupNdkConnections;
+  window.getFirstTagValue = getFirstTagValue;
+
+  window.addEventListener('beforeunload', () => {
+    cleanupNdkConnections();
+  });
 }
 
 export {
   nostrConnect,
   createAssetRegistration,
   createVerification,
-  createEndorsement,
   createNostrNote,
   getNostrProfile,
   getAllAssetInformation,
-  getFirstTag,
+  getFirstTagValue,
   getUserPubkey,
-  userHasBrowserExtension,
   showToast,
   getNpubFromPubkey,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,
   purifyConfig,
-  isDebugEnv,
   getStatusText,
   loadDraftVerificationsNotifications,
   doDraftVerificationAction,
   getDraftVerificationEvent,
   deleteDraftVerification,
-  getFirstValueFromTag,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
   getFileAttachmentEvents,
-  getAllAttachmentsForAppId
+  getAllAttachmentsForAppId,
+  getMaxAssetVersion
 };

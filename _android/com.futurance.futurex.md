@@ -8,8 +8,8 @@ users: 10000
 appId: com.futurance.futurex
 appCountry: 
 released: 2022-07-07
-updated: 2025-04-15
-version: 2.3.7
+updated: 2025-06-13
+version: 2.4.1
 stars: 
 ratings: 
 reviews: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-07-01
 signer: 
-reviewArchive: 
 twitter: Fexobit
 social:
 - https://www.linkedin.com/company/fexobit

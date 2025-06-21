@@ -8,11 +8,11 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2025-04-14
-version: 3.190.0
+updated: 2025-06-16
+version: 3.199.0
 stars: 4.2
 ratings: 
-reviews: 9028
+reviews: 9135
 website: https://public.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: public
 social:
 - https://www.instagram.com/publicapp

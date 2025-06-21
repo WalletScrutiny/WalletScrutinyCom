@@ -11,7 +11,7 @@ updated: 2024-12-28
 version: 5.4.2
 stars: 4.2
 ratings: 504
-reviews: 33
+reviews: 34
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-05-24
 signer: 
-reviewArchive: 
 twitter: bitcoincom
 social:
 - https://www.facebook.com/buy.bitcoin.news

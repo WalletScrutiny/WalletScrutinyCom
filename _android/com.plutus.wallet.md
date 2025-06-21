@@ -12,7 +12,7 @@ updated: 2024-01-12
 version: '146.0'
 stars: 3.4
 ratings: 44411
-reviews: 2899
+reviews: 2898
 website: https://www.abra.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-06
 signer: 
-reviewArchive: 
 twitter: AbraGlobal
 social:
 - https://www.linkedin.com/company/abra

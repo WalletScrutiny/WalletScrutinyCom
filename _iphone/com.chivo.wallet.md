@@ -11,18 +11,17 @@ released: 2021-09-07
 updated: 2023-06-29
 version: 2.4.1
 stars: 2.5
-reviews: 4235
+reviews: 4241
 website: https://www.chivowallet.com
 repository: 
 issue: 
 icon: com.chivo.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: obfuscated
 appHashes: 
-date: 2024-06-23
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV

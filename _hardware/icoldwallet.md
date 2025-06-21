@@ -16,8 +16,7 @@ weight: 26
 provider: Shenzhen Feitianxia Technology Co, Ltd.
 providerWebsite: http://idiskk.com/idiskk_new/about/?53.html
 website: https://www.icoldwallet.com/
-shop: >-
-  https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
+shop: https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
 country: CN
 price: 38.99USD
 repository: 
@@ -29,7 +28,6 @@ verdict: noita
 appHashes: 
 date: 2022-03-11
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

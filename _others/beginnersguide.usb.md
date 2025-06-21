@@ -8,8 +8,7 @@ date: 2023-12-15
 released: 2019-06-04
 weight: 11.3
 provider: BetterWorldATL
-shop: >-
-  https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
+shop: https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
 country: US
 price: 34USD
 meta: ok

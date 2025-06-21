@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: www_bit_store
 social: 
 redirect_from: 

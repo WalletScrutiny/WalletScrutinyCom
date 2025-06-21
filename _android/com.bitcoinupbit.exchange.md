@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.bitcoinupbit.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-03-25
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 redirect_from: 

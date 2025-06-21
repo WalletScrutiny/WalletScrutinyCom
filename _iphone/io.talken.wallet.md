@@ -8,8 +8,8 @@ appId: io.talken.wallet
 appCountry: 
 idd: 1459475831
 released: 2019-09-25
-updated: 2025-04-16
-version: 2.00.04
+updated: 2025-05-09
+version: 2.0.6
 stars: 5
 reviews: 6
 website: https://talken.io/
@@ -22,7 +22,6 @@ verdict: nobtc
 appHashes: 
 date: 2021-06-04
 signer: 
-reviewArchive: 
 twitter: Talken_
 social: 
 features: 

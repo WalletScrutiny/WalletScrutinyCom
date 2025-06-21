@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2024-10-22
 signer: 
-reviewArchive: 
 twitter: inusaitama
 social:
 - https://www.facebook.com/groups/1275234186328559/

@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-11-30
 signer: 
-reviewArchive: 
 twitter: LEO12_EXCHANGE
 social:
 - https://www.leo12.com

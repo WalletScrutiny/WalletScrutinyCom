@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exchangernet - Money Exchanger
+title: Exchangernet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.exchangernet
 appCountry: 
 released: 2021-02-21
-updated: 2021-02-22
-version: '1.0'
+updated: 2025-05-14
+version: '2.0'
 stars: 4.3
 ratings: 70
 reviews: 9
@@ -18,17 +18,16 @@ repository:
 issue: 
 icon: com.exchangernet.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-02-20
+date: 2025-05-16
 signer: 
-reviewArchive: 
 twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
-developerName: Exchange Digital Currency
+developerName: Currency Exchanger
 features: 
 
 ---

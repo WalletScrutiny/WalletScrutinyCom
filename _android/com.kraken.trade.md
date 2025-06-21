@@ -1,6 +1,6 @@
 ---
 wsId: krakent
-title: 'Kraken Pro: Invest in Crypto'
+title: 'Kraken Pro: Crypto & Stocks'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.kraken.trade
 appCountry: 
 released: 2019-10-24
-updated: 2025-04-11
-version: 5.2.0
-stars: 4.6
+updated: 2025-06-18
+version: 5.11.2
+stars: 4.7
 ratings: 25287
-reviews: 4008
+reviews: 4127
 website: https://www.kraken.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-05-29
 signer: 
-reviewArchive: 
 twitter: krakenfx
 social:
 - https://www.linkedin.com/company/krakenfx

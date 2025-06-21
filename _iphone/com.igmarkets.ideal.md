@@ -8,10 +8,10 @@ appId: com.igmarkets.ideal
 appCountry: sg
 idd: '406492428'
 released: 2011-01-24
-updated: 2025-04-17
-version: 10.2548.0
-stars: 4.6
-reviews: 2758
+updated: 2025-06-11
+version: 10.2633.0
+stars: 4.5
+reviews: 2776
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2022-06-23
 signer: 
-reviewArchive: 
 twitter: IGInternationa1
 social:
 - https://www.linkedin.com/company/ig-international-

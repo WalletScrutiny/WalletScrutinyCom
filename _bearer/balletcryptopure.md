@@ -16,8 +16,7 @@ weight: 35
 provider: Ballet
 providerWebsite: https://www.balletcrypto.com
 website: https://www.balletcrypto.com/en/pure/
-shop: >-
-  https://store.balletcrypto.com/collections/ballet/products/2021-pure-bitcoin-signature-set
+shop: https://store.balletcrypto.com/collections/ballet/products/2021-pure-bitcoin-signature-set
 country: US
 price: 499USD
 repository: 
@@ -28,7 +27,6 @@ meta: ok
 verdict: sealed-plainkey
 date: 2022-03-23
 signer: 
-reviewArchive: 
 twitter: BalletCrypto
 social:
 - https://www.linkedin.com/company/balletcrypto

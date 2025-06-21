@@ -12,18 +12,17 @@ updated: 2025-03-16
 version: 2.4.6
 stars: 2.7
 ratings: 
-reviews: 20
+reviews: 21
 website: https://bousechanj.com/
 repository: 
 issue: 
 icon: com.bouspam.eritajpam.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-20
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: eritajpam
 social: 
 redirect_from: 

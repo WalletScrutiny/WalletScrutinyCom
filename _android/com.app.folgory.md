@@ -23,7 +23,6 @@ verdict: wip
 appHashes: 
 date: 2023-05-11
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://web.archive.org/web/20220821164624/https://folgory.com/

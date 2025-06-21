@@ -28,7 +28,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2025-04-02
 signer: 
-reviewArchive: 
 twitter: CardwareWallet
 social:
 - https://t.me/cardwarewallet

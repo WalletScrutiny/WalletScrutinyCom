@@ -25,7 +25,6 @@ verdict: plainkey
 appHashes: 
 date: 2023-03-01
 signer: 
-reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv

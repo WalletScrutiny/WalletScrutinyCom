@@ -27,7 +27,6 @@ meta: ok
 verdict: prefilled
 date: 2022-05-18
 signer: 
-reviewArchive: 
 twitter: BalletCrypto
 social:
 - https://www.linkedin.com/company/balletcrypto

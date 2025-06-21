@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: com.bit.leagues.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-05-04
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup

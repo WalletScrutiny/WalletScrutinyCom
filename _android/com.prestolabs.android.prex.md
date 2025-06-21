@@ -8,11 +8,11 @@ users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2025-04-18
-version: 2.15.104
-stars: 3
+updated: 2025-06-12
+version: 2.23.102
+stars: 2.9
 ratings: 
-reviews: 72
+reviews: 73
 website: https://flipster.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-06-14
 signer: 
-reviewArchive: 
 twitter: AQXofficial
 social:
 - https://www.linkedin.com/company/aqx-official

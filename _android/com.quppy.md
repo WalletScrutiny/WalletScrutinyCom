@@ -8,8 +8,8 @@ users: 100000
 appId: com.quppy
 appCountry: 
 released: 2018-09-17
-updated: 2025-04-04
-version: 2.0.123
+updated: 2025-06-04
+version: 2.0.130
 stars: 2.7
 ratings: 3900
 reviews: 38
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2020-12-01
 signer: 
-reviewArchive: 
 twitter: QuppyPay
 social:
 - https://www.linkedin.com/company/quppy

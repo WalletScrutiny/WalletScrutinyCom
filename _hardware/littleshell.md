@@ -14,8 +14,7 @@ weight:
 provider: New Silk Technology
 providerWebsite: 
 website: https://sialktech.ir
-shop: >-
-  https://sialktech.ir/shop/digital-wallets/little-shell/littleshell-cryptocurrency-hardware-wallet/
+shop: https://sialktech.ir/shop/digital-wallets/little-shell/littleshell-cryptocurrency-hardware-wallet/
 country: IR
 price: 
 repository: 
@@ -27,7 +26,6 @@ verdict: wip
 appHashes: 
 date: 2023-03-23
 signer: 
-reviewArchive: 
 twitter: CCELittleshell
 social: 
 features: 

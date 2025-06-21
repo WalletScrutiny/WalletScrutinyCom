@@ -8,11 +8,11 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2025-03-21
-version: 2.1.9
-stars: 1.9
+updated: 2025-06-17
+version: 2.1.14
+stars: 2
 ratings: 377
-reviews: 195
+reviews: 197
 website: https://ecos.am
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-07
 signer: 
-reviewArchive: 
 twitter: ecosmining
 social:
 - https://www.facebook.com/ecosdefi

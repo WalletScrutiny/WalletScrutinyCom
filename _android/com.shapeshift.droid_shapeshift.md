@@ -13,18 +13,17 @@ updated: 2024-06-20
 version: 3.1.0
 stars: 3.3
 ratings: 2913
-reviews: 511
+reviews: 510
 website: https://ShapeShift.com
 repository: https://github.com/shapeshift/mobile-app
 issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2024-08-09
+date: 2025-06-18
 signer: 
-reviewArchive: 
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform

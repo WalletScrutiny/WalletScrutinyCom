@@ -28,7 +28,6 @@ verdict: nobtc
 appHashes: 
 date: 2022-05-26
 signer: 
-reviewArchive: 
 twitter: _JustinMoon_
 social: 
 features: 

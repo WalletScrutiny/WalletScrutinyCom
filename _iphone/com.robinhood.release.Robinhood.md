@@ -1,6 +1,6 @@
 ---
 wsId: Robinhood
-title: Robinhood - FinTech SuperApp
+title: 'Robinhood: Trade BTC, SOL, ETH'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.robinhood.release.Robinhood
 appCountry: us
 idd: 938003185
 released: 2014-12-11
-updated: 2025-04-16
-version: 2025.15.1
+updated: 2025-06-18
+version: 2025.24.2
 stars: 4.3
-reviews: 4519103
+reviews: 4550337
 website: https://robinhood.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2021-09-15
 signer: 
-reviewArchive: 
 twitter: RobinhoodApp
 social:
 - https://www.linkedin.com/company/robinhood

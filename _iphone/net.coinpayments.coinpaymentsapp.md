@@ -17,12 +17,11 @@ repository:
 issue: 
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-05-25
+date: 2025-05-14
 signer: 
-reviewArchive: 
 twitter: CoinPaymentsNET
 social:
 - https://www.linkedin.com/company/coinpayments-inc

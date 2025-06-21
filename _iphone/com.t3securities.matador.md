@@ -8,10 +8,10 @@ appId: com.t3securities.matador
 appCountry: us
 idd: '1204112719'
 released: 2017-03-13
-updated: 2025-04-15
-version: 4.13.8
+updated: 2025-06-17
+version: 4.13.17
 stars: 4.7
-reviews: 75990
+reviews: 76919
 website: https://public.com
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosendreceive
 appHashes: 
 date: 2023-07-21
 signer: 
-reviewArchive: 
 twitter: public
 social:
 - https://www.instagram.com/publicapp

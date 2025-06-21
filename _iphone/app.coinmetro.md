@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: 'Coinmetro: Crypto Exchange'
+title: Coinmetro Tap Buy Hold Crypto
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: app.coinmetro
 appCountry: us
 idd: '1397585225'
 released: 2018-07-25
-updated: 2025-04-07
-version: 5.50.839
+updated: 2025-06-17
+version: 5.50.868
 stars: 4.4
-reviews: 323
+reviews: 337
 website: https://coinmetro.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-26
 signer: 
-reviewArchive: 
 twitter: CoinMetro
 social:
 - https://www.linkedin.com/company/coinmetro

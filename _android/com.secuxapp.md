@@ -8,11 +8,11 @@ users: 10000
 appId: com.secuxapp
 appCountry: 
 released: 2021-11-24
-updated: 2025-04-18
-version: 1.31.3
-stars: 2.8
+updated: 2025-04-30
+version: 1.31.5
+stars: 2.9
 ratings: 
-reviews: 38
+reviews: 39
 website: https://secuxtech.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2023-08-24
 signer: 
-reviewArchive: 
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

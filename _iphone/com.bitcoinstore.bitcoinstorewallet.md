@@ -10,8 +10,8 @@ idd: '1661281314'
 released: 2023-01-09
 updated: 2025-03-31
 version: 1.0.19
-stars: 4.6
-reviews: 9
+stars: 4.2
+reviews: 10
 website: 
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-07
 signer: 
-reviewArchive: 
 twitter: storebitcoin
 social:
 - https://www.linkedin.com/company/bitstore-net

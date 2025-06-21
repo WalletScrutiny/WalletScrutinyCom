@@ -1,6 +1,6 @@
 ---
 wsId: byteWallet
-title: ByteWallet
+title: ByteVault
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 10000
 appId: io.bytewallet.bytewallet
 appCountry: 
 released: 2021-07-20
-updated: 2025-03-18
+updated: 2025-06-03
 version: VARY
 stars: 3.5
 ratings: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-22
 signer: 
-reviewArchive: 
 twitter: bytefederal
 social:
 - https://www.facebook.com/bytefederal

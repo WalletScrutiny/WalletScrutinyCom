@@ -25,7 +25,6 @@ verdict: vapor
 appHashes: 
 date: 2025-02-06
 signer: 
-reviewArchive: 
 twitter: neweconolab
 social: 
 features: 

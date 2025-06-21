@@ -8,9 +8,9 @@ users: 100000
 appId: com.deblock.deblockapp
 appCountry: 
 released: 
-updated: 2025-04-20
-version: 3.1.1
-stars: 4.7
+updated: 2025-06-19
+version: 4.0.8
+stars: 4.8
 ratings: 
 reviews: 7
 website: https://deblock.com/
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2024-09-06
 signer: 
-reviewArchive: 
 twitter: DeblockApp
 social:
 - https://discord.com/invite/deblock

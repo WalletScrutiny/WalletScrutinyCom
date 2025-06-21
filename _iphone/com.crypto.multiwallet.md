@@ -11,7 +11,7 @@ released: 2018-12-01
 updated: 2025-01-22
 version: 3.0.79
 stars: 4
-reviews: 907
+reviews: 911
 website: https://guarda.com/
 repository: 
 issue: 
@@ -22,7 +22,6 @@ verdict: nosource
 appHashes: 
 date: 2021-05-20
 signer: 
-reviewArchive: 
 twitter: GuardaWallet
 social:
 - https://www.facebook.com/guarda.co

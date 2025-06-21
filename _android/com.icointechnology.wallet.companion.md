@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-15
 updated: 2024-11-16
 version: 1.4.3.123
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 3
+reviews: 4
 website: https://icointechnology.com/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2025-02-28
 signer: 
-reviewArchive: 
 twitter: icoin_crypto
 social:
 - https://www.youtube.com/channel/UCPf8OvpLr7D6KnKNsSb3AKA

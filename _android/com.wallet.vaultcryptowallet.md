@@ -23,7 +23,6 @@ verdict: nobtc
 appHashes: 
 date: 2023-12-19
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/Bitcoin-Pay-110590501255347

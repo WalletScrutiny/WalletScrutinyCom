@@ -1,6 +1,6 @@
 ---
 wsId: BtcTurk
-title: BtcTurk I Bitcoin Alım Satımı
+title: 'BtcTurk | Bitcoin: Birikim Yap'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.mobillium.btcturk
 appCountry: tr
 released: 2020-05-06
-updated: 2025-02-25
-version: 2.0.1
+updated: 2025-03-28
+version: 2.0.2
 stars: 4.3
 ratings: 14766
-reviews: 5096
+reviews: 5101
 website: https://www.btcturk.com
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-10-10
 signer: 
-reviewArchive: 
 twitter: btcturk
 social:
 - https://www.linkedin.com/company/btcturk

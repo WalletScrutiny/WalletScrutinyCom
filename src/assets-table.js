@@ -1,13 +1,10 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
-
-window.DOMPurify = DOMPurify;
+import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText } from "./assets-table-utils.js";
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
-
-const table = document.createElement('table');
 
 let attachments = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible
@@ -22,7 +19,13 @@ async function updateTableVisibility() {
   const latestVersions = new Map();
 
   // Get all rows except header and show-more
-  const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+  const assetsTableElement = document.getElementById('assetsTable');
+
+  // Find Verifications cell index by looking at the header text
+  const headerCells = Array.from(assetsTableElement.querySelectorAll('th'));
+  const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
+  
+  const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
 
   rows.forEach(row => {
     const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
@@ -30,9 +33,6 @@ async function updateTableVisibility() {
     const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
     const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
 
-    // Find Verifications cell by looking at the header text
-    const headerCells = Array.from(table.querySelectorAll('th'));
-    const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
     const verificationsCell = row.cells[verificationsIndex]?.textContent || '';
     const hasVerifications = !verificationsCell.includes('No verifications yet');
 
@@ -57,7 +57,7 @@ async function updateTableVisibility() {
       shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
     }
 
-    row.style.display = shouldShow ? '' : 'none';
+    row.style.setProperty('display', shouldShow ? 'table-row' : 'none');
   });
 
   const userPubkey = await getUserPubkey();
@@ -65,11 +65,19 @@ async function updateTableVisibility() {
   // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
   const hideDraftsChecked = document.getElementById('hideDrafts').checked;
   document.querySelectorAll('.draft-attestation').forEach(attestation => {
-    if (hideDraftsChecked && !attestation.getAttribute('data-pubkey_verifiers')?.includes(userPubkey)) {
-      attestation.style.display = 'none';
-    } else {
-      // attestation is a tr?
-      attestation.style.display = attestation.tagName === 'TR' ? 'table-row' : 'block';
+    let draftManagementEnabled = true;
+
+    // If it's a TR and it's already hidden, drafts management cannot show it again
+    if (attestation.tagName === 'TR' && attestation.style.display === 'none') {
+      draftManagementEnabled = false;
+    }
+
+    if (draftManagementEnabled) {
+      if (hideDraftsChecked && !attestation.getAttribute('data-pubkey_verifiers')?.includes(userPubkey)) {
+        attestation.style.display = 'none';
+      } else {
+        attestation.style.display = attestation.tagName === 'TR' ? 'table-row' : 'block';
+      }
     }
   });
 }
@@ -95,6 +103,16 @@ window.renderAssetsTable = async function({
     sha256
   });
 
+  if (!document.getElementById('verificationModal')) {
+    const verificationModalDiv = document.createElement('div');
+    verificationModalDiv.id = 'verificationModal';
+    document.getElementById(htmlElementId).insertAdjacentElement('afterend', verificationModalDiv);
+  }
+
+  document.getElementById('verificationModal').innerHTML = `
+    <span id="closeModal">&times;</span>
+    <div id="verificationContent"></div>`;
+
   // --- Add Blossom Download Warning Modal Structure ---
   const blossomModalHTML = `
     <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
@@ -103,8 +121,8 @@ window.renderAssetsTable = async function({
         <p style="margin-top: 30px; margin-bottom: 20px;">⚠️ This file was uploaded by a third party. We haven't verified its content, so please be careful before running it. ⚠️</p>
         <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
       </div>
-    </div>
-  `;
+    </div>`;
+
   // Append modal to body to ensure it's outside the main container's potential overflow issues
   if (!document.getElementById('blossomWarningModal')) {
     document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
@@ -120,8 +138,8 @@ window.renderAssetsTable = async function({
         </div>
         <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
       </div>
-    </div>
-  `;
+    </div>`;
+
   // Append preview modal to body
   if (!document.getElementById('attachmentPreviewModal')) {
     document.body.insertAdjacentHTML('beforeend', attachmentPreviewModalHTML);
@@ -168,11 +186,15 @@ window.renderAssetsTable = async function({
 
   document.getElementById(htmlElementId).appendChild(searchContainer);
 
-  // Add event listeners for search and filters only if enableSearch is true
-  if (enableSearch) {
+  const setupSearchEventListeners = () => {
     document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
     document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
     document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
+  };
+
+  if (enableSearch) {
+    // Call setupEventListeners after a small delay to ensure DOM is ready
+    setTimeout(setupSearchEventListeners, 100);
   }
   if (enableDraftsFilter) {
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
@@ -222,8 +244,8 @@ window.renderAssetsTable = async function({
       if (result) {
         const { verification, sha256Hash } = result;
         // Extract appId and platform from the found verification's tags
-        const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-        const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+        const appIdFromVerification = getFirstTagValue(verification, 'i');
+        const platformFromVerification = getFirstTagValue(verification, 'platform');
 
         // Call showVerificationModal after a short delay
         setTimeout(() => {
@@ -254,8 +276,8 @@ window.renderAssetsTable = async function({
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
     sortedItems.sort((a, b) => {
-      const versionA = a.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const versionB = b.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionA = getFirstTagValue(a.items[0], 'version');
+      const versionB = getFirstTagValue(b.items[0], 'version');
 
       // Check for VARY string first
       const hasVaryA = versionA.includes('VARY');
@@ -292,6 +314,8 @@ window.renderAssetsTable = async function({
     attachments = await getFileAttachmentEvents(attachmentEventIDs);
   }
 
+  const table = document.createElement('table');
+  table.id = 'assetsTable';
   table.innerHTML = `
     <thead>
       <tr>
@@ -316,23 +340,15 @@ window.renderAssetsTable = async function({
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
-      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language,
-        {
-          year: '2-digit',
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        }
-      );
+      const date = formatDate(binary.created_at);
 
       const eventId = binary.id;
       const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
 
       const sha256HashKey = item.sha256;
-      const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
-      const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+      const version = getFirstTagValue(binary, 'version');
+      const identifier = getFirstTagValue(binary, 'i');
+      const platform = getFirstTagValue(binary, 'platform');
 
       // Guess if it's an asset or a verification
       hasAssets = binary.kind === assetRegistrationKind;
@@ -364,20 +380,20 @@ window.renderAssetsTable = async function({
 
         let listItems = '';
         for (const attestation of latestVerificationsByUser.values()) {
-          const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-          });
+          const attestationDate = formatDate(attestation.created_at);
 
-          const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+          const status = getFirstTagValue(attestation, 'status');
 
           let statusText = null;
 
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span> <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=' + attestation.id + '&action=edit\'" title="Edit Draft">✏️</span>' : '';
+          const draftBadge = isDraft ? `
+            <span class="badge badge-warning">Draft</span> 
+            <span
+              class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
+              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${attestation.id}&action=edit\'"
+            >✏️</span>`
+            : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -386,7 +402,7 @@ window.renderAssetsTable = async function({
                             class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
-            <div style="line-height: 1.2; margin-bottom: 0.7em;">
+            <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
@@ -396,11 +412,11 @@ window.renderAssetsTable = async function({
         }
         verificationsList = `${listItems}
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
         verificationsList = `No verifications yet.
         ${hideConfig?.buttons ? '' :
-          `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
+          `<div style="margin-top: 4px;"><a href="/new_verification/?appId=${identifier}&version=${version}&platform=${platform}" class="btn-tiny btn-success btn_outline" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);
@@ -412,7 +428,7 @@ window.renderAssetsTable = async function({
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          ${wallet ? `<a href="${wallet.url}" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
             <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>` : walletTitle}
@@ -444,20 +460,12 @@ window.renderAssetsTable = async function({
     if (sortedItems.length > showOnlyRows) {
       const showMoreRow = document.createElement('tr');
       showMoreRow.className = 'show-more-row';
+      showMoreRow.id = 'show-more-row';
       showMoreRow.innerHTML = `
-        <td colspan="8" style="text-align: center;">
-          <a href="#" class="show-more-link">Show ${sortedItems.length - showOnlyRows} more</a>
-        </td>
-      `;
+        <td colspan="8" style="text-align: center; padding: 15px;">
+          <button id="show-more-link" onclick="showMoreRows()" style="cursor: pointer; background: none; border: none; color: #0066cc; text-decoration: underline; font-size: inherit; padding: 5px 10px;">Show ${sortedItems.length - showOnlyRows} more</button>
+        </td>`;
       table.appendChild(showMoreRow);
-
-      const showMoreLink = showMoreRow.querySelector('.show-more-link');
-      showMoreLink.addEventListener('click', (e) => {
-        e.preventDefault();
-        const hiddenRows = table.querySelectorAll('.hidden-row');
-        hiddenRows.forEach(row => row.classList.remove('hidden-row'));
-        showMoreRow.remove();
-      });
     }
   } else {
     const row = document.createElement('tr');
@@ -494,16 +502,8 @@ window.renderAssetsTable = async function({
     `;
 
     attachments.forEach(attachment => {
-      const date = new Date(attachment.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
-      const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
-      const sizeInKb = Math.round(size / 1024);
+      const date = formatDate(attachment.created_at);
+      const { name, sizeInKb } = getAttachmentInfo(attachment);
 
       // Find in sortedItems the specific verification items that use this attachment
       const verifications = sortedItems.flatMap(item =>
@@ -519,7 +519,7 @@ window.renderAssetsTable = async function({
 
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
-      const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+      const attachmentContentType = getFirstTagValue(attachment, 'content-type', 'application/octet-stream');
 
       attachmentDataStore[attachment.id] = {
         content: attachmentContent,
@@ -539,9 +539,9 @@ window.renderAssetsTable = async function({
 
       if (verifications.length > 0) {
         for (const verification of verifications) {
-          const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
-          const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-          const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+          const version = getFirstTagValue(verification, 'version');
+          const identifier = getFirstTagValue(verification, 'i');
+          const platform = getFirstTagValue(verification, 'platform');
 
           const wallet = window.wallets.find(w => w.appId === identifier);
           const walletTitle = wallet ? wallet.title : identifier;
@@ -582,8 +582,6 @@ window.renderAssetsTable = async function({
       }
     }
   });
-
-  updateTableVisibility();
 
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
@@ -743,7 +741,7 @@ window.renderAssetsTable = async function({
                   ${profile.image ? `<img src="${profile.image}" class="profile-modal-image" onerror="this.style.display='none'"/>` : ''}
                   <br>
                   <span>${profile.name || pubkey}</span>
-                  <button class="profile-page-btn" onclick="window.open('/verifier/?pubkey=${pubkey}', '_blank', 'noopener,noreferrer')">Verifier Page</button>
+                  <button class="profile-page-btn" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">Verifier Page</button>
                 </div>
               </div>
             </div>
@@ -871,20 +869,7 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
-  try {
-    document.getElementById(htmlElementId).appendChild(`
-      <div id="diffoscopeModal" class="diffoscope-modal">
-        <div class="diffoscope-modal-content">
-          <div class="diffoscope-controls">
-              <span class="diffoscope-maximize" title="Maximize">⛶</span>
-              <span class="diffoscope-close" title="Close">✖</span>
-          </div>
-          <iframe id="diffoscopeFrame"></iframe>
-      </div>
-    </div>`);
-  } catch (error) {
-    console.debug('Catching this problem for now, but we should fix it:', error);
-  }
+  updateTableVisibility();
 
   return {
     hasAssets,
@@ -902,9 +887,25 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const verification  = attestations.find(a => a.id === verificationId);
   const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
-  const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
+  window.currentVerification = verification;
+
+  const status = getFirstTagValue(verification, 'status');
 
   const modal = document.getElementById('verificationModal');
+
+  if (!document.getElementById('diffoscopeModal')) {
+    modal.insertAdjacentHTML('beforebegin', `
+    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
+      <div class="diffoscope-modal-content">
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
+        <iframe id="diffoscopeFrame"></iframe>
+      </div>
+    </div>`);
+  }
+
   const content = document.getElementById('verificationContent');
 
   // Reset scroll positions before showing the modal again
@@ -927,9 +928,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         minute: '2-digit'
       });
 
-      const status = otherVerification.tags.find(tag => tag[0] === 'status')?.[1] || '';
+      const status = getFirstTagValue(otherVerification, 'status');
 
-      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + '</span>';
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + getStatusIcon(status) + '</span>';
 
       otherVerificationsHTML += `<li>
         ${verificationDate} ${statusIcon}
@@ -950,28 +951,36 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     hour: '2-digit',
     minute: '2-digit'
   })}</p>
-    <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>`;
 
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
   // Show attachments (scripts used to reproduce)
-  if (verificationAttachments.length > 0) {
-    // Wait here until attachmentDataStore is filled
-    while (Object.keys(attachmentDataStore).length === 0) {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-
+  const numberVerificationAttachments = verificationAttachments.length;
+  if (numberVerificationAttachments > 0) {
     let attachmentsHTML = '';
 
-    for (const attachment of verificationAttachments) {
-      const attachmentId = attachment[1];
-      const attachmentInfo = attachmentDataStore[attachmentId];
+    if (!window.location.pathname.includes('/verifier/') && !window.location.pathname.includes('/assets/')) {
+      //  Wait here until attachmentDataStore is filled
+      while (Object.keys(attachmentDataStore).length === 0) {
+        await new Promise(resolve => setTimeout(resolve, 50));
+      }
 
-      if (attachmentInfo) {
-        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
-          <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
-          <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+      for (const attachment of verificationAttachments) {
+        const attachmentId = attachment[1];
+        const attachmentInfo = attachmentDataStore[attachmentId];
+  
+        if (attachmentInfo) {
+          attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
+            <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+            <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+        }
+      }
+    } else {
+      const wallet = window.wallets.find(w => w.appId === appId);
+      for (let i = 0; i < numberVerificationAttachments; i++) {
+        attachmentsHTML += `<li>${i + 1} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
       }
     }
 
@@ -1026,7 +1035,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <div class="markdown-content">
       ${diffoscopeHTML}
       ${asciicastHTML}
-      ${marked.parse(itemContent)}
+      <div style="white-space: pre-wrap;">${marked.parse(itemContent)}</div>
     </div>
   </p>`;
 
@@ -1089,30 +1098,22 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     insertDiffoscopeAssets();
   }
 
-  // Add share button dynamically
-  const shareButton = document.createElement('button');
-  shareButton.id = 'shareVerificationButton';
-  // Use innerHTML to include the Font Awesome icon and text
-  shareButton.innerHTML = '<i class="fas fa-share-alt"></i> Copy link to this verification';
-  shareButton.title = 'Copy link to this verification';
-  shareButton.style.position = 'absolute';
-  shareButton.style.top = '15px';
-  shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
-  shareButton.className = 'btn-small'; // Optional: Use existing styles
-  shareButton.onclick = () => {
-    navigator.clipboard.writeText(window.location.href)
-      .then(() => showToast('Link copied to clipboard'))
-      .catch(err => {
-        console.error('Failed to copy link: ', err);
-        showToast('Failed to copy link', 'error');
-      });
-  };
-  modal.appendChild(shareButton);
+  const verificationActions = document.createElement('div');
+  verificationActions.id = 'verification-action-buttons';
+  verificationActions.style.marginTop = '10px';
+  verificationActions.innerHTML = `
+      <img onclick="showVerificationButtons()" id="verification-nostr-icon" src="/images/nostr_logo.svg" alt="Nostr Logo" title="Show Nostr actions" />
+      <button onclick="openEventInNjump('${verification.id}')" class="btn-small button-closed-by-default">Open in njump</button>
+      <button onclick="copyNostrEmbedToClipboard('${verification.id}')" class="btn-small button-closed-by-default">Copy Nostr embed code</button>
+      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>
+      <button onclick="copyLinkToVerificationToClipboard()" class="btn-small"><i class="fas fa-share-alt"></i> Copy link to this verification</button>`;
+
+  modal.appendChild(verificationActions);
 
   modal.style.display = 'block';
 
-  // Add blur to all divs except verificationModal
-  document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+  // Add blur to all divs except verificationModal and diffoscopeModal
+  document.querySelectorAll('.archive > div:not(#verificationModal):not(#diffoscopeModal), .archive > h1').forEach(div => {
     div.style.filter = 'blur(5px)';
   });
 
@@ -1139,6 +1140,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const closeModalAction = () => {
     modal.style.display = 'none';
+    window.currentVerification = null;
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
     document.body.classList.remove("modal-open");
@@ -1148,11 +1150,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     });
     // Restore original URL (remove hash)
     history.pushState("", document.title, originalUrlBeforeModal);
-    // Remove the dynamically added share button
-    const shareBtn = document.getElementById('shareVerificationButton');
-    if (shareBtn) {
-      shareBtn.remove();
-    }
   };
 
   document.getElementById('closeModal').onclick = closeModalAction;
@@ -1246,6 +1243,16 @@ window.handleAttachmentDownload = function(attachmentId) {
   };
 
   modal.style.display = 'block';
+};
+
+// Function to show verification buttons and hide Nostr icon
+window.showVerificationButtons = function() {
+  const buttonClosedByDefault = document.getElementById('verification-action-buttons').querySelectorAll('.button-closed-by-default');
+  buttonClosedByDefault.forEach(button => {
+    button.classList.remove('button-closed-by-default');
+  });
+
+  document.getElementById('verification-nostr-icon').style.display = 'none';
 };
 
 // Function to handle attachment preview

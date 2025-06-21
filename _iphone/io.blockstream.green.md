@@ -1,6 +1,6 @@
 ---
 wsId: GreenBitcoinWallet
-title: 'Green: Bitcoin Wallet'
+title: Blockstream BTC Wallet (Green)
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: io.blockstream.green
 appCountry: 
 idd: 1402243590
 released: 2019-03-22
-updated: 2025-04-02
-version: 4.1.8
-stars: 4.8
-reviews: 849
-website: https://blockstream.com/green/
+updated: 2025-06-18
+version: 5.0.4
+stars: 4.7
+reviews: 906
+website: https://blockstream.com/app
 repository: https://github.com/Blockstream/green_ios
 issue: 
 icon: io.blockstream.green.jpg
@@ -22,12 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2020-12-19
 signer: 
-reviewArchive:
-- date: 2020-12-19
-  version: 4.1.0
-  appHashes: []
-  gitRevision: 1d915d864d956ae13a1ea1939a7121444ceee3b2
-  verdict: nonverifiable
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream

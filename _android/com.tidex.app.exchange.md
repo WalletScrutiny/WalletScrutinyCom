@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-04
+date: 2025-06-06
 signer: 
-reviewArchive: 
 twitter: Tidex_Exchange
 social:
 - https://www.facebook.com/TidexExchange

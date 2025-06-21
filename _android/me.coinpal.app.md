@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2022-02-10
 signer: 
-reviewArchive: 
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal

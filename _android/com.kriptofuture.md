@@ -23,7 +23,6 @@ verdict: nowallet
 appHashes: 
 date: 2024-02-05
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://www.facebook.com/Kriptofuture

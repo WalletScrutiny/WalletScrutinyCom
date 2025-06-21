@@ -8,11 +8,11 @@ users: 5000000
 appId: io.cex.app.prod
 appCountry: 
 released: 2015-12-22
-updated: 2025-04-14
-version: 11.8.0
-stars: 4.3
+updated: 2025-06-02
+version: 12.5.0
+stars: 4.2
 ratings: 16669
-reviews: 10923
+reviews: 10942
 website: https://cex.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2021-04-16
 signer: 
-reviewArchive: 
 twitter: cex_io
 social:
 - https://www.linkedin.com/company/cex-io

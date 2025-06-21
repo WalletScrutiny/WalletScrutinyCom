@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-14
 signer: 
-reviewArchive: 
 twitter: exchangilydex
 social:
 - https://www.facebook.com/BestDEX

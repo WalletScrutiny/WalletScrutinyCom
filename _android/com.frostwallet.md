@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.frostwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-06-20
 signer: 
-reviewArchive: 
 twitter: 
 social:
 - https://t.me/frost_wallet

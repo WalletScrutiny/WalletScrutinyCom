@@ -8,10 +8,10 @@ appId: com.muun.falcon
 appCountry: 
 idd: 1482037683
 released: 2019-10-11
-updated: 2025-03-25
-version: 2.9.1
-stars: 4.3
-reviews: 263
+updated: 2025-06-02
+version: 2.10.0
+stars: 4.2
+reviews: 273
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: []
 date: 2021-07-30
 signer: 
-reviewArchive: 
 twitter: muunwallet
 social: 
 features:

@@ -8,9 +8,9 @@ users: 50000
 appId: com.deribit
 appCountry: 
 released: 2018-01-10
-updated: 2025-04-19
-version: 3.14.0
-stars: 4.1
+updated: 2025-06-16
+version: 3.16.1
+stars: 4.2
 ratings: 
 reviews: 5
 website: https://www.deribit.com
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: 
 date: 2023-03-31
 signer: 
-reviewArchive: 
 twitter: deribitexchange
 social:
 - https://www.linkedin.com/company/deribit/

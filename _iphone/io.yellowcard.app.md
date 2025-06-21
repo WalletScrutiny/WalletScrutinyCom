@@ -9,10 +9,10 @@ appId: io.yellowcard.app
 appCountry: za
 idd: 1543252298
 released: 2021-03-04
-updated: 2025-04-21
-version: 6.4.6
+updated: 2025-05-23
+version: 6.5.4
 stars: 3.9
-reviews: 54
+reviews: 55
 website: https://yellowcard.io
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: custodial
 appHashes: []
 date: 2021-07-28
 signer: 
-reviewArchive: 
 twitter: yellowcard_app
 social:
 - https://www.linkedin.com/company/yellowcardapp

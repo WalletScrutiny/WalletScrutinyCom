@@ -8,8 +8,8 @@ appId: com.scallop.app
 appCountry: bg
 idd: '1599717690'
 released: 2021-12-10
-updated: 2025-03-19
-version: 1.7.8
+updated: 2025-05-29
+version: 1.8.4
 stars: 0
 reviews: 0
 website: https://emoney.io/
@@ -22,7 +22,6 @@ verdict: custodial
 appHashes: 
 date: 2025-01-27
 signer: 
-reviewArchive: 
 twitter: ScallopOfficial
 social:
 - https://www.linkedin.com/company/scallopx

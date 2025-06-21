@@ -22,7 +22,6 @@ verdict: sourceavailable
 appHashes: 
 date: 2023-08-16
 signer: 
-reviewArchive: 
 twitter: ExchangilyC
 social:
 - https://www.facebook.com/Exchangily-439040053240813

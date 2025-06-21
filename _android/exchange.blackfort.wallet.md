@@ -12,7 +12,7 @@ updated: 2021-10-27
 version: 1.3.18
 stars: 4.2
 ratings: 64
-reviews: 53
+reviews: 52
 website: https://blackfort.exchange
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2023-10-22
 signer: 
-reviewArchive: 
 twitter: BlackFort_Tech
 social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange

@@ -18,12 +18,11 @@ repository:
 issue: 
 icon: com.obsidiam.android1.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-17
+date: 2025-05-30
 signer: 
-reviewArchive: 
 twitter: obsidiamlatam
 social:
 - https://www.facebook.com/obsidiamexchange

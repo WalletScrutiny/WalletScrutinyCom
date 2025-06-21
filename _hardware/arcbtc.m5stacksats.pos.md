@@ -28,7 +28,6 @@ verdict: nowallet
 appHashes: 
 date: 2022-05-20
 signer: 
-reviewArchive: 
 twitter: 
 social: 
 features: 

@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2025-03-14
 signer: 
-reviewArchive: 
 twitter: FUNtoken_io
 social:
 - https://t.me/officialFUNToken

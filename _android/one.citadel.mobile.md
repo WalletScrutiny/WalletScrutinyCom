@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-29
 updated: 2025-02-25
 version: 2.12.3
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 15
+reviews: 14
 website: https://citadel.one/
 repository: 
 issue: 
@@ -23,7 +23,6 @@ verdict: nosource
 appHashes: 
 date: 2024-07-17
 signer: 
-reviewArchive: 
 twitter: CitadelDAO
 social:
 - https://www.reddit.com/r/citadeldao/
