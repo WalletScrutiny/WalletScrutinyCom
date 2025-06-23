@@ -10,7 +10,7 @@ appCountry: us
 released: 2023-02-16
 updated: 2025-04-07
 version: 2.4.0
-stars: 2.8
+stars: 2.7
 ratings: 
 reviews: 12
 website: https://slingshot.app

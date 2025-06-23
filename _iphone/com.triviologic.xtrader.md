@@ -10,8 +10,8 @@ idd: 864027750
 released: 2014-05-30
 updated: 2025-06-03
 version: 7.0.11
-stars: 2.5
-reviews: 28
+stars: 2.4
+reviews: 29
 website: https://www.xtrade.com/
 repository: 
 issue: 

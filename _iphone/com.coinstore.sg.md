@@ -11,7 +11,7 @@ released: 2021-05-12
 updated: 2025-05-09
 version: 3.6.2
 stars: 4
-reviews: 96
+reviews: 97
 website: https://www.coinstore.com
 repository: 
 issue: 

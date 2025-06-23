@@ -7,7 +7,7 @@ authors:
 released: 2009-01-04
 discontinued: 
 updated: 2025-04-15
-version: '29'
+version: 29
 binaries: https://bitcoincore.org/en/download
 provider: Bitcoin Core Developers
 providerWebsite: 
@@ -18,7 +18,7 @@ icon: bitcoincore.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-25
+date: 2025-04-15
 twitter: bitcoincoreorg
 social: 
 features: 

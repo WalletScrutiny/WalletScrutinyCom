@@ -6,7 +6,7 @@ authors:
 released: 2019-03-15
 discontinued: 
 updated: 2025-02-24
-version: 2.2.0
+version: 3.0.3
 binaries: https://messenger.mixin.one/download
 provider: Mixin Ltd.
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: mixin.messenger.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-25
+date: 2025-06-20
 twitter: Mixin_Network
 social: 
 features: 

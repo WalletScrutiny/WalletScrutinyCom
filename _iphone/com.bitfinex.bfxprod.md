@@ -11,7 +11,7 @@ released: 2019-01-25
 updated: 2025-06-04
 version: 7.11.0
 stars: 4.1
-reviews: 163
+reviews: 164
 website: https://www.bitfinex.com/mobile-trading/
 repository: 
 issue: 

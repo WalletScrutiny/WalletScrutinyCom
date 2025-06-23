@@ -9,10 +9,10 @@ appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
 updated: 2025-06-10
-version: 8.10.0
+version: 8.11.0
 stars: 3.4
 ratings: 
-reviews: 41
+reviews: 42
 website: https://www.swissquote.com/
 repository: 
 issue: 

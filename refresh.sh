@@ -3,12 +3,14 @@
 # run this using Docker:
 # docker run --rm -v$PWD:/mnt --workdir=/mnt node bash ./refresh.sh -k $LN_KEY
 
-while getopts k:a: option
+while getopts k:a:g: option
 do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;   # the api key for the BtcPayServer
     a) apps=${OPTARG};;        # comma separated list of app IDs
+    g) githubToken=${OPTARG};; # GitHub token for Desktop and Hardware refresh
+
   esac
 done
 
@@ -29,6 +31,20 @@ if [ -z "$apps" ]; then
       --input-type=module \
       --eval "import refreshApps from \"./refreshApps.mjs\"; refreshApps.refresh(true, \"$apps\")"
   fi
+fi
+
+echo " * Refreshing Desktop apps..."
+if [ -n "$githubToken" ]; then
+  node scripts/refreshDesktop.mjs -r -g "$githubToken"
+else
+  echo "   ⚠️  Skipping Desktop refresh — no GitHub token (-g) provided"
+fi
+
+echo " * Refreshing Hardware apps..."
+if [ -n "$githubToken" ]; then
+  node scripts/refreshHardware.mjs -g "$githubToken"
+else
+  echo "   ⚠️  Skipping Hardware refresh — no GitHub token (-g) provided"
 fi
 
 echo " * Refreshing donations page from BTCPay..."

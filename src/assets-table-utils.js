@@ -1,4 +1,58 @@
-import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
+import { verificationKind, mainRelayUrl, codeSnippetKind } from "./nostr-constants.mjs";
+
+// Utility functions for handling tags
+export function getFirstTagValue(event, tagName, valueIfNull = '') {
+  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+}
+
+// Utility function for formatting dates
+export function formatDate(timestamp) {
+  return new Date(timestamp * 1000).toLocaleDateString(navigator.language, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+}
+
+// Utility function for handling attachments
+export function getAttachmentInfo(attachment) {
+  let name;
+  if (attachment.kind === codeSnippetKind) {
+    const attachmentName = getFirstTagValue(attachment, 'name');
+    const extension = getFirstTagValue(attachment, 'extension');
+    name = `${attachmentName}.${extension}`;
+  } else {
+    name = getFirstTagValue(attachment, 'filename');
+  }
+  const size = getFirstTagValue(attachment, 'size');
+  const sizeInKb = Math.round(size / 1024);
+
+  return {
+    name,
+    sizeInKb
+  };
+}
+
+// Utility function for handling verification status
+export function getStatusIcon(status) {
+  return status === 'reproducible' ? '✅' : '❌';
+}
+
+// Utility function for handling verification status text
+export function getStatusText(status, short = false) {
+  switch (status) {
+    case 'reproducible':
+      return short ? 'Reproducible' : 'The application was successfully reproduced';
+    case 'not_reproducible':
+      return short ? 'Not Reproducible' : 'The application could not be reproduced';
+    case 'not_tested':
+      return short ? 'Not Tested' : 'The application has not been tested yet';
+    default:
+      return short ? 'Unknown' : 'Unknown status';
+  }
+}
 
 window.showMoreRows = function() {
   const hiddenRows = document.querySelectorAll('.hidden-row');

@@ -10,7 +10,7 @@ appCountry:
 released: 2021-02-25
 updated: 2025-02-05
 version: '33200'
-stars: 3.5
+stars: 3.6
 ratings: 
 reviews: 225
 website: https://antcoin.antf.online/

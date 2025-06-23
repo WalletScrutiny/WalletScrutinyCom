@@ -62,8 +62,7 @@ function setupPreviewButtons() {
       
       previewArea.style.display = 'block';
     });
-    
-    console.log('Preview button functionality initialized successfully');
+
   } catch (error) {
     console.error('Error setting up preview buttons:', error);
   }

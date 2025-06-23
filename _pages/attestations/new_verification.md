@@ -480,14 +480,14 @@ permalink: /new_verification/
     </form>
 </div>
 
-<div id="verificationModal"></div>
-
 <script>
   let otherHashes = [];
   let newHashInputField;
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
   let outputFiles = []; // Store files for Blossom upload
+
+  document.getElementById('loadingSpinner').style.display = 'block';
 
   function addHash(hash) {
     if (!hash) return;
@@ -696,149 +696,145 @@ permalink: /new_verification/
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
 
-    window.addEventListener('verificationsUILoaded', async () => {
-      if (!await userHasBrowserExtension()) {
-        showError('A Nostr browser extension is required to create verifications.');
-        return;
+    if (!await userHasBrowserExtension()) {
+      showError('A Nostr browser extension is required to create verifications.');
+      return;
+    }
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+    const action = urlParams.get('action');
+
+    if (draftVerificationEventId && action) {
+      const draftButton = document.querySelector('button[name="draft"]');
+      if (draftButton) {
+        draftButton.textContent = 'Save Draft Verification';
       }
 
-      document.getElementById('loadingSpinner').style.display = 'block';
+      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
+      document.title = 'Editing Draft Verification | Wallet Scrutiny';
 
-      const urlParams = new URLSearchParams(window.location.search);
-      const draftVerificationEventId = urlParams.get('draftVerificationEventId');
-      const action = urlParams.get('action');
+      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+      if (draftVerificationEvent) {
+        const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
+        const attachments = await getFileAttachmentEvents(fileEventIds);
 
-      if (draftVerificationEventId && action) {
-        const draftButton = document.querySelector('button[name="draft"]');
-        if (draftButton) {
-          draftButton.textContent = 'Save Draft Verification';
-        }
-
-        document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
-        document.title = 'Editing Draft Verification | Wallet Scrutiny';
-
-        const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-        if (draftVerificationEvent) {
-          const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
-          const attachments = await getFileAttachmentEvents(fileEventIds);
-
-          attachments.forEach(attachment => {
-            let name;
-            if (attachment.kind === codeSnippetKind) {
-              const attachmentName = getFirstTagValue(attachment, 'name');
-              const extension = getFirstTagValue(attachment, 'extension');
-              name = `${attachmentName}.${extension}`;
-            } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-              name = getFirstTagValue(attachment, 'filename');
-            }
-
-            const size = getFirstTagValue(attachment, 'size');
-            const attachmentContent = atob(attachment.content);
-            const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-
-            uploadedFiles.push({
-              name: name,
-              size: size,
-              type: attachmentContentType,
-              data: attachmentContent
-            });
-          });
-          displayFiles();
-
-          const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
-          verificationOutputFiles.forEach(outputFile => {
-            outputFiles.push({
-              name: outputFile[1],
-              hash: outputFile[2]
-            });
-          });
-          displayOutputFiles();
-
-          // If files were loaded from the draft, set the script usage selector to 'upload'
-          if (uploadedFiles.length > 0) {
-            document.getElementById('scriptUsage').value = 'upload';
-            handleScriptSectionVisibility();
+        attachments.forEach(attachment => {
+          let name;
+          if (attachment.kind === codeSnippetKind) {
+            const attachmentName = getFirstTagValue(attachment, 'name');
+            const extension = getFirstTagValue(attachment, 'extension');
+            name = `${attachmentName}.${extension}`;
+          } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
+            name = getFirstTagValue(attachment, 'filename');
           }
 
-          const eventContent = JSON.parse(draftVerificationEvent.content);
+          const size = getFirstTagValue(attachment, 'size');
+          const attachmentContent = atob(attachment.content);
+          const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
 
-          document.getElementById('appId').value = getFirstTagValue(draftVerificationEvent, 'i');
-          document.getElementById('version').value = getFirstTagValue(draftVerificationEvent, 'version');
-          document.getElementById('platform').value = getFirstTagValue(draftVerificationEvent, 'platform');
-          document.getElementById('description').value = eventContent.description || '';
-          document.getElementById('status').value = getFirstTagValue(draftVerificationEvent, 'status');
-          document.getElementById('content').value = eventContent.content || '';
+          uploadedFiles.push({
+            name: name,
+            size: size,
+            type: attachmentContentType,
+            data: attachmentContent
+          });
+        });
+        displayFiles();
 
-          const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
-          hashes.forEach(hash => addHash(hash));
-        } else {
-          showToast('Draft verification not found', 'error');
+        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+        verificationOutputFiles.forEach(outputFile => {
+          outputFiles.push({
+            name: outputFile[1],
+            hash: outputFile[2]
+          });
+        });
+        displayOutputFiles();
+
+        // If files were loaded from the draft, set the script usage selector to 'upload'
+        if (uploadedFiles.length > 0) {
+          document.getElementById('scriptUsage').value = 'upload';
+          handleScriptSectionVisibility();
         }
+
+        const eventContent = JSON.parse(draftVerificationEvent.content);
+
+        document.getElementById('appId').value = getFirstTagValue(draftVerificationEvent, 'i');
+        document.getElementById('version').value = getFirstTagValue(draftVerificationEvent, 'version');
+        document.getElementById('platform').value = getFirstTagValue(draftVerificationEvent, 'platform');
+        document.getElementById('description').value = eventContent.description || '';
+        document.getElementById('status').value = getFirstTagValue(draftVerificationEvent, 'status');
+        document.getElementById('content').value = eventContent.content || '';
+
+        const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+        hashes.forEach(hash => addHash(hash));
       } else {
-        const deleteDraftBtn = document.getElementById('deleteDraft');
-        if (deleteDraftBtn) {
-          deleteDraftBtn.style.display = 'none';
-        }
+        showToast('Draft verification not found', 'error');
       }
-
-      if (window.wallets && window.wallets.length > 0) {
-        setupAppIdAutocomplete();
+    } else {
+      const deleteDraftBtn = document.getElementById('deleteDraft');
+      if (deleteDraftBtn) {
+        deleteDraftBtn.style.display = 'none';
       }
+    }
 
-      const fields = ['version', 'appId', 'platform'];
-      fields.forEach(field => {
-        const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
-        if (value) {
-          document.getElementById(field).value = value;
-        }
+    if (window.wallets && window.wallets.length > 0) {
+      setupAppIdAutocomplete();
+    }
+
+    const fields = ['version', 'appId', 'platform'];
+    fields.forEach(field => {
+      const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
+      if (value) {
+        document.getElementById(field).value = value;
+      }
+    });
+
+    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
+
+    // Update the hashes label based on whether sha256 is present
+    const hashesLabel = document.getElementById('hashesLabel');
+    const hashesHelpText = document.getElementById('hashesHelpText');
+    if (sha256) {
+      hashesLabel.textContent = 'Additional related hashes:';
+      hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
+    } else {
+      hashesLabel.textContent = 'Asset hashes*:';
+      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
+    }
+
+    let message = '';
+
+    if (sha256) {
+      // Show asset information and previous verifications
+      const result = await renderAssetsTable({
+        htmlElementId:'previousAttestations',
+        sha256: sha256,
+        hideConfig: {buttons: true}
       });
 
-      const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
+      if (!result.hasVerifications) {
+        document.getElementById('previousAttestations').style.display = 'none';
+      }
 
-      // Update the hashes label based on whether sha256 is present
-      const hashesLabel = document.getElementById('hashesLabel');
-      const hashesHelpText = document.getElementById('hashesHelpText');
-      if (sha256) {
-        hashesLabel.textContent = 'Additional related hashes:';
-        hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
+      if (result.hasVerifications) {
+        message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
       } else {
-        hashesLabel.textContent = 'Asset hashes*:';
-        hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
+        message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
       }
+    }
 
-      let message = '';
+    message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
+    const infoMessage = document.querySelector('.info-message');
+    infoMessage.innerHTML = message;
 
-      if (sha256) {
-        // Show asset information and previous verifications
-        const result = await renderAssetsTable({
-          htmlElementId:'previousAttestations',
-          sha256: sha256,
-          hideConfig: {buttons: true}
-        });
+    // Initial call to load scripts if appId is pre-filled
+    const initialAppId = document.getElementById('appId').value.trim();
+    if (initialAppId) {
+      await loadAndDisplayAvailableScripts(initialAppId);
+    }
 
-        if (!result.hasVerifications) {
-          document.getElementById('previousAttestations').style.display = 'none';
-        }
-
-        if (result.hasVerifications) {
-          message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
-        } else {
-          message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
-        }
-      }
-
-      message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
-      const infoMessage = document.querySelector('.info-message');
-      infoMessage.innerHTML = message;
-
-      // Initial call to load scripts if appId is pre-filled
-      const initialAppId = document.getElementById('appId').value.trim();
-      if (initialAppId) {
-        await loadAndDisplayAvailableScripts(initialAppId);
-      }
-
-      document.getElementById('loadingSpinner').style.display = 'none';
-    });
+    document.getElementById('loadingSpinner').style.display = 'none';
   }
 
   async function loadAndDisplayAvailableScripts(appId) {
@@ -1073,7 +1069,7 @@ permalink: /new_verification/
     }
   }
 
-  document.addEventListener('DOMContentLoaded', async function() {
+  window.addEventListener('verificationsUILoaded', async () => {
     await loadUrlParamsAndGetAssetInfo();
     updateCharCount(); // Initial count
     setupDropZone();
@@ -1126,9 +1122,11 @@ permalink: /new_verification/
       }
     });
 
-    // Initialize the preview button functionality
-    window.addEventListener('verificationsUILoaded', async () => {
-      initializePreviewButton();
-    });
+    initializePreviewButton();
+  });
+
+  window.addEventListener('allWalletsLoaded', async () => {
+    // Setup AutoComplete again, now with all the wallets loaded
+    setupAppIdAutocomplete();
   });
 </script>

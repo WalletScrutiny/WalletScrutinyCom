@@ -20,8 +20,6 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="verificationModal"></div>
-
 <script>
   document.getElementById('loadingSpinner').style.display = 'block';
 

@@ -4,7 +4,7 @@ title: 'Choice: Bitcoin in your IRA'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.holdings.choice
 appCountry: 
 released: 2022-04-04

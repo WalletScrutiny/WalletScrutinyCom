@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.chivo.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: obfuscated
 appHashes: 
-date: 2024-06-23
+date: 2025-06-18
 signer: 
 twitter: chivowallet
 social:

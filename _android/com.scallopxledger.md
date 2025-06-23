@@ -4,7 +4,7 @@ title: E Money Network
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28

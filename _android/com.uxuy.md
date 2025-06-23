@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.uxuy.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-05
+date: 2025-06-18
 signer: 
 twitter: uxuycom
 social:

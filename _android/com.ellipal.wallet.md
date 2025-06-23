@@ -1,6 +1,6 @@
 ---
 wsId: ELLIPAL
-title: 'ELLIPAL: Crypto Bitcoin Wallet'
+title: 'ELLIPAL: Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2025-05-19
 version: 4.7.3
 stars: 3.9
 ratings: 933
-reviews: 521
+reviews: 523
 website: http://www.ellipal.com
 repository: 
 issue: 

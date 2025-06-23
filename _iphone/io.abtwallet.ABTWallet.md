@@ -11,7 +11,7 @@ released: 2019-05-19
 updated: 2025-06-04
 version: 5.9.18
 stars: 4.9
-reviews: 84
+reviews: 85
 website: https://www.didwallet.io
 repository: 
 issue: 

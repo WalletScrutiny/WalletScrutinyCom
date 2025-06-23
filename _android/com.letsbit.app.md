@@ -9,7 +9,7 @@ appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06
 updated: 2025-06-10
-version: v1.50.0
+version: v1.51.0
 stars: 2.9
 ratings: 
 reviews: 17

@@ -28,7 +28,7 @@ social:
 - https://medium.com/x-world-games
 - https://github.com/XWorldGames
 redirect_from: 
-developerName: InnovationDream TechLimited
+developerName: KENERGETICS INNOVATIVE INC. PTE. LTD.
 features: 
 
 ---

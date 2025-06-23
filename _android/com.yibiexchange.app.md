@@ -7,8 +7,8 @@ users: 10000
 appId: com.yibiexchange.app
 appCountry: 
 released: 2022-04-11
-updated: 2025-01-23
-version: 1.3.87
+updated: 2025-06-11
+version: 1.3.88
 stars: 
 ratings: 
 reviews: 

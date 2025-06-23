@@ -9,6 +9,7 @@ server {
     index index.html;
 
     access_log /var/log/nginx/access_walletscrutiny.log;
+    error_log /var/log/nginx/error_walletscrutiny.log;
 
     open_file_cache max=500 inactive=10m;
     open_file_cache_valid 15m;

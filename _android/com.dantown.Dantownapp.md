@@ -4,7 +4,7 @@ title: Dantown
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.dantown.Dantownapp
 appCountry: 
 released: 2021-03-27

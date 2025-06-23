@@ -10,8 +10,8 @@ idd: '1633406472'
 released: 2023-02-28
 updated: 2025-04-09
 version: 2.4.0
-stars: 4.7
-reviews: 78
+stars: 4.6
+reviews: 79
 website: https://slingshot.finance/
 repository: 
 issue: 

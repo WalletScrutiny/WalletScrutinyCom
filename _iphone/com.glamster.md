@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.glamster.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-06-29
+date: 2025-06-20
 signer: 
 twitter: 
 social: 

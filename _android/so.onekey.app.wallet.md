@@ -8,8 +8,8 @@ users: 100000
 appId: so.onekey.app.wallet
 appCountry: 
 released: 2022-04-27
-updated: 2025-06-10
-version: 5.9.1
+updated: 2025-06-19
+version: 5.9.2
 stars: 4
 ratings: 
 reviews: 81
