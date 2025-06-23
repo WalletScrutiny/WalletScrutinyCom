@@ -12,7 +12,7 @@ provider: KomodoPlatform
 providerWebsite: https://komodoplatform.com/
 website: https://atomicdex.io/
 repository: https://github.com/KomodoPlatform/komodo-wallet-desktop
-issue: 
+issue: https://github.com/KomodoPlatform/komodo-wallet-desktop/issues/35
 icon: atomicdex.png
 bugbounty: 
 meta: ok
