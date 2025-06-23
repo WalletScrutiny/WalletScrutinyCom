@@ -16,8 +16,8 @@ issue: https://github.com/piratecash/pcash-wallet-android/pull/1
 icon: cash.p.terminal.desktop.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
-date: 2025-05-06
+verdict: nobtc
+date: 2025-06-23
 twitter: PirateCash_NET
 social:
 - https://www.facebook.com/PirateCash
@@ -29,3 +29,8 @@ features:
 
 ---
 
+## Analysis
+
+PirateCash Desktop is designed to be a full node for PirateCash, meaning it downloads and validates the entire history of that one chain.
+
+PirateCash Desktop is for managing PirateCash (PIRATE) coins only and does **not support Bitcoin**.
