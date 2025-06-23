@@ -63,7 +63,7 @@ async function fetchAndSaveEvents() {
       const filePath = path.join(baseDir, kind.toString(), `${eventId}.json`);
       
       if (fs.existsSync(filePath)) {
-        console.log(`Skipping event ${eventId} (already exists)`);
+        // console.log(`Skipping event ${eventId} (already exists)`);
         skipped++;
         continue;
       }
