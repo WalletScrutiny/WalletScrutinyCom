@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000000
+users: 5000000
 appId: exodusmovement.exodus
 appCountry: 
 released: 2019-06-06
-updated: 2025-06-12
+updated: 2025-06-20
 version: 25.24.6
 stars: 4.5
 ratings: 81868
-reviews: 8203
+reviews: 8205
 website: https://exodus.com/mobile
 repository: 
 issue: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.Android.Inc.bitwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2020-05-29
+date: 2025-06-23
 signer: 
 twitter: bitwalletinc
 social:

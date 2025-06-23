@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
 appHashes: 
-date: 2024-06-29
+date: 2025-06-23
 signer: 
 twitter: 
 social: 

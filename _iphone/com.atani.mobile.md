@@ -8,8 +8,8 @@ appId: com.atani.mobile
 appCountry: us
 idd: '1547110479'
 released: 2021-03-12
-updated: 2025-05-21
-version: 6.0.6
+updated: 2025-06-20
+version: 6.0.8
 stars: 4.6
 reviews: 39
 website: 

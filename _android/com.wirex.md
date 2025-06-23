@@ -12,7 +12,7 @@ updated: 2025-06-06
 version: 4.10.10
 stars: 3.8
 ratings: 26258
-reviews: 1103
+reviews: 1104
 website: https://wirexapp.com
 repository: 
 issue: 

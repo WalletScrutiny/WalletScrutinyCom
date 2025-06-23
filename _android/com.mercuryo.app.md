@@ -12,7 +12,7 @@ updated: 2025-03-31
 version: 2.8.14
 stars: 4.3
 ratings: 2732
-reviews: 108
+reviews: 109
 website: https://mercuryo.io
 repository: 
 issue: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.eldorado.app.v1.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-18
+date: 2025-06-23
 signer: 
 twitter: eldoradoio
 social:

@@ -8,11 +8,11 @@ users: 5000000
 appId: com.uphold.wallet
 appCountry: 
 released: 2015-12-29
-updated: 2025-06-13
+updated: 2025-06-20
 version: 6.43.0
 stars: 4.5
 ratings: 20716
-reviews: 7330
+reviews: 7344
 website: https://uphold.com
 repository: 
 issue: 

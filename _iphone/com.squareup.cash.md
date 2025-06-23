@@ -11,7 +11,7 @@ released: 2013-10-16
 updated: 2025-06-16
 version: '5.4'
 stars: 4.8
-reviews: 7597691
+reviews: 7607924
 website: https://cash.app
 repository: 
 issue: 

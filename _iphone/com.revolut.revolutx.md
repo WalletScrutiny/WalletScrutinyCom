@@ -10,8 +10,8 @@ idd: '6502614478'
 released: 2025-03-18
 updated: 2025-06-18
 version: '1.13'
-stars: 4.4
-reviews: 41
+stars: 4.3
+reviews: 42
 website: https://www.revolut.com/revolut-x/
 repository: 
 issue: 

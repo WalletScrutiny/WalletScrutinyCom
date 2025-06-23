@@ -11,7 +11,7 @@ appCountry:
 released: 2019-03-01
 updated: 2025-06-16
 version: 4.58.0
-stars: 4.8
+stars: 4.7
 ratings: 204
 reviews: 28
 website: https://keys.casa

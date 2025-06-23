@@ -12,7 +12,7 @@ updated: 2025-06-13
 version: 5.1.0
 stars: 4.2
 ratings: 
-reviews: 7
+reviews: 8
 website: https://plutus.it/
 repository: 
 issue: 

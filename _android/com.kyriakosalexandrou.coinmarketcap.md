@@ -27,7 +27,7 @@ twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
 redirect_from: 
-developerName: Dopamine Crypto App - Bitcoin Ethereum Solana more
+developerName: Newtechincubator.com
 features: 
 
 ---

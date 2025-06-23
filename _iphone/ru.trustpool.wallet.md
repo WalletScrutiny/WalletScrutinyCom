@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: ru.trustpool.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: 2025-06-23
 signer: 
 twitter: 
 social:
