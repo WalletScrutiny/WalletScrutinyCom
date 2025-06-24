@@ -3,7 +3,7 @@ wsId: lnFlash
 title: 'Flash: Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.lnflash
 appCountry: 

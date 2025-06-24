@@ -8,12 +8,12 @@ users: 100000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2025-06-10
-version: 3.5.55
+updated: 2025-06-24
+version: 3.5.57
 stars: 3.9
 ratings: 
 reviews: 5
-website: https://attlas.io
+website: https://atx.com.vn/
 repository: 
 issue: 
 icon: io.attlas.png

@@ -8,8 +8,8 @@ appId: id.metablockchain.metawallet
 appCountry: us
 idd: 1546698261
 released: 2021-01-05
-updated: 2025-06-11
-version: 3.0.4
+updated: 2025-06-20
+version: 3.0.5
 stars: 0
 reviews: 0
 website: https://swnglobal.com

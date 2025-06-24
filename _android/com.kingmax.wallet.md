@@ -3,7 +3,7 @@ wsId:
 title: SecSycript Card
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.kingmax.wallet
 appCountry: 
 released: 2022-01-26

@@ -12,7 +12,7 @@ updated: 2025-06-20
 version: 7.09.0002
 stars: 4.2
 ratings: 231093
-reviews: 589
+reviews: 590
 website: https://go.coindcx.com/
 repository: 
 issue: 

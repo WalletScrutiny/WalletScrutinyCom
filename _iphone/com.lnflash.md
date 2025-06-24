@@ -3,11 +3,11 @@ wsId: lnFlash
 title: 'Flash: Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.lnflash
 appCountry: jm
 idd: '6451129095'
-released: '2024-08-08T07:00:00Z'
+released: 2024-08-08
 updated: 2025-06-11
 version: 0.4.1
 stars: 0
@@ -27,7 +27,7 @@ social:
 - https://njump.me/npub1l080awn9wsw87ywm3flmpmccf5rmlvhd7vfgspj2pnavxupnlfesmflash
 - https://www.instagram.com/getflash.io
 - https://www.youtube.com/@LNFlash
-- https://www.linkedin.com/company/getflash-io 
+- https://www.linkedin.com/company/getflash-io
 features: 
 developerName: Island Bitcoin
 

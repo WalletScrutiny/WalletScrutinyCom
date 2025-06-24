@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: org.orinocodev.orinoco.io.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-04-15
+date: 2025-06-24
 signer: 
 twitter: 
 social:

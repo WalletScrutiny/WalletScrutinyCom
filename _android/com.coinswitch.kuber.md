@@ -12,7 +12,7 @@ updated: 2025-06-19
 version: 7.1.4
 stars: 4.4
 ratings: 413931
-reviews: 144640
+reviews: 144637
 website: https://coinswitch.co
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: world.bitkey.app
 appCountry: us
 idd: '6476990471'
 released: 2024-03-13
-updated: 2025-05-29
-version: 2025.10.1
+updated: 2025-06-17
+version: 2025.11.0
 stars: 4.7
 reviews: 89
 website: https://bitkey.world

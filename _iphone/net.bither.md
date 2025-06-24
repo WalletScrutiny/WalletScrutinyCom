@@ -19,10 +19,10 @@ repository: https://github.com/bither/bither-ios
 issue: 
 icon: net.bither.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: obfuscated
 appHashes: []
-date: 2024-10-09
+date: 2025-06-24
 signer: 
 twitter: 
 social: 
