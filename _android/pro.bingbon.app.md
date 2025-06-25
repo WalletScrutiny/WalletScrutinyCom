@@ -9,7 +9,7 @@ appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
 updated: 2025-06-23
-version: 4.61.1
+version: 4.61.2
 stars: 4.3
 ratings: 2828
 reviews: 1290

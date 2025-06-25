@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-06
 updated: 2025-06-06
 version: 3.1.5
-stars: 3.8
+stars: 3.7
 ratings: 782
 reviews: 1038
 website: https://www.coinme.com

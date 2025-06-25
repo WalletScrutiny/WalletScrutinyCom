@@ -12,7 +12,7 @@ updated: 2025-04-01
 version: 1.6.17
 stars: 4.6
 ratings: 173
-reviews: 285
+reviews: 286
 website: https://paybis.com/contacts/
 repository: 
 issue: 
