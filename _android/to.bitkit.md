@@ -12,9 +12,9 @@ appCountry:
 released: 2024-06-07
 updated: 2025-06-13
 version: 1.1.2
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
 issue: https://github.com/synonymdev/bitkit/issues/2414

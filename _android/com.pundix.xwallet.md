@@ -20,10 +20,10 @@ repository:
 issue: 
 icon: com.pundix.xwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-07-01
+date: 2025-07-01
 signer: 
 twitter: PundiXLabs
 social:

@@ -4,7 +4,7 @@ title: 'Platnova: Pay across the globe'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.platnova.app
 appCountry: 
 released: 2022-03-28

@@ -4,7 +4,7 @@ title: 'Cryptnox: Your Web3 Wallet'
 altTitle: 
 authors:
 - danny
-users: 500
+users: 1000
 appId: com.cryptnox.cryptnoxwallet
 appCountry: 
 released: 2023-09-29
@@ -19,7 +19,7 @@ issue:
 icon: com.cryptnox.cryptnoxwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-11-15
 signer: 

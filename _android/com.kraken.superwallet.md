@@ -12,7 +12,7 @@ updated: 2025-06-17
 version: 1.19.0 (3)
 stars: 4.6
 ratings: 
-reviews: 79
+reviews: 80
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: https://github.com/krakenfx/wallet/discussions/59

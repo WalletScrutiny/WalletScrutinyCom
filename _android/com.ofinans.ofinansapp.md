@@ -13,7 +13,7 @@ version: 2.1.2
 stars: 5
 ratings: 
 reviews: 3
-website: http://ofinans.com
+website: https://miraclecash.com
 repository: 
 issue: 
 icon: com.ofinans.ofinansapp.png

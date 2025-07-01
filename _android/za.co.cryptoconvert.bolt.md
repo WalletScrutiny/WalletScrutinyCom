@@ -8,8 +8,8 @@ users: 1000
 appId: za.co.cryptoconvert.bolt
 appCountry: 
 released: 2022-05-16
-updated: 2024-03-27
-version: 1.1.86
+updated: 2025-06-24
+version: 1.1.102
 stars: 
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: za.co.cryptoconvert.bolt.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2025-03-25
+date: 2025-07-01
 signer: 
 twitter: CryptoConverted
 social: 

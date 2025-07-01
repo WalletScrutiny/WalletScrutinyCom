@@ -12,7 +12,7 @@ updated: 2025-06-23
 version: 1.12.9
 stars: 2.9
 ratings: 
-reviews: 14
+reviews: 15
 website: https://bitcastle.io/
 repository: 
 issue: 

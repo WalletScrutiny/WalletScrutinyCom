@@ -8,8 +8,8 @@ users: 100000
 appId: com.conio.wallet
 appCountry: 
 released: 
-updated: 2025-01-23
-version: 9.0.4
+updated: 2025-06-26
+version: 9.1.0
 stars: 3.5
 ratings: 
 reviews: 

@@ -25,7 +25,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: OpenBlock
+developerName: JXJL Inc.
 features: 
 
 ---

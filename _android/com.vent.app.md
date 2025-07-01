@@ -12,7 +12,7 @@ updated: 2025-06-21
 version: 1.10.17
 stars: 4.7
 ratings: 
-reviews: 7
+reviews: 8
 website: https://vent.africa
 repository: 
 issue: 

@@ -10,11 +10,11 @@ users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2025-06-17
-version: 0.42.4
+updated: 2025-06-30
+version: 0.43.1
 stars: 4.4
 ratings: 556
-reviews: 109
+reviews: 110
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
 issue: 

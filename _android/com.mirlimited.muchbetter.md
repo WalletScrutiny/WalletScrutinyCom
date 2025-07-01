@@ -8,7 +8,7 @@ users: 1000000
 appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
-updated: 2025-05-13
+updated: 2025-06-25
 version: 4.27.0
 stars: 3.1
 ratings: 10117

@@ -10,11 +10,11 @@ users: 500000
 appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
-updated: 2025-06-09
+updated: 2025-06-27
 version: '53.4'
 stars: 4
 ratings: 650
-reviews: 217
+reviews: 218
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54

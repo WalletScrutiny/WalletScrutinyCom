@@ -12,7 +12,7 @@ updated: 2022-03-18
 version: 4.18.0
 stars: 3.3
 ratings: 33632
-reviews: 1436
+reviews: 1435
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13

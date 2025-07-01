@@ -10,7 +10,7 @@ appCountry: za
 released: 2019-05-14
 updated: 2025-06-23
 version: 6.5.3
-stars: 3.4
+stars: 3.5
 ratings: 4440
 reviews: 456
 website: https://www.yellowcard.io/

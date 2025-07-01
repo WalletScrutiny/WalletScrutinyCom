@@ -10,9 +10,9 @@ appCountry:
 released: 2020-06-14
 updated: 2025-06-23
 version: 3.1.3
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 254
+reviews: 256
 website: https://pandar.ng
 repository: 
 issue: 

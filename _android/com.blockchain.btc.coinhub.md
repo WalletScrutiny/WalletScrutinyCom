@@ -11,7 +11,7 @@ updated: 2025-06-21
 version: 1.4.7
 stars: 4.4
 ratings: 1577
-reviews: 92
+reviews: 91
 website: https://coindex.money
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 

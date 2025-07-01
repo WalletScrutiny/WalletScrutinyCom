@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: BiyaPay-汇款美港股投资出金不冻卡
+title: 'BiyaPay: Remit,Trade, NoFreeze'
 altTitle: 
 authors:
 - danny
@@ -13,7 +13,7 @@ version: 2.8.680
 stars: 4.3
 ratings: 
 reviews: 16
-website: https://www.biyagl.com
+website: https://cn.biyapay.com/
 repository: 
 issue: 
 icon: com.BIYAGlobal.www.png
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: BIAY GLOBAL LLC.
+developerName: Biya Global
 features: 
 
 ---

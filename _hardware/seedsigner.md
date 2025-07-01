@@ -7,7 +7,7 @@ authors:
 released: 2020-12-20
 discontinued: 
 updated: 2025-02-05
-version: 0.8.5
+version: 0.8.6
 binaries: https://github.com/SeedSigner/seedsigner/releases
 dimensions: 
 weight: 
@@ -28,7 +28,7 @@ appHashes:
 - 1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
 - 398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96
 - d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
-date: 2024-12-18
+date: 2025-06-30
 signer: 
 twitter: SeedSigner
 social:
