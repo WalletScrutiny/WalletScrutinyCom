@@ -65,8 +65,8 @@ export function getStatusText(status, short = false) {
 }
 
 window.showMoreRows = function() {
-  const hiddenRows = document.querySelectorAll('.hidden-row');
-  hiddenRows.forEach(row => row.classList.remove('hidden-row'));
+  const hiddenRows = document.querySelectorAll('tr[style="display: none;"]');
+  hiddenRows.forEach(row => row.style.display = 'table-row');
   document.getElementById('show-more-row').remove();
 };
 

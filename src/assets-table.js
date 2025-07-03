@@ -39,7 +39,7 @@ async function updateTableVisibility() {
     // Get identifier for grouping latest versions
     const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
 
-    let shouldShow = true;
+    let shouldShow = row.style.display !== 'none';
 
     if (showOnlyNoVerifications) {
       shouldShow = !hasVerifications;
@@ -423,7 +423,7 @@ window.renderAssetsTable = async function({
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');
-      row.className = index >= showOnlyRows ? 'hidden-row' : '';
+      row.style.display = index >= showOnlyRows ? 'none' : 'table-row';
       const sanitizedVersion = version.replace(/\./g, '-');
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
