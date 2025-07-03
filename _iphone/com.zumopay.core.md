@@ -10,8 +10,8 @@ idd: '1449986847'
 released: 2019-11-07
 updated: 2025-06-17
 version: 5.13.1
-stars: 4.3
-reviews: 305
+stars: 4.2
+reviews: 306
 website: https://app.zumo.tech
 repository: 
 issue: 

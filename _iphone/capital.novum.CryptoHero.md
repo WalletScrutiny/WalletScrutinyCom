@@ -10,8 +10,8 @@ idd: '1488574255'
 released: 2019-12-18
 updated: 2023-11-06
 version: 2.2.1
-stars: 4
-reviews: 36
+stars: 4.1
+reviews: 39
 website: https://www.cryptohero.ai
 repository: 
 issue: 

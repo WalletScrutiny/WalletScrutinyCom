@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2025-06-23
 version: 4.16.0
 stars: 4.2
-reviews: 51
+reviews: 52
 website: https://wallet.coinex.com/
 repository: 
 issue: 

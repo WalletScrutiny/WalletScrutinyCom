@@ -8,8 +8,8 @@ users: 5000
 appId: com.jeangilles
 appCountry: 
 released: 2022-09-01
-updated: 2025-06-06
-version: 1.10.4
+updated: 2025-07-02
+version: 1.10.5
 stars: 5
 ratings: 
 reviews: 2

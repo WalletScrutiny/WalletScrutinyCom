@@ -12,7 +12,7 @@ updated: 2024-07-12
 version: 4.2.2
 stars: 3.7
 ratings: 
-reviews: 130
+reviews: 131
 website: https://www.afrbtc.com
 repository: 
 issue: 

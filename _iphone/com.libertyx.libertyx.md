@@ -8,10 +8,10 @@ appId: com.libertyx.libertyx
 appCountry: us
 idd: 966538981
 released: 2015-02-20
-updated: 2025-02-24
-version: 4.1.4
+updated: 2025-06-25
+version: 4.3.1
 stars: 3.6
-reviews: 202
+reviews: 203
 website: https://libertyx.com
 repository: 
 issue: 

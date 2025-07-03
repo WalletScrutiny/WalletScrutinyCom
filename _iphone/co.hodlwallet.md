@@ -12,16 +12,16 @@ released: 2018-08-01
 updated: 2023-07-13
 version: '1.13'
 stars: 3.8
-reviews: 137
+reviews: 136
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 
 icon: co.hodlwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: sourceavailable
 appHashes: 
-date: 2024-07-10
+date: 2025-07-03
 signer: 
 twitter: hodlwallet
 social:

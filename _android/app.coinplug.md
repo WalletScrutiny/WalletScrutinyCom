@@ -7,8 +7,8 @@ users: 500
 appId: app.coinplug
 appCountry: 
 released: 2021-10-19
-updated: 2024-07-18
-version: 2.0.4
+updated: 2025-06-29
+version: 2.1.0
 stars: 
 ratings: 
 reviews: 

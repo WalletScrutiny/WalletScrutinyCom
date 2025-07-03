@@ -1,6 +1,6 @@
 ---
 wsId: börseFinanzen
-title: Börse & Aktien - finanzen.net
+title: finanzen.net – Markets & News
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: de.smarthouse.finanzen
 appCountry: us
 idd: '291973577'
 released: 2008-11-21
-updated: 2025-05-08
-version: 8.1.3
+updated: 2025-07-03
+version: 8.1.4
 stars: 4.7
-reviews: 276
+reviews: 277
 website: http://www.finanzen.net/apps
 repository: 
 issue: 

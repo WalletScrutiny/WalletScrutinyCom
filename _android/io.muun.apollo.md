@@ -11,7 +11,7 @@ appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
 updated: 2025-06-27
-version: '53.4'
+version: '53.5'
 stars: 4
 ratings: 650
 reviews: 218

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.mobile.stablehouse.env.stablehouse.io.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-09-21
+date: 2025-07-03
 signer: 
 twitter: 
 social: 

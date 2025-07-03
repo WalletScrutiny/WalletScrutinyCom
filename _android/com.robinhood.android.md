@@ -1,6 +1,6 @@
 ---
 wsId: Robinhood
-title: 'Robinhood: Trade BTC, SOL, ETH'
+title: 'Robinhood: Trading & Investing'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.robinhood.android
 appCountry: us
 released: 2015-08-12
-updated: 2025-06-24
-version: 2025.25.2
+updated: 2025-07-01
+version: 2025.26.1
 stars: 4.2
 ratings: 445358
-reviews: 262166
+reviews: 262182
 website: https://robinhood.com/
 repository: 
 issue: 

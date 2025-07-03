@@ -8,8 +8,8 @@ users: 50000
 appId: it.plutus.android
 appCountry: 
 released: 
-updated: 2025-06-13
-version: 5.1.0
+updated: 2025-07-01
+version: 5.2.1
 stars: 4.2
 ratings: 
 reviews: 8

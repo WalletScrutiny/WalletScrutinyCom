@@ -8,8 +8,8 @@ users: 100000
 appId: cash.bit24
 appCountry: 
 released: 2021-05-30
-updated: 2025-07-01
-version: 8.19.22.1
+updated: 2025-07-03
+version: 8.19.22.2
 stars: 4.3
 ratings: 2325
 reviews: 134

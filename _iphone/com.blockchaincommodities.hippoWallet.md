@@ -10,7 +10,7 @@ idd: '1613041499'
 released: 2022-04-01
 updated: 2025-06-02
 version: 1.23.1
-stars: 4.1
+stars: 3.7
 reviews: 10
 website: https://hippowallet.io
 repository: 

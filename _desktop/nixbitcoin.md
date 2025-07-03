@@ -6,7 +6,7 @@ authors:
 released: 2020-04-08
 discontinued: 
 updated: 2024-05-06
-version: 0.0.125
+version: 0.0.126
 binaries: 
 provider: Nix Bitcoin
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: nixbitcoin.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-06-11
+date: 2025-07-03
 twitter: nixbitcoinorg
 social: 
 features: 

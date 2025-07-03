@@ -8,8 +8,8 @@ appId: com.bisonapp.bison
 appCountry: lv
 idd: '1362518159'
 released: 2020-01-09
-updated: 2025-06-18
-version: 4.13.2
+updated: 2025-07-02
+version: 4.14.1
 stars: 5
 reviews: 2
 website: https://bisonapp.com/

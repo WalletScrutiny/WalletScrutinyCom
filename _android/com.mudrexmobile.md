@@ -8,8 +8,8 @@ users: 1000000
 appId: com.mudrexmobile
 appCountry: 
 released: 
-updated: 2025-06-23
-version: '12.45'
+updated: 2025-07-01
+version: '12.46'
 stars: 3.3
 ratings: 
 reviews: 4

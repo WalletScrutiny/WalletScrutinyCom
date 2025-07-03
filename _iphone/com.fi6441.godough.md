@@ -8,10 +8,10 @@ appId: com.fi6441.godough
 appCountry: us
 idd: '997893151'
 released: 2015-06-02
-updated: 2025-05-29
-version: 4017.1.1
+updated: 2025-06-23
+version: 4017.2.0
 stars: 4.8
-reviews: 1606
+reviews: 1610
 website: https://www.signalfinancialfcu.org/
 repository: 
 issue: 

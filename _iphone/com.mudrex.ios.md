@@ -8,10 +8,10 @@ appId: com.mudrex.ios
 appCountry: in
 idd: '1609440707'
 released: 2022-03-12
-updated: 2025-06-18
-version: '8.62'
+updated: 2025-06-24
+version: '8.63'
 stars: 4.5
-reviews: 4019
+reviews: 4080
 website: https://mudrex.com/
 repository: 
 issue: 

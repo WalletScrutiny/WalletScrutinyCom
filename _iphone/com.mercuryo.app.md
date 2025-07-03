@@ -11,7 +11,7 @@ released: 2019-02-08
 updated: 2025-05-12
 version: 2.2.7
 stars: 4.7
-reviews: 1037
+reviews: 1041
 website: https://mercuryo.io/
 repository: 
 issue: 

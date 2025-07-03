@@ -8,8 +8,8 @@ appId: com.thoryield.iosapp
 appCountry: us
 idd: '1618239586'
 released: 2022-04-13
-updated: 2025-03-12
-version: 2.0.42
+updated: 2025-06-25
+version: 2.0.43
 stars: 4.1
 reviews: 12
 website: https://thoryield.com/

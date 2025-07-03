@@ -9,10 +9,10 @@ appId: com.coinomi.wallet
 appCountry: 
 released: 2014-01-31
 updated: 2025-06-27
-version: 1.60.0
+version: 1.60.2
 stars: 3.8
 ratings: 39950
-reviews: 2252
+reviews: 2253
 website: https://www.Coinomi.com
 repository: 
 issue: 

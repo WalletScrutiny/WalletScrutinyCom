@@ -11,7 +11,7 @@ released: 2019-01-30
 updated: 2025-06-02
 version: 4.6.1
 stars: 4.8
-reviews: 6847
+reviews: 6868
 website: https://www.bitstamp.net/
 repository: 
 issue: 
