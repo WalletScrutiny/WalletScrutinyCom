@@ -953,6 +953,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   })}</p>
     <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>`;
 
+  const issueTrackerUrl = getFirstTagValue(verification, 'opened-issue') || '';
+  if (issueTrackerUrl) {
+    content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
+  }
+
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
