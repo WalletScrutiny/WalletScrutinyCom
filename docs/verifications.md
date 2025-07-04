@@ -71,7 +71,7 @@ Trust in verifications is built through:
     ["file-attachment", "<file-attachment-event-id-2>"],        // file-attachment-event-id 2 ...
     ["output-file", "filename-file-1", "<hash-output-file-1>"], // filename-file-1, hash-output-file-1
     ["output-file", "filename-file-2", "<hash-output-file-2>"], // filename-file-2, hash-output-file-2 ...
-    ["opened-issue", "<issue-url>"]                             // url of the issue opened at the wallet's issue tracker
+    ["issue-tracker-url", "<issue-url>"]                        // url of the issue opened at the wallet's issue tracker
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",

@@ -356,7 +356,7 @@ const createVerification = async function ({
   }
 
   if (issueTrackerUrl && issueTrackerUrl.trim()) {
-    tags.push(["opened-issue", issueTrackerUrl.trim()]);
+    tags.push(["issue-tracker-url", issueTrackerUrl.trim()]);
   }
 
   const ndkEvent = createNdkEvent(
@@ -520,15 +520,17 @@ const getFileAttachmentEvents = async function(fileEventIds) {
   });
 }
 
-const getAllAttachmentsForAppId = async function(appId) {
-  const response = await getAllAssetInformation({
-    appId
-  });
+const getAllAttachmentsForAppId = async function(appId, appAssetInformation = null) {
+  if (!appAssetInformation) {
+    appAssetInformation = await getAllAssetInformation({
+      appId
+    });
+  }
 
   const attachments = [];
   const promises = [];
 
-  for (const sha256VerificationGroup of response.verifications.values()) {
+  for (const sha256VerificationGroup of appAssetInformation.verifications.values()) {
     for (const verification of sha256VerificationGroup) {
       const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
       if (fileEventIds.length > 0) {

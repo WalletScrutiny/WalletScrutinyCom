@@ -1,7 +1,7 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
-import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText } from "./assets-table-utils.js";
+import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
@@ -102,6 +102,8 @@ window.renderAssetsTable = async function({
     appId,
     sha256
   });
+
+  showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
 
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');
@@ -953,7 +955,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   })}</p>
     <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>`;
 
-  const issueTrackerUrl = getFirstTagValue(verification, 'opened-issue') || '';
+  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
   if (issueTrackerUrl) {
     content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
   }
