@@ -12,7 +12,7 @@ import {
   nip89ClientTagD,
   wsBotPublicKey
 } from "./nostr-constants.mjs";
-import { userHasBrowserExtension } from './verifications_common.mjs';
+import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -669,10 +669,6 @@ const getAllAssetInformation = async function({
   };
 }
 
-function getFirstTagValue(event, tagName, valueIfNull = '') {
-  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
-}
-
 function getAppInfoFromEventInfo(eventInfo) {
   const isAsset = eventInfo.kind === assetRegistrationKind;
 
@@ -1142,8 +1138,7 @@ if (typeof window !== 'undefined') {
   window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
   window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
   window.cleanupNdkConnections = cleanupNdkConnections;
-  window.getFirstTagValue = getFirstTagValue;
-
+  
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
   });
@@ -1156,7 +1151,6 @@ export {
   createNostrNote,
   getNostrProfile,
   getAllAssetInformation,
-  getFirstTagValue,
   getUserPubkey,
   showToast,
   getNpubFromPubkey,

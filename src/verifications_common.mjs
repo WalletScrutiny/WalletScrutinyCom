@@ -5,6 +5,10 @@ function isDebugEnv() {
   return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
 }
 
+function getFirstTagValue(event, tagName, valueIfNull = '') {
+  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+}
+
 const userHasBrowserExtension = function() {
   return new Promise((resolve) => {
     if (typeof window === 'undefined') {
@@ -53,9 +57,11 @@ const userHasBrowserExtension = function() {
 
 export {
   isDebugEnv,
+  getFirstTagValue,
   userHasBrowserExtension
 };
 
 if (typeof window !== 'undefined') {
   window.userHasBrowserExtension = userHasBrowserExtension;
+  window.getFirstTagValue = getFirstTagValue;
 }
