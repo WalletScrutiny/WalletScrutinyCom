@@ -1,7 +1,7 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
-import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText } from "./assets-table-utils.js";
+import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
@@ -102,6 +102,8 @@ window.renderAssetsTable = async function({
     appId,
     sha256
   });
+
+  showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
 
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');

@@ -54,6 +54,46 @@ export function getStatusText(status, short = false) {
   }
 }
 
+function getIssueTrackerInfoFromVerificationsInformation(verificationsInformation) {
+  const issueTrackerInfo = [];
+
+  verificationsInformation.forEach(verificationsArrayForThisHash => {
+    verificationsArrayForThisHash.forEach(verification => {
+      const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url');
+      if (issueTrackerUrl) {
+        const version = getFirstTagValue(verification, 'version');
+        const createdAt = verification.created_at;
+        
+        issueTrackerInfo.push({ issueTrackerUrl, version, createdAt });
+      }
+    });
+  });
+
+  issueTrackerInfo.sort((a, b) => b.createdAt - a.createdAt);
+
+  return issueTrackerInfo;
+}
+
+export function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
+  let issueTrackerInfo = getIssueTrackerInfoFromVerificationsInformation(verificationsInformation);
+
+  issueTrackerInfo = issueTrackerInfo.slice(0, onlyFirstNumberOfIssues);
+
+  if (issueTrackerInfo.length > 0) {
+    const issueTrackerContainer = document.createElement('div');
+    issueTrackerContainer.className = 'issue-tracker-container';
+    issueTrackerContainer.innerHTML = `
+      <p>Issue Tracker Info</p>
+      <small>Issues opened by verifiers while reproducing different versions. Most recent first. Check before starting a new verification.</small>
+      <ul>
+        ${issueTrackerInfo.map(info => `<li>${formatDate(info.createdAt)} - ${info.version} - <a href="${info.issueTrackerUrl}" target="_blank">${info.issueTrackerUrl}</a></li>`).join('')}
+      </ul>`;
+
+    document.getElementById(htmlElementId).appendChild(issueTrackerContainer);
+  }
+}
+window.showIssueTrackerHtmlWidget = showIssueTrackerHtmlWidget;
+
 window.showMoreRows = function() {
   const hiddenRows = document.querySelectorAll('.hidden-row');
   hiddenRows.forEach(row => row.classList.remove('hidden-row'));

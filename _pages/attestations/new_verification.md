@@ -320,6 +320,8 @@ permalink: /new_verification/
 
     <div id="previousAttestations" style="margin-bottom: 3em;"></div>
 
+    <div id="issueTrackerInfo" style="margin-bottom: 3em;"></div>
+
     <div>
         <p>Fields marked with (*) are required.</p>
     </div>
@@ -760,7 +762,7 @@ permalink: /new_verification/
         // If files were loaded from the draft, set the script usage selector to 'upload'
         if (uploadedFiles.length > 0) {
           document.getElementById('scriptUsage').value = 'upload';
-          handleScriptSectionVisibility();
+          await handleScriptSectionVisibility();
         }
 
         const eventContent = JSON.parse(draftVerificationEvent.content);
@@ -835,16 +837,33 @@ permalink: /new_verification/
     const infoMessage = document.querySelector('.info-message');
     infoMessage.innerHTML = message;
 
-    // Initial call to load scripts if appId is pre-filled
     const initialAppId = document.getElementById('appId').value.trim();
     if (initialAppId) {
-      await loadAndDisplayAvailableScripts(initialAppId);
+      await performAppIdRelatedActions(initialAppId);
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';
   }
 
-  async function loadAndDisplayAvailableScripts(appId) {
+  async function performAppIdRelatedActions(appId, doScriptsTreatment = true) {
+    if (appId.length < 3) {
+      return;
+    }
+
+    document.getElementById('issueTrackerInfo').innerHTML = '';
+
+    const appAssetInformation = await getAllAssetInformation({
+      appId
+    });
+
+    if (doScriptsTreatment) {
+      await loadAndDisplayAvailableScripts(appId, appAssetInformation);
+    }
+
+    await showIssueTrackerHtmlWidget(appAssetInformation.verifications, 'issueTrackerInfo', 5);
+  }
+
+  async function loadAndDisplayAvailableScripts(appId, appAssetInformation = null) {
     const availableScriptsContainer = document.getElementById('availableScriptsContainer');
     const availableScriptsList = document.getElementById('availableScriptsList');
     const scriptUsageSelector = document.getElementById('scriptUsage');
@@ -854,7 +873,7 @@ permalink: /new_verification/
 
     if (appId) {
       try {
-        const attachments = await getAllAttachmentsForAppId(appId);
+        const attachments = await getAllAttachmentsForAppId(appId, appAssetInformation);
 
         if (attachments.length > 0 && scriptUsageSelector.value === 'reuse') {
           availableScriptsContainer.style.display = 'block';
@@ -1061,7 +1080,7 @@ permalink: /new_verification/
     }
   }
 
-  function handleScriptSectionVisibility() {
+  async function handleScriptSectionVisibility() {
     const selection = document.getElementById('scriptUsage').value;
     const dropzoneArea = document.getElementById('fileDropzoneArea');
     const availableScriptsArea = document.getElementById('availableScriptsContainer');
@@ -1073,7 +1092,7 @@ permalink: /new_verification/
     if (selection === 'upload') {
       dropzoneArea.style.display = 'block';
     } else if (selection === 'reuse') {
-      loadAndDisplayAvailableScripts(appId);
+      await performAppIdRelatedActions(appId);
     }
   }
 
@@ -1098,8 +1117,10 @@ permalink: /new_verification/
 
     // Script Usage Selector Logic
     const scriptUsageSelector = document.getElementById('scriptUsage');
-    scriptUsageSelector.addEventListener('change', handleScriptSectionVisibility);
-    handleScriptSectionVisibility();
+    scriptUsageSelector.addEventListener('change', async () => {
+      await handleScriptSectionVisibility();
+    });
+    await handleScriptSectionVisibility();
 
     // Status change handler for issue tracker field
     const statusSelector = document.getElementById('status');
@@ -1123,9 +1144,7 @@ permalink: /new_verification/
     const appIdInput = document.getElementById('appId');
     appIdInput.addEventListener('input', async (event) => {
       const appId = event.target.value.trim();
-      if (scriptUsageSelector.value === 'reuse') {
-        await loadAndDisplayAvailableScripts(appId);
-      }
+      await performAppIdRelatedActions(appId, scriptUsageSelector.value === 'reuse');
     });
 
     addHashBtn.addEventListener('click', () => {
