@@ -200,7 +200,8 @@ function validateParameterLengths(params) {
     version: { maxLength: 30, name: 'Version' },
     platform: { maxLength: 10, name: 'Platform' },
     description: { maxLength: 120, name: 'Description' },
-    content: { maxLength: 60000, name: 'Content' }
+    content: { maxLength: 60000, name: 'Content' },
+    issueTrackerUrl: { maxLength: 200, name: 'Issue tracker URL' }
   };
 
   for (const [paramName, value] of Object.entries(params)) {
@@ -255,6 +256,7 @@ const createVerification = async function ({
                                              appId,
                                              version,
                                              platform,
+                                             issueTrackerUrl = null,
                                              createdAt = null,
                                              isDraft = false,
                                              draftVerificationEventId = null,
@@ -273,7 +275,7 @@ const createVerification = async function ({
     throw new Error("Invalid status");
   }
 
-  validateParameterLengths({ appId, version, platform, description, content });
+  validateParameterLengths({ appId, version, platform, description, content, issueTrackerUrl });
 
   // --- Upload Files Before Main Event Creation ---
   let fileUploadResults = [];
@@ -351,6 +353,10 @@ const createVerification = async function ({
     outputFiles.forEach(file => {
       tags.push(["output-file", file.name, file.hash]);
     });
+  }
+
+  if (issueTrackerUrl && issueTrackerUrl.trim()) {
+    tags.push(["opened-issue", issueTrackerUrl.trim()]);
   }
 
   const ndkEvent = createNdkEvent(

@@ -8,12 +8,6 @@
         <h3>Application build</h3>
 
         {% if page.repository %}
-        {% if page.issue %}
-        <p>
-            <br><a href="{{page.issue}}">See the last Issue we created</a>.
-        </p>
-        {% endif %}
-
         <script>const pageVerdict = '{{page.verdict}}'</script>
 
         <div id="appsTable" style="margin-top: 1em;"></div>
