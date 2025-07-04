@@ -953,7 +953,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   })}</p>
     <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>`;
 
-  const issueTrackerUrl = getFirstTagValue(verification, 'opened-issue') || '';
+  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
   if (issueTrackerUrl) {
     content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
   }

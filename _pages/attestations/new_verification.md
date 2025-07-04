@@ -771,7 +771,7 @@ permalink: /new_verification/
         document.getElementById('description').value = eventContent.description || '';
         document.getElementById('status').value = getFirstTagValue(draftVerificationEvent, 'status');
         document.getElementById('content').value = eventContent.content || '';
-        document.getElementById('issueTrackerUrl').value = getFirstTagValue(draftVerificationEvent, 'opened-issue') || '';
+        document.getElementById('issueTrackerUrl').value = getFirstTagValue(draftVerificationEvent, 'issue-tracker-url') || '';
 
         const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
         hashes.forEach(hash => addHash(hash));

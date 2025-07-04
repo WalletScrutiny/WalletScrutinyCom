@@ -356,7 +356,7 @@ const createVerification = async function ({
   }
 
   if (issueTrackerUrl && issueTrackerUrl.trim()) {
-    tags.push(["opened-issue", issueTrackerUrl.trim()]);
+    tags.push(["issue-tracker-url", issueTrackerUrl.trim()]);
   }
 
   const ndkEvent = createNdkEvent(
