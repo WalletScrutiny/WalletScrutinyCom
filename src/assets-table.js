@@ -94,7 +94,8 @@ window.renderAssetsTable = async function({
                                             enableSearch = false,
                                             enableDraftsFilter = false,
                                             enableAttachments = false,
-                                            showProfilePictures = true
+                                            showProfilePictures = true,
+                                            showIssueTracker = false
                                           }) {
   let hasAssets = false;
 
@@ -104,7 +105,9 @@ window.renderAssetsTable = async function({
     sha256
   });
 
-  showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
+  if (showIssueTracker) {
+    showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
+  }
 
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');
