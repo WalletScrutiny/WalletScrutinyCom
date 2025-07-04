@@ -1,7 +1,8 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
-import { getFirstTagValue, formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
+import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
+import { getFirstTagValue } from "./verifications_common.mjs";
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal

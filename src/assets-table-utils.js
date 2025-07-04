@@ -1,11 +1,6 @@
 import { verificationKind, mainRelayUrl, codeSnippetKind } from "./nostr-constants.mjs";
+import { getFirstTagValue } from "./verifications_common.mjs";
 
-// Utility functions for handling tags
-export function getFirstTagValue(event, tagName, valueIfNull = '') {
-  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
-}
-
-// Utility function for formatting dates
 export function formatDate(timestamp) {
   return new Date(timestamp * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
@@ -16,7 +11,6 @@ export function formatDate(timestamp) {
   });
 }
 
-// Utility function for handling attachments
 export function getAttachmentInfo(attachment) {
   let name;
   if (attachment.kind === codeSnippetKind) {
@@ -35,12 +29,10 @@ export function getAttachmentInfo(attachment) {
   };
 }
 
-// Utility function for handling verification status
 export function getStatusIcon(status) {
   return status === 'reproducible' ? '✅' : '❌';
 }
 
-// Utility function for handling verification status text
 export function getStatusText(status, short = false) {
   switch (status) {
     case 'reproducible':
