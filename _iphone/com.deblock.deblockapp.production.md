@@ -11,7 +11,7 @@ released: 2024-04-02
 updated: 2025-07-03
 version: 4.1.1
 stars: 4.7
-reviews: 8215
+reviews: 8225
 website: https://deblock.com
 repository: 
 issue: 

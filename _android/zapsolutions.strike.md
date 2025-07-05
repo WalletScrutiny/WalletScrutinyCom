@@ -11,7 +11,7 @@ updated: 2025-07-01
 version: v3.23
 stars: 4.7
 ratings: 6726
-reviews: 2648
+reviews: 2650
 website: https://strike.me/
 repository: 
 issue: 

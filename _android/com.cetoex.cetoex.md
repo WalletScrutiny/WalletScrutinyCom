@@ -10,7 +10,7 @@ appCountry:
 released: 2022-08-13
 updated: 2025-06-19
 version: 1.0.0
-stars: 4.1
+stars: 3.9
 ratings: 
 reviews: 6
 website: https://cetoex.com

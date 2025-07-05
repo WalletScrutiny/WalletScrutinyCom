@@ -10,7 +10,7 @@ appCountry:
 released: 2021-11-09
 updated: 2025-06-11
 version: 3.8.8
-stars: 4.6
+stars: 4.7
 ratings: 
 reviews: 164
 website: https://www.haha.me
