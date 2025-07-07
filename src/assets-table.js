@@ -993,9 +993,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       }
     } else {
       const wallet = window.wallets.find(w => w.appId === appId);
-      for (let i = 0; i < numberVerificationAttachments; i++) {
-        attachmentsHTML += `<li>${i + 1} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
-      }
+      attachmentsHTML += `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
     }
 
     content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
