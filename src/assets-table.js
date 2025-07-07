@@ -948,8 +948,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const isDraft = verification.kind === verificationDraftKind;
   content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
 
+  const version = getFirstTagValue(verification, 'version');
+
   content.innerHTML += `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
+    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
     month: 'short',
