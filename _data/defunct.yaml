@@ -1,10 +1,3 @@
-2025-06-20:
-- _android/io.lisk.mobile
-- _iphone/com.rinnas.ajGlobal
-- _iphone/com.tabtrader.apps.TabTrader
-- _iphone/io.eligma.btcwallet
-2025-06-23:
-- _iphone/com.ankerpay.ioswallet
 2025-06-24:
 - _iphone/io.lisk.mobile
 2025-07-03:
@@ -17,3 +10,5 @@
 - _iphone/kr.co.newlinkcorp.cashierest
 2025-07-04:
 - _iphone/com.CapiteraAG.Welthee
+2025-07-08:
+- _android/com.worldwebms.multisigwallet

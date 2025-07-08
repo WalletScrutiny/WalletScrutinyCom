@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.netcents.merchantterminal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-06-02
+date: 2025-07-08
 signer: 
 twitter: 
 social: 

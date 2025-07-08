@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-10-10
+date: 2025-07-08
 signer: 
 twitter: ILC_B_Project
 social:

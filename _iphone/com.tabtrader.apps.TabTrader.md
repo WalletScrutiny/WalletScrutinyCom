@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2021-04-17
+date: 2025-07-08
 signer: 
 twitter: tabtraderpro
 social:

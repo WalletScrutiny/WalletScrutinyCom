@@ -12,7 +12,7 @@ updated: 2024-12-31
 version: 3.2.3
 stars: 3.9
 ratings: 3741
-reviews: 82
+reviews: 83
 website: https://sarmayex.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 500000
 appId: swipestox.mobile
 appCountry: gb
 released: 2015-10-20
-updated: 2025-07-01
-version: 8.0.415
+updated: 2025-07-06
+version: 8.0.416
 stars: 3.2
 ratings: 5636
 reviews: 200

@@ -26,7 +26,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: TradeWill Global LLC
+developerName: TradeWill Global
 features: 
 
 ---

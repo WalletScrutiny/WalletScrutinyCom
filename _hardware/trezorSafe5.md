@@ -7,7 +7,7 @@ authors:
 released: 2024-06-14
 discontinued: 
 updated: 2024-09-19
-version: 2.8.10
+version: 2.9.0
 binaries: https://data.trezor.io/firmware/t3t1/trezor-t3t1-2.8.3.bin
 dimensions:
 - 66
@@ -32,7 +32,7 @@ appHashes:
 - 01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777
 - 6d932e5200927b6eeebc9b8700effde957a9880774944bcc028b0cbac85e7f6a
 - 9e1bc9773194df462a2350108da1cc4f5a70149b93affcb363c5b96c14b30a4d
-date: 2025-05-12
+date: 2025-07-01
 signer: 
 twitter: trezor
 social:

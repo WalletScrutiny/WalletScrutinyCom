@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/sekiapp
 - https://www.tiktok.com/@seki_app
 redirect_from: 
-developerName: Wiseki Technologies Limited
+developerName: SekiApp
 features: 
 
 ---

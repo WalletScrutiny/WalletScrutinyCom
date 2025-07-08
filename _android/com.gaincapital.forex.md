@@ -4,7 +4,7 @@ title: CFD & Forex Trading FOREX.com
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.gaincapital.forex
 appCountry: gb
 released: 2021-01-11

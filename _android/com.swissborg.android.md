@@ -8,8 +8,8 @@ users: 500000
 appId: com.swissborg.android
 appCountry: gb
 released: 2020-06-16
-updated: 2025-06-20
-version: 1.112.0
+updated: 2025-07-04
+version: 1.113.0
 stars: 4
 ratings: 9203
 reviews: 954

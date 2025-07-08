@@ -8,8 +8,8 @@ users: 50000
 appId: com.fizen.io.wallet
 appCountry: 
 released: 2022-02-25
-updated: 2025-06-23
-version: 2.7.1
+updated: 2025-07-06
+version: 2.7.2
 stars: 4.4
 ratings: 
 reviews: 2

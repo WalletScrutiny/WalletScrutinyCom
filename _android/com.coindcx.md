@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coindcx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-08-21
+date: 2025-07-08
 signer: 
 twitter: coindcx
 social:

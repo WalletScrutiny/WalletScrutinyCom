@@ -11,7 +11,7 @@ released: 2018-02-19
 updated: 2025-07-03
 version: 3.89.1
 stars: 4.6
-reviews: 879
+reviews: 878
 website: https://bitso.com/app
 repository: 
 issue: 

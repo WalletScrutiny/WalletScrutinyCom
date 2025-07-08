@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-11-21
+date: 2025-07-08
 signer: 
 twitter: AnkerPay
 social:

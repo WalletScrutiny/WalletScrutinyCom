@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.eligma.btcwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-01-21
+date: 2025-07-08
 signer: 
 twitter: GoCrypto_
 social:

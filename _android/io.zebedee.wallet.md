@@ -12,7 +12,7 @@ updated: 2025-06-11
 version: 4.16.0
 stars: 4.5
 ratings: 358
-reviews: 7364
+reviews: 7407
 website: https://zbd.gg/z/support
 repository: 
 issue: 
