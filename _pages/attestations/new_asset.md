@@ -137,6 +137,6 @@ permalink: /new_asset/
 
   window.addEventListener('allWalletsLoaded', async () => {
     // Setup AutoComplete again, now with all the wallets loaded
-    setupAppIdAutocomplete();
+    setupAppIdAutocomplete(false);
   });
 </script>

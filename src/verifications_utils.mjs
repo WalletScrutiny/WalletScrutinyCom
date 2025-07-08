@@ -748,7 +748,7 @@ const createNostrNote = async function (message) {
   return ndkEvent.id;
 }
 
-function setupAppIdAutocomplete() {
+function setupAppIdAutocomplete(firstTime = true) {
   const appIdInput = document.getElementById('appId');
   const suggestionsContainer = document.getElementById('appIdSuggestions');
 
@@ -775,6 +775,8 @@ function setupAppIdAutocomplete() {
       return;
     }
 
+    const fragment = document.createDocumentFragment();
+
     suggestions.forEach(wallet => {
       const div = document.createElement('div');
       div.className = 'suggestion-item';
@@ -786,27 +788,31 @@ function setupAppIdAutocomplete() {
         suggestionsContainer.style.display = 'none';
         appIdInput.dispatchEvent(new Event('input', { bubbles: true }));  // Manually trigger the input event after setting the value
       };
-      suggestionsContainer.appendChild(div);
+      fragment.appendChild(div);
     });
+
+    suggestionsContainer.appendChild(fragment);
 
     suggestionsContainer.style.display = 'block';
   }
 
-  appIdInput.addEventListener('input', (e) => {
-    const searchText = e.target.value;
-    if (searchText.length > 1) {
-      const filteredWallets = filterWallets(searchText);
-      showSuggestions(filteredWallets);
-    } else {
-      showSuggestions([]);
-    }
-  });
+  if (firstTime) {
+    appIdInput.addEventListener('input', (e) => {
+      const searchText = e.target.value;
+      if (searchText.length > 1) {
+        const filteredWallets = filterWallets(searchText);
+        showSuggestions(filteredWallets);
+      } else {
+        showSuggestions([]);
+      }
+    });
 
-  document.addEventListener('click', (e) => {
-    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
-      suggestionsContainer.style.display = 'none';
-    }
-  });
+    document.addEventListener('click', (e) => {
+      if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+        suggestionsContainer.style.display = 'none';
+      }
+    });
+  }
 }
 
 function getStatusText(status, short = false) {
