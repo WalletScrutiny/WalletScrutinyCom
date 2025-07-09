@@ -1,0 +1,243 @@
+import { createNostrCommentToVerification, getCommentsForVerification, getNpubFromPubkey } from './verifications_utils.mjs';
+
+let assetTableCommentsContainer = null;
+let assetTableCommentsVerificationKey = null;
+let verificationAuthorPubkey = null;
+
+function addCommentStyles() {
+  const styleId = 'comments-section-styles';
+  if (document.getElementById(styleId)) {
+    return; // Styles already added
+  }
+
+  const style = document.createElement('style');
+  style.id = styleId;
+  style.textContent = `
+    .comments-section {
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding-top: 10px;
+      padding-bottom: 15px;
+    }
+    body.dark-theme .comments-section {
+      border-top: 1px solid #555;
+    }
+    .comment-input-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
+    .comment-input {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+      height: 40px;
+      background-color: white;
+      color: black;
+      margin-right: 10px;
+    }
+    body.dark-theme .comment-input {
+      background-color: #333;
+      color: white;
+      border-color: #555;
+    }
+    .comment-submit-btn {
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      height: fit-content;
+    }
+    .comment-submit-btn:hover {
+      background-color: #45a049;
+    }
+    .comments-list {
+      display: flex;
+      flex-direction: column;
+    }
+    .comment {
+      display: flex;
+      flex-direction: column;
+      background-color: #f0f2f5;
+      padding: 8px;
+      margin: 0.3em 0;
+      border-radius: 8px;
+      font-size: 0.9em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body.dark-theme .comment {
+      background-color: #3a3b3c;
+    }
+    .comment-author {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .comment-author-name {
+      font-weight: bold;
+      color: black;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .comment-author-name:hover {
+      color: #0066cc;
+    }
+    body.dark-theme .comment-author-name {
+      color: white;
+    }
+    body.dark-theme .comment-author-name:hover {
+      color: #66b3ff;
+    }
+    .comment-author-name a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+    .comment-author-name a:hover {
+      color: inherit;
+    }
+    .comment-content {
+      color: black;
+    }
+    body.dark-theme .comment-content {
+      color: white;
+    }
+    .comment-content p {
+      margin: 0;
+      margin-top: 0 !important;
+    }
+    .comment-date {
+      font-size: 0.8em;
+      color: #888;
+    }
+    body.dark-theme .comment-date {
+      color: #aaa;
+    }`;
+
+  document.head.appendChild(style);
+}
+
+async function fetchComments(verificationKey) {
+  console.log(`Fetching comments for verification ID: ${verificationKey}`);
+  const comments = await getCommentsForVerification(verificationKey);
+
+  return comments
+    .map(comment => {
+      const author = comment.pubkey;
+      const content = comment.content;
+      const date = formatCommentDate(comment.created_at);
+      const pubkey = comment.pubkey;
+      return { author, content, date, pubkey, created_at: comment.created_at };
+    })
+    .sort((a, b) => b.created_at - a.created_at);
+}
+
+async function handleCommentSubmit(verificationKey, textarea, button) {
+  const comment = textarea.value.trim();
+
+  if (!comment) {
+    showToast('Please enter a comment before posting.', 'error');
+    return;
+  }
+
+  button.disabled = true;
+  const originalText = button.textContent;
+  button.textContent = 'Posting...';
+
+  try {
+    await createNostrCommentToVerification(verificationKey, comment);
+
+    textarea.value = '';
+
+    showToast('Comment posted successfully!');
+
+    renderCommentsSection(assetTableCommentsContainer, assetTableCommentsVerificationKey, verificationAuthorPubkey);
+
+    // TODO quitar - if (getUserPubkey() !== verificationAuthorPubkey) {
+      const notificationText = `New comment on your verification: "${comment}". See or reply to it at ${window.location.href}`;
+      sendPrivateMessageToVerifier(verificationAuthorPubkey, notificationText);
+    //}
+
+  } catch (error) {
+    console.error('Error posting comment:', error);
+    showToast('Error posting comment: ' + error.message, 'error');
+  } finally {
+    button.disabled = false;
+    button.textContent = originalText;
+  }
+}
+
+export async function renderCommentsSection(container, verificationKey, authorPubkey) {
+  assetTableCommentsContainer = container;
+  assetTableCommentsVerificationKey = verificationKey;
+  verificationAuthorPubkey = authorPubkey;
+
+  addCommentStyles();
+
+  const commentsForThisVerification = await fetchComments(assetTableCommentsVerificationKey);
+
+  let profilePubkeys = [];
+
+  for (const comment of commentsForThisVerification) {
+    profilePubkeys.push(comment.pubkey);
+  }
+
+  container.innerHTML = `
+    <div class="comments-section">
+      <p style="font-weight: bold;">Comments</p>
+      <div class="comment-input-container">
+        <textarea class="comment-input" placeholder="Write a comment to this verification..."></textarea>
+        <button class="comment-submit-btn">Post</button>
+      </div>
+      <div class="comments-list">
+        ${commentsForThisVerification.map(comment => `
+          <div class="comment comment-profile-${comment.pubkey}">
+            <div class="comment-author">
+              <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
+            </div>
+            <div class="comment-content">
+              <p>${comment.content}</p>
+            </div>
+            <div class="comment-date">
+              <span>${comment.date}</span>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+
+  profilePubkeys.forEach(async pubkey => {
+    try {
+      const [profile, npub] = await Promise.all([
+        getNostrProfile(pubkey),
+        getNpubFromPubkey(pubkey)
+      ]);
+      
+      document.querySelectorAll(`.comment-profile-${pubkey}`).forEach(profileElement => {
+        const commentAuthorName = profileElement.querySelector('.comment-author-name');
+        if (commentAuthorName) {
+          const displayName = profile?.name || pubkey;
+          const profileUrl = `https://njump.me/${npub}`;
+          commentAuthorName.innerHTML = `<a href="${profileUrl}" target="_blank" rel="noopener noreferrer">${displayName}</a>`;
+        }
+      });
+
+    } catch (error) {
+      console.error('Error fetching profile:', error);
+    }
+  });
+
+  const submitButton = container.querySelector('.comment-submit-btn');
+  const textarea = container.querySelector('.comment-input');
+
+  if (submitButton && textarea) {
+    submitButton.addEventListener('click', () => {
+      handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
+    });
+  }
+} 

@@ -3,6 +3,7 @@ import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
+import { renderCommentsSection } from './assets-table-comments.js';
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
@@ -967,6 +968,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
   }
 
+  content.innerHTML += '<div id="comments-container"></div>';
+
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
@@ -1105,6 +1108,13 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       initPlayer();   // Script was already loaded, initialize player directly
     }
   }
+
+  const appIdForTheKey = getFirstTagValue(verification, 'i');
+  const versionForTheKey = getFirstTagValue(verification, 'version');
+  const platformForTheKey = getFirstTagValue(verification, 'platform');
+  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}`;
+
+  renderCommentsSection(document.getElementById('comments-container'), verificationKey, verification.pubkey);
 
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();

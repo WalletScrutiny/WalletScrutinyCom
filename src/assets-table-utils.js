@@ -11,6 +11,58 @@ export function formatDate(timestamp) {
   });
 }
 
+export function formatCommentDate(timestamp) {
+  const now = new Date().getTime() / 1000;
+  const diffInSeconds = now - timestamp;
+  const diffInMinutes = Math.floor(diffInSeconds / 60);
+  const diffInHours = Math.floor(diffInMinutes / 60);
+  const diffInDays = Math.floor(diffInHours / 24);
+  const diffInWeeks = Math.floor(diffInDays / 7);
+  const diffInMonths = Math.floor(diffInDays / 30);
+  const diffInYears = Math.floor(diffInDays / 365);
+
+  // For very recent comments (less than 1 hour), show minutes
+  if (diffInMinutes < 60) {
+    if (diffInMinutes < 1) {
+      return 'Just now';
+    }
+    return `${diffInMinutes} minute${diffInMinutes > 1 ? 's' : ''} ago`;
+  }
+  
+  // For recent comments (less than 24 hours), show hours
+  if (diffInHours < 24) {
+    return `${diffInHours} hour${diffInHours > 1 ? 's' : ''} ago`;
+  }
+  
+  // For comments within a week, show days
+  if (diffInDays < 7) {
+    return `${diffInDays} day${diffInDays > 1 ? 's' : ''} ago`;
+  }
+  
+  // For comments within a month, show weeks
+  if (diffInWeeks < 4) {
+    return `${diffInWeeks} week${diffInWeeks > 1 ? 's' : ''} ago`;
+  }
+  
+  // For comments within a year, show months
+  if (diffInMonths < 12) {
+    return `${diffInMonths} month${diffInMonths > 1 ? 's' : ''} ago`;
+  }
+  
+  // For older comments, show years
+  if (diffInYears > 0) {
+    return `${diffInYears} year${diffInYears > 1 ? 's' : ''} ago`;
+  }
+  
+  // Fallback: show absolute date
+  return new Date(timestamp * 1000).toLocaleDateString(navigator.language, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  });
+}
+window.formatCommentDate = formatCommentDate;
+
 export function getAttachmentInfo(attachment) {
   let name;
   if (attachment.kind === codeSnippetKind) {
