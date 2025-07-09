@@ -2,6 +2,8 @@ let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
 
+const MAX_COMMENTS_TO_SHOW = 2;
+
 function addCommentStyles() {
   const styleId = 'comments-section-styles';
   if (document.getElementById(styleId)) {
@@ -115,7 +117,23 @@ function addCommentStyles() {
     }
     body.dark .comment-date {
       color: #aaa;
-    }`;
+    }
+    .see-more-container {
+      margin-top: 3px;
+      text-align: center;
+    }
+    .see-more-link {
+      cursor: pointer;
+      text-decoration: underline;
+      color: #007bff;
+    }
+    body.dark .see-more-link {
+      color: #66b3ff;
+    }
+    [hidden] {
+      display: none !important;
+    }
+    `;
 
   document.head.appendChild(style);
 }
@@ -193,8 +211,8 @@ export async function renderCommentsSection(container, verificationKey, authorPu
         <button class="comment-submit-btn">Post</button>
       </div>
       <div class="comments-list">
-        ${commentsForThisVerification.map(comment => `
-          <div class="comment comment-profile-${comment.pubkey}">
+        ${commentsForThisVerification.map((comment, index) => `
+          <div class="comment comment-profile-${comment.pubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
               <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
             </div>
@@ -206,9 +224,27 @@ export async function renderCommentsSection(container, verificationKey, authorPu
             </div>
           </div>
         `).join('')}
+        ${commentsForThisVerification.length > MAX_COMMENTS_TO_SHOW ? `
+          <div class="see-more-container">
+            <a href="#" class="see-more-link">See ${commentsForThisVerification.length - MAX_COMMENTS_TO_SHOW} more comments</a>
+          </div>
+        ` : ''}
       </div>
     </div>
   `;
+
+  if (commentsForThisVerification.length > MAX_COMMENTS_TO_SHOW) {
+    const seeMoreLink = container.querySelector('.see-more-link');
+    if (seeMoreLink) {
+      seeMoreLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        container.querySelectorAll('.comment[hidden]').forEach(comment => {
+          comment.removeAttribute('hidden');
+        });
+        seeMoreLink.parentElement.remove();
+      });
+    }
+  }
 
   profilePubkeys.forEach(async pubkey => {
     try {
