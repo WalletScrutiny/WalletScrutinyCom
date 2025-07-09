@@ -174,10 +174,10 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
 
     renderCommentsSection(assetTableCommentsContainer, assetTableCommentsVerificationKey, verificationAuthorPubkey);
 
-    // TODO quitar - if (getUserPubkey() !== verificationAuthorPubkey) {
+    if (getUserPubkey() !== verificationAuthorPubkey) {
       const notificationText = `New comment on your verification: "${comment}". See or reply to it at ${window.location.href}`;
       sendPrivateMessageToVerifier(verificationAuthorPubkey, notificationText);
-    //}
+    }
 
   } catch (error) {
     console.error('Error posting comment:', error);
