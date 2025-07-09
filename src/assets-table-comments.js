@@ -18,7 +18,7 @@ function addCommentStyles() {
       padding-top: 10px;
       padding-bottom: 15px;
     }
-    body.dark-theme .comments-section {
+    body.dark .comments-section {
       border-top: 1px solid #555;
     }
     .comment-input-container {
@@ -37,7 +37,7 @@ function addCommentStyles() {
       color: black;
       margin-right: 10px;
     }
-    body.dark-theme .comment-input {
+    body.dark .comment-input {
       background-color: #333;
       color: white;
       border-color: #555;
@@ -61,15 +61,16 @@ function addCommentStyles() {
     .comment {
       display: flex;
       flex-direction: column;
-      background-color: #f0f2f5;
+      background-color: #f0f0f0;
       padding: 8px;
       margin: 0.3em 0;
       border-radius: 8px;
       font-size: 0.9em;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      border: 1px solid #707070 !important;
     }
-    body.dark-theme .comment {
-      background-color: #3a3b3c;
+    body.dark .comment {
+      background-color: #232323;
     }
     .comment-author {
       display: flex;
@@ -85,10 +86,10 @@ function addCommentStyles() {
     .comment-author-name:hover {
       color: #0066cc;
     }
-    body.dark-theme .comment-author-name {
+    body.dark .comment-author-name {
       color: white;
     }
-    body.dark-theme .comment-author-name:hover {
+    body.dark .comment-author-name:hover {
       color: #66b3ff;
     }
     .comment-author-name a {
@@ -101,7 +102,7 @@ function addCommentStyles() {
     .comment-content {
       color: black;
     }
-    body.dark-theme .comment-content {
+    body.dark .comment-content {
       color: white;
     }
     .comment-content p {
@@ -112,7 +113,7 @@ function addCommentStyles() {
       font-size: 0.8em;
       color: #888;
     }
-    body.dark-theme .comment-date {
+    body.dark .comment-date {
       color: #aaa;
     }`;
 
