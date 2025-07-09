@@ -1,5 +1,3 @@
-import { createNostrCommentToVerification, getCommentsForVerification, getNpubFromPubkey } from './verifications_utils.mjs';
-
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
