@@ -175,7 +175,7 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
     renderCommentsSection(assetTableCommentsContainer, assetTableCommentsVerificationKey, verificationAuthorPubkey);
 
     if (await getUserPubkey() !== verificationAuthorPubkey) {
-      const notificationText = `New comment on your WalletScrutiny verification: "${comment}". See or reply to it at ${window.location.href}`;
+      const notificationText = `I added a new comment to your WalletScrutiny verification: "${comment}". See or reply to it at ${window.location.href}`;
       sendPrivateMessageToVerifier(verificationAuthorPubkey, notificationText);
     }
 
