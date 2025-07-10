@@ -106,6 +106,13 @@ window.renderAssetsTable = async function({
     sha256
   });
 
+  let userPubkey = null;
+  try {
+    userPubkey = await getUserPubkey();
+  } catch (e) {
+    console.error("Error getting user pubkey:", e);
+  }
+
   if (showIssueTracker) {
     showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
   }
@@ -393,8 +400,8 @@ window.renderAssetsTable = async function({
 
           let statusText = null;
 
-          const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? `
+          const isMyDraft = attestation.kind === verificationDraftKind && attestation.pubkey === userPubkey;
+          const draftBadge = isMyDraft ? `
             <span class="badge badge-warning">Draft</span> 
             <span
               class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
@@ -406,7 +413,7 @@ window.renderAssetsTable = async function({
 
           listItems += `<span
                             onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
-                            class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
+                            class="attestation-link ${isMyDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
