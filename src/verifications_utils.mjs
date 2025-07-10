@@ -371,7 +371,7 @@ const createVerification = async function ({
   await publishNdkEvent(ndkEvent, 'verification');
 
   if (!isDraft && draftVerificationEventId) {
-    const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+    const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
     if (draftVerificationEvent) {
       await draftVerificationEvent.delete('deleting draft, as verification was published', true);
     }
@@ -887,9 +887,13 @@ function getStatusText(status, short = false) {
   }
 }
 
-const getDraftVerificationEvent = async function(draftVerificationEventId) {
+const getVerificationEvent = async function(verificationEventId) {
+  if (!verificationEventId) {
+    throw new Error('No verification event ID provided');
+  }
+
   await ensureNdkConnected();
-  return await ndk.fetchEvent(draftVerificationEventId);
+  return await ndk.fetchEvent(verificationEventId);
 }
 
 const deleteDraftVerification = async function(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
@@ -900,7 +904,7 @@ const deleteDraftVerification = async function(draftVerificationEventId, moveToU
 
   if (confirm('Are you sure you want to delete this draft verification? This action cannot be undone.')) {
     try {
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+      const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
       if (draftVerificationEvent) {
         await draftVerificationEvent.delete(reason, true);
       }
@@ -1185,7 +1189,7 @@ if (typeof window !== 'undefined') {
   window.getStatusText = getStatusText;
   window.loadDraftVerificationsNotifications = loadDraftVerificationsNotifications;
   window.doDraftVerificationAction = doDraftVerificationAction;
-  window.getDraftVerificationEvent = getDraftVerificationEvent;
+  window.getVerificationEvent = getVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
@@ -1221,7 +1225,7 @@ export {
   getStatusText,
   loadDraftVerificationsNotifications,
   doDraftVerificationAction,
-  getDraftVerificationEvent,
+  getVerificationEvent,
   deleteDraftVerification,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
