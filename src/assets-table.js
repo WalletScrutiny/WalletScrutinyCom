@@ -106,10 +106,8 @@ window.renderAssetsTable = async function({
     sha256
   });
 
-  let userPubkey = null;
   try {
-    userPubkey = await getUserPubkey();
-    window.userPubkey = userPubkey;
+    window.userPubkey = await getUserPubkey();
   } catch (e) {
     console.error("Error getting user pubkey:", e);
     window.userPubkey = null;
@@ -402,12 +400,15 @@ window.renderAssetsTable = async function({
 
           let statusText = null;
 
-          const isMyDraft = attestation.kind === verificationDraftKind && attestation.pubkey === userPubkey;
-          const draftBadge = isMyDraft ? `
-            <span class="badge badge-warning">Draft</span> 
+          const isMyVerification = attestation.pubkey === window.userPubkey;
+          const isMyDraft = attestation.kind === verificationDraftKind && isMyVerification;
+
+          const draftBadge = isMyDraft ? `<span class="badge badge-warning">Draft</span>` : '';
+
+          const editIcon = isMyVerification ? `
             <span
-              class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
-              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${attestation.id}&action=edit\'"
+              style="cursor: pointer; font-size: x-large;" title="Edit Draft"
+              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${attestation.id}&action=edit\'"
             >✏️</span>`
             : '';
 
@@ -420,6 +421,7 @@ window.renderAssetsTable = async function({
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
+              ${editIcon}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
@@ -956,7 +958,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   const isMyDraft = verification.kind === verificationDraftKind && verification.pubkey === window.userPubkey;
-  content.innerHTML = isMyDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
+  content.innerHTML = '<p>';
+  content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  content.innerHTML += `<span style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit\'" title="Edit Draft">✏️</span>`;
+  content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
 
