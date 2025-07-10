@@ -109,8 +109,10 @@ window.renderAssetsTable = async function({
   let userPubkey = null;
   try {
     userPubkey = await getUserPubkey();
+    window.userPubkey = userPubkey;
   } catch (e) {
     console.error("Error getting user pubkey:", e);
+    window.userPubkey = null;
   }
 
   if (showIssueTracker) {
@@ -953,8 +955,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
 
-  const isDraft = verification.kind === verificationDraftKind;
-  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
+  const isMyDraft = verification.kind === verificationDraftKind && verification.pubkey === window.userPubkey;
+  content.innerHTML = isMyDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
 
   const version = getFirstTagValue(verification, 'version');
 
