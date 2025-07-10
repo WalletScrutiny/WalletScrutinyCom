@@ -1112,9 +1112,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const appIdForTheKey = getFirstTagValue(verification, 'i');
   const versionForTheKey = getFirstTagValue(verification, 'version');
   const platformForTheKey = getFirstTagValue(verification, 'platform');
-  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}`;
+  const authorPubkeyForTheKey = verification.pubkey;
+  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}`;
 
-  renderCommentsSection(document.getElementById('comments-container'), verificationKey, verification.pubkey);
+  renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
 
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();

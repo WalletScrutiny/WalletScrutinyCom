@@ -139,7 +139,7 @@ function addCommentStyles() {
 }
 
 async function fetchComments(verificationKey) {
-  console.log(`Fetching comments for verification ID: ${verificationKey}`);
+  console.debug(`Fetching comments for verification ID: ${verificationKey}`);
   const comments = await getCommentsForVerification(verificationKey);
 
   return comments
@@ -174,8 +174,8 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
 
     renderCommentsSection(assetTableCommentsContainer, assetTableCommentsVerificationKey, verificationAuthorPubkey);
 
-    if (getUserPubkey() !== verificationAuthorPubkey) {
-      const notificationText = `New comment on your verification: "${comment}". See or reply to it at ${window.location.href}`;
+    if (await getUserPubkey() !== verificationAuthorPubkey) {
+      const notificationText = `New comment on your WalletScrutiny verification: "${comment}". See or reply to it at ${window.location.href}`;
       sendPrivateMessageToVerifier(verificationAuthorPubkey, notificationText);
     }
 

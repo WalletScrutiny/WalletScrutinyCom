@@ -791,9 +791,6 @@ const sendPrivateMessageToVerifier = async function(verifierPubkey, commentText)
     const recipient = ndk.getUser({ pubkey: verifierPubkey });
     await ndkEvent.encrypt(recipient, null, "nip04");
     await ndkEvent.sign();
-
-    console.log("Final event object before publishing:", ndkEvent.rawEvent());
-
     await publishNdkEvent(ndkEvent, 'private message to verifier');
     return ndkEvent.id;
   } catch (error) {
