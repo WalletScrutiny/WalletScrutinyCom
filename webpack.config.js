@@ -25,6 +25,7 @@ module.exports = {
         './src/blossom-utils.js',
         './src/drag-and-drop.js',
         './src/assets-table-utils.js',
+        './src/assets-table-comments.js',
         './src/assets-table.js',
         './src/preview-button.js'
       ],

@@ -2,13 +2,13 @@ import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
 import { getFirstTagValue } from "../../src/verifications_common.mjs";
 global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 
 const connectTimeout = 2000;
 
-const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind];
+const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind];
 
 const ndk = new NDK({
   explicitRelayUrls: explicitRelayUrls,

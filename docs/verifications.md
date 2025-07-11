@@ -87,7 +87,7 @@ Trust in verifications is built through:
 
 Has the same structure as the Verification event, with the following differences:
 - `kind`: 30801
-- `tags`: includes a `d` tag with the draft key: ${appId}:${version}:${platform}
+- `draft-key`: a tag with the following format: ${appId}:${version}:${platform}
 
 ```json
 {
@@ -102,6 +102,23 @@ Has the same structure as the Verification event, with the following differences
   }
 }
 ```
+
+#### Verification Comment
+
+Comments added by users to verifications or verification drafts.
+
+```json
+{
+  "kind":    30802,
+  "content": "<comment-text>",
+  "tags":    [
+    ["v",        "<verification-event-id>"]
+  ]
+}
+```
+
+* `comment-text`: the text of the comment from the user
+* `verification-event-id`: a tag with the following format: ${appId}:${version}:${platform}:${verificationAuthorPubkey}
 
 #### File Attachment
 ```json
