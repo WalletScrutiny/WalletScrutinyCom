@@ -5,6 +5,7 @@ import {
   assetRegistrationKind,
   verificationKind,
   verificationDraftKind,
+  verificationCommentKind,
   codeSnippetKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
@@ -748,6 +749,56 @@ const createNostrNote = async function (message) {
   return ndkEvent.id;
 }
 
+const createNostrCommentToVerification = async function(verificationKey, comment) {
+  await ensureNdkConnected();
+
+  const ndkEvent = createNdkEvent(verificationCommentKind, comment);
+  ndkEvent.tags.push(['v', verificationKey]);
+  await publishNdkEvent(ndkEvent, 'comment to verification');
+
+  return ndkEvent.id;
+}
+
+const getCommentsForVerification = async function(verificationKey) {
+  await ensureNdkConnected();
+  const comments = await ndk.fetchEvents({
+    kinds: [verificationCommentKind],
+    '#v': [verificationKey]
+  });
+  return Array.from(comments);
+}
+
+const sendPrivateMessageToVerifier = async function(verifierPubkey, commentText) {
+  await ensureNdkConnected();
+  
+  if (!verifierPubkey || !commentText) {
+    throw new Error("Missing required parameters: verifierPubkey and commentText are required");
+  }
+
+  // Validate pubkey format
+  if (!/^[0-9a-f]{64}$/i.test(verifierPubkey)) {
+    throw new Error("Invalid verifier pubkey format");
+  }
+
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = 4;
+  ndkEvent.pubkey = await getUserPubkey();
+  ndkEvent.created_at = getCreatedAt();
+  ndkEvent.tags = [['p', verifierPubkey]];
+  ndkEvent.content = commentText;
+
+  try {
+    const recipient = ndk.getUser({ pubkey: verifierPubkey });
+    await ndkEvent.encrypt(recipient, null, "nip04");
+    await ndkEvent.sign();
+    await publishNdkEvent(ndkEvent, 'private message to verifier');
+    return ndkEvent.id;
+  } catch (error) {
+    console.error('Error encrypting or publishing private message:', error);
+    throw new Error(`Failed to send private message: ${error.message}`);
+  }
+}
+
 function setupAppIdAutocomplete(firstTime = true) {
   const appIdInput = document.getElementById('appId');
   const suggestionsContainer = document.getElementById('appIdSuggestions');
@@ -1144,7 +1195,10 @@ if (typeof window !== 'undefined') {
   window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
   window.getWeightForAppFromAssetInformation = getWeightForAppFromAssetInformation;
   window.cleanupNdkConnections = cleanupNdkConnections;
-  
+  window.createNostrCommentToVerification = createNostrCommentToVerification;
+  window.getCommentsForVerification = getCommentsForVerification;
+  window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
+
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
   });
@@ -1173,5 +1227,8 @@ export {
   uploadFileAttachment,
   getFileAttachmentEvents,
   getAllAttachmentsForAppId,
-  getMaxAssetVersion
+  getMaxAssetVersion,
+  createNostrCommentToVerification,
+  getCommentsForVerification,
+  sendPrivateMessageToVerifier
 };
