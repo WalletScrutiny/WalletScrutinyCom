@@ -400,17 +400,29 @@ window.renderAssetsTable = async function({
 
           let statusText = null;
 
-          const isMyVerification = attestation.pubkey === window.userPubkey;
-          const isMyDraft = attestation.kind === verificationDraftKind && isMyVerification;
+          const isMine = attestation.pubkey === window.userPubkey;
+          const isDraft = attestation.kind === verificationDraftKind;
+          const isMyDraft = isDraft && isMine;
 
           const draftBadge = isMyDraft ? `<span class="badge badge-warning">Draft</span>` : '';
 
-          const editIcon = isMyVerification ? `
+          let title = '';
+          let icon = '';
+          let basedOnParams = '';
+          if (isMine) {
+            title = isDraft ? 'Edit your draft' : 'Edit your verification';
+            icon = '✏️';
+          } else {
+            title = isDraft ? 'Copy this draft' : 'Copy this verification';
+            icon = '📋';
+            basedOnParams = `&basedOn=${attestation.id}:${attestation.pubkey}`;
+          }
+
+          const editCopyIcon = `
             <span
-              style="cursor: pointer; font-size: x-large;" title="${isMyDraft ? 'Edit Draft' : 'Edit Verification'}"
-              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${attestation.id}&action=edit\'"
-            >✏️</span>`
-            : '';
+              style="cursor: pointer; font-size: x-large; vertical-align: middle;" title="${title}"
+              onclick="event.stopPropagation(); window.location.href='/new_verification/?${isDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${attestation.id}&action=edit${basedOnParams}'"
+            >${icon}</span>`;
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
@@ -421,7 +433,7 @@ window.renderAssetsTable = async function({
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
-              ${editIcon}
+              ${editCopyIcon}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
@@ -901,9 +913,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const verifications = response.verifications.get(sha256Hash) || [];
   const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
-  const attestations = [...verifications, ...draftVerifications];
-  const verification  = attestations.find(a => a.id === verificationId);
-  const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
+  const allTheVerifications = [...verifications, ...draftVerifications];
+  const verification = allTheVerifications.find(a => a.id === verificationId);
+  console.log('----------------- verification', verification);
+  const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   window.currentVerification = verification;
 
@@ -957,16 +970,38 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
 
-  const isMyDraft = verification.kind === verificationDraftKind && verification.pubkey === window.userPubkey;
+  const isMine = verification.pubkey === window.userPubkey;
+  const isDraft = verification.kind === verificationDraftKind;
+  const isMyDraft = isDraft && isMine;
+
+  let title = '';
+  let icon = '';
+  let basedOnParams = '';
+  if (isMine) {
+    title = isDraft ? 'Edit your draft' : 'Edit your verification';
+    icon = '✏️';
+  } else {
+    title = isDraft ? 'Copy this draft' : 'Copy this verification';
+    icon = '📋';
+    basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
+  }
+
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit\'" title="${isMyDraft ? 'Edit Draft' : 'Edit Verification'}">✏️ ${isMyDraft ? 'Edit Draft' : 'Edit Verification'}</button>`;
+  content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
 
   content.innerHTML += `
-    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
+
+  const basedOn = getFirstTagValue(verification, 'based-on');
+  if (basedOn) {
+    content.innerHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
+  }
+
+  content.innerHTML += `
     <p><strong>Version:</strong> ${version}</p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
@@ -1174,6 +1209,19 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       </div>
     </div>
   ` : verification.pubkey;
+
+  if (basedOn) {
+    const basedOnProfile = await getNostrProfile(basedOn.split(':')[1]);
+    document.getElementById('based-on-attempt-by').innerHTML = basedOnProfile ? `
+      <div class="profile-card">
+        ${basedOnProfile.image ? `<img src="${basedOnProfile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'" onerror="this.style.display='none'"/>` : ''}
+        <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'">
+          <div>${basedOnProfile.name || basedOn.split(':')[1]}</div>
+          ${basedOnProfile.nip05 ? `<div class="profile-nip05">${basedOnProfile.nip05}</div>` : ''}
+        </div>
+      </div>
+    ` : basedOn.split(':')[1];
+  }
 
   const closeModalAction = () => {
     modal.style.display = 'none';

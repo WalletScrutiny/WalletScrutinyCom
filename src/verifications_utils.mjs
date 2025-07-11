@@ -263,7 +263,8 @@ const createVerification = async function ({
                                              draftVerificationEventId = null,
                                              uploadedFileData = [],
                                              reusedFileIds = [],
-                                             outputFiles = []
+                                             outputFiles = [],
+                                             basedOn = null
                                            }) {
   await ensureNdkConnected();
   validateSHA256(hashes);
@@ -358,6 +359,10 @@ const createVerification = async function ({
 
   if (issueTrackerUrl && issueTrackerUrl.trim()) {
     tags.push(["issue-tracker-url", issueTrackerUrl.trim()]);
+  }
+
+  if (basedOn) {
+    tags.push(["based-on", basedOn]);
   }
 
   const ndkEvent = createNdkEvent(

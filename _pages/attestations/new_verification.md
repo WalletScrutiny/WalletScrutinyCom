@@ -1021,6 +1021,7 @@ permalink: /new_verification/
 
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
+    const basedOn = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('basedOn'), purifyConfig);
 
     // Combine sha256 and otherHashes into a single parameter
     let hashes = sha256 ? [sha256] : [];
@@ -1041,7 +1042,8 @@ permalink: /new_verification/
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
       reusedFileIds: reusedFileIds,
-      outputFiles: outputFiles
+      outputFiles: outputFiles,
+      basedOn: basedOn
     };
 
     try {
