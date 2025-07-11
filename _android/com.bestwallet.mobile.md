@@ -8,11 +8,11 @@ users: 500000
 appId: com.bestwallet.mobile
 appCountry: 
 released: 2023-07-24
-updated: 2025-06-26
-version: 2.9.0
+updated: 2025-07-08
+version: 2.9.1
 stars: 4.1
 ratings: 
-reviews: 691
+reviews: 694
 website: https://www.bestwallet.com
 repository: 
 issue: 

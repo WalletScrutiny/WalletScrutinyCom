@@ -10,8 +10,8 @@ idd: '1591104692'
 released: 2021-10-28
 updated: 2025-07-03
 version: 3.1.2
-stars: 4.5
-reviews: 36
+stars: 4.6
+reviews: 39
 website: https://kriptrade.com
 repository: 
 issue: 

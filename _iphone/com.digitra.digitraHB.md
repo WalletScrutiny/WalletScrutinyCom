@@ -11,7 +11,7 @@ released: 2022-03-12
 updated: 2025-06-16
 version: 1.0.154
 stars: 4.8
-reviews: 31
+reviews: 32
 website: https://www.digitra.com
 repository: 
 issue: 

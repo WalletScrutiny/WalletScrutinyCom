@@ -12,7 +12,7 @@ updated: 2025-07-03
 version: 7.6.8
 stars: 4
 ratings: 756
-reviews: 923
+reviews: 925
 website: https://dcentwallet.com/
 repository: 
 issue: 

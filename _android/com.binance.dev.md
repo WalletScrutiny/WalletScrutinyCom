@@ -12,7 +12,7 @@ updated: 2025-07-07
 version: 2.102.5
 stars: 4.7
 ratings: 619117
-reviews: 15154
+reviews: 15158
 website: https://www.binance.com/
 repository: 
 issue: 

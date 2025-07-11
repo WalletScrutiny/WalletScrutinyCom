@@ -11,7 +11,7 @@ released: 2023-01-11
 updated: 2025-07-02
 version: 3.0.1
 stars: 3.7
-reviews: 25
+reviews: 26
 website: https://www.liteforex.com
 repository: 
 issue: 

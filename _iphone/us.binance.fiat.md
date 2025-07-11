@@ -11,7 +11,7 @@ released: 2020-01-05
 updated: 2025-07-02
 version: 3.20.8
 stars: 4.2
-reviews: 109494
+reviews: 109505
 website: https://www.binance.us
 repository: 
 issue: 

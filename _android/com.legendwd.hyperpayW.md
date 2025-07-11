@@ -1,6 +1,6 @@
 ---
 wsId: hyperPay
-title: HyperPay :Wallet Crypto & Card
+title: HPX :Wallet Crypto & Card
 altTitle: 
 authors:
 - leo
@@ -9,8 +9,8 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2025-06-24
-version: 5.6.060000
+updated: 2025-07-08
+version: 5.6.070800
 stars: 3.8
 ratings: 2781
 reviews: 191

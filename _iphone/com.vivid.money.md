@@ -7,8 +7,8 @@ appId: com.vivid.money
 appCountry: jp
 idd: 1504417378
 released: 2020-10-09
-updated: 2025-07-02
-version: 3.71.0
+updated: 2025-07-10
+version: 3.72.0
 stars: 4.6
 reviews: 16
 website: https://vivid.money/en-de

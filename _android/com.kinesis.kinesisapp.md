@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-02-28
 updated: 2025-07-02
 version: 2.8.2
-stars: 3.6
+stars: 3.5
 ratings: 424
 reviews: 97
 website: https://kinesis.money/

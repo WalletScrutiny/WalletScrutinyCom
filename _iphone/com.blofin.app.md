@@ -8,10 +8,10 @@ appId: com.blofin.app
 appCountry: us
 idd: '1616804346'
 released: 2022-04-15
-updated: 2025-07-01
-version: 3.13.0
+updated: 2025-07-09
+version: 3.14.0
 stars: 4.7
-reviews: 932
+reviews: 949
 website: https://blofin.com
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: coinOneKr
-title: 코인원
+title: 코인원 - 가상자산 거래소(비트코인, 이더리움, 테더)
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: kr.co.coinone.officialapp
 appCountry: kr
 idd: 1326526995
 released: 2018-03-27
-updated: 2025-06-30
-version: 5.10.2
+updated: 2025-07-10
+version: 5.11.0
 stars: 2.7
-reviews: 968
+reviews: 969
 website: 
 repository: 
 issue: 
