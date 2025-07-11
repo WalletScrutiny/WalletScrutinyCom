@@ -407,7 +407,7 @@ window.renderAssetsTable = async function({
 
           const editIcon = isMyVerification ? `
             <span
-              style="cursor: pointer; font-size: x-large;" title="Edit Draft"
+              style="cursor: pointer; font-size: x-large;" title="${isMyDraft ? 'Edit Draft' : 'Edit Verification'}"
               onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${attestation.id}&action=edit\'"
             >✏️</span>`
             : '';
@@ -960,7 +960,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const isMyDraft = verification.kind === verificationDraftKind && verification.pubkey === window.userPubkey;
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<span style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit\'" title="Edit Draft">✏️</span>`;
+  content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit\'" title="${isMyDraft ? 'Edit Draft' : 'Edit Verification'}">✏️ ${isMyDraft ? 'Edit Draft' : 'Edit Verification'}</button>`;
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
