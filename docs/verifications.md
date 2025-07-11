@@ -118,7 +118,7 @@ Comments added by users to verifications or verification drafts.
 ```
 
 * `comment-text`: the text of the comment from the user
-* `verification-event-id`: a tag with the following format: ${appId}:${version}:${platform}
+* `verification-event-id`: a tag with the following format: appId:version:platform:verificationPublisherPubkey
 
 #### File Attachment
 ```json
