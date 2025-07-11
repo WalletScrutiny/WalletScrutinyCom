@@ -20,9 +20,9 @@ issue: https://github.com/AquaWallet/aqua-wallet/issues/9
 icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: nosource
 appHashes: []
-date: 2024-09-06
+date: 2025-07-11
 signer: 
 twitter: AquaBitcoin
 social:
@@ -36,6 +36,18 @@ features:
 - liquid
 
 ---
+
+## Update 2025-07-11
+
+After thorough investigation, we have changed the verdict for Aqua Wallet to **not source available**. Our reproducibility testing revealed that the public repository is incomplete and contains partially closed source components. The build fails specifically because it's missing several proprietary components that are included in the official APK but not in the public repository.
+
+According to the developer's response on Twitter: 
+
+> *"Yes, we're still focused on reproducible builds, but only for the non-custodial core of the wallet without the Marketplace integrations. Right now the build is failing because it is dependent on closed-source code for Marketplace features like the Dolphin Card and Buy Bitcoin."* 
+
+> [Tweet](https://x.com/AquaBitcoin/status/1943219237100884182)
+
+Given these findings, we must change the verdict to as the complete source code that produces the published APK is not publicly available.
 
 **Update 2024-09-06:**
 
