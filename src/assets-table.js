@@ -94,7 +94,7 @@ window.renderAssetsTable = async function({
                                             sortByVersion = false,
                                             enableSearch = false,
                                             enableDraftsFilter = false,
-                                            enableAttachments = false,
+                                            showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false
                                           }) {
@@ -318,7 +318,7 @@ window.renderAssetsTable = async function({
     sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
-  if (enableAttachments && sortedItems.length > 0) {
+  if (sortedItems.length > 0) {
     let attachmentEventIDs = [];
     sortedItems.forEach((item, index) => {
       const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
@@ -510,42 +510,31 @@ window.renderAssetsTable = async function({
   document.getElementById(htmlElementId).appendChild(table);
 
   // ATTACHMENTS TABLE
-  if (enableAttachments && attachments.size > 0) {
+  if (attachments.size > 0) {
     attachments.forEach(attachment => {
       if (showProfilePictures && !profilePubkeys.includes(attachment.pubkey)) {
         profilePubkeys.push(attachment.pubkey);
       }
     });
 
-    const paragraph = document.createElement('p');
-    paragraph.innerHTML = 'Scripts used to reproduce the application:';
-    document.getElementById(htmlElementId).appendChild(paragraph);
+    if (showAttachmentsTable) {
+      const paragraph = document.createElement('p');
+      paragraph.innerHTML = 'Scripts used to reproduce the application:';
+      document.getElementById(htmlElementId).appendChild(paragraph);
 
-    const attachmentsTable = document.createElement('table');
-    attachmentsTable.innerHTML = `
-      <thead>
-        <tr>
-          <th>File</th>
-          <th>Used to reproduce</th>
-        </tr>
-      </thead>
-    `;
+      const attachmentsTable = document.createElement('table');
+      attachmentsTable.innerHTML = `
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Used to reproduce</th>
+          </tr>
+        </thead>
+      `;
+    }
 
     attachments.forEach(attachment => {
-      const date = formatDate(attachment.created_at);
       const { name, sizeInKb } = getAttachmentInfo(attachment);
-
-      // Find in sortedItems the specific verification items that use this attachment
-      const verifications = sortedItems.flatMap(item =>
-        item.items.filter(i =>
-          i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
-        )
-      );
-
-      const row = document.createElement('tr');
-      if (verifications.some(v => v.kind === verificationDraftKind)) {
-        row.classList.add('draft-attestation');
-      }
 
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
@@ -558,38 +547,56 @@ window.renderAssetsTable = async function({
         sizeInKb: sizeInKb
       };
 
-      let rowHTML = `
-        <td>${name} <small>(${sizeInKb} kB)</small> 
-          <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
-          <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
-          <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
-        </td>
-
-        <td>`;
-
-      if (verifications.length > 0) {
-        for (const verification of verifications) {
-          const version = getFirstTagValue(verification, 'version');
-          const identifier = getFirstTagValue(verification, 'i');
-          const platform = getFirstTagValue(verification, 'platform');
-
-          const wallet = window.wallets.find(w => w.appId === identifier);
-          const walletTitle = wallet ? wallet.title : identifier;
-
-          rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+      if (showAttachmentsTable) {
+        const row = document.createElement('tr');
+        if (verifications.some(v => v.kind === verificationDraftKind)) {
+          row.classList.add('draft-attestation');
         }
-      } else {
-        rowHTML += '-';
+
+        // Find in sortedItems the specific verification items that use this attachment
+        const verifications = sortedItems.flatMap(item =>
+          item.items.filter(i =>
+            i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
+          )
+        );
+
+        const date = formatDate(attachment.created_at);
+
+        let rowHTML = `
+          <td>${name} <small>(${sizeInKb} kB)</small> 
+            <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
+            <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
+            <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
+          </td>
+
+          <td>`;
+
+        if (verifications.length > 0) {
+          for (const verification of verifications) {
+            const version = getFirstTagValue(verification, 'version');
+            const identifier = getFirstTagValue(verification, 'i');
+            const platform = getFirstTagValue(verification, 'platform');
+
+            const wallet = window.wallets.find(w => w.appId === identifier);
+            const walletTitle = wallet ? wallet.title : identifier;
+
+            rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+          }
+        } else {
+          rowHTML += '-';
+        }
+
+        rowHTML += `</td>`;
+      
+        row.innerHTML = rowHTML;
+
+        attachmentsTable.appendChild(row);
       }
-
-      rowHTML += `</td>`;
-
-      row.innerHTML = rowHTML;
-
-      attachmentsTable.appendChild(row);
     });
 
-    document.getElementById(htmlElementId).appendChild(attachmentsTable);
+    if (showAttachmentsTable) {
+      document.getElementById(htmlElementId).appendChild(attachmentsTable);
+    }
   }
 
   // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
