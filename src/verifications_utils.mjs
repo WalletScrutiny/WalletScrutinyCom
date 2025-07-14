@@ -426,6 +426,42 @@ function isValidJSONObject(str) {
   }
 }
 
+/**
+ * Sanitizes HTML content by removing potentially dangerous tags.
+ * This allows various formatting tags to be kept, which is useful for rich content,
+ * while mitigating risks from tags that can execute scripts or handle form submissions.
+ * @param {string} content The HTML string to sanitize.
+ * @returns {string} The sanitized HTML string.
+ */
+function sanitizeDangerousHTML(content) {
+  if (!content) {
+    return content;
+  }
+
+  const forbiddenTags = [
+    'script', 'iframe', 'object', 'embed', 'form', 'input',
+    'textarea', 'select', 'button', 'img', 'style', 'link', 'image'
+  ];
+
+  let sanitizedContent = content;
+
+  forbiddenTags.forEach(tag => {
+    // This regex targets tags that enclose content, like <script>...</script>.
+    // It's case-insensitive (i) and global (g) to catch all occurrences.
+    // The 's' flag allows '.' to match newlines, to handle multi-line content.
+    const contentTagRegex = new RegExp(`<${tag}\\b[^>]*>.*?<\\/${tag}>`, 'gis');
+    sanitizedContent = sanitizedContent.replace(contentTagRegex, '');
+
+    // This second regex is for self-closing or standalone tags like <img ...> or <link ...>.
+    // It finds the tag and removes it. This is run after the first regex
+    // to clean up any remaining opening tags that didn't have a matching closing tag.
+    const selfClosingTagRegex = new RegExp(`<${tag}\\b[^>]*>`, 'gi');
+    sanitizedContent = sanitizedContent.replace(selfClosingTagRegex, '');
+  });
+
+  return sanitizedContent;
+}
+
 function eventSanitize(event) {
   const isBrowser = typeof window !== 'undefined';
 
@@ -434,7 +470,15 @@ function eventSanitize(event) {
     const contentObject = JSON.parse(event.content);
 
     Object.keys(contentObject).forEach(key => {
-      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key], purifyConfig) : contentObject[key];
+      let sanitizedContent;
+      if (key === 'content') {
+        // For 'content', sanitize to remove dangerous tags
+        // like <script>, but allow other (XML?) tags
+        sanitizedContent = sanitizeDangerousHTML(contentObject[key]);
+      } else {
+        // For other fields like 'description', sanitize to strip any HTML.
+        sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key], purifyConfig) : contentObject[key];
+      }
 
       if (key === 'description') {
         sanitizedContent = sanitizedContent.substring(0, 120);
