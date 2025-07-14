@@ -71,7 +71,8 @@ Trust in verifications is built through:
     ["file-attachment", "<file-attachment-event-id-2>"],        // file-attachment-event-id 2 ...
     ["output-file", "filename-file-1", "<hash-output-file-1>"], // filename-file-1, hash-output-file-1
     ["output-file", "filename-file-2", "<hash-output-file-2>"], // filename-file-2, hash-output-file-2 ...
-    ["issue-tracker-url", "<issue-url>"]                        // url of the issue opened at the wallet's issue tracker
+    ["issue-tracker-url", "<issue-url>"],                       // url of the issue opened at the wallet's issue tracker
+    ["based-on", "<verification-event-id>:<author-pubkey>"]     // verification-event-id of the verification this one is based on, and the pubkey of the author
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
@@ -82,6 +83,8 @@ Trust in verifications is built through:
 
 * file-attachment - event_id of the event containing the file used to reproduce the binary (see below)
 * output-file - hash of the output logs of the reproduction process, or asciicast file, or diffoscope file, etc.
+
+Note: for "based-on", we save the author-pubkey alongside the verification-event-id, so we can show the user who the verification is based on even if the verification is deleted.
 
 #### Verification Draft
 
@@ -118,7 +121,7 @@ Comments added by users to verifications or verification drafts.
 ```
 
 * `comment-text`: the text of the comment from the user
-* `verification-event-id`: a tag with the following format: ${appId}:${version}:${platform}:${verificationAuthorPubkey}
+* `verification-event-id`: a tag with the following format: appId:version:platform:verificationPublisherPubkey
 
 #### File Attachment
 ```json

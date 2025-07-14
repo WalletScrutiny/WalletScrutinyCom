@@ -482,7 +482,7 @@ permalink: /new_verification/
         <a id="deleteDraft" style="color: red; cursor: pointer;">Delete Draft</a>
         <p>
             <small>
-                <b>Note:</b> Draft verifications are not displayed directly, but they can still be seen by you and other users if they opt to view them. You'll be able to view them and publish them later.
+                <b>Note:</b> Draft verifications are not displayed by default, but they can still be viewed by you and other users who choose to see them. You’ll be able to view and publish them later.
             </small>
         </p>
     </form>
@@ -711,20 +711,23 @@ permalink: /new_verification/
 
     const urlParams = new URLSearchParams(window.location.search);
     const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+    const verificationEventId = urlParams.get('verificationEventId');
     const action = urlParams.get('action');
 
-    if (draftVerificationEventId && action) {
-      const draftButton = document.querySelector('button[name="draft"]');
-      if (draftButton) {
-        draftButton.textContent = 'Save Draft Verification';
+    if ((draftVerificationEventId || verificationEventId) && action) {
+      if (draftVerificationEventId) {
+        const draftButton = document.querySelector('button[name="draft"]');
+        if (draftButton) {
+          draftButton.textContent = 'Save Draft Verification';
+        }
       }
 
-      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
-      document.title = 'Editing Draft Verification | Wallet Scrutiny';
+      document.getElementById('pageTitle').textContent = draftVerificationEventId ? 'Editing Draft Verification' : 'Editing Verification';
+      document.title = draftVerificationEventId ? 'Editing Draft Verification | Wallet Scrutiny' : 'Editing Verification | Wallet Scrutiny';
 
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
+      const verificationEvent = await getVerificationEvent(draftVerificationEventId || verificationEventId);
+      if (verificationEvent) {
+        const fileEventIds = getFileAttachmentIDsForVerificationEvent(verificationEvent);
         const attachments = await getFileAttachmentEvents(fileEventIds);
 
         attachments.forEach(attachment => {
@@ -750,7 +753,7 @@ permalink: /new_verification/
         });
         displayFiles();
 
-        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+        const verificationOutputFiles = verificationEvent.tags.filter(tag => tag[0] === 'output-file');
         verificationOutputFiles.forEach(outputFile => {
           outputFiles.push({
             name: outputFile[1],
@@ -759,28 +762,30 @@ permalink: /new_verification/
         });
         displayOutputFiles();
 
-        // If files were loaded from the draft, set the script usage selector to 'upload'
+        // If files were loaded from the event (draft or not), set the script usage selector to 'upload'
         if (uploadedFiles.length > 0) {
           document.getElementById('scriptUsage').value = 'upload';
           await handleScriptSectionVisibility();
         }
 
-        const eventContent = JSON.parse(draftVerificationEvent.content);
+        const eventContent = JSON.parse(verificationEvent.content);
 
-        document.getElementById('appId').value = getFirstTagValue(draftVerificationEvent, 'i');
-        document.getElementById('version').value = getFirstTagValue(draftVerificationEvent, 'version');
-        document.getElementById('platform').value = getFirstTagValue(draftVerificationEvent, 'platform');
+        document.getElementById('appId').value = getFirstTagValue(verificationEvent, 'i');
+        document.getElementById('version').value = getFirstTagValue(verificationEvent, 'version');
+        document.getElementById('platform').value = getFirstTagValue(verificationEvent, 'platform');
         document.getElementById('description').value = eventContent.description || '';
-        document.getElementById('status').value = getFirstTagValue(draftVerificationEvent, 'status');
+        document.getElementById('status').value = getFirstTagValue(verificationEvent, 'status');
         document.getElementById('content').value = eventContent.content || '';
-        document.getElementById('issueTrackerUrl').value = getFirstTagValue(draftVerificationEvent, 'issue-tracker-url') || '';
+        document.getElementById('issueTrackerUrl').value = getFirstTagValue(verificationEvent, 'issue-tracker-url') || '';
 
-        const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+        const hashes = verificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
         hashes.forEach(hash => addHash(hash));
       } else {
-        showToast('Draft verification not found', 'error');
+        showToast('Draft or verification not found', 'error');
       }
-    } else {
+    }
+
+    if (!draftVerificationEventId) {
       const deleteDraftBtn = document.getElementById('deleteDraft');
       if (deleteDraftBtn) {
         deleteDraftBtn.style.display = 'none';
@@ -1016,6 +1021,7 @@ permalink: /new_verification/
 
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
+    const basedOn = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('basedOn'), purifyConfig);
 
     // Combine sha256 and otherHashes into a single parameter
     let hashes = sha256 ? [sha256] : [];
@@ -1036,7 +1042,8 @@ permalink: /new_verification/
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
       reusedFileIds: reusedFileIds,
-      outputFiles: outputFiles
+      outputFiles: outputFiles,
+      basedOn: basedOn
     };
 
     try {

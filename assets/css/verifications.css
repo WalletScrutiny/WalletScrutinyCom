@@ -40,7 +40,7 @@ body.dark .markdown-content code {
 }
 
 .markdown-content pre {
-  padding: 10px;
+  padding: 6px;
   border-radius: 5px;
   overflow-x: unset;
 }
