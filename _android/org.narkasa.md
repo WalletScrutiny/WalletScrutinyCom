@@ -8,8 +8,8 @@ users: 50000
 appId: org.narkasa
 appCountry: 
 released: 2020-10-30
-updated: 2025-04-25
-version: 4.57.0
+updated: 2025-07-07
+version: 4.58.0
 stars: 3.5
 ratings: 
 reviews: 

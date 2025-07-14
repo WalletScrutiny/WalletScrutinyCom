@@ -25,7 +25,7 @@ signer:
 twitter: CryptoConverted
 social: 
 features: 
-developerName: CryptoConvert (Pty) Ltd
+developerName: MoneyBadger (Pty) Ltd
 
 ---
 

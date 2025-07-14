@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-22
 updated: 2024-09-06
 version: 1.0.11
-stars: 3.9
+stars: 3.8
 ratings: 
 reviews: 44
 website: https://www.cryptorefills.com

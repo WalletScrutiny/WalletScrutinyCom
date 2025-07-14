@@ -12,7 +12,7 @@ updated: 2025-07-04
 version: 12.8.1
 stars: 4.2
 ratings: 16669
-reviews: 10945
+reviews: 10946
 website: https://cex.io
 repository: 
 issue: 

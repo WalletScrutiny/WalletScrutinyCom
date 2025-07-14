@@ -12,7 +12,7 @@ appCountry:
 released: 2018-12-18
 updated: 2025-06-30
 version: 0.43.1
-stars: 4.5
+stars: 4.4
 ratings: 556
 reviews: 111
 website: https://horizontalsystems.io/

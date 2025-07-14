@@ -11,7 +11,7 @@ released: 2018-08-06
 updated: 2025-07-01
 version: 13.0.2
 stars: 4.6
-reviews: 11864
+reviews: 11877
 website: https://lobstr.co/
 repository: 
 issue: 

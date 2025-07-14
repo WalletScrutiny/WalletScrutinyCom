@@ -10,7 +10,7 @@ appCountry:
 released: 2017-12-18
 updated: 2025-07-04
 version: 3.0.53
-stars: 3.9
+stars: 4
 ratings: 291
 reviews: 7
 website: https://simplefx.com

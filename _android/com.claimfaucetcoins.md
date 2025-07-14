@@ -8,8 +8,8 @@ users: 50000
 appId: com.claimfaucetcoins
 appCountry: 
 released: 2020-04-21
-updated: 2024-09-09
-version: '2.218'
+updated: 2025-07-08
+version: '2.219'
 stars: 4
 ratings: 266
 reviews: 18

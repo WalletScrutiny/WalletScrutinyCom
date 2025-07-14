@@ -3,12 +3,12 @@ wsId:
 title: CoinPlug - Swap Crypto to Cash
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: app.coinplug
 appCountry: 
 released: 2021-10-19
-updated: 2025-06-29
-version: 2.1.0
+updated: 2025-07-07
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ issue:
 icon: app.coinplug.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

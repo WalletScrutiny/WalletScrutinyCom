@@ -4,7 +4,7 @@ title: Wallet of Satoshi
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.livingroomofsatoshi.wallet
 appCountry: 
 released: 2019-05-19

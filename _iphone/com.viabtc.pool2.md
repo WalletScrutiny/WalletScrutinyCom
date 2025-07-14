@@ -8,8 +8,8 @@ appId: com.viabtc.pool2
 appCountry: hk
 idd: '1334584229'
 released: 2018-01-18
-updated: 2025-06-06
-version: 3.8.7
+updated: 2025-07-08
+version: 3.8.8
 stars: 4.3
 reviews: 16
 website: https://www.viabtc.com/

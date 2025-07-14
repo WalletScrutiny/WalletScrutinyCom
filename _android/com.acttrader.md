@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-29
 updated: 2025-06-10
 version: 2.2.38
-stars: 3.1
+stars: 3.2
 ratings: 
 reviews: 20
 website: https://acttrader.com

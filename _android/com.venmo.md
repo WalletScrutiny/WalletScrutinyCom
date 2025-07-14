@@ -8,11 +8,11 @@ users: 50000000
 appId: com.venmo
 appCountry: 
 released: 2010-05-17
-updated: 2025-06-27
+updated: 2025-07-10
 version: 10.68.1
 stars: 4.2
 ratings: 
-reviews: 326255
+reviews: 326521
 website: https://venmo.com/
 repository: 
 issue: 
