@@ -915,7 +915,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
   const allTheVerifications = [...verifications, ...draftVerifications];
   const verification = allTheVerifications.find(a => a.id === verificationId);
-  console.log('----------------- verification', verification);
   const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   window.currentVerification = verification;
