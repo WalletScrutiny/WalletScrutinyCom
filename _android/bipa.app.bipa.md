@@ -12,7 +12,7 @@ updated: 2025-07-02
 version: 4.0.24
 stars: 4.5
 ratings: 
-reviews: 12
+reviews: 13
 website: https://bipa.app/
 repository: 
 issue: 

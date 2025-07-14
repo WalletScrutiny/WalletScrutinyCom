@@ -1,6 +1,6 @@
 ---
 wsId: ajaibkripto
-title: Ajaib Alpha (Ajaib Kripto)
+title: 'Ajaib Alpha: Crypto & US Stock'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
-updated: 2025-06-09
+updated: 2025-07-09
 version: 2.74.1
 stars: 4.4
 ratings: 
-reviews: 34
+reviews: 35
 website: https://kripto.ajaib.co.id/
 repository: 
 issue: 

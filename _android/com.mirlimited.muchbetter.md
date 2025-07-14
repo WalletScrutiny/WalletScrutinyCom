@@ -12,7 +12,7 @@ updated: 2025-06-26
 version: 4.28.0
 stars: 3.1
 ratings: 10117
-reviews: 164
+reviews: 165
 website: https://www.muchbetter.com
 repository: 
 issue: 

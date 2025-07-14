@@ -11,7 +11,7 @@ released: 2019-02-22
 updated: 2025-07-07
 version: 5.4.4
 stars: 3.7
-reviews: 631
+reviews: 632
 website: https://www.lbank.com/
 repository: 
 issue: 

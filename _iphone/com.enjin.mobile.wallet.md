@@ -12,7 +12,7 @@ released: 2018-03-12
 updated: 2025-06-16
 version: 3.2.0
 stars: 4.5
-reviews: 1370
+reviews: 1371
 website: https://enjin.io/products/wallet
 repository: 
 issue: 

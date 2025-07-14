@@ -1,6 +1,6 @@
 ---
 wsId: brasilBitcoin
-title: 'Brasil Bitcoin: Cripto Grátis'
+title: 'Brasil Bitcoin: Compre Cripto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: br.com.brasilbitcoin.run
 appCountry: br
 idd: '1519300849'
 released: 2020-07-27
-updated: 2025-06-24
-version: 3.9.02
+updated: 2025-07-14
+version: 3.9.03
 stars: 4.5
 reviews: 2265
 website: 

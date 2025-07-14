@@ -9,7 +9,7 @@ appId: com.revolut.revolutx
 appCountry: 
 released: 
 updated: 2025-07-08
-version: '1.15'
+version: '1.16'
 stars: 
 ratings: 
 reviews: 

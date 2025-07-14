@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.arcticmobile.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-07-14
 signer: 
 twitter: arctic_wallet
 social:

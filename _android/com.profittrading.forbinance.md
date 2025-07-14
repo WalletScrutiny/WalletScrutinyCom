@@ -13,7 +13,7 @@ version: 16.6.0
 stars: 4.3
 ratings: 1851
 reviews: 119
-website: https://profittradingapp.com/
+website: https://profittrading.app/
 repository: 
 issue: 
 icon: com.profittrading.forbinance.png

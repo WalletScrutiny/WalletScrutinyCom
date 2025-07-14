@@ -8,8 +8,8 @@ users: 1000
 appId: za.co.cryptoconvert.bolt
 appCountry: 
 released: 2022-05-16
-updated: 2025-06-24
-version: 1.1.102
+updated: 2025-07-11
+version: 1.1.103
 stars: 
 ratings: 
 reviews: 

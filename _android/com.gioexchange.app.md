@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.gioexchange.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-09-15
+date: 2025-07-14
 signer: 
 twitter: 
 social: 

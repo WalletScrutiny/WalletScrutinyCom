@@ -7,7 +7,7 @@ users: 500000
 appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
-updated: 2025-07-05
+updated: 2025-07-11
 version: 5.1.1
 stars: 4.6
 ratings: 

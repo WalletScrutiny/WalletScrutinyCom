@@ -13,7 +13,7 @@ version: 7.3.0
 stars: 4.3
 ratings: 348
 reviews: 8
-website: https://profittradingapp.com/
+website: https://profittrading.app/
 repository: 
 issue: 
 icon: com.profittrading.forbitmex.png

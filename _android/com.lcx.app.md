@@ -10,7 +10,7 @@ appCountry:
 released: 2021-10-26
 updated: 2025-07-07
 version: 2.3.60
-stars: 3.3
+stars: 3.2
 ratings: 
 reviews: 40
 website: https://lcx.com

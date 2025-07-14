@@ -12,7 +12,7 @@ updated: 2025-07-07
 version: 2025.27.1
 stars: 4.2
 ratings: 445358
-reviews: 262246
+reviews: 262268
 website: https://robinhood.com/
 repository: 
 issue: 

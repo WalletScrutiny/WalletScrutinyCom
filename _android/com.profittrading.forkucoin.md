@@ -13,7 +13,7 @@ version: 6.5.1
 stars: 3.9
 ratings: 102
 reviews: 17
-website: https://profittradingapp.com/
+website: https://profittrading.app/
 repository: 
 issue: 
 icon: com.profittrading.forkucoin.png

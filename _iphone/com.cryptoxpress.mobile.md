@@ -11,7 +11,7 @@ released: 2021-11-18
 updated: 2025-07-10
 version: 1.0.35
 stars: 4.6
-reviews: 21
+reviews: 22
 website: https://cryptoxpress.com/
 repository: 
 issue: 

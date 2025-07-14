@@ -10,9 +10,9 @@ appCountry:
 released: 2023-05-09
 updated: 2025-06-25
 version: 25.6.2
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 80
+reviews: 81
 website: https://trezor.io
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: Iris Wallet Testnet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.iriswallet.testnet
 appCountry: 
 released: 2022-10-21
@@ -18,7 +18,7 @@ issue:
 icon: com.iriswallet.testnet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-10-16
 signer: 

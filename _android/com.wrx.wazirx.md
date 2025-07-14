@@ -13,7 +13,7 @@ updated: 2025-07-09
 version: '3.5'
 stars: 3.7
 ratings: 543310
-reviews: 124094
+reviews: 124113
 website: https://wazirx.com
 repository: 
 issue: 

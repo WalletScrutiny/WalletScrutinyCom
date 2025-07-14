@@ -12,7 +12,7 @@ updated: 2025-06-04
 version: 141.3.2
 stars: 4
 ratings: 987
-reviews: 1077
+reviews: 1078
 website: https://foldapp.com
 repository: 
 issue: 

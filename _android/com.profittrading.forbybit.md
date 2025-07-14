@@ -13,7 +13,7 @@ version: 5.6.0
 stars: 3.9
 ratings: 41
 reviews: 3
-website: https://profittradingapp.com/
+website: https://profittrading.app/
 repository: 
 issue: 
 icon: com.profittrading.forbybit.png
