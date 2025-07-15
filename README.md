@@ -3,9 +3,9 @@ WalletScrutiny
 
 This is the repository backing [WalletScrutiny.com](https://walletscrutiny.com/).
 
-Pull Requests welcome.
+Pull Requests are welcome.
 
-## To run locally
+## Installing Required Dependencies
 
 1. Clone the repository: `git clone https://gitlab.com/walletscrutiny/walletScrutinyCom; cd walletScrutinyCom`
 1. Install global dependencies: `apt update; apt install nodejs npm ruby-dev ruby-bundler -y`
@@ -15,7 +15,7 @@ Pull Requests welcome.
 1. Install bundler: `gem install bundler:2.1.4`
 1. Install bundler stuff: `bundler install`
 
-* Note: when executing `gem install bundler:2.1.1` on a debian/Ubuntu based system, you could
+* Note: when executing `gem install bundler:2.1.4` on a Debian/Ubuntu based system, you could
 encounter an error which sounds something like you need to execute it using `sudo`. This is 
 not recommended. An alternative method is to configure RubyGems to install gems in your home 
 directory and avoid using `sudo` for gem installations, follow these steps:
@@ -37,41 +37,31 @@ export PATH="$HOME/gems/bin:$PATH"
 
 ### For local development
 
-This is for you if you want to make changes. It starts a server that you can
-reach at localhost:4000 and when you change a source file, it automatically
-compiles the project and you should see the changes when refreshing the browser.
-
-Each build takes around 7s.
-
 ```
 npm run dev
 ```
 
-or
-
-```
-bundle exec jekyll serve --profile --trace
-```
-
-If you're working on a single page or file that doesn't require Jekyll to build a lot of pages, you can use
-`npm run dev-live`, so the browser will auto-reload the page after Jekyll has compiled it.
+This is for you if you want to make changes to WalletScrutiny.com application
+(it's not needed to create a verification). It starts a server that you can
+reach at localhost:4000 and when you change a source file, it automatically
+compiles the project and you should see the changes when refreshing the browser.
 
 ### For production deployment
-
-This will also minify the css and js which takes all in all about 1 minute. The
-result can be found in the `_site/` folder and uploaded to your web server.
 
 ```
 npm run build
 ```
 
-## Run the wallet apk test script
+This will also minify and brotlify css, js, and other file extensions. The
+result can be found in the `_site/` folder, and you can upload the content
+of this folder to your web server.
 
-1. Install Git, Docker and if you want to test Mycelium builds also Disorderfs.
-   On Debian use `sudo apt update ; sudo apt install -y git docker.io disorderfs`
-1. Configure Docker: `sudo groupadd docker; sudo usermod -aG docker $USER`
-1. Clone this repository `git clone https://gitlab.com/walletscrutiny/walletScrutinyCom`
-1. Go into the new folder `cd walletScrutinyCom`
-1. Get an APK file (this will only work if the file is of one of the few
-   reproducible apps)
-1. Run the test script using an absolute path: `./test.sh /path/to/wallet.apk`
+
+## Verifying the reproducibility of a wallet
+
+Since the introduction of Nostr in WalletScrutiny, we added a new feature
+so each user can verify the reproducibility of a wallet and share the result
+with the community. A user can also register a new asset so that other users
+can verify the reproducibility of the asset.
+
+See more details at https://walletscrutiny.com/verifications/
