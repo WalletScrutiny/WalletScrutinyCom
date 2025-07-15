@@ -798,11 +798,14 @@ const createNostrNote = async function (message) {
   return ndkEvent.id;
 }
 
-const createNostrCommentToVerification = async function(verificationKey, comment) {
+const createNostrCommentToVerification = async function(verificationKey, comment, commentAuthorPubkeys) {
   await ensureNdkConnected();
 
   const ndkEvent = createNdkEvent(verificationCommentKind, comment);
   ndkEvent.tags.push(['v', verificationKey]);
+  commentAuthorPubkeys.forEach(pubkey => {
+    ndkEvent.tags.push(['p', pubkey]);
+  });
   await publishNdkEvent(ndkEvent, 'comment to verification');
 
   return ndkEvent.id;

@@ -115,13 +115,15 @@ Comments added by users to verifications or verification drafts.
   "kind":    30802,
   "content": "<comment-text>",
   "tags":    [
-    ["v",        "<verification-event-id>"]
+    ["v", "<verification-event-id>"],
+    ["p", "<comment-author-pubkey>"]    // One for each user who wrote a comment to this verification
   ]
 }
 ```
 
 * `comment-text`: the text of the comment from the user
 * `verification-event-id`: a tag with the following format: appId:version:platform:verificationPublisherPubkey
+* `comment-author-pubkey`: the pubkey of each user who wrote a comment to this verification, so they get notified when a new comment is added
 
 #### File Attachment
 ```json

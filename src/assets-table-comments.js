@@ -1,6 +1,7 @@
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
+let commentAuthorPubkeys = [];
 
 const MAX_COMMENTS_TO_SHOW = 2;
 
@@ -142,8 +143,14 @@ async function fetchComments(verificationKey) {
   console.debug(`Fetching comments for verification ID: ${verificationKey}`);
   const comments = await getCommentsForVerification(verificationKey);
 
+  commentAuthorPubkeys = [];
+
   return comments
     .map(comment => {
+      if (!commentAuthorPubkeys.includes(comment.pubkey) && window.userPubkey !== comment.pubkey) {
+        commentAuthorPubkeys.push(comment.pubkey);
+      }
+
       const author = comment.pubkey;
       const content = comment.content;
       const date = formatCommentDate(comment.created_at);
@@ -166,7 +173,7 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
   button.textContent = 'Posting...';
 
   try {
-    await createNostrCommentToVerification(verificationKey, comment);
+    await createNostrCommentToVerification(verificationKey, comment, commentAuthorPubkeys);
 
     textarea.value = '';
 
@@ -275,4 +282,4 @@ export async function renderCommentsSection(container, verificationKey, authorPu
       handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
     });
   }
-} 
+}
