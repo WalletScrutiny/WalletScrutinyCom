@@ -385,27 +385,25 @@ const createVerification = async function ({
   return ndkEvent;
 }
 
-/*
-const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
+const createEndorsement = async function ({validity, verificationEventId, endorserNpubkey}) {
   await ensureNdkConnected();
-  console.debug("Creating endorsement for verification: ", verificationEventId);
+  console.debug("Creating attestation (endorsement) for verification: ", verificationEventId);
 
   validateSHA256([sha256]);
 
-  if (!content || !status || !verificationEventId) {
+  if (!verificationEventId || !endorserNpubkey) {
     throw new Error("Missing required parameters");
   }
 
   const tags = [
-    ["x", sha256],
-    ["d", verificationEventId],
-    ["status", status]
+    ["d", `${endorserNpubkey}:${verificationEventId}`],
+    ["e", verificationEventId],
+    ["validity", validity ? "valid" : "invalid"],
   ];
 
-  const ndkEvent = createNdkEvent(endorsementKind, content, tags, createdAt);
+  const ndkEvent = createNdkEvent(endorsementKind, '', tags, createdAt);
   await publishNdkEvent(ndkEvent, 'endorsement');
 }
-*/
 
 function getCreatedAt(createdAt) {
   return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
@@ -634,7 +632,7 @@ const getAllAssetInformation = async function({
 
 
   const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],  // TODO: Add endorsementKind
+    kinds: [verificationKind, verificationDraftKind],
   }
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
@@ -660,12 +658,10 @@ const getAllAssetInformation = async function({
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
   const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
   const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
-  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
   const draftVerificationsMap = new Map();
-  const endorsementsMap = new Map();
 
   assets.forEach(asset => {
     const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
@@ -697,25 +693,12 @@ const getAllAssetInformation = async function({
     }
   });
 
-  /*
-  endorsements.forEach(endorsement => {
-    const verificationEventId = getFirstTagValue(endorsement, 'd', null);
-    if (verificationEventId) {
-      if (!endorsementsMap.has(verificationEventId)) {
-        endorsementsMap.set(verificationEventId, []);
-      }
-      endorsementsMap.get(verificationEventId).push(endorsement);
-    }
-  });
-  */
-
   console.timeEnd('getAllAssetInformation' + randomNumber);
 
   return {
     assets: assetsMap,
     verifications: verificationsMap,
-    draftVerifications: draftVerificationsMap,
-    endorsements: endorsementsMap
+    draftVerifications: draftVerificationsMap
   };
 }
 
@@ -1225,6 +1208,7 @@ if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;
+  window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
@@ -1261,6 +1245,7 @@ export {
   nostrConnect,
   createAssetRegistration,
   createVerification,
+  createEndorsement,
   createNostrNote,
   getNostrProfile,
   getAllAssetInformation,
