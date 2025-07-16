@@ -554,19 +554,19 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
   }
 }
 
-const getFileAttachmentEvents = async function(fileEventIds) {
+const getEventsFromEventIds = async function(eventIds) {
   await ensureNdkConnected();
 
-  if (!fileEventIds || fileEventIds.length === 0) {
-    console.debug(`No file-event tags found on verification event ${fileEventIds}.`);
+  if (!eventIds || eventIds.length === 0) {
+    console.debug(`No event-ids found on verification event ${eventIds}.`);
     return [];
   }
 
-  console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
+  console.debug(`Fetching ${eventIds.length} events: ${eventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
     kinds: [assetRegistrationKind, codeSnippetKind],  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-    ids: fileEventIds
+    ids: eventIds
   });
 }
 
@@ -585,7 +585,7 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
       const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
       if (fileEventIds.length > 0) {
         promises.push(
-          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
+          getEventsFromEventIds(fileEventIds).then(fileAttachmentEvents => {
             // Process each fetched attachment event
             fileAttachmentEvents.forEach(attachmentEvent => {
               // Add the parent verification event to the attachment
@@ -1242,7 +1242,7 @@ if (typeof window !== 'undefined') {
   window.deleteDraftVerification = deleteDraftVerification;
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
-  window.getFileAttachmentEvents = getFileAttachmentEvents;
+  window.getEventsFromEventIds = getEventsFromEventIds;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
   window.getMaxAssetVersion = getMaxAssetVersion;
   window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
@@ -1278,7 +1278,7 @@ export {
   deleteDraftVerification,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
-  getFileAttachmentEvents,
+  getEventsFromEventIds,
   getAllAttachmentsForAppId,
   getMaxAssetVersion,
   createNostrCommentToVerification,

@@ -325,7 +325,7 @@ window.renderAssetsTable = async function({
       attachmentEventIDs.push(...fileEventIds);
     });
 
-    attachments = await getFileAttachmentEvents(attachmentEventIDs);
+    attachments = await getEventsFromEventIds(attachmentEventIDs);
   }
 
   const table = document.createElement('table');

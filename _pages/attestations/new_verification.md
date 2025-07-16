@@ -728,7 +728,7 @@ permalink: /new_verification/
       const verificationEvent = await getVerificationEvent(draftVerificationEventId || verificationEventId);
       if (verificationEvent) {
         const fileEventIds = getFileAttachmentIDsForVerificationEvent(verificationEvent);
-        const attachments = await getFileAttachmentEvents(fileEventIds);
+        const attachments = await getEventsFromEventIds(fileEventIds);
 
         attachments.forEach(attachment => {
           let name;
