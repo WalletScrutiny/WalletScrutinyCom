@@ -22,6 +22,6 @@ export const verificationDraftKind = isDebugEnv() ? 30901 : 30801;
 export const verificationCommentKind = isDebugEnv() ? 30902 : 30802;
 export const codeSnippetKind = 1337;
 
-export const endorsementKind = isDebugEnv() ? 32354 : 30351;
+export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
 export const verificationEventsSinceTS = isDebugEnv() ? 1742220163 : 1742997262;
