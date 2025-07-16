@@ -1110,7 +1110,13 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const version = getFirstTagValue(verification, 'version');
 
+  const identifier = getFirstTagValue(verification, 'i');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
+
   content.innerHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
 
   const basedOn = getFirstTagValue(verification, 'based-on');
@@ -1119,7 +1125,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML += `
-    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
     month: 'short',
