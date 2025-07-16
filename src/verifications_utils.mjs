@@ -4,6 +4,7 @@ import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
   verificationKind,
+  endorsementKind,
   verificationDraftKind,
   verificationCommentKind,
   codeSnippetKind,
@@ -385,11 +386,13 @@ const createVerification = async function ({
   return ndkEvent;
 }
 
-const createEndorsement = async function ({validity, verificationEventId, endorserNpubkey}) {
+const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
   await ensureNdkConnected();
   console.debug("Creating attestation (endorsement) for verification: ", verificationEventId);
 
-  validateSHA256([sha256]);
+  if (validity !== null && typeof validity !== 'boolean') {
+    throw new Error("Validity must be a boolean value");
+  }
 
   if (!verificationEventId || !endorserNpubkey) {
     throw new Error("Missing required parameters");
@@ -401,7 +404,7 @@ const createEndorsement = async function ({validity, verificationEventId, endors
     ["validity", validity ? "valid" : "invalid"],
   ];
 
-  const ndkEvent = createNdkEvent(endorsementKind, '', tags, createdAt);
+  const ndkEvent = createNdkEvent(endorsementKind, '', tags);
   await publishNdkEvent(ndkEvent, 'endorsement');
 }
 
@@ -563,9 +566,29 @@ const getEventsFromEventIds = async function(eventIds) {
   console.debug(`Fetching ${eventIds.length} events: ${eventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
-    kinds: [assetRegistrationKind, codeSnippetKind],  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
     ids: eventIds
   });
+}
+
+const getEndorsementsFromVerificationEventIds = async function(verificationEventIds) {
+  await ensureNdkConnected();
+  const endorsements = await ndk.fetchEvents({
+    kinds: [endorsementKind],
+    '#e': verificationEventIds
+  });
+
+  // Group endorsements by the value of the 'e' tag (verification event id)
+  const grouped = {};
+  for (const endorsement of endorsements) {
+    const eTag = endorsement.tags.find(tag => tag[0] === 'e');
+    if (eTag && eTag[1]) {
+      if (!grouped[eTag[1]]) {
+        grouped[eTag[1]] = [];
+      }
+      grouped[eTag[1]].push(endorsement);
+    }
+  }
+  return grouped;
 }
 
 const getAllAttachmentsForAppId = async function(appId, appAssetInformation = null) {
@@ -1235,6 +1258,7 @@ if (typeof window !== 'undefined') {
   window.createNostrCommentToVerification = createNostrCommentToVerification;
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
+  window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1268,5 +1292,6 @@ export {
   getMaxAssetVersion,
   createNostrCommentToVerification,
   getCommentsForVerification,
-  sendPrivateMessageToVerifier
+  sendPrivateMessageToVerifier,
+  getEndorsementsFromVerificationEventIds
 };
