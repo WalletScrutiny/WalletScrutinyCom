@@ -1104,9 +1104,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
-    // const icons = '👍 👎';
-    // const title = 'Endorse this verification';
-    // content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href='/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}'" title="${title}">${icons} ${title}</button>`;
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += '</p>';
