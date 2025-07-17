@@ -38,69 +38,10 @@ features:
 
 ---
 
-Steps to verify the reproducibility of the app: 
+## Swiss Bitcoin Pay – Technical Overview
 
-1. **Extract Split APKs**
-  - Extract the split apks using the [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh) script.
-2. **Upload Split APKs to build server**
-  - We then uploaded the split apks to `/var/shared/apk/ch.swissbitcoinpay.checkout/2.3.7` on our build server
-3. **Device Specification**
-  - The device-spec.json for our specific device already exists in the server
-4. **Test Split APKs**
-  - We proceed to run [testAAB.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh) for split apks.
-    ```bash
-    $ ./testAAB.sh -d /var/shared/apk/ch.swissbitcoinpay.checkout/2.3.7 -s /var/shared/device-spec/a11/device-spec.json
-    ```
+Swiss Bitcoin Pay is a non-custodial point-of-sale application designed to accept Bitcoin payments across web, iOS, and Android platforms. Built using React, React Native, and React Native Web, the app prioritizes simplicity, requiring no KYC and allowing account creation in under a minute. It supports automatic daily withdrawals to user-controlled wallets and includes partial or full fiat conversion. Additional features include support for BoltCards, multi-currency compatibility, and management of multiple employee accounts. The app supports various languages including English, French, German, Italian, Spanish, Portuguese, and Finnish.
 
-5. **Build Verification and Error Encounter**
-  - After several errors and attempts we modified the app-specific script. We were able to reach the verification step where we try to build the dockerfile. The build fails with this error:
+The project is open source under the MIT License and is structured for cross-platform development. Web builds are launched with `npm start` and accessed via `https://localhost:7474`, while mobile builds require `npm run mobile-start` followed by platform-specific commands (`npm run ios` or `npm run android`). The codebase is primarily written in TypeScript (91%) and integrates with external services like Crowdin for translations. Contributions are welcomed, particularly in areas such as UI simplification, testing, and security. The repository includes over 50 releases, with active maintenance by a small contributor base.
 
-    ```
-    FAILURE: Build failed with an exception.
 
-    * Where:
-    Build file '/app/android/app/build.gradle' line: 95
-
-    * What went wrong:
-    A problem occurred evaluating project ':app'.
-    > Could not read script '/' as it is a directory.
-
-    * Try:
-    > Run with --stacktrace option to get the stack trace.
-    > Run with --info or --debug option to get more log output.
-    > Run with --scan to get full insights.
-    > Get more help at https://help.gradle.org.
-
-    BUILD FAILED in 1m 49s
-    ```
-
-6. **Investigate error**
-  - We investigated line 95 of the [build.gradle](https://github.com/SwissBitcoinPay/app/blob/b25046e56ac36460d82dd8dba73882318a4aa666/android/app/build.gradle#L95) file in `/app/android/app/build.gradle`
-    ```
-    apply from: new File(["node", "--print", "require.resolve('@sentry/react-native/package.json')"].execute().text.trim(), "../sentry.gradle")
-    ```
-
-## Findings for building v2.3.7
-
-The error indicates that Gradle is trying to load a script from the root directory ("/") because the dynamic resolution of the Sentry Gradle script’s path is failing.
-
-The quoted line above from line 95 is supposed to locate the Sentry Gradle script relative to the location of @sentry/react-native/package.json. However, the node command is returning "/" (or something that normalizes to "/") instead of a valid path to the package. This usually happens because:
-
-- The @sentry/react-native package isn’t installed in the expected location (or at all), so require.resolve('@sentry/react-native/package.json') fails to return the correct path.
-- The working directory for the node command isn’t what’s expected, causing the resolution to fall back to "/" (the root).
-
-Because the computed path ends up being "/" (a directory), Gradle complains that it “Could not read script '/' as it is a directory.”
-
-# Conclusion
-
-In summary: The problem is that the dynamic path resolution for Sentry’s Gradle script is failing (likely due to a missing package or an unexpected working directory), resulting in a path of "/" rather than a valid file path.
-
-Further delving into a fix for this build with an existing Dockerfile for the build, would entail modifying files within the repository that would be equivalent to modifying the build context. This would defeat the purpose of verification and cause the build to be nonverifiable.
-
-We attempted to manually build this as well which resulted in the same error.
-
-For this reason we are giving this a verdict of **failed to build from source**.
-
-{% include asciicast %}
-
-We updated this issue in the existing SwissBitcoinPay's [issue tracker.](https://github.com/SwissBitcoinPay/app/issues/107)

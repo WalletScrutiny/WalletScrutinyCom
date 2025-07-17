@@ -32,39 +32,6 @@ features:
 
 ---
 
-This app is self-custodial:
+> ⚠️ **Notice**: The Bitorzo wallet app has been removed from the Google Play Store. Users should exercise caution and verify sources before attempting to install or use this application from unofficial channels.
 
-> Main features:<br>
-  - Private keys never leave your device, and strongly encrypted on it!
-
-and a Bitcoin wallet (the app's name is "Bitcoin Wallet").
-
-On their website there's also a link to the
-[source code on GitHub](https://github.com/Bitorzo/Bitorzo) and there we can
-find ... [build instructions](https://github.com/Bitorzo/Bitorzo#building):
-
-> Android (armeabi-v7a): `flutter build apk`<br>
-  Android (arm64-v8a): `flutter build apk --target=android-arm64`
-
-So lets see:
-
-```
-$ git clone https://github.com/Bitorzo/Bitorzo
-$ cd Bitorzo
-$ docker run -it --volume $PWD:/mnt --workdir /mnt --rm beevelop/cordova bash
-# apt update
-# apt install xz-utils -y
-# tar xf ./flutter_linux_2.0.1-stable.tar.xz 
-# flutter/bin/flutter build apk
-...
-Because every version of manta_dart from git depends on decimal ^1.0.0 and bitorzo_wallet_flutter depends on decimal ^0.3.5, manta_dart from git is forbidden.
-So, because bitorzo_wallet_flutter depends on manta_dart from git, version solving failed.
-Running "flutter pub get" in mnt...                                     
-pub get failed (1; So, because bitorzo_wallet_flutter depends on manta_dart from git, version solving failed.)
-```
-
-This message is slightly different to what
-[Emanuel got](https://github.com/Bitorzo/Bitorzo/issues/2) but we both failed to
-build the app from the source with the build instructions as provided.
-
-The app is therefore **not verifiable**.
+Bitorzo is a cross-platform mobile Bitcoin wallet developed in Dart using the Flutter framework. It is designed to be secure by default, keeping private keys encrypted on the device and never transmitting them unless explicitly exported by the user. The wallet supports HD key derivation (BIP32/BIP44), dynamic fee estimation, and contact-based payments without needing to share addresses manually. Security features include biometric authentication and 24-word mnemonic backups. Developers can build the app using Flutter SDK for Android (both `armeabi-v7a` and `arm64-v8a`) and iOS, with internationalization support managed via `intl_translation`.
