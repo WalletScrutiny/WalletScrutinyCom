@@ -1104,16 +1104,19 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
-    // const icons = '👍 👎';
-    // const title = 'Endorse this verification';
-    // content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href='/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}'" title="${title}">${icons} ${title}</button>`;
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
 
+  const identifier = getFirstTagValue(verification, 'i');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
+
   content.innerHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
 
   const basedOn = getFirstTagValue(verification, 'based-on');
@@ -1122,7 +1125,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML += `
-    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
     month: 'short',
