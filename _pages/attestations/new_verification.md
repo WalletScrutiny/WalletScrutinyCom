@@ -318,6 +318,10 @@ permalink: /new_verification/
 <div class="form-container">
     <div class="info-message"></div>
 
+    <div id="youWillLoseEndorsements" style="margin-bottom: 3em; display: none;">
+      <p>If you edit this verification, you will lose all endorsements.</p>
+    </div>
+
     <div id="previousAttestations" style="margin-bottom: 3em;"></div>
 
     <div id="issueTrackerInfo" style="margin-bottom: 3em;"></div>
@@ -727,8 +731,16 @@ permalink: /new_verification/
 
       const verificationEvent = await getVerificationEvent(draftVerificationEventId || verificationEventId);
       if (verificationEvent) {
+        let isMine = verificationEvent.pubkey === await getUserPubkey();
+        if (isMine && verificationEventId) {
+          const endorsementsForThisVerification = await getEndorsementsFromVerificationEventIds([verificationEventId]);
+          if (endorsementsForThisVerification[verificationEventId] && endorsementsForThisVerification[verificationEventId].length > 0) {
+            document.getElementById('youWillLoseEndorsements').style.display = 'block';
+          }
+        }
+
         const fileEventIds = getFileAttachmentIDsForVerificationEvent(verificationEvent);
-        const attachments = await getFileAttachmentEvents(fileEventIds);
+        const attachments = await getEventsFromEventIds(fileEventIds);
 
         attachments.forEach(attachment => {
           let name;

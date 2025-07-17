@@ -4,6 +4,7 @@ import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
   verificationKind,
+  endorsementKind,
   verificationDraftKind,
   verificationCommentKind,
   codeSnippetKind,
@@ -385,27 +386,27 @@ const createVerification = async function ({
   return ndkEvent;
 }
 
-/*
-const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
+const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
   await ensureNdkConnected();
-  console.debug("Creating endorsement for verification: ", verificationEventId);
+  console.debug("Creating attestation (endorsement) for verification: ", verificationEventId);
 
-  validateSHA256([sha256]);
+  if (validity !== null && typeof validity !== 'boolean') {
+    throw new Error("Validity must be a boolean value");
+  }
 
-  if (!content || !status || !verificationEventId) {
+  if (!verificationEventId || !endorserNpubkey) {
     throw new Error("Missing required parameters");
   }
 
   const tags = [
-    ["x", sha256],
-    ["d", verificationEventId],
-    ["status", status]
+    ["d", `${endorserNpubkey}:${verificationEventId}`],
+    ["e", verificationEventId],
+    ["validity", validity ? "valid" : "invalid"],
   ];
 
-  const ndkEvent = createNdkEvent(endorsementKind, content, tags, createdAt);
+  const ndkEvent = createNdkEvent(endorsementKind, '', tags);
   await publishNdkEvent(ndkEvent, 'endorsement');
 }
-*/
 
 function getCreatedAt(createdAt) {
   return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
@@ -554,20 +555,40 @@ const uploadFileAttachment = async function({ fileName, fileType, fileSize, base
   }
 }
 
-const getFileAttachmentEvents = async function(fileEventIds) {
+const getEventsFromEventIds = async function(eventIds) {
   await ensureNdkConnected();
 
-  if (!fileEventIds || fileEventIds.length === 0) {
-    console.debug(`No file-event tags found on verification event ${fileEventIds}.`);
+  if (!eventIds || eventIds.length === 0) {
+    console.debug(`No event-ids found on verification event ${eventIds}.`);
     return [];
   }
 
-  console.debug(`Fetching ${fileEventIds.length} file attachments: ${fileEventIds.join(', ')}`);
+  console.debug(`Fetching ${eventIds.length} events: ${eventIds.join(', ')}`);
 
   return await ndk.fetchEvents({
-    kinds: [assetRegistrationKind, codeSnippetKind],  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-    ids: fileEventIds
+    ids: eventIds
   });
+}
+
+const getEndorsementsFromVerificationEventIds = async function(verificationEventIds) {
+  await ensureNdkConnected();
+  const endorsements = await ndk.fetchEvents({
+    kinds: [endorsementKind],
+    '#e': verificationEventIds
+  });
+
+  // Group endorsements by the value of the 'e' tag (verification event id)
+  const grouped = {};
+  for (const endorsement of endorsements) {
+    const eTag = endorsement.tags.find(tag => tag[0] === 'e');
+    if (eTag && eTag[1]) {
+      if (!grouped[eTag[1]]) {
+        grouped[eTag[1]] = [];
+      }
+      grouped[eTag[1]].push(endorsement);
+    }
+  }
+  return grouped;
 }
 
 const getAllAttachmentsForAppId = async function(appId, appAssetInformation = null) {
@@ -585,7 +606,7 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
       const fileEventIds = getFileAttachmentIDsForVerificationEvent(verification);
       if (fileEventIds.length > 0) {
         promises.push(
-          getFileAttachmentEvents(fileEventIds).then(fileAttachmentEvents => {
+          getEventsFromEventIds(fileEventIds).then(fileAttachmentEvents => {
             // Process each fetched attachment event
             fileAttachmentEvents.forEach(attachmentEvent => {
               // Add the parent verification event to the attachment
@@ -634,7 +655,7 @@ const getAllAssetInformation = async function({
 
 
   const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],  // TODO: Add endorsementKind
+    kinds: [verificationKind, verificationDraftKind],
   }
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
@@ -660,12 +681,10 @@ const getAllAssetInformation = async function({
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
   const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
   const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
-  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
   const draftVerificationsMap = new Map();
-  const endorsementsMap = new Map();
 
   assets.forEach(asset => {
     const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
@@ -697,25 +716,12 @@ const getAllAssetInformation = async function({
     }
   });
 
-  /*
-  endorsements.forEach(endorsement => {
-    const verificationEventId = getFirstTagValue(endorsement, 'd', null);
-    if (verificationEventId) {
-      if (!endorsementsMap.has(verificationEventId)) {
-        endorsementsMap.set(verificationEventId, []);
-      }
-      endorsementsMap.get(verificationEventId).push(endorsement);
-    }
-  });
-  */
-
   console.timeEnd('getAllAssetInformation' + randomNumber);
 
   return {
     assets: assetsMap,
     verifications: verificationsMap,
-    draftVerifications: draftVerificationsMap,
-    endorsements: endorsementsMap
+    draftVerifications: draftVerificationsMap
   };
 }
 
@@ -1228,6 +1234,7 @@ if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;
+  window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
@@ -1245,7 +1252,7 @@ if (typeof window !== 'undefined') {
   window.deleteDraftVerification = deleteDraftVerification;
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
-  window.getFileAttachmentEvents = getFileAttachmentEvents;
+  window.getEventsFromEventIds = getEventsFromEventIds;
   window.getAllAttachmentsForAppId = getAllAttachmentsForAppId;
   window.getMaxAssetVersion = getMaxAssetVersion;
   window.getLastVerificationStatusForAppId = getLastVerificationStatusForAppId;
@@ -1254,6 +1261,7 @@ if (typeof window !== 'undefined') {
   window.createNostrCommentToVerification = createNostrCommentToVerification;
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
+  window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1264,6 +1272,7 @@ export {
   nostrConnect,
   createAssetRegistration,
   createVerification,
+  createEndorsement,
   createNostrNote,
   getNostrProfile,
   getAllAssetInformation,
@@ -1281,10 +1290,11 @@ export {
   deleteDraftVerification,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
-  getFileAttachmentEvents,
+  getEventsFromEventIds,
   getAllAttachmentsForAppId,
   getMaxAssetVersion,
   createNostrCommentToVerification,
   getCommentsForVerification,
-  sendPrivateMessageToVerifier
+  sendPrivateMessageToVerifier,
+  getEndorsementsFromVerificationEventIds
 };
