@@ -969,9 +969,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     endorsementModalDiv.style.display = 'none';
     endorsementModalDiv.innerHTML = `
       <div id="endorsementModalContent" style="background: #fff; color: #222; border-radius: 8px; max-width: 400px; margin: 10% auto; padding: 30px 20px; position: relative; box-shadow: 0 2px 16px rgba(0,0,0,0.2);">
-        <span id="closeEndorsementModal" style="position: absolute; top: 10px; right: 18px; font-size: 28px; font-weight: bold; color: #aaa; cursor: pointer;">&times;</span>
-        <h3>Endorse this verification</h3>
-        <p style="margin-bottom: 20px;">Endorsing a verification means you are publicly signaling your agreement or disagreement with the result of this verification.</p>
+        <span id="closeEndorsementModal" style="position: absolute; top: 10px; right: 18px; font-size: 33px; font-weight: bold; color: #aaa; cursor: pointer;">&times;</span>
+        <h3 style="margin-top: 0;">Endorse this verification</h3>
+        <p style="margin-bottom: 20px;">Endorsing a verification means you are publicly signaling your agreement or disagreement with the result of this verification, and/or a trust in the verifier.</p>
         <div style="display: flex; flex-direction: column; gap: 12px;">
           <button id="endorseValidBtn" class="btn btn-success">Endorse as Valid</button>
           <button id="endorseInvalidBtn" class="btn btn-danger" style="background-color: #d9534f; color: white; border-color: #d43f3a;">Endorse as Invalid</button>
