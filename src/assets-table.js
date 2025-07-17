@@ -1356,43 +1356,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
     let endorsementsHTML = '';
 
-    const tags_valid = [
-      ["validity", "valid"],
-    ];
-    const tags_invalid = [
-      ["validity", "invalid"],
-    ];
-    let end1 = {
-      ...endorsementsForThisVerification[0],
-      tags: tags_invalid,
-      pubkey: 'f728d9e6e7048358e70930f5ca64b097770d989ccd86854fe618eda9c8a38106',
-      created_at: 1721136000
-    };
-    let end2 = {
-      ...endorsementsForThisVerification[0],
-      tags: tags_valid,
-      pubkey: 'b7ed68b062de6b4a12e51fd5285c1e1e0ed0e5128cda93ab11b4150b55ed32fc',
-      created_at: 1721136001
-    };
-    let end3 = {  
-      ...endorsementsForThisVerification[0],
-      tags: tags_invalid,
-      pubkey: '58ead82fa15b550094f7f5fe4804e0fe75b779dbef2e9b20511eccd69e6d08f9',
-      created_at: 1721136002
-    };
-    let end4 = {  
-      ...endorsementsForThisVerification[0],
-      tags: tags_valid,
-      pubkey: '58ead83fa15b550094c7a5fe4804e0fe75b779dbef2e9b20511eccd69e6d08f8',
-      created_at: 1721136003
-    };
-
-    // Add end1, end2, end3 to endorsementsForThisVerification
-    endorsementsForThisVerification.push(end1);
-    endorsementsForThisVerification.push(end2);
-    endorsementsForThisVerification.push(end3);
-    endorsementsForThisVerification.push(end4);
-
     endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
 
     for (const endorsement of endorsementsForThisVerification) {
