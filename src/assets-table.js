@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
 import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { renderCommentsSection } from './assets-table-comments.js';
@@ -9,7 +9,8 @@ let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 let attachments = [];
-const attachmentDataStore = {};   // Define a store for attachment data globally accessible
+let endorsements = [];
+const attachmentDataStore = {};   // Define a store for attachment data globally accessible (from the global table and from each verification)
 
 // Filter table rows
 async function updateTableVisibility() {
@@ -320,12 +321,24 @@ window.renderAssetsTable = async function({
 
   if (sortedItems.length > 0) {
     let attachmentEventIDs = [];
-    sortedItems.forEach((item, index) => {
-      const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
+    let endorsementEventIDs = [];
+
+    sortedItems.forEach((itemsForThisSha256, index) => {
+      // Attachments
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(itemsForThisSha256.items[0]);
       attachmentEventIDs.push(...fileEventIds);
+
+      // Endorsements
+      itemsForThisSha256.items.forEach(item => {
+        if (item.kind === verificationKind) {
+          endorsementEventIDs.push(item.id);
+        }
+      });
     });
 
-    attachments = await getFileAttachmentEvents(attachmentEventIDs);
+    attachments = await getEventsFromEventIds(attachmentEventIDs);
+    endorsements = await getEndorsementsFromVerificationEventIds(endorsementEventIDs);
+    endorsements.loaded = true;
   }
 
   const table = document.createElement('table');
@@ -508,6 +521,13 @@ window.renderAssetsTable = async function({
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  // ENDORSEMENTS TABLE
+  if (endorsements.size > 0) {
+    endorsements.forEach(endorsement => {
+      console.log('************************************* endorsement', endorsement);
+    });
+  }
 
   // ATTACHMENTS TABLE
   if (attachments.size > 0) {
@@ -943,6 +963,95 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>`);
   }
 
+  if (!document.getElementById('endorsementModal')) {
+    const endorsementModalDiv = document.createElement('div');
+    endorsementModalDiv.id = 'endorsementModal';
+    endorsementModalDiv.style.display = 'none';
+    endorsementModalDiv.innerHTML = `
+      <div id="endorsementModalContent">
+        <span id="closeEndorsementModal">&times;</span>
+        <h3 style="margin-top: 0;">Endorse this verification</h3>
+        <p style="margin-bottom: 20px;">Endorsing a verification means you are publicly signaling your agreement or disagreement with the result of this verification, and/or a trust in the verifier.</p>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <button id="endorseValidBtn" class="btn btn-success">Label as Valid</button>
+          <button id="endorseInvalidBtn" class="btn btn-danger" style="background-color: #d9534f; color: white; border-color: #d43f3a;">Label as Invalid</button>
+          <button id="endorseCancelBtn" class="btn btn-secondary">Cancel</button>
+        </div>
+      </div>
+    `;
+    endorsementModalDiv.style.position = 'fixed';
+    endorsementModalDiv.style.left = '0';
+    endorsementModalDiv.style.top = '0';
+    endorsementModalDiv.style.width = '100%';
+    endorsementModalDiv.style.height = '100%';
+    endorsementModalDiv.style.background = 'rgba(0,0,0,0.6)';
+    endorsementModalDiv.style.zIndex = '10002';
+    document.body.appendChild(endorsementModalDiv);
+  }
+
+  window.openEndorsementModal = function(verificationEventId, sha256Hash) {
+    const modal = document.getElementById('endorsementModal');
+    modal.style.display = 'block';
+    document.body.classList.add('modal-open');
+
+    // Remove previous listeners to avoid duplicates
+    const validBtn = document.getElementById('endorseValidBtn');
+    const invalidBtn = document.getElementById('endorseInvalidBtn');
+    const cancelBtn = document.getElementById('endorseCancelBtn');
+    const closeBtn = document.getElementById('closeEndorsementModal');
+
+    // Remove all listeners by cloning
+    validBtn.replaceWith(validBtn.cloneNode(true));
+    invalidBtn.replaceWith(invalidBtn.cloneNode(true));
+    cancelBtn.replaceWith(cancelBtn.cloneNode(true));
+    closeBtn.replaceWith(closeBtn.cloneNode(true));
+
+    const newValidBtn = document.getElementById('endorseValidBtn');
+    const newInvalidBtn = document.getElementById('endorseInvalidBtn');
+    const newCancelBtn = document.getElementById('endorseCancelBtn');
+    const newCloseBtn = document.getElementById('closeEndorsementModal');
+
+    const closeModal = () => {
+      modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
+    };
+
+    newCancelBtn.onclick = closeModal;
+    newCloseBtn.onclick = closeModal;
+    modal.onclick = (event) => {
+      if (event.target === modal) closeModal();
+    };
+
+    // ESC key closes modal
+    const handleKeyDown = function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+
+    async function handleEndorsement(isValid) {
+      try {
+        if (!window.userPubkey) {
+          showToast('You must have a Nostr extension to endorse a verification.', 'error');
+          return;
+        }
+        const npub = await getNpubFromPubkey(window.userPubkey);
+        await createEndorsement({ validity: isValid, verificationEventId, sha256Hash, endorserNpubkey: npub });
+        closeModal();
+        await showToast(`Successfully marked as ${isValid ? 'Valid' : 'Invalid'}.`, 'success');
+        window.location.reload();
+      } catch (e) {
+        closeModal();
+        showToast('Failed to endorse: ' + (e.message || e), 'error');
+      }
+    }
+
+    newValidBtn.onclick = () => handleEndorsement(true, verificationId);
+    newInvalidBtn.onclick = () => handleEndorsement(false, verificationId);
+  };
+
   const content = document.getElementById('verificationContent');
 
   // Reset scroll positions before showing the modal again
@@ -995,11 +1104,20 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  if (!isDraft && !isMine) {
+    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+  }
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
 
+  const identifier = getFirstTagValue(verification, 'i');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
+
   content.innerHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
 
   const basedOn = getFirstTagValue(verification, 'based-on');
@@ -1008,7 +1126,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML += `
-    <p><strong>Version:</strong> ${version}</p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
     month: 'short',
@@ -1016,7 +1133,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     hour: '2-digit',
     minute: '2-digit'
   })}</p>
-    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>`;
+    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>
+    <p style="display: none;" id="endorsements"></p>`;
 
   const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
   if (issueTrackerUrl) {
@@ -1109,7 +1227,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>
   </p>`;
 
-  // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
+  // Asciicast special treatment (legacy asciasts can only be played on old verifications)
   if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
     let castURL;
     if (firstAsciicastFileSHA256) {
@@ -1227,6 +1345,39 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         </div>
       </div>
     ` : basedOn.split(':')[1];
+  }
+
+  // Wait in a loop until endorsements.loaded is true
+  while (!endorsements.loaded) {
+    await new Promise(resolve => setTimeout(resolve, 50));
+  }
+
+  const endorsementsForThisVerification = endorsements[verification.id];
+
+  if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
+    let endorsementsHTML = '';
+
+    endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
+
+    for (const endorsement of endorsementsForThisVerification) {
+      const validity = getFirstTagValue(endorsement, 'validity');
+      const endorserProfile = await getNostrProfile(endorsement.pubkey);
+      const endorserNpub = await getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
+      endorsementsHTML += `
+        <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
+          ${endorserProfile ? `${endorserProfile.image ? `
+            <img src="${endorserProfile.image}" class="profile-image"
+                title="${endorserProfile.name || endorsement.pubkey} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
+                onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
+                onerror="this.style.display='none'"
+            />` : ''}` :
+            `<span onclick="window.open('https://njump.me/${endorserNpub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${endorserNpub} - Click to open in Njump.me">${endorsement.pubkey.slice(0, 3)}...${endorsement.pubkey.slice(-2)}</span>`}
+            ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})
+        </div>`;
+    }
+    const endorsementsElement = document.getElementById('endorsements');
+    endorsementsElement.style.display = 'block';
+    endorsementsElement.innerHTML = `<p><strong>Endorsements:</strong> ${endorsementsHTML}</p>`;
   }
 
   const closeModalAction = () => {
