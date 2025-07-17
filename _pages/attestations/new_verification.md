@@ -421,7 +421,7 @@ permalink: /new_verification/
 
             <div id="editorContainer">
                 <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
+                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
             </div>
             <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
         </div>
