@@ -473,6 +473,7 @@ input, textarea, select {
   display: none;
 }
 
+/* Issue Tracker Field */
 .issue-tracker-container {
   margin-bottom: 15px;
   padding: 13px;
@@ -488,6 +489,31 @@ body.dark .issue-tracker-container {
 .issue-tracker-container p {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+/* Endorsement Modal */
+#endorsementModalContent {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 30px 20px;
+  position: relative;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.2);
+}
+body.dark #endorsementModalContent {
+  background: #424242;
+  color: #fff;
+}
+#closeEndorsementModal {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-size: 33px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=verifications.css.map */
