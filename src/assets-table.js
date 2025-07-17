@@ -419,24 +419,6 @@ window.renderAssetsTable = async function({
 
           const draftBadge = isMyDraft ? `<span class="badge badge-warning">Draft</span>` : '';
 
-          let title = '';
-          let icon = '';
-          let basedOnParams = '';
-          if (isMine) {
-            title = isDraft ? 'Edit your draft' : 'Edit your verification';
-            icon = '✏️';
-          } else {
-            title = isDraft ? 'Copy this draft' : 'Copy this verification';
-            icon = '📋';
-            basedOnParams = `&basedOn=${attestation.id}:${attestation.pubkey}`;
-          }
-
-          const editCopyIcon = `
-            <span
-              style="cursor: pointer; font-size: x-large; vertical-align: middle;" title="${title}"
-              onclick="event.stopPropagation(); window.location.href='/new_verification/?${isDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${attestation.id}&action=edit${basedOnParams}'"
-            >${icon}</span>`;
-
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
           listItems += `<span
@@ -446,7 +428,6 @@ window.renderAssetsTable = async function({
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
               ${draftBadge}
-              ${editCopyIcon}
               <span class="profile-${attestation.pubkey}"></span>
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
