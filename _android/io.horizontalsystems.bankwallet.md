@@ -37,36 +37,13 @@ features:
 
 ---
 
-Here we test if the latest version can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}:
+*Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/bd55de6e6e654c6f9e9e00411b6f6842c6bfc2f7/_android/io.horizontalsystems.bankwallet.md)*
 
+## App Description
 
+Unstoppable Wallet is a non-custodial, privacy-focused crypto wallet that supports Bitcoin, Ethereum, DeFi tokens, NFTs, privacy coins, and over a dozen blockchains including Solana, Avalanche, and Binance Smart Chain. It allows users to manage multiple portfolios, execute cross-chain swaps via THORChain, and interact with decentralized services using WalletConnect. The app includes advanced Bitcoin features (e.g., BIP44/49/84/86, SPV, time locks), fully shielded Zcash transactions, and partial Tor support. No user data or accounts are required, and all private keys are stored locally, ensuring user autonomy. It is fully open-source, with public audits and ongoing updates to UI, blockchain integrations, and privacy tools.
 
-```
-===== Begin Results =====
-appId:          io.horizontalsystems.bankwallet
-signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.41.4
-apkVersionCode: 127
-verdict:        reproducible
-appHash:        94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-commit:         a5bc8996ebe7e5e310a68d70a8e9068f597de932
-
-Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.SF
-
-Revision, tag (and its signature):
-
-===== End Results =====
-
-```
-
-{% include asciicast %}
-
-
-Version 0.41.4 is **reproducible**
+This app is **source available**.
 
 ### Thank you to Horizontal Systems for repeat donations
 
