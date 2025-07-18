@@ -37,30 +37,12 @@ features:
 
 ---
 
-**Update 2025-01-28** 
+*Legacy Verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d8575278b7f76b7f4de79839d4269aedbdba3100/_android/it.airgap.vault.md)*
 
-We ran our {% include testScript.html %} which delivered these results:
+## App Description
 
-```
-===== Begin Results =====
-appId:          it.airgap.vault
-signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.32.6
-apkVersionCode: 65919
-verdict:        reproducible
-appHash:        aed91fdf47bad77ab0907a32c3441709ce57a4b6cea9d7b973f4ce858ca8ff88
-commit:         2cee865791fbf6b6895137852b16d3367d898026
+AirGap Vault is a mobile application that transforms an offline smartphone into a secure, network-isolated cold wallet. It is blockchain-agnostic and uses QR codes for air-gapped transaction signing, avoiding the need for cables or online communication. The app supports key generation, address display, and signing for a variety of blockchains, including Bitcoin, Ethereum, Tezos, Polkadot, and Cosmos when paired with AirGap Wallet or MetaMask. All private keys remain on the device, and backup options include BIP39 passphrases, Shamir Shares, and BIP85 child entropy. The vault can be used standalone or alongside watch-only companion apps for safer portfolio management.
 
-Diff:
-Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: PAPERS.SF
+Security features include support for SegWit, secure keyboard input, and offline entropy generation for creating new wallets. The app is fully open source and has no dependency on external servers, making it suitable for high-security environments. Advanced users can utilize the Vault for custom workflows such as multisig setups or integration with privacy-focused wallets like Sparrow or Specter. AirGap Vault’s design assumes the device will remain permanently offline for maximum protection. For users seeking a balance of usability and cold storage integrity, the vault can also run on the same device as its companion app, though this reduces isolation.
 
-Revision, tag (and its signature):
-
-===== End Results =====
-
-```
-
-Version 3.32.6 is **reproducible** again
-
+This app is **source available**.

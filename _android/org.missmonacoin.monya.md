@@ -31,6 +31,8 @@ features:
 
 ---
 
+*Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/c7840ed97a2dd68dce32daf83998e3c4d223d24b/_android/org.missmonacoin.monya.md)*
+
 ## App Description
 
 > Crypto currency wallet that supports Monacoin, Bitcoin, Counterparty and many other currencies, and that satisfies both beginners and advanced users.
@@ -61,24 +63,4 @@ Their site is a [Github hosted website](https://monya-wallet.github.io/).
 
 We tried the app. Some portions of it were in Japanese, although you can choose to receive your mnemonics in English. After the user is provided with a passphrase, the app asks you to set a password. You can add several other cryptocurrencies including Bitcoin. It is possible to send and receive Bitcoin.
 
-## Verdict
 
-This app is self-custodial. However, upon attempting to verify this code, [we got the following:](https://github.com/monya-wallet/monya/issues/130)
-
-> Building version 3.10.4 and comparing it to version from google-play, result in below diff:<br>
-Command: `diff --recursive --brief ./monya_local_build_3.10.4_2/ ./monya-from-google-play`
->
-> Result:
->
-
-```
-Files ./monya_local_build_3.10.4_2/AndroidManifest.xml and ./monya-from-google-play/AndroidManifest.xml differ
-Files ./monya_local_build_3.10.4_2/assets/www/dist/0.dist.js and ./monya-from-google-play/assets/www/dist/0.dist.js differ
-Files ./monya_local_build_3.10.4_2/assets/www/dist/dist.js and ./monya-from-google-play/assets/www/dist/dist.js differ
-Only in ./monya-from-google-play/META-INF: GOOGPLAY.RSA
-Only in ./monya-from-google-play/META-INF: GOOGPLAY.SF
-Files ./monya_local_build_3.10.4_2/META-INF/MANIFEST.MF and ./monya-from-google-play/META-INF/MANIFEST.MF differ
-Files ./monya_local_build_3.10.4_2/resources.arsc and ./monya-from-google-play/resources.arsc differ
-```
-
-This app is **unreproducible.**

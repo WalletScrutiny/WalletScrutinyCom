@@ -35,33 +35,7 @@ features:
 
 ---
 
-**Update 2024-05-23**: This project was discontinued and removed from the Play
-Store but the provider refers to {% include walletLink.html
-wallet='android/app.michaelwuensch.bitbanana' verdict='true' %} as its successor.
-
-
-
-Here is the output using our {% include testScript.html %} on the binary from Google Play:
-
-```
-===== Begin Results =====
-appId:          zapsolutions.zap
-signer:         24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86
-apkVersionName: 0.5.10-beta
-apkVersionCode: 3040
-verdict:        reproducible
-appHash:        22b3821bb6f97aa9522be2600b50ac834f939ecf4a194b7d40043e13f17f381b
-commit:         e644701264e11c134e3ea177026a0495d681a227
-
-Diff:
-
-
-Revision, tag (and its signature):
-
-===== End Results =====
-```
-
-That's how it should look like to give it the verdict: **reproducible**.
+*Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b96115dbe0d002e06d34997d4950d6ed2744075/_android/zapsolutions.zap.md)*
 
 # About the app
 
