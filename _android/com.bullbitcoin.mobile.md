@@ -34,6 +34,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/70ce7b498aeab3be2a67c6dea8d300b6ea4b0257/_android/com.bullbitcoin.mobile.md)*
+
 ## App Description from Google Play
 
 > Bull Bitcoin Mobile is a self-custodial Bitcoin and Liquid Network which offers non-custodial atomic swaps across Bitcoin, Lightning and Liquid.

@@ -40,6 +40,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/dc62509a628bf691951d673ce74ec124cc6d442e/_android/co.edgesecure.app.md)*
+
 ## Edge – Technical Overview
 
 Edge is a non-custodial, open-source mobile wallet supporting over 120 cryptocurrencies including Bitcoin, Ethereum, Monero, Solana, and Avalanche. It employs a zero-knowledge architecture where private keys, transaction data, and user credentials are never accessible to Edge or third parties. The wallet uses hierarchical deterministic (HD) address generation, ensuring a new address is used for each transaction to enhance privacy. Edge also includes built-in exchange functionality, allowing users to swap supported assets directly within the app. Its decentralized server model ensures full wallet functionality even during backend outages.

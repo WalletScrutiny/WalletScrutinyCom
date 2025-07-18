@@ -33,7 +33,7 @@ features:
 
 ---
 
-**Legacy verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b64c390b4f49c865a6635f84f87cf70118dccac/_android/io.hexawallet.hexa2.md)
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b64c390b4f49c865a6635f84f87cf70118dccac/_android/io.hexawallet.hexa2.md)*
 
 ## Updated Verdict 2021-12-21
 

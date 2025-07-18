@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Legacy verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/813)
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/813)*
 
 We filed an [issue](https://github.com/Adamant-im/adamant-im/issues/666) with them, and [invited them](https://x.com/dannybuntu/status/1836657095112081602) to collaborate.
 

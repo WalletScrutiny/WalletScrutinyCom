@@ -37,7 +37,7 @@ features:
 
 ---
 
-**Legacy Verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/bd55de6e6e654c6f9e9e00411b6f6842c6bfc2f7/_android/io.horizontalsystems.bankwallet.md)
+*Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/bd55de6e6e654c6f9e9e00411b6f6842c6bfc2f7/_android/io.horizontalsystems.bankwallet.md)*
 
 ## App Description
 

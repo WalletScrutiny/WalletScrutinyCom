@@ -36,4 +36,6 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.airbitz.md)*
+
 This is the predecessor to the {% include walletLink.html wallet='android/co.edgesecure.app' verdict='true' %}.

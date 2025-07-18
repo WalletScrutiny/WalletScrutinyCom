@@ -39,7 +39,7 @@ features:
 
 ---
 
-**Legacy Verification** [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/e4d24e72cf41d87dbf560baddb2f323a09ac97ed/_android/io.nunchuk.android.md)
+*Legacy Verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/e4d24e72cf41d87dbf560baddb2f323a09ac97ed/_android/io.nunchuk.android.md)*
 
 ## App Description
 

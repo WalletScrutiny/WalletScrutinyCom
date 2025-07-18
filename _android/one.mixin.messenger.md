@@ -35,7 +35,7 @@ features:
 
 ---
 
-**Legacy Verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/33ef490dd35a82be08872f7b30a5e79d19aed087/_android/one.mixin.messenger.md)
+*Legacy Verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/33ef490dd35a82be08872f7b30a5e79d19aed087/_android/one.mixin.messenger.md)*
 
 ---
 **Update 2024-07-17**: After almost three years, we are re-opening this for verification. The issue that was created has been closed with an MR. 

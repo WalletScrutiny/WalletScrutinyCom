@@ -40,6 +40,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/3ff62d2aea1e3b7a4830a180e798f5c343b70e55/_android/app.zeusln.zeus.md)*
+
 ## App Description
 
 ZeusLN is a mobile application that functions as both a Bitcoin and Lightning Network wallet, enabling users to connect to remote `lnd` or Core Lightning nodes. The codebase is implemented in TypeScript using React Native, supporting both Android and iOS platforms. It provides extensive support for Lightning features such as LNURL, Taproot, MPP/AMP, and keysend. The application integrates with several full-node solutions including StartOS, Umbrel, RaspiBlitz, and payment platforms like BTCPay Server and LNBits. It supports self-custodial operation, connection over Tor, and advanced functionality like coin control, external signers, and watch-only accounts.

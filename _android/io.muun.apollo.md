@@ -37,7 +37,7 @@ features:
 
 ---
 
-**Legacy verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a85123512755a021e4003644854d39d60facf7f6/_android/io.muun.apollo.md)
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a85123512755a021e4003644854d39d60facf7f6/_android/io.muun.apollo.md)*
 
 ## App Description
 

@@ -42,32 +42,10 @@ features:
 
 ---
 
-```
-$ scripts/test/hardware/bitBox2.sh 9.21.0
-...
-[100%] Linking C executable ../bin/firmware-btc.elf
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/6076d21c5df6d19945229d86c013c5d3f8a94d26/_hardware/bitBox2.md)*
 
-Generating binary firmware-btc.bin
-   text	   data	    bss	    dec	    hex	filename
- 541768	  19172	 191064	 752004	  b7984	firmware-btc.elf
-make[4]: Leaving directory '/bb02/build'
-[100%] Built target firmware-btc.elf
-make[3]: Leaving directory '/bb02/build'
-make[2]: Leaving directory '/bb02/build'
-make[1]: Leaving directory '/bb02/build'
-firmware.bin created at:
-/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
-or
-/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
-Hashes of
-signed download             ff35982362faa1c6ca5066d1c4b4309eea52a4a14aa31f7a7fa413cbef5ac9a3  firmware-btc.v9.21.0.signed.bin
-signed download minus sig.  36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  p_firmware-btc.bin
-built binary                36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  temp/build/bin/firmware-btc.bin
-firmware as shown in device 4b851096907dbd168f1d3873f7be1adc8c43d779d3015b3f3bbf5038842980b1
-                           (The latter is a double sha256 over version,
-                            firmware and padding)
-```
+## Device Description
 
-Version 9.21.0 is **reproducible**.
+The BitBox02 is a hardware wallet developed by Swiss company Shift Crypto for securely storing and managing cryptocurrencies. It stores private keys offline and uses a minimalist, touch-sensitive design for device interaction. The BitBoxApp companion software enables users to send, receive, and manage coins across Bitcoin, Ethereum, Litecoin, Cardano, and more than 1,500 other tokens. The device offers microSD card backup and an optional Bitcoin-only firmware variant.
 
-{% include asciicast %}
+All firmware and software are open-source, allowing public review and transparency. The BitBox02 is manufactured in Switzerland and includes features like native desktop app support, U2F authentication, and multisig compatibility for advanced users seeking greater control and privacy in their crypto storage.

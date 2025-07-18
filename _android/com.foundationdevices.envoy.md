@@ -40,6 +40,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/427a9a5ab0f6d590ee8a7ec1baf5d0fc465e8442/_android/com.foundationdevices.envoy.md)*
+
 # App Description from Google Play
 
 > Envoy is a simple Bitcoin wallet with powerful account management and privacy features.

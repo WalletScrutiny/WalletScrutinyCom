@@ -42,6 +42,8 @@ features:
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/836af26e3c29c807370491b17ced4e7c5bdc9b26/_android/com.mycelium.wallet.md)*
+
 ## App Description 
 
 Mycelium Bitcoin Wallet is a non-custodial mobile wallet for Android that supports Bitcoin, Ethereum, and ERC-20 tokens such as USDT and USDC. It provides full user control over private keys, HD wallet support (BIP32/BIP39/BIP44), and watch-only functionality for integrating with cold storage solutions. Mycelium supports hardware wallets including Trezor, Ledger, and KeepKey, as well as direct spending from paper wallets or imported keys. Additional features include dynamic transaction fees, BIP70 payment request support, BitID authentication, and encrypted PDF key backups. The wallet also includes Local Trader for peer-to-peer in-person Bitcoin trading, and can optionally connect via Tor for enhanced privacy.

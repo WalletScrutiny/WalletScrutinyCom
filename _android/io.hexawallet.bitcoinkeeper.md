@@ -35,7 +35,7 @@ features:
 
 ---
 
-**Legacy review** [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/1002)
+*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/1002)*
 
 
 ## App Description 

@@ -37,7 +37,7 @@ features:
 
 ---
 
-**Legacy Verification** [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d8575278b7f76b7f4de79839d4269aedbdba3100/_android/it.airgap.vault.md)
+*Legacy Verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d8575278b7f76b7f4de79839d4269aedbdba3100/_android/it.airgap.vault.md)*
 
 ## App Description
 

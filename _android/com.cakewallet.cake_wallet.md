@@ -34,6 +34,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/591b4d2dcab8f8d8aec23d8fffd5525fa5765406/_android/com.cakewallet.cake_wallet.md)*
+
 ## App Description
 
 Cake Wallet is a non-custodial, open-source cryptocurrency wallet available on Android, iOS, macOS, and Linux, supporting assets such as Monero (XMR), Bitcoin (BTC), Ethereum (ETH), and several others. It enables users to securely store, send, and receive funds, while offering built-in exchange functionality, invoice payments, and recurring payment templates. The wallet supports advanced privacy and security features including Tor-only connections, custom nodes, Cake 2FA, and external backups. Monero-specific features include subaddress and account support, batch sending, and proxy node configuration; Bitcoin and Litecoin users benefit from coin control and automatic address generation. Ethereum functionality includes ERC-20 token support, contract-based token addition, and optional Etherscan integration.

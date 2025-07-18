@@ -35,7 +35,7 @@ features:
 
 ---
 
-*Legacy verification* [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b96115dbe0d002e06d34997d4950d6ed2744075/_android/zapsolutions.zap.md)
+*Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b96115dbe0d002e06d34997d4950d6ed2744075/_android/zapsolutions.zap.md)*
 
 # About the app
 

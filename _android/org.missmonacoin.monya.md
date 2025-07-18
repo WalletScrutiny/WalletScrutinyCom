@@ -31,7 +31,7 @@ features:
 
 ---
 
-**Legacy verification** [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/c7840ed97a2dd68dce32daf83998e3c4d223d24b/_android/org.missmonacoin.monya.md)
+*Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/c7840ed97a2dd68dce32daf83998e3c4d223d24b/_android/org.missmonacoin.monya.md)*
 
 ## App Description
 

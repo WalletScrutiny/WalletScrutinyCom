@@ -38,6 +38,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/97657556fba10b8ce60e568af1e2729166ad419b/_android/ch.swissbitcoinpay.checkout.md)*
+
 ## Swiss Bitcoin Pay – Technical Overview
 
 Swiss Bitcoin Pay is a non-custodial point-of-sale application designed to accept Bitcoin payments across web, iOS, and Android platforms. Built using React, React Native, and React Native Web, the app prioritizes simplicity, requiring no KYC and allowing account creation in under a minute. It supports automatic daily withdrawals to user-controlled wallets and includes partial or full fiat conversion. Additional features include support for BoltCards, multi-currency compatibility, and management of multiple employee accounts. The app supports various languages including English, French, German, Italian, Spanish, Portuguese, and Finnish.

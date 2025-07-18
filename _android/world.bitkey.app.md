@@ -41,7 +41,7 @@ features:
 
 **Disclaimer**: The WalletScrutiny project is sponsored by Spiral, a subsidiary of Block.
 
-*Legacy verification* [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/569a817147cba5af29e4c569040aab6c05143a5c/_android/world.bitkey.app.md)
+*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/569a817147cba5af29e4c569040aab6c05143a5c/_android/world.bitkey.app.md)*
 
 ## Analysis 
 

@@ -42,6 +42,8 @@ features:
 
 ---
 
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/47683a4539cd5d7d9062a2a5e0c1450a7f91e632/_hardware/passportb2.md)*
+
 ## Background 
 
 {{ page.title }} is the next iteration for the {% include walletLink.html wallet='hardware/passport' verdict='true' %}. 
@@ -82,64 +84,3 @@ From Foundation's Twitter account:
 > Security: Envoy primarily communicates with Passport via airgapped QR codes, ensuring that Passport is never directly connected to an online device.
 >
 > Privacy: Envoy connects to Foundation’s server and Bitcoin node through Tor. Envoy offers the ability to connect to your own Bitcoin node, cutting out Foundation as the middleman.
-
-## Reproducibility
-
-With the provider's help we updated the [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/passport.sh).
-
-This device runs the "color" version of the firmware so we provide these
-parameters to it:
-  
-* version: 2.3.5
-* model: color
-* build fingerprint: 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2 
-* release fingerprint: d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c
-
-The fingerprints can be found on the [release page](https://github.com/Foundation-Devices/passport2/releases).
-
-```
-$ ./scripts/test/hardware/passport.sh 2.3.5 color 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2 d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c
-
-...
-
-LINK build-Passport/firmware.elf
-Memory region         Used Size  Region Size  %age Used
-           FLASH:     1554024 B      1662 KB     91.31%
-            DTCM:      118664 B       128 KB     90.53%
-             RAM:      217392 B       512 KB     41.46%
-          RAM_D2:      292080 B       288 KB     99.04%
-           SRAM4:       51092 B        64 KB     77.96%
-   text    data     bss     dec     hex filename
-1534200   19816  659404 2213420  21c62c build-Passport/firmware.elf
-INFO: this build requires mboot to be installed first
-GEN build-Passport/firmware-COLOR.bin
-GEN build-Passport/firmware.dfu
-GEN build-Passport/firmware.hex
-make: Leaving directory '/workspace/ports/stm32'
-Built v2.3.5 binary sha256 hash:
-714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2  ports/stm32/build-Passport/firmware-COLOR.bin
-Expected v2.3.5 build hash:
-714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2
-ports/stm32/build-Passport/firmware-COLOR.bin: OK
-v2.3.5 release binary sha256 hash:
-d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c  ../v2.3.5-passport.bin
-Expected v2.3.5 release binary hash:
-d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c
-../v2.3.5-passport.bin: OK
-Comparing v2.3.5 stripped release binary hash:
-Expected v2.3.5 build hash:
-714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2
-no-header-v2.3.5-passport.bin: OK
-
-
-
-```
-
-1. The built binary's sha256 hash matches the expected build hash. -> 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2 
-2. The sha256 hash of the release binary, matches the expected hash. -> d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c
-3. Both the stripped release binary and the built binary have matching hashes. -> 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2 
-
-The verification process successfully proves that the firmware for v2.3.4 is **reproducible**. 
-
-Upon updating your device, you should be shown
-`d3bf923a1f5de18f70a16fc0c93a00a44d1e9d3bef8e198b668a928a5190797c` to be sure you got the file that we tested.

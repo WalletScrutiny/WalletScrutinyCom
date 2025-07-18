@@ -40,6 +40,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.bitpay.wallet.md)*
+
 BitPay App v2 is a mobile wallet for managing Bitcoin and other cryptocurrencies on both Android and iOS. It allows users to send, receive, and securely store digital assets, with support for deep linking, custom network configurations, and built-in exchange features. The app is built using React Native and relies on Redux for state management. Developers can run it locally with platform-specific tools and test components using Storybook. Configuration options include support for custom URI schemes, secure communication with local servers, and debugging through React Native Debugger.
 
 * * * 

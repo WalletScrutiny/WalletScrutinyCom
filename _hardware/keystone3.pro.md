@@ -42,7 +42,13 @@ features:
 
 ---
 
-Other Features:
+*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/dc2105ed9bc216ab8b05ccb4b7e33d02527c6e6d/_hardware/keystone3.pro.md)*
+
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/f45805cb46355065fa7db903d9d7d8cb224def81/_hardware/keystone3.pro.md)*
+
+
+## Other Features:
+
 - {% include walletLink.html wallet='android/io.bluewallet.bluewallet' verdict='true' %}, Sparrow, {% include walletLink.html wallet='android/io.nunchuk.android' verdict='true' %}support
 - Taproot support through Sparrow
 - XPUB QR code Display
@@ -59,66 +65,6 @@ Other Features:
 - Device verification
 - Fingerprint verification
 - Dice entropy
-
-# Updated Verification for 2.0.0 2025-02-21
-
-Run the script:
-
-`$ ./scripts/test/hardware/keystone3pro.sh 2.0.0`
-
-```
-Firmware checksum sha256: 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7 
-You can check this value on your device.
-------------------------
-(SIGNED) Binary from Keystone Website:
-c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d  keystone3.bin
-------------------------
-------------------------
-Binary from build process:
-7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7  ./build/mh1903.bin
-------------------------
-------------------------
-Unsigned Binary from Keystone Website:
-Firmware checksum sha256: 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7 
-You can check this value on your device.
-------------------------
-Unsigned .bin hash must be the same as mh1903.bin.
-```
-
-Version 2.0.0 of the {{ page.title}} hardware device is **reproducible**
-
-{% include asciicast %}
-
-<hr>
-
-# Previous Verification for 1.7.12 2024-12-10
-
-Run the script:
-
-`$ ./scripts/test/hardware/keystone3pro.sh 1.7.12`
-
-```
-Firmware checksum sha256: 30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7 
-You can check this value on your device.
-------------------------
-(SIGNED) Binary from Keystone Website:
-4acb98c0b3bac04bbe79ec68d2b6dc359925192a4d0c7647e0b79cbc649a5a7f  keystone3.bin
-------------------------
-------------------------
-Binary from build process:
-30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7  ./build/mh1903.bin
-------------------------
-------------------------
-Unsigned Binary from Keystone Website:
-Firmware checksum sha256: 30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7 
-You can check this value on your device.
-------------------------
-Unsigned .bin hash must be the same as mh1903.bin.
-```
-
-Version 1.7.12 of the Keystone3 Pro hardware device is **reproducible** 
-
----
 
 # Previous Analysis 2024-08-19
 
@@ -149,37 +95,4 @@ The hardware device then generates a QR code for the authorization.
 This hardware wallet is [**for verification.**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/524)
 
 We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md). 
-
-## Results
-
-```
-Firmware checksum sha256: 66c336583365ac855823a86ae1069f60ff567acab8d4df6cfc825eeacf7a66d1
-You can check this value on your device.
-All builds complete.
-------------------------
-(SIGNED) Binary from Keystone Website :
-6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37  keystone3.bin
-------------------------
-------------------------
-Binary from build process:
-66c336583365ac855823a86ae1069f60ff567acab8d4df6cfc825eeacf7a66d1  ./build/mh1903.bin
-------------------------
-------------------------
-Unsigned Binary from Keystone Website :
-Firmware checksum sha256: 66c336583365ac855823a86ae1069f60ff567acab8d4df6cfc825eeacf7a66d1
-You can check this value on your device.
-------------------------
-Unsigned .bin hash must be the same as mh1903.bin.
-```
-
-Following instructions from their documentation seems to indicate that the built file `mh1903.bin` has the same checksum as the downloaded binary. 
-
-However, we decided to take a closer look at the process behind the firmware checker. 
-
-We created an [issue](https://github.com/KeystoneHQ/keystone3-firmware/issues/967) in the repository of the provider.
-
-They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/967#issuecomment-2085060319), and pointed out that:
-> The keystone3-unsigned.bin is actually the compressed version of mh1903.bin with some headers, so what firmware-checker does is decompress the content then do a sha256 checksum.
-
-Version 1.6.0 of Keystone 3 Pro is **reproducible**
 

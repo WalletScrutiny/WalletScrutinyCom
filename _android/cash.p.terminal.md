@@ -36,6 +36,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a2fa561f891da1fe0fb8c09ab1e30df74b0807fb/_android/cash.p.terminal.md)*
+
 ## Update 2024-07-03
 
 After updating the script, we found that this app is now [source-available](https://github.com/piratecash/pcash-wallet-android). This app is now **for verification**. 

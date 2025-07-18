@@ -36,6 +36,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4d35b58691a7b46c61502395f1864e0cc5f4c268/_android/com.gemwallet.android.md)*
+
 ## App Description from Google Play 
 
 > Gem Wallet is a secure, self-custodial DeFi crypto wallet that prioritizes the utmost privacy of your sensitive information. With Gem Wallet, you retain full ownership of your cryptocurrencies and private keys. We deeply value your privacy, ensuring we don't track any personally identifiable information, wallet addresses, or asset balances.

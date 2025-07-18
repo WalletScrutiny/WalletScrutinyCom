@@ -38,6 +38,8 @@ features:
 
 ---
 
+*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1d32c0fcf0f4c6b16283a4195f0c94ce59bc4263/_android/de.schildbach.wallet.md)*
+
 ## The Removal of Bitcoin Wallet from Google Play: Significance and Implications
 
 The removal of Bitcoin Wallet (de.schildbach.wallet) from Google Play could affect a significant number of users because it had over 100 million downloads. This application stood as one of the most trusted and widely used Bitcoin wallets in the Android ecosystem. What makes this situation particularly concerning is that Bitcoin Wallet is both source available and reproducible, meaning its code can be independently verified and built by security researchers. Google's decision stems from their new validation process, which apparently doesn't accommodate decentralized teams and development processes—the very organizational structure that has made Bitcoin Wallet a trusted tool since its release in 2011.

@@ -38,9 +38,9 @@ features:
 
 ---
 
-**Legacy verification** [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/ad6b4ddcc39906bcaf7180aa4b5c058fd1003973/_android/piuk.blockchain.android.md)
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/ad6b4ddcc39906bcaf7180aa4b5c058fd1003973/_android/piuk.blockchain.android.md)*
 
-**Legacy verification** [2020](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a36affc64f010c4fa5154a107522ae89c598fb34/_android/piuk.blockchain.android.md)
+*Legacy verification [2020](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a36affc64f010c4fa5154a107522ae89c598fb34/_android/piuk.blockchain.android.md)*
 
 ## App Description
 
