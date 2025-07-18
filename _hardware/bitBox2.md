@@ -42,8 +42,6 @@ features:
 
 ---
 
-*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/6076d21c5df6d19945229d86c013c5d3f8a94d26/_hardware/bitBox2.md)*
-
 ## Device Description
 
 The BitBox02 is a hardware wallet developed by Swiss company Shift Crypto for securely storing and managing cryptocurrencies. It stores private keys offline and uses a minimalist, touch-sensitive design for device interaction. The BitBoxApp companion software enables users to send, receive, and manage coins across Bitcoin, Ethereum, Litecoin, Cardano, and more than 1,500 other tokens. The device offers microSD card backup and an optional Bitcoin-only firmware variant.

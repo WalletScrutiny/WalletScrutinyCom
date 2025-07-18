@@ -38,8 +38,6 @@ features:
 
 ---
 
-*Legacy verification [2023](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/828f15182bf9d44d394c67e002b30124a6a0728d/_hardware/trezorOne.md)*
-
 ## Device Description
 
 The Trezor Model One is a long-standing hardware wallet designed for offline storage and secure management of cryptocurrency private keys. It features a 0.96-inch monochromatic OLED display and two physical buttons for transaction verification, PIN input, and passphrase entry. Users manage their assets via the Trezor Suite desktop application, which supports sending, receiving, trading, and staking across hundreds of coins and tokens. The device does not support certain assets like XRP, ADA, SOL, and XMR; users seeking broader compatibility must upgrade to a different model. Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy.

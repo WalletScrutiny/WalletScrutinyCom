@@ -39,8 +39,6 @@ features:
 
 
 
-*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/22e5066305b4092048beb22227964f02c78d974f/_android/app.michaelwuensch.bitbanana.md)*
-
 ## App Description from Google Play
 
 > BitBanana is a native android app for node operators focused on user experience and ease of use. While it is not a wallet on its own, BitBanana works like a remote control allowing you to use your node as a wallet wherever you go. The app is designed with an educational approach, providing the user with guidance on every aspect of node operation.

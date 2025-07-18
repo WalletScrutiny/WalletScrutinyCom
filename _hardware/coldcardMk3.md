@@ -39,4 +39,10 @@ features:
 
 ---
 
-*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4e781f58fe67eb0e327a48fd43d5f2ce010d3407/_hardware/coldcardMk3.md)*
+## Device Description
+
+The COLDCARD Mk3 is a Bitcoin-only hardware wallet designed for secure cold storage. It features a secure element for protecting private keys, a MicroSD slot for PSBT workflows, and operates completely offline using MicroSD or USB. Users can verify receive addresses directly on the device, and all critical operations require confirmation on the COLDCARD's physical screen and keypad.
+
+The device supports multi-signature setups, duress PINs, and decoy wallets for added layers of security. Its firmware is open-source, and advanced users can inspect or build it independently. It is ideal for users who prioritize full offline transaction signing, verifiable address display, and robust physical device protections.
+
+This device is **source available.**

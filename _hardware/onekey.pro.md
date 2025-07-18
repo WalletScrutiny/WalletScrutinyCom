@@ -38,9 +38,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/3b4839f8dc30f8f08ad82171ebee5ad12e088a74/_hardware/onekey.pro.md)*
-
-
 ## [Product Documentation](https://help.onekey.so/hc/en-us/articles/9384870496143-Authenticate-OneKey-Pro)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YoEni3zAqUo?si=t4Cftm00KnW7b8Za" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

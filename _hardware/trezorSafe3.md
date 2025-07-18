@@ -41,10 +41,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d2ed3135d642ca2bd8811eaf3d8f80092b33e73c/_hardware/trezorSafe3.md)*
-
-*Legacy verification [2023](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/39e58f1062628179bae7a533621818a4fe3f4ff8/_hardware/trezorSafe3.md)*
-
 ## Device Description
 
 The Trezor Safe 3 is a secure hardware wallet that combines a certified EAL6+ Secure Element chip with an open-source design for enhanced protection of digital assets. It features a 0.96" monochrome OLED display, USB-C connectivity, and two-button input for on-device transaction confirmation and passphrase/PIN entry. The wallet supports 12-, 20-, and 24-word backup options, including advanced Multi-share Backup, and integrates with the Trezor Suite app for managing, trading, staking, and tracking thousands of supported cryptocurrencies. Privacy features include Tor support and coin control, while authentication standards include FIDO2 and 2FA. Built with durable materials and tamper-evident casing, the Safe 3 offers a robust cold storage solution in a compact and modern design.

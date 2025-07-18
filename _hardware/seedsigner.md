@@ -38,12 +38,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/8d3161862607cdf93150dacc43ad3e6081e0f729/_hardware/seedsigner.md)*
-
-*Legacy verification [2023](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/7c5d7f40aecf5e5ad4fa063f90643ae5285e1e29/_hardware/seedsigner.md)*
-
-*Legacy verification [2022](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/818705dd3df8bcb408fe020f267a824a39051060/_hardware/seedsigner.md)*
-
 **Update 2023-09-14**: Seedsigner
 [announced reproducibility](https://twitter.com/SeedSigner/status/1701600348136436134)
 with their latest release that they even gave the promising name

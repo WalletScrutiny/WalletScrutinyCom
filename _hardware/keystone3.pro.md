@@ -42,11 +42,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/dc2105ed9bc216ab8b05ccb4b7e33d02527c6e6d/_hardware/keystone3.pro.md)*
-
-*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/f45805cb46355065fa7db903d9d7d8cb224def81/_hardware/keystone3.pro.md)*
-
-
 ## Other Features:
 
 - {% include walletLink.html wallet='android/io.bluewallet.bluewallet' verdict='true' %}, Sparrow, {% include walletLink.html wallet='android/io.nunchuk.android' verdict='true' %}support

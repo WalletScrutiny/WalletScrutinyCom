@@ -42,8 +42,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/b930a0ff3a2d69d28c5b3eecc3c888116b3ce73d/_hardware/trezorSafe5.md)*
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1EVzbNPn6bc?si=vv88okupfrEmtEff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # [Trezor Safe 5 Official Online Documentation](https://trezor.io/learn/a/get-started-with-the-trezor-safe-5)

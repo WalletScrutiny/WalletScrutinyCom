@@ -46,3 +46,6 @@ features:
 ---
 
 *Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/dd1ee7983f62697ed014508e6f7bce1f0245aacb/_hardware/blockstreamjade.md)*
+
+Blockstream Jade (classic) is an open-source hardware wallet specifically designed for secure Bitcoin and Liquid Network key storage, featuring a color screen, physical buttons, and optional air-gapped QR-based signing for fully offline transactions. It includes a secure boot sequence and “virtual Secure Element” architecture that prevents theft of assets from a locked device. Connectivity options include USB-C, Bluetooth, and QR workflows, with a no-radiofirmware variant available for maximum air-gap integrity. Integration is supported through Blockstream App as well as popular third-party wallets such as Sparrow, Specter, Electrum, BlueWallet, and Bitcoin Core. Advanced security features include genuine-device attestation during setup, multisig support, duress PIN, SeedQR stateless signing, and custom entropy generation from onboard sensors.
+

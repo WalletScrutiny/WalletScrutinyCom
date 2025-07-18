@@ -38,10 +38,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/f9a397eb06c41aaec93104ec4d628f4281088cc1/_hardware/keepKey.md)*
-
-*Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/0605e3548a919fe8d8cf94d96bbbb691515e882a/_hardware/keepKey.md)*
-
 # Original Analysis with all our considerations
 
 **Update 2021-07-31**: Reid Rankin, a contributor to the project

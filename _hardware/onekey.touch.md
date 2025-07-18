@@ -37,8 +37,6 @@ features:
 
 ---
 
-*Legacy verification [2023](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/b4595e7f0c796f3f95550cb9df869de8a30d148e/_hardware/onekey.touch.md)*
-
 Note from Provider:
 
 > "...all (OneKey devices) need our APP to send data, process the received information inside the hardware, and then return it. This ensures that the private key in our hardware is safe.

@@ -40,8 +40,6 @@ features:
 
 ---
 
-*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/540359a8e54b09cd2c779908dc00d772d77a7234/_hardware/passport.md)*
-
 {{ page.title }} is the original and now discontinued version of
 {% include walletLink.html wallet='hardware/passportb2' verdict='true' %}.
 

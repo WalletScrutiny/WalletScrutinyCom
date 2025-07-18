@@ -40,8 +40,6 @@ features:
 
 ---
 
-*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d4070a700b13872331e103ae5bb27b2c08bb11bb/_hardware/coldcardMk4.md)*
-
 ## Product Description 
 
 The ColdCard Mark 4 is CoinKite's latest iteration of the ColdCard series. At the time of this writing, the Mark 4 is still in pre-order. The current product in the series is the {% include walletLink.html wallet='hardware/coldcardMk3' verdict='true' %}. 

@@ -36,8 +36,6 @@ features:
 
 ---
 
-*Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/7e5741c856506de8a2d0a479ec2f69ea9e039223/_android/com.komodoplatform.atomicdex.md)*
-
 The app announced:
 
 > NOTE: This is the last release of this version of Komodo Wallet mobile. This application will receive no further updates or maintenance. Switch to Komodo Wallet Web (native mobile release will be made available soon too). BACKUP YOUR SEEDS!

@@ -41,9 +41,6 @@ features:
 
 ---
 
-*Legacy verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/438cf34f70c00b1f48f2a9f48eebaaa33ef3c773/_hardware/coldcardQ1.md)*
-
-
 ## Product Description 
 
 ## [View the Official Documentation](https://coldcard.com/docs/coldcard-q/)
@@ -82,3 +79,4 @@ It passes all criteria:
   - 320x240 LCD screen   
   - QWERTY keyboard
 
+This device is **source available.**

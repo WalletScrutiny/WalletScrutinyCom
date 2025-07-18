@@ -42,8 +42,6 @@ features:
 
 ---
 
-*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/47683a4539cd5d7d9062a2a5e0c1450a7f91e632/_hardware/passportb2.md)*
-
 ## Background 
 
 {{ page.title }} is the next iteration for the {% include walletLink.html wallet='hardware/passport' verdict='true' %}. 
