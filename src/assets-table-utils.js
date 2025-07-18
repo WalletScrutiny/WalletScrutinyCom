@@ -220,12 +220,3 @@ window.copyRawEventJsonToClipboard = function() {
     showToast('Failed to copy raw event', 'error');
   }
 };
-
-window.copyLinkToVerificationToClipboard = () => {
-  navigator.clipboard.writeText(window.location.href)
-    .then(() => showToast('Link copied to clipboard'))
-    .catch(err => {
-      console.error('Failed to copy link: ', err);
-      showToast('Failed to copy link', 'error');
-    });
-};

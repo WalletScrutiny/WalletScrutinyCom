@@ -41,7 +41,7 @@ permalink: /verifier/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at my verifier profile on WalletScrutiny!" %}
+  <div id="shareButtonContainer"></div>
   <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>
@@ -53,6 +53,12 @@ permalink: /verifier/
   document.getElementById('loadingSpinner').style.display = 'block';
 
   window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Look at my verifier profile on WalletScrutiny!",
+      showRawButtons: false
+    });
+
     const urlParams = new URLSearchParams(window.location.search);
     const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'), purifyConfig);
     let pubkey = rawPubkey;
