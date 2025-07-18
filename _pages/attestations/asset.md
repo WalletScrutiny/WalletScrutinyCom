@@ -7,8 +7,8 @@ permalink: /asset/
 <h2 id="sha256title" style="text-align: center; margin-bottom: 2em;"></h2>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <a href="/assets/" class="btn btn-success">All Assets</a>
-  {% include shareButton.html defaultMessage="Check out this asset information I registered on WalletScrutiny:" %}
+  <a href="/assets/" class="btn btn-success" style="margin-bottom: 0;">All Assets</a>
+  <div id="shareButtonContainer"></div>
 </div>
 
 <div id="binariesTable"></div>
@@ -24,6 +24,12 @@ permalink: /asset/
   document.getElementById('loadingSpinner').style.display = 'block';
 
   window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Check out this asset information I registered on WalletScrutiny:",
+      showRawButtons: false
+    });
+
     const urlParams = new URLSearchParams(window.location.search);
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     document.getElementById('sha256title').innerHTML = sha256;

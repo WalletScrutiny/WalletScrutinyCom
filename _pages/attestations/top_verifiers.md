@@ -85,9 +85,7 @@ permalink: /verifiers/
   }
 </style>
 
-<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at the Top Verifiers ranking on WalletScrutiny!" %}
-</div>
+<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;" id="shareButtonContainer"></div>
 
 <div id="attestatorsTable"></div>
 
@@ -95,6 +93,12 @@ permalink: /verifiers/
   document.getElementById('loadingSpinner').style.display = 'block';
 
   window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Look at the Top Verifiers ranking on WalletScrutiny!",
+      showRawButtons: false
+    });
+
     const response = await getAllAssetInformation({});
 
     const attestatorInfo = new Map();

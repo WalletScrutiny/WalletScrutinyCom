@@ -1084,7 +1084,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<button class="btn btn-info" ${isMyDraft ? 'style="margin-left: 10px;"' : ''} onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`; 
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
@@ -1282,8 +1283,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       <img onclick="showVerificationButtons()" id="verification-nostr-icon" src="/images/nostr_logo.svg" alt="Nostr Logo" title="Show Nostr actions" />
       <button onclick="openEventInNjump('${verification.id}')" class="btn-small button-closed-by-default">Open in njump</button>
       <button onclick="copyNostrEmbedToClipboard('${verification.id}')" class="btn-small button-closed-by-default">Copy Nostr embed code</button>
-      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>
-      <button onclick="copyLinkToVerificationToClipboard()" class="btn-small"><i class="fas fa-share-alt"></i> Copy link to this verification</button>`;
+      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>`;
 
   modal.appendChild(verificationActions);
 
@@ -1396,6 +1396,12 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
+
+  renderShareButton({
+    container: "#shareButtonContainer",
+    defaultMessage: "Check out this verification!",
+    showRawButtons: false
+  });
 };
 
 function insertDiffoscopeAssets() {
