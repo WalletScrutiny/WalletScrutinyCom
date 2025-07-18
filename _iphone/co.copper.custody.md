@@ -8,8 +8,8 @@ appId: co.copper.custody
 appCountry: us
 idd: '1521814069'
 released: 2020-07-21
-updated: 2025-05-08
-version: 2.6.557
+updated: 2025-07-18
+version: 2.6.570
 stars: 3.7
 reviews: 3
 website: https://copper.co

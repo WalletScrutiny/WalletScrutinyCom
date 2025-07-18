@@ -10,9 +10,9 @@ appCountry: ph
 released: 2021-01-18
 updated: 2025-07-08
 version: 13.10.1
-stars: 4.5
+stars: 4.4
 ratings: 3291
-reviews: 2845
+reviews: 2849
 website: https://pdax.ph
 repository: 
 issue: 

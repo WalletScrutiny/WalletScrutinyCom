@@ -12,7 +12,7 @@ updated: 2025-07-03
 version: 4.69.0
 stars: 4.6
 ratings: 107859
-reviews: 6650
+reviews: 6660
 website: https://www.bybit.com
 repository: 
 issue: 

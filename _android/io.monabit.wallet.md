@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-17
 updated: 2025-03-01
 version: '4.0'
-stars: 5
+stars: 4.3
 ratings: 
-reviews: 1
+reviews: 2
 website: https://monabit.io
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2021-06-30
 updated: 2025-05-28
 version: 1.2.1
 stars: 4
-reviews: 118
+reviews: 119
 website: https://gcbuying.com/
 repository: 
 issue: 

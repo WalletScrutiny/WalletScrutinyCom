@@ -8,11 +8,11 @@ users: 100000
 appId: com.avaxwallet
 appCountry: 
 released: 2022-08-30
-updated: 2025-06-26
-version: 1.0.3
-stars: 4.1
+updated: 2025-07-14
+version: 1.0.4
+stars: 4
 ratings: 
-reviews: 108
+reviews: 115
 website: http://core.app
 repository: 
 issue: 

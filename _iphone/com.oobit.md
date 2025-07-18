@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.oobit.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-07-18
 signer: 
 twitter: 
 social: 

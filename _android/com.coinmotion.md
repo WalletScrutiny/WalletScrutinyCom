@@ -4,7 +4,7 @@ title: 'Coinmotion: Buy Bitcoin Easily'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinmotion
 appCountry: in
 released: 2020-08-20

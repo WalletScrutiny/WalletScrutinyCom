@@ -8,10 +8,10 @@ appId: com.quantfury
 appCountry: br
 idd: 1445564443
 released: 2018-12-15
-updated: 2025-07-01
-version: 1.87.1
+updated: 2025-07-17
+version: 1.87.3
 stars: 3.3
-reviews: 59
+reviews: 58
 website: https://quantfury.com/
 repository: 
 issue: 

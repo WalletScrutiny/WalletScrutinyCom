@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Vault12 Guard - Inherit Crypto
+title: 'Vault12: Inherit Crypto Wallet'
 altTitle: 
 authors:
 - danny

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-07
+date: 2025-07-18
 signer: 
 twitter: currencycom
 social:

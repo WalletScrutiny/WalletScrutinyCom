@@ -26,7 +26,7 @@ signer:
 twitter: pro1trading
 social: 
 redirect_from: 
-developerName: Pro1.trading
+developerName: Pro1X
 features: 
 
 ---

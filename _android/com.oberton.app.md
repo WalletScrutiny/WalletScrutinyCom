@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.oberton.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-09-06
+date: 2025-07-18
 signer: 
 twitter: EverspaceWallet
 social:

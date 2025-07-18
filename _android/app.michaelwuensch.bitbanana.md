@@ -9,7 +9,7 @@ users: 1000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
 released: 2023-03-26
-updated: 2025-06-21
+updated: 2025-07-17
 version: 0.9.6
 stars: 4
 ratings: 
@@ -36,8 +36,6 @@ developerName: Michael Wünsch
 features: 
 
 ---
-
-
 
 ## App Description from Google Play
 

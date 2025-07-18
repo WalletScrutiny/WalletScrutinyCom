@@ -1,6 +1,6 @@
 ---
 wsId: phemexTR
-title: 'Phemex Pro: Crypto Trading'
+title: 'Phemex Pro: Trade BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.phemex.tr
 appCountry: us
 idd: '1587847973'
 released: 2021-10-10
-updated: 2025-05-23
-version: 5.5.49
+updated: 2025-07-16
+version: 5.5.53
 stars: 4.9
 reviews: 15
 website: https://phemex.com/

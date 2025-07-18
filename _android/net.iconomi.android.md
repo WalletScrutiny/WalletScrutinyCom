@@ -12,7 +12,7 @@ updated: 2025-07-10
 version: 4.0.1
 stars: 3.8
 ratings: 291
-reviews: 170
+reviews: 169
 website: https://www.iconomi.com
 repository: 
 issue: 

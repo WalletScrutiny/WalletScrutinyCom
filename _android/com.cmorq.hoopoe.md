@@ -13,7 +13,7 @@ version: 8.3.6
 stars: 4.2
 ratings: 
 reviews: 33
-website: https://www.cmorq.com
+website: https://openfi.world/
 repository: 
 issue: 
 icon: com.cmorq.hoopoe.png

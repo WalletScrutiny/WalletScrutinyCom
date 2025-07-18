@@ -8,8 +8,8 @@ appId: com.cryptoxpress.mobile
 appCountry: in
 idd: '1591792414'
 released: 2021-11-18
-updated: 2025-07-10
-version: 1.0.35
+updated: 2025-07-18
+version: 1.0.36
 stars: 4.6
 reviews: 22
 website: https://cryptoxpress.com/

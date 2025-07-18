@@ -12,7 +12,7 @@ updated: 2025-06-13
 version: 1.51.8
 stars: 1.9
 ratings: 428
-reviews: 542
+reviews: 545
 website: https://flitaa.com
 repository: 
 issue: 

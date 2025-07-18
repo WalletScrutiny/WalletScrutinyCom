@@ -1,6 +1,6 @@
 ---
 wsId: Vauld
-title: Vauld - Earn, Lend with Crypto
+title: Vauld.com
 altTitle: 
 authors:
 - kiwilamb
@@ -8,7 +8,7 @@ users: 1000000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2025-01-09
+updated: 2025-07-17
 version: 2.9.0
 stars: 3.4
 ratings: 8047
@@ -16,7 +16,7 @@ reviews: 88
 website: https://vauld.com
 repository: 
 issue: 
-icon: com.bankofhodlers.mobile.jpg
+icon: com.bankofhodlers.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial

@@ -6,7 +6,7 @@ authors:
 released: 2020-05-16
 discontinued: 
 updated: 2024-04-18
-version: 6.13.0
+version: 6.14.0
 binaries: 
 provider: Coin Wallet
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: coinwallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-07-01
+date: 2025-07-15
 twitter: CoinAppWallet
 social:
 - https://www.facebook.com/coinappwallet/
