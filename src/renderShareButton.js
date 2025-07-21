@@ -11,7 +11,7 @@
     // Remove any previous instance
     if (el._shareButtonRendered) return;
     el._shareButtonRendered = true;
-    // CSS
+
     const style = document.createElement("style");
     style.textContent = `
       #shareModal {
@@ -95,7 +95,7 @@
     html += modalHTML;
     // Render
     el.innerHTML = html;
-    // Event handlers
+
     const shareModal = el.querySelector("#shareModal");
     const shareModalContent = el.querySelector("#share-modal-content");
     const closeShareModal = el.querySelector("#closeShareModal");
@@ -163,10 +163,8 @@
       };
     }
     window.addEventListener("click", function (event) {
-      if (shareDropdown && !event.target.matches("#shareBtn")) {
-        if (shareDropdown.classList.contains("show")) {
-          shareDropdown.classList.remove("show");
-        }
+      if (shareDropdown && !event.target.matches("#shareBtn") && shareDropdown.classList.contains("show")) {
+        shareDropdown.classList.remove("show");
       }
       if (event.target === shareModal) {
         shareModal.style.display = "none";
