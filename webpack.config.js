@@ -28,7 +28,8 @@ module.exports = {
         './src/assets-table-comments.js',
         './src/assets-table.js',
         './src/preview-button.js',
-        './src/renderShareButton.js'
+        './src/renderShareButton.js',
+        './src/renderNostrButton.js'
       ],
       dependOn: ['dom_sanitization'],
     },

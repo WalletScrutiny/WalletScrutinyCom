@@ -1089,10 +1089,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   if (!isDraft && !isMine) {
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
+  content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
-
   const identifier = getFirstTagValue(verification, 'i');
   const wallet = window.wallets.find(w => w.appId === identifier);
   const walletTitle = wallet ? wallet.title : identifier;
@@ -1276,17 +1276,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     insertDiffoscopeAssets();
   }
 
-  const verificationActions = document.createElement('div');
-  verificationActions.id = 'verification-action-buttons';
-  verificationActions.style.marginTop = '10px';
-  verificationActions.innerHTML = `
-      <img onclick="showVerificationButtons()" id="verification-nostr-icon" src="/images/nostr_logo.svg" alt="Nostr Logo" title="Show Nostr actions" />
-      <button onclick="openEventInNjump('${verification.id}')" class="btn-small button-closed-by-default">Open in njump</button>
-      <button onclick="copyNostrEmbedToClipboard('${verification.id}')" class="btn-small button-closed-by-default">Copy Nostr embed code</button>
-      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>`;
-
-  modal.appendChild(verificationActions);
-
   modal.style.display = 'block';
 
   // Add blur to all divs except verificationModal and diffoscopeModal
@@ -1397,6 +1386,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
 
+  renderNostrButton({
+    container: "#verificationActionButtons",
+    verificationId: verification.id
+  });
+
   renderShareButton({
     container: "#shareButtonContainer",
     defaultMessage: "Check out this verification!",
@@ -1472,16 +1466,6 @@ window.handleAttachmentDownload = function(attachmentId) {
   };
 
   modal.style.display = 'block';
-};
-
-// Function to show verification buttons and hide Nostr icon
-window.showVerificationButtons = function() {
-  const buttonClosedByDefault = document.getElementById('verification-action-buttons').querySelectorAll('.button-closed-by-default');
-  buttonClosedByDefault.forEach(button => {
-    button.classList.remove('button-closed-by-default');
-  });
-
-  document.getElementById('verification-nostr-icon').style.display = 'none';
 };
 
 // Function to handle attachment preview
