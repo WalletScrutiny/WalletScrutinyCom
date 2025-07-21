@@ -47,7 +47,6 @@ function searchByWords(query, wallet) {
   }
   return result;
 }
-
 function performSearch (wallets, query = false, platform = false) {
   const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
   const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
@@ -154,7 +153,6 @@ function performSearch (wallets, query = false, platform = false) {
   });
   return temp;
 }
-
 // UI related functions
 function exitSearchUI () {
   const ui = document.querySelector('.results-target');
@@ -183,7 +181,7 @@ function searchTrigger () {
   }
 }
 
-function doNavBarSearch (input) {
+function doNavBarSearch (input, startIndex = 0) {
   document.body.classList.add('search-ui-active');
   const result = document.querySelector('.results-target');
   result.classList.add('visible');
@@ -191,15 +189,28 @@ function doNavBarSearch (input) {
 
   const minTermLength = 1;
   if (term.length > minTermLength) {
-    result.innerHTML = '';
+    // Only clear results if this is a fresh search (startIndex = 0)
+    if (startIndex === 0) {
+      result.innerHTML = '';
+    }
 
     const wallets = performSearch(versionTaggedWallets, term);
 
     if (!wallets || wallets.length === 0) {
       result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
       document.querySelector('.search-controls').classList.remove('working');
+      return;
     }
-    for (const wallet of wallets) {
+    
+    // Limit results to improve performance - only render next 50 results
+    const maxResultsPerPage = 50;
+    const endIndex = startIndex + maxResultsPerPage;
+    const walletsToRender = wallets.slice(startIndex, endIndex);
+    
+    // Use DocumentFragment for batch DOM operations
+    const fragment = document.createDocumentFragment();
+    
+    for (const wallet of walletsToRender) {
       if (wallet.title) {
         const walletRow = document.createElement('li');
         if (wallets.length < 10) {
@@ -216,10 +227,28 @@ function doNavBarSearch (input) {
           walletGroupClass = 'grouped';
         }
         walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-        document.querySelector('.search-controls').classList.remove('working');
-        result.append(walletRow);
+        fragment.appendChild(walletRow);
       }
     }
+    
+    // Remove existing "load more" button if present
+    const existingLoadMore = result.querySelector('.load-more-results');
+    if (existingLoadMore) {
+      existingLoadMore.remove();
+    }
+    
+    // Batch append all elements at once
+    result.appendChild(fragment);
+    document.querySelector('.search-controls').classList.remove('working');
+    
+    // Show "load more" button if there are more results
+    if (endIndex < wallets.length) {
+      const moreResultsItem = document.createElement('li');
+      moreResultsItem.className = 'load-more-results';
+      moreResultsItem.innerHTML = `<a onclick="event.stopPropagation(); loadMoreResults('${term}', ${endIndex});" style="font-size:.8rem;opacity:.8;text-align:center;padding:10px;cursor:pointer;color:#007bff;text-decoration:underline;">Showing ${endIndex} of ${wallets.length} results. Click to load ${Math.min(maxResultsPerPage, wallets.length - endIndex)} more...</a>`;
+      result.appendChild(moreResultsItem);
+    }
+    
   } else if (term.length !== 0) {
     var l = document.createElement('li');
     var rem = (minTermLength + 1) - term.length;
@@ -231,6 +260,11 @@ function doNavBarSearch (input) {
     result.innerHTML = '';
   }
   searchScrollToTop();
+}
+
+// Function to load more search results
+function loadMoreResults(searchTerm, startIndex) {
+  doNavBarSearch(searchTerm, startIndex);
 }
 
 function getIcon (name) {
