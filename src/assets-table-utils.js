@@ -1,4 +1,4 @@
-import { verificationKind, mainRelayUrl, codeSnippetKind } from "./nostr-constants.mjs";
+import { codeSnippetKind } from "./nostr-constants.mjs";
 import { getFirstTagValue } from "./verifications_common.mjs";
 
 export function formatDate(timestamp, short = false) {
