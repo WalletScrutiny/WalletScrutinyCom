@@ -11,7 +11,7 @@ released: 2019-12-20
 updated: 2025-07-14
 version: 3.5.4
 stars: 4.6
-reviews: 1838
+reviews: 1839
 website: https://www.withtap.com
 repository: 
 issue: 

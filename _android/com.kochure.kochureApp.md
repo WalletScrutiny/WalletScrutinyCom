@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.kochure.kochureApp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-08-16
+date: 2025-07-21
 signer: 
 twitter: kochureglobal
 social:

@@ -8,8 +8,8 @@ users: 100000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2025-07-04
-version: 4.16.3
+updated: 2025-07-15
+version: 4.17.0
 stars: 4
 ratings: 
 reviews: 62

@@ -11,7 +11,7 @@ released: 2018-07-25
 updated: 2025-07-18
 version: 5.50.881
 stars: 4.4
-reviews: 340
+reviews: 342
 website: https://coinmetro.com/
 repository: 
 issue: 

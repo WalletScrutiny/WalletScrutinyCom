@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.CapiteraAG.Welthee.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-10-06
+date: 2025-07-21
 signer: 
 twitter: Welthee
 social:

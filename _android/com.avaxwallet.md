@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: 1.0.4
 stars: 4
 ratings: 
-reviews: 115
+reviews: 112
 website: http://core.app
 repository: 
 issue: 

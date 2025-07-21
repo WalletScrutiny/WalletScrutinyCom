@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitnovo.Wallet
 appCountry: us
 released: 2021-10-27
-updated: 2025-06-19
-version: 3.0.49
+updated: 2025-07-18
+version: 3.0.50
 stars: 3.3
 ratings: 
 reviews: 12

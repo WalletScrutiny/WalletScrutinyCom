@@ -12,7 +12,7 @@ updated: 2025-07-11
 version: 3.9.2
 stars: 3.5
 ratings: 41983
-reviews: 3699
+reviews: 3700
 website: http://www.bitmart.com
 repository: 
 issue: 

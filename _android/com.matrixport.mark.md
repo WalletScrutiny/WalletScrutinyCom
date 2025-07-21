@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: 3.4.1
 stars: 4
 ratings: 1103
-reviews: 868
+reviews: 870
 website: https://invest.matrixport.com
 repository: 
 issue: 
