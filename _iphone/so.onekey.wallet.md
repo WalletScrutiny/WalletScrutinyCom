@@ -18,9 +18,9 @@ issue:
 icon: so.onekey.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: nonverifiable
 appHashes: 
-date: 2023-04-18
+date: 2025-07-21
 signer: 
 twitter: OneKeyHQ
 social:
@@ -29,5 +29,11 @@ features:
 developerName: ONEKEY LIMITED
 
 ---
+
+## Update 2025-07-21
+
+The Android App's verdict is now **source available** and is **for verification**. 
+
+The iPhone app remains non-verifiable because all apps distributed through the Apple App Store are re-signed and encrypted by Apple before delivery to users. This process alters the original binary, making it impossible to directly compare the published app with a version built from source code. As a result, researchers and users cannot independently verify that the code released by developers matches the app actually installed on iOS devices.
 
 {% include copyFromAndroid.html %}

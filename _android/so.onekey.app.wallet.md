@@ -19,9 +19,9 @@ issue:
 icon: so.onekey.app.wallet.png
 bugbounty: 
 meta: ok
-verdict: nowallet
+verdict: sourceavailable
 appHashes: 
-date: 2023-04-18
+date: 2025-07-21
 signer: 
 twitter: OneKeyHQ
 social:
@@ -31,6 +31,35 @@ developerName: ONEKEY LIMITED
 features: 
 
 ---
+
+## Updated Analysis 2025-07-21
+
+**Key Finding:**  
+As of version 5.10.0, the OneKey Android app allows users to create a new wallet and access all wallet functions without connecting a hardware device. This was confirmed by video testing ([see demonstration](https://x.com/dannybuntu/status/1947142524147249221)), where a seed phrase was generated and wallet operations were performed with no hardware present.
+
+**Implications:**  
+- The app is no longer solely a hardware companion; it is now a fully functional non-custodial wallet.
+- The previous verdict of `nowallet` is outdated and has been updated to reflect the app's current capabilities.
+
+**Evidence:**  
+- Video demonstration (see link above).
+- Seed phrases were generated and provided during the test.
+- We were able to access BTC send/receive functions.
+
+## Possible Build Specifications
+
+After analyzing the repository we find:
+
+**Tech Stack Summary:**
+- React Native (JavaScript/TypeScript)
+- Yarn Workspaces (monorepo management)
+- Gradle (Android build system)
+- Node.js (>=20 required)
+- Java JDK (>=11 required)
+- Expo SDK (for development)
+- Android SDK & Android Studio (for building/running)
+
+This app is now **source available** and **for verification**.
 
 ## App Description from Google Play 
 
