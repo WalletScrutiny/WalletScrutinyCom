@@ -15,7 +15,9 @@ import {
   wsBotPublicKey
 } from "./nostr-constants.mjs";
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
+import { formatDate } from "./assets-table-utils.js";
 import WebSocket from "ws";
+
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 }
@@ -1004,20 +1006,11 @@ const loadDraftVerificationsNotifications = async function () {
       const version = getFirstTagValue(verification, 'version', null);
       const wallet = window.wallets?.find(w => w.appId === identifier);
       const walletTitle = wallet ? wallet.title : identifier;
-
-      const verificationDate = new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-
       const status = getFirstTagValue(verification, 'status');
       const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + ` ${getStatusText(status, true)}</span>`;
 
       addNotificationToIndicator('Unpublished Verification',
-        `${walletTitle} - ${version ? version+' -' : ''} ${verificationDate} ${statusIcon}
+        `${walletTitle} - ${version ? version+' -' : ''} ${formatDate(verification.created_at)} ${statusIcon}
         <br>
         <button class="edit-button" onclick="doDraftVerificationAction('${verification.id}', 'edit')">Edit</button>
         <button class="delete-button" onclick="doDraftVerificationAction('${verification.id}', 'delete')">Delete</button>`,'info')

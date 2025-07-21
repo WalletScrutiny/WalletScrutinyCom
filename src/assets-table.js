@@ -1047,20 +1047,12 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   let otherVerificationsHTML = '';
   if (otherVerificationsBySamePubkey.length > 0) {
     for (const otherVerification of otherVerificationsBySamePubkey) {
-      const verificationDate = new Date(otherVerification.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-
       const status = getFirstTagValue(otherVerification, 'status');
 
       const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + getStatusIcon(status) + '</span>';
 
       otherVerificationsHTML += `<li>
-        ${verificationDate} ${statusIcon}
+        ${formatDate(otherVerification.created_at)} ${statusIcon}
       </li>`;
     }
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
@@ -1108,13 +1100,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML += `
-    <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
-  })}</p>
+    <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
     <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>
     <p style="display: none;" id="endorsements"></p>`;
 
