@@ -1064,21 +1064,13 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
       if (version && (!appId || appIdFromTag === appId)) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           maxVersion = version;
-          maxDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric'
-          });
+          maxDate = formatDate(asset.created_at, true);
         }
 
         const status = getFirstTagValue(asset, 'status');
         if (status === 'reproducible' && (!verifiedVersion || compareVersions(version, verifiedVersion) > 0)) {
           verifiedVersion = version;
-          verifiedDate = new Date(asset.created_at * 1000).toLocaleDateString(navigator.language, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric'
-          });
+          verifiedDate = formatDate(asset.created_at, true);
         }
       }
     }
