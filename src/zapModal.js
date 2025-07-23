@@ -5,20 +5,20 @@ function showZapModal({ onClose, setZapped }) {
   const style = document.createElement('style');
   style.textContent = `
     .zap-amount-selected {
-      background: #ffd700 !important;
+      background: #1caaa2 !important;
       color: #222 !important;
       font-weight: bold;
       border: 2px solid #ff9800;
     }
     body.dark .zap-amount-selected {
-      background: #ffd700 !important;
+      background: #1caaa2 !important;
       color: #222 !important;
       font-weight: bold;
       border: 2px solid #ff9800;
     }
     .zap-modal {
       position: fixed; left: 0; top: 0; width: 100vw; height: 100vh;
-      background: rgba(0,0,0,0.5); z-index: 9999; display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,0.5); z-index: 9; display: flex; align-items: center; justify-content: center;
     }
     .zap-modal-content {
       background: #fff; padding: 2em; border-radius: 8px; min-width: 320px; max-width: 90vw; position: relative;
@@ -83,7 +83,7 @@ function showZapModal({ onClose, setZapped }) {
     }
     #zapSendBtn {
       width: 100%; margin-bottom: 0.5em;
-      background: #ffd700;
+      background: #1caaa2;
       color: #222;
       border: none;
       border-radius: 5px;
@@ -93,7 +93,7 @@ function showZapModal({ onClose, setZapped }) {
       transition: background 0.2s, color 0.2s;
     }
     body.dark #zapSendBtn {
-      background: #ffd700;
+      background: #1caaa2;
       color: #222;
     }
     #zapError {
@@ -116,7 +116,7 @@ function showZapModal({ onClose, setZapped }) {
       font-size: 1em;
     }
     body.dark #bolt11-copy-btn {
-      color: #ffd700;
+      color: #1caaa2;
     }
     #zapQR p:last-child {
       font-size: 0.9em; opacity: 0.7;
@@ -244,9 +244,14 @@ function showZapModal({ onClose, setZapped }) {
 
       document.getElementById('loadingSpinner').style.display = 'none';
 
-      if (setZapped) setZapped(true);
-      // modal.remove();
-      if (onClose) onClose();
+      await getZapReceipt(event.id, (ok) => {
+        if (ok) {
+          //if (setZapped) setZapped(true);
+          // modal.remove();
+          //if (onClose) onClose();
+          console.log('--------------------- ZAP RECEIPT RECEIVED **************************');
+        }
+      });
     } catch (err) {
       errorDiv.textContent = err.message || 'Failed to process zap. Please try again.';
     }
