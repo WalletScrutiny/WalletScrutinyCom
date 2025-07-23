@@ -102,6 +102,14 @@ permalink: /verifier/
           } catch (error) {
             console.error('Error parsing profile event:', error);
           }
+        } else {
+          const zapBtn = document.getElementById('zapButtonVerifier');
+          zapBtn.style.display = 'inline-block';
+          zapBtn.disabled = true;
+          zapBtn.style.backgroundColor = '#ccc';
+          zapBtn.style.color = '#888';
+          zapBtn.style.cursor = 'not-allowed';
+          zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
         }
 
         if (profile.image || profile.name) {
