@@ -45,6 +45,9 @@ permalink: /verifier/
   <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>
+  <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
+  </button>
 </div>
 
 <div id="binariesTable"></div>
@@ -91,6 +94,16 @@ permalink: /verifier/
       if (!profile) {
         document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
       } else {
+        if (profile && (profile.lud16 || profile.lud06)) {
+          try {
+            const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
+            window.profileEvent = profileEvent;
+            document.getElementById('zapButtonVerifier').style.display = 'inline-block';
+          } catch (error) {
+            console.error('Error parsing profile event:', error);
+          }
+        }
+
         if (profile.image || profile.name) {
           document.getElementById('attestator').innerHTML = `
             <div class="big-profile-card">

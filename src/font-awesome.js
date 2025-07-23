@@ -8,7 +8,8 @@ import {
   faReddit,
   faGooglePlay,
   faWindows,
-  faApple
+  faApple,
+  faBitcoin
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faCopy,
@@ -92,7 +93,8 @@ library.add(
   faReddit,
   faGooglePlay,
   faWindows,
-  faApple
+  faApple,
+  faBitcoin
 );
 
 dom.watch();

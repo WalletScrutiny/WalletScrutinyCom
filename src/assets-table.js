@@ -4,6 +4,7 @@ import { assetRegistrationKind, verificationKind, verificationDraftKind } from "
 import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { renderCommentsSection } from './assets-table-comments.js';
+import { showZapModal } from './zapModal.js';
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
@@ -1076,12 +1077,15 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`; 
+  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`;
   content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verification
+  </button>`;
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
@@ -1286,6 +1290,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   const profile = await getNostrProfile(verification.pubkey);
+  if (profile && (profile.lud16 || profile.lud06)) {
+    document.getElementById('zapButton').style.display = 'inline-block';
+  }
 
   document.getElementById('attempt-by').innerHTML = profile ? `
     <div class="profile-card">
