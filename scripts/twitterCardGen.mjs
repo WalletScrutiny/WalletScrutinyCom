@@ -106,7 +106,7 @@ else if (values.folder) {
 // Configuration paths
 const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr backup files
 const backgroundImage = 'images/twCard/socGenCardblue.png';
-const sourceAvailableBgImage = 'images/twCard/sourceavailableBG.png';
+// Standard background image is used for all cards
 // Load badge images
 const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 const reproducibleImagePath = 'images/twCard/reproducible.png';
@@ -117,7 +117,7 @@ const sadNostrichImagePath = 'images/twCard/sad_nostrich.png';
 const fallbackIcon = 'images/smallNoicon.png';
 
 // Global variables for images
-let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage, sourceAvailableBg;
+let bgImage, reproducibleImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
@@ -144,12 +144,7 @@ async function loadResources () {
     console.warn(`Could not load background image from ${backgroundImage}: ${error.message}`);
   }
   
-  // Load the source available background image
-  try {
-    sourceAvailableBg = await loadImage(sourceAvailableBgImage);
-  } catch (error) {
-    console.warn(`Could not load source available background image from ${sourceAvailableBgImage}: ${error.message}`);
-  }
+  // We now use the standard background for all cards
   
   // Load the sourceavailable image
   try {
@@ -799,357 +794,7 @@ async function drawDesktopBackground(ctx, width, height) {
   }
 }
 
-// Source Available Layout Function
-async function drawSourceAvailableLayout(data, iconImage, canvas, ctx) {
-  const width = canvas.width;
-  const height = canvas.height;
-  
-  // Draw the source available background image
-  ctx.drawImage(sourceAvailableBg, 0, 0, width, height);
-  
-  // Add Android icon as background for Android apps
-  if (data.isAndroidApp) {
-    await drawAndroidBackground(ctx, width, height, data);
-  }
-  
-  // Only draw the app icon in the left side if we have Nostr verifications
-  // For apps without Nostr verifications, the icon will be drawn in the center later
-  let hasNostrData = data.nostrBuildStatus || (data.nostrVerificationCount && data.nostrVerificationCount > 0);
-  
-  if (hasNostrData) {
-    // Draw the app icon in the top left frame appIcon for sourceavailable
-    const iconWidth = 100;
-    const iconHeight = 100;
-    const iconX = 25; // Position in the top left
-    const iconY = 160; // Position in the top left
-    
-    // Apply drop shadow and clip, then draw the icon
-    ctx.save();
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
-    ctx.shadowBlur = 10;
-    ctx.shadowOffsetX = 3;
-    ctx.shadowOffsetY = 3;
-
-    ctx.beginPath();
-    ctx.moveTo(iconX + 24, iconY);
-    ctx.lineTo(iconX + iconWidth - 24, iconY);
-    ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
-    ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
-    ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
-    ctx.lineTo(iconX + 24, iconY + iconHeight);
-    ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
-    ctx.lineTo(iconX, iconY + 24);
-    ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
-    ctx.closePath();
-    ctx.clip();
-
-    ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-    ctx.restore();
-  }
-  
-  // Prepare app name and developer name variables but don't draw them yet
-  // We'll draw them after the Nostr verification box to ensure they appear on top
-  let displayTitle = data.title || 'Unknown Title';
-  if (displayTitle.length > 30) {
-    displayTitle = displayTitle.substring(0, 30) + '...';
-  }
-  
-  // Fixed dimensions for badges
-  const badgeWidth = 250;
-  const badgeHeight = 250;
-  
-  // Check if app has Nostr data (defined earlier in the function)
-  // Only draw the source available badge here if the app has Nostr verifications
-  // For apps without Nostr verifications, we'll draw it later in a different position
-  if (data.nostrBuildStatus || (data.nostrVerificationCount && data.nostrVerificationCount > 0)) {
-    // Draw the source available badge below the icon
-    const badgeX = -15;
-    const badgeY = 250;
-    
-    // Draw source available badge
-    ctx.drawImage(sourceavailableImage, badgeX, badgeY, 180, 180);
-  }
-  
-  // If nostrBuildStatus is 'reproducible', draw the reproducible badge beside the source available badge
-  // To adjust the reproducible badge position:
-  // - Change reproducibleBadgeX to move horizontally (higher values move right)
-  // - Change the Y value (280) in ctx.drawImage to move vertically (higher values move down)
-  // - The last two parameters (140, 140) control width and height respectively
-  if (data.nostrBuildStatus === 'reproducible') {
-    const reproducibleBadgeX = 625;
-    ctx.drawImage(reproducibleImage, reproducibleBadgeX, 10, 140, 140);
-  }
-  
-  // Nostr verification box in the center and right side
-  if (data.meta === 'ok' && (data.nostrBuildStatus || data.nostrVerificationCount > 0)) {
-    // Create a large box for Nostr information
-    const nostrBoxX = 140;
-    const nostrBoxY = 148; // Reverted to original position
-    const nostrBoxWidth = 640;
-    const nostrBoxHeight = 280; // Reverted to original height
-    
-    // Draw Nostr box with rounded corners
-    ctx.save();
-    ctx.beginPath();
-    ctx.roundRect(nostrBoxX, nostrBoxY, nostrBoxWidth, nostrBoxHeight, 15);
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'; // Black background with 50% transparency
-    ctx.fill();
-    ctx.restore();
-        
-    // Draw app title inside the Nostr box at the top
-    ctx.font = 'bold 30px Barlow';
-    ctx.fillStyle = '#FFFFFF'; // White text for dark background
-    ctx.textAlign = 'center';
-    ctx.fillText(displayTitle, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 40);
-    
-    // Display platform information if available
-    if (data.platform) {
-      ctx.font = 'normal 22px Barlow';
-      ctx.fillStyle = '#AAAAAA'; // Light gray text for platform info
-      ctx.fillText(`(for ${data.platform.charAt(0).toUpperCase() + data.platform.slice(1)})`, nostrBoxX + nostrBoxWidth / 2, nostrBoxY + 70);
-    }
-    
-    // Create a variable to track the current Y position for text
-    let currentTextY = nostrBoxY + (data.platform ? 100 : 80);
-    
-    // Draw build status if available
-    if (data.nostrBuildStatus) {
-      // Get mapped status text or use original if no mapping exists
-      const mappedStatus = nostrStatusMap[data.nostrBuildStatus] || data.nostrBuildStatus;
-      
-      // Special handling for 'reproducible' status
-      if (data.nostrBuildStatus === 'reproducible') {
-        ctx.font = 'bold 28px Barlow';
-        ctx.fillStyle = '#4AE06B'; // Brighter green for reproducible on dark background
-        ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
-      } else {
-        // Normal rendering for other build statuses
-        ctx.font = 'bold 28px Barlow';
-        const statusColor = data.nostrBuildStatus === 'success' ? '#4AE06B' : // Brighter green
-                          (data.nostrBuildStatus === 'failed' ? '#FF5A6E' : '#FFD54F'); // Brighter red and yellow
-        ctx.fillStyle = statusColor;
-        
-        // For all build statuses, check if it's 'ftbfs' (failed to build from source)
-        if (data.nostrBuildStatus === 'ftbfs') {
-          // Split the text across two lines for better display
-          ctx.fillText('Latest Build Status: The verifier failed', nostrBoxX + nostrBoxWidth / 2, currentTextY);
-          currentTextY += 30; // Move down for the second line
-          ctx.fillText('to build the app from source', nostrBoxX + nostrBoxWidth / 2, currentTextY);
-          currentTextY += 0; // Add a little extra space after the second line
-        } else {
-          // For all other statuses, display on a single line
-          ctx.fillText(`Latest Build Status: ${mappedStatus}`, nostrBoxX + nostrBoxWidth / 2, currentTextY);
-        }
-      }
-      currentTextY += 40;
-    }
-    
-    // Draw verification count if available
-    if (data.nostrVerificationCount > 0) {
-      ctx.font = 'normal 26px Barlow';
-      ctx.fillStyle = '#FFFFFF'; // White text for dark background
-      
-      // Display reproducible count if available
-      if (data.nostrReproducibleCount > 0) {
-        ctx.fillText(`${data.nostrReproducibleCount} of ${data.nostrVerificationCount} verifications`, 
-                    nostrBoxX + nostrBoxWidth / 2, currentTextY);
-        currentTextY += 30;
-        ctx.fillText('are reproducible', nostrBoxX + nostrBoxWidth / 2, currentTextY);
-      } else {
-        ctx.fillText(`Verifications: ${data.nostrVerificationCount}`, 
-                    nostrBoxX + nostrBoxWidth / 2, currentTextY);
-      }
-      currentTextY += 40;
-    }
-    
-    // Draw time since latest verification if available
-    if (data.latestDate) {
-      const timeSinceText = getTimeSinceLastVerification(data.latestDate);
-      ctx.font = 'normal 26px Barlow';
-      ctx.fillStyle = '#FFFFFF'; // White text for dark background
-      ctx.fillText(timeSinceText, nostrBoxX + nostrBoxWidth / 2, currentTextY);
-      currentTextY += 40;
-    }
-    
-    // Draw latest version verified if available
-    if (data.nostrBuildStatus && data.latestVersion) {
-      ctx.font = 'normal 26px Barlow';
-      ctx.fillStyle = '#FFFFFF'; // White text for dark background
-      ctx.fillText(`Latest version verified: ${data.latestVersion}`, 
-                  nostrBoxX + nostrBoxWidth / 2, currentTextY);
-    }
-  } else if (data.meta === 'ok') {
-    // If no Nostr data but app is source available with meta: ok, show a note
-    const nostrText = 'No Nostr verifications yet';
-    
-    // Draw the text in the center
-    const textX = width * 0.5; // X position of the text (center of right half)
-    const textY = height / 2 + 60; // Y position moved down by 30 pixels
-    // To move the text left: Decrease textX (e.g., from width * 0.75 to width * 0.65 or a smaller value).
-    // To move the text down: Increase textY (e.g., from height / 2 - 30 to height / 2 or a larger value).
-
-    // Get platform name based on folder name (remove underscore and capitalize first letter)
-    let platformName = '';
-    if (data.isAppleApp) {
-      platformName = 'iOS';
-    } else if (data.isAndroidApp) {
-      platformName = 'Android';
-    } else if (data.isDesktopApp) {
-      platformName = 'Desktop';
-    } else if (data.isHardwareApp) {
-      platformName = 'Hardware';
-    } else {
-      // Extract from folder name if available
-      if (data.folderName && data.folderName.startsWith('_')) {
-        platformName = data.folderName.substring(1); // Remove underscore
-        platformName = platformName.charAt(0).toUpperCase() + platformName.slice(1); // Capitalize first letter
-      }
-    }
-    
-    // Draw the app icon at the top
-    const iconWidth = 100;
-    const iconHeight = 100;
-    const iconX = textX - iconWidth / 2; // Center horizontally with text
-    const iconY = textY - 180; // Position above the title
-    
-    // Apply drop shadow and clip, then draw the icon
-    ctx.save();
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
-    ctx.shadowBlur = 10;
-    ctx.shadowOffsetX = 3;
-    ctx.shadowOffsetY = 3;
-
-    ctx.beginPath();
-    ctx.moveTo(iconX + 24, iconY);
-    ctx.lineTo(iconX + iconWidth - 24, iconY);
-    ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + 24);
-    ctx.lineTo(iconX + iconWidth, iconY + iconHeight - 24);
-    ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - 24, iconY + iconHeight);
-    ctx.lineTo(iconX + 24, iconY + iconHeight);
-    ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - 24);
-    ctx.lineTo(iconX, iconY + 24);
-    ctx.quadraticCurveTo(iconX, iconY, iconX + 24, iconY);
-    ctx.closePath();
-    ctx.clip();
-
-    ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
-    ctx.restore();
-
-    // Draw title
-    ctx.font = 'bold 30px Barlow';
-    ctx.fillStyle = '#FFFFFF'; // White text
-    ctx.textAlign = 'center';
-    ctx.fillText(data.title, textX, textY - 35);
-    
-    // Draw platform info
-    if (platformName) {
-      ctx.font = 'normal 26px Barlow';
-      ctx.fillStyle = '#AAAAAA'; // Light gray text
-      ctx.fillText(`(for ${platformName})`, textX, textY);
-    }
-    
-    // Draw version if available
-    if (data.version) {
-      ctx.font = 'normal 20px Barlow';
-      ctx.fillStyle = '#FFFFFF'; // White text
-      ctx.fillText(`Version: ${data.version}`, textX, textY + 27);
-    }
-    
-    // Draw blue rounded rectangle for "No Nostr verifications yet" text
-    const rectWidth = 420;
-    const rectHeight = 40;
-    const rectX = textX - rectWidth / 2;
-    const rectY = textY + 40;
-    
-    ctx.save();
-    ctx.beginPath();
-    ctx.roundRect(rectX, rectY, rectWidth, rectHeight, 10);
-    ctx.fillStyle = 'rgba(0, 100, 255, 0.5)'; // Semi-transparent blue
-    ctx.fill();
-    ctx.restore();
-    
-    // Draw "No Nostr verifications yet" text
-    ctx.font = 'normal 28px Barlow';
-    ctx.fillStyle = '#FFFFFF'; // White text
-    ctx.textAlign = 'center';
-    ctx.fillText(nostrText, textX, textY + 70);
-    
-    // Draw the source available badge for apps without Nostr verifications
-    // in a different position than for apps with Nostr verifications
-    const badgeX = 10; // Position in the bottom left
-    const badgeY = height - 260; // Position at the bottom
-    
-    // Draw source available badge for verdict:sourceavailable and meta:ok but with no nostr
-    ctx.drawImage(sourceavailableImage, badgeX, badgeY, 200, 200);
-    
-    // Draw the sad nostrich image beneath the text
-    if (sadNostrichImage) {
-      // Calculate image dimensions - adjust these values to resize the image
-      const imgWidth = 204; // Width of the image - adjust this to make it larger/smaller
-      const imgHeight = 306; // Height of the image - adjust this to make it larger/smaller
-      
-      // Calculate position - adjust these values to move the image around
-      const imgX = imgWidth / 2 + 500; // Center horizontally with the text
-      const imgY = textY - 80; // Position below the text - increase this value to move it down
-      
-      // Draw the image
-      ctx.drawImage(sadNostrichImage, imgX, imgY, imgWidth, imgHeight);
-      console.log(`\x1b[36m[NOSTR] Drawing Sad Nostrich at position (${imgX}, ${imgY}) with size ${imgWidth}x${imgHeight}\x1b[0m`);
-    } else {
-      console.log('\x1b[31m[NOSTR] sadNostrichImage is not loaded\x1b[0m');
-    }
-  }
-  
-  // If meta is not 'ok', display the meta verdict message
-  if (data.meta && data.meta !== 'ok') {
-    // Get the meta verdict message
-    let metaMessage = '';
-    
-    // Try to get the message from the metaVerdictMap
-    if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
-      metaMessage = metaVerdictMap[data.meta].message;
-      // Special handling for 'defunct' meta verdict to prevent text overflow
-      if (data.meta === 'defunct') {
-        // Truncate the message to "This product went out of business...or so"
-        metaMessage = "This product went out of business...or so";
-      }
-    } else {
-      // Fallback to just the meta value
-      metaMessage = data.meta;
-    }
-    
-    // Ensure first letter of metaMessage is lowercase
-    let formattedMetaMessage = metaMessage;
-    if (formattedMetaMessage.length > 0) {
-      formattedMetaMessage = formattedMetaMessage.charAt(0).toLowerCase() + formattedMetaMessage.slice(1);
-    }
-    
-    const metaText = `But ${formattedMetaMessage}`;
-    
-    // Draw a subtle rounded rectangle background for the meta message
-    ctx.font = 'italic 18px Barlow';
-    const metaMetrics = ctx.measureText(metaText);
-    const metaWidth = Math.min(metaMetrics.width + 120, width - 80);
-    const metaHeight = 36;
-    const metaX = width / 2 - metaWidth / 2;
-    const metaY = height / 2;
-    
-    ctx.save();
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
-    ctx.beginPath();
-    ctx.roundRect(metaX, metaY - 22, metaWidth, metaHeight, 12);
-    ctx.fill();
-    ctx.restore();
-    
-    // Draw the meta message text
-    ctx.fillStyle = '#d33100';
-    ctx.textAlign = 'center';
-    ctx.fillText(metaText, width / 2, metaY);
-  }
-  
-  // App title and developer name are now drawn inside the Nostr info box
-  return canvas;
-}
+// Core Functions - Canvas Image and Text Overlays
 
 // Core Functions - Canvas Image and Text Overlays
 
@@ -1160,15 +805,6 @@ async function drawOnCanvas (data, iconImage) {
   const canvas = createCanvas(width, height);
   const ctx = canvas.getContext('2d');
 
-  // Check if this is a source available app with meta: ok
-  if (data.verdict === 'sourceavailable' && data.meta === 'ok') {
-    // Use the special layout only for source available apps with meta: ok
-    return await drawSourceAvailableLayout(data, iconImage, canvas, ctx);
-  }
-  
-  // For source available apps without meta: ok, we'll use the standard layout
-  
-  // For all other apps, use the standard layout
   // Adjust the hue of the background image (randomly for each card)
   const hueRotation = getRandomHueRotation();
   const adjustedBgImage = adjustImageHue(bgImage, hueRotation);
@@ -1314,13 +950,11 @@ async function drawOnCanvas (data, iconImage) {
   }
   
   // Add badges based on app verdict
-  // For source-available apps with meta: ok, we use drawSourceAvailableLayout
-  // For source-available apps without meta: ok, we use this standard layout
+  // All apps now use the standard layout
   if (data.verdict === 'sourceavailable') {
-    // This is expected for source-available apps without meta: ok
     console.log(`Using standard layout for source-available app ${data.title} (meta: ${data.meta})`);
     
-    // Add source-available badge for these apps too
+    // Add source-available badge
     if (sourceavailableImage) {
       ctx.save();
       ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
@@ -1350,43 +984,39 @@ async function drawOnCanvas (data, iconImage) {
   // Set font first so we can measure text properly
   ctx.font = '400 19px Barlow'; // Reduced by 5px total (3px + 2px)
   
-  // Skip drawing verdict box and text for sourceavailable apps with meta: ok
-  if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
-    // Get wrapped lines for the verdict text to calculate proper width
-    const verdictLines = wrapText(mappedVerdict, 41);
-    
-    // Set font before measuring text
-    ctx.font = '400 19px Barlow';
-    
-    // Calculate width based on the widest line
-    const verdictWidths = verdictLines.map(line => ctx.measureText(line).width);
-    const maxVerdictWidth = Math.max(...verdictWidths);
-    const verdictWidth = maxVerdictWidth + 80; // Add more padding for longer verdicts
-    const verdictHeight = 36;
-    const verdictX = centerX - (verdictWidth / 2);
-    const verdictRectY = verdictY - 24; // Position rectangle to center text vertically
-    
-    // Draw rounded rectangle with 16px radius (very rounded)
-    ctx.save();
-    ctx.fillStyle = 'rgba(255, 255, 255, 1.0)'; // Full opacity white background
-    ctx.beginPath();
-    ctx.moveTo(verdictX + 16, verdictRectY);
-    ctx.lineTo(verdictX + verdictWidth - 16, verdictRectY);
-    ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY, verdictX + verdictWidth, verdictRectY + 16);
-    ctx.lineTo(verdictX + verdictWidth, verdictRectY + verdictHeight - 16);
-    ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY + verdictHeight, verdictX + verdictWidth - 16, verdictRectY + verdictHeight);
-    ctx.lineTo(verdictX + 16, verdictRectY + verdictHeight);
-    ctx.quadraticCurveTo(verdictX, verdictRectY + verdictHeight, verdictX, verdictRectY + verdictHeight - 16);
-    ctx.lineTo(verdictX, verdictRectY + 16);
-    ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 16, verdictRectY);
-    ctx.fill();
-    ctx.restore();
-  }
+  // Draw verdict box for all apps
+  // Get wrapped lines for the verdict text to calculate proper width
+  const verdictLines = wrapText(mappedVerdict, 41);
   
-  // Draw the verdict text, but skip for sourceavailable apps with meta: ok since they show Nostr info instead
-  if (!(data.verdict === 'sourceavailable' && data.meta === 'ok')) {
-    printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 20px Barlow', 41, 30);
-  }
+  // Set font before measuring text
+  ctx.font = '400 19px Barlow';
+  
+  // Calculate width based on the widest line
+  const verdictWidths = verdictLines.map(line => ctx.measureText(line).width);
+  const maxVerdictWidth = Math.max(...verdictWidths);
+  const verdictWidth = maxVerdictWidth + 80; // Add more padding for longer verdicts
+  const verdictHeight = 36;
+  const verdictX = centerX - (verdictWidth / 2);
+  const verdictRectY = verdictY - 24; // Position rectangle to center text vertically
+  
+  // Draw rounded rectangle with 16px radius (very rounded)
+  ctx.save();
+  ctx.fillStyle = 'rgba(255, 255, 255, 1.0)'; // Full opacity white background
+  ctx.beginPath();
+  ctx.moveTo(verdictX + 16, verdictRectY);
+  ctx.lineTo(verdictX + verdictWidth - 16, verdictRectY);
+  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY, verdictX + verdictWidth, verdictRectY + 16);
+  ctx.lineTo(verdictX + verdictWidth, verdictRectY + verdictHeight - 16);
+  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY + verdictHeight, verdictX + verdictWidth - 16, verdictRectY + verdictHeight);
+  ctx.lineTo(verdictX + 16, verdictRectY + verdictHeight);
+  ctx.quadraticCurveTo(verdictX, verdictRectY + verdictHeight, verdictX, verdictRectY + verdictHeight - 16);
+  ctx.lineTo(verdictX, verdictRectY + 16);
+  ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 16, verdictRectY);
+  ctx.fill();
+  ctx.restore();
+
+  // Draw the verdict text for all apps
+  printText(mappedVerdict, ctx, centerX, verdictY, 'black', '400 20px Barlow', 41, 30);
   
   // If verdict is sourceavailable AND meta is not 'ok', display the meta verdict message underneath
   if (data.verdict === 'sourceavailable' && data.meta && data.meta !== 'ok') {
