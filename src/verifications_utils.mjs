@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -16,6 +16,7 @@ import {
 } from "./nostr-constants.mjs";
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
+import {decode} from "light-bolt11-decoder"
 import WebSocket from "ws";
 
 if (typeof global !== 'undefined') {
@@ -1228,15 +1229,61 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
     comment,
     ndk,
     signer: ndk.signer,
-    //tags: [
-    //  ["e", event.id],
-    //  ["p", event.pubkey],
-    //],
+    tags: [
+      ["e", event.id],
+      ["p", event.pubkey],
+    ],
   });
 
   if (lnPay) zapper.lnPay = lnPay;
 
   return zapper.zap();
+}
+
+const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
+  console.log('getZapReceipt', zapEventId);
+  const filter = {
+    kinds: [9735],
+    ["#e"]: [zapEventId],
+  }
+  try {
+    const sub = ndk.subscribe(filter)
+
+    sub?.on("event", async (event) => {
+      console.log('ZapReceipt event', event);
+      sub.stop()
+      const receiptInvoice = event.tagValue("bolt11")
+      console.log('receiptInvoice', receiptInvoice);
+      if (receiptInvoice) {
+        const decodedInvoice = decode(receiptInvoice)
+        console.log('decodedInvoice', decodedInvoice);
+        const zapRequest = zapInvoiceFromEvent(event)
+        console.log('zapRequest', zapRequest);
+
+        const amountSection = decodedInvoice.sections.find(
+          (section) => section.name === "amount"
+        )
+        console.log('amountSection', amountSection);
+        const amountPaid =
+          amountSection && "value" in amountSection
+            ? Math.floor(parseInt(amountSection.value) / 1000)
+            : 0
+        const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
+        console.log('amountPaid', amountPaid);
+        console.log('amountRequested', amountRequested);
+
+        console.log('bolt11Invoice === receiptInvoice', bolt11Invoice === receiptInvoice);
+        console.log('amountPaid === amountRequested', amountPaid === amountRequested);
+
+        if (bolt11Invoice === receiptInvoice && amountPaid === amountRequested) {
+          receiptReceivedCallback(true)
+        }
+      }
+    })
+    console.log('terminado el subscribe');
+  } catch (error) {
+    console.warn("Unable to fetch zap receipt", error)
+  }
 }
 
 const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
@@ -1280,6 +1327,7 @@ if (typeof window !== 'undefined') {
   window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
   window.createZap = createZap;
   window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
+  window.getZapReceipt = getZapReceipt;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1315,5 +1363,6 @@ export {
   getCommentsForVerification,
   sendPrivateMessageToVerifier,
   getEndorsementsFromVerificationEventIds,
-  createZap
+  createZap,
+  getZapReceipt
 };
