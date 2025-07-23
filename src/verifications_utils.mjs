@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -1214,6 +1214,37 @@ const cleanupNdkConnections = function() {
   }
 };
 
+/**
+ * Creates and sends a zap using NDKZapper
+ * @param {Object} params
+ * @param {Object} params.event - Nostr event object
+ * @param {number} params.amount - Amount in sats
+ * @param {string} [params.comment] - Optional comment
+ * @param {function} [params.lnPay] - Callback to pay the LN invoice
+ * @returns {Promise<void>} - Promise that resolves when the zap is sent
+ */
+const createZap = async function ({ event, amount, comment = '', lnPay = undefined }) {
+  const zapper = new NDKZapper(event, amount * 1000, "msat", {
+    comment,
+    ndk,
+    signer: ndk.signer,
+    //tags: [
+    //  ["e", event.id],
+    //  ["p", event.pubkey],
+    //],
+  });
+
+  if (lnPay) zapper.lnPay = lnPay;
+
+  return zapper.zap();
+}
+
+const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
+  const profileEvent = JSON.parse(profileInfo.profileEvent);
+  const ndkEvent = new NDKEvent(ndk, profileEvent);
+  return ndkEvent;
+}
+
 if (typeof window !== 'undefined') {
   window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
@@ -1247,6 +1278,8 @@ if (typeof window !== 'undefined') {
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
   window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
+  window.createZap = createZap;
+  window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1281,5 +1314,6 @@ export {
   createNostrCommentToVerification,
   getCommentsForVerification,
   sendPrivateMessageToVerifier,
-  getEndorsementsFromVerificationEventIds
+  getEndorsementsFromVerificationEventIds,
+  createZap
 };

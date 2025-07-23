@@ -1,0 +1,299 @@
+import { createZap } from './verifications_utils.mjs';
+import QRCode from 'qrcode';
+
+function showZapModal({ onClose, setZapped }) {
+  const style = document.createElement('style');
+  style.textContent = `
+    .zap-amount-selected {
+      background: #ffd700 !important;
+      color: #222 !important;
+      font-weight: bold;
+      border: 2px solid #ff9800;
+    }
+    body.dark .zap-amount-selected {
+      background: #ffd700 !important;
+      color: #222 !important;
+      font-weight: bold;
+      border: 2px solid #ff9800;
+    }
+    .zap-modal {
+      position: fixed; left: 0; top: 0; width: 100vw; height: 100vh;
+      background: rgba(0,0,0,0.5); z-index: 9999; display: flex; align-items: center; justify-content: center;
+    }
+    .zap-modal-content {
+      background: #fff; padding: 2em; border-radius: 8px; min-width: 320px; max-width: 90vw; position: relative;
+      color: #222;
+    }
+    body.dark .zap-modal-content {
+      background: #232323;
+      color: #f5f5f5;
+    }
+    .zap-modal-close {
+      position: absolute; right: 1em; top: 1em; font-size: 1.5em; background: none; border: none; cursor: pointer;
+      color: #888;
+    }
+    body.dark .zap-modal-close {
+      color: #ccc;
+    }
+    .zap-modal-content h2 {
+      margin-top: 0;
+    }
+    .zap-amounts {
+      display: flex; gap: 0.5em; flex-wrap: wrap; margin-bottom: 1em;
+    }
+    .zap-amounts button {
+      background: #f5f5f5;
+      color: #222;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5em 1em;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    body.dark .zap-amounts button {
+      background: #333;
+      color: #f5f5f5;
+      border: 1px solid #555;
+    }
+    #customZapAmount {
+      width: 100%; margin-bottom: 0.5em;
+      background: #fff;
+      color: #222;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5em;
+    }
+    body.dark #customZapAmount {
+      background: #232323;
+      color: #f5f5f5;
+      border: 1px solid #555;
+    }
+    #zapMessage {
+      width: 100%; margin-bottom: 0.5em;
+      background: #fff;
+      color: #222;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5em;
+    }
+    body.dark #zapMessage {
+      background: #232323;
+      color: #f5f5f5;
+      border: 1px solid #555;
+    }
+    #zapSendBtn {
+      width: 100%; margin-bottom: 0.5em;
+      background: #ffd700;
+      color: #222;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      padding: 0.7em 0;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+    body.dark #zapSendBtn {
+      background: #ffd700;
+      color: #222;
+    }
+    #zapError {
+      color: red; margin-bottom: 0.5em;
+    }
+    #zapQR {
+      display: none; text-align: center;
+    }
+    #zapQR.active {
+      display: block;
+    }
+    #bolt11-short {
+      word-break: break-all;
+    }
+    #bolt11-copy-btn {
+      margin-left: 6px; cursor: pointer;
+      background: none;
+      border: none;
+      color: #222;
+      font-size: 1em;
+    }
+    body.dark #bolt11-copy-btn {
+      color: #ffd700;
+    }
+    #zapQR p:last-child {
+      font-size: 0.9em; opacity: 0.7;
+    }
+  `;
+  document.head.appendChild(style);
+
+  const event = window.currentVerification || window.profileEvent;
+  if (!event) {
+    console.error('No event found');
+    return;
+  }
+
+  const modal = document.createElement('div');
+  modal.className = 'zap-modal';
+  modal.style = '';
+  modal.innerHTML = `
+    <div class="zap-modal-content">
+      <button class="zap-modal-close">&times;</button>
+      <h2>Send zap to <span>${event.pubkey}</span></h2>
+      <label>Zap amount in sats</label>
+      <div class="zap-amounts"></div>
+      <input type="number" min="1" id="customZapAmount" placeholder="Custom amount (sats)" />
+      <textarea id="zapMessage" placeholder="Optional message"></textarea>
+      <button id="zapSendBtn">Zap</button>
+      <div id="zapError"></div>
+      <div id="zapQR"></div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  modal.querySelector('.zap-modal-close').onclick = () => {
+    document.getElementById('loadingSpinner').style.display = 'none';
+    modal.remove();
+    if (onClose) onClose();
+  };
+
+  const amounts = {
+    "1000": "👍",
+    "5000": "💜",
+    "10000": "😍",
+    "20000": "🤩",
+    "50000": "🔥",
+    "100000": "🚀",
+    "1000000": "🤯",
+  };
+  const zapAmountsDiv = modal.querySelector('.zap-amounts');
+  let selectedAmount = null;
+  let amountButtons = [];
+
+  Object.entries(amounts).forEach(([amt, emoji]) => {
+    const btn = document.createElement('button');
+    btn.textContent = `${emoji} ${amt >= 1000 ? (amt/1000)+'K' : amt}`;
+    btn.style = 'flex:1 1 30%; min-width:60px;';
+    if (amt == selectedAmount) btn.classList.add('zap-amount-selected');
+    btn.onclick = () => {
+      selectedAmount = amt;
+      modal.querySelector('#customZapAmount').value = amt;
+      amountButtons.forEach(b => b.classList.remove('zap-amount-selected'));
+      btn.classList.add('zap-amount-selected');
+    };
+    zapAmountsDiv.appendChild(btn);
+    amountButtons.push(btn);
+  });
+
+  modal.querySelector('#customZapAmount').oninput = (e) => {
+    selectedAmount = e.target.value;
+    amountButtons.forEach(b => b.classList.remove('zap-amount-selected'));
+  };
+
+  modal.querySelector('#zapSendBtn').onclick = async () => {
+    document.getElementById('loadingSpinner').style.display = 'block';
+
+    const errorDiv = modal.querySelector('#zapError');
+    errorDiv.textContent = '';
+    const zapMessage = modal.querySelector('#zapMessage').value;
+    let amount = Number(selectedAmount);
+
+    if (!amount || amount < 1) {
+      errorDiv.textContent = 'Zap amount must be greater than 0';
+      return;
+    }
+
+    /*
+    try {
+      const profile = await getNostrProfile(event.pubkey);
+      console.log('  --- profile', profile);
+
+      if (!profile || (!profile.lud16 && !profile.lud06)) {
+        errorDiv.textContent = 'This user does not support zaps (no LN address in profile).';
+        return;
+      }
+    } catch (e) {
+      errorDiv.textContent = 'Could not fetch user profile to check zap support.';
+      console.error('Profile fetch error:', e);
+      return;
+    }
+    */
+
+    try {
+      const lnPay = async ({ pr }) => {
+        const isWalletConnect = false;
+        if (isWalletConnect) {
+          // TODO: implement wallet connect
+          /*
+          try {
+            const {requestProvider} = await import("@getalby/bitcoin-connect-react")
+            const provider = await requestProvider()
+            await provider.sendPayment(pr)
+            setZapped(true)
+            setZapRefresh(!zapRefresh)
+            onClose()
+            return provider.sendPayment(pr)
+          } catch (error) {
+            setError("Failed to connect to wallet. Please try again.")
+            throw error
+          }
+          */
+        } else {
+          showZapQR(pr, modal);
+          return undefined;
+        }
+      };
+      await createZap({ event, amount, comment: zapMessage, lnPay });
+
+      document.getElementById('loadingSpinner').style.display = 'none';
+
+      if (setZapped) setZapped(true);
+      // modal.remove();
+      if (onClose) onClose();
+    } catch (err) {
+      errorDiv.textContent = err.message || 'Failed to process zap. Please try again.';
+    }
+  };
+
+  function showZapQR(bolt11, modal) {
+    const qrDiv = modal.querySelector('#zapQR');
+    qrDiv.classList.add('active');
+
+    const shortBolt11 = `${bolt11.slice(0, 8)}...${bolt11.slice(-8)}`;
+    qrDiv.innerHTML = `
+      <p style="margin-bottom: 8px;">Scan to pay zap invoice:</p>
+      <canvas id="zapQRCode"></canvas>
+      <p>
+        <code id="bolt11-short">${shortBolt11}</code>
+        <button id="bolt11-copy-btn" title="Copy full invoice">📋</button>
+      </p>
+    `;
+    if (QRCode) {
+      QRCode.toCanvas(
+        document.getElementById('zapQRCode'),
+        `lightning:${bolt11}`,
+        function (error) {
+          if (error) qrDiv.innerHTML += '<p>Error generating QR</p>';
+        }
+      );
+    } else {
+      qrDiv.innerHTML += '<p>QRCode lib not loaded</p>';
+    }
+
+    document.getElementById('bolt11-copy-btn').onclick = () => copyToClipboard(bolt11);
+  }
+
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      const prev = document.getElementById('bolt11-copied');
+      if (prev) prev.remove();
+      const copied = document.createElement('span');
+      copied.id = 'bolt11-copied';
+      copied.textContent = 'Copied!';
+      copied.style.marginLeft = '8px';
+      copied.style.color = 'green';
+      document.getElementById('bolt11-copy-btn').after(copied);
+      setTimeout(() => copied.remove(), 1200);
+    });
+  }
+}
+
+export { showZapModal };
+window.showZapModal = showZapModal;

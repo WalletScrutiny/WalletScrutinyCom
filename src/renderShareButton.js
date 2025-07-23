@@ -61,13 +61,13 @@
       #shareBtn { margin-bottom: 0; }
     `;
     document.head.appendChild(style);
-    // HTML for buttons
+
     const nostrButton = `<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork"><img src="/images/nostr_logo.svg" style="width:24px;height:24px;vertical-align:middle;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
     const xButton = `<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-x-twitter" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
     const fbButton = `<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-facebook" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on Facebook</span></a>`;
     const linkedinButton = `<a href="#" id="shareLinkedinBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-linkedin" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on LinkedIn</span></a>`;
     const copyUrlButton = `<a href="#" id="copyUrlBtn" class="btn btn-info shareButtonNetwork"><i class="fas fa-copy" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Copy current URL</span></a>`;
-    // Modal HTML
+
     const modalHTML = `
       <div id="shareModal">
         <div id="share-modal-content">
@@ -78,14 +78,14 @@
         </div>
       </div>
     `;
-    // Main HTML
+
     let html = "";
     if (showRawButtons) {
       html += `<h4 class="page__share-title">${showOnLabel}</h4><br/><div id="rawShareButtons">${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}</div>`;
     } else {
       html += `
         <div class="dropdown">
-          <a href="#" id="shareBtn" class="btn btn-info"><i class="fas fa-share-alt" style="margin-right:10px;"></i>Share</a>
+          <a href="#" id="shareBtn" class="btn btn-info"><i class="fas fa-share-alt" style="margin-right:10px; font-size: 18px;"></i>Share</a>
           <div id="shareDropdown" class="dropdown-content">
             ${nostrButton} ${xButton} ${fbButton} ${linkedinButton} ${copyUrlButton}
           </div>
@@ -93,7 +93,7 @@
       `;
     }
     html += modalHTML;
-    // Render
+
     el.innerHTML = html;
 
     const shareModal = el.querySelector("#shareModal");
