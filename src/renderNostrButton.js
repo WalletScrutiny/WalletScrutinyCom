@@ -7,7 +7,11 @@ import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
   }) {
     // Helper to get container element
     const el = (typeof container === "string") ? document.querySelector(container) : container;
-    if (!el) throw new Error("Container not found");
+    if (!el) {
+      console.log('renderNostrButton: container not found', container);
+      return;
+    }
+
     // Remove any previous instance
     if (el._nostrButtonRendered) return;
     el._nostrButtonRendered = true;
