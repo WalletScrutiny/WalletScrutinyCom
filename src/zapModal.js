@@ -136,7 +136,6 @@ function showZapModal({ onClose, setZapped }) {
   modal.innerHTML = `
     <div class="zap-modal-content">
       <button class="zap-modal-close">&times;</button>
-      <h2>Send zap to <span>${event.pubkey}</span></h2>
       <label>Zap amount in sats</label>
       <div class="zap-amounts"></div>
       <input type="number" min="1" id="customZapAmount" placeholder="Custom amount (sats)" />
