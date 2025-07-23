@@ -9,10 +9,10 @@ appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
 released: 2020-02-20
-updated: 2025-05-19
-version: 5.5.49
+updated: 2025-07-16
+version: 5.5.53
 stars: 4.6
-reviews: 2538
+reviews: 2572
 website: https://phemex.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/phemex
 - https://www.facebook.com/Phemex.official
 features: 
-developerName: Phemex
+developerName: JOIN MAGICP PTE. LTD.
 
 ---
 

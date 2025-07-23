@@ -4,15 +4,15 @@ title: 'Prestmit: Gift Cards & Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.prestmit
 appCountry: us
 released: 2021-04-13
-updated: 2025-05-20
-version: 7.2.341
-stars: 4.5
+updated: 2025-06-03
+version: 7.2.361
+stars: 4.7
 ratings: 1291
-reviews: 741
+reviews: 766
 website: https://staging.prestmit.com
 repository: 
 issue: 

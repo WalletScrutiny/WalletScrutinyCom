@@ -8,8 +8,8 @@ users: 10000
 appId: com.claimersmulticoins
 appCountry: 
 released: 2020-01-29
-updated: 2024-09-09
-version: '3.37'
+updated: 2025-07-08
+version: '3.38'
 stars: 4.6
 ratings: 310
 reviews: 21

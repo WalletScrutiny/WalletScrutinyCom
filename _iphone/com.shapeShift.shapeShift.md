@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-05-23
+date: 2025-06-23
 signer: 
 twitter: ShapeShift_io
 social:

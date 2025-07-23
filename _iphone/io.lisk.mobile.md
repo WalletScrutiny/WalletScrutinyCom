@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.lisk.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-12-15
+date: 2025-07-11
 signer: 
 twitter: LiskHQ
 social:

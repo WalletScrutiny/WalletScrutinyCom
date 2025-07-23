@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.meta1.appbeta.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-10-23
+date: 2025-06-11
 signer: 
 twitter: META1Coin
 social:

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.arcticmobile.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2023-07-03
+date: 2025-07-14
 signer: 
 twitter: 
 social:

@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
 redirect_from: 
-developerName: Velаs Netwоrk АG
+developerName: VELAS Network AG
 features: 
 
 ---

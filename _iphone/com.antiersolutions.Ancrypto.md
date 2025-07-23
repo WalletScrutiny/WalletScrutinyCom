@@ -8,10 +8,10 @@ appId: com.antiersolutions.Ancrypto
 appCountry: in
 idd: '1660898349'
 released: 2023-03-24
-updated: 2025-05-26
-version: '45'
+updated: 2025-07-09
+version: '49'
 stars: 4.5
-reviews: 19
+reviews: 20
 website: https://gemspocket.com
 repository: 
 issue: 

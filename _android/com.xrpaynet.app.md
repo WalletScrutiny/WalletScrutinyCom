@@ -4,15 +4,15 @@ title: Volta Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.xrpaynet.app
 appCountry: 
 released: 2022-07-05
-updated: 2025-05-09
-version: 3.0.0.prod
+updated: 2025-06-25
+version: 3.0.5.prod
 stars: 4.2
 ratings: 
-reviews: 41
+reviews: 42
 website: 
 repository: 
 issue: 

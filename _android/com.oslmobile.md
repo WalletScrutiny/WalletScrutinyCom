@@ -4,15 +4,15 @@ title: 'OSL: Buy BTC & Crypto Safely'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.oslmobile
 appCountry: CN
 released: 
-updated: 2025-05-23
-version: 3.1.8
-stars: 2.3
+updated: 2025-07-16
+version: 3.4.0
+stars: 2.4
 ratings: 
-reviews: 17
+reviews: 22
 website: https://osl.com
 repository: 
 issue: 

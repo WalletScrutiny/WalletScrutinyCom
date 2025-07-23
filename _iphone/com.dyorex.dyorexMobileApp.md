@@ -8,8 +8,8 @@ appId: com.dyorex.dyorexMobileApp
 appCountry: tr
 idd: '1602952926'
 released: 2022-02-25
-updated: 2025-03-29
-version: 1.5.2
+updated: 2025-07-11
+version: 1.5.9
 stars: 4.6
 reviews: 23
 website: https://dyorex.com/

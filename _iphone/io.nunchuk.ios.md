@@ -9,10 +9,10 @@ appId: io.nunchuk.ios
 appCountry: us
 idd: 1563190073
 released: 2021-12-16
-updated: 2025-05-13
-version: 1.9.79
+updated: 2025-07-03
+version: 1.9.83
 stars: 4.8
-reviews: 274
+reviews: 310
 website: https://nunchuk.io
 repository: 
 issue: https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5
@@ -26,8 +26,7 @@ signer:
 twitter: nunchuk_io
 social:
 - https://nunchuk.medium.com/
-- >-
-  https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
+- https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
 features: 
 developerName: Nunchuk
 

@@ -7,8 +7,8 @@ users: 500
 appId: com.netcents.merchantterminal
 appCountry: 
 released: 2018-02-11
-updated: 2024-07-10
-version: 3.1.20
+updated: 2025-07-18
+version: 3.1.21
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: fewusers
 appHashes: 
-date: 2023-06-02
+date: 2025-07-21
 signer: 
 twitter: 
 social: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-03
 updated: 2025-03-06
 version: 1.0.64
-stars: 4.3
+stars: 4.4
 ratings: 37
 reviews: 3
 website: https://redot.com/

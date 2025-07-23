@@ -8,8 +8,8 @@ users: 5000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2025-05-26
-version: 3.60.0
+updated: 2025-07-16
+version: 3.64.1
 stars: 4.1
 ratings: 18826
 reviews: 43

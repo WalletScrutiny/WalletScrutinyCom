@@ -1,6 +1,6 @@
 ---
 wsId: bestWallet
-title: 'Best Wallet: Bitcoin & Crypto'
+title: 'Best: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.bestwallet.mobile
 appCountry: us
 idd: '6451312105'
 released: 2023-08-02
-updated: 2025-05-19
-version: 2.8.0
+updated: 2025-07-10
+version: 2.9.1
 stars: 4.4
-reviews: 2797
+reviews: 3359
 website: https://bestwallet.com/
 repository: 
 issue: 

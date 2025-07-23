@@ -4,7 +4,7 @@ title: Stack Duo
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.cypherstack.stackduo
 appCountry: 
 released: 2024-06-29

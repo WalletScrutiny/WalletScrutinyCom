@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.zenapay.merchant.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-12-17
+date: 2025-06-09
 signer: 
 twitter: 
 social: 

@@ -2,13 +2,13 @@ import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
-import { getFirstValueFromTag } from "../../src/verifications_utils.mjs";
+import { assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { getFirstTagValue } from "../../src/verifications_common.mjs";
 global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 
 const connectTimeout = 2000;
 
-const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, codeSnippetKind, endorsementKind];
+const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind];
 
 const ndk = new NDK({
   explicitRelayUrls: explicitRelayUrls,
@@ -53,7 +53,7 @@ async function fetchAndSaveEvents() {
     let saved = 0;
     let skipped = 0;
     for (const event of events) {
-      const clientTag = getFirstValueFromTag(event, 'client');
+      const clientTag = getFirstTagValue(event, 'client');
       if (!clientTag || clientTag !== 'WalletScrutiny.com') {
         skipped++;
         continue;
@@ -63,7 +63,7 @@ async function fetchAndSaveEvents() {
       const filePath = path.join(baseDir, kind.toString(), `${eventId}.json`);
       
       if (fs.existsSync(filePath)) {
-        console.log(`Skipping event ${eventId} (already exists)`);
+        // console.log(`Skipping event ${eventId} (already exists)`);
         skipped++;
         continue;
       }

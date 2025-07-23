@@ -10,8 +10,8 @@ idd: 1490997527
 released: 2020-01-21
 updated: 2025-03-18
 version: 2.4.5
-stars: 3.6
-reviews: 13
+stars: 3.5
+reviews: 12
 website: https://cloverpool.com/
 repository: 
 issue: 

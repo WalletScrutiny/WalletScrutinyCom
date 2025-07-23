@@ -12,7 +12,7 @@ updated: 2025-05-24
 version: '4.6'
 stars: 4.8
 ratings: 43980
-reviews: 1261
+reviews: 1283
 website: https://www.coingraam.com/
 repository: 
 issue: 

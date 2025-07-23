@@ -17,8 +17,7 @@ weight: 12
 provider: Archos
 providerWebsite: https://www.archos.com/
 website: https://www.archos.com/products/crypto/archos_safetmini/index.html
-shop: >-
-  https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
+shop: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-0690590037069.html
 country: FR
 price: 49.99EUR
 repository: 

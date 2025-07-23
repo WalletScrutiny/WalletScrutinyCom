@@ -4,12 +4,12 @@ title: 'Coinmotion: Buy Bitcoin Easily'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
-updated: 2025-05-19
-version: 1.12.1
+updated: 2025-07-01
+version: 1.12.2
 stars: 4.2
 ratings: 
 reviews: 

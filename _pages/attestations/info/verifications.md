@@ -41,10 +41,6 @@ pre {
 }
 </style>
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <div class="nav-buttons-container">
     <a href="/assets/" class="btn btn-medium btn-success">Asset Registry</a>
     <a href="/verifiers/" class="btn btn-medium btn-success">Top Build Verifiers</a>
@@ -57,7 +53,7 @@ pre {
 
     <p>Nostr Verifications represent a novel approach to software binary verification, enabling users to independently reproduce binaries from source code and share their findings with the community. This system leverages the decentralized Nostr network to store and distribute verification messages.</p>
 
-    <p>When users compile software from source code and verify that the resulting binary matches or doesn't match the distributed version, they can create a verification - a signed message confirming or denying this verification. These verifications are then broadcast through the Nostr network, creating a public record of independent verifications that other users can see and reference.</p>
+    <p>When users compile software from source code and verify that the resulting binary matches or doesn't match the distributed version, they can create a verification - a signed message confirming or denying this verification. These verifications are then broadcast through the Nostr network, creating a public record of independent verifications that other users can see and reference. Users are able to upload the scripts used to reproduce each binary and the output of the execution, so that other users can verify the reproducibility of the binary themselves.</p>
 
     <p>This community-driven verification system helps enhance software security and transparency by:</p>
 

@@ -70,7 +70,9 @@ Trust in verifications is built through:
     ["file-attachment", "<file-attachment-event-id-1>"],        // file-attachment-event-id 1
     ["file-attachment", "<file-attachment-event-id-2>"],        // file-attachment-event-id 2 ...
     ["output-file", "filename-file-1", "<hash-output-file-1>"], // filename-file-1, hash-output-file-1
-    ["output-file", "filename-file-2", "<hash-output-file-2>"]  // filename-file-2, hash-output-file-2 ...
+    ["output-file", "filename-file-2", "<hash-output-file-2>"], // filename-file-2, hash-output-file-2 ...
+    ["issue-tracker-url", "<issue-url>"],                       // url of the issue opened at the wallet's issue tracker
+    ["based-on", "<verification-event-id>:<author-pubkey>"]     // verification-event-id of the verification this one is based on, and the pubkey of the author
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
@@ -82,11 +84,19 @@ Trust in verifications is built through:
 * file-attachment - event_id of the event containing the file used to reproduce the binary (see below)
 * output-file - hash of the output logs of the reproduction process, or asciicast file, or diffoscope file, etc.
 
+Note: for "based-on", we save the author-pubkey alongside the verification-event-id, so we can show the user who the verification is based on even if the verification is deleted.
+
+#### Endorsement
+
+A user can endorse a verification by creating an event with the structure defined here: https://nostrhub.io/naddr1qvzqqqrcvypzp384u7n44r8rdq74988lqcmggww998jjg0rtzfd6dpufrxy9djk8qqxxzar5v4ehgct5d9hkuucwjpt8v
+
+Only the part of the specification for events with kind 31871 (Attestation)will be implemented.
+
 #### Verification Draft
 
 Has the same structure as the Verification event, with the following differences:
 - `kind`: 30801
-- `tags`: includes a `d` tag with the draft key: ${appId}:${version}:${platform}
+- `draft-key`: a tag with the following format: ${appId}:${version}:${platform}
 
 ```json
 {
@@ -101,6 +111,25 @@ Has the same structure as the Verification event, with the following differences
   }
 }
 ```
+
+#### Verification Comment
+
+Comments added by users to verifications or verification drafts.
+
+```json
+{
+  "kind":    30802,
+  "content": "<comment-text>",
+  "tags":    [
+    ["v", "<verification-event-id>"],
+    ["p", "<comment-author-pubkey>"]    // One for each user who wrote a comment to this verification
+  ]
+}
+```
+
+* `comment-text`: the text of the comment from the user
+* `verification-event-id`: a tag with the following format: appId:version:platform:verificationPublisherPubkey
+* `comment-author-pubkey`: the pubkey of each user who wrote a comment to this verification, so they get notified when a new comment is added
 
 #### File Attachment
 ```json

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bancryp.bancrypApp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-04-06
+date: 2025-07-03
 signer: 
 twitter: 
 social: 

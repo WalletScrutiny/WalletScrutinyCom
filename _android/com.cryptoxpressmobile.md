@@ -1,6 +1,6 @@
 ---
 wsId: cryptoXpress
-title: 'CryptoXpress: Crypto Made Easy'
+title: 'CryptoXpress: Crypto Super App'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: 2021-09-20
-updated: 2025-05-28
-version: 1.40.14
+updated: 2025-07-18
+version: 1.40.29
 stars: 4.7
 ratings: 
 reviews: 

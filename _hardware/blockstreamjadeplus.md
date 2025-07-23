@@ -6,7 +6,7 @@ authors:
 released: 2025-01-03
 discontinued: 
 updated: 
-version: 
+version: 1.0.35
 binaries: 
 dimensions:
 - 65
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 appHashes: 
-date: 2025-01-04
+date: 2025-04-17
 signer: 
 twitter: Blockstream
 social:

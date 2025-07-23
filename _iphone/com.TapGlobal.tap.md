@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: Tap - Mobile Finance
+title: 'Tap: Money & 8% Cashback'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: '1492263993'
 released: 2019-12-20
-updated: 2025-05-15
-version: 3.4.9
+updated: 2025-07-14
+version: 3.5.4
 stars: 4.6
-reviews: 1823
+reviews: 1839
 website: https://www.withtap.com
 repository: 
 issue: 

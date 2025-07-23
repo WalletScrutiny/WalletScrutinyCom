@@ -11,7 +11,7 @@ released: 2020-08-31
 updated: 2023-11-27
 version: 3.3.7
 stars: 4.7
-reviews: 34
+reviews: 35
 website: https://koinstrap.com/
 repository: 
 issue: 

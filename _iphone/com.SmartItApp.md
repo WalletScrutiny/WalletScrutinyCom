@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.SmartItApp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-03-12
+date: 2025-06-18
 signer: 
 twitter: 
 social: 

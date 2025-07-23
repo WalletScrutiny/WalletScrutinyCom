@@ -4,8 +4,6 @@ title: "Top Build Verifiers"
 permalink: /verifiers/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <style>
   table { 
     width: 100%;
@@ -87,17 +85,19 @@ permalink: /verifiers/
   }
 </style>
 
-<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at the Top Verifiers ranking on WalletScrutiny!" %}
-</div>
+<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;" id="shareButtonContainer"></div>
 
 <div id="attestatorsTable"></div>
 
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
+
+  window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Look at the Top Verifiers ranking on WalletScrutiny!",
+      showRawButtons: false
+    });
 
     const response = await getAllAssetInformation({});
 
@@ -109,17 +109,10 @@ permalink: /verifiers/
 
         const pubkeyInfo = attestatorInfo.get(pubkey) || {
           verifications: 0,
-          endorsements: 0,
           npub: ''
         };
 
         pubkeyInfo.verifications += 1;
-
-        const endorsements = response.endorsements.get(verification.id) || [];
-        const reproducibleEndorsements = endorsements.filter(endorsement =>
-          getFirstTag(endorsement, 'status') === 'reproducible'
-        ).length;
-        pubkeyInfo.endorsements += reproducibleEndorsements;
 
         try {
           pubkeyInfo.npub = await getNpubFromPubkey(pubkey);
@@ -133,21 +126,21 @@ permalink: /verifiers/
     }
 
     const sortedAttestators = Array.from(attestatorInfo.entries())
-      .sort((a, b) => (b[1].verifications + b[1].endorsements) - (a[1].verifications + a[1].endorsements));
+      .sort((a, b) => (b[1].verifications) - (a[1].verifications));
 
     const tableHTML = `
       <table>
         <thead>
           <tr>
             <th class="attestator-card-column">Verifier</th>
-            <th class="attestation-count-column"># Verifications</th> <!-- , Endorsements -->
+            <th class="attestation-count-column"># Verifications</th>
           </tr>
         </thead>
         <tbody>
           ${sortedAttestators.map(([pubkey, info]) => `
             <tr>
               <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${ info.npub }</a></td>
-              <td class="attestation-count-column">${info.verifications}</td> <!-- , ${info.endorsements} -->
+              <td class="attestation-count-column">${info.verifications}</td>
             </tr>`).join('')}
         </tbody>
       </table>
@@ -179,5 +172,5 @@ permalink: /verifiers/
         console.error(`Error loading profile for ${pubkey}:`, error);
       }
     }
-  })();
+  });
 </script>

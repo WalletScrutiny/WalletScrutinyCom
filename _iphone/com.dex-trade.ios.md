@@ -11,7 +11,7 @@ released: 2020-01-28
 updated: 2023-05-11
 version: 2.1.9
 stars: 2.4
-reviews: 11
+reviews: 14
 website: https://dex-trade.com/
 repository: 
 issue: 

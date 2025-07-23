@@ -12,7 +12,7 @@ updated: 2025-03-27
 version: 4.9.9
 stars: 3.5
 ratings: 
-reviews: 159
+reviews: 160
 website: https://bitafrika.com
 repository: 
 issue: 

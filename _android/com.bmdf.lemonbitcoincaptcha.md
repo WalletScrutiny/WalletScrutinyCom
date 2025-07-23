@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bmdf.lemonbitcoincaptcha.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-06-13
+date: 2025-06-06
 signer: 
 twitter: 
 social: 

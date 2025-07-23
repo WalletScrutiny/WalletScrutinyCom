@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-31
 updated: 2025-05-26
 version: 2.3.1
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 19
+reviews: 21
 website: https://sekiapp.com
 repository: 
 issue: 
@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/sekiapp
 - https://www.tiktok.com/@seki_app
 redirect_from: 
-developerName: Wiseki Technologies Limited
+developerName: SekiApp
 features: 
 
 ---

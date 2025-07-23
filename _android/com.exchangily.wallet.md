@@ -19,10 +19,10 @@ repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2024-07-17
+date: 2025-07-11
 signer: 
 twitter: ExchangilyC
 social:

@@ -1,9 +1,13 @@
 {% include base_path %}
 
+{% if page.layout contains "review" %}
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+{% endif %}
 <link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-500.woff2" as="font" type="font/woff2" crossorigin />
-<link rel="preload" href="/assets/fonts/fa-solid-900.woff2" as="font" crossorigin />
+<link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-italic.woff2" as="font" type="font/woff2" crossorigin />
 <link rel="preload" href="/images/dog-logo.svg" as="image" />
+<link rel="preload" href="/dist/verifications_data.bundle.min.js" as="script" />
 
 <meta charset="utf-8">
 
@@ -35,10 +39,5 @@
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/site-styles.css">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/notifications.css">
-<link rel="stylesheet" href="{{ base_path }}/verdicts.css">
-{% if page.layout contains "review" %}
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-{% endif %}
 
 <meta http-equiv="cleartype" content="on">

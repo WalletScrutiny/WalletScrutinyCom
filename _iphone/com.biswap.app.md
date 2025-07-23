@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.biswap.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-07-05
+date: 2025-07-03
 signer: 
 twitter: exchangilydex
 social:

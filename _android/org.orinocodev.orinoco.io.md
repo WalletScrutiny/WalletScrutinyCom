@@ -12,16 +12,16 @@ updated: 2024-06-18
 version: 1.0.0
 stars: 4
 ratings: 
-reviews: 15
+reviews: 16
 website: https://orinoco.io
 repository: 
 issue: 
 icon: org.orinocodev.orinoco.io.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-04-15
+date: 2025-06-24
 signer: 
 twitter: 
 social:

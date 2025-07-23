@@ -3,10 +3,6 @@ layout: archive
 permalink: /new_verification/
 ---
 
-<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <style>
       /* Tab styling with light/dark mode support */
       .tab-button {
@@ -322,7 +318,13 @@ permalink: /new_verification/
 <div class="form-container">
     <div class="info-message"></div>
 
+    <div id="youWillLoseEndorsements" style="margin-bottom: 3em; display: none;">
+      <p>If you edit this verification, you will lose all endorsements.</p>
+    </div>
+
     <div id="previousAttestations" style="margin-bottom: 3em;"></div>
+
+    <div id="issueTrackerInfo" style="margin-bottom: 3em;"></div>
 
     <div>
         <p>Fields marked with (*) are required.</p>
@@ -403,6 +405,12 @@ permalink: /new_verification/
             </p>
         </div>
 
+        <div id="issueTrackerField" class="form-group" style="display: none;">
+            <label for="issueTrackerUrl">Issue tracker url:</label>
+            <input type="url" id="issueTrackerUrl" name="issueTrackerUrl" class="form-control" placeholder="https://github.com/example/repo/issues/123">
+            <small class="form-text">If this version is not reproducible, you could open an issue in the wallet's issue tracker and put the url here for reference.</small>
+        </div>
+
         <div class="form-group">
             <label for="content">Content (*):</label>
             <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
@@ -413,7 +421,7 @@ permalink: /new_verification/
 
             <div id="editorContainer">
                 <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
+                <div id="markdownPreview" class="form-control" style="display:none; padding:1em; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
             </div>
             <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
         </div>
@@ -478,13 +486,11 @@ permalink: /new_verification/
         <a id="deleteDraft" style="color: red; cursor: pointer;">Delete Draft</a>
         <p>
             <small>
-                <b>Note:</b> Draft verifications are not displayed directly, but they can still be seen by you and other users if they opt to view them. You'll be able to view them and publish them later.
+                <b>Note:</b> Draft verifications are not displayed by default, but they can still be viewed by you and other users who choose to see them. You’ll be able to view and publish them later.
             </small>
         </p>
     </form>
 </div>
-
-<div id="verificationModal"></div>
 
 <script>
   let otherHashes = [];
@@ -492,6 +498,8 @@ permalink: /new_verification/
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
   let outputFiles = []; // Store files for Blossom upload
+
+  document.getElementById('loadingSpinner').style.display = 'block';
 
   function addHash(hash) {
     if (!hash) return;
@@ -688,15 +696,15 @@ permalink: /new_verification/
   // --- End Output File Handling Functions ---
 
   async function loadUrlParamsAndGetAssetInfo() {
+    const codeSnippetKind = 1337;
     const showError = (message) => {
       document.querySelector('.form-container').style.display = 'none';
 
       const errorDiv = document.createElement('div');
       errorDiv.className = 'error-message';
       errorDiv.innerHTML = `
-      <p>${message}</p>
-      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
-    `;
+        <p>${message}</p>
+        <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>`;
 
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
@@ -708,33 +716,44 @@ permalink: /new_verification/
 
     const urlParams = new URLSearchParams(window.location.search);
     const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+    const verificationEventId = urlParams.get('verificationEventId');
     const action = urlParams.get('action');
 
-    if (draftVerificationEventId && action) {
-      const draftButton = document.querySelector('button[name="draft"]');
-      if (draftButton) {
-        draftButton.textContent = 'Save Draft Verification';
+    if ((draftVerificationEventId || verificationEventId) && action) {
+      if (draftVerificationEventId) {
+        const draftButton = document.querySelector('button[name="draft"]');
+        if (draftButton) {
+          draftButton.textContent = 'Save Draft Verification';
+        }
       }
 
-      document.getElementById('pageTitle').textContent = 'Editing Draft Verification';
-      document.title = 'Editing Draft Verification | Wallet Scrutiny';
+      document.getElementById('pageTitle').textContent = draftVerificationEventId ? 'Editing Draft Verification' : 'Editing Verification';
+      document.title = draftVerificationEventId ? 'Editing Draft Verification | Wallet Scrutiny' : 'Editing Verification | Wallet Scrutiny';
 
-      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
-      if (draftVerificationEvent) {
-        const fileEventIds = getFileAttachmentIDsForVerificationEvent(draftVerificationEvent);
-        const attachments = await getFileAttachmentEvents(fileEventIds);
+      const verificationEvent = await getVerificationEvent(draftVerificationEventId || verificationEventId);
+      if (verificationEvent) {
+        let isMine = verificationEvent.pubkey === await getUserPubkey();
+        if (isMine && verificationEventId) {
+          const endorsementsForThisVerification = await getEndorsementsFromVerificationEventIds([verificationEventId]);
+          if (endorsementsForThisVerification[verificationEventId] && endorsementsForThisVerification[verificationEventId].length > 0) {
+            document.getElementById('youWillLoseEndorsements').style.display = 'block';
+          }
+        }
+
+        const fileEventIds = getFileAttachmentIDsForVerificationEvent(verificationEvent);
+        const attachments = await getEventsFromEventIds(fileEventIds);
 
         attachments.forEach(attachment => {
           let name;
           if (attachment.kind === codeSnippetKind) {
-            const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
-            const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
+            const attachmentName = getFirstTagValue(attachment, 'name');
+            const extension = getFirstTagValue(attachment, 'extension');
             name = `${attachmentName}.${extension}`;
           } else { // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-            name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+            name = getFirstTagValue(attachment, 'filename');
           }
 
-          const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+          const size = getFirstTagValue(attachment, 'size');
           const attachmentContent = atob(attachment.content);
           const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
 
@@ -747,7 +766,7 @@ permalink: /new_verification/
         });
         displayFiles();
 
-        const verificationOutputFiles = draftVerificationEvent.tags.filter(tag => tag[0] === 'output-file');
+        const verificationOutputFiles = verificationEvent.tags.filter(tag => tag[0] === 'output-file');
         verificationOutputFiles.forEach(outputFile => {
           outputFiles.push({
             name: outputFile[1],
@@ -756,27 +775,30 @@ permalink: /new_verification/
         });
         displayOutputFiles();
 
-        // If files were loaded from the draft, set the script usage selector to 'upload'
+        // If files were loaded from the event (draft or not), set the script usage selector to 'upload'
         if (uploadedFiles.length > 0) {
           document.getElementById('scriptUsage').value = 'upload';
-          handleScriptSectionVisibility();
+          await handleScriptSectionVisibility();
         }
 
-        const eventContent = JSON.parse(draftVerificationEvent.content);
+        const eventContent = JSON.parse(verificationEvent.content);
 
-        document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
-        document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
-        document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
+        document.getElementById('appId').value = getFirstTagValue(verificationEvent, 'i');
+        document.getElementById('version').value = getFirstTagValue(verificationEvent, 'version');
+        document.getElementById('platform').value = getFirstTagValue(verificationEvent, 'platform');
         document.getElementById('description').value = eventContent.description || '';
-        document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
+        document.getElementById('status').value = getFirstTagValue(verificationEvent, 'status');
         document.getElementById('content').value = eventContent.content || '';
+        document.getElementById('issueTrackerUrl').value = getFirstTagValue(verificationEvent, 'issue-tracker-url') || '';
 
-        const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+        const hashes = verificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
         hashes.forEach(hash => addHash(hash));
       } else {
-        showToast('Draft verification not found', 'error');
+        showToast('Draft or verification not found', 'error');
       }
-    } else {
+    }
+
+    if (!draftVerificationEventId) {
       const deleteDraftBtn = document.getElementById('deleteDraft');
       if (deleteDraftBtn) {
         deleteDraftBtn.style.display = 'none';
@@ -833,14 +855,33 @@ permalink: /new_verification/
     const infoMessage = document.querySelector('.info-message');
     infoMessage.innerHTML = message;
 
-    // Initial call to load scripts if appId is pre-filled
     const initialAppId = document.getElementById('appId').value.trim();
     if (initialAppId) {
-      await loadAndDisplayAvailableScripts(initialAppId);
+      await performAppIdRelatedActions(initialAppId);
     }
+
+    document.getElementById('loadingSpinner').style.display = 'none';
   }
 
-  async function loadAndDisplayAvailableScripts(appId) {
+  async function performAppIdRelatedActions(appId, doScriptsTreatment = true) {
+    if (appId.length < 3) {
+      return;
+    }
+
+    document.getElementById('issueTrackerInfo').innerHTML = '';
+
+    const appAssetInformation = await getAllAssetInformation({
+      appId
+    });
+
+    if (doScriptsTreatment) {
+      await loadAndDisplayAvailableScripts(appId, appAssetInformation);
+    }
+
+    await showIssueTrackerHtmlWidget(appAssetInformation.verifications, 'issueTrackerInfo', 5);
+  }
+
+  async function loadAndDisplayAvailableScripts(appId, appAssetInformation = null) {
     const availableScriptsContainer = document.getElementById('availableScriptsContainer');
     const availableScriptsList = document.getElementById('availableScriptsList');
     const scriptUsageSelector = document.getElementById('scriptUsage');
@@ -850,20 +891,20 @@ permalink: /new_verification/
 
     if (appId) {
       try {
-        const attachments = await getAllAttachmentsForAppId(appId);
+        const attachments = await getAllAttachmentsForAppId(appId, appAssetInformation);
 
         if (attachments.length > 0 && scriptUsageSelector.value === 'reuse') {
           availableScriptsContainer.style.display = 'block';
           attachments.forEach(attachment => {
             const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
-            const size = attachment.tags.find(tag => tag[0] === 'size')?.[1];
+            const size = getFirstTagValue(attachment, 'size', null);
             const sizeText = size ? `(${(size / 1024).toFixed(1)} KB)` : '';
             const attachmentContent = atob(attachment.content);
             const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
 
             const parentVerificationEvent = attachment.parentVerificationEvent;
-            const version = parentVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1];
-            const status = parentVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1];
+            const version = getFirstTagValue(parentVerificationEvent, 'version', null);
+            const status = getFirstTagValue(parentVerificationEvent, 'status', null);
 
             const app = window.wallets.find(it => it.appId === appId) ?? null;
             const appTitle = app?.title ?? appId;
@@ -993,6 +1034,7 @@ permalink: /new_verification/
 
     const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
     const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
+    const basedOn = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('basedOn'), purifyConfig);
 
     // Combine sha256 and otherHashes into a single parameter
     let hashes = sha256 ? [sha256] : [];
@@ -1008,11 +1050,13 @@ permalink: /new_verification/
       version: document.getElementById('version').value.trim(),
       status: document.getElementById('status').value,
       platform: document.getElementById('platform').value,
+      issueTrackerUrl: document.getElementById('issueTrackerUrl').value.trim(),
       isDraft: isDraft,
       draftVerificationEventId: draftVerificationEventId,
       uploadedFileData: uploadedFileData,
       reusedFileIds: reusedFileIds,
-      outputFiles: outputFiles
+      outputFiles: outputFiles,
+      basedOn: basedOn
     };
 
     try {
@@ -1056,7 +1100,7 @@ permalink: /new_verification/
     }
   }
 
-  function handleScriptSectionVisibility() {
+  async function handleScriptSectionVisibility() {
     const selection = document.getElementById('scriptUsage').value;
     const dropzoneArea = document.getElementById('fileDropzoneArea');
     const availableScriptsArea = document.getElementById('availableScriptsContainer');
@@ -1068,11 +1112,24 @@ permalink: /new_verification/
     if (selection === 'upload') {
       dropzoneArea.style.display = 'block';
     } else if (selection === 'reuse') {
-      loadAndDisplayAvailableScripts(appId);
+      await performAppIdRelatedActions(appId);
     }
   }
 
-  document.addEventListener('DOMContentLoaded', async function() {
+  function handleIssueTrackerFieldVisibility() {
+    const status = document.getElementById('status').value;
+    const issueTrackerField = document.getElementById('issueTrackerField');
+    
+    if (status && status !== 'reproducible') {
+      issueTrackerField.style.display = 'block';
+    } else {
+      issueTrackerField.style.display = 'none';
+      // Clear the field when hiding it
+      document.getElementById('issueTrackerUrl').value = '';
+    }
+  }
+
+  window.addEventListener('verificationsUILoaded', async () => {
     await loadUrlParamsAndGetAssetInfo();
     updateCharCount(); // Initial count
     setupDropZone();
@@ -1080,8 +1137,15 @@ permalink: /new_verification/
 
     // Script Usage Selector Logic
     const scriptUsageSelector = document.getElementById('scriptUsage');
-    scriptUsageSelector.addEventListener('change', handleScriptSectionVisibility);
-    handleScriptSectionVisibility();
+    scriptUsageSelector.addEventListener('change', async () => {
+      await handleScriptSectionVisibility();
+    });
+    await handleScriptSectionVisibility();
+
+    // Status change handler for issue tracker field
+    const statusSelector = document.getElementById('status');
+    statusSelector.addEventListener('change', handleIssueTrackerFieldVisibility);
+    handleIssueTrackerFieldVisibility();
 
     document.getElementById('content').addEventListener('input', updateCharCount);
 
@@ -1100,9 +1164,7 @@ permalink: /new_verification/
     const appIdInput = document.getElementById('appId');
     appIdInput.addEventListener('input', async (event) => {
       const appId = event.target.value.trim();
-      if (scriptUsageSelector.value === 'reuse') {
-        await loadAndDisplayAvailableScripts(appId);
-      }
+      await performAppIdRelatedActions(appId, scriptUsageSelector.value === 'reuse');
     });
 
     addHashBtn.addEventListener('click', () => {
@@ -1125,16 +1187,11 @@ permalink: /new_verification/
       }
     });
 
-    // Initialize the preview button functionality
     initializePreviewButton();
   });
-</script>
 
-<script type="text/javascript">
-  // Initialize the preview button functionality when the DOM is loaded
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof initializePreviewButton === 'function') {
-      initializePreviewButton();
-    }
+  window.addEventListener('allWalletsLoaded', async () => {
+    // Setup AutoComplete again, now with all the wallets loaded
+    setupAppIdAutocomplete(false);
   });
 </script>

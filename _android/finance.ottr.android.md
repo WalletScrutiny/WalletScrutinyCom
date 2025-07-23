@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: finance.ottr.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-12-15
+date: 2025-06-03
 signer: 
 twitter: 
 social: 

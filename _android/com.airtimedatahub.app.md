@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.airtimedatahub.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-06-18
+date: 2025-06-18
 signer: 
 twitter: airtimedatahub
 social:

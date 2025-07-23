@@ -6,7 +6,7 @@ authors:
 released: 2020-08-06
 discontinued: 
 updated: 2024-03-15
-version: 2.8.5
+version: 2.12.1
 binaries: 
 provider: Sharddax Ltd.
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: infinity.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
+date: 2024-12-18
 twitter: InfinityWallet
 social: 
 features: 

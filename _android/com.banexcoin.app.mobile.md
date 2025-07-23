@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.banexcoin.app.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-05-11
+date: 2025-06-09
 signer: 
 twitter: banexcoin
 social:

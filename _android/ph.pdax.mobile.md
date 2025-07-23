@@ -4,15 +4,15 @@ title: PDAX - Make your money move
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2025-05-23
-version: 13.6.0
-stars: 4.5
+updated: 2025-07-18
+version: 13.10.2
+stars: 4.4
 ratings: 3291
-reviews: 2803
+reviews: 2854
 website: https://pdax.ph
 repository: 
 issue: 

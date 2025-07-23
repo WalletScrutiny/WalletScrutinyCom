@@ -8,8 +8,8 @@ appId: com.futurance.futurex
 appCountry: tr
 idd: '1583183728'
 released: 2021-10-27
-updated: 2025-05-21
-version: 5.0.9
+updated: 2025-07-16
+version: 5.2.1
 stars: 4.2
 reviews: 135
 website: 
@@ -30,7 +30,7 @@ social:
 - https://t.me/fexobit
 - https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q
 features: 
-developerName: Futurance Finans Teknolojileri A.S
+developerName: FUTURANCE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

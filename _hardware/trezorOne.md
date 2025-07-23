@@ -7,7 +7,7 @@ authors:
 released: 2014-07-29
 discontinued: 
 updated: 2023-03-06
-version: 1.12.1
+version: 1.13.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/1
 dimensions:
 - 60
@@ -28,7 +28,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - 859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8
-date: 2023-05-25
+date: 2025-05-06
 signer: 
 twitter: trezor
 social:
@@ -38,35 +38,8 @@ features:
 
 ---
 
-With our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorOne.sh)
-this is the result:
+## Device Description
 
-```
-$ ./scripts/test/hardware/trezorOne.sh 1.12.1
-...
-Fingerprints:
-3c694191f5b66a65cb5bb209adbf113cb40209e644b77162ba996bb7ee8f382b build/legacy/firmware/firmware.bin
-985fb6a8c87f7547fb810f6c4a8331ebf19c677445810358778eb21eca78a181 build/legacy-bitcoinonly/firmware/firmware.bin
-195+0 records in
-195+0 records out
-195 bytes copied, 0.00046023 s, 424 kB/s
-195+0 records in
-195+0 records out
-195 bytes copied, 0.000506005 s, 385 kB/s
+The Trezor Model One is a long-standing hardware wallet designed for offline storage and secure management of cryptocurrency private keys. It features a 0.96-inch monochromatic OLED display and two physical buttons for transaction verification, PIN input, and passphrase entry. Users manage their assets via the Trezor Suite desktop application, which supports sending, receiving, trading, and staking across hundreds of coins and tokens. The device does not support certain assets like XRP, ADA, SOL, and XMR; users seeking broader compatibility must upgrade to a different model. Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy.
 
-Hash of non-signature parts downloaded/compiled standard:
-859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8  trezor-1.12.1-nosig.bin
-859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8  build/legacy/firmware/firmware.bin
-
-Hash of non-signature parts downloaded/compiled bitcoinonly:
-683b51fb68d0b0377f5596d6e75cc5ba2b64b88563dae2ede431031565b977fa  trezor-1.12.1-bitcoinonly-nosig.bin
-683b51fb68d0b0377f5596d6e75cc5ba2b64b88563dae2ede431031565b977fa  build/legacy-bitcoinonly/firmware/firmware.bin
-
-Hash of the signed firmware:
-eab18bf870d6096a2dee477a2f032dc3084a1864b6767a8f2f313a12dff2d180  trezor-1.12.1.bin
-ce576268ce81d4fa7aa6a80d1c8ee01c49fdab4efaf9e0c703d899a24e168eb4  trezor-1.12.1-bitcoinonly.bin
-```
-
-That is a match. This firmware is **reproducible** for both the standard and the
-bitcoinonly version.
+Trezor Model One uses a 120 MHz ARM Cortex M3 processor with a custom OS, and its firmware enforces user verification of every transaction on-device. The wallet supports U2F authentication and includes coin control functionality, allowing users to increase privacy during transactions. It comes with a micro USB to USB-A cable, backup cards, and setup materials, and is CE and RoHS certified for safety and environmental compliance. Trezor devices are constructed using a PC/ABS thermoplastic blend to withstand prolonged use, including buttons rated for 200,000+ clicks. While lacking a secure element chip, the Trezor Model One remains a popular entry-level hardware wallet for users seeking reliable open-source protection of their digital assets.

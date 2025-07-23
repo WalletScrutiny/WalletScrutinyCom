@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.gcmasia.pro.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-03-29
+date: 2025-06-11
 signer: 
 twitter: 
 social:

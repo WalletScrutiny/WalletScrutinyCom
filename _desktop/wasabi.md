@@ -6,18 +6,18 @@ authors:
 released: 2018-08-01
 discontinued: 
 updated: 2025-02-07
-version: 2.5.1
+version: 2.6.0
 binaries: 
 provider: zkSNACKs Ltd.
 providerWebsite: https://zksnacks.com/
 website: https://wasabiwallet.io
-repository: https://github.com/zkSNACKs/WalletWasabi
+repository: https://github.com/WalletWasabi/WalletWasabi
 issue: 
 icon: wasabi.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-25
+date: 2025-06-14
 twitter: wasabiwallet
 social: 
 features: 

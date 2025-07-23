@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: co.decrypt.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-12-13
+date: 2025-07-14
 signer: 
 twitter: decryptmedia
 social:

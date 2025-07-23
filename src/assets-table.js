@@ -1,16 +1,16 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationDraftKind, codeSnippetKind } from "./nostr-constants.mjs";
-
-window.DOMPurify = DOMPurify;
+import { assetRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
+import { getFirstTagValue } from "./verifications_common.mjs";
+import { renderCommentsSection } from './assets-table-comments.js';
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
-const table = document.createElement('table');
-
 let attachments = [];
-const attachmentDataStore = {};   // Define a store for attachment data globally accessible
+let endorsements = [];
+const attachmentDataStore = {};   // Define a store for attachment data globally accessible (from the global table and from each verification)
 
 // Filter table rows
 async function updateTableVisibility() {
@@ -22,7 +22,13 @@ async function updateTableVisibility() {
   const latestVersions = new Map();
 
   // Get all rows except header and show-more
-  const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+  const assetsTableElement = document.getElementById('assetsTable');
+
+  // Find Verifications cell index by looking at the header text
+  const headerCells = Array.from(assetsTableElement.querySelectorAll('th'));
+  const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
+  
+  const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
 
   rows.forEach(row => {
     const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
@@ -30,16 +36,13 @@ async function updateTableVisibility() {
     const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
     const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
 
-    // Find Verifications cell by looking at the header text
-    const headerCells = Array.from(table.querySelectorAll('th'));
-    const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
     const verificationsCell = row.cells[verificationsIndex]?.textContent || '';
     const hasVerifications = !verificationsCell.includes('No verifications yet');
 
     // Get identifier for grouping latest versions
     const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
 
-    let shouldShow = true;
+    let shouldShow = row.style.display !== 'none';
 
     if (showOnlyNoVerifications) {
       shouldShow = !hasVerifications;
@@ -57,7 +60,7 @@ async function updateTableVisibility() {
       shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
     }
 
-    row.style.display = shouldShow ? '' : 'none';
+    row.style.setProperty('display', shouldShow ? 'table-row' : 'none');
   });
 
   const userPubkey = await getUserPubkey();
@@ -65,11 +68,19 @@ async function updateTableVisibility() {
   // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
   const hideDraftsChecked = document.getElementById('hideDrafts').checked;
   document.querySelectorAll('.draft-attestation').forEach(attestation => {
-    if (hideDraftsChecked && !attestation.getAttribute('data-pubkey_verifiers')?.includes(userPubkey)) {
-      attestation.style.display = 'none';
-    } else {
-      // attestation is a tr?
-      attestation.style.display = attestation.tagName === 'TR' ? 'table-row' : 'block';
+    let draftManagementEnabled = true;
+
+    // If it's a TR and it's already hidden, drafts management cannot show it again
+    if (attestation.tagName === 'TR' && attestation.style.display === 'none') {
+      draftManagementEnabled = false;
+    }
+
+    if (draftManagementEnabled) {
+      if (hideDraftsChecked && !attestation.getAttribute('data-pubkey_verifiers')?.includes(userPubkey)) {
+        attestation.style.display = 'none';
+      } else {
+        attestation.style.display = attestation.tagName === 'TR' ? 'table-row' : 'block';
+      }
     }
   });
 }
@@ -84,8 +95,9 @@ window.renderAssetsTable = async function({
                                             sortByVersion = false,
                                             enableSearch = false,
                                             enableDraftsFilter = false,
-                                            enableAttachments = false,
-                                            showProfilePictures = true
+                                            showAttachmentsTable = false,
+                                            showProfilePictures = true,
+                                            showIssueTracker = false
                                           }) {
   let hasAssets = false;
 
@@ -94,6 +106,27 @@ window.renderAssetsTable = async function({
     appId,
     sha256
   });
+
+  try {
+    window.userPubkey = await getUserPubkey();
+  } catch (e) {
+    console.error("Error getting user pubkey:", e);
+    window.userPubkey = null;
+  }
+
+  if (showIssueTracker) {
+    showIssueTrackerHtmlWidget(response.verifications, htmlElementId);
+  }
+
+  if (!document.getElementById('verificationModal')) {
+    const verificationModalDiv = document.createElement('div');
+    verificationModalDiv.id = 'verificationModal';
+    document.getElementById(htmlElementId).insertAdjacentElement('afterend', verificationModalDiv);
+  }
+
+  document.getElementById('verificationModal').innerHTML = `
+    <span id="closeModal">&times;</span>
+    <div id="verificationContent"></div>`;
 
   // --- Add Blossom Download Warning Modal Structure ---
   const blossomModalHTML = `
@@ -168,11 +201,15 @@ window.renderAssetsTable = async function({
 
   document.getElementById(htmlElementId).appendChild(searchContainer);
 
-  // Add event listeners for search and filters only if enableSearch is true
-  if (enableSearch) {
+  const setupSearchEventListeners = () => {
     document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
     document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
     document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
+  };
+
+  if (enableSearch) {
+    // Call setupEventListeners after a small delay to ensure DOM is ready
+    setTimeout(setupSearchEventListeners, 100);
   }
   if (enableDraftsFilter) {
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
@@ -222,8 +259,8 @@ window.renderAssetsTable = async function({
       if (result) {
         const { verification, sha256Hash } = result;
         // Extract appId and platform from the found verification's tags
-        const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-        const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+        const appIdFromVerification = getFirstTagValue(verification, 'i');
+        const platformFromVerification = getFirstTagValue(verification, 'platform');
 
         // Call showVerificationModal after a short delay
         setTimeout(() => {
@@ -254,8 +291,8 @@ window.renderAssetsTable = async function({
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
     sortedItems.sort((a, b) => {
-      const versionA = a.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const versionB = b.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionA = getFirstTagValue(a.items[0], 'version');
+      const versionB = getFirstTagValue(b.items[0], 'version');
 
       // Check for VARY string first
       const hasVaryA = versionA.includes('VARY');
@@ -282,16 +319,30 @@ window.renderAssetsTable = async function({
     sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
-  if (enableAttachments && sortedItems.length > 0) {
+  if (sortedItems.length > 0) {
     let attachmentEventIDs = [];
-    sortedItems.forEach((item, index) => {
-      const fileEventIds = getFileAttachmentIDsForVerificationEvent(item.items[0]);
+    let endorsementEventIDs = [];
+
+    sortedItems.forEach((itemsForThisSha256, index) => {
+      // Attachments
+      const fileEventIds = getFileAttachmentIDsForVerificationEvent(itemsForThisSha256.items[0]);
       attachmentEventIDs.push(...fileEventIds);
+
+      // Endorsements
+      itemsForThisSha256.items.forEach(item => {
+        if (item.kind === verificationKind) {
+          endorsementEventIDs.push(item.id);
+        }
+      });
     });
 
-    attachments = await getFileAttachmentEvents(attachmentEventIDs);
+    attachments = await getEventsFromEventIds(attachmentEventIDs);
+    endorsements = await getEndorsementsFromVerificationEventIds(endorsementEventIDs);
+    endorsements.loaded = true;
   }
 
+  const table = document.createElement('table');
+  table.id = 'assetsTable';
   table.innerHTML = `
     <thead>
       <tr>
@@ -316,23 +367,15 @@ window.renderAssetsTable = async function({
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
-      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language,
-        {
-          year: '2-digit',
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        }
-      );
+      const date = formatDate(binary.created_at);
 
       const eventId = binary.id;
       const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
 
       const sha256HashKey = item.sha256;
-      const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
-      const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+      const version = getFirstTagValue(binary, 'version');
+      const identifier = getFirstTagValue(binary, 'i');
+      const platform = getFirstTagValue(binary, 'platform');
 
       // Guess if it's an asset or a verification
       hasAssets = binary.kind === assetRegistrationKind;
@@ -364,32 +407,23 @@ window.renderAssetsTable = async function({
 
         let listItems = '';
         for (const attestation of latestVerificationsByUser.values()) {
-          const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-          });
+          const attestationDate = formatDate(attestation.created_at);
 
-          const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+          const status = getFirstTagValue(attestation, 'status');
 
           let statusText = null;
 
+          const isMine = attestation.pubkey === window.userPubkey;
           const isDraft = attestation.kind === verificationDraftKind;
-          const draftBadge = isDraft ? `
-            <span class="badge badge-warning">Draft</span> 
-            <span
-              class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" title="Edit Draft"
-              onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${attestation.id}&action=edit\'"
-            >✏️</span>`
-            : '';
+          const isMyDraft = isDraft && isMine;
+
+          const draftBadge = isMyDraft ? `<span class="badge badge-warning">Draft</span>` : '';
 
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
           listItems += `<span
                             onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
-                            class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
+                            class="attestation-link ${isMyDraft ? 'draft-attestation' : ''}"
                             data-pubkey_verifiers="${attestation.pubkey}"
                             style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="font-size: 1.1em; line-height: 1.2; margin-bottom: 0.7em;">
@@ -413,7 +447,7 @@ window.renderAssetsTable = async function({
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');
-      row.className = index >= showOnlyRows ? 'hidden-row' : '';
+      row.style.display = index >= showOnlyRows ? 'none' : 'table-row';
       const sanitizedVersion = version.replace(/\./g, '-');
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
@@ -469,63 +503,43 @@ window.renderAssetsTable = async function({
 
   document.getElementById(htmlElementId).appendChild(table);
 
+  // ENDORSEMENTS TABLE
+  if (endorsements.size > 0) {
+    endorsements.forEach(endorsement => {
+      console.log('************************************* endorsement', endorsement);
+    });
+  }
+
   // ATTACHMENTS TABLE
-  if (enableAttachments && attachments.size > 0) {
+  if (attachments.size > 0) {
     attachments.forEach(attachment => {
       if (showProfilePictures && !profilePubkeys.includes(attachment.pubkey)) {
         profilePubkeys.push(attachment.pubkey);
       }
     });
 
-    const paragraph = document.createElement('p');
-    paragraph.innerHTML = 'Scripts used to reproduce the application:';
-    document.getElementById(htmlElementId).appendChild(paragraph);
+    if (showAttachmentsTable) {
+      const paragraph = document.createElement('p');
+      paragraph.innerHTML = 'Scripts used to reproduce the application:';
+      document.getElementById(htmlElementId).appendChild(paragraph);
 
-    const attachmentsTable = document.createElement('table');
-    attachmentsTable.innerHTML = `
-      <thead>
-        <tr>
-          <th>File</th>
-          <th>Used to reproduce</th>
-        </tr>
-      </thead>
-    `;
+      const attachmentsTable = document.createElement('table');
+      attachmentsTable.innerHTML = `
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Used to reproduce</th>
+          </tr>
+        </thead>
+      `;
+    }
 
     attachments.forEach(attachment => {
-      const date = new Date(attachment.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-
-      let name;
-      if (attachment.kind === codeSnippetKind) {
-        const attachmentName = attachment.tags.find(tag => tag[0] === 'name')?.[1] || '';
-        const extension = attachment.tags.find(tag => tag[0] === 'extension')?.[1] || '';
-        name = `${attachmentName}.${extension}`;
-      } else {  // See https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/729
-        name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
-      }
-      const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
-      const sizeInKb = Math.round(size / 1024);
-
-      // Find in sortedItems the specific verification items that use this attachment
-      const verifications = sortedItems.flatMap(item =>
-        item.items.filter(i =>
-          i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
-        )
-      );
-
-      const row = document.createElement('tr');
-      if (verifications.some(v => v.kind === verificationDraftKind)) {
-        row.classList.add('draft-attestation');
-      }
+      const { name, sizeInKb } = getAttachmentInfo(attachment);
 
       // Decode and store attachment data
       const attachmentContent = atob(attachment.content);
-      const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+      const attachmentContentType = getFirstTagValue(attachment, 'content-type', 'application/octet-stream');
 
       attachmentDataStore[attachment.id] = {
         content: attachmentContent,
@@ -534,38 +548,56 @@ window.renderAssetsTable = async function({
         sizeInKb: sizeInKb
       };
 
-      let rowHTML = `
-        <td>${name} <small>(${sizeInKb} kB)</small> 
-          <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
-          <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
-          <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
-        </td>
-
-        <td>`;
-
-      if (verifications.length > 0) {
-        for (const verification of verifications) {
-          const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
-          const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
-          const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
-
-          const wallet = window.wallets.find(w => w.appId === identifier);
-          const walletTitle = wallet ? wallet.title : identifier;
-
-          rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+      if (showAttachmentsTable) {
+        const row = document.createElement('tr');
+        if (verifications.some(v => v.kind === verificationDraftKind)) {
+          row.classList.add('draft-attestation');
         }
-      } else {
-        rowHTML += '-';
+
+        // Find in sortedItems the specific verification items that use this attachment
+        const verifications = sortedItems.flatMap(item =>
+          item.items.filter(i =>
+            i.tags.some(tag => tag[0] === 'file-attachment' && tag[1] === attachment.id)
+          )
+        );
+
+        const date = formatDate(attachment.created_at);
+
+        let rowHTML = `
+          <td>${name} <small>(${sizeInKb} kB)</small> 
+            <span id="${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentDownload('${attachment.id}')" title="Download ${name}">💾</span>
+            <span id="preview-${attachment.id}" style="cursor: pointer; margin-left: 6px;" onclick="handleAttachmentPreview('${attachment.id}')" title="Preview ${name}">👁️</span><br>
+            <small>Uploaded on ${date} by</small> <span style="margin-left: 4px;" class="profile-${attachment.pubkey}">${attachment.pubkey}</span>
+          </td>
+
+          <td>`;
+
+        if (verifications.length > 0) {
+          for (const verification of verifications) {
+            const version = getFirstTagValue(verification, 'version');
+            const identifier = getFirstTagValue(verification, 'i');
+            const platform = getFirstTagValue(verification, 'platform');
+
+            const wallet = window.wallets.find(w => w.appId === identifier);
+            const walletTitle = wallet ? wallet.title : identifier;
+
+            rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}<br>`;
+          }
+        } else {
+          rowHTML += '-';
+        }
+
+        rowHTML += `</td>`;
+      
+        row.innerHTML = rowHTML;
+
+        attachmentsTable.appendChild(row);
       }
-
-      rowHTML += `</td>`;
-
-      row.innerHTML = rowHTML;
-
-      attachmentsTable.appendChild(row);
     });
 
-    document.getElementById(htmlElementId).appendChild(attachmentsTable);
+    if (showAttachmentsTable) {
+      document.getElementById(htmlElementId).appendChild(attachmentsTable);
+    }
   }
 
   // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
@@ -588,8 +620,6 @@ window.renderAssetsTable = async function({
       }
     }
   });
-
-  updateTableVisibility();
 
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
@@ -877,16 +907,7 @@ window.renderAssetsTable = async function({
     document.head.appendChild(profileStyles);
   }
 
-  document.getElementById(htmlElementId).innerHTML += `
-    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
-      <div class="diffoscope-modal-content">
-        <div class="diffoscope-controls">
-            <span class="diffoscope-maximize" title="Maximize">⛶</span>
-            <span class="diffoscope-close" title="Close">✖</span>
-        </div>
-        <iframe id="diffoscopeFrame"></iframe>
-    </div>
-  </div>`;
+  updateTableVisibility();
 
   return {
     hasAssets,
@@ -900,18 +921,117 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const verifications = response.verifications.get(sha256Hash) || [];
   const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
-  const attestations = [...verifications, ...draftVerifications];
-  const verification  = attestations.find(a => a.id === verificationId);
-  const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
+  const allTheVerifications = [...verifications, ...draftVerifications];
+  const verification = allTheVerifications.find(a => a.id === verificationId);
+  const otherVerificationsBySamePubkey = allTheVerifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   window.currentVerification = verification;
 
-  const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
+  const status = getFirstTagValue(verification, 'status');
 
   const modal = document.getElementById('verificationModal');
-  modal.innerHTML = `
-    <span id="closeModal">&times;</span>
-    <div id="verificationContent"></div>`;
+
+  if (!document.getElementById('diffoscopeModal')) {
+    modal.insertAdjacentHTML('beforebegin', `
+    <div id="diffoscopeModal" class="diffoscope-modal" style="display: none; z-index: 100000;">
+      <div class="diffoscope-modal-content">
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
+        <iframe id="diffoscopeFrame"></iframe>
+      </div>
+    </div>`);
+  }
+
+  if (!document.getElementById('endorsementModal')) {
+    const endorsementModalDiv = document.createElement('div');
+    endorsementModalDiv.id = 'endorsementModal';
+    endorsementModalDiv.style.display = 'none';
+    endorsementModalDiv.innerHTML = `
+      <div id="endorsementModalContent">
+        <span id="closeEndorsementModal">&times;</span>
+        <h3 style="margin-top: 0;">Endorse this verification</h3>
+        <p style="margin-bottom: 20px;">Endorsing a verification means you are publicly signaling your agreement or disagreement with the result of this verification, and/or a trust in the verifier.</p>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <button id="endorseValidBtn" class="btn btn-success">Label as Valid</button>
+          <button id="endorseInvalidBtn" class="btn btn-danger" style="background-color: #d9534f; color: white; border-color: #d43f3a;">Label as Invalid</button>
+          <button id="endorseCancelBtn" class="btn btn-secondary">Cancel</button>
+        </div>
+      </div>
+    `;
+    endorsementModalDiv.style.position = 'fixed';
+    endorsementModalDiv.style.left = '0';
+    endorsementModalDiv.style.top = '0';
+    endorsementModalDiv.style.width = '100%';
+    endorsementModalDiv.style.height = '100%';
+    endorsementModalDiv.style.background = 'rgba(0,0,0,0.6)';
+    endorsementModalDiv.style.zIndex = '10002';
+    document.body.appendChild(endorsementModalDiv);
+  }
+
+  window.openEndorsementModal = function(verificationEventId, sha256Hash) {
+    const modal = document.getElementById('endorsementModal');
+    modal.style.display = 'block';
+    document.body.classList.add('modal-open');
+
+    // Remove previous listeners to avoid duplicates
+    const validBtn = document.getElementById('endorseValidBtn');
+    const invalidBtn = document.getElementById('endorseInvalidBtn');
+    const cancelBtn = document.getElementById('endorseCancelBtn');
+    const closeBtn = document.getElementById('closeEndorsementModal');
+
+    // Remove all listeners by cloning
+    validBtn.replaceWith(validBtn.cloneNode(true));
+    invalidBtn.replaceWith(invalidBtn.cloneNode(true));
+    cancelBtn.replaceWith(cancelBtn.cloneNode(true));
+    closeBtn.replaceWith(closeBtn.cloneNode(true));
+
+    const newValidBtn = document.getElementById('endorseValidBtn');
+    const newInvalidBtn = document.getElementById('endorseInvalidBtn');
+    const newCancelBtn = document.getElementById('endorseCancelBtn');
+    const newCloseBtn = document.getElementById('closeEndorsementModal');
+
+    const closeModal = () => {
+      modal.style.display = 'none';
+      document.body.classList.remove('modal-open');
+    };
+
+    newCancelBtn.onclick = closeModal;
+    newCloseBtn.onclick = closeModal;
+    modal.onclick = (event) => {
+      if (event.target === modal) closeModal();
+    };
+
+    // ESC key closes modal
+    const handleKeyDown = function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+        window.removeEventListener('keydown', handleKeyDown);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+
+    async function handleEndorsement(isValid) {
+      try {
+        if (!window.userPubkey) {
+          showToast('You must have a Nostr extension to endorse a verification.', 'error');
+          return;
+        }
+        const npub = await getNpubFromPubkey(window.userPubkey);
+        await createEndorsement({ validity: isValid, verificationEventId, sha256Hash, endorserNpubkey: npub });
+        closeModal();
+        await showToast(`Successfully marked as ${isValid ? 'Valid' : 'Invalid'}.`, 'success');
+        window.location.reload();
+      } catch (e) {
+        closeModal();
+        showToast('Failed to endorse: ' + (e.message || e), 'error');
+      }
+    }
+
+    newValidBtn.onclick = () => handleEndorsement(true, verificationId);
+    newInvalidBtn.onclick = () => handleEndorsement(false, verificationId);
+  };
 
   const content = document.getElementById('verificationContent');
 
@@ -927,60 +1047,97 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   let otherVerificationsHTML = '';
   if (otherVerificationsBySamePubkey.length > 0) {
     for (const otherVerification of otherVerificationsBySamePubkey) {
-      const verificationDate = new Date(otherVerification.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
+      const status = getFirstTagValue(otherVerification, 'status');
 
-      const status = otherVerification.tags.find(tag => tag[0] === 'status')?.[1] || '';
-
-      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + '</span>';
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + getStatusIcon(status) + '</span>';
 
       otherVerificationsHTML += `<li>
-        ${verificationDate} ${statusIcon}
+        ${formatDate(otherVerification.created_at)} ${statusIcon}
       </li>`;
     }
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
 
+  const isMine = verification.pubkey === window.userPubkey;
   const isDraft = verification.kind === verificationDraftKind;
-  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet. <span class="edit-draft-icon" style="cursor: pointer; font-size: x-large;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?draftVerificationEventId=${verification.id}&action=edit\'" title="Edit Draft">✏️</span></p>` : '';
+  const isMyDraft = isDraft && isMine;
+
+  let title = '';
+  let icon = '';
+  let basedOnParams = '';
+  if (isMine) {
+    title = isDraft ? 'Edit your draft' : 'Edit your verification';
+    icon = '✏️';
+  } else {
+    title = isDraft ? 'Copy this draft' : 'Copy this verification';
+    icon = '📋';
+    basedOnParams = `&basedOn=${verification.id}:${verification.pubkey}`;
+  }
+
+  content.innerHTML = '<p>';
+  content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
+  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`; 
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  if (!isDraft && !isMine) {
+    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+  }
+  content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
+  content.innerHTML += '</p>';
+
+  const version = getFirstTagValue(verification, 'version');
+  const identifier = getFirstTagValue(verification, 'i');
+  const wallet = window.wallets.find(w => w.appId === identifier);
+  const walletTitle = wallet ? wallet.title : identifier;
 
   content.innerHTML += `
-    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
-    <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
-  })}</p>
-    <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
+
+  const basedOn = getFirstTagValue(verification, 'based-on');
+  if (basedOn) {
+    content.innerHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
+  }
+
+  content.innerHTML += `
+    <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
+    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>
+    <p style="display: none;" id="endorsements"></p>`;
+
+  const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
+  if (issueTrackerUrl) {
+    content.innerHTML += `<p><strong>Issue tracker url:</strong> <a href="${issueTrackerUrl}" target="_blank">${issueTrackerUrl}</a></p>`;
+  }
+
+  content.innerHTML += '<div id="comments-container"></div>';
 
   const verificationAttachments = verification.tags.filter(tag => tag[0] === 'file-attachment');
   const verificationOutputFiles = verification.tags.filter(tag => tag[0] === 'output-file');
 
   // Show attachments (scripts used to reproduce)
-  if (verificationAttachments.length > 0) {
-    // Wait here until attachmentDataStore is filled
-    while (Object.keys(attachmentDataStore).length === 0) {
-      await new Promise(resolve => setTimeout(resolve, 50));
-    }
-
+  const numberVerificationAttachments = verificationAttachments.length;
+  if (numberVerificationAttachments > 0) {
     let attachmentsHTML = '';
 
-    for (const attachment of verificationAttachments) {
-      const attachmentId = attachment[1];
-      const attachmentInfo = attachmentDataStore[attachmentId];
-
-      if (attachmentInfo) {
-        attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
-          <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
-          <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+    if (!window.location.pathname.includes('/verifier/') && !window.location.pathname.includes('/assets/')) {
+      //  Wait here until attachmentDataStore is filled
+      while (Object.keys(attachmentDataStore).length === 0) {
+        await new Promise(resolve => setTimeout(resolve, 50));
       }
+
+      for (const attachment of verificationAttachments) {
+        const attachmentId = attachment[1];
+        const attachmentInfo = attachmentDataStore[attachmentId];
+  
+        if (attachmentInfo) {
+          attachmentsHTML += `<li>${attachmentInfo.filename} <small>(${attachmentInfo.sizeInKb} kB)</small>  
+            <span id="${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${attachmentInfo.filename}">💾</span>
+            <span id="preview-${attachmentId}" style="cursor: pointer; margin-left: 10px;" onclick="handleAttachmentPreview('${attachmentId}')" title="Preview ${attachmentInfo.filename}">👁️</span></li>`;
+        }
+      }
+    } else {
+      const wallet = window.wallets.find(w => w.appId === appId);
+      attachmentsHTML += `<li>${numberVerificationAttachments} script(s) used to reproduce this binary. See the <a href="${wallet.url}#verificationId=${verificationId}">the wallet page</a> for more details.</li>`;
     }
 
     content.innerHTML += `<p><strong>Scripts used to reproduce:</strong></p><ul class="attestation-other-attempts">${attachmentsHTML}</ul>`;
@@ -1034,11 +1191,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <div class="markdown-content">
       ${diffoscopeHTML}
       ${asciicastHTML}
-      ${marked.parse(itemContent)}
+      <div>${marked.parse(itemContent)}</div>
     </div>
   </p>`;
 
-  // Asciicast special treatment (legacy asciicasts can only be played on old verifications)
+  // Asciicast special treatment (legacy asciasts can only be played on old verifications)
   if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
     let castURL;
     if (firstAsciicastFileSHA256) {
@@ -1093,26 +1250,22 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     }
   }
 
+  const appIdForTheKey = getFirstTagValue(verification, 'i');
+  const versionForTheKey = getFirstTagValue(verification, 'version');
+  const platformForTheKey = getFirstTagValue(verification, 'platform');
+  const authorPubkeyForTheKey = verification.pubkey;
+  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}`;
+
+  renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
+
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();
   }
 
-  const verificationActions = document.createElement('div');
-  verificationActions.id = 'verification-action-buttons';
-  verificationActions.style.marginTop = '10px';
-  verificationActions.innerHTML = `
-      <img onclick="showVerificationButtons()" id="verification-nostr-icon" src="/images/nostr_logo.svg" alt="Nostr Logo" title="Show Nostr actions" />
-      <button onclick="openEventInNjump('${verification.id}')" class="btn-small button-closed-by-default">Open in njump</button>
-      <button onclick="copyNostrEmbedToClipboard('${verification.id}')" class="btn-small button-closed-by-default">Copy Nostr embed code</button>
-      <button onclick="copyRawEventJsonToClipboard()" class="btn-small button-closed-by-default">Copy raw event</button>
-      <button onclick="copyLinkToVerificationToClipboard()" class="btn-small"><i class="fas fa-share-alt"></i> Copy link to this verification</button>`;
-
-  modal.appendChild(verificationActions);
-
   modal.style.display = 'block';
 
-  // Add blur to all divs except verificationModal
-  document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
+  // Add blur to all divs except verificationModal and diffoscopeModal
+  document.querySelectorAll('.archive > div:not(#verificationModal):not(#diffoscopeModal), .archive > h1').forEach(div => {
     div.style.filter = 'blur(5px)';
   });
 
@@ -1136,6 +1289,52 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       </div>
     </div>
   ` : verification.pubkey;
+
+  if (basedOn) {
+    const basedOnProfile = await getNostrProfile(basedOn.split(':')[1]);
+    document.getElementById('based-on-attempt-by').innerHTML = basedOnProfile ? `
+      <div class="profile-card">
+        ${basedOnProfile.image ? `<img src="${basedOnProfile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'" onerror="this.style.display='none'"/>` : ''}
+        <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${basedOn.split(':')[1]}'">
+          <div>${basedOnProfile.name || basedOn.split(':')[1]}</div>
+          ${basedOnProfile.nip05 ? `<div class="profile-nip05">${basedOnProfile.nip05}</div>` : ''}
+        </div>
+      </div>
+    ` : basedOn.split(':')[1];
+  }
+
+  // Wait in a loop until endorsements.loaded is true
+  while (!endorsements.loaded) {
+    await new Promise(resolve => setTimeout(resolve, 50));
+  }
+
+  const endorsementsForThisVerification = endorsements[verification.id];
+
+  if (endorsementsForThisVerification && endorsementsForThisVerification.length > 0) {
+    let endorsementsHTML = '';
+
+    endorsementsForThisVerification.sort((a, b) => b.created_at - a.created_at);
+
+    for (const endorsement of endorsementsForThisVerification) {
+      const validity = getFirstTagValue(endorsement, 'validity');
+      const endorserProfile = await getNostrProfile(endorsement.pubkey);
+      const endorserNpub = await getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
+      endorsementsHTML += `
+        <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
+          ${endorserProfile ? `${endorserProfile.image ? `
+            <img src="${endorserProfile.image}" class="profile-image"
+                title="${endorserProfile.name || endorsement.pubkey} - ${endorserProfile.nip05 ?? ''} - Click to open in Njump.me"
+                onclick="window.open('https://njump.me/${endorserNpub}', '_blank')"
+                onerror="this.style.display='none'"
+            />` : ''}` :
+            `<span onclick="window.open('https://njump.me/${endorserNpub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${endorserNpub} - Click to open in Njump.me">${endorsement.pubkey.slice(0, 3)}...${endorsement.pubkey.slice(-2)}</span>`}
+            ${validity === 'valid' ? 'Positive ✅' : 'Negative ❌'} (${formatCommentDate(endorsement.created_at)})
+        </div>`;
+    }
+    const endorsementsElement = document.getElementById('endorsements');
+    endorsementsElement.style.display = 'block';
+    endorsementsElement.innerHTML = `<p><strong>Endorsements:</strong> ${endorsementsHTML}</p>`;
+  }
 
   const closeModalAction = () => {
     modal.style.display = 'none';
@@ -1172,6 +1371,17 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
+
+  renderNostrButton({
+    container: "#verificationActionButtons",
+    verificationId: verification.id
+  });
+
+  renderShareButton({
+    container: "#shareButtonContainer",
+    defaultMessage: "Check out this verification!",
+    showRawButtons: false
+  });
 };
 
 function insertDiffoscopeAssets() {
@@ -1242,16 +1452,6 @@ window.handleAttachmentDownload = function(attachmentId) {
   };
 
   modal.style.display = 'block';
-};
-
-// Function to show verification buttons and hide Nostr icon
-window.showVerificationButtons = function() {
-  const buttonClosedByDefault = document.getElementById('verification-action-buttons').querySelectorAll('.button-closed-by-default');
-  buttonClosedByDefault.forEach(button => {
-    button.classList.remove('button-closed-by-default');
-  });
-
-  document.getElementById('verification-nostr-icon').style.display = 'none';
 };
 
 // Function to handle attachment preview

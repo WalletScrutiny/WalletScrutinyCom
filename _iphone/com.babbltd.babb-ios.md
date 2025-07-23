@@ -11,7 +11,7 @@ released: 2020-04-14
 updated: 2024-12-16
 version: 2.5.3
 stars: 4.3
-reviews: 84
+reviews: 85
 website: https://getbabb.com/
 repository: 
 issue: 

@@ -16,8 +16,8 @@ issue:
 icon: gocoin.png
 bugbounty: 
 meta: ok
-verdict: diy
-date: 2025-04-25
+verdict: sourceavailable
+date: 2025-06-03
 twitter: 
 social: 
 features: 
@@ -28,7 +28,7 @@ features:
 
 Gocoin describes itself as: 
 
-> Gocoin is a full Bitcoin solution written in Go language (golang).
+> Gocoin is a full **Bitcoin** solution written in Go language (golang).
 
 Binaries for Windows, macOS and Linux are available. We tested the Linux variant. Once unpacked, there are at least 2 executables in the root directory: client and wallet. 
 
@@ -40,7 +40,19 @@ This might explain the computer slowdown. The LLM estimates that 32GB would be n
 
 **Wallet** 
 
-> The wallet is designed to be used offline. It is deterministic and password seeded. As long as you remember the password, you do not need any backups ever. Wallet can be used without the client, but with the provided balio tool instead.
+> The wallet is designed to be used offline. It is **deterministic and password seeded**. As long as you remember the password, you do not need any backups ever. Wallet can be used without the client, but with the provided balio tool instead.
+
+### Bitcoin Support and Self-Custody
+
+Gocoin is **exclusively a Bitcoin wallet** that provides full self-custody of your funds. The wallet is completely **non-custodial**, meaning you alone control your private keys, and no third party has access to your funds.
+
+### Private Key Management
+
+The wallet uses a **deterministic approach** to generate private keys based on your password. Your private keys are:
+- **Never uploaded** to any server
+- **Generated locally** on your device
+- **Derived from your password/seed phrase** - no need for separate backups
+- **Protected by your password** - the seed is encrypted with your password
 
 To get it to show the seedphrases, we invoke:
 
@@ -67,4 +79,7 @@ Show the wallet addresses:
 > 1DaTPKEJzDd6yAS3bGwknyCvfLbiz75DhP TypC 5\
 > 1CzY8KC6nKAbfeRjQj1xZGcDCB4A6MWrBU TypC 6
 
-There are currently binaries distributed through their releases, but the developers still recommend building from source, for the latest versions. As such, this can still be considered as a **do-it-yourself** project. 
+There are currently binaries distributed through their releases, though the developers recommend building from source for the latest versions. The **source code is available** on [GitHub](https://github.com/piotrnar/gocoin) and the binaries are available on [GitHub releases](https://github.com/piotrnar/gocoin/releases).
+
+Gocoin is a self-custodial Bitcoin wallet that gives users full control over their private keys through a deterministic approach. The wallet is designed to be used offline, providing an additional layer of security against potential online threats. Users can generate and manage their Bitcoin addresses without relying on any third-party services or servers. This wallet should be **for verification**.
+

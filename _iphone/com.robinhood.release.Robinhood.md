@@ -1,6 +1,6 @@
 ---
 wsId: Robinhood
-title: Robinhood - FinTech SuperApp
+title: 'Robinhood: Trading & Investing'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.robinhood.release.Robinhood
 appCountry: us
 idd: 938003185
 released: 2014-12-11
-updated: 2025-05-19
-version: 2025.20.0
+updated: 2025-07-14
+version: 2025.28.0
 stars: 4.3
-reviews: 4538296
+reviews: 4565983
 website: https://robinhood.com/
 repository: 
 issue: 

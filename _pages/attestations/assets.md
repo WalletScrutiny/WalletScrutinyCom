@@ -4,22 +4,23 @@ title: "Asset Registry"
 permalink: /assets/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
-
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <a href="/new_asset/" class="btn btn-success">Register New Asset</a>
-  {% include shareButton.html defaultMessage="Look at the list of latest assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!" %}
+  <a href="/new_asset/" class="btn btn-success" style="margin-bottom: 0;">Register New Asset</a>
+  <div id="shareButtonContainer"></div>
 </div>
 
 <div id="binariesTable"></div>
 
-<div id="verificationModal"></div>
-
-<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
 <script>
-  (async () => {
-    document.getElementById('loadingSpinner').style.display = 'block';
+  document.getElementById('loadingSpinner').style.display = 'block';
+
+  window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Look at the list of latest assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!",
+      showRawButtons: false
+    });
+
     try {
       await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
     } catch (error) {
@@ -27,5 +28,5 @@ permalink: /assets/
     } finally {
       document.getElementById('loadingSpinner').style.display = 'none';
     }
-  })();
+  });
 </script>

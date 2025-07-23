@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2025-02-26
+date: 2025-06-11
 signer: 
 twitter: Heartnumber_htn
 social:

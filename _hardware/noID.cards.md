@@ -27,8 +27,7 @@ date: 2024-01-05
 signer: 
 twitter: noidcards
 social:
-- >-
-  https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
+- https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 features:
 - ln
 

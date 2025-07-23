@@ -9,7 +9,7 @@ authors:
 released: 2022-08-23
 discontinued: 
 updated: 2024-05-21
-version: v3.9.0
+version: 3.10.0
 binaries: 
 dimensions:
 - 86
@@ -30,7 +30,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176
-date: 2024-09-24
+date: 2025-05-12
 signer: 
 twitter: OneKeyHQ
 social:

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: vn.beedu.blockchain.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-07-03
 signer: 
 twitter: LynKey_
 social:

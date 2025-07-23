@@ -5,8 +5,7 @@ authors:
 - danny
 icon: ageofchains.floppy.png
 date: 2022-05-19
-website: >-
-  https://www.ageofchains.com/product/xanthrax-floppy-disk-edition-series-2-card-016/
+website: https://www.ageofchains.com/product/xanthrax-floppy-disk-edition-series-2-card-016/
 twitter: ageofchains
 social:
 - https://www.youtube.com/channel/UCYDgnHlrNXoZSR1fPCRZwRA/featured

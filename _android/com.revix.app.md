@@ -8,8 +8,8 @@ users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2025-04-16
-version: 2.4.1
+updated: 2025-07-15
+version: 2.5.1
 stars: 
 ratings: 
 reviews: 

@@ -144,6 +144,9 @@ exclude:
   - assets/js/vendor
   - assets/css/barlow.css
   - assets/css/styles.css
+  - assets/css/notifications.css
+  - assets/css/verifications.css
+  - assets/css/user-profile.css
   - backup
   - config
   - docs
@@ -157,6 +160,7 @@ exclude:
   - resSources
   - scripts
   - src
+  - external_configs
   - /*.sh
   - /*.mjs
 

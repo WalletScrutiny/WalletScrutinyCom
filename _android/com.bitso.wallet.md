@@ -4,15 +4,15 @@ title: 'Bitso: Buy Bitcoin and Crypto'
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: com.bitso.wallet
 appCountry: 
 released: 2018-02-19
-updated: 2025-05-29
-version: 3.86.3
-stars: 4.7
+updated: 2025-07-16
+version: 3.89.0
+stars: 4.8
 ratings: 40512
-reviews: 308
+reviews: 309
 website: https://bitso.com/app
 repository: 
 issue: 

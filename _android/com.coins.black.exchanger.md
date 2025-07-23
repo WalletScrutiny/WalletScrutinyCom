@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coins.black.exchanger.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-12-13
+date: 2025-07-18
 signer: 
 twitter: 
 social: 

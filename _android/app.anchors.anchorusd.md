@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: app.anchors.anchorusd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-23
+date: 2025-06-03
 signer: 
 twitter: anchorusd
 social: 

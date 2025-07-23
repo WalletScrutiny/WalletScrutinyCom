@@ -1,6 +1,6 @@
 ---
 wsId: iMeMessenger
-title: 'iMe: Secure AI Messenger'
+title: 'iMe: AI Messenger for Telegram'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.iMe.android
 appCountry: 
 released: 2019-07-22
-updated: 2025-05-26
-version: 11.9.3
-stars: 4.6
+updated: 2025-07-09
+version: 11.13.0
+stars: 4.7
 ratings: 
-reviews: 696
+reviews: 703
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
 issue: https://github.com/imemessenger/iMe-Android/issues/10

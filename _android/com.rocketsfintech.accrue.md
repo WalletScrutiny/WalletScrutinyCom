@@ -8,11 +8,11 @@ users: 100000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: 2021-10-09
-updated: 2025-05-27
-version: 4.2.4
+updated: 2025-07-15
+version: 4.6.3
 stars: 4.2
 ratings: 
-reviews: 40
+reviews: 43
 website: https://useaccrue.com
 repository: 
 issue: 

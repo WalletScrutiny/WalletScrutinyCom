@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.bitpie.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-06-11
 signer: 
 twitter: BitpieWallet
 social:

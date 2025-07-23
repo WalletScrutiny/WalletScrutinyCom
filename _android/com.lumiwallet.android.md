@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-07-05
+date: 2025-07-01
 signer: 
 twitter: Lumi_wallet
 social:

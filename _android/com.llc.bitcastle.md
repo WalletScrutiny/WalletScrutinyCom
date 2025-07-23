@@ -8,11 +8,11 @@ users: 100000
 appId: com.llc.bitcastle
 appCountry: 
 released: 2022-07-29
-updated: 2025-05-20
-version: 1.12.4
-stars: 2.9
+updated: 2025-06-30
+version: 1.12.10
+stars: 3
 ratings: 
-reviews: 14
+reviews: 15
 website: https://bitcastle.io/
 repository: 
 issue: 

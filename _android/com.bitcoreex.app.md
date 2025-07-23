@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitcoreex.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-07-01
 signer: 
 twitter: 
 social: 

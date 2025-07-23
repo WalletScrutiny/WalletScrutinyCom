@@ -12,16 +12,16 @@ updated: 2024-07-12
 version: 4.2.2
 stars: 3.7
 ratings: 
-reviews: 128
+reviews: 131
 website: https://www.afrbtc.com
 repository: 
 issue: 
 icon: com.afrbtcapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2023-07-25
+date: 2025-07-08
 signer: 
 twitter: 
 social: 

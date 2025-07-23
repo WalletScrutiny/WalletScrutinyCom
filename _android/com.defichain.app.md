@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.defichain.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2021-11-11
+date: 2025-06-11
 signer: 
 twitter: defichain
 social:

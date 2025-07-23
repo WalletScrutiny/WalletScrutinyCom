@@ -20,15 +20,16 @@
   <div class="code-block-holder">
     <pre class="highlight">
       <code>
-<span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
-    <span class="cb-attr">src</span> = <span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"</span>
-    <span class="cb-attr">name</span> = <span class="cb-string _ts">"_ts"</span>
-    <span class="cb-attr">onload</span> = <span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span>
-    <span class="cb-attr">style</span> = <span class="cb-string">"border:0;border-radius:10px;"</span></span>
-    <span class="cb-tag">&gt;</span>
-<span class="cb-tag">&lt;<span class="cb-name">iframe</span>&gt;</span>
+        <span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
+            <span class="cb-attr">src</span> = <span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=short"</span>
+            <span class="cb-attr">name</span> = <span class="cb-string _ts">"_ts"</span>
+            <span class="cb-attr">onload</span> = <span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span>
+            <span class="cb-attr">style</span> = <span class="cb-string">"border:0;border-radius:10px;"</span></span>
+            <span class="cb-tag">&gt;</span>
+        <span class="cb-tag">&lt;<span class="cb-name">iframe</span>&gt;</span>
       </code>
-</pre>
+    </pre>
+
     <button class="copy_to_clipboard button" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;Copy to clipboard</button>
   </div>
 
@@ -41,12 +42,14 @@
   <br>and<br>
   <div class="code-block-holder">
     <pre class="highlight">
-<code><span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
-    <span class="cb-attr">src</span>=<span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"</span> 
-    <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
-    <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
-<span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span></code>
-</pre>
+      <code>
+        <span class="cb-tag">&lt;<span class="cb-name">iframe</span> 
+        <span class="cb-attr">src</span>=<span class="cb-string url-str">"{{ site.url }}/widget/#appId={{page.collection}}/{{page.appId}}&theme=auto&style=long"</span> 
+        <span class="cb-attr">onload</span>=<span class="cb-string">"this.setAttribute('name', this.src.split('#')[1]);window.addEventListener('message', (e)=>{try{const frame = document.getElementsByName(e.data.name)[0];frame.height=e.data.h;frame.width=e.data.w}catch(e){}})"</span></span>
+        <span class="cb-attr">style</span>=<span class="cb-string">"border:0;border-radius:10px;"</span></span>
+        <span class="cb-tag">&lt;/<span class="cb-name">iframe</span>&gt;</span>
+      </code>
+    </pre>
     <button class="copy_to_clipboard button" onclick="copyToClipboard(this);"><i class="fas fa-copy"></i>&nbsp;Copy to clipboard</button>
   </div>
   will show<br>
@@ -58,18 +61,18 @@
 
 <script src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script>
-  addDropdownEvents('widget-theme', () => { 
+  addDropdownEvents('widget-theme', () => {
     const theme = document.querySelector(".dropdown-widget-theme > .option.selected").getAttribute("data")
-    for(const frame of document.querySelectorAll("iframe")){
-    const src = String(frame.getAttribute("src")).replace(/&theme=.*&/, `&theme=${theme}&`)
+    for (const frame of document.querySelectorAll("iframe")) {
+      const src = String(frame.getAttribute("src")).replace(/&theme=.*&/, `&theme=${theme}&`)
       let newFrame = document.createElement("iframe")
       newFrame.setAttribute("src", src)
       newFrame.setAttribute("onload", String(frame.getAttribute("onload")))
       newFrame.setAttribute("style", String(frame.getAttribute("style")))
       frame.replaceWith(newFrame)
-      for(const url of document.querySelectorAll(".url-str")){
+      for (const url of document.querySelectorAll(".url-str")) {
         url.innerHTML = `"${src}"`
       }
     }
-   })
+  })
 </script>

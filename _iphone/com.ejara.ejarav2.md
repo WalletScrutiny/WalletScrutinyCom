@@ -1,6 +1,6 @@
 ---
 wsId: ejara
-title: Ejara Wallet
+title: Ejara Crypto
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.ejara.ejarav2
 appCountry: fr
 idd: '1541127587'
 released: 2021-03-22
-updated: 2025-03-28
-version: 3.8.2+330
+updated: 2025-06-04
+version: 3.8.3+333
 stars: 4
-reviews: 64
+reviews: 67
 website: https://www.ejara.io
 repository: 
 issue: 

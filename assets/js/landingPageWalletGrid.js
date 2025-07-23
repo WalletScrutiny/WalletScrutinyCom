@@ -169,7 +169,9 @@ function generateAndAppendPagination(workingArray, pageNo) {
     const index = allowedTargets.indexOf(i) + 1;
     const clickTarget = document.createElement("div");
     clickTarget.classList.add("click-target");
-    clickTarget.innerHTML = i + 1;
+    
+    let content = `${i + 1}`; // Initialize content with page number
+
     clickTarget.setAttribute("data-index", i);
     if (i == page) { clickTarget.classList.add("selected"); }
 
@@ -178,9 +180,15 @@ function generateAndAppendPagination(workingArray, pageNo) {
         clickTarget.classList.add("major-gap");
         additionalGapSet = true;
       }
-      if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) { clickTarget.classList.add("chevrons-after"); }
-      if (!allowedTargets[index - 1] && page > (index + 3)) { clickTarget.classList.add("chevrons-before"); }
 
+      if (!allowedTargets[index + 1] && (index + 1) > allowedTargets.length) {
+        content += `&nbsp;<i class="fa-solid fa-angles-right"></i>`;
+      }
+      if (!allowedTargets[index - 1] && page > (index + 3)) {
+        content = `<i class="fa-solid fa-angles-left"></i>&nbsp;` + content;
+      }
+      
+      clickTarget.innerHTML = content; // Set the final content
 
       if ((allowedTargets[i] + 1 !== allowedTargets[i + 1]) && !primaryGapSet) {
         clickTarget.classList.add("major-gap");

@@ -8,12 +8,6 @@
         <h3>Application build</h3>
 
         {% if page.repository %}
-        {% if page.issue %}
-        <p>
-            <br><a href="{{page.issue}}">See the last Issue we created</a>.
-        </p>
-        {% endif %}
-
         <script>const pageVerdict = '{{page.verdict}}'</script>
 
         <div id="appsTable" style="margin-top: 1em;"></div>
@@ -27,12 +21,8 @@
 
         <div style="margin-top: 4px; display: none;" id="createVerificationButton"></div>
 
-        <div id="verificationModal"></div>
-
-        <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
-
         <script>
-          window.addEventListener('load', async () => {
+          window.addEventListener('verificationsUILoaded', async () => {
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',
@@ -40,7 +30,7 @@
               showOnlyRows: 5,
               sortByVersion: true,
               enableDraftsFilter: true,
-              enableAttachments: true
+              showIssueTracker: true
             });
 
             const versionNumberElement = document.getElementById('version-number');

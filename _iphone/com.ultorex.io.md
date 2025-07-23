@@ -8,8 +8,8 @@ appId: com.ultorex.io
 appCountry: vc
 idd: '1625009146'
 released: 2022-07-21
-updated: 2025-01-23
-version: 1.1.17
+updated: 2025-05-27
+version: 1.1.18
 stars: 0
 reviews: 0
 website: https://ultorex.io/about-us

@@ -8,11 +8,11 @@ users: 100000
 appId: com.libertyx.libertyx
 appCountry: us
 released: 2015-06-05
-updated: 2025-05-27
-version: 4.2.4
-stars: 3.3
+updated: 2025-06-26
+version: 4.3.1
+stars: 3.2
 ratings: 427
-reviews: 345
+reviews: 346
 website: https://libertyx.com
 repository: 
 issue: 

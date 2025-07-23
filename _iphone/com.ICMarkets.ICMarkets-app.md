@@ -27,7 +27,7 @@ social:
 - https://icmarkets.com
 - https://www.linkedin.com/company/icmarkets
 features: 
-developerName: International Capital Markets Pty Ltd
+developerName: Raw Trading Ltd
 
 ---
 

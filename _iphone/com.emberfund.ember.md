@@ -1,6 +1,6 @@
 ---
 wsId: ember
-title: Ember - Earn Bitcoin
+title: Ember - Free Games. Big Wins.
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.emberfund.ember
 appCountry: us
 idd: 1406211993
 released: 2018-08-04
-updated: 2025-03-03
-version: '35.9'
-stars: 4.5
-reviews: 5957
+updated: 2025-07-02
+version: '35.11'
+stars: 4.6
+reviews: 7636
 website: https://emberfund.io/
 repository: 
 issue: 

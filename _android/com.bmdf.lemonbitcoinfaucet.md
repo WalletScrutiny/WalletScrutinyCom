@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bmdf.lemonbitcoinfaucet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-07-21
+date: 2025-06-06
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ninja.ninjapay.me.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-11-19
+date: 2025-07-01
 signer: 
 twitter: 
 social: 

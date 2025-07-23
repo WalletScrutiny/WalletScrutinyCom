@@ -8,8 +8,8 @@ users: 5000
 appId: swapitway.trade
 appCountry: 
 released: 2021-11-01
-updated: 2024-10-23
-version: '4'
+updated: 2025-06-17
+version: '5'
 stars: 2.9
 ratings: 
 reviews: 47

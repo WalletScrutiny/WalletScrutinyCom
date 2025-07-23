@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: kr.co.newlinkcorp.cashierest.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-13
+date: 2025-07-18
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.natiol.infinity.io.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2023-09-06
+date: 2025-07-18
 signer: 
 twitter: natiolinfinity
 social:

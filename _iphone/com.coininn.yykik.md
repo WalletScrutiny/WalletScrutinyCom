@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coininn.yykik.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2025-07-18
 signer: 
 twitter: coin_inn
 social:

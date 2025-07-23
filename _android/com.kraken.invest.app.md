@@ -4,15 +4,15 @@ title: 'Kraken: Buy Stocks & Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.kraken.invest.app
 appCountry: 
 released: 2020-12-30
-updated: 2025-05-27
-version: 3.17.2
+updated: 2025-07-16
+version: 3.25.0
 stars: 4.4
 ratings: 15716
-reviews: 5155
+reviews: 5619
 website: https://www.kraken.com
 repository: 
 issue: 

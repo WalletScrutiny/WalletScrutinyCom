@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.myecurrency.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-09-07
+date: 2025-06-09
 signer: 
 twitter: myecurrencyng
 social:

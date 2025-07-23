@@ -4,7 +4,7 @@ title: 'Nami Exchange: Buy BTC, Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.namicorp.exchange
 appCountry: 
 released: 2019-11-06

@@ -9,14 +9,16 @@
 ></nostr-opinion>
 {% endif %}
 <script type="module">
-  import { expertOpinions } from '/assets/js/nostr-opinion.js';
-  expertOpinions.trustedAuthors = [
-      'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
-      'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
-      'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas', // The Bitcoin Hole
-      // 'npub1gmm2ehusvs35zgh6pq84m8hkj4ea0ygy3c9j2e3slzhjjce3kmns5tdaz2', // Basanta
-  ];
-  expertOpinions.headline = 'Community Opinions ($$nTrusted$$/$$nAll$$)';
-  expertOpinions.description =
-      'These comments are contributed by nostr users using the nostr-opinions-plugin.';
+  (async () => {
+    const { expertOpinions } = await import('/assets/js/nostr-opinion.js');
+    expertOpinions.trustedAuthors = [
+        'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
+        'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
+        'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas', // The Bitcoin Hole
+        // 'npub1gmm2ehusvs35zgh6pq84m8hkj4ea0ygy3c9j2e3slzhjjce3kmns5tdaz2', // Basanta
+    ];
+    expertOpinions.headline = 'Community Opinions ($$nTrusted$$/$$nAll$$)';
+    expertOpinions.description =
+        'These comments are contributed by nostr users using the nostr-opinions-plugin.';
+  })();
 </script>

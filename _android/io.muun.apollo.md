@@ -10,11 +10,11 @@ users: 500000
 appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
-updated: 2025-04-08
-version: '53.3'
+updated: 2025-06-27
+version: '53.5'
 stars: 4
 ratings: 650
-reviews: 214
+reviews: 219
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54
@@ -37,48 +37,10 @@ features:
 
 ---
 
-With this {% include testScript.html %} we get:
+*Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a85123512755a021e4003644854d39d60facf7f6/_android/io.muun.apollo.md)*
 
-```
-===== Begin Results =====
-appId:          io.muun.apollo
-signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 52.7
-apkVersionCode: 1207
-verdict:        
-appHash:        9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
-commit:         8d6e88e553441e6493ae5c5874fed90dac596467
+## App Description
 
-Diff:
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_1207/resources.arsc and /tmp/fromBuild_io.muun.apollo_1207/resources.arsc differ
+Muun is a self-custodial Bitcoin and Lightning Network wallet for Android, featuring a 2-of-2 multi-signature model that enhances security by storing only one key on the device and providing the other in an exportable Emergency Kit. It supports both on-chain and Lightning payments from a unified interface with dynamic fee estimation based on mempool conditions. The wallet includes Bech32 address support, taproot compatibility, and fee selection options. Recovery is possible using either a written code or email and password, but it does not support standard 12/24-word seed phrases. Muun’s architecture ensures that users retain full control over their funds, with no server-side custody or data access.
 
-Revision, tag (and its signature):
-object 8d6e88e553441e6493ae5c5874fed90dac596467
-type commit
-tag v52.7
-tagger acrespo <alvaro.andres.crespo@gmail.com> 1738355020 -0300
-
-v52.7 (1207)
-===== End Results =====
-```
-
-Let's unpack `resources.arsc` files and compare:
-
-```
-$ aapt2 dump resources apollo.apk > fromPlay.txt
-$ aapt2 dump resources /tmp/test_io.muun.apollo/app/apk/apolloui-prod-release-unsigned.apk > fromBuild.txt
-$ diff fromPlay.txt fromBuild.txt
-11761c11761
-<       () "f7425425be894acaaf938fe3767bd4db"
----
->       () "eddde0cb423a46fbbe940520e08ed81e"
-
-```
-
-The diff is related to `com.crashlytics.android.build_id` string value which is an
-[issue in Crashlytics](https://github.com/firebase/firebase-android-sdk/issues/3677).
-
-Sadly, while looking benign, that is **not reproducible**.
+This app is **source available**.

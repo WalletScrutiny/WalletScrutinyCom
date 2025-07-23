@@ -4,15 +4,15 @@ title: Bipa - Cartão, Pix & Bitcoin
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
-updated: 2025-05-23
-version: 4.0.20
+updated: 2025-07-18
+version: 4.0.24
 stars: 4.5
 ratings: 
-reviews: 12
+reviews: 13
 website: https://bipa.app/
 repository: 
 issue: 

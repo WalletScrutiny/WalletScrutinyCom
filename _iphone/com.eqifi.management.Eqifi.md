@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.eqifi.management.Eqifi.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-05-14
+date: 2025-07-01
 signer: 
 twitter: eqifi_finance
 social:

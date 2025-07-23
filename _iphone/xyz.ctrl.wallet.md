@@ -8,8 +8,8 @@ appId: xyz.ctrl.wallet
 appCountry: us
 idd: '6630386336'
 released: 2024-12-10
-updated: 2025-04-28
-version: 2.1.0
+updated: 2025-07-03
+version: 2.4.0
 stars: 5
 reviews: 7
 website: https://ctrl.xyz/

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinigy.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-11-02
+date: 2025-07-01
 signer: 
 twitter: coinigy
 social:

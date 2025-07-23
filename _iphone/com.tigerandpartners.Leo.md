@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.tigerandpartners.Leo.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-17
+date: 2025-06-11
 signer: 
 twitter: LEO12_EXCHANGE
 social:

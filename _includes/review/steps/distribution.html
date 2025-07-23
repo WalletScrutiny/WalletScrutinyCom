@@ -1,11 +1,13 @@
 
 {% if include.platform!='false' %}
-<div class="step distrubition">
+<div class="step distribution">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
   {% if include.platform == 'iphone' %}
-    <i class="i-app-store circle"></i>
+    <i class="i-app-store" style="z-index: 2; font-size: 23px;"></i>
   {% elsif include.platform == 'android' %}
-    <i class="fab fa-google-play circle"></i>
+    <i class="fab fa-google-play" style="z-index: 2; font-size: 23px;"></i>
   {% endif %}
+  </i>
   <div class="title">
     <h3>Distribution</h3>
       {% if include.platform == 'iphone' %}

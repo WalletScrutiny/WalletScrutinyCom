@@ -8,8 +8,8 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2025-04-28
-version: 15.17.2
+updated: 2025-07-20
+version: 15.18.7
 stars: 3.8
 ratings: 26669
 reviews: 1389
@@ -27,7 +27,7 @@ twitter: mydopamineapp
 social:
 - https://www.facebook.com/myDopamineApp
 redirect_from: 
-developerName: Dopamine Crypto App - Bitcoin Ethereum Solana more
+developerName: Newtechincubator.com
 features: 
 
 ---

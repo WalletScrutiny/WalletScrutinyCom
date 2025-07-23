@@ -8,10 +8,10 @@ appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
 released: 2019-04-17
-updated: 2025-05-22
-version: 21.0.2
+updated: 2025-06-18
+version: 21.0.5
 stars: 3.9
-reviews: 1388
+reviews: 1385
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

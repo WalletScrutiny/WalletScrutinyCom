@@ -8,8 +8,8 @@ appId: vip.sing.exchange
 appCountry: us
 idd: '1551746664'
 released: 2021-03-31
-updated: 2025-05-21
-version: 4.3.24
+updated: 2025-06-27
+version: 4.3.27
 stars: 4
 reviews: 12
 website: 

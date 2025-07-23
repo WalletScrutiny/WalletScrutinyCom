@@ -11,8 +11,8 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2025-04-13
-version: 0.10.2
+updated: 2025-07-10
+version: 0.11.2
 stars: 4.3
 ratings: 45
 reviews: 37
@@ -40,59 +40,10 @@ features:
 
 ---
 
-We ran our updated {% include testScript.html %} and got this:
+## App Description
 
-```
-===== Begin Results =====
-appId:          app.zeusln.zeus
-signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.10.0
-apkVersionCode: 102003
-verdict:        
-appHash:        9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
-commit:         6f3be02fc840dee66309b54237e80e0666674cbd
+ZeusLN is a mobile application that functions as both a Bitcoin and Lightning Network wallet, enabling users to connect to remote `lnd` or Core Lightning nodes. The codebase is implemented in TypeScript using React Native, supporting both Android and iOS platforms. It provides extensive support for Lightning features such as LNURL, Taproot, MPP/AMP, and keysend. The application integrates with several full-node solutions including StartOS, Umbrel, RaspiBlitz, and payment platforms like BTCPay Server and LNBits. It supports self-custodial operation, connection over Tor, and advanced functionality like coin control, external signers, and watch-only accounts.
 
-Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_102003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_102003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_102003: stamp-cert-sha256
+From a development perspective, the project maintains clear build instructions for both Android and iOS, highlighting requirements such as Node.js ≥ 18.18, proper ADB setup, and native dependency installation via CocoaPods. The repository actively supports reproducible builds and encourages contributors to verify code integrity using its signed releases and commits. Localization is managed through Transifex, and developers are advised against editing locale files directly. Contributions are expected to pass type checks, automated tests, and formatting rules. The project follows AGPLv3 licensing and maintains PGP-signed commits from verified maintainers.
 
-Revision, tag (and its signature):
-
-===== End Results =====
-
-```
-
-{% include asciicast %}
-
-Size of stamp-cert-sha256
-
-```
-danny@lw10:/tmp/fromPlay_app.zeusln.zeus_98001$ wc -c stamp-cert-sha256
-32 stamp-cert-sha256
-```
-
-32 bytes.
-
-**diffoscope on AndroidManifest.xml**
-
-We run: 
-
-`danny@lw10:/tmp/test_app.zeusln.zeus$ diffoscope --html diffo-decoded-app.zeusln.zeus_v98001-AndroidManifest.xml.html armeabi_v7a/AndroidManifest.xml playAPK/AndroidManifest.xml`
-
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.zeusln.zeus/0.9.5/diffo-decoded-app.zeusln.zeus_v98001-AndroidManifest.xml.html' %}
-
-There is only a one-line difference:
-
-`<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="1"/>`
-
-This meta-data tag is added by Google Play when the app is processed and distributed through the Play Store. It does not exist in an APK built from source before being uploaded to Google Play.
-
-### Purpose of com.android.vending.derived.apk.id
-
-This tag is injected by the Google Play Store’s app signing and distribution process.
-
-This, minus the signing differences, make version 0.9.7 of this app **reproducible**.
 

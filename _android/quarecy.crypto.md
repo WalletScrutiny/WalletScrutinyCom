@@ -8,11 +8,11 @@ users: 1000000
 appId: quarecy.crypto
 appCountry: 
 released: 2018-11-10
-updated: 2025-03-18
-version: 3.5.20
+updated: 2025-07-07
+version: 3.6.0
 stars: 4.8
 ratings: 
-reviews: 461
+reviews: 463
 website: 
 repository: 
 issue: 

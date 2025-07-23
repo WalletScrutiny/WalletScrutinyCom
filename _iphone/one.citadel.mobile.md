@@ -8,8 +8,8 @@ appId: one.citadel.mobile
 appCountry: us
 idd: '1546701475'
 released: 2021-04-06
-updated: 2023-05-19
-version: 2.9.5
+updated: 2025-05-27
+version: 2.12.2
 stars: 4.5
 reviews: 15
 website: https://citadel.one/
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2025-05-14
+date: 2025-06-06
 signer: 
 twitter: CitadelDAO
 social:

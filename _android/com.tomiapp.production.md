@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: TOMI – AI Crypto Wallet
+title: 'TOMI: Web3 SuperApp'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2025-03-28
-version: '186.0'
+updated: 2025-07-18
+version: '202.0'
 stars: 
 ratings: 
 reviews: 

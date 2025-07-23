@@ -3,12 +3,12 @@ wsId:
 title: Iris Wallet Testnet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.iriswallet.testnet
 appCountry: 
 released: 2022-10-21
-updated: 2023-10-19
-version: 0.2.1-testnet
+updated: 2025-07-17
+version: 0.3.0-testnet
 stars: 
 ratings: 
 reviews: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.iriswallet.testnet.png
 bugbounty: 
-meta: stale
-verdict: fewusers
+meta: ok
+verdict: wip
 appHashes: 
-date: 2024-10-16
+date: 2025-07-21
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-06-18
 signer: 
 twitter: Hoo_exchange
 social:

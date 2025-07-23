@@ -11,9 +11,9 @@ appCountry:
 released: 2020-11-24
 updated: 2025-05-23
 version: 2.2.315
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 41
+reviews: 43
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
 issue: 
@@ -26,8 +26,7 @@ date: 2023-10-20
 signer: 
 twitter: blinkbtc
 social:
-- >-
-  https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
+- https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
 - https://t.me/blinkbtc
 - https://snort.social/p/community@blink.sv
 redirect_from: 

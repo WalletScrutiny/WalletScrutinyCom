@@ -8,8 +8,8 @@ appId: com.nebeus.appmobile
 appCountry: gt
 idd: '1568251064'
 released: 2021-05-26
-updated: 2025-05-21
-version: '2.1'
+updated: 2025-06-13
+version: 2.1.1
 stars: 0
 reviews: 0
 website: https://nebeus.com

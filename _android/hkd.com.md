@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: hkd.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-02-13
+date: 2025-06-23
 signer: 
 twitter: HKD_exchange
 social:

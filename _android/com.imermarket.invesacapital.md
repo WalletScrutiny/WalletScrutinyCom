@@ -7,8 +7,8 @@ users: 10000
 appId: com.imermarket.invesacapital
 appCountry: 
 released: 
-updated: 2025-03-26
-version: 2.8.0
+updated: 2025-07-04
+version: 2.8.5
 stars: 2.3
 ratings: 
 reviews: 

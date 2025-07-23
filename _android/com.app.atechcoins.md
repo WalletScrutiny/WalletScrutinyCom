@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-10
 updated: 2025-03-20
 version: 1.1.8
-stars: 3.4
+stars: 3.5
 ratings: 85
 reviews: 9
 website: https://www.atechcoins.com

@@ -96,11 +96,11 @@ body, input {
   background: var(--accent-text);
 }
 
-a.theme-parent>i.fa-sun, .-dark {
+a.theme-parent>svg.fa-sun, .-dark {
   display: var(--hide-light);
 }
 
-a.theme-parent>i.fa-moon, .-light {
+a.theme-parent>svg.fa-moon, .-light {
   display: var(--hide-dark);
 }
 

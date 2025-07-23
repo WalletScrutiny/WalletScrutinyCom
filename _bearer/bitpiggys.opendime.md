@@ -13,8 +13,7 @@ weight:
 provider: Bitpiggys
 providerWebsite: https://web.archive.org/web/20220330033813/https://www.bitpiggys.com/
 website: 
-shop: >-
-  https://web.archive.org/web/20220331021237/https://www.bitpiggys.com/online-store
+shop: https://web.archive.org/web/20220331021237/https://www.bitpiggys.com/online-store
 country: 
 price: 
 repository: 

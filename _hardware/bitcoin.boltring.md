@@ -13,8 +13,7 @@ weight:
 provider: CoinCorner and Boltcard Contributors
 providerWebsite: 
 website: https://docs.bolt-ring.com/
-shop: >-
-  https://bitcoin-ring.com/products/bitcoin-boltring-contactless-nfc-lightning-payment
+shop: https://bitcoin-ring.com/products/bitcoin-boltring-contactless-nfc-lightning-payment
 country: DE
 price: 
 repository: https://github.com/bitcoin-ring/boltlib

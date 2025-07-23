@@ -8,8 +8,8 @@ users: 1000000
 appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
-updated: 2025-05-08
-version: 1.3.34
+updated: 2025-07-03
+version: 1.3.36
 stars: 4.2
 ratings: 
 reviews: 20
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: TradeWill Global LLC
+developerName: TradeWill Global
 features: 
 
 ---

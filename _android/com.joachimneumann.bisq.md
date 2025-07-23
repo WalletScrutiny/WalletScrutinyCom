@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-06
 updated: 2025-02-26
 version: 1.3.4
-stars: 2.7
+stars: 2.8
 ratings: 69
-reviews: 17
+reviews: 16
 website: https://bisq.network/mobile-notifications
 repository: https://github.com/bisq-network/bisqremote_Android
 issue: 

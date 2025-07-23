@@ -7,15 +7,14 @@ authors:
 released: 2020-12-08
 discontinued: 
 updated: 2021-10-16
-version: 3.0.0
+version: 3.10.0
 binaries: 
 dimensions: 
 weight: 
 provider: Bixin
 providerWebsite: 
 website: https://onekey.so/
-shop: >-
-  https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
+shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=41169098178722
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
@@ -26,7 +25,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - 88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae
-date: 2023-07-12
+date: 2025-05-16
 signer: 
 twitter: onekeyhq
 social:

@@ -6,7 +6,7 @@ authors:
 released: 2016-04-09
 discontinued: 
 updated: 2024-05-27
-version: 1.9.15
+version: 1.9.21
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bisq.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2024-04-24
+date: 2025-06-26
 twitter: bisq_network
 social: 
 features: 

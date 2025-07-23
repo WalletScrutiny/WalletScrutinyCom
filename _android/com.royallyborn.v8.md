@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.royallyborn.v8.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-28
+date: 2025-07-21
 signer: 
 twitter: 8vGlobal
 social:
