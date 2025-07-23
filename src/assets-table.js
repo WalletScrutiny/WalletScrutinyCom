@@ -1285,6 +1285,14 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const profile = await getNostrProfile(verification.pubkey);
   if (profile && (profile.lud16 || profile.lud06)) {
     document.getElementById('zapButton').style.display = 'inline-block';
+  } else {
+    const zapBtn = document.getElementById('zapButton');
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = true;
+    zapBtn.style.backgroundColor = '#ccc';
+    zapBtn.style.color = '#888';
+    zapBtn.style.cursor = 'not-allowed';
+    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
   }
 
   document.getElementById('attempt-by').innerHTML = profile ? `
