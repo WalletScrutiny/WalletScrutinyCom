@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, generateZapRequest, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -1225,29 +1225,64 @@ const cleanupNdkConnections = function() {
  * @returns {Promise<void>} - Promise that resolves when the zap is sent
  */
 const createZap = async function ({ event, amount, comment = '', lnPay = undefined }) {
+  const profile = await getNostrProfile(event.pubkey);
+  if (!profile || (!profile.lud16 && !profile.lud06)) {
+    throw new Error('The user doesn\'t have a nostr profile or a LN address to receive sats');
+  }
+
+  const lnurlSpec = await getNip57ZapSpecFromLud({lud06: profile.lud06, lud16: profile.lud16}, ndk);
+
+  if (!lnurlSpec) {
+    throw new Error('The user doesn\'t have a LN address to receive sats');
+  }
+
   const zapper = new NDKZapper(event, amount * 1000, "msat", {
     comment,
     ndk,
     signer: ndk.signer,
     tags: [
-      ["p", event.pubkey]
+      ["p", event.pubkey],
+      ["e", event.id]
     ],
   });
 
-  if (event.kind !== 0) {
-    zapper.tags.push(["e", event.id]);
-  }
-
   if (lnPay) zapper.lnPay = lnPay;
 
-  return zapper.zap();
+
+  const relays = await zapper.relays(event.pubkey);
+
+  const zapRequestEvent = await generateZapRequest(
+      event,
+      ndk,
+      lnurlSpec,
+      event.pubkey,
+      amount * 1000,
+      relays,
+      comment,
+      zapper.tags
+  ).catch((err) => {
+      console.log('Error: An error occurred in generating zap request!', err);
+      return null;
+  });
+  if (!zapRequestEvent) throw new Error('Failed to generate zap request');
+  console.log('zapRequestEvent', zapRequestEvent);
+
+  const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
+    console.log('Error: An error occurred in getting LnInvoice!', err);
+    return null;
+  });
+  if (!invoice) throw new Error('Failed to get LNInvoice');
+  console.log('invoice', invoice);
+
+  await lnPay({pr: invoice});
 }
 
 const getZapReceipts = async function(zapEvent) {
   console.log('getZapReceipts - zapEvent', zapEvent);
   const filter = {
-    kinds: [9734],
+    kinds: [9735],
     ["#p"]: [zapEvent.pubkey],
+    ["#P"]: [zapEvent.pubkey],
   }
   const events = await ndk.fetchEvents(filter);
   console.log('getZapReceipts - events', events);
