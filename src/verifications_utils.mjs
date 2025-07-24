@@ -1230,10 +1230,13 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
     ndk,
     signer: ndk.signer,
     tags: [
-      ["e", event.id],
-      ["p", event.pubkey],
+      ["p", event.pubkey]
     ],
   });
+
+  if (event.kind !== 0) {
+    zapper.tags.push(["e", event.id]);
+  }
 
   if (lnPay) zapper.lnPay = lnPay;
 
@@ -1241,7 +1244,6 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
 }
 
 const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
-  console.log('getZapReceipt', zapEventId);
   const filter = {
     kinds: [9735],
     ["#e"]: [zapEventId],
@@ -1280,7 +1282,6 @@ const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
         }
       }
     })
-    console.log('terminado el subscribe');
   } catch (error) {
     console.warn("Unable to fetch zap receipt", error)
   }
