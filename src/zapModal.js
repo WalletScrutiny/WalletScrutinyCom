@@ -120,8 +120,7 @@ function showZapModal({ onClose, setZapped }) {
     }
     #zapQR p:last-child {
       font-size: 0.9em; opacity: 0.7;
-    }
-  `;
+    }`;
   document.head.appendChild(style);
 
   const event = window.currentVerification || window.profileEvent;
@@ -199,22 +198,6 @@ function showZapModal({ onClose, setZapped }) {
       return;
     }
 
-    /*
-    try {
-      const profile = await getNostrProfile(event.pubkey);
-      console.log('  --- profile', profile);
-
-      if (!profile || (!profile.lud16 && !profile.lud06)) {
-        errorDiv.textContent = 'This user does not support zaps (no LN address in profile).';
-        return;
-      }
-    } catch (e) {
-      errorDiv.textContent = 'Could not fetch user profile to check zap support.';
-      console.error('Profile fetch error:', e);
-      return;
-    }
-    */
-
     try {
       const lnPay = async ({ pr }) => {
         const isWalletConnect = false;
@@ -243,14 +226,18 @@ function showZapModal({ onClose, setZapped }) {
 
       document.getElementById('loadingSpinner').style.display = 'none';
 
+      /*
       await getZapReceipt(event.id, (ok) => {
         if (ok) {
+          console.log('--------------------- ZAP RECEIPT RECEIVED **************************');
+          // TODO: show a message to the user that the zap was received
+          // TODO: close the modal
           //if (setZapped) setZapped(true);
           // modal.remove();
           //if (onClose) onClose();
-          console.log('--------------------- ZAP RECEIPT RECEIVED **************************');
         }
       });
+      */
     } catch (err) {
       errorDiv.textContent = err.message || 'Failed to process zap. Please try again.';
     }
@@ -277,6 +264,13 @@ function showZapModal({ onClose, setZapped }) {
           if (error) qrDiv.innerHTML += '<p>Error generating QR</p>';
         }
       );
+
+      const qrCanvas = document.getElementById('zapQRCode');
+      qrCanvas.style.cursor = 'pointer';
+      qrCanvas.title = 'Click to open zap invoice in LN wallet';
+      qrCanvas.onclick = () => {
+        window.open(`lightning:${bolt11}`, '_blank');
+      };
     } else {
       qrDiv.innerHTML += '<p>QRCode lib not loaded</p>';
     }
