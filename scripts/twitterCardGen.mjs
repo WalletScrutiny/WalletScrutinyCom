@@ -126,7 +126,7 @@ const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
 const nostrStatusMap = {
   'reproducible': 'Reproducible',
   'not_reproducible': 'Not Reproducible',
-  'ftbfs': 'The verifier failed to build the app from source'
+  'ftbfs': '⚠ Build failed'
 };
 // Cache for Nostr verification info to avoid repeated grep/jq calls
 let nostrVerificationCache = new Map();
@@ -968,11 +968,18 @@ async function drawOnCanvas (data, iconImage) {
   // Draw rounded rectangle with 16px radius (very rounded)
   ctx.save();
   
-  // Special styling for source-available verdicts
+  // Set background color to FAF0E6 for all verdicts
+  ctx.fillStyle = '#FAF0E6';
+  
+  // Define stroke colors based on verdict
+  let strokeColor = '#000000'; // Default black stroke
+  
   if (data.verdict === 'sourceavailable') {
-    ctx.fillStyle = '#12BD95'; // Updated green background for source-available
-  } else {
-    ctx.fillStyle = 'rgba(255, 255, 255, 1.0)'; // Full opacity white background for other verdicts
+    strokeColor = '#1caaa2';
+  } else if (['custodial', 'nosource', 'nosendreceive', 'fake', 'noita', 'prefilled', 'vapor'].includes(data.verdict)) {
+    strokeColor = '#aa1c1c';
+  } else if (['diy', 'fewusers', 'wip'].includes(data.verdict)) {
+    strokeColor = '#B2BEB5';
   }
   
   ctx.beginPath();
@@ -986,13 +993,19 @@ async function drawOnCanvas (data, iconImage) {
   ctx.lineTo(verdictX, verdictRectY + 12);
   ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 12, verdictRectY);
   ctx.fill();
+  
+  // Add 4px stroke
+  ctx.strokeStyle = strokeColor;
+  ctx.lineWidth = 4;
+  ctx.stroke();
+  
   ctx.restore();
 
   // Draw the verdict text for all apps
   ctx.textAlign = 'left';
   
-  // Special text color for source-available verdicts
-  const textColor = data.verdict === 'sourceavailable' ? 'white' : 'black';
+  // Use black text for all verdicts since background is now consistent light color
+  const textColor = 'black';
   const centeredTextY = verdictRectY + (verdictHeight /2) + 10;
   printText(mappedVerdict, ctx, verdictX + 12, centeredTextY, textColor, '400 27px Barlow', 41, 30); // Add padding from the left edge of the box
   
@@ -1064,6 +1077,9 @@ async function drawOnCanvas (data, iconImage) {
     if (dateText) badgeTextParts.push(dateText);
     const badgeText = badgeTextParts.join(' • ');
     
+    // Badge height for consistent sizing
+    const badgeHeight = 36;
+    
     // Nostr icon setup (50% smaller)
     const nostrIconSize = 50; // Reduced from 100 to 50
     const nostrIconX = titleX; // Align left with verdict text
@@ -1071,7 +1087,7 @@ async function drawOnCanvas (data, iconImage) {
     
     // Load and draw Nostr icon
     if (nostrImage) {
-      const nostrIconY = nostrInfoY - 8 - (nostrIconSize - 28) / 2; // Center with badge
+      const nostrIconY = nostrInfoY - 8 - (nostrIconSize - badgeHeight) / 2; // Center with badge
       
       ctx.save();
       ctx.drawImage(nostrImage, nostrIconX, nostrIconY, nostrIconSize, nostrIconSize);
@@ -1085,7 +1101,7 @@ async function drawOnCanvas (data, iconImage) {
     } else if (data.nostrBuildStatus === 'not_reproducible') {
       strokeColor = '#F87171'; // Subtle red
     } else if (data.nostrBuildStatus === 'ftbfs') {
-      strokeColor = '#9CA3AF'; // Subtle gray
+      strokeColor = '#aa1c1c'; // Red like verdict colors
     }
     
     // Calculate available width for text (from badge start to card edge)
@@ -1093,9 +1109,8 @@ async function drawOnCanvas (data, iconImage) {
     const maxBadgeWidth = cardWidth - badgeX - 30; // 30px margin from right edge
     
     // Measure text for badge sizing (enlarged text)
-    ctx.font = '22px Barlow';
+    ctx.font = '26px Barlow';
     const fullTextWidth = ctx.measureText(badgeText).width + 24;
-    const badgeHeight = 32;
     
     // Check if text fits in one line or needs to be split
     if (fullTextWidth <= maxBadgeWidth) {
@@ -1112,10 +1127,11 @@ async function drawOnCanvas (data, iconImage) {
       ctx.restore();
       
       // Draw badge text (vertically centered)
-      ctx.font = '22px Barlow';
+      ctx.font = '26px Barlow';
       ctx.fillStyle = 'white';
       ctx.textAlign = 'left';
-      const textY = nostrInfoY - 8 + (badgeHeight / 2) + 7;
+      // Vertical centering: badge top + half height + small font adjustment (increase +2 to move text down, decrease to move up)
+      const textY = nostrInfoY - 8 + (badgeHeight / 2) + 10;
       ctx.fillText(badgeText, badgeX + 12, textY);
     } else {
       // Multi-line badge - handle ftbfs specially
@@ -1123,44 +1139,34 @@ async function drawOnCanvas (data, iconImage) {
       let secondLine = '';
       let verticalGap = 4; // Default gap
       
-      if (data.nostrBuildStatus === 'ftbfs') {
-        // Special handling for ftbfs - predefined split
-        verticalGap = 10; // 10px gap for ftbfs
-        firstLine = 'The verifier failed to build...';
+      // Standard intelligent splitting for all cases
+      const words = badgeText.split(' ');
+      
+      // Find the best split point
+      for (let i = 0; i < words.length; i++) {
+        const testLine = firstLine + (firstLine ? ' ' : '') + words[i];
+        const testWidth = ctx.measureText(testLine).width + 24;
         
-        // Build second line: "...the app from source • date"
-        const dateText = data.latestDate ? ` • ${data.latestDate}` : '';
-        secondLine = `...the app from source${dateText}`;
-      } else {
-        // Standard intelligent splitting for other cases
-        const words = badgeText.split(' ');
-        
-        // Find the best split point
-        for (let i = 0; i < words.length; i++) {
-          const testLine = firstLine + (firstLine ? ' ' : '') + words[i];
+        if (testWidth <= maxBadgeWidth) {
+          firstLine = testLine;
+        } else {
+          secondLine = words.slice(i).join(' ');
+          break;
+        }
+      }
+      
+      // If no good split found, force split at character level
+      if (!secondLine && firstLine !== badgeText) {
+        const chars = badgeText.split('');
+        firstLine = '';
+        for (let i = 0; i < chars.length; i++) {
+          const testLine = firstLine + chars[i];
           const testWidth = ctx.measureText(testLine).width + 24;
-          
           if (testWidth <= maxBadgeWidth) {
             firstLine = testLine;
           } else {
-            secondLine = words.slice(i).join(' ');
+            secondLine = chars.slice(i).join('');
             break;
-          }
-        }
-        
-        // If no good split found, force split at character level
-        if (!secondLine && firstLine !== badgeText) {
-          const chars = badgeText.split('');
-          firstLine = '';
-          for (let i = 0; i < chars.length; i++) {
-            const testLine = firstLine + chars[i];
-            const testWidth = ctx.measureText(testLine).width + 24;
-            if (testWidth <= maxBadgeWidth) {
-              firstLine = testLine;
-            } else {
-              secondLine = chars.slice(i).join('');
-              break;
-            }
           }
         }
       }
@@ -1189,16 +1195,16 @@ async function drawOnCanvas (data, iconImage) {
       ctx.restore();
       
       // Draw text for both badges
-      ctx.font = '22px Barlow';
+      ctx.font = '26px Barlow';
       ctx.fillStyle = 'white';
       ctx.textAlign = 'left';
       
-      // First line text
-      const firstTextY = nostrInfoY - 8 + (badgeHeight / 2) + 7;
+      // First line text (vertical centering: increase +2 to move down, decrease to move up)
+      const firstTextY = nostrInfoY - 8 + (badgeHeight / 2) + 2;
       ctx.fillText(firstLine, badgeX + 12, firstTextY);
       
-      // Second line text
-      const secondTextY = secondBadgeY + (badgeHeight / 2) + 7;
+      // Second line text (vertical centering: increase +2 to move down, decrease to move up)
+      const secondTextY = secondBadgeY + (badgeHeight / 2) + 2;
       ctx.fillText(secondLine, badgeX + 12, secondTextY);
     }
   }
