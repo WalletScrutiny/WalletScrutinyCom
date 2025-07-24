@@ -114,10 +114,11 @@ const androidImagePath = 'images/twCard/android_icon.png';
 const appleImagePath = 'images/twCard/apple_logo.png';
 const desktopImagePath = 'images/twCard/desktop_logo.png';
 const sadNostrichImagePath = 'images/twCard/sad_nostrich.png';
+const nostrImagePath = 'images/twCard/nostr_icon.png';
 const fallbackIcon = 'images/smallNoicon.png';
 
 // Global variables for images
-let bgImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage;
+let bgImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage, nostrImage;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
@@ -174,6 +175,14 @@ async function loadResources () {
     sadNostrichImage = await loadImage(sadNostrichImagePath);
   } catch (error) {
     console.error(`Error loading Sad Nostrich image: ${error.message}`);
+  }
+
+  // Load Nostr icon
+  try {
+    nostrImage = await loadImage(nostrImagePath);
+    console.log(`\x1b[32m[NOSTR] Successfully loaded Nostr icon from ${nostrImagePath}\x1b[0m`);
+  } catch (error) {
+    console.error(`\x1b[31m[NOSTR] Error loading Nostr icon: ${error.message}\x1b[0m`);
   }
 
   // Load Apple logo
@@ -1043,32 +1052,155 @@ async function drawOnCanvas (data, iconImage) {
       nostrInfoY = verdictY + 130; // Position below meta message if it exists
     }
     
-    // Create badge-style display
+    // Create badge-style display - rearranged: version • verdict • date
+    const versionText = data.latestVersion ? `v${data.latestVersion}` : '';
     const statusText = data.nostrBuildStatus === 'reproducible' ? '✓ Reproducible' : nostrStatusMap[data.nostrBuildStatus];
-    const dateText = data.latestDate ? ` • ${data.latestDate}` : '';
-    const versionText = data.latestVersion ? ` • v${data.latestVersion}` : '';
-    const badgeText = `${statusText}${dateText}${versionText}`;
+    const dateText = data.latestDate ? data.latestDate : '';
     
-    // Measure text for badge sizing (slightly smaller than source available badge)
-    ctx.font = '24px Barlow'; // Slightly smaller than source available (27px)
-    const badgeWidth = ctx.measureText(badgeText).width + 24; // More padding for larger text
-    const badgeHeight = 32; // Increased height for larger text
+    // Combine in new order: version • status • date
+    let badgeTextParts = [];
+    if (versionText) badgeTextParts.push(versionText);
+    if (statusText) badgeTextParts.push(statusText);
+    if (dateText) badgeTextParts.push(dateText);
+    const badgeText = badgeTextParts.join(' • ');
     
-    // Draw badge background
-    ctx.save();
-    ctx.fillStyle = data.nostrBuildStatus === 'reproducible' ? '#12BD95' : '#6B7280'; // Same green as source available
-    ctx.beginPath();
-    ctx.roundRect(titleX, nostrInfoY - 8, badgeWidth, badgeHeight, 12); // 12px rounded rectangle (same as source available)
-    ctx.fill();
-    ctx.restore();
+    // Nostr icon setup (50% smaller)
+    const nostrIconSize = 50; // Reduced from 100 to 50
+    const nostrIconX = titleX; // Align left with verdict text
+    const badgeX = nostrIconX + nostrIconSize + 10; // Badge positioned after icon with 10px gap
     
-    // Draw badge text
-    ctx.font = '24px Barlow';
-    ctx.fillStyle = 'white';
-    ctx.textAlign = 'left';
-    // Center text vertically in the badge
-    const textY = nostrInfoY - 8 + (badgeHeight / 2) + 8; // Center vertically with slight adjustment
-    ctx.fillText(badgeText, titleX + 12, textY);
+    // Load and draw Nostr icon
+    if (nostrImage) {
+      const nostrIconY = nostrInfoY - 8 - (nostrIconSize - 28) / 2; // Center with badge
+      
+      ctx.save();
+      ctx.drawImage(nostrImage, nostrIconX, nostrIconY, nostrIconSize, nostrIconSize);
+      ctx.restore();
+    }
+    
+    // Determine stroke color based on verification status
+    let strokeColor = 'white'; // Default
+    if (data.nostrBuildStatus === 'reproducible') {
+      strokeColor = '#4ADE80'; // Subtle green
+    } else if (data.nostrBuildStatus === 'not_reproducible') {
+      strokeColor = '#F87171'; // Subtle red
+    } else if (data.nostrBuildStatus === 'ftbfs') {
+      strokeColor = '#9CA3AF'; // Subtle gray
+    }
+    
+    // Calculate available width for text (from badge start to card edge)
+    const cardWidth = 800;
+    const maxBadgeWidth = cardWidth - badgeX - 30; // 30px margin from right edge
+    
+    // Measure text for badge sizing (enlarged text)
+    ctx.font = '22px Barlow';
+    const fullTextWidth = ctx.measureText(badgeText).width + 24;
+    const badgeHeight = 32;
+    
+    // Check if text fits in one line or needs to be split
+    if (fullTextWidth <= maxBadgeWidth) {
+      // Single line badge
+      const badgeWidth = fullTextWidth;
+      
+      // Draw badge border with status-based color
+      ctx.save();
+      ctx.strokeStyle = strokeColor;
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.roundRect(badgeX, nostrInfoY - 8, badgeWidth, badgeHeight, 14);
+      ctx.stroke();
+      ctx.restore();
+      
+      // Draw badge text (vertically centered)
+      ctx.font = '22px Barlow';
+      ctx.fillStyle = 'white';
+      ctx.textAlign = 'left';
+      const textY = nostrInfoY - 8 + (badgeHeight / 2) + 7;
+      ctx.fillText(badgeText, badgeX + 12, textY);
+    } else {
+      // Multi-line badge - handle ftbfs specially
+      let firstLine = '';
+      let secondLine = '';
+      let verticalGap = 4; // Default gap
+      
+      if (data.nostrBuildStatus === 'ftbfs') {
+        // Special handling for ftbfs - predefined split
+        verticalGap = 10; // 10px gap for ftbfs
+        firstLine = 'The verifier failed to build...';
+        
+        // Build second line: "...the app from source • date"
+        const dateText = data.latestDate ? ` • ${data.latestDate}` : '';
+        secondLine = `...the app from source${dateText}`;
+      } else {
+        // Standard intelligent splitting for other cases
+        const words = badgeText.split(' ');
+        
+        // Find the best split point
+        for (let i = 0; i < words.length; i++) {
+          const testLine = firstLine + (firstLine ? ' ' : '') + words[i];
+          const testWidth = ctx.measureText(testLine).width + 24;
+          
+          if (testWidth <= maxBadgeWidth) {
+            firstLine = testLine;
+          } else {
+            secondLine = words.slice(i).join(' ');
+            break;
+          }
+        }
+        
+        // If no good split found, force split at character level
+        if (!secondLine && firstLine !== badgeText) {
+          const chars = badgeText.split('');
+          firstLine = '';
+          for (let i = 0; i < chars.length; i++) {
+            const testLine = firstLine + chars[i];
+            const testWidth = ctx.measureText(testLine).width + 24;
+            if (testWidth <= maxBadgeWidth) {
+              firstLine = testLine;
+            } else {
+              secondLine = chars.slice(i).join('');
+              break;
+            }
+          }
+        }
+      }
+      
+      // Calculate widths for both lines
+      const firstLineWidth = Math.max(ctx.measureText(firstLine).width + 24, 100);
+      const secondLineWidth = Math.max(ctx.measureText(secondLine).width + 24, 100);
+      
+      // Draw first badge
+      ctx.save();
+      ctx.strokeStyle = strokeColor;
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.roundRect(badgeX, nostrInfoY - 8, firstLineWidth, badgeHeight, 14);
+      ctx.stroke();
+      ctx.restore();
+      
+      // Draw second badge below first with adjusted gap
+      const secondBadgeY = nostrInfoY - 8 + badgeHeight + verticalGap;
+      ctx.save();
+      ctx.strokeStyle = strokeColor;
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.roundRect(badgeX, secondBadgeY, secondLineWidth, badgeHeight, 14);
+      ctx.stroke();
+      ctx.restore();
+      
+      // Draw text for both badges
+      ctx.font = '22px Barlow';
+      ctx.fillStyle = 'white';
+      ctx.textAlign = 'left';
+      
+      // First line text
+      const firstTextY = nostrInfoY - 8 + (badgeHeight / 2) + 7;
+      ctx.fillText(firstLine, badgeX + 12, firstTextY);
+      
+      // Second line text
+      const secondTextY = secondBadgeY + (badgeHeight / 2) + 7;
+      ctx.fillText(secondLine, badgeX + 12, secondTextY);
+    }
   }
   
   // Reset text alignment to default
