@@ -36,7 +36,7 @@
     "webpack": "^5.100.2",
     "webpack-bundle-analyzer": "^4.10.2",
     "webpack-cli": "^6.0.1",
-    "webpack-shell-plugin-next": "^2.3.2"
+    "webpack-shell-plugin-next": "^2.3.3"
   },
   "scripts": {
     "dev": "webpack --mode development --watch & bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental",
