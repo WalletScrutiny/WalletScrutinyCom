@@ -226,11 +226,13 @@ function showZapModal({ onClose, setZapped }) {
         }
       };
 
-      await createZap({ event, amount, comment: zapMessage, lnPay });
+      const currentInvoice = await createZap({ event, amount, comment: zapMessage });
+
+      await lnPay({ pr: currentInvoice });
 
       document.getElementById('loadingSpinner').style.display = 'none';
 
-      await getZapReceipt(event, async (ok) => {
+      await subscribeToZapReceipts(event, currentInvoice, async (ok) => {
         if (ok) {
           modal.querySelector('#zap-modal-content-inner').style.display = 'none';
           modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap received!</p>';

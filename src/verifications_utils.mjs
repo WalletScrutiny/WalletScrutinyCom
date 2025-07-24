@@ -1221,10 +1221,9 @@ const cleanupNdkConnections = function() {
  * @param {Object} params.event - Nostr event object
  * @param {number} params.amount - Amount in sats
  * @param {string} [params.comment] - Optional comment
- * @param {function} [params.lnPay] - Callback to pay the LN invoice
  * @returns {Promise<void>} - Promise that resolves when the zap is sent
  */
-const createZap = async function ({ event, amount, comment = '', lnPay = undefined }) {
+const createZap = async function ({ event, amount, comment = '' }) {
   const profile = await getNostrProfile(event.pubkey);
   if (!profile || (!profile.lud16 && !profile.lud06)) {
     throw new Error('The user doesn\'t have a nostr profile or a LN address to receive sats');
@@ -1245,9 +1244,6 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
       ["e", event.id]
     ],
   });
-
-  if (lnPay) zapper.lnPay = lnPay;
-
 
   const relays = await zapper.relays(event.pubkey);
 
@@ -1273,28 +1269,28 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
     return null;
   });
   if (!invoice) throw new Error('Failed to get LNInvoice');
-  console.log('invoice', invoice);
 
-  await lnPay({pr: invoice});
+  return invoice;
 }
 
-const getZapReceipt = async function(zapEvent, receiptReceivedCallback) {
+const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback) {
   try {
     const sub = ndk.subscribe({
       kinds: [9735],
-      ["#e"]: [zapEvent.id]
+      ["#e"]: [zapEvent.id],
+      ["#bolt11"]: [currentZapInvoice]
     })
 
     sub?.on("event", async (event) => {
-      console.debug('ZapReceipt event', event);
+      console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
       sub.stop()
-      const receiptInvoice = event.tagValue("bolt11")
-      console.debug('receiptInvoice', receiptInvoice);
-      if (receiptInvoice) {
-        const decodedInvoice = decode(receiptInvoice)
-        console.debug('decodedInvoice', decodedInvoice);
+      const zapReceiptInvoice = event.tagValue("bolt11")
+      console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
+      if (zapReceiptInvoice) {
+        const decodedInvoice = decode(zapReceiptInvoice)
+        console.debug('    - subscribeToZapReceipts - decodedInvoice', decodedInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
-        console.debug('zapRequest (zapInvoiceFromEvent)', zapRequest);
+        console.debug('    - zapRequest (zapInvoiceFromEvent)', zapRequest);
 
         const amountSection = decodedInvoice.sections.find(
           (section) => section.name === "amount"
@@ -1357,7 +1353,7 @@ if (typeof window !== 'undefined') {
   window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
   window.createZap = createZap;
   window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
-  window.getZapReceipt = getZapReceipt;
+  window.subscribeToZapReceipts = subscribeToZapReceipts;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1394,5 +1390,5 @@ export {
   sendPrivateMessageToVerifier,
   getEndorsementsFromVerificationEventIds,
   createZap,
-  getZapReceipt
+  subscribeToZapReceipts
 };
