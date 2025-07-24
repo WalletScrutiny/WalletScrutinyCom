@@ -226,6 +226,7 @@ function showZapModal({ onClose, setZapped }) {
           return undefined;
         }
       };
+
       await createZap({ event, amount, comment: zapMessage, lnPay });
 
       document.getElementById('loadingSpinner').style.display = 'none';
