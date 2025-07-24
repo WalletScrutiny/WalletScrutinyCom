@@ -1255,13 +1255,13 @@ const getZapReceipts = async function(zapEvent) {
 }
 window.getZapReceipts = getZapReceipts;
 
-const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
-  const filter = {
-    kinds: [9735],
-    ["#e"]: [zapEventId],
-  }
+const getZapReceipt = async function(zapEvent, receiptReceivedCallback) {
   try {
-    const sub = ndk.subscribe(filter)
+    const sub = ndk.subscribe({
+      kinds: [9735],
+      ["#p"]: [zapEvent.pubkey],
+      ["#e"]: [zapEvent.id]
+    })
 
     sub?.on("event", async (event) => {
       console.log('ZapReceipt event', event);
@@ -1272,7 +1272,7 @@ const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
         const decodedInvoice = decode(receiptInvoice)
         console.log('decodedInvoice', decodedInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
-        console.log('zapRequest', zapRequest);
+        console.log('zapRequest (zapInvoiceFromEvent)', zapRequest);
 
         const amountSection = decodedInvoice.sections.find(
           (section) => section.name === "amount"
@@ -1286,10 +1286,9 @@ const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
         console.log('amountPaid', amountPaid);
         console.log('amountRequested', amountRequested);
 
-        console.log('bolt11Invoice === receiptInvoice', bolt11Invoice === receiptInvoice);
         console.log('amountPaid === amountRequested', amountPaid === amountRequested);
 
-        if (bolt11Invoice === receiptInvoice && amountPaid === amountRequested) {
+        if (amountPaid === amountRequested) {
           receiptReceivedCallback(true)
         }
       }

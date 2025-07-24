@@ -135,13 +135,17 @@ function showZapModal({ onClose, setZapped }) {
   modal.innerHTML = `
     <div class="zap-modal-content">
       <button class="zap-modal-close">&times;</button>
-      <label>Zap amount in sats</label>
-      <div class="zap-amounts"></div>
-      <input type="number" min="1" id="customZapAmount" placeholder="Custom amount (sats)" />
-      <textarea id="zapMessage" placeholder="Optional message"></textarea>
-      <button id="zapSendBtn">Zap</button>
-      <div id="zapError"></div>
-      <div id="zapQR"></div>
+
+      <div id="zap-modal-content-inner">
+        <label>Zap amount in sats</label>
+        <div class="zap-amounts"></div>
+        <input type="number" min="1" id="customZapAmount" placeholder="Custom amount (sats)" />
+        <textarea id="zapMessage" placeholder="Optional message"></textarea>
+        <button id="zapSendBtn">Zap</button>
+        <div id="zapError"></div>
+        <div id="zapQR"></div>
+      </div>
+      <div id="zap-modal-content-result"></div>
     </div>
   `;
   document.body.appendChild(modal);
@@ -226,18 +230,13 @@ function showZapModal({ onClose, setZapped }) {
 
       document.getElementById('loadingSpinner').style.display = 'none';
 
-      /*
-      await getZapReceipt(event.id, (ok) => {
+      await getZapReceipt(event, async (ok) => {
         if (ok) {
-          console.log('--------------------- ZAP RECEIPT RECEIVED **************************');
-          // TODO: show a message to the user that the zap was received
-          // TODO: close the modal
-          //if (setZapped) setZapped(true);
-          // modal.remove();
-          //if (onClose) onClose();
+          modal.querySelector('#zap-modal-content-inner').style.display = 'none';
+          modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap received!</p>';
+          if (onClose) onClose();
         }
       });
-      */
     } catch (err) {
       errorDiv.textContent = err.message || 'Failed to process zap. Please try again.';
     }
