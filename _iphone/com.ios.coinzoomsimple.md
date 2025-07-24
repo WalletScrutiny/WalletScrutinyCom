@@ -11,7 +11,7 @@ released: 2022-01-21
 updated: 2025-07-14
 version: 3.2.22
 stars: 4.7
-reviews: 380
+reviews: 383
 website: http://www.coinzoom.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: com.hashwalletmanager
 appCountry: es
 idd: '6443484063'
 released: 2022-10-06
-updated: 2025-07-03
-version: 2.20.8
+updated: 2025-07-21
+version: 2.20.9
 stars: 5
 reviews: 8
 website: https://gethashwallet.com

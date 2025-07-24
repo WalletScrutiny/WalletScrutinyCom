@@ -12,7 +12,7 @@ updated: 2025-06-25
 version: 8.2.0
 stars: 3.2
 ratings: 5083
-reviews: 106
+reviews: 107
 website: https://youhodler.com
 repository: 
 issue: 

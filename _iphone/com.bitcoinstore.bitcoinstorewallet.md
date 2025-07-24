@@ -11,7 +11,7 @@ released: 2023-01-09
 updated: 2025-07-17
 version: 1.0.21
 stars: 4.2
-reviews: 10
+reviews: 11
 website: 
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: FOREX.com CFD & Forex Trading
+title: 'CFD & Forex Trading: FOREX.com'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2025-07-04
 version: '1.217'
 stars: 3.8
 ratings: 392
-reviews: 27
+reviews: 28
 website: https://www.forex.com
 repository: 
 issue: 

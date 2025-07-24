@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: 'Crypto.com: Buy Bitcoin & CRO'
+title: 'Crypto.com: Buy BTC, ETH & CRO'
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: co.mona.Monaco
 appCountry: 
 idd: '1262148500'
 released: 2017-08-31
-updated: 2025-07-17
-version: '3.214'
+updated: 2025-07-22
+version: 3.214.10
 stars: 4.7
-reviews: 316029
+reviews: 316693
 website: https://crypto.com/
 repository: 
 issue: 

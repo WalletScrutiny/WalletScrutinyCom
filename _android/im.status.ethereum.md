@@ -12,7 +12,7 @@ updated: 2025-07-17
 version: 2.34.2
 stars: 4.1
 ratings: 2069
-reviews: 61
+reviews: 62
 website: https://status.app
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2012-04-13
 updated: 2025-07-17
 version: 202507.2.3
 stars: 4.7
-reviews: 179704
+reviews: 179898
 website: https://www.blockchain.com/wallet
 repository: https://github.com/blockchain/My-Wallet-V3-iOS
 issue: 

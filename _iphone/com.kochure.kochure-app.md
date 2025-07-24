@@ -11,16 +11,16 @@ released: 2021-11-22
 updated: 2024-07-26
 version: 1.1.6
 stars: 4.3
-reviews: 229
+reviews: 230
 website: 
 repository: 
 issue: 
 icon: com.kochure.kochure-app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-08-16
+date: 2025-07-24
 signer: 
 twitter: kochureglobal
 social:

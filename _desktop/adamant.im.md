@@ -6,7 +6,7 @@ authors:
 released: 2017-11-22
 discontinued: 
 updated: 2024-03-20
-version: 4.10.2
+version: 4.10.3
 binaries: 
 provider: Adamant
 providerWebsite: 

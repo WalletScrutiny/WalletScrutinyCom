@@ -1,5 +1,3 @@
-2025-07-08:
-- _android/com.worldwebms.multisigwallet
 2025-07-11:
 - _android/com.atani
 - _android/com.bitgo.harbor
@@ -14,5 +12,8 @@
 - _android/com.trdc.token
 - _android/org.capricoin.copay
 - _iphone/com.lh2424.uollar
-
-2025-07-21:
+2025-07-24:
+- _android/com.chainup.exchange.Exchange
+- _android/com.quidax.lite
+- _iphone/com.quidax.lite
+- _iphone/com.scallop.exchange.SCLPExchange

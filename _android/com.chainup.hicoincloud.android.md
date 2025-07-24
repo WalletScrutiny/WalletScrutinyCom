@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/ChainUpTechnology
 - https://t.me/ChainUpOfficial
 redirect_from: 
-developerName: ChainUp
+developerName: KeySecure
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2011-08-12
 updated: 2025-07-16
 version: '9.25'
 stars: 4.5
-reviews: 9757
+reviews: 9763
 website: http://www.interactivebrokers.com
 repository: 
 issue: 

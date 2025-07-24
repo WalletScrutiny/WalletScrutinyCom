@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cmorq.hoopoe.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2022-06-22
+date: 2025-07-24
 signer: 
 twitter: cmorq_
 social:

@@ -10,9 +10,9 @@ appCountry:
 released: 2014-10-02
 updated: 2025-07-08
 version: 7.0.13
-stars: 4.2
+stars: 4.1
 ratings: 37358
-reviews: 72
+reviews: 73
 website: http://www.xtrade.com
 repository: 
 issue: 

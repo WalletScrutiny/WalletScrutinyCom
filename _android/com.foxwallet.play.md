@@ -3,14 +3,14 @@ wsId: foxWalletApp
 title: FoxWallet- Secure Crypto Asset
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.foxwallet.play
 appCountry: 
-released: Dec 5, 2021
+released: 2021-12-05
 updated: 2025-06-16
 version: 5.5.9
-stars: 4.6902657
+stars: 4.7
 ratings: 
 reviews: 456
 website: https://www.foxwallet.com/en
@@ -26,7 +26,7 @@ signer:
 twitter: FoxWallet
 social:
 - https://t.me/FoxWallet_EN
-- https://discord.com/invite/foxwallet 
+- https://discord.com/invite/foxwallet
 redirect_from: 
 developerName: FoxWallet
 features: 

@@ -6,7 +6,7 @@ authors:
 released: 2025-06-21
 discontinued: 
 updated: 
-version: 9.23.0
+version: 9.22.0
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 54.5
@@ -24,15 +24,15 @@ issue:
 icon: bitBox2Nova.png
 bugbounty: https://bitbox.swiss/bug-bounty-program/
 meta: ok
-verdict: sourceavailable 
-appHashes:
-date: 2025-06-23
+verdict: sourceavailable
+appHashes: 
+date: 2025-02-17
 signer: 
 twitter: BitBoxSwiss
 social:
 - https://www.linkedin.com/company/bitbox-swiss/
 - https://www.reddit.com/r/BitBoxWallet
-features: 
+features:
 - Tempered glass OLED display
 - EAL6+ certified Secure Chip
 - Bluetooth support for iOS

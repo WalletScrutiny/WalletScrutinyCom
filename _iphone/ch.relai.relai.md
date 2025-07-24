@@ -11,7 +11,7 @@ released: 2020-07-01
 updated: 2025-07-17
 version: 3.1.1
 stars: 4.6
-reviews: 2671
+reviews: 2672
 website: https://relai.app/
 repository: 
 issue: 

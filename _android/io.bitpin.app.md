@@ -28,7 +28,7 @@ social:
 - https://t.me/bitpin
 - https://www.instagram.com/bitpinmarket
 redirect_from: 
-developerName: Tika Team
+developerName: Bitpin App Developer
 features: 
 
 ---

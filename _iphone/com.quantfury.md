@@ -11,7 +11,7 @@ released: 2018-12-15
 updated: 2025-07-17
 version: 1.87.3
 stars: 3.3
-reviews: 58
+reviews: 60
 website: https://quantfury.com/
 repository: 
 issue: 

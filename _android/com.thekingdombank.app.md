@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-17
 updated: 2025-06-10
 version: 9.1.0
-stars: 3.3
+stars: 3
 ratings: 
-reviews: 5
+reviews: 6
 website: https://thekingdombank.com
 repository: 
 issue: 

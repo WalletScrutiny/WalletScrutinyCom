@@ -12,7 +12,7 @@ updated: 2024-09-04
 version: 2.2.2
 stars: 3.9
 ratings: 
-reviews: 14
+reviews: 15
 website: 
 repository: 
 issue: 

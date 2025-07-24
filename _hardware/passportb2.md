@@ -10,7 +10,7 @@ authors:
 released: 2022-03-10
 discontinued: 
 updated: 2024-08-10
-version: v2.3.5
+version: 2.3.8
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39
@@ -31,7 +31,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2
-date: 2024-10-30
+date: 2025-07-23
 signer: 
 twitter: FOUNDATIONdvcs
 social:
