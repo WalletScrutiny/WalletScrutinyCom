@@ -814,11 +814,11 @@ async function drawOnCanvas (data, iconImage) {
     await drawDesktopBackground(ctx, width, height);
   }
   
-  // App Icon - Draw the resized icon image at specified coordinates
-  const iconWidth = 150;
-  const iconHeight = 150;
-  const iconX = 30; 
-  const iconY = 140; // Moved 10px up
+  // App Icon - with platform-specific sizing and positioning
+  const iconWidth = (data.isHardwareApp || data.isBearerApp) ? 170 : 150; // Increase by 20px for hardware/bearer
+  const iconHeight = (data.isHardwareApp || data.isBearerApp) ? 170 : 150; // Increase by 20px for hardware/bearer
+  const iconX = (data.isHardwareApp || data.isBearerApp) ? 65 : 60; // Move 5px right for hardware/bearer
+  const iconY = 157; // Moved 17px down
   
   // Apply drop shadow and clip, then draw the icon
   ctx.save();
@@ -843,18 +843,57 @@ async function drawOnCanvas (data, iconImage) {
   ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
   ctx.restore();
   
-  // Version centered below the app icon
+  // Version moved down with the icon
   const iconCenterX = iconX + (iconWidth / 2);
   
-  // Title (app name) to the right of the app icon, top aligned
-  const titleX = iconX + iconWidth + 30; // 30px to the right of the icon
-  const titleY = 190; // Exactly top aligned with the app icon
-  let displayTitle = data.title || 'Unknown Title';
-  if (displayTitle.length > 40) {
-    displayTitle = displayTitle.substring(0, 37) + '...';
+  // App Version below the app icon (moved with icon)
+  if (data.version) {
+    const versionY = iconY + iconHeight + 30; // Now positions relative to new iconY
+    
+    // ... rest of version code remains the same ...
   }
-  ctx.textAlign = 'left'; // Left align the title
-  printText(displayTitle, ctx, titleX, titleY, 'white', 'bold 30px Barlow', 40, 29);
+  
+  // Calculate the content area (RRG - moved 10px left and 5px up)
+  const contentAreaX = iconX + iconWidth + 20; // Moved 10px left (was +30, now +20)
+  const contentAreaWidth = width - contentAreaX - 30; // Available width for RRG
+  const contentAreaCenterX = contentAreaX + (contentAreaWidth / 2);
+
+  // Title (app name) - with dynamic font scaling
+  const titleY = 185; // Moved 5px up (was 190, now 185)
+  let displayTitle = data.title || 'Unknown Title';
+
+  // Dynamic font scaling for title
+  let titleFontSize = 32; // Starting font size (increased by 2px as requested)
+  const minTitleFontSize = 20; // Minimum readable size
+  const maxTitleWidth = contentAreaWidth - 20; // Leave 10px margin on each side
+  let titleWidth;
+
+  // Keep reducing font size until text fits or we reach minimum
+  do {
+    ctx.font = `bold ${titleFontSize}px Barlow`;
+    titleWidth = ctx.measureText(displayTitle).width;
+    
+    if (titleWidth > maxTitleWidth && titleFontSize > minTitleFontSize) {
+      titleFontSize -= 1; // Reduce by 1px each iteration
+    } else {
+      break;
+    }
+  } while (titleFontSize >= minTitleFontSize);
+
+  // If still too long at minimum font size, truncate
+  if (titleWidth > maxTitleWidth) {
+    // Truncate character by character until it fits
+    while (titleWidth > maxTitleWidth && displayTitle.length > 3) {
+      displayTitle = displayTitle.substring(0, displayTitle.length - 4) + '...';
+      titleWidth = ctx.measureText(displayTitle).width;
+    }
+  }
+
+  // Center the title with final measurements
+  const centeredTitleX = contentAreaCenterX - (titleWidth / 2);
+
+  ctx.textAlign = 'left';
+  printText(displayTitle, ctx, centeredTitleX, titleY, 'white', `bold ${titleFontSize}px Barlow`, 100, 29);
   
   // App Version below the app icon
   if (data.version) {
@@ -962,7 +1001,7 @@ async function drawOnCanvas (data, iconImage) {
   const horizontalPadding = 24;
   const verdictWidth = maxVerdictWidth + horizontalPadding; // Add more padding for longer verdicts
   const verdictHeight = 50; // Increased height to accommodate larger text
-  const verdictX = titleX; // Align with the title on the right side
+  const centeredVerdictX = contentAreaCenterX - (verdictWidth / 2); // Center the verdict box
   const verdictRectY = verdictY - 30; // Position rectangle to center text vertically
   
   // Draw rounded rectangle with 16px radius (very rounded)
@@ -971,241 +1010,178 @@ async function drawOnCanvas (data, iconImage) {
   // Set background color to FAF0E6 for all verdicts
   ctx.fillStyle = '#FAF0E6';
   
-  // Define stroke colors based on verdict
-  let strokeColor = '#000000'; // Default black stroke
-  
   if (data.verdict === 'sourceavailable') {
-    strokeColor = '#1caaa2';
-  } else if (['custodial', 'nosource', 'nosendreceive', 'fake', 'noita', 'prefilled', 'vapor'].includes(data.verdict)) {
-    strokeColor = '#aa1c1c';
-  } else if (['diy', 'fewusers', 'wip'].includes(data.verdict)) {
-    strokeColor = '#B2BEB5';
+    ctx.fillStyle = '#1caaa2'; // Use the green color (same as old stroke)
+    // No stroke for sourceavailable
+  } else {
+    ctx.fillStyle = '#FAF0E6'; // Light background for other verdicts
+    
+    // Define stroke colors for non-sourceavailable verdicts
+    let strokeColor = '#000000'; // Default black stroke
+    if (['custodial', 'nosource', 'nosendreceive', 'fake', 'noita', 'prefilled', 'vapor'].includes(data.verdict)) {
+      strokeColor = '#aa1c1c';
+    } else if (['diy', 'fewusers', 'wip'].includes(data.verdict)) {
+      strokeColor = '#B2BEB5';
+    }
+    
+    // Add stroke for non-sourceavailable verdicts
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 4;
   }
-  
+
   ctx.beginPath();
-  ctx.moveTo(verdictX + 12, verdictRectY);
-  ctx.lineTo(verdictX + verdictWidth - 12, verdictRectY);
-  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY, verdictX + verdictWidth, verdictRectY + 12);
-  ctx.lineTo(verdictX + verdictWidth, verdictRectY + verdictHeight - 12);
-  ctx.quadraticCurveTo(verdictX + verdictWidth, verdictRectY + verdictHeight, verdictX + verdictWidth - 12, verdictRectY + verdictHeight);
-  ctx.lineTo(verdictX + 12, verdictRectY + verdictHeight);
-  ctx.quadraticCurveTo(verdictX, verdictRectY + verdictHeight, verdictX, verdictRectY + verdictHeight - 12);
-  ctx.lineTo(verdictX, verdictRectY + 12);
-  ctx.quadraticCurveTo(verdictX, verdictRectY, verdictX + 12, verdictRectY);
+  ctx.moveTo(centeredVerdictX + 20, verdictRectY);
+  ctx.lineTo(centeredVerdictX + verdictWidth - 20, verdictRectY);
+  ctx.quadraticCurveTo(centeredVerdictX + verdictWidth, verdictRectY, centeredVerdictX + verdictWidth, verdictRectY + 20);
+  ctx.lineTo(centeredVerdictX + verdictWidth, verdictRectY + verdictHeight - 20);
+  ctx.quadraticCurveTo(centeredVerdictX + verdictWidth, verdictRectY + verdictHeight, centeredVerdictX + verdictWidth - 20, verdictRectY + verdictHeight);
+  ctx.lineTo(centeredVerdictX + 20, verdictRectY + verdictHeight);
+  ctx.quadraticCurveTo(centeredVerdictX, verdictRectY + verdictHeight, centeredVerdictX, verdictRectY + verdictHeight - 20);
+  ctx.lineTo(centeredVerdictX, verdictRectY + 20);
+  ctx.quadraticCurveTo(centeredVerdictX, verdictRectY, centeredVerdictX + 20, verdictRectY);
   ctx.fill();
-  
-  // Add 4px stroke
-  ctx.strokeStyle = strokeColor;
-  ctx.lineWidth = 4;
-  ctx.stroke();
-  
+
+  // Add stroke only for non-sourceavailable verdicts
+  if (data.verdict !== 'sourceavailable') {
+    ctx.stroke();
+  }
+
   ctx.restore();
 
-  // Draw the verdict text for all apps
+  // Draw the verdict text with appropriate color
   ctx.textAlign = 'left';
-  
-  // Use black text for all verdicts since background is now consistent light color
-  const textColor = 'black';
-  const centeredTextY = verdictRectY + (verdictHeight /2) + 10;
-  printText(mappedVerdict, ctx, verdictX + 12, centeredTextY, textColor, '400 27px Barlow', 41, 30); // Add padding from the left edge of the box
+
+  // Text color based on verdict background
+  const textColor = data.verdict === 'sourceavailable' ? 'white' : 'black';
+  const centeredTextY = verdictRectY + (verdictHeight / 2) + 10;
+  printText(mappedVerdict, ctx, centeredVerdictX + 12, centeredTextY, textColor, '400 27px Barlow', 41, 30); // Add padding from the left edge of the box
   
   // If verdict is sourceavailable AND meta is not 'ok', display the meta verdict message underneath
   if (data.verdict === 'sourceavailable' && data.meta && data.meta !== 'ok') {
-    // Get the meta verdict message
+    // Custom meta messages
     let metaMessage = '';
     
-    // Try to get the message from the metaVerdictMap
-    if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
-      metaMessage = metaVerdictMap[data.meta].message;
-      // Special handling for 'defunct' meta verdict to prevent text overflow
-      if (data.meta === 'defunct') {
-        // Truncate the message to "This product went out of business...or so"
-        metaMessage = "This product went out of business...or so";
-      }
+    if (data.meta === 'obsolete') {
+      metaMessage = 'But not updated for > 2 years';
+    } else if (data.meta === 'removed') {
+      metaMessage = 'But this product was removed';
+    } else if (data.meta === 'deprecated') {
+      metaMessage = 'But this product will be replaced';
     } else {
-      // Fallback to just the meta value
-      metaMessage = data.meta;
+      // Fallback to existing logic for other meta types
+      if (metaVerdictMap[data.meta] && metaVerdictMap[data.meta].message) {
+        metaMessage = metaVerdictMap[data.meta].message;
+        // Special handling for 'defunct' meta verdict to prevent text overflow
+        if (data.meta === 'defunct') {
+          metaMessage = "This product went out of business...or so";
+        }
+      } else {
+        metaMessage = data.meta;
+      }
+      
+      // Ensure first letter is lowercase for fallback cases
+      if (metaMessage.length > 0) {
+        metaMessage = metaMessage.charAt(0).toLowerCase() + metaMessage.slice(1);
+      }
+      
+      // Add "But " prefix only for fallback cases
+      metaMessage = `But ${metaMessage}`;
     }
     
-    // Draw a subtle rounded rectangle background for the meta message
-    // Ensure first letter of metaMessage is lowercase
-    let formattedMetaMessage = metaMessage;
-    if (formattedMetaMessage.length > 0) {
-      formattedMetaMessage = formattedMetaMessage.charAt(0).toLowerCase() + formattedMetaMessage.slice(1);
-    }
+    // Dynamic font scaling for meta message
+    let metaFontSize = 22;
+    const minMetaFontSize = 16;
+    const maxMetaWidth = contentAreaWidth - 40; // Leave more margin for meta
+    let metaTextWidth;
     
-    const metaText = `But ${formattedMetaMessage}`;
-    ctx.font = 'italic 22px Barlow'; // Enlarged to 22, must also set value for other ctx.font
-    const metaMetrics = ctx.measureText(metaText);
-    const metaWidth = metaMetrics.width + 24; // Add padding but limit width
+    // Scale font down until it fits
+    do {
+      ctx.font = `italic ${metaFontSize}px Barlow`;
+      metaTextWidth = ctx.measureText(metaMessage).width;
+      
+      if (metaTextWidth > maxMetaWidth && metaFontSize > minMetaFontSize) {
+        metaFontSize -= 1;
+      } else {
+        break;
+      }
+    } while (metaFontSize >= minMetaFontSize);
+    
+    // Calculate centered position
+    const metaWidth = metaTextWidth + 24;
     const metaHeight = 34;
-    const metaX = verdictX; // Align with the verdict box
-    const metaY = verdictY + 60; // Position below the verdict text
+    const centeredMetaX = contentAreaCenterX - (metaWidth / 2); // Center the meta box
+    const metaY = verdictY + 60;
     
     // Draw rounded rectangle with 12px radius
     ctx.save();
-    ctx.fillStyle = 'rgba(211, 49, 0, 0.9)'; // Semi-transparent white background
+    ctx.fillStyle = 'rgba(211, 49, 0, 0.9)';
     ctx.beginPath();
-    ctx.roundRect(metaX, metaY - 20, metaWidth, metaHeight, 12);
+    ctx.roundRect(centeredMetaX, metaY - 20, metaWidth, metaHeight, 12);
     ctx.fill();
     ctx.restore();
     
-    // Draw the meta message text
-    ctx.font = 'italic 22px Barlow'; // must also set in other ctx.font (verdict: sa but not meta:ok)
-    ctx.fillStyle = '#ffffff'; // Use the stale.yml color as default for meta messages
+    // Draw the meta message text (centered)
+    ctx.font = `italic ${metaFontSize}px Barlow`;
+    ctx.fillStyle = '#ffffff';
     ctx.textAlign = 'left';
-    ctx.fillText(metaText, metaX + 12, metaY + 6); // Add padding from the left edge of the box
+    ctx.fillText(metaMessage, centeredMetaX + 12, metaY + 6);
   }
   
-  // Display Nostr verification info for sourceavailable apps with meta: ok
+  // Display Nostr verification info - with updated spacing and font sizes
   if (data.verdict === 'sourceavailable' && data.meta === 'ok' && data.nostrBuildStatus) {
-    // Position below the verdict box
     let nostrInfoY = verdictY + 70;
-    if (data.meta && data.meta !== 'ok') {
-      nostrInfoY = verdictY + 130; // Position below meta message if it exists
-    }
     
-    // Create badge-style display - rearranged: version • verdict • date
-    const versionText = data.latestVersion ? `v${data.latestVersion}` : '';
-    const statusText = data.nostrBuildStatus === 'reproducible' ? '✓ Reproducible' : nostrStatusMap[data.nostrBuildStatus];
-    const dateText = data.latestDate ? data.latestDate : '';
+    // Create badge text WITHOUT date
+    const versionText = data.latestVersion ? `${data.latestVersion}` : ''; // Removed 'v' prefix
+    const statusText = data.nostrBuildStatus === 'reproducible' ? 'is Reproducible' : nostrStatusMap[data.nostrBuildStatus];
     
-    // Combine in new order: version • status • date
     let badgeTextParts = [];
     if (versionText) badgeTextParts.push(versionText);
     if (statusText) badgeTextParts.push(statusText);
-    if (dateText) badgeTextParts.push(dateText);
-    const badgeText = badgeTextParts.join(' • ');
+    const badgeText = badgeTextParts.join(' '); // Removed bullet separator
     
-    // Badge height for consistent sizing
+    // Badge dimensions with increased font size
     const badgeHeight = 36;
+    ctx.font = '30px Barlow'; // Increased by 2px more (was 28px, now 30px)
+    const badgeWidth = ctx.measureText(badgeText).width + 24;
     
-    // Nostr icon setup (50% smaller)
-    const nostrIconSize = 50; // Reduced from 100 to 50
-    const nostrIconX = titleX; // Align left with verdict text
-    const badgeX = nostrIconX + nostrIconSize + 10; // Badge positioned after icon with 10px gap
+    // Center the badge
+    const centeredBadgeX = contentAreaCenterX - (badgeWidth / 2);
     
-    // Load and draw Nostr icon
-    if (nostrImage) {
-      const nostrIconY = nostrInfoY - 8 - (nostrIconSize - badgeHeight) / 2; // Center with badge
-      
-      ctx.save();
-      ctx.drawImage(nostrImage, nostrIconX, nostrIconY, nostrIconSize, nostrIconSize);
-      ctx.restore();
-    }
-    
-    // Determine stroke color based on verification status
-    let strokeColor = 'white'; // Default
+    // Determine stroke color
+    let strokeColor = 'white';
     if (data.nostrBuildStatus === 'reproducible') {
-      strokeColor = '#4ADE80'; // Subtle green
+      strokeColor = '#4ADE80';
     } else if (data.nostrBuildStatus === 'not_reproducible') {
-      strokeColor = '#F87171'; // Subtle red
+      strokeColor = '#F87171';
     } else if (data.nostrBuildStatus === 'ftbfs') {
-      strokeColor = '#aa1c1c'; // Red like verdict colors
+      strokeColor = '#aa1c1c';
     }
     
-    // Calculate available width for text (from badge start to card edge)
-    const cardWidth = 800;
-    const maxBadgeWidth = cardWidth - badgeX - 30; // 30px margin from right edge
+    // Draw badge border
+    ctx.save();
+    ctx.strokeStyle = strokeColor;
+    ctx.lineWidth = 4;
+    ctx.beginPath();
+    ctx.roundRect(centeredBadgeX, nostrInfoY - 8, badgeWidth, badgeHeight, 14);
+    ctx.stroke();
+    ctx.restore();
     
-    // Measure text for badge sizing (enlarged text)
-    ctx.font = '26px Barlow';
-    const fullTextWidth = ctx.measureText(badgeText).width + 24;
+    // Draw badge text with increased font size - horizontally centered
+    ctx.font = '27px Barlow'; // Increased by 2px more (was 28px, now 30px)
+    ctx.fillStyle = 'white';
+    ctx.textAlign = 'center'; // Changed to center alignment
+    const textY = nostrInfoY - 8 + (badgeHeight / 2) + 10;
+    const textCenterX = centeredBadgeX + (badgeWidth / 2); // Center of the badge
+    ctx.fillText(badgeText, textCenterX, textY);
     
-    // Check if text fits in one line or needs to be split
-    if (fullTextWidth <= maxBadgeWidth) {
-      // Single line badge
-      const badgeWidth = fullTextWidth;
-      
-      // Draw badge border with status-based color
-      ctx.save();
-      ctx.strokeStyle = strokeColor;
-      ctx.lineWidth = 4;
-      ctx.beginPath();
-      ctx.roundRect(badgeX, nostrInfoY - 8, badgeWidth, badgeHeight, 14);
-      ctx.stroke();
-      ctx.restore();
-      
-      // Draw badge text (vertically centered)
-      ctx.font = '26px Barlow';
-      ctx.fillStyle = 'white';
-      ctx.textAlign = 'left';
-      // Vertical centering: badge top + half height + small font adjustment (increase +2 to move text down, decrease to move up)
-      const textY = nostrInfoY - 8 + (badgeHeight / 2) + 10;
-      ctx.fillText(badgeText, badgeX + 12, textY);
-    } else {
-      // Multi-line badge - handle ftbfs specially
-      let firstLine = '';
-      let secondLine = '';
-      let verticalGap = 4; // Default gap
-      
-      // Standard intelligent splitting for all cases
-      const words = badgeText.split(' ');
-      
-      // Find the best split point
-      for (let i = 0; i < words.length; i++) {
-        const testLine = firstLine + (firstLine ? ' ' : '') + words[i];
-        const testWidth = ctx.measureText(testLine).width + 24;
-        
-        if (testWidth <= maxBadgeWidth) {
-          firstLine = testLine;
-        } else {
-          secondLine = words.slice(i).join(' ');
-          break;
-        }
-      }
-      
-      // If no good split found, force split at character level
-      if (!secondLine && firstLine !== badgeText) {
-        const chars = badgeText.split('');
-        firstLine = '';
-        for (let i = 0; i < chars.length; i++) {
-          const testLine = firstLine + chars[i];
-          const testWidth = ctx.measureText(testLine).width + 24;
-          if (testWidth <= maxBadgeWidth) {
-            firstLine = testLine;
-          } else {
-            secondLine = chars.slice(i).join('');
-            break;
-          }
-        }
-      }
-      
-      // Calculate widths for both lines
-      const firstLineWidth = Math.max(ctx.measureText(firstLine).width + 24, 100);
-      const secondLineWidth = Math.max(ctx.measureText(secondLine).width + 24, 100);
-      
-      // Draw first badge
-      ctx.save();
-      ctx.strokeStyle = strokeColor;
-      ctx.lineWidth = 4;
-      ctx.beginPath();
-      ctx.roundRect(badgeX, nostrInfoY - 8, firstLineWidth, badgeHeight, 14);
-      ctx.stroke();
-      ctx.restore();
-      
-      // Draw second badge below first with adjusted gap
-      const secondBadgeY = nostrInfoY - 8 + badgeHeight + verticalGap;
-      ctx.save();
-      ctx.strokeStyle = strokeColor;
-      ctx.lineWidth = 4;
-      ctx.beginPath();
-      ctx.roundRect(badgeX, secondBadgeY, secondLineWidth, badgeHeight, 14);
-      ctx.stroke();
-      ctx.restore();
-      
-      // Draw text for both badges
-      ctx.font = '26px Barlow';
-      ctx.fillStyle = 'white';
-      ctx.textAlign = 'left';
-      
-      // First line text (vertical centering: increase +2 to move down, decrease to move up)
-      const firstTextY = nostrInfoY - 8 + (badgeHeight / 2) + 2;
-      ctx.fillText(firstLine, badgeX + 12, firstTextY);
-      
-      // Second line text (vertical centering: increase +2 to move down, decrease to move up)
-      const secondTextY = secondBadgeY + (badgeHeight / 2) + 2;
-      ctx.fillText(secondLine, badgeX + 12, secondTextY);
+    // Draw date separately below the badge with increased spacing and smaller font
+    if (data.latestDate) {
+      ctx.font = '20px Barlow'; // Decreased by 4px more (was 24px, now 20px)
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+      ctx.textAlign = 'center';
+      const dateY = nostrInfoY - 8 + badgeHeight + 27; // Increased spacing by 7px (was +20, now +27)
+      ctx.fillText(data.latestDate, contentAreaCenterX, dateY);
     }
   }
   
@@ -1248,6 +1224,10 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
   data.isAndroidApp = mdFilesPath.includes('_android');
   data.isAppleApp = mdFilesPath.includes('_iphone');
   data.isDesktopApp = mdFilesPath.includes('_desktop');
+  
+  // Add platform detection for hardware and bearer apps
+  data.isHardwareApp = mdFilesPath.includes('_hardware');
+  data.isBearerApp = mdFilesPath.includes('_bearer');
   
   // Debug iPhone app detection
   if (data.isAppleApp) {
