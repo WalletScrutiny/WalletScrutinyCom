@@ -1,4 +1,3 @@
-import { createZap } from './verifications_utils.mjs';
 import QRCode from 'qrcode';
 
 function showZapModal({ onClose, setZapped }) {
