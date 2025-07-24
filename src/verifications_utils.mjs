@@ -1265,6 +1265,7 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
       return null;
   });
   if (!zapRequestEvent) throw new Error('Failed to generate zap request');
+  zapRequestEvent.content = comment;
   console.log('zapRequestEvent', zapRequestEvent);
 
   const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
@@ -1277,51 +1278,33 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
   await lnPay({pr: invoice});
 }
 
-const getZapReceipts = async function(zapEvent) {
-  console.log('getZapReceipts - zapEvent', zapEvent);
-  const filter = {
-    kinds: [9735],
-    ["#p"]: [zapEvent.pubkey],
-    ["#P"]: [zapEvent.pubkey],
-  }
-  const events = await ndk.fetchEvents(filter);
-  console.log('getZapReceipts - events', events);
-  return events;
-}
-window.getZapReceipts = getZapReceipts;
-
 const getZapReceipt = async function(zapEvent, receiptReceivedCallback) {
   try {
     const sub = ndk.subscribe({
       kinds: [9735],
-      ["#p"]: [zapEvent.pubkey],
       ["#e"]: [zapEvent.id]
     })
 
     sub?.on("event", async (event) => {
-      console.log('ZapReceipt event', event);
+      console.debug('ZapReceipt event', event);
       sub.stop()
       const receiptInvoice = event.tagValue("bolt11")
-      console.log('receiptInvoice', receiptInvoice);
+      console.debug('receiptInvoice', receiptInvoice);
       if (receiptInvoice) {
         const decodedInvoice = decode(receiptInvoice)
-        console.log('decodedInvoice', decodedInvoice);
+        console.debug('decodedInvoice', decodedInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
-        console.log('zapRequest (zapInvoiceFromEvent)', zapRequest);
+        console.debug('zapRequest (zapInvoiceFromEvent)', zapRequest);
 
         const amountSection = decodedInvoice.sections.find(
           (section) => section.name === "amount"
         )
-        console.log('amountSection', amountSection);
+
         const amountPaid =
           amountSection && "value" in amountSection
             ? Math.floor(parseInt(amountSection.value) / 1000)
             : 0
         const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
-        console.log('amountPaid', amountPaid);
-        console.log('amountRequested', amountRequested);
-
-        console.log('amountPaid === amountRequested', amountPaid === amountRequested);
 
         if (amountPaid === amountRequested) {
           receiptReceivedCallback(true)
