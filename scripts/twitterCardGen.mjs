@@ -125,7 +125,7 @@ const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
 // Manual mapping for Nostr build statuses
 const nostrStatusMap = {
   'reproducible': 'Reproducible',
-  'not_reproducible': 'Not Reproducible',
+  'not_reproducible': '⚠ Not Reproducible',
   'ftbfs': '⚠ Build failed'
 };
 // Cache for Nostr verification info to avoid repeated grep/jq calls
