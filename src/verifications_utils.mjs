@@ -1243,6 +1243,18 @@ const createZap = async function ({ event, amount, comment = '', lnPay = undefin
   return zapper.zap();
 }
 
+const getZapReceipts = async function(zapEvent) {
+  console.log('getZapReceipts - zapEvent', zapEvent);
+  const filter = {
+    kinds: [9734],
+    ["#p"]: [zapEvent.pubkey],
+  }
+  const events = await ndk.fetchEvents(filter);
+  console.log('getZapReceipts - events', events);
+  return events;
+}
+window.getZapReceipts = getZapReceipts;
+
 const getZapReceipt = async function(zapEventId, receiptReceivedCallback) {
   const filter = {
     kinds: [9735],
