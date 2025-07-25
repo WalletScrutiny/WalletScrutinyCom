@@ -62,11 +62,11 @@
     `;
     document.head.appendChild(style);
 
-    const nostrButton = `<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork"><img src="/images/nostr_logo.svg" style="width:24px;height:24px;vertical-align:middle;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
-    const xButton = `<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-x-twitter" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
-    const fbButton = `<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-facebook" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on Facebook</span></a>`;
-    const linkedinButton = `<a href="#" id="shareLinkedinBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-linkedin" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on LinkedIn</span></a>`;
-    const copyUrlButton = `<a href="#" id="copyUrlBtn" class="btn btn-info shareButtonNetwork"><i class="fas fa-copy" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Copy current URL</span></a>`;
+    const nostrButton = `<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork"><img src="/images/nostr_logo.svg" style="width:25px;height:25px;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
+    const xButton = `<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
+    const fbButton = `<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i><span class="network-text">Share on Facebook</span></a>`;
+    const linkedinButton = `<a href="#" id="shareLinkedinBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span class="network-text">Share on LinkedIn</span></a>`;
+    const copyUrlButton = `<a href="#" id="copyUrlBtn" class="btn btn-info shareButtonNetwork"><i class="fas fa-copy" aria-hidden="true"></i><span class="network-text">Copy current URL</span></a>`;
 
     const modalHTML = `
       <div id="shareModal">

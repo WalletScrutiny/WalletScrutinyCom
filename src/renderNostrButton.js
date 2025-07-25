@@ -19,7 +19,7 @@ import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
       #nostrButtonContainer .dropdown-content2 button { color: white; background: none; border: none; padding: 10px 16px; display: flex; align-items: center; width: 100%; box-sizing: border-box; font-size: 16px; cursor: pointer; text-align: left; }
       #nostrButtonContainer .dropdown-content2 button:hover { background-color: #0056b3; border-radius: 4px; }
       #nostrBtn { margin-bottom: 0; }
-      #nostrBtn img { height: 18px; margin-right: 6px; }
+      #nostrBtn img { height: 18px; }
       #nostrButtonContainer .dropdown-content2.show { display: block; }
     `;
     document.head.appendChild(style);
