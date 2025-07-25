@@ -14,17 +14,20 @@
 //
 // 2.  Core Logic
 //     - loadResources(): Loads images, fonts, and Nostr data.
+//     - findSourceAvailableApps(): Finds and displays source-available apps.
 //     - processOneFile(): Processes a single markdown file to generate a card.
 //     - processFiles(): Main loop to process all files in target folders.
 //
 // 3.  Canvas Drawing
 //     - drawOnCanvas(): The main drawing function that composes the card.
 //     - Platform Backgrounds (drawAndroidBackground, etc.)
+//     - Image manipulation (adjustImageHue, hue conversion functions)
 //
 // 4.  Data Fetching & Helpers
 //     - getNostrVerificationSummaryForApp(): Fetches Nostr data for an app.
 //     - loadVerdicts(), loadMetaVerdicts(): Loads verdict data from YAML.
-//     - Helper functions for text wrapping, date formatting, etc.
+//     - Helper functions (wrapText, formatDate, printText)
+//     - Progress tracking and statistics
 //
 
 // Import libraries
@@ -401,65 +404,6 @@ function loadMetaVerdicts (dirPath) {
   return metaVerdictMap;
 }
 
-// Helper function to compare semantic versions
-function compareVersions(a, b) {
-  if (a === b) return 0;
-  
-  const aParts = a.split('.').map(Number);
-  const bParts = b.split('.').map(Number);
-  
-  for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-    const aVal = i < aParts.length ? aParts[i] : 0;
-    const bVal = i < bParts.length ? bParts[i] : 0;
-    
-    if (aVal > bVal) return 1;
-    if (aVal < bVal) return -1;
-  }
-  
-  return 0;
-}
-
-// Helper function to calculate and format time since last verification
-function getTimeSinceLastVerification(dateString) {
-  try {
-    // Parse the date string (format: YYYY-MM-DD)
-    const [year, month, day] = dateString.split('-').map(num => parseInt(num, 10));
-    const verificationDate = new Date(year, month - 1, day); // Month is 0-indexed in JavaScript
-    
-    // Get current date
-    const currentDate = new Date();
-    
-    // Calculate difference in milliseconds
-    const diffMs = currentDate - verificationDate;
-    
-    // Convert to days
-    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-    
-    // Format based on the time difference
-    if (diffDays < 7) {
-      // Less than a week
-      return diffDays <= 1 ? 
-        'Verified yesterday' : 
-        `${diffDays} days since last verification`;
-    } else if (diffDays < 30) {
-      // Less than a month
-      const weeks = Math.floor(diffDays / 7);
-      return weeks === 1 ? 
-        '1 week since last verification' : 
-        `${weeks} weeks since last verification`;
-    } else {
-      // Months or more
-      const months = Math.floor(diffDays / 30);
-      return months === 1 ? 
-        '1 month since last verification' : 
-        `${months} months since last verification`;
-    }
-  } catch (error) {
-    console.error(`Error parsing date: ${dateString}`, error);
-    return `Latest verification: ${dateString}`; // Fallback to original format
-  }
-}
-
 // Function to get Nostr verification summary for an app using grep and jq on local files
 function getNostrVerificationSummaryForApp(appId) {
   // Check if we already have cached results for this appId
@@ -570,49 +514,6 @@ async function processFilesTimed () {
   displaySummary();
 }
 
-const spikes = 5;
-const outerRadius = 20;
-const innerRadius = 10;
-const strokeWidth = 3;
-function drawStar (ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fraction = 1) {
-  let rot = (Math.PI / 2) * 3;
-  let x, y;
-  const step = Math.PI / spikes;
-
-  ctx.save();
-  ctx.beginPath();
-  ctx.rect(
-    cx - outerRadius - strokeWidth,
-    cy - outerRadius - strokeWidth,
-    2 * (outerRadius + strokeWidth) * fraction,
-    2 * (outerRadius + strokeWidth));
-  ctx.clip();
-  ctx.beginPath();
-  ctx.moveTo(cx, cy - outerRadius);
-
-  for (let i = 0; i < spikes; i++) {
-    x = cx + Math.cos(rot) * outerRadius;
-    y = cy + Math.sin(rot) * outerRadius;
-    ctx.lineTo(x, y);
-    rot += step;
-
-    x = cx + Math.cos(rot) * innerRadius;
-    y = cy + Math.sin(rot) * innerRadius;
-    ctx.lineTo(x, y);
-    rot += step;
-  }
-
-  ctx.lineTo(cx, cy - outerRadius);
-  ctx.closePath();
-  ctx.lineWidth = strokeWidth;
-  ctx.lineJoin = 'round';
-  ctx.strokeStyle = strokeColor;
-  ctx.fillStyle = fillColor;
-  ctx.fill();
-  ctx.stroke();
-
-  ctx.restore();
-}
 
 // Function to adjust the hue of the background image using pixel manipulation
 function adjustImageHue(sourceImage, hueRotation = 0) {
@@ -729,27 +630,7 @@ function getRandomHueRotation() {
   return Math.floor(Math.random() * 360);
 }
 
-// Utility function to overlay "reproducible" image
-// Overlay source-available badge with resizing
-async function overlaySourceAvailableImage(ctx) {
-  if (sourceavailableImage) {
-    const width = 200; // your preferred width
-    const height = 200; // your preferred height
-    const x = 30;
-    const y = 350;
-    
-    // Add drop shadow for the source-available badge
-    ctx.save();
-    ctx.shadowColor = 'rgba(0, 0, 0, 0.3)';
-    ctx.shadowBlur = 10;
-    ctx.shadowOffsetX = 2;
-    ctx.shadowOffsetY = 2;
-    ctx.drawImage(sourceavailableImage, x, y, width, height);
-    ctx.restore();
-  }
-}
 
-// Reproducible badge overlay function removed - now using text display
 
 // Draw Android icon as a background element for Android apps
 async function drawAndroidBackground(ctx, width, height, data) {
