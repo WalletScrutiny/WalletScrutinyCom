@@ -18,7 +18,7 @@ issue:
 icon: so.onekey.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: sourceavailable
 appHashes: 
 date: 2025-07-21
 signer: 
