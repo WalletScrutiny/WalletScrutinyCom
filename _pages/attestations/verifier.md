@@ -41,10 +41,10 @@ permalink: /verifier/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <div id="shareButtonContainerVerifier"></div>
-  <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
-    <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
-  </a>
+  <button style="margin: 0; padding: 0; border: 0; background: transparent;" id="shareButtonContainerVerifier"></button>
+  <button class="btn btn-info" style="margin-bottom: 0;" href="" target="_blank" id="njumpLink">
+    <i class="fas fa-external-link-alt" style="margin-right: 7px; font-size: 18px;"></i> Njump.me
+  </button>
   <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
     <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
   </button>
