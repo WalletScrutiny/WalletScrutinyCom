@@ -384,6 +384,10 @@ input, textarea, select {
 .btn-info:hover {
   background-color: #0056b3;
 }
+.btn-info i, .btn-info svg, .btn-info img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
 
 .btn-success {
   display: inline-block;

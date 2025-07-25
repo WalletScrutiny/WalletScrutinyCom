@@ -45,8 +45,8 @@ permalink: /verifier/
   <button class="btn btn-info" style="margin-bottom: 0;" href="" target="_blank" id="njumpLink">
     <i class="fas fa-external-link-alt" style="margin-right: 7px; font-size: 18px;"></i> Njump.me
   </button>
-  <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
-    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
+  <button class="btn btn-info" style="margin-bottom: 0; display: none; padding-top: 8px; padding-bottom: 8px;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verifier
   </button>
 </div>
 
