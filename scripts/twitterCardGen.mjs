@@ -1,3 +1,32 @@
+//
+// This script generates Twitter summary cards for wallet apps. It reads metadata
+// from `.md` files, fetches Nostr verification data, and uses the `canvas`
+// library to create PNG images. The cards display the app icon, title, version,
+// verdict, and Nostr verification status with dynamic font scaling and layout.
+//
+// --- Table of Contents ---
+//
+// 1.  Setup & Configuration
+//     - Imports & Constants
+//     - Command-Line Argument Parsing
+//     - Configuration Paths & Global Variables
+//     - Nostr Verification Configuration (getStatusText)
+//
+// 2.  Core Logic
+//     - loadResources(): Loads images, fonts, and Nostr data.
+//     - processOneFile(): Processes a single markdown file to generate a card.
+//     - processFiles(): Main loop to process all files in target folders.
+//
+// 3.  Canvas Drawing
+//     - drawOnCanvas(): The main drawing function that composes the card.
+//     - Platform Backgrounds (drawAndroidBackground, etc.)
+//
+// 4.  Data Fetching & Helpers
+//     - getNostrVerificationSummaryForApp(): Fetches Nostr data for an app.
+//     - loadVerdicts(), loadMetaVerdicts(): Loads verdict data from YAML.
+//     - Helper functions for text wrapping, date formatting, etc.
+//
+
 // Import libraries
 import fs from 'fs';
 import { createCanvas, loadImage, registerFont } from 'canvas';
@@ -108,26 +137,44 @@ const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events'; // Path to Nostr b
 const backgroundImage = 'images/twCard/socGenCardblue.png';
 // Standard background image is used for all cards
 // Load badge images
-const sourceavailableImagePath = 'images/twCard/sourceavailable.png';
 // Reproducible badge removed - now using text display
 const androidImagePath = 'images/twCard/android_icon.png';
 const appleImagePath = 'images/twCard/apple_logo.png';
 const desktopImagePath = 'images/twCard/desktop_logo.png';
-const sadNostrichImagePath = 'images/twCard/sad_nostrich.png';
-const nostrImagePath = 'images/twCard/nostr_icon.png';
 const fallbackIcon = 'images/smallNoicon.png';
 
+// Add this toggle at the top of the file (after constants)
+const USE_LONG_NOSTR_DESCRIPTIONS = false; // Set to true for long descriptions
+
 // Global variables for images
-let bgImage, sourceavailableImage, androidImage, appleImage, desktopImage, sadNostrichImage, nostrImage;
+let bgImage, androidImage, appleImage, desktopImage;
 const verdictMap = loadVerdicts('_data/verdicts');
 // Load meta verdicts
 const metaVerdictMap = loadMetaVerdicts('_data/verdicts');
-// Manual mapping for Nostr build statuses
-const nostrStatusMap = {
-  'reproducible': 'Reproducible',
-  'not_reproducible': '⚠ Not Reproducible',
-  'ftbfs': '⚠ Build failed'
-};
+
+// Nostr verification section
+function getStatusText(status, short = true) {
+  switch (status) {
+    case 'reproducible':
+      return short ? 'Reproducible' : 'The application was successfully reproduced';
+    case 'not_reproducible':
+      return short ? '⚠︎ Not Reproducible' : '⚠︎ The application could not be reproduced';
+    case 'ftbfs':
+      return short ? '⚠︎ Failed to Build from Source' : '⚠︎ The application failed to build from source';
+    case 'spam':
+      return short ? '⚠︎ Spam' : '⚠︎ The application is spam';
+    case 'notag':
+      return short ? '⚠︎ No git revision' : '⚠︎ The application has no git revision';
+    case 'nosource':
+      return short ? '⚠︎ No source' : '⚠︎ The application has no sources available';
+    case 'obfuscated':
+      return short ? '⚠︎ Obfuscated' : '⚠︎ The application\'s source code is obfuscated';
+    case 'warning':
+      return short ? '⚠︎ Warning' : '⚠︎ The application\'s source code is a warning';
+    default:
+      return '⚠︎ Unknown';
+  }
+}
 // Cache for Nostr verification info to avoid repeated grep/jq calls
 let nostrVerificationCache = new Map();
 
@@ -136,6 +183,30 @@ let totalFiles = 0;
 let totalTime = 0;
 let oldTotalFiles = 0;
 const startTime = Date.now();
+
+// Statistics tracking variables
+let stats = {
+  platforms: {
+    android: 0,
+    iphone: 0,
+    desktop: 0,
+    bearer: 0,
+    hardware: 0
+  },
+  totalFailed: 0,
+  nostrVerification: {
+    total: 0,
+    reproducible: 0,
+    not_reproducible: 0,
+    ftbfs: 0,
+    spam: 0,
+    notag: 0,
+    nosource: 0,
+    obfuscated: 0,
+    warning: 0,
+    unknown: 0
+  }
+};
 
 async function loadResources () {
   // Load the background image
@@ -146,13 +217,6 @@ async function loadResources () {
   }
   
   // We now use the standard background for all cards
-  
-  // Load the sourceavailable image
-  try {
-    sourceavailableImage = await loadImage(sourceavailableImagePath);
-  } catch (error) {
-    console.warn(`Could not load sourceavailable image from ${sourceavailableImagePath}: ${error.message}`);
-  }
   
   // Reproducible image loading removed - now using text display
   
@@ -168,21 +232,6 @@ async function loadResources () {
     desktopImage = await loadImage(desktopImagePath);
   } catch (error) {
     console.error(`Error loading Desktop logo: ${error.message}`);
-  }
-
-  // Load Sad Nostrich image
-  try {
-    sadNostrichImage = await loadImage(sadNostrichImagePath);
-  } catch (error) {
-    console.error(`Error loading Sad Nostrich image: ${error.message}`);
-  }
-
-  // Load Nostr icon
-  try {
-    nostrImage = await loadImage(nostrImagePath);
-    console.log(`\x1b[32m[NOSTR] Successfully loaded Nostr icon from ${nostrImagePath}\x1b[0m`);
-  } catch (error) {
-    console.error(`\x1b[31m[NOSTR] Error loading Nostr icon: ${error.message}\x1b[0m`);
   }
 
   // Load Apple logo
@@ -518,6 +567,7 @@ async function processFilesTimed () {
   showProgress();
   await loadResources();
   await processFiles();
+  displaySummary();
 }
 
 const spikes = 5;
@@ -1127,63 +1177,190 @@ async function drawOnCanvas (data, iconImage) {
     ctx.fillText(metaMessage, centeredMetaX + 12, metaY + 6);
   }
   
-  // Display Nostr verification info - with updated spacing and font sizes
-  if (data.verdict === 'sourceavailable' && data.meta === 'ok' && data.nostrBuildStatus) {
-    let nostrInfoY = verdictY + 70;
+// Display Nostr verification info - with enhanced dynamic sizing
+if (data.verdict === 'sourceavailable' && data.meta === 'ok' && data.nostrBuildStatus) {
+  let nostrInfoY = verdictY + 70;
+  
+  // Create badge text WITHOUT date
+  const versionText = data.latestVersion ? `${data.latestVersion}` : '';
+
+  // Dynamic length detection for status text
+  const preferLong = USE_LONG_NOSTR_DESCRIPTIONS;
+  let statusText;
+
+  if (preferLong) {
+    // Always try long version first - REMOVE THE SPECIAL CASE
+    statusText = getStatusText(data.nostrBuildStatus, false); // Always use long version
+  } else {
+    // Use short version - REMOVE THE SPECIAL CASE  
+    statusText = getStatusText(data.nostrBuildStatus, true); // Always use short version
+  }
+
+  let badgeTextParts = [];
+  if (versionText) badgeTextParts.push(versionText);
+  if (statusText) badgeTextParts.push(statusText);
+  const badgeText = badgeTextParts.join(' ');
+  
+  // Enhanced dynamic sizing with multi-line first approach
+  let fontSize = 27; // Starting font size
+  const minFontSize = 18; // Minimum readable size
+  const maxSingleLineWidth = contentAreaWidth + 20; // Enlarged by 40px each side (was -60, now +20)
+  const maxTotalWidth = contentAreaWidth + 40; // Enlarged by 40px each side (was -40, now +40)
+  let badgeWidth;
+  let badgeHeight = 36; // Base height for single line
+  let isMultiLine = false;
+  let line1 = '';
+  let line2 = '';
+  
+  // Step 1: Check if single line fits at current font size
+  ctx.font = `${fontSize}px Barlow`;
+  badgeWidth = ctx.measureText(badgeText).width + 24;
+  
+  // Step 2: If too wide for single line, try multi-line FIRST
+  if (badgeWidth > maxSingleLineWidth) {
+    isMultiLine = true;
+    badgeHeight = 72; // Double height for two lines
     
-    // Create badge text WITHOUT date
-    const versionText = data.latestVersion ? `${data.latestVersion}` : ''; // Removed 'v' prefix
-    const statusText = data.nostrBuildStatus === 'reproducible' ? 'is Reproducible' : nostrStatusMap[data.nostrBuildStatus];
+    // Split intelligently at word boundaries
+    const words = badgeText.split(' ');
+    let bestSplit = Math.floor(words.length / 2);
+    let minWidthDiff = Infinity;
     
-    let badgeTextParts = [];
-    if (versionText) badgeTextParts.push(versionText);
-    if (statusText) badgeTextParts.push(statusText);
-    const badgeText = badgeTextParts.join(' '); // Removed bullet separator
-    
-    // Badge dimensions with increased font size
-    const badgeHeight = 36;
-    ctx.font = '30px Barlow'; // Increased by 2px more (was 28px, now 30px)
-    const badgeWidth = ctx.measureText(badgeText).width + 24;
-    
-    // Center the badge
-    const centeredBadgeX = contentAreaCenterX - (badgeWidth / 2);
-    
-    // Determine stroke color
-    let strokeColor = 'white';
-    if (data.nostrBuildStatus === 'reproducible') {
-      strokeColor = '#4ADE80';
-    } else if (data.nostrBuildStatus === 'not_reproducible') {
-      strokeColor = '#F87171';
-    } else if (data.nostrBuildStatus === 'ftbfs') {
-      strokeColor = '#aa1c1c';
+    // Find the split that creates the most balanced lines
+    for (let i = 1; i < words.length; i++) {
+      const testLine1 = words.slice(0, i).join(' ');
+      const testLine2 = words.slice(i).join(' ');
+      
+      ctx.font = `${fontSize}px Barlow`; // Use current font size for measurement
+      const width1 = ctx.measureText(testLine1).width;
+      const width2 = ctx.measureText(testLine2).width;
+      const widthDiff = Math.abs(width1 - width2);
+      
+      // Both lines must fit in max width
+      if (width1 + 24 <= maxTotalWidth && width2 + 24 <= maxTotalWidth && widthDiff < minWidthDiff) {
+        minWidthDiff = widthDiff;
+        bestSplit = i;
+      }
     }
     
-    // Draw badge border
-    ctx.save();
-    ctx.strokeStyle = strokeColor;
-    ctx.lineWidth = 4;
-    ctx.beginPath();
-    ctx.roundRect(centeredBadgeX, nostrInfoY - 8, badgeWidth, badgeHeight, 14);
-    ctx.stroke();
-    ctx.restore();
+    line1 = words.slice(0, bestSplit).join(' ');
+    line2 = words.slice(bestSplit).join(' ');
     
-    // Draw badge text with increased font size - horizontally centered
-    ctx.font = '27px Barlow'; // Increased by 2px more (was 28px, now 30px)
-    ctx.fillStyle = 'white';
-    ctx.textAlign = 'center'; // Changed to center alignment
-    const textY = nostrInfoY - 8 + (badgeHeight / 2) + 10;
-    const textCenterX = centeredBadgeX + (badgeWidth / 2); // Center of the badge
-    ctx.fillText(badgeText, textCenterX, textY);
+    // Calculate width based on the wider line at current font size
+    ctx.font = `${fontSize}px Barlow`;
+    const line1Width = ctx.measureText(line1).width + 24;
+    const line2Width = ctx.measureText(line2).width + 24;
+    badgeWidth = Math.max(line1Width, line2Width);
     
-    // Draw date separately below the badge with increased spacing and smaller font
-    if (data.latestDate) {
-      ctx.font = '20px Barlow'; // Decreased by 4px more (was 24px, now 20px)
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-      ctx.textAlign = 'center';
-      const dateY = nostrInfoY - 8 + badgeHeight + 27; // Increased spacing by 7px (was +20, now +27)
-      ctx.fillText(data.latestDate, contentAreaCenterX, dateY);
+    // Step 3: If multi-line still too wide, THEN scale font down within multi-line
+    if (badgeWidth > maxTotalWidth && fontSize > minFontSize) {
+      while (badgeWidth > maxTotalWidth && fontSize > minFontSize) {
+        fontSize -= 1;
+        ctx.font = `${fontSize}px Barlow`;
+        
+        // Recalculate line widths with new font size
+        const newLine1Width = ctx.measureText(line1).width + 24;
+        const newLine2Width = ctx.measureText(line2).width + 24;
+        badgeWidth = Math.max(newLine1Width, newLine2Width);
+      }
+    }
+    
+    // Step 4: If STILL too wide even with smallest font in multi-line, fallback to short version
+    if (badgeWidth > maxTotalWidth) {
+      console.log(`[DEBUG] Multi-line still too wide at ${fontSize}px, falling back to short version`);
+      isMultiLine = false;
+      badgeHeight = 36;
+      statusText = getStatusText(data.nostrBuildStatus, true); // Now use short version
+      
+      // Rebuild with short text
+      badgeTextParts = [];
+      if (versionText) badgeTextParts.push(versionText);
+      if (statusText) badgeTextParts.push(statusText);
+      const fallbackText = badgeTextParts.join(' ');
+      
+      // Reset font size and try single line with short text
+      fontSize = 27;
+      ctx.font = `${fontSize}px Barlow`;
+      badgeWidth = ctx.measureText(fallbackText).width + 24;
+      
+      // Scale down short text if needed
+      while (badgeWidth > maxSingleLineWidth && fontSize > minFontSize) {
+        fontSize -= 1;
+        ctx.font = `${fontSize}px Barlow`;
+        badgeWidth = ctx.measureText(fallbackText).width + 24;
+      }
+    }
+  } else {
+    // Step 5: Single line fits, but try font scaling if needed
+    while (badgeWidth > maxSingleLineWidth && fontSize > minFontSize) {
+      fontSize -= 1;
+      ctx.font = `${fontSize}px Barlow`;
+      badgeWidth = ctx.measureText(badgeText).width + 24;
     }
   }
+  
+  // Ensure minimum width for aesthetic purposes
+  badgeWidth = Math.max(badgeWidth, 120);
+  
+  // Center the badge
+  const centeredBadgeX = contentAreaCenterX - (badgeWidth / 2);
+  
+  // Determine stroke color
+  let strokeColor = 'white';
+  if (data.nostrBuildStatus === 'reproducible') {
+    strokeColor = '#4ADE80';
+  } else if (['not_reproducible', 'ftbfs', 'spam', 'nosource', 'obfuscated'].includes(data.nostrBuildStatus)) {
+    strokeColor = '#F87171';
+  } else if (['notag', 'warning'].includes(data.nostrBuildStatus)) {
+    strokeColor = '#FFA500';
+  } else {
+    strokeColor = '#aa1c1c';
+  }
+  
+  // Draw badge border (now with dynamic height)
+  ctx.save();
+  ctx.strokeStyle = strokeColor;
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.roundRect(centeredBadgeX, nostrInfoY - 8, badgeWidth, badgeHeight, 14);
+  ctx.stroke();
+  ctx.restore();
+  
+  // Draw badge text - single or multi-line
+  ctx.font = `${fontSize}px Barlow`;
+  ctx.fillStyle = 'white';
+  ctx.textAlign = 'center';
+  
+  if (isMultiLine) {
+    // Draw two lines centered vertically within the expanded container
+    const textCenterX = centeredBadgeX + (badgeWidth / 2);
+    const line1Y = nostrInfoY - 8 + (badgeHeight / 4) + 8; // Quarter height + adjustment
+    const line2Y = nostrInfoY - 8 + (3 * badgeHeight / 4) + 8; // Three quarters height + adjustment
+    
+    ctx.fillText(line1, textCenterX, line1Y);
+    ctx.fillText(line2, textCenterX, line2Y);
+    
+    console.log(`[DEBUG] Using multi-line: "${line1}" / "${line2}" at ${fontSize}px`);
+  } else {
+    // Single line centered
+    const textY = nostrInfoY - 8 + (badgeHeight / 2) + 10;
+    const textCenterX = centeredBadgeX + (badgeWidth / 2);
+    const finalText = badgeTextParts.length > 0 ? badgeTextParts.join(' ') : badgeText;
+    ctx.fillText(finalText, textCenterX, textY);
+    
+    console.log(`[DEBUG] Using single line: "${finalText}" at ${fontSize}px`);
+  }
+  
+  // Draw date separately below the badge (adjust spacing for multi-line)
+  if (data.latestDate) {
+    ctx.font = '20px Barlow';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    ctx.textAlign = 'center';
+    const dateSpacing = isMultiLine ? 25 : 37; // Less spacing for multi-line since container is taller
+    const dateY = nostrInfoY - 8 + badgeHeight + dateSpacing;
+    ctx.fillText(data.latestDate, contentAreaCenterX, dateY);
+  }
+}
   
   // Reset text alignment to default
   ctx.textAlign = 'start';
@@ -1229,6 +1406,13 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
   data.isHardwareApp = mdFilesPath.includes('_hardware');
   data.isBearerApp = mdFilesPath.includes('_bearer');
   
+  // Track platform statistics
+  if (data.isAndroidApp) stats.platforms.android++;
+  else if (data.isAppleApp) stats.platforms.iphone++;
+  else if (data.isDesktopApp) stats.platforms.desktop++;
+  else if (data.isHardwareApp) stats.platforms.hardware++;
+  else if (data.isBearerApp) stats.platforms.bearer++;
+  
   // Debug iPhone app detection
   if (data.isAppleApp) {
     console.log(`\x1b[36m[APPLE] Found iPhone app: ${data.title} in ${mdFilesPath}\x1b[0m`);
@@ -1245,6 +1429,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     iconImage = await loadImage(iconImagePath);
   } catch (error) {
     console.error(`Error processing file ${file}: `, error);
+    stats.totalFailed++;
     totalFiles--;
     return;
   }
@@ -1277,6 +1462,14 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
         if (nostrVerificationSummary && nostrVerificationSummary.latestStatus) {
           console.log(`\x1b[32m[NOSTR] Latest status for ${data.appId}: Status=${nostrVerificationSummary.latestStatus}, V=${nostrVerificationSummary.latestVersion || 'N/A'}, Date=${nostrVerificationSummary.latestDate || 'N/A'}\x1b[0m`);
           data.nostrBuildStatus = nostrVerificationSummary.latestStatus;
+          
+          // Track Nostr verification statistics
+          stats.nostrVerification.total++;
+          if (stats.nostrVerification[nostrVerificationSummary.latestStatus] !== undefined) {
+            stats.nostrVerification[nostrVerificationSummary.latestStatus]++;
+          } else {
+            stats.nostrVerification.unknown++;
+          }
           
           // Debug output for reproducible status
           if (nostrVerificationSummary.latestStatus === 'reproducible') {
@@ -1414,6 +1607,52 @@ async function processFiles () {
   }
   
   await Promise.all(asyncTasks);
+}
+
+// Summary function to display statistics
+function displaySummary() {
+  console.log('\n' + '='.repeat(60));
+  console.log('\x1b[1m\x1b[36m                    PROCESSING SUMMARY\x1b[0m');
+  console.log('='.repeat(60));
+  
+  const totalProcessed = stats.platforms.android + stats.platforms.iphone + 
+                        stats.platforms.desktop + stats.platforms.bearer + 
+                        stats.platforms.hardware;
+  
+  console.log(`\x1b[1mTotal number of apps processed: ${totalProcessed}\x1b[0m`);
+  console.log(`  - Android: ${stats.platforms.android}`);
+  console.log(`  - iPhone: ${stats.platforms.iphone}`);
+  console.log(`  - Desktop: ${stats.platforms.desktop}`);
+  console.log(`  - Bearer: ${stats.platforms.bearer}`);
+  console.log(`  - Hardware: ${stats.platforms.hardware}`);
+  
+  console.log(`\n\x1b[31mTotal failed: ${stats.totalFailed}\x1b[0m`);
+  
+  console.log(`\n\x1b[1mTotal with Nostr verification: ${stats.nostrVerification.total}\x1b[0m`);
+  console.log(`  - \x1b[32mReproducible: ${stats.nostrVerification.reproducible}\x1b[0m`);
+  console.log(`  - \x1b[31mNot reproducible: ${stats.nostrVerification.not_reproducible}\x1b[0m`);
+  console.log(`  - \x1b[31mFailed to build: ${stats.nostrVerification.ftbfs}\x1b[0m`);
+  
+  if (stats.nostrVerification.spam > 0) {
+    console.log(`  - \x1b[33mSpam: ${stats.nostrVerification.spam}\x1b[0m`);
+  }
+  if (stats.nostrVerification.notag > 0) {
+    console.log(`  - \x1b[33mNo git revision: ${stats.nostrVerification.notag}\x1b[0m`);
+  }
+  if (stats.nostrVerification.nosource > 0) {
+    console.log(`  - \x1b[33mNo source: ${stats.nostrVerification.nosource}\x1b[0m`);
+  }
+  if (stats.nostrVerification.obfuscated > 0) {
+    console.log(`  - \x1b[33mObfuscated: ${stats.nostrVerification.obfuscated}\x1b[0m`);
+  }
+  if (stats.nostrVerification.warning > 0) {
+    console.log(`  - \x1b[33mWarning: ${stats.nostrVerification.warning}\x1b[0m`);
+  }
+  if (stats.nostrVerification.unknown > 0) {
+    console.log(`  - \x1b[33mUnknown: ${stats.nostrVerification.unknown}\x1b[0m`);
+  }
+  
+  console.log('='.repeat(60));
 }
 
 processFilesTimed();
