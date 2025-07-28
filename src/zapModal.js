@@ -170,15 +170,7 @@ function showZapModal({ onClose, setZapped }) {
 
   Object.entries(amounts).forEach(([amt, emoji]) => {
     const btn = document.createElement('button');
-    let displayText;
-    if (amt >= 1000000) {
-      displayText = `${emoji} ${(amt/1000000)}M`;
-    } else if (amt >= 1000) {
-      displayText = `${emoji} ${(amt/1000)}K`;
-    } else {
-      displayText = `${emoji} ${amt}`;
-    }
-    btn.textContent = displayText;
+    btn.textContent = `${emoji} ${formatZapAmount(amt)}`;
     btn.style = 'flex:1 1 30%; min-width:60px;';
     if (amt == selectedAmount) btn.classList.add('zap-amount-selected');
     btn.onclick = () => {
@@ -240,8 +232,8 @@ function showZapModal({ onClose, setZapped }) {
 
       document.getElementById('loadingSpinner').style.display = 'none';
 
-      await subscribeToZapReceipts(event, currentInvoice, async (ok) => {
-        if (ok) {
+      await subscribeToZapReceipts(event, currentInvoice, async (event) => {
+        if (event) {
           modal.querySelector('#zap-modal-content-inner').style.display = 'none';
           modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap received!</p>';
           if (onClose) onClose();
