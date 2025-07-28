@@ -170,7 +170,15 @@ function showZapModal({ onClose, setZapped }) {
 
   Object.entries(amounts).forEach(([amt, emoji]) => {
     const btn = document.createElement('button');
-    btn.textContent = `${emoji} ${amt >= 1000 ? (amt/1000)+'K' : amt}`;
+    let displayText;
+    if (amt >= 1000000) {
+      displayText = `${emoji} ${(amt/1000000)}M`;
+    } else if (amt >= 1000) {
+      displayText = `${emoji} ${(amt/1000)}K`;
+    } else {
+      displayText = `${emoji} ${amt}`;
+    }
+    btn.textContent = displayText;
     btn.style = 'flex:1 1 30%; min-width:60px;';
     if (amt == selectedAmount) btn.classList.add('zap-amount-selected');
     btn.onclick = () => {
