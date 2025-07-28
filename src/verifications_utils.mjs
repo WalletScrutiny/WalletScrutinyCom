@@ -1271,23 +1271,34 @@ const createZap = async function ({ event, amount, comment = '' }) {
   return invoice;
 }
 
-const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback) {
+const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback, eoseCallback) {
   try {
-    const sub = ndk.subscribe({
+    let filter = {
       kinds: [9735],
-      ["#e"]: [zapEvent.id],
-      ["#bolt11"]: [currentZapInvoice]
-    })
+      ["#e"]: [zapEvent.id]
+    }
+    if (currentZapInvoice) {
+      filter["#bolt11"] = [currentZapInvoice];
+    }
+    const sub = ndk.subscribe(filter);
+
+    sub?.on("eose", () => {
+      sub.stop();
+      eoseCallback();
+    });
 
     sub?.on("event", async (event) => {
       console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
-      sub.stop()
+      if (currentZapInvoice) {
+        sub.stop()  // Only one zap receipt is expected, so close the subscription after receiving it
+      }
       const zapReceiptInvoice = event.tagValue("bolt11")
       console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
       if (zapReceiptInvoice) {
         const decodedInvoice = decode(zapReceiptInvoice)
         console.debug('    - subscribeToZapReceipts - decodedInvoice', decodedInvoice);
         const zapRequest = zapInvoiceFromEvent(event)
+        event.zapRequest = zapRequest;
         console.debug('    - zapRequest (zapInvoiceFromEvent)', zapRequest);
 
         const amountSection = decodedInvoice.sections.find(
@@ -1301,8 +1312,11 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
         const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
 
         if (amountPaid === amountRequested) {
-          receiptReceivedCallback(true)
+          receiptReceivedCallback(event);
+          return;
         }
+
+        receiptReceivedCallback(null);
       }
     })
   } catch (error) {
