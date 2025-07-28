@@ -86,8 +86,11 @@ permalink: /verifier/
     }
 
     try {
-      const npub = await getNpubFromPubkey(pubkey);
-      document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
+      const npub = getNpubFromPubkey(pubkey);
+
+      document.getElementById('njumpLink').addEventListener('click', function() {
+        window.open(`https://njump.me/${npub}`, '_blank');
+      });
 
       const profile = await getNostrProfile(pubkey);
 
