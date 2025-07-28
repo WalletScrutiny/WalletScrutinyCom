@@ -162,10 +162,8 @@ const getNostrProfile = async function (pubkey) {
   return profile;
 }
 
-const getNpubFromPubkey = async function (pubkey) {
-  await ensureNdkConnected();
-  const user = ndk.getUser({ pubkey });
-  return user.npub;
+const getNpubFromPubkey = function (pubkey) {
+  return nip19.npubEncode(pubkey);
 }
 
 const getWSClientTag = function() {
