@@ -64,7 +64,6 @@
     `;
     document.head.appendChild(style);
 
-    // HTML for buttons
     const nostrButton = `<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork"><img src="/images/nostr_logo.svg" style="width:25px;height:25px;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
     const xButton = `<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
     const fbButton = `<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i><span class="network-text">Share on Facebook</span></a>`;
