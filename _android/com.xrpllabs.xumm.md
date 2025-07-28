@@ -12,7 +12,7 @@ updated: 2025-06-17
 version: 4.1.4
 stars: 4.6
 ratings: 
-reviews: 492
+reviews: 491
 website: https://xaman.app
 repository: 
 issue: 

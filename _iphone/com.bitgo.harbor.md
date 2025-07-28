@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitgo.harbor.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2025-03-26
+date: 2025-07-28
 signer: 
 twitter: BitGo
 social:

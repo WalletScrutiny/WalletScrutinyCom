@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.wota.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-06-22
+date: 2025-07-28
 signer: 
 twitter: 
 social: 

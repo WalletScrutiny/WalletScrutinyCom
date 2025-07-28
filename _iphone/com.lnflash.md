@@ -1,6 +1,6 @@
 ---
 wsId: lnFlash
-title: 'Flash: Bitcoin'
+title: 'Flash: Rewards & Payments'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.lnflash
 appCountry: jm
 idd: '6451129095'
 released: 2024-08-08
-updated: 2025-06-11
-version: 0.4.1
+updated: 2025-07-24
+version: 0.4.2
 stars: 0
 reviews: 0
 website: https://getflash.io

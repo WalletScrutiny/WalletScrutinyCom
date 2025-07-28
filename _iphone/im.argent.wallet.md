@@ -8,10 +8,10 @@ appId: im.argent.wallet
 appCountry: us
 idd: 1358741926
 released: 2018-10-25
-updated: 2025-06-26
-version: 5.0.1
+updated: 2025-07-24
+version: 5.1.1
 stars: 4.5
-reviews: 2238
+reviews: 2239
 website: https://www.ready.co
 repository: 
 issue: 

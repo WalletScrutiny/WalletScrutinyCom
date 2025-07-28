@@ -8,19 +8,19 @@ appId: za.co.cryptoconvert.bolt
 appCountry: in
 idd: '1617778619'
 released: 2022-05-16
-updated: 2024-03-27
-version: '2.7'
+updated: 2025-07-12
+version: '2.8'
 stars: 0
 reviews: 0
-website: https://www.cryptoconvert.co.za/
+website: https://www.moneybadger.co.za/
 repository: 
 issue: 
 icon: za.co.cryptoconvert.bolt.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2025-03-25
+date: 2025-07-28
 signer: 
 twitter: CryptoConverted
 social: 

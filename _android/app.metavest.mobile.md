@@ -8,8 +8,8 @@ users: 1000
 appId: app.metavest.mobile
 appCountry: 
 released: 2022-07-06
-updated: 2025-06-15
-version: 3.3.1
+updated: 2025-07-27
+version: 3.4.0
 stars: 
 ratings: 
 reviews: 

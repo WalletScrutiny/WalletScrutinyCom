@@ -8,10 +8,10 @@ appId: jp.co.rakuten.wallet.crypto
 appCountry: jp
 idd: '1472320399'
 released: 2019-08-31
-updated: 2025-06-26
-version: 1.5.6
+updated: 2025-07-15
+version: 1.5.7
 stars: 4.3
-reviews: 8862
+reviews: 8946
 website: https://www.rakuten-wallet.co.jp/
 repository: 
 issue: 

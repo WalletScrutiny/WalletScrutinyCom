@@ -12,7 +12,7 @@ updated: 2025-07-17
 version: 2.1.58
 stars: 4
 ratings: 
-reviews: 191
+reviews: 192
 website: https://keplr.app
 repository: https://github.com/chainapsis/keplr-wallet
 issue: https://github.com/chainapsis/keplr-wallet/issues/1554

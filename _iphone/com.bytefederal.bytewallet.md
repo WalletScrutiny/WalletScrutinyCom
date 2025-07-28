@@ -8,8 +8,8 @@ appId: com.bytefederal.bytewallet
 appCountry: us
 idd: '1569062610'
 released: 2021-07-27
-updated: 2025-06-04
-version: 1.6.0.8
+updated: 2025-07-27
+version: 1.7.0.1
 stars: 3.5
 reviews: 45
 website: http://bytefederal.com/vault

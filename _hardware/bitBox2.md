@@ -10,7 +10,7 @@ authors:
 released: 2019-09-25
 discontinued: 
 updated: 2024-09-26
-version: 9.22.0
+version: 9.23.1
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -31,7 +31,7 @@ meta: ok
 verdict: sourceavailable
 appHashes:
 - 36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679
-date: 2025-02-17
+date: 2025-07-18
 signer: 
 twitter: ShiftCryptoHQ
 social:

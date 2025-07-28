@@ -11,7 +11,7 @@ released: 2020-01-06
 updated: 2025-07-04
 version: 4.69.0
 stars: 4.7
-reviews: 42044
+reviews: 42161
 website: https://www.bybit.com
 repository: 
 issue: 

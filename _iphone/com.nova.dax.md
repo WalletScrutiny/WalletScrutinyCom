@@ -10,7 +10,7 @@ released: 2019-10-02
 updated: 2025-07-18
 version: 3.5.5
 stars: 4.6
-reviews: 2577
+reviews: 2583
 website: 
 repository: 
 issue: 

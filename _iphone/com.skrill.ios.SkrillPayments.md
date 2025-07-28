@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2025-07-24
 version: 3.165.0
 stars: 4.5
-reviews: 7900
+reviews: 7918
 website: https://www.skrill.com/
 repository: 
 issue: 

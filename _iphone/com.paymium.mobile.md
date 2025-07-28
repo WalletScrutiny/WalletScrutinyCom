@@ -11,7 +11,7 @@ released: 2016-01-18
 updated: 2025-07-17
 version: 8.16.1
 stars: 3.3
-reviews: 25
+reviews: 26
 website: https://www.paymium.com/
 repository: 
 issue: 

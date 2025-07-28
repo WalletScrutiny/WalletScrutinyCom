@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.regelity.mobileex.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-07-17
+date: 2025-07-28
 signer: 
 twitter: 
 social:

@@ -11,7 +11,7 @@ released: 2019-08-28
 updated: 2025-06-25
 version: 2.6.5
 stars: 4.6
-reviews: 39
+reviews: 40
 website: https://vault12.com/guard
 repository: https://github.com/vault12
 issue: 

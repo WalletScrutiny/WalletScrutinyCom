@@ -11,7 +11,7 @@ released: 2019-01-26
 updated: 2020-12-29
 version: 2.9.4
 stars: 3.8
-reviews: 85
+reviews: 86
 website: https://pundix.com
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-05-06
 updated: 2025-05-13
 version: 1.3.0
-stars: 3.1
+stars: 3.2
 ratings: 835
-reviews: 8
+reviews: 9
 website: https://www.altcointrader.co.za/
 repository: 
 issue: 

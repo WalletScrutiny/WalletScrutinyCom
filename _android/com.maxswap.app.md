@@ -3,7 +3,7 @@ wsId:
 title: 'MaxSwap: Crypto Bitcoin Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.maxswap.app
 appCountry: 
 released: 2024-06-19
@@ -18,7 +18,7 @@ issue:
 icon: com.maxswap.app.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-17
 signer: 

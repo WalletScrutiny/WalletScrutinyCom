@@ -7,8 +7,8 @@ appId: dev.com.gleecexchange.app
 appCountry: ca
 idd: '1541005487'
 released: 2021-02-18
-updated: 2025-05-14
-version: 1.37.0
+updated: 2025-07-22
+version: 1.38.0
 stars: 0
 reviews: 0
 website: https://gleecbtc.com

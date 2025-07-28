@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-17
 updated: 2025-06-10
 version: 9.1.0
-stars: 3
+stars: 3.2
 ratings: 
 reviews: 6
 website: https://thekingdombank.com

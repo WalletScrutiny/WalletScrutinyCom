@@ -10,7 +10,7 @@ appCountry: gb
 released: 2021-01-11
 updated: 2025-07-04
 version: '1.217'
-stars: 3.8
+stars: 3.7
 ratings: 392
 reviews: 28
 website: https://www.forex.com

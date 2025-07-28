@@ -1,6 +1,6 @@
 ---
 wsId: Remitano
-title: Remitano - Buy & Sell Bitcoin
+title: 'Remitano: BTC & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,7 +8,7 @@ users: 1000000
 appId: com.remitano.remitano
 appCountry: 
 released: 2016-07-24
-updated: 2025-06-18
+updated: 2025-07-28
 version: 6.141.0
 stars: 4.3
 ratings: 19172

@@ -4,7 +4,7 @@ title: 'Inocyx: Buy & Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16

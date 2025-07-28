@@ -12,7 +12,7 @@ updated: 2025-07-22
 version: 4.2.0
 stars: 4.8
 ratings: 
-reviews: 7
+reviews: 8
 website: https://deblock.com/
 repository: 
 issue: 

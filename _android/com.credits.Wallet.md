@@ -12,7 +12,7 @@ updated: 2025-04-17
 version: 9.0.0.9
 stars: 4.3
 ratings: 
-reviews: 3
+reviews: 4
 website: https://credits.com/contacts.html
 repository: 
 issue: 

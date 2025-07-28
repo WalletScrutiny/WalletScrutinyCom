@@ -11,7 +11,7 @@ released: 2019-01-16
 updated: 2025-06-27
 version: 6.5.7
 stars: 4.6
-reviews: 5352
+reviews: 5390
 website: https://weareblox.com
 repository: 
 issue: 

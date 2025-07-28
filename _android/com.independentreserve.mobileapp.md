@@ -10,7 +10,7 @@ appCountry:
 released: 2021-10-18
 updated: 2025-07-22
 version: 10.3.0
-stars: 4.1
+stars: 4
 ratings: 
 reviews: 3
 website: https://www.independentreserve.com

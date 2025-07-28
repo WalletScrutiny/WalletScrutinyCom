@@ -9,8 +9,8 @@ appId: com.app.xt
 appCountry: 
 released: 2021-04-14
 updated: 2025-07-24
-version: 5.3.2
-stars: 3.5
+version: 5.4.0
+stars: 3.6
 ratings: 
 reviews: 218
 website: http://www.xt.com

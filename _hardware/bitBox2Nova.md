@@ -6,11 +6,11 @@ authors:
 released: 2025-06-21
 discontinued: 
 updated: 
-version: 9.22.0
+version: 9.23.1
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
-- 54.5
-- 25.4
+- 55
+- 25
 - 9.6
 weight: 12
 provider: Shift Crypto AG
@@ -26,7 +26,7 @@ bugbounty: https://bitbox.swiss/bug-bounty-program/
 meta: ok
 verdict: sourceavailable
 appHashes: 
-date: 2025-02-17
+date: 2025-07-18
 signer: 
 twitter: BitBoxSwiss
 social:

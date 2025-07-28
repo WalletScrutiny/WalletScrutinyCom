@@ -9,8 +9,8 @@ users: 500000
 appId: com.shapeshift.droid_shapeshift
 appCountry: 
 released: 2015-10-26
-updated: 2024-06-20
-version: 3.1.0
+updated: 2025-07-24
+version: 3.2.0
 stars: 3.3
 ratings: 2913
 reviews: 511
@@ -19,10 +19,10 @@ repository: https://github.com/shapeshift/mobile-app
 issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: sourceavailable
 appHashes: []
-date: 2025-06-18
+date: 2025-07-28
 signer: 
 twitter: ShapeShift_io
 social:

@@ -8,19 +8,19 @@ appId: com.pallapay.application
 appCountry: us
 idd: '1622391711'
 released: 2022-05-12
-updated: 2022-06-01
-version: 1.0.4
-stars: 2.3
-reviews: 3
+updated: 2025-07-27
+version: 2.0.0
+stars: 0
+reviews: 0
 website: https://www.pallapay.com
 repository: 
 issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: 2025-07-28
 signer: 
 twitter: pallapay_com
 social:

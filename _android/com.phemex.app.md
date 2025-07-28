@@ -12,7 +12,7 @@ updated: 2025-07-21
 version: 5.5.53
 stars: 4.6
 ratings: 15997
-reviews: 1434
+reviews: 1435
 website: https://phemex.com
 repository: 
 issue: 

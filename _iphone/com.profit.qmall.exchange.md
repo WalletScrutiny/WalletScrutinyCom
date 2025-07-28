@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.profit.qmall.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-07-28
 signer: 
 twitter: QmallExchange
 social:

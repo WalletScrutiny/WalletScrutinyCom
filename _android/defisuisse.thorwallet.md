@@ -4,7 +4,7 @@ title: THORWallet - Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: defisuisse.thorwallet
 appCountry: 
 released: 2021-12-23

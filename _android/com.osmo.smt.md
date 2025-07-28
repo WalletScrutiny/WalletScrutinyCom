@@ -8,8 +8,8 @@ users: 100000
 appId: com.osmo.smt
 appCountry: 
 released: 2022-07-01
-updated: 2025-07-14
-version: 4.6.0
+updated: 2025-07-23
+version: 4.6.1
 stars: 4.3
 ratings: 
 reviews: 39
