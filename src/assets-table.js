@@ -1369,6 +1369,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       const zapsElement = document.getElementById('zaps');
       zapsElement.style.display = 'block';
       zapsElement.innerHTML = `<p><strong>Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):</strong> ${zapsHTML}</p>`;
+      zapsHTML = '';
     }
   });
 
