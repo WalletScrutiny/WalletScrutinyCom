@@ -1260,18 +1260,19 @@ const createZap = async function ({ event, amount, comment = '' }) {
   });
   if (!zapRequestEvent) throw new Error('Failed to generate zap request');
   zapRequestEvent.content = comment;
-  console.log('zapRequestEvent', zapRequestEvent);
+  console.debug('createZap - zapRequestEvent', zapRequestEvent);
 
   const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
     console.log('Error: An error occurred in getting LnInvoice!', err);
     return null;
   });
   if (!invoice) throw new Error('Failed to get LNInvoice');
+  console.debug('createZap - invoice', invoice);
 
   return invoice;
 }
 
-const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback, eoseCallback) {
+const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback) {
   try {
     let filter = {
       kinds: [9735],
@@ -1281,11 +1282,6 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
       filter["#bolt11"] = [currentZapInvoice];
     }
     const sub = ndk.subscribe(filter);
-
-    sub?.on("eose", () => {
-      sub.stop();
-      eoseCallback();
-    });
 
     sub?.on("event", async (event) => {
       console.debug('subscribeToZapReceipts - Zap receipt event received:', event);

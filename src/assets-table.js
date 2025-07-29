@@ -1349,9 +1349,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         zapperPubkey: description.pubkey,
         created_at: zapReceiptEvent.created_at
       });
-    }
-  }, () => {
-    if (zapReceipts.length > 0) {
+
       let zapTotalAmount = 0;
 
       zapReceipts.sort((a, b) => b.zapAmount - a.zapAmount).forEach((zap) => {
