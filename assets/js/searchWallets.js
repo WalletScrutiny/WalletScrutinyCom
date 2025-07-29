@@ -199,27 +199,30 @@ function doNavBarSearch (input) {
       result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
       document.querySelector('.search-controls').classList.remove('working');
     }
+
+    const walletRows = [];
     for (const wallet of wallets) {
       if (wallet.title) {
         const walletRow = document.createElement('li');
-        if (wallets.length < 10) {
-          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms';
-        }
         walletRow.classList.add('actionable');
-        let compactedResults = '';
-        compactedResults += makeCompactResultsHTML(wallet);
-        var walletGroupClass = '';
-        if (wallet.versions && wallet.versions.length > 0) {
+        let compactedResults = makeCompactResultsHTML(wallet);
+        let walletGroupClass = '';
+        if (wallet.versions?.length > 0) {
           for (let i = 0; i < wallet.versions.length; i++) {
             compactedResults += makeCompactResultsHTML(wallet.versions[i]);
           }
           walletGroupClass = 'grouped';
         }
         walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-        document.querySelector('.search-controls').classList.remove('working');
-        result.append(walletRow);
+        walletRows.push(walletRow);
       }
     }
+
+    if (walletRows.length > 0) {
+      result.append(...walletRows);
+      document.querySelector('.search-controls').classList.remove('working');
+    }
+
   } else if (term.length !== 0) {
     var l = document.createElement('li');
     var rem = (minTermLength + 1) - term.length;
