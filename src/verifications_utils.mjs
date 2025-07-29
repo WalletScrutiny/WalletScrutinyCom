@@ -1278,15 +1278,17 @@ const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, recei
       kinds: [9735],
       ["#e"]: [zapEvent.id]
     }
-    if (currentZapInvoice) {
-      filter["#bolt11"] = [currentZapInvoice];
-    }
     const sub = ndk.subscribe(filter);
 
     sub?.on("event", async (event) => {
       console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
       if (currentZapInvoice) {
-        sub.stop()  // Only one zap receipt is expected, so close the subscription after receiving it
+        if (event.tagValue("bolt11") === currentZapInvoice) {
+          sub.stop()  // Only one zap receipt is expected, so close the subscription after receiving it
+        } else {
+          console.debug('    - subscribeToZapReceipts - a zap invoice was received that is not the current zap invoice we are waiting for, so skipping it');
+          return;
+        }
       }
       const zapReceiptInvoice = event.tagValue("bolt11")
       console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
