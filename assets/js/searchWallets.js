@@ -175,11 +175,8 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.remove('edited');
   }
 
-  clearTimeout(window.walletSearchTimeoutTrigger);
   if (window.searchTerm && window.searchTerm.length > 1) {
-    window.walletSearchTimeoutTrigger = setTimeout(() => {
-      doNavBarSearch(window.searchTerm);
-    }, 200);
+    doNavBarSearch(window.searchTerm);
   }
 }
 
