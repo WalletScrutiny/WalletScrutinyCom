@@ -175,12 +175,12 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.remove('edited');
   }
 
-  if (window.searchTerm && window.searchTerm.length > 1) {
+  if (window.searchTerm) {
     doNavBarSearch(window.searchTerm);
   }
 }
 
-function doNavBarSearch (input) {
+async function doNavBarSearch (input) {
   document.body.classList.add('search-ui-active');
   const result = document.querySelector('.results-target');
   result.classList.add('visible');
@@ -199,25 +199,28 @@ function doNavBarSearch (input) {
 
     const walletRows = [];
     for (const wallet of wallets) {
-      if (wallet.title) {
-        const walletRow = document.createElement('li');
-        walletRow.classList.add('actionable');
-        let compactedResults = makeCompactResultsHTML(wallet);
-        let walletGroupClass = '';
-        if (wallet.versions?.length > 0) {
-          for (let i = 0; i < wallet.versions.length; i++) {
-            compactedResults += makeCompactResultsHTML(wallet.versions[i]);
-          }
-          walletGroupClass = 'grouped';
+      if (!wallet.title) continue;
+
+      const walletRow = document.createElement('li');
+      walletRow.classList.add('actionable');
+      let compactedResults = makeCompactResultsHTML(wallet);
+      let walletGroupClass = '';
+      if (wallet.versions?.length > 0) {
+        for (let i = 0; i < wallet.versions.length; i++) {
+          compactedResults += makeCompactResultsHTML(wallet.versions[i]);
         }
-        walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-        walletRows.push(walletRow);
+        walletGroupClass = 'grouped';
       }
+      walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
+      walletRows.push(walletRow);
     }
 
     if (walletRows.length > 0) {
-      result.append(...walletRows);
+      result.append(...walletRows.slice(0, 10));
+      await new Promise(resolve => setTimeout(resolve, 50));
       document.querySelector('.search-controls').classList.remove('working');
+      await new Promise(resolve => setTimeout(resolve, 50));
+      result.append(...walletRows.slice(10));
     }
 
   } else if (term.length !== 0) {
