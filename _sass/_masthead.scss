@@ -306,6 +306,9 @@
         }
         .stats {
           font-size: 13px;
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
           @media (max-width: $small) {
             grid-row: 2/3;
             grid-column: 2/3;

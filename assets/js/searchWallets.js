@@ -278,9 +278,9 @@ function makeCompactResultsHTML (wallet) {
     const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
     if (lastVerificationStatus) {
       const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
-      verificationHTML = `<br><span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
+      verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
     } else {
-      verificationHTML = '<br><span>❓ Not verified yet</span>';
+      verificationHTML = '<span>❓ Not verified yet</span>';
     }
   }
 
@@ -294,10 +294,10 @@ function makeCompactResultsHTML (wallet) {
         '</small>',
       '</span>',
       '<span class="stats">',
-        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span><br>`,
+        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
         verificationHTML,
         wallet.meta && wallet.meta !== 'ok'
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span><br>`
+          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : '',
         scoreHTML,
       '</span>',
