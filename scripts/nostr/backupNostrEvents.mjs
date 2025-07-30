@@ -189,8 +189,8 @@ class NostrBackupManager {
   showHeader() {
     console.log(`${colors.bright}${colors.blue}
 ╔════════════════════════════════════════════════════════════════╗
-║                    📡 Nostr Backup Manager                    ║
-║                     WalletScrutiny.com Events                 ║
+║                    📡 Nostr Backup Manager                     ║
+║                     WalletScrutiny.com Events                  ║
 ╚════════════════════════════════════════════════════════════════╝${colors.reset}\n`);
   }
 
@@ -308,6 +308,36 @@ class NostrBackupManager {
     console.log('═'.repeat(40));
     console.log();
 
+    // Prompt user for time range
+    console.log(`${colors.cyan}📅 Time Range Selection:${colors.reset}`);
+    console.log(`${colors.white}Enter number of months to backup (default is 2)${colors.reset}`);
+    console.log(`${colors.white}Or enter 'a' for all events (no time limit)${colors.reset}`);
+    console.log();
+    
+    const timeInput = await this.prompt(`${colors.yellow}Months to backup [2]: ${colors.reset}`);
+    console.log();
+    
+    let since = null;
+    let timeDescription = "";
+    
+    if (timeInput.toLowerCase().trim() === 'a' || timeInput.toLowerCase().trim() === 'all') {
+      since = null;
+      timeDescription = "all events (no time limit)";
+    } else {
+      const months = timeInput.trim() === '' ? 2 : parseInt(timeInput);
+      if (isNaN(months) || months <= 0) {
+        console.log(`${colors.red}❌ Invalid input. Using default of 2 months.${colors.reset}`);
+        since = this.getTimestampMonthsAgo(2);
+        timeDescription = "2 months";
+      } else {
+        since = this.getTimestampMonthsAgo(months);
+        timeDescription = `${months} month${months === 1 ? '' : 's'}`;
+      }
+    }
+    
+    console.log(`${colors.bright}📊 Backup scope: ${timeDescription}${colors.reset}`);
+    console.log();
+
     try {
       const nostrKindsToBackup = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind];
       
@@ -319,13 +349,21 @@ class NostrBackupManager {
       await ndk.connect(connectTimeout);
       await new Promise(resolve => setTimeout(resolve, 3000));
 
-      const since = this.getTimestampMonthsAgo();
-      console.log(`${colors.cyan}📅 Fetching events since ${new Date(since * 1000).toISOString()}...${colors.reset}`);
+      if (since !== null) {
+        console.log(`${colors.cyan}📅 Fetching events since ${new Date(since * 1000).toISOString()}...${colors.reset}`);
+      } else {
+        console.log(`${colors.cyan}📅 Fetching all events (no time limit)...${colors.reset}`);
+      }
       
-      const events = await ndk.fetchEvents({
-        kinds: nostrKindsToBackup,
-        since: since
-      });
+      const fetchOptions = {
+        kinds: nostrKindsToBackup
+      };
+      
+      if (since !== null) {
+        fetchOptions.since = since;
+      }
+      
+      const events = await ndk.fetchEvents(fetchOptions);
 
       console.log(`${colors.cyan}📁 Creating output directories...${colors.reset}`);
       const baseDir = path.join(process.cwd(), "backup", "nostr-verification-events");
