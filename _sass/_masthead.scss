@@ -182,13 +182,6 @@
           }
         }
         &.actionable {
-          @for $i from 1 through 10 {
-            &:nth-child(#{$i}) {
-              opacity: 0;
-              transform: translateX(20px);
-              animation: slideAcrossFadeIn 0.2s ease-in forwards 1;
-            }
-          }
           @keyframes slideAcrossFadeIn {
             to {
               opacity: 1;
