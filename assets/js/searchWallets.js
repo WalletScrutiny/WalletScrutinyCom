@@ -198,29 +198,33 @@ async function doNavBarSearch (input) {
     }
 
     const walletRows = [];
+    let walletIndex = 0;
+    const notLazyLoadFirstRows = 6;
     for (const wallet of wallets) {
       if (!wallet.title) continue;
 
       const walletRow = document.createElement('li');
       walletRow.classList.add('actionable');
-      let compactedResults = makeCompactResultsHTML(wallet);
+      let compactedResults = makeCompactResultsHTML(wallet, walletIndex > notLazyLoadFirstRows);
       let walletGroupClass = '';
       if (wallet.versions?.length > 0) {
         for (let i = 0; i < wallet.versions.length; i++) {
-          compactedResults += makeCompactResultsHTML(wallet.versions[i]);
+          compactedResults += makeCompactResultsHTML(wallet.versions[i], walletIndex > notLazyLoadFirstRows);
         }
         walletGroupClass = 'grouped';
       }
       walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
       walletRows.push(walletRow);
+
+      walletIndex++;
     }
 
     if (walletRows.length > 0) {
-      result.append(...walletRows.slice(0, 10));
+      result.append(...walletRows.slice(0, notLazyLoadFirstRows));
       await new Promise(resolve => setTimeout(resolve, 50));
       document.querySelector('.search-controls').classList.remove('working');
       await new Promise(resolve => setTimeout(resolve, 50));
-      result.append(...walletRows.slice(10));
+      result.append(...walletRows.slice(notLazyLoadFirstRows));
     }
 
   } else if (term.length !== 0) {
@@ -250,7 +254,7 @@ function getIcon (name) {
   return faCollection;
 }
 
-function makeCompactResultsHTML (wallet) {
+function makeCompactResultsHTML (wallet, lazyLoad) {
   const faCollection = getIcon(wallet.folder);
   const basePath = wallet.base_path || '';
   const analysisUrl = `${basePath}${wallet.url}`;
@@ -286,7 +290,7 @@ function makeCompactResultsHTML (wallet) {
 
   return [
     `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>`,
-      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>`,
+      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
