@@ -248,45 +248,58 @@ function getIcon (name) {
 }
 
 function makeCompactResultsHTML (wallet) {
-  let result = '';
   const faCollection = getIcon(wallet.folder);
   const basePath = wallet.base_path || '';
-  var analysisUrl = `${basePath}${wallet.url}`;
-  let passed = '';
-  let failed = '';
+  const analysisUrl = `${basePath}${wallet.url}`;
+  
+  let scoreHTML = '';
   if (wallet.score) {
-    for (let i = 0; i < wallet.score.numerator; i++) { passed += '<i class="pass"></i>'; }
-    for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += '<i class="fail"></i>'; }
+    const passCount = wallet.score.numerator;
+    const failCount = wallet.score.denominator - wallet.score.numerator;
+    
+    const passIcons = '<i class="pass"></i>'.repeat(passCount);
+    const failIcons = '<i class="fail"></i>'.repeat(failCount);
+    
+    const scoreText = passCount !== wallet.score.denominator 
+      ? `Passed ${passCount} of ${wallet.score.denominator} tests`
+      : `Passed all ${wallet.score.denominator} tests`;
+    
+    scoreHTML = `<div class="tests-passed" data-numerator="${passCount}" data-denominator="${wallet.score.denominator}">
+      <span>${scoreText}</span>
+      <div>${passIcons}${failIcons}</div>
+    </div>`;
   }
 
-  let lastVerificationStatus = null;
-  if (window.allAssetInformation) {
-    lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+  let verificationHTML = '';
+  if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
+    const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+    if (lastVerificationStatus) {
+      const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
+      verificationHTML = `<br><span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
+    } else {
+      verificationHTML = '<br><span>❓ Not verified yet</span>';
+    }
   }
 
-  result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>
-      <span class="result-title-wrapper">
-        <span>${wallet.altTitle || wallet.title}</span>
-        <small>
-          <span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>
-        </small>
-      </span>
-      <span class="stats">
-        <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-        ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<br><span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<br><span>❓ Not verified yet</span>') : ''}
-        ${wallet.meta && wallet.meta !== 'ok'
-          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : ''}
-        ${wallet.score
-          ? `<div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-            <div>${passed}${failed}</div>
-          </div>`
-        : ''}
-    </span>
-    </a>`;
-  return result;
+  return [
+    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>`,
+      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>`,
+      '<span class="result-title-wrapper">',
+        `<span>${wallet.altTitle || wallet.title}</span>`,
+        '<small>',
+          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>`,
+        '</small>',
+      '</span>',
+      '<span class="stats">',
+        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span><br>`,
+        verificationHTML,
+        wallet.meta && wallet.meta !== 'ok'
+          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span><br>`
+          : '',
+        scoreHTML,
+      '</span>',
+    '</a>'
+  ].join('');
 }
 
 function searchScrollToTop () {
