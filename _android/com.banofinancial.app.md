@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-13
 updated: 2025-05-27
 version: 1.5.23
-stars: 2.5
+stars: 2.9
 ratings: 
 reviews: 2
 website: https://bano.app/index.html

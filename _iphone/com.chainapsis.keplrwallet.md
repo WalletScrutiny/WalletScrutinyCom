@@ -8,10 +8,10 @@ appId: com.chainapsis.keplrwallet
 appCountry: us
 idd: '1567851089'
 released: 2021-10-14
-updated: 2025-07-18
-version: 2.1.58
+updated: 2025-07-29
+version: 2.1.59
 stars: 3.6
-reviews: 261
+reviews: 262
 website: 
 repository: 
 issue: 

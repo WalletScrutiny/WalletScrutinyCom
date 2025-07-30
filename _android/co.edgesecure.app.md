@@ -13,7 +13,7 @@ appCountry:
 released: 2018-03-01
 updated: 2025-07-21
 version: 4.32.0
-stars: 4.6
+stars: 4.5
 ratings: 3880
 reviews: 712
 website: https://edge.app

@@ -8,8 +8,8 @@ users: 500000
 appId: com.chainapsis.keplr
 appCountry: 
 released: 2021-10-01
-updated: 2025-07-17
-version: 2.1.58
+updated: 2025-07-25
+version: 2.1.59
 stars: 4
 ratings: 
 reviews: 192

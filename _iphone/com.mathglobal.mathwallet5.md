@@ -8,8 +8,8 @@ appId: com.mathglobal.mathwallet5
 appCountry: us
 idd: '1582612388'
 released: 2021-08-30
-updated: 2025-06-20
-version: 5.4.8
+updated: 2025-07-29
+version: 5.4.9
 stars: 3.6
 reviews: 44
 website: https://www.mathwallet.org

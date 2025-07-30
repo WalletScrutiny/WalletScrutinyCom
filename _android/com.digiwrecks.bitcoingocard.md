@@ -7,8 +7,8 @@ users: 100
 appId: com.digiwrecks.bitcoingocard
 appCountry: 
 released: 2022-02-01
-updated: 2024-08-24
-version: 1.1.6
+updated: 2025-07-29
+version: 1.1.7
 stars: 5
 ratings: 
 reviews: 

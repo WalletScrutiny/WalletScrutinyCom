@@ -13,7 +13,7 @@ version: 25.7.13
 stars: 4
 ratings: 
 reviews: 14
-website: http://www.ig.com
+website: https://www.ig.com
 repository: 
 issue: 
 icon: com.iggroup.android.cfd.png

@@ -11,7 +11,7 @@ released: 2020-04-08
 updated: 2025-05-13
 version: '1.49'
 stars: 4.1
-reviews: 81
+reviews: 82
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 

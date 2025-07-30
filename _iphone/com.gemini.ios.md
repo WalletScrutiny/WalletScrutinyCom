@@ -11,7 +11,7 @@ released: 2018-12-11
 updated: 2025-07-28
 version: 25.722.1
 stars: 4.8
-reviews: 106020
+reviews: 106042
 website: https://www.gemini.com
 repository: 
 issue: 

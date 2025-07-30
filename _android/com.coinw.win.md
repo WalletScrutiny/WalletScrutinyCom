@@ -12,7 +12,7 @@ updated: 2025-07-23
 version: 10.0.47
 stars: 3.5
 ratings: 
-reviews: 47
+reviews: 46
 website: https://www.coinw.com
 repository: 
 issue: 

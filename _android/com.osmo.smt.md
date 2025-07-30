@@ -10,7 +10,7 @@ appCountry:
 released: 2022-07-01
 updated: 2025-07-23
 version: 4.6.1
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 39
 website: https://www.osmowallet.com/

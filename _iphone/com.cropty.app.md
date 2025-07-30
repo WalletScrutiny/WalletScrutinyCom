@@ -8,8 +8,8 @@ appId: com.cropty.app
 appCountry: us
 idd: '1624901793'
 released: 2022-08-04
-updated: 2025-06-30
-version: 1.6.8
+updated: 2025-07-30
+version: 1.6.9
 stars: 4.8
 reviews: 185
 website: https://cropty.io/

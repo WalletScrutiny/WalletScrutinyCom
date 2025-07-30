@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: OpenFi, Web3 Finance for all.
+title: 'OpenFi: Safe Everyday Finance'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
 released: 2020-12-13
-updated: 2025-07-21
-version: 6.1.6
+updated: 2025-07-29
+version: 6.1.7
 stars: 4.5
 reviews: 191
 website: https://openfi.world/

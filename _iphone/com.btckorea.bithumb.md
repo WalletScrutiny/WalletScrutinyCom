@@ -11,7 +11,7 @@ released: 2017-12-05
 updated: 2025-07-17
 version: 2.8.8
 stars: 2
-reviews: 4033
+reviews: 4039
 website: https://en.bithumb.com
 repository: 
 issue: 

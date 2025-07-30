@@ -11,7 +11,7 @@ updated: 2025-07-16
 version: 3.33.0
 stars: 3.9
 ratings: 128
-reviews: 15
+reviews: 16
 website: https://www.airgap.it
 repository: 
 issue: 
