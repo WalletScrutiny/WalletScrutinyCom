@@ -1377,9 +1377,33 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     verificationId: verification.id
   });
 
+  let shareMessage = "Check out this verification!";
+  if (verification.content.includes('i')) {
+    const appId = getFirstTagValue(verification, 'i');
+    const version = getFirstTagValue(verification, 'version');
+    const platform = getFirstTagValue(verification, 'platform');
+
+    const wallet = window.wallets.find(w => w.appId === appId);
+    const walletTitle = wallet ? wallet.title : appId;
+
+    const walletDescriptionToken = `${walletTitle} v${version} (${platform})`;
+
+    if (isMine) {
+      if (status === 'reproducible') {
+        shareMessage = `🚀 Successfully reproduced and verified ${walletDescriptionToken} from source!`;
+      } else {
+        shareMessage = `🚨 Failed to reproduce and verify ${walletDescriptionToken} from source!`;
+      }
+    } else {
+      shareMessage = `👀 Check out this ${walletDescriptionToken} verification!`;
+    }
+    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The APK tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
+    shareMessage += `\n🔍 See the full verification here:`;
+  }
+
   renderShareButton({
     container: "#shareButtonContainer",
-    defaultMessage: "Check out this verification!",
+    defaultMessage: shareMessage,
     showRawButtons: false
   });
 };
