@@ -72,7 +72,7 @@ echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
 
 echo " * Doing backup of Verifications Nostr events..."
-node ./scripts/verifications/backupNostrVerificationEvents.mjs
+node ./scripts/nostr/backupNostrVerificationEvents.mjs
 
 echo
 echo
