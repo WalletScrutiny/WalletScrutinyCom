@@ -65,15 +65,17 @@ async function main() {
     createDirectories();
 
     console.log("Saving events to files...");
-    let saved = 0;
+    let saved = 0, skipped = 0;
     
     for (const event of events) {
       if (!isValidEvent(event)) {
+        skipped++;
         continue;
       }
       
       const filePath = getEventPath(event);
       if (fs.existsSync(filePath)) {
+        skipped++;
         continue;
       }
       
@@ -82,7 +84,7 @@ async function main() {
       saved++;
     }
 
-    console.log(`Done! Saved ${saved} new events.`);
+    console.log(`Done! Saved ${saved} new events, skipped ${skipped} already existing or non-WalletScrutiny events.`);
   } catch (error) {
     console.error("Error:", error);
   } finally {
