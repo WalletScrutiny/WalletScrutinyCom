@@ -71,9 +71,11 @@ if (document.querySelector(".app_logo_big")) {
 //TESTS SECTION SCRIPTS
 
 window.addEventListener("hashchange", () => {
-  if(document.querySelector(`${location.hash}`)){
-    document.querySelector(`${location.hash}`).setAttribute("data-open", "true")
-  }
+  try {
+    if (document.querySelector(`${location.hash}`)){
+      document.querySelector(`${location.hash}`).setAttribute("data-open", "true")
+    }
+  } catch (error) {}
 });
 let scoreIndex=0
 document.querySelectorAll(".score div i").forEach((ele)=>{
