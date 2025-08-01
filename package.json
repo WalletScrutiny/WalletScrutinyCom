@@ -52,7 +52,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
-    "@nostr-dev-kit/ndk": "^2.14.32",
+    "@nostr-dev-kit/ndk": "^2.14.33",
     "app-info-parser": "^1.1.6",
     "assert": "^2.1.0",
     "browserify-zlib": "^0.2.0",
