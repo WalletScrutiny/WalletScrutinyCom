@@ -1,5 +1,3 @@
-2025-07-14:
-- _android/com.eukapay.pos_app
 2025-07-18:
 - _android/com.komodoplatform.atomicdex
 - _android/com.trdc.token
@@ -19,3 +17,5 @@
 - _iphone/com.fasset.cashapp
 - _iphone/io.kamix.app
 - _iphone/io.sparkwallet
+2025-08-01:
+- _iphone/io.bgwallet.bgw

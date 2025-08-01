@@ -8,8 +8,8 @@ users: 1000000
 appId: app.simple.com
 appCountry: 
 released: 2023-04-24
-updated: 2025-07-25
-version: 3.11.0
+updated: 2025-07-30
+version: 3.11.1
 stars: 4.7
 ratings: 
 reviews: 1819

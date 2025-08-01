@@ -11,7 +11,7 @@ released: 2019-01-28
 updated: 2025-07-29
 version: 3.87.1
 stars: 4.9
-reviews: 12968
+reviews: 12984
 website: https://www.ledger.com/ledger-live
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: com.zbx.www
 appCountry: us
 idd: 1458088759
 released: 2019-05-26
-updated: 2025-07-24
-version: 2.5.10
+updated: 2025-08-01
+version: 2.5.12
 stars: 4.3
 reviews: 4
 website: https://www.zbx.one/

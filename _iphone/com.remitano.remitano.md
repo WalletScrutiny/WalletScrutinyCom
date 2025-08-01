@@ -1,6 +1,6 @@
 ---
 wsId: Remitano
-title: Remitano
+title: 'Remitano: BTC & Crypto Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ appId: com.remitano.remitano
 appCountry: za
 idd: 1116327021
 released: 2016-05-28
-updated: 2025-06-17
-version: 6.141.0
+updated: 2025-07-31
+version: 8.0.3
 stars: 4.8
 reviews: 377
 website: https://remitano.com

@@ -10,7 +10,7 @@ appCountry:
 released: 2024-11-29
 updated: 2025-07-02
 version: 2.4.0
-stars: 4.3
+stars: 3.9
 ratings: 
 reviews: 3
 website: https://ctrl.xyz

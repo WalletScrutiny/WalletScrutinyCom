@@ -10,8 +10,8 @@ idd: 1537865343
 released: 2020-11-02
 updated: 2021-12-28
 version: '2.3'
-stars: 3.7
-reviews: 120
+stars: 3.8
+reviews: 129
 website: https://app.load.ng/
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry: ae
 released: 2020-08-20
 updated: 2025-07-24
 version: 4.0.8
-stars: 3.1
+stars: 3
 ratings: 3007
-reviews: 626
+reviews: 627
 website: https://bitoasis.net/
 repository: 
 issue: 

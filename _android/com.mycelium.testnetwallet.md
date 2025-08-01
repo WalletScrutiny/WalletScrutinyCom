@@ -12,7 +12,7 @@ updated: 2025-05-13
 version: 3.19.3.0-TESTNET
 stars: 3.8
 ratings: 146
-reviews: 10
+reviews: 11
 website: https://mycelium.com
 repository: 
 issue: 

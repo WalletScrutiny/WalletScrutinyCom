@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.zybitech.juancash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-02-28
+date: 2025-08-01
 signer: 
 twitter: JuanCashPH
 social:

@@ -11,7 +11,7 @@ released: 2018-12-20
 updated: 2025-03-26
 version: 6.0.3
 stars: 4.2
-reviews: 81
+reviews: 82
 website: https://kriptomat.io
 repository: 
 issue: 

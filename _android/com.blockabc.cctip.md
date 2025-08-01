@@ -8,7 +8,7 @@ appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
 updated: 2025-07-26
-version: 5.1.3
+version: 5.1.4
 stars: 4.6
 ratings: 
 reviews: 350

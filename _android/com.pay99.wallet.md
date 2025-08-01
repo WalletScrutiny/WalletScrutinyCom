@@ -12,7 +12,7 @@ updated: 2025-07-24
 version: 8.2.4
 stars: 2.3
 ratings: 4563
-reviews: 9123
+reviews: 9133
 website: 
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: com.revolut.revolutx
 appCountry: gb
 idd: '6502614478'
 released: 2025-03-18
-updated: 2025-07-20
-version: '1.17'
+updated: 2025-07-30
+version: '1.19'
 stars: 4
 reviews: 51
 website: https://www.revolut.com/revolut-x/
