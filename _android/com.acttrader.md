@@ -12,7 +12,7 @@ updated: 2025-07-25
 version: 2.2.47
 stars: 3.2
 ratings: 
-reviews: 20
+reviews: 21
 website: https://acttrader.com
 repository: 
 issue: 

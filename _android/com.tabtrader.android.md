@@ -1,6 +1,6 @@
 ---
 wsId: tabtrader
-title: TabTrader - crypto terminal
+title: 'TabTrader: Crypto Terminal'
 altTitle: 
 authors:
 - leo
@@ -11,7 +11,7 @@ appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
 updated: 2025-05-09
-version: 7.4.2
+version: 7.4.3
 stars: 3.9
 ratings: 57218
 reviews: 1157

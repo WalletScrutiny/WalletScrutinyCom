@@ -12,7 +12,7 @@ updated: 2025-07-30
 version: 1.0.1945
 stars: 3.5
 ratings: 6172
-reviews: 728
+reviews: 729
 website: https://cryptotab.farm/
 repository: 
 issue: 

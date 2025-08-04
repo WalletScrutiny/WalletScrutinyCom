@@ -9,7 +9,7 @@ appId: com.app.xt
 appCountry: 
 released: 2021-04-14
 updated: 2025-07-31
-version: 5.4.0
+version: 5.5.0
 stars: 3.6
 ratings: 
 reviews: 218

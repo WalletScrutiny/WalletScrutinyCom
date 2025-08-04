@@ -8,8 +8,8 @@ users: 1000
 appId: com.oberton.app
 appCountry: 
 released: 2021-09-15
-updated: 2024-07-19
-version: 2.15.9
+updated: 2025-08-03
+version: 2.16.0
 stars: 4.9
 ratings: 
 reviews: 27
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.oberton.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2025-07-18
+date: 2025-08-04
 signer: 
 twitter: EverspaceWallet
 social:

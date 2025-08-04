@@ -11,7 +11,7 @@ released: 2018-09-26
 updated: 2025-07-31
 version: 9.10.0
 stars: 4.7
-reviews: 4794
+reviews: 4806
 website: https://web3.bitget.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2021-10-26
 updated: 2025-08-01
 version: 3.0.12
 stars: 3.9
-reviews: 77
+reviews: 79
 website: https://stablex.com.tr
 repository: 
 issue: 

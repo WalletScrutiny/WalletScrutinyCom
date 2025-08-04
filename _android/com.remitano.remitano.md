@@ -8,7 +8,7 @@ users: 1000000
 appId: com.remitano.remitano
 appCountry: 
 released: 2016-07-24
-updated: 2025-07-28
+updated: 2025-08-02
 version: 6.141.0
 stars: 4.3
 ratings: 19172

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-03-19
+date: 2025-08-04
 signer: 
 twitter: Switchere_com
 social:

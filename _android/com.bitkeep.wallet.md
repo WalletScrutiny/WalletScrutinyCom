@@ -13,7 +13,7 @@ updated: 2025-07-29
 version: 9.9.0
 stars: 4.6
 ratings: 3949
-reviews: 3789
+reviews: 3788
 website: https://bitkeep.com
 repository: 
 issue: 

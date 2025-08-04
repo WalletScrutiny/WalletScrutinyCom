@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-19
 updated: 2025-07-28
 version: 1.3.1585
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 479
 website: https://eldorado.io

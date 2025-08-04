@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2025-01-15
+date: 2025-08-04
 signer: 
 twitter: 
 social:

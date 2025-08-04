@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-10-30
 updated: 2025-07-21
 version: 5.0.0.10646
-stars: 4.3
+stars: 4.2
 ratings: 3252
 reviews: 400
 website: https://www.argent.xyz

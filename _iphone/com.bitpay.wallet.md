@@ -12,7 +12,7 @@ released: 2016-10-24
 updated: 2025-07-31
 version: 14.33.0
 stars: 4.3
-reviews: 3336
+reviews: 3339
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 issue: https://github.com/bitpay/bitpay-app/issues/686

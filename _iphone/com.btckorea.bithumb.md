@@ -10,8 +10,8 @@ idd: 1299421592
 released: 2017-12-05
 updated: 2025-07-31
 version: 2.9.0
-stars: 2
-reviews: 4046
+stars: 2.1
+reviews: 4079
 website: https://www.bithumb.com
 repository: 
 issue: 

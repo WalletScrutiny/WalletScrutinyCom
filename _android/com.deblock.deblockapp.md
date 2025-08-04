@@ -9,10 +9,10 @@ appId: com.deblock.deblockapp
 appCountry: 
 released: 
 updated: 2025-07-31
-version: 4.2.0
+version: 4.3.1
 stars: 4.8
 ratings: 
-reviews: 8
+reviews: 9
 website: https://deblock.com/
 repository: 
 issue: 
