@@ -6,7 +6,6 @@ import { createCanvas, loadImage, registerFont } from 'canvas';
 import yaml from 'js-yaml';
 import path from 'path';
 import pLimit from 'p-limit';
-import { execSync } from 'child_process';
 
 // Constants
 const fsp = fs.promises;
@@ -20,11 +19,146 @@ const mdFolders = [
 const backgroundImage = 'images/twCard/new-ws-bg-800x450.png';
 let bgImage;
 const fallbackIcon = 'images/smallNoicon.png';
-const verdictMap = loadVerdicts('_data/verdicts');
 
-// Nostr verification constants
-const NOSTR_BACKUP_PATH = 'backup/nostr-verification-events';
-let nostrVerificationCache = new Map();
+
+// Platform names
+const platformNames = {
+  android: 'Android',
+  iphone: 'iOS', 
+  hardware: 'Hardware',
+  bearer: 'Bearer Token',
+  desktop: 'Desktop'
+};
+
+// Platform icon images
+let platformIconImages = {};
+
+// Function to draw platform icons
+async function drawPlatformIcon(ctx, platform, x, y) {
+  ctx.save();
+  ctx.fillStyle = '#FFFFFF';
+  ctx.strokeStyle = '#FFFFFF';
+  ctx.lineWidth = 2;
+  
+  switch (platform) {
+    case 'android':
+      // Use play-store.png image if available
+      if (platformIconImages.android) {
+        // Calculate proper size maintaining aspect ratio
+        const img = platformIconImages.android;
+        const maxSize = 16;
+        const aspectRatio = img.width / img.height;
+        let drawWidth, drawHeight;
+        
+        if (aspectRatio > 1) {
+          // Wider than tall
+          drawWidth = maxSize;
+          drawHeight = maxSize / aspectRatio;
+        } else {
+          // Taller than wide or square
+          drawHeight = maxSize;
+          drawWidth = maxSize * aspectRatio;
+        }
+        
+        ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
+      } else {
+        // Fallback to triangle if image not loaded
+        ctx.beginPath();
+        ctx.moveTo(x, y - 8);
+        ctx.lineTo(x + 14, y);
+        ctx.lineTo(x, y + 8);
+        ctx.closePath();
+        ctx.fill();
+      }
+      break;
+      
+    case 'iphone':
+      // Use iphone-store.png image if available
+      if (platformIconImages.iphone) {
+        // Calculate proper size maintaining aspect ratio
+        const img = platformIconImages.iphone;
+        const maxSize = 16;
+        const aspectRatio = img.width / img.height;
+        let drawWidth, drawHeight;
+        
+        if (aspectRatio > 1) {
+          // Wider than tall
+          drawWidth = maxSize;
+          drawHeight = maxSize / aspectRatio;
+        } else {
+          // Taller than wide or square
+          drawHeight = maxSize;
+          drawWidth = maxSize * aspectRatio;
+        }
+        
+        ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
+      } else {
+        // Fallback to Apple logo if image not loaded
+        ctx.beginPath();
+        ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
+        ctx.fill();
+        // Apple bite
+        ctx.fillStyle = '#1f1911'; // Background color
+        ctx.beginPath();
+        ctx.arc(x + 9, y - 3, 2, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      break;
+      
+    case 'hardware':
+      // Use hardware-icon.png image if available
+      if (platformIconImages.hardware) {
+        // Calculate proper size maintaining aspect ratio
+        const img = platformIconImages.hardware;
+        const maxSize = 16;
+        const aspectRatio = img.width / img.height;
+        let drawWidth, drawHeight;
+        
+        if (aspectRatio > 1) {
+          // Wider than tall
+          drawWidth = maxSize;
+          drawHeight = maxSize / aspectRatio;
+        } else {
+          // Taller than wide or square
+          drawHeight = maxSize;
+          drawWidth = maxSize * aspectRatio;
+        }
+        
+        ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
+      } else {
+        // Fallback to toolbox drawing if image not loaded
+        ctx.beginPath();
+        ctx.rect(x, y - 6, 12, 12);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.rect(x + 3, y - 8, 6, 4);
+        ctx.fill();
+      }
+      break;
+      
+    case 'desktop':
+      // Draw monitor
+      ctx.beginPath();
+      ctx.rect(x, y - 6, 14, 10);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.rect(x + 5, y + 4, 4, 2);
+      ctx.fill();
+      break;
+      
+    case 'bearer':
+      // Draw coin
+      ctx.beginPath();
+      ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.font = '8px Barlow';
+      ctx.textAlign = 'center';
+      ctx.fillText('₿', x + 6, y + 3);
+      break;
+  }
+  
+  ctx.restore();
+}
 
 // Timer variables
 let totalFiles = 0;
@@ -36,25 +170,26 @@ async function loadResources () {
   bgImage = await loadImage(backgroundImage);
   registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
   
-  // Initialize Nostr verification system
-  console.log('[NOSTR] Initializing enhanced verification system...');
-  nostrVerificationCache.clear();
+  // Load platform icon images
+  try {
+    platformIconImages.android = await loadImage('images/twCard/play-store.png');
+    console.log('[PLATFORM ICONS] Play Store icon loaded');
+  } catch (error) {
+    console.warn(`[PLATFORM ICONS] Could not load play-store.png: ${error.message}`);
+  }
   
-  if (fs.existsSync(NOSTR_BACKUP_PATH)) {
-    try {
-      const result = execSync(`find ${NOSTR_BACKUP_PATH} -name "*.json" | wc -l`, { encoding: 'utf8' });
-      const fileCount = parseInt(result.trim());
-      
-      if (fileCount > 0) {
-        console.log(`[NOSTR] Found ${fileCount} verification files - enhanced processing enabled`);
-      } else {
-        console.log('[NOSTR] No verification files found in backup directory');
-      }
-    } catch (error) {
-      console.warn(`[NOSTR] Error checking backup files: ${error.message}`);
-    }
-  } else {
-    console.log(`[NOSTR] Backup directory not found at ${NOSTR_BACKUP_PATH} - will proceed without Nostr data`);
+  try {
+    platformIconImages.iphone = await loadImage('images/twCard/iphone-store.png');
+    console.log('[PLATFORM ICONS] iPhone Store icon loaded');
+  } catch (error) {
+    console.warn(`[PLATFORM ICONS] Could not load iphone-store.png: ${error.message}`);
+  }
+  
+  try {
+    platformIconImages.hardware = await loadImage('images/twCard/hardware-icon.png');
+    console.log('[PLATFORM ICONS] Hardware icon loaded');
+  } catch (error) {
+    console.warn(`[PLATFORM ICONS] Could not load hardware-icon.png: ${error.message}`);
   }
 }
 
@@ -63,211 +198,28 @@ function wrapText (text, length) {
   return `${text}`.match(regex) || [];
 }
 
-function formatDate (dateString) {
-  const date = new Date(dateString);
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed
-  const day = String(date.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
 
-function loadVerdicts (verdictPath) {
-  const verdictMap = {};
-  fs.readdirSync(verdictPath).forEach((filename) => {
-    if (filename.endsWith('.yml')) {
-      const filePath = path.join(verdictPath, filename);
-      const verdict = path.parse(filename).name;
-      const yamlData = fs.readFileSync(filePath, 'utf8');
-      const data = yaml.load(yamlData);
-      verdictMap[verdict] = data.title;
-    }
-  });
-  return verdictMap;
-}
 
-// Enhanced Nostr verification function (Option 3 implementation)
-function getEnhancedNostrVerificationSummary(appId) {
-  // Check cache first
-  if (nostrVerificationCache.has(appId)) {
-    return nostrVerificationCache.get(appId);
-  }
 
-  if (!fs.existsSync(NOSTR_BACKUP_PATH)) {
-    console.warn(`[NOSTR] Backup directory not found at ${NOSTR_BACKUP_PATH}`);
-    const emptySummary = {
-      latestStatus: null,
-      latestVersion: null,
-      latestDate: null,
-      lastVerifiedVersion: null,
-      lastVerifiedVersionDate: null,
-      wsVersion: null,
-      verificationCount: 0,
-      reproducibleCount: 0
-    };
-    nostrVerificationCache.set(appId, emptySummary);
-    return emptySummary;
-  }
-
-  try {
-    // Find all files containing this appId
-    const grepCommand = `grep -r "${appId}" ${NOSTR_BACKUP_PATH} --include="*.json" | cut -d: -f1`;
-    const matchingFiles = execSync(grepCommand, { encoding: 'utf8' }).trim().split('\n').filter(Boolean);
-    
-    if (matchingFiles.length === 0) {
-      console.log(`[NOSTR] No verification files found for ${appId}`);
-      const emptySummary = {
-        latestStatus: null,
-        latestVersion: null,
-        latestDate: null,
-        lastVerifiedVersion: null,
-        lastVerifiedVersionDate: null,
-        wsVersion: null,
-        verificationCount: 0,
-        reproducibleCount: 0
-      };
-      nostrVerificationCache.set(appId, emptySummary);
-      return emptySummary;
-    }
-    
-    console.log(`[NOSTR] Found ${matchingFiles.length} verification files for ${appId}`);
-    
-    // Enhanced jq command to extract comprehensive verification data
-    const jqCommand = `cat ${matchingFiles.join(' ')} | jq -c '
-      select(.tags[]? | select(.[0] == "i" and .[1] == "${appId}")) | 
-      {
-        id: .id,
-        created_at: .created_at,
-        version: (.tags[] | select(.[0] == "version") | .[1]),
-        status: (.tags[] | select(.[0] == "status") | .[1]),
-        platform: (.tags[] | select(.[0] == "platform") | .[1]),
-        date: (.created_at | tostring),
-        is_reproducible: ((.tags[] | select(.[0] == "status") | .[1]) == "reproducible")
-      }
-    ' | jq -s '
-      sort_by(.created_at) | reverse |
-      {
-        all_events: .,
-        latest: .[0],
-        reproducible_events: [.[] | select(.is_reproducible)],
-        all_versions: [.[] | .version] | unique | sort_by(. | split(".") | map(tonumber? // 0)) | reverse
-      }
-    '`;
-    
-    const result = JSON.parse(execSync(jqCommand, { encoding: 'utf8' }).trim() || '{}');
-    
-    if (!result.all_events || result.all_events.length === 0) {
-      console.log(`[NOSTR] No valid verification events found for ${appId}`);
-      const emptySummary = {
-        latestStatus: null,
-        latestVersion: null,
-        latestDate: null,
-        lastVerifiedVersion: null,
-        lastVerifiedVersionDate: null,
-        wsVersion: null,
-        verificationCount: 0,
-        reproducibleCount: 0
-      };
-      nostrVerificationCache.set(appId, emptySummary);
-      return emptySummary;
-    }
-    
-    // Extract comprehensive verification information
-    const latestEvent = result.latest;
-    const reproducibleEvents = result.reproducible_events || [];
-    const lastReproducibleEvent = reproducibleEvents[0]; // Most recent reproducible
-    
-    // Format dates from Unix timestamps
-    const formatUnixDate = (unixTimestamp) => {
-      if (!unixTimestamp) return null;
-      const date = new Date(parseInt(unixTimestamp) * 1000);
-      return date.toISOString().split('T')[0];
-    };
-    
-    const formatDisplayDate = (unixTimestamp) => {
-      if (!unixTimestamp) return null;
-      const date = new Date(parseInt(unixTimestamp) * 1000);
-      const day = date.getDate();
-      const month = date.toLocaleString('en', { month: 'short' }).toLowerCase();
-      const year = date.getFullYear();
-      return `${day} ${month} ${year}`;
-    };
-    
-    const summary = {
-      // Basic information (existing)
-      latestStatus: latestEvent?.status || 'unknown',
-      latestVersion: latestEvent?.version || null,
-      latestDate: formatDisplayDate(latestEvent?.created_at),
-      
-      // Enhanced information (matching frontend)
-      lastVerifiedVersion: lastReproducibleEvent?.version || null,
-      lastVerifiedVersionDate: formatDisplayDate(lastReproducibleEvent?.created_at),
-      
-      // Additional metadata
-      wsVersion: null, // Will be populated from page data
-      verificationCount: result.all_events.length,
-      reproducibleCount: reproducibleEvents.length,
-      platform: latestEvent?.platform || null,
-      
-      // Full timeline data for advanced processing
-      allVersions: result.all_versions || [],
-      timeline: result.all_events.map(event => ({
-        version: event.version,
-        status: event.status,
-        date: formatDisplayDate(event.created_at),
-        isReproducible: event.is_reproducible
-      }))
-    };
-    
-    // Cache and return
-    nostrVerificationCache.set(appId, summary);
-    console.log(`[NOSTR] Enhanced summary for ${appId}:`, {
-      latest: `${summary.latestVersion} (${summary.latestStatus})`,
-      lastReproducible: summary.lastVerifiedVersion ? `${summary.lastVerifiedVersion} (${summary.lastVerifiedVersionDate})` : 'None',
-      totalVerifications: summary.verificationCount,
-      reproducibleCount: summary.reproducibleCount
-    });
-    
-    return summary;
-    
-  } catch (error) {
-    console.error(`[NOSTR] Error processing enhanced verification data for ${appId}: ${error.message}`);
-    const errorSummary = {
-      latestStatus: null,
-      latestVersion: null,
-      latestDate: null,
-      lastVerifiedVersion: null,
-      lastVerifiedVersionDate: null,
-      wsVersion: null,
-      verificationCount: 0,
-      reproducibleCount: 0
-    };
-    nostrVerificationCache.set(appId, errorSummary);
-    return errorSummary;
-  }
-}
 
 // Progress Tracking Function
-async function showProgress () {
+function showProgress () {
   const i = setInterval(() => {
-    const oldTotalTime = totalTime;
-    totalTime = Date.now() - startTime;
-    const filesPerSecond = 1000 * (oldTotalFiles - totalFiles) / (totalTime - oldTotalTime);
-    const secondsRemaining = totalFiles / filesPerSecond;
-    console.log(`${(totalTime / 1000).toFixed(1)}s: ${totalFiles} files and ${secondsRemaining.toFixed(0)}s remaining at approx. ${filesPerSecond.toFixed(0)}f/s.`);
-    if (totalTime > 1000 && limit.activeCount === 0) {
-      // stop when not working on any tasks ...
+    const elapsed = Date.now() - startTime;
+    const processed = oldTotalFiles - totalFiles;
+    const rate = processed / (elapsed / 1000);
+    const eta = totalFiles / rate;
+    console.log(`Processed: ${processed}/${oldTotalFiles}, Rate: ${rate.toFixed(2)}/s, ETA: ${eta.toFixed(0)}s`);
+    if (totalFiles === 0) {
       clearInterval(i);
-      console.log(`
-        Finished in ${(totalTime / 1000).toFixed(1)}s`);
+      console.log(`Total time: ${(Date.now() - startTime) / 1000}s`);
     }
-    oldTotalFiles = totalFiles;
   }, 5000);
 }
 
-async function processFilesTimed () {
+function processFilesTimed () {
   showProgress();
-  await loadResources();
-  await processFiles();
+  processFiles();
 }
 
 const spikes = 5;
@@ -315,65 +267,81 @@ function drawStar (ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fr
 }
 
 // Utility Function - Draw stars
-async function drawStars (ctx, stars, x, y, starSize) {
-  const fullStars = Math.floor(stars);
-  const partialStar = stars - fullStars;
-
+function drawStars (ctx, stars, x, y, starSize) {
   for (let i = 0; i < 5; i++) {
-    drawStar(ctx, x + i * (starSize + 5), y, '#eed7af', 'dddddd');
-  }
-  for (let i = 0; i < fullStars; i++) {
-    drawStar(ctx, x + i * (starSize + 5), y);
-  }
-  if (partialStar > 0) {
-    drawStar(ctx, x + fullStars * (starSize + 5), y, '#ee9e15', 'black', partialStar);
-  }
-}
-
-
-// Helper functions for verification status display
-function getStatusBadgeText(status) {
-  switch (status) {
-    case 'reproducible':
-      return '✓ Reproducible';
-    case 'not_reproducible':
-      return '⚠ Not Reproducible';
-    case 'ftbfs':
-      return '⚠ Build Failed';
-    case 'spam':
-      return '⚠ Spam';
-    case 'notag':
-      return '⚠ No Git Tag';
-    case 'nosource':
-      return '⚠ No Source';
-    case 'obfuscated':
-      return '⚠ Obfuscated';
-    case 'warning':
-      return '⚠ Warning';
-    default:
-      return '⚠ Unknown Status';
+    const starX = x + (i * (starSize + 5));
+    const starY = y;
+    if (i < stars) {
+      drawStar(ctx, starX, starY, '#ee9e15', 'black', 1);
+    } else {
+      drawStar(ctx, starX, starY, 'transparent', 'black', 1);
+    }
   }
 }
 
-function getStatusBadgeColor(status) {
-  switch (status) {
-    case 'reproducible':
-      return '#00AA00'; // Green
-    case 'not_reproducible':
-    case 'ftbfs':
-    case 'spam':
-    case 'nosource':
-    case 'obfuscated':
-      return '#CC0000'; // Red
-    case 'notag':
-    case 'warning':
-      return '#FF8800'; // Orange
-    default:
-      return '#888888'; // Gray
-  }
-}
+// Call-to-action phrases by verdict type
+const ctaPhrases = {
+  sourceavailable: [
+    { text: "Open source wallet analyzed", cta: "Discover our security findings" },
+    { text: "Code transparency verified", cta: "See what we uncovered" },
+    { text: "Source code scrutinized", cta: "Read our detailed review" },
+    { text: "Open wallet, open analysis", cta: "Explore the verdict" },
+    { text: "Security audit complete", cta: "Check our insights" },
+    { text: "Transparency confirmed", cta: "Dive into the report" },
+    { text: "Code reviewed & verified", cta: "Uncover the details" },
+    { text: "Open source deep-dive", cta: "Get the full story" }
+  ],
+  custodial: [
+    { text: "Custodial service analyzed", cta: "Learn the trade-offs" },
+    { text: "Third-party custody reviewed", cta: "See our assessment" },
+    { text: "Managed wallet evaluated", cta: "Understand the risks" },
+    { text: "Professional custody studied", cta: "Get the insights" },
+    { text: "Custodial solution scrutinized", cta: "Read our findings" },
+    { text: "Managed service reviewed", cta: "Discover what it means" },
+    { text: "Third-party wallet assessed", cta: "See the full picture" }
+  ],
+  metaNotOk: [
+    { text: "Wallet status updated", cta: "See what changed" },
+    { text: "Service discontinued", cta: "Read the latest" },
+    { text: "Important changes detected", cta: "Get the update" },
+    { text: "Status evolution tracked", cta: "Learn more" },
+    { text: "Service transition noted", cta: "Find out why" }
+  ],
+  nosource: [
+    { text: "Closed source wallet", cta: "See our concerns" },
+    { text: "Proprietary code analyzed", cta: "Learn the risks" },
+    { text: "Black box wallet reviewed", cta: "Read our take" }
+  ]
+};
 
-// Core Functions - Canvas Image and Text Overlays
+// Get CTA phrase based on verdict and meta status
+function getCtaPhrase(data) {
+  // Create a simple hash from app title for consistent rotation
+  const hash = (data.title || '').split('').reduce((a, b) => {
+    a = ((a << 5) - a) + b.charCodeAt(0);
+    return a & a;
+  }, 0);
+  
+  let phrases;
+  
+  // Determine which phrase set to use
+  if (data.meta !== 'ok') {
+    phrases = ctaPhrases.metaNotOk;
+  } else if (data.verdict === 'sourceavailable') {
+    phrases = ctaPhrases.sourceavailable;
+  } else if (data.verdict === 'custodial') {
+    phrases = ctaPhrases.custodial;
+  } else if (data.verdict === 'nosource') {
+    phrases = ctaPhrases.nosource;
+  } else {
+    // Default fallback
+    return { text: "Wallet security analyzed", cta: "Read our review" };
+  }
+  
+  // Use hash to select consistent phrase for this app
+  const index = Math.abs(hash) % phrases.length;
+  return phrases[index];
+}
 
 async function drawOnCanvas (data, iconImage) {
   // Width and Heights variables for canvas
@@ -388,8 +356,8 @@ async function drawOnCanvas (data, iconImage) {
   // Draw the resized icon image with rounded corners at specified coordinates
   const iconX = 40; // moved right by 50px
   const iconY = 190; // moved down by 150px
-  const iconWidth = 200;
-  const iconHeight = 200;
+  const iconWidth = 150;
+  const iconHeight = 150;
   const cornerRadius = 25;
   
   // Create rounded rectangle path for icon
@@ -425,44 +393,78 @@ async function drawOnCanvas (data, iconImage) {
   
   printText(titleText, ctx, titleX, titleY, 'white', `${fontSize} Barlow`, 27, 45);
 
-  // Enhanced verification information display (Option 3 implementation)
-  if (data.verdict === 'sourceavailable' && data.meta === 'ok' && (data.wsVersion || data.latestVersion || data.lastVerifiedVersion)) {
-    let verificationY = titleY + 90; // Start below the title with more space
-    const verificationX = titleX;
-    const lineHeight = 35; // Increased line height to prevent overlap
-    const fontSize = '20px'; // Increased by 2px
-    const color = '#CCCCCC'; // Light gray for secondary information
+  // Draw platform name - always 35px below the app name text
+  // Calculate where the app name text ends by accounting for multiple lines
+  const wrappedLines = wrapText(titleText, 27); // Same maxLength as used in printText
+  const lineHeight = 45; // Same lineHeight as used in printText
+  const textEndY = titleY + ((wrappedLines.length - 1) * lineHeight);
+  const platformY = textEndY + 35; // Always 35px below the last line of text
+  const platformX = titleX;
+
+  if (data.platform && platformNames[data.platform]) {
+    // Draw platform icon
+    await drawPlatformIcon(ctx, data.platform, platformX, platformY - 5);
     
-    // Build verification information text (matching frontend format)
-    const verificationLines = [];
-    
-    if (data.wsVersion) {
-      verificationLines.push(`Latest release found by WalletScrutiny: ${data.wsVersion}`);
-    }
-    
-    if (data.latestVersion && data.latestDate) {
-      verificationLines.push(`Latest release found in a Verification: ${data.latestVersion} (${data.latestDate})`);
-    }
-    
-    // Always show Last Reproducible Verification if we have the data
-    if (data.lastVerifiedVersion && data.lastVerifiedVersionDate) {
-      verificationLines.push(`Last Reproducible Verification: ${data.lastVerifiedVersion} (${data.lastVerifiedVersionDate})`);
-    }
-    
-    // Draw each verification line
-    verificationLines.forEach((line, index) => {
-      const currentY = verificationY + (index * lineHeight);
-      
-      // Special styling for reproducible verification (green color and bold)
-      const lineColor = line.includes('Reproducible') ? '#00AA00' : color;
-      const fontWeight = line.includes('Reproducible') ? 'bold' : 'normal';
-      const fontStyle = `${fontWeight} ${fontSize} Barlow`;
-      
-      printText(line, ctx, verificationX, currentY, lineColor, fontStyle, 100, 0);
-      
-      console.log(`[DISPLAY] Added verification line: ${line}`);
-    });
+    // Draw platform name next to icon
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = 'bold 16px Barlow';
+    ctx.textAlign = 'left';
+    ctx.fillText(platformNames[data.platform], platformX + 20, platformY);
   }
+
+  // Draw call-to-action phrase
+  const ctaY = platformY + 40;
+  const ctaX = titleX;
+  const ctaPhrase = getCtaPhrase(data);
+  
+  // Draw main text
+  ctx.fillStyle = '#CCCCCC';
+  ctx.font = '18px Barlow';
+  ctx.fillText(ctaPhrase.text, ctaX, ctaY);
+  
+  // Measure main text to position CTA badge
+  const mainTextWidth = ctx.measureText(ctaPhrase.text).width;
+  const ctaBadgeX = ctaX + mainTextWidth + 15; // 15px gap
+  const ctaBadgeY = ctaY - 18; // Align with text baseline
+  
+  // Set font for CTA text measurement and calculate proper width
+  ctx.font = 'bold 18px Barlow'; // Same size as main text
+  const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20; // 10px padding each side
+  const ctaBadgeHeight = 26; // Height for 18px text
+  const ctaBadgeRadius = 13;
+  
+  // Badge background with rounded corners
+  ctx.fillStyle = '#ff6b35'; // Orange that pops against dark background
+  ctx.beginPath();
+  ctx.moveTo(ctaBadgeX + ctaBadgeRadius, ctaBadgeY);
+  ctx.lineTo(ctaBadgeX + ctaBadgeWidth - ctaBadgeRadius, ctaBadgeY);
+  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeRadius);
+  ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeHeight - ctaBadgeRadius);
+  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeHeight, ctaBadgeX + ctaBadgeWidth - ctaBadgeRadius, ctaBadgeY + ctaBadgeHeight);
+  ctx.lineTo(ctaBadgeX + ctaBadgeRadius, ctaBadgeY + ctaBadgeHeight);
+  ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY + ctaBadgeHeight, ctaBadgeX, ctaBadgeY + ctaBadgeHeight - ctaBadgeRadius);
+  ctx.lineTo(ctaBadgeX, ctaBadgeY + ctaBadgeRadius);
+  ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY, ctaBadgeX + ctaBadgeRadius, ctaBadgeY);
+  ctx.closePath();
+  ctx.fill();
+  
+  // Draw CTA text - centered in badge
+  ctx.fillStyle = '#1f1911'; // Background color (brownish)
+  ctx.font = 'bold 18px Barlow'; // Same size as main text
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  
+  // Center the text in the badge
+  const textCenterX = ctaBadgeX + (ctaBadgeWidth / 2);
+  const textCenterY = ctaBadgeY + (ctaBadgeHeight / 2);
+  ctx.fillText(ctaPhrase.cta, textCenterX, textCenterY);
+  
+  // Reset text alignment for future text
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'alphabetic';
+  
+  console.log(`[CTA] Added phrase: "${ctaPhrase.text}" with CTA: "${ctaPhrase.cta}"`);
+  console.log(`[CTA] Verdict: ${data.verdict}, Meta: ${data.meta}`);
 
   return canvas;
 }
@@ -490,29 +492,8 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
     return;
   }
 
-  // Enhanced Nostr verification integration (Option 3)
-  if (data.verdict === 'sourceavailable' && data.meta === 'ok' && data.appId) {
-    const nostrSummary = getEnhancedNostrVerificationSummary(data.appId);
-    
-    // Attach enhanced verification data to app data
-    data.nostrBuildStatus = nostrSummary.latestStatus;
-    data.latestVersion = nostrSummary.latestVersion;
-    data.latestDate = nostrSummary.latestDate;
-    data.lastVerifiedVersion = nostrSummary.lastVerifiedVersion;
-    data.lastVerifiedVersionDate = nostrSummary.lastVerifiedVersionDate;
-    data.wsVersion = data.version; // Use the version from YAML as WalletScrutiny version
-    data.verificationCount = nostrSummary.verificationCount;
-    data.reproducibleCount = nostrSummary.reproducibleCount;
-    data.verificationTimeline = nostrSummary.timeline;
-    
-    if (nostrSummary.latestStatus) {
-      console.log(`[NOSTR] Enhanced data attached to ${data.title || data.appId}:`);
-      console.log(`  - WalletScrutiny version: ${data.wsVersion || 'N/A'}`);
-      console.log(`  - Latest verification: ${data.latestVersion || 'N/A'} (${data.latestDate || 'N/A'})`);
-      console.log(`  - Last reproducible: ${data.lastVerifiedVersion || 'N/A'} (${data.lastVerifiedVersionDate || 'N/A'})`);
-      console.log(`  - Status: ${data.nostrBuildStatus}`);
-    }
-  }
+  // Add platform information to data
+  data.platform = platform;
 
   let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
   if (!fs.existsSync(iconImagePath)) {
@@ -567,5 +548,7 @@ async function processFiles () {
   await Promise.all(asyncTasks);
 }
 
-processFilesTimed();
+loadResources().then(() => {
+  processFilesTimed();
+});
 
