@@ -149,7 +149,10 @@ window.renderAssetsTable = async function({
       <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
           <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
-          <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+          <div style="display: flex; align-items: center; gap: 15px;">
+            <span id="previewCopyButton" style="color: #666; font-size: 20px; cursor: pointer; padding: 5px; border-radius: 4px; transition: background-color 0.2s;" title="Copy to clipboard">📋</span>
+            <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+          </div>
         </div>
         <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
       </div>
@@ -1500,6 +1503,7 @@ window.handleAttachmentPreview = function(attachmentId) {
   const previewContent = document.getElementById('previewContent');
   const previewFileName = document.getElementById('previewFileName');
   const closeButton = document.getElementById('previewCloseButton');
+  const copyButton = document.getElementById('previewCopyButton');
   
   // Set the filename
   previewFileName.textContent = attachmentData.filename;
@@ -1517,6 +1521,41 @@ window.handleAttachmentPreview = function(attachmentId) {
     // Set modal close action
     closeButton.onclick = function() {
       modal.style.display = 'none';
+    };
+    
+    // Set copy to clipboard action
+    copyButton.onclick = function() {
+      try {
+        navigator.clipboard.writeText(textContent).then(function() {
+          // Visual feedback - temporarily change the icon and add background
+          const originalIcon = copyButton.innerHTML;
+          const originalStyle = copyButton.style.backgroundColor;
+          copyButton.innerHTML = '✅';
+          copyButton.style.backgroundColor = '#e8f5e8';
+          
+          // Reset after 1.5 seconds
+          setTimeout(function() {
+            copyButton.innerHTML = originalIcon;
+            copyButton.style.backgroundColor = originalStyle;
+          }, 1500);
+          
+          showToast('Content copied to clipboard!', 'success');
+        }).catch(function(err) {
+          console.error('Failed to copy to clipboard:', err);
+          showToast('Failed to copy to clipboard', 'error');
+        });
+      } catch (err) {
+        console.error('Clipboard API not supported:', err);
+        showToast('Clipboard not supported in this browser', 'error');
+      }
+    };
+    
+    // Add hover effect for copy button
+    copyButton.onmouseenter = function() {
+      copyButton.style.backgroundColor = '#f0f0f0';
+    };
+    copyButton.onmouseleave = function() {
+      copyButton.style.backgroundColor = 'transparent';
     };
     
     // Close modal when clicking outside
