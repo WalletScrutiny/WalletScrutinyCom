@@ -99,7 +99,10 @@ async function drawPlatformIcon(ctx, platform, x, y) {
 }
 
 let totalFiles = 0;
+let processedCount = 0;
+let errorCount = 0;
 const startTime = Date.now();
+const platformStats = {};
 
 async function loadResources() {
   bgImage = await loadImage(backgroundImage);
@@ -114,17 +117,15 @@ async function loadResources() {
   for (const [platform, path] of iconPaths) {
     try {
       platformIconImages[platform] = await loadImage(path);
-      console.log(`[PLATFORM ICONS] ${platform} icon loaded`);
     } catch (error) {
-      console.warn(`[PLATFORM ICONS] Could not load ${path}: ${error.message}`);
+      console.warn(`Could not load ${platform} icon: ${error.message}`);
     }
   }
   
   try {
     redFlagImage = await loadImage('images/twCard/red-flag.png');
-    console.log('[RED FLAG] Red flag image loaded');
   } catch (error) {
-    console.warn(`[RED FLAG] Could not load red-flag.png: ${error.message}`);
+    console.warn(`Could not load red flag image: ${error.message}`);
   }
 }
 
@@ -133,61 +134,23 @@ function wrapText(text, length) {
   return `${text}`.match(regex) || [];
 }
 
-function showProgress() {
-  const oldTotalFiles = totalFiles;
-  const i = setInterval(() => {
-    const elapsed = Date.now() - startTime;
-    const processed = oldTotalFiles - totalFiles;
-    const rate = processed / (elapsed / 1000);
-    const eta = totalFiles / rate;
-    console.log(`Processed: ${processed}/${oldTotalFiles}, Rate: ${rate.toFixed(2)}/s, ETA: ${eta.toFixed(0)}s`);
-    if (totalFiles === 0) {
-      clearInterval(i);
-      console.log(`Total time: ${(Date.now() - startTime) / 1000}s`);
-    }
-  }, 5000);
+function showFinalSummary() {
+  const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`\n\n✅ Generation Complete!`);
+  console.log(`📈 Summary: ${processedCount} cards generated, ${errorCount} errors`);
+  console.log(`⏱️  Total time: ${totalTime}s`);
+  
+  if (Object.keys(platformStats).length > 0) {
+    console.log('📱 By platform:');
+    Object.entries(platformStats).forEach(([platform, count]) => {
+      console.log(`   ${platform}: ${count} cards`);
+    });
+  }
 }
 
 function processFilesTimed() {
-  showProgress();
+  console.log('🚀 Starting Twitter card generation...');
   processFiles();
-}
-
-function drawStar(ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fraction = 1) {
-  const spikes = 5, outerRadius = 20, innerRadius = 10, strokeWidth = 3;
-  let rot = (Math.PI / 2) * 3;
-  const step = Math.PI / spikes;
-
-  ctx.save();
-  ctx.beginPath();
-  ctx.rect(cx - outerRadius - strokeWidth, cy - outerRadius - strokeWidth, 2 * (outerRadius + strokeWidth) * fraction, 2 * (outerRadius + strokeWidth));
-  ctx.clip();
-  ctx.beginPath();
-  ctx.moveTo(cx, cy - outerRadius);
-
-  for (let i = 0; i < spikes; i++) {
-    ctx.lineTo(cx + Math.cos(rot) * outerRadius, cy + Math.sin(rot) * outerRadius);
-    rot += step;
-    ctx.lineTo(cx + Math.cos(rot) * innerRadius, cy + Math.sin(rot) * innerRadius);
-    rot += step;
-  }
-
-  ctx.lineTo(cx, cy - outerRadius);
-  ctx.closePath();
-  ctx.lineWidth = strokeWidth;
-  ctx.lineJoin = 'round';
-  ctx.strokeStyle = strokeColor;
-  ctx.fillStyle = fillColor;
-  ctx.fill();
-  ctx.stroke();
-  ctx.restore();
-}
-
-function drawStars(ctx, stars, x, y, starSize) {
-  for (let i = 0; i < 5; i++) {
-    const starX = x + (i * (starSize + 5));
-    drawStar(ctx, starX, y, i < stars ? '#ee9e15' : 'transparent', 'black', 1);
-  }
 }
 
 const ctaPhrases = {
@@ -317,9 +280,6 @@ async function drawOnCanvas(data, iconImage) {
   ctx.fillText(ctaPhrase.cta, ctaBadgeX + (ctaBadgeWidth / 2), ctaBadgeY + (ctaBadgeHeight / 2));
   ctx.textAlign = 'left';
   ctx.textBaseline = 'alphabetic';
-  
-  console.log(`[CTA] Added phrase: "${ctaPhrase.text}" with CTA: "${ctaPhrase.cta}"`);
-  console.log(`[CTA] Verdict: ${data.verdict}, Meta: ${data.meta}`);
 
   if (data.verdict === 'fake' && redFlagImage) {
     const flagScale = 0.3;
@@ -330,18 +290,16 @@ async function drawOnCanvas(data, iconImage) {
     const flagY = height - flagHeight - flagMargin;
     
     ctx.drawImage(redFlagImage, flagX, flagY, flagWidth, flagHeight);
-    console.log('[RED FLAG] Red flag displayed for fake verdict at 30% scale');
   }
 
-  // Add appId watermark in bottom-left corner
   if (data.appId) {
     ctx.save();
-    ctx.globalAlpha = 0.1; // 10% opacity
-    ctx.fillStyle = '#CCCCCC'; // Light gray
+    ctx.globalAlpha = 0.1;
+    ctx.fillStyle = '#CCCCCC';
     ctx.font = '12px Barlow';
     ctx.textAlign = 'left';
     ctx.textBaseline = 'bottom';
-    ctx.fillText(data.appId, 20, height - 20); // 20px margin from left and bottom
+    ctx.fillText(data.appId, 20, height - 20);
     ctx.restore();
   }
 
@@ -358,38 +316,39 @@ function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
 }
 
 async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
-  const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---');
-  let data;
   try {
-    data = yaml.load(parts[1]);
-  } catch (e) {
-    console.log(`processOneFile(${platform}, ${mdFilesPath}, ${file}, ${outputFolderPath})`);
-    console.error(e);
-    totalFiles--;
-    return;
-  }
+    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---');
+    const data = yaml.load(parts[1]);
+    data.platform = platform;
 
-  data.platform = platform;
+    let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
+    if (!fs.existsSync(iconImagePath)) {
+      iconImagePath = fallbackIcon;
+    }
 
-  let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
-  if (!fs.existsSync(iconImagePath)) {
-    iconImagePath = fallbackIcon;
-  }
-
-  let iconImage;
-  try {
-    iconImage = await loadImage(iconImagePath);
+    const iconImage = await loadImage(iconImagePath);
+    const canvas = await drawOnCanvas(data, iconImage);
+    const dataURL = canvas.toDataURL('image/png');
+    const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
+    await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
+    
+    processedCount++;
+    platformStats[platform] = (platformStats[platform] || 0) + 1;
+    
+    if (processedCount % 10 === 0) {
+      process.stdout.write('*');
+    }
+    
   } catch (error) {
-    console.error(`Error processing file ${file}: `, error);
-    totalFiles--;
-    return;
+    errorCount++;
+    console.error(`\nError processing ${file}: ${error.message}`);
   }
-
-  const canvas = await drawOnCanvas(data, iconImage);
-  const dataURL = canvas.toDataURL('image/png');
-  const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
-  await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
+  
   totalFiles--;
+  
+  if (totalFiles === 0) {
+    showFinalSummary();
+  }
 }
 
 async function processFiles() {
