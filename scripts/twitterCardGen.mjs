@@ -333,6 +333,18 @@ async function drawOnCanvas(data, iconImage) {
     console.log('[RED FLAG] Red flag displayed for fake verdict at 30% scale');
   }
 
+  // Add appId watermark in bottom-left corner
+  if (data.appId) {
+    ctx.save();
+    ctx.globalAlpha = 0.1; // 10% opacity
+    ctx.fillStyle = '#CCCCCC'; // Light gray
+    ctx.font = '12px Barlow';
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'bottom';
+    ctx.fillText(data.appId, 20, height - 20); // 20px margin from left and bottom
+    ctx.restore();
+  }
+
   return canvas;
 }
 
