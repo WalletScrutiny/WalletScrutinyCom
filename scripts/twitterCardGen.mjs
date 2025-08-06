@@ -33,6 +33,9 @@ const platformNames = {
 // Platform icon images
 let platformIconImages = {};
 
+// Red flag image for fake verdict
+let redFlagImage;
+
 // Function to draw platform icons
 async function drawPlatformIcon(ctx, platform, x, y) {
   ctx.save();
@@ -190,6 +193,14 @@ async function loadResources () {
     console.log('[PLATFORM ICONS] Hardware icon loaded');
   } catch (error) {
     console.warn(`[PLATFORM ICONS] Could not load hardware-icon.png: ${error.message}`);
+  }
+  
+  // Load red flag image for fake verdict
+  try {
+    redFlagImage = await loadImage('images/twCard/red-flag.png');
+    console.log('[RED FLAG] Red flag image loaded');
+  } catch (error) {
+    console.warn(`[RED FLAG] Could not load red-flag.png: ${error.message}`);
   }
 }
 
@@ -465,6 +476,19 @@ async function drawOnCanvas (data, iconImage) {
   
   console.log(`[CTA] Added phrase: "${ctaPhrase.text}" with CTA: "${ctaPhrase.cta}"`);
   console.log(`[CTA] Verdict: ${data.verdict}, Meta: ${data.meta}`);
+
+  // Draw red flag image for fake verdict in lower right corner
+  if (data.verdict === 'fake' && redFlagImage) {
+    const flagScale = 0.3; // Scale to 30% of original size
+    const flagWidth = redFlagImage.width * flagScale;
+    const flagHeight = redFlagImage.height * flagScale;
+    const flagMargin = 20; // Margin from edges
+    const flagX = width - flagWidth - flagMargin; // Position from right edge
+    const flagY = height - flagHeight - flagMargin; // Position from bottom edge
+    
+    ctx.drawImage(redFlagImage, flagX, flagY, flagWidth, flagHeight);
+    console.log('[RED FLAG] Red flag displayed for fake verdict at 30% scale');
+  }
 
   return canvas;
 }
