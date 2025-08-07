@@ -12,7 +12,7 @@ updated: 2025-02-25
 version: 2.12.3
 stars: 4.6
 ratings: 
-reviews: 14
+reviews: 15
 website: https://citadel.one/
 repository: 
 issue: 

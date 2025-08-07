@@ -12,7 +12,7 @@ updated: 2025-07-10
 version: 5.0.0
 stars: 4.5
 ratings: 1039
-reviews: 224
+reviews: 226
 website: https://www.bitrefill.com
 repository: 
 issue: 

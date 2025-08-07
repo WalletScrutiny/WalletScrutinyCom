@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: 'OpenFi: Safe Everyday Finance'
+title: 'OpenFi: Smart Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
 released: 2020-12-13
-updated: 2025-08-03
-version: 6.2.0
+updated: 2025-08-06
+version: 6.2.1
 stars: 4.5
 reviews: 191
 website: https://openfi.world/

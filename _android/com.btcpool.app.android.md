@@ -12,7 +12,7 @@ updated: 2025-07-31
 version: 2.4.6
 stars: 4
 ratings: 261
-reviews: 29
+reviews: 30
 website: https://cloverpool.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
 redirect_from: 
-developerName: CloverPool Inc.
+developerName: Beijing GuiXinYangHang Technology Co., Ltd.
 features: 
 
 ---

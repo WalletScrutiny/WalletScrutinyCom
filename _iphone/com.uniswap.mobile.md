@@ -8,10 +8,10 @@ appId: com.uniswap.mobile
 appCountry: us
 idd: '6443944476'
 released: 2023-04-12
-updated: 2025-07-09
-version: '1.54'
+updated: 2025-08-04
+version: '1.55'
 stars: 4.8
-reviews: 17093
+reviews: 17120
 website: https://wallet.uniswap.org/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: 'CFD & Forex Trading: FOREX.com'
+title: FOREX.com Forex & CFD Trading
 altTitle: 
 authors:
 - danny

@@ -8,8 +8,8 @@ users: 100000
 appId: com.buda.crypto
 appCountry: 
 released: 2018-01-04
-updated: 2025-07-14
-version: 2025.7.2
+updated: 2025-08-05
+version: 2025.8.2
 stars: 3.8
 ratings: 648
 reviews: 17

@@ -8,7 +8,7 @@ users: 1000000
 appId: com.uniswap.mobile
 appCountry: 
 released: 2023-10-30
-updated: 2025-07-03
+updated: 2025-08-04
 version: '1.54'
 stars: 4.7
 ratings: 

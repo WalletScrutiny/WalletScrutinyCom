@@ -9,10 +9,10 @@ appId: com.binance.us
 appCountry: 
 released: 2019-12-23
 updated: 2025-07-25
-version: 3.20.9
+version: 3.21.0
 stars: 2.9
 ratings: 7187
-reviews: 6759
+reviews: 6762
 website: https://www.binance.us
 repository: 
 issue: 

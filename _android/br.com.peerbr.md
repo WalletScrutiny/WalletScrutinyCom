@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-24
 updated: 2025-07-28
 version: 6.6.0
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 3
 website: https://peerbr.com.br/

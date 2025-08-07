@@ -12,7 +12,7 @@ updated: 2025-07-24
 version: 3.8.9
 stars: 3.8
 ratings: 
-reviews: 26
+reviews: 25
 website: https://www.ejara.io
 repository: 
 issue: 

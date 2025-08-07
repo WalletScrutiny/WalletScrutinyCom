@@ -11,7 +11,7 @@ released: 2024-03-13
 updated: 2025-08-01
 version: 2025.14.1
 stars: 4.6
-reviews: 94
+reviews: 96
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: 

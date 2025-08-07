@@ -11,7 +11,7 @@ released: 2018-10-25
 updated: 2025-07-29
 version: 5.1.2
 stars: 4.5
-reviews: 2240
+reviews: 2239
 website: https://www.ready.co
 repository: 
 issue: 

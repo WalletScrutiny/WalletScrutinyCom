@@ -10,7 +10,7 @@ appCountry: us
 released: 2010-08-02
 updated: 2025-08-02
 version: 7.0.1.34
-stars: 4
+stars: 4.1
 ratings: 5176
 reviews: 349
 website: http://www.thinkmarkets.com

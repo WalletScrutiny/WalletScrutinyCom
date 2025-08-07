@@ -10,7 +10,7 @@ appCountry:
 released: 2023-04-23
 updated: 2025-05-02
 version: 1.0.28
-stars: 3.4
+stars: 3.5
 ratings: 
 reviews: 29
 website: https://verus.io/
