@@ -11,7 +11,7 @@
  * # Download Noto fonts from Google Fonts
  */
 
-import { parentPort, workerData } from 'worker_threads';
+import { parentPort } from 'worker_threads';
 import fs from 'fs';
 import pkg from '@napi-rs/canvas';
 const { createCanvas, loadImage } = pkg;
@@ -20,45 +20,30 @@ import path from 'path';
 
 const fsp = fs.promises;
 const fallbackIcon = 'images/smallNoicon.png';
-
 const platformNames = {
-  android: 'Android',
-  iphone: 'iOS', 
-  hardware: 'Hardware',
-  bearer: 'Bearer Token',
-  desktop: 'Desktop'
+  android: 'Android', iphone: 'iOS', hardware: 'Hardware', bearer: 'Bearer Token', desktop: 'Desktop'
 };
 
 // Worker-specific resources (loaded once per worker)
-let bgImage;
-let platformIconImages = {};
-let redFlagImage;
-
-
+let bgImage, platformIconImages = {}, redFlagImage;
 
 async function loadWorkerResources() {
   try {
-    // Load background image with fast canvas (used for both approaches)
     bgImage = await loadImage('images/twCard/new-ws-bg-800x450.png');
     
     // Enhanced font registration for Unicode support
-    if (pkg.GlobalFonts && pkg.GlobalFonts.registerFromPath) {
+    if (pkg.GlobalFonts?.registerFromPath) {
       try {
-        // Register Barlow for Latin text
         pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
         console.log('Worker: Barlow font registered successfully');
         
         // Register common system Unicode fonts
-        // After installing fonts, they should be located at:
-        // Ubuntu/Debian: /usr/share/fonts/opentype/noto/ and /usr/share/fonts/truetype/dejavu/
-        // macOS: /System/Library/Fonts/
-        // Windows: C:\Windows\Fonts\
         const unicodeFonts = [
-          ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],     // Japanese, Korean, Chinese
-          ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],             // Persian, Arabic, extended Latin
-          ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', 'LiberationSans'], // Additional Unicode coverage
-          ['/System/Library/Fonts/Arial Unicode MS.ttf', 'ArialUnicodeMS'], // macOS
-          ['C:\\Windows\\Fonts\\arial.ttf', 'Arial'] // Windows
+          ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
+          ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],
+          ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', 'LiberationSans'],
+          ['/System/Library/Fonts/Arial Unicode MS.ttf', 'ArialUnicodeMS'],
+          ['C:\\Windows\\Fonts\\arial.ttf', 'Arial']
         ];
         
         let unicodeFontsRegistered = 0;
@@ -69,11 +54,8 @@ async function loadWorkerResources() {
               console.log(`Worker: Registered Unicode font: ${fontName}`);
               unicodeFontsRegistered++;
             }
-          } catch (e) {
-            // Continue trying other fonts
-          }
+          } catch (e) {}
         }
-        
         console.log(`Worker: ${unicodeFontsRegistered} Unicode fonts registered`);
       } catch (error) {
         console.warn(`Worker: Font registration failed: ${error.message}`);
@@ -121,24 +103,19 @@ async function drawPlatformIcon(ctx, platform, x, y) {
     ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
   };
   
-  switch (platform) {
-    case 'android':
-      if (platformIconImages.android) {
-        drawPlatformImage(platformIconImages.android);
-      } else {
+  if (platformIconImages[platform]) {
+    drawPlatformImage(platformIconImages[platform]);
+  } else {
+    switch (platform) {
+      case 'android':
         ctx.beginPath();
         ctx.moveTo(x, y - 8);
         ctx.lineTo(x + 14, y);
         ctx.lineTo(x, y + 8);
         ctx.closePath();
         ctx.fill();
-      }
-      break;
-      
-    case 'iphone':
-      if (platformIconImages.iphone) {
-        drawPlatformImage(platformIconImages.iphone);
-      } else {
+        break;
+      case 'iphone':
         ctx.beginPath();
         ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
         ctx.fill();
@@ -146,47 +123,37 @@ async function drawPlatformIcon(ctx, platform, x, y) {
         ctx.beginPath();
         ctx.arc(x + 9, y - 3, 2, 0, Math.PI * 2);
         ctx.fill();
-      }
-      break;
-      
-    case 'hardware':
-      if (platformIconImages.hardware) {
-        drawPlatformImage(platformIconImages.hardware);
-      } else {
+        break;
+      case 'hardware':
         ctx.beginPath();
         ctx.rect(x, y - 6, 12, 12);
         ctx.stroke();
         ctx.beginPath();
         ctx.rect(x + 3, y - 8, 6, 4);
         ctx.fill();
-      }
-      break;
-      
-    case 'desktop':
-      ctx.beginPath();
-      ctx.rect(x, y - 6, 14, 10);
-      ctx.stroke();
-      ctx.beginPath();
-      ctx.rect(x + 5, y + 4, 4, 2);
-      ctx.fill();
-      break;
-      
-    case 'bearer':
-      ctx.beginPath();
-      ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
-      ctx.stroke();
-      ctx.font = '8px Barlow';
-      ctx.textAlign = 'center';
-      ctx.fillText('₿', x + 6, y + 3);
-      break;
+        break;
+      case 'desktop':
+        ctx.beginPath();
+        ctx.rect(x, y - 6, 14, 10);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.rect(x + 5, y + 4, 4, 2);
+        ctx.fill();
+        break;
+      case 'bearer':
+        ctx.beginPath();
+        ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.font = '8px Barlow';
+        ctx.textAlign = 'center';
+        ctx.fillText('₿', x + 6, y + 3);
+        break;
+    }
   }
   ctx.restore();
 }
 
-function wrapText(text, length) {
-  const regex = new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g');
-  return `${text}`.match(regex) || [];
-}
+const wrapText = (text, length) => `${text}`.match(new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g')) || [];
 
 const ctaPhrases = {
   sourceavailable: [
@@ -224,13 +191,11 @@ const ctaPhrases = {
 
 function getCtaPhrase(data) {
   const hash = (data.title || '').split('').reduce((a, b) => ((a << 5) - a) + b.charCodeAt(0) & a, 0);
-  
   const phrases = data.meta !== 'ok' ? ctaPhrases.metaNotOk :
     data.verdict === 'sourceavailable' ? ctaPhrases.sourceavailable :
     data.verdict === 'custodial' ? ctaPhrases.custodial :
     data.verdict === 'nosource' ? ctaPhrases.nosource :
     [{ text: "Wallet security analyzed", cta: "Read our review" }];
-  
   return phrases[Math.abs(hash) % phrases.length];
 }
 
@@ -241,18 +206,13 @@ function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
   for (let i = 0; i < wrapped.length; i++) {
     const line = wrapped[i].trim();
     if (line) {
-      // Use comprehensive font fallback like original canvas
       const fontSize = (font || ctx.font).match(/\d+/)?.[0] || '16';
       const fontWeight = (font || ctx.font).includes('bold') ? 'bold ' : '';
       
       // Build comprehensive fallback chain for all Unicode text
-      if ((font || ctx.font).includes('Barlow')) {
-        // For Barlow fonts, add comprehensive Unicode fallbacks
-        ctx.font = `${fontWeight}${fontSize}px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
-      } else {
-        // For other fonts, use comprehensive system fallback
-        ctx.font = `${fontWeight}${fontSize}px NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
-      }
+      ctx.font = (font || ctx.font).includes('Barlow') 
+        ? `${fontWeight}${fontSize}px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`
+        : `${fontWeight}${fontSize}px NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
       
       ctx.fillText(line, x, y + (i * (lineHeight || 0)));
     }
@@ -268,6 +228,7 @@ async function drawOnCanvas(data, iconImage) {
 
   const iconX = 40, iconY = 190, iconWidth = 150, iconHeight = 150, cornerRadius = 25;
   
+  // Draw clipped icon
   ctx.save();
   ctx.beginPath();
   ctx.moveTo(iconX + cornerRadius, iconY);
@@ -289,44 +250,35 @@ async function drawOnCanvas(data, iconImage) {
   const fontSize = titleText.length < 10 ? '80px' : titleText.length < 20 ? '56px' : '40px';
   let titleY = iconY + 50 + (fontSize === '80px' || fontSize === '56px' ? 20 : 0);
   
-  // Use comprehensive font fallback with registered font names
   const titleFont = `${fontSize} Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
-  
   printText(titleText, ctx, titleX, titleY, 'white', titleFont, 27, 45);
 
   const wrappedLines = wrapText(titleText, 27);
   const textEndY = titleY + ((wrappedLines.length - 1) * 45);
   const platformY = textEndY + 35;
-  const platformX = titleX;
 
+  // Draw platform icon and text
   if (data.platform && platformNames[data.platform]) {
-    await drawPlatformIcon(ctx, data.platform, platformX, platformY - 5);
+    await drawPlatformIcon(ctx, data.platform, titleX, platformY - 5);
     ctx.fillStyle = '#FFFFFF';
-    
-    const platformText = platformNames[data.platform];
-    // Use comprehensive font fallback for platform text
     ctx.font = '16px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
-    
     ctx.textAlign = 'left';
-    ctx.fillText(platformText, platformX + 20, platformY);
+    ctx.fillText(platformNames[data.platform], titleX + 20, platformY);
   }
 
+  // Draw CTA section
   const ctaY = platformY + 40;
-  const ctaX = titleX;
   const ctaPhrase = getCtaPhrase(data);
   
   ctx.fillStyle = '#CCCCCC';
-  
-  // Enhanced CTA text rendering
   ctx.font = '18px Barlow, "Noto Sans", "DejaVu Sans", "Arial Unicode MS", Arial, sans-serif';
-  ctx.fillText(ctaPhrase.text, ctaX, ctaY);
+  ctx.fillText(ctaPhrase.text, titleX, ctaY);
   
   const mainTextWidth = ctx.measureText(ctaPhrase.text).width;
-  const ctaBadgeX = ctaX + mainTextWidth + 15;
+  const ctaBadgeX = titleX + mainTextWidth + 15;
   const ctaBadgeY = ctaY - 18;
   
-  // Enhanced CTA badge text rendering
-  // Use comprehensive font fallback for CTA badge
+  // Draw CTA badge
   ctx.font = 'bold 18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
   const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20;
   const ctaBadgeHeight = 26, ctaBadgeRadius = 13;
@@ -352,25 +304,20 @@ async function drawOnCanvas(data, iconImage) {
   ctx.textAlign = 'left';
   ctx.textBaseline = 'alphabetic';
 
+  // Draw red flag for fake wallets
   if (data.verdict === 'fake' && redFlagImage) {
     const flagScale = 0.3;
     const flagWidth = redFlagImage.width * flagScale;
     const flagHeight = redFlagImage.height * flagScale;
-    const flagMargin = 20;
-    const flagX = width - flagWidth - flagMargin;
-    const flagY = height - flagHeight - flagMargin;
-    
-    ctx.drawImage(redFlagImage, flagX, flagY, flagWidth, flagHeight);
+    ctx.drawImage(redFlagImage, width - flagWidth - 20, height - flagHeight - 20, flagWidth, flagHeight);
   }
 
+  // Draw app ID watermark
   if (data.appId) {
     ctx.save();
     ctx.globalAlpha = 0.1;
     ctx.fillStyle = '#CCCCCC';
-    
-    // Use comprehensive font fallback for CTA text
     ctx.font = '18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
-    
     ctx.textAlign = 'left';
     ctx.textBaseline = 'bottom';
     ctx.fillText(data.appId, 20, height - 20);
@@ -384,44 +331,34 @@ async function processCard(cardJob) {
   try {
     const { platform, mdFilesPath, file, outputFolderPath } = cardJob;
     
+    // Debug logging for troubleshooting
+    if (!mdFilesPath || !file || !platform || !outputFolderPath) {
+      throw new Error(`Invalid job parameters: mdFilesPath=${mdFilesPath}, file=${file}, platform=${platform}, outputFolderPath=${outputFolderPath}`);
+    }
+    
     // Read and parse markdown file
     const content = await fsp.readFile(path.join(mdFilesPath, file), 'utf-8');
-    const parts = content.split('---');
-    const data = yaml.load(parts[1]);
+    const data = yaml.load(content.split('---')[1]);
     data.platform = platform;
 
-    // Load app icon with appropriate loader
-    let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
-    if (!fs.existsSync(iconImagePath)) {
-      iconImagePath = fallbackIcon;
+    // Load app icon
+    let iconImagePath = fallbackIcon;
+    if (data.icon) {
+      const proposedPath = path.join('images', 'wIcons', platform, data.icon);
+      if (fs.existsSync(proposedPath)) iconImagePath = proposedPath;
     }
-
     const iconImage = await loadImage(iconImagePath);
     
-    // Generate card
+    // Generate and save card
     const canvas = await drawOnCanvas(data, iconImage);
     const dataURL = canvas.toDataURL('image/png');
-    const outputPath = `${outputFolderPath}/${file.replace('.md', '.png')}`;
+    await fsp.writeFile(`${outputFolderPath}/${file.replace('.md', '.png')}`, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
     
-    // Save image
-    await fsp.writeFile(outputPath, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
-    
-    return {
-      success: true,
-      file,
-      platform
-    };
+    return { success: true, file, platform };
   } catch (error) {
     // Log error to file
-    const errorLog = `${new Date().toISOString()} | ${cardJob.platform} | ${cardJob.file} | ${error.message}\n`;
-    require('fs').appendFileSync('draw-card-error.log', errorLog);
-    
-    return {
-      success: false,
-      file: cardJob.file,
-      platform: cardJob.platform,
-      error: error.message
-    };
+    fs.appendFileSync('draw-card-error.log', `${new Date().toISOString()} | ${cardJob.platform} | ${cardJob.file} | ${error.message}\n`);
+    return { success: false, file: cardJob.file, platform: cardJob.platform, error: error.message };
   }
 }
 
@@ -429,13 +366,9 @@ async function processCard(cardJob) {
 (async () => {
   try {
     await loadWorkerResources();
-    
     parentPort.on('message', async (cardJob) => {
-      const result = await processCard(cardJob);
-      parentPort.postMessage(result);
+      parentPort.postMessage(await processCard(cardJob));
     });
-    
-    // Signal that worker is ready
     parentPort.postMessage({ type: 'ready' });
   } catch (error) {
     parentPort.postMessage({ type: 'error', error: error.message });

@@ -1,6 +1,5 @@
 import fs from 'fs';
 import { Worker } from 'worker_threads';
-import path from 'path';
 import os from 'os';
 
 const fsp = fs.promises;
@@ -11,19 +10,14 @@ const numWorkers = Math.max(8, os.cpus().length * 2); // At least 8 workers, or 
 const workers = [];
 const workerQueue = [];
 
-const platformNames = {
-  android: 'Android',
-  iphone: 'iOS', 
-  hardware: 'Hardware',
-  bearer: 'Bearer Token',
-  desktop: 'Desktop'
-};
+// Stats tracking
+let totalFiles = 0, processedCount = 0, errorCount = 0;
+const startTime = Date.now();
+const platformStats = {};
 
-// Worker thread management functions
 function createWorker() {
   const worker = new Worker('./scripts/twitterCardWorker.mjs');
-  let isReady = false;
-  let currentJob = null;
+  let isReady = false, currentJob = null;
   
   worker.on('message', (result) => {
     if (result.type === 'ready') {
@@ -41,13 +35,9 @@ function createWorker() {
     if (result.success) {
       processedCount++;
       platformStats[result.platform] = (platformStats[result.platform] || 0) + 1;
-      
-      if (processedCount % 10 === 0) {
-        process.stdout.write('*');
-      }
+      if (processedCount % 10 === 0) process.stdout.write('*');
     } else {
       errorCount++;
-      // Errors are logged to draw-card-error.log by worker
     }
     
     totalFiles--;
@@ -67,21 +57,21 @@ function createWorker() {
       totalFiles--;
       currentJob = null;
     }
-    if (totalFiles === 0) {
-      showFinalSummary();
-    }
+    if (totalFiles === 0) showFinalSummary();
   });
   
-  return { worker, isReady: () => isReady, setJob: (job) => { currentJob = job; } };
+  return { 
+    worker, 
+    isReady: () => isReady, 
+    setJob: (job) => { currentJob = job; } 
+  };
 }
 
 function processNextJob(worker) {
   if (workerQueue.length > 0) {
     const job = workerQueue.shift();
     const workerInfo = workers.find(w => w.worker === worker);
-    if (workerInfo) {
-      workerInfo.setJob(job);
-    }
+    if (workerInfo) workerInfo.setJob(job);
     worker.postMessage(job);
   }
 }
@@ -90,8 +80,7 @@ function initializeWorkers() {
   console.log(`🚀 Initializing ${numWorkers} worker threads...`);
   
   for (let i = 0; i < numWorkers; i++) {
-    const workerInfo = createWorker();
-    workers.push(workerInfo);
+    workers.push(createWorker());
   }
   
   // Wait for all workers to be ready
@@ -106,24 +95,6 @@ function initializeWorkers() {
     };
     checkReady();
   });
-}
-
-let totalFiles = 0;
-let processedCount = 0;
-let errorCount = 0;
-const startTime = Date.now();
-const platformStats = {};
-
-// Resources are now loaded in each worker thread
-async function loadResources() {
-  console.log('📦 Resources will be loaded in worker threads...');
-}
-
-// Text wrapping moved to worker threads
-
-function wrapText(text, length) {
-  const regex = new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g');
-  return `${text}`.match(regex) || [];
 }
 
 function showFinalSummary() {
@@ -143,23 +114,8 @@ function showFinalSummary() {
   }
   
   // Terminate all workers
-  workers.forEach(workerInfo => {
-    workerInfo.worker.terminate();
-  });
+  workers.forEach(workerInfo => workerInfo.worker.terminate());
 }
-
-async function processFilesTimed() {
-  console.log('🚀 Starting Twitter card generation...');
-  await processFiles();
-}
-
-// CTA phrase logic moved to worker threads
-
-// Canvas drawing moved to worker threads
-
-// Text printing moved to worker threads
-
-// File processing moved to worker threads
 
 async function processFiles() {
   const socialImagesFolderPath = 'images/social';
@@ -169,9 +125,8 @@ async function processFiles() {
 
   // Build job queue
   for (const mdFolder of mdFolders) {
-    const mdFilesPath = mdFolder;
     const platform = mdFolder.substring(1);
-    const files = await fsp.readdir(mdFilesPath);
+    const files = await fsp.readdir(mdFolder);
     const outputFolderPath = `images/social/${platform}`;
     if (!fs.existsSync(outputFolderPath)) {
       fs.mkdirSync(outputFolderPath);
@@ -182,7 +137,7 @@ async function processFiles() {
         totalFiles++;
         workerQueue.push({
           platform,
-          mdFilesPath,
+          mdFilesPath: mdFolder,
           file,
           outputFolderPath
         });
@@ -193,17 +148,16 @@ async function processFiles() {
   console.log(`📋 Queued ${totalFiles} cards for processing...`);
   
   // Start processing with all workers
-  workers.forEach(workerInfo => {
-    processNextJob(workerInfo.worker);
-  });
+  workers.forEach(workerInfo => processNextJob(workerInfo.worker));
 }
 
 // Initialize and start processing
 (async () => {
   try {
-    await loadResources();
+    console.log('📦 Resources will be loaded in worker threads...');
+    console.log('🚀 Starting Twitter card generation...');
     await initializeWorkers();
-    await processFilesTimed();
+    await processFiles();
   } catch (error) {
     console.error(`Fatal error: ${error.message}`);
     process.exit(1);
