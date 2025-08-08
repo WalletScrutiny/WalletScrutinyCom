@@ -23,48 +23,32 @@ function createWorker() {
     if (result.type === 'ready') {
       isReady = true;
       processNextJob(worker);
-      return;
-    }
-    
-    if (result.type === 'error') {
+    } else if (result.type === 'error') {
       console.error(`Worker initialization error: ${result.error}`);
-      return;
-    }
-    
-    // Job completed
-    if (result.success) {
-      processedCount++;
-      platformStats[result.platform] = (platformStats[result.platform] || 0) + 1;
-      if (processedCount % 10 === 0) process.stdout.write('*');
     } else {
-      errorCount++;
-    }
-    
-    totalFiles--;
-    currentJob = null;
-    
-    if (totalFiles === 0) {
-      showFinalSummary();
-    } else {
-      processNextJob(worker);
+      // Job completed
+      if (result.success) {
+        processedCount++;
+        platformStats[result.platform] = (platformStats[result.platform] || 0) + 1;
+        if (processedCount % 10 === 0) process.stdout.write('*');
+      } else {
+        errorCount++;
+      }
+      
+      totalFiles--;
+      currentJob = null;
+      totalFiles === 0 ? showFinalSummary() : processNextJob(worker);
     }
   });
   
   worker.on('error', (error) => {
     console.error(`Worker error: ${error.message}`);
     errorCount++;
-    if (currentJob) {
-      totalFiles--;
-      currentJob = null;
-    }
+    if (currentJob) { totalFiles--; currentJob = null; }
     if (totalFiles === 0) showFinalSummary();
   });
   
-  return { 
-    worker, 
-    isReady: () => isReady, 
-    setJob: (job) => { currentJob = job; } 
-  };
+  return { worker, isReady: () => isReady, setJob: (job) => { currentJob = job; } };
 }
 
 function processNextJob(worker) {

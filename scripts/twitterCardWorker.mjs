@@ -94,59 +94,33 @@ async function drawPlatformIcon(ctx, platform, x, y) {
   ctx.fillStyle = ctx.strokeStyle = '#FFFFFF';
   ctx.lineWidth = 2;
   
-  const drawPlatformImage = (img) => {
+  if (platformIconImages[platform]) {
+    const img = platformIconImages[platform];
     const maxSize = 16;
     const aspectRatio = img.width / img.height;
     const [drawWidth, drawHeight] = aspectRatio > 1 
       ? [maxSize, maxSize / aspectRatio] 
       : [maxSize * aspectRatio, maxSize];
     ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
-  };
-  
-  if (platformIconImages[platform]) {
-    drawPlatformImage(platformIconImages[platform]);
   } else {
+    ctx.beginPath();
     switch (platform) {
       case 'android':
-        ctx.beginPath();
-        ctx.moveTo(x, y - 8);
-        ctx.lineTo(x + 14, y);
-        ctx.lineTo(x, y + 8);
-        ctx.closePath();
-        ctx.fill();
+        ctx.moveTo(x, y - 8); ctx.lineTo(x + 14, y); ctx.lineTo(x, y + 8); ctx.closePath(); ctx.fill();
         break;
       case 'iphone':
-        ctx.beginPath();
-        ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.fillStyle = '#1f1911';
-        ctx.beginPath();
-        ctx.arc(x + 9, y - 3, 2, 0, Math.PI * 2);
-        ctx.fill();
+        ctx.arc(x + 6, y, 6, 0, Math.PI * 2); ctx.fill();
+        ctx.fillStyle = '#1f1911'; ctx.beginPath(); ctx.arc(x + 9, y - 3, 2, 0, Math.PI * 2); ctx.fill();
         break;
       case 'hardware':
-        ctx.beginPath();
-        ctx.rect(x, y - 6, 12, 12);
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.rect(x + 3, y - 8, 6, 4);
-        ctx.fill();
+        ctx.rect(x, y - 6, 12, 12); ctx.stroke(); ctx.beginPath(); ctx.rect(x + 3, y - 8, 6, 4); ctx.fill();
         break;
       case 'desktop':
-        ctx.beginPath();
-        ctx.rect(x, y - 6, 14, 10);
-        ctx.stroke();
-        ctx.beginPath();
-        ctx.rect(x + 5, y + 4, 4, 2);
-        ctx.fill();
+        ctx.rect(x, y - 6, 14, 10); ctx.stroke(); ctx.beginPath(); ctx.rect(x + 5, y + 4, 4, 2); ctx.fill();
         break;
       case 'bearer':
-        ctx.beginPath();
-        ctx.arc(x + 6, y, 6, 0, Math.PI * 2);
-        ctx.stroke();
-        ctx.font = '8px Barlow';
-        ctx.textAlign = 'center';
-        ctx.fillText('₿', x + 6, y + 3);
+        ctx.arc(x + 6, y, 6, 0, Math.PI * 2); ctx.stroke();
+        ctx.font = '8px Barlow'; ctx.textAlign = 'center'; ctx.fillText('₿', x + 6, y + 3);
         break;
     }
   }
@@ -192,70 +166,53 @@ const ctaPhrases = {
 function getCtaPhrase(data) {
   const hash = (data.title || '').split('').reduce((a, b) => ((a << 5) - a) + b.charCodeAt(0) & a, 0);
   const phrases = data.meta !== 'ok' ? ctaPhrases.metaNotOk :
-    data.verdict === 'sourceavailable' ? ctaPhrases.sourceavailable :
-    data.verdict === 'custodial' ? ctaPhrases.custodial :
-    data.verdict === 'nosource' ? ctaPhrases.nosource :
-    [{ text: "Wallet security analyzed", cta: "Read our review" }];
+    ctaPhrases[data.verdict] || [{ text: "Wallet security analyzed", cta: "Read our review" }];
   return phrases[Math.abs(hash) % phrases.length];
 }
 
-function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
+function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight = 0) {
   const wrapped = wrapText(text, maxLength || 1000);
   ctx.fillStyle = fillStyle || ctx.fillStyle;
   
-  for (let i = 0; i < wrapped.length; i++) {
-    const line = wrapped[i].trim();
+  wrapped.forEach((line, i) => {
+    line = line.trim();
     if (line) {
       const fontSize = (font || ctx.font).match(/\d+/)?.[0] || '16';
       const fontWeight = (font || ctx.font).includes('bold') ? 'bold ' : '';
-      
-      // Build comprehensive fallback chain for all Unicode text
       ctx.font = (font || ctx.font).includes('Barlow') 
         ? `${fontWeight}${fontSize}px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`
         : `${fontWeight}${fontSize}px NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
-      
-      ctx.fillText(line, x, y + (i * (lineHeight || 0)));
+      ctx.fillText(line, x, y + (i * lineHeight));
     }
-  }
+  });
 }
 
 async function drawOnCanvas(data, iconImage) {
-  const width = 800, height = 450;
-  const canvas = createCanvas(width, height);
+  const canvas = createCanvas(800, 450);
   const ctx = canvas.getContext('2d');
 
-  ctx.drawImage(bgImage, 0, 0, width, height);
+  ctx.drawImage(bgImage, 0, 0, 800, 450);
 
-  const iconX = 40, iconY = 190, iconWidth = 150, iconHeight = 150, cornerRadius = 25;
-  
   // Draw clipped icon
   ctx.save();
   ctx.beginPath();
-  ctx.moveTo(iconX + cornerRadius, iconY);
-  ctx.lineTo(iconX + iconWidth - cornerRadius, iconY);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY, iconX + iconWidth, iconY + cornerRadius);
-  ctx.lineTo(iconX + iconWidth, iconY + iconHeight - cornerRadius);
-  ctx.quadraticCurveTo(iconX + iconWidth, iconY + iconHeight, iconX + iconWidth - cornerRadius, iconY + iconHeight);
-  ctx.lineTo(iconX + cornerRadius, iconY + iconHeight);
-  ctx.quadraticCurveTo(iconX, iconY + iconHeight, iconX, iconY + iconHeight - cornerRadius);
-  ctx.lineTo(iconX, iconY + cornerRadius);
-  ctx.quadraticCurveTo(iconX, iconY, iconX + cornerRadius, iconY);
-  ctx.closePath();
-  ctx.clip();
-  ctx.drawImage(iconImage, iconX, iconY, iconWidth, iconHeight);
+  ctx.moveTo(65, 190); ctx.lineTo(165, 190);
+  ctx.quadraticCurveTo(190, 190, 190, 215); ctx.lineTo(190, 315);
+  ctx.quadraticCurveTo(190, 340, 165, 340); ctx.lineTo(65, 340);
+  ctx.quadraticCurveTo(40, 340, 40, 315); ctx.lineTo(40, 215);
+  ctx.quadraticCurveTo(40, 190, 65, 190); ctx.closePath(); ctx.clip();
+  ctx.drawImage(iconImage, 40, 190, 150, 150);
   ctx.restore();
 
-  const titleX = iconX + iconWidth + 20;
-  const titleText = data.title || 'Unknown Title';
+  const titleX = 210, titleText = data.title || 'Unknown Title';
   const fontSize = titleText.length < 10 ? '80px' : titleText.length < 20 ? '56px' : '40px';
-  let titleY = iconY + 50 + (fontSize === '80px' || fontSize === '56px' ? 20 : 0);
+  const titleY = 240 + (fontSize === '80px' || fontSize === '56px' ? 20 : 0);
   
-  const titleFont = `${fontSize} Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`;
-  printText(titleText, ctx, titleX, titleY, 'white', titleFont, 27, 45);
+  printText(titleText, ctx, titleX, titleY, 'white', 
+    `${fontSize} Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif`, 27, 45);
 
   const wrappedLines = wrapText(titleText, 27);
-  const textEndY = titleY + ((wrappedLines.length - 1) * 45);
-  const platformY = textEndY + 35;
+  const platformY = titleY + ((wrappedLines.length - 1) * 45) + 35;
 
   // Draw platform icon and text
   if (data.platform && platformNames[data.platform]) {
@@ -267,61 +224,45 @@ async function drawOnCanvas(data, iconImage) {
   }
 
   // Draw CTA section
-  const ctaY = platformY + 40;
-  const ctaPhrase = getCtaPhrase(data);
+  const ctaY = platformY + 40, ctaPhrase = getCtaPhrase(data);
   
   ctx.fillStyle = '#CCCCCC';
   ctx.font = '18px Barlow, "Noto Sans", "DejaVu Sans", "Arial Unicode MS", Arial, sans-serif';
   ctx.fillText(ctaPhrase.text, titleX, ctaY);
   
   const mainTextWidth = ctx.measureText(ctaPhrase.text).width;
-  const ctaBadgeX = titleX + mainTextWidth + 15;
-  const ctaBadgeY = ctaY - 18;
+  const ctaBadgeX = titleX + mainTextWidth + 15, ctaBadgeY = ctaY - 18;
   
   // Draw CTA badge
   ctx.font = 'bold 18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
   const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20;
-  const ctaBadgeHeight = 26, ctaBadgeRadius = 13;
   
-  ctx.fillStyle = '#ff6b35';
-  ctx.beginPath();
-  ctx.moveTo(ctaBadgeX + ctaBadgeRadius, ctaBadgeY);
-  ctx.lineTo(ctaBadgeX + ctaBadgeWidth - ctaBadgeRadius, ctaBadgeY);
-  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeRadius);
-  ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeHeight - ctaBadgeRadius);
-  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + ctaBadgeHeight, ctaBadgeX + ctaBadgeWidth - ctaBadgeRadius, ctaBadgeY + ctaBadgeHeight);
-  ctx.lineTo(ctaBadgeX + ctaBadgeRadius, ctaBadgeY + ctaBadgeHeight);
-  ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY + ctaBadgeHeight, ctaBadgeX, ctaBadgeY + ctaBadgeHeight - ctaBadgeRadius);
-  ctx.lineTo(ctaBadgeX, ctaBadgeY + ctaBadgeRadius);
-  ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY, ctaBadgeX + ctaBadgeRadius, ctaBadgeY);
-  ctx.closePath();
-  ctx.fill();
+  ctx.fillStyle = '#ff6b35'; ctx.beginPath();
+  ctx.moveTo(ctaBadgeX + 13, ctaBadgeY); ctx.lineTo(ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY);
+  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13);
+  ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13); ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26);
+  ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26, ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY + 26);
+  ctx.lineTo(ctaBadgeX + 13, ctaBadgeY + 26);
+  ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY + 26, ctaBadgeX, ctaBadgeY + 13);
+  ctx.lineTo(ctaBadgeX, ctaBadgeY + 13); ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY, ctaBadgeX + 13, ctaBadgeY);
+  ctx.closePath(); ctx.fill();
   
-  ctx.fillStyle = '#1f1911';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText(ctaPhrase.cta, ctaBadgeX + (ctaBadgeWidth / 2), ctaBadgeY + (ctaBadgeHeight / 2));
-  ctx.textAlign = 'left';
-  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = '#1f1911'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(ctaPhrase.cta, ctaBadgeX + (ctaBadgeWidth / 2), ctaBadgeY + 13);
+  ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic';
 
   // Draw red flag for fake wallets
   if (data.verdict === 'fake' && redFlagImage) {
-    const flagScale = 0.3;
-    const flagWidth = redFlagImage.width * flagScale;
-    const flagHeight = redFlagImage.height * flagScale;
-    ctx.drawImage(redFlagImage, width - flagWidth - 20, height - flagHeight - 20, flagWidth, flagHeight);
+    const flagWidth = redFlagImage.width * 0.3, flagHeight = redFlagImage.height * 0.3;
+    ctx.drawImage(redFlagImage, 800 - flagWidth - 20, 450 - flagHeight - 20, flagWidth, flagHeight);
   }
 
   // Draw app ID watermark
   if (data.appId) {
-    ctx.save();
-    ctx.globalAlpha = 0.1;
-    ctx.fillStyle = '#CCCCCC';
+    ctx.save(); ctx.globalAlpha = 0.1; ctx.fillStyle = '#CCCCCC';
     ctx.font = '18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
-    ctx.textAlign = 'left';
-    ctx.textBaseline = 'bottom';
-    ctx.fillText(data.appId, 20, height - 20);
-    ctx.restore();
+    ctx.textAlign = 'left'; ctx.textBaseline = 'bottom';
+    ctx.fillText(data.appId, 20, 430); ctx.restore();
   }
 
   return canvas;
