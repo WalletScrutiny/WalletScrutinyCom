@@ -7,8 +7,8 @@ users: 500
 appId: com.frt.globe
 appCountry: 
 released: 
-updated: 2024-06-18
-version: 1.2.0
+updated: 2025-08-06
+version: 1.3.0
 stars: 4.4
 ratings: 
 reviews: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.frt.globe.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2025-06-18
+date: 2025-08-09
 signer: 
 twitter: 
 social: 

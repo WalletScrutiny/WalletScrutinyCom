@@ -10,7 +10,7 @@ released: 2021-06-10
 updated: 2025-07-22
 version: 5.6.5
 stars: 4.6
-reviews: 172
+reviews: 173
 website: https://knaken.eu/
 repository: 
 issue: 

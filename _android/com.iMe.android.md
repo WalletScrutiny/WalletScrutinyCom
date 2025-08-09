@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/c/iMeMessenger
 - https://www.reddit.com/r/iMeSmartPlatform
 redirect_from: 
-developerName: iMe Lab
+developerName: IME LAB - FZCO
 features: 
 
 ---

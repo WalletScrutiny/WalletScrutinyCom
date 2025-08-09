@@ -11,7 +11,7 @@ released: 2014-05-15
 updated: 2025-07-28
 version: '4.79'
 stars: 3.8
-reviews: 1256
+reviews: 1257
 website: http://eu.iqoption.com
 repository: 
 issue: 

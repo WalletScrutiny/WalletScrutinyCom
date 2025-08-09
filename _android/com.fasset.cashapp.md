@@ -1,6 +1,6 @@
 ---
 wsId: fassetCrypto
-title: Fasset - Buy Digital Assets
+title: 'Fasset: Invest, Earn and Spend'
 altTitle: 
 authors:
 - danny

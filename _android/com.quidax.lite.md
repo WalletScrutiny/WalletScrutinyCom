@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.quidax.lite.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-21
+date: 2025-08-09
 signer: 
 twitter: quidaxglobal
 social:

@@ -10,7 +10,7 @@ appCountry: CN
 released: 
 updated: 2025-08-06
 version: 3.4.2
-stars: 2.7
+stars: 2.8
 ratings: 
 reviews: 24
 website: https://osl.com

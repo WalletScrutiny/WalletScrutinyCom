@@ -13,7 +13,7 @@ updated: 2025-08-04
 version: 202507.2.1
 stars: 3.8
 ratings: 115830
-reviews: 6281
+reviews: 6282
 website: https://www.blockchain.com
 repository: 
 issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456

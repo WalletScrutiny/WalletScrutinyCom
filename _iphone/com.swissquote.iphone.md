@@ -8,8 +8,8 @@ appId: com.swissquote.iphone
 appCountry: ph
 idd: '285691076'
 released: 2019-02-12
-updated: 2025-08-06
-version: 11.15.0
+updated: 2025-08-08
+version: 11.15.1
 stars: 4.4
 reviews: 16
 website: https://www.swissquote.com

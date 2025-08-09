@@ -10,8 +10,8 @@ idd: 1531246346
 released: 2020-12-18
 updated: 2025-08-06
 version: 13.11.1
-stars: 3.7
-reviews: 647
+stars: 3.6
+reviews: 672
 website: https://pdax.ph
 repository: 
 issue: 

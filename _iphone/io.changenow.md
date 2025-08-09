@@ -11,7 +11,7 @@ released: 2020-06-29
 updated: 2025-07-31
 version: 2.9.5
 stars: 4.8
-reviews: 2157
+reviews: 2159
 website: https://changenow.io
 repository: 
 issue: 

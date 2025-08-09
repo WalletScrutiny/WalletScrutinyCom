@@ -8,8 +8,8 @@ users: 1000000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2025-07-17
-version: 2.9.0
+updated: 2025-08-07
+version: 2.9.2
 stars: 3.4
 ratings: 8047
 reviews: 88

@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2025-08-06
 version: 6.131.0
 stars: 4.6
-reviews: 19033
+reviews: 19090
 website: https://www.okx.com/download
 repository: 
 issue: 
