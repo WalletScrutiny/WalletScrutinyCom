@@ -31,13 +31,10 @@ async function loadWorkerResources() {
   try {
     bgImage = await loadImage('images/twCard/new-ws-bg-800x450.png');
     
-    // Enhanced font registration for Unicode support
     if (pkg.GlobalFonts?.registerFromPath) {
       try {
         pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
-        console.log('Worker: Barlow font registered successfully');
         
-        // Register common system Unicode fonts
         const unicodeFonts = [
           ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
           ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],
@@ -46,28 +43,24 @@ async function loadWorkerResources() {
           ['C:\\Windows\\Fonts\\arial.ttf', 'Arial']
         ];
         
-        let unicodeFontsRegistered = 0;
         for (const [fontPath, fontName] of unicodeFonts) {
           try {
             if (fs.existsSync(fontPath)) {
               pkg.GlobalFonts.registerFromPath(fontPath, fontName);
-              console.log(`Worker: Registered Unicode font: ${fontName}`);
-              unicodeFontsRegistered++;
             }
           } catch (e) {}
         }
-        console.log(`Worker: ${unicodeFontsRegistered} Unicode fonts registered`);
       } catch (error) {
         console.warn(`Worker: Font registration failed: ${error.message}`);
       }
-    } else {
-      console.warn('Worker: Font registration not available, using system fonts');
     }
-    
+
     const iconPaths = [
       ['android', 'images/twCard/play-store.png'],
       ['iphone', 'images/twCard/iphone-store.png'],
-      ['hardware', 'images/twCard/hardware-icon.png']
+      ['hardware', 'images/twCard/hardware-icon.png'],
+      ['desktop', 'images/twCard/desktop-icon.png'],
+      ['bearer', 'images/twCard/bearer-icon.png']
     ];
     
     for (const [platform, iconPath] of iconPaths) {
@@ -78,11 +71,8 @@ async function loadWorkerResources() {
       }
     }
     
-    try {
-      redFlagImage = await loadImage('images/twCard/red-flag.png');
-    } catch (error) {
-      console.warn(`Worker: Could not load red flag image: ${error.message}`);
-    }
+    redFlagImage = await loadImage('images/twCard/red-flag.png');
+     
   } catch (error) {
     console.error(`Worker: Failed to load resources: ${error.message}`);
     throw error;
@@ -102,28 +92,8 @@ async function drawPlatformIcon(ctx, platform, x, y) {
       ? [maxSize, maxSize / aspectRatio] 
       : [maxSize * aspectRatio, maxSize];
     ctx.drawImage(img, x, y - drawHeight/2, drawWidth, drawHeight);
-  } else {
-    ctx.beginPath();
-    switch (platform) {
-      case 'android':
-        ctx.moveTo(x, y - 8); ctx.lineTo(x + 14, y); ctx.lineTo(x, y + 8); ctx.closePath(); ctx.fill();
-        break;
-      case 'iphone':
-        ctx.arc(x + 6, y, 6, 0, Math.PI * 2); ctx.fill();
-        ctx.fillStyle = '#1f1911'; ctx.beginPath(); ctx.arc(x + 9, y - 3, 2, 0, Math.PI * 2); ctx.fill();
-        break;
-      case 'hardware':
-        ctx.rect(x, y - 6, 12, 12); ctx.stroke(); ctx.beginPath(); ctx.rect(x + 3, y - 8, 6, 4); ctx.fill();
-        break;
-      case 'desktop':
-        ctx.rect(x, y - 6, 14, 10); ctx.stroke(); ctx.beginPath(); ctx.rect(x + 5, y + 4, 4, 2); ctx.fill();
-        break;
-      case 'bearer':
-        ctx.arc(x + 6, y, 6, 0, Math.PI * 2); ctx.stroke();
-        ctx.font = '8px Barlow'; ctx.textAlign = 'center'; ctx.fillText('₿', x + 6, y + 3);
-        break;
-    }
   }
+
   ctx.restore();
 }
 
@@ -132,37 +102,31 @@ const wrapText = (text, length) => `${text}`.match(new RegExp(`(?:(?:\\S{${lengt
 const ctaPhrases = {
   sourceavailable: [
     { text: "Open source wallet analyzed", cta: "Discover our security findings" },
-    { text: "Code transparency verified", cta: "See what we uncovered" },
-    { text: "Source code scrutinized", cta: "Read our detailed review" },
-    { text: "Open wallet, open analysis", cta: "Explore the verdict" },
-    { text: "Security audit complete", cta: "Check our insights" },
-    { text: "Transparency confirmed", cta: "Dive into the report" },
-    { text: "Code reviewed & verified", cta: "Uncover the details" },
-    { text: "Open source deep-dive", cta: "Get the full story" }
+    { text: "Open source wallet analyzed", cta: "See what we uncovered" },
+    { text: "Open source wallet analyzed", cta: "Read our detailed review" },
+    { text: "Open source wallet analyzed", cta: "Explore the verdict" }
   ],
   custodial: [
-    { text: "Custodial service analyzed", cta: "Learn the trade-offs" },
-    { text: "Third-party custody reviewed", cta: "See our assessment" },
-    { text: "Managed wallet evaluated", cta: "Understand the risks" },
-    { text: "Professional custody studied", cta: "Get the insights" },
-    { text: "Custodial solution scrutinized", cta: "Read our findings" },
-    { text: "Managed service reviewed", cta: "Discover what it means" },
-    { text: "Third-party wallet assessed", cta: "See the full picture" }
+    { text: "Custodial wallet analyzed", cta: "Learn the trade-offs" },
+    { text: "Custodial wallet analyzed", cta: "See our assessment" },
+    { text: "Custodial wallet analyzed", cta: "Understand the risks" },
+    { text: "Custodial wallet analyzed", cta: "Get the insights" }
   ],
   metaNotOk: [
     { text: "Wallet status updated", cta: "See what changed" },
-    { text: "Service discontinued", cta: "Read the latest" },
-    { text: "Important changes detected", cta: "Get the update" },
-    { text: "Status evolution tracked", cta: "Learn more" },
-    { text: "Service transition noted", cta: "Find out why" }
+    { text: "Wallet status updated", cta: "Read the latest" },
+    { text: "Wallet status updated", cta: "Get the update" }
   ],
   nosource: [
-    { text: "Closed source wallet", cta: "See our concerns" },
-    { text: "Proprietary code analyzed", cta: "Learn the risks" },
-    { text: "Black box wallet reviewed", cta: "Read our take" }
+    { text: "Closed source wallet analyzed", cta: "See our concerns" },
+    { text: "Closed source wallet analyzed", cta: "Learn the risks" },
+    { text: "Closed source wallet analyzed", cta: "Read our take" }
   ]
 };
 
+// Generate a stable hash from the wallet title.
+// This ensures the same wallet title always gets the same CTA phrase
+// instead of picking randomly each run, while still varying between wallets.
 function getCtaPhrase(data) {
   const hash = (data.title || '').split('').reduce((a, b) => ((a << 5) - a) + b.charCodeAt(0) & a, 0);
   const phrases = data.meta !== 'ok' ? ctaPhrases.metaNotOk :
@@ -272,17 +236,14 @@ async function processCard(cardJob) {
   try {
     const { platform, mdFilesPath, file, outputFolderPath } = cardJob;
     
-    // Debug logging for troubleshooting
     if (!mdFilesPath || !file || !platform || !outputFolderPath) {
       throw new Error(`Invalid job parameters: mdFilesPath=${mdFilesPath}, file=${file}, platform=${platform}, outputFolderPath=${outputFolderPath}`);
     }
     
-    // Read and parse markdown file
     const content = await fsp.readFile(path.join(mdFilesPath, file), 'utf-8');
     const data = yaml.load(content.split('---')[1]);
     data.platform = platform;
 
-    // Load app icon
     let iconImagePath = fallbackIcon;
     if (data.icon) {
       const proposedPath = path.join('images', 'wIcons', platform, data.icon);
@@ -290,14 +251,12 @@ async function processCard(cardJob) {
     }
     const iconImage = await loadImage(iconImagePath);
     
-    // Generate and save card
     const canvas = await drawOnCanvas(data, iconImage);
     const dataURL = canvas.toDataURL('image/png');
     await fsp.writeFile(`${outputFolderPath}/${file.replace('.md', '.png')}`, dataURL.replace(/^data:image\/png;base64,/, ''), 'base64');
     
     return { success: true, file, platform };
   } catch (error) {
-    // Log error to file
     fs.appendFileSync('draw-card-error.log', `${new Date().toISOString()} | ${cardJob.platform} | ${cardJob.file} | ${error.message}\n`);
     return { success: false, file: cardJob.file, platform: cardJob.platform, error: error.message };
   }
