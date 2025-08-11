@@ -93,7 +93,7 @@ function showFinalSummary() {
   if (Object.keys(platformStats).length > 0) {
     console.log('📱 By platform:');
     Object.entries(platformStats).forEach(([platform, count]) => {
-      console.log(`   ${platform}: ${count} cards`);
+      console.log(`   ${platform.padEnd(8)}: ${String(count).padStart(5)} cards`);
     });
   }
   
