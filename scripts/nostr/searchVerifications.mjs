@@ -6,7 +6,7 @@ import readline from 'readline';
 import { spawn } from 'child_process';
 
 const BACKUP_DIR = './backup/nostr-verification-events/30301';
-const PLATFORM_FOLDERS = ['_android', '_iphone', '_bearer', '_desktop', '_hardware'];
+const PLATFORM_FOLDERS = ['_android', '_bearer', '_desktop', '_hardware'];
 
 // ANSI color codes
 const colors = {
@@ -617,23 +617,45 @@ class VerificationSearch {
       const appVerifications = this.verifications.filter(v => v.appId === app.appId);
       
       if (appVerifications.length === 0) {
-        // No verifications found - needs verification
+        // No verifications found - high priority
         needsVerification.push({
           ...app,
           latestVerifiedVersion: 'None',
-          statusMessage: 'No verifications found'
+          statusType: 'needs_verification',
+          statusMessage: 'No verifications found',
+          priority: 1,
+          lastVerificationDate: null
         });
       } else {
         // Find latest verification by date
         const latestVerification = appVerifications.sort((a, b) => b.created_at - a.created_at)[0];
         
-        // Compare versions (simple string comparison for now)
+        // Compare versions
         if (latestVerification.version !== app.version) {
-          needsVerification.push({
-            ...app,
-            latestVerifiedVersion: latestVerification.version,
-            statusMessage: 'Version mismatch'
-          });
+          // Determine if markdown version is newer (medium priority) or older (low priority)
+          const isMarkdownNewer = this.compareVersions(app.version, latestVerification.version) > 0;
+          
+          if (isMarkdownNewer) {
+            // Markdown version is newer - medium priority (needs verification)
+            needsVerification.push({
+              ...app,
+              latestVerifiedVersion: latestVerification.version,
+              statusType: 'update_needed',
+              statusMessage: 'Update needed',
+              priority: 2,
+              lastVerificationDate: latestVerification.created_at
+            });
+          } else {
+            // Nostr version is newer - low priority (version mismatch)
+            needsVerification.push({
+              ...app,
+              latestVerifiedVersion: latestVerification.version,
+              statusType: 'version_mismatch',
+              statusMessage: 'Version mismatch',
+              priority: 3,
+              lastVerificationDate: latestVerification.created_at
+            });
+          }
         }
       }
     }
@@ -645,8 +667,11 @@ class VerificationSearch {
       return;
     }
     
-    // Sort by platform then by appId
+    // Sort by priority, then platform, then by appId
     needsVerification.sort((a, b) => {
+      if (a.priority !== b.priority) {
+        return a.priority - b.priority;
+      }
       if (a.platform !== b.platform) {
         return a.platform.localeCompare(b.platform);
       }
@@ -656,56 +681,241 @@ class VerificationSearch {
     await this.showNeedsVerificationList(needsVerification);
   }
 
+  compareVersions(version1, version2) {
+    // Simple version comparison - converts to numbers when possible
+    // Returns: 1 if version1 > version2, -1 if version1 < version2, 0 if equal
+    
+    const v1Parts = version1.replace(/['"]/g, '').split('.').map(part => {
+      const num = parseInt(part);
+      return isNaN(num) ? part : num;
+    });
+    
+    const v2Parts = version2.replace(/['"]/g, '').split('.').map(part => {
+      const num = parseInt(part);
+      return isNaN(num) ? part : num;
+    });
+    
+    const maxLength = Math.max(v1Parts.length, v2Parts.length);
+    
+    for (let i = 0; i < maxLength; i++) {
+      const v1Part = v1Parts[i] || 0;
+      const v2Part = v2Parts[i] || 0;
+      
+      if (typeof v1Part === 'number' && typeof v2Part === 'number') {
+        if (v1Part > v2Part) return 1;
+        if (v1Part < v2Part) return -1;
+      } else {
+        const str1 = v1Part.toString();
+        const str2 = v2Part.toString();
+        if (str1 > str2) return 1;
+        if (str1 < str2) return -1;
+      }
+    }
+    
+    return 0;
+  }
+
   async showNeedsVerificationList(apps) {
     let currentPage = 0;
     const itemsPerPage = 10;
-    const totalPages = Math.ceil(apps.length / itemsPerPage);
+    let sortedApps = [...apps]; // Create a copy for sorting
+    let currentSortMethod = 'priority'; // Default sort
+    
+    // Calculate summary statistics
+    const platformStats = this.calculatePlatformStats(apps);
+    const oldestApp = this.findOldestUnverified(apps);
+    const mostRecentApp = this.findMostRecentlyVerified(apps);
 
     while (true) {
+      const totalPages = Math.ceil(sortedApps.length / itemsPerPage);
+      
       this.clearScreen();
       this.showHeader();
       
       console.log(`${colors.bright}🚨 Apps Needing Verification${colors.reset}`);
       console.log('═'.repeat(30));
-      console.log(`Page ${currentPage + 1} of ${totalPages} (${apps.length} total)\n`);
+      console.log(`Page ${currentPage + 1} of ${totalPages} (${sortedApps.length} total)\n`);
+      
+      // Show summary statistics
+      console.log(`${colors.bright}📊 Summary:${colors.reset}`);
+      console.log(`   ${platformStats.android} apps need verification in android, ${platformStats.bearer} in bearer, ${platformStats.desktop} in desktop, ${platformStats.hardware} in hardware`);
+      if (oldestApp) {
+        console.log(`   ${colors.bright}Oldest needs verification:${colors.reset} ${oldestApp.appId}`);
+      }
+      if (mostRecentApp) {
+        console.log(`   ${colors.bright}Most recently verified:${colors.reset} ${mostRecentApp.appId}`);
+      }
+      console.log();
+      
+      // Show sorting options
+      console.log(`${colors.bright}🔄 Sorting Options:${colors.reset}`);
+      console.log(`   Current sort: ${colors.cyan}${this.getSortMethodName(currentSortMethod)}${colors.reset}`);
+      console.log(`   1. By platform  2. By date of last verification\n`);
       
       const startIdx = currentPage * itemsPerPage;
-      const endIdx = Math.min(startIdx + itemsPerPage, apps.length);
-      const pageItems = apps.slice(startIdx, endIdx);
+      const endIdx = Math.min(startIdx + itemsPerPage, sortedApps.length);
+      const pageItems = sortedApps.slice(startIdx, endIdx);
       
       pageItems.forEach((app, index) => {
+        const statusColor = this.getStatusColor(app.statusType);
         console.log(`${colors.bright}${startIdx + index + 1}.${colors.reset} ${app.appId}`);
         console.log(`   ${colors.bright}Platform:${colors.reset} ${app.platform}`);
         console.log(`   ${colors.bright}Latest version available:${colors.reset} ${app.version}`);
         console.log(`   ${colors.bright}Latest version verified in nostr:${colors.reset} ${app.latestVerifiedVersion}`);
-        console.log(`   ${colors.bright}Status:${colors.reset} ${colors.bright}${colors.green}Needs verification${colors.reset}`);
+        console.log(`   ${colors.bright}Status:${colors.reset} ${statusColor}${app.statusMessage}${colors.reset}`);
         console.log();
       });
       
       const options = [];
+      options.push('1️⃣ Sort by Platform');
+      options.push('2️⃣ Sort by Date of Last Verification');
       if (currentPage > 0) options.push('◀ Previous Page');
       if (currentPage < totalPages - 1) options.push('▶ Next Page');
       options.push('🔙 Back to Main Menu');
       
-      const choice = await this.showMenu('Navigation', options);
+      const choice = await this.showMenu('Options', options);
       
       let optionIndex = 0;
+      
+      // Sort by platform
+      if (choice === optionIndex++) {
+        sortedApps = this.sortAppsByPlatform([...apps]);
+        currentSortMethod = 'platform';
+        currentPage = 0;
+        continue;
+      }
+      
+      // Sort by date of last verification
+      if (choice === optionIndex++) {
+        sortedApps = this.sortAppsByDate([...apps]);
+        currentSortMethod = 'date';
+        currentPage = 0;
+        continue;
+      }
+      
+      // Previous page
       if (currentPage > 0) {
         if (choice === optionIndex++) {
           currentPage--;
           continue;
         }
       }
+      
+      // Next page
       if (currentPage < totalPages - 1) {
         if (choice === optionIndex++) {
           currentPage++;
           continue;
         }
       }
+      
+      // Back to main menu
       if (choice === optionIndex++) {
         await this.showMainMenu();
         return;
       }
+    }
+  }
+
+  getSortMethodName(method) {
+    switch (method) {
+      case 'platform': return 'By Platform';
+      case 'date': return 'By Date of Last Verification';
+      case 'priority': return 'By Priority (Default)';
+      default: return 'Unknown';
+    }
+  }
+
+  sortAppsByPlatform(apps) {
+    return apps.sort((a, b) => {
+      if (a.platform !== b.platform) {
+        return a.platform.localeCompare(b.platform);
+      }
+      // Secondary sort by priority, then appId
+      if (a.priority !== b.priority) {
+        return a.priority - b.priority;
+      }
+      return a.appId.localeCompare(b.appId);
+    });
+  }
+
+  sortAppsByDate(apps) {
+    return apps.sort((a, b) => {
+      // Never verified apps (null) come first
+      if (a.lastVerificationDate === null && b.lastVerificationDate === null) {
+        return a.appId.localeCompare(b.appId);
+      }
+      if (a.lastVerificationDate === null) return -1;
+      if (b.lastVerificationDate === null) return 1;
+      
+      // Sort by date (oldest first)
+      if (a.lastVerificationDate !== b.lastVerificationDate) {
+        return a.lastVerificationDate - b.lastVerificationDate;
+      }
+      
+      // Secondary sort by appId
+      return a.appId.localeCompare(b.appId);
+    });
+  }
+
+  calculatePlatformStats(apps) {
+    const stats = { android: 0, bearer: 0, desktop: 0, hardware: 0 };
+    
+    apps.forEach(app => {
+      if (stats.hasOwnProperty(app.platform)) {
+        stats[app.platform]++;
+      }
+    });
+    
+    return stats;
+  }
+
+  findOldestUnverified(apps) {
+    // Find app with earliest lastVerificationDate (or null for never verified)
+    let oldest = null;
+    let oldestDate = Infinity;
+    
+    apps.forEach(app => {
+      if (app.lastVerificationDate === null) {
+        return app; // Never verified - this is the oldest
+      }
+      
+      if (app.lastVerificationDate < oldestDate) {
+        oldestDate = app.lastVerificationDate;
+        oldest = app;
+      }
+    });
+    
+    // Prefer never-verified apps
+    const neverVerified = apps.find(app => app.lastVerificationDate === null);
+    return neverVerified || oldest;
+  }
+
+  findMostRecentlyVerified(apps) {
+    // Find app with latest lastVerificationDate
+    let mostRecent = null;
+    let mostRecentDate = 0;
+    
+    apps.forEach(app => {
+      if (app.lastVerificationDate && app.lastVerificationDate > mostRecentDate) {
+        mostRecentDate = app.lastVerificationDate;
+        mostRecent = app;
+      }
+    });
+    
+    return mostRecent;
+  }
+
+  getStatusColor(statusType) {
+    switch (statusType) {
+      case 'needs_verification':
+        return `${colors.bright}${colors.green}`;
+      case 'update_needed':
+        return `${colors.bright}${colors.yellow}`;
+      case 'version_mismatch':
+        return `${colors.bright}${colors.red}`;
+      default:
+        return colors.gray;
     }
   }
 
