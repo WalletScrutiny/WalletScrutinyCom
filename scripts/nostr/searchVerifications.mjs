@@ -1,122 +1,66 @@
 #!/usr/bin/env node
 
-import fs from 'fs';
-import path from 'path';
-import readline from 'readline';
+/**
+ * WalletScrutiny Nostr Verification Search Tool (Refactored)
+ * 
+ * A terminal-based tool for searching and analyzing Nostr verification events
+ * from WalletScrutiny.com backups. Provides functionality to browse verifications,
+ * find apps that need verification, and manage verification data.
+ * 
+ * Features:
+ * - Browse all verification events
+ * - Search by app ID, verdict, or date range
+ * - Show statistics and analytics
+ * - Identify apps needing verification
+ * - Update verification data from Nostr nodes
+ * 
+ * Author: WalletScrutiny.com
+ * License: MIT
+ */
+
 import { spawn } from 'child_process';
+import { DataLoader } from './DataLoader.mjs';
+import { AppAnalyzer } from './AppAnalyzer.mjs';
+import { DisplayManager } from './DisplayManager.mjs';
+import { 
+  COLORS, 
+  UI_TEXT
+} from './Constants.mjs';
 
-const BACKUP_DIR = './backup/nostr-verification-events/30301';
-const PLATFORM_FOLDERS = ['_android', '_bearer', '_desktop', '_hardware'];
-
-// ANSI color codes
-const colors = {
-  reset: '\x1b[0m',
-  bright: '\x1b[1m',
-  red: '\x1b[31m',
-  green: '\x1b[32m',
-  yellow: '\x1b[33m',
-  blue: '\x1b[34m',
-  magenta: '\x1b[35m',
-  cyan: '\x1b[36m',
-  white: '\x1b[37m',
-  gray: '\x1b[90m'
-};
-
+/**
+ * Main VerificationSearch class - coordinates all components
+ * Acts as the main controller for the application
+ */
 class VerificationSearch {
   constructor() {
-    this.rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
-    this.verifications = [];
-    this.currentIndex = 0;
-    this.filteredResults = [];
+    // Initialize component dependencies
+    this.dataLoader = new DataLoader();
+    this.analyzer = new AppAnalyzer();
+    this.display = new DisplayManager();
     
-    // Enable raw mode for arrow key detection
-    process.stdin.setRawMode(true);
-    process.stdin.resume();
-    process.stdin.setEncoding('utf8');
+    // Application state
+    this.verifications = [];
+    this.filteredResults = [];
   }
 
+  /**
+   * Load verification events from JSON files
+   */
   async loadVerifications() {
-    console.log(`${colors.cyan}📂 Loading verification events...${colors.reset}`);
-    
-    if (!fs.existsSync(BACKUP_DIR)) {
-      console.log(`${colors.red}❌ Backup directory not found: ${BACKUP_DIR}${colors.reset}`);
-      process.exit(1);
-    }
-
-    const files = fs.readdirSync(BACKUP_DIR).filter(f => f.endsWith('.json'));
-    console.log(`${colors.green}✅ Found ${files.length} verification files${colors.reset}\n`);
-
-    for (const file of files) {
-      try {
-        const filePath = path.join(BACKUP_DIR, file);
-        const content = fs.readFileSync(filePath, 'utf8');
-        const event = JSON.parse(content);
-        
-        // Extract useful data
-        const verification = {
-          id: event.id,
-          created_at: event.created_at,
-          date: new Date(event.created_at * 1000).toISOString().split('T')[0],
-          appId: this.getTagValue(event, 'i') || 'Unknown',
-          version: this.getTagValue(event, 'version') || 'Unknown',
-          platform: this.getTagValue(event, 'platform') || 'Unknown',
-          status: this.getTagValue(event, 'status') || 'Unknown',
-          content: event.content,
-          pubkey: event.pubkey.substring(0, 8) + '...',
-          file: file
-        };
-        
-        this.verifications.push(verification);
-      } catch (error) {
-        console.log(`${colors.yellow}⚠️  Error reading ${file}: ${error.message}${colors.reset}`);
-      }
-    }
-
-    // Sort by date (newest first)
-    this.verifications.sort((a, b) => b.created_at - a.created_at);
+    this.verifications = await this.dataLoader.loadVerifications();
     this.filteredResults = [...this.verifications];
   }
 
-  getTagValue(event, tagName) {
-    const tag = event.tags?.find(tag => tag[0] === tagName);
-    return tag ? tag[1] : null;
-  }
-
-  clearScreen() {
-    process.stdout.write('\x1b[2J\x1b[0f'); // Clear screen and move cursor to top
-  }
-
-  showHeader() {
-    console.log(`${colors.bright}${colors.blue}
-╔════════════════════════════════════════════════════════════════╗
-║                    🔍 Verification Search Tool                 ║
-║                     WalletScrutiny.com Backups                 ║
-╚════════════════════════════════════════════════════════════════╝${colors.reset}\n`);
-  }
-
+  /**
+   * Display main menu and handle user selection
+   */
   async showMainMenu() {
-    const options = [
-      '📋 Browse All Verifications',
-      '🔍 Search by App ID',
-      '⚡ Filter by Verdict',
-      '📅 Search by Date Range',
-      '🏆 Show Statistics',
-      '🚨 Needs Verification',
-      '🔄 Update Verifications by Backing Up Nostr Verifications from Nodes',
-      '❌ Exit'
-    ];
-
-    this.clearScreen();
-    this.showHeader();
+    const choice = await this.display.showMainMenu(
+      this.verifications.length, 
+      this.filteredResults.length
+    );
     
-    console.log(`${colors.bright}📊 Total Verifications: ${this.verifications.length}${colors.reset}`);
-    console.log(`${colors.bright}🔍 Filtered Results: ${this.filteredResults.length}${colors.reset}\n`);
-    
-    const choice = await this.showMenu('Main Menu', options);
-    
+    // Handle menu selection
     switch(choice) {
       case 0: await this.browseAll(); break;
       case 1: await this.searchByAppId(); break;
@@ -125,71 +69,28 @@ class VerificationSearch {
       case 4: await this.showStatistics(); break;
       case 5: await this.showNeedsVerification(); break;
       case 6: await this.updateVerifications(); break;
-      case 7: this.exit(); break;
+      case 7: this.display.exit(); break;
     }
   }
 
-  async showMenu(title, options) {
-    return new Promise((resolve) => {
-      let selectedIndex = 0;
-      let firstRender = true;
-      
-      const renderMenu = () => {
-        if (!firstRender) {
-          // Clear the menu area by moving cursor up and clearing lines
-          process.stdout.write(`\x1b[${options.length + 4}A`); // Move up
-          process.stdout.write('\x1b[0J'); // Clear from cursor to end of screen
-        }
-        firstRender = false;
-        
-        console.log(`${colors.bright}${title}:${colors.reset}`);
-        console.log('─'.repeat(title.length + 1));
-        
-        options.forEach((option, index) => {
-          if (index === selectedIndex) {
-            console.log(`${colors.bright}${colors.blue}► ${option}${colors.reset}`);
-          } else {
-            console.log(`  ${option}`);
-          }
-        });
-        
-        console.log(`\n${colors.gray}Use ↑↓ arrows to navigate, Enter to select${colors.reset}`);
-      };
-
-      renderMenu();
-
-      const keyHandler = (key) => {
-        if (key === '\u0003') { // Ctrl+C
-          this.exit();
-        } else if (key === '\r') { // Enter
-          process.stdin.removeListener('data', keyHandler);
-          console.log(); // Add newline after selection
-          resolve(selectedIndex);
-        } else if (key === '\u001b[A') { // Up arrow
-          selectedIndex = selectedIndex > 0 ? selectedIndex - 1 : options.length - 1;
-          renderMenu();
-        } else if (key === '\u001b[B') { // Down arrow
-          selectedIndex = selectedIndex < options.length - 1 ? selectedIndex + 1 : 0;
-          renderMenu();
-        }
-      };
-
-      process.stdin.on('data', keyHandler);
-    });
-  }
-
+  /**
+   * Browse all verifications with pagination
+   */
   async browseAll() {
     await this.showVerificationList(this.filteredResults, 'All Verifications');
   }
 
+  /**
+   * Search verifications by app ID
+   */
   async searchByAppId() {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}🔍 Search by App ID${colors.reset}`);
+    console.log(`${COLORS.bright}🔍 Search by App ID${COLORS.reset}`);
     console.log('─'.repeat(18));
     
-    const appId = await this.prompt('Enter app ID (e.g., com.example.app): ');
+    const appId = await this.display.prompt('Enter app ID (e.g., com.example.app): ');
     
     if (appId.trim()) {
       const results = this.verifications.filter(v => 
@@ -201,34 +102,40 @@ class VerificationSearch {
     }
   }
 
+  /**
+   * Filter verifications by verdict
+   */
   async filterByVerdict() {
     const verdicts = [...new Set(this.verifications.map(v => v.status))].sort();
     
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}⚡ Available Verdicts:${colors.reset}`);
+    console.log(`${COLORS.bright}⚡ Available Verdicts:${COLORS.reset}`);
     verdicts.forEach((verdict, i) => {
       const count = this.verifications.filter(v => v.status === verdict).length;
       console.log(`${i + 1}. ${verdict} (${count})`);
     });
     
-    const choice = await this.showMenu('Select Verdict', verdicts.map(v => v));
+    const choice = await this.display.showMenu('Select Verdict', verdicts.map(v => v));
     const selectedVerdict = verdicts[choice];
     
     const results = this.verifications.filter(v => v.status === selectedVerdict);
     await this.showVerificationList(results, `Verifications with verdict: ${selectedVerdict}`);
   }
 
+  /**
+   * Search verifications by date range
+   */
   async searchByDateRange() {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}📅 Search by Date Range${colors.reset}`);
+    console.log(`${COLORS.bright}📅 Search by Date Range${COLORS.reset}`);
     console.log('─'.repeat(23));
     
-    const startDate = await this.prompt('Enter start date (YYYY-MM-DD): ');
-    const endDate = await this.prompt('Enter end date (YYYY-MM-DD): ');
+    const startDate = await this.display.prompt('Enter start date (YYYY-MM-DD): ');
+    const endDate = await this.display.prompt('Enter end date (YYYY-MM-DD): ');
     
     if (startDate.trim() && endDate.trim()) {
       const results = this.verifications.filter(v => 
@@ -240,20 +147,23 @@ class VerificationSearch {
     }
   }
 
+  /**
+   * Display verification statistics
+   */
   async showStatistics() {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}📊 Verification Statistics${colors.reset}`);
+    console.log(`${COLORS.bright}📊 Verification Statistics${COLORS.reset}`);
     console.log('═'.repeat(26));
     
-    // By status
+    // Calculate statistics by status
     const statusCounts = {};
     this.verifications.forEach(v => {
       statusCounts[v.status] = (statusCounts[v.status] || 0) + 1;
     });
     
-    console.log(`\n${colors.bright}📈 By Verdict:${colors.reset}`);
+    console.log(`\n${COLORS.bright}📈 By Verdict:${COLORS.reset}`);
     Object.entries(statusCounts)
       .sort(([,a], [,b]) => b - a)
       .forEach(([status, count]) => {
@@ -261,13 +171,13 @@ class VerificationSearch {
         console.log(`   ${status.padEnd(15)}: ${count.toString().padStart(3)} (${percentage}%)`);
       });
     
-    // By platform
+    // Calculate statistics by platform
     const platformCounts = {};
     this.verifications.forEach(v => {
       platformCounts[v.platform] = (platformCounts[v.platform] || 0) + 1;
     });
     
-    console.log(`\n${colors.bright}📱 By Platform:${colors.reset}`);
+    console.log(`\n${COLORS.bright}📱 By Platform:${COLORS.reset}`);
     Object.entries(platformCounts)
       .sort(([,a], [,b]) => b - a)
       .forEach(([platform, count]) => {
@@ -275,37 +185,63 @@ class VerificationSearch {
         console.log(`   ${platform.padEnd(15)}: ${count.toString().padStart(3)} (${percentage}%)`);
       });
     
-    // Recent activity
+    // Show recent activity
     const lastWeek = new Date();
     lastWeek.setDate(lastWeek.getDate() - 7);
     const recentCount = this.verifications.filter(v => 
       new Date(v.created_at * 1000) > lastWeek
     ).length;
     
-    console.log(`\n${colors.bright}🕒 Recent Activity:${colors.reset}`);
+    console.log(`\n${COLORS.bright}🕒 Recent Activity:${COLORS.reset}`);
     console.log(`   Last 7 days: ${recentCount} verifications`);
     
-    await this.prompt('\nPress Enter to continue...');
+    await this.display.prompt('\nPress Enter to continue...');
     await this.showMainMenu();
   }
 
+  /**
+   * Show apps that need verification
+   */
+  async showNeedsVerification() {
+    // Load markdown apps and analyze verification status
+    const markdownApps = await this.dataLoader.loadMarkdownApps();
+    const needsVerification = this.analyzer.analyzeAppsNeedingVerification(
+      markdownApps, 
+      this.verifications
+    );
+    
+    if (needsVerification.length === 0) {
+      this.display.showSuccess(UI_TEXT.ALL_UP_TO_DATE);
+      await this.display.prompt('\nPress Enter to continue...');
+      await this.showMainMenu();
+      return;
+    }
+    
+    // Use DisplayManager to show the needs verification list
+    await this.display.showNeedsVerificationList(needsVerification, this.analyzer);
+    await this.showMainMenu();
+  }
+
+  /**
+   * Update verifications by running backup script
+   */
   async updateVerifications() {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}🔄 Update Verifications${colors.reset}`);
+    console.log(`${COLORS.bright}🔄 Update Verifications${COLORS.reset}`);
     console.log('═'.repeat(23));
-    console.log(`${colors.yellow}⚠️  This will run the backup script to fetch new verification events from Nostr nodes.${colors.reset}`);
-    console.log(`${colors.gray}Script: scripts/nostr/backupNostrVerificationEvents.mjs${colors.reset}\n`);
+    console.log(`${COLORS.yellow}⚠️  This will run the backup script to fetch new verification events from Nostr nodes.${COLORS.reset}`);
+    console.log(`${COLORS.gray}Script: scripts/nostr/backupNostrVerificationEvents.mjs${COLORS.reset}\n`);
     
-    const confirm = await this.prompt('Do you want to proceed? (y/N): ');
+    const confirm = await this.display.prompt('Do you want to proceed? (y/N): ');
     
     if (confirm.toLowerCase() !== 'y' && confirm.toLowerCase() !== 'yes') {
       await this.showMainMenu();
       return;
     }
     
-    console.log(`\n${colors.cyan}🚀 Starting backup process...${colors.reset}`);
+    console.log(`\n${COLORS.cyan}${UI_TEXT.BACKUP_STARTING}${COLORS.reset}`);
     
     try {
       // Temporarily disable raw mode for the child process
@@ -331,34 +267,39 @@ class VerificationSearch {
       // Re-enable raw mode
       process.stdin.setRawMode(true);
       
-      console.log(`\n${colors.green}✅ Backup completed successfully!${colors.reset}`);
-      console.log(`${colors.cyan}🔄 Reloading verification data...${colors.reset}`);
+      this.display.showSuccess(UI_TEXT.BACKUP_SUCCESS);
+      console.log(`${COLORS.cyan}${UI_TEXT.DATA_RELOADING}${COLORS.reset}`);
       
       // Reload the verifications
       this.verifications = [];
       this.filteredResults = [];
       await this.loadVerifications();
       
-      console.log(`${colors.green}✅ Data reloaded successfully!${colors.reset}`);
-      await this.prompt('\nPress Enter to continue...');
+      this.display.showSuccess(UI_TEXT.DATA_RELOADED);
+      await this.display.prompt('\nPress Enter to continue...');
       
     } catch (error) {
       // Re-enable raw mode in case of error
       process.stdin.setRawMode(true);
       
-      console.log(`\n${colors.red}❌ Error running backup script: ${error.message}${colors.reset}`);
-      await this.prompt('\nPress Enter to continue...');
+      this.display.showError(`Error running backup script: ${error.message}`);
+      await this.display.prompt('\nPress Enter to continue...');
     }
     
     await this.showMainMenu();
   }
 
+  /**
+   * Show paginated list of verifications
+   * @param {Array} verifications - Verifications to display
+   * @param {string} title - List title
+   */
   async showVerificationList(verifications, title) {
     if (verifications.length === 0) {
-      this.clearScreen();
-      this.showHeader();
-      console.log(`${colors.yellow}📭 No verifications found for: ${title}${colors.reset}`);
-      await this.prompt('\nPress Enter to continue...');
+      this.display.clearScreen();
+      this.display.showHeader();
+      console.log(`${COLORS.yellow}📭 No verifications found for: ${title}${COLORS.reset}`);
+      await this.display.prompt('\nPress Enter to continue...');
       await this.showMainMenu();
       return;
     }
@@ -368,10 +309,10 @@ class VerificationSearch {
     const totalPages = Math.ceil(verifications.length / itemsPerPage);
 
     while (true) {
-      this.clearScreen();
-      this.showHeader();
+      this.display.clearScreen();
+      this.display.showHeader();
       
-      console.log(`${colors.bright}📋 ${title}${colors.reset}`);
+      console.log(`${COLORS.bright}📋 ${title}${COLORS.reset}`);
       console.log('═'.repeat(Math.max(title.length, 40)));
       console.log(`Page ${currentPage + 1} of ${totalPages} (${verifications.length} total)\n`);
       
@@ -381,8 +322,8 @@ class VerificationSearch {
       
       pageItems.forEach((verification, index) => {
         const statusColor = this.getStatusColor(verification.status);
-        console.log(`${colors.bright}${startIdx + index + 1}.${colors.reset} ${verification.appId}`);
-        console.log(`   📅 ${verification.date} | ${statusColor}${verification.status}${colors.reset} | v${verification.version} | ${verification.platform}`);
+        console.log(`${COLORS.bright}${startIdx + index + 1}.${COLORS.reset} ${verification.appId}`);
+        console.log(`   📅 ${verification.date} | ${statusColor}${verification.status}${COLORS.reset} | v${verification.version} | ${verification.platform}`);
         console.log(`   👤 ${verification.pubkey} | 📄 ${verification.file.substring(0, 16)}...`);
         console.log();
       });
@@ -392,7 +333,7 @@ class VerificationSearch {
       if (currentPage < totalPages - 1) options.push('▶ Next Page');
       options.push('🔍 View Details', '🔙 Back to Main Menu');
       
-      const choice = await this.showMenu('Navigation', options);
+      const choice = await this.display.showMenu('Navigation', options);
       
       let optionIndex = 0;
       if (currentPage > 0) {
@@ -421,39 +362,48 @@ class VerificationSearch {
     }
   }
 
+  /**
+   * Let user select a verification from the current page
+   * @param {Array} verifications - Verifications to choose from
+   * @returns {Promise<number>} Selected verification index or -1 for back
+   */
   async selectVerification(verifications) {
     const options = verifications.map((v, i) => 
       `${i + 1}. ${v.appId} (${v.date}) - ${v.status}`
     );
     options.push('🔙 Back');
     
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    const choice = await this.showMenu('Select Verification to View', options);
+    const choice = await this.display.showMenu('Select Verification to View', options);
     return choice === options.length - 1 ? -1 : choice;
   }
 
+  /**
+   * Display detailed information about a verification
+   * @param {Object} verification - Verification to display
+   */
   async showVerificationDetails(verification) {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}📄 Verification Details${colors.reset}`);
+    console.log(`${COLORS.bright}📄 Verification Details${COLORS.reset}`);
     console.log('═'.repeat(24));
     
     const statusColor = this.getStatusColor(verification.status);
     
-    console.log(`${colors.bright}App ID:${colors.reset}      ${verification.appId}`);
-    console.log(`${colors.bright}Version:${colors.reset}     ${verification.version}`);
-    console.log(`${colors.bright}Platform:${colors.reset}    ${verification.platform}`);
-    console.log(`${colors.bright}Date:${colors.reset}        ${verification.date}`);
-    console.log(`${colors.bright}Status:${colors.reset}      ${statusColor}${verification.status}${colors.reset}`);
-    console.log(`${colors.bright}Author:${colors.reset}      ${verification.pubkey}`);
-    console.log(`${colors.bright}Event ID:${colors.reset}    ${verification.id}`);
-    console.log(`${colors.bright}File:${colors.reset}        ${verification.file}`);
+    console.log(`${COLORS.bright}App ID:${COLORS.reset}      ${verification.appId}`);
+    console.log(`${COLORS.bright}Version:${COLORS.reset}     ${verification.version}`);
+    console.log(`${COLORS.bright}Platform:${COLORS.reset}    ${verification.platform}`);
+    console.log(`${COLORS.bright}Date:${COLORS.reset}        ${verification.date}`);
+    console.log(`${COLORS.bright}Status:${COLORS.reset}      ${statusColor}${verification.status}${COLORS.reset}`);
+    console.log(`${COLORS.bright}Author:${COLORS.reset}      ${verification.pubkey}`);
+    console.log(`${COLORS.bright}Event ID:${COLORS.reset}    ${verification.id}`);
+    console.log(`${COLORS.bright}File:${COLORS.reset}        ${verification.file}`);
     
     if (verification.content) {
-      console.log(`\n${colors.bright}📝 Content Preview:${colors.reset}`);
+      console.log(`\n${COLORS.bright}📝 Content Preview:${COLORS.reset}`);
       console.log('─'.repeat(20));
       
       let content = verification.content;
@@ -470,20 +420,20 @@ class VerificationSearch {
       const preview = content.substring(0, 500);
       console.log(preview);
       if (content.length > 500) {
-        console.log(`${colors.gray}... (truncated, ${content.length - 500} more characters)${colors.reset}`);
+        console.log(`${COLORS.gray}... (truncated, ${content.length - 500} more characters)${COLORS.reset}`);
       }
     }
     
     const options = ['📋 Show Full Content', '📄 Open File', '🔙 Back'];
-    const choice = await this.showMenu('Actions', options);
+    const choice = await this.display.showMenu('Actions', options);
     
     switch(choice) {
       case 0:
         await this.showFullContent(verification);
         break;
       case 1:
-        console.log(`\n${colors.cyan}File location: ${path.join(BACKUP_DIR, verification.file)}${colors.reset}`);
-        await this.prompt('Press Enter to continue...');
+        console.log(`\n${COLORS.cyan}File location: ${verification.file}${COLORS.reset}`);
+        await this.display.prompt('Press Enter to continue...');
         await this.showVerificationDetails(verification);
         break;
       case 2:
@@ -491,11 +441,15 @@ class VerificationSearch {
     }
   }
 
+  /**
+   * Show full content of a verification
+   * @param {Object} verification - Verification to display content for
+   */
   async showFullContent(verification) {
-    this.clearScreen();
-    this.showHeader();
+    this.display.clearScreen();
+    this.display.showHeader();
     
-    console.log(`${colors.bright}📄 Full Content - ${verification.appId}${colors.reset}`);
+    console.log(`${COLORS.bright}📄 Full Content - ${verification.appId}${COLORS.reset}`);
     console.log('═'.repeat(40));
     
     let content = verification.content;
@@ -520,430 +474,45 @@ class VerificationSearch {
     
     console.log(content);
     
-    await this.prompt('\nPress Enter to continue...');
+    await this.display.prompt('\nPress Enter to continue...');
     await this.showVerificationDetails(verification);
   }
 
+  /**
+   * Get color for verification status
+   * @param {string} status - Verification status
+   * @returns {string} ANSI color codes
+   */
   getStatusColor(status) {
     switch (status?.toLowerCase()) {
-      case 'reproducible': return colors.green;
-      case 'ftbfs': return colors.red;
-      case 'nonverifiable': return colors.yellow;
-      case 'wip': return colors.blue;
-      default: return colors.gray;
+      case 'reproducible': return COLORS.green;
+      case 'ftbfs': return COLORS.red;
+      case 'nonverifiable': return COLORS.yellow;
+      case 'wip': return COLORS.blue;
+      default: return COLORS.gray;
     }
-  }
-
-  async prompt(question) {
-    return new Promise((resolve) => {
-      // Temporarily disable raw mode for text input
-      process.stdin.setRawMode(false);
-      
-      this.rl.question(question, (answer) => {
-        // Re-enable raw mode
-        process.stdin.setRawMode(true);
-        resolve(answer);
-      });
-    });
-  }
-
-  async loadMarkdownApps() {
-    const apps = [];
-    
-    for (const platform of PLATFORM_FOLDERS) {
-      const platformPath = path.join('.', platform);
-      
-      if (!fs.existsSync(platformPath)) {
-        continue;
-      }
-      
-      const files = fs.readdirSync(platformPath).filter(f => f.endsWith('.md'));
-      
-      for (const file of files) {
-        try {
-          const filePath = path.join(platformPath, file);
-          const content = fs.readFileSync(filePath, 'utf8');
-          
-          // Extract frontmatter
-          const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
-          if (!frontmatterMatch) continue;
-          
-          const frontmatter = frontmatterMatch[1];
-          const appIdMatch = frontmatter.match(/^appId:\s*(.+)$/m);
-          const versionMatch = frontmatter.match(/^version:\s*(.+)$/m);
-          const verdictMatch = frontmatter.match(/^verdict:\s*(.+)$/m);
-          const metaMatch = frontmatter.match(/^meta:\s*(.+)$/m);
-          
-          if (appIdMatch && versionMatch && verdictMatch && metaMatch) {
-            const appId = appIdMatch[1].trim();
-            const version = versionMatch[1].trim();
-            const verdict = verdictMatch[1].trim();
-            const meta = metaMatch[1].trim();
-            
-            // Only include apps with verdict: sourceavailable AND meta: ok OR meta: stale
-            if (verdict === 'sourceavailable' && (meta === 'ok' || meta === 'stale')) {
-              apps.push({
-                appId,
-                version,
-                platform: platform.replace('_', ''),
-                file: filePath,
-                verdict,
-                meta
-              });
-            }
-          }
-        } catch (error) {
-          console.log(`${colors.yellow}⚠️  Error reading ${file}: ${error.message}${colors.reset}`);
-        }
-      }
-    }
-    
-    return apps;
-  }
-
-  async showNeedsVerification() {
-    this.clearScreen();
-    this.showHeader();
-    
-    console.log(`${colors.cyan}📂 Loading markdown files...${colors.reset}`);
-    const markdownApps = await this.loadMarkdownApps();
-    
-    console.log(`${colors.cyan}🔍 Analyzing verification status...${colors.reset}\n`);
-    
-    const needsVerification = [];
-    
-    for (const app of markdownApps) {
-      // Find latest verification for this app
-      const appVerifications = this.verifications.filter(v => v.appId === app.appId);
-      
-      if (appVerifications.length === 0) {
-        // No verifications found - high priority
-        needsVerification.push({
-          ...app,
-          latestVerifiedVersion: 'None',
-          statusType: 'needs_verification',
-          statusMessage: 'No verifications found',
-          priority: 1,
-          lastVerificationDate: null
-        });
-      } else {
-        // Find latest verification by date
-        const latestVerification = appVerifications.sort((a, b) => b.created_at - a.created_at)[0];
-        
-        // Compare versions
-        if (latestVerification.version !== app.version) {
-          // Determine if markdown version is newer (medium priority) or older (low priority)
-          const isMarkdownNewer = this.compareVersions(app.version, latestVerification.version) > 0;
-          
-          if (isMarkdownNewer) {
-            // Markdown version is newer - medium priority (needs verification)
-            needsVerification.push({
-              ...app,
-              latestVerifiedVersion: latestVerification.version,
-              statusType: 'update_needed',
-              statusMessage: 'Update needed',
-              priority: 2,
-              lastVerificationDate: latestVerification.created_at
-            });
-          } else {
-            // Nostr version is newer - low priority (version mismatch)
-            needsVerification.push({
-              ...app,
-              latestVerifiedVersion: latestVerification.version,
-              statusType: 'version_mismatch',
-              statusMessage: 'Version mismatch',
-              priority: 3,
-              lastVerificationDate: latestVerification.created_at
-            });
-          }
-        }
-      }
-    }
-    
-    if (needsVerification.length === 0) {
-      console.log(`${colors.green}✅ All apps are up to date with verifications!${colors.reset}`);
-      await this.prompt('\nPress Enter to continue...');
-      await this.showMainMenu();
-      return;
-    }
-    
-    // Sort by priority, then platform, then by appId
-    needsVerification.sort((a, b) => {
-      if (a.priority !== b.priority) {
-        return a.priority - b.priority;
-      }
-      if (a.platform !== b.platform) {
-        return a.platform.localeCompare(b.platform);
-      }
-      return a.appId.localeCompare(b.appId);
-    });
-    
-    await this.showNeedsVerificationList(needsVerification);
-  }
-
-  compareVersions(version1, version2) {
-    // Simple version comparison - converts to numbers when possible
-    // Returns: 1 if version1 > version2, -1 if version1 < version2, 0 if equal
-    
-    const v1Parts = version1.replace(/['"]/g, '').split('.').map(part => {
-      const num = parseInt(part);
-      return isNaN(num) ? part : num;
-    });
-    
-    const v2Parts = version2.replace(/['"]/g, '').split('.').map(part => {
-      const num = parseInt(part);
-      return isNaN(num) ? part : num;
-    });
-    
-    const maxLength = Math.max(v1Parts.length, v2Parts.length);
-    
-    for (let i = 0; i < maxLength; i++) {
-      const v1Part = v1Parts[i] || 0;
-      const v2Part = v2Parts[i] || 0;
-      
-      if (typeof v1Part === 'number' && typeof v2Part === 'number') {
-        if (v1Part > v2Part) return 1;
-        if (v1Part < v2Part) return -1;
-      } else {
-        const str1 = v1Part.toString();
-        const str2 = v2Part.toString();
-        if (str1 > str2) return 1;
-        if (str1 < str2) return -1;
-      }
-    }
-    
-    return 0;
-  }
-
-  async showNeedsVerificationList(apps) {
-    let currentPage = 0;
-    const itemsPerPage = 10;
-    let sortedApps = [...apps]; // Create a copy for sorting
-    let currentSortMethod = 'priority'; // Default sort
-    
-    // Calculate summary statistics
-    const platformStats = this.calculatePlatformStats(apps);
-    const oldestApp = this.findOldestUnverified(apps);
-    const mostRecentApp = this.findMostRecentlyVerified(apps);
-
-    while (true) {
-      const totalPages = Math.ceil(sortedApps.length / itemsPerPage);
-      
-      this.clearScreen();
-      this.showHeader();
-      
-      console.log(`${colors.bright}🚨 Apps Needing Verification${colors.reset}`);
-      console.log('═'.repeat(30));
-      console.log(`Page ${currentPage + 1} of ${totalPages} (${sortedApps.length} total)\n`);
-      
-      // Show summary statistics
-      console.log(`${colors.bright}📊 Summary:${colors.reset}`);
-      console.log(`   ${platformStats.android} apps need verification in android, ${platformStats.bearer} in bearer, ${platformStats.desktop} in desktop, ${platformStats.hardware} in hardware`);
-      if (oldestApp) {
-        console.log(`   ${colors.bright}Oldest needs verification:${colors.reset} ${oldestApp.appId}`);
-      }
-      if (mostRecentApp) {
-        console.log(`   ${colors.bright}Most recently verified:${colors.reset} ${mostRecentApp.appId}`);
-      }
-      console.log();
-      
-      // Show sorting options
-      console.log(`${colors.bright}🔄 Sorting Options:${colors.reset}`);
-      console.log(`   Current sort: ${colors.cyan}${this.getSortMethodName(currentSortMethod)}${colors.reset}`);
-      console.log(`   1. By platform  2. By date of last verification\n`);
-      
-      const startIdx = currentPage * itemsPerPage;
-      const endIdx = Math.min(startIdx + itemsPerPage, sortedApps.length);
-      const pageItems = sortedApps.slice(startIdx, endIdx);
-      
-      pageItems.forEach((app, index) => {
-        const statusColor = this.getStatusColor(app.statusType);
-        console.log(`${colors.bright}${startIdx + index + 1}.${colors.reset} ${app.appId}`);
-        console.log(`   ${colors.bright}Platform:${colors.reset} ${app.platform}`);
-        console.log(`   ${colors.bright}Latest version available:${colors.reset} ${app.version}`);
-        console.log(`   ${colors.bright}Latest version verified in nostr:${colors.reset} ${app.latestVerifiedVersion}`);
-        console.log(`   ${colors.bright}Status:${colors.reset} ${statusColor}${app.statusMessage}${colors.reset}`);
-        console.log();
-      });
-      
-      const options = [];
-      options.push('1️⃣ Sort by Platform');
-      options.push('2️⃣ Sort by Date of Last Verification');
-      if (currentPage > 0) options.push('◀ Previous Page');
-      if (currentPage < totalPages - 1) options.push('▶ Next Page');
-      options.push('🔙 Back to Main Menu');
-      
-      const choice = await this.showMenu('Options', options);
-      
-      let optionIndex = 0;
-      
-      // Sort by platform
-      if (choice === optionIndex++) {
-        sortedApps = this.sortAppsByPlatform([...apps]);
-        currentSortMethod = 'platform';
-        currentPage = 0;
-        continue;
-      }
-      
-      // Sort by date of last verification
-      if (choice === optionIndex++) {
-        sortedApps = this.sortAppsByDate([...apps]);
-        currentSortMethod = 'date';
-        currentPage = 0;
-        continue;
-      }
-      
-      // Previous page
-      if (currentPage > 0) {
-        if (choice === optionIndex++) {
-          currentPage--;
-          continue;
-        }
-      }
-      
-      // Next page
-      if (currentPage < totalPages - 1) {
-        if (choice === optionIndex++) {
-          currentPage++;
-          continue;
-        }
-      }
-      
-      // Back to main menu
-      if (choice === optionIndex++) {
-        await this.showMainMenu();
-        return;
-      }
-    }
-  }
-
-  getSortMethodName(method) {
-    switch (method) {
-      case 'platform': return 'By Platform';
-      case 'date': return 'By Date of Last Verification';
-      case 'priority': return 'By Priority (Default)';
-      default: return 'Unknown';
-    }
-  }
-
-  sortAppsByPlatform(apps) {
-    return apps.sort((a, b) => {
-      if (a.platform !== b.platform) {
-        return a.platform.localeCompare(b.platform);
-      }
-      // Secondary sort by priority, then appId
-      if (a.priority !== b.priority) {
-        return a.priority - b.priority;
-      }
-      return a.appId.localeCompare(b.appId);
-    });
-  }
-
-  sortAppsByDate(apps) {
-    return apps.sort((a, b) => {
-      // Never verified apps (null) come first
-      if (a.lastVerificationDate === null && b.lastVerificationDate === null) {
-        return a.appId.localeCompare(b.appId);
-      }
-      if (a.lastVerificationDate === null) return -1;
-      if (b.lastVerificationDate === null) return 1;
-      
-      // Sort by date (oldest first)
-      if (a.lastVerificationDate !== b.lastVerificationDate) {
-        return a.lastVerificationDate - b.lastVerificationDate;
-      }
-      
-      // Secondary sort by appId
-      return a.appId.localeCompare(b.appId);
-    });
-  }
-
-  calculatePlatformStats(apps) {
-    const stats = { android: 0, bearer: 0, desktop: 0, hardware: 0 };
-    
-    apps.forEach(app => {
-      if (stats.hasOwnProperty(app.platform)) {
-        stats[app.platform]++;
-      }
-    });
-    
-    return stats;
-  }
-
-  findOldestUnverified(apps) {
-    // Find app with earliest lastVerificationDate (or null for never verified)
-    let oldest = null;
-    let oldestDate = Infinity;
-    
-    apps.forEach(app => {
-      if (app.lastVerificationDate === null) {
-        return app; // Never verified - this is the oldest
-      }
-      
-      if (app.lastVerificationDate < oldestDate) {
-        oldestDate = app.lastVerificationDate;
-        oldest = app;
-      }
-    });
-    
-    // Prefer never-verified apps
-    const neverVerified = apps.find(app => app.lastVerificationDate === null);
-    return neverVerified || oldest;
-  }
-
-  findMostRecentlyVerified(apps) {
-    // Find app with latest lastVerificationDate
-    let mostRecent = null;
-    let mostRecentDate = 0;
-    
-    apps.forEach(app => {
-      if (app.lastVerificationDate && app.lastVerificationDate > mostRecentDate) {
-        mostRecentDate = app.lastVerificationDate;
-        mostRecent = app;
-      }
-    });
-    
-    return mostRecent;
-  }
-
-  getStatusColor(statusType) {
-    switch (statusType) {
-      case 'needs_verification':
-        return `${colors.bright}${colors.green}`;
-      case 'update_needed':
-        return `${colors.bright}${colors.yellow}`;
-      case 'version_mismatch':
-        return `${colors.bright}${colors.red}`;
-      default:
-        return colors.gray;
-    }
-  }
-
-  exit() {
-    this.clearScreen();
-    console.log(`\n${colors.cyan}👋 Thank you for using Verification Search Tool!${colors.reset}`);
-    this.rl.close();
-    process.stdin.setRawMode(false);
-    process.stdin.resume();
-    process.exit(0);
   }
 }
 
-// Main execution
+/**
+ * Main execution function
+ * Initializes the application and handles graceful shutdown
+ */
 async function main() {
   const search = new VerificationSearch();
   
   // Handle process termination gracefully
-  process.on('SIGINT', () => search.exit());
-  process.on('SIGTERM', () => search.exit());
+  process.on('SIGINT', () => search.display.exit());
+  process.on('SIGTERM', () => search.display.exit());
   
   try {
     await search.loadVerifications();
     await search.showMainMenu();
   } catch (error) {
-    console.error(`${colors.red}❌ Error: ${error.message}${colors.reset}`);
-    search.exit();
+    search.display.showError(`Error: ${error.message}`);
+    search.display.exit();
   }
 }
 
+// Start the application
 main();
