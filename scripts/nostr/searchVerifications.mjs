@@ -3,6 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import readline from 'readline';
+import { spawn } from 'child_process';
 
 const BACKUP_DIR = './backup/nostr-verification-events/30301';
 
@@ -102,6 +103,7 @@ class VerificationSearch {
       '⚡ Filter by Verdict',
       '📅 Search by Date Range',
       '🏆 Show Statistics',
+      '🔄 Update Verifications by Backing Up Nostr Verifications from Nodes',
       '❌ Exit'
     ];
 
@@ -119,7 +121,8 @@ class VerificationSearch {
       case 2: await this.filterByVerdict(); break;
       case 3: await this.searchByDateRange(); break;
       case 4: await this.showStatistics(); break;
-      case 5: this.exit(); break;
+      case 5: await this.updateVerifications(); break;
+      case 6: this.exit(); break;
     }
   }
 
@@ -280,6 +283,70 @@ class VerificationSearch {
     console.log(`   Last 7 days: ${recentCount} verifications`);
     
     await this.prompt('\nPress Enter to continue...');
+    await this.showMainMenu();
+  }
+
+  async updateVerifications() {
+    this.clearScreen();
+    this.showHeader();
+    
+    console.log(`${colors.bright}🔄 Update Verifications${colors.reset}`);
+    console.log('═'.repeat(23));
+    console.log(`${colors.yellow}⚠️  This will run the backup script to fetch new verification events from Nostr nodes.${colors.reset}`);
+    console.log(`${colors.gray}Script: scripts/nostr/backupNostrVerificationEvents.mjs${colors.reset}\n`);
+    
+    const confirm = await this.prompt('Do you want to proceed? (y/N): ');
+    
+    if (confirm.toLowerCase() !== 'y' && confirm.toLowerCase() !== 'yes') {
+      await this.showMainMenu();
+      return;
+    }
+    
+    console.log(`\n${colors.cyan}🚀 Starting backup process...${colors.reset}`);
+    
+    try {
+      // Temporarily disable raw mode for the child process
+      process.stdin.setRawMode(false);
+      
+      const child = spawn('node', ['scripts/nostr/backupNostrVerificationEvents.mjs'], {
+        stdio: 'inherit',
+        cwd: process.cwd()
+      });
+      
+      await new Promise((resolve, reject) => {
+        child.on('close', (code) => {
+          if (code === 0) {
+            resolve();
+          } else {
+            reject(new Error(`Backup script exited with code ${code}`));
+          }
+        });
+        
+        child.on('error', reject);
+      });
+      
+      // Re-enable raw mode
+      process.stdin.setRawMode(true);
+      
+      console.log(`\n${colors.green}✅ Backup completed successfully!${colors.reset}`);
+      console.log(`${colors.cyan}🔄 Reloading verification data...${colors.reset}`);
+      
+      // Reload the verifications
+      this.verifications = [];
+      this.filteredResults = [];
+      await this.loadVerifications();
+      
+      console.log(`${colors.green}✅ Data reloaded successfully!${colors.reset}`);
+      await this.prompt('\nPress Enter to continue...');
+      
+    } catch (error) {
+      // Re-enable raw mode in case of error
+      process.stdin.setRawMode(true);
+      
+      console.log(`\n${colors.red}❌ Error running backup script: ${error.message}${colors.reset}`);
+      await this.prompt('\nPress Enter to continue...');
+    }
+    
     await this.showMainMenu();
   }
 
