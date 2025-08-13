@@ -6,6 +6,7 @@ import readline from 'readline';
 import { spawn } from 'child_process';
 
 const BACKUP_DIR = './backup/nostr-verification-events/30301';
+const PLATFORM_FOLDERS = ['_android', '_iphone', '_bearer', '_desktop', '_hardware'];
 
 // ANSI color codes
 const colors = {
@@ -103,6 +104,7 @@ class VerificationSearch {
       '⚡ Filter by Verdict',
       '📅 Search by Date Range',
       '🏆 Show Statistics',
+      '🚨 Needs Verification',
       '🔄 Update Verifications by Backing Up Nostr Verifications from Nodes',
       '❌ Exit'
     ];
@@ -121,8 +123,9 @@ class VerificationSearch {
       case 2: await this.filterByVerdict(); break;
       case 3: await this.searchByDateRange(); break;
       case 4: await this.showStatistics(); break;
-      case 5: await this.updateVerifications(); break;
-      case 6: this.exit(); break;
+      case 5: await this.showNeedsVerification(); break;
+      case 6: await this.updateVerifications(); break;
+      case 7: this.exit(); break;
     }
   }
 
@@ -542,6 +545,168 @@ class VerificationSearch {
         resolve(answer);
       });
     });
+  }
+
+  async loadMarkdownApps() {
+    const apps = [];
+    
+    for (const platform of PLATFORM_FOLDERS) {
+      const platformPath = path.join('.', platform);
+      
+      if (!fs.existsSync(platformPath)) {
+        continue;
+      }
+      
+      const files = fs.readdirSync(platformPath).filter(f => f.endsWith('.md'));
+      
+      for (const file of files) {
+        try {
+          const filePath = path.join(platformPath, file);
+          const content = fs.readFileSync(filePath, 'utf8');
+          
+          // Extract frontmatter
+          const frontmatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
+          if (!frontmatterMatch) continue;
+          
+          const frontmatter = frontmatterMatch[1];
+          const appIdMatch = frontmatter.match(/^appId:\s*(.+)$/m);
+          const versionMatch = frontmatter.match(/^version:\s*(.+)$/m);
+          const verdictMatch = frontmatter.match(/^verdict:\s*(.+)$/m);
+          const metaMatch = frontmatter.match(/^meta:\s*(.+)$/m);
+          
+          if (appIdMatch && versionMatch && verdictMatch && metaMatch) {
+            const appId = appIdMatch[1].trim();
+            const version = versionMatch[1].trim();
+            const verdict = verdictMatch[1].trim();
+            const meta = metaMatch[1].trim();
+            
+            // Only include apps with verdict: sourceavailable AND meta: ok OR meta: stale
+            if (verdict === 'sourceavailable' && (meta === 'ok' || meta === 'stale')) {
+              apps.push({
+                appId,
+                version,
+                platform: platform.replace('_', ''),
+                file: filePath,
+                verdict,
+                meta
+              });
+            }
+          }
+        } catch (error) {
+          console.log(`${colors.yellow}⚠️  Error reading ${file}: ${error.message}${colors.reset}`);
+        }
+      }
+    }
+    
+    return apps;
+  }
+
+  async showNeedsVerification() {
+    this.clearScreen();
+    this.showHeader();
+    
+    console.log(`${colors.cyan}📂 Loading markdown files...${colors.reset}`);
+    const markdownApps = await this.loadMarkdownApps();
+    
+    console.log(`${colors.cyan}🔍 Analyzing verification status...${colors.reset}\n`);
+    
+    const needsVerification = [];
+    
+    for (const app of markdownApps) {
+      // Find latest verification for this app
+      const appVerifications = this.verifications.filter(v => v.appId === app.appId);
+      
+      if (appVerifications.length === 0) {
+        // No verifications found - needs verification
+        needsVerification.push({
+          ...app,
+          latestVerifiedVersion: 'None',
+          statusMessage: 'No verifications found'
+        });
+      } else {
+        // Find latest verification by date
+        const latestVerification = appVerifications.sort((a, b) => b.created_at - a.created_at)[0];
+        
+        // Compare versions (simple string comparison for now)
+        if (latestVerification.version !== app.version) {
+          needsVerification.push({
+            ...app,
+            latestVerifiedVersion: latestVerification.version,
+            statusMessage: 'Version mismatch'
+          });
+        }
+      }
+    }
+    
+    if (needsVerification.length === 0) {
+      console.log(`${colors.green}✅ All apps are up to date with verifications!${colors.reset}`);
+      await this.prompt('\nPress Enter to continue...');
+      await this.showMainMenu();
+      return;
+    }
+    
+    // Sort by platform then by appId
+    needsVerification.sort((a, b) => {
+      if (a.platform !== b.platform) {
+        return a.platform.localeCompare(b.platform);
+      }
+      return a.appId.localeCompare(b.appId);
+    });
+    
+    await this.showNeedsVerificationList(needsVerification);
+  }
+
+  async showNeedsVerificationList(apps) {
+    let currentPage = 0;
+    const itemsPerPage = 10;
+    const totalPages = Math.ceil(apps.length / itemsPerPage);
+
+    while (true) {
+      this.clearScreen();
+      this.showHeader();
+      
+      console.log(`${colors.bright}🚨 Apps Needing Verification${colors.reset}`);
+      console.log('═'.repeat(30));
+      console.log(`Page ${currentPage + 1} of ${totalPages} (${apps.length} total)\n`);
+      
+      const startIdx = currentPage * itemsPerPage;
+      const endIdx = Math.min(startIdx + itemsPerPage, apps.length);
+      const pageItems = apps.slice(startIdx, endIdx);
+      
+      pageItems.forEach((app, index) => {
+        console.log(`${colors.bright}${startIdx + index + 1}.${colors.reset} ${app.appId}`);
+        console.log(`   ${colors.bright}Platform:${colors.reset} ${app.platform}`);
+        console.log(`   ${colors.bright}Latest version available:${colors.reset} ${app.version}`);
+        console.log(`   ${colors.bright}Latest version verified in nostr:${colors.reset} ${app.latestVerifiedVersion}`);
+        console.log(`   ${colors.bright}Status:${colors.reset} ${colors.bright}${colors.green}Needs verification${colors.reset}`);
+        console.log();
+      });
+      
+      const options = [];
+      if (currentPage > 0) options.push('◀ Previous Page');
+      if (currentPage < totalPages - 1) options.push('▶ Next Page');
+      options.push('🔙 Back to Main Menu');
+      
+      const choice = await this.showMenu('Navigation', options);
+      
+      let optionIndex = 0;
+      if (currentPage > 0) {
+        if (choice === optionIndex++) {
+          currentPage--;
+          continue;
+        }
+      }
+      if (currentPage < totalPages - 1) {
+        if (choice === optionIndex++) {
+          currentPage++;
+          continue;
+        }
+      }
+      if (choice === optionIndex++) {
+        await this.showMainMenu();
+        return;
+      }
+    }
   }
 
   exit() {
