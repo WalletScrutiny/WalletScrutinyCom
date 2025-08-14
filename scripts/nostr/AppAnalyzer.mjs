@@ -6,9 +6,7 @@
 import { 
   STATUS_TYPES, 
   PRIORITIES, 
-  SORT_METHODS,
-  COLORS,
-  UI_TEXT 
+  SORT_METHODS
 } from './Constants.mjs';
 
 export class AppAnalyzer {
@@ -19,7 +17,6 @@ export class AppAnalyzer {
    * @returns {Array} Array of apps that need verification with analysis results
    */
   analyzeAppsNeedingVerification(markdownApps, verifications) {
-    console.log(`${COLORS.cyan}${UI_TEXT.ANALYZING_STATUS}${COLORS.reset}\n`);
     
     const needsVerification = [];
     
