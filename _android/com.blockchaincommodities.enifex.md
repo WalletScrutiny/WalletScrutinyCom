@@ -7,8 +7,8 @@ users: 100
 appId: com.blockchaincommodities.enifex
 appCountry: 
 released: 2022-12-14
-updated: 2025-07-16
-version: 1.4.0
+updated: 2025-08-11
+version: 1.4.1
 stars: 
 ratings: 
 reviews: 

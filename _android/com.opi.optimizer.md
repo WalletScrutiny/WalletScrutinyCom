@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.opi.optimizer.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-08-23
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

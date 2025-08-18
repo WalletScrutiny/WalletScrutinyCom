@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptotrading.inx
 appCountry: 
 released: 2022-06-11
-updated: 2025-07-09
-version: 2.0.10
+updated: 2025-08-12
+version: 2.0.11
 stars: 4.5
 ratings: 
 reviews: 17

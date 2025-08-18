@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.kamix.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-17
+date: 2025-08-18
 signer: 
 twitter: KamixApp
 social:

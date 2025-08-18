@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.qm.bitdata.bitexotc.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-09-08
+date: 2025-08-18
 signer: 
 twitter: BitDATAExchange
 social:

@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: 3.9.04
 stars: 3.9
 ratings: 2855
-reviews: 5578
+reviews: 5580
 website: https://brasilbitcoin.com.br
 repository: 
 issue: 

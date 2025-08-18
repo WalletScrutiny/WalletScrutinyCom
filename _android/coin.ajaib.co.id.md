@@ -8,11 +8,11 @@ users: 1000000
 appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
-updated: 2025-08-01
-version: 2.77.0
-stars: 4.4
+updated: 2025-08-14
+version: 2.78.0
+stars: 4.3
 ratings: 
-reviews: 35
+reviews: 34
 website: https://kripto.ajaib.co.id/
 repository: 
 issue: 

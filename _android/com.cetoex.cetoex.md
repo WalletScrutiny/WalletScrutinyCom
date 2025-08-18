@@ -8,7 +8,7 @@ users: 10000
 appId: com.cetoex.cetoex
 appCountry: 
 released: 2022-08-13
-updated: 2025-07-13
+updated: 2025-08-14
 version: 1.0.1
 stars: 3.9
 ratings: 

@@ -8,8 +8,8 @@ users: 500000
 appId: com.chainapsis.keplr
 appCountry: 
 released: 2021-10-01
-updated: 2025-08-07
-version: 2.1.68
+updated: 2025-08-14
+version: 2.1.71
 stars: 4
 ratings: 
 reviews: 192
@@ -26,7 +26,7 @@ signer:
 twitter: keplrwallet
 social: 
 redirect_from: 
-developerName: Keplr
+developerName: Team Keplr
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-07-02
 version: 7.2.0
 stars: 4.7
 ratings: 658
-reviews: 384
+reviews: 387
 website: http://www.99pay.kr/
 repository: 
 issue: 

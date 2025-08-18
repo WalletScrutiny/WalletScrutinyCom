@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.secux.firmwareupdate.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-08-16
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

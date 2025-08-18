@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.moonpos.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-07-01
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

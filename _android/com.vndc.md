@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Buy Bitcoin, PI & Crypto'
+title: 'ONUS: Buy Bitcoin,ETH & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2025-08-09
-version: 6.2.3
+updated: 2025-08-18
+version: 6.2.6
 stars: 4.9
 ratings: 46866
 reviews: 1377

@@ -10,8 +10,8 @@ users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2025-08-06
-version: 0.43.3
+updated: 2025-08-17
+version: 0.44.0
 stars: 4.4
 ratings: 556
 reviews: 113

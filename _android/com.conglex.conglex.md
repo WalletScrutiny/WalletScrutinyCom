@@ -8,8 +8,8 @@ users: 10000
 appId: com.conglex.conglex
 appCountry: 
 released: 2022-05-12
-updated: 2025-07-02
-version: 2.0.3
+updated: 2025-08-14
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 

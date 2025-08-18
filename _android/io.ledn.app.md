@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.ledn.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-08-19
+date: 2025-08-18
 signer: 
 twitter: hodlwithLedn
 social:

@@ -12,7 +12,7 @@ updated: 2024-07-26
 version: 8.3.6
 stars: 4.2
 ratings: 
-reviews: 33
+reviews: 32
 website: https://openfi.world/
 repository: 
 issue: 

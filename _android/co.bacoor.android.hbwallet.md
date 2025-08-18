@@ -8,8 +8,8 @@ users: 100000
 appId: co.bacoor.android.hbwallet
 appCountry: us
 released: 2017-07-17
-updated: 2025-07-02
-version: 5.0.0
+updated: 2025-08-15
+version: 5.1.1
 stars: 4.5
 ratings: 2137
 reviews: 49

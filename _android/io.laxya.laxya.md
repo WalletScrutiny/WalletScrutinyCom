@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.laxya.laxya.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2025-04-01
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

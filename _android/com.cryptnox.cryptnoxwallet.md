@@ -8,8 +8,8 @@ users: 1000
 appId: com.cryptnox.cryptnoxwallet
 appCountry: 
 released: 2023-09-29
-updated: 2025-04-04
-version: 2.6.8
+updated: 2025-08-16
+version: 2.9.1
 stars: 
 ratings: 
 reviews: 

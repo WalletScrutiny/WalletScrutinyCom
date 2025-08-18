@@ -12,7 +12,7 @@ updated: 2025-07-23
 version: 25.7.2
 stars: 3.1
 ratings: 
-reviews: 88
+reviews: 89
 website: https://trezor.io
 repository: 
 issue: 

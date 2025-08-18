@@ -6,13 +6,13 @@ authors:
 - danny
 - basantagoswami
 - keraliss
-users: 1000
+users: 5000
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07
-updated: 2025-06-13
-version: 1.1.2
-stars: 4.4
+updated: 2025-08-13
+version: 1.1.3
+stars: 4.3
 ratings: 
 reviews: 2
 website: https://bitkit.to/

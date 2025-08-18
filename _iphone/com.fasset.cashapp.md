@@ -1,6 +1,6 @@
 ---
 wsId: fassetCrypto
-title: Fasset - Buy Digital Assets
+title: 'Fasset: Invest, Earn and Spend'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.fasset.cashapp
 appCountry: us
 idd: '1599893605'
 released: 2021-12-14
-updated: 2025-07-29
-version: '3.34'
+updated: 2025-08-15
+version: '3.35'
 stars: 3.3
 reviews: 12
 website: https://fasset.io/

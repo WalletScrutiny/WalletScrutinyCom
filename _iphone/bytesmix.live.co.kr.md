@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: bytesmix.live.co.kr.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-04-22
+date: 2025-08-18
 signer: 
 twitter: bytesmix
 social:

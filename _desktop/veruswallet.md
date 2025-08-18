@@ -6,7 +6,7 @@ authors:
 released: 2019-12-16
 discontinued: 
 updated: 2025-04-09
-version: 1.2.10
+version: 1.2.10-1
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: veruswallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-07-18
+date: 2025-08-14
 twitter: veruscoin
 social: 
 features: 

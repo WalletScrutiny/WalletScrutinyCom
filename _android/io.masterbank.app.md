@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.masterbank.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-08-19
+date: 2025-08-18
 signer: 
 twitter: masterpay7
 social:

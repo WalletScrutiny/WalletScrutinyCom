@@ -9,11 +9,11 @@ users: 100000
 appId: com.zelcash.zelcore
 appCountry: 
 released: 2018-09-21
-updated: 2025-07-30
-version: 8.19.0
+updated: 2025-08-13
+version: 8.19.1
 stars: 3.3
 ratings: 834
-reviews: 140
+reviews: 141
 website: https://zelcore.io
 repository: 
 issue: 

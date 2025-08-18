@@ -8,8 +8,8 @@ users: 100000
 appId: com.permutize.haha
 appCountry: 
 released: 2021-11-09
-updated: 2025-07-23
-version: 4.0.3
+updated: 2025-08-11
+version: 4.1.0
 stars: 4.7
 ratings: 
 reviews: 167
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/haha-app
 - https://discord.com/invite/MhPYjRQEa2
 redirect_from: 
-developerName: Permutize LLC
+developerName: HaHa Technologies, Inc.
 features: 
 
 ---

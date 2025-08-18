@@ -9,7 +9,7 @@ appId: com.mudrexmobile
 appCountry: 
 released: 
 updated: 2025-08-01
-version: '12.54'
+version: '12.55'
 stars: 3.3
 ratings: 
 reviews: 4

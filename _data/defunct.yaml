@@ -1,14 +1,3 @@
-2025-07-28:
-- _android/com.bitlox.mobilewallet
-- _android/com.moonpos
-- _iphone/app.simple.com
-- _iphone/bytesmix.live.co.kr
-- _iphone/com.capitual
-- _iphone/com.fasset.cashapp
-- _iphone/io.kamix.app
-- _iphone/io.sparkwallet
-2025-08-01:
-- _iphone/io.bgwallet.bgw
 2025-08-04:
 - _android/com.premicesoft.tablet
 - _android/io.cypherbox.btc
@@ -21,3 +10,9 @@
 - _android/com.coininn.wenwen
 - _iphone/com.bootleg.iforexCryptoWrapper
 - _iphone/com.xrex.mobile
+2025-08-18:
+- _android/com.bitcoinexc
+- _android/com.keyex.crypto
+- _android/com.kikitrade
+- _android/com.payz.maxpayz
+- _android/im.token.app

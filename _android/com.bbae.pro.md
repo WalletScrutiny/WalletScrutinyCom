@@ -12,7 +12,7 @@ updated: 2025-08-06
 version: 6.8.3
 stars: 4.2
 ratings: 
-reviews: 25
+reviews: 26
 website: https://www.bbae.com
 repository: 
 issue: 

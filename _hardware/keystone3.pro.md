@@ -7,7 +7,7 @@ authors:
 released: 2024-04-02
 discontinued: 
 updated: 2024-12-13
-version: 2.2.4
+version: 2.2.8
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -29,7 +29,7 @@ verdict: sourceavailable
 appHashes:
 - 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7
 - c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d
-date: 2025-08-04
+date: 2025-08-15
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 twitter: KeystoneForBTC
 social:

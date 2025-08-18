@@ -10,18 +10,18 @@ appCountry:
 released: 2022-07-11
 updated: 2023-08-21
 version: 1.0.5
-stars: 4.4
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 1
 website: https://exolix.com/
 repository: 
 issue: 
 icon: com.exolix.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-08-16
+date: 2025-08-18
 signer: 
 twitter: Exolix_com
 social:

@@ -9,10 +9,10 @@ appId: com.iqoption
 appCountry: 
 released: 
 updated: 2025-08-07
-version: 8.61.1
+version: 8.61.2
 stars: 4.5
 ratings: 
-reviews: 526
+reviews: 525
 website: https://km.iqoption.com/en
 repository: 
 issue: 

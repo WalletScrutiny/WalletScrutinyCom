@@ -12,7 +12,7 @@ updated: 2025-08-06
 version: 1.8.75.fa72
 stars: 3.1
 ratings: 1387
-reviews: 1535
+reviews: 1536
 website: https://www.gopax.co.kr
 repository: 
 issue: 

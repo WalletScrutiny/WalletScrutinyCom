@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
 redirect_from: 
-developerName: Beijing GuiXinYangHang Technology Co., Ltd.
+developerName: CloverPool Team
 features: 
 
 ---

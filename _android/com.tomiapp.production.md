@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-08
 updated: 2025-07-18
 version: '202.0'
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 3
 website: https://tomi.com
 repository: 
 issue: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitlox.mobilewallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2021-09-07
+date: 2025-08-18
 signer: 
 twitter: 
 social: 
