@@ -37,7 +37,7 @@ features:
 
 ## Device Description
 
-The **OneKey Classic 1S** is the upgraded version of the original OneKey Classic, introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element)).
+The **OneKey Classic 1S** is the upgraded version of the original: {% include walletLink.html wallet='hardware/onekey' verdict='true' %} introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element)).
 
 OneKey’s official product page notes: *“Each transaction, secured by EAL 6+ certified chips”*, highlighting the main difference from the original Classic which lacked this feature ([OneKey Product Page](https://onekey.so/products/onekey-classic-1s-hardware-wallet/)).
 
@@ -46,8 +46,6 @@ The device retains a slim profile at **5.2 mm** thickness and weighs **20.5 g** 
 Independent reviewers confirm that the Classic 1S integrates **two secure chips (SE and MCU)**, ensuring keys are generated and stored offline and that all transactions require physical confirmation on the device ([Crypto-Corner Review](https://crypto-corner.com/2025/07/27/hardware-wallets-in-2025-onekey-classic-review/)).
 
 ## Verification
-
-This device is **undergoing verification** on nostr.
 
 ### Private keys can be created offline
 
@@ -81,4 +79,4 @@ According to a OneKey developer in the project’s Discord:
 > “Classic 1S and Classic Pure are the same code, but Classic is different code.”  
 (*Source: OneKey Discord, user “loatheb”, Aug 2025*)  
 
-At present, reproducibility is still being evaluated. While OneKey claims its firmware is open source, independent reproducibility verification for the Classic 1S is still in progress and will be reported via nostr verification.
+This device is **source-available** and subject **for-verification**
