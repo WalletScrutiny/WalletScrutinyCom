@@ -8,10 +8,10 @@ appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
 updated: 2025-08-15
-version: 5.1.6
-stars: 4.9
+version: 5.1.7
+stars: 5
 ratings: 
-reviews: 357
+reviews: 359
 website: https://cwallet.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: 'BiyaPay: Remit,Trade, NoFreeze'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13

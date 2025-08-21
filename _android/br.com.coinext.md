@@ -9,7 +9,7 @@ appId: br.com.coinext
 appCountry: 
 released: 2019-11-19
 updated: 2025-08-16
-version: 2.24.2
+version: 2.24.3
 stars: 4.7
 ratings: 
 reviews: 7

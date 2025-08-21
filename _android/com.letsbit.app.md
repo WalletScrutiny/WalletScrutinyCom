@@ -8,8 +8,8 @@ users: 100000
 appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06
-updated: 2025-06-10
-version: v1.51.0
+updated: 2025-08-20
+version: v1.52.0
 stars: 3
 ratings: 
 reviews: 17

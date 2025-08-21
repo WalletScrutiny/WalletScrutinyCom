@@ -4,12 +4,12 @@ title: ATX - Buy Bitcoin Securely
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2025-08-15
-version: 3.5.63
+updated: 2025-08-18
+version: 3.5.64
 stars: 4
 ratings: 
 reviews: 5

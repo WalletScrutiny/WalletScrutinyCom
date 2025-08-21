@@ -10,8 +10,8 @@ idd: '1546957530'
 released: 2022-03-19
 updated: 2025-07-08
 version: 1.10.0
-stars: 4.1
-reviews: 127
+stars: 4.2
+reviews: 134
 website: https://www.btcmarkets.net
 repository: 
 issue: 

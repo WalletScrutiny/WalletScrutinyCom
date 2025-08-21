@@ -4,12 +4,12 @@ title: TUX Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.tux.wallet
 appCountry: 
 released: 2020-01-28
-updated: 2025-08-11
-version: 3.1.9
+updated: 2025-08-20
+version: 3.1.10
 stars: 
 ratings: 
 reviews: 

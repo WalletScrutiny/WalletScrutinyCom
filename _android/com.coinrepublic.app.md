@@ -26,7 +26,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Coin Republic
+developerName: Coin Republic Pty Ltd
 features: 
 
 ---

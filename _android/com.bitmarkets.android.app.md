@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitmarkets.android.app
 appCountry: 
 released: 2022-10-04
-updated: 2025-08-11
-version: 3.6.1
+updated: 2025-08-20
+version: 3.6.4
 stars: 4
 ratings: 
 reviews: 

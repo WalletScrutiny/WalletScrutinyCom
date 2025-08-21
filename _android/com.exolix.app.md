@@ -12,7 +12,7 @@ updated: 2023-08-21
 version: 1.0.5
 stars: 4.8
 ratings: 
-reviews: 1
+reviews: 
 website: https://exolix.com/
 repository: 
 issue: 

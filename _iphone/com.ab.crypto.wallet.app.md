@@ -8,10 +8,10 @@ appId: com.ab.crypto.wallet.app
 appCountry: us
 idd: '6467197622'
 released: 2023-12-05
-updated: 2025-06-30
-version: 1.10.0
+updated: 2025-08-19
+version: 1.11.0
 stars: 4.7
-reviews: 166
+reviews: 170
 website: https://alicebob.com/
 repository: 
 issue: 

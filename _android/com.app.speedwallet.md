@@ -1,6 +1,6 @@
 ---
 wsId: speedBitcoinWallet
-title: Speed Bitcoin Lightning Wallet
+title: Speed Wallet - Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2023-06-18
 updated: 2025-08-14
 version: 2.4.25.0.0.2.fp.gps
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 788
+reviews: 790
 website: https://www.speed.app/
 repository: 
 issue: 
