@@ -11,7 +11,7 @@ released: 2019-03-24
 updated: 2025-08-13
 version: 3.27.2
 stars: 4.4
-reviews: 5486
+reviews: 5487
 website: https://foxbit.com.br/negociar-criptoativos/
 repository: 
 issue: 

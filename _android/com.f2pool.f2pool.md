@@ -12,7 +12,7 @@ updated: 2025-07-15
 version: VARY
 stars: 4.3
 ratings: 
-reviews: 78
+reviews: 79
 website: https://www.f2pool.com
 repository: 
 issue: 

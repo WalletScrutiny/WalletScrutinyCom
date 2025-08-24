@@ -4,7 +4,7 @@ title: 'Fasset: Invest, Earn and Spend'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.fasset.cashapp
 appCountry: 
 released: 2021-12-14

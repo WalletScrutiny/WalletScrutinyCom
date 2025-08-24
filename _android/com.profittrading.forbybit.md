@@ -8,8 +8,8 @@ users: 100000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22
-updated: 2025-08-03
-version: 5.6.5
+updated: 2025-08-23
+version: 5.6.6
 stars: 3.9
 ratings: 41
 reviews: 3

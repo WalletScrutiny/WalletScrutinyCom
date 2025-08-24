@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.imermarket.invesacapital.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-08-15
+date: 2025-08-24
 signer: 
 twitter: 
 social: 

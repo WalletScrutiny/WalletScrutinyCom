@@ -13,7 +13,7 @@ updated: 2025-07-29
 version: 4.60.0
 stars: 3.9
 ratings: 79
-reviews: 15
+reviews: 14
 website: https://ownbit.io
 repository: 
 issue: 

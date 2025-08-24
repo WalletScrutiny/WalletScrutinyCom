@@ -8,8 +8,8 @@ users: 500000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2025-08-18
-version: 3.5.64
+updated: 2025-08-21
+version: 3.5.65
 stars: 4
 ratings: 
 reviews: 5

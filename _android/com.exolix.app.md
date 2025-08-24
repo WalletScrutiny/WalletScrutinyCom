@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-11
 updated: 2023-08-21
 version: 1.0.5
-stars: 4.8
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 2
 website: https://exolix.com/
 repository: 
 issue: 

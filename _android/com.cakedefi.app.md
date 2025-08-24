@@ -12,7 +12,7 @@ updated: 2025-04-09
 version: 7.4.0
 stars: 2.7
 ratings: 1135
-reviews: 198
+reviews: 197
 website: https://bake.io
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2025-03-17
 version: 4.2.4
 stars: 4.2
 ratings: 
-reviews: 25
+reviews: 24
 website: https://tradestrike.io/strikex-wallet/
 repository: 
 issue: 

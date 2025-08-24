@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2022-10-21
+date: 2025-08-24
 signer: 
 twitter: bit_bucks
 social:

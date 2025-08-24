@@ -12,7 +12,7 @@ updated: 2025-07-02
 version: 3.2.1
 stars: 4
 ratings: 82
-reviews: 34
+reviews: 33
 website: https://ex.z.com/
 repository: 
 issue: 

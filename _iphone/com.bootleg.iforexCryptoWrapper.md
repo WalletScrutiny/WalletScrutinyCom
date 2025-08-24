@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bootleg.iforexCryptoWrapper.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-11-19
+date: 2025-08-24
 signer: 
 twitter: iforexcrypto_o
 social:
