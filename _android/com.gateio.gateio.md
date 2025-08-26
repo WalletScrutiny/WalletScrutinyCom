@@ -12,7 +12,7 @@ updated: 2025-08-20
 version: 7.17.1
 stars: 4.5
 ratings: 17546
-reviews: 6756
+reviews: 6755
 website: https://www.gate.com/
 repository: 
 issue: 

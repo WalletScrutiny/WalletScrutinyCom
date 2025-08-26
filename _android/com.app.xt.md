@@ -9,10 +9,10 @@ appId: com.app.xt
 appCountry: 
 released: 2021-04-14
 updated: 2025-08-22
-version: 5.5.4
-stars: 4.3
+version: 5.6.1
+stars: 4.4
 ratings: 
-reviews: 266
+reviews: 268
 website: http://www.xt.com
 repository: 
 issue: 

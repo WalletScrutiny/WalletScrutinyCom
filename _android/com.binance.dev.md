@@ -12,7 +12,7 @@ updated: 2025-08-22
 version: 3.1.6
 stars: 4.7
 ratings: 619117
-reviews: 15394
+reviews: 15398
 website: https://www.binance.com/
 repository: 
 issue: 

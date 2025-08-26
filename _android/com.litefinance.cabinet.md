@@ -11,7 +11,7 @@ updated: 2025-08-08
 version: v2.0.2008-cabinet-release
 stars: 4.5
 ratings: 
-reviews: 63
+reviews: 64
 website: https://www.liteforex.eu
 repository: 
 issue: 

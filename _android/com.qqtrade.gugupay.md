@@ -9,7 +9,7 @@ appId: com.qqtrade.gugupay
 appCountry: cn
 released: 2017-05-25
 updated: 2025-08-20
-version: 7.2.0
+version: 7.3.4
 stars: 4.7
 ratings: 658
 reviews: 387

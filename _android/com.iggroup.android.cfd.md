@@ -10,7 +10,7 @@ appCountry: br
 released: 2015-05-11
 updated: 2025-08-21
 version: 25.8.6
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 14
 website: https://www.ig.com

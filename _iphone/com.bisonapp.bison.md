@@ -1,6 +1,6 @@
 ---
 wsId: bison
-title: BISON - Buy Bitcoin & Co
+title: 'BISON: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.bisonapp.bison
 appCountry: lv
 idd: '1362518159'
 released: 2020-01-09
-updated: 2025-08-11
-version: 4.16.1
+updated: 2025-08-21
+version: 4.17.2
 stars: 5
 reviews: 2
 website: https://bisonapp.com/

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.quasarwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: 2025-08-26
 signer: 
 twitter: reflextoken
 social:

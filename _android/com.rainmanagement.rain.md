@@ -12,7 +12,7 @@ updated: 2025-07-30
 version: 3.7.80
 stars: 4.4
 ratings: 4531
-reviews: 3285
+reviews: 3286
 website: https://rain.com
 repository: 
 issue: 

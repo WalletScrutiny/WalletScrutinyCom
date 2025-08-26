@@ -12,7 +12,7 @@ updated: 2025-08-13
 version: '1.217'
 stars: 3.7
 ratings: 392
-reviews: 29
+reviews: 30
 website: https://www.forex.com
 repository: 
 issue: 

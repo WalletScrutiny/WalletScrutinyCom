@@ -11,7 +11,7 @@ released: 2013-03-07
 updated: 2025-08-10
 version: '7.55'
 stars: 4.6
-reviews: 71125
+reviews: 71144
 website: https://finabase.io
 repository: 
 issue: 
