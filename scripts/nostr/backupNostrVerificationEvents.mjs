@@ -11,9 +11,9 @@ const KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind, v
 const VERIFICATION_KINDS = KINDS.filter(kind => kind !== opinionKind);
 const BASE_DIR = path.join(process.cwd(), "backup");
 
-function getTimestamp(months = 2) {
+function getTimestamp(days) {
   const date = new Date();
-  date.setMonth(date.getMonth() - months);
+  date.setDate(date.getDate() - days);
   return Math.floor(date.getTime() / 1000);
 }
 
@@ -51,8 +51,12 @@ async function main() {
     await ndk.connect(2000);
     await new Promise(resolve => setTimeout(resolve, 3000));
 
-    const since = getTimestamp();
-    console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
+    const dayArgIndex = process.argv.indexOf('-d');
+    const days = dayArgIndex !== -1 && process.argv[dayArgIndex + 1]
+      ? parseInt(process.argv[dayArgIndex + 1], 10)
+      : 60;
+    const since = getTimestamp(days);
+    console.log(`Fetching events from the last ${days} days (since ${new Date(since * 1000).toISOString()})...`);
     
     const [verificationEvents, opinionEvents] = await Promise.all([
       ndk.fetchEvents({ kinds: VERIFICATION_KINDS, since }),
