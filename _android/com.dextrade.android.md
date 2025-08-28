@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.dextrade.android.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-03
+date: 2025-08-28
 signer: 
 twitter: dextrade_
 social:
@@ -32,6 +32,12 @@ developerName: Dex-Trade
 features: 
 
 ---
+
+**Update 2025-08-28**
+
+This app is once again available in Google Play.
+
+🚩 Note, it has a similar name and almost similar domain name with {% include walletLink.html wallet='android/org.dextrade.wallet' verdict='true' %}. They have however, a different logo.
 
 ## App Description
 Dextrade is an exchange, and supports bitcoin as well as other cryptocurrencies. It advertises itself as a 
