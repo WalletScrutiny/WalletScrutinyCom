@@ -3,7 +3,7 @@ wsId:
 title: Swapuz
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.swapuz.mobile
 appCountry: 
@@ -27,7 +27,7 @@ twitter: Swapuz_team
 social:
 - https://www.reddit.com/user/Swapuz_com
 - https://www.linkedin.com/company/llc-metachain
-- https://www.youtube.com/channel/UCly2yn0VN2ijlD9lZAVAINg 
+- https://www.youtube.com/channel/UCly2yn0VN2ijlD9lZAVAINg
 redirect_from: 
 developerName: METACHAIN
 features: 

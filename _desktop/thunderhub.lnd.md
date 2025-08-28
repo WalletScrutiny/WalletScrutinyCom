@@ -6,7 +6,7 @@ authors:
 released: 2020-04-09
 discontinued: 
 updated: 2024-01-02
-version: 0.14.1
+version: 0.14.2
 binaries: 
 provider: Thunderhub
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: thunderhub.lnd.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-19
+date: 2025-08-27
 twitter: thunderhubio
 social: 
 features: 

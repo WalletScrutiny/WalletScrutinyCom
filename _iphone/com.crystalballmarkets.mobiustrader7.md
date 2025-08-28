@@ -3,11 +3,11 @@ wsId: crystalBallMarkets
 title: Crystal Ball Markets MT7
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.crystalballmarkets.mobiustrader7
 appCountry: ge
 idd: '1587031891'
-released: '2021-10-11T07:00:00Z'
+released: 2021-10-11
 updated: 2022-12-19
 version: '1.1'
 stars: 0
@@ -25,7 +25,7 @@ signer:
 twitter: 
 social:
 - https://www.linkedin.com/company/crystal-ball-markets
-- https://www.facebook.com/crystalballmarkets 
+- https://www.facebook.com/crystalballmarkets
 features: 
 developerName: Crystal Ball Markets LLC
 

@@ -3,7 +3,7 @@ wsId: eMoneyGe
 title: Emoney
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: ge.mobility.emoney
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social:
 - https://www.instagram.com/emoney.georgia
-- https://www.facebook.com/emoney.ge 
+- https://www.facebook.com/emoney.ge
 redirect_from: 
 developerName: eMoney Georgia
 features: 

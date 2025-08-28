@@ -26,7 +26,7 @@ signer:
 twitter: 
 social:
 - https://www.linkedin.com/company/crystal-ball-markets
-- https://www.facebook.com/crystalballmarkets 
+- https://www.facebook.com/crystalballmarkets
 redirect_from: 
 developerName: Crystal Ball Markets
 features: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.dextrade.android.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: custodial
 appHashes: 
 date: 2025-08-28

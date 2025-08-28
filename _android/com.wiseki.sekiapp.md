@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-31
 updated: 2025-05-26
 version: 2.3.1
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 22
 website: https://sekiapp.com

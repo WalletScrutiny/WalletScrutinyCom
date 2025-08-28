@@ -8,10 +8,10 @@ appId: app.phantom
 appCountry: us
 idd: '1598432977'
 released: 2022-01-30
-updated: 2025-08-19
-version: 25.30.0
+updated: 2025-08-26
+version: 25.31.0
 stars: 4.8
-reviews: 36879
+reviews: 37140
 website: https://phantom.com
 repository: 
 issue: 

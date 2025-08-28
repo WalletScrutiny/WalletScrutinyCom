@@ -9,11 +9,11 @@ users: 10000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
-updated: 2025-08-19
-version: 9.12.0
+updated: 2025-08-26
+version: 9.13.0
 stars: 4.6
 ratings: 3949
-reviews: 3790
+reviews: 3788
 website: https://bitkeep.com
 repository: 
 issue: 

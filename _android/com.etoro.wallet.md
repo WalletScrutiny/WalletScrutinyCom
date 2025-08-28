@@ -13,7 +13,7 @@ updated: 2025-08-12
 version: 93.0.0
 stars: 3.9
 ratings: 1122
-reviews: 148
+reviews: 149
 website: https://www.etoro.com/crypto/wallet
 repository: 
 issue: 

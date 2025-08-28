@@ -26,7 +26,7 @@ signer:
 twitter: Safeheron
 social:
 - https://www.linkedin.com/company/safeheron
-- https://github.com/safeheron 
+- https://github.com/safeheron
 redirect_from: 
 developerName: Safeheron
 features: 

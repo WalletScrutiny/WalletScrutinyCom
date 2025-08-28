@@ -12,7 +12,7 @@ updated: 2025-08-15
 version: 13.30.8
 stars: 4.4
 ratings: 666901
-reviews: 112719
+reviews: 112765
 website: https://coinbase.com/
 repository: 
 issue: 

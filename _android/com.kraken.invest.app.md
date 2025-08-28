@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-30
 updated: 2025-08-22
 version: 3.30.0
-stars: 4.3
+stars: 4.4
 ratings: 15716
-reviews: 6009
+reviews: 6033
 website: https://www.kraken.com
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2025-08-07
 version: 2025.15.0 (3)
 stars: 4.2
 ratings: 
-reviews: 26
+reviews: 27
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/647

@@ -3,7 +3,7 @@ wsId:
 title: マネパの暗号資産取引・トレードアプリ
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: jp.co.moneypartners.CryptoTrade
 appCountry: 

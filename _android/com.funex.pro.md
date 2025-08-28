@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.funex.pro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-11-04
+date: 2025-08-28
 signer: 
 twitter: 
 social: 

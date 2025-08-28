@@ -10,7 +10,7 @@ appCountry:
 released: 2022-06-26
 updated: 2025-08-06
 version: 2.0.18
-stars: 4.3
+stars: 4.2
 ratings: 
 reviews: 108
 website: https://www.coinsdo.com

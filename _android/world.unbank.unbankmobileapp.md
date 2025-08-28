@@ -12,7 +12,7 @@ updated: 2025-06-15
 version: 2.13.1
 stars: 4.5
 ratings: 
-reviews: 29
+reviews: 28
 website: https://www.unbank.world/
 repository: 
 issue: 

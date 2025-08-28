@@ -12,7 +12,7 @@ updated: 2025-08-07
 version: 3.8.8
 stars: 4.7
 ratings: 3068
-reviews: 2105
+reviews: 2106
 website: https://www.coinspot.com.au
 repository: 
 issue: 

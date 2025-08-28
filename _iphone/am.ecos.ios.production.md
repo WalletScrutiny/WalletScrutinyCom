@@ -11,7 +11,7 @@ released: 2020-11-25
 updated: 2025-08-25
 version: 3.0.3
 stars: 2.8
-reviews: 200
+reviews: 201
 website: https://ecos.am/
 repository: 
 issue: 

@@ -3,14 +3,14 @@ wsId: bunqApp
 title: bunq
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.bunq.android
 appCountry: 
-released: Nov 25, 2015
+released: 2015-11-25
 updated: 2025-08-21
 version: 28.14.3
-stars: 3.59
+stars: 3.6
 ratings: 
 reviews: 209
 website: http://www.bunq.com
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/bunq
 - https://www.youtube.com/channel/UCNZo2GsB_ToorMDDSHoo70g
 - https://www.facebook.com/bunq
-- https://www.instagram.com/bunq 
+- https://www.instagram.com/bunq
 redirect_from: 
 developerName: bunq
 features: 

@@ -9,7 +9,7 @@ appId: com.fold
 appCountry: us
 released: 2019-11-12
 updated: 2025-08-25
-version: 141.6.0
+version: 141.7.1
 stars: 4
 ratings: 987
 reviews: 1084

@@ -10,9 +10,9 @@ appCountry: cn
 released: 2019-07-06
 updated: 2025-08-21
 version: 3.76.0
-stars: 2.7
+stars: 2.9
 ratings: 8949
-reviews: 3298
+reviews: 3359
 website: https://www.vantagemarkets.com/
 repository: 
 issue: 

@@ -3,15 +3,15 @@ wsId: bunqApp
 title: bunq
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bunq.ios
 appCountry: de
 idd: '1021178150'
-released: '2016-02-12T13:01:56Z'
+released: 2016-02-12
 updated: 2025-08-22
 version: 28.14.2
-stars: 4.49551
-reviews: 11124
+stars: 4.5
+reviews: 11133
 website: https://www.bunq.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ social:
 - https://www.linkedin.com/company/bunq
 - https://www.youtube.com/channel/UCNZo2GsB_ToorMDDSHoo70g
 - https://www.facebook.com/bunq
-- https://www.instagram.com/bunq 
+- https://www.instagram.com/bunq
 features: 
 developerName: bunq
 

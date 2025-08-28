@@ -10,7 +10,7 @@ appCountry:
 released: 2021-04-13
 updated: 2025-08-14
 version: 2.8.700
-stars: 4.3
+stars: 4.1
 ratings: 
 reviews: 16
 website: https://cn.biyapay.com/
