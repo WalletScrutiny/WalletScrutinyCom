@@ -18,7 +18,7 @@ issue:
 icon: ng.pandar.resource.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosendreceive
 appHashes: 
 date: 2024-09-02
 signer: 
