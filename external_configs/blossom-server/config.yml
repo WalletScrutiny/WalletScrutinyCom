@@ -57,7 +57,7 @@ storage:
   rules:
     # mime type of blob
     - type: "text/*"
-      expiration: 1 month
+      expiration: 100 years
     - type: "image/*"
       expiration: 4 days
     - type: "video/*"
