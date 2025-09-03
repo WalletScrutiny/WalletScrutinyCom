@@ -1404,7 +1404,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     } else {
       shareMessage = `👀 Check out this ${walletDescriptionToken} verification!`;
     }
-    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The APK tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
+    shareMessage += `\n${status === 'reproducible' ? '✅' : '❌'} The binary tested ${status === 'reproducible' ? "matches" : "doesn't match"} the one built from source.`;
     shareMessage += `\n🔍 See the full verification here:`;
   }
 
