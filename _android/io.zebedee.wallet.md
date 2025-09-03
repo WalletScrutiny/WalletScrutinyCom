@@ -8,11 +8,11 @@ users: 1000000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2025-08-26
-version: 4.18.0
+updated: 2025-08-30
+version: 4.20.0
 stars: 4.3
 ratings: 358
-reviews: 8057
+reviews: 8108
 website: https://zbd.gg/z/support
 repository: 
 issue: 

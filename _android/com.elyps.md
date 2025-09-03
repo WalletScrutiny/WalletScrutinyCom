@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.elyps.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-01-23
+date: 2025-09-03
 signer: 
 twitter: 
 social: 

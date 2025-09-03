@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.keyex.crypto.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-09-03
 signer: 
 twitter: 
 social: 

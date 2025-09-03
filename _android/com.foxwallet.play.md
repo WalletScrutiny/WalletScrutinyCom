@@ -8,8 +8,8 @@ users: 100000
 appId: com.foxwallet.play
 appCountry: 
 released: 2021-12-05
-updated: 2025-08-15
-version: 5.5.10
+updated: 2025-08-29
+version: 5.5.11
 stars: 4.7
 ratings: 
 reviews: 456

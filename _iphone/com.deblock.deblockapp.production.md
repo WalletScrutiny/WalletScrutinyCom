@@ -8,10 +8,10 @@ appId: com.deblock.deblockapp.production
 appCountry: fr
 idd: '6479202981'
 released: 2024-04-02
-updated: 2025-08-19
-version: 4.2.5
+updated: 2025-08-27
+version: 4.2.6
 stars: 4.8
-reviews: 9552
+reviews: 9863
 website: https://deblock.com
 repository: 
 issue: 

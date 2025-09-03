@@ -8,10 +8,10 @@ appId: walletapp.safepal.io
 appCountry: 
 idd: 1548297139
 released: 2021-01-11
-updated: 2025-08-06
-version: 4.9.0
+updated: 2025-08-28
+version: 4.9.2
 stars: 4.8
-reviews: 12670
+reviews: 13024
 website: https://www.safepal.com
 repository: 
 issue: 

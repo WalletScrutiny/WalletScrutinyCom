@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.icecorp.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: 2025-09-03
 signer: 
 twitter: icewalofficial
 social:

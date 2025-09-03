@@ -6,7 +6,7 @@ authors:
 released: 2025-02-20
 discontinued: 
 updated: 2025-04-17
-version: 1.4.0
+version: 1.5.0
 binaries: https://github.com/andreasgriffin/bitcoin-safe/releases
 provider: Andreas Griffin
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bitcoin.safe.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-06-27
+date: 2025-09-01
 twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg

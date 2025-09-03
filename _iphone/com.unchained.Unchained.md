@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Unchained: Bitcoin Only'
+title: 'Unchained: Bitcoin Finance'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.unchained.Unchained
 appCountry: us
 idd: '6457364167'
 released: 2024-03-23
-updated: 2025-07-27
-version: '2.12'
+updated: 2025-08-30
+version: '2.14'
 stars: 4.8
-reviews: 71
+reviews: 72
 website: https://unchained.com/
 repository: 
 issue: 

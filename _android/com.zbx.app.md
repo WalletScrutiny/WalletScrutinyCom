@@ -8,8 +8,8 @@ users: 10000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
-updated: 2025-08-19
-version: 2.5.14
+updated: 2025-09-01
+version: 2.5.16
 stars: 
 ratings: 
 reviews: 

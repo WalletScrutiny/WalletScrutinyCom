@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: masterbank.ai.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-08-19
+date: 2025-09-03
 signer: 
 twitter: masterpay7
 social:

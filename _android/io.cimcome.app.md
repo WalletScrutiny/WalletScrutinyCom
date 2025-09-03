@@ -12,7 +12,7 @@ updated: 2025-08-26
 version: 2.2.23
 stars: 3.7
 ratings: 10
-reviews: 68
+reviews: 69
 website: https://cimcome.io/
 repository: 
 issue: 

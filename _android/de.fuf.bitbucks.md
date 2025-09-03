@@ -8,8 +8,8 @@ users: 10000
 appId: de.fuf.bitbucks
 appCountry: 
 released: 2019-09-03
-updated: 2024-08-28
-version: 1.5.12
+updated: 2025-08-27
+version: 1.5.13
 stars: 4.6
 ratings: 
 reviews: 2
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-08-24
+date: 2025-09-03
 signer: 
 twitter: bit_bucks
 social:

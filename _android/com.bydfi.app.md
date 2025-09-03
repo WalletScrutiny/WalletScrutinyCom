@@ -1,6 +1,6 @@
 ---
 wsId: bydfiExchange
-title: 'BYDFi: Buy BTC, ETH & MEME'
+title: 'BYDFi: Buy BTC, XRP & SOL'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2023-01-20
 updated: 2025-08-18
 version: 3.8.1
-stars: 4.4
+stars: 4.5
 ratings: 
 reviews: 413
 website: https://www.bydfi.com/

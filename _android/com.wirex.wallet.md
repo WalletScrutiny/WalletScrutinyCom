@@ -1,6 +1,6 @@
 ---
 wsId: wirexwalletdefi
-title: 'COCA: Crypto and DeFi'
+title: 'COCA: Crypto Card & Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2025-07-08
-version: 1.13.1
+updated: 2025-08-28
+version: 2.0.1
 stars: 3.2
 ratings: 1053
 reviews: 15

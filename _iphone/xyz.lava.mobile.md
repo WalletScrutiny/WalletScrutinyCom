@@ -8,8 +8,8 @@ appId: xyz.lava.mobile
 appCountry: us
 idd: '1661751123'
 released: 2024-04-29
-updated: 2025-07-28
-version: 1.12.0
+updated: 2025-09-02
+version: 1.12.6
 stars: 4.9
 reviews: 78
 website: 

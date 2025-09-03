@@ -10,9 +10,9 @@ appCountry:
 released: 2023-04-24
 updated: 2025-08-15
 version: 3.12.1
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 1825
+reviews: 1829
 website: https://simple.app/
 repository: 
 issue: 

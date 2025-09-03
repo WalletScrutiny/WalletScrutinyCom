@@ -12,7 +12,7 @@ updated: 2025-08-21
 version: 3.40.0
 stars: 3.8
 ratings: 
-reviews: 31
+reviews: 32
 website: https://www.buenbit.com
 repository: 
 issue: 

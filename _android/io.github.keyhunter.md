@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.github.keyhunter.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: 2025-09-03
 signer: 
 twitter: 
 social: 

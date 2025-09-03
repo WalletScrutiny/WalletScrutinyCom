@@ -1,6 +1,6 @@
 ---
 wsId: oslMobile
-title: 'OSL: Buy BTC & Crypto Safely'
+title: 'OSL HK: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.osl.mobile.OslMobile
 appCountry: hk
 idd: '6468963677'
 released: 2024-01-22
-updated: 2025-08-05
-version: 3.4.1
-stars: 4.4
-reviews: 213
+updated: 2025-09-01
+version: 3.5.1
+stars: 4.5
+reviews: 358
 website: https://osl.com
 repository: 
 issue: 

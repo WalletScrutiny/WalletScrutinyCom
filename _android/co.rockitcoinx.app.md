@@ -8,8 +8,8 @@ users: 100000
 appId: co.rockitcoinx.app
 appCountry: 
 released: 2019-09-20
-updated: 2025-08-25
-version: 3.7.7
+updated: 2025-09-02
+version: 3.7.8
 stars: 4.1
 ratings: 
 reviews: 189

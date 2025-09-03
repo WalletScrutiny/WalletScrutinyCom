@@ -8,8 +8,8 @@ users: 5000
 appId: com.covest.covestM
 appCountry: 
 released: 2022-11-03
-updated: 2024-10-15
-version: '1.5'
+updated: 2025-09-03
+version: 2.1.0
 stars: 4.2
 ratings: 
 reviews: 

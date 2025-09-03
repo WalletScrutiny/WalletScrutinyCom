@@ -10,8 +10,8 @@ idd: 1434511619
 released: 2018-10-18
 updated: 2025-08-12
 version: 11.5.1
-stars: 2.5
-reviews: 633
+stars: 2.4
+reviews: 606
 website: http://www.korbit.co.kr
 repository: 
 issue: 

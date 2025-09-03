@@ -8,7 +8,7 @@ users: 1000000
 appId: de.finanzen.net
 appCountry: 
 released: 2012-03-26
-updated: 2025-07-29
+updated: 2025-09-01
 version: 5.7.3
 stars: 4.3
 ratings: 

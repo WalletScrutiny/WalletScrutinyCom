@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: wirebit.digital.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-08-19
+date: 2025-09-03
 signer: 
 twitter: 
 social:

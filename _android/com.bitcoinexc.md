@@ -18,10 +18,10 @@ repository: https://github.com/fimark-coin/Smartcontract
 issue: 
 icon: com.bitcoinexc.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-07-06
+date: 2025-09-03
 signer: 
 twitter: fmcpay
 social:

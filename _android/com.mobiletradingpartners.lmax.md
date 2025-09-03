@@ -10,7 +10,7 @@ appCountry:
 released: 2014-09-22
 updated: 2025-07-24
 version: 5.1.31
-stars: 4.6
+stars: 4.8
 ratings: 
 reviews: 4
 website: http://www.lmax.com/mobile

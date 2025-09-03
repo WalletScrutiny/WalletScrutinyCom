@@ -11,7 +11,7 @@ released: 2019-11-29
 updated: 2025-08-28
 version: 3.7.0
 stars: 4.7
-reviews: 23293
+reviews: 23340
 website: https://www.bitpanda.com/app
 repository: 
 issue: 

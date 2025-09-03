@@ -1,6 +1,6 @@
 ---
 wsId: ledgerLive
-title: 'Ledger Live: Crypto & NFT App'
+title: Ledger Live Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.ledger.live
 appCountry: us
 idd: '1361671700'
 released: 2019-01-28
-updated: 2025-08-04
-version: '3.88'
+updated: 2025-08-21
+version: '3.90'
 stars: 4.9
-reviews: 13048
+reviews: 13279
 website: https://www.ledger.com/ledger-live
 repository: 
 issue: 

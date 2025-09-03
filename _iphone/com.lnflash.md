@@ -8,8 +8,8 @@ appId: com.lnflash
 appCountry: jm
 idd: '6451129095'
 released: 2024-08-08
-updated: 2025-07-24
-version: 0.4.2
+updated: 2025-08-20
+version: 0.4.4
 stars: 0
 reviews: 0
 website: https://getflash.io

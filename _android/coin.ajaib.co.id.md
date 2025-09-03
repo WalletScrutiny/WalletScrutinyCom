@@ -8,7 +8,7 @@ users: 1000000
 appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
-updated: 2025-08-22
+updated: 2025-09-01
 version: 2.79.2
 stars: 4.3
 ratings: 

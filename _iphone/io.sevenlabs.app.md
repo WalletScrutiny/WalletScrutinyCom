@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.sevenlabs.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2024-09-06
+date: 2025-09-03
 signer: 
 twitter: 
 social:

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.qredo.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-04-11
+date: 2025-09-03
 signer: 
 twitter: QredoNetwork
 social:

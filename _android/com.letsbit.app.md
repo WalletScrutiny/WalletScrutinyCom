@@ -12,7 +12,7 @@ updated: 2025-08-26
 version: v1.53.0
 stars: 3
 ratings: 
-reviews: 17
+reviews: 18
 website: https://lbfinanzas.com
 repository: 
 issue: 
