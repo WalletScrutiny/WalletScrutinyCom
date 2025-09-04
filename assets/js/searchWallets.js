@@ -279,7 +279,7 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
 
   let verificationHTML = '';
   if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
-    const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+    const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
     if (lastVerificationStatus) {
       const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
       verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
