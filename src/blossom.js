@@ -86,7 +86,7 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
 
   const tags = [
     ['name', blob.name],
-    ['size', blob.size],
+    ['size', blob.size.toString()],
   ];
 
   const authHeader = await createAuthorizationHeader('upload', `Upload blob ${sha256}`, [sha256], serverUrl, tags);
