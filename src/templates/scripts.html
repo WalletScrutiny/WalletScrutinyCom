@@ -1,5 +1,15 @@
 {% include base_path %}
 
+<!-- This file "src/templates/scripts.html" is used to generate the "_includes/scripts.html" file with the
+    correct names for the webpack bundles. In the case of the development environment, the bundle names
+    are '[name].bundle.min.js', whereas in the production environment, the bundle names are
+    '[name].[contenthash].bundle.min.js', so the cache gets invalidated automatically in the browser
+    when the js files are updated.
+
+    Do not change the file "_includes/scripts.html" directly. Do the changes on "src/templates/scripts.html"
+    instead.
+-->
+
 <script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
 
 <script>
