@@ -1,6 +1,16 @@
 {% include base_path %}
 
-<script type="text/javascript" src="{{'/dist/dom_sanitization.bundle.min.js' | relative_url }}"></script>
+<!-- This file "src/templates/scripts.html" is used to generate the "_includes/scripts.html" file with the
+    correct names for the webpack bundles. In the case of the development environment, the bundle names
+    are '[name].bundle.min.js', whereas in the production environment, the bundle names are
+    '[name].[contenthash].bundle.min.js', so the cache gets invalidated automatically in the browser
+    when the js files are updated.
+
+    Do not change the file "_includes/scripts.html" directly. Do the changes on "src/templates/scripts.html"
+    instead.
+-->
+
+<script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
 
 <script>
   // Load verifications_data.bundle.min.js asynchronously and then
@@ -32,11 +42,11 @@
       window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
     };
 
-    verificationsUIScript.src = '{{ base_path }}/dist/verifications_ui.bundle.min.js';
+    verificationsUIScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
     document.body.appendChild(verificationsUIScript);
   };
 
-  verificationsScript.src = '{{ base_path }}/dist/verifications_data.bundle.min.js';
+  verificationsScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
   document.body.appendChild(verificationsScript);
 </script>
 
@@ -60,9 +70,9 @@
 </script>
 <script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
-<script type="text/javascript" src="{{ base_path }}/dist/jquery.bundle.min.js"></script>
+<script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
-<script type="text/javascript" defer src="{{ base_path }}/dist/font_awesome.bundle.min.js"></script>
+<script type="text/javascript" defer src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[4] %>"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
 {% endif %}

@@ -14,3 +14,4 @@ images/social/
 _data/git.yml
 dist/
 backup/
+_includes/scripts.html
