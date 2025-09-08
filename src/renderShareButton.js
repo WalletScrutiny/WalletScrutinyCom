@@ -12,9 +12,7 @@
       return;
     }
 
-    // Remove any previous instance
-    if (el._shareButtonRendered) return;
-    el._shareButtonRendered = true;
+    el.classList.add('shareButtonContainer');
 
     const style = document.createElement("style");
     style.textContent = `
@@ -36,7 +34,7 @@
         color: white;
       }
 
-      #shareButtonContainer .dropdown span {
+      .shareButtonContainer .dropdown span {
         transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -65,6 +63,7 @@
       #shareBtn { margin-bottom: 0; }
     `;
     document.head.appendChild(style);
+
     // HTML for buttons
     const nostrButton = `<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork"><img src="/images/nostr_logo.svg" style="width:24px;height:24px;vertical-align:middle;margin-right: 0;" alt="Nostr Logo"/><span class="network-text">Share on Nostr</span></a>`;
     const xButton = `<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork"><i class="fa-brands fa-x-twitter" style="vertical-align:middle" aria-hidden="true"></i><span class="network-text">Share on X</span></a>`;
