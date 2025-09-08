@@ -1262,6 +1262,14 @@ const createZap = async function ({ event, amount, comment = '' }) {
   zapRequestEvent.content = comment;
   console.debug('createZap - zapRequestEvent', zapRequestEvent);
 
+  // Removing these tags to be more like Primal, as that makes the Zaps
+  // work correctly for WalletOfSatoshi, where they were failing previously.
+  // Then, we re-add the tag e with value event.id.
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'lnurl');
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'a');
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'e');
+  zapRequestEvent.tags.push(['e', event.id]);
+
   const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
     console.log('Error: An error occurred in getting LnInvoice!', err);
     return null;
