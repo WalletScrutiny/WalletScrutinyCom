@@ -230,8 +230,6 @@ function showZapModal({ onClose, setZapped }) {
 
       await lnPay({ pr: currentInvoice });
 
-      document.getElementById('loadingSpinner').style.display = 'none';
-
       await subscribeToZapReceipts(event, currentInvoice, async (event) => {
         if (event) {
           modal.querySelector('#zap-modal-content-inner').style.display = 'none';
@@ -241,6 +239,8 @@ function showZapModal({ onClose, setZapped }) {
       });
     } catch (err) {
       errorDiv.textContent = err.message || 'Failed to process zap. Please try again.';
+    } finally {
+      document.getElementById('loadingSpinner').style.display = 'none';
     }
   };
 
