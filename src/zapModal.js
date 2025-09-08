@@ -233,7 +233,7 @@ function showZapModal({ onClose, setZapped }) {
       await subscribeToZapReceipts(event, currentInvoice, async (event) => {
         if (event) {
           modal.querySelector('#zap-modal-content-inner').style.display = 'none';
-          modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap received!</p>';
+          modal.querySelector('#zap-modal-content-result').innerHTML = '<p style="color: green; font-weight: bold; font-size: 2.2em;">Zap sent!</p>';
           if (onClose) onClose();
         }
       });
