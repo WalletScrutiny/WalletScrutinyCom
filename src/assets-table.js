@@ -1083,7 +1083,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
-  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-top: 9px; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
     <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
   </button>`;
   content.innerHTML += '</p>';
