@@ -41,7 +41,7 @@ permalink: /verifier/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <div id="shareButtonContainer"></div>
+  <div id="shareButtonContainerVerifier"></div>
   <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>
@@ -54,7 +54,7 @@ permalink: /verifier/
 
   window.addEventListener('verificationsUILoaded', async () => {
     renderShareButton({
-      container: "#shareButtonContainer",
+      container: "#shareButtonContainerVerifier",
       defaultMessage: "Look at my verifier profile on WalletScrutiny!",
       showRawButtons: false
     });
