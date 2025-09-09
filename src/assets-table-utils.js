@@ -10,6 +10,17 @@ export function formatDate(timestamp, short = false) {
   });
 }
 
+export function formatZapAmount(amount) {
+  if (amount >= 1000000) {
+    return `${(amount/1000000)}M`;
+  } else if (amount >= 1000) {
+    return `${(amount/1000)}K`;
+  } else {
+    return `${amount}`;
+  }
+}
+window.formatZapAmount = formatZapAmount;
+
 export function formatCommentDate(timestamp) {
   const now = new Date().getTime() / 1000;
   const diffInSeconds = now - timestamp;

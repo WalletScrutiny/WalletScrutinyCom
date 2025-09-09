@@ -1,6 +1,6 @@
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import {
-  faXTwitter,
+  faSquareXTwitter,
   faSquareFacebook,
   faLinkedin,
   faGitlab,
@@ -8,7 +8,8 @@ import {
   faReddit,
   faGooglePlay,
   faWindows,
-  faApple
+  faApple,
+  faBitcoin
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faCopy,
@@ -84,7 +85,7 @@ library.add(
   faPlus,
   faMinus,
   // Brands
-  faXTwitter,
+  faSquareXTwitter,
   faSquareFacebook,
   faLinkedin,
   faGitlab,
@@ -92,7 +93,8 @@ library.add(
   faReddit,
   faGooglePlay,
   faWindows,
-  faApple
+  faApple,
+  faBitcoin
 );
 
 dom.watch();

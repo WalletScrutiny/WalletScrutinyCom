@@ -1,9 +1,10 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
-import { formatDate, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
+import { formatDate, formatZapAmount, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { renderCommentsSection } from './assets-table-comments.js';
+import { showZapModal } from './zapModal.js';
 
 let response = null;
 let originalUrlBeforeModal = ''; // Store the URL before opening the modal
@@ -1018,7 +1019,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
           showToast('You must have a Nostr extension to endorse a verification.', 'error');
           return;
         }
-        const npub = await getNpubFromPubkey(window.userPubkey);
+        const npub = getNpubFromPubkey(window.userPubkey);
         await createEndorsement({ validity: isValid, verificationEventId, sha256Hash, endorserNpubkey: npub });
         closeModal();
         await showToast(`Successfully marked as ${isValid ? 'Valid' : 'Invalid'}.`, 'success');
@@ -1076,12 +1077,15 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
-  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`; 
+  content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`;
   content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
   if (!isDraft && !isMine) {
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
+  </button>`;
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
@@ -1108,7 +1112,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML += `
     <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
-    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)} </p>
+    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
+    <p style="display: none;" id="zaps"></p>
     <p style="display: none;" id="endorsements"></p>`;
 
   const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
@@ -1286,6 +1291,17 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   const profile = await getNostrProfile(verification.pubkey);
+  if (profile && (profile.lud16 || profile.lud06)) {
+    document.getElementById('zapButton').style.display = 'inline-block';
+  } else {
+    const zapBtn = document.getElementById('zapButton');
+    zapBtn.style.display = 'inline-block';
+    zapBtn.disabled = true;
+    zapBtn.style.backgroundColor = '#ccc';
+    zapBtn.style.color = '#888';
+    zapBtn.style.cursor = 'not-allowed';
+    zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+  }
 
   document.getElementById('attempt-by').innerHTML = profile ? `
     <div class="profile-card">
@@ -1297,6 +1313,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>
   ` : verification.pubkey;
 
+  /* -------------------- Based on -------------------- */
   if (basedOn) {
     const basedOnProfile = await getNostrProfile(basedOn.split(':')[1]);
     document.getElementById('based-on-attempt-by').innerHTML = basedOnProfile ? `
@@ -1310,6 +1327,60 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     ` : basedOn.split(':')[1];
   }
 
+  /* -------------------- Zap -------------------- */
+  let zapsHTML = '';
+  const zapReceipts = [];
+
+  subscribeToZapReceipts(verification, null, async (zapReceiptEvent) => {
+    if (zapReceiptEvent) {
+      const zapReceiptInvoice = zapReceiptEvent.tagValue("bolt11");
+      const descriptionJSON = zapReceiptEvent.tagValue("description");
+      const description = JSON.parse(descriptionJSON);
+      const content = description.content;
+      const zapRequest = zapReceiptEvent.zapRequest;
+      const zapAmount = zapRequest.amount / 1000;
+      const zapperProfile = await getNostrProfile(description.pubkey);
+
+      zapReceipts.push({
+        zapAmount,
+        zapReceiptInvoice,
+        content,
+        zapperProfile,
+        zapperPubkey: description.pubkey,
+        created_at: zapReceiptEvent.created_at
+      });
+
+      let zapTotalAmount = 0;
+
+      zapReceipts.sort((a, b) => b.zapAmount - a.zapAmount).forEach((zap) => {
+        zapTotalAmount += zap.zapAmount;
+        const npub = getNpubFromPubkey(zap.zapperPubkey);
+        zapsHTML += `
+          <div class="profile-card" style="margin-left: 15px; font-size: 14px; margin-bottom: 13px;">
+            ${zap.zapperProfile ? `${zap.zapperProfile.image ? `
+              <img src="${zap.zapperProfile.image}" class="profile-image"
+                  title="${zap.zapperProfile.name || zap.zapperPubkey} - ${zap.zapperProfile.nip05 ?? ''} - Click to open in Njump.me"
+                  onclick="window.open('https://njump.me/${npub}', '_blank')"
+                  onerror="this.style.display='none'"
+              />` : ''}` :
+              `<span onclick="window.open('https://njump.me/${npub}', '_blank')" style="cursor: pointer; margin-top: 14px; margin-bottom: 14px;" title="${zap.zapperPubkey} - Click to open in Njump.me">${zap.zapperPubkey.slice(0, 3)}...${zap.zapperPubkey.slice(-2)}</span>`}
+            <div>
+              ${formatZapAmount(zap.zapAmount)} sats
+              <br>
+              Zapped by ${zap.zapperProfile ? `${zap.zapperProfile.name || zap.zapperPubkey}` : zap.zapperPubkey} on ${formatDate(zap.created_at, true)}
+              ${zap.content ? `<br>Message: ${zap.content}` : ''}
+            </div>
+          </div>`;
+      });
+
+      const zapsElement = document.getElementById('zaps');
+      zapsElement.style.display = 'block';
+      zapsElement.innerHTML = `<p><strong>Zaps received for this verification (${formatZapAmount(zapTotalAmount)} sats):</strong> ${zapsHTML}</p>`;
+      zapsHTML = '';
+    }
+  });
+
+  /* -------------------- Endorsements -------------------- */
   // Wait in a loop until endorsements.loaded is true
   while (!endorsements.loaded) {
     await new Promise(resolve => setTimeout(resolve, 50));
@@ -1325,7 +1396,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     for (const endorsement of endorsementsForThisVerification) {
       const validity = getFirstTagValue(endorsement, 'validity');
       const endorserProfile = await getNostrProfile(endorsement.pubkey);
-      const endorserNpub = await getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
+      const endorserNpub = getNpubFromPubkey(endorsement.pubkey) ?? endorsement.pubkey;
       endorsementsHTML += `
         <div class="profile-card" style="margin-top: 5px; margin-left: 15px;">
           ${endorserProfile ? `${endorserProfile.image ? `
