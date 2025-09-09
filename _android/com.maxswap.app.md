@@ -52,7 +52,7 @@ Yes the BTC wallet can send and receive but the seed phrases were not provided t
 Custodial. MaxSwap explicitly describes their service as a "custodial wallet" and uses an account-based system:
 - *"Reliable custodial wallet"* (Google Play Store description)
 - *"You need only your email without any personal data for successful registration. Access to your account is managed through a PIN, fingerprint, Face ID"* (Play Store listing)
-- *"You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account"* ([Terms of Use](https://maxswap.cc))
+- *"You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account"* ([Terms of Use](https://maxswap.cc/terms-of-use/))
 
 ## Conclusion
 
