@@ -4,7 +4,7 @@ title: Cust Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.oberton.app
 appCountry: 
 released: 2021-09-15

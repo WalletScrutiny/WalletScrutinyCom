@@ -12,7 +12,7 @@ updated: 2025-08-29
 version: 2.7.1
 stars: 4.3
 ratings: 
-reviews: 130
+reviews: 129
 website: http://vault12.com
 repository: https://github.com/vault12
 issue: 

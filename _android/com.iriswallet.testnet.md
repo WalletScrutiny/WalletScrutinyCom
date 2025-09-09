@@ -3,7 +3,7 @@ wsId:
 title: Iris Wallet Testnet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.iriswallet.testnet
 appCountry: 

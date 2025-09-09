@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.flashratings.hodl.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-09-11
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

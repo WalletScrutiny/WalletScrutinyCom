@@ -11,7 +11,7 @@ updated: 2025-06-03
 version: 5.8.0
 stars: 2.9
 ratings: 58803
-reviews: 2059
+reviews: 2060
 website: http://electroneum.com
 repository: 
 issue: 

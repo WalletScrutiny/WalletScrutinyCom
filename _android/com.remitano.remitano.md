@@ -12,7 +12,7 @@ updated: 2025-08-28
 version: 8.0.12
 stars: 4.3
 ratings: 19172
-reviews: 513
+reviews: 514
 website: https://remitano.com
 repository: 
 issue: 

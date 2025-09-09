@@ -1,6 +1,6 @@
 ---
 wsId: croptyWallet
-title: Cropty – Crypto Wallet & Loans
+title: Crypto wallet – Bitcoin & USDT
 altTitle: 
 authors:
 - danny

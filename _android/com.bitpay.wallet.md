@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: BitPay Bitcoin & Crypto Wallet
+title: 'BitPay: Buy BTC ETH & Solana'
 altTitle: 
 authors:
 - leo
@@ -11,11 +11,11 @@ users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
 released: 2016-10-01
-updated: 2025-08-15
+updated: 2025-08-29
 version: 14.33.5
 stars: 4
 ratings: 9809
-reviews: 2273
+reviews: 2276
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 issue: https://github.com/bitpay/bitpay-app/issues/1431

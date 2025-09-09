@@ -10,9 +10,9 @@ appCountry:
 released: 2015-11-25
 updated: 2025-09-01
 version: 28.14.5
-stars: 3.6
+stars: 3.5
 ratings: 
-reviews: 210
+reviews: 211
 website: http://www.bunq.com
 repository: 
 issue: 

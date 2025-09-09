@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: jp.co.monex.ms.mt_crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2023-05-05
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

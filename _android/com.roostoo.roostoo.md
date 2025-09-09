@@ -8,8 +8,8 @@ users: 50000
 appId: com.roostoo.roostoo
 appCountry: 
 released: 2019-07-15
-updated: 2025-08-11
-version: 2.0.4
+updated: 2025-09-08
+version: 2.0.5
 stars: 3.3
 ratings: 185
 reviews: 13

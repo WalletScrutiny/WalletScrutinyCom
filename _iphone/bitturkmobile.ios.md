@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: bitturkmobile.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-01-22
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

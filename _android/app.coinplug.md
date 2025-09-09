@@ -3,7 +3,7 @@ wsId: coinPlugNG
 title: CoinPlug - Swap Crypto to Cash
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.coinplug
 appCountry: 
@@ -25,7 +25,7 @@ date: 2025-08-29
 signer: 
 twitter: trycoinplug
 social:
-- https://www.instagram.com/trycoinplug 
+- https://www.instagram.com/trycoinplug
 redirect_from: 
 developerName: CoinPlug Digitals LTD
 features: 

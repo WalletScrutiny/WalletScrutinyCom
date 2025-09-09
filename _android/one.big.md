@@ -12,7 +12,7 @@ updated: 2025-08-21
 version: 2.6.0
 stars: 3.9
 ratings: 836
-reviews: 57
+reviews: 56
 website: https://www.b1.zone/
 repository: 
 issue: 

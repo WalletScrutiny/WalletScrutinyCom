@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-01
 updated: 2025-06-30
 version: 1.1.23
-stars: 4.5
+stars: 4.3
 ratings: 
-reviews: 8
+reviews: 9
 website: https://stealthex.io/
 repository: 
 issue: 

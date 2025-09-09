@@ -10,7 +10,7 @@ appCountry:
 released: 2014-10-02
 updated: 2025-08-24
 version: 7.0.15
-stars: 4.1
+stars: 4.2
 ratings: 37358
 reviews: 73
 website: http://www.xtrade.com

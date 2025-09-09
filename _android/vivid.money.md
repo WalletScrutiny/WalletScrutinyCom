@@ -8,8 +8,8 @@ users: 1000000
 appId: vivid.money
 appCountry: 
 released: 2020-10-09
-updated: 2025-08-27
-version: 3.79.0
+updated: 2025-09-03
+version: 3.80.0
 stars: 2.5
 ratings: 
 reviews: 8

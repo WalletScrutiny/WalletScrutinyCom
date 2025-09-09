@@ -3,16 +3,16 @@ wsId: coinPlugNG
 title: CoinPlug - Swap Crypto to Cash
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.coinplug.ng
 appCountry: ng
 idd: '6477541960'
-released: '2024-05-09T07:00:00Z'
+released: 2024-05-09
 updated: 2025-07-09
 version: 2.1.1
-stars: 3.88889
+stars: 3.9
 reviews: 9
-website: ''
+website: 
 repository: 
 issue: 
 icon: app.coinplug.ng.jpg
@@ -24,7 +24,7 @@ date: 2025-08-29
 signer: 
 twitter: trycoinplug
 social:
-- https://www.instagram.com/trycoinplug 
+- https://www.instagram.com/trycoinplug
 features: 
 developerName: COINPLUG LTD
 

@@ -3,7 +3,7 @@ wsId: maxSwapApp
 title: 'MaxSwap: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.maxswap.app
 appCountry: 

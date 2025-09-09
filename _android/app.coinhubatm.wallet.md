@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-11
 updated: 2025-03-24
 version: 4.16.0
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 13
 website: https://coinhubatm.com/

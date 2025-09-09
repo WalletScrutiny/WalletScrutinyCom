@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinstats.crypto.portfolio
 appCountry: 
 released: 2018-04-27
-updated: 2025-08-18
-version: 5.24.6
+updated: 2025-09-04
+version: 5.24.7
 stars: 4.5
 ratings: 
-reviews: 2580
+reviews: 2584
 website: https://coinstats.app
 repository: 
 issue: 

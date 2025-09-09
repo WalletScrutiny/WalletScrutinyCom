@@ -3,7 +3,7 @@ wsId:
 title: Aspen Digital
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.prod.aspen
 appCountry: 

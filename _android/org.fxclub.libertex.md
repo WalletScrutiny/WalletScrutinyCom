@@ -9,7 +9,7 @@ appId: org.fxclub.libertex
 appCountry: cl
 released: 2015-05-22
 updated: 2025-08-25
-version: 2.47.1
+version: 2.48.0
 stars: 4
 ratings: 77624
 reviews: 1263

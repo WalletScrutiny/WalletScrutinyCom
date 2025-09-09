@@ -10,7 +10,7 @@ appCountry: ng
 released: 2020-11-30
 updated: 2025-08-22
 version: 1.108.0
-stars: 4
+stars: 4.1
 ratings: 62
 reviews: 68
 website: https://btse.com

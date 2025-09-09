@@ -6,7 +6,7 @@ authors:
 released: 2009-01-04
 discontinued: 
 updated: 2025-03-06
-version: 28.1.knots20250305
+version: 29.1.knots20250903
 binaries: 
 provider: Luke Dash Jr
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bitcoinknots.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-24
+date: 2025-09-04
 twitter: BitcoinKnots
 social: 
 features: 

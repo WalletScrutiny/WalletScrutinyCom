@@ -9,7 +9,7 @@ appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
 updated: 2025-08-27
-version: 25.7.2
+version: 25.8.2
 stars: 3.1
 ratings: 
 reviews: 90

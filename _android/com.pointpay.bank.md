@@ -10,9 +10,9 @@ appCountry:
 released: 2020-07-21
 updated: 2025-08-28
 version: 8.8.63
-stars: 4
+stars: 4.1
 ratings: 3831
-reviews: 137
+reviews: 139
 website: https://pointpay.io/
 repository: 
 issue: 

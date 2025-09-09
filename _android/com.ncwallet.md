@@ -8,11 +8,11 @@ users: 1000000
 appId: com.ncwallet
 appCountry: 
 released: 2022-10-18
-updated: 2025-08-27
-version: 1.0.857
-stars: 4.1
+updated: 2025-09-04
+version: 1.0.866
+stars: 4.2
 ratings: 
-reviews: 641
+reviews: 645
 website: https://ncwallet.net
 repository: 
 issue: 

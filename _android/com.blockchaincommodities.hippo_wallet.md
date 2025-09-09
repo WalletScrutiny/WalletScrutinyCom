@@ -1,6 +1,6 @@
 ---
 wsId: hippoCrypto
-title: 'Hippo: Crypto & Bitcoin Wallet'
+title: 'Hippo Wallet: Crypto Wallet'
 altTitle: 
 authors:
 - danny

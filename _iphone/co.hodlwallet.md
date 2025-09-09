@@ -18,10 +18,10 @@ repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 
 icon: co.hodlwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: sourceavailable
 appHashes: 
-date: 2025-07-03
+date: 2025-09-09
 signer: 
 twitter: hodlwallet
 social:

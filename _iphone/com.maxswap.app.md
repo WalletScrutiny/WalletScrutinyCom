@@ -3,11 +3,11 @@ wsId: maxSwapApp
 title: Crypto Bitcoin Wallet MaxSwap
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.maxswap.app
 appCountry: ca
 idd: '6501994899'
-released: '2024-12-13T08:00:00Z'
+released: 2024-12-13
 updated: 2024-12-14
 version: 1.0.1
 stars: 0

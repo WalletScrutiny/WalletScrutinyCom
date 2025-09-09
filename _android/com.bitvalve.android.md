@@ -10,9 +10,9 @@ appCountry:
 released: 2019-10-29
 updated: 2025-07-18
 version: 1.37.0
-stars: 4.5
+stars: 4.4
 ratings: 300
-reviews: 54
+reviews: 56
 website: https://www.bitvalve.com
 repository: 
 issue: 

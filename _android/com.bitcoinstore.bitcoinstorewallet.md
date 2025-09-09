@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitcoinstore.bitcoinstorewallet
 appCountry: 
 released: 2023-01-03
-updated: 2025-08-25
-version: 1.0.52
+updated: 2025-09-02
+version: 1.0.53
 stars: 
 ratings: 
 reviews: 

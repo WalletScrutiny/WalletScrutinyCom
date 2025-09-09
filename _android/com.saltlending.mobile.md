@@ -4,7 +4,7 @@ title: SALT Crypto Loans
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.saltlending.mobile
 appCountry: us
 released: 2019-01-07

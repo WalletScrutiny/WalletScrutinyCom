@@ -3,14 +3,14 @@ wsId: albyGo
 title: Alby Go
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.getalby.mobile
 appCountry: 
-released: Sep 16, 2024
+released: 2024-09-16
 updated: 2025-08-22
 version: 1.14.1
-stars: 4.571429
+stars: 4.6
 ratings: 
 reviews: 6
 website: https://getalby.com/
@@ -27,7 +27,7 @@ twitter: getAlby
 social:
 - https://phoenix.social/p/npub1getal6ykt05fsz5nqu4uld09nfj3y3qxmv8crys4aeut53unfvlqr80nfm
 - https://www.youtube.com/@getalbycom
-- https://discord.com/invite/5wG4Gr5Fxm 
+- https://discord.com/invite/5wG4Gr5Fxm
 redirect_from: 
 developerName: Alby Inc.
 features: 
