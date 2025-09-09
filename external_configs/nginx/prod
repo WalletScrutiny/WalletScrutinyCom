@@ -37,6 +37,11 @@ server {
         add_header Cache-Control "public, must-revalidate";
         add_header Vary Accept-Encoding;
     }
+    location ~* bundle\.min\.js$ {
+        expires 100y;
+        add_header Cache-Control "public, immutable";
+        add_header Vary Accept-Encoding;
+    }
     location ~* \.(css|js)$ {
         expires 3h;
         add_header Cache-Control "public, immutable";
