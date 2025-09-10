@@ -114,16 +114,57 @@ export function getStatusText(status, short = false) {
   }
 }
 
+function isGitHubUrl(url) {
+  return url.includes('github.com') && (url.includes('/issue'));
+}
+
+function extractGitHubIssueInfo(url) {
+  const match = url.match(/github\.com\/([^\/]+)\/([^\/]+)\/(?:issues?)\/(\d+)/);
+  if (match) {
+    return {
+      owner: match[1],
+      repo: match[2],
+      number: match[3]
+    };
+  }
+  return null;
+}
+
+async function getGitHubIssueStatus(issueInfo) {
+  try {
+    const url = `https://api.github.com/repos/${issueInfo.owner}/${issueInfo.repo}/issues/${issueInfo.number}`;
+    const response = await fetch(url);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    
+    return {
+      state: data.state,
+      title: data.title,
+      html_url: data.html_url,
+      created_at: data.created_at,
+      updated_at: data.updated_at,
+      closed_at: data.closed_at
+    };
+  } catch (error) {
+    console.error('❌ Error fetching GitHub issue status:', error);
+    return null;
+  }
+}
+
 function getIssueTrackerInfoFromVerificationsInformation(verificationsInformation) {
   const issueTrackerInfo = [];
 
-  verificationsInformation.forEach(verificationsArrayForThisHash => {
-    verificationsArrayForThisHash.forEach(verification => {
+  verificationsInformation.forEach((verificationsArrayForThisHash, hashIndex) => {
+    verificationsArrayForThisHash.forEach((verification, verificationIndex) => {
       const issueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url');
       if (issueTrackerUrl) {
         const version = getFirstTagValue(verification, 'version');
         const createdAt = verification.created_at;
-        
+
         issueTrackerInfo.push({ issueTrackerUrl, version, createdAt });
       }
     });
@@ -134,22 +175,51 @@ function getIssueTrackerInfoFromVerificationsInformation(verificationsInformatio
   return issueTrackerInfo;
 }
 
-export function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
+export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
   let issueTrackerInfo = getIssueTrackerInfoFromVerificationsInformation(verificationsInformation);
 
-  issueTrackerInfo = issueTrackerInfo.slice(0, onlyFirstNumberOfIssues);
+  const openIssues = [];
+  const nonGitHubIssues = [];
 
-  if (issueTrackerInfo.length > 0) {
+  for (const info of issueTrackerInfo) {
+    if (isGitHubUrl(info.issueTrackerUrl)) {
+      const issueInfo = extractGitHubIssueInfo(info.issueTrackerUrl);
+      let status = null;
+      if (issueInfo) {
+        status = await getGitHubIssueStatus(issueInfo);
+      }
+
+      if (!issueInfo || (issueInfo && (!status || (status && status.state === 'open')))) {
+        openIssues.push({ ...info, status });
+      }
+    } else {
+      nonGitHubIssues.push(info);
+    }
+  }
+
+  // Combine open GitHub issues with non-GitHub issues, prioritizing open GitHub issues
+  const filteredIssues = [...openIssues, ...nonGitHubIssues].slice(0, onlyFirstNumberOfIssues);
+
+  if (filteredIssues.length > 0) {
     const issueTrackerContainer = document.createElement('div');
     issueTrackerContainer.className = 'issue-tracker-container';
     issueTrackerContainer.innerHTML = `
       <p>Issue Tracker Info</p>
       <small>Issues opened by verifiers while reproducing different versions. Most recent first. Check before starting a new verification.</small>
-      <ul>
-        ${issueTrackerInfo.map(info => `<li>${formatDate(info.createdAt)} - ${info.version} - <a href="${info.issueTrackerUrl}" target="_blank">${info.issueTrackerUrl}</a></li>`).join('')}
+      <ul id="issue-tracker-list">
+        ${filteredIssues.map((info, index) => `
+          <li id="issue-item-${index}">
+            ${formatDate(info.createdAt)} - ${info.version} - 
+            <a href="${info.issueTrackerUrl}" target="_blank">${info.issueTrackerUrl}</a>
+          </li>
+        `).join('')}
       </ul>`;
 
-    document.getElementById(htmlElementId).appendChild(issueTrackerContainer);
+    const targetElement = document.getElementById(htmlElementId);
+    
+    if (targetElement) {
+      targetElement.appendChild(issueTrackerContainer);
+    }
   }
 }
 window.showIssueTrackerHtmlWidget = showIssueTrackerHtmlWidget;
