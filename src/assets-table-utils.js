@@ -155,16 +155,6 @@ async function getGitHubIssueStatus(issueInfo) {
   }
 }
 
-function getStatusBadge(state) {
-  const badges = {
-    'open': { text: 'Open', class: 'status-open', emoji: '🟢' },
-    'closed': { text: 'Closed', class: 'status-closed', emoji: '🔴' }
-  };
-  
-  const badge = badges[state] || { text: 'Unknown', class: 'status-unknown', emoji: '⚪' };
-  return `<span class="github-status-badge ${badge.class}">${badge.emoji} ${badge.text}</span>`;
-}
-
 function getIssueTrackerInfoFromVerificationsInformation(verificationsInformation) {
   const issueTrackerInfo = [];
 
@@ -185,23 +175,42 @@ function getIssueTrackerInfoFromVerificationsInformation(verificationsInformatio
   return issueTrackerInfo;
 }
 
-export function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
+export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlElementId, onlyFirstNumberOfIssues = 3) {
   let issueTrackerInfo = getIssueTrackerInfoFromVerificationsInformation(verificationsInformation);
 
-  issueTrackerInfo = issueTrackerInfo.slice(0, onlyFirstNumberOfIssues);
+  const openIssues = [];
+  const nonGitHubIssues = [];
 
-  if (issueTrackerInfo.length > 0) {
+  for (const info of issueTrackerInfo) {
+    if (isGitHubUrl(info.issueTrackerUrl)) {
+      const issueInfo = extractGitHubIssueInfo(info.issueTrackerUrl);
+      let status = null;
+      if (issueInfo) {
+        status = await getGitHubIssueStatus(issueInfo);
+      }
+
+      if (!issueInfo || (issueInfo && (!status || (status && status.state === 'open')))) {
+        openIssues.push({ ...info, status });
+      }
+    } else {
+      nonGitHubIssues.push(info);
+    }
+  }
+
+  // Combine open GitHub issues with non-GitHub issues, prioritizing open GitHub issues
+  const filteredIssues = [...openIssues, ...nonGitHubIssues].slice(0, onlyFirstNumberOfIssues);
+
+  if (filteredIssues.length > 0) {
     const issueTrackerContainer = document.createElement('div');
     issueTrackerContainer.className = 'issue-tracker-container';
     issueTrackerContainer.innerHTML = `
       <p>Issue Tracker Info</p>
       <small>Issues opened by verifiers while reproducing different versions. Most recent first. Check before starting a new verification.</small>
       <ul id="issue-tracker-list">
-        ${issueTrackerInfo.map((info, index) => `
+        ${filteredIssues.map((info, index) => `
           <li id="issue-item-${index}">
             ${formatDate(info.createdAt)} - ${info.version} - 
             <a href="${info.issueTrackerUrl}" target="_blank">${info.issueTrackerUrl}</a>
-            <span id="github-status-${index}" class="github-status-loading">⏳ Checking status...</span>
           </li>
         `).join('')}
       </ul>`;
@@ -211,31 +220,6 @@ export function showIssueTrackerHtmlWidget(verificationsInformation, htmlElement
     if (targetElement) {
       targetElement.appendChild(issueTrackerContainer);
     }
-
-    // Check GitHub issues status asynchronously
-    issueTrackerInfo.forEach(async (info, index) => {
-       if (isGitHubUrl(info.issueTrackerUrl)) {
-        const issueInfo = extractGitHubIssueInfo(info.issueTrackerUrl);
-        if (issueInfo) {
-          const status = await getGitHubIssueStatus(issueInfo);
-           
-          const statusElement = document.getElementById(`github-status-${index}`);
-          
-          if (status) {
-            statusElement.innerHTML = getStatusBadge(status.state);
-            statusElement.className = 'github-status-badge-container';
-          }
-        } else {
-          const statusElement = document.getElementById(`github-status-${index}`);
-          statusElement.innerHTML = '<span class="github-status-error">❌ Invalid GitHub URL</span>';
-          statusElement.className = 'github-status-error-container';
-        }
-      } else {
-        // Hide status for non-GitHub URLs
-        const statusElement = document.getElementById(`github-status-${index}`);
-        statusElement.style.display = 'none';
-      }
-    });
   }
 }
 window.showIssueTrackerHtmlWidget = showIssueTrackerHtmlWidget;
