@@ -12,7 +12,7 @@ updated: 2025-09-02
 version: 1.2.0.1
 stars: 3.5
 ratings: 2731
-reviews: 18
+reviews: 17
 website: http://binarium.support
 repository: 
 issue: 

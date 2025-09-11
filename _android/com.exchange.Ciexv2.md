@@ -8,8 +8,8 @@ users: 10000
 appId: com.exchange.Ciexv2
 appCountry: 
 released: 2022-07-20
-updated: 2025-05-28
-version: 1.0.0
+updated: 2025-09-09
+version: 6.5.4
 stars: 3.4
 ratings: 
 reviews: 3

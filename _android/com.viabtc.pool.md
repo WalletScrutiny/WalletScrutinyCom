@@ -8,11 +8,11 @@ users: 1000000
 appId: com.viabtc.pool
 appCountry: 
 released: 2017-12-16
-updated: 2025-09-08
-version: 3.10.0
+updated: 2025-09-11
+version: 3.10.1
 stars: 4.1
 ratings: 
-reviews: 333
+reviews: 334
 website: https://www.viabtc.com/
 repository: 
 issue: 

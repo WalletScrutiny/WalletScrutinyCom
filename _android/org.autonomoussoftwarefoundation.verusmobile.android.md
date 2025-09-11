@@ -12,7 +12,7 @@ updated: 2025-09-03
 version: 1.0.30
 stars: 3.5
 ratings: 
-reviews: 30
+reviews: 31
 website: https://verus.io/
 repository: https://github.com/VerusCoin/Verus-Mobile
 issue: https://github.com/VerusCoin/Verus-Mobile/issues/207

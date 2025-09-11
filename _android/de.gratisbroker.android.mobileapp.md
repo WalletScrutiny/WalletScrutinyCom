@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-02
 updated: 2025-09-01
 version: 5.6.0
-stars: 4
+stars: 3.9
 ratings: 
 reviews: 8
 website: https://www.finanzen.net/zero

@@ -8,8 +8,8 @@ users: 1000000
 appId: com.wallet.crypto.btc.eth
 appCountry: 
 released: 2023-09-06
-updated: 2025-08-01
-version: 1.6.18
+updated: 2025-09-10
+version: 1.7.2
 stars: 4.2
 ratings: 
 reviews: 53

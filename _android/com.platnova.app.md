@@ -12,7 +12,7 @@ updated: 2025-09-04
 version: 1.1.8
 stars: 2.7
 ratings: 
-reviews: 13
+reviews: 12
 website: https://platnova.com/
 repository: 
 issue: 

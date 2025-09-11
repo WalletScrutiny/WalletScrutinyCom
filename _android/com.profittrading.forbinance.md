@@ -12,7 +12,7 @@ updated: 2025-08-23
 version: 16.6.15
 stars: 4.3
 ratings: 1851
-reviews: 121
+reviews: 122
 website: https://profittrading.app/
 repository: 
 issue: 

@@ -13,7 +13,7 @@ version: 1.3.7
 stars: 2.8
 ratings: 69
 reviews: 16
-website: https://bisq.network/mobile-notifications
+website: https://bisq.network/
 repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: com.joachimneumann.bisq.png

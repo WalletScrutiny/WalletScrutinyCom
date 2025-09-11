@@ -4,7 +4,7 @@ title: 'Spark Wallet: Earn Rewards'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.sparkwallet
 appCountry: 
 released: 2022-02-09

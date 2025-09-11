@@ -12,7 +12,7 @@ updated: 2025-09-05
 version: 6.53.0
 stars: 4.5
 ratings: 20716
-reviews: 7642
+reviews: 7649
 website: https://uphold.com
 repository: 
 issue: 

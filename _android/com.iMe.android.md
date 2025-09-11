@@ -12,7 +12,7 @@ updated: 2025-08-30
 version: 11.14.2
 stars: 4.6
 ratings: 
-reviews: 730
+reviews: 731
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
 issue: https://github.com/imemessenger/iMe-Android/issues/10

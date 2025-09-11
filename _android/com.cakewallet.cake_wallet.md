@@ -9,11 +9,11 @@ users: 100000
 appId: com.cakewallet.cake_wallet
 appCountry: 
 released: 2020-01-01
-updated: 2025-08-26
-version: 5.3.0
+updated: 2025-09-09
+version: 5.4.0
 stars: 4.8
 ratings: 730
-reviews: 555
+reviews: 558
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/337

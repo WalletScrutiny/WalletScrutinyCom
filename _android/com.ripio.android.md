@@ -12,7 +12,7 @@ updated: 2025-08-28
 version: 6.3.0
 stars: 3.7
 ratings: 34376
-reviews: 173
+reviews: 174
 website: https://ripio.com
 repository: 
 issue: 

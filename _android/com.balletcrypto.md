@@ -12,7 +12,7 @@ version: 2.21.1
 stars: 4.8
 ratings: 658
 reviews: 159
-website: https://www.balletcrypto.com/
+website: https://www.ballet.com/
 repository: 
 issue: 
 icon: com.balletcrypto.png
