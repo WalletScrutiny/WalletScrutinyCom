@@ -165,7 +165,14 @@ function getIssueTrackerInfoFromVerificationsInformation(verificationsInformatio
         const version = getFirstTagValue(verification, 'version');
         const createdAt = verification.created_at;
 
-        issueTrackerInfo.push({ issueTrackerUrl, version, createdAt });
+        const issueAlreadyPushed = issueTrackerInfo.find(info => info.issueTrackerUrl === issueTrackerUrl);
+        if (issueAlreadyPushed) {
+          if (issueAlreadyPushed.createdAt < createdAt) {
+            issueAlreadyPushed.createdAt = createdAt;
+          }
+        } else {
+          issueTrackerInfo.push({ issueTrackerUrl, version, createdAt });
+        }
       }
     });
   });
