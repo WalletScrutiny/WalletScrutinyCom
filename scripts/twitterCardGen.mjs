@@ -84,8 +84,9 @@ function initializeWorkers() {
 function showFinalSummary() {
   const totalTime = ((Date.now() - startTime) / 1000).toFixed(1);
   const cardsPerSecond = (processedCount / (totalTime || 1)).toFixed(1);
-  
-  console.log(`\n\n✅ Generation Complete!`);
+  const hadErrors = errorCount > 0;
+
+  console.log(`\n\n${hadErrors ? '❌ Generation Failed!' : '✅ Generation Complete!'}`);
   console.log(`📈 Summary: ${processedCount} cards generated, ${errorCount} errors`);
   console.log(`⏱️  Total time: ${totalTime}s (${cardsPerSecond} cards/sec)`);
   console.log(`🚀 Used ${numWorkers} worker threads`);
@@ -99,6 +100,11 @@ function showFinalSummary() {
   
   // Terminate all workers
   workers.forEach(workerInfo => workerInfo.worker.terminate());
+
+  // If any error occurred, exit with non-zero to fail the calling script
+  if (hadErrors) {
+    process.exit(1);
+  }
 }
 
 async function processFiles() {
