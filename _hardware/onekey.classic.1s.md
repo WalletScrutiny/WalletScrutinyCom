@@ -1,5 +1,5 @@
 ---
-title: OneKey - Classic 1S
+title: OneKey Classic 1S
 appId: onekey.classic.1s
 authors:
 - danny

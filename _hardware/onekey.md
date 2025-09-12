@@ -1,5 +1,5 @@
 ---
-title: OneKey - Classic
+title: OneKey Classic
 appId: onekey
 authors:
 - kiwilamb

@@ -1,5 +1,5 @@
 ---
-title: OneKey - Pro
+title: OneKey Pro
 appId: onekey.pro
 authors:
 - danny
