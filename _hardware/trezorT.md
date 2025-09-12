@@ -8,7 +8,7 @@ authors:
 released: 2018-03-01
 discontinued: 
 updated: 2024-08-04
-version: 2.9.0
+version: 2.9.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -30,7 +30,7 @@ verdict: sourceavailable
 appHashes:
 - 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
 - 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903
-date: 2025-07-01
+date: 2025-09-11
 signer: 
 twitter: trezor
 social:

@@ -11,7 +11,7 @@ released: 2024-01-22
 updated: 2025-09-01
 version: 3.5.1
 stars: 4.5
-reviews: 358
+reviews: 372
 website: https://osl.com
 repository: 
 issue: 

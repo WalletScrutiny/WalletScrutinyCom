@@ -10,7 +10,7 @@ appCountry: au
 released: 2019-11-21
 updated: 2025-09-08
 version: 3.34.1
-stars: 4.3
+stars: 4.2
 ratings: 1248
 reviews: 1129
 website: https://www.coinjar.com

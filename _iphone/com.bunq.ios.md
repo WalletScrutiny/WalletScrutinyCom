@@ -11,7 +11,7 @@ released: 2016-02-12
 updated: 2025-08-22
 version: 28.14.2
 stars: 4.5
-reviews: 11169
+reviews: 11214
 website: https://www.bunq.com
 repository: 
 issue: 

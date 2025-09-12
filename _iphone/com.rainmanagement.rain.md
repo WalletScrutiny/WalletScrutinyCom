@@ -11,7 +11,7 @@ released: 2018-09-02
 updated: 2025-08-27
 version: 3.7.18
 stars: 4.7
-reviews: 2859
+reviews: 2862
 website: https://www.rain.bh/
 repository: 
 issue: 

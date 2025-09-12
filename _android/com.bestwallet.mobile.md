@@ -12,7 +12,7 @@ updated: 2025-09-02
 version: 2.11.0
 stars: 3.9
 ratings: 
-reviews: 743
+reviews: 745
 website: https://www.bestwallet.com
 repository: 
 issue: 

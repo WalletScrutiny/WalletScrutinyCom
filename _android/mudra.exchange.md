@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: mudra.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-05-19
+date: 2025-09-12
 signer: 
 twitter: mudraex
 social:

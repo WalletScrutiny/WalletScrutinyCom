@@ -10,8 +10,8 @@ idd: 996569075
 released: 2015-06-09
 updated: 2025-08-15
 version: 3.4.0
-stars: 4.1
-reviews: 62
+stars: 4.2
+reviews: 64
 website: https://shapeshift.com
 repository: 
 issue: 

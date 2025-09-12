@@ -11,7 +11,7 @@ released: 2021-07-27
 updated: 2025-07-27
 version: 1.7.0.1
 stars: 3.6
-reviews: 46
+reviews: 47
 website: http://bytefederal.com/vault
 repository: 
 issue: 

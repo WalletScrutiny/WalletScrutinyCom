@@ -11,7 +11,7 @@ released: 2020-11-28
 updated: 2025-07-02
 version: 2.16.1
 stars: 5
-reviews: 4
+reviews: 5
 website: https://www.coinrepublic.com.au/
 repository: 
 issue: 

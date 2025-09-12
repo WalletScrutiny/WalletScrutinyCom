@@ -8,7 +8,7 @@ authors:
 released: 2023-10-12
 discontinued: 
 updated: 2024-07-10
-version: 2.9.0
+version: 2.9.1
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
 - 59
@@ -31,7 +31,7 @@ appHashes:
 - 38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf
 - e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765
 - 9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46
-date: 2025-07-01
+date: 2025-09-11
 signer: 
 twitter: trezor
 social:

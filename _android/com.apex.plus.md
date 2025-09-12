@@ -9,7 +9,7 @@ appId: com.apex.plus
 appCountry: 
 released: 2022-08-24
 updated: 2025-09-11
-version: 3.29.0
+version: 3.29.1
 stars: 4.4
 ratings: 
 reviews: 32

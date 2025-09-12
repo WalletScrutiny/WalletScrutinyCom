@@ -1,6 +1,6 @@
 ---
 wsId: webAuthProton
-title: WebAuth
+title: 'WebAuth: Self-Custody Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.metallicus.webauth
 appCountry: us
 idd: '1594500069'
 released: 2021-12-15
-updated: 2025-07-28
-version: 2.1.36
+updated: 2025-09-10
+version: 2.1.43
 stars: 4.8
-reviews: 196
+reviews: 197
 website: https://xprnetwork.org/
 repository: 
 issue: 

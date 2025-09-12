@@ -11,7 +11,7 @@ released: 2021-11-10
 updated: 2025-09-01
 version: 5.5.11
 stars: 4.6
-reviews: 86
+reviews: 87
 website: https://foxwallet.com/
 repository: 
 issue: 
