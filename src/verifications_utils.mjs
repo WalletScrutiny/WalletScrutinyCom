@@ -199,7 +199,7 @@ function createNdkEvent(kind, content, tags = [], createdAt = null) {
 
 function validateParameterLengths(params) {
   const validationRules = {
-    appId: { maxLength: 50, name: 'App ID' },
+    appId: { maxLength: 75, name: 'App ID' },
     version: { maxLength: 30, name: 'Version' },
     platform: { maxLength: 10, name: 'Platform' },
     description: { maxLength: 120, name: 'Description' },
@@ -505,7 +505,7 @@ function eventSanitize(event) {
     sanitizedTag = sanitizedTag.replace(/"/g, '');
 
     if (tag[0] === 'i') {
-      sanitizedTag = sanitizedTag.substring(0, 50);
+      sanitizedTag = sanitizedTag.substring(0, 75);
     } else if (tag[0] === 'version') {
       sanitizedTag = sanitizedTag.substring(0, 30);
     } else if (['x', 'ox'].includes(tag[0])) {
