@@ -8,8 +8,6 @@
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
-import { execSync } from 'child_process';
-import helper from './helper.mjs';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
 import { 

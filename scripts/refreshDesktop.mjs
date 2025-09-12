@@ -8,7 +8,6 @@
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
-import helper from './helper.mjs';
 import { 
   colors, 
   createStats, 
@@ -22,7 +21,6 @@ import {
   sleep,
   extractRepoUrl,
   handleProcessingError,
-  debugLog,
   normalizeVersion,
   areVersionsEquivalent
 } from './refresh_common.mjs';
