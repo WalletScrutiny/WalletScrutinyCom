@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! command -v parallel &> /dev/null; then
+    echo "Error: 'parallel' utility is not installed or not in PATH. Please install GNU parallel to run this script"
+    exit -1
+fi
+
 # Get absolute path to the assets directory
 SITE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ASSETS_DIR="$SITE_ROOT/assets/images/pills"

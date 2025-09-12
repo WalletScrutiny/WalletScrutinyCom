@@ -87,6 +87,7 @@ async function main() {
     console.log(`Done! Saved ${saved} new events, skipped ${skipped} already existing or non-WalletScrutiny events.`);
   } catch (error) {
     console.error("Error:", error);
+    process.exit(1);
   } finally {
     process.exit(0);
   }
