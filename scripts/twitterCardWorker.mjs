@@ -28,55 +28,45 @@ const platformNames = {
 let bgImage, platformIconImages = {}, redFlagImage;
 
 async function loadWorkerResources() {
-  try {
-    bgImage = await loadImage('images/twCard/new-ws-bg-800x450.png');
-    
-    if (pkg.GlobalFonts?.registerFromPath) {
-      try {
-        pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
-        
-        const unicodeFonts = [
-          ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
-          ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],
-          ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', 'LiberationSans'],
-          ['/System/Library/Fonts/Arial Unicode MS.ttf', 'ArialUnicodeMS'],
-          ['C:\\Windows\\Fonts\\arial.ttf', 'Arial']
-        ];
-        
-        for (const [fontPath, fontName] of unicodeFonts) {
-          try {
-            if (fs.existsSync(fontPath)) {
-              pkg.GlobalFonts.registerFromPath(fontPath, fontName);
-            }
-          } catch (e) {}
-        }
-      } catch (error) {
-        console.warn(`Worker: Font registration failed: ${error.message}`);
+  bgImage = await loadImage('images/twCard/new-ws-bg-800x450.png');
+  
+  if (pkg.GlobalFonts?.registerFromPath) {
+    try {
+      pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
+      
+      const unicodeFonts = [
+        ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
+        ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],
+        ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', 'LiberationSans'],
+        ['/System/Library/Fonts/Arial Unicode MS.ttf', 'ArialUnicodeMS'],
+        ['C:\\Windows\\Fonts\\arial.ttf', 'Arial']
+      ];
+      
+      for (const [fontPath, fontName] of unicodeFonts) {
+        try {
+          if (fs.existsSync(fontPath)) {
+            pkg.GlobalFonts.registerFromPath(fontPath, fontName);
+          }
+        } catch (e) {}
       }
+    } catch (error) {
+      console.warn(`Worker: Font registration failed: ${error.message}`);
     }
-
-    const iconPaths = [
-      ['android', 'images/twCard/play-store.png'],
-      ['iphone', 'images/twCard/iphone-store.png'],
-      ['hardware', 'images/twCard/hardware-icon.png'],
-      ['desktop', 'images/twCard/desktop-icon.png'],
-      ['bearer', 'images/twCard/bearer-icon.png']
-    ];
-    
-    for (const [platform, iconPath] of iconPaths) {
-      try {
-        platformIconImages[platform] = await loadImage(iconPath);
-      } catch (error) {
-        console.warn(`Worker: Could not load ${platform} icon: ${error.message}`);
-      }
-    }
-    
-    redFlagImage = await loadImage('images/twCard/red-flag.png');
-     
-  } catch (error) {
-    console.error(`Worker: Failed to load resources: ${error.message}`);
-    throw error;
   }
+
+  const iconPaths = [
+    ['android', 'images/twCard/play-store.png'],
+    ['iphone', 'images/twCard/iphone-store.png'],
+    ['hardware', 'images/twCard/hardware-icon.png'],
+    ['desktop', 'images/twCard/desktop-icon.png'],
+    ['bearer', 'images/twCard/bearer-icon.png']
+  ];
+  
+  for (const [platform, iconPath] of iconPaths) {
+    platformIconImages[platform] = await loadImage(iconPath);
+  }
+  
+  redFlagImage = await loadImage('images/twCard/red-flag.png');
 }
 
 async function drawPlatformIcon(ctx, platform, x, y) {
