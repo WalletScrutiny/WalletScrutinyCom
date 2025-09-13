@@ -34,20 +34,15 @@ async function loadWorkerResources() {
     try {
       pkg.GlobalFonts.registerFromPath('assets/fonts/Barlow/barlow-v12-latin-500.ttf', 'Barlow');
       
-      const unicodeFonts = [
-        ['/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
-        ['/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 'DejaVuSans'],
-        ['/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', 'LiberationSans'],
-        ['/System/Library/Fonts/Arial Unicode MS.ttf', 'ArialUnicodeMS'],
-        ['C:\\Windows\\Fonts\\arial.ttf', 'Arial']
+      // Bundled Unicode fonts for consistent rendering across all systems
+      const bundledFonts = [
+        ['assets/fonts/Noto/NotoSansCJK-Regular.ttc', 'NotoSansCJK'],
+        ['assets/fonts/DejaVu/DejaVuSans.ttf', 'DejaVuSans'],
+        ['assets/fonts/Liberation/LiberationSans-Regular.ttf', 'LiberationSans']
       ];
-      
-      for (const [fontPath, fontName] of unicodeFonts) {
-        try {
-          if (fs.existsSync(fontPath)) {
-            pkg.GlobalFonts.registerFromPath(fontPath, fontName);
-          }
-        } catch (e) {}
+
+      for (const [fontPath, fontName] of bundledFonts) {
+        pkg.GlobalFonts.registerFromPath(fontPath, fontName);
       }
     } catch (error) {
       console.warn(`Worker: Font registration failed: ${error.message}`);
