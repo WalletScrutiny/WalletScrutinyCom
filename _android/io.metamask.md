@@ -13,7 +13,7 @@ updated: 2025-09-12
 version: 7.54.1
 stars: 4.5
 ratings: 57131
-reviews: 6202
+reviews: 6209
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 issue: 

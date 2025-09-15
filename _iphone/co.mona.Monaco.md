@@ -11,7 +11,7 @@ released: 2017-08-31
 updated: 2025-09-11
 version: '3.218'
 stars: 4.7
-reviews: 321446
+reviews: 321485
 website: https://crypto.com/
 repository: 
 issue: 

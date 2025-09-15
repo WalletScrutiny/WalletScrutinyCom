@@ -8,8 +8,8 @@ appId: com.unchained.Unchained
 appCountry: us
 idd: '6457364167'
 released: 2024-03-23
-updated: 2025-08-30
-version: '2.14'
+updated: 2025-09-03
+version: '2.15'
 stars: 4.8
 reviews: 72
 website: https://unchained.com/

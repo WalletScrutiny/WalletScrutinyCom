@@ -11,7 +11,7 @@ released: 2015-10-11
 updated: 2025-09-05
 version: 6.13.0
 stars: 4.7
-reviews: 922
+reviews: 924
 website: https://www.markets4you.com/en/contact-us/
 repository: 
 issue: 

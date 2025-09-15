@@ -11,7 +11,7 @@ appId: com.zengo.wallet
 appCountry: 
 released: 2020-01-19
 updated: 2025-09-08
-version: 9.2.3
+version: 9.3.2
 stars: 4.2
 ratings: 3936
 reviews: 577

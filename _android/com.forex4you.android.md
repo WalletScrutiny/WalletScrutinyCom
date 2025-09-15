@@ -10,7 +10,7 @@ appCountry: th
 released: 2015-10-06
 updated: 2025-09-07
 version: 6.12.3
-stars: 4.5
+stars: 4.6
 ratings: 2457
 reviews: 250
 website: https://www.markets4you.com/en/

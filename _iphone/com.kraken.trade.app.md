@@ -11,7 +11,7 @@ released: 2019-11-12
 updated: 2025-09-09
 version: 5.23.0
 stars: 4.7
-reviews: 21503
+reviews: 21568
 website: https://www.kraken.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: Crystal Ball Markets MT7
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: webtrader.crystalballmarkets.com
 appCountry: 
 released: 2022-05-25

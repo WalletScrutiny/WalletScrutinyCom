@@ -8,8 +8,8 @@ users: 5000
 appId: btctrade.BTCBOX
 appCountry: 
 released: 2016-04-18
-updated: 2025-09-02
-version: '1.280'
+updated: 2025-09-12
+version: '1.281'
 stars: 
 ratings: 
 reviews: 

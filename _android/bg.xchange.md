@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: bg.xchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-09-21
+date: 2025-09-15
 signer: 
 twitter: xchangebg
 social:

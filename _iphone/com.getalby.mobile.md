@@ -11,7 +11,7 @@ released: 2024-09-18
 updated: 2025-08-23
 version: 1.14.1
 stars: 4.6
-reviews: 10
+reviews: 11
 website: https://getalby.com/
 repository: 
 issue: 

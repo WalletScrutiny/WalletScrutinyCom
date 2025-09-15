@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.fulldive.extension.fdwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-09-20
+date: 2025-09-15
 signer: 
 twitter: 
 social: 

@@ -10,7 +10,7 @@ appId: com.crypto.multiwallet
 appCountry: 
 released: 2018-11-01
 updated: 2025-09-08
-version: 3.0.87
+version: 3.0.88
 stars: 3.4
 ratings: 3831
 reviews: 559

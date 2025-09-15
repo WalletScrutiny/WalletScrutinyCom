@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2025-09-07
 version: v651.910.1
 stars: 4.3
-reviews: 8052
+reviews: 8087
 website: https://www.etoro.com/en-us/
 repository: 
 issue: 

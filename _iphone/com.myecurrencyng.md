@@ -8,10 +8,10 @@ appId: com.myecurrencyng
 appCountry: us
 idd: '1628443545'
 released: 2022-10-04
-updated: 2025-09-05
-version: 2.1.0
-stars: 3.6
-reviews: 44
+updated: 2025-09-15
+version: 2.2.0
+stars: 3.5
+reviews: 45
 website: 
 repository: 
 issue: 

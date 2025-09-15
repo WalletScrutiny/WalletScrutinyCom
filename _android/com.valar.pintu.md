@@ -1,6 +1,6 @@
 ---
 wsId: Pintu
-title: 'Pintu: Buy & Invest Crypto'
+title: Pintu Trading Crypto & Futures
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 5000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2025-09-02
+updated: 2025-09-12
 version: 3.80.0
 stars: 4.4
 ratings: 28130

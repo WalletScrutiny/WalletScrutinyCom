@@ -12,7 +12,7 @@ updated: 2025-09-04
 version: 1.24.0
 stars: 4.8
 ratings: 
-reviews: 206
+reviews: 208
 website: https://noone.io
 repository: 
 issue: 

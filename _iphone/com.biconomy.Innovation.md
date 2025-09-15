@@ -11,7 +11,7 @@ released: 2019-11-06
 updated: 2025-08-13
 version: 2.3.13
 stars: 4.5
-reviews: 140
+reviews: 141
 website: http://www.biconomy.com/
 repository: 
 issue: 

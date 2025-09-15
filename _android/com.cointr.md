@@ -9,7 +9,7 @@ appId: com.cointr
 appCountry: 
 released: 2022-08-17
 updated: 2025-09-10
-version: 3.11.0
+version: 3.11.1
 stars: 3.9
 ratings: 
 reviews: 9
