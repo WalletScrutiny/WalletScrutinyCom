@@ -175,15 +175,12 @@ function searchTrigger () {
     document.querySelector('.search-controls').classList.remove('edited');
   }
 
-  clearTimeout(window.walletSearchTimeoutTrigger);
-  if (window.searchTerm && window.searchTerm.length > 1) {
-    window.walletSearchTimeoutTrigger = setTimeout(() => {
-      doNavBarSearch(window.searchTerm);
-    }, 200);
+  if (window.searchTerm) {
+    doNavBarSearch(window.searchTerm);
   }
 }
 
-function doNavBarSearch (input) {
+async function doNavBarSearch (input) {
   document.body.classList.add('search-ui-active');
   const result = document.querySelector('.results-target');
   result.classList.add('visible');
@@ -199,27 +196,37 @@ function doNavBarSearch (input) {
       result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
       document.querySelector('.search-controls').classList.remove('working');
     }
+
+    const walletRows = [];
+    let walletIndex = 0;
+    const notLazyLoadFirstRows = 6;
     for (const wallet of wallets) {
-      if (wallet.title) {
-        const walletRow = document.createElement('li');
-        if (wallets.length < 10) {
-          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms';
+      if (!wallet.title) continue;
+
+      const walletRow = document.createElement('li');
+      walletRow.classList.add('actionable');
+      let compactedResults = makeCompactResultsHTML(wallet, walletIndex > notLazyLoadFirstRows);
+      let walletGroupClass = '';
+      if (wallet.versions?.length > 0) {
+        for (let i = 0; i < wallet.versions.length; i++) {
+          compactedResults += makeCompactResultsHTML(wallet.versions[i], walletIndex > notLazyLoadFirstRows);
         }
-        walletRow.classList.add('actionable');
-        let compactedResults = '';
-        compactedResults += makeCompactResultsHTML(wallet);
-        var walletGroupClass = '';
-        if (wallet.versions && wallet.versions.length > 0) {
-          for (let i = 0; i < wallet.versions.length; i++) {
-            compactedResults += makeCompactResultsHTML(wallet.versions[i]);
-          }
-          walletGroupClass = 'grouped';
-        }
-        walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-        document.querySelector('.search-controls').classList.remove('working');
-        result.append(walletRow);
+        walletGroupClass = 'grouped';
       }
+      walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
+      walletRows.push(walletRow);
+
+      walletIndex++;
     }
+
+    if (walletRows.length > 0) {
+      result.append(...walletRows.slice(0, notLazyLoadFirstRows));
+      await new Promise(resolve => setTimeout(resolve, 50));
+      document.querySelector('.search-controls').classList.remove('working');
+      await new Promise(resolve => setTimeout(resolve, 50));
+      result.append(...walletRows.slice(notLazyLoadFirstRows));
+    }
+
   } else if (term.length !== 0) {
     var l = document.createElement('li');
     var rem = (minTermLength + 1) - term.length;
@@ -247,46 +254,59 @@ function getIcon (name) {
   return faCollection;
 }
 
-function makeCompactResultsHTML (wallet) {
-  let result = '';
+function makeCompactResultsHTML (wallet, lazyLoad) {
   const faCollection = getIcon(wallet.folder);
   const basePath = wallet.base_path || '';
-  var analysisUrl = `${basePath}${wallet.url}`;
-  let passed = '';
-  let failed = '';
+  const analysisUrl = `${basePath}${wallet.url}`;
+  
+  let scoreHTML = '';
   if (wallet.score) {
-    for (let i = 0; i < wallet.score.numerator; i++) { passed += '<i class="pass"></i>'; }
-    for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += '<i class="fail"></i>'; }
+    const passCount = wallet.score.numerator;
+    const failCount = wallet.score.denominator - wallet.score.numerator;
+    
+    const passIcons = '<i class="pass"></i>'.repeat(passCount);
+    const failIcons = '<i class="fail"></i>'.repeat(failCount);
+    
+    const scoreText = passCount !== wallet.score.denominator 
+      ? `Passed ${passCount} of ${wallet.score.denominator} tests`
+      : `Passed all ${wallet.score.denominator} tests`;
+    
+    scoreHTML = `<div class="tests-passed" data-numerator="${passCount}" data-denominator="${wallet.score.denominator}">
+      <span>${scoreText}</span>
+      <div>${passIcons}${failIcons}</div>
+    </div>`;
   }
 
-  let lastVerificationStatus = null;
-  if (window.allAssetInformation) {
-    lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId);
+  let verificationHTML = '';
+  if (wallet.verdict === 'sourceavailable' && window.allAssetInformation) {
+    const lastVerificationStatus = getLastVerificationStatusForAppId(window.allAssetInformation, wallet.appId, wallet.folder);
+    if (lastVerificationStatus) {
+      const statusIcon = lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ';
+      verificationHTML = `<span>${statusIcon}${getStatusText(lastVerificationStatus, true)}</span>`;
+    } else {
+      verificationHTML = '<span>❓ Not verified yet</span>';
+    }
   }
 
-  result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>
-      <span class="result-title-wrapper">
-        <span>${wallet.altTitle || wallet.title}</span>
-        <small>
-          <span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>
-        </small>
-      </span>
-      <span class="stats">
-        <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
-        ${wallet.verdict === 'sourceavailable' ? (lastVerificationStatus ? `<br><span>${(lastVerificationStatus === 'reproducible' ? '✅ ' : '❌ ') + getStatusText(lastVerificationStatus, true)}</span>` : '<br><span>❓ Not verified yet</span>') : ''}
-        ${wallet.meta && wallet.meta !== 'ok'
+  return [
+    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>`,
+      `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
+      '<span class="result-title-wrapper">',
+        `<span>${wallet.altTitle || wallet.title}</span>`,
+        '<small>',
+          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>`,
+        '</small>',
+      '</span>',
+      '<span class="stats">',
+        `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
+        verificationHTML,
+        wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-          : ''}
-        ${wallet.score
-          ? `<div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-            <div>${passed}${failed}</div>
-          </div>`
-        : ''}
-    </span>
-    </a>`;
-  return result;
+          : '',
+        scoreHTML,
+      '</span>',
+    '</a>'
+  ].join('');
 }
 
 function searchScrollToTop () {

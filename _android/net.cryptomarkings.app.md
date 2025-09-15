@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.cryptomarkings.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-09-02
+date: 2025-08-28
 signer: 
 twitter: crypto_markings
 social:

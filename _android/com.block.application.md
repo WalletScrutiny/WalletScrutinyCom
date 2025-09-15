@@ -27,7 +27,7 @@ twitter: uollar_io
 social:
 - https://www.instagram.com/uollar_io
 redirect_from: 
-developerName: HONG KONG SINOSKY INTERNATIONAL HOLDINGS LTD
+developerName: UOLLAR PTY LTD
 features: 
 
 ---

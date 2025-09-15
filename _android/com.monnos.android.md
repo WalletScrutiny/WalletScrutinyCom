@@ -10,9 +10,9 @@ appCountry: br
 released: 2019-09-17
 updated: 2024-11-29
 version: 6.3.14
-stars: 3.7
+stars: 3.5
 ratings: 931
-reviews: 476
+reviews: 478
 website: https://monnos.com
 repository: 
 issue: 

@@ -10,17 +10,17 @@ idd: '1600467380'
 released: 2021-12-21
 updated: 2024-08-01
 version: 1.1.59
-stars: 4
-reviews: 8
+stars: 3.7
+reviews: 9
 website: https://qmall.io/
 repository: 
 issue: 
 icon: com.profit.qmall.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-07-28
 signer: 
 twitter: QmallExchange
 social:

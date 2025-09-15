@@ -1,6 +1,6 @@
 ---
 wsId: ember
-title: Ember - Earn Crypto
+title: Ember - Play Games. Win Big.
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.emberfund.ember
 appCountry: us
 released: 2019-01-24
-updated: 2025-02-26
-version: '35.9'
-stars: 4.7
+updated: 2025-07-30
+version: '35.11'
+stars: 4.6
 ratings: 1026
-reviews: 2160
+reviews: 2266
 website: https://www.emberfund.io/
 repository: 
 issue: 

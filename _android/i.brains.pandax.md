@@ -8,20 +8,20 @@ users: 100000
 appId: i.brains.pandax
 appCountry: 
 released: 2020-06-14
-updated: 2025-07-14
+updated: 2025-09-05
 version: 3.1.3
 stars: 4.3
 ratings: 
-reviews: 257
+reviews: 264
 website: https://pandar.ng
 repository: 
 issue: 
 icon: i.brains.pandax.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosendreceive
 appHashes: 
-date: 2024-09-02
+date: 2025-08-28
 signer: 
 twitter: PandarNG
 social: 
@@ -31,26 +31,34 @@ features:
 
 ---
 
+## App Description
+
+Pandar is a Nigerian cryptocurrency exchange platform that allows users to sell Bitcoin and other cryptocurrencies for Naira cash. The app provides a Bitcoin wallet with personal wallet addresses for receiving and storing Bitcoin, which can then be sold through their exchange service. It also offers gift card trading, bill payments, virtual USD cards, and Naira wallet functionality for local transactions.
+
 ## Analysis
 
-- Self-describes as an app that allows you to buy and sell Bitcoin, but primarily transacts using Naira. 
+We were not able to test this app thoroughly due to geo-restrictions with account creation. [Pandar still has not responded](https://x.com/BitcoinWalletz/status/1830540030047318150) to our twitter message last year. [This video](https://www.youtube.com/watch?v=I6EGYnXQYQI) **seems** to show that the BTC wallet portion of the app does have a send and receive function. 
 
-## Other Observations
+**Is it a wallet?** Yes, Pandar provides Bitcoin wallet functionality with personal wallet addresses for receiving, sending and storing Bitcoin.
 
-It is one of those Nigerian "cryto > giftcard > Naira", type of apps. Registration is limited to phone numbers in Nigeria, Kenya and Ghana. Therefore, we were not able to test the app fully. The website and app has us blocked probably based on our physical location. 
+**Is it for bitcoins?** Yes, it explicitly supports Bitcoin trading and storage with dedicated Bitcoin wallet features.
 
-> If you hold any crypto such as bitcoins or others, you can sell them on the Pandar app and redeem them for Naira. It’s extremely seamless to buy or sell crypto using the Pandar app.
+**Can it send and receive bitcoins?** The app can receive Bitcoin to personal wallet addresses but **cannot send Bitcoin to external wallets**. 
 
-This x.com [post](https://x.com/PandarNG/status/1329791003302170628) in 2020 shows options to buy, sell, send and receive Bitcoin.
+**This was confirmed directly by Pandar support who stated** ["You can not send crypto from pandar."](https://x.com/BitcoinWalletz/status/1960980757129712060) The platform only allows selling Bitcoin for Naira cash.
 
-However, later posts, seems to show problems with the platform's Bitcoin-related functionalities:
+**Is the product self-custodial?** No, Pandar operates as a centralized exchange where users deposit Bitcoin to sell for Naira. Users cannot send Bitcoin to external addresses.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/PandarNG?ref_src=twsrc%5Etfw">@PandarNG</a> why can’t I sell my bitcoin</p>&mdash; Okobi Emmanuel (@OkobiEmman88060) <a href="https://twitter.com/OkobiEmman88060/status/1699717081720365359?ref_src=twsrc%5Etfw">September 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+## Verdict
 
----
+Pandar does **not support sending Bitcoin** to external addresses. While the app provides Bitcoin wallet addresses for receiving funds, it functions purely as a Bitcoin-to-Naira exchange service. Users can only deposit Bitcoin and sell it for local currency - they cannot send Bitcoin to other wallets or addresses. This limitation was confirmed by official Pandar support accessible via [chat in their support page](https://help.pandar.ng/en/articles/5391805-how-to-receive-btc-via-pandar).
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Release our money please we need it at least it doesn’t take longs confirm bitcoin on wallet so why are you trying to steal peoples money and lied about old wallet take time to confirm btc what kind of stupid and fraud excuse is that ??? 😡 <a href="https://twitter.com/PandarNG?ref_src=twsrc%5Etfw">@PandarNG</a></p>&mdash; bhadboydon (@classicdon4) <a href="https://twitter.com/classicdon4/status/1749334456769355935?ref_src=twsrc%5Etfw">January 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+## Additional Information
 
-From these posts, we can deduce that there must have been bitcoin support early in the app's initial release in 2020. This must have been removed later on, or sporadically disabled for a multitude of possible reasons. 
+Based on official documentation from their help center, Pandar offers:
+- Bitcoin Quick Sell feature for converting Bitcoin to Naira
+- Personal Bitcoin wallet addresses for receiving Bitcoin
+- Integration with Nigerian banking system for cash withdrawals
+- Gift card trading and bill payment services
+- Virtual USD cards for international payments
 
-We [posted on x.com](https://x.com/BitcoinWalletz/status/1830540030047318150) and will email them to verify if the app still has Bitcoin support. We will mark this app as a **work-in-progress** for the meantime.

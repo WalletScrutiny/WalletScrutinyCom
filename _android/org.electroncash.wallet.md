@@ -11,16 +11,16 @@ updated: 2024-09-13
 version: 4.4.1-3
 stars: 4.1
 ratings: 191
-reviews: 20
+reviews: 21
 website: https://electroncash.org
 repository: 
 issue: 
 icon: org.electroncash.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2024-09-13
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

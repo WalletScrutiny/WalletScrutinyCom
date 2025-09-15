@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.tatspace.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-12
+date: 2025-09-09
 signer: 
 twitter: tatspaceapp
 social:

@@ -8,8 +8,8 @@ users: 100000
 appId: com.exnovin
 appCountry: 
 released: 2018-07-06
-updated: 2025-07-17
-version: 2.5.5
+updated: 2025-09-08
+version: 2.5.8
 stars: 3.9
 ratings: 2380
 reviews: 87

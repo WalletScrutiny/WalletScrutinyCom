@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.floortracks.avacus.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-08-23
+date: 2025-08-18
 signer: 
 twitter: SystemAvacus
 social:

@@ -1,6 +1,6 @@
 ---
 wsId: everspace
-title: Everspace
+title: Cust Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: io.oberton
 appCountry: ua
 idd: '1585434994'
 released: 2021-09-15
-updated: 2025-01-29
-version: 2.9.6
+updated: 2025-08-19
+version: 3.0.0
 stars: 5
 reviews: 8
 website: 

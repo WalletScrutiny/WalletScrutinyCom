@@ -8,8 +8,8 @@ appId: com.saltlending.mobile
 appCountry: us
 idd: 1383851676
 released: 2019-01-07
-updated: 2025-07-08
-version: 2.16.79
+updated: 2025-08-26
+version: 2.17.8
 stars: 4.6
 reviews: 26
 website: https://saltlending.com/

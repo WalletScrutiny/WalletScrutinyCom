@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coincorner.checkout.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-12-14
+date: 2025-08-09
 signer: 
 twitter: 
 social: 

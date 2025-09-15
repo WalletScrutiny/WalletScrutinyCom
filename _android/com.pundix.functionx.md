@@ -8,11 +8,11 @@ users: 10000
 appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
-updated: 2025-06-23
-version: 5.5.1
-stars: 3.6
+updated: 2025-08-08
+version: 5.7.0
+stars: 3.5
 ratings: 363
-reviews: 42
+reviews: 43
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 

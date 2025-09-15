@@ -9,10 +9,10 @@ appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10
 updated: 2025-07-08
-version: 1.22.0
+version: 1.21.1
 stars: 4.8
 ratings: 
-reviews: 76
+reviews: 77
 website: https://www.echooo.xyz/
 repository: 
 issue: 

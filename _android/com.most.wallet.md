@@ -8,8 +8,8 @@ users: 10000
 appId: com.most.wallet
 appCountry: 
 released: 2022-02-04
-updated: 2025-02-06
-version: 1.5.42
+updated: 2025-09-03
+version: 1.8.50
 stars: 
 ratings: 
 reviews: 

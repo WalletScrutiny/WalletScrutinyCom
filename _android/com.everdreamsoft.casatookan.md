@@ -8,8 +8,8 @@ users: 10000
 appId: com.everdreamsoft.casatookan
 appCountry: 
 released: 2018-09-19
-updated: 2025-05-22
-version: 1.2.3
+updated: 2025-08-26
+version: 1.2.4
 stars: 3.7
 ratings: 
 reviews: 6

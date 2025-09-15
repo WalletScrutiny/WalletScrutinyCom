@@ -11,11 +11,11 @@ users: 1000000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2025-07-17
-version: 4.5.7
+updated: 2025-08-25
+version: 4.6.2
 stars: 4.1
 ratings: 2500
-reviews: 345
+reviews: 349
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/8838

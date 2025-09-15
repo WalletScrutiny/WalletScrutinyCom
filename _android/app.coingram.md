@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-02
 updated: 2025-05-24
 version: '4.6'
-stars: 4.8
+stars: 4.9
 ratings: 43980
-reviews: 1283
+reviews: 1296
 website: https://www.coingraam.com/
 repository: 
 issue: 

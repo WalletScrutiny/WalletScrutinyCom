@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: keystone.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-11-17
+date: 2025-07-28
 signer: 
 twitter: KeystoneWallet
 social:

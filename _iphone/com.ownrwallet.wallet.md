@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ownrwallet.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-08-26
+date: 2025-09-03
 signer: 
 twitter: ownrwallet
 social:

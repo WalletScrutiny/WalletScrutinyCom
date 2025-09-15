@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: africa.buycoins.buycoinsx.pro.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-09-14
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

@@ -41,10 +41,13 @@ permalink: /verifier/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <div id="shareButtonContainer"></div>
-  <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
-    <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
-  </a>
+  <button style="margin: 0; padding: 0; border: 0; background: transparent;" id="shareButtonContainerVerifier"></button>
+  <button class="btn btn-info" style="margin-bottom: 0;" href="" target="_blank" id="njumpLink">
+    <i class="fas fa-external-link-alt" style="margin-right: 7px; font-size: 18px;"></i> Njump.me
+  </button>
+  <button class="btn btn-info" style="margin-bottom: 0; display: none;" id="zapButtonVerifier" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+    <i class="fab fa-bitcoin" style="margin-right: 6px; font-size: 18px;"></i> Zap this verifier
+  </button>
 </div>
 
 <div id="binariesTable"></div>
@@ -54,7 +57,7 @@ permalink: /verifier/
 
   window.addEventListener('verificationsUILoaded', async () => {
     renderShareButton({
-      container: "#shareButtonContainer",
+      container: "#shareButtonContainerVerifier",
       defaultMessage: "Look at my verifier profile on WalletScrutiny!",
       showRawButtons: false
     });
@@ -83,14 +86,35 @@ permalink: /verifier/
     }
 
     try {
-      const npub = await getNpubFromPubkey(pubkey);
-      document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
+      const npub = getNpubFromPubkey(pubkey);
+
+      document.getElementById('njumpLink').addEventListener('click', function() {
+        window.open(`https://njump.me/${npub}`, '_blank');
+      });
 
       const profile = await getNostrProfile(pubkey);
 
       if (!profile) {
         document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
       } else {
+        if (profile && (profile.lud16 || profile.lud06)) {
+          try {
+            const profileEvent = await getNostrProfileEventFromProfileInfo(profile);
+            window.profileEvent = profileEvent;
+            document.getElementById('zapButtonVerifier').style.display = 'inline-block';
+          } catch (error) {
+            console.error('Error parsing profile event:', error);
+          }
+        } else {
+          const zapBtn = document.getElementById('zapButtonVerifier');
+          zapBtn.style.display = 'inline-block';
+          zapBtn.disabled = true;
+          zapBtn.style.backgroundColor = '#ccc';
+          zapBtn.style.color = '#888';
+          zapBtn.style.cursor = 'not-allowed';
+          zapBtn.title = "The user doesn't have a nostr profile or a LN address to receive sats";
+        }
+
         if (profile.image || profile.name) {
           document.getElementById('attestator').innerHTML = `
             <div class="big-profile-card">

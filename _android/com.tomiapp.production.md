@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: 'TOMI: Web3 SuperApp'
+title: TOMI Web3 SuperApp
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2025-07-18
-version: '202.0'
-stars: 
+updated: 2025-09-09
+version: '213.0'
+stars: 4
 ratings: 
-reviews: 
+reviews: 4
 website: https://tomi.com
 repository: 
 issue: 

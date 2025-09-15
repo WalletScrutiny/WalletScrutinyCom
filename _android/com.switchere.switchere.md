@@ -12,16 +12,16 @@ updated: 2024-08-07
 version: 1.1.24
 stars: 3.4
 ratings: 
-reviews: 46
+reviews: 45
 website: https://switchere.com/
 repository: 
 issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-03-19
+date: 2025-08-04
 signer: 
 twitter: Switchere_com
 social:

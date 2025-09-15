@@ -8,8 +8,8 @@ users: 10000
 appId: ilcbtc.wallet
 appCountry: 
 released: 2018-02-27
-updated: 2024-07-11
-version: '4.34'
+updated: 2025-08-29
+version: '4.35'
 stars: 
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-07-08
+date: 2025-09-03
 signer: 
 twitter: ILC_B_Project
 social:

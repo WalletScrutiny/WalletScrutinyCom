@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.eukapay.pos_app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-04-01
+date: 2025-07-30
 signer: 
 twitter: 
 social: 

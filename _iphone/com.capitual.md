@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.capitual.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-02
+date: 2025-08-18
 signer: 
 twitter: capitual
 social:

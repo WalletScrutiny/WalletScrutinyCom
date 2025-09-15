@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2024-10-07
+date: 2025-08-28
 signer: 
 twitter: SkillingTrading
 social:

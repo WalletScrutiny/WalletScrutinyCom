@@ -7,8 +7,8 @@ users: 100000
 appId: com.sologenicwallet
 appCountry: 
 released: 2020-02-04
-updated: 2024-05-29
-version: 3.0.13
+updated: 2025-08-12
+version: 3.0.14
 stars: 4.2
 ratings: 3701
 reviews: 158
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.sologenicwallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
 appHashes: 
-date: 2025-05-26
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

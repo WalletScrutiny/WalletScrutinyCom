@@ -1,6 +1,6 @@
 ---
 wsId: lnFlash
-title: 'Flash: Bitcoin'
+title: 'Flash: Rewards & Payments'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.lnflash
 appCountry: 
 released: 2024-01-07
-updated: 2025-06-11
-version: 0.4.1
+updated: 2025-08-18
+version: 0.4.4
 stars: 
 ratings: 
 reviews: 

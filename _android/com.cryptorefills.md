@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cryptorefills.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-12-01
+date: 2025-09-03
 signer: 
 twitter: cryptorefills
 social:

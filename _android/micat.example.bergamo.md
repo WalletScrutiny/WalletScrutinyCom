@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: micat.example.bergamo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-08-15
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

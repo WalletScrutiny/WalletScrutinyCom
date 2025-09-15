@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: metau.eu.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-05-14
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

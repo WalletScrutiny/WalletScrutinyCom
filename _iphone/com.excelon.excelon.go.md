@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.excelon.excelon.go.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-23
+date: 2025-08-24
 signer: 
 twitter: 
 social: 

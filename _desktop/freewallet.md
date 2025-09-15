@@ -6,7 +6,7 @@ authors:
 released: 2017-10-13
 discontinued: 
 updated: 2025-02-04
-version: 2.0.3
+version: 2.0.4
 binaries: 
 provider: J-Dog
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: freewallet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-25
+date: 2025-08-01
 twitter: FreeWallet
 social:
 - https://www.facebook.com/freewallet.io

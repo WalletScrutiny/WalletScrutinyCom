@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.payz.maxpayz.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-06-03
+date: 2025-09-03
 signer: 
 twitter: 
 social: 

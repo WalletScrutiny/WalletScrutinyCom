@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.zumopay.core.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-13
+date: 2025-09-09
 signer: 
 twitter: zumopay
 social:

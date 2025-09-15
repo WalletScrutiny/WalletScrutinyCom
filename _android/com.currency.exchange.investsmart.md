@@ -8,11 +8,11 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2025-07-17
-version: 2.14.11
-stars: 4
+updated: 2025-08-14
+version: 2.15.4
+stars: 3.7
 ratings: 216
-reviews: 217
+reviews: 230
 website: https://dzengi.com/
 repository: 
 issue: 

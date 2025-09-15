@@ -115,7 +115,7 @@ permalink: /verifiers/
         pubkeyInfo.verifications += 1;
 
         try {
-          pubkeyInfo.npub = await getNpubFromPubkey(pubkey);
+          pubkeyInfo.npub = getNpubFromPubkey(pubkey);
         } catch(e) {
             console.error(`Failed to get npub for ${pubkey}`, e);
             pubkeyInfo.npub = pubkey.substring(0, 10) + '...'; // Fallback value

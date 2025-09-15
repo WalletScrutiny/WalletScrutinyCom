@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.worldwebms.MultiPAC.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-12-15
+date: 2025-08-21
 signer: 
 twitter: UnidoEP
 social:

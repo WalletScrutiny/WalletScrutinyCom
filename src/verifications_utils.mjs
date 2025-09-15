@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, generateZapRequest, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -16,6 +16,7 @@ import {
 } from "./nostr-constants.mjs";
 import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
+import {decode} from "light-bolt11-decoder"
 import WebSocket from "ws";
 
 if (typeof global !== 'undefined') {
@@ -161,10 +162,8 @@ const getNostrProfile = async function (pubkey) {
   return profile;
 }
 
-const getNpubFromPubkey = async function (pubkey) {
-  await ensureNdkConnected();
-  const user = ndk.getUser({ pubkey });
-  return user.npub;
+const getNpubFromPubkey = function (pubkey) {
+  return nip19.npubEncode(pubkey);
 }
 
 const getWSClientTag = function() {
@@ -200,7 +199,7 @@ function createNdkEvent(kind, content, tags = [], createdAt = null) {
 
 function validateParameterLengths(params) {
   const validationRules = {
-    appId: { maxLength: 50, name: 'App ID' },
+    appId: { maxLength: 75, name: 'App ID' },
     version: { maxLength: 30, name: 'Version' },
     platform: { maxLength: 10, name: 'Platform' },
     description: { maxLength: 120, name: 'Description' },
@@ -506,7 +505,7 @@ function eventSanitize(event) {
     sanitizedTag = sanitizedTag.replace(/"/g, '');
 
     if (tag[0] === 'i') {
-      sanitizedTag = sanitizedTag.substring(0, 50);
+      sanitizedTag = sanitizedTag.substring(0, 75);
     } else if (tag[0] === 'version') {
       sanitizedTag = sanitizedTag.substring(0, 30);
     } else if (['x', 'ox'].includes(tag[0])) {
@@ -1214,6 +1213,129 @@ const cleanupNdkConnections = function() {
   }
 };
 
+/**
+ * Creates and sends a zap using NDKZapper
+ * @param {Object} params
+ * @param {Object} params.event - Nostr event object
+ * @param {number} params.amount - Amount in sats
+ * @param {string} [params.comment] - Optional comment
+ * @returns {Promise<void>} - Promise that resolves when the zap is sent
+ */
+const createZap = async function ({ event, amount, comment = '' }) {
+  const profile = await getNostrProfile(event.pubkey);
+  if (!profile || (!profile.lud16 && !profile.lud06)) {
+    throw new Error('The user doesn\'t have a nostr profile or a LN address to receive sats');
+  }
+
+  const lnurlSpec = await getNip57ZapSpecFromLud({lud06: profile.lud06, lud16: profile.lud16}, ndk);
+
+  if (!lnurlSpec) {
+    throw new Error('The user doesn\'t have a LN address to receive sats');
+  }
+
+  const zapper = new NDKZapper(event, amount * 1000, "msat", {
+    comment,
+    ndk,
+    signer: ndk.signer,
+    tags: [
+      ["p", event.pubkey],
+      ["e", event.id]
+    ],
+  });
+
+  const relays = await zapper.relays(event.pubkey);
+
+  const zapRequestEvent = await generateZapRequest(
+      event,
+      ndk,
+      lnurlSpec,
+      event.pubkey,
+      amount * 1000,
+      relays,
+      comment,
+      zapper.tags
+  ).catch((err) => {
+      console.log('Error: An error occurred in generating zap request!', err);
+      return null;
+  });
+  if (!zapRequestEvent) throw new Error('Failed to generate zap request');
+  zapRequestEvent.content = comment;
+  console.debug('createZap - zapRequestEvent', zapRequestEvent);
+
+  // Removing these tags to be more like Primal, as that makes the Zaps
+  // work correctly for WalletOfSatoshi, where they were failing previously.
+  // Then, we re-add the tag e with value event.id.
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'lnurl');
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'a');
+  zapRequestEvent.tags = zapRequestEvent.tags.filter(tag => tag[0] !== 'e');
+  zapRequestEvent.tags.push(['e', event.id]);
+
+  const invoice = await zapper.getLnInvoice(zapRequestEvent, amount * 1000, lnurlSpec).catch((err) => {
+    console.log('Error: An error occurred in getting LnInvoice!', err);
+    return null;
+  });
+  if (!invoice) throw new Error('Failed to get LNInvoice');
+  console.debug('createZap - invoice', invoice);
+
+  return invoice;
+}
+
+const subscribeToZapReceipts = async function(zapEvent, currentZapInvoice, receiptReceivedCallback) {
+  try {
+    let filter = {
+      kinds: [9735],
+      ["#e"]: [zapEvent.id]
+    }
+    const sub = ndk.subscribe(filter);
+
+    sub?.on("event", async (event) => {
+      console.debug('subscribeToZapReceipts - Zap receipt event received:', event);
+      if (currentZapInvoice) {
+        if (event.tagValue("bolt11") === currentZapInvoice) {
+          sub.stop()  // Only one zap receipt is expected, so close the subscription after receiving it
+        } else {
+          console.debug('    - subscribeToZapReceipts - a zap invoice was received that is not the current zap invoice we are waiting for, so skipping it');
+          return;
+        }
+      }
+      const zapReceiptInvoice = event.tagValue("bolt11")
+      console.debug('    - subscribeToZapReceipts - zapReceiptInvoice', zapReceiptInvoice, 'currentZapInvoice', currentZapInvoice);
+      if (zapReceiptInvoice) {
+        const decodedInvoice = decode(zapReceiptInvoice)
+        console.debug('    - subscribeToZapReceipts - decodedInvoice', decodedInvoice);
+        const zapRequest = zapInvoiceFromEvent(event)
+        event.zapRequest = zapRequest;
+        console.debug('    - zapRequest (zapInvoiceFromEvent)', zapRequest);
+
+        const amountSection = decodedInvoice.sections.find(
+          (section) => section.name === "amount"
+        )
+
+        const amountPaid =
+          amountSection && "value" in amountSection
+            ? Math.floor(parseInt(amountSection.value) / 1000)
+            : 0
+        const amountRequested = zapRequest?.amount ? zapRequest.amount / 1000 : -1
+
+        if (amountPaid === amountRequested) {
+          receiptReceivedCallback(event);
+          return;
+        }
+
+        receiptReceivedCallback(null);
+      }
+    })
+  } catch (error) {
+    console.warn("Unable to fetch zap receipt", error)
+  }
+}
+
+const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
+  const profileEvent = JSON.parse(profileInfo.profileEvent);
+  const ndkEvent = new NDKEvent(ndk, profileEvent);
+  return ndkEvent;
+}
+
 if (typeof window !== 'undefined') {
   window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
@@ -1247,6 +1369,9 @@ if (typeof window !== 'undefined') {
   window.getCommentsForVerification = getCommentsForVerification;
   window.sendPrivateMessageToVerifier = sendPrivateMessageToVerifier;
   window.getEndorsementsFromVerificationEventIds = getEndorsementsFromVerificationEventIds;
+  window.createZap = createZap;
+  window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
+  window.subscribeToZapReceipts = subscribeToZapReceipts;
 
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
@@ -1281,5 +1406,7 @@ export {
   createNostrCommentToVerification,
   getCommentsForVerification,
   sendPrivateMessageToVerifier,
-  getEndorsementsFromVerificationEventIds
+  getEndorsementsFromVerificationEventIds,
+  createZap,
+  subscribeToZapReceipts
 };

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.taralwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-10-08
+date: 2025-08-04
 signer: 
 twitter: TaralityCoin
 social:

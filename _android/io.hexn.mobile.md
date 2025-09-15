@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-12
 updated: 2025-02-20
 version: 1.2.6
-stars: 4.3
+stars: 4.2
 ratings: 
 reviews: 5
 website: https://hexn.io

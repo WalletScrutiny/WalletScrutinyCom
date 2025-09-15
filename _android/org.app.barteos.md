@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.app.barteos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-12-23
+date: 2025-08-18
 signer: 
 twitter: 
 social: 

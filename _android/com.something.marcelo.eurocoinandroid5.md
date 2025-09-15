@@ -8,8 +8,8 @@ users: 5000
 appId: com.something.marcelo.eurocoinandroid5
 appCountry: 
 released: 2018-11-17
-updated: 2025-06-15
-version: '39.8'
+updated: 2025-08-10
+version: '39.9'
 stars: 4.3
 ratings: 
 reviews: 

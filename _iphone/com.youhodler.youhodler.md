@@ -11,7 +11,7 @@ released: 2019-07-25
 updated: 2025-07-10
 version: 8.2.2
 stars: 5
-reviews: 11
+reviews: 12
 website: https://www.youhodler.com/
 repository: 
 issue: 

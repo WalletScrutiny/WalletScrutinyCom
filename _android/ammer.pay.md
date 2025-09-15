@@ -3,7 +3,7 @@ wsId:
 title: Ammer Pay
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: ammer.pay
 appCountry: 
 released: 2022-08-22

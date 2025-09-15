@@ -9,19 +9,19 @@ appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
 updated: 2024-07-26
-version: 8.3.6
+version: 8.3.7
 stars: 4.2
 ratings: 
-reviews: 33
+reviews: 32
 website: https://openfi.world/
 repository: 
 issue: 
 icon: com.cmorq.hoopoe.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2022-06-22
+date: 2025-07-24
 signer: 
 twitter: cmorq_
 social:

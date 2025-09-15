@@ -8,8 +8,8 @@ appId: com.prominentwiselimited.lifpay
 appCountry: hk
 idd: '1645840182'
 released: 2022-10-17
-updated: 2025-02-24
-version: 2.4.5
+updated: 2025-08-07
+version: 2.4.7
 stars: 0
 reviews: 0
 website: 

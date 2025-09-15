@@ -7,8 +7,9 @@ const historyCount = 10;
 const apiEndpointInvoices = `/api/v1/stores/${storeId}/invoices?status=Settled&take=${historyCount}`;
 const apiKey = process.argv[2];
 if (apiKey === undefined) {
-  console.error('No API key provided. Skipping Donations update.');
-  process.exit(1);
+  // Change to warning symbol instead of error
+  console.error('⚠️⚠️⚠️⚠️ No API key provided. Skipping Donations update.');
+  process.exit(0);
 }
 
 console.log('Starting donations update...');

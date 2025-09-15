@@ -8,10 +8,10 @@ appId: io.kriptomat.app
 appCountry: de
 idd: 1440135740
 released: 2018-12-20
-updated: 2025-03-26
-version: 6.0.3
+updated: 2025-08-20
+version: 7.0.11
 stars: 4.2
-reviews: 81
+reviews: 82
 website: https://kriptomat.io
 repository: 
 issue: 

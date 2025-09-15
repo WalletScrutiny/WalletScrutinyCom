@@ -10,8 +10,8 @@ idd: '6444194230'
 released: 2022-11-16
 updated: 2025-06-25
 version: 5.17.7
-stars: 4.6
-reviews: 649
+stars: 4.5
+reviews: 663
 website: https://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-ios
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498

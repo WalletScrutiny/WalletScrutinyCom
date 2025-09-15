@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.youniqx.chainlock.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-07-30
+date: 2025-07-24
 signer: 
 twitter: youniqx
 social:

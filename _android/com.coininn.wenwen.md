@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coininn.wenwen.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-19
+date: 2025-08-24
 signer: 
 twitter: coin_inn
 social:

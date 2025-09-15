@@ -10,18 +10,18 @@ appCountry:
 released: 2018-07-24
 updated: 2023-09-16
 version: '9.11'
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 479
+reviews: 480
 website: http://www.hodlfinance.com
 repository: 
 issue: 
 icon: com.flashratings.hodl.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-09-11
+date: 2025-09-09
 signer: 
 twitter: 
 social: 

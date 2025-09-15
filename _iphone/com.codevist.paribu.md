@@ -1,6 +1,6 @@
 ---
 wsId: paribu
-title: Paribu | Bitcoin Alım Satım
+title: Paribu | Bitcoin - Crypto
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.codevist.paribu
 appCountry: 
 idd: 1448200352
 released: 2019-05-29
-updated: 2025-07-18
-version: 5.1.6
+updated: 2025-09-09
+version: 5.1.13
 stars: 4.4
-reviews: 245
+reviews: 253
 website: https://www.paribu.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/paribucom/
 - https://www.facebook.com/paribucom
 features: 
-developerName: Paribu Teknoloji A.Ş.
+developerName: Paribu
 
 ---
 

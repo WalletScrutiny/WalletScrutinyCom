@@ -1,6 +1,6 @@
 ---
 wsId: gemWallet
-title: Gem Wallet - Bitcoin & USDC
+title: Gem Wallet - Bitcoin & Solana
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.gemwallet.ios
 appCountry: us
 idd: '6448712670'
 released: 2023-07-17
-updated: 2025-07-08
-version: 1.3.195
-stars: 4.6
-reviews: 214
+updated: 2025-09-10
+version: 1.3.236
+stars: 4.5
+reviews: 275
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
 issue: 

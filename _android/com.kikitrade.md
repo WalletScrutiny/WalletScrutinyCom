@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.kikitrade.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-05-26
+date: 2025-09-03
 signer: 
 twitter: KikitradeHQ
 social:

@@ -10,17 +10,17 @@ idd: '1550289857'
 released: 2021-11-15
 updated: 2024-08-08
 version: 1.1.24
-stars: 3.2
-reviews: 73
+stars: 3.3
+reviews: 75
 website: https://switchere.com/
 repository: 
 issue: 
 icon: com.switchere.switchere.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-12
+date: 2025-08-04
 signer: 
 twitter: Switchere_com
 social:

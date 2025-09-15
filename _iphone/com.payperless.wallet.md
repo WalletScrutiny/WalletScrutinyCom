@@ -12,7 +12,7 @@ updated: 2025-05-13
 version: '1.34'
 stars: 0
 reviews: 0
-website: https://www.payperless.com
+website: http://payperless.com
 repository: 
 issue: 
 icon: com.payperless.wallet.jpg
@@ -27,7 +27,7 @@ social:
 - https://www.facebook.com/payperlesscom/
 - https://www.instagram.com/payperlesscom/
 features: 
-developerName: Payperless OÜ
+developerName: COREDEV LAB
 
 ---
 

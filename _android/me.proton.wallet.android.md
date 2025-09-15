@@ -8,11 +8,11 @@ users: 50000
 appId: me.proton.wallet.android
 appCountry: 
 released: 2025-02-04
-updated: 2025-05-12
-version: 1.2.1
+updated: 2025-08-25
+version: 1.2.3
 stars: 4.5
 ratings: 
-reviews: 13
+reviews: 19
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 issue: https://github.com/ProtonWallet/flutter-app/issues/4

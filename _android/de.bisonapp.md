@@ -1,6 +1,6 @@
 ---
 wsId: bison
-title: BISON - Buy Bitcoin & Co
+title: BISON - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: de.bisonapp
 appCountry: 
 released: 
-updated: 2025-07-08
-version: 4.14.2
+updated: 2025-09-04
+version: 4.18.1
 stars: 4.6
 ratings: 
-reviews: 3
+reviews: 2
 website: https://bisonapp.com
 repository: 
 issue: 

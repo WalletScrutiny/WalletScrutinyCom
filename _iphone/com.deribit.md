@@ -8,8 +8,8 @@ appId: com.deribit
 appCountry: in
 idd: '1293674041'
 released: 2017-11-17
-updated: 2025-06-16
-version: 3.16.1
+updated: 2025-08-14
+version: 3.17.0
 stars: 5
 reviews: 6
 website: http://www.deribit.com

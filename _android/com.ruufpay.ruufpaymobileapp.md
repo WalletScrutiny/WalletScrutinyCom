@@ -8,8 +8,8 @@ users: 1000
 appId: com.ruufpay.ruufpaymobileapp
 appCountry: 
 released: 2022-05-31
-updated: 2025-06-01
-version: 2.1.0
+updated: 2025-08-26
+version: 2.3.0
 stars: 4.6
 ratings: 
 reviews: 11

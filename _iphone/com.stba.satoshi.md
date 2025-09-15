@@ -7,10 +7,10 @@ appId: com.stba.satoshi
 appCountry: us
 idd: '6463799763'
 released: 2024-11-19
-updated: 2025-05-21
-version: 1.0.14
-stars: 4
-reviews: 30
+updated: 2025-08-30
+version: 1.0.16
+stars: 3.8
+reviews: 34
 website: https://satoshi.money/
 repository: 
 issue: 

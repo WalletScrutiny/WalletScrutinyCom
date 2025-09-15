@@ -11,7 +11,7 @@ done
 if ! command -v compare &> /dev/null
 then
     echo "compare (ImageMagick) could not be found!"
-    exit
+    exit -1
 fi
 
 mkdir images/wIcons/{android,iphone,hardware,bearer,desktop,others}/{small,tiny}/ 2> /dev/null

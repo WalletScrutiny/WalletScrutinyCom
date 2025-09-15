@@ -1,0 +1,78 @@
+{% include base_path %}
+
+<!-- This file "src/templates/scripts.html" is used to generate the "_includes/scripts.html" file with the
+    correct names for the webpack bundles. In the case of the development environment, the bundle names
+    are '[name].bundle.min.js', whereas in the production environment, the bundle names are
+    '[name].[contenthash].bundle.min.js', so the cache gets invalidated automatically in the browser
+    when the js files are updated.
+
+    Do not change the file "_includes/scripts.html" directly. Do the changes on "src/templates/scripts.html"
+    instead.
+-->
+
+<script type="text/javascript" src="/dist{{'<%= htmlWebpackPlugin.files.js[1] %>' | relative_url }}"></script>
+
+<script>
+  // Load verifications_data.bundle.min.js asynchronously and then
+  // trigger the verificationsDataLoaded event and load verifications_ui.bundle.min.js,
+  // which will trigger the verificationsUILoaded event.
+  const verificationsScript = document.createElement('script');
+
+  verificationsScript.onload = () => {
+    window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
+
+    (async function() {
+      await nostrConnect();
+
+      // If not on the home page, wait 1 second to let verifications load first
+      // If it's the home page, we want it as fast as possible
+      {% if page.url != "/" %}
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      {% endif %}
+
+      window.allAssetInformation = await getAllAssetInformation({months: 6});
+      window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      loadDraftVerificationsNotifications();
+    })();
+
+    // Load verifications_ui.bundle.min.js asynchronously and then trigger the verificationsUILoaded event
+    const verificationsUIScript = document.createElement('script');
+
+    verificationsUIScript.onload = () => {
+      window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    };
+
+    verificationsUIScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[3] %>';
+    document.body.appendChild(verificationsUIScript);
+  };
+
+  verificationsScript.src = '{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[2] %>';
+  document.body.appendChild(verificationsScript);
+</script>
+
+<script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
+
+{% if page.url == "/" %}
+<script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
+{% endif %}
+
+<script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    const script = document.createElement('script');
+    script.onload = () => {
+      window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
+    };
+    script.src = '{{ base_path }}/allWallets.js';
+    document.body.appendChild(script);
+  });
+</script>
+<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
+<script type="text/javascript" src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[0] %>"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>
+<script type="text/javascript" defer src="{{ base_path }}/dist/<%= htmlWebpackPlugin.files.js[4] %>"></script>
+{% if page.layout contains "review" %}
+<script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+{% endif %}

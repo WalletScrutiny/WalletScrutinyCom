@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.tokoin.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-08-13
+date: 2025-08-04
 signer: 
 twitter: tokoinindonesia
 social:

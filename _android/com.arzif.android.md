@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.arzif.android.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-09-03
+date: 2025-09-03
 signer: 
 twitter: Arzifofficial
 social: 

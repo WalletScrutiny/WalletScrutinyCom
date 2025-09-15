@@ -8,11 +8,11 @@ users: 1000
 appId: is.begin.app
 appCountry: 
 released: 2022-10-30
-updated: 2025-07-02
-version: 2.0.2
-stars: 
+updated: 2025-08-22
+version: 2.2.0
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 3
 website: https://begin.is
 repository: https://github.com/BeginWallet/begin-core
 issue: 

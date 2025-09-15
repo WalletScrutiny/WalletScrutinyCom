@@ -3,16 +3,16 @@ wsId: keplrWallet
 title: Keplr - Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.chainapsis.keplr
 appCountry: 
-released: Oct 1, 2021
-updated: 2025-07-17
-version: 2.1.58
-stars: 3.94
+released: 2021-10-01
+updated: 2025-09-05
+version: 2.1.82
+stars: 4
 ratings: 
-reviews: 191
+reviews: 195
 website: https://keplr.app
 repository: https://github.com/chainapsis/keplr-wallet
 issue: https://github.com/chainapsis/keplr-wallet/issues/1554
@@ -26,7 +26,7 @@ signer:
 twitter: keplrwallet
 social: 
 redirect_from: 
-developerName: Keplr
+developerName: Team Keplr
 features: 
 
 ---

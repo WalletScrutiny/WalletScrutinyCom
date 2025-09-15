@@ -8,8 +8,8 @@ users: 5000
 appId: com.myecurrency
 appCountry: 
 released: 2022-05-20
-updated: 2024-06-12
-version: 1.2.0
+updated: 2025-09-10
+version: 2.4.0
 stars: 5
 ratings: 
 reviews: 3
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.myecurrency.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2025-06-09
+date: 2025-09-03
 signer: 
 twitter: myecurrencyng
 social:

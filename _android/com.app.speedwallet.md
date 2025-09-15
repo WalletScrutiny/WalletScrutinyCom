@@ -1,6 +1,6 @@
 ---
 wsId: speedBitcoinWallet
-title: Speed Bitcoin Lightning Wallet
+title: Speed Wallet - Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.app.speedwallet
 appCountry: 
 released: 2023-06-18
-updated: 2025-06-20
-version: 2.4.23.0.0.0.fp.gps
-stars: 4.6
+updated: 2025-09-10
+version: 2.4.26.0.0.3.fp.gps
+stars: 4.2
 ratings: 
-reviews: 765
+reviews: 817
 website: https://www.speed.app/
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/showcase/speedwallet
 - https://www.instagram.com/speedbitcoinwallet
 redirect_from: 
-developerName: Speed1 - FZCO
+developerName: Speed1 Inc
 features: 
 
 ---

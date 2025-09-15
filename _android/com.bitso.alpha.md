@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitso.alpha
 appCountry: GI
 released: 2021-09-28
-updated: 2025-06-24
-version: 1.34.1
+updated: 2025-09-11
+version: 1.35.1
 stars: 3.9
 ratings: 
-reviews: 563
+reviews: 573
 website: https://bitso.com/alpha/landing
 repository: 
 issue: 

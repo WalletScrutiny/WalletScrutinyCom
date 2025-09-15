@@ -1,5 +1,5 @@
 ---
-title: One Key Mini
+title: OneKey Mini
 appId: onekeymini
 authors:
 - danny

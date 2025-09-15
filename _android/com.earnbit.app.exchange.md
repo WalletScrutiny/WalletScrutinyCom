@@ -3,12 +3,12 @@ wsId:
 title: 'EarnBIT: Buy & Exchange Crypto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.earnbit.app.exchange
 appCountry: 
 released: 2022-10-30
-updated: 2025-07-11
-version: 1.0.15
+updated: 2025-08-29
+version: 1.0.20
 stars: 
 ratings: 
 reviews: 

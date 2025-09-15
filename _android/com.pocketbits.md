@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-08-26
+date: 2025-08-21
 signer: 
 twitter: PocketBitsIndia
 social:

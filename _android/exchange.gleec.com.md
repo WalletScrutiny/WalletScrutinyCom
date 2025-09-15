@@ -8,8 +8,8 @@ users: 1000
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
-updated: 2025-05-16
-version: 1.37.0
+updated: 2025-08-19
+version: 1.39.0
 stars: 2.6
 ratings: 
 reviews: 

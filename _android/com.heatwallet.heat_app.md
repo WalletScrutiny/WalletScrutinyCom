@@ -3,7 +3,7 @@ wsId:
 title: Heat Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.heatwallet.heat_app
 appCountry: 
 released: 2024-10-24

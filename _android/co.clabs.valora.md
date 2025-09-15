@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: 1.111.1
 stars: 4.3
 ratings: 
-reviews: 304
+reviews: 303
 website: https://valoraapp.com
 repository: 
 issue: 

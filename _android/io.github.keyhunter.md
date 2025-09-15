@@ -12,16 +12,16 @@ updated: 2024-09-04
 version: 2.2.2
 stars: 3.9
 ratings: 
-reviews: 14
+reviews: 15
 website: 
 repository: 
 issue: 
 icon: io.github.keyhunter.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: 2025-09-03
 signer: 
 twitter: 
 social: 

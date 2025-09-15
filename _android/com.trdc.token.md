@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.trdc.token.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-06-03
+date: 2025-08-04
 signer: 
 twitter: 
 social: 

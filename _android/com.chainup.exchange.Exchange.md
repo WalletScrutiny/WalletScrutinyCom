@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.chainup.exchange.Exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-20
+date: 2025-08-09
 signer: 
 twitter: ScallopOfficial
 social:

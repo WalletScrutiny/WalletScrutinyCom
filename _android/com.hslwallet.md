@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.hslwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2025-01-09
+date: 2025-07-24
 signer: 
 twitter: 
 social: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: de.fuf.bitbucks-io.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-12-13
+date: 2025-07-28
 signer: 
 twitter: bit_bucks
 social:

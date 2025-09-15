@@ -74,6 +74,7 @@ layout: default
   </article>
 </div>
 
+{% if page.url != "/" %}
 <script>
   window.addEventListener('verificationsUILoaded', async () => {
       renderShareButton({
@@ -83,3 +84,4 @@ layout: default
       });
   });
 </script>
+{% endif %}

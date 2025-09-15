@@ -4,15 +4,15 @@ title: بیت پین - Bitpin
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: io.bitpin.app
 appCountry: 
 released: 2021-09-01
 updated: 2025-06-09
 version: 1.3.0
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 112
+reviews: 122
 website: https://bitpin.ir
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://t.me/bitpin
 - https://www.instagram.com/bitpinmarket
 redirect_from: 
-developerName: Tika Team
+developerName: Bitpin App Developer
 features: 
 
 ---

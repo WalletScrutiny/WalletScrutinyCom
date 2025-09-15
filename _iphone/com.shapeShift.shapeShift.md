@@ -8,19 +8,19 @@ appId: com.shapeShift.shapeShift
 appCountry: 
 idd: 996569075
 released: 2015-06-09
-updated: 2024-06-27
-version: 3.1.0
-stars: 4.1
-reviews: 60
+updated: 2025-08-15
+version: 3.4.0
+stars: 4.2
+reviews: 64
 website: https://shapeshift.com
 repository: 
 issue: 
 icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2025-06-23
+date: 2025-07-28
 signer: 
 twitter: ShapeShift_io
 social:

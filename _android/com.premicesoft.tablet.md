@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.premicesoft.tablet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-12-27
+date: 2025-08-21
 signer: 
 twitter: 
 social: 

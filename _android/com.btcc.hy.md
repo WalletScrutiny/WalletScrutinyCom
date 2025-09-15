@@ -8,11 +8,11 @@ users: 1000000
 appId: com.btcc.hy
 appCountry: us
 released: 2020-08-04
-updated: 2025-07-10
-version: 8.8.87
-stars: 4.5
+updated: 2025-09-03
+version: 8.9.03
+stars: 4.3
 ratings: 11611
-reviews: 2691
+reviews: 2956
 website: https://www.btcc.com/en-US
 repository: 
 issue: 

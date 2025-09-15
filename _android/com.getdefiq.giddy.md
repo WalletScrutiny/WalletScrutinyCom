@@ -8,11 +8,11 @@ users: 100000
 appId: com.getdefiq.giddy
 appCountry: 
 released: 2022-02-25
-updated: 2025-07-08
-version: 3.9.14
+updated: 2025-08-29
+version: 3.10.0
 stars: 4.3
 ratings: 
-reviews: 127
+reviews: 128
 website: https://giddy.co
 repository: 
 issue: 

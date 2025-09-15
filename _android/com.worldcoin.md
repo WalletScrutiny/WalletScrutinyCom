@@ -1,6 +1,6 @@
 ---
 wsId: worldCoin
-title: World App - Worldcoin Wallet
+title: World App - Real Human Network
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000000
 appId: com.worldcoin
 appCountry: 
 released: 2022-10-04
-updated: 2025-07-16
-version: 2.8.9003
+updated: 2025-09-10
+version: 2.8.9300
 stars: 4.6
 ratings: 
-reviews: 513
+reviews: 552
 website: https://worldcoin.org
 repository: 
 issue: 

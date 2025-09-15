@@ -4,12 +4,12 @@ title: 'orbix: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.satang.pro
 appCountry: 
 released: 2020-04-12
-updated: 2025-06-17
-version: 2.13.15
+updated: 2025-08-01
+version: 2.14.9
 stars: 3.7
 ratings: 
 reviews: 4

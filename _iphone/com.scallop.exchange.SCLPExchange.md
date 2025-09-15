@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.scallop.exchange.SCLPExchange.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-05
+date: 2025-08-09
 signer: 
 twitter: ScallopOfficial
 social:

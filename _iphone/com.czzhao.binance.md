@@ -8,10 +8,10 @@ appId: com.czzhao.binance
 appCountry: jp
 idd: 1436799971
 released: 2018-10-06
-updated: 2025-07-16
-version: 3.0.4
+updated: 2025-09-11
+version: 3.3.2
 stars: 4.6
-reviews: 44209
+reviews: 44919
 website: https://www.binance.com
 repository: 
 issue: 

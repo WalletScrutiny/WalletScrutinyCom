@@ -182,13 +182,6 @@
           }
         }
         &.actionable {
-          @for $i from 1 through 10 {
-            &:nth-child(#{$i}) {
-              opacity: 0;
-              transform: translateX(20px);
-              animation: slideAcrossFadeIn 0.2s ease-in forwards 1;
-            }
-          }
           @keyframes slideAcrossFadeIn {
             to {
               opacity: 1;
@@ -313,6 +306,9 @@
         }
         .stats {
           font-size: 13px;
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
           @media (max-width: $small) {
             grid-row: 2/3;
             grid-column: 2/3;

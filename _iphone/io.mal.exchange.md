@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.mal.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-11
+date: 2025-09-03
 signer: 
 twitter: MalFinance
 social:

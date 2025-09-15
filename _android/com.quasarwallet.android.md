@@ -10,18 +10,18 @@ appCountry:
 released: 2022-04-05
 updated: 2024-08-29
 version: '1.5'
-stars: 2.7
+stars: 2.4
 ratings: 
-reviews: 8
+reviews: 10
 website: https://quasarwallet.com
 repository: 
 issue: 
 icon: com.quasarwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: 2025-08-26
 signer: 
 twitter: reflextoken
 social:

@@ -8,11 +8,11 @@ users: 500000
 appId: com.xrpllabs.xumm
 appCountry: 
 released: 2020-12-29
-updated: 2025-06-17
-version: 4.1.4
-stars: 4.6
+updated: 2025-09-03
+version: 4.2.2
+stars: 4.5
 ratings: 
-reviews: 491
+reviews: 495
 website: https://xaman.app
 repository: 
 issue: 

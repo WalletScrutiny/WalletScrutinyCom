@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.bgwallet.bgw.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-06-06
+date: 2025-08-18
 signer: 
 twitter: BG_Wallet
 social:

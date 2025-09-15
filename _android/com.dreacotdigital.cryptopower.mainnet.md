@@ -8,8 +8,8 @@ users: 100
 appId: com.dreacotdigital.cryptopower.mainnet
 appCountry: 
 released: 2024-01-20
-updated: 2025-01-31
-version: 2.1.0
+updated: 2025-08-19
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 

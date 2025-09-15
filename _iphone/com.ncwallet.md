@@ -8,10 +8,10 @@ appId: com.ncwallet
 appCountry: us
 idd: '1615381976'
 released: 2022-09-27
-updated: 2025-07-10
-version: 1.0.821
-stars: 3.6
-reviews: 147
+updated: 2025-08-28
+version: 1.0.857
+stars: 3.5
+reviews: 162
 website: https://ncwallet.net/
 repository: 
 issue: 

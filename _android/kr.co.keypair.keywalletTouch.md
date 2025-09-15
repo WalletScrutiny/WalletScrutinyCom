@@ -9,8 +9,8 @@ users: 10000
 appId: kr.co.keypair.keywalletTouch
 appCountry: 
 released: 2018-05-13
-updated: 2025-05-25
-version: 3.0.52
+updated: 2025-08-17
+version: 3.0.54
 stars: 4.3
 ratings: 109
 reviews: 16

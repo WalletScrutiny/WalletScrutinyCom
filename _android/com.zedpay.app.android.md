@@ -8,8 +8,8 @@ users: 10000
 appId: com.zedpay.app.android
 appCountry: 
 released: 2022-10-25
-updated: 2025-06-24
-version: 2.0.0
+updated: 2025-09-05
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 

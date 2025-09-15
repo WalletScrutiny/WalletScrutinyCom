@@ -8,11 +8,11 @@ users: 100000000
 appId: com.iqoption
 appCountry: 
 released: 
-updated: 2025-06-04
-version: 8.60.5
-stars: 4.3
+updated: 2025-09-11
+version: 8.62.1
+stars: 4.5
 ratings: 
-reviews: 512
+reviews: 525
 website: https://km.iqoption.com/en
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.wexopay.app
 appCountry: sk
 idd: '1549983870'
 released: 2021-02-09
-updated: 2025-06-18
-version: 3.3.7
+updated: 2025-07-31
+version: 3.3.15
 stars: 4.8
-reviews: 537
-website: https://wexopay.com
+reviews: 545
+website: https://wexopay.com/
 repository: 
 issue: 
 icon: com.wexopay.app.jpg
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
 - https://discord.com/invite/jhqwr7KFCn
 features: 
-developerName: Wexo Europe s.r.o.
+developerName: CRYPTON DIGITAL SE
 
 ---
 

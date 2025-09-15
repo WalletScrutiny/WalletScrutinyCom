@@ -8,8 +8,8 @@ appId: org.talkapp
 appCountry: hk
 idd: '1547227377'
 released: 2021-02-10
-updated: 2025-06-27
-version: 2.53.03
+updated: 2025-08-13
+version: 2.60.0
 stars: 4.5
 reviews: 167
 website: 

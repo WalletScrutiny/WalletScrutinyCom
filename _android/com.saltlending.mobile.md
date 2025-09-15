@@ -4,15 +4,15 @@ title: SALT Crypto Loans
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.saltlending.mobile
 appCountry: us
 released: 2019-01-07
-updated: 2025-07-03
-version: 2.16.79
+updated: 2025-08-24
+version: 2.17.8
 stars: 4.6
 ratings: 231
-reviews: 41
+reviews: 42
 website: https://saltlending.com
 repository: 
 issue: 

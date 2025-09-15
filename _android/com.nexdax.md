@@ -8,8 +8,8 @@ users: 5000
 appId: com.nexdax
 appCountry: 
 released: 
-updated: 2025-07-15
-version: '1.0'
+updated: 2025-09-08
+version: '3.0'
 stars: 
 ratings: 
 reviews: 

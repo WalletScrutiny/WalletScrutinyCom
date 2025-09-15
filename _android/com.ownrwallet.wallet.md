@@ -13,16 +13,16 @@ updated: 2023-09-20
 version: 1.72.0
 stars: 3.9
 ratings: 2072
-reviews: 113
+reviews: 112
 website: https://ownrwallet.com
 repository: 
 issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-09-14
+date: 2025-09-11
 signer: 
 twitter: ownrwallet
 social:
