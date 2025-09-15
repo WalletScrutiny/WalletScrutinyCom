@@ -405,10 +405,10 @@ permalink: /new_verification/
             </p>
         </div>
 
-        <div id="issueTrackerField" class="form-group" style="display: none;">
+        <div id="issueTrackerField" class="form-group">
             <label for="issueTrackerUrl">Issue tracker url:</label>
             <input type="url" id="issueTrackerUrl" name="issueTrackerUrl" class="form-control" placeholder="https://github.com/example/repo/issues/123">
-            <small class="form-text">If this version is not reproducible, you could open an issue in the wallet's issue tracker and put the url here for reference.</small>
+            <small class="form-text">If this version is not reproducible or you want to provide more information to the maintainers, you could open an issue in the wallet's issue tracker and put the url here for reference.</small>
         </div>
 
         <div class="form-group">
@@ -1116,19 +1116,6 @@ permalink: /new_verification/
     }
   }
 
-  function handleIssueTrackerFieldVisibility() {
-    const status = document.getElementById('status').value;
-    const issueTrackerField = document.getElementById('issueTrackerField');
-    
-    if (status && status !== 'reproducible') {
-      issueTrackerField.style.display = 'block';
-    } else {
-      issueTrackerField.style.display = 'none';
-      // Clear the field when hiding it
-      document.getElementById('issueTrackerUrl').value = '';
-    }
-  }
-
   window.addEventListener('verificationsUILoaded', async () => {
     await loadUrlParamsAndGetAssetInfo();
     updateCharCount(); // Initial count
@@ -1141,11 +1128,6 @@ permalink: /new_verification/
       await handleScriptSectionVisibility();
     });
     await handleScriptSectionVisibility();
-
-    // Status change handler for issue tracker field
-    const statusSelector = document.getElementById('status');
-    statusSelector.addEventListener('change', handleIssueTrackerFieldVisibility);
-    handleIssueTrackerFieldVisibility();
 
     document.getElementById('content').addEventListener('input', updateCharCount);
 
