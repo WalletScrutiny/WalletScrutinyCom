@@ -56,5 +56,3 @@ For developers and security researchers, Electrum provides extensive documentati
 - User Documentation: [https://electrum.readthedocs.io](https://electrum.readthedocs.io)
 - Release Notes: [https://github.com/spesmilo/electrum/releases](https://github.com/spesmilo/electrum/releases)
 - Lightning Network Guide: [https://electrum.readthedocs.io/en/latest/ln.html](https://electrum.readthedocs.io/en/latest/ln.html)
-
-For the latest reproducibility verification results, please refer to the **Nostr-based verification** for this application.
