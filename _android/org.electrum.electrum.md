@@ -24,8 +24,7 @@ bugbounty:
 meta: ok
 verdict: sourceavailable
 appHashes:
-- 042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94
-date: 2024-10-23
+date: 2025-08-11
 signer: 
 twitter: ElectrumWallet
 social: 
@@ -37,35 +36,23 @@ features:
 
 ---
 
-Here we test if the latest version can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}:
 
-```
-===== Begin Results =====
-appId:          org.electrum.electrum
-signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.5.7
-apkVersionCode: 45405073
-verdict:        reproducible
-appHash:        042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94
-commit:         8ec250e5271ab6957b28c7a4aa3bbb4f3d276981
+**Electrum Bitcoin Wallet** is one of the oldest and most widely used Bitcoin wallets in the cryptocurrency ecosystem. First released in 2011, Electrum quickly gained popularity due to its focus on speed, low resource usage, and a strong emphasis on security. It is known for its lightweight architecture that uses remote servers to handle the blockchain, allowing quick startup and operation without requiring users to download the entire Bitcoin blockchain.
 
-Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: CERT.SF
-Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: MANIFEST.MF
+Over the years, Electrum has added advanced features such as hardware wallet integration, multi-signature support, cold storage capabilities, and compatibility with the Lightning Network (LN) for faster and cheaper Bitcoin transactions. These features make it suitable for both beginner users seeking a simple interface and advanced users needing complex transaction setups.
 
-Revision, tag (and its signature):
-object 8ec250e5271ab6957b28c7a4aa3bbb4f3d276981
-type commit
-tag 4.5.7
-tagger SomberNight <somber.night@protonmail.com> 1729438457 +0000
+Electrum has played a notable role in the history of Bitcoin software, being an early adopter of deterministic wallets (seed phrases) and supporting various Bitcoin Improvement Proposals (BIPs) that enhanced wallet interoperability and security. Its open-source codebase has been actively maintained and audited by the Bitcoin community, ensuring transparency and trust.
 
-4.5.7
-===== End Results =====
+For developers and security researchers, Electrum provides extensive documentation, API references, and a well-structured GitHub repository. The project is licensed under the MIT license, enabling community contributions and independent verifications of the source code.
 
-```
+**Key Features:**
+- **Security**: Seed-based recovery, encryption, hardware wallet support, multi-signature wallets.
+- **Speed**: Connects to a network of decentralized servers for quick blockchain access.
+- **Advanced Tools**: Custom transaction fees, coin control, Lightning Network payments.
+- **Cross-platform**: Available for desktop (Windows, macOS, Linux) and mobile (Android).
 
-This is what we want to see to file the product version as **reproducible**.
+**Resources:**
 
-{% include asciicast %}
+- User Documentation: [https://electrum.readthedocs.io](https://electrum.readthedocs.io)
+- Release Notes: [https://github.com/spesmilo/electrum/releases](https://github.com/spesmilo/electrum/releases)
+- Lightning Network Guide: [https://electrum.readthedocs.io/en/latest/ln.html](https://electrum.readthedocs.io/en/latest/ln.html)
