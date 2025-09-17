@@ -1,3 +1,5 @@
+import {marked} from 'marked';
+
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
@@ -224,7 +226,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
               <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
             </div>
             <div class="comment-content">
-              <p>${comment.content}</p>
+              <p>${marked.parse(comment.content)}</p>
             </div>
             <div class="comment-date">
               <span>${comment.date}</span>
