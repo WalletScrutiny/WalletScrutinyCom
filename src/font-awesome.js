@@ -1,6 +1,7 @@
 import { library, dom } from '@fortawesome/fontawesome-svg-core';
 import {
   faSquareXTwitter,
+  faXTwitter,
   faSquareFacebook,
   faLinkedin,
   faGitlab,
@@ -86,6 +87,7 @@ library.add(
   faMinus,
   // Brands
   faSquareXTwitter,
+  faXTwitter,
   faSquareFacebook,
   faLinkedin,
   faGitlab,
