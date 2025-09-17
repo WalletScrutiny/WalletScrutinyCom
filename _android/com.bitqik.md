@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitqik
 appCountry: 
 released: 2022-09-23
-updated: 2025-09-03
-version: 3.2.0
+updated: 2025-09-16
+version: 3.3.0
 stars: 
 ratings: 
 reviews: 

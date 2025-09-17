@@ -12,7 +12,7 @@ updated: 2025-09-09
 version: 1.21.1
 stars: 4.2
 ratings: 
-reviews: 123
+reviews: 124
 website: https://noones.com/
 repository: 
 issue: 

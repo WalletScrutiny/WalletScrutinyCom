@@ -12,7 +12,7 @@ updated: 2025-07-24
 version: 4.0.8
 stars: 3
 ratings: 3007
-reviews: 632
+reviews: 633
 website: https://bitoasis.net/
 repository: 
 issue: 

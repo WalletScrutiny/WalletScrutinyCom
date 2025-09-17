@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.vestbag.bitdd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-09-22
+date: 2025-09-17
 signer: 
 twitter: 
 social: 

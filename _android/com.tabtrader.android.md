@@ -11,7 +11,7 @@ appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
 updated: 2025-09-04
-version: 7.4.3
+version: 7.5.0
 stars: 3.9
 ratings: 57218
 reviews: 1158

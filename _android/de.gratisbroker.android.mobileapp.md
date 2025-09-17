@@ -12,7 +12,7 @@ updated: 2025-09-01
 version: 5.7.0
 stars: 3.9
 ratings: 
-reviews: 8
+reviews: 9
 website: https://www.finanzen.net/zero
 repository: 
 issue: 

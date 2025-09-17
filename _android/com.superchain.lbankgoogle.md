@@ -9,10 +9,10 @@ appId: com.superchain.lbankgoogle
 appCountry: us
 released: 2020-05-08
 updated: 2025-09-12
-version: 7.2.8
+version: 7.3.0
 stars: 3.9
 ratings: 46317
-reviews: 607
+reviews: 605
 website: https://www.lbank.com
 repository: 
 issue: 

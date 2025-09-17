@@ -9,7 +9,7 @@ appId: com.iqoption
 appCountry: 
 released: 
 updated: 2025-09-11
-version: 8.62.1
+version: 8.62.3
 stars: 4.5
 ratings: 
 reviews: 525

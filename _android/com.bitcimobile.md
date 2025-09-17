@@ -30,7 +30,7 @@ social:
 - https://medium.com/@bitcicom
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
 redirect_from: 
-developerName: BİTCİ KRİPTO VARLIK ALIM  SATIM PLATFORMU A.Ş.
+developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 features: 
 
 ---

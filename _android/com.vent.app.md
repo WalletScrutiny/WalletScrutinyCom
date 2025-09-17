@@ -10,7 +10,7 @@ appCountry:
 released: 2022-01-26
 updated: 2025-09-11
 version: 1.10.22
-stars: 4.7
+stars: 4.8
 ratings: 
 reviews: 7
 website: https://vent.africa

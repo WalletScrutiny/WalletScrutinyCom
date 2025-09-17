@@ -11,7 +11,7 @@ updated: 2025-09-12
 version: 2.21.2
 stars: 4.8
 ratings: 658
-reviews: 159
+reviews: 160
 website: https://www.ballet.com/
 repository: 
 issue: 

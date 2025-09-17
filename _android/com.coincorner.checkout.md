@@ -8,8 +8,8 @@ users: 500
 appId: com.coincorner.checkout
 appCountry: 
 released: 2022-09-29
-updated: 2024-08-13
-version: 2.6.0
+updated: 2025-09-15
+version: 2.7.0
 stars: 5
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coincorner.checkout.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2025-08-09
+date: 2025-09-17
 signer: 
 twitter: 
 social: 

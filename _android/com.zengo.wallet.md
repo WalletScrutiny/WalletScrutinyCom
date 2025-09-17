@@ -14,7 +14,7 @@ updated: 2025-09-08
 version: 9.3.2
 stars: 4.2
 ratings: 3936
-reviews: 577
+reviews: 576
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 

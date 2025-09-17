@@ -8,8 +8,8 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: '1515652068'
 released: 2020-09-21
-updated: 2025-09-03
-version: 3.2.22
+updated: 2025-09-17
+version: 3.2.25
 stars: 4.5
 reviews: 193
 website: https://www.ambr.io/global

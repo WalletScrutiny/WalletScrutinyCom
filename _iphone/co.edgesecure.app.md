@@ -12,7 +12,7 @@ released: 2018-02-09
 updated: 2025-09-10
 version: 4.34.0
 stars: 4.6
-reviews: 2166
+reviews: 2174
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 

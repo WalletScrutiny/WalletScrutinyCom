@@ -23,7 +23,7 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
+appHashes: 
 date: 2025-08-11
 signer: 
 twitter: ElectrumWallet
@@ -35,7 +35,6 @@ features:
 - ln
 
 ---
-
 
 **Electrum Bitcoin Wallet** is one of the oldest and most widely used Bitcoin wallets in the cryptocurrency ecosystem. First released in 2011, Electrum quickly gained popularity due to its focus on speed, low resource usage, and a strong emphasis on security. It is known for its lightweight architecture that uses remote servers to handle the blockchain, allowing quick startup and operation without requiring users to download the entire Bitcoin blockchain.
 

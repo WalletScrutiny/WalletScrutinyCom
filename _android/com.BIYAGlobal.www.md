@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-13
 updated: 2025-09-12
 version: 2.8.710
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 16
+reviews: 17
 website: https://cn.biyapay.com/
 repository: 
 issue: 

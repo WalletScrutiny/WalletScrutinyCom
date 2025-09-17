@@ -11,7 +11,7 @@ released: 2021-03-30
 updated: 2025-07-08
 version: 3.2.3
 stars: 4.4
-reviews: 1018
+reviews: 1021
 website: https://bitcoindepot.com/
 repository: 
 issue: 
