@@ -3,7 +3,7 @@ let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
 let commentAuthorPubkeys = [];
 
-const MAX_COMMENTS_TO_SHOW = 2;
+const MAX_COMMENTS_TO_SHOW = 3;
 
 function addCommentStyles() {
   const styleId = 'comments-section-styles';
