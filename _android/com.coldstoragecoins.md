@@ -10,7 +10,7 @@ appCountry:
 released: 2018-08-14
 updated: 2025-07-10
 version: 4.2.1
-stars: 2.8
+stars: 2.9
 ratings: 
 reviews: 43
 website: https://coldstoragecoins.com

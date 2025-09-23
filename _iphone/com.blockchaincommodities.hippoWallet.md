@@ -1,6 +1,6 @@
 ---
 wsId: hippoCrypto
-title: 'Hippo: Non-Custodial Wallet'
+title: 'Hippo Wallet: Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.blockchaincommodities.hippoWallet
 appCountry: us
 idd: '1613041499'
 released: 2022-04-01
-updated: 2025-06-02
-version: 1.23.1
+updated: 2025-09-23
+version: 1.23.2
 stars: 3.7
 reviews: 10
 website: https://hippowallet.io

@@ -9,7 +9,7 @@ appId: world.bitkey.app
 appCountry: US
 released: 2024-02-28
 updated: 2025-09-12
-version: 2025.17.0 (9)
+version: 2025.18.0 (3)
 stars: 4.2
 ratings: 
 reviews: 28

@@ -11,7 +11,7 @@ released: 2022-03-19
 updated: 2025-09-03
 version: 1.11.0
 stars: 4.3
-reviews: 153
+reviews: 156
 website: https://www.btcmarkets.net
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: Exchangernet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.exchangernet
 appCountry: 
 released: 2021-02-21

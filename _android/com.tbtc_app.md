@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-17
 updated: 2025-08-26
 version: 0.1.37
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 19
+reviews: 20
 website: https://thebitcoincompany.com
 repository: 
 issue: 

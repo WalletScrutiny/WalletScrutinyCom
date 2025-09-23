@@ -12,7 +12,7 @@ updated: 2025-08-24
 version: 2.17.8
 stars: 4.6
 ratings: 231
-reviews: 42
+reviews: 43
 website: https://saltlending.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 1000000
 appId: rsv.walletapp.reserve
 appCountry: 
 released: 2019-07-30
-updated: 2025-09-15
-version: 3.0.25
+updated: 2025-09-17
+version: 3.0.27
 stars: 4.7
 ratings: 
 reviews: 475

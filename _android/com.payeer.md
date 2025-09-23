@@ -12,7 +12,7 @@ updated: 2022-10-18
 version: VARY
 stars: 4.5
 ratings: 36999
-reviews: 204
+reviews: 205
 website: https://payeer.com
 repository: 
 issue: 

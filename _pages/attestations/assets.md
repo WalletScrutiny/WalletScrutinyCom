@@ -28,5 +28,5 @@ permalink: /assets/
     } finally {
       document.getElementById('loadingSpinner').style.display = 'none';
     }
-  });
+  });refresh
 </script>

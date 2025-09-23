@@ -12,7 +12,7 @@ updated: 2025-09-15
 version: 3.6.0
 stars: 3.3
 ratings: 
-reviews: 27
+reviews: 28
 website: https://osl.com
 repository: 
 issue: 

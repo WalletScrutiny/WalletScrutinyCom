@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: coinunited.io.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-15
+date: 2025-09-23
 signer: 
 twitter: realcoinunited
 social: 

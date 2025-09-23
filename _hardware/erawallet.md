@@ -4,12 +4,12 @@ appId: erawallet
 authors:
 - danny
 released: 2025-03-10
-discontinued:
-updated:
-version:
-binaries:
+discontinued: 
+updated: 
+version: 
+binaries: 
 dimensions:
-- 85.6
+- 86
 - 54
 - 5.5
 weight: 45g
@@ -17,17 +17,17 @@ provider: HWLT FZE
 providerWebsite: https://era-wallet.com
 website: https://era-wallet.com
 shop: https://era-wallet.com/products
-country:
+country: 
 price: 219USD
-repository:
-issue:
+repository: 
+issue: 
 icon: erawallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
 appHashes: 
 date: 2025-09-19
-signer:
+signer: 
 twitter: era_wallet
 social:
 - https://t.me/erawlt

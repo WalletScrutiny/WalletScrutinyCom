@@ -12,7 +12,7 @@ updated: 2025-09-09
 version: 1.38.0
 stars: 4.5
 ratings: 300
-reviews: 54
+reviews: 55
 website: https://www.bitvalve.com
 repository: 
 issue: 

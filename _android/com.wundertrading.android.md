@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'WunderTrading: AI Crypto Bot'
+title: 'WunderTrading: Crypto Bot'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.wundertrading.android
 appCountry: 
 released: 2022-11-20
-updated: 2024-11-21
-version: 1.1.6
+updated: 2025-09-15
+version: 1.2.0
 stars: 2.8
 ratings: 
 reviews: 5

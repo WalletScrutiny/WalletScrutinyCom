@@ -8,7 +8,7 @@ users: 50000
 appId: world.unbank.unbankmobileapp
 appCountry: 
 released: 2022-04-15
-updated: 2025-09-13
+updated: 2025-09-17
 version: 2.14.4
 stars: 4.5
 ratings: 

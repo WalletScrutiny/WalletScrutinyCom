@@ -10,8 +10,8 @@ idd: 348823316
 released: 2010-01-05
 updated: 2025-09-05
 version: 6.1.3
-stars: 4.4
-reviews: 219
+stars: 4.3
+reviews: 220
 website: https://www.easymarkets.com/eu/en-gb/platforms/easymarkets-mobile-app/
 repository: 
 issue: 

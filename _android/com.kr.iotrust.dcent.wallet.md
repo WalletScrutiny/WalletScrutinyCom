@@ -1,6 +1,6 @@
 ---
 wsId: dCent
-title: D'CENT Crypto Wallet
+title: D’CENT Wallet - Secure Crypto
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ users: 100000
 appId: com.kr.iotrust.dcent.wallet
 appCountry: cn
 released: 2018-10-16
-updated: 2025-09-06
-version: 8.0.3
+updated: 2025-09-19
+version: 8.0.5
 stars: 3.9
 ratings: 756
-reviews: 952
+reviews: 951
 website: https://dcentwallet.com/
 repository: 
 issue: 

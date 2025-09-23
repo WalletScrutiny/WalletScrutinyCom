@@ -8,8 +8,8 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
-updated: 2024-07-26
-version: 8.3.7
+updated: 2025-09-22
+version: 8.4.2
 stars: 4.2
 ratings: 
 reviews: 32
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cmorq.hoopoe.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
 appHashes: 
-date: 2025-07-24
+date: 2025-09-23
 signer: 
 twitter: cmorq_
 social:

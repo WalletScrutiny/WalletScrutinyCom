@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bit.eu.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-09-28
+date: 2025-09-23
 signer: 
 twitter: BiteeuExchange
 social:

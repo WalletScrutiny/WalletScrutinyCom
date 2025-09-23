@@ -1,6 +1,6 @@
 ---
 wsId: SkyeWallet
-title: 'Skye Wallet: Buy & Sell Crypto'
+title: 'Skye Wallet: Buy Bitcoin Fast'
 altTitle: 
 authors:
 - danny

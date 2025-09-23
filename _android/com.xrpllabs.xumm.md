@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-29
 updated: 2025-09-03
 version: 4.2.2
-stars: 4.5
+stars: 4.1
 ratings: 
 reviews: 495
 website: https://xaman.app

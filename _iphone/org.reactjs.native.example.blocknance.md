@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.reactjs.native.example.blocknance.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-02-18
+date: 2025-09-23
 signer: 
 twitter: blocknanceATM
 social:

@@ -8,10 +8,10 @@ appId: com.btcc.hy
 appCountry: us
 idd: 1462880009
 released: 2019-05-11
-updated: 2025-09-15
-version: 8.9.10
+updated: 2025-09-22
+version: 8.9.20
 stars: 4.4
-reviews: 3821
+reviews: 3864
 website: https://www.btcc.com/en-US
 repository: 
 issue: 

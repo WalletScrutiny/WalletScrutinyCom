@@ -8,8 +8,8 @@ users: 5000
 appId: com.holdings.choice
 appCountry: 
 released: 2022-04-04
-updated: 2025-08-12
-version: 2.24.1
+updated: 2025-09-22
+version: 2.25.0
 stars: 3.1
 ratings: 
 reviews: 30

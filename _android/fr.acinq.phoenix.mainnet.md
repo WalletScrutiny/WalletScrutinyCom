@@ -10,8 +10,8 @@ users: 100000
 appId: fr.acinq.phoenix.mainnet
 appCountry: fr
 released: 2019-12-10
-updated: 2025-08-14
-version: 2.6.4
+updated: 2025-09-17
+version: 2.6.5
 stars: 4.6
 ratings: 314
 reviews: 10

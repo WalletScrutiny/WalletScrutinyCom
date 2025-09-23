@@ -1,6 +1,6 @@
 ---
 wsId: Mixin
-title: Mixin Crypto Wallet Messenger
+title: Mixin Messenger Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
 updated: 2025-09-15
-version: 3.3.4
+version: 3.4.0
 stars: 4.4
 ratings: 1252
 reviews: 152

@@ -13,7 +13,7 @@ updated: 2025-09-08
 version: 3.0.88
 stars: 3.5
 ratings: 3831
-reviews: 559
+reviews: 560
 website: https://guarda.com
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42

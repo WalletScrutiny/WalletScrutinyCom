@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.sigen.sigenapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-08-27
+date: 2025-09-23
 signer: 
 twitter: SIGENpro
 social:

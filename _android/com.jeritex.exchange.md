@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-31
+date: 2025-09-23
 signer: 
 twitter: 
 social: 

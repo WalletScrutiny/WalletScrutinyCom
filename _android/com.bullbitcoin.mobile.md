@@ -8,8 +8,8 @@ users: 10000
 appId: com.bullbitcoin.mobile
 appCountry: 
 released: 2023-10-31
-updated: 2025-08-19
-version: 5.4.3
+updated: 2025-09-17
+version: 5.4.4
 stars: 
 ratings: 
 reviews: 

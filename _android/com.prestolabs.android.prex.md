@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Flipster - Trade BTC & SOL
+title: Flipster - Trade USD1 & BTC
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2025-09-11
-version: 2.35.103
+updated: 2025-09-19
+version: 2.37.102
 stars: 2.9
 ratings: 
 reviews: 75

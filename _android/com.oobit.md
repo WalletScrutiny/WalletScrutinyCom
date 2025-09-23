@@ -12,7 +12,7 @@ updated: 2025-09-11
 version: 2.2.0
 stars: 3.3
 ratings: 
-reviews: 19
+reviews: 20
 website: https://www.oobit.com/
 repository: 
 issue: 

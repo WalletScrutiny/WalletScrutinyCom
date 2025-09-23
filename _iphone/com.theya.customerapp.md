@@ -3,14 +3,14 @@ wsId:
 title: Theya – Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.theya.customerapp
 appCountry: us
 idd: '1669665032'
-released: '2023-10-02T07:00:00Z'
+released: 2023-10-02
 updated: 2025-03-16
 version: '1.46'
-stars: 4.86207
+stars: 4.9
 reviews: 29
 website: https://www.theya.us/
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: TheyaBitcoin
 social:
 - https://www.linkedin.com/company/theya-us
-- https://www.youtube.com/@theya-bitcoin 
+- https://www.youtube.com/@theya-bitcoin
 features: 
 developerName: Theya Inc.
 
