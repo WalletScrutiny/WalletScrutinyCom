@@ -30,19 +30,16 @@
           {% endcase %}
         {% endfor %}
 
-        <!-- DID NOT TEST FOR CUSTODY -->
-        {% if custodyIndex > verdictIndex %}
-        {{ site.data.verdicts[page.verdict].short }}
-        {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
-        {% assign conjunctionText = 'Also' %}
-        <!-- IS NOT SELF-CUSTODIAL -->
-        {% elsif page.verdict == 'custodial' %}
-        {{ site.data.verdicts[page.verdict].short }}
-        {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts['custodial'].title }}</strong>".<br><a href="#custodial">Read more</a></p>{% endcapture %}
-        <!-- IS SELF-CUSTODIAL -->
+        {% if custodyIndex > verdictIndex and page.verdict != 'ecash' %}
+          {{ site.data.verdicts[page.verdict].short }}
+          {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+          {% assign conjunctionText = 'Also' %}
+        {% elsif page.verdict == 'custodial' or page.verdict == 'ecash' %}
+          {{ site.data.verdicts[page.verdict].short }}
+          {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts[page.verdict].title }}</strong>".<br><a href="#{{page.verdict}}">Read more</a></p>{% endcapture %}
         {% else %}
-        {{"Self-custodial: The user holds the keys"}}
-        {% capture answer %} <p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+            {{"Self-custodial: The user holds the keys"}}
+            {% capture answer %} <p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
         {% endif %}
     {% endif %}
     {% if page.meta != "ok" %}

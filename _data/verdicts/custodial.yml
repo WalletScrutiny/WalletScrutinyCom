@@ -1,12 +1,12 @@
 short: Custodial!
 title: 'Custodial: The provider holds the keys'
-pass: The user holds the keys
+pass: The user can hold the keys
 color: '#d33100'
 redflag: true
 message: >
   As the provider of this product holds the keys, verifiability of the
   product is not relevant to the security of the funds!
-question: Is the product self-custodial?
+question: Does the product allow self-custody?
 details: >
   A custodial service is a service where the funds are held by a third party
   like the provider. The custodial service can at any point steal all the
@@ -25,12 +25,6 @@ details: >
   **Products that claim to be non-custodial but feature custodial accounts without
   very clearly marking those as custodial are also considered "custodial" as a
   whole to avoid misguiding users that follow our assessment.**
-
-
-  This verdict means that the provider might or might not publish source code and maybe
-  it is even possible to reproduce the build from the source code but as it is
-  custodial, the provider already has control over the funds, so it
-  is not a wallet where you would be in exclusive control of your funds.
   
   
   We have to acknowledge that a huge majority of Bitcoiners are currently using
