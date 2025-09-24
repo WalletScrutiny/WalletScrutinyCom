@@ -98,7 +98,8 @@ window.renderAssetsTable = async function({
                                             enableDraftsFilter = false,
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
-                                            showIssueTracker = false
+                                            showIssueTracker = false,
+                                            showOnlyRegisteredAssets = false
                                           }) {
   let hasAssets = false;
 
@@ -378,9 +379,24 @@ window.renderAssetsTable = async function({
       const identifier = getFirstTagValue(binary, 'i');
       const platform = getFirstTagValue(binary, 'platform');
 
-      // Guess if it's an asset or a verification
-      hasAssets = binary.kind === assetRegistrationKind;
-      const itemDescription = hasAssets ? binary.content : JSON.parse(binary.content).description;
+      let thisHashHasAssets = false;
+
+      item.items.forEach(item => {
+        if (item.kind === assetRegistrationKind) {
+          thisHashHasAssets = true;
+        }
+      });
+
+      if (showOnlyRegisteredAssets && !thisHashHasAssets) {
+        return;
+      }
+
+      if (thisHashHasAssets) {
+        hasAssets = true;
+      }
+      
+      // Get description, guess if it's an asset or a verification
+      const itemDescription = binary.kind === assetRegistrationKind ? binary.content : JSON.parse(binary.content).description;
 
       const standardAttestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
       const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
