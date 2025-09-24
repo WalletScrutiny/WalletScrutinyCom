@@ -22,11 +22,11 @@ permalink: /assets/
     });
 
     try {
-      await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
+      await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000, showOnlyRegisteredAssets: true});
     } catch (error) {
       console.error('Error rendering assets table: ', error);
     } finally {
       document.getElementById('loadingSpinner').style.display = 'none';
     }
-  });refresh
+  });
 </script>
