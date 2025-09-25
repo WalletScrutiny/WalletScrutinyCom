@@ -8,9 +8,9 @@ message: >
 question: Does the product use Chaumian eCash?
 details: >
   Chaumian eCash is a form of electronic token system that provides some privacy
-  benefits but requires trust in mint operators. While the technology itself is
-  promising, wallets implementing it effectively connect to custodial services.
-  
+  benefits over custodial services, but requires trust in mint operators.
+  While the technology itself is promising, wallets implementing it effectively
+  connect to custodial services.
   
   There are currently two main incompatible protocols for Chaumian eCash:
   
