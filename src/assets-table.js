@@ -520,13 +520,6 @@ window.renderAssetsTable = async function({
 
   document.getElementById(htmlElementId).appendChild(table);
 
-  // ENDORSEMENTS TABLE
-  if (endorsements.size > 0) {
-    endorsements.forEach(endorsement => {
-      console.log('************************************* endorsement', endorsement);
-    });
-  }
-
   // ATTACHMENTS TABLE
   if (attachments.size > 0) {
     attachments.forEach(attachment => {
