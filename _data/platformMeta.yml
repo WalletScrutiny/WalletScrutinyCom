@@ -11,6 +11,7 @@ android:
     - nowallet
     - nobtc
     - nosendreceive
+    - ecash
     - custodial
     - nosource
     - obfuscated
@@ -54,6 +55,7 @@ iphone:
     - nowallet
     - nobtc
     - nosendreceive
+    - ecash
     - custodial
     - nosource
     - obfuscated
