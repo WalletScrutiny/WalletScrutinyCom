@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: squirrelWallet
 title: Squirrel Wallet
 altTitle: 
 authors:
