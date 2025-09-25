@@ -11,6 +11,9 @@
     <div class="dropdown-options dropdown-platform">
       <div class="option allPlatforms selected" data="allPlatforms" data-name="All Platforms"><span>All Platforms</span></div>
       {% for p in site.data.platformMeta %}
+        {% if p[1].verifications_only == true %}
+          {% continue %}
+        {% endif %}
         {% assign folder = p[0] %}
         {% include folderToName.html folder=folder %}
         <div class="option {{p[0]}}" data="{{p[0]}}" data-name="{{name}}"><span>{{name}}</span></div>

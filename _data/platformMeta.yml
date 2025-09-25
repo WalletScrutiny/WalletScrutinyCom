@@ -199,6 +199,7 @@ linux:
     - stale
     - removed
     - deprecated
+  verifications_only: true
 windows:
   description: >
     Wallets that run as native apps on your Windows desktop or laptop.
@@ -222,6 +223,7 @@ windows:
     - stale
     - removed
     - deprecated
+  verifications_only: true
 macos:
   description: >
     Wallets that run as native apps on your Mac desktop or laptop.
@@ -245,6 +247,7 @@ macos:
     - stale
     - removed
     - deprecated
+  verifications_only: true
 others:
   description: >
     These products do not fit into any of the other categories. We list them as
