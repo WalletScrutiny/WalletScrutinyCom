@@ -19,7 +19,7 @@ issue:
 icon: com.squirrelwallet.app.png
 bugbounty: 
 meta: ok
-verdict: source
+verdict: nosource
 appHashes: 
 date: 2025-09-24
 signer: 
