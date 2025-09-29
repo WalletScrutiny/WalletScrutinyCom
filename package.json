@@ -58,7 +58,7 @@
     "app-info-parser": "^1.1.6",
     "assert": "^2.1.0",
     "browserify-zlib": "^0.2.0",
-    "dompurify": "^3.2.6",
+    "dompurify": "^3.2.7",
     "jquery": "^3.7.1",
     "light-bolt11-decoder": "^3.2.0",
     "marked": "^15.0.12",
