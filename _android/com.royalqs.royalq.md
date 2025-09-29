@@ -8,8 +8,8 @@ users: 1000000
 appId: com.royalqs.royalq
 appCountry: 
 released: 2021-03-19
-updated: 2025-08-28
-version: 6.0.2
+updated: 2025-09-25
+version: 6.0.3
 stars: 4.1
 ratings: 
 reviews: 156

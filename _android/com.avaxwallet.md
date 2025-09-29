@@ -1,6 +1,6 @@
 ---
 wsId: coreCryptoWallet
-title: 'Core Wallet: Crypto Made Easy'
+title: Core Wallet | Crypto Made Easy
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.avaxwallet
 appCountry: 
 released: 2022-08-30
-updated: 2025-09-08
-version: 1.0.10
+updated: 2025-09-23
+version: 1.0.11
 stars: 4
 ratings: 
-reviews: 121
+reviews: 122
 website: http://core.app
 repository: 
 issue: 

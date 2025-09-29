@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.gopop.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-10-02
+date: 2025-09-29
 signer: 
 twitter: 
 social: 

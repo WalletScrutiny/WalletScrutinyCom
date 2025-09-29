@@ -8,10 +8,10 @@ appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
 released: 2020-12-13
-updated: 2025-09-16
-version: 6.2.5
+updated: 2025-09-26
+version: 6.2.6
 stars: 4.5
-reviews: 192
+reviews: 193
 website: https://openfi.world/
 repository: 
 issue: 

@@ -8,19 +8,19 @@ appId: com.rice.wallet
 appCountry: us
 idd: '1601004738'
 released: 2022-01-27
-updated: 2023-02-07
-version: 1.5.3
+updated: 2025-09-23
+version: 1.5.6
 stars: 4.4
-reviews: 41
-website: https://ricewallet.io
+reviews: 40
+website: https://ricewallet.ai
 repository: 
 issue: 
 icon: com.rice.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
 appHashes: 
-date: 2025-04-01
+date: 2025-09-29
 signer: 
 twitter: RiceDeFiWallet
 social:

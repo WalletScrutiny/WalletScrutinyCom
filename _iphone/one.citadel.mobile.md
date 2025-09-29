@@ -11,7 +11,7 @@ released: 2021-04-06
 updated: 2025-05-27
 version: 2.12.2
 stars: 4.5
-reviews: 15
+reviews: 16
 website: https://citadel.one/
 repository: 
 issue: 

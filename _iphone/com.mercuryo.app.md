@@ -8,10 +8,10 @@ appId: com.mercuryo.app
 appCountry: us
 idd: 1446533733
 released: 2019-02-08
-updated: 2025-08-25
-version: 2.3.2
+updated: 2025-09-22
+version: 2.3.3
 stars: 4.7
-reviews: 1065
+reviews: 1069
 website: https://mercuryo.io/
 repository: 
 issue: 

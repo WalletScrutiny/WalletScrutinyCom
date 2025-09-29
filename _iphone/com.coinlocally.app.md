@@ -11,7 +11,7 @@ released: 2020-01-28
 updated: 2025-09-21
 version: 3.1.4
 stars: 3.8
-reviews: 125
+reviews: 120
 website: https://coinlocally.com
 repository: 
 issue: 

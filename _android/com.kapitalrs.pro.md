@@ -8,8 +8,8 @@ users: 100000
 appId: com.kapitalrs.pro
 appCountry: 
 released: 2017-02-07
-updated: 2025-08-24
-version: 100.03.018
+updated: 2025-09-25
+version: 100.04.037
 stars: 
 ratings: 
 reviews: 

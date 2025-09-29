@@ -11,7 +11,7 @@ released: 2022-08-01
 updated: 2025-09-07
 version: 2.7.4
 stars: 4.2
-reviews: 51
+reviews: 53
 website: https://www.altify.app/
 repository: 
 issue: 

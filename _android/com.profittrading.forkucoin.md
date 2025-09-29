@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-27
 updated: 2025-09-17
 version: 6.6.1
-stars: 3.9
+stars: 4
 ratings: 102
 reviews: 17
 website: https://profittrading.app/

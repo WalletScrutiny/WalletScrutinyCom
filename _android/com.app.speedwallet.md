@@ -10,9 +10,9 @@ appCountry:
 released: 2023-06-18
 updated: 2025-09-17
 version: 2.4.26.0.0.4.fp.gps
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 825
+reviews: 843
 website: https://www.speed.app/
 repository: 
 issue: 

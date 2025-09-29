@@ -4,12 +4,12 @@ title: 'Gem Wallet: Bitcoin, USDT, BNB'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.gemwallet.android
 appCountry: ae
 released: 2023-06-26
-updated: 2025-09-15
-version: 1.3.19
+updated: 2025-09-26
+version: 1.3.23
 stars: 4.9
 ratings: 
 reviews: 4

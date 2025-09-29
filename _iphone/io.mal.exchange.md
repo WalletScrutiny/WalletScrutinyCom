@@ -8,8 +8,8 @@ appId: io.mal.exchange
 appCountry: us
 idd: '6443828002'
 released: 2023-02-13
-updated: 2024-08-22
-version: 1.7.0
+updated: 2025-09-23
+version: 1.8.0
 stars: 5
 reviews: 4
 website: https://mal.io
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.mal.exchange.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-09-03
+date: 2025-09-29
 signer: 
 twitter: MalFinance
 social:

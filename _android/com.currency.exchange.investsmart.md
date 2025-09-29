@@ -10,9 +10,9 @@ appCountry: tm
 released: 2020-12-10
 updated: 2025-08-14
 version: 2.15.4
-stars: 3.7
+stars: 3.8
 ratings: 216
-reviews: 232
+reviews: 234
 website: https://dzengi.com/
 repository: 
 issue: 

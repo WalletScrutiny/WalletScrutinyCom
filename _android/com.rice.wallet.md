@@ -8,8 +8,8 @@ users: 100000
 appId: com.rice.wallet
 appCountry: 
 released: 2022-01-18
-updated: 2023-01-27
-version: 1.5.1
+updated: 2025-09-24
+version: 1.5.2
 stars: 4.8
 ratings: 
 reviews: 219
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.rice.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
 appHashes: 
-date: 2025-01-27
+date: 2025-09-29
 signer: 
 twitter: RiceDeFiWallet
 social:

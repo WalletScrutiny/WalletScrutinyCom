@@ -9,7 +9,7 @@ authors:
 released: 2022-05-01
 discontinued: 
 updated: 2025-02-13
-version: 5.4.3
+version: 5.4.4
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 86
@@ -31,7 +31,7 @@ verdict: sourceavailable
 appHashes:
 - 495f37ce7ddaba2e9fc3f03dec582f1646f258a3d0cec5e71c04d127357b2fa3
 - f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964
-date: 2025-05-14
+date: 2025-09-26
 signer: 
 twitter: COLDCARDwallet
 social:

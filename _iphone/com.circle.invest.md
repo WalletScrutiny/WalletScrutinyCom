@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.circle.invest.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-04-17
+date: 2025-09-29
 signer: 
 twitter: circle
 social:

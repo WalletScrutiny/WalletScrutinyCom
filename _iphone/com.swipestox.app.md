@@ -8,10 +8,10 @@ appId: com.swipestox.app
 appCountry: in
 idd: 1182702365
 released: 2017-01-15
-updated: 2025-08-22
-version: 9.4.0
-stars: 4.7
-reviews: 51
+updated: 2025-09-25
+version: 9.4.3
+stars: 4.8
+reviews: 52
 website: https://www.naga.com
 repository: 
 issue: 

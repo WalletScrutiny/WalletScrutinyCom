@@ -3,16 +3,16 @@ wsId: squirrelWallet
 title: Squirrel Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.squirrelwallet.onekey
 appCountry: ca
 idd: '6739630128'
-released: '2025-06-07T07:00:00Z'
+released: 2025-06-07
 updated: 2025-08-29
 version: 1.0.3
 stars: 5
 reviews: 1
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.squirrelwallet.onekey.jpg
@@ -24,7 +24,7 @@ date: 2025-09-25
 signer: 
 twitter: squirrel_wallet
 social:
-- https://t.me/SquirrelTech  
+- https://t.me/SquirrelTech
 features: 
 developerName: Squirrel Wallet Inc
 

@@ -9,7 +9,7 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 released: 2015-06-24
 updated: 2025-09-22
-version: 5.6.0
+version: 5.7.0
 stars: 3.8
 ratings: 5466
 reviews: 43

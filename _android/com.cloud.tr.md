@@ -12,7 +12,7 @@ updated: 2025-09-12
 version: 3.3.1
 stars: 4.8
 ratings: 42784
-reviews: 20402
+reviews: 20453
 website: https://www.trbinance.com/
 repository: 
 issue: 

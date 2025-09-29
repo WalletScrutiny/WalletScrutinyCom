@@ -3,11 +3,11 @@ wsId: squirrelWallet
 title: Squirrel Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.squirrelwallet.app
 appCountry: 
-released: Jun 26, 2025
+released: 2025-06-26
 updated: 2025-09-08
 version: 1.0.4
 stars: 
@@ -25,7 +25,7 @@ date: 2025-09-24
 signer: 
 twitter: squirrel_wallet
 social:
-- https://t.me/SquirrelTech 
+- https://t.me/SquirrelTech
 redirect_from: 
 developerName: Squirrel Wallet
 features: 

@@ -8,8 +8,8 @@ appId: org.autonomoussoftwarefoundation.verusmobile.ios
 appCountry: us
 idd: '6447361908'
 released: 2025-04-25
-updated: 2025-08-29
-version: 1.0.30
+updated: 2025-09-25
+version: 1.0.32
 stars: 4.8
 reviews: 19
 website: https://verus.io

@@ -8,11 +8,11 @@ appId: io.talken.wallet
 appCountry: 
 idd: 1459475831
 released: 2019-09-25
-updated: 2025-07-30
-version: 2.0.10
+updated: 2025-09-17
+version: 2.0.11
 stars: 5
 reviews: 6
-website: https://talken.io/
+website: https://talken.io
 repository: 
 issue: 
 icon: io.talken.wallet.jpg

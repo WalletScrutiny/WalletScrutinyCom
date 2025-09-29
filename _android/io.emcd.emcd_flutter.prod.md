@@ -1,6 +1,6 @@
 ---
 wsId: emcdPoolWallet
-title: 'EMCD: Crypto mining pool BTC'
+title: 'EMCD: Crypto Wallet Mining BTC'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 100000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2025-09-11
+updated: 2025-09-25
 version: 2.18.2
 stars: 4.5
 ratings: 

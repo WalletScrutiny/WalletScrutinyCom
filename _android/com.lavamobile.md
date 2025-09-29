@@ -1,6 +1,6 @@
 ---
 wsId: lavaXYZ
-title: Vault by Lava
+title: Lava
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2025-07-25
-version: 1.12.0
-stars: 3.7
+updated: 2025-09-25
+version: 2.0.35
+stars: 3.4
 ratings: 
-reviews: 4
+reviews: 5
 website: https://lava.xyz
 repository: 
 issue: 

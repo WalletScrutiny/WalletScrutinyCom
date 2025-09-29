@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-02
 updated: 2025-09-18
 version: 1.3.3
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 254
+reviews: 255
 website: https://www.fountain.fm
 repository: 
 issue: 

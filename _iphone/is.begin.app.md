@@ -25,7 +25,7 @@ signer:
 twitter: BeginWallet
 social: 
 features: 
-developerName: B58 Labs Inc.
+developerName: Begin W UG
 
 ---
 

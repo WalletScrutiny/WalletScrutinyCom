@@ -8,10 +8,10 @@ appId: com.holdings.choice
 appCountry: us
 idd: '1563472237'
 released: 2021-08-05
-updated: 2025-01-06
-version: 2.23.0
+updated: 2025-09-23
+version: 2.25.0
 stars: 4.7
-reviews: 1495
+reviews: 1494
 website: https://www.choiceapp.io
 repository: 
 issue: 

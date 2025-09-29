@@ -13,7 +13,7 @@ version: '1.69'
 stars: 3.9
 ratings: 
 reviews: 14
-website: https://koinpark.com/
+website: https://www.koinpark.com/
 repository: 
 issue: 
 icon: com.application.koinpark.png
@@ -33,7 +33,7 @@ social:
 - https://www.youtube.com/@koinparkInfo
 - https://www.reddit.com/user/Koinpark
 redirect_from: 
-developerName: koinpark
+developerName: Koinpark Private Limited
 features: 
 
 ---

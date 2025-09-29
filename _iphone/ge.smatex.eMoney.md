@@ -8,10 +8,10 @@ appId: ge.smatex.eMoney
 appCountry: ge
 idd: '1084288470'
 released: 2020-04-19
-updated: 2025-08-27
-version: 11.2.0
-stars: 3
-reviews: 2
+updated: 2025-09-29
+version: 11.4.2
+stars: 3.7
+reviews: 3
 website: http://emoney.ge
 repository: 
 issue: 

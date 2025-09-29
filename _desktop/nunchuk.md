@@ -6,7 +6,7 @@ authors:
 released: 2021-06-03
 discontinued: 
 updated: 2025-04-22
-version: 1.9.50
+version: 1.9.51
 binaries: 
 provider: Nunchuk Inc.
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: nunchuk.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-08-29
+date: 2025-09-23
 twitter: nunchuk_io
 social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email

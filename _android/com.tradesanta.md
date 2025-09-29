@@ -4,7 +4,7 @@ title: 'TradeSanta: Crypto Trading Bot'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tradesanta
 appCountry: us
 released: 2019-05-20

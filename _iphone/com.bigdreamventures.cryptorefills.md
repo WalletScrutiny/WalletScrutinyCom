@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bigdreamventures.cryptorefills.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-10-02
+date: 2025-09-29
 signer: 
 twitter: cryptorefills
 social:

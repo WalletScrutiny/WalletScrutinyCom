@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.im.tech.imcard.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-08-31
+date: 2025-09-29
 signer: 
 twitter: 
 social: 

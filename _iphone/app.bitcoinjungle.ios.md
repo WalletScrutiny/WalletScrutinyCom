@@ -10,8 +10,8 @@ idd: '1600313979'
 released: 2021-12-16
 updated: 2025-08-12
 version: 1.4.2
-stars: 5
-reviews: 15
+stars: 4.9
+reviews: 16
 website: https://bitcoinjungle.app
 repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
 issue: 

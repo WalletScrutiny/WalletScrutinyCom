@@ -11,7 +11,7 @@ released: 2018-08-18
 updated: 2025-05-05
 version: 15.4.0
 stars: 2.6
-reviews: 15
+reviews: 16
 website: https://getcoins.com/
 repository: 
 issue: 

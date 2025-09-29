@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bunq.android
 appCountry: 
 released: 2015-11-25
-updated: 2025-09-21
-version: 29.1.2
+updated: 2025-09-25
+version: 29.2.1
 stars: 3.5
 ratings: 
-reviews: 211
+reviews: 212
 website: http://www.bunq.com
 repository: 
 issue: 

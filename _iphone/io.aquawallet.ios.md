@@ -8,10 +8,10 @@ appId: io.aquawallet.ios
 appCountry: us
 idd: '6468594241'
 released: 2024-01-03
-updated: 2025-08-25
-version: 0.3.4
+updated: 2025-09-27
+version: 0.3.5
 stars: 4.2
-reviews: 60
+reviews: 62
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
 issue: 

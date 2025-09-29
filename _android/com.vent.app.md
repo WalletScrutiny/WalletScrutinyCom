@@ -8,8 +8,8 @@ users: 10000
 appId: com.vent.app
 appCountry: 
 released: 2022-01-26
-updated: 2025-09-11
-version: 1.10.22
+updated: 2025-09-19
+version: 1.10.23
 stars: 4.8
 ratings: 
 reviews: 7
