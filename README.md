@@ -5,6 +5,12 @@ This is the repository backing [WalletScrutiny.com](https://walletscrutiny.com/)
 
 Pull Requests are welcome.
 
+## Nostr Events Specifications
+
+We're using Nostr to decentralize the data of WalletScrutiny so this data can be used in other
+applications. If you want to integrate this information into your own application, you can use
+the following specifications: [Verifications](./docs/verifications.md).
+
 ## Installing Required Dependencies
 
 1. Clone the repository: `git clone https://gitlab.com/walletscrutiny/walletScrutinyCom; cd walletScrutinyCom`
