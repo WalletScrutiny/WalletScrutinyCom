@@ -16,8 +16,8 @@ issue:
 icon: wxnetwork.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
-date: 2025-04-02
+verdict: nosource
+date: 2025-10-02
 twitter: wx_network
 social: 
 features: 
@@ -48,4 +48,6 @@ The documentation can be quite confusing, as it seems to support Bitcoin deposit
 
 So it's self-custodial, but falls short because of the unavailability of its source code.
 
-Without source code access, independent verification of the application's security model, private key management, and overall functionality is impossible. We cannot determine if the wallet is truly non-custodial or how it implements cryptographic operations. Due to this lack of code transparency, we classify WX.Network as a **work-in-progress**
+Without source code access, independent verification of the application's security model, private key management, and overall functionality is impossible. We cannot determine if the wallet is truly non-custodial or how it implements cryptographic operations. 
+
+The **source code is not publicly available**.
