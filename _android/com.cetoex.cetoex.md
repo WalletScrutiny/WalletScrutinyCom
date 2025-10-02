@@ -4,7 +4,7 @@ title: 'CetoEX : Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.cetoex.cetoex
 appCountry: 
 released: 2022-08-13

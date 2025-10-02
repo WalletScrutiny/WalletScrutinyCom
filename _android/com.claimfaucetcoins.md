@@ -10,7 +10,7 @@ appCountry:
 released: 2020-04-21
 updated: 2025-07-08
 version: '2.219'
-stars: 4
+stars: 3.9
 ratings: 266
 reviews: 18
 website: https://vesspercrypto.com

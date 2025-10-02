@@ -9,8 +9,8 @@ authors:
 - keraliss
 released: 2019-09-25
 discontinued: 
-updated: 2024-09-26
-version: 9.23.1
+updated: 2025-09-30
+version: 9.23.2
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55

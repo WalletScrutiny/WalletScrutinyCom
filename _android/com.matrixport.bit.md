@@ -10,7 +10,7 @@ appCountry:
 released: 2021-03-15
 updated: 2025-09-23
 version: 2.1.8
-stars: 3.6
+stars: 3.7
 ratings: 245
 reviews: 28
 website: https://www.bit.com

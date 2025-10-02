@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.zbx.www.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-16
+date: 2025-10-02
 signer: 
 twitter: zbx_com
 social:

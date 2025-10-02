@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: finance.hollox.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-09-28
+date: 2025-10-02
 signer: 
 twitter: Holloxintl
 social:

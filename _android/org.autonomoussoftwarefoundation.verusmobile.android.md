@@ -8,11 +8,11 @@ users: 100000
 appId: org.autonomoussoftwarefoundation.verusmobile.android
 appCountry: 
 released: 2023-04-23
-updated: 2025-09-25
-version: 1.0.32
+updated: 2025-10-01
+version: 1.0.33
 stars: 3.5
 ratings: 
-reviews: 31
+reviews: 32
 website: https://verus.io/
 repository: https://github.com/VerusCoin/Verus-Mobile
 issue: https://github.com/VerusCoin/Verus-Mobile/issues/207

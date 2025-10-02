@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-07
 updated: 2025-09-11
 version: 2.2.0
-stars: 3.2
+stars: 3.3
 ratings: 
 reviews: 20
 website: https://www.oobit.com/

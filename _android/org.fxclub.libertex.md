@@ -1,6 +1,6 @@
 ---
 wsId: libertex
-title: 'Libertex: Trade Stocks & Forex'
+title: 'Libertex: Trade & Invest'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry: cl
 released: 2015-05-22
 updated: 2025-09-23
 version: 2.49.0
-stars: 3.9
+stars: 4
 ratings: 77624
-reviews: 1265
+reviews: 1266
 website: https://libertex.org
 repository: 
 issue: 

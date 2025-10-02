@@ -3,7 +3,7 @@ wsId:
 title: HSL Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.hslwallet
 appCountry: 
 released: 2021-08-04

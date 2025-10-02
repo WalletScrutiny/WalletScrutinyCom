@@ -12,7 +12,7 @@ updated: 2025-07-06
 version: '6'
 stars: 4.7
 ratings: 
-reviews: 39
+reviews: 40
 website: https://crystalballmarkets.com/
 repository: 
 issue: 

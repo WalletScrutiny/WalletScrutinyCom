@@ -8,11 +8,11 @@ users: 100000
 appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28
-updated: 2025-09-13
-version: 2.11.1
+updated: 2025-09-26
+version: 2.12.0
 stars: 3.6
 ratings: 424
-reviews: 99
+reviews: 98
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: https://github.com/KinesisNetwork/wallet-mobile/issues/5

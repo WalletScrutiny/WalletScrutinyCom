@@ -9,7 +9,7 @@ appId: com.syfe
 appCountry: 
 released: 2020-02-13
 updated: 2025-09-26
-version: 14.4.0
+version: 14.5.0
 stars: 3.6
 ratings: 
 reviews: 4

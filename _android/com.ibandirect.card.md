@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.ibandirect.card.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-08-31
+date: 2025-10-02
 signer: 
 twitter: 
 social: 

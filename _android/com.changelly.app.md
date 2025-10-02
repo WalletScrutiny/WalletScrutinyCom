@@ -1,6 +1,6 @@
 ---
 wsId: changelly
-title: 'Crypto Exchange: Buy Bitcoin'
+title: 'Crypto Exchange: Buy BTC・USDT'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 1000000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2025-09-12
-version: 3.49.2
+updated: 2025-10-02
+version: 3.50.0
 stars: 4.6
 ratings: 5008
-reviews: 1309
+reviews: 1308
 website: https://changelly.com/
 repository: 
 issue: 

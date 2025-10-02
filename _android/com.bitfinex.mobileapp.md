@@ -10,9 +10,9 @@ appCountry:
 released: 2019-02-11
 updated: 2025-09-17
 version: 7.16.0
-stars: 3.6
+stars: 3.5
 ratings: 1986
-reviews: 72
+reviews: 73
 website: https://www.bitfinex.com
 repository: 
 issue: 

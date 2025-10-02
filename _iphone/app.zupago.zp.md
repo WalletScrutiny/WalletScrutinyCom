@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.zupago.zp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-12-19
+date: 2025-10-02
 signer: 
 twitter: 
 social: 

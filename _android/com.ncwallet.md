@@ -12,7 +12,7 @@ updated: 2025-09-24
 version: 1.0.893
 stars: 4.2
 ratings: 
-reviews: 656
+reviews: 657
 website: https://ncwallet.net
 repository: 
 issue: 

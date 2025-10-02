@@ -8,8 +8,8 @@ users: 100000
 appId: com.weareblox.app
 appCountry: 
 released: 
-updated: 2025-09-18
-version: 6.6.1
+updated: 2025-10-02
+version: 6.6.2
 stars: 3.4
 ratings: 
 reviews: 

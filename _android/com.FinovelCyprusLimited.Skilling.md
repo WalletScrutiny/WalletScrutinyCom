@@ -8,8 +8,8 @@ users: 100000
 appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 released: 2020-05-05
-updated: 2024-08-13
-version: 2.5.3
+updated: 2025-09-29
+version: 2.5.4
 stars: 4.4
 ratings: 172
 reviews: 6
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2025-08-09
+date: 2025-10-02
 signer: 
 twitter: SkillingTrading
 social:

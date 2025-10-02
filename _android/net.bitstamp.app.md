@@ -12,7 +12,7 @@ updated: 2025-09-16
 version: '4.9'
 stars: 4.6
 ratings: 11088
-reviews: 661
+reviews: 663
 website: https://www.bitstamp.net
 repository: 
 issue: 
