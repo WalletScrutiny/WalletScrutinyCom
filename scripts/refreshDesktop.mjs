@@ -511,7 +511,19 @@ async function processFile(fileName) {
       
       console.log(`  Current: ${frontmatter.version || 'unknown'}`);
       console.log(`  Latest: ${release.version}`);
-      
+
+      // Check for version/date downgrade (anti-regression protection)
+      const currentUpdated = frontmatter.updated;
+      if (currentUpdated && release.date && currentUpdated > release.date) {
+        stats.skipped.upToDate.push({
+          file: fileName,
+          version: frontmatter.version,
+          reason: 'newer updated date'
+        });
+        console.log(`  ${colors.yellow}⚠ Skipping: current 'updated' (${currentUpdated}) is newer than release date (${release.date})${colors.reset}`);
+        return;
+      }
+
       // Check if update is needed using normalized comparison
       if (areVersionsEquivalent(frontmatter.version, release.version)) {
         stats.skipped.upToDate.push({

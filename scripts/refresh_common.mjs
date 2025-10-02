@@ -79,10 +79,16 @@ export function parseFrontmatter(content) {
 export function updateVersionInContent(content, newVersion, newDate) {
   // Update version
   content = content.replace(/^version:\s*.*$/m, `version: ${newVersion}`);
-  
-  // Update date
-  content = content.replace(/^date:\s*.*$/m, `date: ${newDate}`);
-  
+
+  // Update 'updated' field (not 'date' - that's manual only)
+  // Handle both empty values (updated: ) and populated values (updated: 2025-01-01)
+  if (/^updated:\s*.*$/m.test(content)) {
+    content = content.replace(/^updated:\s*.*$/m, `updated: ${newDate}`);
+  } else {
+    // If 'updated:' field doesn't exist, insert it after 'version:'
+    content = content.replace(/^version:\s*.*$/m, `$&\nupdated: ${newDate}`);
+  }
+
   return content;
 }
 
