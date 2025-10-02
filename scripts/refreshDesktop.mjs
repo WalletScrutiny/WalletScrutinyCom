@@ -526,6 +526,15 @@ async function processFile(fileName) {
 
       // Check if update is needed using normalized comparison
       if (areVersionsEquivalent(frontmatter.version, release.version)) {
+        // Even if version matches, update 'updated:' field if it's empty
+        if (!frontmatter.updated || frontmatter.updated.trim() === '') {
+          const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
+          fs.writeFileSync(filePath, updatedContent);
+          console.log(`  ${colors.green}✓ Updated 'updated' field${colors.reset}: ${release.date}`);
+          stats.updated++;
+          return;
+        }
+
         stats.skipped.upToDate.push({
           file: fileName,
           version: release.version
