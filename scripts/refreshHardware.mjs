@@ -10,22 +10,16 @@ import path from 'path';
 import minimist from 'minimist';
 import { fileURLToPath } from 'url';
 import { spawn } from 'child_process';
-import { 
-  colors, 
-  createStats, 
-  getGitHubToken, 
-  generateReport, 
+import {
+  colors,
+  createStats,
+  getGitHubToken,
+  generateReport,
   getMarkdownFiles,
-  parseFrontmatter,
-  updateVersionInContent,
-  isValidVerdict,
-  isValidMeta,
   sleep,
-  extractRepoUrl,
-  handleProcessingError,
   debugLog,
   normalizeVersion,
-  areVersionsEquivalent
+  processFileCommon
 } from './refresh_common.mjs';
 import { 
   fetchAllTags,
@@ -415,100 +409,15 @@ async function getDeviceVersion(fileName, repoUrl, token) {
 }
 
 async function processFile(fileName) {
-  const filePath = path.join(HARDWARE_DIR, fileName);
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const frontmatter = parseFrontmatter(content);
-    
-    // Validate verdict
-    if (!isValidVerdict(frontmatter.verdict, VALID_VERDICTS)) {
-      stats.skipped.invalidVerdict.push({
-        file: fileName,
-        verdict: frontmatter.verdict
-      });
-      return;
-    }
-    
-    // Validate meta
-    if (!isValidMeta(frontmatter.meta, VALID_META)) {
-      stats.skipped.invalidMeta.push({
-        file: fileName,
-        meta: frontmatter.meta
-      });
-      return;
-    }
-    
-    console.log(`\n🔐 Processing: ${colors.cyan}${fileName}${colors.reset}`);
-    
-    // Extract repository URL
-    const repoUrl = extractRepoUrl(content);
-    if (!repoUrl) {
-      stats.skipped.noRepo.push({
-        file: fileName,
-        reason: 'No repository URL found'
-      });
-      console.log(`  ${colors.red}✗ No repository URL found${colors.reset}`);
-      return;
-    }
-    
-    console.log(`  Repository: ${repoUrl}`);
-    
-    const token = getGitHubToken(args);
-    
-    try {
-      // Get device-specific version
-      const release = await getDeviceVersion(fileName, repoUrl, token);
-      
-      console.log(`  Current: ${frontmatter.version || 'unknown'}`);
-      console.log(`  Latest: ${release.version}`);
-
-      // Check for version/date downgrade (anti-regression protection)
-      const currentUpdated = frontmatter.updated;
-      if (currentUpdated && release.date && currentUpdated > release.date) {
-        stats.skipped.upToDate.push({
-          file: fileName,
-          version: frontmatter.version,
-          reason: 'newer updated date'
-        });
-        console.log(`  ${colors.yellow}⚠ Skipping: current 'updated' (${currentUpdated}) is newer than release date (${release.date})${colors.reset}`);
-        return;
-      }
-
-      // Check if update is needed using normalized comparison
-      if (areVersionsEquivalent(frontmatter.version, release.version)) {
-        // Even if version matches, update 'updated:' field if it's empty
-        if (!frontmatter.updated || frontmatter.updated.trim() === '') {
-          const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
-          fs.writeFileSync(filePath, updatedContent);
-          console.log(`  ${colors.green}✓ Updated 'updated' field${colors.reset}: ${release.date}`);
-          stats.updated++;
-          return;
-        }
-
-        stats.skipped.upToDate.push({
-          file: fileName,
-          version: release.version
-        });
-        console.log(`  ${colors.green}✓ Already up to date${colors.reset}`);
-        return;
-      }
-      
-      // Update the file
-      const normalizedLatestVersion = normalizeVersion(release.version);
-      const updatedContent = updateVersionInContent(content, normalizedLatestVersion, release.date);
-      fs.writeFileSync(filePath, updatedContent);
-      
-      stats.updated++;
-      // Log raw old version and raw new version for clarity on what was fetched
-      console.log(`  ${colors.green}✓ Updated${colors.reset}: ${frontmatter.version || 'unknown'} → ${release.version}`);
-      
-    } catch (error) {
-      handleProcessingError(error, fileName, stats);
-    }
-    
-  } catch (error) {
-    handleProcessingError(error, fileName, stats);
-  }
+  await processFileCommon(fileName, {
+    directory: HARDWARE_DIR,
+    validVerdicts: VALID_VERDICTS,
+    validMeta: VALID_META,
+    emoji: '🔐',
+    versionFetcher: getDeviceVersion,
+    getToken: () => getGitHubToken(args),
+    stats
+  });
 }
 
 async function main() {

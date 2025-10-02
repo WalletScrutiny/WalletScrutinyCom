@@ -235,3 +235,115 @@ export function handleProcessingError(error, fileName, stats) {
     console.log(`  ${colors.red}✗ Error${colors.reset}: ${error.message}`);
   }
 }
+
+/**
+ * Common file processing logic for refresh scripts
+ * @param {string} fileName - Name of the markdown file to process
+ * @param {object} config - Configuration object
+ * @param {string} config.directory - Directory containing the file
+ * @param {array} config.validVerdicts - Array of valid verdict values
+ * @param {string} config.validMeta - Valid meta value
+ * @param {string} config.emoji - Emoji to display for this wallet type
+ * @param {function} config.versionFetcher - Async function to fetch version (fileName, repoUrl, token) => {version, date}
+ * @param {function} config.getToken - Function to get GitHub token
+ * @param {object} config.stats - Statistics object
+ * @returns {Promise<void>}
+ */
+export async function processFileCommon(fileName, config) {
+  const { directory, validVerdicts, validMeta, emoji, versionFetcher, getToken, stats } = config;
+  const filePath = path.join(directory, fileName);
+
+  try {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const frontmatter = parseFrontmatter(content);
+
+    // Validate verdict
+    if (!isValidVerdict(frontmatter.verdict, validVerdicts)) {
+      stats.skipped.invalidVerdict.push({
+        file: fileName,
+        verdict: frontmatter.verdict
+      });
+      return;
+    }
+
+    // Validate meta
+    if (!isValidMeta(frontmatter.meta, validMeta)) {
+      stats.skipped.invalidMeta.push({
+        file: fileName,
+        meta: frontmatter.meta
+      });
+      return;
+    }
+
+    console.log(`\n${emoji} Processing: ${colors.cyan}${fileName}${colors.reset}`);
+
+    // Extract repository URL
+    const repoUrl = extractRepoUrl(content);
+    if (!repoUrl) {
+      stats.skipped.noRepo.push({
+        file: fileName,
+        reason: 'No repository URL found'
+      });
+      console.log(`  ${colors.red}✗ No repository URL found${colors.reset}`);
+      return;
+    }
+
+    console.log(`  Repository: ${repoUrl}`);
+
+    const token = getToken();
+
+    try {
+      // Get version using the provided fetcher function
+      const release = await versionFetcher(fileName, repoUrl, token);
+
+      console.log(`  Current: ${frontmatter.version || 'unknown'}`);
+      console.log(`  Latest: ${release.version}`);
+
+      // Check for version/date downgrade (anti-regression protection)
+      const currentUpdated = frontmatter.updated;
+      if (currentUpdated && release.date && currentUpdated > release.date) {
+        stats.skipped.upToDate.push({
+          file: fileName,
+          version: frontmatter.version,
+          reason: 'newer updated date'
+        });
+        console.log(`  ${colors.yellow}⚠ Skipping: current 'updated' (${currentUpdated}) is newer than release date (${release.date})${colors.reset}`);
+        return;
+      }
+
+      // Check if update is needed using normalized comparison
+      if (areVersionsEquivalent(frontmatter.version, release.version)) {
+        // Even if version matches, update 'updated:' field if it's empty
+        if (!frontmatter.updated || frontmatter.updated.trim() === '') {
+          const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
+          fs.writeFileSync(filePath, updatedContent);
+          console.log(`  ${colors.green}✓ Updated 'updated' field${colors.reset}: ${release.date}`);
+          stats.updated++;
+          return;
+        }
+
+        stats.skipped.upToDate.push({
+          file: fileName,
+          version: release.version
+        });
+        console.log(`  ${colors.green}✓ Already up to date${colors.reset}`);
+        return;
+      }
+
+      // Update the file
+      const normalizedLatestVersion = normalizeVersion(release.version);
+      const updatedContent = updateVersionInContent(content, normalizedLatestVersion, release.date);
+      fs.writeFileSync(filePath, updatedContent);
+
+      stats.updated++;
+      // Log raw old version and raw new version for clarity on what was fetched
+      console.log(`  ${colors.green}✓ Updated${colors.reset}: ${frontmatter.version || 'unknown'} → ${release.version}`);
+
+    } catch (error) {
+      handleProcessingError(error, fileName, stats);
+    }
+
+  } catch (error) {
+    handleProcessingError(error, fileName, stats);
+  }
+}

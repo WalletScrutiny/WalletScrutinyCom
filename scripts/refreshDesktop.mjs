@@ -8,21 +8,15 @@
 import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
-import { 
-  colors, 
-  createStats, 
-  getGitHubToken, 
-  generateReport, 
+import {
+  colors,
+  createStats,
+  getGitHubToken,
+  generateReport,
   getMarkdownFiles,
-  parseFrontmatter,
-  updateVersionInContent,
-  isValidVerdict,
-  isValidMeta,
   sleep,
-  extractRepoUrl,
-  handleProcessingError,
   normalizeVersion,
-  areVersionsEquivalent
+  processFileCommon
 } from './refresh_common.mjs';
 import { 
   fetchLatestRelease,
@@ -434,131 +428,49 @@ Examples:
 `);
 }
 
-async function processFile(fileName) {
-  const filePath = path.join(DESKTOP_DIR, fileName);
-  
-  try {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const frontmatter = parseFrontmatter(content);
-    
-    // Validate verdict
-    if (!isValidVerdict(frontmatter.verdict, VALID_VERDICTS)) {
-      stats.skipped.invalidVerdict.push({
-        file: fileName,
-        verdict: frontmatter.verdict
-      });
-      return;
-    }
-    
-    // Validate meta
-    if (!isValidMeta(frontmatter.meta, VALID_META)) {
-      stats.skipped.invalidMeta.push({
-        file: fileName,
-        meta: frontmatter.meta
-      });
-      return;
-    }
-    
-    console.log(`\n📱 Processing: ${colors.cyan}${fileName}${colors.reset}`);
-    
-    // Extract repository URL
-    const repoUrl = extractRepoUrl(content);
-    if (!repoUrl) {
-      stats.skipped.noRepo.push({
-        file: fileName,
-        reason: 'No repository URL found'
-      });
-      console.log(`  ${colors.red}✗ No repository URL found${colors.reset}`);
-      return;
-    }
-    
-    console.log(`  Repository: ${repoUrl}`);
-    
-    const token = getGitHubToken(args);
-    
-    try {
-      // Fetch latest release
-      let release;
-      const baseName = path.basename(filePath);
+// Version fetcher for desktop wallets with special handling
+async function getDesktopVersion(fileName, repoUrl, token) {
+  const baseName = path.basename(fileName);
 
-      if (baseName === 'electrum.md') {
-        console.log(`  ${colors.cyan}Applying special Electrum version fetching logic...${colors.reset}`);
-        release = await fetchLatestElectrumRelease(repoUrl, token);
-      } else if (baseName === 'btcsuite.btcwallet.md') {
-        console.log(`  ${colors.cyan}Applying special BtcWallet version fetching logic...${colors.reset}`);
-        release = await fetchLatestBtcWalletRelease(repoUrl, token);
-      } else if (baseName === 'desk.stackwallet.md') {
-        console.log(`  ${colors.cyan}Applying special StackWallet version fetching logic...${colors.reset}`);
-        release = await fetchLatestStackWalletRelease(repoUrl, token);
-      } else if (baseName === 'ledger.live.md') {
-        console.log(`  ${colors.cyan}Applying special Ledger Live version fetching logic...${colors.reset}`);
-        release = await fetchLatestLedgerLiveRelease(repoUrl, token);
-      } else if (baseName === 'bitcoinkeeper.md') {
-        console.log(`  ${colors.cyan}Applying special Bitcoin Keeper version fetching logic...${colors.reset}`);
-        release = await fetchLatestBitcoinKeeperRelease(repoUrl, token);
-      } else if (baseName === 'blockstreamgreen.md') {
-        console.log(`  ${colors.cyan}Applying special Blockstream Green version fetching logic...${colors.reset}`);
-        release = await fetchLatestBlockstreamGreenRelease(repoUrl, token);
-      } else if (baseName === 'caravan.md') {
-        console.log(`  ${colors.cyan}Applying special Caravan version fetching logic...${colors.reset}`);
-        release = await fetchLatestCaravanRelease(repoUrl, token);
-      } else if (baseName === 'lilywallet.md') {
-        console.log(`  ${colors.cyan}Applying special Lily Wallet version fetching logic...${colors.reset}`);
-        release = await fetchLatestLilyWalletRelease(repoUrl, token);
-      } else {
-        release = await fetchLatestRelease(repoUrl, token);
-      }
-      
-      console.log(`  Current: ${frontmatter.version || 'unknown'}`);
-      console.log(`  Latest: ${release.version}`);
-
-      // Check for version/date downgrade (anti-regression protection)
-      const currentUpdated = frontmatter.updated;
-      if (currentUpdated && release.date && currentUpdated > release.date) {
-        stats.skipped.upToDate.push({
-          file: fileName,
-          version: frontmatter.version,
-          reason: 'newer updated date'
-        });
-        console.log(`  ${colors.yellow}⚠ Skipping: current 'updated' (${currentUpdated}) is newer than release date (${release.date})${colors.reset}`);
-        return;
-      }
-
-      // Check if update is needed using normalized comparison
-      if (areVersionsEquivalent(frontmatter.version, release.version)) {
-        // Even if version matches, update 'updated:' field if it's empty
-        if (!frontmatter.updated || frontmatter.updated.trim() === '') {
-          const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
-          fs.writeFileSync(filePath, updatedContent);
-          console.log(`  ${colors.green}✓ Updated 'updated' field${colors.reset}: ${release.date}`);
-          stats.updated++;
-          return;
-        }
-
-        stats.skipped.upToDate.push({
-          file: fileName,
-          version: release.version
-        });
-        console.log(`  ${colors.green}✓ Already up to date${colors.reset}`);
-        return;
-      }
-      
-      // Update the file
-      const normalizedLatestVersion = normalizeVersion(release.version);
-      const updatedContent = updateVersionInContent(content, normalizedLatestVersion, release.date);
-      fs.writeFileSync(filePath, updatedContent);
-      
-      stats.updated++;
-      // Log raw old version and raw new version for clarity on what was fetched
-      console.log(`  ${colors.green}✓ Updated${colors.reset}: ${frontmatter.version || 'unknown'} → ${release.version}`);
-      
-    } catch (error) {
-      handleProcessingError(error, fileName, stats);
-    }
-    
-  } catch (error) {
-    handleProcessingError(error, fileName, stats);
+  if (baseName === 'electrum.md') {
+    console.log(`  ${colors.cyan}Applying special Electrum version fetching logic...${colors.reset}`);
+    return await fetchLatestElectrumRelease(repoUrl, token);
+  } else if (baseName === 'btcsuite.btcwallet.md') {
+    console.log(`  ${colors.cyan}Applying special BtcWallet version fetching logic...${colors.reset}`);
+    return await fetchLatestBtcWalletRelease(repoUrl, token);
+  } else if (baseName === 'desk.stackwallet.md') {
+    console.log(`  ${colors.cyan}Applying special StackWallet version fetching logic...${colors.reset}`);
+    return await fetchLatestStackWalletRelease(repoUrl, token);
+  } else if (baseName === 'ledger.live.md') {
+    console.log(`  ${colors.cyan}Applying special Ledger Live version fetching logic...${colors.reset}`);
+    return await fetchLatestLedgerLiveRelease(repoUrl, token);
+  } else if (baseName === 'bitcoinkeeper.md') {
+    console.log(`  ${colors.cyan}Applying special Bitcoin Keeper version fetching logic...${colors.reset}`);
+    return await fetchLatestBitcoinKeeperRelease(repoUrl, token);
+  } else if (baseName === 'blockstreamgreen.md') {
+    console.log(`  ${colors.cyan}Applying special Blockstream Green version fetching logic...${colors.reset}`);
+    return await fetchLatestBlockstreamGreenRelease(repoUrl, token);
+  } else if (baseName === 'caravan.md') {
+    console.log(`  ${colors.cyan}Applying special Caravan version fetching logic...${colors.reset}`);
+    return await fetchLatestCaravanRelease(repoUrl, token);
+  } else if (baseName === 'lilywallet.md') {
+    console.log(`  ${colors.cyan}Applying special Lily Wallet version fetching logic...${colors.reset}`);
+    return await fetchLatestLilyWalletRelease(repoUrl, token);
+  } else {
+    return await fetchLatestRelease(repoUrl, token);
   }
+}
+
+async function processFile(fileName) {
+  await processFileCommon(fileName, {
+    directory: DESKTOP_DIR,
+    validVerdicts: VALID_VERDICTS,
+    validMeta: VALID_META,
+    emoji: '📱',
+    versionFetcher: getDesktopVersion,
+    getToken: () => getGitHubToken(args),
+    stats
+  });
 }
 
 async function main() {
