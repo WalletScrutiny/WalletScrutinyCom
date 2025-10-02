@@ -82,8 +82,9 @@ export function updateVersionInContent(content, newVersion, newDate) {
 
   // Update 'updated' field (not 'date' - that's manual only)
   // Handle both empty values (updated: ) and populated values (updated: 2025-01-01)
-  if (/^updated:\s*.*$/m.test(content)) {
-    content = content.replace(/^updated:\s*.*$/m, `updated: ${newDate}`);
+  // Use [^\n\r]* instead of .* to avoid matching newlines
+  if (/^updated:[^\n\r]*$/m.test(content)) {
+    content = content.replace(/^updated:[^\n\r]*$/m, `updated: ${newDate}`);
   } else {
     // If 'updated:' field doesn't exist, insert it after 'version:'
     content = content.replace(/^version:\s*.*$/m, `$&\nupdated: ${newDate}`);
