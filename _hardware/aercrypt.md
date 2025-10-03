@@ -24,15 +24,25 @@ issue:
 icon: aercrypt.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 appHashes: 
-date: 2024-10-18
+date: 2025-10-03
 signer: 
 twitter: AerCrypt
 social: 
 features: 
 
 ---
+
+## Product Update 2025-10-03
+
+The last updates on their x.com account was made on [January 7, 2024.](https://x.com/AerCrypt/status/1743747392329892132)
+
+The notice on their site store states:
+
+> The Project funding campaign is over now and the Shop is closed at this time.
+
+Since a certain amount of time has elapsed with no publicly verifiable information indicating this device was released, we will be marking this as **vaporware**.
 
 ## Product Update 2024-10-18
 
