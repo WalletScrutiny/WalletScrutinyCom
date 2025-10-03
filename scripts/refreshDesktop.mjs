@@ -428,34 +428,29 @@ Examples:
 `);
 }
 
+// Special version fetchers mapped by wallet filename
+// To add a new wallet with special version logic:
+// 1. Create the custom fetcher function (e.g., fetchLatestYourWalletRelease)
+// 2. Add entry here: 'yourwallet.md': { name: 'Your Wallet', fetcher: fetchLatestYourWalletRelease }
+const specialVersionFetchers = {
+  'electrum.md': { name: 'Electrum', fetcher: fetchLatestElectrumRelease },
+  'btcsuite.btcwallet.md': { name: 'BtcWallet', fetcher: fetchLatestBtcWalletRelease },
+  'desk.stackwallet.md': { name: 'StackWallet', fetcher: fetchLatestStackWalletRelease },
+  'ledger.live.md': { name: 'Ledger Live', fetcher: fetchLatestLedgerLiveRelease },
+  'bitcoinkeeper.md': { name: 'Bitcoin Keeper', fetcher: fetchLatestBitcoinKeeperRelease },
+  'blockstreamgreen.md': { name: 'Blockstream Green', fetcher: fetchLatestBlockstreamGreenRelease },
+  'caravan.md': { name: 'Caravan', fetcher: fetchLatestCaravanRelease },
+  'lilywallet.md': { name: 'Lily Wallet', fetcher: fetchLatestLilyWalletRelease }
+};
+
 // Version fetcher for desktop wallets with special handling
 async function getDesktopVersion(fileName, repoUrl, token) {
   const baseName = path.basename(fileName);
+  const specialHandler = specialVersionFetchers[baseName];
 
-  if (baseName === 'electrum.md') {
-    console.log(`  ${colors.cyan}Applying special Electrum version fetching logic...${colors.reset}`);
-    return await fetchLatestElectrumRelease(repoUrl, token);
-  } else if (baseName === 'btcsuite.btcwallet.md') {
-    console.log(`  ${colors.cyan}Applying special BtcWallet version fetching logic...${colors.reset}`);
-    return await fetchLatestBtcWalletRelease(repoUrl, token);
-  } else if (baseName === 'desk.stackwallet.md') {
-    console.log(`  ${colors.cyan}Applying special StackWallet version fetching logic...${colors.reset}`);
-    return await fetchLatestStackWalletRelease(repoUrl, token);
-  } else if (baseName === 'ledger.live.md') {
-    console.log(`  ${colors.cyan}Applying special Ledger Live version fetching logic...${colors.reset}`);
-    return await fetchLatestLedgerLiveRelease(repoUrl, token);
-  } else if (baseName === 'bitcoinkeeper.md') {
-    console.log(`  ${colors.cyan}Applying special Bitcoin Keeper version fetching logic...${colors.reset}`);
-    return await fetchLatestBitcoinKeeperRelease(repoUrl, token);
-  } else if (baseName === 'blockstreamgreen.md') {
-    console.log(`  ${colors.cyan}Applying special Blockstream Green version fetching logic...${colors.reset}`);
-    return await fetchLatestBlockstreamGreenRelease(repoUrl, token);
-  } else if (baseName === 'caravan.md') {
-    console.log(`  ${colors.cyan}Applying special Caravan version fetching logic...${colors.reset}`);
-    return await fetchLatestCaravanRelease(repoUrl, token);
-  } else if (baseName === 'lilywallet.md') {
-    console.log(`  ${colors.cyan}Applying special Lily Wallet version fetching logic...${colors.reset}`);
-    return await fetchLatestLilyWalletRelease(repoUrl, token);
+  if (specialHandler) {
+    console.log(`  ${colors.cyan}Applying special ${specialHandler.name} version fetching logic...${colors.reset}`);
+    return await specialHandler.fetcher(repoUrl, token);
   } else {
     return await fetchLatestRelease(repoUrl, token);
   }
