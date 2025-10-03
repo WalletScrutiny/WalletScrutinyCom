@@ -37,7 +37,8 @@ This is the companion app to the {% include walletLink.html wallet='hardware/twe
 ## App Description from Google Play
 
 > Portal is an NFC based mobile hardware signer. This app allows you to manage and interact with your device.
-The app enables you to double-check your mnemonic to ensure your backup recovery phrase is accurate. It also lets you securely sign transactions with your hardware device, ensuring your private keys are always safe. Additionally, you can update your device's firmware to keep it up to date with the latest security improvements and features. If needed, the app also provides the option to wipe your device, performing a factory reset to erase all stored data.
+
+The device lets you securely sign transactions with your hardware device, ensuring your private keys are always safe. It enables you to double-check your mnemonic to ensure your backup recovery phrase is accurate. Additionally, you can update your device's firmware to keep it up to date with the latest security improvements and features. If needed, the app also provides the option to wipe your device, performing a factory reset to erase all stored data.
 
 ## Analysis
 
