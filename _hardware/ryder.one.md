@@ -19,7 +19,7 @@ website: https://www.ryder.id/
 shop: https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for-everyone
 country: SG
 price: 199USD
-repository: https://github.com/Light-Labs/protocol
+repository: 
 issue: 
 icon: ryder.one.png
 bugbounty: 
@@ -35,6 +35,77 @@ social:
 features: 
 
 ---
+
+This device's companion app is {% include walletLink.html wallet='android/id.ryder.ryderone' verdict='true' %}
+
+## Update Analysis 2025-10-03 
+
+**1. Can the private keys be created offline?** 
+
+They [claim](https://ryder.id/pages/ryder-terms-of-service) that:
+
+> Seed Phrase Storage: All recovery seed phrases are generated offline within the device and securely stored in a protected environment, thereby minimising exposure to external threats or unauthorised access. 
+
+**2. Are the private keys shared between devices?**
+
+Here's where it gets complicated. Initial marketing indicated their desire to do-away with seed phrases. But this changed on release, and is included in their [terms and conditions page:](https://ryder.id/pages/ryder-terms-of-service)
+
+> Recovery Seed Phrases: While Ryder One primarily relies on its TapSafe social recovery protocol, it also supports the secure generation and storage of recovery seed phrases in compliance with widely recognised industry standards, including BIP39. These seed phrases consist of a sequence of 12, 18, or 24 words that act as a master key, allowing Users to restore access to their wallet and associated digital assets if the physical device is lost or becomes unusable.
+
+But apart from that Ryder One makes use of their **TapSafe Recovery Protocol** herein described:
+
+> TapSafe is Ryder’s social recovery protocol integrated within the Ryder App. It enables Users to generate multiple encrypted backup shares of their recovery secret using secure secret-sharing methods. These shares can be stored in different locations, such as:
+>
+> - A Recovery Tag (included with the device);
+> - The User’s mobile device (via the Ryder App); and
+> - Recovery Contact’s devices.
+>
+> TapSafe supports both self-managed and socially distributed recovery. A minimum of two full shares are required to reconstruct the wallet and regain access to digital assets. Shares stored by trusted individuals via the Ryder App for instance, Recovery Contacts represent partial shares for instance, 0.5 each, and must be combined to meet the required threshold for recovery.
+
+Does Shamir-sharing on multiple other devices and social-sharing = "sharing" to other devices? If yes, then it fails this test. Otherwise, if no, we shall proceed.
+
+**3. Does the device display the receive address for confirmation?**
+
+[FAQ](https://ryder.id/products/ryder-one)
+
+> All transaction approvals and cryptographic signing are conducted directly on the device, requiring explicit User confirmation via the Secure buttons. The Secure Button is physically connected to the device’s Secure Element chip and is isolated from the general-purpose hardware, ensuring that sensitive keys never leave the device and that transaction authorisation cannot be spoofed or compromised via the touch display.  This design ensures Users retain ultimate control over transaction authorisation. 
+
+**4. Does its interface have a physical button and a screen?**
+
+Yes, see above.
+
+**5. Is the firmware source-available?**
+
+From their [FAQ](https://ryder.id/products/ryder-one) (scroll down)
+
+Their answer is "yes", but we answer "no"
+
+> Yes, Ryder One will be open source in 2025, with TapSafe Recovery permissively licensed. The source code will be opened gradually throughout the year. We’ll also invite third-party vendors to support TapSafe Recovery, much like many wallets support seed phrases today.
+
+At the time of this writing, Ryder's repository list includes the following: 
+
+- **stx-profiles** --- 
+- **stacks-wallet-web** --- Stacks Wallet is a browser extension for managing your digital assets and connecting to apps built with the Stacks blockchain.
+- **ryder-nft** --- Source code for Ryder NFT.
+- **ryder-bridge-rust** --- Bridge to ryder device in rust.
+- **rydcon** --- 
+- **ryder-prototype-firmware-releases** --- Ryder simulator and firmware. (Only has 2 files)
+- **ryder-cli-proto** --- A basic command-line interface to manage Ryder prototype devices.
+- **ryder-client** --- A library to facilitate communications between an application and Ryder device.
+- **community-handles** --- BNS names for communities.
+- **react-native-nfc-manager** --- React Native NFC module for Android & iOS.
+- **cryptoglyphs-ts** --- 
+- **stacks-reference-data** --- 
+- **clarity-xbtc-send-many** --- Clarity contract for sending xbtc to many recipients in one transaction.
+- **media-metadata-schemas** --- A repository of known JSON metadata schemas for SIP-009 NFTs on Stacks.
+- **ryder-bridge** --- 
+- **ryder-proxy-proto** --- A drop-in replacement for the Blockstack Browser.
+
+None of which is indicative of a full and currently updated firmware repository. The prototype firmware releases, has not been updated for a long time (2022) and consists only of a "simulator" in the releases and two text files.
+
+## Verdict
+
+The firmware's source is **not publicly-available**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mnZ6mb7CbY4?si=_pyCHphkQ6rDyk5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
