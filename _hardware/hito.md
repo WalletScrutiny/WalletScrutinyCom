@@ -25,9 +25,9 @@ issue:
 icon: hito.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: wip
 appHashes: 
-date: 2024-10-21
+date: 2025-10-03
 signer: 
 twitter: hito_xyz
 social:
@@ -36,6 +36,14 @@ social:
 features: 
 
 ---
+
+## Update 2025-10-03
+
+The device has been sold out according to their shop's [order page.](https://shop.hito.xyz/products/hold) 
+
+On [X.com](https://x.com/mishabunte/status/1925046922953556059), the founder/CEO mentions difficulties with shipping and this resulted in some disgruntled responses. 
+
+We are awaiting the response from the founder. 
 
 ## Update 2024-10-21
 

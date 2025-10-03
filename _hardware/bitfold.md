@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: unreleased
 appHashes: 
-date: 2024-10-18
+date: 2025-10-03
 signer: 
 twitter: Bitfold
 social:
@@ -33,6 +33,14 @@ social:
 features: 
 
 ---
+
+## Update 2025-10-03
+
+The roadmap itself only anticipates first 100 prototypes in 2025 and real shipping in 2026, so the classification as unreleased is still correct.
+
+Their pitch-deck is prominently displayed on the front page of their site. 
+
+Their [founder, Kamil Rafał Gancarz](https://www.linkedin.com/in/kamil-gancarz) still actively posts on linkedin.
 
 ## Update 2024-10-18
 

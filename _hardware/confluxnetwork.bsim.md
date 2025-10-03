@@ -21,9 +21,9 @@ issue:
 icon: confluxnetwork.bsim.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 appHashes: 
-date: 2024-10-18
+date: 2025-10-03
 signer: 
 twitter: Conflux_Network
 social:
@@ -34,6 +34,10 @@ social:
 features: 
 
 ---
+
+## Update 2025-10-03
+
+Although [mentions on X](https://x.com/search?q=conflux%20network%20sim&src=typed_query&f=live) about the Conflux Network BSIM happened as late as June 2025, this was made mostly by Chinese character posting accounts only. There are no credible reports from authoritative sources concerning its public release. Since a significant amount of time has passed since their promotional marketing we are marking this device as **vaporware**.
 
 ## Update 2024-10-18
 
