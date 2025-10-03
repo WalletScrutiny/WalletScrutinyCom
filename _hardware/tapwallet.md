@@ -33,6 +33,10 @@ features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVg3Rrf2WM?si=Nqb5-GwHSn7-nPTe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Updated Review 2025-10-05
+
+We decided to review this device after one full year. The website seems to have changed its branding. Last year it looked like [this.](https://web.archive.org/web/20240524201818/https://tapwallet.com/). Today, it looks completely different and with no mention of a hardware wallet. The logo has changed. Its corporate identity has also changed, albeit both Tap Labs, and Tap Inc. do not seem to appear with a quick cursory search. The new social media account shows an app.
+
 ## Updated Review 2024-10-23
 
 Unlike other unreleased products that we've marked as vaporware years after first finding them, this product still has an active website. The product has an actual price, that at least try to inform people that at least something is going on with the project. 
