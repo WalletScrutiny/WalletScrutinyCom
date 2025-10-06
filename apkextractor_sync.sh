@@ -1,7 +1,8 @@
 #!/bin/bash
 # apkextractor_sync.sh - Extracts APKs from Android device and syncs to server
-# Version: v0.1.0
-# Usage: ./apkextractor_sync.sh <appID> [user@server] [--no-extract]
+# Version: v0.7.0
+# Usage: ./apkextractor_sync.sh <appID> [user@server] [OPTIONS]
+# Options: -b/--both, --no-extract, -h/--help
 #
 # Directory structure:
 #   Single APK: /var/shared/apk/{appID}/{versionName}/
@@ -18,13 +19,14 @@ set -e
 # Initialize variables
 bundletoolPath=""
 extractApk=true
+saveBoth=false
 
 # Show help function
 show_help() {
   echo "apkextractor_sync.sh - Extracts APKs from Android device and syncs to server"
   echo ""
   echo "Usage:"
-  echo "  ./apkextractor_sync.sh <appID> [user@server] [--no-extract]"
+  echo "  ./apkextractor_sync.sh <appID> [user@server] [OPTIONS]"
   echo ""
   echo "Arguments:"
   echo "  <appID>         Package name of the app (required)"
@@ -32,16 +34,18 @@ show_help() {
   echo "                  If omitted, saves locally to /var/shared/apk/"
   echo ""
   echo "Options:"
+  echo "  -b, --both      Save both locally AND to server (requires server argument)"
   echo "  --no-extract    Do not extract APK contents (default: extracts to 'base/' folder)"
-  echo "  --help, -h      Show this help message"
+  echo "  -h, --help      Show this help message"
   echo ""
   echo "Examples:"
   echo "  ./apkextractor_sync.sh app.zeusln.zeus"
   echo "  ./apkextractor_sync.sh app.zeusln.zeus --no-extract"
   echo "  ./apkextractor_sync.sh com.example.app user@server"
-  echo "  ./apkextractor_sync.sh com.example.app user@server --no-extract"
+  echo "  ./apkextractor_sync.sh com.example.app user@server -b"
+  echo "  ./apkextractor_sync.sh com.example.app user@server --both --no-extract"
   echo ""
-  echo "Version: v0.1.0"
+  echo "Version: v0.7.0"
   exit 0
 }
 
@@ -135,6 +139,9 @@ for arg in "$@"; do
     --no-extract)
       extractApk=false
       ;;
+    -b|--both)
+      saveBoth=true
+      ;;
     *)
       if [ -z "$bundleId" ]; then
         bundleId="$arg"
@@ -148,6 +155,13 @@ done
 if [ -z "$bundleId" ]; then
   echo -e "\033[1;31mError: No bundle ID provided.\033[0m"
   echo "Run './apkextractor_sync.sh --help' for usage information."
+  exit 1
+fi
+
+# Validate -b flag requires server argument
+if [ "$saveBoth" = true ] && [ -z "$sshCredentials" ]; then
+  echo -e "\033[1;31mError: -b/--both flag requires a server argument.\033[0m"
+  echo "Usage: ./apkextractor_sync.sh <appID> <user@server> -b"
   exit 1
 fi
 
@@ -233,16 +247,6 @@ else
   echo "SDK Version: $(adb shell getprop ro.build.version.sdk)"
 fi
 
-# Get the bundle ID from the command line argument
-if [ -z "$1" ]; then
-  echo -e "\033[1;31mError: No bundle ID provided. Usage: $0 <bundleId> [user@server]\033[0m"
-  exit 1
-fi
-
-# Show and execute the command to get APK paths
-echo "Retrieving APK paths for bundle ID: $bundleId"
-apks=$(adb shell pm path $bundleId)
-
 # Debug: Print the paths retrieved
 echo "APK paths retrieved:"
 echo "$apks"
@@ -254,28 +258,24 @@ else
   echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ $bundleId - uses single APK ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
 fi
 
-# Make official directory
-mkdir -p $bundleId/official_apks
-mkdir -p $bundleId/official
+# Create temporary staging directory
+tempDir="/tmp/apk_staging_${bundleId}_$$"
+mkdir -p "$tempDir"
 
 # Show and execute the command to pull the APKs
-echo "Pulling APKs..."
+echo "Pulling APKs to temporary staging..."
 for apk in $apks; do
   apkPath=$(echo $apk | awk '{print $NF}' FS=':' | tr -d '\r\n')
   echo "Pulling $apkPath"
-  adb pull "$apkPath" "$apkPath" $bundleId/official_apks/
+  adb pull "$apkPath" "$apkPath" "$tempDir/"
 done
-
-# List the contents of the official directory
-echo "Contents of the official directory:"
-ls -l $bundleId/official
 
 # Determine version for directory naming (versionCode or versionName)
 if use_version_code "$bundleId"; then
-  version=$(get_version_code "$bundleId/official_apks/base.apk")
+  version=$(get_version_code "$tempDir/base.apk")
   echo "Using versionCode for directory: $version"
 else
-  version=$(get_version_name "$bundleId/official_apks/base.apk")
+  version=$(get_version_name "$tempDir/base.apk")
   echo "Using versionName for directory: $version"
 fi
 
@@ -285,7 +285,7 @@ if echo "$apks" | grep -qE "split_|config."; then
   isSplitApk=true
 fi
 
-# Check if the user provided SSH credentials for syncing to the server
+# Upload to server if credentials provided
 if [ ! -z "$sshCredentials" ]; then
   isRemote=true
 
@@ -296,17 +296,65 @@ if [ ! -z "$sshCredentials" ]; then
   # Determine naming convention
   namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId" true)
 
-  # Create the version-specific directory
+  # Determine target directory based on APK type
   if [ "$isSplitApk" = true ]; then
-    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$version/splits"
     uploadDir="/var/shared/apk/$bundleId/$version/splits"
   else
-    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$version"
     uploadDir="/var/shared/apk/$bundleId/$version"
   fi
 
+  # Check for existing files and detect mismatches
+  existingFiles=$(ssh $sshCredentials "ls -1 /var/shared/apk/$bundleId/$version/ 2>/dev/null" || echo "")
+
+  if [ ! -z "$existingFiles" ]; then
+    echo -e "\033[1;33m⚠️  Existing files detected in /var/shared/apk/$bundleId/$version/\033[0m"
+
+    # Check for type mismatch
+    if [ "$isSplitApk" = true ]; then
+      # New upload is split APKs, check if single APK exists
+      if echo "$existingFiles" | grep -qE "^${bundleId}_v.*\.apk$|^${bundleId}-.*\.apk$"; then
+        echo -e "\033[1;31m❌ MISMATCH DETECTED:\033[0m"
+        echo "  Current upload: Split APKs"
+        echo "  Existing files: Single APK"
+        echo ""
+        echo "Existing files in /var/shared/apk/$bundleId/$version/:"
+        echo "$existingFiles" | sed 's/^/    /'
+        echo ""
+        echo -e "\033[1;33mPlease manually clean the directory before proceeding:\033[0m"
+        echo "  ssh $sshCredentials 'rm -rf /var/shared/apk/$bundleId/$version/*'"
+        exit 1
+      fi
+    else
+      # New upload is single APK, check if splits/ directory exists
+      if echo "$existingFiles" | grep -q "^splits$"; then
+        echo -e "\033[1;31m❌ MISMATCH DETECTED:\033[0m"
+        echo "  Current upload: Single APK"
+        echo "  Existing files: Split APKs (splits/ directory found)"
+        echo ""
+        echo "Existing files in /var/shared/apk/$bundleId/$version/:"
+        echo "$existingFiles" | sed 's/^/    /'
+        echo ""
+        echo -e "\033[1;33mPlease manually clean the directory before proceeding:\033[0m"
+        echo "  ssh $sshCredentials 'rm -rf /var/shared/apk/$bundleId/$version/*'"
+        exit 1
+      fi
+    fi
+
+    echo ""
+    echo -e "\033[1;31m❌ Aborting to prevent accidental overwrite.\033[0m"
+    echo ""
+    echo -e "\033[1;33mTo proceed, manually clean the directory first:\033[0m"
+    echo "  ssh $sshCredentials 'rm -rf /var/shared/apk/$bundleId/$version/*'"
+    echo ""
+    exit 1
+  fi
+
+  # Create the version-specific directory
+  ssh $sshCredentials "mkdir -p $uploadDir"
+
   # Upload and rename APKs
-  for apk in $bundleId/official_apks/*.apk; do
+  uploadedFiles=()
+  for apk in $tempDir/*.apk; do
     apkName=$(basename "$apk")
     if [ "$apkName" = "base.apk" ] && [ "$isSplitApk" = false ]; then
         if [ "$namingConvention" = "convention1" ]; then
@@ -318,6 +366,7 @@ if [ ! -z "$sshCredentials" ]; then
         newName="$apkName"
     fi
     scp "$apk" "$sshCredentials:$uploadDir/$newName"
+    uploadedFiles+=("$uploadDir/$newName")
 
     # Extract APK contents if enabled
     if [ "$extractApk" = true ]; then
@@ -327,7 +376,33 @@ if [ ! -z "$sshCredentials" ]; then
   done
 
   echo "APK files have been uploaded, renamed, and extracted on the server."
-else
+
+  # Display summary
+  echo ""
+  echo -e "\033[1;32m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ UPLOAD SUMMARY ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+  echo -e "\033[1;36mServer Location:\033[0m"
+  echo "  $sshCredentials:$uploadDir"
+  echo ""
+  echo -e "\033[1;36mFiles Uploaded:\033[0m"
+  for file in "${uploadedFiles[@]}"; do
+    fileSize=$(ssh $sshCredentials "ls -lh $file" | awk '{print $5}')
+    echo "  $file ($fileSize)"
+  done
+  echo ""
+  echo -e "\033[1;36mAPK Details:\033[0m"
+  aapt dump badging "$tempDir/base.apk" | grep -E "package:|versionCode|versionName|sdkVersion|targetSdkVersion" | sed 's/^/  /'
+  echo ""
+  echo -e "\033[1;32m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ APK Hashes ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+  for apk in $tempDir/*.apk; do
+    hash=$(sha256sum "$apk" | awk '{print $1}')
+    apkName=$(basename "$apk")
+    echo "  $hash = $apkName"
+  done
+  echo ""
+fi
+
+# Save locally if no server OR if --both flag is set
+if [ -z "$sshCredentials" ] || [ "$saveBoth" = true ]; then
   isRemote=false
 
   echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Saving files locally to /var/shared/apk ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
@@ -368,17 +443,67 @@ else
   # Determine naming convention
   namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId" false)
 
-  # Create the version-specific directory
+  # Determine target directory based on APK type
   if [ "$isSplitApk" = true ]; then
-    mkdir -p /var/shared/apk/$bundleId/$version/splits
     saveDir="/var/shared/apk/$bundleId/$version/splits"
   else
-    mkdir -p /var/shared/apk/$bundleId/$version
     saveDir="/var/shared/apk/$bundleId/$version"
   fi
 
+  # Check for existing files and detect mismatches
+  if [ -d "/var/shared/apk/$bundleId/$version" ]; then
+    existingFiles=$(ls -1 /var/shared/apk/$bundleId/$version/ 2>/dev/null || echo "")
+
+    if [ ! -z "$existingFiles" ]; then
+      echo -e "\033[1;33m⚠️  Existing files detected in /var/shared/apk/$bundleId/$version/\033[0m"
+
+      # Check for type mismatch
+      if [ "$isSplitApk" = true ]; then
+        # New upload is split APKs, check if single APK exists
+        if echo "$existingFiles" | grep -qE "^${bundleId}_v.*\.apk$|^${bundleId}-.*\.apk$"; then
+          echo -e "\033[1;31m❌ MISMATCH DETECTED:\033[0m"
+          echo "  Current save: Split APKs"
+          echo "  Existing files: Single APK"
+          echo ""
+          echo "Existing files in /var/shared/apk/$bundleId/$version/:"
+          echo "$existingFiles" | sed 's/^/    /'
+          echo ""
+          echo -e "\033[1;33mPlease manually clean the directory before proceeding:\033[0m"
+          echo "  rm -rf /var/shared/apk/$bundleId/$version/*"
+          exit 1
+        fi
+      else
+        # New save is single APK, check if splits/ directory exists
+        if echo "$existingFiles" | grep -q "^splits$"; then
+          echo -e "\033[1;31m❌ MISMATCH DETECTED:\033[0m"
+          echo "  Current save: Single APK"
+          echo "  Existing files: Split APKs (splits/ directory found)"
+          echo ""
+          echo "Existing files in /var/shared/apk/$bundleId/$version/:"
+          echo "$existingFiles" | sed 's/^/    /'
+          echo ""
+          echo -e "\033[1;33mPlease manually clean the directory before proceeding:\033[0m"
+          echo "  rm -rf /var/shared/apk/$bundleId/$version/*"
+          exit 1
+        fi
+      fi
+
+      echo ""
+      echo -e "\033[1;31m❌ Aborting to prevent accidental overwrite.\033[0m"
+      echo ""
+      echo -e "\033[1;33mTo proceed, manually clean the directory first:\033[0m"
+      echo "  rm -rf /var/shared/apk/$bundleId/$version/*"
+      echo ""
+      exit 1
+    fi
+  fi
+
+  # Create the version-specific directory
+  mkdir -p "$saveDir"
+
   # Copy and rename APKs
-  for apk in $bundleId/official_apks/*.apk; do
+  savedFiles=()
+  for apk in $tempDir/*.apk; do
     apkName=$(basename "$apk")
     if [ "$apkName" = "base.apk" ] && [ "$isSplitApk" = false ]; then
         if [ "$namingConvention" = "convention1" ]; then
@@ -390,6 +515,7 @@ else
         newName="$apkName"
     fi
     cp "$apk" "$saveDir/$newName"
+    savedFiles+=("$saveDir/$newName")
 
     # Extract APK contents if enabled
     if [ "$extractApk" = true ]; then
@@ -400,4 +526,32 @@ else
   done
 
   echo "APK files have been saved, renamed, and extracted locally to $saveDir"
+
+  # Display summary
+  echo ""
+  echo -e "\033[1;32m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ SAVE SUMMARY ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+  echo -e "\033[1;36mLocal Location:\033[0m"
+  echo "  $saveDir"
+  echo ""
+  echo -e "\033[1;36mFiles Saved:\033[0m"
+  for file in "${savedFiles[@]}"; do
+    realFile=$(realpath "$file")
+    fileSize=$(ls -lh "$file" | awk '{print $5}')
+    echo "  $realFile ($fileSize)"
+  done
+  echo ""
+  echo -e "\033[1;36mAPK Details:\033[0m"
+  aapt dump badging "$tempDir/base.apk" | grep -E "package:|versionCode|versionName|sdkVersion|targetSdkVersion" | sed 's/^/  /'
+  echo ""
+  echo -e "\033[1;32m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ APK Hashes ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+  for apk in $tempDir/*.apk; do
+    hash=$(sha256sum "$apk" | awk '{print $1}')
+    apkName=$(basename "$apk")
+    echo "  $hash = $apkName"
+  done
+  echo ""
 fi
+# Cleanup temporary staging directory
+echo "Cleaning up temporary files..."
+rm -rf "$tempDir"
+echo "Done!"
