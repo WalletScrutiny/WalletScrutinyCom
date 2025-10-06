@@ -23,13 +23,19 @@ bugbounty:
 meta: ok
 verdict: unreleased
 appHashes: 
-date: 2024-10-21
+date: 2025-10-06
 signer: 
 twitter: FrostsnapTech
 social: 
 features: 
 
 ---
+
+## Update 2025-10-06
+
+They are claiming that pre-orders are about to close. We are giving them a benefit of the doubt and retaining the unreleased verdict.
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Preorders closing soon for the legendary early adopter batch of Frostsnap Frontiers. Final stages of manufacturing underway 🎉 <a href="https://t.co/IIJtScb71j">pic.twitter.com/IIJtScb71j</a></p>&mdash; Frostsnap ❄ (@FrostsnapTech) <a href="https://twitter.com/FrostsnapTech/status/1970332579367879155?ref_src=twsrc%5Etfw">September 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Update 2024-10-21
 
