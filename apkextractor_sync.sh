@@ -1,11 +1,49 @@
 #!/bin/bash
-# apkextractor_sync.sh - Combines APK extraction and synchronization to the server
-# pass appID as an argument, ie: ./apkextractor_sync.sh com.gemwallet.android [user@server]
+# apkextractor_sync.sh - Extracts APKs from Android device and syncs to server
+# Version: v0.1.0
+# Usage: ./apkextractor_sync.sh <appID> [user@server] [--no-extract]
+#
+# Directory structure:
+#   Single APK: /var/shared/apk/{appID}/{versionName}/
+#   Split APKs: /var/shared/apk/{appID}/{versionName}/splits/
+#   Apps using versionCode: app.zeusln.zeus (hardcoded exceptions)
+#
+# Naming conventions:
+#   Convention 1: {appID}_v{version}.apk (default)
+#   Convention 2: {appID}-{version}.apk
+#   Auto-detected from existing files in directory
 
 set -e
 
-# Initialize the bundletoolPath variable
+# Initialize variables
 bundletoolPath=""
+extractApk=true
+
+# Show help function
+show_help() {
+  echo "apkextractor_sync.sh - Extracts APKs from Android device and syncs to server"
+  echo ""
+  echo "Usage:"
+  echo "  ./apkextractor_sync.sh <appID> [user@server] [--no-extract]"
+  echo ""
+  echo "Arguments:"
+  echo "  <appID>         Package name of the app (required)"
+  echo "  [user@server]   SSH credentials for remote upload (optional)"
+  echo "                  If omitted, saves locally to /var/shared/apk/"
+  echo ""
+  echo "Options:"
+  echo "  --no-extract    Do not extract APK contents (default: extracts to 'base/' folder)"
+  echo "  --help, -h      Show this help message"
+  echo ""
+  echo "Examples:"
+  echo "  ./apkextractor_sync.sh app.zeusln.zeus"
+  echo "  ./apkextractor_sync.sh app.zeusln.zeus --no-extract"
+  echo "  ./apkextractor_sync.sh com.example.app user@server"
+  echo "  ./apkextractor_sync.sh com.example.app user@server --no-extract"
+  echo ""
+  echo "Version: v0.1.0"
+  exit 0
+}
 
 # Function to check if a command exists and print status
 check_command() {
@@ -31,6 +69,24 @@ get_version_code() {
   aapt dump badging "$apk_path" | grep versionCode | awk '{print $3}' | sed "s/versionCode='//" | sed "s/'//"
 }
 
+get_version_name() {
+  local apk_path="$1"
+  aapt dump badging "$apk_path" | grep versionName | awk '{print $4}' | sed "s/versionName='//" | sed "s/'//"
+}
+
+# Determine if app uses versionCode or versionName for directory naming
+use_version_code() {
+  local app_id="$1"
+  case "$app_id" in
+    app.zeusln.zeus)
+      return 0 # true - use versionCode
+      ;;
+    *)
+      return 1 # false - use versionName
+      ;;
+  esac
+}
+
 get_full_apk_name() {
   local package_name="$1"
   local apk_path=$(adb shell pm path "$package_name" | grep "base.apk" | cut -d':' -f2 | tr -d '\r')
@@ -46,22 +102,55 @@ get_full_apk_name() {
 determine_naming_convention() {
   local dir="$1"
   local app_id="$2"
+  local is_remote="$3"
 
-  if ssh $sshCredentials "ls $dir/${app_id}_v* 2>/dev/null"; then
-    echo "convention1"
-  elif ssh $sshCredentials "ls $dir/${app_id}-* 2>/dev/null"; then
-    echo "convention2"
+  if [ "$is_remote" = true ]; then
+    if ssh $sshCredentials "ls $dir/${app_id}_v* 2>/dev/null"; then
+      echo "convention1"
+    elif ssh $sshCredentials "ls $dir/${app_id}-* 2>/dev/null"; then
+      echo "convention2"
+    else
+      echo "convention1" # Default to convention1 if no existing files
+    fi
   else
-    echo "convention1" # Default to convention1 if no existing files
+    if ls $dir/${app_id}_v* 2>/dev/null; then
+      echo "convention1"
+    elif ls $dir/${app_id}-* 2>/dev/null; then
+      echo "convention2"
+    else
+      echo "convention1" # Default to convention1 if no existing files
+    fi
   fi
 }
 
-if [ -z "$1" ]; then
-  echo -e "\033[1;31mError: No bundle ID provided. Usage: $0 <bundleId> [user@server]\033[0m]"
+# Parse arguments
+bundleId=""
+sshCredentials=""
+
+for arg in "$@"; do
+  case "$arg" in
+    --help|-h)
+      show_help
+      ;;
+    --no-extract)
+      extractApk=false
+      ;;
+    *)
+      if [ -z "$bundleId" ]; then
+        bundleId="$arg"
+      elif [ -z "$sshCredentials" ]; then
+        sshCredentials="$arg"
+      fi
+      ;;
+  esac
+done
+
+if [ -z "$bundleId" ]; then
+  echo -e "\033[1;31mError: No bundle ID provided.\033[0m"
+  echo "Run './apkextractor_sync.sh --help' for usage information."
   exit 1
 fi
 
-bundleId="$1"
 echo "bundleId=\"$bundleId\""
 
 # Check if the app is installed before proceeding
@@ -150,9 +239,6 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-bundleId="$1"
-echo "bundleId=\"$bundleId\""
-
 # Show and execute the command to get APK paths
 echo "Retrieving APK paths for bundle ID: $bundleId"
 apks=$(adb shell pm path $bundleId)
@@ -184,43 +270,134 @@ done
 echo "Contents of the official directory:"
 ls -l $bundleId/official
 
+# Determine version for directory naming (versionCode or versionName)
+if use_version_code "$bundleId"; then
+  version=$(get_version_code "$bundleId/official_apks/base.apk")
+  echo "Using versionCode for directory: $version"
+else
+  version=$(get_version_name "$bundleId/official_apks/base.apk")
+  echo "Using versionName for directory: $version"
+fi
+
+# Determine if split APKs
+isSplitApk=false
+if echo "$apks" | grep -qE "split_|config."; then
+  isSplitApk=true
+fi
+
 # Check if the user provided SSH credentials for syncing to the server
-if [ ! -z "$2" ]; then
-  sshCredentials="$2"
+if [ ! -z "$sshCredentials" ]; then
+  isRemote=true
 
   echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Uploading files to server ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
 
   ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId"
 
-  versionCode=$(get_version_code "$bundleId/official_apks/base.apk")
-
   # Determine naming convention
-  namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId")
+  namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId" true)
 
   # Create the version-specific directory
-  ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$versionCode"
+  if [ "$isSplitApk" = true ]; then
+    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$version/splits"
+    uploadDir="/var/shared/apk/$bundleId/$version/splits"
+  else
+    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$version"
+    uploadDir="/var/shared/apk/$bundleId/$version"
+  fi
 
   # Upload and rename APKs
   for apk in $bundleId/official_apks/*.apk; do
     apkName=$(basename "$apk")
-    if [ "$apkName" = "base.apk" ]; then
+    if [ "$apkName" = "base.apk" ] && [ "$isSplitApk" = false ]; then
         if [ "$namingConvention" = "convention1" ]; then
-          newName="${bundleId}_v${versionCode}.apk"
+          newName="${bundleId}_v${version}.apk"
         else
-          newName="${bundleId}-${versionCode}.apk"
+          newName="${bundleId}-${version}.apk"
         fi
     else
         newName="$apkName"
     fi
-    scp "$apk" "$sshCredentials:/var/shared/apk/$bundleId/$versionCode/$newName"
+    scp "$apk" "$sshCredentials:$uploadDir/$newName"
 
-    # Extract APK contents
-    extractDir=$(echo "$apkName" | sed 's/\.apk$//' | sed 's/split_config\.//')
-    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$versionCode/$extractDir && unzip -q /var/shared/apk/$bundleId/$versionCode/$newName -d /var/shared/apk/$bundleId/$versionCode/$extractDir"
-  done 
+    # Extract APK contents if enabled
+    if [ "$extractApk" = true ]; then
+      extractDir=$(echo "$apkName" | sed 's/\.apk$//' | sed 's/split_config\.//')
+      ssh $sshCredentials "mkdir -p $uploadDir/$extractDir && unzip -q $uploadDir/$newName -d $uploadDir/$extractDir"
+    fi
+  done
 
   echo "APK files have been uploaded, renamed, and extracted on the server."
-else 
-  echo "Skipping server synchronization."
-  exit 0
+else
+  isRemote=false
+
+  echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Saving files locally to /var/shared/apk ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+
+  # Check if base directory exists
+  if [ ! -d "/var/shared/apk" ]; then
+    echo -e "\033[1;33m"
+    echo "▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮"
+    echo "ERROR: /var/shared/apk directory does not exist"
+    echo "▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮"
+    echo ""
+    echo "Please create the directory and set permissions by running:"
+    echo ""
+    echo "sudo mkdir -p /var/shared/apk"
+    echo "sudo chown \$USER:\$USER /var/shared/apk"
+    echo ""
+    echo -e "\033[0m"
+    exit 1
+  fi
+
+  # Check if directory is writable
+  if [ ! -w "/var/shared/apk" ]; then
+    echo -e "\033[1;33m"
+    echo "▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮"
+    echo "ERROR: /var/shared/apk directory is not writable"
+    echo "▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮"
+    echo ""
+    echo "Please fix permissions by running:"
+    echo ""
+    echo "sudo chown \$USER:\$USER /var/shared/apk"
+    echo ""
+    echo -e "\033[0m"
+    exit 1
+  fi
+
+  mkdir -p /var/shared/apk/$bundleId
+
+  # Determine naming convention
+  namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId" false)
+
+  # Create the version-specific directory
+  if [ "$isSplitApk" = true ]; then
+    mkdir -p /var/shared/apk/$bundleId/$version/splits
+    saveDir="/var/shared/apk/$bundleId/$version/splits"
+  else
+    mkdir -p /var/shared/apk/$bundleId/$version
+    saveDir="/var/shared/apk/$bundleId/$version"
+  fi
+
+  # Copy and rename APKs
+  for apk in $bundleId/official_apks/*.apk; do
+    apkName=$(basename "$apk")
+    if [ "$apkName" = "base.apk" ] && [ "$isSplitApk" = false ]; then
+        if [ "$namingConvention" = "convention1" ]; then
+          newName="${bundleId}_v${version}.apk"
+        else
+          newName="${bundleId}-${version}.apk"
+        fi
+    else
+        newName="$apkName"
+    fi
+    cp "$apk" "$saveDir/$newName"
+
+    # Extract APK contents if enabled
+    if [ "$extractApk" = true ]; then
+      extractDir=$(echo "$apkName" | sed 's/\.apk$//' | sed 's/split_config\.//')
+      mkdir -p "$saveDir/$extractDir"
+      unzip -q "$saveDir/$newName" -d "$saveDir/$extractDir"
+    fi
+  done
+
+  echo "APK files have been saved, renamed, and extracted locally to $saveDir"
 fi
