@@ -47,367 +47,6 @@ const VALID_META = 'ok';
 // Statistics tracking
 const stats = createStats();
 
-// Special handler for Electrum which has non-version tags like 'seed_v10'
-// that can be mistaken for the latest release.
-
-// Special handler for Electrum which has non-version tags like 'seed_v10'
-// that can be mistaken for the latest release.
-async function fetchLatestElectrumRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-
-  // Filter for tags that look like versions, e.g., 4.5.8 or 4.6.0b1
-  const versionTags = allTags
-    .map(tag => tag.name)
-    .filter(name => /^\d+\.\d+\.\d+(b\d+)?$/.test(name));
-
-  if (versionTags.length === 0) {
-    throw new Error(`No valid version tags found for Electrum in ${repoUrl}`);
-  }
-
-  // Sort tags semantically to find the latest version.
-  versionTags.sort((a, b) => {
-    const aParts = a.replace('b', '.').split('.').map(Number);
-    const bParts = b.replace('b', '.').split('.').map(Number);
-    const len = Math.max(aParts.length, bParts.length);
-    for (let i = 0; i < len; i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersion = versionTags[0];
-  const latestTagObject = allTags.find(tag => tag.name === latestVersion);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestTagObject.name,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestTagObject.name,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
-    };
-  }
-}
-
-async function fetchLatestLedgerLiveRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const desktopVersionPrefix = '@ledgerhq/live-desktop@';
-
-  const versionTags = allTags
-    .map(tag => tag.name)
-    .filter(name => name.startsWith(desktopVersionPrefix))
-    .map(name => name.substring(desktopVersionPrefix.length)); // Extract X.Y.Z
-
-  if (versionTags.length === 0) {
-    throw new Error(`No valid desktop version tags found for Ledger Live in ${repoUrl}`);
-  }
-
-  versionTags.sort((a, b) => {
-    const aParts = a.split('.').map(Number);
-    const bParts = b.split('.').map(Number);
-    const len = Math.max(aParts.length, bParts.length);
-    for (let i = 0; i < len; i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersionNumber = versionTags[0];
-  const originalTagName = `${desktopVersionPrefix}${latestVersionNumber}`;
-  const latestTagObject = allTags.find(tag => tag.name === originalTagName);
-
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestVersionNumber, // Return only X.Y.Z
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestVersionNumber,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  }
-}
-
-async function fetchLatestBtcWalletRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  // Filter for tags like vX.Y.Z, excluding those with '/' (sub-modules)
-  const versionTags = allTags
-    .map(tag => tag.name)
-    .filter(name => /^v\d+\.\d+\.\d+$/.test(name) && !name.includes('/'));
-
-  if (versionTags.length === 0) {
-    throw new Error(`No valid top-level version tags found for BtcWallet in ${repoUrl}`);
-  }
-
-  versionTags.sort((a, b) => {
-    const aParts = a.substring(1).split('.').map(Number); // remove 'v' before splitting
-    const bParts = b.substring(1).split('.').map(Number);
-    const len = Math.max(aParts.length, bParts.length);
-    for (let i = 0; i < len; i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersion = versionTags[0];
-  const latestTagObject = allTags.find(tag => tag.name === latestVersion);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestTagObject.name,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestTagObject.name,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
-    };
-  }
-}
-
-async function fetchLatestStackWalletRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allReleases = await fetchAllReleases(repoPath, token);
-  const prefix = 'Stack Wallet v';
-
-  const matchingReleases = allReleases
-    .filter(release => release.name && release.name.startsWith(prefix))
-    .map(release => ({
-      versionNumber: release.name.substring(prefix.length),
-      date: release.published_at.split('T')[0],
-      url: release.html_url,
-      originalName: release.name // Keep original name for reference if needed
-    }));
-
-  if (matchingReleases.length === 0) {
-    throw new Error(`No releases found with name starting with '${prefix}' for StackWallet in ${repoUrl}`);
-  }
-
-  // Sort by version number
-  matchingReleases.sort((a, b) => {
-    const aParts = a.versionNumber.split('.').map(Number);
-    const bParts = b.versionNumber.split('.').map(Number);
-    const len = Math.max(aParts.length, bParts.length);
-    for (let i = 0; i < len; i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA; // Descending sort
-    }
-    return 0;
-  });
-
-  const latestRelease = matchingReleases[0];
-
-  return {
-    version: latestRelease.versionNumber,
-    date: latestRelease.date,
-    url: latestRelease.url
-  };
-}
-
-
-async function fetchLatestBitcoinKeeperRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const prefix = 'keeper-desktop-v';
-
-  const versionTags = allTags
-    .map(tag => tag.name)
-    .filter(name => name.startsWith(prefix) && name.toLowerCase().includes('desktop'))
-    .map(name => name.substring(prefix.length));
-
-  if (versionTags.length === 0) {
-    throw new Error(`No valid desktop version tags found for Bitcoin Keeper in ${repoUrl}`);
-  }
-
-  versionTags.sort((a, b) => {
-    const aParts = a.split('.').map(Number);
-    const bParts = b.split('.').map(Number);
-    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersionNumber = versionTags[0];
-  const originalTagName = `${prefix}${latestVersionNumber}`;
-  const latestTagObject = allTags.find(tag => tag.name === originalTagName);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestVersionNumber,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestVersionNumber,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  }
-}
-
-async function fetchLatestBlockstreamGreenRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const prefix = 'release_';
-
-  const versionTags = allTags
-    .map(tag => tag.name)
-    .filter(name => name.startsWith(prefix))
-    .map(name => name.substring(prefix.length));
-
-  if (versionTags.length === 0) {
-    throw new Error(`No valid version tags found for Blockstream Green in ${repoUrl}`);
-  }
-
-  versionTags.sort((a, b) => {
-    const aParts = a.split('.').map(Number);
-    const bParts = b.split('.').map(Number);
-    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersionNumber = versionTags[0];
-  const originalTagName = `${prefix}${latestVersionNumber}`;
-  const latestTagObject = allTags.find(tag => tag.name === originalTagName);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestVersionNumber,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestVersionNumber,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  }
-}
-
-async function fetchLatestCaravanRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const prefix = 'caravan-v';
-
-  const versionNumbers = allTags
-    .map(tag => tag.name)
-    .filter(name => name.startsWith(prefix))
-    .map(name => name.substring(prefix.length));
-
-  if (versionNumbers.length === 0) {
-    throw new Error(`No valid '${prefix}X.Y.Z' tags found for Caravan in ${repoUrl}`);
-  }
-
-  versionNumbers.sort((a, b) => {
-    const aParts = a.split('.').map(Number);
-    const bParts = b.split('.').map(Number);
-    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersionNumber = versionNumbers[0];
-  const originalTagName = `${prefix}${latestVersionNumber}`;
-  const latestTagObject = allTags.find(tag => tag.name === originalTagName);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestVersionNumber,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestVersionNumber,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  }
-}
-
-async function fetchLatestLilyWalletRelease(repoUrl, token) {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const prefix = 'lily-wallet-v';
-
-  const versionNumbers = allTags
-    .map(tag => tag.name)
-    .filter(name => name.startsWith(prefix))
-    .map(name => name.substring(prefix.length));
-
-  if (versionNumbers.length === 0) {
-    throw new Error(`No valid '${prefix}X.Y.Z' tags found for Lily Wallet in ${repoUrl}`);
-  }
-
-  versionNumbers.sort((a, b) => {
-    const aParts = a.split('.').map(Number);
-    const bParts = b.split('.').map(Number);
-    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-      const valA = aParts[i] || 0;
-      const valB = bParts[i] || 0;
-      if (valA !== valB) return valB - valA;
-    }
-    return 0;
-  });
-
-  const latestVersionNumber = versionNumbers[0];
-  const originalTagName = `${prefix}${latestVersionNumber}`;
-  const latestTagObject = allTags.find(tag => tag.name === originalTagName);
-  const github = createGitHubRequest(token);
-  try {
-    const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
-    return {
-      version: latestVersionNumber,
-      date: commitResponse.data.commit.committer.date.split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  } catch (commitError) {
-    return {
-      version: latestVersionNumber,
-      date: new Date().toISOString().split('T')[0],
-      url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
-    };
-  }
-}
-
 function showUsage() {
   console.log(`
 Usage: node scripts/refreshDesktop.mjs [options]
@@ -429,18 +68,321 @@ Examples:
 }
 
 // Special version fetchers mapped by wallet filename
-// To add a new wallet with special version logic:
-// 1. Create the custom fetcher function (e.g., fetchLatestYourWalletRelease)
-// 2. Add entry here: 'yourwallet.md': { name: 'Your Wallet', fetcher: fetchLatestYourWalletRelease }
+// To add a new wallet with special version logic, simply add an entry here
+// with an async function that takes (repoUrl, token) and returns { version, date, url }
 const specialVersionFetchers = {
   'electrum.md': async (repoUrl, token) => {
-  const repoPath = extractRepoPath(repoUrl);
-  const allTags = await fetchAllTags(repoPath, token);
-  const prefix = ...
-  ...
-  return ...
- },
- ...
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    // Filter for tags that look like versions, e.g., 4.5.8 or 4.6.0b1
+    const versionTags = allTags
+      .map(tag => tag.name)
+      .filter(name => /^\d+\.\d+\.\d+(b\d+)?$/.test(name));
+    if (versionTags.length === 0) {
+      throw new Error(`No valid version tags found for Electrum in ${repoUrl}`);
+    }
+    versionTags.sort((a, b) => {
+      const aParts = a.replace('b', '.').split('.').map(Number);
+      const bParts = b.replace('b', '.').split('.').map(Number);
+      const len = Math.max(aParts.length, bParts.length);
+      for (let i = 0; i < len; i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersion = versionTags[0];
+    const latestTagObject = allTags.find(tag => tag.name === latestVersion);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestTagObject.name,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestTagObject.name,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
+      };
+    }
+  },
+  'ledger.live.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const desktopVersionPrefix = '@ledgerhq/live-desktop@';
+    const versionTags = allTags
+      .map(tag => tag.name)
+      .filter(name => name.startsWith(desktopVersionPrefix))
+      .map(name => name.substring(desktopVersionPrefix.length));
+    if (versionTags.length === 0) {
+      throw new Error(`No valid desktop version tags found for Ledger Live in ${repoUrl}`);
+    }
+    versionTags.sort((a, b) => {
+      const aParts = a.split('.').map(Number);
+      const bParts = b.split('.').map(Number);
+      const len = Math.max(aParts.length, bParts.length);
+      for (let i = 0; i < len; i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersionNumber = versionTags[0];
+    const originalTagName = `${desktopVersionPrefix}${latestVersionNumber}`;
+    const latestTagObject = allTags.find(tag => tag.name === originalTagName);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestVersionNumber,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestVersionNumber,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    }
+  },
+  'btcsuite.btcwallet.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const versionTags = allTags
+      .map(tag => tag.name)
+      .filter(name => /^v\d+\.\d+\.\d+$/.test(name) && !name.includes('/'));
+    if (versionTags.length === 0) {
+      throw new Error(`No valid top-level version tags found for BtcWallet in ${repoUrl}`);
+    }
+    versionTags.sort((a, b) => {
+      const aParts = a.substring(1).split('.').map(Number);
+      const bParts = b.substring(1).split('.').map(Number);
+      const len = Math.max(aParts.length, bParts.length);
+      for (let i = 0; i < len; i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersion = versionTags[0];
+    const latestTagObject = allTags.find(tag => tag.name === latestVersion);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestTagObject.name,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestTagObject.name,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${latestTagObject.name}`
+      };
+    }
+  },
+  'desk.stackwallet.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allReleases = await fetchAllReleases(repoPath, token);
+    const prefix = 'Stack Wallet v';
+    const matchingReleases = allReleases
+      .filter(release => release.name && release.name.startsWith(prefix))
+      .map(release => ({
+        versionNumber: release.name.substring(prefix.length),
+        date: release.published_at.split('T')[0],
+        url: release.html_url,
+        originalName: release.name
+      }));
+    if (matchingReleases.length === 0) {
+      throw new Error(`No releases found with name starting with '${prefix}' for StackWallet in ${repoUrl}`);
+    }
+    matchingReleases.sort((a, b) => {
+      const aParts = a.versionNumber.split('.').map(Number);
+      const bParts = b.versionNumber.split('.').map(Number);
+      const len = Math.max(aParts.length, bParts.length);
+      for (let i = 0; i < len; i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestRelease = matchingReleases[0];
+    return {
+      version: latestRelease.versionNumber,
+      date: latestRelease.date,
+      url: latestRelease.url
+    };
+  },
+  'bitcoinkeeper.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const prefix = 'keeper-desktop-v';
+    const versionTags = allTags
+      .map(tag => tag.name)
+      .filter(name => name.startsWith(prefix) && name.toLowerCase().includes('desktop'))
+      .map(name => name.substring(prefix.length));
+    if (versionTags.length === 0) {
+      throw new Error(`No valid desktop version tags found for Bitcoin Keeper in ${repoUrl}`);
+    }
+    versionTags.sort((a, b) => {
+      const aParts = a.split('.').map(Number);
+      const bParts = b.split('.').map(Number);
+      for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersionNumber = versionTags[0];
+    const originalTagName = `${prefix}${latestVersionNumber}`;
+    const latestTagObject = allTags.find(tag => tag.name === originalTagName);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestVersionNumber,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestVersionNumber,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    }
+  },
+  'blockstreamgreen.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const prefix = 'release_';
+    const versionTags = allTags
+      .map(tag => tag.name)
+      .filter(name => name.startsWith(prefix))
+      .map(name => name.substring(prefix.length));
+    if (versionTags.length === 0) {
+      throw new Error(`No valid version tags found for Blockstream Green in ${repoUrl}`);
+    }
+    versionTags.sort((a, b) => {
+      const aParts = a.split('.').map(Number);
+      const bParts = b.split('.').map(Number);
+      for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersionNumber = versionTags[0];
+    const originalTagName = `${prefix}${latestVersionNumber}`;
+    const latestTagObject = allTags.find(tag => tag.name === originalTagName);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestVersionNumber,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestVersionNumber,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    }
+  },
+  'caravan.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const prefix = 'caravan-v';
+    const versionNumbers = allTags
+      .map(tag => tag.name)
+      .filter(name => name.startsWith(prefix))
+      .map(name => name.substring(prefix.length));
+    if (versionNumbers.length === 0) {
+      throw new Error(`No valid '${prefix}X.Y.Z' tags found for Caravan in ${repoUrl}`);
+    }
+    versionNumbers.sort((a, b) => {
+      const aParts = a.split('.').map(Number);
+      const bParts = b.split('.').map(Number);
+      for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersionNumber = versionNumbers[0];
+    const originalTagName = `${prefix}${latestVersionNumber}`;
+    const latestTagObject = allTags.find(tag => tag.name === originalTagName);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestVersionNumber,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestVersionNumber,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    }
+  },
+  'lilywallet.md': async (repoUrl, token) => {
+    const repoPath = extractRepoPath(repoUrl);
+    const allTags = await fetchAllTags(repoPath, token);
+    const prefix = 'lily-wallet-v';
+    const versionNumbers = allTags
+      .map(tag => tag.name)
+      .filter(name => name.startsWith(prefix))
+      .map(name => name.substring(prefix.length));
+    if (versionNumbers.length === 0) {
+      throw new Error(`No valid '${prefix}X.Y.Z' tags found for Lily Wallet in ${repoUrl}`);
+    }
+    versionNumbers.sort((a, b) => {
+      const aParts = a.split('.').map(Number);
+      const bParts = b.split('.').map(Number);
+      for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+        const valA = aParts[i] || 0;
+        const valB = bParts[i] || 0;
+        if (valA !== valB) return valB - valA;
+      }
+      return 0;
+    });
+    const latestVersionNumber = versionNumbers[0];
+    const originalTagName = `${prefix}${latestVersionNumber}`;
+    const latestTagObject = allTags.find(tag => tag.name === originalTagName);
+    const github = createGitHubRequest(token);
+    try {
+      const commitResponse = await github.get(`/repos/${repoPath}/commits/${latestTagObject.commit.sha}`);
+      return {
+        version: latestVersionNumber,
+        date: commitResponse.data.commit.committer.date.split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    } catch (commitError) {
+      return {
+        version: latestVersionNumber,
+        date: new Date().toISOString().split('T')[0],
+        url: `https://github.com/${repoPath}/releases/tag/${originalTagName}`
+      };
+    }
+  }
+};
 
 // Version fetcher for desktop wallets with special handling
 async function getDesktopVersion(fileName, repoUrl, token) {
@@ -448,8 +390,7 @@ async function getDesktopVersion(fileName, repoUrl, token) {
   const specialHandler = specialVersionFetchers[baseName];
 
   if (specialHandler) {
-    console.log(`  ${colors.cyan}Applying special ${specialHandler.name} version fetching logic...${colors.reset}`);
-    return await specialHandler.fetcher(repoUrl, token);
+    return await specialHandler(repoUrl, token);
   } else {
     return await fetchLatestRelease(repoUrl, token);
   }
