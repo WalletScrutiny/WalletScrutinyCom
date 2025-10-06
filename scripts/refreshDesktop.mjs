@@ -433,15 +433,14 @@ Examples:
 // 1. Create the custom fetcher function (e.g., fetchLatestYourWalletRelease)
 // 2. Add entry here: 'yourwallet.md': { name: 'Your Wallet', fetcher: fetchLatestYourWalletRelease }
 const specialVersionFetchers = {
-  'electrum.md': { name: 'Electrum', fetcher: fetchLatestElectrumRelease },
-  'btcsuite.btcwallet.md': { name: 'BtcWallet', fetcher: fetchLatestBtcWalletRelease },
-  'desk.stackwallet.md': { name: 'StackWallet', fetcher: fetchLatestStackWalletRelease },
-  'ledger.live.md': { name: 'Ledger Live', fetcher: fetchLatestLedgerLiveRelease },
-  'bitcoinkeeper.md': { name: 'Bitcoin Keeper', fetcher: fetchLatestBitcoinKeeperRelease },
-  'blockstreamgreen.md': { name: 'Blockstream Green', fetcher: fetchLatestBlockstreamGreenRelease },
-  'caravan.md': { name: 'Caravan', fetcher: fetchLatestCaravanRelease },
-  'lilywallet.md': { name: 'Lily Wallet', fetcher: fetchLatestLilyWalletRelease }
-};
+  'electrum.md': async (repoUrl, token) => {
+  const repoPath = extractRepoPath(repoUrl);
+  const allTags = await fetchAllTags(repoPath, token);
+  const prefix = ...
+  ...
+  return ...
+ },
+ ...
 
 // Version fetcher for desktop wallets with special handling
 async function getDesktopVersion(fileName, repoUrl, token) {
