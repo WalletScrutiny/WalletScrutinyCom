@@ -3,10 +3,11 @@ wsId:
 title: Portal Wallet Manager
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10
 appId: xyz.twenty_two.portal_manager
 appCountry: 
+released: 
 updated: 2025-05-14
 version: VARY
 stars: 
@@ -28,8 +29,9 @@ social:
 - https://t.me/TwentyTwoHW
 redirect_from: 
 developerName: Portal Technologies Inc
-features: 
+features:
 - companion app
+
 ---
 
 This is the companion app to the {% include walletLink.html wallet='hardware/twentytwo.portal' verdict='true' %}

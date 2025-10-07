@@ -8,8 +8,8 @@ users: 100000
 appId: org.autonomoussoftwarefoundation.verusmobile.android
 appCountry: 
 released: 2023-04-23
-updated: 2025-10-01
-version: 1.0.33
+updated: 2025-10-06
+version: 1.0.34
 stars: 3.5
 ratings: 
 reviews: 32

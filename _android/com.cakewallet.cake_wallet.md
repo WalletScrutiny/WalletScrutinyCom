@@ -1,6 +1,6 @@
 ---
 wsId: cake
-title: Cake Wallet
+title: 'Cake Wallet: Crypto, Made Easy'
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2025-09-25
 version: 5.4.2
 stars: 4.8
 ratings: 730
-reviews: 566
+reviews: 567
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/337

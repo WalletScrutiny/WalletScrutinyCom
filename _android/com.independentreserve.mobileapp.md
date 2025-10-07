@@ -4,7 +4,7 @@ title: Independent Reserve Buy Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.independentreserve.mobileapp
 appCountry: 
 released: 2021-10-18

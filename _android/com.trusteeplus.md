@@ -4,7 +4,7 @@ title: Trustee Plus | Wallet & Card
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-04
+date: 2025-10-07
 signer: 
 twitter: LMAX
 social:

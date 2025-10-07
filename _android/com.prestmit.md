@@ -8,11 +8,11 @@ users: 500000
 appId: com.prestmit
 appCountry: us
 released: 2021-04-13
-updated: 2025-08-27
-version: 7.2.377
+updated: 2025-09-14
+version: 7.2.378
 stars: 4.6
 ratings: 1291
-reviews: 784
+reviews: 785
 website: https://staging.prestmit.com
 repository: 
 issue: 

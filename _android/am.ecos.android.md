@@ -12,7 +12,7 @@ updated: 2025-09-09
 version: 3.0.4
 stars: 2
 ratings: 377
-reviews: 209
+reviews: 210
 website: https://ecos.am
 repository: 
 issue: 

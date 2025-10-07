@@ -12,7 +12,7 @@ updated: 2025-09-26
 version: 8.11.0
 stars: 3.8
 ratings: 570
-reviews: 206
+reviews: 207
 website: https://unitywallet.com
 repository: 
 issue: 

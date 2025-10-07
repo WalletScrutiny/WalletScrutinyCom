@@ -3,14 +3,14 @@ wsId: tapWallet
 title: T.A.P. Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.humbl.wallet
 appCountry: us
 idd: '1627171234'
-released: '2022-07-21T07:00:00Z'
+released: 2022-07-21
 updated: 2025-09-26
 version: 2.0.2
-stars: 4.78233
+stars: 4.8
 reviews: 487
 website: https://tapwallet.com/
 repository: 
@@ -26,7 +26,7 @@ twitter: theTAPwallet
 social:
 - https://www.tiktok.com/@thetapwallet
 - https://www.facebook.com/theTAPwallet
-- https://www.linkedin.com/company/thetapwallet  
+- https://www.linkedin.com/company/thetapwallet
 features: 
 developerName: HUMBL
 

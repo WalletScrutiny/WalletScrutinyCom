@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-27
 updated: 2025-09-29
 version: 5.13.0
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 85
 website: https://onekey.so

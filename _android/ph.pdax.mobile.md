@@ -12,7 +12,7 @@ updated: 2025-09-29
 version: 14.1.1
 stars: 4.9
 ratings: 3291
-reviews: 3362
+reviews: 3390
 website: https://pdax.ph
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry: TW
 released: 2022-05-20
 updated: 2025-09-26
 version: 3.1.15
-stars: 4.1
+stars: 3.8
 ratings: 
-reviews: 3
+reviews: 4
 website: https://secuxtech.com/
 repository: 
 issue: 

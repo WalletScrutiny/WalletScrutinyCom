@@ -12,7 +12,7 @@ updated: 2025-09-29
 version: 7.4.5
 stars: 3.9
 ratings: 46317
-reviews: 614
+reviews: 615
 website: https://www.lbank.com
 repository: 
 issue: 

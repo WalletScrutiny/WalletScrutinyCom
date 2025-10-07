@@ -12,7 +12,7 @@ updated: 2025-09-30
 version: 2.66.2
 stars: 4.5
 ratings: 5691
-reviews: 1526
+reviews: 1530
 website: https://www.bitget.com/
 repository: 
 issue: 

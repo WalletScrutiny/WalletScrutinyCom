@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.hashcash.billbitcoins.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-11-28
+date: 2025-10-07
 signer: 
 twitter: 
 social: 

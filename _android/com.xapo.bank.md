@@ -12,7 +12,7 @@ updated: 2025-10-01
 version: 10.48.0
 stars: 4.5
 ratings: 603
-reviews: 41
+reviews: 42
 website: https://www.xapobank.com/
 repository: 
 issue: 

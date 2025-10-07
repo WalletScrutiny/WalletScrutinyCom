@@ -12,7 +12,7 @@ updated: 2025-09-04
 version: 3.78.0
 stars: 4.4
 ratings: 
-reviews: 2
+reviews: 3
 website: https://kryptogo.com
 repository: 
 issue: 

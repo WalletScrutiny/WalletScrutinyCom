@@ -8,8 +8,8 @@ users: 10000
 appId: app.ctmwallet
 appCountry: 
 released: 2021-12-28
-updated: 2025-01-22
-version: 1.0.24
+updated: 2025-10-07
+version: 1.0.25
 stars: 3.8
 ratings: 
 reviews: 4

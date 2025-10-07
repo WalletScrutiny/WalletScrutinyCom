@@ -10,9 +10,9 @@ appCountry:
 released: 2018-09-27
 updated: 2025-09-16
 version: 9.67.1
-stars: 3.4
+stars: 3.3
 ratings: 8653
-reviews: 371
+reviews: 372
 website: https://www.excoino.com/
 repository: 
 issue: 

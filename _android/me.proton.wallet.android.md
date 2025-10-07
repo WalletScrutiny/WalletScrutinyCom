@@ -10,7 +10,7 @@ appCountry:
 released: 2025-02-04
 updated: 2025-09-23
 version: 1.2.3
-stars: 4.5
+stars: 4.6
 ratings: 
 reviews: 20
 website: https://proton.me

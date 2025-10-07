@@ -12,7 +12,7 @@ updated: 2025-09-08
 version: 6.3.4
 stars: 4.6
 ratings: 1597
-reviews: 163
+reviews: 164
 website: https://www.coincola.com
 repository: 
 issue: 
