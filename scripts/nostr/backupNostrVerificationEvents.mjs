@@ -1,3 +1,27 @@
+#!/usr/bin/env node
+/**
+ * backupNostrVerificationEvents.mjs v0.1.0
+ *
+ * Backs up WalletScrutiny verification and opinion events from Nostr relays
+ * to local JSON files organized by event kind.
+ *
+ * Usage:
+ *   node backupNostrVerificationEvents.mjs [options]
+ *
+ * Options:
+ *   -d, --days <number>    Number of days to look back (default: 60)
+ *   -h, --help             Show this help message
+ *
+ * Examples:
+ *   node backupNostrVerificationEvents.mjs           # Backup last 60 days
+ *   node backupNostrVerificationEvents.mjs -d 30     # Backup last 30 days
+ *   node backupNostrVerificationEvents.mjs -d 180    # Backup last 180 days
+ *
+ * Output:
+ *   Events are saved to ./backup/nostr-verification-events/ and
+ *   ./backup/nostr-opinion-events/ organized by event kind.
+ */
+
 import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
@@ -10,10 +34,68 @@ global.WebSocket = WebSocket;
 const KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind, verificationCommentKind, codeSnippetKind, endorsementKind, opinionKind];
 const VERIFICATION_KINDS = KINDS.filter(kind => kind !== opinionKind);
 const BASE_DIR = path.join(process.cwd(), "backup");
+const DEFAULT_DAYS = 60;
 
-function getTimestamp(months = 2) {
+function showHelp() {
+  console.log(`
+backupNostrVerificationEvents.mjs v0.1.0
+
+Backs up WalletScrutiny verification and opinion events from Nostr relays.
+
+Usage:
+  node backupNostrVerificationEvents.mjs [options]
+
+Options:
+  -d, --days <number>    Number of days to look back (default: ${DEFAULT_DAYS})
+  -h, --help             Show this help message
+
+Examples:
+  node backupNostrVerificationEvents.mjs           # Backup last ${DEFAULT_DAYS} days
+  node backupNostrVerificationEvents.mjs -d 30     # Backup last 30 days
+  node backupNostrVerificationEvents.mjs -d 180    # Backup last 180 days
+
+Output:
+  Events are saved to ./backup/nostr-verification-events/ and
+  ./backup/nostr-opinion-events/ organized by event kind.
+`);
+}
+
+function parseArgs() {
+  const args = process.argv.slice(2);
+  let days = DEFAULT_DAYS;
+
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+
+    if (arg === '-h' || arg === '--help') {
+      showHelp();
+      process.exit(0);
+    } else if (arg === '-d' || arg === '--days') {
+      const nextArg = args[i + 1];
+      if (!nextArg || isNaN(nextArg)) {
+        console.error(`Error: -d/--days requires a numeric argument`);
+        console.error(`Try 'node backupNostrVerificationEvents.mjs --help' for more information.`);
+        process.exit(1);
+      }
+      days = parseInt(nextArg, 10);
+      if (days <= 0) {
+        console.error(`Error: days must be a positive number`);
+        process.exit(1);
+      }
+      i++; // Skip next arg since we consumed it
+    } else {
+      console.error(`Error: Unknown option '${arg}'`);
+      console.error(`Try 'node backupNostrVerificationEvents.mjs --help' for more information.`);
+      process.exit(1);
+    }
+  }
+
+  return { days };
+}
+
+function getTimestamp(days) {
   const date = new Date();
-  date.setMonth(date.getMonth() - months);
+  date.setDate(date.getDate() - days);
   return Math.floor(date.getTime() / 1000);
 }
 
@@ -45,14 +127,16 @@ function getEventPath(event) {
 
 async function main() {
   try {
+    const { days } = parseArgs();
+
     const ndk = new NDK({ explicitRelayUrls });
-    
+
     console.log("Connecting to relays...");
     await ndk.connect(2000);
     await new Promise(resolve => setTimeout(resolve, 3000));
 
-    const since = getTimestamp();
-    console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
+    const since = getTimestamp(days);
+    console.log(`Fetching events from the last ${days} days (since ${new Date(since * 1000).toISOString()})...`);
     
     const [verificationEvents, opinionEvents] = await Promise.all([
       ndk.fetchEvents({ kinds: VERIFICATION_KINDS, since }),
