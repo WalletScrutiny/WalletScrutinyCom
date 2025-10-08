@@ -203,27 +203,8 @@ function showZapModal({ onClose, setZapped }) {
 
     try {
       const lnPay = async ({ pr }) => {
-        const isWalletConnect = false;
-        if (isWalletConnect) {
-          // TODO: implement wallet connect
-          /*
-          try {
-            const {requestProvider} = await import("@getalby/bitcoin-connect-react")
-            const provider = await requestProvider()
-            await provider.sendPayment(pr)
-            setZapped(true)
-            setZapRefresh(!zapRefresh)
-            onClose()
-            return provider.sendPayment(pr)
-          } catch (error) {
-            setError("Failed to connect to wallet. Please try again.")
-            throw error
-          }
-          */
-        } else {
-          showZapQR(pr, modal);
-          return undefined;
-        }
+        showZapQR(pr, modal);
+        return undefined;
       };
 
       const currentInvoice = await createZap({ event, amount, comment: zapMessage });
