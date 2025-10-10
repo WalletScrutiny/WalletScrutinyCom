@@ -8,8 +8,8 @@ appId: com.bitcoinsuisse.online
 appCountry: pl
 idd: '1555493299'
 released: 2021-09-21
-updated: 2025-08-11
-version: 2.19.2
+updated: 2025-10-02
+version: 2.19.3
 stars: 0
 reviews: 0
 website: https://www.bitcoinsuisse.com/mobile-app

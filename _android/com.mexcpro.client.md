@@ -12,7 +12,7 @@ updated: 2025-10-01
 version: 6.27.1
 stars: 4.8
 ratings: 12371
-reviews: 2058
+reviews: 2061
 website: https://www.mexc.com
 repository: 
 issue: 

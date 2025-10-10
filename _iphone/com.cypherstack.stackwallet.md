@@ -11,7 +11,7 @@ released: 2022-08-26
 updated: 2025-08-05
 version: 2.3.2
 stars: 4.3
-reviews: 19
+reviews: 20
 website: https://stackwallet.com/
 repository: 
 issue: 

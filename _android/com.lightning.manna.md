@@ -3,17 +3,17 @@ wsId: mannaBitcoin
 title: Manna Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100
 appId: com.lightning.manna
 appCountry: 
-released: May 14, 2025
-updated: 2025-09-26
-version: 1.1.0
+released: 2025-05-14
+updated: 2025-10-04
+version: 1.1.4
 stars: 5
 ratings: 
 reviews: 5
-website: https://mannabitcoin.com/
+website: http://mannabitcoin.com/
 repository: 
 issue: 
 icon: com.lightning.manna.png
@@ -25,7 +25,7 @@ date: 2025-10-10
 signer: 
 twitter: MannaBitcoin
 social:
-- https://t.me/MannaBitcoin 
+- https://t.me/MannaBitcoin
 redirect_from: 
 developerName: Manna Bitcoin
 features: 

@@ -12,7 +12,7 @@ updated: 2025-09-10
 version: 2.1.43
 stars: 4
 ratings: 
-reviews: 78
+reviews: 79
 website: https://webauth.com/
 repository: 
 issue: 

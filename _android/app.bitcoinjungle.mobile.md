@@ -8,8 +8,8 @@ users: 1000
 appId: app.bitcoinjungle.mobile
 appCountry: 
 released: 2021-12-05
-updated: 2025-08-11
-version: 1.4.2
+updated: 2025-10-07
+version: 1.4.5
 stars: 4.2
 ratings: 
 reviews: 1

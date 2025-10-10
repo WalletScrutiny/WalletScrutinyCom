@@ -12,7 +12,7 @@ updated: 2025-10-03
 version: 1.119.0
 stars: 3.9
 ratings: 9203
-reviews: 962
+reviews: 963
 website: https://swissborg.com
 repository: 
 issue: 

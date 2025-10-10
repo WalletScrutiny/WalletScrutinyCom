@@ -1,6 +1,6 @@
 ---
 wsId: river
-title: River – Buy Bitcoin
+title: 'River: Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.river.riverapp
 appCountry: us
 idd: '1536176542'
 released: 2021-01-19
-updated: 2025-09-24
-version: 4.375.1
+updated: 2025-10-09
+version: 4.426.2
 stars: 4.9
-reviews: 6328
+reviews: 6394
 website: https://river.com/buy-bitcoin
 repository: 
 issue: 

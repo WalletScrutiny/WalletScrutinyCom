@@ -8,8 +8,8 @@ appId: com.coincorner.app.crypt
 appCountry: gb
 idd: 917721788
 released: 2014-09-22
-updated: 2025-09-22
-version: 5.2.0
+updated: 2025-10-08
+version: 5.2.1
 stars: 4.2
 reviews: 309
 website: https://www.coincorner.com

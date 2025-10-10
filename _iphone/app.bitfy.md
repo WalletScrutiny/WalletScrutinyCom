@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.bitfy.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-02-26
+date: 2025-10-10
 signer: 
 twitter: bitfyapp
 social:

@@ -8,10 +8,10 @@ appId: com.gateio.app.gateio-app
 appCountry: id
 idd: 1294998195
 released: 2017-11-03
-updated: 2025-09-28
-version: 7.22.5
+updated: 2025-10-03
+version: 7.23.5
 stars: 4.5
-reviews: 1371
+reviews: 1375
 website: https://www.gate.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ updated: 2025-10-03
 version: 6.202518.1
 stars: 4.6
 ratings: 14091
-reviews: 1218
+reviews: 1219
 website: https://perawallet.app
 repository: 
 issue: 

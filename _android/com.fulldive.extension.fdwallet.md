@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-26
 updated: 2023-09-25
 version: 1.7.0
-stars: 4.5
+stars: 4.6
 ratings: 
 reviews: 5
 website: https://fulldive.com

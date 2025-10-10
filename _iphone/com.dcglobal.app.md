@@ -8,10 +8,10 @@ appId: com.dcglobal.app
 appCountry: us
 idd: '1610058833'
 released: 2022-02-26
-updated: 2025-09-04
-version: 7.5.61
-stars: 4.3
-reviews: 15
+updated: 2025-10-02
+version: 7.5.77
+stars: 4.4
+reviews: 16
 website: https://www.deepcoin.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 10000
 appId: co.arculus.wallet.android
 appCountry: 
 released: 2021-10-06
-updated: 2025-10-03
-version: 3.10.0.2
+updated: 2025-10-07
+version: 3.10.0.3
 stars: 4.8
 ratings: 
 reviews: 192

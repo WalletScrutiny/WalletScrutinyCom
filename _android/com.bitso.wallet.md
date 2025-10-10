@@ -1,6 +1,6 @@
 ---
 wsId: bitso
-title: 'Bitso: Buy Bitcoin and Crypto'
+title: 'Bitso: Save and invest easily'
 altTitle: 
 authors:
 - leo

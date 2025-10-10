@@ -8,8 +8,8 @@ appId: com.bisonapp.bison
 appCountry: lv
 idd: '1362518159'
 released: 2020-01-09
-updated: 2025-09-29
-version: 4.20.1
+updated: 2025-10-09
+version: 4.20.2
 stars: 5
 reviews: 2
 website: https://bisonapp.com/
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/bisonapp
 - https://www.instagram.com/bisonapp
 features: 
-developerName: Sowa Labs GmbH
+developerName: Boerse Stuttgart Digital Broker GmbH
 
 ---
 

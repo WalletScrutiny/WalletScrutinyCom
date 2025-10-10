@@ -11,7 +11,7 @@ released: 2018-08-02
 updated: 2025-09-26
 version: 4.66.0
 stars: 4.9
-reviews: 1161
+reviews: 1163
 website: https://www.casa.io
 repository: 
 issue: 

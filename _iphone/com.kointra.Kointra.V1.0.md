@@ -11,7 +11,7 @@ released: 2019-11-15
 updated: 2025-09-29
 version: 3.5.4
 stars: 4.7
-reviews: 30
+reviews: 31
 website: https://kointra.com
 repository: 
 issue: 

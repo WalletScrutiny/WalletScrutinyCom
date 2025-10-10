@@ -8,8 +8,8 @@ users: 5000
 appId: io.icr4shed.wallet
 appCountry: 
 released: 2021-09-10
-updated: 2025-03-09
-version: '7.18'
+updated: 2025-10-09
+version: '7.26'
 stars: 4.1
 ratings: 87
 reviews: 4

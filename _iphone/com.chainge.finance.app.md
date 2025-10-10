@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.chainge.finance.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-10-21
+date: 2025-10-10
 signer: 
 twitter: FinanceChainge
 social:

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.papaya.gekkard.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-11-17
+date: 2025-10-10
 signer: 
 twitter: 
 social:

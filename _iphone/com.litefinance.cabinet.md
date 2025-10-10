@@ -10,8 +10,8 @@ idd: '1661254805'
 released: 2023-01-11
 updated: 2025-09-22
 version: 3.1.2
-stars: 3.9
-reviews: 27
+stars: 4
+reviews: 31
 website: https://www.liteforex.com
 repository: 
 issue: 

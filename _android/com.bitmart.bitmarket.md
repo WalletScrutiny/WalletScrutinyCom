@@ -9,7 +9,7 @@ appId: com.bitmart.bitmarket
 appCountry: 
 released: 2018-05-09
 updated: 2025-09-27
-version: 3.15.0
+version: 3.16.0
 stars: 3.5
 ratings: 41983
 reviews: 3709

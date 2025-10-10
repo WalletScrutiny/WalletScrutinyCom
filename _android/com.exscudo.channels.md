@@ -1,6 +1,6 @@
 ---
 wsId: exscudo
-title: Crypto & Bitcoin Wallet App
+title: 'Fintap: Buy Crypto. BTC, ETH'
 altTitle: 
 authors:
 - kiwilamb

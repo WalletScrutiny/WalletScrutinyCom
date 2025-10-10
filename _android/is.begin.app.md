@@ -8,8 +8,8 @@ users: 1000
 appId: is.begin.app
 appCountry: 
 released: 2022-10-30
-updated: 2025-08-22
-version: 2.2.0
+updated: 2025-10-09
+version: 2.2.1
 stars: 3.6
 ratings: 
 reviews: 3

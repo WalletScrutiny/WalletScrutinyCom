@@ -12,7 +12,7 @@ updated: 2025-08-22
 version: 1.14.1
 stars: 4.4
 ratings: 
-reviews: 10
+reviews: 11
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
 issue: 

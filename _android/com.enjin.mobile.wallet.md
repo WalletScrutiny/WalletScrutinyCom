@@ -13,7 +13,7 @@ updated: 2025-08-25
 version: 3.3.11
 stars: 4.3
 ratings: 12608
-reviews: 1091
+reviews: 1090
 website: https://enjin.io/wallet
 repository: 
 issue: 

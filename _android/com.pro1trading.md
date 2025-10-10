@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.pro1trading.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2025-06-05
+date: 2025-10-10
 signer: 
 twitter: pro1trading
 social: 

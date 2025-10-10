@@ -30,7 +30,7 @@ date: 2025-10-03
 signer: 
 twitter: citadelwallet
 social:
-- https://www.youtube.com/@CitadelWallet 
+- https://www.youtube.com/@CitadelWallet
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-16
 updated: 2025-10-06
 version: '7.57'
-stars: 4.5
+stars: 4.4
 ratings: 2711
-reviews: 1109
+reviews: 1110
 website: https://finabase.io
 repository: 
 issue: 
