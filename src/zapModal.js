@@ -231,7 +231,7 @@ function showZapModal({ onClose, setZapped }) {
 
     const shortBolt11 = `${bolt11.slice(0, 8)}...${bolt11.slice(-8)}`;
     qrDiv.innerHTML = `
-      <p style="margin-bottom: 8px;">Scan to pay zap invoice:</p>
+      <p style="margin-bottom: 8px;">Scan the QR with your Lightning wallet to send the zap:</p>
       <canvas id="zapQRCode"></canvas>
       <p>
         <code id="bolt11-short">${shortBolt11}</code>
@@ -257,21 +257,13 @@ function showZapModal({ onClose, setZapped }) {
       qrDiv.innerHTML += '<p>QRCode lib not loaded</p>';
     }
 
-    document.getElementById('bolt11-copy-btn').onclick = () => copyToClipboard(bolt11);
-  }
+    document.getElementById('bolt11-copy-btn').onclick = (e) => {
+      e.stopPropagation();
 
-  function copyToClipboard(text) {
-    navigator.clipboard.writeText(text).then(() => {
-      const prev = document.getElementById('bolt11-copied');
-      if (prev) prev.remove();
-      const copied = document.createElement('span');
-      copied.id = 'bolt11-copied';
-      copied.textContent = 'Copied!';
-      copied.style.marginLeft = '8px';
-      copied.style.color = 'green';
-      document.getElementById('bolt11-copy-btn').after(copied);
-      setTimeout(() => copied.remove(), 1200);
-    });
+      navigator.clipboard.writeText(bolt11).then(() => {
+        showToast('Lightning invoice copied to clipboard', 'success');
+      });
+    };
   }
 }
 
