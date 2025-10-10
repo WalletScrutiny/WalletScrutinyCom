@@ -326,12 +326,14 @@ window.renderAssetsTable = async function({
     let endorsementEventIDs = [];
 
     sortedItems.forEach((itemsForThisSha256, index) => {
-      // Attachments
-      const fileEventIds = getFileAttachmentIDsForVerificationEvent(itemsForThisSha256.items[0]);
-      attachmentEventIDs.push(...fileEventIds);
-
-      // Endorsements
       itemsForThisSha256.items.forEach(item => {
+        // Attachments
+        if (item.kind === verificationKind || item.kind === verificationDraftKind) {
+          const fileEventIds = getFileAttachmentIDsForVerificationEvent(item);
+          attachmentEventIDs.push(...fileEventIds);
+        }
+
+        // Endorsements
         if (item.kind === verificationKind) {
           endorsementEventIDs.push(item.id);
         }
