@@ -54,7 +54,7 @@ Here's where it gets complicated. Initial marketing indicated their desire to do
 
 But apart from that Ryder One makes use of their **TapSafe Recovery Protocol** herein described:
 
-> TapSafe is Ryder’s social recovery protocol integrated within the Ryder App. It enables Users to generate multiple encrypted backup shares of their recovery secret using secure secret-sharing methods. These shares can be stored in different locations, such as:
+> TapSafe is Ryder’s social recovery protocol integrated within the Ryder App. It enables users to generate multiple encrypted backup shares of their recovery secret using secure secret-sharing methods. These shares can be stored in different locations, such as:
 >
 > - A Recovery Tag (included with the device);
 > - The User’s mobile device (via the Ryder App); and
@@ -68,7 +68,7 @@ Does Shamir-sharing on multiple other devices and social-sharing = "sharing" to 
 
 [FAQ](https://ryder.id/products/ryder-one)
 
-> All transaction approvals and cryptographic signing are conducted directly on the device, requiring explicit User confirmation via the Secure buttons. The Secure Button is physically connected to the device’s Secure Element chip and is isolated from the general-purpose hardware, ensuring that sensitive keys never leave the device and that transaction authorisation cannot be spoofed or compromised via the touch display.  This design ensures Users retain ultimate control over transaction authorisation. 
+> All transaction approvals and cryptographic signing are conducted directly on the device, requiring explicit User confirmation via the Secure buttons. The Secure Button is physically connected to the device’s Secure Element chip and is isolated from the general-purpose hardware, ensuring that sensitive keys never leave the device and that transaction authorisation cannot be spoofed or compromised via the touch display. This design ensures Users retain ultimate control over transaction authorisation. 
 
 **4. Does its interface have a physical button and a screen?**
 
