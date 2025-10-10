@@ -37,7 +37,7 @@ features:
 
 ## Update 2025-10-03
 
-The [documentation](https://docs.citadelwallet.io/wallet-spec/wallet-comparisons) **does not list BTC** as one of the supported assets. (See product description below). We are basing our inference based on this omission. Searches for "BTC" + "Citadel Hardware Wallet" show a Citadel device for which we still don't have specifications for: the Citadel Suiball. 
+The [documentation](https://docs.citadelwallet.io/wallet-spec/wallet-comparisons) **does not list BTC** as one of the supported assets (see product description below). We are basing our inference based on this omission. Searches for "BTC" + "Citadel Hardware Wallet" show a Citadel device for which we still don't have specifications for: the Citadel Suiball. 
 
 We messaged them publicly on [X.com](https://x.com/dannybuntu/status/1973994088438362126) to verify our claims.
 
