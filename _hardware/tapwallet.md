@@ -21,9 +21,9 @@ issue:
 icon: tapwallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 appHashes: 
-date: 2024-10-23
+date: 2025-10-03
 signer: 
 twitter: 
 social: 
@@ -31,7 +31,15 @@ features:
 
 ---
 
+📝 **Note:** This device's website and other assets has been rebranded. The website now points to this app: {% include walletLink.html wallet='android/com.humbl.wallet.app' verdict='true' %}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iCVg3Rrf2WM?si=Nqb5-GwHSn7-nPTe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Updated Review 2025-10-05
+
+We decided to review this device after one full year. The website seems to have changed its branding. Last year it looked like [this](https://web.archive.org/web/20240524201818/https://tapwallet.com/). Today, it looks completely different and with no mention of a hardware wallet. The logo has changed. Its corporate identity has also changed, albeit both Tap Labs, and Tap Inc. do not seem to appear with a cursory search. The new social media account shows an Android and an iOS app. 
+
+At this point, we are marking this device as **vaporware**.
 
 ## Updated Review 2024-10-23
 
@@ -71,3 +79,5 @@ It has multi-currency support.
 ## Analysis 
 
 The TAPWallet will be available late 2022. 
+
+

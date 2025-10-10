@@ -21,9 +21,9 @@ issue:
 icon: xellox.zifer.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 appHashes: 
-date: 2024-10-23
+date: 2025-10-06
 signer: 
 twitter: xelloxWallet
 social:
@@ -31,6 +31,10 @@ social:
 features: 
 
 ---
+
+## Update 2025-10-06
+
+They haven't responded to our x.com post. Their website is still online and their social media accounts have posted as recently as Sept. 17, 2025 - just not about the Zifer. At this juncture, we will now mark this device as **vaporware**.
 
 ## Update 2024-10-23
 
@@ -42,7 +46,7 @@ The store page to the product known as the {{ page.title }} currently leads to a
 
 We are seeking to clarify whether the Clavis is a version of Zifer or a completely new product via [x.com.](https://x.com/dannybuntu/status/1848980249079648718)
 
-We will retain the verdict of **unreleased**.
+We will retain the verdict of unreleased.
 
 ## Previous Review 2022-11-23
 

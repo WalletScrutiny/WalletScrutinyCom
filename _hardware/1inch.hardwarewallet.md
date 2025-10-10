@@ -15,7 +15,7 @@ dimensions:
 weight: 70
 provider: Alexander Devyatkin, Mikhail Svetkin, Igor Zarochintsev, and others.
 providerWebsite: 
-website: https://hw.1inch.io
+website: https://1inch.com/
 shop: 
 country: 
 price: 
@@ -24,17 +24,21 @@ issue:
 icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: vapor
 appHashes: 
-date: 2024-10-18
+date: 2025-10-03
 signer: 
-twitter: hrdwlt
+twitter: 
 social:
 - https://medium.com/@hrdwlt
 - https://www.linkedin.com/company/hwlt
 features: 
 
 ---
+
+## Updated Review 2025-10-03
+
+The listed x.com account no longer exists and the website now points to 1inch.com. The project announced a hardware wallet in January 2023 with claimed specifications (air-gapped QR/NFC device, 2.7″ E-Ink display, multi-seed support). However, as of October 3, 2025, there is no verifiable evidence that the device has shipped to end users. No unboxing reports, teardown reviews, or reproducible firmware builds are available. In the absence of confirmed distribution, the device will now be classified as **vaporware**.
 
 ## Updated Review 2024-10-18
 

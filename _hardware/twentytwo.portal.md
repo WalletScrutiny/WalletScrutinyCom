@@ -24,21 +24,27 @@ issue:
 icon: twentytwo.portal.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: sourceavailable
 appHashes: 
-date: 2024-10-23
+date: 2025-10-03
 signer: 
 twitter: TwentyTwoHW
-social: 
+social:
+- nostr:npub1n3h6vcu0vj4jw70m8p457vk3uq44zz0jc5r6d09chtks6xxyu0gq9s2j0t
+- https://t.me/TwentyTwoHW
 features: 
-
+- nfc
+- monochrome-display
+- tamper-evident packaging
+- single physical button
+- credit card form factor
+- bitcoin-only
+- supports BIP39
 ---
 
 ## Updates 2024-10-23
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iYFHqX9jo7Y?si=gJIEQ_Wd4Fi_9ZyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-**The device is still in pre-order**
 
 ## Device Description from the Provider 2024-07-30
 

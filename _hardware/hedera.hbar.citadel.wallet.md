@@ -16,25 +16,32 @@ weight:
 provider: Citadel Wallet LLC
 providerWebsite: 
 website: https://www.citadelwallet.io/
-shop: 
+shop: https://www.citadelwallet.io/product-page/citadel-hardware-wallet
 country: US
-price: 
+price: 159 USD
 repository: 
 issue: 
 icon: hedera.hbar.citadel.wallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: nobtc
 appHashes: 
-date: 2024-10-21
+date: 2025-10-03
 signer: 
 twitter: citadelwallet
-social: 
+social:
+- https://www.youtube.com/@CitadelWallet 
 features: 
 
 ---
 
-**Update 2024-10-21**
+## Update 2025-10-03
+
+The [documentation](https://docs.citadelwallet.io/wallet-spec/wallet-comparisons) **does not list BTC** as one of the supported assets (see product description below). We are basing our inference based on this omission. Searches for "BTC" + "Citadel Hardware Wallet" show a Citadel device for which we still don't have specifications for: the Citadel Suiball. 
+
+We messaged them publicly on [X.com](https://x.com/dannybuntu/status/1973994088438362126) to verify our claims.
+
+## Update 2024-10-21
 
 There are posts on x.com that seems to be creating anticipation for the device's release.
 
@@ -69,4 +76,4 @@ However, the device is not yet available for purchase. We will continue marking 
 
 ## Analysis 
 
-The product is **not yet available** for the general market.
+The device **does not support BTC.**

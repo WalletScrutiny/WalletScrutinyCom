@@ -25,9 +25,9 @@ issue:
 icon: hito.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: wip
 appHashes: 
-date: 2024-10-21
+date: 2025-10-03
 signer: 
 twitter: hito_xyz
 social:
@@ -36,6 +36,16 @@ social:
 features: 
 
 ---
+
+## Update 2025-10-03
+
+The device has been sold out according to their shop's [order page.](https://shop.hito.xyz/products/hold) 
+
+On [X.com](https://x.com/mishabunte/status/1925046922953556059), the founder/CEO mentions difficulties with shipping and this resulted in some disgruntled responses and allegations.
+
+However, since this company has a paper trail and reputation on Tracxn, Pitchbook and Crunchbase, we are giving them the benefit of the doubt. 
+
+We will [await the response](https://x.com/dannybuntu/status/1974022786831319110) from the founder.
 
 ## Update 2024-10-21
 
