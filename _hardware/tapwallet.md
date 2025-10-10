@@ -37,7 +37,7 @@ features:
 
 ## Updated Review 2025-10-05
 
-We decided to review this device after one full year. The website seems to have changed its branding. Last year it looked like [this.](https://web.archive.org/web/20240524201818/https://tapwallet.com/). Today, it looks completely different and with no mention of a hardware wallet. The logo has changed. Its corporate identity has also changed, albeit both Tap Labs, and Tap Inc. do not seem to appear with a cursory search. The new social media account shows an Android and an iOS app. 
+We decided to review this device after one full year. The website seems to have changed its branding. Last year it looked like [this](https://web.archive.org/web/20240524201818/https://tapwallet.com/). Today, it looks completely different and with no mention of a hardware wallet. The logo has changed. Its corporate identity has also changed, albeit both Tap Labs, and Tap Inc. do not seem to appear with a cursory search. The new social media account shows an Android and an iOS app. 
 
 At this point, we are marking this device as **vaporware**.
 
