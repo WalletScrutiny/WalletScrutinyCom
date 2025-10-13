@@ -331,12 +331,12 @@ async function fetchTrezorVersion(firmwareCode, token) {
           if (version === 'unknown' && stderr.trim()) {
             debugLog(`Trezor extractor for ${trezorModel} produced 'unknown' version. Stderr:\n${stderr.trim()}`, args);
           }
-          
-          // Add 'v' prefix for LEGACY model if missing
-          if (trezorModel === 'LEGACY' && version !== 'unknown' && !version.startsWith('v')) {
-            version = `v${version}`;
+
+          // Remove 'v' prefix for LEGACY model if present (frontmatter should be without 'v')
+          if (trezorModel === 'LEGACY' && version !== 'unknown' && version.startsWith('v')) {
+            version = version.substring(1);
           }
-          
+
           resolve({ version, date });
         } catch (parseError) {
           reject(new Error(`Invalid trezor_fextractor.mjs output format: ${stdout}`));

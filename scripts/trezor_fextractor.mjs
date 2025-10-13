@@ -251,11 +251,35 @@ class TrezorFirmwareExtractor {
 
     try {
       this.log('Fetching tags for LEGACY model (trezor/trezor-firmware)...');
-      const tagsUrl = `https://api.github.com/repos/${repoPath}/tags?per_page=100`;
-      const tagsResponse = await this.makeRequest(tagsUrl);
-      const allTags = tagsResponse.json(); // Correctly use .json()
+      // Fetch multiple pages to ensure we get the legacy tags
+      // (legacy tags may not be on the first page due to other component tags)
+      let allTags = [];
+      let page = 1;
+      const maxPages = 5; // Fetch up to 5 pages (500 tags) to find legacy tags
 
-      if (!allTags || !Array.isArray(allTags) || allTags.length === 0) {
+      while (page <= maxPages) {
+        const tagsUrl = `https://api.github.com/repos/${repoPath}/tags?per_page=100&page=${page}`;
+        const tagsResponse = await this.makeRequest(tagsUrl);
+        const pageTags = tagsResponse.json();
+
+        if (!pageTags || !Array.isArray(pageTags) || pageTags.length === 0) {
+          break; // No more tags
+        }
+
+        allTags = allTags.concat(pageTags);
+        this.log(`Fetched page ${page}: ${pageTags.length} tags (total: ${allTags.length})`);
+
+        // If we found legacy tags, we can stop after this page
+        const hasLegacyTags = pageTags.some(tag => tag.name && tag.name.startsWith('legacy/'));
+        if (hasLegacyTags) {
+          this.log(`Found legacy tags on page ${page}`);
+          break;
+        }
+
+        page++;
+      }
+
+      if (!allTags || allTags.length === 0) {
         this.log('No tags found or error fetching tags for LEGACY model.');
         return null;
       }
@@ -328,7 +352,7 @@ class TrezorFirmwareExtractor {
       }
 
       const highestLegacyTag = legacyTags[0];
-      latestVersion = `v${highestLegacyTag.version}`; // Ensure 'v' prefix
+      latestVersion = highestLegacyTag.version; // Version without 'v' prefix (e.g., "1.13.1")
       let commitShaForDate = highestLegacyTag.commitSha;
 
       this.log(`Highest legacy tag found: ${highestLegacyTag.name} (version ${latestVersion})`);
