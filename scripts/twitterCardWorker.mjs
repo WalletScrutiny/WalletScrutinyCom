@@ -186,7 +186,7 @@ async function drawOnCanvas(data, iconImage) {
   ctx.font = 'bold 18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
   const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20;
   
-  ctx.fillStyle = '#f7931a'; ctx.beginPath(); // change this to something friendlier #f7931a is bitcoin orange
+  ctx.fillStyle = '#4FB39D'; ctx.beginPath(); // change this to something friendlier #f7931a is bitcoin orange, teal #4FB39D, #F5E4C3 cream
   ctx.moveTo(ctaBadgeX + 13, ctaBadgeY); ctx.lineTo(ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26, ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY + 26);
