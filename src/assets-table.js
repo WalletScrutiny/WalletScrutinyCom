@@ -151,7 +151,10 @@ window.renderAssetsTable = async function({
       <div style="background-color: #fefefe; margin: 5% auto; padding: 20px; border: 1px solid #888; width: 95%; max-width: 1200px; text-align: center; border-radius: 8px; color: black; max-height: 80vh; overflow: auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
           <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
-          <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+          <div style="display: flex; align-items: center; gap: 15px;">
+            <span id="previewCopyButton" style="color: #555; font-size: 24px; cursor: pointer;" title="Copy to clipboard">📋</span>
+            <span id="previewCloseButton" style="color: #aaa; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+          </div>
         </div>
         <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
       </div>
@@ -1582,25 +1585,47 @@ window.handleAttachmentPreview = function(attachmentId) {
   const previewContent = document.getElementById('previewContent');
   const previewFileName = document.getElementById('previewFileName');
   const closeButton = document.getElementById('previewCloseButton');
-  
+  const copyButton = document.getElementById('previewCopyButton');
+
   // Set the filename
   previewFileName.textContent = attachmentData.filename;
-  
+
   // Clear previous content
   previewContent.innerHTML = '';
-  
+
   try {
     // Handle text content - simplified for all files
     const textContent = attachmentData.content;
-    
+
     // Display content in a preformatted element
     previewContent.innerHTML = `<pre>${DOMPurify.sanitize(textContent)}</pre>`;
-    
+
     // Set modal close action
     closeButton.onclick = function() {
       modal.style.display = 'none';
     };
-    
+
+    // Set copy button action
+    copyButton.onclick = function() {
+      navigator.clipboard.writeText(attachmentData.content).then(() => {
+        // Change icon to checkmark temporarily
+        const originalIcon = copyButton.textContent;
+        copyButton.textContent = '✓';
+        copyButton.style.color = '#4CAF50';
+
+        showToast('Copied to clipboard!', 'success');
+
+        // Reset icon after 1.5 seconds
+        setTimeout(() => {
+          copyButton.textContent = originalIcon;
+          copyButton.style.color = '#555';
+        }, 1500);
+      }).catch(err => {
+        console.error('Failed to copy text: ', err);
+        showToast('Failed to copy to clipboard', 'error');
+      });
+    };
+
     // Close modal when clicking outside
     modal.onclick = function(event) {
       if (event.target === modal) {
