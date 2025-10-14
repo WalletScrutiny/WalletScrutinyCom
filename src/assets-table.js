@@ -152,8 +152,8 @@ window.renderAssetsTable = async function({
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
           <h3 id="previewFileName" style="margin: 0;">File Preview</h3>
           <div style="display: flex; align-items: center; gap: 15px;">
-            <span id="previewCopyButton" style="color: #555; font-size: 24px; cursor: pointer;" title="Copy to clipboard">📋</span>
-            <span id="previewCloseButton" style="color: #aaa; font-size: 36px; font-weight: bold; cursor: pointer;">&times;</span>
+            <span id="previewCopyButton" style="color: #555; font-size: 22px; cursor: pointer;" title="Copy to clipboard">📋</span>
+            <span id="previewCloseButton" style="color: #aaa; font-size: 46px; font-weight: bold; cursor: pointer;">&times;</span>
           </div>
         </div>
         <div id="previewContent" style="text-align: left; overflow: auto; max-height: calc(80vh - 100px);"></div>
