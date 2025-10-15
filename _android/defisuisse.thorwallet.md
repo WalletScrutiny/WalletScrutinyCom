@@ -29,7 +29,7 @@ social:
 - https://discord.com/invite/TArAZHDjCr
 - https://thorwallet.medium.com
 redirect_from: 
-developerName: DeFi Suisse AG
+developerName: EMM Ventures AG
 features: 
 
 ---

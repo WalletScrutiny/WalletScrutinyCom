@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-06-08
 discontinued: 
-updated: 2024-07-09
-version: 0.3.1
+updated: 2025-02-12
+version: fw-v0.3.4
 binaries: 
 dimensions:
 - 140
@@ -32,7 +32,7 @@ twitter: TwentyTwoHW
 social:
 - nostr:npub1n3h6vcu0vj4jw70m8p457vk3uq44zz0jc5r6d09chtks6xxyu0gq9s2j0t
 - https://t.me/TwentyTwoHW
-features: 
+features:
 - nfc
 - monochrome-display
 - tamper-evident packaging
@@ -40,6 +40,7 @@ features:
 - credit card form factor
 - bitcoin-only
 - supports BIP39
+
 ---
 
 ## Updates 2024-10-23

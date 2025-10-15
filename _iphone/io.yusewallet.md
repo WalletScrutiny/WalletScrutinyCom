@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.yusewallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-09-04
+date: 2025-10-15
 signer: 
 twitter: YuseToken
 social:

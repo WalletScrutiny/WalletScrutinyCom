@@ -4,7 +4,7 @@ title: B2Z Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.interakt.b2z
 appCountry: 
 released: 2022-04-12

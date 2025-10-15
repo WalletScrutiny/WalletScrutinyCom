@@ -11,7 +11,7 @@ released: 2020-05-28
 updated: 2025-10-06
 version: 2.78.0
 stars: 4.7
-reviews: 8364
+reviews: 8370
 website: https://bitvavo.com
 repository: 
 issue: 

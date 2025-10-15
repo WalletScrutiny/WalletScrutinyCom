@@ -1,13 +1,3 @@
-2025-09-29:
-- _android/app.wallet.crypto
-- _android/com.finance.lovelyindian
-- _iphone/app.simple.com
-- _iphone/com.monnos
-- _iphone/com.nayuta.core2
-- _iphone/com.skyewallet.app
-- _iphone/confirmo.app.pos
-- _iphone/io.yusewallet
-- _iphone/mn.telexa.app.www
 2025-10-02:
 - _android/com.KeepserGroup.Keepser
 2025-10-07:
@@ -21,3 +11,7 @@
 - _iphone/com.mobillium.btcturk
 - _iphone/com.suffescom.jeangilles
 - _iphone/com.suniwallet.app
+2025-10-15:
+- _android/io.sparkwallet
+- _iphone/com.coinmena.coinmenaapp
+- _iphone/com.credits.CryptoWallet

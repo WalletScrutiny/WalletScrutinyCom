@@ -11,7 +11,7 @@ released: 2021-05-11
 updated: 2025-10-01
 version: 3.2.4
 stars: 4.5
-reviews: 5240
+reviews: 5257
 website: https://coinme.com/
 repository: 
 issue: 

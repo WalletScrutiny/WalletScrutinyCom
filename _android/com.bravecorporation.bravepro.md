@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bravecorporation.bravepro.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-10-16
+date: 2025-10-15
 signer: 
 twitter: 
 social: 

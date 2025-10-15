@@ -8,8 +8,8 @@ users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
 appCountry: gb
 released: 2018-05-18
-updated: 2024-10-08
-version: 5.0.52
+updated: 2025-10-09
+version: 5.1.45
 stars: 4.2
 ratings: 27
 reviews: 2
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-10-07
+date: 2025-10-15
 signer: 
 twitter: LMAX
 social:

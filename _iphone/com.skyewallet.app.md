@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.skyewallet.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-10-15
 signer: 
 twitter: skyewallet
 social: 

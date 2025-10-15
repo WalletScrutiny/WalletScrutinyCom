@@ -8,8 +8,8 @@ users: 50000
 appId: com.switchere.switchere
 appCountry: 
 released: 2021-11-15
-updated: 2024-08-07
-version: 1.1.24
+updated: 2025-10-13
+version: 1.1.26
 stars: 3.5
 ratings: 
 reviews: 45
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-08-04
+date: 2025-10-15
 signer: 
 twitter: Switchere_com
 social:

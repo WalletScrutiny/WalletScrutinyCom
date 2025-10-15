@@ -11,7 +11,7 @@ released: 2021-04-12
 updated: 2025-09-19
 version: 6.0.3
 stars: 4.2
-reviews: 77
+reviews: 81
 website: https://www.sarwa.co/blog
 repository: 
 issue: 

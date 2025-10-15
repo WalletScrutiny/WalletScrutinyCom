@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: Solana Wallet - KEYRING PRO
+title: Bitcoin Wallet - KEYRING PRO
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: co.bacoor.keyring
 appCountry: 
 idd: '1546824976'
 released: 2021-01-25
-updated: 2025-08-13
-version: 5.1.0
+updated: 2025-10-15
+version: 5.2.0
 stars: 3.9
 reviews: 11
 website: 

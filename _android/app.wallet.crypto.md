@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.wallet.crypto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-01-06
+date: 2025-10-15
 signer: 
 twitter: 
 social: 

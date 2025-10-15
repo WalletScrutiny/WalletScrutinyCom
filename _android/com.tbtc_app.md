@@ -12,7 +12,7 @@ updated: 2025-08-26
 version: 0.1.37
 stars: 3.9
 ratings: 
-reviews: 20
+reviews: 21
 website: https://thebitcoincompany.com
 repository: 
 issue: 

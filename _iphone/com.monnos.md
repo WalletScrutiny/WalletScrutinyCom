@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.monnos.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-10-01
+date: 2025-10-15
 signer: 
 twitter: monnosGlobal
 social:

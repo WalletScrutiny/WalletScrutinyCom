@@ -8,10 +8,10 @@ appId: com.bitoshi
 appCountry: us
 idd: '1627285591'
 released: 2022-10-17
-updated: 2025-04-16
-version: 1.4.2
+updated: 2025-10-13
+version: 1.4.3
 stars: 4.8
-reviews: 1597
+reviews: 1609
 website: 
 repository: 
 issue: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2024-09-16
 updated: 2025-08-22
 version: 1.14.1
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 11
+reviews: 12
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
 issue: 

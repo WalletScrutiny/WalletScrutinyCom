@@ -10,9 +10,9 @@ appCountry: GI
 released: 2021-09-28
 updated: 2025-09-11
 version: 1.36.0
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 574
+reviews: 575
 website: https://bitso.com/alpha/landing
 repository: 
 issue: 

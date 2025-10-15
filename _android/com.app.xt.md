@@ -12,7 +12,7 @@ updated: 2025-10-07
 version: 5.9.0
 stars: 4.4
 ratings: 
-reviews: 259
+reviews: 260
 website: http://www.xt.com
 repository: 
 issue: 

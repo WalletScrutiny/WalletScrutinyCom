@@ -11,7 +11,7 @@ released: 2018-03-22
 updated: 2025-10-01
 version: 1.64.0
 stars: 4.5
-reviews: 2006
+reviews: 2008
 website: https://www.coinomi.com/en/about/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Paybis Crypto Wallet: Buy BTC'
+title: Crypto & Bitcoin Wallet Paybis
 altTitle: 
 authors:
 - danny

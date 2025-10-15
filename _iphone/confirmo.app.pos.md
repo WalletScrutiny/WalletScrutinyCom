@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: confirmo.app.pos.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-08-09
+date: 2025-10-15
 signer: 
 twitter: CryptoConfirmo
 social:

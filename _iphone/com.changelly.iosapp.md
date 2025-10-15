@@ -11,7 +11,7 @@ released: 2019-10-04
 updated: 2025-09-12
 version: 2.65.1
 stars: 4.6
-reviews: 5778
+reviews: 5797
 website: https://changelly.com
 repository: 
 issue: 

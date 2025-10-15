@@ -3,7 +3,7 @@ wsId:
 title: Intebix
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: kz.intebix
 appCountry: 
 released: 2023-01-09
@@ -18,7 +18,7 @@ issue:
 icon: kz.intebix.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 

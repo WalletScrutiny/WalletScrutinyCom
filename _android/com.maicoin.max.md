@@ -9,7 +9,7 @@ appId: com.maicoin.max
 appCountry: us
 released: 2018-07-01
 updated: 2025-10-09
-version: 15.0.0
+version: 15.3.3
 stars: 3.7
 ratings: 1049
 reviews: 11

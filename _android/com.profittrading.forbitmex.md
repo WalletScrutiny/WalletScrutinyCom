@@ -8,8 +8,8 @@ users: 50000
 appId: com.profittrading.forbitmex
 appCountry: 
 released: 2019-06-11
-updated: 2025-08-23
-version: 7.3.1
+updated: 2025-10-13
+version: 7.3.2
 stars: 4.3
 ratings: 348
 reviews: 8

@@ -10,7 +10,7 @@ appCountry:
 released: 2023-09-06
 updated: 2025-09-19
 version: 1.7.3
-stars: 4.2
+stars: 4.3
 ratings: 
 reviews: 54
 website: https://ironwallet.io/

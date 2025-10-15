@@ -17,10 +17,10 @@ repository: https://github.com/nayutaco/NayutaWalletApp/tree/ios-v1.2.0
 issue: 
 icon: com.nayuta.core2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: sourceavailable
 appHashes: []
-date: 2024-10-07
+date: 2025-10-15
 signer: 
 twitter: 
 social: 

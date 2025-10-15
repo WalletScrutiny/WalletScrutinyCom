@@ -10,9 +10,9 @@ appCountry: in
 released: 2021-05-17
 updated: 2025-10-06
 version: 3.0.82
-stars: 3.6
+stars: 3.7
 ratings: 7090
-reviews: 3120
+reviews: 3125
 website: https://koinbx.com/
 repository: 
 issue: 

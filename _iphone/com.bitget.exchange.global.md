@@ -11,7 +11,7 @@ released: 2018-11-29
 updated: 2025-10-02
 version: 2.67.1
 stars: 4.5
-reviews: 2025
+reviews: 2029
 website: https://www.bitget.com/en
 repository: 
 issue: 

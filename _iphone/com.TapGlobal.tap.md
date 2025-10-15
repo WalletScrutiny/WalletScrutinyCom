@@ -8,10 +8,10 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: '1492263993'
 released: 2019-12-20
-updated: 2025-10-07
-version: 3.6.3
+updated: 2025-10-14
+version: 3.6.4
 stars: 4.5
-reviews: 1875
+reviews: 1877
 website: https://www.withtap.com
 repository: 
 issue: 
