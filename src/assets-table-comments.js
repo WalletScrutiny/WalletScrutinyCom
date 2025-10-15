@@ -4,6 +4,7 @@ let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
 let commentAuthorPubkeys = [];
+let messageCounter = 0;
 
 const MAX_COMMENTS_TO_SHOW = 3;
 
@@ -175,7 +176,7 @@ async function handleCommentSubmit(verificationKey, textarea, button) {
   button.textContent = 'Posting...';
 
   try {
-    await createNostrCommentToVerification(verificationKey, comment, commentAuthorPubkeys);
+    await createNostrCommentToVerification(verificationKey, comment, commentAuthorPubkeys, messageCounter);
 
     textarea.value = '';
 
@@ -209,6 +210,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
   let profilePubkeys = [];
 
   for (const comment of commentsForThisVerification) {
+    messageCounter++;
     profilePubkeys.push(comment.pubkey);
   }
 
