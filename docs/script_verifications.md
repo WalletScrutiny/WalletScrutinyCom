@@ -6,7 +6,7 @@ We need to agree on a set of standards for the scripts used to reproduce verific
 2. We need to be able to run the scripts automatically on the build server when a new version is released.
 
 ## Verifications need to be reproducible themselves
-Scripts need to be able to be ran in our users' computers so they can very the verifications. The users would think something like this: "Ah, new version of Zeus got released, let's see if WalletScrutiny got it. Yes, they got it! I'll try to repeat the verification of this guy to see if I can get the same result, by downloading his script and running it on my own computer".
+Scripts need to be able to be ran in our users' computers so they can verify the verifications. The users would think something like this: "Ah, new version of Zeus got released, let's see if WalletScrutiny got it. Yes, they got it! I'll try to repeat the verification of this guy to see if I can get the same result, by downloading his script and running it on my own computer".
 
 While it's impossible to make a script that works on all the computers in the world, we can increase the odds by following these some rules:
 
