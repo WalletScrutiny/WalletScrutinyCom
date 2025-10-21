@@ -26,6 +26,7 @@ import {
 } from '../../src/nostr-constants.mjs';
 
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
+import { refreshApps } from './refresh_apps.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -140,11 +141,15 @@ function cleanupNdkConnections() {
 /**
  * Main function to process reproducible verifications
  */
-async function processReproducibleVerifications() {
-  console.log('=== Build Server App - Fetching verification scripts ===');
+async function processReproducibleVerifications(githubToken) {
+  console.log('=== Build Server App ===');
   console.log(`Starting process: ${new Date().toISOString()}\n`);
 
   try {
+    // First, refresh desktop and hardware apps to get latest versions
+    const refreshResults = await refreshApps(githubToken);
+    console.log(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)\n`);
+
     await connectToNostr();
     console.log('');
 
@@ -168,7 +173,11 @@ async function processReproducibleVerifications() {
           continue;
         }
 
-        if (getFirstTagValue(verification, 'status') === 'reproducible' && getFirstTagValue(verification, 'platform') !== 'windows') {
+        if (
+          getFirstTagValue(verification, 'status') === 'reproducible' &&
+          getFirstTagValue(verification, 'platform') !== 'windows' &&
+          ['hardware', 'desktop', 'linux', 'windows', 'macos'].includes(getFirstTagValue(verification, 'platform'))
+        ) {
           reproducibleVerifications.push(verification);
         }
       }
@@ -220,10 +229,33 @@ async function processReproducibleVerifications() {
         return 0;
       });
 
-      // Take only the first (highest) version
+      // Take only the first (highest) verification for the appId
       const highestVersion = verifications[0];
+      
+      let platform = getFirstTagValue(highestVersion.verification, 'platform');
+      let legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+
+      let walletInfo = null;
+      if (legacyPlatform === 'desktop' && refreshResults.desktop[appId]) {
+        walletInfo = refreshResults.desktop[appId];
+        // console.log(`Found wallet in desktop refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
+      } else if (legacyPlatform === 'hardware' && refreshResults.hardware[appId]) {
+        walletInfo = refreshResults.hardware[appId];
+        // console.log(`Found wallet in hardware refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
+      } else {
+        console.log(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
+      }
+
+      console.log('------- walletInfo: ', walletInfo.latestVersion);
       console.log(`${appId}: version ${highestVersion.version}`);
-      await processVerification(highestVersion.verification);
+
+      if (walletInfo.latestVersion > highestVersion.version) {
+        console.log(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} > ${highestVersion.version}`);
+        await processVerification(highestVersion.verification);
+      } else {
+        console.log(`Wallet ${appId} has an older version: ${walletInfo.latestVersion} <= ${highestVersion.version}. No need to do anything.`);
+        continue;
+      }
     }
 
     console.log('\n=== Process completed ===');
@@ -296,8 +328,18 @@ async function processVerification(verification) {
   }
 }
 
+// Get GitHub token from command line arguments or environment
+const githubToken = process.argv[2] || process.env.GITHUB_TOKEN;
+
+if (!githubToken) {
+  console.error('Error: GitHub token is required');
+  console.error('Usage: node index.mjs <github_token>');
+  console.error('Or set GITHUB_TOKEN environment variable');
+  process.exit(1);
+}
+
 try {
-  await processReproducibleVerifications();
+  await processReproducibleVerifications(githubToken);
   process.exit(0);
 } catch (error) {
   console.error('Fatal error:', error);

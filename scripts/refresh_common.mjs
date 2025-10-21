@@ -296,8 +296,7 @@ export async function processFileCommon(fileName, config) {
       // Get version using the provided fetcher function
       const release = await versionFetcher(fileName, repoUrl, token);
 
-      console.log(`  Current: ${frontmatter.version || 'unknown'}`);
-      console.log(`  Latest: ${release.version}`);
+      console.log(` appId: ${frontmatter.appId}  Current: ${frontmatter.version || 'unknown'}  Latest: ${release.version}`);
 
       // Check for version/date downgrade (anti-regression protection)
       const currentUpdated = frontmatter.updated;
