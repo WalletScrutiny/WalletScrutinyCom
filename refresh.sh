@@ -115,6 +115,10 @@ if ! node ./scripts/nostr/backupNostrVerificationEvents.mjs; then
   exit 1
 fi
 
+# Auto-verification queue 
+echo " * Detecting apps needing verification..."
+node ./scripts/detectNewVersions.mjs || echo "⚠️ Version detection failed"
+
 echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
