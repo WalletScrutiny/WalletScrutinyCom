@@ -5,7 +5,6 @@
  * Updates version information for hardware wallet markdown files
  */
 
-import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
 import { fileURLToPath } from 'url';
