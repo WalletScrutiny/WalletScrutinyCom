@@ -1410,5 +1410,6 @@ export {
   sendPrivateMessageToVerifier,
   getEndorsementsFromVerificationEventIds,
   createZap,
-  subscribeToZapReceipts
+  subscribeToZapReceipts,
+  cleanupNdkConnections
 };
