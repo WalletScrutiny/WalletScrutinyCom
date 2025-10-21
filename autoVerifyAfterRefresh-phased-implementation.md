@@ -47,59 +47,9 @@ This document outlines a **phased, incremental approach** to implementing automa
 ┌─────────────────────────────────┐
 │ Phase 2: Queue Processing       │
 │ - Read queue (separate cron)    │
+│ - Download scripts from Nostr   │
 │ - Run ONE verification at a time│
-│### 4. **Write Script to Temporary File and Execute**
-
-```javascript
-async function runVerification(appId, version, platform) {
-  // Download latest script from Nostr
-  const script = await getLatestVerificationScript(appId, platform);
-  
-  if (!script) {
-    throw new Error(`No previous verification found for ${appId}`);
-  }
-  
-  // Write to temporary file
-  const tempScriptPath = `/tmp/verify_${appId}_${Date.now()}.sh`;
-  fs.writeFileSync(tempScriptPath, script.content);
-  fs.chmodSync(tempScriptPath, 0o755);  // Make executable
-  
-  console.log(`Using script v${script.version} from Nostr event ${script.eventId}`);
-  
-  // Run it
-  const result = await execWithTimeout(`${tempScriptPath} ${version}`, {
-    timeout: 14400000  // 4 hours
-  });
-  
-  // Cleanup
-  fs.unlinkSync(tempScriptPath);
-  
-  return result;
-}
-```
-
-### 5. **Capture Results in Structured Format**
-
-```javascript
-async function captureResults(appId, version, platform, result) {
-  // Capture structured output
-  const output = {
-    appId,
-    version,
-    platform,
-    status: result.exitCode === 0 ? 'success' : 'failure',
-    exitCode: result.exitCode,
-    stdout: result.stdout,
-    stderr: result.stderr
-  };
-  
-  // Write to file or database
-  // ...
-  
-  return output;
-}
-```
-
+│ - Capture structured output     │
 └──────┬──────────────────────────┘
        │
        ↓
