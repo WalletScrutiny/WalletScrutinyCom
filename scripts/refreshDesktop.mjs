@@ -5,7 +5,6 @@
  * Updates version information for desktop wallet markdown files
  */
 
-import fs from 'fs';
 import path from 'path';
 import minimist from 'minimist';
 import {
@@ -15,7 +14,6 @@ import {
   generateReport,
   getMarkdownFiles,
   sleep,
-  normalizeVersion,
   processFileCommon
 } from './refresh_common.mjs';
 import { 
