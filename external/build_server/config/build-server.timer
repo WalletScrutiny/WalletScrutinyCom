@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Build Server App every hour
+Requires=build-server.service
+
+[Timer]
+OnCalendar=hourly
+Persistent=true
+
+[Install]
+WantedBy=timers.target

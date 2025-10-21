@@ -1,0 +1,14 @@
+[Unit]
+Description=Build Server App
+After=network.target
+
+[Service]
+Type=oneshot
+User=your-user
+WorkingDirectory=/full/path/to/walletScrutinyCom/external/build_server
+ExecStart=/usr/bin/node index.mjs
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
