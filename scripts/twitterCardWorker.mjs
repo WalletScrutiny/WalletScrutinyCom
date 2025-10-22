@@ -182,14 +182,13 @@ async function drawOnCanvas(data, iconImage) {
   const mainTextWidth = ctx.measureText(ctaPhrase.text).width;
   const ctaBadgeX = titleX + mainTextWidth + 15, ctaBadgeY = ctaY - 18;
   
-  // Draw CTA badge
+  // Draw Call to Action (CTA) rounded rectangle badge 
   ctx.font = 'bold 18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
   const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20;
   
-  ctx.fillStyle = '#ff6b35'; ctx.beginPath();
+  ctx.fillStyle = '#F5E4C3'; ctx.beginPath();
   ctx.moveTo(ctaBadgeX + 13, ctaBadgeY); ctx.lineTo(ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13);
-  ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13); ctx.lineTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26, ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY + 26);
   ctx.lineTo(ctaBadgeX + 13, ctaBadgeY + 26);
   ctx.quadraticCurveTo(ctaBadgeX, ctaBadgeY + 26, ctaBadgeX, ctaBadgeY + 13);
