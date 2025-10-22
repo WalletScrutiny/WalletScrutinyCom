@@ -186,7 +186,7 @@ async function drawOnCanvas(data, iconImage) {
   ctx.font = 'bold 18px Barlow, NotoSansCJK, DejaVuSans, LiberationSans, ArialUnicodeMS, Arial, sans-serif';
   const ctaBadgeWidth = ctx.measureText(ctaPhrase.cta).width + 20;
   
-  ctx.fillStyle = '#F5E4C3'; ctx.beginPath(); 
+  ctx.fillStyle = '#F5E4C3'; ctx.beginPath();
   ctx.moveTo(ctaBadgeX + 13, ctaBadgeY); ctx.lineTo(ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY, ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 13);
   ctx.quadraticCurveTo(ctaBadgeX + ctaBadgeWidth, ctaBadgeY + 26, ctaBadgeX + ctaBadgeWidth - 13, ctaBadgeY + 26);
