@@ -34,7 +34,11 @@ features:
 
 ## App Description
 
-UniSat Wallet is a non-custodial hierarchical deterministic (HD) Bitcoin wallet that supports storage and transfer of Bitcoin, Ordinals, and related token standards such as BRC-20, Alkanes, Runes, and CAT-20. It enables users to inscribe (mint) Ordinals without requiring a full node and displays unconfirmed inscriptions in real time. Private keys are generated from a Secret Recovery Phrase, encrypted locally by the user’s password, and never transmitted externally. UniSat does not collect personally identifiable information or track balances.
+UniSat Wallet is a non-custodial hierarchical deterministic (HD) Bitcoin wallet that supports storage and transfer of Bitcoin, Ordinals, and related token standards such as BRC-20, Alkanes, Runes, and CAT-20. 
+
+They claim to enable users to inscribe (mint) Ordinals without requiring a full node and displays unconfirmed inscriptions in real time. 
+
+They also mention that private keys are generated from a Secret Recovery Phrase, encrypted locally by the user’s password, and never transmitted externally. UniSat does not collect personally identifiable information or track balances.
 
 They claim that the extension version of their app is 100% Open Source. But it appears that the wording is vague and may seem to imply that the entire project is 100% Open Source.
 
