@@ -13,15 +13,23 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
    - Downloads scripts ending in `.sh`
    - Saves them in `scripts/` folder with unique names
 
+## Requirements
+- Node.js >= 18.6.0
+- asciinema
+- GitHub token
+
 ## Usage
 
 ### Manual execution
 
 ```bash
 cd external/build_server
-npm install
-node index.mjs
+npm i
+node index.mjs <github_token>
 ```
+
+The github token is required to refresh the desktop and hardware apps.
+You can get a token from [GitHub](https://github.com/settings/tokens).
 
 ## Output
 
@@ -67,12 +75,6 @@ The scripts are saved in `scripts/` with the format:
 `{appId}_{version}_{originalName}.sh`
 
 Example: `com.example.wallet_1.2.3_verify.sh`
-
-## Dependencies
-
-- Node.js >= 18.6.0
-- @nostr-dev-kit/ndk
-- ws (WebSocket)
 
 ## Technical notes
 

@@ -10,6 +10,7 @@ const DEBUG_APP_IDS = [
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
 import NDK from '@nostr-dev-kit/ndk';
 import WebSocket from 'ws';
 
@@ -47,6 +48,24 @@ async function connectToNostr() {
   console.log('Connecting to Nostr relays...');
   await ndk.connect(2000);
   console.log('Successfully connected to Nostr');
+}
+
+// Helper to compare semantic versions like "1.2.3"
+function compareVersions(a, b) {
+  a = a.replace(/^v/i, '');
+  b = b.replace(/^v/i, '');
+  if (!a || !b) {
+    return 0;
+  }
+  const pa = a.split('.').map(Number);
+  const pb = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const na = pa[i] || 0;
+    const nb = pb[i] || 0;
+    if (na > nb) return 1;
+    if (na < nb) return -1;
+  }
+  return 0;
 }
 
 async function getAllAssetInformation() {
@@ -246,20 +265,16 @@ async function processReproducibleVerifications(githubToken) {
         console.log(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
       }
 
-      console.log('------- walletInfo: ', walletInfo.latestVersion);
-      console.log(`${appId}: version ${highestVersion.version}`);
-
-      if (walletInfo.latestVersion > highestVersion.version) {
-        console.log(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} > ${highestVersion.version}`);
-        await processVerification(highestVersion.verification);
+      if (compareVersions(walletInfo.latestVersion, "v29.1.knots20251010") > 0) {
+        console.log(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
+        await processVerification(highestVersion.verification, walletInfo.latestVersion);
       } else {
-        console.log(`Wallet ${appId} has an older version: ${walletInfo.latestVersion} <= ${highestVersion.version}. No need to do anything.`);
+        console.log(`Wallet ${appId} doesn't have a newer version: ${walletInfo.latestVersion} (wallet repo) <= ${highestVersion.version} (latest verification). Skipping...`);
         continue;
       }
     }
 
     console.log('\n=== Process completed ===');
-    console.log(`Scripts saved in: ${SCRIPTS_DIR}`);
 
   } catch (error) {
     console.error('Error during process:', error);
@@ -271,7 +286,7 @@ async function processReproducibleVerifications(githubToken) {
   }
 }
 
-async function processVerification(verification) {
+async function processVerification(verification, newWalletVersion) {
   try {
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
@@ -290,6 +305,7 @@ async function processVerification(verification) {
     
     let scriptsFound = 0;
     let scriptsList = [];
+    let outputPaths = [];
     
     for (const fileEvent of fileEvents) {
       const fileName = getFirstTagValue(fileEvent, 'name');
@@ -311,21 +327,108 @@ async function processVerification(verification) {
         fs.writeFileSync(outputPath, fileContent, 'utf8');
 
         scriptsList.push({fileName: `${fileName}.${extension}`, outputFileName: outputFileName});
+        outputPaths.push(outputPath);
       }
     }
 
     if (scriptsFound === 0) {
       console.log(`${appId} | ${version} | ${platform} | No .sh scripts`);
     } else {
-      console.log(`${appId} | ${version} | ${platform} | ${scriptsFound} script(s): ${scriptsList.join(', ')}`);
+      console.log(`${appId} | ${version} | ${platform} | ${scriptsFound} script(s): ${scriptsList.map(s => s.outputFileName).join(', ')}`);
 
-      // Run the script in the outputFileName
-      const script = fs.readFileSync(outputPath, 'utf8');
+      // Execute each script
+      for (let i = 0; i < outputPaths.length; i++) {
+        const outputPath = outputPaths[i];
+        console.log(`Running script: ${outputPath} with new wallet version: ${newWalletVersion}`);
+        const result = await execScript(outputPath, newWalletVersion, { 
+          env: { 
+            ...process.env, 
+            NEW_WALLET_VERSION: newWalletVersion,
+            PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+          } 
+        });
+        console.debug(`Script execution result: ${result}`);
+
+        // ¿Hay que hacer cat al fichero .cast para ver el resultado?
+        const castFile = outputPath.replace(/\.sh$/, '.cast');
+        const castFileContent = fs.readFileSync(castFile, 'utf8');
+        console.debug(`Cast file content: ${castFileContent}`);
+
+        let status = 'not_reproducible';
+        if (castFileContent.includes('scriptrc=0')) {
+          status = 'reproducible';
+        }
+
+        // Upload the asciicast file to Blossom
+
+
+        // Extract data from verification event
+        const verificationDescription = getFirstTagValue(verification, 'description') || '';
+        const verificationContent = verification.content || '';
+        const verificationIssueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
+        
+        const formData = {
+          // Values changed
+          version: newWalletVersion, // Use the new wallet version
+          status: status,
+          hashes: [],
+          description: verificationDescription,
+          content: verificationContent,
+          uploadedFileData: [],
+          reusedFileIds: fileAttachmentIds,
+          outputFiles: [],
+          // Values not changed
+          appId: appId,
+          platform: platform,
+          isDraft: false,
+          basedOn: verification.id
+        };
+
+        console.log(`Creating verification for ${appId}:`, formData);
+    
+        try {
+          // await createVerification(formData);
+        } catch (error) {
+          console.error(`Error creating verification for ${appId}:`, error);
+        }
+
+      }
     }
-
   } catch (error) {
     console.error(`Error processing verification ${verification.id}:`, error);
   }
+}
+
+async function execScript(script, newWalletVersion, env) {
+  return new Promise((resolve, reject) => {
+    // Ensure PATH includes standard system directories for rootless container tools
+    const fullEnv = {
+      ...env,
+      PATH: env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+      HOME: env.HOME || process.env.HOME || '/tmp',
+      XDG_CONFIG_HOME: env.XDG_CONFIG_HOME || process.env.XDG_CONFIG_HOME || '/tmp/.config',
+      ASCIINEMA_CONFIG_HOME: env.ASCIINEMA_CONFIG_HOME || process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
+    };
+    
+    // Create cast file path with same name as script but with .cast extension
+    console.log(`Script: ${script}`);
+    const castFile = script.replace(/\.sh$/, '.cast');
+    console.log(`Cast file: ${castFile}`);
+    
+    // Execute script with asciinema recording
+    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 2; ${script} ${newWalletVersion} ; echo scriptrc=\\$?" ${castFile}`;
+    console.log(`Executing script: ${asciinemaCommand}`);
+    exec(asciinemaCommand, { 
+      env: fullEnv,
+      maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
+    }, (error, stdout, stderr) => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(`Script execution recorded to: ${castFile}`);
+      }
+    });
+  });
 }
 
 // Get GitHub token from command line arguments or environment
