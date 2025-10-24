@@ -21,6 +21,10 @@ date: 2025-09-04
 twitter: BitcoinKnots
 social: 
 features: 
+targets:
+- x86_64-linux-gnu.tar.gz
+- aarch64-linux-gnu.tar.gz
+- win64-setup-pgpverifiable.exe
 
 ---
 
