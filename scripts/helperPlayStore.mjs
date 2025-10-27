@@ -49,6 +49,7 @@ function refreshFile (fileName, content, markDefunct) {
           lang: 'en',
           country: appCountry
         }).then(app => {
+          console.log('************* app', app);
           const iconPath = `images/wIcons/android/${appId}`;
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             header.icon = `${appId}.${iconExtension}`;
@@ -106,9 +107,13 @@ function updateFromApp (header, app) {
   }
   header.meta = header.meta || 'ok';
   // if api reports an older updated date than what we determined, keep our data
+  if (app.updated && !isNaN(new Date(app.updated))) {
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)
-    ? header.updated
+      ? header.updated
     : new Date(app.updated);
+  } else {
+    header.updated = header.updated;
+  }
   header.users = app.minInstalls;
   header.stars = app.score || header.stars || null;
   header.reviews = app.reviews || null;
