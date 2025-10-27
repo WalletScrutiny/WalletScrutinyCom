@@ -324,7 +324,25 @@ async function processVerification(verification, newWalletVersion) {
 
         // Decode and save the file
         const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-        fs.writeFileSync(outputPath, fileContent, 'utf8');
+        //fs.writeFileSync(outputPath, fileContent, 'utf8');
+        
+        // Temporary bash content that randomly returns exit code 0 or -1
+        const tempBashContent = `#!/bin/bash
+# Temporary script that randomly returns exit code 0 or -1
+RANDOM_EXIT_CODE=$((RANDOM % 2))
+if [ $RANDOM_EXIT_CODE -eq 0 ]; then
+    echo "Random success (exit code 0)"
+    exit 0
+else
+    echo "Random failure (exit code 6)"
+    exit 6
+fi`;
+        
+        fs.writeFileSync(outputPath, tempBashContent, 'utf8');
+
+        // Make the file executable
+        fs.chmodSync(outputPath, 0o755);
+        
 
         scriptsList.push({fileName: `${fileName}.${extension}`, outputFileName: outputFileName});
         outputPaths.push(outputPath);
