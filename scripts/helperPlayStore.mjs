@@ -49,7 +49,6 @@ function refreshFile (fileName, content, markDefunct) {
           lang: 'en',
           country: appCountry
         }).then(app => {
-          console.log('************* app', app);
           const iconPath = `images/wIcons/android/${appId}`;
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             header.icon = `${appId}.${iconExtension}`;
