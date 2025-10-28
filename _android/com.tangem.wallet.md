@@ -20,7 +20,7 @@ issue:
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: sourceavailable
 appHashes: 1b9a070277ab84f0fd4af1dc44a7d861c82f309951d947aaa2bf9cbe431e926c
 date: 2025-03-21
 signer: 6e19822814d3498163b2e911196bca85dab25a0267aae5739dde15acb2736002
@@ -32,6 +32,12 @@ developerName: Tangem
 features: 
 
 ---
+
+**Update 2025-10-28 New Verdict**
+
+After receiving some communication, we decided to give the Tangem android build another try. Good news: the repo finally ships without any submodules, so the long-standing blocker is gone. Our containerized verifier is now at v0.4.1, with tighter SDK provisioning and runtime-detection refinements baked directly into the script. We still have to feed Gradle a GitHub PAT because several dependencies live in GitHub’s package registry. Decompiling the official APK shows the shipping build is the Google flavor, so reproductions must target that variant to have any chance of matching. Gradle currently shouts that every Google/Huawei variant is missing its `google-services.json`, which explains why the google release task stalls out. 
+
+But suffice to say, the Android app can now be viewed as **source available**
 
 **Update 2025-03-21**
 
