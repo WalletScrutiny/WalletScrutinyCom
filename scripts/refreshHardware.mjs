@@ -30,12 +30,13 @@ import {
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
-  boolean: ['d', 'help'],
+  boolean: ['d', 'help', 'n', 'dry-run'],
   string: ['g'],
   alias: {
     d: 'debug',
     g: 'github-token',
-    h: 'help'
+    h: 'help',
+    n: 'dry-run'
   }
 });
 
@@ -54,6 +55,7 @@ Usage: node scripts/refreshHardware.mjs [options]
 Options:
   -g, --github-token <token>  GitHub Personal Access Token
   -d, --debug                Enable debug output
+  -n, --dry-run              Show what would be updated without writing changes
   -h, --help                 Show this help message
 
 Environment:
@@ -62,6 +64,7 @@ Environment:
 Examples:
   node scripts/refreshHardware.mjs -g ghp_xxxxxxxxxxxx
   node scripts/refreshHardware.mjs -d -g ghp_xxxxxxxxxxxx
+  node scripts/refreshHardware.mjs --dry-run -g ghp_xxxxxxxxxxxx
   GITHUB_TOKEN=ghp_xxxx node scripts/refreshHardware.mjs
 `);
 }
@@ -415,7 +418,8 @@ async function processFile(fileName) {
     emoji: '🔐',
     versionFetcher: getDeviceVersion,
     getToken: () => getGitHubToken(args),
-    stats
+    stats,
+    dryRun: args['dry-run'] || false
   });
 }
 
@@ -427,6 +431,7 @@ Usage: node scripts/refreshHardware.mjs [options]
 Options:
   -g, --github-token <token>  GitHub Personal Access Token
   -d, --debug                Enable debug output
+  -n, --dry-run              Show what would be updated without writing changes
   -h, --help                 Show this help message
 
 Environment:
@@ -435,6 +440,7 @@ Environment:
 Examples:
   node scripts/refreshHardware.mjs -g ghp_xxxxxxxxxxxx
   node scripts/refreshHardware.mjs -d -g ghp_xxxxxxxxxxxx
+  node scripts/refreshHardware.mjs --dry-run -g ghp_xxxxxxxxxxxx
   GITHUB_TOKEN=ghp_xxxx node scripts/refreshHardware.mjs
 `);
     process.exit(0);
@@ -446,7 +452,7 @@ Examples:
     console.log(`   Use -g <token> or set GITHUB_TOKEN environment variable.`);
   }
   
-  console.log(`${colors.cyan}🔐 Refreshing hardware wallet versions...${colors.reset}`);
+  console.log(`${colors.cyan}🔐 Refreshing hardware wallet versions...${args['dry-run'] ? ' (DRY RUN)' : ''}${colors.reset}`);
   
   try {
     const files = getMarkdownFiles(HARDWARE_DIR);
@@ -454,6 +460,9 @@ Examples:
     
     console.log(`Found ${files.length} hardware wallet files`);
     console.log(`with 'meta:ok' and 'verdict: sourceavailable'`);
+    if (args['dry-run']) {
+      console.log(`${colors.yellow}⚠ Dry-run mode: No files will be modified${colors.reset}`);
+    }
     
     const delay = getRateLimitDelay(!!token);
     
@@ -464,7 +473,8 @@ Examples:
       await sleep(delay);
     }
     
-    console.log(`\n${colors.green}✓ Completed${colors.reset}: ${stats.updated} files updated out of ${stats.processed} processed`);
+    const action = args['dry-run'] ? 'would be updated' : 'updated';
+    console.log(`\n${colors.green}✓ Completed${colors.reset}: ${stats.updated} files ${action} out of ${stats.processed} processed`);
     
     generateReport(stats, args, 'hardware');
     

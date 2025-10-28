@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 async function runRefreshScript(scriptName, githubToken) {
   return new Promise((resolve, reject) => {
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', `${scriptName}.mjs`);
-    const args = ['-r', '-g', githubToken]; // -r for report, -g for github token
+    const args = ['-r', '-n', '-g', githubToken]; // -r for report, -n for dry run, -g for github token
     
     console.log(`Running ${scriptName}...`);
     

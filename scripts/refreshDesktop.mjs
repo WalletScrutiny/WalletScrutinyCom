@@ -27,13 +27,14 @@ import {
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
-  boolean: ['r', 'help', 'd', 'debug'],
+  boolean: ['r', 'help', 'd', 'debug', 'n', 'dry-run'],
   string: ['g'],
   alias: {
     r: 'report',
     g: 'github-token',
     h: 'help',
-    d: 'debug'
+    d: 'debug',
+    n: 'dry-run'
   }
 });
 
@@ -414,6 +415,7 @@ Options:
   -g, --github-token <token>  GitHub Personal Access Token
   -r, --report               Generate detailed report
   -d, --debug                Show detailed debug information including invalid files
+  -n, --dry-run              Show what would be updated without writing changes
   -h, --help                 Show this help message
 
 Environment:
@@ -467,7 +469,8 @@ async function processFile(fileName) {
     emoji: '📱',
     versionFetcher: getDesktopVersion,
     getToken: () => getGitHubToken(args),
-    stats
+    stats,
+    dryRun: args['dry-run'] || false
   });
 }
 
@@ -483,7 +486,7 @@ async function main() {
     console.log(`   Use -g <token> or set GITHUB_TOKEN environment variable.`);
   }
   
-  console.log(`${colors.cyan}🖥️  Refreshing desktop wallet versions...${colors.reset}`);
+  console.log(`${colors.cyan}🖥️  Refreshing desktop wallet versions...${args['dry-run'] ? ' (DRY RUN)' : ''}${colors.reset}`);
   
   try {
     const files = getMarkdownFiles(DESKTOP_DIR);
@@ -491,6 +494,9 @@ async function main() {
     
     console.log(`Found ${files.length} desktop wallet files`);
     console.log(`with 'meta:ok' and 'verdict: sourceavailable'`);
+    if (args['dry-run']) {
+      console.log(`${colors.yellow}⚠ Dry-run mode: No files will be modified${colors.reset}`);
+    }
     
     const delay = getRateLimitDelay(!!token);
     
@@ -501,7 +507,8 @@ async function main() {
       await sleep(delay);
     }
     
-    console.log(`\n${colors.green}✓ Completed${colors.reset}: ${stats.updated} files updated out of ${stats.processed} processed`);
+    const action = args['dry-run'] ? 'would be updated' : 'updated';
+    console.log(`\n${colors.green}✓ Completed${colors.reset}: ${stats.updated} files ${action} out of ${stats.processed} processed`);
     
     generateReport(stats, args, 'desktop');
     

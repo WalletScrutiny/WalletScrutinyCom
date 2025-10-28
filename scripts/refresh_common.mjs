@@ -247,10 +247,11 @@ export function handleProcessingError(error, fileName, stats) {
  * @param {function} config.versionFetcher - Async function to fetch version (fileName, repoUrl, token) => {version, date}
  * @param {function} config.getToken - Function to get GitHub token
  * @param {object} config.stats - Statistics object
+ * @param {boolean} config.dryRun - If true, don't write files, just show what would be done
  * @returns {Promise<void>}
  */
 export async function processFileCommon(fileName, config) {
-  const { directory, validVerdicts, validMeta, emoji, versionFetcher, getToken, stats } = config;
+  const { directory, validVerdicts, validMeta, emoji, versionFetcher, getToken, stats, dryRun = false } = config;
   const filePath = path.join(directory, fileName);
 
   try {
@@ -314,9 +315,11 @@ export async function processFileCommon(fileName, config) {
       if (areVersionsEquivalent(frontmatter.version, release.version)) {
         // Even if version matches, update 'updated:' field if it's empty
         if (!frontmatter.updated || frontmatter.updated.trim() === '') {
-          const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
-          fs.writeFileSync(filePath, updatedContent);
-          console.log(`  ${colors.green}✓ Updated 'updated' field${colors.reset}: ${release.date}`);
+          if (!dryRun) {
+            const updatedContent = updateVersionInContent(content, frontmatter.version, release.date);
+            fs.writeFileSync(filePath, updatedContent);
+          }
+          console.log(`  ${colors.green}✓${dryRun ? ' Would update' : ' Updated'} 'updated' field${dryRun ? ' (DRY RUN)' : ''}${colors.reset}: ${release.date}`);
           stats.updated++;
           return;
         }
@@ -330,13 +333,16 @@ export async function processFileCommon(fileName, config) {
       }
 
       // Update the file
-      const normalizedLatestVersion = normalizeVersion(release.version);
-      const updatedContent = updateVersionInContent(content, normalizedLatestVersion, release.date);
-      fs.writeFileSync(filePath, updatedContent);
+     
+      if (!dryRun) {
+        const normalizedLatestVersion = normalizeVersion(release.version);
+        const updatedContent = updateVersionInContent(content, normalizedLatestVersion, release.date);
+        fs.writeFileSync(filePath, updatedContent);
+      }
 
       stats.updated++;
       // Log raw old version and raw new version for clarity on what was fetched
-      console.log(`  ${colors.green}✓ Updated${colors.reset}: ${frontmatter.version || 'unknown'} → ${release.version}`);
+      console.log(`  ${colors.green}✓${dryRun ? ' Would update (DRY RUN):' : ' Updated:'}${colors.reset} ${frontmatter.version || 'unknown'} → ${release.version}`);
 
     } catch (error) {
       handleProcessingError(error, fileName, stats);
