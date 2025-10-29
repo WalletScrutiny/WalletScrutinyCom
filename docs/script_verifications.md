@@ -29,10 +29,12 @@ We need to be able to run the scripts automatically on the build server when a n
   - `use a return code` of 0 if the verification is reproducible, and 1 if it's not.
 9. The parameters of the script should be:
 
-   `-v`: version of the app (without the v prefix)
+   `--version`: version of the app (without the v prefix)
 
-   `-t`: (optional) type of the app (bitcoin, multi, etc)
+   `--arch`: (optional) architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
 
-   `-a`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
+   `--type`: (optional) type of the app (bitcoin, multi, ...)
+
+   `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
 
 10. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
