@@ -160,6 +160,7 @@ exclude:
   - resSources
   - scripts
   - src
+  - external
   - external_configs
   - /*.sh
   - /*.mjs
