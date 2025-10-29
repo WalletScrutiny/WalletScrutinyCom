@@ -38,3 +38,20 @@ We need to be able to run the scripts automatically on the build server when a n
    `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
 
 10. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+
+# Wallet files
+
+Wallet files (.md) need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
+
+```json
+architectures:
+- x86_64-linux-gnu
+- win64
+types:
+- bitcoin
+- multi
+```
+
+Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
+
+The Build Server will iterate through all combinations of architectures and types, passing the appropiate `--arch` and `--type` parameters to the build script.
