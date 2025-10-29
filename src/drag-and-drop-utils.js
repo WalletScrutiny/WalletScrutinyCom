@@ -33,9 +33,18 @@ export function getVersionFromFilename(filename) {
 export async function calculateFileHash(file) {
   console.time("sha256");
   const arrayBuffer = await file.arrayBuffer();
-  const hash = await window.crypto.subtle.digest("SHA-256", arrayBuffer);
-  const hashArray = Array.from(new Uint8Array(hash));
-  const hex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+  let hex;
+
+  if (typeof window !== "undefined" && window.crypto?.subtle) {
+    const hash = await window.crypto.subtle.digest("SHA-256", arrayBuffer);
+    const hashArray = Array.from(new Uint8Array(hash));
+    hex = hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+  } else {
+    const crypto = await import("crypto");
+    const { Buffer } = await import("buffer");
+    const buffer = Buffer.from(arrayBuffer);
+    hex = crypto.createHash("sha256").update(buffer).digest("hex");
+  }
   console.timeEnd("sha256");
   return hex;
 }

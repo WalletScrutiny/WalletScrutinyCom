@@ -55,9 +55,16 @@ export async function sha256FromBlob(blob) {
 
 // Calculate SHA256 from data
 export async function sha256(data) {
-  const hash = await window.crypto.subtle.digest("SHA-256", data);
-  const hashArray = Array.from(new Uint8Array(hash));
-  return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+  if (typeof window !== "undefined" && window.crypto?.subtle) {
+    const hash = await window.crypto.subtle.digest("SHA-256", data);
+    const hashArray = Array.from(new Uint8Array(hash));
+    return hashArray.map((b) => b.toString(16).padStart(2, "0")).join("");
+  } else {
+    const crypto = await import("crypto");
+    const { Buffer } = await import("buffer");
+    const buffer = Buffer.from(data);
+    return crypto.createHash("sha256").update(buffer).digest("hex");
+  }
 }
 
 // Check if a blob exists on the server
