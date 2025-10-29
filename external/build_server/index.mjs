@@ -1,23 +1,10 @@
 #!/usr/bin/env node
 
-// Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
-const DEBUG_APP_IDS = [
-  // Example: 'com.example.app',
-  // Example: 'org.bitcoin.wallet',
-  'bitcoinknots'
-];
-
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import NDK from '@nostr-dev-kit/ndk';
-import WebSocket from 'ws';
-
-// Configure WebSocket globally for NDK
-global.WebSocket = WebSocket;
-
-// Import constants from the main project
 import { 
   assetRegistrationKind,
   verificationKind,
@@ -25,9 +12,19 @@ import {
   explicitRelayUrls,
   verificationEventsSinceTS
 } from '../../src/nostr-constants.mjs';
-
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
+import WebSocket from 'ws';
+global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
+
+// Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
+const DEBUG_APP_IDS = [
+  // Example: 'com.example.app',
+  // Example: 'org.bitcoin.wallet',
+  'bitcoinknots'
+];
+
+const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -66,6 +63,24 @@ function compareVersions(a, b) {
     if (na < nb) return -1;
   }
   return 0;
+}
+
+async function fetchAppInfo() {
+  try {
+    console.log(`Fetching app info from ${appInfoURL}...`);
+    const response = await fetch(appInfoURL);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    
+    const appInfo = await response.json();
+    console.log('App info fetched successfully');
+    return appInfo;
+  } catch (error) {
+    console.error(`Error fetching app info from ${appInfoURL}:`, error);
+    throw error;
+  }
 }
 
 async function getAllAssetInformation() {
@@ -169,6 +184,10 @@ async function processReproducibleVerifications(githubToken) {
     const refreshResults = await refreshApps(githubToken);
     console.log(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)\n`);
 
+    // Fetch app info for build server
+    const appInfo = await fetchAppInfo();
+    console.log('');
+
     await connectToNostr();
     console.log('');
 
@@ -267,7 +286,7 @@ async function processReproducibleVerifications(githubToken) {
 
       if (compareVersions(walletInfo.latestVersion, "v29.1.knots20251010") > 0) {
         console.log(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
-        await processVerification(highestVersion.verification, walletInfo.latestVersion);
+        await processVerification(highestVersion.verification, walletInfo.latestVersion, appInfo);
       } else {
         console.log(`Wallet ${appId} doesn't have a newer version: ${walletInfo.latestVersion} (wallet repo) <= ${highestVersion.version} (latest verification). Skipping...`);
         continue;
@@ -286,11 +305,12 @@ async function processReproducibleVerifications(githubToken) {
   }
 }
 
-async function processVerification(verification, newWalletVersion) {
+async function processVerification(verification, newWalletVersion, appInfo) {
   try {
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
     const platform = getFirstTagValue(verification, 'platform');
+    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
     // Get file attachment IDs
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
@@ -303,31 +323,37 @@ async function processVerification(verification, newWalletVersion) {
     // Get file events
     const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
     
-    let scriptsFound = 0;
-    let scriptsList = [];
-    let outputPaths = [];
-    
     for (const fileEvent of fileEvents) {
       const fileName = getFirstTagValue(fileEvent, 'name');
       const extension = getFirstTagValue(fileEvent, 'extension');
       
       // Only process .sh files
       if (extension === 'sh') {
-        scriptsFound++;
-        
         // Create unique filename
         const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-        const outputPath = path.join(SCRIPTS_DIR, outputFileName);
+        const scriptWithPath = path.join(SCRIPTS_DIR, outputFileName);
 
         // Decode and save the file
         const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-        //fs.writeFileSync(outputPath, fileContent, 'utf8');
+        //fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
         
         // Temporary bash content that randomly returns exit code 0 or -1
         const tempBashContent = `#!/bin/bash
+
+while [[ "$#" -gt 0 ]]; do
+  case $1 in
+    --version) version="$2"; shift ;;
+    --type) type="$2"; shift ;;
+    --arch) arch="$2"; shift ;;
+    --apk) apk="$2"; shift ;;
+  esac
+  shift
+done
+echo "version: $version, type: $type, arch: $arch, apk: $apk"
+
 # Temporary script that randomly returns exit code 0 or -1
 RANDOM_EXIT_CODE=$((RANDOM % 2))
 if [ $RANDOM_EXIT_CODE -eq 0 ]; then
@@ -337,113 +363,105 @@ else
     echo "Random failure (exit code 6)"
     exit 6
 fi`;
-        
-        fs.writeFileSync(outputPath, tempBashContent, 'utf8');
+        fs.writeFileSync(scriptWithPath, tempBashContent, 'utf8');
 
         // Make the file executable
-        fs.chmodSync(outputPath, 0o755);
-        
+        fs.chmodSync(scriptWithPath, 0o755);
 
-        scriptsList.push({fileName: `${fileName}.${extension}`, outputFileName: outputFileName});
-        outputPaths.push(outputPath);
+        console.log(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+
+        const appInfoFromWS = appInfo[legacyPlatform][appId];
+        const architectures = appInfoFromWS.architectures;
+        const types = appInfoFromWS.types;
+        console.log('-------------- architectures:', architectures);
+        console.log('-------------- types:', types);
+
+        // Ensure at least one iteration even if arrays are empty
+        const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
+        const typesToIterate = types && types.length > 0 ? types : [undefined];
+
+        for (const architecture of architecturesToIterate) {
+          for (const type of typesToIterate) {
+            console.log(`*** Architecture: ${architecture}, Type: ${type} ***`);
+
+            console.log(`Running script: ${scriptWithPath} with new wallet version: ${newWalletVersion}, architecture: ${architecture}, type: ${type}`);
+            const {castFileName} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
+            console.debug(`Recorded cast file: ${castFileName}`);
+
+            const castFileContent = fs.readFileSync(castFileName, 'utf8');
+
+            let status = 'not_reproducible';
+            if (castFileContent.includes('scriptrc=0')) {
+              status = 'reproducible';
+            }
+
+            // Upload the asciicast file to Blossom
+
+
+            const formData = {
+              // Changed values
+              version: newWalletVersion, // Use the new wallet version
+              status: status,
+              hashes: [],
+              description: getFirstTagValue(verification, 'description') || '',
+              content: verification.content || '',
+              uploadedFileData: [],
+              reusedFileIds: fileAttachmentIds,
+              outputFiles: [],
+              // Original verification values
+              appId: appId,
+              platform: platform,
+              isDraft: false,
+              basedOn: verification.id
+            };
+
+            console.log(`Creating verification for ${appId}:`, formData);
+
+            try {
+              // TODO: try to use dev environment Nostr
+              //    await createVerification(formData);
+            } catch (error) {
+              console.error(`Error creating verification for ${appId}:`, error);
+            }
+          }
+        }
       }
     }
 
-    if (scriptsFound === 0) {
-      console.log(`${appId} | ${version} | ${platform} | No .sh scripts`);
-    } else {
-      console.log(`${appId} | ${version} | ${platform} | ${scriptsFound} script(s): ${scriptsList.map(s => s.outputFileName).join(', ')}`);
-
-      // Execute each script
-      for (let i = 0; i < outputPaths.length; i++) {
-        const outputPath = outputPaths[i];
-        console.log(`Running script: ${outputPath} with new wallet version: ${newWalletVersion}`);
-        const result = await execScript(outputPath, newWalletVersion, { 
-          env: { 
-            ...process.env, 
-            NEW_WALLET_VERSION: newWalletVersion,
-            PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
-          } 
-        });
-        console.debug(`Script execution result: ${result}`);
-
-        // ¿Hay que hacer cat al fichero .cast para ver el resultado?
-        const castFile = outputPath.replace(/\.sh$/, '.cast');
-        const castFileContent = fs.readFileSync(castFile, 'utf8');
-        console.debug(`Cast file content: ${castFileContent}`);
-
-        let status = 'not_reproducible';
-        if (castFileContent.includes('scriptrc=0')) {
-          status = 'reproducible';
-        }
-
-        // Upload the asciicast file to Blossom
-
-
-        // Extract data from verification event
-        const verificationDescription = getFirstTagValue(verification, 'description') || '';
-        const verificationContent = verification.content || '';
-        const verificationIssueTrackerUrl = getFirstTagValue(verification, 'issue-tracker-url') || '';
-        
-        const formData = {
-          // Values changed
-          version: newWalletVersion, // Use the new wallet version
-          status: status,
-          hashes: [],
-          description: verificationDescription,
-          content: verificationContent,
-          uploadedFileData: [],
-          reusedFileIds: fileAttachmentIds,
-          outputFiles: [],
-          // Values not changed
-          appId: appId,
-          platform: platform,
-          isDraft: false,
-          basedOn: verification.id
-        };
-
-        console.log(`Creating verification for ${appId}:`, formData);
-    
-        try {
-          // await createVerification(formData);
-        } catch (error) {
-          console.error(`Error creating verification for ${appId}:`, error);
-        }
-
-      }
-    }
   } catch (error) {
     console.error(`Error processing verification ${verification.id}:`, error);
   }
 }
 
-async function execScript(script, newWalletVersion, env) {
+async function execScript(script, newWalletVersion, architecture, type) {
   return new Promise((resolve, reject) => {
-    // Ensure PATH includes standard system directories for rootless container tools
-    const fullEnv = {
-      ...env,
-      PATH: env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-      HOME: env.HOME || process.env.HOME || '/tmp',
-      XDG_CONFIG_HOME: env.XDG_CONFIG_HOME || process.env.XDG_CONFIG_HOME || '/tmp/.config',
-      ASCIINEMA_CONFIG_HOME: env.ASCIINEMA_CONFIG_HOME || process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-    };
-    
-    // Create cast file path with same name as script but with .cast extension
-    console.log(`Script: ${script}`);
-    const castFile = script.replace(/\.sh$/, '.cast');
-    console.log(`Cast file: ${castFile}`);
-    
     // Execute script with asciinema recording
-    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 2; ${script} ${newWalletVersion} ; echo scriptrc=\\$?" ${castFile}`;
+    const architectureFlag = architecture ? `--arch ${architecture}` : '';
+    const typeFlag = type ? `--type ${type}` : '';
+    const scriptArgs = [architectureFlag, typeFlag].filter(Boolean).join(' ');
+    const argsString = scriptArgs ? ` ${scriptArgs}` : '';
+
+    let castFileName = script.replace(/\.sh$/, '');
+    castFileName += `_${architecture}_${type}`;
+    castFileName += '.cast';
+    console.log(`Cast file: ${castFileName}`);
+
+    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${script} --version ${newWalletVersion}${argsString} ; echo scriptrc=\\$?" ${castFileName}`;
     console.log(`Executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, { 
-      env: fullEnv,
+      env: {
+        // Ensure PATH includes standard system directories for rootless container tools
+        PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+        HOME: process.env.HOME || '/tmp',
+        XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
+        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
+      },
       maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
     }, (error, stdout, stderr) => {
       if (error) {
         reject(error);
       } else {
-        resolve(`Script execution recorded to: ${castFile}`);
+        resolve({castFileName: castFileName});
       }
     });
   });
