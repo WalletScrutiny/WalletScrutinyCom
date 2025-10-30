@@ -114,3 +114,5 @@ if (typeof window !== 'undefined') {
     window.getBlossomFileURL = getBlossomFileURL;
     window.uploadToBlossom = uploadToBlossom;
 }
+
+export { blossomServerUrl };

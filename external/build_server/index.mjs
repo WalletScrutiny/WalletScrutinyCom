@@ -4,16 +4,17 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
-import NDK from '@nostr-dev-kit/ndk';
-import { 
-  assetRegistrationKind,
-  verificationKind,
-  verificationDraftKind,
-  explicitRelayUrls,
-  verificationEventsSinceTS
-} from '../../src/nostr-constants.mjs';
+import {
+  connectToNostr,
+  getAllAssetInformation,
+  getFileAttachmentIDsForVerificationEvent,
+  getEventsFromEventIds,
+  cleanupNdkConnections,
+  uploadBlobToBlossomServer
+} from './nostr-utils.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
+import { getBlossomFileURL } from '../../src/blossom-utils.js';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
@@ -26,6 +27,12 @@ const DEBUG_APP_IDS = [
 
 const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
+const nostrPrivateKey = process.env.NOSTR_PRIVATE_KEY || '0000000000000000000000000000000000000000000000000000000000000001';
+if (!nostrPrivateKey) {
+  console.error('Error: NOSTR_PRIVATE_KEY environment variable is required');
+  process.exit(1);
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const SCRIPTS_DIR = path.join(__dirname, 'scripts');
@@ -33,18 +40,6 @@ const SCRIPTS_DIR = path.join(__dirname, 'scripts');
 // Create scripts directory if it doesn't exist
 if (!fs.existsSync(SCRIPTS_DIR)) {
   fs.mkdirSync(SCRIPTS_DIR, { recursive: true });
-}
-
-let ndk;
-
-async function connectToNostr() {
-  ndk = new NDK({
-    explicitRelayUrls: explicitRelayUrls
-  });
-  
-  console.log('Connecting to Nostr relays...');
-  await ndk.connect(2000);
-  console.log('Successfully connected to Nostr');
 }
 
 // Helper to compare semantic versions like "1.2.3"
@@ -83,95 +78,6 @@ async function fetchAppInfo() {
   }
 }
 
-async function getAllAssetInformation() {
-  console.log('Getting wallet information from Nostr...');
-  
-  const filter_assets = {
-    kinds: [assetRegistrationKind],
-    since: verificationEventsSinceTS
-  };
-
-  const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],
-    since: verificationEventsSinceTS
-  };
-
-  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
-  
-  const assets = Array.from(events).filter(event => 
-    event.kind === assetRegistrationKind && 
-    getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
-  );
-  
-  const verifications = Array.from(events).filter(event => 
-    event.kind === verificationKind && 
-    getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
-  );
-
-  const assetsMap = new Map();
-  const verificationsMap = new Map();
-
-  assets.forEach(asset => {
-    const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
-    if (sha256FromEventTag) {
-      if (!assetsMap.has(sha256FromEventTag)) {
-        assetsMap.set(sha256FromEventTag, []);
-      }
-      assetsMap.get(sha256FromEventTag).push(asset);
-    }
-  });
-
-  verifications.forEach(verification => {
-    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
-    if (sha256FromEventTag) {
-      if (!verificationsMap.has(sha256FromEventTag)) {
-        verificationsMap.set(sha256FromEventTag, []);
-      }
-      verificationsMap.get(sha256FromEventTag).push(verification);
-    }
-  });
-
-  console.log('Information retrieved successfully');
-  
-  return {
-    assets: assetsMap,
-    verifications: verificationsMap
-  };
-}
-
-function getFileAttachmentIDsForVerificationEvent(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
-}
-
-async function getEventsFromEventIds(eventIds) {
-  if (!eventIds || eventIds.length === 0) {
-    return [];
-  }
-
-  return await ndk.fetchEvents({
-    ids: eventIds
-  });
-}
-
-function cleanupNdkConnections() {
-  if (ndk) {
-    try {
-      let closedConnections = 0;
-      for (const relay of ndk.pool.relays.values()) {
-        if (relay.connectivity.status === 5) { // Connected
-          relay.disconnect();
-          closedConnections++;
-        }
-      }
-      ndk.pool.relays.clear();
-      console.log(`Connections closed: ${closedConnections}`);
-    } catch (error) {
-      console.error("Error during cleanup:", error);
-    }
-    ndk = null;
-  }
-}
-
 /**
  * Main function to process reproducible verifications
  */
@@ -188,7 +94,7 @@ async function processReproducibleVerifications(githubToken) {
     const appInfo = await fetchAppInfo();
     console.log('');
 
-    await connectToNostr();
+    await connectToNostr(nostrPrivateKey);
     console.log('');
 
     // Get all asset information
@@ -299,7 +205,6 @@ async function processReproducibleVerifications(githubToken) {
     console.error('Error during process:', error);
     throw error;
   } finally {
-    // Clean up NDK connections
     console.log('\nCleaning up connections...');
     cleanupNdkConnections();
   }
@@ -390,13 +295,21 @@ fi`;
 
             const castFileContent = fs.readFileSync(castFileName, 'utf8');
 
+            const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
+            console.log('-------------- castFile:', castFile);
+            console.log('-------------- castFileContent:', castFileContent);
+
+            // Upload the asciicast file to Blossom
+            await uploadBlobToBlossomServer(castFile);
+            console.log(`Cast file uploaded to Blossom successfully`);
+
+            const castFileURL = getBlossomFileURL(castFileHash);
+            console.log(`Cast file URL: ${castFileURL}`);
+
             let status = 'not_reproducible';
             if (castFileContent.includes('scriptrc=0')) {
               status = 'reproducible';
             }
-
-            // Upload the asciicast file to Blossom
-
 
             const formData = {
               // Changed values
