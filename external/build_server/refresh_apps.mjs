@@ -23,7 +23,7 @@ async function runRefreshScript(scriptName, githubToken) {
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', `${scriptName}.mjs`);
     const args = ['-r', '-n', '-g', githubToken]; // -r for report, -n for dry run, -g for github token
     
-    console.log(`Running ${scriptName}...`);
+    console.log(`  * Running ${scriptName}...`);
     
     const child = spawn('node', [scriptPath, ...args], {
       stdio: ['pipe', 'pipe', 'pipe'],
