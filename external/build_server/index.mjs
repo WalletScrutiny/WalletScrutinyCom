@@ -10,7 +10,8 @@ import {
   getFileAttachmentIDsForVerificationEvent,
   getEventsFromEventIds,
   cleanupNdkConnections,
-  uploadBlobToBlossomServer
+  uploadBlobToBlossomServer,
+  createVerification
 } from './nostr-utils.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
@@ -287,24 +288,24 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
-            console.log(`*** Architecture: ${architecture}, Type: ${type} ***`);
+            console.log(`\n\n*** Architecture: ${architecture}, Type: ${type} ***`);
 
             console.log(`Running script: ${scriptWithPath} with new wallet version: ${newWalletVersion}, architecture: ${architecture}, type: ${type}`);
             const {castFileName} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
-            console.debug(`Recorded cast file: ${castFileName}`);
+            console.debug(`Asciinema file recorded: ${castFileName}`);
 
+            // Upload the asciicast file to Blossom server
             const castFileContent = fs.readFileSync(castFileName, 'utf8');
-
             const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
-            console.log('-------------- castFile:', castFile);
-            console.log('-------------- castFileContent:', castFileContent);
-
-            // Upload the asciicast file to Blossom
-            await uploadBlobToBlossomServer(castFile);
-            console.log(`Cast file uploaded to Blossom successfully`);
-
-            const castFileURL = getBlossomFileURL(castFileHash);
-            console.log(`Cast file URL: ${castFileURL}`);
+            let castFileHash = null;
+            try {
+              castFileHash = await uploadBlobToBlossomServer(castFile);
+              const castFileURL = getBlossomFileURL(castFileHash);
+              console.log(`Blossom server cast URL: ${castFileURL}`);
+            } catch (error) {
+              console.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+              continue;
+            }
 
             let status = 'not_reproducible';
             if (castFileContent.includes('scriptrc=0')) {
@@ -318,7 +319,7 @@ fi`;
               hashes: [],
               description: getFirstTagValue(verification, 'description') || '',
               content: verification.content || '',
-              uploadedFileData: [],
+              uploadedFileData: [{name: path.basename(castFileName), hash: castFileHash}],
               reusedFileIds: fileAttachmentIds,
               outputFiles: [],
               // Original verification values
@@ -332,7 +333,7 @@ fi`;
 
             try {
               // TODO: try to use dev environment Nostr
-              //    await createVerification(formData);
+              await createVerification(formData);
             } catch (error) {
               console.error(`Error creating verification for ${appId}:`, error);
             }
@@ -357,10 +358,9 @@ async function execScript(script, newWalletVersion, architecture, type) {
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `_${architecture}_${type}`;
     castFileName += '.cast';
-    console.log(`Cast file: ${castFileName}`);
 
     const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${script} --version ${newWalletVersion}${argsString} ; echo scriptrc=\\$?" ${castFileName}`;
-    console.log(`Executing script: ${asciinemaCommand}`);
+    console.log(`Recording script execution: ${asciinemaCommand}`);
     exec(asciinemaCommand, { 
       env: {
         // Ensure PATH includes standard system directories for rootless container tools

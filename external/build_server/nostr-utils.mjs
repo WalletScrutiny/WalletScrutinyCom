@@ -175,6 +175,109 @@ export async function getEventsFromEventIds(eventIds) {
   });
 }
 
+// Mini-version of the createVerification function from verifications_utils.mjs
+export async function createVerification({
+  hashes,
+  description,
+  content,
+  status,
+  appId,
+  version,
+  platform,
+  createdAt = null,
+  draftVerificationEventId = null,
+  reusedFileIds = [],
+  outputFiles = [],
+  basedOn = null
+}) {
+  // validateParameterLengths({ appId, version, platform, description, content, issueTrackerUrl });
+
+  // --- Upload Files Before Main Event Creation ---
+  /*
+  let fileUploadResults = [];
+  let fileEventIds = [];
+  if (uploadedFileData.length > 0) {
+    console.log(`Uploading ${uploadedFileData.length} attached file(s) before creating verification...`);
+    const uploadPromises = uploadedFileData.map(fileData =>
+      uploadFileAttachment({
+        fileName: fileData.name,
+        fileType: fileData.type,
+        fileSize: fileData.size,
+        base64Data: fileData.base64Data
+      })
+    );
+    fileUploadResults = await Promise.all(uploadPromises);
+    console.log("File upload process completed.", fileUploadResults);
+
+    // Collect successful file event IDs
+    fileUploadResults.forEach(result => {
+      if (result.success && result.eventId) {
+        fileEventIds.push(result.eventId);
+      }
+    });
+
+    // Handle potential upload failures
+    const failedUploads = fileUploadResults.filter(r => !r.success);
+    if (failedUploads.length > 0) {
+      console.error("Some file uploads failed:", failedUploads);
+      throw new Error(`Failed to upload file(s): ${failedUploads.map(f => f.fileName).join(', ')}`);
+    }
+  }
+    */
+
+  const fullContent = JSON.stringify({
+    description: description || '',
+    content: content,
+  });
+
+  const tags = [["status", status]];
+
+  tags.push(["i", appId]);
+  tags.push(["version", version]);
+  tags.push(["platform", platform]);
+  hashes.forEach(hash => {
+    tags.push(["x", hash]);
+  });
+
+  // Add file event IDs as tags
+  if (reusedFileIds.length > 0) {
+    reusedFileIds.forEach(fileEventId => {
+      tags.push(["file-attachment", fileEventId]);
+    });
+  }
+
+  if (outputFiles.length > 0) {
+    outputFiles.forEach(file => {
+      tags.push(["output-file", file.name, file.hash]);
+    });
+  }
+
+  if (basedOn) {
+    tags.push(["based-on", basedOn]);
+  }
+
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = verificationKind;
+  ndkEvent.content = fullContent;
+  ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
+  ndkEvent.tags = [...tags, ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]];
+
+  console.log('**** ndkEvent:', ndkEvent.rawEvent());
+
+  return;
+
+  await publishNdkEvent(ndkEvent, 'verification');
+
+  if (!isDraft && draftVerificationEventId) {
+    const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
+    if (draftVerificationEvent) {
+      await draftVerificationEvent.delete('deleting draft, as verification was published', true);
+    }
+  }
+
+  return ndkEvent;
+}
+
 export function cleanupNdkConnections() {
   if (ndk) {
     try {
