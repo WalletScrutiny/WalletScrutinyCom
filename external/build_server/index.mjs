@@ -295,7 +295,7 @@ fi`;
             console.log(`\n    *** Architecture: ${architecture}, Type: ${type} ***\n`);
 
             console.log(`Running script: ${scriptWithPath} with new wallet version: ${newWalletVersion}, architecture: ${architecture}, type: ${type}`);
-            const {castFileName} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
+            const {castFileName, finalScriptExecutionCommand} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
             console.debug(`Asciinema file recorded: ${castFileName}`);
 
             // Upload the asciicast file to Blossom server
@@ -316,17 +316,21 @@ fi`;
               status = 'reproducible';
             }
 
+            let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
+            let content = `Automatic verification for wallet version ${newWalletVersion} with architecture ${architecture} and type ${type}, based on verification ${verification.id}. `;
+            content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+
             const formData = {
               // Changed values
               basedOn: verification.id,
               version: newWalletVersion,
               status: status,
               hashes: [],
-              description: getFirstTagValue(verification, 'description') || '',
-              content: verification.content || '',
-              uploadedFileData: [{name: path.basename(castFileName), hash: castFileHash}],
-              reusedFileIds: fileAttachmentIds,
-              outputFiles: [],
+              description: description,
+              content: content,
+              outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
+              reusedFileIds: fileEventIdsForSHFiles,
+              isDraft: false,
               // Original verification values
               appId: appId,
               platform: platform
@@ -357,12 +361,13 @@ async function execScript(script, newWalletVersion, architecture, type) {
     const typeFlag = type ? `--type ${type}` : '';
     const scriptArgs = [architectureFlag, typeFlag].filter(Boolean).join(' ');
     const argsString = scriptArgs ? ` ${scriptArgs}` : '';
+    const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `_${architecture}_${type}`;
     castFileName += '.cast';
 
-    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${script} --version ${newWalletVersion}${argsString} ; echo scriptrc=\\$?" ${castFileName}`;
+    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
     console.log(`Recording script execution: ${asciinemaCommand}`);
     exec(asciinemaCommand, { 
       env: {
@@ -377,7 +382,7 @@ async function execScript(script, newWalletVersion, architecture, type) {
       if (error) {
         reject(error);
       } else {
-        resolve({castFileName: castFileName});
+        resolve({castFileName: castFileName, finalScriptExecutionCommand: finalScriptExecutionCommand});
       }
     });
   });
