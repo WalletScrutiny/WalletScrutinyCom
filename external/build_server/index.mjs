@@ -222,12 +222,14 @@ async function processVerification(verification, newWalletVersion, appInfo) {
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
     
     if (fileAttachmentIds.length === 0) {
-      console.log(`${appId} | ${version} | ${platform} | No attachments`);
+      console.log(`${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
       return;
     }
 
     // Get file events
     const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
+
+    let fileEventIdsForSHFiles = [];
     
     for (const fileEvent of fileEvents) {
       const fileName = getFirstTagValue(fileEvent, 'name');
@@ -235,6 +237,8 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       
       // Only process .sh files
       if (extension === 'sh') {
+        fileEventIdsForSHFiles.push(fileEvent.id);
+
         // Create unique filename
         const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
@@ -279,8 +283,8 @@ fi`;
         const appInfoFromWS = appInfo[legacyPlatform][appId];
         const architectures = appInfoFromWS.architectures;
         const types = appInfoFromWS.types;
-        console.log('-------------- architectures:', architectures);
-        console.log('-------------- types:', types);
+        console.log('\n  *** architectures:', architectures);
+        console.log('  *** types:', types);
 
         // Ensure at least one iteration even if arrays are empty
         const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
@@ -288,7 +292,7 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
-            console.log(`\n\n*** Architecture: ${architecture}, Type: ${type} ***`);
+            console.log(`\n    *** Architecture: ${architecture}, Type: ${type} ***\n`);
 
             console.log(`Running script: ${scriptWithPath} with new wallet version: ${newWalletVersion}, architecture: ${architecture}, type: ${type}`);
             const {castFileName} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
@@ -314,7 +318,8 @@ fi`;
 
             const formData = {
               // Changed values
-              version: newWalletVersion, // Use the new wallet version
+              basedOn: verification.id,
+              version: newWalletVersion,
               status: status,
               hashes: [],
               description: getFirstTagValue(verification, 'description') || '',
@@ -324,9 +329,7 @@ fi`;
               outputFiles: [],
               // Original verification values
               appId: appId,
-              platform: platform,
-              isDraft: false,
-              basedOn: verification.id
+              platform: platform
             };
 
             console.log(`Creating verification for ${appId}:`, formData);
