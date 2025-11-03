@@ -26,8 +26,7 @@ function makeLogger(serviceName, level = 'info') {
       new transports.Console({           // optional: console in dev
         format: format.combine(
           format.colorize(),
-          //format.printf(i => `${i.timestamp} [${i.level}] ${i.service}: ${i.message}${i.stack ? '\n'+i.stack : ''}`)
-          format.printf(i => `[${i.level}] ${i.service}: ${i.message}${i.stack ? '\n'+i.stack : ''}`)
+          format.printf(i => `[${i.level}] ${i.message}${i.stack ? '\n'+i.stack : ''}`)
         )
       })
     ]
@@ -35,4 +34,3 @@ function makeLogger(serviceName, level = 'info') {
 }
 
 export const appLog = makeLogger('app');
-export const jobsLog = makeLogger('jobs');
