@@ -4,11 +4,20 @@ After=network.target
 
 [Service]
 Type=oneshot
-User=your-user
-WorkingDirectory=/full/path/to/walletScrutinyCom/external/build_server
-ExecStart=/usr/bin/node index.mjs
 StandardOutput=journal
 StandardError=journal
+User=build-server
+Group=build-server
+WorkingDirectory=/opt/build-server/external/build_server
+
+LoadCredentialEncrypted=ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
+Environment=WS_BOT_PK=%E/CREDENTIALS_DIRECTORY/ws-bot-pk
+LoadCredentialEncrypted=gh-token:/etc/credstore.encrypted/build-server-gh-token
+Environment=GH_TOKEN=%E/CREDENTIALS_DIRECTORY/gh-token
+
+ExecStart=/usr/bin/node index.mjs --githubToken "$GH_TOKEN" --wsBotNostrPrivateKey "$WS_BOT_PK"
+Restart=on-failure
+RestartSec=3
 
 [Install]
 WantedBy=multi-user.target
