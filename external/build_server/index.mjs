@@ -16,7 +16,7 @@ import {
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import PQueue from 'p-queue';
-import { appLog, jobsLog } from './logger.js';
+import { appLog } from './logger.js';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
@@ -50,11 +50,11 @@ const queue = new PQueue({
 queue.on('active', () => logQueueInfo());
 queue.on('next', () => logQueueInfo());
 queue.on('error', error => {
-	jobsLog.error(error);
+	appLog.error(error);
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error running the script
 });
 function logQueueInfo() {
-  jobsLog.info(` ** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  appLog.info(` ** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
 
@@ -95,7 +95,7 @@ async function fetchAppInfo() {
 }
 
 async function mainProcess(githubToken) {
-  appLog.info('=== Build Server App ===');
+  appLog.info('======= Starting Build Server App =======');
 
   try {
     // First, refresh desktop and hardware apps to get latest versions
@@ -345,8 +345,6 @@ fi`;
                 platform: platform
               };
 
-              // appLog.info(`Creating verification for ${appId}:`, formData);
-
               try {
                 await createVerification(ndkInstance, formData);
               } catch (error) {
@@ -376,7 +374,7 @@ async function execScript(script, newWalletVersion, architecture, type) {
     castFileName += `_${architecture}_${type}.cast`;
 
     const asciinemaCommand = `asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    jobsLog.info(`Recording and executing script: ${asciinemaCommand}`);
+    appLog.info(`Recording and executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
         // Ensure PATH includes standard system directories for rootless container tools
@@ -388,10 +386,10 @@ async function execScript(script, newWalletVersion, architecture, type) {
       maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
     }, (error, stdout, stderr) => {
       if (error) {
-        jobsLog.error(`Error recording and executing script: ${error}`);
+        appLog.error(`Error recording and executing script: ${error}`);
         reject(error);
       } else {
-        jobsLog.info(`Script recorded and executed successfully: ${castFileName}`);
+        appLog.info(`Script recorded and executed successfully: ${castFileName}`);
         resolve({castFileName: castFileName, finalScriptExecutionCommand: finalScriptExecutionCommand});
       }
     });
@@ -420,6 +418,6 @@ while (true) {
   }
   
   appLog.info('');
-  appLog.info(`******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n`);
+  appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);
   await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
 }
