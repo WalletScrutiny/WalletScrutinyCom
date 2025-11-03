@@ -8,8 +8,8 @@ function makeFileTransport(filenameBase) {
     filename: `logs/${filenameBase}-%DATE%.log`,
     datePattern: 'YYYY-MM-DD',       // rotate every day
     zippedArchive: true,             // compress with .gz
-    maxSize: '20m',                  // rotate if exceeds 20MB before the day
-    maxFiles: '14d',                 // keep 14 days
+    maxSize: '10m',                  // rotate if exceeds 20MB before the day
+    maxFiles: '10d',                 // keep 14 days
   });
 }
 
