@@ -34,11 +34,10 @@ features:
 
 ## App Description
 
-**Blitz Wallet** is an open-source Bitcoin and Lightning wallet for Android built with React Native. The app's logo has a certain familiarity.
+**Blitz Wallet** is an open-source Bitcoin and Lightning wallet. The app's logo has a certain familiarity.
 
-It supports on-chain Bitcoin and Lightning transactions, using the [Spark Lightning](https://github.com/Blockstream/spark-wallet) and [Liquid](https://blockstream.com/liquid/) networks for optional extensions to the Bitcoin ecosystem.
-
-The repository provides source code for Android builds and includes TypeScript-based mobile components with self-custody key management implemented client-side.  
+It supports on-chain Bitcoin and Lightning transactions.
+  
 
 ## Analysis
 
