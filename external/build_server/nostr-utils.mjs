@@ -11,6 +11,7 @@ import {
 } from '../../src/nostr-constants.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { blossomServerUrl } from '../../src/blossom-utils.js';
+import { appLog } from './logger.js';
 
 let ndk;
 
@@ -19,7 +20,7 @@ export function getNdk() {
 }
 
 export async function connectToNostr(nostrPrivateKey) {
-  console.log('Connecting to Nostr relays...');
+  appLog.info('Connecting to Nostr relays...');
 
   ndk = new NDK({
     explicitRelayUrls: explicitRelayUrls,
@@ -27,7 +28,7 @@ export async function connectToNostr(nostrPrivateKey) {
   });
 
   await ndk.connect(2000);
-  console.log('Successfully connected to Nostr');
+  appLog.info('Successfully connected to Nostr');
 }
 
 export async function createAuthorizationEvent(ndkInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
@@ -84,7 +85,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
     throw new Error('NDK instance is not initialized. Call connectToNostr() first or pass ndkInstance parameter.');
   }
   const hash = await calculateFileHash(file);
-  console.log(`Uploading cast file to Blossom: ${hash}`);
+  appLog.info(`Uploading cast file to Blossom: ${hash}`);
 
   const tags = [
     ['name', file.name],
@@ -107,11 +108,11 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
 
     if (!response.ok) {
       const errorText = await response.text();
-      console.log('**** error response body:', errorText);
+      appLog.error('**** error response body:', errorText);
       throw new Error(errorText);
     }
 
-    console.log(`Cast file uploaded to Blossom successfully: ${hash}`);
+    appLog.info(`Cast file uploaded to Blossom successfully: ${hash}`);
     return hash;
 
   } catch (error) {
@@ -123,7 +124,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
 }
 
 export async function getAllAssetInformation() {
-  console.log('Getting wallet information from Nostr...');
+  appLog.info('Getting wallet information from Nostr...');
 
   const filter_assets = {
     kinds: [assetRegistrationKind],
@@ -170,7 +171,7 @@ export async function getAllAssetInformation() {
     }
   });
 
-  console.log('Information retrieved successfully');
+  appLog.info('Information retrieved successfully');
 
   return {
     assets: assetsMap,
@@ -243,7 +244,7 @@ export async function createVerification(ndkInstance, {
   ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
   ndkEvent.tags = [...tags, ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]];
 
-  console.log('Sending verification to Nostr...', ndkEvent.rawEvent());
+  appLog.info('Sending verification to Nostr...', ndkEvent.rawEvent());
   return await publishNdkEvent(ndkEvent);
 }
 
@@ -254,14 +255,14 @@ function isDebugEnv() {
 async function publishNdkEvent(ndkEvent) {
   try {
     const publishedToRelays = await ndkEvent.publish();
-    console.debug(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
+    appLog.info(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
     return ndkEvent;
   } catch (error) {
-    console.error(`Error publishing verification to relays`, error);
+    appLog.error(`Error publishing verification to relays`, error);
     
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
-        console.error(`Error publishing verification to relay ${relay.url}`, err);
+        appLog.error(`Error publishing verification to relay ${relay.url}`, err);
       }
     }
 

@@ -17,6 +17,7 @@ import {
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import PQueue from 'p-queue';
+import { appLog, jobsLog } from './logger.js';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
@@ -32,7 +33,7 @@ const HOURS_BETWEEN_EXECUTIONS = 24;
 
 const nostrPrivateKey = process.env.NOSTR_PRIVATE_KEY || '0000000000000000000000000000000000000000000000000000000000000001';
 if (!nostrPrivateKey) {
-  console.error('Error: NOSTR_PRIVATE_KEY environment variable is required');
+  appLog.error('Error: NOSTR_PRIVATE_KEY environment variable is required');
   process.exit(1);
 }
 
@@ -48,10 +49,10 @@ const queue = new PQueue({
   throwOnTimeout: true
 });
 queue.on('active', () => {
-  console.log('Works in queue:', queue.size, ' - pending:', queue.pending, ' - running:', queue.runningTasks);
+  appLog.info(`Works in queue: ${queue.size} - pending: ${queue.pending} - running: ${JSON.stringify(queue.runningTasks)}`);
 });
 queue.on('error', error => {
-	console.error(error);
+	appLog.error(error);
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error running the script
 });
 
@@ -75,7 +76,7 @@ function compareVersions(a, b) {
 
 async function fetchAppInfo() {
   try {
-    console.log(`Fetching app info from ${appInfoURL}...`);
+    appLog.info(`Fetching app info from ${appInfoURL}...`);
     const response = await fetch(appInfoURL);
     
     if (!response.ok) {
@@ -83,33 +84,32 @@ async function fetchAppInfo() {
     }
     
     const appInfo = await response.json();
-    console.log('App info fetched successfully');
+    appLog.info('App info fetched successfully');
     return appInfo;
   } catch (error) {
-    console.error(`Error fetching app info from ${appInfoURL}:`, error);
+    appLog.error(`Error fetching app info from ${appInfoURL}:`, error);
     throw error;
   }
 }
 
 async function mainProcess(githubToken) {
-  console.log('=== Build Server App ===');
-  console.log(`Starting process: ${new Date().toISOString()}\n`);
+  appLog.info('=== Build Server App ===');
 
   try {
     // First, refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);
-    console.log(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)\n`);
+    appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
 
     // Fetch app info for build server
     const appInfo = await fetchAppInfo();
-    console.log('');
+    appLog.info('');
 
     await connectToNostr(nostrPrivateKey);
-    console.log('');
+    appLog.info('');
 
     // Get all asset information
     const assetInfo = await getAllAssetInformation();
-    console.log('');
+    appLog.info('');
 
     // Process verifications
     const reproducibleVerifications = [];
@@ -137,11 +137,11 @@ async function mainProcess(githubToken) {
       }
     }
 
-    console.log(`=== Reproducible Verifications ===`);
-    console.log(`Total found: ${reproducibleVerifications.length}\n`);
+    appLog.info(`=== Reproducible Verifications ===`);
+    appLog.info(`Total found: ${reproducibleVerifications.length}`);
 
     if (reproducibleVerifications.length === 0) {
-      console.log('No reproducible verifications found.');
+      appLog.info('No reproducible verifications found.');
       return;
     }
 
@@ -190,29 +190,26 @@ async function mainProcess(githubToken) {
       let walletInfo = null;
       if (legacyPlatform === 'desktop' && refreshResults.desktop[appId]) {
         walletInfo = refreshResults.desktop[appId];
-        // console.log(`Found wallet in desktop refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
+        // appLog.info(`Found wallet in desktop refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
       } else if (legacyPlatform === 'hardware' && refreshResults.hardware[appId]) {
         walletInfo = refreshResults.hardware[appId];
-        // console.log(`Found wallet in hardware refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
+        // appLog.info(`Found wallet in hardware refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
       } else {
-        console.log(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
+        appLog.error(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
       }
 
       if (compareVersions(walletInfo.latestVersion, "v29.1.knots20251010") > 0) {
-        console.log(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
+        appLog.info(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
         await processVerification(highestVersion.verification, walletInfo.latestVersion, appInfo);
       } else {
-        console.log(`Wallet ${appId} doesn't have a newer version: ${walletInfo.latestVersion} (wallet repo) <= ${highestVersion.version} (latest verification). Skipping...`);
+        appLog.info(`Wallet ${appId} doesn't have a newer version: ${walletInfo.latestVersion} (wallet repo) <= ${highestVersion.version} (latest verification). Skipping...`);
         continue;
       }
     }
 
   } catch (error) {
-    console.error('Error during process:', error);
+    appLog.error('Error during process:', error);
     throw error;
-  } finally {
-    console.log('\nCleaning up connections...');
-    cleanupNdkConnections();
   }
 }
 
@@ -233,7 +230,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
     
     if (fileAttachmentIds.length === 0) {
-      console.log(`${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
+      appLog.info(`${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
       return;
     }
 
@@ -289,13 +286,13 @@ fi`;
         // Make the file executable
         fs.chmodSync(scriptWithPath, 0o755);
 
-        console.log(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
 
         const appInfoFromWS = appInfo[legacyPlatform][appId];
         const architectures = appInfoFromWS.architectures;
         const types = appInfoFromWS.types;
-        console.log('  *** architectures:', architectures);
-        console.log('  *** types:', types);
+        appLog.info(`  *** architectures: ${architectures}`);
+        appLog.info(`  *** types: ${types}`);
 
         // Ensure at least one iteration even if arrays are empty
         const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
@@ -303,12 +300,12 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
-            console.log(`\n  *** Queueing job to execute script. Architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***\n`);
+            appLog.info(`  *** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
             const job = queue.add(() => execScript(scriptWithPath, newWalletVersion, architecture, type));
-            job.catch(err => console.error('Script execution job failed:', err));
+            job.catch(err => appLog.error('Script execution job failed:', err));
             job.then(async res => {
-              console.log('Script execution job finished successfully:', res);
+              appLog.info('Script execution job finished successfully:', res);
               const {castFileName, finalScriptExecutionCommand} = res;
 
               // Upload the asciicast file to Blossom server
@@ -318,7 +315,7 @@ fi`;
               try {
                 castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
               } catch (error) {
-                console.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+                appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
                 return;
               }
 
@@ -347,12 +344,12 @@ fi`;
                 platform: platform
               };
 
-              // console.log(`Creating verification for ${appId}:`, formData);
+              // appLog.info(`Creating verification for ${appId}:`, formData);
 
               try {
                 await createVerification(ndkInstance, formData);
               } catch (error) {
-                console.error(`Error creating verification for ${appId}:`, error);
+                appLog.error(`Error creating verification for ${appId}:`, error);
               }
             });
           }
@@ -361,7 +358,7 @@ fi`;
     }
 
   } catch (error) {
-    console.error(`Error processing verification ${verification.id}:`, error);
+    appLog.error(`Error processing verification ${verification.id}:`, error);
   }
 }
 
@@ -375,11 +372,10 @@ async function execScript(script, newWalletVersion, architecture, type) {
     const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
 
     let castFileName = script.replace(/\.sh$/, '');
-    castFileName += `_${architecture}_${type}`;
-    castFileName += '.cast';
+    castFileName += `_${architecture}_${type}.cast`;
 
-    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    console.log(`Recording and executing script... ${asciinemaCommand}`);
+    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 5; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
+    jobsLog.info(`Recording and executing script... ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
         // Ensure PATH includes standard system directories for rootless container tools
@@ -391,8 +387,10 @@ async function execScript(script, newWalletVersion, architecture, type) {
       maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
     }, (error, stdout, stderr) => {
       if (error) {
+        jobsLog.error(`Error recording and executing script: ${error}`);
         reject(error);
       } else {
+        jobsLog.info(`Script recorded and executed successfully: ${castFileName}`);
         resolve({castFileName: castFileName, finalScriptExecutionCommand: finalScriptExecutionCommand});
       }
     });
@@ -403,9 +401,9 @@ async function execScript(script, newWalletVersion, architecture, type) {
 const githubToken = process.argv[2] || process.env.GITHUB_TOKEN;
 
 if (!githubToken) {
-  console.error('Error: GitHub token is required');
-  console.error('Usage: node index.mjs <github_token>');
-  console.error('Or set GITHUB_TOKEN environment variable');
+  appLog.error('Error: GitHub token is required');
+  appLog.error('Usage: node index.mjs <github_token>');
+  appLog.error('Or set GITHUB_TOKEN environment variable');
   process.exit(1);
 }
 
@@ -417,9 +415,9 @@ while (true) {
   try {
     await mainProcess(githubToken);
   } catch (error) {
-    console.error('Error during execution:', error);
+    appLog.error('Error during execution:', error);
   }
   
-  console.log(`\n******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n\n`);
+  appLog.info(`\n******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n\n`);
   await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
 }

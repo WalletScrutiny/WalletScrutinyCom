@@ -8,6 +8,7 @@
 import { spawn } from 'child_process';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { appLog } from './logger.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -23,7 +24,7 @@ async function runRefreshScript(scriptName, githubToken) {
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', `${scriptName}.mjs`);
     const args = ['-r', '-n', '-g', githubToken]; // -r for report, -n for dry run, -g for github token
     
-    console.log(`  * Running ${scriptName}...`);
+    appLog.info(`  * Running ${scriptName}...`);
     
     const child = spawn('node', [scriptPath, ...args], {
       stdio: ['pipe', 'pipe', 'pipe'],
@@ -93,7 +94,7 @@ function parseRefreshOutput(output) {
  */
 export async function refreshApps(githubToken) {
   try {
-    console.log('Refreshing desktop and hardware wallet versions...');
+    appLog.info('Refreshing desktop and hardware wallet versions...');
     
     // Run both scripts in parallel
     const [desktopApps, hardwareApps] = await Promise.all([
@@ -107,12 +108,12 @@ export async function refreshApps(githubToken) {
       total: Object.keys(desktopApps).length + Object.keys(hardwareApps).length
     };
     
-    console.log(`Refresh completed: ${Object.keys(desktopApps).length} desktop apps, ${Object.keys(hardwareApps).length} hardware apps`);
+    appLog.info(`Refresh completed: ${Object.keys(desktopApps).length} desktop apps, ${Object.keys(hardwareApps).length} hardware apps`);
     
     return result;
     
   } catch (error) {
-    console.error('Error refreshing apps:', error.message);
+    appLog.error('Error refreshing apps:', error.message);
     throw error;
   }
 }
