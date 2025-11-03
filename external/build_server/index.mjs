@@ -47,13 +47,16 @@ const queue = new PQueue({
   timeout: queueTimeoutHours * 60 * 60 * 1000,
   throwOnTimeout: true
 });
-queue.on('active', () => {
-  appLog.info(`Works in queue: ${queue.size} - pending: ${queue.pending} - running: ${JSON.stringify(queue.runningTasks)}`);
-});
+queue.on('active', () => logQueueInfo());
+queue.on('next', () => logQueueInfo());
 queue.on('error', error => {
-	appLog.error(error);
+	jobsLog.error(error);
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error running the script
 });
+function logQueueInfo() {
+  jobsLog.info(` ** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+}
+
 
 // Helper to compare semantic versions like "1.2.3"
 function compareVersions(a, b) {
@@ -290,8 +293,8 @@ fi`;
         const appInfoFromWS = appInfo[legacyPlatform][appId];
         const architectures = appInfoFromWS.architectures;
         const types = appInfoFromWS.types;
-        appLog.info(`  *** architectures: ${architectures}`);
-        appLog.info(`  *** types: ${types}`);
+        appLog.info(` *** architectures: ${architectures}`);
+        appLog.info(` *** types: ${types}`);
 
         // Ensure at least one iteration even if arrays are empty
         const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
@@ -299,12 +302,11 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
-            appLog.info(`  *** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+            appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
             const job = queue.add(() => execScript(scriptWithPath, newWalletVersion, architecture, type));
             job.catch(err => appLog.error('Script execution job failed:', err));
             job.then(async res => {
-              appLog.info('Script execution job finished successfully:', res);
               const {castFileName, finalScriptExecutionCommand} = res;
 
               // Upload the asciicast file to Blossom server
@@ -373,8 +375,8 @@ async function execScript(script, newWalletVersion, architecture, type) {
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `_${architecture}_${type}.cast`;
 
-    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 5; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    jobsLog.info(`Recording and executing script... ${asciinemaCommand}`);
+    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
+    jobsLog.info(`Recording and executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
         // Ensure PATH includes standard system directories for rootless container tools
@@ -417,6 +419,7 @@ while (true) {
     appLog.error('Error during execution:', error);
   }
   
-  appLog.info(`\n******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n\n`);
+  appLog.info('');
+  appLog.info(`******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n`);
   await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
 }
