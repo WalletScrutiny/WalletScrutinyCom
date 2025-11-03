@@ -207,9 +207,7 @@ export async function createVerification(ndkInstance, {
   outputFiles = [],
   basedOn = null
 }) {
-  appLog.info('Reconnecting to Nostr to send verification...');
   await ndkInstance.connect(2000);
-  appLog.info('Successfully reconnected to Nostr to send verification');
 
   const fullContent = JSON.stringify({
     description: description || '',
