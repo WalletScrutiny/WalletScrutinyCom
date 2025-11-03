@@ -207,6 +207,10 @@ export async function createVerification(ndkInstance, {
   outputFiles = [],
   basedOn = null
 }) {
+  appLog.info('Reconnecting to Nostr to send verification...');
+  await ndkInstance.connect(2000);
+  appLog.info('Successfully reconnected to Nostr to send verification');
+
   const fullContent = JSON.stringify({
     description: description || '',
     content: content,
@@ -269,24 +273,3 @@ async function publishNdkEvent(ndkEvent) {
     return null;
   }
 }
-
-export function cleanupNdkConnections() {
-  if (ndk) {
-    try {
-      let closedConnections = 0;
-      for (const relay of ndk.pool.relays.values()) {
-        if (relay.connectivity.status === 5) {
-          relay.disconnect();
-          closedConnections++;
-        }
-      }
-      ndk.pool.relays.clear();
-      console.log(`Connections closed: ${closedConnections}`);
-    } catch (error) {
-      console.error("Error during cleanup:", error);
-    }
-    ndk = null;
-  }
-}
-
-

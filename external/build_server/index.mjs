@@ -9,7 +9,6 @@ import {
   getAllAssetInformation,
   getFileAttachmentIDsForVerificationEvent,
   getEventsFromEventIds,
-  cleanupNdkConnections,
   uploadBlobToBlossomServer,
   createVerification,
   getNdk
