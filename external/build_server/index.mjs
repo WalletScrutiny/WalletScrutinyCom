@@ -11,11 +11,12 @@ import {
   getEventsFromEventIds,
   cleanupNdkConnections,
   uploadBlobToBlossomServer,
-  createVerification
+  createVerification,
+  getNdk
 } from './nostr-utils.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
-import { getBlossomFileURL } from '../../src/blossom-utils.js';
+import PQueue from 'p-queue';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
@@ -27,6 +28,8 @@ const DEBUG_APP_IDS = [
 
 const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
+const HOURS_BETWEEN_EXECUTIONS = 24;
+
 const nostrPrivateKey = process.env.NOSTR_PRIVATE_KEY || '0000000000000000000000000000000000000000000000000000000000000001';
 if (!nostrPrivateKey) {
   console.error('Error: NOSTR_PRIVATE_KEY environment variable is required');
@@ -37,10 +40,20 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const SCRIPTS_DIR = path.join(__dirname, 'scripts');
 
-// Create scripts directory if it doesn't exist
-if (!fs.existsSync(SCRIPTS_DIR)) {
-  fs.mkdirSync(SCRIPTS_DIR, { recursive: true });
-}
+const queueTimeoutHours = 6;
+
+const queue = new PQueue({
+  concurrency: 3,
+  timeout: queueTimeoutHours * 60 * 60 * 1000,
+  throwOnTimeout: true
+});
+queue.on('active', () => {
+  console.log('Works in queue:', queue.size, ' - pending:', queue.pending, ' - running:', queue.runningTasks);
+});
+queue.on('error', error => {
+	console.error(error);
+  // TODO: We can potentially send a Nostr notification to the user to inform them about the error running the script
+});
 
 // Helper to compare semantic versions like "1.2.3"
 function compareVersions(a, b) {
@@ -290,58 +303,58 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
-            console.log(`\n    *** Architecture: ${architecture}, Type: ${type} ***\n`);
+            console.log(`\n  *** Queueing job to execute script. Architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***\n`);
 
-            console.log(`Running script: ${scriptWithPath} with new wallet version: ${newWalletVersion}, architecture: ${architecture}, type: ${type}`);
-            const {castFileName, finalScriptExecutionCommand} = await execScript(scriptWithPath, newWalletVersion, architecture, type);
-            console.debug(`Asciinema file recorded: ${castFileName}`);
+            const job = queue.add(() => execScript(scriptWithPath, newWalletVersion, architecture, type));
+            job.catch(err => console.error('Script execution job failed:', err));
+            job.then(async res => {
+              console.log('Script execution job finished successfully:', res);
+              const {castFileName, finalScriptExecutionCommand} = res;
 
-            // Upload the asciicast file to Blossom server
-            const castFileContent = fs.readFileSync(castFileName, 'utf8');
-            const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
-            let castFileHash = null;
-            try {
-              castFileHash = await uploadBlobToBlossomServer(castFile);
-              const castFileURL = getBlossomFileURL(castFileHash);
-              console.log(`Blossom server cast URL: ${castFileURL}`);
-            } catch (error) {
-              console.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
-              continue;
-            }
+              // Upload the asciicast file to Blossom server
+              const castFileContent = fs.readFileSync(castFileName, 'utf8');
+              const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
+              let castFileHash = null;
+              try {
+                castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
+              } catch (error) {
+                console.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+                return;
+              }
 
-            let status = 'not_reproducible';
-            if (castFileContent.includes('scriptrc=0')) {
-              status = 'reproducible';
-            }
+              let status = 'not_reproducible';
+              if (castFileContent.includes('scriptrc=0')) {
+                status = 'reproducible';
+              }
 
-            let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
-            let content = `Automatic verification for wallet version ${newWalletVersion} with architecture ${architecture} and type ${type}, based on verification ${verification.id}. `;
-            content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+              let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
+              let content = `Automatic verification for wallet version ${newWalletVersion} with architecture ${architecture} and type ${type}, based on verification ${verification.id}. `;
+              content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
-            const formData = {
-              // Changed values
-              basedOn: verification.id,
-              version: newWalletVersion,
-              status: status,
-              hashes: [],
-              description: description,
-              content: content,
-              outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
-              reusedFileIds: fileEventIdsForSHFiles,
-              isDraft: false,
-              // Original verification values
-              appId: appId,
-              platform: platform
-            };
+              const formData = {
+                // Changed values
+                basedOn: verification.id,
+                version: newWalletVersion,
+                status: status,
+                hashes: [],
+                description: description,
+                content: content,
+                outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
+                reusedFileIds: fileEventIdsForSHFiles,
+                isDraft: false,
+                // Original verification values
+                appId: appId,
+                platform: platform
+              };
 
-            console.log(`Creating verification for ${appId}:`, formData);
+              // console.log(`Creating verification for ${appId}:`, formData);
 
-            try {
-              // TODO: try to use dev environment Nostr
-              await createVerification(formData);
-            } catch (error) {
-              console.error(`Error creating verification for ${appId}:`, error);
-            }
+              try {
+                await createVerification(ndkInstance, formData);
+              } catch (error) {
+                console.error(`Error creating verification for ${appId}:`, error);
+              }
+            });
           }
         }
       }
@@ -396,10 +409,17 @@ if (!githubToken) {
   process.exit(1);
 }
 
-try {
-  await processReproducibleVerifications(githubToken);
-  process.exit(0);
-} catch (error) {
-  console.error('Fatal error:', error);
-  process.exit(1);
+if (!fs.existsSync(SCRIPTS_DIR)) {
+  fs.mkdirSync(SCRIPTS_DIR, { recursive: true });
+}
+
+while (true) {
+  try {
+    await mainProcess(githubToken);
+  } catch (error) {
+    console.error('Error during execution:', error);
+  }
+  
+  console.log(`\n******** Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution...\n\n`);
+  await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
 }
