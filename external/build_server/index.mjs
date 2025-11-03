@@ -21,8 +21,7 @@ global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
 const DEBUG_APP_IDS = [
-  // Example: 'com.example.app',
-  // Example: 'org.bitcoin.wallet',
+  // Example: 'com.example.app', 'org.bitcoin.wallet',
   'bitcoinknots'
 ];
 
@@ -79,10 +78,7 @@ async function fetchAppInfo() {
   }
 }
 
-/**
- * Main function to process reproducible verifications
- */
-async function processReproducibleVerifications(githubToken) {
+async function mainProcess(githubToken) {
   console.log('=== Build Server App ===');
   console.log(`Starting process: ${new Date().toISOString()}\n`);
 
@@ -154,8 +150,6 @@ async function processReproducibleVerifications(githubToken) {
     }
 
     // Sort versions for each appId (highest first) and take only the first one
-    let totalSkipped = 0;
-
     for (const [appId, verifications] of verificationsByAppId) {
       // Sort by version (descending - highest first)
       verifications.sort((a, b) => {
@@ -200,8 +194,6 @@ async function processReproducibleVerifications(githubToken) {
       }
     }
 
-    console.log('\n=== Process completed ===');
-
   } catch (error) {
     console.error('Error during process:', error);
     throw error;
@@ -213,6 +205,12 @@ async function processReproducibleVerifications(githubToken) {
 
 async function processVerification(verification, newWalletVersion, appInfo) {
   try {
+    // Capture ndk instance at the start to ensure it's available in async callbacks
+    const ndkInstance = getNdk();
+    if (!ndkInstance) {
+      throw new Error('NDK instance is not initialized');
+    }
+
     const appId = getFirstTagValue(verification, 'i');
     const version = getFirstTagValue(verification, 'version');
     const platform = getFirstTagValue(verification, 'platform');
@@ -283,7 +281,7 @@ fi`;
         const appInfoFromWS = appInfo[legacyPlatform][appId];
         const architectures = appInfoFromWS.architectures;
         const types = appInfoFromWS.types;
-        console.log('\n  *** architectures:', architectures);
+        console.log('  *** architectures:', architectures);
         console.log('  *** types:', types);
 
         // Ensure at least one iteration even if arrays are empty
@@ -368,8 +366,8 @@ async function execScript(script, newWalletVersion, architecture, type) {
     castFileName += '.cast';
 
     const asciinemaCommand = `asciinema rec --overwrite -c "sleep 1; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    console.log(`Recording script execution: ${asciinemaCommand}`);
-    exec(asciinemaCommand, { 
+    console.log(`Recording and executing script... ${asciinemaCommand}`);
+    exec(asciinemaCommand, {
       env: {
         // Ensure PATH includes standard system directories for rootless container tools
         PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',

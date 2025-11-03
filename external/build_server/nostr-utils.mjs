@@ -4,27 +4,38 @@ import {
   verificationKind,
   verificationDraftKind,
   explicitRelayUrls,
-  verificationEventsSinceTS
+  verificationEventsSinceTS,
+  wsBotPublicKey,
+  nip89ClientTagD,
+  mainRelayUrl
 } from '../../src/nostr-constants.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { blossomServerUrl } from '../../src/blossom-utils.js';
-import { calculateFileHash } from '../../src/drag-and-drop-utils.js';
 
 let ndk;
 
+export function getNdk() {
+  return ndk;
+}
+
 export async function connectToNostr(nostrPrivateKey) {
+  console.log('Connecting to Nostr relays...');
+
   ndk = new NDK({
     explicitRelayUrls: explicitRelayUrls,
     signer: new NDKPrivateKeySigner(nostrPrivateKey)
   });
 
-  console.log('Connecting to Nostr relays...');
   await ndk.connect(2000);
   console.log('Successfully connected to Nostr');
 }
 
-export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const event = new NDKEvent(ndk, {
+export async function createAuthorizationEvent(ndkInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+  if (!ndkInstance) {
+    throw new Error('NDK instance is required for createAuthorizationEvent');
+  }
+
+  const event = new NDKEvent(ndkInstance, {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
     tags: [
@@ -47,22 +58,31 @@ export async function createAuthorizationEvent(verb, content, xTags = [], server
     event.tags.push(['server', serverUrl]);
   }
 
-  console.log('**** event:', event.toString());
+  event.sig = await event.sign();
 
-  return await event.sign();
+  return event;
 }
 
-export async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const signedEvent = await createAuthorizationEvent(verb, content, xTags, serverUrl, tags);
-  console.log('**** signedEvent:', signedEvent.toString());
+export async function createAuthorizationHeader(ndkInstance, verb, content, xTags = [], serverUrl = '', tags = []) {
+  const signedEvent = await createAuthorizationEvent(ndkInstance, verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
-  console.log('**** eventJson:', eventJson);
   const eventBase64 = btoa(eventJson);
-  console.log('**** eventBase64:', eventBase64);
   return 'Nostr ' + eventBase64;
 }
 
-export async function uploadBlobToBlossomServer(file) {
+async function calculateFileHash(file) {
+  const arrayBuffer = await file.arrayBuffer();
+  const crypto = await import("crypto");
+  const { Buffer } = await import("buffer");
+  const buffer = Buffer.from(arrayBuffer);
+  return crypto.createHash("sha256").update(buffer).digest("hex");
+}
+
+export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
+  const ndkToUse = ndkInstance || ndk;
+  if (!ndkToUse) {
+    throw new Error('NDK instance is not initialized. Call connectToNostr() first or pass ndkInstance parameter.');
+  }
   const hash = await calculateFileHash(file);
   console.log(`Uploading cast file to Blossom: ${hash}`);
 
@@ -71,20 +91,15 @@ export async function uploadBlobToBlossomServer(file) {
     ['size', file.size.toString()],
   ];
 
-  const authHeader = await createAuthorizationHeader('upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
-  console.log('**** authHeader:', authHeader);
+  const authHeader = await createAuthorizationHeader(ndkToUse, 'upload', `Upload blob ${hash}`, [hash], blossomServerUrl, tags);
 
   const headers = {
     'Content-Type': file.type || 'application/octet-stream',
     'Authorization': authHeader,
   };
 
-  const url = `${blossomServerUrl}/upload`;
-  console.log('**** url:', url);
-  console.log('**** headers:', headers);
-
   try {
-    const response = await fetch(url, {
+    const response = await fetch(`${blossomServerUrl}/upload`, {
       method: 'PUT',
       headers: headers,
       body: file
@@ -96,7 +111,9 @@ export async function uploadBlobToBlossomServer(file) {
       throw new Error(errorText);
     }
 
-    return await response.json();
+    console.log(`Cast file uploaded to Blossom successfully: ${hash}`);
+    return hash;
+
   } catch (error) {
     if (error.message.includes('HTTP Error')) {
       throw error;
@@ -175,8 +192,8 @@ export async function getEventsFromEventIds(eventIds) {
   });
 }
 
-// Mini-version of the createVerification function from verifications_utils.mjs
-export async function createVerification({
+// Simplified version of the createVerification function from verifications_utils.mjs
+export async function createVerification(ndkInstance, {
   hashes,
   description,
   content,
@@ -185,46 +202,10 @@ export async function createVerification({
   version,
   platform,
   createdAt = null,
-  draftVerificationEventId = null,
   reusedFileIds = [],
   outputFiles = [],
   basedOn = null
 }) {
-  // validateParameterLengths({ appId, version, platform, description, content, issueTrackerUrl });
-
-  // --- Upload Files Before Main Event Creation ---
-  /*
-  let fileUploadResults = [];
-  let fileEventIds = [];
-  if (uploadedFileData.length > 0) {
-    console.log(`Uploading ${uploadedFileData.length} attached file(s) before creating verification...`);
-    const uploadPromises = uploadedFileData.map(fileData =>
-      uploadFileAttachment({
-        fileName: fileData.name,
-        fileType: fileData.type,
-        fileSize: fileData.size,
-        base64Data: fileData.base64Data
-      })
-    );
-    fileUploadResults = await Promise.all(uploadPromises);
-    console.log("File upload process completed.", fileUploadResults);
-
-    // Collect successful file event IDs
-    fileUploadResults.forEach(result => {
-      if (result.success && result.eventId) {
-        fileEventIds.push(result.eventId);
-      }
-    });
-
-    // Handle potential upload failures
-    const failedUploads = fileUploadResults.filter(r => !r.success);
-    if (failedUploads.length > 0) {
-      console.error("Some file uploads failed:", failedUploads);
-      throw new Error(`Failed to upload file(s): ${failedUploads.map(f => f.fileName).join(', ')}`);
-    }
-  }
-    */
-
   const fullContent = JSON.stringify({
     description: description || '',
     content: content,
@@ -256,26 +237,36 @@ export async function createVerification({
     tags.push(["based-on", basedOn]);
   }
 
-  const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = verificationKind;
+  const ndkEvent = new NDKEvent(ndkInstance);
+  ndkEvent.kind = isDebugEnv() ? 32304 : 30301;
   ndkEvent.content = fullContent;
   ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
   ndkEvent.tags = [...tags, ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]];
 
-  console.log('**** ndkEvent:', ndkEvent.rawEvent());
+  console.log('Sending verification to Nostr...', ndkEvent.rawEvent());
+  return await publishNdkEvent(ndkEvent);
+}
 
-  return;
+function isDebugEnv() {
+  return true;
+}
 
-  await publishNdkEvent(ndkEvent, 'verification');
-
-  if (!isDraft && draftVerificationEventId) {
-    const draftVerificationEvent = await getVerificationEvent(draftVerificationEventId);
-    if (draftVerificationEvent) {
-      await draftVerificationEvent.delete('deleting draft, as verification was published', true);
+async function publishNdkEvent(ndkEvent) {
+  try {
+    const publishedToRelays = await ndkEvent.publish();
+    console.debug(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
+    return ndkEvent;
+  } catch (error) {
+    console.error(`Error publishing verification to relays`, error);
+    
+    if (error instanceof NDKPublishError) {
+      for (const [relay, err] of error.errors) {
+        console.error(`Error publishing verification to relay ${relay.url}`, err);
+      }
     }
-  }
 
-  return ndkEvent;
+    return null;
+  }
 }
 
 export function cleanupNdkConnections() {
