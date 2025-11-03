@@ -17,6 +17,7 @@ import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import PQueue from 'p-queue';
 import { appLog } from './logger.js';
+import minimist from 'minimist';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
@@ -29,12 +30,6 @@ const DEBUG_APP_IDS = [
 const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
 const HOURS_BETWEEN_EXECUTIONS = 24;
-
-const nostrPrivateKey = process.env.NOSTR_PRIVATE_KEY || '0000000000000000000000000000000000000000000000000000000000000001';
-if (!nostrPrivateKey) {
-  appLog.error('Error: NOSTR_PRIVATE_KEY environment variable is required');
-  process.exit(1);
-}
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -94,7 +89,7 @@ async function fetchAppInfo() {
   }
 }
 
-async function mainProcess(githubToken) {
+async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('======= Starting Build Server App =======');
 
   try {
@@ -106,7 +101,7 @@ async function mainProcess(githubToken) {
     const appInfo = await fetchAppInfo();
     appLog.info('');
 
-    await connectToNostr(nostrPrivateKey);
+    await connectToNostr(wsBotNostrPrivateKey);
     appLog.info('');
 
     // Get all asset information
@@ -396,13 +391,17 @@ async function execScript(script, newWalletVersion, architecture, type) {
   });
 }
 
-// Get GitHub token from command line arguments or environment
-const githubToken = process.argv[2] || process.env.GITHUB_TOKEN;
+const args = minimist(process.argv.slice(2));
+const githubToken = args.githubToken;
+const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
 
 if (!githubToken) {
-  appLog.error('Error: GitHub token is required');
-  appLog.error('Usage: node index.mjs <github_token>');
-  appLog.error('Or set GITHUB_TOKEN environment variable');
+  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token>');
+  process.exit(1);
+}
+
+if (!wsBotNostrPrivateKey) {
+  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key>');
   process.exit(1);
 }
 
@@ -412,7 +411,7 @@ if (!fs.existsSync(SCRIPTS_DIR)) {
 
 while (true) {
   try {
-    await mainProcess(githubToken);
+    await mainProcess(githubToken, wsBotNostrPrivateKey);
   } catch (error) {
     appLog.error('Error during execution:', error);
   }
