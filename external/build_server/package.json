@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.18.1",
+    "p-queue": "^9.0.0",
     "ws": "^8.18.3"
   },
   "engines": {
