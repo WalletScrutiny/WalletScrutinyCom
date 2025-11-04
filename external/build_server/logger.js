@@ -34,3 +34,4 @@ function makeLogger(serviceName, level = 'info') {
 }
 
 export const appLog = makeLogger('app');
+export const verificationsLog = makeLogger('verifications');

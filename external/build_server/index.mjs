@@ -16,7 +16,7 @@ import {
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import PQueue from 'p-queue';
-import { appLog } from './logger.js';
+import { appLog, verificationsLog } from './logger.js';
 import minimist from 'minimist';
 import WebSocket from 'ws';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
@@ -33,7 +33,8 @@ const HOURS_BETWEEN_EXECUTIONS = 24;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const SCRIPTS_DIR = path.join(__dirname, 'scripts');
+const BUILD_DIR_PREFIX = path.join(__dirname, '..', 'build_server_build_dir');
+let buildDirForThisVerification = null;
 
 const queueTimeoutHours = 6;
 
@@ -90,7 +91,7 @@ async function fetchAppInfo() {
 }
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
-  appLog.info('======= Starting mainProcess =======');
+  appLog.info('------- Starting mainProcess -------');
 
   try {
     // First, refresh desktop and hardware apps to get latest versions
@@ -104,11 +105,9 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     await connectToNostr(wsBotNostrPrivateKey);
     appLog.info('');
 
-    // Get all asset information
     const assetInfo = await getAllAssetInformation();
     appLog.info('');
 
-    // Process verifications
     const reproducibleVerifications = [];
     
     // Iterate over all verifications
@@ -126,7 +125,6 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
         if (
           getFirstTagValue(verification, 'status') === 'reproducible' &&
-          getFirstTagValue(verification, 'platform') !== 'windows' &&
           ['hardware', 'desktop', 'linux', 'windows', 'macos'].includes(getFirstTagValue(verification, 'platform'))
         ) {
           reproducibleVerifications.push(verification);
@@ -147,7 +145,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     
     for (const verification of reproducibleVerifications) {
       const appId = getFirstTagValue(verification, 'i');
-      const version = getFirstTagValue(verification, 'version');
+      let version = getFirstTagValue(verification, 'version');
+      version = version.replace(/^v/i, '');
       
       if (!verificationsByAppId.has(appId)) {
         verificationsByAppId.set(appId, []);
@@ -161,12 +160,12 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     // Sort versions for each appId (highest first) and take only the first one
     for (const [appId, verifications] of verificationsByAppId) {
-      // Sort by version (descending - highest first)
+      // Sort by version (descending - highest first), then by created_at (descending - newest first)
       verifications.sort((a, b) => {
         // Simple version comparison - assumes semantic versioning
         const aParts = a.version.split('.').map(Number);
         const bParts = b.version.split('.').map(Number);
-        
+
         for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
           const aPart = aParts[i] || 0;
           const bPart = bParts[i] || 0;
@@ -175,12 +174,15 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
             return bPart - aPart; // Descending order
           }
         }
-        return 0;
+        // If versions are equal, sort by created_at (descending - newest first)
+        const aCreatedAt = a.verification.created_at || 0;
+        const bCreatedAt = b.verification.created_at || 0;
+        return bCreatedAt - aCreatedAt;
       });
 
       // Take only the first (highest) verification for the appId
       const highestVersion = verifications[0];
-      
+
       let platform = getFirstTagValue(highestVersion.verification, 'platform');
       let legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
@@ -244,47 +246,6 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       if (extension === 'sh') {
         fileEventIdsForSHFiles.push(fileEvent.id);
 
-        // Create unique filename
-        const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
-        const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-        const scriptWithPath = path.join(SCRIPTS_DIR, outputFileName);
-
-        // Decode and save the file
-        const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-        //fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
-        
-        // Temporary bash content that randomly returns exit code 0 or -1
-        const tempBashContent = `#!/bin/bash
-
-while [[ "$#" -gt 0 ]]; do
-  case $1 in
-    --version) version="$2"; shift ;;
-    --type) type="$2"; shift ;;
-    --arch) arch="$2"; shift ;;
-    --apk) apk="$2"; shift ;;
-  esac
-  shift
-done
-echo "version: $version, type: $type, arch: $arch, apk: $apk"
-
-# Temporary script that randomly returns exit code 0 or -1
-RANDOM_EXIT_CODE=$((RANDOM % 2))
-if [ $RANDOM_EXIT_CODE -eq 0 ]; then
-    echo "Random success (exit code 0)"
-    exit 0
-else
-    echo "Random failure (exit code 6)"
-    exit 6
-fi`;
-        fs.writeFileSync(scriptWithPath, tempBashContent, 'utf8');
-
-        // Make the file executable
-        fs.chmodSync(scriptWithPath, 0o755);
-
-        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
-
         const appInfoFromWS = appInfo[legacyPlatform][appId];
         const architectures = appInfoFromWS.architectures;
         const types = appInfoFromWS.types;
@@ -297,12 +258,74 @@ fi`;
 
         for (const architecture of architecturesToIterate) {
           for (const type of typesToIterate) {
+
+            // Create unique filename
+            const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
+            const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
+            const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
+            const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
+            buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+            if (!fs.existsSync(buildDirForThisVerification)) {
+              fs.mkdirSync(buildDirForThisVerification, { recursive: true });
+            }
+            const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+        
+            // Save the file
+            const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+            fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
+/*    
+            // Temporary bash content that randomly returns exit code 0 or -1
+            const tempBashContent = `#!/bin/bash
+        
+        while [[ "$#" -gt 0 ]]; do
+          case $1 in
+            --version) version="$2"; shift ;;
+            --type) type="$2"; shift ;;
+            --arch) arch="$2"; shift ;;
+            --apk) apk="$2"; shift ;;
+          esac
+          shift
+        done
+        echo "version: $version, type: $type, arch: $arch, apk: $apk"
+        
+        comparison_file="./COMPARISON_RESULTS.txt"
+        echo "BUILDS MATCH BINARIES" > "$comparison_file"
+        echo "Date: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> "$comparison_file"
+        echo "" >> "$comparison_file"
+        echo "bitcoin-29.2.knots20251010-x86_64-linux-gnu.tar.gz - x86_64-linux-gnu - 700b1a110550a5ae69cabe0a75e41554d09b31a72883b3d92b9ff314f6da3b18 - 1 (MATCHES)" >> "$comparison_file"
+        
+        # Temporary script that randomly returns exit code 0 or -1
+        RANDOM_EXIT_CODE=$((RANDOM % 2))
+        if [ $RANDOM_EXIT_CODE -eq 0 ]; then
+            echo "Random success (exit code 0)"
+            exit 0
+        else
+            echo "Random failure (exit code 6)"
+            exit 6
+        fi`;
+            fs.writeFileSync(scriptWithPath, tempBashContent, 'utf8');
+        */
+            // Make the file executable
+            fs.chmodSync(scriptWithPath, 0o755);
+        
+            appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+
             appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-            const job = queue.add(() => execScript(scriptWithPath, newWalletVersion, architecture, type));
-            job.catch(err => appLog.error('Script execution job failed:', err));
+            const job = queue.add(() => execScript(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+            job.catch(err => {
+              appLog.error('Script execution job failed:', err);
+              verificationsLog.error(`-- Script execution job failed: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
+            });
             job.then(async res => {
-              const {castFileName, finalScriptExecutionCommand} = res;
+              const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
+
+              const comparisonFile = path.join(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
+              if (!fs.existsSync(comparisonFile)) {   // Check if the comparison file exists
+                appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
+                verificationsLog.error(`-- COMPARISON_RESULTS.txt not found in build directory: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+                return;
+              }
 
               // Upload the asciicast file to Blossom server
               const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -312,12 +335,24 @@ fi`;
                 castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
               } catch (error) {
                 appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+                verificationsLog.error(`-- Error uploading cast file to Blossom: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
                 return;
               }
 
-              let status = 'not_reproducible';
-              if (castFileContent.includes('scriptrc=0')) {
-                status = 'reproducible';
+              // Read COMPARISON_RESULTS.txt and extract hash and match status
+              let hash = null;
+              let matches = false;
+              try {
+                const content = fs.readFileSync(comparisonFile, 'utf8');
+                const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
+                if (line) {
+                  const tokens = line.split(' - ');
+                  hash = tokens[2];
+                  matches = tokens[3]?.trim().startsWith('1');
+                }
+              } catch (error) {
+                appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
+                verificationsLog.error(`-- Error reading COMPARISON_RESULTS.txt: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
               }
 
               let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
@@ -328,8 +363,8 @@ fi`;
                 // Changed values
                 basedOn: verification.id,
                 version: newWalletVersion,
-                status: status,
-                hashes: [],
+                status: matches ? 'reproducible' : 'not_reproducible',
+                hashes: [hash],
                 description: description,
                 content: content,
                 outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
@@ -342,8 +377,16 @@ fi`;
 
               try {
                 await createVerification(ndkInstance, formData);
+
+                verificationsLog.info(`++ Verification created: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+
+                if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
+                  fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+                  appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
+                }
               } catch (error) {
                 appLog.error(`Error creating verification for ${appId}:`, error);
+                verificationsLog.error(`-- Error creating verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
               }
             });
           }
@@ -353,10 +396,11 @@ fi`;
 
   } catch (error) {
     appLog.error(`Error processing verification ${verification.id}:`, error);
+    verificationsLog.error(`-- Error processing verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
 }
 
-async function execScript(script, newWalletVersion, architecture, type) {
+async function execScript(buildDirForThisVerification, script, newWalletVersion, architecture, type) {
   return new Promise((resolve, reject) => {
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : '';
@@ -366,9 +410,8 @@ async function execScript(script, newWalletVersion, architecture, type) {
     const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
 
     let castFileName = script.replace(/\.sh$/, '');
-    castFileName += `_${architecture}_${type}.cast`;
-
-    const asciinemaCommand = `asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
+    castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
+    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
@@ -385,7 +428,11 @@ async function execScript(script, newWalletVersion, architecture, type) {
         reject(error);
       } else {
         appLog.info(`Script recorded and executed successfully: ${castFileName}`);
-        resolve({castFileName: castFileName, finalScriptExecutionCommand: finalScriptExecutionCommand});
+        resolve({
+          castFileName: castFileName,
+          finalScriptExecutionCommand: finalScriptExecutionCommand,
+          buildDirForThisVerification: buildDirForThisVerification
+        });
       }
     });
   });
@@ -405,8 +452,8 @@ if (!wsBotNostrPrivateKey) {
   process.exit(1);
 }
 
-if (!fs.existsSync(SCRIPTS_DIR)) {
-  fs.mkdirSync(SCRIPTS_DIR, { recursive: true });
+if (!fs.existsSync(BUILD_DIR_PREFIX)) {
+  fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 }
 
 appLog.info('======= Starting Build Server App =======');

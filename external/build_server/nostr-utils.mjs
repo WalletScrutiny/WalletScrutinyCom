@@ -246,7 +246,7 @@ export async function createVerification(ndkInstance, {
   ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
   ndkEvent.tags = [...tags, ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]];
 
-  appLog.info('Sending verification to Nostr...', ndkEvent.rawEvent());
+  appLog.info(`Sending verification to Nostr... ${JSON.stringify(ndkEvent.rawEvent())}`);
   return await publishNdkEvent(ndkEvent);
 }
 
