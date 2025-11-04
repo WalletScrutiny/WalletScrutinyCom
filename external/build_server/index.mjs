@@ -90,7 +90,7 @@ async function fetchAppInfo() {
 }
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
-  appLog.info('======= Starting Build Server App =======');
+  appLog.info('======= Starting mainProcess =======');
 
   try {
     // First, refresh desktop and hardware apps to get latest versions
@@ -408,6 +408,8 @@ if (!wsBotNostrPrivateKey) {
 if (!fs.existsSync(SCRIPTS_DIR)) {
   fs.mkdirSync(SCRIPTS_DIR, { recursive: true });
 }
+
+appLog.info('======= Starting Build Server App =======');
 
 while (true) {
   try {
