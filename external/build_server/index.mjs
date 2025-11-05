@@ -274,42 +274,9 @@ async function processVerification(verification, newWalletVersion, appInfo) {
             }
             const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
         
-            // Save the file
+            // Save the file and make it executable
             const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
             fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
-/*    
-            // Temporary bash content that randomly returns exit code 0 or -1
-            const tempBashContent = `#!/bin/bash
-        
-        while [[ "$#" -gt 0 ]]; do
-          case $1 in
-            --version) version="$2"; shift ;;
-            --type) type="$2"; shift ;;
-            --arch) arch="$2"; shift ;;
-            --apk) apk="$2"; shift ;;
-          esac
-          shift
-        done
-        echo "version: $version, type: $type, arch: $arch, apk: $apk"
-        
-        comparison_file="./COMPARISON_RESULTS.txt"
-        echo "BUILDS MATCH BINARIES" > "$comparison_file"
-        echo "Date: $(date '+%Y-%m-%d %H:%M:%S %Z')" >> "$comparison_file"
-        echo "" >> "$comparison_file"
-        echo "bitcoin-29.2.knots20251010-x86_64-linux-gnu.tar.gz - x86_64-linux-gnu - 700b1a110550a5ae69cabe0a75e41554d09b31a72883b3d92b9ff314f6da3b18 - 1 (MATCHES)" >> "$comparison_file"
-        
-        # Temporary script that randomly returns exit code 0 or -1
-        RANDOM_EXIT_CODE=$((RANDOM % 2))
-        if [ $RANDOM_EXIT_CODE -eq 0 ]; then
-            echo "Random success (exit code 0)"
-            exit 0
-        else
-            echo "Random failure (exit code 6)"
-            exit 6
-        fi`;
-            fs.writeFileSync(scriptWithPath, tempBashContent, 'utf8');
-        */
-            // Make the file executable
             fs.chmodSync(scriptWithPath, 0o755);
         
             appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
