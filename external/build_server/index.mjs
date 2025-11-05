@@ -3,7 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { exec } from 'child_process';
+import { exec, execSync } from 'child_process';
 import {
   connectToNostr,
   getAllAssetInformation,
@@ -74,6 +74,18 @@ function compareVersions(a, b) {
     if (na < nb) return -1;
   }
   return 0;
+}
+
+function findFileRecursively(dir, fileName) {
+  if (!fs.existsSync(dir)) return null;
+  
+  try {
+    const result = execSync(`find "${dir}" -name "${fileName}" -type f | head -n 1`, { encoding: 'utf8' });
+    const filePath = result.trim();
+    return filePath || null;
+  } catch (error) {
+    return null;
+  }
 }
 
 async function fetchAppInfo() {
@@ -291,8 +303,8 @@ async function processVerification(verification, newWalletVersion, appInfo) {
             job.then(async res => {
               const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
 
-              const comparisonFile = path.join(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-              if (!fs.existsSync(comparisonFile)) {   // Check if the comparison file exists
+              const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
+              if (!comparisonFilePath) {
                 appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
                 verificationsLog.error(`-- COMPARISON_RESULTS.txt not found in build directory: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
                 return;
@@ -314,7 +326,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               let hash = null;
               let matches = false;
               try {
-                const content = fs.readFileSync(comparisonFile, 'utf8');
+                const content = fs.readFileSync(comparisonFilePath, 'utf8');
                 const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
                 if (line) {
                   const tokens = line.split(' - ');
