@@ -154,10 +154,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       let walletInfo = null;
       if (legacyPlatform === 'desktop' && refreshResults.desktop[appId]) {
         walletInfo = refreshResults.desktop[appId];
-        // appLog.info(`Found wallet in desktop refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
       } else if (legacyPlatform === 'hardware' && refreshResults.hardware[appId]) {
         walletInfo = refreshResults.hardware[appId];
-        // appLog.info(`Found wallet in hardware refreshResults: ${appId} -> ${walletInfo.latestVersion}`);
       } else {
         appLog.error(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
       }
