@@ -5,7 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import {
   connectToNostr,
-  getAllAssetInformation,
+  getAllVerifications,
   getFileAttachmentIDsForVerificationEvent,
   getEventsFromEventIds,
   uploadBlobToBlossomServer,
@@ -70,13 +70,13 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     await connectToNostr(wsBotNostrPrivateKey);
     appLog.info('');
 
-    const assetInfo = await getAllAssetInformation(APPROVED_VERIFIERS_PUBKEY_HEX);
+    const verifications = await getAllVerifications(APPROVED_VERIFIERS_PUBKEY_HEX);
     appLog.info('');
 
     const reproducibleVerifications = [];
     
     // Iterate over all verifications
-    for (const [sha256, verificationEvents] of assetInfo.verifications) {
+    for (const [sha256, verificationEvents] of verifications) {
       for (const verification of verificationEvents) {
         const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
         if (fileAttachmentIds.length === 0) {
