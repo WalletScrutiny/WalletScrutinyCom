@@ -123,17 +123,19 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
   }
 }
 
-export async function getAllAssetInformation() {
+export async function getAllAssetInformation(authorPubkeys = []) {
   appLog.info('Getting wallet information from Nostr...');
 
   const filter_assets = {
     kinds: [assetRegistrationKind],
-    since: verificationEventsSinceTS
+    since: verificationEventsSinceTS,
+    authors: authorPubkeys
   };
 
   const filter_verifications = {
     kinds: [verificationKind, verificationDraftKind],
-    since: verificationEventsSinceTS
+    since: verificationEventsSinceTS,
+    authors: authorPubkeys
   };
 
   const events = await ndk.fetchEvents([filter_assets, filter_verifications]);

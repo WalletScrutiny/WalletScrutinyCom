@@ -30,6 +30,10 @@ const DEBUG_APP_IDS = [
 const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
 const HOURS_BETWEEN_EXECUTIONS = 24;
+const APPROVED_VERIFIERS_PUBKEY_HEX = [
+  '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
+  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
+];
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -105,7 +109,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     await connectToNostr(wsBotNostrPrivateKey);
     appLog.info('');
 
-    const assetInfo = await getAllAssetInformation();
+    const assetInfo = await getAllAssetInformation(APPROVED_VERIFIERS_PUBKEY_HEX);
     appLog.info('');
 
     const reproducibleVerifications = [];
