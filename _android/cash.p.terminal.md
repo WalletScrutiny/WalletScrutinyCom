@@ -8,8 +8,8 @@ users: 5000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2025-10-08
-version: 0.47.4
+updated: 2025-11-05
+version: 0.48.5
 stars: 
 ratings: 
 reviews: 

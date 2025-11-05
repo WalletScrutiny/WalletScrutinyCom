@@ -11,7 +11,7 @@ released: 2023-04-17
 updated: 2025-09-24
 version: 2.10.1
 stars: 1.9
-reviews: 78
+reviews: 80
 website: https://bynex.io/en
 repository: 
 issue: 

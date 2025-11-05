@@ -8,8 +8,8 @@ appId: com.pundix.fx.connect
 appCountry: us
 idd: 1504798360
 released: 2021-03-25
-updated: 2025-08-13
-version: 5.7.0
+updated: 2025-10-27
+version: 5.8.0
 stars: 3.1
 reviews: 64
 website: https://pundi.ai/

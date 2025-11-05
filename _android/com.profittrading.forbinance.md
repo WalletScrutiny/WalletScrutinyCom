@@ -8,12 +8,12 @@ users: 500000
 appId: com.profittrading.forbinance
 appCountry: 
 released: 2018-01-09
-updated: 2025-10-13
-version: 16.7.6
+updated: 2025-11-04
+version: 16.7.21
 stars: 4.3
 ratings: 1851
-reviews: 122
-website: https://profittrading.app/
+reviews: 123
+website: https://profittradingapp.com?utm_source=binance_gp
 repository: 
 issue: 
 icon: com.profittrading.forbinance.png

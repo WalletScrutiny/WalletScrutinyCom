@@ -3,16 +3,16 @@ wsId: n26App
 title: N26 — Love your bank
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000000
 appId: de.number26.android
 appCountry: 
-released: Jan 23, 2015
-updated: 2025-10-03
-version: '4.36'
-stars: 3.2438016
+released: 2015-01-23
+updated: 2025-10-17
+version: '4.37'
+stars: 3.2
 ratings: 
-reviews: 2160
+reviews: 2162
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/N26
 - https://www.instagram.com/n26
 - https://www.linkedin.com/company/n26
-- https://www.youtube.com/@n26bank 
+- https://www.youtube.com/@n26bank
 redirect_from: 
 developerName: N26 AG
 features: 

@@ -1,6 +1,6 @@
 ---
 wsId: coreCryptoWallet
-title: 'Core Wallet: Crypto Made Easy'
+title: Core Wallet | Crypto Made Easy
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: org.avalabs.corewallet
 appCountry: us
 idd: '6443685999'
 released: 2022-11-28
-updated: 2025-09-24
-version: 1.0.11
-stars: 4.6
-reviews: 101
+updated: 2025-10-31
+version: 1.0.15
+stars: 4.5
+reviews: 107
 website: https://www.core.app/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: trezorSuiteLite
-title: Trezor Suite Lite
+title: Trezor Suite
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
-updated: 2025-09-24
-version: 25.9.3
-stars: 3.1
+updated: 2025-10-16
+version: 25.10.2
+stars: 4.3
 ratings: 
-reviews: 90
+reviews: 95
 website: https://trezor.io
 repository: 
 issue: 

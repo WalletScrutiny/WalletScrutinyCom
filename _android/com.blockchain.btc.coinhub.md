@@ -7,9 +7,9 @@ users: 50000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2025-10-13
-version: 1.5.4
-stars: 4.5
+updated: 2025-10-27
+version: 1.5.5
+stars: 4.4
 ratings: 1577
 reviews: 91
 website: https://coindex.money

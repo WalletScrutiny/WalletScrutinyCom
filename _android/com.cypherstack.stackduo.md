@@ -8,8 +8,8 @@ users: 500
 appId: com.cypherstack.stackduo
 appCountry: 
 released: 2024-06-29
-updated: 2024-12-05
-version: 1.2.4
+updated: 2025-10-22
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 

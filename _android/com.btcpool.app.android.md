@@ -12,7 +12,7 @@ updated: 2025-07-31
 version: 2.4.6
 stars: 4
 ratings: 261
-reviews: 29
+reviews: 31
 website: https://cloverpool.com
 repository: 
 issue: 

@@ -8,10 +8,10 @@ appId: com.metallicus.webauth
 appCountry: us
 idd: '1594500069'
 released: 2021-12-15
-updated: 2025-09-10
-version: 2.1.43
+updated: 2025-10-29
+version: 2.1.46
 stars: 4.8
-reviews: 205
+reviews: 209
 website: https://xprnetwork.org/
 repository: 
 issue: 

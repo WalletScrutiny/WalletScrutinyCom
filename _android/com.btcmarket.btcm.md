@@ -8,8 +8,8 @@ users: 10000
 appId: com.btcmarket.btcm
 appCountry: 
 released: 2022-03-17
-updated: 2025-09-02
-version: 1.12.0
+updated: 2025-10-30
+version: 1.12.1
 stars: 4.2
 ratings: 
 reviews: 2

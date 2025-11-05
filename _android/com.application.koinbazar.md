@@ -12,7 +12,7 @@ updated: 2025-10-06
 version: 3.0.82
 stars: 3.7
 ratings: 7090
-reviews: 3125
+reviews: 3128
 website: https://koinbx.com/
 repository: 
 issue: 

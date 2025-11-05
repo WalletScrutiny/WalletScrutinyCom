@@ -12,7 +12,7 @@ updated: 2025-03-14
 version: 5.5.0
 stars: 4.1
 ratings: 
-reviews: 88
+reviews: 89
 website: https://kuwallet.com
 repository: 
 issue: 

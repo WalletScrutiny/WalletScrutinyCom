@@ -9,8 +9,8 @@ updated: 2025-10-14
 version: 2.9.3.0
 binaries: 
 dimensions:
-- 75.4
-- 44.5
+- 75
+- 45
 - 8.3
 weight: 45
 provider: Trezor
@@ -32,14 +32,14 @@ twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
-features: 
+features:
 - 2.5" color touchscreen
 - TROPIC01 secure element (TropicSquare)
 - 3.2V 330mAh battery
 - USB-C, Bluetooth, Qi2 wireless charging
 - BIP39 12/20/24-word, Shamir Secret Sharing
 - FIDO2, TOTP
-- Tor proxy support 
+- Tor proxy support
 
 ---
 

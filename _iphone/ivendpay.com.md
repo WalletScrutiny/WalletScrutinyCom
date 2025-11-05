@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: ivendpay.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-04-04
+date: 2025-11-05
 signer: 
 twitter: ivendpay
 social:

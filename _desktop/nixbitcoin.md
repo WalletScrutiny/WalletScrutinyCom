@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-04-08
 discontinued: 
-updated: 2025-10-07
-version: 0.0.131
+updated: 2025-10-27
+version: 0.0.133
 binaries: 
 provider: Nix Bitcoin
 providerWebsite: 

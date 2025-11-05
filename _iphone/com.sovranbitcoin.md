@@ -3,7 +3,7 @@ wsId:
 title: Sovran
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.sovranbitcoin
 appCountry: in
 idd: '6499554529'

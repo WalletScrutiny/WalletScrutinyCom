@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.milesblue.milesblue.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-10-23
+date: 2025-11-05
 signer: 
 twitter: 
 social: 

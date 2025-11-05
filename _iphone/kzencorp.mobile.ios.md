@@ -11,7 +11,7 @@ released: 2019-06-07
 updated: 2025-09-25
 version: 9.4.0
 stars: 4.7
-reviews: 4246
+reviews: 4271
 website: https://www.zengo.com
 repository: 
 issue: 

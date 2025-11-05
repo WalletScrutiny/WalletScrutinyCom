@@ -3,11 +3,11 @@ wsId:
 title: Ryder
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100
 appId: id.ryder.ryderone
 appCountry: 
-released: Apr 2, 2025
+released: 2025-04-02
 updated: 2025-09-11
 version: 1.2.0
 stars: 
@@ -27,10 +27,10 @@ twitter: Ryder_ID
 social:
 - https://www.instagram.com/ryder.wallet
 - https://discord.com/invite/CMCfCF24yK
-- https://www.linkedin.com/company/ryderid 
+- https://www.linkedin.com/company/ryderid
 redirect_from: 
 developerName: Light Labs Ltd
-features: 
+features:
 - nfc required
 
 ---

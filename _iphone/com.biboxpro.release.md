@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.biboxpro.release.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-28
+date: 2025-11-05
 signer: 
 twitter: Bibox365
 social:

@@ -3,7 +3,7 @@ wsId: wizzWallet
 title: WizzWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.astrox.wizz
 appCountry: 
@@ -25,7 +25,7 @@ date: 2025-11-03
 signer: 
 twitter: wizzwallet
 social:
-- https://discord.com/invite/H7hzuDj2d6 
+- https://discord.com/invite/H7hzuDj2d6
 redirect_from: 
 developerName: AstroX Network
 features: 

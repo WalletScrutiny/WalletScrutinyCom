@@ -3,14 +3,14 @@ wsId: braavosWallet
 title: 'Braavos: BTC & Starknet Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.braavos.wallet
 appCountry: us
 idd: '1636013523'
 released: 2022-08-02
 updated: 2025-10-31
 version: 4.13.1
-stars: 4.90984
+stars: 4.9
 reviews: 122
 website: https://braavos.app
 repository: 

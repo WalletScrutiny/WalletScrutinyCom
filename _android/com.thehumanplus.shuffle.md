@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-09-11
+date: 2025-11-05
 signer: 
 twitter: hupayx
 social:

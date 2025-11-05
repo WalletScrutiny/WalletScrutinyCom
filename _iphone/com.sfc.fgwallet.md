@@ -8,8 +8,8 @@ appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
 released: 2018-02-27
-updated: 2025-10-06
-version: 4.0.3
+updated: 2025-10-24
+version: 4.0.4
 stars: 5
 reviews: 2
 website: https://fg-wallet.com/

@@ -11,7 +11,7 @@ released: 2019-04-17
 updated: 2025-10-10
 version: 21.0.12
 stars: 3.9
-reviews: 1388
+reviews: 1387
 website: https://www.bitci.com.tr/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://medium.com/@bitcicom
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
 features: 
-developerName: Bitci Teknoloji Anonim Sirketi
+developerName: Safebit Kripto Varlık AŞ
 
 ---
 

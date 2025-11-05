@@ -3,13 +3,13 @@ wsId:
 title: Blitz Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.blitzwallet
 appCountry: 
 released: 2025-09-29
-updated: 2025-10-17
-version: 0.6.4
+updated: 2025-11-04
+version: 0.6.6
 stars: 
 ratings: 
 reviews: 
@@ -25,7 +25,7 @@ date: 2025-11-03
 signer: 
 twitter: blitzwalletapp
 social:
-- https://www.youtube.com/@BlitzWalletApp 
+- https://www.youtube.com/@BlitzWalletApp
 redirect_from: 
 developerName: Blitz Wallet
 features: 

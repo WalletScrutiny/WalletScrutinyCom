@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.sanuslife.sanuswallet2.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-11-04
+date: 2025-11-05
 signer: 
 twitter: 
 social:

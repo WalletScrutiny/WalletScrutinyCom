@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.hidollars.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-11-05
 signer: 
 twitter: hi_com_official
 social:

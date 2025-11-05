@@ -11,7 +11,7 @@ released: 2020-12-13
 updated: 2025-10-10
 version: 6.2.8
 stars: 4.6
-reviews: 194
+reviews: 195
 website: https://openfi.world/
 repository: 
 issue: 

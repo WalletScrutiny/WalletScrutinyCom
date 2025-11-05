@@ -8,11 +8,11 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2025-10-09
-version: 2.15.4
-stars: 3.8
+updated: 2025-11-04
+version: 2.16.6
+stars: 3.6
 ratings: 216
-reviews: 238
+reviews: 242
 website: https://dzengi.com/
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 redirect_from: 
-developerName: Currency.com PL
+developerName: Dzengi.com PL
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-09-23
 version: 2.49.0
 stars: 4
 ratings: 77624
-reviews: 1266
+reviews: 1267
 website: https://libertex.org
 repository: 
 issue: 

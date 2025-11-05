@@ -3,7 +3,7 @@ wsId: braavosWallet
 title: 'Braavos: BTC & Starknet Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: app.braavos.wallet
 appCountry: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-26
 updated: 2025-03-17
 version: 4.2.4
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 25
+reviews: 26
 website: https://tradestrike.io/strikex-wallet/
 repository: 
 issue: 

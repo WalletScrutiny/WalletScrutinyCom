@@ -8,10 +8,10 @@ appId: ph.pdax.mobile
 appCountry: ph
 idd: 1531246346
 released: 2020-12-18
-updated: 2025-09-29
-version: 14.1.0
+updated: 2025-10-30
+version: 14.4.1
 stars: 3.4
-reviews: 773
+reviews: 780
 website: https://pdax.ph
 repository: 
 issue: 
@@ -27,7 +27,7 @@ social:
 - https://www.linkedin.com/company/pdaxph
 - https://www.facebook.com/pdaxph
 features: 
-developerName: PDAX
+developerName: Philippine Digital Asset Exchange (PDAX), Inc.
 
 ---
 

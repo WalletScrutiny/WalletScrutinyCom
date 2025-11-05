@@ -7,8 +7,8 @@ users: 500
 appId: com.rexsons.copaly_app
 appCountry: 
 released: 2022-07-25
-updated: 2025-10-10
-version: 5.2.1
+updated: 2025-10-23
+version: 5.2.3
 stars: 4.3
 ratings: 
 reviews: 

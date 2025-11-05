@@ -8,10 +8,10 @@ appId: com.whitebit.whitebitapp
 appCountry: ua
 idd: 1463405025
 released: 2019-05-21
-updated: 2025-09-29
-version: 3.59.0
+updated: 2025-10-31
+version: 3.60.2
 stars: 4.8
-reviews: 3343
+reviews: 3450
 website: https://whitebit.com
 repository: 
 issue: 

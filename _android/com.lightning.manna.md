@@ -8,8 +8,8 @@ users: 100
 appId: com.lightning.manna
 appCountry: 
 released: 2025-05-14
-updated: 2025-10-04
-version: 1.1.4
+updated: 2025-10-17
+version: 1.1.6
 stars: 5
 ratings: 
 reviews: 5

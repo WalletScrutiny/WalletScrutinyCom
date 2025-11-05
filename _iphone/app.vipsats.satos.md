@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.vipsats.satos.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
 appHashes: 
-date: 2023-09-06
+date: 2025-11-05
 signer: 
 twitter: vipsats
 social: 

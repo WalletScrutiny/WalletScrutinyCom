@@ -4,7 +4,7 @@ title: KryptoGO - Web3 Social Payment
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.kryptogo.walletapp
 appCountry: 
 released: 2021-12-28

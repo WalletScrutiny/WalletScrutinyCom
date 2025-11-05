@@ -3,14 +3,14 @@ wsId: uniSat
 title: UniSat - Inscribe your dreams
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: io.unisat
 appCountry: 
-released: Mar 16, 2024
+released: 2024-03-16
 updated: 2025-09-29
 version: v0.2.46(2464)
-stars: 4.0588236
+stars: 4.1
 ratings: 
 reviews: 14
 website: https://unisat.io/
@@ -25,7 +25,7 @@ date: 2025-10-23
 signer: 
 twitter: unisat_wallet
 social:
-- https://discord.com/invite/unisat 
+- https://discord.com/invite/unisat
 redirect_from: 
 developerName: UniSat
 features: 

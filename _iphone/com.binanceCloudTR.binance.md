@@ -10,8 +10,8 @@ idd: '1548636153'
 released: 2021-02-18
 updated: 2025-10-07
 version: 3.4.1
-stars: 4.7
-reviews: 160338
+stars: 4.8
+reviews: 162104
 website: https://www.trbinance.com/
 repository: 
 issue: 

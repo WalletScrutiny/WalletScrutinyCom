@@ -8,10 +8,10 @@ appId: com.btcmarkets.btcm
 appCountry: au
 idd: '1546957530'
 released: 2022-03-19
-updated: 2025-09-03
-version: 1.11.0
+updated: 2025-11-02
+version: 1.11.1
 stars: 4.3
-reviews: 164
+reviews: 173
 website: https://www.btcmarkets.net
 repository: 
 issue: 

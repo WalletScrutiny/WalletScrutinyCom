@@ -8,10 +8,10 @@ appId: com.wiseki.sekiapp.new
 appCountry: ng
 idd: '1622624126'
 released: 2022-06-22
-updated: 2025-05-27
-version: 2.3.1
-stars: 4.4
-reviews: 64
+updated: 2025-10-28
+version: 2.3.4
+stars: 4.5
+reviews: 77
 website: 
 repository: 
 issue: 

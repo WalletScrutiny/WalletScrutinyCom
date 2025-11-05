@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2025-10-13
 version: 8.0.5
 stars: 4.5
-reviews: 58978
+reviews: 59456
 website: https://coinswitch.co
 repository: 
 issue: 

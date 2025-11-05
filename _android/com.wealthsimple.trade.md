@@ -8,11 +8,11 @@ users: 1000000
 appId: com.wealthsimple.trade
 appCountry: ca
 released: 2019-03-12
-updated: 2025-10-10
-version: 2.197.0
+updated: 2025-11-03
+version: 2.200.1
 stars: 4.2
 ratings: 54327
-reviews: 12630
+reviews: 12684
 website: https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 
