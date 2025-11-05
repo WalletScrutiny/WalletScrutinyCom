@@ -12,6 +12,7 @@ import {
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { blossomServerUrl } from '../../src/blossom-utils.js';
 import { appLog } from './logger.js';
+import { calculateFileHash } from './utils.mjs';
 
 let ndk;
 
@@ -69,14 +70,6 @@ export async function createAuthorizationHeader(ndkInstance, verb, content, xTag
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
   return 'Nostr ' + eventBase64;
-}
-
-async function calculateFileHash(file) {
-  const arrayBuffer = await file.arrayBuffer();
-  const crypto = await import("crypto");
-  const { Buffer } = await import("buffer");
-  const buffer = Buffer.from(arrayBuffer);
-  return crypto.createHash("sha256").update(buffer).digest("hex");
 }
 
 export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
