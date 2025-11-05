@@ -209,11 +209,14 @@ export async function createVerification(ndkInstance, {
     content: content,
   });
 
-  const tags = [["status", status]];
+  const tags = [
+    ["status", status],
+    ["i", appId],
+    ["version", version],
+    ["platform", platform],
+    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]
+  ];
 
-  tags.push(["i", appId]);
-  tags.push(["version", version]);
-  tags.push(["platform", platform]);
   hashes.forEach(hash => {
     tags.push(["x", hash]);
   });
@@ -239,7 +242,7 @@ export async function createVerification(ndkInstance, {
   ndkEvent.kind = isDebugEnv() ? 32304 : 30301;
   ndkEvent.content = fullContent;
   ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
-  ndkEvent.tags = [...tags, ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]];
+  ndkEvent.tags = tags;
 
   appLog.info(`Sending verification to Nostr... ${JSON.stringify(ndkEvent.rawEvent())}`);
   return await publishNdkEvent(ndkEvent);
