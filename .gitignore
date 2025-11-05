@@ -15,4 +15,4 @@ _data/git.yml
 dist/
 backup/
 _includes/scripts.html
-external/build_server/logs
+external/build_server_build_dir/
