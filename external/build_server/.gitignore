@@ -3,3 +3,4 @@ scripts/
 *.log
 .tmp/
 temp/
+logs/
