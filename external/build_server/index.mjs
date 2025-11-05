@@ -3,7 +3,6 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { exec, execSync } from 'child_process';
 import {
   connectToNostr,
   getAllAssetInformation,
@@ -19,6 +18,7 @@ import PQueue from 'p-queue';
 import { appLog, verificationsLog } from './logger.js';
 import minimist from 'minimist';
 import WebSocket from 'ws';
+import { compareVersions, findFileRecursively, fetchAppInfo, execScript } from './utils.mjs';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
@@ -26,8 +26,6 @@ const DEBUG_APP_IDS = [
   // Example: 'com.example.app', 'org.bitcoin.wallet',
   'bitcoinknots'
 ];
-
-const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
 const HOURS_BETWEEN_EXECUTIONS = 24;
 const APPROVED_VERIFIERS_PUBKEY_HEX = [
@@ -55,55 +53,6 @@ queue.on('error', error => {
 });
 function logQueueInfo() {
   appLog.info(` ** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
-}
-
-
-// Helper to compare semantic versions like "1.2.3"
-function compareVersions(a, b) {
-  a = a.replace(/^v/i, '');
-  b = b.replace(/^v/i, '');
-  if (!a || !b) {
-    return 0;
-  }
-  const pa = a.split('.').map(Number);
-  const pb = b.split('.').map(Number);
-  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
-    const na = pa[i] || 0;
-    const nb = pb[i] || 0;
-    if (na > nb) return 1;
-    if (na < nb) return -1;
-  }
-  return 0;
-}
-
-function findFileRecursively(dir, fileName) {
-  if (!fs.existsSync(dir)) return null;
-  
-  try {
-    const result = execSync(`find "${dir}" -name "${fileName}" -type f | head -n 1`, { encoding: 'utf8' });
-    const filePath = result.trim();
-    return filePath || null;
-  } catch (error) {
-    return null;
-  }
-}
-
-async function fetchAppInfo() {
-  try {
-    appLog.info(`Fetching app info from ${appInfoURL}...`);
-    const response = await fetch(appInfoURL);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const appInfo = await response.json();
-    appLog.info('App info fetched successfully');
-    return appInfo;
-  } catch (error) {
-    appLog.error(`Error fetching app info from ${appInfoURL}:`, error);
-    throw error;
-  }
 }
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
@@ -339,7 +288,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               }
 
               let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
-              let content = `Automatic verification for wallet version ${newWalletVersion} with architecture ${architecture} and type ${type}, based on verification ${verification.id}. `;
+              let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
               content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
               const formData = {
@@ -381,44 +330,6 @@ async function processVerification(verification, newWalletVersion, appInfo) {
     appLog.error(`Error processing verification ${verification.id}:`, error);
     verificationsLog.error(`-- Error processing verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
-}
-
-async function execScript(buildDirForThisVerification, script, newWalletVersion, architecture, type) {
-  return new Promise((resolve, reject) => {
-    // Execute script with asciinema recording
-    const architectureFlag = architecture ? `--arch ${architecture}` : '';
-    const typeFlag = type ? `--type ${type}` : '';
-    const scriptArgs = [architectureFlag, typeFlag].filter(Boolean).join(' ');
-    const argsString = scriptArgs ? ` ${scriptArgs}` : '';
-    const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
-
-    let castFileName = script.replace(/\.sh$/, '');
-    castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    appLog.info(`Recording and executing script: ${asciinemaCommand}`);
-    exec(asciinemaCommand, {
-      env: {
-        // Ensure PATH includes standard system directories for rootless container tools
-        PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-        HOME: process.env.HOME || '/tmp',
-        XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-      },
-      maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
-    }, (error, stdout, stderr) => {
-      if (error) {
-        appLog.error(`Error recording and executing script: ${error}`);
-        reject(error);
-      } else {
-        appLog.info(`Script recorded and executed successfully: ${castFileName}`);
-        resolve({
-          castFileName: castFileName,
-          finalScriptExecutionCommand: finalScriptExecutionCommand,
-          buildDirForThisVerification: buildDirForThisVerification
-        });
-      }
-    });
-  });
 }
 
 const args = minimist(process.argv.slice(2));
