@@ -1,8 +1,6 @@
 import NDK, { NDKPrivateKeySigner, NDKEvent } from '@nostr-dev-kit/ndk';
 import {
-  assetRegistrationKind,
   verificationKind,
-  verificationDraftKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
   wsBotPublicKey,
@@ -116,45 +114,20 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
   }
 }
 
-export async function getAllAssetInformation(authorPubkeys = []) {
+export async function getAllVerifications(authorPubkeys = []) {
   appLog.info('Getting wallet information from Nostr...');
 
-  const filter_assets = {
-    kinds: [assetRegistrationKind],
+  const events = await ndk.fetchEvents({
+    kinds: [verificationKind],
     since: verificationEventsSinceTS,
-    authors: authorPubkeys
-  };
-
-  const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],
-    since: verificationEventsSinceTS,
-    authors: authorPubkeys
-  };
-
-  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
-
-  const assets = Array.from(events).filter(event =>
-    event.kind === assetRegistrationKind &&
-    getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
-  );
+    authors: authorPubkeys,
+  });
 
   const verifications = Array.from(events).filter(event =>
-    event.kind === verificationKind &&
     getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
   );
 
-  const assetsMap = new Map();
   const verificationsMap = new Map();
-
-  assets.forEach(asset => {
-    const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
-    if (sha256FromEventTag) {
-      if (!assetsMap.has(sha256FromEventTag)) {
-        assetsMap.set(sha256FromEventTag, []);
-      }
-      assetsMap.get(sha256FromEventTag).push(asset);
-    }
-  });
 
   verifications.forEach(verification => {
     const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
@@ -168,10 +141,7 @@ export async function getAllAssetInformation(authorPubkeys = []) {
 
   appLog.info('Information retrieved successfully');
 
-  return {
-    assets: assetsMap,
-    verifications: verificationsMap
-  };
+  return verificationsMap;
 }
 
 export function getFileAttachmentIDsForVerificationEvent(event) {
