@@ -4,20 +4,55 @@ import { appLog } from './logger.js';
 
 const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
 
-// Helper to compare semantic versions like "1.2.3"
+// Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
+// "a" is the last version found in a verification
+// "b" is the latest version found in the update scripts
+// If b > a, there is a new version
 export function compareVersions(a, b) {
+  a = a.split('/').pop();
+  b = b.split('/').pop();
+
   a = a.replace(/^v/i, '');
   b = b.replace(/^v/i, '');
+
+  const aMatch = a.match(/^(\d+\.\d+\.\d+)/);
+  const bMatch = b.match(/^(\d+\.\d+\.\d+)/);
+  
+  if (aMatch) {
+    a = aMatch[1];
+  }
+  if (bMatch) {
+    b = bMatch[1];
+  }
+
   if (!a || !b) {
     return 0;
   }
-  const pa = a.split('.').map(Number);
-  const pb = b.split('.').map(Number);
+  
+  // Split by '.' and extract numeric parts and suffixes
+  const parsePart = (part) => {
+    const match = part.match(/^(\d+)(.*)$/);
+    if (match) {
+      return { numeric: parseInt(match[1], 10), suffix: match[2] };
+    }
+    return { numeric: 0, suffix: part };
+  };
+  
+  const pa = a.split('.').map(parsePart);
+  const pb = b.split('.').map(parsePart);
+
   for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
-    const na = pa[i] || 0;
-    const nb = pb[i] || 0;
-    if (na > nb) return 1;
-    if (na < nb) return -1;
+    const aPart = pa[i] || { numeric: 0, suffix: '' };
+    const bPart = pb[i] || { numeric: 0, suffix: '' };
+    
+    // Compare numeric parts first
+    if (aPart.numeric < bPart.numeric) return 1;
+    if (aPart.numeric > bPart.numeric) return -1;
+    
+    // If numeric parts are equal, compare suffixes lexicographically
+    if (aPart.suffix !== bPart.suffix) {
+      return aPart.suffix.localeCompare(bPart.suffix);
+    }
   }
   return 0;
 }
