@@ -26,6 +26,9 @@ architectures:
 types:
 - appimage
 - tarball
+- setup
+- portable
+- standalone
 features:
 - 2fa
 - multisig
