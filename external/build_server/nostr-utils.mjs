@@ -10,7 +10,7 @@ import {
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { blossomServerUrl } from '../../src/blossom-utils.js';
 import { appLog } from './logger.js';
-import { calculateFileHash } from './utils.mjs';
+import { calculateFileHash, isDebugEnv } from './utils.mjs';
 
 let ndk;
 
