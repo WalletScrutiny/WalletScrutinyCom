@@ -146,9 +146,9 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       });
 
       // Take only the first (highest) verification for the appId
-      const highestVersion = verifications[0];
+      const highestVersionVerification = verifications[0];
 
-      let platform = getFirstTagValue(highestVersion.verification, 'platform');
+      let platform = getFirstTagValue(highestVersionVerification.verification, 'platform');
       let legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
       let walletInfo = null;
@@ -162,11 +162,11 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         continue;
       }
 
-      if (compareVersions(walletInfo.latestVersion, highestVersion.version) > 0) {
-        appLog.info(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
-        await processVerification(highestVersion.verification, walletInfo.latestVersion, appInfo);
+      if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
+        appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
+        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo);
       } else {
-        appLog.info(`Wallet ${appId} doesn't have a newer version: ${walletInfo.latestVersion} (wallet repo) <= ${highestVersion.version} (latest verification). Skipping...`);
+        appLog.debug(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
       }
     }
@@ -207,121 +207,123 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       const fileName = getFirstTagValue(fileEvent, 'name');
       const extension = getFirstTagValue(fileEvent, 'extension');
       
-      // Only process .sh files
-      if (extension === 'sh') {
-        fileEventIdsForSHFiles.push(fileEvent.id);
+      const scriptName = fileName + '.' + extension;
+      if (!scriptName.endsWith('build.sh')) {
+        continue;
+      }
 
-        const appInfoFromWS = appInfo[legacyPlatform][appId];
-        const architectures = appInfoFromWS.architectures;
-        const types = appInfoFromWS.types;
-        appLog.info(` *** architectures: ${architectures}`);
-        appLog.info(` *** types: ${types}`);
+      fileEventIdsForSHFiles.push(fileEvent.id);
 
-        // Ensure at least one iteration even if arrays are empty
-        const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
-        const typesToIterate = types && types.length > 0 ? types : [undefined];
+      const appInfoFromWS = appInfo[legacyPlatform][appId];
+      const architectures = appInfoFromWS.architectures;
+      const types = appInfoFromWS.types;
+      appLog.info(` *** architectures: ${architectures}`);
+      appLog.info(` *** types: ${types}`);
 
-        for (const architecture of architecturesToIterate) {
-          for (const type of typesToIterate) {
+      // Ensure at least one iteration even if arrays are empty
+      const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
+      const typesToIterate = types && types.length > 0 ? types : [undefined];
 
-            // Create unique filename
-            const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-            const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
-            const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
-            const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-            buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-            if (!fs.existsSync(buildDirForThisVerification)) {
-              fs.mkdirSync(buildDirForThisVerification, { recursive: true });
-            }
-            const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
-        
-            // Save the file and make it executable
-            const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-            fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
-            fs.chmodSync(scriptWithPath, 0o755);
-        
-            appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+      for (const architecture of architecturesToIterate) {
+        for (const type of typesToIterate) {
 
-            appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
-
-            const job = queue.add(() => execScript(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
-            job.catch(err => {
-              appLog.error('Script execution job failed:', err);
-              verificationsLog.error(`-- Script execution job failed: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
-            });
-            job.then(async res => {
-              const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
-
-              const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-              if (!comparisonFilePath) {
-                appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
-                verificationsLog.error(`-- COMPARISON_RESULTS.txt not found in build directory: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
-                return;
-              }
-
-              // Upload the asciicast file to Blossom server
-              const castFileContent = fs.readFileSync(castFileName, 'utf8');
-              const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
-              let castFileHash = null;
-              try {
-                castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
-              } catch (error) {
-                appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
-                verificationsLog.error(`-- Error uploading cast file to Blossom: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-                return;
-              }
-
-              // Read COMPARISON_RESULTS.txt and extract hash and match status
-              let hash = null;
-              let matches = false;
-              try {
-                const content = fs.readFileSync(comparisonFilePath, 'utf8');
-                const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-                if (line) {
-                  const tokens = line.split(' - ');
-                  hash = tokens[2];
-                  matches = tokens[3]?.trim().startsWith('1');
-                }
-              } catch (error) {
-                appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-                verificationsLog.error(`-- Error reading COMPARISON_RESULTS.txt: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-              }
-
-              let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
-              let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
-              content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
-
-              const formData = {
-                // Changed values
-                basedOn: verification.id,
-                version: newWalletVersion,
-                status: matches ? 'reproducible' : 'not_reproducible',
-                hashes: [hash],
-                description: description,
-                content: content,
-                outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
-                reusedFileIds: fileEventIdsForSHFiles,
-                isDraft: false,
-                // Original verification values
-                appId: appId,
-                platform: platform
-              };
-
-              try {
-                await createVerification(ndkInstance, formData);
-
-                verificationsLog.info(`++ Verification created: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
-
-                if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
-                  fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
-                  appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
-                }
-              } catch (error) {
-                appLog.error(`Error creating verification for ${appId}:`, error);
-                verificationsLog.error(`-- Error creating verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
-              }
-            });
+          // Create unique filename
+          const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
+          const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
+          const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
+          const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
+          buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+          if (!fs.existsSync(buildDirForThisVerification)) {
+            fs.mkdirSync(buildDirForThisVerification, { recursive: true });
           }
+          const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+
+          // Save the file and make it executable
+          const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+          fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
+          fs.chmodSync(scriptWithPath, 0o755);
+
+          appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+
+          appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+
+          const job = queue.add(() => execScript(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+          job.catch(err => {
+            appLog.error('Script execution job failed:', err);
+            verificationsLog.error(`-- Script execution job failed: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
+          });
+          job.then(async res => {
+            const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
+
+            const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
+            if (!comparisonFilePath) {
+              appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
+              verificationsLog.error(`-- COMPARISON_RESULTS.txt not found in build directory: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+              return;
+            }
+
+            // Upload the asciicast file to Blossom server
+            const castFileContent = fs.readFileSync(castFileName, 'utf8');
+            const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
+            let castFileHash = null;
+            try {
+              castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
+            } catch (error) {
+              appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+              verificationsLog.error(`-- Error uploading cast file to Blossom: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+              return;
+            }
+
+            // Read COMPARISON_RESULTS.txt and extract hash and match status
+            let hash = null;
+            let matches = false;
+            try {
+              const content = fs.readFileSync(comparisonFilePath, 'utf8');
+              const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
+              if (line) {
+                const tokens = line.split(' - ');
+                hash = tokens[2];
+                matches = tokens[3]?.trim().startsWith('1');
+              }
+            } catch (error) {
+              appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
+              verificationsLog.error(`-- Error reading COMPARISON_RESULTS.txt: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+            }
+
+            let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
+            let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
+            content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+
+            const formData = {
+              // Changed values
+              basedOn: verification.id,
+              version: newWalletVersion,
+              status: matches ? 'reproducible' : 'not_reproducible',
+              hashes: [hash],
+              description: description,
+              content: content,
+              outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
+              reusedFileIds: fileEventIdsForSHFiles,
+              isDraft: false,
+              // Original verification values
+              appId: appId,
+              platform: platform
+            };
+
+            try {
+              await createVerification(ndkInstance, formData);
+
+              verificationsLog.info(`++ Verification created: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+
+              if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
+                fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+                appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
+              }
+            } catch (error) {
+              appLog.error(`Error creating verification for ${appId}:`, error);
+              verificationsLog.error(`-- Error creating verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+            }
+          });
         }
       }
     }
