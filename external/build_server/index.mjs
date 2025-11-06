@@ -24,7 +24,7 @@ global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
 const DEBUG_APP_IDS = [
   // Example: 'com.example.app', 'org.bitcoin.wallet',
-  'bitcoinknots'
+  // 'bitcoinknots'
 ];
 
 const HOURS_BETWEEN_EXECUTIONS = 24;
@@ -158,9 +158,11 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         walletInfo = refreshResults.hardware[appId];
       } else {
         appLog.error(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
+        verificationsLog.error(`-- Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
+        continue;
       }
 
-      if (compareVersions(walletInfo.latestVersion, "v29.1.knots20251010") > 0) {
+      if (compareVersions(walletInfo.latestVersion, highestVersion.version) > 0) {
         appLog.info(`Wallet ${appId} has a newer version: ${walletInfo.latestVersion} (wallet repo) > ${highestVersion.version} (latest verification)`);
         await processVerification(highestVersion.verification, walletInfo.latestVersion, appInfo);
       } else {
