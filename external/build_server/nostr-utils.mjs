@@ -218,10 +218,6 @@ export async function createVerification(ndkInstance, {
   return await publishNdkEvent(ndkEvent);
 }
 
-function isDebugEnv() {
-  return true;
-}
-
 async function publishNdkEvent(ndkEvent) {
   try {
     const publishedToRelays = await ndkEvent.publish();
