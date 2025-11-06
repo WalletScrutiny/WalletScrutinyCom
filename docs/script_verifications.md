@@ -24,8 +24,8 @@ We need to be able to run the scripts automatically on the build server when a n
 5. We `cannot rely on our build server` utilities or scripts, as people won't have access to it
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
-8. The scripts used to launch the build process must end with `build.sh`, so it could be `zeus_build.sh`.
-9. At the end of the script, a file called `COMPARISON_RESULTS.txt` must be generated. It can have a header explaining what's the file for, but it must have lines like this one:
+8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
+9. At the end of the script execution, a file called `COMPARISON_RESULTS.txt` must be generated. It can have a header explaining what's the file for, but it must have lines like this one:
 
 ```json
 bitcoin-29.2.knots20251010-aarch64-linux-gnu.tar.gz - aarch64-linux-gnu - 700b1a110550a5ae69cabe0a75e41554d09b31a72883b3d92b9ff314f6da3b18 - 1 (MATCHES)
