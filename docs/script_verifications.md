@@ -24,10 +24,20 @@ We need to be able to run the scripts automatically on the build server when a n
 5. We `cannot rely on our build server` utilities or scripts, as people won't have access to it
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
-8. The result of the execution of the script should both
-  - be `shown on the screen` ("Hash of the binary = xxxx, Hash of the compiled = yyyyy, It matches. / These are the differences between the binary and the compiled") for human verifiers
-  - `use a return code` of 0 if the verification is reproducible, and 1 if it's not.
-9. The parameters of the script should be:
+8. The scripts used to launch the build process must end with `build.sh`, so it could be `zeus_build.sh`.
+9. At the end of the script, a file called `COMPARISON_RESULTS.txt` must be generated. It can have a header explaining what's the file for, but it must have lines like this one:
+
+```json
+bitcoin-29.2.knots20251010-aarch64-linux-gnu.tar.gz - aarch64-linux-gnu - 700b1a110550a5ae69cabe0a75e41554d09b31a72883b3d92b9ff314f6da3b18 - 1 (MATCHES)
+bitcoin-29.2.knots20251010-win64-codesigning.tar.gz - win64-codesigning - fab8b53f735c3287af57c24284939699e5297c0f065b9f64ef6edd7af2e8ee65 - 0 (DOESN'T MATCH)
+```
+
+The important parts:
+- the `arch` (2nd token) is taken from the `--arch` parameter passed to the script
+- the `hash` of the produced file (3rd token)
+- the `number` that reflects if it's reproducible (1) or not-reproducible (0) in the (4rd token).
+
+10. The parameters of the script should be:
 
    `--version`: version of the app (without the v prefix)
 
@@ -37,7 +47,7 @@ We need to be able to run the scripts automatically on the build server when a n
 
    `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
 
-10. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+11. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
 
 # Wallet files
 
