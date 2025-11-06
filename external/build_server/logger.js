@@ -1,11 +1,12 @@
 import winston from 'winston';
 import DailyRotateFile from 'winston-daily-rotate-file';
+import { isDebugEnv } from './utils.mjs';
 
 const { createLogger, format, transports } = winston;
 
 function makeFileTransport(filenameBase) {
   return new DailyRotateFile({
-    filename: `logs/${filenameBase}-%DATE%.log`,
+    filename: isDebugEnv() ? `logs/${filenameBase}-%DATE%.log` : `/var/log/build-server/${filenameBase}-%DATE%.log`,
     datePattern: 'YYYY-MM-DD',       // rotate every day
     zippedArchive: true,             // compress with .gz
     maxSize: '10m',                  // rotate if exceeds 20MB before the day

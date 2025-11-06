@@ -4,6 +4,10 @@ import { appLog } from './logger.js';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
+export function isDebugEnv() {
+  return false;
+}
+
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
 // "b" is the latest version found in the update scripts
