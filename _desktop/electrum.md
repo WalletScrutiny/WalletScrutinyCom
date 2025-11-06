@@ -4,22 +4,28 @@ appId: electrum
 authors:
 - danny
 released: 2011-11-05
-discontinued: 
+discontinued:
 updated: 2024-10-23
 version: 4.6.2
-binaries: 
+binaries:
 provider: Thomas Voegtlin
-providerWebsite: 
+providerWebsite:
 website: https://electrum.org/
 repository: https://github.com/spesmilo/electrum
-issue: 
+issue:
 icon: electrum.png
-bugbounty: 
+bugbounty:
 meta: ok
 verdict: sourceavailable
 date: 2025-08-24
 twitter: ElectrumWallet
-social: 
+social:
+architectures:
+- win64
+- x86_64-linux-gnu
+types:
+- appimage
+- tarball
 features:
 - 2fa
 - multisig
