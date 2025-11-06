@@ -2,7 +2,7 @@ import { exec, execSync } from 'child_process';
 import fs from 'fs';
 import { appLog } from './logger.js';
 
-const appInfoURL = 'http://localhost:4000/assets/js/json/buildServerInfo.json'; // TODO: https://walletscrutiny.com/assets/js/json/buildServerInfo.json
+const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
 // "a" is the last version found in a verification
