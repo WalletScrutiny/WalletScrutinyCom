@@ -71,3 +71,24 @@ with the community. A user can also register a new asset so that other users
 can verify the reproducibility of the asset.
 
 See more details at https://walletscrutiny.com/verifications/
+
+## Build Server admin
+
+### Start/stop the service
+
+```bash
+service build-server start
+service build-server stop
+```
+
+### Check the service status
+
+```bash
+sudo systemctl status build-server.service
+```
+
+### Check the service logs
+
+```bash
+sudo journalctl -u build-server.service -f
+```

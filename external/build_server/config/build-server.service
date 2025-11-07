@@ -10,13 +10,10 @@ User=build-server
 Group=build-server
 WorkingDirectory=/opt/build-server/walletScrutinyCom/external/build_server
 
-LoadCredentialEncrypted=ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
-Environment=WS_BOT_PK=%E/CREDENTIALS_DIRECTORY/ws-bot-pk
+LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
+LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
 
-LoadCredentialEncrypted=gh-token:/etc/credstore.encrypted/build-server-gh-token
-Environment=GH_TOKEN=%E/CREDENTIALS_DIRECTORY/gh-token
-
-ExecStart=/usr/bin/node index.mjs --githubToken "$GH_TOKEN" --wsBotNostrPrivateKey "$WS_BOT_PK"
+ExecStart=/bin/sh -c '/usr/bin/node index.mjs --githubToken "$(cat $CREDENTIALS_DIRECTORY/build-server-gh-token)" --wsBotNostrPrivateKey "$(cat $CREDENTIALS_DIRECTORY/build-server-ws-bot-pk)"'
 Restart=always
 RestartSec=3
 
