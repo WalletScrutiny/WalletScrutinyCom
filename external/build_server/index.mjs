@@ -232,7 +232,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
           const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
           const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
           const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-          buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+          buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
           if (!fs.existsSync(buildDirForThisVerification)) {
             fs.mkdirSync(buildDirForThisVerification, { recursive: true });
           }
