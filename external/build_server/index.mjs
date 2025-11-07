@@ -233,7 +233,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 
           // Create unique filename
           const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const safeVersion = version.replace(/[^a-zA-Z0-9.-]/g, '_');
+          const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
           const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
           const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
           buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
