@@ -49,10 +49,10 @@ queue.on('active', () => logQueueInfo());
 queue.on('next', () => logQueueInfo());
 queue.on('error', error => {
 	appLog.error(error);
-  // TODO: We can potentially send a Nostr notification to the user to inform them about the error running the script
+  // TODO: We can potentially send a Nostr notification to the user to inform them about the error
 });
 function logQueueInfo() {
-  appLog.info(` ** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  appLog.info(`**** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
@@ -158,7 +158,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         walletInfo = refreshResults.hardware[appId];
       } else {
         appLog.error(`Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
-        verificationsLog.error(`-- Wallet ${appId} not found in refreshResults for platform ${legacyPlatform}`);
+        verificationsLog.info(`--- ${appId} ${highestVersionVerification.version} | Wallet not found in refreshResults for platform ${legacyPlatform}`);
         continue;
       }
 
@@ -166,7 +166,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
         await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo);
       } else {
-        appLog.debug(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
+        appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
       }
     }
@@ -203,14 +203,18 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 
     let fileEventIdsForSHFiles = [];
     
+    let anyFileTried = false;
+
     for (const fileEvent of fileEvents) {
       const fileName = getFirstTagValue(fileEvent, 'name');
       const extension = getFirstTagValue(fileEvent, 'extension');
-      
+
       const scriptName = fileName + '.' + extension;
       if (!scriptName.endsWith('build.sh')) {
         continue;
       }
+
+      anyFileTried = true;
 
       fileEventIdsForSHFiles.push(fileEvent.id);
 
@@ -250,7 +254,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
           const job = queue.add(() => execScript(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
           job.catch(err => {
             appLog.error('Script execution job failed:', err);
-            verificationsLog.error(`-- Script execution job failed: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
+            verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
           });
           job.then(async res => {
             const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
@@ -258,7 +262,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
             const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
             if (!comparisonFilePath) {
               appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
-              verificationsLog.error(`-- COMPARISON_RESULTS.txt not found in build directory: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | COMPARISON_RESULTS.txt not found in build directory | ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
               return;
             }
 
@@ -270,7 +274,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
             } catch (error) {
               appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
-              verificationsLog.error(`-- Error uploading cast file to Blossom: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
               return;
             }
 
@@ -287,7 +291,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               }
             } catch (error) {
               appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-              verificationsLog.error(`-- Error reading COMPARISON_RESULTS.txt: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
             }
 
             let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
@@ -313,7 +317,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
             try {
               await createVerification(ndkInstance, formData);
 
-              verificationsLog.info(`++ Verification created: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+              verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
 
               if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
                 fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
@@ -321,16 +325,22 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               }
             } catch (error) {
               appLog.error(`Error creating verification for ${appId}:`, error);
-              verificationsLog.error(`-- Error creating verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
             }
           });
         }
       }
     }
 
+    if (!anyFileTried) {
+      appLog.info(`   ** No files from the latest verification tried because there aren't any files ending in .build.sh | Skipping... **`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | No files from the latest verification tried because there aren't any files ending in .build.sh`);
+      return;
+    }
+
   } catch (error) {
     appLog.error(`Error processing verification ${verification.id}:`, error);
-    verificationsLog.error(`-- Error processing verification: ${appId} ${newWalletVersion} ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error processing verification: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
 }
 
