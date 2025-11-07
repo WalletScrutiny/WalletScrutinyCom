@@ -3,6 +3,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import PQueue from 'p-queue';
+import minimist from 'minimist';
+import WebSocket from 'ws';
+global.WebSocket = WebSocket; // For NDK
 import {
   connectToNostr,
   getAllVerifications,
@@ -13,12 +17,9 @@ import {
   getNdk
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
-import PQueue from 'p-queue';
 import { appLog, verificationsLog } from './logger.js';
-import minimist from 'minimist';
 import { compareVersions, findFileRecursively, fetchAppInfo, execScript, getFirstTagValue } from './utils.mjs';
-import WebSocket from 'ws';
-global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
+
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
 const DEBUG_APP_IDS = [
