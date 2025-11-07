@@ -8,9 +8,10 @@ import {
   mainRelayUrl
 } from '../../src/nostr-constants.mjs';
 import { getFirstTagValue } from '../../src/verifications_common.mjs';
-import { blossomServerUrl } from '../../src/blossom-utils.js';
 import { appLog } from './logger.js';
 import { calculateFileHash, isDebugEnv } from './utils.mjs';
+
+const blossomServerUrl = 'https://files.nostr.info';
 
 let ndk;
 
