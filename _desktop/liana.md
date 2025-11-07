@@ -30,6 +30,8 @@ features:
 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GppkFrcDrk0?si=55vAtVLqM68jyxCp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## App Description
 
 Liana is a self-custodial Bitcoin wallet where users control all private keys. The wallet implements spending policies combining a primary path for immediate spending and time-delayed recovery paths that activate after specified periods of onchain inactivity. Time-based restrictions are enforced using Bitcoin Script timelocks and miniscript-based descriptors. The wallet daemon constructs PSBTs conforming to the configured policy, with signing performed by hardware wallets or other external signers. The wallet supports both hardware wallet integration and optional software-based "hot signers" for key management. ([Source](https://github.com/wizardsardine/liana#about))
