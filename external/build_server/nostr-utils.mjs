@@ -7,9 +7,8 @@ import {
   nip89ClientTagD,
   mainRelayUrl
 } from '../../src/nostr-constants.mjs';
-import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { appLog } from './logger.js';
-import { calculateFileHash, isDebugEnv } from './utils.mjs';
+import { calculateFileHash, isDebugEnv, getFirstTagValue } from './utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
 

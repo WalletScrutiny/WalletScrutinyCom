@@ -12,13 +12,12 @@ import {
   createVerification,
   getNdk
 } from './nostr-utils.mjs';
-import { getFirstTagValue } from '../../src/verifications_common.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import PQueue from 'p-queue';
 import { appLog, verificationsLog } from './logger.js';
 import minimist from 'minimist';
+import { compareVersions, findFileRecursively, fetchAppInfo, execScript, getFirstTagValue } from './utils.mjs';
 import WebSocket from 'ws';
-import { compareVersions, findFileRecursively, fetchAppInfo, execScript } from './utils.mjs';
 global.WebSocket = WebSocket; // Configure WebSocket globally for NDK
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.

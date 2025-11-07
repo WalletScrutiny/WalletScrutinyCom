@@ -136,3 +136,7 @@ export async function calculateFileHash(file) {
   const buffer = Buffer.from(arrayBuffer);
   return crypto.createHash("sha256").update(buffer).digest("hex");
 }
+
+export function getFirstTagValue(event, tagName, valueIfNull = '') {
+  return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+}
