@@ -261,8 +261,8 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 
             const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
             if (!comparisonFilePath) {
-              appLog.error(`COMPARISON_RESULTS.txt not found in build directory: ${buildDirForThisVerification}`);
-              verificationsLog.info(`--- ${appId} ${newWalletVersion} | COMPARISON_RESULTS.txt not found in build directory | ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+              appLog.error(`COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
               return;
             }
 
@@ -333,8 +333,8 @@ async function processVerification(verification, newWalletVersion, appInfo) {
     }
 
     if (!anyFileTried) {
-      appLog.info(`   ** No files from the latest verification tried because there aren't any files ending in .build.sh | Skipping... **`);
-      verificationsLog.info(`--- ${appId} ${newWalletVersion} | No files from the latest verification tried because there aren't any files ending in .build.sh`);
+      appLog.info(`   ** There are no files ending in .build.sh in the latest verification. Skipping... **`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in .build.sh in the latest verification. Skipping...`);
       return;
     }
 
