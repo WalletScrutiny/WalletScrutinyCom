@@ -452,36 +452,130 @@ class BitcoinWalletDiscovery {
     return Math.max(0, score); // Ensure non-negative score
   }
 
+  async enrichWithFullDetails(apps, platform) {
+    console.log(`\nEnriching ${apps.length} ${platform} apps with full details...`);
+    const enriched = [];
+    
+    for (let i = 0; i < apps.length; i++) {
+      const app = apps[i];
+      try {
+        if (platform === 'android') {
+          const [, release] = await playSem.acquire();
+          try {
+            const details = await gplay.app({ appId: app.appId });
+            enriched.push({
+              ...app,
+              fullDescription: details.description || app.summary || app.description || '',
+              installs: details.installs || app.installs || 'N/A',
+              minInstalls: details.minInstalls || 0,
+              maxInstalls: details.maxInstalls || 0,
+              userCount: details.minInstalls || 0,
+              ratings: details.ratings || 0,
+              reviews: details.reviews || 0,
+              score: details.score || app.score || 0
+            });
+            console.log(`  [${i + 1}/${apps.length}] ✓ ${app.title}`);
+          } catch (innerError) {
+            console.log(`  [${i + 1}/${apps.length}] ✗ ${app.title} - ${innerError.message}`);
+            // Add with fallback data
+            enriched.push({
+              ...app,
+              fullDescription: app.summary || app.description || 'Description not available',
+              userCount: 0,
+              ratings: 0,
+              reviews: 0
+            });
+          } finally {
+            release();
+          }
+          await new Promise(resolve => setTimeout(resolve, 500));
+        } else {
+          const [, release] = await appleSem.acquire();
+          try {
+            const details = await apple.app({ id: app.id });
+            enriched.push({
+              ...app,
+              fullDescription: details.description || app.description || '',
+              ratingsCount: details.ratings || 0,
+              ratings: details.ratings || 0,
+              reviews: details.reviews || 0,
+              score: details.score || app.score || 0
+            });
+            console.log(`  [${i + 1}/${apps.length}] ✓ ${app.title}`);
+          } catch (innerError) {
+            console.log(`  [${i + 1}/${apps.length}] ✗ ${app.title} - ${innerError.message}`);
+            // Add with fallback data
+            enriched.push({
+              ...app,
+              fullDescription: app.description || 'Description not available',
+              ratingsCount: 0,
+              ratings: 0,
+              reviews: 0
+            });
+          } finally {
+            release();
+          }
+          await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+      } catch (error) {
+        console.log(`  [${i + 1}/${apps.length}] ✗ ${app.title} - ${error.message}`);
+        // Add with minimal data to avoid losing the app
+        enriched.push({
+          ...app,
+          fullDescription: app.summary || app.description || 'Description not available',
+          userCount: 0,
+          ratingsCount: 0,
+          ratings: 0,
+          reviews: 0
+        });
+      }
+    }
+    
+    return enriched;
+  }
+
   async generateReport() {
     const timestamp = new Date().toISOString().split('T')[0];
+    
+    // Enrich apps with full details
+    const enrichedAndroid = await this.enrichWithFullDetails(
+      this.discoveredApps.android.map(app => ({
+        ...app,
+        relevanceScore: this.calculateRelevanceScore(app)
+      })),
+      'android'
+    );
+    
+    const enrichedIphone = await this.enrichWithFullDetails(
+      this.discoveredApps.iphone.map(app => ({
+        ...app,
+        relevanceScore: this.calculateRelevanceScore(app)
+      })),
+      'iphone'
+    );
+    
     const reportData = {
       timestamp: new Date().toISOString(),
       searchStats: this.searchStats,
       summary: {
-        android: this.discoveredApps.android.length,
-        iphone: this.discoveredApps.iphone.length,
-        total: this.discoveredApps.android.length + this.discoveredApps.iphone.length
+        android: enrichedAndroid.length,
+        iphone: enrichedIphone.length,
+        total: enrichedAndroid.length + enrichedIphone.length
       },
-      android: this.discoveredApps.android
-        .map(app => ({
-          ...app,
-          relevanceScore: this.calculateRelevanceScore(app)
-        }))
-        .sort((a, b) => b.relevanceScore - a.relevanceScore),
-      iphone: this.discoveredApps.iphone
-        .map(app => ({
-          ...app,
-          relevanceScore: this.calculateRelevanceScore(app)
-        }))
-        .sort((a, b) => b.relevanceScore - a.relevanceScore)
+      android: enrichedAndroid.sort((a, b) => b.relevanceScore - a.relevanceScore),
+      iphone: enrichedIphone.sort((a, b) => b.relevanceScore - a.relevanceScore)
     };
 
-    // Update the persistent YAML log with all discoveries
-    this.allDiscoveredApps.android = [...(this.allDiscoveredApps.android || []), ...reportData.android];
-    this.allDiscoveredApps.iphone = [...(this.allDiscoveredApps.iphone || []), ...reportData.iphone];
+    // Flatten structure - combine all apps into single array
+    const allApps = [
+      ...(this.allDiscoveredApps.android || []),
+      ...(this.allDiscoveredApps.iphone || []),
+      ...reportData.android,
+      ...reportData.iphone
+    ];
     
-    // Write persistent YAML log
-    const yamlContent = yaml.dump(this.allDiscoveredApps, { 
+    // Write persistent YAML log (flattened)
+    const yamlContent = yaml.dump(allApps, { 
       indent: 2,
       lineWidth: -1,
       noRefs: true
