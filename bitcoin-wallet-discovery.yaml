@@ -2125,27 +2125,6 @@
   ratings: 55193
   reviews: 1707
   userCount: 500000
-- appId: com.atom.net
-  title: ATOSHI
-  developer: ATOSHI LIMITED.
-  summary: ATOSHI aims to empower the world by cryptocurrency
-  score: 4.1044774
-  url: https://play.google.com/store/apps/details?id=com.atom.net
-  searchTerm: satoshi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 0
-  disregard: false
-  fullDescription: |-
-    ATOSHI is a comprehensive blockchain solution designed for commercial applications in e-commerce, social networking, gaming, verification, finance, and other sectors.
-
-    By leveraging blockchain technology in various industries such as e-commerce, social networking, gaming, verification, short videos, travel, finance, and tipping, ATOSHI aims to empower real-world industries with blockchain capabilities. Standing on the shoulders of blockchain giants like Bitcoin and Ethereum, ATOSHI seeks to improve upon certain shortcomings while enhancing their strengths, striving to build the next-generation, superior public blockchain!
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 523774
-  ratings: 2880
-  reviews: 33
-  userCount: 500000
 - appId: com.cheatmoon.minecheatmoon
   title: 'Cheatmoon Network: DeFi Asset'
   developer: Cheatmoon
@@ -2327,7 +2306,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Do you want to win Bitcoin by playing games? Play well-known, classic Solitaire and you are entered into a free to enter prize draw to win a Bitcoin prize!
 
@@ -2382,7 +2361,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Bitcoin Collector - Earn BTC! 🤑💰 Play & Earn Free Bitcoin!
 
@@ -2411,7 +2390,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Bitcoin + Snake? Why not! One of the most well known and most popular mobile games in the world is now giving you sats for simply eating worms. Get that old school nostalgic feeling by playing the classic Snake game.
 
@@ -2444,213 +2423,6 @@
   ratings: 3819
   reviews: 101
   userCount: 100000
-- appId: com.finverselabs.openwallet
-  title: 'Open Wallet: BTC & ETH Wallet'
-  developer: FinVerse Labs FZ-LLC
-  summary: Hodl BTC, ETH, NFT &amp; Crypto
-  score: 4.5333333
-  url: https://play.google.com/store/apps/details?id=com.finverselabs.openwallet
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: |-
-    Open Wallet: Secure Your Crypto with Confidence
-
-    Open Wallet is the ultimate smart wallet for crypto enthusiasts on Android. Combining the security of a cold wallet with the convenience of mobile access, it's ideal for newcomers and experienced hodlers alike. Securely store, send, and manage your digital assets, including Bitcoin, Ethereum, NFTs, and more, all from your Android device.
-
-    Uncompromising Security Meets Seamless Convenience
-
-    Open Wallet prioritizes your security with advanced features like Passkey authentication for accessing funds and keyless recovery for peace of mind. Never worry about losing your private keys again - regain access to your wallet using your device's biometrics or other secure methods.
-
-    Effortless Crypto Transactions
-
-    Send and receive cryptocurrencies like BTC, Ethereum, and others seamlessly. Open Wallet supports multiple blockchains, allowing you to transfer tokens across various networks, including Ethereum, Polygon, Arbitrum, and Optimism.  Enjoy faster, more convenient transactions by sending crypto directly to ENS addresses.
-
-    Support for Multiple Chains and Tokens
-
-    Whether you're holding Bitcoin, Ethereum, or exploring newer blockchains like Tron, Open Wallet has you covered. Effortlessly manage, store, and send tokens across a wide range of EVM chains.
-
-    NFT Gallery and Web3 Connectivity
-
-    Dive into the world of NFTs with Open Wallet's built-in NFT gallery.  View, manage, and trade your digital collectibles across six EVM chains. Full WalletConnect support lets you participate in DeFi, explore dApps, and engage with the broader Web3 ecosystem, all from your Android device.
-
-    Keyless Recovery for Peace of Mind
-
-    Say goodbye to the stress of lost private keys. Open Wallet's keyless recovery feature allows you to regain access to your wallet using your device's built-in security features.
-
-    Participate in DeFi and Web3
-
-    Open Wallet opens the door to decentralized finance.  Connect to dApps and participate in the growing DeFi ecosystem with full WalletConnect support. Stake your tokens, lend assets, or explore NFT marketplaces, all within the app.
-
-    Intuitive and User-Friendly
-
-    Open Wallet's intuitive interface makes managing your digital assets simple, even if you're new to crypto. Send crypto, explore DeFi opportunities, and more with ease.
-
-    Your All-in-One Crypto Wallet on Android
-
-    Open Wallet is the comprehensive solution for managing your digital assets on Android. Buy Bitcoin, send Ethereum, explore NFTs, and more, all with industry-leading security and convenience.
-
-    Download Open Wallet today and embark on your crypto journey with confidence!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 115753
-  ratings: 339
-  reviews: 7
-  userCount: 100000
-- appId: com.azasend.app
-  title: 'Azasend: Buy, Sell Bitcoin'
-  developer: Azasend Sp
-  summary: Buy, Sell &amp; Convert BTC, ETH, USDT... to NGN, ZAR, VND... to Any Bank Account
-  score: 4.56
-  url: https://play.google.com/store/apps/details?id=com.azasend.app
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 12
-  disregard: false
-  fullDescription: |-
-    Buy, Sell & Convert Bitcoin and Other Cryptocurrencies Seamlessly - One Platform for Multi-Asset Conversion
-
-    With Azasend, you can effortlessly buy, sell, convert Bitcoin, USDT, and other major cryptocurrencies into fiat currencies like NGN, ZAR, VND, and more. Whether you are off-ramping to your local currency or exchanging between crypto assets, Azasend delivers fast, secure, and automated transfers across borders. Our platform is built for users in Africa, Asia, and beyond, offering seamless compatibility with bank withdrawals, so you can move your money, your way, anytime and anywhere.
-
-    Key Features:
-
-    EFFORTLESS ASSETS TO ASSETS. BUY, SELL, CONVERT. ANYTIME, ANYWHERE.
-
-    - Buy Crypto: Instantly buy Bitcoin, ETH, USDT, and more, with support for direct fiat deposits via bank accounts.
-
-    - Sell Crypto: Simply sell crypto to fiat and withdraw funds directly to your personal bank account.
-
-    - Convert Crypto: Swap between crypto assets or convert to fiat, with instant cash-out to any bank account.
-
-    - Fiat Wallet: Instantly access and manage fiat within your Azasend wallet to buy, sell, or convert crypto — no manual confirmation required.
-
-    - Azasend Power (AZA): A utility digital asset earned through activity, used for transaction fees, profit-sharing, and unlocking exclusive benefits across the platform. Backed by real growth—not speculation.
-
-    - Lifetime Referral - Earn Forever: Get paid every time your referrals trade. No limits, no expiry.
-
-
-    Why Azasend?
-
-    Buy, Sell & Convert Bitcoin and other cryptocurrencies with convenience - no P2P issues, no disputes, no delays, no frozen accounts:
-
-    - Simple KYC Process - Get started with just your phone number or email.
-
-    - High-Value Trades, Always Available - Enjoy guaranteed liquidity without the delays and uncertainty of P2P.
-
-    - Fast Crypto-to-Bank Transfers - Convert and withdraw in just 5 minutes, directly to your bank account.
-
-    - Fully Automated Withdrawals - No manual confirmation needed - withdrawals are processed instantly, 24/7.
-
-    - Flexible Bank Account - Send funds to any account, with no name matching required.
-
-    - 24/7 Customer Support - We're always online to help.
-
-
-    Who is Azasend for?
-
-    Azasend is built for individuals and businesses who need a faster, safer way to move between crypto and fiat:
-
-    - Freelancers & Remote Workers paid in crypto.
-
-    - Small Business Owners looking to off-ramp fast.
-
-    - Remittance Receivers needing emergency access to fiat.
-
-    - Salary Earners & Office Workers hedging against inflation.
-
-    - SMEs and Entrepreneurs doing international business.
-
-
-    One Platform for Multi-Asset Conversion - Buy, Sell & Convert Bitcoin and other cryptocurrencies effortlessly.
-
-    Download Azasend today and experience the future of asset conversions—fast, secure, and effortless.
-
-    Download for free now!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 164967
-  ratings: 8082
-  reviews: 76
-  userCount: 100000
-- appId: com.ourbit.client
-  title: 'Ourbit: Buy Bitcoin & Crypto'
-  developer: Ourbit
-  summary: A user friendly crypto exchange.Trade Bitcoin safe &amp; fast.
-  score: 3.6179776
-  url: https://play.google.com/store/apps/details?id=com.ourbit.client
-  searchTerm: crypto wallet bitcoin
-  platform: android
-  relevanceScore: 11
-  disregard: false
-  fullDescription: |-
-    Welcome to Ourbit – Your most trusted digital assets trading partner! We provide a secure, stable, and user-friendly centralized trading platform that enables you to effortlessly buy, sell and manage your cryptocurrencies.
-
-    Feature Highlights:
-    Instant Trades: Buy and sell Bitcoin, Ethereum, and other mainstream or emerging cryptocurrencies with one of the fastest trading experiences in the market.
-    Utmost Security: Employing industry-leading security measures, including cold storage, two-factor authentication, and end-to-end encryption to ensure the safety of your funds and personal information.
-    User-Friendly: A clear and intuitive user interface that makes it easy to get started, perfect for both experienced enthusiasts and newcomers to crypto trading.
-    Powerful Charts and Analytical Tools: Real-time market data and comprehensive technical analysis tools to help you make informed trading decisions.
-    24/7 Customer Support: Our professional team is available around the clock to answer questions and provide assistance.
-
-    Diverse Services:
-    Spot Trading: Supports a variety of trading pairs to meet your diverse coin trading needs.
-    Continuous New Coin Listings: Continuously expanding our coin offerings so you can seize the latest market opportunities.
-
-    At Ourbit, we are committed to offering our global users the ultimate cryptocurrency trading experience. Download our App now and begin your journey in digital asset trading!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 192932
-  ratings: 1066
-  reviews: 44
-  userCount: 100000
-- appId: com.getmidas.crypto
-  title: 'Midas Kripto: Bitcoin Al Sat'
-  developer: Midas Finansal Teknolojiler
-  summary: Easily open an account and invest in Bitcoin and other cryptocurrencies with low commissions!
-  score: 5
-  url: https://play.google.com/store/apps/details?id=com.getmidas.crypto
-  searchTerm: bitcoin
-  platform: android
-  relevanceScore: 11
-  disregard: false
-  fullDescription: |-
-    **Quick and Easy Sign Up
-
-    You can open your crypto account in minutes by downloading the application, easily deposit money into your account and start buying and selling Bitcoin and altcoins immediately.
-
-    **Easy Buy-Sell Crypto Assets
-
-    With Midas Crypto's user-friendly interface, it is very easy to buy and sell cryptocurrencies, popular coins and tokens. With Midas Crypto, you can easily invest in popular altcoins and tokens such as Ethereum, Dogecoin, Shiba, Pi Coin, USDT, Ripple, as well as Bitcoin. You can activate the staking feature to stake ETH and SOL assets and earn daily returns. You can use cryptocurrency charts for your price analysis.
-
-    **Make Your Transactions with Low Commissions
-
-    You do not pay high commissions when buying and selling other coins and tokens, as well as BTC and ETH. You invest in cryptocurrencies with low commissions with your Midas Crypto account. Your investments are safely stored in cold crypto wallets on the blockchain.
-
-    **Make Free Money Transfers Between Your Midas Accounts 24/7
-
-    It is very easy to transfer money from your Midas investment account to your Midas Crypto account. Moreover, you can invest in any coin and token you want, from artificial intelligence coins to meme coins, by transferring money between your accounts 24/7 free of charge.
-
-    **Follow Crypto Exchange News
-    You can follow crypto news and developments in cryptocurrency exchanges from the Midas Crypto application, and make more conscious investment decisions with crypto analyses.
-
-    **Create Watch Lists
-
-    You can add the cryptocurrency you are interested in to your watch lists and follow altcoin prices instantly, thus personalizing your cryptocurrency tracking experience.
-
-    **Examine the Newest Crypto Assets
-
-    While offering the best crypto investment experience, we list the newest and most popular assets on Midas Crypto.
-
-    **Contact Us Easily Whenever You Want
-
-    You can reach us 24/7 from Live Support when you need it.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 359510
-  ratings: 5050
-  reviews: 1
-  userCount: 100000
 - appId: com.redpocket.satoshimillions
   title: Satoshi Millions. Win Bitcoin
   developer: Satoshi Hero™
@@ -2660,7 +2432,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Looking for free to win real money casino games? With bitcoin technology: rewards are plenty, and immediate cash-outs become a reality!
 
@@ -2720,7 +2492,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     BTH Coin confirmed the problem of excessive mining electricity usage through the current PC, and created the Bitcoin Hunter Coin that improved it.
 
@@ -2798,357 +2570,6 @@
   ratings: 8490
   reviews: 186
   userCount: 100000
-- appId: com.multibank.app
-  title: 'MultiBank.io: Buy BTC & Crypto'
-  developer: MEX Digital
-  summary: Buy and trade bitcoin &amp; other cryptocurrencies on a regulated trading platform.
-  score: 3.9473684
-  url: https://play.google.com/store/apps/details?id=com.multibank.app
-  searchTerm: btc
-  platform: android
-  relevanceScore: 9
-  disregard: false
-  fullDescription: |-
-    Welcome to MultiBank.io, the cutting-edge crypto exchange platform powered by MultiBank Group, a leader in the financial services industry since 2005.
-
-    With over a decade of experience and a legacy of excellence, you can trust us to provide secure and reliable trading services. MultiBank Group holds over 15 regulated licenses worldwide, ensuring that our operations comply with the highest standards of financial regulation. We are proud to maintain a clean record, reflecting our commitment to responsible and ethical business practices.
-
-    At MultiBank.io, we offer a wide range of exotic trading pairs, including but not limited to BTC, USDT, and USD pairs for Tesla, Gold, Silver, Dow Jones, and more. Our platform also features innovative tools like Panic Sell, allowing you to sell all your crypto assets in just one click, and Instant Buy, enabling you to purchase crypto instantly using your bank card, Apple Pay, or Android Pay. In addition, MultiBank.io provides top-notch security measures, including 2-factor authentication, cold storage, and insurance.
-
-    Our 24/7 customer support team is available in 10 languages to assist you with any questions or concerns. And with both Android and iOS apps, as well as a desktop platform, you can access your account and trade on-the-go. Join the legacy of excellence at MultiBank.io, where regulation meets innovation and security meets ease of use.
-
-    Start trading today and experience the difference.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 145177
-  ratings: 538
-  reviews: 7
-  userCount: 100000
-- appId: com.robinhood.gateway
-  title: 'Robinhood Wallet: Swap Crypto'
-  developer: Robinhood
-  summary: 'Onchain Web3 crypto wallet: Easily swap, trade &amp; explore Bitcoin, Solana, DeFi.'
-  score: 4.44
-  url: https://play.google.com/store/apps/details?id=com.robinhood.gateway
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Robinhood Wallet - Secure, Seamless, and Built for the Future of Crypto!
-
-    Take full control of your crypto with Robinhood Wallet, the secure and easy-to-use Web3 wallet designed for seamless digital asset management. Whether you're buying, storing, or swapping crypto, Robinhood Wallet empowers you with complete ownership and self-custody of your digital assets.
-
-    Trusted by millions within the Robinhood ecosystem, it offers a non-custodial experience, giving you full control of your private keys while enabling seamless crypto transactions.
-
-    💡 Why Choose Robinhood Wallet?
-    Robinhood Wallet gives you full control over your digital assets while ensuring seamless crypto transactions. Enjoy an intuitive experience built for all crypto users.
-
-    🪙Swap Your Favorite Cryptocurrencies
-    Manage and trade tens of thousands of popular cryptocurrencies like Ethereum (ETH), Solana (SOL), USDC, and more. 
-
-    🌐 Supported Networks
-    Robinhood Wallet supports multiple blockchain networks, including Ethereum, Solana, Polygon, Arbitrum, Optimism, and Bitcoin. 
-
-    🔄 Effortless Crypto Transfers
-    Easily transfer crypto between Robinhood Wallet and Robinhood Crypto. Move assets quickly to external wallets on supported networks with no hidden fees (network fees still apply). 
-
-    🏦 Complete Asset Control
-    Send, receive, and store crypto without restrictions. Robinhood Wallet is non-custodial, meaning you have full ownership of your assets. 
-
-    🔗 Connect with Robinhood Crypto App
-    Seamlessly connect your Robinhood Crypto and Robinhood Wallet accounts with Robinhood Connect. Buy, sell, and transfer assets effortlessly between both platforms.
-
-    🛡️️ Complete Control & Security
-    Your private keys remain yours. Biometric authentication and advanced encryption.
-
-    📥 Download Robinhood Wallet today and take full control of your crypto!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 271791
-  ratings: 1108
-  reviews: 119
-  userCount: 100000
-- appId: com.okx.wallet
-  title: 'OKX Wallet: Portal to Web3'
-  developer: OKX
-  summary: Easily Manage &amp; Trade Bitcoin, Ethereum &amp; other Crypto - Web3 Wallet
-  score: 4.0694447
-  url: https://play.google.com/store/apps/details?id=com.okx.wallet
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    OKX Wallet is your gateway to Web3 and a secure crypto wallet built for on-chain trading, DeFi, Bitcoin, Ethereum, Solana, and thousands of other cryptocurrencies. It supports 120+ blockchains and gives you seamless access to DeFi staking, token swaps, meme coins, and airdrops—all in one decentralized wallet. Whether you’re managing your Bitcoin or exploring the world of Web3, OKX Wallet is the trusted wallet for both beginners and crypto experts.
-
-    Security through transparency
-
-    ● Self-custodial crypto wallet with full control over your assets
-    ● Advanced blockchain security and anti-phishing systems
-    ● Proactive risk alerts for fake tokens and malicious transactions
-    ● Open-source wallet and DEX code audited by leading firms like SlowMist
-
-    Monitor multichain crypto assets with ease
-
-    ● Unified dashboard for all your Bitcoin, Ethereum, Solana, USDT, USDC, and other crypto assets
-    ● Detailed PnL tracking for DeFi staking, token trading, and airdrop earnings
-    ● Support for meme coins, testnet faucets, hardware wallet integration, and more
-
-    Feel the pulse of the on-chain token market
-
-    ● Token trends, real-time trading data, and market opportunities in one place
-    ● Meme Pump: discover high-potential meme coins before they trend
-    ● Integrated tools for deeper on-chain token analysis
-
-    Trade fast, trade smart, stay self-custodial
-
-    ● In-app DEX aggregator with 500+ DEXs across 40+ chains
-    ● Flexible trading with market, limit, and strategy orders
-    ● Seamless token bridging across 25+ chains with 27 bridge protocols
-
-    Discover trending DApps and earn crypto rewards
-
-    ● Explore Web3 DApps via OKX Discover, now available on app, web, and extension
-    ● Complete interactive tasks and claim airdrops through Cryptoverse
-
-    DeFi staking made easy with OKX DeFi Earn
-
-    ● Aggregates 170+ DeFi protocols across 30+ chains
-    ● Stake crypto like ETH, SOL, USDT, and USDC for passive income
-    ● Enjoy exclusive bonus APYs from third-party partners
-
-    Ready to take control of your crypto journey? Start with OKX Wallet—your secure Web3 crypto wallet for Bitcoin, Ethereum, Solana, DeFi, and more.
-
-    Visit web3.okx.com or contact us at wallet@okx.com for support.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 458835
-  ratings: 1133
-  reviews: 27
-  userCount: 100000
-- appId: app.backpack.mobile
-  title: 'Backpack: Buy SOL, BTC, Crypto'
-  developer: Backpack App
-  summary: Crypto Exchange &amp; Web3 Wallet
-  score: 4.4455447
-  url: https://play.google.com/store/apps/details?id=app.backpack.mobile
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Backpack holds everything you need to buy, trade, and earn crypto. Start exploring the world of crypto with confidence—our Exchange and Wallet are built on trusted security.
-
-    Next-Level Crypto Exchange
-    - Trade spot, margin, and futures from a single cross-margined account
-    - Optimize your trades with isolated sub-accounts
-    - Earn yield on unrealized PnL and collateral
-    - Claim rewards as you trade and level up
-
-    All-in-One Crypto Wallet
-    - Create a wallet on Solana, Ethereum, Eclipse, Monad, and more
-    - Buy, sell, swap, and bridge tokens at low fees
-    - Explore all the major tokens, decentralized apps, and NFTs
-    - Unlock exclusive point boosts on the hottest apps
-
-    Industry-Leading Security
-    - Scam detection alerts you before interacting with bad sites
-    - Connect your hardware wallet for cold-storage security
-    - Lock your NFTs to protect them from malicious transactions
-    - Self-custody for complete control over your data and assets
-    - Regularly audited by leading security firms
-
-    *Access to Backpack Exchange and its trading features may not be available in your region.
-
-    Find us on X: @Backpack
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 430042
-  ratings: 1601
-  reviews: 53
-  userCount: 100000
-- appId: bu.app.android
-  title: 'Bitunix Pro: Trade Bitcoin'
-  developer: Bitunix Pro
-  summary: 'Bitunix Pro: Secure crypto trading with copy trading, tools.'
-  score: 3.95
-  url: https://play.google.com/store/apps/details?id=bu.app.android
-  searchTerm: btc
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Access the digital asset market with the trading app built for all levels of experience.
-    Comprehensive Trading Options
-    Futures Trading: USDT-M perpetual contracts.
-    Spot Trading: Buy and sell Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Shiba Inu (SHIB), Dogecoin (DOGE), Polygon (MATIC), and many more.
-    Supported Assets
-    Trade a diverse range of cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Polkadot (DOT), Dogecoin (DOGE), Tron (TRX), Uniswap (UNI), Ripple (XRP), Arbitrum (ARB), and more.
-    Assets Deposits 
-    Deposit digital assets from other exchanges via multiple blockchain networks, including TRX, ETH, BSC, BTC, XRP, AVAX, SOL, and ARBITRUM.
-    Important Notice
-    This platform operates as an overseas investment exchange. As such, investors should conduct thorough research and understand the financial, regulatory, and legal risks involved before engaging in trading.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 336792
-  ratings: 1106
-  reviews: 49
-  userCount: 100000
-- appId: com.coinhouse
-  title: Coinhouse - Bitcoin et Cryptos
-  developer: Coinhouse
-  summary: Coinhouse is the easiest and safest crypto app to buy, sell and store cryptos.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.coinhouse
-  searchTerm: bitcoin
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Want to invest in crypto-currencies?
-
-    Welcome to Coinhouse, the first player registered in France by the Autorité des Marchés Financiers. 
-
-    Coinhouse offers everyone the opportunity to take advantage of the crypto-revolution with a crypto app that simplifies your investments in Bitcoin, Ether, USDT and over 50 crypto-currencies.
-
-    WHAT IS COINHOUSE? 
-
-    Your trusted partner to buy, sell and store cryptocurrency with ease.
-
-    - Open your crypto account for free
-    - Choose from 3 accounts, depending on your needs: Classic, Premium, Platinium
-    - The possibility to open a Business account, designed for companies that want to invest in crypto-currency
-    - Buy Bitcoin, Ethereum and more than 50 crypto-currencies 
-    - Buy your cryptos from €20 
-
-    NEW FEATURE: RECURRING PURCHASE 
-
-    A new option to simplify your investment:
-
-    - Schedule your crypto purchases with Recurring Purchase and set up a long-term crypto investment strategy. 
-
-    SUPPORT AND SECURITY, OUR PRIORITIES
-
-    - A 100% secure crypto account: your cryptos are kept in complete security thanks to Ledger vault technology, the most reliable on the market.
-    - Our recommendations to make your account as secure as possible
-    - A dedicated team of experts to help you manage your cryptos
-    - A customer service available to answer all your questions about the management of your account
-
-    MONITOR THE MARKET IN REAL TIME 
-
-    - Follow the bitcoin price, ethereum price and more than 50 cryptos in real time: our optimized dashboard helps you track the prices and value of your assets live, at any time of the day.
-    - Access a personalized list of the best cryptos selected by our experts and buy the most interesting projects directly
-    - Our crypto experts recommend, rate and explain the technologies behind each crypto currency we offer
-    - A daily updated ranking of the winning and losing, most traded and most capitalized cryptos.
-
-
-    A CLEAR PORTFOLIO
-
-    - Find all your crypto investments in your portfolio
-    - Find your recurring purchases in a dedicated section
-    - Follow the progress of your assets in real time
-    - Don't lose track: consult your past transactions thanks to the history 
-
-
-
-    WHETHER YOU ARE A CRYPTO BEGINNER OR A CRYPTO PRO, WE ARE HERE TO HELP YOU.
-
-    With an easy-to-use platform and a French and English speaking customer service, Coinhouse makes the world of crypto-assets and blockchain accessible to everyone. The aim is to allow individuals and companies to invest in a simple, fast and confident way. The interface offers services, educational content and analyses aimed at facilitating the management of one's investments and democratising the use of crypto-assets.
-
-
-    ABOUT US
-
-    Coinhouse, formerly La Maison Du Bitcoin, was born in 2014. Designed as a place for crypto and blockchain enthusiasts to share, it is the first cryptocurrency exchange counter located in the heart of Paris.
-
-    A pioneer in crypto investments, Coinhouse is now a digital platform for individuals and institutions wishing to acquire and secure their digital assets. Our teams accompany them in building their crypto portfolio and discovering this ecosystem.
-
-    Coinhouse has more than 500,000 clients in Europe and offers immediate access to over 50 crypto-assets carefully selected by its experts.
-
-    #CRYPTOUNCHAINED 
-    #OPENMINTED
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 177391
-  ratings: 0
-  reviews: 0
-  userCount: 100000
-- appId: com.bitoex.bitopronew
-  title: BitoPro - Buy & Trade Bitcoin
-  developer: BitoPro Technology CO., LTD.
-  summary: Trade popular cryptocurrencies and manage digital assets easily!
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.bitoex.bitopronew
-  searchTerm: btc
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    【BitoPro's Comprehensive All-in-One Service】
-
-    - Withdraw funds instantly:
-    The fastest withdrawal in Taiwan! Withdraw legal currency before 13:00 will be credited to the bank before 15:30 on the same day (fastest 2 ~ 2.5 hours!)
-
-    - Spot Trading:
-    Offers a diverse range of popular cryptocurrency trading pairs, including USDT, BTC, ETH, SOL, DOGE, TON, and other carefully evaluated tokens, to prevent users from falling victim to scams and buying fake tokens!
-
-    - One-Click Buy/Sell:
-    Buy and sell when you want – simple operations designed for beginners and busy individuals guaranteed zero slippage! The displayed price is your trading price, allowing for easy and time-saving bulk trading with fixed pricing.
-
-    - Grid Bot:
-    24/7 continuous low buy and high sell opportunities with mainstream coins, stablecoins, and popular altcoins for you to choose from! With one-click order placement, backtesting functionality, and optimal parameter recommendations, Bitopro becomes your investment decision assistant, making trading simpler than ever!
-
-    - BitoPro Debt:
-    A low-risk investment with stable returns, this product is a powerful asset in wealth management, whether in bullish or bearish markets!
-
-    - Points to Cryptocurrency Exchange:
-    What? You can even exchange FamilyMart points for cryptocurrency! Start with points and embark on your first Bitcoin investment!
-
-    - TTCheck Gift Cards:
-    The ultimate gift choice for cryptocurrencies! Not sure what to give? Send digital asset gift cards to your friends, allowing them to experience the dual sensation of surprise and wealth!
-
-    【BitoPro Handy Tools】
-
-    - Real-Time Market Insights:
-    Stay tuned to market trends and gain instant access to second-by-second information on cryptocurrencies listed on BitoPro! Keep track of your favorite tokens for quick and effortless trading.
-
-    - Price Alerts:
-    Don't worry, BitoPro will send you friendly reminders to ensure you never miss any changes in token prices.
-
-    - Referral Rewards:
-    Invite friends to earn together, the more they trade, the more you earn! Enjoy up to a 50% reward rebate.
-
-    - Share Your Achievements:
-    Quickly showcase today's profit achievements to impress your friends!
-
-    - Specially Designed PIN Code:
-    Double the protection for an extra layer of security, ensuring a trading experience that's doubly safe and secure!
-
-    - Instant Customer Support
-    Tap the "Contact Customer Support" button to instantly open a chat window, where our dedicated customer service team will quickly resolve your queries!
-
-    - Swift Integration with BELS NFT Platform:
-    Immerse yourself in the abundant features of BitoPro without worrying about wallet integration. Experience the allure of BELS NFT immediately and embark on your digital art journey!
-
-    【Official Community】
-    Website: https://www.bitopro.com/
-    Facebook: https://www.facebook.com/bitopro.bito/
-    Instagram: https://www.instagram.com/bito_group/
-    Telegram: https://t.me/BitoProOfficial
-    Twitter: https://twitter.com/BitoEx_Official
-    LINE: https://line.me/ti/p/@bitopro
-    Youtube: https://youtube.com/@BitoGroup
-    Medium: https://bitoex.medium.com/
-    Threads: https://www.threads.net/@bito_group
-
-    【Contact Us】
-    Customer Service: support@bitopro.com
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 158821
-  ratings: 0
-  reviews: 0
-  userCount: 100000
 - appId: com.pe.coinspinner
   title: Bitcoin Spin
   developer: PlayEmber Sp. z o.o.
@@ -3158,7 +2579,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Discover a new way to play and earn Bitcoin in this exciting money game! Use your skills to spin the wheel of fortune, stack your coins, and unlock amazing prizes. The more you play, the more you can upgrade your machine for even bigger rewards!
 
@@ -3203,7 +2624,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Feixiaohao, one of the earliest cryptocurrency data platforms in China, is committed to building an accurate and trusted source of data for cryptocurrencies.Through the up-to-date markets , industry information, blockchain community and other dimensions, we bring the most valuable cryptocurrency information to our users. Also through our exchange rating mechanism, users can easily understand the latest trends and keep scams away.
 
@@ -3231,7 +2652,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Mining has become incredibly simple with Minersy. You can engage in cloud mining by simply downloading the application onto your phone. Enter the realm of Cloud Mining today. With the Minersy app, you can swiftly and freely mine bitcoin and numerous other cryptocurrencies.
 
@@ -3327,7 +2748,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Are you ready to test your skills in the most exciting coin pusher game? Bitcoin Pusher lets you drop, stack, and push coins to collect exciting in-game rewards! Upgrade your setup, unlock powerful boosters, and experience the thrill of watching your coins pile up. With every strategic move, you get closer to mastering the game and becoming a true coin master!
 
@@ -3349,7 +2770,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Welcome to Bitcoin Cards!
     Embark on an exciting journey in this captivating card trading game! Collect cards, strategize, and showcase your skills to become a master of Bitcoin-themed challenges.
@@ -3380,7 +2801,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Fortune traders - Crypto and Bitcoin 
     Signals provide you signal by experienced persons from cryptocurrencies market and notify you on the best time to buy alts and btc for max profit.
@@ -3595,7 +3016,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: CoinDesk is the most trusted media, events, indices and data company for the global crypto economy. Since 2013, CoinDesk Media has led the story of the future of money and investing, illuminating the transformation in society and culture that comes with it. Our award-winning team of journalists delivers news and unparalleled insights that bring transparency, comprehension and context. CoinDesk Events gathers the global crypto, blockchain and Web3 communities at annual events such as Consensus, the world's largest and longest-running crypto festival. CoinDesk Indices offers expertise in digital asset indices, data and research to educate and empower investors. For more information on CoinDesk media and events, please visit coindesk.com and for breaking headlines, data and indices visit coindeskmarkets.com.
   installs: 100,000+
   minInstalls: 100000
@@ -3612,7 +3033,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Are you looking for a bitcoin miner app? Would you like to do cloud mining with one click? If so, POMO Protocol is perfect for you! 
 
@@ -3656,31 +3077,6 @@
   ratings: 8944
   reviews: 236
   userCount: 100000
-- appId: com.thisisnumero.mybtc
-  title: MyBTC
-  developer: Bahamas Telecommunications Company Ltd
-  summary: Manage your BTC accounts in one simple app, buy plans, topup and pay bills.
-  score: 3.77
-  url: https://play.google.com/store/apps/details?id=com.thisisnumero.mybtc
-  searchTerm: btc
-  platform: android
-  relevanceScore: 6
-  disregard: false
-  fullDescription: |-
-    My BTC is a free app that will transform the way you manage your prepaid and postpaid BTC services. Manage your prepaid and postpaid accounts from the comfort of your phone. 
-
-    - See detailed airtime and balance information for Prepaid including expiration dates 
-    - Easily purchase Prepaid Plans for superior voice, text and data value 
-    - Get instant access to billing information for Postpaid customers 
-    - Buy or transfer Top Up directly from the app 
-    - Pay your bill without waiting in line 
-    - Contact Customer Care using Online Chat
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 226640
-  ratings: 779
-  reviews: 75
-  userCount: 100000
 - appId: com.coin.btc.android
   title: BtcCoin-Cloud Miner Mining
   developer: BTC COIN Cloud Miner NFT
@@ -3690,7 +3086,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 4
-  disregard: false
+  disregard: true
   fullDescription: |-
     The BtcCoin application does not utilize your device’s computational resources for mining; instead, it employs cloud-based (cloud-level) mining technology to process operations within the application. Users may participate in mining by viewing advertisements or claiming a free mining machine every four hours, or by purchasing higher hash rate mining machines to earn Bitcoin (BTC) daily.
 
@@ -3726,40 +3122,6 @@
   ratings: 3323
   reviews: 423
   userCount: 100000
-- appId: com.webull.pay.us
-  title: 'Webull Pay: Crypto Buy & Sell'
-  developer: Webull Pay LLC
-  summary: Bitcoin, Ether &amp; Crypto Trading
-  score: 4.5763273
-  url: https://play.google.com/store/apps/details?id=com.webull.pay.us
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 3
-  disregard: false
-  fullDescription: |-
-    A simple, fast, and secure way to buy, sell, and trade bitcoin and other cryptocurrency. Get started today!
-
-    SUPPORTED ASSETS
-    Bitcoin (BTC), Ethereum (ETH), USD Coin (USDC), LTC (Litecoin), DOGE (Dogecoin), SHIB (Shiba Inu coin), and other popular cryptocurrencies.
-
-    BUY, SELL & MANAGE CRYPTO
-    Webull is a trusted platform to build, manage, and track your crypto portfolio with leading compliance and security certifications.
-
-    POWERFUL TOOLS FOR ADVANCED CRYPTO TRADERS
-    - Create price alerts so that you can stay on top of the market and be alerted when the right moment strikes.
-    - Buy and sell crypto using advanced trading tools.
-    - Access in-depth analysis, advanced charting, and real-time order books.
-
-    DISCLOSURE
-    Cryptocurrency services requires registration with Webull Pay LLC ("Webull"), which is only available to residents in the United States. Webull has collaborated with Bakkt Crypto Solutions, LLC ("Bakkt") to provide you convenient access to cryptocurrency trading. Webull and Bakkt are separate entities. As a customer of both Webull and Bakkt, you have an account at Bakkt to manage your cryptocurrencies.
-     
-    Cryptocurrency execution services are provided by Bakkt Crypto Solutions, LLC and Bakkt Marketplace, LLC (“Bakkt”, NMLS ID 1828849/1890144) through a software licensing agreement between Bakkt and Webull Pay. Bakkt is not a registered broker-dealer or a member of SIPC or FINRA, and your crypto balance is not FDIC or SIPC insured. Bakkt Crypto Solutions, LLC and Bakkt Marketplace, LLC are licensed to engage in virtual currency business activity by the New York State Department of Financial Services.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 320407
-  ratings: 9039
-  reviews: 1137
-  userCount: 100000
 - appId: crypto.school.learn.cryptocurrency.bitcoin
   title: Crypto School - Learn Bitcoin
   developer: LineCentury, Inc.
@@ -3770,7 +3132,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: |-
     Learn Bitcoin, Cryptocurrency & Blockchain for Free with Crypto School!
     Crypto School is changing the way people learn & start making money in the Cryptocurrency market!
@@ -3829,38 +3191,6 @@
   ratings: 3975
   reviews: 282
   userCount: 100000
-- appId: com.fastex.app
-  title: 'Fastex: Buy Bitcoin & Crypto'
-  developer: Fastex Europe
-  summary: 'Crypto exchange: buy &amp; sell FTN, BTC, USDT, ETH'
-  score: 4.105263
-  url: https://play.google.com/store/apps/details?id=com.fastex.app
-  searchTerm: bitcoin send receive
-  excludeTerms: []
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: |-
-    An easy-to-use crypto exchange platform supports a variety of crypto and fiat currencies. For those who trade such options as limit, stop-limit, market, stop-market, and trading API are available. The platform also provides market monitoring and analysis tools for added convenience.
-
-    Fastex is a fast-growing cryptocurrency exchange and trading platform. We welcome you to trade crypto smarter and safer with the Fastex exchange app.
-
-    Get started with the Fastex app to buy cryptocurrencies such as Bitcoin (BTC) and Ether
-    (ETH) hassle-free. Enjoy easy access to crypto spot trading pairs. 
-
-    Need a reason to download Fastex's mobile app?
-
-    Here are a few:
-    - Buy and sell popular crypto like USDT, BTC, ETH, LTC, DOGE fast & fuss-free
-    - Buy and sell Fasttoken (FTN)
-    - Verification takes a few minutes 
-    - Simple crypto withdrawal.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 292181
-  ratings: 1328
-  reviews: 11
-  userCount: 100000
 - appId: com.ml.freebitcoincash
   title: Earn Bitcoin Cash
   developer: M&L Prod.
@@ -3876,7 +3206,7 @@
     - calculator
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     🔆 Join Earn Bitcoin Cash, complete offers, surveys and spin hourly for free Bitcoin Cash.
 
@@ -3893,203 +3223,6 @@
   ratings: 23447
   reviews: 994
   userCount: 100000
-- appId: com.m2.exchange
-  title: 'M2: Buy Bitcoin & Trade Crypto'
-  developer: M2 Investments Limited
-  summary: 'M2: Bespoke Solutions for Digital Asset Portfolios'
-  url: https://play.google.com/store/apps/details?id=com.m2.exchange
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: |-
-    M2 is a trusted digital asset platform purpose-built for high-net-worth individuals and institutions. We deliver secure, institutional-grade access to the digital asset economy, with core offerings across financing, yield generation, and strategic market access.
-    What M2 Offers
-    • Tailored Yield Strategies – Put capital to work with custom Earn plans offering competitive fixed or flexible returns.
-    • Digital Asset Financing – Unlock liquidity through crypto-backed lending and capital-efficient structures.
-    • OTC Execution – Access deep liquidity with bespoke OTC services and trusted institutional execution.
-    • Crypto Conversion – Convert assets quickly and precisely with seamless, institutional-grade settlement.
-    • Institutional Security – Protect your assets with robust, multi-layered custody and security infrastructure.
-    • Live Portfolio Monitoring – Track performance and manage risk in real time across your holdings.
-    Optimized for Professional Investors
-    • Dedicated Relationship Managers – Expert support for onboarding, products and execution.
-    • Global Reach – Operate confidently with a regulated platform and built for cross-border investment.
-    • Bilingual Interface – Use M2 in English or Arabic for a tailored user experience.
-    Resources & Support
-    • News & Insights – Stay ahead with curated market analysis, industry trends, and expert commentary.
-    • Guide Center – Navigate the platform with ease and optimize your investment journey.
-    • White-Glove Support – Rely on expert assistance when and where you need it most.
-    Stay Connected
-    Follow M2 for insights, updates, and access to our investor network:
-    • X: @m2exchange
-    • LinkedIn: M2 Exchange
-    • Instagram: @m2exchange
-    • Telegram: M2 Community
-    Download M2 today and access a digital asset platform designed for those who demand more than just an exchange.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 123659
-  userCount: 100000
-- appId: com.monicang
-  title: 'Monica: Bitcoin to Naira Fast'
-  developer: Monica.cash
-  summary: Instant Bitcoin to Naira. Best rate, free transfers. Trusted by 450K+ Nigerians.
-  score: 4.6
-  url: https://play.google.com/store/apps/details?id=com.monicang
-  searchTerm: bitcoin cash
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: |-
-    Need to sell Bitcoin for Naira instantly? Monica is Nigeria's fastest cryptocurrency exchange for converting Bitcoin, USDT, Ethereum, and digital assets to cash in 60 seconds. Join 450,000+ Nigerians getting the best crypto to Naira rates with instant bank transfers, zero delays, zero fees, zero hassle.
-
-    Why Monica Dominates Bitcoin to Naira Conversion
-
-    🚀 Instant Bitcoin to Naira in 60 Seconds
-    Sell Bitcoin and receive Naira in your Nigerian bank account within 60 seconds. Our exchange processes BTC, USDT, Ethereum, and 9+ cryptocurrencies with lightning fast blockchain confirmation. Monica converts crypto to cash instantly.
-
-    💎 Best Bitcoin Exchange Rates in Nigeria
-    Monica consistently offers the highest BTC rates and most competitive USDT pricing in Nigeria. Check real-time exchange rates before every transaction. We guarantee the best crypto rates or match competitor pricing.
-
-    💸 Free Instant Bank Transfers
-    Unlike competitors charging ₦50-₦200 withdrawal fees, Monica provides completely free transfers to any Nigerian bank. Send converted Naira to GTBank, First Bank, UBA, Access Bank, Zenith, or 30+ banks instantly. Zero transfer fees, ever.
-
-    🔐 No P2P. No Problem.
-    Tired of the stress that comes with P2P? Fake alerts, slow vendors, frozen accounts, it’s not worth it.
-    With Monica.cash, you skip the P2P middlemen and convert crypto straight to Naira  instantly, securely, and without the drama.
-    Because peace of mind will always beat P2P.
-
-    📊 Multiple Cryptocurrencies Supported
-    Convert Bitcoin (BTC), USDT Tether, Ethereum (ETH), Bitcoin Cash, Litecoin, Dogecoin, and 9+ digital assets to Naira. Maintain instant access to Naira cash out whenever needed.
-
-    Perfect for All Nigerians
-
-    Whether you're a freelancer receiving Bitcoin payments from Upwork, a crypto trader executing 24/7 trades, diaspora sending money home via USDT, or a student managing funds, Monica delivers instant Bitcoin to Naira conversion for every use case.
-
-    Complete Financial Solution Beyond Crypto
-
-    ⚡ Bill Payments: Pay NEPA, DSTV, GOtv, Startimes, water bills
-    📱 Airtime & Data: Recharge MTN, Airtel, Glo, 9mobile at discounted rates
-    💳 Virtual USD Card: Shop on Amazon, Netflix, Spotify globally
-    🎁 Gift Cards: Buy 1,000+ gift cards with instant delivery
-    💸 Free Transfers: Send money to any Nigerian instantly for free
-
-    Bank-Level Security
-
-    Your Bitcoin, USDT, and Naira stay protected with 256-bit encryption, two factor authentication, biometric login, fraud detection, and regulatory compliance. Monica has processed ₦400 billion for 450,000+ users with zero security breaches.
-
-    How Monica Works – Three Simple Steps
-
-    Step 1: Create your free Monica account in 2 minutes. Complete simple KYC verification and generate unique wallet addresses for Bitcoin, USDT, Ethereum, and other cryptocurrencies.
-
-    Step 2: Transfer Bitcoin, USDT, or other crypto from any external wallet (Binance, Trust Wallet, Coinbase) to your Monica wallet address. Blockchain confirmation completes within minutes.
-
-    Step 3: Once blockchain confirms (typically few minutes for Bitcoin, 5-10 seconds for USDT), your Nigerian bank account automatically receives Naira deposit at the best exchange rate.
-
-    Why 450,000+ Nigerians Choose Monica
-
-    ⭐ Fastest Bitcoin to Naira conversion
-    ⭐ Best Rates: Highest BTC and USDT rates in Nigeria
-    ⭐ Zero Fees: Free bank transfers and P2P transactions
-    ⭐ 24/7 Support: English, Pidgin, Hausa, Yoruba, Igbo
-    ⭐ Multi Crypto: Trade 9+ cryptocurrencies
-
-    Start Converting Bitcoin to Naira Today
-
-    Download Monica now and claim your ₦1,500 welcome bonus. Refer friends and earn ₦200 per completed transaction.
-
-    Join Nigeria's fastest growing cryptocurrency community converting Bitcoin, USDT, and digital assets to Naira daily.
-
-    Monica: The Smart Way to Convert Bitcoin to Naira in Nigeria. Fast. Secure. Trusted by 450,000+.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 223504
-  ratings: 5219
-  reviews: 81
-  userCount: 100000
-- appId: com.mobee.io
-  title: 'Mobee: Trade Bitcoin & Crypto'
-  developer: Mobee - PT CTXG Indonesia Berkarya
-  summary: Invest &amp; Earn Crypto
-  score: 4.125
-  url: https://play.google.com/store/apps/details?id=com.mobee.io
-  searchTerm: bitcoin carteira
-  excludeTerms: []
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: |-
-    Mobee, Indonesia’s Crypto Exchange for Bitcoin & Digital Assets
-
-    Mobee is a secure, fast, and innovative crypto trading platform. Buy Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Dogecoin (DOGE), Cardano (ADA), Tether Gold (XAUt), and 100+ other digital assets directly with Indonesian Rupiah (IDR).
-    Diversify your portfolio with popular tokenized U.S. stocks such as Tesla, Apple, and the S&P 500. Take advantage of features like Spot Grid Trading for automated strategies, along with Flexi Earn, Dual Investment, and Auto Invest to maximize your returns.
-    With an intuitive interface, multi-layered security, and full support for Rupiah deposits, Mobee makes crypto investing easier, more transparent, and accessible to everyone.
-
-    Why Trade Crypto on Mobee
-
-    PROFESSIONAL TRADING OPTIONS
-    Customize your trades with advanced order types:
-    - Market Order: Instantly buy or sell assets at the current market price.
-    - Limit Order: Set specific prices to buy or sell.
-    - Stop Order: Activate a limit order once your set trigger price is reached.
-    - Trailing Stop: Adjust your stop price dynamically to lock in profits or limit losses as the market moves.
-
-    SEAMLESS COIN CONVERSIONS
-    Instantly swap any coin with our Instant Convert feature. Convert BTC to DOGE and more in just a few taps.
-
-    TRACK YOUR PORTFOLIO IN REAL TIME
-    Effortlessly monitor your portfolio with intuitive dashboards. Keep track of live stats on your profits and losses, and easily view all your open and past orders.
-
-    EARN STABLE RETURNS WITH FLEXI EARN
-    With Flexi Earn, earn up to 10% APR on BTC, ETH, SOL, DOGE, XAUT, and more. Enjoy daily passive income with no lock-in period—redeem anytime!
-
-    MAXIMIZE PROFITS WITH DUAL INVESTMENT
-    Earn up to 125% APR on your digital assets, regardless of market direction. A simple and sustainable way to monetize your holdings.
-
-    BUY LOW, SELL HIGH IN ONE GO WITH SPOT GRID
-    Automated tools that help you buy crypto at lower prices and sell at higher prices—all within 
-    the price range you set.
-
-    DIVERSIFY YOUR PORTFOLIO WITH TOKENIZED U.S. STOCKS
-    Trade top U.S. stocks 24/7—no more waiting for market hours.
-
-    HASSLE-FREE AUTO INVEST
-    Set up automated crypto purchases with Auto Invest. Invest at regular intervals—daily, weekly, or monthly—and build your portfolio steadily over time without worrying about market fluctuations.
-
-    SECURE YOUR CRYPTO ASSETS
-    Easily store, deposit, and withdraw your crypto with Mobee’s cutting-edge security measures. We protect your assets while eliminating the risks associated with Private Keys.
-
-    SUPPORT FOR IDR FIAT
-    Make seamless IDR deposits and withdrawals via bank transfer, E-wallet, or QRIS, available throughout Indonesia.
-
-    Connect with us for more information:
-    Instagram: www.instagram.com/mobee_id/
-    Twitter: twitter.com/mobee_id
-    Facebook: www.facebook.com/mobeeID/
-    Telegram: t.me/MobeeOfficialGroup
-    Discord: discord.gg/mobee
-    Website: mobee.com
-
-    – - - - - - – - - - - - - –
-    Mobee is supervised by the Financial Services Authority (OJK) and is a member of PT Central Finansial X (CFX)
-
-    Address:
-    Treasury Tower, 18th Floor
-    District 8, SCBD
-    12190, Jakarta, Indonesia
-
-    Disclaimer:
-    Investing in CRYPTO assets carries risk. Please do thorough research before making any investment. CRYPTOcurrency values can fluctuate—ensure you manage your risks responsibly.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 309362
-  ratings: 3186
-  reviews: 2
-  userCount: 100000
 - appId: com.Bitcoin.Miner.Idle.Clicker.Tycoon.Bitcoin
   title: Bitcoin Mining Idle Tycoon
   developer: Leksi
@@ -4103,7 +3236,7 @@
     - game
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Do you love money? Do you want to be rich and become a business superstar? Sure you do!
 
@@ -4143,7 +3276,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 12
-  disregard: false
+  disregard: true
   fullDescription: |-
     PLEASE REMEMBER: Idle Bitcoin Inc. is just a game. It won’t actually mine bitcoins for you.
 
@@ -4190,7 +3323,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Download GamerHash Mobile to control your mining equipment, hodl, pay out or spend your mined cryptos. All in one application:
 
@@ -4217,7 +3350,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Would you like to earn bitcoin while browsing the web? With BrowsBit, it’s more than possible.
 
@@ -4260,7 +3393,7 @@
     - price
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Bitcoin Monitor visualizes crypto prices across exchanges, allowing you to spot the cheapest price for the cryptocurrency you're looking for. If you're into trading, then use our purely AI driven trade signals which provide you with up-to-date trade recommendations. You can use these recommendations to support your buy, sell or HODL decisions.
 
@@ -4347,7 +3480,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     🔧 Build, Upgrade, Merge — Welcome to the Chip World!
 
@@ -4364,55 +3497,6 @@
   ratings: 1679
   reviews: 95
   userCount: 100000
-- appId: io.zerion.android
-  title: 'Zerion: Crypto Wallet,DeFi,NFT'
-  developer: Zerion Inc
-  summary: Crypto,NFTs&amp;DeFi with your Wallet on Solana(SOL),Ethereum(ETH),USDT &amp; 50+ Chains
-  score: 4.5181346
-  url: https://play.google.com/work/apps/details?id=io.zerion.android
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Zerion: Your Ultimate Crypto & DeFi Wallet for Solana, Ethereum & 50+ Chains
-
-    Zerion is the leading crypto wallet and web3 wallet built to manage all your assets. Our self-custodial crypto defi wallet lets you safely buy, store, swap, and track your cryptocurrency and NFTs in one powerful crypto app.
-
-    One Wallet for All Chains: Solana, Ethereum, BNB Chain & More
-    No more switching between wallets! Zerion is your all-in-one Solana wallet, Ethereum wallet, BNB Chain wallet, and Base wallet. Supporting 50+ blockchains, all your assets are always at your fingertips.
-
-    Buy Crypto & Start Your DeFi Journey
-    Looking for the best app to buy crypto? Easily fund your wallet with a card and buy cryptocurrency directly in the app. Start your blockchain and DeFi journey with Zerion's intuitive interface.
-
-    Full Token & NFT Support
-    Manage thousands of tokens on Ethereum and Solana:
-    - Ethereum (ETH): USDT, USDC, WBTC, DAI, SHIB, PEPE, UNI, LINK, and more.
-    - Solana (SOL): USDT, USDC, BONK, JUP, WEN, RAY, PYTH, and many others.
-    Store and view all your collections in our powerful NFT wallet.
-
-    Key Features of Zerion - Your Crypto Hot Wallet
-    - Swap: Trade crypto across EVM chains and Solana with low fees.
-    - Track: All your tokens, DeFi positions, NFTs, and transaction history in one place.
-    - Discover: Trending tokens, new NFT mints, and find alpha before others.
-    - Earn: Get XP and rewards for your onchain activity. Never miss important airdrops.
-    - Security: Our hot wallet features built-in security checks for safe browsing. 
-    - Connect your Ledger for maximum safety.
-
-    Your Keys. Your Assets. Your Privacy.
-    Zerion is a non-custodial wallett. Only you control your funds and data. We never have access to your assets or private keys.
-
-    Download Zerion—the best crypto defi wallet for managing your portfolio on Solana, Ethereum, BNB Chain, and other networks. Join the future of block chain technology today!
-
-    Learn more: Terms of Service (zerion.io/terms.pdf) and Privacy Policy (zerion.io/privacy.pdf).
-    Zerion Inc., 50 California Street, Suite 1500, San Francisco, CA 94111, USA.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 459015
-  ratings: 11649
-  reviews: 325
-  userCount: 100000
 - appId: com.debank.rabbymobile
   title: Rabby Wallet - Crypto & EVM
   developer: DeBank Global
@@ -4423,7 +3507,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Your go-to wallet for Ethereum and EVM
 
@@ -4438,169 +3522,6 @@
   ratings: 4947
   reviews: 342
   userCount: 100000
-- appId: com.wigwamapp
-  title: 'Wigwam: Crypto Web3 Wallet'
-  developer: CEX.IO
-  summary: Crypto Web3 Wallet for all your needs. Store and track your favorite tokens.
-  score: 4.28125
-  url: https://play.google.com/store/apps/details?id=com.wigwamapp
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Introducing Wigwam – A Free, Self-Custodial Crypto Web3 Wallet
-
-    Wigwam is your gateway to the Web3 ecosystem, offering a simple and secure way to manage, store, and interact with your favorite cryptocurrencies. Whether you're a beginner or an experienced user, Wigwam's user-friendly design, multi-blockchain support, and advanced security features make it a powerful tool for managing your digital assets.
-
-    Why Choose Wigwam?
-
-    1. User-Friendly Interface: Manage your crypto assets with ease, thanks to Wigwam's intuitive design. Store, track, and send tokens across multiple blockchains in just a few taps.
-
-    2. Advanced Analytics: Stay informed with detailed market data and real-time insights into token movements and portfolio changes. Wigwam provides the analytics you need to make informed decisions.
-
-    3. Multi-Blockchain Support: Wigwam supports all EVM-based networks (Ethereum, BNB Chain, Avalanche, Optimism, Arbitrum, etc.) and Solana, allowing you to manage a wide range of assets in one place.
-
-    4. Advanced Security: Protect your assets with cutting-edge Multi-Party Computation (MPC) technology. Your private keys are securely split and stored, reducing the risk of loss or theft.
-
-    5. True Ownership: Wigwam is self-custodial, giving you full control of your funds without relying on third parties. Your assets are safe from freezes or bans, common with centralized exchanges.
-
-    6. Multi-Device Access: Access your wallet from any device—mobile, desktop, or tablet—ensuring your crypto is always within reach.
-
-    7. Web3 Browser: Explore the decentralized web easily with Wigwam's integrated Web3 browser. Connect to DeFi protocols, NFT marketplaces, and other dApps directly from the app.
-
-    8. Free to Use: Wigwam is completely free, with no hidden fees for storing or managing your crypto.
-
-    9. Fast and Reliable Transactions: Experience efficient, low-latency transactions across multiple blockchains, ensuring fast and secure transfers.
-
-    Key Features at a Glance:
-    - Multi-blockchain support (Ethereum, Solana, BNB Chain, etc.)
-    - Secure, non-custodial wallet with MPC technology
-    - Web3 browser for seamless dApp interaction
-    - Real-time market analytics
-    - Multi-device access
-    - Free to use, with no hidden fees
-
-    Download Wigwam today and explore the future of crypto with a wallet that offers complete control, advanced security, and easy access to the decentralized web!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 164183
-  ratings: 1316
-  reviews: 33
-  userCount: 100000
-- appId: com.coindcx.okto
-  title: 'Okto: Crypto Trading Wallet'
-  developer: Okto Official
-  summary: Leading wallet for Hyperliquid. Trade futures, spot &amp; access HyperEVM on mobile
-  score: 4
-  url: https://play.google.com/store/apps/details?id=com.coindcx.okto
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    The Leading Wallet for Everything Hyperliquid
-
-    Trade futures, spot, and explore HyperEVM—all from your mobile. Okto is the first and only wallet with native Hyperliquid integration, trusted by 10,000+ traders who've executed over $3 billion in volume.
-
-    Why Okto for Hyperliquid?
-    ✓ Native Integration - Not just another dApp browser. Direct access to Hyperliquid's full trading suite
-    ✓ Mobile-First Trading - Professional futures and spot trading designed for your phone
-    ✓ HypeZone Hub - Discover and access HyperEVM dApps, yield farms, and new launches
-    ✓ One-Click Bridge - Instant deposits from Ethereum, Solana, Polygon & 16+ chains
-    ✓ Zero Gas Worries - Trade without holding native tokens. We handle gas automatically
-
-    Powerful Hyperliquid Features
-    - Futures Trading - Open positions up to 50x leverage with institutional-grade charts
-    - Spot Trading - Access Hyperliquid's deep liquidity orderbooks instantly
-    - HyperEVM Ready - Interact with smart contracts and dApps seamlessly
-    - HYPE Staking - Stake tokens directly in-app for passive rewards
-    - Real-Time Positions - Track P&L, manage orders, and monitor markets 24/7
-
-    Beyond Hyperliquid: Your Complete Crypto Wallet
-    While Hyperliquid is our specialty, Okto is your all-in-one self-custody wallet:
-    - Swap 1800+ tokens across multiple chains
-    - Store Bitcoin, Ethereum, Solana & more securely
-    - Earn yields through 200+ DeFi pools
-    - Trade new tokens instantly—just paste the contract
-    - Built-in NFT gallery for your digital collectibles
-
-    Security Without Complexity
-    - Self-Custody - You control your keys, always
-    - MPC Technology - Advanced security with seedless option
-    - Biometric Protection - Face/fingerprint authentication
-    - Cloud Backup - Encrypted recovery via Google Drive
-    - Audited & Trusted - Battle-tested by 400,000+ users
-
-    Seamless Onboarding
-    - Import existing wallets or create new ones
-    - Fund with credit card, bank transfer, or crypto deposit
-    - No KYC for wallet features
-    - Start trading in under 60 seconds
-
-    Built for Traders
-    - TradingView charts integration
-    - Advanced order types
-    - Portfolio analytics
-    - Price alerts & notifications
-    - Cross-chain balance tracking
-
-    Join the Hyperliquid Revolution
-    Whether you're an experienced Hyperliquid trader or just getting started, Okto makes DeFi feel like it should—fast, simple, and mobile.
-
-    Download now and see why we're the leading wallet for everything Hyperliquid.
-
-    Connect With Us
-    Website: okto.tech
-    Twitter: @okto_wallet
-    Support: support@okto.tech
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 321760
-  ratings: 1400
-  reviews: 4
-  userCount: 100000
-- appId: com.portto.blocto
-  title: 'Blocto: Crypto Wallet & NFTs'
-  developer: portto Co., Ltd.
-  summary: Manage crypto, discover NFTs in seconds
-  score: 3.69
-  url: https://play.google.com/store/apps/details?id=com.portto.blocto
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Blocto App is a secure cross-chain crypto wallet that allows you to quickly get started with all things crypto in one place. Trusted by millions of users and projects, Blocto is built for everyone—whether you’re new to blockchain or an experienced user already. 
-
-    Blocto aims to make the Web3 community more accessible, offering a comprehensive Web3 ecosystem accessible through a reliable crypto wallet. Exchange cryptocurrencies, show off your NFTs, and learn about Web3 knowledge all in one place with Blocto.
-
-    What makes us the most user-friendly crypto wallet: 
-    - Simple email log-in system
-    - Multi-chain support, including Aptos, Solana, Flow, Polygon, etc.
-    - Most popular projects supported, including NBA Top Shot, Yahoo, Line, etc.
-    - Blocto Points, a point system to replace your transaction fees
-    - Staking program for you to earn passive income
-    - Crypto knowledge guide for beginners to learn and explore at the same time
-
-    BloctoSwap
-    - #10 DEX with native cross-chain bridges 
-    - First DEX on Flow
-
-    Update: Blocto is now on Aptos! We’re happy to announce that we are part of the Aptos ecosystem as one of the top 3 wallets in Aptoverse. Enter the Aptoverse to swap and store $APT (the Aptos Token) in less than 30 seconds by simply logging on with Blocto Wallet.
-
-    Get started with our all-encompassing crypto wallet in 30 seconds. 
-
-    Blocto. Tomorrows built together.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 247973
-  ratings: 2583
-  reviews: 88
-  userCount: 100000
 - appId: com.gayawalletmobapp
   title: 'Gaya: AI Crypto Wallet'
   developer: Blockmob Labs
@@ -4611,7 +3532,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     The all-new Gaya Wallet has been redesigned with an improved interface, upgraded features, and a seamless multichain experience. Whether you’re new to Web3 or an experienced user, Gaya gives you complete control over your assets with advanced tools, flexible management, and rewarding ways to engage.
 
@@ -4666,7 +3587,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Simplifying XRPL and TRN Access with Social Logins
     Girin Wallet is the only social login-based wallet for XRP Ledger (XRPL) and The Root Network (TRN). Users can easily create a wallet on the XRPL ecosystem using their social log-ins, such as Google or Apple accounts. Girin Wallet connects XRPL and its sidechains, allowing users to engage in various activities within the ecosystem using the addresses created above.
@@ -4689,7 +3610,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     HashPack is excited to launch the Android public beta! We welcome your feedback and work to continually improve our products and services.
 
@@ -4712,7 +3633,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Plug is the main self-custody wallet & identity app (and browser extension!) for the Internet Computer blockchain. 
 
@@ -4733,63 +3654,6 @@
   maxInstalls: 109674
   ratings: 368
   reviews: 16
-  userCount: 100000
-- appId: com.application.bfic
-  title: Love Wallet Crypto
-  developer: Cloud Intense
-  summary: LoveWallet BFIC is a secure app that lets you swap and transfer your crypto.
-  score: 3.7619047
-  url: https://play.google.com/store/apps/details?id=com.application.bfic
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: LoveWallet BFIC is a secure app that lets you store, swap and transfer your crypto assets with ease. The app has a full support for multiple coin wallets. Users can enjoy smooth swapping of their crypto assets. A fully functioning, high-end security enhanced crypto wallet to help you keep your beloved cryptocurrencies safe and secure.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 378150
-  ratings: 4658
-  reviews: 8
-  userCount: 100000
-- appId: wannabit.io.cosmostaion
-  title: Cosmostation Interchain Wallet
-  developer: Stamper
-  summary: Manage Bitcoin, Ethereum, Cosmos, and more all in one secure wallet.
-  score: 3.98
-  url: https://play.google.com/store/apps/details?id=wannabit.io.cosmostaion
-  searchTerm: satoshi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Cosmostation has been developing and operating a non-custodial, multi-chain wallet since 2018. Built on years of expertise as one of the world's leading validators, we deliver security, transparency, and reliability you can trust.
-
-    The wallet is 100% open-source, designed with security and privacy at its core.
-
-    All transactions are signed locally on your device, and private keys or sensitive information are never transmitted externally. You always maintain full control over your assets.
-
-    Supported Networks:
-    Cosmostation Wallet supports Bitcoin, Ethereum, Sui, Cosmos (ATOM), and over 100+ networks, with continuous expansion.Every integration follows either the BIP44 HD path standard or the official specification of each chain.
-
-    - Tendermint-based Chains: Cosmos Hub, Babylon, Osmosis, dYdX, and 100+ more.
-    - Bitcoin: Supports Taproot, Native SegWit, SegWit, and Legacy addresses.
-    - Ethereum & L2s: Ethereum, Avalanche, Arbitrum, Base, Optimism.
-    - Sui: Wallet Standard compatible, with full SUI token management and transfers.
-
-    User Support: 
-    Since Cosmostation Wallet does not collect any user data, we may not be able to identify every issue directly.
-
-    If you encounter any problems, please reach out to us through our official support channels.
-
-    Email: support@cosmostation.io
-    Twitter / KakaoTalk / Official Website(https://www.cosmostation.io/)
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 130837
-  ratings: 1480
-  reviews: 136
   userCount: 100000
 - appId: org.open.telegram.market
   title: Teegra Messenger Crypto Wallet
