@@ -2518,7 +2518,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 9
-  disregard: false
+  disregard: true
   fullDescription: |-
     🚀 Start earning Bitcoin effortlessly with our powerful BTC Cloud Mining Pro App! No threshold. No limits. Start earning with Zero investment!
 
@@ -2711,7 +2711,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Acrypto Cryptocurrency Tracker, Your Ultimate Cryptocurrency Trading Companion. Unlock the potential of cryptocurrency trading with Cryptocurrency Tracker, an all-in-one tracking tool designed to streamline and simplify your trading experience. Effortlessly manage over 1500+ coins, including Bitcoin, Ethereum, and top altcoins. Stay updated on real-time prices, monitor arbitrage opportunities, and manage your portfolio with ease.
 
@@ -3665,7 +3665,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Teegra is a smart messenger with a crypto wallet and services based on the Telegram API.
 
@@ -3733,7 +3733,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Claim Multi Faucet, born of a need, as it is to have all our Faucet either Coinpot or others, in one place also minimizing a little invasive advertising and not miss claiming any of them using the bell at the top that will send you a notification according to the time of each Faucet (Do not forget to activate it for each claim), currently supported:
 
@@ -3750,68 +3750,6 @@
   ratings: 6016
   reviews: 265
   userCount: 100000
-- appId: com.bifrostwallet.app
-  title: Bifrost Wallet
-  developer: Bifrost Software Ltd
-  summary: Crypto wallet for decentralized finance on Flare, XRP, Ethereum and beyond.
-  score: 3.84
-  url: https://play.google.com/store/apps/details?id=com.bifrostwallet.app
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: "Bifrost Wallet – Secure Multichain Wallet for Flare, XRPL & 1,000+ Cryptos\nA secure, non-custodial wallet to manage your crypto portfolio and explore Web3 with support for over 1,000 coins and tokens — including Bitcoin, Ethereum, XRP, Dogecoin, Flare, Base, Polygon, Arbitrum, Optimism, and more.\n\nYour Keys, Your Crypto\nTake full control of your crypto. Bifrost Wallet securely stores your private keys on your device only — never in the cloud. Back up and restore your wallet with a standard 12- or 24-word recovery phrase compatible with leading wallets.\n\nBuilt for Privacy\nNo ads. No trackers. No compromises. Bifrost is built with privacy by design and data minimization at its core. Your data stays yours.\n\nSimple, Intuitive Experience\nBifrost is designed to be user-friendly without sacrificing advanced capabilities. From setup to daily use, the clean interface makes it easy for beginners,  offering deep functionality for power users within the Flare and XRPL ecosystems. \n\nDApp Browser\nExplore decentralized applications like Uniswap, SparkDEX, and XPMarket directly from Bifrost Wallet. Review full transaction details before signing — avoiding blind signing, which is common in other wallets.\n\nOptimized for Flare and Songbird\nUnlock the full potential of the Flare ecosystem:\n- Delegate Wrapped FLR (WFLR)\n- Autoclaim FTSO rewards and FlareDrops\n- Manage FAssets like FXRP, FDOGE and FBTC\n- Interact with Flare-native DApps like Enosys, SparkDEX, Kinetic, Sceptre and Stargate\n\nGrowing XRPL Support\nThe future of XRP is more than fast transactions — it's DeFi, NFTs, and seamless DApp experiences. Bifrost Wallet makes XRPL a core focus, with zero added fees.\n\nWalletConnect Pioneers\nBifrost Wallet helped shape WalletConnect support for Bitcoin, Litecoin, Dogecoin, and the XRP Ledger — enabling powerful cross-chain experiences. Connect to FAssets Dashboard, Flare Portal and XRPL DApps without switching wallets.\n\nBuy Crypto with Fiat\nOnboard with ease. Bifrost supports fiat on-ramps so you can buy crypto directly in the app — fast and secure.\n\nSecurity Comes First\nBifrost Wallet has been independently audited by Cure53 and FYEO. Our team has deep experience building secure crypto wallets, with continuous testing and reviews to protect your assets.\n\nNeed Help?\nVisit\_support.bifrostwallet.com\nFollow us on X: @BifrostWallet"
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 152028
-  ratings: 893
-  reviews: 100
-  userCount: 100000
-- appId: io.leapwallet.cosmos
-  title: Leap Wallet
-  developer: Leap Wallet
-  summary: The multichain crypto wallet for rewards, NFTs, airdrops &amp; more!
-  score: 4.7
-  url: https://play.google.com/store/apps/details?id=io.leapwallet.cosmos
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: |-
-    Multichain crypto wallet for Cosmos, EVM, Solana, Bitcoin & more. Leap everywhere!
-
-    Everything, everywhere, whenever you need!
-
-    - View portfolio & tokens from 100+ chains at once.
-    - Dive into chain-specific portfolios.
-    - Swap any token in seconds.
-    - View & flex all your NFTs.
-
-    Win more, win often!
-
-    - Exclusive rewards from top projects.
-    - NFTs, airdrops, early access & more.
-
-    Dive into DeFi
-
-    - Stake & claim rewards with one tap.
-    - Access top DeFi apps securely.
-    Safe & secure
-    - Self-custodial wallet, controlled only by you.
-    - Audited by leading firms.
-    - 24/7 support.
-
-    Download now and Leap everywhere!
-
-    Want more? Just drop us a line on our socials, and we'll make sure your requests get maximum priority.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 190844
-  ratings: 5237
-  reviews: 94
-  userCount: 100000
 - appId: io.novafoundation.nova.market
   title: Nova Polkadot Wallet
   developer: Novasama Technologies
@@ -3822,7 +3760,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     Nova Wallet is next gen application for Polkadot and Kusama ecosystem. Nova aims to provide user-friendly access to Polkadot features, such as token transfers, staking, contribution to the parachain crowdloans. Nova prioritizes quality first, thus the app provides maximized security and performance for the users.
 
@@ -3872,151 +3810,6 @@
   ratings: 1889
   reviews: 89
   userCount: 100000
-- appId: com.xendmobile
-  title: Xend Finance Wallet
-  developer: XEND TECH LIMITED
-  summary: Convert crypto to Naira, Earn 20% &amp; spend crypto in 1 min. Top crypto wallet  ⚡
-  score: 4.709677
-  url: https://play.google.com/store/apps/details?id=com.xendmobile
-  searchTerm: crypto wallet
-  excludeTerms:
-    - portfolio
-    - tracker
-    - news
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: |-
-    Xend Finance: Convert crypto to Naira, Swap, Save & Earn Effortlessly
-    Backed by Binance & Google Launchpad, Xend Finance is a next-generation DeFi Wallet & Finance App that lets you swap, save, earn, and manage digital & local currencies all in one secure place.
-
-    Whether you’re a beginner or a pro, Xend Finance helps you grow your money easily — from crypto to Naira, with powerful tools built for Africa and beyond.
-
-    💱 Swap Instantly Across Currencies
-    Exchange between your favorite assets in seconds:
-    BTC · ETH · BNB · USDT · cNGN · and more.
-    No P2P risks, no hidden rates — just smooth, fast conversions.
-
-    🏦 Direct Bank Transfer to Naira
-    Send money directly to any Nigerian bank account in under a minute.
-    Avoid P2P scams and unreliable third parties — get cash in your account instantly.
-
-    💰 High Yield Investments — Up to 20 % APR
-    Save and earn with our Money Market feature, powered by DeFi protocols for secure, high-return opportunities.
-    Deposit Naira or USDT, and earn while you save for goals like rent, car payments, or December plans.
-
-    🔐 All-in-One Wallet Experience
-    - Send, receive & store crypto securely
-    - Swap between tokens seamlessly
-    - Fund with Naira or USDT
-    - Withdraw to your bank instantly
-    - Save in stablecoins like USDT & cNGN
-    - Earn returns up to 20 % APR
-    - Track your coins with live price charts & market data
-
-    ⚙️ Built for Security & Transparency
-    Your assets are protected by audited smart contracts and decentralized insurance systems.
-    All savings and yields are powered by transparent, on-chain protocols.
-
-    🌍 Getting Started
-    - Sign up with your email or Google login.
-    - Add funds via bank transfer or crypto deposit.
-    - Swap, save, and earn instantly from your DeFi wallet.
-
-    🔑 Key Highlights
-    - Next-generation DeFi wallet for Africa and the world
-    - Backed by Binance, Google Launchpad, and leading investors
-    - Support for BTC, ETH, BNB, USDT, cNGN, and more
-    - Direct Bank Transfers to Nigerian banks
-    - High Yield Investments up to 20 % APR
-    - Flexible & fixed saving plans
-    - Secure, audited DeFi infrastructure
-    - Low transaction fees & optimized performance
-
-    💬 Support & Community
-    Join our global community to learn, connect, and grow:
-    📢 Telegram: https://t.me/xendFinance
-    💬 Discord: https://discord.io/xendfinance
-    📰 Medium: https://medium.com/xendfinance
-    ✉️ Email: hello@xend.finance
-
-    🧭 About Xend Finance
-    Xend Finance is a global DeFi wallet and digital finance platform that empowers users to save, earn, and transact securely across currencies.
-    Built by a team of blockchain and fintech professionals and backed by Binance and Google Launchpad, we make DeFi simple, accessible, and rewarding for everyone.
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 101434
-  ratings: 2108
-  reviews: 47
-  userCount: 100000
-- appId: jp.co.soramitsu.fearless
-  title: 'Fearless Wallet: DeFi Wallet'
-  developer: Soramitsu
-  summary: Multi-chain, self-custodial crypto wallet for Ethereum, Polkadot and beyond.
-  score: 3.857143
-  url: https://play.google.com/store/apps/details?id=jp.co.soramitsu.fearless
-  searchTerm: digital wallet
-  excludeTerms:
-    - paypal
-    - venmo
-    - cashapp
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: |-
-    Fearless Wallet is a self-custodial, multi-chain, and open-source mobile wallet for Ethereum and Polkadot ecosystems with the best UX, performance, and, most importantly, security!
-
-    Users own their tokens and interact directly with their favorite blockchain networks - Fearless Wallet takes ZERO fees!
-
-
-    With Fearless Wallet, you can:
-
-    CREATE OR IMPORT A WALLET
-    Fearless Wallet allows you to create a new wallet or import an existing one.
-
-    MANAGE MULTIPLE ACCOUNTS VIA A SINGLE APP
-    Fearless Wallet offers users a convenient way to manage multiple accounts within a single app.
-    Account names can be modified, rearranged, removed, or exported in mnemonic, seed, or JSON formats.
-
-    ACCESS 80+ NETWORKS AT YOUR FINGERTIPS
-    Fearless Wallet supports all the major networks in Ethereum, Polkadot and Kusama ecosystems, along with EVM and Substrate based standalone networks.
-
-    SEND AND RECEIVE TOKENS
-    Send and receive tokens via an account address or QR code. Adjust your transfer parameters with convenience and freedom.
-
-    STAKE AND EARN REWARDS
-    Stake across different accounts and networks, including SORA, Kusama, Polkadot, Moonbeam, Moonriver, and Ternoa. Additionally, staking is more accessible through Nomination Pool Staking.
-
-    PARTICIPATE IN PARACHAIN CROWDLOANS
-    Seamlessly contribute to both Polkadot and Kusama parachain crowdloans.
-
-    LEARN VIA BUILD-IN EDUCATIONAL MATERIALS
-    Built-in educational materials and a user-friendly interface ensure you have all the information at your fingertips to become a staking pro from scratch.
-
-    ACCESS 24/7 COMMUNITY SUPPORT
-    The Fearless Wallet community is always here to help, whether you’re a longtime user or just getting started. Connect with us on our telegram channel https://t.me/fearlesshappiness.
-
-
-    Fearless Wallet is built with focusing on providing an exceptional user experience and with user safety in mind, offering:
-
-    TRANSPARENCY OVER YOUR ASSETS
-    View your total, available, and frozen (bonded, unbonded, locked, redeemable, and reserved) token balances in real time via WebSocket connections to the selected Kusama and Polkadot nodes.
-
-    USER-FRIENDLY UI/UX
-    Fearless Wallet‘s awesome UI enables any user (even newbies) to perform complex actions in 1-2 taps while advanced users still retain access to all of the key features available on the network!
-
-    ENHANCED SECURITY
-    Our unique feature alerts users about security risks during the fund transfer process. If a recipient address has been flagged as a scammer or belongs to CEX, users receive a warning to prevent potential loss of funds.
-
-    Fearless Wallet aims to radically expand access to decentralized finance (DeFi) by making complex functions easier to use and understand.
-
-    Download Fearless Wallet and embark on your DeFi journey today! Stay Fearless!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 270358
-  ratings: 650
-  reviews: 51
-  userCount: 100000
 - appId: com.broxus.sparx.app
   title: 'SparX: TVM Wallet'
   developer: Broxus
@@ -4027,7 +3820,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     SparX Wallet is your universal tool for managing crypto assets across TVM networks such as TON and others. With the app, you can easily manage your seed phrases, private and public keys, as well as your wallets.
 
@@ -4052,47 +3845,6 @@
   maxInstalls: 154375
   ratings: 832
   reviews: 16
-  userCount: 100000
-- appId: io.floornfts
-  title: 'Rally: Memecoin Wallet'
-  developer: Floor NFTs
-  summary: Trade crypto, memes &amp; NFTs
-  score: 4.59
-  url: https://play.google.com/store/apps/details?id=io.floornfts
-  searchTerm: taproot wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: |-
-    Trade memecoins, crypto, and NFTs with friends. Stay ahead of the curve.
-
-    Discover what’s rallying in web3
-    ◼ Trade memecoins instantly with real-time data and insights
-    ◼ Discover the hottest tokens across chains, ranked by traders and volume
-    ◼ Follow top traders and your friends to spot the next big move
-    ◼ Be early to alpha with Rally’s market trends and signals
-    ◼ Start trading in under a minute with fast, secure funding.
-
-    Your portfolio, supercharged
-    ◼ Act quickly with push notification alerts based on your portfolio, holdings, and followed tokens
-    ◼ Track your tokens and NFTs on Solana, Ethereum, Base, Bitcoin & more
-    ◼ Stay up to date with live token and NFT prices
-    ◼ View all of your wallets, all in one place
-
-    Your wallet in your pocket
-    ◼ Trade with confidence using top-tier security and a mobile-first experience
-    ◼ Manage your meme coins effortlessly, anytime, anywhere
-    ◼ Swap assets across Solana, Base, Ethereum, and more
-
-    Join 100k+ other web3 early adopters that call Rally their home in web3.
-
-    Download now and start trading!
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 148593
-  ratings: 9739
-  reviews: 86
   userCount: 100000
 - appId: com.cheeleewallet
   title: Cheelee DeFi Wallet
@@ -25900,21 +25652,6 @@
 
     For feedback or feature requests, email us at hello@rainbow.me or find us on Twitter @rainbowdotme
   reviews: 3761
-  ratingsCount: 0
-- appId: com.bifrostwallet.app
-  id: 1577198351
-  title: Bifrost Wallet
-  developer: Towo Labs AB
-  description: "Bifrost Wallet – Secure Multichain Wallet for Flare, XRPL & 1,000+ Cryptos\nA secure, non-custodial wallet to manage your crypto portfolio and explore Web3 with support for over 1,000 coins and tokens — including Bitcoin, Ethereum, XRP, Dogecoin, Flare, Base, Polygon, Arbitrum, Optimism, and more.\n\nYour Keys, Your Crypto\nTake full control of your crypto. Bifrost Wallet securely stores your private keys on your device only — never in the cloud. Back up and restore your wallet with a standard 12- or 24-word recovery phrase compatible with leading wallets.\n\nBuilt for Privacy\nNo ads. No trackers. No compromises. Bifrost is built with privacy by design and data minimization at its core. Your data stays yours.\n\nSimple, Intuitive Experience\nBifrost is designed to be user-friendly without sacrificing advanced capabilities. From setup to daily use, the clean interface makes it easy for beginners,  offering deep functionality for power users within the Flare and XRPL ecosystems. \n\nDApp Browser\nExplore decentralized applications like Uniswap, SparkDEX, and XPMarket directly from Bifrost Wallet. Review full transaction details before signing — avoiding blind signing, which is common in other wallets.\n\nOptimized for Flare and Songbird\nUnlock the full potential of the Flare ecosystem:\n- Delegate Wrapped FLR (WFLR)\n- Autoclaim FTSO rewards and FlareDrops\n- Manage FAssets like FXRP, FDOGE and FBTC\n- Interact with Flare-native DApps like Enosys, SparkDEX, Kinetic, Sceptre and Stargate\n\nGrowing XRPL Support\nThe future of XRP is more than fast transactions — it's DeFi, NFTs, and seamless DApp experiences. Bifrost Wallet makes XRPL a core focus, with zero added fees.\n\nWalletConnect Pioneers\nBifrost Wallet helped shape WalletConnect support for Bitcoin, Litecoin, Dogecoin, and the XRP Ledger — enabling powerful cross-chain experiences. Connect to FAssets Dashboard, Flare Portal and XRPL DApps without switching wallets.\n\nBuy Crypto with Fiat\nOnboard with ease. Bifrost supports fiat on-ramps so you can buy crypto directly in the app — fast and secure.\n\nSecurity Comes First\nBifrost Wallet has been independently audited by Cure53 and FYEO. Our team has deep experience building secure crypto wallets, with continuous testing and reviews to protect your assets.\n\nNeed Help?\nVisit\_support.bifrostwallet.com\nFollow us on X: @BifrostWallet"
-  score: 4.52576
-  url: https://apps.apple.com/us/app/bifrost-wallet/id1577198351?uo=4
-  searchTerm: sats wallet
-  excludeTerms: []
-  platform: iphone
-  relevanceScore: 13
-  disregard: false
-  fullDescription: "Bifrost Wallet – Secure Multichain Wallet for Flare, XRPL & 1,000+ Cryptos\nA secure, non-custodial wallet to manage your crypto portfolio and explore Web3 with support for over 1,000 coins and tokens — including Bitcoin, Ethereum, XRP, Dogecoin, Flare, Base, Polygon, Arbitrum, Optimism, and more.\n\nYour Keys, Your Crypto\nTake full control of your crypto. Bifrost Wallet securely stores your private keys on your device only — never in the cloud. Back up and restore your wallet with a standard 12- or 24-word recovery phrase compatible with leading wallets.\n\nBuilt for Privacy\nNo ads. No trackers. No compromises. Bifrost is built with privacy by design and data minimization at its core. Your data stays yours.\n\nSimple, Intuitive Experience\nBifrost is designed to be user-friendly without sacrificing advanced capabilities. From setup to daily use, the clean interface makes it easy for beginners,  offering deep functionality for power users within the Flare and XRPL ecosystems. \n\nDApp Browser\nExplore decentralized applications like Uniswap, SparkDEX, and XPMarket directly from Bifrost Wallet. Review full transaction details before signing — avoiding blind signing, which is common in other wallets.\n\nOptimized for Flare and Songbird\nUnlock the full potential of the Flare ecosystem:\n- Delegate Wrapped FLR (WFLR)\n- Autoclaim FTSO rewards and FlareDrops\n- Manage FAssets like FXRP, FDOGE and FBTC\n- Interact with Flare-native DApps like Enosys, SparkDEX, Kinetic, Sceptre and Stargate\n\nGrowing XRPL Support\nThe future of XRP is more than fast transactions — it's DeFi, NFTs, and seamless DApp experiences. Bifrost Wallet makes XRPL a core focus, with zero added fees.\n\nWalletConnect Pioneers\nBifrost Wallet helped shape WalletConnect support for Bitcoin, Litecoin, Dogecoin, and the XRP Ledger — enabling powerful cross-chain experiences. Connect to FAssets Dashboard, Flare Portal and XRPL DApps without switching wallets.\n\nBuy Crypto with Fiat\nOnboard with ease. Bifrost supports fiat on-ramps so you can buy crypto directly in the app — fast and secure.\n\nSecurity Comes First\nBifrost Wallet has been independently audited by Cure53 and FYEO. Our team has deep experience building secure crypto wallets, with continuous testing and reviews to protect your assets.\n\nNeed Help?\nVisit\_support.bifrostwallet.com\nFollow us on X: @BifrostWallet"
-  reviews: 194
   ratingsCount: 0
 - appId: com.tari.wallet
   id: 1503654828

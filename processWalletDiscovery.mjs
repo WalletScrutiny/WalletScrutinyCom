@@ -209,17 +209,17 @@ class WalletDiscoveryProcessor {
     // Compact key-value pairs on same line
     console.log(`${bold}Score:${reset}  ${product.score || 'N/A'}`);
     console.log(`${bold}Search Term:${reset}  ${product.searchTerm}`);
+    if (product.excludeTerms && product.excludeTerms.length > 0) {
+      console.log(`${bold}Exclude Terms:${reset}  ${product.excludeTerms.join(', ')}`);
+    }
     console.log(`${bold}Relevance Score:${reset}  ${product.relevanceScore}`);
     
     if (product.platform === 'android') {
-      console.log(`${bold}Installs:${reset}  ${product.installs || 'N/A'}`);
-      console.log(`${bold}User Count:${reset}  ${product.userCount || 'N/A'}`);
-      console.log(`${bold}Ratings:${reset}  ${product.ratings || 'N/A'}`);
+      console.log(`${bold}User Count:${reset}  ${product.userCount || 'N/A'}    ${bold}Ratings:${reset}  ${product.ratings || 'N/A'}`);
       
       if (product.summary) {
-        console.log(`\n${bold}Summary:${reset}`);
         const summary = this.highlightAllSearchTerms(product.summary);
-        summary.split('\n').forEach(line => console.log(`  ${line}`));
+        console.log(`\n${bold}Summary:${reset}  ${summary}`);
       }
     } else {
       console.log(`${bold}Ratings Count:${reset}  ${product.ratingsCount || 'N/A'}`);
@@ -228,15 +228,10 @@ class WalletDiscoveryProcessor {
     // Description
     const desc = product.fullDescription || product.description;
     if (desc) {
-      console.log(`\n${bold}Description:${reset}`);
       const highlighted = this.highlightAllSearchTerms(desc);
-      highlighted.split('\n').forEach(line => console.log(`  ${line}`));
+      console.log(`${bold}Description:${reset}  ${highlighted}`);
     }
-    
-    if (product.excludeTerms && product.excludeTerms.length > 0) {
-      console.log(`\n${bold}Exclude Terms:${reset}  ${product.excludeTerms.join(', ')}`);
-    }
-    
+        
     console.log('\n' + '='.repeat(80));
   }
 
