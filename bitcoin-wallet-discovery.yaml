@@ -334,7 +334,7 @@
   searchTerm: bitcoin mobile wallet
   platform: android
   relevanceScore: 3
-  disregard: false
+  disregard: true
   fullDescription: |-
     CoinGecko’s crypto tracker app lets you easily track crypto prices, NFT floor prices, coin stats, price charts, coin market cap, and the latest cryptocurrency news — all in one place. Stay updated with live bitcoin (BTC) prices and insights into why a coin is rising or falling, helping you make informed decisions in the dynamic blockchain market. Whether you’re analyzing coin stats or following the global crypto market cap, CoinGecko’s app keeps you ahead in the world of cryptocurrency.
 
@@ -380,7 +380,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 2
-  disregard: false
+  disregard: true
   fullDescription: |-
     🏆Serves over 90% of all TRON users. Major player in the TRON ecosystem as a wallet product.
     🏆Works closely with the TRON mainnet team, enabling immediate upgrade and ensuring security.
@@ -403,7 +403,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: |-
     PlayDay Studios has partnered with the Bling Platform to bring you the essential Solitaire game including cash outs for bitcoin! 
 
@@ -438,7 +438,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: |-
     From the creators of 👑 Bitcoin Blast comes the amazing knife throwing game where you can have tons of fun and win REAL money playing games via Bitcoin! 🎉🎉🎉
 
@@ -491,7 +491,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     From the creators of Bitcoin Blast comes the supreme match-two game that's tons of fun and lets you cash out REAL rewards! Combine multi-colored blocks to create powerful combos to clear the “blockchain”. 
 
@@ -530,7 +530,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     The sweetest Bitcoin candy match puzzle game that lets you earn real Bitcoin has arrived! In this classic candy match puzzle app, you’ll experience colorful candy treats and earn delicious Bitcoin rewards.  
      
@@ -566,7 +566,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     A timeless bubble shooter with sweet crypto rewards! Have fun playing Bitcoin Pop and get crypto! Bitcoin Pop puts your hand-eye coordination and puzzle solving skills to the test!  
 
@@ -596,7 +596,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 13
-  disregard: false
+  disregard: true
   fullDescription: |-
     Welcome to Bitcoin Mining - a game where you can mine cryptocurrency.
 
@@ -624,7 +624,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: "Build. Manage. Earn crypto! Create your own crypto empire and become the ultimate Bitcoin Tycoon!\n\nIMPORTANT - Withdraws are back, this time on Polygon Network!\n\nBE ADVISED - You can earn Hora Tokens by playing the game and climbing higher on the Leaderboard. The game won't use your device for crypto mining. You can withdraw Hora Tokens to MetaMask, Trust Wallet, Rainbow or any other EVM compatible wallets. \n\nIdle clicker management simulation game that will teach you all about crypto and launch you to riches! Earn a lot of CASH by crypto mining and crypto trading! Mine DOGE, MATIC and then reach Ethereum. Once you master the skills of Crypto Miner, you will mine Bitcoin! Do you have what it takes to become the next Bitcoin Tycoon in this fun and educational game?\n\nHire and level up managers to automate your process, earn idle cash, upgrade your rigs, and mine/sell over 50 coins and altcoins in this simulation to max your profits! Click and tap, and then tap some more and begin your Bitcoin adventure! \n\nPlay weekly events & compete with other players for the highest position on the Leaderboard!\n\nStart your Bitcoin adventure today - from zero to hero in Crypto Miner's Bitcoin Inc.\n\nFEATURES:\n\n⛏️ IDLE GAME - earn offline, incremental game\n💵 EARN CRYPTO - an easy and fun way to earn crypto!\n👨‍💼 MANAGE - buildings and managers to earn cash\n🎪 EVENTS - new event every weekend\n🎮 MINI GAMES - fun gameplay with additional mini games\n🏆 LEADERBOARD - compete with others and socialize \n⚙️ SIMULATION - your favorite Bitcoin miner simulator\n📚 EDUCATIONAL - learn more about crypto and blockchain\n\nThis unique tap simulator game will give you a chance to become a rich miner of crypto! Get rich, buy new buildings and automate the workflow in this Bitcoin simulation. If you played other idle tycoon games, you will certainly love Crypto Miner! Play to earn genre is great for everyone to start their crypto adventure, especially if you get rewarded with free crypto.\n\nGot any problems or suggestions for the game?\LJoin our Discord channel here: https://discord.gg/cryptoidleminer\n\nEnjoy!\n\n❤️ Your Crypto Idle Miner Team ❤️\n\nPrivacy Policy:\Lhttps://cryptoidleminer.com/privacy-policy/index.html\nTerms and Conditions: https://cryptoidleminer.com/terms-of-service/index.html"
   installs: 1,000,000+
   minInstalls: 1000000
@@ -641,7 +641,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     It's easy to start earning with Cointiply! 
 
@@ -687,7 +687,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Make Calls, Earn Free Bitcoin ₿
     Vyng is the only dialer that rewards you with Bitcoin for making the calls you already make.
@@ -734,7 +734,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     The new and best way to claim your free Bitcoin Cash, from the creators of the longest running and best free bitcoin mobile apps!
 
@@ -754,7 +754,7 @@
   searchTerm: bitcoin mobile wallet
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     From a single satoshi to a whole bitcoin - embark on your transformative journey with crypto blockchain without technical expertise.
 
@@ -807,7 +807,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Over 5,000,000 people are playing the ultimate bitcoin game!
 
@@ -851,7 +851,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: "Unleash Your Inner Miner and Earn Real Bitcoin!\n\n💎 Dig, Mine, and Earn Bitcoin 💎\n\nReady to turn rocks into rewards? In Idle Mine, you’ll explore vast underground worlds, dig for precious resources, and convert your hard-earned finds into real Bitcoin! Whether you’re a casual player or a crypto enthusiast, this game lets you mine, strategize, and earn while having fun.\n\n🚀 Features:\n\t•\tMine Real Bitcoin: Collect resources and trade them for actual cryptocurrency!\n\t•\tUpgrade Your Tools: Enhance your mining gear for bigger, faster, and better rewards.\n\t•\tEndless Exploration: Discover hidden caves, rare minerals, and secret treasures in an ever-expanding world.\n\t•\tDaily Bonuses & Challenges: Boost your earnings with daily quests and challenges!\n\t•\tUpgrade your mining machine as complete the weekly Crystal Cavern event!\n\n🎮 Why Play?\nEarn real-world rewards while experiencing the excitement of mining! Idle Mine offers the perfect blend of adventure, strategy, and financial potential. Dig deep, upgrade your gear, and start earning real Bitcoin today!\n\nDownload Idle Mine now and strike digital gold!\n\nLEGAL: \n• Contains optional in-app purchases (including random items) \n• Bitcoin rewards & withdrawals operated by a third party \n• Idle Mine does not itself provide any cryptocurrency wallet or process any cryptocurrency transactions which are handled by a third party \n• Currently, our third party partners do not support withdrawals in New York \n• View our Privacy Policy: https://www.fumbgames.com/privacy-policy"
   installs: 1,000,000+
   minInstalls: 1000000
@@ -866,7 +866,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 10
-  disregard: false
+  disregard: true
   fullDescription: |-
     Bitcoin Ticker is the fast, reliable way to track Bitcoin and 100+ altcoins. Trusted for 10+ years, it delivers real-time prices, beautiful charts & candlesticks, order book and live trades, and powerful price alerts - all in a clean, customizable experience.
 
@@ -909,7 +909,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 9
-  disregard: false
+  disregard: true
   fullDescription: |-
     The CoinCodex app makes it easy to follow Bitcoin price and over 35,000 other coins. Join thousands of cryptocurrency users and stay updated with the CoinCodex crypto price tracker and crypto portfolio app.
 
@@ -960,7 +960,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     This is Blockchain Cryptocurrency Application with Crypto Currency Rate Widget and Cryptocurrencies Portfolio, which can be used as crypto currency tracker for Bitcoin price, Ethereum price, Ripple price and Altcoin prices.
 
@@ -990,210 +990,6 @@
   ratings: 13206
   reviews: 356
   userCount: 1000000
-- appId: com.cloud.thailand
-  title: 'Binance TH: Bitcoin and Crypto'
-  developer: Gulf Binance
-  summary: Buy, sell and trade your digital assets all in one exchange platform.
-  score: 4.0689654
-  url: https://play.google.com/store/apps/details?id=com.cloud.thailand
-  searchTerm: btc
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Securely Buy, Sell, and Trade Digital Assets with Binance TH by Gulf Binance.
-
-    Welcome to Binance TH, Thailand's leading licensed digital assets exchange! Here, you can securely buy, sell, and trade a wide range of digital assets, including popular choices like Bitcoin (BTC), Ethereum (ETH), and other leading tokens, all with low trading fees.
-
-
-    Why Choose Binance TH by Gulf Binance?
-
-    World-Class Technology : Binance TH by Gulf Binance leverages the technology of the world’s largest exchange by trading volume.
-
-    Trade Over 360 Digital Assets and Cryptocurrencies: Explore a diverse marketplace with over 360+ tradable digital assets, including established names like Bitcoin (BTC) and Ethereum (ETH), and many other exciting projects.
-
-    Lowest Fees Starting: Enjoy competitive trading fees starting at just 0.1% for USDT pairs, making our platform a cost-effective platform for all types of traders.
-
-    Multiple Charting Options: Analyze the market with ease using Binance TH Originals chart and TradingView chart. Our user-friendly interface makes navigating the platform a breeze.
-
-    Stay Informed: Set price alerts and track digital assets market movements with confidence. Benefit from best-in-class liquidity on each trade, ensuring smooth execution.
-
-    Track Your Portfolio: Monitor your investments closely with our easy-to-use PNL (Profit and Loss) feature.
-
-
-    Hassle-Free Transactions
-
-    Buy Digital Assets in Minutes: Quickly and easily purchase digital assets with THB using bank transfers with our convenient QR code system. Fund your wallet and start trading in no time.
-
-    Sell Digital Assets for Fiat Money: Convert your digital assets holdings back to Thai Baht (THB) using our secure bank transfer system via QR code.
-
-
-    Unwavering Security
-
-    State-of-the-Art Security: Your assets are protected by our robust security measures, including 2 Factor Authentication, KYC (Know Your Customer) protocols.
-
-    Compliance and Regulation: Binance TH by Gulf Binance operates under Thai SEC licenses, ensuring a secure and compliant trading environment.
-
-
-    Seamless KYC Verification
-
-    Fast and Easy KYC: Partnering with leading KYC vendors, Our platform offers a speedy registration process. Verify your account and start buying digital assets, including Bitcoin (BTC), within minutes.
-
-
-    Explore the World of Web3
-
-    Stay Updated: Get personalized blockchain and digital assets market price updates delivered directly to your app's market page.
-
-    Learn and Grow: Enhance your digital assets knowledge with Binance TH Academy educational articles covering Bitcoin, trading strategies, and financial management.
-
-
-    24/7 Customer Support
-
-    Always Here to Help: Our dedicated customer support team is available 24/7 via live chat to assist you on your crypto journey, whether you're a seasoned trader or a complete beginner.
-
-    Learn at Your Pace: Access our comprehensive FAQ guides to learn how to buy Bitcoin (BTC), manage your crypto wallet, and make your first trade on Binance TH by Gulf Binance.
-
-
-    More Than Just Trading
-
-    Binance TH by Gulf Binance goes beyond simply buying and selling crypto. We are committed to educating users and fostering a deeper understanding of blockchain technology.
-
-
-    Join the New World of Finance Today!
-    Download the Binance TH by Gulf Binance app now and discover why so many users choose us to buy, sell, and trade over 360+ digital assets. Our secure platform empowers you to confidently manage your digital assets and explore the exciting world of digital assets and blockchain.
-
-    Disclaimer:
-    Cryptocurrency and digital token involve high risks; investors may lose all investment money and should study information carefully and make investments according to own risk profile
-
-    Fee Disclosure:
-    0.25% spot trading fees for Digital Assets to THB pairs.
-    0.1% spot trading fees for Digital Assets to Digital Assets pairs 
-    https://www.binance.th/en/faq/spot-trading/91605c2481714f41becb6951906d6927
-  installs: 1,000,000+
-  minInstalls: 1000000
-  maxInstalls: 1531411
-  ratings: 23427
-  reviews: 4
-  userCount: 1000000
-- appId: com.planet.toobit
-  title: 'Toobit: Buy BTC, ETH & Crypto'
-  developer: TooBit Inc.
-  summary: 'Crypto Exchange: Spot, Futures &amp; Copy Trading - Get Deposit Rewards Anytime'
-  score: 4.5034485
-  url: https://play.google.com/store/apps/details?id=com.planet.toobit
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 6
-  disregard: false
-  fullDescription: |-
-    Your award-winning exchange for crypto and derivatives trading
-
-    Toobit is the fastest, safest, and most rewarding way to trade crypto. Whether you're a beginner or an experienced trader, you'll find the tools, assets, and support you need to trade with confidence. Get started in minutes for instant access to the latest cryptoassets, and join a vibrant community of over 3 million traders where over $30 billion moves daily.
-
-    TRADE CRYPTO YOUR WAY
-    With over 1,000 trading pairs, Toobit offers a diverse and comprehensive experience to manage your crypto portfolio, no matter your strategy.
-
-    1. Spot trading
-    Buy, sell, and trade a wide range of cryptocurrencies, including majors like Bitcoin (BTC), Ethereum (ETH), and XRP, as well as other top performers like BNB, Solana (SOL), Dogecoin (DOGE), Cardano (ADA), TRON (TRX), Polkadot (DOT), Litecoin (LTC). 
-    Enjoy some of the lowest trading fees on the market, giving you more value from every trade. 
-
-    2. Derivatives trading
-    Take your trading to the next level with Toobit's high-speed, low-latency derivatives platform. You can trade Futures with up to 200x leverage on a wide range of contracts, including BTCUSDT, ETHUSDT, BNBUSDT, SOLUSDT, XRPUSDT, DOGEUSDT, ADAUSDT, AVAXUSDT, LTCUSDT, XAUTUSDT.
-
-    Toobit is built to perform, featuring Futures Best Bid Offer (BBO) for optimal execution, and tools like Break Even Price to help you manage risk. You also have flexible position management with both Split Mode and Merged Mode, giving you more control over your strategies.
-
-    3. Lite perpetuals
-    A simplified way to trade perpetual contracts, ideal for new or casual traders. It offers a user-friendly interface with streamlined options, making it the perfect entry point for leveraged trading.
-
-    4. Demo trading
-    Toobit's demo account lets you hone skills and test strategies in a risk-free environment. Use a virtual balance to practice trading real-time markets without risking real capital.
-
-    5. DEX+
-    Access early-stage, trending on-chain assets directly from your Spot Account. DEX+ eliminates the complexity of on-chain trading, meaning no separate wallets, no gas fees, and no security risks. Get the speed and stability of a centralized exchange combined with the innovation of decentralized finance. 
-
-    6. Convert
-    Instantly swap your cryptoassets with zero fees. 
-
-    7. Purchase crypto with your credit/debit card
-    It's easier than ever to get started. Purchase Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies directly on Toobit using your Visa or Mastercard. 
-
-    GROW YOUR PORTFOLIO 
-    1. Earn
-    Let your cryptoassets work for you. Generate passive income on your idle cryptocurrencies with Toobit's fixed and flexible earning options. 
-
-    2. Copy Trading
-    Maximize your gains by following top-performing traders. Toobit's zero-slippage Copy Trading ensures your copied trades are executed at the exact price, providing unparalleled precision and transparency. 
-
-    INDUSTRY-LEADING SECURITY 
-    Toobit is one of the world's most secure crypto trading platforms. Powered by its proprietary Bee-Safe technology, Toobit provides full transparency and protection for your assets. Advanced security measures include 1:1 asset backing with regular Proof of Reserves audits, AES-256 encryption, cold storage, and dedicated risk control to safeguard your funds and personal data. 
-
-    Toobit's multilingual 24/7 customer support team is always available to assist you with any questions or issues. 
-
-    Ready to start trading like a pro? Download Toobit now. 
-
-    JOIN THE HIVE
-    Stay updated on the latest news, trends, and activities on Toobit's official channels: 
-
-    Website: https://www.toobit.com/
-    Announcements: https://www.toobit.com/en-US/announcement
-    Support Center: https://www.toobit.com/en-US/support
-
-    X: https://x.com/Toobit_official
-    Facebook: https://www.facebook.com/groups/toobitofficial
-    Discord: https://discord.gg/3bnHzs27nt
-    Telegram: https://t.me/Toobit_EN
-    Youtube: https://www.youtube.com/@Toobit_official
-  installs: 1,000,000+
-  minInstalls: 1000000
-  maxInstalls: 1189182
-  ratings: 15651
-  reviews: 273
-  userCount: 1000000
-- appId: com.kcex
-  title: 'KCEX: The Lowest Crypto Fees'
-  developer: KCEX
-  summary: Buy Bitcoin BTC &amp; Crypto
-  score: 4.537815
-  url: https://play.google.com/store/apps/details?id=com.kcex
-  searchTerm: bitcoin
-  platform: android
-  relevanceScore: 5
-  disregard: false
-  fullDescription: |-
-    KCEX — The Crypto Exchange with the Lowest Fees, Offering Comprehensive Features to Meet Your Trading Needs
-
-    Download the KCEX app now to easily buy Bitcoin (BTC), Ethereum (ETH), and other popular cryptocurrencies.
-
-    Why Choose the KCEX Mobile App:
-
-    Ultimate Security:
-    Your safety is our top priority. All assets are protected with advanced security measures and stored entirely in cold wallets to ensure maximum protection.
-
-    Lowest Fees in the Market:
-    0% spot trading fees, 0% maker fees on futures, and only 0.01% taker fees.
-
-    Zero Withdrawal Fees:
-    Withdraw securely and efficiently — enjoy 0 withdrawal fees on all trading pairs.
-
-    Flexible Savings:
-    Earn up to 5% annualized returns — withdraw anytime and enjoy steady, effortless earnings.
-
-    High-Performance Trading:
-    Our platform features a high-performance matching engine capable of processing over 100,000 transactions per second, ensuring a smooth and seamless trading experience.
-
-    Official Channels
-    Official Website: https://www.kcex.com/
-
-    Email: support@kcex.com
-
-    Disclaimer:
-    All investments involve risk, including the potential loss of capital. Investing may not be suitable for everyone. Please ensure you understand the associated risks and only invest funds you can afford to lose.
-  installs: 1,000,000+
-  minInstalls: 1000000
-  maxInstalls: 1190993
-  ratings: 15068
-  reviews: 308
-  userCount: 1000000
 - appId: net.ctpool
   title: 'CT Pool: Crypto Mining App'
   developer: CryptoCompany OU
@@ -1203,7 +999,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 2
-  disregard: false
+  disregard: true
   fullDescription: |-
     CT Pool makes crypto mining simple and accessible for everyone. No special skills or technical setup required. Just open the app, tap, and start mining within seconds.
 
@@ -1239,7 +1035,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: |-
     The smash-hit idle clicker where you mine virtual bitcoins to amass a simulated fortune!
 
@@ -1278,7 +1074,7 @@
     - news
   platform: android
   relevanceScore: 12
-  disregard: false
+  disregard: true
   fullDescription: |-
     Tonhub is your secure Toncoin wallet and crypto card that lets you buy, sell, stake Toncoin (TON) and easily use your crypto in everyday life. Manage your assets safely and enjoy fast crypto transactions, low fees, and flexible spending options.
 
@@ -1324,55 +1120,6 @@
   ratings: 8789
   reviews: 161
   userCount: 1000000
-- appId: com.herewallet
-  title: NEAR Crypto wallet - HERE
-  developer: HERE Wallet
-  summary: Gas-Free transactions. Best swap rates. Fast token listing
-  score: 4.009901
-  url: https://play.google.com/store/apps/details?id=com.herewallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    HERE is a universal hub to connect your Binance, onchain and hardware wallets. Once set up, you will be able to manage your assets right here by the best rates.
-
-    HERE you can:
-     - Move money between Ledger and Binance in one click
-    - Swap tokens via DEX/Exchanges
-    - Bridge tokens via your Binance account
-    - Stake on validators or liquid staking protocols
-    - Make gas-free USDT transfers at NEAR Protocol
-
-    HERE is a non-custodial wallet, which means all data is stored locally only. Through the app you can easily transfer money following the highest security standards. Using cryptocurrency has never been so easy
-  installs: 1,000,000+
-  minInstalls: 1000000
-  maxInstalls: 1479021
-  ratings: 4923
-  reviews: 144
-  userCount: 1000000
-- appId: com.kyrd.krystal
-  title: 'Krystal: Crypto & Web3 Wallet'
-  developer: KYRD International Limited
-  summary: Browse Web3, manage Crypto &amp; DeFi Assets
-  score: 3.7884614
-  url: https://play.google.com/store/apps/details?id=com.kyrd.krystal
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Krystal is building the best dApp for Liquidity Provisioning, which provides convenient analytics and management tools for the most profitable liquidity provisioning on DEXes.
-
-    Krystal Wallet is the mobile gateway bringing the most convenient experience to your liquidity provisioning on mobiles. More than that, Krystal Wallet also provides full functionalities as a Web3 wallet. With more than 50+ supported blockchains, you could securely create or connect to your blockchain wallet, manage all of your assets in one place and start browsing everything in Web3.
-  installs: 1,000,000+
-  minInstalls: 1000000
-  maxInstalls: 1093934
-  ratings: 1050
-  reviews: 32
-  userCount: 1000000
 - appId: com.solflare.mobile
   title: Solflare - Solana Wallet
   developer: Solrise Research Ltd
@@ -1383,7 +1130,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     🥇 Solflare - the Most Powerful Crypto Wallet on Solana, managing $15B+ in crypto assets and trusted by over 3M active users.
     💳 Your all-in-one wallet app to buy, store, stake, swap crypto, and manage tokens and NFTs on Solana.
@@ -1444,7 +1191,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     Welcome to HAQQ Wallet!
 
@@ -1485,7 +1232,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 6
-  disregard: false
+  disregard: true
   fullDescription: |-
     [AI-Powered Crypto News Super App]
     NS3 is the fastest AI-powered crypto news app trusted by global users. It covers bitcoin, btc, ethereum, usdt, and altcoins like solana and tether. Whether you trade on binance, coinbase, okx, bybit, mexc, bitget, btcc, kraken, gate, bitpanda or bingx NS3 delivers real-time crypto news alerts and AI-powered insights tailored to your exchange and assets.
@@ -1546,7 +1293,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 4
-  disregard: false
+  disregard: true
   fullDescription: |-
     Introducing mCrypto - the ultimate crypto rewards app where you can earn real money by playing fun games!
     The app for anyone looking to combine the fun of gaming with the benefits of earning crypto. With our wide variety of games, you can earn real money and crypto of your choice
@@ -1596,7 +1343,7 @@
     - price
   platform: android
   relevanceScore: 3
-  disregard: false
+  disregard: true
   fullDescription: |-
     Crypto Bubbles is an interactive tool to visualize the cryptocurrency market.
     Each bubble represents a cryptocurrency and can easily illustrate different values such as weekly performance or market capitalization through its size, color and content.
@@ -1657,7 +1404,7 @@
     - calculator
   platform: android
   relevanceScore: 1
-  disregard: false
+  disregard: true
   fullDescription: |-
     Heey, would you like to do a little money-mining? We've got it - a crypto simulator (money clicker game)! The name is complicated, but the bitcoin(game currency) miner in your hands is impossibly simple!
 
@@ -1725,7 +1472,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 0
-  disregard: false
+  disregard: true
   fullDescription: |-
     BUY VIRTUAL LAND & EARN REAL REWARDS
 
@@ -1770,47 +1517,6 @@
   ratings: 235421
   reviews: 22034
   userCount: 1000000
-- appId: com.youngplatform.exchange
-  title: 'Young Platform: Swap Bitcoin'
-  developer: Young Platform S.p.a
-  summary: The European crypto exchange to start with Bitcoin, simple and secure.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.youngplatform.exchange
-  searchTerm: bitcoin
-  platform: android
-  relevanceScore: 11
-  disregard: false
-  fullDescription: |-
-    Swap or hold Bitcoin, it's never been easier.
-
-    Everything you need to know 📚 
-    Crypto is not as complicated as you think, with the Young Platform exchange you have all the tools you need to start. You can read Academy articles, watch videos and tutorials, and not miss any crypto news on the Blog. All without ever leaving the app.
-
-    BITCOIN in our ❤️ , but there’s more!
-    The most innovative coins are on Young Platform. Besides BTC and ETH, you can choose DeFi stablecoins and tokens from the Metaverse. But also the memecoins that have made their way to the top.
-
-    No excuses, it's too easy 🚀 
-    You can start with crypto by depositing money however you want:
-    - Google Pay or Apple Pay;
-    - Debit or credit card;
-    - Bank transfer;
-    - Satispay (in available countries)
-
-    Is there a better time to buy a crypto? 🔮 
-    Although charts are our bread and butter, we don't have a crystal ball.
-    With Recurring Purchase, you don't have to watch the prices and worry about when to top up your wallet: set up and customise your automatic and regular purchases.
-
-    Everything under control with P&L 🎯 
-    With Profit&Loss you can monitor the performance of your portfolio with live statistics. Your exchange journey should be as efficient as possible.
-
-    Join the Clubs for a host of benefits 🏅 
-    Reduce your trading fees, receive great airdrops and our monthly market trend insights.
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 509621
-  ratings: 0
-  reviews: 0
-  userCount: 500000
 - appId: com.playday.wordbreeze
   title: Word Breeze - Earn Bitcoin
   developer: PlayDay Studios
@@ -1820,7 +1526,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     In collaboration with Bling, we bring you a fun--yet challenging Bitcoin word search game that lets you earn real Bitcoin & crypto!
      
@@ -1856,7 +1562,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: |-
     Start generating Bitcoin effortlessly with next-gen cloud mining technology. BitTycoon eliminates complex setups and hardware costs – mine BTC 24/7 through your smartphone and watch your digital wealth grow.
 
@@ -1902,7 +1608,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     The world's most-powerful cryptocurrencies market data mobile application.
 
@@ -1959,7 +1665,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: |-
     Welcome to Bitcoin Miner Bro, the best Top Tycoon game ever! One of the most addictive idle games lets you explore the world of crypto, business and blockchain. Build your own bitcoin empire and become a true idle miner tycoon.
 
@@ -1995,68 +1701,6 @@
   ratings: 16680
   reviews: 967
   userCount: 500000
-- appId: com.coinsavi.android
-  title: 'CoinSavi: Buy Bitcoin & Crypto'
-  developer: Coin Savi
-  summary: CoinSavi - Trusted crypto exchange with 350+ coins and 23 layers of security
-  score: 4.3783784
-  url: https://play.google.com/store/apps/details?id=com.coinsavi.android
-  searchTerm: crypto wallet bitcoin
-  platform: android
-  relevanceScore: 8
-  disregard: false
-  fullDescription: |-
-    Welcome to CoinSavi - A trusted cryptocurrency exchange with choices of 350+ coins and 23 security layers.
-
-    Get started now and buy, sell and exchange Bitcoin(BTC), Ethereum (ETH), Litecoin (LTC), and a wide range of altcoins. We provide an trading platform to trade hundreds of crypto quickly and safely. You can trade a variety of popular or emerging coins and tokens such as: Aptos (APT), Dogecoin (DOGE), Solana (SOL), PEPE COIN, Salmonation (SUI), and more.
-
-    CoinSavi crypto exchange offers:
-
-    SPOT TRADING
-    User-friendly interface that is designed for everyone to start seamless and efficient real-time trading. With CoinSavi, numerous digital assets besides Bitcoin (BTC), Ethereum (ETH) are available for you to buy, sell, trade and get closer to the financial success.
-
-    INDUSTRY-SECURITY LEADING
-    We understand the importance of a robust security system, and therefore, we have implemented our 23 security layer to safeguard your funds and personal information and provide you a secure investment environment.
-
-    DEPOSIT AND WITHDRAW FIAT INSTANTLY
-    Thanks to coporate with the powerful fiat deposit and withdrawal system, it makes trading easier and more convenient than ever before. It is allowing you to quickly start trading and cash out your earnings, giving you more time to focus on your trades.
-
-    HIGH LIQUIDITY
-    We have partnered with top-tier liquidity providers to ensure that our users have access to a deep pool of liquidity, enabling them to trade at the desired price without worrying about slippage or delays.
-
-    COMPETITIVE FEE (<0.1%)
-    Trade with ease and save money with our low transaction fees! We understand the importance of keeping your trading costs as low as possible, which is why we offer some of the lowest transaction fees in the industry. Believe us! You got the best deal. Exclusive service at amazing fee.
-
-    REAL-PERSON CUSTOMER SUPPORT SERVICE
-    CoinSavi offers 24/7 real person highly trained customer service support to ensure to assist you with any questions or concerns you may have. You can rest assured that help is always just a click away.
-
-    POWERFUL TOOLS FOR ADVANCED CRYPTO TRADERS
-    CoinSavi is a product of SAVILABS PTE Company. LTD- was established in Singapore. Our platform offers a wide range of trading tools, including real-time charts, technical indicators, and customizable order types. We have everything both seasoned traders or newbies need to make informed trading decisions.
-
-    SUPPORTED CRYPTOCURRENCY ASSETS
-    Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Cardano (ADA), Bitcoin Cash (BCH), Dogecoin (DOGE), Polkadot (DOT), Tether (USDT), Avalanche (AVAX), Polygon (MATIC) , Litecoin (LTC), Chainlink (LINK), Stellar (XLM), Theta Network (Theta), Uniswap (UNI), Tron (TRX), Algorand (ALGO), Shiba Inu (SHIB), NEO, Tezos (XTZ), Bitcoin SV (BSV), Ripple XRP, Uniswap (UNI), Decentraland (MANA), SAND, MIOTA (IOTA), Axie Infinity (AXS), Harmony (ONE), Near Protocol (NEAR), ENJ, Maker (MKR), Basic Attention Token (BAT), PEPE COIN, Salmonation (SUI) and many other cryptocurrencies.
-
-    START YOUR CRYPTO JOURNEY WITH US TODAY!
-
-    Please send us email via:
-    * support@coinsavi.com: If you need assistance with an order or transaction.
-    * marketing@coinsavi.com: If you want to contact us for communication.
-
-    Follow us on Social Media:
-    Facebook Fanpage: https://facebook.com/CoinSavi.Official
-    Twitter: https://twitter.com/coinsavi
-    Telegram: https://t.me/CoinSavi
-    Facebook Group: https://www.facebook.com/groups/coinsavi
-
-    Disclaimer:
-
-    Trading cryptocurrencies involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of CoinSavi based on the legal requirements in your country of residence.
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 730772
-  ratings: 4533
-  reviews: 39
-  userCount: 500000
 - appId: com.bittycoon.gomining
   title: 'BitTycoon: BTC Cloud Mining'
   developer: Little-Ants
@@ -2066,7 +1710,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 6
-  disregard: false
+  disregard: true
   fullDescription: |-
     Join BitTycoon's revolutionary Bitcoin mining experience, you can easily mine Bitcoin anytime, anywhere. Our application allows you to use the power of cloud computing to mine Bitcoin without expensive hardware investment. Whether you are a mining novice or an experienced miner, BitTycoon is your ideal choice.
 
@@ -2114,7 +1758,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 15
-  disregard: false
+  disregard: true
   fullDescription: |-
     Economic strategy game about bitcoin and other crypto currency. Do you know such terms as trading or exchange? Download our clicker and you will become a real tycoon, and your empire will be number one in the world! Our game is not a typical business simulation; it combines elements of strategy with some clicker elements, which makes it funner and more exciting.
     If you have always wanted to try to earn a crypto currency or participate in the auction, but have been afraid to pour your money into this risky business, then this game will definitely suit you. You will have several ways to develop and build your empire. You can mine crypto currency, as well as participate in trading on a crypto exchange and earn on the growth of courses, or even resell farms. The game features 5 crypto-currencies: bitcoin, etherium, lightcoin, dash, and monero. Just go into the game and start building your business. There are more than 10 types of farms to get any crypto currency.
@@ -2138,7 +1782,7 @@
     - price
   platform: android
   relevanceScore: 12
-  disregard: false
+  disregard: true
   fullDescription: |-
     Trade cryptocurrencies seamlessly and securely with the revolutionary Bitcoin Trading Simulator. Perfect for beginners and seasoned traders, our app offers innovative features and unparalleled ease of use.
 
@@ -2202,159 +1846,6 @@
   ratings: 12313
   reviews: 43
   userCount: 500000
-- appId: com.peersyst.nearmobilewallet
-  title: NEAR Mobile - Crypto Wallet
-  developer: Peersyst Technology
-  summary: Securely store, manage &amp; transfer NEAR. Easy-to-use non-custodial mobile wallet.
-  score: 4.643172
-  url: https://play.google.com/store/apps/details?id=com.peersyst.nearmobilewallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Discover the only NEAR wallet you will need: NEAR Mobile, the most secure and comprehensive mobile wallet designed exclusively for the NEAR Blockchain. Store, send and onramp crypto and NFTs, interact with dapps and DeFi and explore NEAR Protocol from your phone.
-    Unrivaled Security:
-    Security isn’t an option; it’s a guarantee. NEAR Mobile is a non-custodial wallet, which means that only you have access to your keys and your crypto. Keep them safe because not even us can recover them if you lose them. We have also included biometric authentication and PIN protection for peace of mind.
-    Swap any cryptocurrency:
-    Use NEAR Intents to buy NEAR and swap it to any currency such as XRP, DOGE, BERA, PEPE, BTC among many others! Now in one click and gas free;
-    Interact with Web3 dApps:
-    Unlock the limitless potential of the NEAR dApp ecosystem. Easily sign into decentralized applications and explore the investing opportunities in the world of DeFi finance.
-    Intuitive Design:
-    Interacting with blockchain should not be complex. NEAR Mobile offers a design that feels familiar from the get-go, shielding you from the intricacies of blockchain technology while delivering an experience that’s pleasing to the eye.
-    Multi-Currency and NFTs:
-    Manage an array of tokens and NFTs within the NEAR Blockchain all from one app.
-    In-App Staking:
-    Compound your NEAR assets effortlessly. Stake directly within the app and build a more robust portfolio with minimal fuss.
-    Custom NEAR IDs:
-    One seed phrase, unlimited possibilities. Create multiple accounts and reserve your personalized NEAR ID for a bespoke experience.
-    Now supporting .tg accounts!
-    NEAR Mobile isn’t just a wallet; it’s your one-stop-shop to a decentralized universe, seamlessly integrating high-level security, user experience, and versatility. Download NEAR Mobile today and redefine your crypto journey.
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 550328
-  ratings: 71209
-  reviews: 1343
-  userCount: 500000
-- appId: com.PlusWallet
-  title: 'Cold Wallet: Crypto Wallet App'
-  developer: Seekjazz Ventures Limited
-  summary: Your versatile crypto wallet for NFTs, DApps, and asset management.
-  score: 3.0731707
-  url: https://play.google.com/store/apps/details?id=com.PlusWallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    Best Secure Web3 Crypto Wallet
-    About Us:
-    PlusWallet puts you in the driver’s seat. It’s a sleek, secure, all-in-one wallet built to handle your crypto life — from coins to NFTs to dApps. You call the shots, we just make it easy (and way less boring).
-    Key Features:
-    Multi-Crypto Support: Juggle chains like a pro. We support a ton of blockchains and tokens so your bags stay flexible.
-    NFT Collection: Show off your digital taste. Store and manage NFTs that actually mean something to you.
-    dApp Exploration:Jump into dApps straight from the wallet. No tabs. No nonsense. Just tap and go.
-    Rock-Solid Security: We don’t mess around. Top-tier protection means your assets stay yours — always.
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 557519
-  ratings: 1440
-  reviews: 65
-  userCount: 500000
-- appId: com.ttcoin.tcwallet
-  title: TC-Wallet Pro - Cryptocurrency
-  developer: TTcoin Games And Application
-  summary: Safely Store And Trade Your Cryptocurrencies
-  score: 4.3088236
-  url: https://play.google.com/store/apps/details?id=com.ttcoin.tcwallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    TC-Wallet is the TTcoin Official Wallet app. It includes many cryptocurrencies and blockchain networks. 
-
-    Supported Blockchains: TSC Mainnet, Ethereum, Core, and 15 more
-
-    Never share your wallet passwords with others when setting up a wallet. Keep your wallet passwords in a safe place. It uses the Web3 standard and the system is fully connected to the Blockchain network systems. 
-
-    Create your wallet in seconds with the app. Get instant access to TTcoin and many cryptocurrencies. Instantly trade and track your tokens. 
-
-    HELP: tscscan@ttcoin.info
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 781913
-  ratings: 4084
-  reviews: 25
-  userCount: 500000
-- appId: io.oneinch.android
-  title: '1inch: DeFi Crypto Wallet'
-  developer: Degensoft Ltd.
-  summary: Swap crypto at great rates in your self-custodial Web3 wallet
-  score: 4.108911
-  url: https://play.google.com/store/apps/details?id=io.oneinch.android
-  searchTerm: bitcoin hd wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 10
-  disregard: false
-  fullDescription: |-
-    1inch Wallet is a self-custodial crypto wallet that puts you in control of your onchain assets. Swap crypto across multiple chains - from Ethereum, Solana and Base and beyond - without risky bridges or gas fees, and smart price routing for favorable rates.
-
-    Why use 1inch Wallet?
-    · Maximize security with self-custody, scam protection, biometric access, Ledger integration and more features.
-    · Manage your assets across 13 networks: Ethereum, Solana, Base, Sonic, BNB Chain, Arbitrum, Polygon and more.
-    · Enjoy support for USDT, USDC, ETH, BNB, Wrapped Bitcoin and other tokens, plus memecoins and RWAs.
-    · Track your onchain asset performance with PnL statistics for every token, and explore Web3 with the built-in browser.
-    · Get clarity with Сlear signing, searchable activity and token information.
-
-    Protect your crypto with confidence
-    · Control your keys and onchain assets with crypto wallet self-custody.
-    · Get scam protection for tokens, addresses, transactions and domains.
-    · Stay informed on every transaction with Clear Signing for transparency.
-    · Connect your Ledger device for an additional level of security.
-    · Benefit from MEV protection against sandwich attacks.
-    · Stay secure with biometric access and passcode protection.
-    · Get 24/7 help from our support team directly in the 1inch Wallet app.
-
-    Manage your crypto in a few taps
-    · Swap crypto with maximum efficiency, powered by the built-in 1inch Swap.
-    · Track your activity with full-text search and filters.
-    · Save time with reusable transaction templates.
-    · Send, request and receive payments with ease.
-    · Keep trusted contacts in your address book.
-    · Add and manage multiple crypto wallets in one app.
-    · Hide balances for privacy and use dark mode.
-    · Buy crypto directly with fiat currency.
-
-    Explore Web3 your way
-    · Use the built-in browser to explore and access dApps to swap crypto.
-    · Connect with DeFi protocols and services easily via WalletConnect.
-    · View and manage your NFTs.
-
-    Back up and recover anytime
-    · Back up your Web3 wallet easily to Google Drive, saving your state in the app.
-    · Use file backup for secure cross-platform export and import.
-
-    Track your crypto portfolio
-    · Monitor asset performance across multiple wallets and chains.
-    · Track PnL, ROI and total value of your assets in real time.
-    · Recognize trends and make informed decisions.
-
-    Whether you need to swap tokens across chains, or just hold your onchain assets securely, 1inch Wallet gives you a versatile crypto wallet with all the tools you need.
-
-    Whatever you do in DeFi, do it with 1inch Wallet: your secure crypto wallet app.
-
-    1inch is the DeFi ecosystem building financial freedom for everyone - helping users and builders manage, secure and track their holdings across an ever-increasing range of networks.
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 572687
-  ratings: 4577
-  reviews: 179
-  userCount: 500000
 - appId: me.rainbow
   title: Rainbow Ethereum Wallet
   developer: Rainbow Studio, Inc
@@ -2365,7 +1856,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     Rainbow is a fun, simple, and secure way to get started with crypto and explore Ethereum. You can use Rainbow to purchase, manage, and display Ethereum-based assets on mainnet, Optimism, Arbitrum, Polygon, Base, and Zora.
 
@@ -2404,28 +1895,6 @@
   ratings: 19036
   reviews: 239
   userCount: 500000
-- appId: com.smartblockchain.wallet
-  title: Smart Wallet
-  developer: YamaD LLC
-  summary: Smart Wallet, your trustworthy companion in the cryptocurrency world!
-  score: 4.19403
-  url: https://play.google.com/store/apps/details?id=com.smartblockchain.wallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 7
-  disregard: false
-  fullDescription: |-
-    With our wallet, you can easily and securely store your crypto assets, make fast and safe transactions, and access the most popular cryptocurrencies on the market.
-    Smart Wallet has a user-friendly interface that makes it easy to manage your assets. You can create an unlimited number of wallets with just a few clicks, switch between different cryptocurrencies and manage them from a single app. Moreover, you can view your balance and transaction history and send and receive cryptocurrencies.
-    Smart Wallet protects your data and funds with strong encryption algorithms. We guarantee the complete confidentiality of your data and the security of your funds.
-    Our team is constantly working on improving our product to make it even more user-friendly and adaptable. Don’t miss your chance and start using our wallet today! Download Smart Wallet now and explore the opportunities the crypto world offers to the fullest!
-  installs: 500,000+
-  minInstalls: 500000
-  maxInstalls: 842340
-  ratings: 4377
-  reviews: 31
-  userCount: 500000
 - appId: com.pcm.pcmwallet
   title: PCM Wallet
   developer: PICHAIN GLOBAL
@@ -2436,7 +1905,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     The PCM Wallet, a secure non-custodial Web3 wallet, serves as the gateway to the expanding range of products and services within the PiChain Global ecosystem.
 
@@ -2487,7 +1956,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 7
-  disregard: false
+  disregard: true
   fullDescription: |-
     Nodle is a free app for earning cryptocurrency on your smartphone. All you need to start earning is to install the app and enable Bluetooth and location sharing in the phone settings to join the Nodle network. Once you do this, your phone becomes a “node” of the network that helps transmit data from Bluetooth devices around you. The collected information is then sent back to the owner of the Bluetooth device.
 
@@ -2544,7 +2013,7 @@
     - game
   platform: android
   relevanceScore: 3
-  disregard: false
+  disregard: true
   fullDescription: |-
     Start your cryptocurrency journey with free tokens. We provide you the best airdrops.
     Follow hot and trending airdrops free of cost. 
@@ -2598,7 +2067,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 1
-  disregard: false
+  disregard: true
   fullDescription: |-
     Earn passive cryptocurrency and mint NFTs by tracking your sleep!
 
@@ -2648,7 +2117,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 0
-  disregard: false
+  disregard: true
   fullDescription: BTcoin is a new digital currency. This app allows you to access and grow your BTcoin holdings and serves as wallet to host your digital assets. BTcoin mining pro is fairly distributed, eco-friendly and consumes minimal battery power.
   installs: 500,000+
   minInstalls: 500000
@@ -2686,7 +2155,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 0
-  disregard: false
+  disregard: true
   fullDescription: |-
     Cheatmoon Network is an initiative built by industry specialists within the financial and blockchain fields. The team has set to tackle some of the major issues in today's digital asset solutions. From the outrageous transaction fees to the annoyingly slow processing times.
 
@@ -2698,49 +2167,6 @@
   ratings: 7976
   reviews: 192
   userCount: 500000
-- appId: com.btcc.wallets
-  title: 'BTCC Wallet: Crypto & Bitcoin'
-  developer: BTCC WALLET
-  summary: Crypto Wallet &amp; Exchange — Buy BTC, ETH, XRP easily
-  score: 4.1860466
-  url: https://play.google.com/store/apps/details?id=com.btcc.wallets
-  searchTerm: bitcoin mobile wallet
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: |-
-    "BTCC Wallet is a user-friendly wallet for all crypto enthusiasts—a secure Bitcoin trading app with advanced multi-chain support. Manage assets across Ethereum (ETH), BNB Chain, TRON, and more. Designed for traders, holders, and beginners, BTCC Wallet is trusted by millions worldwide.
-
-    Download BTCC Wallet to manage all your crypto assets, including Bitcoin (BTC).
-
-    BTCC Wallet lets you buy, sell, send, swap, receive, and store cryptocurrencies safely and easily, just like managing traditional money.
-
-    Key Features:
-    1.Transfer crypto across multiple networks like Bitcoin (BTC), Dogecoin (DOGE), BNB Smart Chain (BEP20), Ethereum (ERC20), and TRON (TRC20).
-    2.Access and manage multi-chain assets in one place—stay flexible in a fast-changing market.
-    3.A security team with a 12-year zero-incident record protects your funds, trusted by 6M+ users globally.
-    4.Register in 1 minute with zero-fee deposits and trades—start exploring crypto with ease.
-    5.Instantly sync your BTCC account for seamless access to assets and trading history.
-    6.Get real-time price updates and market insights for informed trading decisions.
-    7.Enjoy a clean, intuitive interface suitable for all user levels.
-    8.BTCC supports 500+ cryptos for spot and futures trading, including BTC, ETH, SOL, XRP, USDT, MX, DOGE, SHIB, PEPE, NOT, TON, USDC, BNB, PEOPLE, LINK, ADA, DOT, MANA, GALA, and POL—offering global reach and localized service.
-    9.24/7 customer support ensures instant help anytime.
-
-    For KRW deposits, select a provider under “Buy Crypto.” For crypto deposits, choose the coin and deposit via Binance, Coinbase, MetaMask, Trust Wallet, or other exchanges.
-
-    Start your crypto journey with BTCC Wallet today!
-    Official Website: https://www.btcc.com/
-    Email: support@btcc.com
-
-    Join Our Community:
-    Twitter: https://x.com/BTCCexchange
-    Discord: https://discord.com/invite/5K8PnePqQM"
-  installs: 100,000+
-  minInstalls: 100000
-  maxInstalls: 189131
-  ratings: 476
-  reviews: 14
-  userCount: 100000
 - appId: com.lemonanag.bitcointilesgame
   title: Bitcoin Tiles - Earn Bitcoin
   developer: LemonanaGames
@@ -2750,7 +2176,7 @@
   searchTerm: bitcoin
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: |-
     Earn Real Bitcoin for Play free-to-play “Bitcoin Tiles”, How can it be?
     It's simple! Using the revenue we've earned, we buy Bitcoin and share it with you. You'll use an app called ZBD to withdraw it. It's super simple and a fast to set up everything.
@@ -2783,7 +2209,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Want to win Bitcoin by simply playing a relaxing, seaside Bubble Shooter? Team up with Spark, a mischievous feline obsessed with bitcoin, on a tropical Bubble Shooter-voyage! THNDR Bay is free-to-play bubble shooter with prize draws for winning real Bitcoin prizes!
 
@@ -2855,7 +2281,7 @@
   searchTerm: btc
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: |-
     Bling Financial and PlayDay Studios bring you a brain blasting number puzzle classic that keeps your mind sharp and your crypto wallet stacked! Bitcoin Sudoku combines entertainment, brain stimulation, crypto rewards and more. 
 
@@ -22250,134 +21676,6 @@
     View the health and activity of your crypto portfolio tracker and blockchain projects with a crypto profile tracker.
   reviews: 167495
   ratingsCount: 0
-- appId: com.planet.toobit
-  id: 1660882885
-  title: 'Toobit: Buy BTC, ETH & Crypto'
-  developer: Hopeful Technology Co., Ltd.
-  description: |-
-    Your award-winning exchange for crypto and derivatives trading
-
-    Toobit is the fastest, safest, and most rewarding way to trade crypto. Whether you're a beginner or an experienced trader, you'll find the tools, assets, and support you need to trade with confidence. Get started in minutes for instant access to the latest cryptoassets, and join a vibrant community of over 3 million traders where over $30 billion moves daily.
-
-    TRADE CRYPTO YOUR WAY
-    With over 1,000 trading pairs, Toobit offers a diverse and comprehensive experience to manage your crypto portfolio, no matter your strategy.
-
-    1. Spot trading
-    Buy, sell, and trade a wide range of cryptocurrencies, including majors like Bitcoin (BTC), Ethereum (ETH), and XRP, as well as other top performers like BNB, Solana (SOL), Dogecoin (DOGE), Cardano (ADA), TRON (TRX), Polkadot (DOT), Litecoin (LTC). 
-    Enjoy some of the lowest trading fees on the market, giving you more value from every trade. 
-
-    2. Derivatives trading
-    Take your trading to the next level with Toobit's high-speed, low-latency derivatives platform. You can trade Futures with up to 200x leverage on a wide range of contracts, including BTCUSDT, ETHUSDT, BNBUSDT, SOLUSDT, XRPUSDT, DOGEUSDT, ADAUSDT, AVAXUSDT, LTCUSDT, XAUTUSDT.
-
-    Toobit is built to perform, featuring Futures Best Bid Offer (BBO) for optimal execution, and tools like Break Even Price to help you manage risk. You also have flexible position management with both Split Mode and Merged Mode, giving you more control over your strategies.
-
-    3. Lite perpetuals
-    A simplified way to trade perpetual contracts, ideal for new or casual traders. It offers a user-friendly interface with streamlined options, making it the perfect entry point for leveraged trading.
-
-    4. Demo trading
-    Toobit's demo account lets you hone skills and test strategies in a risk-free environment. Use a virtual balance to practice trading real-time markets without risking real capital.
-
-    5. DEX+
-    Access early-stage, trending on-chain assets directly from your Spot Account. DEX+ eliminates the complexity of on-chain trading, meaning no separate wallets, no gas fees, and no security risks. Get the speed and stability of a centralized exchange combined with the innovation of decentralized finance. 
-
-    6. Convert
-    Instantly swap your cryptoassets with zero fees. 
-
-    7. Purchase crypto with your credit/debit card
-    It's easier than ever to get started. Purchase Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies directly on Toobit using your Visa or Mastercard. 
-
-    GROW YOUR PORTFOLIO 
-    1. Earn
-    Let your cryptoassets work for you. Generate passive income on your idle cryptocurrencies with Toobit's fixed and flexible earning options. 
-
-    2. Copy Trading
-    Maximize your gains by following top-performing traders. Toobit's zero-slippage Copy Trading ensures your copied trades are executed at the exact price, providing unparalleled precision and transparency. 
-
-    INDUSTRY-LEADING SECURITY 
-    Toobit is one of the world's most secure crypto trading platforms. Powered by its proprietary Bee-Safe technology, Toobit provides full transparency and protection for your assets. Advanced security measures include 1:1 asset backing with regular Proof of Reserves audits, AES-256 encryption, cold storage, and dedicated risk control to safeguard your funds and personal data. 
-
-    Toobit's multilingual 24/7 customer support team is always available to assist you with any questions or issues. 
-
-    Ready to start trading like a pro? Download Toobit now. 
-
-    JOIN THE HIVE
-    Stay updated on the latest news, trends, and activities on Toobit's official channels: 
-
-    Website: https://www.toobit.com/
-    Announcements: https://www.toobit.com/en-US/announcement
-    Support Center: https://www.toobit.com/en-US/support
-
-    X: https://x.com/Toobit_official
-    Facebook: https://www.facebook.com/groups/toobitofficial
-    Discord: https://discord.gg/3bnHzs27nt
-    Telegram: https://t.me/Toobit_EN
-    Youtube: https://www.youtube.com/@Toobit_official
-  score: 4.85072
-  url: https://apps.apple.com/us/app/toobit-buy-btc-eth-crypto/id1660882885?uo=4
-  searchTerm: btc
-  platform: iphone
-  relevanceScore: 18
-  disregard: false
-  fullDescription: |-
-    Your award-winning exchange for crypto and derivatives trading
-
-    Toobit is the fastest, safest, and most rewarding way to trade crypto. Whether you're a beginner or an experienced trader, you'll find the tools, assets, and support you need to trade with confidence. Get started in minutes for instant access to the latest cryptoassets, and join a vibrant community of over 3 million traders where over $30 billion moves daily.
-
-    TRADE CRYPTO YOUR WAY
-    With over 1,000 trading pairs, Toobit offers a diverse and comprehensive experience to manage your crypto portfolio, no matter your strategy.
-
-    1. Spot trading
-    Buy, sell, and trade a wide range of cryptocurrencies, including majors like Bitcoin (BTC), Ethereum (ETH), and XRP, as well as other top performers like BNB, Solana (SOL), Dogecoin (DOGE), Cardano (ADA), TRON (TRX), Polkadot (DOT), Litecoin (LTC). 
-    Enjoy some of the lowest trading fees on the market, giving you more value from every trade. 
-
-    2. Derivatives trading
-    Take your trading to the next level with Toobit's high-speed, low-latency derivatives platform. You can trade Futures with up to 200x leverage on a wide range of contracts, including BTCUSDT, ETHUSDT, BNBUSDT, SOLUSDT, XRPUSDT, DOGEUSDT, ADAUSDT, AVAXUSDT, LTCUSDT, XAUTUSDT.
-
-    Toobit is built to perform, featuring Futures Best Bid Offer (BBO) for optimal execution, and tools like Break Even Price to help you manage risk. You also have flexible position management with both Split Mode and Merged Mode, giving you more control over your strategies.
-
-    3. Lite perpetuals
-    A simplified way to trade perpetual contracts, ideal for new or casual traders. It offers a user-friendly interface with streamlined options, making it the perfect entry point for leveraged trading.
-
-    4. Demo trading
-    Toobit's demo account lets you hone skills and test strategies in a risk-free environment. Use a virtual balance to practice trading real-time markets without risking real capital.
-
-    5. DEX+
-    Access early-stage, trending on-chain assets directly from your Spot Account. DEX+ eliminates the complexity of on-chain trading, meaning no separate wallets, no gas fees, and no security risks. Get the speed and stability of a centralized exchange combined with the innovation of decentralized finance. 
-
-    6. Convert
-    Instantly swap your cryptoassets with zero fees. 
-
-    7. Purchase crypto with your credit/debit card
-    It's easier than ever to get started. Purchase Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies directly on Toobit using your Visa or Mastercard. 
-
-    GROW YOUR PORTFOLIO 
-    1. Earn
-    Let your cryptoassets work for you. Generate passive income on your idle cryptocurrencies with Toobit's fixed and flexible earning options. 
-
-    2. Copy Trading
-    Maximize your gains by following top-performing traders. Toobit's zero-slippage Copy Trading ensures your copied trades are executed at the exact price, providing unparalleled precision and transparency. 
-
-    INDUSTRY-LEADING SECURITY 
-    Toobit is one of the world's most secure crypto trading platforms. Powered by its proprietary Bee-Safe technology, Toobit provides full transparency and protection for your assets. Advanced security measures include 1:1 asset backing with regular Proof of Reserves audits, AES-256 encryption, cold storage, and dedicated risk control to safeguard your funds and personal data. 
-
-    Toobit's multilingual 24/7 customer support team is always available to assist you with any questions or issues. 
-
-    Ready to start trading like a pro? Download Toobit now. 
-
-    JOIN THE HIVE
-    Stay updated on the latest news, trends, and activities on Toobit's official channels: 
-
-    Website: https://www.toobit.com/
-    Announcements: https://www.toobit.com/en-US/announcement
-    Support Center: https://www.toobit.com/en-US/support
-
-    X: https://x.com/Toobit_official
-    Facebook: https://www.facebook.com/groups/toobitofficial
-    Discord: https://discord.gg/3bnHzs27nt
-    Telegram: https://t.me/Toobit_EN
-    Youtube: https://www.youtube.com/@Toobit_official
-  reviews: 3537
-  ratingsCount: 0
 - appId: com.ketchapp.bitcoin
   id: 1319025639
   title: Bitcoin!
@@ -27206,53 +26504,6 @@
 
     Bridge Ventures LLC (“Bridge”) is not a bank. Bridge is a financial technology company and is the Program Manager responsible for managing and operating the Card on behalf of Lead Bank. Squads is not a bank. Squads is a financial technology company and is the Platform Provider responsible for the application, access, and management of/for the card.
   reviews: 28
-  ratingsCount: 0
-- appId: com.peersyst.nearmobilewallet
-  id: 6443501225
-  title: NEAR Mobile - Crypto Wallet
-  developer: Peersyst
-  description: |-
-    Discover the only NEAR wallet you will need: NEAR Mobile, the most secure and comprehensive mobile wallet designed exclusively for the NEAR Blockchain. Store, send and onramp crypto and NFTs, interact with dapps and DeFi and explore NEAR Protocol from your phone.
-    Unrivaled Security:
-    Security isn’t an option; it’s a guarantee. NEAR Mobile is a non-custodial wallet, which means that only you have access to your keys and your crypto. Keep them safe because not even us can recover them if you lose them. We have also included biometric authentication and PIN protection for peace of mind
-    Swap any cryptocurrency:
-    Use NEAR Intents to buy NEAR and swap it to any currency such as XRP, DOGE, BERA, PEPE, BTC among many others! Now in one click and gas free;
-    Interact with Web3 dApps:
-    Unlock the limitless potential of the NEAR dApp ecosystem. Easily sign into decentralized applications and explore the investing opportunities in the world of DeFi finance.
-    Intuitive Design:
-    Interacting with blockchain should not be complex. NEAR Mobile offers a design that feels familiar from the get-go, shielding you from the intricacies of blockchain technology while delivering an experience that’s pleasing to the eye.
-    Multi-Currency and NFTs:
-    Manage an array of tokens and NFTs within the NEAR Blockchain all from one app.
-    In-App Staking:
-    Compound your NEAR assets effortlessly. Stake directly within the app and build a more robust portfolio with minimal fuss.
-    Custom NEAR IDs:
-    One seed phrase, unlimited possibilities. Create multiple accounts and reserve your personalized NEAR ID for a bespoke experience.
-    NEAR Mobile isn’t just a wallet; it’s your one-stop-shop to a decentralized universe, seamlessly integrating high-level security, user experience, and versatility. Download NEAR Mobile today and redefine your crypto journey.
-  score: 4.51396
-  url: https://apps.apple.com/us/app/near-mobile-crypto-wallet/id6443501225?uo=4
-  searchTerm: offline wallet
-  excludeTerms: []
-  platform: iphone
-  relevanceScore: 16
-  disregard: false
-  fullDescription: |-
-    Discover the only NEAR wallet you will need: NEAR Mobile, the most secure and comprehensive mobile wallet designed exclusively for the NEAR Blockchain. Store, send and onramp crypto and NFTs, interact with dapps and DeFi and explore NEAR Protocol from your phone.
-    Unrivaled Security:
-    Security isn’t an option; it’s a guarantee. NEAR Mobile is a non-custodial wallet, which means that only you have access to your keys and your crypto. Keep them safe because not even us can recover them if you lose them. We have also included biometric authentication and PIN protection for peace of mind
-    Swap any cryptocurrency:
-    Use NEAR Intents to buy NEAR and swap it to any currency such as XRP, DOGE, BERA, PEPE, BTC among many others! Now in one click and gas free;
-    Interact with Web3 dApps:
-    Unlock the limitless potential of the NEAR dApp ecosystem. Easily sign into decentralized applications and explore the investing opportunities in the world of DeFi finance.
-    Intuitive Design:
-    Interacting with blockchain should not be complex. NEAR Mobile offers a design that feels familiar from the get-go, shielding you from the intricacies of blockchain technology while delivering an experience that’s pleasing to the eye.
-    Multi-Currency and NFTs:
-    Manage an array of tokens and NFTs within the NEAR Blockchain all from one app.
-    In-App Staking:
-    Compound your NEAR assets effortlessly. Stake directly within the app and build a more robust portfolio with minimal fuss.
-    Custom NEAR IDs:
-    One seed phrase, unlimited possibilities. Create multiple accounts and reserve your personalized NEAR ID for a bespoke experience.
-    NEAR Mobile isn’t just a wallet; it’s your one-stop-shop to a decentralized universe, seamlessly integrating high-level security, user experience, and versatility. Download NEAR Mobile today and redefine your crypto journey.
-  reviews: 788
   ratingsCount: 0
 - appId: com.ybit.app
   id: 6483864038
