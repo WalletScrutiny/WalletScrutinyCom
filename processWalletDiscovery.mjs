@@ -73,13 +73,92 @@ class WalletDiscoveryProcessor {
     console.log(`Found ${this.allSearchTerms.size} unique search terms`);
   }
 
+  calculateRelevanceScore(product) {
+    const text = `${product.title} ${product.summary || ''} ${product.fullDescription || product.description || ''}`.toLowerCase();
+    const title = product.title.toLowerCase();
+    let score = 0;
+
+    // HEAVY penalties for games and mining (apply first)
+    const gameTerms = ['game', 'play', 'tap', 'clicker', 'idle', 'simulator', 'tycoon', 'adventure', 'puzzle', 'arcade', 'solitaire', 'blast', 'spin', 'wheel'];
+    const miningTerms = ['mining', 'miner', 'mine', 'cloud mining', 'hash rate', 'hashrate', 'mining pool'];
+    const earnTerms = ['earn bitcoin', 'earn btc', 'get btc', 'win bitcoin', 'free bitcoin', 'free btc'];
+    
+    // Check title first (most reliable indicator)
+    gameTerms.forEach(term => {
+      if (title.includes(term)) score -= 50;
+    });
+    miningTerms.forEach(term => {
+      if (title.includes(term)) score -= 40;
+    });
+    
+    // Check full text
+    gameTerms.forEach(term => {
+      if (text.includes(term)) score -= 20;
+    });
+    miningTerms.forEach(term => {
+      if (text.includes(term)) score -= 15;
+    });
+    earnTerms.forEach(term => {
+      if (text.includes(term)) score -= 25;
+    });
+    
+    // Check category if available
+    if (product.genre) {
+      const genre = product.genre.toLowerCase();
+      if (genre.includes('game') || genre.includes('casino') || genre.includes('arcade')) {
+        score -= 100; // Instant disqualification
+      }
+    }
+
+    // Bitcoin mentions
+    const bitcoinCount = (text.match(/bitcoin/g) || []).length;
+    const btcCount = (text.match(/\bbtc\b/g) || []).length;
+    score += bitcoinCount * 3 + btcCount * 2;
+
+    // Wallet indicators (strong positive signals)
+    const walletTerms = ['wallet', 'send', 'receive', 'private key', 'seed phrase', 'custody', 'multisig', 'cold storage', 'hot wallet'];
+    walletTerms.forEach(term => {
+      if (text.includes(term)) score += 3;
+    });
+
+    // Title relevance (higher weight)
+    if (title.includes('bitcoin')) score += 8;
+    if (title.includes('btc')) score += 6;
+    if (title.includes('wallet')) score += 10; // Increased from 5
+    if (title.includes('crypto')) score += 3;
+
+    // Additional penalties for non-wallet apps
+    const penaltyTerms = ['news', 'price', 'tracker', 'chart', 'calculator', 'portfolio', 'alert', 'notification', 'widget'];
+    penaltyTerms.forEach(term => {
+      if (text.includes(term)) score -= 3;
+    });
+
+    // Bonus for specific wallet features
+    const bonusTerms = ['lightning', 'segwit', 'multisig', 'hd wallet', 'bip39', 'bip44', 'hardware wallet', 'cold storage', 'air gap'];
+    bonusTerms.forEach(term => {
+      if (text.includes(term)) score += 4;
+    });
+    
+    // Bonus for exchange/trading (they often have wallets)
+    if (text.includes('exchange') || text.includes('trading')) {
+      score += 2;
+    }
+
+    return score; // Return actual score (can be negative to filter out bad matches)
+  }
+
   async enrichWithDetails() {
     console.log('\nEnriching products with full details...');
     
     for (let i = 0; i < this.products.length; i++) {
       const product = this.products[i];
       
-      // Skip if already has full description or is disregarded
+      // Always recalculate relevance score if we have description
+      if (product.fullDescription || product.description) {
+        product.relevanceScore = this.calculateRelevanceScore(product);
+      }
+      
+      // Skip enrichment if already has full description or is disregarded
       if (product.fullDescription || product.disregard) {
         continue;
       }
@@ -97,11 +176,13 @@ class WalletDiscoveryProcessor {
           product.score = (details && details.score) || product.score || 0;
           product.ratings = (details && details.ratings) || 0;
           product.reviews = (details && details.reviews) || 0;
+          product.genre = (details && details.genre) || product.genre || 'Unknown';
+          product.genreId = (details && details.genreId) || product.genreId || 'Unknown';
           
           // Calculate user count heuristic (use minInstalls as base)
           product.userCount = product.minInstalls || 0;
           
-          console.log(`  [${i + 1}/${this.products.length}] ✓ ${product.title}`);
+          console.log(`  [${i + 1}/${this.products.length}] ✓ ${product.title} [${product.genre}]`);
         } catch (error) {
           // App might not be available anymore or API issue
           console.log(`  [${i + 1}/${this.products.length}] ✗ ${product.title} - ${error.message}`);
@@ -127,11 +208,13 @@ class WalletDiscoveryProcessor {
           product.score = (details && details.score) || product.score || 0;
           product.ratings = (details && details.ratings) || 0;
           product.reviews = (details && details.reviews) || 0;
+          product.genre = (details && details.genres && details.genres[0]) || product.genre || 'Unknown';
+          product.primaryGenre = (details && details.primaryGenre) || product.primaryGenre || 'Unknown';
           
           // Calculate ratings count heuristic
           product.ratingsCount = product.ratings || 0;
           
-          console.log(`  [${i + 1}/${this.products.length}] ✓ ${product.title}`);
+          console.log(`  [${i + 1}/${this.products.length}] ✓ ${product.title} [${product.primaryGenre}]`);
         } catch (error) {
           // App might not be available anymore or API issue
           console.log(`  [${i + 1}/${this.products.length}] ✗ ${product.title} - ${error.message}`);
@@ -145,6 +228,9 @@ class WalletDiscoveryProcessor {
         }
         await new Promise(resolve => setTimeout(resolve, 1000));
       }
+      
+      // Recalculate relevance score with full description
+      product.relevanceScore = this.calculateRelevanceScore(product);
     }
   }
 
@@ -172,11 +258,60 @@ class WalletDiscoveryProcessor {
     console.log('\n✓ Saved bitcoin-wallet-discovery.yaml');
   }
 
-  highlightAllSearchTerms(text) {
+  decodeHtmlEntities(text) {
     if (!text) return text;
     
     // Convert <br> and <br/> to newlines
     text = text.replace(/<br\s*\/?>/gi, '\n');
+    
+    // Decode common HTML entities
+    const entities = {
+      '&amp;': '&',
+      '&lt;': '<',
+      '&gt;': '>',
+      '&quot;': '"',
+      '&#39;': "'",
+      '&apos;': "'",
+      '&nbsp;': ' ',
+      '&copy;': '©',
+      '&reg;': '®',
+      '&trade;': '™',
+      '&euro;': '€',
+      '&pound;': '£',
+      '&yen;': '¥',
+      '&cent;': '¢',
+      '&sect;': '§',
+      '&para;': '¶',
+      '&middot;': '·',
+      '&bull;': '•',
+      '&hellip;': '…',
+      '&ndash;': '–',
+      '&mdash;': '—',
+      '&lsquo;': '\u2018',
+      '&rsquo;': '\u2019',
+      '&ldquo;': '\u201C',
+      '&rdquo;': '\u201D',
+      '&laquo;': '«',
+      '&raquo;': '»'
+    };
+    
+    // Replace all known entities
+    for (const [entity, char] of Object.entries(entities)) {
+      text = text.replace(new RegExp(entity, 'g'), char);
+    }
+    
+    // Decode numeric entities (&#123; and &#xAB;)
+    text = text.replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec));
+    text = text.replace(/&#x([0-9a-f]+);/gi, (match, hex) => String.fromCharCode(parseInt(hex, 16)));
+    
+    return text;
+  }
+
+  highlightAllSearchTerms(text) {
+    if (!text) return text;
+    
+    // Decode HTML entities first
+    text = this.decodeHtmlEntities(text);
     
     // ANSI color codes
     const yellow = '\x1b[33m';
@@ -215,6 +350,7 @@ class WalletDiscoveryProcessor {
     console.log(`${bold}Relevance Score:${reset}  ${product.relevanceScore}`);
     
     if (product.platform === 'android') {
+      console.log(`${bold}Genre:${reset}  ${product.genre || 'Unknown'}`);
       console.log(`${bold}User Count:${reset}  ${product.userCount || 'N/A'}    ${bold}Ratings:${reset}  ${product.ratings || 'N/A'}`);
       
       if (product.summary) {
@@ -222,6 +358,7 @@ class WalletDiscoveryProcessor {
         console.log(`\n${bold}Summary:${reset}  ${summary}`);
       }
     } else {
+      console.log(`${bold}Genre:${reset}  ${product.primaryGenre || product.genre || 'Unknown'}`);
       console.log(`${bold}Ratings Count:${reset}  ${product.ratingsCount || 'N/A'}`);
     }
     
@@ -244,8 +381,20 @@ class WalletDiscoveryProcessor {
   }
 
   async processProducts() {
-    console.log('\n\nStarting interactive review...');
-    console.log('Commands: (a)dd, (s)kip, (d)isregard, (q)uit\n');
+    console.log(`
+Starting interactive review...
+
+Commands:
+- (a)dd:       add the product to our catalogue with a verdict wip for
+               detailled review
+- (s)kip:      don't decide right now. The product will re-appear in the next
+               session
+- (d)isregard: this product is not suited for our project. It will get marked
+               accordingly. To re-visit those, edit
+               bitcoin-wallet-discovery.yaml manually
+- (q)uit:      end the current session. Nothing is persisted until you confirm 
+               in the next step to do so
+`);
     
     for (let i = 0; i < this.products.length; i++) {
       const product = this.products[i];
