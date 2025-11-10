@@ -381,6 +381,10 @@ class WalletDiscoveryProcessor {
   }
 
   async processProducts() {
+    // Count initial state
+    const initialDisregarded = this.products.filter(p => p.disregard).length;
+    const totalUnclassified = this.products.length - initialDisregarded;
+    
     console.log(`
 Starting interactive review...
 
@@ -394,7 +398,13 @@ Commands:
                bitcoin-wallet-discovery.yaml manually
 - (q)uit:      end the current session. Nothing is persisted until you confirm 
                in the next step to do so
+
+Total products: ${this.products.length}
+Already disregarded: ${initialDisregarded}
+Unclassified to review: ${totalUnclassified}
 `);
+    
+    let processedCount = 0;
     
     for (let i = 0; i < this.products.length; i++) {
       const product = this.products[i];
@@ -406,7 +416,17 @@ Commands:
       
       this.displayProduct(product);
       
-      console.log(`\nProgress: ${i + 1}/${this.products.length}`);
+      // Calculate current session stats (before processing this item)
+      const uncommittedAdd = this.changes.added.length;
+      const uncommittedDisregard = this.changes.disregarded.length;
+      const uncommittedSkip = Math.max(0, processedCount - uncommittedAdd - uncommittedDisregard);
+      const pendingUnclassified = totalUnclassified - processedCount;
+      const pendingDisregard = initialDisregarded;
+      
+      console.log(`Progress: ${processedCount}/${totalUnclassified} unclassified reviewed     Uncommitted: Add: ${uncommittedAdd}, Disregard: ${uncommittedDisregard}, Skip: ${uncommittedSkip}    Pending: Unclassified: ${pendingUnclassified}, Disregard: ${pendingDisregard}`);
+      
+      processedCount++;
+      
       const answer = await this.promptUser('\nAction [(a)dd/(s)kip/(d)isregard/(q)uit]: ');
       
       if (answer === 'a' || answer === 'add') {

@@ -11532,41 +11532,6 @@
   ratings: 0
   reviews: 0
   installs: N/A
-- appId: com.cryptobasewallet.app
-  title: Cryptobase Wallet
-  developer: Cryptobase, LLC
-  summary: Privacy &amp; security in an easy to use crypto wallet. Buy &amp; sell bitcoin!
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.cryptobasewallet.app
-  searchTerm: bitcoin seed phrase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 22
-  disregard: false
-  fullDescription: Privacy &amp; security in an easy to use crypto wallet. Buy &amp; sell bitcoin!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: co.coinfinity.coinfinity.mobile
-  title: Coinfinity - Buy Bitcoin
-  developer: Coinfinity
-  summary: Buy, sell BTC and create savings plans, simply and securely - 24/7!
-  url: https://play.google.com/store/apps/details?id=co.coinfinity.coinfinity.mobile
-  searchTerm: bitcoin lightning
-  excludeTerms: []
-  platform: android
-  relevanceScore: 15
-  disregard: false
-  fullDescription: Buy, sell BTC and create savings plans, simply and securely - 24/7!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
 - appId: com.wind.ebox.wbtc
   title: Launch Bitcoin Mining
   developer: Granite Pyramid LLC
@@ -11580,7 +11545,7 @@
     - game
   platform: android
   relevanceScore: -55
-  disregard: false
+  disregard: true
   fullDescription: Mine BTC on your phone, no fancy gear needed
   userCount: 0
   minInstalls: 0
@@ -11605,23 +11570,6 @@
   ratings: 0
   reviews: 0
   installs: N/A
-- appId: xyz.notwallet.NotWallet
-  title: NotWallet Crypto Self-Custody
-  developer: Splitfire AB
-  summary: Non-Custodial · DeFi · Web3
-  url: https://play.google.com/store/apps/details?id=xyz.notwallet.NotWallet
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Non-Custodial · DeFi · Web3
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
 - appId: de.ontimetech.android.USD_BCH
   title: US Dollar / Bitcoin Cash Rate
   developer: 0nTimeTech
@@ -11633,7 +11581,7 @@
     - price
   platform: android
   relevanceScore: 16
-  disregard: false
+  disregard: true
   fullDescription: US Dollar / Bitcoin Cash exchange rate, including charts.
   userCount: 0
   minInstalls: 0
@@ -11653,77 +11601,8 @@
     - price
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin Wisdom - Charts &amp; Alerts
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.zapwallet.app
-  title: Zap Wallet - Send Crypto Fast
-  developer: Zap Technology
-  summary: Your All-in-One Cryptocurrency Wallet.
-  url: https://play.google.com/store/apps/details?id=com.zapwallet.app
-  searchTerm: taproot wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Your All-in-One Cryptocurrency Wallet.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.one80wallet
-  title: 'One80: Crypto DeFi Wallet'
-  developer: One80
-  summary: Multi-chain crypto wallet with Dapp browser.  Supports ETH, BTC, SOL &amp; more.
-  url: https://play.google.com/store/apps/details?id=com.one80wallet
-  searchTerm: defi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: Multi-chain crypto wallet with Dapp browser.  Supports ETH, BTC, SOL &amp; more.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: xyz.usbc.app
-  title: USBC Mobile Crypto Wallet
-  developer: Omnumi
-  summary: Your personal wallet to manage your funds, send money and more
-  score: 0
-  url: https://play.google.com/store/apps/details?id=xyz.usbc.app
-  searchTerm: cross chain wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Your personal wallet to manage your funds, send money and more
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.paribu.self
-  title: Paribu Self | Crypto Wallet
-  developer: PARİBU
-  summary: Self Custody Wallet
-  url: https://play.google.com/store/apps/details?id=com.paribu.self
-  searchTerm: self custody wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Self Custody Wallet
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11742,7 +11621,7 @@
     - game
   platform: android
   relevanceScore: -149
-  disregard: false
+  disregard: true
   fullDescription: A easiest way to experience BTC mining with our BTC mining simulation app.
   userCount: 0
   minInstalls: 0
@@ -11760,79 +11639,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Check the current Bitcoin (BTC) exchange prices and their change over time.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.brics
-  title: 'BRICS Pay Wallet: Crypto&DeFi'
-  developer: NB PAY FZCO
-  summary: Self-custody wallet for 600+ assets
-  url: https://play.google.com/store/apps/details?id=com.brics
-  searchTerm: binance
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Self-custody wallet for 600+ assets
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.swapspacecea
-  title: Crypto Exchange | Buy BTC, ETH
-  developer: SwapSpace — Crypto Exchange Aggregator
-  summary: Buy Sell crypto with credit/debit card · Crypto Swap · Cross-chain crypto swaps
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.swapspacecea
-  searchTerm: bitcoin send receive
-  excludeTerms: []
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: Buy Sell crypto with credit/debit card · Crypto Swap · Cross-chain crypto swaps
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: au.com.swyftx
-  title: 'Swyftx: Buy Bitcoin, ETH & SOL'
-  developer: Swyftx Pty Ltd
-  summary: DOGE, XRP Crypto Exchange
-  score: 0
-  url: https://play.google.com/store/apps/details?id=au.com.swyftx
-  searchTerm: bitcoin send receive
-  excludeTerms: []
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: DOGE, XRP Crypto Exchange
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.mirai.miraiex
-  title: Firi - Buy Bitcoin & Ethereum
-  developer: Firi
-  summary: Invest in cryptocurrencies on a nordic regulated cryptocurrency exchange.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.mirai.miraiex
-  searchTerm: bitcoin cold storage
-  excludeTerms: []
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: Invest in cryptocurrencies on a nordic regulated cryptocurrency exchange.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11848,7 +11656,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 8
-  disregard: false
+  disregard: true
   fullDescription: See your full node status
   userCount: 0
   minInstalls: 0
@@ -11866,85 +11674,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: BTD is a coin created to make users rich by achieving 500X10,000 = 5,000,000 at the same time as listing BTH, SBT, and BTD.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitcoinrd.BitcoinRD
-  title: BitcoinRD Exchange
-  developer: BitcoinRD
-  summary: Cryptocurrency Exchange
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.bitcoinrd.BitcoinRD
-  searchTerm: bitcoin cartera
-  excludeTerms: []
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: Cryptocurrency Exchange
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.exchange.allin
-  title: All InX：Exchange& Crypto BTC
-  developer: Allin Exchange
-  summary: 'All InX: Global crypto platform with RWA, derivatives &amp; smart asset management.'
-  url: https://play.google.com/store/apps/details?id=com.exchange.allin
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: 'All InX: Global crypto platform with RWA, derivatives &amp; smart asset management.'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.ex5.exchange
-  title: EX5 Crypto Exchange | BTC
-  developer: EX5
-  summary: Crypto Life EX5 Style
-  url: https://play.google.com/store/apps/details?id=com.ex5.exchange
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: Crypto Life EX5 Style
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.app.jc
-  title: 'Ju.com : Buy BTC, DeFi & Web3'
-  developer: RONKB
-  summary: The Inclusive Gateway to Bitcoin, Blockchain, and the Web3 Revolution
-  score: 3.5789473
-  url: https://play.google.com/store/apps/details?id=com.app.jc
-  searchTerm: buy bitcoin
-  excludeTerms:
-    - guide
-    - how to
-    - tutorial
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: The Inclusive Gateway to Bitcoin, Blockchain, and the Web3 Revolution
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11960,7 +11691,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: Dive into the fusion of ancient strategy and modern crypto chaos!
   userCount: 0
   minInstalls: 0
@@ -11978,26 +11709,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -96
-  disregard: false
+  disregard: true
   fullDescription: Easily mine Bitcoin anytime, anywhere.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.volt.qrlmobile
-  title: QRL Mobile Wallet
-  developer: Volt Development
-  summary: Send, store, receive crypto with ease. Your mobile QRL wallet solution
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.volt.qrlmobile
-  searchTerm: secure wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Send, store, receive crypto with ease. Your mobile QRL wallet solution
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -12016,7 +11729,7 @@
     - game
   platform: android
   relevanceScore: -71
-  disregard: false
+  disregard: true
   fullDescription: Simulate Bitcoin mining &amp; earn rewards daily in this crypto cloud miner.
   userCount: 0
   minInstalls: 0
@@ -12036,7 +11749,7 @@
     - game
   platform: android
   relevanceScore: -129
-  disregard: false
+  disregard: true
   fullDescription: Start cloud mining easily with secure servers and real-time stats.
   userCount: 0
   minInstalls: 0
@@ -12056,7 +11769,7 @@
     - game
   platform: android
   relevanceScore: -44
-  disregard: false
+  disregard: true
   fullDescription: Calculate monthly earnings for Rollercoin and Limercoin mining rewards.
   userCount: 0
   minInstalls: 0
@@ -12073,247 +11786,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -202
-  disregard: false
+  disregard: true
   fullDescription: Free Bitcoin cloud miner! Simulate mining, upgrade rigs &amp; earn virtual BTC
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.greencryptox.exchange
-  title: 'GreenCryptoX: Buy BTC & Crypto'
-  developer: AOWS Business Services Pvt Ltd
-  summary: Discover a world of digital possibilities with GreenCryptoX Exchange.
-  url: https://play.google.com/store/apps/details?id=com.greencryptox.exchange
-  searchTerm: greenaddress
-  excludeTerms: []
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: Discover a world of digital possibilities with GreenCryptoX Exchange.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.metacoino.app
-  title: 'Coinoverse: Buy Bitcoin & ETH'
-  developer: Coinoverse Team
-  summary: Join the Crypto Revolution with Coinoverse!
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.metacoino.app
-  searchTerm: coinbase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 11
-  disregard: false
-  fullDescription: Join the Crypto Revolution with Coinoverse!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: tech.vkode.kryto
-  title: 'Kryto: Buy BTC, ETH & Crypto'
-  developer: VKode
-  summary: 'Kryto: The secure and easy way to buy, sell, and manage your crypto assets.'
-  score: 0
-  url: https://play.google.com/store/apps/details?id=tech.vkode.kryto
-  searchTerm: coinbase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 11
-  disregard: false
-  fullDescription: 'Kryto: The secure and easy way to buy, sell, and manage your crypto assets.'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: org.bitcoinindia.Btciapp
-  title: BITCOIN INDIA
-  developer: BITCOIN INDIA
-  summary: Securely mine DOGE, buy, sell and manage over 100+ cryptocurrencies with ease.
-  url: https://play.google.com/work/apps/details?id=org.bitcoinindia.Btciapp
-  searchTerm: bitcoin india
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: -4
-  disregard: false
-  fullDescription: Securely mine DOGE, buy, sell and manage over 100+ cryptocurrencies with ease.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.pi42.app
-  title: Pi42:Trade Bitcoin INR Futures
-  developer: Pi42 Exchange
-  summary: India's 1st INR-Margined Crypto Futures Trading Platform.
-  url: https://play.google.com/store/apps/details?id=com.pi42.app
-  searchTerm: bitcoin india
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 13
-  disregard: false
-  fullDescription: India's 1st INR-Margined Crypto Futures Trading Platform.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.angel.wallet
-  title: Angel Wallet
-  developer: Eternal EXchange
-  summary: Angel Wallet – Securely send, receive, and manage your crypto assets anytime.
-  url: https://play.google.com/store/apps/details?id=com.angel.wallet
-  searchTerm: schnorr wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Angel Wallet – Securely send, receive, and manage your crypto assets anytime.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: app.moscan.appwallet
-  title: Crypto Wallet - MoWallet
-  developer: Crypto Europe LTD
-  summary: MoWallet is a DeFi Crypto Wallet, easy to access several blockchains in one app.
-  url: https://play.google.com/store/apps/details?id=app.moscan.appwallet
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: MoWallet is a DeFi Crypto Wallet, easy to access several blockchains in one app.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.applemoncash
-  title: 'Lemon Cash: tu wallet crypto'
-  developer: Lemon Cash Inc
-  summary: Lemon Cash is a virtual wallet that connects you to the new crypto economy.
-  score: 4.0526314
-  url: https://play.google.com/store/apps/details?id=com.applemoncash
-  searchTerm: bitcoin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: Lemon Cash is a virtual wallet that connects you to the new crypto economy.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.haqabi.mobilewallet
-  title: 'Haqabi: Crypto Wallet'
-  developer: Haqqex Ltd
-  summary: A non-custodial Crypto Wallet, offering Sharia-compliant crypto management
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.haqabi.mobilewallet
-  searchTerm: btc wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: A non-custodial Crypto Wallet, offering Sharia-compliant crypto management
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.oppi.wallet
-  title: 'Oppi Wallet : Crypto Card/Pay'
-  developer: Encoin Limited
-  summary: Use Crypto Card with Virtual VISA Card, Hotel &amp; Travel Bookings in Oppi Wallet.
-  score: 4.5555553
-  url: https://play.google.com/store/apps/details?id=com.oppi.wallet
-  searchTerm: btc wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: Use Crypto Card with Virtual VISA Card, Hotel &amp; Travel Bookings in Oppi Wallet.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.si14
-  title: Si14 Crypto Wallet
-  developer: Si14 Bank
-  summary: 'Si14 — a zero-commission crypto wallet: fees are paid in USDt'
-  url: https://play.google.com/store/apps/details?id=com.si14
-  searchTerm: crypto wallet
-  excludeTerms:
-    - portfolio
-    - tracker
-    - news
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: 'Si14 — a zero-commission crypto wallet: fees are paid in USDt'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.ribbitnova.ribbit
-  title: 'Ribbit: Crypto Wallet'
-  developer: Ribbit Nova
-  summary: A multi-chain wallet that makes crypto secure, and usable in daily life.
-  url: https://play.google.com/store/apps/details?id=com.ribbitnova.ribbit
-  searchTerm: crypto wallet
-  excludeTerms:
-    - portfolio
-    - tracker
-    - news
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: A multi-chain wallet that makes crypto secure, and usable in daily life.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.tenet.eva
-  title: Eva Crypto Wallet
-  developer: NETTE TECHNOLOGIES
-  summary: Crypto wallet that removes the real pain points to adoption
-  url: https://play.google.com/store/apps/details?id=com.tenet.eva
-  searchTerm: crypto wallet
-  excludeTerms:
-    - portfolio
-    - tracker
-    - news
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: Crypto wallet that removes the real pain points to adoption
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
