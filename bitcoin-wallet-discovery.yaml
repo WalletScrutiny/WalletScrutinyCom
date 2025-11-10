@@ -10728,25 +10728,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 29
-  disregard: false
+  disregard: true
   fullDescription: Real-time BTC•USDT M5 Signals for precise and profitable Bitcoin Day Trading
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.yourwallet.wallet
-  title: Your Wallet  Bitcoin Trading
-  developer: Your Wallet LTD
-  summary: Secure,non custodial Web3 wallet to store,send,receive and swap crypto instantly
-  url: https://play.google.com/store/apps/details?id=com.yourwallet.wallet
-  searchTerm: satoshi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 32
-  disregard: false
-  fullDescription: Secure,non custodial Web3 wallet to store,send,receive and swap crypto instantly
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -10765,60 +10748,8 @@
     - game
   platform: android
   relevanceScore: -195
-  disregard: false
+  disregard: true
   fullDescription: Start earning Bitcoin today with secure cloud mining! Start cloud mining now!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.paywithflash.flash_wallet.beta
-  title: 'Flash: Bitcoin Wallet (Beta)'
-  developer: Flash Lightning Solutions
-  summary: Flash Wallet is the easiest way to accept Bitcoin and get paid instantly.
-  url: https://play.google.com/store/apps/details?id=com.paywithflash.flash_wallet.beta
-  searchTerm: bitcoin lightning
-  excludeTerms: []
-  platform: android
-  relevanceScore: 30
-  disregard: false
-  fullDescription: Flash Wallet is the easiest way to accept Bitcoin and get paid instantly.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.paywithflash.flash_wallet
-  title: 'Flash: Bitcoin Wallet'
-  developer: Flash Lightning Solutions
-  summary: Flash Wallet is the easiest way to accept Bitcoin and get paid instantly.
-  url: https://play.google.com/store/apps/details?id=com.paywithflash.flash_wallet
-  searchTerm: bitcoin lightning
-  excludeTerms: []
-  platform: android
-  relevanceScore: 30
-  disregard: false
-  fullDescription: Flash Wallet is the easiest way to accept Bitcoin and get paid instantly.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: org.budgetcoinz.app
-  title: BudgetCoinz Bitcoin Wallet
-  developer: BudgetCoinz
-  summary: Manage Bitcoin, Ethereum, Litecoin, Dogecoin, +250 cryptocurrencies securely.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=org.budgetcoinz.app
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 30
-  disregard: false
-  fullDescription: Manage Bitcoin, Ethereum, Litecoin, Dogecoin, +250 cryptocurrencies securely.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -10836,42 +10767,8 @@
     - price
   platform: android
   relevanceScore: 30
-  disregard: false
+  disregard: true
   fullDescription: A beautiful wallet for everything Bitcoin Cash.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.coinrabbit
-  title: CoinRabbit BTC & Crypto Wallet
-  developer: CoinRabbit
-  summary: Store, trade, profit, prosper. Bitcoin &amp; 300+ assets in one crypto wallet app!
-  url: https://play.google.com/store/apps/details?id=com.coinrabbit
-  searchTerm: taproot wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 30
-  disregard: false
-  fullDescription: Store, trade, profit, prosper. Bitcoin &amp; 300+ assets in one crypto wallet app!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: es.gbtcfinance.app
-  title: GBTC Finance - Compra Bitcoin
-  developer: GBTC FINANCE
-  summary: Where Buying Bitcoin and Cryptocurrencies is Easy, Fast and Safe.
-  url: https://play.google.com/store/apps/details?id=es.gbtcfinance.app
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 23
-  disregard: false
-  fullDescription: Where Buying Bitcoin and Cryptocurrencies is Easy, Fast and Safe.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -10890,113 +10787,8 @@
     - price
   platform: android
   relevanceScore: 1
-  disregard: false
+  disregard: true
   fullDescription: Learn Crypto &amp; Bitcoin Tips, How To Trade Bitcoin, How To Earn Crypto &amp; Ethereum
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitdance.bitpocket.google
-  title: BitPocket - BTC/LN Wallet
-  developer: Bitdance
-  summary: BitPocket—A Fully Decentralized, Non-Custodial  "Bitcoin Pocket".
-  url: https://play.google.com/store/apps/details?id=com.bitdance.bitpocket.google
-  searchTerm: bitcoin seed phrase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 27
-  disregard: false
-  fullDescription: BitPocket—A Fully Decentralized, Non-Custodial  "Bitcoin Pocket".
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: org.c2bwallet.app
-  title: Cash2Bitcoin Wallet
-  developer: Cash2Bitcoin
-  summary: Mobile app that bridges the gap between traditional cash and the crypto world.
-  url: https://play.google.com/store/apps/details?id=org.c2bwallet.app
-  searchTerm: bitcoin cash
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 24
-  disregard: false
-  fullDescription: Mobile app that bridges the gap between traditional cash and the crypto world.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: by.bitcash.wallet
-  title: Bitcash Сrypto Bitcoin Wallet
-  developer: LLC BITCASH
-  summary: Сryptocurrency storage and exchange service
-  url: https://play.google.com/store/apps/details?id=by.bitcash.wallet
-  searchTerm: bitcoin кошелек
-  excludeTerms: []
-  platform: android
-  relevanceScore: 26
-  disregard: false
-  fullDescription: Сryptocurrency storage and exchange service
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: app.wallby.bmeta
-  title: 'Wallby: BTC, NFT & DeFi wallet'
-  developer: Bcademy
-  summary: Wallby is your wallet and superapp for Bitcoin, Liquid Network and Rootstock.
-  url: https://play.google.com/store/apps/details?id=app.wallby.bmeta
-  searchTerm: defi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 27
-  disregard: false
-  fullDescription: Wallby is your wallet and superapp for Bitcoin, Liquid Network and Rootstock.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: io.quidax.app
-  title: Quidax -  Buy Bitcoin & Crypto
-  developer: Quidax Technologies
-  summary: Buy and sell Bitcoin, ETH, Tether (USDT), SOL, XRP, QDX &amp; other Cryptocurrencies
-  score: 4
-  url: https://play.google.com/store/apps/details?id=io.quidax.app
-  searchTerm: bitcoin send receive
-  excludeTerms: []
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: Buy and sell Bitcoin, ETH, Tether (USDT), SOL, XRP, QDX &amp; other Cryptocurrencies
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: cz.confirmo.app.pos
-  title: Bitcoin Lightning POS
-  developer: Confirmo
-  summary: Accept Bitcoin instantly &amp; for free. Turn your phone into a Lightning terminal.
-  url: https://play.google.com/work/apps/details?id=cz.confirmo.app.pos
-  searchTerm: bitcoin lightning
-  excludeTerms: []
-  platform: android
-  relevanceScore: 21
-  disregard: false
-  fullDescription: Accept Bitcoin instantly &amp; for free. Turn your phone into a Lightning terminal.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11013,28 +10805,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -93
-  disregard: false
+  disregard: true
   fullDescription: Effortless Bitcoin mining in the cloud — no hardware, no hassle. Start earning
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitcoinup.bitcoinup
-  title: Bitcoin Up
-  developer: FxCryptoSoft
-  summary: Trade the upside of the Bitcoin with Bitcoin UP.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.bitcoinup.bitcoinup
-  searchTerm: bitcoin sv
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 23
-  disregard: false
-  fullDescription: Trade the upside of the Bitcoin with Bitcoin UP.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11050,45 +10822,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -2
-  disregard: false
+  disregard: true
   fullDescription: Widgets to display the Bitcoin timechain and Lightning Network statistics
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: swiss.dfx.bitcoin
-  title: DFX BTC Taro Wallet
-  developer: DFX AG
-  summary: Use BTC with your own Self Custodial Wallet and with an LND Hub of your choice.
-  url: https://play.google.com/store/apps/details?id=swiss.dfx.bitcoin
-  searchTerm: taproot wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 25
-  disregard: false
-  fullDescription: Use BTC with your own Self Custodial Wallet and with an LND Hub of your choice.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.cextor.pro
-  title: Cextor - Buy Bitcoin & Crypto
-  developer: CEXTOR
-  summary: Buy and Sell Bitcoin, Ethereum &amp; Altcoins  on the Most User-Friendly Crypto App.
-  score: 4.6
-  url: https://play.google.com/store/apps/details?id=com.cextor.pro
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: Buy and Sell Bitcoin, Ethereum &amp; Altcoins  on the Most User-Friendly Crypto App.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11107,7 +10842,7 @@
     - game
   platform: android
   relevanceScore: -145
-  disregard: false
+  disregard: true
   fullDescription: 🚀 Start Bitcoin mining instantly 💰 Earn crypto rewards every day!
   userCount: 0
   minInstalls: 0
@@ -11128,7 +10863,7 @@
     - game
   platform: android
   relevanceScore: -75
-  disregard: false
+  disregard: true
   fullDescription: Effortlessly Earn Bitcoin and Passive Income with Our Cloud Mining App.
   userCount: 0
   minInstalls: 0
@@ -11149,7 +10884,7 @@
     - game
   platform: android
   relevanceScore: -145
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin Mining in a cloud, easy and fast
   userCount: 0
   minInstalls: 0
@@ -11170,25 +10905,8 @@
     - game
   platform: android
   relevanceScore: -50
-  disregard: false
+  disregard: true
   fullDescription: Mine virtual Bitcoin, earn crypto rewards, and simulate real blockchain mining.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: nl.bitonic.androidApp
-  title: 'Bitonic: buy & store bitcoin'
-  developer: Bitonic
-  summary: Buy, sell and store bitcoin with the bitcoin-only app by Bitonic
-  url: https://play.google.com/store/apps/details?id=nl.bitonic.androidApp
-  searchTerm: bitcoin invoice
-  excludeTerms: []
-  platform: android
-  relevanceScore: 23
-  disregard: false
-  fullDescription: Buy, sell and store bitcoin with the bitcoin-only app by Bitonic
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11205,62 +10923,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 20
-  disregard: false
+  disregard: true
   fullDescription: Premium Bitcoin signals &amp; crypto signals, AI-backed for profitable investment!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitcoinerasia
-  title: Bitcoiner Asia
-  developer: FIRD0US & FREED0M.1
-  summary: Bitcoiner Asia is social ecosystem that utilize the Bitcoin cryptocurrency
-  url: https://play.google.com/work/apps/details?id=com.bitcoinerasia
-  searchTerm: bitcoin asia
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 23
-  disregard: false
-  fullDescription: Bitcoiner Asia is social ecosystem that utilize the Bitcoin cryptocurrency
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.mobile.bitcoinaddition
-  title: Bitcoin Additional
-  developer: Quan2um
-  summary: BITCOIN ADDITIONAL is a convenient and functional mobile cryptocurrency wallet
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.mobile.bitcoinaddition
-  searchTerm: bitcoin seed phrase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: BITCOIN ADDITIONAL is a convenient and functional mobile cryptocurrency wallet
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: me.smashfi.appclient
-  title: 'SmashFi: Bitcoin Self-Custody'
-  developer: SmashFi
-  summary: 'SmashFi: Effortless Bitcoin Accumulation &amp; Secure Self-Custody'
-  url: https://play.google.com/store/apps/details?id=me.smashfi.appclient
-  searchTerm: bitcoin seed phrase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: 'SmashFi: Effortless Bitcoin Accumulation &amp; Secure Self-Custody'
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11276,7 +10940,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: -130
-  disregard: false
+  disregard: true
   fullDescription: Tap, mine, and track real BTC earnings with zero hardware setup.
   userCount: 0
   minInstalls: 0
@@ -11293,7 +10957,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: -147
-  disregard: false
+  disregard: true
   fullDescription: Simulate crypto mining, earn rewards, and boost your virtual BTC balance.
   userCount: 0
   minInstalls: 0
@@ -11313,45 +10977,8 @@
     - price
   platform: android
   relevanceScore: -4
-  disregard: false
+  disregard: true
   fullDescription: 'Earn Bitcoin &amp; Ethereum: walking and gamin for for BTC/ETH/MATIC/USDT/USDC'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.oslmobile.global
-  title: 'OSL: Buy Bitcoin & Crypto'
-  developer: BC Technology (HK) Limited
-  summary: OSL – Secure Crypto Trading | BTC, USDT, USDC &amp; More
-  url: https://play.google.com/store/apps/details?id=com.oslmobile.global
-  searchTerm: buy bitcoin
-  excludeTerms:
-    - guide
-    - how to
-    - tutorial
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: OSL – Secure Crypto Trading | BTC, USDT, USDC &amp; More
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: united.network
-  title: United Network Crypto Wallet
-  developer: Trend IT Services LLC
-  summary: 'Secure multi-chain wallet. NFC card: send, receive, swap; private keys on card'
-  url: https://play.google.com/store/apps/details?id=united.network
-  searchTerm: self custody wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 25
-  disregard: false
-  fullDescription: 'Secure multi-chain wallet. NFC card: send, receive, swap; private keys on card'
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11369,96 +10996,8 @@
     - price
   platform: android
   relevanceScore: -34
-  disregard: false
+  disregard: true
   fullDescription: 💎 Bitcoin X – Powerful mining app for instant BTC earning.⛏️
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.afridax.exchange
-  title: 'AFRIDAX: Buy Bitcoin & Crypto'
-  developer: ExoGroup
-  summary: Crypto Exchange &amp; Wallet
-  url: https://play.google.com/work/apps/details?id=com.afridax.exchange
-  searchTerm: bitcoin africa
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 19
-  disregard: false
-  fullDescription: Crypto Exchange &amp; Wallet
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.solidex.watchain
-  title: Bitcoin Code
-  developer: ToryPasDev
-  summary: Track Bitcoin &amp; Ethereum wallets with real-time balances and transaction history
-  url: https://play.google.com/store/apps/details?id=com.solidex.watchain
-  searchTerm: bech32 wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 20
-  disregard: false
-  fullDescription: Track Bitcoin &amp; Ethereum wallets with real-time balances and transaction history
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: nz.lightningpay.wallet
-  title: Lightning Pay Wallet (BETA)
-  developer: Ones and Zeros Technology
-  summary: The easiest way to Stack, Save, Send and Spend Bitcoin in NZ
-  url: https://play.google.com/store/apps/details?id=nz.lightningpay.wallet
-  searchTerm: bitcoin lightning
-  excludeTerms: []
-  platform: android
-  relevanceScore: 26
-  disregard: false
-  fullDescription: The easiest way to Stack, Save, Send and Spend Bitcoin in NZ
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.cregis
-  title: Cregis:BTC, ETH Wallet & Pay
-  developer: Cregis
-  summary: Digital Asset Business Suite
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.cregis
-  searchTerm: self custody wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 21
-  disregard: false
-  fullDescription: Digital Asset Business Suite
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitdenex
-  title: 'Bitdenex: Buy Bitcoin & Crypto'
-  developer: Bitdenex
-  summary: Buy and Sell crypto in minutes
-  url: https://play.google.com/store/apps/details?id=com.bitdenex
-  searchTerm: bitcoin send receive
-  excludeTerms: []
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: Buy and Sell crypto in minutes
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11475,7 +11014,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin shops and ATMs around the world
   userCount: 0
   minInstalls: 0
@@ -11493,7 +11032,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: A simple application for consulting the bitcoin blockchain!
   userCount: 0
   minInstalls: 0
@@ -11510,7 +11049,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Self-custodial, secure and private bitcoin domains
   userCount: 0
   minInstalls: 0
@@ -11527,7 +11066,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: Easy UPI Deposit | Bloomberg-licensed Crypto Index Product | Proof-of-Reserves
   userCount: 0
   minInstalls: 0
@@ -11545,7 +11084,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 2
-  disregard: false
+  disregard: true
   fullDescription: 'Master Bitcoin: Learn Crypto Basics, Blockchain, Mining &amp; More!'
   userCount: 0
   minInstalls: 0
