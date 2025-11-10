@@ -11,7 +11,7 @@ released: 2018-10-06
 updated: 2025-11-05
 version: 3.5.4
 stars: 4.6
-reviews: 46913
+reviews: 47045
 website: https://www.binance.com
 repository: 
 issue: 

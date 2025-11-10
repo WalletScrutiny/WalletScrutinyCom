@@ -11,7 +11,7 @@ released: 2021-10-02
 updated: 2025-11-03
 version: 8.4.8
 stars: 3.9
-reviews: 1929
+reviews: 1928
 website: 
 repository: 
 issue: 

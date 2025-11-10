@@ -8,10 +8,10 @@ appId: com.litefinance.cabinet
 appCountry: 
 released: 2022-02-09
 updated: 2025-10-28
-version: v2.1.2017-cabinet-release
+version: v2.1.2019-cabinet-release
 stars: 4.4
 ratings: 
-reviews: 67
+reviews: 68
 website: https://www.liteforex.eu
 repository: 
 issue: 

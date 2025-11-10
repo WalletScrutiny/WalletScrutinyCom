@@ -8,11 +8,11 @@ users: 100000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09
-updated: 2025-10-16
-version: 25.10.2
-stars: 4.3
+updated: 2025-11-05
+version: 25.10.4
+stars: 4.7
 ratings: 
-reviews: 95
+reviews: 98
 website: https://trezor.io
 repository: 
 issue: 

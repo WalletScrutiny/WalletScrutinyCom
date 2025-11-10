@@ -10,8 +10,8 @@ idd: '1084288470'
 released: 2020-04-19
 updated: 2025-11-04
 version: 11.5.0
-stars: 4
-reviews: 4
+stars: 4.2
+reviews: 5
 website: http://emoney.ge
 repository: 
 issue: 

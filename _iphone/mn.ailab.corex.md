@@ -8,8 +8,8 @@ appId: mn.ailab.corex
 appCountry: mn
 idd: '1600049260'
 released: 2021-12-20
-updated: 2025-01-31
-version: 2.0.67
+updated: 2025-11-10
+version: 2.0.68
 stars: 4.7
 reviews: 9
 website: https://www.corexchain.io/?page_id=1479&lang=en

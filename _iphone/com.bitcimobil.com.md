@@ -11,7 +11,7 @@ released: 2019-04-17
 updated: 2025-10-10
 version: 21.0.12
 stars: 3.9
-reviews: 1387
+reviews: 1386
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

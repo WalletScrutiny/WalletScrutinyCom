@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-09-02
 discontinued: 
-updated: 2025-10-03
-version: 2.3.0
+updated: 2025-11-06
+version: 2.3.1
 binaries: 
 provider: Craig Raw
 providerWebsite: 

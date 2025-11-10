@@ -8,8 +8,8 @@ appId: com.gleecard.ios
 appCountry: ph
 idd: '1532231032'
 released: 2021-02-21
-updated: 2025-10-13
-version: '26.0'
+updated: 2025-11-05
+version: '27.2'
 stars: 1
 reviews: 1
 website: https://gleec.com/

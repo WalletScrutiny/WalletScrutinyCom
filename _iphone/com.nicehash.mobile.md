@@ -11,7 +11,7 @@ released: 2020-04-29
 updated: 2025-10-19
 version: 6.2.7
 stars: 4.5
-reviews: 4439
+reviews: 4442
 website: https://www.nicehash.com/
 repository: 
 issue: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: capital.novum.cryptohero.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-11-12
+date: 2025-11-10
 signer: 
 twitter: 
 social: 

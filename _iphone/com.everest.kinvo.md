@@ -11,7 +11,7 @@ released: 2018-01-03
 updated: 2025-10-23
 version: 3.57.0
 stars: 4.6
-reviews: 18933
+reviews: 18936
 website: http://www.kinvo.com.br
 repository: 
 issue: 

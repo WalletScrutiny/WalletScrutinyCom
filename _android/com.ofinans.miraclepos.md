@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-09-08
+date: 2025-11-10
 signer: 
 twitter: 
 social: 

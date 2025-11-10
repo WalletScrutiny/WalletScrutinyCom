@@ -11,7 +11,7 @@ released: 2023-12-05
 updated: 2025-10-29
 version: 1.15.1
 stars: 4.7
-reviews: 184
+reviews: 185
 website: https://alicebob.com/
 repository: 
 issue: 

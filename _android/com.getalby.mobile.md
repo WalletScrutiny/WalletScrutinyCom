@@ -8,8 +8,8 @@ users: 5000
 appId: com.getalby.mobile
 appCountry: 
 released: 2024-09-16
-updated: 2025-11-01
-version: 1.15.0
+updated: 2025-11-06
+version: 1.15.1
 stars: 4.4
 ratings: 
 reviews: 14

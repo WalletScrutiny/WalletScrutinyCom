@@ -11,7 +11,7 @@ released: 2022-03-04
 updated: 2025-11-05
 version: 4.4.21
 stars: 4.6
-reviews: 1432
+reviews: 1449
 website: https://www.weex.com
 repository: 
 issue: 

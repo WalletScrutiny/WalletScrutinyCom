@@ -12,7 +12,7 @@ updated: 2025-09-29
 version: v0.2.46(2464)
 stars: 4.1
 ratings: 
-reviews: 14
+reviews: 15
 website: https://unisat.io/
 repository: 
 issue: 

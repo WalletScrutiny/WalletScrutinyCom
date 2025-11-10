@@ -20,10 +20,10 @@ repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2025-01-22
+date: 2025-11-10
 signer: 
 twitter: Trustee_Wallet
 social:

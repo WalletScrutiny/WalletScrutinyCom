@@ -12,7 +12,7 @@ updated: 2025-11-04
 version: 3.8.5
 stars: 4.7
 ratings: 
-reviews: 424
+reviews: 426
 website: https://www.bydfi.com/
 repository: 
 issue: 

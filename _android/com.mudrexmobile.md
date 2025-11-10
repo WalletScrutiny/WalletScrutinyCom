@@ -1,6 +1,6 @@
 ---
 wsId: mudrex
-title: 'Mudrex: Buy Bitcoin & Crypto'
+title: 'Mudrex : Bitcoin & Crypto App'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.mudrexmobile
 appCountry: 
 released: 
-updated: 2025-11-04
-version: '12.73'
+updated: 2025-11-09
+version: '12.74'
 stars: 3.3
 ratings: 
 reviews: 4

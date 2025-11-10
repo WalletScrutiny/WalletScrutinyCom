@@ -11,7 +11,7 @@ released: 2015-09-29
 updated: 2025-11-03
 version: 2.118.1
 stars: 4.6
-reviews: 223822
+reviews: 223930
 website: https://www.maya.ph/
 repository: 
 issue: 

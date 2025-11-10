@@ -10,8 +10,8 @@ idd: '6498628503'
 released: 2024-08-30
 updated: 2025-10-20
 version: 0.2.22
-stars: 4.4
-reviews: 18
+stars: 4.5
+reviews: 21
 website: https://unisat.io
 repository: 
 issue: 

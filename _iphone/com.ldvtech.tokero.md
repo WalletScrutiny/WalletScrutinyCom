@@ -11,7 +11,7 @@ released: 2021-06-04
 updated: 2025-04-22
 version: '4.5'
 stars: 4.3
-reviews: 23
+reviews: 24
 website: https://tokero.com
 repository: 
 issue: 

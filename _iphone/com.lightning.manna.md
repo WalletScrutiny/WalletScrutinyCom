@@ -11,7 +11,7 @@ released: 2025-05-16
 updated: 2025-10-17
 version: 1.1.5
 stars: 5
-reviews: 3
+reviews: 5
 website: https://mannabitcoin.com
 repository: 
 issue: 

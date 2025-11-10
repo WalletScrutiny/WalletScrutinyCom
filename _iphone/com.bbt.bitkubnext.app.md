@@ -11,7 +11,7 @@ released: 2022-12-07
 updated: 2025-11-04
 version: 2.17.1
 stars: 4.8
-reviews: 265
+reviews: 266
 website: https://www.bitkubchain.com
 repository: 
 issue: 

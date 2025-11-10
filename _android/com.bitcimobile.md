@@ -9,7 +9,7 @@ appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
 updated: 2025-10-09
-version: 21.0.11
+version: 21.0.12
 stars: 2.3
 ratings: 
 reviews: 14

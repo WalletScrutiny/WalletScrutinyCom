@@ -8,8 +8,8 @@ appId: com.capital.trading
 appCountry: jp
 idd: 1230088754
 released: 2019-12-10
-updated: 2025-11-03
-version: 3.11.1
+updated: 2025-11-06
+version: 3.12.0
 stars: 4.5
 reviews: 311
 website: https://capital.com/

@@ -12,7 +12,7 @@ updated: 2025-09-19
 version: 1.7.3
 stars: 4.2
 ratings: 
-reviews: 55
+reviews: 56
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet
 issue: https://github.com/Ironwallet/IronWallet/issues/1

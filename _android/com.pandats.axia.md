@@ -12,7 +12,7 @@ updated: 2025-10-20
 version: 3.4.2
 stars: 4.7
 ratings: 744
-reviews: 6
+reviews: 7
 website: https://axiainvestments.com/
 repository: 
 issue: 

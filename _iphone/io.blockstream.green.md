@@ -11,7 +11,7 @@ released: 2019-03-22
 updated: 2025-10-16
 version: 5.1.1
 stars: 4.7
-reviews: 1017
+reviews: 1019
 website: https://blockstream.com/app
 repository: https://github.com/Blockstream/green_ios
 issue: 
