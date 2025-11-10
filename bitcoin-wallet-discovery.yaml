@@ -11092,24 +11092,6 @@
   ratings: 0
   reviews: 0
   installs: N/A
-- appId: app.easybitcoin
-  title: easyBitcoin
-  developer: Uphold HQ Inc.
-  summary: Invest in bitcoin the easy way
-  score: 3.6538463
-  url: https://play.google.com/store/apps/details?id=app.easybitcoin
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: Invest in bitcoin the easy way
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
 - appId: com.janubio.bitcointools
   title: Bitcoin Tools
   developer: janubio.com
@@ -11119,7 +11101,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: App that shows data from the Bitcoin blockchain mainly
   userCount: 0
   minInstalls: 0
@@ -11137,7 +11119,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: -68
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin miner in a cloud
   userCount: 0
   minInstalls: 0
@@ -11154,25 +11136,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Currency converter (Bitcoin x Malaysian Ringgit) allowing rate edition.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.rewindbitcoin.app
-  title: Rewind Bitcoin
-  developer: La Bolsa Virtual SL
-  summary: Protect your Bitcoin from theft &amp; extortion with vaults and instant recovery
-  url: https://play.google.com/store/apps/details?id=com.rewindbitcoin.app
-  searchTerm: bitcoin multisig
-  excludeTerms: []
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: Protect your Bitcoin from theft &amp; extortion with vaults and instant recovery
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11188,45 +11153,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -33
-  disregard: false
+  disregard: true
   fullDescription: Earn Bitcoin (digital currency) the easy way, every minute
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.satoshiwallet
-  title: Satoshi Wallet
-  developer: Bitcoin Developer
-  summary: 'Secure Bitcoin Wallet: import, send, receive, and manage your fees!'
-  url: https://play.google.com/work/apps/details?id=com.satoshiwallet
-  searchTerm: satoshi wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 25
-  disregard: false
-  fullDescription: 'Secure Bitcoin Wallet: import, send, receive, and manage your fees!'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.cashbitcoin.android
-  title: Cash 2 Bitcoin
-  developer: bizdetail
-  summary: The easy way to buy Bitcoin in person.
-  score: 3.1111112
-  url: https://play.google.com/store/apps/details?id=com.cashbitcoin.android
-  searchTerm: bitcoin cash
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: The easy way to buy Bitcoin in person.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11245,7 +11173,7 @@
     - price
   platform: android
   relevanceScore: 2
-  disregard: false
+  disregard: true
   fullDescription: Merge &amp; mine, defeat zombies, and cash out points for real Bitcoin!
   userCount: 0
   minInstalls: 0
@@ -11265,7 +11193,7 @@
     - price
   platform: android
   relevanceScore: 14
-  disregard: false
+  disregard: true
   fullDescription: Now get your pocket money by completing simple task.
   userCount: 0
   minInstalls: 0
@@ -11285,7 +11213,7 @@
     - price
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Easily Scan your Bitcoin, Ethereum, Dogecoin, Litecoin and more
   userCount: 0
   minInstalls: 0
@@ -11303,101 +11231,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Twitter client where you get paid in Bitcoin for using Twitter!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bybit.eu
-  title: 'Bybit.eu: Buy Bitcoin & Crypto'
-  developer: Bybit EU GmbH
-  summary: Trusted Crypto Platform
-  url: https://play.google.com/store/apps/details?id=com.bybit.eu
-  searchTerm: bitcoin cartera
-  excludeTerms: []
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: Trusted Crypto Platform
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.bitcointry.com
-  title: 'Bitcointry: Buy & Sell Crypto'
-  developer: Devcode Technology Ltd
-  summary: Are you ready to join the cryptocurrency trading revolution where DEX and CEX?
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.bitcointry.com
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 16
-  disregard: false
-  fullDescription: Are you ready to join the cryptocurrency trading revolution where DEX and CEX?
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.unionex.exchange
-  title: 'UnionEx: Buy Bitcoin & Crypto'
-  developer: UnionEx
-  summary: Trade smarter. Wherever you are.
-  url: https://play.google.com/store/apps/details?id=com.unionex.exchange
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 14
-  disregard: false
-  fullDescription: Trade smarter. Wherever you are.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.cheezeebit.exchange
-  title: 'zBit.com: Buy Bitcoin & ETH'
-  developer: Cheezeebit Global Limited
-  summary: Buy, sell &amp; trade Bitcoin, Ethereum, USDT and more with a secure
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.cheezeebit.exchange
-  searchTerm: crypto exchange
-  excludeTerms:
-    - news
-    - tracker
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: Buy, sell &amp; trade Bitcoin, Ethereum, USDT and more with a secure
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.application.koinparkwallet
-  title: 'Koinpark Wallet : Store Crypto'
-  developer: Koinpark Private Limited
-  summary: Secure web3 wallet to send and receive cryptocurrencies
-  url: https://play.google.com/store/apps/details?id=com.application.koinparkwallet
-  searchTerm: multi coin wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 22
-  disregard: false
-  fullDescription: Secure web3 wallet to send and receive cryptocurrencies
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11416,7 +11251,7 @@
     - game
   platform: android
   relevanceScore: -63
-  disregard: false
+  disregard: true
   fullDescription: Easy way to earn Bitcoin
   userCount: 0
   minInstalls: 0
@@ -11437,7 +11272,7 @@
     - game
   platform: android
   relevanceScore: -58
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin Mining Simulation – A Fun and Engaging Virtual Mining Adventure
   userCount: 0
   minInstalls: 0
@@ -11457,7 +11292,7 @@
     - game
   platform: android
   relevanceScore: -38
-  disregard: false
+  disregard: true
   fullDescription: Bitcoin Mining is a easy way to passively earn money using Android Device.
   userCount: 0
   minInstalls: 0
@@ -11478,7 +11313,7 @@
     - game
   platform: android
   relevanceScore: -38
-  disregard: false
+  disregard: true
   fullDescription: Are you ready for the Bitcoin Challenge? Take the pickaxe and let's start
   userCount: 0
   minInstalls: 0
@@ -11499,7 +11334,7 @@
     - game
   platform: android
   relevanceScore: -38
-  disregard: false
+  disregard: true
   fullDescription: Get ready to dig deep and become a Bitcoin Mining Master.
   userCount: 0
   minInstalls: 0
@@ -11520,7 +11355,7 @@
     - game
   platform: android
   relevanceScore: -38
-  disregard: false
+  disregard: true
   fullDescription: Melt the Bitcoin from the ice cube
   userCount: 0
   minInstalls: 0
@@ -11540,7 +11375,7 @@
     - game
   platform: android
   relevanceScore: -63
-  disregard: false
+  disregard: true
   fullDescription: Learn Bitcoin Mining - Interactive Education App
   userCount: 0
   minInstalls: 0
@@ -11561,7 +11396,7 @@
     - game
   platform: android
   relevanceScore: -63
-  disregard: false
+  disregard: true
   fullDescription: Get Free Bitcoin Without Mining!
   userCount: 0
   minInstalls: 0
@@ -11581,42 +11416,8 @@
     - game
   platform: android
   relevanceScore: 2
-  disregard: false
+  disregard: true
   fullDescription: Are you looking for a bitcoin mining app? You are in the right place.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: it.bitcoinpeople.pay
-  title: BPay - Bitcoin PoS
-  developer: BTCP S.r.l.
-  summary: Accept secure, fee-free Bitcoin payments with BPay.
-  url: https://play.google.com/work/apps/details?id=it.bitcoinpeople.pay
-  searchTerm: bitcoin pos
-  excludeTerms: []
-  platform: android
-  relevanceScore: -8
-  disregard: false
-  fullDescription: Accept secure, fee-free Bitcoin payments with BPay.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: io.ditopay.posappsv
-  title: DitoBanx POS Bitcoin
-  developer: DitoBanx
-  summary: DitoBanx.com Bitcoin payment reception terminal
-  url: https://play.google.com/work/apps/details?id=io.ditopay.posappsv
-  searchTerm: bitcoin pos
-  excludeTerms: []
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: DitoBanx.com Bitcoin payment reception terminal
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11633,7 +11434,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: How many Bitcoin or Ethereum can you buy with 1 US dollar?
   userCount: 0
   minInstalls: 0
@@ -11651,7 +11452,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 17
-  disregard: false
+  disregard: true
   fullDescription: Protect your online privacy and security with Bitcoin VPN.
   userCount: 0
   minInstalls: 0
@@ -11668,7 +11469,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 11
-  disregard: false
+  disregard: true
   fullDescription: Track Bitcoin All-Time Highs &amp; with custom notifications and various currencies.
   userCount: 0
   minInstalls: 0
@@ -11686,7 +11487,7 @@
   excludeTerms: []
   platform: android
   relevanceScore: 16
-  disregard: false
+  disregard: true
   fullDescription: Track 4000+ cryptocurrency across 150+ exchanges, data secured on device 💰💰💵
   userCount: 0
   minInstalls: 0
@@ -11706,45 +11507,8 @@
     - price
   platform: android
   relevanceScore: -38
-  disregard: false
+  disregard: true
   fullDescription: 🚀 Start Bitcoin mining in seconds 💰 Earn crypto fast &amp; easy — 24/7 mining!
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.fliplabs.dartafrica
-  title: DartAfrica | Sell Bitcoin Fast
-  developer: FLIP Labs
-  summary: 'Dart Africa: Best App to trade Bitcoin &amp; other cryptocurrencies for Naira, Cedis'
-  url: https://play.google.com/work/apps/details?id=com.fliplabs.dartafrica
-  searchTerm: bitcoin africa
-  excludeTerms:
-    - news
-    - price
-  platform: android
-  relevanceScore: 17
-  disregard: false
-  fullDescription: 'Dart Africa: Best App to trade Bitcoin &amp; other cryptocurrencies for Naira, Cedis'
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.coinceeper.adl
-  title: Coinceeper - Crypto wallet
-  developer: Taparam
-  summary: Send &amp; receive crypto; your keys stay on your device.
-  score: 0
-  url: https://play.google.com/store/apps/details?id=com.coinceeper.adl
-  searchTerm: schnorr wallet
-  excludeTerms: []
-  platform: android
-  relevanceScore: 22
-  disregard: false
-  fullDescription: Send &amp; receive crypto; your keys stay on your device.
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
@@ -11760,25 +11524,8 @@
   excludeTerms: []
   platform: android
   relevanceScore: -5
-  disregard: false
+  disregard: true
   fullDescription: Try solving the Legendary "32 BTC puzzle" with this fun, grid-based tool.
-  userCount: 0
-  minInstalls: 0
-  maxInstalls: 0
-  ratings: 0
-  reviews: 0
-  installs: N/A
-- appId: com.deffio.app
-  title: 'Deffio: Secure Crypto Wallet'
-  developer: Deffio
-  summary: Non-custodial multi-chain crypto wallet for Bitcoin, Ethereum &amp; other EVM tokens
-  url: https://play.google.com/store/apps/details?id=com.deffio.app
-  searchTerm: bitcoin seed phrase
-  excludeTerms: []
-  platform: android
-  relevanceScore: 22
-  disregard: false
-  fullDescription: Non-custodial multi-chain crypto wallet for Bitcoin, Ethereum &amp; other EVM tokens
   userCount: 0
   minInstalls: 0
   maxInstalls: 0
