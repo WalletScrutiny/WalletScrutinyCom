@@ -186,8 +186,8 @@ class WalletDiscoveryProcessor {
         } catch (error) {
           // App might not be available anymore or API issue
           console.log(`  [${i + 1}/${this.products.length}] ✗ ${product.title} - ${error.message}`);
-          // Mark as enriched with existing data to avoid retrying
-          product.fullDescription = product.summary || product.description || 'Description not available';
+          // Mark as unavailable to avoid retrying
+          product.fullDescription = 'Full description not available';
           product.userCount = 0;
           product.minInstalls = 0;
           product.maxInstalls = 0;
@@ -218,8 +218,8 @@ class WalletDiscoveryProcessor {
         } catch (error) {
           // App might not be available anymore or API issue
           console.log(`  [${i + 1}/${this.products.length}] ✗ ${product.title} - ${error.message}`);
-          // Mark as enriched with existing data to avoid retrying
-          product.fullDescription = product.description || 'Description not available';
+          // Mark as unavailable to avoid retrying
+          product.fullDescription = 'Full description not available';
           product.ratingsCount = 0;
           product.ratings = 0;
           product.reviews = 0;
