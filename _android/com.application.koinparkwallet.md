@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: koinparkWallet
 title: 'Koinpark Wallet : Store Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.application.koinparkwallet
 appCountry: 
@@ -18,11 +19,11 @@ issue:
 icon: com.application.koinparkwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2025-11-10
+date: 2025-11-12
 signer: 
-twitter: 
+twitter: KoinparkInfo
 social: 
 redirect_from: 
 developerName: Koinpark Private Limited
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description
+
+Koinpark Wallet is a non-custodial mobile crypto wallet that advertises user-held keys and supports on-chain send/receive for listed networks. The Play listing names supported assets as ParkCoin (KPK), Ethereum (ETH), BNB, Polygon (MATIC), Avalanche (AVAX), Solana (SOL), and TRON (TRX); Bitcoin is **not** listed. No open-source repository or build instructions are referenced from the listing.
+
+## Analysis
+
+The seedphrases were provided but we did **not find a Bitcoin wallet**.
