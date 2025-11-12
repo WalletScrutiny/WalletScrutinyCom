@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: atoshiGlobal
 title: ATOSHI
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 500000
 appId: com.atom.net
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.atom.net.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 appHashes: 
-date: 2025-11-09
+date: 2025-11-12
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,6 @@ features:
 
 ---
 
+## App Description and Analysis
+
+This Chinese app seems to be more of a rewards app and **not a wallet**. We find no send/receive functions nor seed phrases.
