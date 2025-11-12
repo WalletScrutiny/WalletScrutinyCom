@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: hanaWallet
 title: Hana Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: com.HanaTech.Wallet
 appCountry: 
@@ -18,11 +19,11 @@ issue:
 icon: com.HanaTech.Wallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2025-11-09
+date: 2025-11-12
 signer: 
-twitter: 
+twitter: hanawallet
 social: 
 redirect_from: 
 developerName: HanaTech
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description
+
+Hana Wallet is a cross-chain cryptocurrency wallet available as a mobile app. We were able to see Stellar (XLM), USDC, SODAX, Aquarius, Balanced Dollars and some other alt-coins, but not Bitcoin. 
+
+## Analysis
+
+This app does **not provide support for Bitcoin**.
