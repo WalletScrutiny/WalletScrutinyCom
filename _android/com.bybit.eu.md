@@ -22,7 +22,7 @@ verdict: custodial
 appHashes: 
 date: 2025-11-13
 signer: 
-twitter: BybitEurope
+twitter: BybitEU
 social: 
 redirect_from: 
 developerName: Bybit EU GmbH
