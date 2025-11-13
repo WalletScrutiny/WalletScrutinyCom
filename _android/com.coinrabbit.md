@@ -2,7 +2,8 @@
 wsId: 
 title: CoinRabbit BTC & Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 500
 appId: com.coinrabbit
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.coinrabbit.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: custodial
 appHashes: 
-date: 2025-11-10
+date: 2025-11-13
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,12 @@ features:
 
 ---
 
+## App Description
+
+CoinRabbit is a centralized crypto platform that requires an account to access features such as storage, swaps, borrowing, and portfolio tracking across 300+ supported assets. The service provides custodial storage using cold wallets, multisig controls, and account-based security measures like encryption and 2FA. Users can borrow against crypto collateral, swap supported tokens, and monitor balances entirely through CoinRabbit’s infrastructure rather than any on-device key management.
+
+## Analysis
+
+We signed up to the service and found Bitcoin wallet. However, no seed phrases or option to backup the private keys were provided.
+
+This is a **custodial** service.
