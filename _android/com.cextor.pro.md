@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: cextorExchange
 title: Cextor - Buy Bitcoin & Crypto
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.cextor.pro
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.cextor.pro.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2025-11-10
+date: 2025-11-13
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,12 @@ features:
 
 ---
 
+## App Description
+
+Cextor is an Android application that provides access to a centralized cryptocurrency exchange with account-based trading. The app supports buying, selling, and swapping a wide range of cryptocurrencies, along with spot and margin trading features. All activity occurs through the Cextor platform rather than on-device key management, consistent with an exchange service.
+
+## Analysis 
+
+> features like two-factor authentication, bank-grade encryption, and offline cold storage, Cextor ensures your digital assets stay protected.
+
+This is a **custodial** service.
