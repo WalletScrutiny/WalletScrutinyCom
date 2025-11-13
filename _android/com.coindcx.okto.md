@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: oktoCrypto
 title: 'Okto: Crypto Trading Wallet'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.coindcx.okto
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.coindcx.okto.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2025-11-09
+date: 2025-11-13
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,17 @@ features:
 
 ---
 
+## App Description
+
+Okto is a mobile wallet and trading app that offers native integration with the Hyperliquid ecosystem, enabling spot and leveraged futures trading directly within the app. Beyond Hyperliquid, it functions as a multi-chain self-custody wallet supporting Bitcoin, Ethereum, Solana, and hundreds of additional assets, with access to swaps across 1,800+ tokens and staking options in over 200 DeFi pools. The app also provides features such as contract-based token trading, an NFT gallery, HyperEVM dApp interactions, and cross-chain portfolio tools. It uses an MPC-based key management model with optional seedless setup and encrypted cloud backup through Google Drive.
+
+## Analysis
+
+Wallet setup begins with a mnemonic phrase. When the app opened we selected 'receive' and typed BTC. However, these were the only options that appeared: 
+
+- BTCB (Binance-Peg)
+- BTC2 (Bitcoin 2.0)
+- BTCAT (Bitcoin Cat)
+- BTCB (Bitcoin on Base)
+
+and some other networks that are **not Bitcoin**. 
