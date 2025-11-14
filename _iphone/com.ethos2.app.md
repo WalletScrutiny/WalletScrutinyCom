@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ethosCrypto
 title: 'Ethos: Crypto Trading Wallet'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.ethos2.app
 appCountry: nl
 idd: '6450948705'
@@ -17,14 +18,15 @@ issue:
 icon: com.ethos2.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 appHashes: 
 date: 2025-11-14
 signer: 
-twitter: 
+twitter: Ethos_io
 social: 
 features: 
 developerName: Ethos Corporation
 
 ---
 
+{% include copyFromAndroid.html %}
