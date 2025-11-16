@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bifrostWallet
 title: Bifrost Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.bifrostwallet.app
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.bifrostwallet.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 appHashes: 
-date: 2025-11-09
+date: 2025-11-12
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description
+
+Bifrost Wallet is a non-custodial Android wallet supporting Bitcoin, Ethereum, XRP, Dogecoin, and other coins. Private keys are generated and stored locally on the user’s device with backup via a 12-word recovery phrase.
+
+## Analysis
+
+We confirmed the existence of Bitcoin support, but found **no claims regarding source-availability**. A search on [GitHub Code](https://github.com/search?q=%22com.bifrostwallet.app%22&type=code) for the app ID yielded non-relevant results.
