@@ -73,12 +73,13 @@ In their [biometric backup](https://wbitcash.com/services/biotmetric-backup) sec
 > 3 Face access\
 > The neural network decrypts the secret when the user provides his biometric data
 
-Bitcash claims to operate “without a private key,” using a Multi-Party Compensation protocol where “the first secret is stored on the mobile device, the second in the protected area of the service.” [Source](wbitcash.com/services/nekastodialnyij-koshelek)
+Bitcash claims to operate "without a private key," using a Multi-Party Computation protocol where "the first secret is stored on the mobile device, the second in the protected area of the service." [Source](wbitcash.com/services/nekastodialnyij-koshelek)
 
-This means that the provider retains one of the key shares required to authorize transactions, giving them theoretical access to user funds.
+In this MPC setup, Bitcash holds one of the two key shares required to authorize transactions. While they likely cannot unilaterally steal funds (they need the user's share), they retain veto power over all transactions. If Bitcash's service refuses to provide their signature share, users cannot move their funds.
 
-Although Bitcash advertises this as a “non-custodial” architecture, under WalletScrutiny’s definition, any arrangement where the provider controls part of the signing material is custodial.
+From WalletScrutiny's [custodial verdict definition](https://walletscrutiny.com/verdicts/custodial/):
+> A custodial service is a service where the funds are held by a third party like the provider. The custodial service can at any point steal all the funds of all the users at their discretion.
 
-Recovery through facial recognition — where the service decrypts the second key share — further confirms provider involvement in the signing process. 
+While Bitcash cannot steal funds outright, their ability to block transactions gives them control equivalent to custody in practice - users cannot access their funds without the provider's cooperation. Recovery through facial recognition, where the service decrypts the second key share, further confirms provider involvement in the signing process.
 
 This is a **custodial** service.
