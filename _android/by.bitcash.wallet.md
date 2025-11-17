@@ -56,7 +56,7 @@ In the **[Non-Custodial Wallet](https://wbitcash.com/services/nekastodialnyij-ko
 
 (translated via their site's translation service)
 
-> Our Multi-Party compensation protocol eliminates the need for private keys and removes a single point of failure. The private key is replaced by a set of secrets, the first is stored on the mobile device, the second in the protected area of the service. 
+> Our Multi-Party computation protocol eliminates the need for private keys and removes a single point of failure. The private key is replaced by a set of secrets, the first is stored on the mobile device, the second in the protected area of the service. 
 
 In the section called "[Storage of Crypto Assets and Simple Exchange](https://wbitcash.com/services/storage-of-crypto-assets)"
 
