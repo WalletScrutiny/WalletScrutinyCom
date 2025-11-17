@@ -42,6 +42,15 @@ NFT viewing, on-device transaction signing, and a token-import interface allow u
 
 ## Analysis
 
-Flash Wallet provides a valid 12-word BIP39 seed phrase and derives a real Bitcoin SegWit address from it, confirming that users control their Bitcoin private keys and the wallet operates in a self-custodial manner. 
+Flash Wallet provides a 12-word BIP39 seed phrase and displays a Bitcoin SegWit (bc1...) address.
 
-However, the project does not make a claim regarding source-availability and offers **[no public source code.](https://github.com/search?q=com.flashwallet.production&ref=opensearch&type=code)**
+We verified that the displayed address correctly derives from the seed phrase by importing the mnemonic into Electrum Desktop ([verification evidence](https://x.com/dannybuntu/status/1990367154076783009)). This confirms the app uses standard BIP39/BIP84 derivation for Bitcoin addresses.
+
+However, without source code review, we cannot verify:
+- Entropy quality during seed generation
+- Whether keys are transmitted to external servers
+- Presence of backdoors or key leakage mechanisms
+
+Based on observable behavior and derivation verification with Electrum, the app **appears to be self-custodial**, though closed-source nature prevents complete security assessment.
+
+The project does not make a claim regarding source-availability and offers **[no public source code.](https://github.com/search?q=com.flashwallet.production&ref=opensearch&type=code)**
