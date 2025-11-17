@@ -40,12 +40,16 @@ Swyftx is an Australian custodial cryptocurrency exchange offering trading for B
 
 ## Analysis
 
-Swyftx claims that it is not a custodial service through some legal jargon in their [terms of use:](https://swyftx.com/terms-of-use/) 
+In the [Terms of Use](https://swyftx.com/terms-of-use/#terms-of-use) section "Holding of crypto assets, no custody, private key risk" (8th sentence), Swyftx claims it is not a custodial service:
 
-> That being said, Swyftx and our third-party providers do not offer custodial or fiduciary services to you, and do not hold your crypto assets as your custodian or on your behalf. 
+> That being said, Swyftx and our third-party providers do not offer custodial or fiduciary services to you, and do not hold your crypto assets as your custodian or on your behalf.
 
-However the same terms of use states: 
+However, three sentences later in the same paragraph (11th sentence), the terms state:
 
 > You do not hold the private keys to crypto assets while they remain in your Swyftx account.
 
-By WalletScrutiny.com's standards, this is still a **custodial** service.
+The terms also authorize Swyftx ([Section 8.4](https://swyftx.com/terms-of-use/#terms-of-use), clauses a and b) to hold assets in wallets and move assets to "Third Party Service Providers, external platforms and systems," though no specific custody partners are disclosed.
+
+Additionally, the same paragraph notes that "Customer crypto assets and fiat currency may not be held in segregated client accounts or separate from Swyftx's own crypto assets and fiat currencies at all times," suggesting customer funds are pooled in shared infrastructure rather than separated at the blockchain level, with ownership tracked via internal accounting and reconciliation processes.
+
+**Regardless of whether Swyftx manages custody in-house or through third-party custodians, users have no control of private keys.** By WalletScrutiny.com's standards, this is a **custodial** service.
