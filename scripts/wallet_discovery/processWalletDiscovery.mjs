@@ -4,6 +4,8 @@ import readline from 'readline';
 import gplay from 'google-play-scraper';
 import apple from 'app-store-scraper';
 import { Semaphore } from 'async-mutex';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 const playSem = new Semaphore(5);
 const appleSem = new Semaphore(3);
@@ -514,7 +516,13 @@ Unclassified to review: ${totalUnclassified}
         console.log(`\nAdding ${androidApps.length} Android apps...\n`);
         console.log(`Command: node addNewAndroidApps.mjs ${androidApps.join(' ')}\n`);
         
-        const androidChild = spawn('node', ['../../addNewAndroidApps.mjs', ...androidApps], {
+        // Get root directory (two levels up from current script)
+        const __filename = fileURLToPath(import.meta.url);
+        const __dirname = path.dirname(__filename);
+        const rootDir = path.resolve(__dirname, '../../');
+        
+        const androidChild = spawn('node', ['addNewAndroidApps.mjs', ...androidApps], {
+          cwd: rootDir,
           stdio: 'inherit'
         });
         
