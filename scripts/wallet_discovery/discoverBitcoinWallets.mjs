@@ -1,7 +1,6 @@
 import gplay from 'google-play-scraper';
 import apple from 'app-store-scraper';
 import fs from 'fs/promises';
-import path from 'path';
 import yaml from 'js-yaml';
 import { Semaphore } from 'async-mutex';
 
@@ -165,7 +164,7 @@ class BitcoinWalletDiscovery {
   async loadExistingApps() {
     try {
       // Load Android apps
-      const androidFiles = await fs.readdir('_android');
+      const androidFiles = await fs.readdir('../../_android');
       for (const file of androidFiles) {
         if (file.endsWith('.md')) {
           const appId = file.replace('.md', '');
@@ -174,7 +173,7 @@ class BitcoinWalletDiscovery {
       }
 
       // Load iPhone apps
-      const iphoneFiles = await fs.readdir('_iphone');
+      const iphoneFiles = await fs.readdir('../../_iphone');
       for (const file of iphoneFiles) {
         if (file.endsWith('.md')) {
           const appId = file.replace('.md', '');

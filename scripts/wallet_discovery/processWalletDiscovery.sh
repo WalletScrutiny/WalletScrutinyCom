@@ -5,4 +5,4 @@
 
 node processWalletDiscovery.mjs
 echo "updating images. This may take some time ..."
-./updateImages.sh
+../../updateImages.sh
