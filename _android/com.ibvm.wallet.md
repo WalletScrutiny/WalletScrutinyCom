@@ -33,7 +33,7 @@ features:
 
 ## App Description
 
-IBVM Wallet is a cryptocurrency wallet application for managing IBVM tokens, and claims to support Bitcoin, Ethereum, Solana, and other crypto assets. The application describes itself as providing "fast, secure, and decentralized crypto transactions" with DeFi exploration capabilities. IBVM is described as "A Scalable Layer 2 Rollup Solution | Built on Bitcoin."
+> Manage IBVM tokens, Bitcoin, Ethereum, Solana and other crypto swap assets, and explore DeFi with ease.
 
 ## Analysis
 
