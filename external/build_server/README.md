@@ -7,78 +7,76 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 1. Connects to Nostr relays configured in WalletScrutiny
 2. Gets all wallet and verification information
 3. Filters verifications with "reproducible" status and excludes "windows" platform
-4. For each Linux-compatible reproducible verification:
+4. For each reproducible verification:
    - Extracts appId, version and platform
    - Gets verification attachment files
    - Downloads scripts ending in `.sh`
-   - Saves them in `scripts/` folder with unique names
 
 ## Requirements
 - Node.js >= 18.6.0
 - asciinema
-- GitHub token
+- GitHub token (to refresh the desktop and hardware apps)
+- Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage
 
-### Manual execution
+### Manual execution for development or debug
 
 ```bash
 cd external/build_server
 npm i
-node index.mjs <github_token>
+node index.mjs --githubToken <github_token> --wsBotNostrPrivateKey  <nostr_private_key>
 ```
 
-The github token is required to refresh the desktop and hardware apps.
-You can get a token from [GitHub](https://github.com/settings/tokens).
+## Install and run as a systemd service
 
-## Output
+### Server preparation
 
-The application prints to console:
-
-```
-=== Build Server App - Fetching verification scripts ===
-Starting process: 2024-01-15T10:00:00.000Z
-
-Connecting to Nostr relays...
-Successfully connected to Nostr
-
-Getting wallet information from Nostr...
-Information retrieved successfully
-
-=== Reproducible Verifications ===
-Total found: 629
-
-bitcoinknots | v29.2.knots20251010 | linux | 1 script(s): verify_bitcoinknots.sh->bitcoinknots_v29.2.knots20251010_verify_bitcoinknots.sh
-bitBox2 | 9.23.3 -multi | hardware | 1 script(s): verify_bitbox02.sh->bitBox2_9.23.3_-multi_verify_bitbox02.sh
-keystone3.pro | 2.2.16-multicoin | hardware | 1 script(s): verify_keystone3.pro.sh->keystone3.pro_2.2.16-multicoin_verify_keystone3.pro.sh
-app.zeusln.zeus | 0.11.5 | android | 1 script(s): verify_app.zeusln.zeus.sh->app.zeusln.zeus_0.11.5_verify_app.zeusln.zeus.sh
-world.bitkey.app | 2025.19.0 (6) | android | Sin archivos adjuntos
-bitcoincore | 30.0 | windows | 1 script(s): verify_bitcoincore.sh->bitcoincore_30.0_verify_bitcoincore.sh
-
-=== Process completed ===   
-Scripts guardados en: /ruta/a/scripts
+- Create a new user for the application:
+```bash
+sudo adduser build-server
 ```
 
-### Output format
+- Create the group for the application:
+```bash
+sudo addgroup build-server
+```
 
-Each line contains all the information of a wallet in compact format:
-- `AppId | Version | Platform | Script information`
+- Create a new directory for the application:
+```bash
+sudo mkdir -p /opt/build-server/walletScrutinyCom
+```
 
-Where the script information can be:
-- `X script(s): originalName.sh->savedName.sh` (if there are .sh scripts)
-- `No .sh scripts` (if there are files but none are .sh)
-- `No attachments` (if there are no attachments)
+### Install the dependencies
+```bash
+sudo apt install asciinema docker.io podman nodejs npm -y
+```
 
-## Generated files
+Note: if the version of nodejs is not greater than or equal to 18.6.0, you can use `nodesource` distribution to install a newer version with `curl -fsSL https://deb.nodesource.com/setup_20.x | bash -` and then `sudo apt install -y nodejs` or install it globally: `bash -c "sudo npm i --global npm@latest"`
 
-The scripts are saved in `scripts/` with the format:
-`{appId}_{version}_{originalName}.sh`
+### Install the application
+- Copy the application to the server:
+```bash
+sudo cp -r walletScrutinyCom /opt/build-server/walletScrutinyCom
+```
 
-Example: `com.example.wallet_1.2.3_verify.sh`
+- Install the dependencies:
+```bash
+cd /opt/build-server/walletScrutinyCom/external/build_server
+sudo npm install
+```
+
+### Install the service
+
+```bash
+sudo cp external/build_server/config/build-server.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable build-server.service
+sudo systemctl start build-server.service
+```
 
 ## Technical notes
 
-- The application connects to the same relays as WalletScrutiny.com
-- The attachment files in Nostr use kind 1337 and are encoded in base64
-- The application runs once and then terminates (designed for cron/systemd)
+- The application connects to the same relays as WalletScrutiny.com and publishes the results to Nostr as `WalletScrutiny Bot`
+- The application keeps running forever and loops so it runs once every 24 hours
 - **Platform filter**: Excludes automatically verifications for Windows for compatibility with Linux servers
