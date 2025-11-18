@@ -514,7 +514,7 @@ Unclassified to review: ${totalUnclassified}
         console.log(`\nAdding ${androidApps.length} Android apps...\n`);
         console.log(`Command: node addNewAndroidApps.mjs ${androidApps.join(' ')}\n`);
         
-        const androidChild = spawn('node', ['addNewAndroidApps.mjs', ...androidApps], {
+        const androidChild = spawn('node', ['../../addNewAndroidApps.mjs', ...androidApps], {
           stdio: 'inherit'
         });
         
@@ -537,7 +537,7 @@ Unclassified to review: ${totalUnclassified}
         console.log(`\nAdding ${iphoneApps.length} iPhone apps...\n`);
         console.log(`Command: node addNewIphoneApps.mjs ${iphoneApps.join(' ')}\n`);
         
-        const iphoneChild = spawn('node', ['addNewIphoneApps.mjs', ...iphoneApps], {
+        const iphoneChild = spawn('node', ['../../addNewIphoneApps.mjs', ...iphoneApps], {
           stdio: 'inherit'
         });
         
