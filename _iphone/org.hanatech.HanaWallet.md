@@ -29,4 +29,4 @@ developerName: Hana Tech Pty Ltd
 
 ---
 
-{% includeCopyFromAndroid.html %}
+{% include copyFromAndroid.html %}
