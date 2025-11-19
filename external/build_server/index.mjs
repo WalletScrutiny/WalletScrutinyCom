@@ -219,17 +219,41 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       fileEventIdsForSHFiles.push(fileEvent.id);
 
       const appInfoFromWS = appInfo[legacyPlatform][appId];
-      const architectures = appInfoFromWS.architectures;
-      const types = appInfoFromWS.types;
-      appLog.info(` *** architectures: ${architectures}`);
-      appLog.info(` *** types: ${types}`);
+      // Support both old flat structure and new nested structure
+      const builds = appInfoFromWS.builds;
+      const legacyArchitectures = appInfoFromWS.architectures;
+      const legacyTypes = appInfoFromWS.types;
 
-      // Ensure at least one iteration even if arrays are empty
-      const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
-      const typesToIterate = types && types.length > 0 ? types : [undefined];
+      // Build list of arch/type combinations
+      let buildCombinations = [];
 
-      for (const architecture of architecturesToIterate) {
-        for (const type of typesToIterate) {
+      if (builds && builds.length > 0) {
+        // New nested structure: builds: [{arch: "win64", types: ["setup", "portable"]}, ...]
+        for (const build of builds) {
+          const arch = build.arch;
+          const types = build.types || [undefined];
+          for (const type of types) {
+            buildCombinations.push({ architecture: arch, type: type });
+          }
+        }
+        appLog.info(` *** Using nested builds structure: ${buildCombinations.length} combinations`);
+      } else if (legacyArchitectures || legacyTypes) {
+        // Old flat structure: architectures: [...], types: [...] (Cartesian product)
+        const architecturesToIterate = legacyArchitectures && legacyArchitectures.length > 0 ? legacyArchitectures : [undefined];
+        const typesToIterate = legacyTypes && legacyTypes.length > 0 ? legacyTypes : [undefined];
+        for (const architecture of architecturesToIterate) {
+          for (const type of typesToIterate) {
+            buildCombinations.push({ architecture: architecture, type: type });
+          }
+        }
+        appLog.info(` *** Using legacy flat structure: ${buildCombinations.length} combinations (Cartesian product)`);
+      } else {
+        // No architecture/type info - run once with undefined
+        buildCombinations.push({ architecture: undefined, type: undefined });
+        appLog.info(` *** No architecture/type info - running once`);
+      }
+
+      for (const { architecture, type } of buildCombinations) {
 
           // Create unique filename
           const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
@@ -259,6 +283,25 @@ async function processVerification(verification, newWalletVersion, appInfo) {
           job.then(async res => {
             const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
 
+            // Parse exit code from asciinema recording
+            const castFileContent = fs.readFileSync(castFileName, 'utf8');
+            const exitCodeMatch = castFileContent.match(/scriptrc=(\d+)/);
+            const exitCode = exitCodeMatch ? parseInt(exitCodeMatch[1]) : null;
+
+            // Handle exit code 2 (invalid parameters - configuration error)
+            if (exitCode === 2) {
+              appLog.warn(`Invalid parameters for ${appId} ${newWalletVersion}: ${architecture || 'none'} ${type || 'none'}`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Invalid parameters (config error): ${architecture ? architecture : ''} ${type ? type : ''} - Script rejected this combination`);
+
+              // Clean up build directory
+              if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
+                fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+                appLog.info(`Deleted build directory after config error: ${buildDirForThisVerification}`);
+              }
+
+              return; // Skip verification creation for config errors
+            }
+
             const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
             if (!comparisonFilePath) {
               appLog.error(`COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
@@ -267,7 +310,6 @@ async function processVerification(verification, newWalletVersion, appInfo) {
             }
 
             // Upload the asciicast file to Blossom server
-            const castFileContent = fs.readFileSync(castFileName, 'utf8');
             const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
             let castFileHash = null;
             try {
