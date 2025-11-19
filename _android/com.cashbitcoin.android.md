@@ -39,4 +39,4 @@ No open-source repository or source code reference is provided for either app.
 
 ## Analysis
 
-This is a bitcoin wallet ATM locator app and does **not have a wallet**.
+This is a bitcoin wallet ATM locator app and **does not have a wallet**.
