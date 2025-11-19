@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: darkexExchange
 title: Darkex Crypto & Exchange
 altTitle: 
-authors: 
+authors:
+- danny
 users: 50000
 appId: com.darkex.exchange
 appCountry: 
@@ -17,11 +18,11 @@ issue:
 icon: com.darkex.exchange.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2025-11-10
+date: 2025-11-14
 signer: 
-twitter: 
+twitter: darkexglobal
 social: 
 redirect_from: 
 developerName: DarkEx
@@ -29,3 +30,18 @@ features:
 
 ---
 
+## App Description
+
+Darkex is a centralized cryptocurrency trading platform that provides spot and futures markets for over 200 listed assets, including Bitcoin, Ethereum, Solana, and other exchange-listed coins.
+
+The app enables account-based trading with limit orders, stop-loss/take-profit tools, copy-trading, and a Web3 transfer module for supported networks.
+
+## Analysis
+
+On its homepage: 
+
+> Top Level Security
+>
+> Advanced encryption, cold storage, 2FA, and real-time monitoring ensure maximum protection for your assets.
+
+This is a centralized and **custodial** exchange.
