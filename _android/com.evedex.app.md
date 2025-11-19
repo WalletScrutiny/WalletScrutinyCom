@@ -64,4 +64,4 @@ Transparency and Trust: The code for our smart contracts is fully open-source an
 In summary, our temporary wallet marries the convenience of centralized systems with the security and transparency inherent to decentralized technology, ensuring a safe and user-friendly experience for all your transactions.
 ```
 
-This app does **not offer native Bitcoin support**.
+This app **does not offer native Bitcoin support**.
