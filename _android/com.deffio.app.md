@@ -41,8 +41,7 @@ The app includes real-time portfolio tracking and basic transfer capabilities ac
 
 ## Analysis
 
-Our [tests](https://x.com/BitcoinWalletz/status/1989174972812845141
-) prove claims regarding BTC support and private key provision.
+Our [tests](https://x.com/BitcoinWalletz/status/1989174972812845141) prove claims regarding BTC support and private key provision.
 
 The app does not make claims regarding source-availability and a search for the [app's identifier on GitHub Code](https://github.com/search?q=%22com.deffio.app%22&type=code) did not yield any relevant results.
 
