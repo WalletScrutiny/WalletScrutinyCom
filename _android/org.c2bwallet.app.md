@@ -39,4 +39,4 @@ The Play Store listing states that the wallet integrates with Cash2Bitcoin’s b
 
 ## Analysis
 
-**No source** code repository or open-source implementation is referenced in the listing or on the provider’s website.
+**No source code** repository or open-source implementation is referenced in the listing or on the provider’s website.
