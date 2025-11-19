@@ -4,6 +4,8 @@ import fs from 'fs/promises';
 import yaml from 'js-yaml';
 import { Semaphore } from 'async-mutex';
 
+const discoveredWalletsLogFile = 'bitcoin-wallet-discovery.yaml';
+
 // Rate limiting
 const playSem = new Semaphore(10);
 const appleSem = new Semaphore(5);
@@ -187,7 +189,7 @@ class BitcoinWalletDiscovery {
 
   async loadPreviouslyDiscovered() {
     try {
-      const discoveryLogContent = await fs.readFile('bitcoin-wallet-discovery.yaml', 'utf8');
+      const discoveryLogContent = await fs.readFile(discoveredWalletsLogFile, 'utf8');
       const discoveryLog = yaml.load(discoveryLogContent);
       
       if (discoveryLog) {
@@ -202,7 +204,6 @@ class BitcoinWalletDiscovery {
         }
       }
     } catch (error) {
-      // File doesn't exist yet, that's fine
       console.log('No previous discovery log found, starting fresh');
     }
   }
@@ -579,19 +580,18 @@ class BitcoinWalletDiscovery {
       lineWidth: -1,
       noRefs: true
     });
-    await fs.writeFile('bitcoin-wallet-discovery.yaml', yamlContent);
+    await fs.writeFile(discoveredWalletsLogFile, yamlContent);
 
-    // Write JSON report (with timestamp for this run)
+    // Write JSON report
     const reportPath = `bitcoin-wallet-discovery-${timestamp}.json`;
     await fs.writeFile(reportPath, JSON.stringify(reportData, null, 2));
 
-    // Write human-readable report (with timestamp for this run)
-    const readableReport = this.generateReadableReport(reportData);
+    // Write human-readable report
     const readablePath = `bitcoin-wallet-discovery-${timestamp}.md`;
-    await fs.writeFile(readablePath, readableReport);
+    await fs.writeFile(readablePath, this.generateReadableReport(reportData));
 
     console.log(`\n📊 Reports generated:`);
-    console.log(`- YAML log: bitcoin-wallet-discovery.yaml (persistent)`);
+    console.log(`- YAML log: ${discoveredWalletsLogFile} (persistent)`);
     console.log(`- JSON: ${reportPath}`);
     console.log(`- Markdown: ${readablePath}`);
 
