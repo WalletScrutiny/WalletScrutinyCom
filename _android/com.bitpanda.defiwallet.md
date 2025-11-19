@@ -49,4 +49,4 @@ The DeFi portion of the app does provide the seed phrases (but this is only comp
 >
 > We prioritise keeping your assets safe, incorporating multiple security measures to protect them from potential threats. Crypto assets are stored in highly-secure cold storage facilities that are examined by an external auditor. Your assets are yours.
 
-Since the web3 defi portion of the app is readily available without signup and kyc, we can say that this app **doesn't currently support btc**. This might change in future releases.
+There are two modes: a) web3 DeFi and the b) exchange portion. In the sequence of analyzing apps, we determine the verdict according to this order. Since the web3 DeFi portion comes first, and since it **does not support Bitcoin**, that verdict is reflected accordingly.
