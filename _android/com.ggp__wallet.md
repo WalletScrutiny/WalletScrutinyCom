@@ -37,11 +37,11 @@ GGP Wallet is a cryptocurrency management application that supports over 300 cry
 
 ## Analysis
 
-The application description repeatedly claims self-custody with statements such as "only you have access to your private keys, and they never leave your device" and "Your private keys remain encrypted on your device." 
+The application description repeatedly claims self-custody with statements such as "only you have access to your private keys, and they never leave your device" and "Your private keys remain encrypted on your device". 
 
 The developers also claim the platform uses "trusted open-source technology for a transparent, reliable platform." 
 
-However, **no source code** repository was found in [searches](https://github.com/search?q=%22com.ggp__wallet.%22&type=code) for "GGP Wallet github," "GGP Wallet source code," or the package name "com.ggp__wallet."
+However, **no source code** repository was found in [searches](https://github.com/search?q=%22com.ggp__wallet.%22&type=code) for "GGP Wallet github", "GGP Wallet source code", or the package name "com.ggp__wallet".
 
 The reference to "open-source technology" appears to describe the underlying libraries or frameworks used in development, not the publication of GGP Wallet's own source code. Without access to source code, the claims about private key management, encryption implementation, and self-custody model cannot be independently verified or audited. Users must trust the developer's assertions about security and key management without the ability to review the implementation.
 
