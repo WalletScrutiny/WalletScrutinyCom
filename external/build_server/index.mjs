@@ -37,8 +37,8 @@ const queue = new PQueue({
   timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
   throwOnTimeout: true
 });
-queue.on('active', () => logQueueInfo());
-queue.on('next', () => logQueueInfo());
+queue.on('active', logQueueInfo);
+queue.on('next', logQueueInfo);
 queue.on('error', error => {
 	appLog.error(error);
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error
@@ -57,13 +57,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     // Fetch app info for build server
     const appInfo = await fetchAppInfo();
-    appLog.info('');
 
     await connectToNostr(wsBotNostrPrivateKey);
-    appLog.info('');
 
     const verifications = await getAllVerifications(APPROVED_VERIFIERS_PUBKEY_HEX);
-    appLog.info('');
 
     const reproducibleVerifications = [];
     
@@ -229,9 +226,9 @@ async function processVerification(verification, newWalletVersion, appInfo) {
           const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
           const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
           buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-          if (!fs.existsSync(buildDirForThisVerification)) {
-            fs.mkdirSync(buildDirForThisVerification, { recursive: true });
-          }
+          
+          fs.mkdirSync(buildDirForThisVerification, { recursive: true });
+
           const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
 
           // Save the file and make it executable
@@ -350,9 +347,7 @@ if (!wsBotNostrPrivateKey) {
   process.exit(1);
 }
 
-if (!fs.existsSync(BUILD_DIR_PREFIX)) {
-  fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
-}
+fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
 appLog.info('======= Starting Build Server App =======');
 
@@ -363,7 +358,6 @@ while (true) {
     appLog.error('Error during execution:', error);
   }
   
-  appLog.info('');
   appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);
   await new Promise(resolve => setTimeout(resolve, HOURS_BETWEEN_EXECUTIONS * 60 * 60 * 1000));
 }
