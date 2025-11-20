@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-11-09
+date: 2025-11-20
 signer: 
 twitter: mpcvault
 social:
