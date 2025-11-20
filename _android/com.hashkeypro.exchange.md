@@ -37,7 +37,7 @@ HashKey Exchange is a licensed virtual asset exchange in Hong Kong operating und
 
 ## Analysis
 
-The application operates as a centralized cryptocurrency exchange where users create accounts and deposit funds for trading. The description explicitly states **"Your funds are held in separate accounts independent of our operations,"** confirming the platform maintains custody of user assets in segregated accounts. The deposit and withdrawal processes, bank account integration, and account-based trading model demonstrate a traditional exchange architecture where the platform controls user funds.
+The application operates as a centralized cryptocurrency exchange where users create accounts and deposit funds for trading. The description explicitly states **"Your funds are held in separate accounts independent of our operations"**, confirming the platform maintains custody of user assets in segregated accounts. The deposit and withdrawal processes, bank account integration, and account-based trading model demonstrate a traditional exchange architecture where the platform controls user funds.
 
 From the website:
 
