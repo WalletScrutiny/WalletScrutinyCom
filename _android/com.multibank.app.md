@@ -19,7 +19,7 @@ issue:
 icon: com.multibank.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
 date: 2025-11-20
 signer: 
