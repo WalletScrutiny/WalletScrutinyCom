@@ -19,30 +19,22 @@ import {
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
 import { compareVersions, findFileRecursively, fetchAppInfo, execScript, getFirstTagValue } from './utils.mjs';
-
-
-// Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
-const DEBUG_APP_IDS = [
-  // Example: 'com.example.app', 'org.bitcoin.wallet',
-  // 'bitcoinknots'
-];
-
-const HOURS_BETWEEN_EXECUTIONS = 24;
-const APPROVED_VERIFIERS_PUBKEY_HEX = [
-  '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
-  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
-];
+import {
+  DEBUG_APP_IDS,
+  HOURS_BETWEEN_EXECUTIONS,
+  APPROVED_VERIFIERS_PUBKEY_HEX,
+  QUEUE_TIMEOUT_HOURS,
+  QUEUE_CONCURRENCY
+} from './config/config.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const BUILD_DIR_PREFIX = path.join(__dirname, '..', 'build_server_build_dir');
 let buildDirForThisVerification = null;
 
-const queueTimeoutHours = 6;
-
 const queue = new PQueue({
-  concurrency: 3,
-  timeout: queueTimeoutHours * 60 * 60 * 1000,
+  concurrency: QUEUE_CONCURRENCY,
+  timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
   throwOnTimeout: true
 });
 queue.on('active', () => logQueueInfo());
