@@ -38,11 +38,11 @@ GreenCryptoX is a cryptocurrency exchange platform application that enables user
 
 ## Analysis
 
-The application operates as a centralized cryptocurrency exchange where users create accounts on the platform to conduct trading activities. The description states "our platform is fortified with cutting-edge security measures to ensure your assets are safe," indicating the platform holds custody of user assets rather than users controlling their own private keys. The account-based model with "fund your account with your preferred fiat currency" and centralized trading infrastructure demonstrates custodial control. No mention of private key management, seed phrase backup, or self-custody functionality appears in the application description or website materials.
+The application operates as a centralized cryptocurrency exchange where users create accounts on the platform to conduct trading activities. The description states "our platform is fortified with cutting-edge security measures to ensure your assets are safe", indicating the platform holds custody of user assets rather than users controlling their own private keys. The account-based model with "fund your account with your preferred fiat currency" and centralized trading infrastructure demonstrates custodial control. No mention of private key management, seed phrase backup, or self-custody functionality appears in the application description or website materials.
 
 The platform architecture follows a traditional centralized exchange model where user funds are deposited into platform-controlled wallets for trading execution. Users do not have independent control over the private keys to their cryptocurrency holdings. 
 
-In the [terms:](https://greencryptox.com/page-details/greencryptox-terms-and-conditions)
+In the [terms](https://greencryptox.com/page-details/greencryptox-terms-and-conditions):
 
 > 7.1. GreenCryptoX reserves the right to suspend or terminate your account and access to the platform at any time and for any reason, including but not limited to violation of these terms and conditions.
 
