@@ -4,13 +4,12 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 
 ## What does it do?
 
-1. Connects to the same relays as the main WalletScrutiny.com application
-2. Gets all wallet and verification information
-3. Filters verifications with "reproducible" status and excludes "windows" platform
-4. For each reproducible verification:
-   - Extracts appId, version and platform
-   - Gets verification attachment files
-   - Downloads scripts ending in `.sh`
+1. Check for new versions of desktop and hardware apps
+2. Gets all the wallet information from WS files, and the verifications information from Nostr (see `docs/verifications.md`)
+3. For each wallet that has a new version, we filter the verifications to only include those with "reproducible" status and exclude "windows" platform (for now)
+4. We check if the verification has attachment files ending with `build.sh`
+5. The file gets downloaded from Nostr and executed with asciinema recording the execution
+6. A new verification is created in Nostr with the result (reproducible or not) of the execution, and the asciinema recording file is attached to the verification
 
 ## Requirements
 - Node.js >= 18.6.0
