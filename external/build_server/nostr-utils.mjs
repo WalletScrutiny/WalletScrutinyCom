@@ -22,6 +22,8 @@ export async function connectToNostr(nostrPrivateKey) {
   appLog.info('Connecting to Nostr relays...');
 
   ndk = new NDK({
+    initialValidationRatio: 1.0,
+    lowestValidationRatio: 1.0, // Validate signatures for all events
     explicitRelayUrls: explicitRelayUrls,
     signer: new NDKPrivateKeySigner(nostrPrivateKey)
   });
@@ -114,7 +116,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
   }
 }
 
-export async function getAllVerifications(authorPubkeys = []) {
+export async function getAllVerifications(authorPubkeys) {
   appLog.info('Getting wallet information from Nostr...');
 
   const events = await ndk.fetchEvents({
