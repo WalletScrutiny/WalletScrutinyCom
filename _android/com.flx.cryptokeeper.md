@@ -69,7 +69,7 @@ This confirms that the "recovery phrase" does not actually control the Bitcoin p
 
 **Verdict:**
 
-Despite marketing itself as "non-custodial" and providing a "recovery phrase," Crypto Keeper is a **custodial** service where:
+Despite marketing itself as "non-custodial" and providing a "recovery phrase", Crypto Keeper is a **custodial** service where:
 - Private keys are stored on the provider's servers (not on user's device)
 - The recovery phrase does not derive the actual Bitcoin addresses
 - KYC is required to send funds (account-based system)
