@@ -1,7 +1,7 @@
 {
-  "name": "build-server-app",
+  "name": "walletscrutiny-build-server",
   "version": "1.0.0",
-  "description": "Aplicación para obtener scripts de verificación desde Nostr",
+  "description": "Application to get verification scripts from Nostr and run them automatically when a new version of a wallet is released",
   "type": "module",
   "main": "index.mjs",
   "scripts": {

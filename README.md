@@ -72,23 +72,8 @@ can verify the reproducibility of the asset.
 
 See more details at https://walletscrutiny.com/verifications/
 
-## Build Server admin
+## The WalletScrutiny Automated Build Server
 
-### Start/stop the service
+The WABS is a service that runs on the build server and is responsible for launching automatic verifications when a new version of a wallet is released.
 
-```bash
-service build-server start
-service build-server stop
-```
-
-### Check the service status
-
-```bash
-sudo systemctl status build-server.service
-```
-
-### Check the service logs
-
-```bash
-sudo journalctl -u build-server.service -f
-```
+See more details at `external/build_server/README.md`.

@@ -1,5 +1,6 @@
 [Unit]
-Description=Build Server App
+Description=WalletScrutiny Build Server service
+Documentation=file:external/build_server/README.md
 After=network.target
 
 [Service]
