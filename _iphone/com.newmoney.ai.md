@@ -22,11 +22,15 @@ verdict: custodial
 appHashes: 
 date: 2025-11-20
 signer: 
-twitter: 
-social: 
+twitter: easycrypto
+social:
+- https://www.facebook.com/easycryptoau
+- https://www.instagram.com/easycrypto.global
+- https://www.linkedin.com/company/easy-crypto
+- https://www.youtube.com/c/EasyCryptoGlobal
 features: 
 developerName: Newmoney AI Wallet
 
 ---
 
-{% includeCopyFromAndroid.html %}
+{% include copyFromAndroid.html %}
