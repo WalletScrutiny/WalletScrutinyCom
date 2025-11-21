@@ -18,7 +18,7 @@ import {
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
-import { compareVersions, findFileRecursively, fetchAppInfo, execScript, getFirstTagValue } from './utils.mjs';
+import { compareVersions, findFileRecursively, fetchAppInfo, startCompilationJob, getFirstTagValue } from './utils.mjs';
 import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
@@ -166,6 +166,85 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   }
 }
 
+async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, ndkInstance, architecture, type, fileEventIdsForSHFiles) {
+  const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
+
+  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
+  if (!comparisonFilePath) {
+    appLog.error(`COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+    return;
+  }
+
+  // Upload the asciicast file to Blossom server
+  const castFileContent = fs.readFileSync(castFileName, 'utf8');
+  const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
+  let castFileHash = null;
+  try {
+    castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
+  } catch (error) {
+    appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    return;
+  }
+
+  // Read COMPARISON_RESULTS.txt and extract hash and match status
+  let hash = null;
+  let matches = false;
+  try {
+    const content = fs.readFileSync(comparisonFilePath, 'utf8');
+    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
+    if (line) {
+      const tokens = line.split(' - ');
+      hash = tokens[2];
+      matches = tokens[3]?.trim().startsWith('1');
+    }
+  } catch (error) {
+    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+  }
+
+  let description = [
+    architecture && `architecture: ${architecture}`,
+    type && `type: ${type}`
+  ]
+  .filter(Boolean)
+  .join(' - ');
+
+  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
+  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+
+  const formData = {
+    // Changed values
+    basedOn: verification.id,
+    version: newWalletVersion,
+    status: matches ? 'reproducible' : 'not_reproducible',
+    hashes: [hash],
+    description: description,
+    content: content,
+    outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
+    reusedFileIds: fileEventIdsForSHFiles,
+    isDraft: false,
+    // Original verification values
+    appId: appId,
+    platform: platform
+  };
+
+  try {
+    await createVerification(ndkInstance, formData);
+
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+
+    if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
+      fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+      appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
+    }
+  } catch (error) {
+    appLog.error(`Error creating verification for ${appId}:`, error);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+  }
+}
+
 async function processVerification(verification, newWalletVersion, appInfo) {
   try {
     // Capture ndk instance at the start to ensure it's available in async callbacks
@@ -240,88 +319,24 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 
           appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-          const job = queue.add(() => execScript(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+          const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
           job.catch(err => {
             appLog.error('Script execution job failed:', err);
             verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
           });
-          job.then(async res => {
-            const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = res;
-
-            const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-            if (!comparisonFilePath) {
-              appLog.error(`COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
-              verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
-              return;
-            }
-
-            // Upload the asciicast file to Blossom server
-            const castFileContent = fs.readFileSync(castFileName, 'utf8');
-            const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
-            let castFileHash = null;
-            try {
-              castFileHash = await uploadBlobToBlossomServer(castFile, ndkInstance);
-            } catch (error) {
-              appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
-              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-              return;
-            }
-
-            // Read COMPARISON_RESULTS.txt and extract hash and match status
-            let hash = null;
-            let matches = false;
-            try {
-              const content = fs.readFileSync(comparisonFilePath, 'utf8');
-              const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-              if (line) {
-                const tokens = line.split(' - ');
-                hash = tokens[2];
-                matches = tokens[3]?.trim().startsWith('1');
-              }
-            } catch (error) {
-              appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-            }
-
-            let description = [
-              architecture && `architecture: ${architecture}`,
-              type && `type: ${type}`
-            ]
-            .filter(Boolean)
-            .join(' - ');
-
-            let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
-            content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
-
-            const formData = {
-              // Changed values
-              basedOn: verification.id,
-              version: newWalletVersion,
-              status: matches ? 'reproducible' : 'not_reproducible',
-              hashes: [hash],
-              description: description,
-              content: content,
-              outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
-              reusedFileIds: fileEventIdsForSHFiles,
-              isDraft: false,
-              // Original verification values
-              appId: appId,
-              platform: platform
-            };
-
-            try {
-              await createVerification(ndkInstance, formData);
-
-              verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
-
-              if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
-                fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
-                appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
-              }
-            } catch (error) {
-              appLog.error(`Error creating verification for ${appId}:`, error);
-              verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
-            }
+          job.then(async returnParamsFromCompilationJob => {
+            appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
+            await createVerificationAfterCompilation(
+              returnParamsFromCompilationJob,
+              verification,
+              newWalletVersion,
+              appId,
+              platform,
+              ndkInstance,
+              architecture,
+              type,
+              fileEventIdsForSHFiles
+            );
           });
         }
       }
