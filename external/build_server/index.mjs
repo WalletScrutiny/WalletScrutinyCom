@@ -283,7 +283,13 @@ async function processVerification(verification, newWalletVersion, appInfo) {
               verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
             }
 
-            let description = ` ${architecture ? `architecture: ${architecture}` : ''} ${type ? ` ${architecture ? '-' : ''} type: ${type}` : ''}`;
+            let description = [
+              architecture && `architecture: ${architecture}`,
+              type && `type: ${type}`
+            ]
+            .filter(Boolean)
+            .join(' - ');
+
             let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
             content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
