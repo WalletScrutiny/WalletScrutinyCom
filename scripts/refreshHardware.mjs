@@ -30,8 +30,8 @@ import {
 
 // Parse command line arguments
 const args = minimist(process.argv.slice(2), {
-  boolean: ['d', 'help', 'n', 'dry-run'],
-  string: ['g'],
+  boolean: ['debug', 'help', 'dry-run'],
+  string: ['github-token'],
   alias: {
     d: 'debug',
     g: 'github-token',
