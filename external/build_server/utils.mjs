@@ -91,7 +91,7 @@ export async function fetchAppInfo() {
   }
 }
 
-export async function execScript(buildDirForThisVerification, script, newWalletVersion, architecture, type) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type) {
   return new Promise((resolve, reject) => {
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : '';
