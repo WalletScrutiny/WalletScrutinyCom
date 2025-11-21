@@ -116,7 +116,7 @@ export async function uploadBlobToBlossomServer(file, ndkInstance = null) {
   }
 }
 
-export async function getAllVerifications(authorPubkeys) {
+export async function getAllVerifications(authorPubkeys = []) {
   appLog.info('Getting wallet information from Nostr...');
 
   const events = await ndk.fetchEvents({
