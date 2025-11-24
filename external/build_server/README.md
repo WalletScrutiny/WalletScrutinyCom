@@ -6,7 +6,7 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 
 1. Check for new versions of desktop and hardware apps
 2. Gets all the wallet information from WS files, and the verifications information from Nostr (see `docs/verifications.md`)
-3. For each wallet that has a new version, we filter the verifications to only include those with "reproducible" status and exclude "windows" platform (for now)
+3. For each wallet that has a new version, we filter the verifications to only include those with "reproducible" status and exclude "macos" platform (for now)
 4. We check if the verification has attachment files ending with `build.sh`
 5. The file gets downloaded from Nostr and executed with asciinema recording the execution
 6. A new verification is created in Nostr with the result (reproducible or not) of the execution, and the asciinema recording file is attached to the verification
@@ -99,4 +99,4 @@ sudo journalctl -u walletscrutiny-build-server.service -f
 
 - The application connects to the same relays as WalletScrutiny.com and publishes the results to Nostr as `WalletScrutiny Bot`
 - The application keeps running forever and loops so it runs once every 24 hours
-- **Platform filter**: Excludes automatically verifications for Windows for compatibility with Linux servers
+- **Platform filter**: Excludes automatically verifications for macOS for compatibility with Linux servers
