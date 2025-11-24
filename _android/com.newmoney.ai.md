@@ -41,7 +41,7 @@ The published terms describe the software as a non-custodial wallet: users gener
 
 ## Analysis
 
-Our [tests](https://x.com/BitcoinWalletz/status/1991401441479848420) were not successful in locating the seed generation or private key export function. If they were there, they are so difficult to find or are broken. We tried to clarify this with them via [twitter.](https://x.com/BitcoinWalletz/status/1991406846750695599)
+Our [tests](https://x.com/BitcoinWalletz/status/1991401441479848420) were not successful in locating the seed generation or private key export function. If they were there, they are so difficult to find or are broken. We tried to clarify this with them via [twitter](https://x.com/BitcoinWalletz/status/1991406846750695599).
 
 Despite those claims, the official GitHub organization currently lists no public repositories, so the Android application source code is not available for independent review.
 

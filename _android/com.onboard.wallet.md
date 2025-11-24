@@ -33,13 +33,13 @@ features:
 
 ## App Description
 
-Onboard is a financial services platform operated by Nestcoin (British Virgin Islands) offering a P2P cryptocurrency marketplace with escrow services, USD accounts, virtual debit cards, and a "seedless self-custody wallet" supporting Bitcoin, Tether (USDT/USDC), and other digital assets. The platform's terms contain contradictory custody language, stating it "offers hosted digital wallet services, holding and releasing Digital Assets" while simultaneously claiming "Onboard does not store or custody any locked Digital Assets," creating ambiguity about actual control over funds. Onboard operates through multiple licensed entities: Gopay Financial Services Inc. (Canada FINTRAC MSB C100000565), Onboard Digital (US FinCEN MSB 31000293152346), and Nestcoin Europe (Poland VASP RDWW-1639).
+Onboard is a financial services platform operated by Nestcoin (British Virgin Islands) offering a P2P cryptocurrency marketplace with escrow services, USD accounts, virtual debit cards, and a "seedless self-custody wallet" supporting Bitcoin, Tether (USDT/USDC), and other digital assets. The platform's terms contain contradictory custody language, stating it "offers hosted digital wallet services, holding and releasing Digital Assets" while simultaneously claiming "Onboard does not store or custody any locked Digital Assets", creating ambiguity about actual control over funds. Onboard operates through multiple licensed entities: Gopay Financial Services Inc. (Canada FINTRAC MSB C100000565), Onboard Digital (US FinCEN MSB 31000293152346), and Nestcoin Europe (Poland VASP RDWW-1639).
 
 ## Analysis 
 
 In the [terms](https://www.onboard.xyz/terms) we see: 
 
-> offering a marketplace to enable you engage in the transaction of “Digital Assets” such term to be broadly understood to include digital currencies such as Bitcoin, Tether, and others, 
+> offering a marketplace to enable you engage in the transaction of “Digital Assets” such term to be broadly understood to include digital currencies such as Bitcoin, Tether, and others
 
 **Section 8**
 

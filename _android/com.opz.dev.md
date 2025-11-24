@@ -35,7 +35,7 @@ features:
 
 ## App Description
 
-OPZ markets itself as an “all-in-one Web3 wallet” using MPC under the in-house “KeyFusion” protocol, meaning users sign transactions with multiple key shares instead of a mnemonic seed phrase. The Play Store description also advertises multi-factor authentication, WalletConnect v2, an embedded dApp browser, OPZ-branded NFC hardware for storing keys offline, and even an on-device “OPZ-AI” assistant. Security copy focuses on scanning tokens/dApps for risks and verifying destination addresses, while the [site](https://www.opz.io) touts its mission to “accelerate the transition to self-ownership of assets.”
+OPZ markets itself as an “all-in-one Web3 wallet” using MPC under the in-house “KeyFusion” protocol, meaning users sign transactions with multiple key shares instead of a mnemonic seed phrase. The Play Store description also advertises multi-factor authentication, WalletConnect v2, an embedded dApp browser, OPZ-branded NFC hardware for storing keys offline, and even an on-device “OPZ-AI” assistant. Security copy focuses on scanning tokens/dApps for risks and verifying destination addresses, while the [site](https://www.opz.io) touts its mission to “accelerate the transition to self-ownership of assets”.
 
 ## Analysis
 

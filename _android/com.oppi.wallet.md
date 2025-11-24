@@ -33,7 +33,7 @@ features:
 
 ## App Description
 
-Oppi Wallet (from Encoin Limited) pitches itself in the Play Store as a self‑custody wallet where “you control your private keys and your funds,” yet still layers in a fiat on/off ramp so users can buy, sell, swap, and store Bitcoin, Ethereum, stablecoins, and other supported tokens from one interface while tracking balances across multiple blockchains. 
+Oppi Wallet (from Encoin Limited) pitches itself in the Play Store as a self‑custody wallet where “you control your private keys and your funds”, yet still layers in a fiat on/off ramp so users can buy, sell, swap, and store Bitcoin, Ethereum, stablecoins, and other supported tokens from one interface while tracking balances across multiple blockchains. 
 
 The marketing site (`https://oppiwallet.com/en`) emphasizes its VASP certification, global availability (English/Turkish UI), biometric/MFA security, and claims of compliance. 
 
