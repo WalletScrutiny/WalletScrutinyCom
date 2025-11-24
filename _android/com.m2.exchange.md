@@ -34,11 +34,11 @@ features:
 
 ## App Description
 
-M2 is a digital asset platform offering Bitcoin and cryptocurrency services including financing, yield generation, and market access. The platform provides yield strategies with "competitive fixed or flexible returns," crypto-backed lending for liquidity, and OTC execution with institutional settlement. M2 features multi-layered custody infrastructure, live portfolio monitoring, and dedicated relationship managers for professional investors. The platform operates with bilingual support (English/Arabic) and describes itself as a regulated, cross-border investment platform.
+M2 is a digital asset platform offering Bitcoin and cryptocurrency services including financing, yield generation, and market access. The platform provides yield strategies with "competitive fixed or flexible returns", crypto-backed lending for liquidity, and OTC execution with institutional settlement. M2 features multi-layered custody infrastructure, live portfolio monitoring, and dedicated relationship managers for professional investors. The platform operates with bilingual support (English/Arabic) and describes itself as a regulated, cross-border investment platform.
 
 ## Analysis
 
-In the [terms:](https://www.m2.com/en_AE/terms-of-service)
+In the [terms](https://www.m2.com/en_AE/terms-of-service):
 
 By definition: 
 
@@ -54,4 +54,4 @@ Section 7.2.6
 >
 > (C) You control the Virtual Assets held in your Account. At any time, subject to outages, downtime, and other applicable policies (including the Terms), you may withdraw your Virtual Assets by sending them to a different blockchain address controlled by you or a third party. 
 
-This service is **custodial.**
+This service is **custodial**.
