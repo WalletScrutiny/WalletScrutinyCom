@@ -79,7 +79,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
         if (
           getFirstTagValue(verification, 'status') === 'reproducible' &&
-          ['hardware', 'desktop', 'linux', 'windows', 'macos'].includes(getFirstTagValue(verification, 'platform'))
+          ['hardware', 'desktop', 'linux', 'windows'].includes(getFirstTagValue(verification, 'platform'))
         ) {
           reproducibleVerifications.push(verification);
         }
