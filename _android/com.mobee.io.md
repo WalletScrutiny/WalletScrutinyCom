@@ -35,7 +35,7 @@ features:
 
 ## App Description
 
-Mobee is an Indonesian cryptocurrency exchange supervised by the Financial Services Authority (OJK) and member of PT Central Finansial X (CFX), offering Bitcoin and 100+ digital assets with direct Indonesian Rupiah (IDR) support. The platform provides yield products including Flexi Earn claiming "up to 10% APR" on Bitcoin and other cryptocurrencies, Dual Investment offering "up to 125% APR," and Auto Invest for automated recurring purchases. 
+Mobee is an Indonesian cryptocurrency exchange supervised by the Financial Services Authority (OJK) and member of PT Central Finansial X (CFX), offering Bitcoin and 100+ digital assets with direct Indonesian Rupiah (IDR) support. The platform provides yield products including Flexi Earn claiming "up to 10% APR" on Bitcoin and other cryptocurrencies, Dual Investment offering "up to 125% APR", and Auto Invest for automated recurring purchases. 
 
 Mobee features advanced trading options including Spot Grid Trading, multiple order types (Market, Limit, Stop, Trailing Stop), and tokenized U.S. stocks. The platform states it protects "your assets while eliminating the risks associated with Private Keys" and supports IDR deposits and withdrawals via bank transfer, E-wallet, and QRIS.
 

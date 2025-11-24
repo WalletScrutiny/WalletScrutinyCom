@@ -35,7 +35,7 @@ features:
 
 ## App Description
 
-The Play Store listing for Monica pitches the service as “Nigeria's fastest cryptocurrency exchange,” promising to convert Bitcoin, USDT, Ethereum, Litecoin, Dogecoin, and other assets to Naira in about 60 seconds via instant bank transfers with “zero fees.” 
+The Play Store listing for Monica pitches the service as “Nigeria's fastest cryptocurrency exchange”, promising to convert Bitcoin, USDT, Ethereum, Litecoin, Dogecoin, and other assets to Naira in about 60 seconds via instant bank transfers with “zero fees”.
 
 Marketing copy highlights support for over 450,000 Nigerian users, ₦400B processed, Flexi bill-pay/airtime/data purchases, virtual USD cards, gift cards, and KYC onboarding that issues wallet addresses to receive crypto for automated cash-outs. 
 
