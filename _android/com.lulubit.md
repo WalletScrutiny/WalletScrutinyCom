@@ -41,11 +41,11 @@ The platform offers yield-bearing accounts claiming "up to 7% annually" on depos
 
 Users can make free bank transfers using regional payment systems (ACH for Panama/Costa Rica, SINPE), send and receive crypto from exchanges like Binance and BingX, and convert between fiat and cryptocurrencies with no trading or maintenance fees. 
 
-The service describes itself as "the bridge between your bank and your crypto," positioning as a regional cryptocurrency gateway with banking integration and card payment functionality.
+The service describes itself as "the bridge between your bank and your crypto", positioning as a regional cryptocurrency gateway with banking integration and card payment functionality.
 
 ## Analysis
 
-In its [terms and conditions:](https://ayuda.lulubit.app/es/articles/6877105-terminos-y-condiciones-panama)
+In its [terms and conditions](https://ayuda.lulubit.app/es/articles/6877105-terminos-y-condiciones-panama):
 
 > "Servicios" Se refiere a los servicios ofrecidos a los Usuarios por la Plataforma que incluyen la compra, venta, canje y la custodia de Bitcoin y otros Activos Digitales que en el futuro se habiliten en la interfaz del Usuario en la Plataforma a través de servicios brindados por Lulubit S.A., LFDC, S.A. o terceros.
 
