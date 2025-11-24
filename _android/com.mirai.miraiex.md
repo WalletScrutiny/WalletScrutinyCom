@@ -41,7 +41,7 @@ Firi states "we will take care of all your crypto wallets for you" and secures c
 
 ## Analysis
 
-According to their [terms:](https://firi.com/about/terms-of-service)
+According to their [terms](https://firi.com/about/terms-of-service):
 
 > The company stores the users' cryptocurrencies in digital wallets. A digital wallet for cryptocurrency is software specifically developed to send and receive cryptocurrencies. A wallet contains keys that are used to sign transactions and thus send cryptocurrency.
 >
