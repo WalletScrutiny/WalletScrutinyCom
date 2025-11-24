@@ -33,7 +33,7 @@ features:
 
 ## App Description
 
-LF Wallet is a closed-source non-custodial cryptocurrency wallet developed by L F L Information Technology that claims users maintain full control of their private keys, which are stored locally on the device. The app provides multi-chain token management across different blockchain networks, with features including send/receive functionality, an integrated dApp browser for connecting to decentralized applications, and seed phrase-based backup and recovery. The wallet description emphasizes privacy and self-custody, stating "no third-party access" and "no centralized storage" with the tagline "you hold your private keys—and your crypto." The app targets Web3 users seeking a non-custodial solution for managing digital assets across multiple blockchain networks.
+LF Wallet is a closed-source non-custodial cryptocurrency wallet developed by L F L Information Technology that claims users maintain full control of their private keys, which are stored locally on the device. The app provides multi-chain token management across different blockchain networks, with features including send/receive functionality, an integrated dApp browser for connecting to decentralized applications, and seed phrase-based backup and recovery. The wallet description emphasizes privacy and self-custody, stating "no third-party access" and "no centralized storage" with the tagline "you hold your private keys—and your crypto". The app targets Web3 users seeking a non-custodial solution for managing digital assets across multiple blockchain networks.
 
 ## Analysis
 
