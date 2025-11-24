@@ -1,6 +1,7 @@
 import { exec, execSync } from 'child_process';
 import fs from 'fs';
-import { appLog } from './logger.js';
+import yaml from 'js-yaml';
+import { appLog, verificationsLog } from './logger.js';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
@@ -139,4 +140,54 @@ export async function calculateFileHash(file) {
 
 export function getFirstTagValue(event, tagName, valueIfNull = '') {
   return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
+}
+
+export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
+  let hash = null;
+  let matches = false;
+
+  // First, try to find and read COMPARISON_RESULTS.yaml
+  const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
+  if (yamlFilePath) {
+    try {
+      const yamlContent = fs.readFileSync(yamlFilePath, 'utf8');
+      const data = yaml.load(yamlContent);
+
+      appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
+      if (data && data.results && Array.isArray(data.results)) {
+        const result = data.results.find(r => r.architecture === architecture);
+        if (result) {
+          hash = result.hash || null;
+          matches = result.match === true;
+        }
+      }
+      
+      if (hash !== null) {
+        return { hash, matches };
+      }
+    } catch (error) {
+      appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.yaml: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    }
+  }
+
+  // Fallback to COMPARISON_RESULTS.txt if YAML not found or didn't contain matching architecture
+  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
+  if (!comparisonFilePath) {
+    return null;
+  }
+
+  try {
+    const content = fs.readFileSync(comparisonFilePath, 'utf8');
+    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
+    if (line) {
+      const tokens = line.split(' - ');
+      hash = tokens[2];
+      matches = tokens[3]?.trim().startsWith('1');
+    }
+  } catch (error) {
+    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+  }
+  return { hash, matches };
 }

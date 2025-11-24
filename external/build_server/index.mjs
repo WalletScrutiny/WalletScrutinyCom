@@ -18,7 +18,7 @@ import {
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
-import { compareVersions, findFileRecursively, fetchAppInfo, startCompilationJob, getFirstTagValue } from './utils.mjs';
+import { compareVersions, fetchAppInfo, startCompilationJob, getFirstTagValue, readComparisonResults } from './utils.mjs';
 import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
@@ -169,12 +169,13 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, ndkInstance, architecture, type, fileEventIdsForSHFiles) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
-  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-  if (!comparisonFilePath) {
-    appLog.error(`COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+  const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!comparisonResults) {
+    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
+  const { hash, matches } = comparisonResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -186,22 +187,6 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
     return;
-  }
-
-  // Read COMPARISON_RESULTS.txt and extract hash and match status
-  let hash = null;
-  let matches = false;
-  try {
-    const content = fs.readFileSync(comparisonFilePath, 'utf8');
-    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-    if (line) {
-      const tokens = line.split(' - ');
-      hash = tokens[2];
-      matches = tokens[3]?.trim().startsWith('1');
-    }
-  } catch (error) {
-    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
 
   let description = [
