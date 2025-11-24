@@ -39,7 +39,7 @@ MultiBank.io is a cryptocurrency exchange platform operated by MultiBank Group, 
 
 ## Analysis
 
-The service uses [cold storage](https://multibank.io/support/faq/privacy-and-security/security-and-regulation) and is therefore **custodial.**
+The service uses [cold storage](https://multibank.io/support/faq/privacy-and-security/security-and-regulation) and is therefore **custodial**.
 
 > Security & Regulation
 >
