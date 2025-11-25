@@ -161,8 +161,8 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
         });
         const duplicateArchs = Object.keys(archCounts).filter(a => archCounts[a] > 1);
         if (duplicateArchs.length > 0) {
-          appLog.error(`YAML has duplicate architecture entries: ${duplicateArchs.join(', ')}. Use nested files[] array instead.`);
-          verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML format error - duplicate architectures: ${duplicateArchs.join(', ')} ${architecture ? architecture : ''} ${type ? type : ''}`);
+          appLog.error(`YAML has duplicate architecture entries: ${duplicateArchs.join(', ')}. Use nested files[] array to list multiple files under ONE architecture entry. See docs/script_verifications.md for examples.`);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML format error - duplicate architectures: ${duplicateArchs.join(', ')} (requested: ${architecture}) ${type ? type : ''}`);
           return null;
         }
 
@@ -209,6 +209,12 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
               matches: result.match === true,
               files: [{ filename: '', hash: result.hash, match: result.match }]
             };
+          }
+          else {
+            // FIX #2d: Explicit error for malformed result (neither files nor hash)
+            appLog.error(`YAML result for ${architecture} has neither 'files' array nor 'hash' field`);
+            verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML malformed result: ${architecture} missing files/hash ${type ? type : ''}`);
+            return null;
           }
         } else {
           // FIX #3: Log when architecture not found in YAML
