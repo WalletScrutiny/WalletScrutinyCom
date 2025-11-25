@@ -175,7 +175,22 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
-  const { hash, matches } = comparisonResults;
+  const { hashes, matches, files } = comparisonResults;
+
+  // VALIDATION: Ensure hashes array is valid before publishing to Nostr
+  if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
+    appLog.error(`Cannot create verification: no hashes returned from comparison results`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | No hashes from comparison results: ${architecture ? architecture : ''} ${type ? type : ''}`);
+    return;
+  }
+
+  // VALIDATION: Ensure all hashes are valid SHA256 strings (64 hex characters)
+  const invalidHashes = hashes.filter(h => !h || typeof h !== 'string' || !/^[a-fA-F0-9]{64}$/.test(h));
+  if (invalidHashes.length > 0) {
+    appLog.error(`Cannot create verification: ${invalidHashes.length} invalid hash(es) - must be 64 hex characters`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Invalid hash format: ${architecture ? architecture : ''} ${type ? type : ''} invalid: ${invalidHashes.length}`);
+    return;
+  }
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -196,15 +211,25 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   .filter(Boolean)
   .join(' - ');
 
-  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
-  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+  // Build detailed content showing per-file match status
+  let fileDetails = '';
+  if (files && files.length > 1) {
+    const fileStatusList = files.map(f => 
+      `${f.filename || 'file'}: ${f.match ? 'MATCH ✓' : 'NO MATCH ✗'}`
+    ).join(', ');
+    fileDetails = ` Files: ${fileStatusList}.`;
+  }
+
+  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}.`;
+  content += fileDetails;
+  content += ` The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
     // Changed values
     basedOn: verification.id,
     version: newWalletVersion,
     status: matches ? 'reproducible' : 'not_reproducible',
-    hashes: [hash],
+    hashes: hashes,
     description: description,
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
@@ -218,7 +243,8 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   try {
     await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    const hashesStr = hashes.length > 1 ? `${hashes.length} files` : hashes[0];
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashesStr}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
@@ -226,7 +252,8 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    const hashesStr = hashes.length > 1 ? `${hashes.length} files` : hashes[0];
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashesStr}`);
   }
 }
 

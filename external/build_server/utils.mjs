@@ -143,9 +143,6 @@ export function getFirstTagValue(event, tagName, valueIfNull = '') {
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  let hash = null;
-  let matches = false;
-
   // First, try to find and read COMPARISON_RESULTS.yaml
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
@@ -155,15 +152,70 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
       if (data && data.results && Array.isArray(data.results)) {
+        // FIX #1: Check for duplicate architecture entries
+        const archCounts = {};
+        data.results.forEach(r => {
+          if (r.architecture) {
+            archCounts[r.architecture] = (archCounts[r.architecture] || 0) + 1;
+          }
+        });
+        const duplicateArchs = Object.keys(archCounts).filter(a => archCounts[a] > 1);
+        if (duplicateArchs.length > 0) {
+          appLog.error(`YAML has duplicate architecture entries: ${duplicateArchs.join(', ')}. Use nested files[] array instead.`);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML format error - duplicate architectures: ${duplicateArchs.join(', ')} ${architecture ? architecture : ''} ${type ? type : ''}`);
+          return null;
+        }
+
         const result = data.results.find(r => r.architecture === architecture);
         if (result) {
-          hash = result.hash || null;
-          matches = result.match === true;
+          // NEW: Handle nested files array (Option B)
+          if (result.files && Array.isArray(result.files)) {
+            // FIX #2a: Validate files array is not empty
+            if (result.files.length === 0) {
+              appLog.error(`YAML result for ${architecture} has empty files array`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML empty files array: ${architecture} ${type ? type : ''}`);
+              return null;
+            }
+
+            // FIX #2b: Validate each file has a valid hash
+            const filesWithoutHash = result.files.filter(f => !f.hash || typeof f.hash !== 'string' || f.hash.length === 0);
+            if (filesWithoutHash.length > 0) {
+              appLog.error(`YAML result for ${architecture} has ${filesWithoutHash.length} file(s) without valid hash`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML missing hashes: ${architecture} ${filesWithoutHash.length} file(s) ${type ? type : ''}`);
+              return null;
+            }
+
+            const hashes = result.files.map(f => f.hash);
+            const allMatch = result.files.every(f => f.match === true);
+            appLog.info(`YAML parsed (nested files): ${hashes.length} files, allMatch=${allMatch}`);
+            return {
+              hashes: hashes,
+              matches: allMatch,
+              files: result.files
+            };
+          }
+          // OLD: Backward compatibility for single hash field
+          else if (result.hash) {
+            // FIX #2c: Validate single hash field
+            if (typeof result.hash !== 'string' || result.hash.length === 0) {
+              appLog.error(`YAML result for ${architecture} has invalid hash field`);
+              verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML invalid hash: ${architecture} ${type ? type : ''}`);
+              return null;
+            }
+
+            appLog.info(`YAML parsed (legacy single hash): hash=${result.hash}, match=${result.match}`);
+            return {
+              hashes: [result.hash],
+              matches: result.match === true,
+              files: [{ filename: '', hash: result.hash, match: result.match }]
+            };
+          }
+        } else {
+          // FIX #3: Log when architecture not found in YAML
+          const availableArchs = data.results.map(r => r.architecture).filter(Boolean).join(', ');
+          appLog.warn(`YAML exists but no result for architecture '${architecture}'. Available: ${availableArchs || 'none'}`);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | YAML architecture not found: requested '${architecture}', available: ${availableArchs || 'none'} ${type ? type : ''}`);
         }
-      }
-      
-      if (hash !== null) {
-        return { hash, matches };
       }
     } catch (error) {
       appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
@@ -182,12 +234,18 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
     const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
     if (line) {
       const tokens = line.split(' - ');
-      hash = tokens[2];
-      matches = tokens[3]?.trim().startsWith('1');
+      const hash = tokens[2];
+      const matches = tokens[3]?.trim().startsWith('1');
+      appLog.info(`TXT parsed: hash=${hash}, matches=${matches}`);
+      return { 
+        hashes: [hash], 
+        matches: matches,
+        files: [{ filename: tokens[0], hash: hash, match: matches }]
+      };
     }
   } catch (error) {
     appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
-  return { hash, matches };
+  return null;
 }
