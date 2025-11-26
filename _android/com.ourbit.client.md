@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: com.ourbit.client
 appCountry: 
@@ -18,15 +19,25 @@ issue:
 icon: com.ourbit.client.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2025-11-09
+date: 2025-11-26
 signer: 
-twitter: 
-social: 
+twitter: ourbit
+social:
+- https://t.me/Ourbitglobal
+- https://www.linkedin.com/company/ourbit-exchange
+- https://www.youtube.com/@ourbitexchange
 redirect_from: 
 developerName: Ourbit
 features: 
 
 ---
 
+## App Description
+
+Ourbit is a centralized cryptocurrency exchange platform that provides spot and futures trading services. The app supports buying, selling, and trading Bitcoin, Ethereum, and other cryptocurrencies with zero spot trading fees and futures trading fees starting from 0.01%. The platform offers leverage trading up to 400× and specializes in memecoin listings and liquidity. According to their website, the platform uses offline storage (cold wallets) for asset custody and implements Proof of Reserves (PoR) for transparency, indicating users' funds are held by the exchange rather than controlled by individual users.
+
+## Analysis
+
+Cold wallet custody implementation indicates the exchange maintains control over users' private keys, making this a **custodial** platform.
