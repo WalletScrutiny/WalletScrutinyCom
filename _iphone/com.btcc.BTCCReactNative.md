@@ -8,10 +8,10 @@ appId: com.btcc.BTCCReactNative
 appCountry: us
 idd: '1195786666'
 released: 2017-01-20
-updated: 2025-11-04
-version: 3.5.01
+updated: 2025-11-14
+version: 3.5.02
 stars: 4.5
-reviews: 181
+reviews: 180
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 repository: 
 issue: 

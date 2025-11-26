@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-11-19
+date: 2025-11-26
 signer: 
 twitter: 
 social: 

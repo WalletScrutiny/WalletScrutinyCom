@@ -11,8 +11,8 @@ idd: 1397831096
 released: 2019-03-05
 updated: 2025-11-02
 version: 98.0.0
-stars: 1.9
-reviews: 180
+stars: 2
+reviews: 182
 website: https://www.etoro.com/crypto/wallet/
 repository: 
 issue: 

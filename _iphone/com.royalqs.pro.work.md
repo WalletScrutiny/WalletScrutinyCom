@@ -8,8 +8,8 @@ appId: com.royalqs.pro.work
 appCountry: jp
 idd: '1587849038'
 released: 2021-10-06
-updated: 2025-11-05
-version: 6.0.7
+updated: 2025-11-26
+version: 6.0.9
 stars: 3.7
 reviews: 6
 website: https://royalqs.com

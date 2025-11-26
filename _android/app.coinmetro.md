@@ -8,8 +8,8 @@ users: 50000
 appId: app.coinmetro
 appCountry: us
 released: 2017-12-10
-updated: 2025-11-06
-version: 5.50.958
+updated: 2025-11-19
+version: 5.50.969
 stars: 4.3
 ratings: 419
 reviews: 87

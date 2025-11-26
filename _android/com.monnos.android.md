@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.monnos.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-09-23
+date: 2025-11-26
 signer: 
 twitter: monnosGlobal
 social:

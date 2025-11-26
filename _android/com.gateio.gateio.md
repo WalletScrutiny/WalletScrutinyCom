@@ -8,11 +8,11 @@ users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2025-11-07
-version: 7.27.5
+updated: 2025-11-25
+version: 7.29.1
 stars: 4.3
 ratings: 17546
-reviews: 6883
+reviews: 6889
 website: https://www.gate.com/
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/gateioglobal
 - https://www.reddit.com/r/GateioExchange
 redirect_from: 
-developerName: Gate Global, Corp.
+developerName: Gate.com
 features: 
 
 ---

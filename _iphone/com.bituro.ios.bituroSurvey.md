@@ -11,7 +11,7 @@ released: 2017-07-15
 updated: 2025-10-28
 version: 2.8.1
 stars: 4.5
-reviews: 480
+reviews: 482
 website: https://bituro.com/app/v2/contact
 repository: 
 issue: 

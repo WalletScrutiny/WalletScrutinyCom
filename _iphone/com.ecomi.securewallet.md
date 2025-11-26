@@ -11,7 +11,7 @@ released: 2018-08-25
 updated: 2025-04-22
 version: 3.0.10
 stars: 4.3
-reviews: 57
+reviews: 58
 website: https://wallet.ecomi.com/
 repository: 
 issue: 

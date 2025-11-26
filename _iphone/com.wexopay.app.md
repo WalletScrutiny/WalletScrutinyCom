@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.wexopay.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-06-30
+date: 2025-11-26
 signer: 
 twitter: WexoOfficial
 social:

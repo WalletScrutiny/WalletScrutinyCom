@@ -11,7 +11,7 @@ appCountry:
 released: 2020-11-24
 updated: 2025-10-29
 version: 2.4.8
-stars: 4.7
+stars: 4.8
 ratings: 
 reviews: 44
 website: https://blink.sv/

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: 
-date: 2024-10-07
+date: 2025-11-26
 signer: 
 twitter: Trustee_Wallet
 social:

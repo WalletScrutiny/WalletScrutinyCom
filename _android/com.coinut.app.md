@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinut.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-01
+date: 2025-11-26
 signer: 
 twitter: coinut_exchange
 social:

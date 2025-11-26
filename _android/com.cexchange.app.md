@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cexchange.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-15
+date: 2025-11-26
 signer: 
 twitter: cExchange2
 social:

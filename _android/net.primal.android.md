@@ -10,9 +10,9 @@ appCountry:
 released: 2024-07-09
 updated: 2025-10-28
 version: 2.5.22
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 19
+reviews: 20
 website: https://www.primal.net
 repository: 
 issue: 

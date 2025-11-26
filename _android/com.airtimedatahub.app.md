@@ -27,7 +27,7 @@ twitter: airtimedatahub
 social:
 - https://www.facebook.com/Airtimedatahub
 redirect_from: 
-developerName: Codefixbug
+developerName: Nurenta Global Concept Limited
 features: 
 
 ---

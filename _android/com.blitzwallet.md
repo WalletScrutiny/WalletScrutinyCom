@@ -8,8 +8,8 @@ users: 1000
 appId: com.blitzwallet
 appCountry: 
 released: 2025-09-29
-updated: 2025-11-04
-version: 0.6.6
+updated: 2025-11-21
+version: 0.6.9
 stars: 
 ratings: 
 reviews: 

@@ -28,7 +28,7 @@ social:
 - https://www.instagram.com/bitbank_official
 - https://www.facebook.com/bitbank.inc
 redirect_from: 
-developerName: bitbank inc.
+developerName: Bitbank, Inc.
 features: 
 
 ---

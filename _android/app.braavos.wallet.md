@@ -8,8 +8,8 @@ users: 100000
 appId: app.braavos.wallet
 appCountry: 
 released: 2022-07-12
-updated: 2025-10-30
-version: 4.13.1
+updated: 2025-11-24
+version: 4.15.2
 stars: 4.7
 ratings: 
 reviews: 36

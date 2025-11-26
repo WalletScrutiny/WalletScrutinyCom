@@ -8,10 +8,10 @@ appId: com.bunq.ios
 appCountry: de
 idd: '1021178150'
 released: 2016-02-12
-updated: 2025-11-06
-version: 29.8.0
+updated: 2025-11-21
+version: 29.10.0
 stars: 4.5
-reviews: 11962
+reviews: 12147
 website: https://www.bunq.com
 repository: 
 issue: 

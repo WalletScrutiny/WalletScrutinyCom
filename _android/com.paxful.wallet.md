@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.paxful.wallet.png
 bugbounty: https://paxful.com/bug-bounty-policy
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2020-10-12
+date: 2025-11-26
 signer: 
 twitter: paxful
 social:

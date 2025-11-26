@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.yellowcard.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: []
-date: 2021-07-28
+date: 2025-11-26
 signer: 
 twitter: yellowcard_app
 social:

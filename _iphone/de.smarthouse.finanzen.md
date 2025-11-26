@@ -11,7 +11,7 @@ released: 2008-11-21
 updated: 2025-10-27
 version: 8.2.1
 stars: 4.7
-reviews: 279
+reviews: 281
 website: http://www.finanzen.net/apps
 repository: 
 issue: 

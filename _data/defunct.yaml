@@ -1,19 +1,15 @@
-2025-11-05:
-- _android/com.forumpay
-- _android/com.fxoro.app
-- _android/com.lumiwallet.android
-- _android/com.paxful.wallet
-- _android/cz.hundredspires.wexo
-- _iphone/com.bitoshi
-- _iphone/com.catecoin.crypto.wallet
-- _iphone/com.lanistar.lanistarprod
-- _iphone/com.obsidiam.appstore
-- _iphone/com.roseon.finance.production
-- _iphone/com.trader.finq
-- _iphone/com.webcom.Xfacia
-- _iphone/com.wexopay.app
-- _iphone/io.yellowcard.app
-- _iphone/org.reactjs.native.example.AccruApp
-2025-11-10:
-- _iphone/com.getcoins.gcwallet
-- _iphone/com.gmo.exchange
+2025-11-26:
+- _android/com.breadwallet
+- _android/com.ofinans.ofinansapp
+- _android/com.okinc.okcoin.intl
+- _android/com.ofinans.miraclepos
+- _android/com.royalqs.royalq
+- _android/com.zedpay.app.android
+- _android/io.kryll.app2
+- _iphone/com.bitmama.bitmama.ios
+- _iphone/com.buyucoin
+- _iphone/com.elyps
+- _iphone/com.oduwatrustwallet.ios
+- _iphone/com.okcoin.OKCoinAppstore
+- _iphone/com.sessipapp.Sessip
+- _iphone/com.zipwallet.ios

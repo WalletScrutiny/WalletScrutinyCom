@@ -8,8 +8,8 @@ users: 10000000
 appId: de.number26.android
 appCountry: 
 released: 2015-01-23
-updated: 2025-11-05
-version: '4.38'
+updated: 2025-11-14
+version: '4.39'
 stars: 3.2
 ratings: 
 reviews: 2162

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.icointechnology.wallet.companion.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2025-02-28
+date: 2025-11-26
 signer: 
 twitter: icoin_crypto
 social:

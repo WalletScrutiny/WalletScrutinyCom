@@ -10,8 +10,8 @@ idd: '1587374229'
 released: 2022-05-03
 updated: 2025-11-10
 version: 2.15.4
-stars: 4.4
-reviews: 38
+stars: 4.3
+reviews: 40
 website: https://www.unbank.com/
 repository: 
 issue: 

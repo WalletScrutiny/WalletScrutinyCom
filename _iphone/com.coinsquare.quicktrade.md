@@ -11,7 +11,7 @@ released: 2021-02-05
 updated: 2025-10-30
 version: 5.3.2
 stars: 4.6
-reviews: 5384
+reviews: 5383
 website: https://coinsquare.com
 repository: 
 issue: 

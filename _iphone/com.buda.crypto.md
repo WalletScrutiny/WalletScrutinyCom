@@ -8,8 +8,8 @@ appId: com.buda.crypto
 appCountry: ar
 idd: 1321460860
 released: 2018-01-04
-updated: 2025-09-30
-version: 2025.9.5
+updated: 2025-11-18
+version: 2025.11.4
 stars: 5
 reviews: 1
 website: https://www.buda.com

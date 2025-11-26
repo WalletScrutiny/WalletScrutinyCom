@@ -12,7 +12,7 @@ updated: 2025-10-20
 version: 5.5.1
 stars: 4.8
 ratings: 
-reviews: 50
+reviews: 51
 website: https://cakewallet.com
 repository: 
 issue: 

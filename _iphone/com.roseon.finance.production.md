@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.roseon.finance.production.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-10-01
+date: 2025-11-26
 signer: 
 twitter: RoseonFinance
 social:

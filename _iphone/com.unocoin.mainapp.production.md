@@ -11,7 +11,7 @@ released: 2016-05-12
 updated: 2025-10-30
 version: 6.2.71
 stars: 3.6
-reviews: 1557
+reviews: 1561
 website: https://www.unocoin.com
 repository: 
 issue: 

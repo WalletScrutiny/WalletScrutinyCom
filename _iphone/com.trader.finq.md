@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.trader.finq.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2022-07-11
+date: 2025-11-26
 signer: 
 twitter: finqcom
 social: 

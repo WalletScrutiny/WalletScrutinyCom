@@ -10,7 +10,7 @@ appCountry: il
 released: 2020-11-16
 updated: 2025-10-20
 version: 3.4.2
-stars: 4.7
+stars: 4.5
 ratings: 744
 reviews: 7
 website: https://axiainvestments.com/

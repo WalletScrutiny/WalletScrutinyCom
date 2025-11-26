@@ -8,8 +8,8 @@ users: 10000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2025-10-21
-version: 1.9.3
+updated: 2025-11-21
+version: 1.9.4
 stars: 3.3
 ratings: 
 reviews: 10

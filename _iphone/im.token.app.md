@@ -11,7 +11,7 @@ released: 2018-06-07
 updated: 2025-11-07
 version: 2.17.3
 stars: 4.2
-reviews: 1047
+reviews: 1053
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

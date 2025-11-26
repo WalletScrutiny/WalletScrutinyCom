@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.reactjs.native.example.AccruApp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-31
+date: 2025-11-26
 signer: 
 twitter: AQRU_Official
 social:

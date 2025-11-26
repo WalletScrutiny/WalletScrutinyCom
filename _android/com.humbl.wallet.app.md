@@ -12,7 +12,7 @@ updated: 2025-10-05
 version: 1.0.70
 stars: 4.8
 ratings: 
-reviews: 49
+reviews: 48
 website: https://tapwallet.com/
 repository: 
 issue: 
