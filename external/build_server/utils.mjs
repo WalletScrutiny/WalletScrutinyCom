@@ -1,12 +1,14 @@
 import { exec, execSync } from 'child_process';
 import fs from 'fs';
 import yaml from 'js-yaml';
+import minimist from 'minimist';
 import { appLog, verificationsLog } from './logger.js';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
 export function isDebugEnv() {
-  return false;
+  const args = minimist(process.argv.slice(2));
+  return args.debug === true || args.debug === 'true';
 }
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
