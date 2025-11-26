@@ -24,15 +24,74 @@ We need to be able to run the scripts automatically on the build server when a n
 5. We `cannot rely on our build server` utilities or scripts, as people won't have access to it
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
-8. The result of the execution of the script should both
-  - be `shown on the screen` ("Hash of the binary = xxxx, Hash of the compiled = yyyyy, It matches. / This are the differences between the binary and the compiled") for human verifiers
-  - `use a return code` of 0 if the verification is reproducible, and 1 if it's not.
-9. The parameters of the script should be:
+8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
+9. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
 
-   `-v`: version of the app (without the v prefix)
+```yaml
+date: 2025-11-24T09:03:00+0000
+script_version: v0.8.0
+build_type: standalone
+results:
+  - architecture: arm64-v8a
+    - filename: base.apk
+      hash: abc123...
+      match: true
+    - filename: config.arm64_v8a.apk
+      hash: def456...
+      match: true
+  - architecture: x86_64-linux
+    - filename: config.en.apk
+      hash: ghi789...
+      match: true
+    - filename: config.xxhdpi.apk
+      hash: jkl012...
+      match: false
+```
 
-   `-t`: (optional) type of the app (bitcoin, multi, etc)
+The important parts:
+- the `architecture` is taken from the `--arch` parameter passed to the script
+- the `hash` of the produced file (3rd token)
+- the `match` that reflects if it's reproducible (true) or not-reproducible (false) in the (4rd token).
 
-   `-a`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
+10. The call parameters for the script should be:
 
-10. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+  `--version`: version of the app (without the v prefix)
+
+  `--arch`: (optional) architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
+
+  `--type`: (optional) type of the app (bitcoin, multi, ...)
+
+  `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
+
+11. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+
+# Results File
+
+The results file should be created by the build script after compilation. It should be named `COMPARISON_RESULTS.yaml` and be in the same directory as the script. It should be in YAML format and contain the following information:
+
+- `date`: the date and time of the verification
+- `script_version`: the version of the script
+- `build_type`: the type of the build (standalone, bundle, etc)
+- `results`: an array of objects with the following information:
+  - `- filename`: the name of the binary file that was compiled
+  - `architecture`: the architecture of the file (must match what was passed as a parameter to the script)
+  - `status`: the status of the verification (reproducible, not_reproducible, ftbfs, spam, notag, nosource, warning, obfuscated)
+  - `match`: true if the hash of the binary file matches the hash of the compiled file, false otherwise
+  - `hash`: an array with the hashes of the files
+
+# Wallet files
+
+Wallet files (.md) need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
+
+```json
+architectures:
+- x86_64-linux-gnu
+- win64
+types:
+- bitcoin
+- multi
+```
+
+Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
+
+The Build Server will iterate through all combinations of architectures and types, passing the appropiate `--arch` and `--type` parameters to the build script.
