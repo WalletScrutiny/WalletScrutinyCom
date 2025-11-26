@@ -143,7 +143,7 @@ export function getFirstTagValue(event, tagName, valueIfNull = '') {
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  let hash = null;
+  let hashes = [];
   let matches = false;
 
   // First, try to find and read COMPARISON_RESULTS.yaml
@@ -154,16 +154,42 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
       const data = yaml.load(yamlContent);
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
-      if (data && data.results && Array.isArray(data.results)) {
-        const result = data.results.find(r => r.architecture === architecture);
-        if (result) {
-          hash = result.hash || null;
-          matches = result.match === true;
+      if (data?.results) {
+        // Find all results matching the architecture
+        const architectureResults = data.results.filter(r => r.architecture === architecture);
+
+        if (architectureResults.length > 0) {
+          const allFileMatches = [];
+          
+          for (const result of architectureResults) {
+            // Check if it's the new format with files array
+            if (result.files && Array.isArray(result.files)) {
+              // New format: multiple files per architecture
+              const fileHashes = result.files
+                .filter(file => file.hash)
+                .map(file => file.hash);
+              hashes.push(...fileHashes);
+              
+              // Collect match status for each file
+              result.files.forEach(file => {
+                if (file.hash) {
+                  allFileMatches.push(file.match === true);
+                }
+              });
+            } else if (result.hash) {
+              // Old format or flat format: single hash per entry
+              hashes.push(result.hash);
+              allFileMatches.push(result.match === true);
+            }
+          }
+          
+          // All files/entries must match for overall match to be true
+          matches = allFileMatches.length > 0 && allFileMatches.every(m => m === true);
         }
       }
-      
-      if (hash !== null) {
-        return { hash, matches };
+
+      if (hashes.length > 0) {
+        return { hashes, matches };
       }
     } catch (error) {
       appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
@@ -182,12 +208,20 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
     const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
     if (line) {
       const tokens = line.split(' - ');
-      hash = tokens[2];
-      matches = tokens[3]?.trim().startsWith('1');
+      const hash = tokens[2];
+      if (hash) {
+        hashes = [hash];
+        matches = tokens[3]?.trim().startsWith('1');
+      }
     }
   } catch (error) {
     appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
-  return { hash, matches };
+  
+  if (hashes.length === 0) {
+    return null;
+  }
+  
+  return { hashes, matches };
 }
