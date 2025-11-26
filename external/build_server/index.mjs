@@ -344,18 +344,23 @@ const githubToken = args.githubToken;
 const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
 
 if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token>');
+  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug]');
   process.exit(1);
 }
 
 if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key>');
+  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug]');
   process.exit(1);
 }
 
-fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
+const isDebug = args.debug === true || args.debug === 'true';
+if (isDebug) {
+  appLog.info('======= DEBUG MODE ENABLED =======');
+}
 
 appLog.info('======= Starting Build Server App =======');
+
+fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
 while (true) {
   try {
