@@ -196,12 +196,12 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   .filter(Boolean)
   .join(' - ');
 
-  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
+  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
     // Changed values
-    basedOn: verification.id,
+    basedOn: verification.pubkey,
     version: newWalletVersion,
     status: matches ? 'reproducible' : 'not_reproducible',
     hashes: hashes,
