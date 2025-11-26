@@ -51,10 +51,10 @@ The wallet setup included:
 - The seed phrase does not actually control the private keys
 - The implementation is broken
 
-A truly self-custodial wallet must allow users to recover funds using standard BIP39-compatible wallets. **This app fails that test and cannot be verified as self-custodial.**
+A truly self-custodial wallet must allow users to recover funds using standard BIP39-compatible wallets. **This app fails that test and cannot be verified as self-custodial**.
 
 This is particularly concerning since their [terms of service](https://palwallet.com/terms-of-service/) state: 
 
 > Upon termination, the user’s access to the services will be disabled, and any data retained will be handled in accordance with our Privacy Policy and applicable law.
 
-[PalShield](https://palwallet.com/palshield/) uses Multi-Party Computation (MPC) to split private keys into pieces stored across both the user's device and PalWallet's servers, combined with a "5FA" system requiring device ownership, password, behavioral metrics, biometric data (face and voice), and server verification. This architecture means users cannot recover funds using only their seed phrase, as the recovery process requires active participation from PalWallet's servers to authenticate the five factors and reconstruct the key fragments. Despite marketing claims of "self-custody," this server-dependent design makes PalWallet effectively custodial, as users lose access to their funds if the company's infrastructure becomes unavailable.
+[PalShield](https://palwallet.com/palshield/) uses Multi-Party Computation (MPC) to split private keys into pieces stored across both the user's device and PalWallet's servers, combined with a "5FA" system requiring device ownership, password, behavioral metrics, biometric data (face and voice), and server verification. This architecture means users cannot recover funds using only their seed phrase, as the recovery process requires active participation from PalWallet's servers to authenticate the five factors and reconstruct the key fragments. Despite marketing claims of "self-custody", this server-dependent design makes PalWallet effectively custodial, as users lose access to their funds if the company's infrastructure becomes unavailable.

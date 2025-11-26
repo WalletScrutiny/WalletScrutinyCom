@@ -41,6 +41,6 @@ According to their website, users control their own recovery phrases and private
 
 We [tested](https://x.com/BitcoinWalletz/status/1993609718217273471) the app and can confirm Bitcoin support. We were also provided with the 12-word seed phrase and [successfully imported this into Electrum](https://x.com/BitcoinWalletz/status/1993610225899974666). The address provided by the app matches: `bc1qrmydzhn9p0uwes36nf0slyj3ka7y94j773j7nh`
 
-We then searched for claims regarding source-availability but did not find any. We also searched for its play id in GitHub Code but[did not find any relevant results.](https://github.com/search?q=%22com.pilab.pockie%22&type=code). 
+We then searched for claims regarding source-availability but did not find any. We also searched for its play id in GitHub Code but[did not find any relevant results](https://github.com/search?q=%22com.pilab.pockie%22&type=code).
 
 This app is **not source-available**.
