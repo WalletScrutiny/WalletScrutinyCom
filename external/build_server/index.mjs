@@ -171,11 +171,11 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
 
   const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
   if (!comparisonResults) {
-    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
+    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
-  const { hash, matches } = comparisonResults;
+  const { hashes, matches } = comparisonResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -204,7 +204,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     basedOn: verification.id,
     version: newWalletVersion,
     status: matches ? 'reproducible' : 'not_reproducible',
-    hashes: [hash],
+    hashes: hashes,
     description: description,
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
@@ -218,7 +218,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   try {
     await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
@@ -226,7 +226,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
   }
 }
 
