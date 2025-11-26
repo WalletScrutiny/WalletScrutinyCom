@@ -6,7 +6,7 @@ const { createLogger, format, transports } = winston;
 
 function makeFileTransport(filenameBase) {
   return new DailyRotateFile({
-    filename: isDebugEnv() ? `logs/${filenameBase}-%DATE%.log` : `/var/log/build-server/${filenameBase}-%DATE%.log`,
+    filename: `logs/${filenameBase}-%DATE%.log`,  // Always use local logs/ directory
     datePattern: 'YYYY-MM-DD',       // rotate every day
     zippedArchive: true,             // compress with .gz
     maxSize: '10m',                  // rotate if exceeds 20MB before the day

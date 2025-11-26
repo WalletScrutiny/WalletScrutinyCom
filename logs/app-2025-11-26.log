@@ -1,0 +1,177 @@
+2025-11-26T11:17:49.401Z [info]: ======= Starting Build Server App =======
+2025-11-26T11:17:49.403Z [info]: ------- Starting mainProcess -------
+2025-11-26T11:17:49.403Z [info]: Refreshing desktop and hardware wallet versions...
+2025-11-26T11:17:49.404Z [info]:   * Running refreshDesktop...
+2025-11-26T11:17:49.408Z [info]:   * Running refreshHardware...
+2025-11-26T11:18:55.532Z [info]: Refresh completed: 26 desktop apps, 23 hardware apps
+2025-11-26T11:18:55.534Z [info]: Refreshed 49 apps (26 desktop, 23 hardware)
+2025-11-26T11:18:55.535Z [info]: Fetching app info from https://walletscrutiny.com/assets/js/json/buildServerInfo.json...
+2025-11-26T11:18:56.692Z [info]: App info fetched successfully
+2025-11-26T11:18:56.693Z [info]: Connecting to Nostr relays...
+2025-11-26T11:18:58.748Z [info]: Successfully connected to Nostr
+2025-11-26T11:18:58.748Z [info]: Getting wallet information from Nostr...
+2025-11-26T11:19:01.178Z [info]: Information retrieved successfully
+2025-11-26T11:19:01.180Z [info]: === Reproducible Verifications ===
+2025-11-26T11:19:01.180Z [info]: Total found: 0
+2025-11-26T11:19:01.180Z [info]: No reproducible verifications found.
+2025-11-26T11:19:01.181Z [info]: ======= Waiting 24 hours until next execution... =======
+
+2025-11-26T11:20:31.243Z [info]: ======= Starting Build Server App =======
+2025-11-26T11:20:31.245Z [info]: ------- Starting mainProcess -------
+2025-11-26T11:20:31.245Z [info]: Refreshing desktop and hardware wallet versions...
+2025-11-26T11:20:31.246Z [info]:   * Running refreshDesktop...
+2025-11-26T11:20:31.250Z [info]:   * Running refreshHardware...
+2025-11-26T11:21:36.197Z [info]: Refresh completed: 26 desktop apps, 23 hardware apps
+2025-11-26T11:21:36.198Z [info]: Refreshed 49 apps (26 desktop, 23 hardware)
+2025-11-26T11:21:36.198Z [info]: Fetching app info from https://walletscrutiny.com/assets/js/json/buildServerInfo.json...
+2025-11-26T11:21:37.321Z [info]: App info fetched successfully
+2025-11-26T11:21:37.321Z [info]: Connecting to Nostr relays...
+2025-11-26T11:21:39.376Z [info]: Successfully connected to Nostr
+2025-11-26T11:21:39.377Z [info]: Getting wallet information from Nostr...
+2025-11-26T11:21:41.789Z [info]: Information retrieved successfully
+2025-11-26T11:21:41.791Z [info]: === Reproducible Verifications ===
+2025-11-26T11:21:41.791Z [info]: Total found: 0
+2025-11-26T11:21:41.791Z [info]: No reproducible verifications found.
+2025-11-26T11:21:41.791Z [info]: ======= Waiting 24 hours until next execution... =======
+
+2025-11-26T11:25:14.891Z [info]: ======= Starting Build Server App =======
+2025-11-26T11:25:14.893Z [info]: ------- Starting mainProcess -------
+2025-11-26T11:25:14.894Z [info]: Refreshing desktop and hardware wallet versions...
+2025-11-26T11:25:14.894Z [info]:   * Running refreshDesktop...
+2025-11-26T11:25:14.898Z [info]:   * Running refreshHardware...
+2025-11-26T11:26:20.507Z [info]: Refresh completed: 26 desktop apps, 23 hardware apps
+2025-11-26T11:26:20.508Z [info]: Refreshed 49 apps (26 desktop, 23 hardware)
+2025-11-26T11:26:20.508Z [info]: Fetching app info from https://walletscrutiny.com/assets/js/json/buildServerInfo.json...
+2025-11-26T11:26:21.674Z [info]: App info fetched successfully
+2025-11-26T11:26:21.675Z [info]: Connecting to Nostr relays...
+2025-11-26T11:26:23.732Z [info]: Successfully connected to Nostr
+2025-11-26T11:26:23.733Z [info]: Getting wallet information from Nostr...
+2025-11-26T11:26:26.389Z [info]: Information retrieved successfully
+2025-11-26T11:26:26.390Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:26:26.390Z [info]:   - App ID: org.electrum.electrum
+2025-11-26T11:26:26.390Z [info]:   - Status: reproducible
+2025-11-26T11:26:26.390Z [info]:   - Platform: android
+2025-11-26T11:26:26.390Z [info]:   - Version: 4.6.2
+2025-11-26T11:26:26.390Z [info]:   - File attachments: 1
+2025-11-26T11:26:26.390Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:26:26.391Z [info]:   - App ID: org.electrum.electrum
+2025-11-26T11:26:26.391Z [info]:   - Status: reproducible
+2025-11-26T11:26:26.391Z [info]:   - Platform: android
+2025-11-26T11:26:26.391Z [info]:   - Version: 4.6.2
+2025-11-26T11:26:26.391Z [info]:   - File attachments: 1
+2025-11-26T11:26:26.391Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:26:26.391Z [info]:   - App ID: org.electrum.electrum
+2025-11-26T11:26:26.391Z [info]:   - Status: reproducible
+2025-11-26T11:26:26.391Z [info]:   - Platform: android
+2025-11-26T11:26:26.391Z [info]:   - Version: 4.6.2
+2025-11-26T11:26:26.392Z [info]:   - File attachments: 1
+2025-11-26T11:26:26.392Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:26:26.392Z [info]:   - App ID: org.electrum.electrum
+2025-11-26T11:26:26.392Z [info]:   - Status: reproducible
+2025-11-26T11:26:26.392Z [info]:   - Platform: android
+2025-11-26T11:26:26.392Z [info]:   - Version: 4.6.1
+2025-11-26T11:26:26.392Z [info]:   - File attachments: 1
+2025-11-26T11:26:26.392Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:26:26.392Z [info]:   - App ID: org.electrum.electrum
+2025-11-26T11:26:26.392Z [info]:   - Status: reproducible
+2025-11-26T11:26:26.392Z [info]:   - Platform: android
+2025-11-26T11:26:26.392Z [info]:   - Version: 4.5.7
+2025-11-26T11:26:26.392Z [info]:   - File attachments: 1
+2025-11-26T11:26:26.393Z [info]: === Reproducible Verifications ===
+2025-11-26T11:26:26.393Z [info]: Total found: 0
+2025-11-26T11:26:26.393Z [info]: No reproducible verifications found.
+2025-11-26T11:26:26.393Z [info]: ======= Waiting 24 hours until next execution... =======
+
+2025-11-26T11:32:03.160Z [info]: ======= Starting Build Server App =======
+2025-11-26T11:32:03.162Z [info]: ------- Starting mainProcess -------
+2025-11-26T11:32:03.163Z [info]: Refreshing desktop and hardware wallet versions...
+2025-11-26T11:32:03.163Z [info]:   * Running refreshDesktop...
+2025-11-26T11:32:03.168Z [info]:   * Running refreshHardware...
+2025-11-26T11:33:08.281Z [info]: Refresh completed: 26 desktop apps, 23 hardware apps
+2025-11-26T11:33:08.282Z [info]: Refreshed 49 apps (26 desktop, 23 hardware)
+2025-11-26T11:33:08.282Z [info]: Fetching app info from https://walletscrutiny.com/assets/js/json/buildServerInfo.json...
+2025-11-26T11:33:09.422Z [info]: App info fetched successfully
+2025-11-26T11:33:09.422Z [info]: Connecting to Nostr relays...
+2025-11-26T11:33:11.481Z [info]: Successfully connected to Nostr
+2025-11-26T11:33:11.482Z [info]: Getting wallet information from Nostr...
+2025-11-26T11:33:13.987Z [info]: Information retrieved successfully
+2025-11-26T11:33:13.988Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.988Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.988Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.988Z [info]:   - Platform: linux
+2025-11-26T11:33:13.988Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.988Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.988Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.988Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.989Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.989Z [info]:   - Platform: linux
+2025-11-26T11:33:13.989Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.989Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.989Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.989Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.989Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.989Z [info]:   - Platform: linux
+2025-11-26T11:33:13.989Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.989Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.989Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.989Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.989Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.989Z [info]:   - Platform: windows
+2025-11-26T11:33:13.990Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.990Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.990Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.990Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.990Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.990Z [info]:   - Platform: windows
+2025-11-26T11:33:13.990Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.990Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.990Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.990Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.990Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.990Z [info]:   - Platform: windows
+2025-11-26T11:33:13.990Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.990Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.990Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.990Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.990Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.990Z [info]:   - Platform: windows
+2025-11-26T11:33:13.990Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.990Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.990Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.990Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.991Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.991Z [info]:   - Platform: windows
+2025-11-26T11:33:13.991Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.991Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.991Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.991Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.991Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.991Z [info]:   - Platform: windows
+2025-11-26T11:33:13.991Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.991Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.991Z [info]: [DEBUG] Found Electrum verification:
+2025-11-26T11:33:13.991Z [info]:   - App ID: electrum
+2025-11-26T11:33:13.991Z [info]:   - Status: reproducible
+2025-11-26T11:33:13.991Z [info]:   - Platform: windows
+2025-11-26T11:33:13.991Z [info]:   - Version: 4.6.2
+2025-11-26T11:33:13.991Z [info]:   - File attachments: 1
+2025-11-26T11:33:13.992Z [info]: === Reproducible Verifications ===
+2025-11-26T11:33:13.992Z [info]: Total found: 10
+2025-11-26T11:33:13.993Z [info]: [DEBUG MODE] Forcing verification for electrum: 4.6.2 (latest verification) ==> 4.6.2 (latest version in wallet repo)
+2025-11-26T11:33:14.304Z [info]:  *** architectures: win64
+2025-11-26T11:33:14.305Z [info]:  *** types: setup
+2025-11-26T11:33:14.305Z [info]: electrum | 4.6.2 | linux | sh script found: /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build.sh
+2025-11-26T11:33:14.305Z [info]:    ** Add job to queue: architecture: win64, type: setup, new wallet version: 4.6.2 - /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build.sh ***
+2025-11-26T11:33:14.306Z [info]: **** Queue info - Waiting (0)  Running (0): []
+2025-11-26T11:33:14.306Z [info]: Recording and executing script: cd /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup && asciinema rec --overwrite -c "sleep 2; /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build.sh --version 4.6.2 --arch win64 --type setup ; echo scriptrc=\$?" /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build_win64_setup.cast
+2025-11-26T11:33:14.311Z [info]: ======= Waiting 24 hours until next execution... =======
+
+2025-11-26T11:56:12.755Z [info]: Script recorded and executed successfully: /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build_win64_setup.cast
+2025-11-26T11:56:12.755Z [info]: **** Queue info - Waiting (0)  Running (0): []
+2025-11-26T11:56:12.756Z [info]: Script execution job completed. Creating verification...
+2025-11-26T11:56:12.768Z [info]: COMPARISON_RESULTS.yaml content: {"date":"2025-11-26T11:56:12+0000","script_version":"v0.9.2","build_type":"setup","results":[{"architecture":"win64","filename":"electrum-4.6.2-setup.exe","hash":"c78d1bac74cc869e4b96e586dd4e0a1b4d6f535e62ee7737bc805692c146b208","match":true,"status":"reproducible"}]}
+2025-11-26T11:56:12.779Z [info]: Uploading cast file to Blossom: a46786c9dc034c6570bd54b747169dca4ca5d7c113b9314d8c9ce87270433813
+2025-11-26T11:56:14.227Z [info]: Cast file uploaded to Blossom successfully: a46786c9dc034c6570bd54b747169dca4ca5d7c113b9314d8c9ce87270433813
+2025-11-26T11:56:16.234Z [info]: Sending verification to Nostr... {"created_at":0,"content":"{\"description\":\"architecture: win64 - type: setup\",\"content\":\"Automatic verification for wallet version 4.6.2 with  architecture: win64    type setup, based on verification 6cd1b4d9a885de3bbe6a436d4d8e1274c56fcc6d016fa6ad5b0a52e9b479b39c. The script was executed with these parameters: /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup/electrum_4.6.2_electrumdesktop_build.sh --version 4.6.2 --arch win64 --type setup.\"}","tags":[["status","reproducible"],["i","electrum"],["version","4.6.2"],["platform","linux"],["client","WalletScrutiny.com","31990:168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335:5985153332267","wss://relay.nostr.band"],["x","c78d1bac74cc869e4b96e586dd4e0a1b4d6f535e62ee7737bc805692c146b208"],["file-attachment","43baf885c4c3ab3e9cf6405b3118d0f22e1edc5a1af33386d19f7aa0c6ff3c2a"],["output-file","electrum_4.6.2_electrumdesktop_build_win64_setup.cast","a46786c9dc034c6570bd54b747169dca4ca5d7c113b9314d8c9ce87270433813"],["based-on","6cd1b4d9a885de3bbe6a436d4d8e1274c56fcc6d016fa6ad5b0a52e9b479b39c"]],"kind":30301,"pubkey":"","id":""}
+2025-11-26T11:56:18.331Z [info]: Published verification (id: 6af8fa53802c5bdd094bda80bdc99e9d86d14805b9d2468b759aea20314168df) to 4 relays
+2025-11-26T11:56:18.435Z [info]: Deleted build directory: /home/dannybuntu/work/walletScrutinyCom/external/build_server_build_dir/electrum_4.6.2_win64_setup

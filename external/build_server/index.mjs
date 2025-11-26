@@ -73,8 +73,19 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         }
 
         // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
-        if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+        const appId = getFirstTagValue(verification, 'i');
+        if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(appId)) {
           continue;
+        }
+
+        // Debug logging for Electrum
+        if (appId === 'electrum') {
+          appLog.info(`[DEBUG] Found Electrum verification:`);
+          appLog.info(`  - App ID: ${appId}`);
+          appLog.info(`  - Status: ${getFirstTagValue(verification, 'status')}`);
+          appLog.info(`  - Platform: ${getFirstTagValue(verification, 'platform')}`);
+          appLog.info(`  - Version: ${getFirstTagValue(verification, 'version')}`);
+          appLog.info(`  - File attachments: ${fileAttachmentIds.length}`);
         }
 
         if (
@@ -151,8 +162,15 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         continue;
       }
 
-      if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
-        appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
+      // Force debug mode: process apps in DEBUG_APP_IDS even if version matches
+      const forceDebug = DEBUG_APP_IDS.length > 0 && DEBUG_APP_IDS.includes(appId);
+      
+      if (forceDebug || compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
+        if (forceDebug) {
+          appLog.info(`[DEBUG MODE] Forcing verification for ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
+        } else {
+          appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
+        }
         await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo);
       } else {
         appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
@@ -272,8 +290,9 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       fileEventIdsForSHFiles.push(fileEvent.id);
 
       const appInfoFromWS = appInfo[legacyPlatform][appId];
-      const architectures = appInfoFromWS.architectures;
-      const types = appInfoFromWS.types;
+      // Temporary hardcode for testing Electrum (architectures/types not in prod yet)
+      const architectures = appId === 'electrum' ? ['win64'] : appInfoFromWS.architectures;
+      const types = appId === 'electrum' ? ['setup'] : appInfoFromWS.types;
       appLog.info(` *** architectures: ${architectures}`);
       appLog.info(` *** types: ${types}`);
 
@@ -340,16 +359,16 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 }
 
 const args = minimist(process.argv.slice(2));
-const githubToken = args.githubToken;
-const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
+const githubToken = args.githubToken || process.env.GITHUB_TOKEN;
+const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey || process.env.WS_BOT_NOSTR_PK;
 
 if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token>');
+  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> or set GITHUB_TOKEN env var');
   process.exit(1);
 }
 
 if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key>');
+  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> or set WS_BOT_NOSTR_PK env var');
   process.exit(1);
 }
 
