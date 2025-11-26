@@ -43,7 +43,7 @@ The app features fiat on-ramps for purchasing NEAR and includes a rewards token 
 
 We proceeded to [test the app](https://x.com/BitcoinWalletz/status/1993594899745415290) and was able to find a Bitcoin wallet along with the seed phrases. 
 
-However, when we tried importing this to Electrum, the addresses [did not match.](https://x.com/BitcoinWalletz/status/1993596752575058107) We tried different derivation paths to no success. 
+However, when we tried importing this to Electrum, the addresses [did not match](https://x.com/BitcoinWalletz/status/1993596752575058107). We tried different derivation paths to no success. 
 
 The app-provided BTC address was `14HJDPoDch8U8yHPfVNtcUqvgeZVQk9Lsw`.
 
@@ -51,12 +51,11 @@ We were also able to export the private key: `ed25519:3UxX3e4Cgro5youxP4QKG419qP
 
 The exported key is formatted in NEAR Protocol's standard, where:
 
-ed25519: indicates the key uses the Ed25519 elliptic curve (used by NEAR, Solana, and other chains)
-The string after the colon is the base58-encoded private key.
+ed25519: indicates the key uses the Ed25519 elliptic curve (used by NEAR, Solana, and other chains). The string after the colon is the base58-encoded private key.
 
 This is NOT a Bitcoin private key. Bitcoin uses the secp256k1 curve, not Ed25519. This key controls the NEAR account, which then uses NEAR's Chain Signatures (MPC) infrastructure to derive and control the Bitcoin address. The Ed25519 key cannot be directly imported into Bitcoin wallets like Electrum, as they expect secp256k1 keys.
 
-According to NEAR's [official documentation](https://docs.near.org/chain-abstraction/chain-signatures/getting-started), Bitcoin wallet functionality in NEAR Mobile relies on "Chain Signatures," which requires:
+According to NEAR's [official documentation](https://docs.near.org/chain-abstraction/chain-signatures/getting-started), Bitcoin wallet functionality in NEAR Mobile relies on "Chain Signatures", which requires:
 
 1. **Active MPC service dependency** - All Bitcoin transactions must call NEAR's `v1.signer` MPC contract to generate signatures ([source](https://docs.near.org/chain-abstraction/chain-signatures/getting-started))
 2. **Non-standard key derivation** - Bitcoin addresses are derived from "NEAR account name + derivation path" using Additive Key Derivation, not BIP39/BIP44 ([source](https://docs.near.org/chain-abstraction/chain-signatures))
@@ -64,5 +63,5 @@ According to NEAR's [official documentation](https://docs.near.org/chain-abstrac
 
 **Conclusion:** This is **not self-custodial** for Bitcoin because users cannot independently recover Bitcoin funds without NEAR's infrastructure.
 
-And since the private key is not of Bitcoin, we can conclude that this is **not self-custodial for Bitcoin.**
+And since the private key is not of Bitcoin, we can conclude that this is **not self-custodial for Bitcoin**.
 
