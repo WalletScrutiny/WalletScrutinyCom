@@ -6,7 +6,7 @@ import { appLog, verificationsLog } from './logger.js';
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
 export function isDebugEnv() {
-  return false;
+  return true;  // Debug mode: uses kind 32304 for Nostr events
 }
 
 // Helper to compare semantic versions like "1.2.3" or "1.3.5Q"
