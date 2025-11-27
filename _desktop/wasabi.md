@@ -20,15 +20,12 @@ verdict: sourceavailable
 date: 2025-09-28
 twitter: wasabiwallet
 social: 
-architectures:
-- x86_64-linux-gnu
-- win64
-types:
-- deb
-- tarball
-- zip
-- msi
 features:
+builds:
+  - arch: x86_64-linux-gnu
+    types: [deb, tarball]
+  - arch: win64
+    types: [zip, msi]
 
 ---
 
