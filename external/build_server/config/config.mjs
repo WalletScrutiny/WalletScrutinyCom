@@ -13,6 +13,7 @@ export const QUEUE_CONCURRENCY = 3;
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
 export const DEBUG_APP_IDS = [
-  'electrum'  // Desktop app ID (not org.electrum.electrum which is Android)
+  'electrum',  // Desktop app ID (not org.electrum.electrum which is Android)
+  'bitcoincore',
   // Example: 'com.example.app', 'org.bitcoin.wallet', 'bitcoinknots'
 ];
