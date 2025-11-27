@@ -1,0 +1,17 @@
+---
+layout: compress
+---
+{
+  "hardware": {
+    {% for post in site.hardware %}
+    "{{ post.appId }}": {
+      "builds": {{ post.builds | jsonify }}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  },
+  "desktop": {
+    {% for post in site.desktop %}
+    "{{ post.appId }}": {
+      "builds": {{ post.builds | jsonify }}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+  }
+}

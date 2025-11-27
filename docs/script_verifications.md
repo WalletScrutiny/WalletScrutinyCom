@@ -85,13 +85,12 @@ The results file should be created by the build script after compilation. It sho
 
 Wallet files (.md) need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
 
-```json
-architectures:
-- x86_64-linux-gnu
-- win64
-types:
-- bitcoin
-- multi
+```yaml
+builds:
+  - arch: win64
+    types: [setup, portable, standalone]
+  - arch: x86_64-linux-gnu
+    types: [appimage, tarball]
 ```
 
 Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
