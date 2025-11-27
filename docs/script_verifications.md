@@ -32,20 +32,22 @@ date: 2025-11-24T09:03:00+0000
 script_version: v0.8.0
 build_type: standalone
 results:
-  - architecture: arm64-v8a
-    - filename: base.apk
-      hash: abc123...
-      match: true
-    - filename: config.arm64_v8a.apk
-      hash: def456...
-      match: true
+  - architecture: linux64
+    files:
+      - filename: base.apk
+        hash: abc123...
+        match: true
+      - filename: config.arm64_v8a.apk
+        hash: def456...
+        match: true
   - architecture: x86_64-linux
-    - filename: config.en.apk
-      hash: ghi789...
-      match: true
-    - filename: config.xxhdpi.apk
-      hash: jkl012...
-      match: false
+    files:
+      - filename: config.en.apk
+        hash: ghi789...
+        match: true
+      - filename: config.xxhdpi.apk
+        hash: jkl012...
+        match: false
 ```
 
 The important parts:
