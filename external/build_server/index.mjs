@@ -272,58 +272,64 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       fileEventIdsForSHFiles.push(fileEvent.id);
 
       const appInfoFromWS = appInfo[legacyPlatform][appId];
-      const architectures = appInfoFromWS.architectures;
-      const types = appInfoFromWS.types;
-      appLog.info(` *** architectures: ${architectures}`);
-      appLog.info(` *** types: ${types}`);
+      const buildConfigFromWS = appInfoFromWS.builds;
 
-      // Ensure at least one iteration even if arrays are empty
-      const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
-      const typesToIterate = types && types.length > 0 ? types : [undefined];
+      let buildCombinations = [];
 
-      for (const architecture of architecturesToIterate) {
-        for (const type of typesToIterate) {
-
-          // Create unique filename
-          const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-          buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-          
-          fs.mkdirSync(buildDirForThisVerification, { recursive: true });
-
-          const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
-
-          // Save the file and make it executable
-          const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-          fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
-          fs.chmodSync(scriptWithPath, 0o755);
-
-          appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
-
-          appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
-
-          const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
-          job.catch(err => {
-            appLog.error('Script execution job failed:', err);
-            verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
-          });
-          job.then(async returnParamsFromCompilationJob => {
-            appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
-            await createVerificationAfterCompilation(
-              returnParamsFromCompilationJob,
-              verification,
-              newWalletVersion,
-              appId,
-              platform,
-              ndkInstance,
-              architecture,
-              type,
-              fileEventIdsForSHFiles
-            );
-          });
+      if (buildConfigFromWS) {
+        for (const buildConfig of buildConfigFromWS) {
+          const arch = buildConfig.arch || [undefined];
+          const types = buildConfig.types || [undefined];
+          for (const type of types) {
+            buildCombinations.push({ architecture: arch, type: type });
+          }
         }
+        appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
+      } else {
+        appLog.info(` *** No build combinations found for ${appId}`);
+        continue;
+      }
+
+      for (const { architecture, type } of buildCombinations) {
+        // Create unique filename
+        const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
+        buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+        
+        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
+
+        const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+
+        // Save the file and make it executable
+        const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+        fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
+        fs.chmodSync(scriptWithPath, 0o755);
+
+        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+
+        appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+
+        const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+        job.catch(err => {
+          appLog.error('Script execution job failed:', err);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
+        });
+        job.then(async returnParamsFromCompilationJob => {
+          appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
+          await createVerificationAfterCompilation(
+            returnParamsFromCompilationJob,
+            verification,
+            newWalletVersion,
+            appId,
+            platform,
+            ndkInstance,
+            architecture,
+            type,
+            fileEventIdsForSHFiles
+          );
+        });
       }
     }
 
