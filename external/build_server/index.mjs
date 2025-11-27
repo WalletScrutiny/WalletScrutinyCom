@@ -295,6 +295,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
         buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
         
+        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
         fs.mkdirSync(buildDirForThisVerification, { recursive: true });
 
         const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
