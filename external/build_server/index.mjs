@@ -30,8 +30,6 @@ import {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const BUILD_DIR_PREFIX = path.join(__dirname, '..', 'build_server_build_dir');
-let buildDirForThisVerification = null;
-
 const queue = new PQueue({
   concurrency: QUEUE_CONCURRENCY,
   timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
@@ -322,12 +320,15 @@ async function processVerification(verification, newWalletVersion, appInfo) {
         const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-        buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-        
-        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
-        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
+        const buildDir = path.join(
+          BUILD_DIR_PREFIX,
+          appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : '')
+        );
 
-        const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+        fs.rmSync(buildDir, { recursive: true, force: true });
+        fs.mkdirSync(buildDir, { recursive: true });
+
+        const scriptWithPath = path.join(buildDir, outputFileName);
 
         // Save the file and make it executable
         const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
@@ -338,7 +339,7 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 
         appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-        const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+        const job = queue.add(() => startCompilationJob(buildDir, scriptWithPath, newWalletVersion, architecture, type));
         job.catch(err => {
           appLog.error('Script execution job failed:', err);
           verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
