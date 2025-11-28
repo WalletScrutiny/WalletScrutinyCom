@@ -42,13 +42,13 @@ stdbuf -oL tail -F "${LOGS[@]}" | awk '
     next
   }
   /Verification created:/ {
-    match($0,/^\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);                   # appId, version
+    match($0,/\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);                   # appId, version
     match($0,/Verification created: ([^ ]*) ([^ ]*) ([^ ]*)/,a); # arch, type, status
     printf "%s DONE %s %s %s %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), (app[1]?app[1]:"app?"), a[1], a[2], a[3];
     next
   }
   /\\+\\+\\+ .* \\| Verification created:/ {
-    match($0,/^\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);
+    match($0,/\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);
     match($0,/Verification created: ([^ ]*) ([^ ]*) ([^ ]*)/,a);
     if (app[1] && a[3]) {
       printf "%s RESULT %s %s %s %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), app[1], a[1], a[2], a[3];
