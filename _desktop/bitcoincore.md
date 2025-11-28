@@ -21,15 +21,16 @@ verdict: sourceavailable
 date: 2025-09-05
 twitter: bitcoincoreorg
 social: 
-architectures:
-- x86_64-linux-gnu
-- aarch64-linux-gnu
-- arm-linux-gnueabihf
-- x86_64-w64-mingw32
-types:
-- tarball
-- zip
-features:
+builds:
+  - arch: x86_64-linux
+    types: [tarball]
+  - arch: aarch64-linux
+    types: [tarball]
+  - arch: arm-linux
+    types: [tarball]
+  - arch: x86_64-windows
+    types: [zip]
+features: 
 
 ---
 
