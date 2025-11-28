@@ -8,6 +8,17 @@ released: 2009-01-04
 discontinued: 
 updated: 2025-10-13
 version: 30
+architectures:
+  - x86_64-linux
+  - aarch64-linux
+  - arm-linux
+  - x86_64-windows
+  - x86_64-macos
+  - arm64-macos
+types:
+  - tarball
+  - zip
+script: ~/work/scripts/test/desktop/bitcoincoredesktop_build.sh
 binaries: https://bitcoincore.org/en/download
 provider: Bitcoin Core Developers
 providerWebsite: 

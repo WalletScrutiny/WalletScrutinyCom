@@ -88,10 +88,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
           appLog.info(`  - File attachments: ${fileAttachmentIds.length}`);
         }
 
-        if (
-          getFirstTagValue(verification, 'status') === 'reproducible' &&
-          ['hardware', 'desktop', 'linux', 'windows'].includes(getFirstTagValue(verification, 'platform'))
-        ) {
+        if (['hardware', 'desktop', 'linux', 'windows'].includes(getFirstTagValue(verification, 'platform'))) {
           reproducibleVerifications.push(verification);
         }
       }
@@ -189,11 +186,11 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
 
   const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
   if (!comparisonResults) {
-    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found in ${buildDirForThisVerification}`);
+    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
-  const { hash, matches } = comparisonResults;
+  const { hashes, matches } = comparisonResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -214,15 +211,15 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   .filter(Boolean)
   .join(' - ');
 
-  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id}. `;
+  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
     // Changed values
-    basedOn: verification.id,
+    basedOn: verification.pubkey,
     version: newWalletVersion,
     status: matches ? 'reproducible' : 'not_reproducible',
-    hashes: [hash],
+    hashes: hashes,
     description: description,
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
@@ -236,7 +233,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   try {
     await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
@@ -244,7 +241,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hash}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
   }
 }
 
@@ -290,59 +287,76 @@ async function processVerification(verification, newWalletVersion, appInfo) {
       fileEventIdsForSHFiles.push(fileEvent.id);
 
       const appInfoFromWS = appInfo[legacyPlatform][appId];
-      // Temporary hardcode for testing Electrum (architectures/types not in prod yet)
-      const architectures = appId === 'electrum' ? ['win64'] : appInfoFromWS.architectures;
-      const types = appId === 'electrum' ? ['setup'] : appInfoFromWS.types;
-      appLog.info(` *** architectures: ${architectures}`);
-      appLog.info(` *** types: ${types}`);
+      const buildConfigFromWS = appInfoFromWS.builds;
 
-      // Ensure at least one iteration even if arrays are empty
-      const architecturesToIterate = architectures && architectures.length > 0 ? architectures : [undefined];
-      const typesToIterate = types && types.length > 0 ? types : [undefined];
+      let buildCombinations = [];
 
-      for (const architecture of architecturesToIterate) {
-        for (const type of typesToIterate) {
-
-          // Create unique filename
-          const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
-          const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-          buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-          
-          fs.mkdirSync(buildDirForThisVerification, { recursive: true });
-
-          const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
-
-          // Save the file and make it executable
-          const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
-          fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
-          fs.chmodSync(scriptWithPath, 0o755);
-
-          appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
-
-          appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
-
-          const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
-          job.catch(err => {
-            appLog.error('Script execution job failed:', err);
-            verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
-          });
-          job.then(async returnParamsFromCompilationJob => {
-            appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
-            await createVerificationAfterCompilation(
-              returnParamsFromCompilationJob,
-              verification,
-              newWalletVersion,
-              appId,
-              platform,
-              ndkInstance,
-              architecture,
-              type,
-              fileEventIdsForSHFiles
-            );
-          });
+      if (buildConfigFromWS) {
+        for (const buildConfig of buildConfigFromWS) {
+          const arch = buildConfig.arch || [undefined];
+          const types = buildConfig.types || [undefined];
+          for (const type of types) {
+            buildCombinations.push({ architecture: arch, type: type });
+          }
         }
+        appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
+      } else if (appId === 'electrum') {
+        // Temporary hardcode for testing Electrum (architectures/types not in prod yet)
+        const architectures = ['win64'];
+        const types = ['setup'];
+        appLog.info(` *** architectures (override): ${architectures}`);
+        appLog.info(` *** types (override): ${types}`);
+        for (const architecture of architectures) {
+          for (const type of types) {
+            buildCombinations.push({ architecture, type });
+          }
+        }
+      } else {
+        appLog.info(` *** No build combinations found for ${appId}`);
+        continue;
+      }
+
+      for (const { architecture, type } of buildCombinations) {
+        // Create unique filename
+        const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
+        const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
+        buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+        
+        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
+
+        const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+
+        // Save the file and make it executable
+        const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+        fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
+        fs.chmodSync(scriptWithPath, 0o755);
+
+        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
+
+        appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+
+        const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
+        job.catch(err => {
+          appLog.error('Script execution job failed:', err);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
+        });
+        job.then(async returnParamsFromCompilationJob => {
+          appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
+          await createVerificationAfterCompilation(
+            returnParamsFromCompilationJob,
+            verification,
+            newWalletVersion,
+            appId,
+            platform,
+            ndkInstance,
+            architecture,
+            type,
+            fileEventIdsForSHFiles
+          );
+        });
       }
     }
 
@@ -363,18 +377,23 @@ const githubToken = args.githubToken || process.env.GITHUB_TOKEN;
 const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey || process.env.WS_BOT_NOSTR_PK;
 
 if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> or set GITHUB_TOKEN env var');
+  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug] or set GITHUB_TOKEN env var');
   process.exit(1);
 }
 
 if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> or set WS_BOT_NOSTR_PK env var');
+  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug] or set WS_BOT_NOSTR_PK env var');
   process.exit(1);
 }
 
-fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
+const isDebug = args.debug === true || args.debug === 'true';
+if (isDebug) {
+  appLog.info('======= DEBUG MODE ENABLED =======');
+}
 
 appLog.info('======= Starting Build Server App =======');
+
+fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
 while (true) {
   try {
