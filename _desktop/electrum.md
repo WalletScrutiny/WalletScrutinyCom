@@ -4,31 +4,27 @@ appId: electrum
 authors:
 - danny
 released: 2011-11-05
-discontinued:
+discontinued: 
 updated: 2024-10-23
 version: 4.6.2
-binaries:
+binaries: 
 provider: Thomas Voegtlin
-providerWebsite:
+providerWebsite: 
 website: https://electrum.org/
 repository: https://github.com/spesmilo/electrum
-issue:
+issue: 
 icon: electrum.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: sourceavailable
 date: 2025-08-24
 twitter: ElectrumWallet
-social:
-architectures:
-- win64
-- x86_64-linux-gnu
-types:
-- appimage
-- tarball
-- setup
-- portable
-- standalone
+social: 
+builds:
+  - arch: x86_64-linux-gnu
+    types: [appimage, tarball]
+  - arch: win64
+    types: [setup, portable, standalone]
 features:
 - 2fa
 - multisig
@@ -42,4 +38,3 @@ Electrum is a lightweight Bitcoin client developed by Thomas Voegtlin in 2011. I
 They have a guide on [reproducibility](https://github.com/spesmilo/electrum/tree/master/contrib/build-linux/sdist)
 
 This desktop program is **for verification**.
-
