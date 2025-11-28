@@ -1,10 +1,16 @@
 import { exec, execSync } from 'child_process';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import fs from 'fs';
 import yaml from 'js-yaml';
 import minimist from 'minimist';
 import { appLog, verificationsLog } from './logger.js';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const appInfoFile = path.join(__dirname, '..', '..', 'buildServerInfo.seed.json');
+
 
 export function isDebugEnv() {
   const args = minimist(process.argv.slice(2));
@@ -78,18 +84,13 @@ export function findFileRecursively(dir, fileName) {
 
 export async function fetchAppInfo() {
   try {
-    appLog.info(`Fetching app info from ${appInfoURL}...`);
-    const response = await fetch(appInfoURL);
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    
-    const appInfo = await response.json();
-    appLog.info('App info fetched successfully');
+    appLog.info(`Reading app info from ${appInfoFile}...`);
+    const raw = fs.readFileSync(appInfoFile, 'utf8');
+    const appInfo = JSON.parse(raw);
+    appLog.info('App info loaded successfully');
     return appInfo;
   } catch (error) {
-    appLog.error(`Error fetching app info from ${appInfoURL}:`, error);
+    appLog.error(`Error loading app info from ${appInfoFile}:`, error);
     throw error;
   }
 }

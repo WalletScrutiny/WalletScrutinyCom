@@ -1,0 +1,28 @@
+{
+  "hardware": {},
+  "desktop": {
+    "bitcoincore": {
+      "builds": [
+        { "arch": "x86_64-linux-gnu", "types": ["tarball"] },
+        { "arch": "win64", "types": ["zip", "setup"] }
+      ]
+    },
+    "bitcoinknots": {
+      "builds": [
+        { "arch": "x86_64-linux-gnu", "types": ["tarball"] }
+      ]
+    },
+    "wasabi": {
+      "builds": [
+        { "arch": "x86_64-linux-gnu", "types": ["deb", "tarball", "zip"] },
+        { "arch": "win64", "types": ["zip", "msi"] }
+      ]
+    },
+    "electrum": {
+      "builds": [
+        { "arch": "x86_64-linux-gnu", "types": ["appimage", "tarball"] },
+        { "arch": "win64", "types": ["setup", "portable", "standalone"] }
+      ]
+    }
+  }
+}
