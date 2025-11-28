@@ -19,7 +19,22 @@ meta: ok
 verdict: sourceavailable
 date: 2025-09-04
 twitter: BitcoinKnots
-social: 
+social:
+builds:
+  - arch: x86_64-linux
+    types: [tarball]
+  - arch: aarch64-linux
+    types: [tarball]
+  - arch: arm-linux
+    types: [tarball]
+  - arch: powerpc64-linux
+    types: [tarball]
+  - arch: powerpc64le-linux
+    types: [tarball]
+  - arch: riscv64-linux
+    types: [tarball]
+  - arch: x86_64-windows
+    types: [zip, setup] 
 features: 
 
 ---
