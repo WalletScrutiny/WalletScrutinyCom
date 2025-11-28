@@ -198,7 +198,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
 
   const formData = {
     // Changed values
-    basedOn: verification.pubkey,
+    basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
     status: matches ? 'reproducible' : 'not_reproducible',
     hashes: hashes,
