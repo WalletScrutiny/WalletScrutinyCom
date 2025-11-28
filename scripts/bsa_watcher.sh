@@ -1,5 +1,24 @@
 #!/usr/bin/env bash
-# Simple watcher for build server runs: emits one line per event from logs
+#
+# bsa_watcher.sh - Build Server Automation Log Watcher
+# Version: v0.1.0
+# Organization: WalletScrutiny.com
+#
+# Description:
+#   Real-time monitoring tool for build server automation logs.
+#   Parses app.log and verifications.log to emit concise event summaries:
+#   - START: mainProcess begins
+#   - QUEUE: Jobs added/status
+#   - RESULT: Verification results
+#   - DONE: Verification published
+#
+# Usage:
+#   ./bsa_watcher.sh
+#
+# Requirements:
+#   - logs/app*.log and logs/verifications*.log must exist
+#   - GNU awk (gawk) for strftime() support
+#
 set -euo pipefail
 cd "$(dirname "$0")/.."  # repo root
 
@@ -28,15 +47,11 @@ stdbuf -oL tail -F "${LOGS[@]}" | awk '
     printf "%s DONE %s %s %s %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), (app[1]?app[1]:"app?"), a[1], a[2], a[3];
     next
   }
-  /reproducible|not_reproducible/ && / \\| / {
-    # Example verifications log: "+++ app version | Verification created: arch type reproducible ..."
-    match($0,/^\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);                      # appId, version
-    match($0,/\\| Verification created: ([^ ]*) ([^ ]*) ([^ ]*)/,a); # arch, type, status
-    if (app[1] && a[1]) {
+  /\\+\\+\\+ .* \\| Verification created:/ {
+    match($0,/^\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);
+    match($0,/Verification created: ([^ ]*) ([^ ]*) ([^ ]*)/,a);
+    if (app[1] && a[3]) {
       printf "%s RESULT %s %s %s %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), app[1], a[1], a[2], a[3];
-    } else {
-      gsub("\\|","",$0);
-      printf "%s RESULT %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), $0;
     }
     next
   }
