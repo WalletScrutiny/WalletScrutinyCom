@@ -2,7 +2,8 @@
 wsId: pionex
 title: Pionex - Crypto Trading Bot
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000000
 appId: com.pionex.client
 appCountry: us
@@ -29,6 +30,28 @@ developerName: Pionex
 features: 
 
 ---
+
+There is some confusion regarding the Android-iPhone pairing of this app. 
+
+There are two domains associated with Pionex. One with a `.us` extension and the other with a `.com` extension. Apparently, there is a US-regulated version and an international one.
+
+This specific app is the global-version, but its listed counterpart seems to be its lite version as well, which was previously marked as `removed`
+
+## The "global" Pionex pair involves, [linked together in this page](https://download.pionex.com/?lang=en): 
+
+- {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
+- {% include walletLink.html wallet='iphone/org.pionex' verdict='true' %}
+
+## Pionex US (rebranded to Webot) 
+
+Involves the pairing according to its [download](https://www.pionex.us/en-US/download) page:
+
+- {% include walletLink.html wallet='android/com.pionex.us.client' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.pionex.lite.appstore' verdict='true' %} which is formerly linked with an existing appID `PionexLite`
+
+Which now has an excess Play store version:
+
+- {% include walletLink.html wallet='android/com.pionex.lite' verdict='true' %}
 
 > Welcome to the world’s leading cryptocurrency exchange with FREE Trading Bots! 
 
