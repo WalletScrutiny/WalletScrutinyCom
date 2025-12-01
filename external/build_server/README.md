@@ -41,6 +41,17 @@ sudo adduser build-server
 sudo addgroup build-server
 ```
 
+- Add subgids and subuids to the build-server user:
+```bash
+sudo usermod --add-subgids 100000-165535 build-server
+sudo usermod --add-subuids 100000-165535 build-server
+```
+
+- Enable linger for the build-server user. You'll have problems running containers if you don't do this:
+```bash
+sudo loginctl enable-linger build-server
+```
+
 - Create a new directory for the application:
 ```bash
 sudo mkdir -p /opt/build-server/walletScrutinyCom
