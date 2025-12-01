@@ -11,7 +11,7 @@ released: 2021-05-22
 updated: 2025-10-19
 version: 1.8.34
 stars: 4.5
-reviews: 1151
+reviews: 1137
 website: 
 repository: 
 issue: 
@@ -28,6 +28,8 @@ features:
 developerName: PIONEX PTE. LTD.
 
 ---
+
+**Update 2025-12-01**: This app is available again and paired with the US version of the app: {% include walletLink.html wallet='android/com.pionex.us.client' verdict='true' %} with a different appID.
 
 **Update 2022-03-17**: This app is not available anymore.
 
