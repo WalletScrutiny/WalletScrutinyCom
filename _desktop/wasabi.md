@@ -21,6 +21,11 @@ date: 2025-09-28
 twitter: wasabiwallet
 social: 
 features: 
+builds:
+  - arch: x86_64-linux-gnu
+    types: [deb, tarball]
+  - arch: win64
+    types: [zip, msi]
 
 ---
 
