@@ -18,18 +18,19 @@ import {
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
-import { compareVersions, fetchAppInfo, startCompilationJob, getFirstTagValue, readComparisonResults } from './utils.mjs';
+import { compareVersions, fetchAppInfo, startCompilationJob, getFirstTagValue, readComparisonResults, isDebugEnv } from './utils.mjs';
 import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   QUEUE_TIMEOUT_HOURS,
-  QUEUE_CONCURRENCY
+  QUEUE_CONCURRENCY,
+  BUILD_DIR
 } from './config/config.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const BUILD_DIR_PREFIX = path.join(__dirname, '..', 'build_server_build_dir');
+const BUILD_DIR_PREFIX = isDebugEnv() ? path.join(__dirname, 'build_server_build_dir') : BUILD_DIR;
 let buildDirForThisVerification = null;
 
 const queue = new PQueue({

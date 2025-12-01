@@ -15,3 +15,5 @@ export const QUEUE_CONCURRENCY = 3;
 export const DEBUG_APP_IDS = [
     // Example: 'com.example.app', 'org.bitcoin.wallet', 'bitcoinknots'
 ];
+
+export const BUILD_DIR = '/opt/build-server-builds';
