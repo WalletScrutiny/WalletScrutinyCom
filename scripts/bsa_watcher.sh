@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # bsa_watcher.sh - Build Server Automation Log Watcher
-# Version: v0.2.0
+# Version: v0.2.1
 # Organization: WalletScrutiny.com
 #
 # Description:
@@ -25,7 +25,7 @@ EVENT_COUNTER=0
 # Print header
 cat << 'EOF'
 ================================================================================
-Build Server Automation Watcher v0.2.0
+Build Server Automation Watcher v0.2.1
 ================================================================================
 
 OUTPUT LEGEND:
@@ -68,7 +68,8 @@ yaml_monitor() {
     local seen_files=()
     while true; do
       sleep 2
-      for yaml in "$BUILD_DIR"/*/COMPARISON_RESULTS.yaml 2>/dev/null; do
+      shopt -s nullglob  # Make non-matching globs expand to nothing
+      for yaml in "$BUILD_DIR"/*/COMPARISON_RESULTS.yaml; do
         [[ -f "$yaml" ]] || continue
         local yaml_path="$yaml"
         # Check if we've seen this file
