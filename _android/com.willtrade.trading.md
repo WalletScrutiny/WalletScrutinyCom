@@ -9,7 +9,7 @@ appId: com.willtrade.trading
 appCountry: 
 released: 2021-08-19
 updated: 2025-11-25
-version: 1.3.42
+version: 1.3.43
 stars: 4.2
 ratings: 
 reviews: 22

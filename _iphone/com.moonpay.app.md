@@ -11,7 +11,7 @@ released: 2023-04-17
 updated: 2025-11-24
 version: 2.0.28
 stars: 4.5
-reviews: 6275
+reviews: 6331
 website: https://www.moonpay.com
 repository: 
 issue: 

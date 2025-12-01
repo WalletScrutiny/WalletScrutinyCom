@@ -8,8 +8,8 @@ appId: com.GCBuying.GCBuying
 appCountry: ng
 idd: '1574175142'
 released: 2021-06-30
-updated: 2025-11-05
-version: 1.4.0
+updated: 2025-12-01
+version: 1.4.1
 stars: 3.9
 reviews: 142
 website: https://gcbuying.com/

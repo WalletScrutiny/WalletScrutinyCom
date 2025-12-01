@@ -12,7 +12,7 @@ updated: 2025-10-28
 version: 2.5.22
 stars: 3.9
 ratings: 
-reviews: 20
+reviews: 22
 website: https://www.primal.net
 repository: 
 issue: 

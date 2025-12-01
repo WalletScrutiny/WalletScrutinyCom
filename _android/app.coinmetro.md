@@ -12,7 +12,7 @@ updated: 2025-11-19
 version: 5.50.969
 stars: 4.3
 ratings: 419
-reviews: 87
+reviews: 88
 website: https://coinmetro.com/
 repository: 
 issue: 

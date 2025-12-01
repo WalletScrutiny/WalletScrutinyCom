@@ -8,8 +8,8 @@ users: 10000
 appId: com.union.cash
 appCountry: 
 released: 2021-06-25
-updated: 2025-09-12
-version: 1.4.6
+updated: 2025-11-27
+version: 1.4.7
 stars: 4.7
 ratings: 
 reviews: 3

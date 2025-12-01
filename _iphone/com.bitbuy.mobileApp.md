@@ -11,7 +11,7 @@ released: 2019-10-21
 updated: 2025-10-30
 version: 5.3.2
 stars: 4.5
-reviews: 7367
+reviews: 7369
 website: https://bitbuy.ca/
 repository: 
 issue: 

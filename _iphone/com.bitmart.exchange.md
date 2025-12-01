@@ -11,7 +11,7 @@ released: 2018-08-02
 updated: 2025-11-19
 version: 3.20.1
 stars: 2.8
-reviews: 3277
+reviews: 3278
 website: https://www.bitmart.com/
 repository: 
 issue: 

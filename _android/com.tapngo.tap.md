@@ -8,8 +8,8 @@ users: 100000
 appId: com.tapngo.tap
 appCountry: gb
 released: 2019-12-19
-updated: 2025-11-18
-version: 3.6.7
+updated: 2025-11-25
+version: 3.6.8
 stars: 4.4
 ratings: 1735
 reviews: 300

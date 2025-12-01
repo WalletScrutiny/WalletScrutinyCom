@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.t4p.cryptogdx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-12-04
+date: 2025-12-01
 signer: 
 twitter: Trading4Pro
 social: 

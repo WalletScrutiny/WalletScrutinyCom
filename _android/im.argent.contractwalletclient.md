@@ -12,7 +12,7 @@ updated: 2025-11-21
 version: 5.4.4.11020
 stars: 4.3
 ratings: 3252
-reviews: 404
+reviews: 405
 website: https://ready.co
 repository: 
 issue: 

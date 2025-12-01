@@ -12,7 +12,7 @@ updated: 2025-11-24
 version: 2.85.1
 stars: 4.3
 ratings: 
-reviews: 35
+reviews: 34
 website: https://kripto.ajaib.co.id/
 repository: 
 issue: 

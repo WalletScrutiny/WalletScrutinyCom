@@ -4,7 +4,7 @@ title: Corex
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: mn.ailab.corex
 appCountry: 
 released: 2021-11-24

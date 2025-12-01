@@ -8,8 +8,8 @@ users: 100000
 appId: com.rice.wallet
 appCountry: 
 released: 2022-01-18
-updated: 2025-11-26
-version: 1.6.2
+updated: 2025-11-28
+version: 1.6.7
 stars: 4.8
 ratings: 
 reviews: 219

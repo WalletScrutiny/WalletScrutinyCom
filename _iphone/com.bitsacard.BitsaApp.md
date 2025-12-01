@@ -10,8 +10,8 @@ idd: 1458095544
 released: 2019-04-12
 updated: 2025-11-20
 version: 3.0.9
-stars: 3.8
-reviews: 12
+stars: 4
+reviews: 16
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 

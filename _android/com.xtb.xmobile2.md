@@ -8,8 +8,8 @@ users: 5000000
 appId: com.xtb.xmobile2
 appCountry: 
 released: 2014-12-17
-updated: 2025-11-24
-version: 2.147.0
+updated: 2025-12-01
+version: 2.148.0
 stars: 4.3
 ratings: 22753
 reviews: 189

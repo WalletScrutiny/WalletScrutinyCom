@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitazza.android.gl
 appCountry: 
 released: 2022-03-01
-updated: 2025-10-17
-version: 4.6.9
+updated: 2025-12-01
+version: 4.7.0
 stars: 
 ratings: 
 reviews: 

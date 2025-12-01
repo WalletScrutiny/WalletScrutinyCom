@@ -11,7 +11,7 @@ released: 2022-08-25
 updated: 2025-11-20
 version: 3.1.0
 stars: 4.8
-reviews: 3749
+reviews: 3758
 website: http://www.swanbitcoin.com
 repository: 
 issue: 

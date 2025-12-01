@@ -7,11 +7,11 @@ users: 500000
 appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
-updated: 2025-11-21
-version: 5.2.0
+updated: 2025-11-25
+version: 5.2.3
 stars: 4.8
 ratings: 
-reviews: 402
+reviews: 406
 website: https://cwallet.com
 repository: 
 issue: 

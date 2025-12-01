@@ -8,8 +8,8 @@ users: 1000
 appId: com.humbl.wallet.app
 appCountry: 
 released: 2022-07-04
-updated: 2025-10-05
-version: 1.0.70
+updated: 2025-11-26
+version: 1.0.75
 stars: 4.8
 ratings: 
 reviews: 48

@@ -12,7 +12,7 @@ updated: 2025-11-20
 version: 29.10.1
 stars: 3.5
 ratings: 
-reviews: 218
+reviews: 220
 website: http://www.bunq.com
 repository: 
 issue: 

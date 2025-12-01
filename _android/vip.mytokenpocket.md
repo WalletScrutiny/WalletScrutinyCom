@@ -11,7 +11,7 @@ appCountry:
 released: 2018-06-29
 updated: 2025-11-18
 version: 2.12.1
-stars: 4.4
+stars: 4.5
 ratings: 16862
 reviews: 624
 website: https://www.tokenpocket.pro/

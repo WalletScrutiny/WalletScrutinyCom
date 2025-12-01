@@ -9,7 +9,7 @@ appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04
 updated: 2025-11-25
-version: 2.7.10
+version: 2.8.1
 stars: 4.2
 ratings: 
 reviews: 56
