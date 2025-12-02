@@ -18,7 +18,15 @@ import {
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
-import { compareVersions, fetchAppInfo, startCompilationJob, getFirstTagValue, readComparisonResults, isDebugEnv } from './utils.mjs';
+import {
+  compareVersions,
+  fetchAppInfo,
+  startCompilationJob,
+  getFirstTagValue,
+  readComparisonResults,
+  isDebugEnv,
+  groupVerificationsByAppIdAndSortByVersion
+} from './utils.mjs';
 import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
@@ -99,24 +107,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       return;
     }
 
-    // Group verifications by appId and sort by version
-    const verificationsByAppId = new Map();
+    const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(reproducibleVerifications);
     
-    for (const verification of reproducibleVerifications) {
-      const appId = getFirstTagValue(verification, 'i');
-      let version = getFirstTagValue(verification, 'version');
-      version = version.replace(/^v/i, '');
-      
-      if (!verificationsByAppId.has(appId)) {
-        verificationsByAppId.set(appId, []);
-      }
-      
-      verificationsByAppId.get(appId).push({
-        verification,
-        version
-      });
-    }
-
     // Sort versions for each appId (highest first) and take only the first one
     for (const [appId, verifications] of verificationsByAppId) {
       // Sort by version (descending - highest first), then by created_at (descending - newest first)
