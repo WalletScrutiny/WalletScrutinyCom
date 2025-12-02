@@ -321,10 +321,10 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
         });
 
         if (wsBotVerification) {
-          appLog.info(`${appId} | ${version} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
           continue;
         } else {
-          appLog.info(`${appId} | ${version} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
         }
 
         fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
