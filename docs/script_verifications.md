@@ -74,12 +74,16 @@ The results file should be created by the build script after compilation. It sho
 - `date`: the date and time of the verification
 - `script_version`: the version of the script
 - `build_type`: the type of the build (standalone, bundle, etc)
+  - **CLARIFICATION (2025-12-02):** This field should contain the **package type** from the `--type` CLI parameter (e.g., `deb`, `tarball`, `zip`, `msi`, `appimage`), NOT the literal string "standalone". The term "standalone" refers to standalone scripts vs bundle mode, but the actual YAML value should be the package type. See: ~/work/ws-notes/script-notes/desktop/wasabi/wasabi-yaml-compliance-fix-v1.3.2.md
 - `results`: an array of objects with the following information:
   - `- filename`: the name of the binary file that was compiled
   - `architecture`: the architecture of the file (must match what was passed as a parameter to the script)
   - `status`: the status of the verification (reproducible, not_reproducible, ftbfs, spam, notag, nosource, warning, obfuscated)
   - `match`: true if the hash of the binary file matches the hash of the compiled file, false otherwise
   - `hash`: an array with the hashes of the files
+    - **CLARIFICATION (2025-12-02):** This description is ambiguous. The correct implementation is: when using the `files:` array structure, each file entry has a **scalar** `hash:` field (e.g., `hash: abc123...`), NOT a nested array. The "array" refers to multiple file entries in the `files:` array, each with its own scalar hash. See authoritative examples in ~/work/ws-notes/script-notes/yaml-output-guidelines.md v2.1.0
+
+**NOTE:** For detailed YAML structure with concrete examples, see ~/work/ws-notes/script-notes/yaml-output-guidelines.md v2.1.0 (2025-11-27), which supersedes the brief descriptions above.
 
 # Wallet files
 
