@@ -23,6 +23,7 @@ import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
+  WS_BOT_NOSTR_PUBKEY_HEX,
   QUEUE_TIMEOUT_HOURS,
   QUEUE_CONCURRENCY,
   BUILD_DIR
@@ -61,9 +62,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     await connectToNostr(wsBotNostrPrivateKey);
 
-    const verifications = await getAllVerifications(APPROVED_VERIFIERS_PUBKEY_HEX);
+    const verifications = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
     const reproducibleVerifications = [];
+    const wsBotVerifications = [];
     
     // Iterate over all verifications
     for (const [sha256, verificationEvents] of verifications) {
@@ -75,6 +77,11 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
         // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
         if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+          continue;
+        }
+
+        if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
+          wsBotVerifications.push(verification);
           continue;
         }
 
@@ -151,7 +158,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
       if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
         appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo);
+        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications);
       } else {
         appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
@@ -228,7 +235,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   }
 }
 
-async function processVerification(verification, newWalletVersion, appInfo) {
+async function processVerification(verification, newWalletVersion, appInfo, wsBotVerifications) {
   try {
     // Capture ndk instance at the start to ensure it's available in async callbacks
     const ndkInstance = getNdk();
@@ -295,18 +302,38 @@ async function processVerification(verification, newWalletVersion, appInfo) {
         const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
         buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-        
-        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
-        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
 
         const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
+
+        // Check if this combination is already in the WS Bot verifications
+        const wsBotVerification = wsBotVerifications.find(v => {
+          const content = v.content;
+          const contentJson = JSON.parse(content);
+          const contentDescription = contentJson.description;
+
+          return (
+            appId === getFirstTagValue(v, 'i') &&
+            newWalletVersion === getFirstTagValue(v, 'version') &&
+            platform === getFirstTagValue(v, 'platform') &&
+            contentDescription.includes(architecture) &&
+            contentDescription.includes(type)
+          );
+        });
+
+        if (wsBotVerification) {
+          appLog.info(`${appId} | ${version} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
+          continue;
+        } else {
+          appLog.info(`${appId} | ${version} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
+        }
+
+        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
 
         // Save the file and make it executable
         const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
         fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
         fs.chmodSync(scriptWithPath, 0o755);
-
-        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
 
         appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
