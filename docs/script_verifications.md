@@ -25,7 +25,7 @@ We need to be able to run the scripts automatically on the build server when a n
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
 8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
-9. Several combinations of architectures and types will be launched in parallel, so the script should be able to handle this, by for example using different names for the containers used to build the different combinations.
+9. Several combinations of architectures and types for the same application will be launched in parallel, so the script should be able to handle this using different names for resources that are specific to each combination. The execution of each script will be done in a different directory, but shared resources like containers should be named accordingly to the combination they are for.
 10. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
 
 ```yaml
