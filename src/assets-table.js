@@ -296,8 +296,12 @@ window.renderAssetsTable = async function({
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
     sortedItems.sort((a, b) => {
-      const versionA = getFirstTagValue(a.items[0], 'version');
-      const versionB = getFirstTagValue(b.items[0], 'version');
+      let versionA = getFirstTagValue(a.items[0], 'version');
+      let versionB = getFirstTagValue(b.items[0], 'version');
+
+      // Remove leading 'v' or 'V' prefix if present
+      versionA = versionA.replace(/^[vV]/, '');
+      versionB = versionB.replace(/^[vV]/, '');
 
       // Check for VARY string first
       const hasVaryA = versionA.includes('VARY');
