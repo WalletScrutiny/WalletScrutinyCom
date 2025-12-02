@@ -25,7 +25,8 @@ We need to be able to run the scripts automatically on the build server when a n
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
 8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
-9. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
+9. Several combinations of architectures and types will be launched in parallel, so the script should be able to handle this, by for example using different names for the containers used to build the different combinations.
+10. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
 
 ```yaml
 date: 2025-11-24T09:03:00+0000
@@ -55,7 +56,7 @@ The important parts:
 - the `hash` of the produced file (3rd token)
 - the `match` that reflects if it's reproducible (true) or not-reproducible (false) in the (4rd token).
 
-10. The call parameters for the script should be:
+11. The call parameters for the script should be:
 
   `--version`: version of the app (without the v prefix)
 
@@ -65,7 +66,7 @@ The important parts:
 
   `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
 
-11. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+12. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
 
 # Results File
 
