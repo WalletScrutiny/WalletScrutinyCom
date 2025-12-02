@@ -17,3 +17,5 @@ export const DEBUG_APP_IDS = [
   'bitcoincore',
   // Example: 'com.example.app', 'org.bitcoin.wallet', 'bitcoinknots'
 ];
+
+export const BUILD_DIR = '/opt/build-server-builds';
