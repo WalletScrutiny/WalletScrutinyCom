@@ -29,7 +29,7 @@ builds:
   - arch: arm-linux
     types: [tarball]
   - arch: x86_64-windows
-    types: [zip]
+    types: [zip, setup]
 features: 
 
 ---

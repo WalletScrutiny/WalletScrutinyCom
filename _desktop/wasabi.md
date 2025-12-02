@@ -23,8 +23,6 @@ social:
 builds:
   - arch: x86_64-linux-gnu
     types: [deb, tarball, zip]
-  - arch: win64
-    types: [zip, msi]
 features:
 
 ---
