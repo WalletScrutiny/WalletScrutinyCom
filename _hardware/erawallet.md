@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2025-03-10
 discontinued: 
-updated: 
+updated: 2025-12-01
 version: 
 binaries: 
 dimensions:
@@ -19,14 +19,14 @@ website: https://era-wallet.com
 shop: https://era-wallet.com/products
 country: 
 price: 219USD
-repository: 
+repository: https://github.com/ERAWLT/ERA-firmware-p
 issue: 
 icon: erawallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2025-09-19
+date: 2025-12-03
 signer: 
 twitter: era_wallet
 social:
@@ -49,6 +49,12 @@ Era Wallet is a fully air-gapped signing device sized like a bank card, built fr
 
 Era Wallet generates private keys offline using on-device entropy and keeps them local, only exporting encrypted backups when you deliberately tap an NFC recovery card. It shows receive addresses and full transaction details on its own display, and you approve everything with the device’s button before any signature leaves the wallet.
 
-## Conclusion
+## Firmware Repository Status
 
-The source code for the firmware is **not available** in their organization page on GitHub. 
+ERA published a “Main Firmware” tree at https://github.com/ERAWLT/ERA-firmware-p that covers the STM32H753 application layer, FreeRTOS build, `hwlt-framework/` HAL, and supporting scripts, but the README makes it clear the dump is only **partially open**. Several proprietary components and secure-element assets are intentionally withheld pending audits and patent work, so the code cannot be built or flashed end-to-end yet.
+
+The repository is currently licensed under Business Source License 1.1 (non-FOSS until the change date), includes optional Docker tooling plus ARM GNU 12.3 instructions, and references companion public repos (`ERA-crypto-p`, `ERA-apps-p`, `mcuboot-p`). Until the missing blobs and SE tooling land.
+
+Because those withheld components prevent a third party from reproducing or flashing the reviewed release from source, the firmware is not verifiable even though part of the tree is public.
+
+Therefore the current verdict stands until ERA releases every piece needed to build and load the shipping firmware, at which point it can graduate to `source-available`.
