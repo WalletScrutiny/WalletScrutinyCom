@@ -14,11 +14,8 @@ export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
 
 // Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
-export const DEBUG_APP_IDS = [
-  'electrum',  // Desktop app ID (not org.electrum.electrum which is Android)
-  'bitcoincore',
-  'wasabi',
-  'bitcoinknots',
-];
+export const DEBUG_APP_IDS = process.env.DEBUG_APP_IDS
+  ? process.env.DEBUG_APP_IDS.split(',').map(item => item.trim()).filter(Boolean)
+  : [];
 
-export const BUILD_DIR = '/opt/build-server-builds';
+export const BUILD_DIR = process.env.BUILD_DIR_OVERRIDE || '/opt/build-server-builds';

@@ -56,7 +56,7 @@ function logQueueInfo() {
   appLog.info(`**** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
-async function mainProcess(githubToken, wsBotNostrPrivateKey) {
+async function mainProcess(githubToken, wsBotNostrPrivateKey, appInfoOverride) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
@@ -65,7 +65,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
 
     // Fetch app info for build server
-    const appInfo = await fetchAppInfo();
+    const appInfo = await fetchAppInfo(appInfoOverride ?? undefined);
 
     await connectToNostr(wsBotNostrPrivateKey);
 
@@ -365,6 +365,8 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
 const args = minimist(process.argv.slice(2));
 const githubToken = args.githubToken;
 const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
+const singleRun = args.singleRun === true || args.singleRun === 'true';
+const appInfoSource = args.appInfo || process.env.APP_INFO_SOURCE;
 
 if (!githubToken) {
   appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug]');
@@ -387,9 +389,14 @@ fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
 while (true) {
   try {
-    await mainProcess(githubToken, wsBotNostrPrivateKey);
+    await mainProcess(githubToken, wsBotNostrPrivateKey, appInfoSource);
   } catch (error) {
     appLog.error('Error during execution:', error);
+  }
+
+  if (singleRun) {
+    appLog.info('======= Single run mode enabled - exiting build server loop =======');
+    break;
   }
   
   appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);

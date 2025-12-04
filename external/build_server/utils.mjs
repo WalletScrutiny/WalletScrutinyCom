@@ -1,16 +1,11 @@
 import { exec, execSync } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
 import fs from 'fs';
+import path from 'path';
 import yaml from 'js-yaml';
 import minimist from 'minimist';
 import { appLog, verificationsLog } from './logger.js';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const appInfoFile = path.join(__dirname, '..', '..', 'buildServerInfo.seed.json');
-
 
 export function isDebugEnv() {
   const args = minimist(process.argv.slice(2));
@@ -103,15 +98,29 @@ export function findFileRecursively(dir, fileName) {
   }
 }
 
-export async function fetchAppInfo() {
+export async function fetchAppInfo(appInfoSource = appInfoURL) {
   try {
-    appLog.info(`Reading app info from ${appInfoFile}...`);
-    const raw = fs.readFileSync(appInfoFile, 'utf8');
+    if (appInfoSource.startsWith('http://') || appInfoSource.startsWith('https://')) {
+      appLog.info(`Fetching app info from ${appInfoSource}...`);
+      const response = await fetch(appInfoSource);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const appInfo = await response.json();
+      appLog.info('App info fetched successfully');
+      return appInfo;
+    }
+
+    const resolvedPath = path.isAbsolute(appInfoSource)
+      ? appInfoSource
+      : path.resolve(process.cwd(), appInfoSource);
+    appLog.info(`Loading app info from local file ${resolvedPath}...`);
+    const raw = fs.readFileSync(resolvedPath, 'utf8');
     const appInfo = JSON.parse(raw);
     appLog.info('App info loaded successfully');
     return appInfo;
   } catch (error) {
-    appLog.error(`Error loading app info from ${appInfoFile}:`, error);
+    appLog.error(`Error loading app info from ${appInfoSource}:`, error);
     throw error;
   }
 }
