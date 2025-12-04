@@ -8,10 +8,10 @@ appId: digital.yucca.gmt
 appCountry: us
 idd: '1622100275'
 released: 2022-10-21
-updated: 2025-08-05
-version: 3.3.22
-stars: 4.6
-reviews: 8990
+updated: 2025-11-05
+version: 3.3.30
+stars: 4.5
+reviews: 9627
 website: https://gomining.com/
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://medium.com/@Gomining
 - https://www.instagram.com/Gomining_token
 features: 
-developerName: Yucca Digital
+developerName: GoMining Latvia SIA
 
 ---
 

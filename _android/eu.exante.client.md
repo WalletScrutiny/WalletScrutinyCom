@@ -8,8 +8,8 @@ users: 10000
 appId: eu.exante.client
 appCountry: am
 released: 2014-04-25
-updated: 2025-10-13
-version: 4.98.21.0
+updated: 2025-11-28
+version: 4.101.11.0
 stars: 2.3
 ratings: 218
 reviews: 193

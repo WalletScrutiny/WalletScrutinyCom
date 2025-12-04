@@ -8,8 +8,8 @@ appId: com.tomiapps.production
 appCountry: us
 idd: '1643501440'
 released: 2022-10-25
-updated: 2025-09-20
-version: iOS App Version 165
+updated: 2025-11-25
+version: '202'
 stars: 4.7
 reviews: 13
 website: 

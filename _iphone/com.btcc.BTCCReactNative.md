@@ -1,6 +1,6 @@
 ---
 wsId: btccLite
-title: 'BTCC Lite: Trade Crypto & BTC'
+title: 'BTCC Lite: Trade BTC & ETH'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.btcc.BTCCReactNative
 appCountry: us
 idd: '1195786666'
 released: 2017-01-20
-updated: 2025-09-11
-version: 3.4.00
+updated: 2025-11-14
+version: 3.5.02
 stars: 4.5
-reviews: 179
+reviews: 181
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 repository: 
 issue: 

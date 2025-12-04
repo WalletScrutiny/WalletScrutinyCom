@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coinmena.coinmenaapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-10
+date: 2025-11-05
 signer: 
 twitter: Coinmena
 social:

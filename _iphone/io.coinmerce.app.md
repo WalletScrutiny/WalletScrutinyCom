@@ -8,10 +8,10 @@ appId: io.coinmerce.app
 appCountry: nl
 idd: '1409599830'
 released: 2018-07-29
-updated: 2025-09-09
-version: 6.8.0
+updated: 2025-10-20
+version: 6.9.0
 stars: 4.3
-reviews: 249
+reviews: 335
 website: https://coinmerce.io/en/
 repository: 
 issue: 

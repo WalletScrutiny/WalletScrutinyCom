@@ -8,8 +8,8 @@ users: 50000
 appId: com.simplefx.app
 appCountry: 
 released: 2017-12-18
-updated: 2025-10-02
-version: 3.0.62
+updated: 2025-11-19
+version: 3.0.67
 stars: 4
 ratings: 291
 reviews: 7

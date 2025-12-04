@@ -4,15 +4,15 @@ title: Alby Go
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.getalby.mobile
 appCountry: 
 released: 2024-09-16
-updated: 2025-08-22
-version: 1.14.1
-stars: 4.5
+updated: 2025-11-06
+version: 1.15.1
+stars: 4.6
 ratings: 
-reviews: 12
+reviews: 15
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
 issue: 

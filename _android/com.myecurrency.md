@@ -8,11 +8,11 @@ users: 5000
 appId: com.myecurrency
 appCountry: 
 released: 2022-05-20
-updated: 2025-10-13
-version: 2.5.2
+updated: 2025-11-12
+version: 2.5.5
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 website: http://myecurrencyng.com
 repository: 
 issue: 

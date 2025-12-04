@@ -10,7 +10,7 @@ appCountry: us
 released: 2011-11-04
 updated: 2025-01-15
 version: 4.6.10
-stars: 4.5
+stars: 4.4
 ratings: 24480
 reviews: 1197
 website: http://www.netdania.com

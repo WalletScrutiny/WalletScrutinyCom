@@ -12,7 +12,7 @@ updated: 2025-06-13
 version: 2.5.0
 stars: 2.8
 ratings: 
-reviews: 13
+reviews: 14
 website: https://slingshot.app
 repository: 
 issue: 

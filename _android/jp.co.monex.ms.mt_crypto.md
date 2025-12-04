@@ -8,8 +8,8 @@ users: 10000
 appId: jp.co.monex.ms.mt_crypto
 appCountry: 
 released: 2020-07-07
-updated: 2024-09-13
-version: 1.0.10
+updated: 2025-10-16
+version: 1.0.11
 stars: 2.7
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: jp.co.monex.ms.mt_crypto.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2025-09-09
+date: 2025-11-05
 signer: 
 twitter: 
 social: 

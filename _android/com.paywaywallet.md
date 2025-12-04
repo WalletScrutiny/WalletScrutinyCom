@@ -5,12 +5,12 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.paywaywallet
 appCountry: 
 released: 2019-02-13
-updated: 2025-09-01
-version: 4.4.2.1769
+updated: 2025-11-15
+version: 4.4.4.1794
 stars: 3.8
 ratings: 254
 reviews: 4

@@ -12,16 +12,16 @@ updated: 2024-11-29
 version: 6.3.14
 stars: 3.5
 ratings: 931
-reviews: 480
+reviews: 481
 website: https://monnos.com
 repository: 
 issue: 
 icon: com.monnos.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-09-23
+date: 2025-11-26
 signer: 
 twitter: monnosGlobal
 social:

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: net.iconomi.iconomi.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-28
+date: 2025-11-05
 signer: 
 twitter: iconomicom
 social:

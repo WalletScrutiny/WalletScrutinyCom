@@ -8,8 +8,8 @@ users: 50000
 appId: com.airtimedatahub.app
 appCountry: 
 released: 2019-02-19
-updated: 2023-06-23
-version: 3.5.1
+updated: 2025-11-27
+version: 1.0.0
 stars: 4.3
 ratings: 
 reviews: 12
@@ -18,16 +18,16 @@ repository:
 issue: 
 icon: com.airtimedatahub.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2025-06-18
+date: 2025-12-01
 signer: 
 twitter: airtimedatahub
 social:
 - https://www.facebook.com/Airtimedatahub
 redirect_from: 
-developerName: Codefixbug
+developerName: Nurenta Global Concept Limited
 features: 
 
 ---

@@ -8,10 +8,10 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2025-09-25
-version: 5.28.4
+updated: 2025-11-29
+version: 5.30.3
 stars: 4.9
-reviews: 16698
+reviews: 18648
 website: 
 repository: 
 issue: 
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-04-10
+date: 2025-10-28
 signer: 
 twitter: tangem
 social:
@@ -29,6 +29,28 @@ features:
 developerName: Tangem AG
 
 ---
+
+### Updated Analysis 2025-10-28
+
+The Android version of the app {% include walletLink.html wallet='android/com.tangem.wallet' verdict='true' %} has been reclassified as **source-available**. So we decided to give a quick cursory check if the ios app merits the same change. Here's what we gathered:
+
+**What Looks Solid**
+
+- Real Xcode project and Swift sources are all there (TangemApp.xcodeproj/project.pbxproj:32560, Tangem/App/...).
+- bootstrap.sh actually unwraps a giant SwiftPM bundle so you can build offline (bootstrap.sh:18-42).
+- Schemes for Tangem/Tangem Alpha/Tangem Beta exist, so Xcode will open without hacking around.
+
+**Where It Breaks Down**
+
+- Every config JSON is stuffed with "PLACEHOLDER" values (tangem-app-config/config_prod.json:1-38), and the Firebase plist is literally empty (tangem-app-config/ios/GoogleService-Info-Production.plist:1-5). Without the real API keys you can’t reproduce the shipping binary.
+- The packaged dependencies include a private SSH repo (Package.swift:24-33), but they sneak in a prebuilt archive at SPM_dependencies.part00*. It works, yet we can’t verify what’s inside, and there are no checksums given.
+- I couldn’t find any CI scripts, fastlane lanes, or release automation—recent commits are bland “Updated on …” messages from a bot (git show --stat, README.md:9-44). Nothing links a tag to an App Store build we could match.
+
+**Bottom Line**
+
+So the source is technically there, but the missing keys plus opaque dependency blobs keep it from being “source available” in a WalletScrutiny sense. You can’t rebuild and compare against the App Store IPA without extra info.
+
+**Previous Analysis 2021-04-10**
 
 This app is the companion app to an NFC card that is promoted as something like
 a hardware wallet but without a screen or a button it can only do what the

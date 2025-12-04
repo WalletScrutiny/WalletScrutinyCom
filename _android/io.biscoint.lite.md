@@ -8,11 +8,11 @@ users: 100000
 appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
-updated: 2025-10-06
-version: 2.8.13
+updated: 2025-11-27
+version: 2.9.2
 stars: 4.8
 ratings: 
-reviews: 5
+reviews: 6
 website: https://www.bity.com.br/policies/
 repository: 
 issue: 

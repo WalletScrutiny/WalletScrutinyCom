@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-11-19
+date: 2025-11-26
 signer: 
 twitter: 
 social: 

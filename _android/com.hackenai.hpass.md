@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.hackenai.hpass.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-09-06
+date: 2025-11-05
 signer: 
 twitter: 
 social: 

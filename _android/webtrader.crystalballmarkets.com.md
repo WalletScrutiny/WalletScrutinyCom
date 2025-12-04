@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-25
 updated: 2025-07-06
 version: '6'
-stars: 4.7
+stars: 4.8
 ratings: 
-reviews: 40
+reviews: 41
 website: https://crystalballmarkets.com/
 repository: 
 issue: 

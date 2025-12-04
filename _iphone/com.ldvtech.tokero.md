@@ -10,8 +10,8 @@ idd: '1569586581'
 released: 2021-06-04
 updated: 2025-04-22
 version: '4.5'
-stars: 4.4
-reviews: 22
+stars: 4.3
+reviews: 24
 website: https://tokero.com
 repository: 
 issue: 

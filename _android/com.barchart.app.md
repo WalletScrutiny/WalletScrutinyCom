@@ -12,7 +12,7 @@ updated: 2024-08-19
 version: 3.0.10
 stars: 4.7
 ratings: 9788
-reviews: 2340
+reviews: 2355
 website: http://www.barchart.com/app
 repository: 
 issue: 

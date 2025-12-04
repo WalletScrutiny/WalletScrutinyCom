@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.plusblocks.boxtradex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-11
+date: 2025-11-05
 signer: 
 twitter: box_trad
 social:

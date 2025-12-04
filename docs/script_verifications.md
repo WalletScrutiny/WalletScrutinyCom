@@ -25,7 +25,8 @@ We need to be able to run the scripts automatically on the build server when a n
 6. We `cannot rely on scripts` that are `in the WS gitlab repo`
 7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
 8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
-9. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
+9. Several combinations of architectures and types for the same application will be launched in parallel, so the script should be able to handle this using different names for resources that are specific to each combination. The execution of each script will be done in a different directory, but shared resources like containers should be named accordingly to the combination they are for.
+10. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
 
 ```yaml
 date: 2025-11-24T09:03:00+0000
@@ -55,17 +56,17 @@ The important parts:
 - the `hash` of the produced file (3rd token)
 - the `match` that reflects if it's reproducible (true) or not-reproducible (false) in the (4rd token).
 
-10. The call parameters for the script should be:
+11. The call parameters for the script should be:
 
-  `--version`: version of the app (without the v prefix)
+`--version`: version of the app (without the v prefix)
 
-  `--arch`: (optional) architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
+`--arch`: (optional) architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
 
-  `--type`: (optional) type of the app (bitcoin, multi, ...)
+`--type`: (optional) type of the app (bitcoin, multi, ...)
 
-  `--apk`: (optional, Android-only) APK file supplied by the user instead of downloading from a store. Desktop/hardware scripts may omit this parameter.
+`--apk`: (optional, Android-only) APK file supplied by the user instead of downloading from a store. Desktop/hardware scripts may omit this parameter.
 
-11. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
+12. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
 
 # Results File
 

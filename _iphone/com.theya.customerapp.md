@@ -11,7 +11,7 @@ released: 2023-10-02
 updated: 2025-03-16
 version: '1.46'
 stars: 4.9
-reviews: 29
+reviews: 31
 website: https://www.theya.us/
 repository: 
 issue: 

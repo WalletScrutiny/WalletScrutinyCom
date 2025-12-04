@@ -7,8 +7,8 @@ users: 100
 appId: com.quantiamobile
 appCountry: 
 released: 2022-07-19
-updated: 2025-10-01
-version: 3.0.10
+updated: 2025-11-27
+version: 3.0.14
 stars: 4.1
 ratings: 
 reviews: 

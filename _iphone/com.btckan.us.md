@@ -25,7 +25,7 @@ signer:
 twitter: bitkanofficial
 social: 
 features: 
-developerName: BitKan Limited
+developerName: LUMENRISE LIMITED
 
 ---
 

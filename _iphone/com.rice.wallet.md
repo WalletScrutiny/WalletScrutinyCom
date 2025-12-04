@@ -8,8 +8,8 @@ appId: com.rice.wallet
 appCountry: us
 idd: '1601004738'
 released: 2022-01-27
-updated: 2025-10-06
-version: 1.5.7
+updated: 2025-11-24
+version: 1.6.0
 stars: 4.4
 reviews: 40
 website: https://ricewallet.ai

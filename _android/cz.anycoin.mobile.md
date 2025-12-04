@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-07
 updated: 2025-09-19
 version: 1.31.9
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 1
 website: https://www.anycoin.cz

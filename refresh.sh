@@ -10,7 +10,7 @@ do
   case "${option}"
   in
     k) btcPayKey=${OPTARG};;   # the api key for the BtcPayServer
-    a) apps=${OPTARG};;        # comma separated list of app IDs
+    a) apps=${OPTARG};;        # comma separated list of appIDs:  android/xx.yy.zz, iphone/aa.bb.cc
     g) githubToken=${OPTARG};; # GitHub token for Desktop and Hardware refresh
 
   esac

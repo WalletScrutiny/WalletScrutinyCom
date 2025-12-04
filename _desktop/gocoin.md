@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2016-04-06
 discontinued: 
-updated: 2025-03-23
-version: 1.10.4
+updated: 2025-11-15
+version: 1.11.0
 binaries: 
 provider: Piotr Narewski
 providerWebsite: 

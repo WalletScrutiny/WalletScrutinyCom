@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.spedn.spedn.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2024-11-19
+date: 2025-11-26
 signer: 
 twitter: FlexaHQ
 social:

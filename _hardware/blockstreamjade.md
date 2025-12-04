@@ -8,8 +8,8 @@ authors:
 - keraliss
 released: 2021-01-01
 discontinued: 
-updated: 2025-03-14
-version: 1.0.36
+updated: 2025-11-18
+version: 1.0.38
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24

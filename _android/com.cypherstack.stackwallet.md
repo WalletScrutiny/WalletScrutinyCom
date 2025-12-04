@@ -9,11 +9,11 @@ users: 10000
 appId: com.cypherstack.stackwallet
 appCountry: 
 released: 2024-05-13
-updated: 2025-08-03
-version: 2.3.2
-stars: 4.2
+updated: 2025-11-26
+version: 2.4.2
+stars: 4
 ratings: 
-reviews: 7
+reviews: 10
 website: 
 repository: https://github.com/cypherstack/stack_wallet/tags
 issue: https://github.com/cypherstack/stack_wallet/issues/984

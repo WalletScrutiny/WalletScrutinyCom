@@ -1,6 +1,6 @@
 ---
 wsId: xfrXTrade
-title: Xtrade - Online Trading
+title: 'Xtrade: Forex, Stocks & CFDs'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.xfr.xtrade
 appCountry: 
 released: 2014-10-02
-updated: 2025-09-07
-version: 7.0.16
+updated: 2025-11-17
+version: 7.0.18
 stars: 4.1
 ratings: 37358
-reviews: 75
+reviews: 76
 website: http://www.xtrade.com
 repository: 
 issue: 

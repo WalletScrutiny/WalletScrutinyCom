@@ -8,9 +8,9 @@ users: 10000
 appId: com.thekingdombank.app
 appCountry: 
 released: 2021-12-17
-updated: 2025-10-07
-version: 9.2.0
-stars: 2.6
+updated: 2025-11-17
+version: 10.2.0
+stars: 2.5
 ratings: 
 reviews: 7
 website: https://thekingdombank.com

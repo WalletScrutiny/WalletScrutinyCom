@@ -11,7 +11,7 @@ released: 2025-02-10
 updated: 2025-09-15
 version: 1.2.3
 stars: 4.7
-reviews: 124
+reviews: 153
 website: https://proton.me/wallet
 repository: 
 issue: 

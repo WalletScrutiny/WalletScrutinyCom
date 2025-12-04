@@ -1,6 +1,6 @@
 ---
 wsId: aliceBobWallet
-title: 'AliceBob Wallet: Send Bitcoin'
+title: 'AliceBob Web3 Wallet: Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.ab.crypto.wallet.app
 appCountry: us
 idd: '6467197622'
 released: 2023-12-05
-updated: 2025-09-29
-version: 1.13.0
+updated: 2025-11-26
+version: 1.16.2
 stars: 4.7
-reviews: 180
+reviews: 187
 website: https://alicebob.com/
 repository: 
 issue: 

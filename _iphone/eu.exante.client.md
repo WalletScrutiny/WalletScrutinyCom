@@ -8,8 +8,8 @@ appId: eu.exante.client
 appCountry: am
 idd: 892856882
 released: 2014-07-06
-updated: 2025-09-26
-version: '4.84'
+updated: 2025-11-19
+version: '4.87'
 stars: 0
 reviews: 0
 website: https://exante.eu/

@@ -46,7 +46,8 @@ import {
   faAnglesLeft,
   faExternalLinkAlt,
   faPlus,
-  faMinus
+  faMinus,
+  faTimesCircle
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -85,6 +86,7 @@ library.add(
   faExternalLinkAlt,
   faPlus,
   faMinus,
+  faTimesCircle,
   // Brands
   faSquareXTwitter,
   faXTwitter,

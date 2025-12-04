@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-22
+date: 2025-11-26
 signer: 
 twitter: koinstrap
 social:

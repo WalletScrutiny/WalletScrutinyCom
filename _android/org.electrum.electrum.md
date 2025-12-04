@@ -15,7 +15,7 @@ updated: 2025-08-25
 version: 4.6.2
 stars: 4.1
 ratings: 2500
-reviews: 349
+reviews: 357
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/8838

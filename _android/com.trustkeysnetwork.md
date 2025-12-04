@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.trustkeysnetwork.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-11-05
 signer: 
 twitter: trustkeysglobal
 social:

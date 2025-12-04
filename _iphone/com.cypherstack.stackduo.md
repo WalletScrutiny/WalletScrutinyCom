@@ -8,8 +8,8 @@ appId: com.cypherstack.stackduo
 appCountry: us
 idd: '6446602017'
 released: 2023-03-29
-updated: 2024-12-05
-version: 1.2.4
+updated: 2025-11-27
+version: 2.4.2
 stars: 4.3
 reviews: 7
 website: https://duo.stackwallet.com/

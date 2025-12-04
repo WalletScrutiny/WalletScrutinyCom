@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.tideisun.tidepay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-11-10
+date: 2025-11-05
 signer: 
 twitter: isunone1
 social:

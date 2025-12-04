@@ -4,15 +4,15 @@ title: 'Proton Wallet: Secure Bitcoin'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: me.proton.wallet.android
 appCountry: 
 released: 2025-02-04
 updated: 2025-09-23
 version: 1.2.3
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 20
+reviews: 21
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 issue: https://github.com/ProtonWallet/flutter-app/issues/4

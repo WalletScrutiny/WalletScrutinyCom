@@ -11,7 +11,7 @@ released: 2022-06-21
 updated: 2024-01-06
 version: 1.17.6
 stars: 3.5
-reviews: 66
+reviews: 67
 website: https://www.tatcoin.com
 repository: 
 issue: 

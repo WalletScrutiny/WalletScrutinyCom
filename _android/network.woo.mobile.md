@@ -8,11 +8,11 @@ users: 50000
 appId: network.woo.mobile
 appCountry: 
 released: 2021-12-17
-updated: 2025-09-18
-version: 3.63.0
-stars: 3.8
+updated: 2025-10-30
+version: 3.65.0
+stars: 3.9
 ratings: 
-reviews: 11
+reviews: 10
 website: https://woox.io/
 repository: 
 issue: 

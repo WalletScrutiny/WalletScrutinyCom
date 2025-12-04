@@ -8,11 +8,11 @@ users: 100000
 appId: team.noones.mobilemessenger
 appCountry: 
 released: 2023-05-04
-updated: 2025-09-19
+updated: 2025-11-26
 version: 1.22.0
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 125
+reviews: 131
 website: https://noones.com/
 repository: 
 issue: 

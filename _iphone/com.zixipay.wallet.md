@@ -8,10 +8,10 @@ appId: com.zixipay.wallet
 appCountry: us
 idd: 1492139262
 released: 2019-12-22
-updated: 2025-09-04
-version: '1.95'
+updated: 2025-10-24
+version: '1.96'
 stars: 4.4
-reviews: 26
+reviews: 27
 website: https://zixipay.com/
 repository: 
 issue: 

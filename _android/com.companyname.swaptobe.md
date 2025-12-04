@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pione Wallet
+title: PioneWallet | RWA Tokenization
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2025-03-31
 version: '6.0'
 stars: 4.2
 ratings: 
-reviews: 17
+reviews: 19
 website: https://pionechain.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: app.ctmwallet
 appCountry: us
 idd: '1610293370'
 released: 2022-02-28
-updated: 2025-10-08
-version: 1.0.16
+updated: 2025-11-14
+version: 1.0.19
 stars: 0
 reviews: 0
 website: 

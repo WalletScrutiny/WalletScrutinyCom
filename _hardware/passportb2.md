@@ -9,8 +9,8 @@ authors:
 - keraliss
 released: 2022-03-10
 discontinued: 
-updated: 2024-08-10
-version: 2.3.9
+updated: 2025-10-29
+version: 2.3.10
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39

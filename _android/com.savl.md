@@ -8,8 +8,8 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2025-09-26
-version: 8.11.0
+updated: 2025-10-15
+version: 8.12.0
 stars: 3.8
 ratings: 570
 reviews: 207

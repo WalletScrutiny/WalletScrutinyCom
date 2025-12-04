@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: 'OpenFi: Safe Stablecoin Wallet'
+title: 'OpenFi: Safe Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
-updated: 2025-10-14
-version: 8.4.7
+updated: 2025-10-20
+version: 8.5.2
 stars: 4.2
 ratings: 
 reviews: 32

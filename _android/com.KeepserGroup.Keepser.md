@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.KeepserGroup.Keepser.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-12-18
+date: 2025-11-05
 signer: 
 twitter: keepser
 social: 

@@ -12,7 +12,7 @@ updated: 2025-09-17
 version: 8.5.14
 stars: 4.4
 ratings: 3575
-reviews: 209
+reviews: 213
 website: https://busha.co
 repository: 
 issue: 

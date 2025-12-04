@@ -8,8 +8,8 @@ users: 5000
 appId: com.kochure.kochureApp
 appCountry: 
 released: 2021-11-13
-updated: 2024-07-25
-version: 1.2.0
+updated: 2025-11-06
+version: 1.2.2
 stars: 4.1
 ratings: 
 reviews: 3
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.kochure.kochureApp.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-07-21
+date: 2025-11-05
 signer: 
 twitter: kochureglobal
 social:

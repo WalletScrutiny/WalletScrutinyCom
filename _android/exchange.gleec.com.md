@@ -8,8 +8,8 @@ users: 1000
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
-updated: 2025-08-19
-version: 1.39.0
+updated: 2025-10-28
+version: 1.40.0
 stars: 2.6
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Gleec BTC OU
+developerName: Gleec Holding OU
 features: 
 
 ---

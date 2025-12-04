@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-04-01
 discontinued: 
-updated: 2025-08-20
-version: 3.12.1
+updated: 2025-11-11
+version: 3.15.0
 binaries: 
 dimensions:
 - 86

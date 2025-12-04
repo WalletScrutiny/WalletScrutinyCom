@@ -12,8 +12,8 @@ updated: 2025-07-07
 version: 3.6.0
 stars: 4.8
 ratings: 
-reviews: 465
-website: 
+reviews: 466
+website: https://btcportfolio.app/
 repository: 
 issue: 
 icon: quarecy.crypto.png

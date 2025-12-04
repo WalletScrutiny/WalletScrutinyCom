@@ -8,10 +8,10 @@ appId: co.sarwa.ios
 appCountry: us
 idd: '1554353496'
 released: 2021-04-12
-updated: 2025-09-19
-version: 6.0.3
-stars: 4.2
-reviews: 81
+updated: 2025-11-18
+version: 7.2.0
+stars: 4.3
+reviews: 93
 website: https://www.sarwa.co/blog
 repository: 
 issue: 

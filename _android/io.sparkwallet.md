@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.sparkwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-04
+date: 2025-11-05
 signer: 
 twitter: sparkwalletapp
 social: 

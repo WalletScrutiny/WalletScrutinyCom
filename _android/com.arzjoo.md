@@ -8,8 +8,8 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2025-10-12
-version: 1.4.0
+updated: 2025-11-30
+version: 1.6.2
 stars: 3.9
 ratings: 3741
 reviews: 81

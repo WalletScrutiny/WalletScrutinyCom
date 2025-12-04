@@ -1,5 +1,5 @@
 ---
-wsId: currencycominvesting
+wsId: dzengiComInvesting
 title: 'Dzengi.com: Stock Investing'
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ users: 100000
 appId: com.currency.exchange.investsmart
 appCountry: tm
 released: 2020-12-10
-updated: 2025-10-09
-version: 2.15.4
-stars: 3.8
+updated: 2025-11-13
+version: 2.17.5
+stars: 3.7
 ratings: 216
-reviews: 238
+reviews: 246
 website: https://dzengi.com/
 repository: 
 issue: 
@@ -21,33 +21,23 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-10-06
+date: 2025-10-28
 signer: 
-twitter: currencycom
-social:
-- https://www.facebook.com/currencycom
-- https://www.reddit.com/r/currencycom
+twitter: 
+social: 
 redirect_from: 
-developerName: Currency.com PL
+developerName: Dzengi.com PL
 features: 
 
 ---
 
-**Update 2022-01-04**: The app is live again on Google Play. From the logo, it would seem that the right iOS partner to this app is located [here](https://apps.apple.com/tm/app/currency-com-investing/id1499070397). We've added the right corresponding file.
+## App Description Summary
 
-To further clarify the matter regarding multiple apps with the same name included "currency.com", we chatted with currency.com's support via live chat and posted the screenshot of the exchange on [twitter.](https://twitter.com/BitcoinWalletz/status/1478277878617763841)
+Dzengi.com Investing offers exposure to Bitcoin through its trading interface, but all Bitcoin transactions occur within the platform’s custodial system and not on the Bitcoin blockchain. Users can buy, sell, and hold Bitcoin-denominated balances — described as “BTC wallets” ([dzengi.com/how-to-trade-on-dzengi-com-platform](https://dzengi.com/how-to-trade-on-dzengi-com-platform)) and “buy, sell and hold Bitcoin” ([dzengi.com/bitcoin](https://dzengi.com/bitcoin)).
 
-We [confirmed](https://twitter.com/BitcoinWalletz/status/1478282020501348357) that this app is indeed currency.com's app. However, we were not able to find a link from the main domain to the app. We advise caution on the part of the user to confirm this on their own.
+Users can [deposit and withdraw bitcoin](https://dzengi.com/deposits-withdrawals) on the platform. 
 
-**Update 2021-09-29**: This app is not on the Store anymore.
+> "When you make a deposit with Dzengi.com, your coins go directly into a cold wallet..."
 
-It is necessary to distinguish this specific app from another related app from the same company. "Currency.com Investing" is not the same app as {% include walletLink.html wallet='android/com.currency.exchange.prod2' verdict='true' %}. Although, they link to each other via Google Play and in their respective domains, we'll treat them separately to avoid confusion. 
-
-The app on Google Play references currency.com but has expcapital.com as its domain, when clicking on View Website.
-
-We downloaded the app and after registering, we chose bitcoin as a currency and the app made a wallet address where it is possible to deposit after some account verification. 
-
-Currency.com's [Deposits/Withdrawals Page](https://currency.com/deposits-withdrawals)
-
-This is a **custodial** service and thus **not verifiable**.
+The use of cold storage is [proof](https://dzengi.com/security) this is a custodial platform.
 

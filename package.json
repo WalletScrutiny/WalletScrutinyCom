@@ -28,7 +28,7 @@
     "dateformat": "^3.0.3",
     "file-type": "^16.5.4",
     "github-graphql-api": "^1.0.6",
-    "google-play-scraper": "github:facundoolano/google-play-scraper",
+    "google-play-scraper": "github:facundoolano/google-play-scraper#0280abf149b50682ca8f65c080302dc6d477c80b",
     "html-webpack-plugin": "^5.6.4",
     "js-yaml": "^4.1.0",
     "minimist": "^1.2.8",

@@ -8,8 +8,8 @@ users: 100000
 appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19
-updated: 2025-09-12
-version: 13.0.0
+updated: 2025-10-28
+version: 14.0.0
 stars: 4.2
 ratings: 645
 reviews: 10

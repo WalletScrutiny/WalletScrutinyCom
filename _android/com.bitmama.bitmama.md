@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/bitmama
 - https://www.instagram.com/bitmamaexchange/
 redirect_from: 
-developerName: Bitmama Inc
+developerName: WIL Platform Grp.
 features: 
 
 ---

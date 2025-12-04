@@ -8,12 +8,12 @@ users: 100000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22
-updated: 2025-10-13
-version: 5.7.3
+updated: 2025-11-19
+version: 5.7.17
 stars: 3.9
 ratings: 41
 reviews: 3
-website: https://profittrading.app/
+website: https://profittradingapp.com?utm_source=bybit_gp
 repository: 
 issue: 
 icon: com.profittrading.forbybit.png

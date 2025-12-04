@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Exchange — StealthEX
+title: StealthEX Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-01
 updated: 2025-09-19
 version: 1.1.24
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 9
+reviews: 12
 website: https://stealthex.io/
 repository: 
 issue: 

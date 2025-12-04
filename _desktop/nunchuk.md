@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2021-06-03
 discontinued: 
-updated: 2025-10-08
-version: 1.9.52
+updated: 2025-11-19
+version: 2.0.0
 binaries: 
 provider: Nunchuk Inc.
 providerWebsite: 

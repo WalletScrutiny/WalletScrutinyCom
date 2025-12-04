@@ -1,6 +1,6 @@
 ---
 wsId: korbit
-title: korbit
+title: 코빗 - 가상자산 거래소 (비트코인, 이더리움)
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: com.korbit.exchange
 appCountry: us
 released: 2018-07-22
-updated: 2025-09-25
-version: 11.7.0
+updated: 2025-12-01
+version: 11.9.4
 stars: 2.4
 ratings: 
 reviews: 9

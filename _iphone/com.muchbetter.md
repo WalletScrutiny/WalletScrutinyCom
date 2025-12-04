@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2025-08-27
 version: 4.29.0
 stars: 4.3
-reviews: 451
+reviews: 452
 website: https://www.muchbetter.com
 repository: 
 issue: 

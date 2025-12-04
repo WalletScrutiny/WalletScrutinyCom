@@ -8,10 +8,10 @@ appId: com.skrill.NETELLER
 appCountry: gb
 idd: '1095647938'
 released: 2016-05-02
-updated: 2025-10-04
-version: 3.170.1
+updated: 2025-11-25
+version: 3.174.0
 stars: 4.5
-reviews: 1034
+reviews: 1081
 website: 
 repository: 
 issue: 

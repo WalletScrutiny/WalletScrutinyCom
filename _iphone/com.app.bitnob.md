@@ -10,8 +10,8 @@ idd: '1513951003'
 released: 2020-05-29
 updated: 2025-10-08
 version: 1.186.7
-stars: 4
-reviews: 95
+stars: 3.9
+reviews: 102
 website: https://bitnob.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.ftrading.cryptotrading.android.app
 appCountry: 
 released: 2022-09-19
-updated: 2025-07-24
-version: '1.2'
+updated: 2025-11-23
+version: '1.5'
 stars: 
 ratings: 
 reviews: 

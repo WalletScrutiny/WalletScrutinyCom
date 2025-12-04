@@ -11,7 +11,7 @@ released: 2018-04-06
 updated: 2022-10-25
 version: 1.7.0
 stars: 4.3
-reviews: 3
+reviews: 4
 website: https://bitcoinmonitor.app
 repository: 
 issue: 

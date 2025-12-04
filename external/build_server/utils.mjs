@@ -70,6 +70,27 @@ export function compareVersions(a, b) {
   return 0;
 }
 
+export function groupVerificationsByAppIdAndSortByVersion(reproducibleVerifications) {
+  const verificationsByAppId = new Map();
+
+  for (const verification of reproducibleVerifications) {
+    const appId = getFirstTagValue(verification, 'i');
+    let version = getFirstTagValue(verification, 'version');
+    version = version.replace(/^v/i, '');
+    
+    if (!verificationsByAppId.has(appId)) {
+      verificationsByAppId.set(appId, []);
+    }
+    
+    verificationsByAppId.get(appId).push({
+      verification,
+      version
+    });
+  }
+
+  return verificationsByAppId;
+}
+
 export function findFileRecursively(dir, fileName) {
   if (!fs.existsSync(dir)) return null;
 

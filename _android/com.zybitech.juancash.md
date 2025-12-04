@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-22
 updated: 2024-08-05
 version: V2.0.3
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 4
+reviews: 3
 website: https://www.juancash.com/
 repository: 
 issue: 

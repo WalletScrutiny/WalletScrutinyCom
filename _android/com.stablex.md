@@ -1,6 +1,6 @@
 ---
 wsId: stablexKripto
-title: Stablex | Kripto Para Al-Sat
+title: Stablex | Bitcoin & Kripto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27
-updated: 2025-10-12
-version: 3.0.27
+updated: 2025-11-26
+version: 3.0.34
 stars: 3.1
 ratings: 
 reviews: 

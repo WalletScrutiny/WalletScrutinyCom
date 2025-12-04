@@ -18,11 +18,20 @@ import {
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
-import { compareVersions, fetchAppInfo, startCompilationJob, getFirstTagValue, readComparisonResults, isDebugEnv } from './utils.mjs';
+import {
+  compareVersions,
+  fetchAppInfo,
+  startCompilationJob,
+  getFirstTagValue,
+  readComparisonResults,
+  isDebugEnv,
+  groupVerificationsByAppIdAndSortByVersion
+} from './utils.mjs';
 import {
   DEBUG_APP_IDS,
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
+  WS_BOT_NOSTR_PUBKEY_HEX,
   QUEUE_TIMEOUT_HOURS,
   QUEUE_CONCURRENCY,
   BUILD_DIR
@@ -60,9 +69,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     await connectToNostr(wsBotNostrPrivateKey);
 
-    const verifications = await getAllVerifications(APPROVED_VERIFIERS_PUBKEY_HEX);
+    const verifications = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
     const reproducibleVerifications = [];
+    const wsBotVerifications = [];
     
     // Iterate over all verifications
     for (const [sha256, verificationEvents] of verifications) {
@@ -73,19 +83,13 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         }
 
         // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
-        const appId = getFirstTagValue(verification, 'i');
-        if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(appId)) {
+        if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
           continue;
         }
 
-        // Debug logging for Electrum
-        if (appId === 'electrum') {
-          appLog.info(`[DEBUG] Found Electrum verification:`);
-          appLog.info(`  - App ID: ${appId}`);
-          appLog.info(`  - Status: ${getFirstTagValue(verification, 'status')}`);
-          appLog.info(`  - Platform: ${getFirstTagValue(verification, 'platform')}`);
-          appLog.info(`  - Version: ${getFirstTagValue(verification, 'version')}`);
-          appLog.info(`  - File attachments: ${fileAttachmentIds.length}`);
+        if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
+          wsBotVerifications.push(verification);
+          continue;
         }
 
         if (['hardware', 'desktop', 'linux', 'windows'].includes(getFirstTagValue(verification, 'platform'))) {
@@ -102,24 +106,8 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
       return;
     }
 
-    // Group verifications by appId and sort by version
-    const verificationsByAppId = new Map();
+    const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(reproducibleVerifications);
     
-    for (const verification of reproducibleVerifications) {
-      const appId = getFirstTagValue(verification, 'i');
-      let version = getFirstTagValue(verification, 'version');
-      version = version.replace(/^v/i, '');
-      
-      if (!verificationsByAppId.has(appId)) {
-        verificationsByAppId.set(appId, []);
-      }
-      
-      verificationsByAppId.get(appId).push({
-        verification,
-        version
-      });
-    }
-
     // Sort versions for each appId (highest first) and take only the first one
     for (const [appId, verifications] of verificationsByAppId) {
       // Sort by version (descending - highest first), then by created_at (descending - newest first)
@@ -159,16 +147,9 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         continue;
       }
 
-      // Force debug mode: process apps in DEBUG_APP_IDS even if version matches
-      const forceDebug = DEBUG_APP_IDS.length > 0 && DEBUG_APP_IDS.includes(appId);
-      
-      if (forceDebug || compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
-        if (forceDebug) {
-          appLog.info(`[DEBUG MODE] Forcing verification for ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        } else {
-          appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        }
-        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo);
+      if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
+        appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
+        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications);
       } else {
         appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
@@ -245,7 +226,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   }
 }
 
-async function processVerification(verification, newWalletVersion, appInfo) {
+async function processVerification(verification, newWalletVersion, appInfo, wsBotVerifications) {
   try {
     // Capture ndk instance at the start to ensure it's available in async callbacks
     const ndkInstance = getNdk();
@@ -300,17 +281,6 @@ async function processVerification(verification, newWalletVersion, appInfo) {
           }
         }
         appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
-      } else if (appId === 'electrum') {
-        // Temporary hardcode for testing Electrum (architectures/types not in prod yet)
-        const architectures = ['win64'];
-        const types = ['setup'];
-        appLog.info(` *** architectures (override): ${architectures}`);
-        appLog.info(` *** types (override): ${types}`);
-        for (const architecture of architectures) {
-          for (const type of types) {
-            buildCombinations.push({ architecture, type });
-          }
-        }
       } else {
         appLog.info(` *** No build combinations found for ${appId}`);
         continue;
@@ -322,26 +292,43 @@ async function processVerification(verification, newWalletVersion, appInfo) {
         const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-        const buildDir = path.join(
-          BUILD_DIR_PREFIX,
-          appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : '')
-        );
+        buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
 
-        fs.rmSync(buildDir, { recursive: true, force: true });
-        fs.mkdirSync(buildDir, { recursive: true });
+        const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
 
-        const scriptWithPath = path.join(buildDir, outputFileName);
+        // Check if this combination is already in the WS Bot verifications
+        const wsBotVerification = wsBotVerifications.find(v => {
+          const content = v.content;
+          const contentJson = JSON.parse(content);
+          const contentDescription = contentJson.description;
+
+          return (
+            appId === getFirstTagValue(v, 'i') &&
+            newWalletVersion === getFirstTagValue(v, 'version') &&
+            platform === getFirstTagValue(v, 'platform') &&
+            contentDescription.includes(architecture) &&
+            contentDescription.includes(type)
+          );
+        });
+
+        if (wsBotVerification) {
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
+          continue;
+        } else {
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
+        }
+
+        fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+        fs.mkdirSync(buildDirForThisVerification, { recursive: true });
 
         // Save the file and make it executable
         const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
         fs.writeFileSync(scriptWithPath, fileContent, 'utf8');
         fs.chmodSync(scriptWithPath, 0o755);
 
-        appLog.info(`${appId} | ${version} | ${platform} | sh script found: ${scriptWithPath}`);
-
         appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-        const job = queue.add(() => startCompilationJob(buildDir, scriptWithPath, newWalletVersion, architecture, type));
+        const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type));
         job.catch(err => {
           appLog.error('Script execution job failed:', err);
           verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
@@ -376,16 +363,16 @@ async function processVerification(verification, newWalletVersion, appInfo) {
 }
 
 const args = minimist(process.argv.slice(2));
-const githubToken = args.githubToken || process.env.GITHUB_TOKEN;
-const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey || process.env.WS_BOT_NOSTR_PK;
+const githubToken = args.githubToken;
+const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
 
 if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug] or set GITHUB_TOKEN env var');
+  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug]');
   process.exit(1);
 }
 
 if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug] or set WS_BOT_NOSTR_PK env var');
+  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug]');
   process.exit(1);
 }
 

@@ -1,17 +1,17 @@
 ---
 wsId: ledgerLive
-title: Ledger Live Crypto Wallet
+title: Ledger Wallet™ crypto app
 altTitle: 
 authors: 
 users: 1000000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2025-10-03
-version: 3.94.0
-stars: 4.6
+updated: 2025-11-17
+version: 3.97.0
+stars: 4.5
 ratings: 6090
-reviews: 3065
+reviews: 3110
 website: https://www.ledger.com
 repository: 
 issue: 

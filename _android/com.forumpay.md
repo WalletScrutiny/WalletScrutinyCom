@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.forumpay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-04-01
+date: 2025-11-26
 signer: 
 twitter: 
 social: 

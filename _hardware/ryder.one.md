@@ -24,9 +24,9 @@ issue:
 icon: ryder.one.png
 bugbounty: 
 meta: ok
-verdict: unreleased
+verdict: nosource
 appHashes: 
-date: 2024-10-31
+date: 2025-11-03
 signer: 
 twitter: Ryder_ID
 social:
@@ -38,7 +38,21 @@ features:
 
 This device's companion app is {% include walletLink.html wallet='android/id.ryder.ryderone' verdict='true' %}
 
-## Update Analysis 2025-10-03 
+## Updated Analysis 2025-11-03
+
+The device has been **[released](https://ryder.id/blogs/news/ryder-one-is-now-officially-shipping-1)** on 2025-04-30.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WxOzGlUw5gI?si=_e65xFxVg5RhQ_mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The previous analysis remains. 
+
+As of 2025-11-03, the repository for the device is still not publicly available.
+
+This device is **not source available**.
+
+* * *
+
+### Previous Analysis 2025-10-03 
 
 **1. Can the private keys be created offline?** 
 
@@ -103,13 +117,15 @@ At the time of this writing, Ryder's repository list includes the following:
 
 None of which is indicative of a full and currently updated firmware repository. The prototype firmware releases, has not been updated for a long time (2022) and consists only of a "simulator" in the releases and two text files.
 
-## Verdict
+### Verdict
 
 The firmware's source is **not publicly-available**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mnZ6mb7CbY4?si=_pyCHphkQ6rDyk5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Update 2024-10-22
+* * *
+
+### Previous Review 2024-10-22
 
 Two years later and we see that there has been some major development. There are some changes when it comes to how it looks. Although it is currently in pre-order on its own website, there are indications in its indiegogo page that they were able to raise funds and ship some devices. 
 
@@ -131,7 +147,7 @@ From the video, shipping would be delayed for 3 months more for security audits.
 - Supports 1,000+ digital currencies
 - Secure button is directly connected to the Secure Element (EAL6+ Infineon SLC38)
 
-## Analysis
+### Analysis
 
 From the unboxing video, we see that the Ryder device:
 1. has to be paired with a mobile phone prior to activation. 
@@ -145,17 +161,13 @@ This system is called the TapSafe Recovery system which is based on Shamir Secre
 
 To confirm transactions, the user has to tap the Ryder One two times on the paired NFC phone. [Watch it in action here](https://youtu.be/dIBUpqcWcp4?si=EizVBxpXvw7lWL_b&t=78)
 
-### Private keys can be created offline ✅
-### Private keys are not shared ❌ 
-### Device displays receive address for confirmation ✅ 
-### Interface ✅ 
-### Reproducibility ❌
+#### Private keys can be created offline ✅
+#### Private keys are not shared ❌ 
+#### Device displays receive address for confirmation ✅ 
+#### Interface ✅ 
+#### Reproducibility ❌
 
-## Verdict
-
-Until the device is widely available commercially, it is still **unreleased**.
-
-## Product Description 2022-04-27
+### Product Description 2022-04-27
 
 > the current Ryder prototype is a full implementation of the current Blockstack authentication algorithm
 >
@@ -168,7 +180,7 @@ Marvin Janssen is the co-founder of Ryder. He envisions Ryder to be part of a "[
 
 Ryder [received a grant of 5,000 USD from the Stacks Foundation](https://www.youtube.com/watch?v=bDuDW--LIr8) in 2021. It is in this video where they stated that they incorporated in Singapore.
 
-## Analysis
+### Analysis
 
 Janssen stated that *"I really hope Ryder can be more than just another crypto wallet."* They have sent out the first batch of watches to what he described as the "pioneers". 
 

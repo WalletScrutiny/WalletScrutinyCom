@@ -8,10 +8,10 @@ appId: com.admiralmarkets.tradersroom
 appCountry: in
 idd: '1222861799'
 released: 2017-06-28
-updated: 2025-10-06
-version: 5.42.0
-stars: 3
-reviews: 2
+updated: 2025-11-27
+version: 5.48.0
+stars: 2.3
+reviews: 3
 website: https://admiralmarkets.com/
 repository: 
 issue: 

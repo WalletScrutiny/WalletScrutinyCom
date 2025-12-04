@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.defiato.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-09
+date: 2025-11-05
 signer: 
 twitter: 
 social: 

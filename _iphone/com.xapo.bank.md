@@ -8,8 +8,8 @@ appId: com.xapo.bank
 appCountry: fi
 idd: '1560681080'
 released: 2021-06-03
-updated: 2025-09-25
-version: 10.48.0
+updated: 2025-11-20
+version: 10.56.0
 stars: 5
 reviews: 4
 website: https://xapo.com

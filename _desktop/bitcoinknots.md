@@ -8,6 +8,19 @@ discontinued:
 updated: 2025-10-10
 version: 29.2.knots20251110
 binaries:
+provider: Luke Dash Jr
+providerWebsite: 
+website: https://bitcoinknots.org
+repository: https://github.com/bitcoinknots/bitcoin
+issue: 
+icon: bitcoinknots.png
+bugbounty: 
+meta: ok
+verdict: sourceavailable
+date: 2025-09-04
+twitter: BitcoinKnots
+social: 
+features:
 builds:
   - arch: x86_64-linux
     types: [tarball]
@@ -23,34 +36,6 @@ builds:
     types: [tarball]
   - arch: x86_64-windows
     types: [zip, setup]
-provider: Luke Dash Jr
-providerWebsite: 
-website: https://bitcoinknots.org
-repository: https://github.com/bitcoinknots/bitcoin
-issue: 
-icon: bitcoinknots.png
-bugbounty: 
-meta: ok
-verdict: sourceavailable
-date: 2025-09-04
-twitter: BitcoinKnots
-social:
-builds:
-  - arch: x86_64-linux
-    types: [tarball]
-  - arch: aarch64-linux
-    types: [tarball]
-  - arch: arm-linux
-    types: [tarball]
-  - arch: powerpc64-linux
-    types: [tarball]
-  - arch: powerpc64le-linux
-    types: [tarball]
-  - arch: riscv64-linux
-    types: [tarball]
-  - arch: x86_64-windows
-    types: [zip, setup] 
-features: 
 
 ---
 

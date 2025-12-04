@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.mobillium.btcturk.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-10-10
+date: 2025-11-05
 signer: 
 twitter: btcturk
 social:

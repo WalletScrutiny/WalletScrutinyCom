@@ -1,6 +1,6 @@
 ---
 wsId: bitkubNext
-title: Bitkub NEXT
+title: KUB Wallet
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.bbt.bitkubnext.app
 appCountry: th
 idd: '6444399387'
 released: 2022-12-07
-updated: 2025-09-08
-version: 2.16.1
+updated: 2025-11-21
+version: 2.18.0
 stars: 4.8
-reviews: 242
+reviews: 271
 website: https://www.bitkubchain.com
 repository: 
 issue: 

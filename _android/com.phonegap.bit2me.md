@@ -8,11 +8,11 @@ users: 500000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
-updated: 2025-10-08
-version: 3.51.1
+updated: 2025-11-18
+version: 3.54.0
 stars: 3.9
 ratings: 5162
-reviews: 53
+reviews: 54
 website: https://bit2me.com
 repository: 
 issue: 

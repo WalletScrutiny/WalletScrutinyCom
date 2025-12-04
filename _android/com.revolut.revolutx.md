@@ -8,8 +8,8 @@ users: 100000
 appId: com.revolut.revolutx
 appCountry: 
 released: 
-updated: 2025-10-14
-version: '1.29'
+updated: 2025-11-25
+version: '1.35'
 stars: 
 ratings: 
 reviews: 

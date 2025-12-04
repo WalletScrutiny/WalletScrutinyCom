@@ -1,6 +1,6 @@
 ---
 wsId: bitci
-title: SafeBit
+title: Safebit | Kripto BTC, ETH,USDT
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2025-09-27
-version: 21.0.11
+updated: 2025-11-25
+version: 21.1.2
 stars: 2.3
 ratings: 
 reviews: 14

@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: '2.0'
 stars: 4.5
 ratings: 
-reviews: 4303
+reviews: 4308
 website: http://freebitcoinapp.net/
 repository: 
 issue: 
