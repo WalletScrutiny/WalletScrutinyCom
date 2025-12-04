@@ -24,6 +24,7 @@ Non-interactive mode:
 EOF
 }
 
+SCRIPT_VERSION="v0.0.2"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 GITHUB_TOKEN_VALUE="${GITHUB_TOKEN:-}"
@@ -36,6 +37,18 @@ APPS=()
 for app in "${INITIAL_APPS[@]}"; do
   [[ -n "${app// }" ]] && APPS+=("${app// /}")
 done
+
+clear_screen() {
+  if command -v tput >/dev/null 2>&1; then
+    tput clear
+  else
+    printf '\033c'
+  fi
+}
+
+pause_for_enter() {
+  read -rp "Press Enter to return to the menu..." _
+}
 
 join_apps() {
   local IFS=','; echo "${APPS[*]}"
@@ -173,8 +186,9 @@ run_non_interactive() {
 
 menu_loop() {
   while true; do
+    clear_screen
     cat <<EOF_MENU
-======== BSADR Debug Menu ========
+======== BSADR Debug Menu (${SCRIPT_VERSION}) ========
 1) Edit GitHub token
 2) Edit WS bot Nostr private key
 3) Set app info source (current: ${APP_INFO_SOURCE_VALUE})
@@ -188,23 +202,24 @@ menu_loop() {
 EOF_MENU
     read -rp "Choose an option: " choice
     case "${choice}" in
-      1) prompt_token ;;
-      2) prompt_pk ;;
-      3) prompt_app_info ;;
-      4) prompt_build_dir ;;
-      5) show_defaults ;;
-      6) show_apps ;;
-      7) add_app ;;
-      8) remove_app ;;
+      1) prompt_token; pause_for_enter ;;
+      2) prompt_pk; pause_for_enter ;;
+      3) prompt_app_info; pause_for_enter ;;
+      4) prompt_build_dir; pause_for_enter ;;
+      5) show_defaults; pause_for_enter ;;
+      6) show_apps; pause_for_enter ;;
+      7) add_app; pause_for_enter ;;
+      8) remove_app; pause_for_enter ;;
       9)
         if run_build; then
           break
         fi
+        pause_for_enter
         ;;
       0) exit 0 ;;
       *) echo "Invalid choice." ;;
     esac
-    echo
+    [[ "${choice}" != 9 ]] && [[ "${choice}" != 0 ]] && true
   done
 }
 
