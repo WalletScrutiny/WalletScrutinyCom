@@ -101,6 +101,10 @@ trap "kill $YAML_MONITOR_PID 2>/dev/null || true" EXIT
 
 # Main log watcher with enhanced event parsing
 stdbuf -oL tail -F "${LOGS[@]}" | awk -v event_counter=0 '
+  BEGIN {
+    pending_head = 1;
+    pending_tail = 0;
+  }
   /Starting mainProcess/ {
     printf "%s START mainProcess\n", strftime("[%Y-%m-%d %H:%M:%S]");
     next
@@ -116,22 +120,31 @@ stdbuf -oL tail -F "${LOGS[@]}" | awk -v event_counter=0 '
   /Published verification \(id:/ {
     match($0,/id: ([a-f0-9]+)\)/,id);
     match($0,/to ([0-9]+) relay/,relays);
-    if (id[1]) {
-      event_counter++;
-      printf "\n";
-      printf "╔════════════════════════════════════════════════════════════════════════════╗\n";
-      printf "║ NOSTR EVENT #%d\n", event_counter;
-      printf "╚════════════════════════════════════════════════════════════════════════════╝\n";
-      printf "  Event ID: %s\n", id[1];
-      printf "  Relays:   %s\n", (relays[1] ? relays[1] : "?");
-      printf "  URL:      https://njump.me/%s\n", id[1];
-      printf "\n";
-    }
+    pending_tail++;
+    event_ids[pending_tail] = (id[1] ? id[1] : "?");
+    event_relays[pending_tail] = (relays[1] ? relays[1] : "?");
     next
   }
   /\\+\\+\\+ .* \\| Verification created:/ {
     match($0,/\\+\\+\\+ ([^ ]+) ([^ ]+)/,app);
-    match($0,/Verification created: ([^ ]*) ([^ ]*) ([^ ]*)/,a);
+    match($0,/Verification created: ([^ ]+) ([^ ]+) ([^ ]+)( [^ ]+)?/,a);
+    event_counter++;
+    current_id = (pending_head <= pending_tail ? event_ids[pending_head] : "?");
+    current_relays = (pending_head <= pending_tail ? event_relays[pending_head] : "?");
+    if (pending_head <= pending_tail) { pending_head++; }
+    printf "\n";
+    printf "╔════════════════════════════════════════════════════════════════════════════╗\n";
+    printf "║ NOSTR EVENT #%d\n", event_counter;
+    printf "╚════════════════════════════════════════════════════════════════════════════╝\n";
+    printf "  Event ID: %s\n", current_id;
+    printf "  Relays:   %s\n", current_relays;
+    printf "  URL:      https://njump.me/%s\n", current_id;
+    printf "  App:      %s\n", (app[1] ? app[1] : "unknown");
+    printf "  Version:  %s\n", (app[2] ? app[2] : "unknown");
+    printf "  Arch:     %s\n", (a[1] ? a[1] : "unknown");
+    printf "  Type:     %s\n", (a[2] ? a[2] : "unknown");
+    printf "  Verdict:  %s\n", (a[3] ? a[3] : "unknown");
+    printf "\n";
     if (app[1] && a[3]) {
       printf "%s RESULT %s v%s %s %s %s\n", strftime("[%Y-%m-%d %H:%M:%S]"), app[1], app[2], (a[1]?a[1]:"*"), (a[2]?a[2]:"*"), a[3];
     }

@@ -63,7 +63,7 @@ The important parts:
 
   `--type`: (optional) type of the app (bitcoin, multi, ...)
 
-  `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
+  `--apk`: (optional, Android-only) APK file supplied by the user instead of downloading from a store. Desktop/hardware scripts may omit this parameter.
 
 11. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
 

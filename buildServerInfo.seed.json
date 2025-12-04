@@ -2,20 +2,27 @@
   "hardware": {},
   "desktop": {
     "bitcoincore": {
-      "builds": [
-        { "arch": "x86_64-linux-gnu", "types": ["tarball"] },
-        { "arch": "win64", "types": ["zip", "setup"] }
+    "builds": [
+      { "arch": "x86_64-linux-gnu", "types": ["tarball"] },
+      { "arch": "aarch64-linux", "types": ["tarball"] },
+      { "arch": "arm-linux", "types": ["tarball"] },
+      { "arch": "win64", "types": ["zip", "setup"] }
       ]
     },
     "bitcoinknots": {
-      "builds": [
-        { "arch": "x86_64-linux-gnu", "types": ["tarball"] }
-      ]
+        "builds": [
+          { "arch": "x86_64-linux-gnu", "types": ["tarball"] },
+          { "arch": "aarch64-linux-gnu", "types": ["tarball"] },
+          { "arch": "arm-linux-gnueabihf", "types": ["tarball"] },
+          { "arch": "powerpc64-linux-gnu", "types": ["tarball"] },
+          { "arch": "powerpc64le-linux-gnu", "types": ["tarball"] },
+          { "arch": "riscv64-linux-gnu", "types": ["tarball"] },
+          { "arch": "win64", "types": ["zip", "setup"] }
+        ]
     },
     "wasabi": {
       "builds": [
-        { "arch": "x86_64-linux-gnu", "types": ["deb", "tarball", "zip"] },
-        { "arch": "win64", "types": ["zip", "msi"] }
+        { "arch": "x86_64-linux-gnu", "types": ["deb", "tarball", "zip"] }
       ]
     },
     "electrum": {
