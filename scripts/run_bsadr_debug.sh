@@ -26,11 +26,18 @@ EOF
 
 SCRIPT_VERSION="v0.0.2"
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+USE_TUI=true
 
 GITHUB_TOKEN_VALUE="${GITHUB_TOKEN:-}"
 NOSTR_PK_VALUE="${WS_BOT_NOSTR_PK:-}"
 APP_INFO_SOURCE_VALUE="${APP_INFO_SOURCE:-${ROOT_DIR}/buildServerInfo.seed.json}"
 BUILD_DIR_VALUE="${BUILD_DIR_OVERRIDE:-${ROOT_DIR}/build_server_builds}"
+
+RUN_MODE="${BSADR_MODE:-dry}"
+IS_DEBUG_RUN=true
+if [[ "${RUN_MODE,,}" == "production" ]]; then
+  IS_DEBUG_RUN=false
+fi
 
 IFS=',' read -r -a INITIAL_APPS <<< "${DEBUG_APPS:-}"
 APPS=()
@@ -39,6 +46,9 @@ for app in "${INITIAL_APPS[@]}"; do
 done
 
 clear_screen() {
+  if [[ "${USE_TUI}" != "true" ]]; then
+    return
+  fi
   if command -v tput >/dev/null 2>&1; then
     tput clear
   else
@@ -47,7 +57,9 @@ clear_screen() {
 }
 
 pause_for_enter() {
-  read -rp "Press Enter to return to the menu..." _
+  if [[ "${USE_TUI}" == "true" ]]; then
+    read -rp "Press Enter to return to the menu..." _
+  fi
 }
 
 join_apps() {
@@ -123,6 +135,26 @@ prompt_build_dir() {
   [[ -n "${input}" ]] && BUILD_DIR_VALUE="${input}"
 }
 
+mode_label() {
+  if [[ "${IS_DEBUG_RUN}" == "true" ]]; then
+    echo "Dry Run"
+  else
+    echo "Production"
+  fi
+}
+
+toggle_mode() {
+  if [[ "${IS_DEBUG_RUN}" == "true" ]]; then
+    IS_DEBUG_RUN=false
+    RUN_MODE="production"
+    echo "Switched to Production mode."
+  else
+    IS_DEBUG_RUN=true
+    RUN_MODE="dry"
+    echo "Switched to Dry Run mode."
+  fi
+}
+
 show_defaults() {
   cat <<EOF
 Current configuration:
@@ -130,6 +162,7 @@ Current configuration:
   Nostr private key set: $([[ -n "${NOSTR_PK_VALUE}" ]] && echo "yes" || echo "no")
   App info source: ${APP_INFO_SOURCE_VALUE}
   Build output directory: ${BUILD_DIR_VALUE}
+  Run mode: $(mode_label)
 EOF
   show_apps
 }
@@ -160,19 +193,25 @@ run_build() {
     --githubToken "${GITHUB_TOKEN_VALUE}"
     --wsBotNostrPrivateKey "${NOSTR_PK_VALUE}"
     --singleRun
-    --debug
   )
+
+  if [[ "${IS_DEBUG_RUN}" == "true" ]]; then
+    cmd+=(--debug)
+  fi
 
   if [[ -n "${APP_INFO_SOURCE_VALUE}" ]]; then
     cmd+=(--appInfo "${APP_INFO_SOURCE_VALUE}")
   fi
 
-  echo "Running BSADR debug build..."
+  clear_screen
+  echo "Running BSADR $(mode_label) build..."
   echo "  Apps: ${apps_joined}"
   echo "  App info source: ${APP_INFO_SOURCE_VALUE}"
   echo "  Build output directory: ${BUILD_DIR_VALUE}"
+  echo "  Mode: $(mode_label)"
 
   "${cmd[@]}"
+  pause_for_enter
 }
 
 run_non_interactive() {
@@ -193,11 +232,12 @@ menu_loop() {
 2) Edit WS bot Nostr private key
 3) Set app info source (current: ${APP_INFO_SOURCE_VALUE})
 4) Set build output directory (current: ${BUILD_DIR_VALUE})
-5) Show current configuration
-6) Show apps list
-7) Add app
-8) Remove app
-9) Run build
+5) Toggle run mode (current: $(mode_label))
+6) Show current configuration
+7) Show apps list
+8) Add app
+9) Remove app
+10) Run build
 0) Quit
 EOF_MENU
     read -rp "Choose an option: " choice
@@ -206,20 +246,19 @@ EOF_MENU
       2) prompt_pk; pause_for_enter ;;
       3) prompt_app_info; pause_for_enter ;;
       4) prompt_build_dir; pause_for_enter ;;
-      5) show_defaults; pause_for_enter ;;
-      6) show_apps; pause_for_enter ;;
-      7) add_app; pause_for_enter ;;
-      8) remove_app; pause_for_enter ;;
-      9)
+      5) toggle_mode; pause_for_enter ;;
+      6) show_defaults; pause_for_enter ;;
+      7) show_apps; pause_for_enter ;;
+      8) add_app; pause_for_enter ;;
+      9) remove_app; pause_for_enter ;;
+      10)
         if run_build; then
           break
         fi
-        pause_for_enter
         ;;
       0) exit 0 ;;
       *) echo "Invalid choice." ;;
     esac
-    [[ "${choice}" != 9 ]] && [[ "${choice}" != 0 ]] && true
   done
 }
 
@@ -233,6 +272,7 @@ for arg in "$@"; do
       ;;
     --no-tui)
       NO_TUI=true
+      USE_TUI=false
       ;;
     *)
       echo "Unknown argument: ${arg}"

@@ -56,7 +56,7 @@ function logQueueInfo() {
   appLog.info(`**** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
-async function mainProcess(githubToken, wsBotNostrPrivateKey, appInfoOverride) {
+async function mainProcess(githubToken, wsBotNostrPrivateKey, appInfoOverride, isDebugRun) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
@@ -147,9 +147,14 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey, appInfoOverride) {
         continue;
       }
 
-      if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
+      const hasNewerVersion = compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0;
+      const debugTargetsApp = DEBUG_APP_IDS.length === 0 ? true : DEBUG_APP_IDS.includes(appId);
+      if (isDebugRun && debugTargetsApp) {
+        appLog.info(`[DEBUG MODE] Forcing build for ${appId}: ${highestVersionVerification.version} ==> ${walletInfo.latestVersion}`);
+        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications, true, true);
+      } else if (hasNewerVersion) {
         appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications);
+        await processVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications, false, isDebugRun);
       } else {
         appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
@@ -162,7 +167,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey, appInfoOverride) {
   }
 }
 
-async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, ndkInstance, architecture, type, fileEventIdsForSHFiles) {
+async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, ndkInstance, architecture, type, fileEventIdsForSHFiles, isDebugRun) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
@@ -191,8 +196,11 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   ]
   .filter(Boolean)
   .join(' - ');
+  if (isDebugRun) {
+    description = `[DEBUG RUN] ${description}`;
+  }
 
-  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
+  let content = `${isDebugRun ? '[DEBUG RUN] ' : ''}Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
@@ -205,7 +213,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],
     reusedFileIds: fileEventIdsForSHFiles,
-    isDraft: false,
+    isDraft: isDebugRun ? true : false,
     // Original verification values
     appId: appId,
     platform: platform
@@ -226,7 +234,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   }
 }
 
-async function processVerification(verification, newWalletVersion, appInfo, wsBotVerifications) {
+async function processVerification(verification, newWalletVersion, appInfo, wsBotVerifications, forceBuild, isDebugRun) {
   try {
     // Capture ndk instance at the start to ensure it's available in async callbacks
     const ndkInstance = getNdk();
@@ -311,9 +319,11 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
           );
         });
 
-        if (wsBotVerification) {
+        if (wsBotVerification && !forceBuild) {
           appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
           continue;
+        } else if (wsBotVerification && forceBuild) {
+          appLog.info(`[DEBUG MODE] Re-running combination despite existing WS Bot verification ${wsBotVerification.id}`);
         } else {
           appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
         }
@@ -344,7 +354,8 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
             ndkInstance,
             architecture,
             type,
-            fileEventIdsForSHFiles
+            fileEventIdsForSHFiles,
+            isDebugRun
           );
         });
       }
@@ -389,7 +400,7 @@ fs.mkdirSync(BUILD_DIR_PREFIX, { recursive: true });
 
 while (true) {
   try {
-    await mainProcess(githubToken, wsBotNostrPrivateKey, appInfoSource);
+    await mainProcess(githubToken, wsBotNostrPrivateKey, appInfoSource, isDebug);
   } catch (error) {
     appLog.error('Error during execution:', error);
   }
