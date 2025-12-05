@@ -1,0 +1,5 @@
+node_modules/
+assets.db
+*.db
+.DS_Store
+

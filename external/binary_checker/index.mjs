@@ -1,0 +1,181 @@
+#!/usr/bin/env node
+
+import minimist from 'minimist';
+import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage } from './utils.mjs';
+import { backupDatabase, initDatabase, saveAsset } from './ddbbUtils.mjs';
+
+// Apps configuration
+// Add your apps here with appId, GitHub repository URL, and optionally Docker image name
+// dockerImage can be:
+//   - Simple name: 'user/image' (defaults to Docker Hub)
+//   - Full registry URL: 'docker.io/user/image', 'ghcr.io/user/image', 'registry.example.com/user/image'
+const APPS = [
+  // Example:
+  { appId: 'zeus-android', repoUrl: 'https://github.com/ZeusLN/zeus' },
+  { appId: 'specter-desktop', dockerImage: 'ghcr.io/cryptoadvance/specter-desktop' },
+];
+
+// Main function
+async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null) {
+  console.log(`\nProcessing app: ${appId}`);
+  if (repoUrl) {
+    console.log(`  GitHub repo: ${repoUrl}`);
+  }
+  if (dockerImage) {
+    console.log(`  Docker image: ${dockerImage}`);
+  }
+
+  try {
+    // Initialize counters
+    let unchangedCount = 0;
+    let addedCount = 0;
+    let unknownCount = 0;
+
+    // Fetch GitHub assets
+    if (repoUrl) {
+      console.log('\nFetching GitHub assets...');
+      const githubAssets = await fetchGitHubAssets(repoUrl, githubToken);
+      console.log(`Found ${githubAssets.length} GitHub assets`);
+
+      for (const asset of githubAssets) {
+        const status = saveAsset(db, appId, asset);
+        if (status === 'unchanged') unchangedCount++;
+        else if (status === 'added') addedCount++;
+        else if (status === 'unknown') unknownCount++;
+      }
+    }
+
+    // Fetch Docker assets if provided
+    if (dockerImage) {
+      console.log('\nFetching Docker assets...');
+      // For ghcr.io, use GitHub token if docker token is not provided
+      const { registry } = parseDockerImage(dockerImage);
+      const effectiveDockerToken = dockerToken || (registry === 'ghcr.io' && githubToken ? githubToken : null);
+      if (registry === 'ghcr.io') {
+        if (effectiveDockerToken && !dockerToken) {
+          //console.log('Using GitHub token for ghcr.io authentication');
+        } else if (!effectiveDockerToken) {
+          console.warn('Warning: No token provided for ghcr.io - authentication may fail');
+        }
+      }
+      const dockerAssets = await fetchDockerAssets(dockerImage, effectiveDockerToken);
+      console.log(`Found ${dockerAssets.length} Docker assets`);
+
+      for (const asset of dockerAssets) {
+        const status = saveAsset(db, appId, asset);
+        if (status === 'unchanged') unchangedCount++;
+        else if (status === 'added') addedCount++;
+        else if (status === 'unknown') unknownCount++;
+      }
+    }
+
+    console.log(`\n✓  Completed processing ${appId}  unchanged: ${unchangedCount}, added: ${addedCount}, unknown: ${unknownCount}`);
+    if (unknownCount > 0) {
+      console.warn(`  ⚠ No digest available for ${unknownCount} assets - may be from before 2025 or API issue`);
+    }
+  } catch (error) {
+    console.error(`\n✗  Error processing ${appId}:`, error.message);
+    throw error;
+  }
+}
+
+
+// Parse command line arguments with minimist
+const argv = minimist(process.argv.slice(2), {
+  string: ['githubToken', 'dockerToken'],
+  alias: {
+    githubToken: ['github-token', 'gh-token'],
+    dockerToken: ['docker-token', 'docker-token']
+  }
+});
+
+// Extract token arguments
+const githubToken = argv.githubToken || null;
+const dockerToken = argv.dockerToken || null;
+
+if (!githubToken && !dockerToken) {
+  console.log('No tokens provided via command line');
+  process.exit(1);
+}
+
+// Check if apps are configured
+if (APPS.length === 0) {
+  console.error('No apps configured. Please add apps to the APPS array in index.mjs');
+  console.error('\nExample:');
+  console.error('  const APPS = [');
+  console.error('    { appId: \'myapp\', repoUrl: \'https://github.com/user/repo\' },');
+  console.error('    { appId: \'myapp2\', repoUrl: \'https://github.com/user/repo2\', dockerImage: \'user/image\' },');
+  console.error('  ];');
+  process.exit(1);
+}
+
+console.log(`Processing ${APPS.length} app(s)...\n`);
+
+// Backup database before starting the process
+backupDatabase();
+
+// Initialize database
+const db = initDatabase();
+
+try {
+  let successCount = 0;
+  let errorCount = 0;
+
+  // Process each app
+  for (const app of APPS) {
+    if (!app.appId || (!app.repoUrl && !app.dockerImage)) {
+      console.error(`\n✗  Skipping invalid app configuration:`, app);
+      errorCount++;
+      continue;
+    }
+
+    try {
+      // For ghcr.io, use GitHub token if docker token is not provided
+      const appGithubToken = app.githubToken || githubToken;
+      let effectiveDockerToken = app.dockerToken || dockerToken;
+      if (!effectiveDockerToken && app.dockerImage) {
+        const { registry } = parseDockerImage(app.dockerImage);
+        if (registry === 'ghcr.io') {
+          if (appGithubToken) {
+            effectiveDockerToken = appGithubToken;
+            console.log(`Using GitHub token for ghcr.io registry (app: ${app.appId})`);
+          } else {
+            console.warn(`Warning: No GitHub token provided for ghcr.io registry (app: ${app.appId})`);
+            console.warn(`  Attempting without token - may fail if repository requires authentication`);
+            console.warn(`  For authenticated access, provide --githubToken or configure githubToken in APPS array`);
+          }
+        }
+      }
+      
+      await processApp(
+        db,
+        app.appId,
+        app.repoUrl || null,
+        app.dockerImage || null,
+        appGithubToken,
+        effectiveDockerToken
+      );
+      successCount++;
+    } catch (error) {
+      console.error(`\n✗  Failed to process ${app.appId}:`, error.message);
+      errorCount++;
+      // Continue with next app instead of stopping
+    }
+  }
+
+  console.log(`\n${'='.repeat(50)}`);
+  console.log(`Summary: ${successCount} succeeded, ${errorCount} failed`);
+  console.log(`${'='.repeat(50)}`);
+
+  if (errorCount > 0) {
+    process.exit(1);
+  }
+} catch (error) {
+  console.error('Fatal error:', error.message);
+  process.exit(1);
+} finally {
+  db.close();
+}
+
+
+//export { processApp, fetchGitHubAssets, fetchDockerAssets };
