@@ -154,3 +154,47 @@ export function saveAsset(db, appId, asset) {
   }
 }
 
+// Get previous releases with their authorIds for an app
+// Returns array of objects with version, authorId, authorLogin, publishedAt
+// Excludes the current version if provided
+// Groups by version to get one authorId per version (takes the most common one if there are multiple)
+export function getPreviousReleases(db, appId, currentVersion = null, limit = 5) {
+  let query = `
+    SELECT 
+      version,
+      author_id,
+      MAX(author_login) as author_login,
+      MAX(COALESCE(published_at, created_at)) as published_at
+    FROM assets
+    WHERE app_id = ? AND source = 'github' AND author_id IS NOT NULL
+  `;
+  
+  const params = [appId];
+  
+  if (currentVersion) {
+    query += ` AND version != ?`;
+    params.push(currentVersion);
+  }
+  
+  query += `
+    GROUP BY version, author_id
+    ORDER BY published_at DESC, created_at DESC
+    LIMIT ?
+  `;
+  params.push(limit);
+  
+  const stmt = db.prepare(query);
+  const results = stmt.all(...params);
+  
+  // If a version appears multiple times with different authorIds, take the first one
+  // (This shouldn't happen for GitHub releases, but handle it just in case)
+  const versionMap = new Map();
+  for (const row of results) {
+    if (!versionMap.has(row.version)) {
+      versionMap.set(row.version, row);
+    }
+  }
+  
+  return Array.from(versionMap.values());
+}
+

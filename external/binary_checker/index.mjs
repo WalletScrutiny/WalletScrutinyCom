@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist';
-import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage } from './utils.mjs';
+import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset } from './ddbbUtils.mjs';
 
 // Apps configuration
@@ -30,6 +30,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
     let unchangedCount = 0;
     let addedCount = 0;
     let unknownCount = 0;
+    const checkedVersions = new Set(); // Track versions we've already checked for authorId consistency
 
     // Fetch GitHub assets
     if (repoUrl) {
@@ -40,8 +41,14 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       for (const asset of githubAssets) {
         const status = saveAsset(db, appId, asset);
         if (status === 'unchanged') unchangedCount++;
-        else if (status === 'added') addedCount++;
-        else if (status === 'unknown') unknownCount++;
+        else if (status === 'added') {
+          addedCount++;
+          // Check authorId consistency for new versions (only once per version)
+          if (asset.authorId && asset.source === 'github' && !checkedVersions.has(asset.version)) {
+            checkedVersions.add(asset.version);
+            checkAuthorIdConsistency(db, appId, asset.version, asset.authorId, asset.authorLogin);
+          }
+        } else if (status === 'unknown') unknownCount++;
       }
     }
 

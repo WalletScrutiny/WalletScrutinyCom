@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { getPreviousReleases } from './ddbbUtils.mjs';
 
 const GITHUB_API_BASE = 'https://api.github.com';
 const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
@@ -41,7 +42,6 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null) {
       }
 
       for (const release of response.data) {
-        console.log(`release ${repoPath} ${page} ${release.tag_name}:`, release);
         const version = release.tag_name;
 
         // Process release assets
@@ -72,6 +72,10 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null) {
               sha256 = 'unknown';
             }
 
+            const authorId = release.author?.id?.toString() || null;
+            const authorLogin = release.author?.login || null;
+            
+
             if (sha256 !== 'unknown') {
               assets.push({
                 version,
@@ -83,8 +87,8 @@ export async function fetchGitHubAssets(repoUrl, githubToken = null) {
                 size: asset.size,
                 downloadUrl: asset.browser_download_url,
                 publishedAt: asset.created_at,
-                authorId: release.author?.id?.toString() || null,
-                authorLogin: release.author?.login || null
+                authorId: authorId,
+                authorLogin: authorLogin
               });
             }
           }
@@ -522,6 +526,55 @@ export function notifySha256Changed(appId, version, assetName, source, oldSha256
   console.log(`[NOTIFICATION] SHA256 changed for ${appId}/${version}/${assetName} (source: ${source})`);
   console.log(`  Old: ${oldSha256}`);
   console.log(`  New: ${newSha256}`);
-  // TODO: Implement actual notification logic (email, webhook, etc.)
+  // TODO: Implement actual notification logic using Nostr
+}
+
+// Check if previous releases were made by the same authorId
+// If all (or last 5) previous releases have the same authorId and it differs from current, notify
+export function checkAuthorIdConsistency(db, appId, currentVersion, currentAuthorId, currentAuthorLogin) {
+  if (!currentAuthorId) {
+    return;
+  }
+
+  // Get previous releases (last 7 or all if fewer)
+  const previousReleases = getPreviousReleases(db, appId, currentVersion, 7);
+  
+  if (previousReleases.length === 0) {
+    return;
+  }
+
+  // Get unique authorIds from previous releases
+  const previousAuthorIds = [...new Set(previousReleases.map(r => r.author_id).filter(id => id !== null))];
+  
+  if (previousAuthorIds.length === 0) {
+    return;
+  }
+
+  // Check if all previous releases have the same authorId
+  if (previousAuthorIds.length === 1) {
+    const previousAuthorId = previousAuthorIds[0];
+
+    // If all previous releases have the same authorId and it's different from current, notify
+    if (previousAuthorId !== currentAuthorId) {
+      const previousAuthorLogin = previousReleases.find(r => r.author_id === previousAuthorId)?.author_login || 'unknown';
+      notifyAuthorIdChanged(
+        appId,
+        currentVersion,
+        previousAuthorId,
+        previousAuthorLogin,
+        currentAuthorId,
+        currentAuthorLogin,
+        previousReleases.length
+      );
+    }
+  }
+}
+
+// Notification procedure for authorId change
+export function notifyAuthorIdChanged(appId, version, previousAuthorId, previousAuthorLogin, currentAuthorId, currentAuthorLogin, releaseCount) {
+  console.log(`[NOTIFICATION] Author ID changed for ${appId}/${version}`);
+  console.log(`  Previous releases (${releaseCount}) were all made by authorId: ${previousAuthorId} (${previousAuthorLogin})`);
+  console.log(`  Current release is made by authorId: ${currentAuthorId} (${currentAuthorLogin})`);
+  // TODO: Implement actual notification logic using Nostr
 }
 
