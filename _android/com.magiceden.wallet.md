@@ -19,7 +19,7 @@ issue:
 icon: com.magiceden.wallet.png
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 appHashes: 
 date: 2025-12-05
 signer: 
@@ -57,4 +57,8 @@ Moreover there are numerous reports of funds being lost.
 >
 > A transaction was sent out at 6am without my consent.
 
-An address mismatch given a seed phrase import can mean many things. None of this leads to a self-custodial assessment. We are marking this app as **custodial**.
+We were able to import the seed phrases from another wallet and successfully matched the address [here.](https://x.com/BitcoinWalletz/status/1996874563461042307)
+
+The provider does not make any claims regarding source-availability. Searching for the Play App ID on [GitHub code](https://github.com/search?q=%22com.magiceden.wallet%22&type=code) did not yield any relevant results related to its Android repository. 
+
+This app is **not source available.**

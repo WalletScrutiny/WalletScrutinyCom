@@ -18,7 +18,7 @@ issue:
 icon: com.magiceden.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: custodial
+verdict: nosource
 appHashes: 
 date: 2025-12-05
 signer: 
