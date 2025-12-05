@@ -57,7 +57,7 @@ Moreover there are numerous reports of funds being lost.
 >
 > A transaction was sent out at 6am without my consent.
 
-We were able to import the seed phrases from another wallet and successfully matched the address [here.](https://x.com/BitcoinWalletz/status/1996874563461042307)
+We were able to import the seed phrases from another wallet and successfully matched the address [here](https://x.com/BitcoinWalletz/status/1996874563461042307).
 
 The provider does not make any claims regarding source-availability. Searching for the Play App ID on [GitHub code](https://github.com/search?q=%22com.magiceden.wallet%22&type=code) did not yield any relevant results related to its Android repository. 
 
