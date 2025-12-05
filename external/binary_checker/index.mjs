@@ -3,6 +3,7 @@
 import minimist from 'minimist';
 import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset } from './ddbbUtils.mjs';
+import { runSourceCodeAnalysis } from './appAnalysis.mjs';
 
 // Apps configuration
 // Add your apps here with appId, GitHub repository URL, and optionally Docker image name
@@ -26,7 +27,6 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
   }
 
   try {
-    // Initialize counters
     let unchangedCount = 0;
     let addedCount = 0;
     let unknownCount = 0;
@@ -38,6 +38,7 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       const githubAssets = await fetchGitHubAssets(repoUrl, githubToken);
       console.log(`Found ${githubAssets.length} GitHub assets`);
 
+      let mostRecentAsset = null;
       for (const asset of githubAssets) {
         const status = saveAsset(db, appId, asset);
         if (status === 'unchanged') unchangedCount++;
@@ -45,10 +46,17 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
           addedCount++;
           // Check authorId consistency for new versions (only once per version)
           if (asset.authorId && asset.source === 'github' && !checkedVersions.has(asset.version)) {
+            if (!mostRecentAsset || new Date(asset.publishedAt) > new Date(mostRecentAsset.publishedAt)) {
+              mostRecentAsset = asset;
+            }
             checkedVersions.add(asset.version);
             checkAuthorIdConsistency(db, appId, asset.version, asset.authorId, asset.authorLogin);
           }
         } else if (status === 'unknown') unknownCount++;
+      }
+
+      if (mostRecentAsset) {
+        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version });
       }
     }
 
