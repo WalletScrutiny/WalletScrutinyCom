@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: quantumWallet
 title: Quantum Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 50000
 appId: com.quantum.wallet.app
 appCountry: 
@@ -39,7 +40,6 @@ Google Play describes Quantum Wallet as a self-custody, multi-chain crypto walle
 
 Our [testing[(https://x.com/BitcoinWalletz/status/1997869975500103887) reveals that the Bitcoin address generated matches the one provided by the app when importing the 15-word mnemonic phrase. 
 
-I did not find any source-code or repository links in the current Quantum Project site’s [Knowledge Base page](https://quantum.press/quantum.html#kb) or the linked white paper. Based on the information presently available, there are no claims of source availability for Quantum Wallet. Searching on [GitHub for the app ID](https://github.com/search?q=%22com.quantum.wallet.app%22&type=code) also did not reveal any relevant Android repository or code.
+We did not find any source-code or repository links in the current Quantum Project site’s [Knowledge Base page](https://quantum.press/quantum.html#kb) or the linked white paper. Based on the information presently available, there are no claims of source availability for Quantum Wallet. Searching on [GitHub for the app ID](https://github.com/search?q=%22com.quantum.wallet.app%22&type=code) also did not reveal any relevant Android repository or code.
 
 This app **is not source-available**.
-
