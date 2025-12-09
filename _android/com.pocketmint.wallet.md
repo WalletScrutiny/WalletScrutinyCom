@@ -39,7 +39,7 @@ Pocketmint.ai provides a platform for buying, selling, sending, and receiving US
 
 The app and the website are geo-restricted so we were not able to test the app and not able to find supporting claims on their website. 
 
-Through archive.org we were able to see its [terms and conditions.](https://web.archive.org/web/20250614053036/https://pocketmint.ai/termsandconditions)
+Through archive.org we were able to see its [terms and conditions](https://web.archive.org/web/20250614053036/https://pocketmint.ai/termsandconditions).
 
 It mentions:
 
@@ -47,7 +47,7 @@ It mentions:
 
 It does not say however, whether the app itself generates the private key for the user.
 
-> “PocketMint does not store or recover private keys and is not liable for any losses due to user negligence.”
+> “PocketMint does not store or recover private keys and is not liable for any losses due to user negligence”.
 
 If the app does not generate the private key then it would follow that they do not also bear responsibility for its storage. 
 

@@ -38,7 +38,7 @@ features:
 
 Robinhood Global is a trading application that allows EU users to buy, sell, and hold more than 50 cryptocurrencies—including Bitcoin—through Robinhood Europe UAB, a regulated financial brokerage and crypto-asset service provider supervised by the Bank of Lithuania. 
 
-The app also offers “Stock Tokens,” which are derivative contracts referencing equities and ETFs, and not actual share ownership. 
+The app also offers “Stock Tokens”, which are derivative contracts referencing equities and ETFs, and not actual share ownership. 
 
 ## Analysis
 

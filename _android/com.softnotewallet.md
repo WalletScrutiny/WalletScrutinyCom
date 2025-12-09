@@ -36,7 +36,7 @@ features:
 
 ## App Description
 
-SoftNote Wallet is a mobile application built by Crispmind Ltd. that manages “SoftNote Bills,” which are digital bearer-style instruments issued on Tectum’s T12 blockchain and can be filled with assets such as Bitcoin, Ethereum, USDT, TRX, and TET. 
+SoftNote Wallet is a mobile application built by Crispmind Ltd. that manages “SoftNote Bills”, which are digital bearer-style instruments issued on Tectum’s T12 blockchain and can be filled with assets such as Bitcoin, Ethereum, USDT, TRX, and TET. 
 
 The app allows users to mint, fill, burn, send, and receive SoftNotes, while also providing a conventional crypto interface for transferring supported assets on BTC, ERC-20, TRC-20, and T12 networks. SoftNote’s payment model relies on transferable SoftNote Bills rather than traditional on-chain Bitcoin transactions, and peer-to-peer transfers inside the SoftNote system are marketed as zero-fee, with merchants paying up to a 1% processing fee. 
 
