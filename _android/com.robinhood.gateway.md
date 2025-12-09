@@ -42,7 +42,7 @@ The wallet provides user-controlled private keys and supports transferring asset
 
 ## Analysis
 
-Bitcoin support is included as one of the supported networks, but the implementation details—such as address formats, signing model, supported transaction types, or derivation paths—are not documented in the Play Store listing. 
+Bitcoin support is included as one of the supported networks, but the implementation details—such as address formats, signing model, supported transaction types, or derivation paths are not documented in the Play Store listing. 
 
 Our [tests](https://x.com/BitcoinWalletz/status/1997951939049611765) show that the app contains a Bitcoin wallet and the seed phrase was successfully imported into an Electrum wallet with matching addresses.
 

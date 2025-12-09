@@ -42,7 +42,7 @@ The app claims to store private keys locally with AES-256 encryption and provide
 
 Our [tests](https://x.com/BitcoinWalletz/status/1997992477983486128) reveal that the private keys can be exported into a third-party desktop Bitcoin app like Electrum and match the BTC address.
 
-While the Play Store listing states that the code is “open-source and audited,” no source repository link is provided in the Play Store metadata, their GitHub [organization does not show any relevant Android repository](https://github.com/si14studios) and [no verifiable open-source repository](https://github.com/search?q=%22com.si14%22&type=code) for the app ID is associated with the app.
+While the Play Store listing states that the code is “open-source and audited”, no source repository link is provided in the Play Store metadata, their GitHub organization [does not show any relevant Android repository](https://github.com/si14studios) and [no verifiable open-source repository](https://github.com/search?q=%22com.si14%22&type=code) for the app ID is associated with the app.
 
 **This app is not source available**.
 

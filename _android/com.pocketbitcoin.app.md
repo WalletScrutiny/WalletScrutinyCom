@@ -36,8 +36,8 @@ Pocket Bitcoin is an app for purchasing Bitcoin through the Pocket Bitcoin servi
 
 ## Analysis
 
-From the [FAQ:](https://pocketbitcoin.com/faq/what-is-pocket)
+From the [FAQ](https://pocketbitcoin.com/faq/what-is-pocket):
 
 > Pocket allows you to buy bitcoin once or recurringly from your bank account and receive your coins directly into self-custody on a Bitcoin wallet of your choice.
 
-Users have to link their own wallet since **the app does not provide a wallet***. 
+Users have to link their own wallet since **the app does not provide a wallet**. 

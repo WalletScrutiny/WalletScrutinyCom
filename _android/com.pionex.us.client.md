@@ -41,7 +41,7 @@ According to its Google Play description:
 
 Apart from that, there are two domains associated with Pionex. One with a `.us` extension. The other with a `.com` extension. Apparently, there is a US-regulated version and an international one.
 
-This specific app is the US-version, but its listed counterpart seems to be its lite version as well, which was previously marked as `removed`
+This specific app is the US-version, but its listed counterpart seems to be its lite version as well, which was previously marked as `removed`.
 
 ## So for clarity, Pionex US (rebranded to Webot) 
 
