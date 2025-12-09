@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2022-02-25
@@ -30,6 +30,34 @@ developerName:
 features: 
 
 ---
+
+**Update 2025-12-01**: This app is available again.  
+
+There is some confusion regarding the Android-iPhone pairing of this app. Apparently, the app is undergoing a rebrand from Pionex to WeBot:
+
+According to its Google Play description:
+
+> Webot (Formerly Pionex.US) is now live!
+
+Apart from that, there are two domains associated with Pionex. One with a `.us` extension. The other with a `.com` extension. Apparently, there is a US-regulated version and an international one.
+
+This specific app is the US-version, but its listed counterpart seems to be its lite version as well, which was previously marked as `removed`
+
+## So for clarity, Pionex US (rebranded to Webot) 
+
+Involves the pairing according to its [download](https://www.pionex.us/en-US/download) page:
+
+- {% include walletLink.html wallet='android/com.pionex.us.client' verdict='true' %}
+- {% include walletLink.html wallet='iphone/com.pionex.lite.appstore' verdict='true' %} which is formerly linked with an existing appID `PionexLite`
+
+Which now has an excess Play store version:
+
+- {% include walletLink.html wallet='android/com.pionex.lite' verdict='true' %} (This one)
+
+## The other Pionex pair involves, [linked together in this page](https://download.pionex.com/?lang=en): 
+
+- {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
+- {% include walletLink.html wallet='iphone/org.pionex' verdict='true' %}
 
 **Update 2022-02-18**: This app is not on the Store anymore.
 
