@@ -19,12 +19,13 @@ meta: ok
 verdict: sourceavailable
 date: 2025-06-10
 twitter: SparrowWallet
-social: 
+social:
 builds:
-  - arch: x86_64-linux-gnu
-    types: [tarball]
-  - arch: x86_64-linux-gnu
-    types: [deb]
+- arch: x86_64-linux-gnu
+  types: [tarball]
+- arch: x86_64-linux-gnu
+  types: [deb]
+
 features: 
 
 ---
