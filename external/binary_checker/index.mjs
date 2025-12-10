@@ -34,29 +34,35 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
 
     // Fetch GitHub assets
     if (repoUrl) {
-      console.log('\nFetching GitHub assets...');
-      const githubAssets = await fetchGitHubAssets(repoUrl, githubToken);
-      console.log(`Found ${githubAssets.length} GitHub assets`);
-
       let mostRecentAsset = null;
-      for (const asset of githubAssets) {
-        const status = saveAsset(db, appId, asset);
-        if (status === 'unchanged') unchangedCount++;
-        else if (status === 'added') {
-          addedCount++;
-          // Check authorId consistency for new versions (only once per version)
-          if (asset.authorId && asset.source === 'github' && !checkedVersions.has(asset.version)) {
-            if (!mostRecentAsset || new Date(asset.publishedAt) > new Date(mostRecentAsset.publishedAt)) {
-              mostRecentAsset = asset;
+
+      if (repoUrl.startsWith('https://github.com/')) {
+        console.log('\nFetching GitHub assets...');
+        const githubAssets = await fetchGitHubAssets(repoUrl, githubToken);
+        console.log(`Found ${githubAssets.length} GitHub assets`);
+        
+        for (const asset of githubAssets) {
+          const status = saveAsset(db, appId, asset);
+          if (status === 'unchanged') unchangedCount++;
+          else if (status === 'added') {
+            addedCount++;
+            // Check authorId consistency for new versions (only once per version)
+            if (asset.authorId && asset.source === 'github' && !checkedVersions.has(asset.version)) {
+              if (!mostRecentAsset || new Date(asset.publishedAt) > new Date(mostRecentAsset.publishedAt)) {
+                mostRecentAsset = asset;
+              }
+              checkedVersions.add(asset.version);
+              checkAuthorIdConsistency(db, appId, asset.version, asset.authorId, asset.authorLogin);
             }
-            checkedVersions.add(asset.version);
-            checkAuthorIdConsistency(db, appId, asset.version, asset.authorId, asset.authorLogin);
-          }
-        } else if (status === 'unknown') unknownCount++;
+          } else if (status === 'unknown') unknownCount++;
+        }
       }
 
       if (mostRecentAsset) {
         await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl, version: mostRecentAsset.version });
+      } else {
+        console.log('  No updates or not a GitHub repo...');
+        await runSourceCodeAnalysis({ name: appId, repoUrl: repoUrl });
       }
     }
 
