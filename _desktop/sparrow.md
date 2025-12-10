@@ -37,4 +37,4 @@ Lightweight, but fully featured, Sparrow is a source-available program that allo
 
 Sparrow is not just an app, but a philosophy-methodology in itself. It recommends that users act in accordance to the level of their belief in bitcoin. The more belief they have over it - the more they should have it. The more they have of it, the higher their security posture. These tiers could be found [here.](https://sparrowwallet.com/docs/best-practices.html#summary).
 
-The seed phrases could be accessed under "Settings" > "Keystores". Self-custodial, and source-available this app should be **for verification**.
+The seed phrases can be accessed under "Settings" > "Keystores". Its self-custodial and source-available nature makes this app suitable for thorough reproducibility verification.
