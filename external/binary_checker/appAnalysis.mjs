@@ -10,9 +10,9 @@ const __dirname = path.dirname(__filename);
 
 // Configuration
 const DEFAULT_TEMP_DIR = path.join(__dirname, 'temp_repos');
-const YEARS_FOR_OUTDATED_CHECK = 3; // Dependencies not updated in last X years
+const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
+const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
-// App type detection
 export const APP_TYPES = {
   NPM: 'npm',
   GRADLE: 'gradle',
@@ -408,9 +408,7 @@ export async function countDirectDependencies(repoPath, appType) {
           const deps = packageJson.dependencies || {};
           const devDeps = packageJson.devDependencies || {};
           count = Object.keys(deps).length + Object.keys(devDeps).length;
-          console.log(`Dependencies: ${Object.keys(deps).length}`);
-          console.log(`DevDependencies: ${Object.keys(devDeps).length}`);
-          console.log(`Total: ${count}`);
+          console.log(`${count} dependencies = ${Object.keys(deps).length} dependencies + ${Object.keys(devDeps).length} devDependencies`);
         }
         break;
         
@@ -626,55 +624,46 @@ export async function scanVulnerabilities(repoPath, appType) {
           const yarnLockPath = path.join(repoPath, 'yarn.lock');
           
           let auditCommand;
-          let auditTool;
           
           if (fs.existsSync(yarnLockPath)) {
             auditCommand = 'yarn audit --json';
-            auditTool = 'yarn audit';
           } else {
             auditCommand = 'npm audit --json';
-            auditTool = 'npm audit';
           }
           
-          console.log(`Running ${auditTool}...`);
-          const auditResult = execSync(auditCommand, {
-            cwd: repoPath,
-            encoding: 'utf8',
-            timeout: 60000
-          });
+          console.log(`Running ${auditCommand}...`);
+          let auditResult;
+          try {
+            auditResult = execSync(auditCommand, {
+              cwd: repoPath,
+              encoding: 'utf8',
+              timeout: 60000
+            });
+          } catch (error) {
+            // npm/yarn audit exits with non-zero when vulnerabilities are found,
+            // but still outputs valid JSON to stdout
+            auditResult = error.stdout || error.message || '';
+          }
+          //console.log('auditResult: ' + JSON.stringify(auditResult));
           const audit = JSON.parse(auditResult);
-          
-          if (audit.vulnerabilities) {
-            const vulnCount = Object.keys(audit.vulnerabilities).length;
-            console.log(`Found ${vulnCount} vulnerabilities`);
-            
-            if (audit.metadata && audit.metadata.vulnerabilities) {
-              console.log(`  Critical: ${audit.metadata.vulnerabilities.critical || 0}`);
-              console.log(`  High: ${audit.metadata.vulnerabilities.high || 0}`);
-              console.log(`  Moderate: ${audit.metadata.vulnerabilities.moderate || 0}`);
-              console.log(`  Low: ${audit.metadata.vulnerabilities.low || 0}`);
-            }
-          } else {
-            console.log('No vulnerabilities found');
-          }
-        } catch (error) {
-          if (error.stdout) {
-            try {
-              const audit = JSON.parse(error.stdout);
-              if (audit.metadata && audit.metadata.vulnerabilities) {
-                const vulns = audit.metadata.vulnerabilities;
-                console.log(`Found vulnerabilities:`);
-                console.log(`  Critical: ${vulns.critical || 0}`);
-                console.log(`  High: ${vulns.high || 0}`);
-                console.log(`  Moderate: ${vulns.moderate || 0}`);
-                console.log(`  Low: ${vulns.low || 0}`);
+          const summaryVulnerabilities = audit.metadata.vulnerabilities;
+          console.log('  ' + JSON.stringify(summaryVulnerabilities));
+
+          if (summaryVulnerabilities.critical > 0 || summaryVulnerabilities.high > 0) {
+            console.log('Critical and high vulnerabilities found:');
+
+            for (const vulnerability of Object.values(audit.vulnerabilities || {})) {
+              if (vulnerability.severity === 'critical' || vulnerability.severity === 'high') {
+                console.log(`  ** ${vulnerability.name} (${vulnerability.severity}) - Fix available: ${vulnerability.fixAvailable ? 'Yes' : 'No'}`);
               }
-            } catch (e) {
-              console.log('Could not parse audit output:', error.message);
             }
           } else {
-            console.log('Could not run audit:', error.message);
+            console.log('No critical or high vulnerabilities found');
           }
+
+        } catch (error) {
+          console.log('error: ' + error);
+          console.log('Could not parse audit output:', error.message);
         }
         break;
         
@@ -727,10 +716,12 @@ export async function scanVulnerabilities(repoPath, appType) {
 }
 
 /**
- * Test 5: Show dependencies not updated in the last X years
+ * Test 5: Analyze dependencies to get
+ * - Dependencies not updated in the last X years
+ * - Dependencies with little downloads in the last month (deprecated, unused or specifically crafted to be used in the app)
  */
-export async function showOutdatedDependencies(repoPath, appType, yearsThreshold = YEARS_FOR_OUTDATED_CHECK) {
-  console.log(`\n=== Dependencies Not Updated in Last ${yearsThreshold} Years ===`);
+export async function analyzeDependencies(repoPath, appType, yearsThreshold = YEARS_FOR_OUTDATED_CHECK) {
+  console.log(`\n=== Dependencies Without Updates in NPMJS in the Last ${yearsThreshold} Years ===`);
   
   try {
     const outdatedDeps = [];
@@ -770,7 +761,7 @@ export async function showOutdatedDependencies(repoPath, appType, yearsThreshold
               try {
                 const infoResult = execSync(`npm view ${name} time --json`, {
                   encoding: 'utf8',
-                  timeout: 30000,
+                  timeout: 5000,
                   stdio: ['pipe', 'pipe', 'pipe']
                 });
                 const timeInfo = JSON.parse(infoResult);
@@ -790,6 +781,135 @@ export async function showOutdatedDependencies(repoPath, appType, yearsThreshold
                 }
               } catch (e) {
                 // Skip if we can't get info
+              }
+            }
+
+            if (outdatedDeps.length > 0) {
+              console.log(`Found ${outdatedDeps.length} outdated dependencies:`);
+              outdatedDeps.forEach(dep => {
+                const dateOnly = new Date(dep.lastUpdate).toLocaleDateString('en-GB', { 
+                  year: 'numeric', 
+                  month: '2-digit', 
+                  day: '2-digit' 
+                });
+                console.log(`  - ${dep.name} (${dep.currentVersion}): Last update ${dateOnly}`);
+              });
+            } else {
+              console.log('No outdated dependencies found (or check not available)');
+            }
+            
+            // Check download statistics for each dependency using bulk queries
+            console.log(`\n=== NPM Package Download Statistics (Last Month) ===`);
+            
+            // Separate scoped packages (starting with @) from non-scoped packages
+            const scopedPackages = [];
+            const nonScopedPackages = [];
+            
+            for (const [name, version] of Object.entries(allDeps)) {
+              if (name.startsWith('@')) {
+                scopedPackages.push({ name, version });
+              } else {
+                nonScopedPackages.push({ name, version });
+              }
+            }
+            
+            // Process non-scoped packages in bulk (max 128 per request)
+            const BULK_QUERY_LIMIT = 128;
+            for (let i = 0; i < nonScopedPackages.length; i += BULK_QUERY_LIMIT) {
+              const batch = nonScopedPackages.slice(i, i + BULK_QUERY_LIMIT);
+              const packageNames = batch.map(pkg => pkg.name);
+              
+              try {
+                const response = await fetch(`https://api.npmjs.org/downloads/point/last-month/${packageNames.join(',')}`);
+                
+                if (response.ok) {
+                  const data = await response.json();
+                  // Bulk queries return an array of results
+                  const results = Array.isArray(data) ? data : [data];
+                  
+                  for (const result of results) {
+                    if (result && result.package) {
+                      const downloads = result.downloads || 0;
+                      const packageName = result.package;
+                      
+                      // console.log(`  ${packageName}: ${downloads.toLocaleString()} downloads`);
+                      
+                      if (downloads < MIN_DOWNLOADS_THRESHOLD) {
+                        console.log(`  ALERT: ${packageName} has only ${downloads.toLocaleString()} downloads (below threshold of ${MIN_DOWNLOADS_THRESHOLD})`);
+                      }
+                    }
+                  }
+                } else {
+                  // If bulk query fails, fall back to individual queries for this batch
+                  console.log(`  Bulk query failed (HTTP ${response.status}), falling back to individual queries...`);
+                  for (const pkg of batch) {
+                    try {
+                      const individualUrl = `https://api.npmjs.org/downloads/point/last-month/${pkg.name}`;
+                      const individualResponse = await fetch(individualUrl);
+                      
+                      if (individualResponse.ok) {
+                        const individualData = await individualResponse.json();
+                        const downloads = individualData.downloads || 0;
+                        
+                        if (downloads < MIN_DOWNLOADS_THRESHOLD) {
+                          console.log(`  ALERT: ${pkg.name} has only ${downloads.toLocaleString()} downloads (below threshold of ${MIN_DOWNLOADS_THRESHOLD.toLocaleString()})`);
+                        }
+                      } else {
+                        console.log(`  ${pkg.name}: Could not fetch download statistics (HTTP ${individualResponse.status})`);
+                      }
+                    } catch (e) {
+                      console.log(`  ${pkg.name}: Error fetching download statistics: ${e.message}`);
+                    }
+                  }
+                }
+              } catch (e) {
+                console.log(`  Error in bulk query: ${e.message}, falling back to individual queries...`);
+                // Fall back to individual queries for this batch
+                for (const pkg of batch) {
+                  try {
+                    const individualResponse = await fetch(`https://api.npmjs.org/downloads/point/last-month/${pkg.name}`);
+                    
+                    if (individualResponse.ok) {
+                      const individualData = await individualResponse.json();
+                      const downloads = individualData.downloads || 0;
+                      
+                      if (downloads < MIN_DOWNLOADS_THRESHOLD) {
+                        console.log(`  ALERT: ${pkg.name} has only ${downloads.toLocaleString()} downloads (below threshold of ${MIN_DOWNLOADS_THRESHOLD.toLocaleString()})`);
+                      }
+                    } else {
+                      console.log(`  ${pkg.name}: Could not fetch download statistics (HTTP ${individualResponse.status})`);
+                    }
+                  } catch (err) {
+                    console.log(`  ${pkg.name}: Error fetching download statistics: ${err.message}`);
+                  }
+                }
+              }
+            }
+            
+            // Process scoped packages individually (bulk queries not supported for scoped packages)
+            for (const pkg of scopedPackages) {
+              try {
+                // For scoped packages, encode the / as %2F
+                const encodedName = pkg.name.replace(/\//g, '%2F');
+                const response = await fetch(`https://api.npmjs.org/downloads/point/last-month/${encodedName}`);
+
+                if (response.ok) {
+                  const data = await response.json();
+                  const downloads = data.downloads || 0;
+                  
+                  // console.log(`  ${pkg.name}: ${downloads.toLocaleString()} downloads`);
+                  
+                  if (downloads < MIN_DOWNLOADS_THRESHOLD) {
+                    console.log(`  - ${pkg.name} has only ${downloads.toLocaleString()} downloads to the last month (below threshold of ${MIN_DOWNLOADS_THRESHOLD.toLocaleString()})`);
+                  }
+                } else {
+                  console.log(`  ${pkg.name}: Could not fetch download statistics (HTTP ${response.status})`);
+                }
+
+                await new Promise(resolve => setTimeout(resolve, 2000));
+
+              } catch (e) {
+                console.log(`  ${pkg.name}: Error fetching download statistics: ${e.message}`);
               }
             }
           }
@@ -841,29 +961,17 @@ export async function showOutdatedDependencies(repoPath, appType, yearsThreshold
       default:
         console.log('Unknown app type, cannot check outdated dependencies');
     }
-    
-    if (outdatedDeps.length > 0) {
-      console.log(`Found ${outdatedDeps.length} outdated dependencies:`);
-      outdatedDeps.forEach(dep => {
-        console.log(`  - ${dep.name} (${dep.currentVersion}): Last update ${dep.lastUpdate}`);
-      });
-    } else {
-      console.log('No outdated dependencies found (or check not available)');
-    }
-    
-    return outdatedDeps;
   } catch (error) {
     console.error('Error checking outdated dependencies:', error.message);
-    return [];
   }
 }
 
 /**
  * Run all tests for a specific app
  */
-export async function runSourceCodeAnalysis({ name, repoUrl, version }) {
+export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master' }) {
   console.log(`\n${'='.repeat(60)}`);
-  console.log(`Testing: ${name} - Repository: ${repoUrl} - Version: ${version}`);
+  console.log(`Testing: ${name} - Repository: ${repoUrl} ${`- Branch: ${version}`}`);
   console.log('='.repeat(60));
 
   // Ensure temp directory exists
@@ -895,7 +1003,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version }) {
   await countDirectDependencies(repoPath, appType);
   await listDependenciesWithoutFixedVersions(repoPath, appType);
   await scanVulnerabilities(repoPath, appType);
-  await showOutdatedDependencies(repoPath, appType);
+  await analyzeDependencies(repoPath, appType);
   
   // Cleanup
   try {
