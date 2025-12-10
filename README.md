@@ -71,3 +71,9 @@ with the community. A user can also register a new asset so that other users
 can verify the reproducibility of the asset.
 
 See more details at https://walletscrutiny.com/verifications/
+
+## The WalletScrutiny Automated Build Server
+
+The WABS is a service that runs on the build server and is responsible for launching automatic verifications when a new version of a wallet is released.
+
+See more details at `external/build_server/README.md`.

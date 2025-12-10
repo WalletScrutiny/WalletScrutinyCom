@@ -20,6 +20,11 @@ verdict: sourceavailable
 date: 2025-08-24
 twitter: ElectrumWallet
 social: 
+builds:
+  - arch: x86_64-linux-gnu
+    types: [appimage, tarball]
+  - arch: win64
+    types: [setup, portable, standalone]
 features:
 - 2fa
 - multisig
@@ -33,4 +38,3 @@ Electrum is a lightweight Bitcoin client developed by Thomas Voegtlin in 2011. I
 They have a guide on [reproducibility](https://github.com/spesmilo/electrum/tree/master/contrib/build-linux/sdist)
 
 This desktop program is **for verification**.
-
