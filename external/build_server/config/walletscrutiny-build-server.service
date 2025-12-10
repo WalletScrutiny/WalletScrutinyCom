@@ -1,0 +1,22 @@
+[Unit]
+Description=WalletScrutiny Build Server service
+Documentation=file:external/build_server/README.md
+After=network.target
+
+[Service]
+Type=simple
+StandardOutput=journal
+StandardError=journal
+User=build-server
+Group=build-server
+WorkingDirectory=/opt/build-server/walletScrutinyCom/external/build_server
+
+LoadCredentialEncrypted=build-server-ws-bot-pk:/etc/credstore.encrypted/build-server-ws-bot-pk
+LoadCredentialEncrypted=build-server-gh-token:/etc/credstore.encrypted/build-server-gh-token
+
+ExecStart=/bin/sh -c '/usr/bin/node index.mjs --githubToken "$(cat $CREDENTIALS_DIRECTORY/build-server-gh-token)" --wsBotNostrPrivateKey "$(cat $CREDENTIALS_DIRECTORY/build-server-ws-bot-pk)"'
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
