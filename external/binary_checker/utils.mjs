@@ -603,31 +603,34 @@ function checkSizeChangeAgainstPreviousVersions(db, appId, asset, thresholdPerce
     return;
   }
 
-  // Check each previous version
-  for (const prevVersion of previousVersions) {
-    if (!prevVersion.size || prevVersion.size === null) {
-      continue;
-    }
+  // Filter out versions with null or undefined sizes
+  const versionsWithSize = previousVersions.filter(v => v.size !== null && v.size !== undefined);
+  
+  if (versionsWithSize.length === 0) {
+    return;
+  }
 
-    const sizeDiff = Math.abs(currentSize - prevVersion.size);
-    const percentChange = (sizeDiff / prevVersion.size) * 100;
+  // Calculate average size of previous versions
+  const totalSize = versionsWithSize.reduce((sum, v) => sum + v.size, 0);
+  const averageSize = totalSize / versionsWithSize.length;
 
-    if (percentChange > thresholdPercent) {
-      const isIncrease = currentSize > prevVersion.size;
-      notifySizeChanged(
-        appId,
-        asset.version,
-        asset.assetName,
-        asset.source,
-        prevVersion.version,
-        prevVersion.size,
-        currentSize,
-        percentChange,
-        isIncrease
-      );
-      // Only alert once per asset (use the most recent previous version)
-      break;
-    }
+  // Compare current size against average
+  const sizeDiff = Math.abs(currentSize - averageSize);
+  const percentChange = (sizeDiff / averageSize) * 100;
+
+  if (percentChange > thresholdPercent) {
+    const isIncrease = currentSize > averageSize;
+    notifySizeChanged(
+      appId,
+      asset.version,
+      asset.assetName,
+      asset.source,
+      `average of ${versionsWithSize.length} previous versions`,
+      averageSize,
+      currentSize,
+      percentChange,
+      isIncrease
+    );
   }
 }
 
