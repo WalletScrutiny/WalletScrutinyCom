@@ -1,20 +1,10 @@
 #!/usr/bin/env node
 
 import minimist from 'minimist';
-import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency } from './utils.mjs';
+import { fetchGitHubAssets, fetchDockerAssets, parseDockerImage, checkAuthorIdConsistency, evaluateChangesInNewAsset } from './utils.mjs';
 import { backupDatabase, initDatabase, saveAsset } from './ddbbUtils.mjs';
 import { runSourceCodeAnalysis } from './appAnalysis.mjs';
-
-// Apps configuration
-// Add your apps here with appId, GitHub repository URL, and optionally Docker image name
-// dockerImage can be:
-//   - Simple name: 'user/image' (defaults to Docker Hub)
-//   - Full registry URL: 'docker.io/user/image', 'ghcr.io/user/image', 'registry.example.com/user/image'
-const APPS = [
-  // Example:
-  { appId: 'zeus-android', repoUrl: 'https://github.com/ZeusLN/zeus' },
-  { appId: 'specter-desktop', dockerImage: 'ghcr.io/cryptoadvance/specter-desktop' },
-];
+import { APPS } from './config.mjs';
 
 // Main function
 async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = null, dockerToken = null) {
@@ -42,7 +32,8 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
         console.log(`Found ${githubAssets.length} GitHub assets`);
         
         for (const asset of githubAssets) {
-          const status = saveAsset(db, appId, asset);
+          const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset);
+          const status = saveAsset(db, appId, asset, shaChangeResult);
           if (status === 'unchanged') unchangedCount++;
           else if (status === 'added') {
             addedCount++;
@@ -83,7 +74,8 @@ async function processApp(db, appId, repoUrl, dockerImage = null, githubToken = 
       console.log(`Found ${dockerAssets.length} Docker assets`);
 
       for (const asset of dockerAssets) {
-        const status = saveAsset(db, appId, asset);
+        const shaChangeResult = evaluateChangesInNewAsset(db, appId, asset);
+        const status = saveAsset(db, appId, asset, shaChangeResult);
         if (status === 'unchanged') unchangedCount++;
         else if (status === 'added') addedCount++;
         else if (status === 'unknown') unknownCount++;

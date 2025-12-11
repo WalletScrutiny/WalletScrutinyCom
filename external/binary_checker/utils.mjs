@@ -1,8 +1,6 @@
 import axios from 'axios';
-import { getPreviousReleases } from './ddbbUtils.mjs';
-
-const GITHUB_API_BASE = 'https://api.github.com';
-const DOCKER_HUB_API_BASE = 'https://hub.docker.com/v2';
+import { getPreviousReleases, getPreviousAssetVersions } from './ddbbUtils.mjs';
+import { GITHUB_API_BASE, DOCKER_HUB_API_BASE, SIZE_CHANGE_THRESHOLD_PERCENT } from './config.mjs';
 
 // Extract repository path from GitHub URL
 export function extractRepoPath(repoUrl) {
@@ -521,12 +519,145 @@ export async function fetchDockerAssets(imageRef, dockerToken = null) {
   }
 }
 
+// Evaluate SHA256 changes for an asset using database lookup
+// Returns status plus context:
+// - missing: asset not found
+// - unknown: new sha256 cannot be compared
+// - upgrade_from_unknown: replacing an unknown sha256 with a real value
+// - changed: sha256 changed
+// - unchanged: sha256 matches (metadata may still need update)
+// Also checks size differences with previous versions and alerts if threshold is exceeded
+export function evaluateChangesInNewAsset(db, appId, asset, sizeChangeThresholdPercent = SIZE_CHANGE_THRESHOLD_PERCENT) {
+  const selectStmt = db.prepare(`
+    SELECT sha256, architecture, os, published_at, size FROM assets 
+    WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
+      AND COALESCE(architecture, '') = COALESCE(?, '')
+      AND COALESCE(os, '') = COALESCE(?, '')
+  `);
+
+  const existing = selectStmt.get(appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
+  const newSha256 = asset.sha256;
+
+  // Check size against previous versions (once, for all cases)
+  if (asset.size !== undefined && asset.size !== null) {
+    checkSizeChangeAgainstPreviousVersions(
+      db, 
+      appId, 
+      asset, 
+      sizeChangeThresholdPercent
+    );
+  }
+
+  if (!existing) {
+    return { status: 'missing', existing: null, newSha256 };
+  }
+
+  const oldSha256 = existing.sha256;
+
+  if (newSha256 === 'unknown' || newSha256 === 'pending_download') {
+    return { status: 'unknown', existing, oldSha256, newSha256 };
+  }
+
+  if (oldSha256 === 'unknown' || oldSha256 === 'pending_download') {
+    return { status: 'upgrade_from_unknown', existing, oldSha256, newSha256 };
+  }
+
+  if (oldSha256 !== newSha256) {
+    notifySha256Changed(appId, asset.version, asset.assetName, asset.source, oldSha256, newSha256);
+    return { status: 'changed', existing, oldSha256, newSha256 };
+  }
+
+  const sizeChanged = asset.size !== undefined && asset.size !== null && asset.size !== existing.size;
+  const metadataNeedsUpdate = (!existing.published_at && asset.publishedAt) || asset.publishedAt || asset.authorId || asset.authorLogin || sizeChanged;
+
+  return {
+    status: 'unchanged',
+    existing,
+    oldSha256,
+    newSha256,
+    metadataNeedsUpdate,
+    sizeChanged
+  };
+}
+
+// Check size changes against previous versions of the same asset
+// Alerts if size difference exceeds threshold percentage
+function checkSizeChangeAgainstPreviousVersions(db, appId, asset, thresholdPercent) {
+  const previousVersions = getPreviousAssetVersions(
+    db,
+    appId,
+    asset.assetName,
+    asset.source,
+    asset.architecture || null,
+    asset.os || null,
+    asset.version,
+    10
+  );
+
+  if (previousVersions.length === 0) {
+    return;
+  }
+
+  const currentSize = asset.size;
+  if (!currentSize || currentSize === null) {
+    return;
+  }
+
+  // Check each previous version
+  for (const prevVersion of previousVersions) {
+    if (!prevVersion.size || prevVersion.size === null) {
+      continue;
+    }
+
+    const sizeDiff = Math.abs(currentSize - prevVersion.size);
+    const percentChange = (sizeDiff / prevVersion.size) * 100;
+
+    if (percentChange > thresholdPercent) {
+      const isIncrease = currentSize > prevVersion.size;
+      notifySizeChanged(
+        appId,
+        asset.version,
+        asset.assetName,
+        asset.source,
+        prevVersion.version,
+        prevVersion.size,
+        currentSize,
+        percentChange,
+        isIncrease
+      );
+      // Only alert once per asset (use the most recent previous version)
+      break;
+    }
+  }
+}
+
 // Notification procedure (placeholder)
 export function notifySha256Changed(appId, version, assetName, source, oldSha256, newSha256) {
   console.log(`[NOTIFICATION] SHA256 changed for ${appId}/${version}/${assetName} (source: ${source})`);
   console.log(`  Old: ${oldSha256}`);
   console.log(`  New: ${newSha256}`);
   // TODO: Implement actual notification logic using Nostr
+}
+
+// Notification procedure for size changes
+export function notifySizeChanged(appId, currentVersion, assetName, source, previousVersion, previousSize, currentSize, percentChange, isIncrease) {
+  const changeDirection = isIncrease ? 'increased' : 'decreased';
+  const sizeDiff = isIncrease ? (currentSize - previousSize) : (previousSize - currentSize);
+  
+  console.log(`[NOTIFICATION] Asset size ${changeDirection} significantly for ${appId}/${currentVersion}/${assetName} (source: ${source})`);
+  console.log(`  Previous version: ${previousVersion} (size: ${formatBytes(previousSize)})`);
+  console.log(`  Current version: ${currentVersion} (size: ${formatBytes(currentSize)})`);
+  console.log(`  Change: ${changeDirection} by ${formatBytes(sizeDiff)} (${percentChange.toFixed(2)}%)`);
+  // TODO: Implement actual notification logic using Nostr
+}
+
+// Helper function to format bytes
+function formatBytes(bytes) {
+  if (bytes === 0) return '0 Bytes';
+  const k = 1024;
+  const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return Math.round((bytes / Math.pow(k, i)) * 100) / 100 + ' ' + sizes[i];
 }
 
 // Check if previous releases were made by the same authorId
@@ -545,7 +676,7 @@ export function checkAuthorIdConsistency(db, appId, currentVersion, currentAutho
 
   // Get unique authorIds from previous releases
   const previousAuthorIds = [...new Set(previousReleases.map(r => r.author_id).filter(id => id !== null))];
-  
+
   if (previousAuthorIds.length === 0) {
     return;
   }

@@ -2,24 +2,8 @@
 
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import { execSync } from 'child_process';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Configuration
-const DEFAULT_TEMP_DIR = path.join(__dirname, 'temp_repos');
-const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in last X years
-const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
-
-export const APP_TYPES = {
-  NPM: 'npm',
-  GRADLE: 'gradle',
-  MAVEN: 'maven',
-  PIP: 'pip',
-  UNKNOWN: 'unknown'
-};
+import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES } from './config.mjs';
 
 /**
  * Detect the type of application based on dependency files
