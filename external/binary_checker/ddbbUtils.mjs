@@ -1,14 +1,7 @@
 import Database from 'better-sqlite3';
 import { existsSync, mkdirSync, copyFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { notifySha256Changed } from './utils.mjs';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const DB_PATH = join(__dirname, 'assets.db');
-const BACKUP_DIR = join(__dirname, 'backup');
+import { DB_PATH, BACKUP_DIR } from './config.mjs';
+import { join } from 'path';
 
 // Backup database before processing
 export function backupDatabase() {
@@ -54,6 +47,7 @@ export function initDatabase() {
       architecture TEXT,
       os TEXT,
       asset_name TEXT NOT NULL,
+      size INTEGER,
       sha256 TEXT NOT NULL,
       published_at DATETIME,
       author_id TEXT,
@@ -79,77 +73,58 @@ export function initDatabase() {
 
 // Save or update asset in database
 // Returns: 'unchanged', 'added', 'unknown', or 'changed'
-export function saveAsset(db, appId, asset) {
-  const stmt = db.prepare(`
-    SELECT sha256, architecture, os, published_at FROM assets 
-    WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
-      AND COALESCE(architecture, '') = COALESCE(?, '')
-      AND COALESCE(os, '') = COALESCE(?, '')
-  `);
-
-  const existing = stmt.get(appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
+// shaChangeResult: result from evaluateAssetShaChange function
+export function saveAsset(db, appId, asset, shaChangeResult) {
+  const { status, existing, oldSha256, newSha256, metadataNeedsUpdate } = shaChangeResult;
 
   if (existing) {
-    // Asset exists, check if sha256 changed
-    const oldSha256 = existing.sha256;
-    const newSha256 = asset.sha256;
-
-    // Skip comparison if new sha256 is unknown or pending
-    if (newSha256 === 'unknown' || newSha256 === 'pending_download') {
+    if (status === 'unknown') {
       return 'unknown';
     }
 
-    // If old sha256 was unknown and we now have a real value, update it
-    if (oldSha256 === 'unknown' || oldSha256 === 'pending_download') {
+    if (status === 'upgrade_from_unknown') {
       const updateStmt = db.prepare(`
         UPDATE assets 
-        SET sha256 = ?, architecture = ?, os = ?, published_at = ?, author_id = ?, author_login = ?
+        SET sha256 = ?, architecture = ?, os = ?, size = COALESCE(?, size), published_at = ?, author_id = ?, author_login = ?
         WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
           AND COALESCE(architecture, '') = COALESCE(?, '')
           AND COALESCE(os, '') = COALESCE(?, '')
       `);
-      updateStmt.run(newSha256, asset.architecture || null, asset.os || null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
+      updateStmt.run(newSha256, asset.architecture || null, asset.os || null, asset.size ?? null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
       return 'added';
     }
 
-    // Check if sha256 actually changed
-    // Note: We already filtered by source, architecture, and os in the SELECT query, 
-    // so this comparison is only for assets from the same source and platform
-    if (oldSha256 !== newSha256) {
-      notifySha256Changed(appId, asset.version, asset.assetName, asset.source, oldSha256, newSha256);
-
-      // Update the asset
+    if (status === 'changed') {
       const updateStmt = db.prepare(`
         UPDATE assets 
-        SET sha256 = ?, architecture = ?, os = ?, published_at = ?, author_id = ?, author_login = ?
+        SET sha256 = ?, architecture = ?, os = ?, size = COALESCE(?, size), published_at = ?, author_id = ?, author_login = ?
         WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
           AND COALESCE(architecture, '') = COALESCE(?, '')
           AND COALESCE(os, '') = COALESCE(?, '')
       `);
-      updateStmt.run(newSha256, asset.architecture || null, asset.os || null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
+      updateStmt.run(newSha256, asset.architecture || null, asset.os || null, asset.size ?? null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
       return 'changed';
-    } else {
-      // Update published_at and author info if it's missing or if we have a new value
-      // Note: architecture and os are already matched, so no need to update them
-      if ((!existing.published_at && asset.publishedAt) || asset.publishedAt || asset.authorId || asset.authorLogin) {
-        const updateStmt = db.prepare(`
-          UPDATE assets 
-          SET published_at = COALESCE(?, published_at), author_id = COALESCE(?, author_id), author_login = COALESCE(?, author_login)
-          WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
-            AND COALESCE(architecture, '') = COALESCE(?, '')
-            AND COALESCE(os, '') = COALESCE(?, '')
-        `);
-        updateStmt.run(asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
-      }
-      return 'unchanged';
     }
+
+    if (metadataNeedsUpdate) {
+      const updateStmt = db.prepare(`
+        UPDATE assets 
+        SET published_at = COALESCE(?, published_at), author_id = COALESCE(?, author_id), author_login = COALESCE(?, author_login), size = COALESCE(?, size)
+        WHERE app_id = ? AND version = ? AND asset_name = ? AND source = ?
+          AND COALESCE(architecture, '') = COALESCE(?, '')
+          AND COALESCE(os, '') = COALESCE(?, '')
+      `);
+      updateStmt.run(asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null, asset.size ?? null, appId, asset.version, asset.assetName, asset.source, asset.architecture || null, asset.os || null);
+    }
+
+    return 'unchanged';
   } else {
     // New asset, insert it
     const insertStmt = db.prepare(`
-      INSERT INTO assets (app_id, version, asset_name, sha256, source, architecture, os, published_at, author_id, author_login)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      INSERT INTO assets (app_id, version, asset_name, sha256, source, architecture, os, size, published_at, author_id, author_login)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     `);
-    insertStmt.run(appId, asset.version, asset.assetName, asset.sha256, asset.source, asset.architecture || null, asset.os || null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null);
+    insertStmt.run(appId, asset.version, asset.assetName, asset.sha256, asset.source, asset.architecture || null, asset.os || null, asset.size ?? null, asset.publishedAt || null, asset.authorId || null, asset.authorLogin || null);
     return 'added';
   }
 }
@@ -196,5 +171,31 @@ export function getPreviousReleases(db, appId, currentVersion = null, limit = 5)
   }
   
   return Array.from(versionMap.values());
+}
+
+// Get previous versions of the same asset (same asset_name, source, architecture, os)
+// Returns array of objects with version, size, published_at
+export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10) {
+  const selectStmt = db.prepare(`
+    SELECT version, size, published_at, created_at
+    FROM assets 
+    WHERE app_id = ? AND asset_name = ? AND source = ?
+      AND COALESCE(architecture, '') = COALESCE(?, '')
+      AND COALESCE(os, '') = COALESCE(?, '')
+      AND version != ?
+      AND size IS NOT NULL
+    ORDER BY COALESCE(published_at, created_at) DESC
+    LIMIT ?
+  `);
+
+  return selectStmt.all(
+    appId, 
+    assetName, 
+    source, 
+    architecture || null, 
+    os || null, 
+    currentVersion,
+    limit
+  );
 }
 
