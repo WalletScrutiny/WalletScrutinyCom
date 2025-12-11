@@ -126,8 +126,40 @@ prompt_pk() {
 }
 
 prompt_app_info() {
-  read -rp "App info source [${APP_INFO_SOURCE_VALUE}]: " input
-  [[ -n "${input}" ]] && APP_INFO_SOURCE_VALUE="${input}"
+  local current="${APP_INFO_SOURCE_VALUE}"
+  local seed_path="${ROOT_DIR}/buildServerInfo.seed.json"
+  local jekyll_path="${ROOT_DIR}/_site/assets/js/json/buildServerInfo.json"
+  local suggestion=""
+
+  # Smart default: suggest the "other" option
+  if [[ "${current}" == *"seed.json"* ]]; then
+    suggestion="${jekyll_path}"
+  else
+    suggestion="${seed_path}"
+  fi
+
+  echo "Current: ${current}"
+  echo "  1) ${seed_path} (manual test file)"
+  echo "  2) ${jekyll_path} (auto-generated from .md files)"
+  read -rp "App info source [${suggestion}]: " input
+
+  if [[ -z "${input}" ]]; then
+    # User pressed Enter, use suggestion
+    APP_INFO_SOURCE_VALUE="${suggestion}"
+  else
+    # User entered custom path
+    APP_INFO_SOURCE_VALUE="${input}"
+  fi
+
+  # Auto-rebuild if Jekyll path selected
+  if [[ "${APP_INFO_SOURCE_VALUE}" == *"_site/assets/js/json/buildServerInfo.json" ]]; then
+    echo "Rebuilding Jekyll to ensure fresh buildServerInfo.json..."
+    if (cd "${ROOT_DIR}" && bundle exec jekyll build --quiet 2>&1 | tail -3); then
+      echo "✓ Jekyll build complete"
+    else
+      echo "⚠ Warning: Jekyll build had issues, but continuing..."
+    fi
+  fi
 }
 
 prompt_build_dir() {
