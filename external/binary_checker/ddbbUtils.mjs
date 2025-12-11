@@ -173,13 +173,42 @@ export function getPreviousReleases(db, appId, currentVersion = null, limit = 5)
   return Array.from(versionMap.values());
 }
 
-// Get previous versions of the same asset (same asset_name, source, architecture, os)
+// Create a pattern from asset name by replacing version with wildcard for LIKE query
+// This allows matching assets with the same base name but different versions
+// Example: "zeus-v0.12.0-alpha4-arm64-v8a.apk" with version "v0.12.0-alpha4" 
+//          becomes "zeus-%-arm64-v8a.apk"
+function createAssetNamePattern(assetName, version) {
+  if (!version || !assetName) {
+    return assetName;
+  }
+
+  // Escape special regex characters in the version to use it in a regex
+  const escapedVersionForRegex = version.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  
+  // Replace the version with % wildcard (case-insensitive)
+  let pattern = assetName.replace(new RegExp(escapedVersionForRegex, 'gi'), '%');
+  
+  // Escape special LIKE characters (% and _) in the pattern, but preserve the % we just added
+  // Split by the % we added, escape each part, then join back
+  const parts = pattern.split('%');
+  const escapedParts = parts.map(part => part.replace(/[%_]/g, '\\$&'));
+  pattern = escapedParts.join('%');
+  
+  return pattern;
+}
+
+// Get previous versions of the same asset (same asset_name pattern, source, architecture, os)
+// The asset_name pattern is created by replacing the version with a wildcard
+// This allows matching assets like "zeus-v0.12.0-alpha4-arm64-v8a.apk" and "zeus-v0.12.0-alpha3-arm64-v8a.apk"
 // Returns array of objects with version, size, published_at
 export function getPreviousAssetVersions(db, appId, assetName, source, architecture, os, currentVersion, limit = 10) {
+  // Create pattern by replacing version with wildcard
+  const assetNamePattern = createAssetNamePattern(assetName, currentVersion);
+  
   const selectStmt = db.prepare(`
-    SELECT version, size, published_at, created_at
+    SELECT version, asset_name, size, published_at, created_at
     FROM assets 
-    WHERE app_id = ? AND asset_name = ? AND source = ?
+    WHERE app_id = ? AND asset_name LIKE ? ESCAPE '\\' AND source = ?
       AND COALESCE(architecture, '') = COALESCE(?, '')
       AND COALESCE(os, '') = COALESCE(?, '')
       AND version != ?
@@ -190,7 +219,7 @@ export function getPreviousAssetVersions(db, appId, assetName, source, architect
 
   return selectStmt.all(
     appId, 
-    assetName, 
+    assetNamePattern, 
     source, 
     architecture || null, 
     os || null, 
