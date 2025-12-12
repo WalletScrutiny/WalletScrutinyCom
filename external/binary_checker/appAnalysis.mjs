@@ -3,6 +3,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES } from './config.mjs';
 
 /**
@@ -951,6 +952,191 @@ export async function analyzeDependencies(repoPath, appType, yearsThreshold = YE
 }
 
 /**
+ * Get all JavaScript and TypeScript files in a directory
+ */
+function getJavaScriptFiles(dirPath, fileList = []) {
+  const files = fs.readdirSync(dirPath);
+  
+  const ignoreDirs = [
+    'node_modules', '.git', '.svn', '.hg', 'dist', 'build', 
+    'target', '.gradle', '.idea', '.vscode', '__pycache__',
+    '.pytest_cache', 'venv', 'env', '.env', 'vendor', 'bin',
+    'obj', '.vs', 'DerivedData', 'Pods', '.cocoapods'
+  ];
+  
+  const jsExtensions = ['.js', '.mjs', '.cjs', '.jsx', '.ts', '.tsx'];
+  
+  for (const file of files) {
+    const filePath = path.join(dirPath, file);
+    const stat = fs.statSync(filePath);
+    
+    if (stat.isDirectory()) {
+      const dirName = path.basename(filePath);
+      if (!ignoreDirs.includes(dirName) && !dirName.startsWith('.')) {
+        getJavaScriptFiles(filePath, fileList);
+      }
+    } else if (stat.isFile()) {
+      const ext = path.extname(filePath).toLowerCase();
+      if (jsExtensions.includes(ext)) {
+        fileList.push(filePath);
+      }
+    }
+  }
+  
+  return fileList;
+}
+
+/**
+ * Test 7: Analyze code vulnerabilities using js-x-ray
+ */
+export async function analyzeCodeVulnerabilities(repoPath) {
+  console.log('\n=== Code Vulnerability Analysis (js-x-ray) ===');
+  
+  try {
+    const jsFiles = getJavaScriptFiles(repoPath);
+    console.log(`Scanning ${jsFiles.length} JavaScript/TypeScript files...`);
+    
+    if (jsFiles.length === 0) {
+      console.log('No JavaScript/TypeScript files found to analyze');
+      return null;
+    }
+    
+    const analyser = new AstAnalyser();
+    const allWarnings = [];
+    const allDependencies = new Set();
+    const fileFindings = new Map();
+    let filesAnalyzed = 0;
+    let filesWithWarnings = 0;
+    
+    for (const filePath of jsFiles) {
+      try {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const relativePath = path.relative(repoPath, filePath);
+        
+        // Analyze the code with js-x-ray
+        const analysis = analyser.analyse(content, { fileName: relativePath });
+        
+        filesAnalyzed++;
+        
+        // Collect dependencies (dependencies is a Map where keys are dependency names)
+        if (analysis.dependencies && analysis.dependencies instanceof Map) {
+          for (const depName of analysis.dependencies.keys()) {
+            allDependencies.add(depName);
+          }
+        }
+        
+        // Collect warnings
+        if (analysis.warnings && Array.isArray(analysis.warnings) && analysis.warnings.length > 0) {
+          filesWithWarnings++;
+          const fileWarnings = analysis.warnings.map(warning => ({
+            kind: warning.kind || 'unknown',
+            value: warning.value || '',
+            severity: warning.severity || 'Unknown',
+            location: warning.location || null,
+            source: warning.source || 'unknown'
+          }));
+          
+          allWarnings.push(...fileWarnings.map(w => ({ ...w, file: relativePath })));
+          
+          // Convert dependencies Map to array of names for storage
+          const depNames = analysis.dependencies instanceof Map 
+            ? Array.from(analysis.dependencies.keys())
+            : [];
+          
+          fileFindings.set(relativePath, {
+            warnings: fileWarnings,
+            dependencies: depNames
+          });
+        }
+      } catch (error) {
+        // Skip files that can't be analyzed (e.g., syntax errors, binary files)
+        if (error.code !== 'ENOENT') {
+          // Silently skip files that can't be analyzed
+        }
+      }
+    }
+    
+    // Report findings
+    console.log(`\nAnalyzed ${filesAnalyzed} files`);
+    console.log(`Found ${allDependencies.size} unique dependencies`);
+    console.log(`Found ${allWarnings.length} warnings across ${filesWithWarnings} files`);
+    
+    if (allWarnings.length > 0) {
+      // Group warnings by type
+      const warningsByType = new Map();
+      for (const warning of allWarnings) {
+        const kind = warning.kind || 'unknown';
+        if (!warningsByType.has(kind)) {
+          warningsByType.set(kind, []);
+        }
+        warningsByType.get(kind).push(warning);
+      }
+      
+      console.log('\nWarnings by type:');
+      for (const [kind, warnings] of warningsByType.entries()) {
+        console.log(`\n  ${kind} (${warnings.length} occurrences):`);
+        
+        // Show first 10 warnings of each type
+        for (const warning of warnings.slice(0, 10)) {
+          let locationStr = '';
+          if (warning.location) {
+            if (Array.isArray(warning.location) && warning.location.length >= 1) {
+              // Location format: [[line, column], [line, column]]
+              const start = warning.location[0];
+              if (Array.isArray(start) && start.length >= 2) {
+                locationStr = `:${start[0]}:${start[1]}`;
+              }
+            } else if (warning.location.line) {
+              locationStr = `:${warning.location.line}:${warning.location.column || '?'}`;
+            }
+          }
+          const value = warning.value ? ` - ${warning.value}` : '';
+          const severity = warning.severity ? ` [${warning.severity}]` : '';
+          console.log(`    - ${warning.file}${locationStr}${value}${severity}`);
+        }
+        
+        if (warnings.length > 10) {
+          console.log(`    ... and ${warnings.length - 10} more`);
+        }
+      }
+      
+      // Show files with most warnings
+      /*
+      if (fileFindings.size > 0) {
+        console.log('\nFiles with warnings (showing first 20):');
+        let count = 0;
+        const sortedFiles = Array.from(fileFindings.entries())
+          .sort((a, b) => b[1].warnings.length - a[1].warnings.length);
+        
+        for (const [file, findings] of sortedFiles) {
+          if (count++ >= 20) break;
+          console.log(`  ${file}: ${findings.warnings.length} warning(s)`);
+        }
+        
+        if (fileFindings.size > 20) {
+          console.log(`  ... and ${fileFindings.size - 20} more files`);
+        }
+      }
+      */
+    } else {
+      console.log('\nNo security warnings found in the analyzed files');
+    }
+    
+    return {
+      filesAnalyzed,
+      filesWithWarnings,
+      totalWarnings: allWarnings.length,
+      uniqueDependencies: Array.from(allDependencies),
+      warnings: allWarnings,
+      fileFindings: Object.fromEntries(fileFindings)
+    };
+  } catch (error) {
+    console.error('Error analyzing code vulnerabilities:', error.message);
+    return null;
+  }
+}
+
+/**
  * Run all tests for a specific app
  */
 export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master' }) {
@@ -988,6 +1174,7 @@ export async function runSourceCodeAnalysis({ name, repoUrl, version = 'master' 
   await listDependenciesWithoutFixedVersions(repoPath, appType);
   await scanVulnerabilities(repoPath, appType);
   await analyzeDependencies(repoPath, appType);
+  await analyzeCodeVulnerabilities(repoPath);
   
   // Cleanup
   try {

@@ -8,6 +8,7 @@
     "start": "node index.mjs"
   },
   "dependencies": {
+    "@nodesecure/js-x-ray": "^10.2.1",
     "axios": "^1.7.8",
     "better-sqlite3": "^11.7.0",
     "minimist": "^1.2.8"
