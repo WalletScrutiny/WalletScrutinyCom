@@ -1100,25 +1100,6 @@ export async function analyzeCodeVulnerabilities(repoPath) {
           console.log(`    ... and ${warnings.length - 10} more`);
         }
       }
-      
-      // Show files with most warnings
-      /*
-      if (fileFindings.size > 0) {
-        console.log('\nFiles with warnings (showing first 20):');
-        let count = 0;
-        const sortedFiles = Array.from(fileFindings.entries())
-          .sort((a, b) => b[1].warnings.length - a[1].warnings.length);
-        
-        for (const [file, findings] of sortedFiles) {
-          if (count++ >= 20) break;
-          console.log(`  ${file}: ${findings.warnings.length} warning(s)`);
-        }
-        
-        if (fileFindings.size > 20) {
-          console.log(`  ... and ${fileFindings.size - 20} more files`);
-        }
-      }
-      */
     } else {
       console.log('\nNo security warnings found in the analyzed files');
     }
