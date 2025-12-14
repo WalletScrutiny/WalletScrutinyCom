@@ -7,10 +7,10 @@ authors:
 appId: com.magiceden.wallet
 appCountry: us
 idd: '6478631482'
-released: '2024-07-31T07:00:00Z'
+released: 2024-07-31
 updated: 2025-12-03
 version: 3.0.0
-stars: 4.77967
+stars: 4.8
 reviews: 1879
 website: https://wallet.magiceden.io/
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: MagicEden
 social:
 - https://www.linkedin.com/company/magic-eden
-- https://discord.com/invite/magiceden 
+- https://discord.com/invite/magiceden
 features: 
 developerName: Magic Eden
 

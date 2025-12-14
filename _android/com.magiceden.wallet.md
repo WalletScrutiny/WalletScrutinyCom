@@ -3,11 +3,11 @@ wsId: magicEdenWallet
 title: Magic Eden Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.magiceden.wallet
 appCountry: 
-released: May 17, 2024
+released: 2024-05-17
 updated: 2025-12-02
 version: 3.0.0
 stars: 4.6
