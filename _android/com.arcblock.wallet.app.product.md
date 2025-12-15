@@ -28,6 +28,7 @@ social:
 - https://t.me/ArcBlock
 redirect_from: 
 developerName: ArcBlock, Inc
+builds: 
 features: 
 
 ---

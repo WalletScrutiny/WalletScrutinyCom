@@ -30,6 +30,7 @@ date: 2023-02-02
 signer: 
 twitter: SecuXwallet
 social: 
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/simpleswapexchange
 redirect_from: 
 developerName: Simple Swap LTD
+builds: 
 features: 
 
 ---

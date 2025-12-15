@@ -8,8 +8,8 @@ users: 5000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2025-12-01
-version: 0.49.3
+updated: 2025-12-13
+version: 0.50.1
 stars: 
 ratings: 
 reviews: 
@@ -32,6 +32,7 @@ social:
 - https://t.me/PirateCash_ENG
 redirect_from: 
 developerName: PirateCash and Cosanta foundation
+builds: 
 features: 
 
 ---

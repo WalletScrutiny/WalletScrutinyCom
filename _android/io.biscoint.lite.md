@@ -9,7 +9,7 @@ appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
 updated: 2025-11-27
-version: 2.9.2
+version: 2.9.4
 stars: 4.8
 ratings: 
 reviews: 6
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitybankoficial
 redirect_from: 
 developerName: bity.com.br
+builds: 
 features: 
 
 ---

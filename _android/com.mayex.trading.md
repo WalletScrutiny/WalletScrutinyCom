@@ -30,6 +30,7 @@ social:
 - https://t.me/mayex_official
 redirect_from: 
 developerName: Mayex
+builds: 
 features: 
 
 ---

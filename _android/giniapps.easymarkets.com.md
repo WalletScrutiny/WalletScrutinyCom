@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/easyMarkets
 redirect_from: 
 developerName: easyMarkets
+builds: 
 features: 
 
 ---

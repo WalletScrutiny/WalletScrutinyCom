@@ -28,6 +28,7 @@ social:
 - https://www.tradeqs.com
 redirect_from: 
 developerName: TradeQ
+builds: 
 features: 
 
 ---

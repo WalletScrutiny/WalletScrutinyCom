@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/FunexClub
 redirect_from: 
 developerName: Funex Coin
+builds: 
 features: 
 
 ---

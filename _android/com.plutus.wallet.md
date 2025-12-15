@@ -31,6 +31,7 @@ redirect_from:
 - /com.plutus.wallet/
 - /posts/com.plutus.wallet/
 developerName: Plutus Financial Inc
+builds: 
 features: 
 
 ---

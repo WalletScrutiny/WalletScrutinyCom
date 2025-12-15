@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/hitbtc
 redirect_from: 
 developerName: HitBTC Exchange
+builds: 
 features: 
 
 ---

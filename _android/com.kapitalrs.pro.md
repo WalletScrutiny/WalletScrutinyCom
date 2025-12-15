@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/kapitalRS
 redirect_from: 
 developerName: KapitalRS
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/bg.wallet
 redirect_from: 
 developerName: Wellto Go
+builds: 
 features: 
 
 ---

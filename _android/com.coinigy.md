@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinigy
 redirect_from: 
 developerName: Coinigy Inc
+builds: 
 features: 
 
 ---

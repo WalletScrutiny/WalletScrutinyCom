@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/lisk_blockchain
 redirect_from: 
 developerName: Lisk Limited
+builds: 
 features: 
 
 ---

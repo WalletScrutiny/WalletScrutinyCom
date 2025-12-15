@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Rekeningkucom
 redirect_from: 
 developerName: PT Rekeningku Dotcom Indonesia
+builds: 
 features: 
 
 ---

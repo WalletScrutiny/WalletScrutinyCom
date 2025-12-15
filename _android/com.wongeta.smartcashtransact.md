@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/mysmartcash.tech
 redirect_from: 
 developerName: Wongeta
+builds: 
 features: 
 
 ---

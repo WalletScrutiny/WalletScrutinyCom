@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCly2yn0VN2ijlD9lZAVAINg
 redirect_from: 
 developerName: METACHAIN
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://t.me/XfaciaXchange
 redirect_from: 
 developerName: Xfacia Labs Pvt Ltd
+builds: 
 features: 
 
 ---

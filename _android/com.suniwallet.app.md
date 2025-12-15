@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/suni-wallet
 redirect_from: 
 developerName: Suni Wallet Corp
+builds: 
 features: 
 
 ---

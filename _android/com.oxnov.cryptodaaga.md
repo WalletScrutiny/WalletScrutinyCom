@@ -28,6 +28,7 @@ social:
 - https://cryptodaaga.com
 redirect_from: 
 developerName: OXNOV TECHNOLOGY SARL
+builds: 
 features: 
 
 ---

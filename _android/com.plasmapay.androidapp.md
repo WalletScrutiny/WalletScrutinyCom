@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/PlasmaPay
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

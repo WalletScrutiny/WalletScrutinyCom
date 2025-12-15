@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/jeangillescapital
 redirect_from: 
 developerName: J G Capital
+builds: 
 features: 
 
 ---

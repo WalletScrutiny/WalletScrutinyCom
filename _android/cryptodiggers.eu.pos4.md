@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CryptoDiggers s.r.o.
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@cofinexexchange
 redirect_from: 
 developerName: Cofinex Inc Ltd.
+builds: 
 features: 
 
 ---

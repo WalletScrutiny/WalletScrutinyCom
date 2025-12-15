@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/clubswan/
 redirect_from: 
 developerName: AU Card Ltd
+builds: 
 features: 
 
 ---

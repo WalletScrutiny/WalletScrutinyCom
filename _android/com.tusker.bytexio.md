@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/bytex-canada
 redirect_from: 
 developerName: ByteX Financial LTD.
+builds: 
 features: 
 
 ---

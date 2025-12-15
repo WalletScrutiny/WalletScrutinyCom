@@ -8,8 +8,8 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 2024-09-04
-updated: 2025-11-04
-version: 1.3.29
+updated: 2025-12-01
+version: 1.3.30
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/digitalexchangeid
 redirect_from: 
 developerName: PT Indonesia Digital Exchange
+builds: 
 features: 
 
 ---

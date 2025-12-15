@@ -1,6 +1,6 @@
 ---
 wsId: airtimeDataHub
-title: AirtimeDataHub - Sell Airtime
+title: Nurenta
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 50000
 appId: com.airtimedatahub.app
 appCountry: 
 released: 2019-02-19
-updated: 2025-11-27
-version: 1.0.0
+updated: 2025-12-12
+version: 1.0.1
 stars: 4.3
 ratings: 
 reviews: 12
-website: https://airtimedatahub.com/
+website: https://nurenta.ng
 repository: 
 issue: 
 icon: com.airtimedatahub.app.png
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Airtimedatahub
 redirect_from: 
 developerName: Nurenta Global Concept Limited
+builds: 
 features: 
 
 ---

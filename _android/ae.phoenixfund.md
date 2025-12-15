@@ -28,6 +28,7 @@ social:
 - mailto:info@plana.ae
 redirect_from: 
 developerName: PLAN A WEB DESIGN
+builds: 
 features: 
 
 ---

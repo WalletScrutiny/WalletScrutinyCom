@@ -27,6 +27,7 @@ twitter: thndrgames
 social: 
 redirect_from: 
 developerName: THNDR
+builds: 
 features:
 - ln
 

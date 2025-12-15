@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hagglex
 redirect_from: 
 developerName: Hagglex Limited
+builds: 
 features: 
 
 ---

@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/changexapp
 redirect_from: 
 developerName: ChangeX
+builds: 
 features: 
 
 ---

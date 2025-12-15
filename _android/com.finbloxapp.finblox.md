@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/finbloxapp
 redirect_from: 
 developerName: Finblox
+builds: 
 features: 
 
 ---

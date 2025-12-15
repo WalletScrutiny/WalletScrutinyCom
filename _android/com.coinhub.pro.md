@@ -8,8 +8,8 @@ users: 50000
 appId: com.coinhub.pro
 appCountry: 
 released: 2021-08-20
-updated: 2025-11-18
-version: 3.0.4
+updated: 2025-12-01
+version: 3.0.5
 stars: 4.1
 ratings: 
 reviews: 9
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coinhub-mongolia/
 redirect_from: 
 developerName: CoinHUB
+builds: 
 features: 
 
 ---

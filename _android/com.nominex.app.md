@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Nominex
 redirect_from: 
 developerName: Nominex Ltd.
+builds: 
 features: 
 
 ---

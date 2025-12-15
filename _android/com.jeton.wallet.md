@@ -27,6 +27,7 @@ twitter: jetonwallet
 social: 
 redirect_from: 
 developerName: Jeton Wallet
+builds: 
 features: 
 
 ---

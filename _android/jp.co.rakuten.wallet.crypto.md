@@ -27,6 +27,7 @@ twitter: Rakuten_Wallet
 social: 
 redirect_from: 
 developerName: Rakuten Wallet
+builds: 
 features: 
 
 ---

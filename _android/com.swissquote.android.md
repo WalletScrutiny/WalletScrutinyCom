@@ -8,8 +8,8 @@ users: 100000
 appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
-updated: 2025-11-25
-version: 8.20.1
+updated: 2025-12-05
+version: 8.22.0
 stars: 3.5
 ratings: 
 reviews: 42
@@ -31,6 +31,7 @@ social:
 - https://www.tiktok.com/@swissquote_official
 redirect_from: 
 developerName: Swissquote Mobile
+builds: 
 features: 
 
 ---

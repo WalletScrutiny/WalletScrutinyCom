@@ -32,6 +32,7 @@ signer:
 twitter: keevowallet
 social:
 - https://www.facebook.com/keevowallet
+builds: 
 features: 
 
 ---

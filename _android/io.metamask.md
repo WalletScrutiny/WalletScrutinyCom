@@ -9,11 +9,11 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2025-12-01
-version: 7.59.1
+updated: 2025-12-06
+version: 7.60.4
 stars: 4.5
 ratings: 57131
-reviews: 6390
+reviews: 6414
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/consensys
 redirect_from: 
 developerName: MetaMask Web3 Wallet
+builds: 
 features: 
 
 ---

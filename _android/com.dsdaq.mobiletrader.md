@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/dsdaqcom
 redirect_from: 
 developerName: Dsdaq Market Ltd.
+builds: 
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: 岡三証券株式会社（岡三オンライン）
+builds: 
 features: 
 
 ---

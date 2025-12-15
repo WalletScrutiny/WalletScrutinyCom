@@ -31,6 +31,7 @@ signer:
 twitter: citadelwallet
 social:
 - https://www.youtube.com/@CitadelWallet
+builds: 
 features: 
 
 ---

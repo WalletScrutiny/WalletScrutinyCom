@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCMVdGECFIYeB7XO-cXm3hdQ
 redirect_from: 
 developerName: Zybi Tech Inc
+builds: 
 features: 
 
 ---

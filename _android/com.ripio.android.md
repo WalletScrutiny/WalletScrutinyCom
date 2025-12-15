@@ -8,11 +8,11 @@ users: 1000000
 appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
-updated: 2025-11-11
-version: 6.4.2
+updated: 2025-12-12
+version: 6.4.4
 stars: 3.7
 ratings: 34376
-reviews: 174
+reviews: 175
 website: https://ripio.com
 repository: 
 issue: 
@@ -33,6 +33,7 @@ redirect_from:
 - /posts/2019/11/ripio/
 - /posts/com.ripio.android/
 developerName: Ripio Holding
+builds: 
 features: 
 
 ---

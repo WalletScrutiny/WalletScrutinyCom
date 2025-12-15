@@ -34,6 +34,7 @@ social:
 - https://discord.com/invite/ixfiexchange
 redirect_from: 
 developerName: IXFI Crypto World
+builds: 
 features: 
 
 ---

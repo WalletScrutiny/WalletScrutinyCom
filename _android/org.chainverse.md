@@ -28,6 +28,7 @@ social:
 - https://t.me/chainverse_community
 redirect_from: 
 developerName: ChainVerse
+builds: 
 features: 
 
 ---

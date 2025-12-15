@@ -33,6 +33,7 @@ social:
 - https://t.me/ZedXe
 redirect_from: 
 developerName: Zuf Info Tech, LDA
+builds: 
 features: 
 
 ---

@@ -36,6 +36,7 @@ social:
 - https://mastodon.social/@protonprivacy
 redirect_from: 
 developerName: Proton AG
+builds: 
 features: 
 
 ---

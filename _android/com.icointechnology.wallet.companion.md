@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/icoin_crypto
 redirect_from: 
 developerName: iCoin Technology
+builds: 
 features: 
 
 ---

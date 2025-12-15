@@ -28,6 +28,7 @@ social:
 - https://vk.com/official_bankcomat
 redirect_from: 
 developerName: XchangeCapitalGroup OU
+builds: 
 features: 
 
 ---

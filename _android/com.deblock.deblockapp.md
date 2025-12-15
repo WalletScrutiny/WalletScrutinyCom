@@ -9,7 +9,7 @@ appId: com.deblock.deblockapp
 appCountry: 
 released: 
 updated: 2025-11-30
-version: 4.5.22
+version: 4.5.23
 stars: 4.8
 ratings: 
 reviews: 10
@@ -28,6 +28,7 @@ social:
 - https://discord.com/invite/deblock
 redirect_from: 
 developerName: Deblock SAS
+builds: 
 features: 
 
 ---

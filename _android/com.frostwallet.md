@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/frostwallet.cc
 redirect_from: 
 developerName: Trustpool
+builds: 
 features: 
 
 ---

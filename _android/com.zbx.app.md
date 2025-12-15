@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ZBXExchange
 redirect_from: 
 developerName: ZBX
+builds: 
 features: 
 
 ---

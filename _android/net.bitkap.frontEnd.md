@@ -30,6 +30,7 @@ social:
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
 redirect_from: 
 developerName: bitkap group
+builds: 
 features: 
 
 ---

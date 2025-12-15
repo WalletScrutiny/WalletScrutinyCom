@@ -29,6 +29,7 @@ social:
 - https://github.com/alphawallet
 redirect_from: 
 developerName: AlphaWallet PTY LTD
+builds: 
 features: 
 
 ---

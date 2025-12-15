@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/tbit-global
 redirect_from: 
 developerName: Tbit Global limited
+builds: 
 features: 
 
 ---

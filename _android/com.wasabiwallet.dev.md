@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.wasabiwallet.dev/
 developerName: 
+builds: 
 features: 
 
 ---

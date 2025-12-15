@@ -30,6 +30,7 @@ redirect_from:
 - /com.Android.Inc.bitwallet/
 - /posts/com.Android.Inc.bitwallet/
 developerName: BitWallet, Incorporated
+builds: 
 features: 
 
 ---

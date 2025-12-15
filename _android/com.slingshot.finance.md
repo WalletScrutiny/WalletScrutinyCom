@@ -28,6 +28,7 @@ social:
 - https://discord.com/invite/H3UcvgtASR
 redirect_from: 
 developerName: Slingshot Finance
+builds: 
 features: 
 
 ---

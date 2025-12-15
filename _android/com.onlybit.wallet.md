@@ -28,6 +28,7 @@ social:
 - https://tradebit.in
 redirect_from: 
 developerName: trade bit
+builds: 
 features: 
 
 ---

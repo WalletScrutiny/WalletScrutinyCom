@@ -12,7 +12,7 @@ updated: 2025-10-29
 version: 6.2.32
 stars: 4.2
 ratings: 22930
-reviews: 2085
+reviews: 2094
 website: https://cryptocompany.site/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CryptoCompany OU
+builds: 
 features: 
 
 ---

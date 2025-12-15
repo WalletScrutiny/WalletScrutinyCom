@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/tagcashrewards
 redirect_from: 
 developerName: Tagcash Ltd
+builds: 
 features: 
 
 ---

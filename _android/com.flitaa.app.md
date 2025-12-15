@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/getflitaa
 redirect_from: 
 developerName: FLITBASE Apps
+builds: 
 features: 
 
 ---

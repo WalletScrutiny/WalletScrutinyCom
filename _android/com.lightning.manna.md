@@ -28,6 +28,7 @@ social:
 - https://t.me/MannaBitcoin
 redirect_from: 
 developerName: Manna Bitcoin
+builds: 
 features: 
 
 ---

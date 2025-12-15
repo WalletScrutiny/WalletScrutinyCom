@@ -32,6 +32,7 @@ social:
 - https://www.tiktok.com/@seki_app
 redirect_from: 
 developerName: SekiApp
+builds: 
 features: 
 
 ---

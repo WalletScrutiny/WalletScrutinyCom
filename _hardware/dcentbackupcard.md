@@ -31,6 +31,7 @@ signer:
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
+builds: 
 features: 
 
 ---

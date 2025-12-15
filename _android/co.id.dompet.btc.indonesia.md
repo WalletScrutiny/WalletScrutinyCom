@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /co.id.dompet.btc.indonesia/
 developerName: 
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitlifi
 redirect_from: 
 developerName: MP Developers s.r.o.
+builds: 
 features:
 - ln
 

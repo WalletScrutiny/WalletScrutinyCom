@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/kochureglobal
 redirect_from: 
 developerName: Kochure Technologies Limited
+builds: 
 features: 
 
 ---

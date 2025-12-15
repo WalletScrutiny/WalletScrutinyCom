@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-09
 updated: 2025-11-17
 version: '68'
-stars: 2.8
+stars: 2.9
 ratings: 
-reviews: 5
+reviews: 6
 website: https://black.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: black.com GmbH
+builds: 
 features: 
 
 ---

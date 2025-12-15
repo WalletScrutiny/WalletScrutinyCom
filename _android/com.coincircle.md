@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinCircle
 redirect_from: 
 developerName: CoinCircle, Inc.
+builds: 
 features: 
 
 ---

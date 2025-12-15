@@ -31,6 +31,7 @@ social:
 - https://t.me/PayBolt
 redirect_from: 
 developerName: FinCrypt
+builds: 
 features: 
 
 ---

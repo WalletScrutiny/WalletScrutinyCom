@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btccom
 redirect_from: 
 developerName: CloverPool Team
+builds: 
 features: 
 
 ---

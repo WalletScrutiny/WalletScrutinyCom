@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Studentcoin
 redirect_from: 
 developerName: Student Coin
+builds: 
 features: 
 
 ---

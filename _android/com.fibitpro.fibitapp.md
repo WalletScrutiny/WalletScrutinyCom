@@ -30,6 +30,7 @@ social:
 - https://telegram.org/fibitpro
 redirect_from: 
 developerName: Fibit Infotech Pvt. Ltd.
+builds: 
 features: 
 
 ---

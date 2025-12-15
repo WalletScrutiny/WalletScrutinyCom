@@ -8,8 +8,8 @@ users: 50000
 appId: org.narkasa
 appCountry: 
 released: 2020-10-30
-updated: 2025-10-30
-version: 5.6.0
+updated: 2025-12-09
+version: 5.8.0
 stars: 3.5
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 redirect_from: 
 developerName: Bybit TR
+builds: 
 features: 
 
 ---

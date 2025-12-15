@@ -8,8 +8,8 @@ users: 5000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2025-11-22
-version: 4.4.1
+updated: 2025-12-02
+version: 4.5.0
 stars: 4.1
 ratings: 18826
 reviews: 44
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitkubofficial
 redirect_from: 
 developerName: Bitkub Online Co., Ltd. (Head Office)
+builds: 
 features: 
 
 ---

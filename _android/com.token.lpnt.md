@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/lpntokenofficial
 redirect_from: 
 developerName: LUXURIOUS PRO NETWORK GROUP
+builds: 
 features: 
 
 ---

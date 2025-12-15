@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
 redirect_from: 
 developerName: Coinhub Bitcoin Wallet
+builds: 
 features: 
 
 ---

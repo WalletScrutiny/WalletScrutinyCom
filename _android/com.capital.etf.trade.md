@@ -9,8 +9,8 @@ users: 1000000
 appId: com.capital.etf.trade
 appCountry: 
 released: 
-updated: 2025-11-28
-version: 3.14.1
+updated: 2025-12-12
+version: 3.15.0
 stars: 4.6
 ratings: 
 reviews: 6
@@ -28,6 +28,7 @@ twitter: capitalcom
 social: 
 redirect_from: 
 developerName: Capital Com (UK) Limited
+builds: 
 features: 
 
 ---

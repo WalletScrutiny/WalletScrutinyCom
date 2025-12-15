@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bitbarg24
 redirect_from: 
 developerName: Bitbarg
+builds: 
 features: 
 
 ---

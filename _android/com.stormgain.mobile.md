@@ -12,7 +12,7 @@ updated: 2024-08-07
 version: 1.52.1
 stars: 3.6
 ratings: 114954
-reviews: 983
+reviews: 981
 website: https://stormgain.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/StormGain.official
 redirect_from: 
 developerName: Stormgain LLC
+builds: 
 features: 
 
 ---

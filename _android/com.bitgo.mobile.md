@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bitgo-inc
 redirect_from: 
 developerName: BitGo, Inc
+builds: 
 features: 
 
 ---

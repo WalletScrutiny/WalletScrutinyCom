@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Fxwallet.info
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

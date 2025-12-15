@@ -10,11 +10,11 @@ users: 1000000
 appId: com.tabtrader.android
 appCountry: 
 released: 2014-08-14
-updated: 2025-11-11
-version: 7.5.4
+updated: 2025-12-11
+version: 7.5.5
 stars: 3.8
 ratings: 57218
-reviews: 1164
+reviews: 1167
 website: http://www.tab-trader.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/tabtrader
 redirect_from: 
 developerName: Tabtrader Acquisition Corp
+builds: 
 features: 
 
 ---

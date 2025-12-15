@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/crystalballmarkets
 redirect_from: 
 developerName: Crystal Ball Markets
+builds: 
 features: 
 
 ---

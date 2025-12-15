@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/flybit.exchange
 redirect_from: 
 developerName: 한국디지털거래소
+builds: 
 features: 
 
 ---

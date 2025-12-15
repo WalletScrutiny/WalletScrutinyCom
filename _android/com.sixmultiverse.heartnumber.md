@@ -28,6 +28,7 @@ social:
 - https://t.me/Heartnumber_Official
 redirect_from: 
 developerName: rentalbot
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ redirect_from:
 - /com.unocoin.unocoinwallet/
 - /posts/com.unocoin.unocoinwallet/
 developerName: Unocoin Technologies
+builds: 
 features: 
 
 ---

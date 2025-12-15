@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/kitefinancial
 redirect_from: 
 developerName: Kite Financial (Kite Tech Ltd UK)
+builds: 
 features: 
 
 ---

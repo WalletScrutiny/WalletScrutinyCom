@@ -32,6 +32,7 @@ social:
 - https://cryptoforceindia.medium.com
 redirect_from: 
 developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
+builds: 
 features: 
 
 ---

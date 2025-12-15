@@ -8,11 +8,11 @@ users: 1000000
 appId: app.simple.com
 appCountry: 
 released: 2023-04-24
-updated: 2025-11-21
-version: 3.16.1
+updated: 2025-12-12
+version: 3.19.0
 stars: 4.6
 ratings: 
-reviews: 1848
+reviews: 1849
 website: https://simple.app/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/smplapp
 redirect_from: 
 developerName: Simple Europe
+builds: 
 features: 
 
 ---

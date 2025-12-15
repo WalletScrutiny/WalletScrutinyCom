@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/velasblockchain
 redirect_from: 
 developerName: VELAS Network AG
+builds: 
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter: ettawallet
 social: 
 redirect_from: 
 developerName: Rukundo
+builds: 
 features:
 - ln
 

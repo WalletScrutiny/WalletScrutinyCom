@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: finance.liquidus.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2023-08-18
+date: 2025-12-15
 signer: 
 twitter: LiquidusFinance
 social:
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/zfQUjejyRs
 redirect_from: 
 developerName: Liquidus Finance
+builds: 
 features: 
 
 ---

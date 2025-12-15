@@ -8,8 +8,8 @@ appId: app.braavos.wallet
 appCountry: us
 idd: '1636013523'
 released: 2022-08-02
-updated: 2025-11-25
-version: 4.15.2
+updated: 2025-12-09
+version: 4.16.1
 stars: 4.9
 reviews: 121
 website: https://braavos.app

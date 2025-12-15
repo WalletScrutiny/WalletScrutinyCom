@@ -12,7 +12,7 @@ updated: 2025-11-20
 version: 3.5.10
 stars: 4.3
 ratings: 
-reviews: 82
+reviews: 84
 website: 
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/BTCCOfficial2011
 redirect_from: 
 developerName: BTCC international
+builds: 
 features: 
 
 ---

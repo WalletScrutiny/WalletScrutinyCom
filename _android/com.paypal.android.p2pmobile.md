@@ -13,7 +13,7 @@ updated: 2025-11-14
 version: 8.97.0
 stars: 4.2
 ratings: 2452159
-reviews: 428838
+reviews: 429724
 website: https://www.paypal.com/mobile
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/paypal
 redirect_from: 
 developerName: PayPal Mobile
+builds: 
 features: 
 
 ---

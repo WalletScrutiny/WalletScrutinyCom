@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/muda_hq
 redirect_from: 
 developerName: Muda Exchange
+builds: 
 features: 
 
 ---

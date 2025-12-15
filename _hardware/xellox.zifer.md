@@ -28,6 +28,7 @@ signer:
 twitter: xelloxWallet
 social:
 - https://www.linkedin.com/company/xellox/
+builds: 
 features: 
 
 ---

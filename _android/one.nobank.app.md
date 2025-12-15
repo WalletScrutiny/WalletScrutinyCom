@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/pierwallet
 redirect_from: 
 developerName: pier creative
+builds: 
 features: 
 
 ---

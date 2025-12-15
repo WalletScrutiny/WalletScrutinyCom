@@ -30,6 +30,7 @@ social:
 - https://t.me/bitexenglobal
 redirect_from: 
 developerName: Bitexen Teknoloji A.Ş.
+builds: 
 features: 
 
 ---

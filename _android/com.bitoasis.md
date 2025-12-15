@@ -12,7 +12,7 @@ updated: 2025-11-04
 version: 4.0.16
 stars: 2.6
 ratings: 3007
-reviews: 659
+reviews: 658
 website: https://bitoasis.net/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitoasis
 redirect_from: 
 developerName: BitOasis
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/wedgefinancial
 redirect_from: 
 developerName: Wedge Financial, Inc.
+builds: 
 features: 
 
 ---

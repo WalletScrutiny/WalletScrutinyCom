@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bitocto
 redirect_from: 
 developerName: Bitocto
+builds: 
 features: 
 
 ---

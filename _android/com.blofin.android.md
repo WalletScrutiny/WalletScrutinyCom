@@ -12,7 +12,7 @@ updated: 2025-11-28
 version: 3.20.0
 stars: 4.4
 ratings: 
-reviews: 105
+reviews: 108
 website: https://blofin.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Blofin_Official
 social: 
 redirect_from: 
 developerName: Blofin Inc.
+builds: 
 features: 
 
 ---

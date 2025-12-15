@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/koinstrap
 redirect_from: 
 developerName: Koinstrap, Inc
+builds: 
 features: 
 
 ---

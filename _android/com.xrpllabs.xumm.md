@@ -8,11 +8,11 @@ users: 500000
 appId: com.xrpllabs.xumm
 appCountry: 
 released: 2020-12-29
-updated: 2025-11-14
-version: 4.6.0
-stars: 4.1
+updated: 2025-11-28
+version: 4.6.1
+stars: 4.2
 ratings: 
-reviews: 501
+reviews: 502
 website: https://xaman.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: XummWallet
 social: 
 redirect_from: 
 developerName: XRPL Labs (The Integrators BV)
+builds: 
 features: 
 
 ---

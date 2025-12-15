@@ -30,6 +30,7 @@ social:
 - https://t.me/DeviantDEV
 redirect_from: 
 developerName: Deviant Coin
+builds: 
 features: 
 
 ---

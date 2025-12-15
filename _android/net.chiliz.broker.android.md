@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Chilizdotcom
 redirect_from: 
 developerName: Mediarex Enterprises Limited
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://t.me/easybit_official
 redirect_from: 
 developerName: EasyBit Exchange
+builds: 
 features: 
 
 ---

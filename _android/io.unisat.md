@@ -8,8 +8,8 @@ users: 100000
 appId: io.unisat
 appCountry: 
 released: 2024-03-16
-updated: 2025-09-29
-version: v0.2.46(2464)
+updated: 2025-10-14
+version: v0.2.47(2472)
 stars: 4.1
 ratings: 
 reviews: 15
@@ -28,6 +28,7 @@ social:
 - https://discord.com/invite/unisat
 redirect_from: 
 developerName: UniSat
+builds: 
 features: 
 
 ---

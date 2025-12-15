@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/sfoxtrading
 redirect_from: 
 developerName: SFOX Inc.
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ redirect_from:
 - /com.getchange.wallet.cordova/
 - /posts/com.getchange.wallet.cordova/
 developerName: Change Finance
+builds: 
 features: 
 
 ---

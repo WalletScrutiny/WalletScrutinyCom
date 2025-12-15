@@ -32,6 +32,7 @@ twitter: BitBoxSwiss
 social:
 - https://www.linkedin.com/company/bitbox-swiss/
 - https://www.reddit.com/r/BitBoxWallet
+builds: 
 features:
 - Tempered glass OLED display
 - EAL6+ certified Secure Chip

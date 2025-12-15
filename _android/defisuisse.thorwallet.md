@@ -30,6 +30,7 @@ social:
 - https://thorwallet.medium.com
 redirect_from: 
 developerName: EMM Ventures AG
+builds: 
 features: 
 
 ---

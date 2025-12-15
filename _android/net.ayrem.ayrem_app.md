@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/AYREMint
 redirect_from: 
 developerName: Ayrem International Nigeria Limited
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/2cashnetwork
 redirect_from: 
 developerName: VOIC
+builds: 
 features: 
 
 ---

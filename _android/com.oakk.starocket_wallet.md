@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/trubit_latam/
 redirect_from: 
 developerName: TruBit Ltd.
+builds: 
 features: 
 
 ---

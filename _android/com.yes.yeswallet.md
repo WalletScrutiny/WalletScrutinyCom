@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.yes.yeswallet/
 developerName: 
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 50000
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07
-updated: 2025-09-19
-version: 1.18.5
+updated: 2025-12-04
+version: 1.19.0
 stars: 4.3
 ratings: 
-reviews: 71
+reviews: 73
 website: 
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/coincatch_official
 redirect_from: 
 developerName: Linkbase Technology Limited
+builds: 
 features: 
 
 ---

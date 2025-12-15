@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: MONEY PARTNERS CO.,LTD.
+builds: 
 features: 
 
 ---

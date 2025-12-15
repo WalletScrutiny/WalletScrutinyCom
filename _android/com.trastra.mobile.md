@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/trastra.ltd
 redirect_from: 
 developerName: TRASTRA Limited
+builds: 
 features: 
 
 ---

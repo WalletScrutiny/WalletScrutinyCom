@@ -12,7 +12,7 @@ updated: 2025-11-13
 version: 3.59.02
 stars: 3.4
 ratings: 103840
-reviews: 81
+reviews: 82
 website: https://www.zebpay.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ redirect_from:
 - /zebpay.Application/
 - /posts/zebpay.Application/
 developerName: ZebPay
+builds: 
 features: 
 
 ---

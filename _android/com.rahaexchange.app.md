@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/rahaexchange/
 redirect_from: 
 developerName: RahaPay
+builds: 
 features: 
 
 ---

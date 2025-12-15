@@ -12,7 +12,7 @@ updated: 2025-11-27
 version: 1.77.3
 stars: 4.1
 ratings: 6161
-reviews: 360
+reviews: 361
 website: https://www.probit.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.probit.app.android2.release.global/
 developerName: Probit Global Services Limited
+builds: 
 features: 
 
 ---

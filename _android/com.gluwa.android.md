@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/gluwa.inc
 redirect_from: 
 developerName: Gluwa
+builds: 
 features: 
 
 ---

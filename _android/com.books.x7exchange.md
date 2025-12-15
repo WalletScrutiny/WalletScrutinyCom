@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/x7exchange
 redirect_from: 
 developerName: X7 Exchange
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://t.me/euphoriahitchat
 redirect_from: 
 developerName: Euphoria-Wallet
+builds: 
 features: 
 
 ---

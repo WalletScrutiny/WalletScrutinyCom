@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/flexa
 redirect_from: 
 developerName: Flexa
+builds: 
 features: 
 
 ---

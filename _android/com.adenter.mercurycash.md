@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.adenter.mercurycash/
 developerName: IT Mercury Cash
+builds: 
 features: 
 
 ---

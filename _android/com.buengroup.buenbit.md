@@ -1,6 +1,6 @@
 ---
 wsId: buenbit
-title: 'Buenbit: Invierte en el futuro'
+title: 'Buenbit by Nexo: Invierte bien'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.buengroup.buenbit
 appCountry: 
 released: 2021-12-30
-updated: 2025-11-15
-version: 3.46.0
+updated: 2025-12-09
+version: 3.46.1
 stars: 3.9
 ratings: 
 reviews: 32
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Fiat Flow Solutions
+builds: 
 features: 
 
 ---

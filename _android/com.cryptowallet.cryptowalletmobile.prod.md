@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/CryptoWallet_com
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 10000
 appId: com.futurance.futurex
 appCountry: 
 released: 2022-07-07
-updated: 2025-11-25
-version: 2.6.5
+updated: 2025-12-11
+version: 2.6.9
 stars: 
 ratings: 
 reviews: 
@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q
 redirect_from: 
 developerName: Futurance Kripto Varlık Alım Satım Platformu
+builds: 
 features: 
 
 ---

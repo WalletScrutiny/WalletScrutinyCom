@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-20
 updated: 2025-10-30
 version: 1.2.0
-stars: 3.4
+stars: 3.1
 ratings: 
-reviews: 7
+reviews: 6
 website: https://wundertrading.com/en
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: WunderTrading
+builds: 
 features: 
 
 ---

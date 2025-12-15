@@ -29,6 +29,7 @@ social:
 - https://t.me/AQRU_Official
 redirect_from: 
 developerName: AQRU
+builds: 
 features: 
 
 ---

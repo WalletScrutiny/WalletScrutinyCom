@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: 'صرافی ارز دیجیتال : خرید ارز دیجیتال و بیت کوین'
+builds: 
 features: 
 
 ---

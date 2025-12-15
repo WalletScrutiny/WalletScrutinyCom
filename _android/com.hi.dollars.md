@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/hi_official
 redirect_from: 
 developerName: hi.com
+builds: 
 features: 
 
 ---

@@ -26,6 +26,7 @@ twitter: suncryptoin
 social: 
 redirect_from: 
 developerName: SunCrypto
+builds: 
 features: 
 
 ---

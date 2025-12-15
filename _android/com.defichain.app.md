@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/defiblockchain
 redirect_from: 
 developerName: DeFiChain
+builds: 
 features: 
 
 ---

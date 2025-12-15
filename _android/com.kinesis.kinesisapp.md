@@ -8,8 +8,8 @@ users: 100000
 appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28
-updated: 2025-11-21
-version: 2.13.1
+updated: 2025-12-12
+version: 2.14.0
 stars: 3.6
 ratings: 424
 reviews: 102
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Kinesis_money
 redirect_from: 
 developerName: Kinesis AG
+builds: 
 features: 
 
 ---

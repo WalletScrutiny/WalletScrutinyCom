@@ -32,6 +32,7 @@ redirect_from:
 - /posts/2019/11/bitcoinwallet/
 - /posts/com.polehin.android/
 developerName: BW DEV
+builds: 
 features: 
 
 ---

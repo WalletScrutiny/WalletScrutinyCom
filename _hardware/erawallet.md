@@ -31,6 +31,7 @@ signer:
 twitter: era_wallet
 social:
 - https://t.me/erawlt
+builds: 
 features:
 - nfc
 - camera

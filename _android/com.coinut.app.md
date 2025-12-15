@@ -29,6 +29,7 @@ social:
 - https://t.me/coinut
 redirect_from: 
 developerName: COINUT PTE LTD
+builds: 
 features: 
 
 ---

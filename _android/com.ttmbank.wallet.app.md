@@ -31,6 +31,7 @@ social:
 - https://github.com/orgs/MARS-DAO/repositories
 redirect_from: 
 developerName: MDAO Wallet
+builds: 
 features: 
 
 ---

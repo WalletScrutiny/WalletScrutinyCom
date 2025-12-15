@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bigines Yazılım ve Ticaret A.Ş
+builds: 
 features: 
 
 ---

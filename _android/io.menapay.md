@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: MC Digital Tic. ve Bil. Hiz. LTD.
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/indiesquare.me
 redirect_from: 
 developerName: IndieSquare Inc.
+builds: 
 features: 
 
 ---

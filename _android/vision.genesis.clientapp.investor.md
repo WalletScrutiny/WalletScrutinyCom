@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/genesisvision
 redirect_from: 
 developerName: Genesis Vision
+builds: 
 features: 
 
 ---

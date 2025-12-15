@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/kriptomat.io
 redirect_from: 
 developerName: Kriptomat
+builds: 
 features: 
 
 ---

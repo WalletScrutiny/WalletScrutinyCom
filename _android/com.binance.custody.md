@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/ceffu
 redirect_from: 
 developerName: Binance Inc.
+builds: 
 features: 
 
 ---

@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2025-11-10
-version: 2.2.20
+updated: 2025-12-02
+version: 2.3.0
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -37,6 +37,7 @@ social:
 - https://discord.com/invite/gpfaESrxu2
 - https://t.me/KeystoneWallet
 - https://www.reddit.com/r/KeystoneWallet
+builds: 
 features:
 - taproot
 

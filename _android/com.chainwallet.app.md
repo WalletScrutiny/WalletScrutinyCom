@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/chain
 redirect_from: 
 developerName: Chain.com
+builds: 
 features: 
 
 ---

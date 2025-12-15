@@ -8,7 +8,7 @@ users: 1000
 appId: com.minibits_wallet
 appCountry: 
 released: 
-updated: 2025-10-19
+updated: 2025-12-05
 version: VARY
 stars: 
 ratings: 
@@ -27,6 +27,7 @@ twitter: MinibitsCash
 social: 
 redirect_from: 
 developerName: Bitango Technologies
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/user/switchere
 redirect_from: 
 developerName: Switchere
+builds: 
 features: 
 
 ---

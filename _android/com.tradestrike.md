@@ -33,6 +33,7 @@ social:
 - https://discord.com/invite/tradestrike
 redirect_from: 
 developerName: TradestrikeBVI
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ signer:
 twitter: CoinPlacePro
 social:
 - https://www.facebook.com/CoinPlaceWorld/
+builds: 
 features: 
 
 ---

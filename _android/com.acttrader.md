@@ -12,7 +12,7 @@ updated: 2025-11-13
 version: 2.2.70
 stars: 2.5
 ratings: 
-reviews: 40
+reviews: 41
 website: https://acttrader.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/acttrader
 redirect_from: 
 developerName: ActTrader Technologies Ltd
+builds: 
 features: 
 
 ---

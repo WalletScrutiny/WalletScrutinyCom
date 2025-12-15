@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-09
 updated: 2025-11-26
 version: 4.5.0
-stars: 2.8
+stars: 2.9
 ratings: 
 reviews: 8
 website: https://vivid.money/
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/vivid.money.en
 redirect_from: 
 developerName: Vivid Money GmbH
+builds: 
 features: 
 
 ---

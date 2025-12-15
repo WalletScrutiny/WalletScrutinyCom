@@ -8,8 +8,8 @@ users: 10000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2025-11-21
-version: 1.9.4
+updated: 2025-12-01
+version: 1.9.6
 stars: 3.3
 ratings: 
 reviews: 10
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/scallop.official
 redirect_from: 
 developerName: Scallop
+builds: 
 features: 
 
 ---

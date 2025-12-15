@@ -28,6 +28,7 @@ social:
 - https://t.me/everstrike_io
 redirect_from: 
 developerName: Everstrike
+builds: 
 features: 
 
 ---

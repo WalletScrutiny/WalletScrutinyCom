@@ -28,6 +28,7 @@ social:
 - https://www.bmgcrypto.us
 redirect_from: 
 developerName: MW KOP
+builds: 
 features: 
 
 ---

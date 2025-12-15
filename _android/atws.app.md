@@ -12,7 +12,7 @@ updated: 2025-11-12
 version: 8.4.886
 stars: 4.7
 ratings: 7723
-reviews: 1439
+reviews: 1447
 website: http://ibkr.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/InteractiveBrokers
 redirect_from: 
 developerName: Interactive Brokers Group
+builds: 
 features: 
 
 ---

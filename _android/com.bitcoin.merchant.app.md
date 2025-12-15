@@ -9,7 +9,7 @@ appCountry:
 released: 2019-04-13
 updated: 2025-11-04
 version: 5.5.1
-stars: 4.3
+stars: 4.2
 ratings: 504
 reviews: 35
 website: https://www.bitcoin.com/bitcoin-cash-register
@@ -30,6 +30,7 @@ redirect_from:
 - /com.bitcoin.merchant.app/
 - /posts/com.bitcoin.merchant.app/
 developerName: Bitcoin.com Developer
+builds: 
 features: 
 
 ---

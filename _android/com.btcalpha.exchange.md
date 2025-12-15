@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btcalpha
 redirect_from: 
 developerName: BTC-Alpha LTD
+builds: 
 features: 
 
 ---

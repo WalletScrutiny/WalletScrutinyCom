@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
 redirect_from: 
 developerName: Deribit
+builds: 
 features: 
 
 ---

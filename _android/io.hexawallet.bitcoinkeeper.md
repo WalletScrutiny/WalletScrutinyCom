@@ -30,7 +30,8 @@ social:
 - https://www.linkedin.com/company/bithyve
 - https://t.me/bitcoinkeeper
 redirect_from: 
-developerName: BitHyve UK Ltd.
+developerName: Keeper Community
+builds: 
 features: 
 
 ---

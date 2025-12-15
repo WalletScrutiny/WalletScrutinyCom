@@ -30,6 +30,7 @@ social:
 - https://t.me/paratica
 redirect_from: 
 developerName: Paratica
+builds: 
 features: 
 
 ---

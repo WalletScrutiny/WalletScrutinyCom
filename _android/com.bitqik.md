@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA
 redirect_from: 
 developerName: bitqik
+builds: 
 features: 
 
 ---

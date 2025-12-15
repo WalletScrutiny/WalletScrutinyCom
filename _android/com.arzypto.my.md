@@ -29,6 +29,7 @@ social:
 - https://t.me/Arzypto
 redirect_from: 
 developerName: Arzypto
+builds: 
 features: 
 
 ---

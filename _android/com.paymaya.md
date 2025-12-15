@@ -12,7 +12,7 @@ updated: 2025-11-26
 version: 2.150.0
 stars: 4.1
 ratings: 
-reviews: 1143
+reviews: 1150
 website: https://www.maya.ph/
 repository: 
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/mayaiseverything
 redirect_from: 
 developerName: Maya Philippines, Inc.
+builds: 
 features: 
 
 ---

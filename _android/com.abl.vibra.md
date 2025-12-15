@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/VibraAfrica
 redirect_from: 
 developerName: Vibra Africa
+builds: 
 features: 
 
 ---

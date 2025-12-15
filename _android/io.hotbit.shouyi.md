@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/hotbitexchange
 redirect_from: 
 developerName: Hotbit Technology Limited
+builds: 
 features: 
 
 ---

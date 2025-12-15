@@ -34,6 +34,7 @@ social:
 - https://www.reddit.com/user/Koinpark
 redirect_from: 
 developerName: Koinpark Private Limited
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/MyEtherWallet
 redirect_from: 
 developerName: MyEtherWallet
+builds: 
 features: 
 
 ---

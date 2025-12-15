@@ -29,6 +29,7 @@ social:
 - https://t.me/Dexwalletofficialcommunity
 redirect_from: 
 developerName: DexWallet Pvt. Limited
+builds: 
 features: 
 
 ---

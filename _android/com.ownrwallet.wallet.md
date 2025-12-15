@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.ownrwallet.wallet/
 developerName: OWNR WALLET OU
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://t.me/pallapay_channel
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

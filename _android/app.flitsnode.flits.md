@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/flitsnode
 redirect_from: 
 developerName: Decenomy
+builds: 
 features: 
 
 ---

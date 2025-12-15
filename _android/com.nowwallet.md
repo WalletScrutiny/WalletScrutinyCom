@@ -8,11 +8,11 @@ users: 100000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2025-11-29
+updated: 2025-12-09
 version: 3.16.2
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 199
+reviews: 198
 website: https://walletnow.app
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/ChangeNOW_io/
 redirect_from: 
 developerName: ChangeNOW
+builds: 
 features: 
 
 ---

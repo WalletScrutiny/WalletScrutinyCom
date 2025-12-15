@@ -32,6 +32,7 @@ social:
 - https://www.reddit.com/r/SwapsApp
 redirect_from: 
 developerName: Octo Liquidity OÜ
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 500000
 appId: com.shaketh
 appCountry: 
 released: 2018-02-20
-updated: 2025-11-27
-version: 4.2.13
+updated: 2025-12-12
+version: 4.3.7
 stars: 4.4
 ratings: 10533
 reviews: 21
@@ -31,6 +31,7 @@ redirect_from:
 - /com.shaketh/
 - /posts/com.shaketh/
 developerName: Shakepay
+builds: 
 features: 
 
 ---

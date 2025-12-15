@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/lyopay/
 redirect_from: 
 developerName: DIGILYO APP LTD
+builds: 
 features: 
 
 ---

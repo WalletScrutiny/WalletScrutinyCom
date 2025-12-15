@@ -31,6 +31,7 @@ social:
 - mailto:info@talos.africa
 redirect_from: 
 developerName: Talos Africa
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 5000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02
-updated: 2025-11-29
-version: 3.1.0
+updated: 2025-12-13
+version: 3.1.2
 stars: 2.5
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Coin Republic Pty Ltd
+builds: 
 features: 
 
 ---

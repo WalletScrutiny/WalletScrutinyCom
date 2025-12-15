@@ -9,8 +9,8 @@ users: 100000
 appId: io.changenow.changenow
 appCountry: 
 released: 2018-09-07
-updated: 2025-11-20
-version: 1.156.32
+updated: 2025-12-05
+version: 1.156.33
 stars: 4.6
 ratings: 2199
 reviews: 799
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /io.changenow.changenow/
 developerName: ChangeNOW
+builds: 
 features: 
 
 ---

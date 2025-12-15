@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /posts/com.hebeblock.hebewallet/
 developerName: HebeBlock
+builds: 
 features: 
 
 ---

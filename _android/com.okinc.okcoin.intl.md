@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.okinc.okcoin.intl.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-05-14
+date: 2025-12-15
 signer: 
 twitter: OKcoin
 social:
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/OkcoinOfficial
 redirect_from: 
 developerName: OKCoin Inc.
+builds: 
 features:
 - ln
 

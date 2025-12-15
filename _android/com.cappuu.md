@@ -31,6 +31,7 @@ social:
 - https://discord.com/invite/84CumqxPWw
 redirect_from: 
 developerName: PT Tujuhbelas Media Indonesia
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kyc_coin
 redirect_from: 
 developerName: KYC&AML Ltd
+builds: 
 features: 
 
 ---

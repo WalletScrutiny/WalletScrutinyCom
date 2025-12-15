@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Archos S.A.
+builds: 
 features: 
 
 ---

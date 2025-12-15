@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/smwtpuyWWH
 redirect_from: 
 developerName: Corex LLC
+builds: 
 features: 
 
 ---

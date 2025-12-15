@@ -8,7 +8,7 @@ users: 5000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2025-11-26
+updated: 2025-12-12
 version: 3.86.0
 stars: 4.6
 ratings: 28130
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/pintucrypto
 redirect_from: 
 developerName: Pintu Crypto
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://t.me/Qoinpay
 redirect_from: 
 developerName: PT. Loyalty Program Indonesia
+builds: 
 features: 
 
 ---

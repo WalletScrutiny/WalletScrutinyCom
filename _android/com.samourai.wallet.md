@@ -31,6 +31,7 @@ redirect_from:
 - /samourai/
 - /com.samourai.wallet/
 developerName: Samourai
+builds: 
 features: 
 
 ---

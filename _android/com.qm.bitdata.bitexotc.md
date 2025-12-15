@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitDATAExchange/
 redirect_from: 
 developerName: BitDATA Exchange
+builds: 
 features: 
 
 ---

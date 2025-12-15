@@ -30,6 +30,7 @@ social:
 - https://t.me/bitfreehelp
 redirect_from: 
 developerName: ifreepanda
+builds: 
 features: 
 
 ---

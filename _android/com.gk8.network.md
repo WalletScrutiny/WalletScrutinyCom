@@ -7,8 +7,8 @@ users: 100
 appId: com.gk8.network
 appCountry: 
 released: 2021-09-01
-updated: 2025-11-06
-version: 17.0.3
+updated: 2025-12-08
+version: 17.0.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: GK8 by Galaxy
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ signer:
 twitter: Vexblock
 social:
 - https://medium.com/@vexblockofficial
+builds: 
 features: 
 
 ---

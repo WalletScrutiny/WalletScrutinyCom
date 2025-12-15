@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/CoinRivet
 redirect_from: 
 developerName: Galias Services
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://t.me/dextrade_support
 redirect_from: 
 developerName: Dextrade Technologies LTD
+builds: 
 features: 
 
 ---

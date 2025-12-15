@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCilya9JzFKcTxk1wOPIyH2A
 redirect_from: 
 developerName: Sonic Inc
+builds: 
 features: 
 
 ---

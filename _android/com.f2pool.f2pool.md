@@ -28,6 +28,7 @@ social:
 - https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
 redirect_from: 
 developerName: F2Pool Inc.
+builds: 
 features: 
 
 ---

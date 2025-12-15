@@ -29,6 +29,7 @@ social:
 - https://t.me/Xchange_official
 redirect_from: 
 developerName: natamityaeva80
+builds: 
 features: 
 
 ---

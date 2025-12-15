@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitPreco
 redirect_from: 
 developerName: Bitpreço
+builds: 
 features: 
 
 ---

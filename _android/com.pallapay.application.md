@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/pallapay
 redirect_from: 
 developerName: Palladium Payment Services LLC
+builds: 
 features: 
 
 ---

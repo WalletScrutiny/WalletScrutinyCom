@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/PointPay
 redirect_from: 
 developerName: Point Pay OÜ
+builds: 
 features: 
 
 ---

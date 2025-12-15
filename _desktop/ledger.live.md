@@ -20,6 +20,7 @@ verdict: nowallet
 date: 2025-06-25
 twitter: Ledger
 social: 
+builds: 
 features: 
 
 ---

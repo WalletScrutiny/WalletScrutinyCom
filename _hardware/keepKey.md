@@ -34,6 +34,7 @@ signer:
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform
+builds: 
 features: 
 
 ---

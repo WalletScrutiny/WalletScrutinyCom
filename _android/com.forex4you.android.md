@@ -8,11 +8,11 @@ users: 100000
 appId: com.forex4you.android
 appCountry: th
 released: 2015-10-06
-updated: 2025-11-19
-version: 6.15.0
-stars: 4.5
+updated: 2025-12-05
+version: 6.16.0
+stars: 4.6
 ratings: 2457
-reviews: 252
+reviews: 254
 website: https://www.markets4you.com/en/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/forex4you
 redirect_from: 
 developerName: E-Global Trade & Finance Group Inc.
+builds: 
 features: 
 
 ---

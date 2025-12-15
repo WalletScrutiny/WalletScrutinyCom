@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Coins Clone
+builds: 
 features: 
 
 ---

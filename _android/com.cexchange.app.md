@@ -30,6 +30,7 @@ social:
 - https://t.me/+SH-VNP--ecY15_fl
 redirect_from: 
 developerName: NetMart Inc
+builds: 
 features: 
 
 ---

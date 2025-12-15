@@ -33,6 +33,7 @@ redirect_from:
 - /posts/2019/12/walletofsatoshi/
 - /posts/com.livingroomofsatoshi.wallet/
 developerName: Wallet of Satoshi
+builds: 
 features:
 - ln
 - spark

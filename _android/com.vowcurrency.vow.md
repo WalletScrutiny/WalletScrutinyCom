@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/vowcurrency
 redirect_from: 
 developerName: Vow
+builds: 
 features: 
 
 ---

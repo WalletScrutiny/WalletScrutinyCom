@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/moneypipewallet
 redirect_from: 
 developerName: MadCats
+builds: 
 features: 
 
 ---

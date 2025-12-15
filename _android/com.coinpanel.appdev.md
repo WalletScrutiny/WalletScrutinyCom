@@ -34,6 +34,7 @@ social:
 - https://t.me/coin_panel
 redirect_from: 
 developerName: CoinPanel OÜ
+builds: 
 features: 
 
 ---

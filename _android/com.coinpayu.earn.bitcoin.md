@@ -4,15 +4,15 @@ title: 'Coinpayu: Earn Rewards'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.coinpayu.earn.bitcoin
 appCountry: 
 released: 2021-07-06
 updated: 2025-10-17
 version: 2.1.4
-stars: 2.9
+stars: 3
 ratings: 
-reviews: 193
+reviews: 195
 website: https://www.coinpayu.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/coinpayu
 redirect_from: 
 developerName: Coinpayu
+builds: 
 features: 
 
 ---

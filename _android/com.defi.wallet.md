@@ -9,11 +9,11 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2025-11-28
-version: 2.42.0
+updated: 2025-12-12
+version: 2.44.0
 stars: 4.6
 ratings: 13620
-reviews: 3642
+reviews: 3656
 website: https://www.crypto.com
 repository: 
 issue: 
@@ -33,6 +33,7 @@ redirect_from:
 - /com.defi.wallet/
 - /posts/com.defi.wallet/
 developerName: Crypto.com Onchain Wallet
+builds: 
 features: 
 
 ---

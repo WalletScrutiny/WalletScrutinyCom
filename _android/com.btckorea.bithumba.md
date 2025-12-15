@@ -27,6 +27,7 @@ twitter: BithumbOfficial
 social: 
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -10,8 +10,8 @@ users: 100000
 appId: fr.acinq.phoenix.mainnet
 appCountry: fr
 released: 2019-12-10
-updated: 2025-10-31
-version: 2.7.1
+updated: 2025-12-03
+version: 2.7.2
 stars: 4.6
 ratings: 314
 reviews: 10
@@ -32,6 +32,7 @@ redirect_from:
 - /fr.acinq.phoenix.mainnet/
 - /posts/fr.acinq.phoenix.mainnet/
 developerName: ACINQ
+builds: 
 features:
 - ln
 

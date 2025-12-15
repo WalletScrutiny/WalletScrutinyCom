@@ -12,7 +12,7 @@ updated: 2025-10-17
 version: 5.2.0
 stars: 4.5
 ratings: 2137
-reviews: 50
+reviews: 51
 website: https://hbwallet.app/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: HBWallet_Ether
 social: 
 redirect_from: 
 developerName: bacoor inc.
+builds: 
 features: 
 
 ---

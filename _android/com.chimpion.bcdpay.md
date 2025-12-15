@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/chimpion.io/
 redirect_from: 
 developerName: Chimpion
+builds: 
 features: 
 
 ---

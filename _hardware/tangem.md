@@ -32,6 +32,7 @@ signer:
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
+builds: 
 features: 
 
 ---

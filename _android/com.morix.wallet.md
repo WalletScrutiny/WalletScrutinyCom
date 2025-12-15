@@ -27,6 +27,7 @@ twitter: MoriXjp
 social: 
 redirect_from: 
 developerName: MoriX Co., Ltd.
+builds: 
 features: 
 
 ---

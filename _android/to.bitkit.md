@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
 redirect_from: 
 developerName: Synonym
+builds: 
 features:
 - ln
 

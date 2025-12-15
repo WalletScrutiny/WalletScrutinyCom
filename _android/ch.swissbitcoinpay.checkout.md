@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/@swissbitcoinpay
 redirect_from: 
 developerName: Swiss Bitcoin Pay
+builds: 
 features:
 - ln
 

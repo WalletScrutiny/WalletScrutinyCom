@@ -29,6 +29,7 @@ social:
 - https://discord.gg/CeFH7YaMXe
 redirect_from: 
 developerName: Hawex Investment LLC
+builds: 
 features: 
 
 ---

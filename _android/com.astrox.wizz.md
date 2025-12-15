@@ -28,6 +28,7 @@ social:
 - https://discord.com/invite/H7hzuDj2d6
 redirect_from: 
 developerName: AstroX Network
+builds: 
 features: 
 
 ---

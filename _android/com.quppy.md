@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.quppy/
 developerName: Quppy Europe OU
+builds: 
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry: GI
 released: 2021-09-28
 updated: 2025-11-05
 version: 1.37.0
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 579
+reviews: 582
 website: https://bitso.com/alpha/landing
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
 redirect_from: 
 developerName: Bitso
+builds: 
 features: 
 
 ---

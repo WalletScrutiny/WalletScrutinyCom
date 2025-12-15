@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/taptopayinc
 redirect_from: 
 developerName: Tap to Pay, Inc.
+builds: 
 features: 
 
 ---

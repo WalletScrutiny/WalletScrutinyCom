@@ -32,6 +32,7 @@ redirect_from:
 - /com.zumopay.core/
 - /posts/com.zumopay.core/
 developerName: Zumopay
+builds: 
 features: 
 
 ---

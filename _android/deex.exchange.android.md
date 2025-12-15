@@ -32,6 +32,7 @@ social:
 - https://t.me/deexexchange
 redirect_from: 
 developerName: Deex Group
+builds: 
 features: 
 
 ---

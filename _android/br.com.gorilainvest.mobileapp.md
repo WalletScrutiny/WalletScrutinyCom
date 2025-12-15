@@ -8,8 +8,8 @@ users: 100000
 appId: br.com.gorilainvest.mobileapp
 appCountry: 
 released: 2019-05-13
-updated: 2025-10-30
-version: 8.1.1
+updated: 2025-12-05
+version: 8.2.0
 stars: 4.4
 ratings: 
 reviews: 26
@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/gorila
 redirect_from: 
 developerName: Gorila - gestão de carteira de investimentos
+builds: 
 features: 
 
 ---

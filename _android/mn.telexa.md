@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Telexa.mn/
 redirect_from: 
 developerName: Save, Inc
+builds: 
 features: 
 
 ---

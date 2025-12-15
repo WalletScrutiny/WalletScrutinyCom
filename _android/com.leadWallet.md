@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/LeadWallet
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

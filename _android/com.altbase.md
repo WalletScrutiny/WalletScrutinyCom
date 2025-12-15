@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/AltbaseApp/
 redirect_from: 
 developerName: Altbase
+builds: 
 features: 
 
 ---

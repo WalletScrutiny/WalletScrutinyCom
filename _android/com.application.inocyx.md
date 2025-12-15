@@ -32,6 +32,7 @@ social:
 - https://t.me/inocyxiyx
 redirect_from: 
 developerName: INOCYX
+builds: 
 features: 
 
 ---

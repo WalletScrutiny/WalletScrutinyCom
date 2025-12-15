@@ -8,8 +8,8 @@ appId: app.simple.com
 appCountry: gb
 idd: '1603406843'
 released: 2022-05-06
-updated: 2025-12-01
-version: 3.17.0
+updated: 2025-12-15
+version: 3.19.0
 stars: 4.8
 reviews: 222
 website: https://simple.app/

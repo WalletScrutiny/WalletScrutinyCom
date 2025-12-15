@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/3KVxWNvsJx
 redirect_from: 
 developerName: GRAVT, s.r.o.
+builds: 
 features: 
 
 ---

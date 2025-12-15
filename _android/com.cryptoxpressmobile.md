@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/iamCryptoxpress/
 redirect_from: 
 developerName: CryptoXpress
+builds: 
 features: 
 
 ---

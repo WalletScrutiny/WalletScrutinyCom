@@ -28,6 +28,7 @@ social:
 - https://awallet.digital/
 redirect_from: 
 developerName: Metaverse Network LLC
+builds: 
 features: 
 
 ---

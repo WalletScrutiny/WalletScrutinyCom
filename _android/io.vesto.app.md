@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/vesto-llc
 redirect_from: 
 developerName: Vesto Apps
+builds: 
 features: 
 
 ---

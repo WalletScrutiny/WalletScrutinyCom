@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/TOKENOMY
 redirect_from: 
 developerName: Tokenomy
+builds: 
 features: 
 
 ---

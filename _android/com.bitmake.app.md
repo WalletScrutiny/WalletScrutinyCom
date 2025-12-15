@@ -33,6 +33,7 @@ social:
 - https://t.me/BitMakeEN
 redirect_from: 
 developerName: BITMAKE TECHNOLOGY LLC
+builds: 
 features: 
 
 ---

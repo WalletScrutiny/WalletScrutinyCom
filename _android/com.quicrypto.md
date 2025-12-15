@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Quicrypto
 redirect_from: 
 developerName: nukes
+builds: 
 features: 
 
 ---

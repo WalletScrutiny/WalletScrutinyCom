@@ -29,6 +29,7 @@ redirect_from:
 - /io.melis.clientwallet/
 - /posts/io.melis.clientwallet/
 developerName: Melis
+builds: 
 features: 
 
 ---

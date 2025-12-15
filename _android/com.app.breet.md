@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-21
 updated: 2025-11-28
 version: 7.1.8
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 185
+reviews: 187
 website: https://breet.app
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCyymPb01_pQF0JYj7l_YxxQ
 redirect_from: 
 developerName: Inbreetic Technologies Limited
+builds: 
 features: 
 
 ---

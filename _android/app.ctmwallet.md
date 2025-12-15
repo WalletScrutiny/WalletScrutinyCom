@@ -28,6 +28,7 @@ social:
 - https://ctpay.io
 redirect_from: 
 developerName: CC Code
+builds: 
 features: 
 
 ---

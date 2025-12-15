@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitnob
 redirect_from: 
 developerName: Bitnob Technologies
+builds: 
 features:
 - ln
 

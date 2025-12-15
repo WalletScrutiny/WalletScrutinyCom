@@ -33,6 +33,7 @@ social:
 redirect_from:
 - /com.shapeshift.droid_shapeshift/
 developerName: ShapeShift.com
+builds: 
 features: 
 
 ---

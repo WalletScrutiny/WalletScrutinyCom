@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/patricia.com.ng
 redirect_from: 
 developerName: Patricia Technologies
+builds: 
 features: 
 
 ---

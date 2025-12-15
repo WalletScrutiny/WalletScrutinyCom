@@ -29,6 +29,7 @@ social:
 - https://t.me/SWallet_ai
 redirect_from: 
 developerName: SWallet OU
+builds: 
 features: 
 
 ---

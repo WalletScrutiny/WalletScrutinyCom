@@ -31,6 +31,7 @@ social:
 - https://t.me/timexio
 redirect_from: 
 developerName: Chrono.Tech
+builds: 
 features: 
 
 ---

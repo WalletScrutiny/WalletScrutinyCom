@@ -8,7 +8,7 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
-updated: 2025-10-20
+updated: 2025-11-24
 version: 8.5.2
 stars: 4.2
 ratings: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/DeFiBanking/
 redirect_from: 
 developerName: cmorq inc.
+builds: 
 features: 
 
 ---

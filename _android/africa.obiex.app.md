@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/obiexfinance/
 redirect_from: 
 developerName: Obiex Africa Ltd.
+builds: 
 features: 
 
 ---

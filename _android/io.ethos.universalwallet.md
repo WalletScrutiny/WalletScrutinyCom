@@ -28,6 +28,7 @@ social:
 - https://www.reddit.com/r/ethos_io
 redirect_from: 
 developerName: Ethos.io PTE LTD
+builds: 
 features: 
 
 ---

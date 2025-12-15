@@ -8,8 +8,8 @@ users: 500000
 appId: com.clubkonnect.mobile1
 appCountry: 
 released: 2017-10-31
-updated: 2025-11-22
-version: 2.0.54
+updated: 2025-12-12
+version: 2.0.56
 stars: 2.6
 ratings: 
 reviews: 101
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/clubkonnect247
 redirect_from: 
 developerName: Nellobyte Systems Ltd.
+builds: 
 features: 
 
 ---

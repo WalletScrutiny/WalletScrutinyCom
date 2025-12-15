@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/yappi-br/
 redirect_from: 
 developerName: Yappi Software e Serviços LTDA
+builds: 
 features: 
 
 ---

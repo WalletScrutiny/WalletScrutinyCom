@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/colodax
 redirect_from: 
 developerName: Ganyt Solutions
+builds: 
 features: 
 
 ---

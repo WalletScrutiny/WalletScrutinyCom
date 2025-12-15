@@ -12,7 +12,7 @@ updated: 2025-11-25
 version: 1.4.70
 stars: 3.3
 ratings: 3029
-reviews: 2080
+reviews: 2084
 website: https://www.paddle-inc.jp/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Paddle,inc
+builds: 
 features: 
 
 ---

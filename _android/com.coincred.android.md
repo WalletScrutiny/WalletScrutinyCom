@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coin-cred/
 redirect_from: 
 developerName: CoinCRED
+builds: 
 features: 
 
 ---

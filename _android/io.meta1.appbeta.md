@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/meta-1-coin
 redirect_from: 
 developerName: META 1 Coin
+builds: 
 features: 
 
 ---

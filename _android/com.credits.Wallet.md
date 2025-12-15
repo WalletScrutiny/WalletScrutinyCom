@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-26
 updated: 2025-04-17
 version: 9.0.0.9
-stars: 4.1
+stars: 3.8
 ratings: 
-reviews: 4
+reviews: 5
 website: https://credits.com/contacts.html
 repository: 
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/creditscom
 redirect_from: 
 developerName: SOFTWARE C SP Z.O.O
+builds: 
 features: 
 
 ---

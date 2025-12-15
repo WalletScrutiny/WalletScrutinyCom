@@ -28,6 +28,7 @@ redirect_from:
 - /com.microbitcoin/
 - /posts/com.microbitcoin/
 developerName: MicroBitcoin
+builds: 
 features: 
 
 ---

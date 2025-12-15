@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/dnar.inc
 redirect_from: 
 developerName: Dnar
+builds: 
 features: 
 
 ---

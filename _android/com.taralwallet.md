@@ -30,6 +30,7 @@ social:
 - https://t.me/TaralityCommunity
 redirect_from: 
 developerName: Tarality Ecosystems Private Limited
+builds: 
 features: 
 
 ---

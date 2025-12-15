@@ -8,8 +8,8 @@ users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2025-11-24
-version: 2.4.2
+updated: 2025-12-09
+version: 2.4.4
 stars: 3.3
 ratings: 1053
 reviews: 16
@@ -28,6 +28,7 @@ social:
 - https://github.com/wirexapp
 redirect_from: 
 developerName: CCA LABS
+builds: 
 features: 
 
 ---

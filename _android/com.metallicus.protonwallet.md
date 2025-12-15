@@ -30,6 +30,7 @@ social:
 - https://github.com/ProtonProtocol
 redirect_from: 
 developerName: Metallicus Inc.
+builds: 
 features: 
 
 ---

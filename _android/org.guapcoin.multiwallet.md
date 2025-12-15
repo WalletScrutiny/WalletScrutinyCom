@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/guapcoinofficial
 redirect_from: 
 developerName: She Interactive, LLC
+builds: 
 features: 
 
 ---

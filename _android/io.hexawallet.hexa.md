@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /io.hexawallet.hexa/
 developerName: 
+builds: 
 features: 
 
 ---

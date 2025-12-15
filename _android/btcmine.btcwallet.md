@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /btcmine.btcwallet/
 developerName: 
+builds: 
 features: 
 
 ---

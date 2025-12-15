@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/eToro
 redirect_from: 
 developerName: eToroX
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.lobstr.client
 appCountry: us
 released: 2015-04-27
-updated: 2025-11-25
-version: 13.3.0
+updated: 2025-12-05
+version: 13.3.2
 stars: 4.6
 ratings: 11618
-reviews: 2273
+reviews: 2276
 website: https://lobstr.co/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Lobstrco
 social: 
 redirect_from: 
 developerName: LOBSTR Stellar Wallet
+builds: 
 features: 
 
 ---

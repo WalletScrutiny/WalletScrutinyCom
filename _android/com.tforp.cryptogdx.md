@@ -27,6 +27,7 @@ twitter: Trading4Pro
 social: 
 redirect_from: 
 developerName: Finansoft Ltd
+builds: 
 features: 
 
 ---

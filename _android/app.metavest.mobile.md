@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/metavestapp
 redirect_from: 
 developerName: Metavest
+builds: 
 features: 
 
 ---

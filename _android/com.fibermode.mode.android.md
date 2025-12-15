@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/themodeapp
 redirect_from: 
 developerName: Fibermode Limited
+builds: 
 features: 
 
 ---

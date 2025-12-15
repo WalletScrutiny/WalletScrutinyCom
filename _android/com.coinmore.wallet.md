@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Coinmore Developer
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/incomelocker
 redirect_from: 
 developerName: Variance HODLING Kft.
+builds: 
 features: 
 
 ---

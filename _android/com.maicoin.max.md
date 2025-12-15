@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
 developerName: MaiCoin Eng
+builds: 
 features: 
 
 ---

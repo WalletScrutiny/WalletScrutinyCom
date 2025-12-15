@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/@bynex4637
 redirect_from: 
 developerName: Bynex
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://medium.com/@OPOLOCosmos
 redirect_from: 
 developerName: OPOLO
+builds: 
 features: 
 
 ---

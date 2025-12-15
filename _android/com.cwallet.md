@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/walletxapa
 redirect_from: 
 developerName: Cryptocurrency Wallet Development Team
+builds: 
 features: 
 
 ---

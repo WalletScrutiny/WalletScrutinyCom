@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/officialcoinbaazar
 redirect_from: 
 developerName: Coinbaazar Exchange Team
+builds: 
 features: 
 
 ---

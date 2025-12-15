@@ -12,7 +12,7 @@ updated: 2025-01-15
 version: 4.6.10
 stars: 4.4
 ratings: 24480
-reviews: 1197
+reviews: 1198
 website: http://www.netdania.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/NetDania-146001445410373
 redirect_from: 
 developerName: NetDania SRL
+builds: 
 features: 
 
 ---

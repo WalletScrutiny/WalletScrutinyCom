@@ -30,6 +30,7 @@ social:
 - https://t.me/WeToken_English
 redirect_from: 
 developerName: Wetoken Technology Limited
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/senexpay
 redirect_from: 
 developerName: Senex Payment Services Limited
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://github.com/wallet-io
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

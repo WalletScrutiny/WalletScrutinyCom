@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
 redirect_from: 
 developerName: Up Trend LTD
+builds: 
 features: 
 
 ---

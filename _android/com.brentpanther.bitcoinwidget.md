@@ -11,7 +11,7 @@ updated: 2025-09-28
 version: 8.7.3
 stars: 4.2
 ratings: 2110
-reviews: 219
+reviews: 221
 website: http://www.brentpanther.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Brent Panther
+builds: 
 features: 
 
 ---

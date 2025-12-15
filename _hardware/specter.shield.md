@@ -28,6 +28,7 @@ signer:
 twitter: specterwallet
 social:
 - https://www.linkedin.com/company/specterlabs
+builds: 
 features: 
 
 ---

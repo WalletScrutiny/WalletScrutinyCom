@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/btcmarkets_
 redirect_from: 
 developerName: BTC Markets Pty Ltd
+builds: 
 features: 
 
 ---

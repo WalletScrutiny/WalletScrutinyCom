@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/blockchainofficial
 redirect_from: 
 developerName: Blockchain Luxembourg S.A.
+builds: 
 features: 
 
 ---

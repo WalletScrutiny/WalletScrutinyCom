@@ -8,8 +8,8 @@ users: 100000
 appId: com.foxwallet.play
 appCountry: 
 released: 2021-12-05
-updated: 2025-11-19
-version: 5.5.14
+updated: 2025-12-15
+version: 5.5.15
 stars: 4.7
 ratings: 
 reviews: 455
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/foxwallet
 redirect_from: 
 developerName: FoxWallet
+builds: 
 features: 
 
 ---

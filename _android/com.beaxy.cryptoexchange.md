@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BeaxyExchange
 redirect_from: 
 developerName: Beaxy
+builds: 
 features: 
 
 ---

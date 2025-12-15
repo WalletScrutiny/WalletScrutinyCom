@@ -27,6 +27,7 @@ twitter: wisebitcoin
 social: 
 redirect_from: 
 developerName: Batonex
+builds: 
 features: 
 
 ---

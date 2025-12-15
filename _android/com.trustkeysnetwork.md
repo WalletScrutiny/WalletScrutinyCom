@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/trustkeys.network
 redirect_from: 
 developerName: TrustKeys Finance
+builds: 
 features: 
 
 ---

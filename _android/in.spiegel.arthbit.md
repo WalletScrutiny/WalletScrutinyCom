@@ -32,6 +32,7 @@ social:
 - https://t.me/ArthBitExchange
 redirect_from: 
 developerName: ARTHBIT PRIVATE LIMITED
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Deltastock
 redirect_from: 
 developerName: Deltastock AD
+builds: 
 features: 
 
 ---

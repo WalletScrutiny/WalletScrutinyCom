@@ -34,6 +34,7 @@ social:
 - https://t.me/ZTGlobal_English
 redirect_from: 
 developerName: Glory Global Technology Limited
+builds: 
 features: 
 
 ---

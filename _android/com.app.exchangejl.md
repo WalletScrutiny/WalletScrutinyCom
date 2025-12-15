@@ -30,6 +30,7 @@ social:
 - mailto:info@krypterz.com
 redirect_from: 
 developerName: Krypterz Exchange
+builds: 
 features: 
 
 ---

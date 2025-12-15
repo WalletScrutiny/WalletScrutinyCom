@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/ruufpay/
 redirect_from: 
 developerName: RuufPay
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://t.me/FuturesFoundation
 redirect_from: 
 developerName: FuturesCash Team
+builds: 
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-09-09
 version: 6.5.4
 stars: 3.4
 ratings: 
-reviews: 3
+reviews: 
 website: https://centurioninvest.com/
 repository: 
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://www.instagram.com/centurioninvest
 redirect_from: 
 developerName: Centurion Exchange
+builds: 
 features: 
 
 ---

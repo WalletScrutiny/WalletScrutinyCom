@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/letsbit/
 redirect_from: 
 developerName: LB Finanzas
+builds: 
 features: 
 
 ---

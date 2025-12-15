@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Roseon.Finance
 redirect_from: 
 developerName: Roseon Finance
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/ryderid
 redirect_from: 
 developerName: Light Labs Ltd
+builds: 
 features:
 - nfc required
 

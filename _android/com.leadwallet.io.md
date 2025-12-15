@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.leadwallet.io/
 developerName: 
+builds: 
 features: 
 
 ---

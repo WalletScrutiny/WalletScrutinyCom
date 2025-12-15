@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/fmcpay/
 redirect_from: 
 developerName: FUINRE INC
+builds: 
 features: 
 
 ---

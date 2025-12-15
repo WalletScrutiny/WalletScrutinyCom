@@ -31,6 +31,7 @@ social:
 - https://t.me/thebitcoincompany
 redirect_from: 
 developerName: The Bitcoin Company
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - mailto:admin@indocodex.com
 redirect_from: 
 developerName: Indocodex - Rajacoin
+builds: 
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-11-24
 version: 25.11.4
 stars: 4.8
 ratings: 
-reviews: 99
+reviews: 103
 website: https://trezor.io
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/trezor.io
 redirect_from: 
 developerName: Trezor
+builds: 
 features: 
 
 ---

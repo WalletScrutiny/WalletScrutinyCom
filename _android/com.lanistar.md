@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/lanistar
 redirect_from: 
 developerName: Lanistar
+builds: 
 features: 
 
 ---

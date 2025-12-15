@@ -28,6 +28,7 @@ social:
 - https://im-token.farm
 redirect_from: 
 developerName: ii token
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://t.me/easycoins888
 redirect_from: 
 developerName: EasyCoins
+builds: 
 features: 
 
 ---

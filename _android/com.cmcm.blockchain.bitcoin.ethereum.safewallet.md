@@ -28,6 +28,7 @@ redirect_from:
 - /com.cmcm.blockchain.bitcoin.ethereum.safewallet/
 - /posts/com.cmcm.blockchain.bitcoin.ethereum.safewallet/
 developerName: 
+builds: 
 features: 
 
 ---

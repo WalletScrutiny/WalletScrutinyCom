@@ -32,6 +32,7 @@ redirect_from:
 - /posts/2019/11/airbitz/
 - /posts/com.airbitz/
 developerName: 
+builds: 
 features: 
 
 ---

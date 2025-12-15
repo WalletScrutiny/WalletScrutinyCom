@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/groups/mfcoin
 redirect_from: 
 developerName: FREELAND AGREEMENT LTD.
+builds: 
 features: 
 
 ---

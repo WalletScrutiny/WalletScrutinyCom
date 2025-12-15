@@ -28,6 +28,7 @@ signer:
 twitter: afripay_io
 social:
 - https://instagram.com/afripay_io/
+builds: 
 features: 
 
 ---

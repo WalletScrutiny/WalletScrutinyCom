@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/haruinvest
 redirect_from: 
 developerName: Haru Invest
+builds: 
 features: 
 
 ---

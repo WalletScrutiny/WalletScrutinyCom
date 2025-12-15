@@ -29,6 +29,7 @@ social:
 - https://t.me/polyxchange
 redirect_from: 
 developerName: Polygant Ltd
+builds: 
 features: 
 
 ---

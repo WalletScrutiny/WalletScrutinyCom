@@ -8,8 +8,8 @@ users: 100000
 appId: fm.fountain.apps
 appCountry: 
 released: 2021-08-02
-updated: 2025-10-31
-version: 1.3.10
+updated: 2025-12-13
+version: 1.4.1
 stars: 3.1
 ratings: 
 reviews: 256
@@ -27,6 +27,7 @@ twitter: fountain_app
 social: 
 redirect_from: 
 developerName: Fountain Labs Ltd
+builds: 
 features: 
 
 ---

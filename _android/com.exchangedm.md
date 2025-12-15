@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/digitalmoney.dm
 redirect_from: 
 developerName: Digital Money Ltd
+builds: 
 features: 
 
 ---

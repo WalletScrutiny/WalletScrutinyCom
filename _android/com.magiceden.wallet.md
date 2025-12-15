@@ -8,11 +8,11 @@ users: 100000
 appId: com.magiceden.wallet
 appCountry: 
 released: 2024-05-17
-updated: 2025-12-02
-version: 3.0.0
+updated: 2025-12-09
+version: 3.1.1
 stars: 4.6
 ratings: 
-reviews: 115
+reviews: 117
 website: https://help.magiceden.io/en/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/magiceden
 redirect_from: 
 developerName: MagicEden
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://t.me/BlockchainMint
 redirect_from: 
 developerName: Blockchain Mint
+builds: 
 features: 
 
 ---

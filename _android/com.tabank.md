@@ -29,6 +29,7 @@ social:
 - https://t.me/tabankorg
 redirect_from: 
 developerName: Tabank Holding Pte. Ltd.
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/decoin-xde
 redirect_from: 
 developerName: decoin.io
+builds: 
 features: 
 
 ---

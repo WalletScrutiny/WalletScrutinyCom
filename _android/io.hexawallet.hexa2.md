@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/bithyve
 redirect_from: 
 developerName: BitHyve UK Ltd.
+builds: 
 features: 
 
 ---

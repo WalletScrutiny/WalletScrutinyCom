@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: KryptoBot Sp. z o.o.
+builds: 
 features: 
 
 ---

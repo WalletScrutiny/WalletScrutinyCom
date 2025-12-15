@@ -12,7 +12,7 @@ updated: 2025-11-27
 version: 1.29.0
 stars: 4.8
 ratings: 
-reviews: 244
+reviews: 245
 website: https://noone.io
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: NooneWallet
 social: 
 redirect_from: 
 developerName: Raias Llc
+builds: 
 features: 
 
 ---

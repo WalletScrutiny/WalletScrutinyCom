@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Indoex.official
 redirect_from: 
 developerName: IndoEx
+builds: 
 features: 
 
 ---

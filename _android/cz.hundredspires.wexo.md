@@ -31,6 +31,7 @@ social:
 - https://discord.com/invite/jhqwr7KFCn
 redirect_from: 
 developerName: CRYPTON DIGITAL, SE
+builds: 
 features: 
 
 ---

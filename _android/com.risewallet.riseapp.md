@@ -27,6 +27,7 @@ twitter: RiseWallet
 social: 
 redirect_from: 
 developerName: Bitcoin Well
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/Safecoin
 redirect_from: 
 developerName: SafeCoin
+builds: 
 features: 
 
 ---

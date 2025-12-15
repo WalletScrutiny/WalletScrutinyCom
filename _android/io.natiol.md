@@ -29,6 +29,7 @@ social:
 - https://t.me/natiol_infinity
 redirect_from: 
 developerName: NATIOL INFINITY PTE LTD
+builds: 
 features: 
 
 ---

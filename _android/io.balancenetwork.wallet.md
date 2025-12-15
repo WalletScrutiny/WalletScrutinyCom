@@ -34,6 +34,7 @@ social:
 - https://www.instagram.com/balancenetwork
 redirect_from: 
 developerName: Balance Network Ltd
+builds: 
 features: 
 
 ---

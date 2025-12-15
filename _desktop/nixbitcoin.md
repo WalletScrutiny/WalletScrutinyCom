@@ -20,6 +20,7 @@ verdict: sourceavailable
 date: 2025-09-14
 twitter: nixbitcoinorg
 social: 
+builds: 
 features: 
 
 ---

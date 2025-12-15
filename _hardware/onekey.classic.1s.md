@@ -31,6 +31,7 @@ signer:
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
+builds: 
 features: 
 
 ---

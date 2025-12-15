@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/paiexchange
 redirect_from: 
 developerName: PAI Exchange
+builds: 
 features: 
 
 ---

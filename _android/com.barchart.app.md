@@ -12,7 +12,7 @@ updated: 2024-08-19
 version: 3.0.10
 stars: 4.7
 ratings: 9788
-reviews: 2355
+reviews: 2359
 website: http://www.barchart.com/app
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Barchart
 redirect_from: 
 developerName: Barchart.com
+builds: 
 features: 
 
 ---

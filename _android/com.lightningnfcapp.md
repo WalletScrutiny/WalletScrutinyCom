@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/ones-and-zeros-technology-limited
 redirect_from: 
 developerName: Ones and Zeros Technology
+builds: 
 features: 
 
 ---

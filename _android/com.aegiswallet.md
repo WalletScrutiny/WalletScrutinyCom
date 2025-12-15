@@ -28,6 +28,7 @@ redirect_from:
 - /com.aegiswallet/
 - /posts/com.aegiswallet/
 developerName: 
+builds: 
 features: 
 
 ---

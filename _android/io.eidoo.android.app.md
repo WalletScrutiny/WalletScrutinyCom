@@ -28,6 +28,7 @@ social:
 - https://t.me/eidoocryptoworld
 redirect_from: 
 developerName: Eidoo Tech
+builds: 
 features: 
 
 ---

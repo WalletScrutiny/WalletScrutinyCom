@@ -28,6 +28,7 @@ social:
 - https://cryptoplat.io
 redirect_from: 
 developerName: Deex Group
+builds: 
 features: 
 
 ---

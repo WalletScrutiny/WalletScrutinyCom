@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/platnova
 redirect_from: 
 developerName: Platnova
+builds: 
 features: 
 
 ---

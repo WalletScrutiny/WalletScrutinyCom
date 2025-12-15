@@ -30,6 +30,7 @@ redirect_from:
 - /com.xzen.wallet/
 - /posts/com.xzen.wallet/
 developerName: 
+builds: 
 features: 
 
 ---

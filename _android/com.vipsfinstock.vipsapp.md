@@ -32,6 +32,7 @@ social:
 - https://t.me/vipsfinstockofficial
 redirect_from: 
 developerName: VIPS Trade Finance Pvt. Ltd.
+builds: 
 features: 
 
 ---

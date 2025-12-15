@@ -32,6 +32,7 @@ social:
 - https://t.me/kyrrex_official_en
 redirect_from: 
 developerName: Kyrrex
+builds: 
 features: 
 
 ---

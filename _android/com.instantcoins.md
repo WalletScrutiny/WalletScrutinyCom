@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/instantcoins
 redirect_from: 
 developerName: instantcoins technologies
+builds: 
 features: 
 
 ---

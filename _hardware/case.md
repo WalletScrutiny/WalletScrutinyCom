@@ -29,6 +29,7 @@ signer:
 twitter: CaseWallet
 social:
 - https://www.facebook.com/casewallet
+builds: 
 features: 
 
 ---

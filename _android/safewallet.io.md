@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/the.amgen
 redirect_from: 
 developerName: AmgenWallet
+builds: 
 features: 
 
 ---

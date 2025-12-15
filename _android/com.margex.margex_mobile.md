@@ -30,6 +30,7 @@ social:
 - https://t.me/margex_official
 redirect_from: 
 developerName: Margex
+builds: 
 features: 
 
 ---

@@ -7,11 +7,11 @@ users: 1000000
 appId: io.getdelta.android
 appCountry: us
 released: 2017-09-23
-updated: 2025-11-13
-version: 2025.4.1
+updated: 2025-12-05
+version: 2025.5.0
 stars: 4.2
 ratings: 26395
-reviews: 2007
+reviews: 2006
 website: https://delta.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ social:
 redirect_from:
 - /io.getdelta.android/
 developerName: Delta by eToro
+builds: 
 features: 
 
 ---

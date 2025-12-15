@@ -28,6 +28,7 @@ social:
 - https://the-bitcoin-traderapp.cyou
 redirect_from: 
 developerName: NISHANT MAHESH KHARE
+builds: 
 features: 
 
 ---

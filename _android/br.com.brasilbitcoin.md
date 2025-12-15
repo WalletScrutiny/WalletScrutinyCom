@@ -12,7 +12,7 @@ updated: 2025-11-12
 version: 3.11.00
 stars: 3.8
 ratings: 2855
-reviews: 5607
+reviews: 5609
 website: https://brasilbitcoin.com.br
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/brbtcoficial
 redirect_from: 
 developerName: Brasil Bitcoin
+builds: 
 features: 
 
 ---

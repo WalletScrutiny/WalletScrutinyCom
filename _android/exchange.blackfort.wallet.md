@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BlackfortWalletExchange
 redirect_from: 
 developerName: Blackfort Technologies LLC
+builds: 
 features: 
 
 ---

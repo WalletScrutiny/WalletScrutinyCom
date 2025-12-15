@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/scallopx/
 redirect_from: 
 developerName: Scallop
+builds: 
 features: 
 
 ---

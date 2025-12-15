@@ -28,6 +28,7 @@ signer:
 twitter: stepansnigirev
 social:
 - https://t.me/arduinoBitcoin
+builds: 
 features: 
 
 ---

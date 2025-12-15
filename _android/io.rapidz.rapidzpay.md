@@ -8,8 +8,8 @@ users: 10000
 appId: io.rapidz.rapidzpay
 appCountry: 
 released: 2021-06-21
-updated: 2025-11-21
-version: 4.2.8
+updated: 2025-12-12
+version: 4.3.3
 stars: 3.7
 ratings: 
 reviews: 5
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Rapidz.io
 redirect_from: 
 developerName: UAB Rapidz Pay
+builds: 
 features: 
 
 ---

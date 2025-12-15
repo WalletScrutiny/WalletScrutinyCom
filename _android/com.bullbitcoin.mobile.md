@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bull Bitcoin (Beta)
+title: BULL
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.bullbitcoin.mobile
 appCountry: 
 released: 2023-10-31
-updated: 2025-11-17
-version: 6.3.8
+updated: 2025-12-03
+version: 6.4.0
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bull-bitcoin
 redirect_from: 
 developerName: Bull Bitcoin
+builds: 
 features: 
 
 ---

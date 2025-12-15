@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/cetoex
 redirect_from: 
 developerName: CetoEx Labs
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ redirect_from:
 - /com.buda.crypto/
 - /posts/com.buda.crypto/
 developerName: Buda.com
+builds: 
 features:
 - ln
 

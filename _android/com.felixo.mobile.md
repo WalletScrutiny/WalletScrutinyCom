@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCuIJgsWXUXFp-8AE3jmg_mw
 redirect_from: 
 developerName: Felixo Teknoloji ve Yazılım A.Ş.
+builds: 
 features: 
 
 ---

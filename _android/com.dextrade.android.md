@@ -12,7 +12,7 @@ updated: 2023-05-10
 version: 1.3.0
 stars: 3.3
 ratings: 218
-reviews: 27
+reviews: 28
 website: https://dex-trade.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/DexTradeExchange
 redirect_from: 
 developerName: Dex-Trade
+builds: 
 features: 
 
 ---

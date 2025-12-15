@@ -28,6 +28,7 @@ social:
 - https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ
 redirect_from: 
 developerName: Senza
+builds: 
 features: 
 
 ---

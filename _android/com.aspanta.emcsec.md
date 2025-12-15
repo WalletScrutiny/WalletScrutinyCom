@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/EmerCoin
 redirect_from: 
 developerName: olegarch
+builds: 
 features: 
 
 ---

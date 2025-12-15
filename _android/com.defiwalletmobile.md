@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/slavi.io
 redirect_from: 
 developerName: Slavi Development
+builds: 
 features: 
 
 ---

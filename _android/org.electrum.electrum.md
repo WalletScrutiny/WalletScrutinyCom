@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /electrum/
 developerName: Electrum Technologies GmbH
+builds: 
 features:
 - ln
 

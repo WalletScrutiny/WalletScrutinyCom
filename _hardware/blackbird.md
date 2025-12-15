@@ -28,6 +28,7 @@ signer:
 twitter: blackbirdwallet
 social:
 - https://www.facebook.com/blackbirdwallet
+builds: 
 features: 
 
 ---

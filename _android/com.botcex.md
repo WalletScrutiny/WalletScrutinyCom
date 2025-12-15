@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Abelsis Yazılım Tic. Ltd. Şti.
+builds: 
 features: 
 
 ---

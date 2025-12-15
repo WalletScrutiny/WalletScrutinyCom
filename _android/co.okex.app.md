@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-11
 updated: 2025-11-02
 version: 7.4.8
-stars: 4.3
+stars: 4.2
 ratings: 7353
-reviews: 448
+reviews: 447
 website: https://ok-ex.co
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /co.okex.app/
 developerName: Technical team
+builds: 
 features: 
 
 ---

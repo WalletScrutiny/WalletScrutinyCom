@@ -12,7 +12,7 @@ updated: 2025-11-12
 version: '36.0'
 stars: 4.6
 ratings: 1026
-reviews: 2397
+reviews: 2417
 website: https://www.emberfund.io/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://github.com/ember-fund
 redirect_from: 
 developerName: Ember Fund Inc
+builds: 
 features: 
 
 ---

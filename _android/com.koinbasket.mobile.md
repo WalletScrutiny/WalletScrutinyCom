@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/koinbasket
 redirect_from: 
 developerName: Gazillion Developer
+builds: 
 features: 
 
 ---

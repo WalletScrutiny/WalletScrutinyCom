@@ -8,7 +8,7 @@ users: 10000
 appId: world.bitkey.app
 appCountry: US
 released: 2024-02-28
-updated: 2025-11-18
+updated: 2025-12-09
 version: 2025.21.1 (4)
 stars: 4.2
 ratings: 
@@ -34,6 +34,7 @@ social:
 - https://www.instagram.com/ownbitkey
 redirect_from: 
 developerName: Block, Inc.
+builds: 
 features:
 - multiSignature
 

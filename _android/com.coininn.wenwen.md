@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/kk9yYxUB
 redirect_from: 
 developerName: CoinInn Limited
+builds: 
 features: 
 
 ---

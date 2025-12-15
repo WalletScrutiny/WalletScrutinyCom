@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BigONEExchange
 redirect_from: 
 developerName: BigONE
+builds: 
 features: 
 
 ---

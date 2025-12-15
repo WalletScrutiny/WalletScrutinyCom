@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/walletsafrica
 redirect_from: 
 developerName: Wallets Africa Inc
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://medium.com/@eriumex
 redirect_from: 
 developerName: Devblockex
+builds: 
 features: 
 
 ---

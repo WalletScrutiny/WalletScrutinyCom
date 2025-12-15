@@ -28,6 +28,7 @@ redirect_from:
 - /com.bitcoinexchangehani.buybitcoin/
 - /posts/com.bitcoinexchangehani.buybitcoin/
 developerName: 
+builds: 
 features: 
 
 ---

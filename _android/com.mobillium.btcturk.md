@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btcturk
 redirect_from: 
 developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU
+builds: 
 features: 
 
 ---

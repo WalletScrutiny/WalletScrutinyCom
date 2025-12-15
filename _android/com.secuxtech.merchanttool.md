@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-12-15
+date: 2025-12-15
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: SecuX
+builds: 
 features: 
 
 ---

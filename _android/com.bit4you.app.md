@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/bit4you.io
 redirect_from: 
 developerName: bit4you SA
+builds: 
 features: 
 
 ---

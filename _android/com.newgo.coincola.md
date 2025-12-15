@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.newgo.coincola/
 developerName: CoinCola Limited
+builds: 
 features: 
 
 ---

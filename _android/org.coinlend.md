@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/channel/UCRxJGad2QnPFKnGuS8plqxg
 redirect_from: 
 developerName: Coinlend GmbH
+builds: 
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-11-24
 version: 5.7.6
 stars: 4.6
 ratings: 97568
-reviews: 483
+reviews: 486
 website: http://indodax.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: indodax
 social: 
 redirect_from: 
 developerName: Indodax
+builds: 
 features: 
 
 ---

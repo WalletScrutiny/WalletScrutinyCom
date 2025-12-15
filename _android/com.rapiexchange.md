@@ -8,8 +8,8 @@ users: 10000
 appId: com.rapiexchange
 appCountry: 
 released: 2022-04-19
-updated: 2025-11-19
-version: '3.17'
+updated: 2025-12-12
+version: '3.19'
 stars: 3.6
 ratings: 
 reviews: 3
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Rapixchange
+builds: 
 features: 
 
 ---

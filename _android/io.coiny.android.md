@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/coiny.io
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

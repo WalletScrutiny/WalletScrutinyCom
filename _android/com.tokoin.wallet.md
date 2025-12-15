@@ -29,6 +29,7 @@ social:
 - https://github.com/tokoinofficial
 redirect_from: 
 developerName: Tokoin
+builds: 
 features: 
 
 ---

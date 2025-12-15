@@ -8,8 +8,8 @@ users: 10000
 appId: cz.anycoin.mobile
 appCountry: 
 released: 2022-05-07
-updated: 2025-09-19
-version: 1.31.9
+updated: 2025-12-02
+version: 1.32.19
 stars: 4.5
 ratings: 
 reviews: 1
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/anycoinCZ
 redirect_from: 
 developerName: MP Developers s.r.o.
+builds: 
 features: 
 
 ---

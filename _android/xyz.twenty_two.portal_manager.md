@@ -29,6 +29,7 @@ social:
 - https://t.me/TwentyTwoHW
 redirect_from: 
 developerName: Portal Technologies Inc
+builds: 
 features:
 - companion app
 

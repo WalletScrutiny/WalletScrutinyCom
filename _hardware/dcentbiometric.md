@@ -36,6 +36,7 @@ social:
 - https://github.com/DcentWallet
 - https://www.youtube.com/@DCENTWallet
 - https://www.instagram.com/dcent_wallet
+builds: 
 features: 
 
 ---

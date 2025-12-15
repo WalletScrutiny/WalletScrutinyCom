@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/BankofHodlers
 redirect_from: 
 developerName: VauldGoogleDeveloper
+builds: 
 features: 
 
 ---

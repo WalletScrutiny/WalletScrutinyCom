@@ -31,6 +31,7 @@ signer:
 twitter: 
 social:
 - https://t.me/PixelWallet
+builds: 
 features: 
 
 ---

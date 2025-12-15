@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exnovin.io
 redirect_from: 
 developerName: EX NOVIN
+builds: 
 features: 
 
 ---

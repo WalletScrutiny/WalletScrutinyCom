@@ -8,8 +8,8 @@ users: 10000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27
-updated: 2025-11-26
-version: 3.0.34
+updated: 2025-12-12
+version: 3.0.39
 stars: 3.1
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/stablex-net
 redirect_from: 
 developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://web.archive.org/web/20211208164813/https://www.algowave.io/
 redirect_from: 
 developerName: Algowave LTD
+builds: 
 features: 
 
 ---

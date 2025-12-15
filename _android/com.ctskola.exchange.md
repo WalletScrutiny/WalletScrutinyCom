@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/ctskola
 redirect_from: 
 developerName: CTSKOLA
+builds: 
 features: 
 
 ---

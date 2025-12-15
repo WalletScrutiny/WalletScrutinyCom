@@ -33,6 +33,7 @@ social:
 - https://t.me/global8vchat
 redirect_from: 
 developerName: 8v.com
+builds: 
 features: 
 
 ---

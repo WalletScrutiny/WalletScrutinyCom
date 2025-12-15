@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/IHCoinGlobal
 redirect_from: 
 developerName: IHBIT
+builds: 
 features: 
 
 ---

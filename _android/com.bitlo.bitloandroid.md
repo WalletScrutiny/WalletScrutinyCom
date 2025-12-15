@@ -12,7 +12,7 @@ updated: 2025-11-24
 version: 2.1.44
 stars: 4.1
 ratings: 
-reviews: 2559
+reviews: 2562
 website: https://www.bitlo.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/bitlo/
 redirect_from: 
 developerName: Bitlo Teknoloji A.Ş.
+builds: 
 features: 
 
 ---

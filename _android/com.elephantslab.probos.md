@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/proboswallet
 redirect_from: 
 developerName: ElephantsLab, LLC
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/iforexcrypto
 redirect_from: 
 developerName: Formula Investments House LTD
+builds: 
 features: 
 
 ---

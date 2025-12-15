@@ -33,6 +33,7 @@ social:
 - https://discord.com/invite/y3qt7zRnk9
 redirect_from: 
 developerName: Web3 Innovations
+builds: 
 features: 
 
 ---

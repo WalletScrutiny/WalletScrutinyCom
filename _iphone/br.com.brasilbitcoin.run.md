@@ -11,7 +11,7 @@ released: 2020-07-27
 updated: 2025-11-17
 version: 3.11.00
 stars: 4.5
-reviews: 2270
+reviews: 2273
 website: 
 repository: 
 issue: 

@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.qcan.mobile.bitcoin.wallet/
 developerName: Qcan.com
+builds: 
 features: 
 
 ---

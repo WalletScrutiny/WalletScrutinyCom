@@ -8,8 +8,8 @@ users: 1000000
 appId: com.bitpanda.bitpanda
 appCountry: 
 released: 2018-11-07
-updated: 2025-11-19
-version: 3.13.0
+updated: 2025-12-10
+version: 3.14.1
 stars: 3.5
 ratings: 
 reviews: 17
@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/bitpanda_global
 redirect_from: 
 developerName: Bitpanda GmbH
+builds: 
 features: 
 
 ---

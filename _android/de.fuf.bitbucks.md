@@ -30,6 +30,7 @@ redirect_from:
 - /de.fuf.bitbucks/
 - /posts/de.fuf.bitbucks/
 developerName: FUF // Frank und Freunde
+builds: 
 features: 
 
 ---

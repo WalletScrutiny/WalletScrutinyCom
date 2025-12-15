@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/thetapwallet
 redirect_from: 
 developerName: HUMBL, Inc.
+builds: 
 features: 
 
 ---

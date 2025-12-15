@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/@tando_me
 redirect_from: 
 developerName: Tando.me
+builds: 
 features: 
 
 ---

@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/zb_exchange
 redirect_from: 
 developerName: ZB GLOBAL COMPANY
+builds: 
 features: 
 
 ---

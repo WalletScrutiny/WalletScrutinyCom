@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/secuxtech
 redirect_from: 
 developerName: SecuX
+builds: 
 features: 
 
 ---

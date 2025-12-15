@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitexen
 redirect_from: 
 developerName: Bitexen Teknoloji A.Ş.
+builds: 
 features: 
 
 ---

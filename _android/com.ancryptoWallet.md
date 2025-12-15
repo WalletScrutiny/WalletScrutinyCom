@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/@ancryptowallet
 redirect_from: 
 developerName: AWT Ltd
+builds: 
 features: 
 
 ---

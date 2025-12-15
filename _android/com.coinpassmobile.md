@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/coinpass
 redirect_from: 
 developerName: Oanda Coinpass Limited
+builds: 
 features: 
 
 ---

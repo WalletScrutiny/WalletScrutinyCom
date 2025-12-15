@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bmkoin
 redirect_from: 
 developerName: Bmkoin Digital Technology LLP
+builds: 
 features: 
 
 ---

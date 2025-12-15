@@ -8,8 +8,8 @@ users: 500000
 appId: de.bisonapp
 appCountry: 
 released: 
-updated: 2025-11-25
-version: 4.24.0
+updated: 2025-12-05
+version: 4.25.0
 stars: 4.6
 ratings: 
 reviews: 2
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bisonapp
 redirect_from: 
 developerName: Boerse Stuttgart Digital Broker GmbH
+builds: 
 features: 
 
 ---

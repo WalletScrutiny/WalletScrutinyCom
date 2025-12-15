@@ -25,6 +25,7 @@ social:
 - https://bitcointalk.org/index.php?topic=5050988
 - https://www.reddit.com/r/PirateCash
 - https://t.me/PirateCash_ENG
+builds: 
 features: 
 
 ---

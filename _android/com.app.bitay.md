@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitayturkiye
 redirect_from: 
 developerName: Bitay Technology
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://t.me/fxoro_official
 redirect_from: 
 developerName: MCA Intelifunds LTD
+builds: 
 features: 
 
 ---

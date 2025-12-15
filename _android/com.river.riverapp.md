@@ -8,11 +8,11 @@ users: 50000
 appId: com.river.riverapp
 appCountry: 
 released: 2023-10-20
-updated: 2025-11-21
-version: 5.14.2
+updated: 2025-12-10
+version: 5.51.1
 stars: 4.7
 ratings: 
-reviews: 269
+reviews: 270
 website: https://river.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/riverfinancial
 redirect_from: 
 developerName: River Financial
+builds: 
 features: 
 
 ---

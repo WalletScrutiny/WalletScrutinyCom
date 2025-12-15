@@ -9,10 +9,10 @@ appId: com.mercuryo.app
 appCountry: 
 released: 2019-09-03
 updated: 2025-11-11
-version: 2.9.1
-stars: 4.2
+version: 2.10.1
+stars: 4.1
 ratings: 2732
-reviews: 118
+reviews: 120
 website: https://mercuryo.io
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.mercuryo.app/
 developerName: Mercuryo
+builds: 
 features: 
 
 ---

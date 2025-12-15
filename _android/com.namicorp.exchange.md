@@ -30,6 +30,7 @@ social:
 - https://medium.com/nami-io
 redirect_from: 
 developerName: NAMI EXCHANGE
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx
 - https://t.me/quickxprotocol
+builds: 
 features: 
 
 ---

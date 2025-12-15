@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/poolinwallet
 redirect_from: 
 developerName: Poolin Singapore - Make the Most of Crypto Assets
+builds: 
 features: 
 
 ---

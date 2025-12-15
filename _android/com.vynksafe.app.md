@@ -29,6 +29,7 @@ social:
 - https://t.me/VYNKCHAIN
 redirect_from: 
 developerName: VYNK GROUP AE
+builds: 
 features: 
 
 ---

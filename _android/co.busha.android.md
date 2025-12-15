@@ -12,7 +12,7 @@ updated: 2025-09-17
 version: 8.5.14
 stars: 4.4
 ratings: 3575
-reviews: 213
+reviews: 212
 website: https://busha.co
 repository: 
 issue: 
@@ -30,6 +30,7 @@ redirect_from:
 - /co.busha.android/
 - /posts/co.busha.android/
 developerName: Busha, Inc.
+builds: 
 features: 
 
 ---

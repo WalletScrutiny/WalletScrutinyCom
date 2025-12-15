@@ -33,6 +33,7 @@ social:
 - https://www.linkedin.com/company/bitkey-official
 - https://www.facebook.com/profile.php?id=100088526238789
 - https://www.instagram.com/ownbitkey
+builds: 
 features:
 - multiSignature
 

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/kikitrade
 redirect_from: 
 developerName: Kikitrade Technologies Limited
+builds: 
 features: 
 
 ---

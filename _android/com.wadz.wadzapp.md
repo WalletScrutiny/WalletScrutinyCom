@@ -33,6 +33,7 @@ social:
 - https://wadzpay.medium.com
 redirect_from: 
 developerName: 2020 WadzPay Worldwide Pte Ltd
+builds: 
 features: 
 
 ---

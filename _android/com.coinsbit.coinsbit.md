@@ -28,6 +28,7 @@ social:
 - https://t.me/coinsbit_chat
 redirect_from: 
 developerName: Coinsbit
+builds: 
 features: 
 
 ---

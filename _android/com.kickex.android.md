@@ -30,6 +30,7 @@ social:
 - https://kickecosystem.medium.com
 redirect_from: 
 developerName: LLC KICK ECOSYSTEM GLOBAL
+builds: 
 features: 
 
 ---

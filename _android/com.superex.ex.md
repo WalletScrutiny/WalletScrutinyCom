@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/@superexdex
 redirect_from: 
 developerName: SUPEREX
+builds: 
 features: 
 
 ---

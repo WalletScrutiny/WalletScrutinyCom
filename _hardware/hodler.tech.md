@@ -28,6 +28,7 @@ signer:
 twitter: HODLER_TECH
 social:
 - https://www.facebook.com/hodler.tech
+builds: 
 features: 
 
 ---

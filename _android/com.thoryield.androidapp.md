@@ -30,6 +30,7 @@ social:
 - https://thorswap.medium.com
 redirect_from: 
 developerName: Inflekta
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitbank.inc
 redirect_from: 
 developerName: Bitbank, Inc.
+builds: 
 features: 
 
 ---

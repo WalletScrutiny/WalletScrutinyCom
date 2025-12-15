@@ -8,8 +8,8 @@ users: 5000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2025-11-21
-version: 6.8.9
+updated: 2025-12-11
+version: 6.9.8
 stars: 4.7
 ratings: 27168
 reviews: 118
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: pluang
+builds: 
 features: 
 
 ---

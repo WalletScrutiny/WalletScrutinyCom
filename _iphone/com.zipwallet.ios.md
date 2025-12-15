@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.zipwallet.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-04-01
+date: 2025-12-15
 signer: 
 twitter: 
 social: 

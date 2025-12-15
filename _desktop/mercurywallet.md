@@ -20,6 +20,7 @@ verdict: wip
 date: 2025-10-02
 twitter: mercury_wallet
 social: 
+builds: 
 features: 
 
 ---

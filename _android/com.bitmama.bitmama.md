@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/bitmamaexchange/
 redirect_from: 
 developerName: WIL Platform Grp.
+builds: 
 features: 
 
 ---

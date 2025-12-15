@@ -30,6 +30,7 @@ redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
 developerName: Raias Llc
+builds: 
 features: 
 
 ---

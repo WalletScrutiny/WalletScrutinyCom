@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/shinobiwallet
 redirect_from: 
 developerName: Mirai Finance
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/coinmerce/
 redirect_from: 
 developerName: Coinmerce B.V. - Buy, sell & swap crypto
+builds: 
 features: 
 
 ---

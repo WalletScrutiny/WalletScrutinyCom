@@ -8,8 +8,8 @@ users: 10000
 appId: com.dyorex.dyorex_mobile_app
 appCountry: 
 released: 2022-02-24
-updated: 2025-09-24
-version: 1.8.9
+updated: 2025-12-05
+version: 1.9.2
 stars: 4.9
 ratings: 
 reviews: 
@@ -32,6 +32,7 @@ social:
 - https://t.me/dyorexdestek
 redirect_from: 
 developerName: Dyorex Exchange
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://t.me/savitaglobal
 redirect_from: 
 developerName: Savita Global Trading Ltd
+builds: 
 features: 
 
 ---

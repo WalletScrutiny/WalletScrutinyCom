@@ -8,11 +8,11 @@ users: 100000
 appId: team.noones.mobilemessenger
 appCountry: 
 released: 2023-05-04
-updated: 2025-11-26
-version: 1.22.0
+updated: 2025-12-01
+version: 1.23.5
 stars: 4.3
 ratings: 
-reviews: 131
+reviews: 134
 website: https://noones.com/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/noones.app
 redirect_from: 
 developerName: Eaton Consulting
+builds: 
 features: 
 
 ---

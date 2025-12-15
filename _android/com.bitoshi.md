@@ -10,9 +10,9 @@ appCountry:
 released: 2022-10-13
 updated: 2025-11-21
 version: 1.4.6
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 34
+reviews: 35
 website: https://bitoshi.africa
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/+c4ek89XILkc2OTk8
 redirect_from: 
 developerName: Bitoshi Africa
+builds: 
 features: 
 
 ---

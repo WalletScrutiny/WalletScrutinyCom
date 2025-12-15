@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/BizzCoinOfficial
 redirect_from: 
 developerName: BizzCoin
+builds: 
 features: 
 
 ---

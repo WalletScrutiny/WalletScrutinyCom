@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/munawallet/
 redirect_from: 
 developerName: Quru Lab
+builds: 
 features: 
 
 ---

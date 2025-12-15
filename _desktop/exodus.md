@@ -21,6 +21,7 @@ date: 2025-04-25
 twitter: exodus_io
 social:
 - https://www.facebook.com/exodus.io
+builds: 
 features:
 - ln
 

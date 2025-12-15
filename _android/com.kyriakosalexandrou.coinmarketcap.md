@@ -8,7 +8,7 @@ users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
 appCountry: us
 released: 2015-05-16
-updated: 2025-07-29
+updated: 2025-12-05
 version: 15.18.11
 stars: 3.8
 ratings: 26669
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/myDopamineApp
 redirect_from: 
 developerName: Newtechincubator.com
+builds: 
 features: 
 
 ---

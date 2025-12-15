@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/btc.6x/
 redirect_from: 
 developerName: ZeroCash
+builds: 
 features: 
 
 ---

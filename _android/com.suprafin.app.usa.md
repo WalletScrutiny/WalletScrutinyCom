@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCSZ6hB4d1aBaNswBDH3Bsdg
 redirect_from: 
 developerName: SupraFin LTD
+builds: 
 features: 
 
 ---

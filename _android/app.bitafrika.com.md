@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/bitafrika/
 redirect_from: 
 developerName: BITAFRIKA LTD
+builds: 
 features: 
 
 ---

@@ -10,9 +10,9 @@ appCountry:
 released: 
 updated: 2025-11-25
 version: 8.64.0
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 529
+reviews: 537
 website: https://km.iqoption.com/en
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/c/IQOption
 redirect_from: 
 developerName: IQ Option
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://t.me/CoffeeWallet
 redirect_from: 
 developerName: Coffee  Software
+builds: 
 features: 
 
 ---

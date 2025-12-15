@@ -28,6 +28,7 @@ social:
 - https://t.me/npasglobal
 redirect_from: 
 developerName: NPAS Wallet
+builds: 
 features: 
 
 ---

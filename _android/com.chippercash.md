@@ -9,11 +9,11 @@ users: 5000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2025-11-20
-version: 1.137.0
+updated: 2025-12-11
+version: 1.138.1
 stars: 4.3
 ratings: 59630
-reviews: 3224
+reviews: 3227
 website: https://chippercash.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Chippercashapp
 redirect_from: 
 developerName: Critical Ideas, Inc.
+builds: 
 features: 
 
 ---

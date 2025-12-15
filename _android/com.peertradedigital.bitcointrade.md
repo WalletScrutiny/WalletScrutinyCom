@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitcointradeBR
 redirect_from: 
 developerName: PeerTrade Digital Ltda
+builds: 
 features: 
 
 ---

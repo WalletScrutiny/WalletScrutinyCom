@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: DIGICOINS TECHNOLOGY AND MANAGEMENT LIMITED
+builds: 
 features: 
 
 ---

@@ -34,6 +34,7 @@ redirect_from:
 - /posts/2019/10/schildbach/
 - /posts/de.schildbach.wallet/
 developerName: Bitcoin Wallet developers
+builds: 
 features: 
 
 ---

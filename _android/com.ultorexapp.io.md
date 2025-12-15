@@ -29,6 +29,7 @@ social:
 - https://t.me/UltorexOfficial
 redirect_from: 
 developerName: Ultorex
+builds: 
 features: 
 
 ---

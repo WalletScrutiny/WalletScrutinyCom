@@ -28,6 +28,7 @@ redirect_from:
 - /org.electroncash.wallet/
 - /posts/org.electroncash.wallet/
 developerName: XULU.TECH LLC
+builds: 
 features: 
 
 ---

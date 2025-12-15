@@ -30,6 +30,7 @@ social:
 - https://medium.com/bifrost/how-to-buy-bfc-and-bifi-a21bcb9749a9
 redirect_from: 
 developerName: PiLab Technology
+builds: 
 features: 
 
 ---

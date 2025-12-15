@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Bitbns
 redirect_from: 
 developerName: Bitbns Cryptocurrency Trading Exchange India
+builds: 
 features: 
 
 ---

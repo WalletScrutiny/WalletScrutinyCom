@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/privappnetwork
 redirect_from: 
 developerName: Privapp Network
+builds: 
 features: 
 
 ---

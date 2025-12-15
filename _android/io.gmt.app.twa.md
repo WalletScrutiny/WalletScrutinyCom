@@ -12,7 +12,7 @@ updated: 2025-11-04
 version: '66'
 stars: 4
 ratings: 
-reviews: 1486
+reviews: 1510
 website: https://gomining.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/Gomining_token
 redirect_from: 
 developerName: SIA GoMining Latvia
+builds: 
 features: 
 
 ---

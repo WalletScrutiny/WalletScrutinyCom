@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/cotperexchange
 redirect_from: 
 developerName: Copter S.A
+builds: 
 features: 
 
 ---

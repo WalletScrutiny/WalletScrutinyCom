@@ -29,6 +29,7 @@ social:
 - https://t.me/hexnio
 redirect_from: 
 developerName: NuzlTech Limited
+builds: 
 features: 
 
 ---

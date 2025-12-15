@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/eurocoinpay
 redirect_from: 
 developerName: EurocoinPay
+builds: 
 features: 
 
 ---

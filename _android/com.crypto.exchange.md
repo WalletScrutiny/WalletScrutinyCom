@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/Crypto_com
 redirect_from: 
 developerName: Crypto.com Exchange
+builds: 
 features: 
 
 ---

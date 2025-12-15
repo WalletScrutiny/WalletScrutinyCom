@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bitexofficial
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

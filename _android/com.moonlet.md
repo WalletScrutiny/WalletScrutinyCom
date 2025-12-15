@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.moonlet/
 developerName: Moonlet
+builds: 
 features: 
 
 ---

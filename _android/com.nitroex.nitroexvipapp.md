@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/nitroexchange
 redirect_from: 
 developerName: Nitro Software Technologies LTD
+builds: 
 features: 
 
 ---

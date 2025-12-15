@@ -27,6 +27,7 @@ twitter: SecuXwallet
 social: 
 redirect_from: 
 developerName: SecuX
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://t.me/PositionExchange
 redirect_from: 
 developerName: Position Labs
+builds: 
 features: 
 
 ---

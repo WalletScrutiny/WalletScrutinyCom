@@ -12,7 +12,7 @@ updated: 2025-11-17
 version: 1.37.1
 stars: 4.5
 ratings: 9148
-reviews: 498
+reviews: 497
 website: https://bituro.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/BituroApp
 redirect_from: 
 developerName: Bituro LLC
+builds: 
 features: 
 
 ---

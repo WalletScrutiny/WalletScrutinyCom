@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
 developerName: Currency Exchanger
+builds: 
 features: 
 
 ---

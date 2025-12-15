@@ -31,6 +31,7 @@ signer:
 twitter: FranckMullerBTC
 social:
 - https://www.instagram.com/franckmuller_encrypto/
+builds: 
 features: 
 
 ---

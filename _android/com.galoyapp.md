@@ -11,7 +11,7 @@ appCountry:
 released: 2020-11-24
 updated: 2025-10-29
 version: 2.4.8
-stars: 4.8
+stars: 4.7
 ratings: 
 reviews: 44
 website: https://blink.sv/
@@ -31,6 +31,7 @@ social:
 - https://snort.social/p/community@blink.sv
 redirect_from: 
 developerName: Blink El Salvador S.A. de C.V.
+builds: 
 features:
 - ln
 

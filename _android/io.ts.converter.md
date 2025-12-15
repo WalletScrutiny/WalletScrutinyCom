@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/tapswap/
 redirect_from: 
 developerName: TapSwap
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 10000000
 appId: de.number26.android
 appCountry: 
 released: 2015-01-23
-updated: 2025-11-14
-version: '4.39'
+updated: 2025-12-10
+version: '4.41'
 stars: 3.2
 ratings: 
-reviews: 2161
+reviews: 2162
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/@n26bank
 redirect_from: 
 developerName: N26 AG
+builds: 
 features: 
 
 ---

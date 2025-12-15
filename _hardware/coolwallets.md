@@ -32,6 +32,7 @@ signer:
 twitter: coolwallet
 social:
 - https://www.facebook.com/coolwallet
+builds: 
 features: 
 
 ---

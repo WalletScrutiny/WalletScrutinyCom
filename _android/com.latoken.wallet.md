@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/LiquidAssetToken
 redirect_from: 
 developerName: LATOKEN
+builds: 
 features: 
 
 ---

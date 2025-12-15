@@ -32,6 +32,7 @@ social:
 - https://t.me/metaegg_io
 redirect_from: 
 developerName: Metaegg
+builds: 
 features: 
 
 ---

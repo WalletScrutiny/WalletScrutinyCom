@@ -32,6 +32,7 @@ social:
 - https://www.linkedin.com/in/haladinar-marketplace-999935171/
 redirect_from: 
 developerName: Haladinar
+builds: 
 features: 
 
 ---

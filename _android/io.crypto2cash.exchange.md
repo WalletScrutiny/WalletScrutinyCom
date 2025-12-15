@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/crypto2cash
 redirect_from: 
 developerName: Crypto2Cash
+builds: 
 features: 
 
 ---

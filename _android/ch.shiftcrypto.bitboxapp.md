@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Shiftcrypto
 redirect_from: 
 developerName: BitBox Swiss
+builds: 
 features: 
 
 ---

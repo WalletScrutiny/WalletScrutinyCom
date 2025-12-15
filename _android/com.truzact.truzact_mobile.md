@@ -30,6 +30,7 @@ social:
 - https://t.me/truzact
 redirect_from: 
 developerName: Truzact
+builds: 
 features: 
 
 ---

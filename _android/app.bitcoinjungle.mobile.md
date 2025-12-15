@@ -30,6 +30,7 @@ social:
 - https://github.com/Bitcoin-Jungle
 redirect_from: 
 developerName: Bitcoin Jungle
+builds: 
 features:
 - ln
 

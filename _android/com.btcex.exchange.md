@@ -32,6 +32,7 @@ social:
 - https://medium.com/@BTCEX
 redirect_from: 
 developerName: BTCEX
+builds: 
 features: 
 
 ---

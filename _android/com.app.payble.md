@@ -29,6 +29,7 @@ social:
 - https://mypayble.com
 redirect_from: 
 developerName: Payble
+builds: 
 features: 
 
 ---

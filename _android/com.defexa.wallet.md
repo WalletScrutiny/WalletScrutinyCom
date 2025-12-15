@@ -8,8 +8,8 @@ users: 10000
 appId: com.defexa.wallet
 appCountry: 
 released: 2023-04-28
-updated: 2025-11-25
-version: 2.2.7
+updated: 2025-12-10
+version: 2.3.0
 stars: 4.5
 ratings: 
 reviews: 5
@@ -31,6 +31,7 @@ social:
 - https://www.quora.com/profile/Defexa
 redirect_from: 
 developerName: FPS Global LTD
+builds: 
 features: 
 
 ---

@@ -9,8 +9,8 @@ users: 10000
 appId: com.bitbill.www
 appCountry: 
 released: 2018-03-22
-updated: 2025-10-15
-version: 4.61.2
+updated: 2025-12-12
+version: 4.61.3
 stars: 3.9
 ratings: 79
 reviews: 14
@@ -30,6 +30,7 @@ redirect_from:
 - /com.bitbill.www/
 - /posts/com.bitbill.www/
 developerName: ownbit
+builds: 
 features: 
 
 ---

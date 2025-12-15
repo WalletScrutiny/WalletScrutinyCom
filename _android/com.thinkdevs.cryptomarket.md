@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.thinkdevs.cryptomarket/
 developerName: 
+builds: 
 features: 
 
 ---

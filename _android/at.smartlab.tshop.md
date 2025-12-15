@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TabShop Point of Sale POS
+title: TabShop POS
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: at.smartlab.tshop
 appCountry: 
 released: 2012-12-22
-updated: 2025-11-18
-version: '243'
+updated: 2025-12-13
+version: '245'
 stars: 4
 ratings: 3750
 reviews: 260
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: SmartLab
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/nicehash
 redirect_from: 
 developerName: H-BIT d.o.o.
+builds: 
 features: 
 
 ---

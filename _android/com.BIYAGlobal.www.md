@@ -8,8 +8,8 @@ users: 100000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
-updated: 2025-11-28
-version: 2.9.030
+updated: 2025-12-11
+version: 2.9.040
 stars: 4.1
 ratings: 
 reviews: 16
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Biya Global
+builds: 
 features: 
 
 ---

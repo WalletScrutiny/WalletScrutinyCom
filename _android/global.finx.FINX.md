@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/finxglobal
 redirect_from: 
 developerName: FINX CAPITAL PTE. LTD.
+builds: 
 features: 
 
 ---

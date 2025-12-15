@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/5KGUYEsxBv
 redirect_from: 
 developerName: Structure
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ redirect_from:
 - /payway/
 - /posts/com.paywaywallet/
 developerName: PayWay
+builds: 
 features: 
 
 ---

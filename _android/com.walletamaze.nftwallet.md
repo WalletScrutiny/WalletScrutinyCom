@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/zBMgvBvYUe
 redirect_from: 
 developerName: AmazeWallet
+builds: 
 features: 
 
 ---

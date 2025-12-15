@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: KONA I CO., LTD
+builds: 
 features: 
 
 ---

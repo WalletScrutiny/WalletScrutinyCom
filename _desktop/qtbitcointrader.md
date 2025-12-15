@@ -20,6 +20,7 @@ verdict: nowallet
 date: 2025-04-22
 twitter: QtTrader
 social: 
+builds: 
 features: 
 
 ---

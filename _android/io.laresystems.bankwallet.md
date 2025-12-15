@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Lare Wallet
+builds: 
 features: 
 
 ---

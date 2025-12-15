@@ -28,6 +28,7 @@ social:
 - https://t.me/covestpro
 redirect_from: 
 developerName: COVEST PRO
+builds: 
 features: 
 
 ---

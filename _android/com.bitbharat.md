@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Ursa Major Services Private Limited
+builds: 
 features: 
 
 ---

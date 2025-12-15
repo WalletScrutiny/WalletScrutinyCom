@@ -8,11 +8,11 @@ users: 500000
 appId: com.rainmanagement.rain
 appCountry: bh
 released: 2018-11-02
-updated: 2025-11-17
-version: 3.9.0
+updated: 2025-12-09
+version: 3.9.3
 stars: 4.4
 ratings: 4531
-reviews: 3316
+reviews: 3313
 website: https://rain.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/rainfinancial
 redirect_from: 
 developerName: Rain Trading
+builds: 
 features: 
 
 ---

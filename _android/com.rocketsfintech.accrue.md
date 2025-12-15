@@ -8,11 +8,11 @@ users: 100000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: 2021-10-09
-updated: 2025-11-28
-version: 4.9.7
+updated: 2025-12-05
+version: 4.9.9
 stars: 4.2
 ratings: 
-reviews: 60
+reviews: 61
 website: https://useaccrue.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/useaccrue/
 redirect_from: 
 developerName: Accrue Wealth Inc
+builds: 
 features: 
 
 ---

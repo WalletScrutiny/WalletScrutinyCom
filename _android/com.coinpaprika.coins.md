@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinsOneApp
 redirect_from: 
 developerName: Coinpaprika
+builds: 
 features: 
 
 ---

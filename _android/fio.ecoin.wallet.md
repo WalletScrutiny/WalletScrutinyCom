@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ecoinofficial
 redirect_from: 
 developerName: Ecoin Official
+builds: 
 features: 
 
 ---

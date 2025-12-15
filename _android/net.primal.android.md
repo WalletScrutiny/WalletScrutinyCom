@@ -12,7 +12,7 @@ updated: 2025-10-28
 version: 2.5.22
 stars: 3.9
 ratings: 
-reviews: 22
+reviews: 24
 website: https://www.primal.net
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PRIMAL SYSTEMS INC.
+builds: 
 features:
 - ln
 

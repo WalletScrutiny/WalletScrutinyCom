@@ -8,8 +8,8 @@ users: 100000
 appId: com.exnovin
 appCountry: 
 released: 2018-07-06
-updated: 2025-11-30
-version: 2.6.6
+updated: 2025-12-15
+version: 2.6.9
 stars: 3.9
 ratings: 2380
 reviews: 87
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exnovin.io
 redirect_from: 
 developerName: EX NOVIN
+builds: 
 features: 
 
 ---

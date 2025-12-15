@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/junofinancehq
 redirect_from: 
 developerName: OnJuno Mobile Banking
+builds: 
 features: 
 
 ---

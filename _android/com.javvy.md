@@ -31,6 +31,7 @@ social:
 - https://t.me/javvychat
 redirect_from: 
 developerName: Javvy Technologies Ltd
+builds: 
 features: 
 
 ---

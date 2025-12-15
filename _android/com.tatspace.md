@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/tatspaceapp/
 redirect_from: 
 developerName: Own the Earth LLC
+builds: 
 features: 
 
 ---

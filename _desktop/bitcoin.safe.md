@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2025-02-20
 discontinued: 
-updated: 2025-11-23
-version: 1.6.0
+updated: 2025-12-04
+version: 1.6.1
 binaries: https://github.com/andreasgriffin/bitcoin-safe/releases
 provider: Andreas Griffin
 providerWebsite: 
@@ -22,6 +22,7 @@ twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg
 - https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
+builds: 
 features:
 - Backup & Sync: Label and Coin category synchronization
 - Nostr Chat: to collaborative sign Multisig wallet across different computers, hardware wallets, and secure encrypted communication via Nostr durig the process.

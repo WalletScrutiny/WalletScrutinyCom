@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Bitaroo/
 redirect_from: 
 developerName: Bitaroo
+builds: 
 features: 
 
 ---

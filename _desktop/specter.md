@@ -20,6 +20,7 @@ verdict: sourceavailable
 date: 2024-04-25
 twitter: SpecterWallet
 social: 
+builds: 
 features: 
 
 ---

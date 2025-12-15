@@ -33,6 +33,7 @@ social:
 - https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
 redirect_from: 
 developerName: Michael Wünsch
+builds: 
 features: 
 
 ---

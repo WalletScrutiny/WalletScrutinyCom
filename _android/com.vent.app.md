@@ -12,7 +12,7 @@ updated: 2025-10-25
 version: 1.10.27
 stars: 4.7
 ratings: 
-reviews: 7
+reviews: 8
 website: https://vent.africa
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://t.me/ventafrica
 redirect_from: 
 developerName: Vent Comm & Tech LTD
+builds: 
 features: 
 
 ---

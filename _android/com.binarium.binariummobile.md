@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/binariumcom
 redirect_from: 
 developerName: Binarium LTD
+builds: 
 features: 
 
 ---

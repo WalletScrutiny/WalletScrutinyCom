@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.coinpay/
 developerName: Coinpay LLC
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/FunctionX.io
 redirect_from: 
 developerName: Pundi X Labs
+builds: 
 features: 
 
 ---

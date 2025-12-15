@@ -27,6 +27,7 @@ social:
 redirect_from:
 - /com.andreys.blockchainwallet/
 developerName: 
+builds: 
 features: 
 
 ---

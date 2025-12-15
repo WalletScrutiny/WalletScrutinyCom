@@ -28,6 +28,7 @@ signer:
 twitter: bitcoin_ring
 social:
 - https://www.youtube.com/@BitcoinRing
+builds: 
 features: 
 
 ---

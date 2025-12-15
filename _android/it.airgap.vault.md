@@ -33,6 +33,7 @@ redirect_from:
 - /it.airgap.vault/
 - /posts/it.airgap.vault/
 developerName: Papers AG
+builds: 
 features: 
 
 ---

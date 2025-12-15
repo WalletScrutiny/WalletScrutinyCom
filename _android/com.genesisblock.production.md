@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/genesisblockhq
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

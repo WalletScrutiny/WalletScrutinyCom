@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coindirectcom
 redirect_from: 
 developerName: Coin  Limited
+builds: 
 features: 
 
 ---

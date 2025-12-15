@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/nyecoin
 redirect_from: 
 developerName: New York Exchange Coin
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/CoinFalcon
 redirect_from: 
 developerName: CoinFalcon
+builds: 
 features: 
 
 ---

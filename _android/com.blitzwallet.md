@@ -28,6 +28,7 @@ social:
 - https://www.youtube.com/@BlitzWalletApp
 redirect_from: 
 developerName: Blitz Wallet
+builds: 
 features: 
 
 ---

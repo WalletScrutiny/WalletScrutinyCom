@@ -8,11 +8,11 @@ users: 10000000
 appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
-updated: 2025-11-29
-version: 6.34.0
-stars: 4.6
+updated: 2025-12-12
+version: 6.36.1
+stars: 4.5
 ratings: 12371
-reviews: 2146
+reviews: 2162
 website: https://www.mexc.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
 developerName: MEXC Ltd
+builds: 
 features: 
 
 ---

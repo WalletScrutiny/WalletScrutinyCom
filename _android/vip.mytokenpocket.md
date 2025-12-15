@@ -13,7 +13,7 @@ updated: 2025-11-18
 version: 2.12.1
 stars: 4.5
 ratings: 16862
-reviews: 624
+reviews: 625
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android
 issue: https://github.com/TP-Lab/tp-android/issues/15
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/TokenPocket
 redirect_from: 
 developerName: TP Global Ltd
+builds: 
 features: 
 
 ---

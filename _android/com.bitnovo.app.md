@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.bitnovo.app/
 developerName: 
+builds: 
 features: 
 
 ---

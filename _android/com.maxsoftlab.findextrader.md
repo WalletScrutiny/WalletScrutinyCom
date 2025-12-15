@@ -28,6 +28,7 @@ social:
 - https://findex-fx.com
 redirect_from: 
 developerName: MAXSOFTLAB
+builds: 
 features: 
 
 ---

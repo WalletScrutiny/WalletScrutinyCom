@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coindaebak
 redirect_from: 
 developerName: 코박
+builds: 
 features: 
 
 ---

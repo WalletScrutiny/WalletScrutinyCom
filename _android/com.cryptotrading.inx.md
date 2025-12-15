@@ -33,6 +33,7 @@ social:
 - https://discord.com/invite/A5KkK4EAV7
 redirect_from: 
 developerName: The INX Digital Company
+builds: 
 features: 
 
 ---

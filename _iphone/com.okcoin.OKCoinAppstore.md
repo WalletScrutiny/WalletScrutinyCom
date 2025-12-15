@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.okcoin.OKCoinAppstore.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-06-18
+date: 2025-12-15
 signer: 
 twitter: OKcoin
 social:

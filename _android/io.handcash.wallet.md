@@ -28,6 +28,7 @@ redirect_from:
 - /io.handcash.wallet/
 - /posts/io.handcash.wallet/
 developerName: Handcash Tech
+builds: 
 features: 
 
 ---

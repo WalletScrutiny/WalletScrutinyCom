@@ -31,6 +31,7 @@ signer:
 twitter: KeyPalWallet
 social:
 - https://medium.com/@Keypal
+builds: 
 features: 
 
 ---

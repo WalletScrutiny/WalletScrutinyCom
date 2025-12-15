@@ -32,6 +32,7 @@ social:
 - https://t.me/LynKeychat
 redirect_from: 
 developerName: Lynkey International
+builds: 
 features: 
 
 ---

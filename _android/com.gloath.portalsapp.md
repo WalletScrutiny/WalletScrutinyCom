@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.gloath.portalsapp/
 developerName: Gloath
+builds: 
 features: 
 
 ---

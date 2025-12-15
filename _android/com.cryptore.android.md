@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/coinlordtradee
 redirect_from: 
 developerName: Sanatan Technologies
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
-updated: 2025-10-15
-version: 3.9.2
+updated: 2025-12-08
+version: '4.0'
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ social:
 - https://t.me/Bitcoin_Black_Card
 redirect_from: 
 developerName: North York LTD
+builds: 
 features: 
 
 ---

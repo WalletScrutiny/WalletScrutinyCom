@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/coincorner-ltd/
 - https://www.youtube.com/channel/UC_Jkoc7F2bmrZJu6akhJPkw
 - https://blog.coincorner.com/
+builds: 
 features:
 - ln
 

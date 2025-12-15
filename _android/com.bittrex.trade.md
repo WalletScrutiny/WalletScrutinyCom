@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/BittrexGlobal
 redirect_from: 
 developerName: Bittrex, Inc.
+builds: 
 features: 
 
 ---

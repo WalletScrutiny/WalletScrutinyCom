@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/trycoinplug
 redirect_from: 
 developerName: CoinPlug Digitals LTD
+builds: 
 features: 
 
 ---

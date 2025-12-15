@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/digiexchangenews
 redirect_from: 
 developerName: digiexchange
+builds: 
 features: 
 
 ---

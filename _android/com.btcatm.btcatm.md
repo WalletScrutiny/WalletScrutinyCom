@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitcoin Secure Atm
+builds: 
 features: 
 
 ---

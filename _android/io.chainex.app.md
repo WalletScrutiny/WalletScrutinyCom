@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ChainEXIO
 redirect_from: 
 developerName: Lunatech (Pty) Ltd
+builds: 
 features: 
 
 ---

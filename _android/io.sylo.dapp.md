@@ -32,6 +32,7 @@ redirect_from:
 - /io.sylo.dapp/
 - /posts/io.sylo.dapp/
 developerName: Sylo Licensing Limited
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2025-11-10
-version: 2.4.0
+updated: 2025-12-03
+version: 2.6.0
 stars: 3.9
 ratings: 
 reviews: 7
@@ -27,6 +27,7 @@ twitter: lava_xyz
 social: 
 redirect_from: 
 developerName: Lava Global Inc.
+builds: 
 features: 
 
 ---

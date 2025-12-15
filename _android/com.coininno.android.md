@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/coininno
 redirect_from: 
 developerName: Coininno
+builds: 
 features: 
 
 ---

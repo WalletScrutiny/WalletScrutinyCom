@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CTradeProOfficial
 redirect_from: 
 developerName: C-Trade Global Limited
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/fxtrendo
 redirect_from: 
 developerName: Trendo Forex
+builds: 
 features: 
 
 ---

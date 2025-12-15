@@ -12,7 +12,7 @@ updated: 2025-11-20
 version: 29.10.1
 stars: 3.5
 ratings: 
-reviews: 220
+reviews: 221
 website: http://www.bunq.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/bunq
 redirect_from: 
 developerName: bunq
+builds: 
 features: 
 
 ---

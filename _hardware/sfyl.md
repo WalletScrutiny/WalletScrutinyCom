@@ -28,6 +28,7 @@ signer:
 twitter: tulipan81
 social:
 - https://t.me/sfylwallet
+builds: 
 features: 
 
 ---

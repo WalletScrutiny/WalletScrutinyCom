@@ -12,7 +12,7 @@ updated: 2025-11-20
 version: 8.4.0
 stars: 3.1
 ratings: 5083
-reviews: 112
+reviews: 113
 website: https://youhodler.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ redirect_from:
 - /com.youhodler.youhodler/
 - /posts/com.youhodler.youhodler/
 developerName: YouHodler
+builds: 
 features: 
 
 ---

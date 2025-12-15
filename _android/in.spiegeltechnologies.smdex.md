@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/SMDEX-Exchange-110161808203222
 redirect_from: 
 developerName: Devsmdex
+builds: 
 features: 
 
 ---

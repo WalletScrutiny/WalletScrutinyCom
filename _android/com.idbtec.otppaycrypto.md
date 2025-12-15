@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/watch?v=otjCnt4qN1E
 redirect_from: 
 developerName: Otppay OU
+builds: 
 features: 
 
 ---

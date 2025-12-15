@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/coingrig/
 redirect_from: 
 developerName: Qubevo
+builds: 
 features: 
 
 ---

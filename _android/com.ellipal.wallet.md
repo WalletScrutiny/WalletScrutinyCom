@@ -11,9 +11,9 @@ appCountry: us
 released: 2018-07-02
 updated: 2025-10-27
 version: 4.9.9
-stars: 3.6
+stars: 3.5
 ratings: 933
-reviews: 540
+reviews: 544
 website: http://www.ellipal.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/ELLIPAL_Official
 redirect_from: 
 developerName: ellipal
+builds: 
 features: 
 
 ---

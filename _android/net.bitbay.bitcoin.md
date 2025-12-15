@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/BitBayExchange
 redirect_from: 
 developerName: BB Trade Estonia
+builds: 
 features: 
 
 ---

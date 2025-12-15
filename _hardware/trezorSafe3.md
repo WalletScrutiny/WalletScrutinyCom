@@ -37,6 +37,7 @@ twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
+builds: 
 features: 
 
 ---

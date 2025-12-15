@@ -21,10 +21,15 @@ date: 2025-08-24
 twitter: ElectrumWallet
 social: 
 builds:
-  - arch: x86_64-linux-gnu
-    types: [appimage, tarball]
-  - arch: win64
-    types: [setup, portable, standalone]
+- arch: x86_64-linux-gnu
+  types:
+  - appimage
+  - tarball
+- arch: win64
+  types:
+  - setup
+  - portable
+  - standalone
 features:
 - 2fa
 - multisig

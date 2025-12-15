@@ -33,6 +33,7 @@ social:
 - https://www.reddit.com/r/difx_exchange
 redirect_from: 
 developerName: DIFX
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/kunaexchange
 redirect_from: 
 developerName: UAB Kuna Pro
+builds: 
 features: 
 
 ---

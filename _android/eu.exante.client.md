@@ -10,9 +10,9 @@ appCountry: am
 released: 2014-04-25
 updated: 2025-11-28
 version: 4.101.11.0
-stars: 2.3
+stars: 2.4
 ratings: 218
-reviews: 193
+reviews: 195
 website: http://exante.eu
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/exante.global
 redirect_from: 
 developerName: XNT Ltd
+builds: 
 features: 
 
 ---

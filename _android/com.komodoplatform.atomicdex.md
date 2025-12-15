@@ -32,6 +32,7 @@ social:
 - https://t.me/KomodoPlatform_Official
 redirect_from: 
 developerName: Komodo Platform
+builds: 
 features: 
 
 ---

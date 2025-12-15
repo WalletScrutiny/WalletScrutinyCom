@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/Delta_Exchange
 redirect_from: 
 developerName: Delta Exchange
+builds: 
 features: 
 
 ---

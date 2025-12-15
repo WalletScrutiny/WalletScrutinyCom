@@ -32,6 +32,7 @@ social:
 - https://www.reddit.com/r/WeAreSaitama
 redirect_from: 
 developerName: Saitama Technology LLC
+builds: 
 features: 
 
 ---

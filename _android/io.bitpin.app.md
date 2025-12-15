@@ -12,7 +12,7 @@ updated: 2025-06-09
 version: 1.3.0
 stars: 4
 ratings: 
-reviews: 124
+reviews: 125
 website: https://bitpin.ir
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/bitpinmarket
 redirect_from: 
 developerName: Bitpin App Developer
+builds: 
 features: 
 
 ---

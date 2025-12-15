@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitcoinira
 appCountry: us
 released: 2021-06-15
-updated: 2025-11-21
+updated: 2025-12-08
 version: 1.6.03
-stars: 4.3
+stars: 4.4
 ratings: 508
-reviews: 530
+reviews: 532
 website: https://bitcoinira.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitcoinIRA
 redirect_from: 
 developerName: Bitcoin IRA
+builds: 
 features: 
 
 ---

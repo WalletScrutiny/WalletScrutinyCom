@@ -27,6 +27,7 @@ twitter: AltCoinTraderSA
 social: 
 redirect_from: 
 developerName: AltCoinTrader
+builds: 
 features: 
 
 ---

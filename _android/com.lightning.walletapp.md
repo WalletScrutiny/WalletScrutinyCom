@@ -31,6 +31,7 @@ redirect_from:
 - /posts/2019/11/bictcoinlightningwallet/
 - /posts/com.lightning.walletapp/
 developerName: anton kumaigorodski
+builds: 
 features:
 - ln
 

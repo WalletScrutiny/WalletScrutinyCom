@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2025-11-25
-version: 21.1.2
+updated: 2025-12-01
+version: 21.1.3
 stars: 2.3
 ratings: 
 reviews: 14
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
 redirect_from: 
 developerName: SAFEBİT KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
+builds: 
 features: 
 
 ---

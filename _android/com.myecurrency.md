@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/myecurrency01
 redirect_from: 
 developerName: MyEcurrency Nigeria Limited
+builds: 
 features: 
 
 ---

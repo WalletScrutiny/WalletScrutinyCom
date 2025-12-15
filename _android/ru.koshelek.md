@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/koshelekru
 redirect_from: 
 developerName: Кошелёк.ру
+builds: 
 features: 
 
 ---

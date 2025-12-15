@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA
 redirect_from: 
 developerName: Coinext Serviços Digitais Ltda.
+builds: 
 features: 
 
 ---
