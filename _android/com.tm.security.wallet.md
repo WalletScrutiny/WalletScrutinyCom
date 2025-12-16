@@ -37,6 +37,6 @@ DeBox claims to be a Web3 messaging application with an integrated crypto wallet
 
 ## Analysis
 
-We tested this app on a phone and on BlueStacks, both instances failed during startup, showing [only this screen on BlueStacks.](https://x.com/BitcoinWalletz/status/2000827439984062635). Meanwhile, on the phone it just automatically closes. 
+We tested this app on a phone and on BlueStacks, both instances failed during startup, showing [only this screen on BlueStacks](https://x.com/BitcoinWalletz/status/2000827439984062635). Meanwhile, on the phone it just automatically closes. 
 
-We [messaged](https://x.com/BitcoinWalletz/status/2000828980199584134) their twitter account. For the meanwhile, the status is maintained as a **work-in-progress**
+We [messaged](https://x.com/BitcoinWalletz/status/2000828980199584134) their twitter account. For the meanwhile, the status is maintained as a **work-in-progress**.
