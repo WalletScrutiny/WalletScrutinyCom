@@ -53,4 +53,4 @@ As announced [today](https://x.com/MetaMask/status/2000614577575428200), MetaMas
 
 Testing confirms the wallet is self-custodial and [supports Bitcoin](https://x.com/BitcoinWalletz/status/2000748931660329160).  
 
-This build remains in verification status.
+This app is **now ready for verification**.
