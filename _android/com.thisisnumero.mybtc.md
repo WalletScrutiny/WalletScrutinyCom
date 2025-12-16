@@ -44,4 +44,4 @@ features:
 
 ## Analysis
 
-This is **not a Bitcoin wallet** at all. BTC in this app means "Bahamas Telecommunications Company"
+This is **not a Bitcoin wallet** at all. BTC in this app means "Bahamas Telecommunications Company".
