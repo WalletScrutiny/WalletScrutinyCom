@@ -40,4 +40,4 @@ It describes its functions as supporting the storing, sending, receiving, swappi
 
 ## Analysis
 
-Despite its claims, our [tests](https://x.com/BitcoinWalletz/status/1999817551191404982) reveal that it **does not actually support Bitcoin**. We searched both 'By coin` and 'By network'. 
+Despite its claims, our [tests](https://x.com/BitcoinWalletz/status/1999817551191404982) reveal that it **does not actually support Bitcoin**. We searched both 'By coin` and 'By network' and was not able to find evidence to support their claim. 
