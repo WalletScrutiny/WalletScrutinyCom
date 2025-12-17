@@ -625,6 +625,45 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
   return attachments;
 }
 
+/**
+ * Fetches events with pagination support for multiple filters
+ * @param {Object} ndkInstance - NDK instance to use for fetching events
+ * @param {Array<Object>} filters - Array of filter objects to fetch events for
+ * @returns {Promise<Set>} - Set of events
+ */
+const fetchEventsWithPagination = async function(ndkInstance, filter) {
+  const allEvents = new Set();
+  let hasMoreEvents = true;
+  let pageCount = 0;
+
+  while (hasMoreEvents) {
+    const pageEvents = await ndkInstance.fetchEvents(filter);
+    
+    if (pageEvents.size === 0) {
+      hasMoreEvents = false;
+      console.debug('No more events found.');
+      break;
+    }
+
+    // Add events to the set and find the oldest created_at in the same loop
+    let oldestCreatedAt = Infinity;
+    pageEvents.forEach(event => {
+      allEvents.add(event);
+      if (event.created_at < oldestCreatedAt) {
+        oldestCreatedAt = event.created_at;
+      }
+    });
+    
+    filter.until = oldestCreatedAt - 1;
+    
+    pageCount++;
+    console.debug(`Fetched page ${pageCount}: ${pageEvents.size} events, oldest created_at: ${oldestCreatedAt}`);
+  }
+
+  console.debug(`Total pages fetched: ${pageCount}`);
+  return allEvents;
+};
+
 const getAllAssetInformation = async function({
                                                 months,
                                                 pubkey,
@@ -634,46 +673,30 @@ const getAllAssetInformation = async function({
   await ensureNdkConnected();
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
-  const filter_assets = {
-    kinds: [assetRegistrationKind],
+
+  const filter = {
+    kinds: [assetRegistrationKind, verificationKind, verificationDraftKind],
   };
   if (months) {
     console.debug(`Getting events from last ${months} months`);
-    filter_assets.since = getTimestampMonthsAgo(months);
+    filter.since = getTimestampMonthsAgo(months);
   } else {
     console.debug(`Getting events from ${verificationEventsSinceTS} onwards`);
-    filter_assets.since = verificationEventsSinceTS;
+    filter.since = verificationEventsSinceTS;
   }
   if (pubkey) {
-    filter_assets.authors = [pubkey];
+    filter.authors = [pubkey];
   }
   if (appId) {
-    filter_assets["#i"] = Array.isArray(appId) ? appId : [appId];
+    filter["#i"] = Array.isArray(appId) ? appId : [appId];
   }
   if (sha256) {
-    filter_assets["#x"] = [sha256];
+    filter["#x"] = [sha256];
   }
 
+  const events = await fetchEventsWithPagination(ndk, filter);
 
-  const filter_verifications = {
-    kinds: [verificationKind, verificationDraftKind],
-  }
-  if (months) {
-    filter_verifications.since = getTimestampMonthsAgo(months);
-  } else {
-    filter_verifications.since = verificationEventsSinceTS;
-  }
-  if (pubkey) {
-    filter_verifications.authors = [pubkey];
-  }
-  if (appId) {
-    filter_verifications["#i"] = Array.isArray(appId) ? appId : [appId];
-  }
-  if (sha256) {
-    filter_verifications["#x"] = [sha256];
-  }
-
-  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
+  console.debug(`Total unique events fetched: ${events.size}`);
 
   events.forEach(event => {
     eventSanitize(event);
