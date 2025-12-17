@@ -32,6 +32,10 @@ async function updateTableVisibility() {
   const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
 
   rows.forEach(row => {
+    row.style.setProperty('display', 'table-row');
+  });
+
+  rows.forEach(row => {
     const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
     // Get the full SHA256 hash from the button's onclick attribute
     const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
