@@ -135,7 +135,7 @@ Comments added by users to verifications or verification drafts.
 ```json
 {
   "id":      "<file-attachment-event-id>",
-  "kind":    1063,
+  "kind":    1337,
   "tags":    [
     ["filename", "<file-name>"],
     ["content-type", "<mime-type>"],
