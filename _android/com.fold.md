@@ -9,10 +9,10 @@ appId: com.fold
 appCountry: us
 released: 2019-11-12
 updated: 2025-12-11
-version: 141.21.0
+version: 141.22.0
 stars: 3.7
 ratings: 987
-reviews: 1105
+reviews: 1104
 website: https://foldapp.com
 repository: 
 issue: 

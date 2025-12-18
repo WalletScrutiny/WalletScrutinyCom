@@ -4,7 +4,7 @@ title: Stablex | Bitcoin & Kripto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27

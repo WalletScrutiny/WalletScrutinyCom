@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.uptrend.ainvesting.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2023-06-07
+date: 2025-12-18
 signer: 
 twitter: 
 social:

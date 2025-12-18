@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-09
 updated: 2025-12-12
 version: 4.4.8
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 178
+reviews: 177
 website: https://www.haha.me
 repository: 
 issue: 

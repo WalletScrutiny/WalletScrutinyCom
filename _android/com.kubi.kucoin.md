@@ -8,7 +8,7 @@ users: 10000000
 appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
-updated: 2025-12-10
+updated: 2025-12-17
 version: 4.6.0
 stars: 4.5
 ratings: 72555

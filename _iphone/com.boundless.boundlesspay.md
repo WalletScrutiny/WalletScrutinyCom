@@ -11,7 +11,7 @@ released: 2021-12-28
 updated: 2025-11-01
 version: 2.3.7
 stars: 4.3
-reviews: 70
+reviews: 71
 website: https://www.boundlesspay.com
 repository: 
 issue: 

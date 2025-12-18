@@ -9,7 +9,7 @@ appId: fior.digital21app
 appCountry: 
 released: 
 updated: 2025-12-04
-version: 2.0.52
+version: 2.0.53
 stars: 4.8
 ratings: 
 reviews: 

@@ -9,7 +9,7 @@ appId: com.bitso.wallet
 appCountry: 
 released: 2018-02-19
 updated: 2025-12-12
-version: 4.5.4
+version: 4.6.0
 stars: 4.7
 ratings: 40512
 reviews: 309

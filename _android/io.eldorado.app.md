@@ -1,6 +1,6 @@
 ---
 wsId: elDoradoWalletExchange
-title: El Dorado P2P
+title: 'El Dorado: P2P y Cuenta Dólar'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: io.eldorado.app
 appCountry: 
 released: 2022-04-19
-updated: 2025-12-01
-version: 1.3.1755
+updated: 2025-12-15
+version: 1.3.1787
 stars: 4.5
 ratings: 
 reviews: 484

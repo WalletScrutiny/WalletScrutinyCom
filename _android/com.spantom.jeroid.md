@@ -12,7 +12,7 @@ updated: 2025-08-15
 version: 2.2.7
 stars: 3.5
 ratings: 248
-reviews: 66
+reviews: 65
 website: https://www.jeroid.co/
 repository: 
 issue: 

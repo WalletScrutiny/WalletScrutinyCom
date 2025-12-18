@@ -7,8 +7,8 @@ users: 1000
 appId: network.bisq.mobile.node
 appCountry: 
 released: 2025-10-05
-updated: 2025-11-25
-version: 0.2.5
+updated: 2025-12-16
+version: 0.2.6
 stars: 
 ratings: 
 reviews: 

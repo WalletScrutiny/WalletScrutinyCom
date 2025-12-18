@@ -11,7 +11,7 @@ released: 2020-05-29
 updated: 2025-10-08
 version: 1.186.7
 stars: 3.9
-reviews: 102
+reviews: 103
 website: https://bitnob.com
 repository: 
 issue: 

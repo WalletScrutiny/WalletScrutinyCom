@@ -8,8 +8,8 @@ users: 100000
 appId: jp.co.rakuten.wallet.crypto
 appCountry: 
 released: 
-updated: 2025-11-13
-version: 1.6.1
+updated: 2025-12-15
+version: 1.6.2
 stars: 3.5
 ratings: 
 reviews: 

@@ -27,7 +27,7 @@ twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
 redirect_from: 
-developerName: EXMO EXCHANGE LTD
+developerName: Exmo Poland Sp. z o.o.
 builds: 
 features: 
 

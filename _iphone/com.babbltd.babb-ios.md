@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.babbltd.babb-ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-10
+date: 2025-12-18
 signer: 
 twitter: getbabb
 social:

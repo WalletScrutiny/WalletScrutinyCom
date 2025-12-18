@@ -9,8 +9,8 @@ users: 10000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2025-12-09
-version: 29.74.10
+updated: 2025-12-12
+version: 29.75.0
 stars: 4.1
 ratings: 38828
 reviews: 13885

@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/theTAPwallet
 - https://www.linkedin.com/company/thetapwallet
 redirect_from: 
-developerName: HUMBL, Inc.
+developerName: TAP, Inc.
 builds: 
 features: 
 

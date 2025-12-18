@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: 'Unocoin: Bitcoin & 85+ Cryptos'
+title: 'Unocoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.unocoin.unocoinwallet
 appCountry: 
 released: 2016-11-30
-updated: 2025-10-24
-version: 5.3.39
-stars: 3.5
+updated: 2025-12-18
+version: 5.3.40
+stars: 3.6
 ratings: 20365
-reviews: 53
+reviews: 55
 website: https://www.unocoin.com
 repository: 
 issue: 

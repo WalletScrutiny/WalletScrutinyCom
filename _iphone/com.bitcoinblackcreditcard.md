@@ -8,8 +8,8 @@ appId: com.bitcoinblackcreditcard
 appCountry: us
 idd: '1639508257'
 released: 2022-09-15
-updated: 2025-10-15
-version: 3.9.2
+updated: 2025-12-09
+version: '4.0'
 stars: 4.3
 reviews: 6
 website: https://www.bblack.io/

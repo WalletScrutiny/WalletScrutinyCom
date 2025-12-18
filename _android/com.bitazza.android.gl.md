@@ -9,7 +9,7 @@ appId: com.bitazza.android.gl
 appCountry: 
 released: 2022-03-01
 updated: 2025-12-14
-version: 4.7.2
+version: 4.7.3
 stars: 
 ratings: 
 reviews: 

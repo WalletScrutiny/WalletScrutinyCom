@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinomi.wallet
 appCountry: 
 released: 2014-01-31
-updated: 2025-12-07
+updated: 2025-12-17
 version: 1.65.0
 stars: 3.9
 ratings: 39950
-reviews: 2279
+reviews: 2280
 website: https://www.Coinomi.com
 repository: 
 issue: 

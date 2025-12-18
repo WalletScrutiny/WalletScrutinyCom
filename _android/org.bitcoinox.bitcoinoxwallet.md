@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-12-23
+date: 2025-12-18
 signer: 
 twitter: bitcoin_ox
 social:

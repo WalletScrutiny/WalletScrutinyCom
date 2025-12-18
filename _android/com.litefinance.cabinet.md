@@ -11,7 +11,7 @@ updated: 2025-10-28
 version: v2.1.2019-cabinet-release
 stars: 4.4
 ratings: 
-reviews: 78
+reviews: 79
 website: https://www.liteforex.eu
 repository: 
 issue: 

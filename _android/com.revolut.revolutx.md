@@ -8,11 +8,11 @@ users: 100000
 appId: com.revolut.revolutx
 appCountry: 
 released: 
-updated: 2025-12-09
-version: '1.37'
-stars: 
+updated: 2025-12-16
+version: '1.38'
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: https://github.com/orgs/revolut-engineering/repositories
 issue: 

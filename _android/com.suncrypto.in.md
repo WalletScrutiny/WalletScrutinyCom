@@ -11,7 +11,7 @@ updated: 2025-09-17
 version: 5.9.4
 stars: 4.6
 ratings: 10629
-reviews: 285
+reviews: 275
 website: https://suncrypto.in
 repository: 
 issue: 

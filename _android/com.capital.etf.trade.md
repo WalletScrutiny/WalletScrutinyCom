@@ -5,12 +5,12 @@ altTitle:
 authors:
 - danny
 - leo
-users: 1000000
+users: 5000000
 appId: com.capital.etf.trade
 appCountry: 
 released: 
 updated: 2025-12-12
-version: 3.15.0
+version: 3.16.0
 stars: 4.6
 ratings: 
 reviews: 6

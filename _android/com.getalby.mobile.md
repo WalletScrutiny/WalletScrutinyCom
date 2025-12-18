@@ -10,7 +10,7 @@ appCountry:
 released: 2024-09-16
 updated: 2025-11-06
 version: 1.15.1
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 15
 website: https://getalby.com/
