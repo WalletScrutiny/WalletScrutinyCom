@@ -100,6 +100,7 @@ window.renderAssetsTable = async function({
                                             sortByVersion = false,
                                             enableSearch = false,
                                             enableDraftsFilter = false,
+                                            enableAppPageSearch = false,
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
@@ -173,14 +174,14 @@ window.renderAssetsTable = async function({
   const searchContainer = document.createElement('div');
   searchContainer.className = 'assets-search-container';
   searchContainer.style.marginBottom = '20px';
-  searchContainer.style.display = enableSearch || enableDraftsFilter ? 'block' : 'none';
+  searchContainer.style.display = enableSearch || enableDraftsFilter || enableAppPageSearch ? 'block' : 'none';
   searchContainer.innerHTML = `
     <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
       <input 
         type="text" 
         id="assetSearchInput" 
-        placeholder="Search by wallet name or hash..." 
-        style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
+        placeholder="Search by ${enableAppPageSearch ? 'version, description or hash' : 'wallet name or hash'}..." 
+        style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch || enableAppPageSearch ? 'block' : 'none'};"
       >
       <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
         <style>
@@ -216,11 +217,11 @@ window.renderAssetsTable = async function({
     document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
   };
 
-  if (enableSearch) {
+  if (enableSearch || enableAppPageSearch) {
     // Call setupEventListeners after a small delay to ensure DOM is ready
     setTimeout(setupSearchEventListeners, 100);
   }
-  if (enableDraftsFilter) {
+  if (enableDraftsFilter || enableAppPageSearch) {
     document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
   }
 
