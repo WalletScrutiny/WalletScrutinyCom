@@ -11,7 +11,8 @@ const TARGET_VERDICTS = ['nobtc', 'nowallet'];
 const FIELDS_TO_REMOVE = [
     'altTitle', 'issue', 'bugbounty', 'signer', 'twitter', 'social', 'builds', 'stars',
     'ratings', 'reviews', 'icon', 'features', 'redirect_from', 'date', 'appCountry',
-    'repository', 'authors', 'appHashes', 'users', 'updated', 'developerName'
+    'repository', 'authors', 'appHashes', 'users', 'updated', 'developerName', 'released',
+    'version', 'website', 'wsId'
 ];
 
 async function deleteImage(iconPath) {
