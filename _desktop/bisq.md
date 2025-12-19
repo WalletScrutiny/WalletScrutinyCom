@@ -21,7 +21,6 @@ date: 2025-08-25
 twitter: bisq_network
 social: 
 builds:
-builds:
   - arch: x86_64-linux-gnu
     types:
       - deb
