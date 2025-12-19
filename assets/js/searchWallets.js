@@ -294,12 +294,13 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
-          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>`,
+          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>`,
         '</small>',
       '</span>',
       '<span class="stats">',
+        wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '',
         `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
-        verificationHTML,
+        wallet.archived ? '' : verificationHTML,
         wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : '',

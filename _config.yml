@@ -215,6 +215,8 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
+  archived:
+    output: false
 
 # Defaults
 defaults:
