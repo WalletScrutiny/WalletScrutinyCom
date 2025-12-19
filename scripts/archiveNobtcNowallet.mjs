@@ -108,7 +108,7 @@ async function processFile(platform, fileName) {
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     // Delete original file
-//    await fs.unlink(filePath);
+    await fs.unlink(filePath);
 
     return {
       processed: true,
