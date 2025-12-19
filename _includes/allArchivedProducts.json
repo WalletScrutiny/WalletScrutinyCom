@@ -5,11 +5,9 @@
       {% for post in iphone_posts %}
       {% include wallet_score.html verdict = post.verdict platform='iphone' %}
       {
-        "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",      
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -23,7 +21,6 @@
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -37,7 +34,6 @@
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -48,11 +44,9 @@
       {% for post in android_posts %}
       {% include wallet_score.html verdict = post.verdict platform='android' %}
       {
-        "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -66,7 +60,6 @@
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -79,7 +72,6 @@
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
         "verdict": "{{ post.verdict }}",
-        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
