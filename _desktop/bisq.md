@@ -21,7 +21,7 @@ date: 2025-08-25
 twitter: bisq_network
 social: 
 builds:
-  - arch: x86_64-linux
+  - arch: x86_64-linux-gnu
     types:
       - deb
       - rpm
