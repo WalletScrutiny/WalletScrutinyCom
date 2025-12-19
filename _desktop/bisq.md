@@ -20,6 +20,11 @@ verdict: sourceavailable
 date: 2025-08-25
 twitter: bisq_network
 social: 
+builds:
+  - arch: x86_64-linux
+    types:
+      - deb
+      - rpm
 features: 
 
 ---
