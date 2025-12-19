@@ -91,10 +91,11 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.category}</span></span>
+        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>
       </div>
       <div class="wallet-details">
         <div class="stamps">
+          ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
           <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
         ${wallet.meta && wallet.meta !== "ok"
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
