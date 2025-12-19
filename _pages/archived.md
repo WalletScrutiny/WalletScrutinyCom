@@ -32,13 +32,19 @@ window.addEventListener('allWalletsLoaded', () => {
     return;
   }
 
-  const icon = wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg';
-  const iconBig = wallet.icon ? `/images/wIcons/${wallet.folder}/${wallet.icon}` : '/images/noimg.svg';
-  const title = wallet.altTitle || wallet.title;
+  const iconBig = '/images/noimg.svg';
+  const title = wallet.title;
   const verdict = wallet.verdict || 'unknown';
-  const verdictText = window.verdicts && window.verdicts[verdict] ? window.verdicts[verdict].short : verdict;
-  const meta = wallet.meta && wallet.meta !== 'ok' ? wallet.meta : null;
-  const metaText = meta && window.verdicts && window.verdicts[meta] ? window.verdicts[meta].short : meta;
+
+  let reason = '';
+
+  if (verdict === 'nowallet') {
+    reason = "it's not a wallet";
+  } else if (verdict === 'nobtc') {
+    reason = "it doesn't allow the user to use Bitcoin";
+  } else {
+    reason = "of unknown reason";
+  }
 
   const html = `
     <div class="page app-review">
@@ -49,20 +55,11 @@ window.addEventListener('allWalletsLoaded', () => {
             <img src="${iconBig}" class="app_logo_big" alt="Wallet Logo">
             <div class="app-sum-head">
               <h1 class="page__title -va-c" itemprop="headline">${title}</h1>
-              <div class="secondary-text">
-                <span class="stamp stamp-archived">Wallet Archived</span>
-              </div>
             </div>
           </div>
           <div class="wallet-details">
-            <div class="stamps">
-              <span class="stamp stamp-archived">Wallet Archived</span>
-              <span data-text="${verdictText}" class="stamp stamp-${verdict}" alt=""></span>
-              ${meta ? `<span data-text="${metaText}" class="stamp stamp-${meta}" alt=""></span>` : ''}
-            </div>
-            <div class="article-after">
-              <p><strong>Platform:</strong> ${wallet.folder}</p>
-              <p><strong>App ID:</strong> ${wallet.appId}</p>
+            <div>
+              <span style="font-size: 24px;">This product has been archived by the WalletScrutiny team because <b>${reason}</b>.</span>
             </div>
           </div>
         </div>
