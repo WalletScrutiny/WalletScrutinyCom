@@ -20,14 +20,14 @@ website: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wal
 shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 country: CH
 price: 49.99USD
-repository: https://github.com/SafePalWallet/safepal-x1
+repository: https://github.com/SafePalWallet/safepal-s1
 issue: 
 icon: safepals1.png
 bugbounty: 
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-12-08
+date: 2025-12-23
 signer: 
 twitter: iSafePal
 social: 
@@ -35,6 +35,19 @@ builds:
 features: 
 
 ---
+
+**Update 2025-12-23:** At the prodding of a concerned bitcoiner in our discord channel, we decided to take a look at the repository again.
+
+We cloned the repository and had codex analyze it. These are the results:
+
+> The code in this repository undeniably targets the SafePal S1 hardware wallet, but what you have here is primarily the user interface and workflow logic. You can see the onboarding path checking the secure element and warning “The device is broken, please contact the SafePal team for help” while it generates mnemonics, the QR processing routines decode Wallet.BitcoinSignRequest messages, and the MiniGUI app entry boots the wallet UI. The QR binding code fills in device metadata such as product brand, type, name, and secure-element firmware version, and the OTA routine even formats storage with a SafePal-branded FAT label before sharing it over USB. Device-level code performs secp256k1 handshake verification against the secure element, and the secure API modules expose seed state, account IDs, and mnemonic flags—definitive signs this is actual wallet firmware logic rather than a mock-up.
+
+> Despite that, there is absolutely no guidance on how to compile or reproduce the firmware.  README.md contains only the project name, and there are no Makefiles, CMake files, build scripts, CI configs, or dependency documentation anywhere in the tree. Without toolchain instructions, version pinning, or reproducibility artifacts (hash manifests, deterministic build settings, signing procedures), there is no way to build a binary or confirm it matches official releases. Reproducing vendor firmware would require knowing the exact cross-compiler, miniGUI version, protobuf tooling, QR libraries, and secure-element SDK they used—none of which are provided.
+
+> The repository is also incomplete: it depends on headers and libraries that are missing from this tree. Files across the codebase include <bip39.h>, <bip39_english.h>, and crypto/secp256k1.h, but there are no such files anywhere under firmware/, so compilation would fail immediately. Key product configuration macros like DEVICE_PRODUCT_SERIES and DEVICE_PRODUCT_NAME come from a platform.h that is likewise absent. Because the tree lacks the build system, hardware-abstraction layers, crypto libraries, and Secure Element SDK required to produce firmware images, this folder is only a partial snapshot of the SafePal S1 application layer, not a complete firmware repository.
+
+An incomplete repository with some files missing, coupled with the lack of documentation, **does not qualify this hardware device as source-available**.
+
 
 **Update 2024-12-08:** Years later, no change to the source availability was found.
 
