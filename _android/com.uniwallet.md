@@ -42,6 +42,6 @@ Described in Google Play:
 
 ## Analysis
 
-Our [tests](https://x.com/BitcoinWalletz/status/2003711808914489580) show that the app supports Bitcoin. It is self-custodial with the seed phrases exportable to third-party wallet apps such as Electrum. Moreover, the legacy addresses matched. The app does not make any claims regarding source-availability. [Searching for the app ID on Google Play](https://github.com/search?q=%22com.uniwallet%22&type=repositories) did not show any relevant repositories.
+Our [tests](https://x.com/BitcoinWalletz/status/2003711808914489580) show that the app supports Bitcoin. It is self-custodial with the seed phrases exportable to third-party wallet apps such as Electrum. Moreover, the legacy addresses matched. The app does not make any claims regarding source-availability. [Searching for the app ID on Github](https://github.com/search?q=%22com.uniwallet%22&type=repositories) did not show any relevant repositories.
 
 **This app is not source-available**.
