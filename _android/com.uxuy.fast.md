@@ -40,4 +40,4 @@ UXUY is an Android self-custody on-chain trading application that claims users l
 
 ## Analysis
 
-Our [testing](https://x.com/BitcoinWalletz/status/2003735205941780895) reveals that the app **does not have a bitcoin wallet.**
+Our [testing](https://x.com/BitcoinWalletz/status/2003735205941780895) reveals that the app **does not have a bitcoin wallet**.
