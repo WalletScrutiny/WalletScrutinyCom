@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: qrlMobileWallet
 title: QRL Mobile Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.volt.qrlmobile
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: com.volt.qrlmobile.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2025-11-10
+date: 2025-12-24
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,6 @@ features:
 
 ---
 
+## App Description
+
+This app is epecifically for the coin $QRL, and **is not for Bitcoin**.
