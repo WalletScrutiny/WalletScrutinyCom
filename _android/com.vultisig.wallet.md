@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: vultisig
 title: 'Vultisig: Seedless Wallet'
 altTitle: 
 authors:
@@ -23,8 +23,11 @@ verdict: custodial
 appHashes: 
 date: 2025-12-26
 signer: 
-twitter: 
-social: 
+twitter: vultisig
+social:
+- https://discord.com/invite/54wEtGYxuv
+- https://t.me/vultisig
+- https://www.instagram.com/vultisig
 redirect_from: 
 developerName: Vulti Holdings Ltd.
 features: 
