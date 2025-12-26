@@ -1,5 +1,5 @@
 ---
-wsId: walletVerse
+wsId: 
 title: 'Wallet Verse: DeFi, Buy Crypto'
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: com.walletverse.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 appHashes: 
 date: 2025-12-31
 signer: 
