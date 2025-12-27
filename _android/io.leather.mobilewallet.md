@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 website: https://leather.io
-repository: 
+repository: https://github.com/leather-io/mono/
 issue: 
 icon: io.leather.mobilewallet.png
 bugbounty: 
