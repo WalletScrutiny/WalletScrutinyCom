@@ -23,8 +23,11 @@ verdict: custodial
 appHashes: 
 date: 2025-12-27
 signer: 
-twitter: 
-social: 
+twitter: gbtcfinance
+social:
+- https://www.linkedin.com/company/gbtc-finance
+- https://t.me/GBTCFINANCESL
+- https://www.instagram.com/gbtcfinance 
 redirect_from: 
 developerName: GBTC FINANCE
 features: 
