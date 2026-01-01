@@ -44,4 +44,4 @@ We were able to [test](https://x.com/BitcoinWalletz/status/2006556366236954886) 
 
 We did not find any claims regarding source availability, and a search on GitHub for the Google Play app ID [did not yield any relevant results](https://github.com/search?q=com.bity.wallet.production&type=code).
 
-**The app is not source-available.**
+**The app is not source-available**.
