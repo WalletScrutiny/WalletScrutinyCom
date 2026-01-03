@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitonic
 title: 'Bitonic: buy & store bitcoin'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: nl.bitonic.androidApp
 appCountry: 
@@ -17,15 +18,29 @@ issue:
 icon: nl.bitonic.androidApp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2025-11-10
+date: 2026-01-03
 signer: 
-twitter: 
-social: 
+twitter: bitonic
+social:
+- https://www.linkedin.com/company/bitonic-b-v-
+- https://www.instagram.com/bitonic 
 redirect_from: 
 developerName: Bitonic
 features: 
 
 ---
+
+## App Description
+
+Bitonic Wallet is an Android app that allows users to buy, sell, hold, and send Bitcoin (BTC) only, directly integrated with Bitonic’s regulated brokerage service in the Netherlands.
+
+## Analysis
+
+The app does not support altcoins and provides an account-based Bitcoin balance, where users can store BTC within their Bitonic account or send it to an external wallet.
+
+Their reliance on [cold storage](https://bitonic.nl/security) strongly suggests they hold the private keys, making it effectively a **custodial service**.
+
+> We primarily use multi-signature wallets for bitcoin storage in cold storage, meaning bitcoins are kept offline, protected from hacks and online threats.
 
