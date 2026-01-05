@@ -13,11 +13,6 @@ const appleSem = new Semaphore(3);
 class WalletDiscoveryProcessor {
   constructor() {
     this.products = [];
-    this.toAdd = [];
-    this.changes = {
-      added: [],
-      disregarded: []
-    };
     this.allSearchTerms = new Set();
     this.rl = readline.createInterface({
       input: process.stdin,
@@ -35,29 +30,18 @@ class WalletDiscoveryProcessor {
     
     if (Array.isArray(data)) {
       // New flat structure
-      this.products = data.map(app => ({
-        ...app,
-        disregard: app.disregard || false
-      }));
+      this.products = data.map(app => this.prepareProduct(app));
     } else {
       // Old nested structure
       if (data.android) {
         for (const app of data.android) {
-          this.products.push({
-            ...app,
-            platform: 'android',
-            disregard: app.disregard || false
-          });
+          this.products.push(this.prepareProduct(app, 'android'));
         }
       }
       
       if (data.iphone) {
         for (const app of data.iphone) {
-          this.products.push({
-            ...app,
-            platform: 'iphone',
-            disregard: app.disregard || false
-          });
+          this.products.push(this.prepareProduct(app, 'iphone'));
         }
       }
     }
@@ -73,6 +57,24 @@ class WalletDiscoveryProcessor {
     
     console.log(`Loaded ${this.products.length} products`);
     console.log(`Found ${this.allSearchTerms.size} unique search terms`);
+  }
+
+  prepareProduct(app, platformOverride) {
+    const allowedStatuses = new Set(['pending', 'add', 'disregard', 'skipped']);
+    const product = {
+      ...app,
+      platform: platformOverride || app.platform || 'android',
+      disregard: app.disregard || false
+    };
+    product.status = product.status || (product.disregard ? 'disregard' : 'pending');
+    if (!allowedStatuses.has(product.status)) {
+      product.status = 'pending';
+    }
+    if (product.status === 'disregard') {
+      product.disregard = true;
+    }
+    product.lastReviewedAt = product.lastReviewedAt || null;
+    return product;
   }
 
   calculateRelevanceScore(product) {
@@ -236,28 +238,78 @@ class WalletDiscoveryProcessor {
     }
   }
 
-  sortByRelevance() {
-    // Sort by user count (Android) or ratings count (iPhone)
-    // Assume 20 users = 1 rating for comparison
-    this.products.sort((a, b) => {
-      const aScore = a.platform === 'android' 
-        ? (a.userCount || 0) / 20 
-        : (a.ratingsCount || 0);
-      const bScore = b.platform === 'android' 
-        ? (b.userCount || 0) / 20 
-        : (b.ratingsCount || 0);
-      return bScore - aScore;
+  compareByRelevance(a, b) {
+    const aScore = a.platform === 'android' 
+      ? (a.userCount || 0) / 20 
+      : (a.ratingsCount || 0);
+    const bScore = b.platform === 'android' 
+      ? (b.userCount || 0) / 20 
+      : (b.ratingsCount || 0);
+    return bScore - aScore;
+  }
+
+  getStatusPriority(status = 'pending') {
+    const priorities = {
+      pending: 0,
+      skipped: 1,
+      add: 2,
+      disregard: 2
+    };
+    return priorities[status] ?? 0;
+  }
+
+  getReviewQueue() {
+    const reviewable = this.products.filter(
+      product => product.status !== 'add' && product.status !== 'disregard'
+    );
+    return reviewable.sort((a, b) => {
+      const priorityDiff = this.getStatusPriority(a.status) - this.getStatusPriority(b.status);
+      if (priorityDiff !== 0) {
+        return priorityDiff;
+      }
+      return this.compareByRelevance(a, b);
     });
   }
 
-  async saveYaml() {
+  getStatusCounts() {
+    const counts = {
+      addCount: 0,
+      disregardCount: 0,
+      skipCount: 0
+    };
+    this.products.forEach(product => {
+      if (product.status === 'add') {
+        counts.addCount++;
+      } else if (product.status === 'disregard') {
+        counts.disregardCount++;
+      } else if (product.status === 'skipped') {
+        counts.skipCount++;
+      }
+    });
+    return counts;
+  }
+
+  async saveYaml(options = {}) {
+    const { silent = false } = options;
     const yamlContent = yaml.dump(this.products, {
       indent: 2,
       lineWidth: -1,
       noRefs: true
     });
     await fs.writeFile('bitcoin-wallet-discovery.yaml', yamlContent);
-    console.log('\n✓ Saved bitcoin-wallet-discovery.yaml');
+    if (!silent) {
+      console.log('\n✓ Saved bitcoin-wallet-discovery.yaml');
+    }
+  }
+
+  updateProductStatus(product, status) {
+    product.status = status;
+    product.lastReviewedAt = new Date().toISOString();
+    if (status === 'disregard') {
+      product.disregard = true;
+    } else if (product.disregard && status !== 'disregard') {
+      product.disregard = false;
+    }
   }
 
   decodeHtmlEntities(text) {
@@ -383,69 +435,61 @@ class WalletDiscoveryProcessor {
   }
 
   async processProducts() {
-    // Count initial state
-    const initialDisregarded = this.products.filter(p => p.disregard).length;
-    const totalUnclassified = this.products.length - initialDisregarded;
+    const reviewQueue = this.getReviewQueue();
+    const initialDisregarded = this.products.filter(p => p.status === 'disregard').length;
     
     console.log(`
 Starting interactive review...
 
 Commands:
 - (a)dd:       add the product to our catalogue with a verdict wip for
-               detailled review
-- (s)kip:      don't decide right now. The product will re-appear in the next
-               session
+               detailed review
+- (s)kip:      don't decide right now. The product will re-appear later
 - (d)isregard: this product is not suited for our project. It will get marked
                accordingly. To re-visit those, edit
                bitcoin-wallet-discovery.yaml manually
-- (q)uit:      end the current session. Nothing is persisted until you confirm 
-               in the next step to do so
+- (q)uit:      end the current session. Decisions made so far stay saved
 
 Total products: ${this.products.length}
 Already disregarded: ${initialDisregarded}
-Unclassified to review: ${totalUnclassified}
+Pending review in this session: ${reviewQueue.length}
 `);
+    
+    if (reviewQueue.length === 0) {
+      console.log('Nothing left to review.');
+      await this.showSummaryAndConfirm();
+      return;
+    }
     
     let processedCount = 0;
     
-    for (let i = 0; i < this.products.length; i++) {
-      const product = this.products[i];
-      
-      // Skip already disregarded
-      if (product.disregard) {
-        continue;
-      }
-      
+    for (let i = 0; i < reviewQueue.length; i++) {
+      const product = reviewQueue[i];
       this.displayProduct(product);
       
-      // Calculate current session stats (before processing this item)
-      const uncommittedAdd = this.changes.added.length;
-      const uncommittedDisregard = this.changes.disregarded.length;
-      const uncommittedSkip = Math.max(0, processedCount - uncommittedAdd - uncommittedDisregard);
-      const pendingUnclassified = totalUnclassified - processedCount;
-      const pendingDisregard = initialDisregarded;
+      const { addCount, disregardCount, skipCount } = this.getStatusCounts();
+      const pendingUnclassified = reviewQueue.length - processedCount;
       
-      console.log(`Progress: ${processedCount}/${totalUnclassified} unclassified reviewed     Uncommitted: Add: ${uncommittedAdd}, Disregard: ${uncommittedDisregard}, Skip: ${uncommittedSkip}    Pending: Unclassified: ${pendingUnclassified}, Disregard: ${pendingDisregard}`);
+      console.log(`Progress: ${processedCount}/${reviewQueue.length} shown     Decisions so far → Add: ${addCount}, Disregard: ${disregardCount}, Skip: ${skipCount}. Pending this pass: ${pendingUnclassified}`);
       
       processedCount++;
       
       const answer = await this.promptUser('\nAction [(a)dd/(s)kip/(d)isregard/(q)uit]: ');
       
       if (answer === 'a' || answer === 'add') {
-        const identifier = product.platform === 'android' 
-          ? `android/${product.appId}`
-          : `iphone/${product.appId}`;
-        this.toAdd.push(identifier);
-        this.changes.added.push(product);
-        console.log(`✓ Marked for addition: ${identifier}`);
+        this.updateProductStatus(product, 'add');
+        console.log(`✓ Marked for addition: ${product.platform}/${product.appId}`);
+        await this.saveYaml({ silent: true });
         
       } else if (answer === 'd' || answer === 'disregard') {
-        product.disregard = true;
-        this.changes.disregarded.push(product);
-        console.log(`✓ Marked as disregarded`);
+        this.updateProductStatus(product, 'disregard');
+        console.log('✓ Marked as disregarded');
+        await this.saveYaml({ silent: true });
         
       } else if (answer === 's' || answer === 'skip') {
-        console.log(`→ Skipped`);
+        this.updateProductStatus(product, 'skipped');
+        console.log('→ Marked as skipped (will appear after pending items)');
+        await this.saveYaml({ silent: true });
         
       } else if (answer === 'q' || answer === 'quit') {
         console.log('\nQuitting...');
@@ -463,114 +507,116 @@ Unclassified to review: ${totalUnclassified}
     console.log('SUMMARY OF CHANGES');
     console.log('='.repeat(80));
     
-    console.log(`\n✓ Products to add: ${this.changes.added.length}`);
-    if (this.changes.added.length > 0) {
-      this.changes.added.forEach((p, i) => {
-        console.log(`  ${i + 1}. ${p.title} (${p.platform}/${p.appId})`);
-      });
-    }
+    const toAdd = this.products.filter(p => p.status === 'add');
+    const disregarded = this.products.filter(p => p.status === 'disregard');
+    const skipped = this.products.filter(p => p.status === 'skipped');
     
-    console.log(`\n✗ Products disregarded: ${this.changes.disregarded.length}`);
-    if (this.changes.disregarded.length > 0) {
-      this.changes.disregarded.forEach((p, i) => {
-        console.log(`  ${i + 1}. ${p.title} (${p.platform}/${p.appId})`);
-      });
-    }
+    console.log(`\n✓ Products marked for addition: ${toAdd.length}`);
+    toAdd.forEach((p, i) => {
+      console.log(`  ${i + 1}. ${p.title} (${p.platform}/${p.appId})`);
+    });
     
-    if (this.changes.added.length === 0 && this.changes.disregarded.length === 0) {
-      console.log('\nNo changes to apply.');
+    console.log(`\n✗ Products disregarded (persisted immediately): ${disregarded.length}`);
+    
+    console.log(`\n→ Products skipped for later review: ${skipped.length}`);
+    
+    if (toAdd.length === 0) {
+      console.log('\nNo pending additions. Disregarded/Skipped decisions are already saved.');
       this.rl.close();
       return;
     }
     
     console.log('\n' + '='.repeat(80));
-    const confirm = await this.promptUser('\nExecute changes? (y/n): ');
+    const confirm = await this.promptUser('\nRun add scripts for the pending apps? (y/n): ');
     
     if (confirm === 'y' || confirm === 'yes') {
-      await this.executeChanges();
+      await this.executeChanges(toAdd);
     } else {
-      console.log('\nChanges discarded.');
+      console.log('\nAdditions left pending. You can run this script later to process them.');
     }
     
     this.rl.close();
   }
 
-  async executeChanges() {
+  async executeChanges(productsToAdd) {
     console.log('\n\nExecuting changes...\n');
     
-    // Add new apps using the appropriate scripts
-    if (this.toAdd.length > 0) {
-      const { spawn } = await import('child_process');
-      
-      // Separate Android and iPhone apps
-      const androidApps = this.toAdd
-        .filter(id => id.startsWith('android/'))
-        .map(id => id.replace('android/', ''));
-      
-      const iphoneApps = this.toAdd
-        .filter(id => id.startsWith('iphone/'))
-        .map(id => id.replace('iphone/', ''));
-      
-      // Add Android apps
-      if (androidApps.length > 0) {
-        console.log(`\nAdding ${androidApps.length} Android apps...\n`);
-        console.log(`Command: node addNewAndroidApps.mjs ${androidApps.join(' ')}\n`);
-        
-        // Get root directory (two levels up from current script)
-        const __filename = fileURLToPath(import.meta.url);
-        const __dirname = path.dirname(__filename);
-        const rootDir = path.resolve(__dirname, '../../');
-        
-        const androidChild = spawn('node', ['addNewAndroidApps.mjs', ...androidApps], {
-          cwd: rootDir,
-          stdio: 'inherit'
-        });
-        
-        await new Promise((resolve, reject) => {
-          androidChild.on('close', (code) => {
-            if (code === 0) {
-              console.log('\n✓ Android apps added successfully');
-              resolve();
-            } else {
-              console.log(`\n✗ Android script exited with code ${code}`);
-              reject(new Error(`Process exited with code ${code}`));
-            }
-          });
-          androidChild.on('error', reject);
-        });
-      }
-      
-      // Add iPhone apps
-      if (iphoneApps.length > 0) {
-        console.log(`\nAdding ${iphoneApps.length} iPhone apps...\n`);
-        console.log(`Command: node addNewIphoneApps.mjs ${iphoneApps.join(' ')}\n`);
-        
-        const iphoneChild = spawn('node', ['../../addNewIphoneApps.mjs', ...iphoneApps], {
-          stdio: 'inherit'
-        });
-        
-        await new Promise((resolve, reject) => {
-          iphoneChild.on('close', (code) => {
-            if (code === 0) {
-              console.log('\n✓ iPhone apps added successfully');
-              resolve();
-            } else {
-              console.log(`\n✗ iPhone script exited with code ${code}`);
-              reject(new Error(`Process exited with code ${code}`));
-            }
-          });
-          iphoneChild.on('error', reject);
-        });
-      }
-      
-      // Remove successfully added products from the list
-      console.log('\nRemoving added products from discovery list...');
-      const addedAppIds = new Set(this.changes.added.map(p => p.appId));
-      this.products = this.products.filter(p => !addedAppIds.has(p.appId));
-      console.log(`✓ Removed ${this.changes.added.length} products from list`);
+    if (productsToAdd.length === 0) {
+      console.log('No pending additions to execute.');
+      return;
     }
     
-    // Save updated YAML (with disregard flags and removed added products)
+    const { spawn } = await import('child_process');
+    const androidApps = [...new Set(
+      productsToAdd
+        .filter(p => p.platform === 'android')
+        .map(p => p.appId)
+    )];
+    const iphoneApps = [...new Set(
+      productsToAdd
+        .filter(p => p.platform === 'iphone')
+        .map(p => p.appId)
+    )];
+    
+    if (androidApps.length > 0) {
+      console.log(`\nAdding ${androidApps.length} Android apps...\n`);
+      console.log(`Command: node addNewAndroidApps.mjs ${androidApps.join(' ')}\n`);
+      
+      const __filename = fileURLToPath(import.meta.url);
+      const __dirname = path.dirname(__filename);
+      const rootDir = path.resolve(__dirname, '../../');
+      
+      const androidChild = spawn('node', ['addNewAndroidApps.mjs', ...androidApps], {
+        cwd: rootDir,
+        stdio: 'inherit'
+      });
+      
+      await new Promise((resolve, reject) => {
+        androidChild.on('close', (code) => {
+          if (code === 0) {
+            console.log('\n✓ Android apps added successfully');
+            resolve();
+          } else {
+            console.log(`\n✗ Android script exited with code ${code}`);
+            reject(new Error(`Process exited with code ${code}`));
+          }
+        });
+        androidChild.on('error', reject);
+      });
+    }
+    
+    if (iphoneApps.length > 0) {
+      console.log(`\nAdding ${iphoneApps.length} iPhone apps...\n`);
+      console.log(`Command: node addNewIphoneApps.mjs ${iphoneApps.join(' ')}\n`);
+      
+      const iphoneChild = spawn('node', ['../../addNewIphoneApps.mjs', ...iphoneApps], {
+        stdio: 'inherit'
+      });
+      
+      await new Promise((resolve, reject) => {
+        iphoneChild.on('close', (code) => {
+          if (code === 0) {
+            console.log('\n✓ iPhone apps added successfully');
+            resolve();
+          } else {
+            console.log(`\n✗ iPhone script exited with code ${code}`);
+            reject(new Error(`Process exited with code ${code}`));
+          }
+        });
+        iphoneChild.on('error', reject);
+      });
+    }
+    
+    console.log('\nRemoving added products from discovery list...');
+    const addedKeys = new Set(
+      productsToAdd.map(p => `${p.platform}:${p.appId}`)
+    );
+    this.products = this.products.filter(
+      p => !(p.status === 'add' && addedKeys.has(`${p.platform}:${p.appId}`))
+    );
+    
+    console.log(`✓ Removed ${productsToAdd.length} products from list`);
+    
     console.log('\nSaving updated bitcoin-wallet-discovery.yaml...');
     await this.saveYaml();
     
@@ -586,7 +632,6 @@ Unclassified to review: ${totalUnclassified}
       console.log('\nSaving enriched data...');
       await this.saveYaml();
       
-      this.sortByRelevance();
       await this.processProducts();
     } catch (error) {
       console.error('Error:', error);
