@@ -40,7 +40,7 @@ Bitonic Wallet is an Android app that allows users to buy, sell, hold, and send 
 
 The app does not support altcoins and provides an account-based Bitcoin balance, where users can store BTC within their Bitonic account or send it to an external wallet.
 
-Their reliance on [cold storage](https://bitonic.nl/security) strongly suggests they hold the private keys, making it effectively a **custodial service**.
+Their reliance on [cold storage](https://bitonic.nl/security) strongly suggests they hold the private keys, making it effectively a **custodial service**:
 
 > We primarily use multi-signature wallets for bitcoin storage in cold storage, meaning bitcoins are kept offline, protected from hacks and online threats.
 
