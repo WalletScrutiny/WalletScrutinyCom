@@ -43,4 +43,4 @@ From its [Documentation](https://developers.particle.network/social-logins/conne
 >
 > Answer: No, Particle Connect does not natively support Bitcoin wallets.
 
-**There is no Bitcoin support.**
+**There is no Bitcoin support**.

@@ -43,7 +43,7 @@ The app claims to support Bitcoin.
 
 The app is geo-restricted hence we were not able to test it fully. We would have to get information from other sources. 
 
-Some [clues](https://apps.apple.com/mx/app/montebit-rayyo/id6448856707) could be found in the iOS version of its app where version 0.7.23 mentions non-custodial wallet improvements and in 0.7.26 where it stated lightning sending adjustments.
+Some [clues](https://apps.apple.com/mx/app/montebit-rayyo/id6448856707) could be found in the iOS version of its app where version 0.7.23 mentions non-custodial wallet improvements and in 0.7.26 where it stated Lightning sending adjustments.
 
 It is in [Section 4.1 of their Terms](https://rayyo.mx/terminos-y-condiciones) where we see that the provider provides 2 modes: 
 
@@ -61,9 +61,9 @@ Translated using Google Translate:
 >
 > II.- CUSTODED WALLET: In this case, the USER delegates the custody of his key to MONTEBIT, leaving the BITCOIN funds protected in the particular node of MONTEBIT, and the fiduciary money in an account managed by the company “Sistema de Transferencias y Pagos STP, S.A. de C.V. Institución de Fondos de Pagos Electrónico” (www.stp.mx) (STP). The security of funds, attention and technical support will be provided by MONTEBIT.
 
-Assuming that the non-custodial side of the app does provide the private keys to the user, we would have to stop the analysis with the fact that the app is **not source-available.** 
+Assuming that the non-custodial side of the app does provide the private keys to the user, we would have to stop the analysis with the fact that the app is **not source-available**.
 
-This is bolstered by this statement in Section 11.5 of their [Terms](https://rayyo.mx/terminos-y-condiciones)
+This is bolstered by this statement in Section 11.5 of their [Terms](https://rayyo.mx/terminos-y-condiciones):
 
 > 11.5.- RESPETO A LA PROPIEDAD INTELECTUAL.- Todo el contenido de la RAYYO APP, incluyendo, pero no limitado, al diseño de sus pantallas, materiales promocionales, las marcas, nombres comerciales, signos distintivos, textos, gráficos, logos, imágenes, íconos, botones, videos, sonidos, música, bases de datos, código fuente, software y combinaciones de colores (“Contenido”), es de titularidad de MONTEBIT o de sus licenciantes. El Contenido no podrá ser reproducido, modificado, transformado, editado, traducido, cedido, distribuido, representado, comercializado, comunicado públicamente, almacenado, usado para fines distintos de los previstos en estos Términos y Condiciones de Uso, ni ser objeto de obras derivadas, sin autorización previa y por escrito del titular de los derechos.
 
