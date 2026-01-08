@@ -38,4 +38,4 @@ features:
 
 DitoBanx provides a custodial Bitcoin payment application that enables merchants to receive Bitcoin payments via both the Lightning Network and on-chain transactions through an account registered on its platform. Bitcoin acceptance, outgoing on-chain payments, and asset balances are managed within a provider-controlled account system rather than through user-held private keys. The service operates as a regulated cryptocurrency payment processor in El Salvador, with settlement, compliance, and fund conversion handled by DitoBanx’s backend infrastructure.
 
-**This is a custodial platform.**
+**This is a custodial platform**.

@@ -42,7 +42,7 @@ It is a non-custodial mobile web3 trading and portfolio application that lets us
 
 ## Analysis 
 
-We [tested](https://x.com/BitcoinWalletz/status/2004812436025889031) the app, and most of the functionalities are hidden behind a log-in page. Sign up is no longer possible. 
+We [tested](https://x.com/BitcoinWalletz/status/2004812436025889031) the app, and most of the functionalities are hidden behind a login page. Sign up is no longer possible. 
 
 Its [support page](https://support.rally.xyz/en/articles/9376703-receiving-depositing-funds) **does not claim to support Bitcoin deposits**:
 
