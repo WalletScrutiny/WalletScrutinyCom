@@ -8,8 +8,8 @@ users: 100000
 appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
-updated: 2025-12-15
-version: 2.9.4
+updated: 2026-01-06
+version: 2.9.7
 stars: 4.8
 ratings: 
 reviews: 6

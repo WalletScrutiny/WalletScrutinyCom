@@ -25,7 +25,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Trustee Plays LLC
+developerName: Value Sports Network, llc
 builds: 
 features: 
 

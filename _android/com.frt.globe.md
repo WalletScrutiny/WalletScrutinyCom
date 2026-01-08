@@ -3,7 +3,7 @@ wsId:
 title: 'Globe: Crypto Exchange'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.frt.globe
 appCountry: 
 released: 
@@ -18,7 +18,7 @@ issue:
 icon: com.frt.globe.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-09
 signer: 

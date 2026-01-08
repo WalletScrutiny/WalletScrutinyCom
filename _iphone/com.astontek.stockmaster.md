@@ -8,10 +8,10 @@ appId: com.astontek.stockmaster
 appCountry: us
 idd: '591644846'
 released: 2013-03-07
-updated: 2025-12-08
-version: '7.67'
+updated: 2026-01-02
+version: '7.68'
 stars: 4.6
-reviews: 71892
+reviews: 71984
 website: https://finabase.io
 repository: 
 issue: 

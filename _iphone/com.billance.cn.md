@@ -1,6 +1,6 @@
 ---
 wsId: tapbitCrypto
-title: Tapbit
+title: 'Tapbit: 0 Fee Crypto Trading'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.billance.cn
 appCountry: us
 idd: '1610497530'
 released: 2022-03-01
-updated: 2025-12-14
-version: 4.2.1
+updated: 2025-12-27
+version: 4.2.3
 stars: 4.3
 reviews: 50
 website: 

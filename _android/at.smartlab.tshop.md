@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TabShop POS
+title: TabShop - POS Cashier Invoice
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: at.smartlab.tshop
 appCountry: 
 released: 2012-12-22
-updated: 2025-12-13
-version: '245'
+updated: 2025-12-19
+version: '246'
 stars: 4
 ratings: 3750
 reviews: 260

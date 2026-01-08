@@ -8,7 +8,7 @@ users: 1000
 appId: com.minibits_wallet
 appCountry: 
 released: 
-updated: 2025-12-15
+updated: 2025-12-19
 version: VARY
 stars: 
 ratings: 

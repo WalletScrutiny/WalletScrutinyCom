@@ -8,11 +8,11 @@ users: 10000
 appId: com.wundertrading.android
 appCountry: 
 released: 2022-11-20
-updated: 2025-12-17
-version: 1.2.1
-stars: 3.1
+updated: 2025-12-19
+version: 1.2.3
+stars: 4.1
 ratings: 
-reviews: 6
+reviews: 11
 website: https://wundertrading.com/en
 repository: 
 issue: 

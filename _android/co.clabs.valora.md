@@ -27,7 +27,7 @@ twitter: valoraApp
 social:
 - https://www.facebook.com/ValoraApp
 redirect_from: 
-developerName: Valora Inc
+developerName: Valora App
 builds: 
 features: 
 

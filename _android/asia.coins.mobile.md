@@ -8,8 +8,8 @@ users: 10000000
 appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
-updated: 2025-12-10
-version: 7.9.18.0
+updated: 2026-01-06
+version: 7.9.19.1
 stars: 3
 ratings: 109535
 reviews: 549

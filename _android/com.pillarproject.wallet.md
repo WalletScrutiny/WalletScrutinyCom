@@ -9,9 +9,9 @@ appCountry:
 released: 2018-12-13
 updated: 2025-12-08
 version: 4.1.4
-stars: 4
+stars: 3.9
 ratings: 1007
-reviews: 90
+reviews: 89
 website: http://pillar.fi
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

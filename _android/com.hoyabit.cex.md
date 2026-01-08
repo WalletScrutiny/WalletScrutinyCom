@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HOYA BIT加密貨幣交易所 ｜一鍵台幣買賣比特幣
+title: HOYA BIT 加密貨幣交易所 ｜一鍵台幣買賣比特幣
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10
-updated: 2025-12-02
-version: 1.48.1
+updated: 2026-01-08
+version: 1.50.0
 stars: 4.9
 ratings: 
 reviews: 

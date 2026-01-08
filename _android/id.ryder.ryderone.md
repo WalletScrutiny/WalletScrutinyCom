@@ -8,8 +8,8 @@ users: 100
 appId: id.ryder.ryderone
 appCountry: 
 released: 2025-04-02
-updated: 2025-11-14
-version: 1.3.0
+updated: 2026-01-02
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 

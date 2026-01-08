@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Invest & Trade'
+title: 'AvaTrade: Trading & Investing'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2025-12-14
+updated: 2026-01-07
 version: '167'
 stars: 4.3
 ratings: 9327

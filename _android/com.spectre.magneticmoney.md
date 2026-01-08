@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.spectre.magneticmoney.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2025-08-24
+date: 2026-01-08
 signer: 
 twitter: 
 social: 

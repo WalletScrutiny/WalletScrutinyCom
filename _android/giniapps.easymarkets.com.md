@@ -8,8 +8,8 @@ users: 100000
 appId: giniapps.easymarkets.com
 appCountry: us
 released: 2017-04-05
-updated: 2025-11-24
-version: 3.2.0
+updated: 2025-12-30
+version: 3.2.2
 stars: 3.5
 ratings: 1761
 reviews: 37

@@ -11,7 +11,7 @@ released: 2021-06-02
 updated: 2025-12-11
 version: 4.1.20
 stars: 3
-reviews: 145
+reviews: 146
 website: https://www.koinbx.com/
 repository: 
 issue: 

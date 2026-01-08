@@ -3,12 +3,12 @@ wsId:
 title: Rehive Pay
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.rehivewallet
 appCountry: 
 released: 2018-10-01
-updated: 2025-10-13
-version: 7.10.12
+updated: 2026-01-07
+version: 7.11.36
 stars: 4.2
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ issue:
 icon: com.rehivewallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-08-21
 signer: 

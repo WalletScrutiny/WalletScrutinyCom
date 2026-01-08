@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.fasochange.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2025-01-15
+date: 2026-01-08
 signer: 
 twitter: 
 social: 

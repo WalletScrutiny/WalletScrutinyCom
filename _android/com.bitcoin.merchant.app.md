@@ -9,7 +9,7 @@ appCountry:
 released: 2019-04-13
 updated: 2025-11-04
 version: 5.5.1
-stars: 4.2
+stars: 4.3
 ratings: 504
 reviews: 35
 website: https://www.bitcoin.com/bitcoin-cash-register

@@ -8,8 +8,8 @@ appId: com.bituro.ios.bituroSurvey
 appCountry: us
 idd: 1257495078
 released: 2017-07-15
-updated: 2025-12-15
-version: 2.9.1
+updated: 2025-12-23
+version: 2.9.2
 stars: 4.5
 reviews: 483
 website: https://bituro.com/app/v2/contact

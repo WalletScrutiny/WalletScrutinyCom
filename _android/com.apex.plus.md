@@ -4,12 +4,12 @@ title: 'ApeX Protocol: Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.apex.plus
 appCountry: 
 released: 2022-08-24
-updated: 2025-12-15
-version: 3.39.0
+updated: 2025-12-30
+version: 3.42.0
 stars: 4.5
 ratings: 
 reviews: 33

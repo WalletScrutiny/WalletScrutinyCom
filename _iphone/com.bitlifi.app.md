@@ -7,8 +7,8 @@ appId: com.bitlifi.app
 appCountry: jp
 idd: '6448746690'
 released: 2023-05-16
-updated: 2025-08-30
-version: 1.11.2
+updated: 2025-12-23
+version: 1.11.5
 stars: 0
 reviews: 0
 website: https://www.bitlifi.com

@@ -1,6 +1,6 @@
 ---
 wsId: buenbit
-title: 'Buenbit: Invierte en el futuro'
+title: 'Buenbit by Nexo: Invierte bien'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
 released: 2021-11-23
-updated: 2025-12-11
-version: 3.46.1
+updated: 2025-12-30
+version: 3.48.0
 stars: 4.8
 reviews: 18
 website: https://www.buenbit.com/

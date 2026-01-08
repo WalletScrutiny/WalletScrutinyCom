@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-08
 updated: 2025-12-15
 version: 1.3.17
-stars: 3.4
+stars: 3.7
 ratings: 
-reviews: 3
+reviews: 4
 website: https://pouch.ph
 repository: 
 issue: 

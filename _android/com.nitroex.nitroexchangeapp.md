@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.nitroex.nitroexchangeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-11-10
+date: 2026-01-08
 signer: 
 twitter: NitroExOfficial
 social:

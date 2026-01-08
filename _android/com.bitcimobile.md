@@ -8,12 +8,12 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2025-12-01
-version: 21.1.3
+updated: 2026-01-06
+version: 21.1.6
 stars: 2.3
 ratings: 
 reviews: 14
-website: https://www.bitci.com.tr/
+website: https://www.safebit.com
 repository: 
 issue: 
 icon: com.bitcimobile.png

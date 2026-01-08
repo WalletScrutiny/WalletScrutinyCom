@@ -1,6 +1,6 @@
 ---
 wsId: busha
-title: 'Busha: Buy & Sell BTC, ETH'
+title: 'Busha: Make your money better!'
 altTitle: 
 authors:
 - leo
@@ -8,7 +8,7 @@ users: 500000
 appId: co.busha.android
 appCountry: 
 released: 2019-01-21
-updated: 2025-09-17
+updated: 2026-01-02
 version: 8.5.14
 stars: 4.4
 ratings: 3575

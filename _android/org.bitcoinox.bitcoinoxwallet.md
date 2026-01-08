@@ -4,7 +4,7 @@ title: Bitcoin OX Crypto Wallet
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: org.bitcoinox.bitcoinoxwallet
 appCountry: 
 released: 2019-02-04

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.zenapay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2024-07-17
+date: 2026-01-08
 signer: 
 twitter: 
 social:

@@ -11,9 +11,9 @@ appCountry:
 released: 2024-05-13
 updated: 2025-11-26
 version: 2.4.2
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 10
+reviews: 12
 website: 
 repository: https://github.com/cypherstack/stack_wallet/tags
 issue: https://github.com/cypherstack/stack_wallet/issues/984

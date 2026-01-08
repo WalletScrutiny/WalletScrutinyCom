@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/monabitapp
 - https://www.youtube.com/channel/UC2oFxYscQFtbVp-nvczEddQ
 redirect_from: 
-developerName: Monabit
+developerName: MonaBit
 builds: 
 features: 
 

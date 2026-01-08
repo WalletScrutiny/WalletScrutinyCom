@@ -8,7 +8,7 @@ users: 100000
 appId: com.bitmex.app.android
 appCountry: 
 released: 
-updated: 2025-12-17
+updated: 2025-12-22
 version: 3.2.1
 stars: 3.2
 ratings: 

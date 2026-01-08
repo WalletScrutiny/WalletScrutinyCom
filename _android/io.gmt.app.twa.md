@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-22
 updated: 2025-11-04
 version: '66'
-stars: 3.9
+stars: 4.5
 ratings: 
-reviews: 1533
+reviews: 1685
 website: https://gomining.com
 repository: 
 issue: 

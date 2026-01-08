@@ -12,7 +12,7 @@ updated: 2025-10-16
 version: 5.9.22
 stars: 4.7
 ratings: 
-reviews: 17
+reviews: 18
 website: https://www.didwallet.io/
 repository: 
 issue: 

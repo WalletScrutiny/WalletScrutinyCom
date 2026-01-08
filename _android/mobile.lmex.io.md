@@ -7,8 +7,8 @@ users: 100
 appId: mobile.lmex.io
 appCountry: 
 released: 2022-11-14
-updated: 2025-11-27
-version: 1.13.0
+updated: 2026-01-06
+version: 1.15.0
 stars: 
 ratings: 
 reviews: 

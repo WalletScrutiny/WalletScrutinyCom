@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.ayrem.ayrem_app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2025-01-09
+date: 2026-01-08
 signer: 
 twitter: AYREM_INT
 social:

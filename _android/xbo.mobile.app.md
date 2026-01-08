@@ -8,8 +8,8 @@ users: 50000
 appId: xbo.mobile.app
 appCountry: 
 released: 2022-09-24
-updated: 2025-12-10
-version: 3.2.1
+updated: 2025-12-29
+version: 3.3.2
 stars: 4.4
 ratings: 
 reviews: 16

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.ivan.fgwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2026-01-08
 signer: 
 twitter: srsfintech
 social:

@@ -9,7 +9,7 @@ appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16
 updated: 2025-12-16
-version: 1.53.46
+version: 1.54.17
 stars: 4.7
 ratings: 
 reviews: 

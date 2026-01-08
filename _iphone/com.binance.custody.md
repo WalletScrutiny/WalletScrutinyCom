@@ -8,8 +8,8 @@ appId: com.binance.custody
 appCountry: sg
 idd: '1595828184'
 released: 2021-12-01
-updated: 2025-12-17
-version: 5.4.1
+updated: 2025-12-29
+version: 5.5.0
 stars: 4.7
 reviews: 3
 website: https://www.ceffu.com

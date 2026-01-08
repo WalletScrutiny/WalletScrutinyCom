@@ -11,7 +11,7 @@ appCountry:
 released: 2023-03-26
 updated: 2025-09-05
 version: 1.0.0
-stars: 4
+stars: 4.3
 ratings: 
 reviews: 4
 website: https://bitbanana.app/

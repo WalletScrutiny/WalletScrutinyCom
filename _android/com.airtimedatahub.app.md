@@ -8,8 +8,8 @@ users: 50000
 appId: com.airtimedatahub.app
 appCountry: 
 released: 2019-02-19
-updated: 2025-12-12
-version: 1.0.1
+updated: 2025-12-26
+version: 2.0.2
 stars: 4.3
 ratings: 
 reviews: 12

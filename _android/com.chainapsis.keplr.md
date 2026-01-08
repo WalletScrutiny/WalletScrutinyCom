@@ -8,11 +8,11 @@ users: 500000
 appId: com.chainapsis.keplr
 appCountry: 
 released: 2021-10-01
-updated: 2025-12-15
-version: 2.1.142
+updated: 2025-12-31
+version: 2.1.148
 stars: 3.9
 ratings: 
-reviews: 201
+reviews: 202
 website: https://keplr.app
 repository: https://github.com/chainapsis/keplr-wallet
 issue: https://github.com/chainapsis/keplr-wallet/issues/1554

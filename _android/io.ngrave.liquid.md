@@ -12,7 +12,7 @@ updated: 2025-07-11
 version: 2.9.7
 stars: 3.6
 ratings: 
-reviews: 17
+reviews: 19
 website: https://www.ngrave.io/
 repository: 
 issue: 

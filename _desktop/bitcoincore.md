@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2009-01-04
 discontinued: 
-updated: 2025-10-13
-version: 30
+updated: 2026-01-02
+version: 30.1
 binaries: https://bitcoincore.org/en/download
 provider: Bitcoin Core Developers
 providerWebsite: 

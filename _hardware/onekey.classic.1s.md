@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-04-01
 discontinued: 
-updated: 2025-11-11
-version: 3.15.0
+updated: 2026-01-07
+version: 3.17.0-btc
 binaries: 
 dimensions:
 - 86

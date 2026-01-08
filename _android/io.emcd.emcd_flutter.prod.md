@@ -8,8 +8,8 @@ users: 100000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2025-12-15
-version: 2.22.1
+updated: 2025-12-22
+version: 2.23.1
 stars: 4.5
 ratings: 
 reviews: 36
@@ -30,7 +30,7 @@ social:
 - https://weixin.qq.com/g/Atjew2g9jgbSq6bq
 - https://discord.gg/yjk7RVr
 redirect_from: 
-developerName: Emcd Tech
+developerName: EMCD Tech Limited
 builds: 
 features: 
 
