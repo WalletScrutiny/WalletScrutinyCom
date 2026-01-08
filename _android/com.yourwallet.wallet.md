@@ -41,6 +41,6 @@ The app description lists support for EVM-compatible networks such as Ethereum, 
 
 ## Analysis
 
-The app initializes with wallet creation with a 12-word seed phrases. However, when we tried looking for and selecting "BTC", but only BTC-wrapped Solana versions are available. 
+The app initializes with wallet creation with a 12-word seed phrases. However, when we tried looking for "BTC", only BTC-wrapped Solana versions were available.
 
 **Native Bitcoin support is not available**.

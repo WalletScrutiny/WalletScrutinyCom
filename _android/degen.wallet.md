@@ -42,4 +42,4 @@ The app description emphasizes stablecoin payments (USDT/USDC), cross-chain swap
 
 ## Testing and Analysis
 
-We [tested](https://x.com/BitcoinWalletz/status/2004519295406235970) the app, and **did not find any Bitcoin support.**
+We [tested](https://x.com/BitcoinWalletz/status/2004519295406235970) the app, and **did not find any Bitcoin support**.
