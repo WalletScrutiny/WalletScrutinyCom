@@ -30,3 +30,6 @@ features:
 
 ---
 
+## App Description
+
+We installed the app and tried signing in but it would not proceed beyond the registration. The app description on Google Play and its website is also sparsely populated. We're keeping this as **wip** until new information is available.
