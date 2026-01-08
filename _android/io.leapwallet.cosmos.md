@@ -43,5 +43,3 @@ Leap Wallet is a self-custodial, multichain mobile wallet that lets users manage
 We [tested the app](https://x.com/BitcoinWalletz/status/2004832799661207754), and verified the existence of a Bitcoin wallet. The seed phrases were provided and when [exported into Electrum desktop](https://x.com/BitcoinWalletz/status/2004834400438288831), the addresses matched.
 
 However, we did not find any claims regarding source-availability, nor did we find relevant repositories when [searching for the app ID on GitHub](https://github.com/search?q=%22io.leapwallet.cosmos%22&type=code).
-
-

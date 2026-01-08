@@ -68,4 +68,4 @@ After accepting all of these, the ABC Wallet app then [asked us to agree](https:
 
 Only then were we [able to access a Bitcoin wallet](https://x.com/BitcoinWalletz/status/2004861448577790445/photo/4). We did not find any option to give us the seed-phrases. 
 
-**This app is custodial.**
+**This app is custodial**.

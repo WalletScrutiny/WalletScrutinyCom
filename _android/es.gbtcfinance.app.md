@@ -52,4 +52,4 @@ For "recoverable funds" the platform charges a fee of 500 Euros.
 
 > a flat fee of 500 euros will be applied for each recovery request.
 
-This shows that **key material is held and custodied by the service.**
+This shows that **key material is held and custodied by the service**.
