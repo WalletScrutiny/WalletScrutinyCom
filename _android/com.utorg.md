@@ -40,6 +40,6 @@ Utorg is an Android cryptocurrency wallet and on-ramp application that claims to
 
 Our [testing](https://x.com/BitcoinWalletz/status/2003728103361949917) shows that the app supports Bitcoin. We were able to import the seed phrases provided by the app unto Electrum desktop v4.6.2 successfully. The wallet address provided by the app matched that of the Electrum-imported address. 
 
-There are no claims regarding source-availability. Although, [utorg has a GitHub organization](https://github.com/orgs/utorg/repositories) page, we were not able to find a relevant Android repository. 
+There are no claims regarding source-availability. Although utorg has a [GitHub organization](https://github.com/orgs/utorg/repositories) page, we were not able to find a relevant Android repository. 
 
 **This app is not source-available**.

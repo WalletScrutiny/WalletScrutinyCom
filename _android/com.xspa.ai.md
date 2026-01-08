@@ -45,7 +45,7 @@ We [tested](https://x.com/BitcoinWalletz/status/2004454168225108014) the app and
 
 Apart from not finding claims regarding source-availability, a search for the app ID on GitHub [did not reveal any relevant Android repository coinciding with the app](https://github.com/search?q=%22com.xspa.ai%22&type=code). 
 
-**This app is not source available.**
+**This app is not source available**.
 
 
 

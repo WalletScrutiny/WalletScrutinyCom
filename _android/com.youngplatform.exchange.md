@@ -41,7 +41,7 @@ User funds are managed within the platform’s own wallet system, with balances 
 
 The definition of "wallet" according to the site's [terms](https://youngplatform.com/legal/terms-conditions-young-platform/) reflects the previous statement:
 
-> ‘Wallet’ or ‘Wallet’: means the wallet present in the Young Platform Application and belonging to each registered User, because it is associated with his User Area. Such Wallet is necessary for the use of the Services and specific for the custody of Cryptocurrencies.
+> ‘Portfolio‘ or ‘Wallet’: means the wallet present in the Young Platform Application and belonging to each registered User, because it is associated with his User Area. Such Wallet is necessary for the use of the Services and specific for the custody of Cryptocurrencies.
 
 Translated from Italian:
 

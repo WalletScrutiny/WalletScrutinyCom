@@ -47,6 +47,6 @@ This list includes BTC.
 
 We [tested](https://x.com/BitcoinWalletz/status/2004384379502756226) the app and confirm that seed phrases were provided along with the Bitcoin wallet.
 
-We did not find any claims regarding source-availability. And a search for the [app ID on GitHub code](https://github.com/search?q=com.walletverse&type=code), did not yield any relevant results apart from wallet registry metadata.
+We did not find any claims regarding source-availability, and a search for the [app ID on GitHub code](https://github.com/search?q=com.walletverse&type=code), did not yield any relevant results apart from wallet registry metadata.
 
 This app is **not source-available**.

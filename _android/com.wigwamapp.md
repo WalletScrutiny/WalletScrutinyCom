@@ -39,4 +39,4 @@ The app claims to use Multi-Party Computation (MPC) for key management and to al
 
 ## Analysis
 
-Our [tests](https://x.com/BitcoinWalletz/status/2004434002531565818) confirm that **the app does not have support for the Bitcoin network.**
+Our [tests](https://x.com/BitcoinWalletz/status/2004434002531565818) confirm that **the app does not have support for the Bitcoin network**.

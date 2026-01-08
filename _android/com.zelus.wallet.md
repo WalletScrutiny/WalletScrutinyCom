@@ -38,13 +38,13 @@ features:
 
 Zelus is a multichain wallet app that states it supports Bitcoin and several EVM-compatible blockchains, allows users to create an account with an email and password, and import existing wallets from other Web3 wallets.
 
-The app description claims non-custodial operation and lists features including token swaps, NFT management, WalletConnect-based dApp access, and in-app crypto purchases via third-party payment providers,
+The app description claims non-custodial operation and lists features including token swaps, NFT management, WalletConnect-based dApp access, and in-app crypto purchases via third-party payment providers.
 
 ## Testing and Analysis
 
 We were able to install the app. Unfortunately it only reached the splash screen with the [message](https://x.com/BitcoinWalletz/status/2004495327316103214): 
 
-> "The Zelus app will be deleted from the store."
+> "The Zelus app will be deleted from the store".
 
 We are marking this app as **defunct**, while we contacted the provider on [X.com](https://x.com/BitcoinWalletz/status/2004496409937215858) to verify that message.
 

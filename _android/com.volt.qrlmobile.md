@@ -33,4 +33,4 @@ features:
 
 ## App Description
 
-This app is epecifically for the coin $QRL, and **is not for Bitcoin**.
+This app is specifically for the coin $QRL, and **is not for Bitcoin**.

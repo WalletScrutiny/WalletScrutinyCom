@@ -42,6 +42,6 @@ It supports swaps involving many digital assets, including Bitcoin (BTC), with u
 
 ## Analysis
 
-According to its [Terms of Use](https://swapspace.co/terms) and [“How It Works”](https://swapspace.co/how-it-works) documentation, SwapSpace **does not provide wallets**, accounts, or asset storage, and does not custody user funds, acting instead as a technical intermediary that routes transactions to independent third-party providers.
+According to its ["Terms of Use"](https://swapspace.co/terms) and [“How It Works”](https://swapspace.co/how-it-works) documentation, SwapSpace **does not provide wallets**, accounts, or asset storage, and does not custody user funds, acting instead as a technical intermediary that routes transactions to independent third-party providers.
 
 All exchanges are executed by those third-party providers under their own terms, with SwapSpace aggregating offers and facilitating access via its website and mobile app.
