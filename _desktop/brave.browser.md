@@ -31,17 +31,15 @@ features:
 
 ## App Description
 
-Note: Bitcoin wallet support was introduced into Brave Browser in 2021 as an integrated feature (Brave Wallet), rather than as part of the browser’s original 2016 release.
+Note: Bitcoin wallet support was introduced in 2021 as Brave Wallet, not part of the original 2016 release.
 
-Brave Browser is a desktop web browser that includes a built-in, self-custodial Bitcoin wallet as part of its core feature set. The wallet allows users to create or import a Bitcoin wallet and send and receive BTC on-chain without installing a separate application. Private keys are generated and stored locally under user control within the browser environment, but the wallet operates entirely within the browser and does not support the Lightning Network. Because the wallet is embedded in a general-purpose browser, its security and trust model is inseparable from the browser as a whole.
-
-The Brave Browser is built from the main brave-browser repository, which produces the downloadable desktop binaries and pulls in Chromium and Brave-specific components. Wallet functionality, including Bitcoin support, is implemented within Brave’s broader codebase (primarily via brave-core and related repositories) and is not released or verifiable as a standalone wallet application.
+Brave Browser is a desktop web browser with a built-in, self-custodial Bitcoin wallet. Users can create or import a wallet and send/receive BTC on-chain. Private keys are stored locally. The wallet does not support Lightning Network.
 
 ## Initial Investigation
 
-We have confirmed that Brave Browser’s Bitcoin wallet is real, compiled, and part of the shipped browser, not a cosmetic feature. The wallet code lives inside the `brave-core` repository under `components/brave_wallet` and `components/brave_wallet_ui`, and it is enabled at build time via the `enable_brave_wallet` flag. Bitcoin-specific functionality is clearly implemented, including address parsing, Bech32/Bech32m encoding, Base58 handling, and Bitcoin transaction serialization, with direct dependencies on Bitcoin Core source files. This shows that the wallet performs genuine Bitcoin-related operations and is not merely a frontend wrapper.
+The wallet code lives in `brave-core` under `components/brave_wallet` and is enabled via the `enable_brave_wallet` build flag. Bitcoin-specific functionality includes address parsing, Bech32/Bech32m encoding, Base58 handling, and transaction serialization with dependencies on Bitcoin Core source files.
 
-At the same time, the wallet cannot be separated from the browser: it is not a standalone application, cannot be built independently, and inherits the browser’s large attack surface and build process.
+The wallet cannot be built or verified independently—it inherits the browser's full attack surface and build process.
 
 ## Summary of investigation steps (with commands used)
 
