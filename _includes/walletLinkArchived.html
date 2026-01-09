@@ -1,0 +1,11 @@
+{% assign parts = include.wallet | split: "/"
+%}{% assign archived_collections = site.collections | find: "label", "archived"
+%}{% assign w = archived_collections.docs | find: "appId", parts[1]
+%}{% unless w
+%}{{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}{% endunless
+%}<span class="wallet-link"><a href="{{w.url}}">{{
+  w.altTitle | default: w.title | escape }}</a>&nbsp;{%
+  include verdictBadge.html verdict=w.verdict type="short"
+  %}{%if w.meta != "ok" %}{%
+  include verdictBadge.html verdict=w.meta type="short"
+  %}{% endif %}</span> 
