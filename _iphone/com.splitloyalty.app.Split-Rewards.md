@@ -31,7 +31,7 @@ developerName: Feed Incorporated
 
 ## App Description
 
-Split is a self-custodial Bitcoin Lightning (Spark) wallet for iOS that enables users to pay participating merchants and earn rewards for spending Bitcoin within the Split network. The app supports Bitcoin via Lightning payments and positions itself as a non-custodial wallet, with users retaining control of their funds while transactions rely on Split’s merchant and network infrastructure. According to the website and user agreement, Split charges no payment-processing fees to merchants and is offered free of charge to both users and businesses.
+Split is a self-custodial Bitcoin Lightning (Spark) wallet for iOS that enables users to pay participating merchants and earn rewards for spending Bitcoin within the Split network. The app supports Bitcoin via Lightning payments and positions itself as a non-custodial wallet, with users retaining control of their funds. According to the website and user agreement, Split charges no payment-processing fees to merchants and is offered free of charge to both users and businesses.
 
 ### How it Works
 
