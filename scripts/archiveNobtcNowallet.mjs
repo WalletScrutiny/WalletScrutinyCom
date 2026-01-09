@@ -12,8 +12,12 @@ const FIELDS_TO_REMOVE = [
     'altTitle', 'issue', 'bugbounty', 'signer', 'twitter', 'social', 'builds', 'stars',
     'ratings', 'reviews', 'icon', 'features', 'redirect_from', 'date', 'appCountry',
     'repository', 'authors', 'appHashes', 'users', 'updated', 'developerName', 'released',
-    'version', 'website', 'wsId'
+    'version', 'website', 'wsId', 'dimensions', 'weight', 'shop', 'country', 'price',
+    'discontinued'
 ];
+
+const IMAGE_SUBDIRS = ['', 'small', 'tiny'];
+const ARCHIVE_DIR = '_archived';
 
 async function deleteImage(iconPath) {
   try {
@@ -21,7 +25,6 @@ async function deleteImage(iconPath) {
     return true;
   } catch (error) {
     if (error.code === 'ENOENT') {
-      // File doesn't exist, which is fine
       return false;
     }
     throw error;
@@ -29,30 +32,29 @@ async function deleteImage(iconPath) {
 }
 
 async function deleteImagesForFile(platform, icon) {
-  if (!icon || icon.trim() === '') {
+  if (!icon?.trim()) {
     return { deleted: 0, errors: [] };
   }
 
   const basePath = path.join('images', 'wIcons', platform);
-  const imagePaths = [
-    path.join(basePath, icon),
-    path.join(basePath, 'small', icon),
-    path.join(basePath, 'tiny', icon)
-  ];
+  const imagePaths = IMAGE_SUBDIRS.map(subdir => 
+    subdir ? path.join(basePath, subdir, icon) : path.join(basePath, icon)
+  );
+
+  const results = await Promise.allSettled(
+    imagePaths.map(imagePath => deleteImage(imagePath))
+  );
 
   let deleted = 0;
   const errors = [];
 
-  for (const imagePath of imagePaths) {
-    try {
-      const wasDeleted = await deleteImage(imagePath);
-      if (wasDeleted) {
-        deleted++;
-      }
-    } catch (error) {
-      errors.push({ path: imagePath, error: error.message });
+  results.forEach((result, index) => {
+    if (result.status === 'fulfilled' && result.value) {
+      deleted++;
+    } else if (result.status === 'rejected') {
+      errors.push({ path: imagePaths[index], error: result.reason.message });
     }
-  }
+  });
 
   return { deleted, errors };
 }
@@ -66,56 +68,120 @@ function removeFields(header) {
 }
 
 async function ensureArchiveDirectory(platform) {
-  const archiveDir = path.join('_archived', platform);
-  try {
-    await fs.mkdir(archiveDir, { recursive: true });
-  } catch (error) {
-    if (error.code !== 'EEXIST') {
-      throw error;
-    }
-  }
+  const archiveDir = path.join(ARCHIVE_DIR, platform);
+  await fs.mkdir(archiveDir, { recursive: true });
   return archiveDir;
 }
 
+async function getAllUnderscoreDirectories() {
+  const entries = await fs.readdir('.', { withFileTypes: true });
+  return entries
+    .filter(entry => entry.isDirectory() && entry.name.startsWith('_'))
+    .map(entry => entry.name);
+}
+
+async function getAllMdFilesInDirectory(dirPath) {
+  try {
+    const entries = await fs.readdir(dirPath, { withFileTypes: true });
+    const files = [];
+    
+    for (const entry of entries) {
+      const fullPath = path.join(dirPath, entry.name);
+      if (entry.isDirectory()) {
+        const subFiles = await getAllMdFilesInDirectory(fullPath);
+        files.push(...subFiles);
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        files.push(fullPath);
+      }
+    }
+    return files;
+  } catch {
+    return [];
+  }
+}
+
+async function updateFileReferences(filePath, walletIdentifier) {
+  try {
+    const content = await fs.readFile(filePath, 'utf8');
+    const escapedWalletId = walletIdentifier.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const pattern = new RegExp(
+      `\\{%\\s*include\\s+walletLink\\.html\\s+wallet=['"]${escapedWalletId}['"]\\s+verdict=['"][^'"]*['"]\\s*%\\}`,
+      'g'
+    );
+    const newContent = content.replace(
+      pattern,
+      `{% include walletLinkArchived.html wallet='${walletIdentifier}' %}`
+    );
+    
+    if (newContent !== content) {
+      await fs.writeFile(filePath, newContent, 'utf8');
+      return { updated: true, filePath };
+    }
+    return { updated: false };
+  } catch (error) {
+    console.error(`Error processing ${filePath}: ${error.message}`);
+    return { updated: false, error: error.message };
+  }
+}
+
+async function updateWalletLinkReferences(walletIdentifier) {
+  const underscoreDirs = await getAllUnderscoreDirectories();
+  const allMdFiles = await Promise.all(
+    underscoreDirs.map(dir => getAllMdFilesInDirectory(dir))
+  );
+  const mdFiles = allMdFiles.flat();
+  
+  const results = await Promise.allSettled(
+    mdFiles.map(filePath => updateFileReferences(filePath, walletIdentifier))
+  );
+  
+  const updatedFiles = [];
+  results.forEach((result, index) => {
+    if (result.status === 'fulfilled' && result.value.updated) {
+      updatedFiles.push(result.value.filePath);
+    }
+  });
+
+  return { totalUpdated: updatedFiles.length, updatedFiles };
+}
+
+function getWalletIdentifier(platform, fileName) {
+  const fileNameWithoutExt = fileName.replace(/\.md$/, '');
+  return `${platform}/${fileNameWithoutExt}`;
+}
+
 async function processFile(platform, fileName) {
-  const folder = `_${platform}/`;
+  const folder = `_${platform}`;
   const filePath = path.join(folder, fileName);
   
   try {
-    // Load file content
     const content = helper.loadFromFile(filePath);
-    const header = content.header;
-    const body = content.body;
+    const { header, body } = content;
 
-    // Check verdict
-    const verdict = header.verdict;
-    if (!verdict || !TARGET_VERDICTS.includes(verdict)) {
+    if (!TARGET_VERDICTS.includes(header.verdict)) {
       return { processed: false, reason: 'verdict does not match' };
     }
 
-    // Remove specified fields
     const updatedHeader = removeFields(header);
-
-    // Delete images
-    const icon = header.icon;
-    const imageResult = await deleteImagesForFile(platform, icon);
-
-    // Ensure archive directory exists
+    const imageResult = await deleteImagesForFile(platform, header.icon);
     const archiveDir = await ensureArchiveDirectory(platform);
-
-    // Write updated content to archive
+    
     const archiveFilePath = path.join(archiveDir, fileName);
     const updatedContent = helper.getResult(updatedHeader, body);
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
-    // Delete original file
+    const walletIdentifier = getWalletIdentifier(platform, fileName);
+    const referenceUpdate = await updateWalletLinkReferences(walletIdentifier);
+
     await fs.unlink(filePath);
 
     return {
       processed: true,
       fileName,
       imagesDeleted: imageResult.deleted,
-      imageErrors: imageResult.errors
+      imageErrors: imageResult.errors,
+      referencesUpdated: referenceUpdate.totalUpdated,
+      referenceFiles: referenceUpdate.updatedFiles
     };
   } catch (error) {
     return {
@@ -126,41 +192,59 @@ async function processFile(platform, fileName) {
   }
 }
 
+function formatProcessMessage(platform, fileName, result) {
+  const refMsg = result.referencesUpdated > 0 
+    ? `, updated ${result.referencesUpdated} reference(s)` 
+    : '';
+  return `✓ Processed ${platform}/${fileName} (deleted ${result.imagesDeleted} images${refMsg})`;
+}
+
 async function scanPlatform(platform) {
-  const folder = `_${platform}/`;
-  let files;
+  const folder = `_${platform}`;
   
   try {
-    files = await fs.readdir(folder);
+    const files = await fs.readdir(folder);
+    const mdFiles = files.filter(f => f.endsWith('.md'));
+    const results = [];
+    const errors = [];
+
+    for (const fileName of mdFiles) {
+      const result = await processFile(platform, fileName);
+      
+      if (result.processed) {
+        results.push(result);
+        console.log(formatProcessMessage(platform, fileName, result));
+      } else if (result.error) {
+        errors.push({ fileName, error: result.error });
+        console.error(`✗ Error processing ${platform}/${fileName}: ${result.error}`);
+      }
+    }
+
+    return {
+      scanned: mdFiles.length,
+      processed: results.length,
+      errors,
+      results
+    };
   } catch (error) {
     console.error(`Error reading directory ${folder}: ${error.message}`);
-    return { scanned: 0, matched: 0, processed: 0, errors: [] };
+    return { scanned: 0, processed: 0, errors: [], results: [] };
   }
+}
 
-  const mdFiles = files.filter(f => f.endsWith('.md'));
-  let processed = 0;
-  const errors = [];
-  const results = [];
-
-  for (const fileName of mdFiles) {
-    const result = await processFile(platform, fileName);
-    
-    if (result.processed) {
-      processed++;
-      results.push(result);
-      console.log(`✓ Processed ${platform}/${fileName} (deleted ${result.imagesDeleted} images)`);
-    } else if (result.error) {
-      errors.push({ fileName, error: result.error });
-      console.error(`✗ Error processing ${platform}/${fileName}: ${result.error}`);
-    }
+function printSummary(totalScanned, totalProcessed, allErrors) {
+  console.log('\n' + '='.repeat(50));
+  console.log('Summary:');
+  console.log(`  Total files scanned: ${totalScanned}`);
+  console.log(`  Total files processed: ${totalProcessed}`);
+  
+  if (allErrors.length > 0) {
+    console.log(`  Total errors: ${allErrors.length}`);
+    console.log('\nErrors:');
+    allErrors.forEach(({ platform, fileName, error }) => {
+      console.log(`  - ${platform}/${fileName}: ${error}`);
+    });
   }
-
-  return {
-    scanned: mdFiles.length,
-    processed,
-    errors,
-    results
-  };
 }
 
 async function main() {
@@ -186,19 +270,7 @@ async function main() {
     }
   }
 
-  console.log('\n' + '='.repeat(50));
-  console.log('Summary:');
-  console.log(`  Total files scanned: ${totalScanned}`);
-  console.log(`  Total files processed: ${totalProcessed}`);
-  
-  if (allErrors.length > 0) {
-    console.log(`  Total errors: ${allErrors.length}`);
-    console.log('\nErrors:');
-    allErrors.forEach(({ platform, fileName, error }) => {
-      console.log(`  - ${platform}/${fileName}: ${error}`);
-    });
-  }
-
+  printSummary(totalScanned, totalProcessed, allErrors);
   console.log('\nArchive process completed.');
 }
 
