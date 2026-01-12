@@ -29,4 +29,4 @@ developerName: Volt Development
 
 ---
 
-{% includes copyFromAndroid.html %}
+{% include copyFromAndroid.html %}
