@@ -8,13 +8,7 @@ import helper from './helper.mjs';
 
 const PLATFORMS = ['android', 'iphone', 'hardware', 'bearer', 'desktop', 'others'];
 const TARGET_VERDICTS = ['nobtc', 'nowallet'];
-const FIELDS_TO_REMOVE = [
-    'altTitle', 'issue', 'bugbounty', 'signer', 'twitter', 'social', 'builds', 'stars',
-    'ratings', 'reviews', 'icon', 'features', 'redirect_from', 'date', 'appCountry',
-    'repository', 'authors', 'appHashes', 'users', 'updated', 'developerName', 'released',
-    'version', 'website', 'wsId', 'dimensions', 'weight', 'shop', 'country', 'price',
-    'discontinued'
-];
+const FIELDS_TO_KEEP = ['title', 'appId', 'meta', 'verdict'];
 
 const IMAGE_SUBDIRS = ['', 'small', 'tiny'];
 const ARCHIVE_DIR = '_archived';
@@ -60,9 +54,11 @@ async function deleteImagesForFile(platform, icon) {
 }
 
 function removeFields(header) {
-  const updatedHeader = { ...header };
-  FIELDS_TO_REMOVE.forEach(field => {
-    delete updatedHeader[field];
+  const updatedHeader = {};
+  FIELDS_TO_KEEP.forEach(field => {
+    if (header.hasOwnProperty(field)) {
+      updatedHeader[field] = header[field];
+    }
   });
   return updatedHeader;
 }
