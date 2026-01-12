@@ -1,0 +1,65 @@
+---
+wsId: wannabitCosmostation
+title: Cosmostation Interchain Wallet
+altTitle: 
+authors:
+- danny 
+users: 100000
+appId: wannabit.io.cosmostaion
+appCountry: 
+released: Mar 17, 2019
+updated: 2025-10-24
+version: 1.10.43
+stars: 3.98
+ratings: 
+reviews: 136
+website: https://cosmostation.io
+repository: https://github.com/cosmostation/cosmostation-android
+issue: https://github.com/cosmostation/cosmostation-android/issues/729
+icon: wannabit.io.cosmostaion.png
+bugbounty: 
+meta: ok
+verdict: sourceavailable
+appHashes: 
+date: 2023-01-03
+signer: 
+twitter: CosmostationVD
+social:
+- https://t.me/cosmostation
+- https://www.youtube.com/@cosmostationio 
+redirect_from: 
+developerName: Stamper
+features: 
+
+---
+
+## App Description
+
+The app is a non-custodial, multi-chain cryptocurrency wallet that supports Bitcoin, Ethereum, Sui, Cosmos (ATOM), and more than 100 additional blockchain networks.
+
+According to the app's Play description:
+
+The wallet signs all transactions locally on the user’s device, does not transmit private keys externally, and follows BIP44 HD standards or official chain specifications, including support for Bitcoin Taproot, Native SegWit, SegWit, and Legacy addresses.
+
+Cosmostation Wallet is published as open-source software and provides asset management and transaction functionality across Tendermint-based chains, Ethereum and its Layer-2 networks, and Sui.
+
+## Testing and Analysis
+
+We tested the app and were given a 24-word seed phrase. The Bitcoin address was labelled as Taproot. So we used Sparrow 2.3.1-1 since it currently supports Taproot. We followed these instructions: 
+
+1. File > New Wallet (name it)
+2. Script Type: Taproot (P2TR)
+3. Click New or Imported Software Wallet
+4. Select 24 words
+5. Enter your seed phrase
+6. If you used a passphrase, enter it
+7. Click Create Keystore (verify path shows m/86'/0'/0')
+8. Click Import Keystore > Apply
+9. Set a local wallet password
+
+The addresses between the app and Sparrow: `bc1pw2zy5kj5fgha7gw2vd4u28s9ucxjhzhweegnku7zzttp4d9mv82qr9nw0f` [matched](https://x.com/BitcoinWalletz/status/2007415225738506524). 
+
+This app is **sourceavailable** and **for verification**.
+
+
+

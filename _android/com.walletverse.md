@@ -1,5 +1,5 @@
 ---
-wsId: walletVerse
+wsId: 
 title: 'Wallet Verse: DeFi, Buy Crypto'
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ issue:
 icon: com.walletverse.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 appHashes: 
 date: 2025-12-31
 signer: 
@@ -43,10 +43,10 @@ Walletverse is an Android self-custodial cryptocurrency wallet that supports mul
 
 ## Testing and Analysis
 
-We [tested](https://x.com/BitcoinWalletz/status/2006304200603623524) the app and can confirm the inclusion of a Bitcoin wallet that can send/receive BTC. The seed phrases were also provided. 
+We [tested](https://x.com/BitcoinWalletz/status/2006304200603623524) the app and can confirm the inclusion of a Bitcoin wallet that can send/receive BTC. The seed phrases were also provided.
 
 When exported to Electrum desktop, [the BTC address generated matched those from the app](https://x.com/BitcoinWalletz/status/2006306006150865092).
 
-We did not find any claims regarding source-availability and a search for the App ID on GitHub code, [did not yield any relevant results](https://github.com/search?q=com.walletverse&type=code). 
+We did not find any claims regarding source-availability and a search for the App ID on GitHub code, [did not yield any relevant results](https://github.com/search?q=com.walletverse&type=code).
 
 **This app is not source-available**.

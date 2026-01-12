@@ -46,8 +46,8 @@ You lock BTC by creating a contract and moving it into a multi‑sig wallet so n
 
 ## Analysis
 
-We [tested](https://x.com/BitcoinWalletz/status/2006315420186554511) the app and confirm the existence of a Bitcoin wallet. 
+We [tested](https://x.com/BitcoinWalletz/status/2006315420186554511) the app and confirm the existence of a Bitcoin wallet.
 
-Wallet provision is generated after email registration. Additional functions are unlocked via user compliance with KYC procedures. We were not given the seed phrases. 
+Wallet provision is generated after email registration. Additional functions are unlocked via user compliance with KYC procedures. We were not given the seed phrases.
 
 Although not explicitly stated in its [terms](https://www.neutron.me/terms-of-use), the lack of seed-phrases, together with KYC procedures, account based wallet provision, the existence of lending features, all point to a **custodial** service.

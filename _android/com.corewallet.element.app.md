@@ -1,0 +1,44 @@
+---
+wsId: elementWallet
+title: 'Element Wallet: Chat & Pay'
+altTitle: 
+authors:
+- danny 
+users: 100000
+appId: com.corewallet.element.app
+appCountry: 
+released: Jun 5, 2024
+updated: 2025-04-02
+version: 1.13.0
+stars: 2.51
+ratings: 
+reviews: 298
+website: https://www.elementwallet.com/
+repository: 
+issue: 
+icon: com.corewallet.element.app.jpg
+bugbounty: 
+meta: ok
+verdict: nosource
+appHashes: 
+date: 2025-11-13
+signer: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Element Wallet Inc
+features: 
+
+---
+
+## App Description
+
+Element Wallet is a self-described non-custodial wallet that enables users to store and transfer CORE, BTC, and other supported assets while maintaining local control of their keys. The app includes staking features for CORE and BTC, as well as built-in access to dApps and blockchain-based encrypted messaging. It provides standard wallet functions such as sending, receiving, and managing assets through an interface designed for both new and experienced users.
+
+## Analysis
+
+A Bitcoin wallet was present, the mnemonic phrase was provided.
+
+Searching for the appID on [GitHub Code did not turn](https://github.com/search?q=%22com.corewallet.element.app%22&type=code) out any result.
+
+We did **not find any claims regarding source-availability**.

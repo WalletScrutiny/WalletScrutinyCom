@@ -1,0 +1,34 @@
+---
+wsId: m2BuyBitcoin
+title: 'M2: Buy Bitcoin & Trade Crypto'
+altTitle: 
+authors:
+- danny
+appId: com.m2.exchange
+appCountry: ae
+idd: '6446392999'
+released: '2024-01-12T08:00:00Z'
+updated: 2025-11-14
+version: 5.20.0
+stars: 4.46479
+reviews: 71
+website: https://www.m2.com/
+repository: 
+issue: 
+icon: com.m2.exchange.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+appHashes: 
+date: 2025-11-19
+signer: 
+twitter: m2exchange
+social:
+- https://www.linkedin.com/company/m2-investment
+- https://www.instagram.com/m2exchange
+features: 
+developerName: M2 Investments Limited
+
+---
+
+{% include copyFromAndroid.html %}
