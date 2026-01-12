@@ -24,6 +24,12 @@ npm install
 
 # Run discovery
 ./runWalletDiscovery.sh
+
+# Review and triage discoveries
+./processWalletDiscovery.sh
+```
+
+Use `./processWalletDiscovery.sh --help` to see all options. Pass `--no-images` if you want to skip the automatic `updateImages.sh` run (useful for quick status-only sessions or when you're offline).
 ```
 
 ## How It Works
