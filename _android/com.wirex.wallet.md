@@ -12,7 +12,7 @@ updated: 2025-12-23
 version: 2.5.1
 stars: 3.3
 ratings: 1053
-reviews: 16
+reviews: 17
 website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 

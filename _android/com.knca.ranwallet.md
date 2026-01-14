@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.knca.ranwallet
 appCountry: 
-released: May 3, 2023
+released: 2023-05-03
 updated: 2023-05-03
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: kncalab
+builds: 
 features: 
 
 ---

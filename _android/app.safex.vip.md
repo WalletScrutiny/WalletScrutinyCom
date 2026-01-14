@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: app.safex.vip
 appCountry: 
-released: May 16, 2025
+released: 2025-05-16
 updated: 2026-01-09
 version: 5.5.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: SAFETRADING LTD
+builds: 
 features: 
 
 ---

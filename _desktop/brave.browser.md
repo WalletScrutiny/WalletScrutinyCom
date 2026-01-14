@@ -4,12 +4,12 @@ appId: brave.browser
 authors:
 - danny
 released: 2016-01-20
-discontinued:
-updated: 2025-12-19
-version: 1.85.118
+discontinued: 
+updated: 2026-01-07
+version: 1.85.120
 binaries: https://brave.com/download/
 provider: Brave Software
-providerWebsite:
+providerWebsite: 
 website: https://brave.com
 repository: https://github.com/brave/brave-browser
 issue: https://github.com/brave/brave-browser/issues/51721
@@ -24,7 +24,7 @@ social:
 - https://mastodon.social/@brave
 - https://bsky.app/profile/brave.com
 - https://www.facebook.com/BraveSoftware/
-builds:
+builds: 
 features: 
 
 ---

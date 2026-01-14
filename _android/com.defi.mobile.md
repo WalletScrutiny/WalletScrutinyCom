@@ -6,10 +6,10 @@ authors:
 users: 5000
 appId: com.defi.mobile
 appCountry: 
-released: Jul 16, 2025
+released: 2025-07-16
 updated: 2026-01-09
 version: 1.0.10
-stars: 4.7777777
+stars: 4.8
 ratings: 
 reviews: 3
 website: https://defi.app
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Defi App
+builds: 
 features: 
 
 ---

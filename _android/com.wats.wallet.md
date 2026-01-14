@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.wats.wallet
 appCountry: 
-released: Jul 2, 2024
+released: 2024-07-02
 updated: 2025-11-20
 version: 2.0.8
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Alltoscan LLC.
+builds: 
 features: 
 
 ---

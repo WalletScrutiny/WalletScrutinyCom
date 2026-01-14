@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.mobile.bitcoinaddition
 appCountry: 
-released: Mar 27, 2022
+released: 2022-03-27
 updated: 2023-08-09
 version: 1.5.5
 stars: 
@@ -27,6 +27,7 @@ twitter: Quan2um_
 social: 
 redirect_from: 
 developerName: Quan2um
+builds: 
 features: 
 
 ---

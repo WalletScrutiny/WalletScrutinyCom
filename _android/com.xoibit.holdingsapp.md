@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.xoibit.holdingsapp
 appCountry: 
-released: Jul 5, 2025
+released: 2025-07-05
 updated: 2025-10-31
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Xoibit
+builds: 
 features: 
 
 ---

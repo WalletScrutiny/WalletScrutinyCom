@@ -3,10 +3,11 @@ wsId: easyCryptoWallet
 title: 'Easy Crypto Wallet: Buy BTC'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.octopass.app
 appCountry: 
+released: 
 updated: 2025-09-26
 version: prod-1.17.0
 stars: 
@@ -30,6 +31,7 @@ social:
 - https://www.youtube.com/c/EasyCryptoGlobal
 redirect_from: 
 developerName: Dott Enterprises Limited
+builds: 
 features: 
 
 ---

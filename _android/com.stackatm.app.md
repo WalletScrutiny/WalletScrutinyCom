@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.stackatm.app
 appCountry: 
-released: Aug 12, 2024
+released: 2024-08-12
 updated: 2026-01-13
 version: 1.10.0
 stars: 4
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Kalbas, Inc.
+builds: 
 features: 
 
 ---

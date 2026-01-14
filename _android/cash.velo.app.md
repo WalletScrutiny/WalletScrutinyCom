@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: cash.velo.app
 appCountry: 
-released: Dec 16, 2025
+released: 2025-12-16
 updated: 2026-01-02
 version: 1.0.8
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Monica.cash
+builds: 
 features: 
 
 ---

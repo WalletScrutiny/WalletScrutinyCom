@@ -3,10 +3,11 @@ wsId:
 title: 'Wallby: BTC, NFT & DeFi wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.wallby.bmeta
 appCountry: 
+released: 
 updated: 2023-10-04
 version: VARY
 stars: 
@@ -26,6 +27,7 @@ twitter: wallby_app
 social: 
 redirect_from: 
 developerName: Bcademy
+builds: 
 features: 
 
 ---

@@ -3,14 +3,14 @@ wsId: athenaBitcoin
 title: Athena Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.cryptoathena
 appCountry: 
-released: Oct 24, 2024
+released: 2024-10-24
 updated: 2025-09-16
 version: 2.2.2
-stars: 3.7272727
+stars: 3.7
 ratings: 
 reviews: 6
 website: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/athenabitcoin
 redirect_from: 
 developerName: Athena Bitcoin Inc.
+builds: 
 features: 
 
 ---

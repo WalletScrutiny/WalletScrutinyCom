@@ -7,7 +7,7 @@ users: 10000
 appId: app.exchange.savita
 appCountry: 
 released: 2023-01-05
-updated: 2026-01-07
+updated: 2026-01-14
 version: 1.0.0
 stars: 
 ratings: 

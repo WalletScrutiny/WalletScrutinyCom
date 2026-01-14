@@ -7,12 +7,12 @@ authors:
 appId: com.kyrd.krystal.ios
 appCountry: us
 idd: '1558105691'
-released: '2021-04-16T07:00:00Z'
+released: 2021-04-16
 updated: 2025-06-19
 version: 1.2.77
-stars: 4.09091
+stars: 4.1
 reviews: 11
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.kyrd.krystal.ios.jpg

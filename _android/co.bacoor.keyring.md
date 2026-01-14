@@ -10,7 +10,7 @@ appCountry:
 released: 2021-01-21
 updated: 2026-01-05
 version: 5.4.0
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 3
 website: https://keyring.app

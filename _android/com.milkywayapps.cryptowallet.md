@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.milkywayapps.cryptowallet
 appCountry: 
-released: Jul 25, 2023
+released: 2023-07-25
 updated: 2024-03-19
 version: 1.2.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Walken App
+builds: 
 features: 
 
 ---

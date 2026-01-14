@@ -3,12 +3,12 @@ wsId:
 title: 'GeeFi Wallet: Crypto & Bitcoin'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.gee_fi
 appCountry: 
-released: Mar 18, 2025
-updated: 2025-08-11
-version: 1.1.4
+released: 2025-03-18
+updated: 2026-01-12
+version: 1.1.5
 stars: 5
 ratings: 
 reviews: 5
@@ -18,14 +18,15 @@ issue:
 icon: com.gee_fi.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-09
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GeeFi Tech LLC
+developerName: GeeFi Tech
+builds: 
 features: 
 
 ---

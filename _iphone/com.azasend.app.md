@@ -7,7 +7,7 @@ authors:
 appId: com.azasend.app
 appCountry: za
 idd: '6449364826'
-released: '2023-10-03T07:00:00Z'
+released: 2023-10-03
 updated: 2025-11-06
 version: 3.9.1
 stars: 5

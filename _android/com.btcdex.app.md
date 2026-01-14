@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.btcdex.app
 appCountry: 
-released: Nov 15, 2025
+released: 2025-11-15
 updated: 2026-01-07
 version: 1.0.55
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: HITDEX
+builds: 
 features: 
 
 ---

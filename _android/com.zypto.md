@@ -4,15 +4,15 @@ title: Zypto Crypto & Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.zypto
 appCountry: 
-released: Apr 26, 2024
-updated: 2025-10-24
-version: 1.22.0
-stars: 4.351852
+released: 2024-04-26
+updated: 2025-12-30
+version: 1.24.1
+stars: 4.2
 ratings: 
-reviews: 29
+reviews: 35
 website: https://zypto.com
 repository: 
 issue: 
@@ -26,9 +26,10 @@ signer:
 twitter: Zyptopay
 social:
 - https://www.reddit.com/r/ZyptoApp
-- https://t.me/zypto 
+- https://t.me/zypto
 redirect_from: 
 developerName: Zypto
+builds: 
 features: 
 
 ---

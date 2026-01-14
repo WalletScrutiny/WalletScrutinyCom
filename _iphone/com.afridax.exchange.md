@@ -3,16 +3,16 @@ wsId: afridax
 title: 'AFRIDAX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.afridax.exchange
 appCountry: za
 idd: '6739197253'
-released: '2025-02-06T08:00:00Z'
-updated: 2025-10-27
-version: 0.7.1
+released: 2025-02-06
+updated: 2025-11-28
+version: 0.7.2
 stars: 5
-reviews: 3
-website: ''
+reviews: 7
+website: 
 repository: 
 issue: 
 icon: com.afridax.exchange.jpg

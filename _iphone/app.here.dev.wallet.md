@@ -7,11 +7,11 @@ authors:
 appId: app.here.dev.wallet
 appCountry: us
 idd: '6740916148'
-released: '2025-01-31T08:00:00Z'
+released: 2025-01-31
 updated: 2025-06-10
 version: 1.0.2
-stars: 4.15
-reviews: 40
+stars: 4.1
+reviews: 41
 website: http://hot-labs.org/wallet
 repository: 
 issue: 
@@ -22,6 +22,7 @@ verdict: nosource
 appHashes: 
 date: 2025-11-11
 signer: 
+twitter: 
 social:
 - https://www.instagram.com/hot_labs
 - https://t.me/hotonnear

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.cryptobasewallet.app
 appCountry: 
-released: Oct 10, 2024
+released: 2024-10-10
 updated: 2025-03-14
 version: 4.23.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Cryptobase, LLC
+builds: 
 features: 
 
 ---

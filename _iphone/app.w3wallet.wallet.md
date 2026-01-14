@@ -6,7 +6,7 @@ authors:
 appId: app.w3wallet.wallet
 appCountry: us
 idd: '6670211780'
-released: '2024-09-04T07:00:00Z'
+released: 2024-09-04
 updated: 2025-10-09
 version: 1.0.38
 stars: 5

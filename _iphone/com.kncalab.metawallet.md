@@ -7,12 +7,12 @@ authors:
 appId: com.kncalab.metawallet
 appCountry: us
 idd: '1625234290'
-released: '2022-05-25T07:00:00Z'
+released: 2022-05-25
 updated: 2022-05-26
 version: '1.0'
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.kncalab.metawallet.jpg

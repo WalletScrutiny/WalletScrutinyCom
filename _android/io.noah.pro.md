@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: io.noah.pro
 appCountry: 
-released: Sep 23, 2025
+released: 2025-09-23
 updated: 2025-12-31
 version: 1.2.4
-stars: 4.3333335
+stars: 4.3
 ratings: 
 reviews: 4
 website: https://www.bitradex.com/
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: bitradex
+builds: 
 features: 
 
 ---

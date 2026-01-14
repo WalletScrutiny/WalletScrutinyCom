@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.robinhood.gateway
 appCountry: 
-released: Mar 12, 2024
-updated: 2025-11-03
-version: 2025.44.0
-stars: 4.4455447
+released: 2024-03-12
+updated: 2026-01-12
+version: 2026.2.1
+stars: 4.2
 ratings: 
-reviews: 119
+reviews: 140
 website: https://robinhood.com/web3-wallet/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.tiktok.com/@robinhoodapp
 redirect_from: 
 developerName: Robinhood
+builds: 
 features: 
 
 ---

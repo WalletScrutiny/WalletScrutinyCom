@@ -7,12 +7,12 @@ authors:
 appId: com.haxwallet.app
 appCountry: us
 idd: '6447614026'
-released: '2023-08-23T07:00:00Z'
-updated: 2025-11-05
-version: 3.5.0
-stars: 4.83725
-reviews: 424
-website: ''
+released: 2023-08-23
+updated: 2025-12-15
+version: 3.5.2
+stars: 4.8
+reviews: 425
+website: 
 repository: 
 issue: 
 icon: com.haxwallet.app.jpg

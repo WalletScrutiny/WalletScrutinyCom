@@ -7,10 +7,10 @@ authors:
 appId: com.portto.Blocto
 appCountry: us
 idd: '1481181682'
-released: '2019-11-02T07:00:00Z'
+released: 2019-11-02
 updated: 2025-11-17
 version: 4.29.0
-stars: 3.9779
+stars: 4
 reviews: 181
 website: https://blocto.portto.io
 repository: 
@@ -24,7 +24,7 @@ date: 2025-12-01
 signer: 
 twitter: BloctoApp
 social:
-- https://discord.com/invite/QRZTr6yHmY 
+- https://discord.com/invite/QRZTr6yHmY
 features: 
 developerName: portto
 

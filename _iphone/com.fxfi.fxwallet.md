@@ -6,12 +6,12 @@ authors:
 appId: com.fxfi.fxwallet
 appCountry: us
 idd: '1560943983'
-released: '2021-05-05T07:00:00Z'
+released: 2021-05-05
 updated: 2026-01-04
 version: 2.26.0
-stars: 4.60714
+stars: 4.6
 reviews: 28
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.fxfi.fxwallet.jpg

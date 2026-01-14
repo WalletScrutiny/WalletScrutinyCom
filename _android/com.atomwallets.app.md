@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.atomwallets.app
 appCountry: 
-released: Oct 10, 2025
+released: 2025-10-10
 updated: 2025-12-25
 version: 2.1.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PayAtom
+builds: 
 features: 
 
 ---

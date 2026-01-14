@@ -3,16 +3,16 @@ wsId: atoshiGlobal
 title: ATOSHI
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.atom.net
 appCountry: 
-released: Sep 4, 2024
-updated: 2025-11-01
-version: 2.2.3
-stars: 4.0588236
+released: 2024-09-04
+updated: 2025-12-18
+version: 2.2.4
+stars: 4.1
 ratings: 
-reviews: 33
+reviews: 36
 website: https://atoshi.org
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: ATOSHI LIMITED.
+builds: 
 features: 
 
 ---

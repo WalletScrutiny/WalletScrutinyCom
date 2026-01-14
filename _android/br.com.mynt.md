@@ -6,10 +6,10 @@ authors:
 users: 500000
 appId: br.com.mynt
 appCountry: 
-released: Jun 21, 2022
+released: 2022-06-21
 updated: 2026-01-07
 version: 1.101.0
-stars: 4.3809524
+stars: 4.4
 ratings: 
 reviews: 5
 website: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: MYNT TECNOLOGIA LTDA
+builds: 
 features: 
 
 ---

@@ -3,14 +3,14 @@ wsId: tastyCrypto
 title: 'tastycrypto: Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.tastycrypto
 appCountry: 
-released: May 2, 2023
+released: 2023-05-02
 updated: 2025-03-12
 version: 0.4.1
-stars: 4.3636365
+stars: 4.4
 ratings: 
 reviews: 8
 website: https://www.tastycrypto.com/
@@ -29,9 +29,10 @@ social:
 - https://www.youtube.com/channel/UCgGyrBOeDZHYphAHf-Fvnkw
 - https://www.instagram.com/tastycrypto
 - https://www.facebook.com/tastycrypto
-- https://www.tiktok.com/@thetastycrypto 
+- https://www.tiktok.com/@thetastycrypto
 redirect_from: 
 developerName: tastycrypto
+builds: 
 features: 
 
 ---

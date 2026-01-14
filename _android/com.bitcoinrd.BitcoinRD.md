@@ -4,10 +4,10 @@ title: BitcoinRD Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitcoinrd.BitcoinRD
 appCountry: 
-released: Mar 13, 2023
+released: 2023-03-13
 updated: 2025-04-06
 version: 0.17.6
 stars: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BitcoinRD
+builds: 
 features: 
 
 ---

@@ -3,14 +3,14 @@ wsId: coinsavi
 title: 'CoinSavi: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.coinsavi.android
 appCountry: 
-released: Jul 10, 2023
-updated: 2025-04-14
-version: 0.70.1
-stars: 4.3783784
+released: 2023-07-10
+updated: 2025-11-17
+version: 0.70.8
+stars: 4.4
 ratings: 
 reviews: 39
 website: https://coinsavi.com
@@ -27,6 +27,7 @@ twitter: CoinSavi
 social: 
 redirect_from: 
 developerName: Coin Savi
+builds: 
 features: 
 
 ---

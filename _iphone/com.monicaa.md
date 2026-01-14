@@ -7,12 +7,12 @@ authors:
 appId: com.monicaa
 appCountry: ng
 idd: '6446216360'
-released: '2023-03-17T07:00:00Z'
-updated: 2025-11-14
-version: '82.1'
-stars: 4.64517
-reviews: 5163
-website: ''
+released: 2023-03-17
+updated: 2026-01-05
+version: '82.4'
+stars: 4.6
+reviews: 5876
+website: 
 repository: 
 issue: 
 icon: com.monicaa.jpg
@@ -25,7 +25,7 @@ signer:
 twitter: Monicanigeria
 social:
 - https://www.threads.com/@monicanigeria
-- https://www.instagram.com/monicanigeria 
+- https://www.instagram.com/monicanigeria
 features: 
 developerName: Monica technologies limited
 

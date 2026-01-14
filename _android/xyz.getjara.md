@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: xyz.getjara
 appCountry: 
-released: Apr 6, 2024
+released: 2024-04-06
 updated: 2024-12-16
 version: 1.0.15
-stars: 4.65
+stars: 4.7
 ratings: 
 reviews: 16
 website: https://getjara.xyz
@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: xyz.getjara.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
 appHashes: 
-date: 2025-11-09
+date: 2026-01-14
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Jara Team
+builds: 
 features: 
 
 ---

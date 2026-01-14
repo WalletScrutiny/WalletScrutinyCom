@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.ex5.exchange
 appCountry: 
+released: 
 updated: 2025-10-31
 version: 1.0.4
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: EX5
+builds: 
 features: 
 
 ---

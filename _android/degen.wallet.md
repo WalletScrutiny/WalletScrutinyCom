@@ -4,13 +4,13 @@ title: 'Degen Wallet: DeFi, Web3 & NFT'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: degen.wallet
 appCountry: 
-released: May 22, 2023
+released: 2023-05-22
 updated: 2025-10-17
 version: '1.132'
-stars: 4.28
+stars: 4.3
 ratings: 
 reviews: 17
 website: https://degenforest.com
@@ -27,9 +27,10 @@ twitter: 0xdegenforest
 social:
 - https://discord.com/invite/ATES8Kcwd8
 - https://www.youtube.com/@degenforest
-- https://t.me/degenforestdao 
+- https://t.me/degenforestdao
 redirect_from: 
 developerName: Degen Forest, DAO LLC
+builds: 
 features: 
 
 ---

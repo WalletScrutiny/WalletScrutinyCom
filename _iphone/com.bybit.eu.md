@@ -3,16 +3,16 @@ wsId: bybitEU
 title: 'Bybit.eu: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bybit.eu
 appCountry: gr
 idd: '6745866031'
-released: '2025-07-14T07:00:00Z'
-updated: 2025-09-30
-version: 5.4.1
-stars: 4.71028
-reviews: 107
-website: ''
+released: 2025-07-14
+updated: 2026-01-09
+version: 5.8.10
+stars: 4.7
+reviews: 143
+website: 
 repository: 
 issue: 
 icon: com.bybit.eu.jpg

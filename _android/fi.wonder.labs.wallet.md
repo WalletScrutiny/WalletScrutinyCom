@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: fi.wonder.labs.wallet
 appCountry: 
-released: Dec 20, 2024
+released: 2024-12-20
 updated: 2025-03-11
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitbuy
+builds: 
 features: 
 
 ---

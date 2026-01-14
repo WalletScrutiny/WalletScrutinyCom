@@ -3,14 +3,14 @@ wsId: oktoCrypto
 title: 'Okto: Crypto Trading Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.coindcx.okto
 appCountry: 
-released: Oct 28, 2024
-updated: 2025-11-06
-version: 3.72.002
-stars: 4
+released: 2024-10-28
+updated: 2025-12-12
+version: 3.77.001
+stars: 3.9
 ratings: 
 reviews: 4
 website: https://okto.tech/
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Okto Official
+builds: 
 features: 
 
 ---

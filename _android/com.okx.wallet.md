@@ -4,15 +4,15 @@ title: 'OKX Wallet: Portal to Web3'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.okx.wallet
 appCountry: 
-released: Mar 21, 2025
-updated: 2025-11-02
-version: 6.144.0
-stars: 4.0694447
+released: 2025-03-21
+updated: 2025-12-31
+version: 6.151.0
+stars: 4.1
 ratings: 
-reviews: 27
+reviews: 32
 website: 
 repository: 
 issue: 
@@ -26,8 +26,9 @@ signer:
 twitter: wallet
 social: 
 redirect_from: 
-developerName: OKX
-features:
+developerName: OKX Technology Inc.
+builds: 
+features: 
 
 ---
 

@@ -1,33 +1,33 @@
 ---
 title: Cryptonow Card
-appId: cryptonowcard 
+appId: cryptonowcard
 authors:
 - danny
 released: 
-discontinued:
-updated:
-version:
-binaries:
-dimensions:
-weight:
+discontinued: 
+updated: 
+version: 
+binaries: 
+dimensions: 
+weight: 
 provider: Värdex Suisse AG
 providerWebsite: https://cryptonow.ch
 website: https://www.cryptonow.ch/en-ch/secure-crypto-plattform
 shop: https://www.cryptonow.ch/en-ch/where-to-buy
 country: CH
-price:
-repository:
-issue:
+price: 
+repository: 
+issue: 
 icon: cryptonowcard.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: prefilled
 date: 2025-11-11
-signer:
-twitter:
+signer: 
+twitter: 
 social:
 - https://www.linkedin.com/company/cryptonow-ch
-features:
+features: 
 
 ---
 

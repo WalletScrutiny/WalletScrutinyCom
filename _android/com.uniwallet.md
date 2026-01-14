@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.uniwallet
 appCountry: 
-released: Jan 5, 2025
+released: 2025-01-05
 updated: 2025-09-18
 version: 1.1.0
-stars: 4.4615383
+stars: 4.5
 ratings: 
 reviews: 2
 website: https://uniwall.et/
@@ -30,6 +30,7 @@ social:
 - https://web.facebook.com/uniwalletapp
 redirect_from: 
 developerName: UniWallet Ltd.
+builds: 
 features: 
 
 ---

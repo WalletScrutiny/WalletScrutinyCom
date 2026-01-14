@@ -7,11 +7,11 @@ authors:
 appId: com.finverse-labs.openwallet-mainnet
 appCountry: ee
 idd: '6502636684'
-released: '2024-06-18T07:00:00Z'
-updated: 2025-11-02
-version: '1.33'
+released: 2024-06-18
+updated: 2025-12-13
+version: '1.36'
 stars: 5
-reviews: 36
+reviews: 37
 website: https://openwallet.finance/
 repository: 
 issue: 

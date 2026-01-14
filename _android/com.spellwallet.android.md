@@ -3,16 +3,16 @@ wsId: spellwallet
 title: Spell Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.spellwallet.android
 appCountry: 
-released: Apr 23, 2025
-updated: 2025-10-31
-version: 1.14.0
-stars: 4.841584
+released: 2025-04-23
+updated: 2025-11-14
+version: 1.15.0
+stars: 4.9
 ratings: 
-reviews: 469
+reviews: 474
 website: https://spellwallet.io/
 repository: 
 issue: 
@@ -25,9 +25,10 @@ date: 2025-12-13
 signer: 
 twitter: spell_club
 social:
-- https://t.me/spell_wallet 
+- https://t.me/spell_wallet
 redirect_from: 
 developerName: Spell Labs LLC
+builds: 
 features: 
 
 ---

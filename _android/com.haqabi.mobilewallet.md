@@ -7,6 +7,7 @@ authors:
 users: 10000
 appId: com.haqabi.mobilewallet
 appCountry: 
+released: 
 updated: 2025-07-16
 version: '1.21'
 stars: 
@@ -26,6 +27,7 @@ twitter: HaqabiHQ
 social: 
 redirect_from: 
 developerName: Haqqex Ltd
+builds: 
 features: 
 
 ---

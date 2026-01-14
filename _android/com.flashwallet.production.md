@@ -7,7 +7,7 @@ authors:
 users: 50000
 appId: com.flashwallet.production
 appCountry: 
-released: Oct 23, 2023
+released: 2023-10-23
 updated: 2025-10-31
 version: '31.0'
 stars: 
@@ -27,6 +27,7 @@ twitter: Flash_Techno_Of
 social: 
 redirect_from: 
 developerName: Flash Wallet
+builds: 
 features: 
 
 ---

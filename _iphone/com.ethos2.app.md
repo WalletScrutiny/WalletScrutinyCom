@@ -7,7 +7,7 @@ authors:
 appId: com.ethos2.app
 appCountry: nl
 idd: '6450948705'
-released: '2023-09-10T07:00:00Z'
+released: 2023-09-10
 updated: 2025-04-23
 version: 5.1.0
 stars: 4

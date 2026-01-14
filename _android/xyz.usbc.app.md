@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: xyz.usbc.app
 appCountry: 
-released: Jul 14, 2025
+released: 2025-07-14
 updated: 2025-07-16
 version: 1.1.2025071502
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Omnumi
+builds: 
 features: 
 
 ---

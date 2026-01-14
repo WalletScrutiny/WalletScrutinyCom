@@ -3,12 +3,13 @@ wsId: afridax
 title: 'AFRIDAX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.afridax.exchange
 appCountry: 
-updated: 2025-10-24
-version: 0.7.1
+released: 
+updated: 2025-11-26
+version: 0.7.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter: AfridaxLTD
 social: 
 redirect_from: 
 developerName: ExoGroup
+builds: 
 features: 
 
 ---

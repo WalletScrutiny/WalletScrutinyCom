@@ -7,11 +7,11 @@ authors:
 appId: com.onboard.wallet
 appCountry: us
 idd: '1665198778'
-released: '2025-08-19T07:00:00Z'
-updated: 2025-11-12
-version: 3.0.7
-stars: 4
-reviews: 3
+released: 2025-08-19
+updated: 2025-12-15
+version: 3.1.1
+stars: 4.4
+reviews: 5
 website: https://onboard.xyz/
 repository: 
 issue: 

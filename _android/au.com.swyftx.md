@@ -3,12 +3,13 @@ wsId: swyftx
 title: 'Swyftx: Buy Bitcoin, ETH & SOL'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: au.com.swyftx
 appCountry: 
-updated: 2025-10-30
-version: 2.8.25
+released: 
+updated: 2026-01-13
+version: 2.8.34
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +31,7 @@ social:
 - https://www.reddit.com/r/Swyftx
 redirect_from: 
 developerName: Swyftx Pty Ltd
+builds: 
 features: 
 
 ---

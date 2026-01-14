@@ -6,6 +6,7 @@ authors:
 users: 5000
 appId: com.deskoin.app
 appCountry: 
+released: 
 updated: 2025-12-18
 version: 6.21.14
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Deskoin
+builds: 
 features: 
 
 ---

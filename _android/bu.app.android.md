@@ -4,15 +4,15 @@ title: 'Bitunix Pro: Trade Bitcoin'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: bu.app.android
 appCountry: 
-released: Apr 29, 2025
-updated: 2025-10-30
-version: 3.7.0
-stars: 3.9629629
+released: 2025-04-29
+updated: 2026-01-13
+version: 3.14.1
+stars: 4
 ratings: 
-reviews: 49
+reviews: 61
 website: https://www.unixcrypto.net
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/bitunix.official
 redirect_from: 
 developerName: Bitunix Pro
+builds: 
 features: 
 
 ---

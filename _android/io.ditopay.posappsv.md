@@ -3,11 +3,11 @@ wsId: ditobanxPOS
 title: DitoBanx POS Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.ditopay.posappsv
 appCountry: 
-released: Oct 3, 2021
+released: 2021-10-03
 updated: 2024-03-07
 version: '1.31'
 stars: 
@@ -27,9 +27,10 @@ twitter: ditobanx
 social:
 - https://www.facebook.com/ditobanx
 - https://www.instagram.com/ditobanx
-- https://www.linkedin.com/company/ditobanx 
+- https://www.linkedin.com/company/ditobanx
 redirect_from: 
 developerName: DitoBanx
+builds: 
 features: 
 
 ---

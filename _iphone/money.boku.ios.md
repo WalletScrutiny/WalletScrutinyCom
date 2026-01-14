@@ -7,10 +7,10 @@ authors:
 appId: money.boku.ios
 appCountry: us
 idd: '1659648196'
-released: '2025-04-03T07:00:00Z'
+released: 2025-04-03
 updated: 2025-12-24
 version: 1.11.22
-stars: 4.75861
+stars: 4.8
 reviews: 58
 website: https://neverless.com
 repository: 

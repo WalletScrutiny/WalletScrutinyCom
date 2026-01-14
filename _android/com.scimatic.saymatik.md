@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.scimatic.saymatik
 appCountry: 
-released: Oct 10, 2022
+released: 2022-10-10
 updated: 2025-08-16
 version: 0.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: scimatic
+builds: 
 features: 
 
 ---

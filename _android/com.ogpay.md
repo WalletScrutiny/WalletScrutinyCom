@@ -12,7 +12,7 @@ updated: 2025-12-22
 version: VARY
 stars: 4.7
 ratings: 42
-reviews: 33
+reviews: 34
 website: https://www.ogpaywallet.com
 repository: 
 issue: 

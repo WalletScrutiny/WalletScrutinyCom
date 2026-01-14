@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: io.ccview.wallet
 appCountry: 
-released: Dec 2, 2025
+released: 2025-12-02
 updated: 2025-12-18
 version: 1.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PixelPlex Apps
+builds: 
 features: 
 
 ---

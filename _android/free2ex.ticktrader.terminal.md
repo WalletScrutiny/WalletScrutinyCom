@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: free2ex.ticktrader.terminal
 appCountry: 
-released: Apr 13, 2020
+released: 2020-04-13
 updated: 2024-10-07
 version: 4.10.4.7877 (2024.09.20)
-stars: 4.714286
+stars: 4.7
 ratings: 
 reviews: 26
 website: https://www.free2ex.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: FREE2EX Platform
+builds: 
 features: 
 
 ---

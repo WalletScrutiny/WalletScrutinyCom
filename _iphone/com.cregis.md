@@ -7,12 +7,12 @@ authors:
 appId: com.cregis
 appCountry: us
 idd: '6447176492'
-released: '2023-04-04T07:00:00Z'
-updated: 2025-09-24
-version: 3.5.1
-stars: 2.33333
+released: 2023-04-04
+updated: 2025-12-21
+version: 3.6.0
+stars: 2.3
 reviews: 3
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.cregis.jpg

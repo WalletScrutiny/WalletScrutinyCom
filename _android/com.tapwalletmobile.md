@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tapwalletmobile
 appCountry: 
-released: Jul 24, 2025
+released: 2025-07-24
 updated: 2025-10-27
 version: 1.0.27
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Trac Systems
+builds: 
 features: 
 
 ---

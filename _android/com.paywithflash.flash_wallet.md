@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: com.paywithflash.flash_wallet
 appCountry: 
-released: Jul 22, 2025
-updated: 2025-10-27
-version: 1.0.13
+released: 2025-07-22
+updated: 2025-12-30
+version: 1.0.16
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Flash Lightning Solutions
+builds: 
 features: 
 
 ---

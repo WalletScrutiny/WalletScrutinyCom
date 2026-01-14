@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: io.bitvenus.app.first
 appCountry: 
-released: Jul 28, 2023
-updated: 2025-10-31
-version: 5.6.29
+released: 2023-07-28
+updated: 2026-01-09
+version: 5.7.0
 stars: 2.6
 ratings: 
 reviews: 5
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/user/bit_venus
 redirect_from: 
 developerName: Bitvenus Technology Ltd.
+builds: 
 features: 
 
 ---

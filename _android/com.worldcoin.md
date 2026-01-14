@@ -8,11 +8,11 @@ users: 10000000
 appId: com.worldcoin
 appCountry: 
 released: 2022-10-04
-updated: 2026-01-07
-version: 4.0.304
+updated: 2026-01-14
+version: 4.0.400
 stars: 4.6
 ratings: 
-reviews: 639
+reviews: 645
 website: https://worldcoin.org
 repository: 
 issue: 

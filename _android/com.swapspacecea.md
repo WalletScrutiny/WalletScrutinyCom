@@ -3,10 +3,11 @@ wsId:
 title: Crypto Exchange | Buy BTC, ETH
 altTitle: 
 authors:
-- danny 
-users: 1000
+- danny
+users: 5000
 appId: com.swapspacecea
 appCountry: 
+released: 
 updated: 2025-08-06
 version: 1.4.1
 stars: 
@@ -27,9 +28,10 @@ social:
 - https://www.linkedin.com/company/swapspace-co
 - https://t.me/SwapSpace
 - https://discord.com/invite/9aKHSfMd3p
-- https://www.youtube.com/@SwapSpaceCo 
+- https://www.youtube.com/@SwapSpaceCo
 redirect_from: 
 developerName: SwapSpace — Crypto Exchange Aggregator
+builds: 
 features: 
 
 ---

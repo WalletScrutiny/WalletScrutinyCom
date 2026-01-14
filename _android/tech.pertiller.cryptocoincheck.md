@@ -8,8 +8,8 @@ users: 10000
 appId: tech.pertiller.cryptocoincheck
 appCountry: 
 released: 2018-04-05
-updated: 2025-12-26
-version: 1.8.0
+updated: 2026-01-11
+version: 1.9.2
 stars: 4.3
 ratings: 
 reviews: 1

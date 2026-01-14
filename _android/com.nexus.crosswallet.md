@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.nexus.crosswallet
 appCountry: 
-released: Feb 28, 2025
-updated: 2025-11-04
-version: 1.11.0
-stars: 3.1666667
+released: 2025-02-28
+updated: 2026-01-06
+version: 1.14.0
+stars: 3.5
 ratings: 
-reviews: 7
+reviews: 8
 website: http://to.nexus
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: NEXUS
+builds: 
 features: 
 
 ---

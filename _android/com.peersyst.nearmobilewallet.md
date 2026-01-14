@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.peersyst.nearmobilewallet
 appCountry: 
-released: Feb 21, 2023
-updated: 2025-11-05
-version: 3.1.4
-stars: 4.643172
+released: 2023-02-21
+updated: 2025-12-26
+version: 3.3.2
+stars: 4.6
 ratings: 
-reviews: 1343
+reviews: 1365
 website: https://nearmobile.app/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: NEARMobile_app
 social: 
 redirect_from: 
 developerName: Peersyst Technology
+builds: 
 features: 
 
 ---

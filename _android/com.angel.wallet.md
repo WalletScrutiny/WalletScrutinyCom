@@ -3,12 +3,12 @@ wsId:
 title: Angel Wallet
 altTitle: 
 authors: 
-users: 100
+users: 5000
 appId: com.angel.wallet
 appCountry: 
-released: Sep 15, 2025
-updated: 2025-11-05
-version: '1.4'
+released: 2025-09-15
+updated: 2025-11-16
+version: '1.5'
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ issue:
 icon: com.angel.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Eternal EXchange
+builds: 
 features: 
 
 ---

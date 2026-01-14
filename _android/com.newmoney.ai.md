@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.newmoney.ai
 appCountry: 
-released: Apr 28, 2025
+released: 2025-04-28
 updated: 2025-08-15
 version: 1.8.10
-stars: 4.888889
+stars: 4.6
 ratings: 
-reviews: 9
+reviews: 10
 website: https://newmoney.ai/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/newmoneyai
 redirect_from: 
 developerName: NewmoneyAI
+builds: 
 features: 
 
 ---

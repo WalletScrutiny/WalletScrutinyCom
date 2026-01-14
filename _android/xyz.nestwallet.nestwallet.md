@@ -3,16 +3,16 @@ wsId:
 title: Nest Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: xyz.nestwallet.nestwallet
 appCountry: 
-released: Dec 13, 2023
+released: 2023-12-13
 updated: 2025-05-15
 version: 2.2.3
-stars: 4.6363635
+stars: 4.3
 ratings: 
-reviews: 6
+reviews: 7
 website: https://nestwallet.xyz
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Nest Wallet
+builds: 
 features: 
 
 ---

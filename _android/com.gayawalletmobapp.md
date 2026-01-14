@@ -6,10 +6,10 @@ authors:
 users: 100000
 appId: com.gayawalletmobapp
 appCountry: 
-released: Apr 26, 2025
+released: 2025-04-26
 updated: 2026-01-04
 version: '74'
-stars: 4.21
+stars: 4.2
 ratings: 
 reviews: 362
 website: https://gayawallet.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Blockmob Labs
+builds: 
 features: 
 
 ---

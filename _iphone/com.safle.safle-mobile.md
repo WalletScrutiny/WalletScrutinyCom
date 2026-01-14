@@ -6,7 +6,7 @@ authors:
 appId: com.safle.safle-mobile
 appCountry: us
 idd: '6444435472'
-released: '2023-05-09T07:00:00Z'
+released: 2023-05-09
 updated: 2025-11-12
 version: 1.7.4
 stars: 5

@@ -3,16 +3,16 @@ wsId:
 title: 'Backpack: Buy SOL, BTC, Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: app.backpack.mobile
 appCountry: 
-released: Nov 2, 2023
-updated: 2025-10-27
-version: 2.59.0
-stars: 4.4455447
+released: 2023-11-02
+updated: 2026-01-12
+version: 2.66.0
+stars: 4.3
 ratings: 
-reviews: 54
+reviews: 57
 website: https://backpack.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Backpack App
+builds: 
 features: 
 
 ---

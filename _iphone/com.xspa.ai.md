@@ -7,12 +7,12 @@ authors:
 appId: com.xspa.ai
 appCountry: us
 idd: '6749689372'
-released: '2025-08-17T07:00:00Z'
+released: 2025-08-17
 updated: 2025-12-18
 version: 1.0.7
 stars: 5
 reviews: 10
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.xspa.ai.jpg
@@ -27,7 +27,7 @@ social:
 - https://www.instagram.com/xspa.ai
 - https://www.youtube.com/@Official-XSPA
 - https://t.me/XSPAuniversechat
-- https://discord.com/invite/dPtxPK3qP9 
+- https://discord.com/invite/dPtxPK3qP9
 features: 
 developerName: XSPA
 

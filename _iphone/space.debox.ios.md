@@ -3,16 +3,16 @@ wsId: deBoxMessenger
 title: 'DeBox: Messenger Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: space.debox.ios
 appCountry: us
 idd: '6444485220'
-released: '2023-02-02T08:00:00Z'
+released: 2023-02-02
 updated: 2025-12-08
 version: 2.1.4
-stars: 4.73864
+stars: 4.7
 reviews: 88
-website: ''
+website: 
 repository: 
 issue: 
 icon: space.debox.ios.jpg

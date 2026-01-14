@@ -3,14 +3,14 @@ wsId:
 title: 'Zelus Wallet: Crypto & NFTs'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.zelus.wallet
 appCountry: 
-released: Nov 29, 2021
+released: 2021-11-29
 updated: 2025-04-04
 version: 1.5.3
-stars: 3.71
+stars: 3.7
 ratings: 
 reviews: 37
 website: https://zelus.io/
@@ -27,9 +27,10 @@ twitter: ZelusWallet
 social:
 - https://www.linkedin.com/company/zeluslabs
 - https://www.instagram.com/zelus_labs
-- https://www.facebook.com/ZelusWallet 
+- https://www.facebook.com/ZelusWallet
 redirect_from: 
 developerName: Zelus IO
+builds: 
 features: 
 
 ---

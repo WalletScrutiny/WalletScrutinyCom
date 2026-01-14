@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.getbitmoney.getbit
 appCountry: 
-released: Jan 16, 2023
+released: 2023-01-16
 updated: 2026-01-11
 version: 2.00.35
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: GetBit
+builds: 
 features: 
 
 ---

@@ -3,16 +3,16 @@ wsId:
 title: MyBTC
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.thisisnumero.mybtc
 appCountry: 
-released: Jun 3, 2013
-updated: 2025-10-22
-version: 8.0.250
-stars: 3.77
+released: 2013-06-03
+updated: 2025-12-04
+version: 8.0.257
+stars: 3.9
 ratings: 
-reviews: 75
+reviews: 76
 website: http://www.btcbahamas.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bahamas Telecommunications Company Ltd
+builds: 
 features: 
 
 ---

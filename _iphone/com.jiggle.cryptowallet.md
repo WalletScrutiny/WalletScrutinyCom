@@ -7,12 +7,12 @@ authors:
 appId: com.jiggle.cryptowallet
 appCountry: us
 idd: '6446089702'
-released: '2023-06-28T07:00:00Z'
+released: 2023-06-28
 updated: 2025-04-14
 version: 1.4.8
-stars: 4.55363
-reviews: 289
-website: ''
+stars: 4.6
+reviews: 288
+website: 
 repository: 
 issue: 
 icon: com.jiggle.cryptowallet.jpg

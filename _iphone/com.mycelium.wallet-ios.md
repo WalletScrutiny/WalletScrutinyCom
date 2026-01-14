@@ -1,6 +1,6 @@
 ---
 wsId: mycelium
-title: Mycelium Bitcoin Wallet
+title: Mycelium Wallet
 altTitle: 
 authors:
 - leo
@@ -8,19 +8,19 @@ appId: com.mycelium.wallet-ios
 appCountry: 
 idd: 943912290
 released: 2014-12-17
-updated: 2023-05-10
-version: '1.18'
-stars: 2.1
-reviews: 388
+updated: 2026-01-05
+version: '2.1'
+stars: 5
+reviews: 1
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
 issue: 
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: sourceavailable
 appHashes: 
-date: 2025-05-14
+date: 2026-01-14
 signer: 
 twitter: MyceliumCom
 social:

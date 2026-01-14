@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: tech.coinflip
 appCountry: 
-released: Aug 19, 2024
-updated: 2025-11-03
-version: 3.8.1
-stars: 4.25
+released: 2024-08-19
+updated: 2025-12-11
+version: 3.10.1
+stars: 4.3
 ratings: 
-reviews: 68
+reviews: 75
 website: https://coinflip.tech/
 repository: 
 issue: 
@@ -28,9 +28,10 @@ social:
 - https://www.instagram.com/coinflip
 - https://www.facebook.com/CoinFlipATM
 - https://www.linkedin.com/company/coinflipusa
-- https://www.youtube.com/channel/UCBW95iOTlj46FuraynCeV1w 
+- https://www.youtube.com/channel/UCBW95iOTlj46FuraynCeV1w
 redirect_from: 
 developerName: GPD Holdings LLC
+builds: 
 features: 
 
 ---

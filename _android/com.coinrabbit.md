@@ -3,12 +3,12 @@ wsId:
 title: CoinRabbit BTC & Crypto Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coinrabbit
 appCountry: 
-released: Jul 21, 2025
-updated: 2025-09-28
-version: 1.0.11
+released: 2025-07-21
+updated: 2025-12-19
+version: 1.0.13
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ issue:
 icon: com.coinrabbit.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CoinRabbit
+builds: 
 features: 
 
 ---

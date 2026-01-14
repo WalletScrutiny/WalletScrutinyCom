@@ -7,7 +7,7 @@ authors:
 appId: ilink.walletverse
 appCountry: us
 idd: '6462672660'
-released: '2023-10-15T07:00:00Z'
+released: 2023-10-15
 updated: 2025-12-17
 version: 1.15.28
 stars: 0
@@ -28,7 +28,7 @@ social:
 - https://discord.com/invite/6HNxuUxnU8
 - https://www.facebook.com/walletverse
 - https://www.instagram.com/walletverse_io
-- https://t.me/walletverse_io 
+- https://t.me/walletverse_io
 features: 
 developerName: ilink Ltd.
 

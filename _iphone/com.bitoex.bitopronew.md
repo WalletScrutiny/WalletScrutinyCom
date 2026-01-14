@@ -7,11 +7,11 @@ authors:
 appId: com.bitoex.bitopronew
 appCountry: tw
 idd: '6468561188'
-released: '2023-10-29T07:00:00Z'
-updated: 2025-11-06
-version: 1.45.4
-stars: 4.58413
-reviews: 4035
+released: 2023-10-29
+updated: 2026-01-06
+version: 1.49.14
+stars: 4.6
+reviews: 4348
 website: http://taplink.cc/bitogroup
 repository: 
 issue: 

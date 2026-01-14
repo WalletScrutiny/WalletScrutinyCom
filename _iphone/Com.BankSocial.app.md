@@ -6,11 +6,11 @@ authors:
 appId: Com.BankSocial.app
 appCountry: us
 idd: '1586052784'
-released: '2021-10-26T07:00:00Z'
+released: 2021-10-26
 updated: 2026-01-09
 version: 2.25.0
-stars: 4.63303
-reviews: 109
+stars: 4.6
+reviews: 110
 website: http://www.banksocial.io
 repository: 
 issue: 

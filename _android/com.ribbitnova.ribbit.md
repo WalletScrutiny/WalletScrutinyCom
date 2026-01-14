@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: com.ribbitnova.ribbit
 appCountry: 
-released: Aug 20, 2025
-updated: 2025-10-26
-version: 1.2.3
+released: 2025-08-20
+updated: 2025-12-23
+version: 1.4.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Ribbit Nova
+builds: 
 features: 
 
 ---

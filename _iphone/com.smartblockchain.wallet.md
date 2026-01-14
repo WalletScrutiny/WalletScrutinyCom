@@ -7,12 +7,12 @@ authors:
 appId: com.smartblockchain.wallet
 appCountry: us
 idd: '6463490400'
-released: '2023-09-20T07:00:00Z'
+released: 2023-09-20
 updated: 2025-11-21
 version: 2.1.1
-stars: 4.19048
+stars: 4.2
 reviews: 21
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.smartblockchain.wallet.jpg

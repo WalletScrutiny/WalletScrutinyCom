@@ -7,7 +7,7 @@ authors:
 appId: ditopos.ditobanx.io
 appCountry: us
 idd: '1618980971'
-released: '2022-07-06T07:00:00Z'
+released: 2022-07-06
 updated: 2022-07-07
 version: 1.1.1
 stars: 3
@@ -26,7 +26,7 @@ twitter: ditobanx
 social:
 - https://www.facebook.com/ditobanx
 - https://www.instagram.com/ditobanx
-- https://www.linkedin.com/company/ditobanx 
+- https://www.linkedin.com/company/ditobanx
 features: 
 developerName: DitoBanx El Salvador
 

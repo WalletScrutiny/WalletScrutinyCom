@@ -7,12 +7,12 @@ authors:
 appId: com.okx.wallet
 appCountry: us
 idd: '6743309484'
-released: '2025-04-15T07:00:00Z'
-updated: 2025-11-18
-version: 6.146.0
-stars: 3.94828
-reviews: 58
-website: ''
+released: 2025-04-15
+updated: 2026-01-13
+version: 6.152.0
+stars: 3.9
+reviews: 66
+website: 
 repository: 
 issue: 
 icon: com.okx.wallet.jpg

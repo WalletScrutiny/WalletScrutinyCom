@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.netdania.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2021-10-10
+date: 2026-01-14
 signer: 
 twitter: 
 social:

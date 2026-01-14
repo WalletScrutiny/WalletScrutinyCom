@@ -1,33 +1,34 @@
 ---
-wsId:
+wsId: 
 title: BtcDana - Investing & Income
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 10000000
 appId: com.btcdana.online
-appCountry:
-released: Jul 23, 2019
-updated: 2025-10-16
-version: 2.2.1
-stars: 4.38
-ratings:
-reviews: 172
+appCountry: 
+released: 2019-07-23
+updated: 2025-12-25
+version: 2.5.0
+stars: 4.3
+ratings: 
+reviews: 170
 website: https://www.btcdana.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.btcdana.online.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosendreceive
-appHashes:
+appHashes: 
 date: 2025-11-17
-signer:
-twitter:
-social:
-redirect_from:
+signer: 
+twitter: 
+social: 
+redirect_from: 
 developerName: DanaByte Trading
-features:
+builds: 
+features: 
 
 ---
 

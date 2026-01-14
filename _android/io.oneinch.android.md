@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: io.oneinch.android
 appCountry: 
-released: Mar 19, 2022
-updated: 2025-10-28
-version: 2.7.1-g
-stars: 4.108911
+released: 2022-03-19
+updated: 2025-12-26
+version: 2.11.0-g
+stars: 4
 ratings: 
-reviews: 179
+reviews: 181
 website: https://1inch.com/wallet/
 repository: 
 issue: 
@@ -28,9 +28,10 @@ social:
 - https://www.reddit.com/r/1inch
 - https://discord.com/invite/1inch
 - https://t.me/OneInchNetworkNews
-- https://www.youtube.com/channel/UCk0nvK4bHpteQXZKv7lkq5w 
+- https://www.youtube.com/channel/UCk0nvK4bHpteQXZKv7lkq5w
 redirect_from: 
 developerName: Degensoft Ltd.
+builds: 
 features: 
 
 ---

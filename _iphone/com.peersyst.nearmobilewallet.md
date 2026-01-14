@@ -7,11 +7,11 @@ authors:
 appId: com.peersyst.nearmobilewallet
 appCountry: us
 idd: '6443501225'
-released: '2023-03-20T07:00:00Z'
-updated: 2025-11-16
-version: '2.31'
-stars: 4.51579
-reviews: 791
+released: 2023-03-20
+updated: 2025-12-31
+version: '2.34'
+stars: 4.5
+reviews: 805
 website: https://nearmobile.app/
 repository: 
 issue: 

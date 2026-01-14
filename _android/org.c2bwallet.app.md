@@ -7,9 +7,9 @@ authors:
 users: 1000
 appId: org.c2bwallet.app
 appCountry: 
-released: Jul 25, 2024
-updated: 2025-11-07
-version: 1.4.0
+released: 2024-07-25
+updated: 2025-12-25
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: Cash2Bitcoinatm
 social: 
 redirect_from: 
 developerName: Cash2Bitcoin
+builds: 
 features: 
 
 ---

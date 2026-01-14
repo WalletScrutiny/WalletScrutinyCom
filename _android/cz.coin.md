@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: cz.coin
 appCountry: 
-released: Oct 1, 2025
+released: 2025-10-01
 updated: 2025-11-25
 version: 0.6.2
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: GENERAL BYTES
+builds: 
 features: 
 
 ---

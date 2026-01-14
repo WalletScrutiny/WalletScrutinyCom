@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.oslmobile.global
 appCountry: 
-released: May 8, 2025
-updated: 2025-11-03
-version: 1.8.3
+released: 2025-05-08
+updated: 2026-01-14
+version: 1.10.2
 stars: 
 ratings: 
 reviews: 
@@ -27,9 +27,10 @@ twitter: OSLdotcom
 social:
 - https://discord.com/invite/oslglobal
 - https://www.linkedin.com/company/osldotcom
-- https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A 
+- https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A
 redirect_from: 
 developerName: BC Technology (HK) Limited
+builds: 
 features: 
 
 ---

@@ -3,16 +3,16 @@ wsId: easyBitcoin
 title: easyBitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: app.easybitcoin
 appCountry: us
 idd: '6746941684'
-released: '2025-09-09T07:00:00Z'
-updated: 2025-10-23
-version: 1.1.2
-stars: 4.33333
-reviews: 6
-website: ''
+released: 2025-09-09
+updated: 2025-11-20
+version: 1.1.4
+stars: 3.8
+reviews: 9
+website: 
 repository: 
 issue: 
 icon: app.easybitcoin.jpg

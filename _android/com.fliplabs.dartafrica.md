@@ -1,33 +1,34 @@
 ---
-wsId:
+wsId: 
 title: DartAfrica | Sell Bitcoin Fast
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000
 appId: com.fliplabs.dartafrica
-appCountry:
-released: May 24, 2023
+appCountry: 
+released: 2023-05-24
 updated: 2024-02-29
 version: 1.1.0
-stars:
-ratings:
-reviews:
+stars: 
+ratings: 
+reviews: 
 website: https://dartafrica.io
-repository:
-issue:
+repository: 
+issue: 
 icon: com.fliplabs.dartafrica.png
-bugbounty:
+bugbounty: 
 meta: stale
 verdict: custodial
-appHashes:
+appHashes: 
 date: 2025-11-17
-signer:
+signer: 
 twitter: dartafrica
-social:
-redirect_from:
+social: 
+redirect_from: 
 developerName: FLIP Labs
-features:
+builds: 
+features: 
 
 ---
 

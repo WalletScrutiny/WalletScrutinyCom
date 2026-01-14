@@ -3,15 +3,16 @@ wsId: lemonCash
 title: 'Lemon Cash: tu wallet crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000000
 appId: com.applemoncash
 appCountry: 
-updated: 2025-11-07
-version: 2.7.79
-stars: 4.0526314
+released: 
+updated: 2025-12-17
+version: 2.7.84
+stars: 3.9
 ratings: 
-reviews: 10
+reviews: 11
 website: https://lemon.me
 repository: 
 issue: 
@@ -26,6 +27,7 @@ twitter: lemonapp_ar
 social: 
 redirect_from: 
 developerName: Lemon Cash Inc
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 1000
 appId: com.exchange1.ex1
 appCountry: 
+released: 
 updated: 2025-12-22
 version: 1.0.5
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: INSTIX GLOBAL LLC
+builds: 
 features: 
 
 ---

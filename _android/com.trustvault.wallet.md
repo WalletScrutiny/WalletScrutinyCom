@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.trustvault.wallet
 appCountry: 
-released: Dec 8, 2025
+released: 2025-12-08
 updated: 2025-12-26
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: UNREAL VENTURES LLC
+builds: 
 features: 
 
 ---

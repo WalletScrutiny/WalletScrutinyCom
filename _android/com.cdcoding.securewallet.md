@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.cdcoding.securewallet
 appCountry: 
-released: Jul 5, 2024
+released: 2024-07-05
 updated: 2026-01-11
 version: 1.2.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Christophe Da Costa
+builds: 
 features: 
 
 ---

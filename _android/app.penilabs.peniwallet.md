@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: app.penilabs.peniwallet
 appCountry: 
-released: Oct 2, 2025
+released: 2025-10-02
 updated: 2025-12-23
 version: 1.3.0
 stars: 4.2
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: SirMapy & Co. Limited
+builds: 
 features: 
 
 ---

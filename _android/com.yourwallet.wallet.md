@@ -3,13 +3,13 @@ wsId: yourWalletBitcoinTrading
 title: Your Wallet  Bitcoin Trading
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.yourwallet.wallet
 appCountry: 
-released: May 23, 2025
-updated: 2025-11-07
-version: 1.0.30
+released: 2025-05-23
+updated: 2026-01-09
+version: 1.0.47
 stars: 
 ratings: 
 reviews: 
@@ -26,9 +26,10 @@ signer:
 twitter: yourwallettr
 social:
 - https://t.me/yourwallettr
-- https://www.instagram.com/yourwallettr 
+- https://www.instagram.com/yourwallettr
 redirect_from: 
 developerName: Your Wallet LTD
+builds: 
 features: 
 
 ---

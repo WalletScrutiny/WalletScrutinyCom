@@ -7,9 +7,9 @@ authors:
 users: 5000
 appId: com.paribu.self
 appCountry: 
-released: Oct 11, 2024
-updated: 2025-10-23
-version: 1.6.2
+released: 2024-10-11
+updated: 2026-01-05
+version: 1.7.3
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: ParibuCom
 social: 
 redirect_from: 
 developerName: PARİBU
+builds: 
 features: 
 
 ---

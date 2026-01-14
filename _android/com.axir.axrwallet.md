@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.axir.axrwallet
 appCountry: 
-released: May 22, 2024
+released: 2024-05-22
 updated: 2025-01-15
 version: 0.2.37
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Axir Wallet
+builds: 
 features: 
 
 ---

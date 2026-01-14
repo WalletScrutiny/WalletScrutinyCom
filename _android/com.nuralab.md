@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.nuralab
 appCountry: 
-released: Jun 15, 2025
+released: 2025-06-15
 updated: 2025-08-03
 version: 2.1.0
 stars: 2.9
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Nura labs
+builds: 
 features: 
 
 ---

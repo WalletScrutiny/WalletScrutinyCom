@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.mojitowallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2023-09-06
+date: 2026-01-14
 signer: 
 twitter: mintlayer
 social:

@@ -9,10 +9,10 @@ appId: com.magiceden.wallet
 appCountry: 
 released: 2024-05-17
 updated: 2026-01-05
-version: 3.1.1
+version: 3.2.0
 stars: 4.6
 ratings: 
-reviews: 119
+reviews: 120
 website: https://help.magiceden.io/en/
 repository: 
 issue: 

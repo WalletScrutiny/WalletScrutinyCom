@@ -6,12 +6,12 @@ authors:
 appId: com.cakewallet.monero
 appCountry: us
 idd: '1601990386'
-released: '2022-01-07T08:00:00Z'
+released: 2022-01-07
 updated: 2025-12-22
 version: 5.6.5
-stars: 4.71429
-reviews: 357
-website: ''
+stars: 4.7
+reviews: 358
+website: 
 repository: 
 issue: 
 icon: com.cakewallet.monero.jpg

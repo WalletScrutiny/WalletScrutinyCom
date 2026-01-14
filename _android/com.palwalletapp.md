@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.palwalletapp
 appCountry: 
-released: Mar 20, 2023
+released: 2023-03-20
 updated: 2025-10-09
 version: 1.0.29
 stars: 
@@ -27,6 +27,7 @@ twitter: Pal_wallet
 social: 
 redirect_from: 
 developerName: PalWallet LTD
+builds: 
 features: 
 
 ---

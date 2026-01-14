@@ -6,10 +6,10 @@ authors:
 users: 5000
 appId: com.wallet.thepulse
 appCountry: 
-released: Aug 8, 2023
+released: 2023-08-08
 updated: 2026-01-09
 version: 5.3.6
-stars: 3.32
+stars: 3.3
 ratings: 
 reviews: 21
 website: https://thepulsewallet.org/
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: THE PULSE WALLET
+builds: 
 features: 
 
 ---

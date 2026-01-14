@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.amaxg.bizapaywallet
 appCountry: 
-released: Jan 13, 2025
+released: 2025-01-13
 updated: 2025-01-16
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BIZA Project
+builds: 
 features: 
 
 ---

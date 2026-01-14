@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: io.myabcwallet.mpc
 appCountry: 
-released: Dec 22, 2022
+released: 2022-12-22
 updated: 2025-10-31
 version: 2.10.4
 stars: 
@@ -26,9 +26,10 @@ signer:
 twitter: AhnLab_ABC
 social:
 - https://www.facebook.com/abcwallet2022
-- https://www.youtube.com/@AhnLabBlockchainCompany 
+- https://www.youtube.com/@AhnLabBlockchainCompany
 redirect_from: 
 developerName: AhnLab Blockchain Company, INC.
+builds: 
 features: 
 
 ---

@@ -3,16 +3,16 @@ wsId: cryptoNow
 title: 'Cryptonow: Swiss Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: ch.cryptonow.wallet
 appCountry: ch
 idd: '1607143703'
-released: '2022-07-07T07:00:00Z'
+released: 2022-07-07
 updated: 2025-11-04
 version: 2.2.1
-stars: 3.51613
-reviews: 62
-website: ''
+stars: 3.5
+reviews: 76
+website: 
 repository: 
 issue: 
 icon: ch.cryptonow.wallet.jpg

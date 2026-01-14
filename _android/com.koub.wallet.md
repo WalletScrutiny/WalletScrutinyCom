@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.koub.wallet
 appCountry: 
-released: Jan 9, 2025
+released: 2025-01-09
 updated: 2025-01-09
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BFour Production
+builds: 
 features: 
 
 ---

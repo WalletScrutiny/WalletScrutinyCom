@@ -7,8 +7,9 @@ authors:
 users: 100000
 appId: com.bybit.eu
 appCountry: 
-updated: 2025-09-26
-version: 5.4.1
+released: 
+updated: 2026-01-08
+version: 5.8.6
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter: BybitEU
 social: 
 redirect_from: 
 developerName: Bybit EU GmbH
+builds: 
 features: 
 
 ---

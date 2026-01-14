@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.metacoino.app
 appCountry: 
-released: Oct 4, 2023
+released: 2023-10-04
 updated: 2025-07-02
 version: 3.5.9
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Coinoverse Team
+builds: 
 features: 
 
 ---

@@ -7,12 +7,12 @@ authors:
 appId: com.si14wallet
 appCountry: ru
 idd: '6748298980'
-released: '2025-09-24T07:00:00Z'
+released: 2025-09-24
 updated: 2025-10-13
 version: 1.2.5
 stars: 5
 reviews: 3
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.si14wallet.jpg

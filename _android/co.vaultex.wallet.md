@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: co.vaultex.wallet
 appCountry: 
-released: May 20, 2024
+released: 2024-05-20
 updated: 2024-05-20
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Vaultex Ltd
+builds: 
 features: 
 
 ---

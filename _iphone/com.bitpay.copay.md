@@ -11,7 +11,7 @@ released: 2015-06-01
 updated: 2021-06-01
 version: 12.5.6
 stars: 3.7
-reviews: 181
+reviews: 180
 website: https://copay.io
 repository: 
 issue: 

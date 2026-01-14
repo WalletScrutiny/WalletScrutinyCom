@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.opz.dev
 appCountry: 
-released: Aug 16, 2023
+released: 2023-08-16
 updated: 2025-05-16
 version: 2.12.1
-stars: 4.969697
+stars: 5
 ratings: 
 reviews: 31
 website: https://www.opz.io
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/SSmXDHCMZC
 redirect_from: 
 developerName: OPZ
+builds: 
 features: 
 
 ---

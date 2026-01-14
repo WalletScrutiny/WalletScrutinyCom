@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.lexaawallet.user
 appCountry: 
-released: Oct 9, 2025
+released: 2025-10-09
 updated: 2025-12-05
 version: '3.0'
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Swayam Health
+builds: 
 features: 
 
 ---

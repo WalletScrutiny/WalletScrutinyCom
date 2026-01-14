@@ -7,11 +7,11 @@ authors:
 appId: com.okx.tr
 appCountry: tr
 idd: '6475769800'
-released: '2024-02-07T08:00:00Z'
-updated: 2025-11-18
-version: 6.146.0
-stars: 4.50934
-reviews: 2087
+released: 2024-02-07
+updated: 2026-01-07
+version: 6.151.1
+stars: 4.5
+reviews: 2138
 website: https://tr.okx.com/download
 repository: 
 issue: 

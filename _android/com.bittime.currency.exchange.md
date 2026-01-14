@@ -7,9 +7,9 @@ authors:
 users: 500000
 appId: com.bittime.currency.exchange
 appCountry: 
-released: Sep 23, 2022
-updated: 2025-10-13
-version: 2.0.2
+released: 2022-09-23
+updated: 2025-12-26
+version: 2.0.5
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: bittimexchange
 social: 
 redirect_from: 
 developerName: Bittime Exchanges
+builds: 
 features: 
 
 ---

@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.si14
 appCountry: 
-released: May 5, 2025
+released: 2025-05-05
 updated: 2025-10-09
 version: 1.2.5
 stars: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Si14 Bank
+builds: 
 features: 
 
 ---

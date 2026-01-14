@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: app.oxwallet
 appCountry: 
-released: Oct 14, 2024
+released: 2024-10-14
 updated: 2025-04-06
 version: 2.2.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Oxlabs group
+builds: 
 features: 
 
 ---

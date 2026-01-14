@@ -7,12 +7,12 @@ authors:
 appId: com.bitvenus.exchange
 appCountry: us
 idd: '6453759917'
-released: '2023-08-14T07:00:00Z'
-updated: 2025-12-22
-version: 5.6.34
-stars: 2.63636
+released: 2023-08-14
+updated: 2026-01-12
+version: 5.7.0
+stars: 2.6
 reviews: 11
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitvenus.exchange.jpg

@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.lfwallet.app
 appCountry: 
-released: Jul 2, 2025
-updated: 2025-10-29
-version: 1.1.1
+released: 2025-07-02
+updated: 2026-01-02
+version: 1.2.3
 stars: 5
 ratings: 
 reviews: 6
@@ -22,11 +22,12 @@ meta: ok
 verdict: nobtc
 appHashes: 
 date: 2025-11-19
-signer:
+signer: 
 twitter: LFWallet
 social: 
 redirect_from: 
 developerName: L F L Information Technology
+builds: 
 features: 
 
 ---

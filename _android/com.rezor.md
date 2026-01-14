@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.rezor
 appCountry: 
-released: Apr 5, 2025
-updated: 2025-10-31
+released: 2025-04-05
+updated: 2026-01-12
 version: '1'
 stars: 5
 ratings: 
-reviews: 10
+reviews: 12
 website: 
 repository: 
 issue: 
@@ -26,9 +26,10 @@ signer:
 twitter: rezor_official
 social:
 - https://t.me/rezorofficial
-- https://www.instagram.com/rezor.rzr 
+- https://www.instagram.com/rezor.rzr
 redirect_from: 
 developerName: saitaresilia
+builds: 
 features: 
 
 ---

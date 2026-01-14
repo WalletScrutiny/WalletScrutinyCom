@@ -1,14 +1,15 @@
 ---
 wsId: in1CryptoWallet
-title: 'IN1: Crypto Wallet & Cards'
+title: 'IN1: Digital Crypto Wallet App'
 altTitle: 
 authors:
-- danny 
-users: 10000
+- danny
+users: 50000
 appId: com.thein1.app
 appCountry: 
-updated: 2025-10-31
-version: 0.9.0
+released: 
+updated: 2025-12-30
+version: 0.9.6
 stars: 
 ratings: 
 reviews: 
@@ -26,9 +27,10 @@ twitter: in1app
 social:
 - https://www.instagram.com/in1app
 - https://www.facebook.com/in1.international
-- https://www.linkedin.com/company/in1-app 
+- https://www.linkedin.com/company/in1-app
 redirect_from: 
 developerName: IN1 HOLDING LIMITED
+builds: 
 features: 
 
 ---

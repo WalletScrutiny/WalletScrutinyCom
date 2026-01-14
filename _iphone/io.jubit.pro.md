@@ -3,16 +3,16 @@ wsId: juCom
 title: Ju.com:Buy Bitcoin,DeFi & Web3
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.jubit.pro
 appCountry: us
 idd: '6748295209'
-released: '2025-08-06T07:00:00Z'
+released: 2025-08-06
 updated: 2025-10-28
 version: 3.3.3
 stars: 4.4
 reviews: 15
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.jubit.pro.jpg

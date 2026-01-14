@@ -11,7 +11,7 @@ released: 2019-04-12
 updated: 2026-01-05
 version: 3.0.13
 stars: 4.2
-reviews: 33
+reviews: 36
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 

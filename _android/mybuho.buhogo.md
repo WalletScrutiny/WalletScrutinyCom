@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: mybuho.buhogo
 appCountry: 
-released: Sep 26, 2025
+released: 2025-09-26
 updated: 2026-01-12
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Dr.Shift
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 10000
 appId: com.strade.app
 appCountry: 
+released: 
 updated: 2023-09-14
 version: 1.0.0
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: S-TRADE
+builds: 
 features: 
 
 ---

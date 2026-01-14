@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.inexlatam.panther
 appCountry: 
-released: Jun 5, 2025
+released: 2025-06-05
 updated: 2025-10-29
 version: 0.3.6
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Inex Technology
+builds: 
 features: 
 
 ---

@@ -7,11 +7,11 @@ authors:
 appId: com.planet.toobit
 appCountry: us
 idd: '1660882885'
-released: '2023-02-13T08:00:00Z'
-updated: 2025-11-29
-version: 2.1.3
-stars: 4.84938
-reviews: 3612
+released: 2023-02-13
+updated: 2026-01-08
+version: 2.1.6
+stars: 4.8
+reviews: 3694
 website: https://www.toobit.com/
 repository: 
 issue: 

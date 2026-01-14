@@ -3,14 +3,14 @@ wsId: wannabitCosmostation
 title: Cosmostation Interchain Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: wannabit.io.cosmostaion
 appCountry: 
-released: Mar 17, 2019
-updated: 2025-10-24
-version: 1.10.43
-stars: 3.98
+released: 2019-03-17
+updated: 2025-12-29
+version: 1.10.46
+stars: 4
 ratings: 
 reviews: 136
 website: https://cosmostation.io
@@ -26,9 +26,10 @@ signer:
 twitter: CosmostationVD
 social:
 - https://t.me/cosmostation
-- https://www.youtube.com/@cosmostationio 
+- https://www.youtube.com/@cosmostationio
 redirect_from: 
 developerName: Stamper
+builds: 
 features: 
 
 ---

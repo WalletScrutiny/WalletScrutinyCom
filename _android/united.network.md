@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: united.network
 appCountry: 
-released: Apr 14, 2025
+released: 2025-04-14
 updated: 2025-07-06
 version: 1.0.4
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Trend IT Services LLC
+builds: 
 features: 
 
 ---

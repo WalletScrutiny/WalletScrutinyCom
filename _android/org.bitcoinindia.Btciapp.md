@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: org.bitcoinindia.Btciapp
 appCountry: 
+released: 
 updated: 2025-08-25
 version: 3.2.54
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BITCOIN INDIA
+builds: 
 features: 
 
 ---

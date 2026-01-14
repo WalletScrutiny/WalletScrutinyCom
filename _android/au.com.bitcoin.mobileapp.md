@@ -3,10 +3,11 @@ wsId: bitcoinComAu
 title: Bitcoin.com.au Buy Bitcoin BTC
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: au.com.bitcoin.mobileapp
 appCountry: 
+released: 
 updated: 2025-08-15
 version: 12.0.0
 stars: 
@@ -26,9 +27,10 @@ twitter: bitcoin_com_au
 social:
 - https://www.facebook.com/bitcoinaustralia
 - https://www.tiktok.com/@bitcoin.com.au_
-- https://www.instagram.com/bitcoin.com.au 
+- https://www.instagram.com/bitcoin.com.au
 redirect_from: 
 developerName: bitcoin.com.au
+builds: 
 features: 
 
 ---

@@ -7,8 +7,9 @@ authors:
 users: 500000
 appId: com.okx.tr
 appCountry: 
-updated: 2025-11-02
-version: 6.144.0
+released: 
+updated: 2026-01-12
+version: 6.153.0
 stars: 
 ratings: 
 reviews: 
@@ -28,7 +29,8 @@ social:
 - https://www.youtube.com/@OKXTurkiye
 redirect_from: 
 developerName: OKX TR
-features:
+builds: 
+features: 
 
 ---
 

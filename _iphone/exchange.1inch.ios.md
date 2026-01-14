@@ -7,10 +7,10 @@ authors:
 appId: exchange.1inch.ios
 appCountry: us
 idd: '1546049391'
-released: '2021-04-27T07:00:00Z'
+released: 2021-04-27
 updated: 2025-12-22
 version: 4.6.0
-stars: 3.9622
+stars: 4
 reviews: 635
 website: https://1inch.com/wallet
 repository: 
@@ -27,7 +27,7 @@ social:
 - https://www.reddit.com/r/1inch
 - https://discord.com/invite/1inch
 - https://t.me/OneInchNetworkNews
-- https://www.youtube.com/channel/UCk0nvK4bHpteQXZKv7lkq5w 
+- https://www.youtube.com/channel/UCk0nvK4bHpteQXZKv7lkq5w
 features: 
 developerName: 1inch Limited
 

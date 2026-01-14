@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.aufwallet.app
 appCountry: 
-released: Apr 21, 2023
+released: 2023-04-21
 updated: 2025-07-03
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: LightConsen
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 10
 appId: com.address.services.app
 appCountry: 
+released: 
 updated: 2025-07-24
 version: VARY
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: OnTab Inc.
+builds: 
 features: 
 
 ---

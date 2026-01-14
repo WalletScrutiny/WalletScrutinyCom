@@ -3,16 +3,16 @@ wsId: midasKripto
 title: 'Midas Kripto: Bitcoin Al Sat'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.getmidas.crypto
 appCountry: 
-released: Dec 1, 2024
-updated: 2025-11-07
-version: 2.70.1
-stars: 5
+released: 2024-12-01
+updated: 2026-01-13
+version: 2.79.1
+stars: 4.7
 ratings: 
-reviews: 1
+reviews: 2
 website: https://www.midaskripto.com/
 repository: 
 issue: 
@@ -25,9 +25,10 @@ date: 2025-11-18
 signer: 
 twitter: midaskripto
 social: 
-redirect_from:
+redirect_from: 
 developerName: Midas Finansal Teknolojiler
-features:
+builds: 
+features: 
 
 ---
 

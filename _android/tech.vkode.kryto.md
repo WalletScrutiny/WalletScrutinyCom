@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: tech.vkode.kryto
 appCountry: 
-released: Jul 27, 2024
+released: 2024-07-27
 updated: 2025-07-30
 version: 1.0.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: VKode
+builds: 
 features: 
 
 ---

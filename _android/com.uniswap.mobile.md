@@ -8,11 +8,11 @@ users: 1000000
 appId: com.uniswap.mobile
 appCountry: 
 released: 2023-10-30
-updated: 2025-12-12
+updated: 2026-01-10
 version: '1.64'
 stars: 4.6
 ratings: 
-reviews: 630
+reviews: 634
 website: https://wallet.uniswap.org
 repository: 
 issue: 

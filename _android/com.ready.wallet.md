@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ready.wallet
 appCountry: 
-released: Sep 18, 2025
+released: 2025-09-18
 updated: 2025-12-10
 version: 1.2.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Argent Labs
+builds: 
 features: 
 
 ---

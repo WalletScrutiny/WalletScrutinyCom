@@ -7,10 +7,10 @@ authors:
 users: 1000000
 appId: com.herewallet
 appCountry: 
-released: Feb 18, 2023
+released: 2023-02-18
 updated: 2024-04-17
 version: 1.17.0
-stars: 4.009901
+stars: 4
 ratings: 
 reviews: 144
 website: 
@@ -27,6 +27,7 @@ twitter: here_wallet
 social: 
 redirect_from: 
 developerName: HERE Wallet
+builds: 
 features: 
 
 ---

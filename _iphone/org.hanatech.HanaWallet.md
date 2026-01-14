@@ -3,11 +3,11 @@ wsId: hanaWallet
 title: Hana Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.hanatech.HanaWallet
 appCountry: us
 idd: '6447821572'
-released: '2023-05-14T07:00:00Z'
+released: 2023-05-14
 updated: 2025-11-05
 version: 1.52.50
 stars: 5

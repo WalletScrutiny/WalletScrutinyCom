@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.zapwallet.app
 appCountry: 
-released: Mar 11, 2025
+released: 2025-03-11
 updated: 2025-04-18
 version: 1.0.9
 stars: 
@@ -27,9 +27,10 @@ twitter: getzapnow
 social:
 - https://www.instagram.com/getzapnow
 - https://t.me/zap_africa
-- https://www.youtube.com/channel/UCVD37hG6AAIW-zff6jsA3KQ 
+- https://www.youtube.com/channel/UCVD37hG6AAIW-zff6jsA3KQ
 redirect_from: 
 developerName: Zap Technology
+builds: 
 features: 
 
 ---

@@ -3,16 +3,16 @@ wsId: bittime
 title: Bittime
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bittime.currency.exchange
 appCountry: id
 idd: '1641059360'
-released: '2022-11-15T08:00:00Z'
-updated: 2025-10-15
-version: 2.0.2
-stars: 4.26124
-reviews: 356
-website: ''
+released: 2022-11-15
+updated: 2025-12-29
+version: 2.0.5
+stars: 4.3
+reviews: 384
+website: 
 repository: 
 issue: 
 icon: com.bittime.currency.exchange.jpg

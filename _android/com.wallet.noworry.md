@@ -6,8 +6,9 @@ authors:
 users: 10000
 appId: com.wallet.noworry
 appCountry: 
-updated: 2026-01-09
-version: 5.8.10
+released: 
+updated: 2026-01-13
+version: 5.8.11
 stars: 
 ratings: 
 reviews: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Nowory Labs
+builds: 
 features: 
 
 ---

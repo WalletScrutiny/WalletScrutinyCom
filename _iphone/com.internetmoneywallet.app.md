@@ -7,10 +7,10 @@ authors:
 appId: com.internetmoneywallet.app
 appCountry: us
 idd: '1641771042'
-released: '2023-04-17T07:00:00Z'
-updated: 2025-11-14
-version: '1.47'
-stars: 4.81325
+released: 2023-04-17
+updated: 2025-12-23
+version: '2.1'
+stars: 4.8
 reviews: 166
 website: https://internetmoney.io/
 repository: 

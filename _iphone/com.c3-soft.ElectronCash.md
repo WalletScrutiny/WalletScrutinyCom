@@ -6,10 +6,10 @@ authors:
 appId: com.c3-soft.ElectronCash
 appCountry: us
 idd: '1359700089'
-released: '2018-07-30T03:11:45Z'
+released: 2018-07-30
 updated: 2021-11-25
 version: 4.2.5
-stars: 4.52632
+stars: 4.5
 reviews: 38
 website: https://www.electroncash.org
 repository: 

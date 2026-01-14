@@ -7,7 +7,7 @@ authors:
 appId: it.bitcoinpeople.pay
 appCountry: us
 idd: '6464040494'
-released: '2023-09-15T07:00:00Z'
+released: 2023-09-15
 updated: 2025-04-09
 version: 1.0.0
 stars: 0

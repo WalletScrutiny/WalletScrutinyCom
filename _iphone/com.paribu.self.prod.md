@@ -7,9 +7,9 @@ authors:
 appId: com.paribu.self.prod
 appCountry: us
 idd: '6608980005'
-released: '2024-08-15T07:00:00Z'
-updated: 2025-11-20
-version: 1.6.4
+released: 2024-08-15
+updated: 2026-01-06
+version: 1.7.3
 stars: 5
 reviews: 1
 website: https://www.paribu.com/

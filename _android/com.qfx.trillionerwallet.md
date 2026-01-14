@@ -3,16 +3,16 @@ wsId:
 title: TLC Wallet (Beta)
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.qfx.trillionerwallet
 appCountry: 
-released: Mar 26, 2023
+released: 2023-03-26
 updated: 2023-10-27
 version: '22.0'
-stars: 
+stars: 2.8
 ratings: 
-reviews: 
+reviews: 3
 website: https://trillioner.io
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Trillioner Innovations
+builds: 
 features: 
 
 ---

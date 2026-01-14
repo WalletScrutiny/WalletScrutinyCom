@@ -3,14 +3,14 @@ wsId: lemonCash
 title: 'Lemon: Tu billetera digital'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.reactjs.native.lemon.appLemonCash
 appCountry: ar
 idd: '1499421511'
-released: '2020-03-24T07:00:00Z'
+released: 2020-03-24
 updated: 2025-11-10
 version: 2.7.79
-stars: 4.28092
+stars: 4.3
 reviews: 3937
 website: https://www.lemon.me/en
 repository: 

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: org.tokenup.app
 appCountry: 
-released: May 9, 2025
+released: 2025-05-09
 updated: 2025-12-23
 version: 2.4.16
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: FortuneDev
+builds: 
 features: 
 
 ---

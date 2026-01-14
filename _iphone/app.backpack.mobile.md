@@ -6,11 +6,11 @@ authors:
 appId: app.backpack.mobile
 appCountry: us
 idd: '6445964121'
-released: '2023-10-26T07:00:00Z'
-updated: 2025-10-28
-version: 2.59.0
-stars: 4.46429
-reviews: 196
+released: 2023-10-26
+updated: 2026-01-13
+version: 2.66.0
+stars: 4.5
+reviews: 204
 website: https://www.backpack.app/
 repository: 
 issue: 

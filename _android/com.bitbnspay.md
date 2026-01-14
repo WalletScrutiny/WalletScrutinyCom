@@ -6,6 +6,7 @@ authors:
 users: 1000000
 appId: com.bitbnspay
 appCountry: 
+released: 
 updated: 2023-11-23
 version: 1.9.1
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitbns Cryptocurrency Trading Exchange India
+builds: 
 features: 
 
 ---

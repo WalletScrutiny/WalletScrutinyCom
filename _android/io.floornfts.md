@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: io.floornfts
 appCountry: 
-released: Dec 7, 2022
+released: 2022-12-07
 updated: 2025-07-09
 version: 3.34.0
-stars: 4.59
+stars: 4.6
 ratings: 
 reviews: 86
 website: https://rally.xyz/
@@ -25,9 +25,10 @@ date: 2025-12-27
 signer: 
 twitter: rally_xyz
 social:
-- https://www.instagram.com/rally_xyz 
+- https://www.instagram.com/rally_xyz
 redirect_from: 
 developerName: Floor NFTs
+builds: 
 features: 
 
 ---

@@ -1,18 +1,18 @@
 ---
 wsId: sweatWallet
-title: 'Sweat Wallet: Walk & Earn'
+title: 'Sweat Wallet: Walk Into Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000000
 appId: com.sweatwallet
 appCountry: 
-released: Aug 14, 2023
-updated: 2025-11-07
-version: '140.0'
-stars: 4.5788994
+released: 2023-08-14
+updated: 2025-12-22
+version: '147.0'
+stars: 4.6
 ratings: 
-reviews: 2908
+reviews: 3102
 website: https://swe.at/
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: SweatEconomy
 social:
 - https://www.instagram.com/sweateconomy
 - https://www.reddit.com/r/Sweateconomy
-- https://www.facebook.com/sweateconomy 
+- https://www.facebook.com/sweateconomy
 redirect_from: 
 developerName: Sweat Foundation
+builds: 
 features: 
 
 ---

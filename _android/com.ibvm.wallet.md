@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.ibvm.wallet
 appCountry: 
-released: Apr 26, 2025
+released: 2025-04-26
 updated: 2025-10-31
 version: 30.0.0
-stars: 4.6732674
+stars: 4.7
 ratings: 
 reviews: 70
 website: https://ibvm.io/
@@ -27,6 +27,7 @@ twitter: IBVMCHAIN
 social: 
 redirect_from: 
 developerName: Quest Global Technologies LTD.
+builds: 
 features: 
 
 ---

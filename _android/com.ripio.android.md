@@ -10,7 +10,7 @@ appCountry:
 released: 2015-06-01
 updated: 2025-12-19
 version: 6.4.5
-stars: 3.8
+stars: 3.9
 ratings: 34376
 reviews: 175
 website: https://ripio.com

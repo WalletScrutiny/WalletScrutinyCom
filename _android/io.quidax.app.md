@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: io.quidax.app
 appCountry: 
-released: Apr 21, 2025
-updated: 2025-10-29
-version: 1.1.3
-stars: 4
+released: 2025-04-21
+updated: 2025-12-12
+version: 1.2.1
+stars: 4.2
 ratings: 
-reviews: 6
+reviews: 7
 website: https://www.quidax.io/
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal
 - https://www.instagram.com/quidaxglobal
-- https://t.me/+10T7C37UuE40NTFk 
+- https://t.me/+10T7C37UuE40NTFk
 redirect_from: 
 developerName: Quidax Technologies
+builds: 
 features: 
 
 ---

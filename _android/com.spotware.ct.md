@@ -8,8 +8,8 @@ users: 500000
 appId: com.spotware.ct
 appCountry: 
 released: 2014-02-10
-updated: 2026-01-07
-version: 5.6.150
+updated: 2026-01-12
+version: 5.6.160
 stars: 4.6
 ratings: 
 reviews: 347

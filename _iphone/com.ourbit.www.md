@@ -3,16 +3,16 @@ wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.ourbit.www
 appCountry: us
 idd: '6483944320'
-released: '2024-07-28T07:00:00Z'
-updated: 2025-11-19
-version: 1.14.2
-stars: 4.82796
-reviews: 93
-website: ''
+released: 2024-07-28
+updated: 2026-01-10
+version: 1.16.4
+stars: 4.8
+reviews: 113
+website: 
 repository: 
 issue: 
 icon: com.ourbit.www.jpg

@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: io.rayyo
 appCountry: 
-released: Oct 3, 2025
-updated: 2025-11-03
-version: 0.7.22
+released: 2025-10-03
+updated: 2025-12-24
+version: 0.7.33
 stars: 
 ratings: 
 reviews: 
@@ -26,9 +26,10 @@ signer:
 twitter: RayyoApp
 social:
 - https://www.instagram.com/rayyoapp
-- https://www.facebook.com/Rayyowallet 
+- https://www.facebook.com/Rayyowallet
 redirect_from: 
 developerName: Montebit
+builds: 
 features: 
 
 ---

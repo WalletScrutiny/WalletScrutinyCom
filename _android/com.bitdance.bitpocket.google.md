@@ -3,13 +3,13 @@ wsId: bitpocketBTC
 title: BitPocket - BTC/LN Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitdance.bitpocket.google
 appCountry: 
-released: Aug 22, 2025
-updated: 2025-11-04
-version: 1.3.19
+released: 2025-08-22
+updated: 2025-12-22
+version: 1.3.22
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: BitPocketWallet
 social: 
 redirect_from: 
 developerName: Bitdance
+builds: 
 features: 
 
 ---

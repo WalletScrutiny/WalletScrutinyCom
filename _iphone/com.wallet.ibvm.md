@@ -7,12 +7,12 @@ authors:
 appId: com.wallet.ibvm
 appCountry: us
 idd: '6744966630'
-released: '2025-05-02T07:00:00Z'
+released: 2025-05-02
 updated: 2025-09-11
 version: 21.0.4
-stars: 4.66667
+stars: 4.7
 reviews: 36
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.wallet.ibvm.jpg

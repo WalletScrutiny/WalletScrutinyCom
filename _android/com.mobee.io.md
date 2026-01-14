@@ -3,14 +3,14 @@ wsId: mobeeBitcoinID
 title: 'Mobee: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.mobee.io
 appCountry: 
-released: Nov 14, 2022
-updated: 2025-11-07
-version: 1.9.25
-stars: 4.125
+released: 2022-11-14
+updated: 2026-01-09
+version: 2.0.2
+stars: 4.2
 ratings: 
 reviews: 2
 website: https://mobee.io/
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/mobee_id
 redirect_from: 
 developerName: Mobee - PT CTXG Indonesia Berkarya
+builds: 
 features: 
 
 ---

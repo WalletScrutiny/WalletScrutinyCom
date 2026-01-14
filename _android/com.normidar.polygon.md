@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.normidar.polygon
 appCountry: 
-released: Aug 16, 2025
+released: 2025-08-16
 updated: 2025-12-01
 version: 1.2.9
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: normidar
+builds: 
 features: 
 
 ---

@@ -7,12 +7,12 @@ authors:
 appId: com.bitop.exchange.prod
 appCountry: us
 idd: '6449766522'
-released: '2023-11-14T08:00:00Z'
-updated: 2025-11-03
-version: 0.1.30
-stars: 1.42857
+released: 2023-11-14
+updated: 2025-12-03
+version: 0.1.31
+stars: 1.4
 reviews: 7
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitop.exchange.prod.jpg

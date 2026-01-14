@@ -6,6 +6,7 @@ authors:
 users: 50000
 appId: com.gateio.turkey
 appCountry: 
+released: 
 updated: 2025-12-31
 version: 6.15.38
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Gate.com
+builds: 
 features: 
 
 ---

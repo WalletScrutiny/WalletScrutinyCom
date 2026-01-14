@@ -7,12 +7,12 @@ authors:
 users: 500000
 appId: com.smartblockchain.wallet
 appCountry: 
-released: Jul 20, 2023
-updated: 2025-11-03
-version: 2.0.1
-stars: 4.19403
+released: 2023-07-20
+updated: 2026-01-06
+version: 2.4.0
+stars: 4.2
 ratings: 
-reviews: 31
+reviews: 32
 website: https://smartwallet.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: YamaD LLC
+builds: 
 features: 
 
 ---

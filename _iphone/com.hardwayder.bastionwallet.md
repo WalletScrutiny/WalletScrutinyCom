@@ -6,12 +6,12 @@ authors:
 appId: com.hardwayder.bastionwallet
 appCountry: us
 idd: '6475605182'
-released: '2024-03-06T08:00:00Z'
+released: 2024-03-06
 updated: 2025-12-17
 version: 1.0.163
 stars: 5
 reviews: 1
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.hardwayder.bastionwallet.jpg

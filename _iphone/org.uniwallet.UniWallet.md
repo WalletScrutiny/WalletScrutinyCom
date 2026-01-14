@@ -7,7 +7,7 @@ authors:
 appId: org.uniwallet.UniWallet
 appCountry: us
 idd: '6503896169'
-released: '2025-02-11T08:00:00Z'
+released: 2025-02-11
 updated: 2025-07-20
 version: 1.0.8
 stars: 5

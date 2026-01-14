@@ -6,7 +6,7 @@ authors:
 appId: com.bullbitcoin.app
 appCountry: us
 idd: '6743380972'
-released: '2025-09-29T07:00:00Z'
+released: 2025-09-29
 updated: 2026-01-13
 version: 6.5.4
 stars: 4.5

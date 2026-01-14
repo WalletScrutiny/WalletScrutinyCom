@@ -3,13 +3,13 @@ wsId:
 title: 'Bitcointry: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
-users: 1000
+- danny
+users: 5000
 appId: com.bitcointry.com
 appCountry: 
-released: Jan 3, 2023
-updated: 2025-01-04
-version: 4.1.4
+released: 2023-01-03
+updated: 2025-11-07
+version: 5.0.1
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: Bitcointrycom
 social: 
 redirect_from: 
 developerName: Devcode Technology Ltd
+builds: 
 features: 
 
 ---

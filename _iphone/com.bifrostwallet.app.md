@@ -7,11 +7,11 @@ authors:
 appId: com.bifrostwallet.app
 appCountry: us
 idd: '1577198351'
-released: '2021-09-21T07:00:00Z'
-updated: 2025-10-20
-version: 0.7.31
-stars: 4.5282
-reviews: 195
+released: 2021-09-21
+updated: 2026-01-08
+version: 0.7.40
+stars: 4.5
+reviews: 201
 website: https://bifrostwallet.com
 repository: 
 issue: 

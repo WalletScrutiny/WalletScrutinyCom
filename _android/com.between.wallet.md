@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.between.wallet
 appCountry: 
-released: Apr 22, 2025
+released: 2025-04-22
 updated: 2025-09-12
 version: 1.1.15
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BetweenBits Inc.
+builds: 
 features: 
 
 ---

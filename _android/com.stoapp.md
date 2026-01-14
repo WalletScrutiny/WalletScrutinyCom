@@ -3,11 +3,11 @@ wsId: stoWallet
 title: STO Wallet - RWA SWAP STAKING
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.stoapp
 appCountry: 
-released: Feb 16, 2024
+released: 2024-02-16
 updated: 2025-09-19
 version: 1.0.9
 stars: 
@@ -27,6 +27,7 @@ twitter: StoChain
 social: 
 redirect_from: 
 developerName: STO CHAIN
+builds: 
 features: 
 
 ---

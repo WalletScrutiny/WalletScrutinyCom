@@ -7,6 +7,7 @@ authors:
 users: 100000
 appId: neutronpay.wallet
 appCountry: 
+released: 
 updated: 2025-10-27
 version: 3.3.0
 stars: 
@@ -26,7 +27,7 @@ twitter: neutron__me
 social:
 - https://www.instagram.com/neutronpay
 - https://www.linkedin.com/company/neutronme
-- https://t.me/go_neutron 
+- https://t.me/go_neutron
 redirect_from: 
 developerName: Neutronpay Inc.
 builds: 

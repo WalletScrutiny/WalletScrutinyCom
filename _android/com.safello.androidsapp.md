@@ -7,8 +7,9 @@ authors:
 users: 50000
 appId: com.safello.androidsapp
 appCountry: 
-updated: 2025-10-30
-version: 1.54.1
+released: 
+updated: 2025-11-22
+version: 1.55.2
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +30,7 @@ social:
 - https://discord.com/invite/myBUywMbE5
 redirect_from: 
 developerName: Safello
+builds: 
 features: 
 
 ---

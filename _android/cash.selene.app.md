@@ -6,10 +6,10 @@ authors:
 users: 5000
 appId: cash.selene.app
 appCountry: 
-released: May 26, 2023
+released: 2023-05-26
 updated: 2025-12-06
 version: 2025.12.00
-stars: 4.4166665
+stars: 4.4
 ratings: 
 reviews: 6
 website: https://selene.cash
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: XULU.TECH LLC
+builds: 
 features: 
 
 ---

@@ -6,10 +6,10 @@ authors:
 appId: co.electriccoin.secant-mainnet
 appCountry: us
 idd: '1672392439'
-released: '2024-03-28T07:00:00Z'
+released: 2024-03-28
 updated: 2025-12-19
 version: 2.4.11
-stars: 4.92473
+stars: 4.9
 reviews: 93
 website: https://electriccoin.co/zashi
 repository: 

@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.cextor.pro
 appCountry: 
-released: Jul 10, 2024
+released: 2024-07-10
 updated: 2025-09-05
 version: 1.0.0
 stars: 4.6
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CEXTOR
+builds: 
 features: 
 
 ---

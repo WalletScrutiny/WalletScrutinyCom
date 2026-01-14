@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: io.cosmostation.splash
 appCountry: 
-released: Jan 27, 2023
+released: 2023-01-27
 updated: 2025-10-13
 version: 1.0.7
-stars: 3.625
+stars: 3.6
 ratings: 
 reviews: 6
 website: https://cosmostation.io
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Stamper
+builds: 
 features: 
 
 ---

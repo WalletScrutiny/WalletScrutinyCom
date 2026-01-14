@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.wallacy.cryptowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2023-08-30
+date: 2026-01-14
 signer: 
 twitter: WallacyWallet
 social:

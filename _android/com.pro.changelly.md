@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.pro.changelly.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: 2026-01-14
 signer: 
 twitter: changelly_team
 social:

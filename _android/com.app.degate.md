@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.app.degate
 appCountry: 
-released: Jun 9, 2025
+released: 2025-06-09
 updated: 2025-12-18
 version: 1.0.16
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: DeGate Inc.
+builds: 
 features: 
 
 ---

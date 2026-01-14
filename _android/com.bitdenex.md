@@ -3,12 +3,13 @@ wsId: bitdenex
 title: 'Bitdenex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.bitdenex
 appCountry: 
-updated: 2025-11-08
-version: 3.2.18
+released: 
+updated: 2025-12-17
+version: 3.2.21
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter: bitdenex
 social: 
 redirect_from: 
 developerName: Bitdenex
+builds: 
 features: 
 
 ---

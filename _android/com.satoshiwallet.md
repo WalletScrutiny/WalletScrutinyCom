@@ -6,10 +6,10 @@ authors:
 users: 500
 appId: com.satoshiwallet
 appCountry: 
-released: Aug 19, 2025
+released: 2025-08-19
 updated: 2025-10-09
 version: 1.0.7
-stars: 4.8333335
+stars: 4.8
 ratings: 
 reviews: 3
 website: https://satoshiwalletapp.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitcoin Developer
+builds: 
 features: 
 
 ---

@@ -7,12 +7,12 @@ authors:
 appId: com.quantum.wallet.app
 appCountry: sg
 idd: '6511246853'
-released: '2024-09-23T07:00:00Z'
+released: 2024-09-23
 updated: 2025-06-21
 version: 1.2.0
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.quantum.wallet.app.jpg
@@ -24,7 +24,7 @@ date: 2025-12-08
 signer: 
 twitter: 
 social:
-- https://t.me/+hObEE-D_GMU2N2U0 
+- https://t.me/+hObEE-D_GMU2N2U0
 features: 
 developerName: Nexus Payments Limited
 

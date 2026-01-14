@@ -7,10 +7,10 @@ authors:
 appId: org.reactnative.nightlyMobile
 appCountry: pl
 idd: '6444768157'
-released: '2023-06-07T07:00:00Z'
+released: 2023-06-07
 updated: 2025-11-05
 version: 2.15.8
-stars: 4.75
+stars: 4.8
 reviews: 8
 website: https://twitter.com/Nightly_app
 repository: 

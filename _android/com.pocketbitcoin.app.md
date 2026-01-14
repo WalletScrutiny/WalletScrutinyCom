@@ -7,6 +7,7 @@ authors:
 users: 10000
 appId: com.pocketbitcoin.app
 appCountry: 
+released: 
 updated: 2025-10-07
 version: 2.6.2
 stars: 
@@ -26,6 +27,7 @@ twitter: PocketBitcoin
 social: 
 redirect_from: 
 developerName: Pocket Bitcoin
+builds: 
 features: 
 
 ---

@@ -7,10 +7,10 @@ authors:
 appId: com.netcoins.app
 appCountry: us
 idd: '1571344881'
-released: '2021-08-10T07:00:00Z'
-updated: 2025-11-19
-version: 5.5.0
-stars: 4.875
+released: 2021-08-10
+updated: 2026-01-07
+version: 5.8.1
+stars: 4.9
 reviews: 80
 website: https://netcoins.com
 repository: 

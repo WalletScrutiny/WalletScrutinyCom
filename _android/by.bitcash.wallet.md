@@ -3,12 +3,13 @@ wsId: bybitCashWallet
 title: Bitcash Сrypto Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: by.bitcash.wallet
 appCountry: 
-updated: 2025-01-13
-version: 0.2.20
+released: 
+updated: 2025-12-11
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: LLC BITCASH
+builds: 
 features: 
 
 ---

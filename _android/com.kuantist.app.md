@@ -6,6 +6,7 @@ authors:
 users: 5000
 appId: com.kuantist.app
 appCountry: 
+released: 
 updated: 2026-01-06
 version: 1.0.41
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: KUANTİST TEKNOLOJİ ANONİM ŞİRKETİ
+builds: 
 features: 
 
 ---

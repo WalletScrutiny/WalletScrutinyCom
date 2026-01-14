@@ -6,10 +6,10 @@ authors:
 users: 100000
 appId: africa.bitsika.bitsika_mobile
 appCountry: 
-released: Sep 3, 2019
+released: 2019-09-03
 updated: 2025-12-14
 version: 3.3.38
-stars: 4.33
+stars: 4.3
 ratings: 
 reviews: 117
 website: https://www.bitsika.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bit Sika
+builds: 
 features: 
 
 ---

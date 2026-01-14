@@ -3,14 +3,14 @@ wsId: coldWalletSeekJazz
 title: 'Cold Wallet: Crypto Wallet App'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.PlusWallet
 appCountry: 
-released: Oct 6, 2023
-updated: 2025-10-31
-version: 5.7.3
-stars: 3.0731707
+released: 2023-10-06
+updated: 2025-12-12
+version: 5.7.7
+stars: 3.1
 ratings: 
 reviews: 65
 website: https://coldwallet.com/
@@ -27,6 +27,7 @@ twitter: coldwalletapp
 social: 
 redirect_from: 
 developerName: Seekjazz Ventures Limited
+builds: 
 features: 
 
 ---

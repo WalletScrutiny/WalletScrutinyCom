@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.cypherd.androidwallet
 appCountry: 
-released: Feb 11, 2022
-updated: 2025-10-31
-version: '4.97'
+released: 2022-02-11
+updated: 2026-01-13
+version: '5.1'
 stars: 4
 ratings: 
-reviews: 22
+reviews: 27
 website: https://cypherhq.io/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Cypher_HQ_
 social: 
 redirect_from: 
 developerName: CypherD Wallet Inc
+builds: 
 features: 
 
 ---

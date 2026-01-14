@@ -13,13 +13,14 @@ providerWebsite: https://acinq.co/
 website: https://phoenix.acinq.co/server
 repository: https://github.com/ACINQ/phoenixd
 issue: https://github.com/ACINQ/phoenixd/issues
-icon: noicon.png
+icon: phoenixd.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
 date: 2026-01-01
 twitter: acinq_co
 social: 
+builds: 
 features:
 - ln
 

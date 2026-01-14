@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.base8
 appCountry: 
-released: Dec 29, 2023
+released: 2023-12-29
 updated: 2025-12-12
 version: 2.0.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Base8 Inc.
+builds: 
 features: 
 
 ---

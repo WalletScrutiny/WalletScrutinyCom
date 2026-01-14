@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: ch.digitaladmin.icynote
 appCountry: 
-released: Mar 14, 2025
+released: 2025-03-14
 updated: 2025-09-02
 version: 1.0.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Digital Admin Sàrl
+builds: 
 features: 
 
 ---

@@ -7,10 +7,10 @@ authors:
 appId: org.reactjs.native.example.bitcoin2
 appCountry: us
 idd: '6744868017'
-released: '2025-05-27T07:00:00Z'
+released: 2025-05-27
 updated: 2025-10-06
 version: 1.7.3
-stars: 4.33333
+stars: 4.3
 reviews: 6
 website: https://bitcoinyay.com/
 repository: 

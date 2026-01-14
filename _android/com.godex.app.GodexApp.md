@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: com.godex.app.GodexApp
 appCountry: 
-released: Jun 27, 2022
+released: 2022-06-27
 updated: 2025-09-21
 version: '1.8'
-stars: 4.8333335
+stars: 4.8
 ratings: 
 reviews: 22
 website: https://godex.io
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Godex
+builds: 
 features: 
 
 ---

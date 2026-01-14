@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.utorg
 appCountry: 
-released: Jun 2, 2023
-updated: 2025-11-06
-version: 2.80.0
+released: 2023-06-02
+updated: 2026-01-12
+version: 2.85.0
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/utorg
 redirect_from: 
 developerName: UTORG LABS HOLDING LTD
+builds: 
 features: 
 
 ---

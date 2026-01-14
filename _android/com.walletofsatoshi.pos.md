@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.walletofsatoshi.pos
 appCountry: 
-released: Nov 15, 2023
+released: 2023-11-15
 updated: 2025-11-12
 version: 0.1.5
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Wallet of Satoshi
+builds: 
 features: 
 
 ---

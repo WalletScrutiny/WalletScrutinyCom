@@ -3,16 +3,16 @@ wsId: fearlessWalletDeFi
 title: 'Fearless Wallet: DeFi Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: jp.co.soramitsu.fearless
 appCountry: 
-released: Nov 25, 2020
+released: 2020-11-25
 updated: 2025-03-17
 version: 4.0.1
-stars: 3.857143
+stars: 3.8
 ratings: 
-reviews: 51
+reviews: 52
 website: https://fearlesswallet.io/
 repository: 
 issue: 
@@ -26,9 +26,10 @@ signer:
 twitter: fearlesswallet
 social:
 - https://t.me/fearlesswallet
-- https://www.youtube.com/fearlesswallet 
+- https://www.youtube.com/fearlesswallet
 redirect_from: 
 developerName: Soramitsu
+builds: 
 features: 
 
 ---

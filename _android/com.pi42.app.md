@@ -7,8 +7,9 @@ authors:
 users: 100000
 appId: com.pi42.app
 appCountry: 
-updated: 2025-11-06
-version: 1.0.51
+released: 
+updated: 2025-12-23
+version: 1.0.54
 stars: 
 ratings: 
 reviews: 
@@ -25,7 +26,8 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Pi42 Exchange
+developerName: Lightningnodes Technologies Pvt Ltd
+builds: 
 features: 
 
 ---

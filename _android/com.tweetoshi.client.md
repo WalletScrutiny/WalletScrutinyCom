@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.tweetoshi.client
 appCountry: 
-released: Feb 15, 2022
+released: 2022-02-15
 updated: 2023-02-06
 version: 0.8.5
 stars: 3
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Tweetoshi
+builds: 
 features: 
 
 ---

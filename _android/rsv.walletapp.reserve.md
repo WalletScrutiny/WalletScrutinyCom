@@ -12,7 +12,7 @@ updated: 2025-12-25
 version: 3.1.3
 stars: 4.5
 ratings: 
-reviews: 497
+reviews: 498
 website: https://uglycash.app/
 repository: 
 issue: 

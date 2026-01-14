@@ -12,7 +12,7 @@ updated: 2025-12-26
 version: 1.7.3
 stars: 4.7
 ratings: 
-reviews: 225
+reviews: 226
 website: https://ricewallet.io/
 repository: 
 issue: 

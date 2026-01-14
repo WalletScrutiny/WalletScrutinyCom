@@ -6,10 +6,10 @@ authors:
 users: 100000
 appId: info.primesoft.primetime
 appCountry: 
-released: Apr 2, 2020
+released: 2020-04-02
 updated: 2025-08-15
 version: 1.0.0
-stars: 3.1333334
+stars: 3.1
 ratings: 
 reviews: 6
 website: http://cryptobuy.ae
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Globals Bank
+builds: 
 features: 
 
 ---

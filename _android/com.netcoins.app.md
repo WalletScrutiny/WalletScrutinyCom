@@ -7,9 +7,9 @@ authors:
 users: 50000
 appId: com.netcoins.app
 appCountry: 
-released: Dec 10, 2022
-updated: 2025-10-29
-version: 5.4.0
+released: 2022-12-10
+updated: 2025-12-20
+version: 5.8.1
 stars: 4
 ratings: 
 reviews: 12
@@ -29,7 +29,8 @@ social:
 - https://www.instagram.com/netcoins
 redirect_from: 
 developerName: Netcoins Inc
-features:
+builds: 
+features: 
 
 ---
 

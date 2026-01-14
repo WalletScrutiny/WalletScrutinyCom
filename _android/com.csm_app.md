@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.csm_app
 appCountry: 
-released: Aug 11, 2023
-updated: 2025-10-31
-version: 3.7.3
-stars: 
+released: 2023-08-11
+updated: 2025-12-30
+version: 3.8.2
+stars: 3
 ratings: 
-reviews: 
+reviews: 4
 website: https://caesiumlab.com/about
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: Caesiumlab
 social: 
 redirect_from: 
 developerName: Caesium Lab powered by  TIME Blockchain
+builds: 
 features: 
 
 ---

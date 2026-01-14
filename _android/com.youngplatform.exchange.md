@@ -3,12 +3,13 @@ wsId: youngPlatformSwapBitcoin
 title: 'Young Platform: Swap Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.youngplatform.exchange
 appCountry: 
-updated: 2025-10-28
-version: 2.155.0
+released: 
+updated: 2026-01-13
+version: 3.7.2
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +30,7 @@ social:
 - https://www.youtube.com/c/YoungPlatform
 redirect_from: 
 developerName: Young Platform S.p.a
+builds: 
 features: 
 
 ---

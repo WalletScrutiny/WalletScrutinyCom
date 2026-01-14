@@ -6,10 +6,10 @@ authors:
 users: 5000
 appId: com.crescentshine.monswallet
 appCountry: 
-released: Feb 22, 2023
+released: 2023-02-22
 updated: 2023-08-29
 version: 1.0.1
-stars: 3.1666667
+stars: 3.2
 ratings: 
 reviews: 3
 website: https://support.monsterra.io/
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Crescent Shine - OLD
+builds: 
 features: 
 
 ---

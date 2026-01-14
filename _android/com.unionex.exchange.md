@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.unionex.exchange
 appCountry: 
-released: Aug 27, 2025
+released: 2025-08-27
 updated: 2025-08-27
 version: 1.1.8
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: UnionEx
+builds: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.dswallet.app
 appCountry: 
-released: Mar 19, 2025
+released: 2025-03-19
 updated: 2025-11-17
 version: 2.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Yoime Technologie
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 10
 appId: cz.confirmo.app.pos
 appCountry: 
+released: 
 updated: 2025-08-21
 version: VARY
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Confirmo
+builds: 
 features: 
 
 ---

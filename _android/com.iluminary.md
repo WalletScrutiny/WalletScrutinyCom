@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.iluminary
 appCountry: 
-released: Mar 27, 2024
+released: 2024-03-27
 updated: 2026-01-06
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: GESP IT SOLUTIONS
+builds: 
 features: 
 
 ---

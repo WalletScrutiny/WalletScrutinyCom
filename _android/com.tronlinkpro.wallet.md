@@ -6,10 +6,10 @@ authors:
 users: 5000000
 appId: com.tronlinkpro.wallet
 appCountry: 
-released: Nov 8, 2019
+released: 2019-11-08
 updated: 2025-12-16
 version: 4.19.0
-stars: 3.2717948
+stars: 3.3
 ratings: 
 reviews: 1064
 website: http://www.tronlink.org
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: HELIX TECH COMPANY LIMITED
+builds: 
 features: 
 
 ---

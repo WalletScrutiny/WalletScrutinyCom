@@ -7,12 +7,12 @@ authors:
 appId: com.maxbit.app
 appCountry: th
 idd: '1609576357'
-released: '2023-12-13T08:00:00Z'
-updated: 2025-10-30
-version: v1.35.0
-stars: 4.66058
-reviews: 274
-website: ''
+released: 2023-12-13
+updated: 2026-01-12
+version: v1.36.0
+stars: 4.7
+reviews: 275
+website: 
 repository: 
 issue: 
 icon: com.maxbit.app.jpg

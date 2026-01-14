@@ -3,11 +3,11 @@ wsId:
 title: Particle Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: network.particle.auth
 appCountry: 
-released: Sep 17, 2022
+released: 2022-09-17
 updated: 2024-08-14
 version: 2.0.9
 stars: 3.2
@@ -27,6 +27,7 @@ twitter: ParticleNtwrk
 social: 
 redirect_from: 
 developerName: Particle Network
+builds: 
 features: 
 
 ---

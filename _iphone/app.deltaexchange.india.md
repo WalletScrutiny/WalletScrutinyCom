@@ -7,11 +7,11 @@ authors:
 appId: app.deltaexchange.india
 appCountry: in
 idd: '6478332344'
-released: '2024-08-16T07:00:00Z'
-updated: 2025-10-16
-version: 2.7.4
-stars: 4.58995
-reviews: 15262
+released: 2024-08-16
+updated: 2025-12-30
+version: 2.10.2
+stars: 4.6
+reviews: 17313
 website: https://india.delta.exchange/
 repository: 
 issue: 

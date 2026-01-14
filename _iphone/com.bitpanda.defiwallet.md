@@ -7,9 +7,9 @@ authors:
 appId: com.bitpanda.defiwallet
 appCountry: ca
 idd: '6744311198'
-released: '2025-08-18T07:00:00Z'
-updated: 2025-10-24
-version: 1.3.2
+released: 2025-08-18
+updated: 2025-12-17
+version: 1.4.0
 stars: 0
 reviews: 0
 website: https://www.bitpanda.com/en/web3

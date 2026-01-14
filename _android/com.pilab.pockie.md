@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.pilab.pockie
 appCountry: 
-released: Jul 24, 2023
+released: 2023-07-24
 updated: 2025-08-06
 version: 1.4.10
-stars: 4.7619047
+stars: 4.8
 ratings: 
 reviews: 57
 website: https://www.pockie.io/
@@ -27,6 +27,7 @@ twitter: Pockie_io
 social: 
 redirect_from: 
 developerName: PiLab Technology
+builds: 
 features: 
 
 ---

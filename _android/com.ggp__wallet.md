@@ -3,14 +3,14 @@ wsId: ggpWallet
 title: GGP Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.ggp__wallet
 appCountry: 
-released: Jun 5, 2024
-updated: 2025-11-06
-version: 1.4.5
-stars: 4.9375
+released: 2024-06-05
+updated: 2026-01-12
+version: 1.5.2
+stars: 4.9
 ratings: 
 reviews: 16
 website: https://ggp.gg/
@@ -27,6 +27,7 @@ twitter: ggp_wallet
 social: 
 redirect_from: 
 developerName: Planet 9 Group Corporation
+builds: 
 features: 
 
 ---

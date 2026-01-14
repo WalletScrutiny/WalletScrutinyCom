@@ -1,33 +1,34 @@
 ---
 wsId: krystalCrypto
 title: 'Krystal: Crypto & Web3 Wallet'
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.kyrd.krystal
-appCountry:
-released: Apr 9, 2021
+appCountry: 
+released: 2021-04-09
 updated: 2025-05-29
 version: 1.2.91
-stars: 3.7884614
-ratings:
+stars: 3.7
+ratings: 
 reviews: 32
 website: https://krystal.app/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.kyrd.krystal.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nobtc
-appHashes:
+appHashes: 
 date: 2025-11-19
-signer:
+signer: 
 twitter: KrystalDefi
-social:
-redirect_from:
+social: 
+redirect_from: 
 developerName: KYRD International Limited
-features:
+builds: 
+features: 
 
 ---
 

@@ -6,7 +6,7 @@ authors:
 appId: com.coinex.vault
 appCountry: us
 idd: '6529535723'
-released: '2024-07-23T07:00:00Z'
+released: 2024-07-23
 updated: 2025-10-30
 version: 2.19.0
 stars: 5

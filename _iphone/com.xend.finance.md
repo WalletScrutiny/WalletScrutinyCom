@@ -7,12 +7,12 @@ authors:
 appId: com.xend.finance
 appCountry: ng
 idd: '1587050825'
-released: '2021-11-28T08:00:00Z'
+released: 2021-11-28
 updated: 2025-10-07
 version: 3.1.5
-stars: 4.26531
+stars: 4.3
 reviews: 147
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.xend.finance.jpg

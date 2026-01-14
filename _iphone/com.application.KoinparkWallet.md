@@ -3,16 +3,16 @@ wsId: koinparkWallet
 title: KoinPark Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.application.KoinparkWallet
 appCountry: us
 idd: '6544803836'
-released: '2024-08-30T07:00:00Z'
-updated: 2025-09-29
-version: '1.6'
+released: 2024-08-30
+updated: 2025-12-31
+version: '1.9'
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.application.KoinparkWallet.jpg

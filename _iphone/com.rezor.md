@@ -7,12 +7,12 @@ authors:
 appId: com.rezor
 appCountry: us
 idd: '6751512715'
-released: '2025-10-08T07:00:00Z'
+released: 2025-10-08
 updated: 2025-11-05
 version: 1.0.5
-stars: 4.85714
+stars: 4.7
 reviews: 21
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.rezor.jpg
@@ -25,7 +25,7 @@ signer:
 twitter: rezor_official
 social:
 - https://t.me/rezorofficial
-- https://www.instagram.com/rezor.rzr  
+- https://www.instagram.com/rezor.rzr
 features: 
 developerName: rezor foundation
 

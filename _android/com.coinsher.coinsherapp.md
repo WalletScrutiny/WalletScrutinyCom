@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.coinsher.coinsherapp
 appCountry: 
-released: May 25, 2024
+released: 2024-05-25
 updated: 2025-12-27
 version: 1.5.2
-stars: 4.75
+stars: 4.8
 ratings: 
 reviews: 7
 website: https://www.coinsher.com/
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Solidray
+builds: 
 features: 
 
 ---

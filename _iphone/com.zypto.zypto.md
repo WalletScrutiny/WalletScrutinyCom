@@ -7,10 +7,10 @@ authors:
 appId: com.zypto.zypto
 appCountry: us
 idd: '6463755992'
-released: '2024-06-04T07:00:00Z'
+released: 2024-06-04
 updated: 2025-12-04
 version: 1.24.0
-stars: 4.68
+stars: 4.7
 reviews: 50
 website: https://zypto.com/
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: Zyptopay
 social:
 - https://www.reddit.com/r/ZyptoApp
-- https://t.me/zypto 
+- https://t.me/zypto
 features: 
 developerName: Zypto SP Z O O
 

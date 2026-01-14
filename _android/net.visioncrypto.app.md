@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: net.visioncrypto.app
 appCountry: 
-released: May 23, 2025
+released: 2025-05-23
 updated: 2025-08-22
 version: 0.0.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: VISION CRYPTO
+builds: 
 features: 
 
 ---

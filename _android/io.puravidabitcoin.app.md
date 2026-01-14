@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: io.puravidabitcoin.app
 appCountry: 
-released: Apr 10, 2023
+released: 2023-04-10
 updated: 2025-11-05
 version: 2.1.8
 stars: 5
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Pura Vida Technologies
+builds: 
 features: 
 
 ---

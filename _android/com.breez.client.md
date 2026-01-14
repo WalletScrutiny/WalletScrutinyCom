@@ -21,10 +21,10 @@ repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2024-07-24
+date: 2026-01-14
 signer: 
 twitter: breez_tech
 social: 

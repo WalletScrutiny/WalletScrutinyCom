@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: io.leather.mobilewallet
 appCountry: 
-released: Mar 25, 2025
+released: 2025-03-25
 updated: 2025-10-14
 version: 2.81.0
 stars: 
@@ -25,9 +25,10 @@ date: 2025-12-27
 signer: 
 twitter: leatherbtc
 social:
-- https://www.youtube.com/@Leather-io 
+- https://www.youtube.com/@Leather-io
 redirect_from: 
 developerName: Leather Wallet LLC
+builds: 
 features: 
 
 ---

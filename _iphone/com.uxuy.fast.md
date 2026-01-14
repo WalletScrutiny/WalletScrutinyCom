@@ -7,10 +7,10 @@ authors:
 appId: com.uxuy.fast
 appCountry: us
 idd: '6744010539'
-released: '2025-05-29T07:00:00Z'
+released: 2025-05-29
 updated: 2025-12-20
 version: 2.3.8
-stars: 4.09091
+stars: 4.1
 reviews: 11
 website: https://uxuy.com
 repository: 

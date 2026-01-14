@@ -3,12 +3,12 @@ wsId:
 title: 'SmashFi: Bitcoin Self-Custody'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: me.smashfi.appclient
 appCountry: 
-released: Apr 2, 2025
-updated: 2025-08-01
-version: 1.0.3
+released: 2025-04-02
+updated: 2025-11-12
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: SmashFi
+builds: 
 features: 
 
 ---

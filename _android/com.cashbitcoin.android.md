@@ -7,10 +7,10 @@ authors:
 users: 1000
 appId: com.cashbitcoin.android
 appCountry: 
-released: Sep 6, 2023
+released: 2023-09-06
 updated: 2023-09-07
 version: '1.0'
-stars: 3.1111112
+stars: 3.1
 ratings: 
 reviews: 5
 website: https://cash2bitcoin.com/
@@ -27,6 +27,7 @@ twitter: Cash2Bitcoinatm
 social: 
 redirect_from: 
 developerName: bizdetail
+builds: 
 features: 
 
 ---

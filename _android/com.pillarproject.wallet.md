@@ -11,7 +11,7 @@ updated: 2025-12-08
 version: 4.1.4
 stars: 3.9
 ratings: 1007
-reviews: 89
+reviews: 88
 website: http://pillar.fi
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

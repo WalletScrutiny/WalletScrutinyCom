@@ -6,6 +6,7 @@ authors:
 users: 1000
 appId: com.app.freedx.prod
 appCountry: 
+released: 
 updated: 2026-01-07
 version: 1.3.0
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Freedx
+builds: 
 features: 
 
 ---

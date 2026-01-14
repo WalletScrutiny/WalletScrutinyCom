@@ -1,18 +1,18 @@
 ---
 wsId: onboardWallet
-title: Onboard Wallet
+title: Onboard Global
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.onboard.wallet
 appCountry: 
-released: Mar 10, 2023
-updated: 2025-10-08
-version: 3.0.6
-stars: 4.78125
+released: 2023-03-10
+updated: 2025-12-12
+version: 3.1.1
+stars: 4.8
 ratings: 
-reviews: 13
+reviews: 16
 website: https://onboard.xyz
 repository: 
 issue: 
@@ -27,7 +27,8 @@ twitter: OnboardGlobal
 social: 
 redirect_from: 
 developerName: Nestcoin
-features:
+builds: 
+features: 
 
 ---
 

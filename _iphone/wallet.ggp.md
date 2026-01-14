@@ -3,11 +3,11 @@ wsId: ggpWallet
 title: GGP Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: wallet.ggp
 appCountry: us
 idd: '6692627990'
-released: '2024-11-10T08:00:00Z'
+released: 2024-11-10
 updated: 2025-11-12
 version: 1.4.5
 stars: 5

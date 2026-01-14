@@ -7,12 +7,12 @@ authors:
 appId: com.hashkey.global
 appCountry: ph
 idd: '6479636139'
-released: '2024-04-19T07:00:00Z'
-updated: 2025-11-14
-version: 1.53.0
-stars: 1.66667
+released: 2024-04-19
+updated: 2026-01-12
+version: 1.58.0
+stars: 1.7
 reviews: 9
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.hashkey.global.jpg

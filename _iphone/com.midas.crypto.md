@@ -7,11 +7,11 @@ authors:
 appId: com.midas.crypto
 appCountry: tr
 idd: '6505027440'
-released: '2024-08-13T07:00:00Z'
-updated: 2025-11-06
-version: 2.70.0
-stars: 4.64482
-reviews: 2624
+released: 2024-08-13
+updated: 2026-01-08
+version: 2.79.0
+stars: 4.6
+reviews: 2884
 website: https://www.midaskripto.com/
 repository: 
 issue: 

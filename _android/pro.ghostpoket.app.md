@@ -6,9 +6,9 @@ authors:
 users: 100
 appId: pro.ghostpoket.app
 appCountry: 
-released: Jun 21, 2025
-updated: 2025-11-09
-version: 1.0.12
+released: 2025-06-21
+updated: 2025-11-23
+version: 1.1.4
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: GhostWallet Global
+builds: 
 features: 
 
 ---

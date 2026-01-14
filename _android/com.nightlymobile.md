@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.nightlymobile
 appCountry: 
-released: May 23, 2023
-updated: 2025-11-05
-version: 2.15.8
-stars: 3.625
+released: 2023-05-23
+updated: 2026-01-13
+version: 2.15.25
+stars: 3.8
 ratings: 
-reviews: 10
+reviews: 12
 website: https://wallet.nightly.app
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://t.me/+0GfPnsVD3IVlYTBk
 redirect_from: 
 developerName: Akudama
+builds: 
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 users: 1000
 appId: com.deffio.app
 appCountry: 
-released: Mar 14, 2025
-updated: 2025-10-23
-version: 1.5.0
+released: 2025-03-14
+updated: 2025-12-19
+version: 1.6.1
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: DeffioCP
 social: 
 redirect_from: 
 developerName: Deffio
+builds: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: xyz.sanafi.app
 appCountry: 
-released: Oct 26, 2025
+released: 2025-10-26
 updated: 2026-01-11
 version: 1.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Sanafi Labs LLC
+builds: 
 features: 
 
 ---

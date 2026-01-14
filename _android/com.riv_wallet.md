@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.riv_wallet
 appCountry: 
-released: May 14, 2025
+released: 2025-05-14
 updated: 2025-07-30
 version: 1.2.6
 stars: 3.6
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: RIV-Academy
+builds: 
 features: 
 
 ---

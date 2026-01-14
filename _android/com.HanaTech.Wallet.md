@@ -3,14 +3,14 @@ wsId: hanaWallet
 title: Hana Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.HanaTech.Wallet
 appCountry: 
-released: Oct 26, 2023
-updated: 2025-11-05
-version: 1.52.50
-stars: 4.285714
+released: 2023-10-26
+updated: 2026-01-10
+version: 1.60.0
+stars: 4.3
 ratings: 
 reviews: 5
 website: https://hanawallet.io
@@ -27,6 +27,7 @@ twitter: hanawallet
 social: 
 redirect_from: 
 developerName: HanaTech
+builds: 
 features: 
 
 ---

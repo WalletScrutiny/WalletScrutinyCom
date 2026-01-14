@@ -3,13 +3,13 @@ wsId:
 title: Bankera – Mobile Banking
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.bankera.wallet
 appCountry: 
-released: Feb 28, 2022
-updated: 2025-10-08
-version: 4.2.1
+released: 2022-02-28
+updated: 2026-01-07
+version: 4.3.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Era Finance Ltd
+builds: 
 features: 
 
 ---

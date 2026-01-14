@@ -7,7 +7,7 @@ authors:
 users: 10000
 appId: com.bitop.ex
 appCountry: 
-released: Dec 4, 2023
+released: 2023-12-04
 updated: 2024-09-09
 version: 1.0.21
 stars: 
@@ -27,6 +27,7 @@ twitter: bitop_exchange
 social: 
 redirect_from: 
 developerName: Bitop Ltd
+builds: 
 features: 
 
 ---

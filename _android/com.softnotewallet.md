@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.softnotewallet
 appCountry: 
-released: Aug 18, 2024
+released: 2024-08-18
 updated: 2025-10-17
 version: 1.8.4
-stars: 4.857143
+stars: 4.9
 ratings: 
 reviews: 2
 website: https://softnote.com
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCn17IrKSqmIFn8illLRR2-g
 redirect_from: 
 developerName: Crispmind Ltd.
+builds: 
 features: 
 
 ---

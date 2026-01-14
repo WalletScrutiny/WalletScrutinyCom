@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.hyerdesign.diver.wallet
 appCountry: 
-released: Oct 4, 2023
+released: 2023-10-04
 updated: 2024-12-09
 version: 1.6.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bigant Diver Limited
+builds: 
 features: 
 
 ---

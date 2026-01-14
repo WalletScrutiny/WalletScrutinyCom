@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.qiewallet
 appCountry: 
-released: Jun 20, 2023
+released: 2023-06-20
 updated: 2025-12-26
 version: 0.3.50
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: VortX Capital Pty Ltd
+builds: 
 features: 
 
 ---

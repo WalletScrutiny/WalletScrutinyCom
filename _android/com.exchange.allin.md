@@ -7,8 +7,9 @@ authors:
 users: 10000
 appId: com.exchange.allin
 appCountry: 
-updated: 2025-11-04
-version: 1.1.23
+released: 
+updated: 2025-12-08
+version: 1.1.27
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter: AllinXGlobal
 social: 
 redirect_from: 
 developerName: Allin Exchange
+builds: 
 features: 
 
 ---

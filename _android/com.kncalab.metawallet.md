@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.kncalab.metawallet
 appCountry: 
-released: May 22, 2022
+released: 2022-05-22
 updated: 2024-10-14
 version: '1.0'
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 1
+reviews: 2
 website: 
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: artiproject21
 social: 
 redirect_from: 
 developerName: kncalab
+builds: 
 features: 
 
 ---

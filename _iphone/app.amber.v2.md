@@ -6,7 +6,7 @@ authors:
 appId: app.amber.v2
 appCountry: us
 idd: '6480584472'
-released: '2024-04-04T07:00:00Z'
+released: 2024-04-04
 updated: 2026-01-02
 version: 2.11.1
 stars: 5

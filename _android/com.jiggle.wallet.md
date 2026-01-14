@@ -1,33 +1,34 @@
 ---
 wsId: jiggleCrypto
 title: 'Jiggle: Crypto Wallet'
-altTitle:
+altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.jiggle.wallet
-appCountry:
-released: May 19, 2023
+appCountry: 
+released: 2023-05-19
 updated: 2025-04-11
 version: 0.2.44
-stars: 4.37
-ratings:
+stars: 4.4
+ratings: 
 reviews: 34
 website: https://jiggle.app
-repository:
-issue:
+repository: 
+issue: 
 icon: com.jiggle.wallet.jpg
-bugbounty:
+bugbounty: 
 meta: deprecated
 verdict: wip
-appHashes:
+appHashes: 
 date: 2025-11-19
-signer:
+signer: 
 twitter: jiggle_app
-social:
-redirect_from:
+social: 
+redirect_from: 
 developerName: Appia Solutions DMCC
-features:
+builds: 
+features: 
 
 ---
 

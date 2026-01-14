@@ -3,16 +3,16 @@ wsId:
 title: 'ECOIN: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- danny 
-users: 5000
+- danny
+users: 10000
 appId: org.ecoinwallet
 appCountry: 
-released: Jan 21, 2024
-updated: 2025-11-08
-version: 1.8.3
-stars: 4.2222223
+released: 2024-01-21
+updated: 2025-11-24
+version: 1.8.5
+stars: 4.4
 ratings: 
-reviews: 4
+reviews: 5
 website: https://ecoinwallet.org
 repository: https://github.com/ecoin-finance/ecoinwallet
 issue: https://github.com/ecoin-finance/ecoinwallet/issues/1
@@ -30,6 +30,7 @@ social:
 - https://t.me/ecoin_wallet
 redirect_from: 
 developerName: Ecoin Ecosystem LTDA
+builds: 
 features: 
 
 ---

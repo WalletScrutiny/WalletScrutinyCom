@@ -7,11 +7,11 @@ authors:
 appId: au.com.bitcoin.mobileapp
 appCountry: au
 idd: '6444394282'
-released: '2022-11-28T08:00:00Z'
+released: 2022-11-28
 updated: 2025-08-18
 version: 12.0.0
-stars: 4.67817
-reviews: 1333
+stars: 4.7
+reviews: 1407
 website: https://www.bitcoin.com.au
 repository: 
 issue: 
@@ -26,7 +26,7 @@ twitter: bitcoin_com_au
 social:
 - https://www.facebook.com/bitcoinaustralia
 - https://www.tiktok.com/@bitcoin.com.au_
-- https://www.instagram.com/bitcoin.com.au 
+- https://www.instagram.com/bitcoin.com.au
 features: 
 developerName: Bitcoin.com.au
 

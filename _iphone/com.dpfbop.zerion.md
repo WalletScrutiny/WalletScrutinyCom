@@ -7,11 +7,11 @@ authors:
 appId: com.dpfbop.zerion
 appCountry: us
 idd: '1456732565'
-released: '2019-08-27T07:00:00Z'
-updated: 2025-12-18
-version: 4.9.0
-stars: 4.7626
-reviews: 4722
+released: 2019-08-27
+updated: 2026-01-08
+version: 4.9.1
+stars: 4.8
+reviews: 4723
 website: https://zerion.io/
 repository: 
 issue: 
@@ -24,7 +24,7 @@ date: 2026-01-02
 signer: 
 twitter: zerion
 social:
-- https://www.linkedin.com/company/zeriontech 
+- https://www.linkedin.com/company/zeriontech
 features: 
 developerName: Zerion LLC
 

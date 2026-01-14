@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.maxswap.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-08-29
+date: 2026-01-14
 signer: 
 twitter: 
 social: 

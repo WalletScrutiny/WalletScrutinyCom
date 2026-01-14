@@ -7,12 +7,12 @@ authors:
 appId: io.rayyo
 appCountry: mx
 idd: '6448856707'
-released: '2024-04-22T07:00:00Z'
+released: 2024-04-22
 updated: 2025-12-18
 version: 0.7.33
-stars: 3.83333
+stars: 3.8
 reviews: 36
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.rayyo.jpg
@@ -25,7 +25,7 @@ signer:
 twitter: RayyoApp
 social:
 - https://www.instagram.com/rayyoapp
-- https://www.facebook.com/Rayyowallet  
+- https://www.facebook.com/Rayyowallet
 features: 
 developerName: Montebit
 

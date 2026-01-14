@@ -7,11 +7,11 @@ authors:
 appId: com.bitstack.app
 appCountry: be
 idd: '1608783388'
-released: '2022-07-05T07:00:00Z'
-updated: 2025-11-07
-version: 2.4.3
-stars: 4.66667
-reviews: 111
+released: 2022-07-05
+updated: 2026-01-12
+version: 3.5.0
+stars: 4.6
+reviews: 119
 website: https://www.bitstack-app.com
 repository: 
 issue: 

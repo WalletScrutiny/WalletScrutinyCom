@@ -3,14 +3,14 @@ wsId: pocketBitcoin
 title: 'Pocket: Bitcoin made easy'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.pocketbitcoin.app
 appCountry: ch
 idd: '6452839193'
-released: '2024-01-20T08:00:00Z'
+released: 2024-01-20
 updated: 2025-10-08
 version: 2.6.2
-stars: 4.42856
+stars: 4.4
 reviews: 14
 website: https://pocketbitcoin.com
 repository: 

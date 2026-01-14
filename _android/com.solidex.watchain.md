@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitcoin Code
+title: Quantum Code - AI Tracker
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.solidex.watchain
 appCountry: 
-released: Oct 19, 2025
-updated: 2025-10-25
-version: 1.0.3
+released: 2025-10-19
+updated: 2025-11-14
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: ToryPasDev
+builds: 
 features: 
 
 ---

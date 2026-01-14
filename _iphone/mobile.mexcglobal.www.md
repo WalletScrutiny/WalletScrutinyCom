@@ -6,12 +6,12 @@ authors:
 appId: mobile.mexcglobal.www
 appCountry: us
 idd: '1605393003'
-released: '2022-02-09T08:00:00Z'
+released: 2022-02-09
 updated: 2026-01-02
 version: 6.39.0
-stars: 4.74759
+stars: 4.7
 reviews: 7143
-website: ''
+website: 
 repository: 
 issue: 
 icon: mobile.mexcglobal.www.jpg

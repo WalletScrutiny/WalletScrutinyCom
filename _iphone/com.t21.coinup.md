@@ -6,10 +6,10 @@ authors:
 appId: com.t21.coinup
 appCountry: us
 idd: '1645045725'
-released: '2022-10-13T07:00:00Z'
+released: 2022-10-13
 updated: 2025-12-31
 version: '100023'
-stars: 4.7037
+stars: 4.7
 reviews: 27
 website: https://www.coinup.io/
 repository: 

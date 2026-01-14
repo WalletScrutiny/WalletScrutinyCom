@@ -3,11 +3,12 @@ wsId: rumbleWallet
 title: 'Rumble Wallet: Tip With Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.rumble.rumblewallet
 appCountry: 
-updated: 2026-01-06
+released: 
+updated: 2026-01-10
 version: VARY
 stars: 
 ratings: 
@@ -25,7 +26,7 @@ signer:
 twitter: rumblevideo
 social:
 - https://www.linkedin.com/company/rumblevideo
-- https://www.youtube.com/@rumblevideo 
+- https://www.youtube.com/@rumblevideo
 redirect_from: 
 developerName: Rumble Inc
 builds: 

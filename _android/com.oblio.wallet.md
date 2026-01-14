@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.oblio.wallet
 appCountry: 
-released: Jan 12, 2025
+released: 2025-01-12
 updated: 2025-06-25
 version: 1.0.12
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Oblio Wallet
+builds: 
 features: 
 
 ---

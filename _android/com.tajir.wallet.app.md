@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.tajir.wallet.app
 appCountry: 
-released: Aug 13, 2025
+released: 2025-08-13
 updated: 2026-01-08
 version: 1.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Tajir Web3 LTD
+builds: 
 features: 
 
 ---

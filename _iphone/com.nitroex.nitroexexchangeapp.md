@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.nitroex.nitroexexchangeapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: 2026-01-14
 signer: 
 twitter: NitroExOfficial
 social:

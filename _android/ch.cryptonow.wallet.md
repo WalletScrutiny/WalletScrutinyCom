@@ -3,10 +3,11 @@ wsId: cryptoNow
 title: Cryptonow
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: ch.cryptonow.wallet
 appCountry: 
+released: 
 updated: 2025-11-03
 version: 2.2.1
 stars: 
@@ -26,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Värdex Suisse AG
+builds: 
 features: 
 
 ---

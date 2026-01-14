@@ -7,12 +7,12 @@ authors:
 appId: com.fastex.fastexapp
 appCountry: am
 idd: '6447000686'
-released: '2023-04-13T07:00:00Z'
+released: 2023-04-13
 updated: 2025-09-08
 version: 1.41.0
-stars: 3.99567
-reviews: 231
-website: ''
+stars: 3.9
+reviews: 235
+website: 
 repository: 
 issue: 
 icon: com.fastex.fastexapp.jpg
@@ -27,7 +27,7 @@ social:
 - https://www.facebook.com/fastexexchange
 - https://discord.com/invite/AWTXsAu7YP
 - https://t.me/fastexexchange_news
-- https://www.instagram.com/fastexecosystem 
+- https://www.instagram.com/fastexecosystem
 features: 
 developerName: FastEX Europe
 

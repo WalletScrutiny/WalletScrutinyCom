@@ -6,9 +6,9 @@ authors:
 users: 500
 appId: org.budgetcoinz.app
 appCountry: 
-released: Feb 29, 2024
-updated: 2025-11-07
-version: 1.7.0
+released: 2024-02-29
+updated: 2025-12-25
+version: 1.8.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BudgetCoinz
+builds: 
 features: 
 
 ---

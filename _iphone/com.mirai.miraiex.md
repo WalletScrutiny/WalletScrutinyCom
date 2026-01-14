@@ -7,12 +7,12 @@ authors:
 appId: com.mirai.miraiex
 appCountry: 'no'
 idd: '1542108249'
-released: '2021-01-09T08:00:00Z'
-updated: 2025-08-14
-version: 3.6.1
-stars: 4.61489
-reviews: 10052
-website: ''
+released: 2021-01-09
+updated: 2026-01-14
+version: 3.7.0
+stars: 4.6
+reviews: 10112
+website: 
 repository: 
 issue: 
 icon: com.mirai.miraiex.jpg

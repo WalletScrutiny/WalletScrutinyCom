@@ -7,7 +7,7 @@ authors:
 appId: com.qrl.mobileWallet
 appCountry: nl
 idd: '6448219494'
-released: '2023-10-02T07:00:00Z'
+released: 2023-10-02
 updated: 2025-04-30
 version: 1.0.3
 stars: 5

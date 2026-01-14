@@ -3,14 +3,14 @@ wsId: bitywallet
 title: Bity Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bity.wallet.production
 appCountry: ch
 idd: '6446944736'
-released: '2024-02-22T08:00:00Z'
+released: 2024-02-22
 updated: 2025-11-29
 version: 2.0.0
-stars: 4.52941
+stars: 4.5
 reviews: 34
 website: https://bity.com/en/personal/wallet
 repository: 

@@ -6,6 +6,7 @@ authors:
 users: 1000
 appId: com.itez.wallet
 appCountry: 
+released: 
 updated: 2024-11-19
 version: 1.1.6
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: itez
+builds: 
 features: 
 
 ---

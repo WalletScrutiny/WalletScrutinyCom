@@ -3,13 +3,13 @@ wsId:
 title: Coinhouse - Bitcoin et Cryptos
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.coinhouse
 appCountry: 
-released: Jan 13, 2025
-updated: 2025-11-03
-version: 4.9.0
+released: 2025-01-13
+updated: 2026-01-05
+version: 4.12.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: CoinhouseHQ
 social: 
 redirect_from: 
 developerName: Coinhouse
+builds: 
 features: 
 
 ---

@@ -7,6 +7,7 @@ authors:
 users: 50000
 appId: com.darkex.exchange
 appCountry: 
+released: 
 updated: 2025-09-26
 version: 6.4.7
 stars: 
@@ -26,6 +27,7 @@ twitter: darkexglobal
 social: 
 redirect_from: 
 developerName: DarkEx
+builds: 
 features: 
 
 ---

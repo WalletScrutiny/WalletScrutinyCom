@@ -3,11 +3,11 @@ wsId:
 title: Crypto Wallet - MoWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: app.moscan.appwallet
 appCountry: 
-released: Sep 29, 2022
+released: 2022-09-29
 updated: 2022-12-12
 version: 3.0.0
 stars: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Crypto Europe LTD
+builds: 
 features: 
 
 ---

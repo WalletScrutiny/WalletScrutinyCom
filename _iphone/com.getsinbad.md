@@ -7,9 +7,9 @@ authors:
 appId: com.getsinbad
 appCountry: ca
 idd: '1661558970'
-released: '2023-06-05T07:00:00Z'
-updated: 2025-10-26
-version: 0.79.3
+released: 2023-06-05
+updated: 2026-01-05
+version: '0.82'
 stars: 5
 reviews: 9
 website: https://getsinbad.com

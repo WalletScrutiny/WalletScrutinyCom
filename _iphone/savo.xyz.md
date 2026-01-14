@@ -6,12 +6,12 @@ authors:
 appId: savo.xyz
 appCountry: us
 idd: '6742020669'
-released: '2025-02-18T08:00:00Z'
+released: 2025-02-18
 updated: 2026-01-13
 version: 1.3.53
-stars: 4.84558
+stars: 4.8
 reviews: 136
-website: ''
+website: 
 repository: 
 issue: 
 icon: savo.xyz.jpg

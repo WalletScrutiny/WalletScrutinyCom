@@ -7,7 +7,7 @@ authors:
 appId: com.walletapp.whitewallet
 appCountry: es
 idd: '6736445215'
-released: '2025-01-24T08:00:00Z'
+released: 2025-01-24
 updated: 2025-11-04
 version: 4.1.0
 stars: 5

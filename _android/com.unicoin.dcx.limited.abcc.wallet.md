@@ -6,6 +6,7 @@ authors:
 users: 10
 appId: com.unicoin.dcx.limited.abcc.wallet
 appCountry: 
+released: 
 updated: 2026-01-06
 version: 1.10.17
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: ABCC Tech
+builds: 
 features: 
 
 ---

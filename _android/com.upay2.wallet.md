@@ -6,10 +6,10 @@ authors:
 users: 50000
 appId: com.upay2.wallet
 appCountry: 
-released: Jul 27, 2025
+released: 2025-07-27
 updated: 2026-01-13
 version: 1.0.6
-stars: 2.5714285
+stars: 2.6
 ratings: 
 reviews: 4
 website: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: UPay
+builds: 
 features: 
 
 ---

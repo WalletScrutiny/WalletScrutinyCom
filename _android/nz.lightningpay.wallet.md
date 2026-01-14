@@ -6,8 +6,9 @@ authors:
 users: 100
 appId: nz.lightningpay.wallet
 appCountry: 
-updated: 2025-07-30
-version: 1.3.6
+released: 
+updated: 2026-01-08
+version: 2.2.4
 stars: 
 ratings: 
 reviews: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Ones and Zeros Technology
+builds: 
 features: 
 
 ---

@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ancient.wallet
 appCountry: 
-released: Aug 13, 2024
+released: 2024-08-13
 updated: 2026-01-13
 version: 1.4.2
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Ancient Society
+builds: 
 features: 
 
 ---

@@ -3,12 +3,13 @@ wsId: bitpandaDeFi
 title: 'Bitpanda DeFi Wallet: Onchain'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.bitpanda.defiwallet
 appCountry: 
-updated: 2025-10-22
-version: 1.3.2
+released: 
+updated: 2025-12-16
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +28,7 @@ social:
 - https://www.facebook.com/BITPANDA
 redirect_from: 
 developerName: Bitpanda Web3 FZCO
+builds: 
 features: 
 
 ---

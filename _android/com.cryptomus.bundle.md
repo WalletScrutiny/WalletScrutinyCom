@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.cryptomus.bundle
 appCountry: 
-released: Dec 19, 2024
-updated: 2025-09-14
-version: 2.6.0(117)
-stars: 4.714286
+released: 2024-12-19
+updated: 2025-12-30
+version: 2.7.0(136)
+stars: 4.7
 ratings: 
-reviews: 70
+reviews: 71
 website: https://cryptomus.com/
 repository: 
 issue: 
@@ -26,7 +26,8 @@ signer:
 twitter: cryptomus
 social: 
 redirect_from: 
-developerName: Certa Payments LTD
+developerName: Padel West S.A.
+builds: 
 features: 
 
 ---

@@ -4,15 +4,15 @@ title: 'Ramp Network: Buy Crypto & BTC'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 10000
 appId: com.rampnetwork.app
 appCountry: 
-released: Aug 24, 2025
-updated: 2025-10-15
-version: 1.3.0
-stars: 4.375
+released: 2025-08-24
+updated: 2025-12-16
+version: 1.4.0
+stars: 3.9
 ratings: 
-reviews: 4
+reviews: 10
 website: https://rampnetwork.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: RampNetwork
 social: 
 redirect_from: 
 developerName: Ramp Network
+builds: 
 features: 
 
 ---

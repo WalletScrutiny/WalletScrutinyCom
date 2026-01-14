@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: prod.walletv.virgo
 appCountry: 
-released: Apr 3, 2025
+released: 2025-04-03
 updated: 2025-11-24
 version: 1.1.8
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Wallet V
+builds: 
 features: 
 
 ---

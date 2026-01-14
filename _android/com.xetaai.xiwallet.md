@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.xetaai.xiwallet
 appCountry: 
-released: Sep 18, 2025
+released: 2025-09-18
 updated: 2025-11-25
 version: 1.0.11
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: XetaAI
+builds: 
 features: 
 
 ---

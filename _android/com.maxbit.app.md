@@ -2,14 +2,14 @@
 wsId: maxbitTH
 title: 'Maxbit: Buy Bitcoin & Crypto'
 altTitle: 
-authors: 
+authors:
 - danny
-users: 10000
+users: 50000
 appId: com.maxbit.app
 appCountry: 
-released: Sep 24, 2024
-updated: 2025-10-29
-version: 1.35.0
+released: 2024-09-24
+updated: 2026-01-09
+version: 1.36.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: MaxbitOfficial
 social: 
 redirect_from: 
 developerName: Maxbit Digital Asset CO., LTD.
+builds: 
 features: 
 
 ---

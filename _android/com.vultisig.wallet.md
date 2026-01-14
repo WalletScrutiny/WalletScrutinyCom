@@ -3,14 +3,14 @@ wsId: vultisig
 title: 'Vultisig: Seedless Wallet'
 altTitle: 
 authors:
-- danny 
-users: 5000
+- danny
+users: 10000
 appId: com.vultisig.wallet
 appCountry: 
-released: Jul 1, 2024
-updated: 2025-11-04
-version: 1.0.82
-stars: 4.8
+released: 2024-07-01
+updated: 2025-12-12
+version: 1.0.89
+stars: 4.7
 ratings: 
 reviews: 7
 website: https://vultisig.com
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/vultisig
 redirect_from: 
 developerName: Vulti Holdings Ltd.
+builds: 
 features: 
 
 ---

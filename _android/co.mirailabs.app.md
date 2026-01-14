@@ -3,14 +3,14 @@ wsId: miraiCrypto
 title: Mirai App DeFi & Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: co.mirailabs.app
 appCountry: 
-released: Nov 20, 2023
+released: 2023-11-20
 updated: 2025-05-20
 version: 2.6.0
-stars: 3.857143
+stars: 3.9
 ratings: 
 reviews: 4
 website: https://miraiapp.io/
@@ -27,6 +27,7 @@ twitter: MiraiApp
 social: 
 redirect_from: 
 developerName: MIRAI LABS PTE. LTD.
+builds: 
 features: 
 
 ---

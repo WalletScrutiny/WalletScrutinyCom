@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.ewetechnology.wallet.remixdao
 appCountry: 
+released: 
 updated: 2025-11-26
 version: 1.2.0
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: ewe technology
+builds: 
 features: 
 
 ---

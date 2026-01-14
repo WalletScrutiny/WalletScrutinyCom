@@ -8,8 +8,8 @@ appId: com.app.Inocyx
 appCountry: in
 idd: '6444437433'
 released: 2022-12-05
-updated: 2025-12-17
-version: '5.2'
+updated: 2026-01-14
+version: '5.4'
 stars: 4.7
 reviews: 15
 website: 

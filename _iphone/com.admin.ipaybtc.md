@@ -6,12 +6,12 @@ authors:
 appId: com.admin.ipaybtc
 appCountry: us
 idd: '1641016678'
-released: '2022-12-10T08:00:00Z'
+released: 2022-12-10
 updated: 2025-11-18
 version: 3.1.4
-stars: 4.42856
+stars: 4.4
 reviews: 7
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.admin.ipaybtc.jpg

@@ -3,16 +3,16 @@ wsId: athenaBitcoin
 title: Athena Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.AthenaBitcoin.AthenaBitcoin
 appCountry: us
 idd: '6736403129'
-released: '2024-10-20T07:00:00Z'
+released: 2024-10-20
 updated: 2025-10-02
 version: 2.2.2-38
-stars: 2.33333
+stars: 2.3
 reviews: 3
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.AthenaBitcoin.AthenaBitcoin.jpg

@@ -3,11 +3,11 @@ wsId:
 title: Diamond Multi Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.dmw.wallet
 appCountry: 
-released: Jun 16, 2020
+released: 2020-06-16
 updated: 2024-12-26
 version: 1.0.48
 stars: 
@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.dmw.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2025-11-14
+date: 2026-01-14
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FanSong
+developerName: 팬페임개발자
+builds: 
 features: 
 
 ---

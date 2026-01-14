@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.triskel
 appCountry: 
-released: Jun 27, 2023
+released: 2023-06-27
 updated: 2026-01-03
 version: '6.1'
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Triskel Capital
+builds: 
 features: 
 
 ---

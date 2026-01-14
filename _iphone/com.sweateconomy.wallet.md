@@ -3,14 +3,14 @@ wsId: sweatWallet
 title: 'Sweat Wallet: Walk Into Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.sweateconomy.wallet
 appCountry: us
 idd: '1619316571'
-released: '2023-08-14T07:00:00Z'
+released: 2023-08-14
 updated: 2025-12-15
 version: '146.0'
-stars: 4.75451
+stars: 4.8
 reviews: 30413
 website: https://swe.at/
 repository: 
@@ -26,7 +26,7 @@ twitter: SweatEconomy
 social:
 - https://www.instagram.com/sweateconomy
 - https://www.reddit.com/r/Sweateconomy
-- https://www.facebook.com/sweateconomy 
+- https://www.facebook.com/sweateconomy
 features: 
 developerName: The Sweat Foundation Ltd
 

@@ -7,8 +7,9 @@ authors:
 users: 100000
 appId: com.bitstack.app
 appCountry: 
-updated: 2025-11-06
-version: 2.4.3
+released: 
+updated: 2026-01-09
+version: 3.5.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter: bitstack
 social: 
 redirect_from: 
 developerName: Bitstack
+builds: 
 features: 
 
 ---

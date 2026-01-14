@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.cryptowallet.si
 appCountry: 
-released: Sep 14, 2018
+released: 2018-09-14
 updated: 2025-10-18
 version: v2.0.9
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Jure Pirc
+builds: 
 features: 
 
 ---

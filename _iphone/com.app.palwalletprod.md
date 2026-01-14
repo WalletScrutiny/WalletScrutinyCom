@@ -7,12 +7,12 @@ authors:
 appId: com.app.palwalletprod
 appCountry: il
 idd: '6470434294'
-released: '2024-01-14T08:00:00Z'
+released: 2024-01-14
 updated: 2025-10-29
 version: 1.0.10
 stars: 4
 reviews: 4
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.app.palwalletprod.jpg

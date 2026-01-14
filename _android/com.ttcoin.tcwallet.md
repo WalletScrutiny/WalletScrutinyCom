@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: TC-Wallet Pro - Cryptocurrency
+title: TC-Wallet Pro - Crypto WEB3
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.ttcoin.tcwallet
 appCountry: 
-released: Jul 22, 2022
-updated: 2025-11-07
-version: '1.9'
-stars: 4.3088236
+released: 2022-07-22
+updated: 2025-11-10
+version: '1.10'
+stars: 4.3
 ratings: 
-reviews: 25
+reviews: 26
 website: https://www.ttcoin.info/
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: ttcoinofficial
 social:
 - https://www.linkedin.com/company/ttcoinofficial
 - https://www.instagram.com/ttcoinofficial
-- https://www.facebook.com/ttcoinofficial 
+- https://www.facebook.com/ttcoinofficial
 redirect_from: 
 developerName: TTcoin Games And Application
+builds: 
 features: 
 
 ---

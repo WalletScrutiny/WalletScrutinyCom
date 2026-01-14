@@ -3,16 +3,16 @@ wsId: kcex
 title: 'KCEX: The Lowest Crypto Fees'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.kcex
 appCountry: 
-released: Dec 21, 2023
-updated: 2025-11-03
-version: 1.8.8
-stars: 4.521739
+released: 2023-12-21
+updated: 2026-01-10
+version: 2.0.2
+stars: 4.4
 ratings: 
-reviews: 308
+reviews: 332
 website: https://www.kcex.com/
 repository: 
 issue: 
@@ -26,9 +26,10 @@ signer:
 twitter: KCEX_official
 social:
 - https://discord.com/invite/2aJcUhTeJU
-- https://www.linkedin.com/company/kcex/about 
+- https://www.linkedin.com/company/kcex/about
 redirect_from: 
 developerName: KCEX
+builds: 
 features: 
 
 ---

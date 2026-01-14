@@ -4,11 +4,12 @@ title: 'zBit.com: Buy Bitcoin & ETH'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cheezeebit.exchange
 appCountry: 
-updated: 2025-11-07
-version: 1.2.4.1
+released: 
+updated: 2026-01-12
+version: 1.2.8.2
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Cheezeebit Global Limited
+builds: 
 features: 
 
 ---

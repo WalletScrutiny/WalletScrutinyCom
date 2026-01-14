@@ -7,12 +7,12 @@ authors:
 users: 1000
 appId: com.xspa.ai
 appCountry: 
-released: Aug 23, 2025
-updated: 2025-11-03
-version: 1.0.3
+released: 2025-08-23
+updated: 2025-12-17
+version: 1.0.7
 stars: 5
 ratings: 
-reviews: 9
+reviews: 8
 website: https://xspa.ai/
 repository: 
 issue: 
@@ -28,9 +28,10 @@ social:
 - https://www.instagram.com/xspa.ai
 - https://www.youtube.com/@Official-XSPA
 - https://t.me/XSPAuniversechat
-- https://discord.com/invite/dPtxPK3qP9 
+- https://discord.com/invite/dPtxPK3qP9
 redirect_from: 
 developerName: XSPA
+builds: 
 features: 
 
 ---

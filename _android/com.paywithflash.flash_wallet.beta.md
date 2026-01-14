@@ -3,10 +3,11 @@ wsId:
 title: 'Flash: Bitcoin Wallet (Beta)'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.paywithflash.flash_wallet.beta
 appCountry: 
-updated: 2025-10-27
+released: 
+updated: 2025-12-30
 version: VARY
 stars: 
 ratings: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Flash Lightning Solutions
+builds: 
 features: 
 
 ---

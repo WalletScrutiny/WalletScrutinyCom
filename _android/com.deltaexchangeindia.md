@@ -3,13 +3,14 @@ wsId: deltaExchange
 title: 'Delta Exchange: Crypto Options'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.deltaexchangeindia
 appCountry: 
-updated: 2025-10-15
-version: 2.7.4
-stars: 4.125
+released: 
+updated: 2026-01-06
+version: 2.10.2
+stars: 4
 ratings: 
 reviews: 1
 website: https://india.delta.exchange
@@ -26,6 +27,7 @@ twitter: Delta_Exchange
 social: 
 redirect_from: 
 developerName: Delta Exchange India
+builds: 
 features: 
 
 ---

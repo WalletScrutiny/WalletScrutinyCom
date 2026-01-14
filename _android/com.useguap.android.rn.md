@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.useguap.android.rn
 appCountry: 
-released: Dec 5, 2025
+released: 2025-12-05
 updated: 2026-01-10
 version: 0.7.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Future Money Labs
+builds: 
 features: 
 
 ---

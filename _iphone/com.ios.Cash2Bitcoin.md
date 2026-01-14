@@ -7,10 +7,10 @@ authors:
 appId: com.ios.Cash2Bitcoin
 appCountry: us
 idd: '6463395235'
-released: '2023-09-19T07:00:00Z'
+released: 2023-09-19
 updated: 2023-10-06
 version: '1.1'
-stars: 4.92307
+stars: 4.9
 reviews: 13
 website: https://cash2bitcoin.com
 repository: 

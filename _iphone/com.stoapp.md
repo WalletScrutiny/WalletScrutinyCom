@@ -3,11 +3,11 @@ wsId: stoWallet
 title: STO Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.stoapp
 appCountry: us
 idd: '6479240761'
-released: '2024-05-13T07:00:00Z'
+released: 2024-05-13
 updated: 2025-09-23
 version: 1.0.9
 stars: 0
@@ -22,7 +22,7 @@ verdict: nobtc
 appHashes: 
 date: 2025-12-16
 signer: 
-twitter: StoChain 
+twitter: StoChain
 social: 
 features: 
 developerName: META LAB

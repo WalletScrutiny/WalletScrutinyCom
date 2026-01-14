@@ -7,9 +7,9 @@ authors:
 users: 1000
 appId: com.application.koinparkwallet
 appCountry: 
-released: Feb 29, 2024
-updated: 2025-10-13
-version: '1.19'
+released: 2024-02-29
+updated: 2025-12-15
+version: '1.21'
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: KoinparkInfo
 social: 
 redirect_from: 
 developerName: Koinpark Private Limited
+builds: 
 features: 
 
 ---

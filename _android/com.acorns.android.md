@@ -3,16 +3,16 @@ wsId: acornsInvest
 title: 'Acorns: Invest For Your Future'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000000
 appId: com.acorns.android
 appCountry: 
-released: Oct 7, 2014
-updated: 2025-11-03
-version: 4.169.0
-stars: 4.688386
+released: 2014-10-07
+updated: 2026-01-12
+version: 4.175.0
+stars: 4.7
 ratings: 
-reviews: 76525
+reviews: 76798
 website: https://support.acorns.com/hc/en-us/articles/1500010364362-Acorns-Contact-Information
 repository: 
 issue: 
@@ -25,9 +25,10 @@ date: 2025-11-12
 signer: 
 twitter: acorns
 social:
-- https://www.facebook.com/AcornsGrow 
+- https://www.facebook.com/AcornsGrow
 redirect_from: 
 developerName: Acorns
+builds: 
 features: 
 
 ---

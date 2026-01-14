@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.xellar.wallets
 appCountry: 
-released: Apr 15, 2023
+released: 2023-04-15
 updated: 2025-12-27
 version: 9.8.3
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Xellar Technology
+builds: 
 features: 
 
 ---

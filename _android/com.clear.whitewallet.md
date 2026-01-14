@@ -3,13 +3,13 @@ wsId: whitewallet
 title: Whitewallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.clear.whitewallet
 appCountry: 
-released: Aug 28, 2024
-updated: 2025-11-03
-version: 4.1.0
+released: 2024-08-28
+updated: 2026-01-07
+version: 4.6.0
 stars: 4
 ratings: 
 reviews: 1
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Whitewallet
+builds: 
 features: 
 
 ---

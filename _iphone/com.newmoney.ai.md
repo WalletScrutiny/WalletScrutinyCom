@@ -7,7 +7,7 @@ authors:
 appId: com.newmoney.ai
 appCountry: us
 idd: '6745225114'
-released: '2025-05-09T07:00:00Z'
+released: 2025-05-09
 updated: 2025-08-16
 version: 1.9.14
 stars: 5

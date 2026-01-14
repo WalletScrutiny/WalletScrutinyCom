@@ -7,10 +7,10 @@ authors:
 appId: io.mobee.finance
 appCountry: id
 idd: '1643474845'
-released: '2023-07-19T07:00:00Z'
+released: 2023-07-19
 updated: 2025-11-14
 version: 1.9.26
-stars: 4.7824
+stars: 4.8
 reviews: 625
 website: https://mobee.com/
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: mobee_id
 social:
 - https://www.linkedin.com/company/mobee-com
-- https://www.instagram.com/mobee_id 
+- https://www.instagram.com/mobee_id
 features: 
 developerName: PT CTXG Indonesia Berkarya
 

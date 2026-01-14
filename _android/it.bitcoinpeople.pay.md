@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: it.bitcoinpeople.pay
 appCountry: 
-released: Aug 30, 2023
+released: 2023-08-30
 updated: 2025-04-07
 version: 1.0.0
 stars: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bitcoinpeople
 redirect_from: 
 developerName: BTCP S.r.l.
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 1000
 appId: com.maxwallet.cc
 appCountry: 
+released: 
 updated: 2025-11-20
 version: 1.0.17
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: MaxWallet
+builds: 
 features: 
 
 ---

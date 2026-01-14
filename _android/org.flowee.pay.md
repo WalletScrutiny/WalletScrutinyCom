@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: org.flowee.pay
 appCountry: 
-released: Jun 19, 2023
+released: 2023-06-19
 updated: 2025-11-03
 version: 2025.11.0
 stars: 5
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: XULU.TECH LLC
+builds: 
 features: 
 
 ---

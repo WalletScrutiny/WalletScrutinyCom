@@ -1,18 +1,18 @@
 ---
 wsId: zerionDeFi
-title: 'Zerion: Crypto Wallet,DeFi,NFT'
+title: 'Zerion: Crypto Wallet'
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: io.zerion.android
 appCountry: 
-released: Nov 15, 2019
-updated: 2025-10-29
-version: 4.5.2
-stars: 4.5181346
+released: 2019-11-15
+updated: 2025-12-17
+version: 4.9.1
+stars: 4.5
 ratings: 
-reviews: 325
+reviews: 329
 website: http://zerion.io
 repository: 
 issue: 
@@ -25,9 +25,10 @@ date: 2026-01-02
 signer: 
 twitter: zerion
 social:
-- https://www.linkedin.com/company/zeriontech 
+- https://www.linkedin.com/company/zeriontech
 redirect_from: 
 developerName: Zerion Inc
+builds: 
 features: 
 
 ---

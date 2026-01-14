@@ -6,10 +6,10 @@ authors:
 appId: com.thesteakwallet.app
 appCountry: us
 idd: '1569375204'
-released: '2021-06-18T07:00:00Z'
+released: 2021-06-18
 updated: 2025-12-04
 version: 3.7.0
-stars: 3.93878
+stars: 3.9
 reviews: 98
 website: https://omni.app/
 repository: 

@@ -1,16 +1,16 @@
 ---
-wsId:
+wsId: 
 title: Love Wallet Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.application.bfic
 appCountry: 
-released: Dec 28, 2022
+released: 2022-12-28
 updated: 2025-01-06
 version: 4.0.31
-stars: 3.7619047
+stars: 3.8
 ratings: 
 reviews: 8
 website: https://lovewallet.online
@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.application.bfic.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2025-11-12
+date: 2026-01-14
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Cloud Intense
+builds: 
 features: 
 
 ---

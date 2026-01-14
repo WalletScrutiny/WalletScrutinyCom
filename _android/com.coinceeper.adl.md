@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.coinceeper.adl
 appCountry: 
-released: Aug 19, 2025
+released: 2025-08-19
 updated: 2025-11-04
 version: 1.0.38
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Taparam
+builds: 
 features: 
 
 ---

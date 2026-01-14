@@ -3,16 +3,16 @@ wsId: hotWallet
 title: HOT — Bitcoin & Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: app.herewallet.hot
 appCountry: 
-released: Mar 26, 2025
+released: 2025-03-26
 updated: 2025-06-15
 version: '1.0'
-stars: 4.4455447
+stars: 4.4
 ratings: 
-reviews: 49
+reviews: 57
 website: https://hot-labs.org/privacypolicy
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: hotdao_
 social:
 - https://www.instagram.com/hot_labs
 - https://t.me/hotonnear
-- https://www.youtube.com/@hot-labs 
+- https://www.youtube.com/@hot-labs
 redirect_from: 
 developerName: HERE Wallet
+builds: 
 features: 
 
 ---

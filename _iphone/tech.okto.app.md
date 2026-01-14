@@ -7,12 +7,12 @@ authors:
 appId: tech.okto.app
 appCountry: us
 idd: '6450688229'
-released: '2024-10-28T07:00:00Z'
+released: 2024-10-28
 updated: 2025-11-06
 version: 3.73.001
-stars: 4.16667
+stars: 4.2
 reviews: 6
-website: ''
+website: 
 repository: 
 issue: 
 icon: tech.okto.app.jpg

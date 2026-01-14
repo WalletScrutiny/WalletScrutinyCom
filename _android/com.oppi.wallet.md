@@ -1,19 +1,19 @@
 ---
 wsId: oppiWallet
-title: 'Oppi Wallet : Crypto Card/Pay'
+title: 'Oppi: Onchain Wallet'
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.oppi.wallet
 appCountry: 
-released: May 13, 2024
-updated: 2025-10-29
-version: 1.0.85
-stars: 4.5555553
+released: 2024-05-13
+updated: 2026-01-01
+version: 1.0.95
+stars: 4.2
 ratings: 
-reviews: 7
-website: https://oppiwallet.com
+reviews: 9
+website: https://oppiwallet.com/en
 repository: 
 issue: 
 icon: com.oppi.wallet.png
@@ -27,6 +27,7 @@ twitter: walletoppi
 social: 
 redirect_from: 
 developerName: Encoin Limited
+builds: 
 features: 
 
 ---

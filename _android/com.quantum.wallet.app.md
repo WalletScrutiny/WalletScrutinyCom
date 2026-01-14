@@ -7,10 +7,10 @@ authors:
 users: 50000
 appId: com.quantum.wallet.app
 appCountry: 
-released: Jul 29, 2024
+released: 2024-07-29
 updated: 2025-07-03
 version: 1.3.1
-stars: 4.230769
+stars: 4.1
 ratings: 
 reviews: 4
 website: https://quantum.press/
@@ -25,9 +25,10 @@ date: 2025-12-08
 signer: 
 twitter: 
 social:
-- https://t.me/+hObEE-D_GMU2N2U0 
+- https://t.me/+hObEE-D_GMU2N2U0
 redirect_from: 
 developerName: Nexus Payments Limited
+builds: 
 features: 
 
 ---

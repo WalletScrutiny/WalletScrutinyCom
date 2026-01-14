@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.portto.blocto
 appCountry: 
-released: Nov 6, 2019
+released: 2019-11-06
 updated: 2025-06-12
 version: 4.28.0
-stars: 3.69
+stars: 3.7
 ratings: 
 reviews: 88
 website: https://blocto.portto.io/
@@ -25,9 +25,10 @@ date: 2025-12-01
 signer: 
 twitter: BloctoApp
 social:
-- https://discord.com/invite/QRZTr6yHmY 
+- https://discord.com/invite/QRZTr6yHmY
 redirect_from: 
 developerName: portto Co., Ltd.
+builds: 
 features: 
 
 ---

@@ -3,16 +3,16 @@ wsId:
 title: FRWT Secure DeFi Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: app.frwt.wallet
 appCountry: 
-released: Jan 3, 2024
-updated: 2025-11-04
-version: 1.11.0
+released: 2024-01-03
+updated: 2025-12-26
+version: 1.13.0
 stars: 4.8
 ratings: 
-reviews: 157
+reviews: 177
 website: https://www.frwt.app/
 repository: 
 issue: 
@@ -27,9 +27,10 @@ twitter: FRWTwallet
 social:
 - https://www.facebook.com/app.frwt
 - https://www.reddit.com/r/FRWT
-- https://t.me/frwt_app 
+- https://t.me/frwt_app
 redirect_from: 
 developerName: FRWLT LLC - Non-Custodial Wallet
+builds: 
 features: 
 
 ---

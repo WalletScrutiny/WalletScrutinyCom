@@ -6,7 +6,7 @@ authors:
 appId: com.purplexapp.cpi
 appCountry: us
 idd: '6740024218'
-released: '2025-01-09T08:00:00Z'
+released: 2025-01-09
 updated: 2025-06-28
 version: 1.2.7
 stars: 0

@@ -3,14 +3,14 @@ wsId: vultisig
 title: 'Vultisig: Seedless Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.vultisig.wallet
 appCountry: us
 idd: '6503023896'
-released: '2024-09-16T07:00:00Z'
+released: 2024-09-16
 updated: 2025-12-09
 version: '1.31'
-stars: 4.35135
+stars: 4.4
 reviews: 37
 website: https://vultisig.com
 repository: 

@@ -3,16 +3,16 @@ wsId: ourbitBitcoin
 title: 'Ourbit: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.ourbit.client
 appCountry: 
-released: Apr 5, 2024
-updated: 2025-11-04
-version: 1.14.0
-stars: 3.6179776
+released: 2024-04-05
+updated: 2026-01-05
+version: 1.16.4
+stars: 3.8
 ratings: 
-reviews: 44
+reviews: 50
 website: https://www.ourbit.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@ourbitexchange
 redirect_from: 
 developerName: Ourbit
+builds: 
 features: 
 
 ---

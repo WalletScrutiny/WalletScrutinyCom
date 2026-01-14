@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.nvwallet.wallet
 appCountry: 
-released: Dec 27, 2024
+released: 2024-12-27
 updated: 2025-10-31
 version: 0.1.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Aegea Holdings
+builds: 
 features: 
 
 ---

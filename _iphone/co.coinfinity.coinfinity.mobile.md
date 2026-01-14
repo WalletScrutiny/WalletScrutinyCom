@@ -3,13 +3,13 @@ wsId: coinfinity
 title: Coinfinity - Buy Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: co.coinfinity.coinfinity.mobile
 appCountry: mt
 idd: '1642711272'
-released: '2023-06-06T07:00:00Z'
-updated: 2025-10-15
-version: 3.0.3
+released: 2023-06-06
+updated: 2025-12-18
+version: 3.0.6
 stars: 0
 reviews: 0
 website: https://coinfinity.co/

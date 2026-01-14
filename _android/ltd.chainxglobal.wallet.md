@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: ltd.chainxglobal.wallet
 appCountry: 
-released: Sep 10, 2025
+released: 2025-09-10
 updated: 2025-12-31
 version: 1.0.87
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Chain X Global
+builds: 
 features: 
 
 ---

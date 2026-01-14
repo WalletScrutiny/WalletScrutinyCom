@@ -6,10 +6,10 @@ authors:
 appId: cash.selene.app
 appCountry: us
 idd: '6449441422'
-released: '2023-07-05T07:00:00Z'
+released: 2023-07-05
 updated: 2025-12-06
 version: 2025.12.00
-stars: 4.59999
+stars: 4.6
 reviews: 10
 website: https://selene.cash
 repository: 

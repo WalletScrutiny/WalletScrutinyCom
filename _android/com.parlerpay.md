@@ -6,10 +6,10 @@ authors:
 users: 1000
 appId: com.parlerpay
 appCountry: 
-released: Feb 10, 2025
+released: 2025-02-10
 updated: 2026-01-05
 version: 1.0.32
-stars: 4.9411764
+stars: 4.9
 ratings: 
 reviews: 10
 website: https://www.kyvo.io
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Kyvo
+builds: 
 features: 
 
 ---

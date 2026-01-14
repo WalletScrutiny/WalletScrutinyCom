@@ -3,16 +3,16 @@ wsId: bitpocketBTC
 title: BitPocket - BTC/LN Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitdance.bitpocket
 appCountry: au
 idd: '6746639763'
-released: '2025-06-14T07:00:00Z'
-updated: 2025-11-04
-version: 1.3.12
+released: 2025-06-14
+updated: 2025-12-22
+version: 1.3.16
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitdance.bitpocket.jpg

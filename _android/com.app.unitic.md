@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.app.unitic
 appCountry: 
-released: Jun 19, 2024
+released: 2024-06-19
 updated: 2026-01-08
 version: 0.1.9
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: UNITIC PRIVATE LIMITED
+builds: 
 features: 
 
 ---

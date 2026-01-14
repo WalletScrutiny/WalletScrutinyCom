@@ -3,14 +3,14 @@ wsId: azasendBitcoin
 title: 'Azasend: Buy, Sell Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.azasend.app
 appCountry: 
-released: Oct 4, 2023
+released: 2023-10-04
 updated: 2025-11-03
 version: 3.9.1
-stars: 4.56
+stars: 4.6
 ratings: 
 reviews: 76
 website: https://azasend.com
@@ -27,6 +27,7 @@ twitter: azasend
 social: 
 redirect_from: 
 developerName: Azasend Sp
+builds: 
 features: 
 
 ---

@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.truewallet.app
 appCountry: 
+released: 
 updated: 2025-12-20
 version: VARY
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: INRX CONSENSUS LLP
+builds: 
 features: 
 
 ---

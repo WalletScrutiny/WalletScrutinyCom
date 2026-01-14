@@ -7,10 +7,10 @@ authors:
 appId: co.newton.newtonios
 appCountry: ca
 idd: '1370504122'
-released: '2018-10-03T14:17:31Z'
+released: 2018-10-03
 updated: 2025-12-19
 version: 2.20.8
-stars: 4.62592
+stars: 4.6
 reviews: 24487
 website: https://www.newton.co
 repository: 
@@ -27,7 +27,7 @@ social:
 - https://discord.com/invite/newtoncrypto
 - https://www.instagram.com/newton_crypto
 - https://www.reddit.com/r/newtonco
-- https://www.linkedin.com/company/newton-crypto 
+- https://www.linkedin.com/company/newton-crypto
 features: 
 developerName: Newton Crypto Ltd.
 

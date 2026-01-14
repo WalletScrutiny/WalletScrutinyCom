@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: com.eucalyptuslabs.kowallet
 appCountry: 
-released: Nov 19, 2022
+released: 2022-11-19
 updated: 2025-04-23
 version: 3.1.01
-stars: 4.828283
+stars: 4.8
 ratings: 
 reviews: 65
 website: https://koalawallet.io
@@ -27,6 +27,7 @@ twitter: koalawallet
 social: 
 redirect_from: 
 developerName: Eucalyptus Labs
+builds: 
 features: 
 
 ---

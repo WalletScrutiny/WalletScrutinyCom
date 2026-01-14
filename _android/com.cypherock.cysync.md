@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.cypherock.cysync
 appCountry: 
-released: Mar 28, 2025
+released: 2025-03-28
 updated: 2025-08-23
 version: 0.1.16
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Cypherock
+builds: 
 features: 
 
 ---

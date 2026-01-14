@@ -8,10 +8,10 @@ appId: com.getdefiq.giddy
 appCountry: us
 idd: '1596780905'
 released: 2022-03-02
-updated: 2025-11-20
-version: 4.0.3
+updated: 2026-01-08
+version: 4.3.0
 stars: 4.7
-reviews: 331
+reviews: 330
 website: https://giddy.co
 repository: 
 issue: 

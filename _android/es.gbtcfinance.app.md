@@ -3,13 +3,13 @@ wsId: gbtcFinance
 title: GBTC Finance - Compra Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: es.gbtcfinance.app
 appCountry: 
-released: Feb 11, 2025
-updated: 2025-09-23
-version: '1.14'
+released: 2025-02-11
+updated: 2025-12-05
+version: '1.15'
 stars: 
 ratings: 
 reviews: 
@@ -27,9 +27,10 @@ twitter: gbtcfinance
 social:
 - https://www.linkedin.com/company/gbtc-finance
 - https://t.me/GBTCFINANCESL
-- https://www.instagram.com/gbtcfinance 
+- https://www.instagram.com/gbtcfinance
 redirect_from: 
 developerName: GBTC FINANCE
+builds: 
 features: 
 
 ---

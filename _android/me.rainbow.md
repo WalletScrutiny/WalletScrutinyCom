@@ -6,10 +6,10 @@ authors:
 users: 500000
 appId: me.rainbow
 appCountry: 
-released: May 12, 2022
+released: 2022-05-12
 updated: 2025-12-24
 version: 2.0.16
-stars: 4.708995
+stars: 4.7
 ratings: 
 reviews: 249
 website: https://rainbow.me
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Rainbow Studio, Inc
+builds: 
 features: 
 
 ---

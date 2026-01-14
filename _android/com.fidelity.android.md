@@ -7,12 +7,12 @@ authors:
 users: 5000000
 appId: com.fidelity.android
 appCountry: 
-released: Dec 15, 2010
-updated: 2025-11-06
-version: '4.20'
-stars: 4.5565705
+released: 2010-12-15
+updated: 2026-01-09
+version: '4.23'
+stars: 4.5
 ratings: 
-reviews: 54000
+reviews: 54335
 website: https://www.fidelity.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: fidelity
 social: 
 redirect_from: 
 developerName: Fidelity Investments
+builds: 
 features: 
 
 ---

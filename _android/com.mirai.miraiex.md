@@ -7,8 +7,9 @@ authors:
 users: 100000
 appId: com.mirai.miraiex
 appCountry: 
-updated: 2025-08-14
-version: 3.6.1
+released: 
+updated: 2026-01-08
+version: 3.6.2
 stars: 
 ratings: 
 reviews: 
@@ -29,6 +30,7 @@ social:
 - https://www.instagram.com/firiapp
 redirect_from: 
 developerName: Firi
+builds: 
 features: 
 
 ---

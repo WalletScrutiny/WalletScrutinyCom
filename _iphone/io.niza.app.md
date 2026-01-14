@@ -3,16 +3,16 @@ wsId: nizaBuyBTC
 title: 'Niza: Buy BTC, ETH & +500'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.niza.app
 appCountry: sa
 idd: '6468353879'
-released: '2024-03-13T07:00:00Z'
+released: 2024-03-13
 updated: 2025-05-07
 version: 1.4.3
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.niza.app.jpg

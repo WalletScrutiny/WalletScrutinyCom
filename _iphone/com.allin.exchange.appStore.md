@@ -7,9 +7,9 @@ authors:
 appId: com.allin.exchange.appStore
 appCountry: us
 idd: '6736860332'
-released: '2025-02-10T08:00:00Z'
-updated: 2025-11-13
-version: 1.1.13
+released: 2025-02-10
+updated: 2025-12-10
+version: 1.1.16
 stars: 5
 reviews: 2
 website: https://www.allinx.io

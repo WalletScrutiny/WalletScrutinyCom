@@ -3,16 +3,16 @@ wsId: fasteX
 title: 'Fastex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.fastex.app
 appCountry: 
-released: Oct 7, 2023
+released: 2023-10-07
 updated: 2025-10-07
 version: 1.42.2
-stars: 4.105263
+stars: 4
 ratings: 
-reviews: 11
+reviews: 12
 website: https://www.fastex.com/
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/fastexecosystem
 redirect_from: 
 developerName: Fastex Europe
+builds: 
 features: 
 
 ---

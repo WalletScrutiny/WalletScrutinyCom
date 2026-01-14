@@ -7,12 +7,12 @@ authors:
 appId: neutronpay.wallet
 appCountry: vn
 idd: '1629825080'
-released: '2022-11-22T08:00:00Z'
+released: 2022-11-22
 updated: 2025-10-30
 version: 3.3.0
 stars: 5
 reviews: 18
-website: ''
+website: 
 repository: 
 issue: 
 icon: neutronpay.wallet.jpg
@@ -26,7 +26,7 @@ twitter: neutron__me
 social:
 - https://www.instagram.com/neutronpay
 - https://www.linkedin.com/company/neutronme
-- https://t.me/go_neutron 
+- https://t.me/go_neutron
 features: 
 developerName: Neutronpay Inc.
 

@@ -3,14 +3,14 @@ wsId: zapitWeb3Wallet
 title: 'Zapit: Web3 Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.wallet.zapit
 appCountry: 
-released: Mar 23, 2021
+released: 2021-03-23
 updated: 2025-08-29
 version: 0.9.67
-stars: 4.0740743
+stars: 4.1
 ratings: 
 reviews: 10
 website: http://zapit.io
@@ -26,9 +26,10 @@ signer:
 twitter: zapit_io
 social:
 - https://www.linkedin.com/company/zapit-io
-- https://www.reddit.com/user/zapit_io 
+- https://www.reddit.com/user/zapit_io
 redirect_from: 
 developerName: Zapit Web3 Platform
+builds: 
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-12-22
 version: 5.1.21
 stars: 2
 ratings: 
-reviews: 675
+reviews: 676
 website: https://www.nicehash.com/my/
 repository: 
 issue: 

@@ -3,16 +3,16 @@ wsId: tooBitExchange
 title: 'Toobit: Buy BTC, ETH & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.planet.toobit
 appCountry: 
-released: Feb 14, 2023
-updated: 2025-11-07
-version: 2.1.1
-stars: 4.5034485
+released: 2023-02-14
+updated: 2026-01-08
+version: 2.1.6
+stars: 4.5
 ratings: 
-reviews: 274
+reviews: 311
 website: https://www.toobit.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/Toobit_EN
 redirect_from: 
 developerName: TooBit Inc.
+builds: 
 features: 
 
 ---

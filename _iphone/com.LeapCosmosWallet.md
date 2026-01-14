@@ -7,11 +7,11 @@ authors:
 appId: com.LeapCosmosWallet
 appCountry: us
 idd: '1642465549'
-released: '2022-11-02T07:00:00Z'
-updated: 2025-12-17
-version: 0.76.0
-stars: 4.86685
-reviews: 1074
+released: 2022-11-02
+updated: 2026-01-05
+version: 0.76.3
+stars: 4.9
+reviews: 1082
 website: https://www.leapwallet.io/mobile
 repository: 
 issue: 

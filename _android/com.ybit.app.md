@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: com.ybit.app
 appCountry: 
-released: Jun 16, 2025
+released: 2025-06-16
 updated: 2025-09-24
 version: 1.0.7
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: WEEKWISE INNOVATIONS
+builds: 
 features: 
 
 ---

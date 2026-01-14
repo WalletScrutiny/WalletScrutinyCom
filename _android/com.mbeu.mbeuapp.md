@@ -6,6 +6,7 @@ authors:
 users: 10000
 appId: com.mbeu.mbeuapp
 appCountry: 
+released: 
 updated: 2025-12-23
 version: 1.3.1
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Smart Token Lda
+builds: 
 features: 
 
 ---

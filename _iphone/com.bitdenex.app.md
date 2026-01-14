@@ -3,13 +3,13 @@ wsId: bitdenex
 title: 'Bitdenex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitdenex.app
 appCountry: in
 idd: '1640819532'
-released: '2022-09-21T07:00:00Z'
-updated: 2025-11-12
-version: 3.2.17
+released: 2022-09-21
+updated: 2025-12-18
+version: 3.2.19
 stars: 5
 reviews: 2
 website: https://bitdenex.com

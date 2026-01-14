@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.casperwealth.bitsave
 appCountry: 
-released: Apr 1, 2024
+released: 2024-04-01
 updated: 2025-10-30
 version: 1.27.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Casper Wealth
+builds: 
 features: 
 
 ---

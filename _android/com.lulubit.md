@@ -7,12 +7,12 @@ authors:
 users: 50000
 appId: com.lulubit
 appCountry: 
-released: Apr 30, 2023
-updated: 2025-10-31
-version: 1.37.0
-stars: 4
+released: 2023-04-30
+updated: 2026-01-06
+version: 1.43.0
+stars: 4.2
 ratings: 
-reviews: 15
+reviews: 16
 website: https://lulubit.app
 repository: 
 issue: 
@@ -26,9 +26,10 @@ signer:
 twitter: lulubitapp
 social:
 - https://www.linkedin.com/company/lulubit
-- https://www.facebook.com/lulubitapp 
+- https://www.facebook.com/lulubitapp
 redirect_from: 
 developerName: Lulubit
+builds: 
 features: 
 
 ---

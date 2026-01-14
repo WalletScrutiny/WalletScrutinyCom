@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.catshouse.bitcoinhelper
 appCountry: 
-released: Jun 14, 2024
+released: 2024-06-14
 updated: 2024-06-22
 version: '1.0'
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Cats' House Development
+builds: 
 features: 
 
 ---

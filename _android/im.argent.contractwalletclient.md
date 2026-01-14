@@ -12,7 +12,7 @@ updated: 2026-01-07
 version: 5.6.3.11192
 stars: 4.3
 ratings: 3252
-reviews: 413
+reviews: 417
 website: https://ready.co
 repository: 
 issue: 

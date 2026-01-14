@@ -7,12 +7,12 @@ authors:
 appId: com.cypherd.ioswalletv1
 appCountry: us
 idd: '1604120414'
-released: '2022-03-03T08:00:00Z'
-updated: 2025-10-30
-version: 3.10.3
-stars: 4.14815
-reviews: 27
-website: https://cypherhq.io
+released: 2022-03-03
+updated: 2026-01-12
+version: 3.10.8
+stars: 4.2
+reviews: 28
+website: https://cypherhq.io?ref=ios_app_store
 repository: 
 issue: 
 icon: com.cypherd.ioswalletv1.jpg

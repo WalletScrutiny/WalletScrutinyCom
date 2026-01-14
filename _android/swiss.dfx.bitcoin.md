@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: swiss.dfx.bitcoin
 appCountry: 
-released: Sep 25, 2023
+released: 2023-09-25
 updated: 2025-07-23
 version: 2.0.3
 stars: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/dfxswiss
 redirect_from: 
 developerName: DFX AG
+builds: 
 features: 
 
 ---

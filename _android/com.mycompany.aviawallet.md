@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.mycompany.aviawallet
 appCountry: 
-released: Sep 2, 2025
+released: 2025-09-02
 updated: 2025-12-22
 version: 1.1.23
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: AviaCoin LTD
+builds: 
 features: 
 
 ---

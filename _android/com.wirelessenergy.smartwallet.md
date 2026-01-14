@@ -6,7 +6,7 @@ authors:
 users: 500
 appId: com.wirelessenergy.smartwallet
 appCountry: 
-released: Sep 24, 2021
+released: 2021-09-24
 updated: 2025-12-16
 version: 2.13.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Smart Wallet Token
+builds: 
 features: 
 
 ---

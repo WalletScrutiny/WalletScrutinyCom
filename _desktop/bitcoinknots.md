@@ -44,10 +44,6 @@ builds:
   - zip
   - setup
 features: 
-targets:
-- x86_64-linux-gnu.tar.gz
-- aarch64-linux-gnu.tar.gz
-- win64-setup-pgpverifiable.exe
 
 ---
 

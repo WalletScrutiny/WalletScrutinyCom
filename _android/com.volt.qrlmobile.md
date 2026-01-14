@@ -7,7 +7,7 @@ authors:
 users: 1000
 appId: com.volt.qrlmobile
 appCountry: 
-released: Sep 25, 2023
+released: 2023-09-25
 updated: 2025-04-07
 version: 1.0.0
 stars: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Volt Development
+builds: 
 features: 
 
 ---

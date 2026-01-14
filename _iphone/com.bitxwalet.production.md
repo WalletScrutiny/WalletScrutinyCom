@@ -6,11 +6,11 @@ authors:
 appId: com.bitxwalet.production
 appCountry: us
 idd: '6752948564'
-released: '2025-09-29T07:00:00Z'
+released: 2025-09-29
 updated: 2025-09-29
 version: '1.0'
-stars: 4.60344
-reviews: 58
+stars: 4.6
+reviews: 59
 website: https://bitx-bitcoinwallet.com/privacy
 repository: 
 issue: 

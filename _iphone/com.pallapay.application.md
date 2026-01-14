@@ -11,7 +11,7 @@ released: 2022-05-12
 updated: 2025-11-17
 version: 2.3.3
 stars: 5
-reviews: 1
+reviews: 2
 website: https://www.pallapay.com
 repository: 
 issue: 

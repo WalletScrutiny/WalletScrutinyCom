@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.hashkeypro.exchange
 appCountry: 
-released: Nov 1, 2023
-updated: 2025-11-06
-version: 1.63.1
-stars: 3.45
+released: 2023-11-01
+updated: 2026-01-09
+version: 1.68.0
+stars: 3.4
 ratings: 
-reviews: 28
+reviews: 29
 website: https://www.hashkey.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: HashKey_Global
 social: 
 redirect_from: 
 developerName: Hash Blockchain Limited
+builds: 
 features: 
 
 ---

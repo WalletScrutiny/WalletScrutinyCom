@@ -3,16 +3,16 @@ wsId:
 title: PocketMint Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.pocketmint.wallet
 appCountry: 
-released: May 3, 2025
-updated: 2025-10-02
-version: 1.7.2
-stars: 1.8888888
+released: 2025-05-03
+updated: 2025-12-24
+version: 1.9.0
+stars: 2.3
 ratings: 
-reviews: 6
+reviews: 8
 website: http://pocketmint.ai
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Pocketmint Solutions LLC
+builds: 
 features: 
 
 ---

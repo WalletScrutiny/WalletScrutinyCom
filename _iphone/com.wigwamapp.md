@@ -3,14 +3,14 @@ wsId: wigwamApp
 title: 'Wigwam: Crypto Web3 Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.wigwamapp
 appCountry: us
 idd: '6630381643'
-released: '2024-10-15T07:00:00Z'
+released: 2024-10-15
 updated: 2025-06-18
 version: 1.5.40
-stars: 4.72727
+stars: 4.7
 reviews: 11
 website: https://wigwam.app/mobile
 repository: 

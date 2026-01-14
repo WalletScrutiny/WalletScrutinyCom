@@ -6,7 +6,7 @@ authors:
 users: 10000
 appId: com.ant.dt.topnod
 appCountry: 
-released: Sep 22, 2025
+released: 2025-09-22
 updated: 2025-12-30
 version: 1.2.0
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Kairo Company Limited
+builds: 
 features: 
 
 ---

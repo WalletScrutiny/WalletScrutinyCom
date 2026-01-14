@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.bytefederal.bytemobile
 appCountry: 
-released: Aug 3, 2025
+released: 2025-08-03
 updated: 2025-11-26
 version: 1.10.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Byte Federal, Inc
+builds: 
 features: 
 
 ---

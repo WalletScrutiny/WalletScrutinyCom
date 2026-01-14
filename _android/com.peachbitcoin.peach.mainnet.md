@@ -7,7 +7,8 @@ authors:
 users: 10000
 appId: com.peachbitcoin.peach.mainnet
 appCountry: 
-updated: 2025-11-06
+released: 
+updated: 2026-01-12
 version: 0.69.0
 stars: 
 ratings: 
@@ -29,6 +30,7 @@ social:
 - https://snort.social/p/npub15369wu3wzzar5fclhecyqfv683x69n6nhlg7rxqnsg2dydgxflpq3apswl
 redirect_from: 
 developerName: Peach Bitcoin
+builds: 
 features: 
 
 ---

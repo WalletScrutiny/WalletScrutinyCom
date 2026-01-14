@@ -8,10 +8,10 @@ appId: com.phemex.tr
 appCountry: us
 idd: '1587847973'
 released: 2021-10-10
-updated: 2025-10-30
-version: 5.7.0
-stars: 4.9
-reviews: 19
+updated: 2025-12-20
+version: 5.10.0
+stars: 4.7
+reviews: 22
 website: https://phemex.com/
 repository: 
 issue: 

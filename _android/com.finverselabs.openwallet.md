@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.finverselabs.openwallet
 appCountry: 
-released: Jul 1, 2024
-updated: 2025-11-04
-version: 0.0.85
-stars: 4.5333333
+released: 2024-07-01
+updated: 2026-01-12
+version: 0.0.89
+stars: 4.6
 ratings: 
 reviews: 8
 website: https://openwallet.finance/
@@ -27,6 +27,7 @@ twitter: openwallet_com
 social: 
 redirect_from: 
 developerName: FinVerse Labs FZ-LLC
+builds: 
 features: 
 
 ---

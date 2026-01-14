@@ -1,18 +1,18 @@
 ---
 wsId: uxuyTradeGasless
-title: 'UXUY: Trade Gasless & Wallet'
+title: 'UXUY: Gasless On-Chain Trading'
 altTitle: 
 authors:
 - danny
 users: 50000
 appId: com.uxuy.fast
 appCountry: 
-released: Apr 24, 2025
-updated: 2025-11-07
-version: 2.3.1
-stars: 4.576923
+released: 2025-04-24
+updated: 2026-01-10
+version: 2.4.1
+stars: 4.6
 ratings: 
-reviews: 11
+reviews: 13
 website: https://uxuy.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://web.facebook.com/uxuyprotocol
 redirect_from: 
 developerName: UXUY Limited
+builds: 
 features: 
 
 ---

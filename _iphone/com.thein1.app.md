@@ -3,16 +3,16 @@ wsId: in1CryptoWallet
 title: 'IN1: Money and Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.thein1.app
 appCountry: ua
 idd: '6472618142'
-released: '2024-08-28T07:00:00Z'
+released: 2024-08-28
 updated: 2025-12-02
 version: 0.9.4
-stars: 4.22593
+stars: 4.2
 reviews: 270
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.thein1.app.jpg
@@ -26,7 +26,7 @@ twitter: in1app
 social:
 - https://www.instagram.com/in1app
 - https://www.facebook.com/in1.international
-- https://www.linkedin.com/company/in1-app 
+- https://www.linkedin.com/company/in1-app
 features: 
 developerName: IN1 HOLDING LIMITED
 

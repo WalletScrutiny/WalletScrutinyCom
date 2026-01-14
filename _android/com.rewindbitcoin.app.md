@@ -6,7 +6,7 @@ authors:
 users: 100
 appId: com.rewindbitcoin.app
 appCountry: 
-released: May 30, 2025
+released: 2025-05-30
 updated: 2025-09-25
 version: 1.2.4
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: La Bolsa Virtual SL
+builds: 
 features: 
 
 ---

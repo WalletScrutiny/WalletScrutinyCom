@@ -3,16 +3,16 @@ wsId: coldWalletSeekJazz
 title: 'Cold Wallet: Crypto Wallet App'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.PlusWallet
 appCountry: us
 idd: '6467651848'
-released: '2023-09-27T07:00:00Z'
-updated: 2025-11-04
-version: '3.7'
-stars: 3.65625
-reviews: 32
-website: ''
+released: 2023-09-27
+updated: 2026-01-09
+version: '3.11'
+stars: 3.6
+reviews: 34
+website: 
 repository: 
 issue: 
 icon: com.PlusWallet.jpg

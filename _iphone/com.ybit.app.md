@@ -6,12 +6,12 @@ authors:
 appId: com.ybit.app
 appCountry: us
 idd: '6483864038'
-released: '2024-05-17T07:00:00Z'
+released: 2024-05-17
 updated: 2025-09-05
 version: 1.0.9
 stars: 5
 reviews: 24
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.ybit.app.jpg

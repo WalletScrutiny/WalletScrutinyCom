@@ -12,7 +12,7 @@ updated: 2025-12-30
 version: 2.9.050
 stars: 4.1
 ratings: 
-reviews: 16
+reviews: 15
 website: https://cn.biyapay.com/
 repository: 
 issue: 

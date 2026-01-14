@@ -6,11 +6,11 @@ authors:
 appId: com.flx.cryptokeeper
 appCountry: us
 idd: '6748661577'
-released: '2025-07-22T07:00:00Z'
+released: 2025-07-22
 updated: 2025-12-08
 version: '5'
-stars: 3.57143
-reviews: 21
+stars: 3.7
+reviews: 23
 website: https://cryptokeeperllc.com/policy/privacy-policy/
 repository: 
 issue: 

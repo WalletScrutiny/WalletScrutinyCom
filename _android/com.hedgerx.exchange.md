@@ -6,7 +6,7 @@ authors:
 users: 10
 appId: com.hedgerx.exchange
 appCountry: 
-released: Dec 13, 2025
+released: 2025-12-13
 updated: 2025-12-20
 version: 1.1.14
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: HedgerX
+builds: 
 features: 
 
 ---

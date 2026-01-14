@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.xendmobile
 appCountry: 
-released: Dec 1, 2021
-updated: 2025-10-05
-version: 3.1.5
-stars: 4.709677
+released: 2021-12-01
+updated: 2026-01-09
+version: 3.1.6
+stars: 4.7
 ratings: 
-reviews: 47
+reviews: 48
 website: https://xend.finance
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: xendfinance
 social: 
 redirect_from: 
 developerName: XEND TECH LIMITED
+builds: 
 features: 
 
 ---

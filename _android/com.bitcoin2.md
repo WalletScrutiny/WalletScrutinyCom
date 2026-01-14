@@ -3,14 +3,14 @@ wsId: bitcoinYay
 title: bitcoin-yay
 altTitle: 
 authors:
-- danny 
-users: 10000
+- danny
+users: 50000
 appId: com.bitcoin2
 appCountry: 
-released: Apr 28, 2025
-updated: 2025-10-27
-version: 1.5.2
-stars: 3.25
+released: 2025-04-28
+updated: 2026-01-09
+version: 1.7.0
+stars: 3.3
 ratings: 
 reviews: 9
 website: https://bitcoinyay.com/
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BTCY
+builds: 
 features: 
 
 ---

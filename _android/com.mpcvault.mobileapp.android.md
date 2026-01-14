@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: com.mpcvault.mobileapp.android
 appCountry: 
-released: Sep 13, 2022
-updated: 2025-11-07
-version: 2.15.0
-stars: 4.6666665
+released: 2022-09-13
+updated: 2026-01-13
+version: 3.6.0
+stars: 4.7
 ratings: 
 reviews: 3
 website: https://mpcvault.com/
@@ -28,7 +28,8 @@ social:
 - https://www.linkedin.com/company/mpcvault
 redirect_from: 
 developerName: MetaLoop Inc
-features:
+builds: 
+features: 
 
 ---
 

@@ -6,6 +6,7 @@ authors:
 users: 10
 appId: com.bitda.wallet
 appCountry: 
+released: 
 updated: 2026-01-04
 version: 1.0.1
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BitDaTech
+builds: 
 features: 
 
 ---

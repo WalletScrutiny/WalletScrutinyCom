@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: ua.rubicon.crypto.wallet
 appCountry: 
-released: May 11, 2023
+released: 2023-05-11
 updated: 2025-12-29
 version: 1.5.4
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Rubicoin Software Company OU
+builds: 
 features: 
 
 ---

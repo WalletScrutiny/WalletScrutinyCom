@@ -7,10 +7,10 @@ authors:
 appId: jp.co.soramitsu.fearlesswallet
 appCountry: us
 idd: '1537251089'
-released: '2020-12-01T08:00:00Z'
+released: 2020-12-01
 updated: 2025-03-25
 version: 4.0.4
-stars: 3.97917
+stars: 4
 reviews: 96
 website: https://fearlesswallet.io
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: fearlesswallet
 social:
 - https://t.me/fearlesswallet
-- https://www.youtube.com/fearlesswallet  
+- https://www.youtube.com/fearlesswallet
 features: 
 developerName: Soramitsu Co., Ltd.
 

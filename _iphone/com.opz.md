@@ -7,7 +7,7 @@ authors:
 appId: com.opz
 appCountry: us
 idd: '6463236757'
-released: '2024-12-09T08:00:00Z'
+released: 2024-12-09
 updated: 2025-05-08
 version: 2.12.1
 stars: 5

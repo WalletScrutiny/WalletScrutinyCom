@@ -6,6 +6,7 @@ authors:
 users: 500
 appId: me.skycryptowallet.skymobile
 appCountry: 
+released: 
 updated: 2026-01-10
 version: 1.52.0
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Revens
+builds: 
 features: 
 
 ---

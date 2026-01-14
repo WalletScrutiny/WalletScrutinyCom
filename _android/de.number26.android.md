@@ -12,7 +12,7 @@ updated: 2025-12-10
 version: '4.41'
 stars: 3.3
 ratings: 
-reviews: 2163
+reviews: 2162
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 issue: 

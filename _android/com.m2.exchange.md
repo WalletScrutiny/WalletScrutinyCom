@@ -3,12 +3,13 @@ wsId: m2BuyBitcoin
 title: 'M2: Buy Bitcoin & Trade Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.m2.exchange
 appCountry: 
-updated: 2025-11-05
-version: 5.19.0
+released: 
+updated: 2025-12-15
+version: 5.21.1
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +29,7 @@ social:
 - https://www.instagram.com/m2exchange
 redirect_from: 
 developerName: M2 Investments Limited
+builds: 
 features: 
 
 ---

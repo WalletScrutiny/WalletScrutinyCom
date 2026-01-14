@@ -3,16 +3,16 @@ wsId: easyBitcoin
 title: easyBitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: app.easybitcoin
 appCountry: 
-released: Sep 1, 2025
-updated: 2025-10-22
-version: 1.1.2
-stars: 3.8709676
+released: 2025-09-01
+updated: 2025-11-20
+version: 1.1.4
+stars: 4
 ratings: 
-reviews: 10
+reviews: 18
 website: https://easybitcoin.app/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@easyBitcoinApp
 redirect_from: 
 developerName: Uphold HQ Inc.
+builds: 
 features: 
 
 ---

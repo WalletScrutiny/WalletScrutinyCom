@@ -6,7 +6,7 @@ authors:
 users: 1000
 appId: co.altme.alt.me.altme
 appCountry: 
-released: Jul 26, 2022
+released: 2022-07-26
 updated: 2025-12-08
 version: 3.4.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: AltMe
+builds: 
 features: 
 
 ---

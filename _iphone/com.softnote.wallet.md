@@ -3,11 +3,11 @@ wsId: softnoteCrypto
 title: 'SoftNote: Secure Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.softnote.wallet
 appCountry: us
 idd: '6615068673'
-released: '2024-10-04T07:00:00Z'
+released: 2024-10-04
 updated: 2025-10-17
 version: '18.0'
 stars: 5

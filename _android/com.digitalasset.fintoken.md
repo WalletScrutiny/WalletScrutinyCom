@@ -6,7 +6,7 @@ authors:
 users: 5000
 appId: com.digitalasset.fintoken
 appCountry: 
-released: May 24, 2023
+released: 2023-05-24
 updated: 2025-10-26
 version: 2.0.1
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: WEBX SDN BHD
+builds: 
 features: 
 
 ---

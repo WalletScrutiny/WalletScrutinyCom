@@ -6,12 +6,12 @@ authors:
 appId: cash.velo.app
 appCountry: us
 idd: '6756588147'
-released: '2025-12-17T08:00:00Z'
+released: 2025-12-17
 updated: 2026-01-02
 version: 1.0.6
-stars: 3.66667
+stars: 3.7
 reviews: 3
-website: ''
+website: 
 repository: 
 issue: 
 icon: cash.velo.app.jpg

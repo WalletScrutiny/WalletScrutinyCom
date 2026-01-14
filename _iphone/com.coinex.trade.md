@@ -6,11 +6,11 @@ authors:
 appId: com.coinex.trade
 appCountry: us
 idd: '1626447428'
-released: '2022-10-25T07:00:00Z'
+released: 2022-10-25
 updated: 2026-01-13
 version: 4.6.1
-stars: 4.76973
-reviews: 5663
+stars: 4.8
+reviews: 5664
 website: https://www.coinex.com/
 repository: 
 issue: 

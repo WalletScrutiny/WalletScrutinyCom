@@ -3,16 +3,16 @@ wsId: wigwamApp
 title: 'Wigwam: Crypto Web3 Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.wigwamapp
 appCountry: 
-released: Oct 11, 2024
-updated: 2025-06-12
-version: 1.5.40
-stars: 4.28125
+released: 2024-10-11
+updated: 2026-01-07
+version: 1.5.102
+stars: 4.2
 ratings: 
-reviews: 33
+reviews: 35
 website: https://wigwam.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CEX.IO
+builds: 
 features: 
 
 ---

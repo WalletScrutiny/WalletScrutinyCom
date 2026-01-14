@@ -6,7 +6,7 @@ authors:
 appId: onl.coconut.wallet
 appCountry: us
 idd: '6745778545'
-released: '2025-07-22T07:00:00Z'
+released: 2025-07-22
 updated: 2026-01-11
 version: 0.6.1
 stars: 0

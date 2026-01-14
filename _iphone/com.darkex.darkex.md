@@ -7,11 +7,11 @@ authors:
 appId: com.darkex.darkex
 appCountry: al
 idd: '6648790101'
-released: '2025-01-09T08:00:00Z'
+released: 2025-01-09
 updated: 2025-09-28
 version: 6.5.7
 stars: 5
-reviews: 10
+reviews: 11
 website: https://www.darkex.com/
 repository: 
 issue: 

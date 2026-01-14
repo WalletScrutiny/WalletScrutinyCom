@@ -3,12 +3,12 @@ wsId:
 title: NotWallet Crypto Self-Custody
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: xyz.notwallet.NotWallet
 appCountry: 
-released: Jun 14, 2025
-updated: 2025-11-07
-version: 1.1.0
+released: 2025-06-14
+updated: 2026-01-09
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Splitfire AB
+builds: 
 features: 
 
 ---

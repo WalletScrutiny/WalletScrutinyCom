@@ -3,16 +3,16 @@ wsId: deBoxMessenger
 title: 'DeBox: Messenger Crypto Wallet'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.tm.security.wallet
 appCountry: 
-released: May 26, 2022
-updated: 2025-11-05
-version: 2.5.0
-stars: 4.1875
+released: 2022-05-26
+updated: 2026-01-07
+version: 2.5.5
+stars: 4.1
 ratings: 
-reviews: 9
+reviews: 10
 website: https://debox.pro
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: DeBox_Social
 social: 
 redirect_from: 
 developerName: DEBOX GLOBAL LTD
+builds: 
 features: 
 
 ---

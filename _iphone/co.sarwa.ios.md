@@ -8,9 +8,9 @@ appId: co.sarwa.ios
 appCountry: us
 idd: '1554353496'
 released: 2021-04-12
-updated: 2025-11-18
-version: 7.2.0
-stars: 4.3
+updated: 2026-01-14
+version: 7.3.1
+stars: 4.4
 reviews: 101
 website: https://www.sarwa.co/blog
 repository: 

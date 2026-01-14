@@ -3,11 +3,12 @@ wsId:
 title: 'BRICS Pay Wallet: Crypto&DeFi'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.brics
 appCountry: 
-updated: 2025-09-12
-version: 0.0.4
+released: 
+updated: 2025-11-07
+version: 0.0.7
 stars: 
 ratings: 
 reviews: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: NB PAY FZCO
+builds: 
 features: 
 
 ---

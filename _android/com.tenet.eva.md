@@ -7,6 +7,7 @@ authors:
 users: 50000
 appId: com.tenet.eva
 appCountry: 
+released: 
 updated: 2024-05-02
 version: VARY
 stars: 
@@ -26,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: NETTE TECHNOLOGIES
+builds: 
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 users: 5000
 appId: rs.ecd.ecd
 appCountry: 
-released: Oct 22, 2024
-updated: 2025-11-07
-version: 1.4.43
+released: 2024-10-22
+updated: 2026-01-12
+version: 1.4.68
 stars: 
 ratings: 
 reviews: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/ecd.rs
 redirect_from: 
 developerName: ECD.RS
+builds: 
 features: 
 
 ---

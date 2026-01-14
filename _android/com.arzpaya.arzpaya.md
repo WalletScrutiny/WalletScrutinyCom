@@ -3,14 +3,14 @@ wsId:
 title: ArzPaya
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.arzpaya.arzpaya
 appCountry: 
-released: Feb 6, 2022
-updated: 2025-10-06
-version: 4.07.09.02
-stars: 4.5555553
+released: 2022-02-06
+updated: 2025-11-10
+version: 4.08.17.02
+stars: 4.6
 ratings: 
 reviews: 5
 website: https://arzpaya.com
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: ArzPaya
+builds: 
 features: 
 
 ---

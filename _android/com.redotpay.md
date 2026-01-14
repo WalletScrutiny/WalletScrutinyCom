@@ -6,10 +6,10 @@ authors:
 users: 1000000
 appId: com.redotpay
 appCountry: 
-released: Jun 9, 2023
+released: 2023-06-09
 updated: 2026-01-06
 version: 3.0.1
-stars: 4.566553
+stars: 4.6
 ratings: 
 reviews: 924
 website: https://www.redotpay.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Red Dot Technology Limited
+builds: 
 features: 
 
 ---

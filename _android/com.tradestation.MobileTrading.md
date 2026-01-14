@@ -12,7 +12,7 @@ updated: 2025-12-11
 version: 8.12.1
 stars: 4.4
 ratings: 4823
-reviews: 2051
+reviews: 2052
 website: http://tradestation.com/contact-us/
 repository: 
 issue: 

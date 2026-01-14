@@ -11,8 +11,8 @@ idd: 1137855704
 released: 2016-09-04
 updated: 2025-12-23
 version: 5.15.0
-stars: 3.8
-reviews: 31
+stars: 3.9
+reviews: 30
 website: https://www.coinhako.com
 repository: 
 issue: 

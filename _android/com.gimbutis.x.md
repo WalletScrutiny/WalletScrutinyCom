@@ -6,6 +6,7 @@ authors:
 users: 100
 appId: com.gimbutis.x
 appCountry: 
+released: 
 updated: 2025-12-02
 version: 1.5.9
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: unus nullus
+builds: 
 features: 
 
 ---

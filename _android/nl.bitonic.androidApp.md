@@ -4,11 +4,12 @@ title: 'Bitonic: buy & store bitcoin'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: nl.bitonic.androidApp
 appCountry: 
-updated: 2025-11-07
-version: 3.8.23
+released: 
+updated: 2025-12-22
+version: 3.15.0
 stars: 
 ratings: 
 reviews: 
@@ -25,9 +26,10 @@ signer:
 twitter: bitonic
 social:
 - https://www.linkedin.com/company/bitonic-b-v-
-- https://www.instagram.com/bitonic 
+- https://www.instagram.com/bitonic
 redirect_from: 
 developerName: Bitonic
+builds: 
 features: 
 
 ---

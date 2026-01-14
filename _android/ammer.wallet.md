@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-05
 updated: 2025-12-18
 version: 1.8.1
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 1
 website: https://ammer.cards/

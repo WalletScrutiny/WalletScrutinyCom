@@ -7,7 +7,7 @@ authors:
 appId: io.btcadd.btca
 appCountry: ru
 idd: '6450423807'
-released: '2023-12-04T08:00:00Z'
+released: 2023-12-04
 updated: 2023-12-04
 version: '1.0'
 stars: 0

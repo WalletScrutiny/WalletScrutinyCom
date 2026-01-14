@@ -7,9 +7,9 @@ authors:
 users: 100000
 appId: com.bitoex.bitopronew
 appCountry: 
-released: Aug 8, 2023
-updated: 2025-11-04
-version: 1.45.4
+released: 2023-08-08
+updated: 2026-01-02
+version: 1.49.14
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter: BitoEX_Official
 social: 
 redirect_from: 
 developerName: BitoPro Technology CO., LTD.
+builds: 
 features: 
 
 ---

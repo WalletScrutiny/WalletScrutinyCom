@@ -7,10 +7,10 @@ authors:
 appId: com.eucalyptuslabs.kowallet
 appCountry: us
 idd: '1627486259'
-released: '2022-11-21T08:00:00Z'
+released: 2022-11-21
 updated: 2025-04-24
 version: 3.1.01
-stars: 4.77228
+stars: 4.8
 reviews: 101
 website: https://koalawallet.io
 repository: 

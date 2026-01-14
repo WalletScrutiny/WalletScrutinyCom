@@ -7,7 +7,7 @@ authors:
 users: 5000
 appId: com.bitcoinup.bitcoinup
 appCountry: 
-released: Dec 3, 2020
+released: 2020-12-03
 updated: 2024-07-24
 version: '1.7'
 stars: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: FxCryptoSoft
+builds: 
 features: 
 
 ---

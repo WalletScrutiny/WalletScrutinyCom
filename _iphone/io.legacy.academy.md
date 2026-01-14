@@ -7,12 +7,12 @@ authors:
 appId: io.legacy.academy
 appCountry: us
 idd: '6447242752'
-released: '2024-07-17T07:00:00Z'
+released: 2024-07-17
 updated: 2025-11-17
 version: 1.1.5
-stars: 4.66242
+stars: 4.7
 reviews: 157
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.legacy.academy.jpg
@@ -27,7 +27,7 @@ social:
 - https://www.linkedin.com/company/legacy-network-ag
 - https://www.instagram.com/legacynetwork.io
 - https://www.youtube.com/@LegacyNetworkio
-- https://t.me/legacynetworkofficial 
+- https://t.me/legacynetworkofficial
 features: 
 developerName: LEGACY Network
 

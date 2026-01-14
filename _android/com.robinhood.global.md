@@ -1,14 +1,15 @@
 ---
 wsId: robinhoodCryptoAndStocks
-title: 'Robinhood: Crypto & Stocks'
+title: 'Robinhood: Stock Token, Crypto'
 altTitle: 
 authors:
 - danny
 users: 100000
 appId: com.robinhood.global
 appCountry: 
-updated: 2025-11-06
-version: 2025.44.3
+released: 
+updated: 2026-01-06
+version: 2026.2.1
 stars: 
 ratings: 
 reviews: 
@@ -27,9 +28,10 @@ social:
 - https://www.instagram.com/robinhoodapp
 - https://www.linkedin.com/company/robinhood
 - https://www.tiktok.com/@robinhoodapp
-- https://www.youtube.com/channel/UCY55VHsy1umgvR35gl5bmUw 
+- https://www.youtube.com/channel/UCY55VHsy1umgvR35gl5bmUw
 redirect_from: 
 developerName: Robinhood
+builds: 
 features: 
 
 ---

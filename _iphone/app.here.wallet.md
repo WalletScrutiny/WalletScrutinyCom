@@ -7,12 +7,12 @@ authors:
 appId: app.here.wallet
 appCountry: us
 idd: '1634994703'
-released: '2022-09-29T07:00:00Z'
+released: 2022-09-29
 updated: 2024-04-17
 version: 1.17.0
-stars: 3.93333
+stars: 3.9
 reviews: 90
-website: ''
+website: 
 repository: 
 issue: 
 icon: app.here.wallet.jpg

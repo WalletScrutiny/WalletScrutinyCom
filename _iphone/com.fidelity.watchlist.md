@@ -7,11 +7,11 @@ authors:
 appId: com.fidelity.watchlist
 appCountry: us
 idd: '348177453'
-released: '2010-02-22T08:00:00Z'
-updated: 2025-11-07
-version: '4.21'
-stars: 4.7847
-reviews: 2893601
+released: 2010-02-22
+updated: 2025-12-04
+version: '4.23'
+stars: 4.8
+reviews: 2953793
 website: http://www.fidelity.com
 repository: 
 issue: 

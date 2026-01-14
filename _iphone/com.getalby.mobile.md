@@ -8,8 +8,8 @@ appId: com.getalby.mobile
 appCountry: us
 idd: '6471335774'
 released: 2024-09-18
-updated: 2025-11-08
-version: 1.15.1
+updated: 2025-12-23
+version: 2.0.0
 stars: 4.8
 reviews: 20
 website: https://getalby.com/

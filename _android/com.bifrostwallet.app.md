@@ -1,18 +1,18 @@
 ---
 wsId: bifrostWallet
-title: Bifrost Wallet
+title: Bifrost Wallet - XRP, FLR, ETH
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.bifrostwallet.app
 appCountry: 
-released: Sep 9, 2021
-updated: 2025-10-16
-version: 0.7.31
-stars: 3.84
+released: 2021-09-09
+updated: 2026-01-07
+version: 0.7.40
+stars: 3.9
 ratings: 
-reviews: 100
+reviews: 103
 website: https://bifrostwallet.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bifrost Software Ltd
+builds: 
 features: 
 
 ---

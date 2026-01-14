@@ -7,9 +7,9 @@ authors:
 appId: com.rampnetwork.mobile
 appCountry: gb
 idd: '6739492349'
-released: '2025-09-04T07:00:00Z'
-updated: 2025-10-27
-version: 1.2.0
+released: 2025-09-04
+updated: 2025-12-17
+version: 1.3.0
 stars: 5
 reviews: 4
 website: https://ramp.network/

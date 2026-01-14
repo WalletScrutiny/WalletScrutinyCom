@@ -3,14 +3,14 @@ wsId: juCom
 title: 'Ju.com : Buy BTC, DeFi & Web3'
 altTitle: 
 authors:
-- danny 
-users: 50000
+- danny
+users: 100000
 appId: com.app.jc
 appCountry: 
-released: Jan 13, 2025
-updated: 2025-10-29
-version: 3.3.3
-stars: 3.5789473
+released: 2025-01-13
+updated: 2026-01-08
+version: 3.3.9
+stars: 3.6
 ratings: 
 reviews: 10
 website: 
@@ -27,6 +27,7 @@ twitter: Jucom_Official
 social: 
 redirect_from: 
 developerName: RONKB
+builds: 
 features: 
 
 ---

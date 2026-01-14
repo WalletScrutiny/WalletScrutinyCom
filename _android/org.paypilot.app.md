@@ -3,9 +3,10 @@ wsId:
 title: PayPilot Crypto Wallet & Card
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: org.paypilot.app
 appCountry: 
+released: 
 updated: 2026-01-12
 version: 0.6.2
 stars: 
@@ -25,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PayPilot
+builds: 
 features: 
 
 ---

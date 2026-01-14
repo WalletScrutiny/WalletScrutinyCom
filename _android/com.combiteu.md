@@ -3,13 +3,13 @@ wsId:
 title: BIT.EU Trade Futures Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.combiteu
 appCountry: 
-released: Jul 10, 2024
-updated: 2025-11-07
-version: 200.4.6
+released: 2024-07-10
+updated: 2026-01-08
+version: 200.5.0
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bit.Eu
+builds: 
 features: 
 
 ---

@@ -7,10 +7,10 @@ authors:
 users: 5000
 appId: com.getsinbad
 appCountry: 
-released: May 31, 2023
-updated: 2025-10-24
-version: 0.79.3
-stars: 3.8333333
+released: 2023-05-31
+updated: 2026-01-05
+version: 0.80.2
+stars: 3.8
 ratings: 
 reviews: 2
 website: https://www.getsinbad.com
@@ -27,6 +27,7 @@ twitter: sinbadhq
 social: 
 redirect_from: 
 developerName: Sinbad Tech Inc.
+builds: 
 features: 
 
 ---

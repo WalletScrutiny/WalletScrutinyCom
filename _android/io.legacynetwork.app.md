@@ -7,10 +7,10 @@ authors:
 users: 10000
 appId: io.legacynetwork.app
 appCountry: 
-released: Mar 15, 2023
+released: 2023-03-15
 updated: 2025-06-24
 version: 1.3.177
-stars: 3.9285715
+stars: 3.9
 ratings: 
 reviews: 7
 website: https://www.legacynetwork.io/
@@ -31,6 +31,7 @@ social:
 - https://t.me/legacynetworkofficial
 redirect_from: 
 developerName: LEGACY NETWORK AG
+builds: 
 features: 
 
 ---

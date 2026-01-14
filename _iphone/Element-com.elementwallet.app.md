@@ -3,15 +3,15 @@ wsId: elementWallet
 title: Element Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: Element-com.elementwallet.app
 appCountry: us
 idd: '6451395297'
-released: '2024-03-22T07:00:00Z'
+released: 2024-03-22
 updated: 2025-04-03
 version: 1.13.0
-stars: 1.91558
-reviews: 154
+stars: 1.9
+reviews: 161
 website: https://www.elementwallet.com
 repository: 
 issue: 

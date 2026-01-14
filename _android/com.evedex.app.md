@@ -7,12 +7,12 @@ authors:
 users: 10000
 appId: com.evedex.app
 appCountry: 
-released: Dec 26, 2024
-updated: 2025-10-01
-version: 1.7.4
-stars: 3.857143
+released: 2024-12-26
+updated: 2025-12-26
+version: 1.8.5
+stars: 3.5
 ratings: 
-reviews: 5
+reviews: 6
 website: https://evedex.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: EVEDEX
 social: 
 redirect_from: 
 developerName: EVEDEX Ltd.
+builds: 
 features: 
 
 ---

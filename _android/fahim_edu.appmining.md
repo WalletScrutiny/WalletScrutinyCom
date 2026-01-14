@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: fahim_edu.appmining.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-06-14
+date: 2026-01-14
 signer: 
 twitter: 
 social: 

@@ -7,12 +7,12 @@ authors:
 appId: io.quidax.pro
 appCountry: ng
 idd: '6742988930'
-released: '2025-07-07T07:00:00Z'
+released: 2025-07-07
 updated: 2025-12-19
 version: 1.1.8
-stars: 4.27755
+stars: 4.3
 reviews: 490
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.quidax.pro.jpg
@@ -26,7 +26,7 @@ twitter: quidaxglobal
 social:
 - https://www.facebook.com/QuidaxGlobal
 - https://www.instagram.com/quidaxglobal
-- https://t.me/+10T7C37UuE40NTFk 
+- https://t.me/+10T7C37UuE40NTFk
 features: 
 developerName: Quidax Technologies
 

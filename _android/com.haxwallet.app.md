@@ -4,13 +4,13 @@ title: 'Hax: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.haxwallet.app
 appCountry: 
-released: May 23, 2023
-updated: 2025-11-04
-version: 3.5.0
-stars: 4.428571
+released: 2023-05-23
+updated: 2025-12-14
+version: 3.5.2
+stars: 4.6
 ratings: 
 reviews: 6
 website: http://haxwallet.com
@@ -27,6 +27,7 @@ twitter: haxwallet0x
 social: 
 redirect_from: 
 developerName: HaxSolutions
+builds: 
 features: 
 
 ---

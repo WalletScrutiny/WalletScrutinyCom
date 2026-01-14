@@ -6,7 +6,7 @@ authors:
 users: 50
 appId: com.boldwallet
 appCountry: 
-released: Jul 15, 2025
+released: 2025-07-15
 updated: 2026-01-12
 version: 2.1.11
 stars: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BoldBitcoinWallet
+builds: 
 features: 
 
 ---

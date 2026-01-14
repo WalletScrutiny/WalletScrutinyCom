@@ -3,10 +3,11 @@ wsId: nizaBuyBTC
 title: 'Niza: Buy BTC, ETH & +500'
 altTitle: 
 authors:
-- danny 
-users: 5000
+- danny
+users: 10000
 appId: io.niza.app
 appCountry: 
+released: 
 updated: 2025-05-07
 version: 1.4.3
 stars: 
@@ -29,6 +30,7 @@ social:
 - https://www.facebook.com/nizaglobal
 redirect_from: 
 developerName: Niza Global
+builds: 
 features: 
 
 ---

@@ -6,12 +6,12 @@ authors:
 appId: io.hashport.hashwallet
 appCountry: us
 idd: '6450660947'
-released: '2024-11-05T08:00:00Z'
+released: 2024-11-05
 updated: 2025-12-01
 version: 3.2.1
 stars: 1
 reviews: 6
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.hashport.hashwallet.jpg

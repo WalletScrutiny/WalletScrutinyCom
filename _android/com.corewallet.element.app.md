@@ -3,16 +3,16 @@ wsId: elementWallet
 title: 'Element Wallet: Chat & Pay'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.corewallet.element.app
 appCountry: 
-released: Jun 5, 2024
+released: 2024-06-05
 updated: 2025-04-02
 version: 1.13.0
-stars: 2.51
+stars: 2.4
 ratings: 
-reviews: 298
+reviews: 304
 website: https://www.elementwallet.com/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Element Wallet Inc
+builds: 
 features: 
 
 ---

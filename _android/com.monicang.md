@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: com.monicang
 appCountry: 
-released: Jan 6, 2023
-updated: 2025-10-01
-version: '11.0'
-stars: 4.6
+released: 2023-01-06
+updated: 2026-01-03
+version: '11.4'
+stars: 4.7
 ratings: 
-reviews: 81
+reviews: 88
 website: https://monica.ng
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/monicanigeria
 redirect_from: 
 developerName: Monica.cash
+builds: 
 features: 
 
 ---

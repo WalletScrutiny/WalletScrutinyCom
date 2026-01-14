@@ -6,10 +6,10 @@ authors:
 appId: com.Rhino.Global
 appCountry: us
 idd: '1564149079'
-released: '2022-06-29T07:00:00Z'
+released: 2022-06-29
 updated: 2025-12-17
 version: 2.12.8
-stars: 4.52941
+stars: 4.5
 reviews: 17
 website: https://www.rhinobitcoin.com/
 repository: 

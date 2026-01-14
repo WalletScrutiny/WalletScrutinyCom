@@ -6,10 +6,10 @@ authors:
 users: 10000
 appId: com.paytaca.app
 appCountry: 
-released: Sep 26, 2021
+released: 2021-09-26
 updated: 2025-07-10
 version: v0.22.11
-stars: 4.4166665
+stars: 4.4
 ratings: 
 reviews: 4
 website: https://www.paytaca.com
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Paytaca Inc.
+builds: 
 features: 
 
 ---

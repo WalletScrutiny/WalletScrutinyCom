@@ -6,12 +6,12 @@ authors:
 users: 1000000
 appId: com.solflare.mobile
 appCountry: 
-released: Nov 5, 2021
+released: 2021-11-05
 updated: 2025-12-29
 version: 2.10.2
-stars: 4.6570797
+stars: 4.7
 ratings: 
-reviews: 1611
+reviews: 1613
 website: https://solflare.com
 repository: 
 issue: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Solrise Research Ltd
+builds: 
 features: 
 
 ---

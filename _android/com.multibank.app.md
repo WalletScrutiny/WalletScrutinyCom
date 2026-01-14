@@ -7,10 +7,10 @@ authors:
 users: 100000
 appId: com.multibank.app
 appCountry: 
-released: Apr 4, 2023
-updated: 2025-10-31
-version: 3.2.0
-stars: 3.9473684
+released: 2023-04-04
+updated: 2025-12-04
+version: 3.2.2
+stars: 3.9
 ratings: 
 reviews: 7
 website: https://multibank.io/
@@ -29,7 +29,8 @@ social:
 - https://www.instagram.com/multibank_group
 redirect_from: 
 developerName: MEX Digital
-features:
+builds: 
+features: 
 
 ---
 

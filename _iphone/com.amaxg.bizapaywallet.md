@@ -6,7 +6,7 @@ authors:
 appId: com.amaxg.bizapaywallet
 appCountry: us
 idd: '6740513430'
-released: '2025-03-23T07:00:00Z'
+released: 2025-03-23
 updated: 2025-03-24
 version: 1.0.0
 stars: 5

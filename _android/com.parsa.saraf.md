@@ -6,10 +6,10 @@ authors:
 users: 1000000
 appId: com.parsa.saraf
 appCountry: 
-released: Apr 26, 2019
+released: 2019-04-26
 updated: 2024-12-26
 version: 511.0.0
-stars: 4.3195267
+stars: 4.3
 ratings: 
 reviews: 512
 website: https://saraf.app
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: saraf company
+builds: 
 features: 
 
 ---

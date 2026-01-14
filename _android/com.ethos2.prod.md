@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: com.ethos2.prod
 appCountry: 
-released: Jun 26, 2023
-updated: 2025-04-23
-version: 5.1.0
+released: 2023-06-26
+updated: 2026-01-01
+version: 5.3.2
 stars: 3.9
 ratings: 
 reviews: 17
@@ -27,6 +27,7 @@ twitter: Ethos_io
 social: 
 redirect_from: 
 developerName: Ethos.io
+builds: 
 features: 
 
 ---

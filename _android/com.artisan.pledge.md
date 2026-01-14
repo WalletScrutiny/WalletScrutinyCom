@@ -3,14 +3,14 @@ wsId:
 title: 'AScoin Wallet: Crypto & BTC'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.artisan.pledge
 appCountry: 
-released: Apr 3, 2023
+released: 2023-04-03
 updated: 2025-06-05
 version: 1.0.59
-stars: 2.1666667
+stars: 2.2
 ratings: 
 reviews: 7
 website: https://www.assure.pro
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CRYPASSURE PTE. LTD.
+builds: 
 features: 
 
 ---

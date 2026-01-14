@@ -3,11 +3,11 @@ wsId: pockieWallet
 title: Pockie Wallet - Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.pilab.pockie
 appCountry: us
 idd: '6448715234'
-released: '2023-08-02T07:00:00Z'
+released: 2023-08-02
 updated: 2025-08-11
 version: 1.4.10
 stars: 4.8

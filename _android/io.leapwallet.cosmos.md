@@ -7,12 +7,12 @@ authors:
 users: 100000
 appId: io.leapwallet.cosmos
 appCountry: 
-released: Feb 14, 2023
-updated: 2025-10-24
-version: 0.75.6
+released: 2023-02-14
+updated: 2025-12-30
+version: 0.76.3
 stars: 4.7
 ratings: 
-reviews: 94
+reviews: 96
 website: https://www.leapwallet.io/mobile
 repository: 
 issue: 
@@ -25,9 +25,10 @@ date: 2025-11-09
 signer: 
 twitter: leap_cosmos
 social:
-- https://www.reddit.com/user/Leap_Wallet 
+- https://www.reddit.com/user/Leap_Wallet
 redirect_from: 
 developerName: Leap Wallet
+builds: 
 features: 
 
 ---

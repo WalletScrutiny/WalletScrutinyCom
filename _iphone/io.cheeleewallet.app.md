@@ -7,12 +7,12 @@ authors:
 appId: io.cheeleewallet.app
 appCountry: ru
 idd: '6469778928'
-released: '2024-03-05T08:00:00Z'
+released: 2024-03-05
 updated: 2024-03-05
 version: 1.2.2
 stars: 5
 reviews: 5
-website: ''
+website: 
 repository: 
 issue: 
 icon: io.cheeleewallet.app.jpg

@@ -3,11 +3,11 @@ wsId:
 title: Split Rewards
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.splitloyalty.app.Split-Rewards
 appCountry: us
 idd: '6740720801'
-released: '2025-01-22T08:00:00Z'
+released: 2025-01-22
 updated: 2025-12-28
 version: '2.21'
 stars: 5

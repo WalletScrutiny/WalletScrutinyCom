@@ -7,11 +7,11 @@ authors:
 appId: com.coinsavi.app
 appCountry: vn
 idd: '6448838930'
-released: '2023-09-07T07:00:00Z'
-updated: 2025-04-15
-version: 0.70.1
-stars: 4.74953
-reviews: 539
+released: 2023-09-07
+updated: 2025-11-17
+version: 0.70.8
+stars: 4.7
+reviews: 540
 website: https://coinsavi.com
 repository: 
 issue: 
