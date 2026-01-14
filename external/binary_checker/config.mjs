@@ -30,7 +30,9 @@ export const YEARS_FOR_OUTDATED_CHECK = 5; // Report dependencies not updated in
 export const MIN_DOWNLOADS_THRESHOLD = 10000; // Minimum downloads per month to avoid alert
 
 // Asset Size Change Detection Configuration
-export const SIZE_CHANGE_THRESHOLD_PERCENT = 10; // Alert if size difference exceeds this percentage
+export const SIZE_CHANGE_THRESHOLD_PERCENT = 30; // Alert if size difference exceeds this percentage
+
+export const SHOW_ONLY_FIRST_X_ALERTS = 100;
 
 // App Types
 export const APP_TYPES = {

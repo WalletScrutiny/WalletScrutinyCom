@@ -189,6 +189,3 @@ try {
 } finally {
   db.close();
 }
-
-
-//export { processApp, fetchGitHubAssets, fetchDockerAssets };

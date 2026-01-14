@@ -5,7 +5,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 import { AstAnalyser } from '@nodesecure/js-x-ray';
 import { detectObfuscation } from 'obfuscation-detector';
-import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES } from './config.mjs';
+import { DEFAULT_TEMP_DIR, YEARS_FOR_OUTDATED_CHECK, MIN_DOWNLOADS_THRESHOLD, APP_TYPES, SHOW_ONLY_FIRST_X_ALERTS } from './config.mjs';
 
 /**
  * Detect the type of application based on dependency files
@@ -1077,8 +1077,7 @@ export async function analyzeCodeVulnerabilitiesJSXRay(repoPath) {
       for (const [kind, warnings] of warningsByType.entries()) {
         console.log(`\n  ${kind} (${warnings.length} occurrences):`);
         
-        // Show first 10 warnings of each type
-        for (const warning of warnings.slice(0, 10)) {
+        for (const warning of warnings.slice(0, SHOW_ONLY_FIRST_X_ALERTS)) {
           let locationStr = '';
           if (warning.location) {
             if (Array.isArray(warning.location) && warning.location.length >= 1) {
@@ -1096,8 +1095,8 @@ export async function analyzeCodeVulnerabilitiesJSXRay(repoPath) {
           console.log(`    - ${warning.file}${locationStr}${value}${severity}`);
         }
         
-        if (warnings.length > 10) {
-          console.log(`    ... and ${warnings.length - 10} more`);
+        if (warnings.length > SHOW_ONLY_FIRST_X_ALERTS) {
+          console.log(`    ... and ${warnings.length - SHOW_ONLY_FIRST_X_ALERTS} more`);
         }
       }
     } else {
@@ -1183,22 +1182,22 @@ export async function analyzeObfuscation(repoPath) {
       for (const [type, files] of obfuscationTypeMap.entries()) {
         console.log(`\n  ${type} (${files.length} file(s)):`);
         const uniqueFiles = [...new Set(files)];
-        for (const file of uniqueFiles.slice(0, 20)) {
+        for (const file of uniqueFiles.slice(0, SHOW_ONLY_FIRST_X_ALERTS)) {
           console.log(`    - ${file}`);
         }
-        if (uniqueFiles.length > 20) {
-          console.log(`    ... and ${uniqueFiles.length - 20} more`);
+        if (uniqueFiles.length > SHOW_ONLY_FIRST_X_ALERTS) {
+          console.log(`    ... and ${uniqueFiles.length - SHOW_ONLY_FIRST_X_ALERTS} more`);
         }
       }
       
       // Also show all files with their detected types
       console.log('\nDetailed file list:');
-      for (const file of obfuscatedFiles.slice(0, 30)) {
+      for (const file of obfuscatedFiles.slice(0, SHOW_ONLY_FIRST_X_ALERTS)) {
         const typesStr = file.obfuscationTypes.join(', ');
         console.log(`  - ${file.file}: ${typesStr}`);
       }
-      if (obfuscatedFiles.length > 30) {
-        console.log(`  ... and ${obfuscatedFiles.length - 30} more files`);
+      if (obfuscatedFiles.length > SHOW_ONLY_FIRST_X_ALERTS) {
+        console.log(`  ... and ${obfuscatedFiles.length - SHOW_ONLY_FIRST_X_ALERTS} more files`);
       }
     } else {
       console.log('\nNo obfuscation detected in the analyzed files');
