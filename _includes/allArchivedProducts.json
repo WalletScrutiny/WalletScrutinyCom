@@ -1,0 +1,80 @@
+{
+  "iphone": {
+    "apps": [ 
+      {% assign iphone_posts = site.archived | where_exp: "post", "post.path contains '/iphone/'" %}
+      {% for post in iphone_posts %}
+      {% include wallet_score.html verdict = post.verdict platform='iphone' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title | escape }}",      
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "hardware": {
+    "apps": [ 
+      {% assign hardware_posts = site.archived | where_exp: "post", "post.path contains '/hardware/'" %}
+      {% for post in hardware_posts %}
+      {% include wallet_score.html verdict = post.verdict platform='hardware' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title }}",
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "bearer": {
+    "apps": [ 
+      {% assign bearer_posts = site.archived | where_exp: "post", "post.path contains '/bearer/'" %}
+      {% for post in bearer_posts %}
+      {% include wallet_score.html verdict = post.verdict platform='bearer' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title }}",
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "android": {
+    "apps": [ 
+      {% assign android_posts = site.archived | where_exp: "post", "post.path contains '/android/'" %}
+      {% for post in android_posts %}
+      {% include wallet_score.html verdict = post.verdict platform='android' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title | escape }}",
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "desktop": {
+    "apps": [ 
+      {% assign desktop_posts = site.archived | where_exp: "post", "post.path contains '/desktop/'" %}
+      {% for post in desktop_posts %}
+      {% include wallet_score.html verdict = post.verdict platform='desktop' %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title | escape }}",
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  },
+  "others": {
+    "apps": [ 
+      {% assign others_posts = site.archived | where_exp: "post", "post.path contains '/others/'" %}
+      {% for post in others_posts %}
+      {
+        "appId": "{{ post.appId }}",
+        "title": "{{ post.title | escape }}",
+        "verdict": "{{ post.verdict }}",
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+

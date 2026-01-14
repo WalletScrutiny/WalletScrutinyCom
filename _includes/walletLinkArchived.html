@@ -1,0 +1,12 @@
+{% assign parts = include.wallet | split: "/"
+%}{% assign archived_collections = site.collections | find: "label", "archived"
+%}{% assign w = archived_collections.docs | find: "appId", parts[1]
+%}{% unless w
+%}{{ "include.wallet not found. It was '" | append: include.wallet | append: "'" | raise_error }}{% endunless
+%}{% if w.path contains '/android/' %}{% assign platform = 'android' %}{% elsif w.path contains '/iphone/' %}{% assign platform = 'iphone' %}{% elsif w.path contains '/hardware/' %}{% assign platform = 'hardware' %}{% elsif w.path contains '/bearer/' %}{% assign platform = 'bearer' %}{% elsif w.path contains '/desktop/' %}{% assign platform = 'desktop' %}{% elsif w.path contains '/others/' %}{% assign platform = 'others' %}{% else %}{% assign platform = 'unknown' %}{% endif
+%}<span class="wallet-link"><a href="/archived/?appId={{w.appId}}&platform={{platform}}">{{
+  w.altTitle | default: w.title | escape }}</a>&nbsp;{%
+  include verdictBadge.html verdict=w.verdict type="short"
+  %}{%if w.meta != "ok" %}{%
+  include verdictBadge.html verdict=w.meta type="short"
+  %}{% endif %}</span> 

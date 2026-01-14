@@ -22,6 +22,12 @@ if ! npm install; then
   exit 1
 fi
 
+echo " * Archiving nobtc/nowallet apps..."
+if ! node scripts/archiveNobtcNowallet.mjs; then
+  echo "❌ ERROR: Failed to archive nobtc/nowallet apps"
+  exit 1
+fi
+
 echo " * Updating from Google and Apple $apps ..."
 if ! node \
   --input-type=module \

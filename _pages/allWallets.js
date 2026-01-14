@@ -6,6 +6,7 @@ permalink: /allWallets.js
 (() => {
   const wallets = [];
   const data = {% include allProducts.json %};
+  const archivedData = {% include allArchivedProducts.json %};
   const opinions = {% include allOpinions.json %};
   window.verdicts = data.verdicts;
   const folders = ["hardware", "android", "iphone", "bearer", "desktop", "others"];
@@ -19,6 +20,17 @@ permalink: /allWallets.js
       w.folder = folder;
       wallets.push(w);
     });
+  });
+  folders.forEach(folder => {
+    const archivedFolderData = archivedData[folder];
+    if (archivedFolderData && archivedFolderData.apps) {
+      const apps = archivedFolderData.apps;
+      apps.forEach(w => {
+        w.folder = folder;
+        w.archived = true;
+        wallets.push(w);
+      });
+    }
   });
   window.wallets = wallets;
   window.versionTag();
