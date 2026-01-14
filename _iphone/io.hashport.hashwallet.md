@@ -1,0 +1,30 @@
+---
+wsId: 
+title: HashPort Wallet
+altTitle: 
+authors: 
+appId: io.hashport.hashwallet
+appCountry: us
+idd: '6450660947'
+released: '2024-11-05T08:00:00Z'
+updated: 2025-12-01
+version: 3.2.1
+stars: 1
+reviews: 6
+website: ''
+repository: 
+issue: 
+icon: io.hashport.hashwallet.jpg
+bugbounty: 
+meta: ok
+verdict: wip
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+features: 
+developerName: HashPort Inc
+
+---
+

@@ -1,0 +1,32 @@
+---
+wsId: 
+title: 'CryptoVault: Web3 Wallet'
+altTitle: 
+authors: 
+users: 10
+appId: com.trustvault.wallet
+appCountry: 
+released: Dec 8, 2025
+updated: 2025-12-26
+version: 1.0.0
+stars: 
+ratings: 
+reviews: 
+website: http://trustvault-app.com
+repository: 
+issue: 
+icon: com.trustvault.wallet.png
+bugbounty: 
+meta: ok
+verdict: fewusers
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+redirect_from: 
+developerName: UNREAL VENTURES LLC
+features: 
+
+---
+

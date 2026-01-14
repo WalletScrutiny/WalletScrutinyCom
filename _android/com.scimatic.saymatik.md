@@ -1,0 +1,32 @@
+---
+wsId: 
+title: Saymatik Web3 Wallet
+altTitle: 
+authors: 
+users: 1000
+appId: com.scimatic.saymatik
+appCountry: 
+released: Oct 10, 2022
+updated: 2025-08-16
+version: 0.1.0
+stars: 
+ratings: 
+reviews: 
+website: https://saymatik.com
+repository: 
+issue: 
+icon: com.scimatic.saymatik.png
+bugbounty: 
+meta: ok
+verdict: wip
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+redirect_from: 
+developerName: scimatic
+features: 
+
+---
+

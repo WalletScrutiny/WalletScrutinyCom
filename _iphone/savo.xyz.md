@@ -1,0 +1,30 @@
+---
+wsId: 
+title: 'SAVO: All-In-One Wallet'
+altTitle: 
+authors: 
+appId: savo.xyz
+appCountry: us
+idd: '6742020669'
+released: '2025-02-18T08:00:00Z'
+updated: 2026-01-13
+version: 1.3.53
+stars: 4.84558
+reviews: 136
+website: ''
+repository: 
+issue: 
+icon: savo.xyz.jpg
+bugbounty: 
+meta: ok
+verdict: wip
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+features: 
+developerName: SAVO, Inc.
+
+---
+

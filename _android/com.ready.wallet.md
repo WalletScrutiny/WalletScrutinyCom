@@ -1,0 +1,32 @@
+---
+wsId: 
+title: Ready Wallet (formerly Argent)
+altTitle: 
+authors: 
+users: 1000
+appId: com.ready.wallet
+appCountry: 
+released: Sep 18, 2025
+updated: 2025-12-10
+version: 1.2.3
+stars: 
+ratings: 
+reviews: 
+website: https://www.ready.co/ready-wallet
+repository: 
+issue: 
+icon: com.ready.wallet.png
+bugbounty: 
+meta: ok
+verdict: wip
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+redirect_from: 
+developerName: Argent Labs
+features: 
+
+---
+
