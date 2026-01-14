@@ -34,6 +34,7 @@ builds:
 - arch: x86_64-windows
   types:
   - zip
+  - setup
 features: 
 
 ---
