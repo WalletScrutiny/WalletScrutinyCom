@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/evercoin
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BankWithLVL
 redirect_from: 
 developerName: Samsa Technologies Inc.
+builds: 
 features: 
 
 ---

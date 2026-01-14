@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2025-11-02
-version: '2.12'
+updated: 2025-12-23
+version: '2.15'
 stars: 2.7
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/bitexenglobal
 redirect_from: 
 developerName: Bitexen Teknoloji A.Ş.
+builds: 
 features: 
 
 ---

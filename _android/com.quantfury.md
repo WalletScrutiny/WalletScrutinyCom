@@ -8,8 +8,8 @@ users: 500000
 appId: com.quantfury
 appCountry: gb
 released: 2018-11-26
-updated: 2025-10-28
-version: v1.90.0.24670
+updated: 2025-12-22
+version: v1.91.0.25017
 stars: 4.2
 ratings: 11645
 reviews: 23
@@ -27,6 +27,7 @@ twitter: quantfury
 social: 
 redirect_from: 
 developerName: Quantfury Trading Limited
+builds: 
 features: 
 
 ---

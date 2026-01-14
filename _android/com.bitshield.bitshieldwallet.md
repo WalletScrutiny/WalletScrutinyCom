@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.bitshield.bitshieldwallet/
 developerName: 
+builds: 
 features: 
 
 ---

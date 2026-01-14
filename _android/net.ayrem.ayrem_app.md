@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.ayrem.ayrem_app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2025-01-09
+date: 2026-01-08
 signer: 
 twitter: AYREM_INT
 social:
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/AYREMint
 redirect_from: 
 developerName: Ayrem International Nigeria Limited
+builds: 
 features: 
 
 ---

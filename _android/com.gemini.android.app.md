@@ -8,11 +8,11 @@ users: 1000000
 appId: com.gemini.android.app
 appCountry: 
 released: 2018-12-10
-updated: 2025-11-01
-version: 25.1031.0
+updated: 2026-01-05
+version: 26.101.0
 stars: 4.2
 ratings: 38767
-reviews: 8142
+reviews: 8239
 website: https://www.gemini.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ redirect_from:
 - /com.gemini.android.app/
 - /posts/com.gemini.android.app/
 developerName: Gemini Space Station, Inc.
+builds: 
 features: 
 
 ---

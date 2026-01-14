@@ -8,8 +8,8 @@ users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2025-10-08
-version: 2.8.1
+updated: 2025-12-24
+version: 2.9.5
 stars: 
 ratings: 
 reviews: 
@@ -33,6 +33,7 @@ social:
 - https://www.tiktok.com/@revixinvest
 redirect_from: 
 developerName: ALTIFY GROUP LIMITED
+builds: 
 features: 
 
 ---

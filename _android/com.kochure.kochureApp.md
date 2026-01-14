@@ -8,8 +8,8 @@ users: 5000
 appId: com.kochure.kochureApp
 appCountry: 
 released: 2021-11-13
-updated: 2025-10-30
-version: 1.2.1
+updated: 2025-11-06
+version: 1.2.2
 stars: 4.1
 ratings: 
 reviews: 3
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/kochureglobal
 redirect_from: 
 developerName: Kochure Technologies Limited
+builds: 
 features: 
 
 ---

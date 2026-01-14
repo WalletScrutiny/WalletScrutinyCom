@@ -31,6 +31,7 @@ redirect_from:
 - /com.pumapay.pumawallet/
 - /posts/com.pumapay.pumawallet/
 developerName: Decentralized Vision Ltd
+builds: 
 features: 
 
 ---

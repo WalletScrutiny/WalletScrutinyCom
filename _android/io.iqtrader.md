@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/iqtraderofficial/
 redirect_from: 
 developerName: IQTrader
+builds: 
 features: 
 
 ---

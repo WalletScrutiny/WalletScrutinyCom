@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/vastbankNA
 redirect_from: 
 developerName: Vast Bank
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/UX26GYAJw4
 redirect_from: 
 developerName: Echooo Labs Pte Ltd
+builds: 
 features: 
 
 ---

@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: org.doichain.doiwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-07-10
+date: 2025-12-01
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: WEBanizerAG
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 100000
 appId: com.getdefiq.giddy
 appCountry: 
 released: 2022-02-25
-updated: 2025-10-31
-version: 3.10.4
+updated: 2026-01-03
+version: 4.3.0
 stars: 4.3
 ratings: 
-reviews: 128
+reviews: 127
 website: https://giddy.co
 repository: 
 issue: 
@@ -34,6 +34,7 @@ social:
 - https://web.telegram.org/k/#@giddydefi
 redirect_from: 
 developerName: 'Giddy: Secure Crypto Wallet'
+builds: 
 features: 
 
 ---

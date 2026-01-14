@@ -32,6 +32,7 @@ twitter: SecuXwallet
 social:
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology
+builds: 
 features: 
 
 ---

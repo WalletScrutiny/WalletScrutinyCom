@@ -2,7 +2,8 @@
 wsId: 
 title: Nest Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 10000
 appId: xyz.nestwallet.nestwallet
 appCountry: 
@@ -18,9 +19,9 @@ issue:
 icon: xyz.nestwallet.nestwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2025-11-09
+date: 2026-01-05
 signer: 
 twitter: 
 social: 
@@ -30,3 +31,10 @@ features:
 
 ---
 
+## App Description
+
+This is a self-custody cryptocurrency wallet designed for managing assets across multiple blockchains, including Ethereum, Solana, Base, Arbitrum, BNB Smart Chain, TON, and other supported networks.
+
+## Analysis
+
+This app does not support Bitcoin.

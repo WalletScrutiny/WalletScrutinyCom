@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/spectrocoin
 redirect_from: 
 developerName: Spectro Finance
+builds: 
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Trading App'
+title: 'AvaTrade: Trading & Investing'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2025-10-25
-version: '162.1'
+updated: 2026-01-07
+version: '167'
 stars: 4.3
 ratings: 9327
 reviews: 11
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/AvaTrade
 redirect_from: 
 developerName: Ava Financial Ltd
+builds: 
 features: 
 
 ---

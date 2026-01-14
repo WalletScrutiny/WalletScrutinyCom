@@ -30,6 +30,7 @@ social:
 - https://t.me/coinzixCEX
 redirect_from: 
 developerName: COINZIX LABS
+builds: 
 features: 
 
 ---

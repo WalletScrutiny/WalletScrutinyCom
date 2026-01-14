@@ -8,8 +8,8 @@ users: 1000
 appId: com.blitzwallet
 appCountry: 
 released: 2025-09-29
-updated: 2025-11-04
-version: 0.6.6
+updated: 2025-12-24
+version: 0.7.3
 stars: 
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ social:
 - https://www.youtube.com/@BlitzWalletApp
 redirect_from: 
 developerName: Blitz Wallet
+builds: 
 features: 
 
 ---

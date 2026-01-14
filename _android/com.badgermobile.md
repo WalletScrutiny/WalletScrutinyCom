@@ -29,6 +29,7 @@ redirect_from:
 - /com.badgermobile/
 - /posts/com.badgermobile/
 developerName: Vin Armani
+builds: 
 features: 
 
 ---

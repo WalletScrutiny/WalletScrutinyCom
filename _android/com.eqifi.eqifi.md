@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/EQIFI
 redirect_from: 
 developerName: EQIFi
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://t.me/NexDAXNews
 redirect_from: 
 developerName: NexDAX Technology Company Limited
+builds: 
 features: 
 
 ---

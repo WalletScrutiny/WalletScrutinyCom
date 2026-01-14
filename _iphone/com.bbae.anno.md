@@ -8,10 +8,10 @@ appId: com.bbae.anno
 appCountry: cn
 idd: '1123918627'
 released: 2016-06-25
-updated: 2025-09-18
-version: 7.0.1
+updated: 2025-11-06
+version: 7.0.2
 stars: 4.8
-reviews: 667
+reviews: 722
 website: https://www.bbae.com
 repository: 
 issue: 

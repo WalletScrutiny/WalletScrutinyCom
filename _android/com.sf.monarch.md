@@ -33,6 +33,7 @@ redirect_from:
 - /com.sf.monarch/
 - /posts/com.sf.monarch/
 developerName: Splash Factory
+builds: 
 features: 
 
 ---

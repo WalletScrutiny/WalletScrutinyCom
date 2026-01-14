@@ -11,7 +11,7 @@ released: 2017-06-22
 updated: 2025-10-22
 version: 5.25.0
 stars: 4.8
-reviews: 79723
+reviews: 80241
 website: https://coinstats.app
 repository: 
 issue: 

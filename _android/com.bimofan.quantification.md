@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.bimofan.quantification.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-11-29
+date: 2025-11-26
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: AITrade
+builds: 
 features: 
 
 ---

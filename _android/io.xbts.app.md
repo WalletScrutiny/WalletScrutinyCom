@@ -28,6 +28,7 @@ social:
 - https://t.me/xbtsio
 redirect_from: 
 developerName: TechnoL0g
+builds: 
 features: 
 
 ---

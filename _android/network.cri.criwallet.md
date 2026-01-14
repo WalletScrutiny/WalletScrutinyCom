@@ -30,6 +30,7 @@ social:
 - https://t.me/cri_notice
 redirect_from: 
 developerName: COSMETA, INC.
+builds: 
 features: 
 
 ---

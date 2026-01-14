@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coindealcom
 redirect_from: 
 developerName: CoinDeal Limited
+builds: 
 features: 
 
 ---

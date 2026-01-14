@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/maxonrowblockchain
 redirect_from: 
 developerName: Maxonrow
+builds: 
 features: 
 
 ---

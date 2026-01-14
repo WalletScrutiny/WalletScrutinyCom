@@ -29,6 +29,7 @@ social:
 - https://telegram.me/cardstack
 redirect_from: 
 developerName: Cardstack Services Pte. Ltd
+builds: 
 features: 
 
 ---

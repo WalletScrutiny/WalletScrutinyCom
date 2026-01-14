@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: The Crypto Spot
+builds: 
 features: 
 
 ---

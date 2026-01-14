@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-08
+date: 2025-12-15
 signer: 
 twitter: MiracleCashMore
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/miraclecashandmore/
 redirect_from: 
 developerName: Ofinans App
+builds: 
 features: 
 
 ---

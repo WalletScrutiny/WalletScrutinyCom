@@ -8,8 +8,8 @@ users: 1000000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2025-10-17
-version: 2.9.9
+updated: 2025-12-18
+version: 3.0.2
 stars: 3.4
 ratings: 8047
 reviews: 87
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/BankofHodlers
 redirect_from: 
 developerName: VauldGoogleDeveloper
+builds: 
 features: 
 
 ---

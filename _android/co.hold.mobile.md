@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/HoldHQ
 redirect_from: 
 developerName: HOLD Platform Limited
+builds: 
 features: 
 
 ---

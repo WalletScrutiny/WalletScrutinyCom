@@ -33,6 +33,7 @@ social:
 - https://t.me/PRIVATEUMGLOBAL
 redirect_from: 
 developerName: Privateum
+builds: 
 features: 
 
 ---

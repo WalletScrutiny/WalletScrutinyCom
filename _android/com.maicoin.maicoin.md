@@ -9,7 +9,7 @@ appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19
 updated: 2025-10-28
-version: 13.0.0
+version: 14.0.0
 stars: 4.2
 ratings: 645
 reviews: 10
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
 developerName: MaiCoin Eng
+builds: 
 features: 
 
 ---

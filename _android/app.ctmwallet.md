@@ -8,8 +8,8 @@ users: 10000
 appId: app.ctmwallet
 appCountry: 
 released: 2021-12-28
-updated: 2025-11-01
-version: 1.0.26
+updated: 2025-11-13
+version: 1.0.28
 stars: 3.8
 ratings: 
 reviews: 4
@@ -28,6 +28,7 @@ social:
 - https://ctpay.io
 redirect_from: 
 developerName: CC Code
+builds: 
 features: 
 
 ---

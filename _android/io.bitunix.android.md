@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/bitunix.official
 redirect_from: 
 developerName: Bitunix
+builds: 
 features: 
 
 ---

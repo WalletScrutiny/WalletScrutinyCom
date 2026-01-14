@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/getflash-io
 redirect_from: 
 developerName: Island Bitcoin
+builds: 
 features: 
 
 ---

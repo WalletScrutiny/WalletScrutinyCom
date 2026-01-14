@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/fondexglobal
 redirect_from: 
 developerName: Fondex
+builds: 
 features: 
 
 ---

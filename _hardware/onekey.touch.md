@@ -33,6 +33,7 @@ signer:
 twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv
+builds: 
 features: 
 
 ---

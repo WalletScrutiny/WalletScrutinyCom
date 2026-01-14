@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coinbaazarDistribution.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: 2026-01-08
 signer: 
 twitter: coin_baazar
 social:

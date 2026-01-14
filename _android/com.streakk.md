@@ -31,6 +31,7 @@ social:
 - https://medium.com/@streakkofficial
 redirect_from: 
 developerName: Streakk Technologies
+builds: 
 features: 
 
 ---

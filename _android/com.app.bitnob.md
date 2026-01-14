@@ -8,8 +8,8 @@ users: 100000
 appId: com.app.bitnob
 appCountry: us
 released: 2020-05-25
-updated: 2025-10-07
-version: 1.189.7
+updated: 2026-01-01
+version: 1.189.9
 stars: 3.9
 ratings: 275
 reviews: 38
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitnob
 redirect_from: 
 developerName: Bitnob Technologies
+builds: 
 features:
 - ln
 

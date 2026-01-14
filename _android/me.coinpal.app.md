@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinpal.me
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

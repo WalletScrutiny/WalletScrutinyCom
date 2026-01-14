@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ZipmexThailand
 redirect_from: 
 developerName: Zipmex
+builds: 
 features: 
 
 ---

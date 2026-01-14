@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CounosPlatform
 redirect_from: 
 developerName: ZeroCash
+builds: 
 features: 
 
 ---

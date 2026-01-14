@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/itezofficial
 redirect_from: 
 developerName: DataBridge OU
+builds: 
 features: 
 
 ---

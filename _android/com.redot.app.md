@@ -4,7 +4,7 @@ title: 'Redot: ETH&BTC Crypto Exchange'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.redot.app
 appCountry: 
 released: 2020-03-03
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/redot_com
 redirect_from: 
 developerName: Redot.com
+builds: 
 features: 
 
 ---

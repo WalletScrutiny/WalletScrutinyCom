@@ -28,6 +28,7 @@ social:
 - https://www.bitone.trade
 redirect_from: 
 developerName: BitOne
+builds: 
 features: 
 
 ---

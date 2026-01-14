@@ -8,11 +8,11 @@ users: 5000
 appId: com.myecurrency
 appCountry: 
 released: 2022-05-20
-updated: 2025-10-23
-version: 2.5.3
+updated: 2025-11-12
+version: 2.5.5
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 website: http://myecurrencyng.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/myecurrency01
 redirect_from: 
 developerName: MyEcurrency Nigeria Limited
+builds: 
 features: 
 
 ---

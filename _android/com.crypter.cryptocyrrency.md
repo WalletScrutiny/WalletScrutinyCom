@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-09-09
 updated: 2025-10-27
 version: 3.6.9
-stars: 4.2
+stars: 4.3
 ratings: 78687
-reviews: 2700
+reviews: 2701
 website: https://thecrypto.app
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/TrustSwap
 redirect_from: 
 developerName: The Crypto App - TrustSwap
+builds: 
 features: 
 
 ---

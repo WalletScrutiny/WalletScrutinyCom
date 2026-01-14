@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-05-16
 discontinued: 
-updated: 2025-10-07
-version: 6.19.0
+updated: 2025-12-10
+version: 6.21.0
 binaries: 
 provider: Coin Wallet
 providerWebsite: 
@@ -22,6 +22,7 @@ twitter: CoinAppWallet
 social:
 - https://www.facebook.com/coinappwallet/
 - https://www.linkedin.com/company/coin-space/
+builds: 
 features: 
 
 ---

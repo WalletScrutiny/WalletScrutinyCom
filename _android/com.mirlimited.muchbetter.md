@@ -8,11 +8,11 @@ users: 1000000
 appId: com.mirlimited.muchbetter
 appCountry: gb
 released: 2017-05-30
-updated: 2025-08-19
-version: 4.29.0
-stars: 3.1
+updated: 2025-12-17
+version: 4.30.0
+stars: 3
 ratings: 10117
-reviews: 166
+reviews: 169
 website: https://www.muchbetter.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/paymuchbetter
 redirect_from: 
 developerName: Rtekk Holdings Limited
+builds: 
 features: 
 
 ---

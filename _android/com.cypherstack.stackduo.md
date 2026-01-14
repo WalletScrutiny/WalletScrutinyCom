@@ -8,8 +8,8 @@ users: 500
 appId: com.cypherstack.stackduo
 appCountry: 
 released: 2024-06-29
-updated: 2025-10-22
-version: 1.3.0
+updated: 2025-11-26
+version: 2.4.2
 stars: 
 ratings: 
 reviews: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 redirect_from: 
 developerName: Cypher Stack Team
+builds: 
 features: 
 
 ---

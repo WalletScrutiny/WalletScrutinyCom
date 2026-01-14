@@ -33,6 +33,7 @@ redirect_from:
 - /posts/2019/11/cobo/
 - /posts/cobo.wallet/
 developerName: Cobo Ltd - Crypto Wallet for BTC, ETH, EOS, VET.
+builds: 
 features: 
 
 ---

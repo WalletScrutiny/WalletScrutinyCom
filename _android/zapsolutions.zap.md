@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /posts/zapsolutions.zap/
 developerName: LN OSS
+builds: 
 features:
 - ln
 

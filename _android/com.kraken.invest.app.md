@@ -8,11 +8,11 @@ users: 5000000
 appId: com.kraken.invest.app
 appCountry: 
 released: 2020-12-30
-updated: 2025-10-31
-version: 3.40.0
-stars: 4.3
+updated: 2025-12-21
+version: 3.46.47
+stars: 4.5
 ratings: 15716
-reviews: 6650
+reviews: 7219
 website: https://www.kraken.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Kraken
 redirect_from: 
 developerName: Payward, Inc.
+builds: 
 features:
 - ln
 

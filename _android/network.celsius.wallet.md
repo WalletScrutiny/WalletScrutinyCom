@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /network.celsius.wallet/
 developerName: Celsius Network Crypto Wallet
+builds: 
 features: 
 
 ---

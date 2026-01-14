@@ -8,11 +8,11 @@ users: 10000
 appId: com.black.android
 appCountry: 
 released: 2021-07-09
-updated: 2025-09-25
-version: '66'
-stars: 2.8
+updated: 2025-12-30
+version: '72'
+stars: 2.9
 ratings: 
-reviews: 5
+reviews: 6
 website: https://black.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: black.com GmbH
+builds: 
 features: 
 
 ---

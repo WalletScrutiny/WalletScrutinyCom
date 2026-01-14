@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/zabira/about
 redirect_from: 
 developerName: Zabira
+builds: 
 features: 
 
 ---

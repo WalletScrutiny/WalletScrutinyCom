@@ -30,6 +30,7 @@ social:
 - https://t.me/wxnetwork
 redirect_from: 
 developerName: WX Development LTD.
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://t.me/catecoin
 redirect_from: 
 developerName: Catecoin
+builds: 
 features: 
 
 ---

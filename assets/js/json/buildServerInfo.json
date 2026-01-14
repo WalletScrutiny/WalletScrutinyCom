@@ -5,22 +5,13 @@ layout: compress
   "hardware": {
     {% for post in site.hardware %}
     "{{ post.appId }}": {
-      "architectures": {{ post.architectures | jsonify }},
-      "types": {{ post.types | jsonify }}
+      "builds": {{ post.builds | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
   },
   "desktop": {
     {% for post in site.desktop %}
     "{{ post.appId }}": {
-      "architectures": {{ post.architectures | jsonify }},
-      "types": {{ post.types | jsonify }}
-    }{% unless forloop.last %},{% endunless %}{% endfor %}
-  },
-  "android": {
-    {% for post in site.android %}
-    "{{ post.appId }}": {
-      "architectures": {{ post.architectures | jsonify }},
-      "types": {{ post.types | jsonify }}
+      "builds": {{ post.builds | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
   }
 }

@@ -8,8 +8,8 @@ users: 10000
 appId: com.thehumanplus.shuffle
 appCountry: 
 released: 2020-04-06
-updated: 2024-11-01
-version: 2.0.2
+updated: 2025-11-06
+version: 2.0.3
 stars: 4
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-11-05
+date: 2025-11-26
 signer: 
 twitter: hupayx
 social:
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 redirect_from: 
 developerName: HUPAYX
+builds: 
 features: 
 
 ---

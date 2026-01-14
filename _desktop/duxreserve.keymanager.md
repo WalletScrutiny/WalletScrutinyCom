@@ -28,6 +28,7 @@ social:
 - https://discord.gg/vkeDXNZtUJ
 - https://t.me/DuxReserve
 - https://primal.net/p/npub135h85yum7xvj93x3a5zlts08c3f2fnlg9lyxhqqdv7e9nhg5mtkskndm5d
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://discord.com/invite/hNGkFeQHQD
 redirect_from: 
 developerName: usenobi
+builds: 
 features: 
 
 ---

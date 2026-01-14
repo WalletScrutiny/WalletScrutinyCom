@@ -4,15 +4,15 @@ title: TronLink Global
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.tronlink.global
 appCountry: 
 released: 2022-11-09
-updated: 2025-10-22
-version: 4.18.1
+updated: 2025-12-16
+version: 4.19.0
 stars: 4
 ratings: 
-reviews: 64
+reviews: 65
 website: https://www.tronlink.org
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: HELIX TECH COMPANY LIMITED
+builds: 
 features: 
 
 ---

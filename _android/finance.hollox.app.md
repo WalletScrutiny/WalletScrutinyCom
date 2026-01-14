@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/holloxintl
 redirect_from: 
 developerName: XOXO TECHNOLOGIES LIMITED
+builds: 
 features: 
 
 ---

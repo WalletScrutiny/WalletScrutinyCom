@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/coinloan
 redirect_from: 
 developerName: CoinLoan
+builds: 
 features: 
 
 ---

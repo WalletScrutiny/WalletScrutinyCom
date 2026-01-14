@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/MoonXBT
 redirect_from: 
 developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
+builds: 
 features: 
 
 ---

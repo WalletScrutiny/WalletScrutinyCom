@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/exonyxir
 redirect_from: 
 developerName: Exonyx
+builds: 
 features: 
 
 ---

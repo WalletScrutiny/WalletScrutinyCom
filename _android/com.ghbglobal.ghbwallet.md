@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCmtoOoY_KrU-12ke92zhG4Q
 redirect_from: 
 developerName: AI PROGRAM
+builds: 
 features: 
 
 ---

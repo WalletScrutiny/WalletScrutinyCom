@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitleaguegroup
 redirect_from: 
 developerName: BITLEAGUE LLC
+builds: 
 features: 
 
 ---

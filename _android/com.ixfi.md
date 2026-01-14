@@ -8,8 +8,8 @@ users: 100000
 appId: com.ixfi
 appCountry: 
 released: 2022-01-19
-updated: 2025-10-31
-version: 1.10.19
+updated: 2025-11-21
+version: 1.10.20
 stars: 4.7
 ratings: 
 reviews: 64
@@ -34,6 +34,7 @@ social:
 - https://discord.com/invite/ixfiexchange
 redirect_from: 
 developerName: IXFI Crypto World
+builds: 
 features: 
 
 ---

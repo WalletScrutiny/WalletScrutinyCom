@@ -4,7 +4,7 @@ title: Bitkap
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: net.bitkap.frontEnd
 appCountry: 
 released: 2021-11-21
@@ -30,6 +30,7 @@ social:
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
 redirect_from: 
 developerName: bitkap group
+builds: 
 features: 
 
 ---

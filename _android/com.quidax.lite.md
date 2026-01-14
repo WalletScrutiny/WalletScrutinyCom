@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/quidaxglobal
 redirect_from: 
 developerName: Quidax Technologies
+builds: 
 features: 
 
 ---

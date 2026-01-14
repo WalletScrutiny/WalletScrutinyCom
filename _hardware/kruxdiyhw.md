@@ -29,6 +29,7 @@ twitter: selfcustodykrux
 social:
 - https://t.me/SC_Krux
 - https://bitcointalk.org/index.php?topic=5350905.0
+builds: 
 features:
 - multiSignature
 

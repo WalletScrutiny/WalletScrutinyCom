@@ -8,8 +8,8 @@ users: 100000
 appId: br.com.peerbr
 appCountry: 
 released: 2019-05-24
-updated: 2025-10-29
-version: 7.0.1
+updated: 2025-12-20
+version: 7.2.4
 stars: 4.4
 ratings: 
 reviews: 3
@@ -31,6 +31,7 @@ social:
 - https://www.tiktok.com/@peer_br
 redirect_from: 
 developerName: Grupo GCB
+builds: 
 features: 
 
 ---

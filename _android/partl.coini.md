@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /partl.coini/
 developerName: Timo Partl
+builds: 
 features: 
 
 ---

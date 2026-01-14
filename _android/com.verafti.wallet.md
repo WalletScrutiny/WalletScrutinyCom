@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/vera-token-74a925218
 redirect_from: 
 developerName: VeraFTI
+builds: 
 features: 
 
 ---

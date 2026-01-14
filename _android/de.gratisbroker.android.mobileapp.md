@@ -4,12 +4,12 @@ title: finanzen.net zero Aktien & ETF
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: de.gratisbroker.android.mobileapp
 appCountry: 
 released: 2021-06-02
-updated: 2025-10-29
-version: 5.8.2
+updated: 2025-12-22
+version: 5.11.4
 stars: 3.9
 ratings: 
 reviews: 9
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 
 developerName: finanzen.net zero GmbH
+builds: 
 features: 
 
 ---

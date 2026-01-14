@@ -10,8 +10,8 @@ idd: '1633406472'
 released: 2023-02-28
 updated: 2025-07-08
 version: 2.5.0
-stars: 4.7
-reviews: 80
+stars: 4.6
+reviews: 81
 website: https://slingshot.app/
 repository: 
 issue: 

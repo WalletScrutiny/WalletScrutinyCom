@@ -1,15 +1,15 @@
 ---
 wsId: stablexKripto
-title: Stablex | Kripto Para Al-Sat
+title: Stablex | Bitcoin & Kripto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.stablex
 appCountry: 
 released: 2021-10-27
-updated: 2025-10-29
-version: 3.0.30
+updated: 2026-01-05
+version: 3.0.41
 stars: 3.1
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/stablex-net
 redirect_from: 
 developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
+builds: 
 features: 
 
 ---

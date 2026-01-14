@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bitstampexchange
 redirect_from: 
 developerName: Bitstamp
+builds: 
 features: 
 
 ---

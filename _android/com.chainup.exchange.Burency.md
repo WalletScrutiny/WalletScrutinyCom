@@ -28,6 +28,7 @@ social:
 - https://medium.com/@BurencyOfficial
 redirect_from: 
 developerName: Burency Global
+builds: 
 features: 
 
 ---

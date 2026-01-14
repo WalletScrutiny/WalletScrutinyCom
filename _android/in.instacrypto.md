@@ -31,6 +31,7 @@ social:
 - https://t.me/instacryptoin
 redirect_from: 
 developerName: InstaCrypto
+builds: 
 features: 
 
 ---

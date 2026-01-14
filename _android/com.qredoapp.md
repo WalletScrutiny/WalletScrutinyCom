@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/qredo/
 redirect_from: 
 developerName: Fusion Laboratories Ltd
+builds: 
 features: 
 
 ---

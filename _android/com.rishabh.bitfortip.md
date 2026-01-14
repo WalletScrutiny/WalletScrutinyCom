@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitfortip
 redirect_from: 
 developerName: Bitfortip
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/MathWallet
 redirect_from: 
 developerName: Math Global
+builds: 
 features:
 - segwit
 - taproot

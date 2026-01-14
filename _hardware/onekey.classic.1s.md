@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-04-01
 discontinued: 
-updated: 2025-08-20
-version: 3.12.1
+updated: 2026-01-07
+version: 3.17.0-btc
 binaries: 
 dimensions:
 - 86
@@ -31,6 +31,7 @@ signer:
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
+builds: 
 features: 
 
 ---

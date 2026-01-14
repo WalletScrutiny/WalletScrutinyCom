@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitYardofficial
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

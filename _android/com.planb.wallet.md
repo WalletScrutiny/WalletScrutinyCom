@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PlanB Wallet Developers
+builds: 
 features: 
 
 ---

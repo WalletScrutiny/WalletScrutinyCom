@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/FinWhaleX
 redirect_from: 
 developerName: FinWhaleX PTE. LTD.
+builds: 
 features: 
 
 ---

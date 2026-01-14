@@ -8,8 +8,8 @@ users: 500000
 appId: com.satang.pro
 appCountry: 
 released: 2020-04-12
-updated: 2025-10-21
-version: 2.16.2
+updated: 2025-12-12
+version: 2.16.24
 stars: 3.7
 ratings: 
 reviews: 4
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/satang.official/
 redirect_from: 
 developerName: Orbix Trade Co., Ltd.
+builds: 
 features: 
 
 ---

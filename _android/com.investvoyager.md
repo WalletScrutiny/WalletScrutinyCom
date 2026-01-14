@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.investvoyager/
 developerName: Voyager Digital, LLC
+builds: 
 features: 
 
 ---

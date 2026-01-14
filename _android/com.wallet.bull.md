@@ -29,6 +29,7 @@ social:
 - https://github.com/BullCoinFinance
 redirect_from: 
 developerName: BULL FINANCE
+builds: 
 features: 
 
 ---

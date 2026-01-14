@@ -7,8 +7,8 @@ users: 100
 appId: mobile.lmex.io
 appCountry: 
 released: 2022-11-14
-updated: 2025-10-22
-version: 1.12.0
+updated: 2026-01-06
+version: 1.15.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: LMEX Limited
+builds: 
 features: 
 
 ---

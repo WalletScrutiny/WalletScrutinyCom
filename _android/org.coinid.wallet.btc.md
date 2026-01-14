@@ -29,6 +29,7 @@ redirect_from:
 - /org.coinid.wallet.btc/
 - /posts/org.coinid.wallet.btc/
 developerName: COINiD Group
+builds: 
 features: 
 
 ---

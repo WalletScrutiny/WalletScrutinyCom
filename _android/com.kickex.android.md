@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.kickex.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-02-16
+date: 2026-01-08
 signer: 
 twitter: kickexcom
 social:
@@ -30,6 +30,7 @@ social:
 - https://kickecosystem.medium.com
 redirect_from: 
 developerName: LLC KICK ECOSYSTEM GLOBAL
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 10000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
-updated: 2025-11-01
-version: 1.4.5
-stars: 4.5
+updated: 2026-01-03
+version: 1.4.7
+stars: 4.6
 ratings: 
-reviews: 33
+reviews: 35
 website: https://bitoshi.africa
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://t.me/+c4ek89XILkc2OTk8
 redirect_from: 
 developerName: Bitoshi Africa
+builds: 
 features: 
 
 ---

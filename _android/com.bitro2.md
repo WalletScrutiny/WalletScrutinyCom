@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCvF95zGgUlY2G6Lkb1GO-fw
 redirect_from: 
 developerName: Gameper
+builds: 
 features: 
 
 ---

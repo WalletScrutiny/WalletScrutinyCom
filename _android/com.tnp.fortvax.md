@@ -7,8 +7,8 @@ users: 100
 appId: com.tnp.fortvax
 appCountry: 
 released: 2022-04-19
-updated: 2025-09-15
-version: 1.2.9
+updated: 2025-12-16
+version: 1.3.2
 stars: 4.2
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: 台灣銘板
+builds: 
 features: 
 
 ---

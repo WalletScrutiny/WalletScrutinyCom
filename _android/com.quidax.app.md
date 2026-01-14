@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/quidaxafrica
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

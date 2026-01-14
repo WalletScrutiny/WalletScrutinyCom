@@ -8,10 +8,10 @@ appId: com.btcpool.app.ios
 appCountry: us
 idd: 1490997527
 released: 2020-01-21
-updated: 2025-07-31
-version: 2.4.6
-stars: 3.5
-reviews: 12
+updated: 2025-11-24
+version: 2.4.7
+stars: 3.6
+reviews: 13
 website: https://cloverpool.com/
 repository: 
 issue: 

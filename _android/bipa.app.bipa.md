@@ -1,6 +1,6 @@
 ---
 wsId: bipaBR
-title: Bipa - Cartão, Pix & Bitcoin
+title: Bipa - Bitcoin, Cartão e Pix
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
-updated: 2025-11-02
-version: 4.1.10
+updated: 2026-01-03
+version: 4.1.25
 stars: 4.6
 ratings: 
 reviews: 13
@@ -27,6 +27,7 @@ twitter: usebipa
 social: 
 redirect_from: 
 developerName: Bipa
+builds: 
 features: 
 
 ---

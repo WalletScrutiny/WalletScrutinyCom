@@ -28,6 +28,7 @@ social:
 - https://hotscoin.com
 redirect_from: 
 developerName: KX Network Co., Ltd.
+builds: 
 features: 
 
 ---

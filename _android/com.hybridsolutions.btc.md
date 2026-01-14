@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/VertexFXTrader
 redirect_from: 
 developerName: Hybrid Solutions - VertexFX Trader
+builds: 
 features: 
 
 ---

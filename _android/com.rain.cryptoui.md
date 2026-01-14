@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.rain.cryptoui.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-11-05
+date: 2026-01-08
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Rain Infotech Private Limited
+builds: 
 features: 
 
 ---

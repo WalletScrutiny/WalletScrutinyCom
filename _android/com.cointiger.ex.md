@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/CoinTigerExchange
 redirect_from: 
 developerName: CoinTiger Inc.
+builds: 
 features: 
 
 ---

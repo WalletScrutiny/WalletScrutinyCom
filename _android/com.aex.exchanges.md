@@ -32,6 +32,7 @@ social:
 - https://www.linkedin.com/company/openex-hq
 redirect_from: 
 developerName: OPENEX TECHNOLOGY PTE.LTD.
+builds: 
 features: 
 
 ---

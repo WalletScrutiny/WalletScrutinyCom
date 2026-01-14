@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/amonwallet
 redirect_from: 
 developerName: Amon OÜ
+builds: 
 features: 
 
 ---

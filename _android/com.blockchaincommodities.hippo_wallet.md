@@ -36,6 +36,7 @@ social:
 - https://medium.com/@hippowallet
 redirect_from: 
 developerName: Blockchain Commodities
+builds: 
 features: 
 
 ---

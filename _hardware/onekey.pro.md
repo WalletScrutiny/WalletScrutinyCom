@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-03-05
 discontinued: 
-updated: 2025-01-06
-version: 4.16.1
+updated: 2025-12-17
+version: 4.18.0-btc
 binaries: 
 dimensions:
 - 90
@@ -34,6 +34,7 @@ twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 - https://www.youtube.com/@onekeyhq
+builds: 
 features: 
 
 ---

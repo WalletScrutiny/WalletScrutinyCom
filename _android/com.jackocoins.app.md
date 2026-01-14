@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/jackocoins
 redirect_from: 
 developerName: Jackocoins
+builds: 
 features: 
 
 ---

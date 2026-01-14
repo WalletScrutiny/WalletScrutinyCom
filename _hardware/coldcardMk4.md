@@ -36,6 +36,7 @@ signer:
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
+builds: 
 features: 
 
 ---

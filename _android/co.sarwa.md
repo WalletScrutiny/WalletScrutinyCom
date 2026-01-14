@@ -8,8 +8,8 @@ users: 100000
 appId: co.sarwa
 appCountry: 
 released: 2021-04-04
-updated: 2025-10-30
-version: 6.2.0
+updated: 2025-11-17
+version: 7.2.0
 stars: 3.9
 ratings: 
 reviews: 18
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/sarwa.co
 redirect_from: 
 developerName: Sarwa Digital Wealth
+builds: 
 features: 
 
 ---

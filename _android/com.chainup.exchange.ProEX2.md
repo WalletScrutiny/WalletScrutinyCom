@@ -32,6 +32,7 @@ social:
 - https://www.proex.io
 redirect_from: 
 developerName: ProEX
+builds: 
 features: 
 
 ---

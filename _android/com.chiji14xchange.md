@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/myrocketapp
 redirect_from: 
 developerName: Chiji14xchange
+builds: 
 features: 
 
 ---

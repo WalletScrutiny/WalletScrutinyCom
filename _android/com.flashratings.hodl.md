@@ -8,25 +8,26 @@ users: 100000
 appId: com.flashratings.hodl
 appCountry: 
 released: 2018-07-24
-updated: 2023-09-16
-version: '9.11'
+updated: 2025-12-30
+version: '9.27'
 stars: 4.4
 ratings: 
-reviews: 481
+reviews: 480
 website: http://www.hodlfinance.com
 repository: 
 issue: 
 icon: com.flashratings.hodl.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2025-09-09
+date: 2026-01-08
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: HODL Media Inc.
+builds: 
 features: 
 
 ---

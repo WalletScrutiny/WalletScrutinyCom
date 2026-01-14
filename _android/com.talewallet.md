@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/tbs47P7gDW
 redirect_from: 
 developerName: Tale Wallet
+builds: 
 features: 
 
 ---

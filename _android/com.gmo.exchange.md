@@ -8,8 +8,8 @@ users: 10000
 appId: com.gmo.exchange
 appCountry: th
 released: 2020-08-07
-updated: 2025-10-06
-version: 3.2.3
+updated: 2025-12-08
+version: 3.2.5
 stars: 4
 ratings: 82
 reviews: 34
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ZcomCrypto
 redirect_from: 
 developerName: GMO-Z.com Cryptonomics Ltd. Thailand
+builds: 
 features: 
 
 ---

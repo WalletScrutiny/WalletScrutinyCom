@@ -18,10 +18,10 @@ repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: []
-date: 2024-03-12
+date: 2025-12-15
 signer: 
 twitter: BRDHQ
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/brdapp
 redirect_from: 
 developerName: breadwallet
+builds: 
 features: 
 
 ---

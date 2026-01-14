@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/c/ADAMANTMessenger
 redirect_from: 
 developerName: ADAMANT Foundation
+builds: 
 features: 
 
 ---

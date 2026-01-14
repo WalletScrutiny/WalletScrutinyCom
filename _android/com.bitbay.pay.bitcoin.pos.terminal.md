@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/zondaglobal/
 redirect_from: 
 developerName: BB Trade Estonia
+builds: 
 features: 
 
 ---

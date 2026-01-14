@@ -32,6 +32,7 @@ twitter: TwentyTwoHW
 social:
 - nostr:npub1n3h6vcu0vj4jw70m8p457vk3uq44zz0jc5r6d09chtks6xxyu0gq9s2j0t
 - https://t.me/TwentyTwoHW
+builds: 
 features:
 - nfc
 - monochrome-display

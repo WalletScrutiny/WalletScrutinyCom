@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitcoin Wallet developers
+builds: 
 features: 
 
 ---

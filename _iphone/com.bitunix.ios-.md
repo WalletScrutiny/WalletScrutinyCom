@@ -1,6 +1,6 @@
 ---
 wsId: bitunix
-title: 'Bitunix: Crypto & BTC Trading'
+title: 'Bitunix: Trade Crypto, Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitunix.ios-
 appCountry: us
 idd: '6446243957'
 released: 2023-04-11
-updated: 2025-11-04
-version: 3.7.0
-stars: 4.15175
-reviews: 257
-website: ''
+updated: 2025-12-10
+version: 3.10.0
+stars: 4.1
+reviews: 286
+website: 
 repository: 
 issue: 
 icon: com.bitunix.ios-.jpg

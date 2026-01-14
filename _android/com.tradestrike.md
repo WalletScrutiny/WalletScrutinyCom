@@ -8,11 +8,11 @@ users: 10000
 appId: com.tradestrike
 appCountry: 
 released: 2022-09-26
-updated: 2025-03-17
-version: 4.2.4
-stars: 4.1
+updated: 2025-11-13
+version: 4.2.8
+stars: 4
 ratings: 
-reviews: 26
+reviews: 27
 website: https://tradestrike.io/strikex-wallet/
 repository: 
 issue: 
@@ -33,6 +33,7 @@ social:
 - https://discord.com/invite/tradestrike
 redirect_from: 
 developerName: TradestrikeBVI
+builds: 
 features: 
 
 ---

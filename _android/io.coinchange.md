@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.coinchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-25
+date: 2025-11-26
 signer: 
 twitter: coinchangeio
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
 redirect_from: 
 developerName: Coinchange  Financials Inc.
+builds: 
 features: 
 
 ---

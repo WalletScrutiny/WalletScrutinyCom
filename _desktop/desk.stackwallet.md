@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2023-03-12
 discontinued: 
-updated: 2025-10-30
-version: 2.4.1
+updated: 2025-11-28
+version: 2.4.2
 binaries: 
 provider: Cypher Stack
 providerWebsite: 
@@ -23,6 +23,7 @@ social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 - https://www.reddit.com/r/stackwallet
 - https://discord.com/invite/mRPZuXx3At
+builds: 
 features: 
 
 ---

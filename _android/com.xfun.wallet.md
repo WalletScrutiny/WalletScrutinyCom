@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/e7vfgKbEKU
 redirect_from: 
 developerName: Funtech Ltd
+builds: 
 features: 
 
 ---

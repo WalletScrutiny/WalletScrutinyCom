@@ -11,9 +11,9 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2025-10-13
-version: 0.11.6
-stars: 4.3
+updated: 2026-01-04
+version: 0.12.1
+stars: 4.2
 ratings: 45
 reviews: 37
 website: https://zeusln.com
@@ -35,6 +35,7 @@ redirect_from:
 - /app.zeusln.zeus/
 - /posts/app.zeusln.zeus/
 developerName: Atlas 21 Inc.
+builds: 
 features:
 - ln
 

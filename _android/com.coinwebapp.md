@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinwebapp
 appCountry: 
 released: 2023-04-28
-updated: 2025-04-03
-version: 1.1.5
+updated: 2025-12-30
+version: 1.2.3
 stars: 4.3
 ratings: 
 reviews: 3
@@ -29,6 +29,7 @@ social:
 - https://discord.com/invite/cWSQD3wJqY
 redirect_from: 
 developerName: Coinweb
+builds: 
 features: 
 
 ---

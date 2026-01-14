@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Fuzewcard
 redirect_from: 
 developerName: BrilliantTS
+builds: 
 features: 
 
 ---

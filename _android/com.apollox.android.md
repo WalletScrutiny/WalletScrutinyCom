@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/apollox_finance
 redirect_from: 
 developerName: APX TECH PTD LTD
+builds: 
 features: 
 
 ---

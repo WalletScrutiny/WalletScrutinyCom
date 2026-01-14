@@ -30,6 +30,7 @@ redirect_from:
 - /tech.insense.sensewalet/
 - /posts/tech.insense.sensewalet/
 developerName: 
+builds: 
 features: 
 
 ---

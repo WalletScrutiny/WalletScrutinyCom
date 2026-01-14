@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bitcoinasia/
 redirect_from: 
 developerName: The Blockjet Technologies
+builds: 
 features: 
 
 ---

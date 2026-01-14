@@ -26,7 +26,8 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Gleec BTC OU
+developerName: Gleec Holding OU
+builds: 
 features: 
 
 ---

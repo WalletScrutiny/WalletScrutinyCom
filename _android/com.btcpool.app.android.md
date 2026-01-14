@@ -8,11 +8,11 @@ users: 100000
 appId: com.btcpool.app.android
 appCountry: us
 released: 2020-02-25
-updated: 2025-07-31
-version: 2.4.6
-stars: 4
+updated: 2025-11-21
+version: 2.4.7
+stars: 3.9
 ratings: 261
-reviews: 31
+reviews: 32
 website: https://cloverpool.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/btccom
 redirect_from: 
 developerName: CloverPool Team
+builds: 
 features: 
 
 ---

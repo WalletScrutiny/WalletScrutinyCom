@@ -28,6 +28,7 @@ social:
 - https://t.me/SquirrelTech
 redirect_from: 
 developerName: Squirrel Wallet
+builds: 
 features: 
 
 ---

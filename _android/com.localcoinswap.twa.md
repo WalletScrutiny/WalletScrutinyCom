@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCfUR13Y6dzv84EPG9uY1BUA
 redirect_from: 
 developerName: LocalCoinSwap
+builds: 
 features: 
 
 ---

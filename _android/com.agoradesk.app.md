@@ -29,6 +29,7 @@ social:
 - https://t.me/AgoraDesk
 redirect_from: 
 developerName: LocalMonero / AgoraDesk
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 100000
 appId: com.avaxwallet
 appCountry: 
 released: 2022-08-30
-updated: 2025-10-30
-version: 1.0.15
-stars: 4.1
+updated: 2025-12-02
+version: 1.0.17
+stars: 4
 ratings: 
-reviews: 125
+reviews: 133
 website: http://core.app
 repository: 
 issue: 
@@ -33,6 +33,7 @@ social:
 - https://www.facebook.com/corewallet
 redirect_from: 
 developerName: Ava Labs, Inc.
+builds: 
 features: 
 
 ---

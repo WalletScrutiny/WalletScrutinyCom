@@ -30,6 +30,7 @@ social:
 - https://t.me/quadency
 redirect_from: 
 developerName: Quadency
+builds: 
 features: 
 
 ---

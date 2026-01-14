@@ -32,6 +32,7 @@ social:
 - https://t.me/zeniq_hub
 redirect_from: 
 developerName: ZENIQ Technologies FZ LLC
+builds: 
 features: 
 
 ---

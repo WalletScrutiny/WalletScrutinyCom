@@ -8,11 +8,11 @@ users: 100000
 appId: com.kraken.superwallet
 appCountry: 
 released: 2024-04-11
-updated: 2025-09-23
-version: 1.22.0 (1)
-stars: 4.5
+updated: 2025-11-20
+version: 1.24.0 (9)
+stars: 4.7
 ratings: 
-reviews: 103
+reviews: 111
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: https://github.com/krakenfx/wallet/discussions/59
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Kraken
 redirect_from: 
 developerName: Payward, Inc.
+builds: 
 features: 
 
 ---

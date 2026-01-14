@@ -28,6 +28,7 @@ social:
 - https://medium.com/@iTokenWalletOfficial
 redirect_from: 
 developerName: BlazekTech Internet Technology Service Limited
+builds: 
 features: 
 
 ---

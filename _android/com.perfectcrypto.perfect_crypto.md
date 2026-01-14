@@ -27,6 +27,7 @@ twitter: irPerfectCrypto
 social: 
 redirect_from: 
 developerName: Perfect Crypto
+builds: 
 features: 
 
 ---

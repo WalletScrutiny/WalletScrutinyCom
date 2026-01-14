@@ -9,11 +9,11 @@ users: 100000
 appId: com.zelcash.zelcore
 appCountry: 
 released: 2018-09-21
-updated: 2025-10-31
-version: 8.22.0
+updated: 2026-01-07
+version: 8.25.0
 stars: 3.3
 ratings: 834
-reviews: 141
+reviews: 140
 website: https://zelcore.io
 repository: 
 issue: 
@@ -31,6 +31,7 @@ redirect_from:
 - /com.zelcash.zelcore/
 - /posts/com.zelcash.zelcore/
 developerName: Influx Technologies Limited
+builds: 
 features: 
 
 ---

@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Halal Solutions yazilim ve ticaret Anonim Sirketi
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitgatex
 redirect_from: 
 developerName: BitSpace
+builds: 
 features: 
 
 ---

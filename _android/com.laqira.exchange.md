@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/in/laqira-protocol-295a6b222
 redirect_from: 
 developerName: Laqira Protocol
+builds: 
 features: 
 
 ---

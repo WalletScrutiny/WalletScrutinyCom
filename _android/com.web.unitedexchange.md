@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/UnitedExchange.io
 redirect_from: 
 developerName: United Exchange
+builds: 
 features: 
 
 ---

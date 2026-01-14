@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/dTt4Ke3
 redirect_from: 
 developerName: XGo
+builds: 
 features: 
 
 ---

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.fxoro.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-08-15
+date: 2025-11-26
 signer: 
 twitter: 
 social:
@@ -29,6 +29,7 @@ social:
 - https://t.me/fxoro_official
 redirect_from: 
 developerName: MCA Intelifunds LTD
+builds: 
 features: 
 
 ---

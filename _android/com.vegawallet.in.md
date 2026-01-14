@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/VegaWallet
 redirect_from: 
 developerName: Vegawallet
+builds: 
 features: 
 
 ---

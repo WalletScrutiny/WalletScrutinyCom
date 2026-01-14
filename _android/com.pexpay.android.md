@@ -31,6 +31,7 @@ social:
 - https://vk.com/pexpayofficial
 redirect_from: 
 developerName: Pexpay
+builds: 
 features: 
 
 ---

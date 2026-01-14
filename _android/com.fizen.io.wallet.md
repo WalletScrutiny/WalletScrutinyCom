@@ -1,6 +1,6 @@
 ---
 wsId: fizenWallet
-title: Fizen Super App
+title: 'Fizen: Crypto Pay & Travel'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: com.fizen.io.wallet
 appCountry: 
 released: 2022-02-25
-updated: 2025-11-03
-version: 2.8.8
-stars: 4.5
+updated: 2025-12-17
+version: 2.9.6
+stars: 4.1
 ratings: 
-reviews: 2
+reviews: 3
 website: https://fizen.io
 repository: 
 issue: 
@@ -30,7 +30,8 @@ social:
 - https://www.instagram.com/fizen.io/
 - https://t.me/fizen_io
 redirect_from: 
-developerName: Fizen.IO
+developerName: Fizen Ltd
+builds: 
 features: 
 
 ---

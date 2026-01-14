@@ -1,6 +1,6 @@
 ---
 wsId: speedBitcoinWallet
-title: Speed Bitcoin Wallet
+title: 'Speed Wallet: Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.app.speed1
 appCountry: us
 idd: '6462426281'
 released: 2023-08-24
-updated: 2025-10-02
-version: 1.13.5
+updated: 2026-01-07
+version: 1.13.10
 stars: 4.7
-reviews: 886
+reviews: 961
 website: https://www.speed.app/
 repository: 
 issue: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.indoex.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-25
+date: 2025-11-26
 signer: 
 twitter: Indoex_LTD
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Indoex.official
 redirect_from: 
 developerName: IndoEx
+builds: 
 features: 
 
 ---

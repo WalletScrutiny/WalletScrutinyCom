@@ -18,16 +18,17 @@ repository:
 issue: 
 icon: com.app.bitay.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-19
+date: 2025-11-26
 signer: 
 twitter: BitayTurkiye
 social:
 - https://www.facebook.com/bitayturkiye
 redirect_from: 
 developerName: Bitay Technology
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/xinfinityholding/
 redirect_from: 
 developerName: X INFINITY
+builds: 
 features: 
 
 ---

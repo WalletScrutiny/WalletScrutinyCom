@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: com.smartvalor.smartvalor.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-28
+date: 2025-11-26
 signer: 
 twitter: smartvalorinc
 social: 
 redirect_from: 
 developerName: Smart Valor
+builds: 
 features: 
 
 ---

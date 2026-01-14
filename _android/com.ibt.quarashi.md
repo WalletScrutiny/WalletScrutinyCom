@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/Quarashinetwork
 redirect_from: 
 developerName: Quarashi.Network
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 100000
 appId: com.deepcoin.app.global
 appCountry: 
 released: 2020-12-08
-updated: 2025-10-22
-version: 7.5.87
+updated: 2026-01-04
+version: 7.6.19
 stars: 4.1
 ratings: 
 reviews: 26
@@ -27,7 +27,8 @@ twitter:
 social:
 - https://www.linkedin.com/company/deepcoinpro/
 redirect_from: 
-developerName: DEEPCOIN PTE.LTD
+developerName: DEEPCOIN
+builds: 
 features: 
 
 ---

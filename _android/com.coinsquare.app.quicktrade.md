@@ -8,7 +8,7 @@ users: 100000
 appId: com.coinsquare.app.quicktrade
 appCountry: 
 released: 2022-11-02
-updated: 2025-10-28
+updated: 2025-12-05
 version: 5.3.2
 stars: 4.3
 ratings: 
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/coinsquare
 redirect_from: 
 developerName: Bitbuy
+builds: 
 features: 
 
 ---

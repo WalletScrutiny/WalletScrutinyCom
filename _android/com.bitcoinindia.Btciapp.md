@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.bitcoinindia.Btciapp/
 developerName: 
+builds: 
 features: 
 
 ---

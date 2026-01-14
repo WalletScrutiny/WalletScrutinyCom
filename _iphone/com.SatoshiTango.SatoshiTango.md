@@ -9,11 +9,11 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: jp
 idd: '1002555958'
 released: 2015-07-08
-updated: 2025-10-31
-version: 5.9.0
+updated: 2026-01-07
+version: 5.10.0
 stars: 4.5
 reviews: 2
-website: http://www.satoshitango.com
+website: https://www.satoshitango.com/
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
@@ -27,7 +27,7 @@ twitter: satoshitango
 social:
 - https://www.facebook.com/satoshitangoargentina
 features: 
-developerName: SatoshiTango
+developerName: Satoshi Tango
 
 ---
 

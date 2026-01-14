@@ -29,6 +29,7 @@ redirect_from:
 - /ru.valle.btc/
 - /posts/ru.valle.btc/
 developerName: FireEdge
+builds: 
 features: 
 
 ---

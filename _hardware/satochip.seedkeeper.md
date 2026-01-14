@@ -31,6 +31,7 @@ signer:
 twitter: satochipwallet
 social:
 - https://www.linkedin.com/company/satochip/
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from: 
 developerName: KOOMPI
+builds: 
 features: 
 
 ---

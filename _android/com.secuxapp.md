@@ -12,7 +12,7 @@ updated: 2025-08-20
 version: 1.31.7
 stars: 3
 ratings: 
-reviews: 39
+reviews: 38
 website: https://secuxtech.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/secuxtech
 redirect_from: 
 developerName: SecuX
+builds: 
 features: 
 
 ---

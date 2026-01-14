@@ -19,10 +19,10 @@ repository: https://github.com/mintlayer/mojito_mobile_wallet
 issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2024-12-21
+date: 2025-12-15
 signer: 
 twitter: mintlayer
 social:
@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/channel/UCVVpaPry8xZS47pPBmS4rnA/videos
 redirect_from: 
 developerName: RBB SRL
+builds: 
 features: 
 
 ---

@@ -11,9 +11,9 @@ appCountry: sv
 released: 2021-09-06
 updated: 2025-08-28
 version: 3.0.0
-stars: 2.7
+stars: 2.8
 ratings: 27085
-reviews: 14188
+reviews: 14212
 website: https://www.chivowallet.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ChivoWalletSLV
 redirect_from: 
 developerName: Gobierno de El Salvador
+builds: 
 features: 
 
 ---

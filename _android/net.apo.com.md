@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Ifastbit Foreign Exchange
+builds: 
 features: 
 
 ---

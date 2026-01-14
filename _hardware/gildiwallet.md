@@ -28,6 +28,7 @@ signer:
 twitter: GILDIWallet
 social:
 - https://www.facebook.com/GILDIWallet
+builds: 
 features: 
 
 ---

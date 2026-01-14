@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/Y5qRdgb
 redirect_from: 
 developerName: SOWAKA PTE.LTD.
+builds: 
 features: 
 
 ---

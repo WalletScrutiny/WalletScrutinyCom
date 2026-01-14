@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /io.ob1.nativeandroid/
 developerName: 
+builds: 
 features: 
 
 ---

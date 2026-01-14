@@ -7,8 +7,8 @@ users: 100
 appId: com.quantiamobile
 appCountry: 
 released: 2022-07-19
-updated: 2025-10-27
-version: 3.0.12
+updated: 2025-12-24
+version: 3.0.16
 stars: 4.1
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Quantia.io
+builds: 
 features: 
 
 ---

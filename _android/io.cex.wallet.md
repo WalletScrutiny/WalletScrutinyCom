@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/cex-io/
 redirect_from: 
 developerName: CEX.IO
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/xcoex
 redirect_from: 
 developerName: XCOEX
+builds: 
 features: 
 
 ---

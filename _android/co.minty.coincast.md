@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/Coincast/
 redirect_from: 
 developerName: Minty Networks, LLC
+builds: 
 features: 
 
 ---

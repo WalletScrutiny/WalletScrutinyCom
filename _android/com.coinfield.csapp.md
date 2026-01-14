@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinfieldexchange
 redirect_from: 
 developerName: CoinField
+builds: 
 features: 
 
 ---

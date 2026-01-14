@@ -8,11 +8,11 @@ users: 100000
 appId: com.cropty.droid
 appCountry: 
 released: 2022-07-04
-updated: 2025-10-17
-version: 2.7.10
-stars: 4.2
+updated: 2025-12-16
+version: 2.9.3
+stars: 4.3
 ratings: 
-reviews: 56
+reviews: 57
 website: https://www.cropty.io/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.youtube.com/@croptytv
 redirect_from: 
 developerName: Coinscatch
+builds: 
 features: 
 
 ---

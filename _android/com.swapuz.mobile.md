@@ -8,8 +8,8 @@ users: 1000
 appId: com.swapuz.mobile
 appCountry: 
 released: 2022-03-19
-updated: 2025-05-28
-version: 2025.05.30
+updated: 2025-11-17
+version: 2025.11.14
 stars: 4
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCly2yn0VN2ijlD9lZAVAINg
 redirect_from: 
 developerName: METACHAIN
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ redirect_from:
 - /coinsquare.io.coinsquare/
 - /posts/coinsquare.io.coinsquare/
 developerName: 
+builds: 
 features: 
 
 ---

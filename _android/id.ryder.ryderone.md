@@ -8,8 +8,8 @@ users: 100
 appId: id.ryder.ryderone
 appCountry: 
 released: 2025-04-02
-updated: 2025-09-11
-version: 1.2.0
+updated: 2026-01-02
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/ryderid
 redirect_from: 
 developerName: Light Labs Ltd
+builds: 
 features:
 - nfc required
 

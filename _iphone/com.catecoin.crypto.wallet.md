@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.catecoin.crypto.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-11-29
+date: 2025-11-26
 signer: 
 twitter: catecoin
 social: 

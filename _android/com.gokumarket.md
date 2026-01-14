@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/gokumarket/
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/ibtcex
 redirect_from: 
 developerName: iBTC Technology
+builds: 
 features: 
 
 ---

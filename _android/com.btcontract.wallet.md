@@ -28,6 +28,7 @@ twitter: SimpleBtcWallet
 social: 
 redirect_from: 
 developerName: anton kumaigorodski
+builds: 
 features:
 - ln
 

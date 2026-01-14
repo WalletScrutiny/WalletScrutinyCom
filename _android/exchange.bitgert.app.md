@@ -29,6 +29,7 @@ social:
 - https://t.me/exchangebitgert
 redirect_from: 
 developerName: Bitgert Technologies Ltd
+builds: 
 features: 
 
 ---

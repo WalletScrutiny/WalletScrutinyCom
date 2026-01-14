@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/cryptoneedwallet
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

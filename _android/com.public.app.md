@@ -8,11 +8,11 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2025-11-03
-version: 3.218.0
+updated: 2026-01-07
+version: 3.226.1
 stars: 4.3
 ratings: 
-reviews: 9260
+reviews: 9306
 website: https://public.com
 repository: 
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://www.tiktok.com/@public
 redirect_from: 
 developerName: Public Holdings, Inc.
+builds: 
 features: 
 
 ---

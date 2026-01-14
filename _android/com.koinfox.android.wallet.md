@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/koinfox/
 redirect_from: 
 developerName: Decentralised Financial Corporation
+builds: 
 features: 
 
 ---

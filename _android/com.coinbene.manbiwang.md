@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/CoinBeneOfficial
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

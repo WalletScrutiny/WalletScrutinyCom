@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/SwiftCoin.io
 redirect_from: 
 developerName: Swift Coin
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 100000
 appId: com.buda.crypto
 appCountry: 
 released: 2018-01-04
-updated: 2025-09-29
-version: 2025.9.2
+updated: 2025-11-18
+version: 2025.11.3
 stars: 3.7
 ratings: 648
 reviews: 18
@@ -31,6 +31,7 @@ redirect_from:
 - /com.buda.crypto/
 - /posts/com.buda.crypto/
 developerName: Buda.com
+builds: 
 features:
 - ln
 

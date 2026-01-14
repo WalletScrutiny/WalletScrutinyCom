@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/BlocknanceATM
 redirect_from: 
 developerName: Blocknance Financial International SRL
+builds: 
 features: 
 
 ---

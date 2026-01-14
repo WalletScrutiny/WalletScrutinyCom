@@ -8,11 +8,11 @@ users: 10000
 appId: com.oslmobile
 appCountry: CN
 released: 
-updated: 2025-10-30
-version: 3.6.3
-stars: 3.7
+updated: 2026-01-07
+version: 3.6.10
+stars: 3.6
 ratings: 
-reviews: 31
+reviews: 33
 website: https://osl.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A
 redirect_from: 
 developerName: BC Technology (HK) Limited
+builds: 
 features: 
 
 ---

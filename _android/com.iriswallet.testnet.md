@@ -8,8 +8,8 @@ users: 1000
 appId: com.iriswallet.testnet
 appCountry: 
 released: 2022-10-21
-updated: 2025-08-12
-version: 0.3.0-testnet
+updated: 2025-12-19
+version: 0.3.1-testnet
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitfinex Labs
+builds: 
 features: 
 
 ---

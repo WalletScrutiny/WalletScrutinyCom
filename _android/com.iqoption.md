@@ -8,11 +8,11 @@ users: 100000000
 appId: com.iqoption
 appCountry: 
 released: 
-updated: 2025-10-10
-version: 8.63.1
-stars: 4.4
+updated: 2025-12-17
+version: 8.64.4
+stars: 4.5
 ratings: 
-reviews: 528
+reviews: 537
 website: https://km.iqoption.com/en
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/c/IQOption
 redirect_from: 
 developerName: IQ Option
+builds: 
 features: 
 
 ---

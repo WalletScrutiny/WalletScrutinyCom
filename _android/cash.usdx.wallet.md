@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/USDXwallet
 redirect_from: 
 developerName: Lighthouse GmbH
+builds: 
 features: 
 
 ---

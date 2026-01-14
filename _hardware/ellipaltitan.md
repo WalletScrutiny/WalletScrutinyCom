@@ -33,6 +33,7 @@ social:
 - https://www.instagram.com/ellipal_wallet
 - https://www.tiktok.com/@ellipal_hardware_wallet
 - https://www.youtube.com/channel/UClfY7g0xVWG3YBvxA8cMtxg
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/OfficialSwerri
 redirect_from: 
 developerName: Swerri Limited
+builds: 
 features: 
 
 ---

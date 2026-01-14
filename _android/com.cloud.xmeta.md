@@ -29,6 +29,7 @@ social:
 - https://t.me/xmetaofficialgroup
 redirect_from: 
 developerName: x-meta
+builds: 
 features: 
 
 ---

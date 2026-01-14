@@ -8,8 +8,8 @@ users: 10000
 appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
-updated: 2025-10-23
-version: 5.8.0
+updated: 2026-01-01
+version: 5.8.1
 stars: 3.5
 ratings: 363
 reviews: 43
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/FunctionX.io
 redirect_from: 
 developerName: Pundi X Labs
+builds: 
 features: 
 
 ---

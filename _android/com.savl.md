@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: 'Unity Wallet: Crypto & Bitcoin'
+title: 'UnityWallet: Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2025-10-15
-version: 8.12.0
+updated: 2025-12-25
+version: 9.0.1
 stars: 3.8
 ratings: 570
-reviews: 207
+reviews: 206
 website: https://unitywallet.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/savl.official
 redirect_from: 
 developerName: Unity Software FZE
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitfyapp
 redirect_from: 
 developerName: Bitfy
+builds: 
 features: 
 
 ---

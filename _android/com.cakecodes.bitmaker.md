@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/stormxio
 redirect_from: 
 developerName: StormX Singapore PTE LTD.
+builds: 
 features: 
 
 ---

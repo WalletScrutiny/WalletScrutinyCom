@@ -8,8 +8,8 @@ users: 10000
 appId: com.exchangernet
 appCountry: 
 released: 2021-02-21
-updated: 2025-06-07
-version: '2.1'
+updated: 2025-11-10
+version: '2.2'
 stars: 4.3
 ratings: 70
 reviews: 9
@@ -27,7 +27,8 @@ twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
-developerName: Currency Exchanger
+developerName: exchangernet.com
+builds: 
 features: 
 
 ---

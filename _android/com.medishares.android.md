@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.medishares.android/
 developerName: 
+builds: 
 features: 
 
 ---

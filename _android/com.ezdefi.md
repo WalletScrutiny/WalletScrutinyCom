@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ezdefi
 redirect_from: 
 developerName: LaunchZone
+builds: 
 features: 
 
 ---

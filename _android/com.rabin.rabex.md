@@ -8,8 +8,8 @@ users: 10000
 appId: com.rabin.rabex
 appCountry: 
 released: 2023-02-19
-updated: 2025-08-25
-version: 2.5.0-Rabex
+updated: 2026-01-05
+version: 2.7.0-Rabex
 stars: 4.3
 ratings: 
 reviews: 10
@@ -30,6 +30,7 @@ social:
 - https://t.me/Rabexio
 redirect_from: 
 developerName: Rabex Team
+builds: 
 features: 
 
 ---

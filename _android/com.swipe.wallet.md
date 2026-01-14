@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.swipe.wallet/
 developerName: 
+builds: 
 features: 
 
 ---

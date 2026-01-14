@@ -9,7 +9,7 @@ appId: net.bitbay.bitcoin
 appCountry: 
 released: 2018-11-19
 updated: 2025-11-03
-version: 1.1.51
+version: 1.1.52
 stars: 3
 ratings: 1131
 reviews: 16
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/BitBayExchange
 redirect_from: 
 developerName: BB Trade Estonia
+builds: 
 features: 
 
 ---

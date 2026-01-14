@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.ejfhp.bitonpaper.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-07-05
+date: 2026-01-08
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Rabbit Hole Lab
+builds: 
 features: 
 
 ---

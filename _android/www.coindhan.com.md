@@ -33,6 +33,7 @@ social:
 - https://www.reddit.com/user/Coin_Dhan/
 redirect_from: 
 developerName: Wollfish Labs Private Limited
+builds: 
 features: 
 
 ---

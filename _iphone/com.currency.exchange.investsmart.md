@@ -1,5 +1,5 @@
 ---
-wsId: currencycominvesting
+wsId: dzengiComInvesting
 title: 'Currency.com: Investing'
 altTitle: 
 authors:
@@ -22,10 +22,8 @@ verdict: custodial
 appHashes: 
 date: 2025-07-18
 signer: 
-twitter: currencycom
-social:
-- https://www.facebook.com/currencycom
-- https://www.reddit.com/r/currencycom
+twitter: 
+social: 
 features: 
 developerName: DZ INVESTMENTS POLAND Sp.z.o.o
 

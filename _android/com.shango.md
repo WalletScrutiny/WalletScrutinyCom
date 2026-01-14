@@ -30,6 +30,7 @@ redirect_from:
 - /com.shango/
 - /posts/com.shango/
 developerName: 
+builds: 
 features: 
 
 ---

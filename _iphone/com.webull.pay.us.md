@@ -1,30 +1,34 @@
 ---
-wsId: 
+wsId: webullPay
 title: 'Webull Pay: Crypto Buy & Sell'
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.webull.pay.us
 appCountry: us
 idd: '6449486592'
 released: '2023-06-27T07:00:00Z'
-updated: 2026-01-09
-version: 2.1.8
-stars: 4.75248
-reviews: 25242
+updated: 2025-12-08
+version: 2.1.6
+stars: 4.75289
+reviews: 25122
 website: ''
 repository: 
 issue: 
 icon: com.webull.pay.us.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2026-01-14
+date: 2025-12-26
 signer: 
-twitter: 
-social: 
+twitter: WebullGlobal
+social:
+- https://www.instagram.com/webullglobal
+- https://www.facebook.com/WebullGlobal
 features: 
 developerName: WEBULL PAY PTE. LTD.
 
 ---
 
+{% include copyFromAndroid.html %}

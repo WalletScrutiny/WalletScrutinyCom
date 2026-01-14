@@ -8,8 +8,8 @@ users: 10000
 appId: com.lcx.app
 appCountry: 
 released: 2021-10-26
-updated: 2025-10-03
-version: 2.3.75
+updated: 2026-01-03
+version: 2.3.90
 stars: 3.2
 ratings: 
 reviews: 40
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/lcx.exchange/
 redirect_from: 
 developerName: LCX.com
+builds: 
 features: 
 
 ---

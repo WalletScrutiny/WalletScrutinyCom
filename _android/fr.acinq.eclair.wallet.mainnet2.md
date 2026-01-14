@@ -32,6 +32,7 @@ redirect_from:
 - /posts/2019/12/eclair/
 - /posts/fr.acinq.eclair.wallet.mainnet2/
 developerName: ACINQ
+builds: 
 features: 
 
 ---

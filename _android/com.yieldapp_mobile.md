@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/crwD3JgMgn
 redirect_from: 
 developerName: Yield App
+builds: 
 features: 
 
 ---

@@ -36,6 +36,7 @@ social:
 - https://t.me/foundationdevices
 redirect_from: 
 developerName: Foundation Devices
+builds: 
 features: 
 
 ---

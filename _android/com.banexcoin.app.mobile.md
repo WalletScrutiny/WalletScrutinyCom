@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/banexcoin
 redirect_from: 
 developerName: Banexcoin
+builds: 
 features: 
 
 ---

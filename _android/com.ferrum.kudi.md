@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/first_kudi/
 redirect_from: 
 developerName: Ferrum Network
+builds: 
 features: 
 
 ---

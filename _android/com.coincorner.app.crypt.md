@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinCorner
 redirect_from: 
 developerName: CoinCorner Ltd
+builds: 
 features:
 - ln
 

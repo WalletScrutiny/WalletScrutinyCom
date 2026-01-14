@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/bitcoinstore.hr
 redirect_from: 
 developerName: Digital Assets d.o.o
+builds: 
 features: 
 
 ---

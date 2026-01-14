@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/kamixapp
 redirect_from: 
 developerName: Kamix R&D
+builds: 
 features: 
 
 ---

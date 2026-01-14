@@ -21,6 +21,7 @@ date: 2025-08-01
 twitter: FreeWallet
 social:
 - https://www.facebook.com/freewallet.io
+builds: 
 features: 
 
 ---

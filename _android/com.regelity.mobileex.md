@@ -30,6 +30,7 @@ social:
 - https://vk.com/exnoderu
 redirect_from: 
 developerName: Exnode Dev.
+builds: 
 features: 
 
 ---

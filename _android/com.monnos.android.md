@@ -10,18 +10,18 @@ appCountry: br
 released: 2019-09-17
 updated: 2024-11-29
 version: 6.3.14
-stars: 3.5
+stars: 3.4
 ratings: 931
-reviews: 481
+reviews: 482
 website: https://monnos.com
 repository: 
 issue: 
 icon: com.monnos.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-09-23
+date: 2025-11-26
 signer: 
 twitter: monnosGlobal
 social:
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/MonnosGlobal
 redirect_from: 
 developerName: Monnos Global
+builds: 
 features: 
 
 ---

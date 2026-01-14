@@ -8,11 +8,11 @@ users: 1000000
 appId: com.excoino.excoino
 appCountry: 
 released: 2018-09-27
-updated: 2025-11-04
-version: 9.69.1
-stars: 3.2
+updated: 2026-01-05
+version: 9.70.0
+stars: 2.7
 ratings: 8653
-reviews: 374
+reviews: 384
 website: https://www.excoino.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/excoino-com
 redirect_from: 
 developerName: Ernyka Co
+builds: 
 features: 
 
 ---

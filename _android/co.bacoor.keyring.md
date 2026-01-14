@@ -1,6 +1,6 @@
 ---
 wsId: keyring
-title: Bitcoin Wallet - KEYRING PRO
+title: DeFi Wallet – KEYRING PRO
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2025-10-14
-version: 5.2.0
+updated: 2026-01-05
+version: 5.4.0
 stars: 4.6
 ratings: 
-reviews: 2
+reviews: 3
 website: https://keyring.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: KEYRING_PRO
 social: 
 redirect_from: 
 developerName: bacoor inc.
+builds: 
 features: 
 
 ---

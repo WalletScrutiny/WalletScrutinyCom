@@ -11,7 +11,7 @@ updated: 2025-07-21
 version: 5.5.48
 stars: 4.6
 ratings: 581
-reviews: 95
+reviews: 96
 website: https://handcash.io
 repository: 
 issue: 
@@ -28,6 +28,7 @@ redirect_from:
 - /io.handcash.wallet/
 - /posts/io.handcash.wallet/
 developerName: Handcash Tech
+builds: 
 features: 
 
 ---

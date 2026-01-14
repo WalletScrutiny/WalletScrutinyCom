@@ -8,8 +8,8 @@ users: 500000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2025-11-03
-version: 3.6.7
+updated: 2025-12-31
+version: 3.6.9
 stars: 3.6
 ratings: 6660
 reviews: 76
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/AscendEX_Official
 redirect_from: 
 developerName: AscendEX
+builds: 
 features: 
 
 ---

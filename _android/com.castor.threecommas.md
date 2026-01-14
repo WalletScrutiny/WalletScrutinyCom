@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
 redirect_from: 
 developerName: 3Сommas - Cryptocurrency trading terminal and bots
+builds: 
 features: 
 
 ---

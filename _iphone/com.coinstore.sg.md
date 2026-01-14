@@ -8,10 +8,10 @@ appId: com.coinstore.sg
 appCountry: us
 idd: '1567160644'
 released: 2021-05-12
-updated: 2025-10-27
-version: 3.9.1
-stars: 3.9
-reviews: 96
+updated: 2025-12-31
+version: 4.0.0
+stars: 4
+reviews: 97
 website: https://www.coinstore.com
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-09-03
 updated: 2025-10-06
 version: 1.5.14
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 2
 website: https://www.bitbucks.io/
@@ -30,6 +30,7 @@ redirect_from:
 - /de.fuf.bitbucks/
 - /posts/de.fuf.bitbucks/
 developerName: FUF // Frank und Freunde
+builds: 
 features: 
 
 ---

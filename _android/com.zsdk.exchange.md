@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/ZBGofficial
 redirect_from: 
 developerName: ZBG_exchange
+builds: 
 features: 
 
 ---

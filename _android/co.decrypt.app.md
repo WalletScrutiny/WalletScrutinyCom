@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /co.decrypt.app/
 developerName: Decrypt Media
+builds: 
 features: 
 
 ---

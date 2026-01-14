@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-09-08
+date: 2025-12-15
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Ofinans App
+builds: 
 features: 
 
 ---

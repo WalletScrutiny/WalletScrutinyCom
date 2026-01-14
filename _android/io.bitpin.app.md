@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/bitpinmarket
 redirect_from: 
 developerName: Bitpin App Developer
+builds: 
 features: 
 
 ---

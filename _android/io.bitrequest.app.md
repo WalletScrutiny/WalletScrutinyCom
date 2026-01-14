@@ -7,8 +7,8 @@ users: 500
 appId: io.bitrequest.app
 appCountry: 
 released: 2019-11-01
-updated: 2025-06-11
-version: 1.5.9
+updated: 2025-12-28
+version: 1.6.0
 stars: 
 ratings: 
 reviews: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: XpressZo
+builds: 
 features: 
 
 ---

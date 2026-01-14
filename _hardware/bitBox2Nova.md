@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2025-06-21
 discontinued: 
-updated: 2025-10-13
-version: 9.23.3
+updated: 2025-10-15
+version: 9.24.0
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -32,6 +32,7 @@ twitter: BitBoxSwiss
 social:
 - https://www.linkedin.com/company/bitbox-swiss/
 - https://www.reddit.com/r/BitBoxWallet
+builds: 
 features:
 - Tempered glass OLED display
 - EAL6+ certified Secure Chip

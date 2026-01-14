@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.spot.spot/
 developerName: Spot crypto wallet
+builds: 
 features: 
 
 ---

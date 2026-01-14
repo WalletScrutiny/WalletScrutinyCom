@@ -8,8 +8,8 @@ users: 10000
 appId: com.wisebitcoin.broker.android
 appCountry: cn
 released: 2021-01-04
-updated: 2025-11-05
-version: 5.6.9
+updated: 2025-12-26
+version: 5.7.1
 stars: 3.7
 ratings: 116
 reviews: 133
@@ -27,6 +27,7 @@ twitter: wisebitcoin
 social: 
 redirect_from: 
 developerName: Batonex
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://facebook.com/ByteExchangeOfficial
 redirect_from: 
 developerName: Bytedex Teknoloji A.ş.
+builds: 
 features: 
 
 ---

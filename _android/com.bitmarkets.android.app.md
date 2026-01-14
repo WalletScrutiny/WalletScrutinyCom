@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitmarkets.android.app
 appCountry: 
 released: 2022-10-04
-updated: 2025-10-17
-version: 3.6.11
+updated: 2026-01-08
+version: 3.8.3
 stars: 4
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitmarketscom
 redirect_from: 
 developerName: Unicorn Technologies Limited
+builds: 
 features: 
 
 ---

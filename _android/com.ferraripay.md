@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: FERRARI-PAY SOFTWARE SOLUTION
+builds: 
 features: 
 
 ---

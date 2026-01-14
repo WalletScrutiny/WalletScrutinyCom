@@ -12,7 +12,7 @@ updated: 2025-10-09
 version: 1.16.6
 stars: 3.4
 ratings: 122
-reviews: 146
+reviews: 147
 website: https://koshelek.ru/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/koshelekru
 redirect_from: 
 developerName: Кошелёк.ру
+builds: 
 features: 
 
 ---

@@ -8,11 +8,11 @@ users: 5000000
 appId: com.iMe.android
 appCountry: 
 released: 2019-07-22
-updated: 2025-10-23
-version: 12.1.1
+updated: 2025-12-26
+version: 12.2.12
 stars: 4.6
 ratings: 
-reviews: 743
+reviews: 761
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
 issue: https://github.com/imemessenger/iMe-Android/issues/10
@@ -31,6 +31,7 @@ social:
 - https://www.reddit.com/r/iMeSmartPlatform
 redirect_from: 
 developerName: IME LAB - FZCO
+builds: 
 features: 
 
 ---

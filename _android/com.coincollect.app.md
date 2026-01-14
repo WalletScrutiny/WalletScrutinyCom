@@ -27,6 +27,7 @@ twitter: coincollectHQ
 social: 
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

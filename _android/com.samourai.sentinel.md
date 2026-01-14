@@ -28,6 +28,7 @@ redirect_from:
 - /com.samourai.sentinel/
 - /posts/com.samourai.sentinel/
 developerName: Samourai
+builds: 
 features: 
 
 ---

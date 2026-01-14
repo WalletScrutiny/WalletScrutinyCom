@@ -28,6 +28,7 @@ social:
 - https://t.me/befiwallet
 redirect_from: 
 developerName: BEFI FOUNDATION LTD.
+builds: 
 features: 
 
 ---

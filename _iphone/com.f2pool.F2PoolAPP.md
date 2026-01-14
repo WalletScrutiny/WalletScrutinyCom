@@ -8,10 +8,10 @@ appId: com.f2pool.F2PoolAPP
 appCountry: us
 idd: '1403702113'
 released: 2018-09-06
-updated: 2025-10-31
-version: 2.8.4
+updated: 2025-11-13
+version: 2.8.5
 stars: 4
-reviews: 180
+reviews: 181
 website: https://www.f2pool.com/
 repository: 
 issue: 

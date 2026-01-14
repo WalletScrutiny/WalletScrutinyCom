@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/CoinberryOfficial
 redirect_from: 
 developerName: Coinberry
+builds: 
 features: 
 
 ---

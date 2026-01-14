@@ -27,6 +27,7 @@ twitter: BixinWallet
 social: 
 redirect_from: 
 developerName: Bixin.com
+builds: 
 features: 
 
 ---

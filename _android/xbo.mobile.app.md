@@ -8,8 +8,8 @@ users: 50000
 appId: xbo.mobile.app
 appCountry: 
 released: 2022-09-24
-updated: 2025-10-31
-version: 3.0.0
+updated: 2025-12-29
+version: 3.3.2
 stars: 4.4
 ratings: 
 reviews: 16
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/xbo-com
 redirect_from: 
 developerName: Metafortune LTD
+builds: 
 features: 
 
 ---

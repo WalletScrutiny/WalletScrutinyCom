@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2018-03-01
 discontinued: 
-updated: 2024-08-04
-version: 2.9.1
+updated: 2025-11-18
+version: 2.9.4
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -36,6 +36,7 @@ twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
+builds: 
 features: 
 
 ---

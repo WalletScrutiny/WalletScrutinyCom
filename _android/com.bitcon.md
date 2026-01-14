@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.bitcon.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2021-08-02
+date: 2026-01-08
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Spend The Bits Inc.
+builds: 
 features: 
 
 ---

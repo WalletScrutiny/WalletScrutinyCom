@@ -30,6 +30,7 @@ redirect_from:
 - /com.bitcoin.merchant.app/
 - /posts/com.bitcoin.merchant.app/
 developerName: Bitcoin.com Developer
+builds: 
 features: 
 
 ---

@@ -9,11 +9,11 @@ users: 1000000
 appId: com.changelly.app
 appCountry: 
 released: 2018-08-28
-updated: 2025-10-22
-version: 3.51.1
-stars: 4.6
+updated: 2025-12-26
+version: 3.54.2
+stars: 4.7
 ratings: 5008
-reviews: 1338
+reviews: 1374
 website: https://changelly.com/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ redirect_from:
 - /com.changelly.app/
 - /posts/com.changelly.app/
 developerName: Changelly – Instant Crypto Exchange
+builds: 
 features: 
 
 ---

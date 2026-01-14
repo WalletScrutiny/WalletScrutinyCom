@@ -12,16 +12,16 @@ updated: 2024-01-12
 version: '146.0'
 stars: 3.4
 ratings: 44411
-reviews: 2898
+reviews: 2897
 website: https://www.abra.com/
 repository: 
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2026-01-08
 signer: 
 twitter: AbraGlobal
 social:
@@ -31,6 +31,7 @@ redirect_from:
 - /com.plutus.wallet/
 - /posts/com.plutus.wallet/
 developerName: Plutus Financial Inc
+builds: 
 features: 
 
 ---

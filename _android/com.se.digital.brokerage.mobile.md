@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.se.digital.brokerage.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-11
+date: 2025-12-18
 signer: 
 twitter: 
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/xspring/
 redirect_from: 
 developerName: XSpring Digital Co., Ltd.
+builds: 
 features: 
 
 ---

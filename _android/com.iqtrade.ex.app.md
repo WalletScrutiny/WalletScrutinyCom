@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/iqtradeglobal
 redirect_from: 
 developerName: I&Q Financial LLC
+builds: 
 features: 
 
 ---

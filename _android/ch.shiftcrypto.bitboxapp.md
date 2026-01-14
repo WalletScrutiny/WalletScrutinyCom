@@ -7,8 +7,8 @@ users: 10000
 appId: ch.shiftcrypto.bitboxapp
 appCountry: 
 released: 2020-07-13
-updated: 2025-09-30
-version: android-4.48.6
+updated: 2025-11-04
+version: android-4.49.0
 stars: 4.3
 ratings: 83
 reviews: 9
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Shiftcrypto
 redirect_from: 
 developerName: BitBox Swiss
+builds: 
 features: 
 
 ---

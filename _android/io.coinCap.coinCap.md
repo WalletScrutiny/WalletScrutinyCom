@@ -12,7 +12,7 @@ updated: 2024-05-06
 version: 3.2.0
 stars: 3.7
 ratings: 
-reviews: 357
+reviews: 356
 website: http://coincap.io/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/watch/?v=365220420785166
 redirect_from: 
 developerName: ShapeShift.com
+builds: 
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: lavaXYZ
-title: Lava
+title: 'Lava: Secure Bitcoin Loans'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2025-10-29
-version: 2.2.15
-stars: 3.5
+updated: 2025-12-03
+version: 2.6.0
+stars: 3.8
 ratings: 
-reviews: 5
+reviews: 8
 website: https://lava.xyz
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: lava_xyz
 social: 
 redirect_from: 
 developerName: Lava Global Inc.
+builds: 
 features: 
 
 ---

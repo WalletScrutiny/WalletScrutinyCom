@@ -28,6 +28,7 @@ social:
 - https://t.me/AntBotQuantify
 redirect_from: 
 developerName: Crypto Signal Trading Bot
+builds: 
 features: 
 
 ---

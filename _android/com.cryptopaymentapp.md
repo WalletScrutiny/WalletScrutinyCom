@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bitci Borsa Teknoloji Anonim Sirketi
+builds: 
 features: 
 
 ---

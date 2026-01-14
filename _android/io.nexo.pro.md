@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/nexofinance
 redirect_from: 
 developerName: Nexo Capital Incorporated
+builds: 
 features: 
 
 ---

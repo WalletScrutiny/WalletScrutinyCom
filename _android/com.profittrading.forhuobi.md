@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/profittradingapp
 redirect_from: 
 developerName: ProfitTradingApp
+builds: 
 features: 
 
 ---

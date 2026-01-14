@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2021-06-03
 discontinued: 
-updated: 2025-10-31
-version: 1.9.55
+updated: 2025-12-29
+version: 2.1.1
 binaries: 
 provider: Nunchuk Inc.
 providerWebsite: 
@@ -21,6 +21,7 @@ date: 2025-09-23
 twitter: nunchuk_io
 social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email
+builds: 
 features:
 - taproot
 - multisig

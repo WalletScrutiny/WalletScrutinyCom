@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/crowdindicator
 redirect_from: 
 developerName: Cindicator
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/sanalira
 redirect_from: 
 developerName: SANALİRA
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Bitcointoyou
 redirect_from: 
 developerName: B2U Limited
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/capitual/
 redirect_from: 
 developerName: Capitual
+builds: 
 features: 
 
 ---

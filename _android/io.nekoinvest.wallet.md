@@ -28,6 +28,7 @@ social:
 - https://nekoinvest.io
 redirect_from: 
 developerName: NekoGlobal
+builds: 
 features: 
 
 ---

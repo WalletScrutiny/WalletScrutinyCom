@@ -8,8 +8,8 @@ users: 100
 appId: com.lightning.manna
 appCountry: 
 released: 2025-05-14
-updated: 2025-10-17
-version: 1.1.6
+updated: 2025-11-10
+version: 1.1.7
 stars: 5
 ratings: 
 reviews: 5
@@ -28,6 +28,7 @@ social:
 - https://t.me/MannaBitcoin
 redirect_from: 
 developerName: Manna Bitcoin
+builds: 
 features: 
 
 ---

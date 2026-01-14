@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.incognito.wallet/
 developerName: Incognito Core Development Team
+builds: 
 features: 
 
 ---

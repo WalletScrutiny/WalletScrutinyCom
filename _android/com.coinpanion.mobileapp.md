@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/coinpanion
 redirect_from: 
 developerName: Coinpanion
+builds: 
 features: 
 
 ---

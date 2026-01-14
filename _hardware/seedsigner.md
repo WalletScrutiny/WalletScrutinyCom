@@ -34,6 +34,7 @@ twitter: SeedSigner
 social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
 - https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
+builds: 
 features: 
 
 ---

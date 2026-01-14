@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/btcbox/
 redirect_from: 
 developerName: BTCボックス株式会社
+builds: 
 features: 
 
 ---

@@ -5,15 +5,15 @@ altTitle:
 authors:
 - danny
 - leo
-users: 1000000
+users: 5000000
 appId: com.capital.etf.trade
 appCountry: 
 released: 
-updated: 2025-11-03
-version: 3.11.1
+updated: 2025-12-19
+version: 3.17.0
 stars: 4.6
 ratings: 
-reviews: 6
+reviews: 7
 website: https://capital.com/
 repository: 
 issue: 
@@ -28,6 +28,7 @@ twitter: capitalcom
 social: 
 redirect_from: 
 developerName: Capital Com (UK) Limited
+builds: 
 features: 
 
 ---

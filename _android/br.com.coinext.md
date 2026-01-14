@@ -8,7 +8,7 @@ users: 100000
 appId: br.com.coinext
 appCountry: 
 released: 2019-11-19
-updated: 2025-10-28
+updated: 2026-01-07
 version: 2.26.8
 stars: 4.7
 ratings: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA
 redirect_from: 
 developerName: Coinext Serviços Digitais Ltda.
+builds: 
 features: 
 
 ---

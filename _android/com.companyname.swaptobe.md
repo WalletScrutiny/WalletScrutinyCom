@@ -12,7 +12,7 @@ updated: 2025-03-31
 version: '6.0'
 stars: 4.2
 ratings: 
-reviews: 18
+reviews: 19
 website: https://pionechain.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/swaptobe
 redirect_from: 
 developerName: PIONE CHAIN
+builds: 
 features: 
 
 ---

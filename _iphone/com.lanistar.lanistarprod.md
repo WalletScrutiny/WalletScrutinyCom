@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.lanistar.lanistarprod.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-17
+date: 2025-11-26
 signer: 
 twitter: iamlanistar
 social:

@@ -27,6 +27,7 @@ social:
 redirect_from:
 - /com.swapwalletltd.swap/
 developerName: 
+builds: 
 features: 
 
 ---

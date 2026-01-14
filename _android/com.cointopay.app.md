@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/Cointopay
 redirect_from: 
 developerName: Cointopay.com
+builds: 
 features: 
 
 ---

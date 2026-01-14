@@ -33,6 +33,7 @@ signer:
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
+builds: 
 features: 
 
 ---

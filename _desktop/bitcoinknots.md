@@ -6,7 +6,7 @@ authors:
 released: 2009-01-04
 discontinued: 
 updated: 2025-10-10
-version: 29.2.knots20251010
+version: 29.2.knots20251110
 binaries: 
 provider: Luke Dash Jr
 providerWebsite: 
@@ -20,7 +20,34 @@ verdict: sourceavailable
 date: 2025-09-04
 twitter: BitcoinKnots
 social: 
+builds:
+- arch: x86_64-linux
+  types:
+  - tarball
+- arch: aarch64-linux
+  types:
+  - tarball
+- arch: arm-linux
+  types:
+  - tarball
+- arch: powerpc64-linux
+  types:
+  - tarball
+- arch: powerpc64le-linux
+  types:
+  - tarball
+- arch: riscv64-linux
+  types:
+  - tarball
+- arch: x86_64-windows
+  types:
+  - zip
+  - setup
 features: 
+targets:
+- x86_64-linux-gnu.tar.gz
+- aarch64-linux-gnu.tar.gz
+- win64-setup-pgpverifiable.exe
 
 ---
 

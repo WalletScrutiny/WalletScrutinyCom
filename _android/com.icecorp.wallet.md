@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/icewalofficial
 redirect_from: 
 developerName: Kentkart International LLP
+builds: 
 features: 
 
 ---

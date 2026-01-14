@@ -8,9 +8,9 @@ users: 1000000
 appId: com.iggroup.android.cfd
 appCountry: br
 released: 2015-05-11
-updated: 2025-10-29
-version: 25.10.24
-stars: 4
+updated: 2025-12-18
+version: 25.12.14
+stars: 4.1
 ratings: 
 reviews: 14
 website: https://www.ig.com
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCZj-ae-S_X-mocAH3xQnpUw
 redirect_from: 
 developerName: IG Group
+builds: 
 features: 
 
 ---

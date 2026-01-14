@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCfshAN27bKPe4f3uBIr7jjA
 redirect_from: 
 developerName: NAKA GLOBAL d.o.o.
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://habr.com/ru/users/coincat
 redirect_from: 
 developerName: CoinCat inc.
+builds: 
 features: 
 
 ---

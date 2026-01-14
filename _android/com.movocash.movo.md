@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/movocash-inc-/
 redirect_from: 
 developerName: MovoCash, Inc.
+builds: 
 features: 
 
 ---

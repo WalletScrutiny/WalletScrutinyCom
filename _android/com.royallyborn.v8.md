@@ -8,8 +8,8 @@ users: 50000
 appId: com.royallyborn.v8
 appCountry: 
 released: 2022-02-07
-updated: 2025-10-07
-version: 1.2.4
+updated: 2025-12-22
+version: 1.2.5
 stars: 4.2
 ratings: 
 reviews: 17
@@ -33,6 +33,7 @@ social:
 - https://t.me/global8vchat
 redirect_from: 
 developerName: 8v.com
+builds: 
 features: 
 
 ---

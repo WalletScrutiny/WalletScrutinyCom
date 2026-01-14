@@ -28,6 +28,7 @@ signer:
 twitter: 
 social:
 - https://www.linkedin.com/company/icoin-technology/
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://t.me/exchaino
 redirect_from: 
 developerName: Bit24
+builds: 
 features: 
 
 ---

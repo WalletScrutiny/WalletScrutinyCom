@@ -29,6 +29,7 @@ social:
 - https://t.me/lifpay
 redirect_from: 
 developerName: ProminentWise
+builds: 
 features: 
 
 ---

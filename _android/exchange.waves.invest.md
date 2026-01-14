@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/WavesExchange-110844914984722
 redirect_from: 
 developerName: WX Development LTD.
+builds: 
 features: 
 
 ---

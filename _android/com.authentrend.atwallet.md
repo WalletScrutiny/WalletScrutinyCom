@@ -3,7 +3,7 @@ wsId:
 title: AT.Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.authentrend.atwallet
 appCountry: 
 released: 2020-07-13
@@ -18,7 +18,7 @@ issue:
 icon: com.authentrend.atwallet.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-17
 signer: 
@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: AuthenTrend Technology Inc.
+builds: 
 features: 
 
 ---

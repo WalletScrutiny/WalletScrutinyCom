@@ -8,11 +8,11 @@ users: 1000000
 appId: ph.pdax.mobile
 appCountry: ph
 released: 2021-01-18
-updated: 2025-10-29
-version: 14.4.1
+updated: 2025-12-19
+version: 14.5.0
 stars: 4.8
 ratings: 3291
-reviews: 3402
+reviews: 3421
 website: https://pdax.ph
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/pdaxph
 redirect_from: 
 developerName: PDAX (Philippine Digital Asset Exchange)
+builds: 
 features: 
 
 ---

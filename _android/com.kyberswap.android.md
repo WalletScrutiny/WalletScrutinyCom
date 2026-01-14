@@ -27,6 +27,7 @@ social:
 redirect_from:
 - /com.kyberswap.android/
 developerName: 
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@hashapp
 redirect_from: 
 developerName: HashVest Technologies Inc
+builds: 
 features: 
 
 ---

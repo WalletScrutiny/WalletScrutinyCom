@@ -7,7 +7,7 @@ users: 10000
 appId: app.exchange.savita
 appCountry: 
 released: 2023-01-05
-updated: 2024-06-21
+updated: 2026-01-07
 version: 1.0.0
 stars: 
 ratings: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.exchange.savita.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-18
+date: 2026-01-08
 signer: 
 twitter: 
 social:
@@ -30,6 +30,7 @@ social:
 - https://t.me/savitaglobal
 redirect_from: 
 developerName: Savita Global Trading Ltd
+builds: 
 features: 
 
 ---

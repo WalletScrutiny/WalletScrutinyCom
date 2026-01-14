@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/satoshipayments/
 redirect_from: 
 developerName: Satoshi Payments
+builds: 
 features: 
 
 ---

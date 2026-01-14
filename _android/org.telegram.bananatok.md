@@ -12,7 +12,7 @@ updated: 2025-09-05
 version: 5.0.8
 stars: 3.9
 ratings: 
-reviews: 1407
+reviews: 1387
 website: http://www.bananatok.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/bananatok_official/
 redirect_from: 
 developerName: Bananatok
+builds: 
 features: 
 
 ---

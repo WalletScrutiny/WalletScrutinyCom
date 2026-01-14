@@ -8,8 +8,8 @@ users: 10000
 appId: com.mufin.iconfi
 appCountry: 
 released: 2021-01-27
-updated: 2025-11-03
-version: 1.2.2
+updated: 2025-12-09
+version: 1.2.8
 stars: 4.4
 ratings: 220
 reviews: 27
@@ -27,6 +27,7 @@ twitter: ICONFiWorld
 social: 
 redirect_from: 
 developerName: GROW3
+builds: 
 features: 
 
 ---

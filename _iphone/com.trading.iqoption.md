@@ -8,10 +8,10 @@ appId: com.trading.iqoption
 appCountry: gb
 idd: '871125783'
 released: 2014-05-15
-updated: 2025-10-29
-version: '4.83'
+updated: 2025-11-21
+version: '4.84'
 stars: 3.8
-reviews: 1263
+reviews: 1267
 website: http://eu.iqoption.com
 repository: 
 issue: 

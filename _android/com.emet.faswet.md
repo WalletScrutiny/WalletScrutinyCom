@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/user/EmetEnjoy
 redirect_from: 
 developerName: EBG Malta Business Group
+builds: 
 features: 
 
 ---

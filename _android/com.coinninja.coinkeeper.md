@@ -32,6 +32,7 @@ redirect_from:
 - /posts/2019/11/dropbit/
 - /posts/com.coinninja.coinkeeper/
 developerName: 
+builds: 
 features:
 - ln
 

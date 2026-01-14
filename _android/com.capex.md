@@ -30,6 +30,7 @@ social:
 - https://t.me/capexcoin
 redirect_from: 
 developerName: Dataland LLC
+builds: 
 features: 
 
 ---

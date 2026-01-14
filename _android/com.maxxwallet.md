@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.maxxwallet/
 developerName: MAX Wallet , Tov
+builds: 
 features: 
 
 ---

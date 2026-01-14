@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/get_zion
 redirect_from: 
 developerName: Zion - Create Openly
+builds: 
 features: 
 
 ---

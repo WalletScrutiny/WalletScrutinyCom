@@ -8,11 +8,11 @@ users: 100000
 appId: com.revolut.revolutx
 appCountry: 
 released: 
-updated: 2025-10-28
-version: '1.32'
-stars: 
+updated: 2026-01-06
+version: 1.40.2
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: https://github.com/orgs/revolut-engineering/repositories
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/revolutapp
 redirect_from: 
 developerName: Revolut Ltd
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://pulsarbank.com
 redirect_from: 
 developerName: Pulsar Platform LTD
+builds: 
 features: 
 
 ---

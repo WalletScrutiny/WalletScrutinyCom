@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/berrychain.official
 redirect_from: 
 developerName: Ahmad soft
+builds: 
 features: 
 
 ---

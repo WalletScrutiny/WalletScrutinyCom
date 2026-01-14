@@ -31,6 +31,7 @@ redirect_from:
 - /com.swftcoin.client.android/
 - /posts/com.swftcoin.client.android/
 developerName: GooCoin
+builds: 
 features: 
 
 ---

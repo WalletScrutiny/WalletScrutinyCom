@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.royalqs.royalq.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-01-31
+date: 2025-12-15
 signer: 
 twitter: RoyalQuantify
 social:
@@ -29,7 +29,8 @@ social:
 - https://t.me/Royal_Q_Official
 - https://www.youtube.com/channel/UCG_24GCm1wdzJsBcSXRYD1Q
 redirect_from: 
-developerName: Royal Quantify Investment Management Co., Limited
+developerName: Alpha Tech Services LTD.
+builds: 
 features: 
 
 ---

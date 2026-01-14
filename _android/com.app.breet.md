@@ -8,11 +8,11 @@ users: 100000
 appId: com.app.breet
 appCountry: 
 released: 2022-02-21
-updated: 2025-10-17
-version: 7.1.6
-stars: 4.6
+updated: 2025-12-19
+version: 7.1.9
+stars: 4.5
 ratings: 
-reviews: 184
+reviews: 188
 website: https://breet.app
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCyymPb01_pQF0JYj7l_YxxQ
 redirect_from: 
 developerName: Inbreetic Technologies Limited
+builds: 
 features: 
 
 ---

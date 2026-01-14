@@ -12,7 +12,7 @@ updated: 2024-09-23
 version: 1.0.0
 stars: 4.7
 ratings: 
-reviews: 101
+reviews: 102
 website: https://cash-in.app
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://medium.com/@cash-in
 redirect_from: 
 developerName: Macroblocs Ltd
+builds: 
 features: 
 
 ---

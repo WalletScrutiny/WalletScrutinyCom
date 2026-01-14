@@ -31,6 +31,7 @@ redirect_from:
 - /ilcbtc.wallet/
 - /posts/ilcbtc.wallet/
 developerName: ILCOIN Dev Team
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: 2021-09-20
-updated: 2025-08-10
-version: 1.40.32
+updated: 2025-11-05
+version: 1.40.33
 stars: 4.7
 ratings: 
 reviews: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/iamCryptoxpress/
 redirect_from: 
 developerName: CryptoXpress
+builds: 
 features: 
 
 ---

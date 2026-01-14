@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/c/LordToken/videos
 redirect_from: 
 developerName: LORD SERVICES
+builds: 
 features: 
 
 ---

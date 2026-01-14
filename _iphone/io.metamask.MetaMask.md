@@ -4,29 +4,36 @@ title: 'MetaMask: Crypto & Web3 Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2025-11-03
-version: 7.57.2
+updated: 2025-11-19
+version: 7.59.0
 stars: 4.7
-reviews: 71719
+reviews: 72265
 website: https://metamask.io/
 repository: 
 issue: 
 icon: io.metamask.MetaMask.jpg
 bugbounty: 
 meta: ok
-verdict: nobtc
+verdict: sourceavailable
 appHashes: 
-date: 2021-05-01
+date: 2025-12-16
 signer: 
-twitter: 
-social: 
+twitter: MetaMask
+social:
+- https://discord.com/invite/consensys
+- https://www.instagram.com/metamask.io
+- https://discord.com/invite/consensys
+- https://www.reddit.com/r/Metamask
+- https://www.tiktok.com/@metamask
+- https://www.youtube.com/@metamask
 features: 
 developerName: MetaMask
 
 ---
 
-This is an ETH-only app and thus not a Bitcoin wallet.
+{% include copyFromAndroid.html %}

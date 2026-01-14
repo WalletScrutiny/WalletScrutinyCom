@@ -18,15 +18,16 @@ repository:
 issue: 
 icon: io.kryll.app2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2025-02-26
+date: 2025-12-15
 signer: 
 twitter: kryll_io
 social: 
 redirect_from: 
 developerName: Cryptense SAS
+builds: 
 features: 
 
 ---

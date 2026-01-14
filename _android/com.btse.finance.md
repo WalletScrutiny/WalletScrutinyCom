@@ -1,6 +1,6 @@
 ---
 wsId: BTSE
-title: 'BTSE: Buy Bitcoin ETH& Crypto'
+title: 'BTSE: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.btse.finance
 appCountry: ng
 released: 2020-11-30
-updated: 2025-11-03
-version: 1.113.0
+updated: 2025-12-30
+version: 1.117.0
 stars: 4.1
 ratings: 62
-reviews: 73
+reviews: 74
 website: https://btse.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/btsecom
 redirect_from: 
 developerName: BTSE Holdings Limited
+builds: 
 features: 
 
 ---

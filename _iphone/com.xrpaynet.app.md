@@ -8,10 +8,10 @@ appId: com.xrpaynet.app
 appCountry: us
 idd: '1616451007'
 released: 2022-07-11
-updated: 2025-11-03
-version: 5.0.0+351
-stars: 3.3
-reviews: 29
+updated: 2025-11-19
+version: 5.0.1+357
+stars: 3.2
+reviews: 30
 website: https://xrpaynet.com
 repository: 
 issue: 

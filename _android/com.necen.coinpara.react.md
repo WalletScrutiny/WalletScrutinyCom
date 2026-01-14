@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Necen Teknoloji
+builds: 
 features: 
 
 ---

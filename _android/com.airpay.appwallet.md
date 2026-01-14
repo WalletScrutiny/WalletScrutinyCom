@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/airpayofficial
 redirect_from: 
 developerName: AIRPAY.FINANCE
+builds: 
 features: 
 
 ---

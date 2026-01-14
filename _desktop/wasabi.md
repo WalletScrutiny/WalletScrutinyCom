@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2018-08-01
 discontinued: 
-updated: 2025-02-07
-version: 2.7.1
+updated: 2025-11-17
+version: 2.7.2
 binaries: 
 provider: zkSNACKs Ltd.
 providerWebsite: https://zksnacks.com/
@@ -20,6 +20,15 @@ verdict: sourceavailable
 date: 2025-09-28
 twitter: wasabiwallet
 social: 
+builds:
+- arch: x86_64-linux-gnu
+  types:
+  - deb
+  - tarball
+- arch: win64
+  types:
+  - zip
+  - msi
 features: 
 
 ---

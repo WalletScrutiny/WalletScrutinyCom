@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Cointral
 redirect_from: 
 developerName: Blockchain Lab Yazılım
+builds: 
 features: 
 
 ---

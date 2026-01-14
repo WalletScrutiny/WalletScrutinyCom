@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/OceanExOfficial
 redirect_from: 
 developerName: OceanEx Limited
+builds: 
 features: 
 
 ---

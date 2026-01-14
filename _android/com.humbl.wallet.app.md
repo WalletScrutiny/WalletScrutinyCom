@@ -8,11 +8,11 @@ users: 1000
 appId: com.humbl.wallet.app
 appCountry: 
 released: 2022-07-04
-updated: 2025-10-05
-version: 1.0.70
+updated: 2025-11-26
+version: 1.0.75
 stars: 4.8
 ratings: 
-reviews: 49
+reviews: 48
 website: https://tapwallet.com/
 repository: 
 issue: 
@@ -29,7 +29,8 @@ social:
 - https://www.facebook.com/theTAPwallet
 - https://www.linkedin.com/company/thetapwallet
 redirect_from: 
-developerName: HUMBL, Inc.
+developerName: TAP, Inc.
+builds: 
 features: 
 
 ---

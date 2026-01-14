@@ -29,6 +29,7 @@ social:
 - https://medium.com/@wowearn2023
 redirect_from: 
 developerName: WOW EARN Wallet
+builds: 
 features: 
 
 ---

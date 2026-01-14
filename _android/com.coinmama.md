@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/officialcoinmama
 redirect_from: 
 developerName: Coinmama
+builds: 
 features: 
 
 ---

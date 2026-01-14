@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.koinal.android/
 developerName: SG Veteris
+builds: 
 features: 
 
 ---

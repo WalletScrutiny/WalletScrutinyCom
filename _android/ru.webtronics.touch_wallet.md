@@ -28,6 +28,7 @@ social:
 - https://t.me/TouchWalletEN
 redirect_from: 
 developerName: CLOUD FARMER L.L.C-FZ
+builds: 
 features: 
 
 ---

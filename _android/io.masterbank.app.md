@@ -28,6 +28,7 @@ social:
 - https://t.me/mastercoin_official
 redirect_from: 
 developerName: MasterBank
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinstickHQ
 redirect_from: 
 developerName: Coinstick
+builds: 
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: osmoWallet
-title: Osmo Wallet
+title: Osmo Money
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.osmo.smt
 appCountry: 
 released: 2022-07-01
-updated: 2025-10-31
-version: 4.8.8
-stars: 4.5
+updated: 2025-12-10
+version: 4.9.0
+stars: 4.6
 ratings: 
-reviews: 41
+reviews: 43
 website: https://www.osmowallet.com/
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.facebook.com/osmoenvios
 redirect_from: 
 developerName: osmo
+builds: 
 features:
 - ln
 

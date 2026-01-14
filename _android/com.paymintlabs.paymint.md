@@ -28,6 +28,7 @@ social:
 redirect_from:
 - /com.paymintlabs.paymint/
 developerName: Paymint Labs
+builds: 
 features: 
 
 ---

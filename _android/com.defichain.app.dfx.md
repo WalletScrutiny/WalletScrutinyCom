@@ -30,6 +30,7 @@ social:
 - https://t.me/DFXswiss_en
 redirect_from: 
 developerName: DFX AG
+builds: 
 features: 
 
 ---

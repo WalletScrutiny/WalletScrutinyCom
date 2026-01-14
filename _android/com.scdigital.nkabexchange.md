@@ -28,6 +28,7 @@ social:
 - https://t.me/+wTl8DCgNOwI5YWI0
 redirect_from: 
 developerName: SC DIGIT@L
+builds: 
 features: 
 
 ---

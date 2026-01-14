@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/bobablocks.io
 redirect_from: 
 developerName: Bumoonio
+builds: 
 features: 
 
 ---

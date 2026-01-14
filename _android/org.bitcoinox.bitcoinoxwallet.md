@@ -4,24 +4,24 @@ title: Bitcoin OX Crypto Wallet
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 5000
 appId: org.bitcoinox.bitcoinoxwallet
 appCountry: 
 released: 2019-02-04
 updated: 2024-12-22
 version: 2.8.8
-stars: 3.9
+stars: 3.6
 ratings: 32
-reviews: 4
+reviews: 5
 website: https://bitcoinox.com
 repository: 
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-12-23
+date: 2025-12-18
 signer: 
 twitter: bitcoin_ox
 social:
@@ -30,6 +30,7 @@ redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
 developerName: GNUAPP UNIPESSOAL LDA
+builds: 
 features: 
 
 ---

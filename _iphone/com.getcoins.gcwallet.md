@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.getcoins.gcwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-05-14
+date: 2025-11-26
 signer: 
 twitter: 
 social: 

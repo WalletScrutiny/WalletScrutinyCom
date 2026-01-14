@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/banoapp
 redirect_from: 
 developerName: BANO PTY LTD
+builds: 
 features: 
 
 ---

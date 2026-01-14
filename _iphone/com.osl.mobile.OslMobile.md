@@ -8,10 +8,10 @@ appId: com.osl.mobile.OslMobile
 appCountry: hk
 idd: '6468963677'
 released: 2024-01-22
-updated: 2025-11-03
-version: 3.6.3
+updated: 2025-11-27
+version: 3.6.6
 stars: 4.6
-reviews: 517
+reviews: 525
 website: https://osl.com
 repository: 
 issue: 

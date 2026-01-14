@@ -9,11 +9,11 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2025-11-03
-version: 202510.2.8
+updated: 2025-12-17
+version: 202512.1.10
 stars: 3.9
 ratings: 115830
-reviews: 6309
+reviews: 6324
 website: https://www.blockchain.com
 repository: 
 issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456
@@ -34,6 +34,7 @@ redirect_from:
 - /posts/2019/11/blockchainwallet/
 - /posts/piuk.blockchain.android/
 developerName: Blockchain.com
+builds: 
 features: 
 
 ---

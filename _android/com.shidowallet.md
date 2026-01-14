@@ -34,6 +34,7 @@ social:
 - https://www.reddit.com/r/ShidoInuOfficial
 redirect_from: 
 developerName: Shido Finance
+builds: 
 features: 
 
 ---

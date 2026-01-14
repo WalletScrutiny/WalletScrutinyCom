@@ -8,8 +8,8 @@ appId: com.secuxtech.wallet
 appCountry: tw
 idd: '1628469822'
 released: 2022-07-04
-updated: 2025-10-30
-version: 3.1.17
+updated: 2025-12-01
+version: 3.1.18
 stars: 2.5
 reviews: 17
 website: https://secux.eu/

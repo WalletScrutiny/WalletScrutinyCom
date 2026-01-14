@@ -1,6 +1,6 @@
 ---
 wsId: neteller
-title: NETELLER – Fast Payments
+title: Neteller – Fast Payments
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.moneybookers.skrillpayments.neteller
 appCountry: 
 released: 2016-03-30
-updated: 2025-10-31
-version: 3.171.0-2025101411
+updated: 2025-12-15
+version: 3.175.1-2025121510
 stars: 4.1
 ratings: 
-reviews: 272
+reviews: 274
 website: https://www.neteller.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/user/neteller
 redirect_from: 
 developerName: Paysafe Holdings UK Limited
+builds: 
 features: 
 
 ---

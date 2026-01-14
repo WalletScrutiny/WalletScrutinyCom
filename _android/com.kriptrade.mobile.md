@@ -8,8 +8,8 @@ users: 5000
 appId: com.kriptrade.mobile
 appCountry: 
 released: 2021-10-20
-updated: 2025-10-30
-version: 3.2.0
+updated: 2025-12-30
+version: 3.2.3
 stars: 4.1
 ratings: 
 reviews: 
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCJxN4di4kXY89NxOiv3K6BA
 redirect_from: 
 developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
+builds: 
 features: 
 
 ---

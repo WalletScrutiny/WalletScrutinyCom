@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/financefreedomsuccess
 redirect_from: 
 developerName: FBS.com
+builds: 
 features: 
 
 ---

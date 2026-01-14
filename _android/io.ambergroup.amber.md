@@ -8,8 +8,8 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2025-10-16
-version: 3.3.5
+updated: 2026-01-07
+version: 3.5.0
 stars: 4.6
 ratings: 2656
 reviews: 238
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ambergroup.io
 redirect_from: 
 developerName: Amber AI Limited
+builds: 
 features: 
 
 ---

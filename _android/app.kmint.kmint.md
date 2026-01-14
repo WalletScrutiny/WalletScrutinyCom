@@ -29,6 +29,7 @@ social:
 - https://kmint-protocol.medium.com/
 redirect_from: 
 developerName: BPMG Inc.
+builds: 
 features: 
 
 ---

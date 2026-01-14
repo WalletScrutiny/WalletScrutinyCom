@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/koinkoin-ltd/
 redirect_from: 
 developerName: KoinKoin Development Enterprise
+builds: 
 features: 
 
 ---

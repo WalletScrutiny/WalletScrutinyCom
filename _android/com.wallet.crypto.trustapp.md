@@ -9,11 +9,11 @@ users: 50000000
 appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
-updated: 2025-11-02
-version: 8.69.2
+updated: 2026-01-08
+version: 8.78.1
 stars: 4.5
 ratings: 841930
-reviews: 20562
+reviews: 20786
 website: https://trustwallet.com/
 repository: 
 issue: 
@@ -34,6 +34,7 @@ redirect_from:
 - /posts/2019/11/trust/
 - /posts/com.wallet.crypto.trustapp/
 developerName: DApps Platform, Inc.
+builds: 
 features: 
 
 ---

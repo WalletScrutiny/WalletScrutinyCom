@@ -32,6 +32,7 @@ social:
 - https://www.reddit.com/r/Tidex_Global
 redirect_from: 
 developerName: Tidex
+builds: 
 features: 
 
 ---

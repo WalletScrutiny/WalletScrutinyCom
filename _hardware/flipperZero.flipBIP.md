@@ -30,6 +30,7 @@ date: 2023-12-22
 signer: 
 twitter: flipper_zero
 social: 
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured
 redirect_from: 
 developerName: KCNET CO.,LTD
+builds: 
 features: 
 
 ---

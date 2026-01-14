@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/ccwallet.mobileapp
 redirect_from: 
 developerName: CoinCasso OU
+builds: 
 features: 
 
 ---

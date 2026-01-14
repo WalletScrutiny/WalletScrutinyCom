@@ -8,8 +8,8 @@ users: 1000000
 appId: com.nanovest.prod
 appCountry: 
 released: 2023-06-08
-updated: 2025-10-18
-version: 4.20.0
+updated: 2025-12-23
+version: 4.25.0
 stars: 4.4
 ratings: 
 reviews: 30
@@ -32,6 +32,7 @@ social:
 - https://t.me/nanovest
 redirect_from: 
 developerName: Nanovest
+builds: 
 features: 
 
 ---

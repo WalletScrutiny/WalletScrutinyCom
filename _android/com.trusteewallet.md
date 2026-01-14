@@ -14,16 +14,16 @@ updated: 2024-11-14
 version: 1.51.10
 stars: 3.9
 ratings: 2467
-reviews: 60
+reviews: 61
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: sourceavailable
 appHashes: []
-date: 2025-01-22
+date: 2025-11-10
 signer: 
 twitter: Trustee_Wallet
 social:
@@ -32,6 +32,7 @@ redirect_from:
 - /com.trusteewallet/
 - /posts/com.trusteewallet/
 developerName: BlockSoft Lab
+builds: 
 features: 
 
 ---

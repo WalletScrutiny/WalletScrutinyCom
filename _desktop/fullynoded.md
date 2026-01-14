@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-08-13
 discontinued: 
-updated: 2024-07-11
-version: 1.1.2
+updated: 2025-11-26
+version: 2.1.0
 binaries: 
 provider: Denton LLC
 providerWebsite: 
@@ -20,6 +20,7 @@ verdict: sourceavailable
 date: 2024-04-25
 twitter: FullyNoded
 social: 
+builds: 
 features: 
 
 ---

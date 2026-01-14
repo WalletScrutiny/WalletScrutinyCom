@@ -31,6 +31,7 @@ social:
 - https://medium.com/@EMIREX_OFFICIAL
 redirect_from: 
 developerName: Emirex
+builds: 
 features: 
 
 ---

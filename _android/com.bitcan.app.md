@@ -27,6 +27,7 @@ twitter: bitkanofficial
 social: 
 redirect_from: 
 developerName: bitkan.com
+builds: 
 features: 
 
 ---

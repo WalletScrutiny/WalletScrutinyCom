@@ -27,6 +27,7 @@ twitter: Coinhub_Wallet
 social: 
 redirect_from: 
 developerName: Coinhub
+builds: 
 features: 
 
 ---

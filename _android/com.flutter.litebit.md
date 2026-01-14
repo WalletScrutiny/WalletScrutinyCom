@@ -30,6 +30,7 @@ social:
 redirect_from:
 - /com.flutter.litebit/
 developerName: 2525 Ventures BV
+builds: 
 features: 
 
 ---

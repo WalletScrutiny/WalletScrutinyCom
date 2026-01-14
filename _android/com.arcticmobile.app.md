@@ -31,6 +31,7 @@ social:
 - https://medium.com/@marketing_43986
 redirect_from: 
 developerName: ARCTIC SOFTWARE OÜ
+builds: 
 features: 
 
 ---

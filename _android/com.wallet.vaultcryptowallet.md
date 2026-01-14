@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/Bitcoin-Pay-110590501255347
 redirect_from: 
 developerName: Bitcoin Pay
+builds: 
 features: 
 
 ---

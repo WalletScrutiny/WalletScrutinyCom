@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/AscendEX_Official
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

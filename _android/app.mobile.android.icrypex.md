@@ -31,6 +31,7 @@ social:
 - https://www.tiktok.com/@icrypex
 redirect_from: 
 developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/channel/UCX_OGHBVQu2-AJpSCh47KSA
 redirect_from: 
 developerName: Nineteen Realtech Labs Pvt Ltd
+builds: 
 features: 
 
 ---

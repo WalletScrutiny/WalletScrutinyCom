@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: cz.hundredspires.wexo.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-06-30
+date: 2025-11-26
 signer: 
 twitter: WexoOfficial
 social:
@@ -31,6 +31,7 @@ social:
 - https://discord.com/invite/jhqwr7KFCn
 redirect_from: 
 developerName: CRYPTON DIGITAL, SE
+builds: 
 features: 
 
 ---

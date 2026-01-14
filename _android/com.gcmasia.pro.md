@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/GCMASIA.Forex.Trading.Platform
 redirect_from: 
 developerName: GCM Europe Ltd
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bitturk
 redirect_from: 
 developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
+builds: 
 features: 
 
 ---

@@ -7,11 +7,11 @@ users: 500000
 appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
-updated: 2025-10-30
-version: 6.202520.1
+updated: 2025-12-08
+version: 6.202523.0
 stars: 4.6
 ratings: 14091
-reviews: 1222
+reviews: 1225
 website: https://perawallet.app
 repository: 
 issue: 
@@ -27,6 +27,7 @@ social:
 redirect_from:
 - /com.algorand.android/
 developerName: Pera Wallet
+builds: 
 features: 
 
 ---

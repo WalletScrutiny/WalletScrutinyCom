@@ -8,8 +8,8 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2025-10-29
-version: 14.7.1
+updated: 2026-01-02
+version: 15.2.0
 stars: 3.6
 ratings: 
 reviews: 4
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/c/SyfeSG
 redirect_from: 
 developerName: Syfe
+builds: 
 features: 
 
 ---

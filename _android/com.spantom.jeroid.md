@@ -4,15 +4,15 @@ title: Jeroid
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.spantom.jeroid
 appCountry: us
 released: 2020-07-05
 updated: 2025-08-15
 version: 2.2.7
-stars: 3.3
+stars: 3.4
 ratings: 248
-reviews: 51
+reviews: 57
 website: https://www.jeroid.co/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: jeroidng
 social: 
 redirect_from: 
 developerName: JeroidNG LTD
+builds: 
 features: 
 
 ---

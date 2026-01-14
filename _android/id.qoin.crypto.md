@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: id.qoin.crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-12-01
 signer: 
 twitter: qoinpay
 social:
@@ -32,6 +32,7 @@ social:
 - https://t.me/Qoinpay
 redirect_from: 
 developerName: PT. Loyalty Program Indonesia
+builds: 
 features: 
 
 ---

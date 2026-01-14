@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/ATAIXcom
 redirect_from: 
 developerName: EuroToken OÜ
+builds: 
 features: 
 
 ---

@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/gateioglobal
 redirect_from: 
 developerName: Gate Global, Corp.
+builds: 
 features: 
 
 ---

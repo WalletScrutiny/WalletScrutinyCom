@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/channel/UCSzxEpB-NnWm-PxLEE7ihTQ
 redirect_from: 
 developerName: Jara Wallet
+builds: 
 features: 
 
 ---

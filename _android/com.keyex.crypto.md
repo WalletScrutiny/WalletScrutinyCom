@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: DIGIFACTOR TEKNOLOJI ANONIM SIRKETI
+builds: 
 features: 
 
 ---

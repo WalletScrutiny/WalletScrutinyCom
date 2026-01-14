@@ -29,6 +29,7 @@ social:
 - https://t.me/COVO_FINANCE
 redirect_from: 
 developerName: Covo Wallet
+builds: 
 features: 
 
 ---

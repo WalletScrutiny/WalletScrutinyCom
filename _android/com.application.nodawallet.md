@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/NodaWallet
 redirect_from: 
 developerName: noda
+builds: 
 features: 
 
 ---

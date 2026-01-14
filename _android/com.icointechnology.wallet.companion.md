@@ -10,18 +10,18 @@ appCountry:
 released: 2022-02-15
 updated: 2024-11-16
 version: 1.4.3.123
-stars: 4.3
+stars: 3.9
 ratings: 
-reviews: 4
+reviews: 5
 website: https://icointechnology.com/
 repository: 
 issue: 
 icon: com.icointechnology.wallet.companion.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2025-02-28
+date: 2025-11-26
 signer: 
 twitter: icoin_crypto
 social:
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/icoin_crypto
 redirect_from: 
 developerName: iCoin Technology
+builds: 
 features: 
 
 ---

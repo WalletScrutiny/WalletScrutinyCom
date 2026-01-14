@@ -9,11 +9,11 @@ users: 1000000
 appId: io.atomicwallet
 appCountry: 
 released: 2019-01-30
-updated: 2025-10-29
-version: 1.38.6
+updated: 2025-12-10
+version: 1.39.4
 stars: 4.4
 ratings: 62655
-reviews: 5810
+reviews: 5819
 website: https://atomicwallet.io
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/atomicwallet
 redirect_from: 
 developerName: Atomic Wallet
+builds: 
 features: 
 
 ---

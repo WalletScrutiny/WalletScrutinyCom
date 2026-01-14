@@ -8,10 +8,10 @@ appId: com.trusteeplus1
 appCountry: us
 idd: '1634455978'
 released: 2022-07-18
-updated: 2025-10-30
-version: 1.32.34
+updated: 2025-11-27
+version: 1.32.36
 stars: 4.5
-reviews: 111
+reviews: 114
 website: 
 repository: 
 issue: 

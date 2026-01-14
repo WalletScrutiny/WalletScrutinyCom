@@ -8,8 +8,8 @@ users: 500000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2025-09-12
-version: 4.5.02
+updated: 2025-11-14
+version: 4.5.04
 stars: 4.5
 ratings: 22977
 reviews: 50
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Rekeningkucom
 redirect_from: 
 developerName: PT Rekeningku Dotcom Indonesia
+builds: 
 features: 
 
 ---

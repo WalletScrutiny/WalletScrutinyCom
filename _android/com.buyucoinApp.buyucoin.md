@@ -32,6 +32,7 @@ redirect_from:
 - /com.buyucoinApp.buyucoin/
 - /posts/com.buyucoinApp.buyucoin/
 developerName: Iblock Technologies Private Limited
+builds: 
 features: 
 
 ---

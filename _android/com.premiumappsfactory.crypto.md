@@ -17,15 +17,16 @@ repository:
 issue: 
 icon: com.premiumappsfactory.crypto.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-12-27
+date: 2026-01-08
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: Premium Apps Factory
+builds: 
 features: 
 
 ---

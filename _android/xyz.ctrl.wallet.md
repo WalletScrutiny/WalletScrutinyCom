@@ -8,11 +8,11 @@ users: 10000
 appId: xyz.ctrl.wallet
 appCountry: 
 released: 2024-11-29
-updated: 2025-10-28
-version: 2.7.0
-stars: 4.1
+updated: 2025-12-11
+version: 3.0.1
+stars: 3.6
 ratings: 
-reviews: 3
+reviews: 4
 website: https://ctrl.xyz
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://discord.gg/ctrlwallet
 redirect_from: 
 developerName: Ctrl Wallet
+builds: 
 features: 
 
 ---

@@ -27,6 +27,7 @@ twitter: MutinyWallet
 social: 
 redirect_from: 
 developerName: Mutiny Wallet
+builds: 
 features: 
 
 ---

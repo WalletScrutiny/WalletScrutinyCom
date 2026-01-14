@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /com.crypterium/
 developerName: UAB Choise Servises
+builds: 
 features: 
 
 ---

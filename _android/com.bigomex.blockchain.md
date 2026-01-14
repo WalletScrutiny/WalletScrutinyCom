@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/bigomex
 redirect_from: 
 developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
+builds: 
 features: 
 
 ---

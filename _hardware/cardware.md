@@ -33,6 +33,7 @@ social:
 - https://t.me/cardwarewallet
 - https://discord.com/invite/dgDXR85CXB
 - https://www.linkedin.com/company/cardware-wallet
+builds: 
 features: 
 
 ---

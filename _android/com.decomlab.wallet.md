@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/moonwallet.net
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

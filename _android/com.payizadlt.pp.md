@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/payizamoney
 redirect_from: 
 developerName: Payiza tech
+builds: 
 features: 
 
 ---

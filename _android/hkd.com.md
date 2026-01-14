@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/hkdexchange/?hl=en
 redirect_from: 
 developerName: HKD.com Limited
+builds: 
 features: 
 
 ---

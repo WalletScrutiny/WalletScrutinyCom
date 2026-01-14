@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: abcwalletSafeWeb3Wallet
 title: ABC Wallet - Safe Web3 wallet
 altTitle: 
-authors: 
+authors:
+- danny
 appId: io.myabcwallet.mpc
 appCountry: us
 idd: '1642837445'
@@ -17,14 +18,17 @@ issue:
 icon: io.myabcwallet.mpc.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2026-01-14
+date: 2025-12-27
 signer: 
-twitter: 
-social: 
+twitter: AhnLab_ABC
+social:
+- https://www.facebook.com/abcwallet2022
+- https://www.youtube.com/@AhnLabBlockchainCompany 
 features: 
 developerName: AhnLab Blockchain Company, INC.
 
 ---
 
+{% include copyFromAndroid.html %}

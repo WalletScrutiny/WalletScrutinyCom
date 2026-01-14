@@ -31,6 +31,7 @@ social:
 - https://t.me/goodpayglobal
 redirect_from: 
 developerName: Vaisen
+builds: 
 features: 
 
 ---

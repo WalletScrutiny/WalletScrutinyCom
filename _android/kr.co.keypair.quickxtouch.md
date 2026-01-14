@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/QuickX
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

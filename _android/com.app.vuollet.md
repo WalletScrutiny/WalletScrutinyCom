@@ -28,6 +28,7 @@ social:
 - https://t.me/vuollet
 redirect_from: 
 developerName: Codego Limited
+builds: 
 features: 
 
 ---

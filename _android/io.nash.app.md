@@ -29,6 +29,7 @@ social:
 - https://www.linkedin.com/company/nashsocial
 redirect_from: 
 developerName: nash.io
+builds: 
 features: 
 
 ---

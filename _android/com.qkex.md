@@ -28,6 +28,7 @@ social:
 - https://t.me/qkexglobal1
 redirect_from: 
 developerName: QKEx Android
+builds: 
 features: 
 
 ---

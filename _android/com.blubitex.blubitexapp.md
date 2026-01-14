@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/blubitexofficial
 redirect_from: 
 developerName: BLUBITEX LIMITED
+builds: 
 features: 
 
 ---

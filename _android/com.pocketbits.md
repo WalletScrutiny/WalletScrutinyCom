@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Pocketbits.in
 redirect_from: 
 developerName: Defacto Technologies Pvt Ltd
+builds: 
 features: 
 
 ---

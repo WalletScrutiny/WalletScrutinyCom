@@ -8,8 +8,8 @@ users: 100000
 appId: com.relai
 appCountry: 
 released: 
-updated: 2025-10-15
-version: 3.6.2
+updated: 2025-12-29
+version: 3.9.0
 stars: 
 ratings: 
 reviews: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/relai.app
 redirect_from: 
 developerName: Relai
+builds: 
 features: 
 
 ---

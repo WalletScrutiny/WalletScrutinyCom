@@ -10,8 +10,8 @@ idd: '1546701475'
 released: 2021-04-06
 updated: 2025-05-27
 version: 2.12.2
-stars: 4.5
-reviews: 16
+stars: 4.3
+reviews: 17
 website: https://citadel.one/
 repository: 
 issue: 

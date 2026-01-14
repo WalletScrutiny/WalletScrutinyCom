@@ -11,7 +11,7 @@ appCountry:
 released: 2023-03-26
 updated: 2025-09-05
 version: 1.0.0
-stars: 4
+stars: 4.3
 ratings: 
 reviews: 4
 website: https://bitbanana.app/
@@ -33,6 +33,7 @@ social:
 - https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
 redirect_from: 
 developerName: Michael Wünsch
+builds: 
 features: 
 
 ---

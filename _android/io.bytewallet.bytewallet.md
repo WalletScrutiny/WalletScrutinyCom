@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-20
 updated: 2025-10-02
 version: VARY
-stars: 3.6
+stars: 3.7
 ratings: 
-reviews: 49
+reviews: 50
 website: https://www.bytefederal.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.linkedin.com/company/bytefederal
 redirect_from: 
 developerName: Byte Federal, Inc
+builds: 
 features: 
 
 ---

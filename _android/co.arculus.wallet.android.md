@@ -8,11 +8,11 @@ users: 10000
 appId: co.arculus.wallet.android
 appCountry: 
 released: 2021-10-06
-updated: 2025-10-07
-version: 3.10.0.3
+updated: 2025-12-11
+version: 3.10.1
 stars: 4.7
 ratings: 
-reviews: 201
+reviews: 221
 website: https://getarculus.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/thisisarculus/
 redirect_from: 
 developerName: Arculus Holdings L.L.C.
+builds: 
 features: 
 
 ---

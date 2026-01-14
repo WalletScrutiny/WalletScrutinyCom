@@ -8,11 +8,11 @@ users: 5000
 appId: com.getalby.mobile
 appCountry: 
 released: 2024-09-16
-updated: 2025-11-01
-version: 1.15.0
-stars: 4.4
+updated: 2025-12-22
+version: 2.0.0
+stars: 4.5
 ratings: 
-reviews: 14
+reviews: 15
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://discord.com/invite/5wG4Gr5Fxm
 redirect_from: 
 developerName: Alby Inc.
+builds: 
 features: 
 
 ---

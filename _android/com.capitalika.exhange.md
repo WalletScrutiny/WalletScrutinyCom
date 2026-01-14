@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/capitalika/
 redirect_from: 
 developerName: CAPITALIKA®
+builds: 
 features: 
 
 ---

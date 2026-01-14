@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinstats.crypto.portfolio
 appCountry: 
 released: 2018-04-27
-updated: 2025-11-04
-version: 5.26.1
+updated: 2026-01-06
+version: 5.27.3
 stars: 4.5
 ratings: 
-reviews: 2609
+reviews: 2633
 website: https://coinstats.app
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/CoinStats
 redirect_from: 
 developerName: Coin Stats, Inc . - Crypto Portfolio Tracker App
+builds: 
 features: 
 
 ---

@@ -4,15 +4,15 @@ title: Primal
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: net.primal.android
 appCountry: 
 released: 2024-07-09
-updated: 2025-10-28
-version: 2.5.22
+updated: 2025-12-31
+version: 2.6.18
 stars: 3.9
 ratings: 
-reviews: 18
+reviews: 24
 website: https://www.primal.net
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: PRIMAL SYSTEMS INC.
+builds: 
 features:
 - ln
 

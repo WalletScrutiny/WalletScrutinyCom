@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCKgAeaCl3YJ6sk_tTxyfq-Q
 redirect_from: 
 developerName: DIGILYO APP LTD
+builds: 
 features: 
 
 ---

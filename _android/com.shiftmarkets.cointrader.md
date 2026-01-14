@@ -30,6 +30,7 @@ social:
 - https://shiftmarkets.medium.com
 redirect_from: 
 developerName: Shift Markets Ltd
+builds: 
 features: 
 
 ---

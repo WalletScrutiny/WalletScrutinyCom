@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CoinCorner Ltd
+builds: 
 features: 
 
 ---

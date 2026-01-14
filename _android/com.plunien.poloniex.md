@@ -8,11 +8,11 @@ users: 500000
 appId: com.plunien.poloniex
 appCountry: 
 released: 2017-06-19
-updated: 2025-10-23
-version: 2.26.0
-stars: 3.2
+updated: 2026-01-06
+version: 2.32.1
+stars: 3.1
 ratings: 7425
-reviews: 238
+reviews: 240
 website: https://support.poloniex.com/
 repository: 
 issue: 
@@ -30,6 +30,7 @@ redirect_from:
 - /com.plunien.poloniex/
 - /posts/com.plunien.poloniex/
 developerName: poloniex
+builds: 
 features: 
 
 ---

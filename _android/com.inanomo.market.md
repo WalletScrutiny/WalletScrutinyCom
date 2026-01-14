@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Inanomo/
 redirect_from: 
 developerName: Inanomo Technologies LLC
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
 released: 2012-11-01
-updated: 2025-10-30
-version: 3.11.0
+updated: 2025-12-10
+version: 3.12.0
 stars: 4
 ratings: 
 reviews: 3
@@ -32,6 +32,7 @@ social:
 - https://www.tiktok.com/@swissquote_official
 redirect_from: 
 developerName: Swissquote Mobile
+builds: 
 features: 
 
 ---

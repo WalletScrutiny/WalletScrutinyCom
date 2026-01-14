@@ -18,16 +18,17 @@ repository:
 issue: 
 icon: com.nobillio.coinbaazar.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-12-04
+date: 2025-11-26
 signer: 
 twitter: coin_baazar
 social:
 - https://www.facebook.com/officialcoinbaazar
 redirect_from: 
 developerName: Coinbaazar Exchange Team
+builds: 
 features: 
 
 ---

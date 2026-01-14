@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitqik
 appCountry: 
 released: 2022-09-23
-updated: 2025-09-19
-version: 3.3.1
+updated: 2025-11-10
+version: 3.3.2
 stars: 
 ratings: 
 reviews: 
@@ -32,6 +32,7 @@ social:
 - https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA
 redirect_from: 
 developerName: bitqik
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitmex.app.android
 appCountry: 
 released: 
-updated: 2025-10-22
-version: 3.1.12
+updated: 2025-12-22
+version: 3.2.1
 stars: 3.2
 ratings: 
 reviews: 
@@ -29,6 +29,7 @@ social:
 - https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
 redirect_from: 
 developerName: BitMEX
+builds: 
 features: 
 
 ---

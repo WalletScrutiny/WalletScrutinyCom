@@ -8,10 +8,10 @@ appId: com.kriptrade.mobile
 appCountry: tr
 idd: '1591104692'
 released: 2021-10-28
-updated: 2025-10-31
-version: 3.2.0
+updated: 2025-11-14
+version: 3.2.1
 stars: 4.6
-reviews: 41
+reviews: 42
 website: https://kriptrade.com
 repository: 
 issue: 

@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/vsolidus/
 redirect_from: 
 developerName: Nova Coin Ltd.
+builds: 
 features: 
 
 ---

@@ -32,6 +32,7 @@ social:
 - https://medium.com/@cointrbtc
 redirect_from: 
 developerName: CoinTR pro
+builds: 
 features: 
 
 ---

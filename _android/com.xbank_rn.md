@@ -30,6 +30,7 @@ social:
 - https://medium.com/@xBankCrypto
 redirect_from: 
 developerName: xbank.plus
+builds: 
 features: 
 
 ---

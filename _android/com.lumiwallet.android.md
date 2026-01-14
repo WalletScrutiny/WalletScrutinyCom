@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-07-01
+date: 2025-11-26
 signer: 
 twitter: Lumi_wallet
 social:
@@ -30,6 +30,7 @@ redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
 developerName: Raias Llc
+builds: 
 features: 
 
 ---

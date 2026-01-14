@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/Spend
 redirect_from: 
 developerName: Spend CA Inc
+builds: 
 features: 
 
 ---

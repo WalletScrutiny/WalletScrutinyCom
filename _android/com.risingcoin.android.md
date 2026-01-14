@@ -32,6 +32,7 @@ social:
 - https://t.me/risingcoin_rsc
 redirect_from: 
 developerName: Rising Coin
+builds: 
 features: 
 
 ---

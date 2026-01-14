@@ -30,6 +30,7 @@ social:
 - https://discord.gg/zs569ytTkd
 redirect_from: 
 developerName: HASHKEY HUB LIMITED
+builds: 
 features: 
 
 ---

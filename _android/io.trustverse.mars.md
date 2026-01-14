@@ -31,6 +31,7 @@ social:
 - https://trustverse-official.medium.com
 redirect_from: 
 developerName: TrustVerse(DigiFinance)
+builds: 
 features: 
 
 ---

@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/imxapp/
 redirect_from: 
 developerName: IMSMART Company LTD
+builds: 
 features: 
 
 ---

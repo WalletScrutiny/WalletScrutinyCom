@@ -30,6 +30,7 @@ redirect_from:
 - /com.krakenfutures/
 - /posts/com.krakenfutures/
 developerName: Payward, Inc.
+builds: 
 features: 
 
 ---

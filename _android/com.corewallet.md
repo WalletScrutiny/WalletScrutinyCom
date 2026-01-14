@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: CORE Technology
+builds: 
 features: 
 
 ---

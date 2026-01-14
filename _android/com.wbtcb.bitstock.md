@@ -28,6 +28,7 @@ social:
 - https://www.bit.plus/
 redirect_from: 
 developerName: IP wBTCb solutions, s.r.o.
+builds: 
 features: 
 
 ---

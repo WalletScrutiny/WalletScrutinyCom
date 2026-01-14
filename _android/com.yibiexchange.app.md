@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@YibiOfficial/video
 redirect_from: 
 developerName: YIBI
+builds: 
 features: 
 
 ---

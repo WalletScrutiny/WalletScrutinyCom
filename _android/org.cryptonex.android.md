@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/Cryptonex.org
 redirect_from: 
 developerName: Cryptonex LP
+builds: 
 features: 
 
 ---

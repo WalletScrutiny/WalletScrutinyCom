@@ -29,6 +29,7 @@ social:
 redirect_from:
 - /io.freewallet.mobile/
 developerName: Jeremy Johnson
+builds: 
 features: 
 
 ---

@@ -6,8 +6,8 @@ authors:
 - danny
 released: 2009-01-04
 discontinued: 
-updated: 2025-10-13
-version: 30
+updated: 2026-01-02
+version: 30.1
 binaries: https://bitcoincore.org/en/download
 provider: Bitcoin Core Developers
 providerWebsite: 
@@ -20,15 +20,21 @@ meta: ok
 verdict: sourceavailable
 date: 2025-09-05
 twitter: bitcoincoreorg
-social:
-features:
-architectures:
-- x86_64-linux-gnu
-- aarch64-linux-gnu
-- arm-linux-gnueabihf
-- x86_64-w64-mingw32
-- x86_64-apple-darwin
-- arm64-apple-darwin
+social: 
+builds:
+- arch: x86_64-linux
+  types:
+  - tarball
+- arch: aarch64-linux
+  types:
+  - tarball
+- arch: arm-linux
+  types:
+  - tarball
+- arch: x86_64-windows
+  types:
+  - zip
+features: 
 
 ---
 

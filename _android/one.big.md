@@ -8,8 +8,8 @@ users: 100000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2025-10-31
-version: 2.6.120
+updated: 2025-12-19
+version: 2.6.2
 stars: 3.9
 ratings: 836
 reviews: 56
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BigONEExchange
 redirect_from: 
 developerName: BigONE
+builds: 
 features: 
 
 ---

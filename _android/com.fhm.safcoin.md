@@ -30,6 +30,7 @@ social:
 - https://t.me/SafcoinGroup
 redirect_from: 
 developerName: SAFCOIN
+builds: 
 features: 
 
 ---

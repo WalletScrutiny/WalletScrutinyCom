@@ -12,7 +12,7 @@ updated: 2025-10-11
 version: V4.3
 stars: 4.1
 ratings: 
-reviews: 6352
+reviews: 6349
 website: https://vgxfoundation.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter: safemoon
 social: 
 redirect_from: 
 developerName: VGX Foundation
+builds: 
 features: 
 
 ---

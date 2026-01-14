@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Flipster: Trade BTC ETH & SOL'
+title: 'Flipster: Crypto Futures Trade'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2025-10-31
-version: 2.43.101
+updated: 2025-12-31
+version: 2.51.108
 stars: 2.9
 ratings: 
-reviews: 76
+reviews: 75
 website: https://flipster.io
 repository: 
 issue: 
@@ -32,6 +32,7 @@ social:
 - https://t.me/aqxannouncement
 redirect_from: 
 developerName: Flipster Exchange
+builds: 
 features: 
 
 ---

@@ -8,8 +8,8 @@ users: 1000
 appId: org.talkapp
 appCountry: 
 released: 2021-01-05
-updated: 2025-10-18
-version: 2.71.0
+updated: 2025-12-24
+version: 3.0.2
 stars: 3.3
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Bull.B Technology Limited
+builds: 
 features: 
 
 ---

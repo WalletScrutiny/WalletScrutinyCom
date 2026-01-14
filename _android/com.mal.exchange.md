@@ -8,8 +8,8 @@ users: 100000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11
-updated: 2025-09-24
-version: 1.0.53
+updated: 2025-12-22
+version: 1.0.57
 stars: 4.2
 ratings: 
 reviews: 34
@@ -30,6 +30,7 @@ social:
 - http://tiktok.com/@mal.io1
 redirect_from: 
 developerName: MAL finance مال
+builds: 
 features: 
 
 ---

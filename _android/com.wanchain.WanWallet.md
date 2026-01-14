@@ -30,6 +30,7 @@ social:
 - https://github.com/wanchain
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://t.me/bitmain
 - https://www.youtube.com/c/Bitmain_official
 - https://www.facebook.com/BITMAIN
+builds: 
 features: 
 
 ---

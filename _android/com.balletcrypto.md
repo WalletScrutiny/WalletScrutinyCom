@@ -7,11 +7,11 @@ users: 10000
 appId: com.balletcrypto
 appCountry: 
 released: 2019-08-08
-updated: 2025-10-16
-version: 2.23.1
+updated: 2026-01-05
+version: 2.25.5
 stars: 4.8
 ratings: 658
-reviews: 161
+reviews: 164
 website: https://www.ballet.com/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/BalletCrypto
 redirect_from: 
 developerName: Ballet Global Inc.
+builds: 
 features: 
 
 ---

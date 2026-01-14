@@ -1,6 +1,6 @@
 ---
 wsId: fassetCrypto
-title: 'Fasset: Invest, Earn and Spend'
+title: 'Fasset: Global Digital Bank'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 500000
 appId: com.fasset.cashapp
 appCountry: 
 released: 2021-12-14
-updated: 2025-10-14
-version: '5.78'
-stars: 4.1
+updated: 2025-12-31
+version: '5.84'
+stars: 3.8
 ratings: 
 reviews: 7
 website: https://www.fasset.io/
@@ -31,6 +31,7 @@ social:
 - https://t.me/+WHV71rgNlWEchWKr
 redirect_from: 
 developerName: Fasset Labuan Limited
+builds: 
 features: 
 
 ---

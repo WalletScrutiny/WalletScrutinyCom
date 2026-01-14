@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/coinlib/
 redirect_from: 
 developerName: Coinlib
+builds: 
 features: 
 
 ---

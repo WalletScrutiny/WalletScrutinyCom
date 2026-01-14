@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 10
+reviews: 11
 website: https://icmarkets.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.linkedin.com/company/icmarkets
 redirect_from: 
 developerName: Raw Trading Ltd
+builds: 
 features: 
 
 ---

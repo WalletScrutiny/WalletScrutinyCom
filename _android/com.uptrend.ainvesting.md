@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.uptrend.ainvesting.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2023-06-07
+date: 2025-12-18
 signer: 
 twitter: 
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
 redirect_from: 
 developerName: Up Trend LTD
+builds: 
 features: 
 
 ---

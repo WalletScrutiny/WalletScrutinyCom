@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/Changelly
 redirect_from: 
 developerName: PRO – Cryptocurrency Trading Platform
+builds: 
 features: 
 
 ---

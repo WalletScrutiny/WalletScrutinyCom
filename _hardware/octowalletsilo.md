@@ -31,6 +31,7 @@ signer:
 twitter: octowallet
 social:
 - https://www.facebook.com/OctoWallet-276588143113128
+builds: 
 features: 
 
 ---

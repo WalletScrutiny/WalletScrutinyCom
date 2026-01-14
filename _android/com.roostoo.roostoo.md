@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/roostoo_crypto
 redirect_from: 
 developerName: Roostoo
+builds: 
 features: 
 
 ---

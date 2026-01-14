@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw
 redirect_from: 
 developerName: Globe Monnaie SRL
+builds: 
 features: 
 
 ---

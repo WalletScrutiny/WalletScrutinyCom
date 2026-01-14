@@ -30,6 +30,7 @@ social:
 - https://www.reddit.com/r/blockfi
 redirect_from: 
 developerName: BlockFi
+builds: 
 features: 
 
 ---

@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/@bravepayofficial
 redirect_from: 
 developerName: BravePay
+builds: 
 features: 
 
 ---

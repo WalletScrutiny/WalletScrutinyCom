@@ -12,7 +12,7 @@ updated: 2025-10-20
 version: 7.2.26
 stars: 4.3
 ratings: 
-reviews: 1675
+reviews: 1738
 website: https://cryptocompany.site/
 repository: 
 issue: 
@@ -27,7 +27,8 @@ twitter: CryptoTabnet
 social:
 - https://www.facebook.com/CryptoTabFamilyOfficial
 redirect_from: 
-developerName: CryptoCompany OU
+developerName: CT Systems
+builds: 
 features: 
 
 ---

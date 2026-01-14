@@ -12,7 +12,7 @@ updated: 2025-07-14
 version: '2.0'
 stars: 4.5
 ratings: 
-reviews: 4307
+reviews: 4310
 website: http://freebitcoinapp.net/
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: Xbank Technologies SL
+builds: 
 features: 
 
 ---

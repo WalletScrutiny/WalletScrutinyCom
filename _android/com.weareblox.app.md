@@ -8,8 +8,8 @@ users: 100000
 appId: com.weareblox.app
 appCountry: 
 released: 
-updated: 2025-10-27
-version: 6.6.3
+updated: 2026-01-04
+version: 6.7.7
 stars: 3.4
 ratings: 
 reviews: 
@@ -32,6 +32,7 @@ social:
 - https://bloxcrypto.medium.com
 redirect_from: 
 developerName: BLOX (Weareblox) - bitcoin & other crypto currency
+builds: 
 features: 
 
 ---

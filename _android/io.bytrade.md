@@ -34,6 +34,7 @@ social:
 - https://www.instagram.com/bytradeio
 redirect_from: 
 developerName: ByTrade
+builds: 
 features: 
 
 ---

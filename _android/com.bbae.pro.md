@@ -12,7 +12,7 @@ updated: 2025-10-23
 version: 7.1.0
 stars: 4.2
 ratings: 
-reviews: 26
+reviews: 27
 website: https://www.bbae.com
 repository: 
 issue: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: BBAE
+builds: 
 features: 
 
 ---

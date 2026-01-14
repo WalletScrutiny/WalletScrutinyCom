@@ -32,6 +32,7 @@ social:
 - https://www.facebook.com/Atani.Official
 redirect_from: 
 developerName: Etoshi Technologies SL
+builds: 
 features: 
 
 ---

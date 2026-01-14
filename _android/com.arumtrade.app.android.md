@@ -30,6 +30,7 @@ social:
 - https://web.archive.org/web/20220208231508/https://arumtrade.com/en/
 redirect_from: 
 developerName: Arum Trade Ltd
+builds: 
 features: 
 
 ---

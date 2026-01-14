@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/tradehall_ltd
 redirect_from: 
 developerName: Tradehall Pte Ltd
+builds: 
 features: 
 
 ---

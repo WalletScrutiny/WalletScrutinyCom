@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/independentreserve
 redirect_from: 
 developerName: Independent Reserve
+builds: 
 features: 
 
 ---

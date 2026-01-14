@@ -1,30 +1,36 @@
 ---
-wsId: 
+wsId: coinFlipCrypto
 title: CoinFlip Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 appId: tech.coinflip.CoinFlip
 appCountry: us
 idd: '6502452721'
 released: '2024-06-05T07:00:00Z'
 updated: 2025-12-04
 version: 3.8.0
-stars: 4.58488
-reviews: 807
+stars: 4.58603
+reviews: 802
 website: https://coinflip.tech/
 repository: 
 issue: 
 icon: tech.coinflip.CoinFlip.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2026-01-14
+date: 2026-01-03
 signer: 
-twitter: 
-social: 
+twitter: coinflip
+social:
+- https://www.instagram.com/coinflip
+- https://www.facebook.com/CoinFlipATM
+- https://www.linkedin.com/company/coinflipusa
+- https://www.youtube.com/channel/UCBW95iOTlj46FuraynCeV1w 
 features: 
 developerName: GPD Holdings, L.L.C.
 
 ---
 
+{% include copyFromAndroid.html %}

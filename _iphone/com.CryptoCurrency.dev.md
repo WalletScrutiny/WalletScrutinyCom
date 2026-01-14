@@ -8,10 +8,10 @@ appId: com.CryptoCurrency.dev
 appCountry: us
 idd: '1339112917'
 released: 2018-02-21
-updated: 2025-10-11
-version: 3.4.8
+updated: 2025-11-08
+version: 3.4.9
 stars: 4.7
-reviews: 2463
+reviews: 2472
 website: https://thecrypto.app
 repository: 
 issue: 

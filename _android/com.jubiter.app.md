@@ -30,6 +30,7 @@ social:
 - https://www.facebook.com/JuBiterWallet
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

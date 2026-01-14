@@ -8,10 +8,10 @@ appId: com.dextrade.swap
 appCountry: ua
 idd: '1608922056'
 released: 2022-10-07
-updated: 2025-08-19
-version: 2.0.94
-stars: 3.7
-reviews: 3
+updated: 2025-11-30
+version: 2.0.106
+stars: 0
+reviews: 0
 website: 
 repository: 
 issue: 

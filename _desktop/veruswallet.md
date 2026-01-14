@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2019-12-16
 discontinued: 
-updated: 2025-10-17
-version: 1.2.12
+updated: 2026-01-08
+version: 1.2.14
 binaries: 
 provider: 
 providerWebsite: 
@@ -20,6 +20,7 @@ verdict: sourceavailable
 date: 2025-09-25
 twitter: veruscoin
 social: 
+builds: 
 features: 
 
 ---

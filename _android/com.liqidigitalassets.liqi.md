@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCVOWUQu6l71JB5hgkFsRVtQ
 redirect_from: 
 developerName: LIQI DIGITAL ASSETS
+builds: 
 features: 
 
 ---

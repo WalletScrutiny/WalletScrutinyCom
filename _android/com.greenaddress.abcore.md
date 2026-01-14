@@ -30,6 +30,7 @@ redirect_from:
 - /com.greenaddress.abcore/
 - /posts/com.greenaddress.abcore/
 developerName: GreenAddress IT Ltd
+builds: 
 features: 
 
 ---

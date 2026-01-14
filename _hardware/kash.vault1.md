@@ -28,6 +28,7 @@ signer:
 twitter: 
 social:
 - https://t.me/KashICO
+builds: 
 features: 
 
 ---

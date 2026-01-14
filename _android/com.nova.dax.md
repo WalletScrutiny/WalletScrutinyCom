@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/novadaxglobal
 redirect_from: 
 developerName: NOVADAX BRASIL PAGAMENTOS LTDA
+builds: 
 features: 
 
 ---

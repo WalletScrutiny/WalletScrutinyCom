@@ -18,15 +18,16 @@ repository: https://github.com/hoanghiephui/coindex-wallet-android
 issue: 
 icon: com.wallet.blockchain.bitcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fake
 appHashes: 
-date: 2025-08-28
+date: 2025-11-26
 signer: 
 twitter: 
 social: 
 redirect_from: 
 developerName: InvoVN Solutions
+builds: 
 features: 
 
 ---

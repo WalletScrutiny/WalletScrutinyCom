@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitflyer.android.bfwallet
 appCountry: jp
 released: 2019-10-19
-updated: 2025-10-30
-version: 8.59.0
+updated: 2025-12-25
+version: 8.61.0
 stars: 4.1
 ratings: 4430
-reviews: 1686
+reviews: 1692
 website: https://bitflyer.com
 repository: 
 issue: 
@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/bitflyer
 redirect_from: 
 developerName: bitFlyer
+builds: 
 features: 
 
 ---

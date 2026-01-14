@@ -18,16 +18,17 @@ repository:
 issue: 
 icon: network.gridlock.AppGridlock.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2022-12-08
+date: 2025-12-15
 signer: 
 twitter: GridlockCrypto
 social:
 - https://www.facebook.com/GridlockNetwork
 redirect_from: 
 developerName: Gridlock Inc.
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/botcoinpro/
 redirect_from: 
 developerName: Smart Tech Paradise
+builds: 
 features: 
 
 ---

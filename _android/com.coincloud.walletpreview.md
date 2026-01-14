@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCInWJCpASNIgENyo9uep0lA/videos
 redirect_from: 
 developerName: Coin Cloud
+builds: 
 features: 
 
 ---

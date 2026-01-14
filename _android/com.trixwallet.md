@@ -26,6 +26,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: 5Star Inn Company
+builds: 
 features: 
 
 ---

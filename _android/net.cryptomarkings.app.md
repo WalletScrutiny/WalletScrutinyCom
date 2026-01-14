@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/people/Cryptomarkings/100086460615673
 redirect_from: 
 developerName: Cryptomarkings
+builds: 
 features: 
 
 ---

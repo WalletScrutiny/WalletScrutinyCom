@@ -34,6 +34,7 @@ social:
 - https://www.reddit.com/user/rubycointrade
 redirect_from: 
 developerName: rubycoin
+builds: 
 features: 
 
 ---

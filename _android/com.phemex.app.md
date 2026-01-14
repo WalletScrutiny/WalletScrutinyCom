@@ -8,11 +8,11 @@ users: 1000000
 appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
-updated: 2025-10-22
-version: 5.7.0
+updated: 2025-12-29
+version: 5.11.0
 stars: 4.6
 ratings: 15997
-reviews: 1445
+reviews: 1449
 website: https://phemex.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/Phemex.official
 redirect_from: 
 developerName: JOIN MAGICP PTE. LTD.
+builds: 
 features: 
 
 ---

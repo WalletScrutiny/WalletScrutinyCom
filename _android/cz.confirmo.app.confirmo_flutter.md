@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/confirmo.net
 redirect_from: 
 developerName: CONFIRMO
+builds: 
 features: 
 
 ---

@@ -37,6 +37,7 @@ social:
 - https://t.me/coldcard
 - https://www.linkedin.com/company/coinkite
 - https://www.facebook.com/CoinKite
+builds: 
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2025-10-23
 version: 3.7.9
 stars: 4
 ratings: 
-reviews: 193
+reviews: 194
 website: https://rockitcoin.com
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.instagram.com/rockitcoin
 redirect_from: 
 developerName: RockItCoin
+builds: 
 features: 
 
 ---

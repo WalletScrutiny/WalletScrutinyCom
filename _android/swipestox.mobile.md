@@ -8,8 +8,8 @@ users: 500000
 appId: swipestox.mobile
 appCountry: gb
 released: 2015-10-20
-updated: 2025-10-14
-version: 8.0.430
+updated: 2026-01-06
+version: 8.0.440
 stars: 3.2
 ratings: 5636
 reviews: 200
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/nagainvesting
 redirect_from: 
 developerName: NAGA Markets Ltd.
+builds: 
 features: 
 
 ---

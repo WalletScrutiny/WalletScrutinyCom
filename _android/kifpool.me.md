@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ
 redirect_from: 
 developerName: zipboomlak
+builds: 
 features: 
 
 ---

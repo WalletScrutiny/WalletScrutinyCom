@@ -29,6 +29,7 @@ signer:
 twitter: 
 social:
 - https://www.facebook.com/zerotrace.org
+builds: 
 features: 
 
 ---

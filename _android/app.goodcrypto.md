@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Good Crypto: trading terminal'
+title: goodcryptoX trading terminal
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: app.goodcrypto
 appCountry: 
 released: 2019-05-20
-updated: 2025-08-12
-version: 2.3.3
-stars: 4.3
+updated: 2025-11-18
+version: 2.4.0
+stars: 4.2
 ratings: 1058
-reviews: 145
+reviews: 148
 website: https://goodcrypto.app
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /app.goodcrypto/
 developerName: GoodCrypto.App
+builds: 
 features: 
 
 ---

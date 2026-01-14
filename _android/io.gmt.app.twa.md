@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-22
 updated: 2025-11-04
 version: '66'
-stars: 4.2
+stars: 4.5
 ratings: 
-reviews: 1444
+reviews: 1685
 website: https://gomining.com
 repository: 
 issue: 
@@ -30,6 +30,7 @@ social:
 - https://www.instagram.com/Gomining_token
 redirect_from: 
 developerName: SIA GoMining Latvia
+builds: 
 features: 
 
 ---

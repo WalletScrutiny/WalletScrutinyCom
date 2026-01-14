@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/BitvoExchange
 redirect_from: 
 developerName: Bitvo Inc
+builds: 
 features: 
 
 ---

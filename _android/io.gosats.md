@@ -8,8 +8,8 @@ users: 500000
 appId: io.gosats
 appCountry: 
 released: 2021-01-06
-updated: 2025-10-30
-version: 2.7.6
+updated: 2025-12-19
+version: 2.7.8
 stars: 2.7
 ratings: 
 reviews: 4
@@ -27,6 +27,7 @@ twitter: gosatsapp
 social: 
 redirect_from: 
 developerName: Saffron Technologies Pte Ltd
+builds: 
 features: 
 
 ---

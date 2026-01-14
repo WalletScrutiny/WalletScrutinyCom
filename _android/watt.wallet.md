@@ -28,6 +28,7 @@ social:
 - https://t.me/watt_me
 redirect_from: 
 developerName: wise.win
+builds: 
 features: 
 
 ---

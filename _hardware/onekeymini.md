@@ -32,6 +32,7 @@ social:
 - https://discord.gg/onekey
 - https://weibo.com/yourKeysyourBitcoin
 - https://www.reddit.com/r/OneKeyHQ/
+builds: 
 features: 
 
 ---

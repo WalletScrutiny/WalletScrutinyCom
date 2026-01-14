@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinbest.coinbest
 appCountry: 
 released: 2021-05-17
-updated: 2025-10-21
-version: 4.1.5
+updated: 2025-12-24
+version: 4.1.8
 stars: 
 ratings: 
 reviews: 
@@ -27,6 +27,7 @@ twitter:
 social: 
 redirect_from: 
 developerName: 暗号資産取引ならOSL Japan
+builds: 
 features: 
 
 ---

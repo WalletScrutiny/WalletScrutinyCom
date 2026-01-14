@@ -8,15 +8,15 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2025-10-30
-version: 2.2.1
+updated: 2025-12-24
+version: 2.2.5
 stars: 3.8
 ratings: 245
 reviews: 29
 website: https://www.bit.com
 repository: 
 issue: 
-icon: com.matrixport.bit.jpg
+icon: com.matrixport.bit.png
 bugbounty: 
 meta: ok
 verdict: custodial
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/bitcom.exchange
 redirect_from: 
 developerName: BIT Technologies Holding Company
+builds: 
 features: 
 
 ---

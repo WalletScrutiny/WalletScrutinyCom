@@ -33,6 +33,7 @@ social:
 - https://www.youtube.com/@Tarmexio
 redirect_from: 
 developerName: Tarmex Exchange
+builds: 
 features: 
 
 ---

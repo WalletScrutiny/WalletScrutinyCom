@@ -8,11 +8,11 @@ users: 1000000
 appId: rsv.walletapp.reserve
 appCountry: 
 released: 2019-07-30
-updated: 2025-09-17
-version: 3.0.27
+updated: 2025-12-25
+version: 3.1.3
 stars: 4.5
 ratings: 
-reviews: 486
+reviews: 497
 website: https://uglycash.app/
 repository: 
 issue: 
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/holareserve
 redirect_from: 
 developerName: Best Friend Finance, LLC
+builds: 
 features: 
 
 ---

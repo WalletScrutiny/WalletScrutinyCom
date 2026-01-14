@@ -31,6 +31,7 @@ social:
 redirect_from:
 - /com.ptpwallet/
 developerName: PTPWallet
+builds: 
 features: 
 
 ---

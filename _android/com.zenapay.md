@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.zenapay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2024-07-17
+date: 2026-01-08
 signer: 
 twitter: 
 social:
@@ -30,6 +30,7 @@ social:
 - https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
 redirect_from: 
 developerName: Epazz
+builds: 
 features: 
 
 ---

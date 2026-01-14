@@ -8,8 +8,8 @@ users: 100000
 appId: ge.mobility.emoney
 appCountry: 
 released: 2015-08-22
-updated: 2025-11-03
-version: 11.5.0
+updated: 2025-12-11
+version: 11.5.5
 stars: 3.9
 ratings: 
 reviews: 33
@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/emoney.ge
 redirect_from: 
 developerName: eMoney Georgia
+builds: 
 features: 
 
 ---

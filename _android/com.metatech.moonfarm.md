@@ -31,6 +31,7 @@ social:
 - https://moonfarmfinance.medium.com
 redirect_from: 
 developerName: FinanceX
+builds: 
 features: 
 
 ---

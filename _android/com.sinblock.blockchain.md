@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.sinblock.blockchain.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-25
+date: 2026-01-08
 signer: 
 twitter: aibitcom
 social:
@@ -31,6 +31,7 @@ social:
 - https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
 redirect_from: 
 developerName: Aibit PTE.LTD.
+builds: 
 features: 
 
 ---

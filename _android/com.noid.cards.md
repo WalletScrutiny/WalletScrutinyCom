@@ -28,6 +28,7 @@ social:
 - https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 redirect_from: 
 developerName: noID.cards
+builds: 
 features: 
 
 ---

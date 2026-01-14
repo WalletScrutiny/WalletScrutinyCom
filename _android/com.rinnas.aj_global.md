@@ -28,6 +28,7 @@ social:
 - https://www.facebook.com/AJGLOBALVENTURES
 redirect_from: 
 developerName: AJ Trust Merchants Global Limited
+builds: 
 features: 
 
 ---

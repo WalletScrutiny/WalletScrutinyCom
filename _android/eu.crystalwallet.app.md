@@ -27,6 +27,7 @@ twitter: CrystalWalletEU
 social: 
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

@@ -28,6 +28,7 @@ social:
 - https://www.instagram.com/uollar_io
 redirect_from: 
 developerName: UOLLAR PTY LTD
+builds: 
 features: 
 
 ---

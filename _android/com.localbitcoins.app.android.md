@@ -29,6 +29,7 @@ social:
 - https://www.facebook.com/LocalBitcoinsCom
 redirect_from: 
 developerName: LocalBitcoins Ltd.
+builds: 
 features: 
 
 ---

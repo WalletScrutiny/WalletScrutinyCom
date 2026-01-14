@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinw.win
 appCountry: 
 released: 2022-12-07
-updated: 2025-10-31
-version: 10.0.70
+updated: 2025-12-13
+version: 10.0.76
 stars: 3.6
 ratings: 
-reviews: 54
+reviews: 57
 website: https://www.coinw.com
 repository: 
 issue: 
@@ -31,6 +31,7 @@ social:
 - https://www.instagram.com/coinw_exchange
 redirect_from: 
 developerName: CoinW.SGP
+builds: 
 features: 
 
 ---

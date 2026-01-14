@@ -28,6 +28,7 @@ redirect_from:
 - /com.satsapp/
 - /posts/com.satsapp/
 developerName: 
+builds: 
 features: 
 
 ---

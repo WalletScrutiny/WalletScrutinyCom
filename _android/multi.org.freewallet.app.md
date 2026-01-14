@@ -29,6 +29,7 @@ social:
 - https://www.reddit.com/r/Freewallet_org
 redirect_from: 
 developerName: 
+builds: 
 features: 
 
 ---

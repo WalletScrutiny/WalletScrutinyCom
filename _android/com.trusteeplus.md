@@ -8,11 +8,11 @@ users: 500000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
-updated: 2025-10-30
-version: 1.32.34
-stars: 3.7
+updated: 2025-12-26
+version: 1.32.41
+stars: 3.8
 ratings: 
-reviews: 23
+reviews: 24
 website: https://trusteeglobal.com
 repository: 
 issue: 
@@ -29,7 +29,8 @@ social:
 - https://www.youtube.com/@TrusteeGlobal
 - https://www.instagram.com/trustee.global
 redirect_from: 
-developerName: BlockSoft Lab
+developerName: UAB Trustee Global
+builds: 
 features: 
 
 ---
