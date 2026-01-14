@@ -9,27 +9,6 @@ const discoveredWalletsLogFile = 'bitcoin-wallet-discovery.yaml';
 // Rate limiting
 const playSem = new Semaphore(10);
 const appleSem = new Semaphore(5);
-const appStoreUrlPattern = /apps\.apple\.com\/([a-zA-Z]{2})\/app\/.*\/id(\d+)/;
-
-function getIphoneAddParam(app) {
-  if (!app) {
-    return null;
-  }
-
-  if (app.url) {
-    const match = app.url.match(appStoreUrlPattern);
-    if (match) {
-      return `${match[1]}/${match[2]}`;
-    }
-  }
-
-  if (app.id) {
-    const country = app.appCountry || app.country || 'us';
-    return `${country}/${app.id}`;
-  }
-
-  return null;
-}
 
 // Advanced search strategy with exclusion patterns
 const SEARCH_STRATEGIES = [
@@ -671,8 +650,7 @@ class BitcoinWalletDiscovery {
         if (app.description) {
           report += `- **Description:** ${app.description.substring(0, 200)}...\n`;
         }
-        const addParam = getIphoneAddParam(app);
-        report += `\n**Add command:** \`node addNewIphoneApps.mjs ${addParam || app.id}\`\n\n`;
+        report += `\n**Add command:** \`node addNewIphoneApps.mjs ${app.id}\`\n\n`;
       });
     }
 

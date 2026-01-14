@@ -40,7 +40,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-(cd "${REPO_ROOT}" && node "${SCRIPT_DIR}/processWalletDiscovery.mjs")
+node "${SCRIPT_DIR}/processWalletDiscovery.mjs"
 
 if [[ "${RUN_IMAGES}" == true ]]; then
   echo "updating images. This may take some time..."
