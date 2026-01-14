@@ -9,6 +9,29 @@ import { fileURLToPath } from 'url';
 
 const playSem = new Semaphore(5);
 const appleSem = new Semaphore(3);
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const discoveryFile = path.join(scriptDir, 'bitcoin-wallet-discovery.yaml');
+const appStoreUrlPattern = /apps\.apple\.com\/([a-zA-Z]{2})\/app\/.*\/id(\d+)/;
+
+function getIphoneAddParam(product) {
+  if (!product) {
+    return null;
+  }
+
+  if (product.url) {
+    const match = product.url.match(appStoreUrlPattern);
+    if (match) {
+      return `${match[1]}/${match[2]}`;
+    }
+  }
+
+  if (product.id) {
+    const country = product.appCountry || product.country || 'us';
+    return `${country}/${product.id}`;
+  }
+
+  return null;
+}
 
 class WalletDiscoveryProcessor {
   constructor() {
@@ -22,7 +45,7 @@ class WalletDiscoveryProcessor {
 
   async loadAndFlattenYaml() {
     console.log('Loading bitcoin-wallet-discovery.yaml...');
-    const content = await fs.readFile('bitcoin-wallet-discovery.yaml', 'utf8');
+    const content = await fs.readFile(discoveryFile, 'utf8');
     const data = yaml.load(content);
     
     // Handle both old (nested) and new (flat) structure
@@ -296,7 +319,7 @@ class WalletDiscoveryProcessor {
       lineWidth: -1,
       noRefs: true
     });
-    await fs.writeFile('bitcoin-wallet-discovery.yaml', yamlContent);
+    await fs.writeFile(discoveryFile, yamlContent);
     if (!silent) {
       console.log('\n✓ Saved bitcoin-wallet-discovery.yaml');
     }
@@ -547,6 +570,9 @@ Pending review in this session: ${reviewQueue.length}
     }
     
     const { spawn } = await import('child_process');
+    const __filename = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__filename);
+    const rootDir = path.resolve(__dirname, '../../');
     const androidApps = [...new Set(
       productsToAdd
         .filter(p => p.platform === 'android')
@@ -555,16 +581,13 @@ Pending review in this session: ${reviewQueue.length}
     const iphoneApps = [...new Set(
       productsToAdd
         .filter(p => p.platform === 'iphone')
-        .map(p => p.appId)
+        .map(p => getIphoneAddParam(p))
+        .filter(Boolean)
     )];
     
     if (androidApps.length > 0) {
       console.log(`\nAdding ${androidApps.length} Android apps...\n`);
       console.log(`Command: node addNewAndroidApps.mjs ${androidApps.join(' ')}\n`);
-      
-      const __filename = fileURLToPath(import.meta.url);
-      const __dirname = path.dirname(__filename);
-      const rootDir = path.resolve(__dirname, '../../');
       
       const androidChild = spawn('node', ['addNewAndroidApps.mjs', ...androidApps], {
         cwd: rootDir,
@@ -589,7 +612,8 @@ Pending review in this session: ${reviewQueue.length}
       console.log(`\nAdding ${iphoneApps.length} iPhone apps...\n`);
       console.log(`Command: node addNewIphoneApps.mjs ${iphoneApps.join(' ')}\n`);
       
-      const iphoneChild = spawn('node', ['../../addNewIphoneApps.mjs', ...iphoneApps], {
+      const iphoneChild = spawn('node', ['addNewIphoneApps.mjs', ...iphoneApps], {
+        cwd: rootDir,
         stdio: 'inherit'
       });
       

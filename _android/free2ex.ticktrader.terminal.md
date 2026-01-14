@@ -1,0 +1,32 @@
+---
+wsId: 
+title: FREE2EX Trade
+altTitle: 
+authors: 
+users: 10000
+appId: free2ex.ticktrader.terminal
+appCountry: 
+released: Apr 13, 2020
+updated: 2024-10-07
+version: 4.10.4.7877 (2024.09.20)
+stars: 4.714286
+ratings: 
+reviews: 26
+website: https://www.free2ex.com
+repository: 
+issue: 
+icon: free2ex.ticktrader.terminal.png
+bugbounty: 
+meta: stale
+verdict: wip
+appHashes: 
+date: 2026-01-14
+signer: 
+twitter: 
+social: 
+redirect_from: 
+developerName: FREE2EX Platform
+features: 
+
+---
+
