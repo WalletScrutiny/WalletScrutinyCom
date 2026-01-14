@@ -288,18 +288,20 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
     }
   }
 
+  const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return [
-    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>`,
+    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
       `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
         '<small>',
-          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>`,
+          `<span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>`,
         '</small>',
       '</span>',
       '<span class="stats">',
+        wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : '',
         `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`,
-        verificationHTML,
+        wallet.archived ? '' : verificationHTML,
         wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : '',

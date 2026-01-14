@@ -86,15 +86,17 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
       for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>`; }
       for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>`; }
     }
+    const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
-    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${wallet.url}" style="animation-delay:${delay}ms;">
+    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>
-        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.category}</span></span>
+        <span class="platform tile-view-only"><i class="${icon}"></i><span> ${wallet.archived ? wallet.folder : wallet.category}</span></span>
       </div>
       <div class="wallet-details">
         <div class="stamps">
+          ${wallet.archived ? '<span class="stamp stamp-archived">Wallet Archived</span>' : ''}
           <span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>
         ${wallet.meta && wallet.meta !== "ok"
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
