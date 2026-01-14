@@ -86,8 +86,9 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
       for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>`; }
       for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>`; }
     }
+    const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url;
     badgesHtml += `
-    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : wallet.url}" style="animation-delay:${delay}ms;">
+    <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
         <img src="${wallet.icon ? `/images/wIcons/${wallet.folder}/small/${wallet.icon}` : '/images/noimg.svg'}" class="app_logo" alt="Wallet Logo">
         <h3>${wallet.altTitle || wallet.title}</h3>

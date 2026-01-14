@@ -288,8 +288,9 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
     }
   }
 
+  const url = wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl;
   return [
-    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl}';" href='${wallet.archived ? '/archived/?appId=' + wallet.appId + '&platform=' + wallet.folder : analysisUrl}'>`,
+    `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${url}';" href='${url}'>`,
       `<div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' ${lazyLoad ? 'loading="lazy"' : ''} /></div>`,
       '<span class="result-title-wrapper">',
         `<span>${wallet.altTitle || wallet.title}</span>`,
