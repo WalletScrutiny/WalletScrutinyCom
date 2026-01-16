@@ -39,7 +39,7 @@ According to its Play description, Plug is a self-custody wallet and identity ap
 
 ## Testing and Analysis
 
-The app was [tested](https://x.com/BitcoinWalletz/status/2011763343758147879) to evaluate its Bitcoin wallet implementation and key-derivation behavior. A Bitcoin receiving address(bc1p3f8xyj9n5fqtm9tkc0e3v26entfrqdzhpw2e8xum4xe64juqeccsaxfa7p) was generated, and the recovery phrase was exported and [imported into Electrum](https://x.com/BitcoinWalletz/status/2011764733909876926) Desktop 4.6.2 using standard Bitcoin derivation paths, followed by [Sparrow Wallet](https://x.com/BitcoinWalletz/status/2011768406329151999) configured explicitly for Taproot (BIP86, m/86'/0'/0').
+The app was [tested](https://x.com/BitcoinWalletz/status/2011763343758147879) to evaluate its Bitcoin wallet implementation and key-derivation behavior. A Bitcoin receiving address(bc1p3f8xyj9n5fqtm9tkc0e3v26entfrqdzhpw2e8xum4xe64juqeccsaxfa7p) was generated, and the recovery phrase was exported and [imported into Electrum Desktop 4.6.2](https://x.com/BitcoinWalletz/status/2011764733909876926) using standard Bitcoin derivation paths, followed by [Sparrow Wallet](https://x.com/BitcoinWalletz/status/2011768406329151999) configured explicitly for Taproot (BIP86, m/86'/0'/0').
 
 In both cases, none of the derived addresses matched the Bitcoin address shown by the app, and no overlap was observed between address sets. This result persisted across native SegWit and Taproot configurations, ruling out derivation-path mismatch.
 

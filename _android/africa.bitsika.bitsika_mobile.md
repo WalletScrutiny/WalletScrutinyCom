@@ -42,9 +42,9 @@ Basically, it is a service that allows users to offramp to fiat through their vi
 
 ## Analysis
 
-Users deposited funds are held by BlockAfranew, Inc. on Bitsika’s platform in pooled accounts (not on user's own blockchain wallet), and can be transferred out to bank or mobile money accounts per the service’s transfer options rather than withdrawn back to an on-chain BTC address.** 
+Users deposited funds are held by BlockAfranew, Inc. on Bitsika’s platform in pooled accounts (not on user's own blockchain wallet), and can be transferred out to bank or mobile money accounts per the service’s transfer options rather than withdrawn back to an on-chain BTC address.
 
-Despite advertising “No KYC” card creation and high top-up limits, [Bitsika’s terms](https://www.bitsika.com/terms-conditions) confirm that funds are custodially managed and subject to transfer controls, reviews, and limitations that are typical of centralized money transmission services.**
+Despite advertising “No KYC” card creation and high top-up limits, [Bitsika’s terms](https://www.bitsika.com/terms-conditions) confirm that funds are custodially managed and subject to transfer controls, reviews, and limitations that are typical of centralized money transmission services.
 
 > You may transfer funds to any Mobile Money Account(s) or Banks Account(s) using the standard transfer option. We don’t offer the ability to access funds via ATM or at retail locations.
 
