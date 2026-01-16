@@ -40,4 +40,4 @@ Between Wallet is a non-custodial wallet application that, according to the deve
 
 ## Testing and Analysis
 
-We [tested](https://x.com/BitcoinWalletz/status/2012059124687921387/photo/2) the app and found a BTC wallet, and seed phrases. Note however that we had to adjust the settings to switch from the default BMB to BTC. They mentioned that their project is "Open Source", but when we searched for the [app ID in GitHub Code](https://github.com/search?q=%22com.between.wallet%22&type=code), we did not turn up any relevant results. We messaged them on LinkedIn about this, but for now, we are marking this app as **not source-available**
+We [tested](https://x.com/BitcoinWalletz/status/2012059124687921387/photo/2) the app and found a BTC wallet, and seed phrases. Note however that we had to adjust the settings to switch from the default BMB to BTC. They mentioned that their project is "Open Source", but when we searched for the [app ID in GitHub Code](https://github.com/search?q=%22com.between.wallet%22&type=code), we did not turn up any relevant results. We messaged them on LinkedIn about this, but for now, we are marking this app as **not source-available**.

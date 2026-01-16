@@ -40,6 +40,6 @@ Ancient Wallet is a cryptocurrency wallet application that, according to the dev
 
 We [tested the app](https://x.com/BitcoinWalletz/status/2011986343786844216).
 
-There is no evidence that Ancient Wallet supports Bitcoin (BTC) in any native or meaningful capacity. The product is an ecosystem centered exclusively around its own Layer-1 token, Ancient Coin (ANC), and the BSC (Binance Smart Chain) network. While the marketing uses broad industry terms like "digital assets" and "multi-chain," Bitcoin is never explicitly listed as a supported asset. Furthermore, the onboarding flow is primarily account-based. 
+There is no evidence that Ancient Wallet supports Bitcoin (BTC) in any native or meaningful capacity. The product is an ecosystem centered exclusively around its own Layer-1 token, Ancient Coin (ANC), and the BSC (Binance Smart Chain) network. While the marketing uses broad industry terms like "digital assets" and "multi-chain", Bitcoin is never explicitly listed as a supported asset. Furthermore, the onboarding flow is primarily account-based. 
 
-**We did not find a Bitcoin wallet.**
+**We did not find a Bitcoin wallet**.

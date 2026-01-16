@@ -42,6 +42,6 @@ Uniticexchange is a cryptocurrency trading application that, according to the de
 
 According to their terms:
 
-> 2. The Online Platforms provide access to a Digital Assets exchange for: (i) online trading of your Digital Assets by the use of fiat currency or any Digital Asset, (ii) enabling transaction of Funds which include deposit and/or withdrawals, and (iii) online storage and custody of your Digital Assets
+> 2. The Online Platforms provide access to a Digital Assets exchange for: (i) online trading of your Digital Assets by the use of fiat currency or any Digital Asset, (ii) enabling transaction of Funds which include deposit and/or withdrawals, and (iii) online storage and custody of your Digital Assets.
 
 This is a **custodial** service.
