@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bizaPayWallet
 title: BizaPAY Wallet - 암호화폐 지갑
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.amaxg.bizapaywallet
 appCountry: us
 idd: '6740513430'
@@ -17,9 +18,9 @@ issue:
 icon: com.amaxg.bizapaywallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2026-01-14
+date: 2026-01-16
 signer: 
 twitter: 
 social: 
@@ -28,3 +29,4 @@ developerName: AMAXG
 
 ---
 
+{% include copyFromAndroid.html %}
