@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: seleneWallet
 title: Selene Wallet (Bitcoin Cash)
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: cash.selene.app
 appCountry: 
@@ -18,11 +19,11 @@ issue:
 icon: cash.selene.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2026-01-14
+date: 2026-01-15
 signer: 
-twitter: 
+twitter: SeleneWallet
 social: 
 redirect_from: 
 developerName: XULU.TECH LLC
@@ -31,3 +32,10 @@ features:
 
 ---
 
+## App Description
+
+According to its Play description, Selene Wallet is a non-custodial cryptocurrency wallet designed exclusively for Bitcoin Cash (BCH), aiming to make participation in the BCH economy fast and user-friendly. The app focuses on simple send-and-receive functionality and positions itself as part of a broader effort to promote Bitcoin Cash as a global currency. 
+
+## Analysis
+
+Selene Wallet **does not support Bitcoin (BTC)**.
