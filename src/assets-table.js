@@ -104,14 +104,16 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false
+                                            showOnlyRegisteredAssets = false,
+                                            getDrafts = true
                                           }) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
     pubkey,
     appId,
-    sha256
+    sha256,
+    getDrafts: getDrafts
   });
 
   try {

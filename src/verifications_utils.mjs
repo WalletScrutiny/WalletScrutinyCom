@@ -668,14 +668,20 @@ const getAllAssetInformation = async function({
                                                 months,
                                                 pubkey,
                                                 appId,
-                                                sha256
+                                                sha256,
+                                                getDrafts = true
                                               }) {
   await ensureNdkConnected();
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
 
+  let kinds = [assetRegistrationKind, verificationKind];
+  if (getDrafts) {
+    kinds.push(verificationDraftKind);
+  }
+
   const filter = {
-    kinds: [assetRegistrationKind, verificationKind, verificationDraftKind],
+    kinds: kinds,
   };
   if (months) {
     console.debug(`Getting events from last ${months} months`);
