@@ -166,8 +166,11 @@ const getNpubFromPubkey = function (pubkey) {
   return nip19.npubEncode(pubkey);
 }
 
-const getWSClientTag = function() {
-  return ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl];
+const getWSClientTags = function() {
+  return [
+    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
+    ["d", "walletscrutiny"]
+  ];
 }
 
 async function publishNdkEvent(ndkEvent, eventType = 'event') {
@@ -193,7 +196,7 @@ function createNdkEvent(kind, content, tags = [], createdAt = null) {
   ndkEvent.kind = kind;
   ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [...tags, getWSClientTag()];
+  ndkEvent.tags = [...tags, ...getWSClientTags()];
   return ndkEvent;
 }
 
