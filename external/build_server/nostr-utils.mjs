@@ -186,7 +186,8 @@ export async function createVerification(ndkInstance, {
     ["i", appId],
     ["version", version],
     ["platform", platform],
-    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl]
+    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
+    ["d", "walletscrutiny"]
   ];
 
   hashes.forEach(hash => {
