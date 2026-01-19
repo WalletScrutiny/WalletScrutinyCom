@@ -104,14 +104,18 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false
+                                            showOnlyRegisteredAssets = false,
+                                            getDrafts = true,
+                                            filterAppIds = []
                                           }) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
     pubkey,
     appId,
-    sha256
+    sha256,
+    getDrafts: getDrafts,
+    filterAppIds: filterAppIds
   });
 
   try {
@@ -333,10 +337,10 @@ window.renderAssetsTable = async function({
     sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
-  if (sortedItems.length > 0) {
-    let attachmentEventIDs = [];
-    let endorsementEventIDs = [];
+  let attachmentEventIDs = [];
+  let endorsementEventIDs = [];
 
+  if (sortedItems.length > 0) {
     sortedItems.forEach((itemsForThisSha256, index) => {
       itemsForThisSha256.items.forEach(item => {
         // Attachments
@@ -351,10 +355,6 @@ window.renderAssetsTable = async function({
         }
       });
     });
-
-    attachments = await getEventsFromEventIds(attachmentEventIDs);
-    endorsements = await getEndorsementsFromVerificationEventIds(endorsementEventIDs);
-    endorsements.loaded = true;
   }
 
   const table = document.createElement('table');
@@ -533,6 +533,12 @@ window.renderAssetsTable = async function({
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  if (sortedItems.length > 0) {
+    attachments = await getEventsFromEventIds(attachmentEventIDs);
+    endorsements = await getEndorsementsFromVerificationEventIds(endorsementEventIDs);
+    endorsements.loaded = true;
+  }
 
   // ATTACHMENTS TABLE
   if (attachments.size > 0) {

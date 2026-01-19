@@ -668,14 +668,21 @@ const getAllAssetInformation = async function({
                                                 months,
                                                 pubkey,
                                                 appId,
-                                                sha256
+                                                sha256,
+                                                getDrafts = true,
+                                                filterAppIds = []
                                               }) {
   await ensureNdkConnected();
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
 
+  let kinds = [assetRegistrationKind, verificationKind];
+  if (getDrafts) {
+    kinds.push(verificationDraftKind);
+  }
+
   const filter = {
-    kinds: [assetRegistrationKind, verificationKind, verificationDraftKind],
+    kinds: kinds,
   };
   if (months) {
     console.debug(`Getting events from last ${months} months`);
@@ -692,6 +699,9 @@ const getAllAssetInformation = async function({
   }
   if (sha256) {
     filter["#x"] = [sha256];
+  }
+  if (filterAppIds.length > 0) {
+    filter["#i"] = filterAppIds;
   }
 
   const events = await fetchEventsWithPagination(ndk, filter);
