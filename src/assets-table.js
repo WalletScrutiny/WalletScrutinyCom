@@ -105,7 +105,8 @@ window.renderAssetsTable = async function({
                                             showProfilePictures = true,
                                             showIssueTracker = false,
                                             showOnlyRegisteredAssets = false,
-                                            getDrafts = true
+                                            getDrafts = true,
+                                            filterAppIds = []
                                           }) {
   let hasAssets = false;
 
@@ -113,7 +114,8 @@ window.renderAssetsTable = async function({
     pubkey,
     appId,
     sha256,
-    getDrafts: getDrafts
+    getDrafts: getDrafts,
+    filterAppIds: filterAppIds
   });
 
   try {

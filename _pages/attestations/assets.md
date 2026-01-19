@@ -12,6 +12,15 @@ permalink: /assets/
 <div id="binariesTable"></div>
 
 <script>
+  const sourceAvailableAppIds = [
+    {% assign platforms = 'hardware,android,iphone,bearer,desktop,others' | split: ',' %}
+    {% for platform in platforms %}
+      {% assign platformWallets = site[platform] | where: 'verdict', 'sourceavailable' %}
+      {% for wallet in platformWallets %}
+        "{{ wallet.appId }}"{% unless forloop.last or forloop.parentloop.last %},{% endunless %}{% if forloop.last and forloop.parentloop.last == false %},{% endif %}{% endfor %}
+    {% endfor %}
+  ];
+
   document.getElementById('loadingSpinner').style.display = 'block';
 
   window.addEventListener('verificationsUILoaded', async () => {
@@ -27,7 +36,8 @@ permalink: /assets/
         enableSearch: true, 
         showOnlyRows: 100000, 
         showOnlyRegisteredAssets: true,
-        getDrafts: false
+        getDrafts: false,
+        filterAppIds: sourceAvailableAppIds
       });
     } catch (error) {
       console.error('Error rendering assets table: ', error);

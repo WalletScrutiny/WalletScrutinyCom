@@ -669,7 +669,8 @@ const getAllAssetInformation = async function({
                                                 pubkey,
                                                 appId,
                                                 sha256,
-                                                getDrafts = true
+                                                getDrafts = true,
+                                                filterAppIds = []
                                               }) {
   await ensureNdkConnected();
   const randomNumber = Math.floor(Math.random() * 100);
@@ -698,6 +699,9 @@ const getAllAssetInformation = async function({
   }
   if (sha256) {
     filter["#x"] = [sha256];
+  }
+  if (filterAppIds.length > 0) {
+    filter["#i"] = filterAppIds;
   }
 
   const events = await fetchEventsWithPagination(ndk, filter);
