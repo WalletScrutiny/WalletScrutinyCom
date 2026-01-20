@@ -25,3 +25,14 @@ features:
 
 ---
 
+## App Description
+
+Blockstream App is a desktop application for managing Bitcoin wallets on Windows, macOS, and Linux, designed to give users direct control over their keys and transactions.
+
+It supports Bitcoin as its primary network, with optional functionality for Liquid and Lightning depending on account configuration and user choice.
+
+The app includes features such as multisignature wallets, hardware wallet integration (including Blockstream Jade), transaction history and coin management, and built-in tools for receiving, sending, and monitoring balances.
+
+## Analysis
+
+The app is **source-available**
