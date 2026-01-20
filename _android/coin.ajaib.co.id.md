@@ -9,10 +9,10 @@ appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
 updated: 2026-01-09
-version: 2.88.0
+version: 2.89.0
 stars: 4.4
 ratings: 
-reviews: 34
+reviews: 35
 website: https://kripto.ajaib.co.id/
 repository: 
 issue: 

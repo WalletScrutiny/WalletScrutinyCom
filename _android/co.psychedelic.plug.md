@@ -3,7 +3,7 @@ wsId: plugCrypto
 title: Plug - Crypto Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: co.psychedelic.plug
 appCountry: 
@@ -25,7 +25,7 @@ date: 2026-01-15
 signer: 
 twitter: plug_wallet
 social:
-- https://discord.com/invite/mPpzf45qrt 
+- https://discord.com/invite/mPpzf45qrt
 redirect_from: 
 developerName: Funded Labs
 builds: 

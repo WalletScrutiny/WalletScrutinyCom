@@ -1,0 +1,23 @@
+---
+title: Arculus Wallet
+appId: co.arculus.wallet.android
+meta: ok
+verdict: nowallet
+
+---
+
+## App Description from Google Play 
+
+> Arculus is the next-gen crypto and NFT cold storage wallet solution. The Arculus Wallet App lets you securely hold the world’s leading cryptocurrencies and NFTs. Arculus features an easy-to-use mobile app and a sleek, metal card where you store and control your private keys. Arculus was created by CompoSecure, a 20-year leader in security, payment, and digital-asset storage technology solutions.
+>
+> HOW ARCULUS WORKS
+>
+> Your Arculus wallet solution is made up of two parts that work together: a physical Arculus Key™ Card and the mobile Arculus Wallet™ App. The Arculus Key Card is a sleek, metal card with leading-edge embedded security technology, a CC EAL6+ Secure Element Hardware Classification, to securely store your crypto and NFT keys. The card can be purchased at the Arculus website – getarculus.com.
+
+## Analysis 
+
+This is the companion app to {% include walletLink.html wallet='hardware/arculus' verdict='true' %}. We tried installing it, but it required the NFC card before proceeding. 
+
+Without the functionality of a wallet absent the hardware component, this **cannot be described as a wallet**. 
+
+It can only be described as a companion app. 

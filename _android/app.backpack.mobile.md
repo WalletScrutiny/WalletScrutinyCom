@@ -12,7 +12,7 @@ updated: 2026-01-12
 version: 2.66.0
 stars: 4.3
 ratings: 
-reviews: 57
+reviews: 58
 website: https://backpack.app
 repository: 
 issue: 

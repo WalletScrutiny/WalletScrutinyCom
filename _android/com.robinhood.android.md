@@ -8,11 +8,11 @@ users: 10000000
 appId: com.robinhood.android
 appCountry: us
 released: 2015-08-12
-updated: 2026-01-13
-version: 2025.51.5
+updated: 2026-01-20
+version: 2026.2.1
 stars: 4.2
 ratings: 445358
-reviews: 263834
+reviews: 263852
 website: https://robinhood.com/
 repository: 
 issue: 

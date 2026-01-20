@@ -38,7 +38,7 @@ features:
 
 We were not able to find the version number for the firmware, but found 2 clues: 
 
-1. The device's firmware is updated through the app. This is indicated in the {% include walletLink.html wallet='iphone/com.ecomi.securewallet' verdict='true' %} app store changelog for version 2.2.0
+1. The device's firmware is updated through the app. This is indicated in the {% include walletLinkArchived.html wallet='iphone/com.ecomi.securewallet' %} app store changelog for version 2.2.0
 
   > Features
   > - Multiple wallet support (Pair additional wallets from the settings page)
@@ -52,7 +52,7 @@ ECOMI's Secure Wallet was announced on May 7, 2018 through [bitcointalk.org](htt
 
 Its hardware is powered by CoolBitX, the same manufacturer for the CoolWalletS bitcoin hardware wallet.
 
-The card communicates via BlueTooth with a companion app. {% include walletLink.html wallet='android/com.ecomi' verdict='true' %}
+The card communicates via BlueTooth with a companion app. {% include walletLinkArchived.html wallet='android/com.ecomi' %}
 
 It has the following components: 
 

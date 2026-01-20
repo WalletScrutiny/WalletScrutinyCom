@@ -8,9 +8,9 @@ users: 5000000
 appId: com.applemoncash
 appCountry: 
 released: 
-updated: 2025-12-17
-version: 2.7.84
-stars: 3.9
+updated: 2026-01-13
+version: 2.7.85
+stars: 3.8
 ratings: 
 reviews: 11
 website: https://lemon.me

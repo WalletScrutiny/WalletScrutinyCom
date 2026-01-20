@@ -3,22 +3,22 @@ wsId:
 title: ByteWallet - Buy Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.bytefederal.bytemobile
 appCountry: 
 released: 2025-08-03
 updated: 2025-11-26
 version: 1.10.1
-stars: 
+stars: 4.3
 ratings: 
-reviews: 
+reviews: 2
 website: 
 repository: 
 issue: 
 icon: com.bytefederal.bytemobile.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

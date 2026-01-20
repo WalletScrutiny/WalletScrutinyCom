@@ -7,11 +7,11 @@ users: 500000
 appId: me.rainbow
 appCountry: 
 released: 2022-05-12
-updated: 2025-12-24
-version: 2.0.16
+updated: 2026-01-15
+version: 2.0.17
 stars: 4.7
 ratings: 
-reviews: 249
+reviews: 252
 website: https://rainbow.me
 repository: 
 issue: 

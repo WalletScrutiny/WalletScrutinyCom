@@ -35,7 +35,7 @@ features:
 
 ## App Description
 
-This is the companion app to {% include walletLink.html wallet='android/com.blockin.google' verdict='true' %}. 
+This is the companion app to {% include walletLinkArchived.html wallet='android/com.blockin.google' %}. 
 
 This app serves as the wallet.
 

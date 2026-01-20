@@ -11,7 +11,7 @@ released: 2020-07-01
 updated: 2026-01-14
 version: 2.8.34
 stars: 4.5
-reviews: 6008
+reviews: 6011
 website: https://swyftx.com
 repository: 
 issue: 

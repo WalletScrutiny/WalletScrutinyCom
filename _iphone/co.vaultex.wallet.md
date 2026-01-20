@@ -7,7 +7,7 @@ authors:
 appId: co.vaultex.wallet
 appCountry: us
 idd: '6502616569'
-released: '2024-08-09T07:00:00Z'
+released: 2024-08-09
 updated: 2024-08-14
 version: '1.1'
 stars: 0

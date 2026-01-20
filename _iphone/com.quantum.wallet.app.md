@@ -8,8 +8,8 @@ appId: com.quantum.wallet.app
 appCountry: sg
 idd: '6511246853'
 released: 2024-09-23
-updated: 2025-06-21
-version: 1.2.0
+updated: 2026-01-15
+version: 1.19.0
 stars: 0
 reviews: 0
 website: 

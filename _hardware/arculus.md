@@ -38,7 +38,7 @@ features:
 
 ## [Product FAQ](https://www.getarculus.com/faqs/)
 
-- The NFC-enabled card is paired with the {% include walletLink.html wallet='android/co.arculus.wallet.android' verdict='true' %}
+- The NFC-enabled card is paired with the {% include walletLinkArchived.html wallet='android/co.arculus.wallet.android' %}
 - It supports ERC721 and ERC1155 NFT-viewing. 
 - If the product is lost, users are advised to buy a new card and use the passphrase generated through the app.  
 - > If lost or stolen, please purchase a new Arculus Key Card and use your recovery passphrase to recover your wallet on your phone (or other mobile device). [Source.](https://www.getarculus.com/faqs/)

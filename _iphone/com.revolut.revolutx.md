@@ -11,7 +11,7 @@ released: 2025-03-18
 updated: 2026-01-13
 version: '1.42'
 stars: 4.8
-reviews: 1069
+reviews: 1125
 website: https://www.revolut.com/revolut-x/
 repository: 
 issue: 

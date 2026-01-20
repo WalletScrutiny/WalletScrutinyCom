@@ -8,8 +8,8 @@ users: 5000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2025-12-24
-version: 4.7.1
+updated: 2026-01-14
+version: 4.8.0
 stars: 4.1
 ratings: 18826
 reviews: 44
@@ -39,8 +39,8 @@ features:
 There are some concerns that BitKub has multiple apps and that some may need checking: 
 
 - {% include walletLink.html wallet='iphone/com.bitkub.app' verdict='true' %}
-- {% include walletLink.html wallet='android/com.bbt.bitkubnext' verdict='true' %}
-- {% include walletLink.html wallet='iphone/com.bbt.bitkubnext.app' verdict='true' %}
+- {% include walletLinkArchived.html wallet='android/com.bbt.bitkubnext' %}
+- {% include walletLinkArchived.html wallet='iphone/com.bbt.bitkubnext.app' %}
 
 We [verified on the support page](https://support.bitkub.com/en/support/solutions/articles/151000034663-bitkub-chain-whitepaper) of bitkub.com that it is connected to bitkubchain.com.  
 

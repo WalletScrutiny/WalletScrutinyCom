@@ -8,11 +8,11 @@ users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2025-12-23
-version: 2.5.1
+updated: 2026-01-14
+version: 2.5.3
 stars: 3.3
 ratings: 1053
-reviews: 17
+reviews: 16
 website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 

@@ -34,4 +34,4 @@ features:
 
 A Bitcoin Lightning wallet.
 
-This is a fork of {% include walletLink.html wallet='android/com.btcontract.wallettest' verdict='true' %} but with its website down, it looks unmaintained.
+This is a fork of {% include walletLinkArchived.html wallet='android/com.btcontract.wallettest' %} but with its website down, it looks unmaintained.

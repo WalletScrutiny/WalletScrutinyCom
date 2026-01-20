@@ -8,8 +8,8 @@ users: 100000
 appId: com.pi42.app
 appCountry: 
 released: 
-updated: 2025-12-23
-version: 1.0.54
+updated: 2026-01-16
+version: 1.0.55
 stars: 
 ratings: 
 reviews: 

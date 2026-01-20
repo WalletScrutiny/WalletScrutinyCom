@@ -9,7 +9,7 @@ appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
 updated: 2026-01-13
-version: 8.98.1
+version: 8.99.2
 stars: 3.5
 ratings: 96811
 reviews: 1408

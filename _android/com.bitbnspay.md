@@ -3,7 +3,7 @@ wsId: bitbnsPay
 title: Bitbns Pay - Crypto trading, 0
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.bitbnspay
 appCountry: 
@@ -27,7 +27,7 @@ twitter: bitbns
 social:
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
-- https://www.youtube.com/c/Bitbns 
+- https://www.youtube.com/c/Bitbns
 redirect_from: 
 developerName: Bitbns Cryptocurrency Trading Exchange India
 builds: 

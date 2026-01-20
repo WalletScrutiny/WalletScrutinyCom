@@ -34,8 +34,8 @@ features:
 
 Not to be mistaken for other projects that bear the same name: 
 
-- {% include walletLink.html wallet='android/com.luna.wallet' verdict='true' %}
-- {% include walletLink.html wallet='android/com.cmgroup.luna' verdict='true' %}
+- {% include walletLinkArchived.html wallet='android/com.luna.wallet' %}
+- {% include walletLinkArchived.html wallet='android/com.cmgroup.luna' %}
 
 This project's listed website is no longer online (Domain for sale). 
 

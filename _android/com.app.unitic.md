@@ -3,7 +3,7 @@ wsId:
 title: Unitic:Trade Bitcoin & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.unitic
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 twitter: unitic_exchange
 social:
 - https://www.linkedin.com/company/unitic-exchange
-- https://www.facebook.com/uniticexchange 
+- https://www.facebook.com/uniticexchange
 redirect_from: 
 developerName: UNITIC PRIVATE LIMITED
 builds: 

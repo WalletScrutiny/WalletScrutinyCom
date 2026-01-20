@@ -1,0 +1,33 @@
+---
+title: PayPlux - Buy & Sell Bitcoin
+appId: com.payplux
+meta: removed
+verdict: nowallet
+
+---
+
+## App Description
+
+> Buy bitcoin, perfect money, ethereum or litecoin with mobile money. PayPlux also allows you to sell your bitcoin, litecoin, ethereum or perfect money to get back GHS.
+
+There is no mention of being able to transfer bitcoin to other services, wallets or apps. We will confirm this with their support.
+
+## The Site
+
+[Deposits and payment options are made through:](https://support.payplux.com/manual-payments.html)
+
+- MTN Mobile Money
+- AirtelTigo Money
+- Vodafone Cash
+
+### [Terms and Conditions](https://payplux.com/terms.html)
+
+> We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination,
+
+## Contact
+
+We contacted PayPlux via [twitter](https://twitter.com/BitcoinWalletz/status/1450714031371657216) and via their online webchat support. They confirmed that when users buy or sell bitcoin, a third party wallet is needed since they do not provide the wallets themselves. 
+
+## Verdict
+
+Similar to Forex apps that allow cryptocurrency trading via CFDs, PayPlux does not provide the bitcoin wallet and therefore, **does not actually hold your assets**.

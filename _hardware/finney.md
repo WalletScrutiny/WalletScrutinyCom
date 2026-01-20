@@ -43,7 +43,7 @@ product as defunct.
 ⚠️ Warning: This product is associated with a company with a CEO with lawsuits arising out of the companies' <a href="https://www.coindesk.com/policy/2021/11/18/crypto-heavyweight-moshe-hogeg-reportedly-arrested-in-israel/">involvement with ICOs.</a>
 </div> </div>
 
-This app comes from the same providers as {% include walletLink.html wallet='hardware/sirinv3' verdict='true' %}
+This app comes from the same providers as {% include walletLinkArchived.html wallet='hardware/sirinv3' %}
 
 From [the product page:](https://shop.sirinlabs.com/products/finney)
 

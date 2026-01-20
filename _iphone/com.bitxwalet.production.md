@@ -7,8 +7,8 @@ appId: com.bitxwalet.production
 appCountry: us
 idd: '6752948564'
 released: 2025-09-29
-updated: 2025-09-29
-version: '1.0'
+updated: 2026-01-15
+version: '1.1'
 stars: 4.6
 reviews: 59
 website: https://bitx-bitcoinwallet.com/privacy

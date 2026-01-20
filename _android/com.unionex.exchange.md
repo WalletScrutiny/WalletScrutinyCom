@@ -7,8 +7,8 @@ users: 100
 appId: com.unionex.exchange
 appCountry: 
 released: 2025-08-27
-updated: 2025-08-27
-version: 1.1.8
+updated: 2026-01-15
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 

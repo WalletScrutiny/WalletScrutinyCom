@@ -43,7 +43,7 @@ features:
 
 ## Analysis 
 
-- At first glance, the app functions like {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}. The user can input an amount of a particular coin, to be exchanged to another coin. The user then inputs a corresponding third-party wallet. 
+- At first glance, the app functions like {% include walletLinkArchived.html wallet='android/com.changelly.app' %}. The user can input an amount of a particular coin, to be exchanged to another coin. The user then inputs a corresponding third-party wallet. 
 - The user can have an internal balance with the following coins:
   - BTC
   - ETH

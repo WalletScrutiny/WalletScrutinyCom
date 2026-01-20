@@ -3,16 +3,16 @@ wsId: yubitExchange
 title: 'YUBIT: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: co.safex.org
 appCountry: us
 idd: '6476754762'
-released: '2024-03-04T08:00:00Z'
+released: 2024-03-04
 updated: 2026-01-12
 version: 5.5.1
-stars: 4.80675
+stars: 4.8
 reviews: 207
-website: ''
+website: 
 repository: 
 issue: 
 icon: co.safex.org.jpg
@@ -26,7 +26,7 @@ twitter: YUBIT_Official
 social:
 - https://www.facebook.com/YUBITEXCHANGE
 - https://www.youtube.com/@YUBITOfficial
-- https://t.me/yubit_official 
+- https://t.me/yubit_official
 features: 
 developerName: SAFETRADING LTD
 

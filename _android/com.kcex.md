@@ -12,7 +12,7 @@ updated: 2026-01-10
 version: 2.0.2
 stars: 4.4
 ratings: 
-reviews: 332
+reviews: 333
 website: https://www.kcex.com/
 repository: 
 issue: 

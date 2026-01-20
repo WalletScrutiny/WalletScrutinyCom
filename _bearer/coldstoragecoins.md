@@ -37,7 +37,7 @@ features:
 
 ---
 
-Comes with a partner-tracker app {% include walletLink.html wallet='android/com.coldstoragecoins' verdict='true' %} 
+Comes with a partner-tracker app {% include walletLinkArchived.html wallet='android/com.coldstoragecoins' %} 
 
 ## Analysis 
 

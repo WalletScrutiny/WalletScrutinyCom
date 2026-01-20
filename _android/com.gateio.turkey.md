@@ -7,7 +7,7 @@ users: 50000
 appId: com.gateio.turkey
 appCountry: 
 released: 
-updated: 2025-12-31
+updated: 2026-01-15
 version: 6.15.38
 stars: 
 ratings: 

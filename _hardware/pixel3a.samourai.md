@@ -44,7 +44,7 @@ The seller on Telegram states that their Pixel Wallets use the GrapheneOS, a mob
 
 The actual wallets include: 
 - {% include walletLink.html wallet='android/com.samourai.wallet' verdict='true' %} 
-- {% include walletLink.html wallet='android/com.m2049r.xmrwallet' verdict='true' %} - a Monero wallet
+- {% include walletLinkArchived.html wallet='android/com.m2049r.xmrwallet' %} - a Monero wallet
 
 ## Product Description 
 

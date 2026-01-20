@@ -12,7 +12,7 @@ updated: 2025-12-26
 version: 1.13.0
 stars: 4.8
 ratings: 
-reviews: 177
+reviews: 181
 website: https://www.frwt.app/
 repository: 
 issue: 

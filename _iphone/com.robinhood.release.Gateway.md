@@ -8,10 +8,10 @@ appId: com.robinhood.release.Gateway
 appCountry: us
 idd: '1634080733'
 released: 2023-01-18
-updated: 2026-01-12
-version: 2026.2.0
+updated: 2026-01-20
+version: 2026.3.0
 stars: 4.6
-reviews: 4025
+reviews: 4057
 website: https://robinhood.com/web3-wallet
 repository: 
 issue: 

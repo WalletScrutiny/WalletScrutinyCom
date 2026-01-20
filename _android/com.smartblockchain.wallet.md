@@ -12,7 +12,7 @@ updated: 2026-01-06
 version: 2.4.0
 stars: 4.2
 ratings: 
-reviews: 32
+reviews: 33
 website: https://smartwallet.com
 repository: 
 issue: 

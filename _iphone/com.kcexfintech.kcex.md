@@ -8,10 +8,10 @@ appId: com.kcexfintech.kcex
 appCountry: us
 idd: '6470641783'
 released: 2024-05-29
-updated: 2026-01-13
-version: 2.0.3
+updated: 2026-01-19
+version: 2.0.4
 stars: 4.6
-reviews: 2543
+reviews: 2550
 website: 
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.getmidas.crypto
 appCountry: 
 released: 2024-12-01
-updated: 2026-01-13
-version: 2.79.1
+updated: 2026-01-16
+version: 2.80.1
 stars: 4.7
 ratings: 
 reviews: 2

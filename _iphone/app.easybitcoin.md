@@ -8,8 +8,8 @@ appId: app.easybitcoin
 appCountry: us
 idd: '6746941684'
 released: 2025-09-09
-updated: 2025-11-20
-version: 1.1.4
+updated: 2026-01-16
+version: 1.1.5
 stars: 3.8
 reviews: 9
 website: 

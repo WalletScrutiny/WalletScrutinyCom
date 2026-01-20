@@ -56,7 +56,7 @@ There's no Privacy Policy on the site. The homepage has some questions from user
 
 We tried the app and created an account. There are community tabs for users to answer and ask questions and a tab to view their wallet balance. Users are provided with addresses and QR codes for BTC, BCH, NANO, and Tezos.
 
-Trying to buy BTC will prompt the app to ask users to download {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}
+Trying to buy BTC will prompt the app to ask users to download {% include walletLinkArchived.html wallet='android/com.changelly.app' %}
 
 There is an option to withdraw beside the bitcoin balance. The app asks users to specify the receiving bitcoin address and the amount of BTC to send. [The transaction is verified through email.](https://www.bitfortip.com/faq)
 

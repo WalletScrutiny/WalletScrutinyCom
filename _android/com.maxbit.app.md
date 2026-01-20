@@ -8,8 +8,8 @@ users: 50000
 appId: com.maxbit.app
 appCountry: 
 released: 2024-09-24
-updated: 2026-01-09
-version: 1.36.0
+updated: 2026-01-19
+version: 1.36.1
 stars: 
 ratings: 
 reviews: 

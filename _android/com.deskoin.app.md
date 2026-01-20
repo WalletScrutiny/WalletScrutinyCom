@@ -7,8 +7,8 @@ users: 5000
 appId: com.deskoin.app
 appCountry: 
 released: 
-updated: 2025-12-18
-version: 6.21.14
+updated: 2026-01-15
+version: 7.0.2
 stars: 
 ratings: 
 reviews: 

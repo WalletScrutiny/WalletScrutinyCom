@@ -8,7 +8,7 @@ appId: com.stackatm.app
 appCountry: 
 released: 2024-08-12
 updated: 2026-01-13
-version: 1.10.0
+version: 1.11.0
 stars: 4
 ratings: 
 reviews: 2

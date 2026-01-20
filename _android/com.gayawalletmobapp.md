@@ -11,7 +11,7 @@ updated: 2026-01-04
 version: '74'
 stars: 4.2
 ratings: 
-reviews: 362
+reviews: 365
 website: https://gayawallet.com
 repository: 
 issue: 

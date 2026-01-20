@@ -10,7 +10,7 @@ released: 2021-09-20
 updated: 2025-10-21
 version: 1.7.28
 stars: 4.6
-reviews: 2885
+reviews: 2883
 website: https://paybis.com/
 repository: 
 issue: 

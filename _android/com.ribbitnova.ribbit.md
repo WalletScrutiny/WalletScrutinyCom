@@ -7,8 +7,8 @@ users: 500
 appId: com.ribbitnova.ribbit
 appCountry: 
 released: 2025-08-20
-updated: 2025-12-23
-version: 1.4.2
+updated: 2026-01-14
+version: 1.5.1
 stars: 
 ratings: 
 reviews: 

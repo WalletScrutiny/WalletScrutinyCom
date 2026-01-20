@@ -9,8 +9,8 @@ idd: '6445964121'
 released: 2023-10-26
 updated: 2026-01-13
 version: 2.66.0
-stars: 4.5
-reviews: 204
+stars: 4.4
+reviews: 206
 website: https://www.backpack.app/
 repository: 
 issue: 

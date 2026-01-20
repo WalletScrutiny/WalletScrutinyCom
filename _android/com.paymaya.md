@@ -12,7 +12,7 @@ updated: 2025-12-20
 version: 2.151.1
 stars: 4.1
 ratings: 
-reviews: 1168
+reviews: 1172
 website: https://www.maya.ph/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.mirai.miraiex
 appCountry: 
 released: 
-updated: 2026-01-08
-version: 3.6.2
+updated: 2026-01-14
+version: 3.7.0
 stars: 
 ratings: 
 reviews: 

@@ -35,11 +35,11 @@ features:
 Note that there are 3 other apps with some similarity
 
 - {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinSeeker' verdict='true' %}
-- {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' verdict='true' %}
+- {% include walletLinkArchived.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' %}
 - {% include walletLink.html wallet='android/com.maarcodev.dormantbitcoinexplorer' verdict='true' %}
 
 This app merely points to:
 
-- {% include walletLink.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' verdict='true' %}
+- {% include walletLinkArchived.html wallet='android/com.BlockchainExplorer.DormantBitcoinExplorer' %}
 
 ...as the newer app. This makes this app **defunct.**

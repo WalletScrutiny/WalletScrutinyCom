@@ -37,6 +37,5 @@
   "hardware/trezorOne":{"negative":2},
   "hardware/trezorSafe3":{"positive":1},
   "hardware/trezorT":{"neutral":1},
-  "desktop/bitcoincore":{"positive":1,"neutral":1},
-  "desktop/mixin.messenger":{"neutral":1}
+  "desktop/bitcoincore":{"positive":1,"neutral":1}
 }

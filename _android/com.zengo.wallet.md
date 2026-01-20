@@ -6,15 +6,15 @@ authors:
 - leo
 - emanuel
 - danny
-users: 500000
+users: 1000000
 appId: com.zengo.wallet
 appCountry: 
 released: 2020-01-19
-updated: 2025-12-18
-version: 9.5.3
+updated: 2026-01-19
+version: 9.5.5
 stars: 4.1
 ratings: 3936
-reviews: 584
+reviews: 587
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
 issue: 

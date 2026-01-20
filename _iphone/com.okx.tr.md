@@ -8,10 +8,10 @@ appId: com.okx.tr
 appCountry: tr
 idd: '6475769800'
 released: 2024-02-07
-updated: 2026-01-07
-version: 6.151.1
+updated: 2026-01-19
+version: 6.154.1
 stars: 4.5
-reviews: 2138
+reviews: 2140
 website: https://tr.okx.com/download
 repository: 
 issue: 

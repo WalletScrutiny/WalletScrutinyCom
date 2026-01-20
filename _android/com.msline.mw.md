@@ -32,7 +32,7 @@ features:
 
 ---
 
-Note: The twitter account for {% include walletLink.html wallet='android/io.masterbank.app' verdict='true' %} [references this app](https://twitter.com/masterpay7/status/1376758986196721665) via a tweet. They may be related.
+Note: The twitter account for {% include walletLinkArchived.html wallet='android/io.masterbank.app' %} [references this app](https://twitter.com/masterpay7/status/1376758986196721665) via a tweet. They may be related.
 
 We tried multiple times to register with the app, but we did not receive the confirmation email. 
 

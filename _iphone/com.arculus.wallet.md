@@ -10,7 +10,7 @@ released: 2021-10-05
 updated: 2025-12-17
 version: 3.10.4
 stars: 4.5
-reviews: 843
+reviews: 860
 website: https://www.arculus.co/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.lnflash
 appCountry: 
 released: 2024-01-07
-updated: 2025-10-04
-version: 0.4.6
+updated: 2026-01-19
+version: 0.4.8
 stars: 
 ratings: 
 reviews: 

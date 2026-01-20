@@ -3,7 +3,7 @@ wsId:
 title: 'Sana: Crypto Wallet and Card'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: xyz.sanafi.app
 appCountry: 
 released: 2025-10-26

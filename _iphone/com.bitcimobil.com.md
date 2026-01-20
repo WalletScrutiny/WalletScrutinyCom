@@ -8,10 +8,10 @@ appId: com.bitcimobil.com
 appCountry: tr
 idd: '1459044769'
 released: 2019-04-17
-updated: 2026-01-07
-version: 21.1.6
+updated: 2026-01-15
+version: 22.0.0
 stars: 3.9
-reviews: 1389
+reviews: 1391
 website: https://www.safebit.com.tr/
 repository: 
 issue: 

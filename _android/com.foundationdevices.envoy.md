@@ -11,9 +11,9 @@ appCountry: US
 released: 2022-04-01
 updated: 2025-10-21
 version: 2.1.1
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 5
+reviews: 6
 website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy
 issue: https://github.com/Foundation-Devices/envoy/issues/1395

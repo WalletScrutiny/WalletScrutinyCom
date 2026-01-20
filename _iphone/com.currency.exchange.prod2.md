@@ -1,6 +1,6 @@
 ---
 wsId: dzengi
-title: Dzengi.com - Crypto Exchange
+title: Криптобиржа - Dzengi.com
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2025-12-17
-version: 2.18.6
+updated: 2026-01-15
+version: 2.18.10
 stars: 4.8
-reviews: 4411
-website: https://currency.com/
+reviews: 4413
+website: https://dzengi.com/ads
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.jpg

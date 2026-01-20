@@ -42,7 +42,7 @@ features:
 
 > We're SOLD OUT - New Stock Arriving 2022
 
-This wallet has a companion app: {% include walletLink.html wallet='android/com.ecomi' verdict='true' %}
+This wallet has a companion app: {% include walletLinkArchived.html wallet='android/com.ecomi' %}
 
 ## Interface
 

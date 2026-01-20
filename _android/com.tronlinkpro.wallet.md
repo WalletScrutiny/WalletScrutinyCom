@@ -7,7 +7,7 @@ users: 5000000
 appId: com.tronlinkpro.wallet
 appCountry: 
 released: 2019-11-08
-updated: 2025-12-16
+updated: 2026-01-14
 version: 4.19.0
 stars: 3.3
 ratings: 

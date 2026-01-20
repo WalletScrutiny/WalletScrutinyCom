@@ -11,7 +11,7 @@ updated: 2025-12-29
 version: 2.10.2
 stars: 4.7
 ratings: 
-reviews: 1613
+reviews: 1626
 website: https://solflare.com
 repository: 
 issue: 

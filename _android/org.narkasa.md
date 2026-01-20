@@ -9,7 +9,7 @@ appId: org.narkasa
 appCountry: 
 released: 2020-10-30
 updated: 2026-01-12
-version: 5.8.5
+version: 5.8.6
 stars: 3.5
 ratings: 
 reviews: 

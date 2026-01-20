@@ -1,6 +1,6 @@
 ---
 wsId: pouchPh
-title: Pouch.ph - Lightning Wallet
+title: Isle
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: pouch.ph
 appCountry: 
 released: 2021-09-08
-updated: 2025-12-15
-version: 1.3.17
+updated: 2026-01-15
+version: 1.4.4
 stars: 3.7
 ratings: 
 reviews: 4

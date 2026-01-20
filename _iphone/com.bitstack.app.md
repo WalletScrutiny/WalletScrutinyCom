@@ -8,10 +8,10 @@ appId: com.bitstack.app
 appCountry: be
 idd: '1608783388'
 released: 2022-07-05
-updated: 2026-01-12
-version: 3.5.0
-stars: 4.6
-reviews: 119
+updated: 2026-01-19
+version: 3.5.2
+stars: 4.5
+reviews: 122
 website: https://www.bitstack-app.com
 repository: 
 issue: 

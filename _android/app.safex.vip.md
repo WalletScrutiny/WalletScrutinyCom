@@ -3,7 +3,7 @@ wsId: yubitExchange
 title: 'YUBIT: Crypto Exchange'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: app.safex.vip
 appCountry: 
@@ -27,7 +27,7 @@ twitter: YUBIT_Official
 social:
 - https://www.facebook.com/YUBITEXCHANGE
 - https://www.youtube.com/@YUBITOfficial
-- https://t.me/yubit_official 
+- https://t.me/yubit_official
 redirect_from: 
 developerName: SAFETRADING LTD
 builds: 

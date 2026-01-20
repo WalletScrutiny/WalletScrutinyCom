@@ -9,7 +9,7 @@ appId: money.boku.android
 appCountry: 
 released: 2023-10-17
 updated: 2026-01-08
-version: 1.3.162
+version: 1.3.164
 stars: 4.7
 ratings: 
 reviews: 11

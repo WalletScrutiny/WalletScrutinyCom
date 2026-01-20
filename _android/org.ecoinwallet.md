@@ -8,8 +8,8 @@ users: 10000
 appId: org.ecoinwallet
 appCountry: 
 released: 2024-01-21
-updated: 2025-11-24
-version: 1.8.5
+updated: 2026-01-14
+version: 1.8.6
 stars: 4.4
 ratings: 
 reviews: 5

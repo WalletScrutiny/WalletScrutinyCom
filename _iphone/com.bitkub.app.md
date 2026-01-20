@@ -8,10 +8,10 @@ appId: com.bitkub.app
 appCountry: th
 idd: 1437814700
 released: 2019-04-24
-updated: 2025-12-26
-version: 4.7.1
+updated: 2026-01-19
+version: 4.8.0
 stars: 4
-reviews: 12213
+reviews: 12220
 website: https://www.bitkub.com/download
 repository: 
 issue: 

@@ -54,7 +54,7 @@ It is also possible to sell Bitcoin for Naira using the app.
 This app is very similar to the following apps:
 
 {% include walletLink.html wallet='android/com.prestmit' verdict='true' %}
-{% include walletLink.html wallet='android/com.truthx.truthx' verdict='true' %}
+{% include walletLinkArchived.html wallet='android/com.truthx.truthx' %}
 
 Like the above-mentioned apps
 
