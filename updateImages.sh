@@ -39,7 +39,7 @@ logIfUnchanged() {
 export -f logIfUnchanged
 
 revertImagesThatDidNotChange() {
-  files=$( git status --porcelain -- images/wIcons/ | sed 's/^...//g' | tr '\n' ' ' )
+  files=$( git status --porcelain images/wIcons | awk '$1!="D"{print $2}' | tr '\n' ' ' )
   if [[ $files ]]; then parallel logIfUnchanged {} ::: $files; fi
   revertFiles=$( cat /tmp/revert.txt | paste -sd ' ' )
   if [[ $revertFiles ]]; then
@@ -66,7 +66,7 @@ resizeMany() {
   if [ "$updateAllImages" ]; then
     files=$( ls $source/*.* )
   else
-    files=$( git status --porcelain -- $source/*.* | sed 's/^...//g' | tr '\n' ' ' )
+    files=$( git status --porcelain -- $source/*.* | awk '$1!="D"{print $2}' | tr '\n' ' ' )
   fi
   if [[ $files ]]; then parallel resizeDeterministically {/} $source $target $size ::: $files; fi
 }
