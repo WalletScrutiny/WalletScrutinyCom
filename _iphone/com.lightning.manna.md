@@ -18,7 +18,7 @@ issue:
 icon: com.lightning.manna.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-29
 signer: 
