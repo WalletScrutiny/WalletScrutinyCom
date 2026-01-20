@@ -47,7 +47,7 @@ const migration = function (header, body, fileName, categoryHelper) {
   for (const l of header.social) {
     if (l == null ||
         typeof l !== 'string' ||
-        (!l.startsWith('http') && !l.startsWith('mailto:')) ||
+        (!l.startsWith('http') && !l.startsWith('mailto:') && !l.startsWith('nostr:')) ||
         l.includes(' ')) {
       console.error(`# ${folder}${header.appId}.md: Unrecognized "social" entry ${l}.`);
     }
