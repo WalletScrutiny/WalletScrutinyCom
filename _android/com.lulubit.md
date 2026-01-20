@@ -8,8 +8,8 @@ users: 50000
 appId: com.lulubit
 appCountry: 
 released: 2023-04-30
-updated: 2026-01-06
-version: 1.43.0
+updated: 2026-01-13
+version: 1.44.0
 stars: 4.2
 ratings: 
 reviews: 16

@@ -8,8 +8,8 @@ appId: com.mpcvault.mobileapp.ios
 appCountry: us
 idd: '1622756458'
 released: 2022-09-13
-updated: 2026-01-10
-version: 1.127.1
+updated: 2026-01-15
+version: 1.127.2
 stars: 5
 reviews: 139
 website: https://mpcvault.com/

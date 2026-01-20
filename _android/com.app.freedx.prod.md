@@ -3,7 +3,7 @@ wsId: freedXCrypto
 title: 'Freedx: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.app.freedx.prod
 appCountry: 
@@ -27,7 +27,7 @@ twitter: Freedx
 social:
 - https://www.facebook.com/p/Freedx-61560053240628
 - https://www.linkedin.com/company/freedx
-- https://www.youtube.com/@FreedXexchange 
+- https://www.youtube.com/@FreedXexchange
 redirect_from: 
 developerName: Freedx
 builds: 

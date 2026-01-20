@@ -12,7 +12,7 @@ updated: 2026-01-08
 version: 11.12.0
 stars: 3.1
 ratings: 31840
-reviews: 486
+reviews: 487
 website: http://www.hbg.com
 repository: 
 issue: 

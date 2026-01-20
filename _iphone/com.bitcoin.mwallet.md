@@ -11,7 +11,7 @@ released: 2017-07-11
 updated: 2026-01-14
 version: 9.5.0
 stars: 4.7
-reviews: 41777
+reviews: 41861
 website: https://wallet.bitcoin.com/
 repository: 
 issue: 

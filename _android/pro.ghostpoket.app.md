@@ -7,8 +7,8 @@ users: 100
 appId: pro.ghostpoket.app
 appCountry: 
 released: 2025-06-21
-updated: 2025-11-23
-version: 1.1.4
+updated: 2026-01-15
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 

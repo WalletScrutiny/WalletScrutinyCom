@@ -3,16 +3,16 @@ wsId: freedXCrypto
 title: 'Freedx: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.freedx.app.prod
 appCountry: ae
 idd: '6752333961'
-released: '2025-10-21T07:00:00Z'
+released: 2025-10-21
 updated: 2026-01-08
 version: 1.3.0
 stars: 0
 reviews: 0
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.freedx.app.prod.jpg
@@ -26,7 +26,7 @@ twitter: Freedx
 social:
 - https://www.facebook.com/p/Freedx-61560053240628
 - https://www.linkedin.com/company/freedx
-- https://www.youtube.com/@FreedXexchange 
+- https://www.youtube.com/@FreedXexchange
 features: 
 developerName: Freedx
 

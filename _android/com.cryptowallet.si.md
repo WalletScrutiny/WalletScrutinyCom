@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptowallet.si Mobile Wallet
+title: CryptoWallet.si Mobile Wallet
 altTitle: 
 authors: 
 users: 5000
@@ -12,7 +12,7 @@ version: v2.0.9
 stars: 
 ratings: 
 reviews: 
-website: https://cryptowallet.si
+website: https://app.cryptowallet.si
 repository: 
 issue: 
 icon: com.cryptowallet.si.png

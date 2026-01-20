@@ -11,7 +11,7 @@ released: 2023-09-07
 updated: 2025-11-17
 version: 0.70.8
 stars: 4.7
-reviews: 540
+reviews: 542
 website: https://coinsavi.com
 repository: 
 issue: 

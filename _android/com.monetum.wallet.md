@@ -3,7 +3,7 @@ wsId:
 title: Monetum Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.monetum.wallet
 appCountry: 
 released: 2022-08-05

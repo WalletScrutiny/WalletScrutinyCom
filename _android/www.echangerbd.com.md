@@ -33,7 +33,7 @@ features:
 ---
 
 As indicated by the name, this is an old archived version of 
-{% include walletLink.html wallet='android/com.exchangernet' verdict='true' %}. 
+{% include walletLinkArchived.html wallet='android/com.exchangernet' %}. 
 
 We installed it, and it was blank. We can now mark it as **defunct**
 

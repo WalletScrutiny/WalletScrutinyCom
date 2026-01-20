@@ -3,11 +3,11 @@ wsId: bitsaveBitcoin
 title: 'BitSave: Bitcoin & Crypto SIP'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.casperwealth.bitsaveios
 appCountry: us
 idd: '6446794637'
-released: '2023-04-13T07:00:00Z'
+released: 2023-04-13
 updated: 2025-11-05
 version: 1.27.1
 stars: 0
@@ -26,7 +26,7 @@ twitter: BitSaveClub
 social:
 - https://www.linkedin.com/company/bitsaveclub
 - https://www.facebook.com/bitsaveclub
-- https://www.youtube.com/@BitSaveClub 
+- https://www.youtube.com/@BitSaveClub
 features: 
 developerName: Casper Wealth Holdings Limited
 

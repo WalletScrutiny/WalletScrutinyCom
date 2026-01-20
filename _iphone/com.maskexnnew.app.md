@@ -10,8 +10,8 @@ idd: '1600880394'
 released: 2021-12-22
 updated: 2024-06-03
 version: 2.0.8
-stars: 3.3
-reviews: 7
+stars: 3
+reviews: 8
 website: https://maskex.com/en
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2024-05-25
 updated: 2025-12-03
 version: 2.6.0
-stars: 3.8
+stars: 3.9
 ratings: 
 reviews: 8
 website: https://lava.xyz

@@ -3,7 +3,7 @@ wsId: bizaPayWallet
 title: BizaPAY Wallet - 암호화폐 지갑
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.amaxg.bizapaywallet
 appCountry: us
 idd: '6740513430'

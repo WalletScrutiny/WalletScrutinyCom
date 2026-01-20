@@ -40,7 +40,7 @@ features:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fe2RwvDrnRY?si=ASHImhU03CbFR9J5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-Its companion app is {% include walletLink.html wallet='android/com.secuxtech.secuxtwallet' verdict='true' %}
+Its companion app is {% include walletLinkArchived.html wallet='android/com.secuxtech.secuxtwallet' %}
 
 The Neo Gold line is very similar to the {% include walletLink.html wallet='hardware/secuxneox' verdict='true' %}, except that Gold doesn't support NFT display.
 

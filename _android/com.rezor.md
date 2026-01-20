@@ -12,7 +12,7 @@ updated: 2026-01-12
 version: '1'
 stars: 5
 ratings: 
-reviews: 12
+reviews: 10
 website: 
 repository: 
 issue: 

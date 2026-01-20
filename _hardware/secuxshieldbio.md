@@ -54,8 +54,8 @@ features:
 
 ## Companion Apps:
 
-- **Android:** {% include walletLink.html wallet='android/com.secuxapp' verdict='true' %}
-- **IPhone:** {% include walletLink.html wallet='iphone/com.secuxtech.secuxcess2' verdict='true' %}
+- **Android:** {% include walletLinkArchived.html wallet='android/com.secuxapp' %}
+- **IPhone:** {% include walletLinkArchived.html wallet='iphone/com.secuxtech.secuxcess2' %}
 
 ## Analysis
 

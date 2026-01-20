@@ -39,7 +39,7 @@ features:
 
 This app has the [same developer](https://play.google.com/store/apps/developer?id=ATM+Warrant) with: 
 
-{% include walletLink.html wallet='android/com.gaifang.ATMOptionTest' verdict='true' %}
+{% include walletLinkArchived.html wallet='android/com.gaifang.ATMOptionTest' %}
 
 > ATM option is a reliable trading platform with the most popular FOREX market assets: currencies, and many others, as well as other assets.Global traders can trade here.
 >

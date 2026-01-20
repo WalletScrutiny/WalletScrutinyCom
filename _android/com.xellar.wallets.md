@@ -7,8 +7,8 @@ users: 5000
 appId: com.xellar.wallets
 appCountry: 
 released: 2023-04-15
-updated: 2025-12-27
-version: 9.8.3
+updated: 2026-01-16
+version: 9.9.7
 stars: 
 ratings: 
 reviews: 

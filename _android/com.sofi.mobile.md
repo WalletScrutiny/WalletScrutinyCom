@@ -7,11 +7,11 @@ users: 5000000
 appId: com.sofi.mobile
 appCountry: 
 released: 2017-04-10
-updated: 2026-01-10
-version: 3.75.4
+updated: 2026-01-19
+version: 3.78.0
 stars: 3.9
 ratings: 
-reviews: 19675
+reviews: 19743
 website: https://www.sofi.com
 repository: 
 issue: 

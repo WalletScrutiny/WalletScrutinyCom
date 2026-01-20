@@ -33,4 +33,4 @@ features:
 
 ---
 
-This was the beta version of {% include walletLink.html wallet='android/io.handcash.wallet' verdict='true' %}.
+This was the beta version of {% include walletLinkArchived.html wallet='android/io.handcash.wallet' %}.

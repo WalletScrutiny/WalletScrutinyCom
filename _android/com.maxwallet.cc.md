@@ -3,7 +3,7 @@ wsId:
 title: MaxWallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.maxwallet.cc
 appCountry: 
 released: 

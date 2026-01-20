@@ -38,7 +38,7 @@ features:
 
 Note: Has multiple similar sounding apps.
 
-- {% include walletLink.html wallet='android/com.paycaff.safepaytm' verdict='true' %}
+- {% include walletLinkArchived.html wallet='android/com.paycaff.safepaytm' %}
 - {% include walletLink.html wallet='android/org.safecoin.safecoinwallet' verdict='true' %}
 
 The first is not related to this app. The second one seems to be a defunct version from the same project. We checked the homepage for the second app and it leads to safecoin.org. Safecoin.org [links](https://www.safecoin.org/blog/welcome-to-safepay-by-safecoin/) to the wallet currently reviewed on this blog post. They bear the same likeness and logos.

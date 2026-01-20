@@ -9,7 +9,7 @@ appCountry:
 released: 2025-09-23
 updated: 2025-12-31
 version: 1.2.4
-stars: 4.3
+stars: 4.5
 ratings: 
 reviews: 4
 website: https://www.bitradex.com/

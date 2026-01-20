@@ -35,7 +35,7 @@ features:
 ## Updated Review 2023-11-15
 
 - Changed price to reflect price changes on the website
-- Added the companion app {% include walletLink.html wallet='iphone/com.cryptnox.companion' verdict='true' %} and {% include walletLink.html wallet='android/com.cryptnox.cryptnoxwallet' verdict='true' %}
+- Added the companion app {% include walletLinkArchived.html wallet='iphone/com.cryptnox.companion' %} and {% include walletLinkArchived.html wallet='android/com.cryptnox.cryptnoxwallet' %}
 
 ## Background 
 

@@ -1,6 +1,6 @@
 ---
 wsId: bitunix
-title: 'Bitunix Pro: Trade Bitcoin'
+title: 'Bitunix Pro: Buy BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 500000
 appId: bu.app.android
 appCountry: 
 released: 2025-04-29
-updated: 2026-01-13
-version: 3.14.1
-stars: 4
+updated: 2026-01-16
+version: 3.15.1
+stars: 4.1
 ratings: 
 reviews: 61
 website: https://www.unixcrypto.net

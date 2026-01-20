@@ -8,8 +8,8 @@ users: 100000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2026-01-07
-version: 2.23.2
+updated: 2026-01-13
+version: 2.23.3
 stars: 4.5
 ratings: 
 reviews: 36

@@ -3,7 +3,7 @@ wsId:
 title: Between Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.between.wallet
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social:
 - https://www.linkedin.com/company/betweenbits
-- https://medium.com/@betweenbits 
+- https://medium.com/@betweenbits
 redirect_from: 
 developerName: BetweenBits Inc.
 builds: 

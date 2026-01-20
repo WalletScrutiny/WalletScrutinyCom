@@ -7,10 +7,10 @@ appId: Com.BankSocial.app
 appCountry: us
 idd: '1586052784'
 released: 2021-10-26
-updated: 2026-01-09
-version: 2.25.0
+updated: 2026-01-19
+version: 2.27.0
 stars: 4.6
-reviews: 110
+reviews: 111
 website: http://www.banksocial.io
 repository: 
 issue: 

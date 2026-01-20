@@ -82,7 +82,7 @@ Pending the response of SecuX tech, I think it's worth the benefit of the doubt 
 
 The device can be paired with a mobile phone app via Bluetooth:
 
-{% include walletLink.html wallet='android/com.secux.mobile' verdict='true' %}
+{% include walletLinkArchived.html wallet='android/com.secux.mobile' %}
 
 ## Private keys can be created offline - ✔️
 

@@ -7,8 +7,8 @@ users: 500
 appId: com.tapwalletmobile
 appCountry: 
 released: 2025-07-24
-updated: 2025-10-27
-version: 1.0.27
+updated: 2026-01-19
+version: 1.0.29
 stars: 
 ratings: 
 reviews: 

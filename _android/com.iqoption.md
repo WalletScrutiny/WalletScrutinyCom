@@ -12,7 +12,7 @@ updated: 2025-12-17
 version: 8.64.4
 stars: 4.5
 ratings: 
-reviews: 537
+reviews: 539
 website: https://km.iqoption.com/en
 repository: 
 issue: 
@@ -44,7 +44,7 @@ This app presents itself as a trading platform that claims to deal in multiple a
 
 ## Other Observations
 
-We were linked to this app while reviewing {% include walletLink.html wallet='android/quarecy.crypto' verdict='true' %}. Upon installing and trying it out, we could not find any cryptocurrencies listed among the assets. There is an option for "depositing" although none of the options include BTC. 
+We were linked to this app while reviewing {% include walletLinkArchived.html wallet='android/quarecy.crypto' %}. Upon installing and trying it out, we could not find any cryptocurrencies listed among the assets. There is an option for "depositing" although none of the options include BTC. 
 
 We can see however in their website that BTC is among the CFD pairs of assets that can be bought or sold.
 

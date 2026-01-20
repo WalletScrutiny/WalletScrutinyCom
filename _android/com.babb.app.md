@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.babb.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-10
+date: 2026-01-20
 signer: 
 twitter: getbabb
 social:

@@ -82,7 +82,7 @@ The attempt to create the paper equivalent of Bitcoin has seen its share of tria
 
 - {% include walletLink.html wallet='bearer/icynote' verdict='true' %} 
 - {% include walletLink.html wallet='bearer/polymerbit' verdict='true' %}
-- {% include walletLink.html wallet='bearer/kongcash' verdict='true' %}
+- {% include walletLinkArchived.html wallet='bearer/kongcash' %}
 
 Even if the issuers use a multi-sig setup where the user can provide their own key, they still create the conundrum of being a centralized issuer. 
 

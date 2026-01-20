@@ -3,16 +3,16 @@ wsId: bitbnsPay
 title: Bitbns Pay
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitbns.bnspay
 appCountry: in
 idd: '1572500597'
-released: '2021-06-22T07:00:00Z'
+released: 2021-06-22
 updated: 2021-12-23
 version: 1.8.7
-stars: 2.45098
+stars: 2.5
 reviews: 153
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.bitbns.bnspay.jpg
@@ -26,7 +26,7 @@ twitter: bitbns
 social:
 - https://www.facebook.com/bitbns
 - https://www.reddit.com/r/Bitbns
-- https://www.youtube.com/c/Bitbns 
+- https://www.youtube.com/c/Bitbns
 features: 
 developerName: Buyhatke Internet Private Limited
 

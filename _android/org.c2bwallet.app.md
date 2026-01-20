@@ -34,7 +34,7 @@ features:
 
 ## App Description
 
-The Cash2Bitcoin Wallet app is an Android application that generates a recovery seed phrase and stores private keys locally on the user's device. It allows users to hold and manage supported cryptocurrencies directly from the app, unlike the separate Cash2Bitcoin ATM-locator app:  {% include walletLink.html wallet='android/com.cashbitcoin.android' verdict='true' %}
+The Cash2Bitcoin Wallet app is an Android application that generates a recovery seed phrase and stores private keys locally on the user's device. It allows users to hold and manage supported cryptocurrencies directly from the app, unlike the separate Cash2Bitcoin ATM-locator app:  {% include walletLinkArchived.html wallet='android/com.cashbitcoin.android' %}
 
 The Play Store listing states that the wallet integrates with Cash2Bitcoin’s buy-flow, enabling purchases of crypto with cash or card that are deposited into the user-controlled wallet.
 

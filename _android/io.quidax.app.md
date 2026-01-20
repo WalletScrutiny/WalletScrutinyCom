@@ -8,11 +8,11 @@ users: 10000
 appId: io.quidax.app
 appCountry: 
 released: 2025-04-21
-updated: 2025-12-12
-version: 1.2.1
+updated: 2026-01-14
+version: 1.2.2
 stars: 4.2
 ratings: 
-reviews: 7
+reviews: 8
 website: https://www.quidax.io/
 repository: 
 issue: 

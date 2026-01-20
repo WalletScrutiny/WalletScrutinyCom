@@ -36,7 +36,7 @@ features:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tlhId-1wjIQ?si=tOTnn5MWJzvMMX6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 It is paired with the {% include walletLink.html wallet='android/com.pundix.functionx' verdict='true' %}.
-It can also be used with {% include walletLink.html wallet='hardware/pundix.pos' verdict='true' %}
+It can also be used with {% include walletLinkArchived.html wallet='hardware/pundix.pos' %}
 
 ## Update 2024-10-22
 

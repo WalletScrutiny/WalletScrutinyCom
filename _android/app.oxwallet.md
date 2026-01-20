@@ -3,7 +3,7 @@ wsId:
 title: OX Wallet Secure
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: app.oxwallet
 appCountry: 

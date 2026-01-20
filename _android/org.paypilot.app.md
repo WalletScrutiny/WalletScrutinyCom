@@ -7,8 +7,8 @@ users: 100
 appId: org.paypilot.app
 appCountry: 
 released: 
-updated: 2026-01-12
-version: 0.6.2
+updated: 2026-01-15
+version: 0.7.0
 stars: 
 ratings: 
 reviews: 

@@ -8,12 +8,12 @@ users: 10000
 appId: com.exchange.allin
 appCountry: 
 released: 
-updated: 2025-12-08
-version: 1.1.27
+updated: 2026-01-17
+version: 1.1.28
 stars: 
 ratings: 
 reviews: 
-website: https://www.allinpro.com
+website: https://www.allinx.io
 repository: 
 issue: 
 icon: com.exchange.allin.png

@@ -10,7 +10,7 @@ released: 2022-10-25
 updated: 2026-01-13
 version: 4.6.1
 stars: 4.8
-reviews: 5664
+reviews: 5663
 website: https://www.coinex.com/
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2023-03-20
 updated: 2025-12-31
 version: '2.34'
 stars: 4.5
-reviews: 805
+reviews: 806
 website: https://nearmobile.app/
 repository: 
 issue: 

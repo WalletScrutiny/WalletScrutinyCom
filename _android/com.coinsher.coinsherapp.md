@@ -11,7 +11,7 @@ updated: 2025-12-27
 version: 1.5.2
 stars: 4.8
 ratings: 
-reviews: 7
+reviews: 8
 website: https://www.coinsher.com/
 repository: 
 issue: 

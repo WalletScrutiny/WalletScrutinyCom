@@ -12,7 +12,7 @@ updated: 2025-12-21
 version: 3.46.47
 stars: 4.5
 ratings: 15716
-reviews: 7259
+reviews: 7305
 website: https://www.kraken.com
 repository: 
 issue: 

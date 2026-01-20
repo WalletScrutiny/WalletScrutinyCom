@@ -8,8 +8,8 @@ users: 10000
 appId: io.crypto2cash.exchange
 appCountry: 
 released: 2018-12-06
-updated: 2025-12-17
-version: 2.1.5
+updated: 2026-01-14
+version: 2.1.6
 stars: 3.7
 ratings: 
 reviews: 4

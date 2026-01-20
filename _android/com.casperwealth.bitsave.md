@@ -3,7 +3,7 @@ wsId: bitsaveBitcoin
 title: 'BitSave: Bitcoin & Crypto SIP'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.casperwealth.bitsave
 appCountry: 
@@ -27,7 +27,7 @@ twitter: BitSaveClub
 social:
 - https://www.linkedin.com/company/bitsaveclub
 - https://www.facebook.com/bitsaveclub
-- https://www.youtube.com/@BitSaveClub 
+- https://www.youtube.com/@BitSaveClub
 redirect_from: 
 developerName: Casper Wealth
 builds: 

@@ -3,7 +3,7 @@ wsId: myntBitcoin
 title: 'Mynt: Bitcoin, ETH, SOL e mais'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: br.com.mynt
 appCountry: 
@@ -27,7 +27,7 @@ twitter: myntcrypto
 social:
 - https://www.linkedin.com/company/myntapp
 - https://www.youtube.com/channel/UCWodTrNidfujoaKxYhiTpVQ
-- https://www.instagram.com/mynt.crypto 
+- https://www.instagram.com/mynt.crypto
 redirect_from: 
 developerName: MYNT TECNOLOGIA LTDA
 builds: 

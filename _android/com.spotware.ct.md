@@ -4,15 +4,15 @@ title: 'cTrader: Forex & Stock Trading'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.spotware.ct
 appCountry: 
 released: 2014-02-10
-updated: 2026-01-12
+updated: 2026-01-15
 version: 5.6.160
 stars: 4.6
 ratings: 
-reviews: 347
+reviews: 350
 website: https://ctrader.com/forum
 repository: 
 issue: 

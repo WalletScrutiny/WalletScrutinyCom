@@ -8,8 +8,8 @@ users: 1000
 appId: com.xspa.ai
 appCountry: 
 released: 2025-08-23
-updated: 2025-12-17
-version: 1.0.7
+updated: 2026-01-16
+version: 1.0.8
 stars: 5
 ratings: 
 reviews: 8

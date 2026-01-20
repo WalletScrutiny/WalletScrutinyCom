@@ -11,7 +11,7 @@ released: 2021-08-27
 updated: 2025-10-29
 version: 1.0.25
 stars: 4
-reviews: 123
+reviews: 124
 website: https://www.flitpay.com
 repository: 
 issue: 

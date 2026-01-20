@@ -8,7 +8,7 @@ authors:
 - leo
 - danny
 - keraliss
-users: 500000
+users: 1000000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
