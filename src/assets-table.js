@@ -643,7 +643,7 @@ window.renderAssetsTable = async function({
       }
     });
 
-    if (verifications.every(verification => verification.classList.contains('draft-attestation'))) {
+    if (verifications.length > 0 && verifications.every(verification => verification.classList.contains('draft-attestation'))) {
       row.classList.add('draft-attestation');
       if (pubkeyVerifications.length > 0) {
         row.dataset.pubkey_verifiers = pubkeyVerifications.join(', ');
