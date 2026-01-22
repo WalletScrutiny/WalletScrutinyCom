@@ -169,7 +169,7 @@ const getNpubFromPubkey = function (pubkey) {
 const getWSClientTags = function() {
   return [
     ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
-    ["d", "walletscrutiny"]
+    ["c", "walletscrutiny"]
   ];
 }
 
