@@ -43,7 +43,7 @@ OrangeX emphasizes security controls and account protection measures while provi
 
 ## Analysis
 
-The [terms state](https://www.orangex.com/terms?type=conditions):
+The [terms](https://www.orangex.com/terms?type=conditions) state:
 
 > Wallet:The digital storage vault managed and made available by us where you can store Cryptocurrency to be used to trade Products;
 

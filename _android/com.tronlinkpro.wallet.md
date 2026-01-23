@@ -35,7 +35,7 @@ features:
 
 ## App Analysis
 
-[Testing images on x.com](https://x.com/BitcoinWalletz/status/2014519411974328563)
+[Testing images on x.com](https://x.com/BitcoinWalletz/status/2014519411974328563).
 
 TronLink Pro is a self-custodial cryptocurrency wallet designed to manage assets on the TRON blockchain and interact with TRON-based decentralized applications.
 
