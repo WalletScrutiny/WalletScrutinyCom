@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: sofiBank
 title: 'SoFi: Bank, Invest & Crypto'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.sofi.mobile
 appCountry: us
 idd: '1191985736'
@@ -17,14 +18,15 @@ issue:
 icon: com.sofi.mobile.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosendreceive
 appHashes: 
-date: 2026-01-14
+date: 2026-01-23
 signer: 
-twitter: 
+twitter: SoFi
 social: 
 features: 
 developerName: Social Finance, Inc
 
 ---
 
+{% include copyFromAndroid.html %}
