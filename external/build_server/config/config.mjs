@@ -9,6 +9,9 @@ export const APPROVED_VERIFIERS_PUBKEY_HEX = [
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
+// Public key of the Nostr account that will receive notifications about issues with the app
+export const NOSTR_NOTIFICATIONS_PUBLIC_KEY = '03b5036dc3db82604307c1964d2b926417a91c3b11ef75ba6ca55019e9b7a62a';
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;

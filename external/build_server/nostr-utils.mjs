@@ -222,19 +222,60 @@ export async function createVerification(ndkInstance, {
 }
 
 async function publishNdkEvent(ndkEvent) {
-  try {
-    const publishedToRelays = await ndkEvent.publish();
-    appLog.info(`Published verification (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
-    return ndkEvent;
-  } catch (error) {
-    appLog.error(`Error publishing verification to relays`, error);
-    
-    if (error instanceof NDKPublishError) {
-      for (const [relay, err] of error.errors) {
-        appLog.error(`Error publishing verification to relay ${relay.url}`, err);
+  if (!isDebugEnv()) {
+    try {
+      const publishedToRelays = await ndkEvent.publish();
+      appLog.info(`Published Nostr event (id: ${ndkEvent.id}) to ${publishedToRelays.size} relays`);
+      return ndkEvent;
+    } catch (error) {
+      appLog.error(`Error publishing verification to relays`, error);
+      
+      if (error instanceof NDKPublishError) {
+        for (const [relay, err] of error.errors) {
+          appLog.error(`Error publishing verification to relay ${relay.url}`, err);
+        }
       }
-    }
 
-    return null;
+      return false;
+    }
+  } else {
+    appLog.info(`DEBUG MODE: NOT publishing Nostr event (id: ${ndkEvent.id}) to relays`);
+    return true;
+  }
+}
+
+export async function sendPrivateMessage(publicKey, commentText) {
+  if (!publicKey || !commentText) {
+    throw new Error("Missing required parameters: publicKey and commentText are required");
+  }
+
+  // Validate pubkey format
+  if (!/^[0-9a-f]{64}$/i.test(publicKey)) {
+    throw new Error("Invalid verifier pubkey format");
+  }
+
+  const ndkInstance = getNdk();
+  if (!ndkInstance) {
+    throw new Error('NDK instance is not initialized');
+  }
+
+  const ndkEvent = new NDKEvent(ndkInstance);
+  ndkEvent.kind = 4;
+  ndkEvent.created_at = Math.floor(Date.now() / 1000);
+  ndkEvent.tags = [['p', publicKey]];
+  ndkEvent.content = commentText;
+
+  appLog.info(`Sending private message to ${publicKey} - ${commentText}`);
+  appLog.debug(`NDK event: ${JSON.stringify(ndkEvent.rawEvent())}`);
+
+  try {
+    const recipient = ndk.getUser({ pubkey: publicKey });
+    await ndkEvent.encrypt(recipient, null, "nip04");
+    await ndkEvent.sign();
+    await publishNdkEvent(ndkEvent, 'private message to verifier');
+    return ndkEvent.id;
+  } catch (error) {
+    console.error('Error encrypting or publishing private message:', error);
+    throw new Error(`Failed to send private message: ${error.message}`);
   }
 }

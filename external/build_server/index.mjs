@@ -14,7 +14,8 @@ import {
   getEventsFromEventIds,
   uploadBlobToBlossomServer,
   createVerification,
-  getNdk
+  getNdk,
+  sendPrivateMessage
 } from './nostr-utils.mjs';
 import { refreshApps } from './refresh_apps.mjs';
 import { appLog, verificationsLog } from './logger.js';
@@ -34,7 +35,8 @@ import {
   WS_BOT_NOSTR_PUBKEY_HEX,
   QUEUE_TIMEOUT_HOURS,
   QUEUE_CONCURRENCY,
-  BUILD_DIR
+  BUILD_DIR,
+  NOSTR_NOTIFICATIONS_PUBLIC_KEY
 } from './config/config.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -104,6 +106,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     if (reproducibleVerifications.length === 0) {
       appLog.info('No reproducible verifications found.');
+      await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, 'WalletScrutiny.com Bot Notification: No reproducible verifications found.');
       return;
     }
 
@@ -159,6 +162,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
   } catch (error) {
     appLog.error('Error during process:', error);
+    await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, `WalletScrutiny.com Bot Notification: Error during process: ${JSON.stringify(error)}`);
     throw error;
   }
 }
@@ -170,6 +174,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   if (!comparisonResults) {
     appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+    await sendPrivateMessage(verification.pubkey, `WalletScrutiny.com Bot Notification: COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
     return;
   }
   const { hashes, matches } = comparisonResults;
@@ -183,6 +188,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   } catch (error) {
     appLog.error(`************* Error uploading cast file to Blossom: ${error} *************\n`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, `WalletScrutiny.com Bot Notification: Error uploading cast file to Blossom: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
     return;
   }
 
@@ -224,6 +230,7 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
+    await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, `WalletScrutiny.com Bot Notification: Error creating verification for ${appId}: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
   }
 }
 
@@ -245,6 +252,7 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
     
     if (fileAttachmentIds.length === 0) {
       appLog.info(`${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
+      await sendPrivateMessage(verification.pubkey, `WalletScrutiny.com Bot Notification: ${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
       return;
     }
 
@@ -353,6 +361,7 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
 
     if (!anyFileTried) {
       appLog.info(`   ** There are no files ending in .build.sh in the latest verification. Skipping... **`);
+      await sendPrivateMessage(verification.pubkey, `WalletScrutiny.com Bot Notification: ${appId} | ${version} | ${platform} | There are no files ending in .build.sh in the latest verification. Skipping...`);
       verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in .build.sh in the latest verification. Skipping...`);
       return;
     }
@@ -360,6 +369,7 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
   } catch (error) {
     appLog.error(`Error processing verification ${verification.id}:`, error);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error processing verification: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, `WalletScrutiny.com Bot Notification: Error processing verification ${verification.id}: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
 }
 
@@ -391,6 +401,7 @@ while (true) {
     await mainProcess(githubToken, wsBotNostrPrivateKey);
   } catch (error) {
     appLog.error('Error during execution:', error);
+    await sendPrivateMessage(NOSTR_NOTIFICATIONS_PUBLIC_KEY, `WalletScrutiny.com Bot Notification: Error during execution: ${JSON.stringify(error)}`);
   }
   
   appLog.info(`======= Waiting ${HOURS_BETWEEN_EXECUTIONS} hours until next execution... =======\n`);
