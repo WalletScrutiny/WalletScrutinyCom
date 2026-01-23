@@ -374,21 +374,35 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
 }
 
 const args = minimist(process.argv.slice(2));
-const githubToken = args.githubToken;
-const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
 
-if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug]');
-  process.exit(1);
+let githubToken;
+let wsBotNostrPrivateKey;
+
+if (process.env.GITHUB_TOKEN_FILE) {
+  githubToken = fs.readFileSync(
+    process.env.GITHUB_TOKEN_FILE,
+    "utf8"
+  ).trim();
+} else if (args.githubToken) {
+  console.warn("⚠️ Using GITHUB_TOKEN from argv (dev only)");
+  githubToken = args.githubToken;
+} else {
+  throw new Error("GITHUB_TOKEN not provided");
 }
 
-if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug]');
-  process.exit(1);
+if (process.env.WS_BOT_PK_FILE) {
+  wsBotNostrPrivateKey = fs.readFileSync(
+    process.env.WS_BOT_PK_FILE,
+    "utf8"
+  ).trim();
+} else if (args.wsBotNostrPrivateKey) {
+  console.warn("⚠️ Using WS_BOT_PK from argv (dev only)");
+  wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
+} else {
+  throw new Error("WS_BOT_PK not provided");
 }
 
-const isDebug = args.debug === true || args.debug === 'true';
-if (isDebug) {
+if (args.debug === true || args.debug === 'true') {
   appLog.info('======= DEBUG MODE ENABLED =======');
 }
 
