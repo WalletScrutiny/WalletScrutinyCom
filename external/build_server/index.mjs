@@ -360,9 +360,9 @@ async function processVerification(verification, newWalletVersion, appInfo, wsBo
     }
 
     if (!anyFileTried) {
-      appLog.info(`   ** There are no files ending in .build.sh in the latest verification. Skipping... **`);
-      await sendPrivateMessage(verification.pubkey, `WalletScrutiny.com Bot Notification: ${appId} | ${version} | ${platform} | There are no files ending in .build.sh in the latest verification. Skipping...`);
-      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in .build.sh in the latest verification. Skipping...`);
+      appLog.info(`   ** There are no files ending in build.sh in the latest verification. Skipping... **`);
+      await sendPrivateMessage(verification.pubkey, `WalletScrutiny.com Bot Notification: ${appId} | ${version} | ${platform} | There are no files ending in build.sh in the latest verification. Skipping...`);
+      verificationsLog.info(`--- ${appId} ${newWalletVersion} | There are no files ending in build.sh in the latest verification. Skipping...`);
       return;
     }
 
