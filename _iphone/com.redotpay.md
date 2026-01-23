@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: redotpayCrypto
 title: 'RedotPay: Crypto Card & Pay'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.redotpay
 appCountry: us
 idd: '6449689356'
@@ -17,14 +18,19 @@ issue:
 icon: com.redotpay.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 appHashes: 
-date: 2026-01-14
+date: 2026-01-23
 signer: 
-twitter: 
-social: 
+twitter: redotpay
+social:
+- https://www.linkedin.com/company/redotpayofficial
+- https://www.instagram.com/redotpay
+- https://www.facebook.com/RedotPayOfficial
+- https://t.me/RedotPayAnnouncement 
 features: 
 developerName: Red Dot Technology Limited.
 
 ---
 
+{% include copyFromAndroid.html %}

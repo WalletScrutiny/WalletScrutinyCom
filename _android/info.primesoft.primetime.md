@@ -2,7 +2,8 @@
 wsId: 
 title: CryptoBuy - Bitcoin & Many
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: info.primesoft.primetime
 appCountry: 
@@ -17,7 +18,7 @@ repository:
 issue: 
 icon: info.primesoft.primetime.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: wip
 appHashes: 
 date: 2026-01-14
@@ -31,3 +32,16 @@ features:
 
 ---
 
+## App Description
+
+Crypto Buy is a mobile app that allows users to buy, sell, and manage Bitcoin and other cryptocurrencies through a simple trading-focused interface.
+
+The app provides access to live market prices, real-time charts, and tools for monitoring crypto price movements and executing trades.
+
+## Analysis
+
+Its homepage is currently offline (503). 
+
+We [tested](https://x.com/BitcoinWalletz/status/2014598543689056281) the app, and tried to register, but once the register button is pressed, it only errors out as "null".
+
+From our initial inspection, it looks like an centralized exchange. However, it is currently not available and thus both the app and the site cannot be verified. We are leaning towards a "defunct" verdict, since not much information could be found about it.
