@@ -174,12 +174,12 @@ permalink: /verifiers/
   }
 
   function loadEventsFromGlobalCache() {
-    // Load from window.allAssetInformation (already cached in IDB globally)
+    // Load from window.allAssetInformation (already deduplicated by hash+pubkey in processEventsToResult)
     if (!window.allAssetInformation) return;
     
     allEvents.clear();
     
-    // Extract all verifications
+    // Extract all verifications - already deduplicated in the global cache
     for (const verificationGroup of window.allAssetInformation.verifications.values()) {
       for (const verification of verificationGroup) {
         allEvents.set(verification.id, {
@@ -191,7 +191,7 @@ permalink: /verifiers/
       }
     }
     
-    console.log(`Loaded ${allEvents.size} verifications from global cache`);
+    console.log(`Loaded ${allEvents.size} unique verifications from global cache (already deduplicated by hash+pubkey)`);
   }
 
   function renderTables() {

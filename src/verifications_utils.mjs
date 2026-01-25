@@ -777,7 +777,8 @@ const initDB = () => {
 };
 
 /**
- * Save events to IDB with NIP-33 deduplication for parameterized replaceable events
+ * Save events to IDB - stores all events as-is
+ * Deduplication is done application-side when reading (for verifications: by hash+pubkey)
  * @param {Array|Set} events - Events to save
  * @returns {Promise<number>} Number of events saved
  */
@@ -788,93 +789,18 @@ const saveEventsToIDB = async (events) => {
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([eventsStoreName], "readwrite");
     const objectStore = transaction.objectStore(eventsStoreName);
-    const pubkeyIndex = objectStore.index('pubkey');
     
     let savedCount = 0;
-    let replacedCount = 0;
     const eventsArray = Array.isArray(events) ? events : Array.from(events);
     
-    // Helper to check if event is parameterized replaceable (NIP-33)
-    const isParameterizedReplaceable = (kind) => kind >= 30000 && kind <= 39999;
-    
-    // Helper to get d-tag value from event
-    const getDTag = (event) => event.tags?.find(t => t[0] === 'd')?.[1] || '';
-    
-    // Process each event
-    let processed = 0;
     eventsArray.forEach(event => {
       const rawEvent = event.rawEvent ? event.rawEvent() : (event.toNostrEvent ? event.toNostrEvent() : event);
-      
-      // For parameterized replaceable events, check for existing events to replace
-      if (isParameterizedReplaceable(rawEvent.kind)) {
-        const dTag = getDTag(rawEvent);
-        
-        // Query for events with same pubkey
-        const pubkeyRequest = pubkeyIndex.getAll(rawEvent.pubkey);
-        
-        pubkeyRequest.onsuccess = () => {
-          const existingEvents = pubkeyRequest.result;
-          
-          // Find existing events with same kind and d-tag
-          const sameEvents = existingEvents.filter(existing => 
-            existing.kind === rawEvent.kind && 
-            getDTag(existing) === dTag
-          );
-          
-          if (sameEvents.length > 0) {
-            // Find the newest event among existing and the new one
-            const newestExisting = sameEvents.reduce((newest, current) => 
-              current.created_at > newest.created_at ? current : newest
-            );
-            
-            if (rawEvent.created_at > newestExisting.created_at) {
-              // New event is newer - delete all existing and save new one
-              sameEvents.forEach(oldEvent => {
-                objectStore.delete(oldEvent.id);
-                replacedCount++;
-              });
-              
-              const putRequest = objectStore.put(rawEvent);
-              putRequest.onsuccess = () => savedCount++;
-            } else if (rawEvent.created_at === newestExisting.created_at && rawEvent.id === newestExisting.id) {
-              // Same event, just update it (no-op really, but put it anyway)
-              const putRequest = objectStore.put(rawEvent);
-              putRequest.onsuccess = () => savedCount++;
-            } else {
-              // New event is older - discard it, keep existing
-              console.debug(`Skipping older event ${rawEvent.id} (created_at: ${rawEvent.created_at}) - newer version exists (created_at: ${newestExisting.created_at})`);
-            }
-          } else {
-            // No existing event with same kind+pubkey+d-tag, save it
-            const putRequest = objectStore.put(rawEvent);
-            putRequest.onsuccess = () => savedCount++;
-          }
-          
-          processed++;
-        };
-        
-        pubkeyRequest.onerror = () => {
-          console.warn(`Error checking for existing event with pubkey ${rawEvent.pubkey}`);
-          // Save anyway
-          const putRequest = objectStore.put(rawEvent);
-          putRequest.onsuccess = () => savedCount++;
-          
-          processed++;
-        };
-      } else {
-        // Non-parameterized event, just save it
-        const request = objectStore.put(rawEvent);
-        request.onsuccess = () => savedCount++;
-        processed++;
-      }
+      const request = objectStore.put(rawEvent);
+      request.onsuccess = () => savedCount++;
     });
     
     transaction.oncomplete = () => {
-      if (replacedCount > 0) {
-        console.debug(`Saved ${savedCount} events to IDB (replaced ${replacedCount} older versions)`);
-      } else {
-        console.debug(`Saved ${savedCount} events to IDB`);
-      }
+      console.debug(`Saved ${savedCount} events to IDB`);
       resolve(savedCount);
     };
     transaction.onerror = () => reject("Error saving events to IDB");
@@ -1204,6 +1130,7 @@ const backgroundSyncEvents = async function() {
 
 /**
  * Helper function to process raw NDK events into our application structure
+ * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
 function processEventsToResult(events, oldestEventTimestamp) {
   events.forEach(event => {
@@ -1231,7 +1158,23 @@ function processEventsToResult(events, oldestEventTimestamp) {
     }
   });
 
+  // Deduplicate verifications by (hash, pubkey) - keep only newest per user per hash
+  const verificationDeduplicationMap = new Map(); // key: "hash:pubkey" -> newest event
+  
   verifications.forEach(verification => {
+    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
+    if (sha256FromEventTag) {
+      const dedupKey = `${sha256FromEventTag}:${verification.pubkey}`;
+      const existing = verificationDeduplicationMap.get(dedupKey);
+      
+      if (!existing || verification.created_at > existing.created_at) {
+        verificationDeduplicationMap.set(dedupKey, verification);
+      }
+    }
+  });
+  
+  // Now group deduplicated verifications by hash
+  verificationDeduplicationMap.forEach(verification => {
     const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
     if (sha256FromEventTag) {
       if (!verificationsMap.has(sha256FromEventTag)) {
@@ -1240,6 +1183,8 @@ function processEventsToResult(events, oldestEventTimestamp) {
       verificationsMap.get(sha256FromEventTag).push(verification);
     }
   });
+  
+  console.debug(`Deduplicated ${verifications.length} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
 
   draftVerifications.forEach(draftVerification => {
     const sha256FromEventTag = getFirstTagValue(draftVerification, 'x', null);
@@ -1385,18 +1330,70 @@ const getAllAssetInformation = async function({ months,
   // 3. Fetch from Network
   let newEvents = new Set();
   await ensureNdkConnected();
-  try {
-    if (singleBatch) {
-      console.debug(`Fetching single batch with filter:`, filter);
-      newEvents = await ndk.fetchEvents(filter);
-    } else {
-      newEvents = await fetchEventsWithPagination(ndk, filter);
-    }
+  
+  // Strategy: First fetch verifications, then fetch related assets and other events
+  // Only fetch assets for appIds that have verifications
+  
+  // Step 3a: Fetch verifications first
+  if (!appId && !sha256 && !pubkey) {
+    // General query - fetch verifications first, then assets for those appIds only
+    const verificationFilter = {
+      kinds: [verificationKind, verificationDraftKind],
+      since: filter.since
+    };
+    if (filter.until) verificationFilter.until = filter.until;
+    if (filter.limit) verificationFilter.limit = filter.limit;
     
-    console.log(`Fetched ${newEvents.size} new events from network`);
-  } catch(e) {
-    console.error("Error fetching events:", e);
-    if (!loadedFromIDB) throw e; 
+    try {
+      const newVerifications = singleBatch 
+        ? await ndk.fetchEvents(verificationFilter)
+        : await fetchEventsWithPagination(ndk, verificationFilter);
+      
+      newVerifications.forEach(e => newEvents.add(e));
+      console.log(`Fetched ${newVerifications.size} verifications from network`);
+      
+      // Extract appIds from these verifications
+      const verificationAppIds = new Set();
+      newVerifications.forEach(v => {
+        const vAppId = v.tags?.find(t => t[0] === 'i')?.[1];
+        if (vAppId) verificationAppIds.add(vAppId);
+      });
+      
+      // Now fetch assets only for these appIds
+      if (verificationAppIds.size > 0) {
+        const assetFilter = {
+          kinds: [assetRegistrationKind],
+          '#i': Array.from(verificationAppIds),
+          since: filter.since
+        };
+        if (filter.until) assetFilter.until = filter.until;
+        
+        const newAssets = singleBatch
+          ? await ndk.fetchEvents(assetFilter)
+          : await fetchEventsWithPagination(ndk, assetFilter);
+        
+        newAssets.forEach(e => newEvents.add(e));
+        console.log(`Fetched ${newAssets.size} assets for ${verificationAppIds.size} appIds from network`);
+      }
+    } catch(e) {
+      console.error("Error fetching events:", e);
+      if (!loadedFromIDB) throw e;
+    }
+  } else {
+    // Specific query with appId/sha256/pubkey filters - use original filter
+    try {
+      if (singleBatch) {
+        console.debug(`Fetching single batch with filter:`, filter);
+        newEvents = await ndk.fetchEvents(filter);
+      } else {
+        newEvents = await fetchEventsWithPagination(ndk, filter);
+      }
+      
+      console.log(`Fetched ${newEvents.size} new events from network`);
+    } catch(e) {
+      console.error("Error fetching events:", e);
+      if (!loadedFromIDB) throw e; 
+    }
   }
 
   // 4. Fetch older events to fill gaps (if needed and not limited by params)
