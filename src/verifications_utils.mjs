@@ -14,7 +14,7 @@ import {
   nip89ClientTagD,
   wsBotPublicKey
 } from "./nostr-constants.mjs";
-import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
+import { userHasBrowserExtension, getFirstTagValue, isDebugEnv } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
 import {decode} from "light-bolt11-decoder"
 import WebSocket from "ws";
@@ -149,7 +149,7 @@ const validateSHA256 = function(hashes) {
  * @param {Object} profile - Profile data
  */
 const saveProfileToIDB = async (pubkey, profile) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return;
 
   return new Promise((resolve, reject) => {
@@ -174,7 +174,7 @@ const saveProfileToIDB = async (pubkey, profile) => {
  * @returns {Promise<Object|null>} Profile data or null
  */
 const getProfileFromIDB = async (pubkey) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return null;
 
   return new Promise((resolve, reject) => {
@@ -225,7 +225,7 @@ const getNostrProfile = async function (pubkey) {
   const user = ndk.getUser({ pubkey });
   const profile = await user.fetchProfile();
 
-  // Cache in both locations
+  // Save to IDB to cache
   saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
 
   return profile;
@@ -235,11 +235,8 @@ const getNpubFromPubkey = function (pubkey) {
   return nip19.npubEncode(pubkey);
 }
 
-const getWSClientTags = function() {
-  return [
-    ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl],
-    ["c", "walletscrutiny"]
-  ];
+const getWSClientTag = function() {
+  return ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl];
 }
 
 async function publishNdkEvent(ndkEvent, eventType = 'event') {
@@ -249,7 +246,7 @@ async function publishNdkEvent(ndkEvent, eventType = 'event') {
     return ndkEvent;
   } catch (error) {
     console.error(`Error publishing ${eventType} to relays`, error);
-    
+
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
         console.error(`Error publishing ${eventType} to relay ${relay.url}`, err);
@@ -265,7 +262,7 @@ function createNdkEvent(kind, content, tags = [], createdAt = null) {
   ndkEvent.kind = kind;
   ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [...tags, ...getWSClientTags()];
+  ndkEvent.tags = [...tags, getWSClientTag()];
   return ndkEvent;
 }
 
@@ -750,7 +747,7 @@ const profilesStoreName = 'profiles';
 const initDB = () => {
   return new Promise((resolve, reject) => {
     if (typeof window === 'undefined' || !window.indexedDB) {
-      resolve(null);
+      reject(new Error("IndexedDB is not available"));
       return;
     }
     const request = window.indexedDB.open(dbName, dbVersion);
@@ -780,12 +777,13 @@ const initDB = () => {
 };
 
 /**
- * Save events to IDB
+ * Save events to IDB - stores all events as-is
+ * Deduplication is done application-side when reading (for verifications: by hash+pubkey)
  * @param {Array|Set} events - Events to save
  * @returns {Promise<number>} Number of events saved
  */
 const saveEventsToIDB = async (events) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return 0;
 
   return new Promise((resolve, reject) => {
@@ -819,7 +817,7 @@ const saveEventsToIDB = async (events) => {
  * @returns {Promise<Array>} Array of raw event objects sorted by created_at DESC (newest first)
  */
 const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limit = null } = {}) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return [];
 
   return new Promise((resolve, reject) => {
@@ -881,7 +879,7 @@ const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limi
  * @returns {Promise<{oldest: number|null, newest: number|null, count: number}>}
  */
 const getIDBEventRange = async (kinds = null) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return { oldest: null, newest: null, count: 0 };
 
   return new Promise((resolve, reject) => {
@@ -946,7 +944,7 @@ const backgroundSyncEvents = async function() {
 
     const SYNC_LIMIT = 500; // Max events per query (relay limit)
     const ALL_KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind,
-                       endorsementKind, verificationCommentKind, codeSnippetKind];
+      endorsementKind, verificationCommentKind, codeSnippetKind];
 
     // 1. Sync verifications and drafts (newer events)
     const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
@@ -1043,7 +1041,27 @@ const backgroundSyncEvents = async function() {
       }
     }
 
-    // 6. Sync endorsements for cached verifications
+    // 6. Fetch and cache profiles for all verifiers
+    const uniquePubkeys = new Set();
+    allCachedVerifications.forEach(v => {
+      if (v.pubkey) uniquePubkeys.add(v.pubkey);
+    });
+
+    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
+    let profilesCached = 0;
+    for (const pubkey of uniquePubkeys) {
+      try {
+        const profile = await getNostrProfile(pubkey);
+        if (profile) {
+          profilesCached++;
+        }
+      } catch (e) {
+        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
+      }
+    }
+    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
+
+    // 7. Sync endorsements for cached verifications
     if (verificationEventIds.length > 0) {
       const { newest: newestEndorsement } = await getIDBEventRange([endorsementKind]);
 
@@ -1066,7 +1084,7 @@ const backgroundSyncEvents = async function() {
       }
     }
 
-    // 7. Sync comments for cached verifications (using 'v' tag)
+    // 8. Sync comments for cached verifications (using 'v' tag)
     if (verificationEventIds.length > 0) {
       const { newest: newestComment } = await getIDBEventRange([verificationCommentKind]);
 
@@ -1089,7 +1107,7 @@ const backgroundSyncEvents = async function() {
       }
     }
 
-    // 8. Sync code snippets (file attachments) - these are referenced by verifications
+    // 9. Sync code snippets (file attachments) - these are referenced by verifications
     // We'll fetch them on-demand when verifications are loaded, but cache what we find
     const { newest: newestSnippet } = await getIDBEventRange([codeSnippetKind]);
 
@@ -1104,26 +1122,6 @@ const backgroundSyncEvents = async function() {
       console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
     }
 
-    // 9. Fetch and cache profiles for all verifiers
-    const uniquePubkeys = new Set();
-    allCachedVerifications.forEach(v => {
-      if (v.pubkey) uniquePubkeys.add(v.pubkey);
-    });
-
-    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
-    let profilesCached = 0;
-    for (const pubkey of uniquePubkeys) {
-      try {
-        const profile = await getNostrProfile(pubkey);
-        if (profile) {
-          profilesCached++;
-        }
-      } catch (e) {
-        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
-      }
-    }
-    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
-
     console.log('✅ Background sync complete - ALL event kinds synced');
   } catch (error) {
     console.warn('Background sync error:', error);
@@ -1132,6 +1130,7 @@ const backgroundSyncEvents = async function() {
 
 /**
  * Helper function to process raw NDK events into our application structure
+ * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
 function processEventsToResult(events, oldestEventTimestamp) {
   events.forEach(event => {
@@ -1159,7 +1158,23 @@ function processEventsToResult(events, oldestEventTimestamp) {
     }
   });
 
+  // Deduplicate verifications by (hash, pubkey) - keep only newest per user per hash
+  const verificationDeduplicationMap = new Map(); // key: "hash:pubkey" -> newest event
+
   verifications.forEach(verification => {
+    const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
+    if (sha256FromEventTag) {
+      const dedupKey = `${sha256FromEventTag}:${verification.pubkey}`;
+      const existing = verificationDeduplicationMap.get(dedupKey);
+
+      if (!existing || verification.created_at > existing.created_at) {
+        verificationDeduplicationMap.set(dedupKey, verification);
+      }
+    }
+  });
+
+  // Now group deduplicated verifications by hash
+  verificationDeduplicationMap.forEach(verification => {
     const sha256FromEventTag = getFirstTagValue(verification, 'x', null);
     if (sha256FromEventTag) {
       if (!verificationsMap.has(sha256FromEventTag)) {
@@ -1168,6 +1183,8 @@ function processEventsToResult(events, oldestEventTimestamp) {
       verificationsMap.get(sha256FromEventTag).push(verification);
     }
   });
+
+  console.debug(`Deduplicated ${verifications.length} verification events to ${verificationDeduplicationMap.size} unique (hash, pubkey) pairs`);
 
   draftVerifications.forEach(draftVerification => {
     const sha256FromEventTag = getFirstTagValue(draftVerification, 'x', null);
@@ -1313,18 +1330,70 @@ const getAllAssetInformation = async function({ months,
   // 3. Fetch from Network
   let newEvents = new Set();
   await ensureNdkConnected();
-  try {
-    if (singleBatch) {
-      console.debug(`Fetching single batch with filter:`, filter);
-      newEvents = await ndk.fetchEvents(filter);
-    } else {
-      newEvents = await fetchEventsWithPagination(ndk, filter);
-    }
 
-    console.log(`Fetched ${newEvents.size} new events from network`);
-  } catch(e) {
-    console.error("Error fetching events:", e);
-    if (!loadedFromIDB) throw e;
+  // Strategy: First fetch verifications, then fetch related assets and other events
+  // Only fetch assets for appIds that have verifications
+
+  // Step 3a: Fetch verifications first
+  if (!appId && !sha256 && !pubkey) {
+    // General query - fetch verifications first, then assets for those appIds only
+    const verificationFilter = {
+      kinds: [verificationKind, verificationDraftKind],
+      since: filter.since
+    };
+    if (filter.until) verificationFilter.until = filter.until;
+    if (filter.limit) verificationFilter.limit = filter.limit;
+
+    try {
+      const newVerifications = singleBatch
+        ? await ndk.fetchEvents(verificationFilter)
+        : await fetchEventsWithPagination(ndk, verificationFilter);
+
+      newVerifications.forEach(e => newEvents.add(e));
+      console.log(`Fetched ${newVerifications.size} verifications from network`);
+
+      // Extract appIds from these verifications
+      const verificationAppIds = new Set();
+      newVerifications.forEach(v => {
+        const vAppId = v.tags?.find(t => t[0] === 'i')?.[1];
+        if (vAppId) verificationAppIds.add(vAppId);
+      });
+
+      // Now fetch assets only for these appIds
+      if (verificationAppIds.size > 0) {
+        const assetFilter = {
+          kinds: [assetRegistrationKind],
+          '#i': Array.from(verificationAppIds),
+          since: filter.since
+        };
+        if (filter.until) assetFilter.until = filter.until;
+
+        const newAssets = singleBatch
+          ? await ndk.fetchEvents(assetFilter)
+          : await fetchEventsWithPagination(ndk, assetFilter);
+
+        newAssets.forEach(e => newEvents.add(e));
+        console.log(`Fetched ${newAssets.size} assets for ${verificationAppIds.size} appIds from network`);
+      }
+    } catch(e) {
+      console.error("Error fetching events:", e);
+      if (!loadedFromIDB) throw e;
+    }
+  } else {
+    // Specific query with appId/sha256/pubkey filters - use original filter
+    try {
+      if (singleBatch) {
+        console.debug(`Fetching single batch with filter:`, filter);
+        newEvents = await ndk.fetchEvents(filter);
+      } else {
+        newEvents = await fetchEventsWithPagination(ndk, filter);
+      }
+
+      console.log(`Fetched ${newEvents.size} new events from network`);
+    } catch(e) {
+      console.error("Error fetching events:", e);
+      if (!loadedFromIDB) throw e;
+    }
   }
 
   // 4. Fetch older events to fill gaps (if needed and not limited by params)
@@ -1485,7 +1554,7 @@ const getCommentsForVerification = async function(verificationKey) {
 
 const sendPrivateMessageToVerifier = async function(verifierPubkey, commentText) {
   await ensureNdkConnected();
-  
+
   if (!verifierPubkey || !commentText) {
     throw new Error("Missing required parameters: verifierPubkey and commentText are required");
   }
@@ -1802,46 +1871,6 @@ function getWeightForAppFromAssetInformation(appId) {
   };
 }
 
-////////////////////////////////////////////////////////////////////
-// CACHE FUNCTIONS
-////////////////////////////////////////////////////////////////////
-
-function getCache(key) {
-  try {
-    const cache = localStorage.getItem(key);
-    return cache ? JSON.parse(cache) : {};
-  } catch (error) {
-    console.error('Error reading from cache:', error);
-    return null;
-  }
-}
-
-function setCache(key, value) {
-  try {
-    localStorage.setItem(key, JSON.stringify({
-      value: value,
-      timestamp: Date.now()
-    }));
-  } catch (error) {
-      console.error('Error writing to cache:', error);
-  }
-}
-
-function getCachedResultIfNotExpired(key) {
-  const CACHE_EXPIRATION_TIME = 3 * 60 * 60 * 1000; // 3 hours in milliseconds
-
-  const cache = getCache(key);
-    
-  if (cache) {
-      const isExpired = Date.now() - cache.timestamp > CACHE_EXPIRATION_TIME;
-      if (!isExpired) {
-          return cache.value;
-      }
-  }
-
-  return null;
-}
-
 const cleanupNdkConnections = function() {
   if (ndk) {
     try {
@@ -1902,17 +1931,17 @@ const createZap = async function ({ event, amount, comment = '' }) {
   const relays = await zapper.relays(event.pubkey);
 
   const zapRequestEvent = await generateZapRequest(
-      event,
-      ndk,
-      lnurlSpec,
-      event.pubkey,
-      amount * 1000,
-      relays,
-      comment,
-      zapper.tags
+    event,
+    ndk,
+    lnurlSpec,
+    event.pubkey,
+    amount * 1000,
+    relays,
+    comment,
+    zapper.tags
   ).catch((err) => {
-      console.log('Error: An error occurred in generating zap request!', err);
-      return null;
+    console.log('Error: An error occurred in generating zap request!', err);
+    return null;
   });
   if (!zapRequestEvent) throw new Error('Failed to generate zap request');
   zapRequestEvent.content = comment;
