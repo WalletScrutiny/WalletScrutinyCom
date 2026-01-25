@@ -32,7 +32,10 @@ async function updateTableVisibility() {
   const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
 
   rows.forEach(row => {
-    row.style.setProperty('display', 'table-row');
+    // Don't reset initially-hidden rows to visible
+    if (!row.classList.contains('initially-hidden')) {
+      row.style.setProperty('display', 'table-row');
+    }
   });
 
   rows.forEach(row => {
@@ -104,15 +107,22 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false
+                                            showOnlyRegisteredAssets = false,
+                                            preloadedData = null
                                           }) {
   let hasAssets = false;
 
-  response = await getAllAssetInformation({
-    pubkey,
-    appId,
-    sha256
-  });
+  // If preloaded data is provided, use it directly (no network call needed)
+  if (preloadedData) {
+    console.log('Using preloaded data, skipping getAllAssetInformation call');
+    response = preloadedData;
+  } else {
+    response = await getAllAssetInformation({
+      pubkey,
+      appId,
+      sha256
+    });
+  }
 
   try {
     window.userPubkey = await getUserPubkey();
@@ -478,7 +488,11 @@ window.renderAssetsTable = async function({
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');
-      row.style.display = index >= showOnlyRows ? 'none' : 'table-row';
+      // Use a class to track initially hidden rows instead of inline style
+      if (index >= showOnlyRows) {
+        row.classList.add('initially-hidden');
+        row.style.display = 'none';
+      }
       const sanitizedVersion = version.replace(/\./g, '-');
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
