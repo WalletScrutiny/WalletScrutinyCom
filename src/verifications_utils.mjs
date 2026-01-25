@@ -777,7 +777,7 @@ const initDB = () => {
 };
 
 /**
- * Save events to IDB
+ * Save events to IDB with NIP-33 deduplication for parameterized replaceable events
  * @param {Array|Set} events - Events to save
  * @returns {Promise<number>} Number of events saved
  */
@@ -788,18 +788,93 @@ const saveEventsToIDB = async (events) => {
   return new Promise((resolve, reject) => {
     const transaction = db.transaction([eventsStoreName], "readwrite");
     const objectStore = transaction.objectStore(eventsStoreName);
+    const pubkeyIndex = objectStore.index('pubkey');
     
     let savedCount = 0;
+    let replacedCount = 0;
     const eventsArray = Array.isArray(events) ? events : Array.from(events);
     
+    // Helper to check if event is parameterized replaceable (NIP-33)
+    const isParameterizedReplaceable = (kind) => kind >= 30000 && kind <= 39999;
+    
+    // Helper to get d-tag value from event
+    const getDTag = (event) => event.tags?.find(t => t[0] === 'd')?.[1] || '';
+    
+    // Process each event
+    let processed = 0;
     eventsArray.forEach(event => {
       const rawEvent = event.rawEvent ? event.rawEvent() : (event.toNostrEvent ? event.toNostrEvent() : event);
-      const request = objectStore.put(rawEvent);
-      request.onsuccess = () => savedCount++;
+      
+      // For parameterized replaceable events, check for existing events to replace
+      if (isParameterizedReplaceable(rawEvent.kind)) {
+        const dTag = getDTag(rawEvent);
+        
+        // Query for events with same pubkey
+        const pubkeyRequest = pubkeyIndex.getAll(rawEvent.pubkey);
+        
+        pubkeyRequest.onsuccess = () => {
+          const existingEvents = pubkeyRequest.result;
+          
+          // Find existing events with same kind and d-tag
+          const sameEvents = existingEvents.filter(existing => 
+            existing.kind === rawEvent.kind && 
+            getDTag(existing) === dTag
+          );
+          
+          if (sameEvents.length > 0) {
+            // Find the newest event among existing and the new one
+            const newestExisting = sameEvents.reduce((newest, current) => 
+              current.created_at > newest.created_at ? current : newest
+            );
+            
+            if (rawEvent.created_at > newestExisting.created_at) {
+              // New event is newer - delete all existing and save new one
+              sameEvents.forEach(oldEvent => {
+                objectStore.delete(oldEvent.id);
+                replacedCount++;
+              });
+              
+              const putRequest = objectStore.put(rawEvent);
+              putRequest.onsuccess = () => savedCount++;
+            } else if (rawEvent.created_at === newestExisting.created_at && rawEvent.id === newestExisting.id) {
+              // Same event, just update it (no-op really, but put it anyway)
+              const putRequest = objectStore.put(rawEvent);
+              putRequest.onsuccess = () => savedCount++;
+            } else {
+              // New event is older - discard it, keep existing
+              console.debug(`Skipping older event ${rawEvent.id} (created_at: ${rawEvent.created_at}) - newer version exists (created_at: ${newestExisting.created_at})`);
+            }
+          } else {
+            // No existing event with same kind+pubkey+d-tag, save it
+            const putRequest = objectStore.put(rawEvent);
+            putRequest.onsuccess = () => savedCount++;
+          }
+          
+          processed++;
+        };
+        
+        pubkeyRequest.onerror = () => {
+          console.warn(`Error checking for existing event with pubkey ${rawEvent.pubkey}`);
+          // Save anyway
+          const putRequest = objectStore.put(rawEvent);
+          putRequest.onsuccess = () => savedCount++;
+          
+          processed++;
+        };
+      } else {
+        // Non-parameterized event, just save it
+        const request = objectStore.put(rawEvent);
+        request.onsuccess = () => savedCount++;
+        processed++;
+      }
     });
     
     transaction.oncomplete = () => {
-      console.debug(`Saved ${savedCount} events to IDB`);
+      if (replacedCount > 0) {
+        console.debug(`Saved ${savedCount} events to IDB (replaced ${replacedCount} older versions)`);
+      } else {
+        console.debug(`Saved ${savedCount} events to IDB`);
+      }
       resolve(savedCount);
     };
     transaction.onerror = () => reject("Error saving events to IDB");
