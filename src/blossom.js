@@ -64,17 +64,34 @@ export async function sha256(data) {
 export async function blossomServerHasBlob(sha256, fileExtension = '', serverUrl) {
   const url = `${serverUrl}/${sha256}${fileExtension}`;
   try {
-    const response = await fetch(url, { method: 'HEAD' });
+    // Suppress console logging for 404s - they're expected when blobs don't exist
+    const response = await fetch(url, { 
+      method: 'HEAD',
+      // Set mode to 'no-cors' would hide the error but we can't read the response
+      // Instead we'll just catch and suppress expected 404s below
+    });
+    
     if (response.ok) {
       return true;
     } else if (response.status === 404) {
+      // 404 is expected when blob doesn't exist - silently return false
       return false;
     } else {
-      const error = await response.json();
-      throw new Error(error.message);
+      // Unexpected status code
+      try {
+        const error = await response.json();
+        console.warn(`Blob check unexpected status ${response.status}:`, error.message);
+      } catch {
+        console.warn(`Blob check unexpected status: ${response.status}`);
+      }
+      return false;
     }
   } catch (error) {
-    console.error('Error checking blob existence:', error);
+    // Network errors or CORS issues - these are expected for missing blobs
+    // Only log truly unexpected errors
+    if (error.name !== 'TypeError' && !error.message.includes('Failed to fetch')) {
+      console.warn('Unexpected error checking blob existence:', error);
+    }
     return false;
   }
 }

@@ -104,18 +104,14 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false,
-                                            getDrafts = true,
-                                            filterAppIds = []
+                                            showOnlyRegisteredAssets = false
                                           }) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
     pubkey,
     appId,
-    sha256,
-    getDrafts: getDrafts,
-    filterAppIds: filterAppIds
+    sha256
   });
 
   try {
@@ -478,7 +474,11 @@ window.renderAssetsTable = async function({
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');
-      row.style.display = index >= showOnlyRows ? 'none' : 'table-row';
+      // Use a class to track initially hidden rows instead of inline style
+      if (index >= showOnlyRows) {
+        row.classList.add('initially-hidden');
+        row.style.display = 'none';
+      }
       const sanitizedVersion = version.replace(/\./g, '-');
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `

@@ -41,7 +41,7 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
   resolveNostrConnectInitiated = resolve;
 });
 
-const connectTimeout = 1;
+const connectTimeout = 3;
 
 const nostrConnect = function (nostrPrivateKey) {
   // Assign the connection logic to the promise immediately
@@ -143,22 +143,91 @@ const validateSHA256 = function(hashes) {
   }
 }
 
+/**
+ * Save profile to IDB
+ * @param {string} pubkey - User's public key
+ * @param {Object} profile - Profile data
+ */
+const saveProfileToIDB = async (pubkey, profile) => {
+  const db = await initDB();
+  if (!db) return;
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([profilesStoreName], "readwrite");
+    const objectStore = transaction.objectStore(profilesStoreName);
+
+    const profileData = {
+      pubkey,
+      profile,
+      cached_at: Math.floor(Date.now() / 1000)
+    };
+
+    const request = objectStore.put(profileData);
+    request.onsuccess = () => resolve();
+    request.onerror = () => reject("Error saving profile to IDB");
+  });
+};
+
+/**
+ * Get profile from IDB
+ * @param {string} pubkey - User's public key
+ * @returns {Promise<Object|null>} Profile data or null
+ */
+const getProfileFromIDB = async (pubkey) => {
+  const db = await initDB();
+  if (!db) return null;
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([profilesStoreName], "readonly");
+    const objectStore = transaction.objectStore(profilesStoreName);
+
+    const request = objectStore.get(pubkey);
+    request.onsuccess = () => {
+      const result = request.result;
+      if (!result) {
+        resolve(null);
+        return;
+      }
+
+      // Check if cached profile is still fresh (24 hours)
+      const now = Math.floor(Date.now() / 1000);
+      const age = now - result.cached_at;
+      const MAX_AGE = 24 * 60 * 60; // 24 hours
+
+      if (age > MAX_AGE) {
+        resolve(null); // Expired
+      } else {
+        resolve(result.profile);
+      }
+    };
+    request.onerror = () => reject("Error reading profile from IDB");
+  });
+};
+
 const getNostrProfile = async function (pubkey) {
   if (!pubkey) {
     return null;
   }
 
-  const cacheKey = 'profile-' + pubkey;
-
-  const profileFromCache = getCachedResultIfNotExpired(cacheKey);
-  if (profileFromCache) {
-    return profileFromCache;
+  // Try IDB first (fastest)
+  try {
+    const profileFromIDB = await getProfileFromIDB(pubkey);
+    if (profileFromIDB) {
+      console.debug(`Profile loaded from IDB for ${pubkey.substring(0, 8)}...`);
+      return profileFromIDB;
+    }
+  } catch (e) {
+    console.warn("Failed to load profile from IDB", e);
   }
 
+  // Fetch from network
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   const profile = await user.fetchProfile();
-  setCache(cacheKey, profile);
+
+  // Cache in both locations
+  saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
+
   return profile;
 }
 
@@ -640,83 +709,440 @@ const fetchEventsWithPagination = async function(ndkInstance, filter) {
   let pageCount = 0;
 
   while (hasMoreEvents) {
-    const pageEvents = await ndkInstance.fetchEvents(filter);
-    
-    if (pageEvents.size === 0) {
-      hasMoreEvents = false;
-      console.debug('No more events found.');
+    pageCount++;
+    try {
+      const pageEvents = await ndkInstance.fetchEvents(filter);
+
+      if (pageEvents.size === 0) {
+        hasMoreEvents = false;
+        console.debug('No more events found.');
+        break;
+      }
+
+      // Add events to the set and find the oldest created_at in the same loop
+      let oldestCreatedAt = Infinity;
+      pageEvents.forEach(event => {
+        allEvents.add(event);
+        if (event.created_at < oldestCreatedAt) {
+          oldestCreatedAt = event.created_at;
+        }
+      });
+
+      filter.until = oldestCreatedAt - 1;
+
+      console.debug(`Fetched page ${pageCount}: ${pageEvents.size} events, oldest created_at: ${oldestCreatedAt}`);
+    } catch (error) {
+      console.error(`Error fetching page ${pageCount}:`, error);
       break;
     }
-
-    // Add events to the set and find the oldest created_at in the same loop
-    let oldestCreatedAt = Infinity;
-    pageEvents.forEach(event => {
-      allEvents.add(event);
-      if (event.created_at < oldestCreatedAt) {
-        oldestCreatedAt = event.created_at;
-      }
-    });
-    
-    filter.until = oldestCreatedAt - 1;
-    
-    pageCount++;
-    console.debug(`Fetched page ${pageCount}: ${pageEvents.size} events, oldest created_at: ${oldestCreatedAt}`);
   }
 
-  console.debug(`Total pages fetched: ${pageCount}`);
+  console.debug(`Total pages fetched: ${pageCount}, total events: ${allEvents.size}`);
   return allEvents;
 };
 
-const getAllAssetInformation = async function({
-                                                months,
-                                                pubkey,
-                                                appId,
-                                                sha256,
-                                                getDrafts = true,
-                                                filterAppIds = []
-                                              }) {
-  await ensureNdkConnected();
-  const randomNumber = Math.floor(Math.random() * 100);
-  console.time('getAllAssetInformation' + randomNumber);
+// IndexedDB Helper Functions
+const dbName = 'WalletScrutinyDB';
+const dbVersion = 3;
+const eventsStoreName = 'events';
+const profilesStoreName = 'profiles';
 
-  let kinds = [assetRegistrationKind, verificationKind];
-  if (getDrafts) {
-    kinds.push(verificationDraftKind);
-  }
+const initDB = () => {
+  return new Promise((resolve, reject) => {
+    if (typeof window === 'undefined' || !window.indexedDB) {
+      resolve(null);
+      return;
+    }
+    const request = window.indexedDB.open(dbName, dbVersion);
+    request.onerror = (event) => reject("IndexedDB error: " + event.target.errorCode);
+    request.onsuccess = (event) => resolve(event.target.result);
+    request.onupgradeneeded = (event) => {
+      const db = event.target.result;
 
-  const filter = {
-    kinds: kinds,
-  };
-  if (months) {
-    console.debug(`Getting events from last ${months} months`);
-    filter.since = getTimestampMonthsAgo(months);
-  } else {
-    console.debug(`Getting events from ${verificationEventsSinceTS} onwards`);
-    filter.since = verificationEventsSinceTS;
-  }
-  if (pubkey) {
-    filter.authors = [pubkey];
-  }
-  if (appId) {
-    filter["#i"] = Array.isArray(appId) ? appId : [appId];
-  }
-  if (sha256) {
-    filter["#x"] = [sha256];
-  }
-  if (filterAppIds.length > 0) {
-    filter["#i"] = filterAppIds;
-  }
+      // Create events store with indexes
+      if (!db.objectStoreNames.contains(eventsStoreName)) {
+        const eventsStore = db.createObjectStore(eventsStoreName, { keyPath: 'id' });
+        eventsStore.createIndex('created_at', 'created_at', { unique: false });
+        eventsStore.createIndex('kind', 'kind', { unique: false });
+        eventsStore.createIndex('kind_createdAt', ['kind', 'created_at'], { unique: false });
+        eventsStore.createIndex('pubkey', 'pubkey', { unique: false });
+        console.log('Created events object store with indexes');
+      }
 
-  const events = await fetchEventsWithPagination(ndk, filter);
+      // Create profiles store
+      if (!db.objectStoreNames.contains(profilesStoreName)) {
+        const profilesStore = db.createObjectStore(profilesStoreName, { keyPath: 'pubkey' });
+        profilesStore.createIndex('cached_at', 'cached_at', { unique: false });
+        console.log('Created profiles object store');
+      }
+    };
+  });
+};
 
-  console.debug(`Total unique events fetched: ${events.size}`);
+/**
+ * Save events to IDB
+ * @param {Array|Set} events - Events to save
+ * @returns {Promise<number>} Number of events saved
+ */
+const saveEventsToIDB = async (events) => {
+  const db = await initDB();
+  if (!db) return 0;
 
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([eventsStoreName], "readwrite");
+    const objectStore = transaction.objectStore(eventsStoreName);
+
+    let savedCount = 0;
+    const eventsArray = Array.isArray(events) ? events : Array.from(events);
+
+    eventsArray.forEach(event => {
+      const rawEvent = event.rawEvent ? event.rawEvent() : (event.toNostrEvent ? event.toNostrEvent() : event);
+      const request = objectStore.put(rawEvent);
+      request.onsuccess = () => savedCount++;
+    });
+
+    transaction.oncomplete = () => {
+      console.debug(`Saved ${savedCount} events to IDB`);
+      resolve(savedCount);
+    };
+    transaction.onerror = () => reject("Error saving events to IDB");
+  });
+};
+
+/**
+ * Get events from IDB with optional filtering
+ * @param {Object} options - Filter options
+ * @param {Array<number>} options.kinds - Event kinds to filter
+ * @param {number} options.since - Timestamp to filter from (inclusive)
+ * @param {number} options.until - Timestamp to filter until (inclusive)
+ * @param {number} options.limit - Max number of events to return
+ * @returns {Promise<Array>} Array of raw event objects sorted by created_at DESC (newest first)
+ */
+const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limit = null } = {}) => {
+  const db = await initDB();
+  if (!db) return [];
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([eventsStoreName], "readonly");
+    const objectStore = transaction.objectStore(eventsStoreName);
+    const results = [];
+
+    // Use created_at index to iterate in descending order (newest first)
+    const index = objectStore.index('created_at');
+
+    // Build IDBKeyRange based on since/until
+    let range = null;
+    if (since !== null && until !== null) {
+      range = IDBKeyRange.bound(since, until);
+    } else if (since !== null) {
+      range = IDBKeyRange.lowerBound(since);
+    } else if (until !== null) {
+      range = IDBKeyRange.upperBound(until);
+    }
+
+    // Open cursor in descending order (prev = newest first)
+    const request = index.openCursor(range, 'prev');
+
+    request.onsuccess = (event) => {
+      const cursor = event.target.result;
+      if (cursor) {
+        const eventData = cursor.value;
+
+        // Apply kind filter
+        let include = true;
+        if (kinds && !kinds.includes(eventData.kind)) {
+          include = false;
+        }
+
+        if (include) {
+          results.push(eventData);
+
+          // Stop if we've hit the limit
+          if (limit && results.length >= limit) {
+            resolve(results);
+            return;
+          }
+        }
+
+        cursor.continue();
+      } else {
+        // No more results, return what we have
+        resolve(results);
+      }
+    };
+
+    request.onerror = () => reject("Error reading events from IDB");
+  });
+};
+
+/**
+ * Get timestamp range of cached events in IDB
+ * @param {Array<number>} kinds - Optional kinds to check
+ * @returns {Promise<{oldest: number|null, newest: number|null, count: number}>}
+ */
+const getIDBEventRange = async (kinds = null) => {
+  const db = await initDB();
+  if (!db) return { oldest: null, newest: null, count: 0 };
+
+  return new Promise((resolve, reject) => {
+    const transaction = db.transaction([eventsStoreName], "readonly");
+    const objectStore = transaction.objectStore(eventsStoreName);
+    const index = objectStore.index('created_at');
+
+    let oldest = null;
+    let newest = null;
+    let count = 0;
+
+    const countRequest = objectStore.count();
+    countRequest.onsuccess = () => {
+      count = countRequest.result;
+    };
+
+    // Get oldest
+    const oldestRequest = index.openCursor(null, 'next');
+    oldestRequest.onsuccess = (event) => {
+      const cursor = event.target.result;
+      if (cursor) {
+        const eventData = cursor.value;
+        if (!kinds || kinds.includes(eventData.kind)) {
+          oldest = eventData.created_at;
+        } else {
+          cursor.continue();
+          return;
+        }
+      }
+
+      // Get newest
+      const newestRequest = index.openCursor(null, 'prev');
+      newestRequest.onsuccess = (event) => {
+        const cursor = event.target.result;
+        if (cursor) {
+          const eventData = cursor.value;
+          if (!kinds || kinds.includes(eventData.kind)) {
+            newest = eventData.created_at;
+          } else {
+            cursor.continue();
+            return;
+          }
+        }
+
+        resolve({ oldest, newest, count });
+      };
+      newestRequest.onerror = () => reject("Error reading newest event");
+    };
+    oldestRequest.onerror = () => reject("Error reading oldest event");
+  });
+};
+
+
+/**
+ * Background sync to keep IDB cache fresh - fetches ALL relevant event kinds
+ * Runs in background after page is idle
+ */
+const backgroundSyncEvents = async function() {
+  try {
+    await ensureNdkConnected();
+    console.log('🔄 Background sync starting...');
+
+    const SYNC_LIMIT = 500; // Max events per query (relay limit)
+    const ALL_KINDS = [assetRegistrationKind, verificationKind, verificationDraftKind,
+                       endorsementKind, verificationCommentKind, codeSnippetKind];
+
+    // 1. Sync verifications and drafts (newer events)
+    const { newest: newestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
+
+    if (newestVerification) {
+      const newVerifications = await fetchEventsWithPagination(ndk, {
+        kinds: [verificationKind, verificationDraftKind],
+        since: newestVerification + 1,
+        limit: SYNC_LIMIT
+      });
+
+      if (newVerifications.size > 0) {
+        await saveEventsToIDB(newVerifications);
+        console.log(`✅ Background sync: Saved ${newVerifications.size} new verifications`);
+      }
+    } else {
+      // First time sync - fetch all verifications
+      const allVerifications = await fetchEventsWithPagination(ndk, {
+        kinds: [verificationKind, verificationDraftKind],
+        since: verificationEventsSinceTS,
+        limit: SYNC_LIMIT
+      });
+
+      if (allVerifications.size > 0) {
+        await saveEventsToIDB(allVerifications);
+        console.log(`✅ Background sync: Initial load of ${allVerifications.size} verifications`);
+      }
+    }
+
+    // 2. Fill gaps (older events that might have been missed due to interruption)
+    const { oldest: oldestVerification } = await getIDBEventRange([verificationKind, verificationDraftKind]);
+
+    if (oldestVerification && oldestVerification > verificationEventsSinceTS) {
+      const olderVerifications = await fetchEventsWithPagination(ndk, {
+        kinds: [verificationKind, verificationDraftKind],
+        since: verificationEventsSinceTS,
+        until: oldestVerification - 1,
+        limit: SYNC_LIMIT
+      });
+
+      if (olderVerifications.size > 0) {
+        await saveEventsToIDB(olderVerifications);
+        console.log(`✅ Background sync: Filled gap with ${olderVerifications.size} older verifications`);
+      }
+    }
+
+    // 3. Get all appIds and verification event IDs from cached verifications
+    const allCachedVerifications = await getEventsFromIDB({
+      kinds: [verificationKind, verificationDraftKind]
+    });
+
+    const appIds = new Set();
+    const verificationEventIds = [];
+    allCachedVerifications.forEach(v => {
+      const appId = v.tags?.find(t => t[0] === 'i')?.[1];
+      if (appId) {
+        appIds.add(appId);
+      }
+      verificationEventIds.push(v.id);
+    });
+
+    // 4. Sync asset registrations for these appIds only
+    if (appIds.size > 0) {
+      const { newest: newestAsset } = await getIDBEventRange([assetRegistrationKind]);
+
+      const newAssets = await fetchEventsWithPagination(ndk, {
+        kinds: [assetRegistrationKind],
+        '#i': Array.from(appIds),
+        since: newestAsset ? newestAsset + 1 : verificationEventsSinceTS,
+        limit: SYNC_LIMIT
+      });
+
+      if (newAssets.size > 0) {
+        await saveEventsToIDB(newAssets);
+        console.log(`✅ Background sync: Saved ${newAssets.size} new asset registrations`);
+      }
+
+      // 5. Fill gaps for asset registrations
+      const { oldest: oldestAsset } = await getIDBEventRange([assetRegistrationKind]);
+
+      if (oldestAsset && oldestAsset > verificationEventsSinceTS) {
+        const olderAssets = await fetchEventsWithPagination(ndk, {
+          kinds: [assetRegistrationKind],
+          '#i': Array.from(appIds),
+          since: verificationEventsSinceTS,
+          until: oldestAsset - 1,
+          limit: SYNC_LIMIT
+        });
+
+        if (olderAssets.size > 0) {
+          await saveEventsToIDB(olderAssets);
+          console.log(`✅ Background sync: Filled gap with ${olderAssets.size} older assets`);
+        }
+      }
+    }
+
+    // 6. Sync endorsements for cached verifications
+    if (verificationEventIds.length > 0) {
+      const { newest: newestEndorsement } = await getIDBEventRange([endorsementKind]);
+
+      // Fetch in batches of 100 verification IDs (relay limit)
+      const batchSize = 100;
+      for (let i = 0; i < verificationEventIds.length; i += batchSize) {
+        const batch = verificationEventIds.slice(i, i + batchSize);
+
+        const newEndorsements = await ndk.fetchEvents({
+          kinds: [endorsementKind],
+          '#e': batch,
+          since: newestEndorsement ? newestEndorsement + 1 : verificationEventsSinceTS,
+          limit: SYNC_LIMIT
+        });
+
+        if (newEndorsements.size > 0) {
+          await saveEventsToIDB(newEndorsements);
+          console.log(`✅ Background sync: Saved ${newEndorsements.size} new endorsements (batch ${Math.floor(i/batchSize) + 1})`);
+        }
+      }
+    }
+
+    // 7. Sync comments for cached verifications (using 'v' tag)
+    if (verificationEventIds.length > 0) {
+      const { newest: newestComment } = await getIDBEventRange([verificationCommentKind]);
+
+      // Comments use 'v' tag, not 'e' tag
+      const batchSize = 100;
+      for (let i = 0; i < verificationEventIds.length; i += batchSize) {
+        const batch = verificationEventIds.slice(i, i + batchSize);
+
+        const newComments = await ndk.fetchEvents({
+          kinds: [verificationCommentKind],
+          '#v': batch,
+          since: newestComment ? newestComment + 1 : verificationEventsSinceTS,
+          limit: SYNC_LIMIT
+        });
+
+        if (newComments.size > 0) {
+          await saveEventsToIDB(newComments);
+          console.log(`✅ Background sync: Saved ${newComments.size} new comments (batch ${Math.floor(i/batchSize) + 1})`);
+        }
+      }
+    }
+
+    // 8. Sync code snippets (file attachments) - these are referenced by verifications
+    // We'll fetch them on-demand when verifications are loaded, but cache what we find
+    const { newest: newestSnippet } = await getIDBEventRange([codeSnippetKind]);
+
+    const newSnippets = await ndk.fetchEvents({
+      kinds: [codeSnippetKind],
+      since: newestSnippet ? newestSnippet + 1 : verificationEventsSinceTS,
+      limit: SYNC_LIMIT
+    });
+
+    if (newSnippets.size > 0) {
+      await saveEventsToIDB(newSnippets);
+      console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
+    }
+
+    // 9. Fetch and cache profiles for all verifiers
+    const uniquePubkeys = new Set();
+    allCachedVerifications.forEach(v => {
+      if (v.pubkey) uniquePubkeys.add(v.pubkey);
+    });
+
+    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
+    let profilesCached = 0;
+    for (const pubkey of uniquePubkeys) {
+      try {
+        const profile = await getNostrProfile(pubkey);
+        if (profile) {
+          profilesCached++;
+        }
+      } catch (e) {
+        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
+      }
+    }
+    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
+
+    console.log('✅ Background sync complete - ALL event kinds synced');
+  } catch (error) {
+    console.warn('Background sync error:', error);
+  }
+};
+
+/**
+ * Helper function to process raw NDK events into our application structure
+ */
+function processEventsToResult(events, oldestEventTimestamp) {
   events.forEach(event => {
     eventSanitize(event);
   });
 
-  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
-  const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
+  // Relaxed filtering: Accept verifications from any client to prevent data loss
+  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
+
+  const verifications = Array.from(events).filter(event => event.kind === verificationKind);
+
   const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
 
   const assetsMap = new Map();
@@ -753,13 +1179,205 @@ const getAllAssetInformation = async function({
     }
   });
 
-  console.timeEnd('getAllAssetInformation' + randomNumber);
-
   return {
     assets: assetsMap,
     verifications: verificationsMap,
-    draftVerifications: draftVerificationsMap
+    draftVerifications: draftVerificationsMap,
+    oldestEventTimestamp: oldestEventTimestamp
   };
+}
+
+const getAllAssetInformation = async function({ months,
+                                                pubkey,
+                                                appId,
+                                                sha256,
+                                                since,
+                                                until,
+                                                singleBatch = false,
+                                                kinds = null,
+                                                limit = null,
+                                                onCachedDataLoaded = null
+                                              }) {
+  const randomNumber = Math.floor(Math.random() * 100);
+  console.time('getAllAssetInformation' + randomNumber);
+
+  let events = new Set();
+  let loadedFromIDB = false;
+  let oldestEventTimestamp = null;
+  let newestEventTimestamp = 0;
+
+  const targetKinds = kinds || [assetRegistrationKind, verificationKind, verificationDraftKind];
+
+  // 1. Load from IDB
+  try {
+    const cachedEvents = await getEventsFromIDB({ kinds: targetKinds });
+    if (cachedEvents && cachedEvents.length > 0) {
+      console.debug(`Loaded ${cachedEvents.length} events from IDB`);
+
+      cachedEvents.forEach(eventData => {
+        // Filter relevant events based on request parameters
+        let includeEvent = true;
+
+        // Filter by appId if specified
+        if (appId) {
+          const appIds = Array.isArray(appId) ? appId : [appId];
+          const eventAppId = eventData.tags?.find(t => t[0] === 'i')?.[1];
+          if (!eventAppId || !appIds.includes(eventAppId)) {
+            includeEvent = false;
+          }
+        }
+
+        // Filter by sha256 if specified
+        if (includeEvent && sha256) {
+          const eventHashes = eventData.tags?.filter(t => t[0] === 'x').map(t => t[1]) || [];
+          if (!eventHashes.includes(sha256)) {
+            includeEvent = false;
+          }
+        }
+
+        // Filter by pubkey if specified
+        if (includeEvent && pubkey && eventData.pubkey !== pubkey) {
+          includeEvent = false;
+        }
+
+        if (includeEvent) {
+          const ndkEvent = new NDKEvent(ndk, eventData);
+          events.add(ndkEvent);
+
+          if (eventData.created_at) {
+            if (newestEventTimestamp < eventData.created_at) {
+              newestEventTimestamp = eventData.created_at;
+            }
+            if (oldestEventTimestamp === null || eventData.created_at < oldestEventTimestamp) {
+              oldestEventTimestamp = eventData.created_at;
+            }
+          }
+        }
+      });
+
+      loadedFromIDB = events.size > 0;
+
+      if (loadedFromIDB && onCachedDataLoaded) {
+        console.debug('Triggering onCachedDataLoaded callback with IDB data');
+        const result = processEventsToResult(new Set(events), oldestEventTimestamp);
+        onCachedDataLoaded(result);
+      }
+    }
+  } catch (e) {
+    console.warn("Failed to load from IDB", e);
+  }
+
+  // 2. Determine what to fetch from network
+  const filter = { kinds: targetKinds };
+  let baseSince = verificationEventsSinceTS;
+
+  if (months) {
+    console.debug(`Getting events from last ${months} months`);
+    baseSince = getTimestampMonthsAgo(months);
+  } else if (since) {
+    console.debug(`Getting events from ${since} onwards`);
+    baseSince = since;
+  }
+
+  // Smart sync: fetch newer events
+  if (loadedFromIDB && !until && !singleBatch) {
+    // Fetch newer events (incremental sync)
+    filter.since = newestEventTimestamp + 1;
+    console.debug(`Incremental sync: Fetching events newer than ${newestEventTimestamp}`);
+
+    // Also check if we need to fetch older events (gap filling)
+    const DAY_IN_SECONDS = 86400;
+    if (oldestEventTimestamp && oldestEventTimestamp > baseSince + DAY_IN_SECONDS) {
+      console.debug(`Gap detected: IDB oldest=${oldestEventTimestamp}, expected=${baseSince}. Will fetch older events after new ones.`);
+    }
+  } else {
+    filter.since = baseSince;
+  }
+
+  if (until) {
+    filter.until = until;
+  }
+  if (limit) {
+    filter.limit = limit;
+  }
+  if (pubkey) {
+    filter.authors = [pubkey];
+  }
+  if (appId) {
+    filter["#i"] = Array.isArray(appId) ? appId : [appId];
+  }
+  if (sha256) {
+    filter["#x"] = [sha256];
+  }
+
+  // 3. Fetch from Network
+  let newEvents = new Set();
+  await ensureNdkConnected();
+  try {
+    if (singleBatch) {
+      console.debug(`Fetching single batch with filter:`, filter);
+      newEvents = await ndk.fetchEvents(filter);
+    } else {
+      newEvents = await fetchEventsWithPagination(ndk, filter);
+    }
+
+    console.log(`Fetched ${newEvents.size} new events from network`);
+  } catch(e) {
+    console.error("Error fetching events:", e);
+    if (!loadedFromIDB) throw e;
+  }
+
+  // 4. Fetch older events to fill gaps (if needed and not limited by params)
+  if (loadedFromIDB && !until && !singleBatch && !pubkey && !appId && !sha256 && !months && !since) {
+    const DAY_IN_SECONDS = 86400;
+    if (oldestEventTimestamp && oldestEventTimestamp > baseSince + DAY_IN_SECONDS) {
+      console.debug(`Filling gap: fetching events between ${baseSince} and ${oldestEventTimestamp - 1}`);
+
+      const gapFilter = {
+        kinds: targetKinds,
+        since: baseSince,
+        until: oldestEventTimestamp - 1
+      };
+
+      try {
+        const gapEvents = await fetchEventsWithPagination(ndk, gapFilter);
+        console.log(`Gap fill: fetched ${gapEvents.size} older events`);
+        gapEvents.forEach(e => newEvents.add(e));
+      } catch(e) {
+        console.warn("Error fetching gap events:", e);
+      }
+    }
+  }
+
+  // 5. Merge new events and update IDB
+  if (newEvents.size > 0) {
+    newEvents.forEach(e => {
+      events.add(e);
+      if (oldestEventTimestamp === null || e.created_at < oldestEventTimestamp) {
+        oldestEventTimestamp = e.created_at;
+      }
+      if (newestEventTimestamp < e.created_at) {
+        newestEventTimestamp = e.created_at;
+      }
+    });
+
+    // Save to IDB
+    try {
+      await saveEventsToIDB(newEvents);
+      console.debug(`Saved ${newEvents.size} new events to IDB`);
+    } catch (e) {
+      console.warn("Failed to save to IDB", e);
+    }
+  }
+
+  console.debug(`Total unique events (IDB + Network): ${events.size}`);
+
+  const finalResult = processEventsToResult(events, oldestEventTimestamp);
+
+  console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
+  console.timeEnd('getAllAssetInformation' + randomNumber);
+
+  return finalResult;
 }
 
 function getAppInfoFromEventInfo(eventInfo) {
@@ -1383,6 +2001,8 @@ if (typeof window !== 'undefined') {
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
+  window.backgroundSyncEvents = backgroundSyncEvents;
+  window.verificationKind = verificationKind;
   window.getUserPubkey = getUserPubkey;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
