@@ -149,7 +149,7 @@ const validateSHA256 = function(hashes) {
  * @param {Object} profile - Profile data
  */
 const saveProfileToIDB = async (pubkey, profile) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return;
   
   return new Promise((resolve, reject) => {
@@ -174,7 +174,7 @@ const saveProfileToIDB = async (pubkey, profile) => {
  * @returns {Promise<Object|null>} Profile data or null
  */
 const getProfileFromIDB = async (pubkey) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return null;
   
   return new Promise((resolve, reject) => {
@@ -747,7 +747,7 @@ const profilesStoreName = 'profiles';
 const initDB = () => {
   return new Promise((resolve, reject) => {
     if (typeof window === 'undefined' || !window.indexedDB) {
-      resolve(null);
+      reject(new Error("IndexedDB is not available"));
       return;
     }
     const request = window.indexedDB.open(dbName, dbVersion);
@@ -783,7 +783,7 @@ const initDB = () => {
  * @returns {Promise<number>} Number of events saved
  */
 const saveEventsToIDB = async (events) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return 0;
   
   return new Promise((resolve, reject) => {
@@ -817,7 +817,7 @@ const saveEventsToIDB = async (events) => {
  * @returns {Promise<Array>} Array of raw event objects sorted by created_at DESC (newest first)
  */
 const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limit = null } = {}) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return [];
   
   return new Promise((resolve, reject) => {
@@ -879,7 +879,7 @@ const getEventsFromIDB = async ({ kinds = null, since = null, until = null, limi
  * @returns {Promise<{oldest: number|null, newest: number|null, count: number}>}
  */
 const getIDBEventRange = async (kinds = null) => {
-  const db = await initDB();
+  const db = await initDB().catch(() => null);
   if (!db) return { oldest: null, newest: null, count: 0 };
   
   return new Promise((resolve, reject) => {
