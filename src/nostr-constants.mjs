@@ -1,7 +1,6 @@
 import { isDebugEnv } from './verifications_common.mjs';
 
 export const mainRelayUrl = "wss://relay.nostr.band";
-
 export const explicitRelayUrls = [
   mainRelayUrl,                       // FI - Do not change
   "wss://vidono.apps.slidestr.net/",  // FR
@@ -21,7 +20,6 @@ export const verificationKind = isDebugEnv() ? 32304 : 30301;
 export const verificationDraftKind = isDebugEnv() ? 30901 : 30801;
 export const verificationCommentKind = isDebugEnv() ? 30902 : 30802;
 export const codeSnippetKind = 1337;
-
 export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
 // Opinions

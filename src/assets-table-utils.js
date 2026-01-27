@@ -232,7 +232,11 @@ export async function showIssueTrackerHtmlWidget(verificationsInformation, htmlE
 window.showIssueTrackerHtmlWidget = showIssueTrackerHtmlWidget;
 
 window.showMoreRows = function() {
-  const hiddenRows = document.querySelectorAll('tr[style="display: none;"]');
-  hiddenRows.forEach(row => row.style.display = 'table-row');
+  // Only show rows that were initially hidden (not filtered out)
+  const initiallyHiddenRows = document.querySelectorAll('tr.initially-hidden');
+  initiallyHiddenRows.forEach(row => {
+    row.classList.remove('initially-hidden');
+    row.style.display = 'table-row';
+  });
   document.getElementById('show-more-row').remove();
 };

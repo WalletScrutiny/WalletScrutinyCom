@@ -130,7 +130,12 @@ permalink: /verifier/
     }
 
     try {
-      await renderAssetsTable({htmlElementId:'binariesTable', pubkey, showProfilePictures: false});
+      await renderAssetsTable({
+        htmlElementId: 'binariesTable', 
+        pubkey, 
+        showProfilePictures: false,
+        showOnlyRows: 10
+      });
     } catch (error) {
       console.error('Error loading binaries:', error);
       document.getElementById('binariesTable').innerHTML = 'Error loading binaries';

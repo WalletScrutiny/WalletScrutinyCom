@@ -4,7 +4,8 @@ import { updateDomElementInClass } from './drag-and-drop-utils.js';
 const blossomServerUrl = 'https://files.nostr.info';
 
 const BLOSSOM_CACHE_KEY = 'walletScrutinyFileCache';
-const CACHE_EXPIRATION_TIME = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_EXPIRATION_TIME = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+const NEGATIVE_CACHE_EXPIRATION_TIME = 30 * 24 * 60 * 60 * 1000; // 30 days for non-existent files
 
 function getCache() {
     try {
@@ -34,7 +35,9 @@ function getCachedResult(hash) {
     const entry = cache[hash];
     
     if (entry) {
-        const isExpired = Date.now() - entry.timestamp > CACHE_EXPIRATION_TIME;
+        // Use longer expiration for negative results (files that don't exist)
+        const expirationTime = entry.exists ? CACHE_EXPIRATION_TIME : NEGATIVE_CACHE_EXPIRATION_TIME;
+        const isExpired = Date.now() - entry.timestamp > expirationTime;
         if (!isExpired) {
             return entry.exists;
         }

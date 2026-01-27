@@ -27,12 +27,33 @@
       // If not on the home page, wait 1 second to let verifications load first
       // If it's the home page, we want it as fast as possible
       {% if page.url != "/" %}
-      await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
       {% endif %}
 
-      window.allAssetInformation = await getAllAssetInformation({months: 6});
+      // Load with cache - this will fire the event IMMEDIATELY with cached data
+      // then update in background when fresh data arrives
+      window.allAssetInformation = await getAllAssetInformation({
+        months: 6,
+        onCachedDataLoaded: (cachedData) => {
+          console.log('🚀 Cached data loaded immediately!', cachedData);
+          window.allAssetInformation = cachedData;
+          window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+        }
+      });
+      
+      // Now fire the event now with fresh data
       window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
       loadDraftVerificationsNotifications();
+
+      // Start background sync after page is idle
+      // Wait 10s on most pages, immediately on verification pages
+      {% if page.url contains "/android/" or page.url contains "/iphone/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
+        backgroundSyncEvents();
+      {% else %}
+        setTimeout(() => {
+          backgroundSyncEvents();
+        }, 10000);
+      {% endif %}
     })();
 
     // Load verifications_ui.bundle.min.js asynchronously and then trigger the verificationsUILoaded event
