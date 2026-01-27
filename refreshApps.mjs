@@ -7,7 +7,7 @@ import yaml from 'js-yaml';
 const defunctsFile = '_data/defunct.yaml';
 process.env.TZ = 'UTC'; // fix timezone issues
 
-async function refresh (markDefunct, apps) {
+async function refresh (markRemoved, apps) {
   const today = dateFormat(new Date(), 'yyyy-mm-dd');
   const fileContents = fs.readFileSync(defunctsFile, 'utf8');
   const data = yaml.load(fileContents, { schema: yaml.FAILSAFE_SCHEMA });
@@ -28,8 +28,8 @@ async function refresh (markDefunct, apps) {
     const ids = apps.split(',');
     const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1]);
     const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1]);
-    appStore.refreshAll(appStoreIds, markDefunct);
-    playStore.refreshAll(playStoreIds, markDefunct);
+    appStore.refreshAll(appStoreIds, markRemoved);
+    playStore.refreshAll(playStoreIds, markRemoved);
   } else {
     appStore.refreshAll();
     playStore.refreshAll();

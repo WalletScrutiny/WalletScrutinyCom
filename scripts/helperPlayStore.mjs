@@ -19,7 +19,7 @@ const headers = ('wsId title altTitle authors users appId appCountry released ' 
                 'issue icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social redirect_from developerName builds features').split(' ');
 
-async function refreshAll (ids, markDefunct) {
+async function refreshAll (ids, markRemoved) {
   var files;
   if (ids) {
     files = ids.map(it => `${it}.md`);
@@ -28,10 +28,11 @@ async function refreshAll (ids, markDefunct) {
   }
   console.log(`Updating ${files.length} 🤖 files ...`);
   stats.remaining = files.length;
-  files.forEach(file => { refreshFile(file, undefined, markDefunct); });
+  files.forEach(file => { refreshFile(file, undefined, markRemoved); });
+  helper.updateLastRemovedCheck();
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content, markRemoved) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined };
@@ -42,7 +43,11 @@ function refreshFile (fileName, content, markDefunct) {
     const appId = header.appId;
     const appCountry = header.appCountry || 'us';
     helper.checkHeaderKeys(header, headers);
-    if (!helper.was404(`${folder}${appId}`) && !'defunct,removed'.includes(header.meta)) {
+    
+    const isDefunctOrRemoved = 'defunct,removed'.includes(header.meta);
+    const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
+    
+    if (!helper.was404(`${folder}${appId}`) && (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved)) {
       try {
         gplay.app({
           appId: appId,
@@ -52,6 +57,10 @@ function refreshFile (fileName, content, markDefunct) {
           const iconPath = `images/wIcons/android/${appId}`;
           helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
             header.icon = `${appId}.${iconExtension}`;
+            if (header.meta === 'removed') {
+              header.meta = 'ok';
+              header.date = new Date();
+            }
             updateFromApp(header, app);
             stats.updated++;
             helper.writeResult(folder, header, body);
@@ -60,12 +69,12 @@ function refreshFile (fileName, content, markDefunct) {
           });
         }, (err) => {
           if (`${err}`.search(/404/) > -1) {
-            if (markDefunct) {
+            if (header.meta === 'defunct' || markRemoved) {
               header.meta = "removed";
               header.date = new Date();
               helper.writeResult(folder, header, body);
-            } else {
-              helper.addDefunctIfNew(`_${category}/${appId}`);
+            } else if (header.meta !== "removed") {
+              helper.addRemovedIfNew(`_${category}/${appId}`);
             }
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`);
