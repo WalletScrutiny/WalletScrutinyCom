@@ -1,3 +1,5 @@
+import { isDebugEnv } from './verifications_common.mjs';
+
 export const mainRelayUrl = "wss://relay.nostr.band";
 export const explicitRelayUrls = [
   mainRelayUrl,                       // FI - Do not change
@@ -13,14 +15,14 @@ export const wsBotPublicKey = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f473
 export const nip89ClientTagD = '5985153332267';
 
 // Verifications
-export const assetRegistrationKind = 1063;
-export const verificationKind = 30301;
-export const verificationDraftKind = 30801;
-export const verificationCommentKind = 30802;
+export const assetRegistrationKind = isDebugEnv() ? 1267 : 1063;
+export const verificationKind = isDebugEnv() ? 32304 : 30301;
+export const verificationDraftKind = isDebugEnv() ? 30901 : 30801;
+export const verificationCommentKind = isDebugEnv() ? 30902 : 30802;
 export const codeSnippetKind = 1337;
-export const endorsementKind = 31871;
+export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
 // Opinions
 export const opinionKind = 30023; // Long-form Content (NIP-23)
 
-export const verificationEventsSinceTS = 1742997262;
+export const verificationEventsSinceTS = isDebugEnv() ? 1742220163 : 1742997262;
