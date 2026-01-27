@@ -197,7 +197,7 @@ const getProfileFromIDB = async (pubkey) => {
       if (age > MAX_AGE) {
         resolve(null); // Expired
       } else {
-        resolve(result.profile);
+        resolve(result.profile || {});
       }
     };
     request.onerror = () => reject("Error reading profile from IDB");
@@ -1048,18 +1048,13 @@ const backgroundSyncEvents = async function() {
     });
 
     console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
-    let profilesCached = 0;
     for (const pubkey of uniquePubkeys) {
       try {
-        const profile = await getNostrProfile(pubkey);
-        if (profile) {
-          profilesCached++;
-        }
+        await getNostrProfile(pubkey);
       } catch (e) {
         console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
       }
     }
-    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
 
     // 7. Sync endorsements for cached verifications
     if (verificationEventIds.length > 0) {
