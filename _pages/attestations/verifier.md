@@ -134,8 +134,7 @@ permalink: /verifier/
         htmlElementId: 'binariesTable', 
         pubkey, 
         showProfilePictures: false,
-        showOnlyRows: 10,
-        preloadedData: window.allAssetInformation
+        showOnlyRows: 10
       });
     } catch (error) {
       console.error('Error loading binaries:', error);

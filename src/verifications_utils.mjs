@@ -224,8 +224,8 @@ const getNostrProfile = async function (pubkey) {
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   const profile = await user.fetchProfile();
-  
-  // Cache in both locations
+
+  // Save to IDB to cache
   saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
   
   return profile;

@@ -107,22 +107,15 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false,
-                                            preloadedData = null
+                                            showOnlyRegisteredAssets = false
                                           }) {
   let hasAssets = false;
 
-  // If preloaded data is provided, use it directly (no network call needed)
-  if (preloadedData) {
-    console.log('Using preloaded data, skipping getAllAssetInformation call');
-    response = preloadedData;
-  } else {
-    response = await getAllAssetInformation({
-      pubkey,
-      appId,
-      sha256
-    });
-  }
+  response = await getAllAssetInformation({
+    pubkey,
+    appId,
+    sha256
+  });
 
   try {
     window.userPubkey = await getUserPubkey();
