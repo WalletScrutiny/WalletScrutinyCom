@@ -32,7 +32,10 @@ async function updateTableVisibility() {
   const rows = Array.from(assetsTableElement.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
 
   rows.forEach(row => {
-    row.style.setProperty('display', 'table-row');
+    // Don't reset initially-hidden rows to visible
+    if (!row.classList.contains('initially-hidden')) {
+      row.style.setProperty('display', 'table-row');
+    }
   });
 
   rows.forEach(row => {
