@@ -27,44 +27,32 @@
       // If not on the home page, wait 1 second to let verifications load first
       // If it's the home page, we want it as fast as possible
       {% if page.url != "/" %}
-      await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
       {% endif %}
 
       // Load with cache - this will fire the event IMMEDIATELY with cached data
       // then update in background when fresh data arrives
-      let cachedDataLoaded = false;
-      
       window.allAssetInformation = await getAllAssetInformation({
         months: 6,
         onCachedDataLoaded: (cachedData) => {
-          console.log('🚀 Cached data loaded immediately!');
+          console.log('🚀 Cached data loaded immediately!', cachedData);
           window.allAssetInformation = cachedData;
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
-          cachedDataLoaded = true;
-          loadDraftVerificationsNotifications();
         }
       });
       
-      // If cache wasn't available, fire the event now with fresh data
-      if (!cachedDataLoaded) {
-        console.log('📡 Fresh data loaded (no cache available)');
-        window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
-        loadDraftVerificationsNotifications();
-      } else {
-        // Update with fresh data silently in the background
-        console.log('🔄 Background refresh complete, updating global data');
-      }
-      
+      // Now fire the event now with fresh data
+      window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      loadDraftVerificationsNotifications();
+
       // Start background sync after page is idle
       // Wait 10s on most pages, immediately on verification pages
       {% if page.url contains "/android/" or page.url contains "/iphone/" or page.url contains "/hardware/" or page.url contains "/desktop/" %}
-      setTimeout(() => {
         backgroundSyncEvents();
-      }, 100); // Start almost immediately on verification pages
       {% else %}
-      setTimeout(() => {
-        backgroundSyncEvents();
-      }, 10000); // Wait 10s on other pages to let them fully load
+        setTimeout(() => {
+          backgroundSyncEvents();
+        }, 10000);
       {% endif %}
     })();
 
