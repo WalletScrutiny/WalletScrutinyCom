@@ -1040,8 +1040,28 @@ const backgroundSyncEvents = async function() {
         }
       }
     }
+
+    // 6. Fetch and cache profiles for all verifiers
+    const uniquePubkeys = new Set();
+    allCachedVerifications.forEach(v => {
+      if (v.pubkey) uniquePubkeys.add(v.pubkey);
+    });
     
-    // 6. Sync endorsements for cached verifications
+    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
+    let profilesCached = 0;
+    for (const pubkey of uniquePubkeys) {
+      try {
+        const profile = await getNostrProfile(pubkey);
+        if (profile) {
+          profilesCached++;
+        }
+      } catch (e) {
+        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
+      }
+    }
+    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
+
+    // 7. Sync endorsements for cached verifications
     if (verificationEventIds.length > 0) {
       const { newest: newestEndorsement } = await getIDBEventRange([endorsementKind]);
       
@@ -1064,7 +1084,7 @@ const backgroundSyncEvents = async function() {
       }
     }
     
-    // 7. Sync comments for cached verifications (using 'v' tag)
+    // 8. Sync comments for cached verifications (using 'v' tag)
     if (verificationEventIds.length > 0) {
       const { newest: newestComment } = await getIDBEventRange([verificationCommentKind]);
       
@@ -1086,8 +1106,8 @@ const backgroundSyncEvents = async function() {
         }
       }
     }
-    
-    // 8. Sync code snippets (file attachments) - these are referenced by verifications
+
+    // 9. Sync code snippets (file attachments) - these are referenced by verifications
     // We'll fetch them on-demand when verifications are loaded, but cache what we find
     const { newest: newestSnippet } = await getIDBEventRange([codeSnippetKind]);
     
@@ -1101,26 +1121,6 @@ const backgroundSyncEvents = async function() {
       await saveEventsToIDB(newSnippets);
       console.log(`✅ Background sync: Saved ${newSnippets.size} new code snippets`);
     }
-    
-    // 9. Fetch and cache profiles for all verifiers
-    const uniquePubkeys = new Set();
-    allCachedVerifications.forEach(v => {
-      if (v.pubkey) uniquePubkeys.add(v.pubkey);
-    });
-    
-    console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
-    let profilesCached = 0;
-    for (const pubkey of uniquePubkeys) {
-      try {
-        const profile = await getNostrProfile(pubkey);
-        if (profile) {
-          profilesCached++;
-        }
-      } catch (e) {
-        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
-      }
-    }
-    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
     
     console.log('✅ Background sync complete - ALL event kinds synced');
   } catch (error) {
