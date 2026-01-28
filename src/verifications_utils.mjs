@@ -266,7 +266,7 @@ function createNdkEvent(kind, content, tags = [], createdAt = null) {
   ndkEvent.kind = kind;
   ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
-  ndkEvent.tags = [...tags, getWSClientTags()];
+  ndkEvent.tags = [...tags, ...getWSClientTags()];
   return ndkEvent;
 }
 
