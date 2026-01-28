@@ -1212,7 +1212,8 @@ const getAllAssetInformation = async function({ months,
                                                 singleBatch = false,
                                                 kinds = null,
                                                 limit = null,
-                                                onCachedDataLoaded = null
+                                                onCachedDataLoaded = null,
+                                                getDrafts = true
                                               }) {
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
@@ -1222,7 +1223,7 @@ const getAllAssetInformation = async function({ months,
   let oldestEventTimestamp = null;
   let newestEventTimestamp = 0;
 
-  const targetKinds = kinds || [assetRegistrationKind, verificationKind, verificationDraftKind];
+  const targetKinds = kinds || (getDrafts ? [assetRegistrationKind, verificationKind, verificationDraftKind] : [assetRegistrationKind, verificationKind]);
 
   // 1. Load from IDB
   try {
