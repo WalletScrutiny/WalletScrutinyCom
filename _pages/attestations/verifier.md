@@ -135,7 +135,7 @@ permalink: /verifier/
         pubkey, 
         showProfilePictures: false,
         showOnlyRows: 10,
-        tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none');
+        tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none')
       });
     } catch (error) {
       console.error('Error loading binaries:', error);
