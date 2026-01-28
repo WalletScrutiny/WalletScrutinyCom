@@ -44,7 +44,7 @@ We list the following apps of this provider:
 * {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict=true %}
 * {% include walletLink.html wallet='android/com.blockchain.wallet.btc' verdict=true %}
 * {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict=true %}
-* {% include walletLink.html wallet='android/com.blockchain.explorer' verdict=true %}
+* {% include walletLinkArchived.html wallet='android/com.blockchain.explorer' %}
 * {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' verdict=true %}
 
 As so far all others were obfuscated, we jump straight into jadx and sure

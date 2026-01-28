@@ -41,8 +41,8 @@ features:
 
 This device, running weeks on a single charge connects to its companion app on
 
-* Android {% include walletLink.html wallet='android/com.coolbitx.cwsapp' %}
-* iPhone {% include walletLink.html wallet='iphone/com.coolbitx.coolwallets' %}
+* Android {% include walletLinkArchived.html wallet='android/com.coolbitx.cwsapp' %}
+* iPhone {% include walletLinkArchived.html wallet='iphone/com.coolbitx.coolwallets' %}
 
 via Bluetooth. It features a display and a button to confirm actions.
 

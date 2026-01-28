@@ -80,8 +80,8 @@ As indicated in the {% include walletLink.html wallet='hardware/coolwalletpro' v
 
 We'd like to add that the device pairs with a mobile app. We've asked ORE System via Telegram whether their device pairs with the following apps or if they have their own: 
 
-* Android {% include walletLink.html wallet='android/com.coolbitx.cwsapp' %}
-* iPhone {% include walletLink.html wallet='iphone/com.coolbitx.coolwallets' %}
+* Android {% include walletLinkArchived.html wallet='android/com.coolbitx.cwsapp' %}
+* iPhone {% include walletLinkArchived.html wallet='iphone/com.coolbitx.coolwallets' %}
 
 CoolBitX (the manufacturer of the CoolWalletPro) disclosed in December 18, 2020, that the device has a [vulnerability](https://www.coolwallet.io/bluetooth-security-vulnerability-seed-replay-attack/) related to its Bluetooth pairing. The vulnerability exists given the following conditions: 
 

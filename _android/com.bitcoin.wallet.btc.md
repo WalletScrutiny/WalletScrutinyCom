@@ -48,7 +48,7 @@ We list the following apps of this provider:
 * {% include walletLink.html wallet='android/com.bitcoin.wallet.btc' verdict=true %}
 * {% include walletLink.html wallet='android/com.blockchain.wallet.btc' verdict=true %}
 * {% include walletLink.html wallet='android/com.blockchain.bitcoin.wallet' verdict=true %}
-* {% include walletLink.html wallet='android/com.blockchain.explorer' verdict=true %}
+* {% include walletLinkArchived.html wallet='android/com.blockchain.explorer' %}
 * {% include walletLink.html wallet='android/com.blockchain.btc.coinhub' verdict=true %}
 
 Something shady is going on here. This wallet looked like a wallet when we
