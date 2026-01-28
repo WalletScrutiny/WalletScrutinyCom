@@ -134,13 +134,13 @@ permalink: /verifier/
         htmlElementId: 'binariesTable', 
         pubkey, 
         showProfilePictures: false,
-        showOnlyRows: 10
+        showOnlyRows: 10,
+        tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none');
       });
     } catch (error) {
       console.error('Error loading binaries:', error);
       document.getElementById('binariesTable').innerHTML = 'Error loading binaries';
+      document.getElementById('loadingSpinner').style.display = 'none';
     }
-
-    document.getElementById('loadingSpinner').style.display = 'none';
   });
 </script>

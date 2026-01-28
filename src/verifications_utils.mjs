@@ -185,22 +185,22 @@ const getProfileFromIDB = async (pubkey) => {
     request.onsuccess = () => {
       const result = request.result;
       if (!result) {
-        resolve(null);
+        reject("There is no profile for this pubkey");
         return;
       }
 
-      // Check if cached profile is still fresh (24 hours)
+      // Check if cached profile is still fresh
       const now = Math.floor(Date.now() / 1000);
       const age = now - result.cached_at;
       const MAX_AGE = 24 * 60 * 60; // 24 hours
 
       if (age > MAX_AGE) {
-        resolve(null); // Expired
+        reject("Expired");
       } else {
-        resolve(result.profile);
+        resolve(result.profile || {});
       }
     };
-    request.onerror = () => reject("Error reading profile from IDB");
+    request.onerror = () => reject("Error reading profile");
   });
 };
 
@@ -217,13 +217,14 @@ const getNostrProfile = async function (pubkey) {
       return profileFromIDB;
     }
   } catch (e) {
-    console.warn("Failed to load profile from IDB", e);
+    console.debug("Failed to load profile from IDB:", e);
   }
 
   // Fetch from network
   await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   const profile = await user.fetchProfile();
+  console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
   // Save to IDB to cache
   saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
@@ -1048,18 +1049,13 @@ const backgroundSyncEvents = async function() {
     });
 
     console.log(`🔄 Fetching profiles for ${uniquePubkeys.size} verifiers...`);
-    let profilesCached = 0;
     for (const pubkey of uniquePubkeys) {
       try {
-        const profile = await getNostrProfile(pubkey);
-        if (profile) {
-          profilesCached++;
-        }
+        await getNostrProfile(pubkey);
       } catch (e) {
         console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
       }
     }
-    console.log(`✅ Background sync: Cached ${profilesCached} profiles`);
 
     // 7. Sync endorsements for cached verifications
     if (verificationEventIds.length > 0) {

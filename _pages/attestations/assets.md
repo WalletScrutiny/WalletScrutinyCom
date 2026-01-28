@@ -37,11 +37,11 @@ permalink: /assets/
         showOnlyRows: 100000, 
         showOnlyRegisteredAssets: true,
         getDrafts: false,
-        filterAppIds: sourceAvailableAppIds
+        filterAppIds: sourceAvailableAppIds,
+        tableLoadedCallback: () => (document.getElementById('loadingSpinner').style.display = 'none')
       });
     } catch (error) {
       console.error('Error rendering assets table: ', error);
-    } finally {
       document.getElementById('loadingSpinner').style.display = 'none';
     }
   });

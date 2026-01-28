@@ -107,7 +107,8 @@ window.renderAssetsTable = async function({
                                             showAttachmentsTable = false,
                                             showProfilePictures = true,
                                             showIssueTracker = false,
-                                            showOnlyRegisteredAssets = false
+                                            showOnlyRegisteredAssets = false,
+                                            tableLoadedCallback = null
                                           }) {
   let hasAssets = false;
 
@@ -536,6 +537,13 @@ window.renderAssetsTable = async function({
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  // At this point, the table is fully loaded and displayed,
+  // so we can call the callback function if it was provided,
+  // so the caller can do something like hide the loading spinner
+  if (typeof tableLoadedCallback === 'function') {
+    tableLoadedCallback();
+  }
 
   if (sortedItems.length > 0) {
     attachments = await getEventsFromEventIds(attachmentEventIDs);
