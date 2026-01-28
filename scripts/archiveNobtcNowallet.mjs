@@ -101,7 +101,7 @@ async function updateFileReferences(filePath, walletIdentifier) {
     const content = await fs.readFile(filePath, 'utf8');
     const escapedWalletId = walletIdentifier.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const pattern = new RegExp(
-      `\\{%\\s*include\\s+walletLink\\.html\\s+wallet=['"]${escapedWalletId}['"]\\s+verdict=['"][^'"]*['"]\\s*%\\}`,
+      `\\{%\\s*include\\s+walletLink\\.html\\s+wallet=['"]${escapedWalletId}['"]\\s+verdict=(?:['"]?(?:true|false)['"]?)\\s*%\\}`,
       'g'
     );
     const newContent = content.replace(
