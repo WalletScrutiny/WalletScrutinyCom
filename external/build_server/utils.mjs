@@ -128,14 +128,26 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
     const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
+    const childEnv = {
+      // Ensure PATH includes standard system directories for rootless container tools
+      PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+      HOME: process.env.HOME || '/tmp',
+      XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
+      ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
+    };
+
+    if (process.env.GH_TOKEN) {
+      childEnv.GH_TOKEN = process.env.GH_TOKEN;
+    }
+    if (process.env.GITHUB_TOKEN) {
+      childEnv.GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+    }
+    if (process.env.CONTAINER_RUNTIME) {
+      childEnv.CONTAINER_RUNTIME = process.env.CONTAINER_RUNTIME;
+    }
+
     exec(asciinemaCommand, {
-      env: {
-        // Ensure PATH includes standard system directories for rootless container tools
-        PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-        HOME: process.env.HOME || '/tmp',
-        XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-      },
+      env: childEnv,
       maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
     }, (error, stdout, stderr) => {
       if (error) {
