@@ -134,7 +134,7 @@ window.renderAssetsTable = async function({
   if (!document.getElementById('verificationModal')) {
     const verificationModalDiv = document.createElement('div');
     verificationModalDiv.id = 'verificationModal';
-    document.getElementById(htmlElementId).insertAdjacentElement('afterend', verificationModalDiv);
+    document.body.appendChild(verificationModalDiv);
   }
 
   document.getElementById('verificationModal').innerHTML = `
