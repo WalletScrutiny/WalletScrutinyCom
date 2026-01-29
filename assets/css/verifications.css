@@ -149,7 +149,29 @@ table .copy-button {
 }
 @media screen and (max-width: 480px) {
   #verificationModal {
-    width: 97vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    transform: none;
+    border-radius: 0;
+    background: var(--background-color);
+    z-index: 1001;
+  }
+  #verificationModal::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  #verificationContent {
+    padding-top: 56px;
   }
 }
 @media screen and (min-width: 481px) {
@@ -239,6 +261,13 @@ table .copy-button {
   border-radius: 12px;
   clear: both;
   z-index: 1000;
+}
+@media screen and (max-width: 480px) {
+  #closeModal {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+  }
 }
 
 /* Form */
