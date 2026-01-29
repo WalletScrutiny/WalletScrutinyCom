@@ -8,8 +8,8 @@ users: 5000000
 appId: com.applemoncash
 appCountry: 
 released: 
-updated: 2026-01-13
-version: 2.7.85
+updated: 2026-01-27
+version: 2.7.86
 stars: 3.8
 ratings: 
 reviews: 11

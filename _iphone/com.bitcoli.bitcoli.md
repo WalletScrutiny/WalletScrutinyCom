@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-11-05
+date: 2026-01-28
 signer: 
 twitter: 
 social: 

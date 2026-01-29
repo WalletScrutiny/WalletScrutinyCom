@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinw.win.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-07
+date: 2026-01-28
 signer: 
 twitter: CoinWOfficial
 social:

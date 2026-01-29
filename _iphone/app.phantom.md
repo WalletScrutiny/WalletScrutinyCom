@@ -1,6 +1,6 @@
 ---
 wsId: phantomlabs
-title: Phantom - Crypto Wallet
+title: Phantom - Trade Markets
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: app.phantom
 appCountry: us
 idd: '1598432977'
 released: 2022-01-30
-updated: 2026-01-13
-version: 26.0.0
+updated: 2026-01-27
+version: 26.2.1
 stars: 4.8
-reviews: 50151
+reviews: 51978
 website: https://phantom.com
 repository: 
 issue: 

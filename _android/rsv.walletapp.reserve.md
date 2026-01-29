@@ -8,11 +8,11 @@ users: 1000000
 appId: rsv.walletapp.reserve
 appCountry: 
 released: 2019-07-30
-updated: 2025-12-25
-version: 3.1.3
+updated: 2026-01-21
+version: 3.1.4
 stars: 4.5
 ratings: 
-reviews: 498
+reviews: 499
 website: https://uglycash.app/
 repository: 
 issue: 

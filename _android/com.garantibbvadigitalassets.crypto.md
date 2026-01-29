@@ -3,13 +3,13 @@ wsId: garantiBBVAKripto
 title: Garanti BBVA Kripto
 altTitle: 
 authors:
-- danny 
-users: 100000
+- danny
+users: 500000
 appId: com.garantibbvadigitalassets.crypto
 appCountry: 
 released: 2023-12-11
-updated: 2025-12-18
-version: 1.11.0
+updated: 2026-01-27
+version: 1.12.0
 stars: 3.5
 ratings: 
 reviews: 3
@@ -25,7 +25,7 @@ date: 2026-01-23
 signer: 
 twitter: 
 social:
-- https://www.linkedin.com/company/garantibbvakripto 
+- https://www.linkedin.com/company/garantibbvakripto
 redirect_from: 
 developerName: Garanti BBVA Kripto Varlık Alım Satım Platformu AŞ
 builds: 

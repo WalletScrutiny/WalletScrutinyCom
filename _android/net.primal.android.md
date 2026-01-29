@@ -8,8 +8,8 @@ users: 50000
 appId: net.primal.android
 appCountry: 
 released: 2024-07-09
-updated: 2025-12-31
-version: 2.6.18
+updated: 2026-01-22
+version: 2.6.21
 stars: 3.9
 ratings: 
 reviews: 25

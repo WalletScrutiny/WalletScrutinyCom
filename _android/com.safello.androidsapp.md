@@ -1,6 +1,6 @@
 ---
 wsId: safelloBitcoin
-title: 'Safello: Buy Bitcoin with SEK'
+title: 'Safello: Buy Bitcoin & crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.safello.androidsapp
 appCountry: 
 released: 
-updated: 2025-11-22
-version: 1.55.2
+updated: 2026-01-20
+version: 1.56.1
 stars: 
 ratings: 
 reviews: 

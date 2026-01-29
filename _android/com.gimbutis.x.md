@@ -7,8 +7,8 @@ users: 100
 appId: com.gimbutis.x
 appCountry: 
 released: 
-updated: 2025-12-02
-version: 1.5.9
+updated: 2026-01-27
+version: 1.6.2
 stars: 
 ratings: 
 reviews: 

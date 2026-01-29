@@ -10,8 +10,8 @@ idd: '6740916148'
 released: 2025-01-31
 updated: 2026-01-15
 version: 1.0.3
-stars: 4.1
-reviews: 41
+stars: 4.2
+reviews: 42
 website: http://hot-labs.org/wallet
 repository: 
 issue: 

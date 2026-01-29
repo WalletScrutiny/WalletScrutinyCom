@@ -9,7 +9,7 @@ appCountry:
 released: 2024-08-12
 updated: 2026-01-13
 version: 1.11.0
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 2
 website: https://stackatm.com/

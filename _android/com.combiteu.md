@@ -8,8 +8,8 @@ users: 50000
 appId: com.combiteu
 appCountry: 
 released: 2024-07-10
-updated: 2026-01-15
-version: 200.5.1
+updated: 2026-01-28
+version: 200.5.4
 stars: 
 ratings: 
 reviews: 

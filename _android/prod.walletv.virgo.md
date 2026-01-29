@@ -9,9 +9,9 @@ appCountry:
 released: 2025-04-03
 updated: 2025-11-24
 version: 1.1.8
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 2
 website: https://walletv.io
 repository: 
 issue: 

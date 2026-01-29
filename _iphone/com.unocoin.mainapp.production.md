@@ -1,6 +1,6 @@
 ---
 wsId: Unocoin
-title: Unocoin Indian Crypto Exchange
+title: 'Unocoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: com.unocoin.mainapp.production
 appCountry: in
 idd: 1030422972
 released: 2016-05-12
-updated: 2025-10-30
-version: 6.2.71
+updated: 2026-01-08
+version: 6.2.74
 stars: 3.6
-reviews: 1562
+reviews: 1569
 website: https://www.unocoin.com
 repository: 
 issue: 

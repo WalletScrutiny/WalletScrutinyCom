@@ -9,7 +9,7 @@ appId: co.sarwa
 appCountry: 
 released: 2021-04-04
 updated: 2026-01-13
-version: 7.2.0
+version: 7.3.1
 stars: 3.8
 ratings: 
 reviews: 19

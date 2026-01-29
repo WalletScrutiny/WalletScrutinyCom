@@ -11,7 +11,7 @@ released: 2023-04-11
 updated: 2026-01-09
 version: 3.15.0
 stars: 4.1
-reviews: 289
+reviews: 290
 website: https://www.bitunix.com
 repository: 
 issue: 

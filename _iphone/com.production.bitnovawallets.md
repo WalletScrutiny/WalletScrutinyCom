@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitnova - Bitcoin wallet
+title: 'Bitnova : ETH, SOL, BTC Wallet'
 altTitle: 
 authors: 
 appId: com.production.bitnovawallets
 appCountry: us
 idd: '6752937887'
 released: 2025-09-26
-updated: 2025-10-10
-version: '1.3'
+updated: 2026-01-22
+version: '1.4'
 stars: 4.7
 reviews: 41
 website: 

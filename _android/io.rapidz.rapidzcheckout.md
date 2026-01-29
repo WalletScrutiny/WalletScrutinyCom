@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.rapidz.rapidzcheckout.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-02-04
+date: 2026-01-28
 signer: 
 twitter: 
 social: 

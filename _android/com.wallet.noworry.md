@@ -7,8 +7,8 @@ users: 10000
 appId: com.wallet.noworry
 appCountry: 
 released: 
-updated: 2026-01-13
-version: 5.8.11
+updated: 2026-01-21
+version: 5.8.14
 stars: 
 ratings: 
 reviews: 

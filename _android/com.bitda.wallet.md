@@ -3,7 +3,7 @@ wsId:
 title: BitDa Wallet 加密货币比特币钱包
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bitda.wallet
 appCountry: 
 released: 

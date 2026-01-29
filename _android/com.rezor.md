@@ -8,7 +8,7 @@ users: 1000
 appId: com.rezor
 appCountry: 
 released: 2025-04-05
-updated: 2026-01-12
+updated: 2026-01-23
 version: '1'
 stars: 5
 ratings: 

@@ -1,6 +1,6 @@
 ---
 wsId: Mixin
-title: Mixin Messenger Crypto Wallet
+title: Mixin - Private Crypto Wallet
 altTitle: 
 authors:
 - danny

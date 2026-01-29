@@ -8,8 +8,8 @@ users: 500000
 appId: com.smartblockchain.wallet
 appCountry: 
 released: 2023-07-20
-updated: 2026-01-06
-version: 2.4.0
+updated: 2026-01-25
+version: 2.5.0
 stars: 4.2
 ratings: 
 reviews: 33

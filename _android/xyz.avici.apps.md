@@ -7,11 +7,11 @@ users: 10000
 appId: xyz.avici.apps
 appCountry: 
 released: 2023-09-14
-updated: 2026-01-14
-version: 1.5.3
+updated: 2026-01-20
+version: 1.5.4
 stars: 3.6
 ratings: 
-reviews: 17
+reviews: 18
 website: https://www.avici.org
 repository: 
 issue: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.rinnas.ajGlobal.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-10-19
+date: 2026-01-28
 signer: 
 twitter: ajglobalv
 social:

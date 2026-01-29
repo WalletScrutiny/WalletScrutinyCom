@@ -7,9 +7,9 @@ users: 1000
 appId: com.bytefederal.bytemobile
 appCountry: 
 released: 2025-08-03
-updated: 2025-11-26
-version: 1.10.1
-stars: 4.3
+updated: 2026-01-25
+version: 1.13.0
+stars: 4.4
 ratings: 
 reviews: 2
 website: 

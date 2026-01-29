@@ -12,7 +12,7 @@ updated: 2025-12-11
 version: 3.10.1
 stars: 4.3
 ratings: 
-reviews: 77
+reviews: 78
 website: https://coinflip.tech/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Sana: Crypto Wallet and Card'
+title: 'Sana: Onchain Money App'
 altTitle: 
 authors: 
 users: 500

@@ -1,6 +1,6 @@
 ---
 wsId: neteller
-title: NETELLER - Money Transfer
+title: Neteller - Money Transfer
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.skrill.NETELLER
 appCountry: gb
 idd: '1095647938'
 released: 2016-05-02
-updated: 2025-11-25
-version: 3.174.0
+updated: 2026-01-13
+version: 3.176.0
 stars: 4.5
-reviews: 1081
+reviews: 1106
 website: 
 repository: 
 issue: 

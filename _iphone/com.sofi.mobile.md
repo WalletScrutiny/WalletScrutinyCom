@@ -8,10 +8,10 @@ appId: com.sofi.mobile
 appCountry: us
 idd: '1191985736'
 released: 2017-04-10
-updated: 2026-01-10
-version: 3.78.0
+updated: 2026-01-23
+version: 3.80.0
 stars: 4.8
-reviews: 383176
+reviews: 383490
 website: https://www.sofi.com
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 twitter: SoFi
 social: 
 features: 
-developerName: Social Finance, Inc
+developerName: Social Finance, LLC
 
 ---
 

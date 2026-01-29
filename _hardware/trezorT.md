@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2018-03-01
 discontinued: 
-updated: 2025-11-18
-version: 2.9.4
+updated: 2026-01-21
+version: 2.10.0
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64

@@ -1,6 +1,6 @@
 ---
 wsId: robinhoodCryptoAndStocks
-title: 'Robinhood: Crypto & Stocks'
+title: 'Robinhood: Stock Token, Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.robinhood.release.RobinhoodGlobal
 appCountry: pl
 idd: '6467049008'
 released: 2023-12-06
-updated: 2025-12-02
-version: 2025.49.0
-stars: 4.5
-reviews: 268
+updated: 2026-01-27
+version: 2026.5.0
+stars: 4.6
+reviews: 276
 website: https://robinhood.com/eu/en/
 repository: 
 issue: 

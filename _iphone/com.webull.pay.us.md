@@ -8,10 +8,10 @@ appId: com.webull.pay.us
 appCountry: us
 idd: '6449486592'
 released: 2023-06-27
-updated: 2025-12-08
-version: 2.1.6
+updated: 2026-01-09
+version: 2.1.8
 stars: 4.8
-reviews: 25122
+reviews: 25306
 website: 
 repository: 
 issue: 

@@ -1,35 +1,8 @@
 ---
-wsId: tronlinkPro
 title: TronLink Pro
-altTitle: 
-authors:
-- danny 
-users: 5000000
 appId: com.tronlinkpro.wallet
-appCountry: 
-released: 2019-11-08
-updated: 2026-01-14
-version: 4.19.0
-stars: 3.3
-ratings: 
-reviews: 1064
-website: http://www.tronlink.org
-repository: 
-issue: 
-icon: com.tronlinkpro.wallet.png
-bugbounty: 
 meta: ok
 verdict: nobtc
-appHashes: 
-date: 2026-01-23
-signer: 
-twitter: TronLinkWallet
-social:
-- https://t.me/TronLink 
-redirect_from: 
-developerName: HELIX TECH COMPANY LIMITED
-builds: 
-features: 
 
 ---
 

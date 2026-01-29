@@ -8,8 +8,8 @@ appId: com.sovranbitcoin
 appCountry: in
 idd: '6499554529'
 released: 2025-06-07
-updated: 2025-08-03
-version: 0.0.40
+updated: 2025-12-20
+version: 0.0.53
 stars: 0
 reviews: 0
 website: https://sovran.money

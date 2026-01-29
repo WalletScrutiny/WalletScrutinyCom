@@ -3,7 +3,7 @@ wsId:
 title: CryptoBuy - Bitcoin & Many
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: info.primesoft.primetime
 appCountry: 

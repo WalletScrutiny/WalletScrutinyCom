@@ -3,7 +3,7 @@ wsId:
 title: 'BRICS Pay Wallet: Crypto&DeFi'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.brics
 appCountry: 
 released: 
@@ -18,7 +18,7 @@ issue:
 icon: com.brics.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

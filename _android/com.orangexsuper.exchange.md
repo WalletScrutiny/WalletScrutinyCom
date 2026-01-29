@@ -3,7 +3,7 @@ wsId: orangeXBitcoin
 title: 'OrangeX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.orangexsuper.exchange
 appCountry: 
@@ -25,7 +25,7 @@ date: 2026-01-23
 signer: 
 twitter: OrangeXExchange
 social:
-- https://www.linkedin.com/company/orangexexchange 
+- https://www.linkedin.com/company/orangexexchange
 redirect_from: 
 developerName: OrangeX Limited
 builds: 

@@ -5,29 +5,37 @@ authors:
 - danny
 released: 2025-10-14
 discontinued: 
-updated: 2026-01-12
-version: 1.0.4
+updated: 2026-01-23
+version: 1.0.5
 binaries: 
+dimensions: 
+weight: 
 provider: Keycard
 providerWebsite: https://get.keycard.tech/
 website: https://get.keycard.tech/pages/keycard-shell
+shop: 
+country: 
+price: 
 repository: https://github.com/keycard-tech/keycard-shell
 issue: 
 icon: keycard-shell.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
+appHashes: 
 date: 2026-01-20
+signer: 
 twitter: Keycard_
 social:
-- https://discord.com/invite/uJAXk7jFhZ 
+- https://discord.com/invite/uJAXk7jFhZ
 builds: 
-features: 
+features:
 - Air-gapped hardware wallet using QR codes
 - Bitcoin transaction signing via ERC-4527 QR standard
 - Compatible with multiple Bitcoin wallets (e.g., Sparrow, Specter, BlueWallet, Nunchuk)
 - 2-inch display for on-device transaction verification
 - Supports Bitcoin and Ethereum out of the box
+
 ---
 
 ## Device Description

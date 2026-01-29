@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-23
 updated: 2025-08-29
 version: 0.9.67
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 10
+reviews: 11
 website: http://zapit.io
 repository: 
 issue: 

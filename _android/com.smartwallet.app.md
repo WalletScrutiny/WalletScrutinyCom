@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.smartwallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2026-01-28
 signer: 
 twitter: echooo_wallet
 social:

@@ -8,8 +8,8 @@ users: 100000
 appId: com.cheezeebit.exchange
 appCountry: 
 released: 
-updated: 2026-01-12
-version: 1.2.8.2
+updated: 2026-01-28
+version: 1.2.9.2
 stars: 
 ratings: 
 reviews: 

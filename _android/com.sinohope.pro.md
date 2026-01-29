@@ -7,8 +7,8 @@ users: 50
 appId: com.sinohope.pro
 appCountry: 
 released: 2025-11-02
-updated: 2026-01-06
-version: 1.5.0
+updated: 2026-01-22
+version: 1.6.1
 stars: 
 ratings: 
 reviews: 

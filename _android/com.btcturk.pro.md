@@ -9,10 +9,10 @@ appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
 updated: 2026-01-16
-version: 2.36.1
+version: 2.37.0
 stars: 4.5
 ratings: 169442
-reviews: 232
+reviews: 231
 website: https://kripto.btcturk.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
-developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU
+developerName: BTCTURK TEKNOLOJI ANONIM SIRKETI
 builds: 
 features: 
 

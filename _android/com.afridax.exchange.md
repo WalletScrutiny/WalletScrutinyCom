@@ -8,8 +8,8 @@ users: 10000
 appId: com.afridax.exchange
 appCountry: 
 released: 
-updated: 2025-11-26
-version: 0.7.2
+updated: 2026-01-19
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 

@@ -7,7 +7,7 @@ users: 1000
 appId: com.ready.wallet
 appCountry: 
 released: 2025-09-18
-updated: 2025-12-10
+updated: 2026-01-19
 version: 1.2.3
 stars: 
 ratings: 

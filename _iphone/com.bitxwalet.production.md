@@ -10,7 +10,7 @@ released: 2025-09-29
 updated: 2026-01-15
 version: '1.1'
 stars: 4.6
-reviews: 59
+reviews: 60
 website: https://bitx-bitcoinwallet.com/privacy
 repository: 
 issue: 

@@ -7,8 +7,8 @@ users: 10
 appId: com.unicoin.dcx.limited.abcc.wallet
 appCountry: 
 released: 
-updated: 2026-01-06
-version: 1.10.17
+updated: 2026-01-26
+version: 1.10.19
 stars: 
 ratings: 
 reviews: 

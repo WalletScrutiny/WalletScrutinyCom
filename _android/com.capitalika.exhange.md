@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.capitalika.exhange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2022-07-14
+date: 2026-01-28
 signer: 
 twitter: capitalikalatam
 social:

@@ -11,16 +11,16 @@ released: 2022-06-21
 updated: 2024-01-06
 version: 1.17.6
 stars: 3.5
-reviews: 67
+reviews: 66
 website: https://www.tatcoin.com
 repository: 
 issue: 
 icon: com.tatspaceapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2026-01-28
 signer: 
 twitter: tatspaceapp
 social:

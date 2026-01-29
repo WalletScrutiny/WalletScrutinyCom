@@ -11,7 +11,7 @@ released: 2021-08-20
 updated: 2026-01-14
 version: 7.2.484
 stars: 4.5
-reviews: 6508
+reviews: 6548
 website: https://prestmit.io
 repository: 
 issue: 

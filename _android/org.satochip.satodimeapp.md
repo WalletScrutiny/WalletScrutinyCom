@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.satochip.satodimeapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-06-08
+date: 2026-01-28
 signer: 
 twitter: 
 social: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cfdglobal.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2025-11-10
+date: 2026-01-28
 signer: 
 twitter: capex_en
 social:

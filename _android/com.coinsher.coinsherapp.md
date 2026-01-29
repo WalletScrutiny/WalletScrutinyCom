@@ -9,9 +9,9 @@ appCountry:
 released: 2024-05-25
 updated: 2025-12-27
 version: 1.5.2
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 8
+reviews: 9
 website: https://www.coinsher.com/
 repository: 
 issue: 

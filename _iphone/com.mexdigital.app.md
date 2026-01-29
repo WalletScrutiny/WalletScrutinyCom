@@ -1,6 +1,6 @@
 ---
 wsId: multibankBTC
-title: 'MultiBank.io: Buy BTC & Crypto'
+title: 'mb.io: Crypto Trading & Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.mexdigital.app
 appCountry: ae
 idd: '1592119946'
 released: 2022-01-18
-updated: 2025-11-06
-version: 10.2.15
+updated: 2026-01-28
+version: 26.0.2
 stars: 4.6
 reviews: 21
 website: 

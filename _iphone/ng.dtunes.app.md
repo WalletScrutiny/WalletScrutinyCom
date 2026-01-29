@@ -3,16 +3,16 @@ wsId: dtunesCrypto
 title: Dtunes
 altTitle: 
 authors:
-- danny 
+- danny
 appId: ng.dtunes.app
 appCountry: ng
 idd: '1603827120'
-released: '2022-08-02T07:00:00Z'
+released: 2022-08-02
 updated: 2025-09-29
 version: 2.2.5
-stars: 4.38889
+stars: 4.4
 reviews: 504
-website: ''
+website: 
 repository: 
 issue: 
 icon: ng.dtunes.app.jpg
@@ -24,7 +24,7 @@ date: 2026-01-23
 signer: 
 twitter: 
 social:
-- https://www.facebook.com/DtunesApp 
+- https://www.facebook.com/DtunesApp
 features: 
 developerName: Crand Technologies LLC
 

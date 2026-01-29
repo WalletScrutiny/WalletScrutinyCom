@@ -3,14 +3,14 @@ wsId: gateTRBitcoin
 title: 'Gate.TR: Gateway to Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.gateio.GateTR
 appCountry: tr
 idd: '1640195644'
-released: '2022-08-25T07:00:00Z'
+released: 2022-08-25
 updated: 2025-09-04
 version: 6.15.28
-stars: 3.89172
+stars: 3.9
 reviews: 628
 website: https://www.gate.com.tr
 repository: 
@@ -25,7 +25,7 @@ signer:
 twitter: 
 social:
 - https://www.instagram.com/gatecomtr
-- https://www.youtube.com/@gatetr 
+- https://www.youtube.com/@gatetr
 features: 
 developerName: Gate Teknoloji Anonim Sirketi
 

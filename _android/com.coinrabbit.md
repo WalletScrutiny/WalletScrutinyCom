@@ -7,8 +7,8 @@ users: 1000
 appId: com.coinrabbit
 appCountry: 
 released: 2025-07-21
-updated: 2026-01-15
-version: 1.0.14
+updated: 2026-01-23
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 

@@ -7,8 +7,8 @@ users: 100
 appId: nz.lightningpay.wallet
 appCountry: 
 released: 
-updated: 2026-01-19
-version: 2.5.0
+updated: 2026-01-27
+version: 2.8.2
 stars: 
 ratings: 
 reviews: 

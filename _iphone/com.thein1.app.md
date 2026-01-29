@@ -8,10 +8,10 @@ appId: com.thein1.app
 appCountry: ua
 idd: '6472618142'
 released: 2024-08-28
-updated: 2025-12-02
-version: 0.9.4
+updated: 2026-01-21
+version: 0.9.7
 stars: 4.2
-reviews: 270
+reviews: 276
 website: 
 repository: 
 issue: 

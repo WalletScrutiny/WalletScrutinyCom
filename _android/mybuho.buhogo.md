@@ -7,8 +7,8 @@ users: 10
 appId: mybuho.buhogo
 appCountry: 
 released: 2025-09-26
-updated: 2026-01-12
-version: 1.0.3
+updated: 2026-01-20
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

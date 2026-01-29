@@ -7,8 +7,8 @@ users: 500
 appId: me.skycryptowallet.skymobile
 appCountry: 
 released: 
-updated: 2026-01-10
-version: 1.52.0
+updated: 2026-01-27
+version: 1.54.0
 stars: 
 ratings: 
 reviews: 

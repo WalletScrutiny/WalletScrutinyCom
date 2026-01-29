@@ -8,8 +8,8 @@ users: 1000000
 appId: com.kcex
 appCountry: 
 released: 2023-12-21
-updated: 2026-01-10
-version: 2.0.2
+updated: 2026-01-27
+version: 2.0.5
 stars: 4.4
 ratings: 
 reviews: 333

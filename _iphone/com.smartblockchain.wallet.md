@@ -8,8 +8,8 @@ appId: com.smartblockchain.wallet
 appCountry: us
 idd: '6463490400'
 released: 2023-09-20
-updated: 2025-11-21
-version: 2.1.1
+updated: 2026-01-27
+version: 2.5.0
 stars: 4.2
 reviews: 21
 website: 

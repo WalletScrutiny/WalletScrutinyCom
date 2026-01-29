@@ -7,8 +7,8 @@ users: 1000
 appId: io.ccview.wallet
 appCountry: 
 released: 2025-12-02
-updated: 2025-12-18
-version: 1.1.0
+updated: 2026-01-21
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 

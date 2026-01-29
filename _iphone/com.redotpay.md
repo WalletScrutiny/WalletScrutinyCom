@@ -8,10 +8,10 @@ appId: com.redotpay
 appCountry: us
 idd: '6449689356'
 released: 2023-06-13
-updated: 2026-01-15
-version: 3.0.2
+updated: 2026-01-22
+version: 3.0.3
 stars: 4.8
-reviews: 2412
+reviews: 2468
 website: https://www.redotpay.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ social:
 - https://www.linkedin.com/company/redotpayofficial
 - https://www.instagram.com/redotpay
 - https://www.facebook.com/RedotPayOfficial
-- https://t.me/RedotPayAnnouncement 
+- https://t.me/RedotPayAnnouncement
 features: 
 developerName: Red Dot Technology Limited.
 

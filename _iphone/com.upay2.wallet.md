@@ -3,16 +3,16 @@ wsId: upayWallet
 title: UPay Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.upay2.wallet
 appCountry: us
 idd: '6745806643'
-released: '2025-05-16T07:00:00Z'
+released: 2025-05-16
 updated: 2026-01-14
 version: 1.0.6
 stars: 2.4
 reviews: 5
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.upay2.wallet.jpg
@@ -26,7 +26,7 @@ twitter: UPayOfficial_EN
 social:
 - https://t.me/UPayOfficial
 - https://www.linkedin.com/company/upay-technology-ltd
-- https://www.youtube.com/@UPayOfficial_EN  
+- https://www.youtube.com/@UPayOfficial_EN
 features: 
 developerName: UPay Technology LTD.
 

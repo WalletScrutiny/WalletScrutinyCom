@@ -7,8 +7,8 @@ users: 50
 appId: com.boldwallet
 appCountry: 
 released: 2025-07-15
-updated: 2026-01-12
-version: 2.1.11
+updated: 2026-01-27
+version: 2.1.12
 stars: 
 ratings: 
 reviews: 

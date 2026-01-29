@@ -1,6 +1,6 @@
 ---
 wsId: multibankBTC
-title: 'MultiBank.io: Buy BTC & Crypto'
+title: 'mb.io: Crypto Trading & Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ users: 100000
 appId: com.multibank.app
 appCountry: 
 released: 2023-04-04
-updated: 2025-12-04
-version: 3.2.2
+updated: 2026-01-26
+version: 26.0.8
 stars: 3.9
 ratings: 
 reviews: 7
-website: https://multibank.io/
+website: https://mb.io/
 repository: 
 issue: 
 icon: com.multibank.app.png

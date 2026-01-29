@@ -1,34 +1,8 @@
 ---
-wsId: 
 title: Solflare - Solana Wallet
-altTitle: 
-authors:
-- danny 
-users: 1000000
 appId: com.solflare.mobile
-appCountry: 
-released: 2021-11-05
-updated: 2025-12-29
-version: 2.10.2
-stars: 4.7
-ratings: 
-reviews: 1626
-website: https://solflare.com
-repository: 
-issue: 
-icon: com.solflare.mobile.png
-bugbounty: 
 meta: ok
 verdict: nobtc
-appHashes: 
-date: 2026-01-23
-signer: 
-twitter: solflare
-social: 
-redirect_from: 
-developerName: Solrise Research Ltd
-builds: 
-features: 
 
 ---
 

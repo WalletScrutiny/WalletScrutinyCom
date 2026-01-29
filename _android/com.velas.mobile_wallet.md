@@ -20,10 +20,10 @@ repository:
 issue: 
 icon: com.velas.mobile_wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: []
-date: 2025-01-27
+date: 2026-01-28
 signer: 
 twitter: velasblockchain
 social:

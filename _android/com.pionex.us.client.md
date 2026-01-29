@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-25
 updated: 2025-12-29
 version: 2.0.9
-stars: 3.9
+stars: 3.8
 ratings: 
 reviews: 640
 website: https://www.pionex.us/

@@ -7,7 +7,7 @@ users: 1000
 appId: com.iluminary
 appCountry: 
 released: 2024-03-27
-updated: 2026-01-06
+updated: 2026-01-26
 version: 2.0.1
 stars: 
 ratings: 

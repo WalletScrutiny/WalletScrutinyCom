@@ -16,7 +16,7 @@ reviews: 9
 website: https://walletverse.io/
 repository: 
 issue: 
-icon: com.walletverse.jpg
+icon: com.walletverse.png
 bugbounty: 
 meta: ok
 verdict: wip

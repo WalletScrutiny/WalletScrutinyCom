@@ -8,8 +8,8 @@ users: 100000
 appId: com.robinhood.global
 appCountry: 
 released: 
-updated: 2026-01-15
-version: 2026.3.1
+updated: 2026-01-21
+version: 2026.4.1
 stars: 
 ratings: 
 reviews: 

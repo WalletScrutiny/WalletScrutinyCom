@@ -3,7 +3,7 @@ wsId: dtunesCrypto
 title: 'Dtunes: Giftcards & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: ng.dtunes.app
 appCountry: 
@@ -25,7 +25,7 @@ date: 2026-01-23
 signer: 
 twitter: 
 social:
-- https://www.facebook.com/DtunesApp 
+- https://www.facebook.com/DtunesApp
 redirect_from: 
 developerName: Dtunes NG
 builds: 

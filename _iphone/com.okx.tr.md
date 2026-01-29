@@ -11,7 +11,7 @@ released: 2024-02-07
 updated: 2026-01-19
 version: 6.154.1
 stars: 4.5
-reviews: 2140
+reviews: 2144
 website: https://tr.okx.com/download
 repository: 
 issue: 

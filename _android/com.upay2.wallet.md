@@ -3,7 +3,7 @@ wsId: upayWallet
 title: UPay Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.upay2.wallet
 appCountry: 
@@ -27,7 +27,7 @@ twitter: UPayOfficial_EN
 social:
 - https://t.me/UPayOfficial
 - https://www.linkedin.com/company/upay-technology-ltd
-- https://www.youtube.com/@UPayOfficial_EN 
+- https://www.youtube.com/@UPayOfficial_EN
 redirect_from: 
 developerName: UPay
 builds: 

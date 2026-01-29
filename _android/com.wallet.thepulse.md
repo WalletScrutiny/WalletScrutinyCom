@@ -11,7 +11,7 @@ updated: 2026-01-09
 version: 5.3.6
 stars: 3.3
 ratings: 
-reviews: 21
+reviews: 22
 website: https://thepulsewallet.org/
 repository: 
 issue: 

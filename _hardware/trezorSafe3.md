@@ -7,8 +7,8 @@ authors:
 - keraliss
 released: 2023-10-12
 discontinued: 
-updated: 2025-11-18
-version: 2.9.4
+updated: 2026-01-21
+version: 2.10.0
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
 - 59

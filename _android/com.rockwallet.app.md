@@ -4,7 +4,7 @@ title: 'RockWallet: Buy and Swap'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.rockwallet.app
 appCountry: 
 released: 2022-11-14
@@ -12,7 +12,7 @@ updated: 2025-09-08
 version: 5.17.8
 stars: 3.3
 ratings: 
-reviews: 258
+reviews: 262
 website: http://www.rockwallet.com
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.wallet.faste.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2025-01-15
+date: 2026-01-28
 signer: 
 twitter: blocktechbrew
 social:

@@ -8,10 +8,10 @@ appId: com.okx.wallet
 appCountry: us
 idd: '6743309484'
 released: 2025-04-15
-updated: 2026-01-15
-version: 6.154.0
+updated: 2026-01-21
+version: 6.155.0
 stars: 4
-reviews: 68
+reviews: 72
 website: 
 repository: 
 issue: 
@@ -25,7 +25,7 @@ signer:
 twitter: wallet
 social: 
 features: 
-developerName: OKX Bahamas FinTech Company Limited
+developerName: OKX Technology Inc
 
 ---
 

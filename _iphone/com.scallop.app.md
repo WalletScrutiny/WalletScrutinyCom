@@ -8,8 +8,8 @@ appId: com.scallop.app
 appCountry: bg
 idd: '1599717690'
 released: 2021-12-10
-updated: 2025-11-22
-version: 1.8.7
+updated: 2025-12-02
+version: 1.8.8
 stars: 0
 reviews: 0
 website: https://emoney.io/

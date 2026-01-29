@@ -8,8 +8,8 @@ appId: com.bitdenex.app
 appCountry: in
 idd: '1640819532'
 released: 2022-09-21
-updated: 2025-12-18
-version: 3.2.19
+updated: 2026-01-23
+version: 3.2.20
 stars: 5
 reviews: 2
 website: https://bitdenex.com

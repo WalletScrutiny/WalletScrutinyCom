@@ -7,8 +7,8 @@ users: 10000
 appId: com.mbeu.mbeuapp
 appCountry: 
 released: 
-updated: 2025-12-23
-version: 1.3.1
+updated: 2026-01-28
+version: 1.4.1
 stars: 
 ratings: 
 reviews: 

@@ -7,8 +7,8 @@ users: 5000
 appId: com.wats.wallet
 appCountry: 
 released: 2024-07-02
-updated: 2025-11-20
-version: 2.0.8
+updated: 2026-01-21
+version: 2.0.9
 stars: 
 ratings: 
 reviews: 

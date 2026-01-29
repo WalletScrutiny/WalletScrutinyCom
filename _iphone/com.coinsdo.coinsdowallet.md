@@ -7,8 +7,8 @@ appId: com.coinsdo.coinsdowallet
 appCountry: us
 idd: '6479635869'
 released: 2024-04-16
-updated: 2025-12-12
-version: 2.0.23
+updated: 2026-01-22
+version: 2.0.24
 stars: 4.4
 reviews: 91
 website: 

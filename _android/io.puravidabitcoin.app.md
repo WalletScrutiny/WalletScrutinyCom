@@ -7,8 +7,8 @@ users: 100
 appId: io.puravidabitcoin.app
 appCountry: 
 released: 2023-04-10
-updated: 2026-01-15
-version: 2.2.0
+updated: 2026-01-28
+version: 2.2.1
 stars: 5
 ratings: 
 reviews: 1

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-02-18
+date: 2026-01-28
 signer: 
 twitter: 
 social: 

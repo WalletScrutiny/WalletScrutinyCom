@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2025-06-21
 discontinued: 
-updated: 2025-10-15
-version: 9.24.0
+updated: 2026-01-21
+version: 9.25.0
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55

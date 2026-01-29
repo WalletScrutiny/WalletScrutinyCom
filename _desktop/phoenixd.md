@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-11-10
 discontinued: 
-updated: 2025-11-10
-version: 0.7.1
+updated: 2026-01-20
+version: 0.7.2
 binaries: https://github.com/ACINQ/phoenixd/releases
 provider: ACINQ
 providerWebsite: https://acinq.co/

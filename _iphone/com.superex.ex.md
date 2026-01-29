@@ -7,8 +7,8 @@ appId: com.superex.ex
 appCountry: us
 idd: '1601589888'
 released: 2022-01-04
-updated: 2026-01-10
-version: 2.9.28
+updated: 2026-01-15
+version: 2.9.29
 stars: 3.9
 reviews: 184
 website: https://www.superex.com

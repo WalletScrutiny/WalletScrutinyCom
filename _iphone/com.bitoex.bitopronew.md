@@ -11,7 +11,7 @@ released: 2023-10-29
 updated: 2026-01-20
 version: 1.50.5
 stars: 4.6
-reviews: 4374
+reviews: 4393
 website: http://taplink.cc/bitogroup
 repository: 
 issue: 

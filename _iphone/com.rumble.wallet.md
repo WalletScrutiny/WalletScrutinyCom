@@ -8,10 +8,10 @@ appId: com.rumble.wallet
 appCountry: us
 idd: '6748149951'
 released: 2025-12-15
-updated: 2026-01-06
-version: 1.1.1
-stars: 4.8
-reviews: 16
+updated: 2026-01-20
+version: 1.2.0
+stars: 4.2
+reviews: 23
 website: https://wallet.rumble.com
 repository: 
 issue: 

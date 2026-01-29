@@ -3,7 +3,7 @@ wsId: gateTRBitcoin
 title: 'Gate.TR: Bitcoin ve Kripto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.gateio.turkey
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 twitter: 
 social:
 - https://www.instagram.com/gatecomtr
-- https://www.youtube.com/@gatetr 
+- https://www.youtube.com/@gatetr
 redirect_from: 
 developerName: Gate.com
 builds: 

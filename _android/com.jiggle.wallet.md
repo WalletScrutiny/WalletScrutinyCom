@@ -12,7 +12,7 @@ updated: 2025-04-11
 version: 0.2.44
 stars: 4.4
 ratings: 
-reviews: 34
+reviews: 35
 website: https://jiggle.app
 repository: 
 issue: 

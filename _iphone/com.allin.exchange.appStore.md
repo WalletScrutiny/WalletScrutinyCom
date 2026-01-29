@@ -1,6 +1,6 @@
 ---
 wsId: allInXCrypto
-title: 'All InX: Exchange & Crypto BTC'
+title: 'AllinX: Exchange & Crypto BTC'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.allin.exchange.appStore
 appCountry: us
 idd: '6736860332'
 released: 2025-02-10
-updated: 2025-12-10
-version: 1.1.16
+updated: 2026-01-20
+version: 1.1.17
 stars: 5
 reviews: 2
 website: https://www.allinx.io

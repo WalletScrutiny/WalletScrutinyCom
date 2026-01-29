@@ -11,7 +11,7 @@ released: 2022-11-28
 updated: 2025-08-18
 version: 12.0.0
 stars: 4.7
-reviews: 1410
+reviews: 1419
 website: https://www.bitcoin.com.au
 repository: 
 issue: 

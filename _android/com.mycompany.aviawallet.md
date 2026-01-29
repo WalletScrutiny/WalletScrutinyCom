@@ -7,8 +7,8 @@ users: 10000
 appId: com.mycompany.aviawallet
 appCountry: 
 released: 2025-09-02
-updated: 2025-12-22
-version: 1.1.23
+updated: 2026-01-26
+version: 1.1.38
 stars: 
 ratings: 
 reviews: 

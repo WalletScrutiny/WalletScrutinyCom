@@ -9,10 +9,10 @@ appId: com.valr.mobile
 appCountry: jp
 idd: 1453499428
 released: 2019-09-27
-updated: 2025-11-16
-version: 1.1.26
-stars: 0
-reviews: 0
+updated: 2026-01-22
+version: 1.1.33
+stars: 4
+reviews: 1
 website: https://www.valr.com
 repository: 
 issue: 

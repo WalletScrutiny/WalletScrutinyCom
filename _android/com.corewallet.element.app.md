@@ -12,7 +12,7 @@ updated: 2025-04-02
 version: 1.13.0
 stars: 2.4
 ratings: 
-reviews: 304
+reviews: 307
 website: https://www.elementwallet.com/
 repository: 
 issue: 

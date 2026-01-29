@@ -12,7 +12,7 @@ updated: 2026-01-16
 version: 2.7.1(139)
 stars: 4.7
 ratings: 
-reviews: 71
+reviews: 72
 website: https://cryptomus.com/
 repository: 
 issue: 
