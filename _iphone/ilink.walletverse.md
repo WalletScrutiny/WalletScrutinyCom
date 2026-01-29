@@ -8,10 +8,10 @@ appId: ilink.walletverse
 appCountry: us
 idd: '6462672660'
 released: 2023-10-15
-updated: 2025-12-17
-version: 1.15.28
-stars: 0
-reviews: 0
+updated: 2026-01-22
+version: 1.15.29
+stars: 5
+reviews: 54
 website: https://walletverse.io
 repository: 
 issue: 
