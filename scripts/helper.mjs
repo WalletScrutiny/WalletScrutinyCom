@@ -43,10 +43,6 @@ function downloadImageFile (url, iconPath, callback) {
   });
 }
 
-function getMasterHead () {
-  return `${fs.readFileSync('.git/refs/heads/master')}`.trim();
-}
-
 const defunctFile = '_data/defunct.yaml';
 var defuncts = fs.readFileSync(defunctFile, 'utf8');
 function was404 (id) {
@@ -143,12 +139,6 @@ function dateOrEmpty (d) {
     : '';
 }
 
-function stringOrEmpty (s) {
-  return s
-    ? `"${s}"`
-    : '';
-}
-
 /**
  * Switch meta between stale, obsolete or ok depending on updated date.
  **/
@@ -228,7 +218,6 @@ export default {
   getResult,
   loadFromFile,
   migrateAll,
-  stringOrEmpty,
   removedCheckDue,
   updateLastRemovedCheck,
   updateMeta,
