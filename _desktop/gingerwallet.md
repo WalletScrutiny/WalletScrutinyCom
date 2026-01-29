@@ -22,7 +22,9 @@ twitter:
 social:
 - https://t.me/gingerwallet
 - https://njump.me/npub1rqw94s9dt8lf0lernt72w29ctkr0skc5mjpy6e92ppktnvms0kwq540l8l
-builds: 
+builds:
+- arch: x86_64-linux
+- arch: x86_64-windows
 features:
 - coinjoin
 - tor
