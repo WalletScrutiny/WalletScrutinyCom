@@ -1308,7 +1308,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const versionForTheKey = getFirstTagValue(verification, 'version');
   const platformForTheKey = getFirstTagValue(verification, 'platform');
   const authorPubkeyForTheKey = verification.pubkey;
-  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}`;
+  const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}:${verification.id}`;
 
   renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
 

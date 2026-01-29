@@ -1544,11 +1544,28 @@ const createNostrCommentToVerification = async function(verificationKey, comment
 }
 
 const getCommentsForVerification = async function(verificationKey) {
+  // This is to support the old format of the verificationKey, where
+  // the event id was not included. See this issue:
+  // https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/844
+
+  // At some point in the future, we can remove this support for the
+  // old format and keep only the new format (verificationKey).
+
+  // Remove last part of the verificationKey (the event id)
+  const verificationKeyWithoutEventId = verificationKey.split(':').slice(0, -1).join(':');
+
   await ensureNdkConnected();
-  const comments = await ndk.fetchEvents({
-    kinds: [verificationCommentKind],
-    '#v': [verificationKey]
-  });
+  const comments = await ndk.fetchEvents([
+    {
+      kinds: [verificationCommentKind],
+      '#v': [verificationKey]
+    },
+    {
+      kinds: [verificationCommentKind],
+      '#v': [verificationKeyWithoutEventId]
+    }
+  ]);
+
   return Array.from(comments);
 }
 
