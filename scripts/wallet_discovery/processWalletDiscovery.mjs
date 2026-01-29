@@ -178,7 +178,6 @@ class WalletDiscoveryProcessor {
           product.minInstalls = (details && details.minInstalls) || 0;
           product.maxInstalls = (details && details.maxInstalls) || 0;
           product.score = (details && details.score) || product.score || 0;
-          product.ratings = (details && details.ratings) || 0;
           product.reviews = (details && details.reviews) || 0;
           product.genre = (details && details.genre) || product.genre || 'Unknown';
           product.genreId = (details && details.genreId) || product.genreId || 'Unknown';
@@ -195,7 +194,6 @@ class WalletDiscoveryProcessor {
           product.userCount = 0;
           product.minInstalls = 0;
           product.maxInstalls = 0;
-          product.ratings = 0;
           product.reviews = 0;
           product.installs = product.installs || 'N/A';
         } finally {
@@ -210,13 +208,9 @@ class WalletDiscoveryProcessor {
           // Safely assign properties with fallbacks
           product.fullDescription = (details && details.description) || product.description || 'Description not available';
           product.score = (details && details.score) || product.score || 0;
-          product.ratings = (details && details.ratings) || 0;
           product.reviews = (details && details.reviews) || 0;
           product.genre = (details && details.genres && details.genres[0]) || product.genre || 'Unknown';
           product.primaryGenre = (details && details.primaryGenre) || product.primaryGenre || 'Unknown';
-          
-          // Calculate ratings count heuristic
-          product.ratingsCount = product.ratings || 0;
           
           console.log(`  [${i + 1}/${this.products.length}] ✓ ${product.title} [${product.primaryGenre}]`);
         } catch (error) {
@@ -224,8 +218,6 @@ class WalletDiscoveryProcessor {
           console.log(`  [${i + 1}/${this.products.length}] ✗ ${product.title} - ${error.message}`);
           // Mark as unavailable to avoid retrying
           product.fullDescription = 'Full description not available';
-          product.ratingsCount = 0;
-          product.ratings = 0;
           product.reviews = 0;
         } finally {
           release();
@@ -239,12 +231,8 @@ class WalletDiscoveryProcessor {
   }
 
   compareByRelevance(a, b) {
-    const aScore = a.platform === 'android' 
-      ? (a.userCount || 0) / 20 
-      : (a.ratingsCount || 0);
-    const bScore = b.platform === 'android' 
-      ? (b.userCount || 0) / 20 
-      : (b.ratingsCount || 0);
+    const aScore = (a.userCount || 0) / 20;
+    const bScore = (b.userCount || 0) / 20;
     return bScore - aScore;
   }
 
@@ -405,7 +393,7 @@ class WalletDiscoveryProcessor {
     
     if (product.platform === 'android') {
       console.log(`${bold}Genre:${reset}  ${product.genre || 'Unknown'}`);
-      console.log(`${bold}User Count:${reset}  ${product.userCount || 'N/A'}    ${bold}Ratings:${reset}  ${product.ratings || 'N/A'}`);
+      console.log(`${bold}User Count:${reset}  ${product.userCount || 'N/A'}`);
       
       if (product.summary) {
         const summary = this.highlightAllSearchTerms(product.summary);
@@ -413,7 +401,6 @@ class WalletDiscoveryProcessor {
       }
     } else {
       console.log(`${bold}Genre:${reset}  ${product.primaryGenre || product.genre || 'Unknown'}`);
-      console.log(`${bold}Ratings Count:${reset}  ${product.ratingsCount || 'N/A'}`);
     }
     
     // Description

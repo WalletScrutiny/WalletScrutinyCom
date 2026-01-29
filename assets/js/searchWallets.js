@@ -121,9 +121,6 @@ function performSearch (wallets, query = false, platform = false) {
     if (a.users !== b.users) {
       return b.users - a.users;
     }
-    if (a.ratings !== b.ratings) {
-      return b.ratings - a.ratings;
-    }
     if (a.reviews !== b.reviews) {
       return b.reviews - a.reviews;
     }

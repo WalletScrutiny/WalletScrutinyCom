@@ -470,7 +470,6 @@ class BitcoinWalletDiscovery {
               minInstalls: details.minInstalls || 0,
               maxInstalls: details.maxInstalls || 0,
               userCount: details.minInstalls || 0,
-              ratings: details.ratings || 0,
               reviews: details.reviews || 0,
               score: details.score || app.score || 0
             });
@@ -482,7 +481,6 @@ class BitcoinWalletDiscovery {
               ...app,
               fullDescription: app.summary || app.description || 'Description not available',
               userCount: 0,
-              ratings: 0,
               reviews: 0
             });
           } finally {
@@ -496,8 +494,6 @@ class BitcoinWalletDiscovery {
             enriched.push({
               ...app,
               fullDescription: details.description || app.description || '',
-              ratingsCount: details.ratings || 0,
-              ratings: details.ratings || 0,
               reviews: details.reviews || 0,
               score: details.score || app.score || 0
             });
