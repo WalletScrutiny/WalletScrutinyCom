@@ -43,10 +43,6 @@ function downloadImageFile (url, iconPath, callback) {
   });
 }
 
-function getMasterHead () {
-  return `${fs.readFileSync('.git/refs/heads/master')}`.trim();
-}
-
 const defunctFile = '_data/defunct.yaml';
 var defuncts = fs.readFileSync(defunctFile, 'utf8');
 function was404 (id) {
@@ -54,12 +50,43 @@ function was404 (id) {
   return defuncts.match(line);
 }
 
-function addDefunctIfNew (id) {
+function addRemovedIfNew (id) {
   if (!was404(id)) {
     // newly defunct
     const line = `- ${id}\n`;
     defuncts += line;
     fs.appendFileSync(defunctFile, line);
+  }
+}
+
+const lastCheckFile = '_data/lastRemovedCheck.yml';
+const TWO_WEEKS_MS = 14 * 24 * 60 * 60 * 1000;
+const NOW_MS = new Date().getTime();
+const lastCheck = getLastRemovedCheck();
+const removedCheckDue = NOW_MS - lastCheck > TWO_WEEKS_MS;
+
+function getLastRemovedCheck() {
+  try {
+    if (fs.existsSync(lastCheckFile)) {
+      const content = fs.readFileSync(lastCheckFile, 'utf8');
+      const data = yaml.load(content);
+      if (data && data.date) {
+        return new Date(data.date).getTime();
+      }
+    }
+  } catch (err) {
+    console.error(`Error reading ${lastCheckFile}: ${err}`);
+  }
+  return 0;
+}
+
+function updateLastRemovedCheck() {
+  try {
+    const data = { date: new Date() };
+    const content = yaml.dump(data);
+    fs.writeFileSync(lastCheckFile, content);
+  } catch (err) {
+    console.error(`Error writing ${lastCheckFile}: ${err}`);
   }
 }
 
@@ -109,12 +136,6 @@ function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
 function dateOrEmpty (d) {
   return d
     ? dateFormat(d, 'yyyy-mm-dd')
-    : '';
-}
-
-function stringOrEmpty (s) {
-  return s
-    ? `"${s}"`
     : '';
 }
 
@@ -188,15 +209,17 @@ function writeResult (folder, header, body) {
 }
 
 export default {
-  addDefunctIfNew,
+  addRemovedIfNew,
   checkHeaderKeys,
   dateOrEmpty,
   downloadImageFile,
   getEmptyHeader,
+  getLastRemovedCheck,
   getResult,
   loadFromFile,
   migrateAll,
-  stringOrEmpty,
+  removedCheckDue,
+  updateLastRemovedCheck,
   updateMeta,
   was404,
   writeResult

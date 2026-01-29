@@ -20,7 +20,7 @@ const headers = ('wsId title altTitle authors appId appCountry idd released ' +
                 'icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social features developerName').split(' ');
 
-async function refreshAll (ids, markDefunct) {
+async function refreshAll (ids, markRemoved) {
   var files;
   if (ids) {
     files = ids.map(it => `${it}.md`);
@@ -29,10 +29,11 @@ async function refreshAll (ids, markDefunct) {
   }
   console.log(`Updating ${files.length} 🍎 files ...`);
   stats.remaining = files.length;
-  files.forEach(file => { refreshFile(file, undefined, markDefunct); });
+  files.forEach(file => { refreshFile(file, undefined, markRemoved); });
+  helper.updateLastRemovedCheck();
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content, markRemoved) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined };
@@ -44,7 +45,11 @@ function refreshFile (fileName, content, markDefunct) {
     const idd = header.idd;
     const appCountry = header.appCountry || 'us';
     helper.checkHeaderKeys(header, headers);
-    if (!'defunct,removed'.includes(header.meta)) {
+    
+    const isDefunctOrRemoved = 'defunct,removed'.includes(header.meta);
+    const shouldCheckDefunctOrRemoved = isDefunctOrRemoved && helper.removedCheckDue;
+    
+    if (!isDefunctOrRemoved || shouldCheckDefunctOrRemoved) {
       apple.app({
         id: idd,
         lang: 'en',
@@ -54,6 +59,10 @@ function refreshFile (fileName, content, markDefunct) {
         const iconPath = `images/wIcons/iphone/${appId}`;
         helper.downloadImageFile(`${app.icon}`, iconPath, iconExtension => {
           header.icon = `${appId}.${iconExtension}`;
+          if (header.meta === 'removed') {
+            header.meta = 'ok';
+            header.date = new Date();
+          }
           updateFromApp(header, app);
           stats.updated++;
           helper.writeResult(folder, header, body);
@@ -62,12 +71,13 @@ function refreshFile (fileName, content, markDefunct) {
         });
       }, (err) => {
         if (`${err}`.search(/404/) > -1) {
-          if (markDefunct) {
-            header.meta = 'removed';
+          // If defunct and now 404, change to removed
+          if (header.meta === 'defunct' || markRemoved) {
+            header.meta = "removed";
             header.date = new Date();
             helper.writeResult(folder, header, body);
-          } else {
-            helper.addDefunctIfNew(`_${category}/${appId}`);
+          } else if (header.meta !== "removed") {
+            helper.addRemovedIfNew(`_${category}/${appId}`);
           }
         } else {
           console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`);
