@@ -40,7 +40,6 @@ const searchForVerificationText = () => {
           date: header.date,
           file: filePath,
           users: header.users,
-          ratings: header.ratings,
           title: header.altTitle || header.title
         });
       }
