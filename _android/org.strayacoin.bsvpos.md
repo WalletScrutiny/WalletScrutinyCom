@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-13
 updated: 2021-04-17
 version: 3.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.strayacoin.org/index.php/strayapos/
 repository: 

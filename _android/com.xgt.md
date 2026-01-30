@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-16
 updated: 2020-01-17
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://gxt.global
 repository: 

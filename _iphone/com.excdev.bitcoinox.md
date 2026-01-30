@@ -10,7 +10,6 @@ idd: 1453542836
 released: 2019-02-27
 updated: 2024-06-26
 version: 2.8.8
-stars: 3.4
 reviews: 5
 website: https://bitcoinox.com/
 repository: 

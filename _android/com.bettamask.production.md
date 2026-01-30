@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-12
 updated: 2022-10-12
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://bettamask.com
 repository: 

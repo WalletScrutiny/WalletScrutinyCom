@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-13
 updated: 2021-03-13
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://diamondbtc.net/
 repository: 

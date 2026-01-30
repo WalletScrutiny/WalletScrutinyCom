@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-12
 updated: 2023-02-23
 version: 1.2.4
-stars: 3.7
-ratings: 
 reviews: 14
 website: https://www.exir.io/
 repository: 

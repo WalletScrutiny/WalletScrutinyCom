@@ -10,7 +10,6 @@ idd: 1314586706
 released: 2018-08-02
 updated: 2026-01-21
 version: 5.4.0
-stars: 4.9
 reviews: 1190
 website: https://www.casa.io
 repository: 

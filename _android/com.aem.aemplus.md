@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-27
 updated: 2024-03-08
 version: 1.0.14
-stars: 
-ratings: 
 reviews: 
 website: https://www.aemalgorithm.io/aem-plus/main
 repository: 

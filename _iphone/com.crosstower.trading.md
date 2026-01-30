@@ -10,7 +10,6 @@ idd: '1586136066'
 released: 2021-09-30
 updated: 2022-12-03
 version: '3.26'
-stars: 4.7
 reviews: 3
 website: https://www.crosstower.in/
 repository: 

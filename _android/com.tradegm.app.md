@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-12-18
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://tradegm.eu/
 repository: 

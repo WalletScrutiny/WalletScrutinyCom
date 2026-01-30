@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-01
 updated: 2022-01-09
 version: 3.7.4
-stars: 3.9
-ratings: 22277
 reviews: 843
 website: https://coinbox.org
 repository: 

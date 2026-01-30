@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-11-26
 version: 1.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://ewetechnology.com/
 repository: 

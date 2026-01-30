@@ -10,8 +10,6 @@ appCountry:
 released: 2023-03-26
 updated: 2023-10-27
 version: '22.0'
-stars: 2.8
-ratings: 
 reviews: 3
 website: https://trillioner.io
 repository: 

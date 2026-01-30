@@ -10,7 +10,6 @@ idd: 1518236341
 released: 2020-08-05
 updated: 2022-11-08
 version: 2.1.0
-stars: 4.3
 reviews: 6
 website: https://inlock.io
 repository: 

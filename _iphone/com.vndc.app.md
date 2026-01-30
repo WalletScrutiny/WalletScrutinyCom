@@ -10,7 +10,6 @@ idd: 1498452975
 released: 2020-03-09
 updated: 2025-04-20
 version: 6.0.7
-stars: 4.7
 reviews: 1327
 website: https://goonus.io/en
 repository: 

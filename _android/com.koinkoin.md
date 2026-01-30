@@ -10,8 +10,6 @@ appCountry:
 released: 2021-02-22
 updated: 2025-01-31
 version: 6.2.5
-stars: 3.3
-ratings: 
 reviews: 
 website: https://koinkoin.io/
 repository: 

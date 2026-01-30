@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-13
 updated: 2024-09-09
 version: 1.4.9
-stars: 3.3
-ratings: 
 reviews: 9
 website: https://www.tatcoin.com
 repository: 

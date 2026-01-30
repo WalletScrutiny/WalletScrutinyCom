@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-16
 updated: 2025-11-17
 version: 1.8.4
-stars: 
-ratings: 
 reviews: 
 website: https://senexpay.com
 repository: 

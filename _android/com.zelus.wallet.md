@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-29
 updated: 2025-04-04
 version: 1.5.3
-stars: 3.7
-ratings: 
 reviews: 37
 website: https://zelus.io/
 repository: 

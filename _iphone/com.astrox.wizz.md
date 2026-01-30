@@ -10,7 +10,6 @@ idd: '6451117430'
 released: 2023-07-12
 updated: 2025-10-15
 version: 1.9.11
-stars: 4.2
 reviews: 16
 website: https://wizzwallet.io/
 repository: 

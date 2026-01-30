@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-02
 updated: 2022-04-02
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://app.tradepal.finance
 repository: 

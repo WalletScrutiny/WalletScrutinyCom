@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-12-27
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://tmdstudios.wordpress.com/
 repository: 

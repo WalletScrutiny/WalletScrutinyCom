@@ -10,7 +10,6 @@ idd: 1505715935
 released: 2020-05-15
 updated: 2023-08-16
 version: 1.1.22
-stars: 0
 reviews: 0
 website: https://zaif.jp/
 repository: 

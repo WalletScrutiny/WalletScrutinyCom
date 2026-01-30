@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-19
 updated: 2022-10-05
 version: '1.7'
-stars: 4.1
-ratings: 
 reviews: 3
 website: https://3commas.io
 repository: 

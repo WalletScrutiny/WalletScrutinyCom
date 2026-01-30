@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-08
 updated: 2026-01-20
 version: 7.6.21
-stars: 4.1
-ratings: 
 reviews: 26
 website: https://www.deepcoin.com
 repository: 

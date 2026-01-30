@@ -10,7 +10,6 @@ idd: '767428811'
 released: 2013-12-05
 updated: 2026-01-19
 version: 5.7.100
-stars: 4.7
 reviews: 737
 website: https://ctrader.com/forum
 repository: 

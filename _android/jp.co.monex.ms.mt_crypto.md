@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-07
 updated: 2025-11-27
 version: 1.0.12
-stars: 2.7
-ratings: 
 reviews: 
 website: http://www.monex.co.jp/
 repository: 

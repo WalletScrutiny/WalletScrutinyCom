@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-13
 updated: 2021-01-26
 version: '2.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.kozjin.io
 repository: 

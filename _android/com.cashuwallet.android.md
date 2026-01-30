@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-09-17
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://cashu.cc/
 repository: 

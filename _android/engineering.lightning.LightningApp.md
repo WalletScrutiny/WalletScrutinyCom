@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-18
 updated: 2020-02-07
 version: 0.2.6
-stars: 
-ratings: 
 reviews: 
 website: https://lightning.engineering
 repository: 

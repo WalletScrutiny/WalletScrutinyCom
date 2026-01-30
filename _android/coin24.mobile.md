@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-28
 updated: 2020-09-28
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://coin24.app/ko
 repository: 

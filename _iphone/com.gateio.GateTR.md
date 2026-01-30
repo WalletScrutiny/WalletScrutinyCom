@@ -10,7 +10,6 @@ idd: '1640195644'
 released: 2022-08-25
 updated: 2025-09-04
 version: 6.15.28
-stars: 3.9
 reviews: 628
 website: https://www.gate.com.tr
 repository: 

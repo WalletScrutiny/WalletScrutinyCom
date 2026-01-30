@@ -9,7 +9,6 @@ idd: '6502440655'
 released: 2024-06-12
 updated: 2025-11-26
 version: 1.1.6
-stars: 3.9
 reviews: 7
 website: https://bitkit.to/
 repository: 

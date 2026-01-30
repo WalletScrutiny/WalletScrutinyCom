@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-26
 updated: 2020-08-26
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.blocklink.live/
 repository: 

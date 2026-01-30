@@ -10,8 +10,6 @@ appCountry:
 released: 2023-04-03
 updated: 2025-06-05
 version: 1.0.59
-stars: 2.2
-ratings: 
 reviews: 7
 website: https://www.assure.pro
 repository: 

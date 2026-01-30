@@ -10,7 +10,6 @@ idd: '1591427763'
 released: 2021-11-04
 updated: 2022-04-28
 version: 2.0.5
-stars: 0
 reviews: 0
 website: https://vuollet.io/
 repository: 

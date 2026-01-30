@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-23
 updated: 2023-02-28
 version: '0.6'
-stars: 5
-ratings: 
 reviews: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 

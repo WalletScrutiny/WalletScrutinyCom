@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-25
 updated: 2019-06-25
 version: 2.1.20
-stars: 
-ratings: 
 reviews: 
 website: https://www.cbanx.com
 repository: 

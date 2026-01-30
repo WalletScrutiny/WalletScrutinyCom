@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-28
 updated: 2021-01-29
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://globalchain.trade
 repository: 

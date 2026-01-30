@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-01-24
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://exchangevalet.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-03
 updated: 2026-01-27
 version: 1.2.569
-stars: 
-ratings: 
 reviews: 
 website: https://1502.app/
 repository: 

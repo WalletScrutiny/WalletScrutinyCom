@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-02
 updated: 2026-01-05
 version: 3.1.4
-stars: 2.5
-ratings: 
 reviews: 
 website: https://www.coinrepublic.com.au/
 repository: 

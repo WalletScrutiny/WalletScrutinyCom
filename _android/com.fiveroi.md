@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-31
 updated: 2022-05-18
 version: 4.3.4
-stars: 1.9
-ratings: 
 reviews: 24
 website: https://www.5roi.com/
 repository: 

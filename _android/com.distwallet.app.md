@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-01
 updated: 2023-02-01
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://distwallet.com
 repository: 

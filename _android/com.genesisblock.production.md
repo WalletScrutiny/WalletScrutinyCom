@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-05-06
 updated: 2022-07-16
 version: 0.2.9
-stars: 3.9
-ratings: 57
 reviews: 17
 website: https://hightop.com/
 repository: 

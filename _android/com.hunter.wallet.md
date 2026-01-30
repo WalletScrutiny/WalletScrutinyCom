@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-25
 updated: 2022-10-12
 version: 1.4.2
-stars: 
-ratings: 
 reviews: 
 website: http://www.hunter-wallet.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-07
 updated: 2020-07-16
 version: 1.27.2
-stars: 
-ratings: 
 reviews: 
 website: https://liquidity.network
 repository: 

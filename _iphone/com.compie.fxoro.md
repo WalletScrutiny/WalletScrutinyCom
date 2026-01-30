@@ -10,7 +10,6 @@ idd: '1579042568'
 released: 2022-06-16
 updated: 2025-08-07
 version: 1.6.3
-stars: 0
 reviews: 0
 website: http://fxoro.com
 repository: 

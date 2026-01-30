@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-22
 updated: 2022-01-22
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://plutus.space
 repository: 

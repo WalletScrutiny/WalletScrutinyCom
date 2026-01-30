@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-16
 updated: 2021-07-17
 version: 0.0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.arowex.com
 repository: 

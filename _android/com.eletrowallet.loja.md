@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-06
 updated: 2019-08-20
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://eletrowallet.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1341473829'
 released: 2018-08-04
 updated: 2025-09-13
 version: 3.10.1
-stars: 4.9
 reviews: 18
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-iOS

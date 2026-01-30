@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-30
 updated: 2021-04-06
 version: 1.5.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.ini.bitcaps.club
 repository: 

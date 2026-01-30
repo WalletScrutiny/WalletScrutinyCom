@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-31
 updated: 2020-01-31
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://cryptotradeengine.com
 repository: 

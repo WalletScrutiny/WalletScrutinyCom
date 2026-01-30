@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-22
 updated: 2020-08-28
 version: 4.1.1.15
-stars: 3.8
-ratings: 
 reviews: 
 website: http://stocktong.io
 repository: 

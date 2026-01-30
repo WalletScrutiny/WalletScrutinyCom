@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-09
 updated: 2020-09-17
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://trueil.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2025-02-11
 updated: 2025-12-05
 version: '1.15'
-stars: 
-ratings: 
 reviews: 
 website: https://gbtcfinance.com/
 repository: 

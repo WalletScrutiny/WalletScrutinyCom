@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-12
 updated: 2023-03-03
 version: 2.5.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.fiatbit.com
 repository: 

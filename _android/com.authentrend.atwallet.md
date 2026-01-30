@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-13
 updated: 2023-09-28
 version: v2.0.12
-stars: 
-ratings: 
 reviews: 
 website: https://www.authentrend.com/contact
 repository: 

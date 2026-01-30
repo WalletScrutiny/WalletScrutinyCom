@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-25
 updated: 2023-08-22
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://novapago.com
 repository: 

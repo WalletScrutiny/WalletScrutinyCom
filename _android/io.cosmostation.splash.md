@@ -3,15 +3,13 @@ wsId:
 title: Splash - Sui Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: io.cosmostation.splash
 appCountry: 
 released: 2023-01-27
 updated: 2025-10-13
 version: 1.0.7
-stars: 3.6
-ratings: 
 reviews: 6
 website: https://cosmostation.io
 repository: 
@@ -26,7 +24,7 @@ signer:
 twitter: CosmostationVD
 social:
 - https://t.me/cosmostation
-- https://www.youtube.com/@cosmostationio 
+- https://www.youtube.com/@cosmostationio
 redirect_from: 
 developerName: Stamper
 builds: 

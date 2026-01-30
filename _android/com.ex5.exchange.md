@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-10-31
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://ex5.com
 repository: 

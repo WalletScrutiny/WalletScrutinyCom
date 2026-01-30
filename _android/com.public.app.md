@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-06
 updated: 2026-01-26
 version: 3.229.0
-stars: 4.3
-ratings: 
 reviews: 9324
 website: https://public.com
 repository: 

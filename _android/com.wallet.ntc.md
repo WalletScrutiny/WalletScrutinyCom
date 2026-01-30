@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-02
 updated: 2022-06-03
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.ntcrypto.net
 repository: 

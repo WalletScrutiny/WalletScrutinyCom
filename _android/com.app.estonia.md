@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-18
 updated: 2022-12-04
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitayglobal.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-28
 version: 1.2.9.2
-stars: 
-ratings: 
 reviews: 
 website: https://cheezeebit.com/
 repository: 

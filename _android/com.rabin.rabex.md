@@ -10,8 +10,6 @@ appCountry:
 released: 2023-02-19
 updated: 2026-01-05
 version: 2.7.0-Rabex
-stars: 4.3
-ratings: 
 reviews: 10
 website: https://rabex.ir
 repository: 

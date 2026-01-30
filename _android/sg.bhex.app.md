@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-02-09
 version: 1.2.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.bhex.sg
 repository: 

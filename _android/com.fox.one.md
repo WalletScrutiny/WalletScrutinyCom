@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-07-15
 updated: 2021-01-08
 version: 2.14.1
-stars: 4.8
-ratings: 114
 reviews: 90
 website: https://www.fox.one/#/
 repository: 

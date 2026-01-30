@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-06
 updated: 2024-11-05
 version: 2.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://myguardian.network/
 repository: 

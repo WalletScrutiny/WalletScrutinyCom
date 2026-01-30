@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-27
 updated: 2022-09-14
 version: 1.1.0
-stars: 3.9
-ratings: 43
 reviews: 23
 website: https://www.guapcoin.org
 repository: 

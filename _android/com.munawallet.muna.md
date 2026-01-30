@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-28
 updated: 2023-11-03
 version: 3.0.0
-stars: 4.4
-ratings: 
 reviews: 14
 website: https://muna.app
 repository: 

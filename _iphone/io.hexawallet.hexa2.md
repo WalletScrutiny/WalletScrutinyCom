@@ -10,7 +10,6 @@ idd: 1586334138
 released: 2021-11-01
 updated: 2025-01-20
 version: 2.4.8
-stars: 5
 reviews: 9
 website: https://hexawallet.io/
 repository: https://github.com/bithyve/hexa

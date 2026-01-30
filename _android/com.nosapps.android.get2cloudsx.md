@@ -10,8 +10,6 @@ appCountry:
 released: 2020-08-12
 updated: 2023-08-15
 version: 1.1.603
-stars: 3.3
-ratings: 
 reviews: 3
 website: https://get2coin.com
 repository: 

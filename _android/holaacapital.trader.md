@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-13
 updated: 2023-04-04
 version: 2.3.40
-stars: 
-ratings: 
 reviews: 
 website: https://www.holacapital.ae
 repository: 

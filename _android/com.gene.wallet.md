@@ -10,8 +10,6 @@ appCountry:
 released: 2018-03-06
 updated: 2019-02-08
 version: 1.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://parkgene.io
 repository: 

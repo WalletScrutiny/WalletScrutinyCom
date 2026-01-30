@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-11
 updated: 2022-06-11
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://swapcrypto.ca/
 repository: 

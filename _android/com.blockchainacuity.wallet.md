@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-01
 updated: 2018-08-01
 version: '5.37'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

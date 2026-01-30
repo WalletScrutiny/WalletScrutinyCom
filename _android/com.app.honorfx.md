@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-22
 updated: 2021-10-09
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://honorfx.com/
 repository: 

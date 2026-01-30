@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-06
 updated: 2019-10-06
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: http://bitcoin-hubs.com
 repository: 

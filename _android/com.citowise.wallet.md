@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2019-12-25
 version: '1.355'
-stars: 4.2
-ratings: 656
 reviews: 525
 website: https://www.citowise.com
 repository: 

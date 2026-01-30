@@ -10,7 +10,6 @@ idd: '1481024258'
 released: 2019-11-08
 updated: 2024-01-23
 version: 4.7.0
-stars: 3.9
 reviews: 167
 website: https://xbank.plus/
 repository: 

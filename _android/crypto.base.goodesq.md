@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-06
 updated: 2019-06-06
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://goodesq.com/
 repository: 

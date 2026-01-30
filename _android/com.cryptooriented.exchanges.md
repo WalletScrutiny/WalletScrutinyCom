@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-10
 updated: 2022-01-10
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://cryptooriented.com
 repository: 

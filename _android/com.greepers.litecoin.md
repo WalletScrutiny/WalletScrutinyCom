@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-03
 updated: 2021-11-01
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://24litecoin.co.ua
 repository: 

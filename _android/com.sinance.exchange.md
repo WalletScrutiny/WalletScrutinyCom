@@ -10,8 +10,6 @@ appCountry:
 released: 2021-01-07
 updated: 2022-07-06
 version: 1.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.sinance.net
 repository: 

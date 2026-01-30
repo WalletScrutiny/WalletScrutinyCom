@@ -10,8 +10,6 @@ appCountry:
 released: 2018-06-23
 updated: 2026-01-26
 version: '3.20'
-stars: 4.5
-ratings: 
 reviews: 2
 website: https://www.e-pocketexchange.com/
 repository: 

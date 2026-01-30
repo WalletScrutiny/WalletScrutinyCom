@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-17
 updated: 2022-04-17
 version: '1.1'
-stars: 2.9
-ratings: 
 reviews: 
 website: https://hermesus.com
 repository: 

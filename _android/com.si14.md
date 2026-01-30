@@ -10,8 +10,6 @@ appCountry:
 released: 2025-05-05
 updated: 2025-10-09
 version: 1.2.5
-stars: 
-ratings: 
 reviews: 
 website: https://si14cw.com
 repository: 

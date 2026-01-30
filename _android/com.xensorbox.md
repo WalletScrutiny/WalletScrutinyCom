@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-27
 updated: 2019-12-02
 version: 1.3.6
-stars: 
-ratings: 
 reviews: 
 website: https://xensor.cc
 repository: 

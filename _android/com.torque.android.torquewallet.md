@@ -10,8 +10,6 @@ appCountry:
 released: 2019-12-11
 updated: 2021-02-03
 version: 1.1.15
-stars: 4.2
-ratings: 
 reviews: 13
 website: https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
 repository: 

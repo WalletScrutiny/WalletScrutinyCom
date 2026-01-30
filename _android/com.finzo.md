@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-08
 updated: 2021-01-25
 version: '1.3'
-stars: 4.2
-ratings: 76
 reviews: 66
 website: https://finzomarkets.com/
 repository: 

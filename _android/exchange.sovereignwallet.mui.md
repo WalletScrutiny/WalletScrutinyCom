@@ -10,8 +10,6 @@ appCountry: kr
 released: 2018-06-25
 updated: 2021-03-10
 version: 1.18.0
-stars: 4.2
-ratings: 74
 reviews: 33
 website: https://sovereignwallet.network/
 repository: 

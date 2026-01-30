@@ -10,8 +10,6 @@ appCountry:
 released: 2018-08-03
 updated: 2019-05-08
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bithesap.com
 repository: 

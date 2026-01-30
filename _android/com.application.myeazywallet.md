@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-01
 updated: 2022-10-10
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://myeazywallet.com/
 repository: 

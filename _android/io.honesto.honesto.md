@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-10-23
 version: 2.0.79
-stars: 4.4
-ratings: 
 reviews: 
 website: https://www.honesto.swiss/
 repository: 

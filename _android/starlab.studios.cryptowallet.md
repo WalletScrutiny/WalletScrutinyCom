@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-01
 updated: 2024-01-30
 version: '10.0'
-stars: 
-ratings: 
 reviews: 
 website: https://starlabstudiosapps.xyz/
 repository: 

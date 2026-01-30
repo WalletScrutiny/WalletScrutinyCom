@@ -10,7 +10,6 @@ idd: '6447361908'
 released: 2025-04-25
 updated: 2025-10-07
 version: 1.0.34
-stars: 4.8
 reviews: 19
 website: https://verus.io
 repository: https://github.com/VerusCoin/Verus-Mobile

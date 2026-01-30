@@ -10,8 +10,6 @@ appCountry:
 released: 2025-04-21
 updated: 2026-01-14
 version: 1.2.2
-stars: 4.2
-ratings: 
 reviews: 8
 website: https://www.quidax.io/
 repository: 

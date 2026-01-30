@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-03
 updated: 2026-01-26
 version: 1.33.0
-stars: 3.9
-ratings: 
 reviews: 9
 website: https://www.payperless.com
 repository: 

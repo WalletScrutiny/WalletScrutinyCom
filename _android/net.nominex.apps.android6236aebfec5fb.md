@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-20
 updated: 2022-03-20
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://nominex.io/?r=90687
 repository: 

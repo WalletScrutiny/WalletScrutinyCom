@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-20
 updated: 2019-09-27
 version: Beta1.0.7
-stars: 
-ratings: 
 reviews: 
 website: http://anypocket.io
 repository: 

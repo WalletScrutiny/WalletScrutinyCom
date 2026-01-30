@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2026-01-28
 version: 1.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://mercadobitcoin.pt/
 repository: 

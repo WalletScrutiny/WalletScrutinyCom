@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-24
 updated: 2019-06-25
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.viktraders.com
 repository: 

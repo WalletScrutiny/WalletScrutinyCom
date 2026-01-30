@@ -10,7 +10,6 @@ idd: '1637850589'
 released: 2022-09-13
 updated: 2023-12-03
 version: '8.7'
-stars: 4.3
 reviews: 20
 website: https://catecoin.club
 repository: 

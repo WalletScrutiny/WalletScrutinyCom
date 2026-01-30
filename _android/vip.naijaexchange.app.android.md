@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-09
 updated: 2021-09-14
 version: 1.0.1
-stars: 4.7
-ratings: 
 reviews: 
 website: https://naijaexchange.vip
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-02
 updated: 2022-09-02
 version: 1.1.1
-stars: 1.8
-ratings: 
 reviews: 11
 website: https://safecryptwallet.com
 repository: 

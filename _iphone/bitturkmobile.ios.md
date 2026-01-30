@@ -10,7 +10,6 @@ idd: '1455361684'
 released: 2019-03-12
 updated: 2022-02-01
 version: '2.0'
-stars: 4.9
 reviews: 30
 website: https://bitturk.com
 repository: 

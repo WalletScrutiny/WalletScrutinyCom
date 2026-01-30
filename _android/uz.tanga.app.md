@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-09-17
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://tanga.uz/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-13
 updated: 2022-01-13
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://q7trades.com
 repository: 

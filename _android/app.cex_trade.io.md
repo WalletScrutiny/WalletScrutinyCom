@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-10
 updated: 2022-07-10
 version: '1.1'
-stars: 4.4
-ratings: 
 reviews: 7
 website: https://cex-trade.io
 repository: 

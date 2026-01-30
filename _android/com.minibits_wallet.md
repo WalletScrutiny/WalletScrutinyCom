@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-12-19
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.minibits.cash
 repository: 

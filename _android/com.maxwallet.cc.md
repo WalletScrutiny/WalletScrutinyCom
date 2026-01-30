@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-11-20
 version: 1.0.17
-stars: 
-ratings: 
 reviews: 
 website: https://maxwallet.cc/contact-us
 repository: 

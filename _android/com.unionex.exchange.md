@@ -9,8 +9,6 @@ appCountry:
 released: 2025-08-27
 updated: 2026-01-15
 version: 1.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://unionex.com/
 repository: 

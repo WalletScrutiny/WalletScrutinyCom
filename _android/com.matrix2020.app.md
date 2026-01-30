@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-24
 updated: 2022-04-27
 version: 1.6.0
-stars: 
-ratings: 
 reviews: 
 website: https://matrix2020.com
 repository: 

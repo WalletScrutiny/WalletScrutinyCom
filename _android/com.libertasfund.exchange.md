@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-27
 updated: 2022-03-24
 version: '2.4'
-stars: 
-ratings: 
 reviews: 
 website: https://www.libertas-fund.com/
 repository: 

@@ -10,7 +10,6 @@ idd: '1634643482'
 released: 2022-09-30
 updated: 2026-01-22
 version: '2.22'
-stars: 5
 reviews: 1
 website: https://global.bitexen.com
 repository: 

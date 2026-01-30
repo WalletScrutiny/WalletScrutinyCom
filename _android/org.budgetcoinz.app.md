@@ -9,8 +9,6 @@ appCountry:
 released: 2024-02-29
 updated: 2025-12-25
 version: 1.8.0
-stars: 
-ratings: 
 reviews: 
 website: https://budgetcoinz.com
 repository: 

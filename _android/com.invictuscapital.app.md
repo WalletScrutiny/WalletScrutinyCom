@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-03-28
 version: 1.0.9
-stars: 
-ratings: 
 reviews: 
 website: https://invictuscapital.com
 repository: 

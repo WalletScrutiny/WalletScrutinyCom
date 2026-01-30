@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-09
 updated: 2019-07-17
 version: 1.0.0.57
-stars: 
-ratings: 
 reviews: 
 website: https://www.quickx.io
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2021-04-14
 updated: 2021-06-28
 version: '16'
-stars: 4.3
-ratings: 26
 reviews: 15
 website: https://cglobank.com/
 repository: 

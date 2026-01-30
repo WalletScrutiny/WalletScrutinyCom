@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-10-14
 updated: 2024-03-05
 version: 3.12.48
-stars: 
-ratings: 
 reviews: 
 website: https://blockchainwebservices.com.br
 repository: 

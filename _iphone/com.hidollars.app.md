@@ -10,7 +10,6 @@ idd: '1583215766'
 released: 2021-10-06
 updated: 2024-10-28
 version: 2.19.0
-stars: 3.8
 reviews: 278
 website: https://hi.com/
 repository: 

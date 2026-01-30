@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-13
 updated: 2024-10-07
 version: 4.10.4.7877 (2024.09.20)
-stars: 4.7
-ratings: 
 reviews: 26
 website: https://www.free2ex.com
 repository: 

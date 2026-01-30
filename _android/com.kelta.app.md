@@ -10,8 +10,6 @@ appCountry: sk
 released: 2018-05-15
 updated: 2022-07-29
 version: 3.1.2
-stars: 2.9
-ratings: 1251
 reviews: 1102
 website: https://kelta.com/
 repository: 

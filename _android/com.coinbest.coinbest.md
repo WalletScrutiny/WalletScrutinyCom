@@ -10,8 +10,6 @@ appCountry:
 released: 2021-05-17
 updated: 2026-01-16
 version: 4.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://osl.com/jp
 repository: 

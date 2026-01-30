@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-14
 updated: 2021-06-19
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://a1in1.com
 repository: 

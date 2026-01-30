@@ -10,7 +10,6 @@ idd: '6446314571'
 released: 2023-05-29
 updated: 2025-02-28
 version: 2.3.0
-stars: 0
 reviews: 0
 website: https://defexa.io/wallet
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-10
 updated: 2020-06-19
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://ecointrust.com
 repository: 

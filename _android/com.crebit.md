@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-23
 updated: 2019-06-24
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://crebit.io/
 repository: 

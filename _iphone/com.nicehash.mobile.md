@@ -10,7 +10,6 @@ idd: '1372054956'
 released: 2020-04-29
 updated: 2025-12-19
 version: 7.0.1
-stars: 4.5
 reviews: 4536
 website: https://www.nicehash.com/
 repository: 

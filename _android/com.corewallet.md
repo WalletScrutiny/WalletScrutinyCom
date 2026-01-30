@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-01
 updated: 2023-02-01
 version: 1.0.0
-stars: 4.6
-ratings: 
 reviews: 1
 website: https://wallet.coremultichain.com/
 repository: 

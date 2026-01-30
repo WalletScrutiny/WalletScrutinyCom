@@ -10,8 +10,6 @@ appCountry:
 released: 2018-07-09
 updated: 2021-04-29
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.algowave.io
 repository: 

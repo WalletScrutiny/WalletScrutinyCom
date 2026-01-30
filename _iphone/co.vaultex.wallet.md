@@ -10,7 +10,6 @@ idd: '6502616569'
 released: 2024-08-09
 updated: 2024-08-14
 version: '1.1'
-stars: 0
 reviews: 0
 website: https://vaultex.co
 repository: 

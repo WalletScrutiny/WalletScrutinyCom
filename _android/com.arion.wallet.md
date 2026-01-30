@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-10
 updated: 2019-10-10
 version: v1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.arioncoin.com
 repository: 

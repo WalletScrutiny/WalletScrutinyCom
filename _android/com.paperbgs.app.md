@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-04
 updated: 2021-02-04
 version: '1.9'
-stars: 
-ratings: 
 reviews: 
 website: https://paperbgs.com/
 repository: 

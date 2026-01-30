@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-05-14
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://twenty-two.xyz/
 repository: 

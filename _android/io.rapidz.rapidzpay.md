@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-21
 updated: 2026-01-23
 version: 4.4.2
-stars: 3.6
-ratings: 
 reviews: 6
 website: https://www.rapidz.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-19
 updated: 2021-05-19
 version: '1.11'
-stars: 
-ratings: 
 reviews: 
 website: http://appswedo.com
 repository: 

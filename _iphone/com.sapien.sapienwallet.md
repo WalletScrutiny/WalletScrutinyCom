@@ -10,7 +10,6 @@ idd: 1529912521
 released: 2021-06-21
 updated: 2024-03-15
 version: '1.27'
-stars: 5
 reviews: 2
 website: https://sapienwallet.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-05
 updated: 2026-01-20
 version: 1.0.164
-stars: 4.3
-ratings: 
 reviews: 10
 website: https://www.digitra.com
 repository: 

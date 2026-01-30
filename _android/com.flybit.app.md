@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-02-04
 updated: 2025-12-31
 version: 1.34.01
-stars: 
-ratings: 
 reviews: 
 website: https://flybit.com
 repository: 

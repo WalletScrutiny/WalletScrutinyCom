@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-29
 updated: 2022-06-28
 version: 1.1.1
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: https://github.com/META-1-Official/litewallet-native

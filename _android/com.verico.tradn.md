@@ -10,8 +10,6 @@ appCountry:
 released: 2020-04-24
 updated: 2021-07-19
 version: 1.5.106
-stars: 
-ratings: 39
 reviews: 
 website: https://tradn.io/
 repository: 

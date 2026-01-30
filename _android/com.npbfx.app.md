@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-04
 updated: 2025-08-27
 version: 1.15.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.npbfx.com/
 repository: 

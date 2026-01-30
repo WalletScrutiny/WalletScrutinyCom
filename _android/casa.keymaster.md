@@ -11,8 +11,6 @@ appCountry:
 released: 2019-03-01
 updated: 2026-01-27
 version: 5.5.0
-stars: 4.7
-ratings: 204
 reviews: 28
 website: https://keys.casa
 repository: 

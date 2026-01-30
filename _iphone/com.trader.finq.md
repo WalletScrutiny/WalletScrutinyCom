@@ -10,7 +10,6 @@ idd: '1280873475'
 released: 2017-09-23
 updated: 2019-12-19
 version: '2.8'
-stars: 2.6
 reviews: 40
 website: http://www.finq.com
 repository: 

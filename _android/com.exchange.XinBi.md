@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-23
 updated: 2020-01-14
 version: 4.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://www.xinbipro.com/
 repository: 

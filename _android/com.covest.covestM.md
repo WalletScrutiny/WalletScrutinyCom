@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-03
 updated: 2025-10-16
 version: 2.1.0
-stars: 4.2
-ratings: 
 reviews: 
 website: https://covest.pro
 repository: 

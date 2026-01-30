@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-05-24
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://clusterwallet.com
 repository: 

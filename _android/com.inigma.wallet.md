@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-29
 updated: 2020-12-22
 version: 0.0.18
-stars: 
-ratings: 
 reviews: 
 website: https://www.inigmasys.com/
 repository: 

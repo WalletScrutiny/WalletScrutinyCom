@@ -11,8 +11,6 @@ appCountry:
 released: 2019-04-15
 updated: 2026-01-14
 version: 2.18.10
-stars: 2.6
-ratings: 
 reviews: 1
 website: http://dzengi.com
 repository: 

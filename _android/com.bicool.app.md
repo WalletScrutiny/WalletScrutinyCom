@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-11
 updated: 2022-07-28
 version: 1.2.8
-stars: 5
-ratings: 
 reviews: 125
 website: https://bicool.in/
 repository: 

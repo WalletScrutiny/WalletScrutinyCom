@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-20
 updated: 2025-09-09
 version: 6.5.4
-stars: 3.4
-ratings: 
 reviews: 
 website: https://centurioninvest.com/
 repository: 

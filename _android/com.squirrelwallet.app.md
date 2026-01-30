@@ -10,8 +10,6 @@ appCountry:
 released: 2025-06-26
 updated: 2025-09-08
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://squirrel-wallet.gitbook.io
 repository: 

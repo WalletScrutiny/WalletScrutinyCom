@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-15
 updated: 2022-04-25
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://nnn.am
 repository: 

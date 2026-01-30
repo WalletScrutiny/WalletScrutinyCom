@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-22
 updated: 2025-03-19
 version: 2.2.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.secuxtech.com
 repository: 

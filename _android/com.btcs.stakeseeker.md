@@ -9,8 +9,6 @@ appCountry:
 released: 2023-03-10
 updated: 2023-03-31
 version: '1.7'
-stars: 
-ratings: 
 reviews: 
 website: https://stakeseeker.com/
 repository: 

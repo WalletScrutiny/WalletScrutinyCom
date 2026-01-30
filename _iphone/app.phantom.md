@@ -10,7 +10,6 @@ idd: '1598432977'
 released: 2022-01-30
 updated: 2026-01-27
 version: 26.2.1
-stars: 4.8
 reviews: 51978
 website: https://phantom.com
 repository: 

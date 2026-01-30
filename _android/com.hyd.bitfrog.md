@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-31
 updated: 2023-03-17
 version: 2.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitfrog.io
 repository: 

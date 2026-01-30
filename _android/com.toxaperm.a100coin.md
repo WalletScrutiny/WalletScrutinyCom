@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-20
 updated: 2019-08-20
 version: '1.0'
-stars: 3.8
-ratings: 
 reviews: 
 website: https://100coin.ru
 repository: 

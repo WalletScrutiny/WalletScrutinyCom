@@ -10,7 +10,6 @@ idd: 1397735851
 released: 2018-08-25
 updated: 2022-05-26
 version: 2022.05.25
-stars: 4.9
 reviews: 713
 website: https://www.digifinex.com
 repository: 

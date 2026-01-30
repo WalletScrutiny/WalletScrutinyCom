@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-29
 updated: 2021-02-26
 version: '2.4'
-stars: 
-ratings: 
 reviews: 
 website: https://fourssh.org/
 repository: 

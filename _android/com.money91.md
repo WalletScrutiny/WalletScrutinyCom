@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-12
 updated: 2024-08-26
 version: 3.2.20-Rovi Trading-rovi-genesis-month-
-stars: 4.6
-ratings: 
 reviews: 136
 website: 
 repository: 

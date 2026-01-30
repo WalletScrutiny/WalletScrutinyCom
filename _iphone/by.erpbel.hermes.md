@@ -10,7 +10,6 @@ idd: '1629900361'
 released: 2023-04-17
 updated: 2025-09-24
 version: 2.10.1
-stars: 2
 reviews: 87
 website: https://bynex.io/en
 repository: 

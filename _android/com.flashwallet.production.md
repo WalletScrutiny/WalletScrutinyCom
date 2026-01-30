@@ -10,8 +10,6 @@ appCountry:
 released: 2023-10-23
 updated: 2025-10-31
 version: '31.0'
-stars: 
-ratings: 
 reviews: 
 website: https://flash-wallet.com/
 repository: 

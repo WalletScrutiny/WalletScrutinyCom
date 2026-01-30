@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-07
 updated: 2020-07-19
 version: '6771'
-stars: 
-ratings: 
 reviews: 
 website: http://www.ethegram.net
 repository: 

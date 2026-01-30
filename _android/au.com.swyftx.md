@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-13
 version: 2.8.34
-stars: 
-ratings: 
 reviews: 
 website: https://swyftx.com/
 repository: 

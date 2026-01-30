@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-08-18
 updated: 2021-12-23
 version: 1.0.6
-stars: 4.6
-ratings: 76
 reviews: 4
 website: http://www.umifi.com
 repository: 

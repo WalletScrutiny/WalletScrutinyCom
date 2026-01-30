@@ -10,8 +10,6 @@ appCountry:
 released: 2018-06-07
 updated: 2019-10-04
 version: 6.4.13
-stars: 
-ratings: 
 reviews: 
 website: http://vspark.co
 repository: 

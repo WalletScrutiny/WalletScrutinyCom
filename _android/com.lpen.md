@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-01
 updated: 2022-04-15
 version: 1.0.1260
-stars: 
-ratings: 
 reviews: 
 website: https://lpenwallet.com/
 repository: 

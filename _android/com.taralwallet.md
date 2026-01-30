@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-22
 updated: 2024-12-19
 version: 13.5.0
-stars: 3
-ratings: 
 reviews: 4
 website: https://tarality.com
 repository: 

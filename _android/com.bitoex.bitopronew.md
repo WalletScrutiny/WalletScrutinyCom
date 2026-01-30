@@ -10,8 +10,6 @@ appCountry:
 released: 2023-08-08
 updated: 2026-01-13
 version: 1.50.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitopro.com
 repository: 

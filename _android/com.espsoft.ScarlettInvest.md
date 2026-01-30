@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-25
 updated: 2022-03-07
 version: '1.20'
-stars: 5
-ratings: 
 reviews: 
 website: https://scarlettglobal.io
 repository: 

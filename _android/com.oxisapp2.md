@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-17
 updated: 2021-06-24
 version: 4.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.oxis.com
 repository: 

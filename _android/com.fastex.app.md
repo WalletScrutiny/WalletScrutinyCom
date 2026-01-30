@@ -10,8 +10,6 @@ appCountry:
 released: 2023-10-07
 updated: 2025-10-07
 version: 1.42.2
-stars: 4
-ratings: 
 reviews: 12
 website: https://www.fastex.com/
 repository: 

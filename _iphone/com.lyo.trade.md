@@ -10,7 +10,6 @@ idd: '1624895730'
 released: 2022-07-05
 updated: 2023-03-14
 version: 1.8.0
-stars: 0
 reviews: 0
 website: https://www.lyotrade.com/
 repository: 

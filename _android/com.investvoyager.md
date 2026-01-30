@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-25
 updated: 2023-07-13
 version: 4.0.0
-stars: 3.4
-ratings: 26380
 reviews: 8249
 website: https://www.investvoyager.com/
 repository: 

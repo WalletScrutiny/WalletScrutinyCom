@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-05
 updated: 2021-03-05
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://bisnis188.tech/
 repository: 

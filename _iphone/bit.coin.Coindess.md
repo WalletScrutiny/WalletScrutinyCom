@@ -10,7 +10,6 @@ idd: '1316631103'
 released: 2017-11-29
 updated: 2022-12-12
 version: 2.17.7
-stars: 5
 reviews: 2
 website: https://www.fiahub.com
 repository: 

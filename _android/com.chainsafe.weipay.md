@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-02-18
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://chainsafe.io
 repository: https://github.com/ChainSafe/WeiPay

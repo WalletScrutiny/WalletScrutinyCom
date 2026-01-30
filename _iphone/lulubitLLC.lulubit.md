@@ -10,7 +10,6 @@ idd: '6444370380'
 released: 2023-04-17
 updated: 2025-11-11
 version: 1.38.0
-stars: 4.5
 reviews: 156
 website: https://lulubit.app
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-13
 updated: 2019-09-16
 version: 1.2.8
-stars: 
-ratings: 
 reviews: 
 website: http://www.cryptopocket.info/
 repository: 

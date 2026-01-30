@@ -10,7 +10,6 @@ idd: 1567857965
 released: 2021-06-03
 updated: 2024-07-22
 version: 1.4.0
-stars: 2.7
 reviews: 35
 website: https://keyst.one/
 repository: 

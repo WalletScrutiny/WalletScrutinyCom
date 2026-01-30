@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-09-08
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://nexdax.com
 repository: 

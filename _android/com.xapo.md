@@ -10,8 +10,6 @@ appCountry:
 released: 2014-04-01
 updated: 2021-07-20
 version: '5.34'
-stars: 3.4
-ratings: 45937
 reviews: 21922
 website: https://xapo.com
 repository: 

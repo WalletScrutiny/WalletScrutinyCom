@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-16
 updated: 2021-09-16
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.swiftxchange.com.ng
 repository: 

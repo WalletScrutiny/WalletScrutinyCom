@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-10
 updated: 2020-05-14
 version: '1.2'
-stars: 4
-ratings: 
 reviews: 3
 website: http://foxmedia.ag
 repository: 

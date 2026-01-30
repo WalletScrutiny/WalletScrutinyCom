@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-07
 updated: 2026-01-21
 version: 3.16.1
-stars: 3.5
-ratings: 
 reviews: 17
 website: https://www.bitpanda.com
 repository: 

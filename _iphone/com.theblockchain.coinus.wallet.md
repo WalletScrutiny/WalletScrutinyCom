@@ -10,7 +10,6 @@ idd: 1367339746
 released: 2018-04-24
 updated: 2022-01-03
 version: 2.9.0
-stars: 0
 reviews: 0
 website: https://www.coinus.io/
 repository: 

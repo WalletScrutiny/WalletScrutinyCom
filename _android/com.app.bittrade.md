@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-28
 updated: 2022-03-01
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bittrade.biz/
 repository: 

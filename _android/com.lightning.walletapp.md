@@ -10,8 +10,6 @@ appCountry:
 released: 2018-05-01
 updated: 2021-03-13
 version: 0.4.8
-stars: 4.2
-ratings: 368
 reviews: 61
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet

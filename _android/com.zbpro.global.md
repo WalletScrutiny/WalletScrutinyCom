@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-30
 updated: 2022-10-30
 version: 1.4.0.1582
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

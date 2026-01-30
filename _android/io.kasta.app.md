@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-07-03
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.kasta.io/
 repository: 

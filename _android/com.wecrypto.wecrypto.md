@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-12
 updated: 2018-01-12
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://wecrypto.net
 repository: 

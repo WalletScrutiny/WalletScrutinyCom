@@ -9,8 +9,6 @@ appCountry:
 released: 2023-03-10
 updated: 2023-03-11
 version: 1.0.0.0
-stars: 3.2
-ratings: 
 reviews: 8
 website: https://localcoinswap.com
 repository: 

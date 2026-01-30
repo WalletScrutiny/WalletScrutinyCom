@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-20
 updated: 2023-06-17
 version: 1.0.17
-stars: 
-ratings: 
 reviews: 
 website: https://www.lemoon.cash/
 repository: 

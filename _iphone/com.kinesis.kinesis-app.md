@@ -10,7 +10,6 @@ idd: 1490483608
 released: 2020-02-28
 updated: 2025-12-15
 version: 2.14.0
-stars: 3.8
 reviews: 10
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile

@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-06-13
 updated: 2021-03-27
 version: 3.4.1
-stars: 3.2
-ratings: 73
 reviews: 47
 website: https://www.bidesk.com/
 repository: 

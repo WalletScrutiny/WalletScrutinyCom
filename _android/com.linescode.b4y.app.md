@@ -9,8 +9,6 @@ appCountry:
 released: 2018-11-02
 updated: 2019-10-04
 version: 1.0.22
-stars: 
-ratings: 
 reviews: 
 website: https://www.bank4you.life
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-01
 updated: 2023-05-19
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://ferrari-pay.com
 repository: 

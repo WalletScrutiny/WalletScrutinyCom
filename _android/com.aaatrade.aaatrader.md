@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-09-22
 version: 1.1.10
-stars: 4.6
-ratings: 
 reviews: 
 website: https://www.aaatrade.com
 repository: 

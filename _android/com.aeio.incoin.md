@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-17
 updated: 2021-05-14
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

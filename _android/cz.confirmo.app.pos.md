@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-08-21
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://confirmo.net
 repository: 

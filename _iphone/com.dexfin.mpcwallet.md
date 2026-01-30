@@ -10,7 +10,6 @@ idd: '1626267442'
 released: 2023-03-07
 updated: 2023-03-29
 version: 1.0.2
-stars: 2.3
 reviews: 3
 website: https://dexfin.com
 repository: 

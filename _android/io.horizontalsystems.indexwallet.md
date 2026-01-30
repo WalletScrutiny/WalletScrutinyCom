@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-13
 updated: 2020-07-15
 version: 0.16.1
-stars: 
-ratings: 
 reviews: 
 website: https://indexchain.org
 repository: 

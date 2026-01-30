@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-24
 updated: 2022-01-28
 version: 2.2.11
-stars: 4.5
-ratings: 255
 reviews: 213
 website: https://www.hashcashconsultants.com
 repository: 

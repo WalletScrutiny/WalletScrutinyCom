@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-10
 updated: 2025-08-16
 version: 0.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://saymatik.com
 repository: 

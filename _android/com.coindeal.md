@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-04
 updated: 2020-08-18
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://coindeal.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-09
 updated: 2021-04-12
 version: '1.28'
-stars: 4.5
-ratings: 1809
 reviews: 1287
 website: https://bitshieldwallet.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-16
 updated: 2023-07-01
 version: 2.1.0
-stars: 4.3
-ratings: 
 reviews: 45
 website: https://catecoin.club
 repository: 

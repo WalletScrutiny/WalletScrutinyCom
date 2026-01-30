@@ -10,7 +10,6 @@ idd: '1327335329'
 released: 2018-01-03
 updated: 2026-01-13
 version: 3.57.7
-stars: 4.6
 reviews: 19007
 website: http://www.kinvo.com.br
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2023-07-25
 updated: 2024-03-19
 version: 1.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://quasark.io/
 repository: 

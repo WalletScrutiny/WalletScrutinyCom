@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-11-03
 version: 2.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://cryptonow.ch
 repository: 

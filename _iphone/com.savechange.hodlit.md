@@ -10,7 +10,6 @@ idd: '1436264962'
 released: 2020-07-22
 updated: 2020-11-16
 version: 1.0.12
-stars: 2.8
 reviews: 37
 website: https://hodlit.com
 repository: 

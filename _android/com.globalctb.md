@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-04-07
 version: 0.6.3
-stars: 
-ratings: 
 reviews: 
 website: http://globalctb.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-01
 updated: 2020-06-10
 version: '2.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.zakzak.me
 repository: 

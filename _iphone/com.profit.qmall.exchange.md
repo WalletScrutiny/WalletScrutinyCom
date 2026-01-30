@@ -10,7 +10,6 @@ idd: '1600467380'
 released: 2021-12-21
 updated: 2024-08-01
 version: 1.1.59
-stars: 3.7
 reviews: 9
 website: https://qmall.io/
 repository: 

@@ -10,7 +10,6 @@ idd: 1363753409
 released: 2018-08-15
 updated: 2025-07-21
 version: '8.4'
-stars: 0
 reviews: 0
 website: https://www.bcpmarkets.co.uk/
 repository: 

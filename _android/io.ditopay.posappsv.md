@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-03
 updated: 2024-03-07
 version: '1.31'
-stars: 
-ratings: 
 reviews: 
 website: https://ditobanx.com
 repository: 

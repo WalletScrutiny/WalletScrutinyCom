@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-09-21
 updated: 2026-01-17
 version: 3.5.5
-stars: 4.6
-ratings: 2656
 reviews: 238
 website: https://www.ambr.io/global
 repository: 

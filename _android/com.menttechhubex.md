@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-01
 updated: 2020-06-04
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://exchange.e-dome.net/trading/ltcbtc
 repository: 

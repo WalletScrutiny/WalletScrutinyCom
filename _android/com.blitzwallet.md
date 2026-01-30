@@ -10,8 +10,6 @@ appCountry:
 released: 2025-09-29
 updated: 2026-01-19
 version: 0.7.4
-stars: 
-ratings: 
 reviews: 
 website: https://blitzwalletapp.com/
 repository: https://github.com/BlitzWallet/BlitzWallet

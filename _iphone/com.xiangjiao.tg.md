@@ -10,7 +10,6 @@ idd: '1491126681'
 released: 2019-12-23
 updated: 2022-09-02
 version: 4.3.0
-stars: 4.1
 reviews: 264
 website: http://bananatok.com
 repository: 

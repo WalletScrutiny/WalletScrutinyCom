@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-17
 updated: 2022-10-12
 version: '35.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitandpay.com
 repository: 

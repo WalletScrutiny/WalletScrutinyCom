@@ -10,8 +10,6 @@ appCountry:
 released: 2025-10-03
 updated: 2025-12-24
 version: 0.7.33
-stars: 
-ratings: 
 reviews: 
 website: https://rayyo.mx
 repository: 

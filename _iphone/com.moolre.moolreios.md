@@ -10,7 +10,6 @@ idd: '1439855151'
 released: 2018-11-20
 updated: 2024-06-21
 version: 3.5.0
-stars: 2.9
 reviews: 26
 website: https://moolre.com
 repository: 

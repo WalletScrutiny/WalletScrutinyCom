@@ -10,8 +10,6 @@ appCountry:
 released: 2017-09-26
 updated: 2026-01-26
 version: 3.7.5
-stars: 3.1
-ratings: 25850
 reviews: 73
 website: http://www.bithumb.com/
 repository: 

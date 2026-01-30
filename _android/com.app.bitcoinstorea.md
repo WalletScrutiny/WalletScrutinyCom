@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-01
 updated: 2021-08-01
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://t91a3kzq.app-adstxt.dev/app-ads.txt
 repository: 

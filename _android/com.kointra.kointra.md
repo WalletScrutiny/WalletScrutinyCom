@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-25
 updated: 2025-11-11
 version: 3.5.5
-stars: 3.4
-ratings: 
 reviews: 
 website: http://www.kointra.com
 repository: 

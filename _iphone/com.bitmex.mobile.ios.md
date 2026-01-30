@@ -10,7 +10,6 @@ idd: 1377855125
 released: 2020-08-26
 updated: 2022-01-10
 version: 1.1.13
-stars: 
 reviews: 
 website: https://BitMEX.com/mobile
 repository: 

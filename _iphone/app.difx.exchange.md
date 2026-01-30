@@ -10,7 +10,6 @@ idd: '1588944811'
 released: 2021-10-10
 updated: 2024-05-14
 version: 5.1.3
-stars: 0
 reviews: 0
 website: https://difx.com
 repository: 

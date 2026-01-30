@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-28
 updated: 2024-01-26
 version: 3.5.21
-stars: 3.1
-ratings: 
 reviews: 14
 website: https://moolre.com
 repository: 

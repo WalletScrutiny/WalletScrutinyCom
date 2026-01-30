@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-12-19
 updated: 2022-08-02
 version: 1.2.2
-stars: 4.8
-ratings: 
 reviews: 
 website: https://www.c-trade.com/
 repository: 

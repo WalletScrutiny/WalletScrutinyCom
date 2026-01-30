@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2026-01-15
 version: 0.7.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.paypilot.org
 repository: 

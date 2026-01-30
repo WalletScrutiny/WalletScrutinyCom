@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-19
 updated: 2022-03-29
 version: '10.03'
-stars: 
-ratings: 
 reviews: 
 website: https://ajaxcash.com
 repository: 

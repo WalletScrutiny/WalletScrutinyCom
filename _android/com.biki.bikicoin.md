@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-05-13
 updated: 2021-07-21
 version: 4.9.1
-stars: 3.2
-ratings: 777
 reviews: 17
 website: https://www.biki.com
 repository: 

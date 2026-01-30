@@ -10,8 +10,6 @@ appCountry: ph
 released: 2019-02-02
 updated: 2021-09-09
 version: 1.4.3.210909
-stars: 4.6
-ratings: 7187
 reviews: 1302
 website: https://www.bytetrade.io/
 repository: 

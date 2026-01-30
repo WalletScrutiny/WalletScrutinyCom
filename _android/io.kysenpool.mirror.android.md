@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-13
 updated: 2021-08-13
 version: 1.2.1
-stars: 4.4
-ratings: 119
 reviews: 44
 website: https://www.kysenpool.io/en/
 repository: 

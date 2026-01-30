@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-01
 updated: 2023-08-30
 version: 2.0.1
-stars: 4
-ratings: 
 reviews: 9
 website: https://gate.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2023-01-09
 updated: 2026-01-28
 version: '2.0'
-stars: 2.3
-ratings: 
 reviews: 
 website: https://www.intebix.kz
 repository: 

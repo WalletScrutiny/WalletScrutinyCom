@@ -10,7 +10,6 @@ idd: 1350234503
 released: 2018-03-02
 updated: 2026-01-23
 version: 16.0.2
-stars: 4.6
 reviews: 619
 website: https://www.dopamineapp.com/
 repository: 

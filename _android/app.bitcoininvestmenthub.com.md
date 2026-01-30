@@ -10,8 +10,6 @@ appCountry:
 released: 2020-05-04
 updated: 2020-05-04
 version: 1.0.0
-stars: 3.3
-ratings: 70
 reviews: 4
 website: https://bitcoininvestmenthub.com/
 repository: 

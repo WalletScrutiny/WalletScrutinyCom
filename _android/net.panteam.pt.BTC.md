@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-02-22
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/AdminPanteam/pt.BTC
 repository: 

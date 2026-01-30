@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-01-05
 version: 2.16.0
-stars: 3.3
-ratings: 
 reviews: 
 website: https://www.cryptex24.io
 repository: 

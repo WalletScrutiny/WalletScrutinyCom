@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-11
 updated: 2020-04-20
 version: 1.5.1
-stars: 
-ratings: 
 reviews: 
 website: https://fox.exchange
 repository: 

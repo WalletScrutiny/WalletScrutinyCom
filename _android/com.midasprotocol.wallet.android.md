@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-02
 updated: 2021-12-20
 version: 2.0.8.1
-stars: 4.3
-ratings: 450
 reviews: 25
 website: https://midasprotocol.io
 repository: 

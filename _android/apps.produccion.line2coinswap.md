@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-22
 updated: 2022-07-24
 version: 1.0.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://line2coin.com
 repository: 

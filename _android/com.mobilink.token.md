@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-26
 updated: 2019-08-17
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://mobilinktoken.com/
 repository: 

@@ -10,7 +10,6 @@ idd: '6446392999'
 released: 2024-01-12
 updated: 2025-12-15
 version: 5.21.0
-stars: 4.5
 reviews: 71
 website: https://www.m2.com/
 repository: 

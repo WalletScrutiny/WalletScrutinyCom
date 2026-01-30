@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-18
 updated: 2024-08-22
 version: 1.8.6
-stars: 4
-ratings: 
 reviews: 
 website: https://www.bitex.sg/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-07-24
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://address.services
 repository: 

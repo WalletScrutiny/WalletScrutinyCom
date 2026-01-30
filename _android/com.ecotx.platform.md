@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-10-04
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://ecotx.io
 repository: 

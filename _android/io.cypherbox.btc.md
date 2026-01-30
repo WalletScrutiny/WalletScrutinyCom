@@ -10,8 +10,6 @@ appCountry:
 released: 2025-01-17
 updated: 2025-04-09
 version: 0.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://cypherbox.io
 repository: https://github.com/Bamskki/Cypher-Box

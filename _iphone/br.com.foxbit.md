@@ -10,7 +10,6 @@ idd: '1435319194'
 released: 2019-03-24
 updated: 2026-01-21
 version: 3.35.1
-stars: 4.4
 reviews: 5524
 website: https://foxbit.com.br/negociar-criptoativos/
 repository: 

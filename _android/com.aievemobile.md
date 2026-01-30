@@ -9,8 +9,6 @@ appCountry:
 released: 2018-11-13
 updated: 2019-05-25
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://www.aieve.io/
 repository: 

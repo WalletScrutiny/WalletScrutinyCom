@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-26
 updated: 2026-01-22
 version: v0.23.0
-stars: 4.4
-ratings: 
 reviews: 4
 website: https://www.paytaca.com
 repository: 

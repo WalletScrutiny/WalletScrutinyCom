@@ -10,7 +10,6 @@ idd: '1669665032'
 released: 2023-10-02
 updated: 2025-03-16
 version: '1.46'
-stars: 4.8
 reviews: 32
 website: https://www.theya.us/
 repository: 

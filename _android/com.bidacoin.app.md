@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-08
 updated: 2022-08-02
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://bidacoin.io/#/
 repository: 

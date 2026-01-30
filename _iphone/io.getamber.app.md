@@ -10,7 +10,6 @@ idd: '1410639317'
 released: 2021-06-21
 updated: 2025-11-14
 version: 5.9.8
-stars: 4.5
 reviews: 283
 website: http://amber.app/
 repository: 

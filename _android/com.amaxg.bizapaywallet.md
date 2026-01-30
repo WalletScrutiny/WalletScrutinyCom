@@ -10,8 +10,6 @@ appCountry:
 released: 2025-01-13
 updated: 2025-01-16
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-03-23
 updated: 2024-08-21
 version: 2.5.13
-stars: 3.3
-ratings: 225
 reviews: 23
 website: https://poolin.fi/
 repository: 

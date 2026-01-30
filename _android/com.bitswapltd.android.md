@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-18
 updated: 2022-05-18
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitswapltd.com/
 repository: 

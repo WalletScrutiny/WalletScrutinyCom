@@ -10,7 +10,6 @@ idd: 1532850884
 released: 2020-10-21
 updated: 2023-02-14
 version: 2.5.2
-stars: 0
 reviews: 0
 website: https://www.forextb.com/
 repository: 

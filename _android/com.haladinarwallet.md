@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-04
 updated: 2019-09-23
 version: 1.0.13
-stars: 5
-ratings: 
 reviews: 4
 website: https://haladinar.io
 repository: 

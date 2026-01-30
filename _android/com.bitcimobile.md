@@ -10,8 +10,6 @@ appCountry:
 released: 2020-03-30
 updated: 2026-01-13
 version: 22.0.0
-stars: 2.3
-ratings: 
 reviews: 14
 website: https://www.safebit.com
 repository: 

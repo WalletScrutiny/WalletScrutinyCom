@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-02
 updated: 2020-12-02
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://goldenstanley.com/
 repository: 

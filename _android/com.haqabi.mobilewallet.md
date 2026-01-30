@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-07-16
 version: '1.21'
-stars: 
-ratings: 
 reviews: 
 website: https://haqabi.com
 repository: 

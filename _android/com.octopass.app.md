@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-09-26
 version: prod-1.17.0
-stars: 
-ratings: 
 reviews: 
 website: https://easycrypto.com/
 repository: 

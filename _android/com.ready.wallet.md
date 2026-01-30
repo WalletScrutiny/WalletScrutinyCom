@@ -9,8 +9,6 @@ appCountry:
 released: 2025-09-18
 updated: 2026-01-19
 version: 1.2.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.ready.co/ready-wallet
 repository: 

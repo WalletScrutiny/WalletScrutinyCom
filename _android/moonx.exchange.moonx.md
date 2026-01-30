@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-09
 updated: 2020-07-16
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://moonx.pro
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2021-05-16
 updated: 2026-01-25
 version: 3.5.88
-stars: 4
-ratings: 
 reviews: 5
 website: https://atx.com.vn/
 repository: 

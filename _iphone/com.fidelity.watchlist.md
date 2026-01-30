@@ -10,7 +10,6 @@ idd: '348177453'
 released: 2010-02-22
 updated: 2026-01-16
 version: '4.24'
-stars: 4.8
 reviews: 2970518
 website: http://www.fidelity.com
 repository: 

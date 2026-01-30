@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-08
 updated: 2024-02-24
 version: 3.2.3
-stars: 4.4
-ratings: 
 reviews: 
 website: https://koinwa.com/
 repository: 

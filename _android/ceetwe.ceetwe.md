@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-06
 updated: 2022-01-02
 version: '22.01'
-stars: 
-ratings: 
 reviews: 
 website: https://ceetwe.com
 repository: 

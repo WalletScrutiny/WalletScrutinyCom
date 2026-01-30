@@ -10,7 +10,6 @@ idd: '1549983870'
 released: 2021-02-09
 updated: 2025-09-16
 version: 3.4.0
-stars: 4.8
 reviews: 554
 website: https://wexopay.com/
 repository: 

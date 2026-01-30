@@ -10,8 +10,6 @@ appCountry:
 released: 2017-12-11
 updated: 2020-05-07
 version: '10.61'
-stars: 
-ratings: 
 reviews: 
 website: https://www.gbbit.com
 repository: 

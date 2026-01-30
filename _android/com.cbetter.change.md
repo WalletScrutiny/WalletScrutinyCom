@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-29
 updated: 2022-11-24
 version: 1.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinbetter.com
 repository: 

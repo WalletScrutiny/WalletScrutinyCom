@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-28
 updated: 2023-02-05
 version: 1.17.1
-stars: 
-ratings: 
 reviews: 
 website: https://freyawallet.com/
 repository: 

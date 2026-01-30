@@ -10,7 +10,6 @@ idd: 1455341917
 released: 2019-06-30
 updated: 2026-01-27
 version: 6.5.0
-stars: 4
 reviews: 1535
 website: https://nexo.com
 repository: 

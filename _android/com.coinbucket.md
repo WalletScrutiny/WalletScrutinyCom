@@ -9,8 +9,6 @@ appCountry:
 released: 2018-05-26
 updated: 2022-05-02
 version: PRODUCTION (v1580502023)
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

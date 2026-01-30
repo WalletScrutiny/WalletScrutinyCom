@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-23
 updated: 2019-10-24
 version: 0.0.3
-stars: 
-ratings: 
 reviews: 
 website: http://cryptseifu.com
 repository: 

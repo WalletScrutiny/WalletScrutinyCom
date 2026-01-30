@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-23
 updated: 2022-04-10
 version: 0.3.7
-stars: 4.6
-ratings: 
 reviews: 15
 website: https://wallet-markets.web.app
 repository: 

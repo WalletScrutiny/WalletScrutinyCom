@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-12
 updated: 2021-12-18
 version: 8.0.2
-stars: 3.9
-ratings: 
 reviews: 6
 website: https://skenas.app/
 repository: 

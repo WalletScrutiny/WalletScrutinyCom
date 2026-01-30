@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-29
 updated: 2025-09-10
 version: 3.4.10
-stars: 3.6
-ratings: 
 reviews: 13
 website: https://wexopay.com
 repository: 

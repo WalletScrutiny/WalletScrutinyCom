@@ -10,7 +10,6 @@ idd: 1570368673
 released: 2021-07-07
 updated: 2025-11-26
 version: 1.25.0
-stars: 3.9
 reviews: 18
 website: https://blog.naver.com/flybit
 repository: 

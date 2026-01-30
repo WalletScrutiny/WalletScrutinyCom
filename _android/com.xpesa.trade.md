@@ -10,8 +10,6 @@ appCountry:
 released: 2018-08-31
 updated: 2020-09-04
 version: 2.1.6
-stars: 
-ratings: 
 reviews: 
 website: https://xpesa.io/
 repository: 

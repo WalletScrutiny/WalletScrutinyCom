@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-19
 updated: 2025-07-07
 version: 2.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://coinplug.ng
 repository: 

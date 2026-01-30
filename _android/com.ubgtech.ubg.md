@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-27
 updated: 2021-11-01
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://ubgtech.my/
 repository: 

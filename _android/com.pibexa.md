@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-08-26
 version: 0.6.2
-stars: 
-ratings: 
 reviews: 
 website: https://pibexa.com/
 repository: 

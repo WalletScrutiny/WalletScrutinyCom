@@ -10,7 +10,6 @@ idd: '1593227237'
 released: 2022-03-02
 updated: 2023-08-01
 version: '5.0'
-stars: 3.8
 reviews: 61
 website: https://www.pillow.fund/
 repository: 

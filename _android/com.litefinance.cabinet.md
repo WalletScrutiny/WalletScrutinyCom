@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-09
 updated: 2025-12-26
 version: v2.1.2023-cabinet-release
-stars: 4.5
-ratings: 
 reviews: 82
 website: https://www.liteforex.eu
 repository: 

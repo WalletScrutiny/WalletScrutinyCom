@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-11
 updated: 2023-12-06
 version: 3.3.5
-stars: 4.4
-ratings: 
 reviews: 
 website: https://x4e4cd6f4.app-ads-txt.com
 repository: 

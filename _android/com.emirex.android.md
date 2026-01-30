@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-08
 updated: 2022-08-08
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://emirex.com/
 repository: 

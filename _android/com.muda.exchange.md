@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-04
 updated: 2023-12-06
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.muda.exchange
 repository: 

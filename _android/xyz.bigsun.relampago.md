@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-12-03
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://relampago.bigsun.xyz
 repository: 

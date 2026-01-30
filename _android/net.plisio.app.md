@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-27
 updated: 2022-02-02
 version: 1.3.9
-stars: 
-ratings: 
 reviews: 
 website: https://plisio.net
 repository: 

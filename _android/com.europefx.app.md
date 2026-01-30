@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-09-14
 version: '9.65'
-stars: 
-ratings: 
 reviews: 
 website: https://europefx.com
 repository: 

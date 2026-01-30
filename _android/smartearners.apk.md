@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-11
 updated: 2022-08-11
 version: '9.8'
-stars: 3.8
-ratings: 
 reviews: 
 website: https://teamsmartearners.com
 repository: 

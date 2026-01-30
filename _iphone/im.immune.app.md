@@ -10,7 +10,6 @@ idd: '1489335158'
 released: 2019-12-09
 updated: 2025-09-08
 version: 2.2.2
-stars: 5
 reviews: 4
 website: https://immune.im/
 repository: 

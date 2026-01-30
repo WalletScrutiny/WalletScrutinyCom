@@ -10,8 +10,6 @@ appCountry:
 released: 2020-01-03
 updated: 2026-01-26
 version: 1.28.5
-stars: 3.5
-ratings: 
 reviews: 6
 website: https://kanga.exchange
 repository: 

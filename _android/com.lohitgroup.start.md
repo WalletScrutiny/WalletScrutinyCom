@@ -10,8 +10,6 @@ appCountry:
 released: 2020-05-04
 updated: 2020-10-05
 version: 0.1.5
-stars: 
-ratings: 
 reviews: 
 website: http://lohitgroup.com/
 repository: 

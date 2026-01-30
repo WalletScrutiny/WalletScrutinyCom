@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-10
 updated: 2020-03-15
 version: 1.1.6
-stars: 
-ratings: 
 reviews: 
 website: https://home.star-bit.io
 repository: 

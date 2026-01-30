@@ -9,8 +9,6 @@ appCountry:
 released: 2025-05-14
 updated: 2025-07-30
 version: 1.2.6
-stars: 3.6
-ratings: 
 reviews: 2
 website: https://riv-technologies.com
 repository: 

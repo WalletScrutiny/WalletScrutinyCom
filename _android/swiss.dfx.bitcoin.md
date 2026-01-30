@@ -10,8 +10,6 @@ appCountry:
 released: 2023-09-25
 updated: 2025-07-23
 version: 2.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://dfx.swiss/
 repository: https://github.com/DFXswiss/btc-wallet

@@ -10,7 +10,6 @@ idd: '1505566186'
 released: 2020-04-16
 updated: 2021-12-18
 version: '4.0'
-stars: 5
 reviews: 1
 website: https://www.uzyth.com/
 repository: 

@@ -11,8 +11,6 @@ appCountry: us
 released: 2018-11-09
 updated: 2021-05-18
 version: 4.1.6
-stars: 3.6
-ratings: 777
 reviews: 461
 website: https://www.coinbene.com/
 repository: 

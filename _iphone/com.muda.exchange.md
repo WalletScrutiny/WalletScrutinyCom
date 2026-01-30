@@ -10,7 +10,6 @@ idd: '1625286267'
 released: 2022-11-06
 updated: 2023-12-06
 version: '2.1'
-stars: 0
 reviews: 0
 website: https://www.muda.exchange
 repository: 

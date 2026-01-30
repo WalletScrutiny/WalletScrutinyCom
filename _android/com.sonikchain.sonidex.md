@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-27
 updated: 2022-01-27
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://sonidex.sonikchain.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-05
 updated: 2025-09-21
 version: 1.23.2
-stars: 4.1
-ratings: 
 reviews: 17
 website: https://hippowallet.io/
 repository: 

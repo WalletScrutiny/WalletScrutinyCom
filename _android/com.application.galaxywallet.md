@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-09
 updated: 2020-05-19
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.bluekeymarket.com
 repository: 

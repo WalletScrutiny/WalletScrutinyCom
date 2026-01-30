@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-29
 updated: 2019-06-24
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://ex.cointify.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-18
 updated: 2022-02-18
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.halostar.org/
 repository: 

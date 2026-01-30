@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-15
 updated: 2020-01-19
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://btex.com.au/en
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-25
 updated: 2021-09-25
 version: '4'
-stars: 
-ratings: 
 reviews: 
 website: https://swap.flamer.life
 repository: 

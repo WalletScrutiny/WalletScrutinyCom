@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-24
 updated: 2021-11-08
 version: '1.05'
-stars: 4.9
-ratings: 
 reviews: 111
 website: http://bitni.com
 repository: 

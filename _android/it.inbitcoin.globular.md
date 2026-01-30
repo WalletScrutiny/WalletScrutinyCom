@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-07
 updated: 2020-01-26
 version: 1.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://inbitcoin.it/
 repository: 

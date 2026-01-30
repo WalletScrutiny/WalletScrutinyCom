@@ -9,8 +9,6 @@ appCountry:
 released: 2025-12-05
 updated: 2026-01-15
 version: 0.7.2
-stars: 
-ratings: 
 reviews: 
 website: https://useguap.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-17
 version: 1.1.28
-stars: 
-ratings: 
 reviews: 
 website: https://www.allinx.io
 repository: 

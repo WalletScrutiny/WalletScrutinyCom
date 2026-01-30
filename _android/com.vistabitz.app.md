@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-03
 updated: 2022-02-02
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.vistabitz.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-11
 updated: 2022-02-15
 version: '1.6'
-stars: 4.7
-ratings: 
 reviews: 
 website: https://www.rbul.io/
 repository: 

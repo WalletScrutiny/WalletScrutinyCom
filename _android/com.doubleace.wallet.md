@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-06-05
 version: 1.3.12
-stars: 
-ratings: 
 reviews: 
 website: https://acewallet.finance/
 repository: 

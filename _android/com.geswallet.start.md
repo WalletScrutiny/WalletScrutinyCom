@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-14
 updated: 2020-04-17
 version: 0.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://portaltest.gesgame.io/
 repository: 

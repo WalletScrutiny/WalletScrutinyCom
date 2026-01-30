@@ -10,7 +10,6 @@ idd: '6471335774'
 released: 2024-09-18
 updated: 2026-01-22
 version: 2.0.1
-stars: 4.8
 reviews: 20
 website: https://getalby.com/
 repository: 

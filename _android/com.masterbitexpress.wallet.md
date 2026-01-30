@@ -9,8 +9,6 @@ appCountry:
 released: 2018-04-21
 updated: 2025-10-31
 version: 1.1.1.93
-stars: 
-ratings: 
 reviews: 
 website: https://www.masterbitexpress.com
 repository: 

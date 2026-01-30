@@ -10,7 +10,6 @@ idd: 1467867553
 released: 2019-09-06
 updated: 2022-06-08
 version: 2.1.3
-stars: 0
 reviews: 0
 website: https://ataix.com
 repository: 

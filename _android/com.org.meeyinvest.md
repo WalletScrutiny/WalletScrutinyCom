@@ -10,8 +10,6 @@ appCountry:
 released: 2020-03-23
 updated: 2020-07-13
 version: '7.0'
-stars: 
-ratings: 
 reviews: 
 website: https://meeyinvest.com
 repository: 

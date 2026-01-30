@@ -10,7 +10,6 @@ idd: '1641771042'
 released: 2023-04-17
 updated: 2025-12-23
 version: '2.1'
-stars: 4.8
 reviews: 167
 website: https://internetmoney.io/
 repository: 

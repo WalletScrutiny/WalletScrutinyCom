@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-21
 updated: 2020-08-26
 version: '1.3'
-stars: 3.4
-ratings: 
 reviews: 3
 website: https://www.agea.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-08-15
 updated: 2025-01-11
 version: 2.4.8
-stars: 4.6
-ratings: 
 reviews: 6
 website: https://arzypto.com
 repository: 

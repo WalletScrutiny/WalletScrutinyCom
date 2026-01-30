@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-12
 updated: 2025-12-23
 version: '2.1'
-stars: 4.7
-ratings: 
 reviews: 83
 website: https://internetmoney.io/
 repository: 

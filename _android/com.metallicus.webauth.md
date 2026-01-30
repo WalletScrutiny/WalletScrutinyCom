@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-11
 updated: 2025-12-03
 version: 2.1.48
-stars: 3.9
-ratings: 
 reviews: 84
 website: https://webauth.com/
 repository: 

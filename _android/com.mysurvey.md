@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-22
 updated: 2019-11-12
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://coinways.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-12
 updated: 2021-10-14
 version: '4.0'
-stars: 3.1
-ratings: 
 reviews: 
 website: https://dbx24.com
 repository: 

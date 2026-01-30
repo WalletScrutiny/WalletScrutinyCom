@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-15
 updated: 2023-10-22
 version: 1.0.17
-stars: 
-ratings: 
 reviews: 
 website: https://www.bravepay.net/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-05-18
 version: 2.1.2
-stars: 4
-ratings: 
 reviews: 
 website: https://betafunds.com
 repository: 

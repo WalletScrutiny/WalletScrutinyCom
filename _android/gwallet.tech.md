@@ -10,8 +10,6 @@ appCountry: be
 released: 2021-02-16
 updated: 2023-03-07
 version: 1.2.6
-stars: 4.9
-ratings: 
 reviews: 
 website: https://gwallet.tech/
 repository: 

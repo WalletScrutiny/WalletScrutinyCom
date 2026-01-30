@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-18
 updated: 2022-10-25
 version: 4.15.0
-stars: 
-ratings: 
 reviews: 
 website: https://fabriik.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-21
 updated: 2021-02-02
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://coinsliberty.com
 repository: 

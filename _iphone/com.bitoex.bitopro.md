@@ -10,7 +10,6 @@ idd: 1393007496
 released: 2018-08-03
 updated: 2023-08-09
 version: 4.4.7
-stars: 2
 reviews: 5
 website: https://www.bitopro.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2024-06-19
 updated: 2026-01-08
 version: 0.1.9
-stars: 
-ratings: 
 reviews: 
 website: https://uniticexchange.com/
 repository: 

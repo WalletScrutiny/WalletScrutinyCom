@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-13
 updated: 2020-07-28
 version: 1.4.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.unicornx.exchange/
 repository: 

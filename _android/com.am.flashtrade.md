@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-13
 updated: 2020-10-13
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.flashtrade.club/
 repository: 

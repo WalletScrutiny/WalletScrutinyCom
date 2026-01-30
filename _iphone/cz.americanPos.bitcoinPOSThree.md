@@ -9,7 +9,6 @@ idd: '6575382133'
 released: 2025-12-22
 updated: 2026-01-05
 version: 1.0.1
-stars: 0
 reviews: 0
 website: https://bitcoinpos.americanposllc.com/
 repository: 

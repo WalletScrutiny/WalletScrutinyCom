@@ -10,7 +10,6 @@ idd: '1626030540'
 released: 2022-07-21
 updated: 2024-01-06
 version: 1.14.3
-stars: 3.5
 reviews: 22
 website: https://eidoo.app
 repository: 

@@ -10,7 +10,6 @@ idd: '1634168301'
 released: 2022-08-16
 updated: 2025-11-25
 version: 2.86.0
-stars: 4.1
 reviews: 3395
 website: https://alpha.ajaib.co.id/
 repository: 

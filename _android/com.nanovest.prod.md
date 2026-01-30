@@ -10,8 +10,6 @@ appCountry:
 released: 2023-06-08
 updated: 2026-01-27
 version: 5.0.1
-stars: 4.4
-ratings: 
 reviews: 30
 website: https://nanovest.zendesk.com/hc/en-us
 repository: 

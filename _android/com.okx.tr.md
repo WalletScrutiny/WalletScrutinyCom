@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-27
 version: 6.156.0
-stars: 
-ratings: 
 reviews: 
 website: https://tr.okx.com
 repository: 

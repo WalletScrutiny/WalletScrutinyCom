@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-25
 updated: 2020-06-20
 version: '5.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitcoinet.net/
 repository: 

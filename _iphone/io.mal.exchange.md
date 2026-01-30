@@ -10,7 +10,6 @@ idd: '6443828002'
 released: 2023-02-13
 updated: 2025-09-23
 version: 1.8.0
-stars: 5
 reviews: 4
 website: https://mal.io
 repository: 

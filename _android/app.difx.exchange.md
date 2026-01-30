@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-07-16
 version: 5.1.11
-stars: 
-ratings: 
 reviews: 
 website: https://app.difx.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-05-27
 version: 1.25.0
-stars: 
-ratings: 
 reviews: 
 website: https://xgo.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2018-02-18
 updated: 2018-02-20
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://www.okanuysal.com/
 repository: 

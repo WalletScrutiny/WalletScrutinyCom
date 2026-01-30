@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-04
 updated: 2022-04-04
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://albit.live
 repository: 

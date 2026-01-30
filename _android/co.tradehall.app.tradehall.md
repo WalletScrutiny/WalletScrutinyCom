@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-02
 updated: 2023-03-02
 version: 1.0.14
-stars: 4.4
-ratings: 
 reviews: 
 website: https://www.tradehall.co
 repository: 

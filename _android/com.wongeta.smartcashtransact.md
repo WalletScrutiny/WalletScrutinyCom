@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-31
 updated: 2025-07-12
 version: '200'
-stars: 
-ratings: 
 reviews: 
 website: https://mysmartcash.tech
 repository: 

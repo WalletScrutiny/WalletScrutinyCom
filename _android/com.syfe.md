@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-13
 updated: 2026-01-21
 version: 15.3.1
-stars: 3.6
-ratings: 
 reviews: 4
 website: https://www.syfe.com
 repository: 

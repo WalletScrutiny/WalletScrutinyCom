@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-20
 updated: 2022-06-20
 version: '5.0'
-stars: 
-ratings: 
 reviews: 
 website: https://btcplannet.net/
 repository: 

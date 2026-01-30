@@ -10,8 +10,6 @@ appCountry:
 released: 2022-06-14
 updated: 2026-01-26
 version: 2.10.1
-stars: 
-ratings: 
 reviews: 
 website: https://ari10.com
 repository: 

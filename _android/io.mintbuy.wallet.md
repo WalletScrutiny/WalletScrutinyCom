@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-07
 updated: 2021-07-07
 version: 0.21.1
-stars: 
-ratings: 
 reviews: 
 website: https://mintmoney.org
 repository: 

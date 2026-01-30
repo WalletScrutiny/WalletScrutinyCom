@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-17
 updated: 2020-08-14
 version: 1.1.4
-stars: 4.8
-ratings: 2623
 reviews: 1329
 website: https://www.ieoption.com/
 repository: 

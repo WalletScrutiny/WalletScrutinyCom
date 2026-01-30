@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-03
 updated: 2024-03-21
 version: 3.23.3.01
-stars: 
-ratings: 
 reviews: 
 website: https://amir.capital/
 repository: 

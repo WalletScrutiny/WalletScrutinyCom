@@ -10,8 +10,6 @@ appCountry:
 released: 2017-12-28
 updated: 2025-10-23
 version: 4.1.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.srsfc.com
 repository: 

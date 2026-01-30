@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-12
 updated: 2024-02-19
 version: 2.6.7
-stars: 4.4
-ratings: 
 reviews: 
 website: https://www.headline.net
 repository: 

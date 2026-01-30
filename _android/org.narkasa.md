@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-30
 updated: 2026-01-19
 version: 5.8.10
-stars: 3.5
-ratings: 
 reviews: 
 website: https://narkasa.com
 repository: 

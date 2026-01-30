@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-31
 updated: 2019-10-07
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: http://support.train-technical.com
 repository: 

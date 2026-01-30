@@ -10,8 +10,6 @@ appCountry:
 released: 2025-08-22
 updated: 2026-01-15
 version: 1.3.23
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitdance.network/
 repository: 

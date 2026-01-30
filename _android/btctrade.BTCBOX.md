@@ -10,8 +10,6 @@ appCountry:
 released: 2016-04-18
 updated: 2025-09-12
 version: '1.281'
-stars: 
-ratings: 
 reviews: 
 website: http://www.btcbox.co.jp
 repository: 

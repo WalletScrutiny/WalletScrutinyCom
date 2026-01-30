@@ -10,7 +10,6 @@ idd: 1494247642
 released: 2020-01-09
 updated: 2021-10-27
 version: 1.45.30
-stars: 5
 reviews: 1
 website: 
 repository: 

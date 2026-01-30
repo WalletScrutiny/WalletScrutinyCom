@@ -9,8 +9,6 @@ appCountry:
 released: 2023-06-19
 updated: 2026-01-21
 version: 2026.01.3
-stars: 5
-ratings: 
 reviews: 
 website: http://flowee.org
 repository: 

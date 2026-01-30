@@ -10,7 +10,6 @@ idd: '1021292326'
 released: 2015-08-18
 updated: 2024-11-12
 version: 8.7.0
-stars: 4.3
 reviews: 6
 website: https://www.gluwa.com
 repository: 

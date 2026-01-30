@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-07-20
 version: '188.5'
-stars: 
-ratings: 
 reviews: 
 website: https://solidusx.com/
 repository: 

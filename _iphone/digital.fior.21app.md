@@ -10,7 +10,6 @@ idd: '1579302952'
 released: 2022-03-29
 updated: 2025-11-11
 version: 2.0.51
-stars: 5
 reviews: 1
 website: https://21bitcoin.app/en/home
 repository: 

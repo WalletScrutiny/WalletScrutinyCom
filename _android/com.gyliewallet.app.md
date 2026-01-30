@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-08
 updated: 2022-01-12
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: http://www.saveure.com
 repository: 

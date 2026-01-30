@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-07
 updated: 2022-04-01
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://smdex.io/
 repository: 

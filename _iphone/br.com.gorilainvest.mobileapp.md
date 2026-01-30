@@ -10,7 +10,6 @@ idd: '1447950043'
 released: 2019-01-27
 updated: 2025-12-29
 version: 8.3.0
-stars: 4.7
 reviews: 234
 website: https://gorila.com.br/
 repository: 

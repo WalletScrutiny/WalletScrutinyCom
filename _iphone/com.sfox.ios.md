@@ -10,7 +10,6 @@ idd: '1583801613'
 released: 2022-04-12
 updated: 2025-09-17
 version: 1.16.2
-stars: 4.6
 reviews: 14
 website: https://www.sfox.com/
 repository: 

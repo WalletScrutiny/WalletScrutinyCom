@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-14
 updated: 2020-02-18
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://gfbtrading-group.com/
 repository: 

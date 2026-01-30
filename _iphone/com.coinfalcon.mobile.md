@@ -10,7 +10,6 @@ idd: 1396963260
 released: 2018-10-05
 updated: 2022-02-02
 version: 2.1.14
-stars: 3
 reviews: 16
 website: https://coinfalcon.com
 repository: 

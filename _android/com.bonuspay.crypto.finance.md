@@ -9,8 +9,6 @@ appCountry:
 released: 2023-01-29
 updated: 2023-02-02
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://bonuspay.io
 repository: 

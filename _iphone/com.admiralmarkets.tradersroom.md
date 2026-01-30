@@ -10,7 +10,6 @@ idd: '1222861799'
 released: 2017-06-28
 updated: 2026-01-07
 version: 5.52.0
-stars: 2.3
 reviews: 3
 website: https://admiralmarkets.com/
 repository: 

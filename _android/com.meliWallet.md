@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-09
 updated: 2022-04-11
 version: '2.1'
-stars: 4.3
-ratings: 
 reviews: 3
 website: https://meliora.finance/
 repository: 

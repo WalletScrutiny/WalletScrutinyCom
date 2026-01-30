@@ -10,8 +10,6 @@ appCountry: au
 released: 2021-08-31
 updated: 2025-10-28
 version: 1.40.0
-stars: 
-ratings: 
 reviews: 
 website: https://hitbtc.com/wallet
 repository: 

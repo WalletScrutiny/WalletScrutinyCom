@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-07
 updated: 2020-10-07
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.theblockbox.io
 repository: 

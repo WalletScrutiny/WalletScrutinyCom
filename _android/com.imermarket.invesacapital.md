@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-07-04
 version: 2.8.5
-stars: 2.3
-ratings: 
 reviews: 
 website: https://www.invesacapital.com
 repository: 

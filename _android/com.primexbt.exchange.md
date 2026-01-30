@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-08
 updated: 2020-07-16
 version: 144.5.0-release
-stars: 2.4
-ratings: 632
 reviews: 471
 website: 
 repository: 

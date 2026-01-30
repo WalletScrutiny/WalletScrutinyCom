@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-21
 updated: 2019-09-11
 version: 2.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.cmrobot.id/
 repository: 

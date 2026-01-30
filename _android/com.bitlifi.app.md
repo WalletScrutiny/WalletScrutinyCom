@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-04
 updated: 2025-12-22
 version: 1.11.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitlifi.com
 repository: 

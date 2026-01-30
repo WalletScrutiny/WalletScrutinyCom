@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-15
 updated: 2022-02-24
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://biexm.com/
 repository: 

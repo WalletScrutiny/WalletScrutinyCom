@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-11
 updated: 2020-11-11
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://skyefly.net
 repository: 

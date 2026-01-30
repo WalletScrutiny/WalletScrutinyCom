@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-10
 updated: 2020-10-25
 version: 0.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://goorewards.com
 repository: 

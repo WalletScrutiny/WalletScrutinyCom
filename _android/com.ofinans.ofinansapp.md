@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-10
 updated: 2025-08-28
 version: 2.1.3
-stars: 5
-ratings: 
 reviews: 3
 website: https://miraclecash.com
 repository: 

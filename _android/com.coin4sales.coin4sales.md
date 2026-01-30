@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-11
 updated: 2020-03-06
 version: 1.2.4
-stars: 
-ratings: 
 reviews: 
 website: https://www.coin4sales.com/tos
 repository: 

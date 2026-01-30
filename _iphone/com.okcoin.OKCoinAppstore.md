@@ -10,7 +10,6 @@ idd: 867444712
 released: 2014-07-18
 updated: 2023-06-20
 version: 5.3.110
-stars: 4.7
 reviews: 3489
 website: https://www.okcoin.com/mobile
 repository: 

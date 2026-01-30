@@ -10,7 +10,6 @@ idd: '1499787588'
 released: 2020-02-21
 updated: 2020-02-22
 version: '1.0'
-stars: 2.8
 reviews: 82
 website: https://www.altcointrader.co.za/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-04-11
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://easyexchangepro.com
 repository: 

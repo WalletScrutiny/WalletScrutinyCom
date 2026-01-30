@@ -10,7 +10,6 @@ idd: '6451395297'
 released: 2024-03-22
 updated: 2025-04-03
 version: 1.13.0
-stars: 1.8
 reviews: 160
 website: https://www.elementwallet.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-05
 updated: 2019-12-03
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://sencoinex.com
 repository: 

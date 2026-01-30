@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-30
 updated: 2022-09-08
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://lz.finance/#
 repository: 

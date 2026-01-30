@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-27
 updated: 2023-05-18
 version: 2.10.23
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitcoinwin.io
 repository: 

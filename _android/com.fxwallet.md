@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-26
 updated: 2021-09-30
 version: '5.0'
-stars: 2.6
-ratings: 523
 reviews: 17
 website: https://fxwallet.info/
 repository: 

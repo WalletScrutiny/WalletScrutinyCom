@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-27
 updated: 2025-09-04
 version: 1.53.0
-stars: 4.5
-ratings: 
 reviews: 30
 website: https://gemspocket.com/
 repository: 

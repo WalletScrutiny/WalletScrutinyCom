@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-14
 updated: 2021-04-14
 version: 0.18.2
-stars: 5
-ratings: 
 reviews: 29
 website: http://definitex.org/
 repository: 

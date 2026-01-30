@@ -10,7 +10,6 @@ idd: '1642488837'
 released: 2022-11-03
 updated: 2025-10-27
 version: 2.2.2
-stars: 3.8
 reviews: 12
 website: https://begin.is
 repository: 

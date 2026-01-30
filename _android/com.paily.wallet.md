@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-20
 updated: 2022-11-28
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://pailycrypto.com/
 repository: 

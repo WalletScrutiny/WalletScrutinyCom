@@ -10,7 +10,6 @@ idd: '6453763938'
 released: 2023-11-07
 updated: 2024-08-14
 version: 3.6.4
-stars: 5
 reviews: 2
 website: https://greencryptox.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-09-02
 updated: 2026-01-26
 version: 1.1.38
-stars: 
-ratings: 
 reviews: 
 website: https://aviacoinus7.com
 repository: 

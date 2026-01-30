@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-18
 updated: 2022-12-26
 version: 1.1.12
-stars: 
-ratings: 
 reviews: 
 website: https://www.dexoo.io/
 repository: 

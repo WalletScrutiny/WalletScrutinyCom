@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-16
 updated: 2020-05-01
 version: '1.8'
-stars: 3.4
-ratings: 220
 reviews: 5
 website: https://bitblinx.com
 repository: 

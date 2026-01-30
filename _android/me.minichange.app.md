@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-26
 updated: 2022-01-13
 version: '2.8'
-stars: 
-ratings: 
 reviews: 
 website: https://minichange.me/
 repository: 

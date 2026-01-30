@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-23
 updated: 2020-04-24
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://mybitcart.com
 repository: 

@@ -10,7 +10,6 @@ idd: 1458088759
 released: 2019-05-26
 updated: 2025-08-20
 version: 2.5.14
-stars: 4.3
 reviews: 4
 website: https://www.zbx.one/
 repository: 

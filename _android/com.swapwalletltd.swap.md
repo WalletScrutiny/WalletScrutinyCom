@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-11-14
 version: Varies with device
-stars: 4.9
-ratings: 2282
 reviews: 2065
 website: http://swapwallet.com
 repository: 

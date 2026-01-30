@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-02
 updated: 2019-07-09
 version: 0.1.7
-stars: 
-ratings: 
 reviews: 
 website: https://www.ariston-timepieces.com
 repository: 

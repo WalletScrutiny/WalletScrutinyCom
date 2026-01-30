@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2022-06-14
 version: 1.9.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.2gether.global
 repository: 

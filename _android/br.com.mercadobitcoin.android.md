@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-25
 updated: 2026-01-21
 version: 2.97.0
-stars: 4
-ratings: 51097
 reviews: 73
 website: http://www.mercadobitcoin.com.br
 repository: 

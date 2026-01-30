@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-12
 updated: 2024-03-18
 version: 1.2.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.cointree.com/
 repository: 

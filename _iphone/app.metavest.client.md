@@ -10,7 +10,6 @@ idd: '1622578169'
 released: 2022-07-28
 updated: 2025-07-22
 version: 3.4.0
-stars: 0
 reviews: 0
 website: https://metavest.app/affiliate
 repository: 

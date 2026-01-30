@@ -10,7 +10,6 @@ idd: '1618980971'
 released: 2022-07-06
 updated: 2022-07-07
 version: 1.1.1
-stars: 3
 reviews: 2
 website: https://ditobanx.com
 repository: 

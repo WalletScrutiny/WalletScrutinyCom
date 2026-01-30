@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-10
 updated: 2022-02-10
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://easycryptos.io/
 repository: 

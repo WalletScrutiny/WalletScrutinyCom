@@ -10,7 +10,6 @@ idd: 1355604579
 released: 2018-04-22
 updated: 2021-06-23
 version: 1.3.4
-stars: 0
 reviews: 0
 website: https://www.unodax.com
 repository: 

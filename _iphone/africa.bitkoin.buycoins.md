@@ -10,7 +10,6 @@ idd: '1389966202'
 released: 2018-08-02
 updated: 2021-04-17
 version: 5.6.0
-stars: 3.7
 reviews: 46
 website: https://buycoins.africa
 repository: 

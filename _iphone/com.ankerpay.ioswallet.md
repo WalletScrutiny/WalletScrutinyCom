@@ -10,7 +10,6 @@ idd: '1487931971'
 released: 2019-11-22
 updated: 2023-11-26
 version: '1.30'
-stars: 5
 reviews: 3
 website: https://ankerpay.com/mobile-wallet/
 repository: 

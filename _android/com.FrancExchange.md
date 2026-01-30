@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-12-02
 updated: 2020-12-02
 version: '1.0'
-stars: 
-ratings: 283
 reviews: 
 website: https://trade.francexchange.com/
 repository: 

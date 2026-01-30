@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-17
 updated: 2021-10-29
 version: 0.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://coinshut.africa
 repository: 

@@ -10,7 +10,6 @@ idd: '1480302334'
 released: 2019-09-30
 updated: 2024-05-31
 version: 2.2.2
-stars: 3.9
 reviews: 20
 website: https://nami.io/
 repository: 

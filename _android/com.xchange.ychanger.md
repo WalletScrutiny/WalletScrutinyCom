@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-08
 updated: 2024-07-31
 version: 4.2.1
-stars: 4
-ratings: 
 reviews: 
 website: https://ychanger.org/
 repository: 

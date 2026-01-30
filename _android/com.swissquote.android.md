@@ -10,8 +10,6 @@ appCountry:
 released: 2010-06-17
 updated: 2026-01-26
 version: 8.24.0
-stars: 3.6
-ratings: 
 reviews: 43
 website: https://www.swissquote.com/
 repository: 

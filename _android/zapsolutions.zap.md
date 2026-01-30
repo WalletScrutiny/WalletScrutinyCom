@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-04-16
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android

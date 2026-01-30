@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2022-01-11
 version: 1.7.0
-stars: 
-ratings: 
 reviews: 
 website: http://orbitgt-m.com/
 repository: 

@@ -10,7 +10,6 @@ idd: 1406825640
 released: 2019-01-30
 updated: 2025-11-25
 version: '4.11'
-stars: 4.8
 reviews: 7220
 website: https://www.bitstamp.net/
 repository: 

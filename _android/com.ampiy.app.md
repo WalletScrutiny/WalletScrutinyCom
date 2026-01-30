@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-06
 updated: 2025-09-30
 version: 5.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://ampiy.com
 repository: 

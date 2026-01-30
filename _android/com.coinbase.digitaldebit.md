@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-12
 updated: 2019-11-12
 version: 3.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://digitaldebit.com
 repository: 

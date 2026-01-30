@@ -13,8 +13,6 @@ appCountry:
 released: 2021-11-11
 updated: 2026-01-20
 version: 2.2.6
-stars: 4.7
-ratings: 26
 reviews: 37
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android

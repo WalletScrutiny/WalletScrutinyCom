@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-01-21
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://coinstradecenter.com/
 repository: 

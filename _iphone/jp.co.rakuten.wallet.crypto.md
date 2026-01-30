@@ -10,7 +10,6 @@ idd: '1472320399'
 released: 2019-08-31
 updated: 2025-11-17
 version: 1.6.1
-stars: 4.3
 reviews: 9397
 website: https://www.rakuten-wallet.co.jp/
 repository: 

@@ -10,8 +10,6 @@ appCountry: au
 released: 2020-02-20
 updated: 2026-01-14
 version: 2.1.842
-stars: 
-ratings: 
 reviews: 
 website: https://xrex.io/
 repository: 

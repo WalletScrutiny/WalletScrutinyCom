@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-10
 updated: 2020-09-10
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitalgopayment.com
 repository: 

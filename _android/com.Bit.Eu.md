@@ -9,8 +9,6 @@ appCountry:
 released: 2019-03-14
 updated: 2019-03-14
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bit.eu
 repository: 

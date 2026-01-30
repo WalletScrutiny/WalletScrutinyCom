@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-25
 updated: 2019-06-12
 version: 3.7.3
-stars: 
-ratings: 
 reviews: 
 website: http://bitcoinwalletcoin.com
 repository: 

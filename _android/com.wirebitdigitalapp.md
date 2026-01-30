@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-20
 updated: 2023-09-27
 version: 1.12.4
-stars: 
-ratings: 
 reviews: 
 website: https://wirebit.com/
 repository: 

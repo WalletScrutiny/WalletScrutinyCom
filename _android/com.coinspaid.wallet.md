@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-17
 updated: 2023-06-06
 version: 0.9.6
-stars: 3
-ratings: 
 reviews: 2
 website: https://coinspaid.com
 repository: 

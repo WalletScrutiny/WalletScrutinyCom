@@ -10,8 +10,6 @@ appCountry:
 released: 2021-01-05
 updated: 2026-01-08
 version: 3.1.0
-stars: 3.3
-ratings: 
 reviews: 
 website: https://talkapp.org
 repository: 

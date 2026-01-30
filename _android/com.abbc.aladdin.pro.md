@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-11-15
 updated: 2023-02-03
 version: 1.15.7
-stars: 4.8
-ratings: 5401
 reviews: 162
 website: http://abbcpayment.com
 repository: 

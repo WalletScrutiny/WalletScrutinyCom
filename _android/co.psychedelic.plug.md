@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-01
 updated: 2026-01-28
 version: 2.7.2
-stars: 3.9
-ratings: 
 reviews: 17
 website: https://plugwallet.ooo
 repository: 

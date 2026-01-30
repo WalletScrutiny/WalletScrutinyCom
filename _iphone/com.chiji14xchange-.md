@@ -10,7 +10,6 @@ idd: 1459183957
 released: 2019-08-19
 updated: 2022-03-01
 version: 3.0.0
-stars: 3.4
 reviews: 297
 website: https://chiji14xchange.com
 repository: 

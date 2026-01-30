@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-30
 updated: 2021-02-08
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: http://cyclebit.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-01
 updated: 2021-02-01
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.kratosapp.com/
 repository: 

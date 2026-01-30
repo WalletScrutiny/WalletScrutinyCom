@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-17
 updated: 2019-10-15
 version: 1.0.3
-stars: 4.8
-ratings: 192
 reviews: 18
 website: https://vexblock.co/
 repository: 

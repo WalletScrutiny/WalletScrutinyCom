@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-26
 updated: 2022-10-17
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://savox.io
 repository: 

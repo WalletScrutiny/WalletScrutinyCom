@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-29
 updated: 2022-06-26
 version: 2.1.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.wadzpay.com
 repository: 

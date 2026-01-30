@@ -10,8 +10,6 @@ appCountry:
 released: 2023-03-20
 updated: 2025-10-09
 version: 1.0.29
-stars: 
-ratings: 
 reviews: 
 website: https://palwallet.com
 repository: 

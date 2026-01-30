@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-04-08
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.emx.com
 repository: 

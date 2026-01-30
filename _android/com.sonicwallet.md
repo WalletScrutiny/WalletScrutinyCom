@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-17
 updated: 2024-11-16
 version: 1.1.41
-stars: 
-ratings: 
 reviews: 
 website: https://www.sonicwallet.com
 repository: 

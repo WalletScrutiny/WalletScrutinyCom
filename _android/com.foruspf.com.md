@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-02
 updated: 2022-07-19
 version: '2.2'
-stars: 
-ratings: 
 reviews: 
 website: https://foruspf.com
 repository: 

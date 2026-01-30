@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-17
 updated: 2020-12-23
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.fx24gold.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1643098777'
 released: 2022-09-06
 updated: 2024-01-18
 version: '1.4'
-stars: 0
 reviews: 0
 website: 
 repository: 

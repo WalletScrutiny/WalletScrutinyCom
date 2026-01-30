@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-01
 updated: 2021-08-02
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.cursdaq.com/
 repository: 

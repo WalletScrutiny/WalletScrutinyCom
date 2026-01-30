@@ -10,7 +10,6 @@ idd: 1540952335
 released: 2021-02-09
 updated: 2021-07-09
 version: 1.1.0
-stars: 4.2
 reviews: 5
 website: http://fiboda.com
 repository: 

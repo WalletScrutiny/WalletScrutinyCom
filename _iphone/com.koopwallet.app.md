@@ -10,7 +10,6 @@ idd: '1669411943'
 released: 2023-04-11
 updated: 2023-04-20
 version: '20.0'
-stars: 0
 reviews: 0
 website: https://koopwallet.com/privacy.html
 repository: 

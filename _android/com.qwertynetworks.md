@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-10
 updated: 2022-09-02
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://qwertynetworks.com
 repository: 

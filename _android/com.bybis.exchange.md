@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-07-12
 version: '1.13'
-stars: 
-ratings: 
 reviews: 
 website: https://bybis.com
 repository: 

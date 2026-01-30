@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-20
 updated: 2022-09-30
 version: 1.1.1
-stars: 3.8
-ratings: 
 reviews: 
 website: https://probos.io/
 repository: 

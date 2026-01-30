@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-29
 updated: 2025-10-27
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://blns.io
 repository: 

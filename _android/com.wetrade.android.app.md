@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-11
 updated: 2022-12-23
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.wetrade.app/
 repository: 

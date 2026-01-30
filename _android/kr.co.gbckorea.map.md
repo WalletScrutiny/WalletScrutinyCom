@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-08
 updated: 2020-06-17
 version: '1.6'
-stars: 
-ratings: 
 reviews: 
 website: https://mapgbc.com
 repository: 

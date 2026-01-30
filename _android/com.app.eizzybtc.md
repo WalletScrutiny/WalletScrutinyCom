@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-18
 updated: 2020-11-19
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://eizzybtc.com
 repository: 

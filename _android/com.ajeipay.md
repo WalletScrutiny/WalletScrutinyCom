@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-30
 updated: 2021-10-09
 version: '2.2'
-stars: 
-ratings: 
 reviews: 
 website: https://ajeipay.com/
 repository: 

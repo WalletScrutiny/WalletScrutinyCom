@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-10
 updated: 2022-02-07
 version: 2.11.14
-stars: 2.5
-ratings: 104
 reviews: 9
 website: https://coinfalcon.com
 repository: 

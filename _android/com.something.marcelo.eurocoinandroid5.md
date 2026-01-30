@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-17
 updated: 2025-10-03
 version: '40.0'
-stars: 4.3
-ratings: 
 reviews: 
 website: http://www.eurocoinpay.io
 repository: 

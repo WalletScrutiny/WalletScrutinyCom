@@ -10,8 +10,6 @@ appCountry:
 released: 2024-07-29
 updated: 2025-07-03
 version: 1.3.1
-stars: 4.1
-ratings: 
 reviews: 4
 website: https://quantum.press/
 repository: 

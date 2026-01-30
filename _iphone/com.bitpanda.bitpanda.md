@@ -10,7 +10,6 @@ idd: '1449018960'
 released: 2019-11-29
 updated: 2026-01-28
 version: 3.16.2
-stars: 4.7
 reviews: 24684
 website: https://www.bitpanda.com/app
 repository: 

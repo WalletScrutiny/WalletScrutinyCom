@@ -9,8 +9,6 @@ appCountry:
 released: 2025-08-20
 updated: 2026-01-14
 version: 1.5.1
-stars: 
-ratings: 
 reviews: 
 website: https://ribbitwallet.com
 repository: 

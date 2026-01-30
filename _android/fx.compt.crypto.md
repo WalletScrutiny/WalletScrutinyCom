@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-25
 updated: 2021-03-25
 version: '1.0'
-stars: 4.2
-ratings: 
 reviews: 
 website: https://story3app.web.app/
 repository: 

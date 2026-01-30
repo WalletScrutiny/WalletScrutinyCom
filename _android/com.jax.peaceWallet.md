@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-14
 updated: 2023-10-05
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://peacewallet.io/
 repository: 

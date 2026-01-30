@@ -10,8 +10,6 @@ appCountry:
 released: 2018-08-29
 updated: 2023-04-28
 version: 2.0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://unicoindcx.com/
 repository: 

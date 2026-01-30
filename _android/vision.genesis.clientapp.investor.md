@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-02-15
 updated: 2022-03-16
 version: 2.7.7
-stars: 4.8
-ratings: 369
 reviews: 25
 website: https://genesis.vision
 repository: https://github.com/GenesisVision/android-client

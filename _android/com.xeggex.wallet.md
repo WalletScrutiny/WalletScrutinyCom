@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-12
 updated: 2022-07-12
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://xeggex.com
 repository: 

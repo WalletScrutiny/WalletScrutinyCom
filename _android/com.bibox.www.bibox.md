@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-03-24
 updated: 2021-11-04
 version: 4.8.5
-stars: 5
-ratings: 1559
 reviews: 579
 website: https://www.bibox.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-10
 updated: 2025-12-19
 version: 3.18.0
-stars: 4.2
-ratings: 
 reviews: 5
 website: https://www.deribit.com
 repository: 

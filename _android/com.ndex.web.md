@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-10
 updated: 2020-04-02
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://nd-exk.com
 repository: 

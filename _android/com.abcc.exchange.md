@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-08-23
 updated: 2023-03-01
 version: 1.9.30
-stars: 4.8
-ratings: 1541
 reviews: 46
 website: https://abcc.com
 repository: 

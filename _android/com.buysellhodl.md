@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-10-11
 version: 1.12.7
-stars: 4.3
-ratings: 157
 reviews: 71
 website: http://www.buysellhodlapp.com
 repository: 

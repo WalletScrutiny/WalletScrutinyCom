@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-13
 updated: 2021-11-24
 version: '2.4'
-stars: 
-ratings: 
 reviews: 
 website: https://fastbitng.com
 repository: 

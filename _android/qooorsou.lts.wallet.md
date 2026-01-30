@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-06
 updated: 2019-09-06
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://wp.k8s.df.org.ua
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2017-04-10
 updated: 2026-01-23
 version: 3.80.0
-stars: 3.9
-ratings: 
 reviews: 19834
 website: https://www.sofi.com
 repository: 

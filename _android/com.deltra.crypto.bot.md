@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-10
 updated: 2023-05-03
 version: 1.1.4
-stars: 
-ratings: 
 reviews: 
 website: https://www.xrstudio.in
 repository: 

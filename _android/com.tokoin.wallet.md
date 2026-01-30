@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-12-11
 updated: 2023-08-15
 version: 3.6.1
-stars: 4.1
-ratings: 576
 reviews: 6
 website: https://tokoin.io
 repository: 

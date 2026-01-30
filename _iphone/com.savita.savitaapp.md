@@ -10,7 +10,6 @@ idd: '1664110660'
 released: 2023-01-16
 updated: 2023-07-20
 version: 1.7.0
-stars: 0
 reviews: 0
 website: https://savitaglobal.com
 repository: 

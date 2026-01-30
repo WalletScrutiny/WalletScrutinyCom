@@ -10,8 +10,6 @@ appCountry:
 released: 2024-01-20
 updated: 2025-08-19
 version: 2.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower/releases

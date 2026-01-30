@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-05
 updated: 2025-02-28
 version: 1.1.22
-stars: 
-ratings: 
 reviews: 
 website: https://jeritex.com
 repository: 

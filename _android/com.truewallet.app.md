@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-12-20
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://truewallet.dev/
 repository: 

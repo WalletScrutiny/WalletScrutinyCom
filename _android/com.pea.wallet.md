@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-27
 updated: 2022-04-27
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://pealab.io/wallet
 repository: 

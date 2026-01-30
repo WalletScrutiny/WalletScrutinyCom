@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-22
 updated: 2025-12-03
 version: 2.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://ammer.cards
 repository: 

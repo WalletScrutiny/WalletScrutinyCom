@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-23
 version: 3.17.0
-stars: 
-ratings: 
 reviews: 
 website: https://bitonic.nl
 repository: 

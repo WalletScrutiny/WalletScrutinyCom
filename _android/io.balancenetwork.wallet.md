@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-06
 updated: 2024-05-03
 version: 1.0.23
-stars: 4.6
-ratings: 
 reviews: 8
 website: https://balancenetwork.io/
 repository: 

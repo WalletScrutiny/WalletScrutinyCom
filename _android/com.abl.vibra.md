@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-21
 updated: 2023-06-29
 version: 1.6.90
-stars: 3.9
-ratings: 
 reviews: 5
 website: https://www.vibra.one/
 repository: 

@@ -10,7 +10,6 @@ idd: '1642711272'
 released: 2023-06-06
 updated: 2026-01-22
 version: 3.0.7
-stars: 0
 reviews: 0
 website: https://coinfinity.co/
 repository: 

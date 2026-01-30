@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-31
 updated: 2025-08-26
 version: 2.3.0
-stars: 4.6
-ratings: 
 reviews: 11
 website: https://ruufpay.app
 repository: 

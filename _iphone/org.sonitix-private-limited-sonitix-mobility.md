@@ -10,7 +10,6 @@ idd: '1637173983'
 released: 2022-08-11
 updated: 2022-11-16
 version: '1.4'
-stars: 4.3
 reviews: 24
 website: https://sonitix.exchange/
 repository: 

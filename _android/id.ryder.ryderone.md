@@ -10,8 +10,6 @@ appCountry:
 released: 2025-04-02
 updated: 2026-01-18
 version: 1.3.3
-stars: 
-ratings: 
 reviews: 
 website: http://ryder.id
 repository: 

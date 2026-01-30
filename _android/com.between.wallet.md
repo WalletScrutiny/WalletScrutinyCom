@@ -10,8 +10,6 @@ appCountry:
 released: 2025-04-22
 updated: 2025-09-12
 version: 1.1.15
-stars: 
-ratings: 
 reviews: 
 website: https://betweenbits.io/
 repository: 

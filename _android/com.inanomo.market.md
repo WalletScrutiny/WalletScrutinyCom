@@ -10,8 +10,6 @@ appCountry:
 released: 2021-04-06
 updated: 2022-08-23
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://inanomo.com/
 repository: 

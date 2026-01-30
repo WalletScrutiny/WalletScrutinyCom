@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-27
 updated: 2022-03-27
 version: '9.8'
-stars: 
-ratings: 
 reviews: 
 website: https://cryptoboxcoin.com/
 repository: 

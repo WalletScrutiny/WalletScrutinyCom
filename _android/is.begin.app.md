@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-30
 updated: 2026-01-17
 version: 2.4.1
-stars: 3.8
-ratings: 
 reviews: 3
 website: https://begin.is
 repository: https://github.com/BeginWallet/begin-core

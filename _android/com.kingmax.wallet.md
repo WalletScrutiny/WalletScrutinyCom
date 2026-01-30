@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-26
 updated: 2022-07-01
 version: '12.08'
-stars: 
-ratings: 
 reviews: 
 website: http://www.kingmax.com
 repository: 

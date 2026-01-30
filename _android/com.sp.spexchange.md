@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-16
 updated: 2022-03-03
 version: 1.0.9
-stars: 
-ratings: 
 reviews: 
 website: https://spexchange.io/
 repository: 

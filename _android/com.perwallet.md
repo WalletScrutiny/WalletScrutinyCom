@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-10
 updated: 2021-06-14
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.perproject.io/
 repository: 

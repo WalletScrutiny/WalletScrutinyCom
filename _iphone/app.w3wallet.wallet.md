@@ -9,7 +9,6 @@ idd: '6670211780'
 released: 2024-09-04
 updated: 2025-10-09
 version: 1.0.38
-stars: 5
 reviews: 3
 website: https://w3wallet.app
 repository: 

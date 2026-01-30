@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-28
 updated: 2023-02-23
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: http://bitblaze.co
 repository: 

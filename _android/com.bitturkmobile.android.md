@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-05
 updated: 2022-02-08
 version: '1.21'
-stars: 
-ratings: 
 reviews: 
 website: https://bitturk.com
 repository: 

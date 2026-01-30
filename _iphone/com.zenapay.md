@@ -10,7 +10,6 @@ idd: '1292806306'
 released: 2017-10-26
 updated: 2024-07-02
 version: '5.2'
-stars: 0
 reviews: 0
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 

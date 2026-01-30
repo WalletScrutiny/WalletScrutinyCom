@@ -10,8 +10,6 @@ appCountry:
 released: 2018-09-19
 updated: 2025-08-26
 version: 1.2.4
-stars: 3.7
-ratings: 
 reviews: 6
 website: http://everdreamsoft.com
 repository: 

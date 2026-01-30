@@ -10,8 +10,6 @@ appCountry:
 released: 2022-06-24
 updated: 2022-10-20
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://justbit.in/
 repository: 

@@ -10,8 +10,6 @@ appCountry: vn
 released: 2021-03-16
 updated: 2024-10-31
 version: 2.4.41
-stars: 4.6
-ratings: 578
 reviews: 63
 website: http://roseon.world
 repository: 

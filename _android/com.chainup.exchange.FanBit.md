@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-13
 updated: 2022-06-24
 version: 5.4.0_push_v2
-stars: 
-ratings: 
 reviews: 
 website: https://www.fanbit.com
 repository: 

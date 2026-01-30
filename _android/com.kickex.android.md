@@ -10,8 +10,6 @@ appCountry:
 released: 2022-06-15
 updated: 2024-12-26
 version: 1.24.0
-stars: 
-ratings: 
 reviews: 
 website: https://kickex.com/en
 repository: 

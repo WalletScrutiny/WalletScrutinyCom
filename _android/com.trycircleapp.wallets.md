@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-12-29
 updated: 2021-12-10
 version: '7.0'
-stars: 4.6
-ratings: 
 reviews: 
 website: https://trycircleapp.com
 repository: 

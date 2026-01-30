@@ -10,7 +10,6 @@ idd: '1489128011'
 released: 2019-12-02
 updated: 2022-05-03
 version: '1.28'
-stars: 4.5
 reviews: 8
 website: https://www.gokumarket.com
 repository: 

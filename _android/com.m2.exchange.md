@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-12-15
 version: 5.21.1
-stars: 
-ratings: 
 reviews: 
 website: http://m2.com
 repository: 

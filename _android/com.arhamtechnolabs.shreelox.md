@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-19
 updated: 2022-05-19
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.shreelox.com/
 repository: 

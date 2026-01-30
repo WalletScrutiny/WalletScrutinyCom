@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-29
 updated: 2021-04-30
 version: 0.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.vistamoney.cc
 repository: 

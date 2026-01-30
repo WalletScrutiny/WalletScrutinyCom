@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-15
 version: 3.5.2
-stars: 
-ratings: 
 reviews: 
 website: https://bitstack-app.com
 repository: 

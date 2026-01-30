@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-23
 updated: 2018-08-29
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://www.lynengine.com/
 repository: 

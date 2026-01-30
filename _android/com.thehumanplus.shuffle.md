@@ -10,8 +10,6 @@ appCountry:
 released: 2020-04-06
 updated: 2025-11-06
 version: 2.0.3
-stars: 4
-ratings: 
 reviews: 
 website: https://www.hupayx.com/
 repository: 

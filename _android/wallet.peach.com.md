@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-09
 updated: 2022-06-06
 version: 0.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://peachwallet.com
 repository: 

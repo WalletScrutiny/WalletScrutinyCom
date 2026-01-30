@@ -10,8 +10,6 @@ appCountry:
 released: 2015-12-22
 updated: 2026-01-22
 version: 12.31.0
-stars: 4.2
-ratings: 16669
 reviews: 10970
 website: https://cex.io
 repository: 

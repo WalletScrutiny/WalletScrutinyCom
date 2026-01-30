@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-01
 updated: 2023-10-05
 version: 3.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.gopop.app
 repository: 

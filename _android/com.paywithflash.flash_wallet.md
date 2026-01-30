@@ -9,8 +9,6 @@ appCountry:
 released: 2025-07-22
 updated: 2025-12-30
 version: 1.0.16
-stars: 
-ratings: 
 reviews: 
 website: https://paywithflash.com
 repository: 

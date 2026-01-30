@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-05
 updated: 2020-04-15
 version: '1.6'
-stars: 
-ratings: 
 reviews: 
 website: https://www.sonicex.com/welcome
 repository: 

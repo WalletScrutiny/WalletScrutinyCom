@@ -3,14 +3,13 @@ wsId: coveBitcoinWallet
 title: Cove - Simple Bitcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10
 appId: org.bitcoinppl.cove
 appCountry: 
+released: 
 updated: 2026-01-26
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://covebitcoinwallet.com
 repository: 

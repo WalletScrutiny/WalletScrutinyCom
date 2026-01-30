@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-24
 updated: 2019-10-05
 version: '1.23'
-stars: 
-ratings: 
 reviews: 
 website: http://noblecoin.io
 repository: 

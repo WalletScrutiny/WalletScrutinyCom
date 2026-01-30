@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-21
 updated: 2022-11-21
 version: 1.0.4
-stars: 4.8
-ratings: 
 reviews: 
 website: http://adappterwallet.io
 repository: 

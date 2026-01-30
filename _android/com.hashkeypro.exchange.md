@@ -10,8 +10,6 @@ appCountry:
 released: 2023-11-01
 updated: 2026-01-26
 version: 1.69.0
-stars: 3.4
-ratings: 
 reviews: 29
 website: https://www.hashkey.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-08
 updated: 2023-10-24
 version: 1.1.55
-stars: 
-ratings: 
 reviews: 
 website: http://tehran.exchange
 repository: 

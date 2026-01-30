@@ -10,8 +10,6 @@ appCountry:
 released: 2018-07-16
 updated: 2020-01-02
 version: '3.2'
-stars: 4.8
-ratings: 
 reviews: 
 website: https://e-mal.ae/
 repository: 

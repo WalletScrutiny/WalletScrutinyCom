@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-04
 updated: 2023-11-07
 version: 2.1.17
-stars: 4
-ratings: 
 reviews: 1
 website: http://www.sanuslife.com
 repository: 

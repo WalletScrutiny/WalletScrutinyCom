@@ -10,7 +10,6 @@ idd: 1462031389
 released: 2019-05-21
 updated: 2025-12-12
 version: 4.21.0
-stars: 4.2
 reviews: 54
 website: https://wallet.coinex.com/
 repository: 

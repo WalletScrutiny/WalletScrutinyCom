@@ -10,7 +10,6 @@ idd: '1643474845'
 released: 2023-07-19
 updated: 2025-11-14
 version: 1.9.26
-stars: 4.8
 reviews: 625
 website: https://mobee.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry: br
 released: 2015-05-11
 updated: 2026-01-21
 version: 26.1.16
-stars: 4
-ratings: 
 reviews: 14
 website: https://www.ig.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-20
 updated: 2025-12-15
 version: 1.0.12
-stars: 
-ratings: 
 reviews: 
 website: https://one80wallet.io/
 repository: 

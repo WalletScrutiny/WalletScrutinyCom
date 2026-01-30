@@ -3,15 +3,13 @@ wsId: vooxExchange
 title: 'VOOX Exchange: Buy BTC&Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.vox.world
 appCountry: 
 released: 2025-07-09
 updated: 2026-01-20
 version: 1.4.8.1
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

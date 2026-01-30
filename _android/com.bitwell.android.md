@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-10
 updated: 2022-07-09
 version: 1.8.1
-stars: 3.4
-ratings: 
 reviews: 3
 website: http://www.bitwellex.com
 repository: 

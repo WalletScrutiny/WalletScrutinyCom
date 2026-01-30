@@ -10,7 +10,6 @@ idd: 1294998195
 released: 2017-11-03
 updated: 2026-01-28
 version: 8.6.0
-stars: 4.5
 reviews: 1415
 website: https://www.gate.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1579865730'
 released: 2021-08-05
 updated: 2022-03-03
 version: '1.6'
-stars: 5
 reviews: 9
 website: https://www.pallapay.com/
 repository: 

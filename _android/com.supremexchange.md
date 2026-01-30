@@ -9,8 +9,6 @@ appCountry:
 released: 2018-12-21
 updated: 2020-11-23
 version: '2.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.supremecrypx.com
 repository: 

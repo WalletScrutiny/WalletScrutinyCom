@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-09-16
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://nebpay.io
 repository: 

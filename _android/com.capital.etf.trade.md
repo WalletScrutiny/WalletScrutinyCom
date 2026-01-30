@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2026-01-26
 version: 3.19.0
-stars: 4.6
-ratings: 
 reviews: 7
 website: https://capital.com/
 repository: 

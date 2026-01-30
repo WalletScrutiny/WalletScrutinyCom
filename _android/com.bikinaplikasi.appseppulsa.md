@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-06
 updated: 2020-09-15
 version: '21.0'
-stars: 
-ratings: 
 reviews: 
 website: https://seppulsa.com
 repository: 

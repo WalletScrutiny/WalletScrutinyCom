@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-24
 updated: 2022-09-08
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://combaijialesfvbwe.xyz
 repository: 

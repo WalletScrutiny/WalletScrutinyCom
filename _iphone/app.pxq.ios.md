@@ -10,7 +10,6 @@ idd: '6449359967'
 released: 2023-05-31
 updated: 2023-07-25
 version: 1.0.3
-stars: 0
 reviews: 0
 website: https://pxq.app
 repository: 

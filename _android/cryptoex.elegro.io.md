@@ -11,8 +11,6 @@ appCountry:
 released: 2019-06-26
 updated: 2021-04-29
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://personal.elegro.eu/exchange
 repository: 

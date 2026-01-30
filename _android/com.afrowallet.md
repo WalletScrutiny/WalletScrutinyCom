@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-02-18
 version: '1.2'
-stars: 4.4
-ratings: 
 reviews: 
 website: https://afrofoundation.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2014-09-23
 updated: 2017-12-08
 version: 1.1.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.youbit.co.kr
 repository: 

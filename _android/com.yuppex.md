@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-17
 updated: 2020-09-25
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://yuppex.com
 repository: 

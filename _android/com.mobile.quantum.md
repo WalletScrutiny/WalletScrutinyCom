@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-18
 updated: 2025-10-02
 version: 1.0.8
-stars: 3.8
-ratings: 
 reviews: 1
 website: https://quan2um.com
 repository: 

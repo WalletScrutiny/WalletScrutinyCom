@@ -10,7 +10,6 @@ idd: '1638748643'
 released: 2022-09-24
 updated: 2025-11-26
 version: 3.1.1
-stars: 5
 reviews: 7
 website: https://www.xbo.com/
 repository: 

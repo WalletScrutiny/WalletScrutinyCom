@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-10-04
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

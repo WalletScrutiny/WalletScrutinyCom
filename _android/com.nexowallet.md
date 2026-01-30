@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-28
 updated: 2026-01-27
 version: 6.5.1
-stars: 4
-ratings: 21149
 reviews: 1850
 website: https://nexo.com
 repository: 

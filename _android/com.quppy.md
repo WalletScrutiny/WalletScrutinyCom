@@ -10,8 +10,6 @@ appCountry:
 released: 2018-09-17
 updated: 2026-01-14
 version: 2.0.146
-stars: 2.7
-ratings: 3900
 reviews: 39
 website: https://quppy.com/
 repository: 

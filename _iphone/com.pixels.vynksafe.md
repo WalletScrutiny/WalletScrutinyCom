@@ -10,7 +10,6 @@ idd: '1626971774'
 released: 2022-06-21
 updated: 2023-10-25
 version: '1.4'
-stars: 3.7
 reviews: 3
 website: https://vynksafe.com
 repository: 

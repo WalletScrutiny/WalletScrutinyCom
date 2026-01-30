@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-15
 updated: 2025-09-24
 version: 3.6.11
-stars: 3.3
-ratings: 
 reviews: 5
 website: https://usenobi.com
 repository: 

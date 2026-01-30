@@ -9,8 +9,6 @@ appCountry: EE
 released: 2021-11-04
 updated: 2024-11-06
 version: 2.19.1
-stars: 2
-ratings: 
 reviews: 10703
 website: https://hi.com/
 repository: 

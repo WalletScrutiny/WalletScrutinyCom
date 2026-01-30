@@ -10,8 +10,6 @@ appCountry:
 released: 2024-01-07
 updated: 2026-01-19
 version: 0.4.8
-stars: 
-ratings: 
 reviews: 
 website: https://getflash.io
 repository: https://github.com/lnflash/flash-mobile

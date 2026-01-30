@@ -10,8 +10,6 @@ appCountry:
 released: 2012-10-15
 updated: 2020-10-07
 version: 5.6.1
-stars: 3.7
-ratings: 12322
 reviews: 3745
 website: https://cfc.io
 repository: 

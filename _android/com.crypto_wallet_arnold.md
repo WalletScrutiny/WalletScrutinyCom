@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-16
 updated: 2023-03-07
 version: '3.8'
-stars: 
-ratings: 
 reviews: 
 website: http://www.otomation.tech
 repository: 

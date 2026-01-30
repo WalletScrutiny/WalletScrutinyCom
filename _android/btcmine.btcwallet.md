@@ -10,8 +10,6 @@ appCountry:
 released: 2017-08-13
 updated: 2017-08-13
 version: '1.1'
-stars: 3.9
-ratings: 16
 reviews: 7
 website: 
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-05-03
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://qilinlab.com
 repository: 

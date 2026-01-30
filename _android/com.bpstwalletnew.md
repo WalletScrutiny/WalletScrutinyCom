@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-16
 updated: 2021-07-09
 version: 1.44.1
-stars: 
-ratings: 
 reviews: 
 website: https://bps.money
 repository: 

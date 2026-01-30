@@ -10,8 +10,6 @@ appCountry: us
 released: 2015-05-16
 updated: 2026-01-22
 version: 16.0.2
-stars: 3.8
-ratings: 26669
 reviews: 1389
 website: https://www.dopamineapp.com
 repository: 

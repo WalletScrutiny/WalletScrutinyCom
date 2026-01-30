@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-01-04
 version: 1.3.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.vstmex.com/
 repository: 

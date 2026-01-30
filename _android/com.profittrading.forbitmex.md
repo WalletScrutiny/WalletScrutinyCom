@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-11
 updated: 2026-01-27
 version: 7.4.0
-stars: 4.3
-ratings: 348
 reviews: 8
 website: https://profittradingapp.com?utm_source=bitmex_gp
 repository: 

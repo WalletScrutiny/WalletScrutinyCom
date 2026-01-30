@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-04-05
 version: 2.0.2
-stars: 
-ratings: 
 reviews: 
 website: http://exmo.uvitto.ru
 repository: 

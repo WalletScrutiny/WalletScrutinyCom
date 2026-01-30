@@ -9,7 +9,6 @@ idd: '1474912942'
 released: 2019-09-11
 updated: 2026-01-15
 version: 2.25.6
-stars: 4.8
 reviews: 1493
 website: https://www.ballet.com/
 repository: 

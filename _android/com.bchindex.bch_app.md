@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-28
 updated: 2023-04-11
 version: 6.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://bchindex.com/
 repository: 

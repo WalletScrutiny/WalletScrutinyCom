@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-14
 version: 3.7.0
-stars: 
-ratings: 
 reviews: 
 website: https://firi.com
 repository: 

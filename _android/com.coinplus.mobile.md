@@ -9,8 +9,6 @@ appCountry:
 released: 2018-03-15
 updated: 2020-12-15
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinplus.com
 repository: 

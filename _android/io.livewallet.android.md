@@ -9,8 +9,6 @@ appCountry:
 released: 2023-03-04
 updated: 2023-04-09
 version: 1.5.3
-stars: 4.9
-ratings: 
 reviews: 
 website: https://livewallet.io
 repository: 

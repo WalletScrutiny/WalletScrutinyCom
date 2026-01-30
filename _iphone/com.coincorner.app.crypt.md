@@ -10,7 +10,6 @@ idd: 917721788
 released: 2014-09-22
 updated: 2025-12-30
 version: 5.2.2
-stars: 4.2
 reviews: 309
 website: https://www.coincorner.com
 repository: 

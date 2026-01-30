@@ -10,7 +10,6 @@ idd: 1544280524
 released: 2021-01-25
 updated: 2021-11-19
 version: 1.69.13
-stars: 1
 reviews: 2
 website: https://www.t1markets.com/
 repository: 

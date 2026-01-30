@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-14
 updated: 2020-04-27
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.tkeycoin.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-08
 updated: 2023-03-13
 version: 1.2.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.liqi.com.br/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-16
 updated: 2020-03-25
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://pawnhub.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-27
 updated: 2021-09-27
 version: 2.0-beta
-stars: 
-ratings: 
 reviews: 
 website: https://bit-flex.com/
 repository: 

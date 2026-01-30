@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-27
 updated: 2021-11-27
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitotal.com
 repository: 

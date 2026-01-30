@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-24
 updated: 2021-11-17
 version: 1.14.0
-stars: 3.4
-ratings: 123
 reviews: 12
 website: https://wallet.io
 repository: 

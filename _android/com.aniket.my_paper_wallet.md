@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-24
 updated: 2020-12-24
 version: 1.0.0
-stars: 3.8
-ratings: 
 reviews: 
 website: 
 repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet

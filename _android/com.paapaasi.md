@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-24
 updated: 2021-09-15
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://paapaasi.com
 repository: 

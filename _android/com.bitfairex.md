@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-27
 updated: 2021-03-25
 version: 1.2.3 Release
-stars: 4.7
-ratings: 
 reviews: 
 website: https://bitfairex.com
 repository: 

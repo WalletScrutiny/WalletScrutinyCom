@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-28
 updated: 2023-10-05
 version: 3.44.6
-stars: 3.5
-ratings: 
 reviews: 6
 website: https://capitual.com
 repository: 

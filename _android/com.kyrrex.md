@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-11-12
 version: production/v4.2.60
-stars: 4.3
-ratings: 
 reviews: 
 website: https://kyrrex.com
 repository: 

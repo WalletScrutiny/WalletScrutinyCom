@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-06-01
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://yopay.co
 repository: 

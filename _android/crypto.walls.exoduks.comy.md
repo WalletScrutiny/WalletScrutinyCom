@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-03
 updated: 2021-10-04
 version: '19.28'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

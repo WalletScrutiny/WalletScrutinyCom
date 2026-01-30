@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-10-30
 updated: 2026-01-21
 version: 2.6.3
-stars: 3.9
-ratings: 836
 reviews: 56
 website: https://www.b1.zone/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-24
 updated: 2021-05-25
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://fmx.trade
 repository: 

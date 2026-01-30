@@ -10,7 +10,6 @@ idd: 1506502199
 released: 2020-06-03
 updated: 2021-07-17
 version: 3.0.0
-stars: 4.3
 reviews: 208
 website: https://bundle.africa/
 repository: 

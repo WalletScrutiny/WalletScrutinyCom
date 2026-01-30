@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-04
 updated: 2022-07-08
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.joybit.io/#/
 repository: 

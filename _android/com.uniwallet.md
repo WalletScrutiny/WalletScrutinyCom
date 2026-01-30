@@ -10,8 +10,6 @@ appCountry:
 released: 2025-01-05
 updated: 2025-09-18
 version: 1.1.0
-stars: 4.5
-ratings: 
 reviews: 2
 website: https://uniwall.et/
 repository: 

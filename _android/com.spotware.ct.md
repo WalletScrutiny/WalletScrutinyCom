@@ -10,8 +10,6 @@ appCountry:
 released: 2014-02-10
 updated: 2026-01-15
 version: 5.6.160
-stars: 4.7
-ratings: 
 reviews: 354
 website: https://ctrader.com/forum
 repository: 

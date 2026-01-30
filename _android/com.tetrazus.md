@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-06
 updated: 2020-02-11
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://tetrazus.com/
 repository: 

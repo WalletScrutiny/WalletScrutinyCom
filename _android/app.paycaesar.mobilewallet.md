@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-08
 updated: 2021-07-07
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://aurilia.io/
 repository: 

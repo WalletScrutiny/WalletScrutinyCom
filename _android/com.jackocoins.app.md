@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-18
 updated: 2023-12-06
 version: 2.0.2
-stars: 3.9
-ratings: 148
 reviews: 26
 website: https://www.jackocoins.com/
 repository: 

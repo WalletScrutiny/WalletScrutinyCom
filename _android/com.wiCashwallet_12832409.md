@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-22
 updated: 2020-12-22
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://icashweb.com/
 repository: 

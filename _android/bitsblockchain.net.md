@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-05-08
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitsblockchain.net/
 repository: 

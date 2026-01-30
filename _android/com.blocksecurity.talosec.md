@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-28
 updated: 2020-06-14
 version: 2.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://talosec.io
 repository: 

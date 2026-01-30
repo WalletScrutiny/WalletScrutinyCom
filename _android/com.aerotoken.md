@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-05-26
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://aerotoken.org/
 repository: 

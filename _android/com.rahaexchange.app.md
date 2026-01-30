@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-14
 updated: 2022-09-01
 version: '1.007'
-stars: 4.2
-ratings: 
 reviews: 5
 website: https://rahaexchange.com
 repository: 

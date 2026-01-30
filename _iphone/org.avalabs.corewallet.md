@@ -10,7 +10,6 @@ idd: '6443685999'
 released: 2022-11-28
 updated: 2025-11-14
 version: 1.0.16
-stars: 4.5
 reviews: 108
 website: https://www.core.app/
 repository: 

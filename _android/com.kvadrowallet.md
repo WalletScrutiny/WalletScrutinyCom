@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-16
 updated: 2021-08-14
 version: 1.2.13
-stars: 3.9
-ratings: 57
 reviews: 34
 website: https://kvadrowallet.com/
 repository: 

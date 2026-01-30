@@ -10,8 +10,6 @@ appCountry:
 released: 2024-07-10
 updated: 2026-01-28
 version: 200.5.4
-stars: 
-ratings: 
 reviews: 
 website: https://bit.eu
 repository: 

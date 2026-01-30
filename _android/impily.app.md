@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-25
 updated: 2021-11-26
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://impily.com
 repository: 

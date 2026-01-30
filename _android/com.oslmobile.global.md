@@ -10,8 +10,6 @@ appCountry:
 released: 2025-05-08
 updated: 2026-01-27
 version: 1.10.3
-stars: 
-ratings: 
 reviews: 
 website: https://osl.com
 repository: 

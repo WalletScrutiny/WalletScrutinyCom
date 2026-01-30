@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-12
 updated: 2019-06-21
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://www.tentybit.com/
 repository: 

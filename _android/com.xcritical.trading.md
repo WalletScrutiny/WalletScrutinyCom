@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-02-02
 version: 2.23.7
-stars: 
-ratings: 
 reviews: 
 website: https://xcritical.com/
 repository: 

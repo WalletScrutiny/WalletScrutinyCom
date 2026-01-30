@@ -10,8 +10,6 @@ appCountry:
 released: 2017-05-23
 updated: 2026-01-22
 version: '168.3'
-stars: 4.3
-ratings: 9327
 reviews: 11
 website: http://www.avatrade.com
 repository: 

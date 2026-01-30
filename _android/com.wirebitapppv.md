@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-28
 updated: 2022-08-29
 version: 1.2.6
-stars: 
-ratings: 
 reviews: 
 website: https://wirebit.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-11
 updated: 2021-03-26
 version: '1.12'
-stars: 
-ratings: 74
 reviews: 
 website: https://sites.google.com/view/globlacryptotrading/home
 repository: 

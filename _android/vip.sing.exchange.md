@@ -10,8 +10,6 @@ appCountry:
 released: 2021-05-11
 updated: 2026-01-15
 version: 4.3.3.22
-stars: 3.4
-ratings: 
 reviews: 3
 website: https://www.starex.sg/
 repository: 

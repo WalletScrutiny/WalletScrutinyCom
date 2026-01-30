@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-08-07
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://pro.coiny.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2018-12-27
 updated: 2020-03-10
 version: 1.0.15
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptolive.ge
 repository: 

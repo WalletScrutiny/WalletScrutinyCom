@@ -10,7 +10,6 @@ idd: 1030422972
 released: 2016-05-12
 updated: 2026-01-08
 version: 6.2.74
-stars: 3.6
 reviews: 1569
 website: https://www.unocoin.com
 repository: 

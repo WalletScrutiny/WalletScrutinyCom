@@ -10,7 +10,6 @@ idd: '1589023233'
 released: 2022-04-11
 updated: 2026-01-26
 version: 3.2.2 test
-stars: 0
 reviews: 0
 website: https://www.bitmex.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-23
 updated: 2021-07-01
 version: '1.4'
-stars: 4.7
-ratings: 
 reviews: 
 website: http://praise.pe.kr
 repository: 

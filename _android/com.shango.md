@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-06-01
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: http://www.shangoapp.com
 repository: 

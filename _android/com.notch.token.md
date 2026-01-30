@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-21
 updated: 2022-02-21
 version: V1.0
-stars: 
-ratings: 
 reviews: 
 website: https://notchtoken.com
 repository: 

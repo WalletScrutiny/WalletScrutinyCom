@@ -10,7 +10,6 @@ idd: '1441386723'
 released: 2019-05-30
 updated: 2025-11-12
 version: 2.6.0
-stars: 4.5
 reviews: 11
 website: https://skilling.com
 repository: 

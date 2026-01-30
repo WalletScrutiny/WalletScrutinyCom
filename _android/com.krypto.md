@@ -10,8 +10,6 @@ appCountry:
 released: 2020-04-29
 updated: 2022-06-17
 version: '8.5'
-stars: 4.1
-ratings: 5472
 reviews: 19
 website: https://letskrypto.com
 repository: 

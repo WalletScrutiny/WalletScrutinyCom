@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-05
 updated: 2023-08-23
 version: '3.8'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bestla.io/
 repository: 

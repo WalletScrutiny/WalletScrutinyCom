@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-25
 updated: 2020-02-05
 version: 0.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://snarkwallet.app/
 repository: 

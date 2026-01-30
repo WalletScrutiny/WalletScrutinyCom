@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-09-25
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://tudirich.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-09
 updated: 2026-01-28
 version: 16.11.1
-stars: 4.3
-ratings: 1851
 reviews: 123
 website: https://profittradingapp.com?utm_source=binance_gp
 repository: 

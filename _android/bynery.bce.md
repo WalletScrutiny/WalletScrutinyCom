@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-04
 updated: 2022-06-02
 version: 1.5.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bynery.com
 repository: 

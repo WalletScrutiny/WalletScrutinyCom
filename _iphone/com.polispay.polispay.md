@@ -10,7 +10,6 @@ idd: 1351572060
 released: 2019-02-20
 updated: 2021-10-22
 version: 8.9.3
-stars: 4
 reviews: 7
 website: https://www.polispay.com
 repository: 

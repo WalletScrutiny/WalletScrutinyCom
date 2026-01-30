@@ -10,7 +10,6 @@ idd: 1536104225
 released: 2020-11-09
 updated: 2022-04-15
 version: 3.1.341
-stars: 4.3
 reviews: 3
 website: https://www.blubitex.com/
 repository: 

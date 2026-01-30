@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-16
 updated: 2019-10-30
 version: 1.0.4
-stars: 1.7
-ratings: 6
 reviews: 3
 website: 
 repository: 

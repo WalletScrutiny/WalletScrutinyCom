@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-15
 updated: 2023-04-15
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://trade4fastpay.com/
 repository: 

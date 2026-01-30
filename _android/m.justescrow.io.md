@@ -9,8 +9,6 @@ appCountry:
 released: 2018-05-30
 updated: 2018-05-31
 version: '3.0'
-stars: 3.1
-ratings: 
 reviews: 2
 website: https://justescrow.io
 repository: 

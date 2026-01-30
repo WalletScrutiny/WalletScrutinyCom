@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-07
 updated: 2021-02-18
 version: 1.5.3
-stars: 
-ratings: 
 reviews: 
 website: https://satang.com
 repository: 

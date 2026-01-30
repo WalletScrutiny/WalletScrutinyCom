@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-28
 updated: 2022-10-14
 version: 0.21.17
-stars: 
-ratings: 
 reviews: 
 website: https://erium.exchange/
 repository: 

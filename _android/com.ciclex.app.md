@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-11
 updated: 2021-05-11
 version: v1.0.4
-stars: 3.9
-ratings: 
 reviews: 
 website: https://ciclex.com
 repository: 

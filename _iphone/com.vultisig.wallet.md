@@ -10,7 +10,6 @@ idd: '6503023896'
 released: 2024-09-16
 updated: 2026-01-14
 version: '1.32'
-stars: 4.4
 reviews: 39
 website: https://vultisig.com
 repository: 

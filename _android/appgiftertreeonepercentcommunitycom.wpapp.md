@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-04
 updated: 2019-12-05
 version: '10.0'
-stars: 5
-ratings: 
 reviews: 7
 website: http://www.theonepercentcommunity.com
 repository: 

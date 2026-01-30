@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-22
 updated: 2024-03-25
 version: 1.3.1
-stars: 4.3
-ratings: 
 reviews: 3
 website: https://elitewallet.sc
 repository: https://github.com/Elite-Labs/EliteWallet

@@ -10,7 +10,6 @@ idd: '1469234024'
 released: 2019-08-16
 updated: 2021-04-30
 version: '1.4'
-stars: 5
 reviews: 2
 website: https://personal.elegro.eu/certified-coins
 repository: 

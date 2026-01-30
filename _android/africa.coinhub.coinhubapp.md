@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-21
 updated: 2022-01-25
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinhub.africa
 repository: 

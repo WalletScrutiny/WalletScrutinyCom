@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-13
 updated: 2023-07-12
 version: 4.6.7
-stars: 
-ratings: 
 reviews: 
 website: https://truzact.com
 repository: 

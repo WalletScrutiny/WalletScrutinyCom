@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-31
 updated: 2021-07-31
 version: 0.21.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.mysrvcoin.com/index.php
 repository: 

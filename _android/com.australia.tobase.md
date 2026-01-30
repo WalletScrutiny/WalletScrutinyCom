@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-26
 updated: 2022-07-23
 version: 0.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://www.tobases.com
 repository: 

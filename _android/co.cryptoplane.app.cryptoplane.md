@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-11
 updated: 2021-10-07
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://crypto-plane.com
 repository: 

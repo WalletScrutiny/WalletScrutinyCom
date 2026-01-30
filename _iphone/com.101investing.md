@@ -10,7 +10,6 @@ idd: '1533974302'
 released: 2020-11-10
 updated: 2021-08-25
 version: 1.68.10
-stars: 
 reviews: 
 website: https://www.101investing.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-04-13
 updated: 2023-05-30
 version: 3.0.9
-stars: 2.2
-ratings: 429
 reviews: 12
 website: https://trade.mn
 repository: 

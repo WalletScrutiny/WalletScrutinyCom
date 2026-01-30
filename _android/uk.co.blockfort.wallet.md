@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-24
 updated: 2023-05-05
 version: 1.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://blockfort.co.uk/
 repository: 

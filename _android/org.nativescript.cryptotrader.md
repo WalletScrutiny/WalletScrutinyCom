@@ -9,8 +9,6 @@ appCountry:
 released: 2019-02-13
 updated: 2019-04-04
 version: '0.17'
-stars: 
-ratings: 
 reviews: 
 website: http://www.pipxplosion.com
 repository: 

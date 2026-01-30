@@ -10,7 +10,6 @@ idd: '1596226250'
 released: 2022-03-03
 updated: 2023-10-24
 version: 1.14.0
-stars: 5
 reviews: 2
 website: https://www.okasan-online.co.jp
 repository: 

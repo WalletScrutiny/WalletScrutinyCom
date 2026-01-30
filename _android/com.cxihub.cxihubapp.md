@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-03
 updated: 2022-01-08
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://cxihub.com
 repository: 

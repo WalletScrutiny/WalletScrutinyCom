@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-29
 updated: 2021-02-01
 version: 1.1.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.liquigate.com
 repository: 

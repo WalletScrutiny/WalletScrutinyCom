@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-13
 updated: 2020-04-26
 version: 4.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://endopay.com
 repository: 

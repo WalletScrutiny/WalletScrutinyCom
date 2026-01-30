@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-24
 updated: 2023-07-12
 version: 3.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://richamster.com/
 repository: 

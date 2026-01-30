@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-10
 updated: 2021-10-22
 version: '2.1'
-stars: 
-ratings: 
 reviews: 
 website: http://tokenfree.net
 repository: 

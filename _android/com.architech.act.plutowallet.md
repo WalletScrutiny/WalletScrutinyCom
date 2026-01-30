@@ -9,8 +9,6 @@ appCountry:
 released: 2019-03-26
 updated: 2019-04-19
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.act-tech.io/
 repository: 

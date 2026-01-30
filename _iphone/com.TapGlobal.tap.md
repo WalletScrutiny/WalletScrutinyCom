@@ -10,7 +10,6 @@ idd: '1492263993'
 released: 2019-12-20
 updated: 2026-01-20
 version: 3.7.2
-stars: 4.5
 reviews: 1892
 website: https://www.withtap.com
 repository: 

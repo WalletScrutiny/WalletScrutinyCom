@@ -10,8 +10,6 @@ appCountry:
 released: 2020-05-07
 updated: 2020-06-11
 version: '1.8'
-stars: 
-ratings: 
 reviews: 
 website: https://www.zedxe.com
 repository: 

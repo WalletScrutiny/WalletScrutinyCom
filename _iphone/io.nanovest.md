@@ -10,7 +10,6 @@ idd: '1580892310'
 released: 2021-12-20
 updated: 2025-05-20
 version: 4.9.0
-stars: 4.8
 reviews: 16
 website: https://nanovest.io/
 repository: 

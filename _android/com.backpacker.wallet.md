@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-16
 updated: 2019-11-20
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.backpackercoin.com/
 repository: 

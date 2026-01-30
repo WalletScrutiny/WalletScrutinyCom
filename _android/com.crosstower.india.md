@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-08
 updated: 2023-04-02
 version: '3.27'
-stars: 3.9
-ratings: 
 reviews: 2
 website: https://www.crosstower.com
 repository: 

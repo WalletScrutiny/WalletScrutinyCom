@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-17
 updated: 2019-07-18
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://payotp.com
 repository: 

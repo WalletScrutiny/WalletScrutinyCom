@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-18
 updated: 2026-01-23
 version: 2.20.10
-stars: 4.3
-ratings: 
 reviews: 4
 website: https://newton.co
 repository: 

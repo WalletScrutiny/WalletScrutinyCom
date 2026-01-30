@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-16
 updated: 2024-06-02
 version: 0.9.1
-stars: 
-ratings: 
 reviews: 
 website: https://gleecbtc.com/
 repository: 

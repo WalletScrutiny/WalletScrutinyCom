@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2024-12-15
 version: 0.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.mintlayer.org/en/mojito-wallet/
 repository: https://github.com/mintlayer/mojito_mobile_wallet

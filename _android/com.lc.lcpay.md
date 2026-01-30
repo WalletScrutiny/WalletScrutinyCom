@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-07
 updated: 2021-04-13
 version: 5.0.0
-stars: 4.7
-ratings: 
 reviews: 
 website: https://www.lcpay.io/
 repository: 

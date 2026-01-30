@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-16
 updated: 2022-01-16
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://astrollax.com
 repository: 

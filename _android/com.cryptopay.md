@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-17
 updated: 2019-02-14
 version: '1.5'
-stars: 4.3
-ratings: 6
 reviews: 2
 website: https://shamlatech.com/
 repository: 

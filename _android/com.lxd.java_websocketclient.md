@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-05-01
 updated: 2021-11-12
 version: 2.7.0
-stars: 3.4
-ratings: 19
 reviews: 11
 website: https://coinflex.com/home
 repository: 

@@ -10,7 +10,6 @@ idd: 1554894180
 released: 2021-06-29
 updated: 2024-08-14
 version: 3.7.6
-stars: 0
 reviews: 0
 website: https://tradearies.com/
 repository: 

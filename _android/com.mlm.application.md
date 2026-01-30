@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-25
 updated: 2022-04-20
 version: '2.6'
-stars: 
-ratings: 
 reviews: 
 website: http://peer2btc.com/
 repository: 

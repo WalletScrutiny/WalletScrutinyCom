@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-14
 updated: 2022-06-21
 version: 3.5.4
-stars: 
-ratings: 
 reviews: 
 website: https://bykep.com/
 repository: 

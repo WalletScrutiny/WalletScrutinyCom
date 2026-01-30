@@ -9,8 +9,6 @@ appCountry:
 released: 2018-10-10
 updated: 2023-03-09
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://cointopay.com
 repository: 

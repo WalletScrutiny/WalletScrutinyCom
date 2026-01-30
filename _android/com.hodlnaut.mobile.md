@@ -10,8 +10,6 @@ appCountry: SG
 released: 2021-10-26
 updated: 2022-08-21
 version: 1.4.15
-stars: 4.3
-ratings: 
 reviews: 76
 website: https://www.hodlnaut.com
 repository: 

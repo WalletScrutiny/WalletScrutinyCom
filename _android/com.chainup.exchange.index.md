@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-23
 updated: 2020-05-25
 version: 4.4.7
-stars: 
-ratings: 
 reviews: 
 website: https://www.indexex.biz/
 repository: 

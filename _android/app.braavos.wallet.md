@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-12
 updated: 2026-01-14
 version: 4.18.1
-stars: 4.7
-ratings: 
 reviews: 36
 website: https://braavos.app/
 repository: 

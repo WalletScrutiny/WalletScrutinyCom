@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-06
 updated: 2025-07-27
 version: 3.4.0
-stars: 
-ratings: 
 reviews: 
 website: https://metavest.app/
 repository: 

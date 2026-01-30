@@ -10,7 +10,6 @@ idd: 923696089
 released: 2014-12-30
 updated: 2025-10-08
 version: 2.10.0
-stars: 2.1
 reviews: 11
 website: https://spectrocoin.com/
 repository: 

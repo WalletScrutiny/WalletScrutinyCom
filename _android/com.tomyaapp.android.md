@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-06
 updated: 2023-08-23
 version: 1.1.2
-stars: 4.4
-ratings: 
 reviews: 
 website: https://www.tomya.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-23
 updated: 2023-08-18
 version: 2.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://dfx.swiss/bitcoin/
 repository: 

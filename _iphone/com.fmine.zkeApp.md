@@ -10,7 +10,6 @@ idd: '6443931838'
 released: 2022-11-09
 updated: 2025-10-21
 version: 6.5.2
-stars: 4.8
 reviews: 270
 website: https://www.zke.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-14
 updated: 2021-02-20
 version: 1.5.5
-stars: 3.8
-ratings: 
 reviews: 3
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault

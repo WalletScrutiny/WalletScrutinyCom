@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-02-19
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://juwelis.digital/
 repository: 

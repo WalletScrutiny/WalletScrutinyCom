@@ -10,8 +10,6 @@ appCountry:
 released: 2023-06-06
 updated: 2024-05-06
 version: '2.1'
-stars: 4.9
-ratings: 
 reviews: 
 website: http://hawexdao.com
 repository: 

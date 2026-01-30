@@ -10,8 +10,6 @@ appCountry:
 released: 2016-12-15
 updated: 2020-08-26
 version: 0.12.3
-stars: 
-ratings: 
 reviews: 
 website: http://www.instaforex.com
 repository: 

@@ -10,7 +10,6 @@ idd: 1559751218
 released: 2021-04-21
 updated: 2022-04-03
 version: 2.2.0
-stars: 5
 reviews: 2
 website: https://nakitcoins.com
 repository: 

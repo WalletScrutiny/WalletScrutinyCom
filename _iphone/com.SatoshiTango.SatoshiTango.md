@@ -11,7 +11,6 @@ idd: '1002555958'
 released: 2015-07-08
 updated: 2026-01-07
 version: 5.10.0
-stars: 4.5
 reviews: 2
 website: https://www.satoshitango.com/
 repository: 

@@ -10,7 +10,6 @@ idd: '1522416988'
 released: 2020-07-13
 updated: 2025-05-31
 version: 3.1.2
-stars: 2.6
 reviews: 51
 website: http://hkd.com
 repository: 

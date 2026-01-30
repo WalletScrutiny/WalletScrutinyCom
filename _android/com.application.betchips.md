@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-20
 updated: 2020-04-24
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: http://thebetc.com
 repository: 

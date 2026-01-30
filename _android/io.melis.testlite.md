@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-06
 updated: 2019-08-06
 version: 0.4.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.melis.io
 repository: 

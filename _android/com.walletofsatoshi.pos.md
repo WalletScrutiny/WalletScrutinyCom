@@ -3,15 +3,13 @@ wsId: walletOfSatoshiPOS
 title: Wallet of Satoshi POS
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.walletofsatoshi.pos
 appCountry: 
 released: 2023-11-15
 updated: 2025-11-12
 version: 0.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://walletofsatoshi.com/
 repository: 
@@ -25,7 +23,7 @@ date: 2026-01-26
 signer: 
 twitter: walletofsatoshi
 social:
-- https://www.facebook.com/walletofsatoshi 
+- https://www.facebook.com/walletofsatoshi
 redirect_from: 
 developerName: Wallet of Satoshi
 builds: 

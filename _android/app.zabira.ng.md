@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-23
 updated: 2024-05-07
 version: 1.0.28
-stars: 3.3
-ratings: 
 reviews: 15
 website: https://www.zabira.ng
 repository: 

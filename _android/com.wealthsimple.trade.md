@@ -10,8 +10,6 @@ appCountry: ca
 released: 2019-03-12
 updated: 2026-01-25
 version: 2.210.0
-stars: 4.2
-ratings: 54327
 reviews: 12795
 website: https://www.wealthsimple.com/en-ca/
 repository: 

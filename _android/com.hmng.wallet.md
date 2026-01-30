@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-09
 updated: 2022-08-31
 version: 1.0.8
-stars: 4.6
-ratings: 
 reviews: 7
 website: https://www.hummingbirdbsc.org/
 repository: 

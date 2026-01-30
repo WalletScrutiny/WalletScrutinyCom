@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-12-18
 updated: 2025-10-23
 version: '1.96'
-stars: 4.1
-ratings: 
 reviews: 11
 website: https://zixipay.com
 repository: 

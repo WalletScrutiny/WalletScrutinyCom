@@ -10,8 +10,6 @@ appCountry:
 released: 2019-05-18
 updated: 2020-01-18
 version: 4.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://algeriahost.com
 repository: 

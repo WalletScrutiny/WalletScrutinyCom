@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-06
 updated: 2022-02-19
 version: '40.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptocashfast.com
 repository: 

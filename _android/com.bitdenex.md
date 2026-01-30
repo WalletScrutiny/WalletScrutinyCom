@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-22
 version: 3.2.22
-stars: 
-ratings: 
 reviews: 
 website: https://bitdenex.com
 repository: 

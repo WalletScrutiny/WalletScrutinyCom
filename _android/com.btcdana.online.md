@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-23
 updated: 2026-01-22
 version: 2.5.0
-stars: 4.3
-ratings: 
 reviews: 170
 website: https://www.btcdana.com/
 repository: 

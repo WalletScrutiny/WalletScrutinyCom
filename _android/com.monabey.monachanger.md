@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-01
 updated: 2020-09-16
 version: '2.2'
-stars: 
-ratings: 
 reviews: 
 website: https://monabey.com
 repository: 

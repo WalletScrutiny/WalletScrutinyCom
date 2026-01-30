@@ -10,7 +10,6 @@ idd: 1536567791
 released: 2020-10-28
 updated: 2023-09-23
 version: 3.8.0
-stars: 0
 reviews: 0
 website: https://raidofinance.eu
 repository: 

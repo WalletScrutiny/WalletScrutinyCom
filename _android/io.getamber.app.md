@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-21
 updated: 2026-01-22
 version: 5.11.1
-stars: 4.4
-ratings: 
 reviews: 26
 website: http://amber.app
 repository: 

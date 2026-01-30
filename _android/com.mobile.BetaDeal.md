@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-30
 updated: 2022-01-26
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://betadeal.net
 repository: 

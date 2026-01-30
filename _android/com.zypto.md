@@ -10,8 +10,6 @@ appCountry:
 released: 2024-04-26
 updated: 2025-12-30
 version: 1.24.1
-stars: 4.2
-ratings: 
 reviews: 35
 website: https://zypto.com
 repository: 

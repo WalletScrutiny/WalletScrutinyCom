@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-15
 updated: 2025-03-19
 version: '3.45'
-stars: 2.4
-ratings: 3529
 reviews: 12
 website: https://www.buyucoin.com
 repository: 

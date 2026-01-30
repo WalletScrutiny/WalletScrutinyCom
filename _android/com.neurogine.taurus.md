@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-27
 updated: 2022-04-27
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://ntrade.com.my/
 repository: 

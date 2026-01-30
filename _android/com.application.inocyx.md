@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-16
 updated: 2026-01-14
 version: 1.54.17
-stars: 4.7
-ratings: 
 reviews: 
 website: https://inocyx.com/
 repository: 

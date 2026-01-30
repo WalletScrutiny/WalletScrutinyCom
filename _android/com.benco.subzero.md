@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-28
 updated: 2022-06-22
 version: 1.5.5
-stars: 
-ratings: 
 reviews: 
 website: https://subzeropay.com/
 repository: 

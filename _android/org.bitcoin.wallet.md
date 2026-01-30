@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2021-02-09
 version: '1.0'
-stars: 4.3
-ratings: 9
 reviews: 4
 website: https://bitcoin.org
 repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile

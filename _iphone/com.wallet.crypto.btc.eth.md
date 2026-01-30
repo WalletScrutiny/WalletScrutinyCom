@@ -10,7 +10,6 @@ idd: '6451146325'
 released: 2023-10-02
 updated: 2026-01-21
 version: 1.9.6
-stars: 4.4
 reviews: 32
 website: https://ironwallet.io/
 repository: 

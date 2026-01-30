@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-17
 updated: 2022-04-17
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.wallstbulls.ai
 repository: 

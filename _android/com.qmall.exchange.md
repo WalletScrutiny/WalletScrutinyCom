@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-14
 updated: 2024-07-31
 version: 1.1.59
-stars: 4.4
-ratings: 
 reviews: 2
 website: https://qmall.io/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-19
 updated: 2020-04-08
 version: 2.0.6
-stars: 
-ratings: 
 reviews: 
 website: http://www.playwallet.io/
 repository: 

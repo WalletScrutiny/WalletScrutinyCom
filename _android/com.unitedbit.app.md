@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-07
 updated: 2022-04-19
 version: 1.1.7
-stars: 
-ratings: 
 reviews: 
 website: https://unitedbit.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-25
 updated: 2020-02-05
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://adara.io/
 repository: 

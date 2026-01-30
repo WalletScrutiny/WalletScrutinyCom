@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-05
 updated: 2024-04-07
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coindhan.com
 repository: 

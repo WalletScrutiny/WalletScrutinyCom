@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-30
 updated: 2021-09-30
 version: '456'
-stars: 
-ratings: 
 reviews: 
 website: https://24bitbank.io/
 repository: 

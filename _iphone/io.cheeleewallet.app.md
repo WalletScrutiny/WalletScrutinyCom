@@ -10,7 +10,6 @@ idd: '6469778928'
 released: 2024-03-05
 updated: 2024-03-05
 version: 1.2.2
-stars: 5
 reviews: 5
 website: 
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-30
 updated: 2025-11-28
 version: 1.0.24
-stars: 
-ratings: 
 reviews: 
 website: https://earnbit.com/
 repository: 

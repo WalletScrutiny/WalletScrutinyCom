@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-02-23
 version: 1.8.0
-stars: 2.5
-ratings: 
 reviews: 
 website: https://fxvc.com
 repository: 

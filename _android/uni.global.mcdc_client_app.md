@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-24
 updated: 2025-08-31
 version: 4.1.8
-stars: 
-ratings: 
 reviews: 
 website: https://uni.global
 repository: 

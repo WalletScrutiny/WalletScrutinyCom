@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-19
 updated: 2022-04-12
 version: '2.3'
-stars: 3.8
-ratings: 
 reviews: 7
 website: http://www.veroxai.io
 repository: 

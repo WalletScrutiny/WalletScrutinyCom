@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-21
 version: 2026.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 

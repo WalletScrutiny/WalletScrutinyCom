@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-18
 updated: 2019-09-18
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://exchange.citifymarketplace.com/
 repository: 

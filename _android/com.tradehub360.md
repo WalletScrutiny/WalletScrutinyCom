@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-10
 updated: 2023-06-13
 version: 2.0.70
-stars: 4.3
-ratings: 
 reviews: 
 website: https://360tradehub.com/
 repository: 

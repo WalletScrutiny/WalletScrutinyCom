@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-23
 updated: 2020-02-13
 version: '5.8'
-stars: 
-ratings: 
 reviews: 
 website: https://basetrade.io
 repository: 

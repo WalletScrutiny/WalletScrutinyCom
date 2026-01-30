@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-03
 updated: 2018-07-26
 version: 1.1.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinmore.io/
 repository: 

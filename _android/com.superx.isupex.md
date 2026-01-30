@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-02
 updated: 2020-05-02
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.isupex.com
 repository: 

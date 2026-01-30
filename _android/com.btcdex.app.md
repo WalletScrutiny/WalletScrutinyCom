@@ -9,8 +9,6 @@ appCountry:
 released: 2025-11-15
 updated: 2026-01-07
 version: 1.0.55
-stars: 
-ratings: 
 reviews: 
 website: https://www.btcdex.app/bitcoin/faq#contact
 repository: 

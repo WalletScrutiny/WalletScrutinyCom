@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-09
 updated: 2022-12-06
 version: 1.0.28
-stars: 3
-ratings: 
 reviews: 
 website: https://www.maxxer.com
 repository: 

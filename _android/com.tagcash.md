@@ -10,8 +10,6 @@ appCountry:
 released: 2016-10-19
 updated: 2022-10-30
 version: 8.0.4
-stars: 
-ratings: 
 reviews: 
 website: http://tagcash.com
 repository: 

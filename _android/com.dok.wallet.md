@@ -10,8 +10,6 @@ appCountry: il
 released: 2020-09-28
 updated: 2026-01-26
 version: '3.06'
-stars: 5
-ratings: 35
 reviews: 15
 website: https://dokwallet.com/
 repository: 

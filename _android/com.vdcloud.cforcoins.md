@@ -10,8 +10,6 @@ appCountry:
 released: 2018-05-13
 updated: 2020-05-13
 version: 2.7.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.cforcoins.com
 repository: 

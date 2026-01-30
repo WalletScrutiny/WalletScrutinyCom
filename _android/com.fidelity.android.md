@@ -10,8 +10,6 @@ appCountry:
 released: 2010-12-15
 updated: 2026-01-17
 version: '4.24'
-stars: 4.3
-ratings: 
 reviews: 55706
 website: https://www.fidelity.com
 repository: 

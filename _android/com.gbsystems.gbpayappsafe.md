@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-01
 updated: 2019-06-02
 version: 1.0.0
-stars: 3.3
-ratings: 
 reviews: 
 website: https://www.gbpay.cc/et/
 repository: 

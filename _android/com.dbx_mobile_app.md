@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-03
 updated: 2022-07-01
 version: '18.1'
-stars: 
-ratings: 
 reviews: 
 website: https://dbxbang.com/
 repository: 

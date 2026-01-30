@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-10
 updated: 2021-12-10
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://dispurseapp.com/
 repository: 

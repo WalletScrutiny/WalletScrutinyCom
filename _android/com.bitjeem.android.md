@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-16
 updated: 2022-12-03
 version: 1.11.0
-stars: 5
-ratings: 
 reviews: 
 website: https://bitjeem.com
 repository: 

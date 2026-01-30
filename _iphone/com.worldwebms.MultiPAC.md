@@ -10,7 +10,6 @@ idd: '1444261005'
 released: 2018-11-27
 updated: 2023-12-15
 version: 4.5.0
-stars: 4.9
 reviews: 9
 website: https://www.unido.us
 repository: 

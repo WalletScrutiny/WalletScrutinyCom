@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-15
 updated: 2023-05-12
 version: 1.4.0
-stars: 
-ratings: 
 reviews: 
 website: https://bolsadx.lat
 repository: 

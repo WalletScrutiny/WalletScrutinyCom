@@ -10,7 +10,6 @@ idd: '1477838562'
 released: 2019-09-09
 updated: 2022-12-22
 version: 2.0.3
-stars: 1
 reviews: 1
 website: https://prostocash.com
 repository: 

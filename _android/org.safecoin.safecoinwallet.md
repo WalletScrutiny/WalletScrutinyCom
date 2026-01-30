@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-10
 updated: 2019-03-18
 version: 0.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://safecoin.org
 repository: 

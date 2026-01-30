@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2024-10-28
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/thunderbiscuit/padawan-wallet
 repository: 

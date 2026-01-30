@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-14
 updated: 2020-07-06
 version: 5.5.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.capricoin.org/
 repository: 

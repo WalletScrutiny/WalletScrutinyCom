@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-31
 updated: 2024-02-05
 version: '2.6'
-stars: 
-ratings: 
 reviews: 
 website: https://vynksafe.com/
 repository: 

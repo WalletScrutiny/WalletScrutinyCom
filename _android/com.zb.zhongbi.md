@@ -10,8 +10,6 @@ appCountry:
 released: 2020-08-24
 updated: 2021-03-05
 version: 1.1.4
-stars: 4.7
-ratings: 104
 reviews: 100
 website: https://plantcoin.com
 repository: 

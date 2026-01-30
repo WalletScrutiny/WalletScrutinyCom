@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-05
 updated: 2018-11-19
 version: 0.5 BETA
-stars: 
-ratings: 
 reviews: 
 website: https://www.fybsg.com
 repository: 

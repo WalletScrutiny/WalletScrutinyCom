@@ -10,8 +10,6 @@ appCountry: gd
 released: 2019-07-11
 updated: 2025-06-25
 version: 4.1.8
-stars: 3.4
-ratings: 4416
 reviews: 3555
 website: https://www.bitwala.com
 repository: 

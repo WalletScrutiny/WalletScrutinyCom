@@ -10,7 +10,6 @@ idd: '1622756458'
 released: 2022-09-13
 updated: 2026-01-26
 version: 1.129.0
-stars: 5
 reviews: 139
 website: https://mpcvault.com/
 repository: 

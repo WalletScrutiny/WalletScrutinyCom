@@ -10,7 +10,6 @@ idd: '1475883958'
 released: 2019-08-16
 updated: 2020-02-12
 version: 1.3.3
-stars: 5
 reviews: 1
 website: https://abbccoin.com/
 repository: 

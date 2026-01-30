@@ -10,7 +10,6 @@ idd: '6462426281'
 released: 2023-08-24
 updated: 2026-01-13
 version: 1.13.11
-stars: 4.7
 reviews: 985
 website: https://www.speed.app/
 repository: 

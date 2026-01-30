@@ -10,7 +10,6 @@ idd: '1582937571'
 released: 2022-02-28
 updated: 2023-09-26
 version: 2.0.10
-stars: 5
 reviews: 1
 website: https://trade.xspringdigital.com
 repository: 

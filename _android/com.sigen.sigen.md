@@ -10,8 +10,6 @@ appCountry: ru
 released: 2020-04-18
 updated: 2025-04-17
 version: 2.9.56
-stars: 4.2
-ratings: 22751
 reviews: 6263
 website: https://sigen.pro/
 repository: 

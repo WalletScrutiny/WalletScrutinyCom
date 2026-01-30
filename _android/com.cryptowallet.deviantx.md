@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-12
 updated: 2019-08-01
 version: '2.6'
-stars: 
-ratings: 
 reviews: 
 website: https://deviantcoin.io
 repository: 

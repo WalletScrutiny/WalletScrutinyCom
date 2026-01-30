@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-01
 updated: 2025-12-17
 version: 17.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.gk8.io/contact-us/
 repository: 

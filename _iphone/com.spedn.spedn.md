@@ -10,7 +10,6 @@ idd: '1456135087'
 released: 2019-05-13
 updated: 2023-11-22
 version: 23.11.1
-stars: 4.2
 reviews: 108
 website: https://spedn.io
 repository: 

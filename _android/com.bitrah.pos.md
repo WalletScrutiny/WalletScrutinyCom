@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-21
 updated: 2023-02-07
 version: 3.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://bitrah.com/
 repository: 

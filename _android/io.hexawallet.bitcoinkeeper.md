@@ -10,8 +10,6 @@ appCountry: UK
 released: 2022-12-12
 updated: 2025-12-25
 version: 2.5.7
-stars: 4.8
-ratings: 
 reviews: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper

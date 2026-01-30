@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-23
 version: 3.2.2
-stars: 3.2
-ratings: 
 reviews: 
 website: https://www.bitmex.com/
 repository: 

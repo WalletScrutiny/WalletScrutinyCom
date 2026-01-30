@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-01-06
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://destreet.co
 repository: 

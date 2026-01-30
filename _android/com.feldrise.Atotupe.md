@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2018-09-04
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.feldrise.com
 repository: 

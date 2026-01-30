@@ -10,8 +10,6 @@ appCountry:
 released: 2023-07-16
 updated: 2024-08-23
 version: 3.0.12
-stars: 
-ratings: 
 reviews: 
 website: https://greencryptox.com/
 repository: 

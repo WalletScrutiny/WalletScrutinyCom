@@ -10,7 +10,6 @@ idd: 1442761980
 released: 2019-08-22
 updated: 2020-12-02
 version: 5.4.0
-stars: 3.9
 reviews: 22
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android

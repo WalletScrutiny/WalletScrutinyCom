@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-05
 updated: 2024-01-01
 version: 6.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://drone.onlinestore.digital
 repository: 

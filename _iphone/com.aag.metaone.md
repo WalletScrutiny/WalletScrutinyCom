@@ -10,7 +10,6 @@ idd: '1627212812'
 released: 2023-01-03
 updated: 2025-01-24
 version: 6.1.0
-stars: 4.8
 reviews: 55
 website: https://saakuru.com/app
 repository: 

@@ -10,7 +10,6 @@ idd: '1499421511'
 released: 2020-03-24
 updated: 2025-11-10
 version: 2.7.79
-stars: 4.3
 reviews: 3937
 website: https://www.lemon.me/en
 repository: 

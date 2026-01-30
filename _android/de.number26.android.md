@@ -10,8 +10,6 @@ appCountry:
 released: 2015-01-23
 updated: 2026-01-14
 version: '4.42'
-stars: 3.3
-ratings: 
 reviews: 2163
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 

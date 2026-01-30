@@ -9,8 +9,6 @@ appCountry:
 released: 2017-10-17
 updated: 2017-11-15
 version: '1.0'
-stars: 4.8
-ratings: 
 reviews: 
 website: https://www.centralcoin.io
 repository: 

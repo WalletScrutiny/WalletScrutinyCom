@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-04
 updated: 2025-10-28
 version: 1.8.52
-stars: 
-ratings: 
 reviews: 
 website: https://scitechnologyinc.com/mostwallet
 repository: 

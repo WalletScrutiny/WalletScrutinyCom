@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-14
 updated: 2022-09-26
 version: 0.21.11.0
-stars: 
-ratings: 
 reviews: 
 website: https://lnorb.com
 repository: 

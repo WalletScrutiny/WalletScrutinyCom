@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-28
 updated: 2023-10-02
 version: 1.7.6
-stars: 4.2
-ratings: 
 reviews: 2
 website: https://www.vipsfinstock.com
 repository: 

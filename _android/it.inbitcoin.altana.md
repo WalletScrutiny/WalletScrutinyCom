@@ -11,8 +11,6 @@ appCountry:
 released: 2017-04-18
 updated: 2024-09-15
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android

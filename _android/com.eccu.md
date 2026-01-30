@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-06
 updated: 2020-11-06
 version: '1.12'
-stars: 
-ratings: 
 reviews: 
 website: http://www.eccu.xyz
 repository: 

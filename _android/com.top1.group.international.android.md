@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-10
 updated: 2020-08-03
 version: 3.9.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.top1groups.com/
 repository: 

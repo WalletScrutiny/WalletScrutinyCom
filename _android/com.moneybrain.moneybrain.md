@@ -10,8 +10,6 @@ appCountry: gb
 released: 2019-10-17
 updated: 2026-01-17
 version: 3.14.0-retail
-stars: 
-ratings: 
 reviews: 
 website: https://www.moneybrain.com
 repository: 

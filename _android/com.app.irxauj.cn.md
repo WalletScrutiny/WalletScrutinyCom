@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-08-01
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://mmex.cc
 repository: 

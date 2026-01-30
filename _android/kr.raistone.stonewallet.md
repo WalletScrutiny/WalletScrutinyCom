@@ -9,8 +9,6 @@ appCountry:
 released: 2019-01-10
 updated: 2019-10-01
 version: 1.1.6
-stars: 
-ratings: 
 reviews: 
 website: http://www.raistone.kr
 repository: 

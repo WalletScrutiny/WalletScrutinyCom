@@ -9,8 +9,6 @@ appCountry:
 released: 2016-09-28
 updated: 2017-11-04
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: http://wallbtc.com
 repository: 

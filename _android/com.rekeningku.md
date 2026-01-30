@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-02-21
 updated: 2026-01-14
 version: 4.5.06
-stars: 4.5
-ratings: 22977
 reviews: 50
 website: https://reku.id
 repository: 

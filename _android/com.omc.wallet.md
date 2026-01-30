@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-15
 updated: 2022-02-15
 version: 1.1.38
-stars: 
-ratings: 
 reviews: 
 website: https://omc-group.co/
 repository: 

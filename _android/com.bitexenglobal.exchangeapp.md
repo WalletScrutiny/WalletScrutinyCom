@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-28
 version: '2.17'
-stars: 2.7
-ratings: 
 reviews: 
 website: https://global.bitexen.com/
 repository: 

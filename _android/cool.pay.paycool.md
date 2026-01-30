@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-16
 updated: 2024-03-04
 version: 2.5.163
-stars: 5
-ratings: 
 reviews: 3
 website: https://pay.cool
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2021-02-21
 updated: 2024-11-19
 version: 13.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://c-exchange.com/
 repository: 

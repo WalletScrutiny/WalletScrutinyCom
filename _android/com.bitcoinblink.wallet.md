@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-26
 updated: 2020-11-01
 version: '1.9'
-stars: 
-ratings: 
 reviews: 
 website: https://bitcoinblink.com/
 repository: 

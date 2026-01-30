@@ -10,7 +10,6 @@ idd: 1321460860
 released: 2018-01-04
 updated: 2025-11-18
 version: 2025.11.4
-stars: 5
 reviews: 1
 website: https://www.buda.com
 repository: 

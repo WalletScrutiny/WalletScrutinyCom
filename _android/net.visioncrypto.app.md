@@ -9,8 +9,6 @@ appCountry:
 released: 2025-05-23
 updated: 2025-08-22
 version: 0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://visioncrypto.net/
 repository: 

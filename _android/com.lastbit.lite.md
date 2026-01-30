@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-05-11
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://lastbit.io/
 repository: 

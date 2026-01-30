@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-30
 updated: 2022-08-29
 version: 1.3.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.thorbot.io/
 repository: 

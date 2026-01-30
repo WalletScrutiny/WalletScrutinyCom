@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2024-12-12
 version: 1.9.9
-stars: 4.7
-ratings: 
 reviews: 
 website: https://spendthebits.com/
 repository: 

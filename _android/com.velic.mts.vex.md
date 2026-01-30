@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-03
 updated: 2021-08-04
 version: 2.2.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.velic.io
 repository: 

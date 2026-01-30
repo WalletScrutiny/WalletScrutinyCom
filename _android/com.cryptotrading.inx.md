@@ -10,8 +10,6 @@ appCountry:
 released: 2022-06-11
 updated: 2025-09-10
 version: 2.0.12
-stars: 4.4
-ratings: 
 reviews: 18
 website: https://www.inx.co
 repository: 

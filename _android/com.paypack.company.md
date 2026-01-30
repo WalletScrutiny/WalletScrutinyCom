@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-04
 updated: 2021-02-04
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://paypack.company/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-01
 updated: 2021-05-01
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://botrado.com
 repository: 

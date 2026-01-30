@@ -9,8 +9,6 @@ appCountry:
 released: 2023-08-04
 updated: 2024-11-21
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.hordeswallet.com
 repository: 

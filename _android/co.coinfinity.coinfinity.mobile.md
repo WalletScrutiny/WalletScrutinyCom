@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-20
 version: 3.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://coinfinity.co/
 repository: 

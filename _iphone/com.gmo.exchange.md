@@ -10,7 +10,6 @@ idd: 1525862502
 released: 2020-08-09
 updated: 2025-12-18
 version: 3.2.5
-stars: 3.8
 reviews: 31
 website: https://ex.z.com/
 repository: 

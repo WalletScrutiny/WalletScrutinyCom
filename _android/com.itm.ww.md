@@ -9,8 +9,6 @@ appCountry:
 released: 2018-10-14
 updated: 2019-03-22
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: http://www.wampum1st.com
 repository: 

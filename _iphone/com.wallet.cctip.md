@@ -10,7 +10,6 @@ idd: '1576466746'
 released: 2021-09-22
 updated: 2022-12-24
 version: 2.3.3
-stars: 0
 reviews: 0
 website: https://cwallet.com
 repository: 

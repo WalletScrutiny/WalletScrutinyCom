@@ -10,8 +10,6 @@ appCountry:
 released: 2014-12-17
 updated: 2026-01-26
 version: 2.154.0
-stars: 4.6
-ratings: 22753
 reviews: 198
 website: http://www.xtb.com
 repository: 

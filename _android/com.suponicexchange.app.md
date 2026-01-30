@@ -10,8 +10,6 @@ appCountry:
 released: 2020-01-23
 updated: 2020-01-23
 version: '1.0'
-stars: 3.5
-ratings: 
 reviews: 2
 website: https://www.suponic.com
 repository: 

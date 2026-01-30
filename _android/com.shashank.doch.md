@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-07
 updated: 2020-08-11
 version: 1.6.7
-stars: 
-ratings: 
 reviews: 
 website: https://dochcoin.com/
 repository: 

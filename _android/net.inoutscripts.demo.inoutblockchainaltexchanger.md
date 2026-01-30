@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-02
 updated: 2024-03-02
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/
 repository: 

@@ -10,7 +10,6 @@ idd: '1507948482'
 released: 2021-07-19
 updated: 2021-12-16
 version: 2.4.0
-stars: 1
 reviews: 1
 website: https://clubswan.com
 repository: 

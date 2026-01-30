@@ -10,7 +10,6 @@ idd: 1518743276
 released: 2020-06-27
 updated: 2022-04-26
 version: 2.7.0
-stars: 0
 reviews: 0
 website: http://www.jubiterwallet.com
 repository: 

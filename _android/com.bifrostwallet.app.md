@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-09
 updated: 2026-01-18
 version: 0.7.40
-stars: 3.9
-ratings: 
 reviews: 102
 website: https://bifrostwallet.com
 repository: 

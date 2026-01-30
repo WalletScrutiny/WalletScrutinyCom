@@ -10,8 +10,6 @@ appCountry:
 released: 2022-01-13
 updated: 2022-04-07
 version: 2.7.0
-stars: 4.1
-ratings: 
 reviews: 4
 website: https://www.oxbtc.com
 repository: 

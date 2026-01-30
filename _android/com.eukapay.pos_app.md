@@ -9,8 +9,6 @@ appCountry:
 released: 2023-03-20
 updated: 2024-04-05
 version: 1.2.12
-stars: 
-ratings: 
 reviews: 
 website: https://eukapay.com
 repository: 

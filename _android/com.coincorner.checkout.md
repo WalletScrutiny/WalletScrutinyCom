@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-29
 updated: 2025-09-15
 version: 2.7.0
-stars: 5
-ratings: 
 reviews: 
 website: https://coincorner.com/checkout
 repository: 

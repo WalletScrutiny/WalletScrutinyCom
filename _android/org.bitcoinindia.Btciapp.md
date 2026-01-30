@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-08-25
 version: 3.2.54
-stars: 
-ratings: 
 reviews: 
 website: https://bitcoin-india.org/en
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2023-07-10
 updated: 2025-10-13
 version: 1.9.11
-stars: 4.2
-ratings: 
 reviews: 
 website: https://wizzwallet.io
 repository: 

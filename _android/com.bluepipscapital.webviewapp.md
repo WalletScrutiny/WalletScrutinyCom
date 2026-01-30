@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-11-12
 version: 2.6.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bluepips.co/
 repository: 

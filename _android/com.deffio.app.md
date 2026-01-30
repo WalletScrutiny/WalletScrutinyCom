@@ -10,8 +10,6 @@ appCountry:
 released: 2025-03-14
 updated: 2025-12-19
 version: 1.6.1
-stars: 
-ratings: 
 reviews: 
 website: https://deffio.com/wallet
 repository: 

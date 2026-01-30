@@ -9,8 +9,6 @@ appCountry:
 released: 2018-09-30
 updated: 2021-03-01
 version: '2.19'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitkoex.com/
 repository: 

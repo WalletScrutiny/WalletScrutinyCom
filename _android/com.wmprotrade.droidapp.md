@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-17
 updated: 2021-02-06
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://wmprotrade.com
 repository: 

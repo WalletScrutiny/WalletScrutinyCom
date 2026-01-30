@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-15
 updated: 2019-10-15
 version: '2.1'
-stars: 
-ratings: 
 reviews: 
 website: http://www.tcws.io/
 repository: 

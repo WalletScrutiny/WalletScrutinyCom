@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-10
 updated: 2025-12-20
 version: 5.8.1
-stars: 4
-ratings: 
 reviews: 12
 website: https://www.netcoins.com
 repository: 

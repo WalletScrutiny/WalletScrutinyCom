@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-13
 updated: 2021-10-14
 version: '1.46'
-stars: 
-ratings: 
 reviews: 
 website: https://wise.win/
 repository: 

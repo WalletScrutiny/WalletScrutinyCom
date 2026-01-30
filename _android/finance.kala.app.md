@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-10-05
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://kala.finance
 repository: 

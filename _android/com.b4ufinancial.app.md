@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-12
 updated: 2020-05-12
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://b4ufinancial.com
 repository: 

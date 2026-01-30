@@ -10,8 +10,6 @@ appCountry:
 released: 2023-03-10
 updated: 2026-01-23
 version: 1.51.0
-stars: 4.9
-ratings: 
 reviews: 
 website: https://hoyabit.com/
 repository: 

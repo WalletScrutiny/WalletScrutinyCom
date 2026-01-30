@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-02-12
 updated: 2022-02-15
 version: 1.4.9
-stars: 
-ratings: 
 reviews: 
 website: https://dmexchange.com
 repository: 

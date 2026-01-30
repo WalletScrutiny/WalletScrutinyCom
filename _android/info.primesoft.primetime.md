@@ -10,8 +10,6 @@ appCountry:
 released: 2020-04-02
 updated: 2025-08-15
 version: 1.0.0
-stars: 3.1
-ratings: 
 reviews: 6
 website: http://cryptobuy.ae
 repository: 

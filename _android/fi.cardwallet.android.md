@@ -10,8 +10,6 @@ appCountry: pt
 released: 2021-08-31
 updated: 2023-07-11
 version: '1.12'
-stars: 
-ratings: 
 reviews: 
 website: https://cwallet.finance/
 repository: 

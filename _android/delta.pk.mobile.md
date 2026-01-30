@@ -10,8 +10,6 @@ appCountry: bg
 released: 2013-03-29
 updated: 2025-10-21
 version: 5.9.13
-stars: 4.1
-ratings: 410
 reviews: 59
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 

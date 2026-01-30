@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-15
 updated: 2023-02-13
 version: 1.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://princeex.com/
 repository: 

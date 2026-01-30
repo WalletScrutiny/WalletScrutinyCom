@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-24
 updated: 2023-10-06
 version: 1.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.stablehouse.com
 repository: 

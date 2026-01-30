@@ -10,7 +10,6 @@ idd: 979206998
 released: 2015-09-16
 updated: 2022-10-14
 version: 7.4.0
-stars: 0
 reviews: 0
 website: https://www.trade360.com
 repository: 

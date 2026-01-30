@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-30
 updated: 2022-05-30
 version: '1.0'
-stars: 4.2
-ratings: 
 reviews: 
 website: https://veles.finance/
 repository: 

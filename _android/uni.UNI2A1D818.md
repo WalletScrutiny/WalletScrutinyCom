@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-23
 updated: 2021-12-16
 version: 1.4.8
-stars: 
-ratings: 
 reviews: 
 website: https://muskbot.io
 repository: 

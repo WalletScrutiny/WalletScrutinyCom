@@ -10,8 +10,6 @@ appCountry: us
 released: 2024-09-04
 updated: 2026-01-15
 version: 1.3.32
-stars: 
-ratings: 
 reviews: 
 website: http://digitalexchange.id
 repository: 

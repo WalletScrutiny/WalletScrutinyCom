@@ -10,8 +10,6 @@ appCountry:
 released: 2024-07-25
 updated: 2025-12-25
 version: 1.5.0
-stars: 
-ratings: 
 reviews: 
 website: https://cash2bitcoin.com/
 repository: 

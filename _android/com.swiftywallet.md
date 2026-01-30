@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-07
 updated: 2022-05-25
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.swifty.global/
 repository: 

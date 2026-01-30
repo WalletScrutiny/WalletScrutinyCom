@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-07
 updated: 2020-08-07
 version: 2.0.22
-stars: 4.9
-ratings: 337
 reviews: 154
 website: https://atswallet.io/
 repository: 

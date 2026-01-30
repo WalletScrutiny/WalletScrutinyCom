@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-26
 updated: 2021-07-02
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/bitteryapp/bitteryapp-android
 repository: 

@@ -11,8 +11,6 @@ appCountry:
 released: 2019-10-28
 updated: 2025-06-16
 version: 5.13.1
-stars: 4.4
-ratings: 
 reviews: 
 website: https://zumo.tech
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-08
 updated: 2025-05-05
 version: clubman
-stars: 4.3
-ratings: 
 reviews: 
 website: https://getfexr.com
 repository: 

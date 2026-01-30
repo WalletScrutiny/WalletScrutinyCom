@@ -10,7 +10,6 @@ idd: '1426179665'
 released: 2018-08-25
 updated: 2026-01-27
 version: 4.10.0
-stars: 4.7
 reviews: 2947
 website: https://www.ellipal.com/
 repository: 

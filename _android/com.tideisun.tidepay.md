@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-05-23
 updated: 2021-07-20
 version: 2.1.3
-stars: 
-ratings: 
 reviews: 
 website: https://isun.one
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2024-06-19
 updated: 2025-07-22
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://maxswap.cc
 repository: 

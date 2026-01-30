@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-18
 updated: 2022-12-10
 version: VARY
-stars: 3.8
-ratings: 
 reviews: 9
 website: https://sessip.com
 repository: 

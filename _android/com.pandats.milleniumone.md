@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-27
 updated: 2022-07-27
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://milleniumone.com/
 repository: 

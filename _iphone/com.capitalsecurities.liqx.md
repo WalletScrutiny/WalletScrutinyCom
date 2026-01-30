@@ -10,7 +10,6 @@ idd: '1535931066'
 released: 2021-10-13
 updated: 2024-04-04
 version: 2.6.8
-stars: 0
 reviews: 0
 website: https://www.liquidityx.com/eu/
 repository: 

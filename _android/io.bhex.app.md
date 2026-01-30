@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-12
 updated: 2021-04-30
 version: 4.0.1
-stars: 4.3
-ratings: 250
 reviews: 130
 website: https://www.hbtc.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-19
 updated: 2023-01-19
 version: 1.1.4
-stars: 
-ratings: 
 reviews: 
 website: https://bitubu.com
 repository: 

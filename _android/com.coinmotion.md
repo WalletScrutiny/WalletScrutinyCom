@@ -10,8 +10,6 @@ appCountry: in
 released: 2020-08-20
 updated: 2025-12-12
 version: 1.12.9
-stars: 4.2
-ratings: 
 reviews: 
 website: https://coinmotion.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-23
 updated: 2020-11-13
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://factpocket.com/
 repository: 

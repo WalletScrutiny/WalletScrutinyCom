@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-23
 updated: 2026-01-05
 version: 3.4.0
-stars: 
-ratings: 
 reviews: 
 website: https://bitqik.com/
 repository: 

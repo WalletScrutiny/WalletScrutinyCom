@@ -10,7 +10,6 @@ idd: '6446794637'
 released: 2023-04-13
 updated: 2025-11-05
 version: 1.27.1
-stars: 0
 reviews: 0
 website: https://www.bitsave.club/
 repository: 

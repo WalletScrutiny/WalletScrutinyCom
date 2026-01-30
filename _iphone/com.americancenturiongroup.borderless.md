@@ -10,7 +10,6 @@ idd: '1520123027'
 released: 2021-03-22
 updated: 2022-01-08
 version: '1.17'
-stars: 3.8
 reviews: 10
 website: https://overline.network
 repository: 

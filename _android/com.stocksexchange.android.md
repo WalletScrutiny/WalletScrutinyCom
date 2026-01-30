@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-05-15
 updated: 2023-04-18
 version: 2.2.0
-stars: 4.4
-ratings: 2148
 reviews: 41
 website: https://stex.com
 repository: 

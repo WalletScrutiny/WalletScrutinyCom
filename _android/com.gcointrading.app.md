@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-19
 updated: 2018-08-20
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.gtradingapp.com/
 repository: 

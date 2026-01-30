@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-06
 updated: 2022-09-06
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://pulpal.ir
 repository: 

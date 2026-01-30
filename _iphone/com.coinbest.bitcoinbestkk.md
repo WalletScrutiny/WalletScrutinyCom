@@ -10,7 +10,6 @@ idd: '1512389431'
 released: 2021-03-23
 updated: 2026-01-19
 version: 4.1.7
-stars: 4.5
 reviews: 13
 website: https://coinbest.com
 repository: 

@@ -10,7 +10,6 @@ idd: 1500255352
 released: 2020-02-27
 updated: 2021-08-22
 version: 1.3.1
-stars: 2.7
 reviews: 619
 website: https://mypatricia.co/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-02
 updated: 2022-02-07
 version: 3.2.0
-stars: 4.2
-ratings: 
 reviews: 
 website: https://kyros.team/
 repository: 

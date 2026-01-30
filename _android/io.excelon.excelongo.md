@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-09
 updated: 2023-05-25
 version: 1.0.76
-stars: 
-ratings: 
 reviews: 
 website: https://excelon.money
 repository: 

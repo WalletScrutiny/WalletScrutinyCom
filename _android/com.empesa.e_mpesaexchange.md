@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-28
 updated: 2020-02-28
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://e-mpesaexchange.com/
 repository: 

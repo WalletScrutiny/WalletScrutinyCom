@@ -9,8 +9,6 @@ appCountry:
 released: 2018-03-22
 updated: 2020-10-04
 version: v4.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://mfcoin.net
 repository: 

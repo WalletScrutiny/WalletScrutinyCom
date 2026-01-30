@@ -10,7 +10,6 @@ idd: '1587031891'
 released: 2021-10-11
 updated: 2022-12-19
 version: '1.1'
-stars: 0
 reviews: 0
 website: https://crystalballmarkets.com/platform
 repository: 

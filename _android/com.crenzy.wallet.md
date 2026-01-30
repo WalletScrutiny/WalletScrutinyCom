@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-25
 updated: 2020-05-14
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.crenzy.com
 repository: 

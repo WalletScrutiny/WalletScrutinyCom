@@ -10,8 +10,6 @@ appCountry:
 released: 2021-02-24
 updated: 2021-05-11
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinzo.com
 repository: 

@@ -10,7 +10,6 @@ idd: 1538001175
 released: 2020-11-09
 updated: 2024-10-06
 version: 1.9.2
-stars: 5
 reviews: 1
 website: https://ibandirect.com/
 repository: 

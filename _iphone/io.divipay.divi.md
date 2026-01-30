@@ -10,7 +10,6 @@ idd: 1516551223
 released: 2021-10-08
 updated: 2023-09-03
 version: 2.2.01215
-stars: 4.5
 reviews: 28
 website: http://wallet.diviproject.org
 repository: 

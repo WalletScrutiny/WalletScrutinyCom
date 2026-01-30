@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-27
 updated: 2022-05-27
 version: 4.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://ugainindia.com
 repository: 

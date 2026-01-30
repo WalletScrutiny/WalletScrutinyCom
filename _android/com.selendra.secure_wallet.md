@@ -10,8 +10,6 @@ appCountry:
 released: 2021-02-22
 updated: 2023-12-13
 version: 9.0.3
-stars: 4.2
-ratings: 96
 reviews: 4
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet

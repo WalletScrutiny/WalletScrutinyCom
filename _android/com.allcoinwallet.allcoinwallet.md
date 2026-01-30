@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-28
 updated: 2019-11-22
 version: 1.2.22
-stars: 4.3
-ratings: 105
 reviews: 1
 website: http://www.allcoinwallet.com
 repository: 

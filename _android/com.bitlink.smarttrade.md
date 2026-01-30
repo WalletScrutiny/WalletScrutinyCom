@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-04
 updated: 2021-05-05
 version: 1.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitlink.pro
 repository: 

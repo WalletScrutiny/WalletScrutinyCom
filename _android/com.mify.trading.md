@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-18
 updated: 2020-11-19
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.192trade.biz/
 repository: 

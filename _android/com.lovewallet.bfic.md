@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-12
 updated: 2022-04-13
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://lovewallet.online
 repository: 

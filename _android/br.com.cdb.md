@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-07
 updated: 2020-11-01
 version: 1.0.13
-stars: 
-ratings: 
 reviews: 
 website: http://www.coindigitalbank.com/
 repository: 

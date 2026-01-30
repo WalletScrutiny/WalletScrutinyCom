@@ -11,8 +11,6 @@ appCountry:
 released: 2013-02-01
 updated: 2026-01-23
 version: 202601.2.3
-stars: 4
-ratings: 115830
 reviews: 6327
 website: https://www.blockchain.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2017-11-20
 updated: 2020-11-22
 version: 2.8.8
-stars: 3.7
-ratings: 203
 reviews: 59
 website: https://evercoin.com
 repository: 

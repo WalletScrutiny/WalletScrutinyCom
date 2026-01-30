@@ -10,8 +10,6 @@ appCountry: us
 released: 
 updated: 2021-12-01
 version: 1.5.78-tmarkets
-stars: 
-ratings: 
 reviews: 
 website: https://www.t1markets.com
 repository: 

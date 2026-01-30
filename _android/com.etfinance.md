@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-11-29
 version: 1.5.78-etfinance
-stars: 
-ratings: 
 reviews: 
 website: https://www.etfinance.eu
 repository: 

@@ -11,8 +11,6 @@ appCountry:
 released: 2017-11-23
 updated: 2020-11-11
 version: 3.25.1
-stars: 3.1
-ratings: 1076
 reviews: 575
 website: https://www.tenx.tech
 repository: 

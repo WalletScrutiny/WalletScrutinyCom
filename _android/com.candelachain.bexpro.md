@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-25
 updated: 2021-02-20
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://www.bexpro.ph
 repository: 

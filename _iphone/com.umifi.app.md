@@ -10,7 +10,6 @@ idd: 1580892400
 released: 2021-09-02
 updated: 2021-12-24
 version: 1.0.6
-stars: 5
 reviews: 1
 website: https://www.umifi.com/en-ww/
 repository: 

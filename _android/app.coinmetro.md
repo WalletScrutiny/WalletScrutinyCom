@@ -10,8 +10,6 @@ appCountry: us
 released: 2017-12-10
 updated: 2026-01-16
 version: 5.50.997
-stars: 4.3
-ratings: 419
 reviews: 89
 website: https://coinmetro.com/
 repository: 

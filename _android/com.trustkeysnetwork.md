@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-03-02
 updated: 2024-10-22
 version: 2.4.3
-stars: 4.7
-ratings: 583
 reviews: 25
 website: https://trustkeys.network
 repository: 

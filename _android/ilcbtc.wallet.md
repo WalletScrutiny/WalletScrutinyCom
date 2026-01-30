@@ -10,8 +10,6 @@ appCountry:
 released: 2018-02-27
 updated: 2025-08-29
 version: '4.35'
-stars: 
-ratings: 
 reviews: 
 website: https://www.ilcoincrypto.com/
 repository: 

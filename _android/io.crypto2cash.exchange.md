@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-06
 updated: 2026-01-14
 version: 2.1.6
-stars: 3.7
-ratings: 
 reviews: 4
 website: https://www.crypto2cash.com/
 repository: 

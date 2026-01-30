@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-04
 updated: 2022-08-24
 version: '1.7'
-stars: 
-ratings: 
 reviews: 
 website: https://prod.xchangemonster.com/
 repository: 

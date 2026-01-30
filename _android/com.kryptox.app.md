@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-21
 updated: 2021-05-07
 version: '1.8'
-stars: 4.3
-ratings: 
 reviews: 
 website: https://www.kryptox.com
 repository: 

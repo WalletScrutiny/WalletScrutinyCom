@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-26
 updated: 2019-06-27
 version: 1.0-R
-stars: 
-ratings: 
 reviews: 
 website: https://131t.kr/
 repository: 

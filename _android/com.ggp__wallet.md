@@ -10,8 +10,6 @@ appCountry:
 released: 2024-06-05
 updated: 2026-01-12
 version: 1.5.2
-stars: 4.9
-ratings: 
 reviews: 16
 website: https://ggp.gg/
 repository: 

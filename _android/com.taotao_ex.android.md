@@ -10,8 +10,6 @@ appCountry:
 released: 2019-05-29
 updated: 2026-01-09
 version: 4.0.0
-stars: 2.3
-ratings: 
 reviews: 
 website: https://www.sbivc.co.jp/
 repository: 

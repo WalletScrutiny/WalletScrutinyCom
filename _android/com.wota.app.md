@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-11
 updated: 2025-08-31
 version: 1.5.0
-stars: 4.8
-ratings: 
 reviews: 
 website: https://enterwota.com
 repository: 

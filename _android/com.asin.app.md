@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-05
 updated: 2021-12-31
 version: 1.3.0
-stars: 1.9
-ratings: 
 reviews: 12
 website: https://asin.vip/
 repository: 

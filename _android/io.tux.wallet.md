@@ -10,8 +10,6 @@ appCountry:
 released: 2020-01-28
 updated: 2026-01-23
 version: 4.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://tux-wallet.com/
 repository: 

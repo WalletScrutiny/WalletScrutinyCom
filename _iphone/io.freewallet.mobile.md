@@ -11,7 +11,6 @@ idd: 1151168579
 released: 2016-11-05
 updated: 2019-03-18
 version: 1.0.9
-stars: 2.9
 reviews: 38
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile

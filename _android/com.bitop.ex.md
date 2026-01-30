@@ -10,8 +10,6 @@ appCountry:
 released: 2023-12-04
 updated: 2024-09-09
 version: 1.0.21
-stars: 
-ratings: 
 reviews: 
 website: http://www.bitop.com
 repository: 

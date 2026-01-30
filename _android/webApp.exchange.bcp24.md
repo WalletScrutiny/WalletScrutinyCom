@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-28
 updated: 2021-05-28
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://ex.bcp24.io
 repository: 

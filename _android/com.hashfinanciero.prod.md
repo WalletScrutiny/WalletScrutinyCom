@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-08
 updated: 2020-02-08
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.hashfinanciero.com
 repository: 

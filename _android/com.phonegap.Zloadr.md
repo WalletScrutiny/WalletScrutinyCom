@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-17
 updated: 2019-07-15
 version: 1.1.0
-stars: 4
-ratings: 1075
 reviews: 77
 website: https://www.zloadr.com
 repository: 

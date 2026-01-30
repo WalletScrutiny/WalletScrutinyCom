@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-03
 updated: 2021-12-15
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://btcintratrade.com/
 repository: 

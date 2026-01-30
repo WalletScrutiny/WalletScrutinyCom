@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-10-15
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://nayuta.co
 repository: 

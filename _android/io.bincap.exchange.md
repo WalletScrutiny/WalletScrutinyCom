@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-08
 updated: 2020-05-02
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://bincap.io
 repository: 

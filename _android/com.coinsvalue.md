@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-10
 updated: 2021-11-07
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: http://zezo.in
 repository: 

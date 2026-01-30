@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-30
 updated: 2019-10-10
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://dashboard.criptohub.com.br/
 repository: 

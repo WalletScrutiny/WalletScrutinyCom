@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-02
 updated: 2025-04-29
 version: 4.5.8
-stars: 
-ratings: 
 reviews: 
 website: https://groestlcoin.org
 repository: 

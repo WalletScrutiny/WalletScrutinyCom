@@ -10,7 +10,6 @@ idd: 1518765595
 released: 2020-11-19
 updated: 2024-11-12
 version: 1.11.6
-stars: 0
 reviews: 0
 website: https://coinmotion.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-02
 updated: 2021-12-14
 version: 3.10.5
-stars: 
-ratings: 
 reviews: 
 website: https://monya-wallet.github.io
 repository: https://github.com/monya-wallet/monya

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-12-01
 version: 1.5.78-capixal
-stars: 
-ratings: 
 reviews: 
 website: https://www.capixal.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-11
 updated: 2022-07-20
 version: 9.9.3.61
-stars: 
-ratings: 
 reviews: 
 website: http://www.ag-system.com
 repository: 

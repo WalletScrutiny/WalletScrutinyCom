@@ -10,7 +10,6 @@ idd: '1616670336'
 released: 2022-04-25
 updated: 2025-09-22
 version: 1.31.9
-stars: 3.9
 reviews: 81
 website: https://www.anycoin.cz
 repository: 

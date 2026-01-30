@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-27
 updated: 2023-04-24
 version: 2.2.1
-stars: 3.7
-ratings: 
 reviews: 
 website: https://power.trade/
 repository: 

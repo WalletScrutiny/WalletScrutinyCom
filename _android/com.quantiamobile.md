@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-19
 updated: 2025-12-24
 version: 3.0.16
-stars: 4.1
-ratings: 
 reviews: 
 website: https://quantia.io
 repository: 

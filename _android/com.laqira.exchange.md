@@ -10,8 +10,6 @@ appCountry:
 released: 2023-02-09
 updated: 2023-03-03
 version: 3.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://laqira.com/
 repository: 

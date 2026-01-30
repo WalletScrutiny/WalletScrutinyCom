@@ -10,8 +10,6 @@ appCountry: us
 released: 
 updated: 2021-08-25
 version: 1.5.69-roinvesting
-stars: 
-ratings: 
 reviews: 
 website: https://www.roinvesting.com/
 repository: 

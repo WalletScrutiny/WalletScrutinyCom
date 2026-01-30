@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-08-31
 updated: 2023-12-06
 version: 1.3.24
-stars: 
-ratings: 
 reviews: 
 website: https://coinbaazar.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-09
 updated: 2021-09-20
 version: 1.0.32
-stars: 
-ratings: 
 reviews: 
 website: https://www.lacero.io/flowos/
 repository: 

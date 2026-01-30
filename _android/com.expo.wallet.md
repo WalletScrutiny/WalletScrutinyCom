@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-02-18
 version: 1.0.15
-stars: 
-ratings: 
 reviews: 
 website: https://expo.biz/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-19
 updated: 2026-01-16
 version: 1.3.3
-stars: 4.2
-ratings: 
 reviews: 
 website: https://stage-fortvax-landing.goldalles.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-11
 updated: 2020-04-28
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/ilyapr/bitcoin-wallet-android
 repository: 

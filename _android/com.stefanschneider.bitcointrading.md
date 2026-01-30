@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-01
 updated: 2019-10-12
 version: 2.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://bitcoin-trading.global/
 repository: 

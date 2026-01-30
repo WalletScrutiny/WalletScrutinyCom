@@ -9,8 +9,6 @@ appCountry:
 released: 2016-10-19
 updated: 2018-01-11
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: http://app.forextoolsapp.com
 repository: 

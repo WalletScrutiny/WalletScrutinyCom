@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-04
 updated: 2020-04-09
 version: 1.1.20
-stars: 4.6
-ratings: 433
 reviews: 12
 website: https://www.dcipher.io
 repository: 

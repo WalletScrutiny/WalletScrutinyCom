@@ -10,7 +10,6 @@ idd: 1461735396
 released: 2019-08-19
 updated: 2020-12-20
 version: v2.1.3
-stars: 5
 reviews: 1
 website: https://plasmapay.com
 repository: 

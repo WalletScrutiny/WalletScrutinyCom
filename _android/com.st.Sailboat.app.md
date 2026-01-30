@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-16
 updated: 2022-03-24
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://apper.cc/privacy
 repository: 

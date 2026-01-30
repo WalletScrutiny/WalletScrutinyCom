@@ -10,7 +10,6 @@ idd: '1370504122'
 released: 2018-10-03
 updated: 2026-01-26
 version: 2.20.10
-stars: 4.6
 reviews: 24489
 website: https://www.newton.co
 repository: 

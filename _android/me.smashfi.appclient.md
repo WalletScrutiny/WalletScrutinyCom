@@ -9,8 +9,6 @@ appCountry:
 released: 2025-04-02
 updated: 2025-11-12
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://smashfi.me
 repository: 

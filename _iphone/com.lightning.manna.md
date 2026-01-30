@@ -10,7 +10,6 @@ idd: '6745337602'
 released: 2025-05-16
 updated: 2025-11-10
 version: 1.1.7
-stars: 5
 reviews: 7
 website: https://mannabitcoin.com
 repository: 

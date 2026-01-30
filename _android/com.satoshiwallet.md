@@ -9,8 +9,6 @@ appCountry:
 released: 2025-08-19
 updated: 2025-10-09
 version: 1.0.7
-stars: 4.8
-ratings: 
 reviews: 3
 website: https://satoshiwalletapp.com
 repository: 

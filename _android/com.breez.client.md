@@ -13,8 +13,6 @@ appCountry:
 released: 
 updated: 2025-01-14
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile

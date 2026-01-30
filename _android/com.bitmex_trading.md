@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-18
 updated: 2020-05-19
 version: '1.0'
-stars: 5
-ratings: 
 reviews: 4
 website: http://goliquid.app
 repository: 

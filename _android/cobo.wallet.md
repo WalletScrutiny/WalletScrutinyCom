@@ -10,8 +10,6 @@ appCountry:
 released: 2018-07-01
 updated: 2023-11-06
 version: 5.19.9
-stars: 3.2
-ratings: 4018
 reviews: 60
 website: https://cobo.com
 repository: 

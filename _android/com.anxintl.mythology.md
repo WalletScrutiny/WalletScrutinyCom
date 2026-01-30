@@ -10,8 +10,6 @@ appCountry:
 released: 2016-04-18
 updated: 2016-10-29
 version: 1.3.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.mydicewallet.com
 repository: 

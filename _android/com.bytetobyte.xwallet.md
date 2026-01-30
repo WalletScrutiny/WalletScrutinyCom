@@ -9,8 +9,6 @@ appCountry:
 released: 2017-04-27
 updated: 2017-09-03
 version: 0.3.1-beta
-stars: 
-ratings: 
 reviews: 
 website: https://ehanoc.github.io/xwallet/
 repository: 

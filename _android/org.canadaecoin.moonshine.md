@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-22
 updated: 2024-03-09
 version: 0.6.4
-stars: 
-ratings: 
 reviews: 
 website: https://ecoincore.com
 repository: 

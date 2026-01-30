@@ -10,7 +10,6 @@ idd: 649221938
 released: 2013-05-22
 updated: 2026-01-24
 version: 5.9.8
-stars: 4.4
 reviews: 16
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 

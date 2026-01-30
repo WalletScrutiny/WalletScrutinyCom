@@ -10,8 +10,6 @@ appCountry:
 released: 2024-04-01
 updated: 2025-10-30
 version: 1.27.0
-stars: 
-ratings: 
 reviews: 
 website: https://bitsave.club/
 repository: 

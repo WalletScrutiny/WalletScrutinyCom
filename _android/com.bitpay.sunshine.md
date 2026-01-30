@@ -9,8 +9,6 @@ appCountry:
 released: 2017-08-12
 updated: 2017-08-18
 version: 3.7.3
-stars: 
-ratings: 
 reviews: 
 website: http://www.sunshine-wallet.com
 repository: 

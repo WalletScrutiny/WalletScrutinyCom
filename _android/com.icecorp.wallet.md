@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-24
 updated: 2025-01-15
 version: '2.8'
-stars: 3.6
-ratings: 
 reviews: 
 website: https://www.icewal.com/
 repository: 

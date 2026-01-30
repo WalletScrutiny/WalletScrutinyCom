@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-07
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://freedx.com/
 repository: 

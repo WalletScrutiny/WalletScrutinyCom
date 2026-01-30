@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-14
 updated: 2018-12-26
 version: '0.1'
-stars: 
-ratings: 
 reviews: 
 website: https://denryu.hashhub.tokyo/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-27
 version: 0.69.0
-stars: 
-ratings: 
 reviews: 
 website: https://peachbitcoin.com
 repository: https://github.com/Peach2Peach/peach-app

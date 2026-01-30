@@ -10,8 +10,6 @@ appCountry:
 released: 2018-07-03
 updated: 2018-07-03
 version: '2.0'
-stars: 4.2
-ratings: 
 reviews: 
 website: http://www.crypstone.com
 repository: 

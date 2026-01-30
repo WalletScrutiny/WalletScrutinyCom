@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-02
 updated: 2019-11-02
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://xexxchange.com/
 repository: 

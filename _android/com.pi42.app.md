@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-22
 version: 1.0.58
-stars: 
-ratings: 
 reviews: 
 website: https://pi42.exchange/
 repository: 

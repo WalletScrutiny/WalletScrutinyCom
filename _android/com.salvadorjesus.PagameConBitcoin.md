@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-24
 updated: 2020-03-06
 version: 2.2.3.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.salvadorjesus.com/
 repository: 

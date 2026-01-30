@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-10-02
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://lightning.engineering
 repository: https://github.com/lightninglabs/lightning-app

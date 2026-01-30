@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-02-07
 updated: 2021-12-29
 version: '2.10'
-stars: 4.4
-ratings: 161
 reviews: 26
 website: https://www.beaxy.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-24
 updated: 2020-02-02
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://www.creativecodez.com
 repository: 

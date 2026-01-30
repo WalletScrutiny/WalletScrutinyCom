@@ -9,8 +9,6 @@ appCountry:
 released: 2024-12-27
 updated: 2025-10-31
 version: 0.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.nvxowallet.com/
 repository: 
