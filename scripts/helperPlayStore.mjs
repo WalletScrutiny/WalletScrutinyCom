@@ -15,7 +15,7 @@ const stats = {
 const category = 'android';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
-                'updated version stars ratings reviews website repository ' +
+                'updated version reviews website repository ' +
                 'issue icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social redirect_from developerName builds features').split(' ');
 
@@ -123,7 +123,6 @@ function updateFromApp (header, app) {
     header.updated = header.updated;
   }
   header.users = app.minInstalls;
-  header.stars = app.score || header.stars || null;
   header.reviews = app.reviews || null;
   header.website = app.developerWebsite || header.website || null;
   header.date = header.date || new Date();
