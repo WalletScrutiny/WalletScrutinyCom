@@ -213,9 +213,9 @@ async function createVerificationAfterCompilation(returnParamsFromCompilationJob
   };
 
   try {
-    await createVerification(ndkInstance, formData);
+    const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });

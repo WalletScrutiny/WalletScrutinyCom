@@ -235,6 +235,6 @@ async function publishNdkEvent(ndkEvent) {
       }
     }
 
-    return null;
+    return ndkEvent.id;
   }
 }
