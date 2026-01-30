@@ -17,16 +17,6 @@
         <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">Google Play</a>
       {% endif %}
   </div>
-  <div class="data">
-    <span>
-    {% if page.stars > 0 %}
-      {{ page.stars }}/5 stars 
-      {% if page.ratings %}
-        via <span class="important">{{ page.ratings }} ratings</span>
-      {% endif %}
-    {% endif %}
-    </span>
-  </div>
   {% if page.tooltip.distribution %}
     {% assign exists = 'exists' %}
   {% endif %}
