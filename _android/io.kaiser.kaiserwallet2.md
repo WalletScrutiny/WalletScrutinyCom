@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-03
 updated: 2022-11-12
 version: 2.9.11
-stars: 
-ratings: 
 reviews: 
 website: https://bizblocks.io
 repository: 

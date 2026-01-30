@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-03
 updated: 2020-12-23
 version: 0.17.2
-stars: 
-ratings: 
 reviews: 
 website: https://rigel.finance/
 repository: 

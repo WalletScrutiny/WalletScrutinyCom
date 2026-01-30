@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-05
 updated: 2021-09-22
 version: 2.3.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.vcb.com/
 repository: 

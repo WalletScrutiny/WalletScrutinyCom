@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-22
 updated: 2025-10-31
 version: 2.10.4
-stars: 
-ratings: 
 reviews: 
 website: https://myabcwallet.io
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-03-09
 updated: 2025-08-27
 version: 3.6.0
-stars: 
-ratings: 
 reviews: 
 website: https://followmymoney.de
 repository: 

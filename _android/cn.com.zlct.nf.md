@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-10
 updated: 2021-08-30
 version: 2.1.3
-stars: 
-ratings: 
 reviews: 
 website: https://nf35.com/#/
 repository: 

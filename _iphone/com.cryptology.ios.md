@@ -10,7 +10,6 @@ idd: 1313186415
 released: 2018-03-23
 updated: 2022-09-23
 version: 3.15.3
-stars: 5
 reviews: 6
 website: http://cryptology.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-27
 updated: 2021-12-27
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://botrado.net
 repository: 

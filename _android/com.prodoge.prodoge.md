@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-17
 updated: 2025-05-05
 version: '3.36'
-stars: 5
-ratings: 
 reviews: 5
 website: https://alxwallet.com
 repository: 

@@ -9,7 +9,6 @@ idd: '1415559276'
 released: 2018-09-20
 updated: 2023-05-22
 version: '2'
-stars: 5
 reviews: 1
 website: http://wampum1st.com
 repository: 

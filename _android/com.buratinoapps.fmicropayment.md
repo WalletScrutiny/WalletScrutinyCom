@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-06
 updated: 2022-07-11
 version: '1.6'
-stars: 
-ratings: 
 reviews: 
 website: https://xmonitoring.ru/
 repository: 

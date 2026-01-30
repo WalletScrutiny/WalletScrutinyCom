@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-11-12
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://higherprof.pro/
 repository: 

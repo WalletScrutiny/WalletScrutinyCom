@@ -9,8 +9,6 @@ appCountry:
 released: 2018-03-28
 updated: 2019-05-03
 version: 1.25.251
-stars: 
-ratings: 11
 reviews: 
 website: https://www.bokka.com
 repository: 

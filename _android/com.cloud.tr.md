@@ -10,8 +10,6 @@ appCountry: tr
 released: 2021-07-16
 updated: 2026-01-22
 version: 4.0.0
-stars: 4.7
-ratings: 42784
 reviews: 21026
 website: https://www.trbinance.com/
 repository: 

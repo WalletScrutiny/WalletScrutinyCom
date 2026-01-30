@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-11-01
 version: '3.75'
-stars: 3.9
-ratings: 
 reviews: 
 website: https://www.ziglu.io
 repository: 

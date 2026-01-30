@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-06-14
 version: 61.6.1
-stars: 
-ratings: 
 reviews: 
 website: https://xazur.digital
 repository: 

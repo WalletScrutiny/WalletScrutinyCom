@@ -10,7 +10,6 @@ idd: 1569267465
 released: 2021-07-05
 updated: 2024-01-23
 version: 3.0.6
-stars: 5
 reviews: 1
 website: https://www.nitroex.io/
 repository: 

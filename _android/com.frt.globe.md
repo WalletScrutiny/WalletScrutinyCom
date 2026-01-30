@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-08-06
 version: 1.3.0
-stars: 4.4
-ratings: 
 reviews: 
 website: https://globe.exchange/support
 repository: 

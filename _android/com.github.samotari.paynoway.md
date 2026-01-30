@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-14
 updated: 2021-04-10
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/samotari/paynoway
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-01
 updated: 2024-03-05
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://inout-blockchain-fiatexchanger.demo.inoutscripts.net
 repository: 

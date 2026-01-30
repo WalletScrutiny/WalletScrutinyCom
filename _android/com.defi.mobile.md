@@ -9,8 +9,6 @@ appCountry:
 released: 2025-07-16
 updated: 2026-01-18
 version: 1.0.11
-stars: 4.8
-ratings: 
 reviews: 3
 website: https://defi.app
 repository: 

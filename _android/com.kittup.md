@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-02
 updated: 2023-06-23
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://kittup.app
 repository: 

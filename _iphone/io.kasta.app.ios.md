@@ -10,7 +10,6 @@ idd: '1621024107'
 released: 2022-06-09
 updated: 2023-09-27
 version: 1.27.113
-stars: 5
 reviews: 1
 website: https://www.kasta.io
 repository: 

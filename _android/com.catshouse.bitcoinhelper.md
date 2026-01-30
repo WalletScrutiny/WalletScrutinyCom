@@ -9,8 +9,6 @@ appCountry:
 released: 2024-06-14
 updated: 2024-06-22
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://y84060b34.app-ads-txt.com
 repository: 

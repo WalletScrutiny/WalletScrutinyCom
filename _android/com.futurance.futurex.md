@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-07
 updated: 2026-01-21
 version: 2.7.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.fexobit.com/
 repository: 

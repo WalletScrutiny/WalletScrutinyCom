@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-07
 updated: 2021-11-22
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.matinex.com
 repository: 

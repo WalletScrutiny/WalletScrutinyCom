@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-18
 updated: 2022-06-29
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://lab.localtrade.cc
 repository: 

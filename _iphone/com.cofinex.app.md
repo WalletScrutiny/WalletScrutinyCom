@@ -10,7 +10,6 @@ idd: 1540245134
 released: 2021-08-12
 updated: 2021-08-12
 version: '1.0'
-stars: 
 reviews: 
 website: https://exchange.cofinex.io/
 repository: 

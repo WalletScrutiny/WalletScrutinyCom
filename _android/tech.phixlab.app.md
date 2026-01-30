@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-12
 updated: 2019-06-12
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://fargomine.com/
 repository: 

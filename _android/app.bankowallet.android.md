@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-22
 updated: 2020-06-29
 version: 1.3.17851
-stars: 
-ratings: 
 reviews: 
 website: http://www.bankowallet.com
 repository: 

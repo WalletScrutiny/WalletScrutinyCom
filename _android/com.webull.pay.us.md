@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-26
 updated: 2026-01-08
 version: 2.1.6.19
-stars: 4.6
-ratings: 
 reviews: 1153
 website: http://www.webullpay.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-20
 updated: 2026-01-25
 version: 4.26.0
-stars: 4.2
-ratings: 358
 reviews: 9311
 website: https://zbd.gg/z/support
 repository: 

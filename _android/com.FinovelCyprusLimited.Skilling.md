@@ -10,8 +10,6 @@ appCountry: gb
 released: 2020-05-05
 updated: 2025-10-03
 version: 2.5.5
-stars: 4.4
-ratings: 172
 reviews: 6
 website: https://skilling.com/
 repository: 

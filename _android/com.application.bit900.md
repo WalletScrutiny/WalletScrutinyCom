@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-22
 updated: 2020-06-26
 version: '1.24'
-stars: 
-ratings: 
 reviews: 
 website: https://www.trackonbtcguide.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-01-05
 updated: 2022-01-26
 version: 1.0.2
-stars: 2.7
-ratings: 
 reviews: 5
 website: https://biskit.global/
 repository: 

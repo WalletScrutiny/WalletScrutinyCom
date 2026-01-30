@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-21
 updated: 2021-05-21
 version: '4'
-stars: 
-ratings: 
 reviews: 
 website: https://spacelink.exchange
 repository: 

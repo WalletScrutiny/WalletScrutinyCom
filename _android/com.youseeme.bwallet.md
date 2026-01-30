@@ -9,8 +9,6 @@ appCountry:
 released: 2018-11-22
 updated: 2019-05-22
 version: '1.27'
-stars: 3
-ratings: 
 reviews: 
 website: https://www.bartwallet.pro
 repository: 

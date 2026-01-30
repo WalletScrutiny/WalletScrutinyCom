@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-28
 updated: 2022-05-28
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://coinforbarter.com
 repository: 

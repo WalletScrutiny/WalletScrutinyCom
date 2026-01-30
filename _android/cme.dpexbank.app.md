@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-25
 updated: 2021-03-25
 version: '1.06'
-stars: 
-ratings: 
 reviews: 
 website: http://www.dpexbank.com
 repository: 

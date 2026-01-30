@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-07-04
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://trupay.finance
 repository: 

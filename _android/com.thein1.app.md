@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-26
 version: 0.9.8
-stars: 
-ratings: 
 reviews: 
 website: https://www.in1.io
 repository: 

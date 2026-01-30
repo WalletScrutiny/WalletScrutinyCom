@@ -10,8 +10,6 @@ appCountry:
 released: 2021-01-19
 updated: 2023-08-26
 version: 2.0.2
-stars: 4.5
-ratings: 729
 reviews: 65
 website: https://coinhub8899.web.app
 repository: 

@@ -10,7 +10,6 @@ idd: '1489679343'
 released: 2019-12-18
 updated: 2022-05-18
 version: 1.6.0
-stars: 0
 reviews: 0
 website: https://ibtc.com.hk/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-24
 updated: 2019-04-24
 version: '1.0'
-stars: 2.8
-ratings: 45
 reviews: 31
 website: http://www.yeswallet.io
 repository: 

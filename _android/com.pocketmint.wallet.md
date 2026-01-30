@@ -10,8 +10,6 @@ appCountry:
 released: 2025-05-03
 updated: 2025-12-24
 version: 1.9.0
-stars: 2.3
-ratings: 
 reviews: 8
 website: http://pocketmint.ai
 repository: 

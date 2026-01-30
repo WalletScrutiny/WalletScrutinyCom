@@ -10,8 +10,6 @@ appCountry:
 released: 2023-02-10
 updated: 2026-01-28
 version: 0.51.5
-stars: 
-ratings: 
 reviews: 
 website: https://p.cash/
 repository: https://github.com/piratecash/pcash-wallet-android

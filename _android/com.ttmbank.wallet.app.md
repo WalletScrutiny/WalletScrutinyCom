@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-05
 updated: 2024-04-25
 version: 2.3.10
-stars: 
-ratings: 
 reviews: 
 website: https://ttmwallet.io
 repository: 

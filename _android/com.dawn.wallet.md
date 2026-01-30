@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-13
 updated: 2021-04-24
 version: 3.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://dawn.org
 repository: 

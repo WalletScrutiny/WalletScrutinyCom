@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2018-12-08
 version: Varies with device
-stars: 5
-ratings: 5
 reviews: 2
 website: https://zupago.pe/
 repository: 

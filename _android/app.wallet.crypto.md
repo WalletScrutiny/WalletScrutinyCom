@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-30
 updated: 2024-01-12
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.app
 repository: 

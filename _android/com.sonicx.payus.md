@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-06
 updated: 2021-02-10
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.payus.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-17
 updated: 2023-03-15
 version: 1.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://starmera.com
 repository: 

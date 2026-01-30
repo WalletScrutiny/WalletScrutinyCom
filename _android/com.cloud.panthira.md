@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2022-12-21
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://exchange.panthira.com/
 repository: 

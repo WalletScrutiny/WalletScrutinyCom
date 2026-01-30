@@ -10,7 +10,6 @@ idd: '1660882885'
 released: 2023-02-13
 updated: 2026-01-26
 version: 2.1.7
-stars: 4.8
 reviews: 3695
 website: https://www.toobit.com/
 repository: 

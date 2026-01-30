@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-10
 updated: 2025-08-04
 version: 1.8.0
-stars: 4.9
-ratings: 
 reviews: 
 website: https://bitoket.com
 repository: 

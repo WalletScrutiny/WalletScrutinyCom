@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-08
 updated: 2020-05-07
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://www.digitide.us/bittide/
 repository: 

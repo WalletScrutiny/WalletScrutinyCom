@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-07
 updated: 2020-11-05
 version: 1.3.2
-stars: 
-ratings: 
 reviews: 
 website: https://visionwallet.com/en/
 repository: 

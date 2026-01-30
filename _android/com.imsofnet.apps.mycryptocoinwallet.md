@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-24
 updated: 2018-01-31
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.imsofnet.com
 repository: 

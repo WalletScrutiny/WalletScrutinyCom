@@ -10,7 +10,6 @@ idd: '1480988766'
 released: 2019-10-16
 updated: 2022-08-23
 version: 2.0.0
-stars: 4.2
 reviews: 5
 website: https://www.felixo.com
 repository: 

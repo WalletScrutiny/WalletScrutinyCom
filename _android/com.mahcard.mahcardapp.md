@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-05
 updated: 2019-10-06
 version: '2.6'
-stars: 
-ratings: 
 reviews: 
 website: https://mahcard.co
 repository: 

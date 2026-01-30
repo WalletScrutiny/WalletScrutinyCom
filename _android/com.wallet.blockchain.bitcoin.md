@@ -10,8 +10,6 @@ appCountry:
 released: 2023-12-21
 updated: 2024-11-22
 version: 0.2.7
-stars: 
-ratings: 
 reviews: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/coindex-wallet-android

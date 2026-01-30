@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-08-29
 version: 2.1.39
-stars: 3.4
-ratings: 
 reviews: 
 website: https://chainex.io/
 repository: 

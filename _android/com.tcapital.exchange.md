@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-10
 updated: 2021-03-27
 version: 1.1.5
-stars: 4.1
-ratings: 
 reviews: 
 website: https://ex.tcapex.com/
 repository: 

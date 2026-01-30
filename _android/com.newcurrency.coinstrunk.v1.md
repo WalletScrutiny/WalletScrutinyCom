@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-15
 updated: 2022-03-09
 version: '1.12'
-stars: 4.1
-ratings: 635
 reviews: 50
 website: http://firstdaotrust.com
 repository: 

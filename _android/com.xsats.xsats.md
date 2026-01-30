@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-02-22
 version: 1.1.7
-stars: 
-ratings: 
 reviews: 
 website: https://www.xsats.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-08
 updated: 2022-12-08
 version: '1'
-stars: 5
-ratings: 
 reviews: 22
 website: http://cryptogeek.info
 repository: 

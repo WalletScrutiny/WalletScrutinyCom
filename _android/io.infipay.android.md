@@ -10,8 +10,6 @@ appCountry: in
 released: 2020-10-28
 updated: 2021-04-08
 version: 1.1.2
-stars: 4.2
-ratings: 50
 reviews: 1
 website: http://www.infipay.io/
 repository: 

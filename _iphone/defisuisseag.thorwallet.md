@@ -10,7 +10,6 @@ idd: '1592064324'
 released: 2021-11-28
 updated: 2025-11-05
 version: 3.2.5
-stars: 4.6
 reviews: 39
 website: http://thorwallet.org
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2017-09-20
 updated: 2019-07-11
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://chukwukaobeleagu.com
 repository: 

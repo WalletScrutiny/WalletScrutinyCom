@@ -9,8 +9,6 @@ appCountry:
 released: 2024-05-22
 updated: 2025-01-15
 version: 0.2.37
-stars: 
-ratings: 
 reviews: 
 website: https://axirwallet.com/
 repository: 

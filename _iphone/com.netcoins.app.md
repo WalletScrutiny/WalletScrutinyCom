@@ -10,7 +10,6 @@ idd: '1571344881'
 released: 2021-08-10
 updated: 2026-01-07
 version: 5.8.1
-stars: 4.9
 reviews: 80
 website: https://netcoins.com
 repository: 

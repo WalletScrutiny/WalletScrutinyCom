@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-12
 updated: 2019-07-12
 version: '2.2'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-04-24
 updated: 2021-11-04
 version: 2.5.8
-stars: 3.2
-ratings: 164
 reviews: 98
 website: https://www.coinsuper.com/
 repository: 

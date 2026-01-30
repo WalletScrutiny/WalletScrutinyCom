@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-15
 version: 6.15.38
-stars: 
-ratings: 
 reviews: 
 website: https://gate.com.tr/
 repository: 

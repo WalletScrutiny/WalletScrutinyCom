@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-10
 updated: 2022-12-12
 version: '1.8'
-stars: 4
-ratings: 
 reviews: 8
 website: https://wallet.berrychain.io
 repository: 

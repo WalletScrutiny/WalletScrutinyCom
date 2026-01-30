@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-27
 updated: 2025-04-01
 version: 2.0.0
-stars: 3.3
-ratings: 
 reviews: 
 website: https://cryptoforce.in
 repository: 

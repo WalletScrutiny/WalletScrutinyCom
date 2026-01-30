@@ -12,7 +12,6 @@ idd: 1535791362
 released: 2021-07-06
 updated: 2021-10-23
 version: 1.3.4
-stars: 5
 reviews: 1
 website: https://www.bhexchain.com/
 repository: 

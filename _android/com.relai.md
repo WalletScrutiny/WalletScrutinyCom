@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-19
 version: 3.9.1
-stars: 
-ratings: 
 reviews: 
 website: https://relai.app
 repository: 

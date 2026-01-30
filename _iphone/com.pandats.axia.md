@@ -10,7 +10,6 @@ idd: 1538965141
 released: 2020-11-16
 updated: 2026-01-07
 version: 3.6.0
-stars: 1
 reviews: 1
 website: https://www.axiainvestments.com
 repository: 

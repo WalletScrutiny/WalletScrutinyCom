@@ -10,7 +10,6 @@ idd: '1627171234'
 released: 2022-07-21
 updated: 2025-11-25
 version: 2.0.4
-stars: 4.8
 reviews: 493
 website: https://tapinvest.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1624901793'
 released: 2022-08-04
 updated: 2025-12-29
 version: 1.7.3
-stars: 4.8
 reviews: 209
 website: https://cropty.io/
 repository: 

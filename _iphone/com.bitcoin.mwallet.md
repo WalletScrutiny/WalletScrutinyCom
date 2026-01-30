@@ -10,7 +10,6 @@ idd: '1252903728'
 released: 2017-07-11
 updated: 2026-01-22
 version: 9.6.0
-stars: 4.7
 reviews: 41944
 website: https://wallet.bitcoin.com/
 repository: 

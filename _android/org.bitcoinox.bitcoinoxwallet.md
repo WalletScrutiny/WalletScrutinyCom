@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-04
 updated: 2024-12-22
 version: 2.8.8
-stars: 3.6
-ratings: 32
 reviews: 5
 website: https://bitcoinox.com
 repository: 

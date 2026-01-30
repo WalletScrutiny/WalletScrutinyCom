@@ -10,7 +10,6 @@ idd: 1504798360
 released: 2021-03-25
 updated: 2026-01-23
 version: 5.9.0
-stars: 3.1
 reviews: 64
 website: https://pundi.ai/
 repository: https://github.com/FunctionX/fx-wallet-android

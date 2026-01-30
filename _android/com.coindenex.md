@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-02
 updated: 2021-05-02
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://coindenex.com
 repository: 

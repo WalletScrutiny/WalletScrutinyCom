@@ -10,7 +10,6 @@ idd: '1628767095'
 released: 2022-07-22
 updated: 2023-09-27
 version: 2.16.0
-stars: 0
 reviews: 0
 website: https://www.tokenomy.com
 repository: 

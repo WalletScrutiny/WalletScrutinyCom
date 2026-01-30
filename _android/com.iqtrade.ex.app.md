@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-18
 updated: 2025-03-17
 version: 3.2.2
-stars: 4.4
-ratings: 
 reviews: 20
 website: https://www.iq-trading.com
 repository: 

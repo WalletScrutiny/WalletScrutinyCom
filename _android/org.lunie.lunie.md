@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-11-26
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://lunie.io
 repository: 

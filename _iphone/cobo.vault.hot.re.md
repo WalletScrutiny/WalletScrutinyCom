@@ -10,7 +10,6 @@ idd: '1483305773'
 released: 2020-04-01
 updated: 2021-03-24
 version: 2.2.6
-stars: 3.5
 reviews: 12
 website: https://cobo.com/hardware-wallet
 repository: https://github.com/CoboVault/cobo-vault-cold

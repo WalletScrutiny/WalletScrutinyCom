@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-06
 updated: 2023-02-03
 version: 1.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://radiuswallet.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-09
 updated: 2026-01-13
 version: 1.0.17
-stars: 
-ratings: 
 reviews: 
 website: https://degate.com/
 repository: 

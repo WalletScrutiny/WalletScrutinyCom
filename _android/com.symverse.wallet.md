@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-29
 updated: 2021-04-20
 version: 1.2.1
-stars: 4.5
-ratings: 
 reviews: 
 website: https://symverse.com
 repository: 

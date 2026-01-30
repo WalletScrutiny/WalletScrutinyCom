@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-24
 updated: 2020-11-25
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://bmkoin.org/
 repository: 

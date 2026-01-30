@@ -9,7 +9,6 @@ idd: '1541005487'
 released: 2021-02-18
 updated: 2025-11-07
 version: 1.40.0
-stars: 0
 reviews: 0
 website: https://gleecbtc.com
 repository: 

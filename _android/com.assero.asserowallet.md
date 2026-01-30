@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-01
 updated: 2020-07-13
 version: '1.9'
-stars: 
-ratings: 
 reviews: 
 website: https://www.asserosapphiremoney.com/
 repository: 

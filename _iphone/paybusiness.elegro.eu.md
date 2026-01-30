@@ -10,7 +10,6 @@ idd: '1526117414'
 released: 2020-08-14
 updated: 2025-05-15
 version: '4.1'
-stars: 0
 reviews: 0
 website: https://business.elegro.eu/elegro-business-wallet
 repository: 

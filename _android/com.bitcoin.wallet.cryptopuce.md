@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-07
 updated: 2021-05-20
 version: '1.2'
-stars: 4.9
-ratings: 70
 reviews: 3
 website: https://cryptopuce.com
 repository: 

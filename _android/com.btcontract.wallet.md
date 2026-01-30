@@ -11,8 +11,6 @@ appCountry:
 released: 2015-07-15
 updated: 2023-10-27
 version: 2.5.8
-stars: 3.9
-ratings: 1061
 reviews: 34
 website: 
 repository: https://github.com/Tactical-Advantage-Trading/wallet

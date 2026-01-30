@@ -9,8 +9,6 @@ appCountry:
 released: 2025-10-09
 updated: 2025-12-05
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://lexaascan.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1599570197'
 released: 2022-05-09
 updated: 2026-01-27
 version: 2.7.2
-stars: 3.3
 reviews: 37
 website: https://plugwallet.ooo/
 repository: 

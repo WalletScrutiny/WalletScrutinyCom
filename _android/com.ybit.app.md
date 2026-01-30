@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-16
 updated: 2025-09-24
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://ybitwallet.com/
 repository: 

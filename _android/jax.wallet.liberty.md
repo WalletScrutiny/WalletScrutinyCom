@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-30
 updated: 2021-08-31
 version: '12.003'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

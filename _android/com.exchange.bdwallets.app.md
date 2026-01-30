@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-29
 updated: 2022-01-08
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.bdwallets.com/
 repository: 

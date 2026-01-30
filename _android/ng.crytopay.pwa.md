@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-20
 updated: 2020-10-22
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://cryptopay.ng/
 repository: 

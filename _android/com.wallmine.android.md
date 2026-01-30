@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-21
 updated: 2020-07-29
 version: 1.1.10
-stars: 4
-ratings: 66
 reviews: 9
 website: https://wallmine.com
 repository: 

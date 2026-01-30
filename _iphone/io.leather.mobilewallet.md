@@ -10,7 +10,6 @@ idd: '6499127775'
 released: 2025-05-28
 updated: 2025-10-16
 version: 2.81.0
-stars: 5
 reviews: 5
 website: https://www.leather.io
 repository: https://github.com/leather-io/mono/

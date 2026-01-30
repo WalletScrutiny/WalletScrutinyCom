@@ -10,8 +10,6 @@ appCountry:
 released: 2023-02-21
 updated: 2026-01-19
 version: 3.3.3
-stars: 4.6
-ratings: 
 reviews: 1365
 website: https://nearmobile.app/
 repository: 

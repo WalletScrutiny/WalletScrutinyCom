@@ -9,8 +9,6 @@ appCountry:
 released: 2023-01-05
 updated: 2026-01-14
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://savitaglobal.com/
 repository: 

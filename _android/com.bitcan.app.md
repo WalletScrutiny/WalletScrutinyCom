@@ -10,8 +10,6 @@ appCountry: us
 released: 2017-10-18
 updated: 2024-08-30
 version: 8.23.0.9
-stars: 3.1
-ratings: 92
 reviews: 29
 website: http://www.bitkan.com
 repository: 

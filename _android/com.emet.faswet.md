@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-08
 updated: 2021-07-14
 version: 1.9.2
-stars: 4.2
-ratings: 
 reviews: 
 website: https://faswet.com
 repository: 

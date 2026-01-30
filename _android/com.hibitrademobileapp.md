@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-25
 updated: 2022-09-06
 version: 2.0.36
-stars: 
-ratings: 
 reviews: 
 website: https://hibitrade.com/
 repository: 

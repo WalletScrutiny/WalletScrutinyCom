@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-19
 updated: 2023-06-21
 version: 2.6.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.paybank.com
 repository: 

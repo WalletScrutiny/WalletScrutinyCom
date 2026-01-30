@@ -9,8 +9,6 @@ appCountry:
 released: 2017-08-09
 updated: 2017-10-11
 version: 0.2.1
-stars: 
-ratings: 
 reviews: 
 website: http://chronobank.io
 repository: 

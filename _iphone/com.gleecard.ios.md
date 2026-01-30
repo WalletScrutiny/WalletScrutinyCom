@@ -10,7 +10,6 @@ idd: '1532231032'
 released: 2021-02-21
 updated: 2026-01-27
 version: '31.0'
-stars: 1
 reviews: 1
 website: https://gleec.com/
 repository: 

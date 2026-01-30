@@ -10,8 +10,6 @@ appCountry:
 released: 2023-12-21
 updated: 2026-01-27
 version: 2.0.5
-stars: 4.4
-ratings: 
 reviews: 333
 website: https://www.kcex.com/
 repository: 

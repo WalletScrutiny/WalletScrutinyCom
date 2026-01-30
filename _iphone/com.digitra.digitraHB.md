@@ -10,7 +10,6 @@ idd: '1577787451'
 released: 2022-03-12
 updated: 2026-01-20
 version: 1.0.165
-stars: 4.8
 reviews: 32
 website: https://www.digitra.com
 repository: 

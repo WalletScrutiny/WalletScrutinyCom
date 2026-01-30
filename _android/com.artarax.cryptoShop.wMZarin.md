@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-02
 updated: 2022-06-27
 version: 2.026.148-GooglePlay
-stars: 4.3
-ratings: 
 reviews: 2
 website: https://wmzarin.com
 repository: 

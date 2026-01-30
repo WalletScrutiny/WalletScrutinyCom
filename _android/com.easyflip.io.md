@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-11
 updated: 2022-12-04
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://easyflip.io
 repository: 

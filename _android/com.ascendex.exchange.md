@@ -10,8 +10,6 @@ appCountry:
 released: 2021-04-28
 updated: 2025-12-31
 version: 3.6.9
-stars: 3.6
-ratings: 6660
 reviews: 76
 website: https://www.ascendex.com/
 repository: 

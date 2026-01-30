@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-29
 updated: 2025-10-15
 version: 2.2.2
-stars: 5
-ratings: 
 reviews: 1
 website: https://www.actpass.com
 repository: 

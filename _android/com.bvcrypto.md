@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-28
 updated: 2019-05-28
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.bvcrypto.com
 repository: 

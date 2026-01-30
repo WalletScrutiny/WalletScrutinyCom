@@ -9,7 +9,6 @@ idd: '1583296115'
 released: 2022-02-15
 updated: 2022-10-18
 version: 1.1.103
-stars: 4.2
 reviews: 5
 website: https://www.banexcoin.com/
 repository: 

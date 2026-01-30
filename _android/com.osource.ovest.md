@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-04
 updated: 2022-03-04
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://myovest.com
 repository: 

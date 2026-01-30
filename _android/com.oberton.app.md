@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-15
 updated: 2025-08-24
 version: 2.16.1
-stars: 4.9
-ratings: 
 reviews: 27
 website: https://bytehub.io
 repository: 

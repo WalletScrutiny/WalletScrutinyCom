@@ -10,7 +10,6 @@ idd: '1630753422'
 released: 2022-11-03
 updated: 2023-12-22
 version: 1.15.0
-stars: 0
 reviews: 0
 website: https://xgo.com
 repository: 

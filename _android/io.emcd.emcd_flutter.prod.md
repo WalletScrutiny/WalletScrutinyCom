@@ -10,8 +10,6 @@ appCountry:
 released: 2022-01-03
 updated: 2026-01-21
 version: 2.23.3
-stars: 4.5
-ratings: 
 reviews: 36
 website: https://emcd.io/ru
 repository: 

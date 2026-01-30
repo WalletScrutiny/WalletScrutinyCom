@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-18
 updated: 2021-04-21
 version: '2.0'
-stars: 5
-ratings: 
 reviews: 
 website: https://pasaraset.com
 repository: 

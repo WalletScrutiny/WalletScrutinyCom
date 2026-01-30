@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-29
 updated: 2026-01-22
 version: 3.1.6
-stars: 3.6
-ratings: 
 reviews: 9
 website: https://trubit.com/
 repository: 

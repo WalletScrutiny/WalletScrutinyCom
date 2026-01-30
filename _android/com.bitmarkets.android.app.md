@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-04
 updated: 2026-01-27
 version: 3.8.6
-stars: 4
-ratings: 
 reviews: 
 website: https://www.bitmarkets.com/
 repository: 

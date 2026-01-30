@@ -9,8 +9,6 @@ appCountry:
 released: 2023-01-16
 updated: 2026-01-11
 version: 2.00.35
-stars: 
-ratings: 
 reviews: 
 website: https://www.getbit.money
 repository: 

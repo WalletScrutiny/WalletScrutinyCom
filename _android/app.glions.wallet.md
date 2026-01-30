@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-07
 updated: 2021-05-05
 version: 0.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://glions.io/
 repository: 

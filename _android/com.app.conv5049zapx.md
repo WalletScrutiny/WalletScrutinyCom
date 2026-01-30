@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-12
 updated: 2021-05-12
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://zap.exchange
 repository: 

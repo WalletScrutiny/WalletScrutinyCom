@@ -12,8 +12,6 @@ appCountry:
 released: 2024-06-07
 updated: 2026-01-26
 version: 1.1.6
-stars: 4.4
-ratings: 
 reviews: 3
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit

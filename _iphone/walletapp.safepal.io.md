@@ -10,7 +10,6 @@ idd: 1548297139
 released: 2021-01-11
 updated: 2025-11-18
 version: 4.10.4
-stars: 4.8
 reviews: 14199
 website: https://www.safepal.com
 repository: 

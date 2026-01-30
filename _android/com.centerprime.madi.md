@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-17
 updated: 2021-06-02
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://centerprime.tech/
 repository: 

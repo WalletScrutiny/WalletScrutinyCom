@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-12
 updated: 2025-06-05
 version: 7.0.9
-stars: 4.3
-ratings: 20
 reviews: 7
 website: https://mybitstore.com
 repository: 

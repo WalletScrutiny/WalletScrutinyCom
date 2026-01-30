@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-22
 updated: 2023-12-18
 version: 1.7.15
-stars: 4.2
-ratings: 
 reviews: 69
 website: https://www.vast.bank
 repository: 

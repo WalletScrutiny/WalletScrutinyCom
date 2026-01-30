@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-17
 updated: 2021-11-17
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://kingcrypto.exchange/
 repository: 

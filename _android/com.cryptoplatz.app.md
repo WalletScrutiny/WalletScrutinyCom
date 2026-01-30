@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-10-05
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptoplatz.ch
 repository: 

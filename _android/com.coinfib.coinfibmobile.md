@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-16
 updated: 2022-04-01
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinfib.com
 repository: 

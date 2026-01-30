@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-04-24
 updated: 2021-10-11
 version: 4.2.2
-stars: 3.9
-ratings: 58
 reviews: 21
 website: https://bhex.co
 repository: 

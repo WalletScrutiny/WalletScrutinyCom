@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-13
 updated: 2020-08-18
 version: 1.0.10
-stars: 3.8
-ratings: 
 reviews: 56
 website: https://www.thodex.com/tr
 repository: 

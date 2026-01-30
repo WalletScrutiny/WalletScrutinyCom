@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-10
 updated: 2020-12-10
 version: 0.12.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.gexpay.com
 repository: 

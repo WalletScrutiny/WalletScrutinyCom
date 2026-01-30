@@ -10,7 +10,6 @@ idd: '6466778991'
 released: 2023-11-21
 updated: 2025-10-07
 version: 1.17.0
-stars: 4.7
 reviews: 1480
 website: https://easycrypto.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-14
 updated: 2025-08-11
 version: 1.4.1
-stars: 
-ratings: 
 reviews: 
 website: https://enifex.com/
 repository: 

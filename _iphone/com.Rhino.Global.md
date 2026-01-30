@@ -9,7 +9,6 @@ idd: '1564149079'
 released: 2022-06-29
 updated: 2026-01-27
 version: 2.12.9
-stars: 4.5
 reviews: 17
 website: https://www.rhinobitcoin.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-01-05
 version: 1.1.93
-stars: 
-ratings: 
 reviews: 
 website: https://www.meta-trades.com/
 repository: 

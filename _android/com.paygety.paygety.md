@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-04
 updated: 2018-10-31
 version: 1.5.5
-stars: 
-ratings: 
 reviews: 
 website: https://paygety.com
 repository: 

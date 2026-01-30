@@ -10,7 +10,6 @@ idd: '1375900638'
 released: 2018-06-11
 updated: 2025-12-17
 version: 5.1.60
-stars: 0
 reviews: 0
 website: https://www.lmax.com/mobile
 repository: 

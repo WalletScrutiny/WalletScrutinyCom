@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-29
 updated: 2023-07-04
 version: 2.0.15
-stars: 
-ratings: 
 reviews: 
 website: https://www.mykobo.co
 repository: 

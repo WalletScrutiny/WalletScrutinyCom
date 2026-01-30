@@ -9,8 +9,6 @@ appCountry:
 released: 2025-10-19
 updated: 2025-11-14
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://watchain.site/
 repository: 

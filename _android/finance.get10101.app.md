@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2024-11-13
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://10101.finance
 repository: https://github.com/get10101/10101

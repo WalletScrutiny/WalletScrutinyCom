@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-08
 updated: 2022-04-28
 version: '1.19'
-stars: 
-ratings: 
 reviews: 
 website: https://jetbot.live/
 repository: 

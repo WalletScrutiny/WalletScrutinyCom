@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-14
 updated: 2018-10-15
 version: '0.9'
-stars: 
-ratings: 
 reviews: 
 website: http://www.coinchat.im
 repository: 

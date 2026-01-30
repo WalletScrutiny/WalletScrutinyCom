@@ -10,8 +10,6 @@ appCountry:
 released: 2024-10-22
 updated: 2026-01-22
 version: 1.4.77
-stars: 
-ratings: 
 reviews: 
 website: https://ecd.rs/
 repository: 

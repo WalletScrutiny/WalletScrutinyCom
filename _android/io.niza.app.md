@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-05-07
 version: 1.4.3
-stars: 
-ratings: 
 reviews: 
 website: https://niza.io
 repository: 

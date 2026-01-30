@@ -9,7 +9,6 @@ idd: '6745778545'
 released: 2025-07-22
 updated: 2026-01-11
 version: 0.6.1
-stars: 0
 reviews: 0
 website: https://www.coconut.onl/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-19
 updated: 2022-02-17
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://bitfinix.tech/
 repository: 

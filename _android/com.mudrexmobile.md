@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-22
 version: '12.88'
-stars: 3.3
-ratings: 
 reviews: 4
 website: https://mudrex.com/
 repository: 

@@ -9,7 +9,6 @@ idd: '6740024218'
 released: 2025-01-09
 updated: 2025-06-28
 version: 1.2.7
-stars: 0
 reviews: 0
 website: https://purplex.io
 repository: 

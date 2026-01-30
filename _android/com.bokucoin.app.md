@@ -10,8 +10,6 @@ appCountry:
 released: 2020-10-09
 updated: 2020-10-10
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://bokucoin.com
 repository: 

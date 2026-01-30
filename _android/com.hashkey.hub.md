@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-17
 updated: 2022-04-07
 version: 4.0.0
-stars: 4.3
-ratings: 
 reviews: 3
 website: https://hub.hashkey.com
 repository: 

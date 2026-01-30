@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-10
 updated: 2019-07-31
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: http://www.tradetoolsfx.com
 repository: 

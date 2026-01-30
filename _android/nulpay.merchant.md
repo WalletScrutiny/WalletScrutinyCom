@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-02
 updated: 2024-03-23
 version: '4'
-stars: 
-ratings: 
 reviews: 
 website: https://nulpay.com
 repository: 

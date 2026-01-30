@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-30
 updated: 2018-08-31
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://goodbit.co.kr
 repository: 

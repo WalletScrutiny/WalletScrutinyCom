@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-31
 updated: 2022-09-16
 version: 5.5.0_push_v2
-stars: 
-ratings: 
 reviews: 
 website: https://wohlstandcex.com
 repository: 

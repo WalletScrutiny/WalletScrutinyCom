@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-07
 updated: 2020-07-12
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://plusbit.tech/
 repository: 

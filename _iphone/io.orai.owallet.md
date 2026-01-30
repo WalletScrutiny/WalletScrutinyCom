@@ -9,7 +9,6 @@ idd: '1626035069'
 released: 2022-06-06
 updated: 2025-10-17
 version: 3.7.4
-stars: 4.1
 reviews: 44
 website: https://owallet.io/
 repository: 

@@ -10,7 +10,6 @@ idd: '6449689356'
 released: 2023-06-13
 updated: 2026-01-22
 version: 3.0.3
-stars: 4.8
 reviews: 2468
 website: https://www.redotpay.com
 repository: 

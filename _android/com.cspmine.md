@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-30
 updated: 2021-10-27
 version: '3.0'
-stars: 2.7
-ratings: 
 reviews: 4
 website: https://www.sac-mine.vip/
 repository: 

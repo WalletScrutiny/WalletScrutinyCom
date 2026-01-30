@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-17
 updated: 2023-03-02
 version: '0.24'
-stars: 
-ratings: 
 reviews: 
 website: http://satochip.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-12-30
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://pryvate-technologies.com
 repository: 

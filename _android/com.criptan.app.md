@@ -10,8 +10,6 @@ appCountry:
 released: 2020-08-23
 updated: 2026-01-12
 version: 3.2.25
-stars: 4.2
-ratings: 
 reviews: 
 website: https://criptan.com
 repository: 

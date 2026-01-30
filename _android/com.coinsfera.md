@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-08-23
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitfera.com
 repository: 

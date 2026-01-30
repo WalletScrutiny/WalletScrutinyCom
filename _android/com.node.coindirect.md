@@ -10,8 +10,6 @@ appCountry:
 released: 2018-10-10
 updated: 2021-07-07
 version: 1.3.0
-stars: 1.7
-ratings: 543
 reviews: 31
 website: https://www.coindirect.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-01-29
 updated: 2021-02-20
 version: 2.1.2
-stars: 
-ratings: 61
 reviews: 
 website: https://s3wallet.io
 repository: 

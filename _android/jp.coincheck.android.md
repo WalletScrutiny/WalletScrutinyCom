@@ -10,8 +10,6 @@ appCountry:
 released: 2015-04-23
 updated: 2026-01-16
 version: 4.18.4
-stars: 3.3
-ratings: 10711
 reviews: 13
 website: https://coincheck.com
 repository: 

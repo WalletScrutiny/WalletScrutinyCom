@@ -10,8 +10,6 @@ appCountry: ru
 released: 2018-07-24
 updated: 2025-12-25
 version: 9.0.1
-stars: 3.8
-ratings: 570
 reviews: 206
 website: https://unitywallet.com
 repository: 

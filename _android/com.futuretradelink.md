@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-19
 updated: 2021-08-03
 version: '1.3'
-stars: 
-ratings: 24
 reviews: 
 website: https://futuretradelink.com/
 repository: 

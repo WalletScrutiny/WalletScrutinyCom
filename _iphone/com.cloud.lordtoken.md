@@ -10,7 +10,6 @@ idd: '1602239096'
 released: 2022-06-05
 updated: 2022-12-14
 version: 1.1.0
-stars: 0
 reviews: 0
 website: https://exchange.lordtoken.com/
 repository: 

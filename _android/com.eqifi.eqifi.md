@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-03
 updated: 2023-04-20
 version: 1.7.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.eqifi.com/
 repository: 

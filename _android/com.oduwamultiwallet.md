@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-24
 updated: 2022-10-07
 version: 1.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.oduwacoin.io/
 repository: https://github.com/ODUWAX/Android

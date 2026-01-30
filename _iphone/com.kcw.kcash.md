@@ -10,7 +10,6 @@ idd: 1344728740
 released: 2018-02-13
 updated: 2021-11-28
 version: 2.9.3
-stars: 3.1
 reviews: 10
 website: https://www.kcash.com/
 repository: 

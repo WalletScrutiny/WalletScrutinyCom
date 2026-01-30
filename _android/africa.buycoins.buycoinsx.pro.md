@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-04-16
 updated: 2023-09-19
 version: 1.1.96
-stars: 3.9
-ratings: 102
 reviews: 3
 website: https://pro.buycoins.africa
 repository: 

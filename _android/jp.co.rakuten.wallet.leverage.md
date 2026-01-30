@@ -10,8 +10,6 @@ appCountry:
 released: 2020-03-22
 updated: 2023-02-17
 version: 1.2.4
-stars: 
-ratings: 
 reviews: 
 website: https://www.rakuten-wallet.co.jp/
 repository: 

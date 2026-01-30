@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-07
 updated: 2019-01-30
 version: 0.0.7
-stars: 4.7
-ratings: 97
 reviews: 61
 website: https://ebc.eco
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-12-02
 updated: 2026-01-21
 version: 1.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://pixelplex.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-11
 updated: 2022-08-16
 version: 1.1.10
-stars: 
-ratings: 
 reviews: 
 website: https://safesenda.com
 repository: 

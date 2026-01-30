@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-03
 updated: 2024-04-25
 version: 8.0.0
-stars: 3.9
-ratings: 
 reviews: 
 website: https://kumo.africa
 repository: 

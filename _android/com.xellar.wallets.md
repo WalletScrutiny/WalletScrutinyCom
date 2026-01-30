@@ -9,8 +9,6 @@ appCountry:
 released: 2023-04-15
 updated: 2026-01-16
 version: 9.9.7
-stars: 
-ratings: 
 reviews: 
 website: https://xellar.co
 repository: 

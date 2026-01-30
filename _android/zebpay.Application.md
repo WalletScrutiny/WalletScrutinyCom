@@ -10,8 +10,6 @@ appCountry:
 released: 2014-12-23
 updated: 2026-01-08
 version: 3.62.00
-stars: 3.4
-ratings: 103840
 reviews: 82
 website: https://www.zebpay.com
 repository: 

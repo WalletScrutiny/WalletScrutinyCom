@@ -10,7 +10,6 @@ idd: 1303463253
 released: 2018-05-05
 updated: 2023-04-25
 version: 3.0.8
-stars: 2
 reviews: 29
 website: https://trade.mn
 repository: 

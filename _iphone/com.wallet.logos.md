@@ -10,7 +10,6 @@ idd: '1537557477'
 released: 2020-11-08
 updated: 2025-02-26
 version: v0.2.6
-stars: 1
 reviews: 2
 website: https://logos-foundation.org/logos
 repository: 

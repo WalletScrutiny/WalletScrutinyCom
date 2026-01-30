@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-07
 updated: 2022-06-23
 version: 1.8.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.cabital.com
 repository: 

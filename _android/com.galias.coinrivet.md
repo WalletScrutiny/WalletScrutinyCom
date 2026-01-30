@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-22
 version: 1.5.0.1238
-stars: 4.2
-ratings: 
 reviews: 
 website: https://coinrivet.com/
 repository: 

@@ -9,7 +9,6 @@ idd: '1672392439'
 released: 2024-03-28
 updated: 2025-12-19
 version: 2.4.11
-stars: 5
 reviews: 93
 website: https://electriccoin.co/zashi
 repository: 

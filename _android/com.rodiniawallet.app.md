@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-15
 updated: 2021-11-21
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://rodiniawallet.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-26
 updated: 2024-12-26
 version: 511.0.0
-stars: 4.3
-ratings: 
 reviews: 513
 website: https://saraf.app
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-17
 updated: 2021-09-17
 version: '1.0'
-stars: 1.7
-ratings: 
 reviews: 4
 website: https://stormprofit.trade/
 repository: 

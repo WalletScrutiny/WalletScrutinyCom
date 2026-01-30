@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-21
 updated: 2021-11-29
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://ixtokens.com/
 repository: 

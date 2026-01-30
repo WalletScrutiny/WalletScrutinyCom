@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-02
 updated: 2020-02-03
 version: 1.0.0
-stars: 1.6
-ratings: 
 reviews: 
 website: https://www.bcnex.net/
 repository: 

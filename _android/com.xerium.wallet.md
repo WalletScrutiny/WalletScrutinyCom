@@ -10,8 +10,6 @@ appCountry:
 released: 2021-03-04
 updated: 2021-03-04
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://xerium.info/
 repository: 

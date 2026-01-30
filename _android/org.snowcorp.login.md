@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-23
 updated: 2019-06-20
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.atmopen.com
 repository: 

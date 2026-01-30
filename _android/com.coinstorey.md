@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-30
 updated: 2021-12-01
 version: '9.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinstorey.com/
 repository: 

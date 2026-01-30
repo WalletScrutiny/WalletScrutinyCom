@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-04
 updated: 2020-12-18
 version: Version 2.1.40
-stars: 5
-ratings: 
 reviews: 
 website: http://www.okongpos.com
 repository: 

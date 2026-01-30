@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-23
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://wbitcash.com/
 repository: 

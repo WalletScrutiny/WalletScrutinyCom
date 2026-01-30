@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-07-24
 version: 2.2.16
-stars: 
-ratings: 
 reviews: 
 website: https://bottlepay.com
 repository: 

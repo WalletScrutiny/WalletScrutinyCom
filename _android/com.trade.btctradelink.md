@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-27
 updated: 2019-07-27
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.btctradeonline.com
 repository: 

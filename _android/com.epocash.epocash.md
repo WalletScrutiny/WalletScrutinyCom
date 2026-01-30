@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-20
 updated: 2020-10-21
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.epocash.com
 repository: 

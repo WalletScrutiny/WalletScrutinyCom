@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-16
 updated: 2023-04-12
 version: 0.0.20
-stars: 
-ratings: 
 reviews: 
 website: https://www.swappy.ws
 repository: 

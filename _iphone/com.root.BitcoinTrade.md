@@ -10,7 +10,6 @@ idd: 1320032339
 released: 2017-12-13
 updated: 2024-05-30
 version: 4.7.10
-stars: 3.8
 reviews: 978
 website: http://ripio.com/br/ripiotrade/
 repository: 

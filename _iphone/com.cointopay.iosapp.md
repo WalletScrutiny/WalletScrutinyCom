@@ -10,7 +10,6 @@ idd: 1450194783
 released: 2019-01-25
 updated: 2022-06-03
 version: 2.0.0
-stars: 5
 reviews: 1
 website: https://cointopay.com/
 repository: 

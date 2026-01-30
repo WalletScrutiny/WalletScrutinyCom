@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-26
 updated: 2020-09-17
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitinterpay.com
 repository: 

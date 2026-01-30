@@ -10,8 +10,6 @@ appCountry: ee
 released: 2021-03-19
 updated: 2021-11-17
 version: 1.11.10
-stars: 3.2
-ratings: 10
 reviews: 7
 website: https://cryptowallet.com/
 repository: 

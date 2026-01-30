@@ -10,7 +10,6 @@ idd: 1439583926
 released: 2018-12-20
 updated: 2022-04-12
 version: 4.0.0
-stars: 4.8
 reviews: 10
 website: https://max.maicoin.com
 repository: 

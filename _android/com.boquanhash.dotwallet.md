@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-08-26
 updated: 2022-04-21
 version: 2.15.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.dotwallet.com/
 repository: 

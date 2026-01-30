@@ -10,7 +10,6 @@ idd: 1456038895
 released: 2021-04-22
 updated: 2025-10-15
 version: v0.11.6
-stars: 4.6
 reviews: 67
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus

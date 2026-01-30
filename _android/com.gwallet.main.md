@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-11
 updated: 2022-07-22
 version: '1.06'
-stars: 4.9
-ratings: 
 reviews: 
 website: https://www.g-wallet.io
 repository: 

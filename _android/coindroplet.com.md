@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-29
 updated: 2022-12-05
 version: '1.6'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coindroplet.com
 repository: 

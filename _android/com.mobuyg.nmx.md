@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-16
 updated: 2022-05-19
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://absurdapps.netlify.app
 repository: 

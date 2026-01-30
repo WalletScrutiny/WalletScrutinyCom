@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-21
 updated: 2023-10-31
 version: 3.0.3
-stars: 2.9
-ratings: 
 reviews: 6
 website: https://www.bitdu.com
 repository: 

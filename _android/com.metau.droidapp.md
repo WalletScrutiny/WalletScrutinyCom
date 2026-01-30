@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-10
 updated: 2022-04-10
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.metauco.com
 repository: 

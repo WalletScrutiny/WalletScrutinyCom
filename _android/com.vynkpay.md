@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-30
 updated: 2024-02-08
 version: '4.4'
-stars: 4.5
-ratings: 
 reviews: 
 website: https://vynkpay.app
 repository: 

@@ -10,8 +10,6 @@ appCountry: us
 released: 2015-04-28
 updated: 2019-06-14
 version: 2.5.4
-stars: 3.4
-ratings: 242
 reviews: 31
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet

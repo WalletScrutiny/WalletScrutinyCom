@@ -10,7 +10,6 @@ idd: '1403847666'
 released: 2018-08-06
 updated: 2023-10-03
 version: 3.3.118
-stars: 1
 reviews: 1
 website: https://www.alvexo.eu
 repository: 

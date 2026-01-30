@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-01
 updated: 2025-01-24
 version: 2.5.23
-stars: 4.5
-ratings: 
 reviews: 1
 website: https://frostwallet.cc
 repository: 

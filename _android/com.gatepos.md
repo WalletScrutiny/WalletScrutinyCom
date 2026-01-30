@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-14
 updated: 2021-05-21
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.mercury.cash
 repository: 

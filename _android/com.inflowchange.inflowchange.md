@@ -10,8 +10,6 @@ appCountry:
 released: 2023-02-17
 updated: 2023-06-25
 version: '1.8'
-stars: 
-ratings: 
 reviews: 
 website: https://inflowchange.com
 repository: 

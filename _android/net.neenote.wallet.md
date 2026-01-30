@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-26
 updated: 2021-04-26
 version: 4.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://neenote.net/
 repository: 

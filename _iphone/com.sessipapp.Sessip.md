@@ -10,7 +10,6 @@ idd: '1582234240'
 released: 2021-09-08
 updated: 2024-03-26
 version: '2.2'
-stars: 3.5
 reviews: 2
 website: https://sessip.com/
 repository: 

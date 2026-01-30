@@ -10,8 +10,6 @@ appCountry:
 released: 2019-09-13
 updated: 2021-05-13
 version: '1.901'
-stars: 2.6
-ratings: 1599
 reviews: 1110
 website: https://swipe.io
 repository: 

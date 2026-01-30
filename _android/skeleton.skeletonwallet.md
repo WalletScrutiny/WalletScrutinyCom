@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-05
 updated: 2022-06-16
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://defiskeletons.com/
 repository: 

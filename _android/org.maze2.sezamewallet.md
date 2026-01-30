@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-31
 updated: 2025-06-16
 version: 0.16.5
-stars: 
-ratings: 
 reviews: 
 website: https://sezame.app
 repository: 

@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-05-29
 updated: 2021-03-18
 version: 1.6.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.stratum.hk/
 repository: 

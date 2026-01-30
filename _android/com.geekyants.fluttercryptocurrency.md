@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-30
 updated: 2020-04-30
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://fluttermarket.com/view/flutter-crypto-app-theme
 repository: 

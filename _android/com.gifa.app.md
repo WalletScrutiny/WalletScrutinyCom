@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-21
 updated: 2022-06-09
 version: 1.5.2
-stars: 
-ratings: 
 reviews: 
 website: http://www.gifatoken.com
 repository: 

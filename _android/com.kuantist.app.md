@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2026-01-14
 version: 1.0.42
-stars: 
-ratings: 
 reviews: 
 website: https://www.kuantist.com/
 repository: 

@@ -10,7 +10,6 @@ idd: 1436425586
 released: 2018-10-03
 updated: 2026-01-06
 version: 2.3.1
-stars: 4.7
 reviews: 48
 website: https://fullynoded.app
 repository: https://github.com/Fonta1n3/FullyNoded

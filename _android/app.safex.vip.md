@@ -10,8 +10,6 @@ appCountry:
 released: 2025-05-16
 updated: 2026-01-09
 version: 5.5.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.safexapp.com
 repository: 

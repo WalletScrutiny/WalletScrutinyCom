@@ -10,8 +10,6 @@ appCountry:
 released: 2018-08-23
 updated: 2021-03-22
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.c2cx.com
 repository: 

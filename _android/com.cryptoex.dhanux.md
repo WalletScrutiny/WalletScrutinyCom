@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-02
 updated: 2023-01-12
 version: '4.2'
-stars: 4.7
-ratings: 
 reviews: 
 website: https://www.dhanu.org/
 repository: 

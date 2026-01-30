@@ -10,7 +10,6 @@ idd: '1611301863'
 released: 2022-03-02
 updated: 2023-11-12
 version: 1.0.19
-stars: 3
 reviews: 2
 website: https://themetasigns.com/
 repository: 

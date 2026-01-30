@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2019-10-16
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://abco.re
 repository: https://github.com/greenaddress/abcore

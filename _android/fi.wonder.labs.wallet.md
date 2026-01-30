@@ -9,8 +9,6 @@ appCountry:
 released: 2024-12-20
 updated: 2025-03-11
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://labs.wonder.fi
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-01-12
 version: 5.5.2
-stars: 
-ratings: 
 reviews: 
 website: https://bitzlato.com/
 repository: 

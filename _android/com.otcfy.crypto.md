@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-29
 updated: 2022-12-30
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.otcfy.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-15
 updated: 2020-10-02
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://amanpuri.io
 repository: 

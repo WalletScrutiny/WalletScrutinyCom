@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-23
 updated: 2020-07-06
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: http://k-pap.com/
 repository: 

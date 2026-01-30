@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-10
 updated: 2023-02-11
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://peertrans.com/
 repository: 

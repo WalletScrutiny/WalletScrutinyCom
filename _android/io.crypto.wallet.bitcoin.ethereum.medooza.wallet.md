@@ -9,8 +9,6 @@ appCountry:
 released: 2019-01-04
 updated: 2019-01-04
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://medooza.io
 repository: 

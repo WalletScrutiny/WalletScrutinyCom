@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-19
 updated: 2022-01-21
 version: 3.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://quraswallet.org
 repository: 

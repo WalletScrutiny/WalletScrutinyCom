@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2022-10-31
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://zeniq.com/
 repository: 

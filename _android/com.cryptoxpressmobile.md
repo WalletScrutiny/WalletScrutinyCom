@@ -10,8 +10,6 @@ appCountry:
 released: 2021-09-20
 updated: 2025-11-05
 version: 1.40.33
-stars: 4.7
-ratings: 
 reviews: 
 website: https://cryptoxpress.com
 repository: 

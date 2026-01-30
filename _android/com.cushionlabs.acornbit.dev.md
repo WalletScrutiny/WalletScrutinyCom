@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-09
 updated: 2022-12-17
 version: 1.2.10
-stars: 4.6
-ratings: 
 reviews: 
 website: https://acornbit.com
 repository: 

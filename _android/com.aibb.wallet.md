@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-04-04
 updated: 2021-10-04
 version: 2.3.15
-stars: 4.2
-ratings: 319
 reviews: 254
 website: https://blockbank.ai/
 repository: 

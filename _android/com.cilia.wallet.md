@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-18
 updated: 2021-05-18
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://getcilia.com
 repository: 

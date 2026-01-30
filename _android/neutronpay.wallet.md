@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-10-27
 version: 3.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://neutron.me/app
 repository: 

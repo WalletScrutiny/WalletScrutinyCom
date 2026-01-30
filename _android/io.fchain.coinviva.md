@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-21
 updated: 2020-08-17
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.coinviva.com
 repository: 

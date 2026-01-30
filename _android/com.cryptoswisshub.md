@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-11-07
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptoswisshub.com/
 repository: 

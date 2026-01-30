@@ -9,8 +9,6 @@ appCountry:
 released: 2023-06-26
 updated: 2025-12-18
 version: 7.11.0
-stars: 
-ratings: 
 reviews: 
 website: https://avacus.cc
 repository: 

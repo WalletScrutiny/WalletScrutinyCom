@@ -9,8 +9,6 @@ appCountry:
 released: 2025-08-19
 updated: 2025-11-04
 version: 1.0.38
-stars: 
-ratings: 
 reviews: 
 website: https://coinceeper.com/
 repository: 

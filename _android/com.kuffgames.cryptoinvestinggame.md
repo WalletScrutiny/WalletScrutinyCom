@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-08
 updated: 2021-07-31
 version: '1.1'
-stars: 4.8
-ratings: 
 reviews: 
 website: https://www.kuffstudios.com
 repository: 

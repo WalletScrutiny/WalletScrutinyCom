@@ -10,7 +10,6 @@ idd: 1408806845
 released: 2018-08-01
 updated: 2023-08-09
 version: 1.9.94
-stars: 4
 reviews: 22
 website: https://counos.io/counoscoinpromotion/?utm_campaign=counoscoinpromotion&utm_source=counos&utm_medium=banner_header
 repository: 

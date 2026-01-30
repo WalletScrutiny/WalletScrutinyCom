@@ -9,8 +9,6 @@ appCountry:
 released: 2025-07-21
 updated: 2026-01-23
 version: 1.0.15
-stars: 
-ratings: 
 reviews: 
 website: https://coinrabbit.io/
 repository: 

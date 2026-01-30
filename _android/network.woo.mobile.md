@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-17
 updated: 2025-12-08
 version: 3.65.1
-stars: 3.9
-ratings: 
 reviews: 10
 website: https://woox.io/
 repository: 

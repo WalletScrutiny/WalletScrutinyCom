@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-20
 updated: 2025-02-15
 version: 4.1.8
-stars: 4
-ratings: 
 reviews: 2
 website: https://maskex.com/
 repository: 

@@ -10,7 +10,6 @@ idd: '1658310376'
 released: 2022-12-12
 updated: 2024-05-03
 version: 1.1.2
-stars: 5
 reviews: 10
 website: https://wallet-balancenetwork.io/
 repository: 

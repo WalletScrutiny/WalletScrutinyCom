@@ -10,7 +10,6 @@ idd: 1362831898
 released: 2018-10-02
 updated: 2023-02-21
 version: 1.5.6
-stars: 4
 reviews: 22
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault

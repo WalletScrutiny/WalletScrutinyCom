@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-28
 updated: 2026-01-19
 version: 5.22.0
-stars: 3.2
-ratings: 9232
 reviews: 15
 website: https://coinone.co.kr
 repository: 

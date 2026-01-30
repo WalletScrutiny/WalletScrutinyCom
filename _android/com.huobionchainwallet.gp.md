@@ -11,8 +11,6 @@ appCountry:
 released: 2019-10-17
 updated: 2023-06-05
 version: 3.03.06.003
-stars: 4
-ratings: 33247
 reviews: 185
 website: https://www.itoken.com/
 repository: 

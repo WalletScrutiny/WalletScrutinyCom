@@ -10,7 +10,6 @@ idd: '1572500597'
 released: 2021-06-22
 updated: 2021-12-23
 version: 1.8.7
-stars: 2.5
 reviews: 153
 website: 
 repository: 

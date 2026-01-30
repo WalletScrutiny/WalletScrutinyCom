@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2026-01-27
 version: 2.8.2
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

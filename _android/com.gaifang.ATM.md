@@ -10,8 +10,6 @@ appCountry:
 released: 2021-05-10
 updated: 2021-09-18
 version: 1.1.20
-stars: 4.7
-ratings: 35
 reviews: 26
 website: https://atmoption.in/
 repository: 

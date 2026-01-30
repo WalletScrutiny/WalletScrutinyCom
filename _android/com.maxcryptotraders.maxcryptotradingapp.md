@@ -10,8 +10,6 @@ appCountry:
 released: 2022-06-06
 updated: 2022-06-06
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://maxcryptotraders.com/
 repository: 

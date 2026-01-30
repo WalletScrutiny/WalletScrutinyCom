@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-27
 updated: 2025-09-21
 version: '1.8'
-stars: 4.8
-ratings: 
 reviews: 22
 website: https://godex.io
 repository: 

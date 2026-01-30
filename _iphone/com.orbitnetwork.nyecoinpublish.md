@@ -10,7 +10,6 @@ idd: '1471316161'
 released: 2019-07-20
 updated: 2019-07-30
 version: '1.1'
-stars: 4.7
 reviews: 15
 website: https://nyecoin.io/
 repository: 

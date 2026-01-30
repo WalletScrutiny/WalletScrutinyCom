@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-30
 updated: 2022-09-08
 version: 2.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://e-leven.io/
 repository: 

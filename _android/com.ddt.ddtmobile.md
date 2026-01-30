@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-07
 updated: 2020-03-24
 version: 1.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.ddtwallet.com/
 repository: 

@@ -10,7 +10,6 @@ idd: 1403491709
 released: 2019-02-26
 updated: 2026-01-25
 version: 2.211.0
-stars: 4.6
 reviews: 127606
 website: https://www.wealthsimple.com/en-ca/
 repository: 

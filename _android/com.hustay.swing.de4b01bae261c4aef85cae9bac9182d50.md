@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-28
 updated: 2021-06-28
 version: '0.6'
-stars: 
-ratings: 
 reviews: 
 website: https://www.earnfinex.com/
 repository: 

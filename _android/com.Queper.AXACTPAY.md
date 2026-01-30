@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-08
 updated: 2023-01-10
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.axactpay.net
 repository: 

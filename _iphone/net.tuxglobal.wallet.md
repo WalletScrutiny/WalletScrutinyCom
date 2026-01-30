@@ -10,7 +10,6 @@ idd: '1495945761'
 released: 2020-02-04
 updated: 2025-11-05
 version: 3.1.19
-stars: 0
 reviews: 0
 website: https://tux-wallet.com/
 repository: 

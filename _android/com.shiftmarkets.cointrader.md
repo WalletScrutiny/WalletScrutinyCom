@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-28
 updated: 2025-01-24
 version: 4.14.0
-stars: 3.8
-ratings: 
 reviews: 
 website: https://www.shiftmarkets.com/
 repository: 

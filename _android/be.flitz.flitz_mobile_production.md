@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-12-21
 version: 0.15.4
-stars: 
-ratings: 
 reviews: 
 website: https://flitz.be
 repository: 

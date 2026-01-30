@@ -11,7 +11,6 @@ idd: 1500217666
 released: 2020-02-25
 updated: 2025-11-11
 version: 4.71.0
-stars: 4.7
 reviews: 2678
 website: https://bingbon.com
 repository: 

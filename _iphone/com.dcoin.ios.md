@@ -10,7 +10,6 @@ idd: 1508064925
 released: 2018-12-20
 updated: 2023-04-11
 version: 5.7.2
-stars: 3.2
 reviews: 19
 website: https://www.dcoin.com/
 repository: 

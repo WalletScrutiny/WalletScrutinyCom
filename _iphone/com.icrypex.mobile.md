@@ -10,7 +10,6 @@ idd: '1571270449'
 released: 2021-07-07
 updated: 2024-09-25
 version: '4.1'
-stars: 5
 reviews: 1
 website: https://www.icrypex.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2023-03-13
 updated: 2026-01-27
 version: 0.18.2
-stars: 
-ratings: 
 reviews: 
 website: http://bitcoinrd.do
 repository: 

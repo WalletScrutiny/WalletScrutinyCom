@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-12
 updated: 2020-10-12
 version: '9.8'
-stars: 
-ratings: 
 reviews: 
 website: https://giltwallet.com
 repository: 

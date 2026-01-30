@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-09
 updated: 2025-12-01
 version: 6.10.1
-stars: 
-ratings: 
 reviews: 
 website: https://custody.chainup.com/
 repository: 

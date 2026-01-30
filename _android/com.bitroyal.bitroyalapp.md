@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-06
 updated: 2021-03-07
 version: '2.1'
-stars: 
-ratings: 
 reviews: 
 website: https://bitroyalexchange.com
 repository: 

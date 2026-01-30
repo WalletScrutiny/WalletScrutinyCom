@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-16
 updated: 2021-01-16
 version: 0.18.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.koyn.io
 repository: 

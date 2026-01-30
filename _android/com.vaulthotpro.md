@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-03-30
 updated: 2021-03-22
 version: 2.2.6
-stars: 3.2
-ratings: 29
 reviews: 19
 website: https://cobo.com/
 repository: https://github.com/CoboVault/cobo-vault-cold

@@ -10,7 +10,6 @@ idd: '1619979069'
 released: 2022-07-11
 updated: 2024-04-25
 version: 1.5.2
-stars: 5
 reviews: 1
 website: https://www.nicex.com
 repository: 

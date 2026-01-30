@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-08
 updated: 2025-07-15
 version: 2.17.0
-stars: 4.3
-ratings: 
 reviews: 
 website: https://trade.xspringdigital.com
 repository: 

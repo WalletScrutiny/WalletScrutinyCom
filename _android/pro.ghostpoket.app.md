@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-21
 updated: 2026-01-15
 version: 1.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://test.ghostpoket.pro
 repository: 

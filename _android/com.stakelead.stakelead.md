@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-04
 updated: 2022-06-04
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://stakelead.com
 repository: 

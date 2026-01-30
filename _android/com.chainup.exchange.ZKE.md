@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-19
 updated: 2023-07-25
 version: 5.8.4_push_v2
-stars: 4.8
-ratings: 
 reviews: 37
 website: https://zke.com
 repository: 

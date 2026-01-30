@@ -10,7 +10,6 @@ idd: 1182702365
 released: 2017-01-15
 updated: 2026-01-12
 version: 9.5.2
-stars: 4.7
 reviews: 55
 website: https://www.naga.com
 repository: 

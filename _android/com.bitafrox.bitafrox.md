@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-25
 updated: 2019-07-25
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitafrox.com
 repository: 

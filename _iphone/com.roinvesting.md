@@ -10,7 +10,6 @@ idd: 1529122271
 released: 2020-10-19
 updated: 2021-08-23
 version: 1.68.10
-stars: 1
 reviews: 1
 website: https://www.roinvesting.com/
 repository: 

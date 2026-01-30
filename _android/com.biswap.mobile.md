@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-22
 updated: 2023-07-18
 version: 1.0.13
-stars: 
-ratings: 
 reviews: 
 website: https://biswap.com/
 repository: 

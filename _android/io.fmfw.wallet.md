@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-02-23
 version: 1.3.13
-stars: 
-ratings: 
 reviews: 
 website: https://fmfw.io
 repository: 

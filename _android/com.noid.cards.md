@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-03-26
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://noid.cards/
 repository: 

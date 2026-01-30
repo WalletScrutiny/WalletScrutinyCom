@@ -10,7 +10,6 @@ idd: '1607319106'
 released: 2022-02-09
 updated: 2025-01-24
 version: 2.5.23
-stars: 5
 reviews: 1
 website: https://frostwallet.cc
 repository: 

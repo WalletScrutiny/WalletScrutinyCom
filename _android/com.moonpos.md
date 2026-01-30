@@ -9,8 +9,6 @@ appCountry:
 released: 2018-05-04
 updated: 2024-08-12
 version: 1.2.8
-stars: 4.8
-ratings: 
 reviews: 
 website: http://moonposapp.com
 repository: 

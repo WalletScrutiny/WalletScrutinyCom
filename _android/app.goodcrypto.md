@@ -10,8 +10,6 @@ appCountry:
 released: 2019-05-20
 updated: 2025-11-18
 version: 2.4.0
-stars: 4.2
-ratings: 1058
 reviews: 148
 website: https://goodcrypto.app
 repository: 

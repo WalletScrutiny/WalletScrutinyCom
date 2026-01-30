@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-31
 updated: 2022-03-31
 version: 0.0.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.tokenrobot.net/
 repository: 

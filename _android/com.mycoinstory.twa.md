@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-22
 updated: 2021-02-23
 version: '2'
-stars: 
-ratings: 
 reviews: 
 website: https://mycoinstory.com
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2024-12-19
 updated: 2026-01-16
 version: 2.7.1(139)
-stars: 4.7
-ratings: 
 reviews: 72
 website: https://cryptomus.com/
 repository: 

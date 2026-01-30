@@ -9,8 +9,6 @@ appCountry:
 released: 2016-04-26
 updated: 2020-02-19
 version: 1.1.16
-stars: 4.7
-ratings: 
 reviews: 
 website: https://www.cdpay.eu/
 repository: 

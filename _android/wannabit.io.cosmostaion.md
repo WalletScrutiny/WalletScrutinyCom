@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-17
 updated: 2025-12-29
 version: 1.10.46
-stars: 4
-ratings: 
 reviews: 136
 website: https://cosmostation.io
 repository: https://github.com/cosmostation/cosmostation-android

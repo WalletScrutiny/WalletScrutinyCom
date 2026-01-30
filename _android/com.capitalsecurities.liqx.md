@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-07-02
 version: 2.7.1
-stars: 2.3
-ratings: 
 reviews: 
 website: https://www.liquidityx.com/eu/
 repository: 

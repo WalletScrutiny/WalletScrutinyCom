@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-01
 updated: 2025-11-01
 version: 2.5.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.albos.io/
 repository: 

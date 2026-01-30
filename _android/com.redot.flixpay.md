@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-04
 updated: 2022-05-02
 version: 1.3.3
-stars: 5
-ratings: 
 reviews: 140
 website: https://flixpay.io
 repository: 

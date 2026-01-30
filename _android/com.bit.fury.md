@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-17
 updated: 2023-02-26
 version: '1.4'
-stars: 3.9
-ratings: 
 reviews: 
 website: https://bitfury.com
 repository: 

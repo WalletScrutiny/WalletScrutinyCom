@@ -10,7 +10,6 @@ idd: 1437629304
 released: 2019-04-20
 updated: 2022-09-25
 version: 1.15.1
-stars: 4
 reviews: 4
 website: https://btc-alpha.com/en
 repository: 

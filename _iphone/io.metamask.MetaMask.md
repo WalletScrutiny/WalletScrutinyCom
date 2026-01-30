@@ -11,7 +11,6 @@ idd: 1438144202
 released: 2020-09-03
 updated: 2025-11-19
 version: 7.59.0
-stars: 4.7
 reviews: 72265
 website: https://metamask.io/
 repository: 

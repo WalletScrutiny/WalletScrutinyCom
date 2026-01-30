@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-03-02
 updated: 2021-04-17
 version: '8.0'
-stars: 
-ratings: 
 reviews: 
 website: https://payizadlt.com/
 repository: 

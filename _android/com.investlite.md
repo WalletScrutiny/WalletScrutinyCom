@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-18
 updated: 2021-11-29
 version: 1.5.78-investlite
-stars: 3.1
-ratings: 182
 reviews: 100
 website: https://www.investlite.com/
 repository: 

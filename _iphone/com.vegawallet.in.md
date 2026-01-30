@@ -10,7 +10,6 @@ idd: 1449594992
 released: 2019-01-16
 updated: 2020-11-06
 version: '3.3'
-stars: 3.7
 reviews: 9
 website: https://vegawallet.com
 repository: 

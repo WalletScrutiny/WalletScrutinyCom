@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-26
 version: 5.0.1
-stars: 4.8
-ratings: 
 reviews: 11
 website: https://deblock.com/
 repository: 

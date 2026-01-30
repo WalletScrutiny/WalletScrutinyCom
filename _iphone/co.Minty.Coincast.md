@@ -10,7 +10,6 @@ idd: '1517543384'
 released: 2021-07-21
 updated: 2022-05-08
 version: 1.2.14
-stars: 4.8
 reviews: 25
 website: https://coincast.app
 repository: 

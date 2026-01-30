@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-29
 updated: 2021-05-30
 version: '1.3'
-stars: 2.2
-ratings: 
 reviews: 
 website: https://www.botcex.com
 repository: 

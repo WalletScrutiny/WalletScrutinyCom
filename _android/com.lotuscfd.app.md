@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-28
 updated: 2019-09-25
 version: 1.0.14
-stars: 4.1
-ratings: 
 reviews: 
 website: https://www.lotuscfd.com
 repository: 

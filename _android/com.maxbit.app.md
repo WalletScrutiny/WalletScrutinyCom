@@ -10,8 +10,6 @@ appCountry:
 released: 2024-09-24
 updated: 2026-01-19
 version: 1.36.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.maxbit.com
 repository: 

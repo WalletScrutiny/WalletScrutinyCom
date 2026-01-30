@@ -10,7 +10,6 @@ idd: '1563472237'
 released: 2021-08-05
 updated: 2025-09-23
 version: 2.25.0
-stars: 4.7
 reviews: 1498
 website: https://www.choiceapp.io
 repository: 

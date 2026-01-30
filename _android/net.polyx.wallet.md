@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-01
 updated: 2022-09-16
 version: 1.5.1
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.polyx.net
 repository: 

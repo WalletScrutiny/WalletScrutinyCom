@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-04-08
 version: '1.33'
-stars: 3.9
-ratings: 11
 reviews: 10
 website: https://pungowallet.com
 repository: 

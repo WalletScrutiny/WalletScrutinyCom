@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-16
 updated: 2021-08-16
 version: 0.21.3
-stars: 
-ratings: 
 reviews: 
 website: http://dabblex.com
 repository: 

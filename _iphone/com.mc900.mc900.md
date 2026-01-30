@@ -10,7 +10,6 @@ idd: '1639509598'
 released: 2022-09-09
 updated: 2024-02-28
 version: 2.6.7
-stars: 0
 reviews: 0
 website: https://www.headline.net/
 repository: 

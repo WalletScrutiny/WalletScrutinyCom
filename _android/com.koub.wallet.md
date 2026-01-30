@@ -9,8 +9,6 @@ appCountry:
 released: 2025-01-09
 updated: 2025-01-09
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://unitechcapital.net
 repository: 

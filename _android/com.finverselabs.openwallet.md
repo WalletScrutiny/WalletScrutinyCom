@@ -10,8 +10,6 @@ appCountry:
 released: 2024-07-01
 updated: 2026-01-28
 version: 0.0.93
-stars: 4.6
-ratings: 
 reviews: 8
 website: https://openwallet.finance/
 repository: 

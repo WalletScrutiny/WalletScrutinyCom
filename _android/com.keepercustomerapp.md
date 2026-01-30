@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-25
 updated: 2023-02-17
 version: 3.8.4
-stars: 
-ratings: 
 reviews: 
 website: http://www.tosblock.com
 repository: 

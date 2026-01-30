@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-05
 updated: 2021-02-09
 version: '4.4'
-stars: 4.4
-ratings: 2089
 reviews: 71
 website: https://flitswallet.app/
 repository: 

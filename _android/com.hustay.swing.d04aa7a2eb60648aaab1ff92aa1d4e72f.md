@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-10
 updated: 2021-01-26
 version: '0.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.f-x5.com
 repository: 

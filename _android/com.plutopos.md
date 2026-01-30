@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-28
 updated: 2022-06-08
 version: 1.3.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.spartanhill.com/pluto-crypto-pos/
 repository: 

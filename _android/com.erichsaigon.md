@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-06
 updated: 2020-01-25
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.erichsaigon.com/
 repository: 

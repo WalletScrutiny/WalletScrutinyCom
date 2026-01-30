@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-21
 updated: 2026-01-08
 version: 5.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitdata.site
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-04
 updated: 2025-11-18
 version: 2025.11.3
-stars: 3.7
-ratings: 648
 reviews: 18
 website: https://buda.com
 repository: 

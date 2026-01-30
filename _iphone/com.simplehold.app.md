@@ -10,7 +10,6 @@ idd: '1589064973'
 released: 2021-12-14
 updated: 2023-07-25
 version: '1.23'
-stars: 1
 reviews: 2
 website: https://simplehold.io/
 repository: 

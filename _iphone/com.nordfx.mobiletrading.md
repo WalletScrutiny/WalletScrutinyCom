@@ -10,7 +10,6 @@ idd: 1551642767
 released: 2021-02-06
 updated: 2022-05-25
 version: '15.0'
-stars: 5
 reviews: 1
 website: https://nordfx.com/
 repository: 

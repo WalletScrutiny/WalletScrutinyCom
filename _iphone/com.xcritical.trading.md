@@ -10,7 +10,6 @@ idd: '1472992958'
 released: 2019-07-24
 updated: 2023-01-23
 version: 2.23.6
-stars: 0
 reviews: 0
 website: https://xcritical.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2025-01-13
 updated: 2026-01-23
 version: 4.14.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinhouse.com
 repository: 

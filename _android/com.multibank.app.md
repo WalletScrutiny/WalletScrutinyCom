@@ -10,8 +10,6 @@ appCountry:
 released: 2023-04-04
 updated: 2026-01-26
 version: 26.0.8
-stars: 3.9
-ratings: 
 reviews: 7
 website: https://mb.io/
 repository: 

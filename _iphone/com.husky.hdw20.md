@@ -9,7 +9,6 @@ idd: 1549046963
 released: 2021-04-02
 updated: 2021-04-02
 version: 1.0.4
-stars: 0
 reviews: 0
 website: 
 repository: 

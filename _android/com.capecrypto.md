@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-25
 updated: 2025-12-08
 version: 4.0.12
-stars: 3.3
-ratings: 
 reviews: 
 website: https://capecrypto.com
 repository: 

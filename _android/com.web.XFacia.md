@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-21
 updated: 2022-12-21
 version: '2.0'
-stars: 4.1
-ratings: 
 reviews: 
 website: http://xfacia.com/
 repository: 

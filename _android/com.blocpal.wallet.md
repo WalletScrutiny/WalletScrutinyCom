@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-10-30
 updated: 2022-01-19
 version: 2.0.38
-stars: 5
-ratings: 60
 reviews: 
 website: http://www.blocpal.com
 repository: 

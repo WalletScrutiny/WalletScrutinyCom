@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-01
 updated: 2026-01-08
 version: 4.7.5
-stars: 
-ratings: 
 reviews: 
 website: http://bitazza.com/
 repository: 

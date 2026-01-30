@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-29
 updated: 2020-04-30
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://lyonxchange.com
 repository: 

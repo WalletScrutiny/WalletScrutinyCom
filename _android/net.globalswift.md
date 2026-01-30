@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-21
 updated: 2022-08-22
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://globalswift.net
 repository: 

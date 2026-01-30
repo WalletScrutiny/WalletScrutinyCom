@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-23
 updated: 2019-10-23
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://cricketrade.com
 repository: 

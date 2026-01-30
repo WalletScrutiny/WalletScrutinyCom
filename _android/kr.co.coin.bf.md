@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-25
 updated: 2020-02-26
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

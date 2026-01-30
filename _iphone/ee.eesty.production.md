@@ -10,7 +10,6 @@ idd: 1342115738
 released: 2018-02-15
 updated: 2019-07-03
 version: '3.0'
-stars: 4
 reviews: 8
 website: https://www.eesty.ee
 repository: 

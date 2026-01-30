@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-27
 updated: 2021-12-23
 version: '1.7'
-stars: 
-ratings: 
 reviews: 
 website: https://whatashot.io/
 repository: 

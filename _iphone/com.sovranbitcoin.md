@@ -10,7 +10,6 @@ idd: '6499554529'
 released: 2025-06-07
 updated: 2025-12-20
 version: 0.0.53
-stars: 0
 reviews: 0
 website: https://sovran.money
 repository: https://github.com/SovranBitcoin/Sovran

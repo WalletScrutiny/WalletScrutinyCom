@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-20
 updated: 2020-06-20
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://0xdealer.com
 repository: 

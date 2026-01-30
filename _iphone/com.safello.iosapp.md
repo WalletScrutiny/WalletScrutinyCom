@@ -10,7 +10,6 @@ idd: '1514429922'
 released: 2020-06-18
 updated: 2026-01-22
 version: 1.56.1
-stars: 4.5
 reviews: 3242
 website: https://safello.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-14
 updated: 2022-01-19
 version: 1.2.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.lpschain.com
 repository: 

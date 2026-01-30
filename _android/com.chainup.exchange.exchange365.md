@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-09
 updated: 2022-09-27
 version: 5.5.0_push_v2
-stars: 
-ratings: 
 reviews: 
 website: http://www.365excoin.com
 repository: 

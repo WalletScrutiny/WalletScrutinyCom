@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-12
 updated: 2024-12-18
 version: 1.7.2
-stars: 
-ratings: 
 reviews: 
 website: https://imtechng.com
 repository: 

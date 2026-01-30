@@ -10,8 +10,6 @@ appCountry:
 released: 2018-05-31
 updated: 2021-03-24
 version: 1.9.6
-stars: 2.2
-ratings: 1533
 reviews: 3
 website: http://bitsonic.co.kr
 repository: 

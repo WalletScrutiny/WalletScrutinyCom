@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-16
 updated: 2022-11-16
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://lemonexchange.africa/
 repository: 

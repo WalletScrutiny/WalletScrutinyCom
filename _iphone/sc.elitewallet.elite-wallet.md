@@ -10,7 +10,6 @@ idd: '6447569561'
 released: 2023-06-04
 updated: 2023-06-04
 version: 1.1.7
-stars: 4
 reviews: 1
 website: https://elitewallet.sc
 repository: 

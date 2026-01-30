@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-02
 updated: 2020-09-26
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.mineglobed.com
 repository: 

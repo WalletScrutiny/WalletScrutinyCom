@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-01
 updated: 2020-11-23
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.harcomia.com
 repository: 

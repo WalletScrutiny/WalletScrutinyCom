@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-17
 updated: 2021-09-08
 version: 1.2.3
-stars: 
-ratings: 
 reviews: 
 website: https://tkeep.io
 repository: 

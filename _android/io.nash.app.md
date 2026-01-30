@@ -11,8 +11,6 @@ appCountry:
 released: 2019-08-31
 updated: 2025-10-29
 version: 17.0.24
-stars: 4.6
-ratings: 646
 reviews: 25
 website: https://nash.io
 repository: 

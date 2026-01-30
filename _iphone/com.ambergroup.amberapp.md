@@ -10,7 +10,6 @@ idd: '1515652068'
 released: 2020-09-21
 updated: 2026-01-19
 version: 3.5.5
-stars: 4.5
 reviews: 193
 website: https://www.ambr.io/global
 repository: 

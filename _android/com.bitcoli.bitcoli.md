@@ -10,8 +10,6 @@ appCountry:
 released: 2023-01-13
 updated: 2024-10-09
 version: 1.2.1
-stars: 4.5
-ratings: 
 reviews: 7
 website: https://BitcoLi.com
 repository: 

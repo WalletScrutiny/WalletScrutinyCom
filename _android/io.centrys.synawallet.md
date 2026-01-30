@@ -9,8 +9,6 @@ appCountry:
 released: 2018-12-13
 updated: 2019-05-15
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.theoproject.io
 repository: 

@@ -10,7 +10,6 @@ idd: 977972108
 released: 2015-05-03
 updated: 2021-08-17
 version: '1.255'
-stars: 1
 reviews: 1
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet

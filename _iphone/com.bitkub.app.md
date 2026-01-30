@@ -10,7 +10,6 @@ idd: 1437814700
 released: 2019-04-24
 updated: 2026-01-28
 version: 4.9.0
-stars: 4
 reviews: 12250
 website: https://www.bitkub.com/download
 repository: 

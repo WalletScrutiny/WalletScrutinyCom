@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-19
 updated: 2025-12-30
 version: '3.21'
-stars: 3.6
-ratings: 
 reviews: 3
 website: https://www.rapixchange.com/
 repository: 

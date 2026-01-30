@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-14
 updated: 2025-01-09
 version: 0.3.8
-stars: 
-ratings: 
 reviews: 
 website: https://walletgo.ai/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-04-11
 version: pre-alpha v0.2b
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: https://github.com/hihidev/MobileLN

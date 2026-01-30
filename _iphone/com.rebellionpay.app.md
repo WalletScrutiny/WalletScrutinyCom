@@ -10,7 +10,6 @@ idd: '1413270710'
 released: 2018-10-04
 updated: 2023-09-14
 version: 1.11.21
-stars: 4.6
 reviews: 5869
 website: https://rebellionpay.com
 repository: 

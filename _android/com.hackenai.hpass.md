@@ -9,8 +9,6 @@ appCountry:
 released: 2021-11-24
 updated: 2022-09-15
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://hackenpass.com
 repository: 

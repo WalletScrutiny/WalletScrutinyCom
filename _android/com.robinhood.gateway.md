@@ -10,8 +10,6 @@ appCountry:
 released: 2024-03-12
 updated: 2026-01-26
 version: 2026.4.4
-stars: 4.3
-ratings: 
 reviews: 145
 website: https://robinhood.com/web3-wallet/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-19
 updated: 2022-03-25
 version: 1.2.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.definnpay.com
 repository: 

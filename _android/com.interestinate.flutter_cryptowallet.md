@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-06
 updated: 2020-01-06
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://interestinate.com
 repository: 

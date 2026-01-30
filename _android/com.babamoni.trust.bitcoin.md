@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-22
 updated: 2020-06-22
 version: '2'
-stars: 
-ratings: 
 reviews: 
 website: https://baba-moni.co
 repository: 

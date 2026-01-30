@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2016-11-25
 version: 1.0.18
-stars: 
-ratings: 
 reviews: 
 website: http://bitcoiner.asia
 repository: 

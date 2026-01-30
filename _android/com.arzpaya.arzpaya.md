@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-06
 updated: 2025-11-10
 version: 4.08.17.02
-stars: 4.6
-ratings: 
 reviews: 5
 website: https://arzpaya.com
 repository: 

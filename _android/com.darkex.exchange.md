@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-09-26
 version: 6.4.7
-stars: 
-ratings: 
 reviews: 
 website: https://darkex.com
 repository: 

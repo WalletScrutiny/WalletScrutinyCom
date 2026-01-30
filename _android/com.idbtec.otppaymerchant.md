@@ -9,8 +9,6 @@ appCountry:
 released: 2018-12-05
 updated: 2019-06-18
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://www.otppay.com
 repository: 

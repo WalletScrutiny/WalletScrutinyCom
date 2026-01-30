@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-26
 updated: 2022-05-30
 version: 4.3.11
-stars: 
-ratings: 
 reviews: 
 website: https://a-fun.co.kr/
 repository: 

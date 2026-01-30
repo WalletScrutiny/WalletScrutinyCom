@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-29
 updated: 2020-12-18
 version: 3.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://z31aec014.app-ads-txt.com
 repository: 

@@ -12,8 +12,6 @@ appCountry:
 released: 
 updated: 2024-03-29
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android

@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-22
 updated: 2025-12-26
 version: 12.2.12
-stars: 4.6
-ratings: 
 reviews: 781
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android

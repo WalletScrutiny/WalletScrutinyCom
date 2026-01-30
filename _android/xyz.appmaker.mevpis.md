@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-20
 updated: 2022-02-20
 version: '1'
-stars: 
-ratings: 
 reviews: 
 website: https://dentrocoin.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-21
 updated: 2019-12-22
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://cashbtc.io/
 repository: 

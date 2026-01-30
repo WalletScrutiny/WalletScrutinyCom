@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-17
 updated: 2022-08-25
 version: '8.2'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

@@ -9,7 +9,6 @@ idd: '6444625622'
 released: 2023-01-04
 updated: 2026-01-24
 version: 2.18.0
-stars: 4.1
 reviews: 652
 website: https://www.tpglobalwallet.net/#/
 repository: 

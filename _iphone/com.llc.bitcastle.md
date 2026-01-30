@@ -10,7 +10,6 @@ idd: '1616104862'
 released: 2022-07-15
 updated: 2025-12-09
 version: 1.12.8
-stars: 0
 reviews: 0
 website: https://bitcastle.io/
 repository: 

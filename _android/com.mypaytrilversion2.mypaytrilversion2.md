@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-25
 updated: 2021-10-25
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://mypaytril.com
 repository: 

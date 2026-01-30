@@ -10,8 +10,6 @@ appCountry:
 released: 2021-01-06
 updated: 2026-01-09
 version: 2.7.9
-stars: 2.7
-ratings: 
 reviews: 4
 website: https://gosats.io
 repository: 

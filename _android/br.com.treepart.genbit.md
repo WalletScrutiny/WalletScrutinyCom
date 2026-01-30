@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-10
 updated: 2019-11-16
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://www.genbit.com.br/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-28
 updated: 2019-09-28
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.bxen.io/tickets
 repository: 

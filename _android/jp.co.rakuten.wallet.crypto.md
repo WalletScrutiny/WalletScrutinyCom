@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-12-15
 version: 1.6.2
-stars: 3.5
-ratings: 
 reviews: 
 website: https://www.rakuten-wallet.co.jp/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-29
 updated: 2019-10-23
 version: 8.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://lunablockchain.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-12
 updated: 2019-08-13
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitzlive.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-23
 updated: 2022-12-31
 version: 0.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://nbd.wtf
 repository: 

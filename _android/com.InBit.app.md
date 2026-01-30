@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-29
 updated: 2022-05-26
 version: 18.2.15
-stars: 
-ratings: 
 reviews: 
 website: https://inbitwetrust.com/
 repository: 

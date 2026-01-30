@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-13
 updated: 2022-04-19
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.runixcoin.com/
 repository: 

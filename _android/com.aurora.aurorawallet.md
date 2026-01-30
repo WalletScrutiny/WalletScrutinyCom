@@ -9,8 +9,6 @@ appCountry:
 released: 2022-12-23
 updated: 2022-12-23
 version: '0.8'
-stars: 
-ratings: 
 reviews: 
 website: https://aurorawallet.app
 repository: 

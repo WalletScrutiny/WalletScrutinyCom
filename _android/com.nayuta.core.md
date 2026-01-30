@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-12-16
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://nayuta.co/core/
 repository: https://github.com/nayutaco/NayutaCore

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-04-19
 updated: 2018-05-08
 version: 1.0.11
-stars: 
-ratings: 
 reviews: 
 website: https://chiba.exchange
 repository: 

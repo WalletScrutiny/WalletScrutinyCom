@@ -10,8 +10,6 @@ appCountry:
 released: 2023-03-05
 updated: 2024-07-12
 version: 1.1.0
-stars: 4
-ratings: 
 reviews: 
 website: https://trexglobals.com/
 repository: 

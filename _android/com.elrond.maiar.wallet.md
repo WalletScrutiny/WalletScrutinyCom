@@ -10,8 +10,6 @@ appCountry: us
 released: 2021-01-15
 updated: 2026-01-23
 version: 2.89.0 (2943)
-stars: 4.7
-ratings: 6106
 reviews: 408
 website: https://xportal.com/
 repository: 

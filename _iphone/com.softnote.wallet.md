@@ -10,7 +10,6 @@ idd: '6615068673'
 released: 2024-10-04
 updated: 2025-10-17
 version: '18.0'
-stars: 5
 reviews: 15
 website: https://softnote.com
 repository: 

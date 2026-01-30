@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-16
 updated: 2023-07-07
 version: 1.0.76
-stars: 5
-ratings: 
 reviews: 32
 website: https://www.easycoins.com/
 repository: 

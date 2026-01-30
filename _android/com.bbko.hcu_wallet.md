@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-27
 updated: 2021-08-11
 version: '1.9'
-stars: 
-ratings: 
 reviews: 
 website: https://healthchainus.com/
 repository: 

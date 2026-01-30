@@ -10,8 +10,6 @@ appCountry:
 released: 2021-01-22
 updated: 2021-03-10
 version: 1.9.3
-stars: 2.7
-ratings: 
 reviews: 121
 website: https://admiraloption.com/
 repository: 

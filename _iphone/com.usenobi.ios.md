@@ -10,7 +10,6 @@ idd: '1510269362'
 released: 2020-07-15
 updated: 2025-11-06
 version: 3.6.12
-stars: 4.8
 reviews: 85
 website: https://usenobi.com
 repository: 

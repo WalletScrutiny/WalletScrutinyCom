@@ -10,7 +10,6 @@ idd: '1487657162'
 released: 2020-03-06
 updated: 2025-08-28
 version: 3.6.0
-stars: 0
 reviews: 0
 website: https://followmymoney.de
 repository: 

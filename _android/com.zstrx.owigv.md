@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-29
 updated: 2022-09-05
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

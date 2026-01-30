@@ -10,7 +10,6 @@ idd: 1501336917
 released: 2020-08-31
 updated: 2021-10-27
 version: '1.8'
-stars: 0
 reviews: 0
 website: https://blackfort.exchange/
 repository: 

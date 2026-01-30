@@ -10,7 +10,6 @@ idd: '1642465549'
 released: 2022-11-02
 updated: 2026-01-05
 version: 0.76.3
-stars: 4.9
 reviews: 1087
 website: https://www.leapwallet.io/mobile
 repository: 

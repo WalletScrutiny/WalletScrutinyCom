@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-22
 updated: 2023-02-20
 version: '9.8'
-stars: 
-ratings: 
 reviews: 
 website: https://tmginvesting.com
 repository: 

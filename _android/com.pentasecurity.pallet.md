@@ -9,8 +9,6 @@ appCountry:
 released: 2018-05-27
 updated: 2018-12-27
 version: 1.0.7.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.pentasecurity.com
 repository: 

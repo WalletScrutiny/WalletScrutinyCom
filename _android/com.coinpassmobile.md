@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-19
 version: 3.12.2-coinpass
-stars: 2.8
-ratings: 
 reviews: 
 website: https://www.coinpass.com/
 repository: 

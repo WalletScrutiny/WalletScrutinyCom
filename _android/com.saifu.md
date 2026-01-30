@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-21
 updated: 2019-02-15
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://saifu.ai/
 repository: 

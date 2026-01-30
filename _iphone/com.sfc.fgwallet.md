@@ -10,7 +10,6 @@ idd: '1338808692'
 released: 2018-02-27
 updated: 2026-01-08
 version: 4.1.0
-stars: 5
 reviews: 2
 website: https://fg-wallet.com/
 repository: 

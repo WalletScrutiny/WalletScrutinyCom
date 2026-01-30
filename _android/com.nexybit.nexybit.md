@@ -10,8 +10,6 @@ appCountry:
 released: 2018-12-31
 updated: 2019-02-18
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://nexybit.com/
 repository: 

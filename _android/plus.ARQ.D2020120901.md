@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-09
 updated: 2021-01-06
 version: '2021010601'
-stars: 
-ratings: 
 reviews: 
 website: https://www.arq.link/
 repository: 

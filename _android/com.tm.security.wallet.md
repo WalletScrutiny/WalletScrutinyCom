@@ -10,8 +10,6 @@ appCountry:
 released: 2022-05-26
 updated: 2026-01-22
 version: 2.5.6
-stars: 4.1
-ratings: 
 reviews: 10
 website: https://debox.pro
 repository: 

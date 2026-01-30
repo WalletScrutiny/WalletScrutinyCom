@@ -10,7 +10,6 @@ idd: 1530580389
 released: 2020-09-29
 updated: 2025-11-12
 version: 4.4.02
-stars: 4.9
 reviews: 79
 website: https://fxtrendo.com/
 repository: 

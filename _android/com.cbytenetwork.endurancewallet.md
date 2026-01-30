@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-27
 updated: 2023-02-27
 version: 0.01.0
-stars: 
-ratings: 
 reviews: 
 website: https://cbyte.network
 repository: 

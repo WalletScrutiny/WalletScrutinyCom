@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-21
 updated: 2020-10-21
 version: '3.25'
-stars: 
-ratings: 
 reviews: 
 website: https://skb-coin.jp/en/
 repository: 

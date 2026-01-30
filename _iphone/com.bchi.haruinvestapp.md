@@ -10,7 +10,6 @@ idd: '1579344792'
 released: 2021-08-19
 updated: 2023-05-24
 version: 5.2.0
-stars: 4.7
 reviews: 203
 website: https://haruinvest.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-16
 updated: 2025-10-20
 version: 0.4.3
-stars: 
-ratings: 
 reviews: 
 website: https://logos-foundation.org/logos
 repository: 

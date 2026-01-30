@@ -10,8 +10,6 @@ appCountry:
 released: 2024-01-21
 updated: 2026-01-14
 version: 1.8.6
-stars: 4.4
-ratings: 
 reviews: 5
 website: https://ecoinwallet.org
 repository: https://github.com/ecoin-finance/ecoinwallet

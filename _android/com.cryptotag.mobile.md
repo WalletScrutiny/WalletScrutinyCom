@@ -9,8 +9,6 @@ appCountry:
 released: 2017-11-06
 updated: 2021-09-30
 version: 1.14.40.00000
-stars: 
-ratings: 
 reviews: 
 website: http://www.cryptotag.financial
 repository: 

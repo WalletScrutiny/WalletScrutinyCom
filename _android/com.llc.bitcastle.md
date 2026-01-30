@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-29
 updated: 2025-12-05
 version: 1.13.7
-stars: 3
-ratings: 
 reviews: 15
 website: https://bitcastle.io/
 repository: 

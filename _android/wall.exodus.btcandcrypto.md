@@ -11,8 +11,6 @@ appCountry:
 released: 2021-07-16
 updated: 2021-07-16
 version: '6.045'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

@@ -11,8 +11,6 @@ appCountry:
 released: 2019-11-01
 updated: 2019-11-02
 version: '1.1'
-stars: 3.5
-ratings: 63
 reviews: 42
 website: 
 repository: 

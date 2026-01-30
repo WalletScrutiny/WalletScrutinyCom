@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-05-06
 version: 1.8.2
-stars: 
-ratings: 
 reviews: 
 website: https://btu-protocol.com/trading
 repository: 

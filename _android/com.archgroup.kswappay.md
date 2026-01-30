@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-13
 updated: 2022-12-05
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://kswappay.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-06-18
 version: 1.0.0028
-stars: 2.8
-ratings: 
 reviews: 
 website: 
 repository: 

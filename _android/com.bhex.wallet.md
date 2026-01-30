@@ -12,8 +12,6 @@ appCountry: us
 released: 2021-07-07
 updated: 2021-09-19
 version: 1.3.5
-stars: 3.7
-ratings: 6
 reviews: 4
 website: https://www.bhexchain.com/
 repository: 

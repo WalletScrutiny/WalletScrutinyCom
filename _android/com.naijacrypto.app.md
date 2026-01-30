@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-05
 updated: 2022-10-22
 version: 5.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://naijacrypto.com/
 repository: 

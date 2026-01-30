@@ -10,7 +10,6 @@ idd: '6648790101'
 released: 2025-01-09
 updated: 2025-09-28
 version: 6.5.7
-stars: 5
 reviews: 12
 website: https://www.darkex.com/
 repository: 

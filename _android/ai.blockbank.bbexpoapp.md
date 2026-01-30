@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-21
 updated: 2025-06-11
 version: 4.4.7
-stars: 4.1
-ratings: 
 reviews: 13
 website: https://pairs.xyz
 repository: 

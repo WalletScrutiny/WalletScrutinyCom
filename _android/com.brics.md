@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-11-07
 version: 0.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://www.brics-pay.com/BRICS-Pay-Retail
 repository: 

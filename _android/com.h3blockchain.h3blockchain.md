@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-21
 updated: 2019-08-21
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://h3plex.com/
 repository: 

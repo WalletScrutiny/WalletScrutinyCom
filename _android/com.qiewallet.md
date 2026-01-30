@@ -9,8 +9,6 @@ appCountry:
 released: 2023-06-20
 updated: 2025-12-26
 version: 0.3.50
-stars: 
-ratings: 
 reviews: 
 website: https://qiewallet.qiblockchain.online/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-28
 updated: 2022-06-30
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://keywa.io
 repository: 

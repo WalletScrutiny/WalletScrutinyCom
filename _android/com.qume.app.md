@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-10-07
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://www.qume.io
 repository: 

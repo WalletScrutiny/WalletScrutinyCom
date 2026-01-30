@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-08
 updated: 2022-03-24
 version: '1.7'
-stars: 
-ratings: 
 reviews: 
 website: https://globalblock.co.uk/
 repository: 

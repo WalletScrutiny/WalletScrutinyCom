@@ -10,7 +10,6 @@ idd: 1481859680
 released: 2020-04-08
 updated: 2025-12-17
 version: '1.61'
-stars: 4.1
 reviews: 84
 website: https://www.mtpelerin.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-06
 updated: 2023-02-24
 version: 1.25.0
-stars: 3.7
-ratings: 64
 reviews: 5
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile

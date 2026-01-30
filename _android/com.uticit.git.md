@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-22
 updated: 2021-12-01
 version: 1.0.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.liyeplimalcryptoinvestments.com
 repository: 

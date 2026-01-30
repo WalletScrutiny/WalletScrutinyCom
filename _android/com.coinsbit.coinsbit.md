@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-28
 updated: 2024-06-04
 version: 1.0.2
-stars: 2.6
-ratings: 1855
 reviews: 48
 website: https://coinsbit.io/
 repository: 

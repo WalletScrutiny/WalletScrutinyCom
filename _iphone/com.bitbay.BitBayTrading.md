@@ -10,7 +10,6 @@ idd: '1409644952'
 released: 2018-11-20
 updated: 2025-10-21
 version: 1.4.16
-stars: 5
 reviews: 3
 website: https://zondacrypto.com
 repository: 

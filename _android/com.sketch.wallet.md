@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-28
 updated: 2026-01-16
 version: 2.2.8
-stars: 4.7
-ratings: 
 reviews: 
 website: https://auth.sketchwallet.io:28446/sketch/conditions
 repository: 

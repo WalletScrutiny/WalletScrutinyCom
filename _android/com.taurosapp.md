@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-03
 updated: 2023-03-31
 version: 9.6.4
-stars: 3.1
-ratings: 
 reviews: 5
 website: https://tauros.io
 repository: 

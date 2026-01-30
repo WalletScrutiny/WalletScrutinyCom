@@ -10,8 +10,6 @@ appCountry:
 released: 2015-08-22
 updated: 2025-12-16
 version: 11.5.6
-stars: 3.9
-ratings: 
 reviews: 33
 website: https://www.emoney.ge/
 repository: 

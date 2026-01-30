@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-13
 updated: 2025-10-16
 version: 1.3.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.raininfotech.in
 repository: 

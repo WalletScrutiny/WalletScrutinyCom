@@ -10,8 +10,6 @@ appCountry:
 released: 2025-04-28
 updated: 2025-08-15
 version: 1.8.10
-stars: 4.6
-ratings: 
 reviews: 10
 website: https://newmoney.ai/
 repository: 

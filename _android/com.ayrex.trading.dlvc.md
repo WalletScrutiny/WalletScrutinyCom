@@ -10,8 +10,6 @@ appCountry:
 released: 2020-05-14
 updated: 2020-05-14
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.ayrextrading.com
 repository: 

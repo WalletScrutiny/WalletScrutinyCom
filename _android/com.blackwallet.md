@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-29
 updated: 2023-05-02
 version: '1.1'
-stars: 3.7
-ratings: 
 reviews: 4
 website: https://blackproject.tech/
 repository: 

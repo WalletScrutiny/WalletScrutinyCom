@@ -11,8 +11,6 @@ appCountry:
 released: 2021-05-25
 updated: 2021-05-25
 version: 1.0.12
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

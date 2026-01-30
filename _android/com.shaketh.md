@@ -10,8 +10,6 @@ appCountry:
 released: 2018-02-20
 updated: 2026-01-23
 version: 4.3.15
-stars: 4.4
-ratings: 10533
 reviews: 21
 website: https://shakepay.com
 repository: 

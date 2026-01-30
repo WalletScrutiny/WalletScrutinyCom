@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-13
 updated: 2020-12-23
 version: 1.1.43
-stars: 
-ratings: 
 reviews: 
 website: https://www.quotatrade.com/
 repository: 

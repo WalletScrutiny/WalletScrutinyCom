@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-01
 updated: 2020-06-08
 version: V0.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/yancaitech
 repository: https://github.com/yancaitech/hodler-wallet

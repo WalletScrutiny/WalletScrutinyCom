@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-13
 updated: 2026-01-03
 version: 1.4.7
-stars: 4.6
-ratings: 
 reviews: 35
 website: https://bitoshi.africa
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-08-26
 updated: 2019-08-27
 version: 2.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://app.fixttoken.com/
 repository: 

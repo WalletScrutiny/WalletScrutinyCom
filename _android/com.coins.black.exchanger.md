@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-11
 updated: 2025-08-29
 version: '1.5'
-stars: 3.4
-ratings: 
 reviews: 
 website: https://coins.black
 repository: 

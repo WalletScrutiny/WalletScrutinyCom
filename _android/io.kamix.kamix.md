@@ -10,8 +10,6 @@ appCountry:
 released: 2019-03-14
 updated: 2025-04-25
 version: 3.0.336
-stars: 3.6
-ratings: 
 reviews: 
 website: https://kamix.io
 repository: 

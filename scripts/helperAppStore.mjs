@@ -16,7 +16,7 @@ const stats = {
 const category = 'iphone';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
-                'updated version stars reviews website repository issue ' +
+                'updated version reviews website repository issue ' +
                 'icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social features developerName').split(' ');
 
@@ -109,7 +109,6 @@ function updateFromApp (header, app) {
     ? header.updated
     : new Date(app.updated);
   header.released = header.released || app.released;
-  header.stars = app.score;
   header.reviews = app.reviews;
   header.website = app.developerWebsite || header.website || '';
   header.date = header.date || new Date();

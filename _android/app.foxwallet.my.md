@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-10
 updated: 2022-09-05
 version: '1.29'
-stars: 
-ratings: 
 reviews: 
 website: https://severus.finance
 repository: 

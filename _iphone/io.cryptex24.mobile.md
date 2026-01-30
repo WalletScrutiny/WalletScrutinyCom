@@ -10,7 +10,6 @@ idd: '1580215134'
 released: 2022-07-06
 updated: 2022-12-05
 version: '1.6'
-stars: 1
 reviews: 1
 website: https://www.cryptex24.io
 repository: 

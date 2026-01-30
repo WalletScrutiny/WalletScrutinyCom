@@ -10,7 +10,6 @@ idd: '1302270848'
 released: 2018-01-02
 updated: 2021-11-02
 version: 2.0.28
-stars: 4.5
 reviews: 2
 website: https://stratum.hk/press
 repository: 

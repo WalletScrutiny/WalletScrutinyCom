@@ -10,8 +10,6 @@ appCountry: sg
 released: 2020-11-08
 updated: 2024-10-06
 version: 1.9.2
-stars: 3
-ratings: 
 reviews: 
 website: https://coincardi.com
 repository: 

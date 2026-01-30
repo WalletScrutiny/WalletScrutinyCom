@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-07
 updated: 2022-04-28
 version: '4.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitflash.io
 repository: 

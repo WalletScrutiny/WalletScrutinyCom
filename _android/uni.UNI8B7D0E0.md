@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-08
 updated: 2022-11-22
 version: 1.2.5
-stars: 4.2
-ratings: 
 reviews: 2
 website: https://www.vitatoken.io/
 repository: 

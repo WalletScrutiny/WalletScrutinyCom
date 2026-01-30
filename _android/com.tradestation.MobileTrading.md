@@ -10,8 +10,6 @@ appCountry: us
 released: 2013-09-09
 updated: 2026-01-26
 version: 8.12.1
-stars: 4.4
-ratings: 4823
 reviews: 2052
 website: http://tradestation.com/contact-us/
 repository: 

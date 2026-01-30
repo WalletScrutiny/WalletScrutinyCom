@@ -10,7 +10,6 @@ idd: '1455959680'
 released: 2019-08-23
 updated: 2025-11-10
 version: 2.24.3
-stars: 0
 reviews: 0
 website: https://custody.bitpanda.com/about
 repository: 

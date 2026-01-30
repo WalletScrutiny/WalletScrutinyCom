@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-10
 updated: 2021-08-10
 version: '9.02'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

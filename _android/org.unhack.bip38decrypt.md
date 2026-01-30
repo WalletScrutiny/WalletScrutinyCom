@@ -9,8 +9,6 @@ appCountry:
 released: 2016-06-17
 updated: 2016-12-26
 version: 2.1.8
-stars: 
-ratings: 
 reviews: 
 website: https://github.com/mikebutrimov/bip38decrypt
 repository: 

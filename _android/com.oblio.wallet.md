@@ -9,8 +9,6 @@ appCountry:
 released: 2025-01-12
 updated: 2025-06-25
 version: 1.0.12
-stars: 
-ratings: 
 reviews: 
 website: https://obliowallet.com
 repository: 

@@ -25,7 +25,7 @@ const migration = function (header, body, fileName, categoryHelper) {
   }
 
  // Convert numeric fields from strings to numbers
-  const numericFields = ['ratings', 'stars', 'users', 'reviews'];
+  const numericFields = ['users', 'reviews'];
   for (const f of numericFields) {
     if (header[f] && typeof header[f] === 'string' && !isNaN(header[f])) {
       header[f] = Number(header[f]);
@@ -52,7 +52,6 @@ const migration = function (header, body, fileName, categoryHelper) {
       console.error(`# ${folder}${header.appId}.md: Unrecognized "social" entry ${l}.`);
     }
   }
-  if (header.stars) header.stars = Number(header.stars.toPrecision(2));
   if (header.social.length < 1) header.social = null;
   // hardware wallets have some inconsistent "company" and "companyWebsite" entries
   if (category === 'hardware') {

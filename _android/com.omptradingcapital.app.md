@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-12
 updated: 2020-12-12
 version: '1.0'
-stars: 3
-ratings: 
 reviews: 
 website: https://omptrading.capital
 repository: 

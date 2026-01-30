@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-09-14
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://s-trade.com
 repository: 

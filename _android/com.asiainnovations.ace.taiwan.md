@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-01-28
 updated: 2024-12-04
 version: 5.2.0_5210
-stars: 
-ratings: 
 reviews: 
 website: https://www.ace.io
 repository: 

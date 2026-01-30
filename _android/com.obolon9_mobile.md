@@ -9,8 +9,6 @@ appCountry:
 released: 2018-04-18
 updated: 2021-10-09
 version: 2.1.2
-stars: 
-ratings: 
 reviews: 
 website: http://obolon9.com
 repository: 

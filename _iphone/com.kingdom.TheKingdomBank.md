@@ -10,7 +10,6 @@ idd: '1626275936'
 released: 2022-06-15
 updated: 2026-01-28
 version: 10.4.1
-stars: 1
 reviews: 1
 website: https://portal.thekingdombank.com/signup
 repository: 

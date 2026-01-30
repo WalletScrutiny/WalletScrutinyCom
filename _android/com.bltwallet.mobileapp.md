@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-24
 updated: 2022-02-01
 version: '2.5'
-stars: 
-ratings: 
 reviews: 
 website: https://bitlivenow.com/
 repository: 

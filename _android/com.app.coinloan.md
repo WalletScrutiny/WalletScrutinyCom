@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-11-28
 updated: 2023-05-29
 version: 1.7.7
-stars: 3.6
-ratings: 309
 reviews: 79
 website: https://coinloan.io/
 repository: 

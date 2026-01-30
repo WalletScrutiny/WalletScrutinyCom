@@ -10,7 +10,6 @@ idd: '1593830910'
 released: 2021-12-28
 updated: 2025-12-10
 version: 3.82.0
-stars: 5
 reviews: 3
 website: https://kryptogo.com/wallet
 repository: 

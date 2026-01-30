@@ -9,8 +9,6 @@ appCountry:
 released: 2018-03-27
 updated: 2019-12-12
 version: '1.26'
-stars: 
-ratings: 
 reviews: 
 website: http://gmnc.net
 repository: 

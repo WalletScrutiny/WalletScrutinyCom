@@ -10,8 +10,6 @@ appCountry:
 released: 2023-07-28
 updated: 2026-01-23
 version: 5.7.2
-stars: 2.6
-ratings: 
 reviews: 5
 website: https://www.bitvenus.me/
 repository: 

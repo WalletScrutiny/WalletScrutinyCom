@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-27
 updated: 2022-06-07
 version: 1.0.12
-stars: 
-ratings: 
 reviews: 
 website: https://pgoldapp.com/
 repository: 

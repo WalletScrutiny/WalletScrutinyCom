@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-19
 updated: 2022-09-25
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://vcoin.com
 repository: 

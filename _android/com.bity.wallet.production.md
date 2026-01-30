@@ -10,8 +10,6 @@ appCountry:
 released: 2024-02-23
 updated: 2025-11-27
 version: 2.0.0
-stars: 4.8
-ratings: 
 reviews: 2
 website: https://bity.com
 repository: 

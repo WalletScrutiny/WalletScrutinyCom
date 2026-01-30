@@ -10,8 +10,6 @@ appCountry:
 released: 2021-02-26
 updated: 2023-12-11
 version: '1.2'
-stars: 3.1
-ratings: 
 reviews: 7
 website: http://gleec.com/
 repository: 

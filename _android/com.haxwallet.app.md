@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-23
 updated: 2025-12-14
 version: 3.5.2
-stars: 4.6
-ratings: 
 reviews: 6
 website: http://haxwallet.com
 repository: 

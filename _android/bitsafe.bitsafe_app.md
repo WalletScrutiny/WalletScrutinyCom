@@ -9,8 +9,6 @@ appCountry:
 released: 2017-07-28
 updated: 2017-11-28
 version: '1.7'
-stars: 
-ratings: 
 reviews: 
 website: https://fincryptglobal.com/
 repository: 

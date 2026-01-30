@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-16
 updated: 2022-04-29
 version: '1.35'
-stars: 4.8
-ratings: 
 reviews: 1228
 website: https://www.gokumarket.com
 repository: 

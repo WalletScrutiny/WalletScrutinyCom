@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-28
 updated: 2021-02-17
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://transferbuddy.org/
 repository: 

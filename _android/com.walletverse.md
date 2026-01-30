@@ -10,8 +10,6 @@ appCountry:
 released: 2023-06-29
 updated: 2025-12-08
 version: 1.15.27
-stars: 4.8
-ratings: 
 reviews: 9
 website: https://walletverse.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-10
 updated: 2020-11-15
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.ezbitex.io/en_US/
 repository: 

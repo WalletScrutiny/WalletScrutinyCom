@@ -9,8 +9,6 @@ appCountry:
 released: 2018-11-21
 updated: 2018-11-21
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://binexhosting.com
 repository: 

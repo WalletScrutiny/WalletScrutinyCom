@@ -9,8 +9,6 @@ appCountry:
 released: 2025-05-09
 updated: 2025-12-23
 version: 2.4.16
-stars: 
-ratings: 
 reviews: 
 website: https://www.tokenup.org
 repository: 

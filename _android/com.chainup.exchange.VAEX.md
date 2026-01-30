@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-09
 updated: 2023-02-02
 version: 5.6.5_push_v2
-stars: 
-ratings: 
 reviews: 
 website: https://vaex.tech/
 repository: 

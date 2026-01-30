@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-01-23
 version: 1.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://sudonym.app
 repository: 

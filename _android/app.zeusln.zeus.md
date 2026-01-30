@@ -13,8 +13,6 @@ appCountry:
 released: 2020-07-07
 updated: 2026-01-24
 version: 0.12.2
-stars: 4.2
-ratings: 45
 reviews: 37
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus

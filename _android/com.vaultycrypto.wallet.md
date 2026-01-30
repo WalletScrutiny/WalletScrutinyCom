@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-10
 updated: 2022-08-10
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.vaulty.pro
 repository: 

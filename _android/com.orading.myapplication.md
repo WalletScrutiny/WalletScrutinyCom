@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-23
 updated: 2023-02-23
 version: 1.2.7
-stars: 
-ratings: 
 reviews: 
 website: https://orading.com/
 repository: 

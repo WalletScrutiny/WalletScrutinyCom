@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-01
 updated: 2019-01-04
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://www.Mob1Apps.com
 repository: 

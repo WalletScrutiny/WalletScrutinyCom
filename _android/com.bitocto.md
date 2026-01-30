@@ -10,8 +10,6 @@ appCountry:
 released: 2019-07-18
 updated: 2023-05-29
 version: '3.23'
-stars: 5
-ratings: 1532
 reviews: 6
 website: https://bitocto.com
 repository: 

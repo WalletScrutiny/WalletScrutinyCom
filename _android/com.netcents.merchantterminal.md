@@ -9,8 +9,6 @@ appCountry:
 released: 2018-02-11
 updated: 2025-07-18
 version: 3.1.21
-stars: 
-ratings: 
 reviews: 
 website: http://www.net-cents.com
 repository: 

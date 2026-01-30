@@ -10,8 +10,6 @@ appCountry: us
 released: 2019-10-18
 updated: 2026-01-27
 version: 2.5.23
-stars: 
-ratings: 
 reviews: 
 website: https://www.zbx.com/
 repository: 

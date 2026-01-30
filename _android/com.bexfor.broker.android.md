@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-21
 updated: 2020-12-22
 version: 3.8.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bexfor.com
 repository: 

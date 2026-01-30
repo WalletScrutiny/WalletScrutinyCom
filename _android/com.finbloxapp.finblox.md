@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-28
 updated: 2023-11-06
 version: 0.117.0
-stars: 3.6
-ratings: 
 reviews: 19
 website: https://www.finbloxapp.com/
 repository: 

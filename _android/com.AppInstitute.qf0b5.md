@@ -9,8 +9,6 @@ appCountry:
 released: 2018-10-04
 updated: 2018-10-12
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://blockscart.eu
 repository: 

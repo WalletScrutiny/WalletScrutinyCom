@@ -10,7 +10,6 @@ idd: '6447785195'
 released: 2023-05-04
 updated: 2024-09-18
 version: 1.5.7
-stars: 3.1
 reviews: 17
 website: https://noones.com
 repository: 

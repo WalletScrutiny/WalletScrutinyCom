@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-15
 updated: 2023-03-18
 version: 2.19.3
-stars: 
-ratings: 
 reviews: 
 website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt
 repository: 

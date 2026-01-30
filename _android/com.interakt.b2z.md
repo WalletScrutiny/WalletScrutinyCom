@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-12
 updated: 2025-02-07
 version: 1.9.0
-stars: 4.3
-ratings: 
 reviews: 
 website: https://www.b2z.exchange/en/home
 repository: 

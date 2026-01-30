@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-11
 updated: 2023-03-26
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://lightxwallet.io
 repository: 

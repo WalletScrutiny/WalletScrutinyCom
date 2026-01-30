@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-01
 updated: 2019-09-16
 version: 1.5.17
-stars: 4.4
-ratings: 344
 reviews: 205
 website: https://handcash.io
 repository: 

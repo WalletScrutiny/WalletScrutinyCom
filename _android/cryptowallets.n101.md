@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-24
 updated: 2021-12-24
 version: '1.01'
-stars: 
-ratings: 
 reviews: 
 website: https://thecryptoyo.com
 repository: 

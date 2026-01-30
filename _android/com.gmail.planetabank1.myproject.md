@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-01
 updated: 2021-07-08
 version: '4'
-stars: 
-ratings: 
 reviews: 
 website: https://planetabank.com.br/
 repository: 

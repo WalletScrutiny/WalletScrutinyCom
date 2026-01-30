@@ -10,8 +10,6 @@ appCountry:
 released: 2019-01-14
 updated: 2021-04-28
 version: 1.1.3
-stars: 4.4
-ratings: 202
 reviews: 58
 website: https://www.bitcoinofamerica.org
 repository: 

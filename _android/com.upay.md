@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-13
 updated: 2021-01-07
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: http://upay.company
 repository: 

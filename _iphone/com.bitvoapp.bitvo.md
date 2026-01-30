@@ -10,7 +10,6 @@ idd: 1400304552
 released: 2018-08-06
 updated: 2022-11-18
 version: 3.6.4
-stars: 2.9
 reviews: 26
 website: http://www.bitvo.com
 repository: 

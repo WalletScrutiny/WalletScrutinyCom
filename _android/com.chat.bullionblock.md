@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-06
 updated: 2020-10-14
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://bullionblock.ltd
 repository: 

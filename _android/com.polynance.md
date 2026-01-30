@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-26
 updated: 2019-10-15
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.polynance.com
 repository: 

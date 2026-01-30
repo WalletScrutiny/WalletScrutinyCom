@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-31
 updated: 2022-05-31
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://trade6ix.com
 repository: 

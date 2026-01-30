@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-01-24
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.xeniosmarkets.com/
 repository: 

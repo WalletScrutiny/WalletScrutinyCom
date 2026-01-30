@@ -9,8 +9,6 @@ appCountry:
 released: 2022-08-12
 updated: 2022-08-23
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.alamotrading.io/
 repository: 

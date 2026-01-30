@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-11
 updated: 2023-09-22
 version: 1.0.2
-stars: 3.8
-ratings: 
 reviews: 
 website: https://icynote.ch
 repository: 

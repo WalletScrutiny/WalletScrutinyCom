@@ -10,7 +10,6 @@ idd: 1482096895
 released: 2020-02-19
 updated: 2025-07-31
 version: 2.1.668
-stars: 5
 reviews: 9
 website: https://xrex.io/
 repository: 

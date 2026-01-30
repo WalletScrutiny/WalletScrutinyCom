@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-15
 updated: 2020-03-15
 version: '1.0'
-stars: 2.6
-ratings: 
 reviews: 
 website: http://www.sesacash.com
 repository: 

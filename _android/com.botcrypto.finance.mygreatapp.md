@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-22
 updated: 2022-03-23
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://botcrypto.mygreat.app/
 repository: 

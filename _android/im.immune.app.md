@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-29
 updated: 2025-02-28
 version: 2.2.1
-stars: 3.4
-ratings: 
 reviews: 
 website: https://imm.app/
 repository: 

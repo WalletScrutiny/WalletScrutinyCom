@@ -12,8 +12,6 @@ appCountry:
 released: 2018-06-04
 updated: 2022-07-13
 version: '0.22'
-stars: 4.3
-ratings: 
 reviews: 7
 website: https://wallet.coffee/
 repository: https://github.com/coffee-software/coffee.wallet

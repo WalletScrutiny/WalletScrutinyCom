@@ -9,8 +9,6 @@ appCountry:
 released: 2025-03-18
 updated: 2026-01-14
 version: 1.1.5
-stars: 5
-ratings: 
 reviews: 5
 website: https://geefi.io
 repository: 

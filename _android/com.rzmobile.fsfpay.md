@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-25
 updated: 2021-07-25
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.fsfpay.com
 repository: 

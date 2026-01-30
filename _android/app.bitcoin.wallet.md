@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-10
 updated: 2021-11-02
 version: '10.00'
-stars: 4.2
-ratings: 25
 reviews: 1
 website: https://bitcoin.flarfly.com
 repository: 

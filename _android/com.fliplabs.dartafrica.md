@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-24
 updated: 2024-02-29
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://dartafrica.io
 repository: 

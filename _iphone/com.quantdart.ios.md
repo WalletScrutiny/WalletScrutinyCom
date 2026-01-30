@@ -10,7 +10,6 @@ idd: 1522245431
 released: 2020-10-18
 updated: 2022-01-27
 version: 1.1.25
-stars: 0
 reviews: 0
 website: https://www.quantdart.com/
 repository: 

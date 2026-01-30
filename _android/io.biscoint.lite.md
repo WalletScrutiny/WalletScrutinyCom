@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-05
 updated: 2026-01-21
 version: 2.9.8
-stars: 4.8
-ratings: 
 reviews: 6
 website: https://www.bity.com.br/policies/
 repository: 

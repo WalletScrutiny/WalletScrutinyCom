@@ -10,7 +10,6 @@ idd: '1574033398'
 released: 2021-09-02
 updated: 2024-10-17
 version: 1.8.8
-stars: 5
 reviews: 8
 website: https://www.bitex.sg/
 repository: 

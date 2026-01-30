@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-19
 updated: 2025-07-02
 version: 80.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://yusetoken.io/
 repository: 

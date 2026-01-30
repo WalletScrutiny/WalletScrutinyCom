@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-06
 updated: 2024-06-18
 version: 3.0.1
-stars: 3.5
-ratings: 
 reviews: 
 website: https://knaken.eu/
 repository: 

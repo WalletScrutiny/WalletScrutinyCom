@@ -10,7 +10,6 @@ idd: 1499042083
 released: 2020-03-10
 updated: 2022-02-01
 version: 0.8.0
-stars: 4.2
 reviews: 66
 website: https://www.b21.io
 repository: 

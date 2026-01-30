@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-06
 updated: 2025-08-01
 version: 2.2.4
-stars: 5
-ratings: 
 reviews: 
 website: https://openblock.com
 repository: 

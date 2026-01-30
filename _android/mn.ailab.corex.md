@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-24
 updated: 2026-01-20
 version: 2.0.59
-stars: 
-ratings: 
 reviews: 
 website: https://www.corex.mn/
 repository: 

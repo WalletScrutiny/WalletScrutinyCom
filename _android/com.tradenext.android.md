@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-06-26
 version: 1.7.0
-stars: 
-ratings: 
 reviews: 
 website: https://tradenext.com
 repository: 

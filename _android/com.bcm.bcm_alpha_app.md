@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-09-26
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.bcmholdings.io
 repository: 

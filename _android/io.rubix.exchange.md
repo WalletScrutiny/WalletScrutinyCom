@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-22
 updated: 2023-10-10
 version: 1.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://rubix.io
 repository: 

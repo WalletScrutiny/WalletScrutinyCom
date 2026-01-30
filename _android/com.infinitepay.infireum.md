@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-23
 updated: 2020-09-01
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://infireum.com
 repository: 

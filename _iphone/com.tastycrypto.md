@@ -10,7 +10,6 @@ idd: '1670102186'
 released: 2023-04-29
 updated: 2025-10-22
 version: 0.4.26
-stars: 4.6
 reviews: 20
 website: https://www.tastycrypto.com/
 repository: 

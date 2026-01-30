@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-30
 updated: 2023-02-26
 version: 0.30.29
-stars: 
-ratings: 
 reviews: 
 website: https://renasnce.com
 repository: 

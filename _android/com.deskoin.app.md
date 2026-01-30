@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2026-01-22
 version: 7.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.deskoin.com/
 repository: 

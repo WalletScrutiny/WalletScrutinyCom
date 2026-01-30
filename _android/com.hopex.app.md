@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-20
 updated: 2021-10-25
 version: 3.17.27
-stars: 
-ratings: 
 reviews: 
 website: https://www.hopex.com
 repository: 

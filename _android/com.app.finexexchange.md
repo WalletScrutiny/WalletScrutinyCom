@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-18
 updated: 2022-11-30
 version: 11.5.0
-stars: 4
-ratings: 
 reviews: 
 website: https://finexchanges.com
 repository: 

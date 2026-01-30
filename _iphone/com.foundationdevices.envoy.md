@@ -10,7 +10,6 @@ idd: '1584811818'
 released: 2022-07-14
 updated: 2026-01-28
 version: 2.2.2
-stars: 4.6
 reviews: 29
 website: 
 repository: https://github.com/Foundation-Devices/envoy

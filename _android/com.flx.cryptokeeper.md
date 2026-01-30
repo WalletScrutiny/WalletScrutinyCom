@@ -10,8 +10,6 @@ appCountry:
 released: 2025-06-02
 updated: 2025-08-30
 version: 3.0.0
-stars: 4.4
-ratings: 
 reviews: 7
 website: http://www.cryptokeeperllc.com
 repository: 

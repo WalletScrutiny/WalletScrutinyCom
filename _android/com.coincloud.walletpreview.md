@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-02
 updated: 2023-03-09
 version: 12.9.24
-stars: 3.4
-ratings: 
 reviews: 44
 website: http://coin.cloud/app
 repository: 

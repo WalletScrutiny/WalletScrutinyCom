@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-11
 updated: 2020-12-11
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://ditepayhub.com.ng
 repository: 

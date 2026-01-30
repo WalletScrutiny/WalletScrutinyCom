@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-01
 updated: 2020-01-01
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://libertypool.com/
 repository: 

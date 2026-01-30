@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-14
 updated: 2022-03-14
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://finn.exchange
 repository: 

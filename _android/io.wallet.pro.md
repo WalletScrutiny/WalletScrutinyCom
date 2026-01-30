@@ -10,8 +10,6 @@ appCountry: nz
 released: 2019-07-14
 updated: 2021-08-04
 version: 1.2.9
-stars: 
-ratings: 
 reviews: 
 website: https://wallet.io/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2017-03-22
 updated: 2023-12-04
 version: 4.6.0
-stars: 3.8
-ratings: 91
 reviews: 10
 website: https://bixin.com
 repository: 

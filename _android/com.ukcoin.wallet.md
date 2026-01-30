@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-16
 updated: 2020-07-16
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://ukcoin.money/
 repository: 

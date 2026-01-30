@@ -10,8 +10,6 @@ appCountry: gb
 released: 2018-12-17
 updated: 2021-08-02
 version: 1.5.51
-stars: 3.4
-ratings: 514
 reviews: 215
 website: https://www.aximetria.com/
 repository: 

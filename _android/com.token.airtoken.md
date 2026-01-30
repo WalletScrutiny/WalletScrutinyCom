@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-18
 updated: 2019-07-11
 version: 1.0.18
-stars: 
-ratings: 
 reviews: 
 website: https://airtokenwallet.com
 repository: 

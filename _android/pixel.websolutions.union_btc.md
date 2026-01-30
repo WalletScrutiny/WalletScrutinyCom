@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-29
 updated: 2022-09-07
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://unionbtc.io/
 repository: 

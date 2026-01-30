@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-10
 updated: 2023-03-10
 version: 1.6.4
-stars: 
-ratings: 
 reviews: 
 website: https://goldexplus.com
 repository: 

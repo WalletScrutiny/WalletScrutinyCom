@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-03
 updated: 2026-01-23
 version: 1.08.1092
-stars: 4.8
-ratings: 934
 reviews: 41
 website: https://paiexchange.com
 repository: 

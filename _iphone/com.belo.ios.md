@@ -10,7 +10,6 @@ idd: '1575614708'
 released: 2021-09-08
 updated: 2026-01-09
 version: 7.9.0
-stars: 4.5
 reviews: 40
 website: https://belo.app
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-30
 updated: 2024-03-09
 version: 1.7.1
-stars: 4.3
-ratings: 
 reviews: 
 website: https://www.wootzapp.com
 repository: 

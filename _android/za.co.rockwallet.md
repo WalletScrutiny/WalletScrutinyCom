@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-30
 updated: 2021-10-17
 version: '1.6'
-stars: 2.9
-ratings: 
 reviews: 
 website: https://rockwallet.co.za
 repository: 

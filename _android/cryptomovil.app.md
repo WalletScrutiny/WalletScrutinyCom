@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-15
 updated: 2022-10-04
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://cryptomovil.app/
 repository: 

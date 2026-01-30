@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-20
 version: 2.0.56
-stars: 4.8
-ratings: 
 reviews: 
 website: https://21bitcoin.app/
 repository: 

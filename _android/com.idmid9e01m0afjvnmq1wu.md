@@ -9,8 +9,6 @@ appCountry:
 released: 2018-06-09
 updated: 2018-06-09
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://escrowblock.net
 repository: 

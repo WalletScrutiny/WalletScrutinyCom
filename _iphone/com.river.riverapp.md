@@ -10,7 +10,6 @@ idd: '1536176542'
 released: 2021-01-19
 updated: 2026-01-27
 version: 6.12.0
-stars: 4.9
 reviews: 7092
 website: https://river.com/buy-bitcoin
 repository: 

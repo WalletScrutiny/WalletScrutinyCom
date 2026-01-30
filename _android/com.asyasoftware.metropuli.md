@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-09
 updated: 2023-08-22
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://asyasoftware.ge
 repository: 

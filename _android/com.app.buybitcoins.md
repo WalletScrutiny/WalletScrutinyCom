@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-20
 updated: 2021-04-08
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://mobapibbc.buybitcoins.app/
 repository: 

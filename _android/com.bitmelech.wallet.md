@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-08-05
 version: 1.2.5
-stars: 
-ratings: 
 reviews: 
 website: https://bitmelech.com/
 repository: 

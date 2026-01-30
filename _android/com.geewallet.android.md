@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-23
 updated: 2024-03-20
 version: 0.7.444.0
-stars: 
-ratings: 
 reviews: 
 website: http://github.com/knocte/geewallet
 repository: https://github.com/knocte/geewallet

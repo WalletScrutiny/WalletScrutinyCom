@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-13
 updated: 2026-01-13
 version: 3.6.0
-stars: 4.7
-ratings: 
 reviews: 3
 website: https://mpcvault.com/
 repository: 

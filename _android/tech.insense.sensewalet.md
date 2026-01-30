@@ -11,8 +11,6 @@ appCountry:
 released: 2018-09-27
 updated: 2019-06-21
 version: 0.0068beta
-stars: 4
-ratings: 25
 reviews: 15
 website: http://InSense.tech
 repository: 

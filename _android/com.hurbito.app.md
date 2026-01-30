@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-20
 updated: 2021-01-20
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://hurbito.com
 repository: 

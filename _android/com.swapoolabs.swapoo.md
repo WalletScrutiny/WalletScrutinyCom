@@ -10,8 +10,6 @@ appCountry: ph
 released: 2020-01-09
 updated: 2021-11-02
 version: 1.28.125
-stars: 4.6
-ratings: 56
 reviews: 25
 website: 
 repository: 

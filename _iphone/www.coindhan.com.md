@@ -10,7 +10,6 @@ idd: '1601649228'
 released: 2021-12-27
 updated: 2024-05-16
 version: '1.33'
-stars: 4.5
 reviews: 20
 website: https://www.coindhan.com
 repository: 

@@ -10,8 +10,6 @@ appCountry: in
 released: 2020-01-02
 updated: 2021-10-28
 version: '1.21'
-stars: 4.7
-ratings: 491
 reviews: 13
 website: https://www.bizzcoin.com/
 repository: 

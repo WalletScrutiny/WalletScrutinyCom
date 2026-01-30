@@ -9,8 +9,6 @@ appCountry:
 released: 2024-04-06
 updated: 2024-12-16
 version: 1.0.15
-stars: 4.7
-ratings: 
 reviews: 16
 website: https://getjara.xyz
 repository: 

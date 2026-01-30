@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-14
 updated: 2021-06-17
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.wallexcustody.com/
 repository: 

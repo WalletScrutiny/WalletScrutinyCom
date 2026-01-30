@@ -10,7 +10,6 @@ idd: 1539004997
 released: 2020-11-09
 updated: 2021-07-04
 version: 2.6.4
-stars: 0
 reviews: 0
 website: https://wise.win
 repository: 

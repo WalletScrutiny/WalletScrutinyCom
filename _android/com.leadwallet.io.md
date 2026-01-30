@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2021-08-14
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://www.leadwallet.io
 repository: 

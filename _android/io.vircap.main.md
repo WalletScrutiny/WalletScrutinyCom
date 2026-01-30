@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-06-03
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://vircap.io
 repository: 

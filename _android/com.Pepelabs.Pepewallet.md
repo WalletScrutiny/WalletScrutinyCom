@@ -10,8 +10,6 @@ appCountry:
 released: 2023-05-17
 updated: 2023-12-29
 version: 2.1.2
-stars: 3.6
-ratings: 
 reviews: 69
 website: http://pewall.org
 repository: 

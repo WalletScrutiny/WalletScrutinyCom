@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-27
 updated: 2021-03-27
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://maxicoinexchange.com
 repository: 

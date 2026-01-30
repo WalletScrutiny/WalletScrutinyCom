@@ -9,8 +9,6 @@ appCountry:
 released: 2019-04-11
 updated: 2021-02-26
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinpoket.com/
 repository: 

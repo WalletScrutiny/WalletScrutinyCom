@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-09
 updated: 2020-05-09
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.kaiserex.com
 repository: 

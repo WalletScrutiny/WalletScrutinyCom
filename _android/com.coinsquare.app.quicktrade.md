@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-02
 updated: 2025-12-05
 version: 5.3.2
-stars: 4.3
-ratings: 
 reviews: 5
 website: https://coinsquare.com
 repository: 

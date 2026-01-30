@@ -10,8 +10,6 @@ appCountry: ca
 released: 2020-03-16
 updated: 2023-02-15
 version: 1.6.9
-stars: 2.9
-ratings: 24
 reviews: 19
 website: https://bitvo.com
 repository: 

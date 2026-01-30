@@ -9,8 +9,6 @@ appCountry:
 released: 2019-12-27
 updated: 2021-05-24
 version: '1.014'
-stars: 
-ratings: 
 reviews: 
 website: http://facoin.info
 repository: 

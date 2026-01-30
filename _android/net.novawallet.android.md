@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-25
 updated: 2022-07-26
 version: 2.2.5
-stars: 4.9
-ratings: 
 reviews: 704
 website: http://www.vsolidus.com/
 repository: 

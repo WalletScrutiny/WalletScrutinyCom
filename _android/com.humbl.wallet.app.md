@@ -10,8 +10,6 @@ appCountry:
 released: 2022-07-04
 updated: 2025-11-26
 version: 1.0.75
-stars: 4.8
-ratings: 
 reviews: 48
 website: https://tapwallet.com/
 repository: 

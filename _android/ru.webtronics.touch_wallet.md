@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-29
 updated: 2025-04-30
 version: 2.1.14
-stars: 2.5
-ratings: 
 reviews: 
 website: https://touchwallet.com/
 repository: 

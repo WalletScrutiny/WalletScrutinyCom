@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-23
 updated: 2023-07-31
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://lyomerchant.com
 repository: 

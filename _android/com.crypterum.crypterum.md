@@ -10,8 +10,6 @@ appCountry:
 released: 2018-09-28
 updated: 2020-09-23
 version: 0.1.13
-stars: 
-ratings: 
 reviews: 
 website: https://crypterum.com
 repository: 

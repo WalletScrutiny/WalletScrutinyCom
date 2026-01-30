@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-07-23
 updated: 2023-07-03
 version: 5.13.2
-stars: 3.4
-ratings: 13093
 reviews: 156
 website: https://www.cointiger.com
 repository: 

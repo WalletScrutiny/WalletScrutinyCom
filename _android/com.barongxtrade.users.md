@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-28
 updated: 2025-04-17
 version: 9.6.4
-stars: 
-ratings: 
 reviews: 
 website: http://Barongxtrade.com
 repository: 

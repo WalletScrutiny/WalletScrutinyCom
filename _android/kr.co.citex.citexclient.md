@@ -10,8 +10,6 @@ appCountry:
 released: 2019-12-25
 updated: 2022-02-18
 version: 2.1.0
-stars: 1
-ratings: 81
 reviews: 6
 website: https://www.citex.io
 repository: 

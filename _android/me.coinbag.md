@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-07
 updated: 2022-11-30
 version: '1.8'
-stars: 4.5
-ratings: 
 reviews: 
 website: https://coinbag.me/
 repository: 

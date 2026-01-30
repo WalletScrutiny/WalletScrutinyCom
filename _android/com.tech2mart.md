@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-23
 updated: 2020-04-23
 version: '1.0'
-stars: 3.7
-ratings: 
 reviews: 
 website: http://tech2mart.com
 repository: 

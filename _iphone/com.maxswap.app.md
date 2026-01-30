@@ -10,7 +10,6 @@ idd: '6501994899'
 released: 2024-12-13
 updated: 2024-12-14
 version: 1.0.1
-stars: 0
 reviews: 0
 website: https://maxswap.cc
 repository: 

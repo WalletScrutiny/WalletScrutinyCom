@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-14
 updated: 2020-07-28
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.stipend.com
 repository: 

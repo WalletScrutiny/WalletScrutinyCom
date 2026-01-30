@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-17
 updated: 2023-10-25
 version: 3.5.5
-stars: 2.5
-ratings: 
 reviews: 44
 website: https://www.bitforex.com
 repository: 

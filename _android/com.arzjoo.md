@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-25
 updated: 2025-12-28
 version: 1.8.3
-stars: 4
-ratings: 3741
 reviews: 81
 website: https://sarmayex.com
 repository: 

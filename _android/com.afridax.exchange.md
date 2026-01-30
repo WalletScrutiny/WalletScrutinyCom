@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-19
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://afridax.com
 repository: 

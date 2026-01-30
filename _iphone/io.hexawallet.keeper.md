@@ -10,7 +10,6 @@ idd: '1545535925'
 released: 2022-10-19
 updated: 2025-11-13
 version: 2.5.5
-stars: 4.5
 reviews: 22
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper

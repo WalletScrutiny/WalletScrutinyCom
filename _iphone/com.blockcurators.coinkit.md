@@ -10,7 +10,6 @@ idd: '1563481240'
 released: 2021-12-19
 updated: 2021-12-29
 version: 1.2.1
-stars: 2.3
 reviews: 3
 website: https://coinkit.de
 repository: 

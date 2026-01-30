@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-25
 updated: 2025-10-10
 version: 2.3.1
-stars: 
-ratings: 
 reviews: 
 website: https://zed-pay.com
 repository: 

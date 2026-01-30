@@ -10,8 +10,6 @@ appCountry:
 released: 2024-02-27
 updated: 2024-09-03
 version: 1.8.0
-stars: 4.8
-ratings: 
 reviews: 5
 website: https://mutinywallet.com
 repository: https://github.com/MutinyWallet/mutiny-web

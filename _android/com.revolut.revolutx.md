@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-27
 version: 1.43.1
-stars: 4.2
-ratings: 
 reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: https://github.com/orgs/revolut-engineering/repositories

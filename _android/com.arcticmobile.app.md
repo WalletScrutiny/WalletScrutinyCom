@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-15
 updated: 2024-07-17
 version: '1.35'
-stars: 4.2
-ratings: 
 reviews: 1
 website: https://arcticwallet.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-06
 updated: 2020-06-19
 version: '1.4'
-stars: 4.2
-ratings: 
 reviews: 
 website: https://Bitplicity.com
 repository: 

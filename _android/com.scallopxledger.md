@@ -10,8 +10,6 @@ appCountry:
 released: 2021-11-28
 updated: 2025-12-01
 version: 1.9.6
-stars: 3.3
-ratings: 
 reviews: 10
 website: https://emoney.io/
 repository: 

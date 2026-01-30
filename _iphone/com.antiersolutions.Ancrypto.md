@@ -10,7 +10,6 @@ idd: '1660898349'
 released: 2023-03-24
 updated: 2025-09-09
 version: '50'
-stars: 4.5
 reviews: 20
 website: https://gemspocket.com
 repository: 

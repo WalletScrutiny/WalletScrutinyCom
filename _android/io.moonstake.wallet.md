@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-03-24
 updated: 2026-01-21
 version: 2.36.7
-stars: 3.3
-ratings: 2237
 reviews: 19
 website: https://moonstake.io
 repository: 

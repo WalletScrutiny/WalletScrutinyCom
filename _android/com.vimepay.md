@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-18
 updated: 2021-09-18
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://vimepay.com
 repository: 

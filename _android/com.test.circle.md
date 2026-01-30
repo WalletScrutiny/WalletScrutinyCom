@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-22
 updated: 2022-09-22
 version: 1.0.0
-stars: 3.4
-ratings: 
 reviews: 5
 website: https://usdcdollar.cc/review/privacy
 repository: 

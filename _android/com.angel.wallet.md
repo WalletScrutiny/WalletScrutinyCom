@@ -9,8 +9,6 @@ appCountry:
 released: 2025-09-15
 updated: 2025-11-16
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: https://www.eternalxchange.com/
 repository: 

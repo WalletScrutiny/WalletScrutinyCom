@@ -10,8 +10,6 @@ appCountry:
 released: 2020-02-27
 updated: 2020-04-29
 version: 1.0.0
-stars: 3.9
-ratings: 420
 reviews: 8
 website: https://www.fluencybank.com/
 repository: 

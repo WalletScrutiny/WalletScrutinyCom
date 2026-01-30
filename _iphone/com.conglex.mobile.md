@@ -10,7 +10,6 @@ idd: '1626252670'
 released: 2022-06-03
 updated: 2025-09-03
 version: 2.0.4
-stars: 0
 reviews: 0
 website: https://conglex.com/
 repository: 

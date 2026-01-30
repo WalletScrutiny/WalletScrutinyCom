@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-30
 updated: 2019-11-07
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://www.lucky7.love
 repository: 

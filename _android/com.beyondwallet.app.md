@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-11
 updated: 2023-10-19
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.mybeyondwallet.com
 repository: 

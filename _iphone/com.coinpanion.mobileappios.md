@@ -10,7 +10,6 @@ idd: '1515912265'
 released: 2021-03-24
 updated: 2023-07-31
 version: 4.4.7
-stars: 5
 reviews: 1
 website: https://coinpanion.com/en
 repository: 

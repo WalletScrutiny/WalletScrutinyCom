@@ -10,8 +10,6 @@ appCountry: sg
 released: 2021-02-12
 updated: 2022-12-08
 version: '3.0'
-stars: 
-ratings: 10
 reviews: 
 website: https://cofinex.io
 repository: 

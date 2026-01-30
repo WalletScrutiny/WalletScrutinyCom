@@ -10,7 +10,6 @@ idd: '1362518159'
 released: 2020-01-09
 updated: 2026-01-20
 version: 4.26.0
-stars: 5
 reviews: 2
 website: https://bisonapp.com/
 repository: 

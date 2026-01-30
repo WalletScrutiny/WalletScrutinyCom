@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-14
 updated: 2026-01-09
 version: 1.1.3
-stars: 
-ratings: 
 reviews: 
 website: https://notwallet.eu/
 repository: 

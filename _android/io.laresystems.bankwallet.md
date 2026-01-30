@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-07
 updated: 2022-03-20
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://larewallet.cc
 repository: 

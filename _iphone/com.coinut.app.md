@@ -10,7 +10,6 @@ idd: '1331328939'
 released: 2018-02-06
 updated: 2023-05-31
 version: 3.0.0
-stars: 4
 reviews: 5
 website: https://coinut.com
 repository: 

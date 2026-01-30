@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-29
 updated: 2021-12-30
 version: '1.4'
-stars: 4.3
-ratings: 
 reviews: 
 website: https://instfx.com/
 repository: 

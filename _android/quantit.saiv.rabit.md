@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-02-13
 version: 1.2.4
-stars: 
-ratings: 
 reviews: 
 website: https://quantfolio.io
 repository: 

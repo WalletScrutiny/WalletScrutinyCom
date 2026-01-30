@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-12-01
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://virtuse.com/
 repository: 

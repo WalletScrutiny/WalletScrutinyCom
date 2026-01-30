@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-18
 updated: 2025-10-30
 version: 1.0.37
-stars: 3.7
-ratings: 
 reviews: 
 website: https://funexcoin.com/
 repository: 

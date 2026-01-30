@@ -10,7 +10,6 @@ idd: '1516986805'
 released: 2020-07-01
 updated: 2026-01-14
 version: 2.8.34
-stars: 4.5
 reviews: 6012
 website: https://swyftx.com
 repository: 

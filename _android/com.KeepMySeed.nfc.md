@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-26
 updated: 2019-12-24
 version: '1.01'
-stars: 4.9
-ratings: 
 reviews: 
 website: https://KeepMySeed.com
 repository: 

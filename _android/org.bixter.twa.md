@@ -9,8 +9,6 @@ appCountry:
 released: 2020-12-19
 updated: 2020-12-07
 version: '1'
-stars: 4.8
-ratings: 
 reviews: 
 website: https://bixter.org/
 repository: 

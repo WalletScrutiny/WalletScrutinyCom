@@ -9,8 +9,6 @@ appCountry:
 released: 2018-09-14
 updated: 2021-07-08
 version: 3.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.waterhole.io
 repository: 

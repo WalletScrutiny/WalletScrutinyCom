@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-28
 updated: 2022-02-13
 version: '2.2'
-stars: 
-ratings: 
 reviews: 
 website: https://splishpay.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-18
 updated: 2022-11-10
 version: 0.9.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.bit4you.io
 repository: 

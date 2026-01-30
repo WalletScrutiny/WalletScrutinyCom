@@ -10,7 +10,6 @@ idd: 1369912925
 released: 2018-04-22
 updated: 2025-12-30
 version: 9.0.1
-stars: 4.5
 reviews: 276
 website: https://www.unitywallet.com
 repository: 

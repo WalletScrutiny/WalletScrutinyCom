@@ -9,8 +9,6 @@ appCountry:
 released: 2025-08-13
 updated: 2026-01-08
 version: 1.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://tajirwallet.io/
 repository: 

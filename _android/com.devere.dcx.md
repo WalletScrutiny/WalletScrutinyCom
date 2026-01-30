@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-29
 updated: 2023-04-20
 version: 4.4.0
-stars: 3.9
-ratings: 
 reviews: 1
 website: http://www.devere-crypto.com
 repository: 

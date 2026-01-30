@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-22
 updated: 2023-12-04
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://chainblock.it/flash/
 repository: 

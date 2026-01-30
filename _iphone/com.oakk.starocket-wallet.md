@@ -10,7 +10,6 @@ idd: '1612013344'
 released: 2022-06-02
 updated: 2026-01-24
 version: 3.1.6
-stars: 5
 reviews: 8
 website: https://trubit.com/
 repository: 

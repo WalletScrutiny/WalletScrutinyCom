@@ -10,8 +10,6 @@ appCountry:
 released: 2024-05-20
 updated: 2024-05-20
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://vaultex.co/
 repository: 

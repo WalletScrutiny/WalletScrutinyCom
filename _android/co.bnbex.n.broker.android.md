@@ -9,8 +9,6 @@ appCountry:
 released: 2021-02-18
 updated: 2021-02-25
 version: 3.9.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.bnbex.co/
 repository: 

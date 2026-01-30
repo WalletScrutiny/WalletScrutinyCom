@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-18
 updated: 2024-05-28
 version: 1.1.39
-stars: 4.4
-ratings: 
 reviews: 12
 website: https://agoradesk.com
 repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases

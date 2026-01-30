@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-18
 updated: 2021-11-18
 version: 1.2.4
-stars: 
-ratings: 
 reviews: 
 website: https://naryex.com
 repository: 

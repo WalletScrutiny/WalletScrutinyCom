@@ -10,8 +10,6 @@ appCountry:
 released: 2021-05-25
 updated: 2024-08-01
 version: 4.1.1
-stars: 
-ratings: 
 reviews: 
 website: https://nicechange.net/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-09-28
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://client.onechange.com.br
 repository: 

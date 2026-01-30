@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2022-01-20
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://mycoinstory.com
 repository: 

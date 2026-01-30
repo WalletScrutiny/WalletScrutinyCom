@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-22
 updated: 2019-11-21
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://cicbanking.com
 repository: 

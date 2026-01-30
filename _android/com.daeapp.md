@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-02
 updated: 2021-09-12
 version: '12.0'
-stars: 
-ratings: 
 reviews: 
 website: https://dae.africa
 repository: 

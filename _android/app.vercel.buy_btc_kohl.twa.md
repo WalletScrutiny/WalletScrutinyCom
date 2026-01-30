@@ -9,8 +9,6 @@ appCountry:
 released: 2023-03-20
 updated: 2023-03-20
 version: '1'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

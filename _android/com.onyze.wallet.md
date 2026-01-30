@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-07-14
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://onyze.com/
 repository: 

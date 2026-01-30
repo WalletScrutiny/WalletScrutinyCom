@@ -10,7 +10,6 @@ idd: '1516439838'
 released: 2021-08-16
 updated: 2022-12-28
 version: '3.56'
-stars: 0
 reviews: 0
 website: http://www.coinomo.com
 repository: 

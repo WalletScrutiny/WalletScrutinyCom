@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-01
 updated: 2023-02-08
 version: 1.0.5
-stars: 4.3
-ratings: 
 reviews: 5
 website: https://treasurewallet.co
 repository: 

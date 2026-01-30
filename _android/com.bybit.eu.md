@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-08
 version: 5.8.6
-stars: 
-ratings: 
 reviews: 
 website: https://www.bybit.eu/help-center
 repository: 

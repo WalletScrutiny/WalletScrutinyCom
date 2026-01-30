@@ -10,7 +10,6 @@ idd: '6466037617'
 released: 2023-10-03
 updated: 2025-07-24
 version: 2.0.3
-stars: 0
 reviews: 0
 website: 
 repository: https://github.com/DFXswiss/btc-wallet

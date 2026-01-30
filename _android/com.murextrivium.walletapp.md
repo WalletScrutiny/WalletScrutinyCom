@@ -10,8 +10,6 @@ appCountry:
 released: 2018-09-22
 updated: 2018-09-23
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://murexbitcoinsolutions.com/
 repository: 

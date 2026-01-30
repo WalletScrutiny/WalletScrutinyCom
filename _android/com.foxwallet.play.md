@@ -10,8 +10,6 @@ appCountry:
 released: 2021-12-05
 updated: 2025-12-15
 version: 5.5.15
-stars: 4.7
-ratings: 
 reviews: 454
 website: https://www.foxwallet.com/en
 repository: 

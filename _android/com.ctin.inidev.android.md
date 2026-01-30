@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-22
 updated: 2021-06-04
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://inindiatech.com
 repository: 

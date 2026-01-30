@@ -9,8 +9,6 @@ appCountry:
 released: 2025-06-05
 updated: 2025-10-29
 version: 0.3.6
-stars: 
-ratings: 
 reviews: 
 website: https://inexlatam.com/panther-by-inex/
 repository: 

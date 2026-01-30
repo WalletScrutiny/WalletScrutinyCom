@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-12-17
 version: 8.64.4
-stars: 4.5
-ratings: 
 reviews: 539
 website: https://km.iqoption.com/en
 repository: 

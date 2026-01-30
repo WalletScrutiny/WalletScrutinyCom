@@ -10,8 +10,6 @@ appCountry:
 released: 2022-01-28
 updated: 2024-02-21
 version: 1.15.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.okasan-online.co.jp/
 repository: 

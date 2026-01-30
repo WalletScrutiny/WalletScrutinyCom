@@ -10,8 +10,6 @@ appCountry:
 released: 2020-11-17
 updated: 2020-11-18
 version: 0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.vipsmartbot.com
 repository: 

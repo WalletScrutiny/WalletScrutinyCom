@@ -10,8 +10,6 @@ appCountry: id
 released: 2017-11-03
 updated: 2026-01-27
 version: 8.5.6
-stars: 4.2
-ratings: 17546
 reviews: 7071
 website: https://www.gate.com/
 repository: 

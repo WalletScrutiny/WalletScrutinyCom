@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-23
 updated: 2025-12-26
 version: 2.0.5
-stars: 
-ratings: 
 reviews: 
 website: http://www.bittime.com
 repository: 

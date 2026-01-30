@@ -10,7 +10,6 @@ idd: '1582794195'
 released: 2021-09-10
 updated: 2022-12-20
 version: 1.10.10
-stars: 4.1
 reviews: 11
 website: https://waves.exchange/investments
 repository: 

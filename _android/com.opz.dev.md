@@ -10,8 +10,6 @@ appCountry:
 released: 2023-08-16
 updated: 2025-05-16
 version: 2.12.1
-stars: 5
-ratings: 
 reviews: 31
 website: https://www.opz.io
 repository: 

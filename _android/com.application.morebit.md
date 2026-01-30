@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-06
 updated: 2019-10-23
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://morebit.io
 repository: 

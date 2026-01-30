@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-18
 updated: 2022-04-28
 version: 1.1.9
-stars: 
-ratings: 
 reviews: 
 website: https://www.bztex.co/
 repository: 

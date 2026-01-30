@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-16
 updated: 2022-04-07
 version: '1.02'
-stars: 4.6
-ratings: 
 reviews: 
 website: https://centralex.com
 repository: 

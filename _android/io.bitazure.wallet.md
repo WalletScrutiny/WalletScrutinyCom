@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-01
 updated: 2021-07-20
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://bitazure.com
 repository: 

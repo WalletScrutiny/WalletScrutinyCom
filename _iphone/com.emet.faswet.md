@@ -10,7 +10,6 @@ idd: '1457853582'
 released: 2019-10-25
 updated: 2021-07-14
 version: 2.9.7
-stars: 5
 reviews: 2
 website: https://emetenjoy.com/
 repository: 

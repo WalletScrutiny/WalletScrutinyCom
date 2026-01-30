@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-29
 updated: 2019-11-29
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.vrontonode.org
 repository: 

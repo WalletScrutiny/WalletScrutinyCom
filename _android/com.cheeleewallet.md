@@ -10,8 +10,6 @@ appCountry:
 released: 2023-11-02
 updated: 2023-11-02
 version: 1.2.1
-stars: 4.4
-ratings: 
 reviews: 50
 website: https://cheeleewallet.io/
 repository: 

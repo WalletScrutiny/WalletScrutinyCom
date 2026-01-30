@@ -10,7 +10,6 @@ idd: '6444779277'
 released: 2022-12-22
 updated: 2024-08-16
 version: 1.0.36
-stars: 4.4
 reviews: 13
 website: https://chain.com
 repository: 

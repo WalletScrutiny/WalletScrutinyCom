@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-14
 updated: 2023-04-08
 version: 1.1.8
-stars: 
-ratings: 
 reviews: 
 website: https://amaano.com/index.html
 repository: 

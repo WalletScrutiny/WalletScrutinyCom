@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-03-01
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://freewallet.org
 repository: 

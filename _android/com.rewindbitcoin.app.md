@@ -9,8 +9,6 @@ appCountry:
 released: 2025-05-30
 updated: 2025-09-25
 version: 1.2.4
-stars: 
-ratings: 
 reviews: 
 website: https://rewindbitcoin.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-10-01
 updated: 2022-10-01
 version: '1.0'
-stars: 4.6
-ratings: 
 reviews: 
 website: https://becoin.exchange/
 repository: 

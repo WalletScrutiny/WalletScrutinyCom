@@ -10,8 +10,6 @@ appCountry:
 released: 2020-06-03
 updated: 2024-12-16
 version: 2.15.0
-stars: 3.9
-ratings: 
 reviews: 
 website: https://www.arkpay.site/
 repository: 

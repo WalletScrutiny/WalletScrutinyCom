@@ -9,8 +9,6 @@ appCountry:
 released: 2024-03-11
 updated: 2024-03-11
 version: 0.28.7
-stars: 
-ratings: 
 reviews: 
 website: https://zinary.com
 repository: 

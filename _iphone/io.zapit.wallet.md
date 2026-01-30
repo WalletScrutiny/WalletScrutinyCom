@@ -10,7 +10,6 @@ idd: '1558433083'
 released: 2021-06-26
 updated: 2025-03-22
 version: v0.9.64
-stars: 5
 reviews: 8
 website: https://zapit.io
 repository: 

@@ -10,7 +10,6 @@ idd: 1487443266
 released: 2019-11-26
 updated: 2026-01-27
 version: 3.19.0
-stars: 4.7
 reviews: 820
 website: https://capital.com/
 repository: 

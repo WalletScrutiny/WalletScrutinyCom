@@ -9,8 +9,6 @@ appCountry:
 released: 2018-01-31
 updated: 2019-05-30
 version: 3.2.5
-stars: 4.5
-ratings: 3131
 reviews: 1214
 website: https://safewallet.cmcmbc.com
 repository: 

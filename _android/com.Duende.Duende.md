@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-23
 updated: 2021-08-24
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://duende.me
 repository: 

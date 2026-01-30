@@ -10,7 +10,6 @@ idd: 1463275408
 released: 2019-05-14
 updated: 2022-02-01
 version: '71'
-stars: 5
 reviews: 1
 website: https://zipwalletpay.com
 repository: 

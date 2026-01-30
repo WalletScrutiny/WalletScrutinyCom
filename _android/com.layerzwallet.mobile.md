@@ -9,8 +9,6 @@ appCountry:
 released: 2025-12-19
 updated: 2026-01-11
 version: 1.4.0
-stars: 
-ratings: 
 reviews: 
 website: https://layerzwallet.com
 repository: 

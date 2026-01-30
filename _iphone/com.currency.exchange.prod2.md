@@ -10,7 +10,6 @@ idd: 1458917114
 released: 2019-04-23
 updated: 2026-01-15
 version: 2.18.10
-stars: 4.8
 reviews: 4415
 website: https://dzengi.com/ads
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-07-27
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://spruceid.dev/docs/credible
 repository: 

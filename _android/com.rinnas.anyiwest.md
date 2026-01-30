@@ -9,8 +9,6 @@ appCountry:
 released: 2021-06-04
 updated: 2021-06-20
 version: 1.0.2
-stars: 4.6
-ratings: 
 reviews: 
 website: https://anyiwest.com/
 repository: 

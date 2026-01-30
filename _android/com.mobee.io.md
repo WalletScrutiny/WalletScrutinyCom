@@ -10,8 +10,6 @@ appCountry:
 released: 2022-11-14
 updated: 2026-01-23
 version: 2.0.3
-stars: 4.2
-ratings: 
 reviews: 2
 website: https://mobee.com/
 repository: 

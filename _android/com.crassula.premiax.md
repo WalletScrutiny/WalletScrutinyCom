@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-26
 updated: 2023-08-28
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.premiax.com/
 repository: 

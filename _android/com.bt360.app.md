@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-10-02
 version: 1.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://bt360pro.com
 repository: 

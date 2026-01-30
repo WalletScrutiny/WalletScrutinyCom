@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-17
 updated: 2021-04-16
 version: 1.2.92
-stars: 
-ratings: 
 reviews: 
 website: https://s4782b2ec.app-ads-txt.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1608937235'
 released: 2022-05-09
 updated: 2022-11-02
 version: 1.5.0
-stars: 3.4
 reviews: 7
 website: https://bitgo.com
 repository: 

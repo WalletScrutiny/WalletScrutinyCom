@@ -9,8 +9,6 @@ appCountry:
 released: 2023-04-05
 updated: 2026-01-15
 version: 3.6.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.cregis.com
 repository: 

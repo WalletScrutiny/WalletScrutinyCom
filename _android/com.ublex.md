@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-21
 updated: 2019-10-24
 version: 0.0.8
-stars: 
-ratings: 
 reviews: 
 website: https://www.ublex.com/
 repository: 

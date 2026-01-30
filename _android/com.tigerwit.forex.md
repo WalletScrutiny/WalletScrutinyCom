@@ -10,8 +10,6 @@ appCountry:
 released: 2018-01-24
 updated: 2023-04-12
 version: 6.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.tigerwit.com
 repository: 

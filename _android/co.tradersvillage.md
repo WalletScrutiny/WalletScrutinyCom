@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-08
 updated: 2020-06-08
 version: 0.0.21
-stars: 
-ratings: 
 reviews: 
 website: https://tradersvillage.co
 repository: 

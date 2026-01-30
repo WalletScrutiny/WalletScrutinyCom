@@ -10,8 +10,6 @@ appCountry:
 released: 2020-08-19
 updated: 2023-06-28
 version: 4.1.1
-stars: 2.6
-ratings: 
 reviews: 6
 website: https://glamster.me
 repository: 

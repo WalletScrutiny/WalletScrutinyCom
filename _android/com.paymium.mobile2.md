@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-09-24
 updated: 2026-01-15
 version: 8.23.2
-stars: 
-ratings: 
 reviews: 
 website: http://paymium.com
 repository: 

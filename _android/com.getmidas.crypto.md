@@ -10,8 +10,6 @@ appCountry:
 released: 2024-12-01
 updated: 2026-01-28
 version: 2.81.0
-stars: 4.7
-ratings: 
 reviews: 2
 website: https://www.midaskripto.com/
 repository: 

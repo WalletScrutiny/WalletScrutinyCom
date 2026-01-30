@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-10
 updated: 2022-05-07
 version: '3.0'
-stars: 
-ratings: 
 reviews: 
 website: https://bitcointrader.icu/
 repository: 

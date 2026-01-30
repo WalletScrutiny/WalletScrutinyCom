@@ -10,8 +10,6 @@ appCountry:
 released: 2025-03-11
 updated: 2025-04-18
 version: 1.0.9
-stars: 
-ratings: 
 reviews: 
 website: https://zap.africa
 repository: 

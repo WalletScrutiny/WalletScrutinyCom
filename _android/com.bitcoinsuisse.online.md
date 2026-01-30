@@ -10,8 +10,6 @@ appCountry: pl
 released: 2021-09-21
 updated: 2025-11-27
 version: 3.0.2
-stars: 3.7
-ratings: 
 reviews: 
 website: https://www.bitcoinsuisse.com
 repository: 

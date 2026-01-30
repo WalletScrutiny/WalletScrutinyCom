@@ -10,8 +10,6 @@ appCountry: ae
 released: 2020-02-23
 updated: 2022-02-12
 version: '3.1'
-stars: 1.7
-ratings: 128
 reviews: 13
 website: https://www.bitex.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-04
 updated: 2019-07-05
 version: '1.0'
-stars: 4.5
-ratings: 37
 reviews: 1
 website: https://bitcoin-wallet.flycricket.io/
 repository: 

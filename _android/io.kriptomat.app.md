@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-12-17
 updated: 2025-11-10
 version: 7.3.1
-stars: 
-ratings: 
 reviews: 
 website: https://kriptomat.io
 repository: 

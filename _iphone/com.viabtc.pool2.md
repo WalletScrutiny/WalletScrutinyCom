@@ -10,7 +10,6 @@ idd: '1334584229'
 released: 2018-01-18
 updated: 2026-01-07
 version: 3.10.2
-stars: 4.3
 reviews: 16
 website: https://www.viabtc.com/
 repository: 

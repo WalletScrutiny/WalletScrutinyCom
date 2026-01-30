@@ -9,8 +9,6 @@ appCountry:
 released: 2015-06-03
 updated: 2015-06-03
 version: '0.18'
-stars: 
-ratings: 
 reviews: 
 website: http://www.orillia.be
 repository: 

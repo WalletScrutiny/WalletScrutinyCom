@@ -10,8 +10,6 @@ appCountry:
 released: 2020-03-21
 updated: 2020-04-23
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.echangerbd.com/
 repository: 

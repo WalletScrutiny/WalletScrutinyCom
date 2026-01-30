@@ -10,7 +10,6 @@ idd: '1628519503'
 released: 2022-10-31
 updated: 2024-06-11
 version: 0.3.7
-stars: 0
 reviews: 0
 website: https://walletgo.ai/
 repository: 

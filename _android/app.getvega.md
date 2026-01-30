@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2019-05-22
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: https://getvega.app
 repository: 

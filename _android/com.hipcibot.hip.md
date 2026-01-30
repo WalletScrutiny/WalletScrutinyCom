@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-01
 updated: 2021-03-01
 version: 0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.hipcibot.com
 repository: 

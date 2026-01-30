@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-06
 updated: 2022-03-02
 version: '1.3'
-stars: 
-ratings: 
 reviews: 
 website: https://www.pallapay.com/
 repository: 

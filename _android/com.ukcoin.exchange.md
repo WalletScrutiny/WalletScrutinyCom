@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-16
 updated: 2020-07-17
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://ukcoins.exchange/
 repository: 

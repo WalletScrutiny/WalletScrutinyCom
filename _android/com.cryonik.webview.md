@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-21
 updated: 2021-01-21
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://cryonik.io
 repository: 

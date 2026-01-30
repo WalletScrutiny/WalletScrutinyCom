@@ -9,8 +9,6 @@ appCountry:
 released: 2023-10-04
 updated: 2025-07-02
 version: 3.5.9
-stars: 
-ratings: 
 reviews: 
 website: https://coinoverse.com
 repository: 

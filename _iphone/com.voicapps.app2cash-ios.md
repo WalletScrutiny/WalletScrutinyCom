@@ -10,7 +10,6 @@ idd: 1530672224
 released: 2020-12-01
 updated: 2022-04-01
 version: 2.0.2
-stars: 5
 reviews: 1
 website: https://www.2cash.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2017-12-03
 updated: 2017-12-04
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://zuobox.com
 repository: 

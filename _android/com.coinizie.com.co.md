@@ -9,8 +9,6 @@ appCountry:
 released: 2020-09-11
 updated: 2020-09-11
 version: '9.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinizie.com/
 repository: 

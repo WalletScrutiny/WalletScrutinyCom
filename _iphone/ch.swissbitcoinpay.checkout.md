@@ -10,7 +10,6 @@ idd: '6444370155'
 released: 2022-11-19
 updated: 2025-10-29
 version: 2.6.4
-stars: 1
 reviews: 1
 website: https://swiss-bitcoin-pay.ch
 repository: https://github.com/SwissBitcoinPay/app

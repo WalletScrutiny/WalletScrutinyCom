@@ -10,7 +10,6 @@ idd: '871125783'
 released: 2014-05-15
 updated: 2025-12-24
 version: '4.86'
-stars: 3.8
 reviews: 1272
 website: http://eu.iqoption.com
 repository: 

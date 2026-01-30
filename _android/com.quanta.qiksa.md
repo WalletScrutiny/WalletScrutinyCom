@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-03
 updated: 2020-09-07
 version: 1.1.0
-stars: 4.5
-ratings: 
 reviews: 
 website: https://www.quantapay.com
 repository: 

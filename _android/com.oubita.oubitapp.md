@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2023-07-27
 version: 2.1.0
-stars: 3.7
-ratings: 
 reviews: 
 website: https://www.oubita.com
 repository: 

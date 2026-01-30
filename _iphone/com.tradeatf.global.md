@@ -10,7 +10,6 @@ idd: 1516998762
 released: 2020-07-29
 updated: 2021-11-26
 version: 1.69.13
-stars: 
 reviews: 
 website: https://global.tradeatf.com/
 repository: 

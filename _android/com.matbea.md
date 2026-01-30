@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-11-20
 version: 1.7.8
-stars: 3.6
-ratings: 
 reviews: 
 website: https://matbea.com
 repository: 

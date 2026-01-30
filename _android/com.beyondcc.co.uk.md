@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-21
 updated: 2019-10-21
 version: 0.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://beyondcc.co.uk
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-27
 updated: 2021-11-18
 version: 0.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://indus91.com/
 repository: 

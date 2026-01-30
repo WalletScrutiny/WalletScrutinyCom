@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-28
 updated: 2021-07-24
 version: 0.741.11
-stars: 3.1
-ratings: 120
 reviews: 6
 website: https://xapawallet.com
 repository: 

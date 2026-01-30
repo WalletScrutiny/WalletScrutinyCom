@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-01
 updated: 2025-12-28
 version: 1.6.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitrequest.io
 repository: 

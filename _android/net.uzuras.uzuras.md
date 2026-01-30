@@ -9,8 +9,6 @@ appCountry:
 released: 2019-02-01
 updated: 2021-10-15
 version: '4.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.uzuras.net/
 repository: 

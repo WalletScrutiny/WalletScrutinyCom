@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-07-22
 updated: 2026-01-28
 version: 11.11.1
-stars: 2.4
-ratings: 
 reviews: 9
 website: https://www.korbit.co.kr
 repository: 

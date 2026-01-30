@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-07-19
 updated: 2022-10-28
 version: R02.03.06.478
-stars: 4.1
-ratings: 19
 reviews: 4
 website: https://www.starteos.io
 repository: 

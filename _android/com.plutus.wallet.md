@@ -10,8 +10,6 @@ appCountry:
 released: 2015-03-04
 updated: 2024-01-12
 version: '146.0'
-stars: 3.4
-ratings: 44411
 reviews: 2896
 website: https://www.abra.com/
 repository: 

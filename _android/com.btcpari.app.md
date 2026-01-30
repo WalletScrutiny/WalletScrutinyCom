@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-23
 updated: 2022-04-19
 version: 1.0.13
-stars: 
-ratings: 
 reviews: 
 website: https://btcpari.com
 repository: 

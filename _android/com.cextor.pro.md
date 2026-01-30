@@ -10,8 +10,6 @@ appCountry:
 released: 2024-07-10
 updated: 2025-09-05
 version: 1.0.0
-stars: 4.6
-ratings: 
 reviews: 5
 website: https://www.cextor.com
 repository: 

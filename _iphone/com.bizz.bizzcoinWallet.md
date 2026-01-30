@@ -10,7 +10,6 @@ idd: 1502535419
 released: 2020-03-16
 updated: 2021-11-01
 version: '1.10'
-stars: 5
 reviews: 4
 website: http://bizzmartdirect.com
 repository: 

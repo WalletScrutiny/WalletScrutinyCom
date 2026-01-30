@@ -9,8 +9,6 @@ appCountry:
 released: 2019-07-28
 updated: 2019-09-08
 version: '0_43'
-stars: 4.9
-ratings: 
 reviews: 
 website: 
 repository: 

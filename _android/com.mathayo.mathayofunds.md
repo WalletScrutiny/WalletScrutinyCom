@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-05
 updated: 2020-08-05
 version: 3.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://mathayofunds.com/
 repository: 

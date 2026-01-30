@@ -9,8 +9,6 @@ appCountry:
 released: 2023-05-11
 updated: 2025-12-29
 version: 1.5.4
-stars: 
-ratings: 
 reviews: 
 website: https://rubicoin.money
 repository: 

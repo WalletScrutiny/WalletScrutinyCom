@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-14
 updated: 2026-01-06
 version: 1.15.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.lmex.io/
 repository: 

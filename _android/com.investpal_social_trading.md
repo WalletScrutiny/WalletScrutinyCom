@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-06
 updated: 2021-04-14
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://investpal.io
 repository: 

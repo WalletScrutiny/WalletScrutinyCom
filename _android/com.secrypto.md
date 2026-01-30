@@ -10,8 +10,6 @@ appCountry:
 released: 2018-06-18
 updated: 2019-02-26
 version: '1.28'
-stars: 4.4
-ratings: 956
 reviews: 21
 website: https://www.secrypto.io/
 repository: 

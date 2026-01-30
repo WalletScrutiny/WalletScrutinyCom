@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-24
 updated: 2026-01-09
 version: 1.9.5
-stars: 4.9
-ratings: 
 reviews: 
 website: https://www.dyorex.com
 repository: 

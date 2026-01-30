@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-13
 updated: 2020-04-13
 version: '1.0'
-stars: 3.7
-ratings: 
 reviews: 
 website: https://rhypton.io
 repository: 

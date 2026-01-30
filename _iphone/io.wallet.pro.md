@@ -10,7 +10,6 @@ idd: 1475607592
 released: 2019-09-17
 updated: 2021-08-06
 version: 1.2.9
-stars: 0
 reviews: 0
 website: https://pro.wallet.io/
 repository: 

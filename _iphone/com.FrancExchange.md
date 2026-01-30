@@ -10,7 +10,6 @@ idd: '1543754366'
 released: 2020-12-10
 updated: 2020-12-10
 version: '1.0'
-stars: 1
 reviews: 1
 website: https://trade.francexchange.com/
 repository: 

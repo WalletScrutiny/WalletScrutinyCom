@@ -9,8 +9,6 @@ appCountry:
 released: 2019-11-25
 updated: 2019-11-25
 version: '19.02'
-stars: 
-ratings: 
 reviews: 
 website: https://sellmybitcoin4cash.com/
 repository: 

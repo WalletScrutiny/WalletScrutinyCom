@@ -9,8 +9,6 @@ appCountry:
 released: 2018-04-23
 updated: 2020-10-28
 version: 1.1.1
-stars: 
-ratings: 
 reviews: 
 website: http://www.wisekey.com
 repository: 

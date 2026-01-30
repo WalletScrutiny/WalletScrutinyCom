@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-09
 updated: 2020-12-23
 version: 1.0.6
-stars: 3.5
-ratings: 54
 reviews: 5
 website: https://dovewallet.com
 repository: 

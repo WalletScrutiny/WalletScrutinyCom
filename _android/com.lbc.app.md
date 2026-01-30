@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-25
 updated: 2020-08-07
 version: 1.0.0
-stars: 5
-ratings: 
 reviews: 
 website: https://www.coinsclone.com/
 repository: 

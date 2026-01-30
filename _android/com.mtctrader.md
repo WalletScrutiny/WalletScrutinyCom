@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-07
 updated: 2022-02-07
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://mtctraders.com
 repository: 

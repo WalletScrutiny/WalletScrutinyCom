@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-07-03
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://kryptonio.com
 repository: 

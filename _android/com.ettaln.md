@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-09-06
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://ettawallet.app
 repository: https://github.com/EttaWallet/EttaWallet

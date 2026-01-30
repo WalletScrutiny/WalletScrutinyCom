@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-31
 updated: 2021-12-08
 version: 0.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://nebbix.com
 repository: 

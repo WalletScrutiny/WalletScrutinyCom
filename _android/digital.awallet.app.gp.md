@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-09
 updated: 2023-08-24
 version: 1.3.5
-stars: 5
-ratings: 
 reviews: 15
 website: https://awallet.digital
 repository: 

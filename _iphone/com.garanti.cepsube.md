@@ -10,7 +10,6 @@ idd: '521117624'
 released: 2012-04-28
 updated: 2025-12-29
 version: '18.2'
-stars: 4.8
 reviews: 13039
 website: 
 repository: 

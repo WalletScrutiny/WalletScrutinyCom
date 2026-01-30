@@ -10,7 +10,6 @@ idd: '6748149951'
 released: 2025-12-15
 updated: 2026-01-20
 version: 1.2.0
-stars: 4.2
 reviews: 23
 website: https://wallet.rumble.com
 repository: 

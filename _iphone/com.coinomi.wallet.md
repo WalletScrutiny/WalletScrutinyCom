@@ -10,7 +10,6 @@ idd: 1333588809
 released: 2018-03-22
 updated: 2025-12-31
 version: 1.65.4
-stars: 4.6
 reviews: 2045
 website: https://www.coinomi.com/en/about/
 repository: 

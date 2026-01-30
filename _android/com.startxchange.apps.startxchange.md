@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-10
 updated: 2021-10-11
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://startxchange.com.gh/
 repository: 

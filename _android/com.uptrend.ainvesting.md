@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-12-21
 version: 7.0.32
-stars: 3.1
-ratings: 
 reviews: 
 website: http://www.uptrend.bg
 repository: 

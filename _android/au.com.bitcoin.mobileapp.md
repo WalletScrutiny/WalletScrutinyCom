@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2025-08-15
 version: 12.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.bitcoin.com.au
 repository: 

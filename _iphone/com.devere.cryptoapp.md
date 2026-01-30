@@ -10,7 +10,6 @@ idd: '1335720589'
 released: 2018-02-01
 updated: 2022-01-20
 version: '5.1'
-stars: 5
 reviews: 1
 website: http://www.devere-crypto.com
 repository: 

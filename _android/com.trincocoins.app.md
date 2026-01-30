@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-21
 updated: 2022-02-21
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.trincocoins.uk
 repository: 

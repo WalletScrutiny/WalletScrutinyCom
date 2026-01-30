@@ -10,7 +10,6 @@ idd: 1351625320
 released: 2018-09-25
 updated: 2021-03-10
 version: 1.18.0
-stars: 4.3
 reviews: 7
 website: https://www.sovereignwallet.network
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-18
 updated: 2023-08-25
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://pocketexchange.io
 repository: 

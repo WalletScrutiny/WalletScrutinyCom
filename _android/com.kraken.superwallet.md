@@ -10,8 +10,6 @@ appCountry:
 released: 2024-04-11
 updated: 2026-01-12
 version: 1.25.0 (4)
-stars: 4.7
-ratings: 
 reviews: 111
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet

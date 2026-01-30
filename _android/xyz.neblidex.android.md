@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-29
 updated: 2020-05-14
 version: 11.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.neblidex.xyz
 repository: 

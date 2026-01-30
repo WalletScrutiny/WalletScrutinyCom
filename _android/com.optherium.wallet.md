@@ -10,8 +10,6 @@ appCountry:
 released: 2018-08-23
 updated: 2019-03-12
 version: 1.3.5
-stars: 5
-ratings: 
 reviews: 11
 website: https://vivuspay.io
 repository: 

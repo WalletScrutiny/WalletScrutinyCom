@@ -10,8 +10,6 @@ appCountry:
 released: 2017-01-30
 updated: 2018-09-05
 version: '1.5'
-stars: 
-ratings: 
 reviews: 
 website: http://multipi.net/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-01-25
 updated: 2022-10-16
 version: 0.6.7
-stars: 
-ratings: 
 reviews: 
 website: https://rebix.io
 repository: 

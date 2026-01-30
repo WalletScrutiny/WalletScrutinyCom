@@ -9,8 +9,6 @@ appCountry:
 released: 2020-08-10
 updated: 2020-09-04
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: https://globaltoken.vip
 repository: 

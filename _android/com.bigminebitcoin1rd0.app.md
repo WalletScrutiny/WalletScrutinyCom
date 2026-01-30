@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-20
 updated: 2021-10-20
 version: 1.6.9
-stars: 
-ratings: 
 reviews: 
 website: https://riccardoodissea.wixsite.com/innapp
 repository: 

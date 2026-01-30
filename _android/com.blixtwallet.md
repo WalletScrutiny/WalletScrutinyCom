@@ -11,8 +11,6 @@ appCountry:
 released: 
 updated: 2025-07-02
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://blixtwallet.github.io
 repository: https://github.com/hsjoberg/blixt-wallet

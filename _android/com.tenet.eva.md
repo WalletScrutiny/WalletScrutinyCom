@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2024-05-02
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://tenet.org/eva
 repository: 

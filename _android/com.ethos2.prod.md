@@ -10,8 +10,6 @@ appCountry:
 released: 2023-06-26
 updated: 2026-01-01
 version: 5.3.2
-stars: 3.9
-ratings: 
 reviews: 17
 website: https://www.ethos.io
 repository: 

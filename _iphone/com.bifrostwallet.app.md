@@ -10,7 +10,6 @@ idd: '1577198351'
 released: 2021-09-21
 updated: 2026-01-20
 version: 0.7.41
-stars: 4.5
 reviews: 201
 website: https://bifrostwallet.com
 repository: 

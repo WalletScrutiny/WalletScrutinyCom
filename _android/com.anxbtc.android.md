@@ -10,8 +10,6 @@ appCountry:
 released: 2014-04-29
 updated: 2016-08-17
 version: 1.8.0
-stars: 4.1
-ratings: 135
 reviews: 10
 website: https://anxintl.com
 repository: 

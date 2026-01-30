@@ -10,8 +10,6 @@ appCountry:
 released: 2022-02-27
 updated: 2023-07-14
 version: 1.0.33
-stars: 
-ratings: 
 reviews: 
 website: https://hotx.pro/en/home
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-10-18
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://bit7wallet.com/
 repository: 

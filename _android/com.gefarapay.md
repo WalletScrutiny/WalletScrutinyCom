@@ -9,8 +9,6 @@ appCountry:
 released: 2018-08-02
 updated: 2021-03-03
 version: '1.21'
-stars: 
-ratings: 
 reviews: 
 website: http://pay4y.com/
 repository: 

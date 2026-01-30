@@ -10,7 +10,6 @@ idd: 1545999230
 released: 2021-01-05
 updated: 2021-12-11
 version: '2.1'
-stars: 0
 reviews: 0
 website: https://trycircleapp.com/
 repository: 

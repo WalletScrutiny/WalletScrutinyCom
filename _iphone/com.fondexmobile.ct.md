@@ -10,7 +10,6 @@ idd: 1314894569
 released: 2017-11-18
 updated: 2022-12-14
 version: 4.6.54384
-stars: 5
 reviews: 2
 website: https://fondex.com/en/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2022-04-21
 updated: 2025-11-26
 version: 1.7.18
-stars: 
-ratings: 
 reviews: 
 website: https://tongtongwallet.com/
 repository: 

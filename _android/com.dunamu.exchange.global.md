@@ -10,8 +10,6 @@ appCountry: us
 released: 2018-11-06
 updated: 2026-01-27
 version: 1.22.23
-stars: 3.2
-ratings: 3998
 reviews: 34
 website: https://www.dunamu.com
 repository: 

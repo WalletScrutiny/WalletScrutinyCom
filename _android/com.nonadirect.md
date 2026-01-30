@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-12
 updated: 2022-05-20
 version: '2.0'
-stars: 
-ratings: 
 reviews: 
 website: https://easybill.com.ng
 repository: 

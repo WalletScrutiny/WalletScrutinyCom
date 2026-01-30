@@ -9,8 +9,6 @@ appCountry:
 released: 2018-11-05
 updated: 2019-05-28
 version: 1.2.24
-stars: 
-ratings: 
 reviews: 
 website: http://www.anfeli.com
 repository: 

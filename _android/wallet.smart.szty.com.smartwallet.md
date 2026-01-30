@@ -9,8 +9,6 @@ appCountry:
 released: 2018-07-25
 updated: 2021-11-15
 version: 2.31.0
-stars: 5
-ratings: 
 reviews: 2
 website: https://flxwallet.com
 repository: 

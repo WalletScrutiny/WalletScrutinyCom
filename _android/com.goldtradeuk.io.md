@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-24
 updated: 2022-05-29
 version: 2.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://goldtradeuk.com/
 repository: 

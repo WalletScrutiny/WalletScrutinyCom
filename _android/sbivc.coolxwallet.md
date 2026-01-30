@@ -9,8 +9,6 @@ appCountry:
 released: 2019-01-31
 updated: 2022-03-31
 version: 1.28.100
-stars: 3.5
-ratings: 
 reviews: 
 website: https://www.sbicxw.com/
 repository: 

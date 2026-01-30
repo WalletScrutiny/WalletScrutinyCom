@@ -9,8 +9,6 @@ appCountry:
 released: 2023-01-18
 updated: 2023-01-18
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptocurrencyscript.com/
 repository: 

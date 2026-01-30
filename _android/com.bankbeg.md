@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-31
 updated: 2021-10-31
 version: 2.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.bankbeg.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-16
 updated: 2020-10-16
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://365emoney.com
 repository: 

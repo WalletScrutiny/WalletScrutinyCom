@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-02
 updated: 2019-10-02
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.pmt247.com
 repository: 

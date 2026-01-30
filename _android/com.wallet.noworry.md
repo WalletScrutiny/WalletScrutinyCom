@@ -3,15 +3,13 @@ wsId:
 title: 'nowory: Buy Bitcoin With 0 Fee'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 10000
 appId: com.wallet.noworry
 appCountry: 
 released: 
 updated: 2026-01-21
 version: 5.8.14
-stars: 
-ratings: 
 reviews: 
 website: https://www.nowory.com
 repository: 
@@ -26,7 +24,7 @@ signer:
 twitter: noworyapp
 social:
 - https://www.instagram.com/noworyapp
-- https://t.me/noworyapp 
+- https://t.me/noworyapp
 redirect_from: 
 developerName: Nowory Labs
 builds: 

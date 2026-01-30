@@ -9,8 +9,6 @@ appCountry:
 released: 2019-09-25
 updated: 2019-09-25
 version: 1.0.14
-stars: 
-ratings: 
 reviews: 
 website: https://www.24cfd.com
 repository: 

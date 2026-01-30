@@ -9,8 +9,6 @@ appCountry:
 released: 2025-07-15
 updated: 2026-01-27
 version: 2.1.12
-stars: 
-ratings: 
 reviews: 
 website: https://boldbitcoinwallet.com
 repository: 

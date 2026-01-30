@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-23
 updated: 2021-11-22
 version: 1.3.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.spl.cards
 repository: 

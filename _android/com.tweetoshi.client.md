@@ -9,8 +9,6 @@ appCountry:
 released: 2022-02-15
 updated: 2023-02-06
 version: 0.8.5
-stars: 3
-ratings: 
 reviews: 9
 website: https://tweetoshi.com
 repository: 

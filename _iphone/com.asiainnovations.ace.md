@@ -10,7 +10,6 @@ idd: '1446866556'
 released: 2019-01-28
 updated: 2023-03-20
 version: 51.0.0
-stars: 5
 reviews: 2
 website: https://www.ace.io
 repository: 

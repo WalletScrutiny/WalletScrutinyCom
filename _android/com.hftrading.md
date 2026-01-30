@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-10
 updated: 2021-08-25
 version: 1.5.69-hftrading
-stars: 
-ratings: 
 reviews: 
 website: https://www.hftrading.com
 repository: 

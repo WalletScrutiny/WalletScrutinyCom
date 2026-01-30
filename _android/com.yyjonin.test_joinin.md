@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-28
 updated: 2022-07-20
 version: '4.2'
-stars: 
-ratings: 
 reviews: 
 website: https://joinin.vip
 repository: 

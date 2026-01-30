@@ -9,8 +9,6 @@ appCountry:
 released: 2020-10-28
 updated: 2020-11-02
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://chankura.com
 repository: 

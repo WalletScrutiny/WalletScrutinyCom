@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-08
 updated: 2021-02-06
 version: 3.4.8
-stars: 
-ratings: 
 reviews: 
 website: http://www.bitcoinpeople.it
 repository: 

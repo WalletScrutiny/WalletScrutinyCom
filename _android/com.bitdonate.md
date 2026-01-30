@@ -9,8 +9,6 @@ appCountry:
 released: 2021-04-28
 updated: 2021-07-26
 version: '2.1'
-stars: 
-ratings: 
 reviews: 
 website: https://bitdonate.com
 repository: 

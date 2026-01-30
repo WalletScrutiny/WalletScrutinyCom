@@ -9,8 +9,6 @@ appCountry:
 released: 2021-10-12
 updated: 2021-10-18
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://viennox.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-06
 updated: 2022-12-21
 version: 1.2.1
-stars: 
-ratings: 
 reviews: 
 website: https://dfmeco.io
 repository: 

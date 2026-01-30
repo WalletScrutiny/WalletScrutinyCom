@@ -10,8 +10,6 @@ appCountry:
 released: 2023-07-24
 updated: 2025-08-06
 version: 1.4.10
-stars: 4.8
-ratings: 
 reviews: 57
 website: https://www.pockie.io/
 repository: 

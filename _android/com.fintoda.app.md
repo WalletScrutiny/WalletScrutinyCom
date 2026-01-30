@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-26
 updated: 2025-12-23
 version: 1.7.4
-stars: 4.4
-ratings: 
 reviews: 
 website: https://fintoda.com
 repository: 

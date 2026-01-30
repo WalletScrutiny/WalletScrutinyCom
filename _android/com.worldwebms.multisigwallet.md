@@ -10,8 +10,6 @@ appCountry:
 released: 2019-02-15
 updated: 2025-01-17
 version: 4.5.1
-stars: 
-ratings: 
 reviews: 
 website: https://unido.us/
 repository: 

@@ -12,8 +12,6 @@ appCountry: fr
 released: 2019-12-10
 updated: 2026-01-16
 version: 2.7.4
-stars: 4.6
-ratings: 314
 reviews: 10
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix

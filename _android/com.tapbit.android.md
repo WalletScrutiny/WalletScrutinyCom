@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-20
 updated: 2026-01-26
 version: 4.2.6
-stars: 4
-ratings: 
 reviews: 32
 website: 
 repository: 

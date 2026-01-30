@@ -10,7 +10,6 @@ idd: 958797429
 released: 2015-02-04
 updated: 2026-01-25
 version: 3.48.0
-stars: 4.6
 reviews: 15109
 website: https://www.coinjar.com/au
 repository: 

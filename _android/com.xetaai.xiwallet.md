@@ -9,8 +9,6 @@ appCountry:
 released: 2025-09-18
 updated: 2025-11-25
 version: 1.0.11
-stars: 
-ratings: 
 reviews: 
 website: https://xetaai.io
 repository: 

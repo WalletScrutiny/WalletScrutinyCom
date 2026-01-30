@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-12
 updated: 2023-08-23
 version: '1.18'
-stars: 
-ratings: 
 reviews: 
 website: https://alfwallet.io
 repository: 

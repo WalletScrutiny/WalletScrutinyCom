@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-30
 updated: 2022-10-06
 version: 3.0.16
-stars: 4.8
-ratings: 
 reviews: 93
 website: https://www.cyclebas.com/
 repository: 

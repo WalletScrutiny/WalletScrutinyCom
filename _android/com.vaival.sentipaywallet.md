@@ -9,8 +9,6 @@ appCountry:
 released: 2021-03-31
 updated: 2021-03-31
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: http://www.sentipaywallet.com
 repository: 

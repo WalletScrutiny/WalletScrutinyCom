@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-30
 updated: 2022-04-11
 version: '9.8'
-stars: 
-ratings: 
 reviews: 
 website: https://santiagocelentano.wixsite.com/esantrix
 repository: 

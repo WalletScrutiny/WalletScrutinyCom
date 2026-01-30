@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-24
 updated: 2020-08-10
 version: '2.5'
-stars: 
-ratings: 
 reviews: 
 website: http://goforsage.com/app
 repository: 

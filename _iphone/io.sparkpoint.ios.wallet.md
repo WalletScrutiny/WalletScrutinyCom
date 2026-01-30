@@ -10,7 +10,6 @@ idd: 1572629350
 released: 2021-06-26
 updated: 2023-04-13
 version: 12.1.0
-stars: 4.6
 reviews: 16
 website: https://sparkpoint.io/
 repository: 

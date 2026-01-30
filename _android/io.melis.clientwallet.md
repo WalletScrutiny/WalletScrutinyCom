@@ -10,8 +10,6 @@ appCountry:
 released: 2017-01-30
 updated: 2021-09-30
 version: 1.6.24
-stars: 
-ratings: 
 reviews: 
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client

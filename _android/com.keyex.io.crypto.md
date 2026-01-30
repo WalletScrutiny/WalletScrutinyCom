@@ -9,8 +9,6 @@ appCountry:
 released: 2023-02-15
 updated: 2025-08-13
 version: 1.1.39
-stars: 
-ratings: 
 reviews: 
 website: https://www.keyex.io
 repository: 

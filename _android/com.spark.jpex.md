@@ -10,8 +10,6 @@ appCountry: jp
 released: 2020-07-30
 updated: 2023-08-02
 version: 2.83.848
-stars: 
-ratings: 
 reviews: 
 website: http://jp-ex.io
 repository: 

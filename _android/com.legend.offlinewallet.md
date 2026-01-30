@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-09
 updated: 2020-07-25
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://hyperpay.tech
 repository: 

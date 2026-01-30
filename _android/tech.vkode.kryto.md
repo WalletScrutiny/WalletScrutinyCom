@@ -9,8 +9,6 @@ appCountry:
 released: 2024-07-27
 updated: 2025-07-30
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://vkode-dev.github.io/
 repository: 

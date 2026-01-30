@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-25
 updated: 2022-09-01
 version: 1.0.17
-stars: 
-ratings: 
 reviews: 
 website: https://www.btearn.com
 repository: 

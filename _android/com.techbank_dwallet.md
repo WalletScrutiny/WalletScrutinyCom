@@ -10,8 +10,6 @@ appCountry: in
 released: 2020-10-09
 updated: 2025-12-12
 version: 2.0.7
-stars: 4.5
-ratings: 59
 reviews: 12
 website: https://techbank.finance/
 repository: 

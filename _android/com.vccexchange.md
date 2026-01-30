@@ -10,8 +10,6 @@ appCountry:
 released: 2019-12-12
 updated: 2021-10-06
 version: 3.18.0
-stars: 4.9
-ratings: 
 reviews: 37
 website: https://vcc.exchange/
 repository: 

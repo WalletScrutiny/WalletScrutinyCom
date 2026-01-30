@@ -10,8 +10,6 @@ appCountry:
 released: 2021-07-13
 updated: 2021-07-13
 version: '1.0'
-stars: 4.4
-ratings: 
 reviews: 4
 website: https://digicox.com
 repository: 

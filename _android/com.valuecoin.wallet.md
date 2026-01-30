@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-20
 updated: 2022-08-24
 version: '3.4'
-stars: 
-ratings: 
 reviews: 
 website: https://www.valuecoin.money/
 repository: 

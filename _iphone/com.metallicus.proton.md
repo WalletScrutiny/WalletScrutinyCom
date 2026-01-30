@@ -10,7 +10,6 @@ idd: 1516536231
 released: 2020-11-25
 updated: 2021-12-09
 version: 1.1.20
-stars: 4.6
 reviews: 251
 website: https://protonchain.com
 repository: 

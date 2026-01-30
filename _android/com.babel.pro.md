@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-27
 updated: 2022-05-30
 version: 1.7.2
-stars: 
-ratings: 
 reviews: 
 website: https://babel.finance/
 repository: 

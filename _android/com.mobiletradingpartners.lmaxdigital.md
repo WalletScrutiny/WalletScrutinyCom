@@ -10,8 +10,6 @@ appCountry: gb
 released: 2018-05-18
 updated: 2025-10-09
 version: 5.1.45
-stars: 4.2
-ratings: 27
 reviews: 2
 website: http://www.lmax.com/mobile
 repository: 

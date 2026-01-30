@@ -10,8 +10,6 @@ appCountry:
 released: 2022-12-22
 updated: 2023-11-09
 version: '1.1'
-stars: 3.2
-ratings: 
 reviews: 
 website: https://tarmex.io
 repository: 

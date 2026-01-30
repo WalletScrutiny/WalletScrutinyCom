@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-11-24
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://nayuta.co/nayuta-wallet-2022/
 repository: https://github.com/nayutaco/NayutaWalletApp

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-01-29
 updated: 2024-01-29
 version: '1.9'
-stars: 
-ratings: 
 reviews: 
 website: https://xeliuqa.app
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2023-04-15
 updated: 2023-05-15
 version: 3.04.30
-stars: 
-ratings: 
 reviews: 
 website: https://altrafinance.io/
 repository: 

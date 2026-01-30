@@ -10,8 +10,6 @@ appCountry:
 released: 2022-03-14
 updated: 2025-03-24
 version: '2.0'
-stars: 4.7
-ratings: 
 reviews: 20
 website: https://privapp.network/
 repository: 

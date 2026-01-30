@@ -10,7 +10,6 @@ idd: '1598187938'
 released: 2021-12-07
 updated: 2022-09-19
 version: 1.5.7
-stars: 5
 reviews: 1
 website: https://exchangecopter.com
 repository: 

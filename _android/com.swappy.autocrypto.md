@@ -9,8 +9,6 @@ appCountry:
 released: 2022-05-20
 updated: 2022-06-02
 version: 0.0.10
-stars: 
-ratings: 
 reviews: 
 website: https://forintfinance.com/
 repository: 

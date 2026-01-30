@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-26
 updated: 2023-05-23
 version: 1.0.15
-stars: 
-ratings: 
 reviews: 
 website: https://indtcoin.com
 repository: 

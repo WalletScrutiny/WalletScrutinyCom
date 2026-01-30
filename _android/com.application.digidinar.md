@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-03-02
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.digidinar.com
 repository: 

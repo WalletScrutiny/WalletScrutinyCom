@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2020-09-27
 version: 1.3.7
-stars: 3.7
-ratings: 394
 reviews: 173
 website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven

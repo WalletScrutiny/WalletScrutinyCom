@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-04-15
 updated: 2021-04-27
 version: 1.0.31
-stars: 
-ratings: 
 reviews: 
 website: https://www.cryptoneed.pro/
 repository: 

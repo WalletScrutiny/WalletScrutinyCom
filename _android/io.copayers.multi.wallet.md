@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-16
 updated: 2021-12-16
 version: '0.21838'
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2024-06-29
 updated: 2025-11-26
 version: 2.4.2
-stars: 
-ratings: 
 reviews: 
 website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo

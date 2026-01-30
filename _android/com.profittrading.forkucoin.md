@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-27
 updated: 2026-01-28
 version: 6.10.0
-stars: 4
-ratings: 102
 reviews: 17
 website: https://profittradingapp.com?utm_source=kucoin_gp
 repository: 

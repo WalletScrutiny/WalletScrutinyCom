@@ -11,8 +11,6 @@ appCountry: us
 released: 2019-12-19
 updated: 2026-01-06
 version: 16.7.1
-stars: 4.2
-ratings: 18096
 reviews: 263
 website: https://coin98.com/
 repository: 

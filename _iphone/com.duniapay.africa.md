@@ -10,7 +10,6 @@ idd: '1474570971'
 released: 2019-10-18
 updated: 2022-04-10
 version: 3.0.0
-stars: 4.8
 reviews: 11
 website: https://www.duniapay.net
 repository: 

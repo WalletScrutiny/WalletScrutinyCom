@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-16
 updated: 2022-04-16
 version: 1.3.8
-stars: 
-ratings: 
 reviews: 
 website: https://worldofwallet.io
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-29
 updated: 2023-08-17
 version: 1.6.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.tatacoabitcoin.com/
 repository: 

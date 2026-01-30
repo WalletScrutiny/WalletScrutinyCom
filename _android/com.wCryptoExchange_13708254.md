@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-11
 updated: 2021-12-18
 version: 1.1.45
-stars: 
-ratings: 
 reviews: 
 website: https://m2f5ac532.app-ads-txt.com
 repository: 

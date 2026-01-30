@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-16
 version: 4.26.0
-stars: 4.6
-ratings: 
 reviews: 2
 website: https://bisonapp.com
 repository: 

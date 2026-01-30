@@ -9,8 +9,6 @@ appCountry:
 released: 2022-04-05
 updated: 2022-07-22
 version: 2.3.82
-stars: 4.8
-ratings: 
 reviews: 4
 website: https://www.ruyiwallet.com
 repository: 

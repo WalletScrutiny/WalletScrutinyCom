@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-28
 updated: 2021-07-29
 version: '2005311702'
-stars: 
-ratings: 
 reviews: 
 website: https://fdao.vn/
 repository: 

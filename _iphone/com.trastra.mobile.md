@@ -10,7 +10,6 @@ idd: 1446427008
 released: 2019-01-20
 updated: 2025-02-06
 version: 5.0.9
-stars: 3
 reviews: 2
 website: https://mobile-app.trastra.com/
 repository: 

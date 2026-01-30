@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-25
 updated: 2022-11-21
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://aelince.com
 repository: 

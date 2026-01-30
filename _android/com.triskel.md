@@ -9,8 +9,6 @@ appCountry:
 released: 2023-06-27
 updated: 2026-01-03
 version: '6.1'
-stars: 
-ratings: 
 reviews: 
 website: https://www.triskelwallet.io/
 repository: 

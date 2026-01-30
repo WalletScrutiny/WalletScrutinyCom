@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-31
 updated: 2023-01-18
 version: 0.26.4
-stars: 
-ratings: 
 reviews: 
 website: http://crypto.fastewallet.com/
 repository: 

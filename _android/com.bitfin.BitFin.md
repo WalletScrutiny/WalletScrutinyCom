@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-05
 updated: 2020-02-19
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://bitfin.io
 repository: 

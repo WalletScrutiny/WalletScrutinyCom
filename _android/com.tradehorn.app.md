@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-23
 updated: 2020-11-23
 version: '1.4'
-stars: 
-ratings: 
 reviews: 
 website: https://tradehorn.com/
 repository: 

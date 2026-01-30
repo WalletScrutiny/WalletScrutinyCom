@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2026-01-20
 version: 1.56.1
-stars: 
-ratings: 
 reviews: 
 website: https://safello.com/
 repository: 

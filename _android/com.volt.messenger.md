@@ -9,8 +9,6 @@ appCountry:
 released: 2019-02-18
 updated: 2020-06-18
 version: 3.6.0
-stars: 
-ratings: 
 reviews: 
 website: http://www.voltmessenger.com
 repository: 

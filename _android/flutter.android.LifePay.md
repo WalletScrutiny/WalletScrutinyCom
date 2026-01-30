@@ -10,8 +10,6 @@ appCountry:
 released: 2022-09-21
 updated: 2025-08-25
 version: 2.4.8
-stars: 4.6
-ratings: 
 reviews: 
 website: https://lifpay.me
 repository: 

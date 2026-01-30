@@ -10,7 +10,6 @@ idd: '1552402029'
 released: 2021-11-23
 updated: 2026-01-19
 version: 3.49.0
-stars: 4.8
 reviews: 18
 website: https://www.buenbit.com/
 repository: 

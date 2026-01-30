@@ -10,8 +10,6 @@ appCountry:
 released: 2020-09-15
 updated: 2020-11-07
 version: 0.31.0
-stars: 
-ratings: 
 reviews: 
 website: https://sicuradata.com/
 repository: 

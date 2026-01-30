@@ -9,8 +9,6 @@ appCountry:
 released: 2020-03-08
 updated: 2020-08-14
 version: v1.0.4
-stars: 5
-ratings: 33
 reviews: 8
 website: https://slicex.cc/
 repository: 

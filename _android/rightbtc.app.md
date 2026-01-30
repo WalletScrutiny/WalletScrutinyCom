@@ -9,8 +9,6 @@ appCountry:
 released: 2020-04-02
 updated: 2020-08-07
 version: 2.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.rightbtc.com
 repository: 

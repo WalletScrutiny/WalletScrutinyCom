@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-19
 updated: 2019-10-29
 version: 1.9.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.airwalletofficial.com
 repository: 

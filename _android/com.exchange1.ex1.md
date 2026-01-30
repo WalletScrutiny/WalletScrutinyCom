@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2025-12-22
 version: 1.0.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.exchange1.com
 repository: 

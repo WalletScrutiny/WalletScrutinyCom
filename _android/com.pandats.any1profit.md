@@ -9,8 +9,6 @@ appCountry:
 released: 2019-05-02
 updated: 2019-05-02
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://www.any1pro.com/
 repository: 

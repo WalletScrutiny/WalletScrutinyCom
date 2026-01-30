@@ -10,8 +10,6 @@ appCountry:
 released: 2023-04-28
 updated: 2025-12-10
 version: 2.3.0
-stars: 4.5
-ratings: 
 reviews: 5
 website: https://defexa.io/wallet/
 repository: 

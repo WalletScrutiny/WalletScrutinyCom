@@ -9,8 +9,6 @@ appCountry:
 released: 2020-05-07
 updated: 2024-07-16
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://www.gioexchange.com/
 repository: 

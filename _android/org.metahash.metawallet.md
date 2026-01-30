@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2018-11-14
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://metahash.org
 repository: 

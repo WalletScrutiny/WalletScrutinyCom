@@ -10,8 +10,6 @@ appCountry: us
 released: 2020-05-15
 updated: 2022-10-21
 version: 2.4.0
-stars: 4.4
-ratings: 161
 reviews: 30
 website: http://www.volt.id
 repository: 

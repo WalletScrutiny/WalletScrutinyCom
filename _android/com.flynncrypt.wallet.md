@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-16
 updated: 2022-06-16
 version: 1.0.9
-stars: 
-ratings: 
 reviews: 
 website: http://flynncrypt.com
 repository: 

@@ -10,7 +10,6 @@ idd: '1503179166'
 released: 2020-05-17
 updated: 2025-12-29
 version: 3.15.0
-stars: 4.5
 reviews: 2554
 website: https://bitonic.nl
 repository: 

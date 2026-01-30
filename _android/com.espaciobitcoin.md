@@ -9,8 +9,6 @@ appCountry:
 released: 2022-11-07
 updated: 2022-11-07
 version: 3.8.5
-stars: 
-ratings: 
 reviews: 
 website: https://www.espacioculturalbitcoin.com/
 repository: 

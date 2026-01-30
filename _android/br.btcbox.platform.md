@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-30
 updated: 2021-09-30
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://www.btcbox.com.br
 repository: 

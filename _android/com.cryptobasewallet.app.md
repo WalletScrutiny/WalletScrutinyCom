@@ -9,8 +9,6 @@ appCountry:
 released: 2024-10-10
 updated: 2025-03-14
 version: 4.23.0
-stars: 
-ratings: 
 reviews: 
 website: https://cryptobaseatm.com
 repository: 

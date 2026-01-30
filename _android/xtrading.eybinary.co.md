@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-13
 updated: 2022-09-26
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: https://eybinary.xtrading.co/
 repository: 

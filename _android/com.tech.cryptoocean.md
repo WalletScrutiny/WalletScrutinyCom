@@ -9,8 +9,6 @@ appCountry:
 released: 2022-07-20
 updated: 2022-08-18
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://cryptoocean.in/
 repository: 

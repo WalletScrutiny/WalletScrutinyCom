@@ -9,8 +9,6 @@ appCountry:
 released: 2022-03-18
 updated: 2023-01-01
 version: 2.1.2
-stars: 
-ratings: 
 reviews: 
 website: https://ginexttradingcorp.com/
 repository: 

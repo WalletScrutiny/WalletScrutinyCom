@@ -9,8 +9,6 @@ appCountry:
 released: 2021-05-29
 updated: 2021-05-30
 version: 1.0.0
-stars: 
-ratings: 5
 reviews: 
 website: https://www.mwc.mw/
 repository: 

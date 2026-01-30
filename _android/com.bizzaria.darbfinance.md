@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-02
 updated: 2019-10-07
 version: 1.3.3
-stars: 
-ratings: 
 reviews: 
 website: https://darbfinance.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-07-14
 updated: 2025-07-16
 version: 1.1.2025071502
-stars: 
-ratings: 
 reviews: 
 website: https://www.usbc.xyz
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2025-05-14
 updated: 2025-11-10
 version: 1.1.7
-stars: 5
-ratings: 
 reviews: 5
 website: http://mannabitcoin.com/
 repository: 

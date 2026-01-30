@@ -10,7 +10,6 @@ idd: 1490205837
 released: 2020-03-16
 updated: 2021-12-25
 version: 1.7.7
-stars: 4.8
 reviews: 5
 website: https://hexawallet.io/
 repository: 

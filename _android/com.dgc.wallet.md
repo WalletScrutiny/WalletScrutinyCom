@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-25
 updated: 2021-07-25
 version: 0.21.3
-stars: 
-ratings: 
 reviews: 
 website: https://www.dgcusa.com/
 repository: 

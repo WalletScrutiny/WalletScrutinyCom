@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-14
 updated: 2020-10-16
 version: '2.6'
-stars: 
-ratings: 
 reviews: 
 website: http://www.ddtotal.com.br
 repository: 

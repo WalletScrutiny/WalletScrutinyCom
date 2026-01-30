@@ -10,8 +10,6 @@ appCountry:
 released: 2019-06-21
 updated: 2021-03-18
 version: 1.0.25
-stars: 
-ratings: 
 reviews: 
 website: https://korvio.io
 repository: 

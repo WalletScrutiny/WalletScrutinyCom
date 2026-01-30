@@ -9,8 +9,6 @@ appCountry:
 released: 2021-09-03
 updated: 2021-09-03
 version: '5.5'
-stars: 5
-ratings: 1009
 reviews: 388
 website: 
 repository: 

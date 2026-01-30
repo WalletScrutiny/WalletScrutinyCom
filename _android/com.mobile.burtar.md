@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-26
 updated: 2021-06-26
 version: '1.0'
-stars: 4.5
-ratings: 
 reviews: 8
 website: https://burtar.com
 repository: 

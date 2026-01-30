@@ -10,8 +10,6 @@ appCountry:
 released: 2022-01-26
 updated: 2025-12-21
 version: 1.10.32
-stars: 4.7
-ratings: 
 reviews: 8
 website: https://vent.africa
 repository: 

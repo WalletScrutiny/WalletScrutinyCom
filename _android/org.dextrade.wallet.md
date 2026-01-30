@@ -10,8 +10,6 @@ appCountry:
 released: 2022-08-22
 updated: 2025-09-29
 version: 2.0.6
-stars: 5
-ratings: 
 reviews: 
 website: https://dextrade.com/
 repository: 

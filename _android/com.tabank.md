@@ -10,8 +10,6 @@ appCountry:
 released: 2021-08-20
 updated: 2022-02-14
 version: 1.3.7
-stars: 
-ratings: 
 reviews: 
 website: https://web.tabus.co/
 repository: 

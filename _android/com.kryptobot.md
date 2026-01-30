@@ -9,8 +9,6 @@ appCountry:
 released: 2019-06-07
 updated: 2021-01-15
 version: 1.1.4
-stars: 3.5
-ratings: 
 reviews: 
 website: https://kryptobot.net
 repository: 

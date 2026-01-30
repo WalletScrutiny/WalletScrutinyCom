@@ -10,8 +10,6 @@ appCountry:
 released: 2020-12-04
 updated: 2023-08-24
 version: '3.57'
-stars: 
-ratings: 
 reviews: 
 website: https://www.coinomo.com
 repository: 

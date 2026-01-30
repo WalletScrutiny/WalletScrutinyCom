@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-07
 updated: 2021-12-07
 version: '5.0'
-stars: 
-ratings: 
 reviews: 
 website: https://newchange.io
 repository: 

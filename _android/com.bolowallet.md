@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-12-12
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

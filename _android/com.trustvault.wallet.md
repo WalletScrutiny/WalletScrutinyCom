@@ -9,8 +9,6 @@ appCountry:
 released: 2025-12-08
 updated: 2025-12-26
 version: 1.0.0
-stars: 
-ratings: 
 reviews: 
 website: http://trustvault-app.com
 repository: 

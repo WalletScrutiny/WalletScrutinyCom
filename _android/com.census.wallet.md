@@ -9,8 +9,6 @@ appCountry:
 released: 2020-02-04
 updated: 2020-07-10
 version: 1.2.10
-stars: 
-ratings: 
 reviews: 
 website: https://www.census.cx/
 repository: 

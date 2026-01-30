@@ -10,7 +10,6 @@ idd: '1493015933'
 released: 2020-02-12
 updated: 2021-12-29
 version: '2.10'
-stars: 4.5
 reviews: 74
 website: https://www.beaxy.com/
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2019-10-05
 updated: 2019-11-11
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://tehranramzarz.com
 repository: 

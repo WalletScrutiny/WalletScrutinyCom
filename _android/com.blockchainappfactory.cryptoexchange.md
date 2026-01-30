@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-04-13
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.blockchainappfactory.com/
 repository: 

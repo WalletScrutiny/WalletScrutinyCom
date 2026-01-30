@@ -10,7 +10,6 @@ idd: 1004852205
 released: 2015-06-24
 updated: 2026-01-12
 version: 8.38.1
-stars: 3.6
 reviews: 51
 website: https://bitkan.com/
 repository: 

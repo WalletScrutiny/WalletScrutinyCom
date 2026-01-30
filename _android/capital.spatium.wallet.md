@@ -11,8 +11,6 @@ appCountry: us
 released: 2018-08-31
 updated: 2024-02-22
 version: 3.2.5
-stars: 
-ratings: 
 reviews: 
 website: https://spatium.net/
 repository: 

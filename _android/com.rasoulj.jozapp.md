@@ -9,8 +9,6 @@ appCountry:
 released: 2021-07-17
 updated: 2022-05-20
 version: 1.0.7
-stars: 
-ratings: 
 reviews: 
 website: https://nonamewallet.com
 repository: 

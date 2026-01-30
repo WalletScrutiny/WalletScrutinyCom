@@ -9,8 +9,6 @@ appCountry:
 released: 2018-10-01
 updated: 2026-01-07
 version: 7.11.36
-stars: 4.2
-ratings: 
 reviews: 
 website: https://www.rehive.com
 repository: 

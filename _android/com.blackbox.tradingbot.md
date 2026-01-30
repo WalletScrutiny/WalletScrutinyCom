@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2019-09-11
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://www.youtube.com/c/CryptoCrasher/live
 repository: 

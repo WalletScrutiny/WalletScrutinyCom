@@ -10,8 +10,6 @@ appCountry:
 released: 2019-04-20
 updated: 2026-01-24
 version: 4.9.0
-stars: 4.1
-ratings: 18826
 reviews: 44
 website: http://www.bitkub.com
 repository: 

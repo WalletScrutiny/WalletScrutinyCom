@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-01
 updated: 2022-05-27
 version: 2.2.0
-stars: 
-ratings: 
 reviews: 
 website: https://onlinecoldwallet.com/
 repository: 

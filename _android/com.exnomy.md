@@ -9,8 +9,6 @@ appCountry:
 released: 2020-11-24
 updated: 2021-09-21
 version: 1.0.18
-stars: 
-ratings: 
 reviews: 
 website: https://www.exnomy.com/
 repository: 

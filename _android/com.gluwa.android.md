@@ -10,8 +10,6 @@ appCountry:
 released: 2015-09-20
 updated: 2024-03-27
 version: 8.7.0
-stars: 3.4
-ratings: 
 reviews: 3
 website: https://www.gluwa.com
 repository: 

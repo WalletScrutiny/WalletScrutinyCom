@@ -9,8 +9,6 @@ appCountry:
 released: 2024-08-18
 updated: 2025-10-17
 version: 1.8.4
-stars: 4.9
-ratings: 
 reviews: 2
 website: https://softnote.com
 repository: 

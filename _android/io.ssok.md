@@ -9,8 +9,6 @@ appCountry:
 released: 2021-08-02
 updated: 2021-08-23
 version: 1.0.3
-stars: 
-ratings: 
 reviews: 
 website: http://ssok.info/
 repository: 

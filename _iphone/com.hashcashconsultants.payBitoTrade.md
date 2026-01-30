@@ -10,7 +10,6 @@ idd: 1492071529
 released: 2020-01-02
 updated: 2025-12-09
 version: 101.5.0
-stars: 5
 reviews: 65
 website: https://www.hashcashconsultants.com
 repository: 

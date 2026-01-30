@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-08-02
 version: Varies with device
-stars: 
-ratings: 
 reviews: 
 website: 
 repository: 

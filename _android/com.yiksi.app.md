@@ -9,8 +9,6 @@ appCountry:
 released: 2022-06-11
 updated: 2022-12-08
 version: 2.2.12
-stars: 3.8
-ratings: 
 reviews: 
 website: https://yiksi.com/
 repository: 

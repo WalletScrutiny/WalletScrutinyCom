@@ -10,8 +10,6 @@ appCountry:
 released: 2019-11-24
 updated: 2022-06-23
 version: '4.0'
-stars: 2.1
-ratings: 
 reviews: 11
 website: https://dnar.io
 repository: 

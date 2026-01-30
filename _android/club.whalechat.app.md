@@ -9,8 +9,6 @@ appCountry:
 released: 2019-10-13
 updated: 2020-03-07
 version: 0.4.19
-stars: 
-ratings: 
 reviews: 
 website: https://www.whalechat.app
 repository: 

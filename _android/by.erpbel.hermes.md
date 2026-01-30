@@ -10,8 +10,6 @@ appCountry:
 released: 2022-10-06
 updated: 2025-09-23
 version: 2.10.1
-stars: 2.7
-ratings: 
 reviews: 
 website: https://bynex.io/
 repository: 

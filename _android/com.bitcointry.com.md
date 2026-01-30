@@ -10,8 +10,6 @@ appCountry:
 released: 2023-01-03
 updated: 2025-11-07
 version: 5.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://bitcointry.com
 repository: 

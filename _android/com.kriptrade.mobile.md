@@ -10,8 +10,6 @@ appCountry:
 released: 2021-10-20
 updated: 2026-01-13
 version: 3.2.4
-stars: 4.1
-ratings: 
 reviews: 
 website: https://kriptrade.com
 repository: 

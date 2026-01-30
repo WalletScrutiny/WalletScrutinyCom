@@ -10,8 +10,6 @@ appCountry: gt
 released: 2021-05-24
 updated: 2025-07-29
 version: 2.1.5
-stars: 
-ratings: 
 reviews: 
 website: https://nebeus.com
 repository: 

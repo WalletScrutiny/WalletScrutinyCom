@@ -10,7 +10,6 @@ idd: '1599698329'
 released: 2022-03-04
 updated: 2025-05-18
 version: '8.9'
-stars: 0
 reviews: 0
 website: https://ammer.cards
 repository: 

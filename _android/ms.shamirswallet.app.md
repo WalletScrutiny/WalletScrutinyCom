@@ -9,8 +9,6 @@ appCountry:
 released: 2020-07-28
 updated: 2020-12-04
 version: 1.3.1
-stars: 
-ratings: 
 reviews: 
 website: https://shamirswallet.com/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2021-12-07
 updated: 2022-04-07
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://megao.io/
 repository: 

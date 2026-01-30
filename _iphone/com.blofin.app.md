@@ -10,7 +10,6 @@ idd: '1616804346'
 released: 2022-04-15
 updated: 2026-01-18
 version: 3.23.0
-stars: 4.7
 reviews: 1286
 website: https://blofin.com
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2019-03-19
 updated: 2019-03-21
 version: '1.1'
-stars: 
-ratings: 
 reviews: 
 website: https://smartym.pro
 repository: 

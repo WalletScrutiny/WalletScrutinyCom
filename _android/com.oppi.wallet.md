@@ -10,8 +10,6 @@ appCountry:
 released: 2024-05-13
 updated: 2026-01-01
 version: 1.0.95
-stars: 4.2
-ratings: 
 reviews: 9
 website: https://oppiwallet.com/en
 repository: 

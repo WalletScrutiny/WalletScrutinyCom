@@ -10,8 +10,6 @@ appCountry:
 released: 2021-06-21
 updated: 2021-11-30
 version: 1.0.1
-stars: 
-ratings: 
 reviews: 
 website: https://dobuy.site/
 repository: 

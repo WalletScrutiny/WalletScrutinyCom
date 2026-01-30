@@ -9,8 +9,6 @@ appCountry:
 released: 2020-06-25
 updated: 2020-06-25
 version: '1.0'
-stars: 4.6
-ratings: 
 reviews: 
 website: https://www.etroquer.com/
 repository: 

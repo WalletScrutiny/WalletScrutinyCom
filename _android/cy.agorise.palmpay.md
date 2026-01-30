@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2022-01-20
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: http://www.PalmPay.io
 repository: 

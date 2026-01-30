@@ -10,8 +10,6 @@ appCountry:
 released: 
 updated: 2023-07-24
 version: '1.23'
-stars: 
-ratings: 
 reviews: 
 website: https://simplehold.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2025-04-14
 updated: 2025-07-06
 version: 1.0.4
-stars: 
-ratings: 
 reviews: 
 website: https://united.network
 repository: 

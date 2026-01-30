@@ -9,8 +9,6 @@ appCountry:
 released: 2020-01-10
 updated: 2020-01-16
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: http://www.n2blockchain.io/
 repository: 

@@ -9,8 +9,6 @@ appCountry:
 released: 2023-04-06
 updated: 2023-06-23
 version: 0.9.65
-stars: 
-ratings: 
 reviews: 
 website: https://whitebit.com/
 repository: 

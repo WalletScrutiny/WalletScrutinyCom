@@ -10,8 +10,6 @@ appCountry:
 released: 2019-08-18
 updated: 2019-08-31
 version: '1.2'
-stars: 
-ratings: 
 reviews: 
 website: https://www.pccryptomarket.com
 repository: 

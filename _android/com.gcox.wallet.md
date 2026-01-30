@@ -10,8 +10,6 @@ appCountry:
 released: 2018-11-05
 updated: 2020-10-29
 version: 1.0.6
-stars: 
-ratings: 
 reviews: 
 website: https://gcox.com
 repository: 

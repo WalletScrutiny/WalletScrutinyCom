@@ -10,7 +10,6 @@ idd: '1529147510'
 released: 2022-04-14
 updated: 2022-04-26
 version: 1.0.1
-stars: 0
 reviews: 0
 website: https://vesto.io
 repository: 

@@ -10,8 +10,6 @@ appCountry:
 released: 2020-07-02
 updated: 2020-07-02
 version: '1.0'
-stars: 
-ratings: 
 reviews: 
 website: https://niuupeak.com/
 repository: 

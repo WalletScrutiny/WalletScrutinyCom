@@ -9,8 +9,6 @@ appCountry:
 released: 2022-09-28
 updated: 2022-09-29
 version: 0.1.0
-stars: 
-ratings: 
 reviews: 
 website: https://bitindi.com
 repository: 

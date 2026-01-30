@@ -9,8 +9,6 @@ appCountry:
 released: 
 updated: 2021-04-27
 version: VARY
-stars: 
-ratings: 
 reviews: 
 website: https://icte.io
 repository: 

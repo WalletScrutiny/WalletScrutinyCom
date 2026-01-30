@@ -10,8 +10,6 @@ appCountry:
 released: 2023-04-30
 updated: 2026-01-20
 version: 1.45.0
-stars: 4.2
-ratings: 
 reviews: 16
 website: https://lulubit.app
 repository: 

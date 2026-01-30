@@ -9,8 +9,6 @@ appCountry:
 released: 2025-10-05
 updated: 2026-01-26
 version: 0.3.4
-stars: 
-ratings: 
 reviews: 
 website: https://bisq.network
 repository: 

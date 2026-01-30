@@ -10,8 +10,6 @@ appCountry:
 released: 2019-12-23
 updated: 2021-06-18
 version: 4.0.2
-stars: 
-ratings: 
 reviews: 
 website: https://www.fsdex.io/
 repository: 
