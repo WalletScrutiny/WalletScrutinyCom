@@ -126,7 +126,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
+    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
