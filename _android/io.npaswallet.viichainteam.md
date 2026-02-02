@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.npaswallet.viichainteam.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-08-24
+date: 2026-02-02
 signer: 
 twitter: OCL890
 social:

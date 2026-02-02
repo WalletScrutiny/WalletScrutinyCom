@@ -10,7 +10,7 @@ idd: '1634080733'
 released: 2023-01-18
 updated: 2026-01-26
 version: 2026.4.0
-reviews: 4122
+reviews: 4215
 website: https://robinhood.com/web3-wallet
 repository: 
 issue: 

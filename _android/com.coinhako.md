@@ -8,7 +8,7 @@ users: 100000
 appId: com.coinhako
 appCountry: 
 released: 2018-05-06
-updated: 2026-01-02
+updated: 2026-01-30
 version: 5.16.0
 reviews: 22
 website: https://coinhako.com

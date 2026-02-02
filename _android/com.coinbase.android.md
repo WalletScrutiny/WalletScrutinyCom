@@ -10,7 +10,7 @@ appCountry:
 released: 2013-03-01
 updated: 2026-01-22
 version: 14.3.37
-reviews: 115956
+reviews: 116086
 website: https://coinbase.com/
 repository: 
 issue: 

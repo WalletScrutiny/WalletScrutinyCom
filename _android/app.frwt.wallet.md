@@ -10,7 +10,7 @@ appCountry:
 released: 2024-01-03
 updated: 2026-01-20
 version: 1.14.0
-reviews: 185
+reviews: 186
 website: https://www.frwt.app/
 repository: 
 issue: 

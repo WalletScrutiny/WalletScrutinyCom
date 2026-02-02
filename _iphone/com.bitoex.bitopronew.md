@@ -8,9 +8,9 @@ appId: com.bitoex.bitopronew
 appCountry: tw
 idd: '6468561188'
 released: 2023-10-29
-updated: 2026-01-20
-version: 1.50.5
-reviews: 4393
+updated: 2026-01-29
+version: 1.51.13
+reviews: 4416
 website: http://taplink.cc/bitogroup
 repository: 
 issue: 

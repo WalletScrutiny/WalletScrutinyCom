@@ -8,8 +8,8 @@ users: 50000
 appId: com.kangamobile
 appCountry: 
 released: 2020-01-03
-updated: 2026-01-26
-version: 1.28.5
+updated: 2026-02-02
+version: 1.28.6
 reviews: 6
 website: https://kanga.exchange
 repository: 

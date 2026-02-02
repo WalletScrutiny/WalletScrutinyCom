@@ -8,18 +8,18 @@ users: 10000
 appId: com.bitcoinglobal
 appCountry: us
 released: 2020-09-25
-updated: 2023-04-18
-version: 2.12.0
+updated: 2025-08-05
+version: 2.13.0
 reviews: 5
 website: https://bitcoin.global/
 repository: 
 issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-05-30
+date: 2026-02-02
 signer: 
 twitter: BitcoinGlobalEx
 social:

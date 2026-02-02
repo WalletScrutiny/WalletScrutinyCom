@@ -10,7 +10,7 @@ idd: '1627285591'
 released: 2022-10-17
 updated: 2025-12-22
 version: 1.4.7
-reviews: 1781
+reviews: 1786
 website: 
 repository: 
 issue: 

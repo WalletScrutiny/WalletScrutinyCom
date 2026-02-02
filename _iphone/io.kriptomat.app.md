@@ -10,7 +10,7 @@ idd: 1440135740
 released: 2018-12-20
 updated: 2025-11-10
 version: 7.3.1
-reviews: 90
+reviews: 94
 website: https://kriptomat.io
 repository: 
 issue: 

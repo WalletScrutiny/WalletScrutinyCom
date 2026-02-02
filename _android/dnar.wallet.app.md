@@ -8,7 +8,7 @@ users: 10000
 appId: dnar.wallet.app
 appCountry: 
 released: 2019-11-24
-updated: 2022-06-23
+updated: 2025-07-31
 version: '4.0'
 reviews: 11
 website: https://dnar.io

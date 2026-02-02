@@ -8,9 +8,9 @@ appId: com.midas.crypto
 appCountry: tr
 idd: '6505027440'
 released: 2024-08-13
-updated: 2026-01-22
-version: 2.81.0
-reviews: 2892
+updated: 2026-01-29
+version: 2.82.0
+reviews: 2897
 website: https://www.midaskripto.com/
 repository: 
 issue: 

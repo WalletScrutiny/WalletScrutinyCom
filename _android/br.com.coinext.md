@@ -8,7 +8,7 @@ users: 100000
 appId: br.com.coinext
 appCountry: 
 released: 2019-11-19
-updated: 2026-01-20
+updated: 2026-01-30
 version: 2.29.9
 reviews: 7
 website: https://coinext.com.br

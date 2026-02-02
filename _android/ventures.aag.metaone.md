@@ -8,18 +8,18 @@ users: 100000
 appId: ventures.aag.metaone
 appCountry: 
 released: 2022-12-22
-updated: 2025-01-21
-version: 6.1.0
-reviews: 15
+updated: 2025-08-18
+version: 6.2.0
+reviews: 14
 website: https://getmeta.one/
 repository: 
 issue: 
 icon: ventures.aag.metaone.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-03-29
+date: 2026-02-02
 signer: 
 twitter: aag_ventures
 social:

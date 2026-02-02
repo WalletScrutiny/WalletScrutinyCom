@@ -10,7 +10,7 @@ idd: '1495986023'
 released: 2020-01-30
 updated: 2025-12-02
 version: 1.21.11
-reviews: 5325
+reviews: 5326
 website: https://www.tryanchor.com/
 repository: 
 issue: 

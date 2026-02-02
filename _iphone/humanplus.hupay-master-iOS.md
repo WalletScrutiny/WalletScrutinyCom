@@ -8,9 +8,9 @@ appId: humanplus.hupay-master-iOS
 appCountry: kr
 idd: '1509428401'
 released: 2020-07-22
-updated: 2022-06-22
-version: 1.8.8
-reviews: 12
+updated: 2023-12-06
+version: 2.0.1
+reviews: 16
 website: https://www.hupayx.com/
 repository: 
 issue: 
@@ -26,7 +26,7 @@ social:
 - https://medium.com/@hupayx
 - https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 features: 
-developerName: 
+developerName: The Humanplus Inc.
 
 ---
 

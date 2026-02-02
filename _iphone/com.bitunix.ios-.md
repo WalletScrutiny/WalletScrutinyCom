@@ -10,7 +10,7 @@ idd: '6446243957'
 released: 2023-04-11
 updated: 2026-01-09
 version: 3.15.0
-reviews: 290
+reviews: 295
 website: https://www.bitunix.com
 repository: 
 issue: 

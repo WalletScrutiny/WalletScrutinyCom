@@ -8,18 +8,18 @@ users: 1000
 appId: com.cryptinix.app
 appCountry: us
 released: 2020-11-24
-updated: 2023-10-11
-version: 1.2.8
+updated: 2025-10-14
+version: 1.2.9
 reviews: 
 website: https://cryptinix.com
 repository: 
 issue: 
 icon: com.cryptinix.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-02-26
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

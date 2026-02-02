@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.pionex.lite.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-02-25
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2016-06-05
 updated: 2026-01-22
 version: 2.152.0
-reviews: 1173
+reviews: 1174
 website: https://www.maya.ph/
 repository: 
 issue: 

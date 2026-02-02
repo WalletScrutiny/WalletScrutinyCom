@@ -10,7 +10,7 @@ idd: 711923939
 released: 2013-10-16
 updated: 2026-01-26
 version: '5.36'
-reviews: 8109131
+reviews: 8118002
 website: https://cash.app
 repository: 
 issue: 

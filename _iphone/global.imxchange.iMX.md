@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: global.imxchange.iMX.jpg
 bugbounty: 
-meta: removed
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-05
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

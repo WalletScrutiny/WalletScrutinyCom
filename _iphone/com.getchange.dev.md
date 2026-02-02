@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.getchange.dev.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-01-04
+date: 2026-02-02
 signer: 
 twitter: changefinance
 social:

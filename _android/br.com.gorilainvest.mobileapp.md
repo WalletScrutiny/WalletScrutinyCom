@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-13
 updated: 2026-01-27
 version: 8.4.0
-reviews: 26
+reviews: 25
 website: https://gorila.com.br
 repository: 
 issue: 

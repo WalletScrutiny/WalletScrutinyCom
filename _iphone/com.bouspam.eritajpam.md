@@ -1,6 +1,6 @@
 ---
 wsId: bousechanj
-title: Bous Echanj
+title: Eritaj Pam
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.bouspam.eritajpam
 appCountry: us
 idd: '1613922315'
 released: 2022-03-29
-updated: 2023-07-15
-version: 2.3.2
-reviews: 32
-website: https://bousechanj.com/
+updated: 2025-08-20
+version: 2.4.7
+reviews: 1
+website: https://vcards.eritajpam.com/
 repository: 
 issue: 
 icon: com.bouspam.eritajpam.jpg

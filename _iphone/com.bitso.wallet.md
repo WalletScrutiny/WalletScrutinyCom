@@ -10,7 +10,7 @@ idd: 1292836438
 released: 2018-02-19
 updated: 2026-01-25
 version: 4.8.0
-reviews: 925
+reviews: 928
 website: https://bitso.com/app
 repository: 
 issue: 

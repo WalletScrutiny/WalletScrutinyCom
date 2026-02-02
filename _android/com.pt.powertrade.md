@@ -8,18 +8,18 @@ users: 1000
 appId: com.pt.powertrade
 appCountry: 
 released: 2021-07-27
-updated: 2023-04-24
-version: 2.2.1
+updated: 2025-12-11
+version: 3.2.1
 reviews: 
 website: https://power.trade/
 repository: 
 issue: 
 icon: com.pt.powertrade.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-03
+date: 2026-02-02
 signer: 
 twitter: powertradehq
 social: 

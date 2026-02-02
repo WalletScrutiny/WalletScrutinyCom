@@ -8,9 +8,9 @@ users: 5000000
 appId: com.fidelity.android
 appCountry: 
 released: 2010-12-15
-updated: 2026-01-17
+updated: 2026-01-30
 version: '4.24'
-reviews: 55706
+reviews: 55828
 website: https://www.fidelity.com
 repository: 
 issue: 

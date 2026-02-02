@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.voicapps.app2cash-ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-11
+date: 2026-02-02
 signer: 
 twitter: 2cashnetwork
 social:

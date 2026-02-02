@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.crypterium.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-05-20
+date: 2026-02-02
 signer: 
 twitter: crypterium
 social:

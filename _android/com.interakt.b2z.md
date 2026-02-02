@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.interakt.b2z.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-01-18
+date: 2026-02-02
 signer: 
 twitter: B2zExchange
 social:

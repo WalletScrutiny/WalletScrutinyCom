@@ -10,7 +10,7 @@ appCountry:
 released: 2024-06-05
 updated: 2025-04-02
 version: 1.13.0
-reviews: 307
+reviews: 308
 website: https://www.elementwallet.com/
 repository: 
 issue: 

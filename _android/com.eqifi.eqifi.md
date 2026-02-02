@@ -8,18 +8,18 @@ users: 1000
 appId: com.eqifi.eqifi
 appCountry: 
 released: 2022-04-03
-updated: 2023-04-20
-version: 1.7.3
+updated: 2025-05-28
+version: 1.7.4
 reviews: 
 website: https://www.eqifi.com/
 repository: 
 issue: 
 icon: com.eqifi.eqifi.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-04-09
+date: 2026-02-02
 signer: 
 twitter: eqifi_finance
 social:

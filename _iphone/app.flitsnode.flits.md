@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2023-08-04
+date: 2026-02-02
 signer: 
 twitter: FlitsNode
 social:

@@ -24,7 +24,7 @@ signer:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: BlocPal International Inc.
 
 ---
 

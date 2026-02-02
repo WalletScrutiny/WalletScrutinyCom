@@ -10,7 +10,7 @@ appCountry:
 released: 2013-10-15
 updated: 2026-01-23
 version: 5.36.0
-reviews: 453517
+reviews: 454043
 website: https://cash.app
 repository: 
 issue: 

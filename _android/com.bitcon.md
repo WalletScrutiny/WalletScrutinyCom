@@ -6,19 +6,19 @@ authors:
 users: 100
 appId: com.bitcon
 appCountry: 
-released: 
-updated: 2024-12-12
-version: 1.9.9
+released: 2026-01-22
+updated: 2026-01-18
+version: 3.0.0
 reviews: 
 website: https://spendthebits.com/
 repository: 
 issue: 
 icon: com.bitcon.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2026-01-08
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

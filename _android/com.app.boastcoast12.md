@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.app.boastcoast12.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2025-02-13
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

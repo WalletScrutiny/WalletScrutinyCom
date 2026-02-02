@@ -7,18 +7,18 @@ users: 50
 appId: kg.yaros.crypto
 appCountry: 
 released: 2021-12-03
-updated: 2021-12-08
-version: '1.016'
+updated: 2025-10-21
+version: '1.017'
 reviews: 
 website: 
 repository: 
 issue: 
 icon: kg.yaros.crypto.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2024-07-05
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

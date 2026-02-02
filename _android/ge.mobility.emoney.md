@@ -8,8 +8,8 @@ users: 100000
 appId: ge.mobility.emoney
 appCountry: 
 released: 2015-08-22
-updated: 2025-12-16
-version: 11.5.6
+updated: 2026-01-28
+version: 11.5.7
 reviews: 33
 website: https://www.emoney.ge/
 repository: 

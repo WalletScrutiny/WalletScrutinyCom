@@ -10,7 +10,7 @@ appCountry: bh
 released: 2018-11-02
 updated: 2026-01-19
 version: 3.10.3
-reviews: 3317
+reviews: 3318
 website: https://rain.com
 repository: 
 issue: 

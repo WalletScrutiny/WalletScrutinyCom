@@ -7,8 +7,8 @@ appId: com.BKExchange.appstore
 appCountry: us
 idd: '6466607380'
 released: 2023-10-17
-updated: 2026-01-07
-version: 3.8.0
+updated: 2026-01-29
+version: 3.8.1
 reviews: 36
 website: 
 repository: 

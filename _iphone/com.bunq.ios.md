@@ -10,7 +10,7 @@ idd: '1021178150'
 released: 2016-02-12
 updated: 2026-01-23
 version: 30.2.1
-reviews: 12757
+reviews: 12830
 website: https://www.bunq.com
 repository: 
 issue: 

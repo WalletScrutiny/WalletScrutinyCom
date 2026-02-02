@@ -10,7 +10,7 @@ idd: '1397585225'
 released: 2018-07-25
 updated: 2026-01-20
 version: 5.50.1026
-reviews: 362
+reviews: 361
 website: https://coinmetro.com/
 repository: 
 issue: 

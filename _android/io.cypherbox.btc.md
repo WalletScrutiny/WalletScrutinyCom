@@ -16,10 +16,10 @@ repository: https://github.com/Bamskki/Cypher-Box
 issue: 
 icon: io.cypherbox.btc.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2025-08-21
+date: 2026-02-02
 signer: 
 twitter: Cypher_Box
 social:

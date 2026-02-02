@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.nexdax.Nexdax.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-30
+date: 2026-02-02
 signer: 
 twitter: nexdax_exchange
 social:

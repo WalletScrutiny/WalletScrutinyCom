@@ -7,8 +7,8 @@ users: 1000
 appId: kz.intebix
 appCountry: 
 released: 2023-01-09
-updated: 2026-01-28
-version: '2.0'
+updated: 2026-02-02
+version: 2.0.1
 reviews: 
 website: https://www.intebix.kz
 repository: 

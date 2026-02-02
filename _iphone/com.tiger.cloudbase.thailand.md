@@ -10,7 +10,7 @@ idd: '6450774618'
 released: 2023-11-21
 updated: 2026-01-22
 version: 1.50.0
-reviews: 13753
+reviews: 13862
 website: https://www.binance.th/en
 repository: 
 issue: 

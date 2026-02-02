@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.bitcoinupbit.exchange.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-05-30
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

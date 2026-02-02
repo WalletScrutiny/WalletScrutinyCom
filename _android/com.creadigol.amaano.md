@@ -3,14 +3,14 @@ wsId:
 title: amaano
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.creadigol.amaano
 appCountry: 
 released: 2022-02-14
-updated: 2023-04-08
-version: 1.1.8
+updated: 2025-12-01
+version: 1.6.1
 reviews: 
-website: https://amaano.com/index.html
+website: https://amaano.com/
 repository: 
 issue: 
 icon: com.creadigol.amaano.png

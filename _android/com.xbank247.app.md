@@ -23,7 +23,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Xixo Global
+developerName: Thang Nguyen Ngoc
 builds: 
 features: 
 

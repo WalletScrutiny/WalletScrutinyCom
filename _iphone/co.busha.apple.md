@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-04
+date: 2026-02-02
 signer: 
 twitter: getbusha
 social:

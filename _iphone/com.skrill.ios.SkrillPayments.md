@@ -10,7 +10,7 @@ idd: '718248239'
 released: 2013-10-29
 updated: 2026-01-28
 version: 3.177.0
-reviews: 8515
+reviews: 8525
 website: https://www.skrill.com/
 repository: 
 issue: 

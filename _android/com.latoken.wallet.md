@@ -8,25 +8,25 @@ users: 1000000
 appId: com.latoken.wallet
 appCountry: 
 released: 2020-03-17
-updated: 2024-08-25
-version: 1.194.00
+updated: 2025-10-27
+version: 1.206.00
 reviews: 111
 website: http://latoken.com
 repository: 
 issue: 
 icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-09-16
+date: 2026-02-02
 signer: 
 twitter: latokens
 social:
 - https://www.linkedin.com/company/latoken
 - https://www.facebook.com/LiquidAssetToken
 redirect_from: 
-developerName: LATOKEN
+developerName: LATRADE
 builds: 
 features: 
 

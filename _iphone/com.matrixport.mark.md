@@ -8,8 +8,8 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2026-01-12
-version: 4.4.80
+updated: 2026-01-29
+version: 4.4.90
 reviews: 48
 website: https://www.matrixport.com
 repository: 

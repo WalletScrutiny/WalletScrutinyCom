@@ -8,9 +8,9 @@ appId: lulubitLLC.lulubit
 appCountry: pa
 idd: '6444370380'
 released: 2023-04-17
-updated: 2025-11-11
-version: 1.38.0
-reviews: 156
+updated: 2026-01-21
+version: 1.45.0
+reviews: 167
 website: https://lulubit.app
 repository: 
 issue: 

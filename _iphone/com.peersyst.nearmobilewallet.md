@@ -10,7 +10,7 @@ idd: '6443501225'
 released: 2023-03-20
 updated: 2026-01-21
 version: '2.35'
-reviews: 807
+reviews: 808
 website: https://nearmobile.app/
 repository: 
 issue: 

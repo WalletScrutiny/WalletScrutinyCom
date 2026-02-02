@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.trade.tech.android.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-03-29
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

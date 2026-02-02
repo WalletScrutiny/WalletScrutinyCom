@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.dunamu.upbit.global.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-30
+date: 2026-02-02
 signer: 
 twitter: 
 social:

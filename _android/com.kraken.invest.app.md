@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-30
 updated: 2026-01-27
 version: 3.48.45
-reviews: 7383
+reviews: 7412
 website: https://www.kraken.com
 repository: 
 issue: 

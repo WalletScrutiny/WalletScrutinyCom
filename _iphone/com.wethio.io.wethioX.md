@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.wethio.io.wethioX.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-03-14
+date: 2026-02-02
 signer: 
 twitter: wethiox
 social:

@@ -9,7 +9,7 @@ appId: com.okx.tr
 appCountry: 
 released: 
 updated: 2026-01-27
-version: 6.156.0
+version: 6.156.1
 reviews: 
 website: https://tr.okx.com
 repository: 

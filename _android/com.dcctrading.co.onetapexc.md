@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: 'Onetapexc: Crypto, Bot Trading'
+title: Mood Journal
 altTitle: 
 authors: 
 users: 50
 appId: com.dcctrading.co.onetapexc
 appCountry: 
 released: 2023-04-10
-updated: 2023-04-24
-version: '3.0'
+updated: 2025-05-12
+version: '3.1'
 reviews: 
 website: https://onetapexc.com
 repository: 
 issue: 
-icon: com.dcctrading.co.onetapexc.jpg
+icon: com.dcctrading.co.onetapexc.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2023-09-28
+date: 2026-02-02
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: OnetapExc
+developerName: Tradingly AI
 builds: 
 features: 
 

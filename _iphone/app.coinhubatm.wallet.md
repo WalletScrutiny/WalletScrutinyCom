@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: app.coinhubatm.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: 2026-02-02
 signer: 
 twitter: Coinhubusa
 social:

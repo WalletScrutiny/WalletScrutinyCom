@@ -24,7 +24,7 @@ signer:
 twitter: VOOX_Global
 social: 
 redirect_from: 
-developerName: VOOX LIMITED
+developerName: VOOX Limited
 builds: 
 features: 
 

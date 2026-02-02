@@ -10,7 +10,7 @@ idd: '6462672660'
 released: 2023-10-15
 updated: 2026-01-22
 version: 1.15.29
-reviews: 54
+reviews: 43
 website: https://walletverse.io
 repository: 
 issue: 

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.thebitcoincompany.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
 appHashes: 
-date: 2023-06-03
+date: 2026-02-02
 signer: 
 twitter: thebtcco
 social:

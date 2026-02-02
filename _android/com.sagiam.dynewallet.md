@@ -1,24 +1,24 @@
 ---
 wsId: 
-title: Dyne Wallet
+title: Personal EMI Calculator
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sagiam.dynewallet
 appCountry: 
 released: 2021-01-12
-updated: 2021-01-12
-version: '1.0'
+updated: 2025-11-13
+version: '2.0'
 reviews: 
 website: 
 repository: 
 issue: 
 icon: com.sagiam.dynewallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2023-09-15
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

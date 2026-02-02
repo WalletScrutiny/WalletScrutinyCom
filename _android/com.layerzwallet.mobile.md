@@ -7,8 +7,8 @@ users: 100
 appId: com.layerzwallet.mobile
 appCountry: 
 released: 2025-12-19
-updated: 2026-01-11
-version: 1.4.0
+updated: 2026-01-29
+version: 1.4.1
 reviews: 
 website: https://layerzwallet.com
 repository: 

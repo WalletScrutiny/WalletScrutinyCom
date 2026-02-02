@@ -8,8 +8,8 @@ appId: com.hashkey.global
 appCountry: ph
 idd: '6479636139'
 released: 2024-04-19
-updated: 2026-01-12
-version: 1.58.0
+updated: 2026-01-30
+version: 1.59.0
 reviews: 9
 website: 
 repository: 

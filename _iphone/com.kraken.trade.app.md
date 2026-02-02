@@ -10,7 +10,7 @@ idd: 1473024338
 released: 2019-11-12
 updated: 2026-01-26
 version: 5.39.0
-reviews: 23577
+reviews: 23668
 website: https://www.kraken.com
 repository: 
 issue: 

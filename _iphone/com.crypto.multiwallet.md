@@ -10,7 +10,7 @@ idd: 1442083982
 released: 2018-12-01
 updated: 2026-01-24
 version: 3.1.0
-reviews: 933
+reviews: 935
 website: https://guarda.com/
 repository: 
 issue: 

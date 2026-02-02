@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-11
+date: 2026-02-02
 signer: 
 twitter: CoinCola_Global
 social:

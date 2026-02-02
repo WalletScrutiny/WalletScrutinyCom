@@ -9,7 +9,7 @@ idd: '1575425801'
 released: 2021-10-05
 updated: 2025-12-17
 version: 3.10.4
-reviews: 884
+reviews: 899
 website: https://www.arculus.co/
 repository: 
 issue: 

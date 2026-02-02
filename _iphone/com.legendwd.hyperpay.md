@@ -1,6 +1,6 @@
 ---
 wsId: hyperPay
-title: HyperPay :Wallet Crypto & Card
+title: HPX:Wallet Crypto & Card
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.legendwd.hyperpay
 appCountry: us
 idd: 1354755812
 released: 2018-09-29
-updated: 2023-01-18
-version: 5.0.19
-reviews: 104
+updated: 2026-01-19
+version: 5.6.160900
+reviews: 131
 website: https://hyperpay.tech
 repository: 
 issue: 
@@ -25,7 +25,7 @@ twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 features: 
-developerName: LEGEND INTERNET SERVICES PTY LTD
+developerName: CIPHERBC PTE. LTD.
 
 ---
 

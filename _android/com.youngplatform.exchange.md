@@ -9,7 +9,7 @@ appId: com.youngplatform.exchange
 appCountry: 
 released: 
 updated: 2026-01-26
-version: 3.8.0
+version: 3.9.0
 reviews: 
 website: https://exchange.youngplatform.com
 repository: 

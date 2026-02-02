@@ -10,7 +10,7 @@ idd: '1539660922'
 released: 2021-02-05
 updated: 2025-12-08
 version: 5.3.3
-reviews: 5384
+reviews: 5385
 website: https://coinsquare.com
 repository: 
 issue: 

@@ -10,7 +10,7 @@ idd: '1608783388'
 released: 2022-07-05
 updated: 2026-01-19
 version: 3.5.2
-reviews: 122
+reviews: 123
 website: https://www.bitstack-app.com
 repository: 
 issue: 

@@ -8,9 +8,9 @@ appId: com.kcexfintech.kcex
 appCountry: us
 idd: '6470641783'
 released: 2024-05-29
-updated: 2026-01-25
-version: 2.0.5
-reviews: 2564
+updated: 2026-02-01
+version: 2.0.6
+reviews: 2568
 website: 
 repository: 
 issue: 

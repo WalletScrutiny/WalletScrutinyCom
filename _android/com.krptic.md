@@ -3,12 +3,12 @@ wsId:
 title: Krptic Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.krptic
 appCountry: 
 released: 2021-08-13
-updated: 2023-11-26
-version: 4.0.7
+updated: 2025-08-31
+version: 4.2.2
 reviews: 
 website: https://www.krptic.com
 repository: 

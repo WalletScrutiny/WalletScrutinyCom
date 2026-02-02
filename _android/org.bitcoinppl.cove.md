@@ -8,7 +8,7 @@ users: 10
 appId: org.bitcoinppl.cove
 appCountry: 
 released: 
-updated: 2026-01-26
+updated: 2026-01-30
 version: VARY
 reviews: 
 website: https://covebitcoinwallet.com

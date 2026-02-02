@@ -8,8 +8,8 @@ appId: co.safex.org
 appCountry: us
 idd: '6476754762'
 released: 2024-03-04
-updated: 2026-01-12
-version: 5.5.1
+updated: 2026-01-29
+version: 5.6.0
 reviews: 207
 website: 
 repository: 

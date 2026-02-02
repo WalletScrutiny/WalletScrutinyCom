@@ -1,24 +1,24 @@
 ---
 wsId: 
-title: 'Aibit: 425X Leverage, Max ROI'
+title: 'AceBitx: Trade Anytime'
 altTitle: 
 authors: 
 users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2025-08-08
-version: 5.0.2
+updated: 2026-01-26
+version: 1.0.5
 reviews: 8
 website: 
 repository: 
 issue: 
 icon: com.sinblock.blockchain.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-01-08
+date: 2026-02-02
 signer: 
 twitter: aibitcom
 social:
@@ -28,7 +28,7 @@ social:
 - https://medium.com/@aibitcom
 - https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
 redirect_from: 
-developerName: Aibit PTE.LTD.
+developerName: Acebitx PTE.LTD.
 builds: 
 features: 
 

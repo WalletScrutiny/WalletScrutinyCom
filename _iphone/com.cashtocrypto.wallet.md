@@ -10,7 +10,7 @@ idd: 1554808338
 released: 2021-03-30
 updated: 2025-12-04
 version: 4.2.0
-reviews: 1287
+reviews: 1290
 website: https://bitcoindepot.com/
 repository: 
 issue: 

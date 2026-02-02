@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Crypto & BTC Wallet – Ybit
+title: 'Ybit: Bitcoin & Crypto Wallet'
 altTitle: 
 authors: 
 users: 1000
 appId: com.ybit.app
 appCountry: 
 released: 2025-06-16
-updated: 2025-09-24
-version: 1.0.7
+updated: 2026-01-29
+version: 1.0.8
 reviews: 
 website: https://ybitwallet.com/
 repository: 

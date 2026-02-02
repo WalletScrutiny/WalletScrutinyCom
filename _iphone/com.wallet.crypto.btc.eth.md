@@ -8,8 +8,8 @@ appId: com.wallet.crypto.btc.eth
 appCountry: us
 idd: '6451146325'
 released: 2023-10-02
-updated: 2026-01-21
-version: 1.9.6
+updated: 2026-01-30
+version: 1.9.7
 reviews: 32
 website: https://ironwallet.io/
 repository: 

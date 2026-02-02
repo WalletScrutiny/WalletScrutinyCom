@@ -8,9 +8,9 @@ appId: io.unisat.mobile
 appCountry: us
 idd: '6498628503'
 released: 2024-08-30
-updated: 2025-11-26
-version: 0.2.23
-reviews: 22
+updated: 2026-01-27
+version: 1.7.9
+reviews: 27
 website: https://unisat.io
 repository: 
 issue: 

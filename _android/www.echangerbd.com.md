@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Exchangernet-old
+title: Dollar Buy Sell
 altTitle: 
 authors:
 - danny
@@ -16,15 +16,15 @@ repository:
 issue: 
 icon: www.echangerbd.com.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2023-04-19
+date: 2026-02-02
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Exchangernet.com
+developerName: exchangernet.com
 builds: 
 features: 
 

@@ -1,6 +1,6 @@
 ---
 wsId: BTCAlpha
-title: 'BTC-Alpha: Buy Sell Bitcoin'
+title: 'ALPCOM: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,18 +8,18 @@ appId: com.btc-alpha
 appCountry: gb
 idd: 1437629304
 released: 2019-04-20
-updated: 2022-09-25
-version: 1.15.1
+updated: 2025-10-21
+version: 2.0.9
 reviews: 4
-website: https://btc-alpha.com/en
+website: http://alp.com
 repository: 
 issue: 
 icon: com.btc-alpha.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-04-01
+date: 2026-02-02
 signer: 
 twitter: btcalpha
 social:

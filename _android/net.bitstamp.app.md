@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-29
 updated: 2026-01-13
 version: '4.13'
-reviews: 672
+reviews: 673
 website: https://www.bitstamp.net
 repository: 
 issue: 

@@ -8,9 +8,9 @@ appId: de.no26.Number26
 appCountry: us
 idd: '956857223'
 released: 2015-02-04
-updated: 2025-11-18
-version: '4.39'
-reviews: 10715
+updated: 2026-01-27
+version: '4.43'
+reviews: 11018
 website: https://n26.com/en-eu?utm_source=appstore&utm_medium=description
 repository: 
 issue: 

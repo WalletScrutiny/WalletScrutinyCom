@@ -8,18 +8,18 @@ users: 1000000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
-updated: 2025-03-07
-version: 3.5.1
-reviews: 40
+updated: 2025-12-22
+version: 3.6.2
+reviews: 42
 website: https://www.novadax.com
 repository: 
 issue: 
 icon: com.nova.dax.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-05-14
+date: 2026-02-02
 signer: 
 twitter: Nova_DAXglobal
 social:

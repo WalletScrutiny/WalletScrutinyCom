@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.cryptobasewallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-11-10
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

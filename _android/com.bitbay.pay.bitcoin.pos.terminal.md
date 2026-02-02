@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-12-31
+date: 2026-02-02
 signer: 
 twitter: zondaglobal
 social:

@@ -10,16 +10,16 @@ appCountry:
 released: 2021-12-14
 updated: 2024-07-31
 version: 1.1.59
-reviews: 2
+reviews: 3
 website: https://qmall.io/
 repository: 
 issue: 
 icon: com.qmall.exchange.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-05-30
+date: 2026-02-02
 signer: 
 twitter: QmallExchange
 social:

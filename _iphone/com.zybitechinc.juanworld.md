@@ -8,18 +8,18 @@ appId: com.zybitechinc.juanworld
 appCountry: ph
 idd: '1458711891'
 released: 2019-05-23
-updated: 2024-08-22
-version: 2.0.301
+updated: 2025-06-23
+version: 2.0.4
 reviews: 56
 website: https://www.juancash.com
 repository: 
 issue: 
 icon: com.zybitechinc.juanworld.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-03
+date: 2026-02-02
 signer: 
 twitter: 
 social:

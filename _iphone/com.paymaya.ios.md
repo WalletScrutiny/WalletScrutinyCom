@@ -10,7 +10,7 @@ idd: '991673877'
 released: 2015-09-29
 updated: 2026-01-26
 version: 2.123.0
-reviews: 226073
+reviews: 226234
 website: https://www.maya.ph/
 repository: 
 issue: 

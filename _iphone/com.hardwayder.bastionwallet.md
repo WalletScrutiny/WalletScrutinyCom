@@ -7,8 +7,8 @@ appId: com.hardwayder.bastionwallet
 appCountry: us
 idd: '6475605182'
 released: 2024-03-06
-updated: 2025-12-17
-version: 1.0.163
+updated: 2026-01-29
+version: 1.0.170
 reviews: 1
 website: 
 repository: 

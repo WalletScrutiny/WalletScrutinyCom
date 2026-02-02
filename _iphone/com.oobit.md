@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: Oobit - Tap to Pay with Crypto
+title: Oobit – Pay with Crypto Card
 altTitle: 
 authors:
 - danny
@@ -8,18 +8,18 @@ appId: com.oobit
 appCountry: br
 idd: '1598882898'
 released: 2022-02-05
-updated: 2025-06-19
-version: 1.8.3
-reviews: 5
+updated: 2026-01-14
+version: 2.0.5
+reviews: 724
 website: https://www.oobit.com/
 repository: 
 issue: 
 icon: com.oobit.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-07-18
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

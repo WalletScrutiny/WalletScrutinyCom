@@ -8,7 +8,7 @@ users: 1000
 appId: com.koinstrap.koinstrap
 appCountry: us
 released: 2020-08-28
-updated: 2023-11-27
+updated: 2026-01-29
 version: 3.3.7
 reviews: 
 website: https://koinstrap.com
@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.koinstrap.koinstrap.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-11-22
+date: 2026-02-02
 signer: 
 twitter: koinstrap
 social:

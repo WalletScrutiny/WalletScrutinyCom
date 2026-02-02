@@ -7,9 +7,9 @@ appId: com.global.wallet.ios
 appCountry: us
 idd: '6444625622'
 released: 2023-01-04
-updated: 2026-01-24
-version: 2.18.0
-reviews: 652
+updated: 2026-01-30
+version: 2.18.1
+reviews: 657
 website: https://www.tpglobalwallet.net/#/
 repository: 
 issue: 

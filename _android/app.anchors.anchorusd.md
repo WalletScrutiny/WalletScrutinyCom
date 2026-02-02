@@ -8,18 +8,18 @@ users: 50000
 appId: app.anchors.anchorusd
 appCountry: us
 released: 2020-06-18
-updated: 2025-03-10
-version: 1.20.21
-reviews: 846
+updated: 2025-12-02
+version: 1.21.11
+reviews: 849
 website: https://www.tryanchor.com
 repository: 
 issue: 
 icon: app.anchors.anchorusd.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-03
+date: 2026-02-02
 signer: 
 twitter: anchorusd
 social: 

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.zedpay.app.android.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-12-15
+date: 2026-02-02
 signer: 
 twitter: ZedPayCo
 social:

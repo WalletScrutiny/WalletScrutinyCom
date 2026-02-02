@@ -10,7 +10,7 @@ idd: 581548081
 released: 2012-12-10
 updated: 2026-01-28
 version: 9.1.0
-reviews: 18361
+reviews: 18360
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
 issue: 

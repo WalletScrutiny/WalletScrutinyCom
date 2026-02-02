@@ -26,7 +26,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
-developerName: BTCTURK TEKNOLOJI ANONIM SIRKETI
+developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU A.S.
 builds: 
 features: 
 

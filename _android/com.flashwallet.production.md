@@ -8,8 +8,8 @@ users: 50000
 appId: com.flashwallet.production
 appCountry: 
 released: 2023-10-23
-updated: 2025-10-31
-version: '31.0'
+updated: 2026-01-29
+version: '32.0'
 reviews: 
 website: https://flash-wallet.com/
 repository: 

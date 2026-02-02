@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: id.qoin.crypto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-12-01
+date: 2026-02-02
 signer: 
 twitter: qoinpay
 social:

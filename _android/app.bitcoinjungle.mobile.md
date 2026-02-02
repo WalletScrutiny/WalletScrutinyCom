@@ -4,7 +4,7 @@ title: Bitcoin Jungle
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: app.bitcoinjungle.mobile
 appCountry: 
 released: 2021-12-05

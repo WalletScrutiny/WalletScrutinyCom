@@ -8,7 +8,7 @@ users: 1000000
 appId: com.deltaexchangeindia
 appCountry: 
 released: 
-updated: 2026-01-18
+updated: 2026-01-30
 version: 2.11.1
 reviews: 1
 website: https://india.delta.exchange

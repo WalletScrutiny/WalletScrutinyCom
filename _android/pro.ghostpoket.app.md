@@ -3,7 +3,7 @@ wsId:
 title: 'Ghost Wallet: Crypto Bitcoin'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: pro.ghostpoket.app
 appCountry: 
 released: 2025-06-21

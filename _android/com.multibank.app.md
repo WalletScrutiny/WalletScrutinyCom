@@ -8,8 +8,8 @@ users: 100000
 appId: com.multibank.app
 appCountry: 
 released: 2023-04-04
-updated: 2026-01-26
-version: 26.0.8
+updated: 2026-02-02
+version: 26.0.9
 reviews: 7
 website: https://mb.io/
 repository: 
@@ -26,7 +26,7 @@ social:
 - https://www.linkedin.com/company/multibankgroup
 - https://www.instagram.com/multibank_group
 redirect_from: 
-developerName: MEX Digital
+developerName: MB.IO
 builds: 
 features: 
 

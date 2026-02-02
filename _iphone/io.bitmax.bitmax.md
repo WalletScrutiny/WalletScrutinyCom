@@ -9,9 +9,9 @@ appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
 released: 2019-06-13
-updated: 2022-11-14
-version: 2.8.8
-reviews: 318
+updated: 2026-01-08
+version: 3.6.4
+reviews: 173
 website: 
 repository: 
 issue: 
@@ -27,7 +27,7 @@ social:
 - https://www.facebook.com/AscendEXOfficial
 - https://www.reddit.com/r/AscendEX_Official
 features: 
-developerName: 
+developerName: Beijing Bsht Network Technology Co. Ltd.
 
 ---
 

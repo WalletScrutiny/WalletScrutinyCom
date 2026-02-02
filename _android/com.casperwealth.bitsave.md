@@ -4,7 +4,7 @@ title: 'BitSave: Bitcoin & Crypto SIP'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.casperwealth.bitsave
 appCountry: 
 released: 2024-04-01

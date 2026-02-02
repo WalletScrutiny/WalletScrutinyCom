@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-03-05
 discontinued: 
-updated: 2025-12-17
-version: 4.18.0-btc
+updated: 2026-01-22
+version: 4.19.0
 binaries: 
 dimensions:
 - 90

@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: HotcoinEx
+title: 'Hotcoin: Buy BTC, ETH & Crypto'
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 100000
 appId: com.pro.hot
 appCountry: 
 released: 2021-05-27
-updated: 2023-12-14
-version: 4.9.8
-reviews: 4
+updated: 2026-01-09
+version: 6.0.9
+reviews: 21
 website: https://hotcoin.com/
 repository: 
 issue: 
@@ -24,7 +24,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Hotcoin global
+developerName: Hotcoin
 builds: 
 features: 
 

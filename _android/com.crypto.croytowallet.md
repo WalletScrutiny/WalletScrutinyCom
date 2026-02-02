@@ -8,25 +8,25 @@ users: 1000
 appId: com.crypto.croytowallet
 appCountry: 
 released: 2021-02-16
-updated: 2023-05-26
-version: 13.2.7
+updated: 2025-10-10
+version: 13.2.10
 reviews: 
-website: https://www.imx.global
+website: https://imxapp.io/
 repository: 
 issue: 
 icon: com.crypto.croytowallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-12-08
+date: 2026-02-02
 signer: 
 twitter: 
 social:
 - https://www.facebook.com/profile.php?id=100075743690970
 - https://www.instagram.com/imxapp/
 redirect_from: 
-developerName: IMSMART Company LTD
+developerName: Smart IoT Technology Co. Ltd
 builds: 
 features: 
 

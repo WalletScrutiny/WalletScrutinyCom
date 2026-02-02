@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.kitefinancial.bitcoin.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-22
+date: 2026-02-02
 signer: 
 twitter: kite_financial
 social:

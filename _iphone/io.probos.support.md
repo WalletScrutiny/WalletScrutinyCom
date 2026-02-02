@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.probos.support.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-07-05
+date: 2026-02-02
 signer: 
 twitter: probos_wallet
 social:

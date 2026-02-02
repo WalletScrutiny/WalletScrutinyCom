@@ -4,13 +4,13 @@ title: Gleec Card Crypto-powered card
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.gleec
 appCountry: 
 released: 2021-02-26
-updated: 2023-12-11
-version: '1.2'
-reviews: 7
+updated: 2026-01-23
+version: '31.0'
+reviews: 15
 website: http://gleec.com/
 repository: 
 issue: 
@@ -26,7 +26,7 @@ social:
 - https://www.facebook.com/gleecofficial
 - https://t.me/officialgleecoin
 redirect_from: 
-developerName: Gleec BTC OU
+developerName: Gleec Holding OU
 builds: 
 features: 
 

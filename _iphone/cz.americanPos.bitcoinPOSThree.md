@@ -7,8 +7,8 @@ appId: cz.americanPos.bitcoinPOSThree
 appCountry: us
 idd: '6575382133'
 released: 2025-12-22
-updated: 2026-01-05
-version: 1.0.1
+updated: 2026-01-16
+version: 1.0.2
 reviews: 0
 website: https://bitcoinpos.americanposllc.com/
 repository: 

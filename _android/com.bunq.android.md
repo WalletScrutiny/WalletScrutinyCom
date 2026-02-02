@@ -10,7 +10,7 @@ appCountry:
 released: 2015-11-25
 updated: 2026-01-21
 version: 30.2.1
-reviews: 226
+reviews: 225
 website: http://www.bunq.com
 repository: 
 issue: 

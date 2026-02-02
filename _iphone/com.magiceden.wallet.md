@@ -10,7 +10,7 @@ idd: '6478631482'
 released: 2024-07-31
 updated: 2026-01-26
 version: 3.3.0
-reviews: 1941
+reviews: 1945
 website: https://wallet.magiceden.io/
 repository: 
 issue: 

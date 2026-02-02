@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.vexel.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-02-28
+date: 2026-02-02
 signer: 
 twitter: 
 social:

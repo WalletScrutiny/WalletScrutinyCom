@@ -7,9 +7,9 @@ appId: com.zmexglobal.app
 appCountry: us
 idd: '6711352543'
 released: 2024-10-28
-updated: 2026-01-12
-version: 3.11.5
-reviews: 34
+updated: 2026-01-26
+version: 3.11.6
+reviews: 37
 website: 
 repository: 
 issue: 

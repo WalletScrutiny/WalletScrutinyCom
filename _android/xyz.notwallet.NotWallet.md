@@ -7,8 +7,8 @@ users: 100
 appId: xyz.notwallet.NotWallet
 appCountry: 
 released: 2025-06-14
-updated: 2026-01-09
-version: 1.1.3
+updated: 2026-01-31
+version: 1.1.4
 reviews: 
 website: https://notwallet.eu/
 repository: 

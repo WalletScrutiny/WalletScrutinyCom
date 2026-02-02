@@ -8,8 +8,8 @@ users: 5000
 appId: com.bitcoinrd.BitcoinRD
 appCountry: 
 released: 2023-03-13
-updated: 2026-01-27
-version: 0.18.2
+updated: 2026-01-30
+version: 0.18.3
 reviews: 
 website: http://bitcoinrd.do
 repository: 

@@ -8,18 +8,18 @@ users: 10000
 appId: io.excelon.excelongo
 appCountry: 
 released: 2021-08-09
-updated: 2023-05-25
-version: 1.0.76
+updated: 2025-11-23
+version: 1.0.101
 reviews: 
 website: https://excelon.money
 repository: 
 issue: 
 icon: io.excelon.excelongo.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-03-11
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

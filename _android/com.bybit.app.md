@@ -10,7 +10,7 @@ appCountry:
 released: 2019-10-31
 updated: 2026-01-23
 version: 5.11.5
-reviews: 7067
+reviews: 7069
 website: https://www.bybit.com
 repository: 
 issue: 

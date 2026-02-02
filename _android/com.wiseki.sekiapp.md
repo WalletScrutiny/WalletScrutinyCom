@@ -1,6 +1,6 @@
 ---
 wsId: sekiappCrypto
-title: 'SekiApp: Sell,Store,Buy Crypto'
+title: 'SekiApp: Buy and Sell Giftcard'
 altTitle: 
 authors:
 - danny

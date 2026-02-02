@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.bitex.otc.jpg
 bugbounty: 
-meta: removed
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-09-11
+date: 2026-02-02
 signer: 
 twitter: BitDATAExchange
 social:

@@ -9,7 +9,7 @@ appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
 updated: 2026-01-23
-version: 3.88.0
+version: 3.89.0
 reviews: 189
 website: https://pintu.co.id/
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: 'Kryto: Buy BTC, ETH & Crypto'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: tech.vkode.kryto
 appCountry: 
 released: 2024-07-27

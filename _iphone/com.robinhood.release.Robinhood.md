@@ -10,7 +10,7 @@ idd: 938003185
 released: 2014-12-11
 updated: 2026-01-26
 version: 2026.4.0
-reviews: 4680987
+reviews: 4685855
 website: https://robinhood.com/
 repository: 
 issue: 

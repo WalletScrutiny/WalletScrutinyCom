@@ -1,6 +1,6 @@
 ---
 wsId: bitGo
-title: BitGo
+title: BitGo Verify
 altTitle: 
 authors:
 - danny
@@ -8,18 +8,18 @@ appId: com.bitgo.mobile
 appCountry: us
 idd: '1608937235'
 released: 2022-05-09
-updated: 2022-11-02
-version: 1.5.0
-reviews: 7
+updated: 2026-01-28
+version: 2.0.45
+reviews: 13
 website: https://bitgo.com
 repository: 
 issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-03
+date: 2026-02-02
 signer: 
 twitter: BitGo
 social:

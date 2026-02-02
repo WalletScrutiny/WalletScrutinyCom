@@ -10,7 +10,7 @@ idd: 886427730
 released: 2014-06-22
 updated: 2026-01-26
 version: 14.3.37
-reviews: 1786076
+reviews: 1786978
 website: http://www.coinbase.com
 repository: 
 issue: 

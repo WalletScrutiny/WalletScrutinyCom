@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.tusker.bytexio.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: 2026-02-02
 signer: 
 twitter: bytex_io
 social:

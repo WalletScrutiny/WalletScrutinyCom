@@ -10,7 +10,7 @@ idd: '1545948177'
 released: 2021-07-13
 updated: 2023-09-10
 version: 2.0.0
-reviews: 4
+reviews: 3
 website: https://tdex.network
 repository: 
 issue: 

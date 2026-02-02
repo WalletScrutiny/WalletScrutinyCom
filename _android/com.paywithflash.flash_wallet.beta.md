@@ -3,7 +3,7 @@ wsId:
 title: 'Flash: Bitcoin Wallet (Beta)'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.paywithflash.flash_wallet.beta
 appCountry: 
 released: 
@@ -16,7 +16,7 @@ issue:
 icon: com.paywithflash.flash_wallet.beta.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

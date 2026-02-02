@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-01-14
 updated: 2025-10-27
 version: 3.1.189
-reviews: 390
+reviews: 391
 website: https://metalpay.com
 repository: 
 issue: 

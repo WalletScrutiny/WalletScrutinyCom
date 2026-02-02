@@ -8,9 +8,9 @@ users: 100000
 appId: com.xchangeonio
 appCountry: 
 released: 2022-11-15
-updated: 2023-03-16
+updated: 2026-01-30
 version: 1.1.2
-reviews: 7
+reviews: 12
 website: https://www.xchangeon.io/
 repository: 
 issue: 
@@ -24,7 +24,7 @@ signer:
 twitter: XChangeon
 social: 
 redirect_from: 
-developerName: Blockhub Ltd.
+developerName: Xchangeon
 builds: 
 features: 
 

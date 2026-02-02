@@ -10,7 +10,7 @@ idd: '1622624126'
 released: 2022-06-22
 updated: 2025-11-05
 version: 2.3.5
-reviews: 77
+reviews: 83
 website: 
 repository: 
 issue: 

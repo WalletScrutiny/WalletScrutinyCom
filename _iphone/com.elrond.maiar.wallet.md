@@ -1,6 +1,6 @@
 ---
 wsId: maiarwallet
-title: Maiar
+title: 'xPortal: BTC & Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.elrond.maiar.wallet
 appCountry: us
 idd: 1519405832
 released: 2021-01-31
-updated: 2023-01-07
-version: 1.5.10
-reviews: 382
-website: https://maiar.com/
+updated: 2026-01-26
+version: 2.89.0
+reviews: 1809
+website: https://xportal.com/
 repository: 
 issue: 
 icon: com.elrond.maiar.wallet.jpg
@@ -26,7 +26,7 @@ social:
 - https://www.linkedin.com/company/getmaiar
 - https://www.facebook.com/getMaiar
 features: 
-developerName: 
+developerName: MultiversX Labs S.R.L.
 
 ---
 

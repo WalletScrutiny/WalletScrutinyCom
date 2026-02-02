@@ -10,7 +10,7 @@ appCountry:
 released: 2024-08-19
 updated: 2025-12-11
 version: 3.10.1
-reviews: 78
+reviews: 80
 website: https://coinflip.tech/
 repository: 
 issue: 

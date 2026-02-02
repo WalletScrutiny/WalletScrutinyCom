@@ -10,7 +10,7 @@ idd: '6467049008'
 released: 2023-12-06
 updated: 2026-01-27
 version: 2026.5.0
-reviews: 276
+reviews: 278
 website: https://robinhood.com/eu/en/
 repository: 
 issue: 

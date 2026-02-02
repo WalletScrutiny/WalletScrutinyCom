@@ -10,7 +10,7 @@ idd: '1459830339'
 released: 2019-04-17
 updated: 2025-12-29
 version: v1.10.43
-reviews: 222
+reviews: 223
 website: 
 repository: https://github.com/cosmostation/cosmostation-ios
 issue: https://github.com/cosmostation/cosmostation-android/issues/729

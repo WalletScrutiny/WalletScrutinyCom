@@ -8,8 +8,8 @@ appId: com.LBank.LBankNavApp
 appCountry: us
 idd: '1437346368'
 released: 2019-02-22
-updated: 2026-01-13
-version: 5.8.4
+updated: 2026-01-31
+version: 5.8.7
 reviews: 683
 website: https://www.lbank.com/
 repository: 

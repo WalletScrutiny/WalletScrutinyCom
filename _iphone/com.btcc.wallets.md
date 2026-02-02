@@ -8,9 +8,9 @@ appId: com.btcc.wallets
 appCountry: us
 idd: '6470782742'
 released: 2023-11-20
-updated: 2026-01-04
-version: 3.5.30
-reviews: 28
+updated: 2026-01-29
+version: 3.5.40
+reviews: 29
 website: 
 repository: 
 issue: 

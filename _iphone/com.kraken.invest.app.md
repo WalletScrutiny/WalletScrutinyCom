@@ -10,7 +10,7 @@ idd: '1481947260'
 released: 2021-06-01
 updated: 2026-01-28
 version: 3.48.41
-reviews: 27016
+reviews: 27274
 website: https://kraken.com
 repository: 
 issue: 

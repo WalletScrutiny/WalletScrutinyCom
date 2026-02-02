@@ -9,8 +9,8 @@ appId: com.phemex.app
 appCountry: 
 released: 2020-02-19
 updated: 2026-01-28
-version: 5.12.1
-reviews: 1458
+version: 5.12.2
+reviews: 1462
 website: https://phemex.com
 repository: 
 issue: 

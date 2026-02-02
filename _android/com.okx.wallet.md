@@ -10,7 +10,7 @@ appCountry:
 released: 2025-03-21
 updated: 2026-01-27
 version: 6.156.0
-reviews: 34
+reviews: 35
 website: 
 repository: 
 issue: 

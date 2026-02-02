@@ -11,7 +11,7 @@ appCountry:
 released: 2017-09-20
 updated: 2026-01-24
 version: 29.79.0
-reviews: 13994
+reviews: 13997
 website: https://wallet.coinbase.com/
 repository: 
 issue: 

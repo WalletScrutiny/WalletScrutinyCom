@@ -1,6 +1,6 @@
 ---
 wsId: AMarkets
-title: AMarkets Trading
+title: 'AMarkets: Finance & Trading'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: amarkets.app
 appCountry: us
 idd: '1495820700'
 released: 2020-02-12
-updated: 2023-03-15
-version: 1.4.68
-reviews: 728
+updated: 2026-01-28
+version: 1.4.162
+reviews: 2995
 website: https://www.amarkets.com/
 repository: 
 issue: 

@@ -16,15 +16,15 @@ repository:
 issue: 
 icon: com.sdb.app.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-19
+date: 2026-02-02
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CLARK DERICK EUGENE
+developerName: Milepost Power Holdings, LLC
 builds: 
 features: 
 

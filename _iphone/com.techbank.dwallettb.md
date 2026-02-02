@@ -8,18 +8,18 @@ appId: com.techbank.dwallettb
 appCountry: in
 idd: 1535437806
 released: 2020-10-15
-updated: 2025-02-01
-version: 1.0.83
-reviews: 2
+updated: 2025-12-14
+version: 1.0.87
+reviews: 3
 website: https://techbank.finance
 repository: 
 issue: 
 icon: com.techbank.dwallettb.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-03-29
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

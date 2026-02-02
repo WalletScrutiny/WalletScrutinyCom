@@ -10,7 +10,7 @@ idd: '1191985736'
 released: 2017-04-10
 updated: 2026-01-23
 version: 3.80.0
-reviews: 383490
+reviews: 383625
 website: https://www.sofi.com
 repository: 
 issue: 

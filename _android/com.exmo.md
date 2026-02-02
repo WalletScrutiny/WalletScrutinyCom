@@ -8,8 +8,8 @@ users: 100000
 appId: com.exmo
 appCountry: 
 released: 2019-11-12
-updated: 2026-01-23
-version: 3.79.6
+updated: 2026-01-27
+version: 3.79.7
 reviews: 96
 website: https://exmo.com/
 repository: 

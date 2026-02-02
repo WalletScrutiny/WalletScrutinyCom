@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: exchange.bitgert.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-11
+date: 2026-02-02
 signer: 
 twitter: exchangebitgert
 social:

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.hitbtc.wallet.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2026-02-02
 signer: 
 twitter: hitbtc
 social:

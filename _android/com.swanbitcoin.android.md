@@ -8,8 +8,8 @@ users: 100000
 appId: com.swanbitcoin.android
 appCountry: 
 released: 2022-03-25
-updated: 2026-01-26
-version: 3.8.0
+updated: 2026-01-29
+version: 3.9.0
 reviews: 260
 website: https://www.swanbitcoin.com
 repository: 

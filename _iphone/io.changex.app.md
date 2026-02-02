@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.changex.app.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-05-07
+date: 2026-02-02
 signer: 
 twitter: ChangeXapp
 social:

@@ -10,7 +10,7 @@ idd: '1472192023'
 released: 2020-06-08
 updated: 2025-05-06
 version: '3.74'
-reviews: 1364
+reviews: 1365
 website: https://www.ziglu.io
 repository: 
 issue: 

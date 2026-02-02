@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: africa.coinhub.coinhubapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-09-08
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

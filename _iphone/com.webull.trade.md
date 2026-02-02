@@ -11,7 +11,7 @@ idd: 1179213067
 released: 2017-01-18
 updated: 2026-01-27
 version: 11.7.5
-reviews: 329531
+reviews: 329829
 website: https://www.webull.com
 repository: 
 issue: 

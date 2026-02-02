@@ -10,7 +10,7 @@ idd: 1488296980
 released: 2020-01-06
 updated: 2026-01-25
 version: 5.11.5
-reviews: 45690
+reviews: 45739
 website: https://www.bybit.com
 repository: 
 issue: 

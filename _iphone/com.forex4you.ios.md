@@ -10,7 +10,7 @@ idd: 1008039704
 released: 2015-10-11
 updated: 2026-01-27
 version: 6.20.0
-reviews: 965
+reviews: 971
 website: https://www.markets4you.com/en/contact-us/
 repository: 
 issue: 

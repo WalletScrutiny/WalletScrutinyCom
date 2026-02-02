@@ -10,7 +10,7 @@ idd: '1626327149'
 released: 2024-04-17
 updated: 2026-01-14
 version: 1.25.0
-reviews: 1028
+reviews: 1040
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: 

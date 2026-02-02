@@ -10,7 +10,7 @@ idd: '1461654946'
 released: 2019-06-02
 updated: 2026-01-28
 version: 4.0.0
-reviews: 601
+reviews: 602
 website: https://www.sbivc.co.jp/
 repository: 
 issue: 

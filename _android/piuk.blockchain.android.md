@@ -11,7 +11,7 @@ appCountry:
 released: 2013-02-01
 updated: 2026-01-23
 version: 202601.2.3
-reviews: 6327
+reviews: 6329
 website: https://www.blockchain.com
 repository: 
 issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456

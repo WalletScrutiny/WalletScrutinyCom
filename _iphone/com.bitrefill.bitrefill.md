@@ -10,7 +10,7 @@ idd: 1378102623
 released: 2018-06-05
 updated: 2026-01-17
 version: 6.4.1
-reviews: 434
+reviews: 435
 website: https://www.bitrefill.com
 repository: 
 issue: 

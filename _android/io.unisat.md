@@ -10,7 +10,7 @@ appCountry:
 released: 2024-03-16
 updated: 2026-01-26
 version: 1.7.9
-reviews: 16
+reviews: 17
 website: https://unisat.io/
 repository: 
 issue: 

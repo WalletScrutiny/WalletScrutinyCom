@@ -1,6 +1,6 @@
 ---
 wsId: digifinex
-title: DigiFinex - Bitcoin Exchange
+title: DigiFinex - crypto exchange
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.digifinex.app
 appCountry: 
 idd: 1397735851
 released: 2018-08-25
-updated: 2022-05-26
-version: 2022.05.25
-reviews: 713
+updated: 2026-02-02
+version: 2026.01.28
+reviews: 60
 website: https://www.digifinex.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ social:
 - https://www.facebook.com/digifinex.global
 - https://www.reddit.com/r/DigiFinex
 features: 
-developerName: 
+developerName: DIGIFINEX PTE.LTD.
 
 ---
 

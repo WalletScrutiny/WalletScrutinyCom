@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.sf.monarch.jpg
 bugbounty: 
-meta: removed
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2025-01-15
+date: 2026-02-02
 signer: 
 twitter: Monarchtoken
 social:

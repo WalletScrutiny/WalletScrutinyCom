@@ -10,7 +10,7 @@ idd: '1609350789'
 released: 2022-03-04
 updated: 2026-01-23
 version: 4.5.2
-reviews: 1636
+reviews: 1647
 website: https://www.weex.com
 repository: 
 issue: 

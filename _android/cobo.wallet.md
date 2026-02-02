@@ -8,9 +8,9 @@ users: 100000
 appId: cobo.wallet
 appCountry: 
 released: 2018-07-01
-updated: 2023-11-06
-version: 5.19.9
-reviews: 60
+updated: 2025-09-04
+version: 5.19.17
+reviews: 65
 website: https://cobo.com
 repository: 
 issue: 
@@ -30,7 +30,7 @@ redirect_from:
 - /cobo.wallet/
 - /posts/2019/11/cobo/
 - /posts/cobo.wallet/
-developerName: Cobo Ltd - Crypto Wallet for BTC, ETH, EOS, VET.
+developerName: Cobo Global Ltd - Crypto Wallet for BTC, ETH
 builds: 
 features: 
 

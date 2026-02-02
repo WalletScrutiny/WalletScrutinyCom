@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.money91.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-09-05
+date: 2026-02-02
 signer: 
 twitter: rovi_protocol
 social:

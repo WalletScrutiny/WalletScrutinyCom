@@ -10,16 +10,16 @@ appCountry:
 released: 2018-03-20
 updated: 2020-12-20
 version: 0.0.4a
-reviews: 23
+reviews: 24
 website: https://portals.nz
 repository: 
 issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2025-01-27
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

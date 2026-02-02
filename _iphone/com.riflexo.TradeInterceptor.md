@@ -10,7 +10,7 @@ idd: 329476057
 released: 2009-09-23
 updated: 2026-01-26
 version: 9.2.1
-reviews: 755
+reviews: 757
 website: https://www.thinkmarkets.com/en/about-us/
 repository: 
 issue: 

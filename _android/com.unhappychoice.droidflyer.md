@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-05-07
+date: 2026-02-02
 signer: 
 twitter: 
 social: 

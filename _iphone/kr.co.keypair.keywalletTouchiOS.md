@@ -9,8 +9,8 @@ appId: kr.co.keypair.keywalletTouchiOS
 appCountry: 
 idd: 1473941321
 released: 2019-07-28
-updated: 2025-10-15
-version: 3.0.57
+updated: 2025-12-14
+version: 3.0.59
 reviews: 0
 website: http://keywallet.co.kr
 repository: 

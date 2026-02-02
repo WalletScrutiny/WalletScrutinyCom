@@ -10,7 +10,7 @@ idd: '1609440707'
 released: 2022-03-12
 updated: 2026-01-22
 version: '8.80'
-reviews: 5156
+reviews: 5179
 website: https://mudrex.com/
 repository: 
 issue: 

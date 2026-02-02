@@ -8,9 +8,9 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2026-01-27
-version: '5.32'
-reviews: 20107
+updated: 2026-01-30
+version: 5.32.1
+reviews: 20226
 website: 
 repository: 
 issue: 

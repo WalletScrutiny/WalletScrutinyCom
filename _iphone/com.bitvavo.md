@@ -10,7 +10,7 @@ idd: 1483903423
 released: 2020-05-28
 updated: 2026-01-26
 version: 2.92.0
-reviews: 8446
+reviews: 8447
 website: https://bitvavo.com
 repository: 
 issue: 

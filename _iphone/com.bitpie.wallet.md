@@ -10,7 +10,7 @@ idd: 1481314229
 released: 2019-10-01
 updated: 2026-01-17
 version: 5.0.212
-reviews: 338
+reviews: 339
 website: https://bitpie.com
 repository: 
 issue: 
