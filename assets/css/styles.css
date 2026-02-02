@@ -119,6 +119,13 @@ a.sl {
 
 body.modal-open {
   overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+body.modal-open > *:not(#verificationModal) {
+  display: none;
 }
 
 /* body.modal-open #main {

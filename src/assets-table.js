@@ -1084,7 +1084,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.scrollLeft = 0;
   }, 0);
 
-  modal.style.background = window.theme === 'dark' ? '#2d2d2df7' : '#e1e1e1f7';
+  modal.style.background = window.theme === 'dark' ? '#111' : '#fff';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 
   let otherVerificationsHTML = '';
