@@ -1825,18 +1825,28 @@ function getMaxAssetVersion(getAllAssetInformationResult, appId = null) {
   };
 }
 
-function getLastVerificationStatusForAppId(getAllAssetInformationResult, appId, platform) {
+// This function is made to mitigate the mess caused
+// by the fact that in the .md files we have 'desktop',
+// but in the assets/verifications we have 'linux', 'windows', 'macos'.
+function isSamePlatform(platform1, platform2) {
+  if (platform1 === 'desktop') {
+    return platform2 === 'linux' || platform2 === 'windows' || platform2 === 'macos';
+  }
+  return platform1 === platform2;
+}
+
+function getLastVerificationStatusForAppId(appId, platform) {
   let verification = null;
   let maxVersion = null;
 
-  const allAssetArrays = [...getAllAssetInformationResult.verifications.values(), ...getAllAssetInformationResult.assets.values()];
+  const allAssetArrays = [...window.allAssetInformation.verifications.values(), ...window.allAssetInformation.assets.values()];
 
   for (const assetArray of allAssetArrays) {
     for (const asset of assetArray) {
       const version = getFirstTagValue(asset, 'version', null);
       const appIdFromTag = getFirstTagValue(asset, 'i');
       const platformFromTag = getFirstTagValue(asset, 'platform');
-      if (version && (appIdFromTag === appId) && (platformFromTag === platform)) {
+      if (version && (appIdFromTag === appId) && isSamePlatform(platform, platformFromTag)) {
         if (!maxVersion || compareVersions(version, maxVersion) > 0) {
           verification = asset;
           maxVersion = version;
