@@ -32,17 +32,21 @@
 
       // Load with cache - this will fire the event IMMEDIATELY with cached data
       // then update in background when fresh data arrives
+      let loadedFromCache = false;
       window.allAssetInformation = await getAllAssetInformation({
         months: 6,
         onCachedDataLoaded: (cachedData) => {
           console.log('🚀 Cached data loaded immediately!', cachedData);
+          loadedFromCache = true;
           window.allAssetInformation = cachedData;
           window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
         }
       });
       
-      // Now fire the event now with fresh data
-      window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      // Now fire the event with fresh data if it wasn't fired before, or if it's the verifiers page
+      if (!loadedFromCache || {% if page.url == "/verifiers/" %}true{% else %}false{% endif %}) {
+        window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      }
       loadDraftVerificationsNotifications();
 
       // Start background sync after page is idle
