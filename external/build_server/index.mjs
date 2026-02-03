@@ -61,12 +61,24 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
-    // First, refresh desktop and hardware apps to get latest versions
-    const refreshResults = await refreshApps(githubToken);
-    appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
-
     // Fetch app info for build server
     const appInfo = await fetchAppInfo();
+    // console.log('appInfo: ', appInfo);
+
+    const androidAppsWithBuildInfo = Object.keys(appInfo.android);
+    const androidAppIds = androidAppsWithBuildInfo.map(id => 'android/' + id);
+
+    // Refresh desktop, hardware and android apps to get latest versions
+    const refreshResults = await refreshApps(githubToken, androidAppIds);
+    appLog.info([
+      'Refreshed apps: ',
+      Object.keys(refreshResults.android).length, 'android,',
+      Object.keys(refreshResults.desktop).length, 'desktop, ',
+      Object.keys(refreshResults.hardware).length, 'hardware, ',
+      refreshResults.total, 'total'
+    ].join(''));
+
+    return;
 
     await connectToNostr(wsBotNostrPrivateKey);
 

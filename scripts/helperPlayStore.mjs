@@ -19,7 +19,7 @@ const headers = ('wsId title altTitle authors users appId appCountry released ' 
                 'issue icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social redirect_from developerName builds features').split(' ');
 
-async function refreshAll (ids, markDefunct) {
+async function refreshAll (ids, markDefunct, dryRun=false) {
   var files;
   if (ids) {
     files = ids.map(it => `${it}.md`);
@@ -28,10 +28,10 @@ async function refreshAll (ids, markDefunct) {
   }
   console.log(`Updating ${files.length} 🤖 files ...`);
   stats.remaining = files.length;
-  files.forEach(file => { refreshFile(file, undefined, markDefunct); });
+  files.forEach(file => { refreshFile(file, undefined, markDefunct, dryRun); });
 }
 
-function refreshFile (fileName, content, markDefunct) {
+function refreshFile (fileName, content, markDefunct, dryRun=false) {
   sem.acquire().then(function ([, release]) {
     if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined };

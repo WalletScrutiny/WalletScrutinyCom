@@ -19,11 +19,15 @@ const __dirname = path.dirname(__filename);
  * @param {string} githubToken - GitHub token for API requests
  * @returns {Promise<Object>} - Object containing apps and their latest versions
  */
-async function runRefreshScript(scriptName, githubToken) {
+async function runRefreshScript(scriptName, githubToken, appIds) {
   return new Promise((resolve, reject) => {
     const scriptPath = path.join(__dirname, '..', '..', 'scripts', `${scriptName}.mjs`);
-    const args = ['-r', '-n', '-g', githubToken]; // -r for report, -n for dry run, -g for github token
-    
+    const args = ['-n']; // -n for dry run
+    if (appIds) {
+      args.push('-a', appIds.join(','));
+    }
+
+    // appLog.info(`  * Args: ${args.join(',')}`);
     appLog.info(`  * Running ${scriptName}...`);
     
     const child = spawn('node', [scriptPath, ...args], {
@@ -36,10 +40,12 @@ async function runRefreshScript(scriptName, githubToken) {
     
     child.stdout.on('data', (data) => {
       stdout += data.toString();
+      appLog.info(`  * stdout: ${stdout}`);
     });
     
     child.stderr.on('data', (data) => {
       stderr += data.toString();
+      appLog.info(`  * stderr: ${stderr}`);
     });
     
     child.on('close', (code) => {
@@ -90,25 +96,31 @@ function parseRefreshOutput(output) {
 /**
  * Run both refresh scripts and return combined results
  * @param {string} githubToken - GitHub token for API requests
- * @returns {Promise<Object>} - Object containing desktop and hardware apps
+ * @returns {Promise<Object>} - Object containing desktop, hardware and android apps
  */
-export async function refreshApps(githubToken) {
+export async function refreshApps(githubToken, appIds) {
   try {
-    appLog.info('Refreshing desktop and hardware wallet versions...');
+    appLog.info('Refreshing desktop, hardware and android wallet versions...');
     
     // Run both scripts in parallel
-    const [desktopApps, hardwareApps] = await Promise.all([
-      runRefreshScript('refreshDesktop', githubToken),
-      runRefreshScript('refreshHardware', githubToken)
+    //const [desktopApps, hardwareApps, androidApps] = await Promise.all([
+    const [androidApps] = await Promise.all([
+      //runRefreshScript('refreshDesktop', githubToken),
+      //runRefreshScript('refreshHardware', githubToken),
+      runRefreshScript('refreshAndroid', githubToken, appIds)
     ]);
-    
+
+    const desktopApps = {};
+    const hardwareApps = {};
+
     const result = {
       desktop: desktopApps,
       hardware: hardwareApps,
-      total: Object.keys(desktopApps).length + Object.keys(hardwareApps).length
+      android: androidApps,
+      total: Object.keys(desktopApps).length + Object.keys(hardwareApps).length + Object.keys(androidApps).length
     };
     
-    appLog.info(`Refresh completed: ${Object.keys(desktopApps).length} desktop apps, ${Object.keys(hardwareApps).length} hardware apps`);
+    appLog.info(`Refresh completed: ${Object.keys(desktopApps).length} desktop apps, ${Object.keys(hardwareApps).length} hardware apps, ${Object.keys(androidApps).length} android apps`);
     
     return result;
     

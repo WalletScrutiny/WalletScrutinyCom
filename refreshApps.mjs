@@ -7,10 +7,10 @@ import yaml from 'js-yaml';
 const defunctsFile = '_data/defunct.yaml';
 process.env.TZ = 'UTC'; // fix timezone issues
 
-async function refresh (markDefunct, apps) {
+async function refresh (markDefunct, apps, appType=['android', 'iphone'], dryRun=false) {
   const today = dateFormat(new Date(), 'yyyy-mm-dd');
-  const fileContents = fs.readFileSync(defunctsFile, 'utf8');
-  const data = yaml.load(fileContents, { schema: yaml.FAILSAFE_SCHEMA });
+  const defunctsFileContents = fs.readFileSync(defunctsFile, 'utf8');
+  const data = yaml.load(defunctsFileContents, { schema: yaml.FAILSAFE_SCHEMA });
   for (const key in data) {
     if (data[key] === null) {
       delete data[key];
@@ -23,16 +23,27 @@ async function refresh (markDefunct, apps) {
   if (!data[today]) {
     yamlStr += `\n${today}:\n`;
   }
-  fs.writeFileSync(defunctsFile, yamlStr, 'utf8');
+  if (!dryRun) {
+    fs.writeFileSync(defunctsFile, yamlStr, 'utf8');
+  }
+
   if (apps) {
     const ids = apps.split(',');
-    const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1]);
-    const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1]);
-    appStore.refreshAll(appStoreIds, markDefunct);
-    playStore.refreshAll(playStoreIds, markDefunct);
+    if (appType.includes('iphone')) {
+      const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1]);
+      appStore.refreshAll(appStoreIds, markDefunct, dryRun);
+    }
+    if (appType.includes('android')) {
+      const playStoreIds = ids.filter(it => it.startsWith('android')).map(it => it.split('/')[1]);
+      playStore.refreshAll(playStoreIds, markDefunct, dryRun);
+    }
   } else {
-    appStore.refreshAll();
-    playStore.refreshAll();
+    if (appType.includes('iphone')) {
+      appStore.refreshAll();
+    }
+    if (appType.includes('android')) {
+      playStore.refreshAll();
+    }
   }
   const updateMillis = 500;
   var msg = '';
