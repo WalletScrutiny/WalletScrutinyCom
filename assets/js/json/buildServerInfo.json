@@ -3,13 +3,15 @@ layout: compress
 ---
 {
   "hardware": {
-    {% for post in site.hardware %}
+    {% assign hardware_with_builds = site.hardware | where_exp: "item", "item.builds" %}
+    {% for post in hardware_with_builds %}
     "{{ post.appId }}": {
       "builds": {{ post.builds | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
   },
   "desktop": {
-    {% for post in site.desktop %}
+    {% assign desktop_with_builds = site.desktop | where_exp: "item", "item.builds" %}
+    {% for post in desktop_with_builds %}
     "{{ post.appId }}": {
       "builds": {{ post.builds | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
