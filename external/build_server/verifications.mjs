@@ -35,18 +35,18 @@ function logQueueInfo() {
 let buildDirForThisVerification = null;
 
 export async function verifyAssetsFromRegistry(verifications, appInfo) {
-  console.log('# verifications: ', verifications.size);
+  appLog.debug(`# verifications: ${verifications.size}`);
   const verificationsWithBuildShFiles = await filterAndroidReproducibleVerificationsWithBuildScripts(verifications);
-  console.log('# verificationsWithBuildShFiles: ', Object.keys(verificationsWithBuildShFiles).length);
+  appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
 
   const appIds = getAppIdsFromVerifications(verificationsWithBuildShFiles);
-  console.log('appIds: ', appIds);
+  appLog.debug(`appIds: ${appIds}`);
 
   const assets = await getAllAssetsForTheseAppIds(appIds);
-  console.log('# assets for appIds with build scripts: ', Object.keys(assets).length);
+  appLog.debug(`# assets for appIds with build scripts: ${Object.keys(assets).length}`);
 
   const assetsWithoutVerification = filterAssetsWithoutVerification(assets, verifications);
-  console.log('# assetsWithoutVerification: ', Object.keys(assetsWithoutVerification).length);
+  appLog.debug(`# assetsWithoutVerification: ${Object.keys(assetsWithoutVerification).length}`);
 
   for (const asset of assetsWithoutVerification) {
     const appId = getFirstTagValue(asset, 'i');
@@ -61,7 +61,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
     let createdAt = 0;
 
-    console.log(`   searching for verification for appId (${appId}) and platform (${platform})...`);
+    appLog.debug(`   searching for verification for appId (${appId}) and platform (${platform})...`);
     for (const verification of verificationsWithBuildShFiles) {
       if (getFirstTagValue(verification.verification, 'i') !== appId) {
         continue;
@@ -72,10 +72,10 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
       if (verification.verification.created_at > createdAt) {
         createdAt = verification.verification.created_at;
-        console.log(`     - new verification found: ${appId} ${version} ${createdAt}`);
+        appLog.debug(`     - new verification found: ${appId} ${version} ${createdAt}`);
 
         const fileHash = getFirstTagValue(asset, 'x');
-        console.log(`     - file hash found: ${fileHash}`);
+        appLog.debug(`     - file hash found: ${fileHash}`);
 
         const verificationBuildPath = path.join('.', `${appId}_${fileHash}_compilation`);
         createCompilationDirectory(verificationBuildPath);
@@ -86,14 +86,14 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
         const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
         const response = await fetch(blossomFileURL);
         if (response.ok) {
-          console.log(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
+          appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
           const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
           const apkPath = path.join(verificationBuildPath, apkFileName);
           const buffer = Buffer.from(await response.arrayBuffer());
           fs.writeFileSync(apkPath, buffer);
-          console.log(`     - saved to ${apkPath}`);
+          appLog.debug(`     - saved to ${apkPath}`);
 
-          console.log(`     - saving script to ${scriptPath}`);
+          appLog.debug(`     - saving script to ${scriptPath}`);
           saveFileFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
           for (const { architecture, type } of buildCombinations) {
@@ -113,7 +113,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
           break;
         } else {
-          console.log(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
+          appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
         }
       }
     }

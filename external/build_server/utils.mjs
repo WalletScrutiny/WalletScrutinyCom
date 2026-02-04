@@ -170,8 +170,8 @@ export async function filterAndroidReproducibleVerificationsWithBuildScripts(ver
     }
   }
 
-  console.log('verificationsCandidates: ', verificationsCandidates.length);
-  console.log('fileAttachmentIds: ', fileAttachmentIds.length);
+  appLog.debug(`verificationsCandidates: ${verificationsCandidates.length}`);
+  appLog.debug(`fileAttachmentIds: ${fileAttachmentIds.length}`);
 
   const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
 
@@ -183,11 +183,11 @@ export async function filterAndroidReproducibleVerificationsWithBuildScripts(ver
     const extension = getFirstTagValue(fileEvent, 'extension');
     const scriptName = fileName + '.' + extension;
     if (scriptName.endsWith('build.sh')) {
-      //console.log('**** ENTRO SCRIPT CON BUILD.SH: ', scriptName);
+      // appLog.debug(`**** ENTRO SCRIPT CON BUILD.SH: ${scriptName}`);
       buildShFileEvents.set(fileEvent.id, fileEvent);
     }
   }
-  console.log('buildShFileEvents: ', buildShFileEvents.size);
+  appLog.debug(`buildShFileEvents: ${buildShFileEvents.size}`);
 
   // We iterate over verificationsCandidates and for each verification,
   // if the verification has a fileAttachmentId that is in buildShFileEvents,
