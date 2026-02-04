@@ -66,6 +66,8 @@ The important parts:
 
 `--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
 
+If a parameter is not used by the script (like `version`, maybe because you're taking it from the apk itself), that's ok, but the script mustn't fail if the parameter is passed.
+
 12. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so he knows what to do
 
 # Results File
