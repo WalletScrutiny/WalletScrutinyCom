@@ -37,14 +37,14 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
+    // Fetch app info for build server
+    const appInfo = await fetchAppInfo();
+
     await connectToNostr(wsBotNostrPrivateKey);
     const verifications = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
-    await verifyAssetsFromRegistry(verifications);
+    await verifyAssetsFromRegistry(verifications, appInfo);
     return;
-
-    // Fetch app info for build server
-    const appInfo = await fetchAppInfo();
 
     // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);

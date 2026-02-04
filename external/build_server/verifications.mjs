@@ -2,14 +2,16 @@ import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import PQueue from 'p-queue';
-import { getAllAssetsForTheseAppIds } from './nostr-utils.mjs';
+import { getNdk, getAllAssetsForTheseAppIds } from './nostr-utils.mjs';
 import {
   filterAndroidReproducibleVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
   filterAssetsWithoutVerification,
   getFirstTagValue,
   saveFileFromEventMakeExecutable,
-  createCompilationDirectory
+  createCompilationDirectory,
+  findFileRecursively,
+  getCombinationsFromAppInfo
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
@@ -32,7 +34,7 @@ function logQueueInfo() {
 
 let buildDirForThisVerification = null;
 
-export async function verifyAssetsFromRegistry(verifications) {
+export async function verifyAssetsFromRegistry(verifications, appInfo) {
   console.log('# verifications: ', verifications.size);
   const verificationsWithBuildShFiles = await filterAndroidReproducibleVerificationsWithBuildScripts(verifications);
   console.log('# verificationsWithBuildShFiles: ', Object.keys(verificationsWithBuildShFiles).length);
@@ -50,6 +52,12 @@ export async function verifyAssetsFromRegistry(verifications) {
     const appId = getFirstTagValue(asset, 'i');
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
+    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+
+    const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
+    if (!buildCombinations) {
+      continue;
+    }
 
     let createdAt = 0;
 
@@ -87,12 +95,22 @@ export async function verifyAssetsFromRegistry(verifications) {
 
           console.log(`     - saving script to ${scriptPath}`);
           saveFileFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
-  
-          const arch = '';
-          const type = '';
-  
-          await addJobToQueue(verificationBuildPath, scriptFileName, version, arch, type, apkFileName);
-  
+
+          for (const { architecture, type } of buildCombinations) {
+            await addJobToQueue({
+              verification,
+              appId,
+              platform,
+              buildDirForThisVerification: verificationBuildPath,
+              scriptWithPath: scriptFileName,
+              newWalletVersion: version,
+              architecture,
+              type,
+              fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
+              apk: apkFileName
+            });
+          }
+
           break;
         } else {
           console.log(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
@@ -143,22 +161,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
       fileEventIdsForSHFiles.push(fileEvent.id);
 
-      const appInfoFromWS = appInfo[legacyPlatform][appId];
-      const buildConfigFromWS = appInfoFromWS.builds;
-
-      let buildCombinations = [];
-
-      if (buildConfigFromWS) {
-        for (const buildConfig of buildConfigFromWS) {
-          const arch = buildConfig.arch || [undefined];
-          const types = buildConfig.types || [undefined];
-          for (const type of types) {
-            buildCombinations.push({ architecture: arch, type: type });
-          }
-        }
-        appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
-      } else {
-        appLog.info(` *** No build combinations found for ${appId}`);
+      const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
+      if (!buildCombinations) {
         continue;
       }
 
@@ -198,7 +202,17 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
         saveFileFromEventMakeExecutable(fileEvent, scriptWithPath);
 
-        await addJobToQueue(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type);
+        await addJobToQueue({
+          verification,
+          appId,
+          platform,
+          buildDirForThisVerification,
+          scriptWithPath,
+          newWalletVersion,
+          architecture,
+          type,
+          fileEventIdsForSHFiles
+        });
       }
     }
 
@@ -214,7 +228,18 @@ export async function processNewReleaseVerification(verification, newWalletVersi
   }
 }
 
-export async function addJobToQueue(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, apk = null) {
+export async function addJobToQueue({
+  verification,
+  appId,
+  platform,
+  buildDirForThisVerification,
+  scriptWithPath,
+  newWalletVersion,
+  architecture,
+  type,
+  fileEventIdsForSHFiles,
+  apk = null
+}) {
   appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
   const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, apk));
@@ -230,7 +255,6 @@ export async function addJobToQueue(buildDirForThisVerification, scriptWithPath,
       newWalletVersion,
       appId,
       platform,
-      ndkInstance,
       architecture,
       type,
       fileEventIdsForSHFiles
@@ -361,8 +385,13 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, ndkInstance, architecture, type, fileEventIdsForSHFiles) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
+
+  const ndkInstance = getNdk();
+  if (!ndkInstance) {
+    throw new Error('NDK instance is not initialized');
+  }
 
   const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
   if (!comparisonResults) {

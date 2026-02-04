@@ -230,3 +230,27 @@ export function createCompilationDirectory(buildDir) {
   fs.rmSync(buildDir, { recursive: true, force: true });
   fs.mkdirSync(buildDir, { recursive: true });
 }
+
+export function getCombinationsFromAppInfo(appInfo, platform, appId) {
+  let buildCombinations = [];
+
+  const appInfoFromWS = appInfo[platform][appId];
+  const buildConfigFromWS = appInfoFromWS.builds;
+
+  if (buildConfigFromWS) {
+    for (const buildConfig of buildConfigFromWS) {
+      const arch = buildConfig.arch || [undefined];
+      const types = buildConfig.types || [undefined];
+      for (const type of types) {
+        buildCombinations.push({ architecture: arch, type: type });
+      }
+    }
+    appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
+
+    return buildCombinations;
+
+  } else {
+    appLog.info(` *** No build combinations found for ${appId}`);
+    return null;
+  }
+}
