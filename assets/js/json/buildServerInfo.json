@@ -15,5 +15,12 @@ layout: compress
     "{{ post.appId }}": {
       "builds": {{ post.builds | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
+  },
+  "android": {
+    {% assign android_with_builds = site.android | where_exp: "item", "item.builds" %}
+    {% for post in android_with_builds %}
+    "{{ post.appId }}": {
+      "builds": {{ post.builds | jsonify }}
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
   }
 }
