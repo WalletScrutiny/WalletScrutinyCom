@@ -1,6 +1,7 @@
 import NDK, { NDKPrivateKeySigner, NDKEvent } from '@nostr-dev-kit/ndk';
 import {
   verificationKind,
+  assetRegistrationKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
   wsBotPublicKey,
@@ -146,18 +147,39 @@ export async function getAllVerifications(authorPubkeys = []) {
   return verificationsMap;
 }
 
-export function getFileAttachmentIDsForVerificationEvent(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
+export async function getAllAssetsForTheseAppIds(appIds) {
+  if (!appIds || appIds.size === 0) {
+    return [];
+  }
+  appLog.info(`Getting assets for ${appIds.length} app ids...`);
+
+  const events = await ndk.fetchEvents({
+    kinds: [assetRegistrationKind],
+    since: verificationEventsSinceTS,
+    '#i': appIds,
+  });
+
+  const assets = Array.from(events).filter(event =>
+    getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
+  );
+  appLog.info(`   Found ${assets.length} assets`);
+
+  return assets;
 }
 
 export async function getEventsFromEventIds(eventIds) {
+  const MAX_BATCH_SIZE = 50;
   if (!eventIds || eventIds.length === 0) {
     return [];
   }
 
-  return await ndk.fetchEvents({
-    ids: eventIds
-  });
+  const events = [];
+  for (let i = 0; i < eventIds.length; i += MAX_BATCH_SIZE) {
+    const batch = eventIds.slice(i, i + MAX_BATCH_SIZE);
+    const batchEvents = await ndk.fetchEvents({ ids: batch });
+    events.push(...Array.from(batchEvents));
+  }
+  return events;
 }
 
 // Simplified version of the createVerification function from verifications_utils.mjs
