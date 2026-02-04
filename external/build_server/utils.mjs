@@ -235,7 +235,7 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
   let buildCombinations = [];
 
   const appInfoFromWS = appInfo[platform][appId];
-  const buildConfigFromWS = appInfoFromWS.builds;
+  const buildConfigFromWS = appInfoFromWS?.builds || null;
 
   if (buildConfigFromWS) {
     for (const buildConfig of buildConfigFromWS) {
