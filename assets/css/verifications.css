@@ -497,6 +497,23 @@ input, textarea, select {
   display: none;
 }
 
+/* Mobile: hide button text, show icons only */
+@media screen and (max-width: 480px) {
+  .btn-text {
+    display: none !important;
+  }
+  #verificationContent > p:first-child .btn {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  #verificationContent > p:first-child .btn-info i,
+  #verificationContent > p:first-child .btn-info svg,
+  #verificationContent > p:first-child .btn-info img {
+    margin-right: 0 !important;
+  }
+}
+
 /* Issue Tracker Div */
 .issue-tracker-container {
   margin-bottom: 15px;

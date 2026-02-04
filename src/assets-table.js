@@ -1120,13 +1120,13 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML = '<p>';
   content.innerHTML += isMyDraft ? `<span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.` : '';
   content.innerHTML += `<button style="margin: 0; padding: 0; border: 0; background: transparent; ${isMyDraft ? 'margin-left: 10px;' : ''}" id="shareButtonContainer"></button>`;
-  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon} ${title}</button>`;
+  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.location.href=\'/new_verification/?${isMyDraft ? 'draftVerificationEventId' : 'verificationEventId'}=${verification.id}&action=edit${basedOnParams}\'" title="${title}">${icon}<span class="btn-text"> ${title}</span></button>`;
   if (!isDraft && !isMine) {
-    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
+    content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍👎<span class="btn-text"> Endorse this verification</span></button>`;
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
   content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
-    <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
+    <i class="fab fa-bitcoin" style="font-size: 23px;"></i><span class="btn-text"> Zap this verification</span>
   </button>`;
   content.innerHTML += '</p>';
 

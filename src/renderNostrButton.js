@@ -24,13 +24,14 @@ import { verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
       #nostrButtonContainer .dropdown-content2 button:hover { background-color: #0056b3; border-radius: 4px; }
       #nostrBtn { margin-bottom: 0; }
       #nostrBtn img { height: 18px; }
+      #nostrButtonContainer .dropdown .btn-text { display: inline; font-weight: inherit; font-size: inherit; line-height: inherit; padding: 0; transform: none; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; }
       #nostrButtonContainer .dropdown-content2.show { display: block; }
     `;
     document.head.appendChild(style);
 
     let html = `
       <div class="dropdown">
-        <button id="nostrBtn" class="btn btn-info"><img src="/images/nostr_logo.svg" alt="Nostr Logo"/>Nostr</button>
+        <button id="nostrBtn" class="btn btn-info"><img src="/images/nostr_logo.svg" alt="Nostr Logo"/><span class="btn-text">Nostr</span></button>
         <div id="nostrDropdown" class="dropdown-content2">
           <button id="openNjumpBtn" type="button">Open in Njump.me</button>
           <button id="copyEmbedBtn" type="button">Copy Nostr embed code</button>
