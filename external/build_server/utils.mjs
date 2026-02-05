@@ -183,7 +183,6 @@ export async function filterAndroidReproducibleVerificationsWithBuildScripts(ver
     const extension = getFirstTagValue(fileEvent, 'extension');
     const scriptName = fileName + '.' + extension;
     if (scriptName.endsWith('build.sh')) {
-      // appLog.debug(`**** ENTRO SCRIPT CON BUILD.SH: ${scriptName}`);
       buildShFileEvents.set(fileEvent.id, fileEvent);
     }
   }
@@ -220,7 +219,7 @@ export function filterAssetsWithoutVerification(assets, verifications) {
   return assetsWithoutVerification;
 }
 
-export function saveFileFromEventMakeExecutable(fileEvent, filePath) {
+export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
   const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
   fs.writeFileSync(filePath, fileContent, 'utf8');
   fs.chmodSync(filePath, 0o755);
@@ -234,7 +233,7 @@ export function createCompilationDirectory(buildDir) {
 export function getCombinationsFromAppInfo(appInfo, platform, appId) {
   let buildCombinations = [];
 
-  const appInfoFromWS = appInfo[platform][appId];
+  const appInfoFromWS = appInfo?.[platform]?.[appId] || null;
   const buildConfigFromWS = appInfoFromWS?.builds || null;
 
   if (buildConfigFromWS) {

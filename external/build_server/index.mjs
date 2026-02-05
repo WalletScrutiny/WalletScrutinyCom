@@ -31,7 +31,7 @@ import {
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const BUILD_DIR_PREFIX = isDebugEnv() ? path.join(__dirname, 'build_server_build_dir') : BUILD_DIR;
+export const BUILD_DIR_PREFIX = isDebugEnv() ? path.join(__dirname, 'build_server_build_dir') : BUILD_DIR;
 
 async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
@@ -44,13 +44,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     const verifications = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
     await verifyAssetsFromRegistry(verifications, appInfo);
-    return;
 
     // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);
     appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
-
-    return;
 
     const reproducibleVerifications = [];
     const wsBotVerifications = [];

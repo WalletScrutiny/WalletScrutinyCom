@@ -2,20 +2,22 @@ import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import PQueue from 'p-queue';
-import { getNdk, getAllAssetsForTheseAppIds } from './nostr-utils.mjs';
+import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification } from './nostr-utils.mjs';
 import {
   filterAndroidReproducibleVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
   filterAssetsWithoutVerification,
   getFirstTagValue,
-  saveFileFromEventMakeExecutable,
+  saveScriptFromEventMakeExecutable,
   createCompilationDirectory,
   findFileRecursively,
-  getCombinationsFromAppInfo
+  getCombinationsFromAppInfo,
+  getFileAttachmentIDsForVerificationEvent
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY } from './config/config.mjs';
+import { BUILD_DIR_PREFIX } from './index.mjs';
 
 const queue = new PQueue({
   concurrency: QUEUE_CONCURRENCY,
@@ -72,48 +74,46 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
       if (verification.verification.created_at > createdAt) {
         createdAt = verification.verification.created_at;
-        appLog.debug(`     - new verification found: ${appId} ${version} ${createdAt}`);
+        const verificationVersion = getFirstTagValue(verification.verification, 'version');
+        appLog.debug(`     - new verification found: ${appId} ${verificationVersion} ${createdAt}`);
 
         const fileHash = getFirstTagValue(asset, 'x');
         appLog.debug(`     - file hash found: ${fileHash}`);
 
-        const verificationBuildPath = path.join('.', `${appId}_${fileHash}_compilation`);
-        createCompilationDirectory(verificationBuildPath);
+        for (const { architecture, type } of buildCombinations) {
+          const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
+          const response = await fetch(blossomFileURL);
+          if (response.ok) {
+            const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+            createCompilationDirectory(buildDirForThisVerification);
 
-        const scriptFileName = `${appId}_${fileHash}_script.sh`;
-        const scriptPath = path.join(verificationBuildPath, scriptFileName);
+            appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
+            const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
+            const apkPath = path.join(buildDirForThisVerification, apkFileName);
+            const buffer = Buffer.from(await response.arrayBuffer());
+            fs.writeFileSync(apkPath, buffer);
+            appLog.debug(`     - saved to ${apkPath}`);
 
-        const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-        const response = await fetch(blossomFileURL);
-        if (response.ok) {
-          appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
-          const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-          const apkPath = path.join(verificationBuildPath, apkFileName);
-          const buffer = Buffer.from(await response.arrayBuffer());
-          fs.writeFileSync(apkPath, buffer);
-          appLog.debug(`     - saved to ${apkPath}`);
+            const scriptFileName = `${appId}_${fileHash}_script.sh`;
+            const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+            appLog.debug(`     - saving script to ${scriptPath}`);
+            saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
-          appLog.debug(`     - saving script to ${scriptPath}`);
-          saveFileFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
-
-          for (const { architecture, type } of buildCombinations) {
             await addJobToQueue({
               verification,
               appId,
               platform,
-              buildDirForThisVerification: verificationBuildPath,
-              scriptWithPath: scriptFileName,
+              buildDirForThisVerification,
+              scriptWithPath: scriptPath,
               newWalletVersion: version,
               architecture,
               type,
               fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-              apk: apkFileName
+              apk: apkPath
             });
+          } else {
+            appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
           }
-
-          break;
-        } else {
-          appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
         }
       }
     }
@@ -200,7 +200,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
         createCompilationDirectory(buildDirForThisVerification);
 
-        saveFileFromEventMakeExecutable(fileEvent, scriptWithPath);
+        saveScriptFromEventMakeExecutable(fileEvent, scriptWithPath);
 
         await addJobToQueue({
           verification,
@@ -358,7 +358,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ./${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
+    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
     exec(asciinemaCommand, {
       env: {
