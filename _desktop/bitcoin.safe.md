@@ -22,7 +22,11 @@ twitter: BitcoinSafeOrg
 social:
 - https://www.youtube.com/@BitcoinSafeOrg
 - https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
-builds: 
+builds:
+- arch: x86_64-linux
+  types: [appimage, deb]
+- arch: x86_64-windows
+  types: [portable, setup]
 features:
 - Backup & Sync: Label and Coin category synchronization
 - Nostr Chat: to collaborative sign Multisig wallet across different computers, hardware wallets, and secure encrypted communication via Nostr durig the process.
