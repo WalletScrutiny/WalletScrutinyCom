@@ -244,7 +244,7 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
         buildCombinations.push({ architecture: arch, type: type });
       }
     }
-    appLog.info(` *** Build combinations (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
+    appLog.info(` *** Build combinations for ${appId} (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
 
     return buildCombinations;
 
