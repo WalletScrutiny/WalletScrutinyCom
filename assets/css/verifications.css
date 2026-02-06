@@ -61,6 +61,31 @@ body.dark #verificationContent pre {
   background-color: transparent;
 }
 
+/* Hash display - truncated with expand on hover/tap */
+.hash {
+  font-family: monospace;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.hash-start,
+.hash-end {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #FDE992;
+}
+.hash-full {
+  display: none;
+}
+.hash-preview {
+  display: inline;
+}
+.hash.expanded .hash-full {
+  display: inline;
+}
+.hash.expanded .hash-preview {
+  display: none;
+}
+
 .markdown-content img {
   max-width: 100%;
 }

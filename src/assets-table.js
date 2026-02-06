@@ -13,6 +13,79 @@ let attachments = [];
 let endorsements = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible (from the global table and from each verification)
 
+// Transform hashes in content to truncated display with expand on hover/tap
+function transformHashes(container) {
+  // Match SHA-256 (64), SHA-1 (40), MD5 (32) hex strings
+  const hashRegex = /\b([a-f0-9]{64}|[a-f0-9]{40}|[a-f0-9]{32})\b/gi;
+
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null, false);
+  const textNodes = [];
+
+  while (walker.nextNode()) {
+    if (hashRegex.test(walker.currentNode.textContent)) {
+      textNodes.push(walker.currentNode);
+    }
+    hashRegex.lastIndex = 0; // Reset regex state
+  }
+
+  textNodes.forEach(node => {
+    const text = node.textContent;
+    const fragment = document.createDocumentFragment();
+    let lastIndex = 0;
+    let match;
+
+    hashRegex.lastIndex = 0;
+    while ((match = hashRegex.exec(text)) !== null) {
+      // Add text before the hash
+      if (match.index > lastIndex) {
+        fragment.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+
+      const hash = match[0];
+      const span = document.createElement('span');
+      span.className = 'hash';
+      span.tabIndex = 0;
+
+      // Preview: first 6 + ... + last 6
+      const preview = document.createElement('span');
+      preview.className = 'hash-preview';
+
+      const start = document.createElement('span');
+      start.className = 'hash-start';
+      start.textContent = hash.slice(0, 6);
+
+      const end = document.createElement('span');
+      end.className = 'hash-end';
+      end.textContent = hash.slice(-6);
+
+      preview.appendChild(start);
+      preview.appendChild(document.createTextNode('...'));
+      preview.appendChild(end);
+
+      // Full hash (hidden by default)
+      const full = document.createElement('span');
+      full.className = 'hash-full';
+      full.textContent = hash;
+
+      span.appendChild(preview);
+      span.appendChild(full);
+
+      // Toggle expanded on click for mobile
+      span.addEventListener('click', () => span.classList.toggle('expanded'));
+
+      fragment.appendChild(span);
+      lastIndex = match.index + hash.length;
+    }
+
+    // Add remaining text
+    if (lastIndex < text.length) {
+      fragment.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+
+    node.parentNode.replaceChild(fragment, node);
+  });
+}
+
 // Filter table rows
 async function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
@@ -1315,6 +1388,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();
   }
+
+  // Transform hashes to truncated display
+  transformHashes(document.getElementById('verificationContent'));
 
   modal.style.display = 'block';
 
