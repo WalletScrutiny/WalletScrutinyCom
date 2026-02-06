@@ -45,6 +45,22 @@ body.dark .markdown-content code {
   overflow-x: unset;
 }
 
+/* Code blocks in verification modal */
+#verificationContent pre {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  padding: 12px;
+  overflow-x: auto;
+}
+body.dark #verificationContent pre {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+#verificationContent pre code {
+  background-color: transparent;
+}
+
 .markdown-content img {
   max-width: 100%;
 }
