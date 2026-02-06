@@ -262,8 +262,8 @@ table .copy-button {
 @media screen and (max-width: 480px) {
   #closeModal {
     position: absolute;
-    top: 14px;
-    right: 12px;
+    top: 7px;
+    right: 15px;
   }
 }
 
@@ -502,15 +502,46 @@ input, textarea, select {
   .btn-text {
     display: none !important;
   }
-  #verificationContent > p:first-child .btn {
+  #nostrBtn {
+    font-size: 0;
+  }
+  #nostrBtn img {
+    height: 18px;
+    width: auto;
+  }
+
+  /* Uniform button sizing */
+  #verificationContent > .btn-info,
+  #nostrBtn {
+    width: 50px;
+    height: 40px;
+    padding: 0 !important;
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    vertical-align: text-top;
   }
-  #verificationContent > p:first-child .btn-info i,
-  #verificationContent > p:first-child .btn-info svg,
-  #verificationContent > p:first-child .btn-info img {
+  #verificationContent > .btn-info i,
+  #verificationContent > .btn-info svg,
+  #verificationContent > .btn-info img,
+  #nostrBtn img {
     margin-right: 0 !important;
+  }
+  #nostrButtonContainer {
+    display: inline-flex !important;
+    vertical-align: text-top;
+  }
+  #nostrButtonContainer .dropdown {
+    display: flex !important;
+    align-items: center;
+  }
+  /* Remove left margin on first button */
+  #verificationContent > .btn-info {
+    margin-left: 0 !important;
+  }
+  #verificationContent > .btn-info ~ .btn-info {
+    margin-left: 10px !important;
   }
 }
 
