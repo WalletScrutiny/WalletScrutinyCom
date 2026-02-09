@@ -11,7 +11,6 @@ android:
     - nowallet
     - nobtc
     - nosendreceive
-    - ecash
     - custodial
     - nosource
     - obfuscated
@@ -55,7 +54,6 @@ iphone:
     - nowallet
     - nobtc
     - nosendreceive
-    - ecash
     - custodial
     - nosource
     - obfuscated
@@ -169,7 +167,6 @@ desktop:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -193,7 +190,6 @@ linux:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -218,7 +214,6 @@ windows:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable
@@ -243,7 +238,6 @@ macos:
     - nowallet
     - nobtc
     - prefilled
-    - ecash
     - nosource
     - obfuscated
     - sourceavailable

@@ -1,0 +1,23 @@
+{% if page.features contains 'cashu' or page.features contains 'fedimint' %}
+<div class="ecash-warning" style="background: #dc3545; color: white; padding: 1.5em; margin: 1.5em 0; border-radius: 8px; border-left: 6px solid #721c24;">
+  <h3 style="margin-top: 0; color: white;">⚠️ Chaumian eCash — Custodial by Design</h3>
+  
+  {% if page.features contains 'ecash-mint' %}
+  <p><strong>This is mint/server software.</strong> Running it means YOU control the 
+  backing Bitcoin. If others deposit funds with your mint, they trust you completely — 
+  you could take their money at any time.</p>
+  
+  {% else %}
+  <p><strong>Your funds are held by a mint operator.</strong> Unless you personally 
+  run the mint this wallet connects to, you are completely at the mercy of whoever 
+  does. The mint operator can steal all deposited funds at any time with no recourse.</p>
+  
+  <p style="margin-bottom: 0;"><strong>Only use this wallet if:</strong></p>
+  <ul style="margin-top: 0.5em; margin-bottom: 0;">
+    <li>You run your own mint, <em>or</em></li>
+    <li>You personally know and trust the mint operator ("Uncle Jim"), <em>or</em></li>
+    <li>You accept the risk of total loss</li>
+  </ul>
+  {% endif %}
+</div>
+{% endif %}
