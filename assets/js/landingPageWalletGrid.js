@@ -101,6 +101,9 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
         ${wallet.meta && wallet.meta !== "ok"
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : ""}
+        ${wallet.ecash
+          ? `<span data-text="eCash" class="stamp stamp-ecash" style="background:#dc3545;color:white;" title="⚠️ Custodial unless you run your own mint" alt=""></span>`
+          : ""}
         </div>
         ${wallet.score
           ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
