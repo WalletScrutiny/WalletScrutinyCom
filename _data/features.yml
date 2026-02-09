@@ -477,7 +477,3 @@ ecash-mint:
     * **Infrastructure burden** — requires reliable hosting, backups, security.
 
     * **Your users trust you completely** — you can steal their funds at any time.
-  alert: >
-    <strong>This is mint software.</strong> Running it means YOU control the
-    backing Bitcoin. If others deposit funds, they trust you completely — you
-    could take their money at any time.
