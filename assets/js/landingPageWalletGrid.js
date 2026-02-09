@@ -101,8 +101,8 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
         ${wallet.meta && wallet.meta !== "ok"
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : ""}
-        ${wallet.ecash
-          ? `<span data-text="eCash" class="stamp stamp-ecash" style="background:#dc3545;color:white;" title="⚠️ Custodial unless you run your own mint" alt=""></span>`
+        ${wallet.alertFeatures && wallet.alertFeatures.length > 0
+          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" style="background:#dc3545;color:white;" title="⚠️ This feature has custody implications" alt=""></span>`).join('')
           : ""}
         </div>
         ${wallet.score
