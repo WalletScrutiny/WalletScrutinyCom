@@ -405,32 +405,59 @@ cameraFunction:
 cashu:
   short: Cashu eCash
   long: >
-    Cashu is an Chaumian eCash protocol that has excellent privacy at the expense of a custodial setup.
-    Products that support Cashu eCash can connect to Cashu mints and typically send and receive via the lightning network using LN nodes connected to the same mint.
+    Cashu is a Chaumian eCash protocol that provides excellent privacy through
+    blind signatures. Products supporting Cashu connect to Cashu mints and
+    typically transact via Lightning Network nodes connected to those mints.
 
     <a href='https://cashu.space/'>Learn more about Cashu</a>.
   benefit: >
-    * **Enhanced privacy** as the mint cannot track flows of funds even of users of the same mint.
+    * **Enhanced privacy** — the mint cannot track flows of funds between users.
 
-    * **Lower cost** as the mint can keep the on-chain fees to a minimum, passing on the savings to the users.
+    * **Lower cost** — mints batch on-chain operations, reducing fees.
 
-    * **User-friendly** as users don't need to care about lightning network channel management or on-chain fees.
+    * **User-friendly** — no Lightning channel management required.
   drawback: >
-    eCash is fundamentally custodial. If the custodian disappears with the money or gets hacked, all the users of that mint lose their funds.
+    **⚠️ CUSTODIAL WARNING:** Unless you run your own mint, you are completely
+    at the mercy of the mint operator. They can steal all funds at any time.
+    There is no recourse. Only use mints operated by people you personally
+    know and trust ("Uncle Jim"), or run your own mint.
 fedimint:
   short: Fedimint eCash
   long: >
-    Fedimint is an Chaumian eCash protocol that has excellent privacy at the expense of a custodial setup.
-    Products that support Fedimint eCash can connect to Fedimint mints and typically send and receive via the lightning network using LN nodes connected to the same mint.
+    Fedimint is a Chaumian eCash protocol using federated custody. Multiple
+    guardians must collude to steal funds, reducing single-point-of-failure risk.
+    Products supporting Fedimint connect to federation mints and typically
+    transact via Lightning.
 
     <a href='https://fedimint.org/'>Learn more about Fedimint</a>.
   benefit: >
-    * **Enhanced privacy** as the mint cannot track flows of funds even of users of the same mint.
+    * **Enhanced privacy** — the federation cannot track flows between users.
 
-    * **Lower cost** as the mint can keep the on-chain fees to a minimum, passing on the savings to the users.
+    * **Federated custody** — multiple guardians required; no single operator can steal.
 
-    * **User-friendly** as users don't need to care about lightning network channel management or on-chain fees.
-    
-    * **Federated:** In Fedimint, the custodians can be multiple, where a single mint operator can never steal funds on their own.
+    * **Lower cost** — federations batch on-chain operations.
+
+    * **User-friendly** — no Lightning channel management required.
   drawback: >
-    eCash is fundamentally custodial. If the custodian disappears with the money or gets hacked, all the users of that mint lose their funds.
+    **⚠️ CUSTODIAL WARNING:** Unless you are a guardian of the federation or
+    personally know and trust the guardians, you are at the mercy of the
+    federation. A quorum of guardians colluding can steal all funds. Only use
+    federations where you know the operators personally.
+ecash-mint:
+  short: eCash Mint Software
+  long: >
+    This product allows running your own Chaumian eCash mint. As the mint
+    operator, YOU control the underlying Bitcoin/Lightning funds. This is
+    self-custodial for you, but your users trust you completely.
+  benefit: >
+    * **Self-custody** of the backing Bitcoin funds.
+
+    * **Serve your community** — provide privacy-preserving payments to family/friends.
+
+    * **"Uncle Jim" model** — be the trusted custodian for people who know you.
+  drawback: >
+    * **You are responsible** for others' funds if you accept deposits.
+
+    * **Infrastructure burden** — requires reliable hosting, backups, security.
+
+    * **Your users trust you completely** — you can steal their funds at any time.

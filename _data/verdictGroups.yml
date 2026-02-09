@@ -14,12 +14,11 @@
   comment: Although some code was provided, we could not verify that the binary provided was generated from it.
 - key: custodials
   verdicts:
-  - ecash
   - custodial
   title: User only gets an IOU.
   short: Can Send & receive
   abstract: Key custody
-  comment: The provider might or might not hold BTC on behalf of the user.
+  comment: The provider holds BTC on behalf of the user.
 - key: nonTransferable
   verdicts:
   - nosendreceive

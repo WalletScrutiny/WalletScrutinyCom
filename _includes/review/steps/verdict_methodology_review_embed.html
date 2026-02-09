@@ -1,13 +1,13 @@
 <p class="response pass">
-  The answer is "{% if include.verdict == 'ecash' %}no{% else %}yes{% endif %}".<br>
-  If the answer were "{% if include.verdict == 'ecash' %}yes{% else %}no{% endif %}", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:<br>
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:<br>
 </p>
 <p class="response fail">
-  The answer is "{% if include.verdict == 'ecash' %}yes{% else %}no{% endif %}". We marked it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".
+  The answer is "no". We marked it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>".
 </p>
 <p class="response untested">
   We did not ask this question because we failed at a previous question.<br>
-  If the answer were "{% if include.verdict == 'ecash' %}yes{% else %}no{% endif %}", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:
+  If the answer were "no", we would mark it as "<strong>{{ site.data.verdicts[include.verdict].title }}</strong>" and the following would apply:
 </p>
 
 {{ site.data.verdicts[include.verdict].details | markdownify }}
