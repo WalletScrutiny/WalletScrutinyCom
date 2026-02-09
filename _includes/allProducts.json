@@ -1,5 +1,8 @@
 {
   "verdicts": {{ site.data.verdicts | jsonify }},
+  "featureAlerts": {
+    {% for f in site.data.features %}{% if f[1].alert %}"{{ f[0] }}": {{ f[1].short | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+  },
   "iphone": {
     "category": "App Store",
     "apps": [ 
@@ -14,7 +17,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
-        "ecash": {% if post.features contains 'cashu' or post.features contains 'fedimint' %}true{% else %}false{% endif %}
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -68,7 +71,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
-        "ecash": {% if post.features contains 'cashu' or post.features contains 'fedimint' %}true{% else %}false{% endif %}
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -86,7 +89,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
-        "ecash": {% if post.features contains 'cashu' or post.features contains 'fedimint' %}true{% else %}false{% endif %}
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]

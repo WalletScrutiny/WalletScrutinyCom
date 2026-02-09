@@ -357,6 +357,12 @@ liquid:
       and the ecosystem is smaller than Bitcoin's main network, potentially limiting its utility for some users.
     
     * **Fallback custody:** Bitcoins held by the Liquid federation need to be rotated on a regular schedule. If the federation fails to do so, they can also be spent by Blockstream alone.
+  alert: >
+    <strong>Liquid Bitcoin is NOT Bitcoin.</strong> L-BTC is held by a federation
+    of companies. If a quorum of federation members collude or are compelled, they
+    can seize all L-BTC. If Blockstream alone fails to rotate keys on schedule,
+    they gain unilateral control. Only use Liquid for amounts you'd trust to a
+    corporate consortium.
 fingerprintAuthentication:
   short: Fingerprint Authentication
   long: >
@@ -421,6 +427,11 @@ cashu:
     at the mercy of the mint operator. They can steal all funds at any time.
     There is no recourse. Only use mints operated by people you personally
     know and trust ("Uncle Jim"), or run your own mint.
+  alert: >
+    <strong>Cashu tokens are IOUs.</strong> Your funds are held by a mint operator.
+    Unless you run your own mint, you are completely at their mercy — they can
+    steal everything at any time with no recourse. Only use mints operated by
+    people you personally know and trust.
 fedimint:
   short: Fedimint eCash
   long: >
@@ -443,6 +454,11 @@ fedimint:
     personally know and trust the guardians, you are at the mercy of the
     federation. A quorum of guardians colluding can steal all funds. Only use
     federations where you know the operators personally.
+  alert: >
+    <strong>Fedimint tokens are IOUs.</strong> Your funds are held by a federation
+    of guardians. Unless you are a guardian or personally know and trust them,
+    a colluding quorum can steal everything. Only use federations operated by
+    people you know.
 ecash-mint:
   short: eCash Mint Software
   long: >
@@ -461,3 +477,7 @@ ecash-mint:
     * **Infrastructure burden** — requires reliable hosting, backups, security.
 
     * **Your users trust you completely** — you can steal their funds at any time.
+  alert: >
+    <strong>This is mint software.</strong> Running it means YOU control the
+    backing Bitcoin. If others deposit funds, they trust you completely — you
+    could take their money at any time.

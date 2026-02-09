@@ -14,4 +14,4 @@
   include verdictBadge.html verdict=w.verdict type="short"
   %}{%if w.meta != "ok" %}{%
   include verdictBadge.html verdict=w.meta type="short"
-  %}{% endif %}{% endif %}{% if w.features contains 'cashu' or w.features contains 'fedimint' %}<span class="ecash-badge" title="⚠️ eCash: Custodial unless you run your own mint" style="background:#dc3545;color:white;font-size:0.7em;padding:1px 5px;border-radius:3px;margin-left:4px;">eCash</span>{% endif %}</span> 
+  %}{% endif %}{% endif %}{% for feat in w.features %}{% assign f = site.data.features[feat] %}{% if f.alert %}<span class="alert-feature-badge" title="⚠️ {{ f.short }}: Has custody implications" style="background:#dc3545;color:white;font-size:0.7em;padding:1px 5px;border-radius:3px;margin-left:4px;">{{ f.short }}</span>{% endif %}{% endfor %}</span> 
