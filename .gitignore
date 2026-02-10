@@ -12,7 +12,9 @@ node_modules/
 vendor/
 images/social/
 _data/git.yml
+_data/precomputed.json
 dist/
 backup/
 _includes/scripts.html
-external/build_server/build_server_build_dir/
+_includes/allProducts-precomputed.json
+assets/js/json/wallets-precomputed.json

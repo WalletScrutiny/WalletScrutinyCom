@@ -1,31 +1,23 @@
-{% assign html = '' %}
-{% if include.wsId %}
-  {% for folders in site.data.platformMeta %}
-    {% assign folder = folders[0] %}
-    {% if folder != include.platform %}
-      {% assign wallet = site[folder] | find: "wsId", include.wsId %}
-      {% if wallet %}
-        {% capture htmlInner %}
-          <div class="also-for">
-            <a href="/{{folder}}/{{wallet.appId}}">
-              <img class="app_logo {{folder}}"
-              src="/images/wIcons/{{folder}}/tiny/{{wallet.icon}}"
-              alt="Wallet Logo">
-              {% include iconClass.html platform=folder store='true' %}
-              {% include folderToName.html folder=folder store='true' %}
-              <span>{{ wallet.altTitle | default: wallet.title | escape }}</span>
-              <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
-              </a>
-          </div>
-        {% endcapture %}
-        {% assign html = html | append: htmlInner %}
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
-{% if html.size > 0 %}
+{%- comment -%}
+SeeAlso: Show links to same wallet on other platforms.
+Uses precomputed.json for O(1) lookup instead of O(n) collection search.
+{%- endcomment -%}
+{%- assign key = include.platform | append: "/" | append: page.appId -%}
+{%- assign seeAlsoData = site.data.precomputed.seeAlso[key] -%}
+{%- if seeAlsoData -%}
 <div class="see-also-container">
-{{html}}
+{%- for item in seeAlsoData -%}
+  <div class="also-for">
+    <a href="/{{ item.platform }}/{{ item.appId }}">
+      <img class="app_logo {{ item.platform }}"
+           src="/images/wIcons/{{ item.platform }}/tiny/{{ item.icon }}"
+           alt="Wallet Logo">
+      {% include iconClass.html platform=item.platform store='true' %}
+      {% include folderToName.html folder=item.platform store='true' %}
+      <span>{{ item.title | escape }}</span>
+      <span><i class="{{iconClass}}"></i>&nbsp;{{name}}</span>
+    </a>
+  </div>
+{%- endfor -%}
 </div>
-{% endif %}
+{%- endif -%}
