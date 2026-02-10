@@ -147,6 +147,9 @@
   font-weight: bold;
   border-radius: 5px;
   padding: 2px 6px;
+  &::after {
+    color: white !important;
+  }
 }
 
 .alert-feature-badge {
