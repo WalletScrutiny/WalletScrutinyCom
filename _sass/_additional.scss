@@ -139,13 +139,14 @@
       display: none;
     }
   }
-  &.stamp-alert-feature {
-    background: #bd0000;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 2px 6px;
-  }
+}
+
+.stamp-alert-feature {
+  background: #bd0000;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px 6px;
 }
 
 .alert-feature-badge {
