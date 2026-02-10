@@ -1,7 +1,7 @@
 # eCash Verdict Analysis for WalletScrutiny
 
-**Date:** 2026-02-09  
-**Author:** Heisenberg  
+**Date:** 2026-02-09
+**Author:** Heisenberg
 **Status:** Draft for review
 
 ---
@@ -96,14 +96,14 @@ ecash verdict → Analysis stops → No build verification
 
 ```yaml
 # Cashu.me - a client
-verdict: sourceavailable  # or reproducible if verified!
+verdict: sourceavailable
 features:
   - cashu
   - ln
 ```
 
 The template shows:
-- ✅ Source available / Reproducible
+- ✅ Source available
 - ⚠️ **eCash Warning:** This wallet connects to Cashu mints. Your funds are held by the mint operator...
 
 **Benefit:** Users get BOTH pieces of information:

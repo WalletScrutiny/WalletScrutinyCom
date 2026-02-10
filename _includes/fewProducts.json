@@ -17,7 +17,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -35,7 +36,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -53,7 +55,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -73,7 +76,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -91,7 +95,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
