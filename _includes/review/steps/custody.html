@@ -30,6 +30,15 @@
           {% endcase %}
         {% endfor %}
 
+        {% comment %}Check if product has any features with custody alerts{% endcomment %}
+        {% assign hasCustodyAlert = false %}
+        {% for feature in page.features %}
+          {% assign f = site.data.features[feature] %}
+          {% if f.alert %}
+            {% assign hasCustodyAlert = true %}
+          {% endif %}
+        {% endfor %}
+
         {% if custodyIndex > verdictIndex %}
           {{ site.data.verdicts[page.verdict].short }}
           {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
@@ -37,9 +46,12 @@
         {% elsif page.verdict == 'custodial' %}
           {{ site.data.verdicts[page.verdict].short }}
           {% capture answer %}<p>The answer is "no". Therefore we marked it as "<strong>{{ site.data.verdicts[page.verdict].title }}</strong>".<br><a href="#{{page.verdict}}">Read more</a></p>{% endcapture %}
+        {% elsif hasCustodyAlert %}
+            {{"⚠️ Mixed custody model"}}
+            {% capture answer %}<p>This product has features that involve <strong>third-party custody</strong>. While you may hold keys for on-chain funds, some functionality depends on trusting external parties. <strong>See warnings below.</strong><br><a href="#custodial">Read more</a></p>{% endcapture %}
         {% else %}
             {{"Self-custodial: The user holds the keys"}}
-            {% capture answer %} <p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+            {% capture answer %}<p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
         {% endif %}
     {% endif %}
     {% if page.meta != "ok" %}
