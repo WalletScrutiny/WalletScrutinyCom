@@ -32,12 +32,9 @@
 
         {% comment %}Check if product has any features with custody alerts{% endcomment %}
         {% assign hasCustodyAlert = false %}
-        {% for feature in page.features %}
-          {% assign f = site.data.features[feature] %}
-          {% if f.alert %}
-            {% assign hasCustodyAlert = true %}
-          {% endif %}
-        {% endfor %}
+        {% if page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' %}
+          {% assign hasCustodyAlert = true %}
+        {% endif %}
 
         {% if custodyIndex > verdictIndex %}
           {{ site.data.verdicts[page.verdict].short }}
