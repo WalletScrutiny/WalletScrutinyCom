@@ -352,7 +352,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     const architectureFlag = architecture ? `--arch ${architecture}` : '';
     const typeFlag = type ? `--type ${type}` : '';
     const apkFlag = apk ? `--apk ${apk}` : '';
-    const scriptArgs = [architectureFlag, typeFlag, apkFlag].filter(Boolean).join(' ');
+    const scriptArgs = ( apk ? [apkFlag] : [architectureFlag, typeFlag]).filter(Boolean).join(' ');
     const argsString = scriptArgs ? ` ${scriptArgs}` : '';
     const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
 
