@@ -40,9 +40,9 @@
     "webpack-shell-plugin-next": "^2.3.3"
   },
   "scripts": {
+    "dev": "npm run clean_assets && npm run precompute && webpack --mode development --watch",
+    "build": "npm run clean_assets && npm run precompute && webpack --mode production --no-watch && npm run compress",
     "precompute": "node scripts/precompute-wallet-data.mjs",
-    "dev": "npm run precompute && npm run clean_assets && webpack --mode development --watch",
-    "build": "npm run precompute && npm run clean_assets && webpack --mode production --no-watch && npm run compress",
     "clean_assets": "jekyll clean && rm -rf dist/*",
     "compress": "npm run minifyJs && npm run minifyCss && npm run brotlifyHtml && npm run brotlifyOthers",
     "minifyJs": "npx foreach-cli -g \"_site/**/*.js\" -i \"_site/**/*.min.js\" -x \"terser #{path} -o #{path}\"",
