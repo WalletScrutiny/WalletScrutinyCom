@@ -21,10 +21,10 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-08-05
 signer: 
-twitter: GemWalletApp
+twitter: gemwallet
 social:
 - https://github.com/gemwalletcom
-- https://www.reddit.com/r/GemWalletApp
+- https://www.reddit.com/r/gemwallet_official
 - https://www.youtube.com/@gemwallet
 - https://t.me/gemwallet
 - https://discord.com/invite/4jpxtwT8r6
