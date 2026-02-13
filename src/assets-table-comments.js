@@ -285,5 +285,11 @@ export async function renderCommentsSection(container, verificationKey, authorPu
     submitButton.addEventListener('click', () => {
       handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
     });
+    textarea.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) {
+        event.preventDefault();
+        handleCommentSubmit(assetTableCommentsVerificationKey, textarea, submitButton);
+      }
+    });
   }
 }
