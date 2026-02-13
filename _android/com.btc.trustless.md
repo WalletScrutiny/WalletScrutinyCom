@@ -16,7 +16,7 @@ issue:
 icon: com.btc.trustless.png
 bugbounty: 
 meta: ok
-verdict: sourceavailable
+verdict: fewusers
 date: 2026-02-03
 signer: 
 twitter: 
