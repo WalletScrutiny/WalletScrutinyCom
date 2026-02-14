@@ -37,7 +37,9 @@ twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
 - https://www.reddit.com/r/TREZOR
-builds: 
+builds:
+- arch: arm
+  types: [universal, btc-only]
 features: 
 
 ---

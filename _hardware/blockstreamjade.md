@@ -41,7 +41,8 @@ social:
 - https://www.facebook.com/Blockstream
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
-builds: 
+builds:
+- arch: arm
 features: 
 
 ---
