@@ -1,7 +1,7 @@
 {% assign authors = include.authors | default: page.authors %}
 {% if authors %}
   <p>
-  Tests performed by {% for a in authors %}{%
+  Product page updated by {% for a in authors %}{%
     if forloop.index > 1 %}, {%
     endif %}{%
     assign author = site.authors | find: 'slug', a %}{%
