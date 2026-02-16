@@ -2,6 +2,8 @@
 wsId: com.btc.trustless
 title: Trustless
 altTitle:
+authors:
+- Pechen987 https://github.com/Pechen987
 url: https://github.com/Pechen987
 users: 10
 appId: com.btc.trustless
