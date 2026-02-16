@@ -302,6 +302,9 @@ function makeCompactResultsHTML (wallet, lazyLoad) {
         wallet.meta && wallet.meta !== 'ok'
           ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
           : '',
+        wallet.alertFeatures && wallet.alertFeatures.length > 0
+          ? wallet.alertFeatures.map(f => `<span data-text="${window.featureAlerts[f] || f}" class="stamp stamp-alert-feature" title="${window.featureAlertMessages[f] || 'This feature has custody implications'}" alt=""></span>`).join('')
+          : '',
         scoreHTML,
       '</span>',
     '</a>'

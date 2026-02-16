@@ -1,5 +1,11 @@
 {
   "verdicts": {{ site.data.verdicts | jsonify }},
+  "featureAlerts": {
+    {% for f in site.data.features %}{% if f[1].alert %}"{{ f[0] }}": {{ f[1].short | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+  },
+  "featureAlertMessages": {
+    {% for f in site.data.features %}{% if f[1].alert %}"{{ f[0] }}": {{ f[1].alert | strip_html | strip_newlines | strip | jsonify }}{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}
+  },
   "iphone": {
     "category": "App Store",
     "apps": [ 
@@ -14,7 +20,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -32,7 +39,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -50,7 +58,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -70,7 +79,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]
@@ -88,7 +98,8 @@
         "meta": "{{ post.meta }}",
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
-        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}}
+        "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]

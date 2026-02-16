@@ -14,4 +14,4 @@
   include verdictBadge.html verdict=w.verdict type="short"
   %}{%if w.meta != "ok" %}{%
   include verdictBadge.html verdict=w.meta type="short"
-  %}{% endif %}{% endif %}</span> 
+  %}{% endif %}{% endif %}{% for feat in w.features %}{% assign f = site.data.features[feat] %}{% if f.alert %}<span class="alert-feature-badge" title="⚠️ {{ f.short }}: {{ f.alert | strip_html | strip_newlines | strip }}">{{ f.short }}</span>{% endif %}{% endfor %}</span>

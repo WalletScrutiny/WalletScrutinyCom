@@ -68,8 +68,6 @@
       {% endif %}
     {% endif %}
 
-    {% comment %} ecash is an exception, because we want it to show only when the wallet is an ecash one {% endcomment %}
-    {% unless criterion == "ecash" and include.verdict != 'ecash' %}
       <div id="{{criterion}}"
         class="{{class}} {{criterion}} methodology-accordion"
         data-open="{% if include.verdict == criterion %}true{% else %}false{% endif %}"
@@ -85,7 +83,6 @@
           {% include /review/steps/verdict_methodology_review_embed.html verdict=criterion %}
         </div>
       </div>
-    {% endunless %}
   {% endfor %}
   </div>
 </div>
