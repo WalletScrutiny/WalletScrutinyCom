@@ -37,7 +37,9 @@ social:
 - https://discord.com/invite/gpfaESrxu2
 - https://t.me/KeystoneWallet
 - https://www.reddit.com/r/KeystoneWallet
-builds: 
+builds:
+- arch: arm
+  types: [cypherpunk, multi, btc-only]
 features:
 - taproot
 
