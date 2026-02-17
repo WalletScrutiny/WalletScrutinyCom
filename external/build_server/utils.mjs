@@ -225,8 +225,35 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
   fs.chmodSync(filePath, 0o755);
 }
 
+/**
+ * Remove a directory recursively. Uses rm -rf on Unix to avoid ENOTEMPTY
+ * when Gradle or other processes still have files open during Node's recursive walk.
+ */
+export function removeDirectoryRecursive(dir) {
+  if (!fs.existsSync(dir)) return;
+  if (process.platform !== 'win32') {
+    const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
+    execSync(`rm -rf ${escaped}`, { stdio: 'ignore' });
+  } else {
+    const maxRetries = 3;
+    for (let i = 0; i < maxRetries; i++) {
+      try {
+        fs.rmSync(dir, { recursive: true, force: true });
+        return;
+      } catch (err) {
+        if ((err.code === 'ENOTEMPTY' || err.code === 'EBUSY') && i < maxRetries - 1) {
+          const deadline = Date.now() + 500 * (i + 1);
+          while (Date.now() < deadline) {}
+        } else {
+          throw err;
+        }
+      }
+    }
+  }
+}
+
 export function createCompilationDirectory(buildDir) {
-  fs.rmSync(buildDir, { recursive: true, force: true });
+  removeDirectoryRecursive(buildDir);
   fs.mkdirSync(buildDir, { recursive: true });
 }
 
@@ -252,4 +279,32 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
     appLog.info(` *** No build combinations found for ${appId}`);
     return null;
   }
+}
+
+export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {
+  let createdAt = 0;
+  let newerVerification = null;
+
+  for (const verification of verificationsWithBuildShFiles) {
+    if (
+      getFirstTagValue(verification.verification, 'i') !== appId ||
+      getFirstTagValue(verification.verification, 'platform') !== platform
+    ) {
+      continue;
+    }
+
+    if (verification.verification.created_at > createdAt) {
+      createdAt = verification.verification.created_at;
+      newerVerification = verification;
+    }
+  }
+
+  if (!newerVerification) {
+    return null;
+  }
+
+  const verificationVersion = getFirstTagValue(newerVerification.verification, 'version');
+  appLog.debug(`     - getNewerScriptToReproduce - found script to reproduce ${appId} ${verificationVersion}`);
+
+  return newerVerification;
 }

@@ -10,9 +10,11 @@ import {
   getFirstTagValue,
   saveScriptFromEventMakeExecutable,
   createCompilationDirectory,
+  removeDirectoryRecursive,
   findFileRecursively,
   getCombinationsFromAppInfo,
-  getFileAttachmentIDsForVerificationEvent
+  getFileAttachmentIDsForVerificationEvent,
+  getNewerScriptToReproduce
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
@@ -65,67 +67,57 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
           continue;
         }
       } else {
-        buildCombinations = [{ architecture: undefined, type: undefined }];
+        buildCombinations = [{ architecture: null, type: null }];
       }
     } catch (error) {
       appLog.error(`Error getting build combinations for appId (${appId}) and platform (${platform}): ${error}`);
       continue;
     }
 
-    let createdAt = 0;
+    appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
-    appLog.debug(`   searching for verification for appId (${appId}) and platform (${platform})...`);
-    for (const verification of verificationsWithBuildShFiles) {
-      if (getFirstTagValue(verification.verification, 'i') !== appId) {
-        continue;
-      }
-      if (getFirstTagValue(verification.verification, 'platform') !== platform) {
-        continue;
-      }
+    const verification = getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform);
+    if (!verification) {
+      appLog.debug(`   no script to reproduce appId=${appId}, version=${version}, and platform=${platform} found`);
+      continue;
+    }
 
-      if (verification.verification.created_at > createdAt) {
-        createdAt = verification.verification.created_at;
-        const verificationVersion = getFirstTagValue(verification.verification, 'version');
-        appLog.debug(`     - new verification found: ${appId} ${verificationVersion} ${createdAt}`);
+    const fileHash = getFirstTagValue(asset, 'x');
+    appLog.debug(`     - file hash found: ${fileHash}`);
 
-        const fileHash = getFirstTagValue(asset, 'x');
-        appLog.debug(`     - file hash found: ${fileHash}`);
+    for (const { architecture, type } of buildCombinations) {
+      const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
+      const response = await fetch(blossomFileURL);
+      if (response.ok) {
+        const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+        createCompilationDirectory(buildDirForThisVerification);
 
-        for (const { architecture, type } of buildCombinations) {
-          const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-          const response = await fetch(blossomFileURL);
-          if (response.ok) {
-            const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-            createCompilationDirectory(buildDirForThisVerification);
+        appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
+        const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
+        const apkPath = path.join(buildDirForThisVerification, apkFileName);
+        const buffer = Buffer.from(await response.arrayBuffer());
+        fs.writeFileSync(apkPath, buffer);
+        appLog.debug(`     - saved to ${apkPath}`);
 
-            appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
-            const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-            const apkPath = path.join(buildDirForThisVerification, apkFileName);
-            const buffer = Buffer.from(await response.arrayBuffer());
-            fs.writeFileSync(apkPath, buffer);
-            appLog.debug(`     - saved to ${apkPath}`);
+        const scriptFileName = `${appId}_${fileHash}_script.sh`;
+        const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+        appLog.debug(`     - saving script to ${scriptPath}`);
+        saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
-            const scriptFileName = `${appId}_${fileHash}_script.sh`;
-            const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
-            appLog.debug(`     - saving script to ${scriptPath}`);
-            saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
-
-            await addJobToQueue({
-              verification,
-              appId,
-              platform,
-              buildDirForThisVerification,
-              scriptWithPath: scriptPath,
-              newWalletVersion: version,
-              architecture,
-              type,
-              fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-              apk: apkPath
-            });
-          } else {
-            appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
-          }
-        }
+        await addJobToQueue({
+          verification,
+          appId,
+          platform,
+          buildDirForThisVerification,
+          scriptWithPath: scriptPath,
+          newWalletVersion: version,
+          architecture,
+          type,
+          fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
+          apk: apkPath
+        });
+      } else {
+        appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
       }
     }
   }
@@ -456,7 +448,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
-      fs.rmSync(buildDirForThisVerification, { recursive: true, force: true });
+      removeDirectoryRecursive(buildDirForThisVerification);
       appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
     }
   } catch (error) {
