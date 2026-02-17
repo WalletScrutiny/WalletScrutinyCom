@@ -141,16 +141,31 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 }
 
 const args = minimist(process.argv.slice(2));
-const githubToken = args.githubToken;
-const wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
+const isDev = process.env.NODE_ENV === 'development';
 
-if (!githubToken) {
-  appLog.error('Error: GitHub token is required - Usage: node index.mjs --githubToken <github_token> [--debug]');
-  process.exit(1);
-}
+let githubToken;
+let wsBotNostrPrivateKey;
 
-if (!wsBotNostrPrivateKey) {
-  appLog.error('Error: WS_BOT_PK is required - Usage: node index.mjs --wsBotNostrPrivateKey <ws_bot_nostr_private_key> [--debug]');
+try {
+  if (process.env.GITHUB_TOKEN_FILE) {
+    githubToken = fs.readFileSync(process.env.GITHUB_TOKEN_FILE, 'utf8').trim();
+  } else if (isDev && args.githubToken) {
+    console.warn('Warning: Using GITHUB_TOKEN from argv (dev only)');
+    githubToken = args.githubToken;
+  } else {
+    throw new Error('GITHUB_TOKEN not provided');
+  }
+
+  if (process.env.WS_BOT_PK_FILE) {
+    wsBotNostrPrivateKey = fs.readFileSync(process.env.WS_BOT_PK_FILE, 'utf8').trim();
+  } else if (isDev && args.wsBotNostrPrivateKey) {
+    console.warn('Warning: Using WS_BOT_PK from argv (dev only)');
+    wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
+  } else {
+    throw new Error('WS_BOT_PK not provided');
+  }
+} catch (error) {
+  appLog.error('Error loading required secrets:', error);
   process.exit(1);
 }
 
