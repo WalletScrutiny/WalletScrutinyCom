@@ -141,7 +141,6 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 }
 
 const args = minimist(process.argv.slice(2));
-const isDev = process.env.NODE_ENV === 'development';
 
 let githubToken;
 let wsBotNostrPrivateKey;
@@ -149,7 +148,7 @@ let wsBotNostrPrivateKey;
 try {
   if (process.env.GITHUB_TOKEN_FILE) {
     githubToken = fs.readFileSync(process.env.GITHUB_TOKEN_FILE, 'utf8').trim();
-  } else if (isDev && args.githubToken) {
+  } else if (args.githubToken) {
     console.warn('Warning: Using GITHUB_TOKEN from argv (dev only)');
     githubToken = args.githubToken;
   } else {
@@ -158,7 +157,7 @@ try {
 
   if (process.env.WS_BOT_PK_FILE) {
     wsBotNostrPrivateKey = fs.readFileSync(process.env.WS_BOT_PK_FILE, 'utf8').trim();
-  } else if (isDev && args.wsBotNostrPrivateKey) {
+  } else if (args.wsBotNostrPrivateKey) {
     console.warn('Warning: Using WS_BOT_PK from argv (dev only)');
     wsBotNostrPrivateKey = args.wsBotNostrPrivateKey;
   } else {
