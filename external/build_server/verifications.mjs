@@ -56,8 +56,19 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     const version = getFirstTagValue(asset, 'version');
     const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
-    const buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
-    if (!buildCombinations) {
+
+    let buildCombinations;
+    try {
+      if (platform !== 'android') {
+        buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
+        if (!buildCombinations) {
+          continue;
+        }
+      } else {
+        buildCombinations = [{ architecture: undefined, type: undefined }];
+      }
+    } catch (error) {
+      appLog.error(`Error getting build combinations for appId (${appId}) and platform (${platform}): ${error}`);
       continue;
     }
 
