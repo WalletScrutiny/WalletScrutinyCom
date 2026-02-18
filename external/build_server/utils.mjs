@@ -226,27 +226,34 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
 }
 
 /**
- * Remove a directory recursively. Uses rm -rf on Unix to avoid ENOTEMPTY
- * when Gradle or other processes still have files open during Node's recursive walk.
+ * Remove a directory recursively. On Unix tries rm -rf first; on failure falls
+ * back to fs.rmSync with retries (handles ENOTEMPTY/EBUSY and permission issues).
  */
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
+
   if (process.platform !== 'win32') {
-    const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
-    execSync(`rm -rf ${escaped}`, { stdio: 'ignore' });
-  } else {
-    const maxRetries = 3;
-    for (let i = 0; i < maxRetries; i++) {
-      try {
-        fs.rmSync(dir, { recursive: true, force: true });
-        return;
-      } catch (err) {
-        if ((err.code === 'ENOTEMPTY' || err.code === 'EBUSY') && i < maxRetries - 1) {
-          const deadline = Date.now() + 500 * (i + 1);
-          while (Date.now() < deadline) {}
-        } else {
-          throw err;
-        }
+    try {
+      const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
+      execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
+      return;
+    } catch (rmErr) {
+      const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
+      appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
+    }
+  }
+
+  const maxRetries = 3;
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true });
+      return;
+    } catch (err) {
+      if ((err.code === 'ENOTEMPTY' || err.code === 'EBUSY') && i < maxRetries - 1) {
+        const deadline = Date.now() + 500 * (i + 1);
+        while (Date.now() < deadline) {}
+      } else {
+        throw err;
       }
     }
   }

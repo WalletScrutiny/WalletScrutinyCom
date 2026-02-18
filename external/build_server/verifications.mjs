@@ -2,7 +2,7 @@ import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import PQueue from 'p-queue';
-import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification } from './nostr-utils.mjs';
+import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
   filterAndroidReproducibleVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
@@ -87,7 +87,13 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
     for (const { architecture, type } of buildCombinations) {
       const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-      const response = await fetch(blossomFileURL);
+      let response;
+      try {
+        response = await fetch(blossomFileURL);
+      } catch (fetchError) {
+        appLog.error(`Fetch failed for ${blossomFileURL}: ${fetchError?.message ?? fetchError}. Skipping asset.`);
+        continue;
+      }
       if (response.ok) {
         const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
         createCompilationDirectory(buildDirForThisVerification);
@@ -278,8 +284,13 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
       if (data?.results) {
-        // Find all results matching the architecture
-        const architectureResults = data.results.filter(r => r.architecture === architecture);
+        let architectureResults;
+        if (architecture) {
+          // Find all results matching the architecture
+          architectureResults = data.results.filter(r => r.architecture === architecture);
+        } else {
+          architectureResults = data.results;
+        }
 
         if (architectureResults.length > 0) {
           const allFileMatches = [];
