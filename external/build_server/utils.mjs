@@ -311,7 +311,7 @@ export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, 
   }
 
   const verificationVersion = getFirstTagValue(newerVerification.verification, 'version');
-  appLog.debug(`     - getNewerScriptToReproduce - found script to reproduce ${appId} ${verificationVersion}`);
+  appLog.debug(`     - getNewerScriptToReproduce - found script used to reproduce ${appId} ${verificationVersion}`);
 
   return newerVerification;
 }
