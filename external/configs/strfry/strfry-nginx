@@ -1,7 +1,6 @@
 server {
     listen 80;
     server_name relay.nostr.info;
-
     return 301 https://$host$request_uri;
 }
 
@@ -9,8 +8,8 @@ server {
     listen 443 ssl;
     server_name relay.nostr.info;
 
-    ssl_certificate     /etc/letsencrypt/live/relay.nostr.info/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/relay.nostr.info/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/relay.nostr.info/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/relay.nostr.info/privkey.pem; # managed by Certbot
 
     ssl_protocols TLSv1.2 TLSv1.3;
     ssl_ciphers HIGH:!aNULL:!MD5;
