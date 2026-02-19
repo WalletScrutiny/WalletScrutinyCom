@@ -95,7 +95,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
         continue;
       }
       if (response.ok) {
-        const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+        const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
         createCompilationDirectory(buildDirForThisVerification);
 
         appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
