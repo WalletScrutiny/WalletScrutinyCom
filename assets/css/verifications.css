@@ -145,7 +145,7 @@ table .copy-button {
   z-index: 1000;
   border-radius: 12px;
   height: 80vh;
-  background: var(--background-color);
+  background: var(--body);
 }
 @media screen and (max-width: 480px) {
   #verificationModal {
@@ -157,18 +157,8 @@ table .copy-button {
     height: 100dvh;
     transform: none;
     border-radius: 0;
-    background: var(--background-color);
+    background: var(--body);
     z-index: 1001;
-  }
-  #verificationModal::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: -1;
   }
   #verificationContent {
     padding-top: 56px;
@@ -257,7 +247,7 @@ table .copy-button {
   font-size: 44px;
   line-height: 1;
   z-index: 2;
-  background: var(--background-color);
+  background: var(--body);
   border-radius: 12px;
   clear: both;
   z-index: 1000;
