@@ -1,0 +1,20 @@
+[Unit]
+Description=strfry Nostr Relay
+After=network.target
+
+[Service]
+User=strfry
+Group=strfry
+ExecStart=/usr/local/bin/strfry --config /etc/strfry/strfry.conf relay
+Restart=always
+RestartSec=5
+LimitNOFILE=1000000
+
+# Seguridad
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/var/lib/strfry
+
+[Install]
+WantedBy=multi-user.target
