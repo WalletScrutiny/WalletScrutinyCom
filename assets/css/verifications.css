@@ -135,6 +135,23 @@ table .copy-button {
 }
 
 /* Attestation Modal */
+#verificationModalBackdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.45);
+}
+body.dark #verificationModalBackdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+@media screen and (max-width: 480px) {
+  #verificationModalBackdrop {
+    z-index: 1000;
+    background: var(--body);
+  }
+}
+
 #verificationModal {
   display: none;
   position: fixed;
