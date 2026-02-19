@@ -266,7 +266,8 @@ export async function addJobToQueue({
       platform,
       architecture,
       type,
-      fileEventIdsForSHFiles
+      fileEventIdsForSHFiles,
+      apk
     );
   });
 }
@@ -399,7 +400,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, apk = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   const ndkInstance = getNdk();
