@@ -111,7 +111,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
         saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
         await addJobToQueue({
-          verification,
+          verification: verification.verification,
           appId,
           platform,
           buildDirForThisVerification,
@@ -428,13 +428,15 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   let description = [
+    `Automatic verification by WalletScrutiny Build Server - `,
     architecture && `architecture: ${architecture}`,
-    type && `type: ${type}`
+    type && `type: ${type}`,
+    apk && `apk: ${apk}`
   ]
   .filter(Boolean)
   .join(' - ');
 
-  let content = `Automatic verification for wallet version ${newWalletVersion} with ${architecture ? ` architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
+  let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
