@@ -205,7 +205,8 @@ const getProfileFromIDB = async (pubkey) => {
 };
 
 const getNostrProfile = async function (pubkey) {
-  if (!pubkey) {
+  if (!pubkey || pubkey.length !== 64) {
+    console.info("getNostrProfile: Invalid pubkey", pubkey);
     return null;
   }
 
