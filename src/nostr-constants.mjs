@@ -3,7 +3,7 @@ import { isDebugEnv } from './verifications_common.mjs';
 export const mainRelayUrl = "wss://relay.nostr.info/";
 export const explicitRelayUrls = [
   mainRelayUrl,                       // FI - Do not change
-  "wss://relay.nostr.band",
+  "wss://relay.nostr.band/",
   "wss://vidono.apps.slidestr.net/",  // FR
   "wss://nostr.mom/",                 // DE (rate-limited)
   "wss://relay.primal.net/",          // CA
