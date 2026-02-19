@@ -70,7 +70,6 @@ const createNip89Events = async function () {
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_assetRegistration:\n', recommendationEvent_assetRegistration);
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_verification:\n', recommendationEvent_verification);
     console.log('\n--------------------------------------------------------------------------- recommendationEvent_endorsement:\n', recommendationEvent_endorsement);
-
     const publishedCapability = await capabilityEvent.publish();
     console.debug(`Published capability event to ${publishedCapability.size} relays`);
     await new Promise(resolve => setTimeout(resolve, 6000));
