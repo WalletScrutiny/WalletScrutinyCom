@@ -91,9 +91,14 @@ Wallet files (.md) need to have 2 new fields so the Automated Build Server start
 ```yaml
 builds:
   - arch: win64
-    types: [setup, portable, standalone]
+    types:
+    - setup
+    - portable
+    - standalone
   - arch: x86_64-linux-gnu
-    types: [appimage, tarball]
+    types:
+    - appimage
+    - tarball
 ```
 
 Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
