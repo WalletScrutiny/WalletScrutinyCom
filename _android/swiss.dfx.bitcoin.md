@@ -21,7 +21,7 @@ verdict: sourceavailable
 appHashes: 
 date: 2026-01-03
 signer: 
-twitter: https://x.com/DFX_Swiss
+twitter: DFX_Swiss
 social:
 - https://www.linkedin.com/company/dfxswiss
 redirect_from: 
