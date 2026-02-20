@@ -429,14 +429,16 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
-  let description = [
-    `Automatic verification by WalletScrutiny Build Server - `,
-    architecture && `architecture: ${architecture}`,
-    type && `type: ${type}`,
-    apk && `apk: ${apk}`
-  ]
-  .filter(Boolean)
-  .join(' - ');
+  let description = 'Automatic verification by WalletScrutiny Build Server';
+  if (architecture) {
+    description += ` - architecture: ${architecture}`;
+  }
+  if (type) {
+    description += ` - type: ${type}`;
+  }
+  if (apk) {
+    description += ` - apk: ${path.basename(apk)}`;
+  };
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
