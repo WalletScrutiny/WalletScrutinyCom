@@ -22,7 +22,7 @@ verdict: sourceavailable
 appHashes: []
 date: 2025-07-28
 signer: 
-twitter: ShapeShift_io
+twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 - https://www.instagram.com/shapeshift_io
