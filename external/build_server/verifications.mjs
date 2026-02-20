@@ -369,7 +369,8 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     const apkFlag = apk ? `--apk ${apk}` : '';
     const scriptArgs = ( apk ? [apkFlag] : [architectureFlag, typeFlag]).filter(Boolean).join(' ');
     const argsString = scriptArgs ? ` ${scriptArgs}` : '';
-    const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
+    const versionString = apk === null ? `--version ${newWalletVersion}` : '';
+    const finalScriptExecutionCommand = `${script} ${versionString}${argsString}`;
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
