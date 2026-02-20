@@ -21,7 +21,7 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-05-07
 signer: 
-twitter: monya_wallet
+twitter:
 social: 
 redirect_from: 
 developerName: 藤原出帆
