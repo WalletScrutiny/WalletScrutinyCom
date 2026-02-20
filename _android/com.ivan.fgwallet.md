@@ -8,18 +8,18 @@ users: 10000
 appId: com.ivan.fgwallet
 appCountry: 
 released: 2017-12-28
-updated: 2025-10-23
-version: 4.1.0
+updated: 2026-01-07
+version: 4.1.3
 reviews: 
 website: http://www.srsfc.com
 repository: 
 issue: 
 icon: com.ivan.fgwallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2026-01-08
+date: 2026-02-20
 signer: 
 twitter: srsfintech
 social:

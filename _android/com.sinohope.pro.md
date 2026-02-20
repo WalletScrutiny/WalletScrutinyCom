@@ -3,12 +3,12 @@ wsId:
 title: 'Bitfire: 新火科技旗下私行级数字资产管家'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.sinohope.pro
 appCountry: 
 released: 2025-11-02
-updated: 2026-01-22
-version: 1.6.1
+updated: 2026-02-05
+version: 1.7.0
 reviews: 
 website: 
 repository: 

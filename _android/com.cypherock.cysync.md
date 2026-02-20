@@ -7,8 +7,8 @@ users: 1000
 appId: com.cypherock.cysync
 appCountry: 
 released: 2025-03-28
-updated: 2025-08-23
-version: 0.1.16
+updated: 2026-02-10
+version: 0.1.17
 reviews: 
 website: https://www.cypherock.com/
 repository: 

@@ -9,7 +9,7 @@ appId: io.coinmerce.app
 appCountry: 
 released: 2018-07-09
 updated: 2026-01-23
-version: 6.10.1
+version: 6.11.0
 reviews: 
 website: https://coinmerce.io/
 repository: 

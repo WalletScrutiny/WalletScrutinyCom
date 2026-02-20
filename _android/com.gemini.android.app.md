@@ -1,6 +1,6 @@
 ---
 wsId: geminiwallet
-title: Gemini Exchange & Credit Card
+title: Gemini Markets & Credit Card
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ users: 1000000
 appId: com.gemini.android.app
 appCountry: 
 released: 2018-12-10
-updated: 2026-01-28
-version: 26.127.0
-reviews: 8304
+updated: 2026-02-20
+version: 26.217.0
+reviews: 8322
 website: https://www.gemini.com
 repository: 
 issue: 

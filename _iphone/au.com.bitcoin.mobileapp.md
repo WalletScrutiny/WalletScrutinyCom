@@ -8,9 +8,9 @@ appId: au.com.bitcoin.mobileapp
 appCountry: au
 idd: '6444394282'
 released: 2022-11-28
-updated: 2026-02-02
-version: 14.0.0
-reviews: 1426
+updated: 2026-02-19
+version: 14.2.0
+reviews: 1430
 website: https://www.bitcoin.com.au
 repository: 
 issue: 

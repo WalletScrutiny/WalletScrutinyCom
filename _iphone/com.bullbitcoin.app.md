@@ -9,7 +9,7 @@ idd: '6743380972'
 released: 2025-09-29
 updated: 2026-01-13
 version: 6.5.4
-reviews: 13
+reviews: 14
 website: https://bullbitcoin.com
 repository: 
 issue: 

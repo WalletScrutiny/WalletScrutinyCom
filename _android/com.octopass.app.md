@@ -8,8 +8,8 @@ users: 10000
 appId: com.octopass.app
 appCountry: 
 released: 
-updated: 2025-09-26
-version: prod-1.17.0
+updated: 2026-02-16
+version: prod-1.18.7
 reviews: 
 website: https://easycrypto.com/
 repository: 

@@ -8,8 +8,8 @@ users: 500000
 appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
-updated: 2025-09-30
-version: 1.12.7
+updated: 2026-02-04
+version: 1.13.0
 reviews: 
 website: https://delta.exchange
 repository: 

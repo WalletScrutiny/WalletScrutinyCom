@@ -8,9 +8,9 @@ appId: co.newton.newtonios
 appCountry: ca
 idd: '1370504122'
 released: 2018-10-03
-updated: 2026-01-26
-version: 2.20.10
-reviews: 24484
+updated: 2026-02-19
+version: 2.20.13
+reviews: 24489
 website: https://www.newton.co
 repository: 
 issue: 

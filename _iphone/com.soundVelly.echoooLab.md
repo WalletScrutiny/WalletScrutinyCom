@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.soundVelly.echoooLab.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-07-24
+date: 2026-02-20
 signer: 
 twitter: echooo_wallet
 social:

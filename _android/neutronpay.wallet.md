@@ -8,8 +8,8 @@ users: 100000
 appId: neutronpay.wallet
 appCountry: 
 released: 
-updated: 2025-10-27
-version: 3.3.0
+updated: 2026-02-03
+version: 3.4.0
 reviews: 
 website: https://neutron.me/app
 repository: 

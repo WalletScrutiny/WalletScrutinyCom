@@ -3,12 +3,12 @@ wsId:
 title: Console Wallet
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: io.ccview.wallet
 appCountry: 
 released: 2025-12-02
-updated: 2026-01-21
-version: 1.2.0
+updated: 2026-02-11
+version: 1.3.1
 reviews: 
 website: https://pixelplex.io/
 repository: 

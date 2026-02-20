@@ -8,9 +8,9 @@ users: 100000
 appId: com.crypto.ab.wallet.app
 appCountry: 
 released: 2023-09-27
-updated: 2026-01-21
-version: 1.19.0
-reviews: 183
+updated: 2026-02-17
+version: 1.20.0
+reviews: 194
 website: https://alicebob.com/
 repository: 
 issue: 

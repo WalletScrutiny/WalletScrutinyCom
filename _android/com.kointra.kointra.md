@@ -8,7 +8,7 @@ users: 5000
 appId: com.kointra.kointra
 appCountry: 
 released: 2019-01-25
-updated: 2025-11-11
+updated: 2026-02-13
 version: 3.5.5
 reviews: 
 website: http://www.kointra.com

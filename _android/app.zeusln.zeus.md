@@ -11,9 +11,9 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2026-01-24
-version: 0.12.2
-reviews: 37
+updated: 2026-02-10
+version: 0.12.4
+reviews: 36
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
 issue: 

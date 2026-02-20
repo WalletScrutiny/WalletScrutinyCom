@@ -8,8 +8,8 @@ appId: com.bitop.exchange.prod
 appCountry: us
 idd: '6449766522'
 released: 2023-11-14
-updated: 2025-12-03
-version: 0.1.31
+updated: 2026-02-03
+version: 0.1.32
 reviews: 7
 website: 
 repository: 

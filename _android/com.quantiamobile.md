@@ -3,7 +3,7 @@ wsId:
 title: Quantia.io
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.quantiamobile
 appCountry: 
 released: 2022-07-19

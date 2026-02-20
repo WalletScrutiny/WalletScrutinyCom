@@ -8,8 +8,8 @@ users: 10000
 appId: com.internetmoneywallet.app
 appCountry: 
 released: 2022-11-12
-updated: 2025-12-23
-version: '2.1'
+updated: 2026-02-20
+version: '2.3'
 reviews: 83
 website: https://internetmoney.io/
 repository: 

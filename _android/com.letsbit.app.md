@@ -8,13 +8,13 @@ users: 100000
 appId: com.letsbit.app
 appCountry: 
 released: 2022-05-06
-updated: 2026-01-29
-version: v1.57.0
+updated: 2026-02-18
+version: 2.12.0
 reviews: 18
 website: https://lbfinanzas.com
 repository: 
 issue: 
-icon: com.letsbit.app.jpg
+icon: com.letsbit.app.png
 bugbounty: 
 meta: ok
 verdict: custodial

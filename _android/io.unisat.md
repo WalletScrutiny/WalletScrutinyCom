@@ -1,6 +1,6 @@
 ---
 wsId: uniSat
-title: UniSat - Inscribe your dreams
+title: UniSat Wallet
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 100000
 appId: io.unisat
 appCountry: 
 released: 2024-03-16
-updated: 2026-01-26
-version: 1.7.9
-reviews: 17
+updated: 2026-02-12
+version: 1.7.10
+reviews: 18
 website: https://unisat.io/
 repository: 
 issue: 

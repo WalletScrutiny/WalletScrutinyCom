@@ -34,7 +34,9 @@ social:
 - https://www.reddit.com/r/TREZOR
 builds:
 - arch: arm
-  types: [universal, btc-only]
+  types:
+  - universal
+  - btc-only
 features:
 - 2.5" color touchscreen
 - TROPIC01 secure element (TropicSquare)

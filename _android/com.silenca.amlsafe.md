@@ -8,8 +8,8 @@ users: 100000
 appId: com.silenca.amlsafe
 appCountry: 
 released: 2020-10-26
-updated: 2025-09-19
-version: '2.36'
+updated: 2026-02-04
+version: '2.41'
 reviews: 2
 website: https://safe3.app/
 repository: 

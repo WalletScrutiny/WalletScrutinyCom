@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.wallet.logos.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-02-26
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

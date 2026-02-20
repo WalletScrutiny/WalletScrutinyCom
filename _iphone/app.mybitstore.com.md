@@ -10,16 +10,16 @@ idd: '1579519877'
 released: 2021-08-12
 updated: 2025-02-18
 version: 7.0.9
-reviews: 499
+reviews: 498
 website: 
 repository: 
 issue: 
 icon: app.mybitstore.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-19
+date: 2026-02-20
 signer: 
 twitter: mybitstore
 social:

@@ -1,31 +1,29 @@
 ---
 wsId: com.btc.trustless
 title: Trustless
-altTitle:
+altTitle: 
 authors:
 - Pechen987 https://github.com/Pechen987
-url: https://github.com/Pechen987
-users: 10
 appId: com.btc.trustless
 appCountry: it
+idd: 
 released: 2026-02-03
 updated: 2026-02-03
 version: 1.0.0
 reviews: 0
 website: https://trustlesswallet.github.io/Trustless/
 repository: https://github.com/TrustlessWallet/Trustless
-issue:
+issue: 
 icon: com.btc.trustless.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2026-02-03
-signer:
-twitter:
+signer: 
+twitter: 
 social:
 - https://github.com/TrustlessWallet
-redirect_from:
-developerName: pechen987
 features:
 - Coin Control
 - Non-Custodial
@@ -35,5 +33,7 @@ features:
 - Custom node connection
 - Address generation
 - BIP-44 change address generation
+developerName: pechen987
 
 ---
+

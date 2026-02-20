@@ -8,8 +8,8 @@ users: 1000
 appId: com.squirrelwallet.app
 appCountry: 
 released: 2025-06-26
-updated: 2025-09-08
-version: 1.0.4
+updated: 2026-02-09
+version: 1.0.6
 reviews: 
 website: https://squirrel-wallet.gitbook.io
 repository: 

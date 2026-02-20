@@ -8,9 +8,9 @@ users: 10000
 appId: app.frwt.wallet
 appCountry: 
 released: 2024-01-03
-updated: 2026-01-20
-version: 1.14.0
-reviews: 186
+updated: 2026-02-12
+version: 1.15.0
+reviews: 192
 website: https://www.frwt.app/
 repository: 
 issue: 

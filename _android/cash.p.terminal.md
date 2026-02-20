@@ -4,12 +4,12 @@ title: P.CASH
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2026-02-01
-version: 0.51.9
+updated: 2026-02-19
+version: 0.51.15
 reviews: 
 website: https://p.cash/
 repository: https://github.com/piratecash/pcash-wallet-android

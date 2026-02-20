@@ -8,18 +8,18 @@ users: 1000
 appId: com.amaxg.bizapaywallet
 appCountry: 
 released: 2025-01-13
-updated: 2025-01-16
-version: 1.0.0
+updated: 2026-02-06
+version: 1.1.1
 reviews: 
 website: 
 repository: 
 issue: 
 icon: com.amaxg.bizapaywallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-01-16
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

@@ -8,9 +8,9 @@ users: 100000
 appId: com.oobit
 appCountry: 
 released: 2022-02-07
-updated: 2026-01-13
-version: 2.4.1
-reviews: 29
+updated: 2026-02-10
+version: 2.5.0
+reviews: 31
 website: https://www.oobit.com/
 repository: 
 issue: 

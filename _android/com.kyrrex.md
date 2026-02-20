@@ -8,8 +8,8 @@ users: 5000
 appId: com.kyrrex
 appCountry: 
 released: 
-updated: 2025-11-12
-version: production/v4.2.60
+updated: 2026-02-09
+version: production/v4.2.61
 reviews: 
 website: https://kyrrex.com
 repository: 

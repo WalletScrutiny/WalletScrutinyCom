@@ -10,7 +10,7 @@ appCountry:
 released: 2023-10-04
 updated: 2025-11-03
 version: 3.9.1
-reviews: 76
+reviews: 77
 website: https://azasend.com
 repository: 
 issue: 

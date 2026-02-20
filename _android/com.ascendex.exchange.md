@@ -9,7 +9,7 @@ appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
 updated: 2026-02-02
-version: 3.6.9
+version: 3.7.0
 reviews: 76
 website: https://www.ascendex.com/
 repository: 

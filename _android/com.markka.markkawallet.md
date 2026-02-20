@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.markka.markkawallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-10-16
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

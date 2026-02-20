@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.trusteeplus1.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2026-02-20
 signer: 
 twitter: TrusteeGlobal
 social:

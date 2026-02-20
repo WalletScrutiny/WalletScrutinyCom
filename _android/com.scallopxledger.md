@@ -8,8 +8,8 @@ users: 10000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2025-12-01
-version: 1.9.6
+updated: 2026-02-06
+version: 1.9.8
 reviews: 10
 website: https://emoney.io/
 repository: 

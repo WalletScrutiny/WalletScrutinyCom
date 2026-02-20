@@ -8,8 +8,8 @@ users: 10000
 appId: com.wallet.noworry
 appCountry: 
 released: 
-updated: 2026-01-21
-version: 5.8.14
+updated: 2026-02-13
+version: 5.8.21
 reviews: 
 website: https://www.nowory.com
 repository: 

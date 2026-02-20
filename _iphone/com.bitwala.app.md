@@ -8,9 +8,9 @@ appId: com.bitwala.app
 appCountry: de
 idd: 1454003161
 released: 2019-05-11
-updated: 2025-08-12
-version: 4.1.9
-reviews: 4107
+updated: 2026-02-18
+version: 4.2.2
+reviews: 4108
 website: https://www.bitwala.com
 repository: 
 issue: 

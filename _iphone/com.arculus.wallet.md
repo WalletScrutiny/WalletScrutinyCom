@@ -7,9 +7,9 @@ appId: com.arculus.wallet
 appCountry: us
 idd: '1575425801'
 released: 2021-10-05
-updated: 2025-12-17
-version: 3.10.4
-reviews: 899
+updated: 2026-02-02
+version: 3.10.5
+reviews: 950
 website: https://www.arculus.co/
 repository: 
 issue: 

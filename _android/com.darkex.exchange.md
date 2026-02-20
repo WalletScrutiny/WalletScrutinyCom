@@ -8,8 +8,8 @@ users: 50000
 appId: com.darkex.exchange
 appCountry: 
 released: 
-updated: 2025-09-26
-version: 6.4.7
+updated: 2026-02-06
+version: 7.0.0
 reviews: 
 website: https://darkex.com
 repository: 

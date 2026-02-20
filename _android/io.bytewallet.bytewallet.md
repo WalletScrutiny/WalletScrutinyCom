@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-20
 updated: 2025-10-02
 version: VARY
-reviews: 52
+reviews: 54
 website: https://www.bytefederal.com
 repository: 
 issue: 

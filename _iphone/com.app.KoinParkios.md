@@ -10,7 +10,7 @@ idd: '6448510693'
 released: 2023-05-10
 updated: 2025-11-27
 version: '5.6'
-reviews: 79
+reviews: 80
 website: https://www.koinpark.com/
 repository: 
 issue: 

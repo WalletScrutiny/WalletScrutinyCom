@@ -21,7 +21,7 @@ verdict: sourceavailable
 appHashes: 
 date: 2022-03-07
 signer: 
-twitter:
+twitter: 
 social:
 - https://www.linkedin.com/company/selendrachain
 redirect_from: 

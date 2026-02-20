@@ -8,18 +8,18 @@ appId: com.app.breet
 appCountry: us
 idd: '1609711640'
 released: 2022-03-04
-updated: 2025-04-13
-version: 7.0.4
-reviews: 949
+updated: 2026-02-05
+version: 7.2.2
+reviews: 1077
 website: https://breet.io
 repository: 
 issue: 
 icon: com.app.breet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2025-04-22
+date: 2026-02-20
 signer: 
 twitter: breetapp
 social:

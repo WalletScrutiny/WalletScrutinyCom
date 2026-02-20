@@ -28,7 +28,7 @@ social:
 - https://www.reddit.com/r/NiceHash
 - https://www.facebook.com/NiceHash
 redirect_from: 
-developerName: Nicehash AG
+developerName: NiceHash AG
 builds: 
 features:
 - ln

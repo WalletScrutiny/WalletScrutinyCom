@@ -23,7 +23,7 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-04-03
 signer: 
-twitter:
+twitter: 
 social:
 - https://www.facebook.com/RSKsmart
 - https://www.reddit.com/r/rootstock

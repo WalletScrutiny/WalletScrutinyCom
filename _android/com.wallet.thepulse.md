@@ -9,7 +9,7 @@ appCountry:
 released: 2023-08-08
 updated: 2026-01-09
 version: 5.3.6
-reviews: 22
+reviews: 23
 website: https://thepulsewallet.org/
 repository: 
 issue: 

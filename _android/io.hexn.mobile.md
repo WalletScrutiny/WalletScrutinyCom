@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.hexn.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-17
+date: 2026-02-20
 signer: 
 twitter: hexn_io
 social:

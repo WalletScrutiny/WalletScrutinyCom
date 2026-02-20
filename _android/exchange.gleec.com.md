@@ -8,7 +8,7 @@ users: 1000
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
-updated: 2025-10-28
+updated: 2026-02-17
 version: 1.40.0
 reviews: 
 website: https://gleecbtc.com/

@@ -8,8 +8,8 @@ users: 100000
 appId: com.zypto
 appCountry: 
 released: 2024-04-26
-updated: 2025-12-30
-version: 1.24.1
+updated: 2026-02-10
+version: 1.25.0
 reviews: 35
 website: https://zypto.com
 repository: 

@@ -8,7 +8,7 @@ users: 50000
 appId: com.combiteu
 appCountry: 
 released: 2024-07-10
-updated: 2026-01-28
+updated: 2026-02-17
 version: 200.5.4
 reviews: 
 website: https://bit.eu

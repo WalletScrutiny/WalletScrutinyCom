@@ -21,7 +21,7 @@ verdict: sourceavailable
 appHashes: 
 date: 2024-07-10
 signer: 
-twitter:
+twitter: 
 social:
 - https://t.me/elite_wallet
 - https://www.reddit.com/user/EliteTechnologies

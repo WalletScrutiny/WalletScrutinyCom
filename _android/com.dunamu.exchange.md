@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소
+title: 업비트 - 국가대표 디지털 자산 거래소
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000000
 appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
-updated: 2026-01-27
-version: 1.34.25
+updated: 2026-02-13
+version: 1.34.27
 reviews: 21
 website: https://upbit.com
 repository: 

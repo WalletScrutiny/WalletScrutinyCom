@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'Panther: Billetera Crypto'
+title: 'Panther: Crypto Wallet'
 altTitle: 
 authors: 
 users: 1000
 appId: com.inexlatam.panther
 appCountry: 
 released: 2025-06-05
-updated: 2025-10-29
-version: 0.3.6
+updated: 2026-01-19
+version: 0.7.1
 reviews: 
 website: https://inexlatam.com/panther-by-inex/
 repository: 

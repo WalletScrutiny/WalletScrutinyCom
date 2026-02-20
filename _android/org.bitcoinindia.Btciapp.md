@@ -3,7 +3,7 @@ wsId:
 title: BITCOIN INDIA
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.bitcoinindia.Btciapp
 appCountry: 
 released: 

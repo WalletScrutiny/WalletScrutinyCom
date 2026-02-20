@@ -7,8 +7,8 @@ users: 1000
 appId: com.trust_fresh
 appCountry: 
 released: 2025-07-02
-updated: 2025-11-28
-version: 1.0.9
+updated: 2026-02-12
+version: 1.0.13
 reviews: 
 website: 
 repository: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.nosapps.android.i5o2
 appCountry: 
 released: 2022-06-03
-updated: 2026-01-27
-version: 1.2.569
+updated: 2026-02-19
+version: 1.2.582
 reviews: 
 website: https://1502.app/
 repository: 

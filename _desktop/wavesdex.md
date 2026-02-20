@@ -18,7 +18,7 @@ bugbounty:
 meta: deprecated
 verdict: sourceavailable
 date: 2025-04-12
-twitter:
+twitter: 
 social: 
 builds: 
 features: 

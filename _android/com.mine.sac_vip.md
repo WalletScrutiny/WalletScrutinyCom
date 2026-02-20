@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-03-02
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

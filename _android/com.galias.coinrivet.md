@@ -8,8 +8,8 @@ users: 1000
 appId: com.galias.coinrivet
 appCountry: 
 released: 
-updated: 2026-01-22
-version: 1.5.0.1238
+updated: 2026-02-04
+version: 1.5.1.1242
 reviews: 
 website: https://coinrivet.com/
 repository: 

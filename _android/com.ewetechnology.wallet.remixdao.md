@@ -3,7 +3,7 @@ wsId:
 title: 'Benty: Crypto & Web3 Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ewetechnology.wallet.remixdao
 appCountry: 
 released: 

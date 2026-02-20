@@ -8,18 +8,18 @@ users: 5000
 appId: com.interakt.b2z
 appCountry: 
 released: 2022-04-12
-updated: 2025-02-07
-version: 1.9.0
+updated: 2026-02-10
+version: 1.11.0
 reviews: 
 website: https://www.b2z.exchange/en/home
 repository: 
 issue: 
 icon: com.interakt.b2z.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-02-02
+date: 2026-02-20
 signer: 
 twitter: B2zExchange
 social:

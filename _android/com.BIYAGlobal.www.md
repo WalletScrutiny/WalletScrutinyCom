@@ -8,8 +8,8 @@ users: 100000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
-updated: 2026-01-31
-version: 2.9.062
+updated: 2026-02-11
+version: 2.9.071
 reviews: 15
 website: https://cn.biyapay.com/
 repository: 

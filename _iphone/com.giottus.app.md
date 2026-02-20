@@ -1,6 +1,6 @@
 ---
 wsId: giottus
-title: Giottus
+title: 'Giottus: Best Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.giottus.app
 appCountry: in
 idd: 1537068185
 released: 2021-01-27
-updated: 2025-11-17
-version: 3.0.38
-reviews: 1100
+updated: 2026-02-09
+version: 3.0.39
+reviews: 1105
 website: 
 repository: 
 issue: 

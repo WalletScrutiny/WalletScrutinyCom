@@ -8,8 +8,8 @@ appId: com.bitcoinrd.BitcoinRDexchange
 appCountry: do
 idd: '6450922250'
 released: 2023-08-31
-updated: 2026-01-30
-version: 0.18.3
+updated: 2026-02-06
+version: 0.18.4
 reviews: 1
 website: 
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.xoibit.holdingsapp
 appCountry: 
 released: 2025-07-05
-updated: 2025-10-31
-version: 1.0.8
+updated: 2026-02-02
+version: 1.0.14
 reviews: 
 website: https://xoibit.com
 repository: 

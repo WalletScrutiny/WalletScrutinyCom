@@ -21,6 +21,7 @@ date: 2026-02-09
 twitter: CashuBTC
 social:
 - https://t.me/CashuBTC
+builds: 
 features:
 - ln
 - cashu

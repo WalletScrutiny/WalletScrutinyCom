@@ -4,12 +4,12 @@ title: 'Rumble Wallet: Tip With Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.rumble.rumblewallet
 appCountry: 
 released: 2026-01-19
-updated: 2026-01-19
-version: 1.2.0
+updated: 2026-02-17
+version: 1.2.1
 reviews: 
 website: https://wallet.rumble.com
 repository: 

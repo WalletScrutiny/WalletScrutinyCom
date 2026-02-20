@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: io.sowaka.avacus.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
 appHashes: 
-date: 2026-01-14
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

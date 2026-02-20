@@ -1,6 +1,6 @@
 ---
 wsId: breetBitcoin
-title: 'Breet: Making Crypto Spendable'
+title: Breet
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-21
 updated: 2026-01-29
 version: 7.2.1
-reviews: 188
+reviews: 190
 website: https://breet.app
 repository: 
 issue: 

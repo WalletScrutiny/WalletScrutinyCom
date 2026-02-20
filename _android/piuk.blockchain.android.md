@@ -1,6 +1,6 @@
 ---
 wsId: blockchainWallet
-title: 'Blockchain.com: Buy BTC, SOL'
+title: 'Blockchain Wallet: Buy BTC'
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2026-01-23
-version: 202601.2.3
-reviews: 6329
+updated: 2026-02-19
+version: 202602.1.3
+reviews: 6327
 website: https://www.blockchain.com
 repository: 
 issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456

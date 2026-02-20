@@ -7,8 +7,8 @@ users: 500
 appId: com.tajir.wallet.app
 appCountry: 
 released: 2025-08-13
-updated: 2026-01-08
-version: 1.1.0
+updated: 2026-02-20
+version: 1.1.4
 reviews: 
 website: https://tajirwallet.io/
 repository: 

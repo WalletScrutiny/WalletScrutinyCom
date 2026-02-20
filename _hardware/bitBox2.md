@@ -40,7 +40,9 @@ social:
 - https://www.reddit.com/r/BitBoxWallet
 builds:
 - arch: arm
-  types: [multi, btc-only]
+  types:
+  - multi
+  - btc-only
 features: 
 
 ---

@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2026-01-22
-version: 2.3.6
+updated: 2026-02-09
+version: 2.3.8
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -39,7 +39,10 @@ social:
 - https://www.reddit.com/r/KeystoneWallet
 builds:
 - arch: arm
-  types: [cypherpunk, multi, btc-only]
+  types:
+  - cypherpunk
+  - multi
+  - btc-only
 features:
 - taproot
 

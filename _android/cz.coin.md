@@ -7,8 +7,8 @@ users: 10
 appId: cz.coin
 appCountry: 
 released: 2025-10-01
-updated: 2025-11-25
-version: 0.6.2
+updated: 2026-02-15
+version: 0.7.0
 reviews: 
 website: https://generalbytes.com
 repository: 

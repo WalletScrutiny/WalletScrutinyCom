@@ -8,9 +8,9 @@ users: 100000
 appId: app.backpack.mobile
 appCountry: 
 released: 2023-11-02
-updated: 2026-01-20
-version: 2.67.0
-reviews: 58
+updated: 2026-02-11
+version: 2.69.2
+reviews: 64
 website: https://backpack.app
 repository: 
 issue: 

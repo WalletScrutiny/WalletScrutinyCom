@@ -1,6 +1,6 @@
 ---
 wsId: sofiBank
-title: 'SoFi: Bank, Invest & Crypto'
+title: 'SoFi: Bank, Investing & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 5000000
 appId: com.sofi.mobile
 appCountry: 
 released: 2017-04-10
-updated: 2026-01-30
-version: 3.80.0
-reviews: 19879
+updated: 2026-02-13
+version: 3.83.0
+reviews: 20092
 website: https://www.sofi.com
 repository: 
 issue: 

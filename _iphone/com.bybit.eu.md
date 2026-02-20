@@ -8,9 +8,9 @@ appId: com.bybit.eu
 appCountry: gr
 idd: '6745866031'
 released: 2025-07-14
-updated: 2026-01-09
-version: 5.8.10
-reviews: 157
+updated: 2026-02-12
+version: 5.12.0
+reviews: 168
 website: 
 repository: 
 issue: 

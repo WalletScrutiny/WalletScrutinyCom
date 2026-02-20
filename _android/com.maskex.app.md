@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.maskex.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-04-07
+date: 2026-02-20
 signer: 
 twitter: MaskexGlobal
 social:

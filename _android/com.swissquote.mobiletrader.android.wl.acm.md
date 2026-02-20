@@ -8,8 +8,8 @@ users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
 released: 2012-11-01
-updated: 2025-12-10
-version: 3.12.0
+updated: 2026-02-06
+version: 3.13.0
 reviews: 4
 website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
 repository: 

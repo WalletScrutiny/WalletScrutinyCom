@@ -7,9 +7,9 @@ appId: com.cakewallet.monero
 appCountry: us
 idd: '1601990386'
 released: 2022-01-07
-updated: 2026-01-22
-version: 5.8.0
-reviews: 365
+updated: 2026-02-11
+version: 5.9.0
+reviews: 368
 website: 
 repository: 
 issue: 

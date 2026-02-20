@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2025-02-20
 discontinued: 
-updated: 2026-01-18
-version: 1.7.0
+updated: 2026-02-03
+version: 1.7.1
 binaries: https://github.com/andreasgriffin/bitcoin-safe/releases
 provider: Andreas Griffin
 providerWebsite: 
@@ -24,9 +24,13 @@ social:
 - https://yakihonne.com/users/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v
 builds:
 - arch: x86_64-linux
-  types: [appimage, deb]
+  types:
+  - appimage
+  - deb
 - arch: x86_64-windows
-  types: [portable, setup]
+  types:
+  - portable
+  - setup
 features:
 - Backup & Sync: Label and Coin category synchronization
 - Nostr Chat: to collaborative sign Multisig wallet across different computers, hardware wallets, and secure encrypted communication via Nostr durig the process.

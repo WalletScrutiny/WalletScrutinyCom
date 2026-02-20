@@ -4,12 +4,12 @@ title: T+ Wallet-Essential Crypto Hub
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: org.talkapp
 appCountry: 
 released: 2021-01-05
-updated: 2026-01-08
-version: 3.1.0
+updated: 2026-02-05
+version: 3.2.0
 reviews: 
 website: https://talkapp.org
 repository: 

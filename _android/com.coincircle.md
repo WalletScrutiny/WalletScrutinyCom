@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2025-02-26
+date: 2026-02-20
 signer: 
 twitter: coincircle
 social:

@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-04-09
 discontinued: 
-updated: 2024-01-02
-version: 0.14.6
+updated: 2026-02-19
+version: 0.15.0
 binaries: 
 provider: Thunderhub
 providerWebsite: 

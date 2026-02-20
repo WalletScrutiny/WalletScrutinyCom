@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-10
 updated: 2026-01-16
 version: 2.37.0
-reviews: 231
+reviews: 232
 website: https://kripto.btcturk.com
 repository: 
 issue: 

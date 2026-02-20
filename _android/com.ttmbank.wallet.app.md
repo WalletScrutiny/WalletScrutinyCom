@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.ttmbank.wallet.app.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2025-05-14
+date: 2026-02-20
 signer: 
 twitter: 0xMarsDAO
 social:

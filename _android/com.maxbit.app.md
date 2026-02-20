@@ -4,7 +4,7 @@ title: 'Maxbit: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.maxbit.app
 appCountry: 
 released: 2024-09-24

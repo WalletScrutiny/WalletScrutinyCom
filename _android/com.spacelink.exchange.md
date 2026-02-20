@@ -15,15 +15,15 @@ repository:
 issue: 
 icon: com.spacelink.exchange.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2023-01-02
+date: 2026-02-20
 signer: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 
+developerName: Space-link
 builds: 
 features: 
 

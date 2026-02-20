@@ -8,8 +8,8 @@ users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2025-12-24
-version: 2.9.5
+updated: 2026-02-05
+version: 2.9.8
 reviews: 
 website: https://altify.app
 repository: 

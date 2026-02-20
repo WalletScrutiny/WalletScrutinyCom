@@ -10,7 +10,7 @@ idd: '1483125957'
 released: 2019-12-15
 updated: 2025-03-28
 version: '6.11'
-reviews: 9
+reviews: 10
 website: https://eurocoinpay.io
 repository: 
 issue: 

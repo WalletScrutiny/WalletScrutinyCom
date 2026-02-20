@@ -11,7 +11,7 @@ appCountry:
 released: 2018-05-31
 updated: 2026-01-15
 version: 2.18.0
-reviews: 240
+reviews: 241
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

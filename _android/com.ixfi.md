@@ -10,7 +10,7 @@ appCountry:
 released: 2022-01-19
 updated: 2025-11-21
 version: 1.10.20
-reviews: 64
+reviews: 63
 website: https://ixfi.com
 repository: 
 issue: 

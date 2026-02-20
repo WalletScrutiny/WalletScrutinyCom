@@ -9,7 +9,7 @@ appCountry:
 released: 2021-05-13
 updated: 2025-10-27
 version: 1.5.5
-reviews: 91
+reviews: 88
 website: https://coindex.money
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 

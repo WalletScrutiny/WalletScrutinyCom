@@ -8,8 +8,8 @@ users: 50000
 appId: com.criptan.app
 appCountry: 
 released: 2020-08-23
-updated: 2026-01-12
-version: 3.2.25
+updated: 2026-02-12
+version: 3.2.32
 reviews: 
 website: https://criptan.com
 repository: 

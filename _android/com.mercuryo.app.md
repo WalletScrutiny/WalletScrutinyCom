@@ -10,7 +10,7 @@ appCountry:
 released: 2019-09-03
 updated: 2025-11-11
 version: 2.10.1
-reviews: 123
+reviews: 124
 website: https://mercuryo.io
 repository: 
 issue: 

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-02-14
+date: 2026-02-20
 signer: 
 twitter: salletone
 social:

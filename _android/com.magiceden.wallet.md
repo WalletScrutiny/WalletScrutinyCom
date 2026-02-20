@@ -10,7 +10,7 @@ appCountry:
 released: 2024-05-17
 updated: 2026-01-22
 version: 3.3.0
-reviews: 121
+reviews: 122
 website: https://help.magiceden.io/en/
 repository: 
 issue: 

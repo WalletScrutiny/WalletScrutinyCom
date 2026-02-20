@@ -8,8 +8,8 @@ users: 500000
 appId: com.bittime.currency.exchange
 appCountry: 
 released: 2022-09-23
-updated: 2025-12-26
-version: 2.0.5
+updated: 2026-02-17
+version: 2.0.8
 reviews: 
 website: http://www.bittime.com
 repository: 

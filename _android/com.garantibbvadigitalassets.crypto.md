@@ -9,7 +9,7 @@ appId: com.garantibbvadigitalassets.crypto
 appCountry: 
 released: 2023-12-11
 updated: 2026-01-27
-version: 1.12.0
+version: 1.12.2
 reviews: 3
 website: https://www.garantibbvakripto.com.tr
 repository: 

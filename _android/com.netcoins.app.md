@@ -8,8 +8,8 @@ users: 50000
 appId: com.netcoins.app
 appCountry: 
 released: 2022-12-10
-updated: 2025-12-20
-version: 5.8.1
+updated: 2026-02-04
+version: 5.9.0
 reviews: 12
 website: https://www.netcoins.com
 repository: 

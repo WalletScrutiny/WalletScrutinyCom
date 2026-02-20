@@ -4,17 +4,17 @@ appId: cakewallet
 authors:
 - danny
 released: 2023-02-24
-discontinued:
+discontinued: 
 updated: 2026-02-11
 version: 5.9.0
-binaries:
+binaries: 
 provider: Cake Labs
-providerWebsite:
+providerWebsite: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue:
+issue: 
 icon: cakewallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: sourceavailable
 date: 2026-02-13
@@ -23,8 +23,8 @@ social:
 - https://www.facebook.com/cakewallet
 - https://t.me/cakewalletannouncements
 - https://discord.com/invite/2vqYJdXG2H
-builds:
-features:
+builds: 
+features: 
 
 ---
 

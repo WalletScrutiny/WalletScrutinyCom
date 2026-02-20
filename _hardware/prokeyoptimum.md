@@ -30,7 +30,7 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-10-18
 signer: 
-twitter:
+twitter: 
 social:
 - https://www.linkedin.com/company/prokey-technologies
 - https://www.facebook.com/prokey.io

@@ -4,12 +4,12 @@ title: Cove - Simple Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 10
+users: 50
 appId: org.bitcoinppl.cove
 appCountry: 
-released: 
-updated: 2026-01-30
-version: VARY
+released: 2026-02-12
+updated: 2026-02-12
+version: 1.2.1
 reviews: 
 website: https://covebitcoinwallet.com
 repository: 
@@ -24,7 +24,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: InfraOps
+developerName: InfraOps LLC
 builds: 
 features: 
 

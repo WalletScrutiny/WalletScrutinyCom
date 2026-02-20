@@ -8,9 +8,9 @@ appId: com.bittime.currency.exchange
 appCountry: id
 idd: '1641059360'
 released: 2022-11-15
-updated: 2025-12-29
-version: 2.0.5
-reviews: 386
+updated: 2026-02-18
+version: 2.0.8
+reviews: 401
 website: 
 repository: 
 issue: 

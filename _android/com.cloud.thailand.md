@@ -8,8 +8,8 @@ users: 1000000
 appId: com.cloud.thailand
 appCountry: 
 released: 2023-10-31
-updated: 2026-01-21
-version: 1.50.0
+updated: 2026-02-03
+version: 1.50.1
 reviews: 4
 website: 
 repository: 

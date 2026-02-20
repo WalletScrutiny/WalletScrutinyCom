@@ -8,8 +8,8 @@ users: 1000
 appId: com.bity.wallet.production
 appCountry: 
 released: 2024-02-23
-updated: 2025-11-27
-version: 2.0.0
+updated: 2026-02-02
+version: 2.0.1
 reviews: 2
 website: https://bity.com
 repository: 

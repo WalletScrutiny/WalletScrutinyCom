@@ -8,9 +8,9 @@ users: 100000
 appId: co.bitcoindepot.app
 appCountry: us
 released: 2020-11-04
-updated: 2025-12-04
-version: 4.2.0
-reviews: 261
+updated: 2026-02-02
+version: 4.2.1
+reviews: 264
 website: https://www.bitcoindepot.com/
 repository: 
 issue: 

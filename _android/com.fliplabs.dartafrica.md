@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.fliplabs.dartafrica.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-11-17
+date: 2026-02-20
 signer: 
 twitter: dartafrica
 social: 

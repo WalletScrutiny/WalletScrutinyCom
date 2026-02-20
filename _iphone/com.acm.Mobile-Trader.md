@@ -8,9 +8,9 @@ appId: com.acm.Mobile-Trader
 appCountry: ch
 idd: '340408565'
 released: 2009-12-09
-updated: 2026-01-26
-version: 3.44.0
-reviews: 662
+updated: 2026-02-09
+version: 3.45.0
+reviews: 666
 website: https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
 repository: 
 issue: 

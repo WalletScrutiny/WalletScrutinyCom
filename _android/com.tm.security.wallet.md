@@ -8,8 +8,8 @@ users: 10000
 appId: com.tm.security.wallet
 appCountry: 
 released: 2022-05-26
-updated: 2026-02-01
-version: 2.5.7
+updated: 2026-02-13
+version: 2.6.0
 reviews: 10
 website: https://debox.pro
 repository: 

@@ -8,8 +8,8 @@ users: 100000
 appId: web.tradenewton.com
 appCountry: 
 released: 2019-11-18
-updated: 2026-01-23
-version: 2.20.10
+updated: 2026-02-11
+version: 2.20.13
 reviews: 4
 website: https://newton.co
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.reddit.com/r/newtonco
 - https://www.linkedin.com/company/newton-crypto
 redirect_from: 
-developerName: Newton Crypto Ltd.
+developerName: Newton Crypto Ltd
 builds: 
 features: 
 

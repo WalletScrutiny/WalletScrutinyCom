@@ -7,8 +7,8 @@ users: 10000
 appId: com.paytaca.app
 appCountry: 
 released: 2021-09-26
-updated: 2026-01-22
-version: v0.23.0
+updated: 2026-02-17
+version: v0.23.1
 reviews: 4
 website: https://www.paytaca.com
 repository: 

@@ -13,7 +13,7 @@ appCountry:
 released: 2016-03-02
 updated: 2026-01-31
 version: 4.7.0
-reviews: 360
+reviews: 362
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
 issue: https://github.com/spesmilo/electrum/issues/8838

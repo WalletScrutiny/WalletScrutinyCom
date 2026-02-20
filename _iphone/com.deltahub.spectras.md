@@ -7,9 +7,9 @@ appId: com.deltahub.spectras
 appCountry: us
 idd: '6502897143'
 released: 2024-08-18
-updated: 2026-02-01
-version: 3.3.2
-reviews: 1759
+updated: 2026-02-09
+version: 3.3.4
+reviews: 1965
 website: 
 repository: 
 issue: 

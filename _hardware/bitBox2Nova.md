@@ -34,7 +34,9 @@ social:
 - https://www.reddit.com/r/BitBoxWallet
 builds:
 - arch: arm
-  types: [multi, btc-only]
+  types:
+  - multi
+  - btc-only
 features:
 - Tempered glass OLED display
 - EAL6+ certified Secure Chip

@@ -8,8 +8,8 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2026-01-30
-version: 15.3.1
+updated: 2026-02-13
+version: 15.5.0
 reviews: 4
 website: https://www.syfe.com
 repository: 

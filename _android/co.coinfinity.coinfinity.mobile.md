@@ -8,8 +8,8 @@ users: 10000
 appId: co.coinfinity.coinfinity.mobile
 appCountry: 
 released: 
-updated: 2026-01-20
-version: 3.0.7
+updated: 2026-02-06
+version: 3.0.8
 reviews: 
 website: https://coinfinity.co/
 repository: 

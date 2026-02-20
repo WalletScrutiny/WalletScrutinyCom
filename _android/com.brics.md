@@ -7,8 +7,8 @@ users: 1000
 appId: com.brics
 appCountry: 
 released: 
-updated: 2025-11-07
-version: 0.0.7
+updated: 2026-02-05
+version: 0.0.10
 reviews: 
 website: https://www.brics-pay.com/BRICS-Pay-Retail
 repository: 

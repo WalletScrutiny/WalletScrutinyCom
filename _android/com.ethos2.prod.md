@@ -8,8 +8,8 @@ users: 10000
 appId: com.ethos2.prod
 appCountry: 
 released: 2023-06-26
-updated: 2026-01-01
-version: 5.3.2
+updated: 2026-01-30
+version: 5.3.3
 reviews: 17
 website: https://www.ethos.io
 repository: 

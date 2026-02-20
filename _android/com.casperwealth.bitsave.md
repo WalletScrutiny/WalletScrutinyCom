@@ -8,8 +8,8 @@ users: 10000
 appId: com.casperwealth.bitsave
 appCountry: 
 released: 2024-04-01
-updated: 2025-10-30
-version: 1.27.0
+updated: 2026-02-16
+version: 1.28.0
 reviews: 
 website: https://bitsave.club/
 repository: 

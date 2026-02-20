@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: BitDa Wallet 加密货币比特币钱包
+title: BitDa Cryptocurrency Wallet
 altTitle: 
 authors: 
 users: 50
 appId: com.bitda.wallet
 appCountry: 
 released: 
-updated: 2026-01-04
-version: 1.0.1
+updated: 2026-02-09
+version: 1.0.4
 reviews: 
 website: 
 repository: 

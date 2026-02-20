@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: me.cryptopay.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-03-10
+date: 2026-02-20
 signer: 
 twitter: cryptopay
 social:

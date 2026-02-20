@@ -8,8 +8,8 @@ appId: com.amaxg.bizapaywallet
 appCountry: us
 idd: '6740513430'
 released: 2025-03-23
-updated: 2025-03-24
-version: 1.0.0
+updated: 2026-02-10
+version: 1.1.1
 reviews: 1
 website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4
 repository: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.bitdenex
 appCountry: 
 released: 
-updated: 2026-01-22
-version: 3.2.22
+updated: 2026-02-12
+version: 3.2.23
 reviews: 
 website: https://bitdenex.com
 repository: 

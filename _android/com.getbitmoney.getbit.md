@@ -7,8 +7,8 @@ users: 1000
 appId: com.getbitmoney.getbit
 appCountry: 
 released: 2023-01-16
-updated: 2026-01-11
-version: 2.00.35
+updated: 2026-02-19
+version: 2.00.41
 reviews: 
 website: https://www.getbit.money
 repository: 

@@ -9,8 +9,8 @@ appId: com.bitbuy.mobileApp
 appCountry: ca
 released: 2019-10-15
 updated: 2025-12-05
-version: 5.3.2
-reviews: 1380
+version: 5.3.3
+reviews: 1381
 website: https://bitbuy.ca/
 repository: 
 issue: 

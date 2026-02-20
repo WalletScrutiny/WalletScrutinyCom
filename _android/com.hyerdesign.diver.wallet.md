@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.hyerdesign.diver.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
 appHashes: 
-date: 2026-01-14
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

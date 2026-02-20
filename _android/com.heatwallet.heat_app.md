@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.heatwallet.heat_app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-03-01
+date: 2026-02-20
 signer: 
 twitter: 
 social: 

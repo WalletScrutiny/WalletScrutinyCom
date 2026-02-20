@@ -10,7 +10,7 @@ appCountry: tm
 released: 2020-12-10
 updated: 2026-01-14
 version: 2.18.10
-reviews: 267
+reviews: 269
 website: https://dzengi.com/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 500000
 appId: br.com.mynt
 appCountry: 
 released: 2022-06-21
-updated: 2026-01-23
-version: 1.101.0
+updated: 2026-02-06
+version: 1.103.0
 reviews: 5
 website: 
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Trading & Investing'
+title: 'Trading & Investing: AvaTrade'
 altTitle: 
 authors:
 - danny

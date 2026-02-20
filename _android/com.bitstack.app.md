@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitstack.app
 appCountry: 
 released: 
-updated: 2026-01-15
-version: 3.5.2
+updated: 2026-02-13
+version: 3.6.0
 reviews: 
 website: https://bitstack-app.com
 repository: 

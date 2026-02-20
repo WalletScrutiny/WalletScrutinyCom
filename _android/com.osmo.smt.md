@@ -8,7 +8,7 @@ users: 100000
 appId: com.osmo.smt
 appCountry: 
 released: 2022-07-01
-updated: 2025-12-10
+updated: 2026-02-06
 version: 4.9.0
 reviews: 43
 website: https://www.osmowallet.com/

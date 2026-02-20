@@ -40,7 +40,9 @@ social:
 - https://www.reddit.com/r/FoundationDevices/
 builds:
 - arch: arm
-  types: [mono, color]
+  types:
+  - mono
+  - color
 features: 
 
 ---
