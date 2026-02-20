@@ -5,5 +5,3 @@ meta: deprecated
 verdict: nobtc
 
 ---
-
-{% include copyFromAndroid.html %}

@@ -5,4 +5,3 @@ meta: removed
 verdict: nobtc
 
 ---
-

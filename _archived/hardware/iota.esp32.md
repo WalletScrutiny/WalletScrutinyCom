@@ -5,7 +5,3 @@ meta: ok
 verdict: nobtc
 
 ---
-
-## Analysis 
-
-The IOTA ESP32 is a do-it-yourself project exclusively for the IOTA cryptocurrency.

@@ -5,5 +5,3 @@ meta: ok
 verdict: nobtc
 
 ---
-
-This device does not support Bitcoin.

@@ -5,5 +5,3 @@ meta: stale
 verdict: nowallet
 
 ---
-
-This app only provides news about Bitcoin but no wallet itself.

@@ -5,6 +5,3 @@ meta: removed
 verdict: nobtc
 
 ---
-
-{% include copyFromAndroid.html %}
-

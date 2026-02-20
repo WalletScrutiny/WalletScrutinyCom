@@ -5,27 +5,3 @@ meta: removed
 verdict: nowallet
 
 ---
-
-**Update 2021-10-26**: This app is no more.
-
-This app has no website and in its description it says:
-
-> When it comes to finding the best bitcoin exchange and buy bitcoin things are
-  not all that easy. Why is this so? Simply because many of the best sites to
-  buy bitcoin are rather recently online. This means that they have had little
-  to get the word out about their services and products. Most people coming to
-  this page will be asking how to buy bitcoin online through a secure means.
-  Well, this app is a good starting point.
-> 
-> * bitcoin price live
-> * bitcoin price today
-> * bitcoin price chart
-> * **bitcoin wallet**
-> * what is bitcoin
-> * buy bitcoin
-> * bitcoin price
-
-[emphasize ours]
-
-which could be read as this app having an integrated Bitcoin wallet but we
-assume it is only claiming to list Bitcoin wallets and is not a wallet itself.
