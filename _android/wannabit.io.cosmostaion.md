@@ -27,7 +27,9 @@ social:
 - https://www.youtube.com/@cosmostationio
 redirect_from: 
 developerName: Stamper
-builds: 
+builds:
+- arch: android
+  types: [apk]
 features: 
 
 ---
