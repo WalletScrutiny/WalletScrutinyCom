@@ -5,7 +5,3 @@ meta: ok
 verdict: nowallet
 
 ---
-
-You probably are looking for the other 99pay app:
-
-{% include walletLink.html wallet='android/com.pay99.wallet' verdict='true' %}  

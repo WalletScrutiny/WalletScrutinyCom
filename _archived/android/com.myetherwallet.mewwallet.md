@@ -5,7 +5,3 @@ meta: ok
 verdict: nobtc
 
 ---
-
-Supports 3 chains: Ethereum, Binance and Polygon. 
-
-Does not support BTC.

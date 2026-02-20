@@ -5,5 +5,3 @@ meta: removed
 verdict: nobtc
 
 ---
-
-Deposit can only be through TRC20 USDT. 

@@ -163,7 +163,7 @@ async function processFile(platform, fileName) {
     const archiveDir = await ensureArchiveDirectory(platform);
     
     const archiveFilePath = path.join(archiveDir, fileName);
-    const updatedContent = helper.getResult(updatedHeader, body);
+    const updatedContent = helper.getResult(updatedHeader, '');
     await fs.writeFile(archiveFilePath, updatedContent, 'utf8');
 
     const walletIdentifier = getWalletIdentifier(platform, fileName);

@@ -5,18 +5,3 @@ meta: obsolete
 verdict: nobtc
 
 ---
-
-## App Description from Google Play 
-
-> Verto is a multi-currency wallet that will allow access to the VDEX. Verto will also have integrative functionality of other DApps like order book settlement from VDEX and a crypto ratings and rankings dashboard from Vespucci.
-
-## Analysis 
-
-- We installed the app but **could not find a BTC wallet.** 
-- We clicked on 'Trade VTX' and it led to a site called STEX, which had this statement on its site: 
-
-> Force Majeure statement
->
-> Due unrecognized factors we suffered data loss. In result we have very fragmented and non-consistent data about balances, transactions, etc. We cannot continue any business operations.
->
-> To try to recover any accesable assets we kindly asking for your help - please send any related information about your transactions and account to recovery@stex.com.

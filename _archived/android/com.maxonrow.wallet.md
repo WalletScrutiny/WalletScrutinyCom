@@ -5,5 +5,3 @@ meta: removed
 verdict: nobtc
 
 ---
-
-We find no mention of Bitcoin on the description or the website.

@@ -5,6 +5,3 @@ meta: stale
 verdict: nowallet
 
 ---
-
-{% include copyFromAndroid.html %}
-

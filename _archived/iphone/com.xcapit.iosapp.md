@@ -5,5 +5,3 @@ meta: stale
 verdict: nobtc
 
 ---
-
-{% include copyFromAndroid.html %}

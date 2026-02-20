@@ -5,5 +5,3 @@ meta: ok
 verdict: nobtc
 
 ---
-
-This app does not feature BTC wallet functionality.

@@ -5,4 +5,3 @@ meta: stale
 verdict: nobtc
 
 ---
-

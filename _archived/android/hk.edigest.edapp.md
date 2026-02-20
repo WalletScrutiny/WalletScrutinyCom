@@ -5,19 +5,3 @@ meta: ok
 verdict: nowallet
 
 ---
-
-## App Description from Google Play
-
-> Download the "Jingyi" app now to browse economic investment, real estate market, financial planning, business stories, workplace entrepreneurship, financial technology, preferential information, practical lazy bags and other information anytime, anywhere.
->
-> 3. Track local and global stock market trends, analyze potential stocks and sectors first-hand, and deconstruct virtual currency, NFT and blockchain technology from simple to deep, including
-> - Chinese stocks: Tencent, Alibaba, Meituan, JD.com, Xiaomi, Baidu, Pinduoduo, bilibili, etc.
-- US stocks: Tesla, Amazon, Facebook, Apple, Netflix, Microsoft, Paypal, Disney, Adobe, Nike, McDonald, etc.
-- Major banks' reports, fund holding transactions, north water flow (Shenzhen-Hong Kong Stock Connect, Shanghai-Hong Kong Stock Connect) 
-
-There was no mention of "crypto", "bitcoin", or "wallet"
-
-## Analysis 
-
-- The primary language for the app is Chinese.
-- We opened the app and did not find any semblance of a wallet. [Screenshot](https://twitter.com/BitcoinWalletz/status/1668550779509121029)

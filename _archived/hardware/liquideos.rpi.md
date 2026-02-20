@@ -5,7 +5,3 @@ meta: ok
 verdict: nobtc
 
 ---
-
-## Analysis 
-
-This do-it-yourself project is specifically meant for EOS wallets. 
