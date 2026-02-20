@@ -21,7 +21,7 @@ verdict: sourceavailable
 appHashes: []
 date: 2024-03-14
 signer: 
-twitter: Bitkeyofficial
+twitter: bitkey
 social:
 - https://www.linkedin.com/company/bitkey-official
 - https://www.facebook.com/profile.php?id=100088526238789

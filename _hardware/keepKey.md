@@ -31,7 +31,7 @@ appHashes:
 - 518ad41643ee8a0aa6a6422f8534ac94f56cd65bc637aea4db7f3fdbb53255c3
 date: 2024-05-10
 signer: 
-twitter: ShapeShift_io
+twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 builds: 

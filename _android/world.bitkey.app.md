@@ -25,7 +25,7 @@ appHashes:
 - 54cc265679cd8925b9045b3bb8e6099f15f74d55f3f1d8255d4f8773e0cc9bdb
 date: 2025-03-03
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
-twitter: Bitkeyofficial
+twitter: bitkey
 social:
 - https://www.linkedin.com/company/bitkey-official
 - https://www.facebook.com/profile.php?id=100088526238789
