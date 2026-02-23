@@ -86,7 +86,7 @@ The results file should be created by the build script after compilation. It sho
 
 # Wallet files
 
-Wallet files (.md) need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
+Wallet files (.md) for hardware and desktop wallet types need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
 
 ```yaml
 builds:
@@ -104,3 +104,5 @@ builds:
 Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
 
 The Build Server will iterate through all combinations of architectures and types, passing the appropiate `--arch` and `--type` parameters to the build script.
+
+Android wallet files don't currently need the `builds` array, as we'll be testing assets registered by users who provide an apk.
