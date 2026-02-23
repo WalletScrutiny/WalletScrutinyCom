@@ -20,7 +20,7 @@ issue: https://github.com/bitpay/bitpay-app/issues/1431
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: nosource
+verdict: sourceavailable
 appHashes: []
 date: 2024-10-21
 signer: 
