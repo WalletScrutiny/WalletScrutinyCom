@@ -26,9 +26,6 @@ social:
 - https://www.youtube.com/@Leather-io
 redirect_from: 
 developerName: Leather Wallet LLC
-builds:
-- arch: android
-  types: [apk]
 features: 
 
 ---
