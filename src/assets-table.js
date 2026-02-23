@@ -1135,17 +1135,17 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const wallet = window.wallets.find(w => w.appId === identifier);
   const walletTitle = wallet ? wallet.title : identifier;
 
-  content.innerHTML += `
-    <p><strong>Application:</strong> ${walletTitle}</p>
-    <p><strong>Version:</strong> ${version}</p>
-    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
-
   const verificationHashes = verification.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
   if (verificationHashes.length === 1) {
     content.innerHTML += `<p><strong>Hash of the binary reproduced:</strong> ${verificationHashes[0]}</p>`;
   } else {
     content.innerHTML += `<p style="margin-bottom: 10px;"><strong>Hashes of the binaries reproduced:</strong><br>${verificationHashes.join('<br>')}</p>`;
   }
+
+  content.innerHTML += `
+    <p><strong>Application:</strong> ${walletTitle}</p>
+    <p><strong>Version:</strong> ${version}</p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
 
   const basedOn = getFirstTagValue(verification, 'based-on');
   if (basedOn) {

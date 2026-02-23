@@ -19,3 +19,5 @@ export const DEBUG_APP_IDS = [
 ];
 
 export const BUILD_DIR = '/opt/build-server-builds';
+
+export const BLOSSOM_SERVER_URL = 'https://files.nostr.info';

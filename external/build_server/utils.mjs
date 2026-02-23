@@ -1,8 +1,9 @@
-import { exec, execSync } from 'child_process';
+import { execSync } from 'child_process';
 import fs from 'fs';
-import yaml from 'js-yaml';
 import minimist from 'minimist';
-import { appLog, verificationsLog } from './logger.js';
+import { appLog } from './logger.js';
+import { WS_BOT_NOSTR_PUBKEY_HEX, DEBUG_APP_IDS } from './config/config.mjs';
+import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
 
@@ -115,44 +116,6 @@ export async function fetchAppInfo() {
   }
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type) {
-  return new Promise((resolve, reject) => {
-    // Execute script with asciinema recording
-    const architectureFlag = architecture ? `--arch ${architecture}` : '';
-    const typeFlag = type ? `--type ${type}` : '';
-    const scriptArgs = [architectureFlag, typeFlag].filter(Boolean).join(' ');
-    const argsString = scriptArgs ? ` ${scriptArgs}` : '';
-    const finalScriptExecutionCommand = `${script} --version ${newWalletVersion}${argsString}`;
-
-    let castFileName = script.replace(/\.sh$/, '');
-    castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$?" ${castFileName}`;
-    appLog.info(`Recording and executing script: ${asciinemaCommand}`);
-    exec(asciinemaCommand, {
-      env: {
-        // Ensure PATH includes standard system directories for rootless container tools
-        PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
-        HOME: process.env.HOME || '/tmp',
-        XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-      },
-      maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
-    }, (error, stdout, stderr) => {
-      if (error) {
-        appLog.error(`Error recording and executing script: ${error}`);
-        reject(error);
-      } else {
-        appLog.info(`Script recorded and executed successfully: ${castFileName}`);
-        resolve({
-          castFileName: castFileName,
-          finalScriptExecutionCommand: finalScriptExecutionCommand,
-          buildDirForThisVerification: buildDirForThisVerification
-        });
-      }
-    });
-  });
-}
-
 export async function calculateFileHash(file) {
   const arrayBuffer = await file.arrayBuffer();
   const crypto = await import("crypto");
@@ -165,86 +128,190 @@ export function getFirstTagValue(event, tagName, valueIfNull = '') {
   return event.tags.find(tag => tag[0] === tagName)?.[1] ?? valueIfNull;
 }
 
-export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  let hashes = [];
-  let matches = false;
+export function getAppIdsFromVerifications(verifications) {
+  return Array.from(new Set(verifications.map(verification => getFirstTagValue(verification.verification, 'i'))));
+}
 
-  // First, try to find and read COMPARISON_RESULTS.yaml
-  const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
-  if (yamlFilePath) {
-    try {
-      const yamlContent = fs.readFileSync(yamlFilePath, 'utf8');
-      const data = yaml.load(yamlContent);
+export function getFileAttachmentIDsForVerificationEvent(event) {
+  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
+}
 
-      appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
-      if (data?.results) {
-        // Find all results matching the architecture
-        const architectureResults = data.results.filter(r => r.architecture === architecture);
+export async function filterAndroidReproducibleVerificationsWithBuildScripts(verifications) {
+  const fileAttachmentIds = [];
 
-        if (architectureResults.length > 0) {
-          const allFileMatches = [];
-          
-          for (const result of architectureResults) {
-            // Check if it's the new format with files array
-            if (result.files && Array.isArray(result.files)) {
-              // New format: multiple files per architecture
-              const fileHashes = result.files
-                .filter(file => file.hash)
-                .map(file => file.hash);
-              hashes.push(...fileHashes);
-              
-              // Collect match status for each file
-              result.files.forEach(file => {
-                if (file.hash) {
-                  allFileMatches.push(file.match === true);
-                }
-              });
-            } else if (result.hash) {
-              // Old format or flat format: single hash per entry
-              hashes.push(result.hash);
-              allFileMatches.push(result.match === true);
-            }
+  // First we get fileAttachmentIds for all android verifications
+  // made by trusted verifiers and put them in a verificationsCandidates array
+  const verificationsCandidates = [];
+  for (const [sha256, verificationEvents] of verifications) {
+    for (const verification of verificationEvents) {
+      if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
+        continue;
+      }
+      if (getFirstTagValue(verification, 'platform') !== 'android') {
+        continue;
+      }
+      if (getFirstTagValue(verification, 'status') !== 'reproducible') {
+        continue;
+      }
+      // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
+      if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+        continue;
+      }
+      const fileAttachmentIdsForThisVerification = getFileAttachmentIDsForVerificationEvent(verification);
+      if (fileAttachmentIdsForThisVerification.length > 0) {
+        fileAttachmentIdsForThisVerification.forEach(fileAttachmentId => {
+          if (!fileAttachmentIds.includes(fileAttachmentId)) {
+            fileAttachmentIds.push(fileAttachmentId);
           }
-          
-          // All files/entries must match for overall match to be true
-          matches = allFileMatches.length > 0 && allFileMatches.every(m => m === true);
-        }
-      }
+        });
 
-      if (hashes.length > 0) {
-        return { hashes, matches };
+        verificationsCandidates.push(verification);
       }
-    } catch (error) {
-      appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
-      verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.yaml: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+    }
+  }
+
+  appLog.debug(`verificationsCandidates: ${verificationsCandidates.length}`);
+  appLog.debug(`fileAttachmentIds: ${fileAttachmentIds.length}`);
+
+  const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
+
+  // buildShFileEvents will have key=fileAttachmentId and value=fileEvent
+  // of events that are build.sh files for verificationsCandidates
+  const buildShFileEvents = new Map();
+  for (const fileEvent of fileEvents) {
+    const fileName = getFirstTagValue(fileEvent, 'name');
+    const extension = getFirstTagValue(fileEvent, 'extension');
+    const scriptName = fileName + '.' + extension;
+    if (scriptName.endsWith('build.sh')) {
+      buildShFileEvents.set(fileEvent.id, fileEvent);
+    }
+  }
+  appLog.debug(`buildShFileEvents: ${buildShFileEvents.size}`);
+
+  // We iterate over verificationsCandidates and for each verification,
+  // if the verification has a fileAttachmentId that is in buildShFileEvents,
+  // we add the fileEvent to verificationsWithBuildShFiles.
+  const verificationsWithBuildShFiles = [];
+  for (const verification of verificationsCandidates) {
+    const fileAttachmentIdsForThisVerification = getFileAttachmentIDsForVerificationEvent(verification);
+    for (const fileAttachmentId of fileAttachmentIdsForThisVerification) {
+      if (buildShFileEvents.has(fileAttachmentId)) {
+        verificationsWithBuildShFiles.push({
+          verification: verification,
+          buildShFileEvent: buildShFileEvents.get(fileAttachmentId)
+        });
+      }
     }
   }
 
-  // Fallback to COMPARISON_RESULTS.txt if YAML not found or didn't contain matching architecture
-  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-  if (!comparisonFilePath) {
+  return verificationsWithBuildShFiles;
+}
+
+export function filterAssetsWithoutVerification(assets, verifications) {
+  const assetsWithoutVerification = [];
+  for (const asset of assets) {
+    const sha256 = getFirstTagValue(asset, 'x');
+
+    if (sha256 && !verifications.has(sha256)) {
+      assetsWithoutVerification.push(asset);
+    }
+  }
+  return assetsWithoutVerification;
+}
+
+export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
+  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+  fs.writeFileSync(filePath, fileContent, 'utf8');
+  fs.chmodSync(filePath, 0o755);
+}
+
+/**
+ * Remove a directory recursively. On Unix tries rm -rf first; on failure falls
+ * back to fs.rmSync with retries (handles ENOTEMPTY/EBUSY and permission issues).
+ */
+export function removeDirectoryRecursive(dir) {
+  if (!fs.existsSync(dir)) return;
+
+  if (process.platform !== 'win32') {
+    try {
+      const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
+      execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
+      return;
+    } catch (rmErr) {
+      const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
+      appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
+    }
+  }
+
+  const maxRetries = 3;
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      fs.rmSync(dir, { recursive: true, force: true });
+      return;
+    } catch (err) {
+      if ((err.code === 'ENOTEMPTY' || err.code === 'EBUSY') && i < maxRetries - 1) {
+        const deadline = Date.now() + 500 * (i + 1);
+        while (Date.now() < deadline) {}
+      } else {
+        throw err;
+      }
+    }
+  }
+}
+
+export function createCompilationDirectory(buildDir) {
+  removeDirectoryRecursive(buildDir);
+  fs.mkdirSync(buildDir, { recursive: true });
+}
+
+export function getCombinationsFromAppInfo(appInfo, platform, appId) {
+  let buildCombinations = [];
+
+  const appInfoFromWS = appInfo?.[platform]?.[appId] || null;
+  const buildConfigFromWS = appInfoFromWS?.builds || null;
+
+  if (buildConfigFromWS) {
+    for (const buildConfig of buildConfigFromWS) {
+      const arch = buildConfig.arch || [undefined];
+      const types = buildConfig.types || [undefined];
+      for (const type of types) {
+        buildCombinations.push({ architecture: arch, type: type });
+      }
+    }
+    appLog.info(` *** Build combinations for ${appId} (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
+
+    return buildCombinations;
+
+  } else {
+    appLog.info(` *** No build combinations found for ${appId}`);
+    return null;
+  }
+}
+
+export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {
+  let createdAt = 0;
+  let newerVerification = null;
+
+  for (const verification of verificationsWithBuildShFiles) {
+    if (
+      getFirstTagValue(verification.verification, 'i') !== appId ||
+      getFirstTagValue(verification.verification, 'platform') !== platform
+    ) {
+      continue;
+    }
+
+    if (verification.verification.created_at > createdAt) {
+      createdAt = verification.verification.created_at;
+      newerVerification = verification;
+    }
+  }
+
+  if (!newerVerification) {
     return null;
   }
 
-  try {
-    const content = fs.readFileSync(comparisonFilePath, 'utf8');
-    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-    if (line) {
-      const tokens = line.split(' - ');
-      const hash = tokens[2];
-      if (hash) {
-        hashes = [hash];
-        matches = tokens[3]?.trim().startsWith('1');
-      }
-    }
-  } catch (error) {
-    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-  }
-  
-  if (hashes.length === 0) {
-    return null;
-  }
-  
-  return { hashes, matches };
+  const verificationVersion = getFirstTagValue(newerVerification.verification, 'version');
+  appLog.debug(`     - getNewerScriptToReproduce - found script used to reproduce ${appId} ${verificationVersion}`);
+
+  return newerVerification;
 }

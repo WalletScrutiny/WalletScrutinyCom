@@ -14,7 +14,7 @@ function makeFileTransport(filenameBase) {
   });
 }
 
-function makeLogger(serviceName, level = 'info') {
+function makeLogger(serviceName, level = 'debug') {
   return createLogger({
     level,
     defaultMeta: { service: serviceName },
