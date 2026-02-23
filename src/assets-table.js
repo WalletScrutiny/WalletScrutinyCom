@@ -136,6 +136,11 @@ window.renderAssetsTable = async function({
     verificationModalDiv.id = 'verificationModal';
     document.body.appendChild(verificationModalDiv);
   }
+  if (!document.getElementById('verificationModalBackdrop')) {
+    const verificationModalBackdropDiv = document.createElement('div');
+    verificationModalBackdropDiv.id = 'verificationModalBackdrop';
+    document.body.appendChild(verificationModalBackdropDiv);
+  }
 
   document.getElementById('verificationModal').innerHTML = `
     <span id="closeModal">&times;</span>
@@ -973,6 +978,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const status = getFirstTagValue(verification, 'status');
 
   const modal = document.getElementById('verificationModal');
+  const modalBackdrop = document.getElementById('verificationModalBackdrop');
 
   if (!document.getElementById('diffoscopeModal')) {
     modal.insertAdjacentHTML('beforebegin', `
@@ -1084,7 +1090,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.scrollLeft = 0;
   }, 0);
 
-  modal.style.background = window.theme === 'dark' ? '#2d2d2df7' : '#e1e1e1f7';
+  modal.style.background = window.theme === 'dark' ? '#111' : '#fff';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 
   let otherVerificationsHTML = '';
@@ -1316,12 +1322,14 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     insertDiffoscopeAssets();
   }
 
+  if (modalBackdrop) {
+    const isMobileModal = window.matchMedia('(max-width: 480px)').matches;
+    modalBackdrop.style.background = isMobileModal
+      ? (window.theme === 'dark' ? '#111' : '#fff')
+      : (window.theme === 'dark' ? 'rgba(0,0,0,0.65)' : 'rgba(0,0,0,0.45)');
+    modalBackdrop.style.display = 'block';
+  }
   modal.style.display = 'block';
-
-  // Add blur to all divs except verificationModal and diffoscopeModal
-  document.querySelectorAll('.archive > div:not(#verificationModal):not(#diffoscopeModal), .archive > h1').forEach(div => {
-    div.style.filter = 'blur(5px)';
-  });
 
   // Store original URL before changing hash
   originalUrlBeforeModal = window.location.pathname + window.location.search;
@@ -1458,14 +1466,13 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   const closeModalAction = () => {
     modal.style.display = 'none';
+    if (modalBackdrop) {
+      modalBackdrop.style.display = 'none';
+    }
     window.currentVerification = null;
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
     document.body.classList.remove("modal-open");
-    // Remove blur from all divs
-    document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
-      div.style.filter = '';
-    });
     // Restore original URL (remove hash)
     history.pushState("", document.title, originalUrlBeforeModal);
   };
