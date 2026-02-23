@@ -17,7 +17,7 @@ function showZapModal({ onClose, setZapped }) {
     }
     .zap-modal {
       position: fixed; left: 0; top: 0; width: 100vw; height: 100vh;
-      background: rgba(0,0,0,0.5); z-index: 9; display: flex; align-items: center; justify-content: center;
+      background: rgba(0,0,0,0.5); z-index: 10010; display: flex; align-items: center; justify-content: center;
     }
     .zap-modal-content {
       background: #fff; padding: 2em; border-radius: 8px; min-width: 320px; max-width: 90vw; position: relative;
