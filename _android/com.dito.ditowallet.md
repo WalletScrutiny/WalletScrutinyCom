@@ -61,3 +61,5 @@ From their [FAQ:](https://ditobanx.com/ditobanx-ditosend-new/)
 > - Compliance and security under regulatory standards
 
 According to DitoBanx’s [Terms and Conditions](https://ditobanx.com/terminos-y-condiciones/), users must register and use the service through an account-based platform, described as access to “la plataforma” subject to acceptance of the contractual agreement, and certain services may require identity verification. The terms also state that transactions are processed through the platform and that once initiated on the network they “no podrá ser cancelada ni revertida,” indicating a service-mediated structure rather than a purely local, self-custody wallet model.
+
+This is a **custodial service**.
