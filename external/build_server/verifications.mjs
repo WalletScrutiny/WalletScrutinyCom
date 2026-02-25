@@ -274,7 +274,7 @@ export async function addJobToQueue({
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
   let hashes = [];
-  let matches = false;
+  let status = null;
 
   // First, try to find and read COMPARISON_RESULTS.yaml
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
@@ -316,6 +316,8 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
               hashes.push(result.hash);
               allFileMatches.push(result.match === true);
             }
+
+            status = result.status;
           }
           
           // All files/entries must match for overall match to be true
@@ -324,8 +326,14 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
       }
 
       if (hashes.length > 0) {
-        return { hashes, matches };
+        return {
+          hashes,
+          status
+        };
       }
+
+      return null;
+
     } catch (error) {
       appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
       verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.yaml: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
@@ -415,7 +423,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
-  const { hashes, matches } = comparisonResults;
+  const { hashes, status } = comparisonResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -447,7 +455,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     // Changed values
     basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
-    status: matches ? 'reproducible' : 'not_reproducible',
+    status,
     hashes: hashes,
     description: description,
     content: content,
@@ -462,7 +470,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   try {
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       removeDirectoryRecursive(buildDirForThisVerification);
@@ -470,6 +478,6 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${matches ? 'reproducible' : 'not_reproducible'} ${hashes.join(', ')}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')}`);
   }
 }
