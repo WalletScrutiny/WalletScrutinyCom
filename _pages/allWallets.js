@@ -11,6 +11,7 @@ permalink: /allWallets.js
   window.verdicts = data.verdicts;
   window.featureAlerts = data.featureAlerts || {};
   window.featureAlertMessages = data.featureAlertMessages || {};
+  window.featureShorts = data.featureShorts || {};
   const folders = ["hardware", "android", "iphone", "bearer", "desktop", "others"];
   folders.forEach(folder => {
     const folderData = data[folder];

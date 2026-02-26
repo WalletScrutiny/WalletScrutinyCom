@@ -21,6 +21,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
         "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
@@ -40,6 +41,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
         "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
@@ -59,6 +61,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
         "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
@@ -80,6 +83,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
         "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
@@ -99,6 +103,7 @@
         "verdict": "{{ post.verdict }}",
         "url": "{{ post.url }}",
         "score": {numerator:{{ count }}, denominator:{{ criteria.size }}},
+        "features": [{% for feat in post.features %}{% if site.data.features[feat] %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}],
         "alertFeatures": [{% for feat in post.features %}{% if site.data.features[feat].alert %}"{{ feat }}"{% unless forloop.last %},{% endunless %}{% endif %}{% endfor %}]
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}

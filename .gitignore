@@ -18,3 +18,6 @@ backup/
 _includes/scripts.html
 _includes/allProducts-precomputed.json
 assets/js/json/wallets-precomputed.json
+
+# Feature verifier cache (fetched text + LLM proposals — not for the repo)
+scripts/cache/

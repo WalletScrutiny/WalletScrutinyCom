@@ -242,8 +242,23 @@ console.log(`  Generated ${walletsJsonPath}`);
 
 // Generate allProducts.json (used by allWallets.js)
 console.log('\nGenerating allProducts.json...');
+
+// Load features.yml to compute alertFeatures
+const featuresYml = fs.readFileSync(path.join(ROOT, '_data/features.yml'), 'utf8');
+const featuresData = yaml.load(featuresYml) || {};
+const alertFeatureKeys = new Set(Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k]) => k));
+
 const allProductsJson = {
-  verdicts: verdicts
+  verdicts: verdicts,
+  featureAlerts: Object.fromEntries(
+    Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k,v]) => [k, v.short || k])
+  ),
+  featureAlertMessages: Object.fromEntries(
+    Object.entries(featuresData).filter(([,v]) => v && v.alert).map(([k,v]) => [k, (v.alert || '').replace(/<[^>]+>/g, '').trim()])
+  ),
+  featureShorts: Object.fromEntries(
+    Object.entries(featuresData).filter(([,v]) => v && v.short).map(([k,v]) => [k, v.short])
+  )
 };
 
 const productPlatforms = ['iphone', 'hardware', 'bearer', 'android', 'desktop', 'others'];
@@ -261,6 +276,8 @@ for (const platform of productPlatforms) {
   const apps = wallets.map(wallet => {
     const scoreKey = `${platform}-${wallet.verdict}`;
     const score = precomputed.walletScores[scoreKey] || { count: 0, total: 0 };
+    const walletFeatures = (Array.isArray(wallet.features) ? wallet.features : [])
+      .filter(f => typeof f === 'string' && featuresData[f] !== undefined);
     const app = {
       appId: wallet.appId || '',
       title: wallet.title || '',
@@ -268,7 +285,9 @@ for (const platform of productPlatforms) {
       meta: wallet.meta || '',
       verdict: wallet.verdict || '',
       url: `/${platform}/${wallet.appId}/`,
-      score: { numerator: score.count, denominator: score.total }
+      score: { numerator: score.count, denominator: score.total },
+      features: walletFeatures,
+      alertFeatures: walletFeatures.filter(f => alertFeatureKeys.has(f))
     };
     // Add platform-specific fields
     if (platform === 'iphone' || platform === 'android') {

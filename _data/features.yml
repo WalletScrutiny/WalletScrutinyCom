@@ -70,15 +70,6 @@ ln:
   drawback:
     LN is still in early development and several very feasible attacks are known
     that can cost users money or disrupt the network.
-bip37spv:
-  short: SPV using bloom filters
-  long: >
-    Simple Payment Verification (SPV) means the app connects to regular Bitcoin
-    full nodes but it does not download the full blockchain. Only the
-    transactions relevant to the own wallets.
-  benefit: The client doesn't need to download all the block chain.
-  drawback: >
-    **Privacy:** The client leaks all the user's addresses to the node.
 bip158spv:
   short: SPV using compact block filters
   long: >
@@ -103,25 +94,6 @@ bip158spv:
   drawback: >
     Compared to using an indexing server it is slower and more bandwidth is
     needed.
-apiServer:
-  short: API server provided
-  long: >
-    The provider runs indexing servers that provide quick access to the state
-    of the blockchain.
-  benefit: >
-    * **Speed:** Quick access to blockchain data. This wallet probably supports
-      cold wallet spending or importing accounts
-    
-    * **Speed:** Low bandwidth requirements. The servers can deliver data
-      tailored to the client's needs without overhead.
-    
-    * **Speed:** Low CPU and storage requirements. As the server does the
-      heavy-lifting, the client doesn't have to.
-    
-    * **Privacy:** Random full nodes cannot spy on the user.
-  drawback: >
-    * **Privacy:** The provider can spy on the user and usually knows all the
-      transactions and holdings per wallet.
 TOR:
   short: TOR - The Onion Router
   long: >
@@ -142,16 +114,6 @@ TOR:
   drawback: >
     * **Speed:** TOR means bouncing messages around a bit more with extra encryption.
     That makes it slower.
-lnWatchTowers:
-  short: Lightning Watch Towers
-  long: >
-    **Non-custodial** Lightning Network wallets that **can receive payments**
-    have to be on guard about all transactions happening on the Bitcoin
-    blockchain to avoid financial loss. With Watch Towers, this can be
-    outsourced in a very private and efficient way.
-  benefit: >
-    * **Security:** The wallet can remain offline for extended periods without
-      danger of losing funds.
 ownLN:
   short: Connect To Own Lightning Node
   long: The LN is very demanding on the wallet, especially for mobile devices,
@@ -160,6 +122,18 @@ ownLN:
     Node and remote-control it with this app.
   benefit: Always online lightning node with the convenience of a mobile app.
 ownFullNode:
+  short: Connect To Own Full Node
+  long: >
+    The wallet can connect directly to a Bitcoin full node the user controls,
+    typically via Bitcoin Core's RPC interface or a compatible implementation.
+    This is the highest level of sovereignty — the wallet verifies transactions
+    against the full blockchain as seen by the user's own node.
+  benefit: >
+    * **Full verification:** No trust in third-party servers for balance or
+      transaction data.
+    
+    * **Maximum privacy:** Nothing about your addresses or transactions leaves
+      your own infrastructure.
 hd:
   short: Hierarchically Deterministic
   long: All accounts and keys are derived from one masterseed as defined in
@@ -192,36 +166,6 @@ multiAccount:
       relatively easy for blockchain analysis companies to determine the full
       history of the wallet. By using multiple accounts, emptying them at times,
       the user can retain some privacy.
-RBF:
-  short: Replace By Fee (RBF)
-  long: >
-    This wallet can create transactions that can be replaced until it is
-    confirmed by the network.
-
-    Transactions marked as RBF signal the network that they might be replaced
-    but with a higher fee per byte.
-  benefit: >
-    * **Cheaper:** Transactions can be sent with very low fee and if later a soon
-    confirmation is desired, the fee can be increased which allows the user to
-    use lower fees with more confidence and thus results in fee savings.
-    
-    * **Cheaper:** RBF in combination with batching allows the wallet to batch
-    transactions [transparent to the
-    user](https://en.wikipedia.org/wiki/Transparency_%28human%E2%80%93computer_interaction%29),
-    making the individual payment cheaper in transaction fees.
-  drawback: >
-    * Services will normally not accept a payment with RBF until it has a
-    confirmation on the blockchain. Wallets that support RBF therefore always
-    allow to send transactions without RBF, too but the user might not notice
-    this detail while waiting for the recipient to confirm the payment. If
-    this happens, a finalizing replacement transaction can be sent.
-    
-    * RBF sparked some controversy among users portraing RBF transactions as
-    double-spend attempts.
-    
-    * Some wallets that are not aware of the mechanism still might get
-    confused and stick to the first transaction seen, ignoring the later
-    replacement transaction for longer than necessary.
 batching:
   short: Transaction Batching
   long: >
@@ -243,7 +187,7 @@ batching:
     more than ten recipients, the network would probably not broadcast the
     later transactions as only short chains of unconfirmed transactions are
     being handled by full nodes. Batching fixes that.
-multiSignature:
+multiSig:
   short: Multi Signature
   long: >
     Bitcoin allows to define addresses controlled by more than one private
@@ -297,25 +241,26 @@ buyWithCC:
     exchange provider often offers a better rate when not using via a wallet
     integration.
 mix:
-  short: Mix coins
+  short: CoinJoin / Coin Mixing
   long: >
     Transactions on the Bitcoin network are public and companies like
-    Chainalysis get a very good picture of a users' past and future spendings,
-    knowing just one transaction, following that public data. Coin mixing breaks
-    heuristics those companies use and thus gives the user and those he
-    shares transactions with privacy.
+    Chainalysis get a very good picture of a user's past and future spendings
+    knowing just one transaction. Coin mixing — most commonly via CoinJoin,
+    where multiple users collaborate to combine their transactions into one —
+    breaks the heuristics those companies use, giving the user and those they
+    transact with meaningful privacy.
     
     On a more fundamental level, transactional privacy is required for
-    fungibility - the concept of all Bitcoins being equal. If transactions can
-    be tracked and attributed to certain activity - gambling, prostitution,
-    donations to dissidents, ... - users could discriminate against certain
-    sources of payments. Sadly there are already big exchanges that discriminate
-    precisely against mixed coins.
+    fungibility — the concept of all Bitcoins being equal. If transactions can
+    be tracked and attributed to certain activity — gambling, donations to
+    dissidents, medical expenses — users could discriminate against certain
+    sources of payments. Some exchanges already do precisely this.
   benefit: >
-    * **privacy** for you
+    * **Privacy** for you
     
-    * **fungibility** for all
-  drawback: Some services flag mixing itself as suspicious.
+    * **Fungibility** for all
+  drawback: >
+    * Some services flag mixed coins as suspicious and may freeze or reject them.
 airGapped:
   short: "Air Gapped: App works without internet"
   long: >
@@ -363,7 +308,7 @@ liquid:
     can seize all L-BTC. If Blockstream alone fails to rotate keys on schedule,
     they gain unilateral control. Only use Liquid for amounts you'd trust to a
     corporate consortium.
-fingerprintAuthentication:
+fingerprint:
   short: Fingerprint Authentication
   long: >
     Fingerprint authentication in Bitcoin wallets enhances security by adding a biometric layer to the access control mechanisms. This feature leverages the unique patterns of a user's fingerprint to grant access to the wallet, making unauthorized access significantly more difficult. Biometric authentication is generally faster and more convenient than traditional methods like passwords or PINs, as it eliminates the need to remember complex combinations.
@@ -378,7 +323,7 @@ fingerprintAuthentication:
 
     * **Reduced risk** of phishing and brute force attacks
   drawback: Potential privacy concerns and dependency on device hardware capabilities.
-secureElements:
+secEl:
   short: Secure Elements
   long: >
     Secure Elements in Bitcoin wallets refer to dedicated hardware components designed to enhance security. These elements are specialized circuits or chips embedded in the device, providing a fortified environment for storing sensitive data such as private keys. Unlike standard storage, Secure Elements are resistant to tampering and physical attacks, making them an ideal choice for safeguarding cryptographic data and operations.
@@ -393,7 +338,7 @@ secureElements:
 
     * **Peace of mind** knowing that cryptographic operations are performed in a secure, isolated environment
   drawback: Potential complexities in wallet recovery and dependency on specific hardware.
-cameraFunction:
+camera:
   short: Camera for Secure Transactions
   long: >
     Camera functionality in Bitcoin hardware wallets, represents a significant advancement in wallet security and data transmission. These wallets use their built-in cameras to scan QR codes, enabling a secure and efficient method for data exchange and transaction signing. The camera-based approach is integral to maintaining an air-gapped environment, meaning the wallet does not rely on potentially vulnerable USB or Bluetooth connections for communication.
@@ -477,3 +422,109 @@ ecash-mint:
     * **Infrastructure burden** — requires reliable hosting, backups, security.
 
     * **Your users trust you completely** — you can steal their funds at any time.
+coinCtrl:
+  short: Advanced UTXO Control
+  long: >
+    The wallet offers advanced control over which Unspent Transaction Outputs (UTXOs)
+    are spent. This goes beyond simple coin selection — it may include the ability to
+    freeze or exclude specific UTXOs (e.g., dusting attacks or tainted coins), label
+    UTXOs, or select inputs manually. The user does not necessarily need full visibility
+    of all UTXOs, but has meaningful control over what gets spent.
+  benefit: >
+    * **Privacy:** Prevent spending from UTXOs linked to unwanted transaction history,
+      or avoid merging coins from different sources in one transaction.
+    
+    * **Dust protection:** Mark suspicious incoming transactions as "do not spend"
+      to avoid revealing your wallet's full UTXO set.
+    
+    * **Fee optimization:** Strategically select inputs to manage transaction size
+      and fees.
+companion:
+  short: Companion App
+  long: >
+    A companion app is a secondary application that works alongside a hardware wallet
+    or air-gapped signing device. It handles network connectivity, transaction
+    preparation, and blockchain data — while the secure signing device manages
+    private key operations. The companion app itself does not hold private keys.
+    
+
+    See also [Issue #140](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/140)
+    for discussion on verifying companion apps.
+  benefit: >
+    * **Convenience:** Better UI/UX than tiny hardware wallet screens for browsing
+      balances and preparing transactions.
+    
+    * **Air-gapped compatibility:** Keeps private keys offline while enabling easy
+      transaction creation and broadcasting.
+  drawback: >
+    * **Trust requirement:** The companion app is trusted to accurately display
+      recipient addresses and amounts. A compromised companion app can show a correct
+      address on screen while the actual transaction sends to an attacker's address.
+    
+    * **Reproducibility matters:** An unverifiable companion app undermines the
+      security of an otherwise reproducible signing device.
+  alert: >
+    <strong>Companion apps require trust.</strong> A compromised companion app can
+    display a legitimate address while the transaction sends to an attacker. Always
+    verify addresses and amounts on your signing device's screen before confirming,
+    especially for large transactions.
+customNode:
+  short: Custom Node Connection
+  long: >
+    The wallet can be configured to connect to a user-specified, independently operated
+    Bitcoin node — such as Bitcoin Core, Electrum Server, or other compatible full node
+    software — instead of the wallet provider's default servers. The key requirement is
+    that the node is clearly independent from the wallet vendor: a third-party node the
+    user controls or trusts.
+  benefit: >
+    * **Privacy:** Transaction queries go to your own node rather than a third-party
+      server, so no provider learns your wallet addresses or balances.
+    
+    * **Security:** No risk of a provider lying about your balance or the state of
+      the network.
+    
+    * **Sovereignty:** Full independence from wallet provider infrastructure.
+  drawback: >
+    * Requires running and maintaining your own Bitcoin node.
+    
+    * More complex initial setup compared to using the provider's default servers.
+foss:
+  short: Free and Open Source (FOSS)
+  long: >
+    The wallet's source code is published under a license approved by the Open Source
+    Initiative (OSI) — such as MIT, GPL, Apache, or AGPL — allowing anyone to inspect,
+    modify, and redistribute it. This is a prerequisite for independent security audits
+    and reproducible builds.
+
+    Licenses that are merely "source available" but not OSI-approved (e.g., those with
+    Commons Clause restrictions, commercial use prohibitions, or other non-free terms)
+    do NOT qualify. Reproducible builds are not sufficient alone.
+  benefit: >
+    * **Transparency:** Anyone can verify what the code does — including whether it
+      contains backdoors, bugs, or privacy-violating behavior.
+    
+    * **Community auditing:** More reviewers means vulnerabilities are more likely
+      to be found and fixed.
+    
+    * **Forkability:** If the project is abandoned or goes rogue, the community can
+      fork and continue it.
+  drawback: >
+    FOSS alone does not guarantee security. The released binary must also be
+    reproducible from the public source to ensure users are actually running the
+    code that was audited.
+nfc:
+  short: NFC (Near Field Communication)
+  long: >
+    The wallet supports Near Field Communication (NFC) for wireless interaction
+    with hardware wallets, payment terminals, or signing cards. NFC enables
+    tap-to-sign or tap-to-pay functionality over a very short range (typically
+    a few centimeters) without cables or QR codes.
+  benefit: >
+    * **Convenience:** Quick tap interaction — no cables to connect or QR codes to scan.
+    
+    * **Hardware wallet compatibility:** Some hardware signing cards communicate
+      exclusively via NFC.
+  drawback: >
+    * Requires NFC hardware on both devices.
+    
+    * Very short range limits usability compared to QR-based air-gapped setups.

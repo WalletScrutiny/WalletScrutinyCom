@@ -48,7 +48,11 @@
     "minifyJs": "npx foreach-cli -g \"_site/**/*.js\" -i \"_site/**/*.min.js\" -x \"terser #{path} -o #{path}\"",
     "minifyCss": "npx foreach-cli -g \"_site/**/*.css\" -i \"_site/**/*.min.css\" -x \"cleancss -o #{path} #{path}\"",
     "brotlifyHtml": "npx brotli-cli compress -q 6 --glob \"_site/**/*.html\"",
-    "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\""
+    "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\"",
+    "verify-features:fetch": "node scripts/featureVerifier.mjs --fetch",
+    "verify-features:verify": "PPQ_API_KEY=$PPQ_API_KEY node scripts/featureVerifier.mjs --verify",
+    "verify-features:apply": "node scripts/featureVerifier.mjs --apply --dry-run",
+    "verify-features:commit": "node scripts/featureVerifier.mjs --apply"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
