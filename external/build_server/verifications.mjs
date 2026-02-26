@@ -4,7 +4,7 @@ import path from 'path';
 import PQueue from 'p-queue';
 import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
-  filterAndroidReproducibleVerificationsWithBuildScripts,
+  filterAndroidVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
   filterAssetsWithoutVerification,
   getFirstTagValue,
@@ -40,7 +40,7 @@ let buildDirForThisVerification = null;
 
 export async function verifyAssetsFromRegistry(verifications, appInfo) {
   appLog.debug(`# verifications: ${verifications.size}`);
-  const verificationsWithBuildShFiles = await filterAndroidReproducibleVerificationsWithBuildScripts(verifications);
+  const verificationsWithBuildShFiles = await filterAndroidVerificationsWithBuildScripts(verifications);
   appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
 
   const appIds = getAppIdsFromVerifications(verificationsWithBuildShFiles);

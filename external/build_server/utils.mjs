@@ -136,7 +136,7 @@ export function getFileAttachmentIDsForVerificationEvent(event) {
   return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
 }
 
-export async function filterAndroidReproducibleVerificationsWithBuildScripts(verifications) {
+export async function filterAndroidVerificationsWithBuildScripts(verifications) {
   const fileAttachmentIds = [];
 
   // First we get fileAttachmentIds for all android verifications
@@ -148,9 +148,6 @@ export async function filterAndroidReproducibleVerificationsWithBuildScripts(ver
         continue;
       }
       if (getFirstTagValue(verification, 'platform') !== 'android') {
-        continue;
-      }
-      if (getFirstTagValue(verification, 'status') !== 'reproducible') {
         continue;
       }
       // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
