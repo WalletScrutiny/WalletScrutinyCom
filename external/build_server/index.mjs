@@ -52,7 +52,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     const verificationsWithAttachments = [];
     const wsBotVerifications = [];
     
-    for (const [sha256, verificationEvents] of allVerificationsRaw) {
+    for (const [, verificationEvents] of allVerificationsRaw) {
       for (const verification of verificationEvents) {
         const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
         if (fileAttachmentIds.length === 0) {
@@ -85,28 +85,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(verificationsWithAttachments);
     
-    // Sort versions for each appId (highest first) and take only the first one
     for (const [appId, verifications] of verificationsByAppId) {
-      // Sort by version (descending - highest first), then by created_at (descending - newest first)
-      verifications.sort((a, b) => {
-        // Simple version comparison - assumes semantic versioning
-        const aParts = a.version.split('.').map(Number);
-        const bParts = b.version.split('.').map(Number);
-
-        for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-          const aPart = aParts[i] || 0;
-          const bPart = bParts[i] || 0;
-          
-          if (aPart !== bPart) {
-            return bPart - aPart; // Descending order
-          }
-        }
-        // If versions are equal, sort by created_at (descending - newest first)
-        const aCreatedAt = a.verification.created_at || 0;
-        const bCreatedAt = b.verification.created_at || 0;
-        return bCreatedAt - aCreatedAt;
-      });
-
       // Take only the first (highest) verification for the appId
       const highestVersionVerification = verifications[0];
 

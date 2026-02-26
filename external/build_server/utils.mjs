@@ -65,10 +65,10 @@ export function compareVersions(a, b) {
   return 0;
 }
 
-export function groupVerificationsByAppIdAndSortByVersion(reproducibleVerifications) {
+export function groupVerificationsByAppIdAndSortByVersion(verifications) {
   const verificationsByAppId = new Map();
 
-  for (const verification of reproducibleVerifications) {
+  for (const verification of verifications) {
     const appId = getFirstTagValue(verification, 'i');
     let version = getFirstTagValue(verification, 'version');
     version = version.replace(/^v/i, '');
@@ -80,6 +80,17 @@ export function groupVerificationsByAppIdAndSortByVersion(reproducibleVerificati
     verificationsByAppId.get(appId).push({
       verification,
       version
+    });
+  }
+
+  // For each appId, sort by version (highest first), then by created_at (descending - newest first)
+  for (const [, verifications] of verificationsByAppId) {
+    verifications.sort((a, b) => {
+      const versionComparison = compareVersions(a.version, b.version);
+      if (versionComparison !== 0) {
+        return versionComparison;
+      }
+      return b.verification.created_at - a.verification.created_at;
     });
   }
 
