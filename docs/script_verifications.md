@@ -1,92 +1,58 @@
 # Scripts for Reproducible Verifications
 
-We need to agree on a set of standards for the scripts used to reproduce verifications to achieve these 2 goals:
+If you plan on creating a script to reproduce a Bitcoin wallet and attach it to a verification inside WalletScrutiny, you need to follow these rules. That way, our Automated Build Server will be able to run the script automatically when a new binary of the wallet is registered by users using [our Android app](https://zapstore.dev/apps/naddr1qvzqqqr7pvpzpytvkhls05a4rnhh76mt0a28nvgqrdqpcr5z2k8wrg39qnra2p7fqqtxxmmd9emkzmrvv468xcmjw46xjmne9eshquqr8p5tv).
 
-1. Verifications need to be reproducible themselves, so they need to be able to be run on our users' computers.
-2. We need to be able to run the scripts automatically on the build server when a new version is released.
+Users will also be able to download the script and run it on their own computer to perform the verification themselves.
 
-## Verifications need to be reproducible themselves
-Scripts need to be able to be run on our users' computers so they can verify the verifications. The users would think something like this: "Ah, new version of Zeus got released, let's see if WalletScrutiny got it. Yes, they got it! I'll try to repeat the verification of this guy to see if I can get the same result, by downloading his script and running it on my own computer".
-
-While it's impossible to make a script that works on all the computers in the world, we can increase the odds by following these rules:
-
-## Scripts should be able to run automatically on the build server when a new version is released
-
-We need to be able to run the scripts automatically on the build server when a new version is released. This is important because we need to be able to verify the verifications automatically and in a reproducible way when a new version is released.
-
+If you plan on creating a script to reproduce a Bitcoin wallet, we recommend that you go to the [WalletScrutiny Discord](https://discord.gg/yCNdcSJw9k) and tell us about it so we can advise you with the process.
 
 # Rules
 
-1. Scripts need to be `run as a user`, not root
-2. Scripts should `use the directory in which they are executed` as much as possible, so we don't pollute users' computers. If not possible for any reason, we should use standard temporary directories like /tmp, not something like /var/shared
-3. We should make it as easy as possible for our users to repeat the verification
-4. Users shouldn't need to install dependencies besides `docker/podman`. That way, we can install everything inside the container, so users don't need to install anything else
-5. We `cannot rely on our build server` utilities or scripts, as people won't have access to it
-6. We `cannot rely on scripts` that are `in the WS gitlab repo`
-7. We should use `as little files as possible`, typically only one script per verification, but if needed, all the other assets (Dockerfile, etc) should be uploaded to the verification
-8. The script used to launch the build verification process must end with `build.sh`, so it could be `zeus_build.sh`.
-9. Several combinations of architectures and types for the same application will be launched in parallel, so the script should be able to handle this using different names for resources that are specific to each combination. The execution of each script will be done in a different directory, but shared resources like containers should be named accordingly to the combination they are for.
-10. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated.
+1. Scripts must use `podman` or `docker` to run the build process, so it is self-contained, repeatable, and reproducible. Thus, having podman or docker installed must be the only requirement.
+2. The script name must end with `build.sh`.
+3. Build scripts must never need a smartphone connected to the computer.
+4. At the end of the script execution, a file called `COMPARISON_RESULTS.yaml` must be generated with the result of the verification. See the `Results File` section below for details.
+5. Build scripts for `hardware` or `desktop` wallet types must be able to handle multiple combinations of architectures and types for the same application. See the `Wallet files` section below for details on how to define the combinations.
+6. The call parameters for the script must be the following:
+
+* For `android` wallets:
+  - `--apk`: APK file of the app to test
+
+* For `desktop` or `hardware` wallets:
+  - `--version`: version of the app (without the v prefix)
+  - `--arch`: architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
+  - `--type`: type of the app (bitcoin, multi, ...)
+
+7. Several combinations of architectures and types for the same application will be launched in parallel. The script must use different names for resources specific to each combination to avoid conflicts.
+
+# Results File
+
+The results file should be named `COMPARISON_RESULTS.yaml` and be in the same directory as the script. It should be in YAML format and contain the following information:
 
 ```yaml
 date: 2025-11-24T09:03:00+0000
 script_version: v0.8.0
-build_type: standalone
 results:
   - architecture: linux64
-    files:
-      - filename: base.apk
-        hash: abc123...
-        match: true
-      - filename: config.arm64_v8a.apk
-        hash: def456...
-        match: true
-  - architecture: x86_64-linux
-    files:
-      - filename: config.en.apk
-        hash: ghi789...
-        match: true
-      - filename: config.xxhdpi.apk
-        hash: jkl012...
-        match: false
+    status: reproducible
 ```
-
-The important parts:
-- the `architecture` is taken from the `--arch` parameter passed to the script
-- the `hash` of the produced file (3rd token)
-- the `match` that reflects if it's reproducible (true) or not-reproducible (false) in the (4th token).
-
-11. The call parameters for the script should be:
-
-`--version`: version of the app (without the v prefix)
-
-`--arch`: (optional) architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
-
-`--type`: (optional) type of the app (bitcoin, multi, ...)
-
-`--apk`: (optional) apk file of the app if it's provided by the user, instead of downloading it from the github/homepage of the app
-
-If a parameter is not used by the script (like `version`, maybe because you're taking it from the apk itself), that's ok, but the script mustn't fail if the parameter is passed.
-
-12. If a smartphone connected to the computer is needed, notify the user at the beginning of the script so they know what to do
-
-# Results File
-
-The results file should be created by the build script after compilation. It should be named `COMPARISON_RESULTS.yaml` and be in the same directory as the script. It should be in YAML format and contain the following information:
 
 - `date`: the date and time of the verification
 - `script_version`: the version of the script
-- `build_type`: the type of the build (standalone, bundle, etc)
 - `results`: an array of objects with the following information:
-  - `- filename`: the name of the binary file that was compiled
-  - `architecture`: the architecture of the file (must match what was passed as a parameter to the script)
-  - `status`: the status of the verification (reproducible, not_reproducible, ftbfs, spam, notag, nosource, warning, obfuscated)
-  - `match`: true if the hash of the binary file matches the hash of the compiled file, false otherwise
-  - `hash`: an array with the hashes of the files
+  - `architecture`: the architecture of the file (must match the value passed via the `--arch` parameter)
+  - `status`: the status of the verification
+
+Possible values for `status`:
+  - `reproducible`: Reproducible
+  - `not_reproducible`: Not Reproducible
+  - `ftbfs`: Failed to Build from Source
 
 # Wallet files
 
-Wallet files (.md) for hardware and desktop wallet types need to have 2 new fields so the Automated Build Server starts building binaries when a new version is released:
+In WalletScrutiny, wallet files contain the information about each wallet. You can find them in our [GitLab repository](https://gitlab.com/walletscrutiny/walletScrutinyCom), inside the directory corresponding to the wallet category (`_android`, `_iphone`, `_desktop`, `_hardware`, etc).
+
+If you want your build script to be automatically run by the Automated Build Server when a binary appears on Nostr, you need to add the `builds` parameter to the wallet file. For `hardware` and `desktop` wallet types, you need to add the combinations of architectures and types that your script is able to test.
 
 ```yaml
 builds:
@@ -101,8 +67,6 @@ builds:
     - tarball
 ```
 
-Both fields (architectures and types) are optional, meaning that if there is just one type of binary for a wallet, there is no need to put the `types` field.
+The Automated Build Server will iterate through all the combinations of architectures and types defined in the `builds` array, passing the appropriate `--arch` and `--type` parameters to the build script.
 
-The Build Server will iterate through all combinations of architectures and types, passing the appropriate `--arch` and `--type` parameters to the build script.
-
-Android wallet files don't currently need the `builds` array, as we'll be testing assets registered by users who provide an apk.
+Android wallet files do not need the `builds` array, as build scripts infer the required information from the APK itself. The Automated Build Server will launch the build script with the `--apk` parameter pointing to the APK file provided by the user.
