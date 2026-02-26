@@ -41,19 +41,18 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     const appInfo = await fetchAppInfo();
 
     await connectToNostr(wsBotNostrPrivateKey);
-    const verifications = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
+    const allVerificationsRaw = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
-    await verifyAssetsFromRegistry(verifications, appInfo);
+    await verifyAssetsFromRegistry(allVerificationsRaw, appInfo);
 
     // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);
     appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
 
-    const reproducibleVerifications = [];
+    const verificationsWithAttachments = [];
     const wsBotVerifications = [];
     
-    // Iterate over all verifications
-    for (const [sha256, verificationEvents] of verifications) {
+    for (const [sha256, verificationEvents] of allVerificationsRaw) {
       for (const verification of verificationEvents) {
         const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
         if (fileAttachmentIds.length === 0) {
@@ -71,20 +70,20 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
         }
 
         if (['hardware', 'desktop', 'linux', 'windows'].includes(getFirstTagValue(verification, 'platform'))) {
-          reproducibleVerifications.push(verification);
+          verificationsWithAttachments.push(verification);
         }
       }
     }
 
-    appLog.info(`=== Reproducible Verifications ===`);
-    appLog.info(`Total found: ${reproducibleVerifications.length}`);
+    appLog.info(`=== Verifications with attachments ===`);
+    appLog.info(`Total found: ${verificationsWithAttachments.length}`);
 
-    if (reproducibleVerifications.length === 0) {
-      appLog.info('No reproducible verifications found.');
+    if (verificationsWithAttachments.length === 0) {
+      appLog.info('No verifications with attachments found.');
       return;
     }
 
-    const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(reproducibleVerifications);
+    const verificationsByAppId = groupVerificationsByAppIdAndSortByVersion(verificationsWithAttachments);
     
     // Sort versions for each appId (highest first) and take only the first one
     for (const [appId, verifications] of verificationsByAppId) {
