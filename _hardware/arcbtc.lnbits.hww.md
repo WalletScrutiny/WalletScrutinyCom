@@ -28,7 +28,10 @@ signer:
 twitter: arcbtc
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- companion
+- foss
 
 ---
 
@@ -64,3 +67,8 @@ From the [GitHub repo](https://github.com/lnbits/hardware-wallet)
 
 Although this kit is packaged as a device, it can still be classified as a **do-it-yourself** hardware wallet since the end user would have to perform some additional steps prior to making it work.
 
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2022 LNbits Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Run from SD Card (air-gapped) **Note**: the device is not fully airgapped when other communication mediums are enabled (wifi, bluetooth, serial-port, etc). In order to run from an SD Card one must:" source="GitHub README" %}
+
+{% include featureEvidence.html feature="companion" quote="You can use LNbits OnchainWallet extension, your terminal or any other serial monitor." source="GitHub README" %}

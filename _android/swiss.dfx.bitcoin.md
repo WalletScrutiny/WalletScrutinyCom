@@ -26,9 +26,18 @@ social:
 - https://www.linkedin.com/company/dfxswiss
 redirect_from: 
 developerName: DFX AG
-features: 
+features:
+- ln
+- ownLN
+- multiSig
+- foss
+- hd
+- segwit
 
 ---
+{% include featureEvidence.html feature="ln" source="[README](https://github.com/DFXswiss/btc-wallet#readme)" quote="Lightning Network supported" %}
+{% include featureEvidence.html feature="ownLN" source="Review" quote="connect to an external Lightning service (e.g., DFX.swiss or lightning.space) and manage Lightning funds through provider-issued credentials" %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://dfx.swiss/)" quote="Eine self-custody Bitcoin-Wallet mit Lightning und Multisig Feature – für Unternehmen und private Nutzer" %}
 
 ## App Description
 
@@ -49,3 +58,9 @@ DFX’s website and [FAQ](https://dfx.swiss/faq.html) describe a separation betw
 The published [GitHub repository](https://github.com/DFXswiss/btc-wallet) and tagged release correspond to the Google Play release of the same version, with source code and Android build artifacts made publicly available on the same date.
 
 This app is **source-available** and **for verification**.
+
+{% include featureEvidence.html feature="foss" quote="LICENSE MIT" source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+{% include featureEvidence.html feature="hd" comment="(no justification provided by LLM)" %}

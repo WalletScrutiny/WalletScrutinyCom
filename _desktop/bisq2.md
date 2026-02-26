@@ -21,9 +21,17 @@ date: 2025-08-25
 twitter: bisq_network
 social: 
 builds: 
-features: 
+features:
+- TOR
+- tradeAlts
+- ownFullNode
+- foss
+- multiSig
 
 ---
+{% include featureEvidence.html feature="TOR" source="[Website](https://bisq.network)" quote="Every Bisq node is a Tor hidden service by default." %}
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://bisq.network)" quote="Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely" %}
+{% include featureEvidence.html feature="ownFullNode" source="Review" quote="Integration with Bitcoin Core (full node) and light wallet options" %}
 
 ## App Description
 
@@ -50,3 +58,7 @@ The application is available for Windows, macOS, and Linux with GPG signature ve
 Bisq 2 represents a ground-up redesign to support multiple trading protocols that can expand over time, addressing the limitations of Bisq v1's single-protocol architecture while maintaining decentralization and privacy principles.
 
 This app is **source available** and is **for verification**.
+
+{% include featureEvidence.html feature="foss" quote="Bisq 2 is licensed under the AGPL-3.0 license. All contributions are subject to this license." source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Deposits held in 2-of-2 multisig wallets encourage safe, successful trades." source="Website" %}

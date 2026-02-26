@@ -29,8 +29,14 @@ redirect_from:
 developerName: Jeremy Johnson
 builds: 
 features: 
+- foss
+- segwit
+- fingerprint
 
 ---
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/jdogresorg/freewallet-mobile/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
+{% include featureEvidence.html feature="segwit" source="[Website](https://freewallet.io)" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." %}
+{% include featureEvidence.html feature="fingerprint" source="[Website](https://freewallet.io)" quote="Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security." %}
 
 The provider of this Freewallet reached out to us to stress that freewallet.io
 was not the same as freewallet.org which is spamming Google Play with many

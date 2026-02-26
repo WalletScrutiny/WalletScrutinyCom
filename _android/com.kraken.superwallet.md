@@ -29,9 +29,14 @@ social:
 redirect_from: 
 developerName: Payward, Inc.
 builds: 
-features: 
+features:
+- multiAccount
+- fingerprint
+- foss
+- hd
 
 ---
+{% include featureEvidence.html feature="multiAccount" source="[Play Store](https://play.google.com/store/apps/details?id=com.kraken.superwallet)" quote="Multiple wallets, one seed phrase: Manage multiple wallets for different purposes using a single, secure seed phrase." %}
 
 Kraken Superwallet is a self-custodial cryptocurrency wallet designed for securely managing digital assets, NFTs, and decentralized finance (DeFi) holdings. It supports multiple blockchain networks, enabling users to store, send, and receive Bitcoin, Ethereum, Solana, Dogecoin, Polygon, and other cryptocurrencies.
 
@@ -46,3 +51,9 @@ Kraken Superwallet is a self-custodial cryptocurrency wallet designed for secure
 ## Analysis
 
 The wallet is **source-available** and should be verified using Nostr verifications.
+
+{% include featureEvidence.html feature="foss" quote="Kraken Wallet's source code is released under the terms of the MIT license." source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Data encryption using password and/or biometrics" source="GitHub README" %}

@@ -26,9 +26,15 @@ social:
 - https://t.me/RapidzCommunity
 - https://www.instagram.com/rapidz_io
 - https://www.facebook.com/Rapidz.io
-features: 
+features:
+- fingerprint
+- tradeAlts
 developerName: UAB Rapidz Pay
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Our wallet app is fortified with security measures like 2FA, biometric login, and advanced app protection." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Enjoy fast swaps and competitive rates when trading your favorite cryptocurrencies, including Bitcoin, Ethereum, and Solana." source="Store description" %}

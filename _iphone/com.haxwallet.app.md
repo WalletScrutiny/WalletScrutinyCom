@@ -23,9 +23,12 @@ date: 2025-11-18
 signer: 
 twitter: haxwallet0x
 social: 
-features: 
+features:
+- fingerprint
 developerName: HaxSolutions, LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Protect your digital assets by setting a PIN code or biometric authentication." source="Store" %}

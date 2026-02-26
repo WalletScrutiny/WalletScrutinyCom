@@ -29,8 +29,18 @@ redirect_from:
 developerName: Melis
 builds: 
 features: 
+- foss
+- multiSig
+- multiAccount
+- fingerprint
+- camera
 
 ---
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="MIT License" %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://www.melis.io)" quote="You can set custom scheme to multi-signature accounts (N of M signatures) and create shared accounts on multiple wallets" %}
+{% include featureEvidence.html feature="multiAccount" source="[Website](https://www.melis.io)" quote="You can activate several accounts with different features within the same wallet." %}
+{% include featureEvidence.html feature="fingerprint" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="fingerprint unlock" %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="camera and barcode scanner" %}
 
 **Update:** The provider
 [replied to our issue](https://github.com/melis-wallet/melis-cm-client/issues/1#issuecomment-619886541)

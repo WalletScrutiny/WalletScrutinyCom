@@ -31,7 +31,12 @@ social:
 redirect_from: 
 developerName: Gem Wallet LLC
 builds: 
-features: 
+features:
+- buyWithCC
+- foss
+- hd
+- segwit
+- tradeAlts
 
 ---
 
@@ -70,3 +75,12 @@ features:
 
 * $500 on [2024-06-12](https://x.com/dannybuntu/status/1805418147580887150)
 
+{% include featureEvidence.html feature="segwit" quote="The Bitcoin address was in the Bech32 format." source="Analysis" %}
+
+{% include featureEvidence.html feature="foss" quote="Gem Wallet is open-sourced software licensed under the © GPL-3.0." source="License" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Use Swap and DEXes like 1inch directly from wallet with best rates" source="App Description from Google Play" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto with credit card" source="App Description from Google Play" %}
+
+{% include featureEvidence.html feature="hd" quote="Create a new wallet and store the secret phrase somewhere safe" source="Website" %}

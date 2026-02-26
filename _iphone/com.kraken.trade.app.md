@@ -26,7 +26,9 @@ social:
 - https://www.linkedin.com/company/krakenfx
 - https://www.facebook.com/KrakenFX
 features:
+- buyWithCC
 - ln
+- tradeAlts
 developerName: Kraken
 
 ---
@@ -39,3 +41,7 @@ On their website we read:
 
 This app is an interface to a custodial exchange and therefore **not
 verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="700+ cryptocurrency markets to choose from, we have one of the largest selections of assets to buy, sell and trade" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="On-the-go deposits and withdrawals" source="Store" %}

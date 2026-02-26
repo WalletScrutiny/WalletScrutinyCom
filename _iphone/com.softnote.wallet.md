@@ -27,9 +27,12 @@ social:
 - https://t.me/tectumglobal
 - https://www.facebook.com/Tectum.io
 - https://www.youtube.com/channel/UCn17IrKSqmIFn8illLRR2-g
-features: 
+features:
+- fingerprint
 developerName: Crispmind, Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Keep your SoftNote account secure with a variety of protection methods including Passcode (Pincode), Touch ID and Face ID for iOS devices." source="Store description" %}

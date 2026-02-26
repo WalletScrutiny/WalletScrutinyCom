@@ -25,7 +25,9 @@ twitter: spectrocoin
 social:
 - https://www.linkedin.com/company/spectrocoin
 - https://www.facebook.com/spectrocoin
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: UAB Spectro Finance
 
 ---
@@ -35,3 +37,7 @@ custody and especially given what we had found when reviewing the version on the
 Play Store we have to assume it is custodial.
 
 Our verdict: **not verifiable**
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange fiat to crypto, crypto to fiat or swap between different cryptocurrencies." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto with credit and debit cards, bank wires (SEPA, SWIFT), Apple Pay, Skrill, Neteller and many other payment methods." source="Store description" %}

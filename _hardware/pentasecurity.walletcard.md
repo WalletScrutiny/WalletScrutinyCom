@@ -30,7 +30,10 @@ social:
 - https://www.linkedin.com/company/penta-security-systems-inc-/
 - https://www.facebook.com/pentasecsystems
 builds: 
-features: 
+features:
+- fingerprint
+- nfc
+- secEl
 
 ---
 
@@ -50,6 +53,10 @@ We were able to translate using Google translate a few features:
 
 ## Verdict 
 
-We were unable to locate an actual picture of the card nor is it commercially available. However, the company that provides it, Penta Security Systems is still active. Most smart cards that are labeled as wallets generally have the same flaw: they must be brought on to another system to transact or access the data within them. In this case, the card uses NFC or Blue Tooth to connect to an app that is no longer available. The product description **does not indicate a screen or buttons the user can interface with**.   
+We were unable to locate an actual picture of the card nor is it commercially available. However, the company that provides it, Penta Security Systems is still active. Most smart cards that are labeled as wallets generally have the same flaw: they must be brought on to another system to transact or access the data within them. In this case, the card uses NFC or Blue Tooth to connect to an app that is no longer available. The product description **does not indicate a screen or buttons the user can interface with**.
 
+{% include featureEvidence.html feature="nfc" quote="Connection Method: Blue Tooth 4.0, NFC" source="Existing WalletScrutiny review" %}
 
+{% include featureEvidence.html feature="fingerprint" quote="User authentication / restore: Fingerprints, PINs, smartphones interlocking, 12-word recovery sheet" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="secEl" quote="Secure chip: HW Copy Prevention (PUF)" source="Existing WalletScrutiny review" %}

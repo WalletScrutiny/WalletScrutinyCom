@@ -26,7 +26,9 @@ social:
 redirect_from: 
 developerName: Bipa
 builds: 
-features: 
+features:
+- fingerprint
+- ln
 
 ---
 
@@ -63,4 +65,8 @@ features:
 2. There was no mention of private keys
 3. This is an app that complies with the regulations of the Central Bank of Brazil, with anti-terrorism, KYC, anti money laundering laws and has the power to bar the user from accessing the account for grounds stated in the terms. 
 
-Therefore, we conclude that this is a **custodial** provider. 
+Therefore, we conclude that this is a **custodial** provider.
+
+{% include featureEvidence.html feature="ln" quote="LIGHTING SUPPORT - Transfer and Receive Bitcoin using the Lightning Network and pay 0 fee." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="All sensitive information and transactions are protected by Face ID or Touch ID." source="Store" %}

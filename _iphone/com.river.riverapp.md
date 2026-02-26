@@ -24,9 +24,15 @@ signer:
 twitter: River
 social:
 - https://www.linkedin.com/company/riverfinancial
-features: 
+features:
+- ln
+- multiSig
 developerName: River Financial Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Seamlessly send and receive Bitcoin through the Lightning Network or on-chain." source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="All assets are held in full reserve with multi-sig cold storage." source="Store description" %}

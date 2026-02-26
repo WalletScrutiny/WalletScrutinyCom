@@ -34,6 +34,7 @@ social:
 builds: 
 features:
 - ln
+- nfc
 
 ---
 
@@ -88,5 +89,6 @@ As there is no official release date yet, much of the information about the card
 
 What is clear is that the {{ page.title }} is an NFC-enabled Lightning Network payment medium. 
 
-We'll update this once it has officially been released. 
+We'll update this once it has officially been released.
 
+{% include featureEvidence.html feature="nfc" quote="Using a standard NFC card, the Lightning Network and LNURL, The Bolt Card allows you to pay with Bitcoin by simply tapping your card on a point of sale (POS) device displaying a Lightning invoice." source="Website" %}

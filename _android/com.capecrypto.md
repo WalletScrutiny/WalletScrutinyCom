@@ -29,7 +29,8 @@ social:
 redirect_from: 
 developerName: Cape Crypto
 builds: 
-features: 
+features:
+- ln
 
 ---
 
@@ -50,3 +51,5 @@ features:
   - Provider will cooperate with authorities when requested.
 
 Although not directly stated or described. The lack of private key backup mechanism and other signifiers indicate the provider to custody the user's funds, making the app **non-verifiable**.
+
+{% include featureEvidence.html feature="ln" quote="BTC Lightning Deposit and withdraw Bitcoin on the Lightning network for instant BTC transfers" source="Website" %}

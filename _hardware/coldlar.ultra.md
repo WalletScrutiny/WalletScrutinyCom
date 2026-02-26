@@ -31,7 +31,13 @@ signer:
 twitter: Coldlar
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- companion
+- fingerprint
+- nfc
+- secEl
 
 ---
 
@@ -108,3 +114,15 @@ The ColdLar Ultra does **not** make claims regarding its source-availability.
 While it has a GitHub organization page, its only public repository is a fork of the bitcoincash.org website. 
 
 This device is **not source-available**.
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL6+ chip security standard" source="Official User's Manual" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint recognition" source="Official User's Manual" %}
+
+{% include featureEvidence.html feature="camera" quote="All key operations are performed offline, with cold-hot communication strictly via QR codes, ensuring private keys never touch the internet." source="Official User's Manual" %}
+
+{% include featureEvidence.html feature="companion" quote="The device requires a companion app." source="Official User's Manual" %}
+
+{% include featureEvidence.html feature="nfc" quote="if the app is not connected via QR code or NFC, it will not work since these two options are needed to access some of the wallet functionalities." source="Official User's Manual" %}
+
+{% include featureEvidence.html feature="airGapped" quote="The cold and hot ends communicate via QR codes, ensuring that the private key never touches the internet, completely eliminating the risk of private key theft by online hackers" source="Official User's Manual" %}

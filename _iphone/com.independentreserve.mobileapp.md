@@ -27,9 +27,18 @@ social:
 - https://www.facebook.com/independentreserve
 - https://www.reddit.com/r/independentreserve
 - https://www.youtube.com/independentreserve
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Independent Reserve
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Security is always our top priority: 2FA, biometric authentication and data encryption" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Instantly deposit Australian dollars (AUD) via bank transfer, PayID, PayPal, credit card or debit card." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy Bitcoin (BTC), Ethereum (ETH), XRP (Ripple), USDT, USDC and more." source="Store" %}

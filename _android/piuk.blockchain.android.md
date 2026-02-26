@@ -33,7 +33,11 @@ redirect_from:
 - /posts/piuk.blockchain.android/
 developerName: Blockchain.com
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- hd
+- tradeAlts
 
 ---
 
@@ -47,3 +51,10 @@ Blockchain.com is a self-custodial crypto wallet that enables users to buy, sell
 
 For beginners, Blockchain.com offers a simplified UI and the ability to purchase crypto using a bank card or account. Advanced users can explore features such as real-time memecoin tracking, staking dashboards, and integrated trading tools. A dedicated section called "Meme Zone" highlights trending tokens like SHIB, PEPE, and WIF. While the app claims a strong reputation since 2011, some users report issues with verification and support responsiveness. Despite this, the wallet remains a widely used platform offering broad functionality in both retail and DeFi ecosystems.
 
+{% include featureEvidence.html feature="hd" quote="Wallet recovery is handled through a 12-word seed phrase" source="App Description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="security is reinforced via 2FA, biometric login, and AES-encrypted keys stored locally" source="App Description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="built-in swapping capabilities" source="App Description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="ability to purchase crypto using a bank card or account" source="App Description" %}

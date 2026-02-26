@@ -30,7 +30,9 @@ social:
 redirect_from: 
 developerName: Coinfinity
 builds: 
-features: 
+features:
+- hd
+- ln
 
 ---
 
@@ -43,3 +45,7 @@ Coinfinity Wallet is an Austrian Bitcoin brokerage app that includes an integrat
 No public source code repository or has been published. A GitHub search for the app identifier `co.coinfinity.coinfinity.mobile` returned [no relevant code repositories](https://github.com/search?q=co.coinfinity.coinfinity.mobile&type=code) or source files associated with the Coinfinity Wallet.
 
 This app is **not source available**.
+
+{% include featureEvidence.html feature="hd" quote="The wallet uses a 12-word BIP39 recovery phrase, allowing users to back up and import their keys into other compatible wallets." source="App Description" %}
+
+{% include featureEvidence.html feature="ln" quote="Stack Sats mit Lightning Erlebe die Zukunft des Bitcoin-Kaufs mit dem Lightning-Netzwerk. Bei uns kannst du Satoshis via Lightning kaufen – blitzschnell und günstig." source="Website" %}

@@ -23,7 +23,9 @@ date: 2023-12-15
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- multiSig
+- secEl
 developerName: Bitpanda Custody Ltd
 
 ---
@@ -39,3 +41,7 @@ There is no Android counterpart for this app.
 ## Analysis 
 
 This is a **custodial** app.
+
+{% include featureEvidence.html feature="multiSig" quote="Rule-based thresholds with MultiSig features" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="your assets' private keys are always kept hardware-secure in our tamper proof data centre hosted HSM cluster and never in the device." source="Store description" %}

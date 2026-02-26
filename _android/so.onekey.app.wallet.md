@@ -28,8 +28,10 @@ redirect_from:
 developerName: ONEKEY LIMITED
 builds: 
 features: 
+- companion
 
 ---
+{% include featureEvidence.html feature="companion" source="Review" quote="None of these three products can be used without our APP." %}
 
 ## Updated Analysis 2025-07-21
 

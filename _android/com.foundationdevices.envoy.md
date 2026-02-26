@@ -35,7 +35,12 @@ social:
 redirect_from: 
 developerName: Foundation Devices
 builds: 
-features: 
+features:
+- TOR
+- companion
+- customNode
+- foss
+- segwit
 
 ---
 
@@ -61,5 +66,14 @@ features:
 >
 > 6. Optionally connect your own Bitcoin node.
 
-A blog post states that this is not an ordinary "companion app", it is a fully-capable standalone self-custodial bitcoin wallet.  
+A blog post states that this is not an ordinary "companion app", it is a fully-capable standalone self-custodial bitcoin wallet.
 
+{% include featureEvidence.html feature="foss" quote="<!-- SPDX-License-Identifier: GPL-3.0-or-later -->" source="GitHub README" %}
+
+{% include featureEvidence.html feature="TOR" quote="Envoy optionally connects to the Internet with Tor for maximum privacy." source="Store" %}
+
+{% include featureEvidence.html feature="customNode" quote="Optionally connect your own Bitcoin node." source="Store" %}
+
+{% include featureEvidence.html feature="companion" quote="Use Envoy alongside your Passport hardware wallet for setup, firmware updates, and more." source="Store" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

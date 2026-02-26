@@ -27,9 +27,18 @@ social:
 - https://www.instagram.com/swyftx
 - https://www.linkedin.com/company/swyftx
 - https://www.reddit.com/r/Swyftx
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Swyftx Pty Ltd
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Easily buy, sell and swap your favourite cryptocurrencies and manage your portfolio in one place." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Instant Australian dollar deposits (AUD) are available via bank transfer, OSKO, PayID and credit/debit card." source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Swyftx deploys class-leading security technology on customer accounts including 2FA, biometric authentication and data encryption." source="Store description" %}

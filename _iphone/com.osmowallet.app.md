@@ -28,9 +28,18 @@ social:
 - https://www.instagram.com/osmowallet
 - https://www.facebook.com/osmoenvios
 features:
+- buyWithCC
+- fingerprint
 - ln
+- tradeAlts
 developerName: Hodl Group Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Tarjeta de Crédito o Débito" source="Website" comment="Website lists credit/debit card as a way to top up the account, implying buying crypto with a credit card." %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Bitcoin o USDT" source="Website" comment="Website mentions USDT as a supported asset alongside Bitcoin, implying trading between crypto currencies." %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Protección avanzada: Seguridad con biometría, encriptación y un sistema sofisticado de prevención de fraude que detecta actividad de alto riesgo al instante." source="Store" comment="Biometric security explicitly mentioned in store description." %}

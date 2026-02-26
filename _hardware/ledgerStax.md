@@ -36,7 +36,9 @@ social:
 - https://www.youtube.com/Ledger
 - https://www.tiktok.com/@ledger
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -73,3 +75,7 @@ This product does **NOT have all its components' source publicly available**.
 ## Previous Review 2023-02-23
 
 An upcoming wallet from Ledger. According to the technical specifications on the wallet's page, this device will have an E Ink® touch screen display, EAL5+ chip certification, and can either connect to another device using USB-C or Bluetooth.
+
+{% include featureEvidence.html feature="secEl" quote="Secure Element Chip: ST33K1M5 - Chip Certification: CC EAL6+" source="Existing WalletScrutiny review" comment="Explicitly lists a dedicated Secure Element chip with EAL6+ certification." %}
+
+{% include featureEvidence.html feature="nfc" quote="Bluetooth 5.2® to connect to a smartphone. - USB type C" source="Website" comment="No NFC mentioned — omitting." %}

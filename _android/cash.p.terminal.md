@@ -31,9 +31,18 @@ social:
 redirect_from: 
 developerName: PirateCash and Cosanta foundation
 builds: 
-features: 
+features:
+- hd
+- tradeAlts
+- secEl
+- companion
+- foss
 
 ---
+{% include featureEvidence.html feature="hd" source="Review" quote="A 12-word mnemonic phrase is provided during startup." %}
+{% include featureEvidence.html feature="tradeAlts" source="[Play Store](https://play.google.com/store/apps/details?id=cash.p.terminal)" quote="Includes built-in onchain DEX, institutional-grade analytics for crypto and NFT markets" %}
+{% include featureEvidence.html feature="secEl" source="[Play Store](https://play.google.com/store/apps/details?id=cash.p.terminal)" quote="private keys are securely generated and stored directly on the card, never exposed or saved anywhere" %}
+{% include featureEvidence.html feature="companion" source="[Play Store](https://play.google.com/store/apps/details?id=cash.p.terminal)" quote="Now with Tangem hardware wallet support — private keys are securely generated and stored directly on the card" %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/a2fa561f891da1fe0fb8c09ab1e30df74b0807fb/_android/cash.p.terminal.md)*
 
@@ -56,3 +65,5 @@ A powerful non-custodial multi-wallet for PirateCash, Cosanta, Bitcoin, Ethereum
 - We've verified their claim that this app is non-custodial. 
 - The provider does not make any claims regarding source-availability
 - A [search on GitHub](https://github.com/search?q=cash.p.terminal&type=code) for the app ID does not show any results.
+
+{% include featureEvidence.html feature="foss" quote="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="License" %}

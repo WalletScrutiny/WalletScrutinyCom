@@ -22,8 +22,24 @@ twitter: FullyNoded
 social: 
 builds: 
 features: 
+- ln
+- ownLN
+- TOR
+- multiSig
+- mix
+- customNode
+- airGapped
+- companion
 
 ---
+{% include featureEvidence.html feature="ln" source="[README](https://github.com/Fonta1n3/FullyNoded#readme)" quote="C-Lightning and LND compatible for instant, unfairly cheap payments." %}
+{% include featureEvidence.html feature="ownLN" source="[Website](https://fullynoded.app/)" quote="utilize your own personal node (Bitcoin Core, Core Lightning, Join Market and PayJoin over Nostr)" %}
+{% include featureEvidence.html feature="TOR" source="[Website](https://fullynoded.app/)" quote="Multisig, air gapped signing, HWW functionality, native PSBT support, integrated Tor" %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://fullynoded.app/)" quote="Multisig, air gapped signing, HWW functionality, native PSBT support, integrated Tor" %}
+{% include featureEvidence.html feature="mix" source="[Website](https://fullynoded.app/)" quote="FN-Server installs and manages Bitcoin Core, Bitcoin Knots, Join Market, Tor" %}
+{% include featureEvidence.html feature="customNode" source="[Website](https://fullynoded.app/)" quote="pair with popular HWWs and popular node packages such as Parmanode, BTCPayServer, Start 9, Umbrel, MyNode, NODL, RaspiBlitz" %}
+{% include featureEvidence.html feature="airGapped" source="[Website](https://fullynoded.app/)" quote="Multisig, air gapped signing, HWW functionality, native PSBT support, integrated Tor" %}
+{% include featureEvidence.html feature="companion" source="[Website](https://fullynoded.app/)" quote="Multisig, air gapped signing, HWW functionality, native PSBT support, integrated Tor" %}
 
 ## App Description
 

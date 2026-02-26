@@ -31,7 +31,11 @@ social:
 - https://medium.com/@ocwallet
 - https://t.me/ocwallet
 builds: 
-features: 
+features:
+- companion
+- hd
+- nfc
+- secEl
 
 ---
 
@@ -123,3 +127,10 @@ We were also not able to find the option to buy the card, but instead we found, 
 
 For now, we are not able to find a conclusion for the product. We will await further information from the provider.
 
+{% include featureEvidence.html feature="nfc" quote="NFC contactless payment infrastructure" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="The Secure Wallet uses CC EAL 5+ government-level security to keep your cryptocurrencies safe inside the internal secure element" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="HD Wallet Take full control of your assets and private keys for maximum safety" source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="Our OCW application cannot access your account information without your OCW card." source="Website" %}

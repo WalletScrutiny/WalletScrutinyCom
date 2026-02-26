@@ -30,7 +30,10 @@ social:
 - https://www.facebook.com/ammercards
 - https://www.linkedin.com/showcase/ammer-cards/
 builds: 
-features: 
+features:
+- companion
+- nfc
+- secEl
 
 ---
 
@@ -48,3 +51,9 @@ features:
 ## Analysis 
 
 Like most NFC-enabled card hardware wallets it **does not have its own display or interface** to verify or confirm transactions.
+
+{% include featureEvidence.html feature="nfc" quote="Ammer Card is a multi-asset hardware wallet with an accessible shape of a bank card with NFC capability." source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="It comes with an easy to use companion app called Ammer Wallet that allows you to manage your assets." source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="Auto-generated keys stored exclusively in your card" source="Website" %}

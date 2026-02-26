@@ -35,7 +35,9 @@ redirect_from:
 - /posts/com.greenaddress.greenbits_android_wallet/
 developerName: Blockstream Inc
 builds: 
-features: 
+features:
+- foss
+- multiSig
 
 ---
 
@@ -46,3 +48,7 @@ features:
 Blockstream App is a non-custodial Bitcoin wallet for Android and iOS, built on Blockstream's cross-platform wallet library `gdk`. It enables secure storage, sending, and receiving of Bitcoin while offering features such as custom spending limits, watch-only access, and a multi-signature security model. The app is open source and released under the GNU GPLv3 license, with verified APKs that can be authenticated using SHA256 and GPG signatures. Developers can build the app by following instructions in the `BUILD.md` file, and contribute via guidelines in `CONTRIBUTING.md`. Localization is community-driven and supported through translation tools, with support available via email or the app’s FAQ.
 
 This app is **source available**
+
+{% include featureEvidence.html feature="foss" quote="Blockstream App is released under the terms of the GNU General Public License. See LICENSE for more information or see https://opensource.org/licenses/GPL-3.0" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="our unique multisig security model" source="GitHub README" %}

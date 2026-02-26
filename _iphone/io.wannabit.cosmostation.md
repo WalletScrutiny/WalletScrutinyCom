@@ -25,9 +25,21 @@ twitter: CosmostationVD
 social:
 - https://t.me/cosmostation
 - https://www.youtube.com/@cosmostationio
-features: 
+features:
+- foss
+- hd
+- segwit
+- taproot
 developerName: Stamper Co., Ltd.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="segwit" quote="Bitcoin: Supports Taproot, Native SegWit, SegWit, and Legacy addresses." source="Store" %}
+
+{% include featureEvidence.html feature="taproot" quote="Bitcoin: Supports Taproot, Native SegWit, SegWit, and Legacy addresses." source="Store" %}
+
+{% include featureEvidence.html feature="hd" quote="Every integration follows either the BIP44 HD path standard or the official specification of each chain." source="Store" %}
+
+{% include featureEvidence.html feature="foss" quote="Licensed under the MIT." source="GitHub README" %}

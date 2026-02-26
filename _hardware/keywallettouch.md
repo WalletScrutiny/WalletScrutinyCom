@@ -35,7 +35,10 @@ social:
 - https://www.facebook.com/profile.php?id=100050621501094
 - https://medium.com/@keywallet
 builds: 
-features: 
+features:
+- companion
+- nfc
+- secEl
 
 ---
 
@@ -54,3 +57,9 @@ According to the [site's technical specifications](http://www.keywallet.co.kr), 
 As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app is responsible for making transactions but it depends on the card to sign them. The card signs whatever the non-verifiable companion app asks to sign.
 
 **Updated Verdict 2023-04-05**: the device **does not have input/output interfaces.**
+
+{% include featureEvidence.html feature="nfc" quote="it resembles a credit card in appearance and is meant to connect with an external device with NFC" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="companion" quote="the companion app is responsible for making transactions but it depends on the card to sign them" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="secEl" quote="this product is CC EAL 5+ and FIDO certified" source="Existing WalletScrutiny review" %}

@@ -35,7 +35,14 @@ social:
 - https://t.me/joinchat/GHNuc_nhNQjLPWsS
 - https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- companion
+- foss
+- hd
+- multiSig
+- segwit
 
 ---
 
@@ -79,3 +86,17 @@ Yes.
 
 We had a little
 [back-and-forth with the provider on Twitter](https://twitter.com/WalletScrutiny/status/1507201398735220736).
+
+{% include featureEvidence.html feature="hd" quote="Calculate the final word (aka checksum) of a 12- or 24-word BIP39 seed phrase" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="The goal of SeedSigner is to lower the cost and complexity of Bitcoin multi-signature wallet use." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="SeedSigner offers anyone the opportunity to build a verifiably air-gapped, stateless Bitcoin signing device using inexpensive, publicly available hardware components" source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="Native Segwit Multisig XPUB generation" source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Sign transactions & transfer XPUB data using animated QR codes" source="GitHub README" %}
+
+{% include featureEvidence.html feature="companion" quote="Built for compatibility with Specter Desktop, Sparrow, and BlueWallet Vaults" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Starting with v0.7.0, the images distributed via GitHub are reproducible. This means you and others can verify the released images are byte-for-byte the same when built from source." source="GitHub README" %}

@@ -24,7 +24,10 @@ signer:
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform
-features: 
+features:
+- buyWithCC
+- multiAccount
+- tradeAlts
 developerName: ShapeShift AG
 
 ---
@@ -51,3 +54,9 @@ actually download links for both mobile apps.
 
 As we couldn't find any source code we assume the app is closed source and
 therefore **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Fast swaps for Solana, Bitcoin, Ethereum, USDC, and more" source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Set limit orders, import custom tokens, and manage multiple accounts" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy and Sell Buy crypto with fiat. Sell it back when you're ready. All in one place." source="Website" %}

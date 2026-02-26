@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: Payperless
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
 
 ---
 
@@ -48,4 +50,8 @@ It also supports Biometric authentication.
 
 Once the app confirms the phone number of the mobile device, the user is asked to create a pin code. A 12-word mnemonic phrase is created which can be exported. 
 
-There was **no mention that the project is open source**. 
+There was **no mention that the project is open source**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Use your credit card, debit card, bank transfer or cryptocurrency exchange to fund your account balance with crypto currencies like Bitcoin (BTC), Dogecoin (DOGE), Ethereum (ETH) and Litecoin (LTC)." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="It also supports Biometric authentication." source="Existing WalletScrutiny review" %}

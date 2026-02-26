@@ -26,9 +26,18 @@ social:
 - https://t.me/THORWalletOfficial
 - https://discord.com/invite/TArAZHDjCr
 - https://thorwallet.medium.com
-features: 
+features:
+- buyWithCC
+- multiSig
+- tradeAlts
 developerName: DeFi Suisse AG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Cross-Chain Swaps: Trade native BTC, ETH, SOL, and other major assets across chains with zero intermediaries. No wrapping. No bridges. Pure DeFi, how it was meant to be." source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig for Any Token, Any Chain: THORWallet's TSS-based multi signature system delivers institutional-grade security on mobile." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Best-in-Class Fiat Gateway: On- and off-ramp crypto at top market rates and large sizes, via a built-in Swiss IBAN bank account, bridging TradFi and DeFi in one seamless interface." source="Store description" %}

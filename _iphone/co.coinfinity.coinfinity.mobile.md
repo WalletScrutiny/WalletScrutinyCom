@@ -27,9 +27,12 @@ social:
 - https://www.youtube.com/channel/UCjgUYpQD00RB8eozRrqLhBg/videos
 - https://www.instagram.com/coinfinity
 - https://t.me/coinfinity_community
-features: 
+features:
+- ln
 developerName: Coinfinity GmbH
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Experience the future of buying Bitcoin with the Lightning Network. With us, you can purchase BTC via Lightning, enabling lightning-fast transactions with minimal fees." source="Store description" %}

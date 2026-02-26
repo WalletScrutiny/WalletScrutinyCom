@@ -26,7 +26,10 @@ social:
 redirect_from: 
 developerName: INWAY AKTIENGESELLSCHAFT
 builds: 
-features: 
+features:
+- hd
+- nfc
+- tradeAlts
 
 ---
 
@@ -40,3 +43,9 @@ features:
 ## Other Observations
 
 This app seems to be new but strangely already has 500,000 users.  Social media links seem to have been removed from their homepage, but already exist in platforms such as x.com. Nevertheless, we created an [issue in their Github](https://github.com/Ironwallet/IronWallet/issues/1) just in case they change their minds and decide to make the source available. Tentatively, this app is **not source-available**.
+
+{% include featureEvidence.html feature="hd" quote="Local key generation (BIP‑39)" source="GitHub README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Cross‑chain swap integrations with decentralized liquidity protocols" source="GitHub README" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC Info" source="Website" %}

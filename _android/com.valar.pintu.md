@@ -27,7 +27,9 @@ social:
 redirect_from: 
 developerName: Pintu Crypto
 builds: 
-features: 
+features:
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -37,3 +39,6 @@ Found in the [FAQ:](https://pintu.co.id/en/faq/private-keys)
 
 Pintu is **custodial** and **not verifiable.**
 
+{% include featureEvidence.html feature="fingerprint" quote="Akses Biometrik Dengan scan wajah dan sidik jari, hanya kamu yang bisa akses akun Pintu kamu." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trading 300+ koin dengan Rupiah" source="Website" %}

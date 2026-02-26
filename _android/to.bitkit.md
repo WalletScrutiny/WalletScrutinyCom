@@ -33,9 +33,13 @@ redirect_from:
 developerName: Synonym
 builds: 
 features:
+- hd
+- foss
 - ln
+- segwit
 
 ---
+{% include featureEvidence.html feature="hd" source="[Website](https://bitkit.to/)" quote="Restore your bitcoin on any wallet." %}
 
 ## App Description from Google Play
 
@@ -137,3 +141,7 @@ The key differences between the Play Store and locally built versions:
 With all the diffs, this binary is **not verifiable**.
 
 {% include asciicast %}
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under the MIT License." source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="The app has a Bech32 BTC address" source="Analysis" %}

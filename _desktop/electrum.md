@@ -31,8 +31,10 @@ builds:
   - portable
   - standalone
 features:
-- 2fa
-- multisig
+- customNode
+- foss
+- multiSig
+- segwit
 
 ---
 
@@ -43,3 +45,11 @@ Electrum is a lightweight Bitcoin client developed by Thomas Voegtlin in 2011. I
 They have a guide on [reproducibility](https://github.com/spesmilo/electrum/tree/master/contrib/build-linux/sdist)
 
 This desktop program is **for verification**.
+
+{% include featureEvidence.html feature="foss" quote="Released under the MIT Licence" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig Split the permission to spend your coins between several wallets." source="Website" %}
+
+{% include featureEvidence.html feature="customNode" quote="How to run your own Electrum server: Install Guide" source="Website" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

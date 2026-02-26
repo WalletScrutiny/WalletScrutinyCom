@@ -30,7 +30,10 @@ social:
 - https://www.facebook.com/CoinKite/
 - https://www.linkedin.com/company/coinkite/
 builds: 
-features: 
+features:
+- companion
+- nfc
+- segwit
 
 ---
 
@@ -76,3 +79,8 @@ Unfortunately this card may fall victim to **blind transaction signing.** It is 
 >
 > However, the wallet you paired with the TAPSIGNER can ask the TAPSIGNER to sign any transaction. You can't verify what you're signing since the TAPSIGNER does not have a screen and, therefore, cannot display transaction information. We recommend the COLDCARD if this is a concern.
 
+{% include featureEvidence.html feature="nfc" quote="This Python library enables easy communication with TAPSIGNER, SATSCARD and SATSCHIP. Interact with SATSCARD and TAPSIGNER cards via NFC tap." source="GitHub README" %}
+
+{% include featureEvidence.html feature="companion" quote="Your mobile wallet provides most of the wallet logic and TAPSIGNER holds the secrets. It's essentially a hardware wallet you can slip inside your regular wallet." source="Website (FAQ)" %}
+
+{% include featureEvidence.html feature="segwit" quote="Current derivation: m/84h/0h/0h" source="GitHub README" %}

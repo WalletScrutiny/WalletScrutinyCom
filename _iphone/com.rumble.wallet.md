@@ -25,9 +25,15 @@ twitter: rumblevideo
 social:
 - https://www.linkedin.com/company/rumblevideo
 - https://www.youtube.com/@rumblevideo
-features: 
+features:
+- buyWithCC
+- hd
 developerName: Rumble Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Restore access to your crypto wallet and cryptocurrency assets with a 12-word seed phrase. You control your account, no middlemen." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto with MoonPay Easily purchase Bitcoin and Tether using your debit card through our MoonPay integration." source="Store" %}

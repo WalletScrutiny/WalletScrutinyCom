@@ -41,8 +41,16 @@ social:
 builds:
 - arch: arm
 features: 
+- hd
+- nfc
+- secEl
+- tradeAlts
 
 ---
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="X1Wallet supports the feature to import any BIP39 compliant wallets" %}
+{% include featureEvidence.html feature="nfc" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="data exchange happens securely via NFC eliminating any risks of NFC spoofing" %}
+{% include featureEvidence.html feature="secEl" source="[Website](https://www.cypherock.com/)" quote="X1 Cards are encrypted NFC-based smartcards with EAL 6+ secure elements." %}
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://www.cypherock.com/)" quote="Experience fast and secure crypto swaps with Cypherock X1" %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4b8adc136ccda7863004060fb71745394ded985f/_hardware/cypherockx1.md)*
 

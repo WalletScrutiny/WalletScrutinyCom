@@ -33,9 +33,12 @@ redirect_from:
 developerName: Swiss Bitcoin Pay
 builds: 
 features:
+- nfc
+- foss
 - ln
 
 ---
+{% include featureEvidence.html feature="nfc" source="[README](https://github.com/SwissBitcoinPay/app#readme)" quote="BoltCard support" %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/97657556fba10b8ce60e568af1e2729166ad419b/_android/ch.swissbitcoinpay.checkout.md)*
 
@@ -45,4 +48,4 @@ Swiss Bitcoin Pay is a non-custodial point-of-sale application designed to accep
 
 The project is open source under the MIT License and is structured for cross-platform development. Web builds are launched with `npm start` and accessed via `https://localhost:7474`, while mobile builds require `npm run mobile-start` followed by platform-specific commands (`npm run ios` or `npm run android`). The codebase is primarily written in TypeScript (91%) and integrates with external services like Crowdin for translations. Contributions are welcomed, particularly in areas such as UI simplification, testing, and security. The repository includes over 50 releases, with active maintenance by a small contributor base.
 
-
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2023 Swiss Bitcoin Pay Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

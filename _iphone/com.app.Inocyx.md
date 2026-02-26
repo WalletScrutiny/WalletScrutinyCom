@@ -29,9 +29,15 @@ social:
 - https://www.instagram.com/inocyx
 - https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
 - https://t.me/inocyxiyx
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Inocyx technologies private limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Discover and trade over 120 coins." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Flexible Payment Gateway: Accepts all major payment modes including UPI, net banking, cards, and wallets." source="Store" %}

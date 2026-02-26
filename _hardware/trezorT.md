@@ -41,7 +41,11 @@ builds:
   types:
   - universal
   - btc-only
-features: 
+features:
+- TOR
+- coinCtrl
+- companion
+- segwit
 
 ---
 
@@ -54,3 +58,11 @@ The Trezor Model T is a hardware wallet for securely storing and managing crypto
 It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management. The device also allows uploading custom 240x240 pixel wallpapers. All security-sensitive actions, such as backup creation and recovery, must be confirmed directly on the device's touchscreen.
 
 This device is **source available**.
+
+{% include featureEvidence.html feature="segwit" quote="The Trezor Model T is a hardware wallet for securely storing and managing cryptocurrency." source="Device Description" comment="No explicit mention of SegWit in source text — omitting" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="coin control for granular transaction management" source="Device Description" %}
+
+{% include featureEvidence.html feature="companion" quote="The device is initialized and managed via the Trezor Suite app, which enables users to send, receive, stake, and trade various supported coins." source="Device Description" %}
+
+{% include featureEvidence.html feature="TOR" quote="It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management." source="Device Description" %}

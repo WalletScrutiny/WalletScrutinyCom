@@ -30,8 +30,16 @@ social:
 - https://t.me/coldcard
 builds: 
 features: 
+- hd
+- multiSig
+- airGapped
+- secEl
 
 ---
+{% include featureEvidence.html feature="hd" source="[Website](https://coldcard.com/)" quote="the 24-word seed phrase for your BIP39 wallet" %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://coldcard.com/)" quote="setup a multisig wallet between multiple cosigners, entirely on-device, and air gapped" %}
+{% include featureEvidence.html feature="airGapped" source="[Website](https://coldcard.com/)" quote="COLDCARD never needs to touch a computer. It can work entirely from a USB power pack or AC power adapter." %}
+{% include featureEvidence.html feature="secEl" source="[Website](https://coldcard.com/)" quote="COLDCARD uses two Secure Elements, from different vendors, to protect your Bitcoin." %}
 
 ## Update 2022-11-24
 

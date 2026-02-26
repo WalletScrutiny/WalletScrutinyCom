@@ -22,8 +22,10 @@ twitter: openbazaar
 social: 
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/OpenBazaar/openbazaar-desktop#readme)" quote="MIT License" %}
 
 ## Analysis
 

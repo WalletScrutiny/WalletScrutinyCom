@@ -29,7 +29,9 @@ social:
 redirect_from: 
 developerName: Bitbns Cryptocurrency Trading Exchange India
 builds: 
-features: 
+features:
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -46,3 +48,7 @@ Freskdesk Support Article "How Safe is BitBNS"
 Support Tutorial on how to [withdraw Cryptocurrencies from BitBNS](https://bitbns.freshdesk.com/support/solutions/articles/35000045142-how-to-withdraw-cryptocurrencies-from-bitbns-)
 
 Support Tutorial on how to [deposit Cryptocurrencies to BitBNS](https://bitbns.freshdesk.com/support/solutions/articles/35000045132-how-to-deposit-cryptocurrencies-on-bitbns-)
+
+{% include featureEvidence.html feature="fingerprint" quote="Safe and Secure There's KYC, 2FA, Fingerprint/PIN access, and a lot more. Because lots of security is always a plus." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="With 0 + cryptocurrencies listed at present, BNS allows users to buy and sell cryptocurrencies at best available prices and offers ease of trading like no other cryptocurrency exchange." source="Website" %}

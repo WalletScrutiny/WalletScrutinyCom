@@ -34,7 +34,14 @@ twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
-features: 
+features:
+- companion
+- fingerprint
+- hd
+- multiSig
+- nfc
+- secEl
+- segwit
 
 ---
 
@@ -87,3 +94,17 @@ The content of that folder is actually the "SDK" of
 
 With the missing build instructions but above all missing commits leading up to
 the latest release, we find this product to be **not verifiable**.
+
+{% include featureEvidence.html feature="segwit" quote="Reach BIP32/BIP39/ BIP44/BIP45 standard" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Compliant with BIP32/BIP39/BIP44/BIP45 Standard Supports 12/24 mnemonic words" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint Recognition Module FPC1025" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL 6+ Secure Element" source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="Wirelessly connect to HyperPay via Bluetooth" source="Website" %}
+
+{% include featureEvidence.html feature="nfc" quote="Bluetooth 5.0" source="Website" %}

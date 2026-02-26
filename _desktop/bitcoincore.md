@@ -35,9 +35,12 @@ builds:
   types:
   - zip
   - setup
-features: 
+features:
+- ownFullNode
+- foss
 
 ---
+{% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/bitcoin/bitcoin#readme)" quote="Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully validate blocks and transactions." %}
 
 ## App Description
 
@@ -48,3 +51,5 @@ The reference implementation of the Bitcoin protocol. Described in its [reposito
 It can download the entire Bitcoin blockchain and stores the entire history of the network. Several binaries are available for Windows, Mac and Linux.
 
 It is one of the most verified programs with several developers building and signing their attestations. It can be built using GUIX. Anyone can independently verify that the binaries match the source code. Instructions for building using GUIX can be found [here.](https://github.com/bitcoin/bitcoin/blob/master/contrib/guix/README.md). Builders GPG-sign SHA256 checksums of their binaries and publish signatures alongside releases.
+
+{% include featureEvidence.html feature="foss" quote="Bitcoin Core is released under the terms of the MIT license. See COPYING for more information or see https://opensource.org/license/MIT." source="GitHub README" %}

@@ -27,9 +27,18 @@ social:
 - https://www.linkedin.com/company/phantomwallet/
 - https://www.youtube.com/@phantom-wallet
 - https://github.com/phantom-labs
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Phantom Technologies Incorporated
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Stay secure with biometric authentication" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Built-in swapping is quick and easy" source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Fund with tokens or your paycheck. Even pay friends." source="Website" %}

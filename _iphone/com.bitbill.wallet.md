@@ -23,9 +23,15 @@ date: 2021-10-01
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- airGapped
+- multiSig
 developerName: BITBILL PTY LTD
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig Security: Manage funds with team or personal multi-signature." source="Store" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Cold Wallet Mode: Go offline for ultimate protection." source="Store" %}

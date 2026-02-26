@@ -29,7 +29,8 @@ redirect_from:
 - /com.binance.us/
 developerName: Binance.US
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -37,3 +38,5 @@ Binance being a big exchange, the description on Google Play only mentions
 security features like FDIC insurance for USD balance but no word on
 self-custody. Their website is not providing more information neither. We
 assume the app is a custodial offering and therefore **not verifiable**.
+
+{% include featureEvidence.html feature="foss" comment="(no justification provided by LLM)" %}

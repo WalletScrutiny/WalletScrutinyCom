@@ -43,7 +43,14 @@ builds:
   types:
   - mono
   - color
-features: 
+features:
+- airGapped
+- camera
+- companion
+- customNode
+- foss
+- multiSig
+- secEl
 
 ---
 
@@ -87,3 +94,17 @@ From Foundation's Twitter account:
 > Security: Envoy primarily communicates with Passport via airgapped QR codes, ensuring that Passport is never directly connected to an online device.
 >
 > Privacy: Envoy connects to Foundation’s server and Bitcoin node through Tor. Envoy offers the ability to connect to your own Bitcoin node, cutting out Foundation as the middleman.
+
+{% include featureEvidence.html feature="foss" quote="GNU General Public License v3.0 (GPLv3) or later" source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="Microchip 608a secure element" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="camera" quote="Communication: Camera and microSD port. No USB data, no Bluetooth, no wireless communications of any kind." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Security: Envoy primarily communicates with Passport via airgapped QR codes, ensuring that Passport is never directly connected to an online device." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Supported Cryptocurrencies: Bitcoin via PSBTs; best-in-class multisig experience." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="companion" quote="Onboarding: Envoy guides the user through unboxing Passport and setting it up securely, no need for a computer" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="customNode" quote="Envoy offers the ability to connect to your own Bitcoin node, cutting out Foundation as the middleman." source="Existing WalletScrutiny review" %}

@@ -23,9 +23,12 @@ signer:
 twitter: bitlifi
 social:
 - https://www.facebook.com/bitlifi
-features: 
+features:
+- ln
 developerName: MP Developers s.r.o.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Innovative Lightning Network wallet with intuitive controls for easy Bitcoin management" source="Store" %}

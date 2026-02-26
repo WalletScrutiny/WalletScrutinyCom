@@ -29,7 +29,8 @@ twitter: tulipan81
 social:
 - https://t.me/sfylwallet
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -67,5 +68,4 @@ Neat indeed, but doesn't introduce attack surface if device used to access AP is
 > Valerio Vaccaro [I don't ask or send BTC], [3/22/21 7:22 AM]
 Agree, Sfyl stands for sorry for your loss ;)
 
-
-
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Valerio Vaccaro Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

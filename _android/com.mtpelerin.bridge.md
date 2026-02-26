@@ -31,7 +31,10 @@ redirect_from:
 - /com.mtpelerin.bridge/
 developerName: Mt Pelerin Group SA
 builds: 
-features: 
+features:
+- buyWithCC
+- ln
+- tradeAlts
 
 ---
 
@@ -54,3 +57,9 @@ there is no claim about public source and neither do we find any wallet
 repository on their GitHub.
 
 As a closed source wallet, this is **not verifiable**.
+
+{% include featureEvidence.html feature="ln" quote="Buy Lightning sats" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange cryptocurrencies with each other and across the 15 chains supported by the app." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy, swap and sell crypto with the lowest fees, zero hidden costs and full control over your cryptoassets." source="Website" %}

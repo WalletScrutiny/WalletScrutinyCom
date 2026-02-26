@@ -24,9 +24,15 @@ signer:
 twitter: OrangeXExchange
 social:
 - https://www.linkedin.com/company/orangexexchange
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: OrangeX Fintech s.r.o.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade the most popular cryptos, such as Bitcoin (BTC), Ethereum (ETH), Dogecoin (DOGE), Shiba Inu (SHIB), Ripple (XRP), Tron (TRX), etc., almost instantaneously." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="You can also enjoy easy crypto purchases with credit cards instantly." source="Store description" %}

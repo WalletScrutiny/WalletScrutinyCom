@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: Zypto
 builds: 
-features: 
+features:
+- hd
+- segwit
 
 ---
 
@@ -48,5 +50,6 @@ We also did not find any claims regarding source-availability in their home page
 
 **This app is not source available**.
 
+{% include featureEvidence.html feature="hd" quote="Wallet creation created a 12-word seed phrase and a Bitcoin wallet with address `bc1q0guc6nlwjq2uwa4nj39pm0ufxa0rnlp4xzquft`." source="Testing and Analysis" comment="12-word seed phrase consistent with BIP39; seed successfully imported into Electrum with matching address, confirming HD wallet standard compatibility." %}
 
-
+{% include featureEvidence.html feature="segwit" quote="Wallet creation created a 12-word seed phrase and a Bitcoin wallet with address `bc1q0guc6nlwjq2uwa4nj39pm0ufxa0rnlp4xzquft`." source="Testing and Analysis" comment="bc1q address is a native SegWit (bech32) address, confirming SegWit receive support." %}

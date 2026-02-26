@@ -35,7 +35,9 @@ redirect_from:
 - /posts/co.edgesecure.app/
 developerName: Edge (formerly Airbitz)
 builds: 
-features: 
+features:
+- foss
+- tradeAlts
 
 ---
 
@@ -44,3 +46,7 @@ features:
 ## Edge – Technical Overview
 
 Edge is a non-custodial, open-source mobile wallet supporting over 120 cryptocurrencies including Bitcoin, Ethereum, Monero, Solana, and Avalanche. It employs a zero-knowledge architecture where private keys, transaction data, and user credentials are never accessible to Edge or third parties. The wallet uses hierarchical deterministic (HD) address generation, ensuring a new address is used for each transaction to enhance privacy. Edge also includes built-in exchange functionality, allowing users to swap supported assets directly within the app. Its decentralized server model ensures full wallet functionality even during backend outages.
+
+{% include featureEvidence.html feature="foss" quote="BSD 3-Clause License Copyright (c) 2017, Airbitz Inc (dba Edge) All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:" source="GitHub README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Edge also includes built-in exchange functionality, allowing users to swap supported assets directly within the app." source="Edge – Technical Overview" %}

@@ -32,9 +32,12 @@ social:
 - https://www.tumblr.com/hippowallet
 - https://discord.com/invite/5KW493NV8R
 - https://medium.com/@hippowallet
-features: 
+features:
+- fingerprint
 developerName: Blockchain Commodities
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="you can enable Touch ID to access the crypto storage without having to type the password every time" source="Store" %}

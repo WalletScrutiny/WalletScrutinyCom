@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: Wongeta
 builds: 
-features: 
+features:
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -50,3 +52,7 @@ features:
 - We found that the web version of the registration page also exhibited the same error. 
 - From the [Terms](https://mysmartcash.tech/Home/TermsAndCondition#), we find that in Section 14.2, the provider can stop the user from having access to the platform. This is clearly a **custodial** characteristic.
 - This app was just updated a month ago. We'll contact info@mysmartcash.tech (found on the website) and temporarily mark this as **custodial** until new information is made available.
+
+{% include featureEvidence.html feature="fingerprint" quote="Enabled contactless fingerprint authentication, Crypto Currency Exchange Service and Mobile Wallet Service" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Sell & Buy Crypto Currency Facilitate the purchase and exchange of CryptoCurrency such as Bitcoin and Ethereum to you customers" source="Website" %}

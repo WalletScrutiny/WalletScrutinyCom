@@ -23,9 +23,18 @@ date: 2024-09-02
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: INWAY AKTIENGESELLSCHAFT
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Secure your wallet with a PIN or biometric login." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell & swap crypto through our integrated partners." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy, sell & swap crypto through our integrated partners." source="Store description" %}

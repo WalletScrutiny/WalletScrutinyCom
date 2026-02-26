@@ -26,9 +26,15 @@ social:
 - https://www.reddit.com/r/toobit
 - https://www.facebook.com/toobitofficial
 - https://t.me/Toobit_EN
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Hopeful Technology Co., Ltd.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Convert: Instantly swap your cryptoassets with zero fees." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Purchase Bitcoin, Ethereum, Ripple, and other crypto directly with your Visa/Mastercard." source="Store description" %}

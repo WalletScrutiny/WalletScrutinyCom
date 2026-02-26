@@ -32,8 +32,10 @@ redirect_from:
 developerName: Komodo Platform
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/KomodoPlatform/komodo-wallet-mobile/blob/master/LICENSE)" quote="MIT License" %}
 
 The app announced:
 

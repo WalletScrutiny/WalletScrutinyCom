@@ -31,10 +31,22 @@ redirect_from:
 - /posts/com.bitcoin.mwallet/
 developerName: Bitcoin.com Developer
 builds: 
-features: 
+features:
+- batching
+- hd
+- multiAccount
+- multiSig
 
 ---
 
 According to
 [the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
 this wallet is closed source until further notice. There is no indication that this will be changing, and the repository's updates ended at the 5.4-hotfix. We assume it is still supposed to be non-custodial but without source code, this is **not verifiable**.
+
+{% include featureEvidence.html feature="hd" quote="BIP32 Hierarchical deterministic (HD) address generation and wallet backups" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple wallet creation and management in-app" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Intuitive, multisignature security for personal or shared wallets" source="GitHub README" %}
+
+{% include featureEvidence.html feature="batching" quote="Easy spending proposal flow for shared wallets and group payments" source="GitHub README" %}

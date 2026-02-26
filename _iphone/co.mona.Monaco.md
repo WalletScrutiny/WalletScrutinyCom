@@ -26,9 +26,15 @@ social:
 - https://www.linkedin.com/company/cryptocom
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Crypto.com
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Crypto Trading — Trade BTC, ETH, CRO, SOL, XRP, and 400+ other cryptocurrencies." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy & sell popular crypto, including BTC and ETH, using 20+ fiat currencies or credit/debit card." source="Store" %}

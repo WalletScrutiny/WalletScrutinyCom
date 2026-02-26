@@ -23,9 +23,18 @@ date: 2021-09-15
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Tap Global Limited
 
 ---
 
  {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Your account is secured with encryption, biometric login, and you can freeze/unfreeze your card instantly for peace of mind." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, swap and hold crypto." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="On & off ramp" source="Website" %}

@@ -25,9 +25,12 @@ twitter: RayyoApp
 social:
 - https://www.instagram.com/rayyoapp
 - https://www.facebook.com/Rayyowallet
-features: 
+features:
+- fingerprint
 developerName: Montebit
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Integra la autenticación biométrica, como la huella dactilar o el reconocimiento facial, lo que garantiza que solo los usuarios autorizados puedan acceder a sus cuentas y realizar transacciones." source="Store" %}

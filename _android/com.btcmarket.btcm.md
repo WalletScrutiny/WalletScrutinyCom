@@ -30,7 +30,8 @@ social:
 redirect_from: 
 developerName: BTC Markets Pty Ltd
 builds: 
-features: 
+features:
+- fingerprint
 
 ---
 
@@ -42,4 +43,6 @@ features:
 
 ## Analysis 
 
-As a cryptocurrency exchange with user-account management and use of cold wallet storage for asset security, this provider is a **custodial one**. 
+As a cryptocurrency exchange with user-account management and use of cold wallet storage for asset security, this provider is a **custodial one**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Enjoy quick and secure on-going access to your account using 6-digit PIN, or your device's inbuilt biometric security." source="Store" %}

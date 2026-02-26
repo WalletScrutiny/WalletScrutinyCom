@@ -23,7 +23,8 @@ date: 2020-12-22
 signer: 
 twitter: cashapp
 social: 
-features: 
+features:
+- ln
 developerName: Block, Inc.
 
 ---
@@ -34,3 +35,5 @@ On their website the provider claims:
   Your Bitcoin balance is securely stored in our offline system
 
 which means it is custodial.
+
+{% include featureEvidence.html feature="ln" quote="Pay anyone in cash or bitcoin* instantly and enjoy free Lightning Network transfers with compatible wallets." source="Store" %}

@@ -28,7 +28,9 @@ signer:
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- foss
 
 ---
 
@@ -41,3 +43,7 @@ The {{ page.title }} is a DIY project and its firmware is available [on GitHub.]
 Additionally, the repository gives instructions on how to flash the firmware to a [printed circuit board (PCB).](https://github.com/FelixWeichselgartner/BitcoinOfflinePaperWalletGenerator/blob/master/documentation/flash_pcb.md)
 
 Here is a link to this project's [RNG tests.](https://github.com/FelixWeichselgartner/BitcoinOfflinePaperWalletGenerator/blob/master/tests/rng_validation/TEST.md)
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under gnu-gpl-v3.0. See License.txt for more information." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="The solution is to create your private keys on a device that cannot be hacked because it is not connected to any other devices (e.g. no internet, ...)." source="GitHub README" %}

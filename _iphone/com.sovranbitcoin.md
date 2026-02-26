@@ -23,7 +23,15 @@ date: 2025-11-03
 signer: 
 twitter: SovranBitcoin
 social: 
-features: 
+features:
+- cashu
+- fingerprint
+- foss
+- hd
+- ln
+- multiAccount
+- multiSig
+- nfc
 developerName: Sovran LTD
 
 ---
@@ -40,3 +48,19 @@ Its source code is available on GitHub at [github.com/SovranBitcoin/Sovran](http
 ## Analysis
 
 Sovran qualifies as **ecash** because it uses the Cashu Chaumian eCash protocol, where users transact with mint-issued bearer tokens rather than controlling on-chain Bitcoin keys.
+
+{% include featureEvidence.html feature="cashu" quote="Send and receive Bitcoin via Cashu ecash tokens" source="GitHub README" %}
+
+{% include featureEvidence.html feature="ln" quote="Lightning Network payments and invoices" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multi-account support with swipeable account pager" source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="BIP-39 / BIP-32 — Hierarchical deterministic wallets" source="GitHub README" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC tap payments — scan NFC tags to pay Lightning invoices or receive ecash" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Mozilla Public License Version 2.0" source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="helper/secureStorage.ts — secure storage helper with biometric support" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" comment="(no justification provided by LLM)" %}

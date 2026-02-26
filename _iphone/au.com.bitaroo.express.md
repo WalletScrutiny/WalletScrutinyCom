@@ -26,9 +26,18 @@ social:
 - https://www.youtube.com/@bitarooexchange
 - https://www.linkedin.com/company/bitaroo/
 - https://www.reddit.com/r/Bitaroo/
-features: 
+features:
+- buyWithCC
+- ln
+- multiSig
 developerName: Bitaroo
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="It supports both on-chain transactions and the Lightning Network, giving you speed and flexibility." source="Store" %}
+
+{% include featureEvidence.html feature="multiSig" quote="We guard one of your keys Collaborative multi-sig security for peace of mind." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Bitaroo Express lets you buy, sell, receive, store, and send bitcoin with ease." source="Store" %}

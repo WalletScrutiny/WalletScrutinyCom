@@ -27,9 +27,18 @@ social:
 - https://www.linkedin.com/company/quickx
 - https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
-features: 
+features:
+- hd
+- nfc
+- secEl
 developerName: Keypair
 
 ---
 
  {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Fully complied with HD(Hierarchical Deterministic) wallet" source="Store" %}
+
+{% include featureEvidence.html feature="secEl" quote="EAL 5+ CC certified smartcard chip embedded(secure element)" source="Store" %}
+
+{% include featureEvidence.html feature="nfc" quote="it communicates with the app using NFC(Near Field Communication)" source="Store" %}

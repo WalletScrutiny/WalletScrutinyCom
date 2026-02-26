@@ -29,7 +29,10 @@ social:
 redirect_from: 
 developerName: Vulti Holdings Ltd.
 builds: 
-features: 
+features:
+- foss
+- multiSig
+- tradeAlts
 
 ---
 
@@ -48,3 +51,9 @@ Our [testing](https://x.com/BitcoinWalletz/status/2004371037581201749/photo/1) r
 Because the fast mode relies on provider-mediated key share handling and the documentation does not demonstrate that Vultisig is cryptographically incapable of participating in signing or recovery, the app cannot be classified as self-custodial under WalletScrutiny criteria. The seed phrases were also not provided. 
 
 Our verdict is **custodial**.
+
+{% include featureEvidence.html feature="multiSig" quote="The first multi-chain, multi-asset, multi-signature wallet in the world for everyone." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="You can deposit, send, swap and more inside Vultisig." source="Website" %}
+
+{% include featureEvidence.html feature="foss" quote="Open-Source Audited" source="Website" %}

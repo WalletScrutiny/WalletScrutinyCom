@@ -23,7 +23,9 @@ date: 2021-04-12
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Avelot Limited
 
 ---
@@ -50,3 +52,7 @@ construction".
 
 With the conflicting claims about where the keys are stored, we have to assume
 they retain access to the users' keys. Either way this app is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Purchasing with a card" source="Website" %}

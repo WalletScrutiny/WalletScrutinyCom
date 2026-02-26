@@ -26,7 +26,10 @@ twitter: coinhako
 social:
 - https://www.linkedin.com/company/coinhako
 - https://www.facebook.com/coinhako
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: CoinHako
 
 ---
@@ -36,3 +39,9 @@ claims regarding the management of private keys.
 We would have to assume this wallet is custodial.
 
 Our verdict: This “wallet” is probably custodial and therefore is **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Visa and Mastercard payments" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade with crypto and fiat currencies at spot pricing" source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" source="Store" %}

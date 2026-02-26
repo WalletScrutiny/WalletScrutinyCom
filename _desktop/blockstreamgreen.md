@@ -21,7 +21,11 @@ date: 2025-08-06
 twitter: Blockstream
 social: 
 builds: 
-features: 
+features:
+- foss
+- liquid
+- ln
+- multiSig
 
 ---
 
@@ -36,3 +40,11 @@ The app includes features such as multisignature wallets, hardware wallet integr
 ## Analysis
 
 The app is **source-available**
+
+{% include featureEvidence.html feature="foss" quote="Blockstream is released under the terms of the GNU General Public License. See LICENSE for more information or see https://opensource.org/licenses/GPL-3.0" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="It supports Bitcoin as its primary network, with optional functionality for Liquid and Lightning depending on account configuration and user choice. The app includes features such as multisignature wallets, hardware wallet integration (including Blockstream Jade), transaction history and coin management, and built-in tools for receiving, sending, and monitoring balances." source="App Description" %}
+
+{% include featureEvidence.html feature="liquid" quote="It supports Bitcoin as its primary network, with optional functionality for Liquid and Lightning depending on account configuration and user choice." source="App Description" %}
+
+{% include featureEvidence.html feature="ln" quote="It supports Bitcoin as its primary network, with optional functionality for Liquid and Lightning depending on account configuration and user choice." source="App Description" %}

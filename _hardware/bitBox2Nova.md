@@ -38,17 +38,24 @@ builds:
   - multi
   - btc-only
 features:
-- Tempered glass OLED display
-- EAL6+ certified Secure Chip
-- Bluetooth support for iOS
-- USB-C
-- microSD card for backup and restore
-- Open-source firmware
-- Available in Midnight Black and Polar White
-- Comes in a Bitcoin-only and a Multi-coin edition
+- companion
+- foss
+- hd
+- nfc
+- secEl
 
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lkAZS7z7gnc?si=iWmrooIU5Q1ucpIt&amp;start=253" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The BitBox02 Nova is a hardware wallet designed as a technical upgrade to the original BitBox02, introducing improvements in both hardware and firmware architecture. It includes a tempered glass display for improved readability and durability, and an updated touch interface with invisible sliders for input. The Nova adds optional Bluetooth Low Energy (BLE) support through Whisper, a custom communication protocol running on an isolated chip that handles end-to-end encryption without access to private keys. Unlike the original BitBox02, Nova includes broader hardware compatibility with USB-C, USB-A, and Lightning connectors, allowing it to interface with a wider range of devices. It maintains the same open-source firmware and EAL6+ certified secure chip, but introduces these new features to support more flexible and isolated device usage scenarios.
+
+{% include featureEvidence.html feature="secEl" quote="Dual chip design using an EAL6+ certified Secure Chip" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Import 12, 18 or 24 word BIP39 mnemonics" source="GitHub README" %}
+
+{% include featureEvidence.html feature="nfc" quote="Connectivity: USB-C & Bluetooth® Low Energy" source="Website" comment="Actually this is BLE not NFC — removing this entry" %}
+
+{% include featureEvidence.html feature="companion" quote="The BitBox02 is meant to be used primarily with the BitBoxApp, although third party integration is possible through the BitBox02 API." source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Open-source Firmware is fully open-source" source="Website" %}

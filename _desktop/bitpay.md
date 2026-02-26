@@ -23,8 +23,20 @@ social:
 - https://www.linkedin.com/company/bitpay-inc-
 builds: 
 features: 
+- segwit
+- hd
+- multiSig
+- multiAccount
+- customNode
+- foss
 
 ---
+{% include featureEvidence.html feature="segwit" source="[README](https://github.com/bitpay/wallet#readme)" quote="Segwit and native segwit addresses (BECH32) for sending and receiving" %}
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/bitpay/wallet#readme)" quote="BIP32 Hierarchical deterministic (HD) address generation and wallet backups" %}
+{% include featureEvidence.html feature="multiSig" source="[README](https://github.com/bitpay/wallet#readme)" quote="Intuitive, multisignature capabilities for personal or shared wallets" %}
+{% include featureEvidence.html feature="multiAccount" source="[README](https://github.com/bitpay/wallet#readme)" quote="Multiple wallet creation (BTC, BCH and ETH) and management in-app" %}
+{% include featureEvidence.html feature="customNode" source="[README](https://github.com/bitpay/wallet#readme)" quote="Switching between BWS instances is very simple and can be done with a click from within Bitpay Wallet." %}
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/bitpay/wallet#readme)" quote="MIT License" %}
 
 ## App Description
 

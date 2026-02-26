@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: NIMERA LTD
 builds: 
-features: 
+features:
+- buyWithCC
+- tradeAlts
 
 ---
 
@@ -44,3 +46,6 @@ However despite the app's frequent updates no source code can be found in a publ
 
 Our verdict: This ‘wallet’ claims to be non-custodial, however with no source code for validation this is **not verifiable**.
 
+{% include featureEvidence.html feature="tradeAlts" quote="Our platform supports cross-exchange pairs, eliminating the need for multiple transactions to acquire your desired currency. Simply top up your wallet with one currency and exchange it for any other of your choice. Trade anything you want, anytime you want, all in one place." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Looking to buy Bitcoin (BTC)? It's simple with Fintap. Just download the Fintap app from your device store, select your country and start your crypto journey without any limitations." source="Website" %}

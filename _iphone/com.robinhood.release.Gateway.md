@@ -26,9 +26,18 @@ social:
 - https://www.instagram.com/robinhoodapp
 - https://www.linkedin.com/company/robinhood
 - https://www.tiktok.com/@robinhoodapp
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Robinhood Markets, Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap Your Favorite Cryptocurrencies Manage and trade tens of thousands of popular cryptocurrencies like Ethereum (ETH), Solana (SOL), USDC, and more." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Easily Buy BTC & DOGE Purchase Bitcoin and Dogecoin directly using Robinhood Connect." source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Biometric authentication and advanced encryption." source="Store description" %}

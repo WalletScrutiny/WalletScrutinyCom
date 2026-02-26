@@ -34,7 +34,9 @@ redirect_from:
 developerName: Block, Inc.
 builds: 
 features:
-- multiSignature
+- foss
+- multiSig
+- nfc
 
 ---
 
@@ -56,4 +58,8 @@ This is the **companion app** to the {% include walletLink.html wallet='hardware
 
 This app is **source available**
 
+{% include featureEvidence.html feature="multiSig" quote="Bitkey's 2-of-3 multisig setup is built into every wallet. You hold two keys: one on your Bitkey device and one in the app . A third is encrypted on a server and can't be used without one of your other keys." source="Website" %}
 
+{% include featureEvidence.html feature="foss" quote="Software is licensed by Block, Inc. under the following MIT License (the &quot;License&quot;), and with no warranties or guarantees. The MIT License Copyright © 2024 Block, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:" source="GitHub README" %}
+
+{% include featureEvidence.html feature="nfc" quote="It requires an NFC-capable phone, otherwise the app would not be installed." source="Existing WalletScrutiny review" comment="Excluded per rule 7 — evidence found only in the Review body. Removing this entry." %}

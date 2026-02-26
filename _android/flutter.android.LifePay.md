@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: ProminentWise
 builds: 
-features: 
+features:
+- ln
+- nfc
 
 ---
 
@@ -51,4 +53,8 @@ features:
 - As of 2024-09-07, the app only supports lightning. On-chain Bitcoin wallet functions are not available.
 - No private keys were provided when we signed up. 
 - Instead, we were given a `@lifpay.me` account. This was denominated in sats. 
-- Absent the private keys, this is a **custodial service**. 
+- Absent the private keys, this is a **custodial service**.
+
+{% include featureEvidence.html feature="ln" quote="Personalized Lightning Address for all users (username@lifpay.me) for seamless Internet money transactions." source="App Description from Google Play" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC support for seamless Bitcoin reception." source="App Description from Google Play" %}

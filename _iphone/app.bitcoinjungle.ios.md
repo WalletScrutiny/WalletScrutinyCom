@@ -27,9 +27,12 @@ social:
 - https://t.me/bitcoinfreedomfestival
 - https://github.com/Bitcoin-Jungle
 features:
+- foss
 - ln
 developerName: Bitcoin Jungle LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

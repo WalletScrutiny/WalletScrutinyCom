@@ -32,7 +32,13 @@ twitter:
 social:
 - https://www.facebook.com/konai.story/
 builds: 
-features: 
+features:
+- companion
+- fingerprint
+- hd
+- nfc
+- secEl
+- segwit
 
 ---
 
@@ -88,3 +94,14 @@ S/W
 
 According to the [User Manual](https://fcc.report/FCC-ID/2ARI2CK-KF-102/4251335), setting up the master wallet is possible through the device. Mnemonics are also displayed on the e-paper display. It claims that the card operates through their open Java based COS (Chip Operating System). We were **not able to find links to this**. We were also not able to find pricing information as it is not displayed on their website. We emailed Kona I to verify additional information related to this. There is no reference to the device being an Open Source project.
 
+{% include featureEvidence.html feature="hd" quote="Mnemonic: 12~24 - Supported HD wallet: BIP 32, BIP43, BIP44, BIP49, ETC. - Supported BIP BIP 38, BIP39, BIP141, BIP143, BIP144, BIP173, ETC." source="Existing WalletScrutiny review" comment="BIP39 mnemonic backup with BIP32/44/49 HD derivation explicitly listed in product specification." %}
+
+{% include featureEvidence.html feature="segwit" quote="Supported BIP BIP 38, BIP39, BIP141, BIP143, BIP144, BIP173, ETC." source="Existing WalletScrutiny review" comment="BIP141 (SegWit), BIP143 (SegWit signing), BIP144, and BIP173 (bech32 addresses) are all explicitly listed, indicating full SegWit support including bech32." %}
+
+{% include featureEvidence.html feature="fingerprint" quote="It is equipped with IC chips with international security CC EAL6 + certification to provide the highest level of security performance, and it is possible to manage cryptocurrency more safely through strong user authentication such as fingerprint authentication or PIN input." source="Existing WalletScrutiny review" comment="Fingerprint authentication is explicitly mentioned as a user authentication method on the hardware card." %}
+
+{% include featureEvidence.html feature="secEl" quote="Secure IC: SAMSUNG S3FTXXX" source="Existing WalletScrutiny review" comment="A dedicated secure IC chip (Samsung S3FTXXX) is explicitly listed in the hardware specification." %}
+
+{% include featureEvidence.html feature="companion" quote="It is paired with an Android app with the same name using Bluetooth. The companion app can only be used once successfully paired through BLE with the card." source="Existing WalletScrutiny review" comment="The CryptoKona card is the signing device; it requires the Android companion app for network connectivity and transaction operations." %}
+
+{% include featureEvidence.html feature="nfc" quote="ConnectionType: BLE 4.1" source="Existing WalletScrutiny review" comment="No NFC evidence found — BLE only. Omitting nfc." %}

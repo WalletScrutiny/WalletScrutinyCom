@@ -28,7 +28,12 @@ signer:
 twitter: KeystoneWallet
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- companion
+- foss
+- secEl
 
 ---
 
@@ -39,3 +44,13 @@ Here is the notice on its [product page](https://shop.keyst.one/products/keyston
 > Further manufacturing of it is currently pending and **might become available sometime in 2023/2024**.
 
 This product is currently out of stock.
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under the GPL License. See the LICENSE file for details." source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="Interaction with the Secure Element (SE) via serial port, open source SE firmware can be found at keystone-se-firmware. Transaction data is signed by the Secure Element and the generated signature is sent back to the application." source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Keystone is an air-gapped, open source hardware wallet that uses completely transparent QR code data transmissions." source="GitHub README" %}
+
+{% include featureEvidence.html feature="companion" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}

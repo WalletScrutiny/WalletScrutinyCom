@@ -27,9 +27,15 @@ social:
 - https://www.facebook.com/xapobankapp
 - https://www.instagram.com/xapobankapp
 - https://www.youtube.com/channel/UCitNkGjsgl1sC7dIn0Y7O3w
-features: 
+features:
+- fingerprint
+- ln
 developerName: Xapo Holdings Limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="you can transact in BTC instantly with the Lightning Network" source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="cutting-edge digital protocols" source="Store description" comment="Insufficient — omitting" %}

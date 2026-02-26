@@ -28,7 +28,8 @@ social:
 redirect_from: 
 developerName: Nowory Labs
 builds: 
-features: 
+features:
+- fingerprint
 
 ---
 
@@ -43,3 +44,5 @@ From its Google Play description itself:
 > Your assets are protected with SOC 2 Type II-certified custodians and industry-standard encryption.
 
 This is a **custodial** service.
+
+{% include featureEvidence.html feature="fingerprint" quote="Biometric Authentication" source="Website" %}

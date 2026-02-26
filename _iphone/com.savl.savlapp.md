@@ -24,9 +24,21 @@ signer:
 twitter: 
 social:
 - https://www.facebook.com/savl.official
-features: 
+features:
+- buyWithCC
+- fingerprint
+- multiAccount
+- tradeAlts
 developerName: Unity Software FZE
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="UnityWallet защищает активы с помощью шифрования AES-512, фразы восстановления из 24 слов и биометрической PIN-аутентификации." source="Store description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Создавайте суб-аккаунты для более удобного управления средствами и подключайтесь к тысячам DApps через WalletConnect." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="UnityWallet поддерживает более 250 криптовалют. Вы можете быстро покупать, продавать и обменивать активы, в том числе с использованием банковской карты." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Вы можете быстро покупать, продавать и обменивать активы, в том числе с использованием банковской карты." source="Store description" %}

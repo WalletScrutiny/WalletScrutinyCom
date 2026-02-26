@@ -26,9 +26,18 @@ social:
 - https://discord.com/invite/54wEtGYxuv
 - https://t.me/vultisig
 - https://www.instagram.com/vultisig
-features: 
+features:
+- foss
+- multiSig
+- tradeAlts
 developerName: Vulti Holdings Limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="TSS threshold signature technology • Multi-signature security without complexity" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="You can deposit, send, swap and more inside Vultisig." source="Website" %}
+
+{% include featureEvidence.html feature="foss" quote="Open-Source Audited" source="Website" %}

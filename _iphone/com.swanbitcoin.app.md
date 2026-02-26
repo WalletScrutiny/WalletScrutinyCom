@@ -25,9 +25,15 @@ twitter: swan
 social:
 - https://www.instagram.com/swanbitcoin
 - https://www.linkedin.com/company/swanbitcoin
-features: 
+features:
+- fingerprint
+- multiSig
 developerName: Swan Bitcoin
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="With features like 72-hour withdrawal holds and multi-signature protection, your Bitcoin stays safe even if you lose your keys." source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Enable biometric authentication and hide balances for extra privacy." source="Store description" %}

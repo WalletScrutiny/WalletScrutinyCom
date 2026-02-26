@@ -30,7 +30,10 @@ social:
 redirect_from: 
 developerName: XRPayNet
 builds: 
-features: 
+features:
+- hd
+- segwit
+- tradeAlts
 
 ---
 
@@ -55,3 +58,9 @@ No updates have been made regarding this app's source status. It is still not av
 - They make no claims regarding source-availability.
 - A code search on GitHub for the app ID, yielded [0 results](https://github.com/search?q=com.xrpaynet.app&type=code) but with 1 unrelated commit.
 - This app is **not source-available**.
+
+{% include featureEvidence.html feature="segwit" quote="We added a BTC wallet, gave it a name and tapped on create a wallet. The app gave a Bech32 BTC address that can send/receive." source="Analysis" %}
+
+{% include featureEvidence.html feature="hd" quote="It provided us with a 24-word seed phrase, which we then confirmed." source="Analysis" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="nearly 300 different cryptocurrencies that can all be seamlessly exchanged with one another. With approximately 90,000 trading pairs available" source="App Description from Google Play 2023-07-07" %}

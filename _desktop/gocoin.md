@@ -21,7 +21,8 @@ date: 2025-06-03
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -84,3 +85,4 @@ There are currently binaries distributed through their releases, though the deve
 
 Gocoin is a self-custodial Bitcoin wallet that gives users full control over their private keys through a deterministic approach. The wallet is designed to be used offline, providing an additional layer of security against potential online threats. Users can generate and manage their Bitcoin addresses without relying on any third-party services or servers. This wallet should be **for verification**.
 
+{% include featureEvidence.html feature="foss" quote="Although it is an open source project, I am sorry to inform you that I will not merge in any pull requests." source="GitHub README" comment="Source is open but License returned 404; cannot confirm OSI-approved license. Omitting per rules." %}

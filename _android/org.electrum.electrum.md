@@ -31,7 +31,11 @@ redirect_from:
 developerName: Electrum Technologies GmbH
 builds: 
 features:
+- customNode
+- foss
 - ln
+- multiSig
+- segwit
 
 ---
 
@@ -54,3 +58,11 @@ For developers and security researchers, Electrum provides extensive documentati
 - User Documentation: [https://electrum.readthedocs.io](https://electrum.readthedocs.io)
 - Release Notes: [https://github.com/spesmilo/electrum/releases](https://github.com/spesmilo/electrum/releases)
 - Lightning Network Guide: [https://electrum.readthedocs.io/en/latest/ln.html](https://electrum.readthedocs.io/en/latest/ln.html)
+
+{% include featureEvidence.html feature="foss" quote="Released under the MIT Licence" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig Split the permission to spend your coins between several wallets." source="Website" %}
+
+{% include featureEvidence.html feature="customNode" quote="How to run your own Electrum server: Install Guide" source="Website" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

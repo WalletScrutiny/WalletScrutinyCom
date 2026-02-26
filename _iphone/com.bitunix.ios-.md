@@ -27,9 +27,18 @@ social:
 - https://www.linkedin.com/company/bitunix
 - https://www.facebook.com/bitunix
 - https://www.instagram.com/bitunix.official
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Bitunix Global Limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade spot and futures markets with Bitcoin, Ethereum, and leading altcoins, supported by deep liquidity and advanced trading tools." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy and sell crypto instantly with Apple Pay, Google Pay, Visa, Mastercard, and P2P fiat transfers." source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Rely on our secure operations with Proof of Reserves, licensed compliance, advanced risk monitoring, and strict asset protection standards." source="Store description" %}

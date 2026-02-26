@@ -30,7 +30,8 @@ social:
 redirect_from: 
 developerName: The Bitcoin Company
 builds: 
-features: 
+features:
+- ln
 
 ---
 
@@ -58,3 +59,4 @@ This app is more of a rewards platform where the rewards are denominated in Sats
 
 Thus, we can say that this app is a **custodial** provider.
 
+{% include featureEvidence.html feature="ln" comment="(no justification provided by LLM)" %}

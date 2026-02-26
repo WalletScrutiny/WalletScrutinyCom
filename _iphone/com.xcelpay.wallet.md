@@ -25,7 +25,10 @@ twitter: XcelPayWallet
 social:
 - https://www.linkedin.com/company/in/xcelpaywallet
 - https://www.facebook.com/xcelpay
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: XcelPay Limited
 
 ---
@@ -40,3 +43,9 @@ The one-star ratings over and over tell:
 * SCAM
 
 As a probably custodial app, it is **not verifiable**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint Login." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Without having to go through centralized exchanges, you can buy and sell one digital asset for another. With just a few taps, you can exchange cryptocurrencies from the comfort of your wallet while retaining privacy and control and you retain control over your private keys." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto with Debit/Credit cards & Bank account." source="Store" %}

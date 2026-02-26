@@ -27,7 +27,9 @@ social:
 - https://www.linkedin.com/company/pointpay
 - https://www.facebook.com/PointPayLtd
 - https://www.reddit.com/r/PointPay
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Point Pay LTD
 
 ---
@@ -42,3 +44,7 @@ we will have to conclude the wallet funds are in control of the provider and
 hence custodial.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Purchase Bitcoin BTC, Ethereum ETH, Tether USDT, and other cryptocurrencies using credit cards, bank transfers, Apple Pay / Samsung Pay / Google Pay." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="You will be able to easily create a cryptocurrency account at PointPay CryptoBank and make purchases of Bitcoin and other currencies." source="Store" %}

@@ -25,9 +25,15 @@ twitter: lifpay
 social:
 - https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
 - https://t.me/lifpay
-features: 
+features:
+- ln
+- nfc
 developerName: PROMINENTWISE LIMITED
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="LifPay is your comprehensive Bitcoin Lightning wallet solution. Beyond instant and low-fee transactions on mobile, POS services" source="Store" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC support for seamless Bitcoin reception." source="Store" %}

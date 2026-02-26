@@ -26,7 +26,12 @@ social:
 redirect_from: 
 developerName: Dok wallet
 builds: 
-features: 
+features:
+- buyWithCC
+- foss
+- hd
+- multiAccount
+- tradeAlts
 
 ---
 
@@ -79,7 +84,14 @@ This could hint at the app being a copy of a competitor's product, which would a
 
 ## Verdict
 
-DokWallet **does not refer to the project as an open-source project** in its website or in any of its documentation. We also [could not find any relevant or related code](https://github.com/search?p=1&q=com.dok.wallet&type=Code) with the appID 'com.dok.wallet' on Github. 
+DokWallet **does not refer to the project as an open-source project** in its website or in any of its documentation. We also [could not find any relevant or related code](https://github.com/search?p=1&q=com.dok.wallet&type=Code) with the appID 'com.dok.wallet' on Github.
 
+{% include featureEvidence.html feature="hd" quote="Most modern Bitcoin wallets, like Dok Wallet, use Hierarchical Deterministic (HD) technology. This means they automatically generate a new receiving address for each incoming transaction." source="Website" %}
 
+{% include featureEvidence.html feature="multiAccount" quote="Can I create multiple wallets on a single device? Certainly, to create an additional wallet, please follow these steps: 1. Navigate to the &quot;Wallets&quot; option located in the menu bar. 2. Click on the plus sign icon. 3. Proceed to create a new wallet using the provided options." source="Website" %}
 
+{% include featureEvidence.html feature="buyWithCC" quote="To purchase cryptocurrencies using a credit card, click the &quot;Buy Crypto&quot; in the main menu or drawer. Select Credit Card , choose your desired asset, enter the amount in EUR or USD , and then click the &quot;Check Best Price&quot; button." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="BUY CRYPTO SWAP CRYPTO" source="Website" %}
+
+{% include featureEvidence.html feature="foss" quote="Dokwallet is a non-custodial, open-source, and secure wallet. Our code is fully transparent and available for review: Mobile App: https://github.com/KM-opensource-crypto-wallet/mobile_app Web App: https://github.com/KM-opensource-crypto-wallet/web_wallet" source="Website" %}

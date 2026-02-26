@@ -37,7 +37,9 @@ social:
 - https://t.me/WalahalaDex
 - https://walahala.slack.com/
 builds: 
-features: 
+features:
+- companion
+- multiSig
 
 ---
 
@@ -73,3 +75,6 @@ This is from the Walahala [wallet page](https://walahala.com/walahala-wallet):
 
 There are no references to the project being open source.
 
+{% include featureEvidence.html feature="multiSig" quote="They also claim that the wallet is a multi-signature wallet." source="Product Description" %}
+
+{% include featureEvidence.html feature="companion" quote="It has a companion app (https://play.google.com/store/apps/details?id=com.app.walahalaultimatefirstup) that is connected to the Walahala suite of products" source="Product Description" %}

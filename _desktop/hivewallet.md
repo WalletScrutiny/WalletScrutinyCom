@@ -22,6 +22,8 @@ twitter: hive_mac
 social: 
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/hivewallet/hive-mac#readme)" quote="GNU General Public License, version 2 or later" %}
 

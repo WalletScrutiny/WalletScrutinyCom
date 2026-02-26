@@ -25,9 +25,12 @@ twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
 - https://www.facebook.com/koinbazar
-features: 
+features:
+- fingerprint
 developerName: KOOZ ADVISORS AND TECHNOLOGIES PRIVATE LIMITED
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="passcode, fingerprint verification, two-factor authentication, email encryption, SSL encryption, IP change verification, and anti-phishing codes" source="Store" %}

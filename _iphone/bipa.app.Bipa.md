@@ -23,9 +23,15 @@ date: 2023-06-14
 signer: 
 twitter: usebipa
 social: 
-features: 
+features:
+- buyWithCC
+- ln
 developerName: Bipa Ltda
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Transfira seu Bitcoin para qualquer carteira — sem taxas, on-chain ou pela Lightning Network." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="COMPRE A PARTIR DE R$1: Deposite via Pix e compre Bitcoin e USDT de forma acessível, sem burocracia." source="Store" comment="The app allows purchasing Bitcoin via Pix (Brazilian instant payment), which functions as a direct buy mechanism within the app." %}

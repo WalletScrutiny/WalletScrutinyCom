@@ -33,7 +33,10 @@ social:
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology
 builds: 
-features: 
+features:
+- companion
+- fingerprint
+- secEl
 
 ---
 
@@ -71,3 +74,8 @@ The device connects via bluetooth to the mobile app and the keys are not shared.
 
 Despite the existence of [SecuXtech's organization](https://github.com/secuxtech) page on GitHub, the device's firmware is **not source-available** and is proprietary.
 
+{% include featureEvidence.html feature="secEl" quote="Secure Element Chip: Infineon SLE 97" source="Product Specifications" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="The transaction confirmation commences after tapping &quot;confirm&quot; in the fingerprint pad" source="Analysis" %}
+
+{% include featureEvidence.html feature="companion" quote="Companion Apps: Android: ... IPhone: ..." source="Companion Apps" %}

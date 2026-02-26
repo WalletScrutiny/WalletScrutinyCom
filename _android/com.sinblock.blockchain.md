@@ -30,7 +30,8 @@ social:
 redirect_from: 
 developerName: Acebitx PTE.LTD.
 builds: 
-features: 
+features:
+- buyWithCC
 
 ---
 
@@ -49,3 +50,5 @@ features:
 - We found a Bitcoin wallet with a P2SH address
 - There was no option to back up the private keys in the settings.
 - The terms explicitly describe a **custodial** platform, making this app **non-verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="You can buy BTC, ETH, and other cryptocurrencies easily with credit cards, debit cards, and bank transfers." source="Store" %}

@@ -22,8 +22,12 @@ twitter:
 social: 
 builds: 
 features: 
+- foss
+- customNode
 
 ---
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/btcsuite/Paymetheus#readme)" quote="Paymetheus is licensed under the liberal ISC License." %}
+{% include featureEvidence.html feature="customNode" source="[README](https://github.com/btcsuite/Paymetheus#readme)" quote="The connection details for this btcd server will be prompted for when Paymetheus starts." %}
 
 ## App Description
 

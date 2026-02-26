@@ -32,7 +32,13 @@ redirect_from:
 - /posts/io.horizontalsystems.bankwallet/
 developerName: Horizontal Systems
 builds: 
-features: 
+features:
+- TOR
+- foss
+- hd
+- segwit
+- taproot
+- tradeAlts
 
 ---
 
@@ -49,3 +55,15 @@ This app is **source available**.
 * $200 on [2021-12-23](https://twitter.com/WalletScrutiny/status/1474197063760072704)
 * $200 on [2021-04-13](https://twitter.com/WalletScrutiny/status/1382161902399262720)
 * $200 on [2020-12-09](https://twitter.com/WalletScrutiny/status/1336651531442155522)
+
+{% include featureEvidence.html feature="foss" quote="This wallet is open source and available under the terms of the MIT License." source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="advanced Bitcoin features (e.g., BIP44/49/84/86, SPV, time locks)" source="App Description" %}
+
+{% include featureEvidence.html feature="taproot" quote="advanced Bitcoin features (e.g., BIP44/49/84/86, SPV, time locks)" source="App Description" %}
+
+{% include featureEvidence.html feature="hd" quote="advanced Bitcoin features (e.g., BIP44/49/84/86, SPV, time locks)" source="App Description" %}
+
+{% include featureEvidence.html feature="TOR" quote="partial Tor support" source="App Description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="execute cross-chain swaps via THORChain" source="App Description" %}
