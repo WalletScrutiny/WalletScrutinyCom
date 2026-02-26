@@ -121,6 +121,17 @@ if ! node ./scripts/nostr/backupNostrVerificationEvents.mjs; then
   exit 1
 fi
 
+echo " * Running feature verification..."
+if [ -n "$PPQ_API_KEY" ]; then
+  echo "   PPQ_API_KEY detected, running featureVerifier..."
+  if ! node scripts/featureVerifier.mjs --fetch --verify --apply; then
+    echo "⚠️ WARNING: featureVerifier failed, continuing..."
+  fi
+else
+  echo "⚠️ Skipping feature verification — PPQ_API_KEY not set"
+  echo "   Set it with: export PPQ_API_KEY=sk-..."
+fi
+
 echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"

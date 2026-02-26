@@ -48,10 +48,32 @@ function searchByWords(query, wallet) {
   return result;
 }
 
+// Parse f:key feature tokens from a query string.
+// Returns { featureKeys: string[], remainingQuery: string }
+function parseFeatureTokens(query) {
+  if (!query) return { featureKeys: [], remainingQuery: '' };
+  const featureKeys = [];
+  const words = query.split(/\s+/);
+  const remaining = [];
+  for (const word of words) {
+    if (word.toLowerCase().startsWith('f:')) {
+      const key = word.slice(2);
+      if (key.length > 0) featureKeys.push(key);
+    } else {
+      remaining.push(word);
+    }
+  }
+  return { featureKeys, remainingQuery: remaining.join(' ').trim() };
+}
+
 function performSearch (wallets, query = false, platform = false) {
   const verdictOrder = ['sourceavailable', 'diy', 'nosource', 'custodial', 'ecash', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
   const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
   const metaOrder = ['ok', 'discontinued', 'deprecated', 'stale', 'obsolete', 'removed', 'defunct'];
+
+  // Extract f:key tokens from query
+  const { featureKeys, remainingQuery } = parseFeatureTokens(query || '');
+  const textQuery = remainingQuery.length > 0 ? remainingQuery : false;
 
   const workingArray = [];
   let walletsTemp = false;
@@ -63,9 +85,18 @@ function performSearch (wallets, query = false, platform = false) {
     walletsTemp = wallets;
   }
 
+  // Filter by features first (AND logic: must have ALL requested features)
+  // Case-insensitive: query is uppercased by the time it arrives here
+  if (featureKeys.length > 0) {
+    walletsTemp = walletsTemp.filter(w => {
+      const wf = (Array.isArray(w.features) ? w.features : []).filter(f => typeof f === 'string').map(f => f.toLowerCase());
+      return featureKeys.every(k => wf.includes(k.toLowerCase()));
+    });
+  }
+
   for (const wallet of walletsTemp) {
-    if (query && query.length > 0) {
-      const result = searchByWords(query, wallet);
+    if (textQuery && textQuery.length > 0) {
+      const result = searchByWords(textQuery, wallet);
       if (result) {
         workingArray.push(result);
       }
