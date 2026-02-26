@@ -34,9 +34,19 @@ redirect_from:
 developerName: Breez Development LTD
 builds: 
 features:
+- bip158spv
+- TOR
+- buyWithCC
+- fingerprint
+- nfc
 - ln
 
 ---
+{% include featureEvidence.html feature="bip158spv" source="[README](https://github.com/breez/breezmobile#readme)" quote="Neutrino on Android" %}
+{% include featureEvidence.html feature="TOR" source="[README](https://github.com/breez/breezmobile#readme)" quote="Tor support (Android)" %}
+{% include featureEvidence.html feature="buyWithCC" source="[README](https://github.com/breez/breezmobile#readme)" quote="Adding funds via credit card" %}
+{% include featureEvidence.html feature="fingerprint" source="[README](https://github.com/breez/breezmobile#readme)" quote="Biometric login" %}
+{% include featureEvidence.html feature="nfc" source="[README](https://github.com/breez/breezmobile#readme)" quote="NFC checkout" %}
 
 **Update: 2024-07-24** 
 

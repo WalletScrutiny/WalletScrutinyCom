@@ -27,7 +27,9 @@ social:
 redirect_from: 
 developerName: MP Developers s.r.o.
 builds: 
-features: 
+features:
+- ln
+- tradeAlts
 
 ---
 
@@ -65,4 +67,8 @@ and
 - We were not able to locate any option to backup or create seed phrases.
 - As noted above, the terms have several provisions indicating control over user's funds. 
 
-This is a **custodial** provider. 
+This is a **custodial** provider.
+
+{% include featureEvidence.html feature="ln" quote="Send and receive BTC payments over the lightning network easily and from anywhere." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy Bitcoin, Ethereum, Dogecoin, Cardano and many other cryptocurrencies easily, quickly and safely." source="Store" %}

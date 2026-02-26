@@ -30,7 +30,11 @@ social:
 redirect_from: 
 developerName: Island Bitcoin
 builds: 
-features: 
+features:
+- foss
+- liquid
+- ln
+- nfc
 
 ---
 
@@ -83,3 +87,11 @@ To quote:
 > IMPORTANT: If you lose your device and do not have your backup phrase, you will not be able to restore your BTC wallet and your Bitcoin will be lost. Treat your Bitcoin wallet like your savings account, and your Cash(USD) wallet like the cash in your pocket; we recommend that you only store as much cash on Flash as you would carry in your pocket.
 
 The app supported both Bitcoin and lightning. We tested this and was provided with the 12-word seed phrases. This app's **source is available.**
+
+{% include featureEvidence.html feature="ln" quote="Flash is built on top of the Bitcoin and Lightning Networks." source="Store" %}
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under the MIT License." source="GitHub README" %}
+
+{% include featureEvidence.html feature="nfc" quote="Receive Bitcoin via NFC technology, making transactions as simple as a tap with devices like bolt cards or rings" source="Store" %}
+
+{% include featureEvidence.html feature="liquid" quote="Seamless integration with Liquid sidechain functionality" source="GitHub README" %}

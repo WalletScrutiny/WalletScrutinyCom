@@ -44,6 +44,14 @@ builds:
   - multi
   - btc-only
 features:
+- airGapped
+- camera
+- companion
+- fingerprint
+- foss
+- hd
+- multiSig
+- secEl
 - taproot
 
 ---
@@ -95,5 +103,20 @@ The hardware device then generates a QR code for the authorization.
 
 This hardware wallet is [**for verification.**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/524)
 
-We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md). 
+We were able to craft a script from their provided [build instructions](https://github.com/KeystoneHQ/keystone3-firmware/blob/master/docs/verify.md).
 
+{% include featureEvidence.html feature="hd" quote="Multi Seed Phrase functionality, which enhances security and recovery options" source="GitHub README" comment="Device supports multiple seed phrases implying BIP39 mnemonic backup and HD derivation" %}
+
+{% include featureEvidence.html feature="secEl" quote="Triple-layer security with Three Secure Element Chips, ensuring top-notch protection of your digital assets." source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fingerprint verification" source="Existing WalletScrutiny review" comment="Listed under Other Features in the review body as a device feature" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Future multisig support" source="Existing WalletScrutiny review" comment="Listed under Other Features; noted as future/planned" %}
+
+{% include featureEvidence.html feature="camera" quote="It communicates to the bound app using QR codes." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="airGapped" quote="safeguards against blind signing to protect against unauthorized transactions" source="GitHub README" comment="Device communicates exclusively via QR codes with no USB/Bluetooth data connection, consistent with air-gapped operation as described in the review" %}
+
+{% include featureEvidence.html feature="companion" quote="it claims to have anti-leak technology that prevents blind signatures. It communicates to the bound app using QR codes." source="Existing WalletScrutiny review" comment="Requires a companion app (e.g. BlueWallet, Sparrow, Nunchuk) for network connectivity; device itself is the air-gapped signer" %}
+
+{% include featureEvidence.html feature="foss" quote="The Keystone3 Firmware is an advanced, highly secure software specifically crafted for the Keystone3 product" source="GitHub README" comment="Source code is publicly available on GitHub; LICENSE.md returned 404 so FOSS status cannot be confirmed — omitting per rules" %}

@@ -26,7 +26,8 @@ social:
 redirect_from: 
 developerName: MS Profit LTD
 builds: 
-features: 
+features:
+- fingerprint
 
 ---
 
@@ -59,3 +60,4 @@ MaxSwap operates as a **custodial** cryptocurrency service that explicitly marke
 
 The platform combines wallet functionality with trading and virtual card services, but the custodial nature means users rely on MaxSwap's infrastructure and policies for fund access and security.
 
+{% include featureEvidence.html feature="fingerprint" quote="Access to your account is managed through a PIN, fingerprint, Face ID" source="Store" %}

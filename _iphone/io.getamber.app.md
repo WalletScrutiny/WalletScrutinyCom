@@ -26,9 +26,12 @@ social:
 - https://www.facebook.com/theamberapp
 - https://www.instagram.com/amber.app
 - https://t.me/theamberapp
-features: 
+features:
+- ln
 developerName: Amber Labs
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Then stack for life. Or send on the Lightning Network." source="Website" %}

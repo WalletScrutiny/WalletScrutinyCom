@@ -37,9 +37,20 @@ redirect_from:
 developerName: BlueWallet Services S. R. L.
 builds: 
 features:
+- hd
+- multiAccount
+- companion
+- batching
+- foss
 - ln
+- multiSig
+- ownLN
+- segwit
 
 ---
+{% include featureEvidence.html feature="hd" source="[Website](https://bluewallet.io)" quote="Recover on another wallet" %}
+{% include featureEvidence.html feature="multiAccount" source="[Website](https://bluewallet.io)" quote="Plausible Deniability Create multiple storages or fake ones in case of a forced disclosure." %}
+{% include featureEvidence.html feature="companion" source="[Website](https://bluewallet.io)" quote="Watch-only Wallets Easily connect to your hardware wallet and manage your cold storage." %}
 
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}. 
@@ -88,3 +99,13 @@ Only in /tmp/fromPlay_io.bluewallet.bluewallet_1739117222: stamp-cert-sha256
 This binary is **not verifiable**. 
 
 {% include asciicast %}
+
+{% include featureEvidence.html feature="segwit" quote="SegWit-first. Replace-By-Fee support" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="## LICENSE MIT" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig Vaults The best security available on the Bitcoin protocol. Create wallets with multiple keys." source="Website" %}
+
+{% include featureEvidence.html feature="batching" quote="Transactions control Choose your fees when sending. Easily Bump, Cancel or Batch transactions." source="Website" %}
+
+{% include featureEvidence.html feature="ownLN" quote="LNDhub LNDhub on VPS with Ubuntu LNDHub on Mac OSX LNDhub with raspibolt Recover lndhub account" source="Website" %}

@@ -25,9 +25,15 @@ twitter: bitcoin_ira
 social:
 - https://www.linkedin.com/company/bitcoinira
 - https://www.facebook.com/BitcoinIRA
-features: 
+features:
+- multiSig
+- tradeAlts
 developerName: BitcoinIRA
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell or swap digital assets in your IRA or Roth IRA wherever and whenever you choose - Trade 60+ cryptos: Bitcoin, Ethereum, Ripple, Litecoin and more" source="Store" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Crypto and retirement funds are securely stored in an industry-leading, multi-signature digital wallet*" source="Store" %}

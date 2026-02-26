@@ -29,8 +29,10 @@ redirect_from:
 developerName: COINiD Group
 builds: 
 features: 
+- airGapped
 
 ---
+{% include featureEvidence.html feature="airGapped" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 This app is the companion app for the
 {% include walletLink.html wallet='android/org.coinid.wallet.btc' verdict='true' %}

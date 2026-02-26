@@ -38,7 +38,13 @@ social:
 - https://www.linkedin.com/company/coinkite
 - https://www.facebook.com/CoinKite
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- hd
+- multiSig
+- nfc
+- secEl
 
 ---
 
@@ -81,3 +87,15 @@ It passes all criteria:
   - QWERTY keyboard
 
 This device is **source available.**
+
+{% include featureEvidence.html feature="secEl" quote="The Q uses exactly the same security model as the Mk4 COLDCARD, with dual multi-vendor secure elements." source="Website" %}
+
+{% include featureEvidence.html feature="camera" quote="QR Code scanner done right™, with LED illumination and advanced scanning algorithms and serial interface." source="Website" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC communication, like Mk4" source="Website" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Battery powered by 3x AAA cells (or USB). Airgapped and/or wireless!" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Specifically, the COLDCARD uses Microchip's ATECC608 and Maxim's DS28C36B, to store the critical master secret: the 24-word seed phrase for your BIP39 wallet." source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Multisig Features" source="Website" %}

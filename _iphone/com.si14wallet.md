@@ -23,9 +23,15 @@ date: 2025-12-08
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- fingerprint
+- foss
 developerName: Si14 AG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Biometric ID and PIN-based 2FA" source="Store" %}
+
+{% include featureEvidence.html feature="foss" quote="Open-source code audited by independent experts" source="Store" %}

@@ -23,11 +23,10 @@ social:
 - https://nunchukio.slack.com/join/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw#/shared-invite/email
 builds: 
 features:
+- coinCtrl
+- foss
+- multiSig
 - taproot
-- multisig
-- inheritance
-- hardware integration
-- decoy wallet
 
 ---
 
@@ -51,3 +50,9 @@ From their [FAQ:](https://resources.nunchuk.io/faq/)
 > Nunchuk is a self-custodial wallet developed using open standards (seed phrase backup is defined in BIP39, while wallet configuration backup is defined in BIP129). That means you always have complete control over your funds. As long as you maintain proper backups, you can recover your Nunchuk wallets elsewhere. Please click here to see our recovery guides.
 
 It is also source-available and **for verification**
+
+{% include featureEvidence.html feature="multiSig" quote="It features multisig, group wallets, coin control and hardware support." source="Store" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="It features multisig, group wallets, coin control and hardware support." source="Store" %}
+
+{% include featureEvidence.html feature="foss" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" source="License" %}

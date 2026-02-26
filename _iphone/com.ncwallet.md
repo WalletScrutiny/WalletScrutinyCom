@@ -23,9 +23,15 @@ date: 2023-06-14
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- fingerprint
+- tradeAlts
 developerName: Zafiro International Limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Comprehensive security for your funds' protection: two-factor authentication, PIN codes, biometric login, possibility to set transaction limits and block IP addresses." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange at fair price Exchange your crypto at the best available market rate without ever leaving the app. Make fast, secure, and lightweight swaps anytime, ensuring you never miss an opportunity." source="Website" %}

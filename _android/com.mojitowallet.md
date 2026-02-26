@@ -33,8 +33,12 @@ redirect_from:
 developerName: RBB SRL
 builds: 
 features: 
+- segwit
+- foss
 
 ---
+{% include featureEvidence.html feature="segwit" source="[README](https://github.com/mintlayer/mojito_mobile_wallet#readme)" quote="SegWit-first. Replace-By-Fee support" %}
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/mintlayer/mojito_mobile_wallet/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update 2024-12-21:**
 

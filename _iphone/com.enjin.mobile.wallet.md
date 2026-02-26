@@ -27,7 +27,13 @@ social:
 - https://www.linkedin.com/company/enjin
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
-features: 
+features:
+- camera
+- fingerprint
+- hd
+- multiAccount
+- nfc
+- tradeAlts
 developerName: Enjin PTE LTD
 
 ---
@@ -76,3 +82,15 @@ on their main page, they advertise advanced securing techniques amongst which ar
     your phone's memory.
 > * Enjin Keyboard. Built from scratch to protect you from any form of data
     sniffing or keyloggers.
+
+{% include featureEvidence.html feature="hd" quote="Create or import a wallet and secure your 12‑word recovery phrase." source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Infinite wallet & address management – Create unlimited wallets for day‑to‑day use, savings, trading, or gaming and switch between them with one tap." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Client‑side AES‑256 encryption, 12‑word recovery phrase, plus fingerprint unlock or PIN keep your keys safe and private." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Built‑in marketplace – Browse and trade on NFT.io or use other marketplaces or DEX integrations via the Dapp Browser." source="Store" %}
+
+{% include featureEvidence.html feature="camera" quote="Instant NFT claims – Scan Enjin Beam QR codes to drop NFTs straight into your collection." source="Store" %}
+
+{% include featureEvidence.html feature="nfc" comment="(no justification provided by LLM)" %}

@@ -25,9 +25,15 @@ twitter: Cobo_Wallet
 social:
 - https://www.linkedin.com/company/coboofficial
 - https://www.facebook.com/coboOfficial
-features: 
+features:
+- hd
+- multiSig
 developerName: Cobo Global Limited
 
 ---
 
  {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallet Take full control of your digital assets and private keys for maximum safety Easily import your mnemonic seeds from other wallets you may own" source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="USDT multi-signature" source="Store description" %}

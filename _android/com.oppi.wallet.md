@@ -26,7 +26,12 @@ social:
 redirect_from: 
 developerName: Encoin Limited
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- hd
+- segwit
+- tradeAlts
 
 ---
 
@@ -42,3 +47,13 @@ We [tested the app](https://x.com/BitcoinWalletz/status/1991480289051439126) and
 `bc1qpr0w9w9ems5lxkvwxyxm03uqkh4u7ppjynhjqc`.  
 
 There were no claims regarding source-availability and a [search for the app ID](https://github.com/search?q=%22com.oppi.wallet%22&type=code) in GitHub Code **did not yield any relevant repository** corresponding to the source code of the app.
+
+{% include featureEvidence.html feature="hd" quote="We imported the seed phrases onto Electrum desktop mobile and successfully matched the address: bc1qpr0w9w9ems5lxkvwxyxm03uqkh4u7ppjynhjqc" source="Analysis" %}
+
+{% include featureEvidence.html feature="segwit" quote="successfully matched the address: bc1qpr0w9w9ems5lxkvwxyxm03uqkh4u7ppjynhjqc" source="Analysis" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap your cryptocurrencies on-the-go with the best prices on the market. Experience seamless high-speed swaps and enjoy the most popular coins on the market." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy & Sell Instantly" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Protect your holdings with bank-grade encryption, biometric access, and VASP-compliant protocols guaranteeing security levels other wallets can only dream of." source="Website" %}

@@ -27,8 +27,16 @@ redirect_from:
 developerName: 
 builds: 
 features: 
+- hd
+- multiSig
+- foss
+- camera
 
 ---
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="HD wallet technology allowing you to create an unlimited number of addresses" %}
+{% include featureEvidence.html feature="multiSig" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="2-of-3 Multisig technology so you always remain in control of your coins" %}
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="GNU Affero General Public License" %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/blocktrail/blocktrail-wallet#readme)" quote="QR code scanning with bitcoin URI support" %}
 
 This app claims:
 

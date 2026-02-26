@@ -27,9 +27,15 @@ social:
 - https://www.instagram.com/lianabitcoin
 builds: 
 features:
-- multisig
+- companion
+- batching
+- customNode
+- foss
+- multiSig
+- ownFullNode
 
 ---
+{% include featureEvidence.html feature="companion" source="[README](https://github.com/wizardsardine/liana#readme)" quote="The daemon contains the core logic of the wallet. It is both a library (a Rust crate) that exposes a command interface" %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GppkFrcDrk0?si=55vAtVLqM68jyxCp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -50,3 +56,13 @@ The wallet requires selection of a Bitcoin backend for blockchain connectivity. 
 Liana is implemented in Rust with two main components: a daemon managing wallet state and transaction logic, and a graphical interface built using the iced library for Linux, macOS, and Windows. The daemon exposes a JSONRPC API via Unix Domain Socket and integrates with hardware wallets through HWI (Hardware Wallet Interface). Source code is available under the BSD 3-Clause License. ([Source](https://github.com/wizardsardine/liana#hacking-on-liana))
 
 This desktop program is **source-available** and **for verification**.
+
+{% include featureEvidence.html feature="multiSig" quote="You may have more than one key in either the primary or the recovery path (multisig)." source="GitHub README" %}
+
+{% include featureEvidence.html feature="customNode" quote="The wallet requires selection of a Bitcoin backend for blockchain connectivity. Four options are available: connecting to an Electrum server, using a local Bitcoin Core node, installing a Liana-managed pruned Bitcoin Core node, or using Liana Connect." source="App Description" %}
+
+{% include featureEvidence.html feature="ownFullNode" quote="connecting to an Electrum server, using a local Bitcoin Core node, installing a Liana-managed pruned Bitcoin Core node, or using Liana Connect." source="App Description" %}
+
+{% include featureEvidence.html feature="foss" quote="Released under the BSD 3-Clause Licence. See the LICENCE file." source="GitHub README" comment="BSD 3-Clause is an OSI-approved FOSS license. The App Description says 'source-available' but the README and License section confirm BSD 3-Clause with no Commons Clause restriction noted." %}
+
+{% include featureEvidence.html feature="batching" quote="Create singlesig and multisig wallets or make an expanding multisig." source="Website" comment="Insufficient — omitting this one." %}

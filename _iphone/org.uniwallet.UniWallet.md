@@ -26,9 +26,15 @@ social:
 - https://t.me/uniwallet_app
 - https://www.reddit.com/r/uniwallet_app
 - https://web.facebook.com/uniwalletapp
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: UniWallet Ltd.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="UniWallet has partnered with the world's biggest 3rd party crypto payment processors to give you global on/off-ramp functionality. Anywhere in the world, you can easily and securely buy crypto with your credit card or sell crypto for fiat directly into your bank account" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Easily send, receive and swap crypto between different addresses and chains." source="Store" %}

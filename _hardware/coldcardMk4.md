@@ -38,8 +38,14 @@ social:
 - https://t.me/coldcard
 builds: 
 features: 
+- multiSig
+- secEl
+- nfc
 
 ---
+{% include featureEvidence.html feature="multiSig" source="Review" quote="More multisig wallets possible" %}
+{% include featureEvidence.html feature="secEl" source="Review" quote="Even more security, Dual SE (Secure Elements)" %}
+{% include featureEvidence.html feature="nfc" source="Review" quote="NFC Tap for all data types, PSBT, Address, etc..." %}
 
 ## Product Description 
 

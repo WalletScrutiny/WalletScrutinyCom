@@ -24,9 +24,15 @@ signer:
 twitter: EverspaceWallet
 social:
 - https://everspace.app
-features: 
+features:
+- fingerprint
+- multiSig
 developerName: BYTEHUB, LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Enable Touch ID or Face ID to access the crypto storage without having to type the password every time." source="Store" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Create and manage multisig addresses" source="Store" %}

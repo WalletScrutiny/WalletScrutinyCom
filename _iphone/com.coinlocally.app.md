@@ -23,9 +23,15 @@ date: 2023-02-21
 signer: 
 twitter: coinlocallyclyc
 social: 
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Coinlocally
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="there are more than 600 cryptocurrencies to buy and sell on Coinlocally." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Bitcoin, ETH, and many crypto by Visa and Master Card through all over the world by Supporting more than 40 different Fiat Currency." source="Store description" %}

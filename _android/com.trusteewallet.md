@@ -32,8 +32,10 @@ redirect_from:
 developerName: BlockSoft Lab
 builds: 
 features: 
+- buyWithCC
 
 ---
+{% include featureEvidence.html feature="buyWithCC" source="[README](https://github.com/trustee-wallet/trusteeWallet#readme)" quote="Quick and safe buy and sell bitcoin directly with your Visa or MasterCard" %}
 
 ## App Description
 

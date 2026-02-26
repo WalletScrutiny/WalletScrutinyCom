@@ -29,7 +29,9 @@ twitter: SatoshiEngTech
 social:
 - https://www.youtube.com/@satoshiengineering
 builds: 
-features: 
+features:
+- foss
+- ln
 
 ---
 
@@ -65,5 +67,6 @@ This project has its source publicly available and thus users can make their own
 
 This makes it a **do-it-yourself project.**
 
+{% include featureEvidence.html feature="ln" quote="Lightning Tip Cards are a tip (or gift) card system, where you can fund tip cards via the lightning network and the gifted person can redeem the funded cards." source="About Page" %}
 
-
+{% include featureEvidence.html feature="foss" quote="This project has its source publicly available and thus users can make their own implementations and redirect to their own urls instead of https://tipcards.io." source="Analysis" comment="Source available is noted, but the license type is not confirmed as OSI-approved. Omitting per conservative rules." %}

@@ -25,7 +25,9 @@ twitter: remitano
 social:
 - https://www.linkedin.com/company/Remitano
 - https://www.facebook.com/remitano
-features: 
+features:
+- fingerprint
+- tradeAlts
 developerName: REMITANO PTY. LTD.
 
 ---
@@ -33,3 +35,7 @@ developerName: REMITANO PTY. LTD.
 This app is an interface to an exchange which holds your coins. On the App Store
 and their website there is no claim to a non-custodial part to the app. As a
 custodial app it is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Instant Crypto Swap: Convert between Bitcoin, Ethereum, Tether, and other coins instantly within your Remitano wallet." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Safely store multiple cryptocurrencies with advanced security including 2-factor authentication and cold storage." source="Store" %}

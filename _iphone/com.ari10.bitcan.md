@@ -26,9 +26,15 @@ social:
 - https://www.instagram.com/senexpay
 - https://www.linkedin.com/company/ari10-com
 - https://t.me/ari10_com
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: BITCAN sp. z o.o.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap crypto directly in the exchange with just a 1% fee" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="BLIK, debit & credit cards (VISA, Mastercard)" source="Store" %}

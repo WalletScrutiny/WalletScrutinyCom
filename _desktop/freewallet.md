@@ -22,9 +22,16 @@ twitter: FreeWallet
 social:
 - https://www.facebook.com/freewallet.io
 builds: 
-features: 
+features:
+- fingerprint
+- foss
+- batching
+- segwit
+- tradeAlts
 
 ---
+{% include featureEvidence.html feature="fingerprint" source="[Website](https://freewallet.io/)" quote="Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security." %}
+{% include featureEvidence.html feature="foss" source="[Website](https://freewallet.io/)" quote="FreeWallet Desktop is also open-source, and available for anyone to fork or review." %}
 
 ## App Description
 
@@ -55,3 +62,9 @@ It has a licensing agreement which states:
 > Operators do not have access to the Bitcoins stored on the platform, instead Freewallet.io, FreeWallet Mobile, and FreeWallet Desktop simply provide a means to access Bitcoins, Counterparty (XCP), and other digital assets recorded on the Bitcoin blockchain. Bitcoin private keys are encrypted using the BIP32 Hierarchical Deterministic Wallet algorithm such that Freewallet.io, FreeWallet Mobile, and FreeWallet Desktop cannot access or recover Bitcoins, Counterparty (XCP), or other digital assets in the event of lost or stolen password.
 
 The desktop app supports Bitcoin, is non-custodial, source-available, and therefore **for verification**.
+
+{% include featureEvidence.html feature="segwit" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Integrated exchange interface that allows peer-to-peer trading of counterparty tokens in a truly decentralized and trustless manner." source="Website" %}
+
+{% include featureEvidence.html feature="batching" quote="MPMA Sends allow sending of many tokens to many addresses in a single transaction." source="Website" %}

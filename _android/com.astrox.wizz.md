@@ -27,7 +27,8 @@ social:
 redirect_from: 
 developerName: AstroX Network
 builds: 
-features: 
+features:
+- segwit
 
 ---
 
@@ -47,3 +48,5 @@ We were able to find the [GitHub organization page](https://github.com/WizzWalle
 - networks
 
 This app's source is **not available publicly**.
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

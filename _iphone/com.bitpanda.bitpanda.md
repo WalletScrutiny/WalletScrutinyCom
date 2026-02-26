@@ -29,9 +29,15 @@ social:
 - https://www.youtube.com/@Bitpanda_global
 - https://discord.com/invite/dmM9Dz7Kt8#deadLink
 - https://www.instagram.com/bitpanda_global
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Bitpanda GmbH
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Kaufe, verkaufe und tausche über 650 Kryptos – darunter Bitcoin, Ethereum, SOL, XRP, DOGE, ADA, SHIB und mehr." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Kreditkarte (Visa/Mastercard nur für Einzahlungen)" source="Store" %}

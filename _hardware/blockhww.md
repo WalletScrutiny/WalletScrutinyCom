@@ -35,7 +35,11 @@ social:
 - https://www.instagram.com/ownbitkey
 builds: 
 features:
-- multiSignature
+- companion
+- fingerprint
+- foss
+- multiSig
+- nfc
 
 ---
 
@@ -114,3 +118,13 @@ Bitkey innovates with a combination of social recovery, biometrics, NFC and mult
 Absent a button and a screen, the device would be engaging in blind-signing. Users would be trusting the mobile device, and the app that is preparing the transaction. Attackers who have access to manipulating the software can just as easily alter details such as the address where the bitcoin would be sent. 
 
 For this reason, we give the device a verdict of having a **bad interface**.
+
+{% include featureEvidence.html feature="foss" quote="Software is licensed by Block, Inc. under the following MIT License (the &quot;License&quot;), and with no warranties or guarantees." source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Bitkey's 2-of-3 multisig setup is built into every wallet. You hold two keys: one on your Bitkey device and one in the app . A third is encrypted on a server and can't be used without one of your other keys." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Fully Integrated Bitkey's app and hardware were built together from the ground up to eliminate the complexities of traditional hardware wallets. Compare prices across exchange partners before you buy, and relax knowing Bitkey's biometric hardware can protect every transaction in the app." source="Website" %}
+
+{% include featureEvidence.html feature="nfc" quote="Pair the hardware device with the app using NFC (no initial charging required)." source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="app/android | Android mobile app" source="GitHub README" %}

@@ -33,7 +33,9 @@ social:
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology
 builds: 
-features: 
+features:
+- companion
+- secEl
 
 ---
 
@@ -73,3 +75,6 @@ The guide to sending cryptocurrencies including Bitcoin is described [here](http
 
 Despite the existence of [SecuXtech's organization](https://github.com/secuxtech) page on GitHub, the device's firmware is **not source-available** and is proprietary.
 
+{% include featureEvidence.html feature="secEl" quote="Secure Element Chip: Infineon SLE 97" source="Product Specifications" %}
+
+{% include featureEvidence.html feature="companion" quote="Its companion app is" source="Existing WalletScrutiny review" %}

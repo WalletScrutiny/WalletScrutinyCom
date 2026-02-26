@@ -35,7 +35,9 @@ social:
 - https://www.instagram.com/kasseusa/?hl=en
 - https://www.youtube.com/channel/UCZH9-FUQTPFgZZgLFsKvY3w
 builds: 
-features: 
+features:
+- hd
+- secEl
 
 ---
 
@@ -46,3 +48,7 @@ The [desktop software](https://kasseusa.com/software/) for managing the {{ page.
 ## Verdict
 
 We were unable to locate any relevant results for Kasse's source code. With no public source code up for review, Kasse's claims are **not verifiable.**
+
+{% include featureEvidence.html feature="secEl" quote="Kasse stores cryptocurrency private keys within a CC EAL5+ certified secure environment featuring an AIS-31 class PTG.2 compliant true random number generator." source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Kasse is compatible with all BIP39 compliant wallets (12-24 Word Seed + Passphrase)." source="Website" %}

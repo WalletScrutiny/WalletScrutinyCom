@@ -24,7 +24,12 @@ signer:
 twitter: tangem
 social:
 - https://www.linkedin.com/company/tangem
-features: 
+features:
+- buyWithCC
+- multiSig
+- nfc
+- secEl
+- tradeAlts
 developerName: Tangem AG
 
 ---
@@ -74,3 +79,13 @@ shows that the app is crucial for the security of your funds.
 The next question would be: "Is the code public?" ... but as far as I
 can see there is no source code available that one could inspect. That leaves us
 with the verdict **not verifiable**.
+
+{% include featureEvidence.html feature="nfc" quote="Tangem is a self-custody hardware and mobile wallet designed to give you secure access to digital assets and blockchain networks. The Tangem app works together with Tangem cards to provide a technical interface for sending, receiving, and interacting with cryptocurrencies and decentralized applications." source="Store" comment="Store description confirms NFC card interaction; further confirmed by 'NFC-enabled smartphone' mention." %}
+
+{% include featureEvidence.html feature="secEl" quote="Tangem cards contain a secure chip designed for strong protection of private keys. The chip is certified to Common Criteria EAL6+, a high security assurance level used in secure hardware products (such as biometric passports)." source="Store" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Users can connect up to three Tangem cards to one wallet setup." source="Store" comment="Three cards to one wallet setup implies multi-signature or multi-card authorization scheme." %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="connect to third-party services for crypto-related transactions, and interact with decentralized exchanges and applications." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="connect to third-party services for crypto-related transactions" source="Store" comment="Insufficient — omitting; no explicit credit card mention." %}

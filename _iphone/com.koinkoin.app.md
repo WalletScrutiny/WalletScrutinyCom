@@ -26,9 +26,15 @@ social:
 - https://www.reddit.com/r/KoinKoin_io/
 - https://www.facebook.com/Koinkoinn/
 - https://www.linkedin.com/company/koinkoin-ltd/
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: KoinKoin Ltd
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="purchase cryptocurrency via Credit / Debit card, Mobile money and through Bank transfer" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="KoinKoin offers instant liquidity in BTC, XRP, ETH, USDT LTC and BCH" source="Store" %}

@@ -38,13 +38,10 @@ builds:
   - universal
   - btc-only
 features:
-- 2.5" color touchscreen
-- TROPIC01 secure element (TropicSquare)
-- 3.2V 330mAh battery
-- USB-C, Bluetooth, Qi2 wireless charging
-- BIP39 12/20/24-word, Shamir Secret Sharing
-- FIDO2, TOTP
-- Tor proxy support
+- companion
+- foss
+- hd
+- secEl
 
 ---
 
@@ -81,3 +78,11 @@ The firmware follows the same reproducible build process as other Trezor Core de
 - [Trezor Safe 7: Quantum-Ready Hardware Wallet](https://trezor.io/guides/trezor-devices/trezor-safe-7/the-first-quantum-ready-hardware-wallet)
 - [TROPIC01 GitHub Repository](https://github.com/tropicsquare/tropic01)
 - [Trezor Firmware Repository](https://github.com/trezor/trezor-firmware)
+
+{% include featureEvidence.html feature="hd" quote="The device supports 12-, 20-, and 24-word BIP39 seed phrases and Shamir Secret Sharing (Multi-share Backup)." source="Device Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="The Trezor Safe 7 is a hardware wallet that uses the TROPIC01 secure element chip developed by TropicSquare." source="Device Description" %}
+
+{% include featureEvidence.html feature="companion" quote="It interfaces with Trezor Suite software for transaction management." source="Device Description" %}
+
+{% include featureEvidence.html feature="foss" quote="The firmware source code is available in the trezor-firmware monorepo under the T3W1 model configuration." source="Firmware Information" %}

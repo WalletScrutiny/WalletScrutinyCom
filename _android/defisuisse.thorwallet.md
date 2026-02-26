@@ -29,7 +29,11 @@ social:
 redirect_from: 
 developerName: EMM Ventures AG
 builds: 
-features: 
+features:
+- buyWithCC
+- hd
+- multiSig
+- tradeAlts
 
 ---
 
@@ -49,3 +53,11 @@ No change has been noted regarding this app's source availability.
 - There is a bitcoin wallet that can send and receive.
 - This is a self-custodial wallet that does not describe itself as a source-available project. However, we were able to find a repository that is very likely to be the [repository](https://github.com/chj-damon/thorwallet-react-native) for the app. Updates were last made 2 years ago however. We also could not find a link from the website.
 - In consideration of the facts stated above, we deem this project is **not source-available**.
+
+{% include featureEvidence.html feature="multiSig" quote="Secure Multisig For Any Chain" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="swap crypto natively across chains without bridges or wrapped tokens. Rebalance your portfolio right inside the app with swaps between BTC, ETH, SOL, and more." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="On- and off-ramp between crypto and fiat in a secure and seamless way, directly to your non-custodial wallet." source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="The seed phrases were provided during startup." source="Analysis" %}

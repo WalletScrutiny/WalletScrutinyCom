@@ -31,8 +31,11 @@ redirect_from:
 developerName: JAN3
 builds: 
 features:
-- ln
+- buyWithCC
 - liquid
+- ln
+- segwit
+- tradeAlts
 
 ---
 
@@ -105,3 +108,9 @@ Despite several adjustments and thorough troubleshooting, the build process for 
 The app provides a BTC address with seed phrases. It is now source-available,
 and thus, now
 **[for verification](https://github.com/AquaWallet/aqua-wallet/issues/9)**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="buy Bitcoin" source="Website" comment="FAQ confirms: 'Bitcoin purchases are handled by third-party providers'" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="AQUA enables support for Tether USDt native on Liquid and across the most popular USDt chains." source="Website" comment="FAQ confirms swaps via SideShift: 'USDt transfers via Tron or Ethereum, which depend on SideShift's liquidity'" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

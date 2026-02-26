@@ -24,9 +24,12 @@ signer:
 twitter: unisat_wallet
 social:
 - https://discord.com/invite/unisat
-features: 
+features:
+- foss
 developerName: UniPro Technology Limited
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="foss" quote="Fully Open Source Built with transparency in mind. Review our code anytime at https://github.com/unisat-wallet/extension" source="Store" %}

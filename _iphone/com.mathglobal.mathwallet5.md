@@ -29,7 +29,6 @@ social:
 features:
 - segwit
 - taproot
-- multiwallet
 developerName: MATH GLOBAL FOUNDATION LTD.
 
 ---

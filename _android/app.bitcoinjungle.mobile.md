@@ -30,6 +30,7 @@ redirect_from:
 developerName: Bitcoin Jungle
 builds: 
 features:
+- foss
 - ln
 
 ---
@@ -50,3 +51,5 @@ Bitcoin Jungle maintains its own GitHub repository (forked from Blink aka Bitcoi
 ## The Verdict
 
 It's not explicitly specified whether Bitcoin Jungle is a custodial wallet. However, it originates from Galoy's infrastructure, akin to Blink. It is also specifically intended to introduce Bitcoin as a currency to Costa Rican shops and stores.
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

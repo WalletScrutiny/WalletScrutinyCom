@@ -27,9 +27,21 @@ social:
 - https://t.me/defexa
 - https://www.linkedin.com/company/defexa
 - https://www.quora.com/profile/Defexa
-features: 
+features:
+- buyWithCC
+- hd
+- multiAccount
+- tradeAlts
 developerName: FPS Global LTD
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Defexa leverages mnemonic phrases as the safest way to hold crypto." source="Store description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Use unlimited number of multichain wallets" source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto with a credit card directly on the Defexa Wallet App." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Store, exchange, buy, sell, swap & send crypto in one app" source="Store description" %}

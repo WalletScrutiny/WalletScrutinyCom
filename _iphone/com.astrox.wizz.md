@@ -24,9 +24,18 @@ signer:
 twitter: wizzwallet
 social:
 - https://discord.com/invite/H7hzuDj2d6
-features: 
+features:
+- hd
+- segwit
+- taproot
 developerName: AstroX Network
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="segwit" quote="Support legacy, segwit, taproot address types." source="Store" %}
+
+{% include featureEvidence.html feature="taproot" quote="Support legacy, segwit, taproot address types." source="Store" %}
+
+{% include featureEvidence.html feature="hd" quote="Create and restore your wallet using seed phrase." source="Store" %}

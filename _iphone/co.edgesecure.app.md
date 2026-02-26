@@ -26,9 +26,18 @@ twitter: edgewallet
 social:
 - https://www.linkedin.com/company/edgeapp
 - https://www.reddit.com/r/EdgeWallet
-features: 
+features:
+- foss
+- hd
+- tradeAlts
 developerName: Airbitz Inc
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic (HD) Wallets – Automatically changes addresses per transaction for additional security and privacy" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Built-in Crypto Exchange – Instantly swap Bitcoin, Ethereum, Litecoin, Monero, and other cryptocurrencies" source="Store description" %}
+
+{% include featureEvidence.html feature="foss" quote="open source" source="GitHub README" %}

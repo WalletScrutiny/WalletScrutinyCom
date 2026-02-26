@@ -23,9 +23,18 @@ date: 2025-11-18
 signer: 
 twitter: internetmoneyio
 social: 
-features: 
+features:
+- segwit
+- taproot
+- tradeAlts
 developerName: Decentralized Innovations, LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="segwit" quote="Support for various Bitcoin account types: Native Segwit, Taproot, Nested Segwit and Legacy accounts!" source="Store description" %}
+
+{% include featureEvidence.html feature="taproot" quote="Support for various Bitcoin account types: Native Segwit, Taproot, Nested Segwit and Legacy accounts!" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Cross-chain swapping (Change) between different blockchains (currently supports 27+ different chains)" source="Store description" %}

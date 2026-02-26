@@ -27,7 +27,10 @@ social:
 redirect_from: 
 developerName: Dextrade Technologies LTD
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -59,3 +62,8 @@ DexTrade is a multi-cryptocurrency wallet application that supports Bitcoin, Eth
 
 DexTrade is a Bitcoin wallet that claims to be self-custodial with local key storage. However, **the source code is not available** for independent verification of these claims. While the company maintains a GitHub repository, it only contains proprietary web applications and explicitly restricts usage with "All rights reserved" licensing. Without source code transparency, users cannot verify the wallet's security implementation, confirm the custody model, or audit whether private keys are truly stored only locally as advertised.
 
+{% include featureEvidence.html feature="fingerprint" quote="Use FaceID, Touch ID, or a password to protect access to crypto" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Use an internal exchanger to sell digital coins" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="fiat on/off-ramps via Visa/Mastercard integration" source="App Description" %}

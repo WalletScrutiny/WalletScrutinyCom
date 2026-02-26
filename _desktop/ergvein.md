@@ -23,6 +23,8 @@ social:
 - https://www.facebook.com/hxr.team/
 builds: 
 features: 
+- bip158spv
 
 ---
+{% include featureEvidence.html feature="bip158spv" source="[Website](https://web.archive.org/web/20220423113429/https://cypra.io/)" quote="Filters follow BIP-158 ." %}
 

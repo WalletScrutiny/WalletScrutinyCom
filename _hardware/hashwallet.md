@@ -35,7 +35,10 @@ social:
 - https://www.linkedin.com/company/esignus
 - https://www.facebook.com/hashwalletofficial/
 builds: 
-features: 
+features:
+- companion
+- nfc
+- secEl
 
 ---
 
@@ -69,3 +72,9 @@ This [page](https://www.esignus.com/hashwallet), lists the HashWallet's launch s
 ## Previous Review
 
 This wallet is on pre-order and hence has not been released yet.
+
+{% include featureEvidence.html feature="nfc" quote="NFC required for operation." source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="EAL6+ chip – the highest on the market." source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="Instantly manage and switch between all your private keys from the app with your HASHWallet." source="Website" %}

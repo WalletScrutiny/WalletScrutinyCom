@@ -25,10 +25,22 @@ twitter: cakewallet
 social:
 - https://www.facebook.com/cakewallet
 - https://www.reddit.com/r/cakewallet
-features: 
+features:
+- taproot
+- hd
+- TOR
+- batching
+- buyWithCC
+- coinCtrl
+- customNode
+- multiAccount
+- segwit
+- tradeAlts
 developerName: Cake Technologies, LLC
 
 ---
+{% include featureEvidence.html feature="taproot" source="[App Store](https://apps.apple.com/app/com.fotolockr.cakewallet)" quote="Powerful Bitcoin privacy tools like Silent Payments and Payjoin" %}
+{% include featureEvidence.html feature="hd" source="[App Store](https://apps.apple.com/app/com.fotolockr.cakewallet)" quote="All your wallets and crypto with just one seed" %}
 
 **Note:** iPhone products are **not verifiable**.
 
@@ -63,3 +75,19 @@ There is no claim about reproducibility or build instructions. As the app uses
 [Flutter](https://flutter.dev/) and we have no experience with that, we have to
 stop here. Usually at this point we open issues on the code repository but they
 have no public issue tracker.
+
+{% include featureEvidence.html feature="coinCtrl" quote="Bitcoin coin control (specify specific outputs to spend)" source="README" %}
+
+{% include featureEvidence.html feature="batching" quote="Specify multiple recipients for batch sending" source="README" %}
+
+{% include featureEvidence.html feature="customNode" quote="Select your own custom nodes/servers" source="README" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy cryptocurrency (BTC/LTC/XMR/ETH) with credit/debit/bank" source="README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Built-in exchange for dozens of pairs" source="README" %}
+
+{% include featureEvidence.html feature="TOR" quote="Native Tor integration for powerful network-level privacy" source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Create several wallets" source="README" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

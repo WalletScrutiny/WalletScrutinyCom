@@ -24,7 +24,16 @@ social:
 - https://t.me/cakewalletannouncements
 - https://discord.com/invite/2vqYJdXG2H
 builds: 
-features: 
+features:
+- TOR
+- batching
+- buyWithCC
+- coinCtrl
+- customNode
+- foss
+- hd
+- multiAccount
+- tradeAlts
 
 ---
 
@@ -39,3 +48,21 @@ The desktop app supports cross-platform wallet backup and restore (mobile-to-des
 We [tested](https://x.com/BitcoinWalletz/status/2022134630489706978) the app, and posted a screenshot on x.com. We were able to generate a Bitcoin wallet, and successfully exported it to Electrum using the provided seed phrases. The BTC addresses matched. 
 
 This app is **for reproducible builds verification**.
+
+{% include featureEvidence.html feature="foss" quote="Cake Wallet is an open-source, non-custodial, and private multi-currency crypto wallet for Android, iOS, macOS, and Linux." source="README" comment="App Description also confirms MIT license from the GitHub LICENSE file." %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Built-in exchange for dozens of pairs" source="README" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy cryptocurrency (BTC/LTC/XMR/ETH) with credit/debit/bank" source="README" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Create several wallets" source="README" %}
+
+{% include featureEvidence.html feature="customNode" quote="Select your own custom nodes/servers" source="README" %}
+
+{% include featureEvidence.html feature="TOR" quote="Robust privacy settings (eg: Tor-only connections)" source="README" %}
+
+{% include featureEvidence.html feature="batching" quote="Specify multiple recipients for batch sending" source="README" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="Bitcoin coin control (specify specific outputs to spend)" source="README" %}
+
+{% include featureEvidence.html feature="hd" quote="We were able to generate a Bitcoin wallet, and successfully exported it to Electrum using the provided seed phrases. The BTC addresses matched." source="App Description" comment="Seed phrases recoverable on a competitor product (Electrum) confirms BIP39/HD compliance." %}

@@ -27,7 +27,13 @@ social:
 redirect_from: 
 developerName: Blitz Wallet
 builds: 
-features: 
+features:
+- camera
+- fingerprint
+- foss
+- liquid
+- ln
+- multiAccount
 
 ---
 
@@ -40,4 +46,16 @@ It supports on-chain Bitcoin and Lightning transactions.
 
 ## Analysis
 
-We installed the app and created a BTC wallet with send/receive functions. We found its repository and confirm that it is **source-available**. 
+We installed the app and created a BTC wallet with send/receive functions. We found its repository and confirm that it is **source-available**.
+
+{% include featureEvidence.html feature="ln" quote="Blitz Wallet is a React Native application that allows users to interact with the Bitcoin Lighting Network in a self-custodial way." source="GitHub README" %}
+
+{% include featureEvidence.html feature="liquid" quote="Using a Liquid QR Code" source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Opt-in Biometric login" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Blitz is released under the terms of the Apache 2.0 license. See LICENSE for more information." source="License" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Ability to create sub-accounts within wallet" source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="From camera roll" source="GitHub README" %}

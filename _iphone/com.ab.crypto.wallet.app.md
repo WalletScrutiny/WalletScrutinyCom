@@ -23,9 +23,18 @@ date: 2024-09-04
 signer: 
 twitter: alicebob_wallet
 social: 
-features: 
+features:
+- buyWithCC
+- hd
+- tradeAlts
 developerName: Alicebob LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="We implement advanced cryptographic methods including BIP32, BIP39, and BIP44 to protect your digital assets like Bitcoin (BTC) and Ethereum (ETH) from security risks." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange and manage over 1,000 cryptocurrencies with AliceBob Wallet. You can buy Bitcoin and trade it for popular options like Ethereum, Binance Coin (BNB), Cardano, Dogecoin, Monero, and many others." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Choose from trusted fiat providers like MoonPay, Banxa, Simplex, and Wert to purchase crypto using credit cards, bank transfers, or other methods." source="Store description" %}

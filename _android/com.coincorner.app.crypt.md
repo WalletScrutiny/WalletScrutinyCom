@@ -28,7 +28,9 @@ redirect_from:
 developerName: CoinCorner Ltd
 builds: 
 features:
+- buyWithCC
 - ln
+- nfc
 
 ---
 
@@ -38,3 +40,6 @@ This leads us to conclude the wallets funds are in control of the provider.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
 
+{% include featureEvidence.html feature="nfc" quote="The world's first contactless Bitcoin debit card. Using NFC like your bank card except it's on the Bitcoin Lightning Network. Tap and pay with Bitcoin today." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Bitcoin (BTC) with a debit card or bank transfer." source="Website" %}

@@ -29,7 +29,9 @@ social:
 redirect_from: 
 developerName: Switchere
 builds: 
-features: 
+features:
+- buyWithCC
+- tradeAlts
 
 ---
 
@@ -44,3 +46,7 @@ features:
 ## Analysis 
 
 We verified that the app can receive and send BTC. We did not find an option to backup the private keys. This is a **custodial** provider and the app is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="The Switchere app allows you to buy, sell, or exchange BTC, LTC, ETH, USDT20, CCD, XRP, TRX, BNBBSC, XLM, EUR, SOL, BCH, and all leading cryptocurrencies with a credit card" source="App Description from Google Play" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Variety of payment methods VISA/Mastercard/Maestro bank cards, SEPA, Apple Pay, Google Pay, etc." source="Website" %}

@@ -43,9 +43,12 @@ builds:
   types:
   - zip
   - setup
-features: 
+features:
+- ownFullNode
+- foss
 
 ---
+{% include featureEvidence.html feature="ownFullNode" source="[Website](https://bitcoinknots.org)" quote="Bitcoin node and wallet in one." %}
 
 ## App Description
 
@@ -54,3 +57,5 @@ Bitcoin Knots is a Bitcoin full-node and wallet implementation maintained as a d
 Like Bitcoin Core, it supports a self-custodial wallet that allows users to generate, store, and manage their own keys without trusting third parties. Bitcoin Knots is fully **source-available** under the MIT license, and its codebase is publicly hosted on GitHub. 
 
 The project supports reproducible builds using the Guix system, enabling independent verification that the released binaries match the source code. A complete reproducibility guide is provided here: [https://github.com/bitcoinknots/bitcoin/blob/master/contrib/guix/README.md](https://github.com/bitcoinknots/bitcoin/blob/master/contrib/guix/README.md).
+
+{% include featureEvidence.html feature="foss" quote="Bitcoin Knots is released under the terms of the MIT license. See COPYING for more information or see https://opensource.org/licenses/MIT." source="GitHub README" comment="MIT license is a recognized OSI-approved FOSS license. No Commons Clause or other restrictions mentioned." %}

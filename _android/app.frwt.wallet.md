@@ -29,7 +29,11 @@ social:
 redirect_from: 
 developerName: FRWLT LLC - Non-Custodial Wallet
 builds: 
-features: 
+features:
+- buyWithCC
+- hd
+- segwit
+- tradeAlts
 
 ---
 
@@ -70,3 +74,11 @@ software. We do not guarantee that BIP39 imports will always be supported in Ele
 **Conclusion:** FRWT uses valid BIP39 15-word mnemonics (rare but standardized). The backup is
 interoperable with other BIP39-compatible wallets, though Electrum's warning indicates they
 prefer their own seed format for forward compatibility reasons.
+
+{% include featureEvidence.html feature="hd" quote="Generated a 15-word mnemonic in FRWT Secure DeFi Crypto Wallet (v1.11.0) on Android... The 15-word mnemonic is standard BIP39-compliant with 160-bit entropy. Electrum correctly restored the wallet with matching bc1... addresses." source="App Description" comment="BIP39 mnemonic confirmed, addresses recoverable in competitor wallet (Electrum) using standard derivation path m/84'/0'/0'" %}
+
+{% include featureEvidence.html feature="segwit" quote="Noted the first BTC receiving address (Native SegWit: bc1qx2wvxpy...thwn2k)... Verified addresses matched between FRWT and Electrum" source="App Description" comment="Native SegWit (bech32 bc1...) receiving address confirmed in FRWT" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy cryptocurrency with your credit card on FRWT Get crypto tokens directly within the wallet app. You won't have to visit crypto exchanges or p2p platforms." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Crypto swaps Bypass exchange registrations. Instantly exchange crypto tokens right within your wallet" source="Website" %}

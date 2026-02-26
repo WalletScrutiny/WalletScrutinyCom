@@ -24,9 +24,18 @@ signer:
 twitter: DFX_Swiss
 social:
 - https://www.linkedin.com/company/dfxswiss
-features: 
+features:
+- foss
+- ln
+- segwit
 developerName: DFX AG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Lightning Network supported" source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="SegWit-first. Replace-By-Fee support" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="LICENSE MIT" source="GitHub README" %}

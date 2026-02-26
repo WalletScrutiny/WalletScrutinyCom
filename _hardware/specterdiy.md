@@ -31,7 +31,13 @@ signer:
 twitter: SpecterWallet
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- companion
+- customNode
+- multiSig
+- segwit
 
 ---
 
@@ -52,3 +58,15 @@ The device's display adequately displays details of the transaction prior to con
 ## Is it reproducible?
 
 The project is **"do-it-yourself"** and the firmware's source code is public, so there's a certain level of openness to it. With that said, it would be interesting to investigate this offering further.
+
+{% include featureEvidence.html feature="segwit" quote="PSBT for unsigned transactions, wallet descriptors for importing/exporting multisig wallets" source="GitHub README" comment="PSBT and wallet descriptors imply SegWit support; however this is not explicit enough to confirm bech32 send/receive." %}
+
+{% include featureEvidence.html feature="multiSig" quote="Our main focus is multisignature setup with other hardware wallets, but wallet can also work as a single signer." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="QR codes are a default way for Specter to communicate with the host. QR codes are pretty convenient and allow the user to be in control of the data transmission - every QR code has a very limited capacity and communication happens unidirectionally. And it's airgapped - you don't need to connect the wallet to the computer at any time." source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="QR codes are a default way for Specter to communicate with the host. QR codes are pretty convenient and allow the user to be in control of the data transmission - every QR code has a very limited capacity and communication happens unidirectionally. And it's airgapped - you don't need to connect the wallet to the computer at any time." source="GitHub README" %}
+
+{% include featureEvidence.html feature="companion" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}
+
+{% include featureEvidence.html feature="customNode" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}

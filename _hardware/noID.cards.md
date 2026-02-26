@@ -30,7 +30,9 @@ social:
 - https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 builds: 
 features:
+- companion
 - ln
+- nfc
 
 ---
 
@@ -43,3 +45,7 @@ This is a contactless payment card meant to work with the Lightning network. In 
 ## Analysis
 
 Although this app allows for fast contactless payments, it still depends on a companion app and has no buttons or screen for verifying and confirming transactions by itself.
+
+{% include featureEvidence.html feature="nfc" quote="Lightning contactless payment without fees" source="Website" %}
+
+{% include featureEvidence.html feature="companion" quote="Manage all your cards and payments locally with the noID.cards Android app" source="Website" %}

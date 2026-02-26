@@ -26,7 +26,10 @@ twitter: cex_io
 social:
 - https://www.linkedin.com/company/cex-io
 - https://www.facebook.com/CEX.IO
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: CEX.IO LTD
 
 ---
@@ -38,3 +41,9 @@ The CEX.io mobile app claims on the website to manage bitcoins...
 however their is no evidence of the wallet being non-custodial, with no source code repository listed or found...
 
 Our verdict: This 'wallet' is probably custodial but does not provide public source and therefore is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Beginner-friendly Convert feature. No need to figure out trading strategies. Just swap crypto and fiat currencies in a few taps." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Spend less than a minute to buy Ethereum and other digital assets using a debit/credit card, Apple Pay, bank transfers, and/or PayPal*." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Rapid card deposits and withdrawals. Deposit funds to your CEX.IO balance, or transfer fiat to your debit/credit card in minutes." source="Store" %}

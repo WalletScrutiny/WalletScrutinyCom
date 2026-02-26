@@ -27,9 +27,12 @@ social:
 - https://www.reddit.com/r/DeribitExchange/
 - https://t.me/deribit
 - https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
-features: 
+features:
+- fingerprint
 developerName: Sentillia B.V.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Our app is built with robust security features, such as two-factor authentication, Biometrics, PIN-code and Restricted API login to ensure that your trading activities are safe and secure." source="Store description" %}

@@ -25,7 +25,9 @@ twitter: walletofsatoshi
 social:
 - https://www.facebook.com/walletofsatoshi
 features:
+- buyWithCC
 - ln
+- nfc
 developerName: Wallet of Satoshi
 
 ---
@@ -36,3 +38,7 @@ This is a custodial wallet according to their website's FAQ:
   best possible user experience.
 
 and therefore **not verifiable**.
+
+{% include featureEvidence.html feature="nfc" quote="Pay merchants by scanning a Lightning QR code, tapping an NFC card, or sharing your own custom Lightning Address." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Yes, you can buy Bitcoin directly in the app in many countries. Tap the green &quot;Buy Bitcoin&quot; button on the main screen and follow the prompts. Availability and partners may vary by region." source="Website" %}

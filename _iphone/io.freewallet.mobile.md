@@ -26,9 +26,11 @@ twitter: freewallet
 social:
 - https://www.facebook.com/freewallet.io
 features: 
+- segwit
 developerName: Jeremy Johnson
 
 ---
+{% include featureEvidence.html feature="segwit" source="[Website](https://freewallet.io)" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." %}
 
 **Update 2022-01-04**: The iOS version of the app is available again. [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1478292560443367427). The last update however was 2019-03-18.
 

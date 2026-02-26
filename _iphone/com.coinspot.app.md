@@ -24,9 +24,15 @@ signer:
 twitter: coinspotau
 social:
 - https://www.facebook.com/coinspotau
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: CoinSpot
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="On CoinSpot you also have the ability to instantly swap between one crypto to another." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Once the funds have arrived, head to the buy/sell page where you can instantly purchase any of the assets listed." source="Website" %}

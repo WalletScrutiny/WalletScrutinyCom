@@ -26,7 +26,9 @@ social:
 - https://www.linkedin.com/company/bybitexchange
 - https://www.facebook.com/Bybit
 - https://www.reddit.com/r/Bybit
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Bybit Fintech Limited
 
 ---
@@ -43,3 +45,7 @@ and as such, funds are in cold storage with them:
   financial accountability and transparency.
 
 As a custodial app it is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade Spot and Derivatives pairs easily with fiat or cryptocurrency, including BTCUSDT, ETHUSDT and XRPUSDT contracts." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Trade Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Solana (SOL), Mantle (MNT) PEPE and other crytpocurrencies instantly using credit cards, bank transfers or other payment methods." source="Store" %}

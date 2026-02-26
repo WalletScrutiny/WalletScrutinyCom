@@ -34,7 +34,10 @@ social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
 builds: 
-features: 
+features:
+- companion
+- hd
+- secEl
 
 ---
 
@@ -128,3 +131,9 @@ Furthermore the firmware update does not detail the location where the MCU and S
 > Until these issues are resolved, we have to list this product (and probably all three of their products) as closed source.
 
 Pending the response of SecuX tech, I think it's worth the benefit of the doubt to hear what they have to say.
+
+{% include featureEvidence.html feature="hd" quote="Compatible recoverability with BIP32, 39, 44, 49 standards" source="Product Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="Infineon Secure Element chip" source="Product Description" %}
+
+{% include featureEvidence.html feature="companion" quote="The device can connect to a web portal called SecuXess via USB or Bluetooth (through a PC)." source="Product Description" %}

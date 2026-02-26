@@ -31,9 +31,13 @@ social:
 redirect_from: 
 developerName: Cypher Stack Team
 builds: 
-features: 
+features:
+- multiAccount
+- customNode
+- tradeAlts
 
 ---
+{% include featureEvidence.html feature="multiAccount" source="Review" quote="Multiple wallets are available, and the BTC wallet addresses can be re-generated." %}
 
 **Update 2024-09-11:**
 
@@ -83,3 +87,7 @@ The Stack Wallet build was not successful due to the failure of the `build_app.s
 - Multiple wallets are available, and the BTC wallet addresses can be re-generated.
 - They are Open Source, with an active GitHub repository.
 - This app is slated **[for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/503)**.
+
+{% include featureEvidence.html feature="customNode" quote="Custom Nodes." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trading cryptocurrencies through our partners." source="Store" %}

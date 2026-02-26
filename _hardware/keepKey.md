@@ -35,9 +35,14 @@ twitter: ShapeShift
 social:
 - https://www.facebook.com/ShapeShiftPlatform
 builds: 
-features: 
+features:
+- tradeAlts
+- companion
+- foss
 
 ---
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://shapeshift.com)" quote="Trade 10,000+ assets for Bitcoin, Ethereum, DOGE, & more with one click." %}
+{% include featureEvidence.html feature="companion" source="[Website](https://shapeshift.com)" quote="Wallets Wallets we support" %}
 
 # Original Analysis with all our considerations
 
@@ -70,3 +75,5 @@ they also clarify:
   Take a look at our source code on [GitHub](https://github.com/keepkey) page!
 
 This device is **source available**.
+
+{% include featureEvidence.html feature="foss" quote="If license is not specified in the header of a file, it can be assumed that it is licensed under LGPLv3." source="GitHub README" comment="LGPLv3 is an OSI-approved FOSS license. The README confirms the default license is LGPLv3 with no Commons Clause or commercial-use restrictions mentioned." %}

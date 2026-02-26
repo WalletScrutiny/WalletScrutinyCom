@@ -23,9 +23,15 @@ date: 2023-07-24
 signer: 
 twitter: fountain_app
 social: 
-features: 
+features:
+- buyWithCC
+- ln
 developerName: Fountain Labs Ltd.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Support your favourite podcasts and music artists directly by sending a payment from the player" source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Top up in seconds with your credit card or transfer funds from apps like CashApp, Coinbase or Strike" source="Store description" %}

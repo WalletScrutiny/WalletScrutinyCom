@@ -22,6 +22,7 @@ twitter: acinq_co
 social: 
 builds: 
 features:
+- foss
 - ln
 
 ---
@@ -37,3 +38,5 @@ Phoenixd is ACINQ’s self-hosted companion to the Phoenix mobile wallet, packag
 We cloned `https://github.com/ACINQ/phoenixd`, switched to tag `v0.7.1`, and built the `linuxX64DistZip` artifact with Temurin JDK 21 on Ubuntu Noble (Gradle 8.9) following upstream instructions. Release authenticity was confirmed by importing PM Padiou’s key `6AA4 5A4C 209A 2D30 64CF 66BE E434 ED29 2E85 643A`, verifying `SHA256SUMS.asc`, and checking the downloaded `phoenixd-0.7.1-linux-x64.zip` hash. 
 
 This program is source-available and **for verification**.
+
+{% include featureEvidence.html feature="foss" quote="[](LICENSE)" source="GitHub README" comment="The README badge links to a LICENSE file. However, the License source returned 404: Not Found, so the actual license text cannot be confirmed as OSI-approved. Cannot verify FOSS status — omitting per conservative rules." %}

@@ -25,9 +25,12 @@ twitter: CoinoneOfficial
 social:
 - https://coinone.co.kr
 - https://www.facebook.com/coinone
-features: 
+features:
+- fingerprint
 developerName: Coinone
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="앱 간편 로그인 시 생체인식을 사용합니다." source="Store" %}

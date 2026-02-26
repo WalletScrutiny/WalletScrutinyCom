@@ -26,7 +26,11 @@ social:
 redirect_from: 
 developerName: Bitango Technologies
 builds: 
-features: 
+features:
+- cashu
+- fingerprint
+- foss
+- ln
 
 ---
 
@@ -52,3 +56,10 @@ We created a wallet profile. We discovered that the default mint is the minibits
 
 This app is **custodial**.
 
+{% include featureEvidence.html feature="ln" quote="Minibits is an Ecash and Lightning wallet with a focus on performance and usability." source="Google Play Description" %}
+
+{% include featureEvidence.html feature="cashu" quote="Ecash is issued by mints and backed by Bitcoin via the Cashu protocol and the Lightning Network." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Optional Ecash storage encryption and biometric authentication" source="Google Play Description" %}
+
+{% include featureEvidence.html feature="foss" quote="GitHub" source="Website" %}

@@ -26,7 +26,10 @@ social:
 redirect_from: 
 developerName: PiLab Technology
 builds: 
-features: 
+features:
+- fingerprint
+- hd
+- segwit
 
 ---
 
@@ -43,3 +46,9 @@ We [tested](https://x.com/BitcoinWalletz/status/1993609718217273471) the app and
 We then searched for claims regarding source-availability but did not find any. We also searched for its play id in GitHub Code but[did not find any relevant results](https://github.com/search?q=%22com.pilab.pockie%22&type=code).
 
 This app is **not source-available**.
+
+{% include featureEvidence.html feature="hd" quote="We were also provided with the 12-word seed phrase and successfully imported this into Electrum. The address provided by the app matches: bc1qrmydzhn9p0uwes36nf0slyj3ka7y94j773j7nh" source="App Description" comment="12-word BIP39 mnemonic confirmed recoverable in Electrum, a competing wallet correctly implementing BIP standards." %}
+
+{% include featureEvidence.html feature="segwit" quote="The address provided by the app matches: bc1qrmydzhn9p0uwes36nf0slyj3ka7y94j773j7nh" source="App Description" comment="bc1q address is a native SegWit (bech32) address, confirming SegWit receive support. Send to SegWit implied by wallet generating such addresses." %}
+
+{% include featureEvidence.html feature="fingerprint" quote="wallet security through PIN or biometric authentication" source="App Description" comment="Biometric authentication explicitly mentioned, which includes fingerprint." %}

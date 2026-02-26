@@ -30,9 +30,24 @@ social:
 - https://www.instagram.com/tradestrike.bvi
 - https://t.me/StrikeXcrypto
 - https://discord.com/invite/tradestrike
-features: 
+features:
+- buyWithCC
+- fingerprint
+- hd
+- multiAccount
+- tradeAlts
 developerName: StrikeXWallet
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="buying, selling, swapping, transferring, and tracking your favourite crypto projects" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Easily go from Card to Crypto with our integrated on & off-ramp payments." source="Store" %}
+
+{% include featureEvidence.html feature="hd" quote="You maintain complete control over your assets with your unique private key recovery phrase." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Your assets are protected by private facial biometric authentication technology and a secure 4-digit PIN that not only protects you from theft, but gives you hassle-free account access — instantly." source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Track portfolio performance across multiple wallets" source="Store" %}

@@ -23,9 +23,12 @@ date: 2025-12-08
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- multiAccount
 developerName: Yamad LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiAccount" quote="You can create an unlimited number of wallets with just a few clicks, switch between different cryptocurrencies and manage them from a single app." source="Store" %}

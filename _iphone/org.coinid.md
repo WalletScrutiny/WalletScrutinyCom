@@ -24,9 +24,11 @@ signer:
 twitter: COINiDGroup
 social: 
 features: 
+- airGapped
 developerName: COINiD Group
 
 ---
+{% include featureEvidence.html feature="airGapped" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 This provider states in the App Store description:
 

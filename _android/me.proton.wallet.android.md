@@ -35,7 +35,8 @@ social:
 redirect_from: 
 developerName: Proton AG
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -58,3 +59,5 @@ From their terms:
 ## Analysis 
 
 As of 2024-07-25, the app is still in early access which would require an invite. If we go by its claims, then this app would be **for verification**
+
+{% include featureEvidence.html feature="foss" quote="The code and data files in this distribution are licensed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. See <https://www.gnu.org/licenses/> for a copy of this license." source="GitHub README" %}

@@ -25,9 +25,18 @@ twitter: speedwallet
 social:
 - https://www.linkedin.com/showcase/speedwallet
 - https://www.instagram.com/speedbitcoinwallet
-features: 
+features:
+- buyWithCC
+- ln
+- tradeAlts
 developerName: Speed1 - FZCO
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Lightning Network BTC payments: Experience Bitcoin with instant and low cost BTC transactions." source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Bitcoin instantly with card in simple steps." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap BTC ↔ USDT easily inside Speed Wallet." source="Store" %}

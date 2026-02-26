@@ -28,7 +28,8 @@ social:
 redirect_from: 
 developerName: Ziglu
 builds: 
-features: 
+features:
+- tradeAlts
 
 ---
 
@@ -45,3 +46,5 @@ features:
 ## Analysis 
 
 This is a **custodial** platform.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy from £1 of our curated range of over 15 cryptocurrencies - Bitcoin (BTC), Ether (ETH), Litecoin (LTC), Bitcoin Cash (BCH), Cardano (ADA), Chainlink (LINK), Tezos (XTZ), Dogecoin (DOGE), Polkadot (DOT), Solana (SOL) and more." source="Store" %}

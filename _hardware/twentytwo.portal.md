@@ -34,13 +34,11 @@ social:
 - https://t.me/TwentyTwoHW
 builds: 
 features:
+- companion
+- foss
+- hd
 - nfc
-- monochrome-display
-- tamper-evident packaging
-- single physical button
-- credit card form factor
-- bitcoin-only
-- supports BIP39
+- segwit
 
 ---
 
@@ -113,3 +111,11 @@ pub async fn handle_generate_seed(
 **5. Is it reproducible? - ❓**
 
 This hardware device's firmware is **for verification**
+
+{% include featureEvidence.html feature="foss" quote="This project is licensed under GPL 3.0 or later. You can find a full copy of the license in the LICENSE file." source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="let descriptor = WalletDescriptor::make_bip84(network);" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}
+
+{% include featureEvidence.html feature="hd" quote="let entropy = match num_words { model::NumWordsMnemonic::Words12 => &mut entropy[..16], model::NumWordsMnemonic::Words24 => &mut entropy[..32], };" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}
+
+{% include featureEvidence.html feature="companion" quote="sdk: The SDK crate implements the communication protocol with the Portal from the host side. It also include an example cli that uses libnfc, so any reader supported by the library should work with it." source="GitHub README" %}

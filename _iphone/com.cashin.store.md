@@ -23,9 +23,15 @@ date: 2021-11-17
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- fingerprint
+- ln
 developerName: BCP Technologies Ltd
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Receive Bitcoin, including Lightning!" source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Log in with your phone number or using biometrics/passcode for 2FA." source="Store description" %}

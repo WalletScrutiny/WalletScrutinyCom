@@ -27,7 +27,9 @@ social:
 redirect_from: 
 developerName: Exmo Poland Sp. z o.o.
 builds: 
-features: 
+features:
+- buyWithCC
+- tradeAlts
 
 ---
 
@@ -38,3 +40,7 @@ The Exmo [support FAQ](https://info.exmo.com/en/faq/) states under "Where are my
 this leads us to conclude the wallet funds are in control of the provider and hence custodial.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, hold crypto. Just like that" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Crypto purchases with Visa/Mastercard" source="Website" %}

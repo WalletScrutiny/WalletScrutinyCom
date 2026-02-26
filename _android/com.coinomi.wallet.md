@@ -33,7 +33,14 @@ redirect_from:
 - /posts/com.coinomi.wallet/
 developerName: Coinomi
 builds: 
-features: 
+features:
+- buyWithCC
+- coinCtrl
+- customNode
+- hd
+- multiAccount
+- segwit
+- tradeAlts
 
 ---
 
@@ -50,3 +57,17 @@ in early 2016
   6:48 PM · Dec 24, 2017
 
 Our verdict: This app is **not verifiable**.
+
+{% include featureEvidence.html feature="segwit" quote="Native SegWit Enjoy faster confirmations and lower fees for Bitcoin, Litecoin, and many other cryptocurrencies. Switch dynamically between Bech32, P2SH, and legacy modes." source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Hierarchical Deterministic Wallet (BIP44) logic enables you to keep everything both accessible and secure, with one strong passphrase that you'll only have to back-up once." source="Website" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multi-seed support Import and manage an infinite number of wallets, each with its own encryption settings." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Exchanges built-in Swap between hundreds of assets and thousands of pairs instantly, through our strategic partners and various DEXes." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto with card Purchase Crypto directly from Coinomi through the use of our partner Simplex. More options coming soon!" source="Website" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="UTXO Control Dusting attacks protection and Do-Not-Spend flags. Choose like-type change addresses to reduce transaction linking. Full UTXO control coming soon!" source="Website" %}
+
+{% include featureEvidence.html feature="customNode" quote="Trusted Node Gain complete financial sovereignty by connecting to your own full Bitcoin node." source="Website" %}

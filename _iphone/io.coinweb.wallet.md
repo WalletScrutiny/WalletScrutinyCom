@@ -25,9 +25,15 @@ twitter: CoinwebOfficial
 social:
 - http://t.me/coinweb
 - https://discord.com/invite/cWSQD3wJqY
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Coinweb
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="We provide an easy entry to digital assets by allowing you to buy crypto using traditional banking methods such as credit card payments." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="All created tokens can later be listed and traded in our simple Coinweb Native DEX, DeconX." source="Store" %}
