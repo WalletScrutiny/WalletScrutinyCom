@@ -1503,7 +1503,7 @@ function showToast(message, type = 'success', duration = 4000) {
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.style.backgroundColor = color;
-    toast.innerHTML = message;
+    toast.textContent = message;
     document.body.appendChild(toast);
 
     // Show toast
