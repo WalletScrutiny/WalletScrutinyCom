@@ -1574,6 +1574,13 @@ const getCommentsForVerification = async function(verificationKey) {
     }
   ]);
 
+  comments.forEach(comment => {
+    comment.content = DOMPurify.sanitize(comment.content);
+    comment.tags = comment.tags.map(tag => {
+      return [tag[0], DOMPurify.sanitize(tag[1])];
+    });
+  });
+
   return Array.from(comments);
 }
 
