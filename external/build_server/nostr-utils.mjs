@@ -1,4 +1,5 @@
-import NDK, { NDKPrivateKeySigner, NDKEvent } from '@nostr-dev-kit/ndk';
+import NDK, { NDKPrivateKeySigner, NDKEvent, NDKPublishError } from '@nostr-dev-kit/ndk';
+import DOMPurify from 'isomorphic-dompurify';
 import {
   verificationKind,
   assetRegistrationKind,
@@ -12,6 +13,64 @@ import { appLog } from './logger.js';
 import { calculateFileHash, isDebugEnv, getFirstTagValue } from './utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
+
+// Restrictive DOMPurify config to prevent XSS/injection from Nostr event data
+const purifyConfig = {
+  ALLOWED_TAGS: [],
+  ALLOWED_ATTR: [],
+  SANITIZE_DOM: true,
+  WHOLE_DOCUMENT: false,
+  RETURN_DOM_FRAGMENT: false,
+  RETURN_DOM: false,
+  RETURN_TRUSTED_TYPE: false
+};
+
+function isValidJSONObject(str) {
+  if (typeof str !== 'string') return false;
+  try {
+    const parsed = JSON.parse(str);
+    return parsed !== null && typeof parsed === 'object';
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Sanitizes a Nostr event to prevent XSS and injection attacks.
+ * Modifies the event in place - sanitizes content and all tag values.
+ */
+function sanitizeNostrEvent(event) {
+  if (!event) return;
+
+  const sanitizeString = (str) => {
+    if (str == null || typeof str !== 'string') return str;
+    return DOMPurify.sanitize(str, purifyConfig).replace(/"/g, '');
+  };
+
+  if (event.content) {
+    if (isValidJSONObject(event.content)) {
+      const contentObject = JSON.parse(event.content);
+      Object.keys(contentObject).forEach(key => {
+        if (typeof contentObject[key] === 'string') {
+          contentObject[key] = sanitizeString(contentObject[key]);
+        }
+      });
+      event.content = JSON.stringify(contentObject);
+    } else {
+      event.content = sanitizeString(event.content);
+    }
+  }
+
+  if (event.tags && Array.isArray(event.tags)) {
+    event.tags.forEach(tag => {
+      for (let i = 1; i < tag.length; i++) {
+        if (typeof tag[i] === 'string') {
+          tag[i] = sanitizeString(tag[i]);
+        }
+      }
+    });
+  }
+}
 
 let ndk;
 
@@ -130,6 +189,8 @@ export async function getAllVerifications(authorPubkeys = []) {
     getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
   );
 
+  verifications.forEach(verification => sanitizeNostrEvent(verification));
+
   const verificationsMap = new Map();
 
   verifications.forEach(verification => {
@@ -162,6 +223,7 @@ export async function getAllAssetsForTheseAppIds(appIds) {
   const assets = Array.from(events).filter(event =>
     getFirstTagValue(event, 'client') === 'WalletScrutiny.com'
   );
+  assets.forEach(asset => sanitizeNostrEvent(asset));
   appLog.info(`   Found ${assets.length} assets`);
 
   return assets;
@@ -177,7 +239,9 @@ export async function getEventsFromEventIds(eventIds) {
   for (let i = 0; i < eventIds.length; i += MAX_BATCH_SIZE) {
     const batch = eventIds.slice(i, i + MAX_BATCH_SIZE);
     const batchEvents = await ndk.fetchEvents({ ids: batch });
-    events.push(...Array.from(batchEvents));
+    const batchArray = Array.from(batchEvents);
+    batchArray.forEach(event => sanitizeNostrEvent(event));
+    events.push(...batchArray);
   }
   return events;
 }
