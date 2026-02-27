@@ -533,3 +533,35 @@ nfc:
     * Requires NFC hardware on both devices.
     
     * Very short range limits usability compared to QR-based air-gapped setups.
+selfBuild:
+  short: Self-Build Supported
+  long: >
+    The provider publishes source code and build instructions enabling users to
+    compile and flash the firmware themselves, rather than relying solely on
+    provider-distributed binaries. The project is explicitly designed to
+    support this workflow.
+
+
+    This feature requires the hardware to be constructed from off-the-shelf
+    parts with clear instructions.
+  benefit: >
+    * **Verify what you run:** Users who build from source can be certain the
+      firmware on their device matches the audited code — no need to trust the
+      provider's binary distribution.
+
+
+    * **Supply-chain independence:** Building yourself removes the provider's
+      binary distribution as an attack surface. A compromised release server
+      cannot insert malicious firmware into your device.
+
+
+    * **Community resilience:** Projects designed for self-build can survive
+      provider abandonment — users can continue building and maintaining the
+      firmware independently.
+  drawback: >
+    * Requires technical ability and a suitable build environment. Not suitable
+      for most end users.
+
+
+    * Without a reproducibility commitment, self-building still requires
+      trusting the source code has not been tampered with since any given audit.
