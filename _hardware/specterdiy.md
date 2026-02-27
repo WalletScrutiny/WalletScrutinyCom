@@ -24,14 +24,15 @@ issue:
 icon: specterdiy.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-04-11
+date: 2026-02-27
 signer: 
 twitter: SpecterWallet
 social: 
 builds: 
 features:
+- selfBuild
 - airGapped
 - camera
 - customNode
@@ -68,3 +69,4 @@ The project is **"do-it-yourself"** and the firmware's source code is public, so
 
 
 {% include featureEvidence.html feature="customNode" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}
+{% include featureEvidence.html feature="selfBuild" quote="Specter-DIY is a hardware wallet that you can build yourself using off-the-shelf components. It is based on the STM32F469I-DISCO developer board or a custom-designed board. All the source code and build instructions are open source." source="[GitHub README](https://github.com/cryptoadvance/specter-diy)" comment="Uses STM32F469I-DISCO development board (commercially available) or custom board. Firmware binaries and signatures published in releases." %}

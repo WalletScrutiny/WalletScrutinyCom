@@ -62,3 +62,5 @@ Built on the technology behind the {% include walletLink.html wallet='hardware/t
 - Shipped without firmware (can be installed through USB-C using Trezor Suite)  
 - Pin and passphrase protection
 - Bitcoin-only and Universal (1000 coins and tokens) variants
+
+{% include featureEvidence.html feature="selfBuild" comment="Not tagged selfBuild: unlike Trezor One/T, the Safe 5 hardware designs are not published in the trezor-hardware repo (which only contains One and T). The EAL 6+ Secure Element is the TROPIC01 chip by Tropic Square — open architecture and auditable, but sold to companies rather than individual builders, and no self-build instructions for the Safe 5 PCB exist." %}

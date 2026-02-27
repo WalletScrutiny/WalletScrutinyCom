@@ -84,3 +84,4 @@ The firmware follows the same reproducible build process as other Trezor Core de
 
 
 {% include featureEvidence.html feature="foss" quote="The firmware source code is available in the trezor-firmware monorepo under the T3W1 model configuration." source="Firmware Information" %}
+{% include featureEvidence.html feature="selfBuild" comment="Not tagged selfBuild: hardware designs for the Safe 7 are not published (trezor-hardware repo only covers One and T). The Safe 7 uses dual secure elements including the TROPIC01 by Tropic Square — open-architecture RISC-V chip, auditable and used across multiple vendors, but not available for individual consumer purchase. No self-build instructions or open PCB designs exist for this model." source="[TROPIC01 GitHub](https://github.com/tropicsquare/tropic01), [trezor-hardware repo](https://github.com/trezor/trezor-hardware)" %}

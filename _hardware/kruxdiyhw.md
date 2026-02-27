@@ -21,9 +21,9 @@ issue:
 icon: kruxdiyhw.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2024-01-22
+date: 2026-02-27
 signer: 
 twitter: selfcustodykrux
 social:
@@ -31,6 +31,7 @@ social:
 - https://bitcointalk.org/index.php?topic=5350905.0
 builds: 
 features:
+- selfBuild
 - multiSig
 ---
 
@@ -73,3 +74,5 @@ Yes.
 ## Code and Reproducibility
 
 This **diy project** requires the user to compile the code himself, so necessarily what ends up being installed on this device is **verifiable**.
+
+{% include featureEvidence.html feature="selfBuild" quote="Krux is open-source firmware that enables anyone to build their own Bitcoin signing device via off-the-shelf parts. It runs on Kendryte K210 devices such as the M5StickV and Maix Amigo, converting them into airgapped devices." source="[GitHub README](https://github.com/selfcustody/krux)" comment="Runs on commercially available M5StickV or Maix Amigo hardware. Firmware releases include binaries and signatures. Full build and flash instructions published." %}

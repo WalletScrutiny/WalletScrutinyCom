@@ -36,6 +36,7 @@ social:
 - https://snort.social/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl
 builds: 
 features:
+- selfBuild
 - airGapped
 - camera
 - foss
@@ -98,3 +99,4 @@ We had a little
 
 
 {% include featureEvidence.html feature="foss" quote="Starting with v0.7.0, the images distributed via GitHub are reproducible. This means you and others can verify the released images are byte-for-byte the same when built from source." source="GitHub README" %}
+{% include featureEvidence.html feature="selfBuild" quote="SeedSigner offers anyone the opportunity to build a verifiably air-gapped, stateless Bitcoin signing device using inexpensive, publicly available hardware components (Raspberry Pi Zero, a display HAT, and a camera module)." source="[GitHub README](https://github.com/SeedSigner/seedsigner)" comment="Hardware is entirely off-the-shelf (Raspberry Pi Zero, Waveshare display, camera module). Full assembly instructions published. No custom PCB required." %}
