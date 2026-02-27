@@ -227,8 +227,15 @@ const getNostrProfile = async function (pubkey) {
   const profile = await user.fetchProfile();
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
+  const sanitizedProfile = {};
+  Object.keys(profile).forEach(key => {
+    sanitizedProfile[key] = DOMPurify.sanitize(profile[key]);
+  });
+
+  console.debug('🔄 Sanitized profile for pubkey', pubkey, profile);
+
   // Save to IDB to cache
-  saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
+  saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
   return profile;
 }
