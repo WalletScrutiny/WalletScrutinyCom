@@ -35,7 +35,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - multiAccount
 - nfc
 - secEl
@@ -71,5 +70,3 @@ Therefore the current verdict stands until ERA releases every piece needed to bu
 {% include featureEvidence.html feature="secEl" quote="This firmware runs on the STM32H753xx MCU and incorporates the Microchip ATECC608 secure element." source="GitHub README" %}
 
 {% include featureEvidence.html feature="airGapped" quote="Air-Gapped by Design No USB, Wi-Fi, or Bluetooth" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="It wakes into a transport firmware that you upgrade over NFC via the vendor's Android app, after which all signing traffic stays in camera-delivered QR codes." source="Product Description" %}

@@ -34,7 +34,6 @@ social:
 - https://www.facebook.com/hashwalletofficial/
 builds: 
 features:
-- companion
 - fingerprint
 - nfc
 - secEl
@@ -67,7 +66,6 @@ The card **does not have a display or interface** which would allow the user to 
 
 {% include featureEvidence.html feature="secEl" quote="Secure Element: Infineon SLE78" source="Website" %}
 
-{% include featureEvidence.html feature="companion" quote="Requires HashWallet Manager App" source="Website" %}
 
 {% include featureEvidence.html feature="tradeAlts" quote="Compatible with Simplex and Changelly" source="Website" %}
 

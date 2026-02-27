@@ -38,7 +38,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - hd
 - multiSig
@@ -97,6 +96,5 @@ We had a little
 
 {% include featureEvidence.html feature="camera" quote="Sign transactions & transfer XPUB data using animated QR codes" source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="Built for compatibility with Specter Desktop, Sparrow, and BlueWallet Vaults" source="GitHub README" %}
 
 {% include featureEvidence.html feature="foss" quote="Starting with v0.7.0, the images distributed via GitHub are reproducible. This means you and others can verify the released images are byte-for-byte the same when built from source." source="GitHub README" %}

@@ -35,7 +35,6 @@ social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
 features:
-- companion
 - fingerprint
 - hd
 - multiSig
@@ -105,6 +104,5 @@ the latest release, we find this product to be **not verifiable**.
 
 {% include featureEvidence.html feature="secEl" quote="CC EAL 6+ Secure Element" source="Website" %}
 
-{% include featureEvidence.html feature="companion" quote="Wirelessly connect to HyperPay via Bluetooth" source="Website" %}
 
 {% include featureEvidence.html feature="nfc" quote="Bluetooth 5.0" source="Website" %}

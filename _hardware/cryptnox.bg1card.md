@@ -29,7 +29,6 @@ twitter: cryptnox
 social: 
 builds: 
 features:
-- companion
 - foss
 - hd
 - nfc
@@ -138,6 +137,5 @@ Without a display, the user would not be able to approve transactions physically
 
 {% include featureEvidence.html feature="foss" quote="cryptnox-cli is dual-licensed: - **LGPL-3.0** for open-source projects and proprietary projects that comply with LGPL requirements" source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="We developed a complete iOS companion application that allows users to do transactions on Blockchain networks" source="Existing WalletScrutiny review" %}
 
 {% include featureEvidence.html feature="secEl" quote="Common Criteria EAL6+ Certified Chipset" source="Existing WalletScrutiny review" %}

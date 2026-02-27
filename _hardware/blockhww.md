@@ -35,7 +35,6 @@ social:
 - https://www.instagram.com/ownbitkey
 builds: 
 features:
-- companion
 - fingerprint
 - foss
 - multiSig
@@ -126,5 +125,3 @@ For this reason, we give the device a verdict of having a **bad interface**.
 {% include featureEvidence.html feature="fingerprint" quote="Fully Integrated Bitkey's app and hardware were built together from the ground up to eliminate the complexities of traditional hardware wallets. Compare prices across exchange partners before you buy, and relax knowing Bitkey's biometric hardware can protect every transaction in the app." source="Website" %}
 
 {% include featureEvidence.html feature="nfc" quote="Pair the hardware device with the app using NFC (no initial charging required)." source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="app/android | Android mobile app" source="GitHub README" %}

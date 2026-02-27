@@ -34,7 +34,6 @@ twitter: Coldlar
 social: 
 builds: 
 features:
-- companion
 - hd
 - nfc
 
@@ -75,6 +74,5 @@ Without a screen and without a button, this device cannot provide basic security
 
 {% include featureEvidence.html feature="nfc" quote="NFC ensures private keys never touch the internet" source="Official User Manual" %}
 
-{% include featureEvidence.html feature="companion" quote="ColdLar software App (network end) handles transaction building and broadcasting" source="Official User Manual" %}
 
 {% include featureEvidence.html feature="hd" quote="Uses randomly generate mnemonics" source="Official User Manual" %}

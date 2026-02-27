@@ -46,7 +46,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - fingerprint
 - foss
 - hd
@@ -117,6 +116,5 @@ We were able to craft a script from their provided [build instructions](https://
 
 {% include featureEvidence.html feature="airGapped" quote="safeguards against blind signing to protect against unauthorized transactions" source="GitHub README" comment="Device communicates exclusively via QR codes with no USB/Bluetooth data connection, consistent with air-gapped operation as described in the review" %}
 
-{% include featureEvidence.html feature="companion" quote="it claims to have anti-leak technology that prevents blind signatures. It communicates to the bound app using QR codes." source="Existing WalletScrutiny review" comment="Requires a companion app (e.g. BlueWallet, Sparrow, Nunchuk) for network connectivity; device itself is the air-gapped signer" %}
 
 {% include featureEvidence.html feature="foss" quote="The Keystone3 Firmware is an advanced, highly secure software specifically crafted for the Keystone3 product" source="GitHub README" comment="Source code is publicly available on GitHub; LICENSE.md returned 404 so FOSS status cannot be confirmed — omitting per rules" %}

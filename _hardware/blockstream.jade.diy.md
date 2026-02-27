@@ -29,7 +29,6 @@ twitter: epic_curious
 social: 
 builds: 
 features:
-- companion
 - foss
 
 ---
@@ -53,5 +52,3 @@ This can be adapted for:
 This is a **do-it-yourself project**.
 
 {% include featureEvidence.html feature="foss" quote="The Blockstream Jade is a bitcoin-only hardware wallet that runs 100% on Open Source code." source="GitHub README" %}
-
-{% include featureEvidence.html feature="companion" quote="You want to learn how to use the Jade hardware wallet. Refer to the Jade's help center documentation or contact Blockstream for software support." source="GitHub README" %}

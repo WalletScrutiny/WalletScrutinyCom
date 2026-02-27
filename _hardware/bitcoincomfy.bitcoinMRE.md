@@ -31,7 +31,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - hd
 - segwit
@@ -58,7 +57,6 @@ This is an evolving DIY Project.
 
 {% include featureEvidence.html feature="camera" quote="Once you created for example the Unsigned Transaction from Specter wallet, you can scan it from the MRE app using: &quot;Sign PSBT (QR)&quot;" source="README" %}
 
-{% include featureEvidence.html feature="companion" quote="I use a full Bitcoin Core node + Specter. Once you created for example the Unsigned Transaction from Specter wallet, you can scan it from the MRE app using: &quot;Sign PSBT (QR)&quot; You can scan the QR using for example Specter wallet and broadcast it." source="README" %}
 
 {% include featureEvidence.html feature="segwit" quote="Open, recover or create a wallet, choose the derivation scheme, the optional passphrase and then Display Account Extended Public Key (QR). Then scan the QR with Specter wallet. Public keys will be saved in btc_mre_wallet/xpub/ (if using derivations) or btc_mre_wallet/pub/ (if using a single keypar)." source="README" comment="SegWit derivation paths (xpub, BIP49/84) implied by derivation scheme support and Specter integration; explicit taproot exclusion confirms SegWit is supported" %}
 

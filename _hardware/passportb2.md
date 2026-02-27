@@ -46,7 +46,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - customNode
 - foss
 - multiSig
@@ -105,6 +104,5 @@ From Foundation's Twitter account:
 
 {% include featureEvidence.html feature="multiSig" quote="Supported Cryptocurrencies: Bitcoin via PSBTs; best-in-class multisig experience." source="Existing WalletScrutiny review" %}
 
-{% include featureEvidence.html feature="companion" quote="Onboarding: Envoy guides the user through unboxing Passport and setting it up securely, no need for a computer" source="Existing WalletScrutiny review" %}
 
 {% include featureEvidence.html feature="customNode" quote="Envoy offers the ability to connect to your own Bitcoin node, cutting out Foundation as the middleman." source="Existing WalletScrutiny review" %}

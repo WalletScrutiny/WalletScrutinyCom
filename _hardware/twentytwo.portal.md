@@ -34,7 +34,6 @@ social:
 - https://t.me/TwentyTwoHW
 builds: 
 features:
-- companion
 - foss
 - hd
 - nfc
@@ -117,5 +116,3 @@ This hardware device's firmware is **for verification**
 {% include featureEvidence.html feature="segwit" quote="let descriptor = WalletDescriptor::make_bip84(network);" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}
 
 {% include featureEvidence.html feature="hd" quote="let entropy = match num_words { model::NumWordsMnemonic::Words12 => &mut entropy[..16], model::NumWordsMnemonic::Words24 => &mut entropy[..32], };" source="GitHub README (via firmware/src/handlers/init.rs in review)" %}
-
-{% include featureEvidence.html feature="companion" quote="sdk: The SDK crate implements the communication protocol with the Portal from the host side. It also include an example cli that uses libnfc, so any reader supported by the library should work with it." source="GitHub README" %}

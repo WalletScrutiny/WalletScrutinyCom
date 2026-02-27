@@ -39,7 +39,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 
 ---
@@ -96,7 +95,6 @@ A notable accessory is the JadeLink, a low-profile USB-C storage drive designed 
 
 {% include featureEvidence.html feature="foss" quote="The collection is subject to GPL3 but individual source components can be used under their specific licenses." source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="Official Blockstream Jade hardware units can only be updated via a supported companion app, or by using the Firmware Update Instructions." source="GitHub README" %}
 
 {% include featureEvidence.html feature="camera" quote="jade_v2: Jade Plus, with a larger screen and left/right selection buttons instead of a wheel or rocker." source="GitHub README" comment="Camera support is referenced in the README via qemu emulator with camera support and the jade_v2 target which corresponds to Jade Plus with camera, distinct from jade_v2c which is Jade Plus without camera and battery." %}
 

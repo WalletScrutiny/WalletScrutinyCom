@@ -35,7 +35,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - hd
 - nfc
@@ -75,5 +74,3 @@ This hardware device lacks a screen or a button, this device cannot provide basi
 {% include featureEvidence.html feature="nfc" quote="It supports both NFC and ISO7816 physical interfaces, meaning that it is compatible with any Android phone equipped with NFC, and all USB Smartcard readers." source="GitHub README" %}
 
 {% include featureEvidence.html feature="foss" quote="Fully open source Open-source code on an open framework, making it the most open way to design a secure element. View on GitHub" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="If you just want to use the Keycard as your hardware wallet there are currently three apps supporting it" source="GitHub README" %}
