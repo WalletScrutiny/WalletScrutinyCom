@@ -444,8 +444,9 @@ companion:
   long: >
     This app can act as a companion to a hardware wallet or air-gapped signing device.
     It handles network connectivity, transaction preparation, and blockchain data —
-    while the signing device manages private key operations. Examples: Mycelium
-    connecting to a Trezor via OTG cable; Specter Desktop pairing with Specter-DIY.
+    while the signing device manages private key operations. The connection method
+    is irrelevant (USB, QR, NFC, Bluetooth — all count). Examples: Mycelium+Trezor,
+    Sparrow+Trezor, Specter Desktop+Specter-DIY, Envoy+Passport.
 
 
     This feature is tagged on the **companion app** (the hot, networked side), not on
