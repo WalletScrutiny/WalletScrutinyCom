@@ -44,7 +44,6 @@ builds:
   - multi
   - btc-only
 features:
-- companion
 - foss
 - hd
 - multiSig
@@ -65,5 +64,3 @@ All firmware and software are open-source, allowing public review and transparen
 {% include featureEvidence.html feature="multiSig" quote="Register multisig account with device, automatically verify for secure send/receive" source="Website" %}
 
 {% include featureEvidence.html feature="foss" quote="Both the BitBoxApp and firmware are fully open source" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="The BitBox02 is meant to be used primarily with the BitBoxApp, although third party integration is possible through the BitBox02 API." source="GitHub README" %}

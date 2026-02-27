@@ -35,7 +35,6 @@ social:
 - https://www.facebook.com/secuxtech
 builds: 
 features:
-- companion
 - hd
 - secEl
 
@@ -135,5 +134,3 @@ Pending the response of SecuX tech, I think it's worth the benefit of the doubt 
 {% include featureEvidence.html feature="hd" quote="Compatible recoverability with BIP32, 39, 44, 49 standards" source="Product Description" %}
 
 {% include featureEvidence.html feature="secEl" quote="Infineon Secure Element chip" source="Product Description" %}
-
-{% include featureEvidence.html feature="companion" quote="The device can connect to a web portal called SecuXess via USB or Bluetooth (through a PC)." source="Product Description" %}

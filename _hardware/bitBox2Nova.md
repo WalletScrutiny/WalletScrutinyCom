@@ -38,7 +38,6 @@ builds:
   - multi
   - btc-only
 features:
-- companion
 - foss
 - hd
 - nfc
@@ -56,6 +55,5 @@ The BitBox02 Nova is a hardware wallet designed as a technical upgrade to the or
 
 {% include featureEvidence.html feature="nfc" quote="Connectivity: USB-C & Bluetooth® Low Energy" source="Website" comment="Actually this is BLE not NFC — removing this entry" %}
 
-{% include featureEvidence.html feature="companion" quote="The BitBox02 is meant to be used primarily with the BitBoxApp, although third party integration is possible through the BitBox02 API." source="GitHub README" %}
 
 {% include featureEvidence.html feature="foss" quote="Open-source Firmware is fully open-source" source="Website" %}

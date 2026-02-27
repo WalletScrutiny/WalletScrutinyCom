@@ -44,7 +44,6 @@ builds:
 features:
 - TOR
 - coinCtrl
-- companion
 - segwit
 
 ---
@@ -63,6 +62,5 @@ This device is **source available**.
 
 {% include featureEvidence.html feature="coinCtrl" quote="coin control for granular transaction management" source="Device Description" %}
 
-{% include featureEvidence.html feature="companion" quote="The device is initialized and managed via the Trezor Suite app, which enables users to send, receive, stake, and trade various supported coins." source="Device Description" %}
 
 {% include featureEvidence.html feature="TOR" quote="It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management." source="Device Description" %}

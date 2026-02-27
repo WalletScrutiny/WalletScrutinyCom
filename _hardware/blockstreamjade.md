@@ -45,7 +45,6 @@ builds:
 - arch: arm
 features:
 - camera
-- companion
 - foss
 
 ---
@@ -56,6 +55,5 @@ Blockstream Jade (classic) is an open-source hardware wallet specifically design
 
 {% include featureEvidence.html feature="foss" quote="The collection is subject to GPL3 but individual source components can be used under their specific licenses." source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="Official Blockstream Jade hardware units can only be updated via a supported companion app, or by using the Firmware Update Instructions." source="GitHub README" %}
 
 {% include featureEvidence.html feature="camera" quote="to run the qemu emulator with display and camera support, run: main/qemu/run_emulator.sh" source="GitHub README" %}

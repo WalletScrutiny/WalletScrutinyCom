@@ -34,7 +34,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - fingerprint
 - nfc
 - secEl
@@ -121,7 +120,6 @@ This device is **not source-available**.
 
 {% include featureEvidence.html feature="camera" quote="All key operations are performed offline, with cold-hot communication strictly via QR codes, ensuring private keys never touch the internet." source="Official User's Manual" %}
 
-{% include featureEvidence.html feature="companion" quote="The device requires a companion app." source="Official User's Manual" %}
 
 {% include featureEvidence.html feature="nfc" quote="if the app is not connected via QR code or NFC, it will not work since these two options are needed to access some of the wallet functionalities." source="Official User's Manual" %}
 

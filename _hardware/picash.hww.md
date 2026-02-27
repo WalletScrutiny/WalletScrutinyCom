@@ -33,7 +33,6 @@ social:
 - https://www.linkedin.com/in/ilinkeds/
 builds: 
 features:
-- companion
 - hd
 - nfc
 - secEl
@@ -63,5 +62,3 @@ The reliance on desktop software exposes the wallet to risks such as malware.
 {% include featureEvidence.html feature="nfc" quote="using a chip card reader or simply with the NFC technology, you will be able to manage your favorite crypto assets" source="Product Description" %}
 
 {% include featureEvidence.html feature="secEl" quote="it is a security device that let you safely store your private keys within the tamper-proof secure chip" source="Product Description" %}
-
-{% include featureEvidence.html feature="companion" quote="PCH hardware wallet is supported (natively or not) by multiple well known software clients such Electrum for Bitcoin/BTC, Electrum for Litecoin/LTC, Electron Cash for Bitcoin Cash/BCH, Electron Cash SLP Edition, MetaMask, MyCrypto and MyEtherWallet" source="Product Description" %}

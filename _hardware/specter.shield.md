@@ -32,7 +32,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - multiSig
 - secEl
 
@@ -63,5 +62,3 @@ Although this product can be bought entirely assembled from Specter Solutions we
 {% include featureEvidence.html feature="multiSig" quote="Our main focus is multisignature setup with other hardware wallets, but wallet can also work as a single signer." source="GitHub README" %}
 
 {% include featureEvidence.html feature="secEl" quote="With the extension board and a smart card equipped with a secure element, the wallet can function with the same security model as something like a Coldcard. The key material can be stored on the secure element in a smart card and loaded onto the device during use, but only persistently stored on the smart card." source="Product Description" %}
-
-{% include featureEvidence.html feature="companion" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}

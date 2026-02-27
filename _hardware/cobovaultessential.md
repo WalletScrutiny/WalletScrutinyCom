@@ -33,7 +33,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - hd
 - secEl
@@ -129,7 +128,6 @@ For the time being we have to consider this product **not verifiable**.
 
 {% include featureEvidence.html feature="secEl" quote="Interaction with the Secure Element (SE) via serial port, open source SE firmware can be found at keystone-se-firmware. Transaction data is signed by the Secure Element and the generated signature is sent back to the application." source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}
 
 {% include featureEvidence.html feature="foss" quote="This project is licensed under the GPL License. See the LICENSE file for details." source="License" %}
 

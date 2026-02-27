@@ -39,7 +39,6 @@ social:
 - https://t.me/quickxprotocol
 builds: 
 features:
-- companion
 - nfc
 
 ---
@@ -77,5 +76,3 @@ There are 2 other projects that are related to the QuickX Touch: The QuickX Prot
 Like most NFC cards that are reliant on a companion app on another device, the QuickX touch **risks exposure of the private key through the connected device**. There was also no mention whether the private keys are stored on a secure chip element. With no input and output interfaces, this makes the card highly dependent on the app. This risk is also made more prominent when the app is suddenly not available for download anymore.
 
 {% include featureEvidence.html feature="nfc" quote="QuickX Touch is an NFC Card-typed cold wallet." source="Product Description" %}
-
-{% include featureEvidence.html feature="companion" quote="The card is primarily an NFC device which can connect with an Android phone with NFC capabilities. It has a companion app" source="Wallet Creation and Private keys" %}

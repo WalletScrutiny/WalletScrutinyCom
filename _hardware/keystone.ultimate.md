@@ -31,7 +31,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - secEl
 
@@ -52,5 +51,3 @@ This product is currently out of stock.
 {% include featureEvidence.html feature="camera" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}
 
 {% include featureEvidence.html feature="airGapped" quote="Keystone is an air-gapped, open source hardware wallet that uses completely transparent QR code data transmissions." source="GitHub README" %}
-
-{% include featureEvidence.html feature="companion" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}

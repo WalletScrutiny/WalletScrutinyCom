@@ -33,7 +33,6 @@ social:
 - https://www.reddit.com/r/OneKeyHQ
 builds: 
 features:
-- companion
 - secEl
 
 ---
@@ -85,5 +84,3 @@ According to a OneKey developer in the project’s Discord:
 This device is **source-available** and subject **for-verification**
 
 {% include featureEvidence.html feature="secEl" quote="Secured by EAL 6+ certified chips" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="Set up your crypto security in minutes with fully offline onboarding. Your keys never touch the internet, protected by EAL6+ secure chips and encrypted connections." source="Website" %}

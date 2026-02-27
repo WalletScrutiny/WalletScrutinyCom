@@ -37,7 +37,6 @@ social:
 - https://www.facebook.com/iSafePal
 builds: 
 features:
-- companion
 - nfc
 - secEl
 
@@ -64,6 +63,5 @@ We sent them a friendly note on their GitHub [issues page](https://github.com/Sa
 
 {% include featureEvidence.html feature="secEl" quote="CC EAL6+ secure element" source="Website" %}
 
-{% include featureEvidence.html feature="companion" quote="Sign transactions via Bluetooth connection" source="Website" comment="The X1 signs via Bluetooth and is explicitly paired with the SafePal App as its companion." %}
 
 {% include featureEvidence.html feature="nfc" quote="Sign transactions via Bluetooth connection" source="Website" comment="Actually Bluetooth, not NFC — omitting nfc." %}

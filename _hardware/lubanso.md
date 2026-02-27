@@ -34,7 +34,6 @@ social:
 - https://www.facebook.com/LUBANSO
 builds: 
 features:
-- companion
 - hd
 - secEl
 - segwit
@@ -84,5 +83,3 @@ We are inclined to note the following details: the software is proprietary and t
 {% include featureEvidence.html feature="segwit" quote="Supports: BIP44, BIP49, BIP84, BIP39" source="Website" comment="BIP49 (P2SH-P2WPKH) and BIP84 (native bech32) indicate full SegWit support" %}
 
 {% include featureEvidence.html feature="secEl" quote="Bank grade secure chip: EAL 4+" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="Manager App: Support Windows, Mac OS" source="Website" comment="Device connects via USB to a separate desktop Manager App which handles network connectivity; the hardware wallet is the signing device" %}

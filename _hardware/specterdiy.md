@@ -34,7 +34,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - customNode
 - multiSig
 - segwit
@@ -67,6 +66,5 @@ The project is **"do-it-yourself"** and the firmware's source code is public, so
 
 {% include featureEvidence.html feature="camera" quote="QR codes are a default way for Specter to communicate with the host. QR codes are pretty convenient and allow the user to be in control of the data transmission - every QR code has a very limited capacity and communication happens unidirectionally. And it's airgapped - you don't need to connect the wallet to the computer at any time." source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}
 
 {% include featureEvidence.html feature="customNode" quote="To communicate with Bitcoin Core easier we are also working on Specter Desktop app - a small python flask server talking to your Bitcoin Core node." source="GitHub README" %}

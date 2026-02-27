@@ -31,7 +31,6 @@ social:
 - https://www.reddit.com/r/GridPlus/
 builds: 
 features:
-- companion
 - hd
 - nfc
 - secEl
@@ -69,5 +68,3 @@ The card doesn't primarily function as a wallet on its own as it **lacks an inte
 {% include featureEvidence.html feature="hd" quote="Keycard is a an implementation of a BIP-32 HD wallet running on Javacard 3.0.4+" source="GitHub README" %}
 
 {% include featureEvidence.html feature="secEl" quote="GridPlus can - the Lattice1 (and specifically a secure compute element inside) is the main interface for SafeCards." source="GitHub README" %}
-
-{% include featureEvidence.html feature="companion" quote="GridPlus SafeCards are typically used with a secure interface (the Lattice1), which queries the card for its certificates." source="GitHub README" %}
