@@ -442,11 +442,15 @@ coinCtrl:
 companion:
   short: Companion App
   long: >
-    A companion app is a secondary application that works alongside a hardware wallet
-    or air-gapped signing device. It handles network connectivity, transaction
-    preparation, and blockchain data — while the secure signing device manages
-    private key operations. The companion app itself does not hold private keys.
-    
+    This app can act as a companion to a hardware wallet or air-gapped signing device.
+    It handles network connectivity, transaction preparation, and blockchain data —
+    while the signing device manages private key operations. Examples: Mycelium
+    connecting to a Trezor via OTG cable; Specter Desktop pairing with Specter-DIY.
+
+
+    This feature is tagged on the **companion app** (the hot, networked side), not on
+    the hardware wallet or signing device itself.
+
 
     See also [Issue #140](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/140)
     for discussion on verifying companion apps.
