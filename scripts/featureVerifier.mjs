@@ -396,7 +396,7 @@ ${featuresToCheck}
 1. LN vs Liquid: Lightning Network (instant off-chain Bitcoin payments) and Liquid (Blockstream sidechain, L-BTC) are completely different. Do not confuse them.
 2. cashu vs liquid: cashu is an ecash protocol. Liquid is a sidechain. Not related.
 3. ownLN means the user connects to their OWN Lightning node. Custodial Lightning (e.g. Spark, Wallet of Satoshi) does NOT qualify.
-4. companion: only tag the air-gapped signing device if the README/website says it requires or pairs with a separate hot companion app. Do NOT tag the companion app itself.
+4. companion: NEVER tag hardware or bearer platform products with this feature — hardware wallets inherently require a companion app by design, so it is not a distinguishing feature for them. Only tag software products (android/iphone/desktop) where the app acts as an air-gapped signing device that pairs with a separate hot companion app. Do NOT tag the companion app itself.
 5. foss: ONLY if the License file contains a recognized FOSS license (MIT, GPL, Apache, AGPL, MPL, etc.) AND does NOT contain "Commons Clause" or other commercial-use restrictions. MIT + Commons Clause is NOT FOSS. Source-available and reproducible-builds licenses do NOT qualify.
 6. Quote must be a verbatim plain-text excerpt from the named source — no paraphrasing, no markdown links or image syntax.
 7. Evidence found only in the Review body: do NOT return — already documented.
