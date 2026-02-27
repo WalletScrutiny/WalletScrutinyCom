@@ -21,9 +21,9 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-11-23
+date: 2026-02-27
 signer: 
 twitter: BitcoinComfy
 social: 

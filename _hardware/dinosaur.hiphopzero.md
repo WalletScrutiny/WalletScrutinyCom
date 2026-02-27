@@ -21,9 +21,9 @@ issue:
 icon: dinosaur.hiphopzero.png
 bugbounty: 
 meta: obsolete
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-04-29
+date: 2026-02-27
 signer: 
 twitter: __gbg__
 social: 

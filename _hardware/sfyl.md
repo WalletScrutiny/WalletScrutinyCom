@@ -21,15 +21,16 @@ issue:
 icon: sfyl.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2024-10-22
+date: 2026-02-27
 signer: 
 twitter: tulipan81
 social:
 - https://t.me/sfylwallet
 builds: 
 features:
+- selfBuild
 - foss
 
 ---

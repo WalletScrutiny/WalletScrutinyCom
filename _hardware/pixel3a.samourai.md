@@ -24,9 +24,9 @@ issue:
 icon: pixel3a.samourai.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: nosource
 appHashes: 
-date: 2022-05-03
+date: 2026-02-27
 signer: 
 twitter: 
 social:

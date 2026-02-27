@@ -24,9 +24,9 @@ issue:
 icon: fpga.crypto.wallet.diy.png
 bugbounty: 
 meta: obsolete
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-05-25
+date: 2026-02-27
 signer: 
 twitter: 
 social: 
