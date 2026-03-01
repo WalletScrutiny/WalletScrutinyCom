@@ -688,5 +688,10 @@
   }
 }
 .archived-link {
-  font-style: italic;
+  text-decoration: underline dashed !important;
+  text-underline-offset: 3px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
 }
