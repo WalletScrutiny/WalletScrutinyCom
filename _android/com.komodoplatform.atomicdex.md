@@ -25,7 +25,7 @@ date: 2025-08-04
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 twitter: KomodoPlatform
 social:
-- https://discord.com/invite/3rzDPAr
+- https://discord.com/invite/3rzDPAr#deadLink
 - https://www.reddit.com/r/komodoplatform
 - https://t.me/KomodoPlatform_Official
 redirect_from: 
@@ -55,7 +55,7 @@ The web version is available [here](https://app.komodoplatform.com/wallet).
 - We created a wallet and were given a 12-word seed phrase. 
 - There is a legacy BTC address with send and receive functions. 
 - There in an option to back up the private keys.
-- The developers [claim](https://atomicdex.io/en/blog/q1-2023-progress-report/#atomicdex-mobile-goes-100-open-source) they are 100% Open Source.
+- The developers [claim](https://atomicdex.io/en/blog/q1-2023-progress-report/#atomicdex-mobile-goes-100-open-source&deadLink) they are 100% Open Source.
 - We found the [repository](https://github.com/KomodoPlatform/komodo-wallet-mobile) for the mobile app.
 - This app is **source available**.
 

@@ -45,7 +45,7 @@ features:
 - The Kamix.io website also has a blockchain explorer 
 - We had contacted Kamix via [twitter](https://twitter.com/BitcoinWalletz/status/1654326997353627648) to clarify, however there was no response.
 
-[Reading the Legal article](https://www.kamix.io/fr/legal), there are paragraphs that state the app is holding the user's assets. Unfortunately, as we cannot read French we had to run the article through Google Translate.
+[Reading the Legal article](https://www.kamix.io/fr/legal#deadLink), there are paragraphs that state the app is holding the user's assets. Unfortunately, as we cannot read French we had to run the article through Google Translate.
 
 > **«Cryptoactive buyer»:** means a Customer who purchases a quantity of Cryptoassets sold by KAMIX against a settlement in euro by a payment method accepted by KAMIX, and, in particular, remote payment by credit card or payment by SEPA bank transfer.
 >
@@ -56,7 +56,7 @@ We'll conclude that this app is **custodial.**
 
 **Update 2023-11-17**:
 
-From its translated (Google Translate) [Terms and Conditions](https://www.kamix.io/fr/legal):
+From its translated (Google Translate) [Terms and Conditions](https://www.kamix.io/fr/legal#deadLink):
 
 A **crypto account** is defined:
 

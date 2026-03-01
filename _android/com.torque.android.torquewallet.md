@@ -11,7 +11,7 @@ released: 2019-12-11
 updated: 2021-02-03
 version: 1.1.15
 reviews: 13
-website: https://web.archive.org/web/20210615131456/https://torque.asia/home/terms-and-conditions/
+website: https://torque.asia/home/terms-and-conditions
 repository: 
 issue: 
 icon: com.torque.android.torquewallet.png

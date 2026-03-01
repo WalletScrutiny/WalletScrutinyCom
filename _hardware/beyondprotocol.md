@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/beyondprotocol1
 - https://beyondprotocol.medium.com/
 - https://www.reddit.com/r/BEYONDprotocol
-- https://discord.me/beyondprotocolofficial
+- https://discord.me/beyondprotocolofficial#deadLink
 - https://www.instagram.com/beyondprotocol/?hl=en
 builds: 
 features: 

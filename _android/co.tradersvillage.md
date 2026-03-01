@@ -10,7 +10,7 @@ released: 2020-06-08
 updated: 2020-06-08
 version: 0.0.21
 reviews: 
-website: https://tradersvillage.co
+website: https://tradersvillage.co#deadLink
 repository: 
 issue: 
 icon: co.tradersvillage.png

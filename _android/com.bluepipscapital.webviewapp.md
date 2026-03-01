@@ -10,7 +10,7 @@ released:
 updated: 2020-11-12
 version: 2.6.0
 reviews: 
-website: https://www.bluepips.co/
+website: https://www.bluepips.co#deadLink
 repository: 
 issue: 
 icon: com.bluepipscapital.webviewapp.png

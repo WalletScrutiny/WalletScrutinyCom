@@ -23,7 +23,7 @@ date: 2025-03-14
 signer: 
 twitter: ctrl_wallet
 social:
-- https://discord.gg/ctrlwallet
+- https://discord.gg/ctrlwallet#deadLink
 features: 
 developerName: Ctrl Ltd
 

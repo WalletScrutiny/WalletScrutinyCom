@@ -11,7 +11,7 @@ released: 2023-02-07
 updated: 2023-06-01
 version: 3.04.28
 reviews: 33
-website: https://bitefinance.net
+website: https://bitefinance.net#deadLink
 repository: 
 issue: 
 icon: com.bitcoinwallet.btclun.png
@@ -23,7 +23,7 @@ date: 2023-08-25
 signer: 
 twitter: 
 social:
-- https://bitefinance.org
+- https://bitefinance.org#deadLink
 redirect_from: 
 developerName: Bit Crypto Services
 builds: 

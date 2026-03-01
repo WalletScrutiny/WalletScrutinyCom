@@ -10,7 +10,7 @@ released: 2022-11-04
 updated: 2023-05-04
 version: 1.2.1
 reviews: 
-website: https://themembersclub.vip
+website: https://themembersclub.vip#deadLink
 repository: 
 issue: 
 icon: com.tmc.wallet.png

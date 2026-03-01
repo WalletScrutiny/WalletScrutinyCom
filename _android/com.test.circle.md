@@ -11,7 +11,7 @@ released: 2022-09-22
 updated: 2022-09-22
 version: 1.0.0
 reviews: 5
-website: https://usdcdollar.cc/review/privacy
+website: https://usdcdollar.cc/review/privacy#deadLink
 repository: 
 issue: 
 icon: com.test.circle.png

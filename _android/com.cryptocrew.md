@@ -10,7 +10,7 @@ released: 2020-06-23
 updated: 2020-06-23
 version: '1.0'
 reviews: 
-website: http://goforsage.com/app
+website: http://goforsage.com/app#deadLink
 repository: 
 issue: 
 icon: com.cryptocrew.png

@@ -11,7 +11,7 @@ released: 2019-09-27
 updated: 2019-12-02
 version: 1.3.6
 reviews: 
-website: https://xensor.cc
+website: https://xensor.cc#deadLink
 repository: 
 issue: 
 icon: com.xensorbox.png

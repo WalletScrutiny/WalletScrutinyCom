@@ -50,7 +50,7 @@ There are multiple apps in our list with a similar name of 'TechBank'.
 >
 > TechBank Dwallet is a trusted multi-chain wallet that supports multi coins. You can store, send, and receive your favorite cryptos easily.
 
-## [Terms of Service](https://techbank.finance/assets/terms/terms-of-service.pdf)
+## [Terms of Service](https://techbank.finance/assets/terms/terms-of-service.pdf#deadLink)
 
 The company behind Techbank Wallet indicates in their Terms and Conditions that their service is custodial.
 

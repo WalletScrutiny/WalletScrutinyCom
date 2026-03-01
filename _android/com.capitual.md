@@ -53,7 +53,7 @@ Here are the list of features Capitual advertises:
 
 ## The Site
 
-From the [Terms of Use:](https://capitual.com/legal/terms-of-use)
+From the [Terms of Use:](https://capitual.com/legal/terms-of-use#deadLink)
 
 > 3.7.1. We reserve the right to store values in offline storages. This is done as a security measure. For this reason, we might need to access assets stored offline. This may delay withdrawals operations.
 

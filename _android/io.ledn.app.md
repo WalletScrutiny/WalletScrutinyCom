@@ -42,7 +42,7 @@ features:
 
 ## The Site
 
-### [Terms of Service](https://ledn.io/legal/en/terms-of-service)
+### [Terms of Service](https://ledn.io/legal/en/terms-of-service#deadLink)
 
 **Termination Clause**
 
@@ -56,9 +56,9 @@ features:
 
 In order to qualify for a Savings account, the user must have passed Ledn's KYC process. Users can then **deposit Bitcoin**.
 
-> To apply for a [Savings Account](https://ledn.io/legal/en/savings-account-terms), you must have a Ledn Account and have completed our know-your-client verification process. You apply for a Savings Account by clicking the "Deposit" button on the "BTC Savings" or the "USDC Savings" page of the Platform or by otherwise requesting to use or open a Savings Account.
+> To apply for a [Savings Account](https://ledn.io/legal/en/savings-account-terms#deadLink), you must have a Ledn Account and have completed our know-your-client verification process. You apply for a Savings Account by clicking the "Deposit" button on the "BTC Savings" or the "USDC Savings" page of the Platform or by otherwise requesting to use or open a Savings Account.
 
-The [withdrawal process](https://ledn.io/en/btc-savings) entails requires approval from Ledn.
+The [withdrawal process](https://ledn.io/en/btc-savings#deadLink) entails requires approval from Ledn.
 
 ## Verdict
 

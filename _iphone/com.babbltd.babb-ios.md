@@ -26,7 +26,7 @@ social:
 - https://www.linkedin.com/company/babb
 - https://www.facebook.com/getbabb
 - https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q
-- https://discord.com/invite/39rQp2g6JA
+- https://discord.com/invite/39rQp2g6JA#deadLink
 - https://babb.medium.com
 - https://t.me/getbabb_official
 features: 

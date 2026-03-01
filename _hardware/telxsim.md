@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://www.telx.tech
+providerWebsite: https://web.archive.org/web/20230129034813/https://www.telx.tech/
 website: 
 shop: 
 country: 
@@ -32,4 +32,4 @@ features:
 
 ---
 
-The [provider's website](https://www.telx.tech) is inaccessible and we considered it defunct.
+The [provider's website](https://web.archive.org/web/20230129034813/https://www.telx.tech/) is inaccessible and we considered it defunct.

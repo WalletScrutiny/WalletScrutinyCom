@@ -10,7 +10,7 @@ released: 2022-10-18
 updated: 2023-04-06
 version: 4.0.0
 reviews: 
-website: https://zznex.in/
+website: https://zznex.in#deadLink
 repository: 
 issue: 
 icon: com.zznex.app.png

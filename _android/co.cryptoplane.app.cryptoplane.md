@@ -10,7 +10,7 @@ released: 2021-09-11
 updated: 2021-10-07
 version: 1.0.5
 reviews: 
-website: https://crypto-plane.com
+website: https://crypto-plane.com#deadLink
 repository: 
 issue: 
 icon: co.cryptoplane.app.cryptoplane.jpg

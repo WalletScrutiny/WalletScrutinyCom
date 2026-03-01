@@ -12,7 +12,7 @@ released: 2018-08-31
 updated: 2024-02-22
 version: 3.2.5
 reviews: 
-website: https://spatium.net/
+website: https://web.archive.org/web/20250404155959/https://www.spatium.net/
 repository: 
 issue: 
 icon: capital.spatium.wallet.png
@@ -36,7 +36,7 @@ features:
 
 ## Update 2024-07-17
 
-The [Terms and Condition's](https://spatium.net/terms-and-conditions) wording has been updated since the last review:
+The [Terms and Condition's](https://spatium.net/terms-and-conditions#deadLink) wording has been updated since the last review:
 
 > All content included in or made available through the Site or any related content, materials and information such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations is the property of CASPIAN TECHNOLOGIES PTE LTD (Singapore) or its affiliates or its content providers and protected by international copyright laws.  
 
@@ -68,7 +68,7 @@ The worrying part is that they use threshold signatures with secrets generated a
 
 There is a Bitcoin wallet with a send and receive function. Backup is possible through the use of biometric data.
 
-## [Termination Clause in User Agreement](https://spatium.net/user-agreement.html)
+## [Termination Clause in User Agreement](https://web.archive.org/web/20230921163705/https://spatium.net/user-agreement.html)
 
 > Upon termination of the Agreement, your account will cease to exist (be deleted). Upon termination of this Agreement, we will cease to provide services and you will cease to have access to the Application.
 >

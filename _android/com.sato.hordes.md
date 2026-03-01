@@ -10,7 +10,7 @@ released: 2023-08-04
 updated: 2024-11-21
 version: '1.0'
 reviews: 
-website: https://www.hordeswallet.com
+website: https://www.hordeswallet.com#deadLink
 repository: 
 issue: 
 icon: com.sato.hordes.png

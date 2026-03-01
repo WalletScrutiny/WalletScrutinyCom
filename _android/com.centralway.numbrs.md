@@ -10,7 +10,7 @@ released: 2019-02-12
 updated: 2022-04-14
 version: 7.4.0
 reviews: 6
-website: https://www.numbrs.com
+website: https://www.numbrs.com#deadLink
 repository: 
 issue: 
 icon: com.centralway.numbrs.png
@@ -35,7 +35,7 @@ Numbrs is a Swiss-based self-custodial wallet.
 
 > With the Numbrs Bitcoin Account, your Bitcoins belong to you and you alone. The Numbrs Bitcoin Account provides you with full control over your Private Key, so your Bitcoins are truly yours and fully protected in Switzerland.
 
-[Here](https://www.numbrs.com/terms-and-conditions-numbrs-app/) is what the site's TOS says about security:
+[Here](https://www.numbrs.com/terms-and-conditions-numbrs-app#deadLink) is what the site's TOS says about security:
 
 > These Terms will apply to your use of the Bitcoin Self Custody as long as you maintain your Bitcoin Self Custody within the Numbrs Website. You may only terminate the use of the Bitcoin Self Custody by closing your Numbrs User Account altogether. If you choose to close your account, you can submit this request to us (see details under 11.1) or you can go to the Account Settings on the Numbrs Website and click on "Close Account". You will need to confirm the start of the account closure process with your encryption password for your Bitcoin Self Custody. After this you will see the required steps in order to close your account.
 >

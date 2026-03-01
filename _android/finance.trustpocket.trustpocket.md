@@ -10,7 +10,7 @@ released: 2021-08-06
 updated: 2021-10-04
 version: 1.0.3
 reviews: 
-website: https://trustpocket.finance
+website: https://trustpocket.finance#deadLink
 repository: 
 issue: 
 icon: finance.trustpocket.trustpocket.png

@@ -48,7 +48,7 @@ features:
 ## Analysis
 
 - The app has a strict signup process that requires Brazilian documents
-- The [Terms and Conditions](https://www.liqi.com.br/documents/liqi/termos-de-uso.pdf)
+- The [Terms and Conditions](https://www.liqi.com.br/documents/liqi/termos-de-uso.pdf#deadLink)
 - User access depends on the level of KYC-verification done.
 - For example, Beginner tier has:
   - Personal data validation

@@ -10,7 +10,7 @@ released: 2019-01-19
 updated: 2019-01-19
 version: v1.0.0
 reviews: 
-website: http://lkrcoin.io/
+website: http://lkrcoin.io#deadLink
 repository: 
 issue: 
 icon: com.lkrcoin.wallet.png

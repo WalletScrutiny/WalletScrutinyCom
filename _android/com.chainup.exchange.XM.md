@@ -10,7 +10,7 @@ released: 2022-09-05
 updated: 2023-02-14
 version: 5.7.0_push_v2
 reviews: 
-website: https://xm.im/
+website: https://xm.im#deadLink
 repository: 
 issue: 
 icon: com.chainup.exchange.XM.png

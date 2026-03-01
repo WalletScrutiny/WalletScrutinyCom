@@ -41,8 +41,8 @@ features:
 Section 7 from [the Terms of Use](https://www.obiex.com/legal/terms/) states that Obiex Finance is capable of suspending the users' accounts.
 
 FAQ: 
--[How to Transfer Crypto From an External Wallet to Your Obiex Wallet](https://support.obiex.finance/en/articles/5728074-how-to-transfer-crypto-from-an-external-wallet-to-your-obiex-wallet)
-[How to Withdraw Crypto](https://support.obiex.finance/en/articles/5787970-how-to-withdraw-crypto-on-obiex)
+-[How to Transfer Crypto From an External Wallet to Your Obiex Wallet](https://support.obiex.finance/en/articles/5728074-how-to-transfer-crypto-from-an-external-wallet-to-your-obiex-wallet#deadLink)
+[How to Withdraw Crypto](https://support.obiex.finance/en/articles/5787970-how-to-withdraw-crypto-on-obiex#deadLink)
 
 There's no information on seed phrases, mnemonics or backups.
 

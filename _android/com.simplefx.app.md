@@ -60,11 +60,11 @@ These are the account termination provisions:
 
 > Cryptocurrency Customer also agrees that the Company, may, by giving notice, in its sole discretion terminate Bitcoin Customer access to the Website and to his or her Cryptocurrency Account, **including without limitation, the Company's right to: limit, suspend or terminate the service and Bitcoin Customers' Bitcoin Accounts, prohibit access to the Website and its content, services and tools, delay or remove hosted content, and take technical and legal steps** to keep Cryptocurrency Customers off the Website if the company thinks that they are creating problems or possible legal liabilities, infringing the intellectual property rights of third parties, or acting inconsistently with the letter or spirit of these Terms of Use.
 
-It is possible to [deposit bitcoin](https://simplefx.com/payments/) and other cryptocurrencies. It is also possible to [withdraw](https://blog.simplefx.com/how-to-withdraw-funds-with-simplefx) using cryptocurrencies.
+It is possible to [deposit bitcoin](https://simplefx.com/payments/) and other cryptocurrencies. It is also possible to [withdraw](https://blog.simplefx.com/how-to-withdraw-funds-with-simplefx#deadLink) using cryptocurrencies.
 
 ## The App
 
-We could not locate the official iOS version of the app and can only seem to find it on [their own website](https://simplefx.com/ios/).
+We could not locate the official iOS version of the app and can only seem to find it on [their own website](https://simplefx.com/ios#deadLink).
 
 <div class="alertBox"><div>
 <p>Providers that don't distribute their apps through the big platforms

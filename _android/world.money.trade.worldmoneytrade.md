@@ -11,7 +11,7 @@ released: 2020-07-24
 updated: 2020-08-04
 version: '2.0'
 reviews: 
-website: https://worldmoneytrade.com
+website: https://worldmoneytrade.com#deadLink
 repository: 
 issue: 
 icon: world.money.trade.worldmoneytrade.png

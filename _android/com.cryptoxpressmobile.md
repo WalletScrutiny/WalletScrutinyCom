@@ -43,7 +43,7 @@ We downloaded the app to ascertain its functions. We were not given the opportun
 
 We also were not able to find any documentation about backups or restoring through the private key. 
 
-According to the [Whitepaper:](https://cryptoxpress.com/whitepaper.pdf)
+According to the [Whitepaper:](https://cryptoxpress.com/whitepaper.pdf#deadLink)
 
 > We’ve leveraged Binance’s leading liquidity, market depth, asset management
 systems, security infrastructure, and personalized marketing support, so we can focus on delivering maximum value to our users.

@@ -12,7 +12,7 @@ released: 2018-11-09
 updated: 2021-05-18
 version: 4.1.6
 reviews: 461
-website: https://www.coinbene.com/
+website: https://www.coinbene.com#deadLink
 repository: 
 issue: 
 icon: com.coinbene.manbiwang.png
@@ -43,7 +43,7 @@ features:
 
 CoinBene App is a cryptoasset platform and centralized exchange.
 
-Found in [the user agreement](https://www.coinbene.com/uc/userAgreement):
+Found in [the user agreement](https://www.coinbene.com/uc/userAgreement#deadLink):
 
 > CoinBene makes no representations or warranties regarding the amount of time that may be required to complete transfer of your Tokens from a third party wallet or other source and have such Tokens become available in your Account.
 

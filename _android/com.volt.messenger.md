@@ -10,7 +10,7 @@ released: 2019-02-18
 updated: 2020-06-18
 version: 3.6.0
 reviews: 
-website: http://www.voltmessenger.com
+website: http://www.voltmessenger.com#deadLink
 repository: 
 issue: 
 icon: com.volt.messenger.png

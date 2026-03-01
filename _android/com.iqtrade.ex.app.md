@@ -23,7 +23,7 @@ date: 2025-04-22
 signer: 
 twitter: iqtradegroup
 social:
-- https://www.youtube.com/@IQTradeGlobal
+- https://www.youtube.com/@IQTradeGlobal#deadLink
 - https://www.facebook.com/IQTradeGlobal
 - https://www.instagram.com/iqtradeglobal
 redirect_from: 

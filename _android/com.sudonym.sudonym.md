@@ -10,7 +10,7 @@ released:
 updated: 2023-01-23
 version: 1.0.2
 reviews: 
-website: https://sudonym.app
+website: https://sudonym.app#deadLink
 repository: 
 issue: 
 icon: com.sudonym.sudonym.png

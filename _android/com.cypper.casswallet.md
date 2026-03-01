@@ -10,7 +10,7 @@ released: 2019-10-29
 updated: 2019-12-07
 version: 2.0.7.6
 reviews: 
-website: http://www.cashlesstoken.com
+website: http://www.cashlesstoken.com#deadLink
 repository: 
 issue: 
 icon: com.cypper.casswallet.png

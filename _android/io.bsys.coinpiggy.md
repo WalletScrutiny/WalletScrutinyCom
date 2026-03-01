@@ -11,7 +11,7 @@ released: 2018-11-05
 updated: 2020-09-10
 version: '1.106'
 reviews: 
-website: https://coinpiggy.io
+website: https://coinpiggy.io#deadLink
 repository: 
 issue: 
 icon: io.bsys.coinpiggy.png

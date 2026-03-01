@@ -10,7 +10,7 @@ released: 2022-10-10
 updated: 2023-06-13
 version: 2.0.70
 reviews: 
-website: https://360tradehub.com/
+website: https://360tradehub.com#deadLink
 repository: 
 issue: 
 icon: com.tradehub360.png

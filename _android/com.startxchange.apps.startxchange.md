@@ -10,7 +10,7 @@ released: 2021-10-10
 updated: 2021-10-11
 version: '1.0'
 reviews: 
-website: https://startxchange.com.gh/
+website: https://startxchange.com.gh#deadLink
 repository: 
 issue: 
 icon: com.startxchange.apps.startxchange.jpg

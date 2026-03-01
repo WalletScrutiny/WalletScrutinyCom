@@ -10,7 +10,7 @@ released: 2021-12-08
 updated: 2021-12-08
 version: 1.0.2
 reviews: 
-website: https://speediwallet.com
+website: https://speediwallet.com#deadLink
 repository: 
 issue: 
 icon: com.wSpeediwallet_14801896.png

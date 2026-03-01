@@ -40,7 +40,7 @@ features:
 
 ## Analysis
 
-According to their [terms:](https://exchange.tradefada.com/terms-of-use)
+According to their [terms:](https://web.archive.org/web/20240616051055/https://exchange.tradefada.com/terms-of-use)
 
 > 1.7. “Tradefada Account” is a User account accessible after the registration process and via the Services where crypto assets may be stored and operated by Tradefada on behalf of a User.
 

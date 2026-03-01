@@ -11,7 +11,7 @@ released: 2020-09-22
 updated: 2020-12-26
 version: 1.0.0.11
 reviews: 11
-website: http://pons.group/
+website: http://pons.group#deadLink
 repository: 
 issue: 
 icon: com.pons.jpg
@@ -59,6 +59,6 @@ The only other review they have is someone saying that they "can't sign up with 
 
 ## Verdict
 
-The Pons Group's [website](https://pons.group) can no longer be accessed. The app can be installed, but we cannot register due to an error. Without a website and a point of contact like a twitter account, we could not verify with Pons Group whether they are indeed related to Crypterium. We previously did a review on the DAO Wallet where we tried to verify with the developer if they are connected to the [daoconsensus.com](https://daoconsensus.com) domain, since their Google Play page links to [daoconsensus.ru](https://daoconsensus.ru), but [we did not receive a reply](https://twitter.com/BitcoinWalletz/status/1453291043055710208). 
+The Pons Group's [website](https://pons.group#deadLink) can no longer be accessed. The app can be installed, but we cannot register due to an error. Without a website and a point of contact like a twitter account, we could not verify with Pons Group whether they are indeed related to Crypterium. We previously did a review on the DAO Wallet where we tried to verify with the developer if they are connected to the [daoconsensus.com](https://daoconsensus.com) domain, since their Google Play page links to [daoconsensus.ru](https://daoconsensus.ru#deadLink), but [we did not receive a reply](https://twitter.com/BitcoinWalletz/status/1453291043055710208). 
 
 This time, we tried to verify with what we believe is the original app developer, Crypterium if they are related to {% include walletLink.html wallet='android/com.pons' %} and {% include walletLink.html wallet='android/com.pons.dao' %}. 

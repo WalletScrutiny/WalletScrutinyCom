@@ -14,9 +14,9 @@ dimensions:
 - 5
 weight: 
 provider: WOOKONG
-providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/enterprise
-shop: https://wooko.ng/en/enterprise
+providerWebsite: https://wooko.ng/en#deadLink
+website: https://wooko.ng/en/enterprise#deadLink
+shop: https://wooko.ng/en/enterprise#deadLink
 country: CH
 price: 
 repository: 

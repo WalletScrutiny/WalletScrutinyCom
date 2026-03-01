@@ -23,7 +23,7 @@ date: 2026-02-20
 signer: 
 twitter: 
 social:
-- https://qoinpay.id
+- https://qoinpay.id#deadLink
 - https://www.facebook.com/qoinpay.id
 - https://www.tiktok.com/@qoinpay
 - https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg

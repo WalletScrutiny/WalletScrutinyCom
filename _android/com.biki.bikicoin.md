@@ -11,7 +11,7 @@ released: 2019-05-13
 updated: 2021-07-21
 version: 4.9.1
 reviews: 17
-website: https://www.biki.com
+website: https://www.biki.com#deadLink
 repository: 
 issue: 
 icon: com.biki.bikicoin.png

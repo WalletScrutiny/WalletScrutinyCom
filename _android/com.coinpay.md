@@ -12,7 +12,7 @@ released: 2020-05-26
 updated: 2020-08-23
 version: 1.0.7
 reviews: 15
-website: https://www.coinpayapp.com
+website: https://www.coinpayapp.com#deadLink
 repository: 
 issue: 
 icon: com.coinpay.png

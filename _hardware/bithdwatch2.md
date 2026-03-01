@@ -17,8 +17,8 @@ dimensions:
 weight: 
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-watch-2.html
-shop: https://bithd.com/BITHD-watch-2.html
+website: https://bithd.com/BITHD-watch-2.html#deadLink
+shop: https://bithd.com/BITHD-watch-2.html#deadLink
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu

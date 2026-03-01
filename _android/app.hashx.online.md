@@ -10,7 +10,7 @@ released: 2021-09-03
 updated: 2021-09-13
 version: 1.0.15
 reviews: 7
-website: https://hashx.online
+website: https://hashx.online#deadLink
 repository: 
 issue: 
 icon: app.hashx.online.png

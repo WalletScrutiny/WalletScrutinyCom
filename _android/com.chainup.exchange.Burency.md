@@ -11,7 +11,7 @@ released: 2021-11-20
 updated: 2023-12-15
 version: 5.9.1_push_v2
 reviews: 10
-website: https://www.burency.com
+website: https://www.burency.com#deadLink
 repository: 
 issue: 
 icon: com.chainup.exchange.Burency.png

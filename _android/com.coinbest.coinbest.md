@@ -58,7 +58,7 @@ OSL Japan holds registration with the Japanese Financial Services Agency (Kanto 
 - The website **coinbest.com** is inaccessible from our end despite using a vpn (Japan), proxfree or typing the IP address directly.
 - While filling in the information in the iPhone version, {% include walletLink.html wallet='iphone/com.coinbest.bitcoinbestkk' verdict='true' %} we found support links to osl.com - this confirms that these apps are related.
 - We found this description on the related osl.com website:
-- We were able to find an [archive.org](https://web.archive.org/web/20240908033138/https://www.coinbest.com/) entry dating back to September 08, 2024. Here the site describes the service as: 
+- We were able to find an [archive.org](https://www.coinbest.com) entry dating back to September 08, 2024. Here the site describes the service as: 
 
 > CoinBest Wallet
 > ウォレット管理

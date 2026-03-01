@@ -11,7 +11,7 @@ released: 2022-09-02
 updated: 2022-09-02
 version: '2.0'
 reviews: 60
-website: https://burtar.com
+website: https://burtar.com#deadLink
 repository: 
 issue: 
 icon: com.jestaapp.wallet.png
@@ -41,7 +41,7 @@ features:
 
 > Webpage not available
 >
-> The webpage at https://jesta.nairawey.com/signup_process could not be loaded because:
+> The webpage at https://jesta.nairawey.com/signup_process#deadLink could not be loaded because:
 >
 > net::ERR_HTTP_RESPONSE_CODE_FAILURE
 

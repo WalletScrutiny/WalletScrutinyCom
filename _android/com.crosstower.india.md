@@ -11,7 +11,7 @@ released: 2021-09-08
 updated: 2023-04-02
 version: '3.27'
 reviews: 2
-website: https://www.crosstower.com
+website: https://www.crosstower.com#deadLink
 repository: 
 issue: 
 icon: com.crosstower.india.png
@@ -37,7 +37,7 @@ features:
 
 This service is a digital asset exchange that originates from India. KYC is required in order to deposit and withdraw. KYC procedures require Indian residents' PAN (Permanent Account Number). 
 
-Section 5.6 from the [Terms and Conditions](https://crosstower.com/terms-of-use-privacy/) reads:
+Section 5.6 from the [Terms and Conditions](https://crosstower.com/terms-of-use-privacy#deadLink) reads:
 
 > CrossTower securely stores all Digital Asset private keys in our control in a combination of online and offline storage. As a result, it may be necessary for CrossTower to retrieve certain information from offline storage in order to facilitate a Digital Asset Transaction in accordance with your instructions, which may delay the initiation or crediting of such Digital Asset Transaction for a period of time, which period of time may be significant. You acknowledge and agree that a Digital Asset Transaction facilitated by CrossTower may be delayed for this reason.
 

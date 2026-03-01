@@ -10,7 +10,7 @@ released: 2018-09-19
 updated: 2018-11-22
 version: 1.2.6
 reviews: 
-website: http://www.cryptocurrencysolutions.io
+website: http://www.cryptocurrencysolutions.io#deadLink
 repository: 
 issue: 
 icon: io.mahfazah.png

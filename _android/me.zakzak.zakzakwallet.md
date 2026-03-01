@@ -10,7 +10,7 @@ released: 2019-04-01
 updated: 2020-06-10
 version: '2.3'
 reviews: 
-website: https://www.zakzak.me
+website: https://web.archive.org/web/20250330224629/http://zakzak.me/
 repository: 
 issue: 
 icon: me.zakzak.zakzakwallet.png

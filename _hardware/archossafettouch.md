@@ -13,8 +13,8 @@ dimensions:
 weight: 
 provider: Archos
 providerWebsite: https://www.archos.com/
-website: https://www.archos.com/nz/products/crypto/archos_safettouch/index.html
-shop: https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
+website: https://www.archos.com/nz/products/crypto/archos_safettouch/index.html#deadLink
+shop: https://web.archive.org/web/20210830194711/https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
 country: FR
 price: 129.99EUR
 repository: 
@@ -52,7 +52,7 @@ verifiable review:
 
 This companion app was last updated 2019-12-18, almost two years ago as of now.
 
-The firmware [is available as download](https://www.archos.com/nz/products/crypto/archos_safettouch/index.html):
+The firmware [is available as download](https://www.archos.com/nz/products/crypto/archos_safettouch/index.html#deadLink):
 
 > Download firmware v1.2.5 for your ARCHOS SafeT touch (Windows compatible only) 
 

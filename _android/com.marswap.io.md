@@ -10,7 +10,7 @@ released:
 updated: 2022-11-29
 version: 2.6.7
 reviews: 
-website: https://www.marswap.io/
+website: https://web.archive.org/web/20240101035343/http://marswap.io/
 repository: 
 issue: 
 icon: com.marswap.io.png

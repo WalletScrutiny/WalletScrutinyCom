@@ -10,7 +10,7 @@ released: 2022-05-21
 updated: 2022-05-22
 version: 2.1.2
 reviews: 
-website: https://tgcoin4.com
+website: https://tgcoin4.com#deadLink
 repository: 
 issue: 
 icon: com.currency.tgcoin.png

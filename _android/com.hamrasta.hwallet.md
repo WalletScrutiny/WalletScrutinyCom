@@ -11,7 +11,7 @@ released: 2019-09-22
 updated: 2020-08-03
 version: '2.7'
 reviews: 7
-website: https://hamrasta.com/hamrastamarket/
+website: https://hamrasta.com/hamrastamarket#deadLink
 repository: 
 issue: 
 icon: com.hamrasta.hwallet.png

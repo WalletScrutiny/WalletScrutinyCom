@@ -10,7 +10,7 @@ released: 2020-11-03
 updated: 2020-11-17
 version: 1.0.1
 reviews: 
-website: https://mntex.io/
+website: https://mntex.io#deadLink
 repository: 
 issue: 
 icon: com.mntex.monetiumexchange.png

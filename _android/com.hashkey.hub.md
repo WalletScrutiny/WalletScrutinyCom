@@ -11,7 +11,7 @@ released: 2019-03-17
 updated: 2022-04-07
 version: 4.0.0
 reviews: 3
-website: https://hub.hashkey.com
+website: https://hub.hashkey.com#deadLink
 repository: 
 issue: 
 icon: com.hashkey.hub.png
@@ -49,7 +49,7 @@ The screenshot shows a BTC wallet.
 - The last available archive for the subdomain was in 2022.
 - We tried installing on Android Emulator API 27, and BlueStacks 5 Nougat, but both gave an error message stating that our Android version was incompatible. This should have worked since the requirement for the app is Android version 7 and higher.
 - We were able to install on Bluestacks 5 Android 9. It managed to install but the app just kept closing. 
-- We found an [announcement:](https://support.hub.hashkey.com/hc/en-us/articles/9965591936793-Termination-of-Services-and-Upgrade-Notice)
+- We found an [announcement:](https://support.hub.hashkey.com/hc/en-us/articles/9965591936793-Termination-of-Services-and-Upgrade-Notice#deadLink)
 
 > Termination of Services and Upgrade Notice
 > 

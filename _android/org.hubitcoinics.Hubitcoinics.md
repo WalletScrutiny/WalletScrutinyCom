@@ -10,7 +10,7 @@ released: 2023-04-18
 updated: 2023-05-02
 version: 1.0.0
 reviews: 
-website: https://hubitcoinics.org
+website: https://web.archive.org/web/20240925161635/https://www.hubitcoinics.org/
 repository: 
 issue: 
 icon: org.hubitcoinics.Hubitcoinics.png

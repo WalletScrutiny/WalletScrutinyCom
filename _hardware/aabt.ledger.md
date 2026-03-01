@@ -11,8 +11,8 @@ binaries:
 dimensions: 
 weight: 
 provider: Automatic Asset Building Company
-providerWebsite: https://www.abeamclub.com/
-website: https://www.abeamclub.com/services/hardware-wallet/
+providerWebsite: https://www.abeamclub.com#deadLink
+website: https://www.abeamclub.com/services/hardware-wallet#deadLink
 shop: 
 country: 
 price: 

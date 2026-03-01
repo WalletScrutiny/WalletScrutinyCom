@@ -10,7 +10,7 @@ released: 2021-01-02
 updated: 2021-09-12
 version: '12.0'
 reviews: 
-website: https://dae.africa
+website: https://dae.africa#deadLink
 repository: 
 issue: 
 icon: com.daeapp.jpg

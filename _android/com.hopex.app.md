@@ -10,7 +10,7 @@ released: 2021-08-20
 updated: 2021-10-25
 version: 3.17.27
 reviews: 
-website: https://www.hopex.com
+website: https://www.hopex.com#deadLink
 repository: 
 issue: 
 icon: com.hopex.app.png

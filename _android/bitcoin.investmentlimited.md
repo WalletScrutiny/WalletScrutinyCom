@@ -11,7 +11,7 @@ released: 2019-01-02
 updated: 2021-08-04
 version: '9.0'
 reviews: 46
-website: http://www.forexsignals99.com/
+website: http://www.forexsignals99.com#deadLink
 repository: 
 issue: 
 icon: bitcoin.investmentlimited.png

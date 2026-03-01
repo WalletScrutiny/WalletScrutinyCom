@@ -11,7 +11,7 @@ released: 2021-03-24
 updated: 2023-07-31
 version: 4.4.7
 reviews: 1
-website: https://coinpanion.com/en
+website: https://coinpanion.com/en#deadLink
 repository: 
 issue: 
 icon: com.coinpanion.mobileappios.jpg

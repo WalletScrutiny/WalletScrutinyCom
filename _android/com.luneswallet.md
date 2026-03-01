@@ -11,7 +11,7 @@ released: 2018-01-31
 updated: 2018-12-06
 version: '2.1'
 reviews: 184
-website: https://luneswallet.app
+website: https://luneswallet.app#deadLink
 repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png

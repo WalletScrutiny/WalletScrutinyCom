@@ -11,7 +11,7 @@ released: 2019-01-21
 updated: 2022-11-09
 version: 02.00.25
 reviews: 9
-website: http://starteos.io
+website: http://starteos.io#deadLink
 repository: 
 issue: 
 icon: com.HCLT.Starteos.store.jpg

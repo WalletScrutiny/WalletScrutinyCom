@@ -10,7 +10,7 @@ released: 2022-06-20
 updated: 2022-06-20
 version: '5.0'
 reviews: 
-website: https://btcplannet.net/
+website: https://btcplannet.net#deadLink
 repository: 
 issue: 
 icon: com.BTC.BtcPlannet.png

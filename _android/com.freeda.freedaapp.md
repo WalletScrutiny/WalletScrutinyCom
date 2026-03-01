@@ -11,7 +11,7 @@ released: 2021-04-13
 updated: 2022-08-17
 version: 2.3.2
 reviews: 51
-website: https://www.freeda.io
+website: https://www.freeda.io#deadLink
 repository: 
 issue: 
 icon: com.freeda.freedaapp.png

@@ -10,7 +10,7 @@ released: 2022-01-03
 updated: 2022-01-03
 version: '1.1'
 reviews: 
-website: https://elmaocoin.com/
+website: https://elmaocoin.com#deadLink
 repository: 
 issue: 
 icon: com.emc.elmaocoin.png

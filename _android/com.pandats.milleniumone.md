@@ -10,7 +10,7 @@ released: 2022-07-27
 updated: 2022-07-27
 version: 1.0.0
 reviews: 
-website: https://milleniumone.com/
+website: https://milleniumone.com#deadLink
 repository: 
 issue: 
 icon: com.pandats.milleniumone.png

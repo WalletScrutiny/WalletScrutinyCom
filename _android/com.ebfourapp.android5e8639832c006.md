@@ -10,7 +10,7 @@ released: 2020-06-24
 updated: 2020-08-10
 version: '2.5'
 reviews: 
-website: http://goforsage.com/app
+website: http://goforsage.com/app#deadLink
 repository: 
 issue: 
 icon: com.ebfourapp.android5e8639832c006.png

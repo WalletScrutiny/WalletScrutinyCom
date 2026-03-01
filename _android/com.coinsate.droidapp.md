@@ -10,7 +10,7 @@ released: 2022-05-13
 updated: 2023-08-16
 version: 1.4.5
 reviews: 
-website: https://trade.coinsate.com/
+website: https://trade.coinsate.com#deadLink
 repository: 
 issue: 
 icon: com.coinsate.droidapp.png

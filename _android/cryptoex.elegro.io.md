@@ -12,7 +12,7 @@ released: 2019-06-26
 updated: 2021-04-29
 version: 1.0.4
 reviews: 
-website: https://personal.elegro.eu/exchange
+website: https://personal.elegro.eu/exchange#deadLink
 repository: 
 issue: 
 icon: cryptoex.elegro.io.png

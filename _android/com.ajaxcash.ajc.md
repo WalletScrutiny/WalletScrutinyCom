@@ -10,7 +10,7 @@ released: 2022-02-19
 updated: 2022-03-29
 version: '10.03'
 reviews: 
-website: https://ajaxcash.com
+website: https://ajaxcash.com#deadLink
 repository: 
 issue: 
 icon: com.ajaxcash.ajc.png

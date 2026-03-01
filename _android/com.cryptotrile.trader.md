@@ -10,7 +10,7 @@ released: 2022-08-09
 updated: 2023-09-02
 version: 1.0.2
 reviews: 
-website: https://cryptotrile.com/
+website: https://cryptotrile.com#deadLink
 repository: 
 issue: 
 icon: com.cryptotrile.trader.png

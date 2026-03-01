@@ -10,7 +10,7 @@ released: 2022-01-03
 updated: 2022-01-08
 version: '1.1'
 reviews: 
-website: https://cxihub.com
+website: https://cxihub.com#deadLink
 repository: 
 issue: 
 icon: com.cxihub.cxihubapp.jpg

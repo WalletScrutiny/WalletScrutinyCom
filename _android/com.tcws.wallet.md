@@ -10,7 +10,7 @@ released: 2019-10-15
 updated: 2019-10-15
 version: '2.1'
 reviews: 
-website: http://www.tcws.io/
+website: http://www.tcws.io#deadLink
 repository: 
 issue: 
 icon: com.tcws.wallet.png

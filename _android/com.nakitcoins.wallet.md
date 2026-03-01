@@ -11,7 +11,7 @@ released: 2021-03-30
 updated: 2022-03-29
 version: 2.2.0
 reviews: 
-website: https://www.nakitcoins.com
+website: https://www.nakitcoins.com#deadLink
 repository: 
 issue: 
 icon: com.nakitcoins.wallet.png

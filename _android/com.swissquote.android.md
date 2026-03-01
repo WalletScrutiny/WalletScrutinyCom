@@ -52,7 +52,7 @@ features:
 
 | Swissquote Mobile                                                                                                                                  | Yuh                                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Swissquote Mastercard ([Credit Card](https://en.swissquote.com/credit-solutions/payment-cards)/Payment Card)                                       | [Yuh Mastercard (Issued by Swissquote)](https://www.yuh.com/en/app/pay/)                                                                                                 |
+| Swissquote Mastercard ([Credit Card](https://en.swissquote.com/credit-solutions/payment-cards#deadLink)/Payment Card)                                       | [Yuh Mastercard (Issued by Swissquote)](https://www.yuh.com/en/app/pay/)                                                                                                 |
 | Multicurrency Banking / Trading Account                                                                                                            | Multicurrency account linked to IBAN                                                                                                                                     |
 | Stocks, ETFs, Equities, warrants and derivatives, options and futures, funds, ETFs, bonds, currencies, news, forex, commodities and share indices. | Fractional trading of stocks, ETFs, Trending Themes & Digital Assets                                                                                                     |
 | [Cryptocurrency trading](https://en.swissquote.com/crypto-assets/products/cryptocurrencies), (via a Swissquote Trading Account)                    | [Cryptocurrency trading](https://www.yuh.com/en/app/invest/crypto/), (min 25 CHF)                                                                                        |
@@ -66,5 +66,5 @@ features:
 
 ## Analysis 
 
-- A [press release](https://en.swissquote.com/sites/default/files/2023-03/pressrelease_results_fy-2022.pdf) details that the platform uses more than *cold-storage* but *multiple custodian models in asset storage*. 
+- A [press release](https://en.swissquote.com/sites/default/files/2023-03/pressrelease_results_fy-2022.pdf#deadLink) details that the platform uses more than *cold-storage* but *multiple custodian models in asset storage*. 
 - This is a **custodial** service.

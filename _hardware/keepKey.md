@@ -18,7 +18,7 @@ weight: 54
 provider: 
 providerWebsite: 
 website: https://shapeshift.com
-shop: https://shapeshift.com/keepkey
+shop: https://shapeshift.com/keepkey#deadLink
 country: US
 price: 49USD
 repository: https://github.com/keepkey/keepkey-firmware

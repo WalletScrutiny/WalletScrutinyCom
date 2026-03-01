@@ -10,7 +10,7 @@ released: 2022-04-12
 updated: 2022-07-30
 version: 1.1.4
 reviews: 
-website: https://firstwallet.pro
+website: https://firstwallet.pro#deadLink
 repository: 
 issue: 
 icon: com.firstWallet.png

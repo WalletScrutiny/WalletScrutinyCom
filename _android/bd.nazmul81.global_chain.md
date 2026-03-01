@@ -10,7 +10,7 @@ released: 2021-01-28
 updated: 2021-01-29
 version: 1.0.4
 reviews: 
-website: https://globalchain.trade
+website: https://globalchain.trade#deadLink
 repository: 
 issue: 
 icon: bd.nazmul81.global_chain.png

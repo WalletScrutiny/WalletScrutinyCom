@@ -10,7 +10,7 @@ released: 2019-11-06
 updated: 2020-02-11
 version: '1.1'
 reviews: 
-website: https://tetrazus.com/
+website: https://tetrazus.com#deadLink
 repository: 
 issue: 
 icon: com.tetrazus.png

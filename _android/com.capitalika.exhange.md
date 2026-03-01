@@ -50,4 +50,4 @@ Receive, store, send, buy, sell and use cryptocurrencies (such as Bitcoin or Eth
 
 Capitalika states that users can receive, store, and send cryptocurrencies. It also states that cryptocurrencies are protected with "cold security wallets," which is often a trait of custodial offerings.
 
-We checked [the FAQ page](https://capitalika.com/preguntas-frecuentes/) but found **no indication of self-custody.**
+We checked [the FAQ page](https://capitalika.com/preguntas-frecuentes#deadLink) but found **no indication of self-custody.**

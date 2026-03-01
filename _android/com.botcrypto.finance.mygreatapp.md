@@ -10,7 +10,7 @@ released: 2022-03-22
 updated: 2022-03-23
 version: '1.0'
 reviews: 
-website: https://botcrypto.mygreat.app/
+website: https://botcrypto.mygreat.app#deadLink
 repository: 
 issue: 
 icon: com.botcrypto.finance.mygreatapp.png

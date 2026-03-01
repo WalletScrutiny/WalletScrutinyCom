@@ -10,7 +10,7 @@ released: 2022-04-30
 updated: 2022-04-30
 version: 1.0.5
 reviews: 
-website: https://secfutures.com/
+website: https://web.archive.org/web/20240503144208/https://secfutures.com/
 repository: 
 issue: 
 icon: secfutures.aab.jpg

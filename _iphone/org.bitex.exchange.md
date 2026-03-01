@@ -11,7 +11,7 @@ released: 2020-02-25
 updated: 2022-02-13
 version: '2.8'
 reviews: 15
-website: https://bitex.com
+website: https://web.archive.org/web/20230928122134/https://bitex.com/
 repository: 
 issue: 
 icon: org.bitex.exchange.jpg

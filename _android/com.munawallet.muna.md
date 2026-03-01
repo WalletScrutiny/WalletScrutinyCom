@@ -11,7 +11,7 @@ released: 2021-03-28
 updated: 2023-11-03
 version: 3.0.0
 reviews: 14
-website: https://muna.app
+website: https://muna.app#deadLink
 repository: 
 issue: 
 icon: com.munawallet.muna.png
@@ -49,7 +49,7 @@ Easily lend and borrow your favorite cryptos such as BTC, ETH, WAVES, USDT, USDN
 >
 > Easily send payments in fiat, stablecoins, and popular cryptos via recipient username or crypto address. Muna allows you to share payment receipts after payments. The internet made the world a global village and Muna lets these villagers send and receive payments easily at ZERO cost.
 
-On the official site's [status page](https://muna.app/#/status), users report having problems with KYC:
+On the official site's [status page](https://muna.app/#/status&deadLink), users report having problems with KYC:
 
 > Apr 20, 2022 HunddaHina <br>
   I am trying since 2 months my KYC is not happening

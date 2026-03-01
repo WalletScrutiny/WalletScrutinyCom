@@ -10,7 +10,7 @@ released: 2025-09-29
 updated: 2026-01-15
 version: '1.1'
 reviews: 61
-website: https://bitx-bitcoinwallet.com/privacy
+website: https://bitx-bitcoinwallet.com/privacy#deadLink
 repository: 
 issue: 
 icon: com.bitxwalet.production.jpg

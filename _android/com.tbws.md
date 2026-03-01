@@ -41,7 +41,7 @@ features:
 ## Analysis
 
 - According to the [terms](https://theblackwallstreet.com/faq/terms-of-service/), illegal transactions can immediately be blocked with custody going to the provider.
-- [Prime Trust](https://www.primetrust.com/use-cases/custodians) is a custodian.
+- [Prime Trust](https://www.primetrust.com/use-cases/custodians#deadLink) is a custodian.
 - Once we have verified our number we were able to access the dashboard of the app.
 - We initially see an 'Invest Now' button. We clicked it and the screen that followed, was a "Create custodial account and verify your identity" page.
 - Another option was to "Create Savings Vault" - however, an error appeared when we chose this option:

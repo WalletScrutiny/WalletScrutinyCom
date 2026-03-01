@@ -10,7 +10,7 @@ released: 2022-05-12
 updated: 2022-05-20
 version: 1.5.0
 reviews: 
-website: http://coinbuddy.online
+website: http://coinbuddy.online#deadLink
 repository: 
 issue: 
 icon: online.coinbuddy.wallet.png

@@ -10,7 +10,7 @@ released: 2020-03-12
 updated: 2020-07-23
 version: '1.5'
 reviews: 
-website: https://walahala.com/
+website: https://walahala.com#deadLink
 repository: 
 issue: 
 icon: com.walahala.paywalamerchant.png

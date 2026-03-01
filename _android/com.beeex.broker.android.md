@@ -10,7 +10,7 @@ released: 2020-07-08
 updated: 2020-10-09
 version: 3.6.5
 reviews: 3
-website: https://www.beeex.com
+website: https://www.beeex.com#deadLink
 repository: 
 issue: 
 icon: com.beeex.broker.android.png

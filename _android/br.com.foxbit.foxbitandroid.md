@@ -38,7 +38,7 @@ features:
 
 Foxbit is an exchange platform and seems to support BTC as well as fiat.
 
-Taken from the [Terms of Use:](https://foxbit.com.br/termos-uso/)
+Taken from the [Terms of Use:](https://foxbit.com.br/termos-uso#deadLink)
 
 > Foxbit informs that it has cryptoactive transaction analysis software, being able to analyze the wallets that send resources to Foxbit and wallets that receive resources with cryptoactives. Thus, if there is any indication of high risk in transactions, Foxbit reserves the right to block, charge back and close the User's account.
 

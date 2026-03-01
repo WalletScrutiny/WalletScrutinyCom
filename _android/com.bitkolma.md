@@ -10,7 +10,7 @@ released: 2021-01-21
 updated: 2021-01-21
 version: '1.0'
 reviews: 
-website: https://bitkolma.com/
+website: https://bitkolma.com#deadLink
 repository: 
 issue: 
 icon: com.bitkolma.png

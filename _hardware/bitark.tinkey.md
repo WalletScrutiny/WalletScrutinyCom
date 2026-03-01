@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: Tin Key
 providerWebsite: 
-website: https://tinkey.io
-shop: http://tinkey.io/#/shop
+website: https://tinkey.io#deadLink
+shop: http://tinkey.io/#/shop&deadLink
 country: CN
 price: 
 repository: 
@@ -36,7 +36,7 @@ features:
 
 ## Background
 
-{{ page.title }}'s [homepage](https://tinkey.io) is no longer online. We'll round up some of the claimed features which are described on its twitter account. 
+{{ page.title }}'s [homepage](https://tinkey.io#deadLink) is no longer online. We'll round up some of the claimed features which are described on its twitter account. 
 
 ## Product Features
 

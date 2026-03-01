@@ -10,7 +10,7 @@ released: 2022-04-26
 updated: 2022-06-06
 version: '1.2'
 reviews: 
-website: https://www.etorexchange.in/
+website: https://www.etorexchange.in#deadLink
 repository: 
 issue: 
 icon: com.etorexchange.png

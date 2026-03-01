@@ -12,7 +12,7 @@ released: 2017-11-23
 updated: 2020-11-11
 version: 3.25.1
 reviews: 575
-website: https://www.tenx.tech
+website: https://www.tenx.tech#deadLink
 repository: 
 issue: 
 icon: com.onebit.app.png

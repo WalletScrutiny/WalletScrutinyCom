@@ -11,7 +11,7 @@ released: 2021-01-26
 updated: 2022-05-27
 version: 4.3.0
 reviews: 
-website: http://betepal.com/
+website: http://betepal.com#deadLink
 repository: 
 issue: 
 icon: com.betepal.wallet.png

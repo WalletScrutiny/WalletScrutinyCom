@@ -23,7 +23,7 @@ date: 2025-07-21
 signer: 
 twitter: OneKeyHQ
 social:
-- https://discord.com/invite/nwUJaTzjzv
+- https://discord.com/invite/nwUJaTzjzv#deadLink
 features: 
 developerName: ONEKEY LIMITED
 

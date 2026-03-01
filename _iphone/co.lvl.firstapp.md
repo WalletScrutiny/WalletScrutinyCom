@@ -11,7 +11,7 @@ released: 2020-07-08
 updated: 2021-09-13
 version: 1.0.5
 reviews: 369
-website: https://www.lvl.co
+website: https://www.lvl.co#deadLink
 repository: 
 issue: 
 icon: co.lvl.firstapp.jpg

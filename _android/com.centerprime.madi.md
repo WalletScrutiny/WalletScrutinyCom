@@ -10,7 +10,7 @@ released: 2021-05-17
 updated: 2021-06-02
 version: 1.0.2
 reviews: 
-website: https://centerprime.tech/
+website: https://centerprime.tech#deadLink
 repository: 
 issue: 
 icon: com.centerprime.madi.png

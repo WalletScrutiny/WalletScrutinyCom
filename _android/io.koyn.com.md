@@ -10,7 +10,7 @@ released: 2021-01-16
 updated: 2021-01-16
 version: 0.18.0
 reviews: 
-website: https://www.koyn.io
+website: https://www.koyn.io#deadLink
 repository: 
 issue: 
 icon: io.koyn.com.jpg

@@ -41,11 +41,11 @@ The wallet's source code is not publicly available. The company maintains a GitH
 
 ## Analysis
 
-MPCVault operates a 3-of-3 multi-party computation (MPC) architecture where the user holds one key share and MPCVault holds two key shares, requiring all three shares for transaction signing. Regular users cannot export their key shares or achieve independent custody; the 12-word "personal key certificate" provided during setup is used for app authentication and cannot recover funds independently. [Source](https://docs.mpcvault.com/techoverview)
+MPCVault operates a 3-of-3 multi-party computation (MPC) architecture where the user holds one key share and MPCVault holds two key shares, requiring all three shares for transaction signing. Regular users cannot export their key shares or achieve independent custody; the 12-word "personal key certificate" provided during setup is used for app authentication and cannot recover funds independently. [Source](https://docs.mpcvault.com/techoverview#deadLink)
 
-Only business and enterprise customers on annual plans can [request a key share backup](https://docs.mpcvault.com/sharesexport/) that provides **"a copy of all your wallet's private keys and have full control over your funds"**.
+Only business and enterprise customers on annual plans can [request a key share backup](https://docs.mpcvault.com/sharesexport#deadLink) that provides **"a copy of all your wallet's private keys and have full control over your funds"**.
 
-From the [technical overview](https://docs.mpcvault.com/techoverview/):
+From the [technical overview](https://docs.mpcvault.com/techoverview#deadLink):
 
 > MPCVault operates with three rotating key shares: User holds 1 key share, MPCVault holds 2 key shares (stored in different cloud environments with encrypted backups worldwide). All three key shares are required for signing.
 

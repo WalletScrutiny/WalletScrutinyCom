@@ -10,7 +10,7 @@ released: 2020-08-05
 updated: 2020-08-05
 version: 3.0.0
 reviews: 
-website: https://mathayofunds.com/
+website: https://mathayofunds.com#deadLink
 repository: 
 issue: 
 icon: com.mathayo.mathayofunds.png

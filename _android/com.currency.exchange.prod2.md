@@ -48,7 +48,7 @@ features:
 - Registration on the service is severely limited to certain countries.
 - The [help documents](https://help.dzengi.com/hc/en-us/articles/7634100077201-What-if-my-deposit-is-not-reflected-in-the-account) also indicate that the platform allows cryptocurrency deposits including Bitcoin. 
 
-The [terms and conditions](https://prod-img.dzengi.com/docs/dzengicom_terms_and_conditions_en.pdf) indicate that there is a **custodial** agreement between the user and the platform. 
+The [terms and conditions](https://prod-img.dzengi.com/docs/dzengicom_terms_and_conditions_en.pdf#deadLink) indicate that there is a **custodial** agreement between the user and the platform. 
 
 > 5.3. cryptocurrencies. When transfer for service, the Company, at the Client's request, transfers to the Other Operator the cryptocurrency held by the Company and owned by the Client.
 

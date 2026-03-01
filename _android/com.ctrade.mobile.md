@@ -46,7 +46,7 @@ From [__Asset Security__](https://help.c-trade.com/hc/en-us/articles/36005086827
 
 > In order to keep your assets safe, almost all of our customer’s deposits are stored in multi-signature cold wallets. C-Trade always keeps the hot wallets topped up in order to be able to provide lightning fast withdrawals.
 
-Found in the [Terms and Conditions page:](https://www.c-trade.com/en/terms)
+Found in the [Terms and Conditions page:](https://www.c-trade.com/en/terms#deadLink)
 
 >__12.3__ At any given time, at C-Trade’s sole discretion, C-Trade reserves the right to close your account without prior notice and any remaining assets will be transferred to you at the address on record.  
 __12.4__ In addition, at C-Trade’s discretion, any accounts found to have breached the terms and conditions under any circumstances, including but not only limited to marketing campaigns, C-Trade reserves the right to close your account with immediate effect and all remaining assets shall belong to C-Trade without question.

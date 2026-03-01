@@ -33,7 +33,7 @@ developerName: eToro
 
 From the eToro wallet FAQ:
 
-> **[Where is my private key? (eToro Wallet)](https://www.etoro.com/customer-service/help/1306618582/where-is-my-private-key-etoro-wallet/)<br>
+> **[Where is my private key? (eToro Wallet)](https://www.etoro.com/customer-service/help/1306618582/where-is-my-private-key-etoro-wallet#deadLink)<br>
   eToro secures your private key using market-leading security technologies. As
   per eToro’s security protocols, we do not share our wallet addresses, as doing
   so may expose our clients’ funds to potential attacks.
@@ -45,7 +45,7 @@ which is a convoluted way of saying:
 
 The other question is also not really answered:
 
-> **[Where are my coins held? (eToro Wallet)](https://www.etoro.com/customer-service/help/1306618852/where-are-my-coins-held-etoro-wallet/)**<br>
+> **[Where are my coins held? (eToro Wallet)](https://www.etoro.com/customer-service/help/1306618852/where-are-my-coins-held-etoro-wallet#deadLink)**<br>
   When the coins are in the wallet, they are stored on the blockchain (hot storage). Coins on the platform are held mostly in cold storage.
 
 which again means nothing. All coins are stored "on the blockchain", hot or

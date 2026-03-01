@@ -10,7 +10,7 @@ released: 2021-11-28
 updated: 2022-02-28
 version: 1.3.2
 reviews: 
-website: https://www.pleiades.finance
+website: https://www.pleiades.finance#deadLink
 repository: 
 issue: 
 icon: com.pleiades.wallet.png

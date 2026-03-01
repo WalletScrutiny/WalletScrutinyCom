@@ -11,7 +11,7 @@ released: 2021-05-26
 updated: 2022-10-12
 version: 1.4.13
 reviews: 718
-website: https://www.hotbit.io
+website: https://www.hotbit.io#deadLink
 repository: 
 issue: 
 icon: io.chainbase.global.jpg

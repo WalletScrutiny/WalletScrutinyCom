@@ -10,7 +10,7 @@ released: 2020-09-30
 updated: 2020-12-16
 version: 1.8.1
 reviews: 
-website: http://www.africrypt.io
+website: http://www.africrypt.io#deadLink
 repository: 
 issue: 
 icon: app.africoin.pellar.png

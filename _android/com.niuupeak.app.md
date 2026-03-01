@@ -11,7 +11,7 @@ released: 2020-07-02
 updated: 2020-07-02
 version: '1.0'
 reviews: 
-website: https://niuupeak.com/
+website: https://niuupeak.com#deadLink
 repository: 
 issue: 
 icon: com.niuupeak.app.png
@@ -39,8 +39,8 @@ features:
 ## Analysis
 
 - The listed website is no longer online
-- An alternate related domain https://niuupeak.club is also offline 
-- The last working [archive entry](https://web.archive.org/web/20220416091731/https://niuupeak.com/) on archive.org was made in 2022
+- An alternate related domain https://niuupeak.club#deadLink is also offline 
+- The last working [archive entry](https://niuupeak.com#deadLink) on archive.org was made in 2022
 - When we installed the app and opened it, it gave an error:
 
 > You're offline

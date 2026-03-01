@@ -11,7 +11,7 @@ released: 2021-11-21
 updated: 2022-01-25
 version: '1.3'
 reviews: 
-website: https://www.coinhub.africa
+website: https://www.coinhub.africa#deadLink
 repository: 
 issue: 
 icon: africa.coinhub.coinhubapp.png

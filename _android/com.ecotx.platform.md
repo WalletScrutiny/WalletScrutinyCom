@@ -10,7 +10,7 @@ released:
 updated: 2022-10-04
 version: VARY
 reviews: 
-website: https://ecotx.io
+website: https://ecotx.io#deadLink
 repository: 
 issue: 
 icon: com.ecotx.platform.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: DigitalBank Vault Limited
 providerWebsite: 
-website: https://www.digitalbank.capital/digitalbank-crypto-vault
+website: https://www.digitalbank.capital/digitalbank-crypto-vault#deadLink
 shop: 
 country: UK
 price: 
@@ -44,7 +44,7 @@ Upon checking their Github page, we see PDF files, jpgs, and information about t
 
 ## Product Description 
 
-**⚠️ Note: These are claimed features from their ["specification sheet"](https://www.digitalbank.capital/_files/ugd/f12fcd_d4abdf868f7e462cac4ec1be22a01b33.pdf). We have no way of verifying if these are true.**
+**⚠️ Note: These are claimed features from their ["specification sheet"](https://www.digitalbank.capital/_files/ugd/f12fcd_d4abdf868f7e462cac4ec1be22a01b33.pdf#deadLink). We have no way of verifying if these are true.**
 
 > World's Most Secured Crypto Storage Technology
 >

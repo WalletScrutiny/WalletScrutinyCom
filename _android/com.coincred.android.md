@@ -11,7 +11,7 @@ released: 2021-09-01
 updated: 2025-04-16
 version: 2.5.5
 reviews: 27
-website: https://coincred.org/
+website: https://coincred.org#deadLink
 repository: 
 issue: 
 icon: com.coincred.android.png
@@ -53,7 +53,7 @@ Multiple reviews report being unable to withdraw, meaning that users are **not**
        After a month's time and frustration, they finally made the transactions work. I had given up thinking my 1000₹ is gone. The initial customer support was absolutely pathetic, they would never pick up calls, or cut calls abruptly. Today the person who handled the issue was great, fast and efficient. Hopefully they continue it this way. Trading is fast on this app but needs more transparency such as deleting account or viewing details.
 
 
-The [Terms and Conditions](https://coincred.org/terms-conditions) confirms that CoinCRED is capable of suspending your account. From section "11. Term and Termination:"
+The [Terms and Conditions](https://coincred.org/terms-conditions#deadLink) confirms that CoinCRED is capable of suspending your account. From section "11. Term and Termination:"
 
 > These Terms of Use apply while you use the Site. At any time, without notice, we may terminate your use of the site, or delete your account and any content or information you have posted.
 Your account will be suspended if we terminate it for any reason. You may not create a new account in your name, a fake or borrowed identity, or a third party's name. We reserve the right to take necessary legal action, including civil, criminal, and injunctive remedies.

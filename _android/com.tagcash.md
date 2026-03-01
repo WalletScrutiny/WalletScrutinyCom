@@ -38,7 +38,7 @@ features:
 >
 > Use Fiat currency (PHP only at the moment), create closed loop currencies for rewards and points, or use the non custodial cryptocurrency wallet to handle Bitcoin, Ethereum ERC20 and Stellar Tokens.
 
-## App information from the [website](https://tagcash.com/money.php) 
+## App information from the [website](https://tagcash.com/money.php#deadLink) 
 
 > In Philippines, Tagcash holds an Electronic Money Issuer Central Bank license, which allows deposits, transfers via the banking system (Pesonet and Instapay) and agent network (Remittance partners, 7/11 and other agents). Within the Wallet, you can convert Bitcoin to PHP and PHP to Bitcoin.
 

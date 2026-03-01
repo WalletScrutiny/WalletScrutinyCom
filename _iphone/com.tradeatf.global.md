@@ -11,7 +11,7 @@ released: 2020-07-29
 updated: 2021-11-26
 version: 1.69.13
 reviews: 
-website: https://global.tradeatf.com/
+website: https://global.tradeatf.com#deadLink
 repository: 
 issue: 
 icon: com.tradeatf.global.jpg

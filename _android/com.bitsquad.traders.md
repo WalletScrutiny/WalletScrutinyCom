@@ -10,7 +10,7 @@ released: 2022-02-09
 updated: 2022-02-09
 version: 1.0.0
 reviews: 
-website: https://www.bitsquadtraders.com
+website: https://www.bitsquadtraders.com#deadLink
 repository: 
 issue: 
 icon: com.bitsquad.traders.png

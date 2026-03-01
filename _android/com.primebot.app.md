@@ -10,7 +10,7 @@ released: 2022-05-27
 updated: 2022-05-27
 version: 4.0.0
 reviews: 
-website: https://ugainindia.com
+website: https://ugainindia.com#deadLink
 repository: 
 issue: 
 icon: com.primebot.app.png

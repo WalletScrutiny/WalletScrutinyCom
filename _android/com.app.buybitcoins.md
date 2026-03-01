@@ -10,7 +10,7 @@ released: 2021-03-20
 updated: 2021-04-08
 version: '1.3'
 reviews: 
-website: https://mobapibbc.buybitcoins.app/
+website: https://mobapibbc.buybitcoins.app#deadLink
 repository: 
 issue: 
 icon: com.app.buybitcoins.png

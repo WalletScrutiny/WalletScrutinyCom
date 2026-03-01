@@ -10,7 +10,7 @@ released: 2022-03-03
 updated: 2022-03-24
 version: 1.0.3
 reviews: 
-website: http://mond.vision
+website: http://mond.vision#deadLink
 repository: 
 issue: 
 icon: mond.vision.png

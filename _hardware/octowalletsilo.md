@@ -16,7 +16,7 @@ weight:
 provider: Digital Silo Pty Ltd
 providerWebsite: 
 website: https://www.octowallet.com/
-shop: https://shop.octowallet.com/
+shop: https://shop.octowallet.com#deadLink
 country: AU
 price: 
 repository: 

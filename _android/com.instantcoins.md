@@ -11,7 +11,7 @@ released: 2020-06-19
 updated: 2021-04-05
 version: 1.0.6
 reviews: 161
-website: https://instantcoins.ng
+website: https://instantcoins.ng#deadLink
 repository: 
 issue: 
 icon: com.instantcoins.png
@@ -47,7 +47,7 @@ features:
 
 ## The Site
 
-### [Terms and Conditions](https://instantcoins.ng/home/terms-and-conditions)
+### [Terms and Conditions](https://instantcoins.ng/home/terms-and-conditions#deadLink)
 
 > **It is the customer’s responsibility to ensure the correct wallet address has been used**, failure to do so is wholly to the loss of the customer and we cannot be held responsible for any loss to the customer resulting from this, or any loss to any third party as a consequence of the inaccuracy.
 

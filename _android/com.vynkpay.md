@@ -11,7 +11,7 @@ released: 2020-06-30
 updated: 2024-02-08
 version: '4.4'
 reviews: 
-website: https://vynkpay.app
+website: https://vynkpay.app#deadLink
 repository: 
 issue: 
 icon: com.vynkpay.png

@@ -36,7 +36,7 @@ It's a multi-currency wallet that supports BTC, ETH, DASH, XRP and others. It al
 
 ## The Site
 
-Teroxx has an [AML/KYC Policy (Downloadable PDF)](https://teroxxapp.com/licenses/Teroxx%20AML%20Policy.pdf)
+Teroxx has an [AML/KYC Policy (Downloadable PDF)](https://teroxxapp.com/licenses/Teroxx%20AML%20Policy.pdf#deadLink)
 
 ## The App
 

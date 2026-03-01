@@ -54,7 +54,7 @@ which surprised us as Bitfinex has
 [their own app](https://www.bitfinex.com/mobile-trading/).
 
 We asked them in [this tweet](https://twitter.com/LeoWandersleb/status/1333912501378048002) and in the replies we indeed get a pointer to
-[this post](https://www.bitfinex.com/posts/558) which convinces us that this app
+[this post](https://www.bitfinex.com/posts/558#deadLink) which convinces us that this app
 indeed is endorsed by Bitfinex. (If you have a better link, we would happily
 add it if it explains why they have two wallets.)
 

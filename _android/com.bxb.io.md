@@ -11,7 +11,7 @@ released: 2021-09-09
 updated: 2022-03-11
 version: 1.2.19
 reviews: 
-website: https://www.bxb.io/
+website: https://www.bxb.io#deadLink
 repository: 
 issue: 
 icon: com.bxb.io.png

@@ -10,7 +10,7 @@ released: 2019-01-12
 updated: 2021-07-05
 version: 1.0.7
 reviews: 
-website: https://www.bloco1.com.br
+website: https://www.bloco1.com.br#deadLink
 repository: 
 issue: 
 icon: br.com.bloco1.app.png

@@ -10,7 +10,7 @@ released: 2023-01-27
 updated: 2023-04-15
 version: '1.1'
 reviews: 9
-website: https://private-wallet.net/
+website: https://private-wallet.net#deadLink
 repository: 
 issue: 
 icon: com.privated.wallet.png

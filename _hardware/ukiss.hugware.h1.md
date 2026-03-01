@@ -13,7 +13,7 @@ weight:
 provider: UKISS Technology
 providerWebsite: 
 website: https://www.ukiss.io/
-shop: https://web.archive.org/web/20220623141833/https://www.ukiss.io/launch-bundle/
+shop: https://www.ukiss.io/launch-bundle
 country: SG
 price: 169USD
 repository: 
@@ -107,7 +107,7 @@ Integrated Digital Security Solutions
 - Ransomware protection
 - Secure social messaging
 
-UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [Twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source. They replied with a link to the site's [whitepaper](https://whitepaper.ukiss.io/), and confirmed that the firmware would not be made open source.
+UKISS also makes the claim that the recovery words are [deliberately eliminated](https://youtu.be/NRT8Eg5-TkI?t=117) from use in the device. We asked them on [Twitter](https://twitter.com/BitcoinWalletz/status/1503630819726073859) if it was possible if they can share the product specification sheet and whether the project is Open Source. They replied with a link to the site's [whitepaper](https://whitepaper.ukiss.io#deadLink), and confirmed that the firmware would not be made open source.
 
 As of this review, UKISS is officially released and is now marketing its H2 bundle.
 

@@ -46,7 +46,7 @@ Where we were immediately informed that it was a custodial service.
 
 To back this up: 
 
-From their [FAQ:](https://www.boundlesspay.com/faq) 
+From their [FAQ:](https://www.boundlesspay.com/faq#deadLink) 
 
 > How do I withdraw my funds from the Boundlesspay app? 
 > 

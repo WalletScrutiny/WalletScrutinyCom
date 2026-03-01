@@ -11,7 +11,7 @@ released: 2020-08-31
 updated: 2023-05-18
 version: 3.3.1
 reviews: 19
-website: https://o3.network
+website: https://o3.network#deadLink
 repository: 
 issue: 
 icon: com.fengsheng.new.o3Wallet.jpg

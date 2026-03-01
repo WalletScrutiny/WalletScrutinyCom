@@ -67,7 +67,7 @@ c7cc54a Name changes
 7c384e4 La commit
 210b34a bugfixes
 9443216 duzo zmianek
-39e7af9 Merge branch 'dev1' of https://bitbucket.org/kacpertcn/coincasso-wallet into HEAD
+39e7af9 Merge branch 'dev1' of https://bitbucket.org/kacpertcn/coincasso-wallet#deadLink into HEAD
 f1586c0 -
 9e08f77 face touch id p1
 fc58f85 main store bugfixes

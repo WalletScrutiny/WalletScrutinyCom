@@ -13,7 +13,7 @@ weight:
 provider: Yanssie HK Limited
 providerWebsite: https://keyst.one/
 website: https://keyst.one/
-shop: https://shop.keyst.one/products/keystone-ultimate
+shop: https://shop.keyst.one/products/keystone-ultimate#deadLink
 country: HK
 price: 479USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
@@ -34,7 +34,7 @@ features:
 
 This device is the same as {% include walletLink.html wallet='hardware/cobovaultessential' verdict='true' %} but with more durable casing. 
 
-Here is the notice on its [product page](https://shop.keyst.one/products/keystone-ultimate):
+Here is the notice on its [product page](https://shop.keyst.one/products/keystone-ultimate#deadLink):
   
 > Further manufacturing of it is currently pending and **might become available sometime in 2023/2024**.
 

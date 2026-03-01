@@ -77,7 +77,7 @@ BlackCatCard was rather vague about the crypto wallet provided, although there w
 
 > In addition to traditional fiat currency services, Blackcatcard also offers cryptocurrency services. This service is provided by our partner DigiNord OÜ and is integrated with Blackcatcard.
 
-And on [Diginord OU's site:](https://diginord.eu/)
+And on [Diginord OU's site:](https://diginord.eu#deadLink)
 
 > In collaboration with BlackCatCard
 

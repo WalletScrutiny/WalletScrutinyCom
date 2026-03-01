@@ -11,7 +11,7 @@ released: 2020-06-10
 updated: 2021-11-22
 version: 1.5.78-mobiletrade.fms.globaltradeatf
 reviews: 318
-website: https://global.tradeatf.com/
+website: https://global.tradeatf.com#deadLink
 repository: 
 issue: 
 icon: com.mobiletrade.fms.globaltradeatf.png
@@ -57,9 +57,9 @@ As of October 11. 2021, its total reviews is 2.8 stars, with 379 total reviews. 
 
 ## The Site
 
-[**The Terms and Conditions**](https://global.tradeatf.com/en/terms)
+[**The Terms and Conditions**](https://global.tradeatf.com/en/terms#deadLink)
 
-The section on [Termination of accounts](https://global.tradeatf.com/en/terms#panel10a) details:
+The section on [Termination of accounts](https://global.tradeatf.com/en/terms#panel10a&deadLink) details:
 
 > Under such circumstances, other than in the case of abuse or manipulation of the Trading Platform, TradeATF may at its sole discretion (with or without notice) close out your open financial betting contracts at prices it considers fair and reasonable at such a time and no claims may be entertained against TradeATF in connection thereto.
 

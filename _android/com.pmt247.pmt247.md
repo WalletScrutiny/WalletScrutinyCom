@@ -10,7 +10,7 @@ released: 2019-10-02
 updated: 2019-10-02
 version: 1.0.1
 reviews: 
-website: https://www.pmt247.com
+website: https://www.pmt247.com#deadLink
 repository: 
 issue: 
 icon: com.pmt247.pmt247.png

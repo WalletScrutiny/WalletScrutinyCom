@@ -10,7 +10,7 @@ released: 2020-07-05
 updated: 2020-07-05
 version: '1.2'
 reviews: 
-website: https://www.kwikcoin.info/
+website: https://www.kwikcoin.info#deadLink
 repository: 
 issue: 
 icon: com.theawesomeapps.android.kwik.png

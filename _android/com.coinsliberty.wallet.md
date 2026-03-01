@@ -10,7 +10,7 @@ released: 2020-12-21
 updated: 2021-02-02
 version: 1.0.2
 reviews: 
-website: https://coinsliberty.com
+website: https://coinsliberty.com#deadLink
 repository: 
 issue: 
 icon: com.coinsliberty.wallet.png

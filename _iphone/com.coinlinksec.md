@@ -11,7 +11,7 @@ released: 2024-03-26
 updated: 2026-02-09
 version: 1.8.8
 reviews: 4
-website: https://www.coinlink.tech
+website: https://web.archive.org/web/20250409012753/https://www.coinlink.tech/
 repository: 
 issue: 
 icon: com.coinlinksec.jpg

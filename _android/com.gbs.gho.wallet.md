@@ -10,7 +10,7 @@ released: 2020-05-06
 updated: 2020-12-30
 version: 1.0.6
 reviews: 
-website: https://gho.group
+website: https://gho.group#deadLink
 repository: 
 issue: 
 icon: com.gbs.gho.wallet.png

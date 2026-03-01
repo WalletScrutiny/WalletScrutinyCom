@@ -10,7 +10,7 @@ released: 2022-05-04
 updated: 2022-05-09
 version: 1.0.2
 reviews: 
-website: https://www.nguwallet.com
+website: https://www.nguwallet.com#deadLink
 repository: 
 issue: 
 icon: com.vp.nguwallet.png

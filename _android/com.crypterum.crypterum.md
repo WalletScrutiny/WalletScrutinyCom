@@ -11,7 +11,7 @@ released: 2018-09-28
 updated: 2020-09-23
 version: 0.1.13
 reviews: 
-website: https://crypterum.com
+website: https://crypterum.com#deadLink
 repository: 
 issue: 
 icon: com.crypterum.crypterum.png

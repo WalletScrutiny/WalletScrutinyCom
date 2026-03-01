@@ -11,7 +11,7 @@ released: 2022-02-03
 updated: 2023-07-31
 version: '4.0'
 reviews: 68
-website: https://www.pillow.fund/
+website: https://www.pillow.fund#deadLink
 repository: 
 issue: 
 icon: com.pillow.fund.png

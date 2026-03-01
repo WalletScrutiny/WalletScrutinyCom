@@ -10,7 +10,7 @@ released: 2022-02-26
 updated: 2022-02-27
 version: '1.0'
 reviews: 
-website: https://ringworld.live/
+website: https://ringworld.live#deadLink
 repository: 
 issue: 
 icon: com.app.ringworld.png

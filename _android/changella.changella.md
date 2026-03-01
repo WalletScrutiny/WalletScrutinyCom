@@ -10,7 +10,7 @@ released: 2022-06-08
 updated: 2023-08-20
 version: 1.0.0
 reviews: 
-website: https://changella.com
+website: https://changella.com#deadLink
 repository: 
 issue: 
 icon: changella.changella.png

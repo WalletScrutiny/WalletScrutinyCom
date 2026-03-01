@@ -10,7 +10,7 @@ released: 2021-01-28
 updated: 2021-02-17
 version: '1.2'
 reviews: 
-website: https://transferbuddy.org/
+website: https://transferbuddy.org#deadLink
 repository: 
 issue: 
 icon: com.transferbuddy.png

@@ -36,7 +36,7 @@ features:
 
 > The world needs the mobile application to have all the functions: e-commerce platforms, social networks, exchanges and e-wallets where users can buy and sell, payment online with crypto, exchanging cryptocurrencies and storing cryptocurrencies. We will make Tabus have all functions in one like that.
 
-### The [Whitepaper](https://whitepaper.tabank.org/)
+### The [Whitepaper](https://whitepaper.tabank.org#deadLink)
 
 ## Analysis 
 

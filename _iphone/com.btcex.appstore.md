@@ -11,7 +11,7 @@ released: 2021-10-22
 updated: 2023-06-21
 version: 1.4.4
 reviews: 0
-website: https://www.btcex.com/
+website: https://www.btcex.com#deadLink
 repository: 
 issue: 
 icon: com.btcex.appstore.jpg

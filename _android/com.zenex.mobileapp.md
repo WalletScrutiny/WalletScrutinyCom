@@ -10,7 +10,7 @@ released: 2022-05-24
 updated: 2022-05-28
 version: '1.0'
 reviews: 
-website: https://zenextoken.in/
+website: https://zenextoken.in#deadLink
 repository: 
 issue: 
 icon: com.zenex.mobileapp.png

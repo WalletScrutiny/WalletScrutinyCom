@@ -10,7 +10,7 @@ released: 2020-04-23
 updated: 2020-05-09
 version: '1.2'
 reviews: 
-website: https://www.digitide.us/foxtide
+website: https://www.digitide.us/foxtide#deadLink
 repository: 
 issue: 
 icon: com.foxtide.jpg

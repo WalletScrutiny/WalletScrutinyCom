@@ -42,7 +42,7 @@ The app's promotional materials showcase modules including Spot Account, Structu
 - Infrastructure Solutions: https://www.aspendigital.co/services/infrastructure-solutions#connectivity
 - License page (ADGM FSRA Category 3A, FSP No. 240034): https://www.aspendigital.co/license
 - Terms of Service: https://portal-ad.aspendigital.co/agreement
-- PwC + Aspen custody report: https://www.pwchk.com/en/press-room/press-releases/pr-110723.html  
+- PwC + Aspen custody report: https://www.pwchk.com/en/press-room/press-releases/pr-110723.html#deadLink  
 
 ---
 

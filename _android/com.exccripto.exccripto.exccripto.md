@@ -10,7 +10,7 @@ released: 2018-11-04
 updated: 2018-11-05
 version: '1.0'
 reviews: 
-website: https://exccripto.com
+website: https://exccripto.com#deadLink
 repository: 
 issue: 
 icon: com.exccripto.exccripto.exccripto.png

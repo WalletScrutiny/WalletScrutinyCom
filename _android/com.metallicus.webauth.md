@@ -57,5 +57,5 @@ No changes in the availability of the source is found. This app is still **not s
   - [Proton Web SDK](https://github.com/ProtonProtocol/proton-web-sdk/blob/6bd62116b0f24c6469d3a31a33f2f6202f83f253/packages/proton-web-sdk/src/views/Footer.svelte#L14)
   - [Proton Affiliate](https://github.com/edenia/proton-affiliate/blob/82c45bbe37a32e8e7ee8e999ee918a2dc7203fc2/webapp/src/routes/Join/index.js#L343)
   - [Proton Web SDK](https://github.com/CharlestonX-DAO/proton-web-sdk/blob/d0f44ff53898e740415eb313c00ae4a6026d4e89/packages/proton-web-sdk/src/views/Footer.svelte#L13)
-- The [Terms](https://www.proton.org/terms/) has a very "mild" termination clause. It only describes the termination of the user's license to use the app.
+- The [Terms](https://www.proton.org/terms#deadLink) has a very "mild" termination clause. It only describes the termination of the user's license to use the app.
 - Despite having several repositories in its GitHub organization account, we were not able to find the Android app's possible repository. Leading us to the conclusion that this app is **not source-available**.

@@ -47,7 +47,7 @@ Features:
 
 ## The Site
 
-[Withdrawal verification system](https://jp-ex.io/en/bulletin/116?)
+[Withdrawal verification system](https://jp-ex.io/en/bulletin/116?#deadLink)
 
 > Update 1.2 Withdrawal verification system -To improve the security level of user assets, after the update, we need users to **pass "double confirmation" upon withdrawal, which must include "bind mobile" or "bind email address" among with "Google Verification Code"**. You need to enter the one-time verification code and Google verification code as required for each withdrawal, and the relevant withdrawal procedure will only be carried out after both verifications are passed.
 

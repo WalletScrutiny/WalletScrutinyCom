@@ -11,7 +11,7 @@ released: 2020-09-15
 updated: 2020-11-07
 version: 0.31.0
 reviews: 
-website: https://sicuradata.com/
+website: https://sicuradata.com#deadLink
 repository: 
 issue: 
 icon: com.sicuradata.wallet.png

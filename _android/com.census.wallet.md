@@ -10,7 +10,7 @@ released: 2020-02-04
 updated: 2020-07-10
 version: 1.2.10
 reviews: 
-website: https://www.census.cx/
+website: https://www.census.cx#deadLink
 repository: 
 issue: 
 icon: com.census.wallet.jpg

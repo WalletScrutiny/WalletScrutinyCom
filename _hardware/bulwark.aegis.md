@@ -13,7 +13,7 @@ weight:
 provider: Bulwark Crypto
 providerWebsite: https://www.bulwarkcrypto.com/
 website: 
-shop: https://store.bulwarkcrypto.com/
+shop: https://store.bulwarkcrypto.com#deadLink
 country: US
 price: 
 repository: 

@@ -11,7 +11,7 @@ released: 2021-07-22
 updated: 2024-12-17
 version: 2.0.0
 reviews: 
-website: https://www.keepser.io
+website: https://web.archive.org/web/20210918112918/https://www.keepser.io/
 repository: 
 issue: 
 icon: com.KeepserGroup.Keepser.png

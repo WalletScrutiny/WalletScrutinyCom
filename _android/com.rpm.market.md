@@ -10,7 +10,7 @@ released: 2021-04-20
 updated: 2021-06-15
 version: 0.0.6
 reviews: 
-website: http://rpm.market
+website: http://rpm.market#deadLink
 repository: 
 issue: 
 icon: com.rpm.market.png

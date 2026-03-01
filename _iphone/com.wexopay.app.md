@@ -26,7 +26,7 @@ social:
 - https://www.facebook.com/wexopay
 - https://t.me/WexoToken
 - https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
-- https://discord.com/invite/jhqwr7KFCn
+- https://discord.com/invite/jhqwr7KFCn#deadLink
 features: 
 developerName: CRYPTON DIGITAL SE
 

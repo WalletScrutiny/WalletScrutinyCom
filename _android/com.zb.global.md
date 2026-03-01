@@ -11,7 +11,7 @@ released: 2021-07-17
 updated: 2022-06-24
 version: 1.3.2.1478
 reviews: 
-website: https://www.zb.com
+website: https://www.zb.com#deadLink
 repository: 
 issue: 
 icon: com.zb.global.png

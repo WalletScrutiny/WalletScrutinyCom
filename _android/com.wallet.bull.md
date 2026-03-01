@@ -37,7 +37,7 @@ In the [Privacy Policy](https://bullcoin.finance/privacy) Bull Finance claims to
 
 > Bull Finance is an open and decentralized financial ecological network. Bull Finance combines Polkadot's cross-chain collaboration technology and the Substrate modular development framework to provide one-click development solutions for participants in the open financial ecological network and provide the underlying protocol standards for the open financial ecological network.
 
-In the [Help Center](https://bullfinance.bullcoin.finance/en-us/articles/36547650), Bull Finance claims that it does not store the private key:
+In the [Help Center](https://bullfinance.bullcoin.finance/en-us/articles/36547650#deadLink), Bull Finance claims that it does not store the private key:
 
 > You are solely responsible for the storage of the mnemonic phrase. Without it, you will not be able to access your wallet. BullWallet will not store your mnemonic phrase/private key, and we will not collect any personal information.
 

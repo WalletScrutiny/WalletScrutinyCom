@@ -10,7 +10,7 @@ released: 2022-04-13
 updated: 2022-04-19
 version: '3.0'
 reviews: 
-website: https://www.runixcoin.com/
+website: https://www.runixcoin.com#deadLink
 repository: 
 issue: 
 icon: com.runixcoin.com.runixcoin.png

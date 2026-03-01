@@ -11,7 +11,7 @@ released: 2018-04-11
 updated: 2019-01-17
 version: 1.6.1
 reviews: 
-website: https://coiny.io/
+website: https://coiny.io#deadLink
 repository: 
 issue: 
 icon: io.coiny.android.png

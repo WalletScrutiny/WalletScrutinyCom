@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2023-01-12
 version: 5.0.02
 reviews: 10
-website: https://www.kikitrade.com/
+website: https://www.kikitrade.com#deadLink
 repository: 
 issue: 
 icon: org.evg.kikitrade.jpg

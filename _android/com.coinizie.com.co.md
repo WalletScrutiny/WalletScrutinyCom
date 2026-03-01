@@ -10,7 +10,7 @@ released: 2020-09-11
 updated: 2020-09-11
 version: '9.0'
 reviews: 
-website: https://www.coinizie.com/
+website: https://www.coinizie.com#deadLink
 repository: 
 issue: 
 icon: com.coinizie.com.co.png

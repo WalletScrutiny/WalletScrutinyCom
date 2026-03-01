@@ -12,7 +12,7 @@ updated: 2025-01-20
 version: 2.4.8
 reviews: 9
 website: https://hexawallet.io/
-repository: https://github.com/bithyve/hexa
+repository: https://github.com/bithyve/bitcointribe-classic
 issue: 
 icon: io.hexawallet.hexa2.jpg
 bugbounty: 

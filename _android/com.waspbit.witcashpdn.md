@@ -11,7 +11,7 @@ released: 2018-12-10
 updated: 2021-07-14
 version: 2.0.9
 reviews: 
-website: http://witcash.io/
+website: http://witcash.io#deadLink
 repository: 
 issue: 
 icon: com.waspbit.witcashpdn.jpg

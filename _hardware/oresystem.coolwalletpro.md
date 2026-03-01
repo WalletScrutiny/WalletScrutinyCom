@@ -16,7 +16,7 @@ weight: 6
 provider: ORE System
 providerWebsite: 
 website: https://ore-system.com/
-shop: https://ore-system.com/product/ore-system-coolwallet-pro/
+shop: https://ore-system.com/product/ore-system-coolwallet-pro#deadLink
 country: US
 price: 149USD
 repository: 

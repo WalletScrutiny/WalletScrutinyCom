@@ -10,7 +10,7 @@ released: 2021-09-27
 updated: 2022-04-27
 version: 1.0.8
 reviews: 
-website: https://ntrade.com.my/
+website: https://ntrade.com.my#deadLink
 repository: 
 issue: 
 icon: com.neurogine.taurus.png

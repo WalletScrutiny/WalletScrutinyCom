@@ -45,7 +45,7 @@ features:
 ## Analysis
 
 - The app supports a Bech32 BTC address that supports withdraw and deposit functions.
-- The website has an article. ["What do you do to protect my digital assets?"](https://emirex.userecho.com/knowledge-bases/2/articles/51-what-do-you-do-to-protect-my-digital-assets-emirexcom):
+- The website has an article. ["What do you do to protect my digital assets?"](https://emirex.userecho.com/knowledge-bases/2/articles/51-what-do-you-do-to-protect-my-digital-assets-emirexcom#deadLink):
 
 > Note: We hold most of the Digital Assets in cold wallets with multi-signature feature that are secured against hacking or other malicious activity.
 

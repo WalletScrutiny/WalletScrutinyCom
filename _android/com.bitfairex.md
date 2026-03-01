@@ -10,7 +10,7 @@ released: 2020-12-27
 updated: 2021-03-25
 version: 1.2.3 Release
 reviews: 
-website: https://bitfairex.com
+website: https://bitfairex.com#deadLink
 repository: 
 issue: 
 icon: com.bitfairex.png

@@ -10,7 +10,7 @@ released: 2016-06-21
 updated: 2017-11-23
 version: 1.2.7
 reviews: 
-website: http://bithappy.co.uk
+website: http://bithappy.co.uk#deadLink
 repository: 
 issue: 
 icon: com.bithappy.browser.v1.png

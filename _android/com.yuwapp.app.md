@@ -10,7 +10,7 @@ released: 2022-07-02
 updated: 2022-07-28
 version: 1.0.0
 reviews: 
-website: https://yuwapp.com/
+website: https://yuwapp.com#deadLink
 repository: 
 issue: 
 icon: com.yuwapp.app.jpg

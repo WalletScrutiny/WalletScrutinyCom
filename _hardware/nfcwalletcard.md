@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: 
-providerWebsite: https://nfcwalletcard.com
+providerWebsite: https://nfcwalletcard.com#deadLink
 website: 
 shop: 
 country: 
@@ -32,4 +32,4 @@ features:
 
 ---
 
-The [provider's website](https://nfcwalletcard.com) is inaccessible and we considered it defunct.
+The [provider's website](https://nfcwalletcard.com#deadLink) is inaccessible and we considered it defunct.

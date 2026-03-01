@@ -12,7 +12,7 @@ released: 2018-09-27
 updated: 2019-06-21
 version: 0.0068beta
 reviews: 15
-website: http://InSense.tech
+website: http://insense.tech#deadLink
 repository: 
 issue: 
 icon: tech.insense.sensewalet.png

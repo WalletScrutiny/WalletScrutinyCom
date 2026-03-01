@@ -11,7 +11,7 @@ released: 2022-03-02
 updated: 2023-07-12
 version: 4.1.3
 reviews: 14
-website: https://truzact.com
+website: https://truzact.com#deadLink
 repository: 
 issue: 
 icon: com.truzact.truzact-mobile-app.jpg

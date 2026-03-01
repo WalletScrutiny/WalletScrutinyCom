@@ -11,7 +11,7 @@ released: 2020-11-17
 updated: 2020-11-18
 version: 0.0.1
 reviews: 
-website: https://www.vipsmartbot.com
+website: https://www.vipsmartbot.com#deadLink
 repository: 
 issue: 
 icon: com.vipsmartbot.vsb.png

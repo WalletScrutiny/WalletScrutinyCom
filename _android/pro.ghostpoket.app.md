@@ -10,7 +10,7 @@ released: 2025-06-21
 updated: 2026-01-15
 version: 1.1.5
 reviews: 
-website: https://test.ghostpoket.pro
+website: https://test.ghostpoket.pro#deadLink
 repository: 
 issue: 
 icon: pro.ghostpoket.app.png

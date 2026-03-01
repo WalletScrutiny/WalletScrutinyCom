@@ -38,7 +38,7 @@ All trading and custody operations occur under Bitdenex’s regulated exchange i
 
 ## Analysis
 
-From its [downloadable terms and conditions:](https://bitdenex.com/Documents/EU_Bitdenex_Terms_of_Service_V.01.09.2025..pdf) 
+From its [downloadable terms and conditions:](https://bitdenex.com/Documents/EU_Bitdenex_Terms_of_Service_V.01.09.2025..pdf#deadLink) 
 
 **Section E 19 a:**
 

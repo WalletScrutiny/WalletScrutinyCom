@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Skynanceworld
 providerWebsite: 
-website: https://www.skynanceworld.com/
+website: https://www.skynanceworld.com#deadLink
 shop: 
 country: 
 price: 
@@ -41,7 +41,7 @@ Their website is now no longer available online. We tried searching for this pro
 
 **⚠️ Warning:** Skynance is having a private sale for its skynance token. When you click the 'Buy Now' button it redirects to a telegram group that has already expired.
 
-Other than its appearance on its [company's whitepaper](https://www.skynanceworld.com/Whitepaper-Skynance.pdf), there are no results online for a "Skyport Hardware Wallet"
+Other than its appearance on its [company's whitepaper](https://www.skynanceworld.com/Whitepaper-Skynance.pdf#deadLink), there are no results online for a "Skyport Hardware Wallet"
 
 > Skyport is a Hardware wallet that will use high security technology that can only be access by the original owner
 

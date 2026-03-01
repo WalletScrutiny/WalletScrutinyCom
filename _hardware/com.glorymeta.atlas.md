@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Dmitrij Popovich
-providerWebsite: http://www.glorymetaindustries.com/
+providerWebsite: https://web.archive.org/web/20231214162844/https://www.glorymetaindustries.com/
 website: 
 shop: 
 country: 

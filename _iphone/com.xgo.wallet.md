@@ -25,7 +25,7 @@ twitter: XGo_official
 social:
 - https://t.me/+Z536yScjjQg0NzE0
 - https://www.instagram.com/xgo_official
-- https://discord.com/invite/dTt4Ke3
+- https://discord.com/invite/dTt4Ke3#deadLink
 features: 
 developerName: Exechain OU
 

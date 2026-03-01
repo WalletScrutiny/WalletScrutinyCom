@@ -11,7 +11,7 @@ released: 2023-04-11
 updated: 2023-04-20
 version: '20.0'
 reviews: 0
-website: https://koopwallet.com/privacy.html
+website: https://koopwallet.com/privacy.html#deadLink
 repository: 
 issue: 
 icon: com.koopwallet.app.jpg

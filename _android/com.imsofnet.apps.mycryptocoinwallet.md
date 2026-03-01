@@ -10,7 +10,7 @@ released: 2018-01-24
 updated: 2018-01-31
 version: '1.1'
 reviews: 
-website: https://www.imsofnet.com
+website: https://www.imsofnet.com#deadLink
 repository: 
 issue: 
 icon: com.imsofnet.apps.mycryptocoinwallet.png

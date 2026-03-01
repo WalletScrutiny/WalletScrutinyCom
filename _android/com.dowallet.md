@@ -11,7 +11,7 @@ released: 2019-01-01
 updated: 2022-11-22
 version: 1.1.41
 reviews: 88
-website: https://www.dowallet.app/
+website: https://www.dowallet.app#deadLink
 repository: 
 issue: 
 icon: com.dowallet.png

@@ -23,7 +23,7 @@ date: 2024-02-05
 signer: 
 twitter: 
 social:
-- https://the-bitcoin-traderapp.cyou
+- https://the-bitcoin-traderapp.cyou#deadLink
 redirect_from: 
 developerName: NISHANT MAHESH KHARE
 builds: 

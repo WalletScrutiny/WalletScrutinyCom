@@ -23,7 +23,7 @@ date: 2024-08-13
 signer: 
 twitter: 
 social:
-- https://huionepay.com.kh
+- https://huionepay.com.kh#deadLink
 redirect_from: 
 developerName: Huione Group
 builds: 

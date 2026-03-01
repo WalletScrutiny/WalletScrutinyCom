@@ -43,7 +43,7 @@ Easily trade your favorite cryptocurrency. By offering a diverse portfolio of mo
 
 - The site and the app are primarily in Persian.
 - We were not able to register.
-- According to the [FAQ](https://tabdeal.org/help/faq/), users are given dedicated addresses where they can deposit, send and withdraw. This includes a wallet to withdraw fiat to banks.
+- According to the [FAQ](https://tabdeal.org/help/faq#deadLink), users are given dedicated addresses where they can deposit, send and withdraw. This includes a wallet to withdraw fiat to banks.
 - According to the site's [rules and regulations](https://tabdeal.org/termsconditions), any breach by the user of the rules, will give the site the power to temporarily or permanently prevent the user from using the site.
   - Section 11 shows that the platform can block the user from withdrawing from his wallet.
 - Here are further portions of the site to give us an impression that the site provides a wallet hosting service:

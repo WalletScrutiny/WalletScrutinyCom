@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: JAG Electromagnetics
 providerWebsite: https://www.jagelectromagnetics.com/
-website: https://web.archive.org/web/20200131050319/http://www.diyhardwarewallet.com:80/
+website: http://www.diyhardwarewallet.com
 shop: 
 country: 
 price: 
@@ -32,7 +32,7 @@ features:
 
 ---
 
-The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](https://web.archive.org/web/20200131050319/http://www.diyhardwarewallet.com:80/)
+The social media account for this specific project has not been updated since 2018 and the website is down. Any quotes listed below were taken from the [archived version of the website.](http://www.diyhardwarewallet.com)
 
 From the description:
 

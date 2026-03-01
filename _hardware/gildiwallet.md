@@ -35,7 +35,7 @@ features:
 
 ## Product Description
 
-The product's website [gildiwallet.com](http://gildiwallet.com/) [is currently inaccessible.](https://www.isitdownrightnow.com/gildiwallet.com.html) Here is an [archived version](https://web.archive.org/web/20180816111100/https://gildiwallet.com/) from 2019.
+The product's website [gildiwallet.com](https://web.archive.org/web/20191211081336/https://gildiwallet.com/) [is currently inaccessible.](https://www.isitdownrightnow.com/gildiwallet.com.html) Here is an [archived version](https://web.archive.org/web/20180816111100/https://gildiwallet.com/) from 2019.
 
 Also during 2019, GILDI hosted two fundraiser campaigns on separate [websites.](https://kingscrowd.com/gildi-wallet-on-seedinvest/) with neither meeting the goal. One of the platforms was CirclePay's SeedInvest.
 

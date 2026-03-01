@@ -13,9 +13,9 @@ released: 2021-07-06
 updated: 2021-10-23
 version: 1.3.4
 reviews: 1
-website: https://www.bhexchain.com/
+website: https://www.bhexchain.com#deadLink
 repository: 
-issue: https://github.com/bluehelix-chain/wallet-android/issues/4
+issue: https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 meta: removed

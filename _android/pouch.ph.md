@@ -39,7 +39,7 @@ features:
 
 ## Analysis 
 
-The ["Terms and Conditions"](https://pouch.ph/terms-of-service) states: 
+The ["Terms and Conditions"](https://web.archive.org/web/20230630012904/https://pouch.ph/terms-of-service) states: 
 
 > Pouch holds your money on bare trust. When you transact using our Services, we utilize the Lightning Network for transmitting money, as well as third-party payment processors for adding or taking out money from your account securely and seamlessly. By accepting these Terms you also agree to the terms and conditions of our use of the Lightning Network as well as those of third-party payment processor partners as updated from time to time.
 

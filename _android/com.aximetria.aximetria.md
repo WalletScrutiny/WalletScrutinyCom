@@ -11,7 +11,7 @@ released: 2018-12-17
 updated: 2021-08-02
 version: 1.5.51
 reviews: 215
-website: https://www.aximetria.com/
+website: https://www.aximetria.com#deadLink
 repository: 
 issue: 
 icon: com.aximetria.aximetria.png
@@ -69,7 +69,7 @@ Aximetria GmbH has two apps which seem to alternate being offline and online.
 
 ## The Site
 
-[**Terms and Information**](https://www.aximetria.com/terms_information)
+[**Terms and Information**](https://www.aximetria.com/terms_information#deadLink)
 
 ### Termination Clauses
 
@@ -92,11 +92,11 @@ Each tier has the following conditions or restrictions:
 - Withdraw to a bank account
 - Monthly limits on card deposit, card withdrawal limit, 3rd party withdrawal limit and wire transfer
 
-You can find tutorials on how to send/receive digital currencies via their [help](https://www.aximetria.com/help) page.
+You can find tutorials on how to send/receive digital currencies via their [help](https://www.aximetria.com/help#deadLink) page.
 
 ### Private Keys
 
-> **Q**	[**What happens with my Aximetria account after the account is deleted?**](https://www.aximetria.com/help)<br>
+> **Q**	[**What happens with my Aximetria account after the account is deleted?**](https://www.aximetria.com/help#deadLink)<br>
  **A**	An encrypted PDF file with private keys will be sent to your email. The password for the PDF file is the same as the last password for your Aximetria account.<br><br>
 As soon as you access the PDF with private keys, all the information associated with your Aximetria account will be erased and Aximetria GmbH _will no longer be responsible for your cryptocurrencies' safety and privacy_.
 

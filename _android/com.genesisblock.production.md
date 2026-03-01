@@ -60,7 +60,7 @@ According to the reviews, there's a waitlist for using the app.
       Looks like this idiots is a scam team... Collect all the info about you and put u in the line of 2k+ people waiting for something... offer u a game "to jump 100 spots' that same scam is this whole thing.. BEWARE. REPORTED. U SHOULD REPORT TOO
       
       
-## [Custody in Terms and Conditions](https://genesisblock.com/terms/account)
+## [Custody in Terms and Conditions](https://genesisblock.com/terms/account#deadLink)
 
 > Section 9. Digital assets you deposit with us will be stored in one or more unsegregated omnibus wallets, via one or more third-party custodians that we may elect in our sole discretion. Genesis Block currently custodies digital assets in Genesis Block’s name through an unsegregated account with BitGo Trust Company, a South Dakota chartered trust company and money service business, but may change or use additional custodians from time to time.
 

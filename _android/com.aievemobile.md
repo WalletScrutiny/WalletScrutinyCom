@@ -10,7 +10,7 @@ released: 2018-11-13
 updated: 2019-05-25
 version: '1.5'
 reviews: 
-website: https://www.aieve.io/
+website: https://www.aieve.io#deadLink
 repository: 
 issue: 
 icon: com.aievemobile.png

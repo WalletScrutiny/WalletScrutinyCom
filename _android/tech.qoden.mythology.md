@@ -10,7 +10,7 @@ released: 2020-01-31
 updated: 2020-01-31
 version: '1.0'
 reviews: 
-website: https://cryptotradeengine.com
+website: https://web.archive.org/web/20220102193531/https://cryptotradeengine.com/
 repository: 
 issue: 
 icon: tech.qoden.mythology.png

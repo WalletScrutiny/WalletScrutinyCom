@@ -10,7 +10,7 @@ released: 2018-09-20
 updated: 2021-03-19
 version: 1.2.5
 reviews: 
-website: https://www.aaatrade.com
+website: https://www.aaatrade.com#deadLink
 repository: 
 issue: 
 icon: com.aaatrade.CryptoExchange.png

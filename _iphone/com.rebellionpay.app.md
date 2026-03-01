@@ -11,7 +11,7 @@ released: 2018-10-04
 updated: 2023-09-14
 version: 1.11.21
 reviews: 5869
-website: https://rebellionpay.com
+website: https://rebellionpay.com#deadLink
 repository: 
 issue: 
 icon: com.rebellionpay.app.jpg
@@ -30,4 +30,4 @@ developerName: RBLDE Unconventional S.L.
 
 The app has no Android counterpart.
 
-It is scheduled to be replaced and will be defunct by December 31, 2023. Announcement [here:](https://help.rebellionpay.com/en/articles/8439254-a-new-chapter-in-our-history)
+It is scheduled to be replaced and will be defunct by December 31, 2023. Announcement [here:](https://help.rebellionpay.com/en/articles/8439254-a-new-chapter-in-our-history#deadLink)

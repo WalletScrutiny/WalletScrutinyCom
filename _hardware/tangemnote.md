@@ -43,13 +43,13 @@ features:
 
 We could no longer find the link to the product on the website.
 
-### [What are the Differences between the Tangem Note and the Tangem Card](https://support.tangem.org/hc/en-us/articles/9401634315677-What-are-the-differences-between-Tangem-Note-and-Tangem-Wallet)
+### [What are the Differences between the Tangem Note and the Tangem Card](https://support.tangem.org/hc/en-us/articles/9401634315677-What-are-the-differences-between-Tangem-Note-and-Tangem-Wallet#deadLink)
 
 > 1. Supported cryptocurrencies. Tangem Note is a single-currency wallet that is designed to store a single cryptocurrency. Tangem Wallet, on the other hand, is a multi-currency wallet and supports thousands of different cryptocurrencies.
 > 
 > 2. Backup. Tangem Note is a single physical card, so it has no backup feature and no access code protection. Tangem Wallet, unlike Tangem Note, is sold in a set of 2 or 3 cards. When you activate the cards, you can back up the keys on additional cards.
 
-**[The firmware cannot be updated.](https://support.tangem.org/hc/en-us/articles/9402604657565-Is-it-possible-to-update-the-card-firmware)**
+**[The firmware cannot be updated.](https://support.tangem.org/hc/en-us/articles/9402604657565-Is-it-possible-to-update-the-card-firmware#deadLink)**
 
 We removed the binary entry since it pointed to the android app's binary. 
 
@@ -57,7 +57,7 @@ We are marking this as defunct, since the product is no longer available **and**
 
 ## Product Description 2024-11-15
 
-[Security Details](https://shop.tangem.com/pages/faq-security-and-technical-details)
+[Security Details](https://web.archive.org/web/20211022040928/https://shop.tangem.com/pages/faq-security-and-technical-details)
 
 > A Tangem Card is a highly secure hardware cold wallet made to store any kind of digital assets / cryptocurrency / Bitcoin on blockchain technology. With an NFC-enabled phone, you can verify your balance and extract your assets if you want to move them to another wallet.
 
@@ -72,7 +72,7 @@ With the Tangem card, a user can:
 > - Extract (send) funds to other Tangem Cards or blockchain wallets.
 > - Pay with the Card (with merchants currently accepting crypto).
 
-The private key is stored on the secure EAL6+ chip. Tangem also [claims](https://shop.tangem.com/products/tangem-note) that their firmware is audited by Kudelski Security
+The private key is stored on the secure EAL6+ chip. Tangem also [claims](https://web.archive.org/web/20230204211954/https://shop.tangem.com/products/tangem-note) that their firmware is audited by Kudelski Security
 
 ## Google Play Critical Review
 

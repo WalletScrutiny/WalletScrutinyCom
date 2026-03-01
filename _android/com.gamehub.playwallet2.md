@@ -11,7 +11,7 @@ released: 2020-02-19
 updated: 2020-04-08
 version: 2.0.6
 reviews: 
-website: http://www.playwallet.io/
+website: http://www.playwallet.io#deadLink
 repository: 
 issue: 
 icon: com.gamehub.playwallet2.png
@@ -42,7 +42,7 @@ features:
 >
 > Please re-check the network.
 
-- Its listed website's last known archive.org entry was in [2020.](https://web.archive.org/web/20200120033903/http://www.playwallet.io/)
+- Its listed website's last known archive.org entry was in [2020.](http://www.playwallet.io#deadLink)
 
 Some text from the archive: 
 

@@ -52,7 +52,7 @@ features:
 
 - [The private keys can be created offline.](https://secuxtech.com/howitworks/device-setup_step_w10-new/) 
 - The device can connect to a web portal called [SecuXess](https://wallet.secuxtech.com/secuxess/#/) via USB  or Bluetooth (through a PC). 
-- More information about [SecuXess](https://secuxtech.com/howitworks/web/).
+- More information about [SecuXess](https://secuxtech.com/howitworks/web#deadLink).
 - The portal can be used to "Add Accounts, Send and Receive".
 
 ## Updated Review 2024-11-01

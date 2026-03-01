@@ -23,7 +23,7 @@ date: 2024-02-05
 signer: 
 twitter: EriumExchange
 social:
-- https://erium.exchange
+- https://erium.exchange#deadLink
 - https://t.me/Erium_exchange
 - https://discord.com/invite/9nUntZeCPP
 - https://medium.com/@eriumex

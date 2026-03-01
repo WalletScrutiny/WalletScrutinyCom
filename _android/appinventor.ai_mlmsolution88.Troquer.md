@@ -10,7 +10,7 @@ released: 2020-06-25
 updated: 2020-06-25
 version: '1.0'
 reviews: 
-website: https://www.etroquer.com/
+website: https://www.etroquer.com#deadLink
 repository: 
 issue: 
 icon: appinventor.ai_mlmsolution88.Troquer.png

@@ -10,7 +10,7 @@ released: 2019-07-01
 updated: 2019-07-02
 version: 1.0.0
 reviews: 
-website: https://mobterest.com
+website: https://mobterest.com#deadLink
 repository: 
 issue: 
 icon: com.cryptotrade_flutter.app.png

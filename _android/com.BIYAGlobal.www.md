@@ -34,7 +34,7 @@ features:
 
 > BIYAPAY is an international wallet that provides multi-asset transactions for customers around the world. It supports real-time exchange rate query and exchange of more than 20 legal currencies and more than ten digital currencies, providing users with faster, low-cost, and barrier-free Online international money transfers.
 
-### [Security](https://www.biyapay.io/services/)
+### [Security](https://www.biyapay.io/services#deadLink)
 
 > During the transaction process, funds are stored on the BiyaPay platform, instead of directly being transferred to the other party.
 >

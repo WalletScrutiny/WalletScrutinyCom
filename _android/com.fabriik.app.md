@@ -10,7 +10,7 @@ released: 2022-04-18
 updated: 2022-10-25
 version: 4.15.0
 reviews: 
-website: https://fabriik.com
+website: https://fabriik.com#deadLink
 repository: 
 issue: 
 icon: com.fabriik.app.png

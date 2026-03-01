@@ -11,7 +11,7 @@ released: 2021-04-21
 updated: 2022-04-03
 version: 2.2.0
 reviews: 2
-website: https://nakitcoins.com
+website: https://web.archive.org/web/20240914094707/https://nakitcoins.com/
 repository: 
 issue: 
 icon: com.nakitcoins.wallet.jpg

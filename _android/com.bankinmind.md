@@ -10,7 +10,7 @@ released: 2022-06-16
 updated: 2023-05-01
 version: 1.0.71
 reviews: 
-website: https://bankinmind.com/
+website: https://bankinmind.com#deadLink
 repository: 
 issue: 
 icon: com.bankinmind.png

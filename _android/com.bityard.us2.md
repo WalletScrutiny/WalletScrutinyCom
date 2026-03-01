@@ -45,7 +45,7 @@ Keep your crypto safe and access your funds seamlessly with the Bityard.US multi
 
 ## The Site
 
-### [Terms of Use](https://support.bityard.com/hc/en-us/articles/360039273852-Terms-of-Use)
+### [Terms of Use](https://support.bityard.com/hc/en-us/articles/360039273852-Terms-of-Use#deadLink)
 
 **Section 17. Termination of the Terms of Use**
 

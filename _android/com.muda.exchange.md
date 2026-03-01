@@ -11,7 +11,7 @@ released: 2022-05-04
 updated: 2023-12-06
 version: '1.0'
 reviews: 
-website: https://www.muda.exchange
+website: https://www.muda.exchange#deadLink
 repository: 
 issue: 
 icon: com.muda.exchange.png

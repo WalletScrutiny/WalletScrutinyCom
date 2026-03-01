@@ -11,8 +11,8 @@ released: 2019-08-21
 updated: 2023-09-08
 version: 5.14.0
 reviews: 115
-website: https://incognito.org
-repository: https://github.com/incognitochain/incognito-wallet
+website: https://incognito.org#deadLink
+repository: https://github.com/incognitochain/incognito-wallet#deadLink
 issue: 
 icon: com.incognito.wallet.jpg
 bugbounty: 

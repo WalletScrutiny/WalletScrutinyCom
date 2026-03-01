@@ -10,7 +10,7 @@ released: 2018-11-20
 updated: 2019-10-11
 version: v2.6.0
 reviews: 24
-website: https://www.purewallet.org
+website: https://www.purewallet.org#deadLink
 repository: 
 issue: 
 icon: pro.bitapp.android.png

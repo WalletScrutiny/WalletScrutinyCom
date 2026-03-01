@@ -10,7 +10,7 @@ released: 2019-02-13
 updated: 2019-04-04
 version: '0.17'
 reviews: 
-website: http://www.pipxplosion.com
+website: https://web.archive.org/web/20240415210021/https://www.pipxplosion.com/
 repository: 
 issue: 
 icon: org.nativescript.cryptotrader.jpg

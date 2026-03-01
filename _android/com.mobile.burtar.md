@@ -11,7 +11,7 @@ released: 2021-06-26
 updated: 2021-06-26
 version: '1.0'
 reviews: 8
-website: https://burtar.com
+website: https://burtar.com#deadLink
 repository: 
 issue: 
 icon: com.mobile.burtar.png

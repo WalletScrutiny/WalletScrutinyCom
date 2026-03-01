@@ -10,7 +10,7 @@ released: 2021-09-10
 updated: 2021-10-22
 version: '2.1'
 reviews: 
-website: http://tokenfree.net
+website: http://tokenfree.net#deadLink
 repository: 
 issue: 
 icon: com.tokenfree.png

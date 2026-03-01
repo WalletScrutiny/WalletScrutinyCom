@@ -12,7 +12,7 @@ updated: 2022-04-15
 version: 1.0.32
 reviews: 19
 website: https://leadwallet.io/
-repository: https://github.com/leadwallet/leadwallet-core
+repository: https://github.com/leadwallet/leadwallet-core#deadLink
 issue: 
 icon: com.leadWallet.jpg
 bugbounty: 

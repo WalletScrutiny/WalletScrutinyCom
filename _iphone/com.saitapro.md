@@ -26,7 +26,7 @@ social:
 - https://www.facebook.com/groups/1275234186328559
 - https://www.youtube.com/channel/UCcgXSwHloSMeXygKx8bTGBA
 - https://t.me/SaitamaWorldwide
-- https://discord.com/invite/saitama
+- https://discord.com/invite/saitama#deadLink
 - https://www.reddit.com/r/WeAreSaitama
 features: 
 developerName: SAITACHAIN LTD

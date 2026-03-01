@@ -11,7 +11,7 @@ released: 2017-10-02
 updated: 2024-09-05
 version: 2.11.1
 reviews: 5
-website: http://www.finq.com
+website: http://www.finq.com#deadLink
 repository: 
 issue: 
 icon: com.finq.android.png
@@ -51,4 +51,4 @@ Trading CFDs (Contract for Difference) has never been more popular as a preferre
 
 This platform only allows getting exposure to Bitcoin and cryptocurrencies but **not to send or receive bitcoins**. Deposits and withdrawals are in fiat. 
 
-The types of trading accounts are listed on this [page.](https://www.finq.com/en/trading-accounts)
+The types of trading accounts are listed on this [page.](https://www.finq.com/en/trading-accounts#deadLink)

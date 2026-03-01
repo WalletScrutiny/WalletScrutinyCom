@@ -11,7 +11,7 @@ released: 2022-08-25
 updated: 2023-01-14
 version: 1.6.1
 reviews: 0
-website: https://www.dhanux.com/
+website: https://web.archive.org/web/20231129221500/https://www.dhanux.com:443/
 repository: 
 issue: 
 icon: com.dhanuX.jpg

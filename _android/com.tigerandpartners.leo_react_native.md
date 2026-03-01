@@ -23,7 +23,7 @@ date: 2024-11-30
 signer: 
 twitter: LEO12_EXCHANGE
 social:
-- https://www.leo12.com
+- https://www.leo12.com#deadLink
 redirect_from: 
 developerName: Tiger and Partners Pty
 builds: 
@@ -40,7 +40,7 @@ features:
 ## Analysis
 
 - The app has an appearance of a cryptocurrency exchange.
-- The [terms](https://www.leo12.com/terms) Section 3.1.1 to Section 3.2 describe the user funds as held in a **hosted** account wherein the provider receives instructions to process.
+- The [terms](https://www.leo12.com/terms#deadLink) Section 3.1.1 to Section 3.2 describe the user funds as held in a **hosted** account wherein the provider receives instructions to process.
 - Section 5.4 explicitly describes the provider as keeping the private keys in its possession.
-- Leo supports [BTC deposits/withdrawals](https://www.leo12.com/faq).
+- Leo supports [BTC deposits/withdrawals](https://www.leo12.com/faq#deadLink).
 - This is a **custodial** app.

@@ -10,7 +10,7 @@ released: 2022-06-09
 updated: 2023-07-10
 version: 1.0.30
 reviews: 
-website: https://www.spaceground.io/
+website: https://www.spaceground.io#deadLink
 repository: 
 issue: 
 icon: com.spaceground.png

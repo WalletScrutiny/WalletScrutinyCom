@@ -51,7 +51,7 @@ Its companion app is {% include walletLink.html wallet='android/com.authentrend.
 
 ## Private keys can be created offline and are not shared
  
-In the [FAQ](https://authentrend.com/faq/), this wallet states that it stores private keys offline.
+In the [FAQ](https://web.archive.org/web/20250711031121/https://authentrend.com/faq/), this wallet states that it stores private keys offline.
 
 > If you keep your virtual assets on an exchange, you are entrusting your private keys to a third party and authorizing them as security. The cold wallet is unloaded so that hackers have a harder time accessing your stored coins for improved security. The private key is always offline and stores inside SE (Secure Element), all paths are encrypted.
 
@@ -67,7 +67,7 @@ The card has a built-in fingerprint sensor to sign transactions:
 
 > Patented Standalone Mode adds convenience for fingerprint verification and fast transaction signing.
 
-Fingerprint verification is necessary [for sending assets](https://authentrend.com/download/AT.Wallet%20quick%20guide.pdf), but not for receiving.
+Fingerprint verification is necessary [for sending assets](https://web.archive.org/web/20250917004744/https://authentrend.com/download/AT.Wallet%20quick%20guide.pdf), but not for receiving.
 
 [You can view the QR code on the card's screen to confirm a receiving address.](https://youtu.be/Y7YSQKK7eHo?t=31)
 

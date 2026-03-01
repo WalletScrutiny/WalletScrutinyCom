@@ -10,7 +10,7 @@ released: 2021-05-18
 updated: 2022-02-16
 version: '1.5'
 reviews: 
-website: https://logisticprotrade.com/
+website: https://logisticprotrade.com#deadLink
 repository: 
 issue: 
 icon: com.logisticprotrade.droidapp.jpg

@@ -49,7 +49,7 @@ This app is still **not source-available**.
 
 ## Analysis 
 
-- This app [supports BTC](https://www.sonicwallet.com/buy-sell-bitcoin-crypto).
+- This app [supports BTC](https://www.sonicwallet.com/buy-sell-bitcoin-crypto#deadLink).
 - The app claims to be a self-custodial wallet. In its [terms of use.](https://www.sonicwallet.com/terms-of-use) 
 - First we checked GitHub code if a search for the app ID gave any results. We [found none](https://github.com/search?q=com.sonicwallet&type=code).
 - We then tested it but failed to receive SMS verification.

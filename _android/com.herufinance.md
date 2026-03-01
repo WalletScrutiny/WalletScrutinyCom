@@ -10,7 +10,7 @@ released: 2022-08-03
 updated: 2022-12-05
 version: 1.2.7
 reviews: 
-website: https://heru.finance/
+website: https://heru.finance#deadLink
 repository: 
 issue: 
 icon: com.herufinance.png

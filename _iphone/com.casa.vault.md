@@ -38,7 +38,7 @@ any users but we don't see any argument left to not publish the code under a
 non-permissive license.
 
 **Update 2019-12-20**: This app and its review here were also discussed in a
-[great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust).
+[great episode of the Unhashed Podcast](https://www.unhashedpodcast.com/episodes/jameson-lopp-shills-wallet-you-must-trust#deadLink).
 
 This app follows an interesting concept with a multi-signature setup.
 

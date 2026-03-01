@@ -23,7 +23,7 @@ date: 2025-07-11
 signer: 
 twitter: FUNtoken_io
 social:
-- https://xfun.io
+- https://xfun.io#deadLink
 - https://t.me/officialFUNToken
 - https://discord.com/invite/e7vfgKbEKU
 features: 

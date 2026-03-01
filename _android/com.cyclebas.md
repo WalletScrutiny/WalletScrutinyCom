@@ -10,7 +10,7 @@ released: 2021-08-30
 updated: 2022-10-06
 version: 3.0.16
 reviews: 93
-website: https://www.cyclebas.com/
+website: https://www.cyclebas.com#deadLink
 repository: 
 issue: 
 icon: com.cyclebas.png

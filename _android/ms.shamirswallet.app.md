@@ -10,7 +10,7 @@ released: 2020-07-28
 updated: 2020-12-04
 version: 1.3.1
 reviews: 
-website: https://shamirswallet.com/
+website: https://shamirswallet.com#deadLink
 repository: 
 issue: 
 icon: ms.shamirswallet.app.png

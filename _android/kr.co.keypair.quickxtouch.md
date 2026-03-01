@@ -11,7 +11,7 @@ released: 2018-10-09
 updated: 2019-07-17
 version: 1.0.0.57
 reviews: 
-website: https://www.quickx.io
+website: https://www.quickx.io#deadLink
 repository: 
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg

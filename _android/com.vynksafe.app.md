@@ -11,7 +11,7 @@ released: 2022-05-31
 updated: 2024-02-05
 version: '2.6'
 reviews: 
-website: https://vynksafe.com/
+website: https://vynksafe.com#deadLink
 repository: 
 issue: 
 icon: com.vynksafe.app.png
@@ -41,7 +41,7 @@ features:
 ## Analysis
 
 - They self-describe as a 'decentralized cryptocurrency exchange'
-- According to their [terms:](https://vynksafe.com/terms)
+- According to their [terms:](https://vynksafe.com/terms#deadLink)
   - VYNKSAFE maintains full custody of digital assets in the event of fraud, violation of the law or of the terms.
   - They have the right to freeze, suspend and terminate user's access to the account.
   > VYNKSAFE has been committed to maintaining the security of User entrusted funds. 

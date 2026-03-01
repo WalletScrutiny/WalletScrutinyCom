@@ -10,7 +10,7 @@ released: 2021-07-24
 updated: 2021-11-18
 version: 1.3.0
 reviews: 
-website: https://solidus-vc.io
+website: https://solidus-vc.io#deadLink
 repository: 
 issue: 
 icon: com.sold.wallet.png

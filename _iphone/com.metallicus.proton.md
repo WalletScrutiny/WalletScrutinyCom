@@ -11,7 +11,7 @@ released: 2020-11-25
 updated: 2021-12-09
 version: 1.1.20
 reviews: 251
-website: https://protonchain.com
+website: https://web.archive.org/web/20220601075516/https://www.protonchain.com/
 repository: 
 issue: 
 icon: com.metallicus.proton.jpg

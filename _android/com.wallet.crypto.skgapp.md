@@ -10,7 +10,7 @@ released: 2019-06-17
 updated: 2019-07-22
 version: 1.4.42
 reviews: 
-website: http://skg-world.com
+website: http://skg-world.com#deadLink
 repository: 
 issue: 
 icon: com.wallet.crypto.skgapp.png

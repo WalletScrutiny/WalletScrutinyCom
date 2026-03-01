@@ -10,7 +10,7 @@ released: 2020-02-08
 updated: 2020-05-07
 version: '1.4'
 reviews: 
-website: https://www.digitide.us/bittide/
+website: https://www.digitide.us/bittide#deadLink
 repository: 
 issue: 
 icon: com.bittide.png

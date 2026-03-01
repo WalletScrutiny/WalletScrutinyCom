@@ -11,7 +11,7 @@ released: 2021-05-14
 updated: 2021-12-17
 version: 1.1.9
 reviews: 16
-website: https://www.pionex.sg/blog/
+website: https://www.pionex.sg/blog#deadLink
 repository: 
 issue: 
 icon: com.pionex.lite.png
@@ -62,7 +62,7 @@ Which now has an excess Play store version:
 
 **NOTE:** This app is not to be confused with {% include walletLink.html wallet='android/com.pionex.client' verdict='true' %}
 
-This is not a fake app; on Pionex.com's [website](https://www.pionex.com/en-US/), we found a link to [lite.pionex.com](https://lite.pionex.com/) which in turn, linked to this app.
+This is not a fake app; on Pionex.com's [website](https://www.pionex.com/en-US/), we found a link to [lite.pionex.com](https://lite.pionex.com#deadLink) which in turn, linked to this app.
 
 ## App Description
 
@@ -70,7 +70,7 @@ This is not a fake app; on Pionex.com's [website](https://www.pionex.com/en-US/)
 
 ## The Site
 
-From the [User Agreement, 6.7.1](https://www.pionex.sg/blog/user-agreement/):
+From the [User Agreement, 6.7.1](https://www.pionex.sg/blog/user-agreement#deadLink):
 
 > The Company maintains a stance of cooperation with law enforcement authorities globally and **will not hesitate to seize, freeze, terminate the account and digital assets of users** which are flagged out or investigated by legal mandate.
 

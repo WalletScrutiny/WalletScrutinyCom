@@ -11,7 +11,7 @@ released: 2020-04-07
 updated: 2021-12-17
 version: '4.3'
 reviews: 
-website: https://www.uzyth.com/
+website: https://www.uzyth.com#deadLink
 repository: 
 issue: 
 icon: com.zyth.app.png

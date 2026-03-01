@@ -10,7 +10,7 @@ released: 2018-07-21
 updated: 2020-10-21
 version: '3.25'
 reviews: 
-website: https://skb-coin.jp/en/
+website: https://skb-coin.jp/en#deadLink
 repository: 
 issue: 
 icon: com.skb_app.png

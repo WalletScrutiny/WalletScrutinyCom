@@ -36,7 +36,7 @@ features:
 
 ## The Site
 
-The [Terms of Service](https://digital-money.co/terms-and-conditions) say that Digital Money has the right to suspend your access to their services.
+The [Terms of Service](https://digital-money.co/terms-and-conditions#deadLink) say that Digital Money has the right to suspend your access to their services.
 
 > We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.
 >

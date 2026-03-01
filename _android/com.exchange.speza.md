@@ -10,7 +10,7 @@ released: 2019-08-07
 updated: 2019-12-21
 version: 0.1.2
 reviews: 
-website: https://www.speza.exchange
+website: https://www.speza.exchange#deadLink
 repository: 
 issue: 
 icon: com.exchange.speza.png

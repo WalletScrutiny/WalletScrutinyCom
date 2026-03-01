@@ -10,7 +10,7 @@ released: 2020-10-06
 updated: 2020-10-06
 version: '2.0'
 reviews: 
-website: https://dashwallet.com
+website: https://web.archive.org/web/20251016153250/https://dashwallet.com/
 repository: 
 issue: 
 icon: prince.darlington.DashWallet.png

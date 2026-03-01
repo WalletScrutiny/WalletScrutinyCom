@@ -11,7 +11,7 @@ released: 2017-09-23
 updated: 2019-12-19
 version: '2.8'
 reviews: 40
-website: http://www.finq.com
+website: http://www.finq.com#deadLink
 repository: 
 issue: 
 icon: com.trader.finq.jpg

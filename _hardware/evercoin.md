@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Evercoin and Yubico
-providerWebsite: https://evercoin.com/home
+providerWebsite: https://web.archive.org/web/20220331035406/https://evercoin.com/home
 website: 
 shop: https://www.yubico.com/ph/product/yubikey-5ci/
 country: US
@@ -34,7 +34,7 @@ features:
 
 ## Background Information
 
-[Evercoin has released an article on Medium](https://blog.evercoin.com/evercoin-is-now-the-safest-wallet-exchange-f3c3eeb07d54) with information on the hardware wallet and mobile app.
+[Evercoin has released an article on Medium](https://blog.evercoin.com/evercoin-is-now-the-safest-wallet-exchange-f3c3eeb07d54#deadLink) with information on the hardware wallet and mobile app.
 
 > Today, at NYC Consensus Invest, we announced Evercoin 2, the safest wallet, now with hardware security by YubiKey.
 
@@ -67,6 +67,6 @@ On the other hand, the blog post linked above claims that it's the app that has 
 >
 > So, the cold storage mode basically means now that the private key is now no longer anywhere on the phone to be found.
 
-This is from [an article with instructions](https://blog.evercoin.com/how-to-use-yubikey-with-evercoin-37da2a85ae48) on how to use Yubikey with Evercoin. The wallet is meant to enter an offline or a "cold storage mode" when the YubiKey device is disconnected. The article claims this makes it so that the private key won't be found anywhere on the phone.
+This is from [an article with instructions](https://blog.evercoin.com/how-to-use-yubikey-with-evercoin-37da2a85ae48#deadLink) on how to use Yubikey with Evercoin. The wallet is meant to enter an offline or a "cold storage mode" when the YubiKey device is disconnected. The article claims this makes it so that the private key won't be found anywhere on the phone.
 
 {{ page.title }} must be connected to an external device, thus it risks exposing the keys. Although the providers state that the wallet enters a cold storage mode, there is still the risk of the app being compromised in the first place. There's also the fact that this product has **no interface** meaning it can't make transactions by itself and relies on the app to do so. 

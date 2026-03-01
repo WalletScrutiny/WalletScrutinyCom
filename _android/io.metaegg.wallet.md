@@ -26,7 +26,7 @@ social:
 - https://www.facebook.com/metaeggio
 - https://www.linkedin.com/company/metaegg
 - https://www.instagram.com/metaegg_io
-- https://www.youtube.com/c/MetaeggMetaverse
+- https://www.youtube.com/c/MetaeggMetaverse#deadLink
 - https://t.me/metaegg_io
 redirect_from: 
 developerName: Metaegg

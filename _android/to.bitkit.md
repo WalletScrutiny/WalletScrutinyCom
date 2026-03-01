@@ -15,7 +15,7 @@ version: 2.0.2
 reviews: 3
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
-issue: https://github.com/synonymdev/bitkit/issues/2414
+issue: https://github.com/synonymdev/bitkit/issues/2414#deadLink
 icon: to.bitkit.png
 bugbounty: 
 meta: ok

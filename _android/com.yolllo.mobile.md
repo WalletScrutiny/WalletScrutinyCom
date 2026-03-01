@@ -10,7 +10,7 @@ released: 2022-04-29
 updated: 2022-06-23
 version: '1.0'
 reviews: 
-website: https://avapayltd.com
+website: https://avapayltd.com#deadLink
 repository: 
 issue: 
 icon: com.yolllo.mobile.png

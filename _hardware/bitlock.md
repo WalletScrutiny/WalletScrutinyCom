@@ -37,7 +37,7 @@ features:
 
 ## Background 
 
-It was initially announced on July 11, 2018 through [BitcoinTalk](https://bitcointalk.org/index.php?topic=4641751.0). {{ page.title }}'s PDF specifications file can still be accessed via [archive.org](https://web.archive.org/web/20180822211510/https://bitlock.io/files/BitLock.pdf). The Bitlock was co-developed by Senselock Software Technology Co., Ltd, Seculab., LTD UAB Seculab-Europe, and Delerex Pte. Ltd. 
+It was initially announced on July 11, 2018 through [BitcoinTalk](https://bitcointalk.org/index.php?topic=4641751.0). {{ page.title }}'s PDF specifications file can still be accessed via [archive.org](https://bitlock.io/files/BitLock.pdf). The Bitlock was co-developed by Senselock Software Technology Co., Ltd, Seculab., LTD UAB Seculab-Europe, and Delerex Pte. Ltd. 
 
 The website for [Bitlock is currently parked.](https://www.isitdownrightnow.com/bitlock.io.html)
 

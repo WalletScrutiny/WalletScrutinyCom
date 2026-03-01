@@ -10,7 +10,7 @@ released: 2021-12-19
 updated: 2022-03-25
 version: 1.2.9
 reviews: 
-website: https://www.definnpay.com
+website: https://www.definnpay.com#deadLink
 repository: 
 issue: 
 icon: com.definnpay.business.png

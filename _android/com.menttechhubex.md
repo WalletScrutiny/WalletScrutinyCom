@@ -11,7 +11,7 @@ released: 2020-06-01
 updated: 2020-06-04
 version: '3.0'
 reviews: 
-website: https://exchange.e-dome.net/trading/ltcbtc
+website: https://exchange.e-dome.net/trading/ltcbtc#deadLink
 repository: 
 issue: 
 icon: com.menttechhubex.png

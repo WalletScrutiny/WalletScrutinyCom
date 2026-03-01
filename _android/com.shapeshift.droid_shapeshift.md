@@ -72,7 +72,7 @@ but is their code public?
 
 On the [referenced website](https://shapeshift.com/) there is no link back to
 the app on App Store or Play Store but there is
-[this site](https://shapeshift.com/invite) where they suggest having an
+[this site](https://shapeshift.com/invite#deadLink) where they suggest having an
 invite-only mobile app. When you provide them with your email (Seriously?) they ...
 forward you to [this site](https://shapeshift.com/download) where there are
 actually download links for both mobile apps.

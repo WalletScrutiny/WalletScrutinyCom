@@ -25,7 +25,7 @@ signer:
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
-- https://github.com/bitkeepcom
+- https://github.com/bitkeepcom#deadLink
 redirect_from:
 - /com.bitkeep.wallet/
 developerName: Bitget Wallet

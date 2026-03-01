@@ -10,7 +10,7 @@ released: 2021-10-22
 updated: 2021-12-01
 version: 1.0.9
 reviews: 
-website: https://www.liyeplimalcryptoinvestments.com
+website: https://www.liyeplimalcryptoinvestments.com#deadLink
 repository: 
 issue: 
 icon: com.uticit.git.png

@@ -46,7 +46,7 @@ Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like
 but this is actually a second wallet
 [endorsed by the same Coinbase](https://wallet.coinbase.com/).
 
-From their [FAQ](https://wallet.coinbase.com/faq/):
+From their [FAQ](https://web.archive.org/web/20220427150034/https://wallet.coinbase.com/faq/):
 
 > Wallet is a user-custodied digital currency wallet and DApp browser.
 

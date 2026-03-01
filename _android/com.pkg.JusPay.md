@@ -43,7 +43,7 @@ features:
 ## Analysis 
 
 - The primary website juspay.app is no longer online
-- There was only one archive [entry](https://web.archive.org/web/20211206042715/http://juspay.app/) for the site, a parked page.
+- There was only one archive [entry](http://juspay.app) for the site, a parked page.
 - We were asked to provide a pin
 - We were then provided the mnemonic phrase 
 - After the mnemonic phrase was shown, there was only a blank screen. 

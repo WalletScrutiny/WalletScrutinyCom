@@ -10,7 +10,7 @@ released: 2019-09-28
 updated: 2019-09-25
 version: 1.0.14
 reviews: 
-website: https://www.lotuscfd.com
+website: https://www.lotuscfd.com#deadLink
 repository: 
 issue: 
 icon: com.lotuscfd.app.png

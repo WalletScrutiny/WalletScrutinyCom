@@ -10,7 +10,7 @@ released: 2021-09-30
 updated: 2022-08-29
 version: 1.3.9
 reviews: 
-website: https://www.thorbot.io/
+website: https://www.thorbot.io#deadLink
 repository: 
 issue: 
 icon: com.thorapp.flutterthor.png

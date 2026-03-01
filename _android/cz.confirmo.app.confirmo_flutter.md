@@ -56,7 +56,7 @@ From their website:
 ## Analysis 
 
 1. We were asked to pair with a Confirmo account.
-2. We took a look at their [Terms and Conditions](https://confirmo.net/legal/terms-and-conditions)
+2. We took a look at their [Terms and Conditions](https://confirmo.net/legal/terms-and-conditions#deadLink)
 
 **Wallet and Exchange Services**
 >

@@ -11,7 +11,7 @@ released:
 updated: 2021-02-19
 version: VARY
 reviews: 
-website: https://juwelis.digital/
+website: https://juwelis.digital#deadLink
 repository: 
 issue: 
 icon: digital.juwelis.app.png

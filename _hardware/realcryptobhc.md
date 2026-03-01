@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Real Crypto
 providerWebsite: 
-website: https://realcrypto.org/hologram-how-tos/bitcoin-how-to/
+website: https://realcrypto.org/hologram-how-tos/bitcoin-how-to#deadLink
 shop: 
 country: 
 price: 
@@ -44,7 +44,7 @@ and:
 
 ## Analysis 
 
-From the [website's disclaimer:](https://realcrypto.org/hologram-how-tos/bitcoin-how-to/)
+From the [website's disclaimer:](https://realcrypto.org/hologram-how-tos/bitcoin-how-to#deadLink)
 
 > If someone gets a hold of your coin and takes off the hologram, they own your private keys to this wallet. Real Crypto has no liability for your lost, stolen or hacked private keys. These instructions are here to help you stay safe but we make no guarantee that this will prevent hackers from obtaining your private keys. By making a cold storage wallet on a computer and printer that has or will ever be connected to the internet, you must accept a level of risk that your private keys could be compromised. 
 

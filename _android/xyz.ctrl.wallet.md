@@ -23,7 +23,7 @@ date: 2024-09-24
 signer: 
 twitter: ctrl_wallet
 social:
-- https://discord.gg/ctrlwallet
+- https://discord.gg/ctrlwallet#deadLink
 redirect_from: 
 developerName: Ctrl Wallet
 builds: 

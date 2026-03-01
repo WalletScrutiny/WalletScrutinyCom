@@ -10,7 +10,7 @@ released: 2017-10-17
 updated: 2017-11-15
 version: '1.0'
 reviews: 
-website: https://www.centralcoin.io
+website: https://www.centralcoin.io#deadLink
 repository: 
 issue: 
 icon: com.zendwallet.png

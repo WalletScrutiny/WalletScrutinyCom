@@ -11,7 +11,7 @@ released: 2018-12-14
 updated: 2018-12-26
 version: '0.1'
 reviews: 
-website: https://denryu.hashhub.tokyo/
+website: https://denryu.hashhub.tokyo#deadLink
 repository: 
 issue: 
 icon: com.lightning.denryu.png

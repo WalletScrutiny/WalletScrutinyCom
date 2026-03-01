@@ -10,7 +10,7 @@ released: 2018-07-03
 updated: 2024-03-15
 version: 0.9.1.45
 reviews: 
-website: http://smallet.co
+website: http://smallet.co#deadLink
 repository: 
 issue: 
 icon: co.smallet.keystorage.png

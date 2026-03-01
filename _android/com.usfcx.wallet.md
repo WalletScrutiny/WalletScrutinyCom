@@ -10,7 +10,7 @@ released: 2021-04-19
 updated: 2021-08-25
 version: '1.0'
 reviews: 
-website: https://usfcx.com/
+website: https://usfcx.com#deadLink
 repository: 
 issue: 
 icon: com.usfcx.wallet.jpg

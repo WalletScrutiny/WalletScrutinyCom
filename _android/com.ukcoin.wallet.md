@@ -11,7 +11,7 @@ released: 2020-07-16
 updated: 2020-07-16
 version: 1.0.0
 reviews: 
-website: https://ukcoin.money/
+website: https://ukcoin.money#deadLink
 repository: 
 issue: 
 icon: com.ukcoin.wallet.png

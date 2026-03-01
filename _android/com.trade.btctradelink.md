@@ -10,7 +10,7 @@ released: 2019-07-27
 updated: 2019-07-27
 version: '1.0'
 reviews: 
-website: http://www.btctradeonline.com
+website: http://www.btctradeonline.com#deadLink
 repository: 
 issue: 
 icon: com.trade.btctradelink.png

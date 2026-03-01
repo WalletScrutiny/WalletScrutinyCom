@@ -10,7 +10,7 @@ released: 2019-11-02
 updated: 2019-11-02
 version: '1.0'
 reviews: 
-website: http://xexxchange.com/
+website: http://xexxchange.com#deadLink
 repository: 
 issue: 
 icon: com.webapp.KryptoExchange.png

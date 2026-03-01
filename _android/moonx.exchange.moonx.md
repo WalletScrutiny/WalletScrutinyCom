@@ -10,7 +10,7 @@ released: 2019-08-09
 updated: 2020-07-16
 version: '2.0'
 reviews: 
-website: https://moonx.pro
+website: https://web.archive.org/web/20241111010507/http://moonx.pro/
 repository: 
 issue: 
 icon: moonx.exchange.moonx.png

@@ -10,7 +10,7 @@ released: 2021-09-29
 updated: 2022-04-23
 version: 1.0.8
 reviews: 
-website: https://profitshare.com.br
+website: https://profitshare.com.br#deadLink
 repository: 
 issue: 
 icon: profitshare.com.br.png

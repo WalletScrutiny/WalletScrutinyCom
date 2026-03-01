@@ -11,7 +11,7 @@ released: 2019-02-20
 updated: 2021-10-22
 version: 8.9.3
 reviews: 7
-website: https://www.polispay.com
+website: https://www.polispay.com#deadLink
 repository: 
 issue: 
 icon: com.polispay.polispay.jpg

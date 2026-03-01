@@ -10,7 +10,7 @@ released: 2021-03-13
 updated: 2021-03-13
 version: '1.0'
 reviews: 
-website: https://diamondbtc.net/
+website: https://diamondbtc.net#deadLink
 repository: 
 issue: 
 icon: com.diamondbtc.ytapp.png

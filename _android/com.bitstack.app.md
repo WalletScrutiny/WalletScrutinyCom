@@ -40,6 +40,6 @@ Bitcoin balances in the app are held by Bitstack (as an agent of Xpollens, an EU
 
 ## Analysis
 
-This is a [**custodial**](https://bitstack-app.com/en/terms-conditions/conditions-generales-de-vente) service: 
+This is a [**custodial**](https://bitstack-app.com/en/terms-conditions/conditions-generales-de-vente#deadLink) service: 
 
 > ​•​the safekeeping and administration of crypto-assets on behalf of customers; (Article 3 (16) (a) MiCA), i.e. "the custody or control, on behalf of customers, of crypto-assets or the means of access to these crypto-assets, where appropriate in the form of private cryptographic keys".  

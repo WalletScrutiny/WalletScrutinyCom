@@ -11,9 +11,9 @@ binaries:
 dimensions: 
 weight: 
 provider: WOOKONG
-providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/blue
-shop: https://wooko.ng/en/blue
+providerWebsite: https://wooko.ng/en#deadLink
+website: https://wooko.ng/en/blue#deadLink
+shop: https://wooko.ng/en/blue#deadLink
 country: CH
 price: 
 repository: 

@@ -14,8 +14,8 @@ dimensions:
 - 13
 weight: 0.9
 provider: Hodllabs, Inc.
-providerWebsite: https://hodllabs.io/
-website: https://hodllabs.io/product.html
+providerWebsite: https://hodllabs.io#deadLink
+website: https://hodllabs.io/product.html#deadLink
 shop: 
 country: US
 price: 
@@ -50,7 +50,7 @@ features:
 
 ## Vault-E Beta Program 
 
-Hodllabs homepage shows the device with a ["Sign Up for Beta!"](https://hodllabs.io/betaprogram.html) button:
+Hodllabs homepage shows the device with a ["Sign Up for Beta!"](https://web.archive.org/web/20250217230700/https://hodllabs.io/betaprogram.html) button:
 
 > Vault E Beta Program. As part of the program, we are sending out the beta version of Vault E to a select few without any strings attached. If you’re an early adopter and love discovering new technologies, then please apply to our Beta Program. Be one of the first to experience the product of our vision and let us know what you think. Your participation and feedback is very important for us and for a successful launch of Vault E.
 
@@ -71,7 +71,7 @@ The package comes with the following:
 
 Based on the video above, the device appears to have a display and a joystick button. It also has a Type-C jack and a micro USB port. The device can connect to a computer or a mobile device. It's form factor is very much like that of {% include walletLink.html wallet='hardware/ledgerNanoS' verdict='true' %}. 
 
-Hodllabs claims the project is Open Source but we [weren't able to find any repository](https://github.com/orgs/hodllabs/repositories) to corroborate this. We asked for [more details](https://twitter.com/BitcoinWalletz/status/1526404072332398592) on Twitter. Hodllabs' Twitter account started posting sometime in August 2019. The [first blog post](https://hodllabs.io/blog.html) was also made during that time.
+Hodllabs claims the project is Open Source but we [weren't able to find any repository](https://github.com/orgs/hodllabs/repositories) to corroborate this. We asked for [more details](https://twitter.com/BitcoinWalletz/status/1526404072332398592) on Twitter. Hodllabs' Twitter account started posting sometime in August 2019. The [first blog post](https://web.archive.org/web/20251107094503/https://hodllabs.io/blog.html) was also made during that time.
 
 Based on the information we've collected, the {{ page.title }} is **not yet released**. 
 

@@ -10,7 +10,7 @@ released: 2021-08-17
 updated: 2021-08-17
 version: '1.0'
 reviews: 
-website: https://cryptomindex.com
+website: https://cryptomindex.com#deadLink
 repository: 
 issue: 
 icon: com.cryptomindex.png

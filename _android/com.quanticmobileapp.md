@@ -10,7 +10,7 @@ released: 2021-02-16
 updated: 2022-09-08
 version: 2.0.37
 reviews: 
-website: http://quan-tic.com
+website: http://quan-tic.com#deadLink
 repository: 
 issue: 
 icon: com.quanticmobileapp.png

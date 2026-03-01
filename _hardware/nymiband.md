@@ -38,7 +38,7 @@ Ever since our initial review, no further updates have been made about the Nymi 
 
 ## Previous Review 2022-02-18
 
-Bionym [rebranded into Nymi in 2014](https://archive.canadianbusiness.com/technology-news/whats-in-a-name-bionym-rebrands-itself-as-nymi/). The company's focus was on wearable biometric devices that authenticated users for various purposes. 
+Bionym [rebranded into Nymi in 2014](https://web.archive.org/web/20230327062919/https://archive.canadianbusiness.com/technology-news/whats-in-a-name-bionym-rebrands-itself-as-nymi/). The company's focus was on wearable biometric devices that authenticated users for various purposes. 
 
 This is the [CoinDesk article](https://www.coindesk.com/tech/2014/02/04/heartbeat-sensing-wristband-doubles-as-bitcoin-wallet/) that broke the news:
 

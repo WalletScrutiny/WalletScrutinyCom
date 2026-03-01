@@ -10,7 +10,7 @@ released: 2019-10-12
 updated: 2019-11-05
 version: 1.0.6
 reviews: 8
-website: http://leveragedapp.io
+website: http://leveragedapp.io#deadLink
 repository: 
 issue: 
 icon: io.leveragedapp.leveraged.png

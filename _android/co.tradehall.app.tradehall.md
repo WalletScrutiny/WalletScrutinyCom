@@ -11,7 +11,7 @@ released: 2022-08-02
 updated: 2023-03-02
 version: 1.0.14
 reviews: 
-website: https://www.tradehall.co
+website: https://www.tradehall.co#deadLink
 repository: 
 issue: 
 icon: co.tradehall.app.tradehall.png
@@ -41,7 +41,7 @@ features:
 ## Analysis 
 
 - This app is related to MetaTrader5.
-- The app allows users to trade in [cryptocurrency CFDs](https://tradehall.co/cryptocurrency/). 
+- The app allows users to trade in [cryptocurrency CFDs](https://tradehall.co/cryptocurrency#deadLink). 
 - Under deposit/withdrawal options, they list the following: 
   > ...credit cards, multiple electronic payment methods, bank wire transfer, local bank transfer, and other payment methods.
 

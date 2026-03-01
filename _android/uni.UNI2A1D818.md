@@ -11,7 +11,7 @@ released: 2021-09-23
 updated: 2021-12-16
 version: 1.4.8
 reviews: 
-website: https://muskbot.io
+website: https://web.archive.org/web/20220111124040/http://muskbot.io/
 repository: 
 issue: 
 icon: uni.UNI2A1D818.jpg

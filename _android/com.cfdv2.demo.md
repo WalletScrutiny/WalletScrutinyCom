@@ -10,7 +10,7 @@ released: 2020-02-13
 updated: 2020-02-14
 version: 0.6.2
 reviews: 
-website: https://www.10fxpro.com/
+website: https://www.10fxpro.com#deadLink
 repository: 
 issue: 
 icon: com.cfdv2.demo.png

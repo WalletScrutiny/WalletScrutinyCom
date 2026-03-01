@@ -10,7 +10,7 @@ released: 2022-11-13
 updated: 2025-11-10
 version: '3.0'
 reviews: 
-website: https://kswappay.com/
+website: https://kswappay.com#deadLink
 repository: 
 issue: 
 icon: com.archgroup.kswappay.jpg

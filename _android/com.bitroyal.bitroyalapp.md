@@ -10,7 +10,7 @@ released: 2021-03-06
 updated: 2021-03-07
 version: '2.1'
 reviews: 
-website: https://bitroyalexchange.com
+website: https://bitroyalexchange.com#deadLink
 repository: 
 issue: 
 icon: com.bitroyal.bitroyalapp.png

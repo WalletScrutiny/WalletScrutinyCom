@@ -12,7 +12,7 @@ released: 2018-08-02
 updated: 2024-02-06
 version: 4.88.4
 reviews: 514
-website: https://www.spot-wallet.com
+website: https://www.spot-wallet.com#deadLink
 repository: 
 issue: 
 icon: com.spot.spot.png

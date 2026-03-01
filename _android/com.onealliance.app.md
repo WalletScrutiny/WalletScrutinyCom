@@ -10,7 +10,7 @@ released:
 updated: 2022-09-28
 version: VARY
 reviews: 
-website: http://client.onechange.com.br
+website: http://client.onechange.com.br#deadLink
 repository: 
 issue: 
 icon: com.onealliance.app.png

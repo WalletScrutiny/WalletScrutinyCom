@@ -52,7 +52,7 @@ From [Trading CFD: Using the Most of Opportunities to Make Money in the Financia
 
 > Thanks to them [CFDs], in addition to currency pairs on Forex, you can work with stocks, stock indices, commodities and even cryptocurrencies. Trading accounts CFD are widely represented by the broker NordFX.
 
-On [Deposits and Withdrawals](https://nordfx.com/faq_deposits_and_withdrawal.html): 
+On [Deposits and Withdrawals](https://nordfx.com/faq_deposits_and_withdrawal.html#deadLink): 
 
 > *How can I fund my account?* A trading account can be funded by a bank transfer, VISA and MasterCard cards, electronic payment systems (eg, WebMoney, QIWI, Skrill, Yandex.Dengi, Alpha-Click, etc.) or through an online exchange.
 

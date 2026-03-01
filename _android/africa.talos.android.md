@@ -11,7 +11,7 @@ released: 2021-07-04
 updated: 2022-05-27
 version: 2.2.5
 reviews: 
-website: https://talos.africa
+website: https://talos.africa#deadLink
 repository: 
 issue: 
 icon: africa.talos.android.png
@@ -40,7 +40,7 @@ features:
 - Buy and sell crypto instantly, get payments directly into your bank accounts.
 - Protect your wallet with 2-factor authentication, backup your keys. We do not hold your funds - your private keys, your crypto.
 
-### [Terms](https://talos.africa/terms)
+### [Terms](https://talos.africa/terms#deadLink)
 
 > Upon completion of registration, Talos will provide you with access to its services, including but not limited to our Digital Currency Wallets (a Network Wallet, and a Spending Wallet). Your Digital Currency Wallet allows you to request, receive, store, track, transfer, and manage your balances of Digital Currency. Talos has the right, in its sole discretion, to provide, modify, or terminate any of its services based on its development plan. Further, Talos could allow or prohibit certain user’s use of any of its services.
 >
@@ -48,7 +48,7 @@ features:
 > 
 > The Network Wallet will generally be made available on a non-custodial basis enabling you to self-custody your Digital Currency. All Digital Currency held in your Spending Wallet will be custodial assets held on trust by Talos for your benefit.
 
-### [FAQ](https://talos.africa/faqs) 
+### [FAQ](https://web.archive.org/web/20230609052003/https://talos.africa/faqs) 
 
 > We currently do not support buy or sell at the moment due to CBN policy, although preparations are being made to push out our peer 2 peer (P2P) feature soon.
 

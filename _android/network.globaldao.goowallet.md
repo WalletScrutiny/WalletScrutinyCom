@@ -10,7 +10,7 @@ released: 2019-12-10
 updated: 2020-10-25
 version: 0.1.0
 reviews: 
-website: https://goorewards.com
+website: https://web.archive.org/web/20230304212439/http://goorewards.com/
 repository: 
 issue: 
 icon: network.globaldao.goowallet.png

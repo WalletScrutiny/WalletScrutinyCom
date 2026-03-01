@@ -10,7 +10,7 @@ released: 2020-09-13
 updated: 2021-11-24
 version: '2.4'
 reviews: 
-website: https://fastbitng.com
+website: https://fastbitng.com#deadLink
 repository: 
 issue: 
 icon: com.codepoint.fastbit.png

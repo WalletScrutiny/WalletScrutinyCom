@@ -10,7 +10,7 @@ released: 2022-09-13
 updated: 2022-09-26
 version: 1.0.0
 reviews: 
-website: https://eybinary.xtrading.co/
+website: https://eybinary.xtrading.co#deadLink
 repository: 
 issue: 
 icon: xtrading.eybinary.co.png

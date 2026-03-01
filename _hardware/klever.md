@@ -34,13 +34,13 @@ features:
 
 ---
 
-Klever is a company with many [development goals](https://klever.finance/roadmap/) in mind. It's projects include smart phone wallets, crypto debit cards, its own blockchain, a cryptocurrency exchange and the Klever Hardware wallet which concluded its Pre-Sale in the 4th quarter of 2021. They claim that the Pre-Sale sold out. 
+Klever is a company with many [development goals](https://web.archive.org/web/20230201032825/https://klever.finance/roadmap/) in mind. It's projects include smart phone wallets, crypto debit cards, its own blockchain, a cryptocurrency exchange and the Klever Hardware wallet which concluded its Pre-Sale in the 4th quarter of 2021. They claim that the Pre-Sale sold out. 
 
 ## Advertised Specifications
 
 We were not able to find a video review of the actual device, so we'll go by the advertised technical specifications with what information is publicly available.
 
-We derived information from [this article](https://news.klever.io/p/focus-on-klever-hard-wallet) written by Marcelo Soussa, Klever's Head Engineer for their Hard Wallet Squad. 
+We derived information from [this article](https://web.archive.org/web/20220523132824/https://news.klever.io/p/focus-on-klever-hard-wallet) written by Marcelo Soussa, Klever's Head Engineer for their Hard Wallet Squad. 
 
 - There are two types of connections for the device:
   - Bluetooth
@@ -64,7 +64,7 @@ There was no mention of a display screen on the Klever device.
 
 ## Verdict
 
-Without a video review of the physical device, we can only base our analysis on the information that is publicly available. They claim in [this article](https://news.klever.io/p/klever-hardware-wallet-security-best) that:
+Without a video review of the physical device, we can only base our analysis on the information that is publicly available. They claim in [this article](https://web.archive.org/web/20220703015845/https://news.klever.io/p/klever-hardware-wallet-security-best) that:
 
 > With this gadget, everyone can authenticate and confirm transactions without having to resort to their private key or any other sensitive code, as the process is solely managed by the device. The keys, passwords, pin numbers and mnemonics, typical security strategies of the digital world, may be only required during the device initial setup.
 

@@ -42,7 +42,7 @@ This is an [Open Source](https://github.com/nraboy/open-ledger-micro) **do-it-yo
 
 > The point of hardware wallets is that they hold encrypted private keys, never expose the private keys, and operate in an offline environment. We are using a Raspberry Pi Zero because it has neither WiFi or Bluetooth which makes it much more difficult to compromise.
 >
-> Once configured, software like Bonjour on a host machine will allow the Raspberry Pi Zero to be accessed by its hostname. For example, http://raspberrypi.local would show the Angular web application.
+> Once configured, software like Bonjour on a host machine will allow the Raspberry Pi Zero to be accessed by its hostname. For example, http://raspberrypi.local#deadLink would show the Angular web application.
 >
 > Sensitive information such as private keys are encrypted on the Raspberry Pi and are never exposed through HTTP. Transactions are created and signed directly on the device and returned to the Angular application.
 

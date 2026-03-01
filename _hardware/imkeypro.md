@@ -35,7 +35,7 @@ features:
 
 ---
 
-imKey is only partially Open Source. According to its [User Agreement:](https://imkey.im/tos?locale=en-us)
+imKey is only partially Open Source. According to its [User Agreement:](https://imkey.im/tos?locale=en-us#deadLink)
 
 > Section 3.3.2 imKey software open source code may contain third-party-developed open source license and source code and the Company does not provide any guarantee for functions, non-existence of virus or vulnerabilities etc of such third-party-developed open source license and source code. Developer Users shall, at their sole discretion, decide the consequences of using imKey software open source code. Developer Users shall carefully read and then agree with relevant open source licenses and notices of the Company updated from time to time
 
@@ -47,7 +47,7 @@ Furthermore, this is what it has to say about its [Secure Element chip](https://
 
 [imKey Pro Unboxing Video and Guide](https://www.youtube.com/watch?v=Ffc51tHNVwk)
 
-The device is paired via Bluetooth with the {% include walletLink.html wallet='android/im.token.app' verdict='true' %}. It is also possible to pair with the [imKey Manager desktop software](https://imkey.im/manager?locale=en-us) by connecting through USB. The imKey Manager desktop software is how the device's firmware is updated.
+The device is paired via Bluetooth with the {% include walletLink.html wallet='android/im.token.app' verdict='true' %}. It is also possible to pair with the [imKey Manager desktop software](https://web.archive.org/web/20230924140518/https://imkey.im/manager?locale=en-us) by connecting through USB. The imKey Manager desktop software is how the device's firmware is updated.
 
 ## Private keys can be created offline - ✔️
 

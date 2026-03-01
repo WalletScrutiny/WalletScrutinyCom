@@ -10,7 +10,7 @@ released: 2022-03-11
 updated: 2022-05-05
 version: 0.0.3
 reviews: 
-website: https://swappy.finance
+website: https://swappy.finance#deadLink
 repository: 
 issue: 
 icon: finance.swappy.swappy.png

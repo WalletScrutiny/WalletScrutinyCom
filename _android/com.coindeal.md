@@ -11,7 +11,7 @@ released: 2019-11-04
 updated: 2020-08-18
 version: 1.0.8
 reviews: 
-website: https://coindeal.com/
+website: https://coindeal.com#deadLink
 repository: 
 issue: 
 icon: com.coindeal.png

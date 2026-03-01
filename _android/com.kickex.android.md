@@ -39,12 +39,12 @@ features:
 
 ## Analysis
 
-- The [terms](https://id.kickex.com/terms/main) are only available once the user signs in.
+- The [terms](https://id.kickex.com/terms/main#deadLink) are only available once the user signs in.
 - Section 25.5 of the terms state that the exchange will maintain **full custody** of the account in the event that the account is closed due to fraud, violations of the law or violation of the terms. 
 - Section 25.5 also says the exchange will cooperate with government authorities regarding accounts that fall under this category.
 - Section 25 details their ability to suspend a user's access to the account.
 - We were provided with a Bech32 and legacy Bitcoin wallet address.
-- The provider also has a [law enforcement cooperation policy.](https://id.kickex.com/law-enforcement)
+- The provider also has a [law enforcement cooperation policy.](https://id.kickex.com/law-enforcement#deadLink)
 - The provider mentions in its homepage that it does not have control over the user's private keys because of the Mosaic Wallet's System.
-- This page states the use of [cold-storage](https://id.kickex.com/company).
+- This page states the use of [cold-storage](https://id.kickex.com/company#deadLink).
 - This provider is **custodial**

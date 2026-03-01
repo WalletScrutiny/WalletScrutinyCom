@@ -46,7 +46,7 @@ Liquid Pro is a **licensed exchange**, as quoted below:
 
 > We manage digital assets using a combination of cold wallet & Multi-party computation (MPC) technology.
 
-Additionally, [the blog also states](https://blog.liquid.com/how-we-make-liquid-a-secure-cryptocurrency-exchange) that Liquid Pro keeps funds in cold storage.
+Additionally, [the blog also states](https://blog.liquid.com/how-we-make-liquid-a-secure-cryptocurrency-exchange#deadLink) that Liquid Pro keeps funds in cold storage.
 
 > On Liquid, 100% of customer funds are stored in cold storage, essentially making Liquid a form of cryptocurrency custody solution. 
 

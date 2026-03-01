@@ -10,7 +10,7 @@ released:
 updated: 2022-08-01
 version: VARY
 reviews: 
-website: https://inka.finance/
+website: https://inka.finance#deadLink
 repository: 
 issue: 
 icon: com.inkafinance.android.inka.png

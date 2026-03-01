@@ -23,7 +23,7 @@ date: 2023-07-01
 signer: 
 twitter: reserveprotocol
 social:
-- https://discord.com/invite/YmbQwmmKEv
+- https://discord.com/invite/YmbQwmmKEv#deadLink
 - https://www.facebook.com/holareserve
 redirect_from: 
 developerName: Best Friend Finance, LLC
@@ -54,9 +54,9 @@ You can make loads and withdrawals with different currencies and digital platfor
 
 ## Analysis
 
-- The app [allows sending and receiving Bitcoin.](https://intercom.help/reserve/es/articles/6622001-como-enviar-criptomonedas-en-la-opcion-de-transacciones-btc-eth)
-- The definition of "CryptoWallet" in section (v) of the [Terms](https://intercom.help/reserve/es/articles/7207736-terminos-y-condiciones-mexico), describes the private key as "guarded" by Reserve (Translated from Spanish using Google translate), or some third party.
-- The app lists all compliances and prohibitions [here.](https://intercom.help/reserve/es/articles/5166389-acuerdo-de-usuario-de-reserve-app). This is where access can also be revoked if the user violates any of the terms or is disqualified.
+- The app [allows sending and receiving Bitcoin.](https://web.archive.org/web/20230929012455/https://intercom.help/reserve/es/articles/6622001-como-enviar-criptomonedas-en-la-opcion-de-transacciones-btc-eth)
+- The definition of "CryptoWallet" in section (v) of the [Terms](https://intercom.help/reserve/es/articles/7207736-terminos-y-condiciones-mexico#deadLink), describes the private key as "guarded" by Reserve (Translated from Spanish using Google translate), or some third party.
+- The app lists all compliances and prohibitions [here.](https://intercom.help/reserve/es/articles/5166389-acuerdo-de-usuario-de-reserve-app#deadLink). This is where access can also be revoked if the user violates any of the terms or is disqualified.
 - From the description we can glean that there are limitations on the usage of the account wherein the wallet is tied to. In short, if an account is terminated for any of the reasons stated in the document above, the user loses access to his wallet. This is bolstered by the statement of Reserve in its Terms and Conditions:
 
 > cuya llave privada podrá estar custodiada por Reserve

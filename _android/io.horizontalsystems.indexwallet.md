@@ -10,7 +10,7 @@ released: 2020-07-13
 updated: 2020-07-15
 version: 0.16.1
 reviews: 
-website: https://indexchain.org
+website: https://indexchain.org#deadLink
 repository: 
 issue: 
 icon: io.horizontalsystems.indexwallet.png

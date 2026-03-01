@@ -17,7 +17,7 @@ social:
 
 ---
 
-Florian Klien made a derivative work based on the [Piper Wallet](https://web.archive.org/web/20160309032223/http://cryptographi.com/) in 2014. It is [Open Source](https://github.com/piperwallet/Piper), but the code is no longer maintained. It consisted of the following components: 
+Florian Klien made a derivative work based on the [Piper Wallet](http://cryptographi.com) in 2014. It is [Open Source](https://github.com/piperwallet/Piper), but the code is no longer maintained. It consisted of the following components: 
 
 > - Thermal printer
 > - Raspberry Pi

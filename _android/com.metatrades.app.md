@@ -10,7 +10,7 @@ released:
 updated: 2023-01-05
 version: 1.1.93
 reviews: 
-website: https://www.meta-trades.com/
+website: https://www.meta-trades.com#deadLink
 repository: 
 issue: 
 icon: com.metatrades.app.png

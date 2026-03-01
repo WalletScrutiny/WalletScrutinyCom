@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2021-05-02
 version: 1.0.31
 reviews: 0
-website: https://www.cryptoneed.pro/
+website: https://www.cryptoneed.pro#deadLink
 repository: 
 issue: 
 icon: com.cryptoneedpro.jpg

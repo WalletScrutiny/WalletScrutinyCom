@@ -11,7 +11,7 @@ released: 2021-12-21
 updated: 2022-02-26
 version: '1.5'
 reviews: 
-website: https://cokkieswallet.com
+website: https://cokkieswallet.com#deadLink
 repository: 
 issue: 
 icon: com.cokkieswallet.mobileapp.png

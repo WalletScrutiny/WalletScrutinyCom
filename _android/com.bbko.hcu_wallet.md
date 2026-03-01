@@ -10,7 +10,7 @@ released: 2020-07-27
 updated: 2021-08-11
 version: '1.9'
 reviews: 
-website: https://healthchainus.com/
+website: https://healthchainus.com#deadLink
 repository: 
 issue: 
 icon: com.bbko.hcu_wallet.png

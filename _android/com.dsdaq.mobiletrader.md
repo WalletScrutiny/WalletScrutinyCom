@@ -11,7 +11,7 @@ released: 2019-12-24
 updated: 2022-01-20
 version: 3.0.4
 reviews: 11
-website: https://dsdaq.com
+website: https://dsdaq.com#deadLink
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png

@@ -10,7 +10,7 @@ released: 2020-08-17
 updated: 2022-07-11
 version: 2.7.3
 reviews: 
-website: http://www.pdfae.ph
+website: http://www.pdfae.ph#deadLink
 repository: 
 issue: 
 icon: com.gungen.chainup.png

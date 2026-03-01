@@ -10,7 +10,7 @@ released: 2020-02-11
 updated: 2020-02-12
 version: 1.0.0
 reviews: 
-website: https://worldshare.network
+website: https://worldshare.network#deadLink
 repository: 
 issue: 
 icon: network.worldshare.safewallet.png

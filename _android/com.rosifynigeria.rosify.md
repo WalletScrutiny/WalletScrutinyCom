@@ -10,7 +10,7 @@ released: 2020-07-25
 updated: 2020-07-25
 version: 2.3.9
 reviews: 
-website: https://www.rosify.ng/
+website: https://www.rosify.ng#deadLink
 repository: 
 issue: 
 icon: com.rosifynigeria.rosify.png

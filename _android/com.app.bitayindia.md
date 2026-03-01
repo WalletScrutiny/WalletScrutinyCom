@@ -10,7 +10,7 @@ released: 2022-05-25
 updated: 2022-05-25
 version: 1.0.0
 reviews: 
-website: https://www.bitay.co.in/
+website: https://www.bitay.co.in#deadLink
 repository: 
 issue: 
 icon: com.app.bitayindia.png

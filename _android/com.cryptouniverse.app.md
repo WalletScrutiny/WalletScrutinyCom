@@ -10,7 +10,7 @@ released: 2020-07-03
 updated: 2020-07-03
 version: 1.0.0
 reviews: 
-website: http://cryptouniversep2p.com/
+website: http://cryptouniversep2p.com#deadLink
 repository: 
 issue: 
 icon: com.cryptouniverse.app.png

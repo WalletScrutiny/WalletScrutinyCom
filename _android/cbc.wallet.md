@@ -10,7 +10,7 @@ released: 2022-03-27
 updated: 2022-03-27
 version: '9.8'
 reviews: 
-website: https://cryptoboxcoin.com/
+website: https://web.archive.org/web/20240524125438/https://cryptoboxcoin.com/
 repository: 
 issue: 
 icon: cbc.wallet.png

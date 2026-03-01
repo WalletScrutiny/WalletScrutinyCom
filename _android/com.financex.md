@@ -11,7 +11,7 @@ released: 2019-01-15
 updated: 2020-01-13
 version: 1.3.12
 reviews: 
-website: http://www.financex.io
+website: http://www.financex.io#deadLink
 repository: 
 issue: 
 icon: com.financex.png

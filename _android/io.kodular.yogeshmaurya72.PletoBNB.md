@@ -10,7 +10,7 @@ released: 2022-04-11
 updated: 2022-04-11
 version: 3.0.3.1
 reviews: 
-website: https://www.pletobnb.io/
+website: https://www.pletobnb.io#deadLink
 repository: 
 issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png

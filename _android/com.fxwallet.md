@@ -11,7 +11,7 @@ released: 2021-03-26
 updated: 2021-09-30
 version: '5.0'
 reviews: 17
-website: https://fxwallet.info/
+website: https://fxwallet.info#deadLink
 repository: 
 issue: 
 icon: com.fxwallet.png
@@ -63,7 +63,7 @@ Some users report having issues with this app:
 
 ### User Agreement
 
-[Section 14, a.](https://fxwallet.info/page/termOfUse) states:
+[Section 14, a.](https://fxwallet.info/page/termOfUse#deadLink) states:
 
 > You agree that FXWALLET shall have the right to **immediately suspend your account (and any accounts beneficially owned by related entities or affiliates), freeze or lock the funds in all such accounts, and suspend your access to FXWALLET  for any reason** including if it suspects any such accounts to be in violation of these Terms, our Privacy Policy, or any applicable laws and regulations. You agree that FXWALLET shall not be liable to you for any permanent or temporary modification, suspension or termination of your Account or access to all or any portion of the Services. 
 

@@ -10,7 +10,7 @@ released: 2022-03-14
 updated: 2022-03-14
 version: '1.0'
 reviews: 
-website: https://finn.exchange
+website: https://finn.exchange#deadLink
 repository: 
 issue: 
 icon: com.finnswap.app.png

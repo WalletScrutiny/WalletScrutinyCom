@@ -10,7 +10,7 @@ released: 2021-12-06
 updated: 2021-12-06
 version: 1.0.0
 reviews: 
-website: https://swapcrypto.ca/
+website: https://swapcrypto.ca#deadLink
 repository: 
 issue: 
 icon: com.swapcrypto.wallet.jpg

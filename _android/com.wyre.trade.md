@@ -11,7 +11,7 @@ released: 2021-04-30
 updated: 2021-07-19
 version: 1.1.7
 reviews: 4
-website: https://wyretrade.com/
+website: https://wyretrade.com#deadLink
 repository: 
 issue: 
 icon: com.wyre.trade.png
@@ -49,7 +49,7 @@ The official site is fairly small and only has a few pages worth noting. The lin
 
 ### User Agreement
 
-[The Terms and Conditions has an Anti-Money Laundering statement](https://wyretrade.com/terms/), saying that by using their services, you agree to undergo KYC. They obtain personal information, including address, SSN, and the ID verification document.
+[The Terms and Conditions has an Anti-Money Laundering statement](https://wyretrade.com/terms#deadLink), saying that by using their services, you agree to undergo KYC. They obtain personal information, including address, SSN, and the ID verification document.
 
 **Termination Clause**
 

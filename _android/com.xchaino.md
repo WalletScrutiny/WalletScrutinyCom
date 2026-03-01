@@ -42,7 +42,7 @@ features:
 
 ## Analysis 
 
-- We translated a portion of the [Terms](https://exchaino.com/rules) using Google Translate: 
+- We translated a portion of the [Terms](https://exchaino.com/rules#deadLink) using Google Translate: 
 
 > اکسچینو این اطمینان را می‌دهد که دارایی‌های کاربران را نزد خود به امانت و به بهترین شکل و با بالاترین استانداردهای امنیتی ممکن، حفظ نماید. در صورت بروز هرگونه مشکل امنیتی، اکسچینو متعهد به جبران خسارت خواهد بود
 

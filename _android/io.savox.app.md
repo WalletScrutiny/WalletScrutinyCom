@@ -10,7 +10,7 @@ released: 2022-07-26
 updated: 2022-10-17
 version: 1.0.7
 reviews: 
-website: https://savox.io
+website: https://savox.io#deadLink
 repository: 
 issue: 
 icon: io.savox.app.png

@@ -11,7 +11,7 @@ released: 2018-11-13
 updated: 2019-09-16
 version: 1.2.8
 reviews: 
-website: http://www.cryptopocket.info/
+website: http://www.cryptopocket.info#deadLink
 repository: 
 issue: 
 icon: app.org.cryptopocket.jpg

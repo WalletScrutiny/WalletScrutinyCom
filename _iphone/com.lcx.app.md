@@ -11,7 +11,7 @@ released: 2022-06-27
 updated: 2024-09-17
 version: 2.5.3
 reviews: 18
-website: https://www.LCX.com/mobile/
+website: https://web.archive.org/web/20260116090452/https://www.lcx.com/mobile/
 repository: 
 issue: 
 icon: com.lcx.app.jpg

@@ -11,7 +11,7 @@ released:
 updated: 2021-04-08
 version: '1.33'
 reviews: 10
-website: https://pungowallet.com
+website: https://pungowallet.com#deadLink
 repository: 
 issue: 
 icon: cloud.peer2.pungo_wallet.png

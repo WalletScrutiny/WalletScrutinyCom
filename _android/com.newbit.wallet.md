@@ -10,7 +10,7 @@ released: 2022-05-23
 updated: 2022-05-27
 version: 1.0.3
 reviews: 
-website: https://newbitwallet.com
+website: https://newbitwallet.com#deadLink
 repository: 
 issue: 
 icon: com.newbit.wallet.png

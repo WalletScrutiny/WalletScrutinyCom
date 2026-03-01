@@ -10,7 +10,7 @@ released: 2022-05-11
 updated: 2022-12-23
 version: '1.1'
 reviews: 
-website: https://www.wetrade.app/
+website: https://www.wetrade.app#deadLink
 repository: 
 issue: 
 icon: com.wetrade.android.app.png

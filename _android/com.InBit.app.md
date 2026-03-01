@@ -10,7 +10,7 @@ released: 2020-07-29
 updated: 2022-05-26
 version: 18.2.15
 reviews: 
-website: https://inbitwetrust.com/
+website: https://inbitwetrust.com#deadLink
 repository: 
 issue: 
 icon: com.InBit.app.png

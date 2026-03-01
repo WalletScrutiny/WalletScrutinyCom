@@ -15,7 +15,7 @@ dimensions:
 weight: 0.75
 provider: Ledger
 providerWebsite: https://www.ledger.com/
-website: https://web.archive.org/web/20160601075009/https://www.ledgerwallet.com/products/6-ledger-unplugged
+website: https://www.ledgerwallet.com/products/6-ledger-unplugged
 shop: 
 country: FR
 price: 29EUR
@@ -54,7 +54,7 @@ The Ledger Open Source Java Card applet is also known as {% include walletLink.h
 >
 > Developers can also check if a Java Card platform is supported and its performance with the Eligibility applet
 
-You can still find the product page for the {{ page.title }} on [archive.org](https://web.archive.org/web/20160601075009/https://www.ledgerwallet.com/products/6-ledger-unplugged)
+You can still find the product page for the {{ page.title }} on [archive.org](https://www.ledgerwallet.com/products/6-ledger-unplugged)
 
 ## Discontinued 
 

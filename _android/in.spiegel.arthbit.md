@@ -24,7 +24,7 @@ signer:
 twitter: ArthBitExchange
 social:
 - https://www.facebook.com/ArthBitExchange
-- https://www.youtube.com/@arthbitexchange569
+- https://www.youtube.com/@arthbitexchange569#deadLink
 - https://www.instagram.com/arthbitexchange
 - https://www.linkedin.com/company/arthbitexchange
 - https://t.me/ArthBitExchange

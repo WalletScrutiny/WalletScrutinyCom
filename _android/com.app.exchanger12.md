@@ -10,7 +10,7 @@ released: 2021-03-27
 updated: 2021-03-27
 version: '1.0'
 reviews: 
-website: https://maxicoinexchange.com
+website: https://maxicoinexchange.com#deadLink
 repository: 
 issue: 
 icon: com.app.exchanger12.png

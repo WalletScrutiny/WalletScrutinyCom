@@ -10,7 +10,7 @@ released: 2019-04-11
 updated: 2021-02-26
 version: 1.0.3
 reviews: 
-website: https://www.coinpoket.com/
+website: https://www.coinpoket.com#deadLink
 repository: 
 issue: 
 icon: com.coinpoket.png

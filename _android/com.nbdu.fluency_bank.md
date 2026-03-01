@@ -11,7 +11,7 @@ released: 2020-02-27
 updated: 2020-04-29
 version: 1.0.0
 reviews: 8
-website: https://www.fluencybank.com/
+website: https://www.fluencybank.com#deadLink
 repository: 
 issue: 
 icon: com.nbdu.fluency_bank.png
@@ -47,14 +47,14 @@ features:
 
 > With Fluency you get Tier-1 banking level security. **We store your cryptocurrencies in dedicated hardware security modules** located in Swiss Alps.
 
-## Information from the [Website's Archive](https://web.archive.org/web/20200212151209/https://www.fluencybank.com/) 
+## Information from the [Website's Archive](https://www.fluencybank.com#deadLink) 
 
 > The modules are located under 1,000 metres of granite in a heavily guarded bunker in Switzerland.
 
 ## Analysis 
 
 - The website is no longer online and is parked.
-- The last working [archive entry](https://web.archive.org/web/20200212151209/https://www.fluencybank.com/) of this app's website was made in 2020.
+- The last working [archive entry](https://www.fluencybank.com#deadLink) of this app's website was made in 2020.
 - This app was last updated in 2020.
 - Based on the app description itself, **"We store your cryptocurrencies in dedicated hardware security modules** located in Swiss Alps", this would make it **custodial**. 
 - However, when we tried to install the app on Blue Stacks 5 Android 9, it would not install. The Google Play circle just kept circling.

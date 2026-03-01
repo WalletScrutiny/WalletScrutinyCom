@@ -10,7 +10,7 @@ released: 2020-01-13
 updated: 2020-01-24
 version: '1.5'
 reviews: 
-website: https://www.koinzaar.com/
+website: https://www.koinzaar.com#deadLink
 repository: 
 issue: 
 icon: com.koinzaar.app.png

@@ -10,7 +10,7 @@ released: 2020-04-02
 updated: 2020-08-07
 version: 2.1.0
 reviews: 
-website: https://www.rightbtc.com
+website: https://www.rightbtc.com#deadLink
 repository: 
 issue: 
 icon: rightbtc.app.png

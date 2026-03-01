@@ -28,7 +28,7 @@ social:
 - https://t.me/aagventures
 - https://www.linkedin.com/company/aag-ventures
 - https://www.facebook.com/aagventures
-- https://discord.com/invite/aagventures
+- https://discord.com/invite/aagventures#deadLink
 features: 
 developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 

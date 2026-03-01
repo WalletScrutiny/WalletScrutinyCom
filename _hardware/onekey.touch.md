@@ -32,7 +32,7 @@ date: 2025-06-06
 signer: 
 twitter: OneKeyHQ
 social:
-- https://discord.com/invite/nwUJaTzjzv
+- https://discord.com/invite/nwUJaTzjzv#deadLink
 builds: 
 features: 
 
@@ -44,11 +44,11 @@ Note from Provider:
 
 Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' verdict='true' %}
 
-## [Operation Instructions](https://help.onekey.so/hc/en-us/articles/360002123856-OneKey-Hardware-Wallet-Quick-Start-Tutorial)
+## [Operation Instructions](https://help.onekey.so/hc/en-us/articles/360002123856-OneKey-Hardware-Wallet-Quick-Start-Tutorial#deadLink)
 
 1. Can the private keys be created offline?
 
-**Yes**. See [tutorial on seed generation](https://help.onekey.so/hc/en-us/articles/360004487195)
+**Yes**. See [tutorial on seed generation](https://help.onekey.so/hc/en-us/articles/360004487195#deadLink)
 
 2. Are the private keys shared?
 

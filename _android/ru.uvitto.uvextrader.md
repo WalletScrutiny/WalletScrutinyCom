@@ -10,7 +10,7 @@ released:
 updated: 2020-04-05
 version: 2.0.2
 reviews: 
-website: http://exmo.uvitto.ru
+website: http://exmo.uvitto.ru#deadLink
 repository: 
 issue: 
 icon: ru.uvitto.uvextrader.jpg

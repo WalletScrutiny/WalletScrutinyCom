@@ -11,7 +11,7 @@ released: 2018-09-20
 updated: 2021-03-23
 version: 3.4.12
 reviews: 29
-website: https://bitasset.com
+website: https://bitasset.com#deadLink
 repository: 
 issue: 
 icon: com.bitasset.www.png
@@ -49,7 +49,7 @@ features:
 
 ## The Site
 
-The app's listed domain [bitasset.com](https://bitasset.com) is no longer available - Status 404.
+The app's listed domain [bitasset.com](https://bitasset.com#deadLink) is no longer available - Status 404.
 
 ## The App
 

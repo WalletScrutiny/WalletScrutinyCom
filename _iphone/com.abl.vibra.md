@@ -11,7 +11,7 @@ released: 2021-10-24
 updated: 2023-06-16
 version: 1.6.82
 reviews: 31
-website: https://www.vibra.one/
+website: https://www.vibra.one#deadLink
 repository: 
 issue: 
 icon: com.abl.vibra.jpg

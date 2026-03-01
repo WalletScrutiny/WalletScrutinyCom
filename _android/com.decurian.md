@@ -10,7 +10,7 @@ released: 2021-12-27
 updated: 2022-03-02
 version: '2.0'
 reviews: 18
-website: https://decurian.com
+website: https://decurian.com#deadLink
 repository: 
 issue: 
 icon: com.decurian.jpg

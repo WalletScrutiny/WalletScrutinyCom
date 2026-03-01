@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: CRPT Secure SA (Proprietary) Limited
 providerWebsite: 
-website: https://www.crptsecure.com/
-shop: https://www.crptsecure.com/pricing/
+website: https://www.crptsecure.com#deadLink
+shop: https://www.crptsecure.com/pricing#deadLink
 country: ZA
 price: 6USD
 repository: 
@@ -44,7 +44,7 @@ Founded by Matthew Wilson, CRPT secure is a service with a "Patent Application P
 > Pin Tab<br>
 > Pin-Tab technology to encrypt your seeds, printed on quality paper in stored in quality embossed envelopes.
 
-The [Terms and Conditions](https://www.crptsecure.com/terms-and-conditions/) are generally geared towards the payment details between CRPT Secure SA (Proprietary) Limited and the user. 
+The [Terms and Conditions](https://www.crptsecure.com/terms-and-conditions#deadLink) are generally geared towards the payment details between CRPT Secure SA (Proprietary) Limited and the user. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YbTTtfjiqi8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

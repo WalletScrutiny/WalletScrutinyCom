@@ -10,7 +10,7 @@ released: 2019-06-12
 updated: 2019-06-21
 version: '1.2'
 reviews: 
-website: https://www.tentybit.com/
+website: https://www.tentybit.com#deadLink
 repository: 
 issue: 
 icon: com.tentybit.otc.png

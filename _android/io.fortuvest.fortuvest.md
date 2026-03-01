@@ -10,7 +10,7 @@ released: 2020-03-27
 updated: 2020-03-27
 version: 1.0.0
 reviews: 
-website: https://www.fortuvest.io
+website: https://www.fortuvest.io#deadLink
 repository: 
 issue: 
 icon: io.fortuvest.fortuvest.png

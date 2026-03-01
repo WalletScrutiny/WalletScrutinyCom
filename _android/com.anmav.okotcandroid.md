@@ -10,7 +10,7 @@ released: 2019-11-08
 updated: 2019-12-09
 version: 1.2.0
 reviews: 
-website: https://okotc.io/
+website: https://okotc.io#deadLink
 repository: 
 issue: 
 icon: com.anmav.okotcandroid.jpg

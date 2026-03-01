@@ -66,7 +66,7 @@ The blog post noted that it will be available for pre-order in early 2019. It is
 
 ## Previous Analysis
 
-- The homepage for ANDGO, is showing a **NET::ERR_CERT_AUTHORITY_INVALID** error, making the site inaccessible. The site can be viewed on [web archive](https://web.archive.org/web/20210225095325/https://andgo.co.jp/en). 
+- The homepage for ANDGO, is showing a **NET::ERR_CERT_AUTHORITY_INVALID** error, making the site inaccessible. The site can be viewed on [web archive](https://andgo.co.jp/en). 
 - The [last tweet](https://twitter.com/andgo_inc/status/1419606751750483973) of ANDGO's twitter account was made on July 26, 2021. They were recruiting software engineers.
 - According to their roadmap, beta testing for their SafetyNet Technology was supposed to occur on the summer of 2019, while its launch would be on fall of the same year.
 

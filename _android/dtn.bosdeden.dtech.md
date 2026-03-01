@@ -10,7 +10,7 @@ released: 2021-03-05
 updated: 2021-03-05
 version: 1.0.0
 reviews: 
-website: http://bisnis188.tech/
+website: http://bisnis188.tech#deadLink
 repository: 
 issue: 
 icon: dtn.bosdeden.dtech.png

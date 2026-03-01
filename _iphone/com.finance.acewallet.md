@@ -11,7 +11,7 @@ released: 2021-07-26
 updated: 2023-06-07
 version: 1.3.12
 reviews: 0
-website: https://acewallet.finance/
+website: https://acewallet.finance#deadLink
 repository: 
 issue: 
 icon: com.finance.acewallet.jpg

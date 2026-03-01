@@ -10,7 +10,7 @@ released: 2019-08-21
 updated: 2019-08-21
 version: '1.0'
 reviews: 
-website: http://h3plex.com/
+website: http://h3plex.com#deadLink
 repository: 
 issue: 
 icon: com.h3blockchain.h3blockchain.png

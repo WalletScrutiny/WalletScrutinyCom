@@ -10,7 +10,7 @@ released: 2022-02-23
 updated: 2022-04-19
 version: 1.0.13
 reviews: 
-website: https://btcpari.com
+website: https://btcpari.com#deadLink
 repository: 
 issue: 
 icon: com.btcpari.app.png

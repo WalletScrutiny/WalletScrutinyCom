@@ -10,7 +10,7 @@ released: 2022-10-23
 updated: 2022-10-23
 version: 1.0.1
 reviews: 
-website: https://om.exchange/
+website: https://om.exchange#deadLink
 repository: 
 issue: 
 icon: exchange.om.png

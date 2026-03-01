@@ -25,7 +25,7 @@ twitter: paxful
 social:
 - https://www.facebook.com/paxful
 - https://www.reddit.com/r/paxful
-- https://www.youtube.com/PaxfulOfficial
+- https://www.youtube.com/PaxfulOfficial#deadLink
 - https://www.instagram.com/paxful/
 redirect_from:
 - /paxful/
@@ -38,7 +38,7 @@ features:
 
 ---
 
-According to their [TOS](https://paxful.com/terms-of-service):
+According to their [TOS](https://paxful.com/terms-of-service#deadLink):
 
 > The **hosted digital currency wallet** service provided by Paxful is a secure
   method of storing, sending, and receiving digital currency. Paxful

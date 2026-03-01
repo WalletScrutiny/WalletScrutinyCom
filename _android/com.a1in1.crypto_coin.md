@@ -10,7 +10,7 @@ released: 2021-06-14
 updated: 2021-06-19
 version: 1.0.2
 reviews: 
-website: https://a1in1.com
+website: https://a1in1.com#deadLink
 repository: 
 issue: 
 icon: com.a1in1.crypto_coin.jpg

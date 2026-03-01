@@ -10,7 +10,7 @@ released:
 updated: 2022-08-09
 version: 1.5.2
 reviews: 
-website: https://copy.tiger.trade
+website: https://web.archive.org/web/20250411071812/https://copy.tiger.trade/
 repository: 
 issue: 
 icon: trade.tiger.copytrading.png

@@ -13,7 +13,7 @@ weight:
 provider: iCoin Technology Inc.
 providerWebsite: https://icointechnology.com/
 website: 
-shop: https://www.icointechnology.store/
+shop: https://www.icointechnology.store#deadLink
 country: US
 price: 199USD
 repository: 
@@ -64,7 +64,7 @@ From iCoin Technology's [News page](https://icointechnology.com/news/).
 
 ## Quick Start Guide
 
-- The Quick Start Guide is still available in [PDF](https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf)
+- The Quick Start Guide is still available in [PDF](https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf#deadLink)
 
 The guide describes how to create a transaction: 
 
@@ -80,7 +80,7 @@ The guide describes how to create a transaction:
 >
 > *Note:* - the iCoin Mobile App will automatically publish a transaction upon scanning the QR code from your Hardware Wallet
 
-iCoinTechnology used to have their device on Verizon's [store](https://www.verizon.com/products/icoin-wallet/). 
+iCoinTechnology used to have their device on Verizon's [store](https://web.archive.org/web/20240222002827/https://www.verizon.com/products/icoin-wallet/). 
 
 ## Unboxing Video
 
@@ -88,7 +88,7 @@ iCoinTechnology used to have their device on Verizon's [store](https://www.veriz
 
 ## Can the private keys be created offline? - ✔️ 
 
-Yes. The [Quick Start Guide](https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf) describes the process: 
+Yes. The [Quick Start Guide](https://icointechnology.com/wp-content/uploads/2022/04/Quick-Start-Guide-v8.pdf#deadLink) describes the process: 
 
 > Create a New Bitcoin Account
 1. Select BITCOIN on your wallet homescreen

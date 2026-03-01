@@ -10,7 +10,7 @@ released: 2021-09-25
 updated: 2021-09-25
 version: '4'
 reviews: 
-website: https://swap.flamer.life
+website: https://swap.flamer.life#deadLink
 repository: 
 issue: 
 icon: com.flamer.swap.png

@@ -10,7 +10,7 @@ released: 2022-08-11
 updated: 2022-08-11
 version: '9.8'
 reviews: 
-website: https://teamsmartearners.com
+website: https://teamsmartearners.com#deadLink
 repository: 
 issue: 
 icon: smartearners.apk.jpg

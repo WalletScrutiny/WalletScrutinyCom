@@ -34,7 +34,7 @@ features:
 
 **Update 2022-03-26**: This app is not available anymore.
 
-On the provider's website we find how private keys are managed, under [help section "Account Security"](https://help.coinburp.com/hc/en-gb/articles/360017544100-Are-Balances-Stored-on-CoinBurp-Insured-) we find their custodial provider is Bitpay.
+On the provider's website we find how private keys are managed, under [help section "Account Security"](https://help.coinburp.com/hc/en-gb/articles/360017544100-Are-Balances-Stored-on-CoinBurp-Insured-#deadLink) we find their custodial provider is Bitpay.
 This is the typical setup of exchange based apps, they hold a % of coins in hot wallets for daily trade management and store larger % in cold "offline" storage for security purposes.
 
 Our Verdict: This "wallet" is custodial and therefor **not verifiable**

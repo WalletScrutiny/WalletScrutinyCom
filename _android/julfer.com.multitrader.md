@@ -10,7 +10,7 @@ released: 2017-09-15
 updated: 2021-01-15
 version: '1.10'
 reviews: 
-website: https://julienfer.github.io/app
+website: https://julienfer.github.io/app#deadLink
 repository: 
 issue: 
 icon: julfer.com.multitrader.png

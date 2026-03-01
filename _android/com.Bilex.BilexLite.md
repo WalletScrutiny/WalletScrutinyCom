@@ -10,7 +10,7 @@ released: 2021-04-29
 updated: 2021-09-06
 version: 2.5.5
 reviews: 
-website: http://bilex.org
+website: http://bilex.org#deadLink
 repository: 
 issue: 
 icon: com.Bilex.BilexLite.png

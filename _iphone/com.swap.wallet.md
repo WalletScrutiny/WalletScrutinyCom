@@ -10,7 +10,7 @@ released: 2019-09-27
 updated: 2020-12-24
 version: 2.9.0
 reviews: 30
-website: https://swapwallet.com
+website: https://web.archive.org/web/20240910152549/https://www.swapwallet.com/
 repository: 
 issue: 
 icon: com.swap.wallet.jpg

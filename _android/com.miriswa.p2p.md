@@ -10,7 +10,7 @@ released: 2022-08-29
 updated: 2022-09-01
 version: 1.0.1
 reviews: 
-website: https://p2p.miriswa.com/
+website: https://p2p.miriswa.com#deadLink
 repository: 
 issue: 
 icon: com.miriswa.p2p.png

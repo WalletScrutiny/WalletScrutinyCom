@@ -11,7 +11,7 @@ released: 2022-05-20
 updated: 2023-12-27
 version: 1.5.1
 reviews: 
-website: https://wallet.lyofi.com/
+website: https://wallet.lyofi.com#deadLink
 repository: 
 issue: 
 icon: com.lyofi.wallet.png

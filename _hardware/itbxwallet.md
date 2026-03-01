@@ -14,8 +14,8 @@ dimensions:
 - 99
 weight: 232
 provider: ITBiometrics™
-providerWebsite: https://itbiometrics.com/
-website: https://itbiometrics.com/itbx-cold-wallet/
+providerWebsite: https://web.archive.org/web/20240825220345/https://itbiometrics.com/
+website: https://web.archive.org/web/20220814204317/https://itbiometrics.com/itbx-cold-wallet/
 shop: 
 country: US
 price: 
@@ -42,7 +42,7 @@ From the description of the device:
 
 > While other cold storage wallets are accessible via security codes, PINs, or passphrases, our product is the first to introduce biometric security.
 
-ITBiometrics™ seem to be focused on leveraging its biometric technology to create products such as the [ITBc Fingerprint Card](https://itbiometrics.com/itbc-fingerprint-card/) and the BCD [Biometric Credentialing Device](https://itbiometrics.com/itbc-fingerprint-card/). 
+ITBiometrics™ seem to be focused on leveraging its biometric technology to create products such as the [ITBc Fingerprint Card](https://web.archive.org/web/20220814213357/https://itbiometrics.com/itbc-fingerprint-card/) and the BCD [Biometric Credentialing Device](https://web.archive.org/web/20220814213357/https://itbiometrics.com/itbc-fingerprint-card/). 
 
 We were not able to find a retailer or a portal where the device can be purchased so we have to assume that this device is yet to be released commercially. We could not find an online shop nor were there any physical unboxing reviews of the device. Although it claims that one of its features is "Open Source Storage", we were not able to locate any link to any publicly available source code. 
 

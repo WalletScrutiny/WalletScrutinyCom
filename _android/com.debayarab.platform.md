@@ -10,7 +10,7 @@ released: 2019-12-16
 updated: 2020-02-28
 version: 1.2.3
 reviews: 
-website: http://ar.debay.io
+website: http://ar.debay.io#deadLink
 repository: 
 issue: 
 icon: com.debayarab.platform.jpg

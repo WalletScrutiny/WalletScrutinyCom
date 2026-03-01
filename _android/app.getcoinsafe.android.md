@@ -10,7 +10,7 @@ released: 2019-02-15
 updated: 2019-05-16
 version: 0.1.6
 reviews: 
-website: https://getcoinsafe.app
+website: https://getcoinsafe.app#deadLink
 repository: 
 issue: 
 icon: app.getcoinsafe.android.png

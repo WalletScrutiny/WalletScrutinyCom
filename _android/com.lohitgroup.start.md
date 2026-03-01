@@ -11,7 +11,7 @@ released: 2020-05-04
 updated: 2020-10-05
 version: 0.1.5
 reviews: 
-website: http://lohitgroup.com/
+website: http://lohitgroup.com#deadLink
 repository: 
 issue: 
 icon: com.lohitgroup.start.png
@@ -45,7 +45,7 @@ The app description is a generalized opinion about technology and the global eco
 ## Analysis 
 
 - The listed website is no longer online.
-- The last known [archive.org entry](https://web.archive.org/web/20200813021701/http://lohitgroup.com/) with useful information dates back to 2020. 
+- The last known [archive.org entry](http://lohitgroup.com#deadLink) with useful information dates back to 2020. 
 - We were able to install the app but it gave an error right after start up: 
 
 > Network 

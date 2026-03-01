@@ -26,7 +26,7 @@ social:
 - https://www.facebook.com/wexopay
 - https://t.me/WexoToken
 - https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
-- https://discord.com/invite/jhqwr7KFCn
+- https://discord.com/invite/jhqwr7KFCn#deadLink
 redirect_from: 
 developerName: CRYPTON DIGITAL, SE
 builds: 
@@ -40,6 +40,6 @@ features:
 
 ## Analysis
 
-The homepage and [other pages](https://wexopay.com/wallet) describe Bitcoin support.
+The homepage and [other pages](https://wexopay.com/wallet#deadLink) describe Bitcoin support.
 
 The terms in [Section 1.1](https://wexopay.com/legal/Terms_&_Conditions_EN.pdf) indicate that  it is a **custodial** service.

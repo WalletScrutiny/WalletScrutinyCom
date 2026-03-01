@@ -38,7 +38,7 @@ features:
 
 ## Device Description
 
-The **OneKey Classic 1S** is the upgraded version of the original: {% include walletLink.html wallet='hardware/onekey' verdict='true' %} introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element)).
+The **OneKey Classic 1S** is the upgraded version of the original: {% include walletLink.html wallet='hardware/onekey' verdict='true' %} introduced in 2024 with the addition of a **bank-grade EAL 6+ secure element** for improved hardware-level security ([Cointelegraph](https://cointelegraph.com/press-releases/onekey-unveils-new-crypto-hardware-wallets-with-eal-6-secure-element#deadLink)).
 
 OneKey’s official product page notes: *“Each transaction, secured by EAL 6+ certified chips”*, highlighting the main difference from the original Classic which lacked this feature ([OneKey Product Page](https://onekey.so/products/onekey-classic-1s-hardware-wallet/)).
 
@@ -52,7 +52,7 @@ Independent reviewers confirm that the Classic 1S integrates **two secure chips 
 
 OneKey states that private keys are generated and stored entirely within the secure element, never leaving the device:  
 > “The private keys of OneKey are all created offline, avoid cyber attacks completely.”  
-([OneKey FAQ](https://help.onekey.so/hc/en-us/articles/6113121891599))
+([OneKey FAQ](https://help.onekey.so/hc/en-us/articles/6113121891599#deadLink))
 
 ### Private keys are not shared
 

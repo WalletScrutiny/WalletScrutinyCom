@@ -10,7 +10,7 @@ released: 2020-05-30
 updated: 2021-10-09
 version: '2.2'
 reviews: 
-website: https://ajeipay.com/
+website: https://ajeipay.com#deadLink
 repository: 
 issue: 
 icon: com.ajeipay.png

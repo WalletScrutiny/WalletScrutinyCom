@@ -11,7 +11,7 @@ released: 2020-04-30
 updated: 2022-05-26
 version: 1.16.0
 reviews: 14
-website: https://didimessage.com
+website: https://didimessage.com#deadLink
 repository: 
 issue: 
 icon: com.didi.message.png

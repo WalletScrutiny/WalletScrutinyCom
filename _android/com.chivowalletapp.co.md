@@ -34,7 +34,7 @@ features:
 
 This app pretends to be the hugely anticipated
 {% include walletLink.html wallet='android/com.chivo.wallet' verdict='true' %}
-[by the government of El Salvador](https://www.youtube.com/watch?v=E77xEF-E2hs)
+[by the government of El Salvador](https://www.youtube.com/watch?v=E77xEF-E2hs#deadLink)
 but with no government website linking there and the app not claiming to have a
 website and the developer email being "just" some gmail address, we can assume
 this is a fake wallet.

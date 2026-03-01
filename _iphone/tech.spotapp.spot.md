@@ -11,7 +11,7 @@ released: 2018-08-07
 updated: 2024-04-30
 version: '5.25'
 reviews: 6989
-website: https://spot-wallet.com
+website: https://spot-wallet.com#deadLink
 repository: 
 issue: 
 icon: tech.spotapp.spot.jpg

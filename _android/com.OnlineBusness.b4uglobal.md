@@ -30,7 +30,7 @@ features:
 
 ---
 
-⚠️ This app is related to a [scam in Pakistan](https://www.samaaenglish.tv/news/2428879). 
+⚠️ This app is related to a [scam in Pakistan](https://www.samaaenglish.tv/news/2428879#deadLink). 
 
 There are several other apps that are similar to this app: 
 

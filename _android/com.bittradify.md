@@ -10,7 +10,7 @@ released: 2021-06-17
 updated: 2021-06-17
 version: '1.0'
 reviews: 
-website: https://www.bittradify.com
+website: https://www.bittradify.com#deadLink
 repository: 
 issue: 
 icon: com.bittradify.png

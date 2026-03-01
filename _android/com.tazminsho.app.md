@@ -10,7 +10,7 @@ released: 2020-02-22
 updated: 2020-07-12
 version: '2.0'
 reviews: 
-website: https://tazminsho.com
+website: https://tazminsho.com#deadLink
 repository: 
 issue: 
 icon: com.tazminsho.app.png

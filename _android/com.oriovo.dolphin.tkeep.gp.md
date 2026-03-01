@@ -10,7 +10,7 @@ released: 2021-05-17
 updated: 2021-09-08
 version: 1.2.3
 reviews: 
-website: https://tkeep.io
+website: https://tkeep.io#deadLink
 repository: 
 issue: 
 icon: com.oriovo.dolphin.tkeep.gp.png

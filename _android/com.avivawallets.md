@@ -10,7 +10,7 @@ released: 2022-05-02
 updated: 2022-05-02
 version: '1.0'
 reviews: 
-website: https://avivawallets.com
+website: https://avivawallets.com#deadLink
 repository: 
 issue: 
 icon: com.avivawallets.png

@@ -11,7 +11,7 @@ released: 2019-11-10
 updated: 2019-11-16
 version: '1.2'
 reviews: 
-website: https://www.genbit.com.br/
+website: https://web.archive.org/web/20250624214402/https://genbit.com.br/
 repository: 
 issue: 
 icon: br.com.treepart.genbit.jpg

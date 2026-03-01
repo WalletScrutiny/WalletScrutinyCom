@@ -11,7 +11,7 @@ released:
 updated: 2022-01-11
 version: 1.7.0
 reviews: 
-website: http://orbitgt-m.com/
+website: http://orbitgt-m.com#deadLink
 repository: 
 issue: 
 icon: com.orbitgtm.png

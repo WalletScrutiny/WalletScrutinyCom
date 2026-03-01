@@ -10,7 +10,7 @@ released: 2021-05-30
 updated: 2022-05-26
 version: 1.0.32
 reviews: 
-website: http://binanceautotrade.myreport-live.be
+website: http://binanceautotrade.myreport-live.be#deadLink
 repository: 
 issue: 
 icon: be.myreportlive.binanceautotrade.png

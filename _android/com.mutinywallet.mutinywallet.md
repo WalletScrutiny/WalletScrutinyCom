@@ -11,7 +11,7 @@ released: 2024-02-27
 updated: 2024-09-03
 version: 1.8.0
 reviews: 5
-website: https://mutinywallet.com
+website: https://mutinywallet.com#deadLink
 repository: https://github.com/MutinyWallet/mutiny-web
 issue: 
 icon: com.mutinywallet.mutinywallet.png

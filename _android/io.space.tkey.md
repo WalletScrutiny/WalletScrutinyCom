@@ -10,7 +10,7 @@ released: 2020-02-14
 updated: 2020-04-27
 version: 1.3.0
 reviews: 
-website: https://wallet.tkeycoin.com/
+website: https://wallet.tkeycoin.com#deadLink
 repository: 
 issue: 
 icon: io.space.tkey.jpg

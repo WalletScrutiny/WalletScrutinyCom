@@ -11,7 +11,7 @@ released: 2020-04-24
 updated: 2021-07-19
 version: 1.5.106
 reviews: 
-website: https://tradn.io/
+website: https://tradn.io#deadLink
 repository: 
 issue: 
 icon: com.verico.tradn.png

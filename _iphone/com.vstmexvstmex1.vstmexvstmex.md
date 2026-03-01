@@ -11,7 +11,7 @@ released: 2022-04-06
 updated: 2023-01-05
 version: 1.3.1
 reviews: 1
-website: http://www.vstmex.com
+website: https://web.archive.org/web/20250420060222/https://vstmex.com/
 repository: 
 issue: 
 icon: com.vstmexvstmex1.vstmexvstmex.jpg

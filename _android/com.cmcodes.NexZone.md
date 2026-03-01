@@ -10,7 +10,7 @@ released: 2021-12-28
 updated: 2021-12-28
 version: 3.0.0
 reviews: 
-website: https://nexzonex.com/
+website: https://nexzonex.com#deadLink
 repository: 
 issue: 
 icon: com.cmcodes.NexZone.png

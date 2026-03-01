@@ -10,7 +10,7 @@ released: 2018-07-13
 updated: 2020-01-19
 version: 1.14.1
 reviews: 8
-website: https://www.fcoin.com/
+website: https://www.fcoin.com#deadLink
 repository: 
 issue: 
 icon: com.fcoin.exchange.png

@@ -10,7 +10,7 @@ released: 2021-09-23
 updated: 2021-11-22
 version: 1.3.1
 reviews: 
-website: https://www.spl.cards
+website: https://www.spl.cards#deadLink
 repository: 
 issue: 
 icon: spl.cards.app.jpg

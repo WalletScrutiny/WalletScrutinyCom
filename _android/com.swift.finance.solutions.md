@@ -10,7 +10,7 @@ released: 2022-04-26
 updated: 2022-10-29
 version: 1.0.2
 reviews: 
-website: https://swiftfinancesolutions.com
+website: https://swiftfinancesolutions.com#deadLink
 repository: 
 issue: 
 icon: com.swift.finance.solutions.png

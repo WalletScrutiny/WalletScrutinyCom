@@ -10,7 +10,7 @@ released:
 updated: 2023-02-09
 version: 1.2.0
 reviews: 
-website: http://www.bhex.sg
+website: https://web.archive.org/web/20240224084937/https://www.bhex.sg:443/
 repository: 
 issue: 
 icon: sg.bhex.app.png

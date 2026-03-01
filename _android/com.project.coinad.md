@@ -10,7 +10,7 @@ released: 2018-03-27
 updated: 2019-12-12
 version: '1.26'
 reviews: 
-website: http://gmnc.net
+website: http://gmnc.net#deadLink
 repository: 
 issue: 
 icon: com.project.coinad.jpg

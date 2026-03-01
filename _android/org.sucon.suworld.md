@@ -10,7 +10,7 @@ released: 2019-04-21
 updated: 2019-09-16
 version: 1.0.0.6
 reviews: 
-website: https://suworld.net
+website: https://web.archive.org/web/20250129180741/https://suworld.net/
 repository: 
 issue: 
 icon: org.sucon.suworld.png

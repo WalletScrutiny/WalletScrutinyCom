@@ -10,7 +10,7 @@ released: 2021-05-27
 updated: 2021-09-02
 version: 1.9.2
 reviews: 
-website: http://demo.kdex.vip/#/
+website: http://demo.kdex.vip/#&deadLink
 repository: 
 issue: 
 icon: vip.kdex.app.png

@@ -11,7 +11,7 @@ released: 2015-10-01
 updated: 2022-11-01
 version: 4.12.5
 reviews: 11863
-website: https://www.blockfolio.com
+website: https://www.blockfolio.com#deadLink
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png

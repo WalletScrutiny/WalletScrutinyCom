@@ -10,7 +10,7 @@ released:
 updated: 2020-11-14
 version: Varies with device
 reviews: 2065
-website: http://swapwallet.com
+website: http://swapwallet.com#deadLink
 repository: 
 issue: 
 icon: com.swapwalletltd.swap.png

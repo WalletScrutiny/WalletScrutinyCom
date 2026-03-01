@@ -10,7 +10,7 @@ released:
 updated: 2020-08-26
 version: 0.6.2
 reviews: 
-website: https://pibexa.com/
+website: https://pibexa.com#deadLink
 repository: 
 issue: 
 icon: com.pibexa.png

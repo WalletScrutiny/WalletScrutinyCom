@@ -11,7 +11,7 @@ released:
 updated: 2018-12-08
 version: Varies with device
 reviews: 2
-website: https://zupago.pe/
+website: https://web.archive.org/web/20230127211140/https://zupago.pe/
 repository: 
 issue: 
 icon: org.zupago.pe.png

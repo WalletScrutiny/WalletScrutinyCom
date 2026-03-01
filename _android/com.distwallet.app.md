@@ -10,7 +10,7 @@ released: 2023-02-01
 updated: 2023-02-01
 version: '1.0'
 reviews: 
-website: https://distwallet.com
+website: https://distwallet.com#deadLink
 repository: 
 issue: 
 icon: com.distwallet.app.png

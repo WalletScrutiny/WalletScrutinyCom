@@ -11,7 +11,7 @@ released: 2018-10-08
 updated: 2024-01-19
 version: 1.5.3
 reviews: 9
-website: https://rootone.com
+website: https://rootone.com#deadLink
 repository: 
 issue: 
 icon: com.rootone.wallet.png

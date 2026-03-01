@@ -11,7 +11,7 @@ released: 2020-05-01
 updated: 2021-11-12
 version: 2.7.0
 reviews: 11
-website: https://coinflex.com/home
+website: https://coinflex.com/home#deadLink
 repository: 
 issue: 
 icon: com.lxd.java_websocketclient.png
@@ -46,7 +46,7 @@ CoinFlex is "the world's first physically delivered cryptocurrency derivatives e
   ★☆☆☆☆ October 14, 2021 <br>
        Cannot even register for an account
 
-## Termination Clauses in [Terms of Service](https://coinflex.com/terms-of-service/)
+## Termination Clauses in [Terms of Service](https://coinflex.com/terms-of-service#deadLink)
 
 CoinFlex has a termination clause that grants them the power to:
 
@@ -58,7 +58,7 @@ They also have account suspension powers
 
 > Section 2.9.2 We reserve the right to suspend or revoke your access to the Platform at any time without prior notice to you. If we suspend your profile, your Account or terminate your access to the Platform, then we may also close any open orders and administer a Close Out of any outstanding repayments of Leverage Funding at that time.
 
-## [Security](https://coinflex.com/security/)
+## [Security](https://coinflex.com/security#deadLink)
 
 CoinFlex has a 99% cold-storage policy.
 

@@ -11,7 +11,7 @@ released: 2022-02-13
 updated: 2023-07-12
 version: 4.6.7
 reviews: 
-website: https://truzact.com
+website: https://truzact.com#deadLink
 repository: 
 issue: 
 icon: com.truzact.truzact_mobile.png
@@ -48,7 +48,7 @@ features:
 
 ## Analysis 
 
-### [The Terms and Conditions](https://truzact.com/terms) 
+### [The Terms and Conditions](https://truzact.com/terms#deadLink) 
 
 The agreement explicitly assigns Truzact Technology Limited as a **"custodian wallet service provider, portfolio manager and portfolio trader"** for the user. This is a **custodial** platform.
 

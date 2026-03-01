@@ -10,7 +10,7 @@ released: 2022-03-07
 updated: 2022-03-20
 version: 1.0.3
 reviews: 
-website: https://larewallet.cc
+website: https://larewallet.cc#deadLink
 repository: 
 issue: 
 icon: io.laresystems.bankwallet.png

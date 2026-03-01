@@ -10,7 +10,7 @@ released: 2022-03-29
 updated: 2022-03-29
 version: '1.0'
 reviews: 
-website: https://kleponswap.com
+website: https://kleponswap.com#deadLink
 repository: 
 issue: 
 icon: com.klepon.wallet.png

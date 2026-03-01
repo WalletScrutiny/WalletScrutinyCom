@@ -42,8 +42,8 @@ features:
 - The service implements KYC and AML procedures
 - The service can suspend and terminate the service at any time for any reason.
 - We were not provided the seed phrases during startup.
-- The [fees](https://www.safcoin.africa/welcome/fees) page give us an insight that the wallet supports BTC.
-- The [security guidelines](https://www.safcoin.africa/welcome/wallet-safety.html) it issued to its users does not include making a backup of the private key. 
+- The [fees](https://www.safcoin.africa/welcome/fees#deadLink) page give us an insight that the wallet supports BTC.
+- The [security guidelines](https://www.safcoin.africa/welcome/wallet-safety.html#deadLink) it issued to its users does not include making a backup of the private key. 
 - We can confirm that the app provides a BTC address that can send and receive.
 - The seed phrases were not provided during app initialization.
 - In lieu of the seed phrases, account security questions and personal information were required. 

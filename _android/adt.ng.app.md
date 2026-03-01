@@ -10,7 +10,7 @@ released: 2021-05-22
 updated: 2021-05-14
 version: '1.0'
 reviews: 
-website: https://codecraftng.com
+website: https://codecraftng.com#deadLink
 repository: 
 issue: 
 icon: adt.ng.app.png

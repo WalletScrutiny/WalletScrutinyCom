@@ -11,7 +11,7 @@ released: 2020-11-04
 updated: 2025-01-06
 version: 2.0.65
 reviews: 107
-website: https://www.lanistar.com
+website: https://www.lanistar.com#deadLink
 repository: 
 issue: 
 icon: com.lanistar.lanistarprod.jpg

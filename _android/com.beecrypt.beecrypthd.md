@@ -11,7 +11,7 @@ released: 2020-05-27
 updated: 2023-05-05
 version: 6.0.7
 reviews: 
-website: https://moneypipe.com/
+website: https://moneypipe.com#deadLink
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.png

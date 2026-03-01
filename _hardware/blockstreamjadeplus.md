@@ -69,10 +69,10 @@ Reproducibility is a **work-in-progress**.
 The Jade Plus appears to be using the same firmware codebase as the original Jade, but with different hardware based on the ESP32-S3 microcontroller (as opposed to the original ESP32 used in the first Jade).
 
 The repository contains configuration files specifically for Jade Plus, as seen in the configs and production directories with files containing "v2s3" (likely indicating Version 2 with ESP32-S3).
-  - Main config file: [sdkconfig_jade_v2s3.defaults](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults)
-  - Production config: [sdkconfig_jade_v2s3_prod.defaults](https://github.com/Blockstream/jade/blob/master/production/sdkconfig_jade_v2s3_prod.defaults)
+  - Main config file: [sdkconfig_jade_v2s3.defaults](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#deadLink)
+  - Production config: [sdkconfig_jade_v2s3_prod.defaults](https://github.com/Blockstream/jade/blob/master/production/sdkconfig_jade_v2s3_prod.defaults#deadLink)
 
-The firmware identifies itself as "Jade Plus" in the USB device descriptor string, as seen in the [configuration file](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#L84).
+The firmware identifies itself as "Jade Plus" in the USB device descriptor string, as seen in the [configuration file](https://github.com/Blockstream/jade/blob/master/configs/sdkconfig_jade_v2s3.defaults#L84&deadLink).
 
 Recent updates in the [changelog](https://github.com/Blockstream/jade/blob/master/CHANGELOG.md) show specific improvements for ESP32-S3 devices, including:
 - Improved BLE pairing/bonding

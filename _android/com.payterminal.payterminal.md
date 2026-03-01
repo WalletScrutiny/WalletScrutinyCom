@@ -10,7 +10,7 @@ released: 2022-09-06
 updated: 2022-09-06
 version: 1.0.1
 reviews: 
-website: https://payterminal.ng/
+website: https://payterminal.ng#deadLink
 repository: 
 issue: 
 icon: com.payterminal.payterminal.jpg

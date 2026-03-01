@@ -10,7 +10,7 @@ released: 2019-10-23
 updated: 2019-10-24
 version: 0.0.3
 reviews: 
-website: http://cryptseifu.com
+website: http://cryptseifu.com#deadLink
 repository: 
 issue: 
 icon: com.app.cryptseifu.png

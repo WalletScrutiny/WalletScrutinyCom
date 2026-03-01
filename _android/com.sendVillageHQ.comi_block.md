@@ -10,7 +10,7 @@ released: 2022-09-11
 updated: 2023-08-27
 version: 1.1.6
 reviews: 
-website: https://comiblock.com/
+website: https://comiblock.com#deadLink
 repository: 
 issue: 
 icon: com.sendVillageHQ.comi_block.png

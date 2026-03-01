@@ -10,7 +10,7 @@ released: 2023-02-27
 updated: 2023-02-27
 version: 0.01.0
 reviews: 
-website: https://cbyte.network
+website: https://cbyte.network#deadLink
 repository: 
 issue: 
 icon: com.cbytenetwork.endurancewallet.png

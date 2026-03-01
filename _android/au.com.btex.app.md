@@ -10,7 +10,7 @@ released: 2020-01-15
 updated: 2020-01-19
 version: 1.0.2
 reviews: 
-website: https://btex.com.au/en
+website: https://btex.com.au/en#deadLink
 repository: 
 issue: 
 icon: au.com.btex.app.png

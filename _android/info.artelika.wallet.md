@@ -10,7 +10,7 @@ released: 2022-02-07
 updated: 2023-07-10
 version: 1.0.7
 reviews: 
-website: http://artelika.com
+website: http://artelika.com#deadLink
 repository: 
 issue: 
 icon: info.artelika.wallet.png

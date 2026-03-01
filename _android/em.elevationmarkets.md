@@ -10,7 +10,7 @@ released: 2021-12-21
 updated: 2021-12-22
 version: 1.0.1
 reviews: 
-website: https://elevation-markets.com/
+website: https://elevation-markets.com#deadLink
 repository: 
 issue: 
 icon: em.elevationmarkets.png

@@ -10,7 +10,7 @@ released: 2022-09-29
 updated: 2022-12-05
 version: '1.6'
 reviews: 
-website: https://www.coindroplet.com
+website: https://www.coindroplet.com#deadLink
 repository: 
 issue: 
 icon: coindroplet.com.png

@@ -27,7 +27,7 @@ social:
 - https://www.reddit.com/r/bitpanda
 - https://www.linkedin.com/company/bitpanda
 - https://www.youtube.com/@Bitpanda_global
-- https://discord.com/invite/dmM9Dz7Kt8
+- https://discord.com/invite/dmM9Dz7Kt8#deadLink
 - https://www.instagram.com/bitpanda_global
 redirect_from: 
 developerName: Bitpanda GmbH

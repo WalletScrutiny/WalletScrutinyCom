@@ -10,7 +10,7 @@ released: 2019-07-25
 updated: 2019-07-25
 version: '1.0'
 reviews: 
-website: https://www.bitafrox.com
+website: https://www.bitafrox.com#deadLink
 repository: 
 issue: 
 icon: com.bitafrox.bitafrox.png

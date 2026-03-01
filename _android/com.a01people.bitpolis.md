@@ -10,7 +10,7 @@ released: 2019-10-31
 updated: 2020-05-19
 version: 0.1.2
 reviews: 
-website: https://bitpolis.io/
+website: https://bitpolis.io#deadLink
 repository: 
 issue: 
 icon: com.a01people.bitpolis.png

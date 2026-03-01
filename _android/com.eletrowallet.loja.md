@@ -10,7 +10,7 @@ released: 2019-09-06
 updated: 2019-08-20
 version: '1.1'
 reviews: 
-website: https://eletrowallet.com
+website: https://eletrowallet.com#deadLink
 repository: 
 issue: 
 icon: com.eletrowallet.loja.png

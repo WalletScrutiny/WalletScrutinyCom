@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://gizadevice.com/
+website: https://web.archive.org/web/20240220230707/http://gizadevice.com/
 shop: 
 country: 
 price: 

@@ -11,7 +11,7 @@ released: 2021-04-24
 updated: 2021-10-11
 version: 4.2.2
 reviews: 21
-website: https://bhex.co
+website: https://bhex.co#deadLink
 repository: 
 issue: 
 icon: com.bh.android.png
@@ -30,4 +30,4 @@ features:
 
 ---
 
-The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417).
+The service made an announcement [**regarding the closing of its services.**](https://support.hbtc.co/hc/en-us/articles/4406992059417#deadLink).

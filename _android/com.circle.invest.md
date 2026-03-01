@@ -45,6 +45,6 @@ features:
   > Circle Invest customers are joining Voyager! Your account will be converted into a Voyager account very soon.
   - This is the {% include walletLink.html wallet='android/com.investvoyager' verdict='true' %} app.
 - New accounts can no longer be created.
-- Meanwhile, according to one of their [articles](https://support.invest.circle.com/hc/en-us/articles/360000241466-Circle-Invest-User-Agreement-California-Customers-):
+- Meanwhile, according to one of their [articles](https://support.invest.circle.com/hc/en-us/articles/360000241466-Circle-Invest-User-Agreement-California-Customers-#deadLink):
   > *Circle Invest does not currently support sending Digital Currency to external wallets or receiving Digital Currency from external wallets.*
 - This makes the Circle Invest app a **custodial** app, that does **not allow the sending or receiving of bitcoins**.

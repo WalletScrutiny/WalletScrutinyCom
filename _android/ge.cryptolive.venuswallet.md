@@ -10,7 +10,7 @@ released: 2018-12-27
 updated: 2020-03-10
 version: 1.0.15
 reviews: 
-website: https://www.cryptolive.ge
+website: https://www.cryptolive.ge#deadLink
 repository: 
 issue: 
 icon: ge.cryptolive.venuswallet.png

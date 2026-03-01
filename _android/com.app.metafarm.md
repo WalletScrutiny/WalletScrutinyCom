@@ -10,7 +10,7 @@ released: 2022-09-15
 updated: 2022-11-24
 version: 1.0.1
 reviews: 
-website: https://metafarmcrypto.com
+website: https://metafarmcrypto.com#deadLink
 repository: 
 issue: 
 icon: com.app.metafarm.png

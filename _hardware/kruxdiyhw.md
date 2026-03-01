@@ -61,11 +61,11 @@ features:
 No, the private keys are used for signing within the device and never get shared. It mainly uses its camera and optional thermal printer to produce or scan a QR code.
 It has two modes: single signature and multi-signature. 
 
-[More information](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1)
+[More information](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1&deadLink)
 
 ## Does the device display the receive address for confirmation?
 
-[Yes.](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1)
+[Yes.](https://selfcustody.github.io/krux/getting-started/usage/using-a-single-sig-wallet/#send-coins_1&deadLink)
 
 ## Does the interface have a display screen and buttons which allows the user to confirm transaction details?
 

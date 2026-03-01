@@ -11,7 +11,7 @@ released: 2021-05-17
 updated: 2024-10-17
 version: 0.8.1
 reviews: 63
-website: https://chainge.finance
+website: https://chainge.finance#deadLink
 repository: 
 issue: 
 icon: com.fusion.chainge.android.png
@@ -54,7 +54,7 @@ We did not find any change regarding the public availability of its source code.
 
 Registration is also possible via their website. However, we keep getting a "Registrations Suspended" Error
 
-### [Terms and Conditions](https://www.chainge.finance/TermsAndConditions)
+### [Terms and Conditions](https://www.chainge.finance/TermsAndConditions#deadLink)
 
 > **D. When do we close your account**
 The safety of your account is important to us. We might prevent you from accessing your account if we're reasonably concerned about its security or that it might be used fraudulently or without your permission.<br><br>

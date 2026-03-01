@@ -10,7 +10,7 @@ released: 2020-12-21
 updated: 2020-12-22
 version: 3.8.0
 reviews: 
-website: https://www.bexfor.com
+website: https://www.bexfor.com#deadLink
 repository: 
 issue: 
 icon: com.bexfor.broker.android.png

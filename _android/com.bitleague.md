@@ -44,7 +44,7 @@ BitLeague has the power to suspend or lock the user's funds as seen in their [Te
 
 > Section 2.15 You agree and acknowledge that Bitleague has the right at any moment to suspend your account and any account for which you are a representative or authorized signatory, etc. You also **agree that Bitleague can freeze/lock the funds and assets in all such accounts, and suspend your access to the Site** until a decision has been made, if we suspect, in our sole discretion, any such accounts to be in violation of:
 
-Users can [withdraw](https://bitleague.bitleague.com/hc/en-us/articles/360026387951-How-to-Make-An-Early-Withdrawal-with-My-Term-Deposit-) and [deposit](https://bitleague.bitleague.com/hc/en-us/articles/360025507332--What-are-the-minimum-and-maximum-deposit-requirements-for-the-BitLeague-Bitcoin-Term-Deposit-Account-) Bitcoin.
+Users can [withdraw](https://bitleague.bitleague.com/hc/en-us/articles/360026387951-How-to-Make-An-Early-Withdrawal-with-My-Term-Deposit-#deadLink) and [deposit](https://bitleague.bitleague.com/hc/en-us/articles/360025507332--What-are-the-minimum-and-maximum-deposit-requirements-for-the-BitLeague-Bitcoin-Term-Deposit-Account-#deadLink) Bitcoin.
 
 ## Verdict
 

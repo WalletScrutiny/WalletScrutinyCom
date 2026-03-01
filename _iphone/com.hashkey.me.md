@@ -11,7 +11,7 @@ released: 2021-02-04
 updated: 2023-07-11
 version: 4.1.0
 reviews: 9
-website: https://me.hashkey.com/
+website: https://me.hashkey.com#deadLink
 repository: 
 issue: 
 icon: com.hashkey.me.jpg
@@ -25,7 +25,7 @@ twitter: hashkey_me
 social:
 - https://hashkey.com
 - https://www.facebook.com/HashKeyMe
-- https://discord.gg/zs569ytTkd
+- https://discord.gg/zs569ytTkd#deadLink
 features: 
 developerName: HASHKEY HUB LIMITED
 

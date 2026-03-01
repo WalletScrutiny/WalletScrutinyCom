@@ -38,7 +38,7 @@ Pocketmint.ai provides a platform for buying, selling, sending, and receiving US
 
 The app and the website are geo-restricted so we were not able to test the app and not able to find supporting claims on their website. 
 
-Through archive.org we were able to see its [terms and conditions](https://web.archive.org/web/20250614053036/https://pocketmint.ai/termsandconditions).
+Through archive.org we were able to see its [terms and conditions](https://pocketmint.ai/termsandconditions).
 
 It mentions:
 

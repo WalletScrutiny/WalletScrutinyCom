@@ -10,7 +10,7 @@ released: 2019-12-21
 updated: 2019-12-22
 version: '1.0'
 reviews: 
-website: https://cashbtc.io/
+website: https://cashbtc.io#deadLink
 repository: 
 issue: 
 icon: com.cashbtc.io.png

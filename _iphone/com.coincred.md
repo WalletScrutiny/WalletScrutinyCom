@@ -11,7 +11,7 @@ released: 2021-12-31
 updated: 2023-12-11
 version: '3.4'
 reviews: 118
-website: https://coincred.org/
+website: https://coincred.org#deadLink
 repository: 
 issue: 
 icon: com.coincred.jpg

@@ -15,7 +15,7 @@ dimensions:
 weight: 140
 provider: MoriX Co., Ltd.‬
 providerWebsite: https://morixjp.com/
-website: https://morixjp.com/eng/products/walletcard
+website: https://morixjp.com/eng/products/walletcard#deadLink
 shop: https://www.amazon.co.jp/dp/B08DNN7LGK
 country: JP
 price: 27000JPY
@@ -55,5 +55,5 @@ There is no mention of mnemonic phrase backup, or the possibility to restore oth
 
 The wallet is reliant on the companion app software. 
 
-As evidenced in this official [MorixJP wallet card video](https://www.youtube.com/watch?v=vi_sM_AyV7A) on Youtube, the **mnemonic phrase is generated and displayed on the mobile phone** and not on the device itself.
+As evidenced in this official [MorixJP wallet card video](https://www.youtube.com/watch?v=vi_sM_AyV7A#deadLink) on Youtube, the **mnemonic phrase is generated and displayed on the mobile phone** and not on the device itself.
 

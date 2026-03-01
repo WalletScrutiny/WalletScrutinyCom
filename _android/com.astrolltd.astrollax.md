@@ -10,7 +10,7 @@ released: 2022-01-16
 updated: 2022-01-16
 version: '1.5'
 reviews: 
-website: https://astrollax.com
+website: https://astrollax.com#deadLink
 repository: 
 issue: 
 icon: com.astrolltd.astrollax.png

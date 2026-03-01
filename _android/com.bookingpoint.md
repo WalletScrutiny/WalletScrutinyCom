@@ -10,7 +10,7 @@ released:
 updated: 2023-01-02
 version: 1.0.6
 reviews: 
-website: http://www.bookingpoint.vip
+website: http://www.bookingpoint.vip#deadLink
 repository: 
 issue: 
 icon: com.bookingpoint.png

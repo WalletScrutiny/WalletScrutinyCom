@@ -11,7 +11,7 @@ released: 2019-02-25
 updated: 2023-02-17
 version: 3.8.4
 reviews: 
-website: http://www.tosblock.com
+website: http://www.tosblock.com#deadLink
 repository: 
 issue: 
 icon: com.keepercustomerapp.png

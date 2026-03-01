@@ -11,7 +11,7 @@ released: 2020-05-13
 updated: 2021-05-17
 version: 1.2.18
 reviews: 38
-website: http://www.duedex.com/
+website: http://www.duedex.com#deadLink
 repository: 
 issue: 
 icon: com.duedex.app.png

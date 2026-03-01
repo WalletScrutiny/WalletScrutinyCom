@@ -11,7 +11,7 @@ released: 2018-09-22
 updated: 2018-09-23
 version: '1.2'
 reviews: 
-website: http://murexbitcoinsolutions.com/
+website: http://murexbitcoinsolutions.com#deadLink
 repository: 
 issue: 
 icon: com.murextrivium.walletapp.png

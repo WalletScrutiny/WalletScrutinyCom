@@ -10,7 +10,7 @@ released:
 updated: 2019-10-02
 version: 1.1.2
 reviews: 
-website: https://bt360pro.com
+website: https://bt360pro.com#deadLink
 repository: 
 issue: 
 icon: com.bt360.app.png

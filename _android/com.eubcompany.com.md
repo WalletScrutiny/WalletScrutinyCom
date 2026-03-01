@@ -10,7 +10,7 @@ released: 2021-12-04
 updated: 2021-12-04
 version: '1.1'
 reviews: 
-website: https://eubcompany.com/
+website: https://eubcompany.com#deadLink
 repository: 
 issue: 
 icon: com.eubcompany.com.jpg

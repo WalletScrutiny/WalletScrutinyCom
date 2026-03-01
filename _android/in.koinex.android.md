@@ -10,7 +10,7 @@ released: 2018-02-11
 updated: 2019-02-13
 version: 0.1.5
 reviews: 9
-website: https://koinex.in
+website: https://koinex.in#deadLink
 repository: 
 issue: 
 icon: in.koinex.android.png

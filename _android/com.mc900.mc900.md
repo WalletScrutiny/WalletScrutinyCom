@@ -41,7 +41,7 @@ features:
 ## Analysis
 
 - After registration we looked for the deposit options. There was only USDT available on the following networks: Ethereum (ERC20), Polygon, BNB Smart Chain (BEP20), Bitcoin(Omni), and, Tron(TRC20). Later on, we contacted support via Telegram, and they informed us that it was possible to deposit other cryptocurrencies.
-- The platform claims to have been in operation since 2016. However, we looked at the site's [archive.org](https://web.archive.org/web/20200701000000*/https://headline.net) entries, and the website headline.net does not show any entries to corroborate this assertion for the years between. Note that this app's release date on Google Play was on 2022-08-12. The release date for the Apple version of this app only goes as far as 2022-09-09.
+- The platform claims to have been in operation since 2016. However, we looked at the site's [archive.org](https://web.archive.org/web/20200701000000*/https://headline.net#deadLink) entries, and the website headline.net does not show any entries to corroborate this assertion for the years between. Note that this app's release date on Google Play was on 2022-08-12. The release date for the Apple version of this app only goes as far as 2022-09-09.
 - The [Terms and Conditions](https://www.headline.net/legal/TERMS_AND_CONDITIONS.pdf) consists of only 2 pages.  
 - Withdrawal options [include bitcoin](https://www.headline.net/en-US/assets/walletAdd) on the Bitcoin network.
 - Some functions are unlocked once KYC is performed.

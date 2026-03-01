@@ -10,7 +10,7 @@ released: 2020-11-02
 updated: 2020-12-02
 version: 1.0.4
 reviews: 
-website: https://goldenstanley.com/
+website: https://goldenstanley.com#deadLink
 repository: 
 issue: 
 icon: com.pandats.goldenstanley.png

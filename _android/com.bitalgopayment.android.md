@@ -10,7 +10,7 @@ released: 2020-09-10
 updated: 2020-09-10
 version: 1.0.0
 reviews: 
-website: https://www.bitalgopayment.com
+website: https://www.bitalgopayment.com#deadLink
 repository: 
 issue: 
 icon: com.bitalgopayment.android.png

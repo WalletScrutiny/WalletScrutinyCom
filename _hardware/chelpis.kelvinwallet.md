@@ -15,8 +15,8 @@ dimensions:
 weight: 35
 provider: Chelpis Co., Ltd.
 providerWebsite: https://www.chelpis.com/
-website: https://www.kelvinwallet.com
-shop: https://www.kelvinwallet.com/product-page
+website: https://web.archive.org/web/20250714084324/https://www.kelvinwallet.com/
+shop: https://www.kelvinwallet.com/product-page#deadLink
 country: TW
 price: 3000TWD
 repository: 
@@ -43,7 +43,7 @@ Unfortunately, we did not receive a reply to our email. As there is still no evi
 
 ## Product Description 
 
-From the {{ page.title }} [homepage](https://www.kelvinwallet.com/):
+From the {{ page.title }} [homepage](https://web.archive.org/web/20250714084324/https://www.kelvinwallet.com/):
 
 > - "First Quantum Proof crypto-wallet"
 - Quantum-safe OS (Quantum-safe digital signature scheme)

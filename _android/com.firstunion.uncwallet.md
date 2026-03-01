@@ -10,7 +10,7 @@ released: 2021-04-14
 updated: 2021-07-05
 version: 1.1.5
 reviews: 
-website: https://first-union.com
+website: https://first-union.com#deadLink
 repository: 
 issue: 
 icon: com.firstunion.uncwallet.png

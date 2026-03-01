@@ -42,11 +42,11 @@ features:
 - We were able to generate a Bitcoin address 
 - [(Screenshots)](https://twitter.com/BitcoinWalletz/status/1657298746013626368)
 
-From the [FAQ:](https://c-exchange.com/faq)
+From the [FAQ:](https://c-exchange.com/faq#deadLink)
 
 > In order to sell Bitcoins on c-Exchange, you'll first need to send some Bitcoins to your c-Exchange Wallet. To find your c-Exchange receiving address, simply visit the Wallet page and click the 'Generate new address' button. At the top of the page, you'll find your unique receiving address. Please note that you can still use the old address, but it will eventually expire after 12 months. Once you have your c-Exchange receiving address, you can easily transfer Bitcoins from your other wallet to your c-Exchange address.
 
-From the [Terms:](https://c-exchange.com/policy/terms/106) 
+From the [Terms:](https://c-exchange.com/policy/terms/106#deadLink) 
 
 > - We may, in our sole and absolute discretion, without liability to you or any third party, refuse to let you open a wallet, suspend your wallet, or terminate your wallet or your use of one or more of the Services. Such actions may be taken as a result of wallet inactivity, failure to respond to customer support requests, failure to positively identify you or your violation of this Terms of Service and Use.
 

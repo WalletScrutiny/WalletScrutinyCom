@@ -11,7 +11,7 @@ released: 2019-06-18
 updated: 2019-07-11
 version: 1.0.18
 reviews: 
-website: https://airtokenwallet.com
+website: https://airtokenwallet.com#deadLink
 repository: 
 issue: 
 icon: com.token.airtoken.png
@@ -40,6 +40,6 @@ features:
 
 - The website is no longer online 
 - The app was last updated in 2019 
-- The only [archive](https://web.archive.org/web/20191004164910/https://airtokenwallet.com/) was in 2019
+- The only [archive](https://airtokenwallet.com#deadLink) was in 2019
 - The app only shows the logo of AirToken with some video in the background.
 - There is a high-likelihood that this app is already **defunct**. We emailed them to verify: airtokenapp@gmail.com

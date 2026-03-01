@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: Storecold
 providerWebsite: 
-website: https://www.storecold.io/
-shop: https://www.storecold.io/checkout.html
+website: https://www.storecold.io#deadLink
+shop: https://www.storecold.io/checkout.html#deadLink
 country: 
 price: 350USD
 repository: 
@@ -50,7 +50,7 @@ All of the items have the same picture and they distinguish them by some "BTC si
 
 - Storecold Tera X10 - the order button redirects to the homepage. They call this "Size 32 BTC" - for $450
 - Storecold Tera X213 - Out of Stock - "Size 8BTC" - $199 
-- Storecold Nova X9 - can be ordered [here](https://www.storecold.io/checkout.html) after filling out a web form - "Size 22BTC" - $350 USD
+- Storecold Nova X9 - can be ordered [here](https://www.storecold.io/checkout.html#deadLink) after filling out a web form - "Size 22BTC" - $350 USD
 - Storecold Nano X3 - Out of Stock - "Size 4BTC" - $270
 
 ## The Storecold Nova X9
@@ -63,7 +63,7 @@ The product description on the website reads:
 
 ## Features Page 
 
-StoreCold's [Features](https://www.storecold.io/index.html#features) Page, seems to apply to all of its claimed models.
+StoreCold's [Features](https://www.storecold.io/index.html#features&deadLink) Page, seems to apply to all of its claimed models.
 
 > Multiple cryptocurrency support
 > Supports Bitcoin, Bitcoin Cash, Litecoin, Ripple, Ethereum, ERC-20, and many more. Continuously adding new assets.

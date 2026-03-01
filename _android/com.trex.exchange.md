@@ -11,7 +11,7 @@ released: 2019-12-19
 updated: 2022-06-20
 version: 2.2.9
 reviews: 
-website: https://www.t-rex.exchange/usdt
+website: https://www.t-rex.exchange/usdt#deadLink
 repository: 
 issue: 
 icon: com.trex.exchange.png

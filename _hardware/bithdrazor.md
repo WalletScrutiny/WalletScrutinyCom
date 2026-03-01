@@ -17,8 +17,8 @@ dimensions:
 weight: 18
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-Razor.html
-shop: https://bithd.com/BITHD-Razor.html
+website: https://web.archive.org/web/20220928153643/https://bithd.com/BITHD-Razor.html
+shop: https://web.archive.org/web/20220928153643/https://bithd.com/BITHD-Razor.html
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu

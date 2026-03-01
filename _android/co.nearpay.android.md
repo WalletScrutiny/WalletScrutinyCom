@@ -10,7 +10,7 @@ released:
 updated: 2023-01-03
 version: 1.44.1
 reviews: 
-website: https://nearpay.co/
+website: https://nearpay.co#deadLink
 repository: 
 issue: 
 icon: co.nearpay.android.png

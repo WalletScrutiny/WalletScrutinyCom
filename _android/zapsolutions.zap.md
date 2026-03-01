@@ -11,7 +11,7 @@ released:
 updated: 2023-04-16
 version: VARY
 reviews: 
-website: http://zap.jackmallers.com
+website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
 repository: https://github.com/LN-Zap/zap-android
 issue: 
 icon: zapsolutions.zap.png

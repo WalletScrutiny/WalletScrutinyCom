@@ -23,7 +23,7 @@ date: 2024-05-07
 signer: 
 twitter: vynkgroup
 social:
-- https://vynkpay.app
+- https://vynkpay.app#deadLink
 - https://www.instagram.com/vynkgroup
 - https://discord.com/invite/RBCRGZVsQx
 - https://www.linkedin.com/in/vynkchain-community-59b283208

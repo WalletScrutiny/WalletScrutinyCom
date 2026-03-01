@@ -10,7 +10,7 @@ released: 2021-11-05
 updated: 2021-12-31
 version: 1.3.0
 reviews: 12
-website: https://asin.vip/
+website: https://asin.vip#deadLink
 repository: 
 issue: 
 icon: com.asin.app.png

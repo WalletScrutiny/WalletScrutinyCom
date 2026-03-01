@@ -11,7 +11,7 @@ released: 2022-04-12
 updated: 2023-03-16
 version: 3.2.7
 reviews: 27
-website: https://www.trofi.group/
+website: https://www.trofi.group#deadLink
 repository: 
 issue: 
 icon: com.trofi.png
@@ -25,7 +25,7 @@ twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn
+- https://discord.com/invite/crwD3JgMgn#deadLink
 redirect_from: 
 developerName: Trofi Group
 builds: 

@@ -10,7 +10,7 @@ released: 2018-07-10
 updated: 2020-05-14
 version: '1.2'
 reviews: 3
-website: http://foxmedia.ag
+website: http://foxmedia.ag#deadLink
 repository: 
 issue: 
 icon: mobile.cryptoscanner.com.cryptoscanner.png

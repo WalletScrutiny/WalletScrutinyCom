@@ -11,7 +11,7 @@ released: 2021-07-14
 updated: 2021-08-10
 version: 1.0.7
 reviews: 
-website: https://lunespay.com.br
+website: https://lunespay.com.br#deadLink
 repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
 icon: com.lunespay.png

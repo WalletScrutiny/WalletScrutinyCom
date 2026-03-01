@@ -13,7 +13,7 @@ binaries:
 dimensions: 
 weight: 115
 provider: Keystone
-providerWebsite: https://shop.keyst.one/products/keystone-essential
+providerWebsite: https://web.archive.org/web/20230707094146/https://shop.keyst.one/products/keystone-essential
 website: https://keyst.one/
 shop: 
 country: CH

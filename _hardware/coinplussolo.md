@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: CoinPlus
-providerWebsite: https://www.coinplus.com/en/
+providerWebsite: https://www.coinplus.com/en#deadLink
 website: 
 shop: 
 country: LU
@@ -44,7 +44,7 @@ The two secrets are two printed strings printed on the same card by two differen
 
 > CoinPlus involves two different companies to engrave two secrets on the product ensuring that only the buyer will have access to the private key.
 
-[CoinPlus website has a page explaining](https://www.coinplus.com/en/content/18-security) how the wallet is supposed to keep your private key secure. 
+[CoinPlus website has a page explaining](https://web.archive.org/web/20220814113545/https://www.coinplus.com/en/content/18-security) how the wallet is supposed to keep your private key secure. 
 
 > Each company generates a secret using a secure random number generator and derives an asymmetric key pair (public and private) from which it stores only the public key. Then each company engraves its secret on the bar and covers it with a holographic security labels ensuring its safety.
 >
@@ -68,7 +68,7 @@ From its description [on eBay:](https://www.ebay.ca/itm/153654236151?mkevt=1&mkc
 >
 > The cards contain an NFC chip and a QR Code that allow two things, the storage of the SOLO's public address, and the redirection to any url that is encoded at the beginning of the cards. Secrets are not present in the NFC chip or QR Code. 
 >
-> These functions do not allow you to make withdrawals or payments from the SOLO, but allow you to share the SOLO public address quickly and easily.https://www.coinplus.com/en/17-solo-bar
+> These functions do not allow you to make withdrawals or payments from the SOLO, but allow you to share the SOLO public address quickly and easily.https://www.coinplus.com/en/17-solo-bar#deadLink
 
 On how to "calculate the private key:"
 
@@ -76,13 +76,13 @@ On how to "calculate the private key:"
 
 ## SOLO Bar
 
-The Solo Bar is quite similar to the CoinPlus Solo with the exception that the keys are on a bar. [Its description](https://www.coinplus.com/en/17-solo-bar):
+The Solo Bar is quite similar to the CoinPlus Solo with the exception that the keys are on a bar. [Its description](https://www.coinplus.com/en/17-solo-bar#deadLink):
 
 > SOLO Bars made of non-precious metal are bars imported from China with the only elements present being the boundaries of the areas in which secrets 1 and 2 will be engraved, the public address and the serial number of the bar. Once received, the bars are checked and stored.
 >
 > Your SOLO Bar is an elegant ingot presented in its luxury case. Your SOLO Bar comes with its certificate of authenticity. Your public address is present on the ingot and on the certificate by scanning the QR code. Your SOLO Bar will be valid for a hundred years. Place it safely in a safe
 
-The [manufacturing process](https://www.coinplus.com/en/content/11-manufacturing) is described:
+The [manufacturing process](https://web.archive.org/web/20220627235150/https://www.coinplus.com/en/content/11-manufacturing) is described:
 
 > Once the product has been manufactured and delivered to Coinplus. The registration process for cryptographic codes remains to be followed. This process is described in the ‘patent’ section.
 

@@ -10,7 +10,7 @@ released: 2019-10-30
 updated: 2020-06-11
 version: 0.1.0
 reviews: 
-website: https://gimibits.com
+website: https://gimibits.com#deadLink
 repository: 
 issue: 
 icon: com.blocknomic.gimibits.png

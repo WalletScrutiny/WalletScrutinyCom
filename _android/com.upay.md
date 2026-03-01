@@ -11,7 +11,7 @@ released: 2020-07-13
 updated: 2021-01-07
 version: '1.1'
 reviews: 
-website: http://upay.company
+website: http://upay.company#deadLink
 repository: 
 issue: 
 icon: com.upay.png

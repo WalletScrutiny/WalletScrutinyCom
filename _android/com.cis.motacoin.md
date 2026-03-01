@@ -10,7 +10,7 @@ released: 2021-10-02
 updated: 2022-05-05
 version: '2.0'
 reviews: 
-website: https://mota.money/
+website: https://mota.money#deadLink
 repository: 
 issue: 
 icon: com.cis.motacoin.png

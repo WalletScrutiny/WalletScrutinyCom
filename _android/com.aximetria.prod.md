@@ -11,7 +11,7 @@ released:
 updated: 2023-07-27
 version: 2.30.0
 reviews: 
-website: https://aximetria.com
+website: https://aximetria.com#deadLink
 repository: 
 issue: 
 icon: com.aximetria.prod.png
@@ -56,7 +56,7 @@ Aximetria GmbH has two apps which seem to alternate being offline and online.
 
 ## Analysis 
 
-- According to their [FAQ:](https://www.aximetria.com/help)
+- According to their [FAQ:](https://www.aximetria.com/help#deadLink)
   > How do you protect clients' crypto assets?
   >
   > According to the requirements of the regulator, cryptoassets are stored in secure certified data centers in Switzerland. Access to crypto assets is protected by all necessary information security tools.

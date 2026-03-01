@@ -11,7 +11,7 @@ released: 2021-03-08
 updated: 2023-06-30
 version: 1.0.1271
 reviews: 32
-website: https://aabbgoldtoken.com/
+website: https://aabbgoldtoken.com#deadLink
 repository: 
 issue: 
 icon: com.aabb.png
@@ -43,7 +43,7 @@ features:
 
 The company behind this service is Asia Broadband, Inc.
 
-### [Terms of Use](https://aabbgoldtoken.com/knowledgebase/aabb-wallet-terms-of-use/)
+### [Terms of Use](https://aabbgoldtoken.com/knowledgebase/aabb-wallet-terms-of-use#deadLink)
 
 The service's termination clauses does not include the active ability to freeze or suspend the user's accounts. 
 

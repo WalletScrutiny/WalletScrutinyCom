@@ -10,7 +10,7 @@ released: 2022-01-11
 updated: 2022-02-15
 version: '1.6'
 reviews: 
-website: https://www.rbul.io/
+website: https://www.rbul.io#deadLink
 repository: 
 issue: 
 icon: com.ex.rbul.png

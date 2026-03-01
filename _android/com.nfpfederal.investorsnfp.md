@@ -10,7 +10,7 @@ released: 2020-09-23
 updated: 2020-09-23
 version: '1.0'
 reviews: 
-website: https://nfpfederal.com
+website: https://nfpfederal.com#deadLink
 repository: 
 issue: 
 icon: com.nfpfederal.investorsnfp.png

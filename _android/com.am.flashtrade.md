@@ -10,7 +10,7 @@ released: 2020-10-13
 updated: 2020-10-13
 version: '1.0'
 reviews: 
-website: https://www.flashtrade.club/
+website: https://www.flashtrade.club#deadLink
 repository: 
 issue: 
 icon: com.am.flashtrade.png

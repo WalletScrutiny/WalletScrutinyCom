@@ -11,7 +11,7 @@ released: 2021-06-21
 updated: 2021-11-30
 version: 1.0.1
 reviews: 
-website: https://dobuy.site/
+website: https://dobuy.site#deadLink
 repository: 
 issue: 
 icon: com.dobuyapplication.png
@@ -40,7 +40,7 @@ features:
 - Trade for cryptoactives or Fiat currencies
 - Internal Transactions at no additional cost.
 
-### [Terms](https://dobuyapplication.app/en/terms-and-conditions)
+### [Terms](https://dobuyapplication.app/en/terms-and-conditions#deadLink)
 
 > 6.1. Upon completion of registration and verification of the identity of your DOBUY Account,you may use various Services, deposit including, but not limited to, storage from Crypto-to-cryptocriptoTrading, Fiat deposit, DOBUY storage services,, and in accordance with the provisions of these Terms DOBUY has the right to: Provide, modify or terminate, at its discretion, any Service based on its development plan; and toermitir or prohibitthe use of some users of any DOBUY services in accordance with the relevant rules of the Cripto platform. (sic)
 >

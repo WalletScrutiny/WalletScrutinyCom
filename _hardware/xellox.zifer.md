@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Xellox
 providerWebsite: https://xellox.io/
-website: https://xellox.io/products/zifer-pre-sale
+website: https://xellox.io/products/zifer-pre-sale#deadLink
 shop: 
 country: FI
 price: 49 EUR

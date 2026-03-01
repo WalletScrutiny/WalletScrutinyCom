@@ -11,7 +11,7 @@ released: 2018-05-23
 updated: 2022-03-09
 version: 2.08.9
 reviews: 20
-website: https://tizer.io
+website: https://tizer.io#deadLink
 repository: 
 issue: 
 icon: com.transcrypt.armadillo.png
@@ -44,7 +44,7 @@ Tizer Wallet also states that it is a
 ## The Site
 
 ### Terms and Conditions
-From the [Service Agreement page, Termination](https://wallet.tizer.io/service_agreement):
+From the [Service Agreement page, Termination](https://wallet.tizer.io/service_agreement#deadLink):
 > You agree and understand that Tizer reserves the right, in our sole discretion, **to immediately suspend, freeze, or terminate your User Account or any Wallet** in the event that you are suspected of having violated any provision of this User Agreement, believed to be in violation of Applicable Law, or are believed to be involved in activities or conduct detrimental to Tizer.
 
 Additionally, from Discontinuance:

@@ -11,7 +11,7 @@ released: 2022-02-02
 updated: 2023-03-09
 version: 12.9.24
 reviews: 44
-website: http://coin.cloud/app
+website: http://coin.cloud/app#deadLink
 repository: 
 issue: 
 icon: com.coincloud.walletpreview.png

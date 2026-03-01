@@ -11,7 +11,7 @@ released: 2019-06-16
 updated: 2019-11-24
 version: 2.0.3
 reviews: 
-website: https://main.fffex.co
+website: https://main.fffex.co#deadLink
 repository: 
 issue: 
 icon: com.app.fffex.png

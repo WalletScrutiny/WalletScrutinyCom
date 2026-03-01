@@ -12,8 +12,8 @@ updated: 2021-03-13
 version: 0.4.8
 reviews: 61
 website: http://lightning-wallet.com
-repository: https://github.com/btcontract/lnwallet
-issue: https://github.com/btcontract/lnwallet/issues/20
+repository: https://github.com/btcontract/lnwallet#deadLink
+issue: https://github.com/btcontract/lnwallet/issues/20#deadLink
 icon: com.lightning.walletapp.png
 bugbounty: 
 meta: removed
@@ -51,16 +51,16 @@ $ sha256sum ~/wsTest/BLW\ 0.4.8\ \(com.lightning.walletapp\).apk ~/com.lightning
 676d073f8418277042d584dd184da1b0054148ba4ae30156f51772d819861009  /home/leo/com.lightning.walletapp_159.apk
 ```
 
-and ... f-droid [claims](https://f-droid.org/en/packages/com.lightning.walletapp/):
+and ... f-droid [claims](https://f-droid.org/en/packages/com.lightning.walletapp#deadLink):
 
 > The source code is no longer available
 
 Seriously? Well, indeed, the repository we had on file -
-https://github.com/btcontract/lnwallet/issues/20 is no longer available, making
+https://github.com/btcontract/lnwallet/issues/20#deadLink is no longer available, making
 the product **not verifiable**.
 
 **Update 2021-08-21**: The provider
-[stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980)
+[stated here](https://github.com/btcontract/lnwallet/issues/20#issuecomment-902663980&deadLink)
 that this product was discontinued and its successor is
 {% include walletLink.html wallet='android/com.btcontract.wallet' verdict='true' %}
 
@@ -69,7 +69,7 @@ So the provider contacted us and
 we had in our first review. Let's see how far we get this time ...
 
 First thing we notice is that there are still no build instructions on the
-[GitHub page](https://github.com/btcontract/lnwallet) but according to above
+[GitHub page](https://github.com/btcontract/lnwallet#deadLink) but according to above
 issue it's simple enough:
 
 The version we got from Google Play is this:
@@ -86,7 +86,7 @@ $ cat BLW/apktool.yml | grep "versionCode\|versionName"
 So ...
 
 ```
-$ git clone https://github.com/btcontract/lnwallet.git
+$ git clone https://github.com/btcontract/lnwallet.git#deadLink
 $ cd lnwallet
 $ git tag
 0.4-146
@@ -97,7 +97,7 @@ $ git tag
 0.4.4
 $ git checkout 0.4.4 
 $ docker run -it --volume $PWD:/mnt --workdir /mnt --rm mycelium-wallet bash 
-# wget https://downloads.gradle-dn.com/distributions/gradle-3.3-bin.zip
+# wget https://downloads.gradle-dn.com/distributions/gradle-3.3-bin.zip#deadLink
 # unzip gradle-3.3-bin.zip
 # /opt/android-sdk/tools/bin/sdkmanager ndk-bundle
 # ./gradle-3.3/bin/gradle assembleDebug

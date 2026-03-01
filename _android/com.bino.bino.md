@@ -10,7 +10,7 @@ released: 2021-08-21
 updated: 2021-08-21
 version: '1.0'
 reviews: 
-website: http://adastimes.com/
+website: http://adastimes.com#deadLink
 repository: 
 issue: 
 icon: com.bino.bino.png

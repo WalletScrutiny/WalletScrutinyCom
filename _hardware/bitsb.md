@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: BitSB
-providerWebsite: https://bitsb.org/
+providerWebsite: https://web.archive.org/web/20220123021950/https://bitsb.org/
 website: 
 shop: 
 country: 
@@ -36,6 +36,6 @@ The older version of BitSB's website contains mentions of "Hardware Miners and W
 
 There are no images or technical specifications for any sort of product.
 
-[The newer website](https://www.bitsb.org/) doesn't mention any sort of hardware wallet, instead opting to promote an app that will "manage your crypto portfolio." According to the [pricing page](https://www.bitsb.org/pricing), this app costs 4-8 USD a month. There's no confirmation whether this app actually exists as there aren't any actual screenshots of the product. There are also no results for this app online or on the app stores, although it claimed to be "Android and iOS ready"
+[The newer website](https://web.archive.org/web/20220123021950/https://bitsb.org/) doesn't mention any sort of hardware wallet, instead opting to promote an app that will "manage your crypto portfolio." According to the [pricing page](https://www.bitsb.org/pricing#deadLink), this app costs 4-8 USD a month. There's no confirmation whether this app actually exists as there aren't any actual screenshots of the product. There are also no results for this app online or on the app stores, although it claimed to be "Android and iOS ready"
 
 As any mention of the "wallet" seems to be completely nonexistent, we qualify {{ page.title }} as **vaporware.**

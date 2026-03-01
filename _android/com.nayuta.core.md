@@ -11,7 +11,7 @@ released:
 updated: 2021-12-16
 version: Varies with device
 reviews: 
-website: https://nayuta.co/core/
+website: https://nayuta.co/core#deadLink
 repository: https://github.com/nayutaco/NayutaCore
 issue: 
 icon: com.nayuta.core.png

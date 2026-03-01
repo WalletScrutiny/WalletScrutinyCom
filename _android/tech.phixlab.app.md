@@ -10,7 +10,7 @@ released: 2019-06-12
 updated: 2019-06-12
 version: '1.0'
 reviews: 
-website: https://fargomine.com/
+website: https://fargomine.com#deadLink
 repository: 
 issue: 
 icon: tech.phixlab.app.png

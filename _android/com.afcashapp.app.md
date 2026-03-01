@@ -10,7 +10,7 @@ released: 2022-01-17
 updated: 2022-06-23
 version: 3.57.0
 reviews: 
-website: http://afcash.app
+website: http://afcash.app#deadLink
 repository: 
 issue: 
 icon: com.afcashapp.app.png

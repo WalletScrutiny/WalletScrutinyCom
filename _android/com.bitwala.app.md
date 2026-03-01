@@ -38,11 +38,11 @@ With no change regarding its source code policy, this app continues to be **not 
 
 ## Updated Review and Verdict 2021-12-22
 
-The non-custodial portion of the Nuri Banking app called the "[Nuri Vault](https://support.nuri.com/hc/en-gb/articles/360021669460-How-to-create-a-Nuri-vault-)" requires that users agree to a separate agreement with BitGo, Inc.
+The non-custodial portion of the Nuri Banking app called the "[Nuri Vault](https://support.nuri.com/hc/en-gb/articles/360021669460-How-to-create-a-Nuri-vault-#deadLink)" requires that users agree to a separate agreement with BitGo, Inc.
 
 > The customer will enter into a separate agreement on the management of the private keys for the customer's cryptocurrencies stored in a non-custodial Bitcoin wallet (the "Bitcoin Vault"). The sole parties to the latter agreement will be the customer and BitGo, Inc. ("BitGo"). The legal relationship between the investor and BitGo will be exclusively governed by the contractual terms, in particular, BitGo's general terms and conditions , as amended from time to time ("BitGo Terms of Use"). 
 
-**[The BitGo Terms and Conditions:](https://www.bitgo.com/legal/terms-of-use/)**
+**[The BitGo Terms and Conditions:](https://www.bitgo.com/legal/terms-of-use#deadLink)**
 
 > Section 1.1
 >
@@ -61,7 +61,7 @@ Two of the three private keys associated with a bitcoin wallet are needed to eff
 
 Nuri was known as bitwala prior to its re-launch. When it [re-launched in 2018](https://en.wikipedia.org/wiki/Bitwala) as Nuri, its app and web properties also adjusted to the regulatory climate at the time. This may be the reason why Nuri identifies its [GitHub repository as "Nuri (formerly bitwala)"](https://github.com/orgs/bitwala/repositories). This is a crucial clue as Nuri does not claim to be an open source project. 
 
-Rather, despite termination provisions in its third party provider's Terms and Conditions, [it links to a way to recover the user's Vault by linking to BitGo's recovery application](https://support.nuri.com/hc/en-gb/articles/360000988999-How-to-recover-my-Bitcoin-vault-).
+Rather, despite termination provisions in its third party provider's Terms and Conditions, [it links to a way to recover the user's Vault by linking to BitGo's recovery application](https://support.nuri.com/hc/en-gb/articles/360000988999-How-to-recover-my-Bitcoin-vault-#deadLink).
 
 We were only able to locate the [BitGo recovery application on GitHub](https://github.com/BitGo/wallet-recovery-wizard/releases), and believe that the Nuri app's source code is not publicly available.
 
@@ -78,13 +78,13 @@ It identifies its non-custodial wallets as ["Vaults"](https://nuri.com/how-to/wa
 
 > The Bitcoin (BTC) VAult is available on both web and mobile devices and is a multi-signature non-custodial wallet. A multi-signature protocol, available for Bitcoin acts as a built-in additional security factor. The wallet is backed up with two seed phrases, which let you recover and access your bitcoin in case you lose access to your Nuri account. Under no circumstances, Nuri or anyone else can access or control your funds or transactions.
 
-More information on the distinction between [Nuri Wallets vs Vaults](https://support.nuri.com/hc/en-gb/articles/360022033460-Wallets-Vaults-What-s-the-difference-)
+More information on the distinction between [Nuri Wallets vs Vaults](https://support.nuri.com/hc/en-gb/articles/360022033460-Wallets-Vaults-What-s-the-difference-#deadLink)
 
 Nuri also has a [risk and disclosure page](https://nuri.com/uploads/Nuri_Bitcoin_Interest_Account_Risk_Warning_EN_b93582385c.pdf)
 
 > Investors cannot verify whether Celsius Network conducts business activities that will enable it to service the claims of investors from the Bitcoin Interest Account in the future.The business activities carried out by Celsius Network may result in further risks for Nuri investors.
 
-[Identity Verification Criteria](https://support.nuri.com/hc/en-gb/articles/360021577139-What-are-the-verification-criteria-)
+[Identity Verification Criteria](https://support.nuri.com/hc/en-gb/articles/360021577139-What-are-the-verification-criteria-#deadLink)
 
 > Nuri offers the blockchain banking solution for European residents.
 

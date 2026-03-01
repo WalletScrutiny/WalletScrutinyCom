@@ -11,7 +11,7 @@ released: 2019-08-18
 updated: 2019-08-31
 version: '1.2'
 reviews: 
-website: https://www.pccryptomarket.com
+website: https://www.pccryptomarket.com#deadLink
 repository: 
 issue: 
 icon: com.pccryptomarket.png

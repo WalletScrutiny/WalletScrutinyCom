@@ -10,7 +10,7 @@ released: 2025-06-05
 updated: 2026-01-19
 version: 0.7.1
 reviews: 
-website: https://inexlatam.com/panther-by-inex/
+website: https://inexlatam.com/panther-by-inex#deadLink
 repository: 
 issue: 
 icon: com.inexlatam.panther.png

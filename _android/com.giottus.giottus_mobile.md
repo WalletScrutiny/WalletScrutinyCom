@@ -53,13 +53,13 @@ Security information
 
 - KYC is mandatory to use the platform. It asks for Indian residents' PAN card
 
-[More info on Giottus KYC](https://support.giottus.com/support/solutions/articles/35000055304-how-to-register-and-complete-kyc-in-giottus-)
+[More info on Giottus KYC](https://support.giottus.com/support/solutions/articles/35000055304-how-to-register-and-complete-kyc-in-giottus-#deadLink)
 
 [Giottus Privacy Policy](https://www.giottus.com/docs/privacypolicy.html)
 
 [Giottus Anti-Money Laundering Policy](https://www.giottus.com/docs/amlpolicy.html)
 
-[Giottus Tutorial on How to Withdraw Bitcoin and other cryptocurrencies](https://support.giottus.com/support/solutions/articles/35000069416-how-to-withdraw-bitcoins-and-other-cryptocurrencies-)
+[Giottus Tutorial on How to Withdraw Bitcoin and other cryptocurrencies](https://support.giottus.com/support/solutions/articles/35000069416-how-to-withdraw-bitcoins-and-other-cryptocurrencies-#deadLink)
 
 > Peer to Peer exchange facilitates transactions between two traders without routing the money through the exchange. Giottus lets a Buyer buy without sending INR to the Exchange.
 

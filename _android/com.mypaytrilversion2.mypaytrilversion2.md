@@ -10,7 +10,7 @@ released: 2021-10-25
 updated: 2021-10-25
 version: '2.0'
 reviews: 
-website: https://mypaytril.com
+website: https://mypaytril.com#deadLink
 repository: 
 issue: 
 icon: com.mypaytrilversion2.mypaytrilversion2.jpg

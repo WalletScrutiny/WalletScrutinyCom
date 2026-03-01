@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/safemoon/
 - https://www.instagram.com/safemoonhq/
 - https://www.reddit.com/r/SafeMoon/
-- https://www.youtube.com/safemoonhq
+- https://www.youtube.com/safemoonhq#deadLink
 builds: 
 features: 
 

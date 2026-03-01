@@ -10,7 +10,7 @@ released: 2021-08-13
 updated: 2021-10-14
 version: '1.46'
 reviews: 
-website: https://wise.win/
+website: https://wise.win#deadLink
 repository: 
 issue: 
 icon: win.wise.wallet.pro.png

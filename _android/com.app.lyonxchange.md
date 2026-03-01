@@ -10,7 +10,7 @@ released: 2020-04-29
 updated: 2020-04-30
 version: '1.0'
 reviews: 
-website: https://lyonxchange.com
+website: https://lyonxchange.com#deadLink
 repository: 
 issue: 
 icon: com.app.lyonxchange.jpg

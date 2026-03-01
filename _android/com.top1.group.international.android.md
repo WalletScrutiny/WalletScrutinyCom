@@ -10,7 +10,7 @@ released: 2019-07-10
 updated: 2020-08-03
 version: 3.9.0
 reviews: 
-website: https://www.top1groups.com/
+website: https://www.top1groups.com#deadLink
 repository: 
 issue: 
 icon: com.top1.group.international.android.png

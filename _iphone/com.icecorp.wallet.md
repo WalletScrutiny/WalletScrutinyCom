@@ -23,7 +23,7 @@ date: 2025-09-03
 signer: 
 twitter: icewalofficial
 social:
-- https://www.icewal.com
+- https://www.icewal.com#deadLink
 - https://www.facebook.com/icewalofficial
 - https://www.linkedin.com/company/icecorp
 - https://www.instagram.com/icewalofficial

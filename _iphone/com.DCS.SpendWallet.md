@@ -30,7 +30,7 @@ developerName: Spend Inc
 
 ---
 
-No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app) or [Support section](https://help.spend.com).
+No statements regarding private key managment can be found on the [providers website](https://www.spend.com/app#deadLink) or [Support section](https://help.spend.com#deadLink).
 It would be prudent to assume the private keys are under the control of the provider.
 
 Our verdict: This 'wallet' is custodial and therefore is **not verifiable**.

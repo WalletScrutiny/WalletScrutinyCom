@@ -11,7 +11,7 @@ released: 2022-06-24
 updated: 2022-10-20
 version: 1.1.0
 reviews: 
-website: https://justbit.in/
+website: https://justbit.in#deadLink
 repository: 
 issue: 
 icon: com.app.justbit.jpg

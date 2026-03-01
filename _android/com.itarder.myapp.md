@@ -10,7 +10,7 @@ released: 2022-05-27
 updated: 2022-11-14
 version: 1.0.26
 reviews: 
-website: https://itrader.cc/
+website: https://itrader.cc#deadLink
 repository: 
 issue: 
 icon: com.itarder.myapp.png

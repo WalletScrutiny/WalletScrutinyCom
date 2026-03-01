@@ -11,7 +11,7 @@ released: 2019-06-11
 updated: 2020-04-20
 version: 1.5.1
 reviews: 
-website: https://fox.exchange
+website: https://fox.exchange#deadLink
 repository: 
 issue: 
 icon: exchange.fox.android.png

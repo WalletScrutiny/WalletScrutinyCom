@@ -11,7 +11,7 @@ released: 2018-05-15
 updated: 2023-04-18
 version: 2.2.0
 reviews: 41
-website: https://stex.com
+website: https://stex.com#deadLink
 repository: 
 issue: 
 icon: com.stocksexchange.android.png
@@ -32,8 +32,8 @@ features:
 
 It has a Crypto Exchange interface and refers to itself as such. One of its general features advertise wallet service. This sounds custodial.
 
->  [To make the deposit find the required currency,](https://help.stex.com/en/articles/1657710-how-do-i-deposit-crypto-currencies) click on "deposit" , and generate address of your wallet by clicking on 'show me the deposit address'.
+>  [To make the deposit find the required currency,](https://help.stex.com/en/articles/1657710-how-do-i-deposit-crypto-currencies#deadLink) click on "deposit" , and generate address of your wallet by clicking on 'show me the deposit address'.
 
-It's possible to send/[receive](https://help.stex.com/en/articles/1657719-how-do-i-withdraw-crypto-currencies) in this product.
+It's possible to send/[receive](https://help.stex.com/en/articles/1657719-how-do-i-withdraw-crypto-currencies#deadLink) in this product.
 
 This app being **custodial,** it's also **not verifiable.**

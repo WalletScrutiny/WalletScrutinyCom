@@ -11,7 +11,7 @@ released: 2020-09-03
 updated: 2021-07-02
 version: 2.6.4
 reviews: 28
-website: https://wise.win
+website: https://wise.win#deadLink
 repository: 
 issue: 
 icon: com.wise.llc.wallet.app.png

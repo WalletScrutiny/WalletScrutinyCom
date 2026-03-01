@@ -13,8 +13,8 @@ updated: 2026-02-18
 version: VARY
 reviews: 
 website: https://blixtwallet.github.io
-repository: https://github.com/hsjoberg/blixt-wallet
-issue: https://github.com/hsjoberg/blixt-wallet/issues/318
+repository: https://github.com/BlixtWallet/blixt-wallet
+issue: https://github.com/BlixtWallet/blixt-wallet/issues/318
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
@@ -73,15 +73,15 @@ once the app gained some more traction.
 
 # Code and Reproducibility
 
-[This app's code](https://github.com/hsjoberg/blixt-wallet) is public and MIT
+[This app's code](https://github.com/BlixtWallet/blixt-wallet) is public and MIT
 licensed. Their
-[Build Steps for Android](https://github.com/hsjoberg/blixt-wallet#android) are:
+[Build Steps for Android](https://github.com/BlixtWallet/blixt-wallet#android) are:
 
 > - Install [Node](https://nodejs.org), [Yarn](https://classic.yarnpkg.com) and
     [Android Studio + Android SDK (including NDK)](https://developer.android.com/studio/)
 > - If needed, install an emulated android device inside Android Studio
 > - Download lnd binary from
-    [from the latest Blixt Wallet release](https://github.com/hsjoberg/blixt-wallet/releases)
+    [from the latest Blixt Wallet release](https://github.com/BlixtWallet/blixt-wallet/releases)
     and put it in `android/lndmobile`. Alternatively build lnd for Android by
     following the steps in [build-android-aar.md](build-android-aar.md)
 > - Get the tor sub-module: `git submodule update --init`
@@ -105,6 +105,6 @@ We could maybe guess our way around these issues but this should really be
 better documented for smooth build reproduction.
 
 Emanuel already tried to reproduce this app and
-[his issue](https://github.com/hsjoberg/blixt-wallet/issues/318) is still open.
+[his issue](https://github.com/BlixtWallet/blixt-wallet/issues/318) is still open.
 So while this app can be compiled from source, the compilation result differs
 from what he got from Google play. This app is currently **not verifiable**.

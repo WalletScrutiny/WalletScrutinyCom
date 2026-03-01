@@ -10,7 +10,7 @@ released: 2017-08-12
 updated: 2017-08-18
 version: 3.7.3
 reviews: 
-website: http://www.sunshine-wallet.com
+website: http://www.sunshine-wallet.com#deadLink
 repository: 
 issue: 
 icon: com.bitpay.sunshine.png

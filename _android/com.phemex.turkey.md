@@ -11,7 +11,7 @@ released: 2021-09-30
 updated: 2022-09-27
 version: 1.2.5
 reviews: 1
-website: https://phemex.com.tr/
+website: https://phemex.com.tr#deadLink
 repository: 
 issue: 
 icon: com.phemex.turkey.png

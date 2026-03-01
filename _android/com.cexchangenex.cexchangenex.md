@@ -11,7 +11,7 @@ released: 2020-10-02
 updated: 2021-06-29
 version: 1.1.1075
 reviews: 38
-website: https://cexchangenex.com/
+website: https://cexchangenex.com#deadLink
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.png
@@ -34,7 +34,7 @@ features:
 
 It is a cryptocurrency exchange with support for: USDT, BTC, OMG, ZRX, LINK and others.
 
-## [Terms](https://cexchangenex.com/terms)
+## [Terms](https://cexchangenex.com/terms#deadLink)
 
 **Provision on Cancellation of User Account**
 

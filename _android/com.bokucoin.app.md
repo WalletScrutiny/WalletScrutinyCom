@@ -11,7 +11,7 @@ released: 2020-10-09
 updated: 2020-10-10
 version: '1.5'
 reviews: 
-website: https://bokucoin.com
+website: https://bokucoin.com#deadLink
 repository: 
 issue: 
 icon: com.bokucoin.app.png

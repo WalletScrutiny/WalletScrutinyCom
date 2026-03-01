@@ -6,10 +6,10 @@ authors:
 icon: bitsafe.card.png
 date: 2023-04-28
 released: 2021-12-28
-website: https://www.bitsafecard.com/
+website: https://www.bitsafecard.com#deadLink
 twitter: Bitsafecard
 provider: Bethino LLC
-shop: https://www.bitsafecard.com/en/Shop
+shop: https://www.bitsafecard.com/en/Shop#deadLink
 country: TR
 meta: ok
 verdict: prefilled
@@ -25,15 +25,15 @@ social:
 - There is no mention of seals. 
 - Keywords in the description are "cold" and "vault" 
 
-> Bitsafecard is [not a hot wallet](https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard). It protects you from the risk of sharing requested credentials in online applications and the risk of this information being stolen.
+> Bitsafecard is [not a hot wallet](https://web.archive.org/web/20221128114203/https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard). It protects you from the risk of sharing requested credentials in online applications and the risk of this information being stolen.
 > 
-> The [cold wallet we offer to you](https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard) allows you to keep your digital savings safely and easily, away from the risk of sharing your confidential information. With our Signature series crypto assets wallet, you can safely and easily store more than 100 different cryptocurrencies on your card.
+> The [cold wallet we offer to you](https://web.archive.org/web/20221128114203/https://www.bitsafecard.com/en/Home/WhatIsBitSafeCard) allows you to keep your digital savings safely and easily, away from the risk of sharing your confidential information. With our Signature series crypto assets wallet, you can safely and easily store more than 100 different cryptocurrencies on your card.
 >
-> The security key of your wallet, which stores your digital savings, is entirely yours before it passes to 2nd and 3rd parties. Our [Signature series wallets are a safe](https://www.bitsafecard.com/en/Signature) safe that keeps your cryptocurrencies safely and only you have the key.
+> The security key of your wallet, which stores your digital savings, is entirely yours before it passes to 2nd and 3rd parties. Our [Signature series wallets are a safe](https://web.archive.org/web/20230325112117/https://www.bitsafecard.com/en/Signature) safe that keeps your cryptocurrencies safely and only you have the key.
 
 ### Gift 
 
-> [You can gift it.](https://www.bitsafecard.com/en/Signature)
+> [You can gift it.](https://web.archive.org/web/20230325112117/https://www.bitsafecard.com/en/Signature)
 > SIGNATURE Series wallets are designed to be a physical representation of your crypto assets. Easily load your digital coins into your wallet and carry them with you safely as you wish. If you want, gift it to your loved ones. Show them how easy and secure it is to save cryptocurrencies.
 
 ## Analysis 
@@ -44,7 +44,7 @@ We contacted [BitSafe via twitter](https://twitter.com/BitcoinWalletz/status/165
 
 The website for the product is written primarily in Turkish so some details are not very clear to us. 
 
-For instance, in its [Introduction Page](https://www.bitsafecard.com/tr/Home/Intro):
+For instance, in its [Introduction Page](https://www.bitsafecard.com/tr/Home/Intro#deadLink):
 
 > Hersey bukadar kolay. Kartınızın üzerindeki adrese kriptolarınızı gönderin, kartınızın arkasındaki anahtarla transfer yapın.
 
@@ -54,7 +54,7 @@ Translated:
 
 **It was not clarified what sealing method was used to cover the QR code or the plaintext private key** 
 
-In its tutorial page on [transferring bitcoin using Blockchain.com wallet](https://www.bitsafecard.com/en/Support/BitcoinTransferUsingBlockchainCom):
+In its tutorial page on [transferring bitcoin using Blockchain.com wallet](https://www.bitsafecard.com/en/Support/BitcoinTransferUsingBlockchainCom#deadLink):
 
 It was described that the private key has to be imported by scanning the QR code at the back of the card. 
 

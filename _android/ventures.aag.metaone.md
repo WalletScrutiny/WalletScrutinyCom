@@ -28,7 +28,7 @@ social:
 - https://t.me/aagventures
 - https://www.linkedin.com/company/aag-ventures
 - https://www.facebook.com/aagventures
-- https://discord.com/invite/aagventures
+- https://discord.com/invite/aagventures#deadLink
 redirect_from: 
 developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
 builds: 
@@ -55,7 +55,7 @@ features:
 - There is a BTC wallet with a P2SH address that can send/receive.
 - We did not find any provision for backing up the private keys for the BTC wallet.
 - In its homepage, one of the cards is titled, "Weakness in Security" and describes seed phrases as "mind-numbing"
-- Residents from Finland, Germany and Italy are disallowed from accessing several features according to the [Terms and Conditions](https://getmeta.one/terms-conditions)
+- Residents from Finland, Germany and Italy are disallowed from accessing several features according to the [Terms and Conditions](https://getmeta.one/terms-conditions#deadLink)
   - Section 21.1 of the same Terms describes the app as not having custody of the user's assets - but in a carefully-worded manner - admits that they have partial control over it. The private keys, as they describe, are generated through their software using their n-factor authorization mechanism.
   - Section 5.1.3 consists of its Anti-Money Laundering provisions which gives the provider the power to terminate and suspend the access of the user to the services.
 - We're in a bit of a quandary here as the platform claims to be non-custodial. Yet the wording on its terms could be interpreted to mean that they have access to a partial private key. Disregarding this play on words, the app does not provide, to the best of our knowledge, a way to backup the private keys.  

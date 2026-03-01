@@ -10,7 +10,7 @@ released: 2021-09-16
 updated: 2021-09-16
 version: '1.0'
 reviews: 
-website: https://www.swiftxchange.com.ng
+website: https://www.swiftxchange.com.ng#deadLink
 repository: 
 issue: 
 icon: com.tradedigitals.swiftxchange.png

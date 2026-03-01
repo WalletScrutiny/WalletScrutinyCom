@@ -55,7 +55,7 @@ The provider [responded](https://twitter.com/useaccrue/status/165229297485469696
 
 At this juncture, we cannot say that there's a wallet, but have seen documentation that seems to indicate that it does.
 
-Like this [blog post](https://blog.useaccrue.com/2022/12/20/how-to-send-money-to-ghana-with-cash-app/)
+Like this [blog post](https://blog.useaccrue.com/2022/12/20/how-to-send-money-to-ghana-with-cash-app#deadLink)
 
 > Install the Accrue app. Open it and complete the signup process
 >

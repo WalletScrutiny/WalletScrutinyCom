@@ -10,7 +10,7 @@ released: 2019-09-25
 updated: 2019-09-25
 version: 1.0.14
 reviews: 
-website: https://www.24cfd.com
+website: https://www.24cfd.com#deadLink
 repository: 
 issue: 
 icon: com.twentyfourcfd.png

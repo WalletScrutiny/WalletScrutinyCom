@@ -44,7 +44,7 @@ features:
 
 - We were not able to register due to a Turkish phone number requirement.
 - The app can allow users to deposit/withdraw money to their bank and from their crypto wallet to another wallet. 
-- The [Terms and Conditions](https://www.sanalira.com/kullanim_sartlari.html) doesn't give us a lot of clues and is only a few paragraphs long.
+- The [Terms and Conditions](https://www.sanalira.com/kullanim_sartlari.html#deadLink) doesn't give us a lot of clues and is only a few paragraphs long.
 - Its [blog](https://blog.sanalira.com/sanalira-nedir-dbc6b4a72e0b) does offer some information that it has a crypto wallet.
   > If you are looking for a "fast and reliable crypto address or application" for crypto trading, crypto investments, then Virtualira is at your service with its application where you can access all your accounts with one click, both as a "digital wallet" and a "crypto wallet"! (Translated using Google Translate)
 - The app also [does not have any code](https://github.com/search?q=com.sanalira.app&type=repositories) on GitHub. Leading us one step closer to verifying that the wallet is custodial. 

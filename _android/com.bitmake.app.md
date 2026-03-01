@@ -11,7 +11,7 @@ released: 2022-07-04
 updated: 2024-01-26
 version: 1.4.3
 reviews: 
-website: https://www.bitmake.com
+website: https://www.bitmake.com#deadLink
 repository: 
 issue: 
 icon: com.bitmake.app.png
@@ -24,8 +24,8 @@ signer:
 twitter: BitMakeOfficial
 social:
 - https://www.linkedin.com/company/bitmakeofficial
-- https://www.youtube.com/@BitMakeOfficial
-- https://discord.com/invite/7Bh7wpyGMk
+- https://www.youtube.com/@BitMakeOfficial#deadLink
+- https://discord.com/invite/7Bh7wpyGMk#deadLink
 - https://www.instagram.com/bitmakeexchange
 - https://www.facebook.com/BitMakeExchange
 - https://t.me/BitMakeEN
@@ -47,7 +47,7 @@ features:
 ## Analysis 
 
 - This is a cryptocurrency exchange.
-- There are many hallmarks that show this is a custodial provider, this can mostly be seen in the [terms](https://help.bitmake.com/hc/en-us/articles/4638528296847-Bitmake-Terms-of-Service):
+- There are many hallmarks that show this is a custodial provider, this can mostly be seen in the [terms](https://help.bitmake.com/hc/en-us/articles/4638528296847-Bitmake-Terms-of-Service#deadLink):
   - Right to suspend user accounts
   - Right to freeze transactions
   - Power to lock assets

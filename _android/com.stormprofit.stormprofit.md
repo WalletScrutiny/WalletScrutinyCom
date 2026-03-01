@@ -10,7 +10,7 @@ released: 2021-09-17
 updated: 2021-09-17
 version: '1.0'
 reviews: 4
-website: https://stormprofit.trade/
+website: https://stormprofit.trade#deadLink
 repository: 
 issue: 
 icon: com.stormprofit.stormprofit.png

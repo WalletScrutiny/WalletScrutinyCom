@@ -11,7 +11,7 @@ released: 2018-11-12
 updated: 2021-09-13
 version: 4.8.6
 reviews: 46
-website: https://www.coinbene.com/
+website: https://www.coinbene.com#deadLink
 repository: 
 issue: 
 icon: br.com.coinbene.jpg

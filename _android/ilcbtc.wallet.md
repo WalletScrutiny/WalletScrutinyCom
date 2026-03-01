@@ -44,7 +44,7 @@ is no word about being your own bank ...
 The linked website is some alt-coin project website with a link back to the
 Play Store wallet.
 
-They link to [this GitHub](https://github.com/ILCoinDevTeam) where there is
+They link to [this GitHub](https://github.com/ILCoinDevTeam#deadLink) where there is
 nothing about an Android wallet.
 
 [GitHub search](https://github.com/search?p=1&q=%22ilcbtc.wallet%22&type=Code)

@@ -37,7 +37,7 @@ features:
 >
 > Vent Africa provides you liquidity in a easy, simple and secure manner.
 
-## Description from [Blog](https://blog.vent.africa/frequently-asked-questions-and-answers-on-vent-africa/)
+## Description from [Blog](https://blog.vent.africa/frequently-asked-questions-and-answers-on-vent-africa#deadLink)
 
 > Our platform is easy to use. All you need to do is send your crypto to your assigned wallet address. Once the deposit is confirmed, you would receive the cash equivalent in the bank account you provided for payouts.
  

@@ -11,7 +11,7 @@ released:
 updated: 2026-02-03
 version: 3.4.0
 reviews: 
-website: https://neutron.me/app
+website: https://web.archive.org/web/20250612191436/https://neutron.me/app
 repository: 
 issue: 
 icon: neutronpay.wallet.png
@@ -39,7 +39,7 @@ Neutron Wallet is a mobile Bitcoin and Lightning payment application focused on 
 
 ### Neutron Lend
 
-According to this [page](https://www.neutron.me/lend):
+According to this [page](https://web.archive.org/web/20251115184603/https://www.neutron.me/lend):
 
 You lock BTC by creating a contract and moving it into a multi‑sig wallet so no single party controls the keys while the loan is active. Next you pick the loan amount and terms you want, with rates starting around 8%. After your BTC deposit confirms, they send the stablecoins straight to your address. When you repay principal plus interest, the contract closes and the BTC is released back to you immediately.
 
@@ -49,4 +49,4 @@ We [tested](https://x.com/BitcoinWalletz/status/2006315420186554511) the app and
 
 Wallet provision is generated after email registration. Additional functions are unlocked via user compliance with KYC procedures. We were not given the seed phrases.
 
-Although not explicitly stated in its [terms](https://www.neutron.me/terms-of-use), the lack of seed-phrases, together with KYC procedures, account based wallet provision, the existence of lending features, all point to a **custodial** service.
+Although not explicitly stated in its [terms](https://web.archive.org/web/20251116101724/https://www.neutron.me/terms-of-use), the lack of seed-phrases, together with KYC procedures, account based wallet provision, the existence of lending features, all point to a **custodial** service.

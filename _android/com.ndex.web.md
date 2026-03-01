@@ -11,7 +11,7 @@ released: 2018-10-10
 updated: 2020-04-02
 version: '1.1'
 reviews: 
-website: https://nd-exk.com
+website: https://nd-exk.com#deadLink
 repository: 
 issue: 
 icon: com.ndex.web.png

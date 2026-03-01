@@ -20,7 +20,7 @@ verdict: nosource
 date: 2025-04-24
 twitter: ctrl_wallet
 social:
-- https://discord.com/invite/ctrlwallet
+- https://discord.com/invite/ctrlwallet#deadLink
 - https://t.me/ctrl_wallet
 builds: 
 features: 

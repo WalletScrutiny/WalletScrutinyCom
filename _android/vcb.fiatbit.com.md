@@ -10,7 +10,7 @@ released: 2019-09-12
 updated: 2023-03-03
 version: 2.5.3
 reviews: 
-website: https://www.fiatbit.com
+website: https://www.fiatbit.com#deadLink
 repository: 
 issue: 
 icon: vcb.fiatbit.com.png

@@ -11,7 +11,7 @@ released: 2021-11-12
 updated: 2022-03-30
 version: 3.0.0
 reviews: 
-website: https://safepay.live
+website: https://safepay.live#deadLink
 repository: 
 issue: 
 icon: com.safepay.live.png

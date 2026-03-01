@@ -11,7 +11,7 @@ released: 2018-01-03
 updated: 2022-10-18
 version: VARY
 reviews: 206
-website: https://payeer.com
+website: https://payeer.com#deadLink
 repository: 
 issue: 
 icon: com.payeer.png

@@ -10,7 +10,7 @@ released: 2018-06-01
 updated: 2019-01-04
 version: '1.1'
 reviews: 
-website: http://www.Mob1Apps.com
+website: http://www.mob1apps.com#deadLink
 repository: 
 issue: 
 icon: com.appsquest.tionchuantung.iqc.png

@@ -10,7 +10,7 @@ released: 2022-03-09
 updated: 2024-11-12
 version: 1.3.64
 reviews: 
-website: https://www.keyex.com.tr
+website: https://www.keyex.com.tr#deadLink
 repository: 
 issue: 
 icon: com.keyex.crypto.png

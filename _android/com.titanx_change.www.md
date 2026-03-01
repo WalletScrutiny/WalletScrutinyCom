@@ -10,7 +10,7 @@ released: 2022-10-19
 updated: 2023-07-24
 version: 1.4.3
 reviews: 
-website: https://titan-xchange.com
+website: https://titan-xchange.com#deadLink
 repository: 
 issue: 
 icon: com.titanx_change.www.png

@@ -37,7 +37,7 @@ No changes regarding the availability of its source has been found.
 
 **Note: 2021-11-04** This app shares a logo with {% include walletLinkArchived.html wallet='android/ru.zamzamwallet' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.
 
-**Update on Note October 26, 2021:** We were able to verify the link between these two apps via a document found on [Zam.io's document page](https://docs.zam.io/ecosystem/zam.me-zamzam): The other is for Russia, this here for the rest of the world.
+**Update on Note October 26, 2021:** We were able to verify the link between these two apps via a document found on [Zam.io's document page](https://web.archive.org/web/20230609080014/https://docs.zam.io/ecosystem/zam.me-zamzam): The other is for Russia, this here for the rest of the world.
 
 ## App Description
 

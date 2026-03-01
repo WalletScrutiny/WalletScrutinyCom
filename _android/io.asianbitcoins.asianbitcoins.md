@@ -11,7 +11,7 @@ released: 2020-08-11
 updated: 2020-08-11
 version: 1.0.0
 reviews: 113
-website: https://asianbitcoins.org
+website: https://asianbitcoins.org#deadLink
 repository: 
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png

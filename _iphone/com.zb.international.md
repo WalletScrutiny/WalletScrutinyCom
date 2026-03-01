@@ -23,7 +23,7 @@ date: 2024-02-05
 signer: 
 twitter: ZBexchange
 social:
-- https://zb.com
+- https://zb.com#deadLink
 - https://t.me/ZB_English
 - https://www.facebook.com/ZBexchange
 - https://zbhk.medium.com

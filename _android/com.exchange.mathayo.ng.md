@@ -10,7 +10,7 @@ released: 2021-12-17
 updated: 2021-12-18
 version: 1.0.0
 reviews: 
-website: https://mathayofunds.com/
+website: https://mathayofunds.com#deadLink
 repository: 
 issue: 
 icon: com.exchange.mathayo.ng.png

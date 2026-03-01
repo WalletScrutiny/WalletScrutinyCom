@@ -10,7 +10,7 @@ released:
 updated: 2020-01-21
 version: VARY
 reviews: 
-website: http://coinstradecenter.com/
+website: http://coinstradecenter.com#deadLink
 repository: 
 issue: 
 icon: com.coinstradecenter.android.jpg

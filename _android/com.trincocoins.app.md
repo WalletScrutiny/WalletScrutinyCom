@@ -10,7 +10,7 @@ released: 2022-02-21
 updated: 2022-02-21
 version: '1.2'
 reviews: 
-website: http://www.trincocoins.uk
+website: http://www.trincocoins.uk#deadLink
 repository: 
 issue: 
 icon: com.trincocoins.app.png

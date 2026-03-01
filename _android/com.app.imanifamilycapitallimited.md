@@ -10,7 +10,7 @@ released: 2021-06-04
 updated: 2021-11-19
 version: '1.0'
 reviews: 
-website: https://www.ifclbusinesscryptoapp.com
+website: https://www.ifclbusinesscryptoapp.com#deadLink
 repository: 
 issue: 
 icon: com.app.imanifamilycapitallimited.png

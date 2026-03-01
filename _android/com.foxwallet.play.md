@@ -11,7 +11,7 @@ released: 2021-12-05
 updated: 2026-02-05
 version: 5.5.16
 reviews: 454
-website: https://www.foxwallet.com/en
+website: https://www.foxwallet.com/en#deadLink
 repository: 
 issue: https://github.com/foxwallet/issue/issues/1
 icon: com.foxwallet.play.png

@@ -10,7 +10,7 @@ released: 2020-11-11
 updated: 2020-11-11
 version: '1.0'
 reviews: 
-website: https://skyefly.net
+website: https://skyefly.net#deadLink
 repository: 
 issue: 
 icon: skyefly.net.png

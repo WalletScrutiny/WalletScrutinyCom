@@ -11,7 +11,7 @@ released: 2021-02-22
 updated: 2021-10-21
 version: 1.5.20
 reviews: 82
-website: https://www.protonchain.com/
+website: https://www.protonchain.com#deadLink
 repository: 
 issue: 
 icon: com.metallicus.protonwallet.png
@@ -41,7 +41,7 @@ The app describes that the private keys are stored on the user's device. It allo
 
 ### Terms and Conditions
 
-The [Terms](https://www.protonchain.com/terms/) has a provision on termination:
+The [Terms](https://www.protonchain.com/terms#deadLink) has a provision on termination:
 
 > In the event of termination concerning your license to use Proton Wallet, your obligations under this Agreement will still continue. **Your access to the funds in your Wallet after termination will depend on your access to your backup of your Wallet address and private key.**
 

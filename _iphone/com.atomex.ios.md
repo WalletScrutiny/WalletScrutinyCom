@@ -11,8 +11,8 @@ released: 2020-12-03
 updated: 2023-02-19
 version: '1.24'
 reviews: 11
-website: https://atomex.me
-repository: https://github.com/atomex-me/atomex.mobile
+website: https://atomex.me#deadLink
+repository: https://github.com/atomex-me/atomex.mobile#deadLink
 issue: 
 icon: com.atomex.ios.jpg
 bugbounty: 
@@ -36,7 +36,7 @@ and it also supports Bitcoin and ...
   Tezos community as one of the most active ecosystem contributors.
 
 and indeed their linked GitHub account has a repository that looks promising:
-[atomex-me/atomex.mobile](https://github.com/atomex-me/atomex.mobile).
+[atomex-me/atomex.mobile](https://github.com/atomex-me/atomex.mobile#deadLink).
 
 Given the general issues with reproducibility on iPhone this is great but also
 as far as we will get. The app is **not verifiable**.

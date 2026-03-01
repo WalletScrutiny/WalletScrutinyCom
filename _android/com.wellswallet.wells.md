@@ -10,7 +10,7 @@ released: 2021-07-10
 updated: 2021-07-10
 version: 1.0.0
 reviews: 
-website: http://wellswallet.com
+website: http://wellswallet.com#deadLink
 repository: 
 issue: 
 icon: com.wellswallet.wells.jpg

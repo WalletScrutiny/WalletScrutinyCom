@@ -69,7 +69,7 @@ they might actually be irrelevant upon deeper inspection but just in case this
 app turns out to be reproducible/reproducible, the following two items require
 a deeper look:
 
-1. [This binary blob](https://github.com/ValleZ/Paper-Wallet/blob/master/app/libs/classes.jar)
+1. [This binary blob](https://github.com/ValleZ/Paper-Wallet/blob/master/app/libs/classes.jar#deadLink)
    is not accounted for. Where does it come from? Can it be reproduced?
 1. The developer pointed us to more binary blobs in
    [these folders](https://github.com/ValleZ/Paper-Wallet/blob/master/app/src/main/jniLibs/),

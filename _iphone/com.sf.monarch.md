@@ -40,7 +40,7 @@ no information there and we found [monarchwallet.com](https://monarchwallet.com)
 to likely be their website.
 
 There, we found
-[this question in their FAQ](https://monarch.freshdesk.com/support/solutions/articles/44001516779-lost-my-seed):
+[this question in their FAQ](https://monarch.freshdesk.com/support/solutions/articles/44001516779-lost-my-seed#deadLink):
 
 > **Lost My Seed** Wow this is a problem. We're so sorry, we are a decentralized
 > wallet, this means you and only you own your seed. If you lost your seed there

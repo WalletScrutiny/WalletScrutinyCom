@@ -11,7 +11,7 @@ released: 2018-07-06
 updated: 2021-08-02
 version: 2.1.3
 reviews: 13
-website: http://aximetria.com
+website: http://aximetria.com#deadLink
 repository: 
 issue: 
 icon: com.aximetria.aximetria.jpg

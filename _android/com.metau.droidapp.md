@@ -10,7 +10,7 @@ released: 2022-04-10
 updated: 2022-04-10
 version: '1.0'
 reviews: 
-website: https://www.metauco.com
+website: https://www.metauco.com#deadLink
 repository: 
 issue: 
 icon: com.metau.droidapp.png

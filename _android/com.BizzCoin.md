@@ -11,7 +11,7 @@ released: 2020-01-02
 updated: 2021-10-28
 version: '1.21'
 reviews: 13
-website: https://www.bizzcoin.com/
+website: https://www.bizzcoin.com#deadLink
 repository: 
 issue: 
 icon: com.BizzCoin.png

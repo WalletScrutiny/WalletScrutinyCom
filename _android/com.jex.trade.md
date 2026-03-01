@@ -11,7 +11,7 @@ released: 2019-04-25
 updated: 2021-10-25
 version: 2.8.4
 reviews: 713
-website: https://www.jex.com
+website: https://www.jex.com#deadLink
 repository: 
 issue: 
 icon: com.jex.trade.png

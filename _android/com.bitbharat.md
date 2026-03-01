@@ -10,7 +10,7 @@ released: 2023-01-04
 updated: 2023-01-18
 version: 1.1.2
 reviews: 
-website: https://bitbharat.world
+website: https://bitbharat.world#deadLink
 repository: 
 issue: 
 icon: com.bitbharat.png

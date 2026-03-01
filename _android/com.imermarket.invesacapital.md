@@ -10,7 +10,7 @@ released:
 updated: 2025-07-04
 version: 2.8.5
 reviews: 
-website: https://www.invesacapital.com
+website: https://www.invesacapital.com#deadLink
 repository: 
 issue: 
 icon: com.imermarket.invesacapital.png
@@ -40,6 +40,6 @@ features:
 
 ## Analysis 
 
-- [Deposits](https://www.invesacapital.com/international/faqs/deposit/#q01) are only possible through credit/debit cards, electronic payment, and wire transfer. Withdrawals are processed in the same way as deposits.
+- [Deposits](https://www.invesacapital.com/international/faqs/deposit/#q01&deadLink) are only possible through credit/debit cards, electronic payment, and wire transfer. Withdrawals are processed in the same way as deposits.
 - CFD BTCUSD is available for trading. 
 - This means that the app **cannot send/receive actual bitcoins**, but the user can buy or sell CFDs representing the cryptocurrencies. The app therefore, is **non-verifiable**.

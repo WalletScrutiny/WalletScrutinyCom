@@ -11,7 +11,7 @@ released: 2019-09-17
 updated: 2019-10-15
 version: 1.0.3
 reviews: 18
-website: https://vexblock.co/
+website: https://web.archive.org/web/20200805051007/http://vexblock.co/
 repository: 
 issue: 
 icon: co.vexblock.android.png

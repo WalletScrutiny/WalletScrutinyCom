@@ -10,7 +10,7 @@ released: 2021-06-18
 updated: 2021-06-18
 version: 0.21.3
 reviews: 
-website: https://oxystarter.io
+website: https://oxystarter.io#deadLink
 repository: 
 issue: 
 icon: com.oxy.wallet.png

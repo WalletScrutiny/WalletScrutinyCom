@@ -39,7 +39,7 @@ features:
 
 ## Analysis 
 
-From the [Terms and Conditions:](https://v2.coinzix.com/en/info/terms-and-conditions) 
+From the [Terms and Conditions:](https://v2.coinzix.com/en/info/terms-and-conditions#deadLink) 
 
 > Coinzix retains full custody of digital assets, funds and user data / information that may be transmitted to government authorities in the event of suspension / closure of Coinzix accounts following fraud investigations, infringement investigations or breaches of these conditions.
 

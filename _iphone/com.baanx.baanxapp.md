@@ -11,7 +11,7 @@ released: 2018-12-20
 updated: 2023-02-07
 version: 3.1.1
 reviews: 7
-website: https://baanxapp.com
+website: https://baanxapp.com#deadLink
 repository: 
 issue: 
 icon: com.baanx.baanxapp.jpg

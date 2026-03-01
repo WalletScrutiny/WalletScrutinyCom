@@ -10,7 +10,7 @@ released: 2022-11-20
 updated: 2023-06-17
 version: 1.0.17
 reviews: 
-website: https://www.lemoon.cash/
+website: https://web.archive.org/web/20241006170009/https://www.lemoon.cash/
 repository: 
 issue: 
 icon: cash.lemoon.png

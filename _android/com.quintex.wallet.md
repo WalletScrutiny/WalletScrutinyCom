@@ -10,7 +10,7 @@ released: 2022-05-12
 updated: 2022-05-28
 version: 1.0.0
 reviews: 
-website: https://quintex.io
+website: https://quintex.io#deadLink
 repository: 
 issue: 
 icon: com.quintex.wallet.jpg

@@ -10,7 +10,7 @@ released: 2021-01-29
 updated: 2024-01-29
 version: '1.9'
 reviews: 
-website: https://xeliuqa.app
+website: https://web.archive.org/web/20250710001739/http://www.xeliuqa.app/
 repository: 
 issue: 
 icon: xeliuqa.com.png

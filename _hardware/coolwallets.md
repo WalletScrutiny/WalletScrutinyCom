@@ -65,7 +65,7 @@ Searching for the firmware, latest updates thereof and the source code, we find
 which sounds like the firmware probably is closed source.d
 
 The device
-[uses open standards](https://help.coolwallet.io/article/58-can-i-recover-my-coolwallet-seed-to-another-wallet)
+[uses open standards](https://web.archive.org/web/20211128134859/https://help.coolwallet.io/article/58-can-i-recover-my-coolwallet-seed-to-another-wallet)
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki'>BIP 039</a>,
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki'>BIP 044</a> and
 <a href='https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki'>BIP 141</a> for SegWit and not

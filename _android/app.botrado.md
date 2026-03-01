@@ -10,7 +10,7 @@ released: 2021-12-27
 updated: 2021-12-27
 version: '1.0'
 reviews: 
-website: https://botrado.net
+website: https://botrado.net#deadLink
 repository: 
 issue: 
 icon: app.botrado.png

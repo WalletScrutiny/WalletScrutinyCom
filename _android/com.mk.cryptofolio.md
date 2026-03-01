@@ -11,7 +11,7 @@ released: 2018-05-02
 updated: 2020-08-19
 version: 1.0.51
 reviews: 
-website: http://www.thecryptofolioapp.com
+website: http://www.thecryptofolioapp.com#deadLink
 repository: 
 issue: 
 icon: com.mk.cryptofolio.png

@@ -10,7 +10,7 @@ released: 2020-09-10
 updated: 2020-11-15
 version: 1.1.0
 reviews: 
-website: https://www.ezbitex.io/en_US/
+website: https://www.ezbitex.io/en_US#deadLink
 repository: 
 issue: 
 icon: global.bitex.bitexpay.android.png

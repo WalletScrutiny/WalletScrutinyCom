@@ -36,7 +36,7 @@ features:
 
 ## Analysis 
 
-- The app has an undated announcement concerning unauthorized withdrawals and their mitigation measures. The announcement could be found [here](https://www.publet.io/how-to-use). They also announced that they would be inspecting every withdrawal to see which are legitimate or not. The app would also be undergoing some changes. 
+- The app has an undated announcement concerning unauthorized withdrawals and their mitigation measures. The announcement could be found [here](https://www.publet.io/how-to-use#deadLink). They also announced that they would be inspecting every withdrawal to see which are legitimate or not. The app would also be undergoing some changes. 
 - The Terms and Conditions is also described as the "How to Use" page. 
 - It describes that the app makes use of mnemonic keys that are generated. 
 - It also states that the user is responsible for the safekeeping of these. 

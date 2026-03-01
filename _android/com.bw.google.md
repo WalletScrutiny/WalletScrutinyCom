@@ -11,7 +11,7 @@ released: 2021-07-26
 updated: 2021-08-16
 version: 2.1.4
 reviews: 4
-website: https://www.bwex.vip/
+website: https://www.bwex.vip#deadLink
 repository: 
 issue: 
 icon: com.bw.google.jpg

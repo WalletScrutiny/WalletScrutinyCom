@@ -10,7 +10,7 @@ released: 2019-06-26
 updated: 2019-06-27
 version: 1.0-R
 reviews: 
-website: https://131t.kr/
+website: https://131t.kr#deadLink
 repository: 
 issue: 
 icon: kr.co.a131t.png

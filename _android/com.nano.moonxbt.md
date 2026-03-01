@@ -11,7 +11,7 @@ released: 2021-05-11
 updated: 2023-01-11
 version: 5.4.3
 reviews: 23
-website: https://www.moonxbt.com
+website: https://www.moonxbt.com#deadLink
 repository: 
 issue: 
 icon: com.nano.moonxbt.png
@@ -38,15 +38,15 @@ features:
 
 ## The Site
 
-### [Terms of Use](https://www.moonxbt.com/about/term)
+### [Terms of Use](https://www.moonxbt.com/about/term#deadLink)
 
 > MoonXBT may, by giving notice, at its sole discretion terminate the User’s access to the Platform and to the User’s Account, **including without limitation, MoonXBT’s right to: limit, suspend or terminate the Services and the Users’ Accounts, prohibit access to the Services**, delay or remove hosted content and take technical and legal steps to keep the Users off the Platform, with or without cause. In particular, MoonXBT may, in appropriate circumstances and at MoonXBT’s discretion, suspend or terminate Accounts of Users for any reason
 
 ## The App
 
-[Depositing BTC](https://support.moonxbt.com/hc/en-us/articles/360004258775-How-do-I-make-a-deposit-) will automatically convert the BTC deposited to USDT. 
+[Depositing BTC](https://support.moonxbt.com/hc/en-us/articles/360004258775-How-do-I-make-a-deposit-#deadLink) will automatically convert the BTC deposited to USDT. 
 
-[Withdrawing USDT](https://support.moonxbt.com/hc/en-us/articles/360004259035-How-can-I-add-my-withdrawal-address-) allows USDT withdrawals or USDT converted to Bitcoin
+[Withdrawing USDT](https://support.moonxbt.com/hc/en-us/articles/360004259035-How-can-I-add-my-withdrawal-address-#deadLink) allows USDT withdrawals or USDT converted to Bitcoin
 
 ## Contact
 

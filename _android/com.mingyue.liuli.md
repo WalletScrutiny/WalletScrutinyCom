@@ -10,7 +10,7 @@ released: 2021-06-04
 updated: 2021-08-20
 version: 4.2.2
 reviews: 
-website: https://www.coinbene.com
+website: https://www.coinbene.com#deadLink
 repository: 
 issue: 
 icon: com.mingyue.liuli.png

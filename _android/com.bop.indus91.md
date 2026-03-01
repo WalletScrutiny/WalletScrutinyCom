@@ -10,7 +10,7 @@ released: 2021-10-27
 updated: 2021-11-18
 version: 0.0.3
 reviews: 
-website: https://indus91.com/
+website: https://indus91.com#deadLink
 repository: 
 issue: 
 icon: com.bop.indus91.jpg

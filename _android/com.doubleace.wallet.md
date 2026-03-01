@@ -11,7 +11,7 @@ released:
 updated: 2023-06-05
 version: 1.3.12
 reviews: 
-website: https://acewallet.finance/
+website: https://acewallet.finance#deadLink
 repository: 
 issue: 
 icon: com.doubleace.wallet.png

@@ -11,7 +11,7 @@ released: 2020-03-16
 updated: 2021-11-01
 version: '1.10'
 reviews: 4
-website: http://bizzmartdirect.com
+website: https://web.archive.org/web/20210924123416/http://bizzmartdirect.com/
 repository: 
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg

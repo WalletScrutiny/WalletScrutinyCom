@@ -10,7 +10,7 @@ released:
 updated: 2020-09-16
 version: VARY
 reviews: 
-website: https://nebpay.io
+website: https://nebpay.io#deadLink
 repository: 
 issue: 
 icon: com.neb.showmelove.jpg

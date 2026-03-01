@@ -47,8 +47,8 @@ Tutorial on [how to withdraw Bitcoin using the service](https://support.zaif.jp/
 
 ### Legal
 
-> - [AML and Anti-Terrorism Policy](https://corp.zaif.jp/amlcft/)
-> - [Policy on Anti-Social Groups](https://corp.zaif.jp/antisocial/)
+> - [AML and Anti-Terrorism Policy](https://corp.zaif.jp/amlcft#deadLink)
+> - [Policy on Anti-Social Groups](https://corp.zaif.jp/antisocial#deadLink)
 
 ## The App
 

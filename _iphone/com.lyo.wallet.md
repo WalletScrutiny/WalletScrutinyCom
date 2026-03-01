@@ -11,7 +11,7 @@ released: 2022-06-07
 updated: 2023-12-28
 version: 1.5.1
 reviews: 1
-website: https://lyowallet.com/
+website: https://lyowallet.com#deadLink
 repository: 
 issue: 
 icon: com.lyo.wallet.jpg

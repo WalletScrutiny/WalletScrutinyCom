@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2017-06-26
 version: 1.0.0
 reviews: 
-website: http://www.tradersinc.mobi
+website: http://www.tradersinc.mobi#deadLink
 repository: 
 issue: 
 icon: com.tradersinc.buybitcoin.png

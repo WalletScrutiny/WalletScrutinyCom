@@ -10,7 +10,7 @@ released:
 updated: 2021-07-03
 version: VARY
 reviews: 
-website: https://kryptonio.com
+website: https://kryptonio.com#deadLink
 repository: 
 issue: 
 icon: com.kryptonio.png

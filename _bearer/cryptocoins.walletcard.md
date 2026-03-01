@@ -15,8 +15,8 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.cryptocoinswalletcards.com
-shop: https://www.cryptocoinwalletcards.com/shop/bitcoin/green-walking-lizard-monster-burning-forest-phuj-bitcoin-wallet-card/
+website: https://www.cryptocoinswalletcards.com#deadLink
+shop: https://web.archive.org/web/20231203073211/https://www.cryptocoinwalletcards.com/shop/bitcoin/green-walking-lizard-monster-burning-forest-phuj-bitcoin-wallet-card/
 country: US
 price: 5 USD
 repository: 

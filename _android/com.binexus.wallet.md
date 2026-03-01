@@ -10,7 +10,7 @@ released: 2018-03-28
 updated: 2018-03-29
 version: v5.0.0
 reviews: 
-website: http://www.binexus.co
+website: http://www.binexus.co#deadLink
 repository: 
 issue: 
 icon: com.binexus.wallet.png

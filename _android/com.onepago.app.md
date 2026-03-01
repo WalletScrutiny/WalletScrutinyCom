@@ -10,7 +10,7 @@ released: 2022-02-03
 updated: 2022-05-17
 version: 1.3.0
 reviews: 
-website: https://www.onepago.com/
+website: https://www.onepago.com#deadLink
 repository: 
 issue: 
 icon: com.onepago.app.png

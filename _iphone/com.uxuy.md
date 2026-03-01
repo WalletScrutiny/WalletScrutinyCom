@@ -11,7 +11,7 @@ released: 2023-08-23
 updated: 2025-02-08
 version: 1.3.13
 reviews: 18
-website: https://uxuy.com/wallet
+website: https://web.archive.org/web/20250422220123/https://uxuy.com/wallet
 repository: 
 issue: 
 icon: com.uxuy.jpg
@@ -24,7 +24,7 @@ signer:
 twitter: uxuycom
 social:
 - https://t.me/uxuycom
-- https://discord.com/invite/BZwZA27Zkv
+- https://discord.com/invite/BZwZA27Zkv#deadLink
 - https://www.linkedin.com/company/uxuy
 features: 
 developerName: UXUY Limited

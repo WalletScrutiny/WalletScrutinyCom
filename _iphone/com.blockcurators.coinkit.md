@@ -11,7 +11,7 @@ released: 2021-12-19
 updated: 2021-12-29
 version: 1.2.1
 reviews: 3
-website: https://coinkit.de
+website: https://coinkit.de#deadLink
 repository: 
 issue: 
 icon: com.blockcurators.coinkit.jpg

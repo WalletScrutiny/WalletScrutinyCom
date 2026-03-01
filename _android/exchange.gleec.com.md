@@ -11,7 +11,7 @@ released: 2021-02-17
 updated: 2026-02-17
 version: 1.40.0
 reviews: 
-website: https://gleecbtc.com/
+website: https://gleecbtc.com#deadLink
 repository: 
 issue: 
 icon: exchange.gleec.com.png

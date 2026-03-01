@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: SealBlock
 providerWebsite: 
-website: https://sealblock.io/
+website: https://sealblock.io#deadLink
 shop: 
 country: US
 price: 
@@ -37,7 +37,7 @@ features:
 
 ## Description
 
-> [SealBlock™ hardware wallet](https://sealblock.io/#dom03) uses next generation of hardware encryption technology (Intel SGX) to build a physical crypto boundary for a trusted execution environment. Private keys and signing policy are sealed within SGX Secure Enclave and signings are performed within the Enclave, in order to ensure that the entire process is safe and controllable under the condition that the digital signing function continues to be online, and can achieve a level of defense even against rogue administrators.
+> [SealBlock™ hardware wallet](https://sealblock.io/#dom03&deadLink) uses next generation of hardware encryption technology (Intel SGX) to build a physical crypto boundary for a trusted execution environment. Private keys and signing policy are sealed within SGX Secure Enclave and signings are performed within the Enclave, in order to ensure that the entire process is safe and controllable under the condition that the digital signing function continues to be online, and can achieve a level of defense even against rogue administrators.
 
 There is an associated token for the project called the SKT token. It is currently marked as [inactive](https://www.coingecko.com/en/coins/sealblock-token) by coingecko.com. Furthermore, most of sealblock's social media activity ceased on 2019.
 
@@ -45,7 +45,7 @@ There is an associated token for the project called the SKT token. It is current
 
 ## Verdict 
 
-From {{ page.title }}'s [FAQ](https://sealblock.io/faqs/): 
+From {{ page.title }}'s [FAQ](https://sealblock.io/faqs#deadLink): 
 
 > SealBlock™ currently supports Ethereum and tokens using the ERC-20 standard. Support of BTC and other coins are in development.
 

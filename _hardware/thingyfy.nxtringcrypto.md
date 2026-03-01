@@ -12,7 +12,7 @@ dimensions:
 weight: 14
 provider: Thingyfy Inc.
 providerWebsite: 
-website: https://thingyfy.io/
+website: https://web.archive.org/web/20220629072850/http://thingyfy.io/
 shop: 
 country: HK
 price: 

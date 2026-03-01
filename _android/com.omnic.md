@@ -10,7 +10,7 @@ released: 2019-09-03
 updated: 2021-05-04
 version: 1.0.81
 reviews: 
-website: http://omnic.website/innovation
+website: http://omnic.website/innovation#deadLink
 repository: 
 issue: 
 icon: com.omnic.png

@@ -11,7 +11,7 @@ released: 2021-07-22
 updated: 2024-04-09
 version: 1.3.4
 reviews: 6
-website: https://vowcurrency.com/knowledge-base/
+website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
 repository: 
 issue: 
 icon: com.vowcurrency.vow.jpg

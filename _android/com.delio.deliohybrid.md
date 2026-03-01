@@ -11,7 +11,7 @@ released: 2020-02-27
 updated: 2023-03-16
 version: 1.4.4
 reviews: 62
-website: https://www.delio.foundation
+website: https://www.delio.foundation#deadLink
 repository: 
 issue: 
 icon: com.delio.deliohybrid.png
@@ -35,19 +35,19 @@ features:
 
 Delio Lending app claims to be in a partnership with Bithumb.
 
-However, apart from some media mentions in [CoinTelegraph](https://cointelegraph.com/news/koreas-crypto-market-is-among-the-strongest-and-the-strangest-in-the-world) and Delio.io's own [Medium post](https://delio-io.medium.com/delio-getting-cryptocurrency-lending-on-bithumb-11567bd467c8), other sources are sparse. 
+However, apart from some media mentions in [CoinTelegraph](https://cointelegraph.com/news/koreas-crypto-market-is-among-the-strongest-and-the-strangest-in-the-world#deadLink) and Delio.io's own [Medium post](https://delio-io.medium.com/delio-getting-cryptocurrency-lending-on-bithumb-11567bd467c8), other sources are sparse. 
 
 Delio's services include: lending (cryptocurrency guaranteed loan), deposit and cloud mining.
 
 ## The Site
 
-[Delio.Foundation](https://www.delio.foundation/) does not link back to the Google Play app. The Google play app does link to Delio.Foundation.
+[Delio.Foundation](https://www.delio.foundation#deadLink) does not link back to the Google Play app. The Google play app does link to Delio.Foundation.
 
 We also tried using Google's search parameter, but did not find links from delio.foundation to the Google Play app.
 
-> site: https://delio.foundation "play"
+> site: https://delio.foundation#deadLink "play"
 >
-> site: https://delio.foundation "play.google"
+> site: https://delio.foundation#deadLink "play.google"
 
 As described above, Delio.Foundation does link to @delio.io on Facebook. The Facebook page links to [Delio.io](https://delio.io). Delio.io links to the Google Play and ios apps.
 

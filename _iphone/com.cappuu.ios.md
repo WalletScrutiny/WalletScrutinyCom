@@ -11,7 +11,7 @@ released: 2021-08-16
 updated: 2022-12-28
 version: '3.56'
 reviews: 0
-website: http://www.coinomo.com
+website: https://web.archive.org/web/20241213133502/https://coinomo.com/
 repository: 
 issue: 
 icon: com.cappuu.ios.jpg

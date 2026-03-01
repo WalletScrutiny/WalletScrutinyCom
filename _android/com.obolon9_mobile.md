@@ -10,7 +10,7 @@ released: 2018-04-18
 updated: 2021-10-09
 version: 2.1.2
 reviews: 
-website: http://obolon9.com
+website: http://obolon9.com#deadLink
 repository: 
 issue: 
 icon: com.obolon9_mobile.jpg

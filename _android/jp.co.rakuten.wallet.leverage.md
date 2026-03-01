@@ -59,7 +59,7 @@ features:
     - Must have a Rakuten bank account
     - Must be an experienced trader
 - We were able to access an archived version that dates back to 2021. No archive entries were found for 2022 and 2023. 
-- After some digging, we found some documentation that shows that Rakuten makes use of **cold-storage** mechanisms to protect the user's assets. This is taken from the [translated archive](https://web.archive.org/web/20211103144230/https://www.rakuten-wallet.co.jp/service/security.html):
+- After some digging, we found some documentation that shows that Rakuten makes use of **cold-storage** mechanisms to protect the user's assets. This is taken from the [translated archive](https://www.rakuten-wallet.co.jp/service/security.html):
 
      > Cold wallet operation management
      >

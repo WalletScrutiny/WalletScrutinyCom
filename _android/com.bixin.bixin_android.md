@@ -49,15 +49,15 @@ The site specifies Bixin's security measures:
 
 > Bixin owns the top security team in the industry. We build a mature risk control system to monitor abnormal data in real-time and ensure the security of users' accounts and transactions. Technologies such as hot/cold wallet separation, multi-signatures, and military-grade hardware encryption mechanisms provide a bank-level guarantee for your digital assets.
 
-### [Deposit & Withdrawal Tutorial](https://help.bixin.com/en/faq-en/deposit-and-withdrawal/)
+### [Deposit & Withdrawal Tutorial](https://help.bixin.com/en/faq-en/deposit-and-withdrawal#deadLink)
 
 > Review is required when Internal transfer ≥ 100BTC o External transfer ≥ 50BTC, which will be handled within 24h.
 
-### [Account Security](https://help.bixin.com/en/faq-en/account-security/)
+### [Account Security](https://help.bixin.com/en/faq-en/account-security#deadLink)
 
 > Please keep your login/payment password safe, be sure to use your own identity documents for real-name verification, and try to register your account with your own phone number. If you have problems with your account, please contact the online customer service as soon as possible.
 
-### [User Agreement](https://help.bixin.com/en/user-agreement-en/)
+### [User Agreement](https://help.bixin.com/en/user-agreement-en#deadLink)
 
 Section III. User notes, 2nd clause states:
 

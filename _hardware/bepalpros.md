@@ -15,9 +15,9 @@ dimensions:
 - 8
 weight: 
 provider: BEPAL
-providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
-shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
+providerWebsite: https://bepal.pro#deadLink
+website: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S#deadLink
+shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S#deadLink
 country: CH
 price: 3280CNY
 repository: 

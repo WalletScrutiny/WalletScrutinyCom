@@ -10,7 +10,7 @@ released: 2022-06-06
 updated: 2022-12-15
 version: 1.0.1
 reviews: 
-website: http://eazyblaze.com/
+website: http://eazyblaze.com#deadLink
 repository: 
 issue: 
 icon: com.earlybazewallet.earlybazewallet.png

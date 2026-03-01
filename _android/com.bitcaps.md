@@ -10,7 +10,7 @@ released: 2020-10-30
 updated: 2021-04-06
 version: 1.5.2
 reviews: 
-website: https://www.ini.bitcaps.club
+website: https://www.ini.bitcaps.club#deadLink
 repository: 
 issue: 
 icon: com.bitcaps.png

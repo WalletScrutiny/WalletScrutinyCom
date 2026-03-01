@@ -36,7 +36,7 @@ Maxbit is a Bitcoin and cryptocurrency trading platform in Thailand regulated by
 
 ## Analysis
 
-According to their [terms](https://web.archive.org/web/20241216075234/https://www.maxbit.com/terms-conditions):
+According to their [terms](https://www.maxbit.com/terms-conditions):
 
 > 4. Storage of the User’s assets For the avoidance of doubt, the User shall transfer cash or Digital Asset from the External Account to the Company’s Platform before placing an order via the Company’s Platform. The Company shall operate under the following principles to store the User’s assets 
 

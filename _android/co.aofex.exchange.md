@@ -11,7 +11,7 @@ released: 2021-09-01
 updated: 2021-12-03
 version: 3.0.3
 reviews: 333
-website: http://www.aofex.co
+website: http://www.aofex.co#deadLink
 repository: 
 issue: 
 icon: co.aofex.exchange.jpg

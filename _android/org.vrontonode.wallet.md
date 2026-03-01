@@ -11,7 +11,7 @@ released: 2019-11-29
 updated: 2019-11-29
 version: '1.0'
 reviews: 
-website: http://www.vrontonode.org
+website: https://web.archive.org/web/20240722011202/https://vrontonode.org/
 repository: 
 issue: 
 icon: org.vrontonode.wallet.png
@@ -48,6 +48,6 @@ Now you can enjoy your VRONTO NODE wallet anytime, anywhere.
 
 - The website associated with this app is offline.
 - The app showed a splash screen with an error: "Webpage not available"
-> The webpage at https://wallet.vrontonode.org could not be loaded because: "net::ERR_NAME_NOT_RESOLVED"
+> The webpage at https://web.archive.org/web/20220627080101/http://wallet.vrontonode.org/ could not be loaded because: "net::ERR_NAME_NOT_RESOLVED"
 - We tried to email the provider in the listed contact, but the email returned an error. Address not found. admin@vrontonode.org
 - Since this app was last updated in 2019, we believe this app is **defunct**

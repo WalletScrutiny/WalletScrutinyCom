@@ -10,7 +10,7 @@ released: 2019-05-20
 updated: 2019-05-23
 version: 1.0.3
 reviews: 
-website: https://www.nucex.io
+website: https://www.nucex.io#deadLink
 repository: 
 issue: 
 icon: com.nucex.app.png

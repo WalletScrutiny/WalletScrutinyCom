@@ -11,7 +11,7 @@ released: 2019-12-02
 updated: 2022-05-03
 version: '1.28'
 reviews: 8
-website: https://www.gokumarket.com
+website: https://www.gokumarket.com#deadLink
 repository: 
 issue: 
 icon: com.united.gokumarket.jpg
