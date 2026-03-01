@@ -678,3 +678,15 @@
     }
   }
 }
+
+// Dead and archived link indicators
+.dead-link {
+  text-decoration: line-through !important;
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+}
+.archived-link {
+  font-style: italic;
+}
