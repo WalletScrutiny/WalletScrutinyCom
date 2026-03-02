@@ -80,4 +80,24 @@
   .bigScreenOnly {
       display: none;
   }
+
+  .drop-areas {
+    border: none;
+
+    #select.hover-mode {
+      display: block;
+    }
+
+    .drop-text {
+      display: none;
+    }
+
+    .drop-area-textbox {
+      padding-left: 20px;
+
+      li {
+        margin-left: 5px;
+      }
+    }
+  }
 }
