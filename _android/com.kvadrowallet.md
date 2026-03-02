@@ -11,7 +11,7 @@ released: 2020-11-16
 updated: 2021-08-14
 version: 1.2.13
 reviews: 34
-website: https://kvadrowallet.com/
+website: https://kvadrowallet.com#deadLink
 repository: 
 issue: 
 icon: com.kvadrowallet.png

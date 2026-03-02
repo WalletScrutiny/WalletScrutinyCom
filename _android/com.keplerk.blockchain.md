@@ -11,7 +11,7 @@ released: 2020-02-14
 updated: 2022-06-21
 version: 3.5.4
 reviews: 
-website: https://bykep.com/
+website: https://bykep.com#deadLink
 repository: 
 issue: 
 icon: com.keplerk.blockchain.jpg
@@ -43,11 +43,11 @@ It also directly states that it is a custodial product.
 > - If you lose your credentials, contact our customer service to recover them safely
 
 ### The Site
-From the site, on the [_How does it work?_ page.](https://bykep.com/en/how-does-it-work):
+From the site, on the [_How does it work?_ page.](https://bykep.com/en/how-does-it-work#deadLink):
 
 > BYKEP™ wallet' private keys are stored following a multi-layer enhanced security protocols . Not displaying the private key, provide novice users, with a cryptocurrency managing tool, adapted to basic technical knowledge.
 
-From the [General Terms and Conditions:](https://bykep.com/en/terms-of-sales-wallet)
+From the [General Terms and Conditions:](https://bykep.com/en/terms-of-sales-wallet#deadLink)
 
 > BYKEP undertakes to store your Crypto-actives securely in your BYKEP Crypto-Wallet. The storage of access to your Crypto-actives is carried out on unconnected media (Cold Storage), thus guaranteeing the integrity of your private key.
 > - 5.2 The security protocols in place guarantee You access to your Crypto-actives by protecting them against the risk of loss, forgetting or deterioration of traditional means of access.

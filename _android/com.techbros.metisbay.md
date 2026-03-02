@@ -10,7 +10,7 @@ released: 2020-12-18
 updated: 2021-01-12
 version: 1.0.1
 reviews: 
-website: https://metisbay.com
+website: https://metisbay.com#deadLink
 repository: 
 issue: 
 icon: com.techbros.metisbay.jpg

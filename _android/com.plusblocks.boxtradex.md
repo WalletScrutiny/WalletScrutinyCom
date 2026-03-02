@@ -46,7 +46,7 @@ features:
 
 > BOXTradEx may suspend part or all of this service or terminate it without notice This service, and immediately report to the inspection unit.
 
-### Third-party custodians [(From FAQ)](https://www.boxtradex.com/faq/)
+### Third-party custodians [(From FAQ)](https://www.boxtradex.com/faq#deadLink)
 
 > For asset security, we collaboration with global leading institutions, Circle, Binance for third party custody solutions, which the users’ assets will store in off-line wallet and insurance by up to $150M.
 

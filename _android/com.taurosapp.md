@@ -11,7 +11,7 @@ released: 2019-10-03
 updated: 2023-03-31
 version: 9.6.4
 reviews: 5
-website: https://tauros.io
+website: https://tauros.io#deadLink
 repository: 
 issue: 
 icon: com.taurosapp.png
@@ -40,9 +40,9 @@ features:
 
 This exchange allows you to buy, sell, send, and receive cryptocurrencies, but it is not mentioned who holds the users' private keys.
 
-The site requires you to [join a waiting list](https://tauros.io/signup) to open a new account.
+The site requires you to [join a waiting list](https://tauros.io/signup#deadLink) to open a new account.
 
-In section 17.2 of the [Terms and Conditions](https://tauros.io/terms), it is confirmed that this is a **custodial** offering as the providers are capable of suspending the client's account.
+In section 17.2 of the [Terms and Conditions](https://tauros.io/terms#deadLink), it is confirmed that this is a **custodial** offering as the providers are capable of suspending the client's account.
 
 > Tauros and Cacao reserve the right to suspend, cancel or modify any aspect of the Client's Cacao Account and/or Wallet, or its availability, at any time without prior notice, without incurring any liability. In addition, in relation to the Services and the Wallet offered by Tauros, Tauros reserves the right to suspend, modify, deactivate or cancel the Clients' Account, as well as their access to all or part of the Services immediately and without prior notice. 
 

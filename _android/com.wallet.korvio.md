@@ -11,7 +11,7 @@ released: 2019-06-21
 updated: 2021-03-18
 version: 1.0.25
 reviews: 
-website: https://korvio.io
+website: https://korvio.io#deadLink
 repository: 
 issue: 
 icon: com.wallet.korvio.png
@@ -42,7 +42,7 @@ Its website strives to describe their service more:
 
 > KORVIO can Issue millions of assets on a blockchain, which all tracked and verified at the network level. Perform safe multi-asset and multi-party atomic exchange transactions.
 
-We then took a look at the [Korvio Terms and Conditions](https://korvio.io/TermsCondition.html) 
+We then took a look at the [Korvio Terms and Conditions](https://korvio.io/TermsCondition.html#deadLink) 
 
 > We may terminate or suspend access to our Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
 
@@ -51,7 +51,7 @@ We then took a look at the [Korvio Terms and Conditions](https://korvio.io/Terms
 We downloaded the app and registered with an email address. After that, the KRO/BTC wallet is easily accessible. The app claims that users **can receive both KRO and BTC** using the same address. There is an option to backup the wallet via a 12 word mnemonic. It is possible to swap KRO with BTC using the platform.
 
 ### KRO Token
-The KRO token is the primary token used in the app. Described in [Korvio's FAQ](https://wallet.korvio.io/#/faq):
+The KRO token is the primary token used in the app. Described in [Korvio's FAQ](https://wallet.korvio.io/#/faq&deadLink):
 
 > KRO is world first cryptocurrency function with AI integrated DAPP. The immutable ledger technology helps to accounts for one end solution to the number of running applications by which trade fund or users money can be tracked.
 

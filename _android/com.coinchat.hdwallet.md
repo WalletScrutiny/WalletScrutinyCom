@@ -11,7 +11,7 @@ released: 2018-10-14
 updated: 2018-10-15
 version: '0.9'
 reviews: 
-website: http://www.coinchat.im
+website: http://www.coinchat.im#deadLink
 repository: 
 issue: 
 icon: com.coinchat.hdwallet.png

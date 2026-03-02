@@ -10,7 +10,7 @@ released: 2019-12-27
 updated: 2021-05-24
 version: '1.014'
 reviews: 
-website: http://facoin.info
+website: http://facoin.info#deadLink
 repository: 
 issue: 
 icon: com.bit.teo.png

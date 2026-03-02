@@ -11,7 +11,7 @@ released: 2021-04-15
 updated: 2021-04-16
 version: 2.0.0
 reviews: 1
-website: http://m.trexfx.com
+website: http://m.trexfx.com#deadLink
 repository: 
 issue: 
 icon: com.vn.trextrade.tt.jpg

@@ -10,7 +10,7 @@ released: 2021-12-22
 updated: 2022-02-15
 version: 1.1.5
 reviews: 
-website: https://crosstower.com
+website: https://crosstower.com#deadLink
 repository: 
 issue: 
 icon: com.ctower.wallet.png

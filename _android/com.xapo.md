@@ -48,5 +48,5 @@ but under closer investigation, we can't find any Bitcoin wallet here. Naming
 "traditional currencies" and "bitcoin" in the same security
 claim sound like it has to be custodial.
 
-Their [website on security](https://xapo.com/en/security) is not claiming
+Their [website on security](https://xapo.com/en/security#deadLink) is not claiming
 otherwise neither which makes us conclude: This app is **not verifiable**.

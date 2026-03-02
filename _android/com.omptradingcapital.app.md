@@ -10,7 +10,7 @@ released: 2020-12-12
 updated: 2020-12-12
 version: '1.0'
 reviews: 
-website: https://omptrading.capital
+website: https://omptrading.capital#deadLink
 repository: 
 issue: 
 icon: com.omptradingcapital.app.png

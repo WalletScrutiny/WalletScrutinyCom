@@ -10,7 +10,7 @@ released: 2022-09-26
 updated: 2023-05-23
 version: 1.0.15
 reviews: 
-website: https://indtcoin.com
+website: https://indtcoin.com#deadLink
 repository: 
 issue: 
 icon: com.indtwallet.indt.png

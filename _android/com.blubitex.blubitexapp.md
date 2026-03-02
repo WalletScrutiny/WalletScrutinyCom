@@ -11,7 +11,7 @@ released: 2020-10-03
 updated: 2022-04-14
 version: 2.1.342
 reviews: 37
-website: https://blubitex.com
+website: https://blubitex.com#deadLink
 repository: 
 issue: 
 icon: com.blubitex.blubitexapp.png
@@ -33,7 +33,7 @@ features:
 
 2021-09-06: The app is currently under maintenance. Users can sign in through the web application only.
 
-The [Privacy Policy](https://blubitex.com/ft/privacy) is titled as 
+The [Privacy Policy](https://blubitex.com/ft/privacy#deadLink) is titled as 
 
 > P2P User Transaction Policy.<br>
   The platform is not a party to a C2C transaction. Therefore, any disputes between Users engaging in C2C transactions have nothing to do with the platform. The platform has neither the rights nor the obligations to resolve any disputes arising therefrom. It is not obliged to assume physical obligations or responsibilities to any party (including but not limited to indemnities).

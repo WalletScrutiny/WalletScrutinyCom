@@ -10,7 +10,7 @@ released: 2021-06-04
 updated: 2021-06-20
 version: 1.0.2
 reviews: 
-website: https://anyiwest.com/
+website: https://anyiwest.com#deadLink
 repository: 
 issue: 
 icon: com.rinnas.anyiwest.png

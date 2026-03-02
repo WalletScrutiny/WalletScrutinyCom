@@ -13,7 +13,7 @@ weight:
 provider: 
 providerWebsite: https://www.secalot.com
 website: https://www.secalot.com/
-shop: https://www.secalot.com/product/secalot-dongle/
+shop: https://www.secalot.com/product/secalot-dongle#deadLink
 country: 
 price: 50EUR
 repository: 

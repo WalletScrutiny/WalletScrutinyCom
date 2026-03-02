@@ -11,7 +11,7 @@ released: 2021-10-08
 updated: 2023-09-03
 version: 2.2.01215
 reviews: 28
-website: http://wallet.diviproject.org
+website: https://web.archive.org/web/20210919220325/https://wallet.diviproject.org/
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg

@@ -10,7 +10,7 @@ released: 2018-01-24
 updated: 2018-01-30
 version: '1.12'
 reviews: 
-website: http://inout.fm/
+website: http://inout.fm#deadLink
 repository: 
 issue: 
 icon: com.lastthink.numbify.png

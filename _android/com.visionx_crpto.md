@@ -10,7 +10,7 @@ released: 2021-02-21
 updated: 2021-03-28
 version: 1.0.6
 reviews: 
-website: https://test2.visionxcrypto.com
+website: https://test2.visionxcrypto.com#deadLink
 repository: 
 issue: 
 icon: com.visionx_crpto.png

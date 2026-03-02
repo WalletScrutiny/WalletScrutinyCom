@@ -10,7 +10,7 @@ released: 2019-10-30
 updated: 2020-04-05
 version: 6.3.12
 reviews: 
-website: https://bluebiz.opensecu.com
+website: https://bluebiz.opensecu.com#deadLink
 repository: 
 issue: 
 icon: com.wallet.bluebiz.png

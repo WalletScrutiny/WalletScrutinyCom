@@ -10,7 +10,7 @@ released: 2022-06-27
 updated: 2022-06-27
 version: 1.0.0
 reviews: 
-website: https://harungoker.com
+website: https://harungoker.com#deadLink
 repository: 
 issue: 
 icon: com.harungoker.bitcrypto.png

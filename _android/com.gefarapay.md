@@ -10,7 +10,7 @@ released: 2018-08-02
 updated: 2021-03-03
 version: '1.21'
 reviews: 
-website: http://pay4y.com/
+website: http://pay4y.com#deadLink
 repository: 
 issue: 
 icon: com.gefarapay.png

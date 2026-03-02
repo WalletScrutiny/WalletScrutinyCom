@@ -24,7 +24,7 @@ twitter: aibitcom
 social:
 - https://www.aibit.com/
 - https://www.facebook.com/aibitcom
-- https://discord.com/invite/aibitcom
+- https://discord.com/invite/aibitcom#deadLink
 - https://medium.com/@aibitcom
 - https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
 redirect_from: 

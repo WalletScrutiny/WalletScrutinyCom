@@ -11,7 +11,7 @@ released: 2016-08-25
 updated: 2024-04-21
 version: 13.1.1
 reviews: 18
-website: https://lykke.com
+website: https://lykke.com#deadLink
 repository: 
 issue: 
 icon: com.lykkex.LykkeWallet.png

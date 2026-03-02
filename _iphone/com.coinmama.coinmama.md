@@ -11,7 +11,7 @@ released: 2022-11-21
 updated: 2023-04-18
 version: 1.3.0
 reviews: 28
-website: https://www.coinmama.com/coinmama-wallet
+website: https://web.archive.org/web/20251229095124/https://www.coinmama.com/coinmama-wallet
 repository: 
 issue: 
 icon: com.coinmama.coinmama.jpg

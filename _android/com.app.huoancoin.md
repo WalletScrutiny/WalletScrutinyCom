@@ -11,7 +11,7 @@ released: 2022-01-23
 updated: 2022-01-24
 version: '1.0'
 reviews: 18
-website: https://www.huoancoin.com
+website: https://www.huoancoin.com#deadLink
 repository: 
 issue: 
 icon: com.app.huoancoin.png

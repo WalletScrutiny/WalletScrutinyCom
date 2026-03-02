@@ -11,7 +11,7 @@ released: 2021-04-09
 updated: 2021-04-09
 version: 1.0.1
 reviews: 14
-website: https://folgory.com/
+website: https://folgory.com#deadLink
 repository: 
 issue: 
 icon: folgory.folgory.png

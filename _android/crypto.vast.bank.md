@@ -36,10 +36,10 @@ features:
 
 > Buy, sell and hold crypto through a mobile banking app offered by a traditional bank. While you’re at it, earn 2.65% Annual Percentage Yield (APY) on your checking account balance.
 
-Vast bank is a [federally regulated bank](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank).
+Vast bank is a [federally regulated bank](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank#deadLink).
 
 ## Analysis
 
 - The app is geo-restricted
-- This [help article](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank) describes {{ page.title }} as a cryptocurrency custody solution.
+- This [help article](https://www.vast.bank/crypto-banking-insights/crypto-custody-bank#deadLink) describes {{ page.title }} as a cryptocurrency custody solution.
 - Evidently, this is a **custodial** provider.

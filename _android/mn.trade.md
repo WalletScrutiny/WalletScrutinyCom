@@ -41,6 +41,6 @@ Trade.mn is the exchange that allows investors the opportunity to purchase digit
 
 ## Verdict
 
-The service looks like a centralized cryptocurrency exchange. The main language for the site is Russian. However in its other social media accounts, it refers to itself as "DigitalExchangeMongolia". It requires user identity verification, has provisions for fiat bank account details, different user level tiers, and different methods for funding. Information is available via their ['help'](https://trade.mn/help) page. Further information about account termination can be found on their [Terms and Conditions page.](https://trade.mn/terms). 
+The service looks like a centralized cryptocurrency exchange. The main language for the site is Russian. However in its other social media accounts, it refers to itself as "DigitalExchangeMongolia". It requires user identity verification, has provisions for fiat bank account details, different user level tiers, and different methods for funding. Information is available via their ['help'](https://web.archive.org/web/20210827052836/https://trade.mn/help) page. Further information about account termination can be found on their [Terms and Conditions page.](https://web.archive.org/web/20160507174240/http://trade.mn:80/terms). 
 
 This service is **custodial** making the app **not verifiable.**

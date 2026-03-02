@@ -34,7 +34,7 @@ features:
 
 This Indonesian cryptocurrency exchange allows users to buy, sell and invest in Bitcoin and other cryptocurrencies. 
 
-As with most custodial services, its [Terms and Conditions](https://bitocto.com/en/terms-of-use/) are good indicators for its custodial nature:
+As with most custodial services, its [Terms and Conditions](https://bitocto.com/en/terms-of-use#deadLink) are good indicators for its custodial nature:
 
 > You must verify your identity to withdraw & deposit funds (Digital Asset or Fiat).<br><br>
 Bitocto does not guarantee Bitcoin, other digital assets or bank transfer disbursement times and will not be liable for any delays.<br><br>

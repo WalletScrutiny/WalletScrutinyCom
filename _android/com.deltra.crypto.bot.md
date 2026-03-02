@@ -10,7 +10,7 @@ released: 2022-07-10
 updated: 2023-05-03
 version: 1.1.4
 reviews: 
-website: https://www.xrstudio.in
+website: https://www.xrstudio.in#deadLink
 repository: 
 issue: 
 icon: com.deltra.crypto.bot.png

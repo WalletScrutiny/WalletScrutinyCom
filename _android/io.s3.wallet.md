@@ -11,7 +11,7 @@ released: 2020-01-29
 updated: 2021-02-20
 version: 2.1.2
 reviews: 
-website: https://s3wallet.io
+website: https://s3wallet.io#deadLink
 repository: 
 issue: 
 icon: io.s3.wallet.png

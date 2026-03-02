@@ -10,7 +10,7 @@ released: 2022-02-24
 updated: 2023-08-28
 version: 1.2.2
 reviews: 
-website: https://opermizer.zone
+website: https://opermizer.zone#deadLink
 repository: 
 issue: 
 icon: com.opi.optimizer.png

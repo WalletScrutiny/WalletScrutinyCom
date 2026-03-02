@@ -10,7 +10,7 @@ released: 2021-04-10
 updated: 2021-11-02
 version: '10.00'
 reviews: 1
-website: https://bitcoin.flarfly.com
+website: https://bitcoin.flarfly.com#deadLink
 repository: 
 issue: 
 icon: app.bitcoin.wallet.png

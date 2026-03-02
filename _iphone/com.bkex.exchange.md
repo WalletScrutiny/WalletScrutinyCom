@@ -11,7 +11,7 @@ released: 2019-09-02
 updated: 2023-05-23
 version: 7.30.1
 reviews: 286
-website: http://www.bkex.vip
+website: http://www.bkex.vip#deadLink
 repository: 
 issue: 
 icon: com.bkex.exchange.jpg

@@ -34,7 +34,7 @@ features:
 
 ---
 
-**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](https://web.archive.org/web/20240428014817/http://www.samouraiwallet.com/). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
+**Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](http://www.samouraiwallet.com). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
 
 Because of Samourai Wallet's removal, users may find that their funds *appear* to have gone to zero. This is likely due to the servers going offline. Don't panic, as your coins are still there. However it is best to restore your backup to another wallet.
 

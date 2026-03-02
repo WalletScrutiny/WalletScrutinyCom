@@ -11,7 +11,7 @@ released: 2020-06-15
 updated: 2022-02-12
 version: 3.9.1
 reviews: 1
-website: https://moneypipe.com/hd-wallet/
+website: https://web.archive.org/web/20220401111602/https://moneypipe.com/hd-wallet/
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.jpg

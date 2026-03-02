@@ -10,7 +10,7 @@ released: 2022-03-14
 updated: 2023-10-05
 version: '2.0'
 reviews: 
-website: https://peacewallet.io/
+website: https://peacewallet.io#deadLink
 repository: 
 issue: 
 icon: com.jax.peaceWallet.png

@@ -10,7 +10,7 @@ released: 2022-04-04
 updated: 2022-04-05
 version: 1.0.6
 reviews: 
-website: https://xignalex.com
+website: https://xignalex.com#deadLink
 repository: 
 issue: 
 icon: com.xignal.android.exchange.png

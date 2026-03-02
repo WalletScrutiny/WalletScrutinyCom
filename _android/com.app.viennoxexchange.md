@@ -10,7 +10,7 @@ released: 2021-10-12
 updated: 2021-10-18
 version: '1.1'
 reviews: 
-website: https://viennox.com/
+website: https://viennox.com#deadLink
 repository: 
 issue: 
 icon: com.app.viennoxexchange.png

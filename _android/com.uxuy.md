@@ -24,7 +24,7 @@ signer:
 twitter: uxuycom
 social:
 - https://t.me/uxuycom
-- https://discord.com/invite/BZwZA27Zkv
+- https://discord.com/invite/BZwZA27Zkv#deadLink
 - https://www.linkedin.com/company/uxuy
 redirect_from: 
 developerName: UXUY Limited
@@ -69,7 +69,7 @@ We shared the address because we thought it prudent to identify parts of it to d
 
 ## UXUY claims to be self-custodial and non-custodial
 
-It claims to be self-custodial in its Google Play page, and non-custodial in its [documentation.](https://docs.uxuy.com/mpc-wallet/)
+It claims to be self-custodial in its Google Play page, and non-custodial in its [documentation.](https://docs.uxuy.com/mpc-wallet#deadLink)
 
 > A non-custodial secure wallet is a type of wallet that never generates or retains the complete private key or mnemonic phrase at any point. During the creation of an MPC (Multi-Party Computation) wallet, only MPC unit shards are generated through algorithms, and no private key is generated throughout the entire process, only the existence of MPC unit shards. When signing transactions, private keys are not used for signing; instead, irreversible signatures are created using MPC unit shards.
 >

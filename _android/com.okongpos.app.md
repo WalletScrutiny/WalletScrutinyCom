@@ -10,7 +10,7 @@ released: 2020-11-25
 updated: 2020-11-26
 version: Version 2.2.1
 reviews: 
-website: http://www.okongpos.com
+website: http://www.okongpos.com#deadLink
 repository: 
 issue: 
 icon: com.okongpos.app.png

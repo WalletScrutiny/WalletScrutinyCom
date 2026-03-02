@@ -11,7 +11,7 @@ released: 2021-03-04
 updated: 2021-03-04
 version: '1.0'
 reviews: 
-website: https://xerium.info/
+website: https://xerium.info#deadLink
 repository: 
 issue: 
 icon: com.xerium.wallet.png
@@ -55,7 +55,7 @@ The facebook account of the app is a personal profile.
 
 ### Terms and Conditions
 
-We noticed the app's [Terms and Conditions page](https://xerium.info/terms_condition) is only one paragraph long:
+We noticed the app's [Terms and Conditions page](https://xerium.info/terms_condition#deadLink) is only one paragraph long:
 
 > Terms of use stated here are going to be binding on you. You agree that each one or any products and/ or services offered on worldrummy.inwebsite are often used only in agreement with the terms of use and you shall be responsible to act in accordance with the terms of use in the least times. The onus of reading, understanding and agreeing to the terms of use published by worldrummy.in always lies with you. If, at any point in time any of the terms of use are regulated, prohibited, unsound, null or unenforceable by any judgment by any judicial, it'll not impact the applicability and compliance of any of the remaining terms.
 

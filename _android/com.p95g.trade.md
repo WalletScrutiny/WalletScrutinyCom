@@ -10,7 +10,7 @@ released: 2019-09-10
 updated: 2020-03-10
 version: 1.5.0
 reviews: 
-website: https://www.p95g.com
+website: https://www.p95g.com#deadLink
 repository: 
 issue: 
 icon: com.p95g.trade.png

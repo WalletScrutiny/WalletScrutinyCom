@@ -46,7 +46,7 @@ features:
 
 ## The Site
 
-### [**Terms of Service**](https://www.paymium.com/page/tos)
+### [**Terms of Service**](https://www.paymium.com/page/tos#deadLink)
 
 > **Section 7.4. Suspension or termination by PAYMIUM or the BANKING PARTNER**
 >

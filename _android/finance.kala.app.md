@@ -10,7 +10,7 @@ released:
 updated: 2021-10-05
 version: VARY
 reviews: 
-website: https://kala.finance
+website: https://kala.finance#deadLink
 repository: 
 issue: 
 icon: finance.kala.app.png

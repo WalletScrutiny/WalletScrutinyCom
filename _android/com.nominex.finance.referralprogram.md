@@ -10,7 +10,7 @@ released: 2022-05-19
 updated: 2022-05-19
 version: '1.0'
 reviews: 
-website: https://nominex.mygreat.app/
+website: https://nominex.mygreat.app#deadLink
 repository: 
 issue: 
 icon: com.nominex.finance.referralprogram.png

@@ -11,7 +11,7 @@ released: 2021-10-25
 updated: 2023-07-05
 version: 1.4.50
 reviews: 9
-website: https://www.btcex.com/
+website: https://www.btcex.com#deadLink
 repository: 
 issue: 
 icon: com.btcex.exchange.png
@@ -39,7 +39,7 @@ features:
 
 This trading platform claims to support BTC and ETH.
 
-[The site confirms](https://support.btcex.com/hc/en-us/articles/6819057343255) that it requires users to pass KYC verification:
+[The site confirms](https://support.btcex.com/hc/en-us/articles/6819057343255#deadLink) that it requires users to pass KYC verification:
 
 > Now KYC verification is required by major crypto exchanges around the world. If this verification is not completed, users cannot get access to all features and services.
 
@@ -47,7 +47,7 @@ Additionally:
 
 > After it is completed, you’ll be able to buy, deposit and withdraw crypto, and your withdrawal limit will be up to 10,000,000.00 USDT.
 
-The exchange is capable of suspending the users' withdrawals. From the [Terms of Service document](https://static.btcex.com/files/Terms+of+Service+and+Privacy+Policy+-+BTCEX.pdf), Article 14. Suspension & Termination:
+The exchange is capable of suspending the users' withdrawals. From the [Terms of Service document](https://static.btcex.com/files/Terms+of+Service+and+Privacy+Policy+-+BTCEX.pdf#deadLink), Article 14. Suspension & Termination:
 
 > Suspension: if we suspect that you have breached these Terms of Service, applicable law and/or the trading terms provided on our Website, we may temporarily suspend your Account and limit your trading.
 >

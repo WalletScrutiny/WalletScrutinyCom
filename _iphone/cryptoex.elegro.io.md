@@ -11,7 +11,7 @@ released: 2019-08-16
 updated: 2021-04-30
 version: '1.4'
 reviews: 2
-website: https://personal.elegro.eu/certified-coins
+website: https://personal.elegro.eu/certified-coins#deadLink
 repository: 
 issue: 
 icon: cryptoex.elegro.io.jpg

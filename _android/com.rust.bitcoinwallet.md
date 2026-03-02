@@ -11,7 +11,7 @@ released: 2023-04-15
 updated: 2023-05-15
 version: 3.04.30
 reviews: 
-website: https://altrafinance.io/
+website: https://altrafinance.io#deadLink
 repository: 
 issue: 
 icon: com.rust.bitcoinwallet.png
@@ -45,7 +45,7 @@ does look suspicious:
 * We downloaded the app and decompiled it. It was obfuscated.
 * They claim it's open source but link no source anywhere.
 * No social accounts.
-* No [features](https://altrafinance.io/features/)
-* No [support](https://altrafinance.io/support/)
+* No [features](https://altrafinance.io/features#deadLink)
+* No [support](https://altrafinance.io/support#deadLink)
 
 We decompiled the app to get more insight - if it's copied from a competitor for example but it's obfuscated. This product can **not be verified**.

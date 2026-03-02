@@ -10,7 +10,7 @@ released: 2020-02-11
 updated: 2020-07-29
 version: 1.0.6
 reviews: 
-website: https://ais-ex.com
+website: https://ais-ex.com#deadLink
 repository: 
 issue: 
 icon: com.aisx.png

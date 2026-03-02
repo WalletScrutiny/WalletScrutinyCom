@@ -10,7 +10,7 @@ released: 2022-04-18
 updated: 2022-04-28
 version: 0.0.3
 reviews: 
-website: http://cointrunk.net
+website: http://cointrunk.net#deadLink
 repository: 
 issue: 
 icon: com.poland.cointrunk.jpg

@@ -10,7 +10,7 @@ released: 2022-04-05
 updated: 2022-07-22
 version: 2.3.82
 reviews: 4
-website: https://www.ruyiwallet.com
+website: https://www.ruyiwallet.com#deadLink
 repository: 
 issue: 
 icon: com.ruyiwallet.app.png

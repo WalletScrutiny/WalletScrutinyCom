@@ -10,7 +10,7 @@ released: 2020-12-04
 updated: 2020-10-08
 version: '4.0'
 reviews: 
-website: http://xnano.com.br
+website: http://xnano.com.br#deadLink
 repository: 
 issue: 
 icon: com.inf.os.xnanoandroid.png

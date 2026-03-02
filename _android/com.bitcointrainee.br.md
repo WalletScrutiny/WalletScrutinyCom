@@ -10,7 +10,7 @@ released: 2018-09-09
 updated: 2018-09-10
 version: 1.0.4
 reviews: 
-website: https://flavioflima.com
+website: https://flavioflima.com#deadLink
 repository: 
 issue: 
 icon: com.bitcointrainee.br.png

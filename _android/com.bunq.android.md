@@ -44,7 +44,7 @@ bunq is a Dutch digital bank that offers traditional banking services alongside 
 
 2. **Is it for bitcoins?** Partially, bunq supports Bitcoin trading but it's just one of 350+ cryptocurrencies offered as a banking service.
 
-3. **Can it send and receive bitcoins?** No, bunq explicitly prohibits transferring crypto assets to external wallets as stated in their [Terms and Conditions](https://www.bunq.com/legal/terms-personal).
+3. **Can it send and receive bitcoins?** No, bunq explicitly prohibits transferring crypto assets to external wallets as stated in their [Terms and Conditions](https://www.bunq.com/legal/terms-personal#deadLink).
 
 4. **Is the product self-custodial?** No, crypto assets are stored by Kraken, bunq's licensed partner, not by the user.
 

@@ -11,7 +11,7 @@ released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
 reviews: 148
-website: https://hoo.com
+website: https://hoo.com#deadLink
 repository: 
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg

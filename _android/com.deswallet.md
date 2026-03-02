@@ -10,7 +10,7 @@ released: 2020-03-04
 updated: 2020-03-12
 version: '1.1'
 reviews: 
-website: https://dtechno.tech/
+website: https://dtechno.tech#deadLink
 repository: 
 issue: 
 icon: com.deswallet.png

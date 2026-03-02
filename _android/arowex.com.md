@@ -10,7 +10,7 @@ released: 2021-07-16
 updated: 2021-07-17
 version: 0.0.0.1
 reviews: 
-website: https://www.arowex.com
+website: https://www.arowex.com#deadLink
 repository: 
 issue: 
 icon: arowex.com.png

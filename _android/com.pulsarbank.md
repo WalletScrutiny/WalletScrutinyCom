@@ -23,7 +23,7 @@ date: 2023-06-02
 signer: 
 twitter: 
 social:
-- https://pulsarbank.com
+- https://pulsarbank.com#deadLink
 redirect_from: 
 developerName: Pulsar Platform LTD
 builds: 

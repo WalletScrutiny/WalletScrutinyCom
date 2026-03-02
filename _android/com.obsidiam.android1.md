@@ -38,7 +38,7 @@ features:
 
 > Buy, sell, send and manage Bitcoin, Litecoin, Ethereum and many more digital assets in the easiest and more accesible way in the market. Find hundreds of buyers and sellers all around the globe In our P2P market. Use Obsipay and send digital assets to friends and family
 
-### [Terms](https://www.obsidiam.com/page/c/U2FsdGVkX18aUBKBpK3mp8Zb+WoNxEEa5ew7gLlBQbCBjWW3+AfRGZzqBFBCTfga) 
+### [Terms](https://www.obsidiam.com/page/c/U2FsdGVkX18aUBKBpK3mp8Zb+WoNxEEa5ew7gLlBQbCBjWW3+AfRGZzqBFBCTfga#deadLink) 
 
 > 6. Security
 > 

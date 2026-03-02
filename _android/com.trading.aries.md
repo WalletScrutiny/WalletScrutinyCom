@@ -41,7 +41,7 @@ Aries is a trading app, and while there is mention of cryptocurrencies you can t
 
 ## The Site
 
-From [the Terms](https://tradearies.com/legal/termsconditions.pdf), **Your Account**:
+From [the Terms](https://tradearies.com/legal/termsconditions.pdf#deadLink), **Your Account**:
 
 > We must not be liable to make any compensation, monetary or otherwise, following such suspension, termination or inability to use our Services. You are responsible for any fees that we incur with respect to your Account as a result of any of the foregoing.
 

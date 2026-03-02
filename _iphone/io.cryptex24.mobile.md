@@ -11,7 +11,7 @@ released: 2022-07-06
 updated: 2022-12-05
 version: '1.6'
 reviews: 1
-website: https://www.cryptex24.io
+website: https://www.cryptex24.io#deadLink
 repository: 
 issue: 
 icon: io.cryptex24.mobile.jpg

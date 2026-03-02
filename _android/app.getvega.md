@@ -11,7 +11,7 @@ released:
 updated: 2019-05-22
 version: Varies with device
 reviews: 
-website: https://getvega.app
+website: https://getvega.app#deadLink
 repository: 
 issue: 
 icon: app.getvega.png

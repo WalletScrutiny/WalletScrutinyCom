@@ -10,7 +10,7 @@ released: 2020-10-20
 updated: 2020-10-20
 version: '1.0'
 reviews: 
-website: https://btclife.cash/
+website: https://btclife.cash#deadLink
 repository: 
 issue: 
 icon: btc.life.png

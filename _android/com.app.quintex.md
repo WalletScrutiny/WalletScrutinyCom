@@ -10,7 +10,7 @@ released: 2022-06-13
 updated: 2022-07-12
 version: 3.5.8
 reviews: 
-website: https://quintex.io
+website: https://quintex.io#deadLink
 repository: 
 issue: 
 icon: com.app.quintex.png

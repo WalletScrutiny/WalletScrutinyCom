@@ -10,7 +10,7 @@ released: 2020-06-20
 updated: 2020-06-20
 version: '1.0'
 reviews: 
-website: https://0xdealer.com
+website: https://0xdealer.com#deadLink
 repository: 
 issue: 
 icon: com.oxdealer.oxdealer.png

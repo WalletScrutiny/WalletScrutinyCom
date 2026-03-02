@@ -10,7 +10,7 @@ released:
 updated: 2021-07-04
 version: VARY
 reviews: 
-website: http://trupay.finance
+website: http://trupay.finance#deadLink
 repository: 
 issue: 
 icon: wallet.trupay.finance.png

@@ -11,9 +11,9 @@ binaries:
 dimensions: 
 weight: 
 provider: Crypto Cards
-providerWebsite: https://cryptocards.store
+providerWebsite: https://cryptocards.store#deadLink
 website: 
-shop: https://cryptocards.store/product/metal-crypto-wallet/
+shop: https://cryptocards.store/product/metal-crypto-wallet#deadLink
 country: NL
 price: 25EUR
 repository: 
@@ -36,7 +36,7 @@ The cards are made of grade 304 stainless steel and are 0.5 mm thick. It support
 
 ## Analysis 
 
-The provider printing the QR codes for the user means that they **will have access to copies of the private key**. Their security measures are detailed on this [page](https://cryptocards.store/security-details/).
+The provider printing the QR codes for the user means that they **will have access to copies of the private key**. Their security measures are detailed on this [page](https://web.archive.org/web/20230603021417/https://cryptocards.store/security-details/).
 
 Further proof that the card is more of a novelty item that you shouldn't accept as payment:
 

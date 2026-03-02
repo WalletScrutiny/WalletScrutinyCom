@@ -11,7 +11,7 @@ released: 2019-11-29
 updated: 2020-04-21
 version: 0.3.9
 reviews: 
-website: https://deex.exchange/
+website: https://deex.exchange#deadLink
 repository: 
 issue: 
 icon: deex.exchange.android.png

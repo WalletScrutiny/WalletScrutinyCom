@@ -10,7 +10,7 @@ released: 2022-05-11
 updated: 2022-07-13
 version: 1.0.19
 reviews: 
-website: https://abonocripto.com.ar
+website: https://abonocripto.com.ar#deadLink
 repository: 
 issue: 
 icon: com.mundocripto.app.png

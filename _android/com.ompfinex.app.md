@@ -33,7 +33,7 @@ features:
 
 ---
 
-OMPfinex is a trading platform which also advertises "demo capability." This app offers a web version [here](https://app.ompfinex.com/sign-in).
+OMPfinex is a trading platform which also advertises "demo capability." This app offers a web version [here](https://app.ompfinex.com/sign-in#deadLink).
 
 [It is capable of restricting services](https://www.ompfinex.com/en/pages/policies) from any offending users:
 

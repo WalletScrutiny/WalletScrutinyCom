@@ -18,7 +18,7 @@ weight:
 provider: HyperPay
 providerWebsite: https://hyperpay.tech/
 website: https://hyperpay.tech/hypermatepro/pro
-shop: https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
+shop: https://web.archive.org/web/20211026011641/https://shop.hyperpay.tech/collections/hypermate-g/products/hypermate-pro
 country: HK
 price: 229USD
 repository: https://github.com/hyperpayorg/hardwallet
@@ -56,7 +56,7 @@ From [Is HyperPay Wallet safe?](https://hyperpayhelp.zendesk.com/hc/en-us/articl
 
 ## Device displays receive address for confirmation - ✔️
 
-Yes, this is [demonstrated](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409868364559/mceclip8.jpg) on this tutorial: "[Multisig Transaction](https://hyperpayhelp.zendesk.com/hc/en-us/articles/4409861125263-MULTISIG-TRANSACTION)" 
+Yes, this is [demonstrated](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409868364559/mceclip8.jpg#deadLink) on this tutorial: "[Multisig Transaction](https://hyperpayhelp.zendesk.com/hc/en-us/articles/4409861125263-MULTISIG-TRANSACTION)" 
 
 ## Interface - ✔️
 

@@ -10,7 +10,7 @@ released: 2018-07-23
 updated: 2018-08-29
 version: '1.1'
 reviews: 
-website: http://www.lynengine.com/
+website: http://www.lynengine.com#deadLink
 repository: 
 issue: 
 icon: com.lynengine.beautycryptowallet.png

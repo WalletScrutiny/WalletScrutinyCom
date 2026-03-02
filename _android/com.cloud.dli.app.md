@@ -10,7 +10,7 @@ released: 2021-07-15
 updated: 2023-05-12
 version: 1.4.0
 reviews: 
-website: https://bolsadx.lat
+website: https://bolsadx.lat#deadLink
 repository: 
 issue: 
 icon: com.cloud.dli.app.png

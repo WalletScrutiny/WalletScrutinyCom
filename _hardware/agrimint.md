@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Radoy Stoyanov
 providerWebsite: https://github.com/radoystoyanov
-website: https://makers.bolt.fun/story/announcing-agrimint-alpha-release--491
+website: https://makers.bolt.fun/story/announcing-agrimint-alpha-release--491#deadLink
 shop: 
 country: BG
 price: 

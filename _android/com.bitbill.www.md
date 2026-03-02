@@ -57,7 +57,7 @@ essence.
 
 So lets see if this app provides public source code ...
 
-Turns out, [their website](http://www.bitbill.com/) is currently not. 
+Turns out, [their website](http://www.bitbill.com#deadLink) is currently not. 
 
 On GitHub
 [we found](https://github.com/search?o=desc&q=%22com.bitbill.www%22&s=indexed&type=Code)

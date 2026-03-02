@@ -11,7 +11,7 @@ released: 2019-01-16
 updated: 2022-04-07
 version: 2.09.3
 reviews: 23
-website: https://tizer.io
+website: https://tizer.io#deadLink
 repository: 
 issue: 
 icon: com.tsrpay.transcrypt.jpg

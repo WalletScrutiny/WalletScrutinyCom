@@ -39,7 +39,7 @@ The terms and conditions of the app has not changed, and thus the app remains th
 
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.
 
-Savl provides the private keys. Found on [the official website](https://www.savl.com/access):
+Savl provides the private keys. Found on [the official website](https://www.savl.com/access#deadLink):
 
 > IMPORTANT: Savl has no way to access users’ private keys. Private keys are only stored on the user’s device in encrypted form. If you lose access to your Savl account, the 12-word string, or private key, generated during registration will be needed to recover your account. Keep your private key in a safe place and do not share it with anyone. Savl staff will never ask for your private key.
 

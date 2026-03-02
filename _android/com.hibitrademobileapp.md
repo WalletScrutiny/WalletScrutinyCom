@@ -10,7 +10,7 @@ released: 2022-08-25
 updated: 2022-09-06
 version: 2.0.36
 reviews: 
-website: https://hibitrade.com/
+website: https://hibitrade.com#deadLink
 repository: 
 issue: 
 icon: com.hibitrademobileapp.png

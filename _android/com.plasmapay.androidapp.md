@@ -11,7 +11,7 @@ released: 2019-07-31
 updated: 2021-10-07
 version: 2.0.4
 reviews: 17
-website: https://plasmapay.com/
+website: https://plasmapay.com#deadLink
 repository: 
 issue: 
 icon: com.plasmapay.androidapp.png
@@ -68,18 +68,18 @@ Multiple users say that they have errors with this app. This dates back to Janua
        This app does not appear to be functional. I can not activate my account, that is assuming it actually loads. Seemed like it had promise but it just doesn't work.
        
   
-## Private Keys are mentioned in the [Terms of Use](https://plasmapay.com/terms-of-use)
+## Private Keys are mentioned in the [Terms of Use](https://plasmapay.com/terms-of-use#deadLink)
 
 > As a bitcoin wallet, the Service enables you to interface with the bitcoin network to view and transmit information about a public cryptographic key commonly referred to as a bitcoin address – sometimes referred to herein as a “bitcoin account”. To transmit information about a bitcoin account to the bitcoin network, the **private key(s)** corresponding with the bitcoin account is required. The Service requires three private cryptographic keys to be associated with each Bitcoin or Plasma wallet and PlasmaPay controls only one of these private keys. Two of the three private keys associated with a bitcoin wallet are needed to effect a “transfer” of bitcoin from a bitcoin account (i.e., disassociate bitcoin from one bitcoin wallet and re-associate bitcoin with another bitcoin wallet). Once the bitcoin network recognizes the information you send from the Service and validates it, the information is broadcasted to other individuals and companies in the bitcoin network and the Service cannot be used by you to cancel or reverse bitcoin-to-bitcoin transactions.
 
-## [Plasma Pay Legal Documents](https://plasmapay.com/legal-documents)
+## [Plasma Pay Legal Documents](https://plasmapay.com/legal-documents#deadLink)
 
 > **Section 5.1 PlasmaPay Wallets**
 > All registered users may establish and fund only one PlasmaPay Wallet to facilitate transactions on the PlasmaPay platform. You are the only one owner of the funds of your PlasmaPay Wallet. PlasmaPay does not aggregate and hold the digital assets of your or other users' PlasmaPay Wallet in a dedicated custodial account. All funds stored in the PlasmaPay wallet are owned and controlled only by the user through the use of a private key.
 
 ## Security Measures
 
-Section 6 of its [Security Policy](https://plasmapay.com/legal-documents) mentions that user funds are stored in **cold-storage**:
+Section 6 of its [Security Policy](https://plasmapay.com/legal-documents#deadLink) mentions that user funds are stored in **cold-storage**:
 
 > The purpose of the PlasmaPay’s security framework is to ensure that there are strict measures and practices in place to protect customer assets against any eventualities and threats. **The majority of customer digital assets (e.g., bitcoin) are held in our offline wallet systems** (Cold storage) as well as with the industry’s most reputable liquidity providers and crypto custodians. We are conducting periodical stress tests and security audits to ensure compliance with the strictest security standards.
 
@@ -91,7 +91,7 @@ Section 6 of its [Security Policy](https://plasmapay.com/legal-documents) mentio
 
 ## Source Code
 
-No mention has been made referring to Plasma Pay as an open source project. What it refers to in its [legal-documentation](https://plasmapay.com/legal-documents) is the open source nature of the underlying protocols that govern the cryptocurrencies that function within its software.
+No mention has been made referring to Plasma Pay as an open source project. What it refers to in its [legal-documentation](https://plasmapay.com/legal-documents#deadLink) is the open source nature of the underlying protocols that govern the cryptocurrencies that function within its software.
 
 ## Verdict
 
@@ -103,7 +103,7 @@ Add to the fact that there is no mention of sharing their code on their website,
 
 Even though they claim to provide the private keys, their clause on account termination, closure and suspension give us pause as to what extent they can control the user's funds.
 
-We included a [Section 6.7](https://plasmapay.com/legal-documents) here for reference:
+We included a [Section 6.7](https://plasmapay.com/legal-documents#deadLink) here for reference:
 
 > If PlasmaPay suspends or closes your account, or terminates your use of PlasmaPay Services for any reason, we will provide you with notice of our actions unless a court order or other legal process prohibits PlasmaPay from providing you with such notice. You acknowledge that PlasmaPay's decision to take certain actions, including limiting access to, suspending, or closing your account, may be based on confidential criteria that are essential to PlasmaPay's risk management and security protocols. You agree that PlasmaPay is under no obligation to disclose the details of its risk management and security procedures to you. You will be permitted to transfer Digital Currency or funds associated with your Digital Currency Wallet and/or your PlasmaPay Wallet for ninety (90) days after Account deactivation or cancellation **unless such transfer is otherwise prohibited**
 

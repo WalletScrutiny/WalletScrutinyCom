@@ -11,7 +11,7 @@ released: 2021-04-14
 updated: 2021-06-28
 version: '16'
 reviews: 15
-website: https://cglobank.com/
+website: https://cglobank.com#deadLink
 repository: 
 issue: 
 icon: com.user.cglobank.jpg
@@ -69,7 +69,7 @@ The site claims they have a Credit/debit card and Crypto Loan feature coming soo
 
 ### Privacy Policy
 
-We could not find a Terms and Conditions for this site, so we read the [Privacy Policy.](https://cglobank.com/privacy.php) **It had no actual relation to this app's advertised services.**
+We could not find a Terms and Conditions for this site, so we read the [Privacy Policy.](https://cglobank.com/privacy.php#deadLink) **It had no actual relation to this app's advertised services.**
 
 > By using our FREE SMS messaging services you are actually confirming that you have gone through our terms and conditions and that you have no objection to in our appending targeted Ads to your SMS messages and to using your personal information.
 

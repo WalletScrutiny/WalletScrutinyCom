@@ -10,7 +10,7 @@ released: 2022-01-25
 updated: 2022-10-16
 version: 0.6.7
 reviews: 
-website: https://rebix.io
+website: https://rebix.io#deadLink
 repository: 
 issue: 
 icon: io.rebix.app.android.png

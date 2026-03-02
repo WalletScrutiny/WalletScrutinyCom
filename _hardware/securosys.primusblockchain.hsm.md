@@ -68,7 +68,7 @@ Securosys held an ITO (Initial Token Offering) in November 2, 2018 on [Bitcointa
 > - Tamper prevention features
 > - API integration by the HSM or via a software layer
 
-Download the [PDF factsheet](https://www.securosys.com/hubfs/Factsheet_X_E_V2.17.pdf?hsCtaTracking=7f6eb911-7dbd-4cfc-8f1a-cc9bcc703464%7Cffacd3b7-be18-4a13-bede-db42f35a69ef) 
+Download the [PDF factsheet](https://web.archive.org/web/20240617060755/https://www.securosys.com/hubfs/Factsheet_X_E_V2.17.pdf?hsCtaTracking=7f6eb911-7dbd-4cfc-8f1a-cc9bcc703464%7Cffacd3b7-be18-4a13-bede-db42f35a69ef) 
 
 ## Analysis 
 
@@ -78,7 +78,7 @@ These HSMs are not designed to offer personal wallets to an individual (although
 
 "Large crypto investors" could mean institutional investors, corporations, exchanges, wallet providers or individuals with significant sums of cryptocurrencies. These HSMs go beyond our criteria for "ordinary" hardware wallets since their function is in a myriad of ways, different from your {% include walletLink.html wallet='hardware/ledgerNanoS' %}.
 
-It is hard to make a verdict for this device due to numerous possible iterations of the service. For instance, users can avail of Securosys' [CloudHSM](https://www.securosys.com/hubfs/202107_CloudsHSM_Factsheet_EN_V1.5-1.pdf?hsCtaTracking=d7c682ab-8ca0-4c6b-9ca5-037b6fb780ca%7Cd526edb2-0f56-43e7-bc3c-e5ca260eaf66) service using these same HSMs: 
+It is hard to make a verdict for this device due to numerous possible iterations of the service. For instance, users can avail of Securosys' [CloudHSM](https://www.securosys.com/hubfs/202107_CloudsHSM_Factsheet_EN_V1.5-1.pdf?hsCtaTracking=d7c682ab-8ca0-4c6b-9ca5-037b6fb780ca%7Cd526edb2-0f56-43e7-bc3c-e5ca260eaf66#deadLink) service using these same HSMs: 
 
 > The Securosys CloudsHSM service is located and operated in Switzerland. It offers operation services of shared or dedicated HSMs. CloudsHSM was built by the experts who designed and manufacture the HSM for the Swiss Interbank Clearing system.
 >

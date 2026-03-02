@@ -10,7 +10,7 @@ released: 2019-07-05
 updated: 2019-12-03
 version: 1.0.7
 reviews: 
-website: https://sencoinex.com
+website: https://sencoinex.com#deadLink
 repository: 
 issue: 
 icon: com.sencoinex.android.png

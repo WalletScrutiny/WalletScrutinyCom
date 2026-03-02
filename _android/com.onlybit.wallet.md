@@ -23,7 +23,7 @@ date: 2023-05-31
 signer: 
 twitter: 
 social:
-- https://tradebit.in
+- https://tradebit.in#deadLink
 redirect_from: 
 developerName: trade bit
 builds: 

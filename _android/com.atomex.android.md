@@ -11,9 +11,9 @@ released: 2020-12-06
 updated: 2023-02-24
 version: 1.25.0
 reviews: 5
-website: https://atomex.me
-repository: https://github.com/atomex-me/atomex.mobile
-issue: https://github.com/atomex-me/atomex.mobile/issues/24
+website: https://atomex.me#deadLink
+repository: https://github.com/atomex-me/atomex.mobile#deadLink
+issue: https://github.com/atomex-me/atomex.mobile/issues/24#deadLink
 icon: com.atomex.android.png
 bugbounty: 
 meta: removed
@@ -40,10 +40,10 @@ and it also supports Bitcoin and ...
   Tezos community as one of the most active ecosystem contributors.
 
 and indeed their linked GitHub account has a repository that looks promising:
-[atomex-me/atomex.mobile](https://github.com/atomex-me/atomex.mobile).
+[atomex-me/atomex.mobile](https://github.com/atomex-me/atomex.mobile#deadLink).
 
 Unfortunately at this point I have to give up as this is the first project we
 review that was built in Visual Studio using C#. As there are no build
 instructions I can only hope for
-[help from the provider](https://github.com/atomex-me/atomex.mobile/issues/24)
+[help from the provider](https://github.com/atomex-me/atomex.mobile/issues/24#deadLink)
 and conclude for now that the app is **not verifiable**.

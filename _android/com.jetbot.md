@@ -10,7 +10,7 @@ released: 2022-03-08
 updated: 2022-04-28
 version: '1.19'
 reviews: 
-website: https://jetbot.live/
+website: https://jetbot.live#deadLink
 repository: 
 issue: 
 icon: com.jetbot.png

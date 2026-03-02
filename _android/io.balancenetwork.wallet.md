@@ -11,7 +11,7 @@ released: 2022-05-06
 updated: 2024-05-03
 version: 1.0.23
 reviews: 8
-website: https://balancenetwork.io/
+website: https://balancenetwork.io#deadLink
 repository: 
 issue: 
 icon: io.balancenetwork.wallet.png

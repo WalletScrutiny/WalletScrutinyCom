@@ -41,7 +41,7 @@ storage of your phone.
 
 but can we verify this?
 
-On their website we find a [link to their GitHub](https://github.com/Paytomat)
+On their website we find a [link to their GitHub](https://github.com/Paytomat#deadLink)
 but none of
 
 * **wallet-connect-android** Binance implementation of Wallet Connect protocol as kotlin library

@@ -10,7 +10,7 @@ released: 2018-10-13
 updated: 2021-04-17
 version: 3.0.0
 reviews: 
-website: https://www.strayacoin.org/index.php/strayapos/
+website: https://web.archive.org/web/20210410140507/https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 
 icon: org.strayacoin.bitcoinpos.png

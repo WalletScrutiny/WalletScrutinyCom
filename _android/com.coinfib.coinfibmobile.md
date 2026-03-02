@@ -10,7 +10,7 @@ released: 2022-03-16
 updated: 2022-04-01
 version: 1.0.4
 reviews: 
-website: https://www.coinfib.com
+website: https://www.coinfib.com#deadLink
 repository: 
 issue: 
 icon: com.coinfib.coinfibmobile.png

@@ -23,7 +23,7 @@ date: 2024-10-07
 signer: 
 twitter: 
 social:
-- https://phemex.com.tr
+- https://phemex.com.tr#deadLink
 features: 
 developerName: PHEMEX TURKEY TEKNOLOJİ LİMİTED ŞİRKETİ
 

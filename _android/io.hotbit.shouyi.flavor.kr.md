@@ -11,7 +11,7 @@ released: 2020-07-07
 updated: 2022-04-12
 version: 1.0.75
 reviews: 238
-website: https://www.bitclover.io/
+website: https://www.bitclover.io#deadLink
 repository: 
 issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
@@ -33,7 +33,7 @@ features:
 **Updated September 17, 2021**
 Hotbit has successfully transitioned from hotbit into bitclover. [Details here](https://bitclover.zendesk.com/hc/en-us/articles/4406561078553-Rebranding-from-Hotbit-Korea-to-BITCLOVER).
 
-From the [main page of bitclover](https://www.bitclover.io/)
+From the [main page of bitclover](https://www.bitclover.io#deadLink)
 
 > hot-cold server separation, multi-signature card;<br>
 Bank-level security through HSM<br>

@@ -10,7 +10,7 @@ released: 2022-04-11
 updated: 2022-04-14
 version: 1.0.0
 reviews: 
-website: https://exchange.tradingtoken.io/
+website: https://exchange.tradingtoken.io#deadLink
 repository: 
 issue: 
 icon: com.trading.token_app.png

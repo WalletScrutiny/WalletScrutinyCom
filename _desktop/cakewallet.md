@@ -30,7 +30,7 @@ features:
 
 ## App Description
 
-Cake Wallet is a non-custodial, multi-currency wallet developed by Cake Labs LLC and licensed under [MIT](https://github.com/cake-tech/cake_wallet/blob/main/LICENSE). Originally released as a Monero-only mobile wallet in 2018, it expanded to support Bitcoin, Litecoin, Ethereum, Bitcoin Cash, Polygon, Solana, Tron, Nano, Zano, Decred, and Wownero. The desktop version launched in [February 2023](https://www.reddit.com/r/Monero/comments/11b4f3f/cake_wallet_arrives_on_desktop_beta_release_for/) (macOS), followed by Linux in May 2023 and Windows in May 2024.
+Cake Wallet is a non-custodial, multi-currency wallet developed by Cake Labs LLC and licensed under [MIT](https://github.com/cake-tech/cake_wallet/blob/main/LICENSE#deadLink). Originally released as a Monero-only mobile wallet in 2018, it expanded to support Bitcoin, Litecoin, Ethereum, Bitcoin Cash, Polygon, Solana, Tron, Nano, Zano, Decred, and Wownero. The desktop version launched in [February 2023](https://www.reddit.com/r/Monero/comments/11b4f3f/cake_wallet_arrives_on_desktop_beta_release_for/) (macOS), followed by Linux in May 2023 and Windows in May 2024.
 
 The desktop app supports cross-platform wallet backup and restore (mobile-to-desktop and vice versa), built-in exchange functionality, custom remote node selection, and Monero subaddress/account management. It is available as a Windows installer, Linux Flatpak, and Linux tarball. SHA-256 hashes are published with each [GitHub release](https://github.com/cake-tech/cake_wallet/releases).
 

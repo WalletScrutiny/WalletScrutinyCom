@@ -10,7 +10,7 @@ released: 2020-05-17
 updated: 2021-02-06
 version: '1.2'
 reviews: 
-website: https://wmprotrade.com
+website: https://wmprotrade.com#deadLink
 repository: 
 issue: 
 icon: com.wmprotrade.droidapp.jpg

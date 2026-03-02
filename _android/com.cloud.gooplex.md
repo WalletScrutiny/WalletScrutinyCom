@@ -10,7 +10,7 @@ released: 2020-12-28
 updated: 2021-10-20
 version: 1.2.0
 reviews: 
-website: http://info.gooplex.com.br/
+website: http://info.gooplex.com.br#deadLink
 repository: 
 issue: 
 icon: com.cloud.gooplex.png

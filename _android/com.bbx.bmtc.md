@@ -49,7 +49,7 @@ The Google Play reviews are notably strange, with most of the five-star reviews 
 
 As of this review, attempting to access the website only results in a blank white screen. The Privacy Policy was linked in the description, but it only lead to a DNS error.
 
-The browser tab displays some Chinese characters, and we assume that this is one of the effects of China's [recent ban on cryptocurrencies.](https://www.wired.co.uk/article/china-ban-bitcoin-cryptocurrencies)
+The browser tab displays some Chinese characters, and we assume that this is one of the effects of China's [recent ban on cryptocurrencies.](https://www.wired.co.uk/article/china-ban-bitcoin-cryptocurrencies#deadLink)
 
 ## The App
 Registering to the app is also impossible at the moment. Trying to sign up will get an error:

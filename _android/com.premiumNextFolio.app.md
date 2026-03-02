@@ -10,7 +10,7 @@ released: 2020-01-10
 updated: 2020-01-16
 version: '1.2'
 reviews: 
-website: http://www.n2blockchain.io/
+website: http://www.n2blockchain.io#deadLink
 repository: 
 issue: 
 icon: com.premiumNextFolio.app.png

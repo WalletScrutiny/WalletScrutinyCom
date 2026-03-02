@@ -39,7 +39,7 @@ The app allows users to buy, save and invest in Bitcoin. Its focus is in savings
 
 ## The Site
 
-The [**Terms and Conditions**](https://bitnob.com/terms-of-services/) specify:
+The [**Terms and Conditions**](https://bitnob.com/terms-of-services#deadLink) specify:
 
 >This license shall automatically terminate if you violate any of these restrictions and may be terminated by Bitnob Technologies at any time. Upon terminating your viewing of these materials or upon the termination of this license, **you must destroy any downloaded materials in your possession whether in electronic or printed format.**
 

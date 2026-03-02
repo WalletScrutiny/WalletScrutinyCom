@@ -45,7 +45,7 @@ Although it avoids the word 'custodian' in its terms and conditions, a quick sea
 
 ### (MPC) Multi-Party Computation
 
-Furthermore, it describes in the section, ["Where do you store my cryptocurrencies?"](https://help.finblox.com/en/articles/6272323-where-do-you-store-my-cryptocurrencies)
+Furthermore, it describes in the section, ["Where do you store my cryptocurrencies?"](https://help.finblox.com/en/articles/6272323-where-do-you-store-my-cryptocurrencies#deadLink)
 
 > MPC (Multi-Party Computation) and Your Cryptocurrency Deposits
 MPC (multi-party computation) is the next generation of private key security, allowing Finblox to store and protect your cryptocurrencies with the utmost security. MPC was first introduced as a way of protecting data that was too sensitive even to trust the cloud with. The technology has since been adapted to securely store and manage cryptocurrencies.

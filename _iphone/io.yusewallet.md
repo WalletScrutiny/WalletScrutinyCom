@@ -28,7 +28,7 @@ social:
 - https://www.youtube.com/watch?v=pJe3UDpb73M
 - https://www.instagram.com/yusetoken
 - https://t.me/joinchat/2h2s6lfji-83Zjdl
-- https://discord.com/invite/y3qt7zRnk9
+- https://discord.com/invite/y3qt7zRnk9#deadLink
 features: 
 developerName: YUSEWallet
 

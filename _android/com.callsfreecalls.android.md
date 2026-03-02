@@ -11,7 +11,7 @@ released: 2012-10-15
 updated: 2020-10-07
 version: 5.6.1
 reviews: 3745
-website: https://cfc.io
+website: https://cfc.io#deadLink
 repository: 
 issue: 
 icon: com.callsfreecalls.android.png

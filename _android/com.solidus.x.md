@@ -10,7 +10,7 @@ released:
 updated: 2022-07-20
 version: '188.5'
 reviews: 
-website: https://solidusx.com/
+website: https://solidusx.com#deadLink
 repository: 
 issue: 
 icon: com.solidus.x.png

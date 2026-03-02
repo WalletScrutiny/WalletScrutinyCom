@@ -11,7 +11,7 @@ released: 2021-03-21
 updated: 2021-05-07
 version: 1.0.2
 reviews: 139
-website: https://www.burency.com/
+website: https://www.burency.com#deadLink
 repository: 
 issue: 
 icon: com.burency.app.png

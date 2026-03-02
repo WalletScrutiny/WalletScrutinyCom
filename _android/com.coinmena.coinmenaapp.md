@@ -51,9 +51,9 @@ features:
 
 [ID verification](https://twitter.com/BitcoinWalletz/status/1455497402014568451) is needed prior to gaining the ability to deposit or withdraw any cryptocurrency including Bitcoin.
 
-[Documentation](https://support.coinmena.com/hc/en-us/articles/360016998658-How-do-I-withdraw-digital-assets-from-my-CoinMENA-account-) on how to withdraw cryptocurrencies from the platform
+[Documentation](https://support.coinmena.com/hc/en-us/articles/360016998658-How-do-I-withdraw-digital-assets-from-my-CoinMENA-account-#deadLink) on how to withdraw cryptocurrencies from the platform
 
-[Documentation](https://support.coinmena.com/hc/en-us/articles/360016907497-How-do-I-deposit-digital-assets-into-my-CoinMENA-account-) on how to deposit cryptocurrencies.
+[Documentation](https://support.coinmena.com/hc/en-us/articles/360016907497-How-do-I-deposit-digital-assets-into-my-CoinMENA-account-#deadLink) on how to deposit cryptocurrencies.
 
 ## Verdict
 

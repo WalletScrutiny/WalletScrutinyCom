@@ -26,7 +26,7 @@ social:
 - https://www.linkedin.com/company/zeniq-hub/
 - https://www.facebook.com/ZENIQTech
 - https://www.instagram.com/zeniq_tech/
-- https://www.youtube.com/ZENIQTech
+- https://www.youtube.com/ZENIQTech#deadLink
 - https://t.me/zeniq_hub
 redirect_from: 
 developerName: ZENIQ Technologies FZ LLC

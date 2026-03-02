@@ -36,7 +36,7 @@ features:
 
 ## Product Description 
 
-The website https://touchain.io has been offline since 2022. 
+The website https://touchain.io#deadLink has been offline since 2022. 
 
 The product has been described as what seems to be a multi-purpose, multifunction device:
 

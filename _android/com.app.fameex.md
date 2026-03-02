@@ -45,7 +45,7 @@ Security
 
 > FAMEEX adopts the "full node wallet method" to store funds, and generates public and private keys corresponding to the "asymmetric encryption technology" based on the one-way hash function algorithm to ensure that the funds on the chain are undecipherable. In addition, FAMEEX also separates and encrypts the hot and cold wallets, splits the private key randomly, and then encrypts the storage in the library, and sets multiple read permissions to achieve the purpose of wallet privacy and security management.
 
-### [Terms](https://test.fameex.com/en-US/support/terms/service)
+### [Terms](https://test.fameex.com/en-US/support/terms/service#deadLink)
 
 **Section 6.1 Account suspension**
 

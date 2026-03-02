@@ -10,7 +10,7 @@ released: 2022-02-10
 updated: 2022-02-11
 version: 1.0.0
 reviews: 
-website: https://optimaxcrypto.com/
+website: https://optimaxcrypto.com#deadLink
 repository: 
 issue: 
 icon: app.exchange.optimax.png

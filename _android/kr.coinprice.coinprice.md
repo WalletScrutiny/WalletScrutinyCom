@@ -10,7 +10,7 @@ released: 2017-08-19
 updated: 2017-10-23
 version: '5.0'
 reviews: 
-website: http://coinprice.kr
+website: http://coinprice.kr#deadLink
 repository: 
 issue: 
 icon: kr.coinprice.coinprice.png

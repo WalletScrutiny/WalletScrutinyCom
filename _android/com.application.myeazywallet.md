@@ -10,7 +10,7 @@ released: 2021-04-01
 updated: 2022-10-10
 version: 1.0.3
 reviews: 
-website: https://myeazywallet.com/
+website: https://myeazywallet.com#deadLink
 repository: 
 issue: 
 icon: com.application.myeazywallet.jpg

@@ -11,7 +11,7 @@ released: 2019-11-29
 updated: 2026-02-16
 version: 3.17.0
 reviews: 24992
-website: https://www.bitpanda.com/app
+website: https://www.bitpanda.com/app#deadLink
 repository: 
 issue: 
 icon: com.bitpanda.bitpanda.jpg
@@ -27,7 +27,7 @@ social:
 - https://www.reddit.com/r/bitpanda
 - https://www.linkedin.com/company/bitpanda
 - https://www.youtube.com/@Bitpanda_global
-- https://discord.com/invite/dmM9Dz7Kt8
+- https://discord.com/invite/dmM9Dz7Kt8#deadLink
 - https://www.instagram.com/bitpanda_global
 features: 
 developerName: Bitpanda GmbH

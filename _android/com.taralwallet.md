@@ -64,7 +64,7 @@ This app is **not source-available**.
 > Server maintenance mode is enabled, please try again later.
 
 - We were not able to inspect the app's features beyond that point. 
-- If we were to assume that all the provider's claims are true, then the 'Services' section of the [terms](https://tarality.online/terms-and-conditions/) would prevail:
+- If we were to assume that all the provider's claims are true, then the 'Services' section of the [terms](https://tarality.online/terms-and-conditions#deadLink) would prevail:
     - The app generates the private keys, and they have no access to it. This makes it self-custodial.
 - We were not able to find any claims regarding source-availability. 
 - There were [0 results](https://github.com/search?q=com.taralwallet&type=code) when we searched for the app ID, on GitHub Code.

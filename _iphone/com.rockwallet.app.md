@@ -12,7 +12,7 @@ updated: 2025-09-15
 version: 5.17.8
 reviews: 725
 website: https://www.rockwallet.com
-repository: https://github.com/rockwalletcode/wallet-ios
+repository: https://github.com/rockwalletcode/wallet-ios#deadLink
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 

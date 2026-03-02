@@ -10,7 +10,7 @@ released: 2019-02-18
 updated: 2023-01-14
 version: 2.0.0
 reviews: 
-website: https://www.toropal.com
+website: https://www.toropal.com#deadLink
 repository: 
 issue: 
 icon: com.app.toropal.jpg

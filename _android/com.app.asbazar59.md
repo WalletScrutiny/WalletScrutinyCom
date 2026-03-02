@@ -11,7 +11,7 @@ released: 2021-06-15
 updated: 2021-10-14
 version: '4'
 reviews: 5
-website: https://asbazar.com/en/home
+website: https://asbazar.com/en/home#deadLink
 repository: 
 issue: 
 icon: com.app.asbazar59.png
@@ -42,9 +42,9 @@ From this we conclude that this app is meant to be a trading platform. We also f
 This would imply that ASBAZAR is in charge of the users' funds.
 
 ## The Site
-The website is incomplete, with a many pages only redirecting to a 404 error. The [Terms](https://asbazar.com/en/terms) page is currently unavailable.
+The website is incomplete, with a many pages only redirecting to a 404 error. The [Terms](https://asbazar.com/en/terms#deadLink) page is currently unavailable.
 
-From the [Privacy Policy](https://asbazar.com/en/privacy), **1.2 Information We Collect to Comply with Regulatory Policies**:
+From the [Privacy Policy](https://asbazar.com/en/privacy#deadLink), **1.2 Information We Collect to Comply with Regulatory Policies**:
 
 > To comply with global industry regulatory standards, local industry regulatory standards, and government orders in different aspects such as Anti-Money Laundering (AML), Know-Your-Client (KYC), and Counter-Terrorist Financing (CTF), **Asbazar is required to collect personal information in addition to Identification Information, such as identity documents** (including passport, driver's license, national identity card, state ID card, tax ID number, passport number, driver's license details, national identity card details, visa information, etc.), proof of address, source of fund declaration, purposes of fund documents, and source of wealth (“Regulation Information”). 
 

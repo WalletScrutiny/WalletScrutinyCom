@@ -10,7 +10,7 @@ released: 2021-08-29
 updated: 2021-08-29
 version: 1.0.3
 reviews: 33
-website: https://thunderboltwallet.us
+website: https://thunderboltwallet.us#deadLink
 repository: 
 issue: 
 icon: com.thunderbolt.wallet.png

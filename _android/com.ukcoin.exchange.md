@@ -10,7 +10,7 @@ released: 2020-07-16
 updated: 2020-07-17
 version: '1.0'
 reviews: 
-website: https://ukcoins.exchange/
+website: https://ukcoins.exchange#deadLink
 repository: 
 issue: 
 icon: com.ukcoin.exchange.png

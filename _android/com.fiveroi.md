@@ -11,7 +11,7 @@ released: 2022-03-31
 updated: 2022-05-18
 version: 4.3.4
 reviews: 24
-website: https://www.5roi.com/
+website: https://www.5roi.com#deadLink
 repository: 
 issue: 
 icon: com.fiveroi.png

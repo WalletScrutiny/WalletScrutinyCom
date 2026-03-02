@@ -65,7 +65,7 @@ On the support page, there is [information](https://shop.sirinlabs.com/pages/sup
 
 FINNEY's whitepaper was deleted from [Sirin Labs website](https://twitter.com/BitcoinWalletz/status/1464219115015397384), although we were able to find a presumed copy.
 
-The [whitepaper](https://cryptorating.eu/whitepapers/SIRIN-LABS/SIRINLABS_-_White_Paper.pdf) also has information on the "Safe Screen."
+The [whitepaper](https://cryptorating.eu/whitepapers/SIRIN-LABS/SIRINLABS_-_White_Paper.pdf#deadLink) also has information on the "Safe Screen."
 
 > FINNEY Wallet comprises an app that you use on your device’s main screen and a hardware Safe Screen that slides up at the top of your device.
 > - Send cryptocurrency

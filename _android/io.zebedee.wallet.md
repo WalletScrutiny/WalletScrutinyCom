@@ -41,6 +41,6 @@ who's the custodian to your coins:
 It is lightning network focused and apparently the counterpart for an sdk the
 company is promoting for Bitcoin integration in games.
 
-For lack of a better source I went on [their discord](https://zeb.gg/zebedeeiodiscord)
+For lack of a better source I went on [their discord](https://zeb.gg/zebedeeiodiscord#deadLink)
 and asked, so ... according to JC on Discord, this app is custodial. As such it
 is **not verifiable**.

@@ -10,7 +10,7 @@ released: 2021-01-06
 updated: 2021-04-16
 version: 1.2.1
 reviews: 
-website: https://newealth.app
+website: https://newealth.app#deadLink
 repository: 
 issue: 
 icon: app.newealth.png

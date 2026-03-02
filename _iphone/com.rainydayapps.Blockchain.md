@@ -12,7 +12,7 @@ updated: 2026-01-28
 version: 202601.1.1
 reviews: 183402
 website: https://www.blockchain.com/wallet
-repository: https://github.com/blockchain/My-Wallet-V3-iOS
+repository: https://github.com/blockchain/My-Wallet-V3-iOS#deadLink
 issue: 
 icon: com.rainydayapps.Blockchain.jpg
 bugbounty: 

@@ -10,7 +10,7 @@ released: 2020-08-19
 updated: 2020-09-09
 version: 1.1.8
 reviews: 
-website: https://www.bitoption.app/client/
+website: https://www.bitoption.app/client#deadLink
 repository: 
 issue: 
 icon: com.app.bitoption.png

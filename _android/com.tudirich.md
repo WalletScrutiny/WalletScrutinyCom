@@ -10,7 +10,7 @@ released:
 updated: 2022-09-25
 version: VARY
 reviews: 
-website: https://tudirich.com
+website: https://tudirich.com#deadLink
 repository: 
 issue: 
 icon: com.tudirich.jpg

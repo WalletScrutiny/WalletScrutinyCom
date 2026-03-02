@@ -11,7 +11,7 @@ released: 2021-04-07
 updated: 2023-09-19
 version: 1.0.23
 reviews: 
-website: https://goodpayglobal.io/
+website: https://goodpayglobal.io#deadLink
 repository: 
 issue: 
 icon: io.goodpayglobal.wallet.png

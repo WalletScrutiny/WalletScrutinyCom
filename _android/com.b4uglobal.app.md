@@ -30,11 +30,11 @@ features:
 
 ---
 
-⚠️ This app is related to a [scam in Pakistan](https://www.samaaenglish.tv/news/2428879). 
+⚠️ This app is related to a [scam in Pakistan](https://www.samaaenglish.tv/news/2428879#deadLink). 
 
 This app is not working. Once the app is downloaded, this [error message](https://twitter.com/BitcoinWalletz/status/1623145592435412993) appears:
 
-> The webpage at https://www.globalb4u.com/login could not be loaded because: 
+> The webpage at https://www.globalb4u.com/login#deadLink could not be loaded because: 
 >
 > net::ERR_NAME_NOT_RESOLVED
 

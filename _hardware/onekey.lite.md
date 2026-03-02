@@ -27,7 +27,7 @@ date: 2023-03-01
 signer: 
 twitter: OneKeyHQ
 social:
-- https://discord.com/invite/nwUJaTzjzv
+- https://discord.com/invite/nwUJaTzjzv#deadLink
 builds: 
 features: 
 
@@ -57,7 +57,7 @@ Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' ve
 > - MyEtherWallet
 > - Electrum-DASH
 
-## [Backup Mnemonics Using OneKey Lite](https://help.onekey.so/hc/en-us/articles/4911475744527-Using-OneKey-Lite-to-back-up-mnemonics) 
+## [Backup Mnemonics Using OneKey Lite](https://help.onekey.so/hc/en-us/articles/4911475744527-Using-OneKey-Lite-to-back-up-mnemonics#deadLink) 
 
 > ★ OneKey Lite only supports backup of hot wallet's helper words.
 >
@@ -65,7 +65,7 @@ Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' ve
 >
 > ★ If you want to use OneKey Lite to back up other wallets, you need to import the stored words into the OneKey App and then connect OneKey Lite to back up.
 
-## [One Key Lite's Features](https://help.onekey.so/hc/en-us/articles/4403416356879-OneKey-Lite-s-Features)
+## [One Key Lite's Features](https://help.onekey.so/hc/en-us/articles/4403416356879-OneKey-Lite-s-Features#deadLink)
 
 > During the development of the wallet, we discovered that remembering the mnemonic was a constant source of frustration.
 >
@@ -107,7 +107,7 @@ Paired with: {% include walletLink.html wallet='android/so.onekey.app.wallet' ve
 >
 > Unless we find a truly secure alternative, the hardware wallet is designed in such a way that the mnemonic cannot be exported in any form.
 
-[One Key Lite FAQ](https://help.onekey.so/hc/en-us/articles/4403321426191-OneKey-Lite-FAQ-Summary)
+[One Key Lite FAQ](https://web.archive.org/web/20231001163842/https://help.onekey.so/hc/en-us/articles/4403321426191-OneKey-Lite-FAQ-Summary)
 
 ## Analysis 
 

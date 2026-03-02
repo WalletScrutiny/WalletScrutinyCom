@@ -10,7 +10,7 @@ released: 2020-12-10
 updated: 2021-07-19
 version: 1.16.0
 reviews: 
-website: https://connectgoi.com
+website: https://connectgoi.com#deadLink
 repository: 
 issue: 
 icon: mx.goi.goimwallet.png

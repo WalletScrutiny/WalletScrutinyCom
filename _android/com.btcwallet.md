@@ -11,7 +11,7 @@ released: 2019-08-29
 updated: 2019-10-23
 version: 8.0.8
 reviews: 
-website: https://lunablockchain.com/
+website: https://lunablockchain.com#deadLink
 repository: 
 issue: 
 icon: com.btcwallet.jpg

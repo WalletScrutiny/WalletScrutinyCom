@@ -10,7 +10,7 @@ released: 2020-07-13
 updated: 2020-09-20
 version: '1.1'
 reviews: 
-website: http://upay.company
+website: http://upay.company#deadLink
 repository: 
 issue: 
 icon: com.upaybusiness.png

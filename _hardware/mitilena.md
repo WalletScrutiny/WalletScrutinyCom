@@ -38,7 +38,7 @@ features:
 
 We could not find pictures of the Mitilena Hardware wallet. As of today, March 15, 2022, Mitilena has no linked social media accounts. They are also selling a token called Vanishing Mitilena (VMT) which is only available in one cryptocurrency exchange, Tokpie.
 
-Description of [how Mitilena works](https://mitelena.com/differences-between-cold-and-hot-wallets-why-can-mitilena-work-in-both-modes/):
+Description of [how Mitilena works](https://mitelena.com/differences-between-cold-and-hot-wallets-why-can-mitilena-work-in-both-modes#deadLink):
 
 > In short: the cryptographic process of signing transactions in the blockchain does not have to be done online, you can sign a transaction on a computer or phone that never goes online and therefore it is almost impossible for an attacker to get into the interaction between you -> an offline device. When you sign an offline transaction, you will have a result code (hash). This hash must be published on at least one blockchain node and your transaction will appear on the blockchain. Moreover, this hash is not a password and knowing it is not enough for someone to find out your password (private key).
 >

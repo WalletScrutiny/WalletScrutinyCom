@@ -13,7 +13,7 @@ weight:
 provider: OTON Technology Limited / Plazma Premier
 providerWebsite: https://oton.org
 website: https://www.oton.technology/
-shop: https://oton.club/purchase
+shop: https://oton.club/purchase#deadLink
 country: SC
 price: 
 repository: https://github.com/OTONtechnology/oton-wallet-ext
@@ -50,9 +50,9 @@ There are some documents that were cached by Google Cache, but otherwise are not
 
 - [OTON Wallet Pre-Order Terms and Conditions](https://webcache.googleusercontent.com/search?q=cache:frRhJUd5OVAJ:https://wallet.oton.technology/docs/pre-order-terms-and-conditions.pdf)
 
-- [OTON Terms and Conditions](https://www.oton.technology/OtonTechnology_TermsAndConditions.pdf)
+- [OTON Terms and Conditions](https://www.oton.technology/OtonTechnology_TermsAndConditions.pdf#deadLink)
 
-- [OTON Whitepaper](https://oton.technology/oton-whitepaper-en.pdf)
+- [OTON Whitepaper](https://oton.technology/oton-whitepaper-en.pdf#deadLink)
 
 Of these, the Pre-Order Terms and Conditions offer clues about the device: 
 

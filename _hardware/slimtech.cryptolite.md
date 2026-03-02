@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: slimTECH Gear Co
 providerWebsite: 
-website: https://web.archive.org/web/20180409201038/https://www.slimtechgear.com/
+website: https://www.slimtechgear.com
 shop: https://shop.mashable.com/sales/slimtech-cryptolite-cold-storage-wallet-silver
 country: US
 price: 89.99USD

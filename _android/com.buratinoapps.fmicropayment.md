@@ -10,7 +10,7 @@ released: 2022-05-06
 updated: 2022-07-11
 version: '1.6'
 reviews: 
-website: https://xmonitoring.ru/
+website: https://xmonitoring.ru#deadLink
 repository: 
 issue: 
 icon: com.buratinoapps.fmicropayment.png

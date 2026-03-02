@@ -11,7 +11,7 @@ released: 2019-05-20
 updated: 2023-07-04
 version: 3.7.31
 reviews: 
-website: https://amon.tech
+website: https://web.archive.org/web/20231006065722/https://amon.tech/
 repository: 
 issue: 
 icon: tech.amon.png

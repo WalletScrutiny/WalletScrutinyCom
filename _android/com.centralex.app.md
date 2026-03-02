@@ -10,7 +10,7 @@ released: 2022-03-16
 updated: 2022-04-07
 version: '1.02'
 reviews: 
-website: https://centralex.com
+website: https://centralex.com#deadLink
 repository: 
 issue: 
 icon: com.centralex.app.png

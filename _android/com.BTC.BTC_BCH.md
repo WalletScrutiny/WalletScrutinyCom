@@ -10,7 +10,7 @@ released: 2022-07-21
 updated: 2022-07-21
 version: 1.2.3
 reviews: 1
-website: https://btcbcheth.net/
+website: https://web.archive.org/web/20240419054942/http://www.btcbcheth.net/
 repository: 
 issue: 
 icon: com.BTC.BTC_BCH.png

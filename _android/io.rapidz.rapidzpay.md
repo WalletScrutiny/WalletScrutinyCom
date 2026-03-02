@@ -41,7 +41,7 @@ features:
 
 ## Analysis 
 
-- Section 2.1.a of the [terms](https://www.rapidz.io/termsandconditions/) describe the wallet as a "hosted" wallet where the user stores virtual currencies with UAB Rapidz Pay.
+- Section 2.1.a of the [terms](https://www.rapidz.io/termsandconditions#deadLink) describe the wallet as a "hosted" wallet where the user stores virtual currencies with UAB Rapidz Pay.
 - Section 2.2.a of the same terms, describe the power of the provider to suspend, cancel, terminate and remove the access of the user from the service. 
 - Section 9.2 of the same terms state that UAB Rapidz Pay stores 100% of the virtual asset's private keys.
 - The previous statements are enough to describe this as a **custodial** provider.

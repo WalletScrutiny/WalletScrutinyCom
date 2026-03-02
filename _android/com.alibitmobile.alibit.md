@@ -10,7 +10,7 @@ released: 2021-05-09
 updated: 2021-05-09
 version: 1.2.6
 reviews: 
-website: https://alibit.tech/
+website: https://alibit.tech#deadLink
 repository: 
 issue: 
 icon: com.alibitmobile.alibit.jpg

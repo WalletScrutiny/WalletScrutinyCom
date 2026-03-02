@@ -10,7 +10,7 @@ released: 2020-08-26
 updated: 2020-08-26
 version: '1.0'
 reviews: 
-website: https://www.blocklink.live/
+website: https://www.blocklink.live#deadLink
 repository: 
 issue: 
 icon: com.wBlocklink_11263223.png

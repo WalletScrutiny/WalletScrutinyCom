@@ -10,7 +10,7 @@ released: 2023-02-10
 updated: 2023-02-11
 version: 1.0.0
 reviews: 
-website: https://peertrans.com/
+website: https://peertrans.com#deadLink
 repository: 
 issue: 
 icon: com.peertrans.com.peer_trans.png

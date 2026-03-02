@@ -49,7 +49,7 @@ Additionally, here is one of the benefits listed in the description:
 
 We searched the site for any mention of private keys, but couldn't find any.
 
-[Proof that QuantDart is Custodial](https://support.quantdart.com/support/solutions/articles/60000670737-why-should-i-use-quantdart-)
+[Proof that QuantDart is Custodial](https://support.quantdart.com/support/solutions/articles/60000670737-why-should-i-use-quantdart-#deadLink)
 
 > Allocate your digital assets into one of our Managed Funds:<br>
 > Check out all our managed investment products, which range from DeFi to large cap growth and from fixed-income to aggressive quantitative analysis. Let us help you find a product which fits your investment profile. It has never been easier, and yet secured, to invest in digital assets.
@@ -62,7 +62,7 @@ We searched the site for any mention of private keys, but couldn't find any.
 
 There are two kinds of wallets in QuantDart: Personal and Shared.
 
-Here are [more details:](https://support.quantdart.com/support/solutions/articles/60000676364-what-is-personal-wallet-what-is-shared-wallet-)
+Here are [more details:](https://support.quantdart.com/support/solutions/articles/60000676364-what-is-personal-wallet-what-is-shared-wallet-#deadLink)
 
 > A personal wallet is an M-of-N multi-signature digital asset wallet. However, the client only requires a single signature in order to create a transaction. QD is taking care of the other signatures on behalf of the client.
 > 

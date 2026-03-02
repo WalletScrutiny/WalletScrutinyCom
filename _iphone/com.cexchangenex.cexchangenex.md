@@ -11,7 +11,7 @@ released: 2020-11-24
 updated: 2021-06-30
 version: 1.1.1075
 reviews: 5
-website: https://cexchangenex.com/
+website: https://cexchangenex.com#deadLink
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.jpg

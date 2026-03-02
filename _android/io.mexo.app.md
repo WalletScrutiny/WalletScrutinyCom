@@ -48,7 +48,7 @@ In Google Play, a lot of reviewers report delays in the verification process. As
   Verification process takes so much time , from 4 days still my verification is in progress, not completed .
        
 ### The Site
-Mexo has [a blog post](https://blog.mexo.io/how-to-buy-bitcoin/) directly stating that it is a custodial platform.
+Mexo has [a blog post](https://blog.mexo.io/how-to-buy-bitcoin#deadLink) directly stating that it is a custodial platform.
 
 > Most cryptocurrency exchanges, __including Mexo__, allow you to securely custody Bitcoin on their platform after purchase.  If you are not familiar with how to store your own private key or have zero experience in Bitcoin wallet, then it could be easier for you to store your asset on a trustable exchange.
 

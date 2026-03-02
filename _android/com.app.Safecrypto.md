@@ -11,7 +11,7 @@ released: 2022-09-02
 updated: 2022-09-02
 version: 1.1.1
 reviews: 11
-website: https://safecryptwallet.com
+website: https://safecryptwallet.com#deadLink
 repository: 
 issue: 
 icon: com.app.Safecrypto.png

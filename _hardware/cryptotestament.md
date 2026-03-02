@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: Tom Falardeau-Leclerc
-providerWebsite: https://web.archive.org/web/20170722085817/http://www.cryptotestament.com/
+providerWebsite: http://www.cryptotestament.com
 website: https://www.kickstarter.com/projects/1033670017/cryptotestament
 shop: 
 country: CA

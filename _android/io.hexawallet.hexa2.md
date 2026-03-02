@@ -13,7 +13,7 @@ updated: 2024-06-17
 version: 2.4.6
 reviews: 6
 website: https://bitcointribe.app/
-repository: https://github.com/bithyve/hexa
+repository: https://github.com/bithyve/bitcointribe-classic
 issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
@@ -36,7 +36,7 @@ features:
 
 ## Updated Verdict 2021-12-21
 
-While the app developers claim that it is self-custodial, this app has failed to build from source. This was addressed in [issue 2544](https://github.com/bithyve/hexa/issues/2544).
+While the app developers claim that it is self-custodial, this app has failed to build from source. This was addressed in [issue 2544](https://github.com/bithyve/bitcointribe-classic/issues/2544).
 
 > I checked our build config the dev flavour of our app can be built in debug mode. The build script to create a release apk of our production version is not in the project.
 >

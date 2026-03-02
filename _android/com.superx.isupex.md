@@ -10,7 +10,7 @@ released: 2020-05-02
 updated: 2020-05-02
 version: 1.0.0
 reviews: 
-website: https://www.isupex.com
+website: https://www.isupex.com#deadLink
 repository: 
 issue: 
 icon: com.superx.isupex.png

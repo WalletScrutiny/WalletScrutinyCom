@@ -36,7 +36,7 @@ This is an iOS only app.
 
 ## Analysis 
 
-With integration to Bitcoin Core and with settings that allow a user to connect to his own node, this app is self-custodial. More information [here](https://fullynoded.app/faq/#How-Do-I-Create-a-Wallet). However, since it is an iOS only app, development relies on mostly proprietary tools. 
+With integration to Bitcoin Core and with settings that allow a user to connect to his own node, this app is self-custodial. More information [here](https://fullynoded.app/faq/#How-Do-I-Create-a-Wallet&deadLink). However, since it is an iOS only app, development relies on mostly proprietary tools. 
 
 We've noted its repository above. 
 

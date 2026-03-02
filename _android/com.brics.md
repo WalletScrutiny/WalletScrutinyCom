@@ -10,7 +10,7 @@ released:
 updated: 2026-02-05
 version: 0.0.10
 reviews: 
-website: https://www.brics-pay.com/BRICS-Pay-Retail
+website: https://www.brics-pay.com/BRICS-Pay-Retail#deadLink
 repository: 
 issue: 
 icon: com.brics.png

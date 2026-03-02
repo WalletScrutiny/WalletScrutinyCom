@@ -45,7 +45,7 @@ not to reproduce the version from Play Store.
 **Update 2021-11-17**: This app is missing build instructions. We have hope to
 see this be reproducible in the foreseeable future as the provider has ambitions
 to be listed in FDroid. Watch
-[this issue](https://github.com/velas/mobile-wallet/issues/62) for progress.
+[this issue](https://github.com/velas/mobile-wallet/issues/62#deadLink) for progress.
 
 ## App Description
 

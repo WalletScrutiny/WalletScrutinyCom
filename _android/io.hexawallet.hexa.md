@@ -12,8 +12,8 @@ updated: 2021-12-03
 version: 1.7.4
 reviews: 14
 website: https://hexawallet.io
-repository: https://github.com/bithyve/hexa
-issue: https://github.com/bithyve/hexa/issues/2544
+repository: https://github.com/bithyve/bitcointribe-classic
+issue: https://github.com/bithyve/bitcointribe-classic/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
 meta: removed
@@ -43,14 +43,14 @@ The page footer on their website answers most of our questions:
   Send bitcoin \| Beginners bitcoin wallet \| Shamir Secret Sharing Bitcoin Wallet
 
 So it's "Non Custodial Bitcoin Wallet". There is also a
-[link to their Github](https://github.com/bithyve/hexa) and while not equipped
+[link to their Github](https://github.com/bithyve/bitcointribe-classic) and while not equipped
 with a FOSS license, it is public source code of a wallet.
 
 So the build instructions looked lacking from the start as there is no word
 about building the apk but only about running the app, we tried it nevertheless:
 
 ```
-$ git clone https://github.com/bithyve/hexa
+$ git clone https://github.com/bithyve/bitcointribe-classic
 $ cd hexa/
 $ git checkout v1.4.1
 $ docker run --rm -v$PWD:/mnt --workdir=/mnt -it walletscrutiny/android bash

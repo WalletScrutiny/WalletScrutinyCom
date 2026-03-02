@@ -10,7 +10,7 @@ released: 2021-04-07
 updated: 2021-05-05
 version: 0.0.8
 reviews: 
-website: https://glions.io/
+website: https://glions.io#deadLink
 repository: 
 issue: 
 icon: app.glions.wallet.png

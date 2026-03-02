@@ -40,8 +40,8 @@ features:
 
 > **Webpage not available**
 >
-> The webpage at https://mobile.fiverstarexchange.in could not be loaded because: net::ERR_CONNECTION_TIMED_OUT
+> The webpage at https://mobile.fiverstarexchange.in#deadLink could not be loaded because: net::ERR_CONNECTION_TIMED_OUT
 
-We took a look at the [archived copy of the site](https://web.archive.org/web/20230410225217/https://www.fivestarexchange.in/), and it said that assets are held in cold-storage 
+We took a look at the [archived copy of the site](https://www.fivestarexchange.in), and it said that assets are held in cold-storage 
 - We [tweeted](https://twitter.com/BitcoinWalletz/status/1654725978634203139) them to know the status of their app, as their twitter account still seems to be posting in 2023. 
 - For now, we'll mark this as **custodial**, unless new information comes along proving that it is in fact, defunct.

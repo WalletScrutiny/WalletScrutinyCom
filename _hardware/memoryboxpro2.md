@@ -12,8 +12,8 @@ binaries:
 dimensions: 
 weight: 
 provider: Starteos
-providerWebsite: https://www.starteos.io
-website: https://www.starteos.io/en/product
+providerWebsite: https://www.starteos.io#deadLink
+website: https://www.starteos.io/en/product#deadLink
 shop: 
 country: CH
 price: 
@@ -54,7 +54,7 @@ However, going over the StartEOS Memory Box 2 page, it would seem that the Start
 
 From this [video](https://www.youtube.com/watch?v=AerkoPsMBFk), it would seem that the Memory Box serves more as a BlueTooth enabled device to back up the StartEOS wallet.
 
-The StartEOS [help files](https://www.starteos.io/en/help/) redirect to another domain, yuque.com. It is a Chinese language site. 
+The StartEOS [help files](https://www.starteos.io/en/help#deadLink) redirect to another domain, yuque.com. It is a Chinese language site. 
 
 ## Private keys are not shared - ✔️
 

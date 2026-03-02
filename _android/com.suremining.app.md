@@ -10,7 +10,7 @@ released: 2020-03-24
 updated: 2020-03-24
 version: '1.0'
 reviews: 
-website: https://sureminingtradeoptions.com/
+website: https://sureminingtradeoptions.com#deadLink
 repository: 
 issue: 
 icon: com.suremining.app.png

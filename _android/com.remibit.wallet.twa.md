@@ -10,7 +10,7 @@ released: 2021-03-17
 updated: 2021-05-17
 version: 3.0.0.0
 reviews: 
-website: https://www.remibit.com
+website: https://www.remibit.com#deadLink
 repository: 
 issue: 
 icon: com.remibit.wallet.twa.png

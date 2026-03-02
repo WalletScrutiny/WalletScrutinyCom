@@ -15,7 +15,7 @@ dimensions:
 weight: 47
 provider: 
 providerWebsite: 
-website: https://xeeda.io/
+website: https://xeeda.io#deadLink
 shop: 
 country: US
 price: 

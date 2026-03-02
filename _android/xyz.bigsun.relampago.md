@@ -11,7 +11,7 @@ released:
 updated: 2019-12-03
 version: VARY
 reviews: 
-website: https://relampago.bigsun.xyz
+website: https://relampago.bigsun.xyz#deadLink
 repository: 
 issue: 
 icon: xyz.bigsun.relampago.png

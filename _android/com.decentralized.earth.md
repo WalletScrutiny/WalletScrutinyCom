@@ -11,7 +11,7 @@ released: 2022-12-15
 updated: 2023-03-18
 version: 2.19.3
 reviews: 
-website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt
+website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt#deadLink
 repository: 
 issue: 
 icon: com.decentralized.earth.png

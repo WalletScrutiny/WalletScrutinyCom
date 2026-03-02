@@ -10,7 +10,7 @@ released: 2019-10-04
 updated: 2020-12-18
 version: Version 2.1.40
 reviews: 
-website: http://www.okongpos.com
+website: http://www.okongpos.com#deadLink
 repository: 
 issue: 
 icon: net.mobillpos.app.png

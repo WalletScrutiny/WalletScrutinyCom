@@ -10,7 +10,7 @@ released: 2021-05-02
 updated: 2021-05-02
 version: '2.0'
 reviews: 
-website: https://coindenex.com
+website: https://coindenex.com#deadLink
 repository: 
 issue: 
 icon: com.coindenex.png

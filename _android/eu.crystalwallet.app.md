@@ -11,7 +11,7 @@ released: 2020-03-15
 updated: 2021-10-21
 version: '1.77'
 reviews: 9
-website: https://crystalwallet.eu/
+website: https://crystalwallet.eu#deadLink
 repository: 
 issue: 
 icon: eu.crystalwallet.app.png

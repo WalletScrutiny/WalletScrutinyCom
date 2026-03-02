@@ -46,7 +46,7 @@ features:
 - We registered and found a cryptocurrency exchange interface. We also found a BTC wallet whose functions can only be accessible after KYC-verification has been accomplished.
 - There are staking, market and trade options.
 - The 'settings' option does not contain private key backup.
-- Section 1.1.3 of the [Terms](https://vipsfinstock.com/terms), describes the service provided as facilitating the online storage of cryptocurrency owned by users.
+- Section 1.1.3 of the [Terms](https://vipsfinstock.com/terms#deadLink), describes the service provided as facilitating the online storage of cryptocurrency owned by users.
 - Most of the terms have provisions that are characteristic of **custodial** providers:
   - legitimacy of fund sourcing
   - Section 15. Termination

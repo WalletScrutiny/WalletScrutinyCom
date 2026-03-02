@@ -10,7 +10,7 @@ released: 2017-07-11
 updated: 2020-01-20
 version: 2.0.10
 reviews: 177
-website: https://bitlish.com
+website: https://bitlish.com#deadLink
 repository: 
 issue: 
 icon: com.bitlish.bitlish.png

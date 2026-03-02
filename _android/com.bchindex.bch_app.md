@@ -10,7 +10,7 @@ released: 2022-12-28
 updated: 2023-04-11
 version: 6.2.2
 reviews: 
-website: https://bchindex.com/
+website: https://bchindex.com#deadLink
 repository: 
 issue: 
 icon: com.bchindex.bch_app.png

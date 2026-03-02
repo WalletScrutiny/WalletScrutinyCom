@@ -11,7 +11,7 @@ released: 2021-07-02
 updated: 2023-02-13
 version: 4.1.0
 reviews: 0
-website: https://exchange.shiftmarkets.com/
+website: https://exchange.shiftmarkets.com#deadLink
 repository: 
 issue: 
 icon: com.shiftmarkets.cointrader.jpg

@@ -13,7 +13,7 @@ weight:
 provider: ExtoLabs
 providerWebsite: https://www.extolab.com/
 website: https://www.extowallet.com/
-shop: https://www.extowallet.com/product-page/extowallet-card
+shop: https://www.extowallet.com/product-page/extowallet-card#deadLink
 country: US
 price: 199.20USD
 repository: 
@@ -38,7 +38,7 @@ features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/72ulnmiD8ZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br />
 
-From their [page](https://www.extowallet.com/product-page/extowallet-card):
+From their [page](https://www.extowallet.com/product-page/extowallet-card#deadLink):
 
 > - Secure means of creating and storing your private crypto keys
 - On-card fingerprint recognition and Pin input

@@ -11,7 +11,7 @@ released: 2021-05-10
 updated: 2021-09-18
 version: 1.1.20
 reviews: 26
-website: https://atmoption.in/
+website: https://atmoption.in#deadLink
 repository: 
 issue: 
 icon: com.gaifang.ATM.png
@@ -56,7 +56,7 @@ It's a trading platform.
   ★☆☆☆☆ August 24, 2021 <br>
        Can't log in from today, it works normally. It is showing network problems, and it doesn't matter if you encounter them. And system error
 
-## [Terms and Conditions](https://atmoption.in/termsConditions)
+## [Terms and Conditions](https://atmoption.in/termsConditions#deadLink)
 
 Under Section 2, provision c. ii. b "Ancillary Services", number 1 i., ATM Option states that part of its Ancillary Services includes:
 

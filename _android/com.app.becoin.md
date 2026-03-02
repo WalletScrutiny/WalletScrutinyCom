@@ -10,7 +10,7 @@ released: 2022-10-01
 updated: 2022-10-01
 version: '1.0'
 reviews: 
-website: https://becoin.exchange/
+website: https://becoin.exchange#deadLink
 repository: 
 issue: 
 icon: com.app.becoin.png

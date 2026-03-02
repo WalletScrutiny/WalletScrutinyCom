@@ -10,7 +10,7 @@ released: 2018-10-04
 updated: 2018-10-12
 version: 1.0.0
 reviews: 
-website: https://blockscart.eu
+website: https://blockscart.eu#deadLink
 repository: 
 issue: 
 icon: com.AppInstitute.qf0b5.png

@@ -10,7 +10,7 @@ released: 2022-04-04
 updated: 2022-04-04
 version: '1.0'
 reviews: 
-website: https://albit.live
+website: https://albit.live#deadLink
 repository: 
 issue: 
 icon: com.app.alcoin4naira.png

@@ -42,7 +42,7 @@ The app connects users to the Mirror Protocol, which is powered by the Terra Blo
 
 >  Mirror Protocol is built on the Terra blockchain and powers synthetic derivatives called Mirrored Assets that **closely track the price of real-world securities, ranging from equities, ETFs, commodities, and cryptocurrencies, etc.** [...] Mirrored Assets traded on the protocol are fully collateralized with the Terra stablecoin, UST, **and provide traders the option of fractional ownership.**
 
-We attempted to access the [official website](https://staging.mirrorwallet.com/) provided in Google Play. Unfortunately, at the moment, it only returns a DNS error.
+We attempted to access the [official website](https://staging.mirrorwallet.com#deadLink) provided in Google Play. Unfortunately, at the moment, it only returns a DNS error.
 
 ## The App
 

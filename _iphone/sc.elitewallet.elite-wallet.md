@@ -11,7 +11,7 @@ released: 2023-06-04
 updated: 2023-06-04
 version: 1.1.7
 reviews: 1
-website: https://elitewallet.sc
+website: https://elitewallet.sc#deadLink
 repository: 
 issue: 
 icon: sc.elitewallet.elite-wallet.jpg

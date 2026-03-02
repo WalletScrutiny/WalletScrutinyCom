@@ -10,7 +10,7 @@ released: 2022-08-16
 updated: 2023-03-07
 version: '3.8'
 reviews: 
-website: http://www.otomation.tech
+website: http://www.otomation.tech#deadLink
 repository: 
 issue: 
 icon: com.crypto_wallet_arnold.png

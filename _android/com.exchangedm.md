@@ -24,7 +24,7 @@ signer:
 twitter: dmdigitalmoney
 social:
 - https://t.me/DMdigitalmoney
-- https://discord.com/invite/QqTns8Yu
+- https://discord.com/invite/QqTns8Yu#deadLink
 - https://www.instagram.com/digitalmoney.dm
 redirect_from: 
 developerName: Digital Money Ltd

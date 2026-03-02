@@ -10,7 +10,7 @@ released: 2022-05-18
 updated: 2022-06-29
 version: '1.2'
 reviews: 
-website: https://lab.localtrade.cc
+website: https://lab.localtrade.cc#deadLink
 repository: 
 issue: 
 icon: com.localtrade.wallet.png

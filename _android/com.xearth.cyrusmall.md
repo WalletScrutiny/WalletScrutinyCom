@@ -10,7 +10,7 @@ released: 2021-09-14
 updated: 2021-09-15
 version: 1.0.0
 reviews: 
-website: https://cyrus-mall.com
+website: https://cyrus-mall.com#deadLink
 repository: 
 issue: 
 icon: com.xearth.cyrusmall.png

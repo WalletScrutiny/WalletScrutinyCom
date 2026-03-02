@@ -32,7 +32,7 @@ features:
 
 ---
 
-The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security):
+The verdict is **custodial** as the [Novadax's security page notes](https://www.novadax.com/en-EU/company/security#deadLink):
 
 > 99% of cryptocurrencies are stored in a multi-signed “Cold Wallet” (offline)
 

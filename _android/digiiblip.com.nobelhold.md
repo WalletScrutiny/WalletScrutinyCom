@@ -10,7 +10,7 @@ released: 2019-06-24
 updated: 2019-10-05
 version: '1.23'
 reviews: 
-website: http://noblecoin.io
+website: http://noblecoin.io#deadLink
 repository: 
 issue: 
 icon: digiiblip.com.nobelhold.png

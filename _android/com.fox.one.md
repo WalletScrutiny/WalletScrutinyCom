@@ -11,7 +11,7 @@ released: 2018-07-15
 updated: 2021-01-08
 version: 2.14.1
 reviews: 90
-website: https://www.fox.one/#/
+website: https://www.fox.one/#&deadLink
 repository: 
 issue: 
 icon: com.fox.one.png

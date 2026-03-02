@@ -221,7 +221,7 @@ We reported this problem in
 Sadly at the current state, This firmware is **not verifiable**.
 
 **Update 2022-12-28**: The provider sent us a
-[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599).
+[link to claims of this product being open source and reproducible](https://help.onekey.so/hc/en-us/articles/6113121891599#deadLink).
 We have to check this.
 
 OneKey is an open source hardware wallet by Bixin. The primary language for the website is Chinese. OneKey, the company claims to be based in Singapore
@@ -234,17 +234,17 @@ From the [FAQ](https://shop.onekey.so/pages/faq)
 
 ## Private keys are not shared with OneKeyHQ - ✔️
 
-OneKey claims that the private keys are only [controlled by the user](https://help.onekey.so/hc/en-us/articles/360002184256-Why-Use-OneKey-Hardware-Wallets-to-Manage-Private-Keys-)
+OneKey claims that the private keys are only [controlled by the user](https://help.onekey.so/hc/en-us/articles/360002184256-Why-Use-OneKey-Hardware-Wallets-to-Manage-Private-Keys-#deadLink)
 
 > Wallet helpers and seeds created with OneKey are **stored locally and encrypted, so only you can decrypt the information, and our servers do not and cannot store any of the user's private data**. No more centralized institutions, you are in full control of your encrypted assets.
 
 ## Device displays receive address for confirmation - ✔️
 
-[Tutorial on how to withdraw coins to OneKey](https://help.onekey.so/hc/en-us/articles/4408458838799-How-to-withdraw-coins-from-exchanges-to-OneKey-Mini-hardware-wallet)
+[Tutorial on how to withdraw coins to OneKey](https://help.onekey.so/hc/en-us/articles/4408458838799-How-to-withdraw-coins-from-exchanges-to-OneKey-Mini-hardware-wallet#deadLink)
 
 OneKey has a 1.54 Inch OLED with 128 x 64 pixels.
 
-From the renderings provided on this [page](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial), the OneKey hardware wallet has a confirmation button.
+From the renderings provided on this [page](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial#deadLink), the OneKey hardware wallet has a confirmation button.
 
 However, this is from the official documentation. We were not able to find third-party content such as pictures or videos on social media or blogs that depicts the actual device.
 
@@ -252,7 +252,7 @@ However, this is from the official documentation. We were not able to find third
 
 Activating the wallet starts with the device providing the mnemonics and then securing it with a pin.
 
-The wallet activation tutorial can be found [here](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial).
+The wallet activation tutorial can be found [here](https://help.onekey.so/hc/en-us/articles/360004487195-OneKey-classic-hardware-wallet-activation-tutorial#deadLink).
 
 Incorrectly entering the pin code 10 times, resets the wallet.
 
@@ -274,7 +274,7 @@ which is a fork of
 [trezor-firmware](https://github.com/trezor/trezor-firmware) (10805 commits).
 
 Their
-[OneKey hardware wallet firmware upgrade tutorial](https://help.onekey.so/hc/en-us/articles/360004745796-OneKey-hardware-wallet-firmware-upgrade-tutorial)
+[OneKey hardware wallet firmware upgrade tutorial](https://help.onekey.so/hc/en-us/articles/360004745796-OneKey-hardware-wallet-firmware-upgrade-tutorial#deadLink)
 looks familiar to how
 {% include walletLink.html wallet='hardware/trezorOne' verdict='true' %}
 works but with a Bluetooth firmware option. The screenshots and lack of

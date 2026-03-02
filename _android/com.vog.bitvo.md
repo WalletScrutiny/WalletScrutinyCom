@@ -11,7 +11,7 @@ released: 2020-03-16
 updated: 2023-02-15
 version: 1.6.9
 reviews: 19
-website: https://bitvo.com
+website: https://bitvo.com#deadLink
 repository: 
 issue: 
 icon: com.vog.bitvo.png
@@ -36,7 +36,7 @@ features:
 
 It's a Canadian cryptocurrency exchange that supports BTC, ETH, XRP, LTC, BCH, DASH, and ETC.
 
-## [Security](https://bitvo.com/security/)
+## [Security](https://bitvo.com/security#deadLink)
 
 It claims to use both hot and cold storage to secure the user's funds.
 
@@ -44,5 +44,5 @@ It claims to use both hot and cold storage to secure the user's funds.
 
 ## Verdict
 
-Having a "third-party financial institution" host the cold storage of Bitvo means that they are acting as a **custodial** service. Even though they claim that they're [not custodians in their legal document](https://bitvo.com/legal/), we believe that they are, on the premise that they can terminate and suspend the use of the platform. The app therefore **cannot be verified**.
+Having a "third-party financial institution" host the cold storage of Bitvo means that they are acting as a **custodial** service. Even though they claim that they're [not custodians in their legal document](https://bitvo.com/legal#deadLink), we believe that they are, on the premise that they can terminate and suspend the use of the platform. The app therefore **cannot be verified**.
 

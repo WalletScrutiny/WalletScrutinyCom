@@ -43,5 +43,5 @@ features:
 
 - As the description states, the provider works with 
 {% include walletLink.html wallet='android/com.bitgo.mobile' verdict='true' %}
-- [Tutorial](https://eldorado.io/en/tutorials/how-to-buy-bitcoin-in-venezuela/) on how to buy bitcoin using the platform
+- [Tutorial](https://eldorado.io/en/tutorials/how-to-buy-bitcoin-in-venezuela#deadLink) on how to buy bitcoin using the platform
 - This is a **custodial** provider.

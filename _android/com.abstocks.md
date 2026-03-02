@@ -11,7 +11,7 @@ released: 2021-08-30
 updated: 2022-02-07
 version: 1.6.106
 reviews: 
-website: https://abstocks.com
+website: https://abstocks.com#deadLink
 repository: 
 issue: 
 icon: com.abstocks.png

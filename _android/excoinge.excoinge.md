@@ -10,7 +10,7 @@ released: 2017-12-04
 updated: 2018-05-13
 version: '1.020180512'
 reviews: 
-website: https://www.excoinge.com/
+website: https://www.excoinge.com#deadLink
 repository: 
 issue: 
 icon: excoinge.excoinge.png

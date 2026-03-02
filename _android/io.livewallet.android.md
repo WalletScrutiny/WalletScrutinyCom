@@ -10,7 +10,7 @@ released: 2023-03-04
 updated: 2023-04-09
 version: 1.5.3
 reviews: 
-website: https://livewallet.io
+website: https://livewallet.io#deadLink
 repository: 
 issue: 
 icon: io.livewallet.android.png

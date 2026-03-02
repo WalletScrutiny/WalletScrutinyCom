@@ -31,7 +31,7 @@ features:
 
 ---
 
-## App Description from [Homepage](https://conglex.com/)
+## App Description from [Homepage](https://conglex.com#deadLink)
 
 > - Buy & Sell Crypto Assets
 > - Take Low Interest Crypto Loans
@@ -41,7 +41,7 @@ features:
 
 There are several hints of a custodial offering based on the service's onboarding and terms. 
 
-### [Terms](https://conglex.com/privacy)
+### [Terms](https://conglex.com/privacy#deadLink)
 
 #### KYC 
 

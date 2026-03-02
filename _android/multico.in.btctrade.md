@@ -11,7 +11,7 @@ released: 2017-01-30
 updated: 2018-09-05
 version: '1.5'
 reviews: 
-website: http://multipi.net/
+website: https://web.archive.org/web/20090828171643/http://multipi.net:80/
 repository: 
 issue: 
 icon: multico.in.btctrade.png

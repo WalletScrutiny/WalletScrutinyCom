@@ -11,7 +11,7 @@ released: 2019-07-22
 updated: 2019-09-20
 version: 1.0.0
 reviews: 6
-website: http://trade.io
+website: http://trade.io#deadLink
 repository: 
 issue: 
 icon: io.trade.tradeio.eu.png

@@ -23,10 +23,10 @@ date: 2024-09-28
 signer: 
 twitter: yieldapp
 social:
-- https://www.trofi.group
+- https://www.trofi.group#deadLink
 - https://www.linkedin.com/company/yieldapp
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn
+- https://discord.com/invite/crwD3JgMgn#deadLink
 features: 
 developerName: Yield App
 

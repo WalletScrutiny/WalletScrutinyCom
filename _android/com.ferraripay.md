@@ -10,7 +10,7 @@ released: 2021-06-01
 updated: 2023-05-19
 version: '1.1'
 reviews: 
-website: https://ferrari-pay.com
+website: https://ferrari-pay.com#deadLink
 repository: 
 issue: 
 icon: com.ferraripay.png

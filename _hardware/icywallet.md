@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: NeatNik LLC (Adam Newbold)
 providerWebsite: 
-website: https://web.archive.org/web/20180107060156/https://icywallet.com/
+website: https://icywallet.com
 shop: 
 country: US
 price: 
@@ -36,7 +36,7 @@ features:
 
 > IcyWallet is a Bitcoin cold storage wallet that doesn’t require sight. It aims to be the simplest and most secure Bitcoin cold storage solution with a total emphasis on accessibility. Just plug in headphones and a keyboard, or a refreshable braille display, and get going.
 
-From the [IcyWallet GitHub page archive](https://web.archive.org/web/20180107060156/https://icywallet.com/): 
+From the [IcyWallet GitHub page archive](https://icywallet.com): 
 
 > IcyWallet is a cold storage solution, emphasizing safe storage of Bitcoin in the most accessible way possible.
 >
@@ -44,7 +44,7 @@ From the [IcyWallet GitHub page archive](https://web.archive.org/web/20180107060
 >
 > Spending from IcyWallet isn’t as simple as using a hot wallet, but the process is a reflection of the secure nature of an air gapped setup. To spend coins stored in IcyWallet, the transaction must first be generated on a separate computer connected to the internet (defining how many coins to send, where to send them, and the fee to be used). That transaction is then read by IcyWallet (via USB) and signed with your private key. Finally, the signed transaction can be broadcast from the other internet-connected computer.
 
-The project has been hailed as a display of Bitcoin's inclusivity. This followed Adam Newbold's initial foray into transcribing the [Bitcoin Whitepaper into Braille](https://github.com/neatnik/braille-bitcoin-whitepaper). At the time, the features were: 
+The project has been hailed as a display of Bitcoin's inclusivity. This followed Adam Newbold's initial foray into transcribing the [Bitcoin Whitepaper into Braille](https://web.archive.org/web/20250814184620/https://github.com/neatnik/braille-bitcoin-whitepaper). At the time, the features were: 
 
 > - 100% free and open source
 - Boots directly into the wallet app with functioning audio and braille support (via BRLTTY)

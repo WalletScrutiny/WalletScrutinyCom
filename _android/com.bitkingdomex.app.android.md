@@ -55,7 +55,7 @@ We made sure the password that we used followed the criteria.
 
 > Webpage not available 
 >
-> The webpage at http://www.bitkingdomex.com/mobile/findPw1 could not be loaded because: 
+> The webpage at http://www.bitkingdomex.com/mobile/findPw1#deadLink could not be loaded because: 
 >
 > net::ERR_NAME_NOT_RESOLVED 
 

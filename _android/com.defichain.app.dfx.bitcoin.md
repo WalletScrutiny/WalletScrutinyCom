@@ -10,7 +10,7 @@ released: 2023-02-23
 updated: 2023-08-18
 version: 2.1.1
 reviews: 
-website: https://dfx.swiss/bitcoin/
+website: https://dfx.swiss/bitcoin#deadLink
 repository: 
 issue: 
 icon: com.defichain.app.dfx.bitcoin.png

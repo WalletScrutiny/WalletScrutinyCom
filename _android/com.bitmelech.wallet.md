@@ -10,7 +10,7 @@ released:
 updated: 2022-08-05
 version: 1.2.5
 reviews: 
-website: https://bitmelech.com/
+website: https://bitmelech.com#deadLink
 repository: 
 issue: 
 icon: com.bitmelech.wallet.png

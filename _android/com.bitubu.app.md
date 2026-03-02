@@ -10,7 +10,7 @@ released: 2020-04-19
 updated: 2023-01-19
 version: 1.1.4
 reviews: 
-website: https://bitubu.com
+website: https://bitubu.com#deadLink
 repository: 
 issue: 
 icon: com.bitubu.app.png

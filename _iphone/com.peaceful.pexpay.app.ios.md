@@ -11,7 +11,7 @@ released: 2022-04-11
 updated: 2023-06-16
 version: 1.19.0
 reviews: 16
-website: https://www.pexpay.com
+website: https://www.pexpay.com#deadLink
 repository: 
 issue: 
 icon: com.peaceful.pexpay.app.ios.jpg

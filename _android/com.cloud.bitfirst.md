@@ -10,7 +10,7 @@ released: 2021-11-01
 updated: 2021-11-01
 version: 1.0.0
 reviews: 
-website: https://bitfirst.app
+website: https://bitfirst.app#deadLink
 repository: 
 issue: 
 icon: com.cloud.bitfirst.png

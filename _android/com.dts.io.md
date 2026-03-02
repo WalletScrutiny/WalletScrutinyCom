@@ -10,7 +10,7 @@ released: 2021-11-05
 updated: 2021-11-05
 version: 1.0.0
 reviews: 
-website: http://dtsasset.io/
+website: http://dtsasset.io#deadLink
 repository: 
 issue: 
 icon: com.dts.io.png

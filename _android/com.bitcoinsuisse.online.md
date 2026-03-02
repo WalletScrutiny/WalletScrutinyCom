@@ -40,9 +40,9 @@ features:
 
 A minimum amount of [CHF 100,000 for private clients and CHF 500,000 for institutional clients](https://www.bitcoinsuisse.com/news/standing-up-for-our-clients-in-times-of-unprecedented-market-growth) is required for account opening. Apart from that, new accounts are subject to approval. 
 
-Supported cryptocurrencies include BTC, ETH, LINK, BCH, BSV, and [more](https://support.bitcoinsuisse.com/hc/en-us/articles/360007110179-Which-crypto-assets-can-I-deposit-).
+Supported cryptocurrencies include BTC, ETH, LINK, BCH, BSV, and [more](https://support.bitcoinsuisse.com/hc/en-us/articles/360007110179-Which-crypto-assets-can-I-deposit-#deadLink).
 
-Withdrawals are discussed [here](https://support.bitcoinsuisse.com/hc/en-us/articles/360007023160-How-do-I-add-an-external-crypto-address-for-withdrawals-).
+Withdrawals are discussed [here](https://support.bitcoinsuisse.com/hc/en-us/articles/360007023160-How-do-I-add-an-external-crypto-address-for-withdrawals-#deadLink).
 
 ## [Custody Provision in General Terms and Conditions](https://files.bitcoinsuisse.com/assets/pdf/20211001_GTC.pdf)
 

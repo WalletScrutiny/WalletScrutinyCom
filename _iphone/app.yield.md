@@ -25,7 +25,7 @@ twitter: yieldapp
 social:
 - https://www.linkedin.com/company/yieldapp/
 - https://t.me/yieldapp
-- https://discord.com/invite/crwD3JgMgn
+- https://discord.com/invite/crwD3JgMgn#deadLink
 features: 
 developerName: Yield App
 

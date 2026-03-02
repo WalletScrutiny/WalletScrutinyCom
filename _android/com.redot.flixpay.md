@@ -10,7 +10,7 @@ released: 2022-04-04
 updated: 2022-05-02
 version: 1.3.3
 reviews: 140
-website: https://flixpay.io
+website: https://flixpay.io#deadLink
 repository: 
 issue: 
 icon: com.redot.flixpay.png

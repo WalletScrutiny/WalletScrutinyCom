@@ -30,7 +30,7 @@ features:
 
 ---
 
-Strangely, we could not access the official website from our end, but there is an alternative website, [starexx.co](https://www.starexx.co/) that is accessible and shares more information about the app.
+Strangely, we could not access the official website from our end, but there is an alternative website, [starexx.co](https://www.starexx.co#deadLink) that is accessible and shares more information about the app.
 
 From the app's description:
 

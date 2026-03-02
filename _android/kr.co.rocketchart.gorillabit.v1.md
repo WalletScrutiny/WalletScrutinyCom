@@ -10,7 +10,7 @@ released: 2021-06-23
 updated: 2021-09-17
 version: 1.0.0+130
 reviews: 
-website: https://www.gorillabit.io
+website: https://www.gorillabit.io#deadLink
 repository: 
 issue: 
 icon: kr.co.rocketchart.gorillabit.v1.png

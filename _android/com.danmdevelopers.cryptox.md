@@ -10,7 +10,7 @@ released: 2021-05-01
 updated: 2021-05-01
 version: '1.0'
 reviews: 
-website: http://www.danmdevelopers.com
+website: http://www.danmdevelopers.com#deadLink
 repository: 
 issue: 
 icon: com.danmdevelopers.cryptox.png

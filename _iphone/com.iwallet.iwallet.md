@@ -12,7 +12,7 @@ released: 2019-09-14
 updated: 2021-09-09
 version: '2.35'
 reviews: 46
-website: http://InSense.tech
+website: http://insense.tech#deadLink
 repository: 
 issue: 
 icon: com.iwallet.iwallet.jpg

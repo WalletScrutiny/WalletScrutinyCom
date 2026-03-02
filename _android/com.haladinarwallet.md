@@ -23,7 +23,7 @@ date: 2024-04-19
 signer: 
 twitter: haladinar
 social:
-- https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html
+- http://haladinar.io/hdn/index.html
 - https://facebook.com/haladinar.io
 - https://github.com/haladinar
 - https://t.me/haladinar

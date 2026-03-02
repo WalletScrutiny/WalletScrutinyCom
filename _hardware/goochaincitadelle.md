@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://goochain.net/citadelle/
+website: https://goochain.net/citadelle#deadLink
 shop: 
 country: FR
 price: 12€

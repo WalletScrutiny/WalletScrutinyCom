@@ -10,7 +10,7 @@ released: 2021-10-01
 updated: 2021-10-01
 version: 1.0.0
 reviews: 
-website: https://bitxmintpro.com
+website: https://bitxmintpro.com#deadLink
 repository: 
 issue: 
 icon: com.bitxmintpro.bitxmintpro.png

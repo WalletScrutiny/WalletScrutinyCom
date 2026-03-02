@@ -10,7 +10,7 @@ released: 2020-02-08
 updated: 2020-02-08
 version: '1.0'
 reviews: 
-website: http://www.hashfinanciero.com
+website: http://www.hashfinanciero.com#deadLink
 repository: 
 issue: 
 icon: com.hashfinanciero.prod.jpg

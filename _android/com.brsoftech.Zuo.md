@@ -10,7 +10,7 @@ released: 2017-12-03
 updated: 2017-12-04
 version: '1.0'
 reviews: 
-website: http://zuobox.com
+website: http://zuobox.com#deadLink
 repository: 
 issue: 
 icon: com.brsoftech.Zuo.jpg

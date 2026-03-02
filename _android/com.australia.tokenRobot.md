@@ -10,7 +10,7 @@ released: 2022-03-31
 updated: 2022-03-31
 version: 0.0.1
 reviews: 
-website: http://www.tokenrobot.net/
+website: http://www.tokenrobot.net#deadLink
 repository: 
 issue: 
 icon: com.australia.tokenRobot.png

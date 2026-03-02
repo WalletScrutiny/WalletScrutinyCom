@@ -11,7 +11,7 @@ released: 2021-05-03
 updated: 2024-04-04
 version: 2.6.8
 reviews: 0
-website: https://www.obrinvest.com/
+website: https://www.obrinvest.com#deadLink
 repository: 
 issue: 
 icon: com.obrinvestment.obrinvest.jpg

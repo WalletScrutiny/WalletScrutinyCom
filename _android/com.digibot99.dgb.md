@@ -11,7 +11,7 @@ released: 2020-11-07
 updated: 2020-11-07
 version: 0.0.1
 reviews: 
-website: https://www.digibot99.com
+website: https://www.digibot99.com#deadLink
 repository: 
 issue: 
 icon: com.digibot99.dgb.png

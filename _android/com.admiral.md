@@ -11,7 +11,7 @@ released: 2021-01-22
 updated: 2021-03-10
 version: 1.9.3
 reviews: 121
-website: https://admiraloption.com/
+website: https://admiraloption.com#deadLink
 repository: 
 issue: 
 icon: com.admiral.png

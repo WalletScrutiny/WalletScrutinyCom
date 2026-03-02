@@ -10,7 +10,7 @@ released:
 updated: 2021-10-18
 version: VARY
 reviews: 
-website: https://bit7wallet.com/
+website: https://bit7wallet.com#deadLink
 repository: 
 issue: 
 icon: com.gexabyte.android.bitseven.png

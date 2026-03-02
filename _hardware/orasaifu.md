@@ -14,7 +14,7 @@ dimensions:
 - 4.5
 weight: 65
 provider: OraSaifu Inc.
-providerWebsite: https://web.archive.org/web/20180812220227/https://orasaifu.io/
+providerWebsite: https://orasaifu.io
 website: 
 shop: 
 country: 

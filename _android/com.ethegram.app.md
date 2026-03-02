@@ -10,7 +10,7 @@ released: 2020-05-07
 updated: 2020-07-19
 version: '6771'
 reviews: 
-website: http://www.ethegram.net
+website: http://www.ethegram.net#deadLink
 repository: 
 issue: 
 icon: com.ethegram.app.png

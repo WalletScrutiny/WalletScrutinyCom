@@ -10,7 +10,7 @@ released: 2022-05-19
 updated: 2022-05-19
 version: '1.0'
 reviews: 
-website: https://www.shreelox.com/
+website: https://www.shreelox.com#deadLink
 repository: 
 issue: 
 icon: com.arhamtechnolabs.shreelox.png

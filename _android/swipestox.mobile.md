@@ -50,7 +50,7 @@ The platform uses CFDs, as seen in this quote:
 
 ### Help Center:
 
-**From [What is CFD?](https://support.naga.com/en/articles/5052653-what-is-cfd):**
+**From [What is CFD?](https://support.naga.com/en/articles/5052653-what-is-cfd#deadLink):**
 
 > CFD stands for contract for difference. This means it is an agreement between you and your broker to exchange the difference between the opening price and closing price of a contract. Hence, you speculate on the movement of the underlying asset (a stock, commodity, etc.), **but you do not own the asset.**
 

@@ -10,7 +10,7 @@ released: 2021-03-09
 updated: 2021-04-13
 version: 1.0.3
 reviews: 
-website: http://stiwallet.com
+website: http://stiwallet.com#deadLink
 repository: 
 issue: 
 icon: com.stiwallet.png

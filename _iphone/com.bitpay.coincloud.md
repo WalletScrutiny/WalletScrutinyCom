@@ -11,7 +11,7 @@ released: 2018-09-09
 updated: 2022-02-16
 version: 1.9.6
 reviews: 162
-website: https://www.coin.cloud/app
+website: https://web.archive.org/web/20230401142623/https://www.coin.cloud/app
 repository: 
 issue: 
 icon: com.bitpay.coincloud.jpg

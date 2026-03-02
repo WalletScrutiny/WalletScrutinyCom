@@ -10,7 +10,7 @@ released: 2020-01-16
 updated: 2020-01-17
 version: '1.0'
 reviews: 
-website: https://gxt.global
+website: https://gxt.global#deadLink
 repository: 
 issue: 
 icon: com.xgt.png

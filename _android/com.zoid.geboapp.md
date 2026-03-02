@@ -10,7 +10,7 @@ released: 2021-05-12
 updated: 2021-05-12
 version: 2.0.0
 reviews: 
-website: https://gebo.io/
+website: https://gebo.io#deadLink
 repository: 
 issue: 
 icon: com.zoid.geboapp.jpg

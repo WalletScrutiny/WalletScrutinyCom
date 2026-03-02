@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Polymerbit Ltd.
 providerWebsite: 
-website: https://polymerbit.ch/
+website: https://polymerbit.ch#deadLink
 shop: https://www.polymerbit.com/shop
 country: UK
 price: 20USD
@@ -38,7 +38,7 @@ Other advertised features include the offline storage of private keys.
 
 ## Keys are prefilled
 
-[From the FAQ](https://polymerbit.ch/#FAQ), "Are my funds safe in a Polymerbit?"
+[From the FAQ](https://web.archive.org/web/20250808124727/https://www.polymerbit.ch/), "Are my funds safe in a Polymerbit?"
 
 > Polymerbit takes every precaution to reduce the risk of keys being exposed. Keys are produced on an offline unit in a room where no other electronics are allowed. The project has been closely monitored by members of the Bitcointalk community for compliance. Of course, there is a risk of loss if the physical note is stolen, destroyed or lost. However, this can happen with any tangible asset.
 

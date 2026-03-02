@@ -10,7 +10,7 @@ released: 2017-11-06
 updated: 2021-09-30
 version: 1.14.40.00000
 reviews: 
-website: http://www.cryptotag.financial
+website: http://www.cryptotag.financial#deadLink
 repository: 
 issue: 
 icon: com.cryptotag.mobile.png

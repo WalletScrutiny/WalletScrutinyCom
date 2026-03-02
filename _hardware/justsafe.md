@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Jing Yan
 providerWebsite: 
-website: https://justsafe.io
+website: https://justsafe.io#deadLink
 shop: 
 country: 
 price: 

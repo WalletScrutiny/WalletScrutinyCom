@@ -38,7 +38,7 @@ The app provides capabilities for staking, exchange, credit line and wallets. It
 
 The site carries mostly similar functions as the mobile app. 
 
-In its [Terms and Conditions](https://vndc.io/en/terms-of-service), the service agreement allows the platform to: 
+In its [Terms and Conditions](https://vndc.io/en/terms-of-service#deadLink), the service agreement allows the platform to: 
 
 > We may: (a) refuse to complete, or place on hold, block, cancel or reverse a transaction you have authorised (even after funds have been debited from your VNDC Account), (b) suspend, restrict, or terminate your access to any or all of the VNDC Services, and/or (c) deactivate or cancel your VNDC Account with immediate effect for any reason...
 

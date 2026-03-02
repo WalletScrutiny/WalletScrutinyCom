@@ -23,7 +23,7 @@ date: 2023-08-07
 signer: 
 twitter: 
 social:
-- https://im-token.farm
+- https://im-token.farm#deadLink
 redirect_from: 
 developerName: ii token
 builds: 

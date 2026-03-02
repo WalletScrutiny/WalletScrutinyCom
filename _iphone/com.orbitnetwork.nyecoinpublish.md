@@ -11,7 +11,7 @@ released: 2019-07-20
 updated: 2019-07-30
 version: '1.1'
 reviews: 15
-website: https://nyecoin.io/
+website: https://nyecoin.io#deadLink
 repository: 
 issue: 
 icon: com.orbitnetwork.nyecoinpublish.jpg

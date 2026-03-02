@@ -10,7 +10,7 @@ released: 2019-10-22
 updated: 2020-06-26
 version: '1.24'
 reviews: 
-website: https://www.trackonbtcguide.com/
+website: https://www.trackonbtcguide.com#deadLink
 repository: 
 issue: 
 icon: com.application.bit900.png

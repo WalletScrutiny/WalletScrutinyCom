@@ -12,7 +12,7 @@ released: 2020-04-01
 updated: 2023-01-22
 version: 2.4.46
 reviews: 39
-website: https://www.vision-crypto.com
+website: https://web.archive.org/web/20250916230349/http://vision-crypto.com/
 repository: 
 issue: 
 icon: com.visionsoftware.vision.jpg

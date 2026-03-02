@@ -10,7 +10,7 @@ released: 2021-07-25
 updated: 2021-07-25
 version: 0.21.3
 reviews: 
-website: https://www.dgcusa.com/
+website: https://www.dgcusa.com#deadLink
 repository: 
 issue: 
 icon: com.dgc.wallet.png

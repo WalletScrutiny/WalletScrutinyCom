@@ -10,7 +10,7 @@ released: 2022-09-15
 updated: 2022-10-04
 version: '1.4'
 reviews: 
-website: https://cryptomovil.app/
+website: https://cryptomovil.app#deadLink
 repository: 
 issue: 
 icon: cryptomovil.app.png

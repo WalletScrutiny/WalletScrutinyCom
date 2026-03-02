@@ -10,7 +10,7 @@ released: 2022-02-10
 updated: 2022-08-02
 version: '5.0'
 reviews: 
-website: https://indialovely.finance/
+website: https://indialovely.finance#deadLink
 repository: 
 issue: 
 icon: com.finance.lovelyindian.png

@@ -14,9 +14,9 @@ dimensions:
 - 0.8
 weight: 
 provider: BEPAL
-providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-touch
-shop: https://bepal.pro/bepal-touch
+providerWebsite: https://bepal.pro#deadLink
+website: https://bepal.pro/bepal-touch#deadLink
+shop: https://bepal.pro/bepal-touch#deadLink
 country: CH
 price: 159CNY
 repository: 

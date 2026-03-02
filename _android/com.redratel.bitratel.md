@@ -10,7 +10,7 @@ released: 2019-09-10
 updated: 2021-05-14
 version: 1.4.1
 reviews: 
-website: https://redratel.com
+website: https://redratel.com#deadLink
 repository: 
 issue: 
 icon: com.redratel.bitratel.png

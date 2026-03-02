@@ -10,7 +10,7 @@ released: 2022-02-07
 updated: 2022-02-07
 version: '1.1'
 reviews: 
-website: https://mtctraders.com
+website: https://mtctraders.com#deadLink
 repository: 
 issue: 
 icon: com.mtctrader.png

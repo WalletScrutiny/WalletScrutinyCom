@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://hodler.tech/
+website: https://web.archive.org/web/20250822122845/https://hodler.tech/
 shop: 
 country: 
 price: 

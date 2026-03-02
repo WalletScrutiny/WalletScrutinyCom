@@ -10,7 +10,7 @@ released: 2021-03-30
 updated: 2021-04-05
 version: 1.0.1
 reviews: 
-website: https://minerglobal.org/
+website: https://minerglobal.org#deadLink
 repository: 
 issue: 
 icon: com.efc.wallet.png

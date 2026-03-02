@@ -10,7 +10,7 @@ released: 2014-06-01
 updated: 2017-12-20
 version: '1.2'
 reviews: 60
-website: http://aegisbtc.com
+website: http://aegisbtc.com#deadLink
 repository: https://github.com/bsimic0001/AegisWallet
 issue: 
 icon: com.aegiswallet.png

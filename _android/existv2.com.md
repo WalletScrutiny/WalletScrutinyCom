@@ -11,7 +11,7 @@ released: 2019-06-29
 updated: 2019-06-30
 version: '3.0'
 reviews: 4
-website: https://nyecoin.io/
+website: https://nyecoin.io#deadLink
 repository: 
 issue: 
 icon: existv2.com.png

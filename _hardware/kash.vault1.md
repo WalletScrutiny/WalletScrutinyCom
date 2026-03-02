@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.kashtech.io/
+website: https://www.kashtech.io#deadLink
 shop: 
 country: 
 price: 

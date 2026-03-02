@@ -36,7 +36,7 @@ This is the payment app for the ride sharing app "99" which is popular in
 Brazil. 99 was bought by "Didi Chuxing", the Chinese Ride Sharing giant.
 
 Their
-[details on Bitcoin](https://99app.com/99pay/novo-app/bitcoin/) section is not
+[details on Bitcoin](https://99app.com/99pay/novo-app/bitcoin#deadLink) section is not
 very explicit but for the lack of any inbound or outbound transactions being
 mentioned, we have to assume this app is only for what they talk about a lot -
 speculation on the price of bitcoin.

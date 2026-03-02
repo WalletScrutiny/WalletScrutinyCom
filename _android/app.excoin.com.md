@@ -11,7 +11,7 @@ released: 2022-03-20
 updated: 2022-09-16
 version: 1.1.2
 reviews: 
-website: https://m.excoin.cloud/
+website: https://m.excoin.cloud#deadLink
 repository: 
 issue: 
 icon: app.excoin.com.png
@@ -46,7 +46,7 @@ This one is:
 
 This app has a significant amount of details that are similar with {% include walletLink.html wallet='android/app.excointrades.com' %}. 
 
-This includes the [Terms and Conditions](https://m.excoin.cloud/terms). 
+This includes the [Terms and Conditions](https://m.excoin.cloud/terms#deadLink). 
 
 What is curious is the need for the app to change its:
 

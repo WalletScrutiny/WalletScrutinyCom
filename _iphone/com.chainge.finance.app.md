@@ -11,7 +11,7 @@ released: 2021-08-04
 updated: 2024-10-14
 version: 0.8.3
 reviews: 88
-website: https://www.chainge.finance/
+website: https://web.archive.org/web/20251115045754/https://chainge.finance/
 repository: 
 issue: 
 icon: com.chainge.finance.app.jpg

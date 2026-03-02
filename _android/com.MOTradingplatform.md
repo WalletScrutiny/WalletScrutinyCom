@@ -10,7 +10,7 @@ released: 2020-07-31
 updated: 2020-08-07
 version: 1.0.1
 reviews: 
-website: https://1minuteoptions.com
+website: https://web.archive.org/web/20230607060147/http://1minuteoptions.com/
 repository: 
 issue: 
 icon: com.MOTradingplatform.png

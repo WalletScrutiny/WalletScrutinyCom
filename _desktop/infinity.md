@@ -11,7 +11,7 @@ binaries:
 provider: Sharddax Ltd.
 providerWebsite: 
 website: https://infinitywallet.io/
-repository: https://github.com/InfinityWallet/Releases
+repository: https://github.com/InfinityWallet/Releases#deadLink
 issue: 
 icon: infinity.png
 bugbounty: 

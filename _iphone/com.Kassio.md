@@ -11,7 +11,7 @@ released: 2022-03-25
 updated: 2023-10-27
 version: 1.1.2
 reviews: 12
-website: https://kassio.com/contact
+website: https://web.archive.org/web/20230201082314/https://www.kassio.com/contact
 repository: 
 issue: 
 icon: com.Kassio.jpg

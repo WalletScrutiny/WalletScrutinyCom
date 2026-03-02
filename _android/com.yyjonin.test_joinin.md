@@ -10,7 +10,7 @@ released: 2022-04-28
 updated: 2022-07-20
 version: '4.2'
 reviews: 
-website: https://joinin.vip
+website: https://joinin.vip#deadLink
 repository: 
 issue: 
 icon: com.yyjonin.test_joinin.png

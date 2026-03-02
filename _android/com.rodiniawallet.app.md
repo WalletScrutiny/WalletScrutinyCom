@@ -10,7 +10,7 @@ released: 2021-08-15
 updated: 2021-11-21
 version: 1.3.0
 reviews: 
-website: https://rodiniawallet.com
+website: https://rodiniawallet.com#deadLink
 repository: 
 issue: 
 icon: com.rodiniawallet.app.jpg

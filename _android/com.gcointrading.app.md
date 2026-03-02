@@ -10,7 +10,7 @@ released: 2018-08-19
 updated: 2018-08-20
 version: '1.0'
 reviews: 
-website: https://www.gtradingapp.com/
+website: https://www.gtradingapp.com#deadLink
 repository: 
 issue: 
 icon: com.gcointrading.app.png

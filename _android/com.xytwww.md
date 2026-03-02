@@ -11,7 +11,7 @@ released: 2021-02-25
 updated: 2021-04-14
 version: 1.3.1
 reviews: 
-website: https://www.xyt.com
+website: https://www.xyt.com#deadLink
 repository: 
 issue: 
 icon: com.xytwww.png
@@ -45,7 +45,7 @@ features:
 ## Analysis 
 
 - The developer contact website is no longer online 
-- The last archive of the site was in [2021](https://web.archive.org/web/20210624081537/https://www.xyt.com/)
+- The last archive of the site was in [2021](https://www.xyt.com#deadLink)
 - The app purports to show an update with the notification "update: There is a new version, is it updated? It included Chinese characters as labels + the word "BUG". We downloaded this update. 
 - During registration, and when clicking on User Terms, the app goes to a zendesk page that says "Oops, this help center no longer exists"
 - Back to the app and in the registration page, it asks us to enter the verification code from a non-existent image. 

@@ -10,7 +10,7 @@ released: 2020-02-02
 updated: 2020-02-03
 version: 1.0.0
 reviews: 
-website: https://www.bcnex.net/
+website: https://www.bcnex.net#deadLink
 repository: 
 issue: 
 icon: com.bcnex.png

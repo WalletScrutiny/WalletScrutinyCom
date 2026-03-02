@@ -10,7 +10,7 @@ released:
 updated: 2019-01-24
 version: VARY
 reviews: 
-website: https://exchangevalet.com
+website: https://exchangevalet.com#deadLink
 repository: 
 issue: 
 icon: com.dopamineapps.exchangevalet.png

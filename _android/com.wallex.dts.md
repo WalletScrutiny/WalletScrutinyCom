@@ -11,7 +11,7 @@ released: 2023-01-05
 updated: 2023-08-07
 version: 1.3.34
 reviews: 
-website: https://dtswallet.io
+website: https://dtswallet.io#deadLink
 repository: 
 issue: 
 icon: com.wallex.dts.png
@@ -38,4 +38,4 @@ features:
 
 ## Analysis 
 
-As the description states, this is a **custodial** service. This is also corroborated in the Terms of Use in [Section 4.3.2.](https://dtswallet.io/dtswallet-terms.pdf). This makes the app **non-verifiable**.
+As the description states, this is a **custodial** service. This is also corroborated in the Terms of Use in [Section 4.3.2.](https://dtswallet.io/dtswallet-terms.pdf#deadLink). This makes the app **non-verifiable**.

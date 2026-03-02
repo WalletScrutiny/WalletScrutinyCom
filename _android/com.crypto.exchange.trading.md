@@ -10,7 +10,7 @@ released: 2022-06-11
 updated: 2022-06-11
 version: '1.0'
 reviews: 
-website: https://swapcrypto.ca/
+website: https://swapcrypto.ca#deadLink
 repository: 
 issue: 
 icon: com.crypto.exchange.trading.jpg

@@ -11,7 +11,7 @@ released: 2020-10-18
 updated: 2024-07-09
 version: 2.0.64
 reviews: 58
-website: https://www.lanistar.com
+website: https://www.lanistar.com#deadLink
 repository: 
 issue: 
 icon: com.lanistar.png
@@ -39,7 +39,7 @@ features:
 
 ## Analysis
 
-- [(The Lanistar Terms and Conditions)](https://www.lanistar.com/terms-conditions/)
+- [(The Lanistar Terms and Conditions)](https://www.lanistar.com/terms-conditions#deadLink)
 - We had difficulty in registering with this service because the sms verification did not arrive promptly. We changed our country of residence to UK, and the SMS to our temporary number worked.
 - We registered, but had to wait for an activation code. We do not know if this is through email or sms. We already verified our email address. We waited to no avail.
 - At the footer of the site, we found this:

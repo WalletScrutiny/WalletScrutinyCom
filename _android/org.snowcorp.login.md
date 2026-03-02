@@ -10,7 +10,7 @@ released: 2019-04-23
 updated: 2019-06-20
 version: '1.2'
 reviews: 
-website: http://www.atmopen.com
+website: https://web.archive.org/web/20220628051134/http://www.atmopen.com/
 repository: 
 issue: 
 icon: org.snowcorp.login.png

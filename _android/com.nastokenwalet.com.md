@@ -10,7 +10,7 @@ released: 2021-03-10
 updated: 2021-03-10
 version: 1.0.0
 reviews: 
-website: https://nastokenwallet.com/
+website: https://nastokenwallet.com#deadLink
 repository: 
 issue: 
 icon: com.nastokenwalet.com.png

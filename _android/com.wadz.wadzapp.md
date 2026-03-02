@@ -42,7 +42,7 @@ features:
 
 > This version of the App allows you to send and receive digital currencies (Bitcoin and Ethereum) between friends, family and employees. Simply enter a username, or scan their QR code 
 
-## WadzPay [Whitepaper](https://wadzpay.com/demo/WadzPay-Whitepaper-2.0.pdf)
+## WadzPay [Whitepaper](https://wadzpay.com/demo/WadzPay-Whitepaper-2.0.pdf#deadLink)
 
 - Has its own token $WTK which saw its price fall from $0.32 USD to less than $0.01
 

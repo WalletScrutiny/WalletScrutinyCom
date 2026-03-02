@@ -11,7 +11,7 @@ released: 2021-12-21
 updated: 2023-05-12
 version: 2.0.5
 reviews: 27
-website: https://getzion.com
+website: https://getzion.com#deadLink
 repository: 
 issue: 
 icon: com.getzion.zion.png
@@ -68,6 +68,6 @@ The Zion [DWN](https://docs.zion.fyi/Architecture/decentralized-web-nodes) is th
 
 It is common convention to have a lightning wallet alongside a Bitcoin wallet, but Zion seems to have done away with the Bitcoin wallet portion maybe for the purposes of simplifying the user experience. But then, this gets tricky. If the app does not have the Bitcoin private keys, but has a lightning wallet, how then are transactions signed? How is a channel maintained? Who controls the nodes? 
 
-Interestingly, Zion describes itself as a [semi-custodial](https://www.zion.fyi/terms) platform indicating that they do not have copies of the user's seed phrases. They also describe themselves as an Open Source platform, but only have an organizational GitHub with 1 repository for their whitepaper. Searching for their App ID, [does not result](https://github.com/search?q=com.getzion.zion&type=code) in any hit within GitHub code.
+Interestingly, Zion describes itself as a [semi-custodial](https://www.zion.fyi/terms#deadLink) platform indicating that they do not have copies of the user's seed phrases. They also describe themselves as an Open Source platform, but only have an organizational GitHub with 1 repository for their whitepaper. Searching for their App ID, [does not result](https://github.com/search?q=com.getzion.zion&type=code) in any hit within GitHub code.
 
 This makes the app **not source-available.**

@@ -10,7 +10,7 @@ released: 2020-05-05
 updated: 2020-05-05
 version: v1.0.6
 reviews: 
-website: https://iq.cash/
+website: https://iq.cash#deadLink
 repository: 
 issue: 
 icon: com.iqcash.wallet.png

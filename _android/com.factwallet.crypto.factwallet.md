@@ -11,7 +11,7 @@ released: 2020-10-23
 updated: 2020-11-13
 version: '1.4'
 reviews: 
-website: https://factpocket.com/
+website: https://factpocket.com#deadLink
 repository: 
 issue: 
 icon: com.factwallet.crypto.factwallet.png

@@ -10,7 +10,7 @@ released: 2020-12-13
 updated: 2020-12-21
 version: 1.0.1
 reviews: 
-website: https://useongcoin.com
+website: https://useongcoin.com#deadLink
 repository: 
 issue: 
 icon: com.usc.uscwallet.png

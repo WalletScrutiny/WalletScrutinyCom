@@ -11,7 +11,7 @@ released: 2018-10-27
 updated: 2020-06-23
 version: 5.0.6
 reviews: 96
-website: http://www.cointiger.com
+website: http://www.cointiger.com#deadLink
 repository: 
 issue: 
 icon: com.cointiger.ex.jpg
@@ -36,7 +36,7 @@ developerName:
 
 **Update 2021-11-07**: This app is not available anymore.
 
-CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service)
+CoinTiger Exchange [Terms of Service](https://www.cointiger.com/en-us/#/footer/service&deadLink)
 
 > About CoinTiger<br>
   As an important part of the CoinTiger Ecosystem, CoinTiger mainly serves as a global online platform for Digital Assets trading, and provides Users with a trading platform, financing services, technical services and other Digital Assets-related services. As further detailed in Article 3 below, Users must register and open an account with CoinTiger, and deposit Digital Assets into their account prior to trading. Users may, subject to the restrictions set forth in these Terms, apply for the withdrawal of Digital Assets.

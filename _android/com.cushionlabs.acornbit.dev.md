@@ -44,7 +44,7 @@ This app cannot send and receive bitcoins.
 
 > AcornBit is an app that allows you to experience various cryptocurrency transactions.
 
-### [Terms](https://acornbit.com/helpdesk/notice?srl=47)
+### [Terms](https://acornbit.com/helpdesk/notice?srl=47#deadLink)
 
 > Through this service, users can search and browse for real-time market and trade information of digital asset products on ACORNBIT, submit trade orders, complete digital assets trading, participate in activities organized by ACORNBIT and use other informational and technical services. 
 

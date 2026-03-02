@@ -10,7 +10,7 @@ released:
 updated: 2021-04-27
 version: VARY
 reviews: 
-website: https://icte.io
+website: https://icte.io#deadLink
 repository: 
 issue: 
 icon: com.icte.io.jpg

@@ -10,7 +10,7 @@ released:
 updated: 2022-08-22
 version: VARY
 reviews: 
-website: https://renzler.one
+website: https://renzler.one#deadLink
 repository: 
 issue: 
 icon: com.renzler.png

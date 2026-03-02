@@ -10,7 +10,7 @@ released: 2022-09-22
 updated: 2022-11-23
 version: 1.2.2
 reviews: 
-website: https://www.viv.com/
+website: https://www.viv.com#deadLink
 repository: 
 issue: 
 icon: com.uecent.viv.png

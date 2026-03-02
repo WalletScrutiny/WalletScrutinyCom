@@ -10,7 +10,7 @@ released: 2020-08-06
 updated: 2020-08-15
 version: '1.1'
 reviews: 51
-website: https://web.payfrequent.com/
+website: https://web.payfrequent.com#deadLink
 repository: 
 issue: 
 icon: com.payfrequent.png

@@ -10,7 +10,7 @@ released: 2020-12-17
 updated: 2020-12-23
 version: 1.0.2
 reviews: 
-website: https://www.fx24gold.com
+website: https://www.fx24gold.com#deadLink
 repository: 
 issue: 
 icon: com.pandats.fx24gold.png

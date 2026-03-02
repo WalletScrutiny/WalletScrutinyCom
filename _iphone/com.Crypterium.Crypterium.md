@@ -29,7 +29,7 @@ developerName: Crypterium AS
 
 ---
 
-Judging by what we can find on the [wallet site](https://wallet.crypterium.com/):
+Judging by what we can find on the [wallet site](https://wallet.crypterium.com#deadLink):
 
 > **Store**<br>
   keep your currencies<br>

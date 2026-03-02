@@ -10,7 +10,7 @@ released: 2019-06-01
 updated: 2019-06-02
 version: 1.0.0
 reviews: 
-website: https://www.gbpay.cc/et/
+website: https://www.gbpay.cc/et#deadLink
 repository: 
 issue: 
 icon: com.gbsystems.gbpayappsafe.png

@@ -11,7 +11,7 @@ released: 2018-11-23
 updated: 2020-02-25
 version: 1.2.3
 reviews: 
-website: https://www.crossexchange.io/cross/home
+website: https://www.crossexchange.io/cross/home#deadLink
 repository: 
 issue: 
 icon: com.cbasefintechlab.exchange.png

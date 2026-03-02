@@ -10,7 +10,7 @@ released: 2019-11-12
 updated: 2019-11-12
 version: 3.0.3
 reviews: 
-website: https://digitaldebit.com
+website: https://digitaldebit.com#deadLink
 repository: 
 issue: 
 icon: com.coinbase.digitaldebit.png

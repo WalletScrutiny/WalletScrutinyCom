@@ -11,7 +11,7 @@ released: 2017-11-01
 updated: 2026-02-11
 version: 11.15.0
 reviews: 491
-website: http://www.hbg.com
+website: http://www.hbg.com#deadLink
 repository: 
 issue: 
 icon: pro.huobi.png

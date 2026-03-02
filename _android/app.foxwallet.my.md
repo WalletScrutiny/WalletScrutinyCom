@@ -10,7 +10,7 @@ released: 2022-04-10
 updated: 2022-09-05
 version: '1.29'
 reviews: 
-website: https://severus.finance
+website: https://web.archive.org/web/20250516203145/http://severus.finance/
 repository: 
 issue: 
 icon: app.foxwallet.my.png

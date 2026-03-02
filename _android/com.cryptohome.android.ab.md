@@ -10,7 +10,7 @@ released: 2021-11-10
 updated: 2021-11-10
 version: 1.0.0
 reviews: 
-website: https://cryptohome.ng
+website: https://cryptohome.ng#deadLink
 repository: 
 issue: 
 icon: com.cryptohome.android.ab.jpg

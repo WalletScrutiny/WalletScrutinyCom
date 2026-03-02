@@ -11,7 +11,7 @@ released: 2019-10-07
 updated: 2020-03-24
 version: 1.1.2
 reviews: 
-website: https://www.ddtwallet.com/
+website: https://www.ddtwallet.com#deadLink
 repository: 
 issue: 
 icon: com.ddt.ddtmobile.png

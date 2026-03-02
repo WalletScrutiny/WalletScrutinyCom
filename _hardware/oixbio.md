@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: OiX Global
-providerWebsite: https://www.oix.global/wallet
+providerWebsite: https://www.oix.global/wallet#deadLink
 website: 
 shop: 
 country: US
@@ -37,7 +37,7 @@ features:
 
 **⚠️ Note:** Crunchbase lists [OiX Global's](https://www.crunchbase.com/organization/oix-open-investment-exchange) founding date to be July 16, 2017. OiX Global also did an ISO (Initial Securities Offerings) which are similar to ICOs, except that they are "more regulated".
 
-## [Claimed Product Features](https://www.oix.global/wallet)
+## [Claimed Product Features](https://www.oix.global/wallet#deadLink)
 
 > - Backdoor Proof
 > - Software Hack Proof
@@ -48,7 +48,7 @@ features:
 >
 > OiX Bio and its mobile application supports Transport Layer Security (TLS v1.0, TLS v1.1, and TLS v1.2, which supports both AES 128 and SHA-2) and DTLS.
 
-Curiously, OiX Global seems to reference another wallet called "[Yelo One](https://web.archive.org/web/20180902044241/https://yelo.one/)" on its description page:
+Curiously, OiX Global seems to reference another wallet called "[Yelo One](https://yelo.one)" on its description page:
 
 > The private key leaves the wallet in an encrypted form so, there is no real loss of security here. In order to recover that private key you have to pair the new Yelo one device with the installed app and use the same passcode to open the wallet as you did earlier. This will ensure that you get your wallet back in your Yelo one wallet.
 

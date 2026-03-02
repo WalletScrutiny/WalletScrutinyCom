@@ -11,7 +11,7 @@ released: 2018-02-13
 updated: 2021-11-28
 version: 2.9.3
 reviews: 10
-website: https://www.kcash.com/
+website: https://web.archive.org/web/20220826010753/https://kcash.com/
 repository: 
 issue: 
 icon: com.kcw.kcash.jpg

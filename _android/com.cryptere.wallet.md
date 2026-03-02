@@ -10,7 +10,7 @@ released: 2022-06-17
 updated: 2022-07-01
 version: 0.9.11
 reviews: 
-website: https://cryptere.com
+website: https://cryptere.com#deadLink
 repository: 
 issue: 
 icon: com.cryptere.wallet.png

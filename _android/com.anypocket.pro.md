@@ -10,7 +10,7 @@ released: 2019-08-20
 updated: 2019-09-27
 version: Beta1.0.7
 reviews: 
-website: http://anypocket.io
+website: http://anypocket.io#deadLink
 repository: 
 issue: 
 icon: com.anypocket.pro.png

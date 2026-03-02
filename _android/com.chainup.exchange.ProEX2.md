@@ -25,7 +25,7 @@ twitter:
 social:
 - https://www.facebook.com/b.c.proex
 - https://t.me/ProExchange2
-- https://discord.com/invite/EG8rVx7qpU
+- https://discord.com/invite/EG8rVx7qpU#deadLink
 - https://www.instagram.com/proex.io
 - https://www.proex.io
 redirect_from: 

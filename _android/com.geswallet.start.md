@@ -10,7 +10,7 @@ released: 2020-04-14
 updated: 2020-04-17
 version: 0.0.2
 reviews: 
-website: https://portaltest.gesgame.io/
+website: https://portaltest.gesgame.io#deadLink
 repository: 
 issue: 
 icon: com.geswallet.start.png

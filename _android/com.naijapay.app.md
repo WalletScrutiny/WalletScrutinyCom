@@ -10,7 +10,7 @@ released: 2021-01-21
 updated: 2021-08-10
 version: 1.0.0
 reviews: 
-website: https://naijapay.io/
+website: https://naijapay.io#deadLink
 repository: 
 issue: 
 icon: com.naijapay.app.png

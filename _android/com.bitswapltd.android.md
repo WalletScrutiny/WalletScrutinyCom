@@ -10,7 +10,7 @@ released: 2022-05-18
 updated: 2022-05-18
 version: '1.0'
 reviews: 
-website: https://bitswapltd.com/
+website: https://bitswapltd.com#deadLink
 repository: 
 issue: 
 icon: com.bitswapltd.android.png

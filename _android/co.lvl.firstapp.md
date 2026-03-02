@@ -11,7 +11,7 @@ released: 2020-06-30
 updated: 2021-09-09
 version: 1.0.5
 reviews: 62
-website: https://lvl.co
+website: https://web.archive.org/web/20250910205356/http://lvl.co/
 repository: 
 issue: 
 icon: co.lvl.firstapp.png
@@ -40,7 +40,7 @@ LVL describes itself as a "premium all-in-one finance app that lets you buy and 
 > Buy and sell Bitcoin, Ethereum, and Litecoin with no trading fees and no hidden spreads. With LVL’s revolutionary community exchange, the only price you pay is the price other LVL members are charging.
 
 ## The Site
-At LVL's [page on cryptocurrencies:](https://www.lvl.co/service/how-to-buy-crypto-without-fees)
+At LVL's [page on cryptocurrencies:](https://web.archive.org/web/20220808014620/https://www.lvl.co/service/how-to-buy-crypto-without-fees)
 
 > At LVL, you get your own fixed-address wallet **using multi-signature security technology provided by BitGo**. Multi-signature technology creates multiple layers of security with no single point of failure.
 

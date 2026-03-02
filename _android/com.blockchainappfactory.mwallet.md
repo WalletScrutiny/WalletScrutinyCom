@@ -11,7 +11,7 @@ released: 2020-03-08
 updated: 2020-03-09
 version: '1.0'
 reviews: 
-website: https://mwallet.step.holdings
+website: https://mwallet.step.holdings#deadLink
 repository: 
 issue: 
 icon: com.blockchainappfactory.mwallet.png

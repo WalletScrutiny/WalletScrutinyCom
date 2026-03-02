@@ -10,7 +10,7 @@ released: 2022-08-26
 updated: 2022-09-13
 version: 1.1.1
 reviews: 
-website: https://mond.finance
+website: https://web.archive.org/web/20240822030647/https://mond.finance/
 repository: 
 issue: 
 icon: mond.finance.png

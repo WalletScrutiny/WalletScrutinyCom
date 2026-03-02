@@ -11,7 +11,7 @@ released: 2022-11-15
 updated: 2026-02-14
 version: 1.1.3
 reviews: 12
-website: https://www.xchangeon.io/
+website: https://www.xchangeon.io#deadLink
 repository: 
 issue: 
 icon: com.xchangeonio.png
@@ -50,7 +50,7 @@ features:
 
 ## Analysis
 
-- They have a notice on front of their [homepage](https://www.xchangeon.io/en_US/)
+- They have a notice on front of their [homepage](https://www.xchangeon.io/en_US#deadLink)
 
      > To Halt Operations Temporarily as Per License Approval Protocol
 

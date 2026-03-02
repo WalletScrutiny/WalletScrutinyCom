@@ -10,7 +10,7 @@ released: 2020-01-06
 updated: 2020-01-25
 version: '1.3'
 reviews: 
-website: https://www.erichsaigon.com/
+website: https://www.erichsaigon.com#deadLink
 repository: 
 issue: 
 icon: com.erichsaigon.jpg

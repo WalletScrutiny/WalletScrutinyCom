@@ -12,8 +12,8 @@ dimensions:
 weight: 
 provider: GoldlinksGlobal
 providerWebsite: 
-website: https://www.goldlinks.one/
-shop: https://www.goldlinks.one/list.php?pid=3&ty=28
+website: https://www.goldlinks.one#deadLink
+shop: https://web.archive.org/web/20250515212227/https://www.goldlinks.one/list.php?pid=3&ty=28
 country: SG
 price: 
 repository: 
@@ -37,11 +37,11 @@ features:
 
 ## Background 
 
-Splash announcement on Goldlinks.one's [homepage](https://www.goldlinks.one): 
+Splash announcement on Goldlinks.one's [homepage](https://www.goldlinks.one#deadLink): 
 
 > Recently, the trading of Goldlinks GGT on BitForex has been halted. To date, Bitforex has no any official explanation on the unilateral suspension. Goldlinks is requesting an official statement from BitForex and communicating with them. We will endeavor to resume the trading as soon as possible.
 
-The [whitepaper](https://www.goldlinks.one/uploadfile/upload/file/20190807/2019080710421177.pdf) describes a token and a coin: GGT and GGC
+The [whitepaper](https://www.goldlinks.one/uploadfile/upload/file/20190807/2019080710421177.pdf#deadLink) describes a token and a coin: GGT and GGC
 
 > By combining cutting-edge blockchain technology with physical gold, Goldlinks Platform is uniting gold producers, consumers, investors, and other gold stakeholders in a global blockchain community. Goldlinks Platform has transformed gold into a divisible, tokenized asset known as Global Gold Coins (GGC). This functions as a universal store of value and unlocks gold's natural monetary properties in a digital world.
 
@@ -53,7 +53,7 @@ GGT
 
 The hardware wallet was [announced on twitter](https://twitter.com/GoldlinksGlobal/status/1133631475104923648) on May 29, 2019.
 
-This information can be found on this [page](https://www.goldlinks.one/list.php?pid=3&ty=28#safe):
+This information can be found on this [page](https://www.goldlinks.one/list.php?pid=3&ty=28#safe&deadLink):
 
 > - Private keys are generated and stored in a Secure Element (SE).
 - Sensitive data is isolated on a chip operating system (COS), preventing storage and signature attacks.
@@ -63,7 +63,7 @@ drivers.
 
 ## Analysis 
 
-The [last tweet](https://twitter.com/GoldlinksGlobal/status/1194131880662056967) of the Goldlinks twitter account was made on November 12, 2019. The 'Buy' link for the hardware wallet is broken. The last [Medium post](https://medium.com/@GoldlinksGlobal/goldlinks%E5%85%AB%E6%9C%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%8B%95%E5%90%91-37c3b04f64d3) was made on September 2, 2019. Goldlinks' wallet app download is [also broken](https://www.goldlinks.one/walletdownload/index.html).
+The [last tweet](https://twitter.com/GoldlinksGlobal/status/1194131880662056967) of the Goldlinks twitter account was made on November 12, 2019. The 'Buy' link for the hardware wallet is broken. The last [Medium post](https://medium.com/@GoldlinksGlobal/goldlinks%E5%85%AB%E6%9C%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E5%8B%95%E5%90%91-37c3b04f64d3) was made on September 2, 2019. Goldlinks' wallet app download is [also broken](https://web.archive.org/web/20190620080405/http://www.goldlinks.one:80/walletdownload/index.html).
 
 This information together with the delisting of the GGT on BitForex plus the subsequent loss of value of GGT from a high of [20 cents to 0.000427 cents](https://coinranking.com/coin/pQp728dTL7Id+globalgoldtoken-ggt), lead us to come to the conclusion that this hardware wallet **no longer exists**. 
 

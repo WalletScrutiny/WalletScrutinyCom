@@ -10,7 +10,7 @@ released: 2019-07-20
 updated: 2020-09-16
 version: 1.0.54
 reviews: 9
-website: http://bbctoken.app
+website: http://bbctoken.app#deadLink
 repository: 
 issue: 
 icon: com.bbctoken.png

@@ -10,7 +10,7 @@ released: 2020-05-23
 updated: 2020-05-25
 version: 4.4.7
 reviews: 
-website: https://www.indexex.biz/
+website: https://www.indexex.biz#deadLink
 repository: 
 issue: 
 icon: com.chainup.exchange.index.png

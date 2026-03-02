@@ -10,7 +10,7 @@ released: 2021-09-24
 updated: 2021-11-08
 version: '1.05'
 reviews: 111
-website: http://bitni.com
+website: http://bitni.com#deadLink
 repository: 
 issue: 
 icon: com.bitni.androidapp.png

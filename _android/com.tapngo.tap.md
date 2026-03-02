@@ -32,7 +32,7 @@ features:
 
 This country specific app is not available in some jurisdictions so we were not able to download the app. 
 
-We have to rely on the [Terms and Conditions](https://www.tap.global/terms-and-conditions) page to be able to ascertain the nature of this service.
+We have to rely on the [Terms and Conditions](https://www.tap.global/terms-and-conditions#deadLink) page to be able to ascertain the nature of this service.
 
 Under Section 3.4 of the Terms and Conditions page:
 
@@ -46,7 +46,7 @@ Under Section 6.4, Tap also reserves this right:
 
 Apart from the app, users are also given the opportunity to acquire a Tap Prepaid Visa card that allows users to withdraw fiat from an ATM machine.
 
-This is the [cryptocurency withdrawal guide](https://www.tap.global/learn/guides/withdraw-crypto-btc-eth-ltc-tap).
+This is the [cryptocurency withdrawal guide](https://www.tap.global/learn/guides/withdraw-crypto-btc-eth-ltc-tap#deadLink).
 
 Our email query about private keys has been answered:
 

@@ -10,7 +10,7 @@ released: 2018-05-17
 updated: 2018-05-29
 version: 1.0.0.93
 reviews: 
-website: http://bcdxchange.com/
+website: http://bcdxchange.com#deadLink
 repository: 
 issue: 
 icon: com.bcdex.wallet.png

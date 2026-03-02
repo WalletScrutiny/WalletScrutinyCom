@@ -10,7 +10,7 @@ released: 2022-03-27
 updated: 2022-04-27
 version: 1.0.1
 reviews: 
-website: https://pealab.io/wallet
+website: https://pealab.io/wallet#deadLink
 repository: 
 issue: 
 icon: com.pea.wallet.png

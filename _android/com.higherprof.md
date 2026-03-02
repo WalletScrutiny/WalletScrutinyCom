@@ -10,7 +10,7 @@ released:
 updated: 2021-11-12
 version: '1.0'
 reviews: 
-website: https://higherprof.pro/
+website: https://higherprof.pro#deadLink
 repository: 
 issue: 
 icon: com.higherprof.jpg

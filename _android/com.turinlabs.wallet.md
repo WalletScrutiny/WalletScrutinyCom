@@ -10,7 +10,7 @@ released: 2022-09-14
 updated: 2023-03-06
 version: 1.1.8
 reviews: 
-website: https://www.turinlabs.com/turinwallet
+website: https://www.turinlabs.com/turinwallet#deadLink
 repository: 
 issue: 
 icon: com.turinlabs.wallet.png

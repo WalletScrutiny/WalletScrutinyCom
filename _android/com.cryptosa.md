@@ -10,7 +10,7 @@ released: 2019-08-27
 updated: 2019-08-27
 version: 1.0.0
 reviews: 
-website: https://cryptosa.com
+website: https://cryptosa.com#deadLink
 repository: 
 issue: 
 icon: com.cryptosa.png

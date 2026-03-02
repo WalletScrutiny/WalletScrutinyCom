@@ -10,7 +10,7 @@ released:
 updated: 2023-01-06
 version: VARY
 reviews: 
-website: https://destreet.co
+website: https://destreet.co#deadLink
 repository: 
 issue: 
 icon: com.wiser.app.png

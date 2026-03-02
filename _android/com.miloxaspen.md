@@ -10,7 +10,7 @@ released: 2022-02-08
 updated: 2022-03-16
 version: '1.0'
 reviews: 
-website: https://milox.exchange
+website: https://milox.exchange#deadLink
 repository: 
 issue: 
 icon: com.miloxaspen.jpg

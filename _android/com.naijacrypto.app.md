@@ -11,7 +11,7 @@ released: 2019-08-05
 updated: 2022-10-22
 version: 5.1.2
 reviews: 
-website: https://naijacrypto.com/
+website: https://naijacrypto.com#deadLink
 repository: 
 issue: 
 icon: com.naijacrypto.app.png

@@ -11,7 +11,7 @@ released: 2020-08-27
 updated: 2023-05-18
 version: 3.4.1
 reviews: 13
-website: https://o3.network
+website: https://o3.network#deadLink
 repository: 
 issue: 
 icon: com.o3.o3wallet.png
@@ -40,7 +40,7 @@ From the Play Store description:
 To verify this we installed the app. Users may import existing crypto wallets by entering the mnemonic or private key, and upon creating a new wallet you are given the option to immediately back it up and copy the 12-word phrase.
 
 ### Homepage
-On the [homepage](https://o3.network/), O3 claims:
+On the [homepage](https://o3.network#deadLink), O3 claims:
 
 > O3 is an open source project, dedicated to making the vision of the Smart Economy a reality.
 

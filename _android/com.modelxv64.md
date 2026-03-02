@@ -42,7 +42,7 @@ This app comes from the same providers as {% include walletLink.html wallet='and
 
 ## The Site
 
-From the [Terms:](https://stratum.bt/TermsandConditions.pdf)
+From the [Terms:](https://stratum.bt/TermsandConditions.pdf#deadLink)
 
 > 6.7 We reserve the right to suspend or disable access to your
 account if we reasonably suspect that any unauthorized activity is

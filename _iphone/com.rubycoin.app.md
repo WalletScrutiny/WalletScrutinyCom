@@ -23,7 +23,7 @@ date: 2024-10-31
 signer: 
 twitter: RubyCoinDAO
 social:
-- https://rubycointrade.com
+- https://rubycointrade.com#deadLink
 - https://www.facebook.com/people/Ruby-Coin/100083273028384
 - https://www.instagram.com/rubycoindao
 - https://t.me/rubycoindao

@@ -11,7 +11,7 @@ released: 2022-03-01
 updated: 2023-11-07
 version: 1.5.6
 reviews: 
-website: https://www.cd-ex.com/index
+website: https://www.cd-ex.com/index#deadLink
 repository: 
 issue: 
 icon: com.xsjys.bbtc.png
@@ -36,7 +36,7 @@ features:
 
 > CDEX has Bitcoin (BTC), Ether (ETH), Cardano (ADA), Bitcoin Cash (BCH), FIL (Filecoin), Polkadot (DOT), Solana (SOL), Uniswap (UNI) ), DOGE (Dogecoin) and hundreds of other cryptocurrencies.
 
-## [Terms](https://t.cd-ex.com/terms/?lang=en)
+## [Terms](https://t.cd-ex.com/terms/?lang=en#deadLink)
 
 > 2.1. The Services allow all Users to conducting trading activities in relation to the Cryptocurrency Contracts on the Platform. 
 

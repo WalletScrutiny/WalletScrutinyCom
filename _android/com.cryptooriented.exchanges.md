@@ -10,7 +10,7 @@ released: 2018-01-10
 updated: 2022-01-10
 version: 1.0.0
 reviews: 
-website: https://cryptooriented.com
+website: https://cryptooriented.com#deadLink
 repository: 
 issue: 
 icon: com.cryptooriented.exchanges.png

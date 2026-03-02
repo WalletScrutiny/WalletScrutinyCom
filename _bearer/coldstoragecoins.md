@@ -14,8 +14,8 @@ dimensions:
 - 7.1
 weight: 40
 provider: Rearden Metals Pte Ltd
-providerWebsite: https://www.reardenmetals.sg/
-website: https://coldstoragecoins.com/
+providerWebsite: https://web.archive.org/web/20220309165215/https://reardenmetals.sg/
+website: https://coldstoragecoins.com#deadLink
 shop: https://checkout.square.site/buy/LNFSKRHZPZLG3ESNBYQ6HHA6
 country: SG
 price: 24.95USD
@@ -32,7 +32,7 @@ social:
 - https://www.linkedin.com/company/rearden-metals/
 - https://www.instagram.com/coldstoragecoins
 - https://www.facebook.com/coldstoragecoins
-- https://github.com/ReardenMetals
+- https://github.com/ReardenMetals#deadLink
 features: 
 
 ---
@@ -78,7 +78,7 @@ How to transfer cryptocurrencies to another wallet
 
 Similar to {% include walletLink.html wallet='bearer/casascius' %}, Cold Storage Coins **etches the private keys on the coins and thus allows them to make copies of it**. The users would have to trust that they won't.
 
-They did offer a [Security Statement](https://coldstoragecoins.com/security-statement/), but again, users would just have to take their word for it that the Managing Director won't make copies of the private keys on each coin they sell.
+They did offer a [Security Statement](https://coldstoragecoins.com/security-statement#deadLink), but again, users would just have to take their word for it that the Managing Director won't make copies of the private keys on each coin they sell.
 
 > What happens to the private key once the coin is engraved?
 > 

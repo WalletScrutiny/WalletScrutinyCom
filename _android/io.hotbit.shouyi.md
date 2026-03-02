@@ -11,7 +11,7 @@ released: 2019-09-19
 updated: 2023-04-11
 version: 1.4.33
 reviews: 1606
-website: https://www.hotbit.io/
+website: https://www.hotbit.io#deadLink
 repository: 
 issue: 
 icon: io.hotbit.shouyi.png

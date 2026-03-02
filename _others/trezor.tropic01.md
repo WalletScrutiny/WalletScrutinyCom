@@ -8,7 +8,7 @@ date: 2023-12-06
 website: https://tropicsquare.com/
 twitter: tropicsquare
 provider: TropicSquare
-shop: https://tropicsquare.com/product
+shop: https://tropicsquare.com/product#deadLink
 country: CZ
 meta: ok
 verdict: unreleased

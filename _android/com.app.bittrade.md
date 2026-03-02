@@ -10,7 +10,7 @@ released: 2022-02-28
 updated: 2022-03-01
 version: '1.0'
 reviews: 
-website: https://www.bittrade.biz/
+website: https://www.bittrade.biz#deadLink
 repository: 
 issue: 
 icon: com.app.bittrade.png

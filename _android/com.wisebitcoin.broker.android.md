@@ -53,11 +53,11 @@ Up to 100:1 Leverage Levels Unmatched by Any Other Exchanges
 
 ## The Site
 
-This exchange has an [AML Policy](https://www.wisebitcoin.com/about/aml-policy). 
+This exchange has an [AML Policy](https://www.wisebitcoin.com/about/aml-policy#deadLink). 
 
-It also has a tutorial on how to [Deposit/Withdraw cryptocurrencies including Bitcoin](https://www.wisebitcoin.com/user-guide/deposit-procedure)
+It also has a tutorial on how to [Deposit/Withdraw cryptocurrencies including Bitcoin](https://www.wisebitcoin.com/user-guide/deposit-procedure#deadLink)
 
-Its [terms and conditions](https://www.wisebitcoin.com/about/terms) specify actions about termination:
+Its [terms and conditions](https://www.wisebitcoin.com/about/terms#deadLink) specify actions about termination:
 
 > _Wisebitcoin reserves the right, in its sole discretion, to restrict, suspend or terminate your access to all or any part of the Wisebitcoin Sites at any time for any reason without prior notice. Wisebitcoin may change, suspend or discontinue all or any aspect of the Wisebitcoin Sites at any time, including the availability of any feature_, database, information or content without prior notice. In the event of termination, you are no longer authorized to access the Wisebitcoin Sites and the restrictions imposed on you with respect to material downloaded from the Wisebitcoin Sites, the disclaimers and limitations of liability set forth in these terms and conditions shall survive. 
 

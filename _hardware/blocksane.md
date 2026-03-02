@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: Blocksane Co., Ltd.
 providerWebsite: 
-website: https://web.archive.org/web/20180806064756/http://blocksane.com/
+website: http://blocksane.com
 shop: 
 country: SG
 price: 150USD
@@ -44,7 +44,7 @@ Information about Blocksane has been very sparse. Most of the information could 
 - The homepage for Blocksane is no longer online 
 - It does not have an active social media presence
 
-The [archived version](https://web.archive.org/web/20180806064756/http://blocksane.com/) of its website describes it as: 
+The [archived version](http://blocksane.com) of its website describes it as: 
 
 > BLOCKSANE PTE. LTD. provides wide range of blockchain-related services from security audit to hardware development. But, first of all, we are unique experts in information security with reach experience in this field. Originated from industrial security, our competences reach all branches of blockchain, providing enough skills for complex software development, security audit of smart contracts and web platforms, and even for specific hardware development.
 

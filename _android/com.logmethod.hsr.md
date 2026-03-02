@@ -10,7 +10,7 @@ released: 2022-02-18
 updated: 2022-02-18
 version: 1.0.3
 reviews: 
-website: https://www.halostar.org/
+website: https://www.halostar.org#deadLink
 repository: 
 issue: 
 icon: com.logmethod.hsr.png

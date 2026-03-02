@@ -10,7 +10,7 @@ released: 2021-07-01
 updated: 2021-07-08
 version: '4'
 reviews: 
-website: https://planetabank.com.br/
+website: https://planetabank.com.br#deadLink
 repository: 
 issue: 
 icon: com.gmail.planetabank1.myproject.jpg

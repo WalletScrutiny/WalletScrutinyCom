@@ -10,7 +10,7 @@ released: 2020-11-18
 updated: 2020-11-19
 version: 1.0.0
 reviews: 
-website: https://eizzybtc.com
+website: https://eizzybtc.com#deadLink
 repository: 
 issue: 
 icon: com.app.eizzybtc.png

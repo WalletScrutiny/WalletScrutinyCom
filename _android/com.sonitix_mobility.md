@@ -11,7 +11,7 @@ released: 2022-03-05
 updated: 2024-04-03
 version: 2.0.46
 reviews: 
-website: https://sonitixexchange.in/
+website: https://sonitixexchange.in#deadLink
 repository: 
 issue: 
 icon: com.sonitix_mobility.png

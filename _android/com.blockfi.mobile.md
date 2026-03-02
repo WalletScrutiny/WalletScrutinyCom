@@ -39,7 +39,7 @@ features:
 
 > BlockFi provides financial services to individuals and businesses worldwide and in all 50 U.S. states. Our offerings include interest-earning accounts, low-cost USD loans secured with crypto and fee-free trading.
 
-Its partner/custodian is Gemini. [More info](https://getstarted.gemini.com/gemini-blockfi/)
+Its partner/custodian is Gemini. [More info](https://getstarted.gemini.com/gemini-blockfi#deadLink)
 
 Link to BlockFi [Terms](https://blockfi.com/terms/)
 
@@ -51,7 +51,7 @@ Blockfi [Wallet Terms](https://blockfi.com/wallet-terms)
 
 > Our BlockFi Wallet is a non-interest-bearing crypto custody account that allows you to hold, transfer and manage your cryptocurrency held in your account
 
-More info on [Blockfi custodial services](https://help.blockfi.com/hc/en-us/articles/360048862572-How-does-BlockFi-custody-assets-What-are-the-risks-with-depositing-my-crypto-at-BlockFi-)
+More info on [Blockfi custodial services](https://help.blockfi.com/hc/en-us/articles/360048862572-How-does-BlockFi-custody-assets-What-are-the-risks-with-depositing-my-crypto-at-BlockFi-#deadLink)
 
 > In order to pay our clients crypto interest on a monthly basis and to meet withdrawal requests on a timely basis, we engage in a number of activities, including (1) keeping a material amount of digital assets available for withdrawal with third parties such as Gemini, BitGo, and Coinbase; (2) purchasing, as principal, SEC-regulated equities and predominately CFTC-regulated futures, and (3) applying risk management to the lending activities in the institutional market. The credit risks to these institutions are mitigated by credit due diligence and/or collateral (such as cash, crypto, or other assets). BlockFi also engages in a number of other revenue-generating activities that support its balance sheet and its payment of crypto interest.
 

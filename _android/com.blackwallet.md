@@ -10,7 +10,7 @@ released: 2022-11-29
 updated: 2023-05-02
 version: '1.1'
 reviews: 4
-website: https://blackproject.tech/
+website: https://blackproject.tech#deadLink
 repository: 
 issue: 
 icon: com.blackwallet.png

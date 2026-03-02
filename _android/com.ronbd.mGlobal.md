@@ -10,7 +10,7 @@ released: 2020-09-02
 updated: 2020-09-26
 version: 2.0.1
 reviews: 
-website: https://www.mineglobed.com
+website: https://www.mineglobed.com#deadLink
 repository: 
 issue: 
 icon: com.ronbd.mGlobal.png

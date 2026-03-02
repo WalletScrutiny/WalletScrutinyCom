@@ -42,6 +42,6 @@ This is the companion app to the {% include walletLink.html wallet='hardware/biz
 ## Analysis 
 
 - The app opened a browser with an error:
-  > Webpage not available. The webpage at https://kaiserwallet.aiser.io/index could not be loaded because: ERR_NAME_NOT_RESOLVED
+  > Webpage not available. The webpage at https://kaiserwallet.aiser.io/index#deadLink could not be loaded because: ERR_NAME_NOT_RESOLVED
 - Unfortunately, we could not find a web archive entry for this domain. 
 - Given that the hardware device is marked as vaporware, the companion app is **defunct**.

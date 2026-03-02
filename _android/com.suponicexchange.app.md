@@ -11,7 +11,7 @@ released: 2020-01-23
 updated: 2020-01-23
 version: '1.0'
 reviews: 2
-website: https://www.suponic.com
+website: https://www.suponic.com#deadLink
 repository: 
 issue: 
 icon: com.suponicexchange.app.png

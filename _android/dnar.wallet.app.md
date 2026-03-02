@@ -53,6 +53,6 @@ features:
 - The website for this app is giving off privacy warnings.
 - The app is geo-restricted so we could not test it.
 - The app's social media presence stopped posting in 2022.
-- The app's last archive was in [2022](https://web.archive.org/web/20220625034823/https://www.dnar.io/), and there were only 2 entries.
+- The app's last archive was in [2022](https://www.dnar.io), and there were only 2 entries.
 - It appears to be a service in Africa that allows the buying and selling of Bitcoin.
 - This service is **defunct** because of the reasons specified above.

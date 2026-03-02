@@ -10,7 +10,7 @@ released: 2019-08-20
 updated: 2019-09-09
 version: '1.3'
 reviews: 
-website: https://coinbims.com/
+website: https://coinbims.com#deadLink
 repository: 
 issue: 
 icon: com.exchange.coinbims.png

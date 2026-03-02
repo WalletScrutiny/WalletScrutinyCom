@@ -10,7 +10,7 @@ released: 2022-02-10
 updated: 2022-02-10
 version: 1.0.0
 reviews: 
-website: https://easycryptos.io/
+website: https://easycryptos.io#deadLink
 repository: 
 issue: 
 icon: pixel.websolutions.ecrytpos.easy_cryptos.png

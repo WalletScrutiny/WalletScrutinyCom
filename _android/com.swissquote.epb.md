@@ -10,7 +10,7 @@ released: 2019-03-29
 updated: 2021-10-25
 version: 1.1.1
 reviews: 
-website: https://www.swissquote.com/robo-advisory
+website: https://www.swissquote.com/robo-advisory#deadLink
 repository: 
 issue: 
 icon: com.swissquote.epb.jpg

@@ -11,7 +11,7 @@ released: 2020-11-18
 updated: 2020-11-19
 version: '1.0'
 reviews: 
-website: https://www.192trade.biz/
+website: https://www.192trade.biz#deadLink
 repository: 
 issue: 
 icon: com.mify.trading.jpg

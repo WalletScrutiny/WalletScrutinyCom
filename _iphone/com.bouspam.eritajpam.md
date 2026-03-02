@@ -11,7 +11,7 @@ released: 2022-03-29
 updated: 2025-08-20
 version: 2.4.7
 reviews: 1
-website: https://vcards.eritajpam.com/
+website: https://vcards.eritajpam.com#deadLink
 repository: 
 issue: 
 icon: com.bouspam.eritajpam.jpg

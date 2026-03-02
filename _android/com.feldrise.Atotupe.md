@@ -10,7 +10,7 @@ released:
 updated: 2018-09-04
 version: VARY
 reviews: 
-website: https://www.feldrise.com
+website: https://www.feldrise.com#deadLink
 repository: 
 issue: 
 icon: com.feldrise.Atotupe.png

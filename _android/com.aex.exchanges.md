@@ -23,9 +23,9 @@ date: 2024-07-22
 signer: 
 twitter: openex_hq
 social:
-- http://discord.gg/openex
+- http://discord.gg/openex#deadLink
 - https://t.me/OpenExGroup_EN
-- https://www.youtube.com/@OpenEx_EN
+- https://www.youtube.com/@OpenEx_EN#deadLink
 - https://medium.com/@OpenEx_HQ
 - https://www.linkedin.com/company/openex-hq
 redirect_from: 

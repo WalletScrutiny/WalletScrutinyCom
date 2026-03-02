@@ -10,7 +10,7 @@ released: 2021-08-16
 updated: 2022-05-19
 version: 1.0.4
 reviews: 
-website: https://absurdapps.netlify.app
+website: https://absurdapps.netlify.app#deadLink
 repository: 
 issue: 
 icon: com.mobuyg.nmx.png

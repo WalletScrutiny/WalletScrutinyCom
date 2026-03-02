@@ -33,7 +33,7 @@ features:
 ---
 
 **Update 2021-10-31**: Localbitcoins now officially
-[links to this app](https://blog.localbitcoins.com/localbitcoins-launches-new-mobile-app-216f9d81fea8).
+[links to this app](https://blog.localbitcoins.com/localbitcoins-launches-new-mobile-app-216f9d81fea8#deadLink).
 
 **UPDATE 2021-10-25**:
 

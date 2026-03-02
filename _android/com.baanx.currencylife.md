@@ -10,7 +10,7 @@ released: 2020-02-06
 updated: 2021-02-26
 version: 1.4.0
 reviews: 
-website: https://www.currencylifecard.com/
+website: https://www.currencylifecard.com#deadLink
 repository: 
 issue: 
 icon: com.baanx.currencylife.png

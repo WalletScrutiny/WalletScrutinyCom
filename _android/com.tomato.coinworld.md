@@ -10,7 +10,7 @@ released: 2019-09-19
 updated: 2022-05-04
 version: '3.2'
 reviews: 
-website: http://swmakekr.com/html/index.html
+website: http://swmakekr.com/html/index.html#deadLink
 repository: 
 issue: 
 icon: com.tomato.coinworld.png

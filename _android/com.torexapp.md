@@ -37,7 +37,7 @@ features:
 ## Analysis
 
 - The website is no longer online 
-- [Archives](https://web.archive.org/web/20210801063139/https://torex.one/)
+- [Archives](https://torex.one)
 - The app was last updated in 2020 
 - When we tried to register it gave an error: 
 

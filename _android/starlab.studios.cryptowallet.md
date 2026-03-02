@@ -11,7 +11,7 @@ released: 2021-06-01
 updated: 2024-01-30
 version: '10.0'
 reviews: 
-website: https://starlabstudiosapps.xyz/
+website: https://web.archive.org/web/20250216120614/https://starlabstudiosapps.xyz/
 repository: 
 issue: 
 icon: starlab.studios.cryptowallet.png

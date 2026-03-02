@@ -10,7 +10,7 @@ released: 2022-09-30
 updated: 2022-11-21
 version: 1.2.5
 reviews: 
-website: https://monifiex.com/
+website: https://monifiex.com#deadLink
 repository: 
 issue: 
 icon: com.monifiex.png

@@ -25,7 +25,7 @@ twitter: ivendpay
 social:
 - https://www.linkedin.com/company/ivendpay
 - https://www.instagram.com/ivendpay_company
-- https://www.youtube.com/@ivendpay_company
+- https://www.youtube.com/@ivendpay_company#deadLink
 redirect_from: 
 developerName: IVENDPAY
 builds: 

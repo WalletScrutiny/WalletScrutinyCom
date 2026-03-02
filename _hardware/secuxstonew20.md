@@ -86,7 +86,7 @@ The device can be paired with a mobile phone app via Bluetooth:
 
 ## Private keys can be created offline - ✔️
 
-From the [SecuX manual](https://secuxtech.com/secuxtech-download/User-Manual/SecuX-User-Manual-2020.pdf)
+From the [SecuX manual](https://secuxtech.com/secuxtech-download/User-Manual/SecuX-User-Manual-2020.pdf#deadLink)
 
 > 2. Device Initialization
 When the device leaves the factory, there is no private key pre-set in the device. You will be asked to generate your own unique private key or restore an existing private key (using recovery words) during device initialization.

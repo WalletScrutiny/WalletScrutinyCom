@@ -11,7 +11,7 @@ released: 2019-09-19
 updated: 2023-06-21
 version: 2.6.6
 reviews: 
-website: https://www.paybank.com
+website: https://www.paybank.com#deadLink
 repository: 
 issue: 
 icon: com.ffk.paybank.png

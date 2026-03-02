@@ -11,7 +11,7 @@ released: 2019-11-16
 updated: 2022-04-29
 version: '1.35'
 reviews: 1228
-website: https://www.gokumarket.com
+website: https://www.gokumarket.com#deadLink
 repository: 
 issue: 
 icon: com.gokumarket.png
@@ -44,6 +44,6 @@ GokuMarket is a European-licensed and one of the best cryptocurrency exchanges, 
 
 We installed the app and registered with the service. The app is a multi-currency wallet that has BTC support. There were no options to back up the private keys. 
 
-There are also KYC/AML provisions in the [Terms and Conditions](https://support.gokumarket.com/hc/en-us/articles/360060566114-GokuMarket-Terms-and-Conditions).
+There are also KYC/AML provisions in the [Terms and Conditions](https://support.gokumarket.com/hc/en-us/articles/360060566114-GokuMarket-Terms-and-Conditions#deadLink).
 
 This app is a **custodial** service.

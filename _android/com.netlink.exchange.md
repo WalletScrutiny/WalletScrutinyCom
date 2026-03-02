@@ -10,7 +10,7 @@ released: 2019-08-27
 updated: 2019-08-27
 version: 1.0.0
 reviews: 
-website: http://netlink.exchange
+website: http://netlink.exchange#deadLink
 repository: 
 issue: 
 icon: com.netlink.exchange.png

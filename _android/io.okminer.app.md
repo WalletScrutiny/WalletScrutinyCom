@@ -11,7 +11,7 @@ released: 2021-06-27
 updated: 2021-10-13
 version: 1.2.8
 reviews: 117
-website: https://www.okminer.io/
+website: https://www.okminer.io#deadLink
 repository: 
 issue: 
 icon: io.okminer.app.png

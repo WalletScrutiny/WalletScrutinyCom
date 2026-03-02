@@ -10,7 +10,7 @@ released: 2022-10-20
 updated: 2022-11-28
 version: 1.0.1
 reviews: 
-website: https://pailycrypto.com/
+website: https://pailycrypto.com#deadLink
 repository: 
 issue: 
 icon: com.paily.wallet.png

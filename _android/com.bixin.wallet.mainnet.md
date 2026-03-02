@@ -14,7 +14,7 @@ version: 2.12.3
 reviews: 10
 website: https://onekey.so
 repository: 
-issue: https://github.com/OneKeyHQ/android_app/issues/1
+issue: https://github.com/OneKeyHQ/android_app/issues/1#deadLink
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
 meta: removed
@@ -50,9 +50,9 @@ This app is the companion app of {% include walletLink.html wallet='hardware/one
 
 ## The Site
 
-[Article: What is the private key?](https://help.onekey.so/hc/en-us/articles/360001992896-What-is-the-private-key-)
+[Article: What is the private key?](https://help.onekey.so/hc/en-us/articles/360001992896-What-is-the-private-key-#deadLink)
 
-[Article: What if OneKey goes out of business?](https://help.onekey.so/hc/en-us/articles/360002092496-What-if-OneKey-goes-out-of-business-)
+[Article: What if OneKey goes out of business?](https://help.onekey.so/hc/en-us/articles/360002092496-What-if-OneKey-goes-out-of-business-#deadLink)
 
 > First and foremost, OneKey aspires to be a 100-year corporation!
 >

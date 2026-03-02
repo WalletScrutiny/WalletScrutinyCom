@@ -10,7 +10,7 @@ released: 2022-07-26
 updated: 2023-08-23
 version: '16'
 reviews: 
-website: https://arducrypto.com
+website: https://arducrypto.com#deadLink
 repository: 
 issue: 
 icon: com.arduprime.arducrypto.png

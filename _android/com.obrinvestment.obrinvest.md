@@ -11,7 +11,7 @@ released:
 updated: 2024-07-02
 version: 2.7.1
 reviews: 
-website: https://www.obrinvest.com
+website: https://www.obrinvest.com#deadLink
 repository: 
 issue: 
 icon: com.obrinvestment.obrinvest.png
@@ -38,7 +38,7 @@ This is an exchange with the ability to trade cryptocurrency CFDs.
 
 ## Analysis 
 
-As stated in their [guide:](https://www.obrinvest.com/eu/faqs/withdrawal/#q05) 
+As stated in their [guide:](https://www.obrinvest.com/eu/faqs/withdrawal/#q05&deadLink) 
 
 > In order to deposit, log in to your account, and then click on Deposit button. Here are multiple deposit methods you can choose from. You can deposit using one of the following methods:
 - Credit Card

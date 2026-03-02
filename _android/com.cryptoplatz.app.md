@@ -10,7 +10,7 @@ released:
 updated: 2022-10-05
 version: 1.0.0
 reviews: 
-website: https://www.cryptoplatz.ch
+website: https://www.cryptoplatz.ch#deadLink
 repository: 
 issue: 
 icon: com.cryptoplatz.app.png

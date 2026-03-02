@@ -11,7 +11,7 @@ released: 2019-09-06
 updated: 2026-01-30
 version: 3.0.47
 reviews: 1
-website: https://teroxxapp.com/
+website: https://teroxxapp.com#deadLink
 repository: 
 issue: 
 icon: Teroxx.jpg

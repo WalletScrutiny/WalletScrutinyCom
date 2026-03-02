@@ -41,7 +41,7 @@ This is a cryptocurrency trading platform.
 
 ## Analysis 
 
-Like most cryptocurrency exchange apps, they do have a [terms and conditions](https://bytedex.io/en/user-agreements/) page. Section 3.21 states:
+Like most cryptocurrency exchange apps, they do have a [terms and conditions](https://bytedex.io/en/user-agreements#deadLink) page. Section 3.21 states:
 
 > 3.21. Bytedex is obliged to exercise the utmost care as a prudent trader for the security of cryptocurrencies in accounts held on behalf of Users. Users’ cryptocurrencies are stored in cold storage (cold storage) without an internet connection against any cyber-attack. However, despite all these efforts of Bytedex, Bytedex cannot be held responsible for any theft/fraud that may still occur.
 

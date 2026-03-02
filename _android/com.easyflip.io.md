@@ -10,7 +10,7 @@ released: 2022-07-11
 updated: 2022-12-04
 version: 1.0.1
 reviews: 
-website: https://easyflip.io
+website: https://easyflip.io#deadLink
 repository: 
 issue: 
 icon: com.easyflip.io.png

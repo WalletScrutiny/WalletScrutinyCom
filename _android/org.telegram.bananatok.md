@@ -47,7 +47,7 @@ One of the company's [Medium articles](https://medium.com/bananatok/the-introduc
 
 There's no information on private keys or custody.
 
-In Chapter 4 of the [Terms of Use](https://www.bananatok.com/terms/terms-use) article, it states that Bananatok can restrict a user's access to the services:
+In Chapter 4 of the [Terms of Use](https://web.archive.org/web/20230627095855/https://www.bananatok.com/terms/terms-use) article, it states that Bananatok can restrict a user's access to the services:
 
 > If the use and conduct of this site falls under each of the following clauses, the company may restrict the use of the user.
 1. In case of harming public order, public morals, or other social order

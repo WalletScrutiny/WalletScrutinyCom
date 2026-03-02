@@ -11,7 +11,7 @@ released: 2018-07-16
 updated: 2020-01-02
 version: '3.2'
 reviews: 
-website: https://e-mal.ae/
+website: https://e-mal.ae#deadLink
 repository: 
 issue: 
 icon: ae.efatoora.emal.png
@@ -41,7 +41,7 @@ features:
 
 - We installed the app and tried registering, but the app kept returning an error: "Please check network"
 - When we tried to tap the Terms and Conditions during registration, it returned: "Webpage not available"
-> The webpage at https://apiv2.e-mal.ae/PageContents/contentApi/terms-of-use/en could not be loaded because:
+> The webpage at https://apiv2.e-mal.ae/PageContents/contentApi/terms-of-use/en#deadLink could not be loaded because:
 >
 > "net::ERR_NAME_NOT_RESOLVED"
 

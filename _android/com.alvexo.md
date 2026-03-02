@@ -11,7 +11,7 @@ released: 2018-07-13
 updated: 2023-11-07
 version: 3.0.188
 reviews: 21
-website: https://www.alvexo.com
+website: https://www.alvexo.com#deadLink
 repository: 
 issue: 
 icon: com.alvexo.png
@@ -35,7 +35,7 @@ As this is a CFD, stocks, indices, commodities and forex trading app, we can ass
 
 CFDs or Contract for Differences only allows for speculation on an asset without actually holding the asset. 
 
-This is proven in Section 46.1 of its [Terms and Conditions](https://www.alvexo.com/documents/hsn/footer/hsn_capital_group_terms_and_conditions_31.03.2020.docx.pdf?ver=0.1631263857)
+This is proven in Section 46.1 of its [Terms and Conditions](https://www.alvexo.com/documents/hsn/footer/hsn_capital_group_terms_and_conditions_31.03.2020.docx.pdf?ver=0.1631263857#deadLink)
 
 > The  Company  may,  at  its  sole  discretion  offer  CFDs  on  cryptocurrencies for  trading  on  its  Online Trading  Facility,  from  time  to  time.  
 

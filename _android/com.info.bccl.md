@@ -10,7 +10,7 @@ released: 2022-07-22
 updated: 2022-07-22
 version: '1.0'
 reviews: 
-website: https://www.botcoinloan.blissinfosys.com/
+website: https://www.botcoinloan.blissinfosys.com#deadLink
 repository: 
 issue: 
 icon: com.info.bccl.png

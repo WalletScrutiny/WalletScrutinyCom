@@ -12,7 +12,7 @@ updated: 2022-06-28
 version: 1.1.1
 reviews: 
 website: 
-repository: https://github.com/META-1-Official/litewallet-native
+repository: https://github.com/META-1-Official/litewallet-native#deadLink
 issue: 
 icon: com.litewallet.app.png
 bugbounty: 
@@ -31,7 +31,7 @@ features:
 ---
 
 **Update 2024-06-7**: 
-We have already addressed an issue with the developers regarding the challenges faced during the application development process. You can view the details of this conversation here: [https://github.com/META-1-Official/litewallet-native/issues/95](https://github.com/META-1-Official/litewallet-native/issues/95).
+We have already addressed an issue with the developers regarding the challenges faced during the application development process. You can view the details of this conversation here: [https://github.com/META-1-Official/litewallet-native/issues/95#deadLink](https://github.com/META-1-Official/litewallet-native/issues/95#deadLink).
 
 Numerous 'litewallets' are accessible online, yet none explicitly pertain to this application.
 

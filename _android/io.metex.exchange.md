@@ -10,7 +10,7 @@ released: 2019-10-24
 updated: 2019-11-07
 version: 0.0.3
 reviews: 
-website: https://msc.exchange
+website: https://msc.exchange#deadLink
 repository: 
 issue: 
 icon: io.metex.exchange.png

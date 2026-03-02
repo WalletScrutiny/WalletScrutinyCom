@@ -11,7 +11,7 @@ released: 2022-03-28
 updated: 2023-02-13
 version: 1.1.3
 reviews: 
-website: https://web.excoin.cloud/
+website: https://web.excoin.cloud#deadLink
 repository: 
 issue: 
 icon: app.excointrades.com.jpg
@@ -36,7 +36,7 @@ features:
 
 The app allows for "Put" or "Call" options on the price movement of BTC/USD. It is unlike other mainstream cryptocurrency trading apps because there is an element that makes the user guess whether the price of Bitcoin will go up or down. 
 
-### [Terms of Use](https://m.excoin.cloud/terms)
+### [Terms of Use](https://m.excoin.cloud/terms#deadLink)
 
 ### Termination Clause
 

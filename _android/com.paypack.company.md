@@ -10,7 +10,7 @@ released: 2021-01-04
 updated: 2021-02-04
 version: '1.5'
 reviews: 
-website: https://paypack.company/
+website: https://paypack.company#deadLink
 repository: 
 issue: 
 icon: com.paypack.company.png

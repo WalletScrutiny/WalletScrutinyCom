@@ -11,7 +11,7 @@ released: 2017-05-15
 updated: 2022-02-08
 version: '1.34'
 reviews: 29
-website: https://stex.com
+website: https://stex.com#deadLink
 repository: 
 issue: 
 icon: com.app.Stocks-exchanges.jpg

@@ -10,7 +10,7 @@ released: 2019-12-01
 updated: 2020-07-13
 version: 2.0.21
 reviews: 
-website: https://openturnkey.com/
+website: https://openturnkey.com#deadLink
 repository: 
 issue: 
 icon: com.cyphereco.openturnkey.png

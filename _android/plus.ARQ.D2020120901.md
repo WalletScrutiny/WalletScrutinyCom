@@ -10,7 +10,7 @@ released: 2020-12-09
 updated: 2021-01-06
 version: '2021010601'
 reviews: 
-website: https://www.arq.link/
+website: https://www.arq.link#deadLink
 repository: 
 issue: 
 icon: plus.ARQ.D2020120901.png

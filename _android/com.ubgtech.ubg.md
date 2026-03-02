@@ -10,7 +10,7 @@ released: 2022-02-27
 updated: 2021-11-01
 version: 1.0.1
 reviews: 
-website: https://ubgtech.my/
+website: https://ubgtech.my#deadLink
 repository: 
 issue: 
 icon: com.ubgtech.ubg.png

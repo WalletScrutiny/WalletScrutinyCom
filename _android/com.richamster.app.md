@@ -38,7 +38,7 @@ features:
 >
 > Deposit as well as withdraw coins from the application itself in much more convenient manner using QR codes and other cutting edge tech.
 
-## [FAQs](https://richamster.com/en/faq/)
+## [FAQs](https://richamster.com/en/faq#deadLink)
 
 > At the moment, the output algorithm is finalized - now you can withdraw money even faster. An exception can only be a large sum, since it undergoes additional checks - this is a necessary procedure to counteract attempts at unauthorized intervention and to save funds from theft. Between security and speed, we prefer security
 

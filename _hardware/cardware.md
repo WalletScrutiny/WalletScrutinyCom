@@ -31,7 +31,7 @@ signer:
 twitter: CardwareWallet
 social:
 - https://t.me/cardwarewallet
-- https://discord.com/invite/dgDXR85CXB
+- https://discord.com/invite/dgDXR85CXB#deadLink
 - https://www.linkedin.com/company/cardware-wallet
 builds: 
 features: 

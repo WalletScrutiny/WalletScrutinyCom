@@ -10,7 +10,7 @@ released: 2022-07-22
 updated: 2022-07-22
 version: 2.0.0
 reviews: 
-website: https://hyperbot.solutions/
+website: https://hyperbot.solutions#deadLink
 repository: 
 issue: 
 icon: com.hyperbot.qwcodes.png

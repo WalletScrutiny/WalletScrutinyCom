@@ -11,7 +11,7 @@ released: 2024-07-10
 updated: 2025-09-05
 version: 1.0.0
 reviews: 5
-website: https://www.cextor.com
+website: https://www.cextor.com#deadLink
 repository: 
 issue: 
 icon: com.cextor.pro.png

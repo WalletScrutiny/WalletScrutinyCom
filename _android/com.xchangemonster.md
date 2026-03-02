@@ -11,7 +11,7 @@ released: 2022-05-04
 updated: 2022-08-24
 version: '1.7'
 reviews: 
-website: https://prod.xchangemonster.com/
+website: https://prod.xchangemonster.com#deadLink
 repository: 
 issue: 
 icon: com.xchangemonster.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Spatium
 providerWebsite: 
-website: https://spatium.net/
+website: https://web.archive.org/web/20250404155959/https://www.spatium.net/
 shop: 
 country: 
 price: 
@@ -34,11 +34,11 @@ features:
 
 ## Background
 
-[Spatium](https://spatium.net/) advertises this product as a keyless wallet, claiming that their *"proprietary Multi-Party computation protocol eliminates the need for private keys, removes the single point of failure, separating control over the funds from the responsibility for security."* The private key is replaced with a set of secrets distributed between the gadgets or devices stored on behalf of chosen institutions or people.
+[Spatium](https://web.archive.org/web/20250404155959/https://www.spatium.net/) advertises this product as a keyless wallet, claiming that their *"proprietary Multi-Party computation protocol eliminates the need for private keys, removes the single point of failure, separating control over the funds from the responsibility for security."* The private key is replaced with a set of secrets distributed between the gadgets or devices stored on behalf of chosen institutions or people.
 
 {% include walletLink.html wallet='android/capital.spatium.wallet' verdict='true' %} is the companion app to this wallet on android.
 
-[Here is a video](https://www.youtube.com/watch?v=KxoodUihso0) demonstrating a prototype. **Note that the device in the video is different from the device's picture on their website**. The wallet has a screen display as well as a "button" for confirming transactions.
+[Here is a video](https://www.youtube.com/watch?v=KxoodUihso0#deadLink) demonstrating a prototype. **Note that the device in the video is different from the device's picture on their website**. The wallet has a screen display as well as a "button" for confirming transactions.
 
 [Spatium's Medium article](https://medium.com/spatium-blog/promising-devices-in-crypto-world-our-cold-wallet-will-cater-to-all-your-wishes-61a2a926247) features more information about the product:
 

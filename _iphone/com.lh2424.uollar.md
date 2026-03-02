@@ -11,7 +11,7 @@ released: 2022-03-31
 updated: 2023-01-13
 version: 2.4.40
 reviews: 1
-website: http://uollar.io/policy
+website: https://web.archive.org/web/20220624213527/http://uollar.io/policy
 repository: 
 issue: 
 icon: com.lh2424.uollar.jpg

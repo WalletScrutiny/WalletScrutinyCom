@@ -10,7 +10,7 @@ released: 2022-10-23
 updated: 2022-10-23
 version: 1.0.0
 reviews: 
-website: https://p2p.hovii.app/
+website: https://p2p.hovii.app#deadLink
 repository: 
 issue: 
 icon: app.hovii.p2p.png

@@ -55,7 +55,7 @@ There are currently 4 blockbank apps on WalletScrutiny and still available on Go
 - {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %} (This one)
 - {% include walletLink.html wallet='iphone/ai.blockbank.blockbankv2' verdict='true' %}
 
-This is addressed in the [FAQ](https://blockbank.ai/faq/), with the following information on how to migrate 1 to V2: 
+This is addressed in the [FAQ](https://blockbank.ai/faq#deadLink), with the following information on how to migrate 1 to V2: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1IySkOTIjwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -106,7 +106,7 @@ As two possible verdicts are present, we are choosing the verdict that warns the
 
 The blockbank app purportedly provides both custodial and self-custodial services. You can create or import your own wallet right away while the option for centralized finance requires KYC / AML verification. 
 
-Although images of the app on Google Play and the [official website](https://blockbank.ai/) showed that Bitcoin was a supported asset, when we installed the app we did not see the option to withdraw or deposit BTC.
+Although images of the app on Google Play and the [official website](https://web.archive.org/web/20240713055326/https://blockbank.ai/) showed that Bitcoin was a supported asset, when we installed the app we did not see the option to withdraw or deposit BTC.
 We could not find information on whether the app's source code was available for review. Because this app has custodial and self-custodial wallets, and neither of which can be considered verifiable, we conclude our analysis of the product here.
 
 Verdict: **Not verifiable,** no source available for review.

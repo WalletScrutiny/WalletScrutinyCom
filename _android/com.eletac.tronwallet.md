@@ -11,7 +11,7 @@ released: 2018-05-13
 updated: 2023-03-07
 version: 2.4.56
 reviews: 112
-website: https://vision-crypto.com/
+website: https://vision-crypto.com#deadLink
 repository: 
 issue: 
 icon: com.eletac.tronwallet.png

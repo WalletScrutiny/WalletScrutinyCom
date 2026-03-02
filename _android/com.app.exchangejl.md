@@ -11,7 +11,7 @@ released: 2022-03-29
 updated: 2023-05-22
 version: 1.5.0
 reviews: 
-website: https://www.krypterz.com
+website: https://www.krypterz.com#deadLink
 repository: 
 issue: 
 icon: com.app.exchangejl.jpg

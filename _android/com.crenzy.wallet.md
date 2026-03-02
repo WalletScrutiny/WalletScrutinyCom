@@ -10,7 +10,7 @@ released: 2020-04-25
 updated: 2020-05-14
 version: 1.0.1
 reviews: 
-website: http://www.crenzy.com
+website: http://www.crenzy.com#deadLink
 repository: 
 issue: 
 icon: com.crenzy.wallet.png

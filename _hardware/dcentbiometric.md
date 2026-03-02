@@ -78,7 +78,7 @@ The device can connect via BlueTooth or USB to an Android or iOS app by the same
 
 The device has a  1.1 inch OLED display (128x128 pixels)
 
-Watch [third party unboxing and setup video](https://www.youtube.com/watch?v=3J9j7vtb1Go)
+Watch [third party unboxing and setup video](https://www.youtube.com/watch?v=3J9j7vtb1Go#deadLink)
 
 ## Interface - ✔️
 

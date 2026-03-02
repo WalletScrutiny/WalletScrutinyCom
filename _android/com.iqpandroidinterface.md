@@ -12,7 +12,7 @@ released: 2021-10-01
 updated: 2021-10-13
 version: '1.2'
 reviews: 186
-website: https://iqwallet.io/
+website: https://iqwallet.io#deadLink
 repository: 
 issue: 
 icon: com.iqpandroidinterface.png

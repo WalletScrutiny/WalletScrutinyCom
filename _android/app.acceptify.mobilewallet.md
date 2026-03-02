@@ -10,7 +10,7 @@ released: 2021-02-17
 updated: 2021-03-11
 version: 0.0.4
 reviews: 
-website: https://acceptify.io
+website: https://acceptify.io#deadLink
 repository: 
 issue: 
 icon: app.acceptify.mobilewallet.png

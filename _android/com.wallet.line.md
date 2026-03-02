@@ -11,7 +11,7 @@ released: 2022-03-31
 updated: 2023-01-12
 version: 12.0.0
 reviews: 
-website: https://linechain.io/
+website: https://linechain.io#deadLink
 repository: 
 issue: 
 icon: com.wallet.line.png

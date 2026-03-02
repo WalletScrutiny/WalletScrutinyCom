@@ -11,7 +11,7 @@ released: 2021-11-08
 updated: 2023-04-05
 version: 3.23.0
 reviews: 0
-website: https://www.aximetria.com/help
+website: https://www.aximetria.com/help#deadLink
 repository: 
 issue: 
 icon: com.aximetria.prod.jpg

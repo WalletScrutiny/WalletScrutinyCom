@@ -27,7 +27,7 @@ social:
 - https://medium.com/@privappnetwork
 - https://www.linkedin.com/company/privapp-network
 - https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
-- https://discord.com/invite/fepCFhdWeD
+- https://web.archive.org/web/20250303181124/https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
 redirect_from: 
 developerName: Privapp Network
@@ -45,5 +45,5 @@ features:
 - We were given the option to create or import a wallet during startup. Choosing 'create' a wallet, shows the seed phrases to the user.
 - A Bech32 BTC address is available for receiving or sending.
 - There were no claims regarding source-availability.
-- We searched for the app ID in GitHub Code, and yielded [0 results.](https://github.com/search?q=network.privapp.wallet&type=code). The organization's [GitHub account](https://github.com/PrivappNetwork) is linked from the website, however it only has 2 repositories that do not identify as the Android app.
+- We searched for the app ID in GitHub Code, and yielded [0 results.](https://github.com/search?q=network.privapp.wallet&type=code). The organization's [GitHub account](https://web.archive.org/web/20230325202956/https://github.com/PrivappNetwork) is linked from the website, however it only has 2 repositories that do not identify as the Android app.
 - This app is **not source-available.**

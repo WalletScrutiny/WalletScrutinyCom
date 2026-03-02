@@ -10,7 +10,7 @@ released: 2022-01-28
 updated: 2022-06-22
 version: 1.5.5
 reviews: 
-website: https://subzeropay.com/
+website: https://subzeropay.com#deadLink
 repository: 
 issue: 
 icon: com.benco.subzero.png

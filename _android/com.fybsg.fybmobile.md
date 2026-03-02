@@ -10,7 +10,7 @@ released: 2018-07-05
 updated: 2018-11-19
 version: 0.5 BETA
 reviews: 
-website: https://www.fybsg.com
+website: https://www.fybsg.com#deadLink
 repository: 
 issue: 
 icon: com.fybsg.fybmobile.png

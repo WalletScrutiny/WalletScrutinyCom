@@ -36,5 +36,5 @@ features:
 
 ## Analysis 
 
-- Arbi notes in its [terms](https://arbismart.com/terms-and-conditions/) that it utilizes both hot and cold wallets to store user's funds. It has the **private keys under its control**. 
+- Arbi notes in its [terms](https://arbismart.com/terms-and-conditions#deadLink) that it utilizes both hot and cold wallets to store user's funds. It has the **private keys under its control**. 
 - This explicitly informs us that the provider is *custodial*, and the app is **non-verifiable**.

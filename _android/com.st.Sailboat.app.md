@@ -10,7 +10,7 @@ released: 2022-03-16
 updated: 2022-03-24
 version: '1.1'
 reviews: 
-website: https://apper.cc/privacy
+website: https://apper.cc/privacy#deadLink
 repository: 
 issue: 
 icon: com.st.Sailboat.app.png

@@ -10,7 +10,7 @@ released: 2020-07-06
 updated: 2020-11-06
 version: '1.12'
 reviews: 
-website: http://www.eccu.xyz
+website: http://www.eccu.xyz#deadLink
 repository: 
 issue: 
 icon: com.eccu.png

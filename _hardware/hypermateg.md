@@ -55,7 +55,7 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
  
  > Receiving payments can be done offline without connecting your HyperMate mobile application. Press “up” and “OK” together to enter the menu and select “My Address” and mainnet to find your receive address, and you can press “down” to display the QR code of your address.
  
- It also shows [a picture](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409734271759/mceclip0.jpg) of the receive address on this wallet's screen.
+ It also shows [a picture](https://hyperpayhelp.zendesk.com/hc/article_attachments/4409734271759/mceclip0.jpg#deadLink) of the receive address on this wallet's screen.
  
  ## Code and Reproducibility
 

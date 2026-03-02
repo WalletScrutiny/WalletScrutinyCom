@@ -48,7 +48,7 @@ and called a "wallet".
 
 (On another historical note, Brian Armstrong, a co-founder of Coinbase did release
 an [actual Bitcoin Wallet](https://github.com/barmstrong/bitcoin-android) back
-[in June 2011](https://thenextweb.com/mobile/2011/07/06/bitcoin-payments-go-mobile-with-bitcoin-for-android/).
+[in June 2011](https://thenextweb.com/mobile/2011/07/06/bitcoin-payments-go-mobile-with-bitcoin-for-android#deadLink).
 It was open source and downloaded the full blockchain to your phone.)
 
 As the wallet setup does not involve a way to backup private keys, we assume those

@@ -41,7 +41,7 @@ features:
 ### Documents
 
 - [Syfe Cryptocurrency Risk Disclosures](https://www.syfe.com/static/docs/CryptoRiskDisclosures.pdf)
-- [Syfe Cryptocurrency Trading Services](https://www.syfe.com/nextstatic/doc/legal/cryptocurrency_trading_services_terms.pdf)
+- [Syfe Cryptocurrency Trading Services](https://www.syfe.com/nextstatic/doc/legal/cryptocurrency_trading_services_terms.pdf#deadLink)
 - [Syfe Alpaca Cryptocurrency Customer Agreement](https://www.syfe.com/static/docs/Crypto_Customer_Agreement_Jun_22.pdf)
 
 ## Analysis
@@ -56,7 +56,7 @@ features:
 ## Conclusion
 
 - We would have labeled this as custodial, however the documentation proves that the app does not allow the withdrawal or deposit of Bitcoin. There is no indication that the cryptocurrencies traded are in the form of CFDs.
-- According to the [Cryptocurrency Trading Services Terms document](https://www.syfe.com/nextstatic/doc/legal/cryptocurrency_trading_services_terms.pdf), this is how it works:
+- According to the [Cryptocurrency Trading Services Terms document](https://www.syfe.com/nextstatic/doc/legal/cryptocurrency_trading_services_terms.pdf#deadLink), this is how it works:
   > The Cryptocurrency Trading Services provides you with access to cryptocurrency assets by allowing you to place Instructions through our Platform to have cryptocurrency bought and sold on your behalf through the Crypto Broker.
   >
   > 4.2 By registering to use the Cryptocurrency Trading Services and agreeing to these Terms, you authorise Syfe to act as your agent to buy or sell cryptocurrency on your behalf with the Crypto Broker. 

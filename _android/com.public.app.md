@@ -50,6 +50,6 @@ features:
 - Deposits can only be in [fiat currency](https://help.public.com/en/articles/5222146-how-can-i-fund-my-account)
 - In order to [withdraw](https://help.public.com/en/articles/5789982-when-can-i-withdraw-my-crypto), users have to sell their holdings. They can only withdraw fiat money.
 - It is possible to [buy/sell cryptocurrencies](https://help.public.com/en/articles/5569421-how-to-buy-crypto?q=bitcoin), including Bitcoin.
-- [List of coins](https://help.public.com/en/articles/8018155-bakkt-crypto-is-removing-support-for-certain-coins-in-june-2023) available to buy/sell.
+- [List of coins](https://help.public.com/en/articles/8018155-bakkt-crypto-is-removing-support-for-certain-coins-in-june-2023#deadLink) available to buy/sell.
 - This is similar to CFD platforms that allow users to buy or sell cryptocurrencies, but does not allow users to send/receive. 
 - This type of custodial provider **does not allow users to send or receive** coins.

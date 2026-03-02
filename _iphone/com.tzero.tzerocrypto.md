@@ -11,7 +11,7 @@ released: 2019-06-28
 updated: 2022-11-29
 version: 2.0.20
 reviews: 724
-website: https://www.tzero.com/crypto-app
+website: https://www.tzero.com/crypto-app#deadLink
 repository: 
 issue: 
 icon: com.tzero.tzerocrypto.jpg

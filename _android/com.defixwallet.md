@@ -10,7 +10,7 @@ released: 2021-09-22
 updated: 2022-12-12
 version: '2.1'
 reviews: 
-website: https://www.defixwallet.io
+website: https://www.defixwallet.io#deadLink
 repository: 
 issue: 
 icon: com.defixwallet.jpg

@@ -10,7 +10,7 @@ released: 2021-08-18
 updated: 2021-11-18
 version: 1.2.4
 reviews: 
-website: https://naryex.com
+website: https://naryex.com#deadLink
 repository: 
 issue: 
 icon: com.naryex.png

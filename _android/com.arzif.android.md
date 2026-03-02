@@ -44,7 +44,7 @@ We downloaded the app and it is in Persian. We were not able to register because
 
 ### The Site
 
-Most Iranian bitcoin sites have buy, send, and receive functions. These are often centralized, regulated as indicated by their [terms and conditions](https://arzif.com/terms-and-conditions) and complies with the civil code of Iran regarding contractual agreements between service providers and users.
+Most Iranian bitcoin sites have buy, send, and receive functions. These are often centralized, regulated as indicated by their [terms and conditions](https://arzif.com/terms-and-conditions#deadLink) and complies with the civil code of Iran regarding contractual agreements between service providers and users.
 
 >This contract is based on Article 10 of the Civil Code of the Islamic Republic of Iran, and in compliance with all laws and regulations of the Islamic Republic of Iran in general and the Electronic Commerce Law approved in 2003 and the relevant regulations and the Computer Crimes Law in particular,
 

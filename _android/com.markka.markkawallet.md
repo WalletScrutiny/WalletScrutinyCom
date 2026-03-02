@@ -10,7 +10,7 @@ released: 2022-02-06
 updated: 2025-02-07
 version: 2.5.1
 reviews: 
-website: https://markka.com
+website: https://markka.com#deadLink
 repository: 
 issue: 
 icon: com.markka.markkawallet.png

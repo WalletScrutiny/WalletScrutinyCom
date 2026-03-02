@@ -11,7 +11,7 @@ released: 2020-11-10
 updated: 2021-04-14
 version: 0.01.18
 reviews: 
-website: https://www.azara.ai
+website: https://www.azara.ai#deadLink
 repository: 
 issue: 
 icon: ai.azara.wallet.png
@@ -43,7 +43,7 @@ So it is a wallet for Bitcoin but is it self-custodial? On Security they say:
 
 which doesn't say much.
 
-On their [FAQ](https://www.azara.ai/en/faq) we read:
+On their [FAQ](https://www.azara.ai/en/faq#deadLink) we read:
 
 > *Can I use Azara Wallet without the app?*<br>
   ﻿Sure. You need to go to the azara.ai website, enter your credentials or

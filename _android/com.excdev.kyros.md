@@ -11,7 +11,7 @@ released: 2020-09-02
 updated: 2022-02-07
 version: 3.2.0
 reviews: 
-website: https://kyros.team/
+website: https://kyros.team#deadLink
 repository: 
 issue: 
 icon: com.excdev.kyros.png
@@ -41,7 +41,7 @@ features:
 ## Analysis 
 
 - The listed website is not online 
-- The last archive [entry](https://web.archive.org/web/20220401000000*/https://kyros.team/) on archive.org was made in 2022
+- The last archive [entry](https://web.archive.org/web/20220401000000*/https://kyros.team#deadLink) on archive.org was made in 2022
 - We tested the app in a BlueStacks 5 Android Nougat and the app wouldn't open 
 - We tested the app in BlueStacks 5 Android Pie and we were succesful. 
 - We found a BTC wallet that can send and receive. 

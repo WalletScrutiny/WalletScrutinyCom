@@ -11,7 +11,7 @@ released: 2022-12-30
 updated: 2023-01-17
 version: 5.6.5
 reviews: 
-website: https://www.mt-bitt.com/en_US/
+website: https://www.mt-bitt.com/en_US#deadLink
 repository: 
 issue: 
 icon: com.chainup.exchange.METABITT.png

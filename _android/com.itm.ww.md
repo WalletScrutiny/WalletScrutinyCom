@@ -10,7 +10,7 @@ released: 2018-10-14
 updated: 2019-03-22
 version: 1.0.2
 reviews: 
-website: http://www.wampum1st.com
+website: http://www.wampum1st.com#deadLink
 repository: 
 issue: 
 icon: com.itm.ww.png

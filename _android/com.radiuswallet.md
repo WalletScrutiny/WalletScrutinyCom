@@ -10,7 +10,7 @@ released: 2022-05-06
 updated: 2023-02-03
 version: 1.4.1
 reviews: 
-website: https://radiuswallet.com/
+website: https://radiuswallet.com#deadLink
 repository: 
 issue: 
 icon: com.radiuswallet.png

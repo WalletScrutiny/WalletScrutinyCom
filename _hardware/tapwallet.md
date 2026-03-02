@@ -13,7 +13,7 @@ weight:
 provider: TAP Labs, LLC
 providerWebsite: 
 website: http://tapwallet.com/
-shop: http://tapwallet.com/store.html
+shop: https://web.archive.org/web/20231129150507/http://tapwallet.com/store.html
 country: US
 price: 249USD
 repository: 
@@ -71,7 +71,7 @@ The product is still in Pre-Order. They are launching a series of [NFTs (Non-fun
 
 The TAPWallet can interface with smart cards using NFC. The private keys are stored in the smart cards.
 
-It can interface with a desktop computer through a USB connection. It can also connect with smartphones using Bluetooth. Users have the option to utilize Tapcard smart cards together with the Tapwallet to secure the private key. The Tapwallet [does not allow for the recovery of seed phrases:](http://tapwallet.com/faqs.html)
+It can interface with a desktop computer through a USB connection. It can also connect with smartphones using Bluetooth. Users have the option to utilize Tapcard smart cards together with the Tapwallet to secure the private key. The Tapwallet [does not allow for the recovery of seed phrases:](http://tapwallet.com/faqs.html#deadLink)
 
 > The TAPWallet does not require storage of a 'recovery seed phrase' - which is a weak link of other hardware wallets. 
 

@@ -42,7 +42,7 @@ features:
 > 
 > Security is critical in the world of crypto. Secure your account with two-factor authentication (2FA) and biometric verification. Meanwhile, we secure your funds using the best security practices in the industry.
 
-### From a blog post: ["Is My Crypto Safe with Coinmerce"](https://coinmerce.io/en/news/is-my-crypto-safe-with-coinmerce/) 
+### From a blog post: ["Is My Crypto Safe with Coinmerce"](https://coinmerce.io/en/news/is-my-crypto-safe-with-coinmerce#deadLink) 
 
 > First, let‘s have a look at coins that are “in custody”. There are cryptocurrencies that are simply held in wallets on our platform, which are not being staked or have “Earn” enabled. To keep these funds safe, they are primarily kept in cold wallets. To ensure withdrawals from our platform happen smoothly, we do of course have to keep some funds in so-called hot wallets. Between 5% and 10% are kept in hot wallets to facilitate these withdrawals. This means at any time, 90% of these funds are kept in cold wallets.
 

@@ -11,7 +11,7 @@ released: 2021-12-03
 updated: 2026-02-16
 version: 2.6.3
 reviews: 16
-website: https://wirexapp.com/wirex-wallet
+website: https://wirexapp.com/wirex-wallet#deadLink
 repository: 
 issue: 
 icon: com.wirex.wallet.png

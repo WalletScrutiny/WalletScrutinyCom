@@ -10,7 +10,7 @@ released: 2018-11-21
 updated: 2018-11-21
 version: '1.1'
 reviews: 
-website: http://binexhosting.com
+website: http://binexhosting.com#deadLink
 repository: 
 issue: 
 icon: com.cryptex.www.binexhosting.png

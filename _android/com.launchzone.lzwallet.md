@@ -11,7 +11,7 @@ released: 2021-11-30
 updated: 2022-09-08
 version: 1.0.4
 reviews: 
-website: https://lz.finance/#
+website: https://lz.finance/#&deadLink
 repository: 
 issue: 
 icon: com.launchzone.lzwallet.png

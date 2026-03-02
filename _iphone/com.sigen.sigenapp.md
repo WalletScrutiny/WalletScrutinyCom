@@ -11,7 +11,7 @@ released: 2020-04-20
 updated: 2025-07-03
 version: 2.9.63
 reviews: 3663
-website: https://sigen.pro/
+website: https://sigen.pro#deadLink
 repository: 
 issue: 
 icon: com.sigen.sigenapp.jpg
@@ -39,6 +39,6 @@ On the official website SIGEN claims that it
 
 It's rather vague whether there are options to trade the BTC or if it must be converted back to fiat.
 
-> [SIGEN has a cold-hot wallet policy](https://sigen.pro/help/faq?section=360013157091&articles=360030644311). The bulk of our clients' funds are in the "cold" wallet. The hot wallet only stores funds that are necessary to support withdrawal operations.
+> [SIGEN has a cold-hot wallet policy](https://sigen.pro/help/faq?section=360013157091&articles=360030644311#deadLink). The bulk of our clients' funds are in the "cold" wallet. The hot wallet only stores funds that are necessary to support withdrawal operations.
 
 Since the clients' funds are in the custody of a third-party, this product is definitely **custodial** and **not verifiable**. 

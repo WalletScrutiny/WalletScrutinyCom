@@ -10,7 +10,7 @@ released: 2018-05-31
 updated: 2018-06-04
 version: 1.0.1
 reviews: 
-website: http://www.vitarabrit.com
+website: http://www.vitarabrit.com#deadLink
 repository: 
 issue: 
 icon: com.mcways.hb.netcoin.png

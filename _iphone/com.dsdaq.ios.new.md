@@ -11,7 +11,7 @@ released: 2020-12-17
 updated: 2022-01-30
 version: 3.2.0
 reviews: 2
-website: http://dsdaq.com
+website: http://dsdaq.com#deadLink
 repository: 
 issue: 
 icon: com.dsdaq.ios.new.jpg

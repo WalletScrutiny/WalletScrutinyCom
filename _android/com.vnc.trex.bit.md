@@ -38,12 +38,12 @@ features:
 >
 > Support the trading of 7 major virtual currencies worldwide, including the BTC, which is the most traded in the world.
 
-[Page about Cryptocurrency CFDs and Contracts](https://trexfx.com/en/product/virtual/cfd-contract.html)
+[Page about Cryptocurrency CFDs and Contracts](https://trexfx.com/en/product/virtual/cfd-contract.html#deadLink)
 
 ## Analysis
 
-According to the deposit guide, [USD, USDT and INR](https://trexfx.com/en/depositWithdraw/deposit/depositGuide.html) are used to deposit via bank transfer.
+According to the deposit guide, [USD, USDT and INR](https://trexfx.com/en/depositWithdraw/deposit/depositGuide.html#deadLink) are used to deposit via bank transfer.
 
-[Withdrawal](https://trexfx.com/en/depositWithdraw/deposit/withdrawGuide.html) can be done via their Bind Bank card.
+[Withdrawal](https://trexfx.com/en/depositWithdraw/deposit/withdrawGuide.html#deadLink) can be done via their Bind Bank card.
 
 Since the platform allows users to trade cryptocurrency contracts or CFDs, no actual Bitcoin is transferred. Therefore, users may **not send or receive actual Bitcoins.**

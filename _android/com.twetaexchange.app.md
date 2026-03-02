@@ -10,7 +10,7 @@ released: 2021-12-01
 updated: 2021-12-01
 version: '1.0'
 reviews: 
-website: https://twetaexchange.com/
+website: https://twetaexchange.com#deadLink
 repository: 
 issue: 
 icon: com.twetaexchange.app.png

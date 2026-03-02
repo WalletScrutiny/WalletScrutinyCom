@@ -10,7 +10,7 @@ released: 2022-06-04
 updated: 2022-06-04
 version: 1.0.2
 reviews: 
-website: https://www.vervetsystems.com
+website: https://www.vervetsystems.com#deadLink
 repository: 
 issue: 
 icon: com.danny709.vervet.png

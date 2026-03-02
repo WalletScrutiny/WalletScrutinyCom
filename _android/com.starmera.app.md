@@ -10,7 +10,7 @@ released: 2022-11-17
 updated: 2023-03-15
 version: 1.2.0
 reviews: 
-website: https://starmera.com
+website: https://starmera.com#deadLink
 repository: 
 issue: 
 icon: com.starmera.app.png

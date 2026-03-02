@@ -11,7 +11,7 @@ released: 2019-01-18
 updated: 2022-10-07
 version: 3.2.0
 reviews: 46
-website: https://www.zbg.com
+website: https://www.zbg.com#deadLink
 repository: 
 issue: 
 icon: com.zsdk.exchange.png
@@ -43,9 +43,9 @@ Its security features are self-described as:
 
 The site features the following legal documents:
 
-- [User Agreement](https://www.zbg.com/help/agreement)
-- [KYC and AML Policy](https://www.zbg.com/help/kyc)
-- [Law Requests Policy](https://www.zbg.com/help/kyc)
+- [User Agreement](https://www.zbg.com/help/agreement#deadLink)
+- [KYC and AML Policy](https://www.zbg.com/help/kyc#deadLink)
+- [Law Requests Policy](https://www.zbg.com/help/kyc#deadLink)
 
 ### Termination of Account
 

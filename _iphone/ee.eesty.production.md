@@ -11,7 +11,7 @@ released: 2018-02-15
 updated: 2019-07-03
 version: '3.0'
 reviews: 8
-website: https://www.eesty.ee
+website: https://www.eesty.ee#deadLink
 repository: 
 issue: 
 icon: ee.eesty.production.jpg

@@ -43,7 +43,7 @@ Like most all-in-one crypto financial services, it is managed by a company and r
 
 > Diverse kinds of crypto wallets are supported and we provide industry-level security. Assets are stored using multi-sig mechanism and bank-grade vaults to ensure your account security.
 
-[This is the tutorial](https://support.matrixport.com/hc/en-us/articles/360048468273-How-to-withdraw-) for withdrawing cryptocurrencies.
+[This is the tutorial](https://web.archive.org/web/20230927160255/https://support.matrixport.com/hc/en-us/articles/360048468273-How-to-withdraw-) for withdrawing cryptocurrencies.
 
 > When you make the withdrawals, we’ll verify your identity. You would be requested to key in 1) the verification code we send to your phone or email, or the Google Authentication code, and 2) the Fund Password. Additionally, if you are trying to transfer the assets to a new address, we will also request the last 6 characters of your ID number.
 

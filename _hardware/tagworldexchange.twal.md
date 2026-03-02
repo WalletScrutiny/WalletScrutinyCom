@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: TWEX Ltd (UK), TAG Funds Management Oü (Estonia)
 providerWebsite: https://www.twex.exchange/
-website: https://twal.ch/specification/
+website: https://twal.ch/specification#deadLink
 shop: 
 country: UK
 price: 
@@ -47,7 +47,7 @@ Tag World Exchange has numerous domains and business names under their project. 
 * www.twex.biz
 * www.twexsec.com
 
-The main site for the hardware device ([twal.ch](https://twal.ch)) is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
+The main site for the hardware device ([twal.ch](https://web.archive.org/web/20240503205733/https://twal.ch/)) is linked to from the TWEX Ltd [YouTube channel](https://www.youtube.com/channel/UC_YxG5a-C_AN7ZfoiSj2aQA).
 
 We were not able to find actual pictures of the device. All that's available are renderings.  
 
@@ -65,7 +65,7 @@ We were not able to find actual pictures of the device. All that's available are
 
 A graphical depiction of how the device is supposed to work:
 
-![image](https://twal.ch/wp-content/uploads/2018/10/SCOPE-OF-CONCEPT-2-1024x748.png)<br />
+![image](https://twal.ch/wp-content/uploads/2018/10/SCOPE-OF-CONCEPT-2-1024x748.png#deadLink)<br />
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/beNtsR8MUyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

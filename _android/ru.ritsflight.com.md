@@ -10,7 +10,7 @@ released: 2022-01-09
 updated: 2022-01-10
 version: 1.0.0
 reviews: 
-website: http://ritstoken.com
+website: https://web.archive.org/web/20220818022448/http://ritstoken.com/
 repository: 
 issue: 
 icon: ru.ritsflight.com.png

@@ -11,7 +11,7 @@ released: 2017-12-25
 updated: 2019-04-29
 version: 3.50.1
 reviews: 118
-website: https://cobinhood.com
+website: https://cobinhood.com#deadLink
 repository: 
 issue: 
 icon: com.cobinhood.exchange.png

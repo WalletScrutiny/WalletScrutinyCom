@@ -30,7 +30,7 @@ The {{ page.title }} is manufactured by the same company that manufactured these
 
 On [its homepage](https://secuxtech.com/secux-payment-terminal), it is described as the "World’s first Bluetooth LE payment crypto payment solution."
 
-In order to evaluate the product, potential users have to request for an [Payment Evaluation Kit](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf). 
+In order to evaluate the product, potential users have to request for an [Payment Evaluation Kit](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf#deadLink). 
 
 Initially, information that's readily available about this device describes the process as:
 
@@ -80,7 +80,7 @@ The Android app for the SecuX evPay can be found [here](https://play.google.com/
 
 We installed the app and it required registration. After we registered, the app detected that our phone did not have NFC. It then asked us to pair the app via bluetooth to another device. We assume that the other device should be the P22. 
 
-This process is further described on [this PDF file](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf).
+This process is further described on [this PDF file](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf#deadLink).
 
 ## Analysis 
 

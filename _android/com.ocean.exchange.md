@@ -41,7 +41,7 @@ Bank-level SSL secure technology and advanced machine learning algorithms to act
 
 The company behind the app is called BitOcean Global. It is connected to the Vechain project.
 
-[**Terms of Use**](https://oceanex.pro/en/terms)
+[**Terms of Use**](https://oceanex.pro/en/terms#deadLink)
 
 > **10. Withdrawals**<br>
 You understand and agree that we may impose a withdrawal limit on each account. Accounts that have not provided us with KYC documents and passed our Customer Identification Program will have their accounts limited to a value equivalent to 2 BTC per 24 hour period. This is subject to change at our sole-discretion and without prior notice to you. You also acknowledge and understand that unauthorized use of our services may result in **your funds being frozen and our requiring certain KYC or other disclosures from you before we can permit withdrawal.** 

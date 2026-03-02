@@ -10,7 +10,7 @@ released: 2020-12-14
 updated: 2022-01-20
 version: '20220120'
 reviews: 
-website: https://favorpay.io
+website: https://favorpay.io#deadLink
 repository: 
 issue: 
 icon: com.favorpay.favwallet.png

@@ -10,7 +10,7 @@ released: 2019-07-18
 updated: 2020-03-12
 version: '1.4'
 reviews: 
-website: http://bitkart.io
+website: http://bitkart.io#deadLink
 repository: 
 issue: 
 icon: com.bitkart_exchange.png

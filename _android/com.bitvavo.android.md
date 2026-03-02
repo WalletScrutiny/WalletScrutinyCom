@@ -36,10 +36,10 @@ The description says that it's a Digital Asset & Cryptocurrency Exchange. This m
 
 You can deposit and withdraw, but QR codes aren't provided.
 
-> [Before you can withdraw digital currencies](https://support.bitvavo.com/l/en/article/vp1kqa4i31-send-to-external-wallet) to an external address, you first need to add it to your address book, and get it verified.
+> [Before you can withdraw digital currencies](https://support.bitvavo.com/l/en/article/vp1kqa4i31-send-to-external-wallet#deadLink) to an external address, you first need to add it to your address book, and get it verified.
 
 Bitvavo requires verification before you can withdraw to external addresses.
 
-> [As Bitvavo offers hosted wallets](https://support.bitvavo.com/l/en/article/3csr6klkfp-private-keys-hosted-wallet), it is unfortunately not possible to provide the private keys of individual wallets. 
+> [As Bitvavo offers hosted wallets](https://support.bitvavo.com/l/en/article/3csr6klkfp-private-keys-hosted-wallet#deadLink), it is unfortunately not possible to provide the private keys of individual wallets. 
 
 This confirms it as **custodial** and thus **not verifiable.**

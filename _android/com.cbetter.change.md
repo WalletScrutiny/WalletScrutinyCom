@@ -10,7 +10,7 @@ released: 2021-09-29
 updated: 2022-11-24
 version: 1.1.1
 reviews: 
-website: https://www.coinbetter.com
+website: https://www.coinbetter.com#deadLink
 repository: 
 issue: 
 icon: com.cbetter.change.png

@@ -60,7 +60,7 @@ This is the only description:
 - Apart from twitter, the app's affiliated social media accounts have posted up to 2022. 
 - There are several related English and Russian telegram channels 
 - The app shows an error after opening. 
-- CoinTelegraph [reports](https://cointelegraph.com/press-releases/inanomo-secures-6m-in-funding-to-develop-innovative-metaverse-concept) that Inanomo has secured $6 million in funding "to develop its ecosystem".
+- CoinTelegraph [reports](https://cointelegraph.com/press-releases/inanomo-secures-6m-in-funding-to-develop-innovative-metaverse-concept#deadLink) that Inanomo has secured $6 million in funding "to develop its ecosystem".
 - It is apparent from the description that this is a **custodial** provider, which has either recently experienced some technical difficulties with both their site and app, or, has intentionally disabled both their app and website. 
 - Since the app was last updated in 2022, we will email at 	info@inanomo.com them to see if they would respond. Tentatively, and based on the description, it is possible to designate this as a **custodial** provider.
 

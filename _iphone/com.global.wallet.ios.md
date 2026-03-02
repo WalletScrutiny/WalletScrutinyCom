@@ -10,7 +10,7 @@ released: 2023-01-04
 updated: 2026-01-30
 version: 2.18.1
 reviews: 657
-website: https://www.tpglobalwallet.net/#/
+website: https://web.archive.org/web/20260119041716/https://www.tpglobalwallet.net/
 repository: 
 issue: 
 icon: com.global.wallet.ios.jpg

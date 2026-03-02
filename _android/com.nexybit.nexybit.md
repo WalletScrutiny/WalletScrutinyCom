@@ -30,4 +30,4 @@ features:
 
 ---
 
-This exchange's homepage is no longer online. We dug a bit deeper and found some allegations against its 'advisors' [Hangkyul Park](https://thenews.asia/hankyul-park-guilty-of-fraud-at-boscoin/). We're marking this app defunct. 
+This exchange's homepage is no longer online. We dug a bit deeper and found some allegations against its 'advisors' [Hangkyul Park](https://thenews.asia/hankyul-park-guilty-of-fraud-at-boscoin#deadLink). We're marking this app defunct. 

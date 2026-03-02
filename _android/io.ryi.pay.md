@@ -10,7 +10,7 @@ released: 2021-06-12
 updated: 2022-06-14
 version: 1.0.8
 reviews: 7
-website: https://ryipay.app
+website: https://ryipay.app#deadLink
 repository: 
 issue: 
 icon: io.ryi.pay.png

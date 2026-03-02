@@ -23,7 +23,7 @@ date: 2023-09-28
 signer: 
 twitter: ZBexchange
 social:
-- https://zb.com
+- https://zb.com#deadLink
 - https://t.me/ZB_English
 - https://www.facebook.com/ZBexchange
 - https://zbhk.medium.com
@@ -48,7 +48,7 @@ features:
 > Registration is suspended until further notice.
 
 - The mobile app later on allowed registration.
-- The [terms](https://www.zb.com/help/service/3) complies with AML/KYC/CTF policies and has a termination clause.
+- The [terms](https://www.zb.com/help/service/3#deadLink) complies with AML/KYC/CTF policies and has a termination clause.
 - Section 4.4. Transactions are subject to approval and if they are determined to be of suspicious nature, can be suspended or terminated.
 - The security section has the following options:
   - Phone verification

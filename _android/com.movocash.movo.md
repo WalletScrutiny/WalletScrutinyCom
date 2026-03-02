@@ -46,7 +46,7 @@ MOVO Chain appears to allow fiat-only deposits and withdrawals.
 
 ## The Site
 
-The Movo Chain has a [page](https://www.movochain.com/send-money) of its own, where its main purpose is to "Turn Your Crypto into Cash:"
+The Movo Chain has a [page](https://www.movochain.com/send-money#deadLink) of its own, where its main purpose is to "Turn Your Crypto into Cash:"
 
 > Convert your Cryptocurrency into USD and transfer it to your MOVO Account for same day use. Or, send it as cash value to anyone using an email address or mobile phone number.* If the recipient is not a MOVO® user, they simply can join MOVO® to accept their funds in seconds.
 

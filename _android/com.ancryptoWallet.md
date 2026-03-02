@@ -28,7 +28,7 @@ social:
 - https://t.me/+rLAv56hhJN1hZTM1
 - https://www.instagram.com/ancrypto.io
 - https://discord.com/invite/pN3NXfpJgF
-- https://www.youtube.com/@ancryptowallet
+- https://www.youtube.com/@ancryptowallet#deadLink
 redirect_from: 
 developerName: AWT Ltd
 builds: 

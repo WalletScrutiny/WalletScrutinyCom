@@ -10,7 +10,7 @@ released: 2022-12-28
 updated: 2023-02-05
 version: 1.17.1
 reviews: 
-website: https://freyawallet.com/
+website: https://freyawallet.com#deadLink
 repository: 
 issue: 
 icon: com.secure.freyawallet.png

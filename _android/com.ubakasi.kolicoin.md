@@ -10,7 +10,7 @@ released: 2021-11-05
 updated: 2023-02-21
 version: 5.1.7
 reviews: 
-website: https://kolicoin.com
+website: https://kolicoin.com#deadLink
 repository: 
 issue: 
 icon: com.ubakasi.kolicoin.png

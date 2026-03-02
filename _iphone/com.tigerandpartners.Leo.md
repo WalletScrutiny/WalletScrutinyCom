@@ -23,7 +23,7 @@ date: 2025-06-11
 signer: 
 twitter: LEO12_EXCHANGE
 social:
-- https://www.leo12.com
+- https://www.leo12.com#deadLink
 features: 
 developerName: TIGER AND PARTNERS
 

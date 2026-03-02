@@ -10,7 +10,7 @@ released: 2020-02-20
 updated: 2020-07-23
 version: '1.5'
 reviews: 
-website: https://walahala.com/payWala
+website: https://walahala.com/payWala#deadLink
 repository: 
 issue: 
 icon: com.walahala.paywala.png

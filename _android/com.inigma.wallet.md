@@ -10,7 +10,7 @@ released: 2020-03-29
 updated: 2020-12-22
 version: 0.0.18
 reviews: 
-website: https://www.inigmasys.com/
+website: https://www.inigmasys.com#deadLink
 repository: 
 issue: 
 icon: com.inigma.wallet.jpg

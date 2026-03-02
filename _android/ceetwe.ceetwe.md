@@ -10,7 +10,7 @@ released: 2021-11-06
 updated: 2022-01-02
 version: '22.01'
 reviews: 
-website: https://ceetwe.com
+website: https://ceetwe.com#deadLink
 repository: 
 issue: 
 icon: ceetwe.ceetwe.png

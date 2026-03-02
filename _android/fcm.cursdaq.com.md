@@ -10,7 +10,7 @@ released: 2021-08-01
 updated: 2021-08-02
 version: '1.1'
 reviews: 
-website: https://www.cursdaq.com/
+website: https://www.cursdaq.com#deadLink
 repository: 
 issue: 
 icon: fcm.cursdaq.com.jpg

@@ -59,9 +59,9 @@ The app claims to be a financial education app that allows users even as young a
 
 ## Analysis
 
-- Section 29.2. Violation of the [terms](https://www.doshi.app/utilities/termsandconditions) gives Doshi the right to remotely access user's device and remove the app.
+- Section 29.2. Violation of the [terms](https://www.doshi.app/utilities/termsandconditions#deadLink) gives Doshi the right to remotely access user's device and remove the app.
 - When we installed the app, we were in 'school mode' - we couldn't access the wallet feature.
-- From this [blog](https://www.doshi.app/post/5-must-know-tips-when-beginning-in-crypto-doshi) post we see that the app claims to be non-custodial, and supports buying bitcoin through its partnerships with regulated exchanges.
+- From this [blog](https://www.doshi.app/post/5-must-know-tips-when-beginning-in-crypto-doshi#deadLink) post we see that the app claims to be non-custodial, and supports buying bitcoin through its partnerships with regulated exchanges.
 - We encountered some sign-in problems when testing the app.
 - If we do a Google search using the 'site' parameter, with 'custody' or 'private keys' as the search term, we found some of their 'academy' articles referring to the app as a 'non-custodial' wallet with a 'special technology' for storing the private keys. We can't access this article or any similar references in any of its available online material.
 - The current registration process does not provide the seed phrases or any other mechanism to backup the private keys.

@@ -11,7 +11,7 @@ released: 2021-03-19
 updated: 2021-03-23
 version: '1.2'
 reviews: 
-website: https://antareswallet.com/
+website: https://antareswallet.com#deadLink
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg

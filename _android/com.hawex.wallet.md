@@ -50,5 +50,5 @@ features:
 - As a result, we were not able to register. 
 - We checked an archive of the website and found some information, including the url for its main site, hawex.com.
 - Assuming the description is accurate, supports Bitcoin, and provides the private keys, the next step is to search for its source code. 
-- Unfortunately, a search for the appID on GitHub, resulted in ['0 results'](https://hawex.com/)
+- Unfortunately, a search for the appID on GitHub, resulted in ['0 results'](https://hawex.com#deadLink)
 - This app is **not source-available**.

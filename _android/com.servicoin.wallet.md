@@ -11,7 +11,7 @@ released: 2021-07-31
 updated: 2021-07-31
 version: 0.21.0
 reviews: 
-website: https://www.mysrvcoin.com/index.php
+website: https://www.mysrvcoin.com/index.php#deadLink
 repository: 
 issue: 
 icon: com.servicoin.wallet.png
@@ -40,7 +40,7 @@ Servicoin is a 'biance based wallet' where it is possible to send, receive, and 
 
 ## The Site
 
-From [the Privacy Policy](https://www.mysrvcoin.com/privacypolicy.php), 12. Prohibited Activities:
+From [the Privacy Policy](https://www.mysrvcoin.com/privacypolicy.php#deadLink), 12. Prohibited Activities:
 
 > **ServiCoin reserves the right to cancel and / or suspend your account and the use of “SRVC” immediately and without prior notice** if we determine, in our sole discretion, that your account and the use of “SRVC” are associated with prohibited use and / or a prohibited business and / or illegal activity under applicable law.
 

@@ -10,7 +10,7 @@ released: 2019-11-25
 updated: 2019-11-25
 version: '19.02'
 reviews: 
-website: https://sellmybitcoin4cash.com/
+website: https://sellmybitcoin4cash.com#deadLink
 repository: 
 issue: 
 icon: mobi.androapp.asellmybitcoin4cash.c8927.jpg

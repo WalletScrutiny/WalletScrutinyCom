@@ -11,7 +11,7 @@ released: 2019-02-26
 updated: 2019-09-24
 version: 1.1.28
 reviews: 
-website: https://www.gbih.org
+website: https://www.gbih.org#deadLink
 repository: 
 issue: 
 icon: com.gbih.yantwallet.png

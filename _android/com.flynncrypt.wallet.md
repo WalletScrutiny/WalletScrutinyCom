@@ -10,7 +10,7 @@ released: 2022-06-16
 updated: 2022-06-16
 version: 1.0.9
 reviews: 
-website: http://flynncrypt.com
+website: http://flynncrypt.com#deadLink
 repository: 
 issue: 
 icon: com.flynncrypt.wallet.png

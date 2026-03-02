@@ -11,7 +11,7 @@ released: 2019-05-18
 updated: 2020-03-07
 version: '2.8'
 reviews: 6
-website: https://ethlyte.tech/
+website: https://web.archive.org/web/20250618122124/http://ethlyte.tech/
 repository: 
 issue: 
 icon: net.ethylyte.com.png

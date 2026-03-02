@@ -43,6 +43,6 @@ features:
 ## Analysis 
 
 - We tried to register, but a message appeared informing us that they were currently not accepting registrations.
-- Tutorial on how to [deposit cryptocurrencies](https://intercom.help/aqru-finance/en/articles/5695065-funding-your-account), including bitcoin.
-- Tutorial on how to [withdraw cryptocurrencies](https://intercom.help/aqru-finance/en/articles/5695287-withdraw-crypto), including bitcoin.
+- Tutorial on how to [deposit cryptocurrencies](https://intercom.help/aqru-finance/en/articles/5695065-funding-your-account#deadLink), including bitcoin.
+- Tutorial on how to [withdraw cryptocurrencies](https://intercom.help/aqru-finance/en/articles/5695287-withdraw-crypto#deadLink), including bitcoin.
 - Section 7 of the [terms](https://cdn.accru.finance/documents/user-agreement.pdf?t=1689768532396) explicitly details the **custodial** service provided by AQRU.

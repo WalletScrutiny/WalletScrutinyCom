@@ -81,7 +81,7 @@ The provider's name is Ridge Iron (Blockchain Iron). The product is also referen
 
 The higher tiers ($299 above) come with a stamp kit that should allow the user to physically stamp the mnemonics on the wallet base.
 
-![picture](https://ksr-ugc.imgix.net/assets/023/366/137/b962b6f80a0991493fa52263fd0f9261_original.HEIC?ixlib=rb-4.0.2&w=680&fit=max&v=1543004520&fm=jpg&gif-q=50&q=92&s=23bf7d1a831a5cdc1eed5c46fa74692e) 
+![picture](https://ksr-ugc.imgix.net/assets/023/366/137/b962b6f80a0991493fa52263fd0f9261_original.HEIC?ixlib=rb-4.0.2&w=680&fit=max&v=1543004520&fm=jpg&gif-q=50&q=92&s=23bf7d1a831a5cdc1eed5c46fa74692e#deadLink) 
 
 There is a mention of a "[Blockchain Iron iPhone app](https://www.kickstarter.com/projects/1173199625/cold-storage-wallet-for-bitcoin-and-cryptocurrenci/posts/2378750)" that lets users check the balances of their wallets. We were not able to locate this app. 
 

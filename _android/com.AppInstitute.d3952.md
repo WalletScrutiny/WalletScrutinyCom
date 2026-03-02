@@ -10,7 +10,7 @@ released: 2021-12-10
 updated: 2021-12-10
 version: 1.0.0
 reviews: 
-website: https://dispurseapp.com/
+website: https://dispurseapp.com#deadLink
 repository: 
 issue: 
 icon: com.AppInstitute.d3952.png

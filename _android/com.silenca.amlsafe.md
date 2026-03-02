@@ -47,7 +47,7 @@ But ... is it reall non-custodial? On the website we read:
   Your private key is stored on-premise and secured with a multilevel security
   system.
 
-Their [documentation](https://amlsafe.io/en/documentation/) is "under
+Their [documentation](https://amlsafe.io/en/documentation#deadLink) is "under
 construction".
 
 With the conflicting claims about where the keys are stored, we have to assume

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Yooba GmbH
 providerWebsite: 
-website: https://www.youba.io/
+website: https://web.archive.org/web/20250422165148/https://www.youba.io/
 shop: 
 country: DE
 price: 

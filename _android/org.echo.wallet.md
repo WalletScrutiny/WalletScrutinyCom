@@ -10,7 +10,7 @@ released: 2019-04-04
 updated: 2019-11-21
 version: 1.13.2
 reviews: 
-website: https://echo-dev.io/
+website: https://echo-dev.io#deadLink
 repository: 
 issue: 
 icon: org.echo.wallet.png

@@ -39,4 +39,4 @@ features:
 
 ## Verdict
 
-In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobifaq/specifications/h2-4?lang=en) Mobi clearly indicates that it is a **custodial** wallet making the app **not verifiable**.
+In a page entitled ["How do I access my private keys?"](https://cms.mobi.me/mobifaq/specifications/h2-4?lang=en#deadLink) Mobi clearly indicates that it is a **custodial** wallet making the app **not verifiable**.

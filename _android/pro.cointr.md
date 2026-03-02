@@ -44,7 +44,7 @@ There is another version of this app at:
 - We found a link to both platforms on an official [CoinTR support page](https://support.cointr.com/hc/tr/articles/6016900478095-CoinTR-PRO-da-TRY-Paritesi-Durdurulacakt%C4%B1r-).
 - The website cointr.com, also links to the [CoinTRPro twitter account.](https://twitter.com/coinTRPro)
 - Similarly, we can see the CoinTRTurkiye twitter account [linking to the Pro](https://twitter.com/CoinTRTurkiye/status/1692551931724743128) version of the app. 
-- Finally, we see the cointr.pro website [links](https://support.cointr.pro/hc/en-us/articles/5236871136399) to the CoinTR app.
+- Finally, we see the cointr.pro website [links](https://support.cointr.pro/hc/en-us/articles/5236871136399#deadLink) to the CoinTR app.
 - Ultimately, the two link to each other. 
 
 ## App Description from Google Play
@@ -82,9 +82,9 @@ Important note: There are two major sections within this app:
 
 - This is a centralized cryptocurrency exchange located within the same app.
 - It is possible to deposit with a Bech32 BTC address.
-- This [Help Document](https://support.cointr.pro/hc/en-us/articles/5211778969103-How-to-withdraw-Web-) describes how users can withdraw BTC from the platform.
+- This [Help Document](https://support.cointr.pro/hc/en-us/articles/5211778969103-How-to-withdraw-Web-#deadLink) describes how users can withdraw BTC from the platform.
 
-## [Terms](https://support.cointr.pro/hc/en-us/articles/5224297265423)
+## [Terms](https://support.cointr.pro/hc/en-us/articles/5224297265423#deadLink)
 
 - Section 3 gives the platform the power to freeze the user's funds
 - Section 3.1 describes the process by which trade orders are made on the platform. This clause also describes how the platform has control over user funds.

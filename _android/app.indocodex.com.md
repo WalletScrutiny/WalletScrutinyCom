@@ -11,7 +11,7 @@ released: 2020-06-23
 updated: 2021-05-18
 version: 1.1.7
 reviews: 
-website: https://www.indocodex.com
+website: https://www.indocodex.com#deadLink
 repository: 
 issue: 
 icon: app.indocodex.com.png

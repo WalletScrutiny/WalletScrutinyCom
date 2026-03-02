@@ -39,7 +39,7 @@ features:
 
 ### The Site
 
-> [Get a Loan Backed by Your Bitcoin](https://coinloan.io/crypto-backed-loans/bitcoin-loan/)
+> [Get a Loan Backed by Your Bitcoin](https://coinloan.io/crypto-backed-loans/bitcoin-loan#deadLink)
 
 The [Terms and Conditions](https://coinloan.io/terms-and-conditions/) state in Section 5.18 that
 

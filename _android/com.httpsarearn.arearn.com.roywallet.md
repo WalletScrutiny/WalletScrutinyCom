@@ -10,7 +10,7 @@ released: 2021-10-22
 updated: 2021-10-22
 version: '1.0'
 reviews: 
-website: https://www.roywallet.app
+website: https://www.roywallet.app#deadLink
 repository: 
 issue: 
 icon: com.httpsarearn.arearn.com.roywallet.jpg

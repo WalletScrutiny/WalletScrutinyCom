@@ -11,7 +11,7 @@ released: 2019-12-19
 updated: 2023-04-05
 version: 1.22.0
 reviews: 4357
-website: https://bittrex.com/mobile
+website: https://web.archive.org/web/20231003135011/https://bittrex.com/mobile
 repository: 
 issue: 
 icon: com.bittrex.trade.jpg

@@ -43,7 +43,7 @@ The {{ page.title }} has a horizontal smart card form factor with biometric capa
 
 The device's homepage is no longer online. We suspect that the product has been discontinued.
 
-From another [website](https://www.fingerprints.com/2018/05/28/biometrics-by-fingerprints-in-new-cryptocurrency-wallet-from-sctechone/): 
+From another [website](https://www.fingerprints.com/2018/05/28/biometrics-by-fingerprints-in-new-cryptocurrency-wallet-from-sctechone#deadLink): 
 
 > In the Touch xWallet, transactions are made safely with digital signatures between the card and mobile app via Bluetooth (BLE) when the correct fingerprint is in place. Its user can easily check info on the integrated display on the card, using the unique feature FPC MoveTouch® to scroll on the fingerprint sensor to select what is shown and what actions to make.
 

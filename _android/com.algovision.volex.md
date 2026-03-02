@@ -10,7 +10,7 @@ released: 2021-10-04
 updated: 2022-02-02
 version: 1.2.2
 reviews: 
-website: https://volex.io
+website: https://volex.io#deadLink
 repository: 
 issue: 
 icon: com.algovision.volex.png

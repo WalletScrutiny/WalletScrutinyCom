@@ -10,7 +10,7 @@ released: 2022-02-25
 updated: 2022-02-25
 version: 0.21.0
 reviews: 
-website: https://vancetoken.us/
+website: https://vancetoken.us#deadLink
 repository: 
 issue: 
 icon: com.vance.wallet.jpg

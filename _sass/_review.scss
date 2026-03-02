@@ -678,3 +678,20 @@
     }
   }
 }
+
+// Dead and archived link indicators
+.dead-link {
+  text-decoration: line-through !important;
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+}
+.archived-link {
+  text-decoration: underline dashed !important;
+  text-underline-offset: 3px;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}

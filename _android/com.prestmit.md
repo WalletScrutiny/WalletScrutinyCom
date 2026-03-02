@@ -57,7 +57,7 @@ The BTC wallet also has a text which says:
 
 ## The Site and FAQs
 
-According to its [FAQ](https://prestmit.com/faq):
+According to its [FAQ](https://prestmit.com/faq#deadLink):
 
 > **How can I open a bitcoin wallet**<br>
 With a Prestmit account, you already have your own BTC Wallet where you can send, receive and save your BTC.

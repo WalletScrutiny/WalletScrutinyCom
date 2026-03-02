@@ -10,7 +10,7 @@ released: 2020-07-01
 updated: 2021-07-05
 version: 1.0.83
 reviews: 
-website: https://mushino.com
+website: https://web.archive.org/web/20220819191059/https://mushino.com/
 repository: 
 issue: 
 icon: org.mushino.png

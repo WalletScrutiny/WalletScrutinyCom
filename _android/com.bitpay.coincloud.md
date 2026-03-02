@@ -11,7 +11,7 @@ released: 2018-09-06
 updated: 2022-02-16
 version: 12.02.18
 reviews: 101
-website: https://www.coin.cloud
+website: https://www.coin.cloud#deadLink
 repository: 
 issue: 
 icon: com.bitpay.coincloud.png

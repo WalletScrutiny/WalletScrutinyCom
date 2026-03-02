@@ -10,7 +10,7 @@ released: 2022-04-13
 updated: 2023-02-23
 version: '3.0'
 reviews: 
-website: https://ifwallet.com.br/
+website: https://ifwallet.com.br#deadLink
 repository: 
 issue: 
 icon: com.infinitywalletapp.png

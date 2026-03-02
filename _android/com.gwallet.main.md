@@ -10,7 +10,7 @@ released: 2021-08-11
 updated: 2022-07-22
 version: '1.06'
 reviews: 
-website: https://www.g-wallet.io
+website: https://www.g-wallet.io#deadLink
 repository: 
 issue: 
 icon: com.gwallet.main.png

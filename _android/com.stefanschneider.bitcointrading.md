@@ -10,7 +10,7 @@ released: 2019-07-01
 updated: 2019-10-12
 version: 2.0.0
 reviews: 
-website: https://bitcoin-trading.global/
+website: https://bitcoin-trading.global#deadLink
 repository: 
 issue: 
 icon: com.stefanschneider.bitcointrading.png

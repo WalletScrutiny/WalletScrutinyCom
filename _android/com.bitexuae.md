@@ -11,7 +11,7 @@ released: 2020-02-23
 updated: 2022-02-12
 version: '3.1'
 reviews: 13
-website: https://www.bitex.com
+website: https://www.bitex.com#deadLink
 repository: 
 issue: 
 icon: com.bitexuae.jpg
@@ -73,7 +73,7 @@ On the site's homepage, Bitex claims to provide a "multi-signature wallet."
 
 > Your Bitex wallet is secured using 3 keys. First key is stored with us, second key with our wallet partner and third is the recovery key. **A transaction goes through only if it is signed by 2 of the 3 keys.**
 
-In [Terms of Service](https://bitex.com/terms-of-service), Maintaining Your Account:
+In [Terms of Service](https://bitex.com/terms-of-service#deadLink), Maintaining Your Account:
 
 >  If there is suspicious activity related to your Account, we may, but are not obligated to, request additional information from you, including authenticating documents, and to freeze any transactions pending our review. You are obligated to comply with these security requests **or accept termination of your Account.**
 

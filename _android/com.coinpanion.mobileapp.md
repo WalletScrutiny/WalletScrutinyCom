@@ -42,7 +42,7 @@ On their website, they claim to have the goal to bring "crypto ETFs" to the mark
 
 - We were not able to register as the app requires EU citizenship.
 - The app allows users to deposit using Apple Pay. [FB Link](https://www.facebook.com/coinpanion/posts/pfbid0ASRqVD2k1fFKQC5S32ziveVwnBec7fsh357sdG5qNivztjpHk7JEWgc6fPfhTwFzl)
-- Users can select portfolios with specific allocations. For example, their "[Cautious](https://en.coinpanion.com/crypto-portfolio/cautious)" portfolio which promises 6.94% YTD (Year to Date Returns), includes: USDC, BTC, ADA, ATOM, MATIC, ETH and 7 more.
+- Users can select portfolios with specific allocations. For example, their "[Cautious](https://en.coinpanion.com/crypto-portfolio/cautious#deadLink)" portfolio which promises 6.94% YTD (Year to Date Returns), includes: USDC, BTC, ADA, ATOM, MATIC, ETH and 7 more.
 - Deposits are by debit card, credit card or bank transfer.
 - Withdrawals are only in Euro.
 - The provider trades crypto using third-parties.

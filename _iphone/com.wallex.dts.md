@@ -11,7 +11,7 @@ released: 2023-01-12
 updated: 2023-03-10
 version: '1.1'
 reviews: 11
-website: https://dtswallet.io
+website: https://dtswallet.io#deadLink
 repository: 
 issue: 
 icon: com.wallex.dts.jpg

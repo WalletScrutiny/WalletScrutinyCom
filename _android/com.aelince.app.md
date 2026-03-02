@@ -11,7 +11,7 @@ released: 2022-10-25
 updated: 2022-11-21
 version: '1.1'
 reviews: 
-website: https://aelince.com
+website: https://aelince.com#deadLink
 repository: 
 issue: 
 icon: com.aelince.app.png

@@ -45,6 +45,6 @@ features:
 
 ## Analysis 
 
-In its [terms](https://lordtoken.com/en/terms-of-use), the platform describes Binance Cloud as the provider of custody services for the exchange. 
+In its [terms](https://lordtoken.com/en/terms-of-use#deadLink), the platform describes Binance Cloud as the provider of custody services for the exchange. 
 
 They also define "Custody", as the service of hosting digital assets on the platform on behalf of the users. This is explicitly a **custodial** provider, and thus the app **cannot be verified**.

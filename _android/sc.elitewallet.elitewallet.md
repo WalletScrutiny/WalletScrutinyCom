@@ -11,8 +11,8 @@ released: 2022-11-22
 updated: 2024-03-25
 version: 1.3.1
 reviews: 3
-website: https://elitewallet.sc
-repository: https://github.com/Elite-Labs/EliteWallet
+website: https://elitewallet.sc#deadLink
+repository: https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
@@ -46,7 +46,7 @@ features:
 
 ## Analysis 
 
-- The app's homepage is currently offline, but is available via [archive.org](https://web.archive.org/web/20230305015316/https://elitewallet.sc/)
+- The app's homepage is currently offline, but is available via [archive.org](https://elitewallet.sc#deadLink)
 - We successfully installed the app, and it describes itself as:
   > *Awesome wallet for Monero, bitcoin, Litecoin, and Haven*
   > - With standard anonymity, no proxy server is used. 
@@ -64,8 +64,8 @@ We failed to build the app from source after several attempts over a time period
 ## Build Attempt 2024-06-10
 
 - There have been several attempts to build this app and several related issues:
-  - **2023-02-16** - Emanuel raised [issue No.6](https://github.com/Elite-Labs/EliteWallet/issues/6) in the elitewallet repository, concerning incorrect build instructions. Changes were applied to the [Elitewallet Android build guide](https://github.com/Elite-Labs/EliteWallet/blob/main/howto-build-android.md).
-  - **2024-04-26** - Chad was able to create a [Dockerfile](https://github.com/Elite-Labs/EliteWallet/issues/12#issuecomment-2078036154). The last time we attempted to build this, we failed due to:
+  - **2023-02-16** - Emanuel raised [issue No.6](https://github.com/Elite-Labs/EliteWallet/issues/6#deadLink) in the elitewallet repository, concerning incorrect build instructions. Changes were applied to the [Elitewallet Android build guide](https://github.com/Elite-Labs/EliteWallet/blob/main/howto-build-android.md#deadLink).
+  - **2024-04-26** - Chad was able to create a [Dockerfile](https://github.com/Elite-Labs/EliteWallet/issues/12#issuecomment-2078036154&deadLink). The last time we attempted to build this, we failed due to:
 > 
 >  FAILURE: Build failed with an exception.
 >
@@ -80,7 +80,7 @@ A complete [pastebin](https://pastebin.com/cGknq5Y1) of the build.log is availab
 
 ## Build Attempt 2024-06-11 
 
-Based on the instructions for an [automatic build](https://github.com/Elite-Labs/EliteWallet/issues/12#issuecomment-2078036154), we created a dockerfile to isolate the process:
+Based on the instructions for an [automatic build](https://github.com/Elite-Labs/EliteWallet/issues/12#issuecomment-2078036154&deadLink), we created a dockerfile to isolate the process:
 
   - Used latest Ubuntu LTS version as base image
   - Set environment variables for Android SDK and Flutter
@@ -137,7 +137,7 @@ RUN git clone https://github.com/flutter/flutter.git "$FLUTTER_ROOT" && \
     "$FLUTTER_ROOT/bin/flutter" precache
 
 # Download and extract Gradle Wrapper
-RUN wget -O /tmp/gradle-wrapper.tgz https://dl.google.com/android/repository/gradle-wrapper-7.4.2-all.zip && \
+RUN wget -O /tmp/gradle-wrapper.tgz https://dl.google.com/android/repository/gradle-wrapper-7.4.2-all.zip#deadLink && \
     tar -xzf /tmp/gradle-wrapper.tgz -C /opt/flutter/bin/cache/artifacts/gradle_wrapper && \
     rm /tmp/gradle-wrapper.tgz
 
@@ -167,7 +167,7 @@ The fix was to `manually download and extract the Gradle Wrapper with the --no-s
 It worked, and now we address a different problem, it cannot find the build_deps.sh script which should be in "scripts" directory. An excerpt:
 
 ```
-STEP 12/15: RUN git clone https://github.com/Elite-Labs/EliteWallet.git elite_wallet
+STEP 12/15: RUN git clone https://github.com/Elite-Labs/EliteWallet.git#deadLink elite_wallet
 Cloning into 'elite_wallet'...
 --> 909274762c9
 STEP 13/15: WORKDIR /home/appuser/elite_wallet
@@ -257,7 +257,7 @@ WORKDIR /home/appuser
 RUN $FLUTTER_ROOT/bin/flutter precache
 
 # Clone the EliteWallet repository
-RUN git clone https://github.com/Elite-Labs/EliteWallet.git elite_wallet
+RUN git clone https://github.com/Elite-Labs/EliteWallet.git#deadLink elite_wallet
 
 # Set working directory
 WORKDIR /home/appuser/elite_wallet
@@ -282,7 +282,7 @@ export ANDROID_HOME="/opt/android-sdk"
 export FLUTTER_ROOT="/opt/flutter"
 export PATH="$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools"
 
-repo=https://github.com/Elite-Labs/EliteWallet
+repo=https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
 tag=main
 builtApk=$workDir/build/app/outputs/flutter-apk/app-release.apk
 

@@ -10,7 +10,7 @@ released: 2020-03-02
 updated: 2020-03-02
 version: 1.0.1
 reviews: 
-website: https://marketbtc.net
+website: https://marketbtc.net#deadLink
 repository: 
 issue: 
 icon: com.cluzstudio.marketbtc.png

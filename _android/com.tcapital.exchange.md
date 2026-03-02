@@ -10,7 +10,7 @@ released: 2020-12-10
 updated: 2021-03-27
 version: 1.1.5
 reviews: 
-website: https://ex.tcapex.com/
+website: https://ex.tcapex.com#deadLink
 repository: 
 issue: 
 icon: com.tcapital.exchange.png

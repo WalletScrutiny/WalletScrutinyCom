@@ -11,7 +11,7 @@ released: 2022-06-03
 updated: 2025-09-03
 version: 2.0.4
 reviews: 0
-website: https://conglex.com/
+website: https://conglex.com#deadLink
 repository: 
 issue: 
 icon: com.conglex.mobile.jpg

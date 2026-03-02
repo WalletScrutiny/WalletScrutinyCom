@@ -10,7 +10,7 @@ released: 2021-05-21
 updated: 2021-05-21
 version: '4'
 reviews: 
-website: https://spacelink.exchange
+website: https://spacelink.exchange#deadLink
 repository: 
 issue: 
 icon: com.spacelink.exchange.png

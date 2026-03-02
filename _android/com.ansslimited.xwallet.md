@@ -10,7 +10,7 @@ released: 2021-06-28
 updated: 2025-10-01
 version: 1.1.16
 reviews: 
-website: https://x-wallet.io
+website: https://x-wallet.io#deadLink
 repository: 
 issue: 
 icon: com.ansslimited.xwallet.png

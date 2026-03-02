@@ -10,7 +10,7 @@ released: 2018-12-13
 updated: 2019-05-15
 version: 2.0.1
 reviews: 
-website: http://www.theoproject.io
+website: http://www.theoproject.io#deadLink
 repository: 
 issue: 
 icon: io.centrys.synawallet.png

@@ -11,7 +11,7 @@ released: 2021-03-17
 updated: 2022-08-18
 version: 2.3.2
 reviews: 90
-website: https://www.freeda.io/
+website: https://www.freeda.io#deadLink
 repository: 
 issue: 
 icon: com.freeda.freedawallet.jpg

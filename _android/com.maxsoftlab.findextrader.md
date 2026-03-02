@@ -11,7 +11,7 @@ released: 2022-11-07
 updated: 2023-12-25
 version: 1.3.14GMS
 reviews: 
-website: https://www.maxsoftlab.com
+website: https://www.maxsoftlab.com#deadLink
 repository: 
 issue: 
 icon: com.maxsoftlab.findextrader.png
@@ -23,7 +23,7 @@ date: 2024-04-03
 signer: 
 twitter: 
 social:
-- https://findex-fx.com
+- https://findex-fx.com#deadLink
 redirect_from: 
 developerName: MAXSOFTLAB
 builds: 

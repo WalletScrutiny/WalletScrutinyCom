@@ -10,7 +10,7 @@ released: 2022-07-13
 updated: 2022-07-13
 version: '3.4'
 reviews: 
-website: https://browallted.com
+website: https://browallted.com#deadLink
 repository: 
 issue: 
 icon: com.browallted.comlogin.php.png

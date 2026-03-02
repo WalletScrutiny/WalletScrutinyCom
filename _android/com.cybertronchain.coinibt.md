@@ -11,7 +11,7 @@ released: 2020-12-02
 updated: 2021-07-27
 version: '1.13'
 reviews: 4
-website: http://www.coinibt.io
+website: http://www.coinibt.io#deadLink
 repository: 
 issue: 
 icon: com.cybertronchain.coinibt.png

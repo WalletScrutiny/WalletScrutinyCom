@@ -10,7 +10,7 @@ released: 2018-06-07
 updated: 2020-07-16
 version: 1.27.2
 reviews: 
-website: https://liquidity.network
+website: https://liquidity.network#deadLink
 repository: 
 issue: 
 icon: com.liquiditynetwork.wallet.png

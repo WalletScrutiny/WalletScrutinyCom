@@ -10,7 +10,7 @@ released: 2021-10-09
 updated: 2022-03-05
 version: '1.3'
 reviews: 
-website: https://ligex.exchange
+website: https://ligex.exchange#deadLink
 repository: 
 issue: 
 icon: com.ligex.png

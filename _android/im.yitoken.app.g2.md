@@ -10,7 +10,7 @@ released: 2021-06-15
 updated: 2023-08-24
 version: 1.3.5
 reviews: 
-website: https://yitoken.im
+website: https://yitoken.im#deadLink
 repository: 
 issue: 
 icon: im.yitoken.app.g2.png

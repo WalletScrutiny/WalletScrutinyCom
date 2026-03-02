@@ -10,7 +10,7 @@ released: 2020-02-09
 updated: 2020-03-28
 version: 1.0.3
 reviews: 
-website: https://www.bizonbit.com
+website: https://www.bizonbit.com#deadLink
 repository: 
 issue: 
 icon: com.bizonbit.png

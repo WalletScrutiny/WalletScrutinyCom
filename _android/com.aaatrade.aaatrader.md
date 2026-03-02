@@ -11,7 +11,7 @@ released:
 updated: 2023-09-22
 version: 1.1.10
 reviews: 
-website: https://www.aaatrade.com
+website: https://www.aaatrade.com#deadLink
 repository: 
 issue: 
 icon: com.aaatrade.aaatrader.png
@@ -36,5 +36,5 @@ features:
 
 ## Analysis 
 
-- The cryptocurrency pairs that are traded on this platform are actually CFDs. You can find this information [here.](https://www.aaatrade.com/products/cfd_products#cfd_cryptocurrencies)
+- The cryptocurrency pairs that are traded on this platform are actually CFDs. You can find this information [here.](https://www.aaatrade.com/products/cfd_products#cfd_cryptocurrencies&deadLink)
 - This app **cannot send and receive bitcoin**.

@@ -10,7 +10,7 @@ released: 2020-02-26
 updated: 2020-07-07
 version: '1.1'
 reviews: 
-website: https://plutx.io
+website: https://plutx.io#deadLink
 repository: 
 issue: 
 icon: com.plutxwallet.png

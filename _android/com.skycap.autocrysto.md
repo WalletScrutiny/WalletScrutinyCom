@@ -10,7 +10,7 @@ released: 2019-11-18
 updated: 2020-04-27
 version: 1.0.3
 reviews: 
-website: https://autocrysto.trade/
+website: https://autocrysto.trade#deadLink
 repository: 
 issue: 
 icon: com.skycap.autocrysto.png

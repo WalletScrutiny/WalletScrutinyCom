@@ -11,7 +11,7 @@ released: 2021-06-07
 updated: 2022-06-23
 version: 1.8.0
 reviews: 
-website: https://www.cabital.com
+website: https://www.cabital.com#deadLink
 repository: 
 issue: 
 icon: com.cabital.cabital.png

@@ -10,7 +10,7 @@ released: 2019-09-28
 updated: 2019-09-28
 version: '1.0'
 reviews: 
-website: https://www.bxen.io/tickets
+website: https://www.bxen.io/tickets#deadLink
 repository: 
 issue: 
 icon: com.IcmTech_Bxen.myapp.png

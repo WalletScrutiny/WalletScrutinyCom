@@ -11,7 +11,7 @@ released: 2020-10-29
 updated: 2021-08-18
 version: 1.3.6
 reviews: 77
-website: https://cointral.com
+website: https://cointral.com#deadLink
 repository: 
 issue: 
 icon: com.cointral.exchange.png

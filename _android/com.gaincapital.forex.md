@@ -39,7 +39,7 @@ Perhaps one of the more well-known Forex sites due to its domain power, Forex.co
 
 ## The Site
 
-[Gain Capital](https://web.archive.org/web/20030130204714/http://www.forex.com/) now known as Gain Capital Holdings, has been in possession of the domain since 2003. 
+[Gain Capital](http://www.forex.com) now known as Gain Capital Holdings, has been in possession of the domain since 2003. 
 
 Like many of the forex and cryptocurrency trading sites that we've reviewed in the past, Forex.com cannot be funded via cryptocurrencies. Instead, these are the **[funding options](https://www.forex.com/en-us/support/faqs/funding/)**:
 

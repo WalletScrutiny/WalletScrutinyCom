@@ -11,7 +11,7 @@ released: 2021-08-08
 updated: 2024-02-24
 version: 3.2.3
 reviews: 
-website: https://koinwa.com/
+website: https://koinwa.com#deadLink
 repository: 
 issue: 
 icon: com.koinwatech.koinwa.png

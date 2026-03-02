@@ -36,7 +36,7 @@ Bitazza is a cryptocurrency exchange and wallet provider.
 
 Upon sign up, KYC is needed prior to accessing most features including the BTC wallet. The BTC address is not shown if you do not verify your identity. 
 
-In Bitazza's [Terms Page](https://bitazza.com/tof.html), the user "appoints" and "authorizes" Bitazza to be its lawful agent and broker, possessing, transacting user's "Tokens". Bitazza defines "Tokens" as cryptocurrency (in general).
+In Bitazza's [Terms Page](https://bitazza.com/tof.html#deadLink), the user "appoints" and "authorizes" Bitazza to be its lawful agent and broker, possessing, transacting user's "Tokens". Bitazza defines "Tokens" as cryptocurrency (in general).
 
 We reached out to Bitazza support and this is their reply:
 

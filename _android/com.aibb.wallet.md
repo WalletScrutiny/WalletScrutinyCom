@@ -11,7 +11,7 @@ released: 2019-04-04
 updated: 2021-10-04
 version: 2.3.15
 reviews: 254
-website: https://blockbank.ai/
+website: https://web.archive.org/web/20240713055326/https://blockbank.ai/
 repository: 
 issue: 
 icon: com.aibb.wallet.jpg
@@ -45,7 +45,7 @@ There are currently 4 blockbank apps on WalletScrutiny and still available on Go
 - {% include walletLink.html wallet='android/ai.blockbank.bbexpoapp' verdict='true' %} 
 - {% include walletLink.html wallet='iphone/ai.blockbank.blockbankv2' verdict='true' %}
 
-This is addressed in the [FAQ](https://blockbank.ai/faq/), with the following information on how to migrate V1 to V2: 
+This is addressed in the [FAQ](https://blockbank.ai/faq#deadLink), with the following information on how to migrate V1 to V2: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1IySkOTIjwk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -66,7 +66,7 @@ The app has many other features related to DeFi and staking.
 
 ### The Site
 
-Barely two minutes into [Blockbank's site](https://blockbank.ai/), we were contacted by support through the embedded chat's browser notification. We engaged with a conversation with them and they asserted that V2 will be non-custodial. We then asked for links to their source code if it was open source. They replied that they'd have to consult their developers for that. We were able to locate their github page, but it was not directly linked from their site.
+Barely two minutes into [Blockbank's site](https://web.archive.org/web/20240713055326/https://blockbank.ai/), we were contacted by support through the embedded chat's browser notification. We engaged with a conversation with them and they asserted that V2 will be non-custodial. We then asked for links to their source code if it was open source. They replied that they'd have to consult their developers for that. We were able to locate their github page, but it was not directly linked from their site.
 
 #### Terms of Use
 
@@ -96,7 +96,7 @@ Furthermore:
 
 #### Blockbank's "Lightpaper"
 
-Blockbank has a lightpaper which can be accessed [here](https://blockbank.ai/docs/blockbank_lightpaper.pdf). 
+Blockbank has a lightpaper which can be accessed [here](https://blockbank.ai/docs/blockbank_lightpaper.pdf#deadLink). 
 
 > BlockBank consists of 4 main components:<br><br>
 

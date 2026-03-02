@@ -64,7 +64,7 @@ The phone also requires a wifi connection or cellular network data to access "th
 
 > Once a wifi connection (or a cellular network data) is made, the Function X OS will be able to bypass all centralized service provider within its 'Blockchain" mode, offering users the ability to control their data.
 
-PundiX [has a Medium article](https://morningtick.com/news/pundi-x-unveils-bob-worlds-first-blockchain-smartphone/) with a few details concerning the product.
+PundiX [has a Medium article](https://web.archive.org/web/20230130163436/https://morningtick.com/news/pundi-x-unveils-bob-worlds-first-blockchain-smartphone/) with a few details concerning the product.
 
 > The smartphone runs on the Android 9 Pie version and offers all the functions of a regular android phone. Powered by Qualcomm Snapdragon 660 chipset, Adreno 512 GPU and 6GB RAM, 128GB Storage, and the storage can be expanded to 512GB.
 >

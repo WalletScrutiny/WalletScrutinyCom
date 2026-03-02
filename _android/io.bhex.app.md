@@ -48,7 +48,7 @@ Although the content is in English and available internationally, the Chinese la
 
 HBTC.com is known as the exchange where Apple co-founder [Steve Wozniak token was launched](https://www.businesswire.com/news/home/20201213005050/en/Apple-Co-founder-Steve-Wozniak%E2%80%99s-New-Ambition-Kicks-Off-on-HBTC.com).
 
-Its support documents refer to [depositing and withdrawing cryptocurrencies including Bitcoin](https://support.hbtc.co/hc/en-us/articles/360009406513-How-to-Deposit-).
+Its support documents refer to [depositing and withdrawing cryptocurrencies including Bitcoin](https://support.hbtc.co/hc/en-us/articles/360009406513-How-to-Deposit-#deadLink).
 
 It refers to a wallet as having "decentralized cross-chain custody", but leads to a different website. It may be the other app.
 

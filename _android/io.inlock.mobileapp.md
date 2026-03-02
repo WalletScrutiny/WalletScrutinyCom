@@ -47,7 +47,7 @@ Because it is meant to hold users' assets in "the long run", the nature of this 
 ## The Site
 
 
-This service has the ability to terminate users' accounts. From the [Terms and Conditions](https://inlock.io/tos):
+This service has the ability to terminate users' accounts. From the [Terms and Conditions](https://inlock.io/tos#deadLink):
 
 > You understand and accept by opening your INLOCK account, Service Provider, without preliminary notification may terminate, suspend or restrict any of its customer's account which demonstrably or reasonably suspected to violate the Terms and Conditions using inlock.io website or any INLOCK services.
 

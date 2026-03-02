@@ -10,7 +10,7 @@ released: 2019-10-26
 updated: 2019-12-24
 version: '1.01'
 reviews: 
-website: https://KeepMySeed.com
+website: https://keepmyseed.com#deadLink
 repository: 
 issue: 
 icon: com.KeepMySeed.nfc.png

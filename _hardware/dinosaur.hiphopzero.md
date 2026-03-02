@@ -39,7 +39,7 @@ features:
 
 This do-it-yourself Trezor Clone used the **[Trezor-MCU archived code](https://github.com/trezor/trezor-mcu/).**
 
-Build Instructions are available [here](https://dinosaur.hiphop/).
+Build Instructions are available [here](https://web.archive.org/web/20260114071831/http://dinosaur.hiphop/).
 
 Primary Components are: 
 

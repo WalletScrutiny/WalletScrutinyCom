@@ -11,7 +11,7 @@ released: 2022-11-10
 updated: 2022-12-12
 version: '1.8'
 reviews: 8
-website: https://wallet.berrychain.io
+website: https://wallet.berrychain.io#deadLink
 repository: 
 issue: 
 icon: com.berrywallet.wallet.png

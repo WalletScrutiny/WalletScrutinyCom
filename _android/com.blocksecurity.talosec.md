@@ -10,7 +10,7 @@ released: 2020-05-28
 updated: 2020-06-14
 version: 2.0.0
 reviews: 
-website: http://talosec.io
+website: http://talosec.io#deadLink
 repository: 
 issue: 
 icon: com.blocksecurity.talosec.png

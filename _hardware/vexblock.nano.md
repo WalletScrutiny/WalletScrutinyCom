@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Vex Capital and Technology LTD
 providerWebsite: 
-website: https://vexblock.co
+website: https://web.archive.org/web/20200805051007/http://vexblock.co/
 shop: 
 country: 
 price: 29.9USD

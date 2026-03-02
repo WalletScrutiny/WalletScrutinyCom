@@ -11,7 +11,7 @@ released: 2019-10-10
 updated: 2023-02-02
 version: 3.1.1
 reviews: 
-website: https://www.baanxapp.com
+website: https://www.baanxapp.com#deadLink
 repository: 
 issue: 
 icon: com.baanx.baanx.png
@@ -44,7 +44,7 @@ features:
 > - Secure customer authentication and user-focused features, such as freezing your card, put you in control.
 > - Move your Baanx tokens (BXX) with ease and let your assets work for you, enjoy receiving earnings from BXX staking.
 
-## [FAQs](https://www.baanxapp.com/faq)
+## [FAQs](https://www.baanxapp.com/faq#deadLink)
 
 > **Do you charge a user to open a crypto wallet?** <br>
 All _fully verified users_ can create cryptocurrency wallets at no cost or fees within the platform.
@@ -52,7 +52,7 @@ All _fully verified users_ can create cryptocurrency wallets at no cost or fees 
 > **What cryptocurrencies can I purchase?** <br>
 You can purchase Bitcoin, Bitcoin Cash, Ethereum, Litecoin and Ripple.
 
-## [Terms and Conditions](https://www.baanxapp.com/terms-conditions)
+## [Terms and Conditions](https://www.baanxapp.com/terms-conditions#deadLink)
 
 > Baanx maintains **full custody** of the funds and User data/information which may be given to governmental authorities in the event of Account suspension/closure arising from fraud investigations, violation of law investigations or violation of these Terms.
 

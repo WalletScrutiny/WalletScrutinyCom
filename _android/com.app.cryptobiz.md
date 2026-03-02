@@ -50,7 +50,7 @@ features:
 > Oh Oh! You are Offline! Please turn on your internet connection.
 
 - The website on the other hand, displays a Cloudflare Host error.
-- We checked for the archive of the site, and found the [Terms and Conditions](https://web.archive.org/web/20230321220224/https://www.cryptobiz.exchange/terms-and-condition), where it is stated:
+- We checked for the archive of the site, and found the [Terms and Conditions](https://www.cryptobiz.exchange/terms-and-condition), where it is stated:
 
 > the Company’s sole discretion, you have successfully opened your Account and satisfied the KYC process (as described below).
 >

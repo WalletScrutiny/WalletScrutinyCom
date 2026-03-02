@@ -43,7 +43,7 @@ Sell and store cryptocurrency for Naira. The app uses cold storage to secure the
 
 ## Site
 
-### [Terms of Use](https://www.jackocoins.com/termsofuse)
+### [Terms of Use](https://www.jackocoins.com/termsofuse#deadLink)
 
 > **Wallet, transaction and payment**
 > 1. It is the obligation of the user to check copied wallet address matched before sending any cryptocurrency from third party. We won't bear the responsibility for any loss due to incorrect wallet address
@@ -62,7 +62,7 @@ Oddly, there seems to be no receive function on the wallet. The send function on
 
 ## Verdict
 
-Like most wallets we've thus tested whose base is in Nigeria, the app has some missing functionalities although they mostly claim Bitcoin as being present or being tradeable on their platform. The wording on this app's [terms of use](https://www.jackocoins.com/termsofuse) implies the existence of a bitcoin wallet albeit with very limited use. But with that said, apps that **cannot send or receive** bitcoins are also custodial.
+Like most wallets we've thus tested whose base is in Nigeria, the app has some missing functionalities although they mostly claim Bitcoin as being present or being tradeable on their platform. The wording on this app's [terms of use](https://www.jackocoins.com/termsofuse#deadLink) implies the existence of a bitcoin wallet albeit with very limited use. But with that said, apps that **cannot send or receive** bitcoins are also custodial.
 
 
 

@@ -58,7 +58,7 @@ It also has a seemingly discontinued predecessor (from the same developer) with 
 
 Users are encouraged to invest in mining contracts that cost $43.80 per Terahash. They have a calculator that claims to provide x number of bitcoins daily profit based on several factors.
 
-The site has been in existence since [2016](https://web.archive.org/web/20161024161526/https://oxbtc.com/).
+The site has been in existence since [2016](https://oxbtc.com).
 
 ## The App
 

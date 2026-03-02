@@ -11,7 +11,7 @@ released: 2022-06-21
 updated: 2023-10-25
 version: '1.4'
 reviews: 3
-website: https://vynksafe.com
+website: https://vynksafe.com#deadLink
 repository: 
 issue: 
 icon: com.pixels.vynksafe.jpg

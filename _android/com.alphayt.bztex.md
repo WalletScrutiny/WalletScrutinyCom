@@ -10,7 +10,7 @@ released: 2022-02-18
 updated: 2022-04-28
 version: 1.1.9
 reviews: 
-website: https://www.bztex.co/
+website: https://www.bztex.co#deadLink
 repository: 
 issue: 
 icon: com.alphayt.bztex.png

@@ -11,7 +11,7 @@ released: 2020-07-24
 updated: 2024-05-29
 version: 6.0.20
 reviews: 
-website: http://www.kikitrade.com
+website: http://www.kikitrade.com#deadLink
 repository: 
 issue: 
 icon: com.kikitrade.png
@@ -47,7 +47,7 @@ Section 2.5 mentions:
 
 > We reserve the **right to suspend or terminate**, according to our sole discretion and without providing any prior notice, your registration or access to the Exchange or the Site, in the event that (i) when we reasonably suspect that you have breached any of the Agreement, (ii) when we reasonably suspect fraudulent or illegal activities, or (iii) when the Agreement has been terminated.
 
-The [terms](https://www.kikitrade.com/terms) also mentions:
+The [terms](https://www.kikitrade.com/terms#deadLink) also mentions:
 
 > In the instance of any private keys held and managed by Kikitrade, Kikitrade does not convey ownership or any related rights associated with the Users. You acknowledge and agree that Kikitrade assumes absolutely no responsibilities whatsoever in respect of an unsupported branch of a forked protocol.
 
@@ -71,4 +71,4 @@ We downloaded and installed the app on our phone. Registration is through email 
 
 ### Verdict
 
-The wording about how kikitrade handles private keys in the [Terms and Conditions](https://www.kikitrade.com/terms) plus the restrictions on withdrawals lend us to give a verdict of **custodial** and thus **not verifiable**.
+The wording about how kikitrade handles private keys in the [Terms and Conditions](https://www.kikitrade.com/terms#deadLink) plus the restrictions on withdrawals lend us to give a verdict of **custodial** and thus **not verifiable**.

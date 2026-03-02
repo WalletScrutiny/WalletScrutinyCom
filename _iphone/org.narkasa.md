@@ -11,7 +11,7 @@ released: 2020-11-14
 updated: 2021-04-11
 version: '1.27'
 reviews: 0
-website: https://narkasa.com/
+website: https://narkasa.com#deadLink
 repository: 
 issue: 
 icon: org.narkasa.jpg

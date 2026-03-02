@@ -11,7 +11,7 @@ released: 2021-03-04
 updated: 2025-09-04
 version: 2.4.1
 reviews: 1
-website: https://koinkoin.io/
+website: https://koinkoin.io#deadLink
 repository: 
 issue: 
 icon: com.koinkoin.app.jpg

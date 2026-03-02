@@ -10,7 +10,7 @@ released: 2020-04-14
 updated: 2021-04-05
 version: '3.0'
 reviews: 
-website: https://www.tmebit.co.kr
+website: https://www.tmebit.co.kr#deadLink
 repository: 
 issue: 
 icon: com.tmebit.exchange.png

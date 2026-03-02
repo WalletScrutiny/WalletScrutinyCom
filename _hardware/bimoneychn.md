@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BiMoneyCHN
 providerWebsite: 
-website: https://bimoney.io
+website: https://bimoney.io#deadLink
 shop: 
 country: CN
 price: 

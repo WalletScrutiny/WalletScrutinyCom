@@ -10,7 +10,7 @@ released: 2022-02-22
 updated: 2022-03-22
 version: '1.01'
 reviews: 
-website: https://ocm.exchange/
+website: https://ocm.exchange#deadLink
 repository: 
 issue: 
 icon: com.ocm.exchange.png

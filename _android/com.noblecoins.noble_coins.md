@@ -10,7 +10,7 @@ released: 2021-12-01
 updated: 2022-08-12
 version: 2.0.0
 reviews: 
-website: https://www.noblecoins.net
+website: https://www.noblecoins.net#deadLink
 repository: 
 issue: 
 icon: com.noblecoins.noble_coins.png

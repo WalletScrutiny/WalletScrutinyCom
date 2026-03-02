@@ -11,7 +11,7 @@ released: 2022-03-24
 updated: 2023-06-15
 version: 1.19.0
 reviews: 8
-website: https://www.pexpay.com/
+website: https://www.pexpay.com#deadLink
 repository: 
 issue: 
 icon: com.pexpay.android.png

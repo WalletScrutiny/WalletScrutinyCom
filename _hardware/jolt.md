@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://joltwallet.com/
+website: http://joltwallet.com#deadLink
 shop: 
 country: US
 price: 

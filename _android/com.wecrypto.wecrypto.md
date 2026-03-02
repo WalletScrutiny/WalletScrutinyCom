@@ -10,7 +10,7 @@ released: 2018-01-12
 updated: 2018-01-12
 version: '1.0'
 reviews: 
-website: http://wecrypto.net
+website: http://wecrypto.net#deadLink
 repository: 
 issue: 
 icon: com.wecrypto.wecrypto.png

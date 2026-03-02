@@ -10,7 +10,7 @@ released: 2021-08-20
 updated: 2021-08-20
 version: 1.0.0
 reviews: 
-website: https://724borsa.com/
+website: https://724borsa.com#deadLink
 repository: 
 issue: 
 icon: com.yyborsa.png

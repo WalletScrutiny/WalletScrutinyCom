@@ -11,7 +11,7 @@ released: 2021-03-18
 updated: 2021-03-22
 version: 0.9.5+205
 reviews: 
-website: https://antareswallet.com/
+website: https://antareswallet.com#deadLink
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg
@@ -59,7 +59,7 @@ features:
 
 ## The Site
 
-The website for the app was not listed. But we were able to search on Google and found antareswallet.com via [wayback machine](https://web.archive.org/web/20210302035039/https://antareswallet.com/). It is now returning a 404 error.
+The website for the app was not listed. But we were able to search on Google and found antareswallet.com via [wayback machine](https://antareswallet.com#deadLink). It is now returning a 404 error.
 
 ## The App
 

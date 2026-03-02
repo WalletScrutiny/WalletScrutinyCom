@@ -11,7 +11,7 @@ released: 2021-08-26
 updated: 2023-03-25
 version: 2.5.2
 reviews: 3
-website: https://muna.app
+website: https://muna.app#deadLink
 repository: 
 issue: 
 icon: com.quru.muna.jpg

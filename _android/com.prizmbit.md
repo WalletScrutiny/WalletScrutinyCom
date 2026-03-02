@@ -11,7 +11,7 @@ released: 2019-06-28
 updated: 2021-09-16
 version: '1.5'
 reviews: 270
-website: https://prizmbit.com/
+website: https://prizmbit.com#deadLink
 repository: 
 issue: 
 icon: com.prizmbit.png
@@ -33,6 +33,6 @@ features:
 
 **Update 2021-12-04**: This app is gone from the Store.
 
-There is no statement regarding how private keys are managed in the play store description or on the [providers website](https://prizmbit.com/) or FAQ.
+There is no statement regarding how private keys are managed in the play store description or on the [providers website](https://prizmbit.com#deadLink) or FAQ.
 
 Our verdict: This 'wallet' is custodial and therefore **not verifiable**.

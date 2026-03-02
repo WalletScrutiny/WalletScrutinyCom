@@ -11,7 +11,7 @@ released: 2020-12-30
 updated: 2021-03-02
 version: 1.0.4.210302
 reviews: 
-website: https://terra-bit.io
+website: https://terra-bit.io#deadLink
 repository: 
 issue: 
 icon: com.terracredit.pro.png

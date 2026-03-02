@@ -11,7 +11,7 @@ released: 2024-06-05
 updated: 2025-04-02
 version: 1.13.0
 reviews: 308
-website: https://www.elementwallet.com/
+website: https://www.elementwallet.com#deadLink
 repository: 
 issue: 
 icon: com.corewallet.element.app.jpg

@@ -11,7 +11,7 @@ released: 2021-03-17
 updated: 2022-09-22
 version: 4.7.79
 reviews: 84
-website: https://hoo.com
+website: https://hoo.com#deadLink
 repository: 
 issue: 
 icon: com.hoo.qianbao.png
@@ -43,11 +43,11 @@ The app store page did not directly link to any website. However, the email list
 
 > With the support of Hoo Custody's unique cold wallet just-in-time payment technology, you can achieve high-speed transfer response when your private key is completely offline, enabling you to seize market opportunities in a timely manner.
 
-### [Privacy Policy](https://help.hoo.ac/hc/en-us/articles/360038254972-Privacy-Policy)
+### [Privacy Policy](https://help.hoo.ac/hc/en-us/articles/360038254972-Privacy-Policy#deadLink)
 > Your personal data and relevant information that we may obtain from you shall be used in the following areas:  
 > - Know Your Client requirement
 
-### [User Agreement](https://help.hoo.ac/hc/en-us/articles/360029242212)
+### [User Agreement](https://help.hoo.ac/hc/en-us/articles/360029242212#deadLink)
 >  If the user violates the above provisions, **Hoo has the right to take all necessary measures directly, including but not limited to deleting the content posted by the user, canceling the stars and honors obtained by the user on the website, freezing the digital assets of the user**, suspending or sealing up the user account, canceling the benefits obtained due to the violation, and even investigating the legal liability of the user through litigation.
 
 ## The App

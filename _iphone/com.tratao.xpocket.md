@@ -23,7 +23,7 @@ date: 2025-01-27
 signer: 
 twitter: xBank_Official
 social:
-- https://discord.com/invite/PGBVwcaeQE
+- https://discord.com/invite/PGBVwcaeQE#deadLink
 - https://www.linkedin.com/company/xbank-global
 - https://medium.com/@xBankCrypto
 features: 

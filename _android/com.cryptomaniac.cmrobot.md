@@ -11,7 +11,7 @@ released: 2019-08-21
 updated: 2019-09-11
 version: 2.2.1
 reviews: 
-website: https://www.cmrobot.id/
+website: https://www.cmrobot.id#deadLink
 repository: 
 issue: 
 icon: com.cryptomaniac.cmrobot.png

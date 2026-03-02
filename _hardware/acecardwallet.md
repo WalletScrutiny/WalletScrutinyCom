@@ -14,7 +14,7 @@ dimensions:
 - 1
 weight: 1
 provider: Digital Systems a.s.
-providerWebsite: https://digitalsystems.eu
+providerWebsite: https://digitalsystems.eu#deadLink
 website: https://www.digitalsystems.eu/cyber-security/#ace
 shop: 
 country: SK

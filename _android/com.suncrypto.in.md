@@ -43,6 +43,6 @@ Under "Client Funds" on the same page:
 
 > By accepting these Terms of Use, and to the extent not prohibited by applicable law, You hereby grant to SunCrypto the authority to open and establish a ‘client account’ and **You agree to grant SunCrypto the right to control the Client’s assets including crypto assets and client fiat**.
 
-The transaction fees are detailed on this [page](https://suncrypto.in/trading-deposit)
+The transaction fees are detailed on this [page](https://suncrypto.in/trading-deposit#deadLink)
 
 This concludes our verdict describing this app as a **custodial** service and thus **cannot be verified.**

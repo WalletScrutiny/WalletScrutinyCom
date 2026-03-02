@@ -9,7 +9,7 @@ twitter: PEY
 social:
 - https://www.facebook.com/PEYapp
 provider: Ricardo Ferrer Rivero
-providerWebsite: https://pey.de
+providerWebsite: https://web.archive.org/web/20240906202400/https://pey.de/
 meta: ok
 verdict: vapor
 

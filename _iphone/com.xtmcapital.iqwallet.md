@@ -11,7 +11,7 @@ released: 2021-10-18
 updated: 2021-10-19
 version: '1.3'
 reviews: 3
-website: https://iqwallet.io/
+website: https://iqwallet.io#deadLink
 repository: 
 issue: 
 icon: com.xtmcapital.iqwallet.jpg

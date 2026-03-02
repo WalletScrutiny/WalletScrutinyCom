@@ -10,7 +10,7 @@ released: 2019-09-11
 updated: 2019-12-03
 version: 1.0.2
 reviews: 
-website: http://www.bitanmt.com
+website: http://www.bitanmt.com#deadLink
 repository: 
 issue: 
 icon: com.btmex.exchange.png

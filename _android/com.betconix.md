@@ -45,7 +45,7 @@ On security:
 
 ### User Agreement
 
-[Betconix's Terms and Conditions](https://betconix.com/storage/docs/bnix_terms_of_use_en.pdf) states that the app is capable of storing your money.
+[Betconix's Terms and Conditions](https://betconix.com/storage/docs/bnix_terms_of_use_en.pdf#deadLink) states that the app is capable of storing your money.
 
 > The Service undertakes to accept Cryptocurrency from the Users, store it, keep count of it, conduct transactions under the instruction of the User and provide the User with Cryptocurrency upon his request.
 

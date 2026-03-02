@@ -77,7 +77,7 @@ Bitcash claims to operate "without a private key," using a Multi-Party Computati
 
 In this MPC setup, Bitcash holds one of the two key shares required to authorize transactions. While they likely cannot unilaterally steal funds (they need the user's share), they retain veto power over all transactions. If Bitcash's service refuses to provide their signature share, users cannot move their funds.
 
-From WalletScrutiny's [custodial verdict definition](https://walletscrutiny.com/verdicts/custodial/):
+From WalletScrutiny's [custodial verdict definition](https://walletscrutiny.com/verdicts/custodial#deadLink):
 > A custodial service is a service where the funds are held by a third party like the provider. The custodial service can at any point steal all the funds of all the users at their discretion.
 
 While Bitcash cannot steal funds outright, their ability to block transactions gives them control equivalent to custody in practice - users cannot access their funds without the provider's cooperation. Recovery through facial recognition, where the service decrypts the second key share, further confirms provider involvement in the signing process.

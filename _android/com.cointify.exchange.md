@@ -10,7 +10,7 @@ released: 2019-04-29
 updated: 2019-06-24
 version: 1.0.2
 reviews: 
-website: https://ex.cointify.com/
+website: https://ex.cointify.com#deadLink
 repository: 
 issue: 
 icon: com.cointify.exchange.png

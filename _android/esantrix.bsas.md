@@ -10,7 +10,7 @@ released: 2021-01-30
 updated: 2022-04-11
 version: '9.8'
 reviews: 
-website: https://santiagocelentano.wixsite.com/esantrix
+website: https://santiagocelentano.wixsite.com/esantrix#deadLink
 repository: 
 issue: 
 icon: esantrix.bsas.png

@@ -10,7 +10,7 @@ released: 2020-06-25
 updated: 2020-06-20
 version: '5.0'
 reviews: 
-website: https://bitcoinet.net/
+website: https://bitcoinet.net#deadLink
 repository: 
 issue: 
 icon: com.bitcoinet.bitcoinet.png

@@ -11,7 +11,7 @@ released: 2024-03-01
 updated: 2024-09-04
 version: 1.8.0
 reviews: 18
-website: https://www.mutinywallet.com/
+website: https://web.archive.org/web/20250321052421/https://www.mutinywallet.com/
 repository: https://github.com/MutinyWallet/mutiny-web
 issue: 
 icon: com.mutinywallet.mutiny.jpg

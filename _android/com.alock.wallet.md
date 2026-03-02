@@ -10,7 +10,7 @@ released: 2021-07-26
 updated: 2022-05-30
 version: 4.3.11
 reviews: 
-website: https://a-fun.co.kr/
+website: https://a-fun.co.kr#deadLink
 repository: 
 issue: 
 icon: com.alock.wallet.png

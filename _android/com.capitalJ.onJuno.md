@@ -53,7 +53,7 @@ A reference to crypto is available in its iOS app page.
 
 - The app is geo-restricted hence, we were not able to install it.
 - There are tutorials on how to [deposit](https://help.juno.finance/en/articles/5598204-how-to-deposit-crypto)/[withdraw](https://help.juno.finance/en/articles/5598202-how-to-withdraw-crypto) cryptocurrencies including bitcoin.
-- We were able to find a document called the [OnJuno Digital Currency Custody Account Agreement](https://cdn.juno.finance/legal/OnJuno_Digital_Currency_Agreement.pdf) involving Evolve Bank & Trust and Juno's users. Strangely, Evolve, in a statement, [disavows](https://www.getevolved.com/important-information/) offering custodial services of any form.
+- We were able to find a document called the [OnJuno Digital Currency Custody Account Agreement](https://cdn.juno.finance/legal/OnJuno_Digital_Currency_Agreement.pdf) involving Evolve Bank & Trust and Juno's users. Strangely, Evolve, in a statement, [disavows](https://www.getevolved.com/important-information#deadLink) offering custodial services of any form.
 - The [list](https://help.juno.finance/en/articles/5598183-what-cryptocurrencies-are-supported-by-juno) of cryptocurrencies the user can buy on Juno.
 
 ## Conclusion 

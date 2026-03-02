@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: HooFoo Inc
-providerWebsite: https://hoofoo.io
+providerWebsite: https://web.archive.org/web/20221212183201/https://hoofoo.io/
 website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 country: US

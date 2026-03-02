@@ -67,7 +67,7 @@ It also claims to keep the key offline.
 ## Source Code and Reproducibility
 
 The
-[Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf)
+[Quick Start Guide](https://secuxtech.com/secuxtech-download/Payment-EvKit/EvKit-Quick-Start-Guide.pdf#deadLink)
 links to a GitHub account ["secuxtech."](https://github.com/secuxtech) and there
 is a
 [repository labeled "SecuX device firmware."](https://github.com/secuxtech/SecuXMCU)

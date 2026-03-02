@@ -10,7 +10,7 @@ released: 2021-03-17
 updated: 2022-11-07
 version: 1.3.1
 reviews: 
-website: https://bitchant.co/
+website: https://bitchant.co#deadLink
 repository: 
 issue: 
 icon: com.bitchant.app.png

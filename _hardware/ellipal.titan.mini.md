@@ -48,7 +48,7 @@ The device is notably airgapped. The only method for it to update is by download
 
 ## Analysis 
 
-The firmware updates are available for [download from Ellipal's website](https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip) but we could not find the source code of the firmware. This product is **not verifiable**.
+The firmware updates are available for [download from Ellipal's website](https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip#deadLink) but we could not find the source code of the firmware. This product is **not verifiable**.
 
 
 

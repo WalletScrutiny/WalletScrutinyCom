@@ -11,7 +11,7 @@ released: 2022-11-25
 updated: 2023-02-08
 version: 1.3.1
 reviews: 12
-website: https://dexwallet.info
+website: https://dexwallet.info#deadLink
 repository: 
 issue: 
 icon: com.wallet.dex.png

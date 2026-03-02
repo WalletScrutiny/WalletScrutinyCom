@@ -63,7 +63,7 @@ It is unavailable in the US.
 
 There's [a repository for the official open-source code](https://github.com/GaloyMoney/galoy) with accessible releases and build instructions.
 
-Galoy Inc's official website contains information on this app [here:](https://galoy.io/bitcoin-beach-wallet/)
+Galoy Inc's official website contains information on this app [here:](https://galoy.io/bitcoin-beach-wallet#deadLink)
 
 > Bitcoin Beach is an initiative designed to create a sustainable Bitcoin economy – utilizing the Lightning Network. The project is based in El Zonte, a town of roughly 3,000 residents on the Pacific Coast of El Salvador.
 >

@@ -85,7 +85,7 @@ Hit:1 http://security.debian.org/debian-security bullseye-security InRelease
 Hit:2 http://deb.debian.org/debian bullseye InRelease
 Hit:3 http://deb.debian.org/debian bullseye-updates InRelease
 Get:4 http://security.debian.org/debian-security stretch/updates InRelease [53.0 kB]
-Hit:5 https://dl.winehq.org/wine-builds/debian bullseye InRelease
+Hit:5 https://dl.winehq.org/wine-builds/debian#deadLink bullseye InRelease
 Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [748 kB]
 Get:7 http://security.debian.org/debian-security stretch/updates/main i386 Packages [748 kB]
 Fetched 1549 kB in 1s (1847 kB/s)

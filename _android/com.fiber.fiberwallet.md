@@ -10,7 +10,7 @@ released: 2021-04-20
 updated: 2021-04-27
 version: 1.1.85
 reviews: 
-website: https://app.wirewallet.org/
+website: https://app.wirewallet.org#deadLink
 repository: 
 issue: 
 icon: com.fiber.fiberwallet.png

@@ -10,7 +10,7 @@ released: 2019-03-26
 updated: 2019-04-19
 version: '1.1'
 reviews: 
-website: https://www.act-tech.io/
+website: https://www.act-tech.io#deadLink
 repository: 
 issue: 
 icon: com.architech.act.plutowallet.png

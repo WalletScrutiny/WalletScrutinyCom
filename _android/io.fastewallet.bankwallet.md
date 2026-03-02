@@ -11,7 +11,7 @@ released: 2022-08-31
 updated: 2023-01-18
 version: 0.26.4
 reviews: 
-website: http://crypto.fastewallet.com/
+website: http://crypto.fastewallet.com#deadLink
 repository: 
 issue: 
 icon: io.fastewallet.bankwallet.png

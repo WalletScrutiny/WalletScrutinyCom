@@ -10,7 +10,7 @@ released: 2021-08-01
 updated: 2021-08-01
 version: '1.0'
 reviews: 
-website: https://t91a3kzq.app-adstxt.dev/app-ads.txt
+website: https://t91a3kzq.app-adstxt.dev/app-ads.txt#deadLink
 repository: 
 issue: 
 icon: com.app.bitcoinstorea.jpg

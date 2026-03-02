@@ -10,7 +10,7 @@ released: 2019-11-10
 updated: 2019-11-24
 version: 0.0.3
 reviews: 
-website: https://payments.bitstash.co/
+website: https://payments.bitstash.co#deadLink
 repository: 
 issue: 
 icon: app.odapplications.bitstashwallet.png

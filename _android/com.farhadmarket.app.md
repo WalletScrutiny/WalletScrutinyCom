@@ -11,7 +11,7 @@ released: 2019-07-08
 updated: 2021-12-05
 version: 1.9.124
 reviews: 14
-website: https://farhadmarket.com/
+website: https://farhadmarket.com#deadLink
 repository: 
 issue: 
 icon: com.farhadmarket.app.png
@@ -44,7 +44,7 @@ In its FAQ section under "What is a Bitcoin Wallet",
 
 >A bitcoin wallet is like a bank account that individuals have. To hold a bitcoin, you need an international wallet that can be used around the world. We have made this possible for you. **You can use Farhad Market wallets to store your password**
 
-Another telling proof of its custodial nature can be found in its [Terms of Service](https://farhadmarket.com/terms-of-service/)
+Another telling proof of its custodial nature can be found in its [Terms of Service](https://farhadmarket.com/terms-of-service#deadLink)
 
 Clause 3 states:
 
@@ -58,11 +58,11 @@ Clause 23 of Article 4 states:
 
 > Farhad Market as a cryptocurrency exchange platform; It will be able to cancel the exchanges whenever there is a price difference between the trading parties and in a quick exchange
 
-Depositing bitcoins in the platform's wallet is described in this [blog post](https://farhadmarket.com/%d8%a7%d9%81%d8%b2%d9%88%d8%af%d9%86-%d9%85%d8%a8%d9%84%d8%ba-%d8%a8%db%8c%d8%aa-%da%a9%d9%88%db%8c%d9%86-%d8%a8%d8%b1%d8%a7%db%8c-%d9%81%d8%b1%d9%88%d8%b4-%d8%a8%db%8c%d8%aa-%da%a9%d9%88%db%8c%d9%86/):
+Depositing bitcoins in the platform's wallet is described in this [blog post](https://farhadmarket.com/%d8%a7%d9%81%d8%b2%d9%88%d8%af%d9%86-%d9%85%d8%a8%d9%84%d8%ba-%d8%a8%db%8c%d8%aa-%da%a9%d9%88%db%8c%d9%86-%d8%a8%d8%b1%d8%a7%db%8c-%d9%81%d8%b1%d9%88%d8%b4-%d8%a8%db%8c%d8%aa-%da%a9%d9%88%db%8c%d9%86#deadLink):
 
 >The address and QRCode are displayed to you. You can deposit any amount of bitcoin to your wallet. After depositing the amount, a message will be displayed for you in the Notifications section with the following content, but the final deposit of the amount to your account will take time to receive and perform the confirmations
 
-It can be gleaned in its Fees page, that there are cryptocurrency [withdrawal fees](https://farhadmarket.com/fees/) limitations, and thus, the ability to withdraw the cryptocurrencies.
+It can be gleaned in its Fees page, that there are cryptocurrency [withdrawal fees](https://farhadmarket.com/fees#deadLink) limitations, and thus, the ability to withdraw the cryptocurrencies.
 
 > For example, at the normal user level, it is possible to withdraw the equivalent of $ 500 from any type of cryptocurrency.
 

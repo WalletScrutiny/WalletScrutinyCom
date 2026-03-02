@@ -38,7 +38,7 @@ features:
 
 - The associated website is no longer online. It shows an error:
 
-> The webpage at https://bitbox.cx/apk/terms.html could not be loaded because: 
+> The webpage at https://bitbox.cx/apk/terms.html#deadLink could not be loaded because: 
 >
 > net::ERR_NAME_NOT_RESOLVED 
 

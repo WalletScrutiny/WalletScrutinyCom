@@ -10,7 +10,7 @@ released: 2022-01-19
 updated: 2022-02-17
 version: 1.0.0
 reviews: 
-website: http://bitfinix.tech/
+website: http://bitfinix.tech#deadLink
 repository: 
 issue: 
 icon: com.bit.finx.jpg

@@ -10,7 +10,7 @@ released: 2020-06-01
 updated: 2020-07-13
 version: '1.9'
 reviews: 
-website: https://www.asserosapphiremoney.com/
+website: https://www.asserosapphiremoney.com#deadLink
 repository: 
 issue: 
 icon: com.assero.asserowallet.png

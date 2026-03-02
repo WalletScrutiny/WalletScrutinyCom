@@ -101,6 +101,6 @@ You cannot login until you apply for an account with LMAX Global. They have to a
 
 ## Verdict
 
-We could not find any proof that you could deposit Bitcoin on the platform. Deposits are made in fiat. [Withdrawals can only be in fiat.](https://www.lmax.com/wp-content/uploads/sites/2/2019/05/Terms-of-Business.pdf)
+We could not find any proof that you could deposit Bitcoin on the platform. Deposits are made in fiat. [Withdrawals can only be in fiat.](https://www.lmax.com/wp-content/uploads/sites/2/2019/05/Terms-of-Business.pdf#deadLink)
 
 Financial trading platforms that support crypto CFDs usually **do not allow deposits or withdrawals in cryptocurrency.** These services are necessarily **custodial** which makes the app **unverifiable**.

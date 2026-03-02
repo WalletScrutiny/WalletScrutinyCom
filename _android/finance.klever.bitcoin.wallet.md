@@ -23,7 +23,7 @@ date: 2024-07-24
 signer: 
 twitter: klever_io
 social:
-- https://discord.gg/klever-io
+- https://discord.gg/klever-io#deadLink
 - https://www.instagram.com/klever.io
 - https://www.facebook.com/klever.io
 redirect_from: 

@@ -10,7 +10,7 @@ released: 2019-05-23
 updated: 2020-02-13
 version: '5.8'
 reviews: 
-website: https://basetrade.io
+website: https://basetrade.io#deadLink
 repository: 
 issue: 
 icon: com.hybridblock.basetrade.jpg

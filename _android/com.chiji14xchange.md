@@ -46,7 +46,7 @@ There is not that much information in the Play Store description:
 
 > Welcome to Chiji14xchange App, this App enables you to transact and exchange bitcoins and gift cards with adequate security features that guarantees safety for clients at all times.
 
-Searching the website, [we find that KYC verification is in use.](https://intercom.help/chiji14xchange/en/articles/4885360-what-is-kyc)
+Searching the website, [we find that KYC verification is in use.](https://intercom.help/chiji14xchange/en/articles/4885360-what-is-kyc#deadLink)
 
 > In order to meet regulatory standards and to aid in crime prevention and detection, Chiji14Xchange has taken steps to ensure proper customer identification through its Customer Due Diligence and Know Your Customer (KYC) procedure.
 

@@ -11,7 +11,7 @@ released: 2021-10-26
 updated: 2022-07-18
 version: 5.4.1_push_v2
 reviews: 
-website: https://dsdaq.com
+website: https://dsdaq.com#deadLink
 repository: 
 issue: 
 icon: com.chainup.exchange.DsdaqGlobal.png

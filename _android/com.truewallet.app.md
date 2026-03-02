@@ -10,7 +10,7 @@ released:
 updated: 2025-12-20
 version: VARY
 reviews: 
-website: https://truewallet.dev/
+website: https://truewallet.dev#deadLink
 repository: 
 issue: 
 icon: com.truewallet.app.png

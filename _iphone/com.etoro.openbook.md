@@ -32,10 +32,10 @@ developerName: eToro
 
 Etoro is used to speculate on assets more than to actually transfer them but in
 the case of Bitcoin, according to
-[the Help Center](https://www.etoro.com/customer-service/help/1422157482/can-i-withdraw-my-cryptocurrencies-from-the-platform/)
+[the Help Center](https://www.etoro.com/customer-service/help/1422157482/can-i-withdraw-my-cryptocurrencies-from-the-platform#deadLink)
 you can actually send Bitcoins from this app ... if you are in the right
 jurisdiction ...
-[further restrictions apply](https://etoro.nanorep.co/widget/widget.html?kb=156763&account=etoro#onloadquestionid=1306615492) ...
+[further restrictions apply](https://etoro.nanorep.co/widget/widget.html?kb=156763&account=etoro#onloadquestionid=1306615492&deadLink) ...
 
 So all in all this could pass as a custodial app.
 

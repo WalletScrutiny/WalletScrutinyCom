@@ -38,7 +38,7 @@ features:
 > 
 > Unlimited wallets for all your digital assets: BTC, ETH, USD, and NFTs. Keep organized in a secure, easy-to-use app.
 
-### [Terms as of 2020](https://web.archive.org/web/20210117152046/https://banq.com/termsofuse/) 
+### [Terms as of 2020](https://banq.com/termsofuse) 
 
 > End users that have established Financial Accounts will also be able to hold and manage the cash, securities and other assets held in their Financial Accounts.
 

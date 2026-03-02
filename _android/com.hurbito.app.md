@@ -10,7 +10,7 @@ released: 2021-01-20
 updated: 2021-01-20
 version: '1.5'
 reviews: 
-website: https://hurbito.com
+website: https://hurbito.com#deadLink
 repository: 
 issue: 
 icon: com.hurbito.app.jpg

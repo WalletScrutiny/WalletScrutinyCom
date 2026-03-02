@@ -184,7 +184,7 @@ public class v extends b0 {
 ```
 
 The same researcher found
-[more reasons why not to use this app](https://btc21.de/bitcoin-app-permissions/).
+[more reasons why not to use this app](https://btc21.de/bitcoin-app-permissions#deadLink).
 
 ## App Description
 

@@ -11,7 +11,7 @@ released:
 updated: 2023-01-04
 version: 1.3.1
 reviews: 
-website: https://www.vstmex.com/
+website: https://www.vstmex.com#deadLink
 repository: 
 issue: 
 icon: com.tocce.vst.png
@@ -56,7 +56,7 @@ features:
 
 This app has many negative reviews and scam allegations on social networks. The homepage is no longer online and the app simply shows the splash screen [(Twitter Screenshot)](https://twitter.com/BitcoinWalletz/status/1646005334757249024). 
 
-We'll mark this app as defunct and **custodial**, as the app description states on the [archived homepage](https://web.archive.org/web/20220518081049/https://vstmex.com/):
+We'll mark this app as defunct and **custodial**, as the app description states on the [archived homepage](https://vstmex.com):
  
 > - The use of cold wallets to storage important assets
 > - Two-factor authentication

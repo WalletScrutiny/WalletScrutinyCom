@@ -10,7 +10,7 @@ released: 2021-06-23
 updated: 2021-07-01
 version: '1.4'
 reviews: 
-website: http://praise.pe.kr
+website: http://praise.pe.kr#deadLink
 repository: 
 issue: 
 icon: com.pluto.praise.png

@@ -10,7 +10,7 @@ released:
 updated: 2021-09-26
 version: VARY
 reviews: 
-website: https://www.bcmholdings.io
+website: https://www.bcmholdings.io#deadLink
 repository: 
 issue: 
 icon: com.bcm.bcm_alpha_app.png

@@ -10,7 +10,7 @@ released: 2022-04-17
 updated: 2022-04-17
 version: 1.0.0
 reviews: 
-website: https://www.wallstbulls.ai
+website: https://www.wallstbulls.ai#deadLink
 repository: 
 issue: 
 icon: com.blockfin.crypto.png

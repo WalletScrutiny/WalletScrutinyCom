@@ -48,7 +48,7 @@ features:
 
 > Once your deposit on the waitlist is processed and invested, you can withdraw the funds at any time, without any lockups.
 
-## [Terms of Service](https://support.hedgedbitcoin.com/hc/en-us/articles/360018818751-Terms-of-Service-and-Privacy-Policy)
+## [Terms of Service](https://support.hedgedbitcoin.com/hc/en-us/articles/360018818751-Terms-of-Service-and-Privacy-Policy#deadLink)
 
 > Ternary Intelligence may at any time change or discontinue any aspect or feature of the Hedged Bitcoin Site without notice, including, without limitation, the content, hours of availability, and equipment needed to access or use the Hedged Bitcoin Site.
 

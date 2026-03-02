@@ -11,7 +11,7 @@ released: 2019-05-26
 updated: 2025-08-20
 version: 2.5.14
 reviews: 4
-website: https://www.zbx.one/
+website: https://web.archive.org/web/20211209012719/https://www.zbx.one/
 repository: 
 issue: 
 icon: com.zbx.www.jpg

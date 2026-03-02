@@ -23,7 +23,7 @@ date: 2024-11-04
 signer: 
 twitter: 
 social:
-- https://alfwallet.io
+- https://alfwallet.io#deadLink
 features: 
 developerName: PRO DIGITAL INNOVATIONS INC
 

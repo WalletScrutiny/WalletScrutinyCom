@@ -52,7 +52,7 @@ This was automatically translated in its website from French via Google Translat
 
 It was difficult to analyze this app since we cannot register (we keep getting a [404 error](https://twitter.com/BitcoinWalletz/status/1624002513543520256)). Documentation info was also difficult to come by because of many reasons. The language is in French, and though it can be auto-translated via Google Translate, the links sometimes led to a different domain (ibitas.com) and sometimes to blank pages.
 
-We were able to find a [YouTube video](https://youtu.be/76NGlVurBz4?t=153) showing the app's features by some random user. 
+We were able to find a [YouTube video](https://youtu.be/76NGlVurBz4?t=153#deadLink) showing the app's features by some random user. 
 
 Luckily, the twitter account [responded](https://twitter.com/sessipapp/status/1624002850232705025) and we promptly asked if the app provides the private keys of the user. Alas, that was the extent of their interaction with us.
 

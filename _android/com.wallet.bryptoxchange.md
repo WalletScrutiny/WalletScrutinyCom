@@ -10,7 +10,7 @@ released: 2022-11-01
 updated: 2023-02-01
 version: '1.6'
 reviews: 
-website: https://bryptoxchange.com/
+website: https://bryptoxchange.com#deadLink
 repository: 
 issue: 
 icon: com.wallet.bryptoxchange.png

@@ -11,7 +11,7 @@ released: 2018-01-24
 updated: 2023-04-12
 version: 6.1.5
 reviews: 
-website: https://www.tigerwit.com
+website: https://www.tigerwit.com#deadLink
 repository: 
 issue: 
 icon: com.tigerwit.forex.png
@@ -35,7 +35,7 @@ The TigerWit app cannot send and receive actual BTC as it only allows buying CFD
 
 It is a forex, precious metals, stocks, indices, commodities copy-trading app that utilizes CFDs for trading cryptocurrencies.
 
-TigerWit's [Products > Crypto Page](https://www.tigerwit.com/bj_en/products/crypto)
+TigerWit's [Products > Crypto Page](https://www.tigerwit.com/bj_en/products/crypto#deadLink)
 
 > TigerWit cryptocurrency trading can be undertaken using CFDs or Contracts for Differences as they are formally known.<br>
   CFDs are cash-settled contracts and that means you are simply trading the prices of cryptocurrencies without any concerns about ownership or security.<br>

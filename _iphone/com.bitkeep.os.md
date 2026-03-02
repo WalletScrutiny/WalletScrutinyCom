@@ -24,7 +24,7 @@ signer:
 twitter: BitKeepOS
 social:
 - https://www.facebook.com/bitkeep
-- https://github.com/bitkeepcom
+- https://github.com/bitkeepcom#deadLink
 features: 
 developerName: BitKeep Global Inc.
 

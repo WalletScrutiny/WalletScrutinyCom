@@ -10,7 +10,7 @@ released: 2021-03-25
 updated: 2021-03-25
 version: '1.06'
 reviews: 
-website: http://www.dpexbank.com
+website: http://www.dpexbank.com#deadLink
 repository: 
 issue: 
 icon: cme.dpexbank.app.png

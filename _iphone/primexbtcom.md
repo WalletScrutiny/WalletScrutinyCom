@@ -27,7 +27,7 @@ social:
 - https://www.facebook.com/primexbt
 - https://t.me/PrimeXBT_English
 - https://www.reddit.com/r/PrimeXBT
-- https://discord.com/invite/yEr8p72pxu
+- https://discord.com/invite/yEr8p72pxu#deadLink
 - https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
 features: 
 developerName: Prime XBT Trading Services Ltd.

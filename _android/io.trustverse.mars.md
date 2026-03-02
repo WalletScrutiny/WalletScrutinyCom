@@ -46,7 +46,7 @@ features:
 >
 > - Interlocking with recovery service, it is safe even if you lose your seed phrases
 >
-> By perfectly interlocking with the Master Key service, you can safely restore your wallet even if you lose your phone or recovery text. See https://www.the-masterkey.com for details.
+> By perfectly interlocking with the Master Key service, you can safely restore your wallet even if you lose your phone or recovery text. See https://www.the-masterkey.com#deadLink for details.
 
 ## Analysis 
 

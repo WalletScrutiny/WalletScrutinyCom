@@ -11,7 +11,7 @@ released: 2019-08-14
 updated: 2019-08-14
 version: '1.5'
 reviews: 
-website: https://folgory.com/
+website: https://folgory.com#deadLink
 repository: 
 issue: 
 icon: com.app.folgory.png
@@ -23,7 +23,7 @@ date: 2023-05-11
 signer: 
 twitter: 
 social:
-- https://web.archive.org/web/20220821164624/https://folgory.com/
+- https://folgory.com#deadLink
 redirect_from: 
 developerName: Folgory
 builds: 

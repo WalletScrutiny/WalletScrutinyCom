@@ -10,7 +10,7 @@ released: 2018-06-04
 updated: 2018-10-31
 version: 1.5.5
 reviews: 
-website: https://paygety.com
+website: https://paygety.com#deadLink
 repository: 
 issue: 
 icon: com.paygety.paygety.png

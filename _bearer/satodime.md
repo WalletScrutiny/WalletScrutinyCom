@@ -17,7 +17,7 @@ weight: 5
 provider: Satochip SRL
 providerWebsite: https://satochip.io
 website: https://satodime.io/
-shop: https://satochip.io/product/satodime-original/
+shop: https://satochip.io/product/satodime-original#deadLink
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin/Satodime-Tool

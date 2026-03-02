@@ -10,7 +10,7 @@ released: 2018-08-03
 updated: 2020-06-16
 version: 3.0.3
 reviews: 
-website: https://business.elegro.eu/acceptance
+website: https://business.elegro.eu/acceptance#deadLink
 repository: 
 issue: 
 icon: dashboard.elegro.io.png

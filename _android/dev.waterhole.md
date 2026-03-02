@@ -10,7 +10,7 @@ released: 2018-09-14
 updated: 2021-07-08
 version: 3.0.0
 reviews: 
-website: https://www.waterhole.io
+website: https://www.waterhole.io#deadLink
 repository: 
 issue: 
 icon: dev.waterhole.png

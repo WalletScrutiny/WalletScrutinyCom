@@ -11,7 +11,7 @@ released: 2021-06-30
 updated: 2022-01-26
 version: 1.1.0
 reviews: 
-website: https://betadeal.net
+website: https://betadeal.net#deadLink
 repository: 
 issue: 
 icon: com.mobile.BetaDeal.png
@@ -49,7 +49,7 @@ Buying, selling, funding, withdrawing and sending Bitcoin requires level 2 kyc v
 
 ## The Site
 
-We found how Betadeal handles the private keys for the wallets on their [Terms and Conditions](https://www.betadeal.net/terms-conditions)
+We found how Betadeal handles the private keys for the wallets on their [Terms and Conditions](https://www.betadeal.net/terms-conditions#deadLink)
 
 > "Betadeal securely stores all Digital Currency private keys in our control..."
 

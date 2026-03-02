@@ -10,7 +10,7 @@ released: 2021-09-23
 updated: 2021-10-08
 version: '1.2'
 reviews: 
-website: https://gempay.io/
+website: https://gempay.io#deadLink
 repository: 
 issue: 
 icon: com.gempay.png

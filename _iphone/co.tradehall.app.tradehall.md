@@ -23,7 +23,7 @@ date: 2023-11-02
 signer: 
 twitter: 
 social:
-- https://www.tradehall.co
+- https://www.tradehall.co#deadLink
 - https://www.facebook.com/Tradehall.co
 - https://www.instagram.com/tradehall_ltd
 features: 

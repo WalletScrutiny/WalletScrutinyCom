@@ -97,7 +97,7 @@ Python3 CLI client for:
 [Documentation](https://cryptnox.com/get-software/) has been provided by the project
 
 ### Software
-- [The Crypnox Software](https://github.com/Cryptnox-Software)
+- [The Crypnox Software](https://web.archive.org/web/20251108141924/https://github.com/Cryptnox-Software)
 - [Cryptnox Py](https://github.com/Cryptnox-Software/cryptnoxpy)
 - [Cryptnox Card](https://github.com/Cryptnox-Software/cryptnoxcard)
 - [PyPi - Cryptnox Card](https://pypi.org/project/cryptnoxcard/)

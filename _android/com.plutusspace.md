@@ -10,7 +10,7 @@ released: 2022-01-22
 updated: 2022-01-22
 version: '1.0'
 reviews: 
-website: https://plutus.space
+website: https://plutus.space#deadLink
 repository: 
 issue: 
 icon: com.plutusspace.jpg
