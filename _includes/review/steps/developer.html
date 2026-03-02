@@ -14,7 +14,7 @@
     {% endif %}
     {% if page.twitter %}
 
-    <a href="https://twitter.com/{{page.twitter}}" title="Twitter" target="_blank">Twitter</a>
+    <a href="https://x.com/{{page.twitter}}" title="X" target="_blank">X</a>
     {% endif %}
     {% if page.social %}
       {% for link in page.social %}
@@ -37,7 +37,7 @@
             {% when "slack"       %}{% assign name = "Slack" %}
             {% when "t"           %}{% assign name = "Telegram" %}
             {% when "tiktok"      %}{% assign name = "tiktok" %}
-            {% when "twitter"     %}{% assign name = "Twitter" %}
+            {% when "twitter"     %}{% assign name = "X" %}
             {% when "vimeo"       %}{% assign name = "Vimeo" %}
             {% when "vk"          %}{% assign name = "VK" %}
             {% when "weibo"       %}{% assign name = "Weibo" %}
