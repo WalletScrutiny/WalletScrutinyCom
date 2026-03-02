@@ -1,6 +1,6 @@
 ---
 wsId: bitkit
-title: "Bitkit: Bitcoin & LN Wallet"
+title: 'Bitkit: Bitcoin & LN Wallet'
 altTitle:
 authors:
   - danny

@@ -1,11 +1,11 @@
 ---
 wsId: bitkit
-title: "Bitkit: Bitcoin & LN Wallet"
+title: 'Bitkit: Bitcoin & LN Wallet'
 altTitle:
 authors:
 appId: to.bitkit
 appCountry: us
-idd: "6502440655"
+idd: '6502440655'
 released: 2024-06-12
 updated: 2025-11-26
 version: 1.1.6
