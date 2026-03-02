@@ -1,8 +1,8 @@
 ---
-wsId: 
+wsId: bitkit
 title: 'Bitkit: Bitcoin & LN Wallet'
-altTitle: 
-authors: 
+altTitle:
+authors:
 appId: to.bitkit
 appCountry: us
 idd: '6502440655'
@@ -11,19 +11,23 @@ updated: 2025-11-26
 version: 1.1.6
 reviews: 7
 website: https://bitkit.to/
-repository: 
-issue: 
+repository: https://github.com/synonymdev/bitkit-ios
+issue:
 icon: to.bitkit.jpg
-bugbounty: 
+bugbounty:
 meta: ok
-verdict: wip
-appHashes: 
+verdict: sourceavailable
+appHashes:
 date: 2026-01-14
-signer: 
-twitter: 
-social: 
-features: 
+signer:
+twitter: bitkitwallet
+social:
+  - https://discord.com/invite/DxTBJXvJxn
+  - https://t.me/bitkitchat
+  - https://medium.com/synonym-to
+  - https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
+features:
 developerName: Synonym Software Ltd
-
 ---
 
+{% include copyFromAndroid.html %}

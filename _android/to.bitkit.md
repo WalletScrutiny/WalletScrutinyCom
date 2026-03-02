@@ -1,14 +1,14 @@
 ---
-wsId: 
+wsId: bitkit
 title: 'Bitkit: Bitcoin & LN Wallet'
-altTitle: 
+altTitle:
 authors:
-- danny
-- basantagoswami
-- keraliss
+  - danny
+  - basantagoswami
+  - keraliss
 users: 5000
 appId: to.bitkit
-appCountry: 
+appCountry:
 released: 2024-06-07
 updated: 2026-02-18
 version: 2.0.2
@@ -17,7 +17,7 @@ website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
 issue: https://github.com/synonymdev/bitkit/issues/2414#deadLink
 icon: to.bitkit.png
-bugbounty: 
+bugbounty:
 meta: ok
 verdict: sourceavailable
 appHashes: []
@@ -25,16 +25,15 @@ date: 2024-12-25
 signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
 twitter: bitkitwallet
 social:
-- https://discord.com/invite/DxTBJXvJxn
-- https://t.me/bitkitchat
-- https://medium.com/synonym-to
-- https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
-redirect_from: 
+  - https://discord.com/invite/DxTBJXvJxn
+  - https://t.me/bitkitchat
+  - https://medium.com/synonym-to
+  - https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
+redirect_from:
 developerName: Synonym
-builds: 
+builds:
 features:
-- ln
-
+  - ln
 ---
 
 ## App Description from Google Play
@@ -47,13 +46,13 @@ features:
 >
 > Experience the web without limits: portable profiles & feeds, dynamic contacts, passwordless accounts.
 
-## Analysis 
+## Analysis
 
 - The app has a Bech32 BTC address
 - The private keys can be backed up in the settings.
-- They have a link to their GitHub repository. 
+- They have a link to their GitHub repository.
 
-## Update 2024-12-25: 
+## Update 2024-12-25:
 
 We tested if the app can be reproduced, by running {% include testScript.html %}.
 
@@ -65,7 +64,7 @@ appId:          to.bitkit
 signer:         4f707d19ec04d61736f3ca095fd1c14bdae844e68f372ff9e8da74684d4e4f89
 apkVersionName: 1.0.7
 apkVersionCode: 142
-verdict:        
+verdict:
 appHash:        b1a2b6520d94bc0cf50af658b1fb433f515b46bc13130725f52f553737a234db
 commit:         a8dc479b59cb4b37218336e37ba92847181341c5
 
@@ -116,19 +115,22 @@ Revision, tag (and its signature):
 ===== End Results =====
 ```
 
-The diff also contained hundreds of lines of png, xml and webp diffs. 
+The diff also contained hundreds of lines of png, xml and webp diffs.
 The key differences between the Play Store and locally built versions:
 
 1. Missing files in build version:
+
 - Multiple resource directories (anim, drawable, layout, etc.)
 - stamp-cert-sha256
 
 2. Extra files in build version:
+
 - lib directory
 - index.android.jsbundle
 - Some font/resource files (2X.ttf, 5c., Ot.)
 
 3. Differing files:
+
 - AndroidManifest.xml
 - DEX files (classes.dex, classes2.dex, classes3.dex)
 - Bundle files
