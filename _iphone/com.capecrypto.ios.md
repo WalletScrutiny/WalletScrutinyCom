@@ -26,9 +26,15 @@ social:
 - https://www.linkedin.com/company/capecrypto
 - https://www.youtube.com/channel/UCET8t88fPnOKD0sgM3KFIsA
 - https://www.facebook.com/capecrypto
-features: 
+features:
+- ln
+- tradeAlts
 developerName: Cape Crypto Pty Ltd
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="BTC Lightning Deposit and withdraw Bitcoin on the Lightning network for instant BTC transfers" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Lowest trade fees in SA, best way to buy Bitcoin, Ethereum, XRP and USDT" source="Website" %}

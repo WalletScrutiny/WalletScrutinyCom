@@ -27,9 +27,19 @@ social:
 - https://www.facebook.com/profile.php?id=100088526238789
 - https://www.instagram.com/ownbitkey
 features:
-- multiSignature
+- companion
+- fingerprint
+- foss
+- multiSig
 developerName: Block, Inc.
 
 ---
+{% include featureEvidence.html feature="companion" source="[Website](https://bitkey.world)" quote="one on your Bitkey device and one in the app . A third is encrypted on a server" %}
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="Bitkey is a 2-of-3 multi-signature wallet which means there are three private keys protecting your bitcoin. You always need two out of three keys to sign a transaction, giving you extra protection." source="Store description" %}
+
+{% include featureEvidence.html feature="foss" quote="Software is licensed by Block, Inc. under the MIT License (the &quot;License&quot;), and with no warranties or guarantees." source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Bitkey's biometric hardware can protect every transaction in the app." source="Website" %}

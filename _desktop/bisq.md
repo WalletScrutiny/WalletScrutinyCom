@@ -25,7 +25,11 @@ builds:
   types:
   - deb
   - rpm
-features: 
+features:
+- TOR
+- foss
+- multiSig
+- tradeAlts
 
 ---
 
@@ -46,3 +50,11 @@ The application is available for Windows, macOS, and Linux. It connects to a glo
 Bisq is open-source software built with Java and uses Gradle as its build system. The project has discussed implementing deterministic builds similar to Bitcoin's Gitian build system, though this appears to be a work in progress. The JAR file is already deterministic and hashes are provided with releases for verification, but the full binary reproducibility for all platforms requires further development.
 
 Its successor, [Bisq2](https://bisq.wiki/Bisq_2) is currently in beta.
+
+{% include featureEvidence.html feature="multiSig" quote="Bisq uses peer-to-peer networking and multi-signature escrow to facilitate trading without a third party." source="GitHub README" %}
+
+{% include featureEvidence.html feature="TOR" quote="Every Bisq node is a Tor hidden service by default." source="GitHub README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Bisq is a safe, private and decentralized way to exchange bitcoin for national currencies and other digital assets." source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Code is open-source , and project strategy is discussed openly on Matrix and GitHub ." source="Website" %}

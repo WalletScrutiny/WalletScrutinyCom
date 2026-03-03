@@ -30,7 +30,10 @@ social:
 - https://icointechnology.com/news/
 - https://www.linkedin.com/company/icoin-technology/
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- hd
 
 ---
 
@@ -128,3 +131,9 @@ There is no link to any source code from the provider's website.
 ## Conclusion
 
 The project **does not link to any source code.**
+
+{% include featureEvidence.html feature="airGapped" quote="Air Gap - iCoin's Wallet uses a rear facing camera to import Blockchain data required to construct a transaction. Your iCoin Wallet never connects to a Network." source="Product Description" %}
+
+{% include featureEvidence.html feature="camera" quote="Touchscreen & Camera - Capacitive touch color display (3&quot;) & 13 mp. rear facing camera. View accounts, sign transactions, and more." source="Product Description" %}
+
+{% include featureEvidence.html feature="hd" quote="Seed Based Recovery - BIP HD compatible. Wipe your iCoin Wallet, restore it in seconds." source="Product Description" %}

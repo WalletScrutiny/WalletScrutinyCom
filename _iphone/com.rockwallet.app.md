@@ -26,9 +26,15 @@ social:
 - https://www.facebook.com/rockwalletofficial
 - https://www.instagram.com/rockwallet
 - https://www.linkedin.com/company/rockwallet
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: RockWallet, LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="swap and store top digital assets like BTC, ETH, BSV, XRP and many more" source="Store" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Purchase digital assets with your debit or credit card right from your mobile device" source="Store" %}

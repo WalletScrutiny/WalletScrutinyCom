@@ -43,7 +43,9 @@ social:
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
 - arch: arm
-features: 
+features:
+- camera
+- foss
 
 ---
 
@@ -51,3 +53,7 @@ features:
 
 Blockstream Jade (classic) is an open-source hardware wallet specifically designed for secure Bitcoin and Liquid Network key storage, featuring a color screen, physical buttons, and optional air-gapped QR-based signing for fully offline transactions. It includes a secure boot sequence and “virtual Secure Element” architecture that prevents theft of assets from a locked device. Connectivity options include USB-C, Bluetooth, and QR workflows, with a no-radiofirmware variant available for maximum air-gap integrity. Integration is supported through Blockstream App as well as popular third-party wallets such as Sparrow, Specter, Electrum, BlueWallet, and Bitcoin Core. Advanced security features include genuine-device attestation during setup, multisig support, duress PIN, SeedQR stateless signing, and custom entropy generation from onboard sensors.
 
+{% include featureEvidence.html feature="foss" quote="The collection is subject to GPL3 but individual source components can be used under their specific licenses." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="camera" quote="to run the qemu emulator with display and camera support, run: main/qemu/run_emulator.sh" source="GitHub README" %}

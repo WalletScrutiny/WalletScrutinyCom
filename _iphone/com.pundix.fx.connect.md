@@ -25,9 +25,24 @@ twitter: FUNCTIONX_IO
 social:
 - https://www.linkedin.com/company/functionx
 - https://www.facebook.com/FunctionX.io
-features: 
+features:
+- camera
+- foss
+- hd
+- multiAccount
+- tradeAlts
 developerName: PUNDI X LABS
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="foss" quote="Apache License Version 2.0, January 2004 http://www.apache.org/licenses/" source="License" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Supports creating and managing multiple independent wallets in one place." source="Store" %}
+
+{% include featureEvidence.html feature="hd" quote="Supports self-custody of the private key by mnemonic phrase or cloud approach (iCloud & Google Cloud) to access your cryptocurrency stored on-chain." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Supports access to Third-Party protocols that provide decentralized token swap services that exchange ERC-20 tokens at low prices and fees." source="Store" %}
+
+{% include featureEvidence.html feature="camera" quote="camera for QR code scanning" source="GitHub README" %}

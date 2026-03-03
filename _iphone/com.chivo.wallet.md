@@ -24,9 +24,12 @@ signer:
 twitter: chivowallet
 social:
 - https://www.facebook.com/ChivoWalletSLV
-features: 
+features:
+- ln
 developerName: Gobierno de El Salvador
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Chivo es compatible con otras billeteras Bitcoin on-chain y Lightning." source="Store" %}

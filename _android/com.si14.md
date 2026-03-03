@@ -26,7 +26,12 @@ social:
 redirect_from: 
 developerName: Si14 Bank
 builds: 
-features: 
+features:
+- buyWithCC
+- customNode
+- fingerprint
+- hd
+- tradeAlts
 
 ---
 
@@ -45,3 +50,12 @@ While the Play Store listing states that the code is â€œopen-source and auditedâ
 
 **This app is not source available**.
 
+{% include featureEvidence.html feature="hd" quote="Import 12/24-word seed phrases (BIP-39)." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Device protection: biometrics & PIN; encrypted key vault tied to OS keystore (where supported)." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Fiat on-ramp Top up with cards and bank transfers through trusted third-party providers." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Smart swaps Best-rate routing via integrated DEX and aggregators. Slippage controls, gas insights, and on-chain transparency." source="Website" %}
+
+{% include featureEvidence.html feature="customNode" quote="Pro tools Custom RPCs, nonce & gas editing, raw transaction preview, testnet toggles, and signing simulation." source="Website" %}

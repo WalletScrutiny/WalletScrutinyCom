@@ -28,9 +28,21 @@ social:
 - https://www.facebook.com/Proton
 - https://www.linkedin.com/company/protonprivacy
 - https://mastodon.social/@protonprivacy
-features: 
+features:
+- buyWithCC
+- foss
+- hd
+- multiAccount
 developerName: Proton AG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Proton Wallet creates your wallet using a BIP39 standard seed phrase, ensuring seamless recovery and interoperability with other self-custodial wallets, including hardware wallets. This also means you can easily import existing wallets or recover your Proton wallets on other services." source="Store description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Inside each wallet, you can also create multiple BTC accounts to organize and separate your assets for better privacy. After the default wallet, subsequent wallet creations support an optional passphrase as another layer of protection. Free users can have up to 3 wallets and 3 accounts per wallet." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Proton Wallet allows you to easily acquire Bitcoin using credit cards or bank transfers from all around the world through our financial partners, with a particularly low friction process for smaller amounts." source="Website" %}
+
+{% include featureEvidence.html feature="foss" quote="Choose a crypto wallet that's transparent, open source, optimized for Bitcoin, and puts you in control." source="Store description" %}

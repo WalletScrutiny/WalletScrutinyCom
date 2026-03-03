@@ -25,7 +25,9 @@ twitter: UpholdInc
 social:
 - https://www.linkedin.com/company/upholdinc
 - https://www.facebook.com/UpholdInc
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Uphold HQ Inc.
 
 ---
@@ -38,3 +40,7 @@ App Store description we read:
 
 If they hold your money, you don't. As a custodial service this app is **not
 verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy and sell 360+ cryptocurrencies, 27 national currencies, and 4 precious metals (Gold, Silver, Platinum, Palladium), based on your location." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Open a free account in minutes and deposit via credit/debit cards, banks, crypto networks, or Apple Pay." source="Store description" %}

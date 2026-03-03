@@ -32,8 +32,6 @@ builds:
 features:
 - segwit
 - taproot
-- multiwallet
-
 ---
 
 💡 This is the successor to {% include walletLink.html wallet='android/com.medishares.android' verdict='true' %}

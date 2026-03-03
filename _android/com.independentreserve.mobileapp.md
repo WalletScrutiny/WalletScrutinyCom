@@ -30,7 +30,8 @@ social:
 redirect_from: 
 developerName: Independent Reserve
 builds: 
-features: 
+features:
+- segwit
 
 ---
 
@@ -55,3 +56,5 @@ features:
 - There is [BTC support.](https://www.independentreserve.com/blog/knowledge-base/how-to-deposit-bitcoin-into-independent-reserve)
 - As the description on the website states, 97% of user funds are held in cold-storage.
 - This makes it a **custodial** app.
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

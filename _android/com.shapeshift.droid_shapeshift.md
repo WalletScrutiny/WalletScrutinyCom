@@ -32,7 +32,11 @@ redirect_from:
 - /com.shapeshift.droid_shapeshift/
 developerName: ShapeShift.com
 builds: 
-features: 
+features:
+- buyWithCC
+- foss
+- multiSig
+- tradeAlts
 
 ---
 
@@ -79,3 +83,11 @@ actually download links for both mobile apps.
 
 As we couldn't find any source code we assume the app is closed source and
 therefore **not verifiable**.
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2022 ShapeShift Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="enables users to buy, sell, trade, and manage over 10,000 digital assets across 14 supported chains" source="App Description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="fiat on/off-ramps are available via credit/debit cards and bank transfers in over 160 countries" source="App Description" %}
+
+{% include featureEvidence.html feature="multiSig" comment="(no justification provided by LLM)" %}

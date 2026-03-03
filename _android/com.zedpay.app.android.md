@@ -29,7 +29,10 @@ social:
 redirect_from: 
 developerName: ZedPay Company
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -60,3 +63,9 @@ features:
 - The [Terms](https://zed-pay.com/view/terms) is very sparse in the way of documentation. 
 - We could not find any concrete indicator of the app providing the private keys to the user. We created a ticket via their web platform and asked this specific question. 
 - Meanwhile, absent the private keys, we determine this app to be a **custodial** one that is **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Easy and simple to buy crypto with credit cards" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="You can buy, sell or trade Bitcoin (BTC), Ethereum (ETH), Tron (TRX), Tether (USDT) and Zedxion (USDZ), among others." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Your ZedPay Wallet uses advanced encryption techniques to ensure your payment information is never stolen from your smartphone, and they are highly secure as they are usually used for fingerprint-only payments and reside on password-protected devices." source="Analysis" %}

@@ -28,7 +28,9 @@ signer:
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -84,4 +86,8 @@ A product actively being sold on eBay by an unidentified seller gives us pause.
 
 More so the fact that the user has to email the provider in order to get the PIN/PUK for the card upon receipt of the card.
 
-Notwithstanding the claimed security features, the device does not appear to have any display or button interface. This brings the user back to the provider to give him the link to the smartphone app or software. Although the wallet smart card may be "secure" as the provider claims, **a lot is unknown about the smartphone app specifically used by the provider**. 
+Notwithstanding the claimed security features, the device does not appear to have any display or button interface. This brings the user back to the provider to give him the link to the smartphone app or software. Although the wallet smart card may be "secure" as the provider claims, **a lot is unknown about the smartphone app specifically used by the provider**.
+
+{% include featureEvidence.html feature="nfc" quote="Contact (PC/SC) AND Contactless technology (NFC Reader) or NFC in your Mobile Phone / Smartphone" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="Secure Cryptoprocessor Hardware" source="Website" %}

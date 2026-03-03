@@ -28,7 +28,10 @@ social:
 redirect_from: 
 developerName: MB.IO
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -42,5 +45,10 @@ The service uses [cold storage](https://multibank.io/support/faq/privacy-and-sec
 
 > Security & Regulation
 >
-> MultiBank io utilizes the use of both hot wallet and cold storage as precautionary measures to ensure the protection of our client's assets. 
+> MultiBank io utilizes the use of both hot wallet and cold storage as precautionary measures to ensure the protection of our client's assets.
 
+{% include featureEvidence.html feature="buyWithCC" quote="Credit card & Bank transfers Deposit USD or EUR via credit card or bank transfer on mb.io, then easily buy crypto and trade FIAT/CRYPTO pairs on our exchange." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, or convert in a few taps" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Security of funds Secure digital asset custody platform with multi-party computation (MPC)." source="Website" %}

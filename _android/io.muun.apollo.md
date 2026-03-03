@@ -33,6 +33,9 @@ developerName: muun
 builds: 
 features:
 - ln
+- multiSig
+- segwit
+- taproot
 
 ---
 
@@ -43,3 +46,9 @@ features:
 Muun is a self-custodial Bitcoin and Lightning Network wallet for Android, featuring a 2-of-2 multi-signature model that enhances security by storing only one key on the device and providing the other in an exportable Emergency Kit. It supports both on-chain and Lightning payments from a unified interface with dynamic fee estimation based on mempool conditions. The wallet includes Bech32 address support, taproot compatibility, and fee selection options. Recovery is possible using either a written code or email and password, but it does not support standard 12/24-word seed phrases. Muun’s architecture ensures that users retain full control over their funds, with no server-side custody or data access.
 
 This app is **source available**.
+
+{% include featureEvidence.html feature="segwit" quote="The wallet includes Bech32 address support, taproot compatibility, and fee selection options." source="App Description" %}
+
+{% include featureEvidence.html feature="taproot" quote="The wallet includes Bech32 address support, taproot compatibility, and fee selection options." source="App Description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Muun is a self-custodial Bitcoin and Lightning Network wallet for Android, featuring a 2-of-2 multi-signature model that enhances security by storing only one key on the device and providing the other in an exportable Emergency Kit." source="App Description" %}

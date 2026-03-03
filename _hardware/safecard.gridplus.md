@@ -30,7 +30,10 @@ social:
 - https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ
 - https://www.reddit.com/r/GridPlus/
 builds: 
-features: 
+features:
+- hd
+- nfc
+- secEl
 
 ---
 
@@ -60,3 +63,8 @@ This is also confirmed on GridPlus' [documentation for the wallet.](https://docs
 
 The card doesn't primarily function as a wallet on its own as it **lacks an interface where you can sign transactions** and is designed to be used in conjunction with another hardware wallet.
 
+{% include featureEvidence.html feature="nfc" quote="It supports both NFC and ISO7816 physical interfaces, meaning that it is compatible with any Android phone equipped with NFC, and all USB Smartcard readers." source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="Keycard is a an implementation of a BIP-32 HD wallet running on Javacard 3.0.4+" source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="GridPlus can - the Lattice1 (and specifically a secure compute element inside) is the main interface for SafeCards." source="GitHub README" %}

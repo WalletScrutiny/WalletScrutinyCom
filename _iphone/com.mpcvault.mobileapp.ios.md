@@ -24,9 +24,18 @@ signer:
 twitter: mpcvault
 social:
 - https://www.linkedin.com/company/mpcvault
-features: 
+features:
+- batching
+- multiAccount
+- multiSig
 developerName: MetaLoop Inc
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="Supports creating multiple independent wallets for different use cases and multisig transaction policies." source="Store description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Supports creating multiple independent wallets for different use cases and multisig transaction policies." source="Store description" %}
+
+{% include featureEvidence.html feature="batching" quote="Allows batch sending assets to multiple addresses simultaneously." source="Store description" %}

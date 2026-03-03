@@ -340,6 +340,8 @@ window.addEventListener("load", () => {
   isInitializing = false;
 });
 
+// Feature filter pill sync is handled in wallet-filters.html inline script.
+
 window.queryStringTimeout = false;
 document.querySelector(".query-string").addEventListener("input", () => {
   if (isInitializing) {

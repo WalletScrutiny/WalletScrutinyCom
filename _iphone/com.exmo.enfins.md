@@ -25,7 +25,9 @@ signer:
 twitter: Exmo_com
 social:
 - https://www.facebook.com/exmo.market
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: EXMO EXCHANGE LTD
 
 ---
@@ -39,3 +41,7 @@ EXMO funds kept?"
 this leads us to conclude the wallet funds are in control of the provider.
 
 Our verdict: This 'wallet' is **not verifiable**.
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell, hold crypto. Just like that" source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Multiple deposit options: easily top up your balance via Visa/Mastercard or bank transfer and buy crypto with USD, EUR, GBP, PLN, NGN, BRL or UAH." source="Store description" %}

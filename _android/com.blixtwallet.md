@@ -28,6 +28,10 @@ redirect_from:
 developerName: Hampus Sjöberg
 builds: 
 features:
+- TOR
+- bip158spv
+- fingerprint
+- foss
 - ln
 
 ---
@@ -108,3 +112,11 @@ Emanuel already tried to reproduce this app and
 [his issue](https://github.com/BlixtWallet/blixt-wallet/issues/318) is still open.
 So while this app can be compiled from source, the compilation result differs
 from what he got from Google play. This app is currently **not verifiable**.
+
+{% include featureEvidence.html feature="foss" quote="Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so" source="License" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="- [x] Fingerprint" source="GitHub README" %}
+
+{% include featureEvidence.html feature="TOR" quote="- [x] Integrated Tor support" source="GitHub README" %}
+
+{% include featureEvidence.html feature="bip158spv" quote="Blixt Wallet uses the Lightning Network client lnd and the Bitcoin SPV client Neutrino under the hood, directly on the phone, respecting your privacy." source="Website" %}

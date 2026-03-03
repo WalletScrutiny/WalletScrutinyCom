@@ -30,7 +30,8 @@ redirect_from:
 - /posts/zebpay.Application/
 developerName: ZebPay
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -42,3 +43,5 @@ In the description at Google Play we read:
 This app is an interface for an exchange and as such, only a window into what
 you have in your account at that exchange. As a custodial wallet or bitcoin
 bank it is **not verifiable**.
+
+{% include featureEvidence.html feature="foss" comment="(no justification provided by LLM)" %}

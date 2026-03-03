@@ -29,7 +29,8 @@ social:
 redirect_from: 
 developerName: Oanda Coinpass Limited
 builds: 
-features: 
+features:
+- ln
 
 ---
 
@@ -42,3 +43,5 @@ features:
 Coinpass has **custody** of the users' assets as stated in its [terms:](https://www.coinpass.com/en/legal/terms) 
 
 > Coinpass securely stores Digital Assets private keys, which are the means by which the User can securely approve an E-Currency Transaction. Coinpass securely stores private keys under its control using a combination of online and offline storage. As a result, it may be necessary for Coinpass to retrieve certain information from offline storage in order to facilitate an E-Currency Transaction in accordance with the User’s instructions. The User, therefore acknowledges that this may delay the initiation or crediting of E-Currency Transactions.
+
+{% include featureEvidence.html feature="ln" comment="(no justification provided by LLM)" %}

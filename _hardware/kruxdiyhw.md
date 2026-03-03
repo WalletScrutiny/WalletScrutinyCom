@@ -31,8 +31,7 @@ social:
 - https://bitcointalk.org/index.php?topic=5350905.0
 builds: 
 features:
-- multiSignature
-
+- multiSig
 ---
 
 > Krux is open-source firmware that enables anyone to build their own Bitcoin signing device via off-the-shelf parts. It runs on Kendryte K210 devices such as the M5StickV and Maix Amigo, converting them into airgapped devices that can sign transactions for multisignature and single-signature wallets.

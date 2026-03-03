@@ -27,8 +27,11 @@ social:
 - https://www.youtube.com/@cosmostationio
 redirect_from: 
 developerName: Stamper
-builds: 
-features: 
+features:
+- foss
+- hd
+- segwit
+- taproot
 
 ---
 
@@ -60,5 +63,10 @@ The addresses between the app and Sparrow: `bc1pw2zy5kj5fgha7gw2vd4u28s9ucxjhzhw
 
 This app is **sourceavailable** and **for verification**.
 
+{% include featureEvidence.html feature="taproot" quote="m/86'/0'/0'/0/X p2tr" source="README" %}
 
+{% include featureEvidence.html feature="segwit" quote="m/84'/0'/0'/0/X p2wpkh" source="README" %}
 
+{% include featureEvidence.html feature="hd" quote="follows BIP44 HD standards or official chain specifications, including support for Bitcoin Taproot, Native SegWit, SegWit, and Legacy addresses" source="App Description" %}
+
+{% include featureEvidence.html feature="foss" quote="Licensed under the MIT." source="GitHub README" %}

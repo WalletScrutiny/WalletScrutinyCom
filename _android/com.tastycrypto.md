@@ -31,7 +31,10 @@ social:
 redirect_from: 
 developerName: tastycrypto
 builds: 
-features: 
+features:
+- buyWithCC
+- hd
+- tradeAlts
 
 ---
 
@@ -50,3 +53,9 @@ The Play Store description states that users retain full control of their seed p
 We [tested](https://x.com/BitcoinWalletz/status/2000811191548199352) this and verified that claim. The seed phrases were successfully imported into Electrum Desktop 4.6.2 using BIP39. The bitcoin addresses matched. 
 
 No claims regarding source availability has been made. A search on GitHub Code using the app ID [did not show relevant results regarding the app's repository](https://github.com/search?q=%22com.tastycrypto%22&type=code).
+
+{% include featureEvidence.html feature="hd" quote="The seed phrases were successfully imported into Electrum Desktop 4.6.2 using BIP39. The bitcoin addresses matched." source="App Description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="The app claims to include features such as token swaps, NFT viewing, WalletConnect support for interacting with decentralized applications, and basic portfolio and network fee tracking." source="App Description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="allows users to hold and manage crypto assets without the provider controlling private keys. According to its Google Play listing, the wallet supports Bitcoin (BTC), Ethereum (ETH), and Polygon (MATIC) networks, and allows users to import an existing seed phrase, buy crypto in-app, or transfer funds from tastytrade." source="App Description" %}

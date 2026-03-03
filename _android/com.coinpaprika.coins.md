@@ -27,7 +27,12 @@ social:
 redirect_from: 
 developerName: Coinpaprika
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- hd
+- segwit
+- tradeAlts
 
 ---
 
@@ -66,3 +71,12 @@ https://github.com/trustwallet/wallet-core
 
 Absent source code for **this specific app**, it is **not verifiable**.
 
+{% include featureEvidence.html feature="hd" quote="Yes, of course. We use the popular cryptocurrency standard HD Wallet (Hierarchically Derived) BIP39. So You can get access to your funds in other wallets that support the BIP39 standard. To get your funds in another wallet, you need to write your mnemonic phrases from the COINS app (12 words)." source="Website" %}
+
+{% include featureEvidence.html feature="segwit" quote="Native SegWit (bech32): addresses start with bc1 (we use this type in Coins)" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="In Coins app every transaction like send/exchange requires user authentication (biometric or phone code).Also access to mnemonic phrases is secure by authentication." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Which cryptocurrencies can I exchange?" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Which cryptocurrencies can I buy in Coins for FIAT?" source="Website" %}

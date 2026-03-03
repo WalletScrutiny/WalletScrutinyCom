@@ -25,9 +25,11 @@ twitter: Trustee_Wallet
 social:
 - https://www.facebook.com/Trustee.Wallet
 features: 
+- tradeAlts
 developerName: BLOCKSOFTLAB INC
 
 ---
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://trusteeglobal.com/)" quote="Обмін Більше ніж 100 крос-пар та вигідні комісії." %}
 
 **Update 2021-02-07**: This wallet
 [has its issues](https://github.com/bitcoin-dot-org/Bitcoin.org/pull/3514) you

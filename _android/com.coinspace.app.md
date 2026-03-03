@@ -32,7 +32,11 @@ redirect_from:
 - /posts/com.coinspace.app/
 developerName: CoinSpace
 builds: 
-features: 
+features:
+- TOR
+- buyWithCC
+- foss
+- tradeAlts
 
 ---
 
@@ -165,3 +169,11 @@ We are tempted to just try stuff with the Docker file there but our mission
 statement is that it should be easily reproducible which definitely includes not
 having to guess and so we remain until further notice with our prior verdict:
 **not verifiable**.
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2024 Coin Wallet Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software..." source="GitHub README" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap Arbitrum Avalanche Base Binance Smart Chain Bitcoin Bitcoin Cash Cardano Dash Dogecoin EOS Ethereum Ethereum Classic Kaspa Litecoin Monero Optimism Polygon Solana Sonic Stellar Sui Toncoin TRON XRP" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Arbitrum Avalanche Base Binance Smart Chain Bitcoin Bitcoin Cash Cardano Dash Dogecoin EOS Ethereum Ethereum Classic Kaspa Litecoin Optimism Polygon Solana Sonic Stellar Sui Toncoin TRON XRP" source="Website" %}
+
+{% include featureEvidence.html feature="TOR" quote="Tor Wallet Launch now" source="Website" %}

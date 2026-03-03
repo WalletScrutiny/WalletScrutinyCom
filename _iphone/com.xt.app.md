@@ -25,9 +25,15 @@ twitter: XTexchange
 social:
 - https://www.linkedin.com/company/xt-com-exchange/
 - https://www.facebook.com/XT.comexchange
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: XT LTD, LLC
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="XT.com is a full-service trading platform that supports 100+ high-quality currencies, 1,000+ coins and over 1,300+ trading pairs. Spot trading, futures trading, currency transactions, leveraged trades, OTC transactions, and credit card purchases can be accessed on XT.com." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="credit card purchases can be accessed on XT.com." source="Store description" %}

@@ -23,7 +23,9 @@ date: 2021-05-02
 signer: 
 twitter: imTokenOfficial
 social: 
-features: 
+features:
+- fingerprint
+- multiAccount
 developerName: IMTOKEN PTE. LTD.
 
 ---
@@ -98,3 +100,7 @@ in an issue opened by our contributor [Emanuel](/authors/emanuel). It's
 
 So for now we conclude this app is closed source and therefore
 **not verifiable**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Comprehensive security features including offline storage, hardware wallets, pin codes, biometrics and more." source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Easily generate and manage up to 100 accounts, with the flexibility to add, delete, and customize tags for each account." source="Store" %}

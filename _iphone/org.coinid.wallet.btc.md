@@ -25,8 +25,10 @@ signer:
 twitter: COINiDGroup
 social: 
 features: 
+- companion
 developerName: COINiD Group
 
 ---
+{% include featureEvidence.html feature="companion" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 {% include copyFromAndroid.html %}

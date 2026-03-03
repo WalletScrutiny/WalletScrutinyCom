@@ -33,7 +33,9 @@ signer:
 twitter: Coldlar
 social: 
 builds: 
-features: 
+features:
+- hd
+- nfc
 
 ---
 
@@ -69,3 +71,8 @@ Pending the reply on twitter, there are many indications that this product is al
 ## Previous Review 2022-03-23
 
 Without a screen and without a button, this device cannot provide basic security of hardware wallets.
+
+{% include featureEvidence.html feature="nfc" quote="NFC ensures private keys never touch the internet" source="Official User Manual" %}
+
+
+{% include featureEvidence.html feature="hd" quote="Uses randomly generate mnemonics" source="Official User Manual" %}

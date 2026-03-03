@@ -38,7 +38,8 @@ social:
 - https://medium.com/quickxprotocol
 - https://t.me/quickxprotocol
 builds: 
-features: 
+features:
+- nfc
 
 ---
 
@@ -72,4 +73,6 @@ A third-party video tutorial on [YouTube](https://www.youtube.com/watch?v=5f_NSV
 
 There are 2 other projects that are related to the QuickX Touch: The QuickX Protocol and CNexchange.io. Although the Android app is no longer available, the hardware wallet can still be ordered through its online portal.
 
-Like most NFC cards that are reliant on a companion app on another device, the QuickX touch **risks exposure of the private key through the connected device**. There was also no mention whether the private keys are stored on a secure chip element. With no input and output interfaces, this makes the card highly dependent on the app. This risk is also made more prominent when the app is suddenly not available for download anymore. 
+Like most NFC cards that are reliant on a companion app on another device, the QuickX touch **risks exposure of the private key through the connected device**. There was also no mention whether the private keys are stored on a secure chip element. With no input and output interfaces, this makes the card highly dependent on the app. This risk is also made more prominent when the app is suddenly not available for download anymore.
+
+{% include featureEvidence.html feature="nfc" quote="QuickX Touch is an NFC Card-typed cold wallet." source="Product Description" %}

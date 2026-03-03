@@ -22,8 +22,16 @@ twitter: unchainedcap
 social: 
 builds: 
 features: 
+- multiSig
+- ownFullNode
+- customNode
+- companion
 
 ---
+{% include featureEvidence.html feature="multiSig" source="[README](https://github.com/unchained-capital/caravan#readme)" quote="Caravan is making bitcoin multisig custody easier and safer through transparency and standards." %}
+{% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/unchained-capital/caravan#readme)" quote="You can ask Caravan to use your own private bitcoind full node." %}
+{% include featureEvidence.html feature="customNode" source="[README](https://github.com/unchained-capital/caravan#readme)" quote="You can ask Caravan to use your own private bitcoind full node." %}
+{% include featureEvidence.html feature="companion" source="[README](https://github.com/unchained-capital/caravan#readme)" quote="It connects to a source of consensus and your keys to build and interact with multisig bitcoin addresses." %}
 
 ## App Description
 

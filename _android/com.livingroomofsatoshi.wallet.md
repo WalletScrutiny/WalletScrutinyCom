@@ -34,8 +34,6 @@ developerName: Wallet of Satoshi
 builds: 
 features:
 - ln
-- spark
-
 ---
 
 ## Update — v3.1.7 Self-Custody Claims Review (2025-10-09)

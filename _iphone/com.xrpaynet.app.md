@@ -26,9 +26,18 @@ social:
 - https://www.linkedin.com/company/xrpaynet
 - https://www.facebook.com/XRPayNet-107640621785961
 - https://t.me/XRPayNetChat
-features: 
+features:
+- hd
+- multiAccount
+- tradeAlts
 developerName: XRPAYNET GLOBAL LIMITED
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="backed by advanced security like mnemonic phrases" source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Create multiple wallets effortlessly for personal, business, or family use" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Access over 90,000 trading pairs for instant swaps." source="Store" %}

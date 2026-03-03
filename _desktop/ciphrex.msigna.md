@@ -24,8 +24,16 @@ social:
 - https://www.twitter.com/ciphrex
 builds: 
 features: 
+- multiSig
+- foss
+- multiAccount
+- segwit
 
 ---
+{% include featureEvidence.html feature="multiSig" source="[README](https://github.com/ciphrex/mSIGNA#readme)" quote="featuring m-of-n signature policies, multiuser/multidevice account management" %}
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/ciphrex/mSIGNA#readme)" quote="MIT license" %}
+{% include featureEvidence.html feature="multiAccount" source="[README](https://github.com/ciphrex/mSIGNA#readme)" quote="multiuser/multidevice account management" %}
+{% include featureEvidence.html feature="segwit" source="[README](https://github.com/ciphrex/mSIGNA#readme)" quote="New since 0.10.0: Segregated witness support. Only supported on blockchains that currently support it." %}
 
 ## App Description
 

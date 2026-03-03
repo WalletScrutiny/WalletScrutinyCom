@@ -28,7 +28,10 @@ social:
 redirect_from: 
 developerName: Mobee - PT CTXG Indonesia Berkarya
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -55,3 +58,8 @@ The [terms](https://mobee.com/terms-of-services) state:
 
 This is a **custodial** service.
 
+{% include featureEvidence.html feature="tradeAlts" quote="Exchange between 1 (one) or more types of Crypto Assets" source="App Description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="IDR deposits and withdrawals via bank transfer, E-wallet, and QRIS" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Keamanan biometrik Akses akun terjaga dengan scan wajah atau sidik jari." source="Website" %}

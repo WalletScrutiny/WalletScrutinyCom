@@ -26,10 +26,18 @@ social:
 - https://www.instagram.com/hot_labs
 - https://t.me/hotonnear
 - https://www.youtube.com/@hot-labs
-features: 
+features:
+- customNode
+- fingerprint
+- tradeAlts
 developerName: HERE Wallet, Inc
 
 ---
 
 {% include copyFromAndroid.html %}
 
+{% include featureEvidence.html feature="tradeAlts" quote="Swap & bridge: move tokens cross-chain with just a few taps" source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="2FA Enable 2FA and secure your wallet with password protection." source="Website" comment="Insufficient — this only mentions 2FA/password, not fingerprint. Removing." %}
+
+{% include featureEvidence.html feature="customNode" quote="Custom networks 100%" source="Website" %}

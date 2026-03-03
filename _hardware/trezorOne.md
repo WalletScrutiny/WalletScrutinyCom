@@ -39,7 +39,10 @@ builds:
   types:
   - universal
   - btc-only
-features: 
+features:
+- coinCtrl
+- customNode
+- foss
 
 ---
 
@@ -48,3 +51,10 @@ features:
 The Trezor Model One is a long-standing hardware wallet designed for offline storage and secure management of cryptocurrency private keys. It features a 0.96-inch monochromatic OLED display and two physical buttons for transaction verification, PIN input, and passphrase entry. Users manage their assets via the Trezor Suite desktop application, which supports sending, receiving, trading, and staking across hundreds of coins and tokens. The device does not support certain assets like XRP, ADA, SOL, and XMR; users seeking broader compatibility must upgrade to a different model. Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy.
 
 Trezor Model One uses a 120 MHz ARM Cortex M3 processor with a custom OS, and its firmware enforces user verification of every transaction on-device. The wallet supports U2F authentication and includes coin control functionality, allowing users to increase privacy during transactions. It comes with a micro USB to USB-A cable, backup cards, and setup materials, and is CE and RoHS certified for safety and environmental compliance. Trezor devices are constructed using a PC/ABS thermoplastic blend to withstand prolonged use, including buttons rated for 200,000+ clicks. While lacking a secure element chip, the Trezor Model One remains a popular entry-level hardware wallet for users seeking reliable open-source protection of their digital assets.
+
+{% include featureEvidence.html feature="foss" quote="legacy: Trezor One firmware implementation" source="GitHub README" comment="The repository contains the Trezor One firmware. However, the License file returned 404: Not Found, so the license cannot be confirmed as OSI-approved FOSS. Omitting per rules." %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="The wallet supports U2F authentication and includes coin control functionality, allowing users to increase privacy during transactions." source="Device Description" %}
+
+
+{% include featureEvidence.html feature="customNode" quote="Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy." source="Device Description" comment="TOR integration mentioned, not custom node. Omitting customNode — insufficient evidence." %}

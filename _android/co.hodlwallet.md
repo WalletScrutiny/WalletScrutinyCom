@@ -31,8 +31,14 @@ redirect_from:
 developerName: Hodl Wallet INC
 builds: 
 features: 
+- ownFullNode
+- customNode
+- foss
 
 ---
+{% include featureEvidence.html feature="ownFullNode" source="[Website](https://hodlwallet.com)" quote="Advanced users can point HODL Wallet directly to their own Bitcoin node." %}
+{% include featureEvidence.html feature="customNode" source="[Website](https://hodlwallet.com)" quote="Advanced users can point HODL Wallet directly to their own Bitcoin node." %}
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/hodlwallet/hodl-wallet-android/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 
 ## App and Company History
 

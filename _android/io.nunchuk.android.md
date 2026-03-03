@@ -34,9 +34,17 @@ social:
 redirect_from: 
 developerName: Nunchuk Inc
 builds: 
-features: 
+features:
+- ownFullNode
+- customNode
+- coinCtrl
+- foss
+- multiSig
+- segwit
 
 ---
+{% include featureEvidence.html feature="ownFullNode" source="[Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android)" quote="Connect to your own full node." %}
+{% include featureEvidence.html feature="customNode" source="[Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android)" quote="Connect to your own full node." %}
 
 *Legacy Verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/e4d24e72cf41d87dbf560baddb2f323a09ac97ed/_android/io.nunchuk.android.md)*
 
@@ -50,6 +58,12 @@ This app is **source available**.
 
 ### Provider's Own Process
 
-The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-android/blob/master/reproducible-builds/apkdiff.py)** and **[instructions](https://github.com/nunchuk-io/nunchuk-android/tree/master/reproducible-builds)** for testing the reproducibility of the app. 
+The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-android/blob/master/reproducible-builds/apkdiff.py)** and **[instructions](https://github.com/nunchuk-io/nunchuk-android/tree/master/reproducible-builds)** for testing the reproducibility of the app.
 
+{% include featureEvidence.html feature="foss" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" source="GitHub README" %}
 
+{% include featureEvidence.html feature="multiSig" quote="Nunchuk is a Bitcoin wallet offering advanced multisignature (multisig) functionality, inheritance planning, and robust privacy features." source="App Description" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="Additional capabilities include advanced coin control for managing transaction inputs, tagging, and filtering coins" source="App Description" %}
+
+{% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}

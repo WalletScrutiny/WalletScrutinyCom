@@ -24,9 +24,12 @@ signer:
 twitter: bitcoin_depot
 social:
 - https://www.facebook.com/BitcoinDepot
-features: 
+features:
+- buyWithCC
 developerName: Bitcoin Depot
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Online: Buy bitcoin in only a few steps in our app with your credit or debit card" source="Store" %}

@@ -25,9 +25,15 @@ twitter: BitcoinSuisseAG
 social:
 - https://www.linkedin.com/company/bitcoin-suisse-ag
 - https://www.facebook.com/BitcoinSuisse
-features: 
+features:
+- fingerprint
+- tradeAlts
 developerName: Bitcoin Suisse
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Convenient Login Use Touch or Face ID to log in to your account just like you unlock your phone." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy & Sell Over +65 Cryptocurrencies" source="Store" %}

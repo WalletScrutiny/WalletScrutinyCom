@@ -36,7 +36,10 @@ social:
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 builds:
 - arch: arm
-features: 
+features:
+- airGapped
+- camera
+- foss
 
 ---
 
@@ -89,3 +92,10 @@ The device offers multiple connectivity options:
 - External Storage: For air-gapped firmware upgrades and transaction signing
 
 A notable accessory is the JadeLink, a low-profile USB-C storage drive designed specifically for the Jade Plus to facilitate air-gapped operations. It's available as part of a bundle with the Jade Plus for $169 USD.
+
+{% include featureEvidence.html feature="foss" quote="The collection is subject to GPL3 but individual source components can be used under their specific licenses." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="camera" quote="jade_v2: Jade Plus, with a larger screen and left/right selection buttons instead of a wheel or rocker." source="GitHub README" comment="Camera support is referenced in the README via qemu emulator with camera support and the jade_v2 target which corresponds to Jade Plus with camera, distinct from jade_v2c which is Jade Plus without camera and battery." %}
+
+{% include featureEvidence.html feature="airGapped" quote="Alternatively, to run the qemu emulator with display and camera support" source="GitHub README" %}

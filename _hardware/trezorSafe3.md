@@ -43,8 +43,10 @@ builds:
   - universal
   - btc-only
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[Website](https://trezor.io)" quote="Advanced hardware security and fully open-source code protect millions of Trezor users every day." %}
 
 ## Device Description
 

@@ -30,11 +30,10 @@ social:
 - https://discord.com/invite/uJAXk7jFhZ
 builds: 
 features:
-- Air-gapped hardware wallet using QR codes
-- Bitcoin transaction signing via ERC-4527 QR standard
-- Compatible with multiple Bitcoin wallets (e.g., Sparrow, Specter, BlueWallet, Nunchuk)
-- 2-inch display for on-device transaction verification
-- Supports Bitcoin and Ethereum out of the box
+- airGapped
+- camera
+- foss
+- secEl
 
 ---
 
@@ -61,3 +60,12 @@ Yes. The built-in 2-inch screen is used to display transaction details, includin
 The device has no wired or wireless interfaces and communicates exclusively via camera-scanned and displayed QR codes using the ERC-4527 standard. Includes a single physical button used to confirm actions such as approving transaction signing and navigating prompts on the device.
 
 This device is **for verification**
+
+{% include featureEvidence.html feature="foss" quote="All firmware, hardware designs, and toolchain scripts are fully open source under the MIT license." source="GitHub README" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Scan and display QR codes (ERC-4527) to sign transactions without ever exposing your keys." source="GitHub README" %}
+
+{% include featureEvidence.html feature="secEl" quote="EAL6+ certified secure element for key storage and signing." source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Keycard Shell transforms any Keycard into a standalone, air-gapped hardware wallet with built-in keypad, display, camera, and USB (which can be turned off)." source="GitHub README" %}
+

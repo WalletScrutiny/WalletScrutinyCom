@@ -29,7 +29,11 @@ social:
 redirect_from: 
 developerName: 'Klever Wallet: BTC, ETH, TRX, KLV, SOL, and More'
 builds: 
-features: 
+features:
+- hd
+- multiAccount
+- segwit
+- tradeAlts
 
 ---
 
@@ -57,3 +61,11 @@ Although klever has an extensive organization page on GitHub, its Android reposi
 - We were provided with a Bech32 BTC address.
 - There are no claims regarding source-availability and [0 results](https://github.com/search?q=finance.klever.bitcoin.wallet&type=code) when searching GitHub code for the app ID.
 - This app is **not source-available**.
+
+{% include featureEvidence.html feature="segwit" quote="We were provided with a Bech32 BTC address." source="App Description from Google Play 2023-07-11 / Analysis" %}
+
+{% include featureEvidence.html feature="hd" quote="We then assigned a 6-digit pin. We were provided with a 12-word mnemonic phrase." source="Analysis" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple Accounts Manage unlimited accounts effortlessly. Buy, sell, stake and transact with ease." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Fast Swaps Swap across multiple blockchains, fast, secure & no KYC hassles." source="Website" %}

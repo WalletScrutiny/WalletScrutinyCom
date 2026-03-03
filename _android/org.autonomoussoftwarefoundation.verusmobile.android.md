@@ -28,10 +28,16 @@ social:
 redirect_from: 
 developerName: Autonomous Software Foundation
 builds: 
-features: 
+features:
+- camera
+- multiAccount
 
 ---
 
 ## App Description from Google Play
 
 The Verus Android mobile app is an app that supports Verus, Bitcoin and Ethereum. App initialization begins with a passphrase and the generation of a 24-word seed phrase. It is self-custodial, **source-available** and **for verification**
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple account support, the ability to use different keys on the same phone" source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Camera and Audio access: The Verus Mobile application's VerusPay QR code scanner is designed to read and parse VerusQR codes, or VerusPay invoices through the camera, and requires camera access to work properly." source="GitHub README" %}

@@ -32,7 +32,9 @@ social:
 - https://medium.com/mars-dao
 - https://github.com/orgs/MARS-DAO/repositories
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -48,3 +50,7 @@ The companion app has been reviewed and can be found here: {% include walletLink
 ## Analysis 
 
 The device itself is an NFC card that relies on the companion app to make transactions. It contains the keys to sign transactions but has no interface to verify what is being signed.
+
+{% include featureEvidence.html feature="nfc" quote="A card that stores your private key and connects to your phone via NFC." source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="secEl" quote="Embedded EAL6+ SecureCore microchip by Samsung." source="Existing WalletScrutiny review" %}

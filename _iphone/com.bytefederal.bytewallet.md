@@ -27,9 +27,18 @@ social:
 - https://www.instagram.com/bytefederalatm
 - https://www.youtube.com/channel/UCozOzfZ0MgqLT_TA7hbNh4g
 - https://www.linkedin.com/company/bytefederal
-features: 
+features:
+- hd
+- ln
+- multiAccount
 developerName: Byte Federal, Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="The Lightning Network is supported as well!" source="Store" %}
+
+{% include featureEvidence.html feature="hd" quote="Backup and recovery are quick and easy with your unique 12-word seed phrase, the current industry standard for security." source="Store" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Create as many wallets as you like and store BTC, ETH, LTC, DOGE, and even MARS, the future currency of the planet Mars." source="Store" %}

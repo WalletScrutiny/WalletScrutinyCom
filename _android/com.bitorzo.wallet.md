@@ -28,8 +28,16 @@ redirect_from:
 developerName: Hodlers Team
 builds: 
 features: 
+- hd
+- fingerprint
+- foss
+- camera
 
 ---
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/Bitorzo/Bitorzo#readme)" quote="HD enabled - wallet never reuse addresses (BIP32, BIP44) to keep your privacy safe." %}
+{% include featureEvidence.html feature="fingerprint" source="[README](https://github.com/Bitorzo/Bitorzo#readme)" quote="Protect your funds with biometrics (FaceID / Fingerprint)" %}
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/Bitorzo/Bitorzo/blob/master/LICENSE)" quote="MIT License" %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/Bitorzo/Bitorzo#readme)" quote="Easily Send / Receive by scanning QR code (for non-contacts or non-Bitorzo users)." %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/4858b0b76e8e8e7fe6c60e2e3af81360a79bed91/_android/com.bitorzo.wallet.md)*
 

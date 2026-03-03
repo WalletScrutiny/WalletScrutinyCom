@@ -28,8 +28,10 @@ redirect_from:
 developerName: 
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/OpenBazaar/haven/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update:** [@StevieZollo](https://twitter.com/StevieZollo) sent a
 [tweet](https://twitter.com/StevieZollo/status/1299056449168052224):

@@ -32,7 +32,10 @@ twitter: ilinkeds
 social:
 - https://www.linkedin.com/in/ilinkeds/
 builds: 
-features: 
+features:
+- hd
+- nfc
+- secEl
 
 ---
 
@@ -52,4 +55,10 @@ From the [picash website](https://www.ilinkeds.com/payments).
 
 The device is dependent on another product they are selling - the PiCash card reader. The card reader can be plugged to a desktop Windows/Linux/Mac computer via USB. 
 
-The reliance on desktop software exposes the wallet to risks such as malware. 
+The reliance on desktop software exposes the wallet to risks such as malware.
+
+{% include featureEvidence.html feature="hd" quote="PCH hardware wallet has full BIP32 and BIP39 support" source="Product Description" %}
+
+{% include featureEvidence.html feature="nfc" quote="using a chip card reader or simply with the NFC technology, you will be able to manage your favorite crypto assets" source="Product Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="it is a security device that let you safely store your private keys within the tamper-proof secure chip" source="Product Description" %}

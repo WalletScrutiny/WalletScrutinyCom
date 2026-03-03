@@ -31,6 +31,7 @@ social:
 builds: 
 features:
 - ln
+- nfc
 
 ---
 
@@ -43,3 +44,5 @@ This is a contactless payment card meant to work with the Lightning network. In 
 ## Analysis
 
 Although this app allows for fast contactless payments, it still depends on a companion app and has no buttons or screen for verifying and confirming transactions by itself.
+
+{% include featureEvidence.html feature="nfc" quote="Lightning contactless payment without fees" source="Website" %}

@@ -22,6 +22,8 @@ twitter: KronosWallet
 social: 
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/metaspartan/kronos#readme)" quote="The MIT License (MIT)" %}
 

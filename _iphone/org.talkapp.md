@@ -24,9 +24,12 @@ signer:
 twitter: 
 social:
 - https://talkapp.org
-features: 
+features:
+- hd
 developerName: BULL.B TECHNOLOGY LIMITED
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="用戶在開設錢包時，系統採取BIP39 Mnemonic Code算法，隨機生成十二個簡單英文詞語，用戶記下英文詞語的順序，便能開啟錢包。將來轉換手機時只要準確輸入該組詞語，即可繼續使用錢包，不會遺失。" source="Store" %}

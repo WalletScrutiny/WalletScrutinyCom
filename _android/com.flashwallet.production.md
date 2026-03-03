@@ -26,7 +26,10 @@ social:
 redirect_from: 
 developerName: Flash Wallet
 builds: 
-features: 
+features:
+- fingerprint
+- hd
+- segwit
 
 ---
 
@@ -53,3 +56,9 @@ However, without source code review, we cannot verify:
 Based on observable behavior and derivation verification with Electrum, the app **appears to be self-custodial**, though closed-source nature prevents complete security assessment.
 
 The project does not make a claim regarding source-availability and offers **[no public source code.](https://github.com/search?q=com.flashwallet.production&ref=opensearch&type=code)**
+
+{% include featureEvidence.html feature="segwit" quote="The app supports Bitcoin, providing native SegWit (bc1) send/receive functionality derived directly from the user's seed." source="App Description" %}
+
+{% include featureEvidence.html feature="hd" quote="Flash Wallet (com.flashwallet.production) is a multi-chain cryptocurrency wallet that enables users to create and manage wallets using a standard 12-word BIP39 recovery phrase." source="App Description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="It includes biometric protection, encrypted local key storage, QR-based payments, and the ability to add custom EVM tokens." source="App Description" %}

@@ -26,7 +26,8 @@ social:
 redirect_from: 
 developerName: Crypto Keeper LLC
 builds: 
-features: 
+features:
+- foss
 
 ---
 
@@ -74,3 +75,5 @@ Despite marketing itself as "non-custodial" and providing a "recovery phrase", C
 - KYC is required to send funds (account-based system)
 
 This is a **custodial** service with misleading claims about being non-custodial and open source.
+
+{% include featureEvidence.html feature="foss" comment="(no justification provided by LLM)" %}

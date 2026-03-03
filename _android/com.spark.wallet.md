@@ -30,9 +30,13 @@ redirect_from:
 developerName: Nadav Ivgi
 builds: 
 features:
+- TOR
+- foss
 - ln
 
 ---
+{% include featureEvidence.html feature="TOR" source="[README](https://github.com/shesek/spark-wallet#readme)" quote="To start Spark as a Tor Hidden Service, set --onion. You don't need Tor pre-installed for this to work." %}
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/shesek/spark-wallet/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 
 <div class="alertBox"><div>⚠️ The provider himself warns:
 <blockquote>Spark is beta-quality software under active development, please use with care.</blockquote>

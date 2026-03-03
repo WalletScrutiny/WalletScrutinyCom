@@ -26,9 +26,15 @@ social:
 - https://phoenix.social/p/npub1getal6ykt05fsz5nqu4uld09nfj3y3qxmv8crys4aeut53unfvlqr80nfm
 - https://www.youtube.com/@getalbycom
 - https://discord.com/invite/5wG4Gr5Fxm
-features: 
+features:
+- ln
+- ownLN
 developerName: Alby Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Instant, low-cost, global payments – sent directly from your phone in a self-custodial way." source="Store" %}
+
+{% include featureEvidence.html feature="ownLN" quote="Connect Alby Hub and other lightning nodes like Umbrel or Start9." source="Store" %}

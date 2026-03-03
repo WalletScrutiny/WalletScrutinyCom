@@ -30,7 +30,10 @@ social:
 redirect_from: 
 developerName: BitHyve UK Ltd.
 builds: 
-features: 
+features:
+- coinCtrl
+- foss
+- multiSig
 
 ---
 
@@ -59,3 +62,9 @@ In addition to its core functionality, Bitcoin Keeper includes future-focused fe
 ## Analysis
 
 This app is **for verification**
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2023 bithyve Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:" source="License" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Supports hot wallets and multi-key offline vaults with customizable m-of-n configurations" source="App Description" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="UTXO management for improved transaction control" source="App Description" %}

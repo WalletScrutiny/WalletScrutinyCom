@@ -31,6 +31,7 @@ redirect_from:
 developerName: Blink El Salvador S.A. de C.V.
 builds: 
 features:
+- foss
 - ln
 
 ---
@@ -71,4 +72,6 @@ Galoy Inc's official website contains information on this app [here:](https://ga
 
 ## The Verdict
 
-This app is **custodial** and additionally, was created with the specific aim of aiding El Salvadoran local businesses and stores in adopting Bitcoin as a means of currency. 
+This app is **custodial** and additionally, was created with the specific aim of aiding El Salvadoran local businesses and stores in adopting Bitcoin as a means of currency.
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2021 Galoy Inc Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}

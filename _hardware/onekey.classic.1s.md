@@ -32,7 +32,8 @@ twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
@@ -81,3 +82,5 @@ According to a OneKey developer in the project’s Discord:
 (*Source: OneKey Discord, user “loatheb”, Aug 2025*)  
 
 This device is **source-available** and subject **for-verification**
+
+{% include featureEvidence.html feature="secEl" quote="Secured by EAL 6+ certified chips" source="Website" %}

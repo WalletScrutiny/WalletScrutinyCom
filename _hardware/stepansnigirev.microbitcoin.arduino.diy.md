@@ -29,7 +29,10 @@ twitter: stepansnigirev
 social:
 - https://t.me/arduinoBitcoin
 builds: 
-features: 
+features:
+- foss
+- hd
+- segwit
 
 ---
 
@@ -69,5 +72,10 @@ Snippet from Micro-bitcoin's [tutorial page:](https://micro-bitcoin.github.io/#/
 
 There is an active community on [Telegram](https://t.me/arduinoBitcoin) focusing specifically on Arduino-Bitcoin implementations. The principal author for this project is Stepan Snigirev and he gives out a lot of resources and links to libraries that potential users can use. 
 
-Anyone who's looking to understand Bitcoin better would benefit from partaking in this active **do-it-yourself** project. 
+Anyone who's looking to understand Bitcoin better would benefit from partaking in this active **do-it-yourself** project.
 
+{% include featureEvidence.html feature="hd" quote="HD wallets, generation of the recovery phrases" source="GitHub README" %}
+
+{% include featureEvidence.html feature="segwit" quote="Derives native segwit account (bip-84) for tesnet" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="We use elliptic curve implementation from trezor-crypto." source="GitHub README" comment="CANNOT confirm — License file returns 404: Not Found. FOSS cannot be confirmed without a valid license file." %}

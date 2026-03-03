@@ -22,8 +22,22 @@ twitter: LilyWallet
 social: 
 builds: 
 features: 
+- ln
+- ownLN
+- ownFullNode
+- multiAccount
+- multiSig
+- companion
+- customNode
 
 ---
+{% include featureEvidence.html feature="ln" source="[Website](https://lily-wallet.com)" quote="Support for lightning network accounts including channel opening/closing from cold storage." %}
+{% include featureEvidence.html feature="ownLN" source="[README](https://github.com/Lily-Technologies/lily-wallet#readme)" quote="Manage hardware wallets, multisignature vaults, and lightning nodes all in one beautiful interface" %}
+{% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/Lily-Technologies/lily-wallet#readme)" quote="Retrieve blockchain data from your own instance of Electrum Server" %}
+{% include featureEvidence.html feature="multiAccount" source="[Website](https://lily-wallet.com)" quote="Unlimited accounts Manage all of your accounts from one beautiful, intuitive user interface." %}
+{% include featureEvidence.html feature="multiSig" source="[Website](https://lily-wallet.com)" quote="upgrade to multisig for more robust security as your bitcoin increases in value." %}
+{% include featureEvidence.html feature="companion" source="[README](https://github.com/Lily-Technologies/lily-wallet#readme)" quote="Manage hardware wallets, multisignature vaults, and lightning nodes all in one beautiful interface" %}
+{% include featureEvidence.html feature="customNode" source="[Website](https://lily-wallet.com)" quote="Connect to your node Easily connect to your node at home to verify and broadcast transactions." %}
 
 ## App Description
 

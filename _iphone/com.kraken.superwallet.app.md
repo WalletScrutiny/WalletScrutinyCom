@@ -26,9 +26,21 @@ social:
 - https://www.linkedin.com/company/krakenfx
 - https://www.facebook.com/KrakenFX
 - https://www.reddit.com/r/Kraken
-features: 
+features:
+- fingerprint
+- foss
+- hd
+- multiAccount
 developerName: Kraken
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="Kraken Wallet's source code is released under the terms of the MIT license." source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Data encryption using password and/or biometrics" source="GitHub README" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple wallets, one seed phrase: Manage multiple wallets for different purposes using a single, secure seed phrase." source="Store description" %}

@@ -29,7 +29,8 @@ social:
 redirect_from: 
 developerName: Metafortune LTD
 builds: 
-features: 
+features:
+- buyWithCC
 
 ---
 
@@ -46,3 +47,5 @@ features:
 - Section 5.8 of the [terms](https://www.xbo.com/Content/files/Terms&Conditions.pdf) explicitly describe the wallet and the account as belonging to custodial services. 
 
 This makes the app **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="The first option was to &quot;Buy crypto with card&quot;" source="App Description from Google Play" %}

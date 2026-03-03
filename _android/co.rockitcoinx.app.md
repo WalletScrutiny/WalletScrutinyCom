@@ -28,7 +28,9 @@ social:
 redirect_from: 
 developerName: RockItCoin
 builds: 
-features: 
+features:
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -60,3 +62,7 @@ There hasn't been any news on whether the app's source code will be made availab
 - Despite the link with Edge, we're going to search GitHub for RockitCoin's app ID.
 - There was [no result](https://github.com/search?q=co.rockitcoinx.app&type=code) when we did a code search on GitHub for the RockitCoin app ID.
 - This app is **not source-available**.
+
+{% include featureEvidence.html feature="fingerprint" quote="And with biometrics, PIN login, and available 2-factor authentication, your assets are kept secure." source="App Description from Google Play 2023-07-07" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="The RockItCoin app allows you to securely buy, store, send, and receive cryptocurrency like Bitcoin (BTC), Ether (ETH), Bitcoin Cash (BCH), Litecoin (LTC), Dogecoin (DOGE), Polygon (MATIC), and Tether (USDT)." source="App Description from Google Play 2023-07-07" %}

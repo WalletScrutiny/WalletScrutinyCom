@@ -29,7 +29,10 @@ social:
 redirect_from: 
 developerName: Alby Inc.
 builds: 
-features: 
+features:
+- foss
+- ln
+- ownLN
 
 ---
 
@@ -45,3 +48,8 @@ The application's dependency on external wallet services represents a distribute
 
 The verdict of **sourceavailable** applies because Alby Go provides genuine wallet functionality with publicly available source code that can be audited and potentially reproduced. While the app implements an external key management model rather than local private key storage, it still qualifies as a Bitcoin wallet since users can independently send and receive Bitcoin payments through the interface. Users maintain meaningful control over their Bitcoin through their choice of external wallet provider and can migrate between different NWC-compatible services without losing access to their funds. The open-source nature of the codebase allows for security audits and build verification, meeting the criteria for source availability despite its distributed architecture that separates the user interface from key custody responsibilities.
 
+{% include featureEvidence.html feature="ln" quote="A simple lightning mobile wallet interface that works great with Alby Hub or any other NWC wallet service." source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2024 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software..." source="GitHub README" %}
+
+{% include featureEvidence.html feature="ownLN" quote="it establishes secure communication channels with self-custodial Lightning wallets such as Alby Hub, Umbrel, Start9, or other NWC-compatible services" source="App Description" %}

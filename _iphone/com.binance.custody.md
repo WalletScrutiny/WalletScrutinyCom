@@ -24,9 +24,12 @@ signer:
 twitter: CeffuGlobal
 social:
 - https://www.linkedin.com/company/ceffu
-features: 
+features:
+- multiSig
 developerName: Block Custody
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiSig" quote="multi-signature authorization" source="Store description" %}

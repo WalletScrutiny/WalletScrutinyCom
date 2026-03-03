@@ -31,8 +31,12 @@ redirect_from:
 developerName: Coffee  Software
 builds: 
 features: 
+- hd
+- fingerprint
 
 ---
+{% include featureEvidence.html feature="hd" source="[Website](https://wallet.coffee/)" quote="BIP39 mnemonic support. Easy to backup 12-word passphrase generates all your private keys." %}
+{% include featureEvidence.html feature="fingerprint" source="[Website](https://wallet.coffee/)" quote="Face/fingerprint authentication. If your device supports it, you will be asked to authenticate before sending payments." %}
 
 **Update 2024-04-03**: With lack of updates from the provider we file this as
 **not verifiable** as we have not managed to reproduce the still latest

@@ -29,14 +29,6 @@ redirect_from:
 developerName: pechen987
 builds: 
 features:
-- Coin Control
-- Non-Custodial
-- Open Source
-- Network switching
-- Address tracking
-- Custom node connection
-- Address generation
-- BIP-44 change address generation
 
 ---
 

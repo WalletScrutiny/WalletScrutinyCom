@@ -23,9 +23,12 @@ date: 2026-01-16
 signer: 
 twitter: 
 social: 
-features: 
+features:
+- fingerprint
 developerName: AMAXG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="사용자는 설정한 비밀번호나 생체인증을 통해 지갑에 안전하게 접근할 수 있으며" source="Store" %}

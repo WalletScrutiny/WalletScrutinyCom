@@ -30,8 +30,10 @@ redirect_from:
 developerName: GreenAddress IT Ltd
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/greenaddress/abcore/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 
 **Update 2023-09-10**: While Emanuel did find a newer version `v0.77` on
 f-droid and found it to be reproducible, this version might not be on Google

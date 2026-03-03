@@ -25,7 +25,10 @@ twitter: Unocoin
 social:
 - https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 developerName: Unocoin Technologies Private Limited
 
 ---
@@ -40,3 +43,9 @@ website and there we read
 
 which clearly means they have the keys and you don't. As a custodial service,
 this app is **not verifiable**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Biometric login & app lock" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy, sell & trade Bitcoin, Ethereum, Dogecoin, Shiba Inu and 95+ cryptocurrencies instantly using INR." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="INR Deposit & Withdrawal" source="Store description" %}

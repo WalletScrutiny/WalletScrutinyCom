@@ -31,7 +31,8 @@ signer:
 twitter: 
 social: 
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
@@ -65,6 +66,6 @@ We were able to locate what we assume to be [Chelpis' repository](https://github
 
 No mention was made about whether the device provides mnemonic backups. 
 
-We reached out to them via email since we could not verify if the Kelvin Wallet twitter account is actually theirs. We await their reply. At the interim, this project would do better to provide more transparency regarding their claims. 
+We reached out to them via email since we could not verify if the Kelvin Wallet twitter account is actually theirs. We await their reply. At the interim, this project would do better to provide more transparency regarding their claims.
 
-
+{% include featureEvidence.html feature="secEl" quote="Private keys never leave the device and are protected by a CC EAL5+ secure element, locked by your PIN, with sophisticated countermeasures against various kinds of physical attacks." source="Product Description" %}

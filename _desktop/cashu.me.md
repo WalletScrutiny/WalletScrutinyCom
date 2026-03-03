@@ -23,8 +23,9 @@ social:
 - https://t.me/CashuBTC
 builds: 
 features:
-- ln
 - cashu
+- foss
+- ln
 
 ---
 
@@ -45,3 +46,4 @@ Cashu.me is built with Vue.js and TypeScript. As a web wallet, it stores tokens 
 
 **Important privacy note**: Cashu provides strong privacy for transactions through blind signatures, but the mint operator has custody of the underlying Bitcoin. Users must trust the mint to redeem their tokens.
 
+{% include featureEvidence.html feature="foss" quote="quasar build -m pwa" source="GitHub README" comment="The repository is publicly available on GitHub. However, the License file returned 404: Not Found, so FOSS cannot be confirmed per rules." %}

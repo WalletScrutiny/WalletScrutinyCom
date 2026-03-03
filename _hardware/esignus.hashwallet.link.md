@@ -33,7 +33,11 @@ social:
 - https://www.linkedin.com/company/esignus/
 - https://www.facebook.com/hashwalletofficial/
 builds: 
-features: 
+features:
+- fingerprint
+- nfc
+- secEl
+- tradeAlts
 
 ---
 
@@ -57,3 +61,12 @@ The [Hashwallet Link](https://shop.esignus.com/products/hashwallet-link-cobalt) 
 ## Analysis 
 
 The card **does not have a display or interface** which would allow the user to verify or confirm transactions.
+
+{% include featureEvidence.html feature="nfc" quote="NFC-enabled" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="Secure Element: Infineon SLE78" source="Website" %}
+
+
+{% include featureEvidence.html feature="tradeAlts" quote="Compatible with Simplex and Changelly" source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Hardware Wallet Card Our card simplifies digital asset management with mobile tap transactions and can be activated via a mobile app. It features cutting-edge EAL6+ certified hardware, customizable designs, and biometric options for top security and seamless Web3 asset management" source="Website" %}

@@ -25,9 +25,18 @@ twitter: veruscoin
 social:
 - https://www.youtube.com/channel/UC_-KCHBxaDwSgNMdE3LMThg
 - https://bitcointalk.org/index.php?action=profile;u=1983523
-features: 
+features:
+- camera
+- fingerprint
+- multiAccount
 developerName: Autonomous Software Foundation
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple account support, the ability to use different keys on the same phone" source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Camera and Audio access: The Verus Mobile application's VerusPay QR code scanner is designed to read and parse VerusQR codes, or VerusPay invoices through the camera, and requires camera access to work properly." source="GitHub README" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Secure your keys and assets on your device using Face ID, Touch ID, or traditional passwords." source="Store description" %}

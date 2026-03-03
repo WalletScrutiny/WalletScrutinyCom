@@ -28,7 +28,11 @@ signer:
 twitter: BlockchainComns
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- foss
+- hd
 
 ---
 
@@ -59,4 +63,10 @@ The {{ page.title }} is in late alpha development stage. As a **DIY** device, it
 - It is also possible to view bitcoin address derived from mnemonic seeds with BIP32. 
 - Wallet descriptors can be exported to another device.
 
+{% include featureEvidence.html feature="hd" quote="The Seedtool Application Instuctions describe how to generate and recover BIP-32 HD wallet master seeds in BIP-39 and SSKR formats." source="GitHub README" %}
 
+{% include featureEvidence.html feature="airGapped" quote="LetheKit is a do-it-youself platform for performing various sensitive cryptographic operations on an offline airgapped device. It uses no WiFi or Bluetooth which could leak information and contains no local storage, and when the device is turned off it forgets any sensitive data stored in RAM." source="GitHub README" %}
+
+{% include featureEvidence.html feature="foss" quote="the contents of this repository are Copyright © 2020 by Blockchain Commons, LLC, and are licensed under the spdx:BSD-2-Clause Plus Patent License." source="GitHub README" %}
+
+{% include featureEvidence.html feature="camera" quote="Openness. LetheKit communicates through airgaps via URs and QRs, for maximum interoperability." source="GitHub README" %}

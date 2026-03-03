@@ -25,9 +25,18 @@ twitter: OKXTurkiye
 social:
 - https://t.me/OKXTR
 - https://www.youtube.com/@OKXTurkiye
-features: 
+features:
+- buyWithCC
+- multiSig
+- tradeAlts
 developerName: OKX TR KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Easily discover tokens from thousands of cryptocurrencies, including Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Tether (USDT), Solana (SOL), Dogecoin (DOGE), and Shiba Inu (SHIB)." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Access over a thousand payment methods with more than 100 currencies." source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Online and offline crypto storage systems that require multiple signatures in cryptocurrency transfers provide multiple backups and multi-signature protection." source="Store description" %}

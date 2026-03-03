@@ -28,7 +28,10 @@ social:
 redirect_from: 
 developerName: Speed1 Inc
 builds: 
-features: 
+features:
+- buyWithCC
+- ln
+- tradeAlts
 
 ---
 
@@ -41,3 +44,9 @@ features:
 ## Analysis 
 
 - The description itself states that the app is a **custodial** wallet. The seed phrases were not provided. We couldn't find it in the setting either.
+
+{% include featureEvidence.html feature="ln" quote="As a custodial wallet, Speed Bitcoin Wallet enables you to securely send and receive Bitcoin via both the on-chain and Lightning Network." source="App Description from Google Play" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="You can buy Bitcoin and USDT directly from Speed Wallet." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Our seamless swap feature lets you exchange Bitcoin for USDT instantly—and vice versa." source="Website" %}

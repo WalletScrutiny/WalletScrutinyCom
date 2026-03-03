@@ -30,7 +30,10 @@ redirect_from:
 - /posts/com.zelcash.zelcore/
 developerName: Influx Technologies Limited
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- tradeAlts
 
 ---
 
@@ -53,3 +56,9 @@ and
 which sounds like a non-custodial wallet but neither on Google Play nor on their
 website do we find a link to the source code, so their claims are **not
 verifiable**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Users can log in securely with biometrics or a seed phrase, backed by Zelcore's always-on encryption to keep your data protected at all times." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Cross-Chain Swap" source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="On-Ramp & Off-Ramp Services" source="Website" %}

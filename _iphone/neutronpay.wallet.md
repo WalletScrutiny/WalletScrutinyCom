@@ -26,9 +26,15 @@ social:
 - https://www.instagram.com/neutronpay
 - https://www.linkedin.com/company/neutronme
 - https://t.me/go_neutron
-features: 
+features:
+- ln
+- tradeAlts
 developerName: Neutronpay Inc.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Pay: Instantly pay anywhere that accepts Bitcoin Lightning payments." source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap: Easily exchange between Bitcoin, USDt and your local currency directly within the app" source="Store" %}

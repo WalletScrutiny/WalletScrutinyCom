@@ -29,7 +29,11 @@ social:
 redirect_from: 
 developerName: ChangeNOW
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- multiAccount
+- tradeAlts
 
 ---
 
@@ -63,3 +67,10 @@ A search for the app ID on GitHub didn't turn up any relevant repository. This a
 
 We downloaded the app and got the seed phrases. As the review mentioned, it took quite a bit of time to load. They make **no claims about the public availability of their code and we have not found their repository**.
 
+{% include featureEvidence.html feature="buyWithCC" quote="Buy and sell crypto with credit card & bank account ChangeNOW platform allows users to buy/sell crypto using bank accounts and Visa/MasterCard. This feature also applies to the NOW Wallet – fiat-to-crypto operations are now just a click away." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Instant crypto-to-crypto and fiat-to-crypto exchanges." source="Website" %}
+
+{% include featureEvidence.html feature="fingerprint" source="Website" %}
+
+{% include featureEvidence.html feature="multiAccount" source="Website" %}

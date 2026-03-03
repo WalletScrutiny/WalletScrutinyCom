@@ -1,0 +1,85 @@
+android/com.btc.trustless:
+- Coin Control
+- Non-Custodial
+- Open Source
+- Network switching
+- Address tracking
+- Custom node connection
+- Address generation
+- BIP-44 change address generation
+android/com.livingroomofsatoshi.wallet:
+- spark
+android/com.mathwallet.android:
+- multiwallet
+android/id.ryder.ryderone:
+- nfc required
+android/xyz.twenty_two.portal_manager:
+- companion app
+desktop/bitcoin.safe:
+- 'Backup & Sync: Label and Coin category synchronization'
+- 'Nostr Chat: to collaborative sign Multisig wallet across different computers, hardware
+  wallets, and secure encrypted communication via Nostr durig the process.'
+- Compact Block Filters
+- Many other <a href="https://bitcoin-safe.org/en/features/" target="_blank">unique
+  features</a>
+desktop/electrum:
+- 2fa
+- multisig
+desktop/gingerwallet:
+- tor
+- client-side block filtering
+- bitcoin knots integration
+- 2fa
+desktop/liana:
+- multisig
+desktop/nunchuk:
+- multisig
+- inheritance
+- hardware integration
+- decoy wallet
+hardware/bitBox2Nova:
+- Tempered glass OLED display
+- EAL6+ certified Secure Chip
+- Bluetooth support for iOS
+- USB-C
+- microSD card for backup and restore
+- Open-source firmware
+- Available in Midnight Black and Polar White
+- Comes in a Bitcoin-only and a Multi-coin edition
+hardware/erawallet:
+- airgapped
+- wireless_charging
+- secure_element
+- multi_wallet
+hardware/keycard-shell:
+- Air-gapped hardware wallet using QR codes
+- Bitcoin transaction signing via ERC-4527 QR standard
+- Compatible with multiple Bitcoin wallets (e.g., Sparrow, Specter, BlueWallet, Nunchuk)
+- 2-inch display for on-device transaction verification
+- Supports Bitcoin and Ethereum out of the box
+hardware/trezorSafe7:
+- 2.5" color touchscreen
+- TROPIC01 secure element (TropicSquare)
+- 3.2V 330mAh battery
+- USB-C, Bluetooth, Qi2 wireless charging
+- BIP39 12/20/24-word, Shamir Secret Sharing
+- FIDO2, TOTP
+- Tor proxy support
+hardware/twentytwo.portal:
+- monochrome-display
+- tamper-evident packaging
+- single physical button
+- credit card form factor
+- bitcoin-only
+- supports BIP39
+iphone/com.btc.trustless:
+- Coin Control
+- Non-Custodial
+- Open Source
+- Network switching
+- Address tracking
+- Custom node connection
+- Address generation
+- BIP-44 change address generation
+iphone/com.mathglobal.mathwallet5:
+- multiwallet

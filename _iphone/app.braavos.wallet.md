@@ -23,9 +23,21 @@ date: 2025-11-03
 signer: 
 twitter: myBraavos
 social: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- ln
+- tradeAlts
 developerName: Braavos LTD.
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="seamless Lightning payments" source="Store description" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Biometric transaction protection (FaceID or fingerprint)" source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="start with fiat using Apple Pay, Google Pay or direct deposit" source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="swap tokens" source="Store description" %}

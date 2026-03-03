@@ -23,9 +23,15 @@ date: 2025-11-12
 signer: 
 twitter: BitPocketWallet
 social: 
-features: 
+features:
+- ln
+- taproot
 developerName: BITDANCE LIMITED
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="ln" quote="Manage both Bitcoin + Lightning Network assets in one place." source="Store" %}
+
+{% include featureEvidence.html feature="taproot" quote="Securely handle Taproot Assets without running your own Lightning Network node." source="Store" %}

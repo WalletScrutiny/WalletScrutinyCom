@@ -2,10 +2,13 @@
 <div class="filter" id="homepageSearch">
   <div title="Search selected wallets" class="landing-page-search-container">
       <script>window.full_wallet_count={% include /homepage/full_wallet_count.html %};</script>
-    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews..." spellcheck="false" />
+    <input class="search-filtered-wallets query-string" placeholder="Search all security reviews…" spellcheck="false" />
   </div>
   <div title="Filters" class="filters-toggle" onclick="filtersToggle(this)">
     <i class="fas fa-filter"></i>
+  </div>
+  <div title="Advanced Search" class="filters-toggle advanced-search-toggle" onclick="advancedSearchToggle(this)" title="Advanced Search">
+    <i class="fas fa-sliders-h"></i>
   </div>
   <div title="Platform" class="component component-platform">
     <div class="dropdown-options dropdown-platform">
@@ -18,6 +21,29 @@
         {% include folderToName.html folder=folder %}
         <div class="option {{p[0]}}" data="{{p[0]}}" data-name="{{name}}"><span>{{name}}</span></div>
       {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="advanced-search-panel" id="advancedSearchPanel" style="display:none;">
+  <div class="advanced-search-inner">
+    <div class="feature-pills-section feature-pills-active" id="featurePillsActive" style="display:none;">
+      <div class="feature-pills-label">Active filters</div>
+      <div class="feature-pills-row" id="activePillsRow"></div>
+    </div>
+    <div class="feature-pills-section">
+      <div class="feature-pills-label">Filter by feature <span class="feature-pills-hint">— click to activate, click again to remove</span></div>
+      <div class="feature-pills-row" id="availablePillsRow">
+        {% for f in site.data.features %}
+          <button type="button"
+            class="feature-pill"
+            data-key="{{ f[0] }}"
+            data-short="{{ f[1].short | escape }}"
+            title="{{ f[1].long | strip_html | truncate: 200 | escape }}">
+            {{ f[1].short }}
+          </button>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -38,4 +64,109 @@
     }
     self.parentNode.classList.add('filters-visible');
   }
+
+  function advancedSearchToggle(self){
+    const panel = document.getElementById('advancedSearchPanel');
+    if (!panel) return;
+    const isOpen = panel.style.display !== 'none';
+    panel.style.display = isOpen ? 'none' : 'block';
+    self.classList.toggle('active', !isOpen);
+  }
+
+  // ── Feature pill logic ────────────────────────────────────────────────
+
+  function getActiveFeatureKeys() {
+    return Array.from(document.querySelectorAll('#activePillsRow .feature-pill')).map(el => el.dataset.key);
+  }
+
+  function syncFeaturePillsToInput() {
+    const input = document.querySelector('.query-string');
+    if (!input) return;
+    const currentVal = input.value.replace(/\bf:\S+/gi, '').replace(/\s+/g, ' ').trim();
+    const active = getActiveFeatureKeys();
+    const tokens = active.map(k => 'f:' + k).join(' ');
+    input.value = tokens ? (tokens + (currentVal ? ' ' + currentVal : '')) : currentVal;
+  }
+
+  function syncInputToFeaturePills() {
+    const input = document.querySelector('.query-string');
+    if (!input) return;
+    const tokens = (input.value.match(/\bf:(\S+)/gi) || []).map(t => t.slice(2).toLowerCase());
+    const activeRow = document.getElementById('activePillsRow');
+    const availRow = document.getElementById('availablePillsRow');
+    if (!activeRow || !availRow) return;
+
+    // Collect all pills from both rows
+    const allPills = [
+      ...Array.from(activeRow.querySelectorAll('.feature-pill')),
+      ...Array.from(availRow.querySelectorAll('.feature-pill'))
+    ];
+
+    allPills.forEach(pill => {
+      const key = pill.dataset.key;
+      if (tokens.includes(key.toLowerCase())) {
+        if (pill.parentNode !== activeRow) {
+          pill.classList.add('active');
+          activeRow.appendChild(pill);
+        }
+      } else {
+        if (pill.parentNode !== availRow) {
+          pill.classList.remove('active');
+          availRow.appendChild(pill);
+        }
+      }
+    });
+
+    updateActiveSectionVisibility();
+  }
+
+  function updateActiveSectionVisibility() {
+    const activeSection = document.getElementById('featurePillsActive');
+    const activeRow = document.getElementById('activePillsRow');
+    if (!activeSection || !activeRow) return;
+    activeSection.style.display = activeRow.children.length > 0 ? 'block' : 'none';
+  }
+
+  function triggerSearchFromPills() {
+    syncFeaturePillsToInput();
+    const queryRaw = document.querySelector('.query-string').value.length > 0
+      ? encodeURI(document.querySelector('.query-string').value) : '';
+    const platformElement = document.querySelector('.dropdown-platform .selected');
+    const platform = platformElement ? platformElement.getAttribute('data') : 'allPlatforms';
+    window.history.pushState('data', null,
+      '/?platform=' + platform + '&page=0' + (queryRaw.length > 0 ? '&query-string=' + queryRaw : ''));
+    updateWalletGridInputOriginatingFromURL();
+  }
+
+  // Click handler: move pill between available ↔ active
+  document.addEventListener('click', function(e) {
+    const pill = e.target.closest('.feature-pill');
+    if (!pill) return;
+    const activeRow = document.getElementById('activePillsRow');
+    const availRow = document.getElementById('availablePillsRow');
+    if (!activeRow || !availRow) return;
+
+    if (pill.classList.contains('active')) {
+      // Deactivate: move back to available
+      pill.classList.remove('active');
+      // Re-insert in original order by data-key alphabetically (simpler: just append)
+      availRow.appendChild(pill);
+    } else {
+      // Activate: move to active row
+      pill.classList.add('active');
+      activeRow.appendChild(pill);
+    }
+    updateActiveSectionVisibility();
+    triggerSearchFromPills();
+  });
+
+  // Sync pills when user types f:key manually in the search input
+  document.querySelector('.query-string').addEventListener('input', function() {
+    syncInputToFeaturePills();
+  });
+
+  // On page load: if URL has f:key tokens, activate the right pills
+  document.addEventListener('DOMContentLoaded', function() {
+    syncInputToFeaturePills();
+  });
 </script>

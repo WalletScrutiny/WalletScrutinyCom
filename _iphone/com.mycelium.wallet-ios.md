@@ -26,7 +26,16 @@ social:
 - https://www.linkedin.com/company/mycelium
 - https://www.facebook.com/myceliumcom
 - https://www.reddit.com/r/mycelium
-features: 
+features:
+- TOR
+- coinCtrl
+- customNode
+- fingerprint
+- hd
+- multiAccount
+- nfc
+- segwit
+- tradeAlts
 developerName: MRD X-Change GmbH
 
 ---
@@ -42,3 +51,21 @@ The provider claims:
   export them.
 
 but so far nobody reproduced the build, so the claim is **not verifiable**.
+
+{% include featureEvidence.html feature="segwit" quote="SegWit: native (Bech32) and P2SH compatible" source="Website" %}
+
+{% include featureEvidence.html feature="TOR" quote="TOR network support to mask IP address and location" source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Option to display derivation address path for BIP44 HD accounts" source="Website" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="Multiple accounts - you can have unlimited number of USDT, Bitcoin, Tron, Ethereum, and TRC20/ERC20 accounts." source="Store" %}
+
+{% include featureEvidence.html feature="coinCtrl" quote="Full UTXO control." source="Store" %}
+
+{% include featureEvidence.html feature="customNode" quote="Connection to your own Bitcoin node." source="Store" %}
+
+{% include featureEvidence.html feature="fingerprint" quote="PIN protection with randomized keypad or biometric authentication." source="Store" %}
+
+{% include featureEvidence.html feature="nfc" quote="NFC" source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="In-app exchange and trading" source="Website" %}

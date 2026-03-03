@@ -28,7 +28,9 @@ signer:
 twitter: nraboy
 social: 
 builds: 
-features: 
+features:
+- airGapped
+- foss
 
 ---
 
@@ -48,5 +50,9 @@ This is an [Open Source](https://github.com/nraboy/open-ledger-micro) **do-it-yo
 
 ## Analysis 
 
-This is a **do-it-yourself project**. 
+This is a **do-it-yourself project**.
 
+{% include featureEvidence.html feature="foss" quote="An open source hardware wallet application for Raspberry Pi Zero devices, written in Golang and Angular." source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="airGapped" quote="The Raspberry Pi Zero is a $5.00 computer with no WiFi or Bluetooth and can be configured to emulate Ethernet over USB." source="GitHub README" %}

@@ -34,7 +34,10 @@ twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
-features: 
+features:
+- hd
+- multiSig
+- secEl
 
 ---
 
@@ -82,3 +85,9 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
 
  With the missing build instructions but above all missing commits leading up to
  the latest release, we find this product to be **not verifiable**.
+
+{% include featureEvidence.html feature="hd" quote="Compliant with BIP32/BIP39/BIP44/BIP45 Standards" source="Website" %}
+
+{% include featureEvidence.html feature="secEl" quote="CC EAL 6+ graded secure element" source="Website" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}

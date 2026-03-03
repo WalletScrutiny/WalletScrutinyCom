@@ -29,7 +29,8 @@ twitter: gridplus
 social:
 - https://www.youtube.com/channel/UCJ4yuWlSb0ZbknadhsjjrlQ
 builds: 
-features: 
+features:
+- secEl
 
 ---
 
@@ -62,6 +63,4 @@ See: [Video](https://youtu.be/uEVhY1xu34Q?t=64) - Initial setup for the device r
 - [Bitcoin](https://docs.gridplus.io/lattice1/supported-digital-assets) is supported.  
 - Although the firmware (HSM) and (GCE) folders are available on GitHub, they have yet to include the actual source. Until then, this device is **not source-available**.
 
-
-
-
+{% include featureEvidence.html feature="secEl" quote="Your assets are safe on a dedicated Hardware Security Module (HSM) caged inside a tamper-resistant wire security mesh. All important operations - from building transactions to drawing screens - are performed on the Lattice's Secure Computing Environment, also housed by the mesh. With tamper detection." source="Product Description from Provider" %}

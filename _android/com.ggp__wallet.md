@@ -26,7 +26,12 @@ social:
 redirect_from: 
 developerName: Planet 9 Group Corporation
 builds: 
-features: 
+features:
+- buyWithCC
+- fingerprint
+- hd
+- nfc
+- tradeAlts
 
 ---
 
@@ -47,3 +52,13 @@ The reference to "open-source technology" appears to describe the underlying lib
 [Video of the App](https://x.com/BitcoinWalletz/status/1990665418554683624) would show that we were able to import the seed phrases to the Electrum desktop app.
 
 This app is **not source-available**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Protect Your Funds with Passcode and Biometric Security Features." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Streamline Cryptocurrency Purchases via Credit Card, Payment App, or Bank Account." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Effortlessly Switch Between Cryptocurrencies." source="Website" %}
+
+{% include featureEvidence.html feature="hd" quote="Video of the App would show that we were able to import the seed phrases to the Electrum desktop app." source="Analysis" %}
+
+{% include featureEvidence.html feature="nfc" comment="(no justification provided by LLM)" %}

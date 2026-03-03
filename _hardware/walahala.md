@@ -37,7 +37,8 @@ social:
 - https://t.me/WalahalaDex
 - https://walahala.slack.com/
 builds: 
-features: 
+features:
+- multiSig
 
 ---
 
@@ -73,3 +74,4 @@ This is from the Walahala [wallet page](https://web.archive.org/web/202412150014
 
 There are no references to the project being open source.
 
+{% include featureEvidence.html feature="multiSig" quote="They also claim that the wallet is a multi-signature wallet." source="Product Description" %}

@@ -30,9 +30,21 @@ redirect_from:
 developerName: LN OSS
 builds: 
 features:
+- segwit
+- TOR
+- ownLN
+- multiAccount
+- nfc
+- foss
 - ln
 
 ---
+{% include featureEvidence.html feature="segwit" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Support for Bech32 and P2SH addresses" %}
+{% include featureEvidence.html feature="TOR" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Tor support" %}
+{% include featureEvidence.html feature="ownLN" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="it is actually a remote control for one or more of your LND Nodes" %}
+{% include featureEvidence.html feature="multiAccount" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Manage multiple wallets/nodes" %}
+{% include featureEvidence.html feature="nfc" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Read NFC tags" %}
+{% include featureEvidence.html feature="foss" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="MIT License" %}
 
 *Legacy verification [2021](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1b96115dbe0d002e06d34997d4950d6ed2744075/_android/zapsolutions.zap.md)*
 

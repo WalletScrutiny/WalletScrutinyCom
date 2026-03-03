@@ -24,9 +24,15 @@ signer:
 twitter: 
 social:
 - https://phemex.com.tr#deadLink
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: PHEMEX TURKEY TEKNOLOJİ LİMİTED ŞİRKETİ
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy Crypto with Industry-Low Fees Using Credit & Debit Cards, Bank Transfer, P2P or other payment methods." source="Store description" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade Bitcoin, Ethereum, and other altcoins." source="Store description" %}

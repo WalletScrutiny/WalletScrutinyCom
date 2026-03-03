@@ -25,6 +25,10 @@ twitter: muunwallet
 social: 
 features:
 - ln
+- multiSig
+- secEl
+- segwit
+- taproot
 developerName: Muun Wallet, Inc
 
 ---
@@ -49,3 +53,11 @@ and
 So they claim the right things and we found
 [their source code](https://github.com/muun/falcon) but no claims of
 reproducibility so we conclude this app is **not verifiable**.
+
+{% include featureEvidence.html feature="segwit" quote="Support for Bech32" source="Store description" %}
+
+{% include featureEvidence.html feature="taproot" quote="The Kit was designed to fit bitcoin's latest scripts, including multisig, lightning and taproot." source="Store description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Protected with multi-signature: Muun is a 2-of-2 multi-signature wallet. Your Emergency Kit has both keys, but your phone just one." source="Store description" %}
+
+{% include featureEvidence.html feature="secEl" quote="private keys, which are stored only on your device, using your phone's secure enclave." source="Existing WalletScrutiny review" %}

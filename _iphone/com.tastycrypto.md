@@ -28,9 +28,15 @@ social:
 - https://www.instagram.com/tastycrypto
 - https://www.facebook.com/tastycrypto
 - https://www.tiktok.com/@thetastycrypto
-features: 
+features:
+- buyWithCC
+- tradeAlts
 developerName: Tasty
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Swap: Access over 1000+ tokens for in-app trading." source="Store description" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy crypto in-app, transfer crypto from tastytrade, or import a seed phrase" source="Store description" %}

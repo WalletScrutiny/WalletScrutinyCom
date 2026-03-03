@@ -29,7 +29,9 @@ twitter: pxcard_official
 social:
 - https://www.youtube.com/channel/UCYsNryvy53XR1UYVKmyHR0g
 builds: 
-features: 
+features:
+- nfc
+- secEl
 
 ---
 
@@ -73,6 +75,8 @@ The lack of a screen or control mechanism on the actual device means that it eng
 
 As of this review, it does not have an official store page yet.
 
-{{ page.title }} does not have a screen or buttons for confirming transactions and it appears to be able to connect via NFC. 
+{{ page.title }} does not have a screen or buttons for confirming transactions and it appears to be able to connect via NFC.
 
+{% include featureEvidence.html feature="nfc" quote="p(x)Card securely stores both your digital assets and your private key. When authorizing the withdrawal, you use p(x)Card to sign transactions via NFC technology." source="Existing WalletScrutiny review" %}
 
+{% include featureEvidence.html feature="secEl" quote="A hardwallet card built upon Infineon technologies SECORA™ Blockchain security solution and Function X network infrastructure" source="Existing WalletScrutiny review" %}

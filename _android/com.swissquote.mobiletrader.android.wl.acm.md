@@ -31,7 +31,8 @@ social:
 redirect_from: 
 developerName: Swissquote Mobile
 builds: 
-features: 
+features:
+- fingerprint
 
 ---
 
@@ -65,4 +66,6 @@ Under ['Institutional Accounts'](https://en.swissquote.com/crypto-assets/institu
 
 > Direct custodianship of your assets to make sure that the same digital asset is not being claimed by or allocated to multiple parties
 
-The provider explicitly describes the service as **custodial**. 
+The provider explicitly describes the service as **custodial**.
+
+{% include featureEvidence.html feature="fingerprint" quote="Quick and secure login with Touch ID support" source="App Description from Google Play" %}

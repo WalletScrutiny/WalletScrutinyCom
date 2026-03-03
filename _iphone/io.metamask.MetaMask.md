@@ -31,8 +31,12 @@ social:
 - https://www.tiktok.com/@metamask
 - https://www.youtube.com/@metamask
 features: 
+- tradeAlts
+- buyWithCC
 developerName: MetaMask
 
 ---
+{% include featureEvidence.html feature="tradeAlts" source="[Website](https://metamask.io/)" quote="Swaps Safely exchange any token" %}
+{% include featureEvidence.html feature="buyWithCC" source="[Website](https://metamask.io/)" quote="Buy Turn cash to crypto" %}
 
 {% include copyFromAndroid.html %}

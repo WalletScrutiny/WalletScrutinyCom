@@ -29,7 +29,9 @@ redirect_from:
 - /posts/casa.keymaster/
 developerName: Casa, Inc
 builds: 
-features: 
+features:
+- buyWithCC
+- multiSig
 
 ---
 
@@ -237,3 +239,7 @@ backdoors capable of emptying all clients' wallets at once.
 We don't assume that Casa is out to steal your keys but we stand by the mantra
 "Don't Trust. Verify!" and consider this wallet with or without multi-signature
 setup to be **not verifiable**.
+
+{% include featureEvidence.html feature="multiSig" quote="Use multiple keys across devices and locations, with safe recovery if a phone or hardware wallet fails." source="Website" %}
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy and sell digital assets with low fees One tap to buy or sell. No switching apps, no pasting addresses." source="Website" %}

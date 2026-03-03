@@ -25,7 +25,10 @@ twitter: Bitstamp
 social:
 - https://www.linkedin.com/company/bitstamp
 - https://www.facebook.com/Bitstamp
-features: 
+features:
+- buyWithCC
+- multiSig
+- tradeAlts
 developerName: Bitstamp Ltd.
 
 ---
@@ -37,3 +40,9 @@ Just like on Play Store {% include walletLink.html wallet='android/net.bitstamp.
 
 which means you don't get the keys for your coins. This is a custodial service
 and therefore **not verifiable**.
+
+{% include featureEvidence.html feature="buyWithCC" quote="Buy cryptocurrency with a credit/debit card, bank transfer, Google Pay, or PayPal" source="Store" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Secure your crypto funds with strong data encryption & MultiSig technology" source="Store" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Trade digital currencies on the original crypto exchange includes Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Litecoin (LTC) and many other cryptocurrencies." source="Store" %}

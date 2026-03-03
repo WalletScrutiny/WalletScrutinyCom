@@ -34,7 +34,12 @@ social:
 - https://discord.com/invite/dgDXR85CXB#deadLink
 - https://www.linkedin.com/company/cardware-wallet
 builds: 
-features: 
+features:
+- airGapped
+- camera
+- hd
+- multiSig
+- secEl
 
 ---
 
@@ -86,4 +91,14 @@ features:
 5. **Is the firmware reproducible?** 
    *The firmware is described as "fixed and non-upgradable". The firmware's repository is [available.](https://github.com/cardware-wallet/cardware-hardware)*
 
-We filed an [issue](https://github.com/cardware-wallet/cardware-hardware/issues/1) with them. For now, this device is **for verification** 
+We filed an [issue](https://github.com/cardware-wallet/cardware-hardware/issues/1) with them. For now, this device is **for verification**
+
+{% include featureEvidence.html feature="hd" quote="Supports BIP-32 compliant Hierarchical Deterministic (HD) wallets." source="Device Description" %}
+
+{% include featureEvidence.html feature="multiSig" quote="Supports multisig wallets requiring multiple private keys to authorize transactions." source="Device Description" %}
+
+{% include featureEvidence.html feature="secEl" quote="Utilizes an EAL6+ certified secure element chip for key storage and cryptographic operations." source="Device Description" %}
+
+{% include featureEvidence.html feature="camera" quote="Transaction Signing: Secure transaction signing via QR codes while keeping private keys isolated." source="Device Description" %}
+
+{% include featureEvidence.html feature="airGapped" quote="Air-Gapped Security: 100% air-gapped device with no internet, Bluetooth, or Wi-Fi connectivity, operating completely offline." source="Device Description" %}

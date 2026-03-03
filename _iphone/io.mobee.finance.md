@@ -25,9 +25,15 @@ twitter: mobee_id
 social:
 - https://www.linkedin.com/company/mobee-com
 - https://www.instagram.com/mobee_id
-features: 
+features:
+- fingerprint
+- tradeAlts
 developerName: PT CTXG Indonesia Berkarya
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="fingerprint" quote="Keamanan biometrik Akses akun terjaga dengan scan wajah atau sidik jari." source="Website" %}
+
+{% include featureEvidence.html feature="tradeAlts" quote="Buy Bitcoin (BTC), Ethereum (ETH), Solana (SOL), Dogecoin (DOGE), Cardano (ADA), Tether Gold (XAUT), and more than 100 crypto assets directly with Rupiah." source="Store description" %}

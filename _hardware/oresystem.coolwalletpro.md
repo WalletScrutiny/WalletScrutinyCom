@@ -32,7 +32,10 @@ twitter: ORESystemNFT
 social:
 - https://www.facebook.com/oresystem/
 builds: 
-features: 
+features:
+- hd
+- multiAccount
+- secEl
 
 ---
 
@@ -91,4 +94,10 @@ CoolBitX (the manufacturer of the CoolWalletPro) disclosed in December 18, 2020,
 
 This has since been patched. The url for this article describes this as a "Seed Replay Attack", which can only be executed provided the 3 conditions above are met. 
 
-While the [Javascript SDK](https://github.com/CoolBitX-Technology/coolwallet-sdk) for the CoolWallet Pro is available on their GitHub repositories, we were not able to find the firmware's repository. 
+While the [Javascript SDK](https://github.com/CoolBitX-Technology/coolwallet-sdk) for the CoolWallet Pro is available on their GitHub repositories, we were not able to find the firmware's repository.
+
+{% include featureEvidence.html feature="secEl" quote="EAL 6+ certified Secure Element" source="Product Description" %}
+
+{% include featureEvidence.html feature="hd" quote="BIP-32 : BIP-32 HD Wallets" source="Product Description" %}
+
+{% include featureEvidence.html feature="multiAccount" quote="BIP-44 : BIP-44 Support multiple coin type and accounts. Each account includes up to 232 external and internal Bitcoin transaction addresses" source="Product Description" %}

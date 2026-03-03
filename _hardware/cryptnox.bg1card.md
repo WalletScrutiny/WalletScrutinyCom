@@ -28,7 +28,11 @@ signer:
 twitter: cryptnox
 social: 
 builds: 
-features: 
+features:
+- foss
+- hd
+- nfc
+- secEl
 
 ---
 
@@ -127,3 +131,11 @@ The device noticeably has no display or means for the user to interact directly 
 
 Without a display, the user would not be able to approve transactions physically using the card. Transactions may be **signed blindly.**
 
+{% include featureEvidence.html feature="nfc" quote="Standard PC/SC Smart card Readers: either USB NFC reader or a USB smart card reader" source="GitHub README" %}
+
+{% include featureEvidence.html feature="hd" quote="Standard 12/24 Words (BIP 39) - BIP32 & SLIP10 Key Derivation fully On-Card (no Parity Recovery needed) and Digital Signature" source="Existing WalletScrutiny review" %}
+
+{% include featureEvidence.html feature="foss" quote="cryptnox-cli is dual-licensed: - **LGPL-3.0** for open-source projects and proprietary projects that comply with LGPL requirements" source="GitHub README" %}
+
+
+{% include featureEvidence.html feature="secEl" quote="Common Criteria EAL6+ Certified Chipset" source="Existing WalletScrutiny review" %}

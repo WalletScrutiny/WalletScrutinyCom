@@ -25,9 +25,11 @@ signer:
 twitter: PhoenixWallet
 social: 
 features:
+- foss
 - ln
 developerName: ACINQ
 
 ---
+{% include featureEvidence.html feature="foss" source="[App Store](https://apps.apple.com/app/co.acinq.phoenix)" quote="Phoenix is a non-custodial wallet, and is fully open source." %}
 
 {% include copyFromAndroid.html %}

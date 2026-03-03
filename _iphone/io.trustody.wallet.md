@@ -23,9 +23,15 @@ date: 2023-07-20
 signer: 
 twitter: AmmerCards
 social: 
-features: 
+features:
+- companion
+- nfc
 developerName: Ammer Technologies AG
 
 ---
 
 {% include copyFromAndroid.html %}
+
+{% include featureEvidence.html feature="nfc" quote="Ammer Card has the traditional shape of a credit card and can be used for payment with Ammer Pay due to its NFC capability." source="Store description" %}
+
+{% include featureEvidence.html feature="companion" quote="Ammer Card is a multi-asset hardware wallet with an accessible shape of a bank card with NFC capability. It comes with an easy to use companion app called Ammer Wallet that allows you to manage your assets." source="Website" %}

@@ -22,8 +22,10 @@ twitter:
 social: 
 builds: 
 features: 
+- foss
 
 ---
+{% include featureEvidence.html feature="foss" source="[License](https://github.com/BitMarketNetwork/client-desktop/blob/master/LICENSE)" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" %}
 
 ## App Description
 

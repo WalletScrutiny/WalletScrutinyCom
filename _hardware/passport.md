@@ -38,8 +38,16 @@ social:
 - https://www.reddit.com/r/FoundationDevices/
 builds: 
 features: 
+- hd
+- airGapped
+- camera
+- secEl
 
 ---
+{% include featureEvidence.html feature="hd" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="word_list_gen - Simple utility for creating optimized word lookup metadata for BIP-39 and bytewords." %}
+{% include featureEvidence.html feature="airGapped" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="This is the new standard air-gapped wallets are expected to adopt moving forward." %}
+{% include featureEvidence.html feature="camera" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="Quirc is a QR decoding library that offers an embedded-friendly interface to process images from a camera for QR codes." %}
+{% include featureEvidence.html feature="secEl" source="[README](https://github.com/Foundation-Devices/passport2#readme)" quote="bootloader C-based code that handles secure element initialization, firmware validation and updates, and system startup." %}
 
 {{ page.title }} is the original and now discontinued version of
 {% include walletLink.html wallet='hardware/passportb2' verdict='true' %}.

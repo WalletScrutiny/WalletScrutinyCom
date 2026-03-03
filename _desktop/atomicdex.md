@@ -22,8 +22,10 @@ twitter: KomodoPlatform
 social: 
 builds: 
 features: 
+- tradeAlts
 
 ---
+{% include featureEvidence.html feature="tradeAlts" source="[README](https://github.com/KomodoPlatform/komodo-wallet-desktop#readme)" quote="trade peer-to-peer with minimal fees and never give up control over your digital assets" %}
 
 ## App Description
 
