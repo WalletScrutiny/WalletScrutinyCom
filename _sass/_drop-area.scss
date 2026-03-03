@@ -80,4 +80,34 @@
   .bigScreenOnly {
       display: none;
   }
+
+  .smallScreenOnly {
+      display: inline;
+  }
+
+  .drop-areas {
+    border: none;
+
+    #select.hover-mode {
+      display: block;
+    }
+
+    .drop-text {
+      display: none;
+    }
+
+    .drop-area-textbox {
+      padding-left: 20px;
+
+      li {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .smallScreenOnly {
+      display: none;
+  }
 }

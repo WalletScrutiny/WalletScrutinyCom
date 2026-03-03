@@ -709,11 +709,6 @@ permalink: /new_verification/
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
 
-    if (!await userHasBrowserExtension()) {
-      showError('A Nostr browser extension is required to create verifications.');
-      return;
-    }
-
     const urlParams = new URLSearchParams(window.location.search);
     const draftVerificationEventId = urlParams.get('draftVerificationEventId');
     const verificationEventId = urlParams.get('verificationEventId');
