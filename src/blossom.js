@@ -1,19 +1,10 @@
-// Check if Nostr is available in the browser
-export function isNostrAvailable() {
-  return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
-}
-
-// Sign a Nostr event
-export async function signer(event) {
-  if (!isNostrAvailable()) {
-    throw new Error('Nostr provider is not available');
-  }
-  return await window.nostr.signEvent(event);
-}
+import { getNdk } from './verifications_utils.mjs';
+import { NDKEvent } from '@nostr-dev-kit/ndk';
 
 // Create and sign an authorization event
 export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const event = {
+  const ndk = await getNdk();
+  const eventObject = {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
     tags: [
@@ -25,18 +16,26 @@ export async function createAuthorizationEvent(verb, content, xTags = [], server
 
   tags.forEach(tag => {
     const [key, value] = tag;
-    event.tags.push([key, value]);
+    eventObject.tags.push([key, value]);
   });
 
   xTags.forEach(x => {
-    event.tags.push(['x', x]);
+    eventObject.tags.push(['x', x]);
   });
 
   if (serverUrl) {
-    event.tags.push(['server', serverUrl]);
+    eventObject.tags.push(['server', serverUrl]);
   }
 
-  return await signer(event);
+  // Sign with extension if available
+  if (typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function') {
+    return await window.nostr.signEvent(eventObject)
+  }
+
+  // Sign with internal identity if no extension is available
+  const event = new NDKEvent(ndk, eventObject);
+  event.sig = await event.sign();
+  return event;
 }
 
 // Create an authorization header
