@@ -21,9 +21,9 @@ issue:
 icon: walt.png
 bugbounty: 
 meta: obsolete
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2024-10-23
+date: 2026-02-27
 signer: 
 twitter: Angainor15
 social: 

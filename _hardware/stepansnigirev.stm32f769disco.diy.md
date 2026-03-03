@@ -24,9 +24,9 @@ issue:
 icon: stepansnigirev.stm32f769disco.diy.png
 bugbounty: 
 meta: obsolete
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-05-20
+date: 2026-02-27
 signer: 
 twitter: stepansnigirev
 social: 

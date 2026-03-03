@@ -21,9 +21,9 @@ issue:
 icon: stohr.trezorone.clone.diy.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: nosource
 appHashes: 
-date: 2022-11-10
+date: 2026-02-27
 signer: 
 twitter: _superhero1
 social: 

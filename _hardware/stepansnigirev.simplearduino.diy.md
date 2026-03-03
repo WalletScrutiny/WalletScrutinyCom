@@ -21,9 +21,9 @@ issue:
 icon: stepansnigirev.simplearduino.diy.png
 bugbounty: 
 meta: defunct
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-05-26
+date: 2026-02-27
 signer: 
 twitter: stepansnigirev
 social:

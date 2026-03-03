@@ -21,15 +21,16 @@ issue:
 icon: specter.shield.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2023-02-07
+date: 2026-02-27
 signer: 
 twitter: specterwallet
 social:
 - https://www.linkedin.com/company/specterlabs
 builds: 
 features:
+- selfBuild
 - airGapped
 - camera
 - multiSig

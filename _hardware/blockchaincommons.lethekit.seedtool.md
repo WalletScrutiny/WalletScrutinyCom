@@ -21,14 +21,15 @@ issue:
 icon: blockchaincommons.lethekit.seedtool.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-04-29
+date: 2026-02-27
 signer: 
 twitter: BlockchainComns
 social: 
 builds: 
 features:
+- selfBuild
 - airGapped
 - camera
 - foss

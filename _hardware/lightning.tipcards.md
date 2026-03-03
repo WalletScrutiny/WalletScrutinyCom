@@ -21,9 +21,9 @@ issue:
 icon: lightning.tipcards.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2023-03-03
+date: 2026-02-27
 signer: 
 twitter: SatoshiEngTech
 social:

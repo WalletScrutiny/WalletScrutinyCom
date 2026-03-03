@@ -40,6 +40,8 @@ builds:
   - universal
   - btc-only
 features:
+- hd
+- selfBuild
 - coinCtrl
 - customNode
 - foss
@@ -58,3 +60,4 @@ Trezor Model One uses a 120 MHz ARM Cortex M3 processor with a custom OS, and it
 
 
 {% include featureEvidence.html feature="customNode" quote="Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy." source="Device Description" comment="TOR integration mentioned, not custom node. Omitting customNode — insufficient evidence." %}
+{% include featureEvidence.html feature="selfBuild" quote="The content of this repo is dual licensed under the GNU Affero General Public License v3 and CERN Open Hardware Licence Version 2 - Strongly Reciprocal. OSHWA UID: CZ000005" source="[trezor-hardware README](https://github.com/trezor/trezor-hardware)" comment="Trezor One uses a standard STM32F205 MCU. Hardware schematics and case files are published under open hardware licenses and OSHWA-certified. The pitrezor project demonstrates running Trezor firmware on DIY STM32 hardware." %}

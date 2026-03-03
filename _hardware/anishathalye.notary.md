@@ -21,14 +21,15 @@ issue:
 icon: anishathalye.notary.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2024-10-18
+date: 2026-02-27
 signer: 
 twitter: anishathalye
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 

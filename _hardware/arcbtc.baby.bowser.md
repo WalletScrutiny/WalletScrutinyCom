@@ -21,14 +21,15 @@ issue:
 icon: arcbtc.baby.bowser.png
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2023-02-14
+date: 2026-02-27
 signer: 
 twitter: arcbtc
 social: 
 builds: 
 features:
+- selfBuild
 - foss
 
 ---

@@ -21,9 +21,9 @@ issue:
 icon: kevingislason.abacus.diy.png
 bugbounty: 
 meta: stale
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-05-24
+date: 2026-02-27
 signer: 
 twitter: 
 social:

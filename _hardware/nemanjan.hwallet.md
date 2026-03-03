@@ -21,9 +21,9 @@ issue:
 icon: nemanjan.hwallet.png
 bugbounty: 
 meta: obsolete
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2022-04-11
+date: 2026-02-27
 signer: 
 twitter: 
 social: 

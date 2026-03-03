@@ -21,14 +21,15 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: diy
+verdict: sourceavailable
 appHashes: 
-date: 2024-10-23
+date: 2026-02-27
 signer: 
 twitter: stakwork
 social: 
 builds: 
-features: 
+features:
+- selfBuild
 
 ---
 

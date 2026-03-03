@@ -42,6 +42,7 @@ builds:
   - universal
   - btc-only
 features:
+- selfBuild
 - TOR
 - coinCtrl
 - segwit
@@ -64,3 +65,4 @@ This device is **source available**.
 
 
 {% include featureEvidence.html feature="TOR" quote="It supports features like FIDO2-based two-factor authentication, Tor for enhanced privacy, and coin control for granular transaction management." source="Device Description" %}
+{% include featureEvidence.html feature="selfBuild" quote="The content of this repo is dual licensed under the GNU Affero General Public License v3 and CERN Open Hardware Licence Version 2 - Strongly Reciprocal. OSHWA UID: CZ000005" source="[trezor-hardware README](https://github.com/trezor/trezor-hardware)" comment="Trezor Model T uses a standard STM32F429 MCU. Hardware schematics and case files (STL) are published under open hardware licenses and OSHWA-certified. The hardware repo contains case/trezor_model_t/ with 3D-printable files." %}
