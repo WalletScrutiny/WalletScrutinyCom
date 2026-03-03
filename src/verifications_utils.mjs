@@ -232,12 +232,12 @@ const getNostrProfile = async function (pubkey) {
     sanitizedProfile[key] = DOMPurify.sanitize(profile[key]);
   });
 
-  console.debug('🔄 Sanitized profile for pubkey', pubkey, profile);
+  console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
 
   // Save to IDB to cache
   saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
 
-  return profile;
+  return sanitizedProfile;
 }
 
 const getNpubFromPubkey = function (pubkey) {
