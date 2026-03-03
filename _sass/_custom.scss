@@ -117,9 +117,10 @@
 }
 .landing-page-search-container {
   flex-grow: 1;
-  height: 100%;
-  display: block;
+  display: flex;
+  align-items: stretch;
   .search-filtered-wallets {
+    flex: 1;
     border: 1px solid var(--accent-text);
     color: var(--accent);
     border-radius: 10px;
@@ -127,6 +128,8 @@
     padding: 13px 15px;
     margin-bottom: 0;
     cursor: text;
+    min-height: 46px;
+    box-sizing: border-box;
     &::placeholder {
       color: var(--accent-text);
     }
