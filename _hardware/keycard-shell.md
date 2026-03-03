@@ -32,7 +32,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - foss
 - secEl
 
@@ -70,4 +69,3 @@ This device is **for verification**
 
 {% include featureEvidence.html feature="camera" quote="Keycard Shell transforms any Keycard into a standalone, air-gapped hardware wallet with built-in keypad, display, camera, and USB (which can be turned off)." source="GitHub README" %}
 
-{% include featureEvidence.html feature="companion" quote="Works seamlessly with MetaMask, imToken, Rabby, BlueWallet, BlueWallet, Sparrow, Specter, and more." source="GitHub README" %}

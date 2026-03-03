@@ -33,7 +33,6 @@ social:
 - https://www.facebook.com/konai.story/
 builds: 
 features:
-- companion
 - fingerprint
 - hd
 - nfc
@@ -102,6 +101,5 @@ According to the [User Manual](https://fcc.report/FCC-ID/2ARI2CK-KF-102/4251335)
 
 {% include featureEvidence.html feature="secEl" quote="Secure IC: SAMSUNG S3FTXXX" source="Existing WalletScrutiny review" comment="A dedicated secure IC chip (Samsung S3FTXXX) is explicitly listed in the hardware specification." %}
 
-{% include featureEvidence.html feature="companion" quote="It is paired with an Android app with the same name using Bluetooth. The companion app can only be used once successfully paired through BLE with the card." source="Existing WalletScrutiny review" comment="The CryptoKona card is the signing device; it requires the Android companion app for network connectivity and transaction operations." %}
 
 {% include featureEvidence.html feature="nfc" quote="ConnectionType: BLE 4.1" source="Existing WalletScrutiny review" comment="No NFC evidence found — BLE only. Omitting nfc." %}

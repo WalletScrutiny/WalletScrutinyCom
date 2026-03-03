@@ -38,7 +38,6 @@ builds:
   - universal
   - btc-only
 features:
-- companion
 - foss
 - hd
 - secEl
@@ -83,6 +82,5 @@ The firmware follows the same reproducible build process as other Trezor Core de
 
 {% include featureEvidence.html feature="secEl" quote="The Trezor Safe 7 is a hardware wallet that uses the TROPIC01 secure element chip developed by TropicSquare." source="Device Description" %}
 
-{% include featureEvidence.html feature="companion" quote="It interfaces with Trezor Suite software for transaction management." source="Device Description" %}
 
 {% include featureEvidence.html feature="foss" quote="The firmware source code is available in the trezor-firmware monorepo under the T3W1 model configuration." source="Firmware Information" %}

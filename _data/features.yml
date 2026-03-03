@@ -442,11 +442,16 @@ coinCtrl:
 companion:
   short: Companion App
   long: >
-    A companion app is a secondary application that works alongside a hardware wallet
-    or air-gapped signing device. It handles network connectivity, transaction
-    preparation, and blockchain data — while the secure signing device manages
-    private key operations. The companion app itself does not hold private keys.
-    
+    This app can act as a companion to a hardware wallet or air-gapped signing device.
+    It handles network connectivity, transaction preparation, and blockchain data —
+    while the signing device manages private key operations. The connection method
+    is irrelevant (USB, QR, NFC, Bluetooth — all count). Examples: Mycelium+Trezor,
+    Sparrow+Trezor, Specter Desktop+Specter-DIY, Envoy+Passport.
+
+
+    This feature is tagged on the **companion app** (the hot, networked side), not on
+    the hardware wallet or signing device itself.
+
 
     See also [Issue #140](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/140)
     for discussion on verifying companion apps.
@@ -458,16 +463,11 @@ companion:
       transaction creation and broadcasting.
   drawback: >
     * **Trust requirement:** The companion app is trusted to accurately display
-      recipient addresses and amounts. A compromised companion app can show a correct
-      address on screen while the actual transaction sends to an attacker's address.
+      recipient addresses and amounts — always verify on your signing device's screen
+      before confirming.
     
     * **Reproducibility matters:** An unverifiable companion app undermines the
       security of an otherwise reproducible signing device.
-  alert: >
-    <strong>Companion apps require trust.</strong> A compromised companion app can
-    display a legitimate address while the transaction sends to an attacker. Always
-    verify addresses and amounts on your signing device's screen before confirming,
-    especially for large transactions.
 customNode:
   short: Custom Node Connection
   long: >

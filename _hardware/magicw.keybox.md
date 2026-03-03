@@ -30,7 +30,6 @@ social:
 - https://t.me/keyboxdev
 builds: 
 features:
-- companion
 - hd
 
 ---
@@ -99,5 +98,3 @@ This is a very tall and sweeping statement. The user would simply have to trust 
 Secondly, the device is attached to another device - either a PC or an Android phone. It is not specified how the private keys are protected even from a hacked PC or phone. Without this detail, we assume that the private keys **are shared with another device**.
 
 {% include featureEvidence.html feature="hd" quote="Compatible with: BIP39, BIP32, BIP44, BIP49, SLIP48" source="web page" %}
-
-{% include featureEvidence.html feature="companion" quote="keyboxd is a bridge between software wallet and hardware wallet." source="GitHub README" %}

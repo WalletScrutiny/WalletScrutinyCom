@@ -33,7 +33,6 @@ social:
 - https://github.com/orgs/MARS-DAO/repositories
 builds: 
 features:
-- companion
 - nfc
 - secEl
 
@@ -55,5 +54,3 @@ The device itself is an NFC card that relies on the companion app to make transa
 {% include featureEvidence.html feature="nfc" quote="A card that stores your private key and connects to your phone via NFC." source="Existing WalletScrutiny review" %}
 
 {% include featureEvidence.html feature="secEl" quote="Embedded EAL6+ SecureCore microchip by Samsung." source="Existing WalletScrutiny review" %}
-
-{% include featureEvidence.html feature="companion" quote="The device itself is an NFC card that relies on the companion app to make transactions." source="Existing WalletScrutiny review" %}

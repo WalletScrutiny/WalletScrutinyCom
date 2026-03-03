@@ -35,7 +35,6 @@ builds:
 features:
 - airGapped
 - camera
-- companion
 - secEl
 
 ---
@@ -82,6 +81,5 @@ As of 2022-05-27, the SafePal S1's source code is unforunately still **not avail
 
 {% include featureEvidence.html feature="camera" quote="Sign transactions via scanning QRcode" source="Website" %}
 
-{% include featureEvidence.html feature="companion" quote="Compatible with SafePal App and SafePal Browser Extension" source="Website" %}
 
 {% include featureEvidence.html feature="airGapped" quote="Enjoy secure cold storage options with the fully air-gapped SafePal S1 line" source="Website" %}

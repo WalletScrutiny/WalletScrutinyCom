@@ -32,7 +32,6 @@ social:
 - https://t.me/ocwallet
 builds: 
 features:
-- companion
 - hd
 - nfc
 - secEl
@@ -132,5 +131,3 @@ For now, we are not able to find a conclusion for the product. We will await fur
 {% include featureEvidence.html feature="secEl" quote="The Secure Wallet uses CC EAL 5+ government-level security to keep your cryptocurrencies safe inside the internal secure element" source="Website" %}
 
 {% include featureEvidence.html feature="hd" quote="HD Wallet Take full control of your assets and private keys for maximum safety" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="Our OCW application cannot access your account information without your OCW card." source="Website" %}

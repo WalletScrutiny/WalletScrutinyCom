@@ -35,7 +35,6 @@ social:
 - https://www.facebook.com/hyperpayofficial
 builds: 
 features:
-- companion
 - hd
 - multiSig
 - secEl
@@ -92,5 +91,3 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
 {% include featureEvidence.html feature="secEl" quote="CC EAL 6+ graded secure element" source="Website" %}
 
 {% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}
-
-{% include featureEvidence.html feature="companion" quote="Bluetooth 5.0 connectivity to HyperPay at any time" source="Website" %}

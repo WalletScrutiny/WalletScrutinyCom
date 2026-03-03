@@ -36,7 +36,6 @@ social:
 - https://medium.com/@keywallet
 builds: 
 features:
-- companion
 - nfc
 - secEl
 
@@ -60,6 +59,5 @@ As shown in [this video](https://youtu.be/0ePgzZmz9ws?t=22), the companion app i
 
 {% include featureEvidence.html feature="nfc" quote="it resembles a credit card in appearance and is meant to connect with an external device with NFC" source="Existing WalletScrutiny review" %}
 
-{% include featureEvidence.html feature="companion" quote="the companion app is responsible for making transactions but it depends on the card to sign them" source="Existing WalletScrutiny review" %}
 
 {% include featureEvidence.html feature="secEl" quote="this product is CC EAL 5+ and FIDO certified" source="Existing WalletScrutiny review" %}

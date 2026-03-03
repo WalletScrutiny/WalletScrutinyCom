@@ -41,7 +41,6 @@ builds:
   - btc-only
 features:
 - coinCtrl
-- companion
 - customNode
 - foss
 
@@ -57,6 +56,5 @@ Trezor Model One uses a 120 MHz ARM Cortex M3 processor with a custom OS, and it
 
 {% include featureEvidence.html feature="coinCtrl" quote="The wallet supports U2F authentication and includes coin control functionality, allowing users to increase privacy during transactions." source="Device Description" %}
 
-{% include featureEvidence.html feature="companion" quote="Users manage their assets via the Trezor Suite desktop application, which supports sending, receiving, trading, and staking across hundreds of coins and tokens." source="Device Description" %}
 
 {% include featureEvidence.html feature="customNode" quote="Security features include open-source firmware, micro USB connectivity, 12- or 24-word recovery phrase backup, and optional Tor integration for improved privacy." source="Device Description" comment="TOR integration mentioned, not custom node. Omitting customNode — insufficient evidence." %}

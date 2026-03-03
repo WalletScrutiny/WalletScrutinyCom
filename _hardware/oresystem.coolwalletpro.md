@@ -33,7 +33,6 @@ social:
 - https://www.facebook.com/oresystem/
 builds: 
 features:
-- companion
 - hd
 - multiAccount
 - secEl
@@ -102,5 +101,3 @@ While the [Javascript SDK](https://github.com/CoolBitX-Technology/coolwallet-sdk
 {% include featureEvidence.html feature="hd" quote="BIP-32 : BIP-32 HD Wallets" source="Product Description" %}
 
 {% include featureEvidence.html feature="multiAccount" quote="BIP-44 : BIP-44 Support multiple coin type and accounts. Each account includes up to 232 external and internal Bitcoin transaction addresses" source="Product Description" %}
-
-{% include featureEvidence.html feature="companion" quote="the device pairs with a mobile app" source="Analysis" %}
