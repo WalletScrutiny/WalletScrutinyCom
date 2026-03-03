@@ -43,6 +43,11 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
 
 const connectTimeout = 3;
 
+export const getNdk = async () => {
+  await ensureNdkConnected();
+  return ndk;
+};
+
 const nostrConnect = function (nostrPrivateKey) {
   // Assign the connection logic to the promise immediately
   ndkConnectionPromise = (async () => {

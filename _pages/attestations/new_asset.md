@@ -108,11 +108,6 @@ permalink: /new_asset/
       document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
     };
 
-    if (!await userHasBrowserExtension()) {
-      showError('A Nostr browser extension is required to create assets.');
-      return;
-    }
-
     if (window.wallets && window.wallets.length > 0) {
       setupAppIdAutocomplete();
     }
