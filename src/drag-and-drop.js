@@ -294,31 +294,18 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
     urlParams += `&platform=${encodeURIComponent(platformFromFile ?? platform)}`;
   }
 
-  const hasBrowserExtension = await userHasBrowserExtension();
-
-  if (!hasBrowserExtension) {
-    fileInfoHtml += `<li style="color: red; font-weight: bold;">You need to install a Nostr browser extension to register assets and create verifications on Nostr (see more <a href="/nostr/" target="_blank">here</a>).</li>`;
-  }
-
   if (!hasAssets && !hasVerifications ) {
-    if (hasBrowserExtension) {
-      if (window.location.pathname !== '/new_asset/') {
-        fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
-      }
-
-      fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
+    if (window.location.pathname !== '/new_asset/') {
+      fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
     }
+    fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
   } else if (hasAssets && !hasVerifications) {
     fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet.`;
-    if (hasBrowserExtension) {
-      fileInfoHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
-    }
+    fileInfoHtml += ` You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.`;
     fileInfoHtml += `</li>`;
   } else if (hasVerifications) {
     fileInfoHtml += `<li>Thi file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>`;
-    if (hasBrowserExtension) {
-      fileInfoHtml += `, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>`;
-    }
+    fileInfoHtml += `, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>`;
     fileInfoHtml += `.</li>`;
   }
 

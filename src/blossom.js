@@ -1,19 +1,10 @@
-// Check if Nostr is available in the browser
-export function isNostrAvailable() {
-  return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
-}
-
-// Sign a Nostr event
-export async function signer(event) {
-  if (!isNostrAvailable()) {
-    throw new Error('Nostr provider is not available');
-  }
-  return await window.nostr.signEvent(event);
-}
+import { getNdk } from './verifications_utils.mjs';
+import { NDKEvent } from '@nostr-dev-kit/ndk';
 
 // Create and sign an authorization event
 export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const event = {
+  const ndk = await getNdk();
+  const eventObject = {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
     tags: [
@@ -25,18 +16,26 @@ export async function createAuthorizationEvent(verb, content, xTags = [], server
 
   tags.forEach(tag => {
     const [key, value] = tag;
-    event.tags.push([key, value]);
+    eventObject.tags.push([key, value]);
   });
 
   xTags.forEach(x => {
-    event.tags.push(['x', x]);
+    eventObject.tags.push(['x', x]);
   });
 
   if (serverUrl) {
-    event.tags.push(['server', serverUrl]);
+    eventObject.tags.push(['server', serverUrl]);
   }
 
-  return await signer(event);
+  // Sign with extension if available
+  if (typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function') {
+    return await window.nostr.signEvent(eventObject)
+  }
+
+  // Sign with internal identity if no extension is available
+  const event = new NDKEvent(ndk, eventObject);
+  event.sig = await event.sign();
+  return event;
 }
 
 // Create an authorization header
@@ -145,35 +144,3 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
     xhr.send(blob);
   });
 }
-
-// List blobs for a specific public key
-/*
-export async function listBlobs(pubkey, serverUrl, since = null, until = null, requireAuth = false) {
-  let url = `${serverUrl}/list/${pubkey}`;
-  const params = new URLSearchParams();
-  if (since) params.append('since', since);
-  if (until) params.append('until', until);
-  if (params.toString()) {
-    url += '?' + params.toString();
-  }
-
-  const headers = { 'Accept': 'application/json' };
-
-  if (requireAuth) {
-    headers['Authorization'] = await createAuthorizationHeader('list', 'List Blobs');
-  }
-
-  try {
-    const response = await fetch(url, { headers });
-    if (response.ok) {
-      return await response.json();
-    } else {
-      const error = await response.json();
-      throw new Error(error.message);
-    }
-  } catch (error) {
-    console.error('Error listing blobs:', error);
-    return [];
-  }
-}
-*/

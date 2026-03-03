@@ -43,6 +43,11 @@ const nostrConnectInitiatedPromise = new Promise(resolve => {
 
 const connectTimeout = 3;
 
+export const getNdk = async () => {
+  await ensureNdkConnected();
+  return ndk;
+};
+
 const nostrConnect = function (nostrPrivateKey) {
   // Assign the connection logic to the promise immediately
   ndkConnectionPromise = (async () => {
@@ -56,8 +61,17 @@ const nostrConnect = function (nostrPrivateKey) {
       console.debug("Signer: Using private key");
       signer = new NDKPrivateKeySigner(nostrPrivateKey);
     } else {
-      console.debug("Signer: No signer available");
-      signer = null;
+      const temporaryPrivateKey = localStorage.getItem('nostrTemporaryPrivateKey');
+      if (temporaryPrivateKey) {
+        console.debug("Signer: Using temporary private key");
+        signer = new NDKPrivateKeySigner(temporaryPrivateKey);
+      } else {
+        console.debug("Signer: No temporary private key available. Creating a new identity...");
+        const keyPair = await NDKPrivateKeySigner.generate();
+        const privateKey = keyPair.nsec;
+        signer = new NDKPrivateKeySigner(privateKey);
+        localStorage.setItem('nostrTemporaryPrivateKey', privateKey);
+      }
     }
 
     ndk = new NDK({
