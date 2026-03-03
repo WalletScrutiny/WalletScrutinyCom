@@ -8,8 +8,8 @@ users: 1000
 appId: es.gbtcfinance.app
 appCountry: 
 released: 2025-02-11
-updated: 2025-12-05
-version: '1.15'
+updated: 2026-02-26
+version: '1.16'
 reviews: 
 website: https://gbtcfinance.com/
 repository: 

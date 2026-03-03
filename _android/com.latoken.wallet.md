@@ -10,7 +10,7 @@ appCountry:
 released: 2020-03-17
 updated: 2025-10-27
 version: 1.206.00
-reviews: 111
+reviews: 110
 website: http://latoken.com
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Address Services
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.address.services.app
 appCountry: 
 released: 

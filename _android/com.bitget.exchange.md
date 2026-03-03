@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-04-03
 updated: 2026-02-13
 version: 2.77.1
-reviews: 1615
+reviews: 1621
 website: https://www.bitget.com/
 repository: 
 issue: 

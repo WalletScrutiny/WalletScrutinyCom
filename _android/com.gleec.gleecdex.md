@@ -10,7 +10,7 @@ released: 2021-05-16
 updated: 2024-06-02
 version: 0.9.1
 reviews: 
-website: https://gleecbtc.com#deadLink
+website: https://gleecbtc.com/
 repository: 
 issue: 
 icon: com.gleec.gleecdex.png
@@ -23,7 +23,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Gleec Holding OU
+developerName: Gleec Pay OU
 builds: 
 features: 
 

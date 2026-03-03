@@ -9,8 +9,8 @@ appId: com.redotpay
 appCountry: 
 released: 2023-06-09
 updated: 2026-02-10
-version: 3.0.5
-reviews: 984
+version: 3.0.6
+reviews: 997
 website: https://www.redotpay.com
 repository: 
 issue: 

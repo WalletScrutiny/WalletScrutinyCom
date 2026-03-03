@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: 'Zashi: Zcash Wallet'
+title: 'Zodl: Zcash Wallet'
 altTitle: 
 authors: 
 appId: co.electriccoin.secant-mainnet
 appCountry: us
 idd: '1672392439'
 released: 2024-03-28
-updated: 2026-01-29
-version: 2.4.12
-reviews: 92
-website: https://electriccoin.co/zashi
+updated: 2026-03-02
+version: 3.0.1
+reviews: 94
+website: https://zodl.com
 repository: 
 issue: 
 icon: co.electriccoin.secant-mainnet.jpg

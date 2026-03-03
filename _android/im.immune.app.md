@@ -11,15 +11,15 @@ released: 2019-11-29
 updated: 2025-02-28
 version: 2.2.1
 reviews: 
-website: https://imm.app#deadLink
+website: https://imm.app/
 repository: 
 issue: 
 icon: im.immune.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-20
+date: 2026-03-03
 signer: 
 twitter: 
 social: 

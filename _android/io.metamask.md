@@ -1,6 +1,6 @@
 ---
 wsId: metamask
-title: MetaMask - Crypto Wallet
+title: 'MetaMask: Trade Crypto'
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ users: 10000000
 appId: io.metamask
 appCountry: 
 released: 2020-09-01
-updated: 2026-02-17
-version: 7.65.0
-reviews: 6507
+updated: 2026-02-27
+version: 7.66.0
+reviews: 6527
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 issue: 

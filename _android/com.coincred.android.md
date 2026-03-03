@@ -11,7 +11,7 @@ released: 2021-09-01
 updated: 2025-04-16
 version: 2.5.5
 reviews: 27
-website: https://coincred.org#deadLink
+website: https://coincred.org/
 repository: 
 issue: 
 icon: com.coincred.android.png

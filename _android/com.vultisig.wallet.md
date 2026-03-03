@@ -8,8 +8,8 @@ users: 10000
 appId: com.vultisig.wallet
 appCountry: 
 released: 2024-07-01
-updated: 2026-02-04
-version: 1.0.95
+updated: 2026-03-03
+version: 1.0.96
 reviews: 9
 website: https://vultisig.com
 repository: 

@@ -11,7 +11,7 @@ released: 2019-05-30
 updated: 2025-04-22
 version: 2.91.0
 reviews: 83
-website: http://www.xcelpay.io#deadLink
+website: http://www.xcelpay.io
 repository: 
 issue: 
 icon: com.XcelTrip.XcelPay.png

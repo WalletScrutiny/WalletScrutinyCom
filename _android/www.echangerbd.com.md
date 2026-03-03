@@ -11,7 +11,7 @@ released: 2020-03-21
 updated: 2020-04-23
 version: '2.0'
 reviews: 
-website: https://web.archive.org/web/20200811105037/https://www.echangerbd.com/
+website: http://www.echangerbd.com/
 repository: 
 issue: 
 icon: www.echangerbd.com.png

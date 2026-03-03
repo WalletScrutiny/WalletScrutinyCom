@@ -8,8 +8,8 @@ users: 1000
 appId: com.app.freedx.prod
 appCountry: 
 released: 
-updated: 2026-01-07
-version: 1.3.0
+updated: 2026-02-10
+version: 1.4.0
 reviews: 
 website: https://freedx.com/
 repository: 

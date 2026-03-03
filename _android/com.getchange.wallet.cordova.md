@@ -9,8 +9,8 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2026-01-30
-version: 30.64.1
+updated: 2026-02-21
+version: 30.65.1
 reviews: 23
 website: https://changeinvest.com
 repository: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-31
 updated: 2025-11-05
 version: 2.3.5
-reviews: 23
+reviews: 24
 website: https://sekiapp.com
 repository: 
 issue: 

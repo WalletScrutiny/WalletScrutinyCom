@@ -11,7 +11,7 @@ appCountry:
 released: 2018-10-24
 updated: 2026-02-19
 version: 5.33.2
-reviews: 1602
+reviews: 1622
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android
 issue: 

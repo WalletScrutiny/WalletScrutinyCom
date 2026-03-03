@@ -26,6 +26,7 @@ social:
 - https://www.linkedin.com/company/dfxswiss
 redirect_from: 
 developerName: DFX AG
+builds: 
 features: 
 
 ---

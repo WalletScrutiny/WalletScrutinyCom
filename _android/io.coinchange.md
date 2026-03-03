@@ -11,7 +11,7 @@ released: 2021-10-31
 updated: 2023-11-29
 version: 2.1.0
 reviews: 154
-website: https://coinchange.io#deadLink
+website: https://coinchange.io
 repository: 
 issue: 
 icon: io.coinchange.png

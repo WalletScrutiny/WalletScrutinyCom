@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-14
 updated: 2025-12-30
 version: 0.76.3
-reviews: 97
+reviews: 98
 website: https://www.leapwallet.io/mobile
 repository: 
 issue: 

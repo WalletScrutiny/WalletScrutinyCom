@@ -1,34 +1,35 @@
 ---
-wsId:
+wsId: 
 title: DitoBanx Wallet Personas
-altTitle:
+altTitle: 
 authors:
-  - danny
+- danny
 users: 10000
 appId: com.dito.ditowallet
-appCountry:
+appCountry: 
 released: 2023-01-03
-updated: 2026-02-17
-version: 3.0.11
+updated: 2026-02-24
+version: 3.0.13
 reviews: 33
 website: https://ditobanx.com/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.dito.ditowallet.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
-appHashes:
+appHashes: 
 date: 2026-02-25
-signer:
+signer: 
 twitter: ditobanx
 social:
-  - https://www.linkedin.com/company/ditobanx
-  - https://www.facebook.com/ditobanx
-redirect_from:
+- https://www.linkedin.com/company/ditobanx
+- https://www.facebook.com/ditobanx
+redirect_from: 
 developerName: DitoBanx
-builds:
-features:
+builds: 
+features: 
+
 ---
 
 ## App Description

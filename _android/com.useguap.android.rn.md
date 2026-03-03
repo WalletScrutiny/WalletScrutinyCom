@@ -3,12 +3,12 @@ wsId:
 title: Guap - Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.useguap.android.rn
 appCountry: 
 released: 2025-12-05
-updated: 2026-01-15
-version: 0.7.2
+updated: 2026-02-25
+version: 0.8.1
 reviews: 
 website: https://useguap.com
 repository: 

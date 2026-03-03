@@ -1,6 +1,6 @@
 ---
 wsId: dtunesCrypto
-title: 'Dtunes: Giftcards & Crypto'
+title: Dtunes – Sell Crypto to Naira
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: ng.dtunes.app
 appCountry: 
 released: 2021-12-29
-updated: 2025-09-26
-version: 2.2.5
+updated: 2026-01-28
+version: 2.2.7
 reviews: 35
 website: https://dtunes.ng
 repository: 

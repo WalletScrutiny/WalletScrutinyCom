@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: Coins – Buy Bitcoin, Crypto
+title: 'Coins: Buy Crypto & Send Money'
 altTitle: 
 authors:
 - leo
@@ -10,7 +10,7 @@ appCountry:
 released: 2014-10-01
 updated: 2026-02-14
 version: 7.9.23.3
-reviews: 551
+reviews: 552
 website: https://coins.ph
 repository: 
 issue: 

@@ -11,7 +11,7 @@ appCountry:
 released: 2019-06-06
 updated: 2026-02-18
 version: 26.2.18
-reviews: 8534
+reviews: 8548
 website: https://exodus.com/mobile
 repository: 
 issue: 

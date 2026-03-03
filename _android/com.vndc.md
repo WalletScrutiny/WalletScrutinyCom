@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-03-07
 updated: 2026-02-04
 version: 6.4.5
-reviews: 1460
+reviews: 1465
 website: https://goonus.io
 repository: 
 issue: 

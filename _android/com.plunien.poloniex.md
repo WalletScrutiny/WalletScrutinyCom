@@ -8,8 +8,8 @@ users: 500000
 appId: com.plunien.poloniex
 appCountry: 
 released: 2017-06-19
-updated: 2026-02-13
-version: 2.33.0
+updated: 2026-03-01
+version: 2.33.1
 reviews: 240
 website: https://support.poloniex.com/
 repository: 

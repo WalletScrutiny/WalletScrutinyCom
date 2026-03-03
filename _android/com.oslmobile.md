@@ -10,7 +10,7 @@ appCountry: CN
 released: 
 updated: 2026-02-11
 version: 3.6.14
-reviews: 32
+reviews: 34
 website: https://osl.com
 repository: 
 issue: 

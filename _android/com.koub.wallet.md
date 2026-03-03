@@ -10,7 +10,7 @@ released: 2025-01-09
 updated: 2025-01-09
 version: 1.0.0
 reviews: 
-website: https://unitechcapital.net#deadLink
+website: https://unitechcapital.net
 repository: 
 issue: 
 icon: com.koub.wallet.png

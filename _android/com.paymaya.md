@@ -8,9 +8,9 @@ users: 10000000
 appId: com.paymaya
 appCountry: 
 released: 2016-06-05
-updated: 2026-02-09
-version: 2.153.0
-reviews: 1176
+updated: 2026-02-24
+version: 2.155.0
+reviews: 1183
 website: https://www.maya.ph/
 repository: 
 issue: 

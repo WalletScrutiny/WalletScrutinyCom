@@ -10,7 +10,7 @@ appCountry:
 released: 2023-04-23
 updated: 2025-10-06
 version: 1.0.34
-reviews: 34
+reviews: 35
 website: https://verus.io/
 repository: https://github.com/VerusCoin/Verus-Mobile
 issue: https://github.com/VerusCoin/Verus-Mobile/issues/207

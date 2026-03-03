@@ -11,7 +11,7 @@ released: 2017-04-05
 updated: 2026-02-02
 version: 3.2.4
 reviews: 39
-website: https://www.easymarkets.com#deadLink
+website: https://www.easymarkets.com/
 repository: 
 issue: 
 icon: giniapps.easymarkets.com.png

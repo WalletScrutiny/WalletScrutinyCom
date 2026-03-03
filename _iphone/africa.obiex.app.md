@@ -8,9 +8,9 @@ appId: africa.obiex.app
 appCountry: ng
 idd: '1567887163'
 released: 2021-06-18
-updated: 2025-11-26
-version: 3.9.93
-reviews: 675
+updated: 2026-02-27
+version: 4.0.3
+reviews: 676
 website: 
 repository: 
 issue: 

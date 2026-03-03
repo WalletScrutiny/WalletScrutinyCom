@@ -1,6 +1,6 @@
 ---
 wsId: relaiBuyBitcoin
-title: 'Relai: Buy Bitcoin Easily'
+title: 'Relai: Bitcoin Savings App'
 altTitle: 
 authors:
 - danny

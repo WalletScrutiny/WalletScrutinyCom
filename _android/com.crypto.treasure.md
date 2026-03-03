@@ -11,7 +11,7 @@ released: 2022-12-01
 updated: 2023-02-08
 version: 1.0.5
 reviews: 5
-website: https://treasurewallet.co#deadLink
+website: https://treasurewallet.co
 repository: 
 issue: 
 icon: com.crypto.treasure.png

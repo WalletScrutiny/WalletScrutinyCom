@@ -10,7 +10,7 @@ idd: '6478332344'
 released: 2024-08-16
 updated: 2026-02-10
 version: 2.11.4
-reviews: 18203
+reviews: 18429
 website: https://india.delta.exchange/
 repository: 
 issue: 

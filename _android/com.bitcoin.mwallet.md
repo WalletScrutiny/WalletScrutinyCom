@@ -11,7 +11,7 @@ appCountry:
 released: 2017-06-19
 updated: 2026-02-17
 version: 9.10.3
-reviews: 4001
+reviews: 4025
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39

@@ -4,13 +4,13 @@ title: 'Tokocrypto: Buy Bitcoin Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.binance.cloud.tokocrypto
 appCountry: id
 released: 2020-10-19
-updated: 2026-02-02
-version: 2.28.0
-reviews: 55279
+updated: 2026-02-24
+version: 2.29.0
+reviews: 55562
 website: https://www.tokocrypto.com
 repository: 
 issue: 

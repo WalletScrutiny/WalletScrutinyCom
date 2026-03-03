@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pi42:Trade Bitcoin INR Futures
+title: 'Pi42: Crypto Futures & Options'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.pi42.app
 appCountry: 
 released: 
-updated: 2026-02-16
-version: 1.0.61
+updated: 2026-02-25
+version: 1.1.0
 reviews: 
 website: https://pi42.exchange/
 repository: 

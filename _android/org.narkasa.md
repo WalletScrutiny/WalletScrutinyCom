@@ -11,7 +11,7 @@ released: 2020-10-30
 updated: 2026-02-13
 version: 5.8.16
 reviews: 
-website: https://narkasa.com#deadLink
+website: https://narkasa.com
 repository: 
 issue: 
 icon: org.narkasa.png

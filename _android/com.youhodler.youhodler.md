@@ -9,7 +9,7 @@ appId: com.youhodler.youhodler
 appCountry: 
 released: 2019-07-11
 updated: 2025-11-20
-version: 8.4.0
+version: 8.4.3
 reviews: 117
 website: https://youhodler.com
 repository: 

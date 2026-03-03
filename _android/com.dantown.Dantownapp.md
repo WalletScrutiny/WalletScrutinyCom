@@ -8,8 +8,8 @@ users: 50000
 appId: com.dantown.Dantownapp
 appCountry: 
 released: 2021-03-27
-updated: 2026-01-20
-version: 2.0.74
+updated: 2026-02-25
+version: 2.0.76
 reviews: 42
 website: https://www.dantownms.com
 repository: 

@@ -11,7 +11,7 @@ released:
 updated: 2026-02-03
 version: 3.4.0
 reviews: 
-website: https://web.archive.org/web/20250612191436/https://neutron.me/app
+website: https://neutron.me/app
 repository: 
 issue: 
 icon: neutronpay.wallet.png

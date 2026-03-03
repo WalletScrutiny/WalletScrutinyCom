@@ -3,12 +3,12 @@ wsId:
 title: 'UnionEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.unionex.exchange
 appCountry: 
 released: 2025-08-27
-updated: 2026-02-02
-version: 1.2.4
+updated: 2026-02-27
+version: 1.2.5
 reviews: 
 website: https://unionex.com/
 repository: 

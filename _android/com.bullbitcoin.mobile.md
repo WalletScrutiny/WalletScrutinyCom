@@ -10,7 +10,7 @@ appCountry:
 released: 2023-10-31
 updated: 2026-02-01
 version: 6.5.2
-reviews: 4
+reviews: 5
 website: http://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326

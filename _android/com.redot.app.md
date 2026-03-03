@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.redot.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-03-11
+date: 2026-03-03
 signer: 
 twitter: redotcom
 social:

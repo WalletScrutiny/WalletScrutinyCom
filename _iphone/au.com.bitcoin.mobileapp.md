@@ -10,7 +10,7 @@ idd: '6444394282'
 released: 2022-11-28
 updated: 2026-02-19
 version: 14.2.0
-reviews: 1430
+reviews: 1429
 website: https://www.bitcoin.com.au
 repository: 
 issue: 

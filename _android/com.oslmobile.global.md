@@ -8,8 +8,8 @@ users: 10000
 appId: com.oslmobile.global
 appCountry: 
 released: 2025-05-08
-updated: 2026-02-11
-version: 1.10.5
+updated: 2026-02-26
+version: 1.10.6
 reviews: 
 website: https://osl.com
 repository: 

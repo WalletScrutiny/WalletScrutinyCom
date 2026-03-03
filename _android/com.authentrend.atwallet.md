@@ -10,7 +10,7 @@ released: 2020-07-13
 updated: 2023-09-28
 version: v2.0.12
 reviews: 
-website: https://www.authentrend.com/contact#deadLink
+website: https://www.authentrend.com/contact
 repository: 
 issue: 
 icon: com.authentrend.atwallet.png

@@ -10,7 +10,7 @@ released: 2021-03-16
 updated: 2023-06-29
 version: 1.1.2
 reviews: 
-website: https://blockchain24.pro#deadLink
+website: https://blockchain24.pro
 repository: 
 issue: 
 icon: ru.devroom.blockchain24.png

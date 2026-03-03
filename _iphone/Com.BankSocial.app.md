@@ -9,7 +9,7 @@ idd: '1586052784'
 released: 2021-10-26
 updated: 2026-02-09
 version: 2.31.0
-reviews: 124
+reviews: 127
 website: http://www.banksocial.io
 repository: 
 issue: 

@@ -4,12 +4,12 @@ title: 'ECD Wallet: Buy BTC & ETH'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: rs.ecd.ecd
 appCountry: 
 released: 2024-10-22
-updated: 2026-02-04
-version: 1.4.78
+updated: 2026-03-01
+version: 1.4.80
 reviews: 
 website: https://ecd.rs/
 repository: 

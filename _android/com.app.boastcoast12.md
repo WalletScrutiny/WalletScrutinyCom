@@ -10,7 +10,7 @@ released: 2022-05-31
 updated: 2022-05-31
 version: '1.0'
 reviews: 2
-website: https://boastcoast.com#deadLink
+website: https://boastcoast.com
 repository: 
 issue: 
 icon: com.app.boastcoast12.png

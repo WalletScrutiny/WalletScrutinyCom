@@ -10,7 +10,7 @@ released: 2021-09-24
 updated: 2025-02-20
 version: '1.2'
 reviews: 
-website: https://www.sac-mine.vip#deadLink
+website: https://www.sac-mine.vip
 repository: 
 issue: 
 icon: com.mine.sac_vip.png

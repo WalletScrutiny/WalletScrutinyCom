@@ -8,8 +8,8 @@ users: 50000
 appId: com.profittrading.forkucoin
 appCountry: 
 released: 2020-12-27
-updated: 2026-01-30
-version: 6.10.2
+updated: 2026-02-26
+version: 7.1.4
 reviews: 17
 website: https://profittradingapp.com?utm_source=kucoin_gp
 repository: 

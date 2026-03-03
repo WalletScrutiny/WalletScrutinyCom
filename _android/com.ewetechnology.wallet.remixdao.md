@@ -10,7 +10,7 @@ released:
 updated: 2025-11-26
 version: 1.2.0
 reviews: 
-website: https://ewetechnology.com/
+website: https://benty.ewetechnology.com/
 repository: 
 issue: 
 icon: com.ewetechnology.wallet.remixdao.png

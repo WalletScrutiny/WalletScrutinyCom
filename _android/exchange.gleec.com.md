@@ -9,9 +9,9 @@ appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
 updated: 2026-02-17
-version: 1.40.0
+version: 1.41.0
 reviews: 
-website: https://gleecbtc.com#deadLink
+website: https://gleecbtc.com/
 repository: 
 issue: 
 icon: exchange.gleec.com.png
@@ -24,7 +24,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Gleec Holding OU
+developerName: Gleec Pay OU
 builds: 
 features: 
 

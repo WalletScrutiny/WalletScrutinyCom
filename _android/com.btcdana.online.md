@@ -9,7 +9,7 @@ appId: com.btcdana.online
 appCountry: 
 released: 2019-07-23
 updated: 2026-02-05
-version: 2.6.0
+version: 2.6.1
 reviews: 170
 website: https://www.btcdana.com/
 repository: 

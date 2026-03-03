@@ -10,7 +10,7 @@ appCountry: br
 released: 2021-09-23
 updated: 2026-02-05
 version: 8.4.36
-reviews: 9689
+reviews: 9703
 website: 
 repository: 
 issue: 

@@ -8,7 +8,7 @@ users: 10000
 appId: com.ogpay
 appCountry: us
 released: 2019-07-31
-updated: 2026-01-29
+updated: 2026-03-02
 version: VARY
 reviews: 34
 website: https://www.ogpaywallet.com

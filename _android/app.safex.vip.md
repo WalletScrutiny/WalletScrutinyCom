@@ -8,8 +8,8 @@ users: 10000
 appId: app.safex.vip
 appCountry: 
 released: 2025-05-16
-updated: 2026-01-26
-version: 5.6.0
+updated: 2026-02-24
+version: 5.7.0
 reviews: 
 website: https://www.yubit.com
 repository: 

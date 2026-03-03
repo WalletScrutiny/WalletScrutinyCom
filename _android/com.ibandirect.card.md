@@ -11,7 +11,7 @@ released: 2020-11-08
 updated: 2024-10-06
 version: 1.9.2
 reviews: 
-website: https://coincardi.com#deadLink
+website: https://coincardi.com
 repository: 
 issue: 
 icon: com.ibandirect.card.png

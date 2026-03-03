@@ -8,8 +8,8 @@ appId: co.coinfinity.coinfinity.mobile
 appCountry: mt
 idd: '1642711272'
 released: 2023-06-06
-updated: 2026-02-06
-version: 3.0.8
+updated: 2026-02-26
+version: 3.0.9
 reviews: 0
 website: https://coinfinity.co/
 repository: 

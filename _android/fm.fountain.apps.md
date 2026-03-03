@@ -8,9 +8,9 @@ users: 100000
 appId: fm.fountain.apps
 appCountry: 
 released: 2021-08-02
-updated: 2026-02-07
-version: 1.4.8
-reviews: 258
+updated: 2026-02-25
+version: 1.4.9
+reviews: 259
 website: https://www.fountain.fm
 repository: 
 issue: 

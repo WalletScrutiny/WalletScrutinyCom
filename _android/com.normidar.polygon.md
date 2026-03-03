@@ -3,13 +3,13 @@ wsId:
 title: Polygon Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.normidar.polygon
 appCountry: 
 released: 2025-08-16
-updated: 2026-02-16
-version: 1.3.0
-reviews: 3
+updated: 2026-02-26
+version: 1.3.1
+reviews: 4
 website: 
 repository: 
 issue: 

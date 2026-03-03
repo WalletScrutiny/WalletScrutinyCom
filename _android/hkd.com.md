@@ -8,18 +8,18 @@ users: 100000
 appId: hkd.com
 appCountry: 
 released: 2020-09-11
-updated: 2024-06-25
-version: 2.9.3
+updated: 2026-02-22
+version: 2.9.4
 reviews: 16
 website: http://hkd.com
 repository: 
 issue: 
 icon: hkd.com.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-06-23
+date: 2026-03-03
 signer: 
 twitter: HKD_exchange
 social:

@@ -4,7 +4,7 @@ title: 'XSPA: Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.xspa.ai
 appCountry: 
 released: 2025-08-23

@@ -1,36 +1,37 @@
 ---
 wsId: mercadoPortugal
 title: Mercado Bitcoin Portugal
-altTitle:
+altTitle: 
 authors:
-  - danny
+- danny
 users: 10000
 appId: com.mbeu.mbeuapp
-appCountry:
-released:
-updated: 2026-02-12
-version: 1.4.5
-reviews:
+appCountry: 
+released: 
+updated: 2026-02-24
+version: 1.5.1
+reviews: 
 website: https://mercadobitcoin.pt/
-repository:
-issue:
+repository: 
+issue: 
 icon: com.mbeu.mbeuapp.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: custodial
-appHashes:
+appHashes: 
 date: 2026-02-25
-signer:
+signer: 
 twitter: mb_portugal
 social:
-  - https://www.facebook.com/mercadobitcoinportugal
-  - https://www.linkedin.com/company/mercadobitcoinpt
-  - https://www.instagram.com/mercadobitcoin.pt
-  - https://www.youtube.com/@mercadobitcoinportugal
-redirect_from:
+- https://www.facebook.com/mercadobitcoinportugal
+- https://www.linkedin.com/company/mercadobitcoinpt
+- https://www.instagram.com/mercadobitcoin.pt
+- https://www.youtube.com/@mercadobitcoinportugal
+redirect_from: 
 developerName: Smart Token Lda
-builds:
-features:
+builds: 
+features: 
+
 ---
 
 ## App Description

@@ -7,8 +7,8 @@ users: 500
 appId: com.wirelessenergy.smartwallet
 appCountry: 
 released: 2021-09-24
-updated: 2026-02-12
-version: 2.16.0
+updated: 2026-03-02
+version: 2.16.1
 reviews: 
 website: 
 repository: 

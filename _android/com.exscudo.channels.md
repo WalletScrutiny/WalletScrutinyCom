@@ -10,7 +10,7 @@ appCountry: ru
 released: 2018-05-17
 updated: 2026-01-23
 version: 3.29.2703
-reviews: 52
+reviews: 51
 website: https://fintap.app
 repository: 
 issue: 

@@ -11,7 +11,7 @@ binaries:
 provider: 
 providerWebsite: 
 website: 
-repository:
+repository: 
 issue: 
 icon: simplehold.png
 bugbounty: 

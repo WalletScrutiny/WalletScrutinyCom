@@ -10,7 +10,7 @@ appCountry:
 released: 2024-04-05
 updated: 2026-02-17
 version: 1.17.8
-reviews: 54
+reviews: 57
 website: https://www.ourbit.com
 repository: 
 issue: 

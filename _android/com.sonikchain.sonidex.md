@@ -10,7 +10,7 @@ released: 2022-01-27
 updated: 2022-01-27
 version: 1.0.0
 reviews: 
-website: https://sonidex.sonikchain.com#deadLink
+website: https://sonidex.sonikchain.com
 repository: 
 issue: 
 icon: com.sonikchain.sonidex.png

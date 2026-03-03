@@ -10,7 +10,7 @@ appCountry:
 released: 2022-06-26
 updated: 2026-01-19
 version: 2.0.24
-reviews: 117
+reviews: 118
 website: https://www.coinsdo.com
 repository: 
 issue: 

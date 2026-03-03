@@ -1,32 +1,33 @@
 ---
 wsId: walletV
-title: "Wallet V: Prediction & Crypto"
-altTitle:
+title: 'Wallet V: Prediction & Crypto'
+altTitle: 
 authors:
-  - danny
+- danny
 appId: prod.walletv.virgo
 appCountry: us
-idd: "6743709480"
-released: "2025-04-02T07:00:00Z"
+idd: '6743709480'
+released: 2025-04-02
 updated: 2026-02-06
 version: 1.2.0
 reviews: 5
 website: https://walletv.io
-repository:
-issue:
+repository: 
+issue: 
 icon: prod.walletv.virgo.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nosource
-appHashes:
+appHashes: 
 date: 2026-02-27
-signer:
+signer: 
 twitter: WalletV_io
 social:
-  - https://www.tiktok.com/@walletv_io
-  - https://www.instagram.com/WalletV_io
-features:
+- https://www.tiktok.com/@walletv_io
+- https://www.instagram.com/WalletV_io
+features: 
 developerName: Virgo Web3 Labs
+
 ---
 
 {% include copyFromAndroid.html %}

@@ -11,7 +11,7 @@ released: 2024-05-20
 updated: 2024-05-20
 version: '1.0'
 reviews: 
-website: https://web.archive.org/web/20250908002240/https://vaultex.co/
+website: https://vaultex.co/
 repository: 
 issue: 
 icon: co.vaultex.wallet.jpg

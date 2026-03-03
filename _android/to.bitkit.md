@@ -1,23 +1,23 @@
 ---
 wsId: bitkit
 title: 'Bitkit: Bitcoin & LN Wallet'
-altTitle:
+altTitle: 
 authors:
-  - danny
-  - basantagoswami
-  - keraliss
+- danny
+- basantagoswami
+- keraliss
 users: 5000
 appId: to.bitkit
-appCountry:
+appCountry: 
 released: 2024-06-07
-updated: 2026-02-18
-version: 2.0.2
+updated: 2026-02-24
+version: 2.0.3
 reviews: 3
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
 issue: https://github.com/synonymdev/bitkit/issues/2414#deadLink
 icon: to.bitkit.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: sourceavailable
 appHashes: []
@@ -25,15 +25,16 @@ date: 2024-12-25
 signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
 twitter: bitkitwallet
 social:
-  - https://discord.com/invite/DxTBJXvJxn
-  - https://t.me/bitkitchat
-  - https://medium.com/synonym-to
-  - https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
-redirect_from:
+- https://discord.com/invite/DxTBJXvJxn
+- https://t.me/bitkitchat
+- https://medium.com/synonym-to
+- https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
+redirect_from: 
 developerName: Synonym
-builds:
+builds: 
 features:
-  - ln
+- ln
+
 ---
 
 ## App Description from Google Play

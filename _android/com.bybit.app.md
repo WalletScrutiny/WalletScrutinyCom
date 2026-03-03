@@ -9,8 +9,8 @@ appId: com.bybit.app
 appCountry: 
 released: 2019-10-31
 updated: 2026-02-12
-version: 5.12.0
-reviews: 7103
+version: 5.13.0
+reviews: 7119
 website: https://www.bybit.com
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2022-08-24
 updated: 2025-01-15
 version: '2.8'
 reviews: 
-website: https://www.icewal.com#deadLink
+website: https://www.icewal.com/
 repository: 
 issue: 
 icon: com.icecorp.wallet.png

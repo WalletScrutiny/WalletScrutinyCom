@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2026-01-13
-version: 22.0.0
+updated: 2026-03-02
+version: 22.0.1
 reviews: 14
 website: https://www.safebit.com
 repository: 

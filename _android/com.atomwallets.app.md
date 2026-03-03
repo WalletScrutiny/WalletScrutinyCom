@@ -3,12 +3,12 @@ wsId:
 title: 'Atom: Crypto & Bitcoin Wallet'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.atomwallets.app
 appCountry: 
 released: 2025-10-10
-updated: 2026-02-15
-version: 2.2.3
+updated: 2026-02-27
+version: 2.2.4
 reviews: 
 website: 
 repository: 

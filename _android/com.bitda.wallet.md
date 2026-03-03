@@ -7,8 +7,8 @@ users: 50
 appId: com.bitda.wallet
 appCountry: 
 released: 
-updated: 2026-02-09
-version: 1.0.4
+updated: 2026-02-28
+version: 1.0.6
 reviews: 
 website: 
 repository: 

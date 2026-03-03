@@ -8,9 +8,9 @@ users: 10000
 appId: com.rumble.rumblewallet
 appCountry: 
 released: 2026-01-19
-updated: 2026-02-17
-version: 1.2.1
-reviews: 
+updated: 2026-02-20
+version: 1.2.2
+reviews: 5
 website: https://wallet.rumble.com
 repository: 
 issue: 

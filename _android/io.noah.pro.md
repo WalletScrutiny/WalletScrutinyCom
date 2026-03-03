@@ -4,7 +4,7 @@ title: BitradeX-AI Crypto Trading
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.noah.pro
 appCountry: 
 released: 2025-09-23

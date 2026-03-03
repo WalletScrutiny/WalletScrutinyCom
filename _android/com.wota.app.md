@@ -10,7 +10,7 @@ released: 2021-01-11
 updated: 2025-08-31
 version: 1.5.0
 reviews: 
-website: https://enterwota.com#deadLink
+website: https://enterwota.com
 repository: 
 issue: 
 icon: com.wota.app.png

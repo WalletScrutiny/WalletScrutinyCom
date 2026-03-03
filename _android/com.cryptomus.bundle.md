@@ -8,8 +8,8 @@ users: 50000
 appId: com.cryptomus.bundle
 appCountry: 
 released: 2024-12-19
-updated: 2026-01-16
-version: 2.7.1(139)
+updated: 2026-02-25
+version: 2.8.0(153)
 reviews: 73
 website: https://cryptomus.com/
 repository: 

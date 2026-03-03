@@ -10,8 +10,8 @@ appCountry:
 released: 2025-03-26
 updated: 2025-06-15
 version: '1.0'
-reviews: 60
-website: https://hot-labs.org/privacypolicy#deadLink
+reviews: 61
+website: https://hot-labs.org/privacypolicy
 repository: 
 issue: 
 icon: app.herewallet.hot.png

@@ -23,7 +23,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Walken App
+developerName: Milky Way Entertainment LLC
 builds: 
 features: 
 

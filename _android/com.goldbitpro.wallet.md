@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.goldbitpro.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-03-04
+date: 2026-03-03
 signer: 
 twitter: 
 social: 
