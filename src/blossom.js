@@ -144,35 +144,3 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
     xhr.send(blob);
   });
 }
-
-// List blobs for a specific public key
-/*
-export async function listBlobs(pubkey, serverUrl, since = null, until = null, requireAuth = false) {
-  let url = `${serverUrl}/list/${pubkey}`;
-  const params = new URLSearchParams();
-  if (since) params.append('since', since);
-  if (until) params.append('until', until);
-  if (params.toString()) {
-    url += '?' + params.toString();
-  }
-
-  const headers = { 'Accept': 'application/json' };
-
-  if (requireAuth) {
-    headers['Authorization'] = await createAuthorizationHeader('list', 'List Blobs');
-  }
-
-  try {
-    const response = await fetch(url, { headers });
-    if (response.ok) {
-      return await response.json();
-    } else {
-      const error = await response.json();
-      throw new Error(error.message);
-    }
-  } catch (error) {
-    console.error('Error listing blobs:', error);
-    return [];
-  }
-}
-*/
