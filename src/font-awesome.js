@@ -47,7 +47,8 @@ import {
   faExternalLinkAlt,
   faPlus,
   faMinus,
-  faTimesCircle
+  faTimesCircle,
+  faSlidersH
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -87,6 +88,7 @@ library.add(
   faPlus,
   faMinus,
   faTimesCircle,
+  faSlidersH,
   // Brands
   faSquareXTwitter,
   faXTwitter,
