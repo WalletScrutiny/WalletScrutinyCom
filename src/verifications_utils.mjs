@@ -241,10 +241,17 @@ const getNostrProfile = async function (pubkey) {
   const profile = await user.fetchProfile();
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
-  // Save to IDB to cache
-  saveProfileToIDB(pubkey, profile).catch(e => console.warn("Failed to save profile to IDB", e));
+  const sanitizedProfile = {};
+  Object.keys(profile).forEach(key => {
+    sanitizedProfile[key] = DOMPurify.sanitize(profile[key]);
+  });
 
-  return profile;
+  console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
+
+  // Save to IDB to cache
+  saveProfileToIDB(pubkey, sanitizedProfile).catch(e => console.warn("Failed to save profile to IDB", e));
+
+  return sanitizedProfile;
 }
 
 const getNpubFromPubkey = function (pubkey) {
@@ -1517,7 +1524,7 @@ function showToast(message, type = 'success', duration = 4000) {
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.style.backgroundColor = color;
-    toast.innerHTML = message;
+    toast.textContent = message;
     document.body.appendChild(toast);
 
     // Show toast
@@ -1580,6 +1587,13 @@ const getCommentsForVerification = async function(verificationKey) {
       '#v': [verificationKeyWithoutEventId]
     }
   ]);
+
+  comments.forEach(comment => {
+    comment.content = DOMPurify.sanitize(comment.content);
+    comment.tags = comment.tags.map(tag => {
+      return [tag[0], DOMPurify.sanitize(tag[1])];
+    });
+  });
 
   return Array.from(comments);
 }

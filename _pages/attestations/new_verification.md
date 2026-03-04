@@ -587,7 +587,7 @@ permalink: /new_verification/
       }
     });
     if (errors.length > 0) {
-      showToast(errors.join('<br>'), 'error', errors.length * 2000); // Show errors longer
+      showToast(errors.join('\n'), 'error', errors.length * 2000); // Show errors longer
     }
     displayFiles();
   }
@@ -664,7 +664,7 @@ permalink: /new_verification/
     }
     
     if (errors.length > 0) {
-      showToast(errors.join('<br>'), 'error', 6000 + (errors.length * 2000));
+      showToast(errors.join('\n'), 'error', 6000 + (errors.length * 2000));
     }
     displayOutputFiles();
   }
