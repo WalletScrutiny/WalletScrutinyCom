@@ -173,27 +173,6 @@ permalink: /verifiers/
     })();
   }
 
-  function loadEventsFromGlobalCache() {
-    // Load from window.allAssetInformation (already deduplicated by hash+pubkey in processEventsToResult)
-    if (!window.allAssetInformation) return;
-    
-    allEvents.clear();
-    
-    // Extract all verifications - already deduplicated in the global cache
-    for (const verificationGroup of window.allAssetInformation.verifications.values()) {
-      for (const verification of verificationGroup) {
-        allEvents.set(verification.id, {
-          id: verification.id,
-          pubkey: verification.pubkey,
-          created_at: verification.created_at,
-          kind: verification.kind
-        });
-      }
-    }
-    
-    console.log(`Loaded ${allEvents.size} unique verifications from global cache (already deduplicated by hash+pubkey)`);
-  }
-
   function renderTables() {
     const now = new Date();
     const startOfCurrentMonth = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
@@ -238,12 +217,7 @@ permalink: /verifiers/
   };
 
   window.addEventListener('allAssetInformationLoaded', () => {
-    // React to global cache updates
-    loadEventsFromGlobalCache();
-    renderTables();
-    document.getElementById('loadingSpinner').style.display = 'none';
-    document.getElementById('verifiersViewToggle').style.display = 'block';
-    document.getElementById('showAllButton').style.display = 'inline-block';
+    loadEventsAndRenderTables();
   });
 
   window.addEventListener('verificationsUILoaded', () => {
@@ -255,11 +229,34 @@ permalink: /verifiers/
 
     // If data already loaded, render immediately
     if (window.allAssetInformation) {
-      loadEventsFromGlobalCache();
-      renderTables();
-      document.getElementById('loadingSpinner').style.display = 'none';
-      document.getElementById('verifiersViewToggle').style.display = 'block';
-      document.getElementById('showAllButton').style.display = 'inline-block';
+      loadEventsAndRenderTables();
     }
   });
+
+  window.loadEventsAndRenderTables = function() {
+    // This shouldn't happen here, but just in case
+    if (!window.allAssetInformation) return;
+    
+    allEvents.clear();
+    
+    // Load events from global cache - Extract all verifications - already deduplicated in the global cache
+    for (const verificationGroup of window.allAssetInformation.verifications.values()) {
+      for (const verification of verificationGroup) {
+        allEvents.set(verification.id, {
+          id: verification.id,
+          pubkey: verification.pubkey,
+          created_at: verification.created_at,
+          kind: verification.kind
+        });
+      }
+    }
+
+    console.log(`Loaded ${allEvents.size} unique verifications from global cache (already deduplicated by hash+pubkey)`);
+
+    renderTables();
+
+    document.getElementById('loadingSpinner').style.display = 'none';
+    document.getElementById('verifiersViewToggle').style.display = 'block';
+    document.getElementById('showAllButton').style.display = 'inline-block';
+  }
 </script>
