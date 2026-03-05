@@ -36,4 +36,4 @@ ByteWallet is a Bitcoin wallet app that lets users buy Bitcoin after linking a b
 
 ## Anaylsis
 
-The intructions explicitly inform the user how to generate a 12-word seed phrase. However we find no claims regard source-availability. A search for the app ID also does not show relevant results. This app is **not sourcce available**.
+The intructions explicitly inform the user how to generate a 12-word seed phrase. However we find no claims regard source-availability. A search for the app ID also does not show relevant results. This app is **not source available**.
