@@ -242,8 +242,9 @@ const getNostrProfile = async function (pubkey) {
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
   const sanitizedProfile = {};
-  Object.keys(profile).forEach(key => {
-    sanitizedProfile[key] = DOMPurify.sanitize(profile[key]);
+  const profileObj = profile && typeof profile === 'object' ? profile : {};
+  Object.keys(profileObj).forEach(key => {
+    sanitizedProfile[key] = DOMPurify.sanitize(profileObj[key]);
   });
 
   console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
