@@ -52,7 +52,8 @@
     "verify-features:fetch": "node scripts/featureVerifier.mjs --fetch",
     "verify-features:verify": "PPQ_API_KEY=$PPQ_API_KEY node scripts/featureVerifier.mjs --verify",
     "verify-features:apply": "node scripts/featureVerifier.mjs --apply --dry-run",
-    "verify-features:commit": "node scripts/featureVerifier.mjs --apply"
+    "verify-features:commit": "node scripts/featureVerifier.mjs --apply",
+    "deploy": "npm run build && tar --use-compress-program=\"pigz --best --recursive\" -cvf _site.tar.gz _site/ && scp _site.tar.gz $USER@walletscrutiny.com:/home/$USER && rm _site.tar.gz"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
