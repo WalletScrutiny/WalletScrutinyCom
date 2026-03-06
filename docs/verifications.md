@@ -49,7 +49,8 @@ Trust in verifications is built through:
     ["x",        "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["ox",       "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["m",        "<mime-type>"],          // application/vnd.android.package-archive
-    ["platform", "<asset-platform>"]      // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["file-name", "<file-name>"]          // name of the file attached to the asset
   ],
   "content": "Asset description"
 }

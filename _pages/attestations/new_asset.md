@@ -50,6 +50,8 @@ permalink: /new_asset/
       </select>
     </div>
 
+    <input type="hidden" id="fileName" name="fileName" class="form-control" autocomplete="off" maxlength="255">
+
     <div class="form-group">
       <label for="description">Asset Description (*):</label>
       <input type="text" id="description" name="description" class="form-control" required maxlength="120">
@@ -69,7 +71,8 @@ permalink: /new_asset/
       version: document.getElementById('version').value.trim(),
       appId: document.getElementById('appId').value.trim(),
       sha256: document.getElementById('sha256').value.trim(),
-      platform: document.getElementById('platform').value
+      platform: document.getElementById('platform').value,
+      fileName: document.getElementById('fileName').value.trim()
     };
 
     if (!formData.appId) delete formData.appId;
@@ -114,7 +117,7 @@ permalink: /new_asset/
 
     const urlParams = new URLSearchParams(window.location.search);
 
-    const fields = ['description', 'version', 'sha256', 'appId', 'platform'];
+    const fields = ['description', 'version', 'sha256', 'appId', 'platform', 'fileName'];
     fields.forEach(field => {
       const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
       if (value) {

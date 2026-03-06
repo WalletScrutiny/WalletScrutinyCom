@@ -483,6 +483,8 @@ window.renderAssetsTable = async function({
 
       const wallet = window.wallets.find(w => w.appId === identifier);
       const walletTitle = wallet ? wallet.title : identifier;
+      const fileName = getFirstTagValue(binary, 'file-name') ?? null;
+      const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : null;
 
       const row = document.createElement('tr');
       // Use a class to track initially hidden rows instead of inline style
@@ -515,7 +517,7 @@ window.renderAssetsTable = async function({
         </td>`}
         <td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
           `).join('') : '-'}
         </td>
         <td>${verificationsList}</td>
@@ -708,11 +710,16 @@ window.renderAssetsTable = async function({
       const title = downloadIcon.getAttribute('data-title');
       const version = downloadIcon.getAttribute('data-version');
       const appid = downloadIcon.getAttribute('data-appid');
+      const filenameFromEvent = downloadIcon.getAttribute('data-filename');
 
-      if (title && !title.includes(' ')) {
-        filename = `${title}-${version}-${filenameFromURL}`;
+      if (filenameFromEvent) {
+        filename = `${filenameFromEvent}`;
       } else {
-        filename = `${appid}-${version}-${filenameFromURL}`;
+        if (title && !title.includes(' ')) {
+          filename = `${title}-${version}-${filenameFromURL}`;
+        } else {
+          filename = `${appid}-${version}-${filenameFromURL}`;
+        }
       }
 
       const a = document.createElement('a');
