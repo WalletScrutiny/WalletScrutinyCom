@@ -293,6 +293,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
   if (platformFromFile) {
     urlParams += `&platform=${encodeURIComponent(platformFromFile ?? platform)}`;
   }
+  if (file) { urlParams += `&fileName=${encodeURIComponent(file.name)}`; }
 
   if (!hasAssets && !hasVerifications ) {
     if (window.location.pathname !== '/new_asset/') {

@@ -300,7 +300,8 @@ function validateParameterLengths(params) {
     platform: { maxLength: 10, name: 'Platform' },
     description: { maxLength: 120, name: 'Description' },
     content: { maxLength: 60000, name: 'Content' },
-    issueTrackerUrl: { maxLength: 200, name: 'Issue tracker URL' }
+    issueTrackerUrl: { maxLength: 200, name: 'Issue tracker URL' },
+    fileName: { maxLength: 255, name: 'File name' }
   };
 
   for (const [paramName, value] of Object.entries(params)) {
@@ -319,6 +320,7 @@ const createAssetRegistration = async function ({
                                                   version,
                                                   platform,
                                                   description,
+                                                  fileName,
                                                   createdAt = null
                                                 }) {
   await ensureNdkConnected();
@@ -328,7 +330,7 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
-  validateParameterLengths({ appId, version, platform, description });
+  validateParameterLengths({ appId, version, platform, description, fileName });
 
   const tags = [
     ["x", sha256],
@@ -338,6 +340,9 @@ const createAssetRegistration = async function ({
   ];
   if (platform) {
     tags.push(["platform", platform]);
+  }
+  if (fileName) {
+    tags.push(["file-name", fileName]);
   }
 
   const ndkEvent = createNdkEvent(assetRegistrationKind, description, tags, createdAt);
