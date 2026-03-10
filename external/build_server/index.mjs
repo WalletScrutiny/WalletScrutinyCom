@@ -44,6 +44,9 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
     await verifyAssetsFromRegistry(allVerificationsRaw, appInfo);
 
+    // For now, we'll try to reproduce only assets from the Asset Registry (android, hardware, desktop)
+    return;
+
     // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);
     appLog.info(`Refreshed ${refreshResults.total} apps (${Object.keys(refreshResults.desktop).length} desktop, ${Object.keys(refreshResults.hardware).length} hardware)`);
