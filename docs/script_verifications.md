@@ -15,10 +15,10 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 5. Build scripts for `hardware` or `desktop` wallet types must be able to handle multiple combinations of architectures and types for the same application. See the `Wallet files` section below for details on how to define the combinations.
 6. The call parameters for the script must be the following:
 
-* For `android` wallets:
-  - `--apk`: APK file of the app to test
+* For `android`, `desktop` or `hardware` wallets when a binary file is provided by the user:
+  - `--binary`: binary file of the app to test (`--apk` will be supported for a while, but it's deprecated)
 
-* For `desktop` or `hardware` wallets:
+* For `desktop` or `hardware` wallets, when a new version of the app is released (no binary file is provided by the user):
   - `--version`: version of the app (without the v prefix)
   - `--arch`: architecture we want to compile (x86_64-linux-gnu, arm64-apple-darwin, ...)
   - `--type`: type of the app (bitcoin, multi, ...)
@@ -58,15 +58,20 @@ If you want your build script to be automatically run by the Automated Build Ser
 builds:
   - arch: win64
     types:
-    - setup
-    - portable
-    - standalone
+      setup
+      - "*.msi"
+      portable
+      - "*.portable.exe"
+      standalone
+      - "*.exe"
   - arch: x86_64-linux-gnu
     types:
-    - appimage
-    - tarball
+      tarball:
+      - "*-x86_64.tar.gz"
+      deb:
+      - "*_amd64.deb"
 ```
 
-The Automated Build Server will iterate through all the combinations of architectures and types defined in the `builds` array, passing the appropriate `--arch` and `--type` parameters to the build script.
+If the Automated Build Server is trying to reproduce a new version of the app, it will pass the `--version` parameter to the build script, and it will iterate through all the combinations of architectures and types defined in the `builds` array, passing the appropriate `--arch` and `--type` parameters to the build script.
 
-Android wallet files do not need the `builds` array, as build scripts infer the required information from the APK itself. The Automated Build Server will launch the build script with the `--apk` parameter pointing to the APK file provided by the user.
+If it's reproducing a binary file, it will pass the `--version` and `--binary` parameters to the build script. `binary` will be the path to the binary file provided by the user. It will also pass the `--arch` and `--type` parameters corresponding to the binary file to the build script. For that to work correctly, you have to correctly add the file patterns to the `builds` array.
