@@ -40,8 +40,10 @@ social:
 builds:
 - arch: arm
   types:
-  - universal
-  - btc-only
+    btc-only:
+    - "trezor-*-bitcoinonly.bin"
+    universal:
+    - "trezor-*.bin"
 features: 
 - foss
 

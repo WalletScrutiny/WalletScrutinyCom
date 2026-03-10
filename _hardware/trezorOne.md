@@ -37,8 +37,10 @@ social:
 builds:
 - arch: arm
   types:
-  - universal
-  - btc-only
+    btc-only:
+    - "trezor-t1b1-*-bitcoinonly.bin"
+    universal:
+    - "trezor-t1b1-*.bin"
 features:
 - hd
 - selfBuild
