@@ -4,7 +4,7 @@ import path from 'path';
 import PQueue from 'p-queue';
 import { getNdk, getAllAssetsForTheseAppIds, getEventsFromEventIds, createVerification, uploadBlobToBlossomServer } from './nostr-utils.mjs';
 import {
-  filterAndroidVerificationsWithBuildScripts,
+  filterVerificationsWithBuildScripts,
   getAppIdsFromVerifications,
   filterAssetsWithoutVerification,
   getFirstTagValue,
@@ -14,7 +14,8 @@ import {
   findFileRecursively,
   getCombinationsFromAppInfo,
   getFileAttachmentIDsForVerificationEvent,
-  getNewerScriptToReproduce
+  getNewerScriptToReproduce,
+  findArchAndTypeForFile
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
@@ -40,7 +41,7 @@ let buildDirForThisVerification = null;
 
 export async function verifyAssetsFromRegistry(verifications, appInfo) {
   appLog.debug(`# verifications: ${verifications.size}`);
-  const verificationsWithBuildShFiles = await filterAndroidVerificationsWithBuildScripts(verifications);
+  const verificationsWithBuildShFiles = await filterVerificationsWithBuildScripts(verifications);
   appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
 
   const appIds = getAppIdsFromVerifications(verificationsWithBuildShFiles);
@@ -56,23 +57,13 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     const appId = getFirstTagValue(asset, 'i');
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
-    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
-
-
-    let buildCombinations;
-    try {
-      if (platform !== 'android') {
-        buildCombinations = getCombinationsFromAppInfo(appInfo, legacyPlatform, appId);
-        if (!buildCombinations) {
-          continue;
-        }
-      } else {
-        buildCombinations = [{ architecture: null, type: null }];
-      }
-    } catch (error) {
-      appLog.error(`Error getting build combinations for appId (${appId}) and platform (${platform}): ${error}`);
+    const fileName = getFirstTagValue(asset, 'file-name') ?? null;
+    if (!fileName) {
+      appLog.debug(`   no file name found for appId=${appId}, version=${version}, and platform=${platform}. Skipping...`);
       continue;
     }
+    const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : null;
+    const legacyPlatform = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
 
     appLog.debug(`   searching for script to try to reproduce appId=${appId}, version=${version}, and platform=${platform}...`);
 
@@ -85,46 +76,57 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     const fileHash = getFirstTagValue(asset, 'x');
     appLog.debug(`     - file hash found: ${fileHash}`);
 
-    for (const { architecture, type } of buildCombinations) {
-      const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-      let response;
-      try {
-        response = await fetch(blossomFileURL);
-      } catch (fetchError) {
-        appLog.error(`Fetch failed for ${blossomFileURL}: ${fetchError?.message ?? fetchError}. Skipping asset.`);
-        continue;
-      }
-      if (response.ok) {
-        const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-        createCompilationDirectory(buildDirForThisVerification);
+    const archAndType = findArchAndTypeForFile(appInfo, legacyPlatform, appId, fileName);
+    if (!archAndType) {
+      appLog.debug(`   no arch and type found for appId=${appId}, version=${version}, and platform=${legacyPlatform} and fileName=${fileName}. Do you need to add the file patterns to the builds array in the .md file?`);
+      continue;
+    }
+    const { architecture, type } = archAndType;
 
-        appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
-        const apkFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-        const apkPath = path.join(buildDirForThisVerification, apkFileName);
-        const buffer = Buffer.from(await response.arrayBuffer());
-        fs.writeFileSync(apkPath, buffer);
-        appLog.debug(`     - saved to ${apkPath}`);
+    const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
+    let response;
+    try {
+      response = await fetch(blossomFileURL);
+    } catch (fetchError) {
+      appLog.error(`Fetch failed for ${blossomFileURL}: ${fetchError?.message ?? fetchError}. Skipping asset.`);
+      continue;
+    }
+    if (response.ok) {
+      const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+      createCompilationDirectory(buildDirForThisVerification);
 
-        const scriptFileName = `${appId}_${fileHash}_script.sh`;
-        const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
-        appLog.debug(`     - saving script to ${scriptPath}`);
-        saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
-
-        await addJobToQueue({
-          verification: verification.verification,
-          appId,
-          platform,
-          buildDirForThisVerification,
-          scriptWithPath: scriptPath,
-          newWalletVersion: version,
-          architecture,
-          type,
-          fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-          apk: apkPath
-        });
+      appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
+      let downloadedFileName = null;
+      if (sanitizedFileName) {
+        downloadedFileName = sanitizedFileName;
       } else {
-        appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
+        downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
       }
+      const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
+      const buffer = Buffer.from(await response.arrayBuffer());
+      fs.writeFileSync(downloadedFileNamePath, buffer);
+      appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+
+      const scriptFileName = `${appId}_${fileHash}_script.sh`;
+      const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+      appLog.debug(`     - saving script to ${scriptPath}`);
+      saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
+
+      await addJobToQueue({
+        verification: verification.verification,
+        appId,
+        platform,
+        buildDirForThisVerification,
+        scriptWithPath: scriptPath,
+        newWalletVersion: version,
+        architecture,
+        type,
+        fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
+        fileHash,
+        binaryFilePath: downloadedFileNamePath
+      });
+    } else {
+      appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
     }
   }
 }
@@ -144,7 +146,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
     // Get file attachment IDs
     const fileAttachmentIds = getFileAttachmentIDsForVerificationEvent(verification);
-    
+
     if (fileAttachmentIds.length === 0) {
       appLog.info(`${appId} | ${version} | ${platform} | No attachments, so no verification can be tried`);
       return;
@@ -154,7 +156,7 @@ export async function processNewReleaseVerification(verification, newWalletVersi
     const fileEvents = await getEventsFromEventIds(fileAttachmentIds);
 
     let fileEventIdsForSHFiles = [];
-    
+
     let anyFileTried = false;
 
     for (const fileEvent of fileEvents) {
@@ -220,7 +222,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           newWalletVersion,
           architecture,
           type,
-          fileEventIdsForSHFiles
+          fileEventIdsForSHFiles,
+          fileHash
         });
       }
     }
@@ -247,11 +250,12 @@ export async function addJobToQueue({
   architecture,
   type,
   fileEventIdsForSHFiles,
-  apk = null
+  fileHash,
+  binaryFilePath = null
 }) {
   appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, apk));
+  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath));
   job.catch(err => {
     appLog.error('Script execution job failed:', err);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
@@ -267,15 +271,13 @@ export async function addJobToQueue({
       architecture,
       type,
       fileEventIdsForSHFiles,
-      apk
+      fileHash,
+      binaryFilePath
     );
   });
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  let hashes = [];
-  let status = null;
-
   // First, try to find and read COMPARISON_RESULTS.yaml
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
@@ -294,42 +296,10 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
         }
 
         if (architectureResults.length > 0) {
-          const allFileMatches = [];
-          
           for (const result of architectureResults) {
-            // Check if it's the new format with files array
-            if (result.files && Array.isArray(result.files)) {
-              // New format: multiple files per architecture
-              const fileHashes = result.files
-                .filter(file => file.hash)
-                .map(file => file.hash);
-              hashes.push(...fileHashes);
-              
-              // Collect match status for each file
-              result.files.forEach(file => {
-                if (file.hash) {
-                  allFileMatches.push(file.match === true);
-                }
-              });
-            } else if (result.hash) {
-              // Old format or flat format: single hash per entry
-              hashes.push(result.hash);
-              allFileMatches.push(result.match === true);
-            }
-
-            status = result.status;
+            return result.status;
           }
-          
-          // All files/entries must match for overall match to be true
-          matches = allFileMatches.length > 0 && allFileMatches.every(m => m === true);
         }
-      }
-
-      if (hashes.length > 0) {
-        return {
-          hashes,
-          status
-        };
       }
 
       return null;
@@ -361,23 +331,23 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
     appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
   }
-  
+
   if (hashes.length === 0) {
     return null;
   }
-  
+
   return { hashes, matches };
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, apk = null) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null) {
   return new Promise((resolve, reject) => {
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : '';
     const typeFlag = type ? `--type ${type}` : '';
-    const apkFlag = apk ? `--apk ${apk}` : '';
-    const scriptArgs = ( apk ? [apkFlag] : [architectureFlag, typeFlag]).filter(Boolean).join(' ');
+    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath} --apk ${binaryFilePath}` : '';
+    const scriptArgs = ( binaryFilePath ? [binaryParam] : [architectureFlag, typeFlag]).filter(Boolean).join(' ');
     const argsString = scriptArgs ? ` ${scriptArgs}` : '';
-    const versionString = apk === null ? `--version ${newWalletVersion}` : '';
+    const versionString = binaryFilePath === null ? `--version ${newWalletVersion}` : '';
     const finalScriptExecutionCommand = `${script} ${versionString}${argsString}`;
 
     let castFileName = script.replace(/\.sh$/, '');
@@ -409,7 +379,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
   });
 }
 
-export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, apk = null) {
+export async function createVerificationAfterCompilation(returnParamsFromCompilationJob, verification, newWalletVersion, appId, platform, architecture, type, fileEventIdsForSHFiles, fileHash, binaryFilePath = null) {
   const {castFileName, finalScriptExecutionCommand, buildDirForThisVerification} = returnParamsFromCompilationJob;
 
   const ndkInstance = getNdk();
@@ -417,13 +387,12 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     throw new Error('NDK instance is not initialized');
   }
 
-  const comparisonResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
-  if (!comparisonResults) {
+  const status = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!status) {
     appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
     return;
   }
-  const { hashes, status } = comparisonResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -444,8 +413,8 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   if (type) {
     description += ` - type: ${type}`;
   }
-  if (apk) {
-    description += ` - apk: ${path.basename(apk)}`;
+  if (binaryFilePath) {
+    description += ` - binaryFilePath: ${path.basename(binaryFilePath)}`;
   };
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
@@ -456,7 +425,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
     status,
-    hashes: hashes,
+    hashes: [fileHash],
     description: description,
     content: content,
     outputFiles: [{name: path.basename(castFileName), hash: castFileHash}],

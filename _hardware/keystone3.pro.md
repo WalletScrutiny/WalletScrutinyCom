@@ -40,9 +40,12 @@ social:
 builds:
 - arch: arm
   types:
-  - cypherpunk
-  - multi
-  - btc-only
+    cypherpunk:
+    - "keystone3.bin"
+    multi:
+    - "keystone3.bin"
+    btc-only:
+    - "keystone3.bin"
 features:
 - airGapped
 - camera

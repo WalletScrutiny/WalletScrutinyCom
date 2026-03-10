@@ -37,13 +37,15 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
-    // Fetch app info for build server
     const appInfo = await fetchAppInfo();
 
     await connectToNostr(wsBotNostrPrivateKey);
     const allVerificationsRaw = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
     await verifyAssetsFromRegistry(allVerificationsRaw, appInfo);
+
+    // For now, we'll try to reproduce only assets from the Asset Registry (android, hardware, desktop)
+    return;
 
     // Refresh desktop and hardware apps to get latest versions
     const refreshResults = await refreshApps(githubToken);

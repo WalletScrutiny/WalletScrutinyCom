@@ -41,8 +41,10 @@ social:
 builds:
 - arch: arm
   types:
-  - universal
-  - btc-only
+    btc-only:
+    - "trezor-t3t1-*-bitcoinonly.bin"
+    universal:
+    - "trezor-t3t1-*.bin"
 features: 
 
 ---

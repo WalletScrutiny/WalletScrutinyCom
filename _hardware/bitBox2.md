@@ -41,8 +41,10 @@ social:
 builds:
 - arch: arm
   types:
-  - multi
-  - btc-only
+    btc-only:
+    - "firmware-bitbox02-btconly.*.signed.bin"
+    multi:
+    - "firmware-bitbox02-multi.*.signed.bin"
 features:
 - foss
 - hd

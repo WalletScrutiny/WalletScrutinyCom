@@ -36,6 +36,9 @@ social:
 - https://www.youtube.com/@onekeyhq
 builds:
 - arch: arm
+  types:
+    onekeypro:
+    - "pro.*.signed.bin"
 features: 
 
 ---

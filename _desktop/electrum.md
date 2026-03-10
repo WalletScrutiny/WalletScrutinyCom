@@ -23,13 +23,18 @@ social:
 builds:
 - arch: x86_64-linux-gnu
   types:
-  - appimage
-  - tarball
+    appimage:
+    - "electrum-*-x86_64.AppImage"
+    tarball:
+    - "Electrum-*.tar.gz"
 - arch: win64
   types:
-  - setup
-  - portable
-  - standalone
+    setup:
+    - "electrum-*-setup.exe"
+    portable:
+    - "electrum-*-portable.exe"
+    standalone:
+    - "electrum-*.exe"
 features:
 - customNode
 - foss

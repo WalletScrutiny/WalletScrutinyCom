@@ -23,10 +23,10 @@ social:
 builds:
 - arch: x86_64-linux-gnu
   types:
-  - tarball
-- arch: x86_64-linux-gnu
-  types:
-  - deb
+    tarball:
+    - "*-x86_64.tar.gz"
+    deb:
+    - "*_amd64.deb"
 features:
 - airGapped
 - companion

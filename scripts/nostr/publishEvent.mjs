@@ -37,9 +37,7 @@ async function main() {
       process.exit(1);
     }
 
-    const originalEventId = eventJson.id;
-
-    console.log(`Publishing event: ${originalEventId}`);
+    console.log(`Publishing event: ${eventJson.id}`);
     console.log(`Kind: ${eventJson.kind}`);
     console.log(`Relays: ${RELAYS.join(", ")}`);
 

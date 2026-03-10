@@ -147,18 +147,15 @@ export function getFileAttachmentIDsForVerificationEvent(event) {
   return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
 }
 
-export async function filterAndroidVerificationsWithBuildScripts(verifications) {
+export async function filterVerificationsWithBuildScripts(verifications) {
   const fileAttachmentIds = [];
 
-  // First we get fileAttachmentIds for all android verifications
-  // made by trusted verifiers and put them in a verificationsCandidates array
+  // First we get fileAttachmentIds for all verifications made by
+  // trusted verifiers and put them in a verificationsCandidates array
   const verificationsCandidates = [];
   for (const [sha256, verificationEvents] of verifications) {
     for (const verification of verificationEvents) {
       if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
-        continue;
-      }
-      if (getFirstTagValue(verification, 'platform') !== 'android') {
         continue;
       }
       // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
@@ -280,10 +277,25 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
 
   if (buildConfigFromWS) {
     for (const buildConfig of buildConfigFromWS) {
-      const arch = buildConfig.arch || [undefined];
-      const types = buildConfig.types || [undefined];
-      for (const type of types) {
-        buildCombinations.push({ architecture: arch, type: type });
+      const arch = buildConfig.arch || undefined;
+      const types = buildConfig.types;
+
+      if (!types) {
+        buildCombinations.push({ architecture: arch, type: undefined, patterns: undefined });
+        continue;
+      }
+
+      // Check if types is an array (legacy format) or an object (new format with patterns)
+      if (Array.isArray(types)) {
+        // Legacy format: types: ["tarball", "deb"]
+        for (const type of types) {
+          buildCombinations.push({ architecture: arch, type: type, patterns: undefined });
+        }
+      } else if (typeof types === 'object') {
+        // New format: types: { tarball: ["*.tar", "*.tar.gz"], deb: ["*.deb"] }
+        for (const [type, patterns] of Object.entries(types)) {
+          buildCombinations.push({ architecture: arch, type: type, patterns: patterns });
+        }
       }
     }
     appLog.info(` *** Build combinations for ${appId} (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
@@ -294,6 +306,79 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
     appLog.info(` *** No build combinations found for ${appId}`);
     return null;
   }
+}
+
+/**
+ * Find the architecture and type for a given file name by matching against patterns in appInfo.
+ * @param {Object} appInfo - The app info object
+ * @param {string} platform - The platform (e.g., 'android', 'iphone', 'desktop')
+ * @param {string} appId - The application ID
+ * @param {string} fileName - The file name to match
+ * @returns {{ architecture: string|undefined, type: string|undefined }|null} - The matching architecture and type, or null if not found
+ */
+export function findArchAndTypeForFile(appInfo, platform, appId, fileName) {
+  const appInfoFromWS = appInfo?.[platform]?.[appId] || null;
+  const buildConfigFromWS = appInfoFromWS?.builds || null;
+
+  if (!buildConfigFromWS) {
+    appLog.debug(`No build config found for ${appId} on ${platform}`);
+    return null;
+  }
+
+  for (const buildConfig of buildConfigFromWS) {
+    const arch = buildConfig.arch || undefined;
+    const types = buildConfig.types;
+
+    if (!types) {
+      continue;
+    }
+
+    // Check if types is an array (legacy format) or an object (new format with patterns)
+    if (Array.isArray(types)) {
+      // Legacy format: types: ["tarball", "deb"]
+      for (const type of types) {
+        if (fileName.endsWith(`.${type}`) || fileName.includes(`.${type}`)) {
+          appLog.debug(`Found match for ${fileName}: architecture=${arch}, type=${type} (legacy format)`);
+          return { architecture: arch, type };
+        }
+      }
+    } else if (typeof types === 'object') {
+      // New format: types: { tarball: ["*.tar", "*.tar.gz"], deb: ["*.deb"] }
+      for (const [type, patterns] of Object.entries(types)) {
+        for (const pattern of patterns) {
+          if (matchPattern(fileName, pattern)) {
+            appLog.debug(`Found match for ${fileName}: architecture=${arch}, type=${type} (pattern: ${pattern})`);
+            return { architecture: arch, type };
+          }
+        }
+      }
+    }
+  }
+
+  appLog.debug(`No match found for ${fileName} in ${appId} on ${platform}`);
+  return null;
+}
+
+/**
+ * Match a file name against a glob-like pattern.
+ * Supports patterns like "*.tar", "*.tar.gz", "prefix*", etc.
+ * @param {string} fileName - The file name to match
+ * @param {string} pattern - The glob pattern
+ * @returns {boolean} - True if the file name matches the pattern
+ */
+function matchPattern(fileName, pattern) {
+  // Convert glob pattern to regex
+  // Escape special regex characters except * and ?
+  let regexPattern = pattern
+    .replace(/[.+^${}()|[\]\\]/g, '\\$&')
+    .replace(/\*/g, '.*')
+    .replace(/\?/g, '.');
+
+  // Anchor the pattern
+  regexPattern = '^' + regexPattern + '$';
+
+  const regex = new RegExp(regexPattern);
+  return regex.test(fileName);
 }
 
 export function getNewerScriptToReproduce(verificationsWithBuildShFiles, appId, platform) {

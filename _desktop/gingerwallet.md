@@ -24,7 +24,13 @@ social:
 - https://njump.me/npub1rqw94s9dt8lf0lernt72w29ctkr0skc5mjpy6e92ppktnvms0kwq540l8l
 builds:
 - arch: x86_64-linux
+  types:
+    standalone:
+    - "Ginger-*-linux-x64.zip"
 - arch: x86_64-windows
+  types:
+    standalone:
+    - "Ginger-*.msi"
 features:
 - camera
 - TOR
