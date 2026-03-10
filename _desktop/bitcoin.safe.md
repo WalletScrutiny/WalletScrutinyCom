@@ -25,12 +25,16 @@ social:
 builds:
 - arch: x86_64-linux
   types:
-  - appimage
-  - deb
+    appimage:
+    - "Bitcoin-Safe-*-x86_64.AppImage.tar.gz"
+    deb:
+    - "Bitcoin-Safe-*-x86_64.deb"
 - arch: x86_64-windows
   types:
-  - portable
-  - setup
+    portable:
+    - "Bitcoin-Safe-*-portable.exe"
+    setup:
+    - "Bitcoin-Safe-*-setup.exe"
 features:
 - batching
 - bip158spv

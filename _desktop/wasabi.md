@@ -23,12 +23,16 @@ social:
 builds:
 - arch: x86_64-linux-gnu
   types:
-  - deb
-  - tarball
+    deb:
+    - "Wasabi-*.deb"
+    tarball:
+    - "Wasabi-*-linux-x64.tar.gz"
 - arch: win64
   types:
-  - zip
-  - msi
+    zip:
+    - "Wasabi-*-win-x64.zip"
+    msi:
+    - "Wasabi-*.msi"
 features:
 - TOR
 - batching

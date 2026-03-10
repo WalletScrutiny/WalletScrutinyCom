@@ -23,8 +23,10 @@ social:
 builds:
 - arch: x86_64-linux-gnu
   types:
-  - deb
-  - rpm
+    deb:
+    - "Bisq-64bit-*.deb"
+    rpm:
+    - "Bisq-64bit-*.rpm"
 features:
 - TOR
 - foss

@@ -24,17 +24,22 @@ social:
 builds:
 - arch: x86_64-linux
   types:
-  - tarball
+    tarball:
+    - "bitcoin-*-x86_64-linux-gnu.tar.gz"
 - arch: aarch64-linux
   types:
-  - tarball
+    tarball:
+    - "bitcoin-*-aarch64-linux-gnu.tar.gz"
 - arch: arm-linux
   types:
-  - tarball
+    tarball:
+    - "bitcoin-*-arm-linux-gnueabihf.tar.gz"
 - arch: x86_64-windows
   types:
-  - zip
-  - setup
+    zip:
+    - "bitcoin-*-win64.zip"
+    setup:
+    - "bitcoin-*-win64-setup.exe"
 features:
 - ownFullNode
 - foss
