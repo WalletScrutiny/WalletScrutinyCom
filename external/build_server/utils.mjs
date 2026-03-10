@@ -285,17 +285,8 @@ export function getCombinationsFromAppInfo(appInfo, platform, appId) {
         continue;
       }
 
-      // Check if types is an array (legacy format) or an object (new format with patterns)
-      if (Array.isArray(types)) {
-        // Legacy format: types: ["tarball", "deb"]
-        for (const type of types) {
-          buildCombinations.push({ architecture: arch, type: type, patterns: undefined });
-        }
-      } else if (typeof types === 'object') {
-        // New format: types: { tarball: ["*.tar", "*.tar.gz"], deb: ["*.deb"] }
-        for (const [type, patterns] of Object.entries(types)) {
-          buildCombinations.push({ architecture: arch, type: type, patterns: patterns });
-        }
+      for (const [type, patterns] of Object.entries(types)) {
+        buildCombinations.push({ architecture: arch, type: type, patterns: patterns });
       }
     }
     appLog.info(` *** Build combinations for ${appId} (${buildCombinations.length}): ${JSON.stringify(buildCombinations)}`);
@@ -325,6 +316,8 @@ export function findArchAndTypeForFile(appInfo, platform, appId, fileName) {
     return null;
   }
 
+  // Collect all arch+type combinations
+  const archTypeCombinations = [];
   for (const buildConfig of buildConfigFromWS) {
     const arch = buildConfig.arch || undefined;
     const types = buildConfig.types;
@@ -333,23 +326,30 @@ export function findArchAndTypeForFile(appInfo, platform, appId, fileName) {
       continue;
     }
 
-    // Check if types is an array (legacy format) or an object (new format with patterns)
-    if (Array.isArray(types)) {
-      // Legacy format: types: ["tarball", "deb"]
-      for (const type of types) {
-        if (fileName.endsWith(`.${type}`) || fileName.includes(`.${type}`)) {
-          appLog.debug(`Found match for ${fileName}: architecture=${arch}, type=${type} (legacy format)`);
+    for (const type of Object.keys(types)) {
+      archTypeCombinations.push({ architecture: arch, type });
+    }
+  }
+
+  // If there's only one combination, return it directly
+  if (archTypeCombinations.length === 1) {
+    appLog.debug(`Single arch+type combination found for ${appId} on ${platform}: ${JSON.stringify(archTypeCombinations[0])}`);
+    return archTypeCombinations[0];
+  }
+
+  for (const buildConfig of buildConfigFromWS) {
+    const arch = buildConfig.arch || undefined;
+    const types = buildConfig.types;
+
+    if (!types) {
+      continue;
+    }
+
+    for (const [type, patterns] of Object.entries(types)) {
+      for (const pattern of patterns) {
+        if (matchPattern(fileName, pattern)) {
+          appLog.debug(`Found match for ${fileName}: architecture=${arch}, type=${type} (pattern: ${pattern})`);
           return { architecture: arch, type };
-        }
-      }
-    } else if (typeof types === 'object') {
-      // New format: types: { tarball: ["*.tar", "*.tar.gz"], deb: ["*.deb"] }
-      for (const [type, patterns] of Object.entries(types)) {
-        for (const pattern of patterns) {
-          if (matchPattern(fileName, pattern)) {
-            appLog.debug(`Found match for ${fileName}: architecture=${arch}, type=${type} (pattern: ${pattern})`);
-            return { architecture: arch, type };
-          }
         }
       }
     }
