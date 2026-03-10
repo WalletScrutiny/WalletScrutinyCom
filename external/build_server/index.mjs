@@ -37,7 +37,6 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
   appLog.info('------- Starting mainProcess -------');
 
   try {
-    // Fetch app info for build server
     const appInfo = await fetchAppInfo();
 
     await connectToNostr(wsBotNostrPrivateKey);
