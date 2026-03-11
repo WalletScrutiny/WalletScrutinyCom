@@ -27,6 +27,8 @@ builds:
     - '*-x86_64.tar.gz'
     deb:
     - '*_amd64.deb'
+    rpm:
+    - '*.x86_64.rpm'
 features:
 - airGapped
 - companion
