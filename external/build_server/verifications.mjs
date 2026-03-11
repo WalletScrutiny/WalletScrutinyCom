@@ -58,7 +58,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     const platform = getFirstTagValue(asset, 'platform');
     const version = getFirstTagValue(asset, 'version');
     const fileName = getFirstTagValue(asset, 'file-name') ?? null;
-    if (!fileName) {
+    if (!fileName && platform !== 'android') {
       appLog.debug(`   no file name found for appId=${appId}, version=${version}, and platform=${platform}. Skipping...`);
       continue;
     }
