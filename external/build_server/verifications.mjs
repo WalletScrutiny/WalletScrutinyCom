@@ -76,10 +76,16 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     const fileHash = getFirstTagValue(asset, 'x');
     appLog.debug(`     - file hash found: ${fileHash}`);
 
-    const archAndType = findArchAndTypeForFile(appInfo, legacyPlatform, appId, fileName);
-    if (!archAndType) {
-      appLog.debug(`   no arch and type found for appId=${appId}, version=${version}, and platform=${legacyPlatform} and fileName=${fileName}. Do you need to add the file patterns to the builds array in the .md file?`);
-      continue;
+    let archAndType = null;
+    if (legacyPlatform === 'android') {
+      archAndType = { architecture: null, type: null };
+    } else {
+      archAndType = findArchAndTypeForFile(appInfo, legacyPlatform, appId, fileName);
+
+      if (!archAndType) {
+        appLog.debug(`   no arch and type found for appId=${appId}, version=${version}, and platform=${legacyPlatform} and fileName=${fileName}. Do you need to add the file patterns to the builds array in the .md file?`);
+        continue;
+      }
     }
     const { architecture, type } = archAndType;
 
