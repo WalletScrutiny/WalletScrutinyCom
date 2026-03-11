@@ -342,13 +342,12 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
 export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null) {
   return new Promise((resolve, reject) => {
     // Execute script with asciinema recording
-    const architectureFlag = architecture ? `--arch ${architecture}` : '';
-    const typeFlag = type ? `--type ${type}` : '';
-    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath} --apk ${binaryFilePath}` : '';
-    const scriptArgs = ( binaryFilePath ? [binaryParam] : [architectureFlag, typeFlag]).filter(Boolean).join(' ');
-    const argsString = scriptArgs ? ` ${scriptArgs}` : '';
-    const versionString = binaryFilePath === null ? `--version ${newWalletVersion}` : '';
-    const finalScriptExecutionCommand = `${script} ${versionString}${argsString}`;
+    const architectureFlag = architecture ? `--arch ${architecture}` : null;
+    const typeFlag = type ? `--type ${type}` : null;
+    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath} --apk ${binaryFilePath}` : null;
+    const versionString = `--version ${newWalletVersion}`;
+    const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
+    const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
@@ -406,18 +405,18 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
-  let description = 'Automatic verification by WalletScrutiny Build Server';
+  let description = 'Automatic verification by WalletScrutiny Build Server - ';
   if (architecture) {
-    description += ` - architecture: ${architecture}`;
+    description += architecture;
   }
   if (type) {
-    description += ` - type: ${type}`;
+    if (architecture) {
+      description += ' / ';
+    }
+    description += type;
   }
-  if (binaryFilePath) {
-    description += ` - binaryFilePath: ${path.basename(binaryFilePath)}`;
-  };
 
-  let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
+  let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
   content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
 
   const formData = {
