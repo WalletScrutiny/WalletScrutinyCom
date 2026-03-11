@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: 2026-03-11
 signer: 
 twitter: bitnovo
 social:

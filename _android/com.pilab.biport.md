@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.pilab.biport.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2026-03-11
 signer: 
 twitter: 
 social:

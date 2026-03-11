@@ -40,15 +40,15 @@ social:
 - https://www.youtube.com/playlist?list=PL0db5IfQ4iyriWCgby_rJKeG31BLoxW7k
 builds:
 - arch: arm
-  types:
-    bitcoin
-features: 
+  types: bitcoin
+features:
 - hd
 - nfc
 - secEl
 - tradeAlts
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="X1Wallet supports the feature to import any BIP39 compliant wallets" %}
 {% include featureEvidence.html feature="nfc" source="[README](https://github.com/Cypherock/x1_wallet_firmware#readme)" quote="data exchange happens securely via NFC eliminating any risks of NFC spoofing" %}
 {% include featureEvidence.html feature="secEl" source="[Website](https://www.cypherock.com/)" quote="X1 Cards are encrypted NFC-based smartcards with EAL 6+ secure elements." %}

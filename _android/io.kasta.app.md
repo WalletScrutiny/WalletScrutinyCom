@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.kasta.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: 2026-03-11
 signer: 
 twitter: ka_app
 social:

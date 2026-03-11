@@ -37,6 +37,7 @@ features:
 - tradeAlts
 
 ---
+
 {% include featureEvidence.html feature="multiAccount" source="Review" quote="Multiple wallets are available, and the BTC wallet addresses can be re-generated." %}
 
 **Update 2024-09-11:**

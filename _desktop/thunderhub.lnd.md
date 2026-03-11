@@ -28,8 +28,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="ln" quote="Send and Receive Send and receive both Lightning and Bitcoin payments in a simple and easy to use interface with both basic and advanced features." source="Website" %}
 
 {% include featureEvidence.html feature="ownLN" quote="Compatible with the latest LND node versions." source="Website" %}

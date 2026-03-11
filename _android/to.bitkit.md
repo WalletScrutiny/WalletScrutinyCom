@@ -39,6 +39,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[Website](https://bitkit.to/)" quote="Restore your bitcoin on any wallet." %}
 
 ## App Description from Google Play

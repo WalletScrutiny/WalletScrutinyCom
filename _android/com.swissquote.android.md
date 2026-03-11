@@ -9,7 +9,7 @@ appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
 updated: 2026-02-25
-version: 8.26.1
+version: 8.27.0
 reviews: 43
 website: https://www.swissquote.com/
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.gateio.turkey
 appCountry: 
 released: 
-updated: 2026-02-13
-version: 6.15.40
+updated: 2026-03-05
+version: 6.15.41
 reviews: 
 website: https://gate.com.tr/
 repository: 

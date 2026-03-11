@@ -4,7 +4,7 @@ title: Cove - Simple Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 50
+users: 100
 appId: org.bitcoinppl.cove
 appCountry: 
 released: 2026-02-12

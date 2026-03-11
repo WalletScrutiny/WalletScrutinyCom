@@ -10,7 +10,7 @@ idd: '1623342435'
 released: 2022-07-19
 updated: 2026-01-29
 version: 2.10.2
-reviews: 162
+reviews: 163
 website: https://ari10.com/exchange
 repository: 
 issue: 

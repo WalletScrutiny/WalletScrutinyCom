@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2021-01-05
 discontinued: 
-updated: 2021-12-23
-version: 0.1.3
+updated: 2023-03-26
+version: 0.2.0
 binaries: https://github.com/micro-bitcoin/uBitcoin/releases
 dimensions: 
 weight: 

@@ -7,8 +7,8 @@ users: 5000
 appId: com.kuantist.app
 appCountry: 
 released: 
-updated: 2026-02-20
-version: 1.0.46
+updated: 2026-03-02
+version: 1.0.47
 reviews: 
 website: https://www.kuantist.com/
 repository: 

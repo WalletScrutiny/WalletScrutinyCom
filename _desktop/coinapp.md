@@ -21,10 +21,11 @@ date: 2025-04-22
 twitter: coin_with_us
 social: 
 builds: 
-features: 
+features:
 - customNode
 
 ---
+
 {% include featureEvidence.html feature="customNode" source="[README](https://github.com/coinapp-io/desktop#readme)" quote="CoinApp lets the user modify their connections to fit their own decentralized server." %}
 
 ## App Description

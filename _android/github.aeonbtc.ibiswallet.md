@@ -1,31 +1,31 @@
 ---
-wsId:
-title: 'Ibis Wallet'
-altTitle:
+wsId: 
+title: Ibis Wallet
+altTitle: 
 authors:
 - danny
 users: 0
 appId: github.aeonbtc.ibiswallet
-appCountry:
+appCountry: 
 released: 2026-02-09
 updated: 2026-03-06
 version: 2.2-beta
 reviews: 0
 website: 
 repository: https://github.com/aeonBTC/IbisWallet
-issue:
-icon:
-bugbounty:
+issue: 
+icon: 
+bugbounty: 
 meta: ok
 verdict: fewusers
-appHashes:
+appHashes: 
 date: 2026-03-06
-signer:
-twitter:
-social:
-redirect_from:
+signer: 
+twitter: 
+social: 
+redirect_from: 
 developerName: aeonBTC
-builds:
+builds: 
 features:
 - coinCtrl
 - companion

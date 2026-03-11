@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.milkywayapps.cryptowallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2026-01-14
+date: 2026-03-11
 signer: 
 twitter: 
 social: 

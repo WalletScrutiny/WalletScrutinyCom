@@ -44,6 +44,7 @@ features:
 - taproot
 
 ---
+
 {% include featureEvidence.html feature="customNode" source="[README](https://github.com/michaelWuensch/BitBanana#readme)" quote="Connect to remote lightning nodes/wallets (LND, Core Lightning, Nostr Wallet Connect & LndHub)" %}
 
 ## App Description from Google Play

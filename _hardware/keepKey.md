@@ -40,6 +40,7 @@ features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://shapeshift.com)" quote="Trade 10,000+ assets for Bitcoin, Ethereum, DOGE, & more with one click." %}
 
 # Original Analysis with all our considerations

@@ -27,10 +27,11 @@ redirect_from:
 - /io.hexawallet.hexa/
 developerName: 
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/bithyve/hexa/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update 2021-12-29**: As the name implies, this app was deprecated by its

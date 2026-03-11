@@ -39,8 +39,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="foss" quote="Phoenix is released under the terms of the Apache 2.0 license. See LICENSE for more information." source="GitHub README" %}
 
 {% include featureEvidence.html feature="hd" quote="when creating a new wallet, a 12-words recovery phrase is generated. Only you have it. It is your responsibility to make a backup of that recovery phrase." source="GitHub README" %}

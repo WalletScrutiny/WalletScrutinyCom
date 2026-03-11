@@ -8,8 +8,8 @@ users: 5000
 appId: com.ggp__wallet
 appCountry: 
 released: 2024-06-05
-updated: 2026-01-12
-version: 1.5.2
+updated: 2026-03-06
+version: 1.5.5
 reviews: 16
 website: https://ggp.gg/
 repository: 

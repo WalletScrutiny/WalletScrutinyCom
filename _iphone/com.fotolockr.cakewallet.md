@@ -39,6 +39,7 @@ features:
 developerName: Cake Technologies, LLC
 
 ---
+
 {% include featureEvidence.html feature="taproot" source="[App Store](https://apps.apple.com/app/com.fotolockr.cakewallet)" quote="Powerful Bitcoin privacy tools like Silent Payments and Payjoin" %}
 {% include featureEvidence.html feature="hd" source="[App Store](https://apps.apple.com/app/com.fotolockr.cakewallet)" quote="All your wallets and crypto with just one seed" %}
 

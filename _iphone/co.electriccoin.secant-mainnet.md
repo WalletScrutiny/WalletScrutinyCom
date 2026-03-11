@@ -9,7 +9,7 @@ idd: '1672392439'
 released: 2024-03-28
 updated: 2026-03-02
 version: 3.0.1
-reviews: 94
+reviews: 97
 website: https://zodl.com
 repository: 
 issue: 

@@ -32,8 +32,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="segwit" quote="bc1qgyq7lxmk359c3vyxzz674pr8a9gnguxkgdw55p" source="GitHub README" comment="Donation address is a native bech32 SegWit address; sending to bech32 addresses is also shown in the usage example (tb1q... addresses)." %}
 
 {% include featureEvidence.html feature="ownFullNode" quote="A trust-minimized Bitcoin wallet interface that relies only on Bitcoin Core." source="GitHub README" %}

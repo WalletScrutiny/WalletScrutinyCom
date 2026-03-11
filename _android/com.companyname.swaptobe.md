@@ -10,7 +10,7 @@ appCountry:
 released: 2021-10-14
 updated: 2025-03-31
 version: '6.0'
-reviews: 19
+reviews: 20
 website: https://pionechain.com
 repository: 
 issue: 

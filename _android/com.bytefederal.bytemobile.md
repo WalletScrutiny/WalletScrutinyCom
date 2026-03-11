@@ -3,7 +3,7 @@ wsId:
 title: ByteWallet - Buy Bitcoin
 altTitle: 
 authors:
- - danny
+- danny
 users: 5000
 appId: com.bytefederal.bytemobile
 appCountry: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.namicorp.exchange
 appCountry: 
 released: 2019-11-06
-updated: 2025-12-20
-version: 3.0.1
+updated: 2026-03-06
+version: 3.0.2
 reviews: 11
 website: https://nami.exchange
 repository: 

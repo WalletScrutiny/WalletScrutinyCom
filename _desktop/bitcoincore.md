@@ -25,26 +25,27 @@ builds:
 - arch: x86_64-linux
   types:
     tarball:
-    - "bitcoin-*-x86_64-linux-gnu.tar.gz"
+    - bitcoin-*-x86_64-linux-gnu.tar.gz
 - arch: aarch64-linux
   types:
     tarball:
-    - "bitcoin-*-aarch64-linux-gnu.tar.gz"
+    - bitcoin-*-aarch64-linux-gnu.tar.gz
 - arch: arm-linux
   types:
     tarball:
-    - "bitcoin-*-arm-linux-gnueabihf.tar.gz"
+    - bitcoin-*-arm-linux-gnueabihf.tar.gz
 - arch: x86_64-windows
   types:
     zip:
-    - "bitcoin-*-win64.zip"
+    - bitcoin-*-win64.zip
     setup:
-    - "bitcoin-*-win64-setup.exe"
+    - bitcoin-*-win64-setup.exe
 features:
 - ownFullNode
 - foss
 
 ---
+
 {% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/bitcoin/bitcoin#readme)" quote="Bitcoin Core connects to the Bitcoin peer-to-peer network to download and fully validate blocks and transactions." %}
 
 ## App Description

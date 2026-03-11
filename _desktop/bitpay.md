@@ -22,7 +22,7 @@ twitter: BitPay
 social:
 - https://www.linkedin.com/company/bitpay-inc-
 builds: 
-features: 
+features:
 - segwit
 - hd
 - multiSig
@@ -31,6 +31,7 @@ features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="segwit" source="[README](https://github.com/bitpay/wallet#readme)" quote="Segwit and native segwit addresses (BECH32) for sending and receiving" %}
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/bitpay/wallet#readme)" quote="BIP32 Hierarchical deterministic (HD) address generation and wallet backups" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/bitpay/wallet#readme)" quote="Intuitive, multisignature capabilities for personal or shared wallets" %}

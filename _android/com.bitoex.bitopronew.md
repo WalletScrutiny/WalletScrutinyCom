@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitoex.bitopronew
 appCountry: 
 released: 2023-08-08
-updated: 2026-01-27
-version: 1.51.13
+updated: 2026-02-26
+version: 1.52.9
 reviews: 
 website: https://www.bitopro.com
 repository: 

@@ -31,13 +31,14 @@ twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 builds: 
-features: 
+features:
 - hd
 - multiSig
 - airGapped
 - secEl
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[Website](https://coldcard.com/)" quote="24-word seed phrase for your BIP39 wallet." %}
 {% include featureEvidence.html feature="multiSig" source="[Website](https://coldcard.com/)" quote="Advanced users can even setup a multisig wallet between multiple cosigners, entirely on-device, and air gapped" %}
 {% include featureEvidence.html feature="airGapped" source="[Website](https://coldcard.com/)" quote="COLDCARD never needs to touch a computer." %}

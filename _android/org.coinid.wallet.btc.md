@@ -28,10 +28,11 @@ redirect_from:
 - /posts/org.coinid.wallet.btc/
 developerName: COINiD Group
 builds: 
-features: 
+features:
 - companion
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 This app does not reveal much information on Google Play but

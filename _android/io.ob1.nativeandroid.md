@@ -27,10 +27,11 @@ redirect_from:
 - /io.ob1.nativeandroid/
 developerName: 
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/OpenBazaar/haven/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update:** [@StevieZollo](https://twitter.com/StevieZollo) sent a

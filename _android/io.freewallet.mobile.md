@@ -28,12 +28,13 @@ redirect_from:
 - /io.freewallet.mobile/
 developerName: Jeremy Johnson
 builds: 
-features: 
+features:
 - foss
 - segwit
 - fingerprint
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/jdogresorg/freewallet-mobile/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 {% include featureEvidence.html feature="segwit" source="[Website](https://freewallet.io)" quote="Supports multiple addresses as well as segwit, importing private keys, and watch-only addresses." %}
 {% include featureEvidence.html feature="fingerprint" source="[Website](https://freewallet.io)" quote="Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security." %}

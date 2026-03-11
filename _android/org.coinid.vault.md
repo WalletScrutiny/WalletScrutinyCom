@@ -28,10 +28,11 @@ redirect_from:
 - /posts/org.coinid.vault/
 developerName: COINiD Group
 builds: 
-features: 
+features:
 - airGapped
 
 ---
+
 {% include featureEvidence.html feature="airGapped" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 This app is the companion app for the

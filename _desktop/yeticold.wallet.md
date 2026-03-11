@@ -30,6 +30,7 @@ features:
 - ownFullNode
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[README](https://github.com/JWWeatherman/yeticold#readme)" quote="Private keys are never on any device with a channel to an Internet connected device except through USB drives." %}
 
 ## Description

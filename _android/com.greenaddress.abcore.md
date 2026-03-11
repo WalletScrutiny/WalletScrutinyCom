@@ -29,10 +29,11 @@ redirect_from:
 - /posts/com.greenaddress.abcore/
 developerName: GreenAddress IT Ltd
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/greenaddress/abcore/blob/master/LICENSE)" quote="The MIT License (MIT)" %}
 
 **Update 2023-09-10**: While Emanuel did find a newer version `v0.77` on

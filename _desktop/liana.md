@@ -35,6 +35,7 @@ features:
 - ownFullNode
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[README](https://github.com/wizardsardine/liana#readme)" quote="The daemon contains the core logic of the wallet. It is both a library (a Rust crate) that exposes a command interface" %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GppkFrcDrk0?si=55vAtVLqM68jyxCp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

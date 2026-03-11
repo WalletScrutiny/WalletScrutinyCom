@@ -9,7 +9,7 @@ appCountry:
 released: 2019-08-08
 updated: 2026-02-12
 version: 2.26.0
-reviews: 167
+reviews: 166
 website: https://www.ballet.com/
 repository: 
 issue: 

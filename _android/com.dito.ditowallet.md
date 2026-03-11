@@ -8,9 +8,9 @@ users: 10000
 appId: com.dito.ditowallet
 appCountry: 
 released: 2023-01-03
-updated: 2026-02-24
-version: 3.0.13
-reviews: 33
+updated: 2026-03-05
+version: 3.0.14
+reviews: 34
 website: https://ditobanx.com/
 repository: 
 issue: 

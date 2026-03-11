@@ -29,10 +29,11 @@ social:
 redirect_from: 
 developerName: ADAMANT Foundation
 builds: 
-features: 
+features:
 - tradeAlts
 
 ---
+
 {% include featureEvidence.html feature="tradeAlts" source="[README](https://github.com/Adamant-im/adamant-im#readme)" quote="ADAMANT Messenger has built-in crypto Exchanger and Adelina, an AI chat assistant based on ChatGPT." %}
 
 *Legacy verification [2024](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/813)*

@@ -10,7 +10,7 @@ appCountry:
 released: 2024-07-01
 updated: 2026-03-03
 version: 1.0.96
-reviews: 9
+reviews: 12
 website: https://vultisig.com
 repository: 
 issue: 

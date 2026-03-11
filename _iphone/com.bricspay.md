@@ -7,7 +7,7 @@ authors:
 appId: com.bricspay
 appCountry: kh
 idd: '6751258985'
-released: '2025-09-01T07:00:00Z'
+released: 2025-09-01
 updated: 2026-01-27
 version: 0.0.14
 reviews: 0

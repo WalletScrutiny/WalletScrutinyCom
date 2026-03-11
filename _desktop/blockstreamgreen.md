@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-05-21
 discontinued: 
-updated: 2026-01-27
-version: 3.0.1
+updated: 2026-03-04
+version: 3.1.0
 binaries: 
 provider: Blockstream
 providerWebsite: https://blockstream.com/

@@ -9,8 +9,8 @@ users: 1000000
 appId: com.roqqu.app
 appCountry: 
 released: 2019-09-30
-updated: 2026-02-26
-version: 2.5.80
+updated: 2026-03-05
+version: 2.5.81
 reviews: 903
 website: https://roqqu.com
 repository: 

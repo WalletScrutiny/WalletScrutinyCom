@@ -33,6 +33,7 @@ features:
 - ownFullNode
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[README](https://github.com/cryptoadvance/specter-desktop#readme)" quote="make a convenient and user-friendly User Interface around Bitcoin Core with a focus on multisignature setup with airgapped signing devices" %}
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/cryptoadvance/specter-desktop#readme)" quote="We also support using the Bitcoin Core as a hot wallet, by importing or generating a random BIP39 mnemonic" %}
 {% include featureEvidence.html feature="coinCtrl" source="[README](https://github.com/cryptoadvance/specter-desktop#readme)" quote="Transactions & UTXOs" %}

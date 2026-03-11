@@ -35,13 +35,14 @@ social:
 - https://www.youtube.com/channel/UCBAbHtt_Uk47csOqMC94dEQ
 - https://medium.com/@Sallet_Atelas
 builds: 
-features: 
+features:
 - airGapped
 - camera
 - hd
 - foss
 
 ---
+
 {% include featureEvidence.html feature="airGapped" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Supports only airgapped, opensource hardware wallets" %}
 {% include featureEvidence.html feature="camera" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Tx transfer only use QR code" %}
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/SalletOne/sallet-one-cold#readme)" quote="Customize standard mnemonic" %}

@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.archgroup.kswappay.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2026-02-02
+date: 2026-03-11
 signer: 
 twitter: 
 social: 

@@ -26,13 +26,14 @@ social:
 redirect_from: 
 developerName: 藤原出帆
 builds: 
-features: 
+features:
 - hd
 - multiSig
 - tradeAlts
 - foss
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/monya-wallet/monya#readme)" quote="BIP44/49 HD Wallet" %}
 {% include featureEvidence.html feature="multiSig" source="[README](https://github.com/monya-wallet/monya#readme)" quote="Multisig Transaction" %}
 {% include featureEvidence.html feature="tradeAlts" source="[README](https://github.com/monya-wallet/monya#readme)" quote="Atomic Swap Trading" %}

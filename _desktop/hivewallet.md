@@ -21,9 +21,10 @@ date: 2024-04-25
 twitter: hive_mac
 social: 
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/hivewallet/hive-mac#readme)" quote="GNU General Public License, version 2 or later" %}
 

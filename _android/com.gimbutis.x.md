@@ -7,8 +7,8 @@ users: 100
 appId: com.gimbutis.x
 appCountry: 
 released: 
-updated: 2026-01-27
-version: 1.6.2
+updated: 2026-03-09
+version: 1.6.3
 reviews: 
 website: https://gimbutiscoin.com/
 repository: 

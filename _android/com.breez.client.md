@@ -42,6 +42,7 @@ features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="bip158spv" source="[README](https://github.com/breez/breezmobile#readme)" quote="Neutrino on Android" %}
 {% include featureEvidence.html feature="TOR" source="[README](https://github.com/breez/breezmobile#readme)" quote="Tor support (Android)" %}
 {% include featureEvidence.html feature="buyWithCC" source="[README](https://github.com/breez/breezmobile#readme)" quote="Adding funds via credit card" %}

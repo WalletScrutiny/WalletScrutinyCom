@@ -10,7 +10,7 @@ appCountry:
 released: 2021-05-06
 updated: 2026-02-18
 version: 3.2.11
-reviews: 1113
+reviews: 1115
 website: https://www.coinme.com
 repository: 
 issue: 

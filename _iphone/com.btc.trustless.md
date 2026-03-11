@@ -24,7 +24,7 @@ signer:
 twitter: 
 social:
 - https://github.com/TrustlessWallet
-features:
+features: 
 developerName: pechen987
 
 ---

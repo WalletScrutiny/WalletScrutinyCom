@@ -23,7 +23,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: INSTIX GLOBAL LLC
+developerName: Web 3 Utility Platform UAB
 builds: 
 features: 
 

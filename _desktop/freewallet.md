@@ -30,6 +30,7 @@ features:
 - tradeAlts
 
 ---
+
 {% include featureEvidence.html feature="fingerprint" source="[Website](https://freewallet.io/)" quote="Add an Password, PIN or thumbprint scan to give your wallet an additional layer of security." %}
 {% include featureEvidence.html feature="foss" source="[Website](https://freewallet.io/)" quote="FreeWallet Desktop is also open-source, and available for anyone to fork or review." %}
 

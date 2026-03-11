@@ -24,15 +24,15 @@ builds:
 - arch: x86_64-linux-gnu
   types:
     deb:
-    - "Wasabi-*.deb"
+    - Wasabi-*.deb
     tarball:
-    - "Wasabi-*-linux-x64.tar.gz"
+    - Wasabi-*-linux-x64.tar.gz
 - arch: win64
   types:
     zip:
-    - "Wasabi-*-win-x64.zip"
+    - Wasabi-*-win-x64.zip
     msi:
-    - "Wasabi-*.msi"
+    - Wasabi-*.msi
 features:
 - TOR
 - batching

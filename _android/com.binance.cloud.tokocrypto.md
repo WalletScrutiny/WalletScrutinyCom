@@ -10,7 +10,7 @@ appCountry: id
 released: 2020-10-19
 updated: 2026-02-24
 version: 2.29.0
-reviews: 55562
+reviews: 55728
 website: https://www.tokocrypto.com
 repository: 
 issue: 

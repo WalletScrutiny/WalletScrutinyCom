@@ -21,7 +21,7 @@ date: 2025-05-19
 twitter: LilyWallet
 social: 
 builds: 
-features: 
+features:
 - ln
 - ownLN
 - ownFullNode
@@ -31,6 +31,7 @@ features:
 - customNode
 
 ---
+
 {% include featureEvidence.html feature="ln" source="[Website](https://lily-wallet.com)" quote="Support for lightning network accounts including channel opening/closing from cold storage." %}
 {% include featureEvidence.html feature="ownLN" source="[README](https://github.com/Lily-Technologies/lily-wallet#readme)" quote="Manage hardware wallets, multisignature vaults, and lightning nodes all in one beautiful interface" %}
 {% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/Lily-Technologies/lily-wallet#readme)" quote="Retrieve blockchain data from your own instance of Electrum Server" %}

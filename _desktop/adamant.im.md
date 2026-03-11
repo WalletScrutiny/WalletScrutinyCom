@@ -21,9 +21,10 @@ date: 2025-08-02
 twitter: adamant_im
 social: 
 builds: 
-features: 
+features:
 - tradeAlts
 
 ---
+
 {% include featureEvidence.html feature="tradeAlts" source="[README](https://github.com/Adamant-im/adamant-im#readme)" quote="ADAMANT Messenger has built-in crypto Exchanger and Adelina, an AI chat assistant based on ChatGPT." %}
 

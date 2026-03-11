@@ -11,7 +11,7 @@ appCountry:
 released: 2019-05-19
 updated: 2026-03-01
 version: 3.2.8
-reviews: 214
+reviews: 212
 website: http://www.walletofsatoshi.com
 repository: 
 issue: 
@@ -34,6 +34,7 @@ developerName: Wallet of Satoshi
 builds: 
 features:
 - ln
+
 ---
 
 ## Update — v3.1.7 Self-Custody Claims Review (2025-10-09)

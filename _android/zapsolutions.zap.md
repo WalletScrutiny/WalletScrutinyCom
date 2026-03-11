@@ -39,6 +39,7 @@ features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="segwit" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Support for Bech32 and P2SH addresses" %}
 {% include featureEvidence.html feature="TOR" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="Tor support" %}
 {% include featureEvidence.html feature="ownLN" source="[README](https://github.com/LN-Zap/zap-android#readme)" quote="it is actually a remote control for one or more of your LND Nodes" %}

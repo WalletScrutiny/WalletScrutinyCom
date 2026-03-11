@@ -12,8 +12,8 @@ users: 1000000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
-updated: 2026-02-23
-version: 7.2.6
+updated: 2026-03-03
+version: 7.2.7
 reviews: 372
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
@@ -48,6 +48,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[Website](https://bluewallet.io)" quote="Recover on another wallet" %}
 {% include featureEvidence.html feature="multiAccount" source="[Website](https://bluewallet.io)" quote="Plausible Deniability Create multiple storages or fake ones in case of a forced disclosure." %}
 {% include featureEvidence.html feature="companion" source="[Website](https://bluewallet.io)" quote="Watch-only Wallets Easily connect to your hardware wallet and manage your cold storage." %}

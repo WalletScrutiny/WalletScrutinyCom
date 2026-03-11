@@ -9,8 +9,8 @@ appId: com.kcex
 appCountry: 
 released: 2023-12-21
 updated: 2026-02-28
-version: 2.0.7
-reviews: 345
+version: 2.0.8
+reviews: 344
 website: https://www.kcex.com/
 repository: 
 issue: 

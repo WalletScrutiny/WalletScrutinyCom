@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2026-02-09
-version: 2.3.8
+updated: 2026-03-04
+version: 2.3.10
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -41,11 +41,11 @@ builds:
 - arch: arm
   types:
     cypherpunk:
-    - "keystone3.bin"
+    - keystone3.bin
     multi:
-    - "keystone3.bin"
+    - keystone3.bin
     btc-only:
-    - "keystone3.bin"
+    - keystone3.bin
 features:
 - airGapped
 - camera

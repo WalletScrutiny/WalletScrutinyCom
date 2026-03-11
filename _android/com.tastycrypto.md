@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.tastycrypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2025-12-16
+date: 2026-03-11
 signer: 
 twitter: tastycrypto
 social:

@@ -8,9 +8,9 @@ users: 10000
 appId: tech.coinflip
 appCountry: 
 released: 2024-08-19
-updated: 2025-12-11
-version: 3.10.1
-reviews: 83
+updated: 2026-03-04
+version: 4.0.0
+reviews: 84
 website: https://coinflip.tech/
 repository: 
 issue: 

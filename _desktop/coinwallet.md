@@ -31,8 +31,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="foss" quote="License" source="GitHub README" comment="The README badge links to the LICENSE file, but the License source returned 404: Not Found. Cannot confirm the license type or that it is OSI-approved without the actual license text." %}
 
 {% include featureEvidence.html feature="TOR" quote="Supported platforms: - Web - iOS - Android - macOS - Windows - Linux - Tor" source="GitHub README" %}

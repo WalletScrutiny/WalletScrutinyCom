@@ -36,6 +36,7 @@ features:
 developerName: Denton LLC
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[App Store](https://apps.apple.com/app/com.fontaine.FullyNoded)" quote="you can add any BIP39 recovery phrase and it will recover all of the popular wallets for you." %}
 {% include featureEvidence.html feature="companion" source="[App Store](https://apps.apple.com/app/com.fontaine.FullyNoded)" quote="using your Coldcard as a watch-only or multisig wallet powered by your own node has never been easier." %}
 

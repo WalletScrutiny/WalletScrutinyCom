@@ -34,6 +34,7 @@ features:
 developerName: Block, Inc.
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[Website](https://bitkey.world)" quote="one on your Bitkey device and one in the app . A third is encrypted on a server" %}
 
 {% include copyFromAndroid.html %}

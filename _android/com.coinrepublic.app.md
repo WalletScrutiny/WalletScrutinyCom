@@ -8,8 +8,8 @@ users: 5000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02
-updated: 2026-02-15
-version: 4.0.6
+updated: 2026-03-10
+version: 4.1.2
 reviews: 
 website: https://www.coinrepublic.com.au/
 repository: 

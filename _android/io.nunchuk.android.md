@@ -43,6 +43,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="ownFullNode" source="[Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android)" quote="Connect to your own full node." %}
 {% include featureEvidence.html feature="customNode" source="[Play Store](https://play.google.com/store/apps/details?id=io.nunchuk.android)" quote="Connect to your own full node." %}
 

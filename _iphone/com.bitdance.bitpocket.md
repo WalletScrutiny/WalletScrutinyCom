@@ -8,8 +8,8 @@ appId: com.bitdance.bitpocket
 appCountry: au
 idd: '6746639763'
 released: 2025-06-14
-updated: 2026-01-23
-version: 1.3.18
+updated: 2026-02-25
+version: 1.3.19
 reviews: 0
 website: 
 repository: 

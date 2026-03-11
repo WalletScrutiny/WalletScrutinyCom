@@ -10,7 +10,7 @@ appCountry:
 released: 2025-04-29
 updated: 2026-03-01
 version: 3.21.0
-reviews: 71
+reviews: 72
 website: https://www.unixcrypto.net
 repository: 
 issue: 

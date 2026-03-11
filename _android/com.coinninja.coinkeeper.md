@@ -36,6 +36,7 @@ features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[License](https://github.com/coinninjadev/dropbit-android/blob/master/LICENSE)" quote="MIT License" %}
 
 **Update 2021-07-21**: Our issues on the repository got no reply, the server's

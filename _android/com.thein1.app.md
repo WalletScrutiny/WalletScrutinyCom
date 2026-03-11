@@ -8,8 +8,8 @@ users: 50000
 appId: com.thein1.app
 appCountry: 
 released: 
-updated: 2026-02-11
-version: 0.9.10
+updated: 2026-03-05
+version: 0.9.11
 reviews: 
 website: https://www.in1.io
 repository: 

@@ -37,6 +37,7 @@ features:
 developerName: Island Bitcoin
 
 ---
+
 {% include featureEvidence.html feature="buyWithCC" source="[Website](https://getflash.io)" quote="Buy Bitcoin" %}
 {% include featureEvidence.html feature="liquid" source="[README](https://github.com/lnflash/flash-mobile#readme)" quote="Seamless integration with Liquid sidechain functionality" %}
 

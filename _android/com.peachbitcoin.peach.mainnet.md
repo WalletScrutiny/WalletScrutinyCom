@@ -8,7 +8,7 @@ users: 10000
 appId: com.peachbitcoin.peach.mainnet
 appCountry: 
 released: 
-updated: 2026-03-02
+updated: 2026-03-05
 version: 0.69.0
 reviews: 
 website: https://peachbitcoin.com
@@ -18,17 +18,17 @@ icon: com.peachbitcoin.peach.mainnet.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-appHashes:
+appHashes: 
 date: 2025-11-26
-signer:
+signer: 
 twitter: peachbitcoin
 social:
 - https://t.me/peachtopeach
 - https://discord.com/invite/ypeHz3SW54
 - https://snort.social/p/npub15369wu3wzzar5fclhecyqfv683x69n6nhlg7rxqnsg2dydgxflpq3apswl
-redirect_from:
+redirect_from: 
 developerName: Peach Bitcoin
-builds:
+builds: 
 features:
 - coinCtrl
 - customNode

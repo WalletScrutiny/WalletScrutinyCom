@@ -21,9 +21,10 @@ date: 2024-05-09
 twitter: fiatjaf
 social: 
 builds: 
-features: 
+features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="ln" source="[README](https://github.com/fiatjaf/lntxbot#readme)" quote="download and place cliche.jar to ${HOME} folder" %}
 

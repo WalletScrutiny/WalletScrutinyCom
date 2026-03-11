@@ -21,9 +21,10 @@ date: 2024-04-25
 twitter: KronosWallet
 social: 
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/metaspartan/kronos#readme)" quote="The MIT License (MIT)" %}
 

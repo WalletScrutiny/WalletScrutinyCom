@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-09-02
 discontinued: 
-updated: 2026-02-17
-version: 2.4.1
+updated: 2026-03-10
+version: 2.4.2
 binaries: 
 provider: Craig Raw
 providerWebsite: 
@@ -24,9 +24,9 @@ builds:
 - arch: x86_64-linux-gnu
   types:
     tarball:
-    - "*-x86_64.tar.gz"
+    - '*-x86_64.tar.gz'
     deb:
-    - "*_amd64.deb"
+    - '*_amd64.deb'
 features:
 - airGapped
 - companion
@@ -41,6 +41,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="airGapped" source="[Website](https://www.sparrowwallet.com)" quote="Support for all common hardware wallets in USB and airgapped modes" %}
 {% include featureEvidence.html feature="companion" source="[Website](https://www.sparrowwallet.com)" quote="Support for all common hardware wallets in USB and airgapped modes" %}
 

@@ -10,7 +10,7 @@ idd: '1565673730'
 released: 2021-05-10
 updated: 2024-11-26
 version: 1.0.70
-reviews: 51
+reviews: 52
 website: https://vizo.app
 repository: 
 issue: 

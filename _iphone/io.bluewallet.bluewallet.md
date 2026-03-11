@@ -38,6 +38,7 @@ features:
 developerName: Bluewallet Services, S. R. L.
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[Website](https://bluewallet.io)" quote="Sign a transaction offline" %}
 
 {% include copyFromAndroid.html %}

@@ -22,7 +22,7 @@ twitter: armory
 social:
 - mailto:contact@bitcoinarmory.com
 builds: 
-features: 
+features:
 - foss
 - multiSig
 - airGapped
@@ -31,6 +31,7 @@ features:
 - companion
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/goatpig/BitcoinArmory#readme)" quote="GNU Affero General Public License (AGPL v3)" %}
 {% include featureEvidence.html feature="multiSig" source="[Website](https://www.bitcoinarmory.com)" quote="multi-signature addresses are available using Lockboxes in a completely distributed way" %}
 {% include featureEvidence.html feature="airGapped" source="[Website](https://www.bitcoinarmory.com)" quote="Bitcoin cold storage is a system for securely storing Bitcoins on a completely air-gapped offline computer." %}

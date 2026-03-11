@@ -9,7 +9,7 @@ appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
 updated: 2026-02-25
-version: 11.0.0
+version: 11.1.0
 reviews: 42
 website: https://www.xapobank.com/
 repository: 

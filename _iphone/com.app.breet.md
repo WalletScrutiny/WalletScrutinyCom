@@ -8,9 +8,9 @@ appId: com.app.breet
 appCountry: us
 idd: '1609711640'
 released: 2022-03-04
-updated: 2026-02-05
-version: 7.2.2
-reviews: 1077
+updated: 2026-03-02
+version: 7.2.3
+reviews: 1107
 website: https://breet.io
 repository: 
 issue: 

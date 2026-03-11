@@ -21,10 +21,11 @@ date: 2025-04-07
 twitter: openbazaar
 social: 
 builds: 
-features: 
+features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/OpenBazaar/openbazaar-desktop#readme)" quote="MIT License" %}
 
 ## Analysis

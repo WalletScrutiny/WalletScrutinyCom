@@ -8,8 +8,8 @@ users: 100000
 appId: com.robinhood.global
 appCountry: 
 released: 
-updated: 2026-02-27
-version: 2026.9.2
+updated: 2026-03-03
+version: 2026.10.1
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 

@@ -33,8 +33,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="foss" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" source="GitHub README" %}
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trading cryptocurrencies through our partners." source="GitHub README" %}

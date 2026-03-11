@@ -42,9 +42,9 @@ builds:
 - arch: arm
   types:
     mono:
-    - "*-passport.bin"
+    - '*-passport.bin'
     color:
-    - "*-passport.bin"
+    - '*-passport.bin'
 features:
 - airGapped
 - camera

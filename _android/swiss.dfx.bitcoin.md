@@ -26,6 +26,7 @@ social:
 - https://www.linkedin.com/company/dfxswiss
 redirect_from: 
 developerName: DFX AG
+builds: 
 features:
 - ln
 - ownLN
@@ -35,6 +36,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="ln" source="[README](https://github.com/DFXswiss/btc-wallet#readme)" quote="Lightning Network supported" %}
 {% include featureEvidence.html feature="ownLN" source="Review" quote="connect to an external Lightning service (e.g., DFX.swiss or lightning.space) and manage Lightning funds through provider-issued credentials" %}
 {% include featureEvidence.html feature="multiSig" source="[Website](https://dfx.swiss/)" quote="Eine self-custody Bitcoin-Wallet mit Lightning und Multisig Feature – für Unternehmen und private Nutzer" %}

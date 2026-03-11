@@ -10,7 +10,7 @@ appCountry:
 released: 2016-07-24
 updated: 2026-01-17
 version: 8.8.6
-reviews: 514
+reviews: 515
 website: https://remitano.com
 repository: 
 issue: 

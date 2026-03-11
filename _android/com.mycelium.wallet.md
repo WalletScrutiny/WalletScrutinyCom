@@ -44,6 +44,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://wallet.mycelium.com)" quote="In-app exchange and trading" %}
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.

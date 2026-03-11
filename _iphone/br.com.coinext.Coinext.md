@@ -8,9 +8,9 @@ appId: br.com.coinext.Coinext
 appCountry: br
 idd: '1448731340'
 released: 2019-01-27
-updated: 2026-02-19
-version: 2.32.1
-reviews: 4920
+updated: 2026-03-09
+version: 2.33.2
+reviews: 4927
 website: https://coinext.com.br/
 repository: 
 issue: 

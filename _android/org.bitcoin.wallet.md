@@ -27,10 +27,11 @@ social:
 redirect_from: 
 developerName: 
 builds: 
-features: 
+features:
 - hd
 
 ---
+
 {% include featureEvidence.html feature="hd" source="[README](https://github.com/bitcoin-dot-org/BitcoinWalletMobile#readme)" quote="BIP-39 mnemonic 12 word seed" %}
 
 **Update 2021-06-16**: It's been

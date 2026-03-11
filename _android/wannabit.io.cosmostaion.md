@@ -10,7 +10,7 @@ appCountry:
 released: 2019-03-17
 updated: 2026-02-10
 version: 1.10.47
-reviews: 136
+reviews: 137
 website: https://cosmostation.io
 repository: https://github.com/cosmostation/cosmostation-android
 issue: https://github.com/cosmostation/cosmostation-android/issues/729
@@ -27,6 +27,7 @@ social:
 - https://www.youtube.com/@cosmostationio
 redirect_from: 
 developerName: Stamper
+builds: 
 features:
 - foss
 - hd

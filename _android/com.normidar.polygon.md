@@ -7,8 +7,8 @@ users: 10000
 appId: com.normidar.polygon
 appCountry: 
 released: 2025-08-16
-updated: 2026-02-26
-version: 1.3.1
+updated: 2026-02-28
+version: 1.3.2
 reviews: 4
 website: 
 repository: 

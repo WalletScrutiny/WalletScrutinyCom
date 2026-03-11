@@ -8,8 +8,8 @@ users: 10000
 appId: xyz.ctrl.wallet
 appCountry: 
 released: 2024-11-29
-updated: 2026-02-17
-version: 3.2.0
+updated: 2026-03-02
+version: 3.3.1
 reviews: 4
 website: https://ctrl.xyz
 repository: 

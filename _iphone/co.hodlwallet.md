@@ -25,13 +25,14 @@ signer:
 twitter: hodlwallet
 social:
 - https://www.facebook.com/hodlwallet
-features: 
+features:
 - secEl
 - foss
 - customNode
 developerName: Hodl Wallet Inc
 
 ---
+
 {% include featureEvidence.html feature="secEl" source="[README](https://github.com/hodlwallet/hodl-wallet-ios#readme)" quote="Private keys are stored only in the secure enclave of the user's phone, inaccessible to anyone other than the user." %}
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/hodlwallet/hodl-wallet-ios#readme)" quote="MIT license" %}
 {% include featureEvidence.html feature="customNode" source="[Website](https://hodlwallet.com)" quote="Advanced users can point HODL Wallet directly to their own Bitcoin node." %}

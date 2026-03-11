@@ -28,6 +28,7 @@ features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="MIT License" %}
 {% include featureEvidence.html feature="ownLN" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="connect to a custom lnd instance" %}
 {% include featureEvidence.html feature="ownFullNode" source="[README](https://github.com/LN-Zap/zap-desktop#readme)" quote="run a full bitcoin node" %}

@@ -10,7 +10,7 @@ appCountry:
 released: 2015-01-23
 updated: 2026-02-22
 version: '4.45'
-reviews: 2164
+reviews: 2165
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 issue: 

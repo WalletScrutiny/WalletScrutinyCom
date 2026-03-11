@@ -33,6 +33,7 @@ features:
 developerName: 
 
 ---
+
 {% include featureEvidence.html feature="segwit" source="[README](https://github.com/LN-Zap/zap-iOS#readme)" quote="Support for Bech32 and P2SH addresses" %}
 {% include featureEvidence.html feature="ownLN" source="[README](https://github.com/LN-Zap/zap-iOS#readme)" quote="Connect to remote Lnd node" %}
 {% include featureEvidence.html feature="customNode" source="[README](https://github.com/LN-Zap/zap-iOS#readme)" quote="Connect to BTCPay Server" %}

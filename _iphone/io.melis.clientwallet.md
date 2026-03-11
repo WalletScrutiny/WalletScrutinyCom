@@ -23,7 +23,7 @@ date: 2024-03-02
 signer: 
 twitter: 
 social: 
-features: 
+features:
 - foss
 - fingerprint
 - camera
@@ -32,6 +32,7 @@ features:
 developerName: Melis s.r.l.
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="the Melis Wallet itself is completely free and open source under the MIT License" %}
 {% include featureEvidence.html feature="fingerprint" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="fingerprint unlock" %}
 {% include featureEvidence.html feature="camera" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="camera and barcode scanner" %}

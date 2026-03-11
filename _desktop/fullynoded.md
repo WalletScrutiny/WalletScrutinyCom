@@ -21,7 +21,7 @@ date: 2024-04-25
 twitter: FullyNoded
 social: 
 builds: 
-features: 
+features:
 - ln
 - ownLN
 - TOR
@@ -32,6 +32,7 @@ features:
 - companion
 
 ---
+
 {% include featureEvidence.html feature="ln" source="[README](https://github.com/Fonta1n3/FullyNoded#readme)" quote="C-Lightning and LND compatible for instant, unfairly cheap payments." %}
 {% include featureEvidence.html feature="ownLN" source="[Website](https://fullynoded.app/)" quote="utilize your own personal node (Bitcoin Core, Core Lightning, Join Market and PayJoin over Nostr)" %}
 {% include featureEvidence.html feature="TOR" source="[Website](https://fullynoded.app/)" quote="Multisig, air gapped signing, HWW functionality, native PSBT support, integrated Tor" %}

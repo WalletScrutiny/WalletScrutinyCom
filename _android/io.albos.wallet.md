@@ -7,8 +7,8 @@ users: 500
 appId: io.albos.wallet
 appCountry: 
 released: 2019-07-01
-updated: 2025-11-01
-version: 2.5.0
+updated: 2026-03-04
+version: 2.5.1
 reviews: 
 website: http://www.albos.io/
 repository: 

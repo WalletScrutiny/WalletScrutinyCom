@@ -1,6 +1,6 @@
 ---
 wsId: atomCryptoBitcoinWallet
-title: 'Atom: Crypto & Bitcoin Wallet'
+title: 'Atom: Crypto & USDT Wallet'
 altTitle: 
 authors:
 - danny

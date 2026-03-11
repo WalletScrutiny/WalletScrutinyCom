@@ -8,8 +8,8 @@ users: 50000
 appId: com.coinzoom.android
 appCountry: 
 released: 2022-03-25
-updated: 2026-02-05
-version: 1.2.1.6514
+updated: 2026-03-04
+version: 1.2.1.6540
 reviews: 120
 website: https://www.coinzoom.com
 repository: 

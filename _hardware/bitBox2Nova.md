@@ -36,9 +36,9 @@ builds:
 - arch: arm
   types:
     btc-only:
-    - "firmware-bitbox02nova-btconly.*.signed.bin"
+    - firmware-bitbox02nova-btconly.*.signed.bin
     multi:
-    - "firmware-bitbox02nova-multi.*.signed.bin"
+    - firmware-bitbox02nova-multi.*.signed.bin
 features:
 - foss
 - hd

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.coincatch.global.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-01
+date: 2026-03-11
 signer: 
 twitter: coincatchcom
 social:

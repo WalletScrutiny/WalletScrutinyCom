@@ -8,9 +8,9 @@ appId: app.phantom
 appCountry: us
 idd: '1598432977'
 released: 2022-01-30
-updated: 2026-02-23
-version: 26.6.0
-reviews: 55446
+updated: 2026-03-03
+version: 26.7.0
+reviews: 56177
 website: https://phantom.com
 repository: 
 issue: 

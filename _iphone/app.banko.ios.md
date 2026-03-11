@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: app.banko.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-09-19
+date: 2026-03-11
 signer: 
 twitter: 
 social: 

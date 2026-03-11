@@ -10,7 +10,7 @@ idd: '1476837869'
 released: 2019-10-21
 updated: 2025-12-08
 version: 5.3.3
-reviews: 7371
+reviews: 7374
 website: https://bitbuy.ca/
 repository: 
 issue: 

@@ -9,9 +9,9 @@ users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31
-updated: 2026-01-15
+updated: 2026-03-02
 version: 2.18.0
-reviews: 241
+reviews: 240
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97

@@ -39,6 +39,7 @@ features:
 - foss
 
 ---
+
 {% include featureEvidence.html feature="hd" source="Review" quote="A 12-word mnemonic phrase is provided during startup." %}
 {% include featureEvidence.html feature="tradeAlts" source="[Play Store](https://play.google.com/store/apps/details?id=cash.p.terminal)" quote="Includes built-in onchain DEX, institutional-grade analytics for crypto and NFT markets" %}
 {% include featureEvidence.html feature="secEl" source="[Play Store](https://play.google.com/store/apps/details?id=cash.p.terminal)" quote="private keys are securely generated and stored directly on the card, never exposed or saved anywhere" %}

@@ -6,8 +6,8 @@ authors:
 - leo
 released: 
 discontinued: 
-updated: 
-version: 
+updated: 2019-09-26
+version: 0.11.5
 binaries: 
 dimensions: 
 weight: 

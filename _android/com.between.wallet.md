@@ -8,8 +8,8 @@ users: 1000
 appId: com.between.wallet
 appCountry: 
 released: 2025-04-22
-updated: 2026-02-17
-version: 1.1.18
+updated: 2026-03-05
+version: 1.2.0
 reviews: 
 website: https://betweenbits.io/
 repository: 

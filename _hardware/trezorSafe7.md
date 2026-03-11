@@ -36,9 +36,9 @@ builds:
 - arch: arm
   types:
     btc-only:
-    - "trezor-t3w1-*-bitcoinonly.bin"
+    - trezor-t3w1-*-bitcoinonly.bin
     universal:
-    - "trezor-t3w1-*.bin"
+    - trezor-t3w1-*.bin
 features:
 - foss
 - hd

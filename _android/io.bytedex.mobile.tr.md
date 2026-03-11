@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-04-01
+date: 2026-03-11
 signer: 
 twitter: byteexchange
 social:

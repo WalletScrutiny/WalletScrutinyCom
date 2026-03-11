@@ -31,10 +31,11 @@ redirect_from:
 - /posts/fr.acinq.eclair.wallet.mainnet2/
 developerName: ACINQ
 builds: 
-features: 
+features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="ln" source="[README](https://github.com/ACINQ/eclair-mobile#readme)" quote="Eclair Mobile is a next generation, Lightning-ready Bitcoin wallet." %}
 
 ## Update 2024-01-22

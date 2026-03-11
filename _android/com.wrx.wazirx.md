@@ -11,7 +11,7 @@ appCountry: in
 released: 2018-07-16
 updated: 2026-02-24
 version: 3.12.1
-reviews: 125390
+reviews: 125438
 website: https://wazirx.com
 repository: 
 issue: 

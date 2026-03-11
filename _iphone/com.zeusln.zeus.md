@@ -38,6 +38,7 @@ features:
 developerName: Atlas 21 Inc.
 
 ---
+
 {% include featureEvidence.html feature="customNode" source="[README](https://github.com/ZeusLN/zeus#readme)" quote="Connect to LND or Core Lightning remote node" %}
 
 This app is a bit special as it does not hold your private keys but neither is

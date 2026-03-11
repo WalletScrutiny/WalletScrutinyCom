@@ -29,8 +29,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="hd" quote="Multifunctional HD wallet OWNR Wallet is a multi-asset non-custodial cryptowallet where you can easily and securely exchange, withdraw and store digital currency." source="Website" %}
 
 {% include featureEvidence.html feature="segwit" quote="SegWit Add SegWit addresses for swifter transactions and lower fees" source="Website" %}

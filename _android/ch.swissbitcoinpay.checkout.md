@@ -38,6 +38,7 @@ features:
 - ln
 
 ---
+
 {% include featureEvidence.html feature="nfc" source="[README](https://github.com/SwissBitcoinPay/app#readme)" quote="BoltCard support" %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/97657556fba10b8ce60e568af1e2729166ad419b/_android/ch.swissbitcoinpay.checkout.md)*

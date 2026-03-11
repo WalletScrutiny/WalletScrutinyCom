@@ -10,7 +10,7 @@ idd: '6736860332'
 released: 2025-02-10
 updated: 2026-02-14
 version: 1.1.20
-reviews: 2
+reviews: 3
 website: https://www.allinx.io
 repository: 
 issue: 

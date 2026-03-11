@@ -16,11 +16,11 @@ repository: https://github.com/TrustlessWallet/Trustless
 issue: 
 icon: com.btc.trustless.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes:
 - fe451e1b9e3c42d183c3243802bf1bd1d8b90784b7ba7b12f12f583eb7c71640
-date: 2026-02-03
+date: 2026-03-11
 signer: 
 twitter: 
 social:
@@ -28,7 +28,7 @@ social:
 redirect_from: 
 developerName: pechen987
 builds: 
-features:
+features: 
 
 ---
 

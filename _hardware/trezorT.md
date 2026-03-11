@@ -40,9 +40,9 @@ builds:
 - arch: arm
   types:
     btc-only:
-    - "trezor-t2t1-*-bitcoinonly.bin"
+    - trezor-t2t1-*-bitcoinonly.bin
     universal:
-    - "trezor-t2t1-*.bin"
+    - trezor-t2t1-*.bin
 features:
 - selfBuild
 - TOR

@@ -29,7 +29,7 @@ social:
 redirect_from: 
 developerName: Light Labs Ltd
 builds: 
-features:
+features: 
 
 ---
 

@@ -8,9 +8,9 @@ users: 100000
 appId: com.hashkeypro.exchange
 appCountry: 
 released: 2023-11-01
-updated: 2026-02-06
-version: 1.70.0
-reviews: 29
+updated: 2026-03-10
+version: 1.72.0
+reviews: 30
 website: https://www.hashkey.com/
 repository: 
 issue: 

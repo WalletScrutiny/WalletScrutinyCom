@@ -8,8 +8,8 @@ users: 1000
 appId: com.deffio.app
 appCountry: 
 released: 2025-03-14
-updated: 2025-12-19
-version: 1.6.1
+updated: 2026-03-09
+version: 1.7.0
 reviews: 
 website: https://deffio.com/wallet
 repository: 

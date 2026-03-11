@@ -1,16 +1,3 @@
-2026-02-20:
-- _android/com.app.unitic
-- _android/com.archgroup.kswappay
-- _android/com.bitcoinglobal
-- _android/com.btc.trustless
-- _android/com.coincatch.exchange
-- _iphone/app.banko.ios
-- _android/com.qm.bitdata.bitexotc
-- _android/com.taotao_ex.android
-- _android/com.xfr.xtrade
-- _android/io.kasta.app
-- _iphone/com.bitnovo.Wallet
-- _iphone/com.coincatch.global
 2026-03-03:
 - _android/com.Queper.AXACTPAY
 - _android/com.barongxtrade.users
@@ -25,3 +12,9 @@
 - _android/io.rapidz.rapidzcheckout
 - _iphone/app.simple.com
 - _iphone/co.busha.apple
+2026-03-11:
+- _android/com.blocktrade.android
+- _android/com.lulubit
+- _android/com.stablex
+- _android/github.aeonbtc.ibiswallet
+- _iphone/com.app.orbitnetwork

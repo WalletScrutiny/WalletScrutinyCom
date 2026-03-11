@@ -42,6 +42,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="airGapped" source="[README](https://github.com/SatoshiPortal/bullbitcoin-mobile#readme)" quote="Users can create PSBTs from watch-only wallets for offline signing." %}
 
 *Legacy verification [here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/70ce7b498aeab3be2a67c6dea8d300b6ea4b0257/_android/com.bullbitcoin.mobile.md)*

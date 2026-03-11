@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-14
 updated: 2026-02-26
 version: 2.1.9
-reviews: 323
+reviews: 326
 website: https://www.toobit.com
 repository: 
 issue: 

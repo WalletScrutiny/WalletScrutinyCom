@@ -21,10 +21,11 @@ date: 2025-06-03
 twitter: 
 social: 
 builds: 
-features: 
+features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="segwit" source="[README](https://github.com/Overtorment/cli-cold-wallet#readme)" quote="Bitcoin (SegWit suported) or Ethereum" %}
 
 ## App Description

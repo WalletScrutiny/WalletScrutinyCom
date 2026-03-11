@@ -8,9 +8,9 @@ users: 100000
 appId: com.kraken.superwallet
 appCountry: 
 released: 2024-04-11
-updated: 2026-01-12
-version: 1.25.0 (4)
-reviews: 114
+updated: 2026-03-05
+version: 1.26.0 (5)
+reviews: 116
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: https://github.com/krakenfx/wallet/discussions/59
@@ -36,6 +36,7 @@ features:
 - hd
 
 ---
+
 {% include featureEvidence.html feature="multiAccount" source="[Play Store](https://play.google.com/store/apps/details?id=com.kraken.superwallet)" quote="Multiple wallets, one seed phrase: Manage multiple wallets for different purposes using a single, secure seed phrase." %}
 
 Kraken Superwallet is a self-custodial cryptocurrency wallet designed for securely managing digital assets, NFTs, and decentralized finance (DeFi) holdings. It supports multiple blockchain networks, enabling users to store, send, and receive Bitcoin, Ethereum, Solana, Dogecoin, Polygon, and other cryptocurrencies.

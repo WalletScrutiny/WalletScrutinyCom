@@ -26,11 +26,11 @@ builds:
 - arch: x86_64-linux
   types:
     standalone:
-    - "Ginger-*-linux-x64.zip"
+    - Ginger-*-linux-x64.zip
 - arch: x86_64-windows
   types:
     standalone:
-    - "Ginger-*.msi"
+    - Ginger-*.msi
 features:
 - camera
 - TOR
@@ -41,6 +41,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="camera" source="[Website](https://gingerwallet.io)" quote="Enjoy advanced features like CoinJoin with the default coordinator, 2FA with wallet encryption, multilingual support, block filters, Tor integration, and QR code functionality." %}
 
 ## App Description

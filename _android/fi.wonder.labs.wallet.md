@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: fi.wonder.labs.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2026-01-14
+date: 2026-03-11
 signer: 
 twitter: 
 social: 

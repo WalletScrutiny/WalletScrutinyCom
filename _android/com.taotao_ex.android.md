@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.taotao_ex.android.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-02-26
+date: 2026-03-11
 signer: 
 twitter: sbivc_official
 social:

@@ -35,6 +35,7 @@ features:
 developerName: Blockstream
 
 ---
+
 {% include featureEvidence.html feature="companion" source="[App Store](https://apps.apple.com/app/io.blockstream.green)" quote="Pair with Blockstream Jade for ultimate security of your private keys." %}
 
 The description in the App Store is not explicit about the app being

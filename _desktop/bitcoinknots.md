@@ -24,38 +24,39 @@ builds:
 - arch: x86_64-linux
   types:
     tarball:
-    - "bitcoin-*-x86_64-linux-gnu.tar.gz"
+    - bitcoin-*-x86_64-linux-gnu.tar.gz
 - arch: aarch64-linux
   types:
     tarball:
-    - "bitcoin-*-aarch64-linux-gnu.tar.gz"
+    - bitcoin-*-aarch64-linux-gnu.tar.gz
 - arch: arm-linux
   types:
     tarball:
-    - "bitcoin-*-arm-linux-gnueabihf.tar.gz"
+    - bitcoin-*-arm-linux-gnueabihf.tar.gz
 - arch: powerpc64-linux
   types:
     tarball:
-    - "bitcoin-*-powerpc64-linux-gnu.tar.gz"
+    - bitcoin-*-powerpc64-linux-gnu.tar.gz
 - arch: powerpc64le-linux
   types:
     tarball:
-    - "bitcoin-*-powerpc64le-linux-gnu.tar.gz"
+    - bitcoin-*-powerpc64le-linux-gnu.tar.gz
 - arch: riscv64-linux
   types:
     tarball:
-    - "bitcoin-*-riscv64-linux-gnu.tar.gz"
+    - bitcoin-*-riscv64-linux-gnu.tar.gz
 - arch: x86_64-windows
   types:
     zip:
-    - "bitcoin-*-win64-pgpverifiable.zip"
+    - bitcoin-*-win64-pgpverifiable.zip
     setup:
-    - "bitcoin-*-win64-setup-pgpverifiable.exe"
+    - bitcoin-*-win64-setup-pgpverifiable.exe
 features:
 - ownFullNode
 - foss
 
 ---
+
 {% include featureEvidence.html feature="ownFullNode" source="[Website](https://bitcoinknots.org)" quote="Bitcoin node and wallet in one." %}
 
 ## App Description

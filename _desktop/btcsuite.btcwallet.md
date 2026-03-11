@@ -30,8 +30,6 @@ features:
 
 ---
 
-
-
 {% include featureEvidence.html feature="hd" quote="Public and private keys are derived using the hierarchical deterministic format described by BIP0032." source="GitHub README" %}
 
 {% include featureEvidence.html feature="multiAccount" quote="btcwallet uses the m/44'/<coin type>'/<account>'/<branch>/<address index> HD path for all derived addresses, as described by BIP0044." source="GitHub README" %}

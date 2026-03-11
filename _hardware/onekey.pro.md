@@ -38,7 +38,7 @@ builds:
 - arch: arm
   types:
     onekeypro:
-    - "pro.*.signed.bin"
+    - pro.*.signed.bin
 features: 
 
 ---

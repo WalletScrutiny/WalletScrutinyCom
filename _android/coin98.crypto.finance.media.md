@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: Coin98 Super Wallet
+title: 'Coin98: Trade Crypto & Stocks'
 altTitle: 
 authors:
 - kiwilamb

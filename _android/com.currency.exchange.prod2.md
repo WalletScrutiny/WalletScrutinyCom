@@ -9,8 +9,8 @@ users: 1000000
 appId: com.currency.exchange.prod2
 appCountry: 
 released: 2019-04-15
-updated: 2026-01-14
-version: 2.18.10
+updated: 2026-03-04
+version: 2.18.19
 reviews: 1
 website: http://dzengi.com
 repository: 

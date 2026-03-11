@@ -8,8 +8,8 @@ users: 100000
 appId: io.unisat
 appCountry: 
 released: 2024-03-16
-updated: 2026-02-12
-version: 1.7.10
+updated: 2026-03-07
+version: 1.7.11
 reviews: 18
 website: https://unisat.io/
 repository: 

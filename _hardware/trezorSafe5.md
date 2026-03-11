@@ -42,9 +42,9 @@ builds:
 - arch: arm
   types:
     btc-only:
-    - "trezor-t3t1-*-bitcoinonly.bin"
+    - trezor-t3t1-*-bitcoinonly.bin
     universal:
-    - "trezor-t3t1-*.bin"
+    - trezor-t3t1-*.bin
 features: 
 
 ---

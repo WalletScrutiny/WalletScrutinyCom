@@ -29,6 +29,7 @@ features:
 - multiSig
 
 ---
+
 {% include featureEvidence.html feature="TOR" source="[Website](https://bisq.network)" quote="Every Bisq node is a Tor hidden service by default." %}
 {% include featureEvidence.html feature="tradeAlts" source="[Website](https://bisq.network)" quote="Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely" %}
 {% include featureEvidence.html feature="ownFullNode" source="Review" quote="Integration with Bitcoin Core (full node) and light wallet options" %}

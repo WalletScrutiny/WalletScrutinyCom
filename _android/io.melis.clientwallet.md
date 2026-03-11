@@ -28,7 +28,7 @@ redirect_from:
 - /posts/io.melis.clientwallet/
 developerName: Melis
 builds: 
-features: 
+features:
 - foss
 - multiSig
 - multiAccount
@@ -36,6 +36,7 @@ features:
 - camera
 
 ---
+
 {% include featureEvidence.html feature="foss" source="[README](https://github.com/melis-wallet/melis-cm-client#readme)" quote="MIT License" %}
 {% include featureEvidence.html feature="multiSig" source="[Website](https://www.melis.io)" quote="You can set custom scheme to multi-signature accounts (N of M signatures) and create shared accounts on multiple wallets" %}
 {% include featureEvidence.html feature="multiAccount" source="[Website](https://www.melis.io)" quote="You can activate several accounts with different features within the same wallet." %}

@@ -44,6 +44,7 @@ features:
 - segwit
 
 ---
+
 {% include featureEvidence.html feature="secEl" source="[README](https://github.com/airgap-it/airgap-vault#readme)" quote="The generated secret is saved in the secure enclave of the device, only accessible by biometric authentication." %}
 
 *Legacy Verification [2025](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/d8575278b7f76b7f4de79839d4269aedbdba3100/_android/it.airgap.vault.md)*
