@@ -255,7 +255,7 @@ export async function addJobToQueue({
 }) {
   appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath));
+  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform));
   job.catch(err => {
     appLog.error('Script execution job failed:', err);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
@@ -339,13 +339,18 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   return { hashes, matches };
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform) {
   return new Promise((resolve, reject) => {
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : null;
     const typeFlag = type ? `--type ${type}` : null;
-    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath} --apk ${binaryFilePath}` : null;
-    const versionString = `--version ${newWalletVersion}`;
+    let binaryParam = null;
+    if (platform === 'android') {
+      binaryParam = binaryFilePath ? `--apk ${binaryFilePath}` : null;
+    } else {
+      binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
+    }
+    const versionString = platform !== 'android' ? `--version ${newWalletVersion}` : null;
     const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
     const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
 
