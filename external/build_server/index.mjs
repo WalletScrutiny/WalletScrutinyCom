@@ -22,7 +22,7 @@ import {
 } from './utils.mjs';
 import { verifyAssetsFromRegistry, processNewReleaseVerification } from './verifications.mjs';
 import {
-  DEBUG_APP_IDS,
+  shouldProcessAppId,
   HOURS_BETWEEN_EXECUTIONS,
   APPROVED_VERIFIERS_PUBKEY_HEX,
   WS_BOT_NOSTR_PUBKEY_HEX,
@@ -61,8 +61,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
           continue;
         }
 
-        // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
-        if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+        if (!shouldProcessAppId(getFirstTagValue(verification, 'i'))) {
           continue;
         }
 

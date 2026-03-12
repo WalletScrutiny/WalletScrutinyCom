@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 import minimist from 'minimist';
 import { appLog } from './logger.js';
-import { WS_BOT_NOSTR_PUBKEY_HEX, DEBUG_APP_IDS } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
@@ -158,8 +158,7 @@ export async function filterVerificationsWithBuildScripts(verifications) {
       if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
         continue;
       }
-      // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
-      if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+      if (!shouldProcessAppId(getFirstTagValue(verification, 'i'))) {
         continue;
       }
       const fileAttachmentIdsForThisVerification = getFileAttachmentIDsForVerificationEvent(verification);
