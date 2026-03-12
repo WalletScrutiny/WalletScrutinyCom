@@ -39,6 +39,47 @@ function logQueueInfo() {
 
 let buildDirForThisVerification = null;
 
+/**
+ * Downloads a file from the Blossom server by its hash.
+ * Ensures proper cleanup of HTTP connections to avoid file descriptor leaks.
+ * @param {string} fileHash - The SHA256 hash of the file to download
+ * @param {string} destinationPath - The local path where the file should be saved
+ * @returns {Promise<{success: boolean, error?: string}>} - Result of the download operation
+ */
+export async function downloadFileFromBlossom(fileHash, destinationPath) {
+  const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
+  let response;
+
+  try {
+    response = await fetch(blossomFileURL);
+  } catch (fetchError) {
+    return { success: false, error: `Fetch failed: ${fetchError?.message ?? fetchError}` };
+  }
+
+  try {
+    if (!response.ok) {
+      return { success: false, error: `HTTP ${response.status}: file not found` };
+    }
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(destinationPath, buffer);
+    return { success: true };
+  } finally {
+    // Ensure response body is consumed to release the HTTP connection
+    if (response && response.body) {
+      try {
+        const reader = response.body.getReader();
+        while (true) {
+          const { done } = await reader.read();
+          if (done) break;
+        }
+      } catch {
+        // Ignore errors during cleanup
+      }
+    }
+  }
+}
+
 export async function verifyAssetsFromRegistry(verifications, appInfo) {
   appLog.debug(`# verifications: ${verifications.size}`);
   const verificationsWithBuildShFiles = await filterVerificationsWithBuildScripts(verifications);
@@ -89,51 +130,45 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     }
     const { architecture, type } = archAndType;
 
-    const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-    let response;
-    try {
-      response = await fetch(blossomFileURL);
-    } catch (fetchError) {
-      appLog.error(`Fetch failed for ${blossomFileURL}: ${fetchError?.message ?? fetchError}. Skipping asset.`);
+    const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+    createCompilationDirectory(buildDirForThisVerification);
+
+    let downloadedFileName = null;
+    if (sanitizedFileName) {
+      downloadedFileName = sanitizedFileName;
+    } else {
+      downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
+    }
+    const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
+
+    appLog.debug(`     - downloading from Blossom... ${fileHash}`);
+    const downloadResult = await downloadFileFromBlossom(fileHash, downloadedFileNamePath);
+
+    if (!downloadResult.success) {
+      appLog.debug(`     - file not found in Blossom (${downloadResult.error}). Skipping...`);
       continue;
     }
-    if (response.ok) {
-      const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-      createCompilationDirectory(buildDirForThisVerification);
 
-      appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
-      let downloadedFileName = null;
-      if (sanitizedFileName) {
-        downloadedFileName = sanitizedFileName;
-      } else {
-        downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-      }
-      const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
-      const buffer = Buffer.from(await response.arrayBuffer());
-      fs.writeFileSync(downloadedFileNamePath, buffer);
-      appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+    appLog.debug(`     - saved to ${downloadedFileNamePath}`);
 
-      const scriptFileName = `${appId}_${fileHash}_script.sh`;
-      const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
-      appLog.debug(`     - saving script to ${scriptPath}`);
-      saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
+    const scriptFileName = `${appId}_${fileHash}_script.sh`;
+    const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+    appLog.debug(`     - saving script to ${scriptPath}`);
+    saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
-      await addJobToQueue({
-        verification: verification.verification,
-        appId,
-        platform,
-        buildDirForThisVerification,
-        scriptWithPath: scriptPath,
-        newWalletVersion: version,
-        architecture,
-        type,
-        fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-        fileHash,
-        binaryFilePath: downloadedFileNamePath
-      });
-    } else {
-      appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
-    }
+    await addJobToQueue({
+      verification: verification.verification,
+      appId,
+      platform,
+      buildDirForThisVerification,
+      scriptWithPath: scriptPath,
+      newWalletVersion: version,
+      architecture,
+      type,
+      fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
+      fileHash,
+      binaryFilePath: downloadedFileNamePath
+    });
   }
 }
 
