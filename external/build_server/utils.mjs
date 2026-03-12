@@ -236,15 +236,13 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
 
-  if (process.platform !== 'win32') {
-    try {
-      const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
-      execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
-      return;
-    } catch (rmErr) {
-      const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
-      appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
-    }
+  try {
+    const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
+    execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
+    return;
+  } catch (rmErr) {
+    const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
+    appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
   }
 
   const maxRetries = 3;
