@@ -414,7 +414,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
-  let description = 'Automatic verification by WalletScrutiny Build Server - ';
+  let description = 'Automatic verification by WalletScrutiny Build Server';
   if (architecture) {
     description += architecture;
   }
@@ -453,7 +453,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   try {
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       removeDirectoryRecursive(buildDirForThisVerification);
@@ -461,6 +461,6 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(', ')}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash}`);
   }
 }
