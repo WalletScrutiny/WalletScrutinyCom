@@ -45,7 +45,7 @@ const PLATFORMS = [
 ];
 
 // Frontmatter fields that contain URLs (string fields)
-const URL_FIELDS = ['website', 'repository', 'issue', 'bugbounty', 'providerWebsite', 'shop'];
+const URL_FIELDS = ['website', 'repository', 'bugbounty', 'providerWebsite', 'shop'];
 
 // Domains where responses are unreliable (bot-blocking, auth-walls).
 // URLs on these domains are skipped entirely — never checked, never marked dead.
