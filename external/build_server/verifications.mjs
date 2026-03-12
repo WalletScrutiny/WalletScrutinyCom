@@ -403,6 +403,12 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
   const { verdict, scriptVersion, notes } = comparisionResults;
 
+  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(verdict)) {
+    appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Verdict ${verdict} is not in the list of allowed verdicts`);
+    return null;
+  }
+
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
   const castFile = new File([castFileContent], path.basename(castFileName), { type: 'application/x-asciicast' });
