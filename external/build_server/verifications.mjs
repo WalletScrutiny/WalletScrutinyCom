@@ -319,7 +319,6 @@ export async function addJobToQueue({
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  // First, try to find and read COMPARISON_RESULTS.yaml
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
     try {
@@ -327,57 +326,19 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
       const data = yaml.load(yamlContent);
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
-      if (data?.results) {
-        let architectureResults;
-        if (architecture) {
-          // Find all results matching the architecture
-          architectureResults = data.results.filter(r => r.architecture === architecture);
-        } else {
-          architectureResults = data.results;
-        }
 
-        if (architectureResults.length > 0) {
-          for (const result of architectureResults) {
-            return result.status;
-          }
-        }
-      }
-
-      return null;
+      return {
+        verdict: data?.verdict ?? null,
+        scriptVersion: data?.script_version ?? null,
+        notes: data?.notes ?? null
+      };
 
     } catch (error) {
       appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
       verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.yaml: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+      return null;
     }
   }
-
-  // Fallback to COMPARISON_RESULTS.txt if YAML not found or didn't contain matching architecture
-  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-  if (!comparisonFilePath) {
-    return null;
-  }
-
-  try {
-    const content = fs.readFileSync(comparisonFilePath, 'utf8');
-    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-    if (line) {
-      const tokens = line.split(' - ');
-      const hash = tokens[2];
-      if (hash) {
-        hashes = [hash];
-        matches = tokens[3]?.trim().startsWith('1');
-      }
-    }
-  } catch (error) {
-    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-  }
-
-  if (hashes.length === 0) {
-    return null;
-  }
-
-  return { hashes, matches };
 }
 
 export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform) {
@@ -432,12 +393,14 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     throw new Error('NDK instance is not initialized');
   }
 
-  const status = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
-  if (!status) {
-    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+  const comparisionResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!comparisionResults || !comparisionResults.verdict) {
+    appLog.error(`COMPARISON_RESULTS.yaml not found, or error found reading it in ${buildDirForThisVerification}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml not found in ${buildDirForThisVerification}`);
     return;
   }
+
+  const { verdict, scriptVersion, notes } = comparisionResults;
 
   // Upload the asciicast file to Blossom server
   const castFileContent = fs.readFileSync(castFileName, 'utf8');
@@ -463,13 +426,19 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
-  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}`;
+  if (scriptVersion) {
+    content += ` - Script version: ${scriptVersion}.`;
+  }
+  if (notes) {
+    content += ` - Notes from the developer of the script: ${notes}.`;
+  }
 
   const formData = {
     // Changed values
     basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
-    status,
+    status: verdict,
     hashes: [fileHash],
     description: description,
     content: content,
@@ -484,7 +453,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   try {
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       removeDirectoryRecursive(buildDirForThisVerification);
@@ -492,6 +461,6 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${hashes.join(', ')}`);
   }
 }
