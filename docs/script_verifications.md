@@ -16,7 +16,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 6. The call parameters for the script must be the following:
 
 * For `android`, `desktop` or `hardware` wallets when a binary file is provided by the user:
-  - `--binary`: binary file of the app to test (`--apk` will be supported for a while, but it's deprecated)
+  - `--binary`: binary file of the app to test
 
 * For `desktop` or `hardware` wallets, when a new version of the app is released (no binary file is provided by the user):
   - `--version`: version of the app (without the v prefix)
@@ -30,20 +30,20 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 The results file should be named `COMPARISON_RESULTS.yaml` and be in the same directory as the script. It should be in YAML format and contain the following information:
 
 ```yaml
-date: 2025-11-24T09:03:00+0000
 script_version: v0.8.0
-results:
-  - architecture: linux64
-    status: reproducible
+verdict: reproducible
+notes: |
+  Uses the upstream build.sh script for reproducible builds.
+  Expected differences (do not affect reproducibility verdict):
+  - META-INF/*: Google Play signing files
+  - stamp-cert-sha256: Certificate stamp from Google Play
 ```
 
-- `date`: the date and time of the verification
 - `script_version`: the version of the script
-- `results`: an array of objects with the following information:
-  - `architecture`: the architecture of the file (must match the value passed via the `--arch` parameter)
-  - `status`: the status of the verification
+- `verdict`: the verdict of the verification
+- `notes`: (optional) any note that could be useful to understand the verdict, or a description of the differences that were expected to be reproducible, but did not affect the reproducibility verdict
 
-Possible values for `status`:
+Possible values for `verdict`:
   - `reproducible`: Reproducible
   - `not_reproducible`: Not Reproducible
   - `ftbfs`: Failed to Build from Source
