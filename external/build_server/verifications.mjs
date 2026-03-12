@@ -328,7 +328,8 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
 
       return {
-        verdict: data?.verdict ?? null,
+        // Workaround for old scripts that don't have a verdict field yet
+        verdict: data?.verdict ?? data?.results?.[0]?.status ?? null,
         scriptVersion: data?.script_version ?? null,
         notes: data?.notes ?? null
       };
