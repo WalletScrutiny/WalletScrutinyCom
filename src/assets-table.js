@@ -676,7 +676,7 @@ window.renderAssetsTable = async function({
 
   // --- Helper function for actual download with data in downloadIcon ---
   window.downloadBlossomFile = async (hash, filename) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
     try {
       // This makes the download process way slower, but it's
       // the only way to change to a different filename
@@ -697,7 +697,7 @@ window.renderAssetsTable = async function({
 
   // --- Helper function for actual download with data in downloadIcon ---
   const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
     try {
       // This makes the download process way slower, but it's
       // the only way to change to a different filename
