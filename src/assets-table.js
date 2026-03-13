@@ -483,8 +483,18 @@ window.renderAssetsTable = async function({
 
       const wallet = window.wallets.find(w => w.appId === identifier);
       const walletTitle = wallet ? wallet.title : identifier;
-      const fileName = getFirstTagValue(binary, 'file-name') ?? null;
-      const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : null;
+
+      // Get the file name from the asset registration events
+      let fileName = '';
+      item.items.forEach(item => {
+        if (item.kind === assetRegistrationKind) {
+          const fileNameFromAssetRegistration = getFirstTagValue(item, 'file-name');
+          if (fileNameFromAssetRegistration) {
+            fileName = fileNameFromAssetRegistration.replace(/\s+/g, '-');
+          }
+        }
+      });
+      const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
 
       const row = document.createElement('tr');
       // Use a class to track initially hidden rows instead of inline style
@@ -517,7 +527,7 @@ window.renderAssetsTable = async function({
         </td>`}
         <td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
           `).join('') : '-'}
         </td>
         <td>${verificationsList}</td>
@@ -676,7 +686,7 @@ window.renderAssetsTable = async function({
 
   // --- Helper function for actual download with data in downloadIcon ---
   window.downloadBlossomFile = async (hash, filename) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
     try {
       // This makes the download process way slower, but it's
       // the only way to change to a different filename
@@ -697,7 +707,7 @@ window.renderAssetsTable = async function({
 
   // --- Helper function for actual download with data in downloadIcon ---
   const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
-    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    showToast('Preparing file to download, wait a moment...', 'info', 12000);
     try {
       // This makes the download process way slower, but it's
       // the only way to change to a different filename
@@ -707,7 +717,7 @@ window.renderAssetsTable = async function({
       const filenameFromURL = response.url?.split('/').pop() ?? hash;
 
       let filename = '';
-      const title = downloadIcon.getAttribute('data-title');
+      const platform = downloadIcon.getAttribute('data-platform');
       const version = downloadIcon.getAttribute('data-version');
       const appid = downloadIcon.getAttribute('data-appid');
       const filenameFromEvent = downloadIcon.getAttribute('data-filename');
@@ -715,10 +725,9 @@ window.renderAssetsTable = async function({
       if (filenameFromEvent) {
         filename = `${filenameFromEvent}`;
       } else {
-        if (title && !title.includes(' ')) {
-          filename = `${title}-${version}-${filenameFromURL}`;
-        } else {
-          filename = `${appid}-${version}-${filenameFromURL}`;
+        filename = `${appid}-${version}-${filenameFromURL}`;
+        if (platform === 'android') {
+          filename += '.apk';
         }
       }
 
