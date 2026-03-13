@@ -347,12 +347,7 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : null;
     const typeFlag = type ? `--type ${type}` : null;
-    let binaryParam = null;
-    if (platform === 'android') {
-      binaryParam = binaryFilePath ? `--apk ${binaryFilePath}` : null;
-    } else {
-      binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
-    }
+    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
     const versionString = platform !== 'android' ? `--version ${newWalletVersion}` : null;
     const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
     const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
