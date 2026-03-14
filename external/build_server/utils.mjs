@@ -213,10 +213,12 @@ export async function filterVerificationsWithBuildScripts(verifications) {
 
 export function filterAssetsWithoutVerification(assets, verifications) {
   const assetsWithoutVerification = [];
+  const seenSha256 = new Set();
   for (const asset of assets) {
     const sha256 = getFirstTagValue(asset, 'x');
 
-    if (sha256 && !verifications.has(sha256)) {
+    if (sha256 && !verifications.has(sha256) && !seenSha256.has(sha256)) {
+      seenSha256.add(sha256);
       assetsWithoutVerification.push(asset);
     }
   }
