@@ -12,11 +12,22 @@ export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
+// Debug: log when job runs longer than this (minutes). Set to 0 to disable. Helps investigate if processes finish without queue being notified.
+export const QUEUE_DEBUG_TIMEOUT_MINUTES = 15;
 
-// Debug array: If it has elements, it will only process these appIds. If it is empty, it will process all.
-export const DEBUG_APP_IDS = [
-    // Example: 'com.example.app', 'org.bitcoin.wallet', 'bitcoinknots'
-];
+// Debug filter: include = only these appIds (empty = all); exclude = never these appIds
+export const DEBUG_APP_IDS = {
+  include: [],  // If empty, process all except exclude. If has elements, process only these (minus any in exclude)
+  exclude: [],   // Always skip these appIds
+  // Include these (appId, version) pairs even when they already have verifications (for re-build testing)
+  includeEvenWithVerification: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
+};
+
+export function shouldProcessAppId(appId) {
+  if (DEBUG_APP_IDS.exclude.includes(appId)) return false;
+  if (DEBUG_APP_IDS.include.length === 0) return true;
+  return DEBUG_APP_IDS.include.includes(appId);
+}
 
 export const BUILD_DIR = '/opt/build-server-builds';
 
