@@ -1,42 +1,4 @@
-import { getNdk } from './verifications_utils.mjs';
-import { NDKEvent } from '@nostr-dev-kit/ndk';
-
-// Create and sign an authorization event
-export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
-  const ndk = await getNdk();
-  const eventObject = {
-    kind: 24242,
-    created_at: Math.floor(Date.now() / 1000),
-    tags: [
-      ['t', verb],
-      ['expiration', (Math.floor(Date.now() / 1000) + 3600).toString()], // Expires in 1 hour
-    ],
-    content: content,
-  };
-
-  tags.forEach(tag => {
-    const [key, value] = tag;
-    eventObject.tags.push([key, value]);
-  });
-
-  xTags.forEach(x => {
-    eventObject.tags.push(['x', x]);
-  });
-
-  if (serverUrl) {
-    eventObject.tags.push(['server', serverUrl]);
-  }
-
-  // Sign with extension if available
-  if (typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function') {
-    return await window.nostr.signEvent(eventObject)
-  }
-
-  // Sign with internal identity if no extension is available
-  const event = new NDKEvent(ndk, eventObject);
-  event.sig = await event.sign();
-  return event;
-}
+import { createAuthorizationEvent } from './verifications_utils.mjs';
 
 // Create an authorization header
 export async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
