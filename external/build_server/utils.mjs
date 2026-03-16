@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 import minimist from 'minimist';
 import { appLog } from './logger.js';
-import { WS_BOT_NOSTR_PUBKEY_HEX, DEBUG_APP_IDS } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
@@ -158,8 +158,7 @@ export async function filterVerificationsWithBuildScripts(verifications) {
       if (verification.pubkey === WS_BOT_NOSTR_PUBKEY_HEX) {
         continue;
       }
-      // Debug filter: If DEBUG_APP_IDS has elements, it will only process those appIds. If it is empty, it will process all.
-      if (DEBUG_APP_IDS.length > 0 && !DEBUG_APP_IDS.includes(getFirstTagValue(verification, 'i'))) {
+      if (!shouldProcessAppId(getFirstTagValue(verification, 'i'))) {
         continue;
       }
       const fileAttachmentIdsForThisVerification = getFileAttachmentIDsForVerificationEvent(verification);
@@ -214,14 +213,37 @@ export async function filterVerificationsWithBuildScripts(verifications) {
 
 export function filterAssetsWithoutVerification(assets, verifications) {
   const assetsWithoutVerification = [];
+  const seenSha256 = new Set();
+  const debugPairs = new Set(
+    (DEBUG_APP_IDS.includeEvenWithVerification || []).map(
+      ({ appId, version }) => `${appId}\0${version}`
+    )
+  );
+
   for (const asset of assets) {
     const sha256 = getFirstTagValue(asset, 'x');
+    const appId = getFirstTagValue(asset, 'i');
+    const version = getFirstTagValue(asset, 'version');
+    const isInDebugList = debugPairs.has(`${appId}\0${version}`);
 
-    if (sha256 && !verifications.has(sha256)) {
+    const hasNoVerification = sha256 && !verifications.has(sha256);
+    const shouldInclude = (hasNoVerification || isInDebugList) && sha256 && !seenSha256.has(sha256);
+
+    if (shouldInclude) {
+      seenSha256.add(sha256);
       assetsWithoutVerification.push(asset);
     }
   }
   return assetsWithoutVerification;
+}
+
+/**
+ * Returns true if the script content contains "sudo" (as a word).
+ * Scripts with sudo can hang waiting for password input in non-interactive environments.
+ */
+export function scriptContainsSudo(fileEvent) {
+  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+  return /\bsudo\b/.test(fileContent);
 }
 
 export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
@@ -237,15 +259,13 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
 
-  if (process.platform !== 'win32') {
-    try {
-      const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
-      execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
-      return;
-    } catch (rmErr) {
-      const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
-      appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
-    }
+  try {
+    const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
+    execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
+    return;
+  } catch (rmErr) {
+    const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
+    appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
   }
 
   const maxRetries = 3;

@@ -76,6 +76,14 @@ cd /opt/build-server/walletScrutinyCom/external/build_server
 sudo npm install
 ```
 
+- Create the build directory and set the permissions for the build-server user:
+```bash
+sudo mkdir -p /opt/build-server-builds
+sudo chown -R build-server:build-server /opt/build-server-builds
+sudo setfacl -R -m u:build-server:rwx /opt/build-server-builds
+sudo setfacl -R -d -m u:build-server:rwx /opt/build-server-builds
+```
+
 ### Install the service
 
 ```bash

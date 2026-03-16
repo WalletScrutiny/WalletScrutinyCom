@@ -1,4 +1,4 @@
-import { exec } from 'child_process';
+import { spawn } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import PQueue from 'p-queue';
@@ -9,6 +9,7 @@ import {
   filterAssetsWithoutVerification,
   getFirstTagValue,
   saveScriptFromEventMakeExecutable,
+  scriptContainsSudo,
   createCompilationDirectory,
   removeDirectoryRecursive,
   findFileRecursively,
@@ -19,10 +20,10 @@ import {
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
 
-const queue = new PQueue({
+export const queue = new PQueue({
   concurrency: QUEUE_CONCURRENCY,
   timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
   throwOnTimeout: true
@@ -34,10 +35,51 @@ queue.on('error', error => {
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error
 });
 function logQueueInfo() {
-  appLog.info(`**** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
 let buildDirForThisVerification = null;
+
+/**
+ * Downloads a file from the Blossom server by its hash.
+ * Ensures proper cleanup of HTTP connections to avoid file descriptor leaks.
+ * @param {string} fileHash - The SHA256 hash of the file to download
+ * @param {string} destinationPath - The local path where the file should be saved
+ * @returns {Promise<{success: boolean, error?: string}>} - Result of the download operation
+ */
+export async function downloadFileFromBlossom(fileHash, destinationPath) {
+  const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
+  let response;
+
+  try {
+    response = await fetch(blossomFileURL);
+  } catch (fetchError) {
+    return { success: false, error: `Fetch failed: ${fetchError?.message ?? fetchError}` };
+  }
+
+  try {
+    if (!response.ok) {
+      return { success: false, error: `HTTP ${response.status}: file not found` };
+    }
+
+    const buffer = Buffer.from(await response.arrayBuffer());
+    fs.writeFileSync(destinationPath, buffer);
+    return { success: true };
+  } finally {
+    // Ensure response body is consumed to release the HTTP connection
+    if (response && response.body) {
+      try {
+        const reader = response.body.getReader();
+        while (true) {
+          const { done } = await reader.read();
+          if (done) break;
+        }
+      } catch {
+        // Ignore errors during cleanup
+      }
+    }
+  }
+}
 
 export async function verifyAssetsFromRegistry(verifications, appInfo) {
   appLog.debug(`# verifications: ${verifications.size}`);
@@ -89,51 +131,50 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     }
     const { architecture, type } = archAndType;
 
-    const blossomFileURL = BLOSSOM_SERVER_URL + '/' + fileHash;
-    let response;
-    try {
-      response = await fetch(blossomFileURL);
-    } catch (fetchError) {
-      appLog.error(`Fetch failed for ${blossomFileURL}: ${fetchError?.message ?? fetchError}. Skipping asset.`);
+    const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+    createCompilationDirectory(buildDirForThisVerification);
+
+    let downloadedFileName = null;
+    if (sanitizedFileName) {
+      downloadedFileName = sanitizedFileName;
+    } else {
+      downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
+    }
+    const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
+
+    appLog.debug(`     - downloading from Blossom... ${fileHash}`);
+    const downloadResult = await downloadFileFromBlossom(fileHash, downloadedFileNamePath);
+
+    if (!downloadResult.success) {
+      appLog.debug(`     - file not found in Blossom (${downloadResult.error}). Skipping...`);
       continue;
     }
-    if (response.ok) {
-      const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-      createCompilationDirectory(buildDirForThisVerification);
 
-      appLog.debug(`     - file found in Blossom. Downloading... ${blossomFileURL}`);
-      let downloadedFileName = null;
-      if (sanitizedFileName) {
-        downloadedFileName = sanitizedFileName;
-      } else {
-        downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-      }
-      const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
-      const buffer = Buffer.from(await response.arrayBuffer());
-      fs.writeFileSync(downloadedFileNamePath, buffer);
-      appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+    appLog.debug(`     - saved to ${downloadedFileNamePath}`);
 
-      const scriptFileName = `${appId}_${fileHash}_script.sh`;
-      const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
-      appLog.debug(`     - saving script to ${scriptPath}`);
-      saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
-
-      await addJobToQueue({
-        verification: verification.verification,
-        appId,
-        platform,
-        buildDirForThisVerification,
-        scriptWithPath: scriptPath,
-        newWalletVersion: version,
-        architecture,
-        type,
-        fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
-        fileHash,
-        binaryFilePath: downloadedFileNamePath
-      });
-    } else {
-      appLog.debug(`     - file not found in Blossom. Skipping... ${blossomFileURL}`);
+    const scriptFileName = `${appId}_${fileHash}_script.sh`;
+    const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+    if (scriptContainsSudo(verification.buildShFileEvent)) {
+      appLog.info(`     - skipping script (contains sudo): ${scriptPath}`);
+      verificationsLog.info(`--- ${appId} ${version} | Skipping script - contains sudo (would hang waiting for password)`);
+      continue;
     }
+    appLog.debug(`     - saving script to ${scriptPath}`);
+    saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
+
+    await addJobToQueue({
+      verification: verification.verification,
+      appId,
+      platform,
+      buildDirForThisVerification,
+      scriptWithPath: scriptPath,
+      newWalletVersion: version,
+      architecture,
+      type,
+      fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
+      fileHash,
+      binaryFilePath: downloadedFileNamePath
+    });
   }
 }
 
@@ -217,6 +258,11 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
         createCompilationDirectory(buildDirForThisVerification);
 
+        if (scriptContainsSudo(fileEvent)) {
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | Skipping script - contains sudo (would hang waiting for password)`);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Skipping script - contains sudo: ${architecture ? architecture : ''} ${type ? type : ''}`);
+          continue;
+        }
         saveScriptFromEventMakeExecutable(fileEvent, scriptWithPath);
 
         await addJobToQueue({
@@ -259,9 +305,9 @@ export async function addJobToQueue({
   fileHash,
   binaryFilePath = null
 }) {
-  appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform));
+  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId));
   job.catch(err => {
     appLog.error('Script execution job failed:', err);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
@@ -284,7 +330,6 @@ export async function addJobToQueue({
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {
-  // First, try to find and read COMPARISON_RESULTS.yaml
   const yamlFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.yaml');
   if (yamlFilePath) {
     try {
@@ -292,70 +337,57 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
       const data = yaml.load(yamlContent);
 
       appLog.info(`COMPARISON_RESULTS.yaml content: ${JSON.stringify(data)}`);
-      if (data?.results) {
-        let architectureResults;
-        if (architecture) {
-          // Find all results matching the architecture
-          architectureResults = data.results.filter(r => r.architecture === architecture);
-        } else {
-          architectureResults = data.results;
-        }
 
-        if (architectureResults.length > 0) {
-          for (const result of architectureResults) {
-            return result.status;
-          }
-        }
-      }
-
-      return null;
+      return {
+        // Workaround for old scripts that don't have a verdict field yet
+        verdict: data?.verdict ?? data?.results?.[0]?.status ?? null,
+        scriptVersion: data?.script_version ?? null,
+        notes: data?.notes ?? null
+      };
 
     } catch (error) {
       appLog.error(`Error reading COMPARISON_RESULTS.yaml: ${error}`);
       verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.yaml: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
+      return null;
     }
   }
-
-  // Fallback to COMPARISON_RESULTS.txt if YAML not found or didn't contain matching architecture
-  const comparisonFilePath = findFileRecursively(buildDirForThisVerification, 'COMPARISON_RESULTS.txt');
-  if (!comparisonFilePath) {
-    return null;
-  }
-
-  try {
-    const content = fs.readFileSync(comparisonFilePath, 'utf8');
-    const line = content.split('\n').find(l => l.includes(` - ${architecture} - `));
-    if (line) {
-      const tokens = line.split(' - ');
-      const hash = tokens[2];
-      if (hash) {
-        hashes = [hash];
-        matches = tokens[3]?.trim().startsWith('1');
-      }
-    }
-  } catch (error) {
-    appLog.error(`Error reading COMPARISON_RESULTS.txt: ${error}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error reading COMPARISON_RESULTS.txt: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(error)}`);
-  }
-
-  if (hashes.length === 0) {
-    return null;
-  }
-
-  return { hashes, matches };
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null) {
+  const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}`;
+
   return new Promise((resolve, reject) => {
+    const controller = new AbortController();
+    const timeoutMs = QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000;
+    const timeoutId = setTimeout(() => {
+      appLog.warn(`[QUEUE_INFO] Job timeout after ${QUEUE_TIMEOUT_HOURS}h - aborting process to free queue slot. ${jobInfo} Script: ${script}`);
+      controller.abort();
+    }, timeoutMs);
+
+    let debugTimeoutId = null;
+    if (QUEUE_DEBUG_TIMEOUT_MINUTES > 0) {
+      const debugMs = QUEUE_DEBUG_TIMEOUT_MINUTES * 60 * 1000;
+      debugTimeoutId = setTimeout(() => {
+        appLog.warn(`[QUEUE_INFO]  Job still running after ${QUEUE_DEBUG_TIMEOUT_MINUTES} min without Promise resolution - process may have finished without exec callback, or process may be hung. ${jobInfo} Script: ${script}`);
+      }, debugMs);
+    }
+
+    const done = (err, result) => {
+      clearTimeout(timeoutId);
+      if (debugTimeoutId) clearTimeout(debugTimeoutId);
+      if (err) {
+        appLog.error(`Error recording and executing script: ${err}`);
+        reject(err);
+      } else {
+        appLog.info(`Script recorded and executed successfully: ${result.castFileName}`);
+        resolve(result);
+      }
+    };
+
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : null;
     const typeFlag = type ? `--type ${type}` : null;
-    let binaryParam = null;
-    if (platform === 'android') {
-      binaryParam = binaryFilePath ? `--apk ${binaryFilePath}` : null;
-    } else {
-      binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
-    }
+    const binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
     const versionString = platform !== 'android' ? `--version ${newWalletVersion}` : null;
     const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
     const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
@@ -364,28 +396,39 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
     const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
-    exec(asciinemaCommand, {
+
+    const child = spawn(asciinemaCommand, {
+      shell: true,
+      signal: controller.signal,
+      stdio: ['ignore', 'pipe', 'pipe'],
       env: {
-        // Ensure PATH includes standard system directories for rootless container tools
         PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
         HOME: process.env.HOME || '/tmp',
         XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
         ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-      },
-      maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
-    }, (error, stdout, stderr) => {
-      if (error) {
-        appLog.error(`Error recording and executing script: ${error}`);
-        reject(error);
+      }
+    });
+
+    const stdoutChunks = [];
+    const stderrChunks = [];
+    child.stdout?.on('data', chunk => stdoutChunks.push(chunk));
+    child.stderr?.on('data', chunk => stderrChunks.push(chunk));
+
+    child.on('close', (code, signal) => {
+      if (signal) {
+        done(Object.assign(new Error(`Process killed: ${signal}`), { code: null, signal }), null);
+      } else if (code !== 0) {
+        const stderrStr = Buffer.concat(stderrChunks).toString('utf8');
+        done(Object.assign(new Error(`Process exited with code ${code}${stderrStr ? `: ${stderrStr.slice(0, 200)}` : ''}`), { code, signal: null }), null);
       } else {
-        appLog.info(`Script recorded and executed successfully: ${castFileName}`);
-        resolve({
+        done(null, {
           castFileName: castFileName,
           finalScriptExecutionCommand: finalScriptExecutionCommand,
           buildDirForThisVerification: buildDirForThisVerification
         });
       }
     });
+    child.on('error', err => done(err, null));
   });
 }
 
@@ -397,11 +440,19 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     throw new Error('NDK instance is not initialized');
   }
 
-  const status = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
-  if (!status) {
-    appLog.error(`COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found, or error found reading it in ${buildDirForThisVerification}`);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml or COMPARISON_RESULTS.txt not found ${architecture ? architecture : ''} ${type ? type : ''} ${buildDirForThisVerification}`);
+  const comparisionResults = readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type);
+  if (!comparisionResults || !comparisionResults.verdict) {
+    appLog.error(`COMPARISON_RESULTS.yaml not found, or error found reading it in ${buildDirForThisVerification}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | file COMPARISON_RESULTS.yaml not found in ${buildDirForThisVerification}`);
     return;
+  }
+
+  const { verdict, scriptVersion, notes } = comparisionResults;
+
+  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(verdict)) {
+    appLog.error(`________________________________ Verdict ${verdict} is not in the list of allowed verdicts for appId=${appId}, version=${newWalletVersion}, architecture=${architecture}, type=${type}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Verdict ${verdict} is not in the list of allowed verdicts`);
+    return null;
   }
 
   // Upload the asciicast file to Blossom server
@@ -416,7 +467,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     return;
   }
 
-  let description = 'Automatic verification by WalletScrutiny Build Server - ';
+  let description = 'Automatic verification by WalletScrutiny Build Server';
   if (architecture) {
     description += architecture;
   }
@@ -428,13 +479,19 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   }
 
   let content = `Automatic verification by WalletScrutiny Build Server for wallet version ${newWalletVersion} ${architecture ? ` with architecture: ${architecture}` : '' } ${type ? `   type: ${type}` : ''}, based on verification ${verification.id} by ${verification.pubkey}. `;
-  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}.`;
+  content += `The script was executed with these parameters: ${finalScriptExecutionCommand}`;
+  if (scriptVersion) {
+    content += ` - Script version: ${scriptVersion}.`;
+  }
+  if (notes) {
+    content += ` - Notes from the developer of the script: ${notes}.`;
+  }
 
   const formData = {
     // Changed values
     basedOn: verification.id + ':' + verification.pubkey,
     version: newWalletVersion,
-    status,
+    status: verdict,
     hashes: [fileHash],
     description: description,
     content: content,
@@ -449,7 +506,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   try {
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')} - verificationEventId: ${verificationEventId}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       removeDirectoryRecursive(buildDirForThisVerification);
@@ -457,6 +514,6 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
     }
   } catch (error) {
     appLog.error(`Error creating verification for ${appId}:`, error);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${status} ${hashes.join(', ')}`);
+    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Error creating verification: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash}`);
   }
 }
