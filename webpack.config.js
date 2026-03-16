@@ -3,7 +3,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { spawn } = require("child_process");
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = (env, argv) => {
   return {
@@ -148,7 +148,7 @@ module.exports = (env, argv) => {
           });
         },
       },
-      new BundleAnalyzerPlugin()
+      // new BundleAnalyzerPlugin()
     ]
   }
 };
