@@ -16,7 +16,9 @@ export const QUEUE_CONCURRENCY = 3;
 // Debug filter: include = only these appIds (empty = all); exclude = never these appIds
 export const DEBUG_APP_IDS = {
   include: [],  // If empty, process all except exclude. If has elements, process only these (minus any in exclude)
-  exclude: []   // Always skip these appIds
+  exclude: ['app.zeusln.zeus', 'io.metamask'],   // Always skip these appIds
+  // Include these (appId, version) pairs even when they already have verifications (for re-build testing)
+  includeEvenWithVerification: []  // e.g. [{ appId: 'com.example.wallet', version: '1.2.3' }]
 };
 
 export function shouldProcessAppId(appId) {

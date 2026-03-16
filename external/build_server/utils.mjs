@@ -2,7 +2,7 @@ import { execSync } from 'child_process';
 import fs from 'fs';
 import minimist from 'minimist';
 import { appLog } from './logger.js';
-import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId } from './config/config.mjs';
+import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
 
 const appInfoURL = 'https://walletscrutiny.com/assets/js/json/buildServerInfo.json';
@@ -214,10 +214,22 @@ export async function filterVerificationsWithBuildScripts(verifications) {
 export function filterAssetsWithoutVerification(assets, verifications) {
   const assetsWithoutVerification = [];
   const seenSha256 = new Set();
+  const debugPairs = new Set(
+    (DEBUG_APP_IDS.includeEvenWithVerification || []).map(
+      ({ appId, version }) => `${appId}\0${version}`
+    )
+  );
+
   for (const asset of assets) {
     const sha256 = getFirstTagValue(asset, 'x');
+    const appId = getFirstTagValue(asset, 'i');
+    const version = getFirstTagValue(asset, 'version');
+    const isInDebugList = debugPairs.has(`${appId}\0${version}`);
 
-    if (sha256 && !verifications.has(sha256) && !seenSha256.has(sha256)) {
+    const hasNoVerification = sha256 && !verifications.has(sha256);
+    const shouldInclude = (hasNoVerification || isInDebugList) && sha256 && !seenSha256.has(sha256);
+
+    if (shouldInclude) {
       seenSha256.add(sha256);
       assetsWithoutVerification.push(asset);
     }
