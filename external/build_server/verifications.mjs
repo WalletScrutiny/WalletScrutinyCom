@@ -9,6 +9,7 @@ import {
   filterAssetsWithoutVerification,
   getFirstTagValue,
   saveScriptFromEventMakeExecutable,
+  scriptContainsSudo,
   createCompilationDirectory,
   removeDirectoryRecursive,
   findFileRecursively,
@@ -153,6 +154,11 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
 
     const scriptFileName = `${appId}_${fileHash}_script.sh`;
     const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
+    if (scriptContainsSudo(verification.buildShFileEvent)) {
+      appLog.info(`     - skipping script (contains sudo): ${scriptPath}`);
+      verificationsLog.info(`--- ${appId} ${version} | Skipping script - contains sudo (would hang waiting for password)`);
+      continue;
+    }
     appLog.debug(`     - saving script to ${scriptPath}`);
     saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
 
@@ -252,6 +258,11 @@ export async function processNewReleaseVerification(verification, newWalletVersi
 
         createCompilationDirectory(buildDirForThisVerification);
 
+        if (scriptContainsSudo(fileEvent)) {
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | Skipping script - contains sudo (would hang waiting for password)`);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Skipping script - contains sudo: ${architecture ? architecture : ''} ${type ? type : ''}`);
+          continue;
+        }
         saveScriptFromEventMakeExecutable(fileEvent, scriptWithPath);
 
         await addJobToQueue({

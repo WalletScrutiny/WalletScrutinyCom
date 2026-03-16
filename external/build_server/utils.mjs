@@ -225,6 +225,15 @@ export function filterAssetsWithoutVerification(assets, verifications) {
   return assetsWithoutVerification;
 }
 
+/**
+ * Returns true if the script content contains "sudo" (as a word).
+ * Scripts with sudo can hang waiting for password input in non-interactive environments.
+ */
+export function scriptContainsSudo(fileEvent) {
+  const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
+  return /\bsudo\b/.test(fileContent);
+}
+
 export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
   const fileContent = Buffer.from(fileEvent.content, 'base64').toString('utf8');
   fs.writeFileSync(filePath, fileContent, 'utf8');
