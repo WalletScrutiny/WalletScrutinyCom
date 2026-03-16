@@ -20,7 +20,7 @@ import {
   groupVerificationsByAppIdAndSortByVersion,
   getFileAttachmentIDsForVerificationEvent
 } from './utils.mjs';
-import { verifyAssetsFromRegistry, processNewReleaseVerification } from './verifications.mjs';
+import { verifyAssetsFromRegistry, processNewReleaseVerification, queue } from './verifications.mjs';
 import {
   shouldProcessAppId,
   HOURS_BETWEEN_EXECUTIONS,
@@ -43,6 +43,10 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     const allVerificationsRaw = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
     await verifyAssetsFromRegistry(allVerificationsRaw, appInfo);
+
+    appLog.info('[QUEUE_INFO] Waiting for queue to drain...');
+    await queue.onIdle();
+    appLog.info('[QUEUE_INFO] Queue idle - all jobs completed.');
 
     // For now, we'll try to reproduce only assets from the Asset Registry (android, hardware, desktop)
     return;

@@ -12,6 +12,8 @@ export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
+// Debug: log when job runs longer than this (minutes). Set to 0 to disable. Helps investigate if processes finish without queue being notified.
+export const QUEUE_DEBUG_TIMEOUT_MINUTES = 15;
 
 // Debug filter: include = only these appIds (empty = all); exclude = never these appIds
 export const DEBUG_APP_IDS = {

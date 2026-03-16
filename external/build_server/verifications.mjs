@@ -1,4 +1,4 @@
-import { exec } from 'child_process';
+import { spawn } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import PQueue from 'p-queue';
@@ -20,10 +20,10 @@ import {
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
 
-const queue = new PQueue({
+export const queue = new PQueue({
   concurrency: QUEUE_CONCURRENCY,
   timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
   throwOnTimeout: true
@@ -35,7 +35,7 @@ queue.on('error', error => {
   // TODO: We can potentially send a Nostr notification to the user to inform them about the error
 });
 function logQueueInfo() {
-  appLog.info(`**** Queue info - Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+  appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
 let buildDirForThisVerification = null;
@@ -305,9 +305,9 @@ export async function addJobToQueue({
   fileHash,
   binaryFilePath = null
 }) {
-  appLog.info(`   ** Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
 
-  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform));
+  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId));
   job.catch(err => {
     appLog.error('Script execution job failed:', err);
     verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
@@ -353,8 +353,37 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   }
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null) {
+  const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}`;
+
   return new Promise((resolve, reject) => {
+    const controller = new AbortController();
+    const timeoutMs = QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000;
+    const timeoutId = setTimeout(() => {
+      appLog.warn(`[QUEUE_INFO] Job timeout after ${QUEUE_TIMEOUT_HOURS}h - aborting process to free queue slot. ${jobInfo} Script: ${script}`);
+      controller.abort();
+    }, timeoutMs);
+
+    let debugTimeoutId = null;
+    if (QUEUE_DEBUG_TIMEOUT_MINUTES > 0) {
+      const debugMs = QUEUE_DEBUG_TIMEOUT_MINUTES * 60 * 1000;
+      debugTimeoutId = setTimeout(() => {
+        appLog.warn(`[QUEUE_INFO]  Job still running after ${QUEUE_DEBUG_TIMEOUT_MINUTES} min without Promise resolution - process may have finished without exec callback, or process may be hung. ${jobInfo} Script: ${script}`);
+      }, debugMs);
+    }
+
+    const done = (err, result) => {
+      clearTimeout(timeoutId);
+      if (debugTimeoutId) clearTimeout(debugTimeoutId);
+      if (err) {
+        appLog.error(`Error recording and executing script: ${err}`);
+        reject(err);
+      } else {
+        appLog.info(`Script recorded and executed successfully: ${result.castFileName}`);
+        resolve(result);
+      }
+    };
+
     // Execute script with asciinema recording
     const architectureFlag = architecture ? `--arch ${architecture}` : null;
     const typeFlag = type ? `--type ${type}` : null;
@@ -367,28 +396,39 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
     const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
-    exec(asciinemaCommand, {
+
+    const child = spawn(asciinemaCommand, {
+      shell: true,
+      signal: controller.signal,
+      stdio: ['ignore', 'pipe', 'pipe'],
       env: {
-        // Ensure PATH includes standard system directories for rootless container tools
         PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
         HOME: process.env.HOME || '/tmp',
         XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
         ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
-      },
-      maxBuffer: 10 * 1024 * 1024 // 10MB buffer for large script outputs
-    }, (error, stdout, stderr) => {
-      if (error) {
-        appLog.error(`Error recording and executing script: ${error}`);
-        reject(error);
+      }
+    });
+
+    const stdoutChunks = [];
+    const stderrChunks = [];
+    child.stdout?.on('data', chunk => stdoutChunks.push(chunk));
+    child.stderr?.on('data', chunk => stderrChunks.push(chunk));
+
+    child.on('close', (code, signal) => {
+      if (signal) {
+        done(Object.assign(new Error(`Process killed: ${signal}`), { code: null, signal }), null);
+      } else if (code !== 0) {
+        const stderrStr = Buffer.concat(stderrChunks).toString('utf8');
+        done(Object.assign(new Error(`Process exited with code ${code}${stderrStr ? `: ${stderrStr.slice(0, 200)}` : ''}`), { code, signal: null }), null);
       } else {
-        appLog.info(`Script recorded and executed successfully: ${castFileName}`);
-        resolve({
+        done(null, {
           castFileName: castFileName,
           finalScriptExecutionCommand: finalScriptExecutionCommand,
           buildDirForThisVerification: buildDirForThisVerification
         });
       }
     });
+    child.on('error', err => done(err, null));
   });
 }
 
