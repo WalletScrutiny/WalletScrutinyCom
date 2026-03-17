@@ -35,7 +35,7 @@ module.exports = (env, argv) => {
           './src/renderShareButton.js',
           './src/renderNostrButton.js'
         ],
-        dependOn: ['dom_sanitization'],
+        dependOn: ['dom_sanitization', 'verifications_data'],
       },
       font_awesome: [
         './src/font-awesome.js'

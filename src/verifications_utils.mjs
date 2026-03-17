@@ -14,7 +14,7 @@ import {
   nip89ClientTagD,
   wsBotPublicKey
 } from "./nostr-constants.mjs";
-import { userHasBrowserExtension, getFirstTagValue, isDebugEnv } from './verifications_common.mjs';
+import { userHasBrowserExtension, getFirstTagValue } from './verifications_common.mjs';
 import { formatDate } from "./assets-table-utils.js";
 import {decode} from "light-bolt11-decoder"
 import WebSocket from "ws";
@@ -2083,6 +2083,43 @@ const getNostrProfileEventFromProfileInfo = async function(profileInfo) {
   return ndkEvent;
 }
 
+// Create and sign an authorization event
+const createAuthorizationEvent = async function(verb, content, xTags = [], serverUrl = '', tags = []) {
+  const ndk = await getNdk();
+  const eventObject = {
+    kind: 24242,
+    created_at: Math.floor(Date.now() / 1000),
+    tags: [
+      ['t', verb],
+      ['expiration', (Math.floor(Date.now() / 1000) + 3600).toString()], // Expires in 1 hour
+    ],
+    content: content,
+  };
+
+  tags.forEach(tag => {
+    const [key, value] = tag;
+    eventObject.tags.push([key, value]);
+  });
+
+  xTags.forEach(x => {
+    eventObject.tags.push(['x', x]);
+  });
+
+  if (serverUrl) {
+    eventObject.tags.push(['server', serverUrl]);
+  }
+
+  // Sign with extension if available
+  if (typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function') {
+    return await window.nostr.signEvent(eventObject)
+  }
+
+  // Sign with internal identity if no extension is available
+  const event = new NDKEvent(ndk, eventObject);
+  event.sig = await event.sign();
+  return event;
+}
+
 if (typeof window !== 'undefined') {
   window.DOMPurify = DOMPurify;
   window.nostrConnect = nostrConnect;
@@ -2121,7 +2158,7 @@ if (typeof window !== 'undefined') {
   window.createZap = createZap;
   window.getNostrProfileEventFromProfileInfo = getNostrProfileEventFromProfileInfo;
   window.subscribeToZapReceipts = subscribeToZapReceipts;
-
+  window.createAuthorizationEvent = createAuthorizationEvent;
   window.addEventListener('beforeunload', () => {
     cleanupNdkConnections();
   });
@@ -2157,5 +2194,6 @@ export {
   sendPrivateMessageToVerifier,
   getEndorsementsFromVerificationEventIds,
   createZap,
-  subscribeToZapReceipts
+  subscribeToZapReceipts,
+  createAuthorizationEvent
 };
