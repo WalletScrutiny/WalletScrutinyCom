@@ -623,7 +623,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
   try {
     const verificationEventId = await createVerification(ndkInstance, formData);
 
-    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId}`);
+    verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId.id}`);
 
     if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
       removeDirectoryRecursive(buildDirForThisVerification);
