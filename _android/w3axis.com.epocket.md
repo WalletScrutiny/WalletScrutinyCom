@@ -8,8 +8,8 @@ users: 10000
 appId: w3axis.com.epocket
 appCountry: 
 released: 2018-06-23
-updated: 2026-03-02
-version: '3.29'
+updated: 2026-03-11
+version: '3.30'
 reviews: 2
 website: https://www.e-pocketexchange.com/
 repository: 

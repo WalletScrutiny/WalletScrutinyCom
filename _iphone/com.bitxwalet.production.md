@@ -9,8 +9,8 @@ idd: '6752948564'
 released: 2025-09-29
 updated: 2026-01-15
 version: '1.1'
-reviews: 61
-website: https://bitx-bitcoinwallet.com/privacy#deadLink
+reviews: 63
+website: https://bitx-bitcoinwallet.com/privacy
 repository: 
 issue: 
 icon: com.bitxwalet.production.jpg

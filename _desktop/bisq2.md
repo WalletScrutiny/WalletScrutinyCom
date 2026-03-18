@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-03-27
 discontinued: 
-updated: 2026-02-01
-version: 2.1.9
+updated: 2026-03-15
+version: 2.1.10
 binaries: https://bisq.network/downloads/
 provider: Bisq Network
 providerWebsite: 

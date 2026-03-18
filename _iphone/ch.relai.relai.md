@@ -1,6 +1,6 @@
 ---
 wsId: relaiBuyBitcoin
-title: 'Relai: Buy Bitcoin'
+title: 'Relai: Bitcoin Savings App'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: ch.relai.relai
 appCountry: ch
 idd: '1513185997'
 released: 2020-07-01
-updated: 2026-02-18
-version: 3.11.0
-reviews: 3205
+updated: 2026-03-11
+version: 3.12.0
+reviews: 3212
 website: https://relai.app/
 repository: 
 issue: 

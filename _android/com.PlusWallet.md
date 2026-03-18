@@ -10,7 +10,7 @@ appCountry:
 released: 2023-10-06
 updated: 2026-02-06
 version: 5.7.8
-reviews: 68
+reviews: 70
 website: https://coldwallet.com/
 repository: 
 issue: 

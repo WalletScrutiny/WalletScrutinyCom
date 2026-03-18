@@ -8,8 +8,8 @@ users: 1000
 appId: com.blitzwallet
 appCountry: 
 released: 2025-09-29
-updated: 2026-02-19
-version: 0.7.6
+updated: 2026-03-16
+version: 0.7.7
 reviews: 
 website: https://blitzwalletapp.com/
 repository: https://github.com/BlitzWallet/BlitzWallet

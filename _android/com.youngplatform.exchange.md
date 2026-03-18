@@ -8,8 +8,8 @@ users: 500000
 appId: com.youngplatform.exchange
 appCountry: 
 released: 
-updated: 2026-03-05
-version: 3.14.0
+updated: 2026-03-11
+version: 3.17.0
 reviews: 
 website: https://exchange.youngplatform.com
 repository: 

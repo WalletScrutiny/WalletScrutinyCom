@@ -7,8 +7,8 @@ users: 500
 appId: com.stackatm.app
 appCountry: 
 released: 2024-08-12
-updated: 2026-01-13
-version: 1.11.0
+updated: 2026-03-16
+version: 1.12.0
 reviews: 2
 website: https://stackatm.com/
 repository: 

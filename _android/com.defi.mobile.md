@@ -7,8 +7,8 @@ users: 5000
 appId: com.defi.mobile
 appCountry: 
 released: 2025-07-16
-updated: 2026-02-22
-version: 1.0.16
+updated: 2026-03-14
+version: 1.0.18
 reviews: 3
 website: https://defi.app
 repository: 

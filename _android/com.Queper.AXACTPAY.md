@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.Queper.AXACTPAY.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-12-31
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

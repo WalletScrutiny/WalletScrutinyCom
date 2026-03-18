@@ -8,10 +8,10 @@ appId: com.bity.wallet.production
 appCountry: ch
 idd: '6446944736'
 released: 2024-02-22
-updated: 2025-11-29
-version: 2.0.0
+updated: 2026-03-05
+version: 2.1.0
 reviews: 34
-website: https://bity.com/en/personal/wallet#deadLink
+website: https://bity.com/en/personal/wallet
 repository: 
 issue: 
 icon: com.bity.wallet.production.jpg

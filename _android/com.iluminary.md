@@ -3,7 +3,7 @@ wsId:
 title: iLuminary - BTC, SOL, USDT
 altTitle: 
 authors: 
-users: 1000
+users: 5000
 appId: com.iluminary
 appCountry: 
 released: 2024-03-27

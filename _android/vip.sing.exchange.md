@@ -8,8 +8,8 @@ users: 5000
 appId: vip.sing.exchange
 appCountry: 
 released: 2021-05-11
-updated: 2026-01-15
-version: 4.3.3.22
+updated: 2026-03-13
+version: 4.3.3.24
 reviews: 3
 website: https://www.starex.sg/
 repository: 

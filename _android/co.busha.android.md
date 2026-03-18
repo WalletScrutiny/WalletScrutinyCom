@@ -9,7 +9,7 @@ appId: co.busha.android
 appCountry: 
 released: 2019-01-21
 updated: 2026-03-05
-version: 10.1.2
+version: 10.1.3
 reviews: 212
 website: https://busha.co
 repository: 

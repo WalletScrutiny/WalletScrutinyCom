@@ -8,7 +8,7 @@ users: 10000
 appId: com.peachbitcoin.peach.mainnet
 appCountry: 
 released: 
-updated: 2026-03-05
+updated: 2026-03-17
 version: 0.69.0
 reviews: 
 website: https://peachbitcoin.com

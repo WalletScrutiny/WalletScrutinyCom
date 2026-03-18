@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Pluang-Trading US Stock Crypto
+title: Pluang:Trading Stocks & Crypto
 altTitle: 
 authors:
 - danny

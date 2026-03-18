@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-14
 updated: 2026-03-07
 version: '6.2'
-reviews: 10
+reviews: 11
 website: https://www.fasset.io/
 repository: 
 issue: 

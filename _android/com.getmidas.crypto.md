@@ -8,8 +8,8 @@ users: 100000
 appId: com.getmidas.crypto
 appCountry: 
 released: 2024-12-01
-updated: 2026-03-06
-version: 2.87.2
+updated: 2026-03-17
+version: 2.88.3
 reviews: 2
 website: https://www.midaskripto.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: 'CoinSwitch: Buy Bitcoin Crypto'
+title: 'CoinSwitch: Bitcoin Crypto App'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000000
 appId: com.coinswitch.kuber
 appCountry: in
 released: 2020-05-31
-updated: 2026-03-09
-version: 9.1.8
-reviews: 146517
+updated: 2026-03-18
+version: 9.2.0
+reviews: 146530
 website: https://coinswitch.co
 repository: 
 issue: 

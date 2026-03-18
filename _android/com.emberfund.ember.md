@@ -10,7 +10,7 @@ appCountry: us
 released: 2019-01-24
 updated: 2026-01-21
 version: '38.0'
-reviews: 2535
+reviews: 2543
 website: https://www.emberfund.io/
 repository: 
 issue: 

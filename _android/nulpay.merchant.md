@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: nulpay.merchant.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2025-03-19
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

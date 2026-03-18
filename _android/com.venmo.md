@@ -10,7 +10,7 @@ appCountry:
 released: 2010-05-17
 updated: 2026-03-10
 version: 26.4.1
-reviews: 347938
+reviews: 348521
 website: https://venmo.com/
 repository: 
 issue: 

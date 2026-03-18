@@ -8,8 +8,8 @@ users: 50000
 appId: nl.bitonic.androidApp
 appCountry: 
 released: 
-updated: 2026-02-27
-version: 3.21.0
+updated: 2026-03-17
+version: 3.22.1
 reviews: 
 website: https://bitonic.nl
 repository: 

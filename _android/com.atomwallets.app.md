@@ -8,8 +8,8 @@ users: 10000
 appId: com.atomwallets.app
 appCountry: 
 released: 2025-10-10
-updated: 2026-02-27
-version: 2.2.4
+updated: 2026-03-13
+version: 2.2.5
 reviews: 
 website: 
 repository: 

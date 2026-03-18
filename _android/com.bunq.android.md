@@ -4,12 +4,12 @@ title: bunq
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.bunq.android
 appCountry: 
 released: 2015-11-25
-updated: 2026-03-04
-version: 30.8.2
+updated: 2026-03-11
+version: 30.8.4
 reviews: 229
 website: http://www.bunq.com
 repository: 

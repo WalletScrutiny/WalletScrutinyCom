@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.suniwallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-12-02
+date: 2026-03-18
 signer: 
 twitter: Suni_wallet
 social:

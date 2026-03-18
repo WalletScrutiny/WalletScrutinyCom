@@ -8,8 +8,8 @@ users: 1000000
 appId: com.nanovest.prod
 appCountry: 
 released: 2023-06-08
-updated: 2026-03-09
-version: 5.3.2
+updated: 2026-03-11
+version: 5.4.1
 reviews: 30
 website: https://nanovest.zendesk.com/hc/en-us
 repository: 

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-12-23
+date: 2026-03-18
 signer: 
 twitter: buyucoin
 social:

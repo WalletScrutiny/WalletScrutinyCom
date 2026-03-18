@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.secuxtech.mysecuxpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2025-03-25
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

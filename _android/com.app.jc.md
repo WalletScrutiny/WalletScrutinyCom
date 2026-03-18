@@ -8,8 +8,8 @@ users: 100000
 appId: com.app.jc
 appCountry: 
 released: 2025-01-13
-updated: 2026-02-05
-version: 3.3.10
+updated: 2026-03-16
+version: 3.3.11
 reviews: 10
 website: 
 repository: 

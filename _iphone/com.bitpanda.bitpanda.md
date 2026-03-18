@@ -8,10 +8,10 @@ appId: com.bitpanda.bitpanda
 appCountry: at
 idd: '1449018960'
 released: 2019-11-29
-updated: 2026-02-16
-version: 3.17.0
-reviews: 24992
-website: https://www.bitpanda.com/app#deadLink
+updated: 2026-03-12
+version: 3.19.0
+reviews: 25168
+website: https://www.bitpanda.com/app
 repository: 
 issue: 
 icon: com.bitpanda.bitpanda.jpg

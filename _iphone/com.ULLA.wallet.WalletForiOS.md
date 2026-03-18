@@ -27,7 +27,7 @@ social:
 - https://t.me/wowearnen
 - https://medium.com/@wowearn2023
 features: 
-developerName: ULLA TECHNOLOGY CO., LIMITED
+developerName: WOW EARN TECHNOLOGY DMCC
 
 ---
 

@@ -7,18 +7,18 @@ users: 500
 appId: net.primecoin.app.gemmer
 appCountry: 
 released: 2020-12-20
-updated: 2024-04-20
-version: 0.4.25
+updated: 2026-03-13
+version: 0.5.2
 reviews: 
 website: https://github.com/primecoin/gemmer
 repository: 
 issue: 
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2025-04-22
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

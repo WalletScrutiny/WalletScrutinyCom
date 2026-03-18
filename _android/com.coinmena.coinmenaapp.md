@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-08-07
 updated: 2026-02-26
 version: 3.5.0
-reviews: 54
+reviews: 57
 website: http://coinmena.com
 repository: 
 issue: 

@@ -7,8 +7,8 @@ users: 5000
 appId: com.dswallet.app
 appCountry: 
 released: 2025-03-19
-updated: 2025-11-17
-version: 2.1.0
+updated: 2026-03-12
+version: 2.1.3
 reviews: 
 website: 
 repository: 

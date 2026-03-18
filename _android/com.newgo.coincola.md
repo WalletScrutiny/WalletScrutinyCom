@@ -10,7 +10,7 @@ appCountry:
 released: 2017-07-07
 updated: 2026-03-03
 version: 6.6.3
-reviews: 167
+reviews: 169
 website: https://www.coincola.com
 repository: 
 issue: 

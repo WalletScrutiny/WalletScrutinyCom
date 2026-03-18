@@ -10,7 +10,7 @@ appCountry: ae
 released: 2020-08-20
 updated: 2026-02-20
 version: 4.1.1
-reviews: 662
+reviews: 663
 website: https://bitoasis.net/
 repository: 
 issue: 

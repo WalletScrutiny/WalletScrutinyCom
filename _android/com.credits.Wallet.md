@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
 redirect_from: 
-developerName: SOFTWARE C SP Z.O.O
+developerName: SECURITY AND EXCHANGE INTERNATIONAL CO INC.
 builds: 
 features: 
 

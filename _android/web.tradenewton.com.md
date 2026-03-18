@@ -8,8 +8,8 @@ users: 100000
 appId: web.tradenewton.com
 appCountry: 
 released: 2019-11-18
-updated: 2026-03-02
-version: 2.20.14
+updated: 2026-03-09
+version: 2.20.16
 reviews: 4
 website: https://newton.co
 repository: 

@@ -7,8 +7,8 @@ users: 500
 appId: com.app.degate
 appCountry: 
 released: 2025-06-09
-updated: 2026-02-08
-version: 1.0.19
+updated: 2026-03-15
+version: 1.0.21
 reviews: 
 website: https://degate.com/
 repository: 

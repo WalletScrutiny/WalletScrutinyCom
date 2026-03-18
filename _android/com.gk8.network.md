@@ -7,8 +7,8 @@ users: 100
 appId: com.gk8.network
 appCountry: 
 released: 2021-09-01
-updated: 2026-01-30
-version: 18.0.0
+updated: 2026-03-11
+version: 18.0.1
 reviews: 
 website: https://www.gk8.io/contact-us/
 repository: 

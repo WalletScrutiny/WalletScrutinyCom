@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.barongxtrade.users.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-09-15
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

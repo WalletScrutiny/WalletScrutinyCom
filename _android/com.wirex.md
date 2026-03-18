@@ -8,9 +8,9 @@ users: 1000000
 appId: com.wirex
 appCountry: 
 released: 2016-03-31
-updated: 2026-02-16
-version: 4.12.50
-reviews: 1109
+updated: 2026-03-17
+version: 4.12.60
+reviews: 1111
 website: https://wirexapp.com
 repository: 
 issue: 

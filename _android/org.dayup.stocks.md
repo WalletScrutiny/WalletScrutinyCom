@@ -11,7 +11,7 @@ appCountry:
 released: 
 updated: 2026-03-09
 version: 11.7.5.57
-reviews: 41324
+reviews: 41334
 website: https://www.webull.com
 repository: 
 issue: 

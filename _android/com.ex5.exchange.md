@@ -3,7 +3,7 @@ wsId:
 title: EX5 Crypto Exchange | BTC
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ex5.exchange
 appCountry: 
 released: 

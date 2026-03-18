@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: io.rapidz.rapidzcheckout.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2026-01-28
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

@@ -8,8 +8,8 @@ appId: by.bitcash.cryptowallet
 appCountry: by
 idd: '1602652484'
 released: 2022-01-12
-updated: 2026-02-18
-version: 1.0.4
+updated: 2026-03-18
+version: 1.0.5
 reviews: 14
 website: 
 repository: 

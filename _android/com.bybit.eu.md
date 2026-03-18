@@ -9,7 +9,7 @@ appId: com.bybit.eu
 appCountry: 
 released: 
 updated: 2026-03-05
-version: 5.12.0
+version: 5.12.5
 reviews: 
 website: https://www.bybit.eu/help-center
 repository: 

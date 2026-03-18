@@ -12,7 +12,7 @@ appCountry:
 released: 2020-01-19
 updated: 2026-02-25
 version: 9.6.0
-reviews: 593
+reviews: 594
 website: https://www.zengo.com
 repository: 
 issue: 

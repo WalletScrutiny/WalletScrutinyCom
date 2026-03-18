@@ -8,8 +8,8 @@ users: 5000000
 appId: com.bitkub
 appCountry: 
 released: 2019-04-20
-updated: 2026-03-07
-version: 4.12.0
+updated: 2026-03-13
+version: 4.12.2
 reviews: 44
 website: http://www.bitkub.com
 repository: 

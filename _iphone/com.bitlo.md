@@ -10,7 +10,7 @@ idd: '1544492069'
 released: 2020-12-28
 updated: 2026-02-12
 version: 2.1.49
-reviews: 4017
+reviews: 4041
 website: https://www.bitlo.com/
 repository: 
 issue: 

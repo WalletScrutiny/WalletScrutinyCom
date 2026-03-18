@@ -12,7 +12,7 @@ appCountry:
 released: 2019-05-01
 updated: 2024-11-14
 version: 1.51.10
-reviews: 61
+reviews: 62
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
 issue: https://github.com/trustee-wallet/trusteeWallet/issues/180

@@ -23,7 +23,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Kyvo
+developerName: Parler Technologies
 builds: 
 features: 
 

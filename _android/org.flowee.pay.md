@@ -7,8 +7,8 @@ users: 1000
 appId: org.flowee.pay
 appCountry: 
 released: 2023-06-19
-updated: 2026-03-04
-version: 2026.03.0
+updated: 2026-03-16
+version: 2026.03.2
 reviews: 
 website: http://flowee.org
 repository: 

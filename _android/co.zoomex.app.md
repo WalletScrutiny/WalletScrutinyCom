@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-14
 updated: 2026-02-05
 version: 3.11.7
-reviews: 39
+reviews: 40
 website: 
 repository: 
 issue: 

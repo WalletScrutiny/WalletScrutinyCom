@@ -8,8 +8,8 @@ appId: com.app.KoinParkios
 appCountry: in
 idd: '6448510693'
 released: 2023-05-10
-updated: 2025-11-27
-version: '5.6'
+updated: 2026-03-11
+version: '5.7'
 reviews: 80
 website: https://www.koinpark.com/
 repository: 

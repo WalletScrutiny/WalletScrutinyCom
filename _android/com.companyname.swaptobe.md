@@ -8,7 +8,7 @@ users: 100000
 appId: com.companyname.swaptobe
 appCountry: 
 released: 2021-10-14
-updated: 2025-03-31
+updated: 2026-03-18
 version: '6.0'
 reviews: 20
 website: https://pionechain.com

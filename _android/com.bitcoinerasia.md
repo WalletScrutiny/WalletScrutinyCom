@@ -15,10 +15,10 @@ repository:
 issue: 
 icon: com.bitcoinerasia.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-11-10
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

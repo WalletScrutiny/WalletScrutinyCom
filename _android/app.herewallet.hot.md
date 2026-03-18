@@ -10,7 +10,7 @@ appCountry:
 released: 2025-03-26
 updated: 2025-06-15
 version: '1.0'
-reviews: 61
+reviews: 62
 website: https://hot-labs.org/privacypolicy
 repository: 
 issue: 

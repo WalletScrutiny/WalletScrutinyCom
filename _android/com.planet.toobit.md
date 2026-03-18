@@ -8,9 +8,9 @@ users: 1000000
 appId: com.planet.toobit
 appCountry: 
 released: 2023-02-14
-updated: 2026-02-26
-version: 2.1.9
-reviews: 326
+updated: 2026-03-11
+version: 2.2.0
+reviews: 327
 website: https://www.toobit.com
 repository: 
 issue: 

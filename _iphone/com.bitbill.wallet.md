@@ -8,8 +8,8 @@ appId: com.bitbill.wallet
 appCountry: 
 idd: '1321798216'
 released: 2018-02-07
-updated: 2026-01-22
-version: 4.62.0
+updated: 2026-03-17
+version: 4.62.1
 reviews: 147
 website: http://www.bitbill.com#deadLink
 repository: 

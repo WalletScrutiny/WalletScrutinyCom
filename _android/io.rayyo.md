@@ -8,8 +8,8 @@ users: 10000
 appId: io.rayyo
 appCountry: 
 released: 2025-10-03
-updated: 2026-02-19
-version: 0.7.49
+updated: 2026-03-12
+version: 0.7.50
 reviews: 
 website: https://rayyo.mx
 repository: 

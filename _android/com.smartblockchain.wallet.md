@@ -10,7 +10,7 @@ appCountry:
 released: 2023-07-20
 updated: 2026-01-25
 version: 2.5.0
-reviews: 32
+reviews: 33
 website: https://smartwallet.com
 repository: 
 issue: 

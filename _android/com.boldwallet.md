@@ -7,8 +7,8 @@ users: 50
 appId: com.boldwallet
 appCountry: 
 released: 2025-07-15
-updated: 2026-03-10
-version: 3.0.1
+updated: 2026-03-15
+version: 3.0.5
 reviews: 
 website: https://boldbitcoinwallet.com
 repository: 

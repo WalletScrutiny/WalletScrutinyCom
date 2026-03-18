@@ -10,7 +10,7 @@ appCountry:
 released: 2023-07-28
 updated: 2026-02-28
 version: 5.7.9
-reviews: 5
+reviews: 6
 website: https://www.bvox.com
 repository: 
 issue: 

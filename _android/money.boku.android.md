@@ -10,7 +10,7 @@ appCountry:
 released: 2023-10-17
 updated: 2026-03-09
 version: 1.3.186
-reviews: 12
+reviews: 14
 website: https://neverless.com
 repository: 
 issue: 

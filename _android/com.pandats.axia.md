@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.pandats.axia.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2021-10-21
+date: 2026-03-18
 signer: 
 twitter: 
 social: 

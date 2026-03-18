@@ -8,8 +8,8 @@ users: 10000000
 appId: de.number26.android
 appCountry: 
 released: 2015-01-23
-updated: 2026-02-22
-version: '4.45'
+updated: 2026-03-10
+version: '4.46'
 reviews: 2165
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 

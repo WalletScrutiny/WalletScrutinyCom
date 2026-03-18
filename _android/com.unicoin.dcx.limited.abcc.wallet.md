@@ -3,7 +3,7 @@ wsId:
 title: ABCC Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.unicoin.dcx.limited.abcc.wallet
 appCountry: 
 released: 

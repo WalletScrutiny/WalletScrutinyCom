@@ -7,8 +7,8 @@ users: 1000
 appId: com.inexlatam.panther
 appCountry: 
 released: 2025-06-05
-updated: 2026-03-04
-version: 0.7.5
+updated: 2026-03-11
+version: 0.7.6
 reviews: 
 website: https://inexlatam.com/panther-by-inex/
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: by.bitcash.wallet
 appCountry: 
 released: 
-updated: 2026-02-17
-version: 1.0.4
+updated: 2026-03-17
+version: 1.0.5
 reviews: 
 website: https://wbitcash.com/
 repository: 

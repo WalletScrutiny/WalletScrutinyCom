@@ -4,7 +4,7 @@ title: Poloniex Crypto Exchange
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.plunien.poloniex
 appCountry: 
 released: 2017-06-19

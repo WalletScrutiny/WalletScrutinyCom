@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: app.simple.com.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2026-03-18
 signer: 
 twitter: smpl_app
 social:

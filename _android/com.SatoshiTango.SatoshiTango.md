@@ -10,7 +10,7 @@ appCountry:
 released: 2015-06-24
 updated: 2026-01-28
 version: 5.11.0
-reviews: 44
+reviews: 45
 website: http://www.satoshitango.com
 repository: 
 issue: 

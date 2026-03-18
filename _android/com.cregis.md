@@ -7,8 +7,8 @@ users: 500
 appId: com.cregis
 appCountry: 
 released: 2023-04-05
-updated: 2026-01-15
-version: 3.6.2
+updated: 2026-03-11
+version: 3.7.0
 reviews: 
 website: https://www.cregis.com
 repository: 

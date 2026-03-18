@@ -8,8 +8,8 @@ users: 100000
 appId: com.btcc.wallets
 appCountry: 
 released: 2023-11-16
-updated: 2026-01-26
-version: 3.5.40
+updated: 2026-03-16
+version: 3.5.41
 reviews: 14
 website: https://www.btcc.com/wallet
 repository: 

@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.coindcx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-07-08
+date: 2026-03-18
 signer: 
 twitter: coindcx
 social:

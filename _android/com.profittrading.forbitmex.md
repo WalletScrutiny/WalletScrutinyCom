@@ -8,8 +8,8 @@ users: 50000
 appId: com.profittrading.forbitmex
 appCountry: 
 released: 2019-06-11
-updated: 2026-02-26
-version: 8.0.2
+updated: 2026-03-17
+version: 8.0.3
 reviews: 8
 website: https://profittradingapp.com?utm_source=bitmex_gp
 repository: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-21
 updated: 2026-02-24
 version: 7.2.3
-reviews: 192
+reviews: 193
 website: https://breet.app
 repository: 
 issue: 

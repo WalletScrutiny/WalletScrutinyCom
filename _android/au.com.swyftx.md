@@ -8,7 +8,7 @@ users: 100000
 appId: au.com.swyftx
 appCountry: 
 released: 
-updated: 2026-03-06
+updated: 2026-03-15
 version: 2.8.40
 reviews: 
 website: https://swyftx.com/

@@ -9,7 +9,7 @@ appId: app.simple.com
 appCountry: 
 released: 2023-04-24
 updated: 2026-02-27
-version: 3.24.2
+version: 3.24.3
 reviews: 1850
 website: https://simple.app/
 repository: 

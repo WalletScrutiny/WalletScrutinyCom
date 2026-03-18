@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-02
 updated: 2026-01-23
 version: 1.64.7
-reviews: 4
+reviews: 5
 website: https://bitcoiva.com
 repository: 
 issue: 

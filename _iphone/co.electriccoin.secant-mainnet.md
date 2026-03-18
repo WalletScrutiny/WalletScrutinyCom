@@ -7,10 +7,10 @@ appId: co.electriccoin.secant-mainnet
 appCountry: us
 idd: '1672392439'
 released: 2024-03-28
-updated: 2026-03-02
-version: 3.0.1
-reviews: 97
-website: https://zodl.com
+updated: 2026-03-12
+version: 3.1.0
+reviews: 101
+website: http://zodl.com
 repository: 
 issue: 
 icon: co.electriccoin.secant-mainnet.jpg

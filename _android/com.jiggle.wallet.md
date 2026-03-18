@@ -10,7 +10,7 @@ appCountry:
 released: 2023-05-19
 updated: 2025-04-11
 version: 0.2.44
-reviews: 36
+reviews: 37
 website: https://jiggle.app
 repository: 
 issue: 
