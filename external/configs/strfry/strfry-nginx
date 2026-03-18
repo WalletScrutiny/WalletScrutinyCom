@@ -1,3 +1,5 @@
+
+
 server {
     listen 80;
     server_name relay.nostr.info;
@@ -27,8 +29,8 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
         # Timeout for long WebSocket connections
-        proxy_read_timeout 3600s;
-        proxy_send_timeout 3600s;
-        proxy_connect_timeout 3600s;
+        proxy_read_timeout 180s;
+        proxy_send_timeout 180s;
+        proxy_connect_timeout 180s;
     }
 }
