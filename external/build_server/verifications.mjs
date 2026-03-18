@@ -20,13 +20,82 @@ import {
 } from './utils.mjs';
 import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
-import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES } from './config/config.mjs';
+import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
+
+// Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
+const runningAppIds = new Set();
+
+/**
+ * Custom queue that ensures at most one job per appId runs at a time.
+ * When a slot becomes free, it only picks jobs whose appId is not in runningAppIds.
+ * If all queued jobs are from apps already running, the slot stays free until one of those apps finishes.
+ */
+class AppIdAwareQueue {
+  #queue = [];
+
+  enqueue(run, options) {
+    const { priority = 0, id, appId } = options ?? {};
+    const element = { priority, id, run, appId };
+    if (this.#queue.length === 0 || this.#queue[this.#queue.length - 1].priority >= priority) {
+      this.#queue.push(element);
+      return;
+    }
+    const index = this.#lowerBound(element);
+    this.#queue.splice(index, 0, element);
+  }
+
+  #lowerBound(value) {
+    let first = 0;
+    let count = this.#queue.length;
+    while (count > 0) {
+      const step = Math.trunc(count / 2);
+      const it = first + step;
+      if (this.#queue[it].priority >= value.priority) {
+        first = it + 1;
+        count -= step + 1;
+      } else {
+        count = step;
+      }
+    }
+    return first;
+  }
+
+  setPriority(id, priority) {
+    const index = this.#queue.findIndex((el) => el.id === id);
+    if (index === -1) {
+      throw new ReferenceError(`No promise function with the id "${id}" exists in the queue.`);
+    }
+    const [item] = this.#queue.splice(index, 1);
+    this.enqueue(item.run, { priority, id, appId: item.appId });
+  }
+
+  dequeue() {
+    const idx = this.#queue.findIndex((el) => !el.appId || !runningAppIds.has(el.appId));
+    if (idx < 0) {
+      const running = [...runningAppIds].join(', ');
+      appLog.info(`[QUEUE_INFO] Slot deferred: all ${this.#queue.length} queued jobs are from running apps (${running}). Retrying in 5s.`);
+      return () => new Promise((resolve) => setTimeout(resolve, 5000));
+    }
+    const [item] = this.#queue.splice(idx, 1);
+    appLog.info(`[QUEUE_INFO] Picked job for appId=${item.appId ?? 'n/a'} from queue (${this.#queue.length} remaining).`);
+    return item.run;
+  }
+
+  filter(options) {
+    return this.#queue.filter((el) => el.priority === options.priority).map((el) => el.run);
+  }
+
+  get size() {
+    return this.#queue.length;
+  }
+}
 
 export const queue = new PQueue({
   concurrency: QUEUE_CONCURRENCY,
   timeout: QUEUE_TIMEOUT_HOURS * 60 * 60 * 1000,
-  throwOnTimeout: true
+  throwOnTimeout: true,
+  queueClass: AppIdAwareQueue
 });
 queue.on('active', logQueueInfo);
 queue.on('next', logQueueInfo);
@@ -38,7 +107,9 @@ function logQueueInfo() {
   appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
 }
 
-let buildDirForThisVerification = null;
+setInterval(() => {
+  appLog.info(`[QUEUE_INFO] Waiting (${queue.size})  Running (${queue.pending}): ${JSON.stringify(queue.runningTasks)}`);
+}, QUEUE_STATUS_INTERVAL_MINUTES * 60 * 1000);
 
 /**
  * Downloads a file from the Blossom server by its hash.
@@ -131,49 +202,24 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
     }
     const { architecture, type } = archAndType;
 
-    const buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + version + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-    createCompilationDirectory(buildDirForThisVerification);
-
-    let downloadedFileName = null;
-    if (sanitizedFileName) {
-      downloadedFileName = sanitizedFileName;
-    } else {
-      downloadedFileName = `${appId}_${version}_${fileHash}_downloaded.apk`;
-    }
-    const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
-
-    appLog.debug(`     - downloading from Blossom... ${fileHash}`);
-    const downloadResult = await downloadFileFromBlossom(fileHash, downloadedFileNamePath);
-
-    if (!downloadResult.success) {
-      appLog.debug(`     - file not found in Blossom (${downloadResult.error}). Skipping...`);
-      continue;
-    }
-
-    appLog.debug(`     - saved to ${downloadedFileNamePath}`);
-
-    const scriptFileName = `${appId}_${fileHash}_script.sh`;
-    const scriptPath = path.join(buildDirForThisVerification, scriptFileName);
     if (scriptContainsSudo(verification.buildShFileEvent)) {
-      appLog.info(`     - skipping script (contains sudo): ${scriptPath}`);
-      verificationsLog.info(`--- ${appId} ${version} | Skipping script - contains sudo (would hang waiting for password)`);
-      continue;
+      appLog.info(`     - the script contains sudo (would hang waiting for password if run in the host machine)`);
     }
-    appLog.debug(`     - saving script to ${scriptPath}`);
-    saveScriptFromEventMakeExecutable(verification.buildShFileEvent, scriptPath);
+
+    const downloadedFileName = sanitizedFileName ?? `${appId}_${version}_${fileHash}_downloaded.apk`;
 
     await addJobToQueue({
       verification: verification.verification,
       appId,
       platform,
-      buildDirForThisVerification,
-      scriptWithPath: scriptPath,
       newWalletVersion: version,
       architecture,
       type,
       fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
       fileHash,
-      binaryFilePath: downloadedFileNamePath
+      jobType: 'asset',
+      buildShFileEvent: verification.buildShFileEvent,
+      downloadedFileName
     });
   }
 }
@@ -225,14 +271,10 @@ export async function processNewReleaseVerification(verification, newWalletVersi
       }
 
       for (const { architecture, type } of buildCombinations) {
-        // Create unique filename
         const safeAppId = appId.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeVersion = newWalletVersion.replace(/[^a-zA-Z0-9.-]/g, '_');
         const safeFileName = fileName.replace(/[^a-zA-Z0-9.-]/g, '_');
         const outputFileName = `${safeAppId}_${safeVersion}_${safeFileName}.sh`;
-        buildDirForThisVerification = path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
-
-        const scriptWithPath = path.join(buildDirForThisVerification, outputFileName);
 
         // Check if this combination is already in the WS Bot verifications
         const wsBotVerification = wsBotVerifications.find(v => {
@@ -253,29 +295,25 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | WS Bot verification already found for this combination: ${wsBotVerification.id}`);
           continue;
         } else {
-          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | sh script found: ${scriptWithPath}`);
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | sh script found`);
         }
-
-        createCompilationDirectory(buildDirForThisVerification);
 
         if (scriptContainsSudo(fileEvent)) {
-          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | Skipping script - contains sudo (would hang waiting for password)`);
-          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Skipping script - contains sudo: ${architecture ? architecture : ''} ${type ? type : ''}`);
-          continue;
+          appLog.info(`${appId} | ${newWalletVersion} | ${platform} | ${architecture} | ${type} | the script contains sudo (would hang waiting for password if run in the host machine)`);
         }
-        saveScriptFromEventMakeExecutable(fileEvent, scriptWithPath);
 
         await addJobToQueue({
           verification,
           appId,
           platform,
-          buildDirForThisVerification,
-          scriptWithPath,
           newWalletVersion,
           architecture,
           type,
           fileEventIdsForSHFiles,
-          fileHash
+          fileHash: null,
+          jobType: 'newRelease',
+          buildShFileEvent: fileEvent,
+          outputFileName
         });
       }
     }
@@ -296,24 +334,60 @@ export async function addJobToQueue({
   verification,
   appId,
   platform,
-  buildDirForThisVerification,
-  scriptWithPath,
   newWalletVersion,
   architecture,
   type,
   fileEventIdsForSHFiles,
   fileHash,
-  binaryFilePath = null
+  jobType,
+  buildShFileEvent,
+  downloadedFileName,
+  outputFileName
 }) {
-  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptWithPath} ***`);
+  const scriptPathForLog = jobType === 'asset'
+    ? `${appId}_${fileHash}_script.sh`
+    : outputFileName ?? 'script.sh';
+  appLog.info(`[QUEUE_INFO] Add job to queue: architecture: ${architecture}, type: ${type}, new wallet version: ${newWalletVersion} - ${scriptPathForLog} ***`);
 
-  const job = queue.add(() => startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId));
-  job.catch(err => {
-    appLog.error('Script execution job failed:', err);
-    verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${JSON.stringify(err)}`);
-  });
+  const jobPayload = {
+    verification,
+    appId,
+    platform,
+    newWalletVersion,
+    architecture,
+    type,
+    fileEventIdsForSHFiles,
+    fileHash,
+    jobType,
+    buildShFileEvent,
+    downloadedFileName,
+    outputFileName
+  };
+
+  const job = queue.add(
+    async () => {
+      runningAppIds.add(appId);
+      try {
+        return await runJobWithPreparation(jobPayload).catch(err => {
+          appLog.error('Script execution job failed:', err);
+          verificationsLog.info(`--- ${appId} ${newWalletVersion} | Script execution job failed: ${architecture ? architecture : ''} ${type ? type : ''} ${err?.message ?? String(err)}`);
+          return null;
+        });
+      } finally {
+        runningAppIds.delete(appId);
+      }
+    },
+    {
+      appId,
+      id: `${appId}_${newWalletVersion}_${architecture ?? ''}_${type ?? ''}_${fileHash ?? 'release'}`
+    }
+  );
   job.then(async returnParamsFromCompilationJob => {
+    if (!returnParamsFromCompilationJob) {
+      return;
+    }
     appLog.info('Script execution job completed. Creating verification...', returnParamsFromCompilationJob);
+    const binaryFilePath = returnParamsFromCompilationJob.binaryFilePath ?? null;
     await createVerificationAfterCompilation(
       returnParamsFromCompilationJob,
       verification,
@@ -327,6 +401,49 @@ export async function addJobToQueue({
       binaryFilePath
     );
   });
+}
+
+async function runJobWithPreparation({
+  verification,
+  appId,
+  platform,
+  newWalletVersion,
+  architecture,
+  type,
+  fileEventIdsForSHFiles,
+  fileHash,
+  jobType,
+  buildShFileEvent,
+  downloadedFileName,
+  outputFileName
+}) {
+  const buildDirForThisVerification = jobType === 'asset'
+    ? path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''))
+    : path.join(BUILD_DIR_PREFIX, appId + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''));
+
+  createCompilationDirectory(buildDirForThisVerification);
+
+  let binaryFilePath = null;
+  if (jobType === 'asset') {
+    const downloadedFileNamePath = path.join(buildDirForThisVerification, downloadedFileName);
+    appLog.debug(`     - downloading from Blossom... ${fileHash}`);
+    const downloadResult = await downloadFileFromBlossom(fileHash, downloadedFileNamePath);
+    if (!downloadResult.success) {
+      throw new Error(`File not found in Blossom (${downloadResult.error})`);
+    }
+    appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+    binaryFilePath = downloadedFileNamePath;
+  }
+
+  const scriptWithPath = jobType === 'asset'
+    ? path.join(buildDirForThisVerification, `${appId}_${fileHash}_script.sh`)
+    : path.join(buildDirForThisVerification, outputFileName);
+
+  appLog.debug(`     - saving script to ${scriptWithPath}`);
+  saveScriptFromEventMakeExecutable(buildShFileEvent, scriptWithPath);
+
+  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId);
+  return { ...result, binaryFilePath };
 }
 
 export function readComparisonResults(buildDirForThisVerification, architecture, appId, newWalletVersion, type) {

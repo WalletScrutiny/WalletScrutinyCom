@@ -1,6 +1,3 @@
-// Hours between main process executions
-export const HOURS_BETWEEN_EXECUTIONS = 24;
-
 // Approved verifiers public keys (hex format)
 export const APPROVED_VERIFIERS_PUBKEY_HEX = [
   '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
@@ -9,11 +6,16 @@ export const APPROVED_VERIFIERS_PUBKEY_HEX = [
 
 export const WS_BOT_NOSTR_PUBKEY_HEX = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335';
 
+// Hours between main process executions
+export const HOURS_BETWEEN_EXECUTIONS = 1;
+
 // Queue configuration
 export const QUEUE_TIMEOUT_HOURS = 6;
 export const QUEUE_CONCURRENCY = 3;
 // Debug: log when job runs longer than this (minutes). Set to 0 to disable. Helps investigate if processes finish without queue being notified.
-export const QUEUE_DEBUG_TIMEOUT_MINUTES = 15;
+export const QUEUE_DEBUG_TIMEOUT_MINUTES = 30;
+// Interval (minutes) for periodic queue status logs
+export const QUEUE_STATUS_INTERVAL_MINUTES = 5;
 
 // Debug filter: include = only these appIds (empty = all); exclude = never these appIds
 export const DEBUG_APP_IDS = {
