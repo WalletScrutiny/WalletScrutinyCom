@@ -12,7 +12,6 @@ version: '2'
 reviews: 
 website: https://profxmining.com#deadLink
 repository: 
-issue: 
 icon: com.profx.mining.png
 bugbounty: 
 meta: removed

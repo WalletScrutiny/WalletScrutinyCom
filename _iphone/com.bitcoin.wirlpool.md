@@ -13,7 +13,6 @@ version: 1.0.7
 reviews: 9
 website: https://www.facebook.com/groups/sparrowwallet
 repository: 
-issue: 
 icon: com.bitcoin.wirlpool.jpg
 bugbounty: 
 meta: removed

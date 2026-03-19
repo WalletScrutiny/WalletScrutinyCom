@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: http://bit7pay.com
 repository: 
-issue: 
 icon: bit7pay.com.bit7pay.png
 bugbounty: 
 meta: removed

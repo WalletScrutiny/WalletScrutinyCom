@@ -17,7 +17,6 @@ shop:
 country: IN
 price: 
 repository: 
-issue: 
 icon: aiotize.cryptozip.png
 bugbounty: 
 meta: ok

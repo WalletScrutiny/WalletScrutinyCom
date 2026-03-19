@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: http://cointrunk.net#deadLink
 repository: 
-issue: 
 icon: com.poland.cointrunk.jpg
 bugbounty: 
 meta: removed

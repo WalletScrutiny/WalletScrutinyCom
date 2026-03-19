@@ -14,7 +14,6 @@ version: 8.28.0
 reviews: 140
 website: https://zelcore.io
 repository: 
-issue: 
 icon: com.zelcash.zelcore.png
 bugbounty: 
 meta: ok

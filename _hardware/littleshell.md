@@ -18,7 +18,6 @@ shop: https://sialktech.ir/shop/digital-wallets/little-shell/littleshell-cryptoc
 country: IR
 price: 
 repository: 
-issue: 
 icon: littleshell.png
 bugbounty: 
 meta: defunct

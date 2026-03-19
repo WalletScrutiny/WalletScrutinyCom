@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bitcoincashsystems.com/
 repository: 
-issue: 
 icon: com.bitcoincashsystems.app.png
 bugbounty: 
 meta: removed

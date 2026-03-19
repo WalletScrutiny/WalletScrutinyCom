@@ -13,7 +13,6 @@ version: 0.1.5
 reviews: 
 website: http://lohitgroup.com#deadLink
 repository: 
-issue: 
 icon: com.lohitgroup.start.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 17.1.6
 reviews: 123
 website: https://profittradingapp.com?utm_source=binance_gp
 repository: 
-issue: 
 icon: com.profittrading.forbinance.png
 bugbounty: 
 meta: ok

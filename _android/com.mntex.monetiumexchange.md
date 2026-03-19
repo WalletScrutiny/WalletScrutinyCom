@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://mntex.io#deadLink
 repository: 
-issue: 
 icon: com.mntex.monetiumexchange.png
 bugbounty: 
 meta: removed

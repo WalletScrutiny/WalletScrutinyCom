@@ -12,7 +12,6 @@ version: 5.9.0
 reviews: 368
 website: 
 repository: 
-issue: 
 icon: com.cakewallet.monero.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 6
 website: https://cakewallet.com
 repository: 
-issue: 
 icon: com.cakewallet.cupcake.jpg
 bugbounty: 
 meta: ok

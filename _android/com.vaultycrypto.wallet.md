@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.vaulty.pro
 repository: 
-issue: 
 icon: com.vaultycrypto.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 11
 website: https://www.quidax.io/
 repository: 
-issue: 
 icon: io.quidax.app.png
 bugbounty: 
 meta: ok

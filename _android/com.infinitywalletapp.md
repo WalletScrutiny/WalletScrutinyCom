@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://ifwallet.com.br#deadLink
 repository: 
-issue: 
 icon: com.infinitywalletapp.png
 bugbounty: 
 meta: removed

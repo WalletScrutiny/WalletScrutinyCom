@@ -12,7 +12,6 @@ version: '0.8'
 reviews: 
 website: https://aurorawallet.app
 repository: 
-issue: 
 icon: com.aurora.aurorawallet.png
 bugbounty: 
 meta: removed

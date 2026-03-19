@@ -13,7 +13,6 @@ version: 1.8.4
 reviews: 
 website: https://senexpay.com
 repository: 
-issue: 
 icon: com.senexpay.mobile.png
 bugbounty: 
 meta: ok

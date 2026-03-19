@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://emirex.com/
 repository: 
-issue: 
 icon: com.emirex.android.png
 bugbounty: 
 meta: removed

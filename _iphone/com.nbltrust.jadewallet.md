@@ -13,7 +13,6 @@ version: 1.27.8
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.nbltrust.jadewallet.jpg
 bugbounty: 
 meta: removed

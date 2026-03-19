@@ -13,7 +13,6 @@ version: 11.5.10
 reviews: 33
 website: https://www.emoney.ge/
 repository: 
-issue: 
 icon: ge.mobility.emoney.png
 bugbounty: 
 meta: ok

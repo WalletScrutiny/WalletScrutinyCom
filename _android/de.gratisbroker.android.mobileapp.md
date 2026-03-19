@@ -13,7 +13,6 @@ version: 5.11.5
 reviews: 9
 website: https://www.finanzen.net/zero
 repository: 
-issue: 
 icon: de.gratisbroker.android.mobileapp.png
 bugbounty: 
 meta: ok

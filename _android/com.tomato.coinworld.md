@@ -12,7 +12,6 @@ version: '3.2'
 reviews: 
 website: http://swmakekr.com/html/index.html
 repository: 
-issue: 
 icon: com.tomato.coinworld.png
 bugbounty: 
 meta: obsolete

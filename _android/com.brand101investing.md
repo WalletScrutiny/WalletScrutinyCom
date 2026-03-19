@@ -13,7 +13,6 @@ version: 1.5.78-brand101investing
 reviews: 209
 website: https://www.101investing.com/
 repository: 
-issue: 
 icon: com.brand101investing.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 4.1.8
 reviews: 
 website: https://uni.global
 repository: 
-issue: 
 icon: uni.global.mcdc_client_app.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.vmining.bitcoininvestingblockchaintechnology.png
 bugbounty: 
 meta: removed

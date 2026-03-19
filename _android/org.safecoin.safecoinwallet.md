@@ -12,7 +12,6 @@ version: 0.0.6
 reviews: 
 website: https://safecoin.org
 repository: 
-issue: 
 icon: org.safecoin.safecoinwallet.png
 bugbounty: 
 meta: removed

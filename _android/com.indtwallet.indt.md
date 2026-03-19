@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://indtcoin.com#deadLink
 repository: 
-issue: 
 icon: com.indtwallet.indt.png
 bugbounty: 
 meta: removed

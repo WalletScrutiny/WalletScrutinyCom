@@ -13,7 +13,6 @@ version: 2.0.10
 reviews: 1
 website: https://trade.xspringdigital.com
 repository: 
-issue: 
 icon: com.se.digital.brokerage.mobile.jpg
 bugbounty: 
 meta: removed

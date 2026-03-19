@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: ru.mosapp.mobile.android5c9f540a7a6d7.png
 bugbounty: 
 meta: removed

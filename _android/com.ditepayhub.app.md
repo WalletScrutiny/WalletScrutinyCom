@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://ditepayhub.com.ng#deadLink
 repository: 
-issue: 
 icon: com.ditepayhub.app.png
 bugbounty: 
 meta: removed

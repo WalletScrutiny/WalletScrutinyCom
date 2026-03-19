@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://q7trades.com#deadLink
 repository: 
-issue: 
 icon: com.wQ7Trades_15018357.png
 bugbounty: 
 meta: removed

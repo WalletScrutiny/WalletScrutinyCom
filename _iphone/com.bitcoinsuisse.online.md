@@ -13,7 +13,6 @@ version: 3.0.3
 reviews: 0
 website: https://www.bitcoinsuisse.com/mobile-app
 repository: 
-issue: 
 icon: com.bitcoinsuisse.online.jpg
 bugbounty: 
 meta: ok

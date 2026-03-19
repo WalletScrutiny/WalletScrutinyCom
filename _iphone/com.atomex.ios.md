@@ -13,7 +13,6 @@ version: '1.24'
 reviews: 11
 website: https://atomex.me#deadLink
 repository: https://github.com/atomex-me/atomex.mobile#deadLink
-issue: 
 icon: com.atomex.ios.jpg
 bugbounty: 
 meta: removed

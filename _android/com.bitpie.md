@@ -14,7 +14,6 @@ version: 5.0.191.g
 reviews: 126
 website: http://bitpie.com
 repository: 
-issue: 
 icon: com.bitpie.png
 bugbounty: 
 meta: removed

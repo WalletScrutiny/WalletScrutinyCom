@@ -13,7 +13,6 @@ version: 1.2.9
 reviews: 229
 website: https://www.everus.org
 repository: 
-issue: 
 icon: com.everus.org.png
 bugbounty: 
 meta: removed

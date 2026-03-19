@@ -13,7 +13,6 @@ version: 3.7.7
 reviews: 74
 website: http://www.bithumb.com/
 repository: 
-issue: 
 icon: com.btckorea.bithumb.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.22.4
 reviews: 653
 website: https://global.bittrex.com
 repository: 
-issue: 
 icon: com.bittrex.trade.png
 bugbounty: 
 meta: removed

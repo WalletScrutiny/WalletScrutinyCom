@@ -12,7 +12,6 @@ version: 3.4.8
 reviews: 
 website: http://www.bitcoinpeople.it
 repository: 
-issue: 
 icon: it.baloo.bitcoinpeople.png
 bugbounty: 
 meta: removed

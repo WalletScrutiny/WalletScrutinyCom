@@ -12,7 +12,6 @@ version: 0.1.7
 reviews: 
 website: http://cryptoswapp.com
 repository: 
-issue: 
 icon: com.cryptoswapp.png
 bugbounty: 
 meta: removed

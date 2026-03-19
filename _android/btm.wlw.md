@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.blockchaintmhub.io
 repository: 
-issue: 
 icon: btm.wlw.png
 bugbounty: 
 meta: removed

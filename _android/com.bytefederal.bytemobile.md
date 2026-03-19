@@ -13,7 +13,6 @@ version: 1.13.0
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.bytefederal.bytemobile.png
 bugbounty: 
 meta: ok

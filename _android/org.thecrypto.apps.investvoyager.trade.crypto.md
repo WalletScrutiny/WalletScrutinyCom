@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.thecrypto.apps.investvoyager.trade.crypto.jpg
 bugbounty: 
 meta: removed

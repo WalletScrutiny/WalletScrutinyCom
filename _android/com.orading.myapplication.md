@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 
 website: https://orading.com/
 repository: 
-issue: 
 icon: com.orading.myapplication.png
 bugbounty: 
 meta: removed

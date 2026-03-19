@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://investpal.io
 repository: 
-issue: 
 icon: com.investpal_social_trading.png
 bugbounty: 
 meta: removed

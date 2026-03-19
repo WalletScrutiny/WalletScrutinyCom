@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.asymony.wallet.png
 bugbounty: 
 meta: removed

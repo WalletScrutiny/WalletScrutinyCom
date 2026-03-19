@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.cobirtolite.com#deadLink
 repository: 
-issue: 
 icon: com.corbito.app.png
 bugbounty: 
 meta: removed

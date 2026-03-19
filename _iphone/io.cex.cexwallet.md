@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 28
 website: 
 repository: 
-issue: 
 icon: io.cex.cexwallet.jpg
 bugbounty: 
 meta: removed

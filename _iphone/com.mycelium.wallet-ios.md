@@ -13,7 +13,6 @@ version: '2.3'
 reviews: 1
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-ios
-issue: 
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
 meta: ok

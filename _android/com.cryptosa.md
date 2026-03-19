@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cryptosa.com#deadLink
 repository: 
-issue: 
 icon: com.cryptosa.png
 bugbounty: 
 meta: removed

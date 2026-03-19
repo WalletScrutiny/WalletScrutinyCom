@@ -12,7 +12,6 @@ version: '4.8'
 reviews: 12
 website: 
 repository: 
-issue: 
 icon: com.bitcoinmatak.tmki.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.11
 reviews: 
 website: https://chiba.exchange#deadLink
 repository: 
-issue: 
 icon: com.chiba.client.png
 bugbounty: 
 meta: removed

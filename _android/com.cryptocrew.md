@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://goforsage.com/app#deadLink
 repository: 
-issue: 
 icon: com.cryptocrew.png
 bugbounty: 
 meta: removed

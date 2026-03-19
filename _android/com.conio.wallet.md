@@ -13,7 +13,6 @@ version: 10.3.0
 reviews: 
 website: https://www.conio.com
 repository: 
-issue: 
 icon: com.conio.wallet.png
 bugbounty: 
 meta: ok

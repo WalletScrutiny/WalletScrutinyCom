@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.cyberblock.cyberblockmobile.png
 bugbounty: 
 meta: removed

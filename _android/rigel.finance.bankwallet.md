@@ -12,7 +12,6 @@ version: 0.17.2
 reviews: 
 website: https://web.archive.org/web/20250918015556/https://rigel.finance/
 repository: 
-issue: 
 icon: rigel.finance.bankwallet.png
 bugbounty: 
 meta: removed

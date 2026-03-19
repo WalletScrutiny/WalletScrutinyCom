@@ -13,7 +13,6 @@ version: 1.0.96
 reviews: 20
 website: 
 repository: 
-issue: 
 icon: com.neuxs.assure.png
 bugbounty: 
 meta: removed

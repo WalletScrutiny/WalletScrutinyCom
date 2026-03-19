@@ -13,7 +13,6 @@ version: 0.5.1.4
 reviews: 15
 website: https://stibits.com
 repository: 
-issue: 
 icon: com.stibits.wallet.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.brickstream.gluwallet.png
 bugbounty: 
 meta: removed

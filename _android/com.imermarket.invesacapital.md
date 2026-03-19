@@ -12,7 +12,6 @@ version: 2.8.5
 reviews: 
 website: https://www.invesacapital.com#deadLink
 repository: 
-issue: 
 icon: com.imermarket.invesacapital.png
 bugbounty: 
 meta: removed

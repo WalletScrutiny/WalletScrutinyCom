@@ -13,7 +13,6 @@ version: 2.6.3
 reviews: 9
 website: https://www.bytesmix.com
 repository: 
-issue: 
 icon: bytesmix.live.co.kr.jpg
 bugbounty: 
 meta: removed

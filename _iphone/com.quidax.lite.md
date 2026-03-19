@@ -13,7 +13,6 @@ version: 1.22.0
 reviews: 1829
 website: 
 repository: 
-issue: 
 icon: com.quidax.lite.jpg
 bugbounty: 
 meta: removed

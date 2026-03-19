@@ -13,7 +13,6 @@ version: 4.4.3
 reviews: 2
 website: https://www.rapidz.io/
 repository: 
-issue: 
 icon: io.rapidz.rapidzpayios.jpg
 bugbounty: 
 meta: ok

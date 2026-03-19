@@ -12,7 +12,6 @@ version: 2.7.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.belcobtm.png
 bugbounty: 
 meta: removed

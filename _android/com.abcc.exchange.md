@@ -13,7 +13,6 @@ version: 1.9.30
 reviews: 46
 website: https://abcc.com
 repository: 
-issue: 
 icon: com.abcc.exchange.png
 bugbounty: 
 meta: removed

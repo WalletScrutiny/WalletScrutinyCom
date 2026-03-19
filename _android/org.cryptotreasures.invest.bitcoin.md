@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptotreasures.invest.bitcoin.png
 bugbounty: 
 meta: removed

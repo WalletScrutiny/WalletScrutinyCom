@@ -13,7 +13,6 @@ version: 3.1.6
 reviews: 8
 website: https://trubit.com/
 repository: 
-issue: 
 icon: com.oakk.starocket-wallet.jpg
 bugbounty: 
 meta: ok

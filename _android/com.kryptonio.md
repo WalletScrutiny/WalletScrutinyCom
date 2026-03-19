@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://kryptonio.com#deadLink
 repository: 
-issue: 
 icon: com.kryptonio.png
 bugbounty: 
 meta: removed

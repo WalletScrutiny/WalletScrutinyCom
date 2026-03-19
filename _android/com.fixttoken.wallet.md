@@ -12,7 +12,6 @@ version: 2.0.7
 reviews: 
 website: https://app.fixttoken.com/
 repository: 
-issue: 
 icon: com.fixttoken.wallet.jpg
 bugbounty: 
 meta: removed

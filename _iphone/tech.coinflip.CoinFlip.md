@@ -13,7 +13,6 @@ version: 3.8.0
 reviews: 802
 website: https://coinflip.tech/
 repository: 
-issue: 
 icon: tech.coinflip.CoinFlip.jpg
 bugbounty: 
 meta: ok

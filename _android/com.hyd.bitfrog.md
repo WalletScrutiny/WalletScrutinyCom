@@ -12,7 +12,6 @@ version: 2.4.1
 reviews: 
 website: https://www.bitfrog.io
 repository: 
-issue: 
 icon: com.hyd.bitfrog.png
 bugbounty: 
 meta: removed

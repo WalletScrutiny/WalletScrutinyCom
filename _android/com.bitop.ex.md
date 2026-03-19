@@ -13,7 +13,6 @@ version: 1.0.21
 reviews: 
 website: http://www.bitop.com
 repository: 
-issue: 
 icon: com.bitop.ex.png
 bugbounty: 
 meta: stale

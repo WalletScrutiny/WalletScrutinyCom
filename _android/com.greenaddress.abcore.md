@@ -14,7 +14,6 @@ version: VARY
 reviews: 
 website: http://abco.re
 repository: https://github.com/greenaddress/abcore
-issue: 
 icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: removed

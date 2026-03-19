@@ -13,7 +13,6 @@ version: 2.2.1
 reviews: 87
 website: 
 repository: 
-issue: 
 icon: ch.cryptonow.wallet.jpg
 bugbounty: 
 meta: ok

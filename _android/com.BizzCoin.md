@@ -13,7 +13,6 @@ version: '1.21'
 reviews: 13
 website: https://www.bizzcoin.com#deadLink
 repository: 
-issue: 
 icon: com.BizzCoin.png
 bugbounty: 
 meta: removed

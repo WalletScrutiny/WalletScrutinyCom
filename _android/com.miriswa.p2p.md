@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://p2p.miriswa.com#deadLink
 repository: 
-issue: 
 icon: com.miriswa.p2p.png
 bugbounty: 
 meta: removed

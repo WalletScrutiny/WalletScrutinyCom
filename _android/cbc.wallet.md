@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://web.archive.org/web/20240524125438/https://cryptoboxcoin.com/
 repository: 
-issue: 
 icon: cbc.wallet.png
 bugbounty: 
 meta: removed

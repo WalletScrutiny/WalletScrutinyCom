@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 
 website: https://si14cw.com
 repository: 
-issue: 
 icon: com.si14.png
 bugbounty: 
 meta: ok

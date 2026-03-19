@@ -12,7 +12,6 @@ version: Alpha
 reviews: 
 website: https://cypra.io/
 repository: 
-issue: 
 icon: org.ergvein.wallet.png
 bugbounty: 
 meta: removed

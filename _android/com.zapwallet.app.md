@@ -13,7 +13,6 @@ version: 1.0.9
 reviews: 
 website: https://zap.africa
 repository: 
-issue: 
 icon: com.zapwallet.app.png
 bugbounty: 
 meta: ok

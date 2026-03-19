@@ -13,7 +13,6 @@ version: v1.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bastionpay.betrapay.png
 bugbounty: 
 meta: removed

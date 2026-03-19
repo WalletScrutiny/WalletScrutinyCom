@@ -13,7 +13,6 @@ version: 7.45.0
 reviews: 32
 website: https://web.archive.org/web/20231207135142/https://www.lykke.com/wallet
 repository: 
-issue: 
 icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
 meta: removed

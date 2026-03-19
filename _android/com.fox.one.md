@@ -13,7 +13,6 @@ version: 2.14.1
 reviews: 90
 website: https://www.fox.one/#&deadLink
 repository: 
-issue: 
 icon: com.fox.one.png
 bugbounty: 
 meta: removed

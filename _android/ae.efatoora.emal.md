@@ -13,7 +13,6 @@ version: '3.2'
 reviews: 
 website: https://e-mal.ae#deadLink
 repository: 
-issue: 
 icon: ae.efatoora.emal.png
 bugbounty: 
 meta: removed

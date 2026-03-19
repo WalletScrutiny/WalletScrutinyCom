@@ -13,7 +13,6 @@ version: 6.5.0
 reviews: 439
 website: https://www.bitrefill.com
 repository: 
-issue: 
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
 meta: ok

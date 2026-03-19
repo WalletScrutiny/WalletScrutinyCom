@@ -12,7 +12,6 @@ version: '1.01'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: cme.ecoinexV1.app.png
 bugbounty: 
 meta: removed

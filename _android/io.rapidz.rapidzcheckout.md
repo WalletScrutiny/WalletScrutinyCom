@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://www.rapidz.io/
 repository: 
-issue: 
 icon: io.rapidz.rapidzcheckout.png
 bugbounty: 
 meta: obsolete

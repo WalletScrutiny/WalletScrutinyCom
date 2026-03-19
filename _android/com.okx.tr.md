@@ -13,7 +13,6 @@ version: 6.161.0
 reviews: 
 website: https://tr.okx.com
 repository: 
-issue: 
 icon: com.okx.tr.png
 bugbounty: 
 meta: ok

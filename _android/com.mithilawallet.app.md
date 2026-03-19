@@ -12,7 +12,6 @@ version: 3.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mithilawallet.app.jpg
 bugbounty: 
 meta: removed

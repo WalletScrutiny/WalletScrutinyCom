@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://triunits.com
 repository: 
-issue: 
 icon: com.triunits.android.triunits.triunits.png
 bugbounty: 
 meta: removed

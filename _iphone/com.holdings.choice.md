@@ -13,7 +13,6 @@ version: 2.25.0
 reviews: 1498
 website: https://www.choiceapp.io
 repository: 
-issue: 
 icon: com.holdings.choice.jpg
 bugbounty: 
 meta: ok

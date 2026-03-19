@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.enigmax.app.enigma_x.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: US
 price: 159USD
 repository: 
-issue: 
 icon: bitstash.png
 bugbounty: 
 meta: ok

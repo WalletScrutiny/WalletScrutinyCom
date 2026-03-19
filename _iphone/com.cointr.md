@@ -13,7 +13,6 @@ version: 2.1.1
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.cointr.jpg
 bugbounty: 
 meta: removed

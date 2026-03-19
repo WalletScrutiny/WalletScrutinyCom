@@ -13,7 +13,6 @@ version: 4.8.6
 reviews: 46
 website: https://www.coinbene.com#deadLink
 repository: 
-issue: 
 icon: br.com.coinbene.jpg
 bugbounty: 
 meta: removed

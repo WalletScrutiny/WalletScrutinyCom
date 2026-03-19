@@ -13,7 +13,6 @@ version: 1.0.65
 reviews: 53
 website: https://localbitcoins.com/
 repository: 
-issue: 
 icon: com.localbitcoins.app.ios.jpg
 bugbounty: 
 meta: removed

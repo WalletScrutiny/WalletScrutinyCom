@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://coinsliberty.com#deadLink
 repository: 
-issue: 
 icon: com.coinsliberty.wallet.png
 bugbounty: 
 meta: removed

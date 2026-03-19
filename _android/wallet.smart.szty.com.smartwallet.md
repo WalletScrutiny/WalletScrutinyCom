@@ -12,7 +12,6 @@ version: 2.31.0
 reviews: 2
 website: https://flxwallet.com
 repository: 
-issue: 
 icon: wallet.smart.szty.com.smartwallet.png
 bugbounty: 
 meta: removed

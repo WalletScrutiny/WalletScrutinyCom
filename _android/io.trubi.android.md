@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.trubi.io
 repository: 
-issue: 
 icon: io.trubi.android.png
 bugbounty: 
 meta: removed

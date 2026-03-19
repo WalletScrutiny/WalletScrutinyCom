@@ -13,7 +13,6 @@ version: 5.13.1
 reviews: 1465
 website: https://phemex.com
 repository: 
-issue: 
 icon: com.phemex.app.png
 bugbounty: 
 meta: ok

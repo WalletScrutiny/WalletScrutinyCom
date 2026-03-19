@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 53749
 website: https://wazirx.com
 repository: 
-issue: 
 icon: com.wrx.wazirx.jpg
 bugbounty: 
 meta: ok

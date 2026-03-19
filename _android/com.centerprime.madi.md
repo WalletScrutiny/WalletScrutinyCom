@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://centerprime.tech#deadLink
 repository: 
-issue: 
 icon: com.centerprime.madi.png
 bugbounty: 
 meta: removed

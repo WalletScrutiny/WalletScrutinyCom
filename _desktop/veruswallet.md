@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://verus.io
 repository: https://github.com/VerusCoin/Verus-Desktop
-issue: 
 icon: veruswallet.png
 bugbounty: 
 meta: ok

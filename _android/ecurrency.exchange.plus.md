@@ -12,7 +12,6 @@ version: v5.0
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: ecurrency.exchange.plus.png
 bugbounty: 
 meta: removed

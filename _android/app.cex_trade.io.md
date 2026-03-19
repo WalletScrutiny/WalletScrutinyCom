@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 7
 website: https://cex-trade.io
 repository: 
-issue: 
 icon: app.cex_trade.io.png
 bugbounty: 
 meta: removed

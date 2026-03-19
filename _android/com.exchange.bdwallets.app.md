@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://www.bdwallets.com/
 repository: 
-issue: 
 icon: com.exchange.bdwallets.app.png
 bugbounty: 
 meta: removed

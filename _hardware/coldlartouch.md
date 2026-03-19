@@ -22,7 +22,6 @@ shop: https://www.coldlar.com/productDetails/10065
 country: CN
 price: 40.8USD
 repository: 
-issue: 
 icon: coldlartouch.png
 bugbounty: 
 meta: ok

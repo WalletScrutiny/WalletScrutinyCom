@@ -13,7 +13,6 @@ version: 0.0.228
 reviews: 5
 website: https://www.bitcointoyou.com
 repository: 
-issue: 
 icon: com.pro.bitcointoyou.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.668
 reviews: 9
 website: https://xrex.io/
 repository: 
-issue: 
 icon: com.xrex.mobile.jpg
 bugbounty: 
 meta: removed

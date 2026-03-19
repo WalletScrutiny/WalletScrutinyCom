@@ -13,7 +13,6 @@ version: 1.2.2
 reviews: 5
 website: https://coinlord.org/
 repository: 
-issue: 
 icon: com.cryptore.android.jpg
 bugbounty: 
 meta: removed

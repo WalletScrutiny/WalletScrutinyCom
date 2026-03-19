@@ -13,7 +13,6 @@ version: 2.1.9
 reviews: 19
 website: https://dex-trade.com/
 repository: 
-issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
 meta: obsolete

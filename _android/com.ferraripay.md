@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://ferrari-pay.com#deadLink
 repository: 
-issue: 
 icon: com.ferraripay.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.4.5
 reviews: 1
 website: https://bitcoinjungle.app
 repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
-issue: 
 icon: app.bitcoinjungle.mobile.png
 bugbounty: 
 meta: ok

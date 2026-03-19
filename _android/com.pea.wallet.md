@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://pealab.io/wallet#deadLink
 repository: 
-issue: 
 icon: com.pea.wallet.png
 bugbounty: 
 meta: removed

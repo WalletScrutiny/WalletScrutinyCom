@@ -13,7 +13,6 @@ version: 4.0.2
 reviews: 6
 website: https://cetoex.com
 repository: 
-issue: 
 icon: com.cetoex.cetoex.jpg
 bugbounty: 
 meta: ok

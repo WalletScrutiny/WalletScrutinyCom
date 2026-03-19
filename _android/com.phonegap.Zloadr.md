@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 77
 website: https://www.zloadr.com
 repository: 
-issue: 
 icon: com.phonegap.Zloadr.png
 bugbounty: 
 meta: removed

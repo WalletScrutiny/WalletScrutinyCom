@@ -15,7 +15,6 @@ version: '10.25'
 reviews: 2098
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
-issue: 
 icon: de.schildbach.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.1.7
 reviews: 
 website: https://www.ariston-timepieces.com#deadLink
 repository: 
-issue: 
 icon: com.ariston.Ariston.png
 bugbounty: 
 meta: removed

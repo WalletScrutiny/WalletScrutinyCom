@@ -13,7 +13,6 @@ version: 1.56.1
 reviews: 3249
 website: https://safello.com/
 repository: 
-issue: 
 icon: com.safello.iosapp.jpg
 bugbounty: 
 meta: ok

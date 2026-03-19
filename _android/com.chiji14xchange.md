@@ -13,7 +13,6 @@ version: 3.0.5
 reviews: 948
 website: https://chiji14xchange.com
 repository: 
-issue: 
 icon: com.chiji14xchange.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: gizadevice.png
 bugbounty: 
 meta: ok

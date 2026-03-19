@@ -13,7 +13,6 @@ version: 5.8.16
 reviews: 
 website: https://narkasa.com
 repository: 
-issue: 
 icon: org.narkasa.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 4.0.99
 reviews: 
 website: https://cobru.co
 repository: 
-issue: 
 icon: com.cobru.cobru.png
 bugbounty: 
 meta: removed

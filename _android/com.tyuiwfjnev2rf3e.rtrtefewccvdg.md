@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tyuiwfjnev2rf3e.rtrtefewccvdg.png
 bugbounty: 
 meta: removed

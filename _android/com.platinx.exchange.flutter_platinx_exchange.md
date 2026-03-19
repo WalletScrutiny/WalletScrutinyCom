@@ -12,7 +12,6 @@ version: 2.0.16
 reviews: 
 website: https://platinx.exchange/
 repository: 
-issue: 
 icon: com.platinx.exchange.flutter_platinx_exchange.png
 bugbounty: 
 meta: removed

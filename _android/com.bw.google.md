@@ -13,7 +13,6 @@ version: 2.1.4
 reviews: 4
 website: https://www.bwex.vip#deadLink
 repository: 
-issue: 
 icon: com.bw.google.jpg
 bugbounty: 
 meta: removed

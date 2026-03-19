@@ -13,7 +13,6 @@ version: 1.51.8
 reviews: 73
 website: https://flitbase.com
 repository: 
-issue: 
 icon: com.flitaa.jpg
 bugbounty: 
 meta: ok

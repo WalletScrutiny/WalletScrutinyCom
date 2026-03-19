@@ -13,7 +13,6 @@ version: 2.9.10
 reviews: 2226
 website: https://changenow.io
 repository: 
-issue: 
 icon: io.changenow.jpg
 bugbounty: 
 meta: ok

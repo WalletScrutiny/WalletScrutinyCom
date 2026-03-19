@@ -13,7 +13,6 @@ version: 0.9.11
 reviews: 
 website: https://www.in1.io
 repository: 
-issue: 
 icon: com.thein1.app.jpg
 bugbounty: 
 meta: ok

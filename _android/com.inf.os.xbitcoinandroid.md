@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: http://xbitcoin.com.br#deadLink
 repository: 
-issue: 
 icon: com.inf.os.xbitcoinandroid.png
 bugbounty: 
 meta: removed

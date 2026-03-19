@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 13
 website: http://stib.co#deadLink
 repository: 
-issue: 
 icon: com.StiBLabs.StiBp2p.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.93
 reviews: 
 website: https://www.meta-trades.com#deadLink
 repository: 
-issue: 
 icon: com.metatrades.app.png
 bugbounty: 
 meta: removed

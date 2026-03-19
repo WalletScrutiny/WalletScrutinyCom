@@ -13,7 +13,6 @@ version: 2.19.28
 reviews: 26
 website: https://saltlending.com/
 repository: 
-issue: 
 icon: com.saltlending.mobile.jpg
 bugbounty: 
 meta: ok

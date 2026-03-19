@@ -12,7 +12,6 @@ version: 1.1.1.93
 reviews: 
 website: https://www.masterbitexpress.com
 repository: 
-issue: 
 icon: com.masterbitexpress.wallet.png
 bugbounty: 
 meta: ok

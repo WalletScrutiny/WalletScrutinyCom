@@ -13,7 +13,6 @@ version: 1.3.346
 reviews: 347
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
-issue: 
 icon: com.gemwallet.ios.jpg
 bugbounty: 
 meta: ok

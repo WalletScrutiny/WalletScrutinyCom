@@ -13,7 +13,6 @@ version: 1.4.20
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: vn.beedu.blockchain.jpg
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 'NO'
 price: 10USD
 repository: 
-issue: 
 icon: kaching.cards.png
 bugbounty: 
 meta: ok

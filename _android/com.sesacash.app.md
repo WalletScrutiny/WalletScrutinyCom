@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.sesacash.com
 repository: 
-issue: 
 icon: com.sesacash.app.png
 bugbounty: 
 meta: removed

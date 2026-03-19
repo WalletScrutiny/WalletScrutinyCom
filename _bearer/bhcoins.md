@@ -17,7 +17,6 @@ shop:
 country: AR
 price: 
 repository: 
-issue: 
 icon: bhcoins.png
 bugbounty: 
 meta: defunct

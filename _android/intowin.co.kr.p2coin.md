@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://goodbit.co.kr
 repository: 
-issue: 
 icon: intowin.co.kr.p2coin.png
 bugbounty: 
 meta: removed

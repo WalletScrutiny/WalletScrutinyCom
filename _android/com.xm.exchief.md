@@ -12,7 +12,6 @@ version: 4.1.1_exchief
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.xm.exchief.png
 bugbounty: 
 meta: removed

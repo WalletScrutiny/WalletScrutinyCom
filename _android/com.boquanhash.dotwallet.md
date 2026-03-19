@@ -13,7 +13,6 @@ version: 2.15.2
 reviews: 
 website: https://www.dotwallet.com/
 repository: 
-issue: 
 icon: com.boquanhash.dotwallet.png
 bugbounty: 
 meta: removed

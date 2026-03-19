@@ -12,7 +12,6 @@ version: 1.1.7
 reviews: 
 website: https://www.xsats.com
 repository: 
-issue: 
 icon: com.xsats.xsats.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.btctradeonline.com#deadLink
 repository: 
-issue: 
 icon: com.trade.btctradelink.png
 bugbounty: 
 meta: removed

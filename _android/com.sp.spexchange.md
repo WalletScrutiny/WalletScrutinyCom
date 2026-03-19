@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://spexchange.io#deadLink
 repository: 
-issue: 
 icon: com.sp.spexchange.png
 bugbounty: 
 meta: removed

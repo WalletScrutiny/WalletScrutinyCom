@@ -12,7 +12,6 @@ version: 0.0.21
 reviews: 
 website: https://tradersvillage.co#deadLink
 repository: 
-issue: 
 icon: co.tradersvillage.png
 bugbounty: 
 meta: removed

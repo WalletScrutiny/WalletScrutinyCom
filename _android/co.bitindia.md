@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.bitindia.png
 bugbounty: 
 meta: removed

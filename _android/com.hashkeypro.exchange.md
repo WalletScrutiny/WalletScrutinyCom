@@ -13,7 +13,6 @@ version: 1.72.0
 reviews: 30
 website: https://www.hashkey.com/
 repository: 
-issue: 
 icon: com.hashkeypro.exchange.png
 bugbounty: 
 meta: ok

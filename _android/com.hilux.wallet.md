@@ -12,7 +12,6 @@ version: v2.70
 reviews: 4
 website: http://www.hiluxcoin.com
 repository: 
-issue: 
 icon: com.hilux.wallet.png
 bugbounty: 
 meta: removed

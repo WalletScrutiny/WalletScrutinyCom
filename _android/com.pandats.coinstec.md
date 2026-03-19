@@ -12,7 +12,6 @@ version: 10.0.2
 reviews: 
 website: http://www.coinstec.com
 repository: 
-issue: 
 icon: com.pandats.coinstec.png
 bugbounty: 
 meta: removed

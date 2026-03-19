@@ -12,7 +12,6 @@ version: 5.5.0_push_v2
 reviews: 
 website: http://www.365excoin.com#deadLink
 repository: 
-issue: 
 icon: com.chainup.exchange.exchange365.png
 bugbounty: 
 meta: removed

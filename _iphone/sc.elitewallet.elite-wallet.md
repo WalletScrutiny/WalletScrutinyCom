@@ -13,7 +13,6 @@ version: 1.1.7
 reviews: 1
 website: https://elitewallet.sc#deadLink
 repository: 
-issue: 
 icon: sc.elitewallet.elite-wallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2023.03.27
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sdb.app.png
 bugbounty: 
 meta: obsolete

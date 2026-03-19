@@ -13,7 +13,6 @@ version: 1.3.13
 reviews: 26
 website: https://uxuy.com
 repository: 
-issue: 
 icon: com.uxuy.png
 bugbounty: 
 meta: removed

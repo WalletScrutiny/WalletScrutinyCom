@@ -12,7 +12,6 @@ version: '2.9'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cbank2.android.png
 bugbounty: 
 meta: removed

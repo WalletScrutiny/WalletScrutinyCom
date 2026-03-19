@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://metahash.org
 repository: 
-issue: 
 icon: org.metahash.metawallet.png
 bugbounty: 
 meta: removed

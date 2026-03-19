@@ -13,7 +13,6 @@ version: 202401.1.1
 reviews: 167
 website: https://exchange.blockchain.com/
 repository: 
-issue: 
 icon: com.blockchain.exchangeapp.jpg
 bugbounty: 
 meta: removed

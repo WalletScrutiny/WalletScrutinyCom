@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 
 website: http://www.cryptocurrencysolutions.io#deadLink
 repository: 
-issue: 
 icon: io.mahfazah.png
 bugbounty: 
 meta: removed

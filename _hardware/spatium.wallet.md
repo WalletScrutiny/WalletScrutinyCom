@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: spatium.wallet.png
 bugbounty: 
 meta: ok

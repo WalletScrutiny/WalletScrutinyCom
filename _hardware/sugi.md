@@ -21,7 +21,6 @@ shop: https://sugi.io/#pricing
 country: BE
 price: 59.9EUR
 repository: 
-issue: 
 icon: sugi.png
 bugbounty: 
 meta: ok

@@ -14,7 +14,6 @@ version: v1.0.14.12
 reviews: 
 website: https://ankerpay.com/mobile-wallet/
 repository: 
-issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
 meta: stale

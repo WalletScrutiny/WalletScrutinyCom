@@ -12,7 +12,6 @@ version: '1.18'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ldjdigital.ljdwallet.png
 bugbounty: 
 meta: removed

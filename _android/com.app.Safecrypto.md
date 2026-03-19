@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 11
 website: https://safecryptwallet.com#deadLink
 repository: 
-issue: 
 icon: com.app.Safecrypto.png
 bugbounty: 
 meta: removed

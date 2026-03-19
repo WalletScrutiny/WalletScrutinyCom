@@ -12,7 +12,6 @@ version: '1.06'
 reviews: 
 website: http://www.dpexbank.com#deadLink
 repository: 
-issue: 
 icon: cme.dpexbank.app.png
 bugbounty: 
 meta: removed

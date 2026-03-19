@@ -13,7 +13,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.frefcrypto.wallet6.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 7.0.20
 reviews: 77
 website: http://www.xtrade.com
 repository: 
-issue: 
 icon: com.xfr.xtrade.png
 bugbounty: 
 meta: removed

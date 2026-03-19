@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: kr.co.coin5.aj.png
 bugbounty: 
 meta: removed

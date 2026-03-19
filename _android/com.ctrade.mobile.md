@@ -13,7 +13,6 @@ version: 1.2.2
 reviews: 
 website: https://www.c-trade.com/
 repository: 
-issue: 
 icon: com.ctrade.mobile.png
 bugbounty: 
 meta: removed

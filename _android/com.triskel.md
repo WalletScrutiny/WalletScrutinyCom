@@ -12,7 +12,6 @@ version: '6.1'
 reviews: 
 website: https://www.triskelwallet.io/
 repository: 
-issue: 
 icon: com.triskel.png
 bugbounty: 
 meta: ok

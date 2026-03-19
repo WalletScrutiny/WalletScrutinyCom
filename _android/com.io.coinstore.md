@@ -13,7 +13,6 @@ version: 4.3.0
 reviews: 70
 website: https://www.coinstore.com
 repository: 
-issue: 
 icon: com.io.coinstore.png
 bugbounty: 
 meta: ok

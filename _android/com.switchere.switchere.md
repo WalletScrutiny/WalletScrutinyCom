@@ -13,7 +13,6 @@ version: 1.1.26
 reviews: 47
 website: https://switchere.com/
 repository: 
-issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
 meta: ok

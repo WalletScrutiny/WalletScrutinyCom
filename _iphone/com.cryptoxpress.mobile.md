@@ -13,7 +13,6 @@ version: 1.0.43
 reviews: 22
 website: https://cryptoxpress.com/
 repository: 
-issue: 
 icon: com.cryptoxpress.mobile.jpg
 bugbounty: 
 meta: ok

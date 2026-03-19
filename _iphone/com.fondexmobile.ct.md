@@ -13,7 +13,6 @@ version: 4.6.54384
 reviews: 2
 website: https://fondex.com/en/
 repository: 
-issue: 
 icon: com.fondexmobile.ct.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 6.141.0
 reviews: 290
 website: https://river.com/
 repository: 
-issue: 
 icon: com.river.riverapp.png
 bugbounty: 
 meta: ok

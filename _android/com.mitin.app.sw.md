@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mitin.app.sw.png
 bugbounty: 
 meta: removed

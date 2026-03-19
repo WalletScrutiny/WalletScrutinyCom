@@ -13,7 +13,6 @@ version: 4.1.4
 reviews: 53
 website: https://coinpal.me/
 repository: 
-issue: 
 icon: me.coinpal.app.png
 bugbounty: 
 meta: removed

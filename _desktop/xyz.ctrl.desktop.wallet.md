@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://ctrl.xyz/
 repository: 
-issue: 
 icon: xyz.ctrl.desktop.wallet.png
 bugbounty: 
 meta: ok

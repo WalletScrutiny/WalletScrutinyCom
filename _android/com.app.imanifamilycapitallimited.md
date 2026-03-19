@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.ifclbusinesscryptoapp.com#deadLink
 repository: 
-issue: 
 icon: com.app.imanifamilycapitallimited.png
 bugbounty: 
 meta: removed

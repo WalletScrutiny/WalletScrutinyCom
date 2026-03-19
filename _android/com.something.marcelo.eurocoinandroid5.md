@@ -13,7 +13,6 @@ version: '40.0'
 reviews: 
 website: http://www.eurocoinpay.io
 repository: 
-issue: 
 icon: com.something.marcelo.eurocoinandroid5.png
 bugbounty: 
 meta: ok

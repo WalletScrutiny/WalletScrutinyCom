@@ -13,7 +13,6 @@ version: 2.6.6
 reviews: 66
 website: 
 repository: 
-issue: 
 icon: com.kurewallet.jpg
 bugbounty: 
 meta: removed

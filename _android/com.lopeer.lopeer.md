@@ -13,7 +13,6 @@ version: 2.2.7
 reviews: 
 website: https://www.lopeer.com
 repository: 
-issue: 
 icon: com.lopeer.lopeer.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.0.6
 reviews: 677
 website: 
 repository: 
-issue: 
 icon: africa.obiex.app.jpg
 bugbounty: 
 meta: ok

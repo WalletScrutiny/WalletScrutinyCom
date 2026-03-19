@@ -22,7 +22,6 @@ shop: https://bithd.com/BITHD-watch-2.html#deadLink
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-issue: 
 icon: bithdwatch2.png
 bugbounty: 
 meta: defunct

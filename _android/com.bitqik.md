@@ -13,7 +13,6 @@ version: 3.5.0
 reviews: 
 website: https://bitqik.com/
 repository: 
-issue: 
 icon: com.bitqik.png
 bugbounty: 
 meta: ok

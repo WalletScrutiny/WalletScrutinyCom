@@ -13,7 +13,6 @@ version: 2025.21.1
 reviews: 106
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
-issue: 
 icon: world.bitkey.app.jpg
 bugbounty: 
 meta: ok

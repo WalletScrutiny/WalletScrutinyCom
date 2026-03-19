@@ -12,7 +12,6 @@ version: 0.6.7
 reviews: 
 website: https://rebix.io#deadLink
 repository: 
-issue: 
 icon: io.rebix.app.android.png
 bugbounty: 
 meta: removed

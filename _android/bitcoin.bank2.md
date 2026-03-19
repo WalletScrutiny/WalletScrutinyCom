@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://a131f4e74.app-ads-txt.com
 repository: 
-issue: 
 icon: bitcoin.bank2.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.8.1
 reviews: 59
 website: https://bitcoin.me
 repository: 
-issue: 
 icon: io.klever.secure.exchange.jpg
 bugbounty: 
 meta: removed

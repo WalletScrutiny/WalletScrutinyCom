@@ -13,7 +13,6 @@ version: 0.3.9
 reviews: 
 website: https://deex.exchange#deadLink
 repository: 
-issue: 
 icon: deex.exchange.android.png
 bugbounty: 
 meta: removed

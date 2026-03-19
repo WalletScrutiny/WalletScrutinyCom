@@ -13,7 +13,6 @@ version: 7.2.484
 reviews: 6567
 website: https://prestmit.io
 repository: 
-issue: 
 icon: com.prestmit.app.jpg
 bugbounty: 
 meta: ok

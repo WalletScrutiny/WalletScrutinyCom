@@ -12,7 +12,6 @@ version: '18.1'
 reviews: 
 website: https://dbxbang.com/
 repository: 
-issue: 
 icon: com.dbx_mobile_app.png
 bugbounty: 
 meta: removed

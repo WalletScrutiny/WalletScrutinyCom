@@ -13,7 +13,6 @@ version: '1.7'
 reviews: 
 website: https://prod.xchangemonster.com#deadLink
 repository: 
-issue: 
 icon: com.xchangemonster.png
 bugbounty: 
 meta: removed

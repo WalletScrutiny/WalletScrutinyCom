@@ -14,7 +14,6 @@ version: 104.0.0
 reviews: 153
 website: https://www.etoro.com/crypto/wallet
 repository: 
-issue: 
 icon: com.etoro.wallet.png
 bugbounty: 
 meta: ok

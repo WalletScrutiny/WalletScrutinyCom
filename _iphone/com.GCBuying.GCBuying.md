@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 151
 website: https://gcbuying.com/
 repository: 
-issue: 
 icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
 meta: ok

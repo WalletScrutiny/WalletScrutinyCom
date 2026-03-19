@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptoswingalert.bitcoin.invest.canada.png
 bugbounty: 
 meta: removed

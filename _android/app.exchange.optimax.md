@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://optimaxcrypto.com#deadLink
 repository: 
-issue: 
 icon: app.exchange.optimax.png
 bugbounty: 
 meta: removed

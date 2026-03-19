@@ -20,7 +20,6 @@ shop:
 country: DE
 price: 
 repository: 
-issue: 
 icon: bitcoinwalletcards.png
 bugbounty: 
 meta: defunct

@@ -13,7 +13,6 @@ version: 1.3.14GMS
 reviews: 
 website: https://www.maxsoftlab.com#deadLink
 repository: 
-issue: 
 icon: com.maxsoftlab.findextrader.png
 bugbounty: 
 meta: removed

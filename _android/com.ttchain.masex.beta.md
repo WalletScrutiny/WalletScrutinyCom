@@ -12,7 +12,6 @@ version: 1.0.102
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ttchain.masex.beta.png
 bugbounty: 
 meta: removed

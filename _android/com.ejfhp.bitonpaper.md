@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: https://github.com/ejfhp
 repository: 
-issue: 
 icon: com.ejfhp.bitonpaper.png
 bugbounty: 
 meta: stale

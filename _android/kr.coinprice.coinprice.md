@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: http://coinprice.kr#deadLink
 repository: 
-issue: 
 icon: kr.coinprice.coinprice.png
 bugbounty: 
 meta: removed

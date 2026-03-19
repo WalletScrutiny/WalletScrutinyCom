@@ -13,7 +13,6 @@ version: 2.13.0
 reviews: 5
 website: https://bitcoin.global/
 repository: 
-issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
 meta: removed

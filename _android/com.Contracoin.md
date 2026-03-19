@@ -13,7 +13,6 @@ version: '1.00'
 reviews: 
 website: https://contracoin.network/
 repository: 
-issue: 
 icon: com.Contracoin.png
 bugbounty: 
 meta: removed

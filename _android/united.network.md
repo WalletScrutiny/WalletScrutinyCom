@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://united.network
 repository: 
-issue: 
 icon: united.network.png
 bugbounty: 
 meta: ok

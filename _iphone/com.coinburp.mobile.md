@@ -13,7 +13,6 @@ version: 1.0.16
 reviews: 5
 website: https://www.coinburp.com/
 repository: 
-issue: 
 icon: com.coinburp.mobile.jpg
 bugbounty: 
 meta: removed

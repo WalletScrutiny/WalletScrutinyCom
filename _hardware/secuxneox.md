@@ -20,7 +20,6 @@ shop: https://secuxtech.com/products/neo-series
 country: TW
 price: 179 USD
 repository: 
-issue: 
 icon: secuxneox.png
 bugbounty: 
 meta: ok

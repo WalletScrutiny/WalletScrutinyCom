@@ -13,7 +13,6 @@ version: 2.2.7
 reviews: 12
 website: https://cobo.com/hardware-wallet#deadLink
 repository: https://github.com/CoboVault/cobo-vault-cold
-issue: 
 icon: cobo.vault.hot.re.jpg
 bugbounty: 
 meta: defunct

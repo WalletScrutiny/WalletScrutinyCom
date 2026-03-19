@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 8
 website: https://wallet.berrychain.io#deadLink
 repository: 
-issue: 
 icon: com.berrywallet.wallet.png
 bugbounty: 
 meta: removed

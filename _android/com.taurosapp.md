@@ -13,7 +13,6 @@ version: 9.6.4
 reviews: 5
 website: https://tauros.io#deadLink
 repository: 
-issue: 
 icon: com.taurosapp.png
 bugbounty: 
 meta: removed

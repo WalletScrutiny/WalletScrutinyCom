@@ -12,7 +12,6 @@ version: 1.1.7
 reviews: 
 website: https://unitedbit.com/
 repository: 
-issue: 
 icon: com.unitedbit.app.png
 bugbounty: 
 meta: removed

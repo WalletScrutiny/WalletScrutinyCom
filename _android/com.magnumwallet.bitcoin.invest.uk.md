@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.magnumwallet.bitcoin.invest.uk.png
 bugbounty: 
 meta: removed

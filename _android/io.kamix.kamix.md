@@ -13,7 +13,6 @@ version: 3.0.336
 reviews: 
 website: https://kamix.io
 repository: 
-issue: 
 icon: io.kamix.kamix.png
 bugbounty: 
 meta: ok

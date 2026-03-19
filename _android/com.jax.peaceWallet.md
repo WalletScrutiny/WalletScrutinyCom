@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://peacewallet.io#deadLink
 repository: 
-issue: 
 icon: com.jax.peaceWallet.png
 bugbounty: 
 meta: removed

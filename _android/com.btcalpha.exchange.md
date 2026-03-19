@@ -13,7 +13,6 @@ version: 1.11.2
 reviews: 3
 website: https://btc-alpha.com/
 repository: 
-issue: 
 icon: com.btcalpha.exchange.png
 bugbounty: 
 meta: removed

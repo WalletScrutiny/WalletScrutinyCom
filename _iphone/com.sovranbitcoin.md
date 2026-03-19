@@ -13,7 +13,6 @@ version: 0.0.53
 reviews: 0
 website: https://sovran.money
 repository: https://github.com/SovranBitcoin/Sovran
-issue: 
 icon: com.sovranbitcoin.jpg
 bugbounty: 
 meta: ok

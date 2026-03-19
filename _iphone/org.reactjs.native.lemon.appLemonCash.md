@@ -13,7 +13,6 @@ version: 2.7.79
 reviews: 3937
 website: https://www.lemon.me/en
 repository: 
-issue: 
 icon: org.reactjs.native.lemon.appLemonCash.jpg
 bugbounty: 
 meta: ok

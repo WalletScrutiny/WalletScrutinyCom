@@ -13,7 +13,6 @@ version: 1.23.1
 reviews: 21
 website: https://bolt.global/
 repository: 
-issue: 
 icon: com.bolt.pegasus.png
 bugbounty: 
 meta: removed

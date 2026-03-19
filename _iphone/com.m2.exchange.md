@@ -13,7 +13,6 @@ version: 5.21.0
 reviews: 71
 website: https://www.m2.com/
 repository: 
-issue: 
 icon: com.m2.exchange.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.4.42
 reviews: 
 website: http://skg-world.com#deadLink
 repository: 
-issue: 
 icon: com.wallet.crypto.skgapp.png
 bugbounty: 
 meta: removed

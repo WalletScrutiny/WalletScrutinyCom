@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bancobitcoin.net
 repository: 
-issue: 
 icon: appinventor.ai_suporte.bancobitcoin.png
 bugbounty: 
 meta: removed

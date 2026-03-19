@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: piwallet.png
 bugbounty: 
 meta: defunct

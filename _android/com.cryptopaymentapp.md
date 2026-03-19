@@ -12,7 +12,6 @@ version: 1.4.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptopaymentapp.jpg
 bugbounty: 
 meta: removed

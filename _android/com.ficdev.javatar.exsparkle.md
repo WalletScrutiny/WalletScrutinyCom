@@ -12,7 +12,6 @@ version: 3.4.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ficdev.javatar.exsparkle.png
 bugbounty: 
 meta: removed

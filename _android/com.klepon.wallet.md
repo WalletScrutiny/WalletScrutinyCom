@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://kleponswap.com#deadLink
 repository: 
-issue: 
 icon: com.klepon.wallet.png
 bugbounty: 
 meta: removed

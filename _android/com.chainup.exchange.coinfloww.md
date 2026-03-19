@@ -12,7 +12,6 @@ version: 5.2.5_coinfloww
 reviews: 
 website: https://coinfloww.com
 repository: 
-issue: 
 icon: com.chainup.exchange.coinfloww.jpg
 bugbounty: 
 meta: removed

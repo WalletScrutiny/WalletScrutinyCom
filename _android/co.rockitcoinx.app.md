@@ -13,7 +13,6 @@ version: 3.7.10
 reviews: 196
 website: https://rockitcoin.com
 repository: 
-issue: 
 icon: co.rockitcoinx.app.png
 bugbounty: 
 meta: ok

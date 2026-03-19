@@ -13,7 +13,6 @@ version: 2.3.19
 reviews: 156
 website: https://www.biconomy.com
 repository: 
-issue: 
 icon: com.biconomy.ex.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 66
 website: https://finzomarkets.com/
 repository: 
-issue: 
 icon: com.finzo.png
 bugbounty: 
 meta: removed

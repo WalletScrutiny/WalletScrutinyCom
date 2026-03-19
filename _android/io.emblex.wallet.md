@@ -12,7 +12,6 @@ version: 0.21.5
 reviews: 
 website: https://emblex.io#deadLink
 repository: 
-issue: 
 icon: io.emblex.wallet.png
 bugbounty: 
 meta: removed

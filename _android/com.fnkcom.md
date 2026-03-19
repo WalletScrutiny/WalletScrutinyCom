@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 8
 website: https://fnk.com#deadLink
 repository: 
-issue: 
 icon: com.fnkcom.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.10
 reviews: 
 website: https://www.census.cx#deadLink
 repository: 
-issue: 
 icon: com.census.wallet.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.gobaba.cryptopos.png
 bugbounty: 
 meta: removed

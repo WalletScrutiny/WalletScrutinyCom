@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.s_archive.fx_city.png
 bugbounty: 
 meta: removed

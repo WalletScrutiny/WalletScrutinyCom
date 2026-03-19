@@ -12,7 +12,6 @@ version: 0.2.6
 reviews: 
 website: https://lightning.engineering
 repository: 
-issue: 
 icon: engineering.lightning.LightningApp.png
 bugbounty: 
 meta: removed

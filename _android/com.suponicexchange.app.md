@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 2
 website: https://www.suponic.com#deadLink
 repository: 
-issue: 
 icon: com.suponicexchange.app.png
 bugbounty: 
 meta: removed

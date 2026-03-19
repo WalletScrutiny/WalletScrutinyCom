@@ -13,7 +13,6 @@ version: 2.1.20
 reviews: 
 website: https://www.aspendigital.co/
 repository: 
-issue: 
 icon: com.prod.aspen.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 344
 website: https://www.kcex.com/
 repository: 
-issue: 
 icon: com.kcex.png
 bugbounty: 
 meta: ok

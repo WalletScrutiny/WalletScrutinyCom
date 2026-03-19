@@ -13,7 +13,6 @@ version: 1.0.9
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: com.xspa.ai.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: https://btcplannet.net#deadLink
 repository: 
-issue: 
 icon: com.BTC.BtcPlannet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: https://atomars.com
 repository: 
-issue: 
 icon: com.atomars.android.png
 bugbounty: 
 meta: removed

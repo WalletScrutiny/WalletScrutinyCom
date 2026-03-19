@@ -13,7 +13,6 @@ version: 4.8.2
 reviews: 11
 website: https://bixin.com
 repository: 
-issue: 
 icon: com.bixin.bixin_android.png
 bugbounty: 
 meta: defunct

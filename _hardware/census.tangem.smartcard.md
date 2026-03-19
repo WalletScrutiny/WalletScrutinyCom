@@ -20,7 +20,6 @@ shop:
 country: 
 price: 39USD
 repository: 
-issue: 
 icon: census.tangem.smartcard.png
 bugbounty: 
 meta: defunct

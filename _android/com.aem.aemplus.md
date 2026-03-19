@@ -12,7 +12,6 @@ version: 1.0.14
 reviews: 
 website: https://www.aemalgorithm.io/aem-plus/main
 repository: 
-issue: 
 icon: com.aem.aemplus.png
 bugbounty: 
 meta: removed

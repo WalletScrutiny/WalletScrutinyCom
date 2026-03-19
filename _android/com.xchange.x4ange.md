@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 
 website: https://4ange.me/
 repository: 
-issue: 
 icon: com.xchange.x4ange.png
 bugbounty: 
 meta: removed

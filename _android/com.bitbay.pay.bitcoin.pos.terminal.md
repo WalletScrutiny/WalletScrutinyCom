@@ -13,7 +13,6 @@ version: 1.7.3(59)
 reviews: 
 website: https://zondaglobal.com/pay
 repository: 
-issue: 
 icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
 meta: obsolete

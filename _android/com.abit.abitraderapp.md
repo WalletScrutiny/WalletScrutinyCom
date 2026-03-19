@@ -12,7 +12,6 @@ version: 2.9.7
 reviews: 15
 website: https://abitnetwork.com
 repository: 
-issue: 
 icon: com.abit.abitraderapp.png
 bugbounty: 
 meta: removed

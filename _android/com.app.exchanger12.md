@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://maxicoinexchange.com#deadLink
 repository: 
-issue: 
 icon: com.app.exchanger12.png
 bugbounty: 
 meta: removed

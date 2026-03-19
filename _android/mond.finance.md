@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://web.archive.org/web/20240822030647/https://mond.finance/
 repository: 
-issue: 
 icon: mond.finance.png
 bugbounty: 
 meta: removed

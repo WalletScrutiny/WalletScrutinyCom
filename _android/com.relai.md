@@ -13,7 +13,6 @@ version: 3.11.0
 reviews: 
 website: https://relai.app
 repository: 
-issue: 
 icon: com.relai.png
 bugbounty: 
 meta: ok

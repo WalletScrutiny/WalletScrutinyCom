@@ -13,7 +13,6 @@ version: 3.0.12
 reviews: 
 website: https://greencryptox.com/
 repository: 
-issue: 
 icon: com.greencryptox.exchange.png
 bugbounty: 
 meta: stale

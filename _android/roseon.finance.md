@@ -13,7 +13,6 @@ version: 2.4.41
 reviews: 63
 website: http://roseon.world
 repository: 
-issue: 
 icon: roseon.finance.png
 bugbounty: 
 meta: stale

@@ -13,7 +13,6 @@ version: 1.1.20
 reviews: 3
 website: https://www.allinx.io
 repository: 
-issue: 
 icon: com.allin.exchange.appStore.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.9.7
 reviews: 32
 website: https://ironwallet.io/
 repository: 
-issue: 
 icon: com.wallet.crypto.btc.eth.jpg
 bugbounty: 
 meta: ok

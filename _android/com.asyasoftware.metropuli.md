@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://asyasoftware.ge
 repository: 
-issue: 
 icon: com.asyasoftware.metropuli.png
 bugbounty: 
 meta: obsolete

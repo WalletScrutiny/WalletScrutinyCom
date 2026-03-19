@@ -13,7 +13,6 @@ version: 3.60.0
 reviews: 55
 website: https://bit2me.com
 repository: 
-issue: 
 icon: com.phonegap.bit2me.png
 bugbounty: 
 meta: ok

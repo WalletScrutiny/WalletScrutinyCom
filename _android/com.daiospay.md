@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://daios.io/
 repository: 
-issue: 
 icon: com.daiospay.png
 bugbounty: 
 meta: removed

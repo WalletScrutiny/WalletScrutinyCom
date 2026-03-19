@@ -13,7 +13,6 @@ version: 2.21.0
 reviews: 429
 website: https://libertex.org/
 repository: 
-issue: 
 icon: org.fxclub.LibertexCL.jpg
 bugbounty: 
 meta: removed

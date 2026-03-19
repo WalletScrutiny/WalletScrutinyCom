@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://eftmarkets.com/
 repository: 
-issue: 
 icon: com.EftMarkets.app.png
 bugbounty: 
 meta: removed

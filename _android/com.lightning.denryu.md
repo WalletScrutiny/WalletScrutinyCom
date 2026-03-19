@@ -13,7 +13,6 @@ version: '0.1'
 reviews: 
 website: https://denryu.hashhub.tokyo#deadLink
 repository: 
-issue: 
 icon: com.lightning.denryu.png
 bugbounty: 
 meta: removed

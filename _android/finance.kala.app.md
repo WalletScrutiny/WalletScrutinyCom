@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://kala.finance#deadLink
 repository: 
-issue: 
 icon: finance.kala.app.png
 bugbounty: 
 meta: removed

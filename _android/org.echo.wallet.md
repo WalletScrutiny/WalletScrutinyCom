@@ -12,7 +12,6 @@ version: 1.13.2
 reviews: 
 website: https://echo-dev.io#deadLink
 repository: 
-issue: 
 icon: org.echo.wallet.png
 bugbounty: 
 meta: removed

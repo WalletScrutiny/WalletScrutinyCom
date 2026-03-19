@@ -13,7 +13,6 @@ version: 4.0.2
 reviews: 
 website: https://mchange.net
 repository: 
-issue: 
 icon: com.mchangeapps.mchange.png
 bugbounty: 
 meta: removed

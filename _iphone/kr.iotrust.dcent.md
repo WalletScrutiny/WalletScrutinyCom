@@ -13,7 +13,6 @@ version: 8.2.5
 reviews: 80
 website: https://store.dcentwallet.com/pages/dcent-wallet-app
 repository: 
-issue: 
 icon: kr.iotrust.dcent.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 3.6.0
 reviews: 
 website: http://www.voltmessenger.com#deadLink
 repository: 
-issue: 
 icon: com.volt.messenger.png
 bugbounty: 
 meta: removed

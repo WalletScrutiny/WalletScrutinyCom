@@ -13,7 +13,6 @@ version: 2.9.8
 reviews: 3
 website: https://riodefi.com/
 repository: 
-issue: 
 icon: com.riodefi.store.png
 bugbounty: 
 meta: removed

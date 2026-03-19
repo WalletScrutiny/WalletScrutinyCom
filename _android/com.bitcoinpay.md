@@ -12,7 +12,6 @@ version: 2.1.5
 reviews: 
 website: https://bitcoinpay.trade
 repository: 
-issue: 
 icon: com.bitcoinpay.png
 bugbounty: 
 meta: ok

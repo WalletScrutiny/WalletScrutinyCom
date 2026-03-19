@@ -13,7 +13,6 @@ version: 2.1.6
 reviews: 4
 website: https://www.crypto2cash.com/
 repository: 
-issue: 
 icon: io.crypto2cash.exchange.jpg
 bugbounty: 
 meta: ok

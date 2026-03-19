@@ -14,7 +14,6 @@ version: 11.7.5
 reviews: 329829
 website: https://www.webull.com
 repository: 
-issue: 
 icon: com.webull.trade.jpg
 bugbounty: 
 meta: ok

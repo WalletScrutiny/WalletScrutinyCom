@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 6
 website: http://cryptobuy.ae
 repository: 
-issue: 
 icon: info.primesoft.primetime.jpg
 bugbounty: 
 meta: defunct

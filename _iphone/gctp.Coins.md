@@ -13,7 +13,6 @@ version: 3.4.2
 reviews: 3330
 website: https://coins.ph/
 repository: 
-issue: 
 icon: gctp.Coins.jpg
 bugbounty: 
 meta: removed

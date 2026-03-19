@@ -21,7 +21,6 @@ shop: https://shop.hito.xyz/products/hito-bitcoin-edition-beta
 country: US
 price: 150 USD
 repository: 
-issue: 
 icon: hito.png
 bugbounty: 
 meta: ok

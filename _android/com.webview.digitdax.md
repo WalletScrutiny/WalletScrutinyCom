@@ -12,7 +12,6 @@ version: 10.00.02
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.webview.digitdax.png
 bugbounty: 
 meta: removed

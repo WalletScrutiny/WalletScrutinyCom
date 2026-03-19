@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: trezor.lightnite.png
 bugbounty: 
 meta: discontinued

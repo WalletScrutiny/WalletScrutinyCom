@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: https://maxwallet.cc/contact-us
 repository: 
-issue: 
 icon: com.maxwallet.cc.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2.1.4
 reviews: 41
 website: https://coins.app/
 repository: 
-issue: 
 icon: com.coinsapp.mobile.jpg
 bugbounty: 
 meta: removed

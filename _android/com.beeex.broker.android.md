@@ -12,7 +12,6 @@ version: 3.6.5
 reviews: 3
 website: https://www.beeex.com#deadLink
 repository: 
-issue: 
 icon: com.beeex.broker.android.png
 bugbounty: 
 meta: removed

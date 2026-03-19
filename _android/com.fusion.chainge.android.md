@@ -13,7 +13,6 @@ version: 0.8.1
 reviews: 63
 website: https://chainge.finance#deadLink
 repository: 
-issue: 
 icon: com.fusion.chainge.android.png
 bugbounty: 
 meta: removed

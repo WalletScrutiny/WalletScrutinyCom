@@ -13,7 +13,6 @@ version: 2.7.91
 reviews: 11
 website: https://lemon.me
 repository: 
-issue: 
 icon: com.applemoncash.png
 bugbounty: 
 meta: ok

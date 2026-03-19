@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://trexglobals.com/
 repository: 
-issue: 
 icon: com.vnc.trex.bit.png
 bugbounty: 
 meta: removed

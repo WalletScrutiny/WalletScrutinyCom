@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://qive.io
 repository: 
-issue: 
 icon: com.marathoncorporate.qive.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.bitcoin.cuzdan.jpg
 bugbounty: 
 meta: removed

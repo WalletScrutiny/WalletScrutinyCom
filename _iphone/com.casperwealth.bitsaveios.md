@@ -13,7 +13,6 @@ version: 1.28.0
 reviews: 0
 website: https://www.bitsave.club/
 repository: 
-issue: 
 icon: com.casperwealth.bitsaveios.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: http://www.tcws.io#deadLink
 repository: 
-issue: 
 icon: com.tcws.wallet.png
 bugbounty: 
 meta: removed

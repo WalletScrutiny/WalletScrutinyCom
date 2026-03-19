@@ -13,7 +13,6 @@ version: 15.6.1
 reviews: 4
 website: https://www.syfe.com
 repository: 
-issue: 
 icon: com.syfe.jpg
 bugbounty: 
 meta: ok

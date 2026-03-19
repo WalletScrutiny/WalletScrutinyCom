@@ -13,7 +13,6 @@ version: 7.3.1
 reviews: 94
 website: https://kriptomat.io
 repository: 
-issue: 
 icon: io.kriptomat.app.jpg
 bugbounty: 
 meta: ok

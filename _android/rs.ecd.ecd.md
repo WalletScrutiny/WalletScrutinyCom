@@ -13,7 +13,6 @@ version: 1.4.82
 reviews: 
 website: https://ecd.rs/
 repository: 
-issue: 
 icon: rs.ecd.ecd.png
 bugbounty: 
 meta: ok

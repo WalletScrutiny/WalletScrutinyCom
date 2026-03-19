@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://web.archive.org/web/20240925161635/https://www.hubitcoinics.org/
 repository: 
-issue: 
 icon: org.hubitcoinics.Hubitcoinics.png
 bugbounty: 
 meta: removed

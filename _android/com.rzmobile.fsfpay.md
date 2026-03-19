@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.fsfpay.com
 repository: 
-issue: 
 icon: com.rzmobile.fsfpay.png
 bugbounty: 
 meta: removed

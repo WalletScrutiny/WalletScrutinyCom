@@ -12,7 +12,6 @@ version: 1.0.54
 reviews: 9
 website: http://bbctoken.app#deadLink
 repository: 
-issue: 
 icon: com.bbctoken.png
 bugbounty: 
 meta: removed

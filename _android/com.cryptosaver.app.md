@@ -12,7 +12,6 @@ version: 1.0.36
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptosaver.app.png
 bugbounty: 
 meta: removed

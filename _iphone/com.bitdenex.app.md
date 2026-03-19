@@ -13,7 +13,6 @@ version: 3.2.21
 reviews: 2
 website: https://bitdenex.com
 repository: 
-issue: 
 icon: com.bitdenex.app.jpg
 bugbounty: 
 meta: ok

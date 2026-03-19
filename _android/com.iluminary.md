@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://iluminary.ai
 repository: 
-issue: 
 icon: com.iluminary.png
 bugbounty: 
 meta: ok

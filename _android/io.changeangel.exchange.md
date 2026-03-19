@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://changeangel.io
 repository: 
-issue: 
 icon: io.changeangel.exchange.png
 bugbounty: 
 meta: removed

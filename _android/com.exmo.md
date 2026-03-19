@@ -13,7 +13,6 @@ version: 3.81.1
 reviews: 96
 website: https://exmo.com/
 repository: 
-issue: 
 icon: com.exmo.png
 bugbounty: 
 meta: ok

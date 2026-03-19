@@ -15,7 +15,6 @@ version: 0.47.2
 reviews: 128
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: 
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok

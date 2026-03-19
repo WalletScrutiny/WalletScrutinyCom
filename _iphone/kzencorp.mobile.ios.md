@@ -13,7 +13,6 @@ version: 9.5.7
 reviews: 4321
 website: https://www.zengo.com
 repository: 
-issue: 
 icon: kzencorp.mobile.ios.jpg
 bugbounty: 
 meta: ok

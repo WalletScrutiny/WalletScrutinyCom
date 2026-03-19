@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.btc.bitcoin.crypto.okpro.binance.coinbase.png
 bugbounty: 
 meta: removed

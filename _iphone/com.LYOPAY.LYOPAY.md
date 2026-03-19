@@ -13,7 +13,6 @@ version: '8.17'
 reviews: 0
 website: https://lyopay.com/
 repository: 
-issue: 
 icon: com.LYOPAY.LYOPAY.jpg
 bugbounty: 
 meta: removed

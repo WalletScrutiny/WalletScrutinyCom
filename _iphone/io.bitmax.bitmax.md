@@ -14,7 +14,6 @@ version: 3.6.4
 reviews: 173
 website: 
 repository: 
-issue: 
 icon: io.bitmax.bitmax.jpg
 bugbounty: 
 meta: defunct

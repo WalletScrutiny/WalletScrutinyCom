@@ -13,7 +13,6 @@ version: 5.3.120
 reviews: 629
 website: http://www.okcoin.com
 repository: 
-issue: 
 icon: com.okinc.okcoin.intl.png
 bugbounty: 
 meta: removed

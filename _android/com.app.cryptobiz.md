@@ -13,7 +13,6 @@ version: '42.5'
 reviews: 33
 website: https://cryptobiz.exchange/
 repository: 
-issue: 
 icon: com.app.cryptobiz.png
 bugbounty: 
 meta: removed

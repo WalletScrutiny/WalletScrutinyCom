@@ -13,7 +13,6 @@ version: 1.7.1
 reviews: 17
 website: https://www.fairdesk.com/
 repository: 
-issue: 
 icon: com.biboots.flutter_app.png
 bugbounty: 
 meta: removed

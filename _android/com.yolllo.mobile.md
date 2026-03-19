@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://avapayltd.com#deadLink
 repository: 
-issue: 
 icon: com.yolllo.mobile.png
 bugbounty: 
 meta: removed

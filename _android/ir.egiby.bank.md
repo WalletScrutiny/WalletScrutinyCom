@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://egiby.com
 repository: 
-issue: 
 icon: ir.egiby.bank.png
 bugbounty: 
 meta: removed

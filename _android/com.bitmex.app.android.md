@@ -13,7 +13,6 @@ version: 3.2.4
 reviews: 
 website: https://www.bitmex.com/
 repository: 
-issue: 
 icon: com.bitmex.app.android.png
 bugbounty: 
 meta: ok

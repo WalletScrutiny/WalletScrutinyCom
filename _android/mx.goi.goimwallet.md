@@ -12,7 +12,6 @@ version: 1.16.0
 reviews: 
 website: https://connectgoi.com#deadLink
 repository: 
-issue: 
 icon: mx.goi.goimwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '4.88'
 reviews: 1272
 website: http://eu.iqoption.com
 repository: 
-issue: 
 icon: com.trading.iqoption.jpg
 bugbounty: 
 meta: ok

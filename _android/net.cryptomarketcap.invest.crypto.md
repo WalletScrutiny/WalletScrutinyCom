@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptomarketcap.invest.crypto.jpg
 bugbounty: 
 meta: removed

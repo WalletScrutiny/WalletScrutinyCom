@@ -12,7 +12,6 @@ version: '4'
 reviews: 
 website: https://spacelink.exchange
 repository: 
-issue: 
 icon: com.spacelink.exchange.png
 bugbounty: 
 meta: obsolete

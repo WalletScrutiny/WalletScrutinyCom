@@ -13,7 +13,6 @@ version: 3.6.0
 reviews: 
 website: https://followmymoney.de
 repository: 
-issue: 
 icon: de.followmytrader.png
 bugbounty: 
 meta: ok

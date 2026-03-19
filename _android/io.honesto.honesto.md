@@ -13,7 +13,6 @@ version: 2.0.79
 reviews: 
 website: https://www.honesto.swiss/
 repository: 
-issue: 
 icon: io.honesto.honesto.png
 bugbounty: 
 meta: ok

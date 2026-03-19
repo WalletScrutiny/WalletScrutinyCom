@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
 icon: tagworldexchange.twal.png
 bugbounty: 
 meta: ok

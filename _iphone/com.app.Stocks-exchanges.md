@@ -13,7 +13,6 @@ version: '1.34'
 reviews: 29
 website: https://stex.com#deadLink
 repository: 
-issue: 
 icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
 meta: removed

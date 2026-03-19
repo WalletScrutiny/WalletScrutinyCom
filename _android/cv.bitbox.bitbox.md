@@ -12,7 +12,6 @@ version: 1.3.9
 reviews: 
 website: https://bitbox.vc/
 repository: 
-issue: 
 icon: cv.bitbox.bitbox.png
 bugbounty: 
 meta: removed

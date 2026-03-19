@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: https://enterwota.com
 repository: 
-issue: 
 icon: com.wota.app.png
 bugbounty: 
 meta: ok

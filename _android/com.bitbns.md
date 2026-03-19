@@ -13,7 +13,6 @@ version: 6.21.0
 reviews: 44
 website: https://bitbns.com/
 repository: 
-issue: 
 icon: com.bitbns.png
 bugbounty: 
 meta: stale

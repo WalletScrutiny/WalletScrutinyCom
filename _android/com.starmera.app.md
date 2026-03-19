@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://starmera.com#deadLink
 repository: 
-issue: 
 icon: com.starmera.app.png
 bugbounty: 
 meta: removed

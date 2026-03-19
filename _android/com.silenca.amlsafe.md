@@ -13,7 +13,6 @@ version: '2.43'
 reviews: 2
 website: https://safe3.app/
 repository: 
-issue: 
 icon: com.silenca.amlsafe.png
 bugbounty: 
 meta: ok

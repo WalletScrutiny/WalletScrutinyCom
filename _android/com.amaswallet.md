@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.amaswallet.jpg
 bugbounty: 
 meta: removed

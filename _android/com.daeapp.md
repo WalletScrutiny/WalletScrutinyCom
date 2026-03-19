@@ -12,7 +12,6 @@ version: '12.0'
 reviews: 
 website: https://dae.africa#deadLink
 repository: 
-issue: 
 icon: com.daeapp.jpg
 bugbounty: 
 meta: removed

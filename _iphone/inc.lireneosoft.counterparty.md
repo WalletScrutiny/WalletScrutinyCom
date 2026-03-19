@@ -13,7 +13,6 @@ version: '1.255'
 reviews: 1
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet
-issue: 
 icon: inc.lireneosoft.counterparty.jpg
 bugbounty: 
 meta: removed

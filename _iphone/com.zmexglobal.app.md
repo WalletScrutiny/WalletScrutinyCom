@@ -12,7 +12,6 @@ version: 3.11.6
 reviews: 37
 website: 
 repository: 
-issue: 
 icon: com.zmexglobal.app.jpg
 bugbounty: 
 meta: ok

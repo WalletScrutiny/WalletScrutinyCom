@@ -13,7 +13,6 @@ version: 5.4.0
 reviews: 22
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
-issue: 
 icon: com.quarkchain.qpocket.jpg
 bugbounty: 
 meta: obsolete

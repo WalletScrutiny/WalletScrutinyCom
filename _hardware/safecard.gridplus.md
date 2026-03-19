@@ -17,7 +17,6 @@ shop:
 country: 
 price: 40USD
 repository: https://github.com/GridPlus/safe-card
-issue: 
 icon: safecard.gridplus.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.3.19
 reviews: 2
 website: https://www.litebit.eu/
 repository: 
-issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
 meta: removed

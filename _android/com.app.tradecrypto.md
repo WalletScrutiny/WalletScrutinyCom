@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: http://www.tradecrypto.asia#deadLink
 repository: 
-issue: 
 icon: com.app.tradecrypto.png
 bugbounty: 
 meta: removed

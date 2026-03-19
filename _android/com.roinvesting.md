@@ -13,7 +13,6 @@ version: 1.5.69-roinvesting
 reviews: 
 website: https://www.roinvesting.com/
 repository: 
-issue: 
 icon: com.roinvesting.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://web.archive.org/web/20250325054816/http://sprint-bank.com/
 repository: 
-issue: 
 icon: quasar.sprint.bank.app.jpg
 bugbounty: 
 meta: removed

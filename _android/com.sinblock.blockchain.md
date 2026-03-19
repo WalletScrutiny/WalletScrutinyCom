@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: com.sinblock.blockchain.png
 bugbounty: 
 meta: ok

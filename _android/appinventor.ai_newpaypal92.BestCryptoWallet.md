@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: appinventor.ai_newpaypal92.BestCryptoWallet.jpg
 bugbounty: 
 meta: removed

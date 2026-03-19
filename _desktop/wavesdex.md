@@ -12,7 +12,6 @@ provider: Elfronus Company Ltd
 providerWebsite: 
 website: https://waves.exchange
 repository: https://github.com/wavesplatform/WavesGUI
-issue: 
 icon: wavesdex.png
 bugbounty: 
 meta: deprecated

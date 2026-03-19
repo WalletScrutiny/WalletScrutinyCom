@@ -13,7 +13,6 @@ version: 1.2.4
 reviews: 6
 website: http://everdreamsoft.com
 repository: 
-issue: 
 icon: com.everdreamsoft.casatookan.png
 bugbounty: 
 meta: ok

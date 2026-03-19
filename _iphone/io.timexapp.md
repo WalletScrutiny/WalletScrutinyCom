@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 0
 website: https://timex.io
 repository: 
-issue: 
 icon: io.timexapp.jpg
 bugbounty: 
 meta: removed

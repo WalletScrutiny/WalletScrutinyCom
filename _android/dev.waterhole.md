@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://www.waterhole.io#deadLink
 repository: 
-issue: 
 icon: dev.waterhole.png
 bugbounty: 
 meta: removed

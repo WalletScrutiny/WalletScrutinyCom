@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 28
 website: https://web.archive.org/web/20251229095124/https://www.coinmama.com/coinmama-wallet
 repository: 
-issue: 
 icon: com.coinmama.coinmama.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.24
 reviews: 
 website: https://voltpay.app
 repository: 
-issue: 
 icon: com.core.voltpay.png
 bugbounty: 
 meta: removed

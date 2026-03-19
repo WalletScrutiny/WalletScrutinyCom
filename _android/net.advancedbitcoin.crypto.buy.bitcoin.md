@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.advancedbitcoin.crypto.buy.bitcoin.png
 bugbounty: 
 meta: removed

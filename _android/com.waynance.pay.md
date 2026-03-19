@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://waynance.com
 repository: 
-issue: 
 icon: com.waynance.pay.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.10
 reviews: 20
 website: 
 repository: 
-issue: 
 icon: net.bitkap.frondend.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.10
 reviews: 
 website: https://www.aaatrade.com#deadLink
 repository: 
-issue: 
 icon: com.aaatrade.aaatrader.png
 bugbounty: 
 meta: removed

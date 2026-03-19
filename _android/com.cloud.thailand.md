@@ -13,7 +13,6 @@ version: 1.50.1
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.cloud.thailand.jpg
 bugbounty: 
 meta: ok

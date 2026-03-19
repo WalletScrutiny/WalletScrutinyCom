@@ -13,7 +13,6 @@ version: 2.6.1
 reviews: 49
 website: https://getbabb.com/
 repository: 
-issue: 
 icon: com.babb.app.png
 bugbounty: 
 meta: ok

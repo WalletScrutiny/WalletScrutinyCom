@@ -12,7 +12,6 @@ version: 1.7.0
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: gr.cryptocurrencies.bitcoinpos.png
 bugbounty: 
 meta: removed

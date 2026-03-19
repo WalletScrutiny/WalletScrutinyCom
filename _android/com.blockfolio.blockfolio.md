@@ -13,7 +13,6 @@ version: 4.12.5
 reviews: 11863
 website: https://www.blockfolio.com#deadLink
 repository: 
-issue: 
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
 meta: removed

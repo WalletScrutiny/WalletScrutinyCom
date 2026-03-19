@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: https://github.com/anishathalye/notary
-issue: 
 icon: anishathalye.notary.png
 bugbounty: 
 meta: ok

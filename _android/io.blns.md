@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://blns.io
 repository: 
-issue: 
 icon: io.blns.png
 bugbounty: 
 meta: ok

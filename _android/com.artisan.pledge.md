@@ -13,7 +13,6 @@ version: 1.0.59
 reviews: 7
 website: https://www.assure.pro
 repository: 
-issue: 
 icon: com.artisan.pledge.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '2.5'
 reviews: 
 website: http://topcoinfx.com
 repository: 
-issue: 
 icon: com.topcoinfx.png
 bugbounty: 
 meta: removed

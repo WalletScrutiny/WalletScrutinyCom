@@ -12,7 +12,6 @@ version: 1.1.65
 reviews: 
 website: https://www.cryptoasx.com#deadLink
 repository: 
-issue: 
 icon: com.cryptoasx.app.png
 bugbounty: 
 meta: removed

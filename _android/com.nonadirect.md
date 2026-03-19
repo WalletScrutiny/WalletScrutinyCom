@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://easybill.com.ng
 repository: 
-issue: 
 icon: com.nonadirect.png
 bugbounty: 
 meta: obsolete

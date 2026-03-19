@@ -12,7 +12,6 @@ version: 2.1.48
 reviews: 
 website: https://7StarPay.com
 repository: 
-issue: 
 icon: club.sevenstar.sevenstarapp.png
 bugbounty: 
 meta: removed

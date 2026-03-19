@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 65
 website: https://coinhub8899.web.app
 repository: 
-issue: 
 icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 5
 website: https://www.felixo.com
 repository: 
-issue: 
 icon: com.felixo.mobile.jpg
 bugbounty: 
 meta: obsolete

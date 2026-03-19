@@ -13,7 +13,6 @@ version: 2.1.9
 reviews: 4
 website: https://meta-exchange.vision/home#deadLink
 repository: 
-issue: 
 icon: io.meta1.appbeta.jpg
 bugbounty: 
 meta: removed

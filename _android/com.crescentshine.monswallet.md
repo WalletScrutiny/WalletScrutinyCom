@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 3
 website: https://support.monsterra.io/
 repository: 
-issue: 
 icon: com.crescentshine.monswallet.png
 bugbounty: 
 meta: obsolete

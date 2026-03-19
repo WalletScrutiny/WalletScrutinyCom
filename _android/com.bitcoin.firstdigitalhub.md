@@ -12,7 +12,6 @@ version: 1.9.3.0.13
 reviews: 148
 website: 
 repository: 
-issue: 
 icon: com.bitcoin.firstdigitalhub.jpg
 bugbounty: 
 meta: removed

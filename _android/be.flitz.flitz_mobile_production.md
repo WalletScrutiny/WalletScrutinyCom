@@ -12,7 +12,6 @@ version: 0.15.4
 reviews: 
 website: https://flitz.be#deadLink
 repository: 
-issue: 
 icon: be.flitz.flitz_mobile_production.png
 bugbounty: 
 meta: removed

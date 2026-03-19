@@ -12,7 +12,6 @@ version: 1.0.10
 reviews: 
 website: https://www.suncapital.lk
 repository: 
-issue: 
 icon: lk.suncapital.chp.png
 bugbounty: 
 meta: removed

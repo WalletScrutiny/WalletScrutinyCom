@@ -13,7 +13,6 @@ version: 1.6.6
 reviews: 
 website: https://obsidiam.com/
 repository: 
-issue: 
 icon: com.obsidiam.android1.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tudtt.imjys.v2.png
 bugbounty: 
 meta: removed

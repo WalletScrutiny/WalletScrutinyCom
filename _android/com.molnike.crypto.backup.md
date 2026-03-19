@@ -12,7 +12,6 @@ version: '0.4'
 reviews: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 
-issue: 
 icon: com.molnike.crypto.backup.png
 bugbounty: 
 meta: removed

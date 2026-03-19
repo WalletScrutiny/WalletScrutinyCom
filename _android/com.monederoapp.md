@@ -14,7 +14,6 @@ version: 4.1.0
 reviews: 
 website: https://www.monedero.com/
 repository: 
-issue: 
 icon: com.monederoapp.png
 bugbounty: 
 meta: removed

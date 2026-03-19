@@ -13,7 +13,6 @@ version: 0.46.4
 reviews: 1254
 website: https://unstoppable.money/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-ios
-issue: 
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.12
 reviews: 
 website: https://cryptosimple.app
 repository: 
-issue: 
 icon: com.cryptosimple.prod.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.248'
 reviews: 15
 website: http://www.btcbox.co.jp
 repository: 
-issue: 
 icon: btctrade.btcbox.jpg
 bugbounty: 
 meta: ok

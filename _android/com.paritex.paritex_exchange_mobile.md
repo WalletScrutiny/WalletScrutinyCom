@@ -13,7 +13,6 @@ version: 3.1.17
 reviews: 106
 website: https://paritex.com/
 repository: 
-issue: 
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
 meta: removed

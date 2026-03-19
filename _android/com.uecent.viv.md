@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://www.viv.com#deadLink
 repository: 
-issue: 
 icon: com.uecent.viv.png
 bugbounty: 
 meta: removed

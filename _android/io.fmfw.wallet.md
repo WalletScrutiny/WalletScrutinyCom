@@ -12,7 +12,6 @@ version: 1.3.13
 reviews: 
 website: https://fmfw.io
 repository: 
-issue: 
 icon: io.fmfw.wallet.png
 bugbounty: 
 meta: removed

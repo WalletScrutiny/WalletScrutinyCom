@@ -13,7 +13,6 @@ version: 1.3.2.1478
 reviews: 
 website: https://www.zb.com#deadLink
 repository: 
-issue: 
 icon: com.zb.global.png
 bugbounty: 
 meta: removed

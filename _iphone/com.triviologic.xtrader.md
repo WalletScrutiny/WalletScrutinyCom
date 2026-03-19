@@ -13,7 +13,6 @@ version: 7.0.20
 reviews: 29
 website: https://www.xtrade.com/
 repository: 
-issue: 
 icon: com.triviologic.xtrader.jpg
 bugbounty: 
 meta: ok

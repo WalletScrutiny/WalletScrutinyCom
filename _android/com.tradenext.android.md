@@ -12,7 +12,6 @@ version: 1.7.0
 reviews: 
 website: https://tradenext.com
 repository: 
-issue: 
 icon: com.tradenext.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://giltwallet.com
 repository: 
-issue: 
 icon: gilt.wallet.png
 bugbounty: 
 meta: removed

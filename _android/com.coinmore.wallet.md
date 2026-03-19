@@ -12,7 +12,6 @@ version: 1.1.3
 reviews: 
 website: https://www.coinmore.io#deadLink
 repository: 
-issue: 
 icon: com.coinmore.wallet.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 62.40GBP
 repository: 
-issue: 
 icon: evault.png
 bugbounty: 
 meta: obsolete

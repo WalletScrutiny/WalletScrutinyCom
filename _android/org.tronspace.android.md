@@ -13,7 +13,6 @@ version: 2.2.6
 reviews: 
 website: https://kointrack.com
 repository: 
-issue: 
 icon: org.tronspace.android.png
 bugbounty: 
 meta: obsolete

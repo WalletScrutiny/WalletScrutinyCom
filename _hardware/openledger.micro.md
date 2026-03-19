@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: https://github.com/nraboy/open-ledger-micro
-issue: 
 icon: openledger.micro.png
 bugbounty: 
 meta: ok

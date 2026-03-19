@@ -12,7 +12,6 @@ version: 9.6.4
 reviews: 
 website: http://Barongxtrade.com
 repository: 
-issue: 
 icon: com.barongxtrade.users.png
 bugbounty: 
 meta: ok

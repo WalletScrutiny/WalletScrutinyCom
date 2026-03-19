@@ -12,7 +12,6 @@ version: 1.79.1
 reviews: 340
 website: https://cryptopay.me/
 repository: 
-issue: 
 icon: me.cryptopay.app.jpg
 bugbounty: 
 meta: removed

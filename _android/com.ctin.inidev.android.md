@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://inindiatech.com
 repository: 
-issue: 
 icon: com.ctin.inidev.android.png
 bugbounty: 
 meta: removed

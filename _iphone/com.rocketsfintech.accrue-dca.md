@@ -13,7 +13,6 @@ version: 4.9.15
 reviews: 2903
 website: https://useaccrue.com
 repository: 
-issue: 
 icon: com.rocketsfintech.accrue-dca.jpg
 bugbounty: 
 meta: ok

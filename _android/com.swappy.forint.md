@@ -12,7 +12,6 @@ version: 0.0.20
 reviews: 
 website: https://www.swappy.ws
 repository: 
-issue: 
 icon: com.swappy.forint.png
 bugbounty: 
 meta: removed

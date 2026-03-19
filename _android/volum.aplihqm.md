@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: volum.aplihqm.png
 bugbounty: 
 meta: removed

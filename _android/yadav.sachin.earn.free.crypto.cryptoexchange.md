@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: yadav.sachin.earn.free.crypto.cryptoexchange.jpg
 bugbounty: 
 meta: obsolete

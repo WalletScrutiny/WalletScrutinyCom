@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://bitmarket.network/
 repository: https://github.com/BitMarketNetwork/client-desktop
-issue: 
 icon: bitmarket.png
 bugbounty: 
 meta: obsolete

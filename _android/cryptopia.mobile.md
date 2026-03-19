@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 3
 website: http://smilestory.io
 repository: 
-issue: 
 icon: cryptopia.mobile.png
 bugbounty: 
 meta: removed

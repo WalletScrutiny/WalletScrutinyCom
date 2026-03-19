@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: http://www.signkeys.com
 repository: 
-issue: 
 icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
 meta: removed

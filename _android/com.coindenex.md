@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://coindenex.com#deadLink
 repository: 
-issue: 
 icon: com.coindenex.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://albit.live#deadLink
 repository: 
-issue: 
 icon: com.app.alcoin4naira.png
 bugbounty: 
 meta: removed

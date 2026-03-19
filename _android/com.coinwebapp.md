@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 3
 website: https://coinweb.io
 repository: 
-issue: 
 icon: com.coinwebapp.png
 bugbounty: 
 meta: ok

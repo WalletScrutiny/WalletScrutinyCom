@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 12
 website: https://www.bitradex.com/
 repository: 
-issue: 
 icon: io.noah.pro.png
 bugbounty: 
 meta: ok

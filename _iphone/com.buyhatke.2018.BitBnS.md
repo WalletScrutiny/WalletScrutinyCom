@@ -13,7 +13,6 @@ version: 6.1.5
 reviews: 965
 website: https://bitbns.com
 repository: 
-issue: 
 icon: com.buyhatke.2018.BitBnS.jpg
 bugbounty: 
 meta: defunct

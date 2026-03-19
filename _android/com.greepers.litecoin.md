@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://24litecoin.co.ua#deadLink
 repository: 
-issue: 
 icon: com.greepers.litecoin.jpg
 bugbounty: 
 meta: removed

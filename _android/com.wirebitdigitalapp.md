@@ -13,7 +13,6 @@ version: 1.12.4
 reviews: 
 website: https://wirebit.com/
 repository: 
-issue: 
 icon: com.wirebitdigitalapp.png
 bugbounty: 
 meta: removed

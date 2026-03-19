@@ -13,7 +13,6 @@ version: 3.7.0
 reviews: 
 website: https://firi.com
 repository: 
-issue: 
 icon: com.mirai.miraiex.png
 bugbounty: 
 meta: ok

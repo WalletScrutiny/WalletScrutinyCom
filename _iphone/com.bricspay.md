@@ -13,7 +13,6 @@ version: 0.0.14
 reviews: 0
 website: https://www.brics-pay.com/
 repository: 
-issue: 
 icon: com.bricspay.jpg
 bugbounty: 
 meta: ok

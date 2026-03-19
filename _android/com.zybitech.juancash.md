@@ -13,7 +13,6 @@ version: V2.0.3
 reviews: 3
 website: https://www.juancash.com/
 repository: 
-issue: 
 icon: com.zybitech.juancash.png
 bugbounty: 
 meta: stale

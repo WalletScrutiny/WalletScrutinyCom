@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://utilitypay.co#deadLink
 repository: 
-issue: 
 icon: com.utilitypay.co22.png
 bugbounty: 
 meta: removed

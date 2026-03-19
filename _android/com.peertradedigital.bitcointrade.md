@@ -13,7 +13,6 @@ version: 3.20.4
 reviews: 4822
 website: http://www.bitcointrade.com.br
 repository: 
-issue: 
 icon: com.peertradedigital.bitcointrade.png
 bugbounty: 
 meta: removed

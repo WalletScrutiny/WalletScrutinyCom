@@ -13,7 +13,6 @@ version: 3.5.9
 reviews: 15
 website: https://www.fameex.com
 repository: 
-issue: 
 icon: com.app.fameex.png
 bugbounty: 
 meta: removed

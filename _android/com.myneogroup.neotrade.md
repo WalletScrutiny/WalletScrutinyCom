@@ -12,7 +12,6 @@ version: '1.23'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.myneogroup.neotrade.png
 bugbounty: 
 meta: removed

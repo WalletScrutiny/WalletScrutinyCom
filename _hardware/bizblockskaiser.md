@@ -20,7 +20,6 @@ shop: https://bizblocks.io/buy
 country: KR
 price: 
 repository: 
-issue: 
 icon: bizblockskaiser.png
 bugbounty: 
 meta: ok

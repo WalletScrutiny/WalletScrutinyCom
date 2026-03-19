@@ -13,7 +13,6 @@ version: 1.0.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitkingdomex.app.android.png
 bugbounty: 
 meta: removed

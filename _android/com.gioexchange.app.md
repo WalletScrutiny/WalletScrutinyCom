@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.gioexchange.com/
 repository: 
-issue: 
 icon: com.gioexchange.app.png
 bugbounty: 
 meta: stale

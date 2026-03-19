@@ -14,7 +14,6 @@ version: 3.0.59
 reviews: 0
 website: http://keywallet.co.kr
 repository: 
-issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
 meta: ok

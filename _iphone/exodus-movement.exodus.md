@@ -13,7 +13,6 @@ version: 26.1.16
 reviews: 34094
 website: https://exodus.com/mobile
 repository: 
-issue: 
 icon: exodus-movement.exodus.jpg
 bugbounty: 
 meta: ok

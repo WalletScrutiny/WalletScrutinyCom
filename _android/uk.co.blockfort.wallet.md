@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://blockfort.co.uk/
 repository: 
-issue: 
 icon: uk.co.blockfort.wallet.jpg
 bugbounty: 
 meta: removed

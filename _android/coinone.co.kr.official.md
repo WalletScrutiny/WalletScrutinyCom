@@ -13,7 +13,6 @@ version: 5.24.1
 reviews: 15
 website: https://coinone.co.kr
 repository: 
-issue: 
 icon: coinone.co.kr.official.png
 bugbounty: 
 meta: ok

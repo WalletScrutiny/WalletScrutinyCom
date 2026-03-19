@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://blockchaindev.my/
 repository: 
-issue: 
 icon: com.mypw.app.png
 bugbounty: 
 meta: removed

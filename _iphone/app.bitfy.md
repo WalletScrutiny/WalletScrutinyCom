@@ -13,7 +13,6 @@ version: 3.12.45
 reviews: 117
 website: https://bitfy.app
 repository: 
-issue: 
 icon: app.bitfy.jpg
 bugbounty: 
 meta: removed

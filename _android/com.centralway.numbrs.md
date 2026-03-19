@@ -12,7 +12,6 @@ version: 7.4.0
 reviews: 6
 website: https://www.numbrs.com#deadLink
 repository: 
-issue: 
 icon: com.centralway.numbrs.png
 bugbounty: 
 meta: removed

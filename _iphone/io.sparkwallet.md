@@ -13,7 +13,6 @@ version: '3.2'
 reviews: 10
 website: https://sparkwallet.io/
 repository: 
-issue: 
 icon: io.sparkwallet.jpg
 bugbounty: 
 meta: removed

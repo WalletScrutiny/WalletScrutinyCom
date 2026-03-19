@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://365emoney.com
 repository: 
-issue: 
 icon: com.emoney_365.png
 bugbounty: 
 meta: removed

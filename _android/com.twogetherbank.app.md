@@ -13,7 +13,6 @@ version: 1.9.3
 reviews: 
 website: https://www.2gether.global
 repository: 
-issue: 
 icon: com.twogetherbank.app.png
 bugbounty: 
 meta: removed

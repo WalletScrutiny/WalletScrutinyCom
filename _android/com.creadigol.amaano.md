@@ -12,7 +12,6 @@ version: 1.6.1
 reviews: 
 website: https://amaano.com/
 repository: 
-issue: 
 icon: com.creadigol.amaano.png
 bugbounty: 
 meta: defunct

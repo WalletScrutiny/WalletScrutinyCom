@@ -12,7 +12,6 @@ version: '8.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.shah.bit.png
 bugbounty: 
 meta: removed

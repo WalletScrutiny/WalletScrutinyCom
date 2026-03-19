@@ -13,7 +13,6 @@ version: 3.17.0
 reviews: 197
 website: https://walletnow.app
 repository: 
-issue: 
 icon: com.nowwallet.png
 bugbounty: 
 meta: ok

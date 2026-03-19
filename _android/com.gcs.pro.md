@@ -12,7 +12,6 @@ version: 1.0.4.220509
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.gcs.pro.png
 bugbounty: 
 meta: removed

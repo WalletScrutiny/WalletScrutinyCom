@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: http://www.vitarabrit.com#deadLink
 repository: 
-issue: 
 icon: com.mcways.hb.netcoin.png
 bugbounty: 
 meta: removed

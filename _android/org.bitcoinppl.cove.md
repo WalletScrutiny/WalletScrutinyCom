@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 
 website: https://covebitcoinwallet.com
 repository: 
-issue: 
 icon: org.bitcoinppl.cove.png
 bugbounty: 
 meta: ok

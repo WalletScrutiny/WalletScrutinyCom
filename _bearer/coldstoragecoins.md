@@ -20,7 +20,6 @@ shop: https://checkout.square.site/buy/LNFSKRHZPZLG3ESNBYQ6HHA6
 country: SG
 price: 24.95USD
 repository: 
-issue: 
 icon: coldstoragecoins.png
 bugbounty: 
 meta: ok

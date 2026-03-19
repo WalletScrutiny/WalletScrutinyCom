@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 7
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit-ios
-issue: 
 icon: to.bitkit.jpg
 bugbounty: 
 meta: ok

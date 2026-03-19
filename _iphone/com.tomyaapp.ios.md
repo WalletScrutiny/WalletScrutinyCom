@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 21
 website: https://www.tomya.com
 repository: 
-issue: 
 icon: com.tomyaapp.ios.jpg
 bugbounty: 
 meta: removed

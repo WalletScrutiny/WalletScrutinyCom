@@ -13,7 +13,6 @@ version: '14.8'
 reviews: 257
 website: https://ogpaywallet.com/
 repository: 
-issue: 
 icon: com.unifiedsignal.ogpaywallet.jpg
 bugbounty: 
 meta: ok

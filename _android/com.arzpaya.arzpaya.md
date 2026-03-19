@@ -13,7 +13,6 @@ version: 4.08.17.02
 reviews: 5
 website: https://arzpaya.com
 repository: 
-issue: 
 icon: com.arzpaya.arzpaya.png
 bugbounty: 
 meta: ok

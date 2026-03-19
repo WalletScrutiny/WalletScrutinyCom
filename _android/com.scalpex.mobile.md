@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://scalpex.com
 repository: 
-issue: 
 icon: com.scalpex.mobile.png
 bugbounty: 
 meta: removed

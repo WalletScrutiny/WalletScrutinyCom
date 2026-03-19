@@ -13,7 +13,6 @@ version: 2.3.3
 reviews: 
 website: http://x-widget.org/
 repository: 
-issue: 
 icon: com.msline.mw.png
 bugbounty: 
 meta: removed

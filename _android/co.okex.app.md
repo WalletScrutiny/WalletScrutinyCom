@@ -13,7 +13,6 @@ version: 7.4.9
 reviews: 458
 website: https://ok-ex.co
 repository: 
-issue: 
 icon: co.okex.app.png
 bugbounty: 
 meta: ok

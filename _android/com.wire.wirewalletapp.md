@@ -12,7 +12,6 @@ version: 6.5502.321
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wire.wirewalletapp.jpg
 bugbounty: 
 meta: removed

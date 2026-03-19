@@ -17,7 +17,6 @@ shop:
 country: BG
 price: 
 repository: https://github.com/agrimint/hardwareWallet
-issue: 
 icon: agrimint.png
 bugbounty: 
 meta: ok

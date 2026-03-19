@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 1
 website: https://bitcoin-wallet.flycricket.io/
 repository: 
-issue: 
 icon: com.bitcoin.wallet.btc.testnet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.7.5
 reviews: 144
 website: https://www.cryptokara.com/
 repository: 
-issue: 
 icon: com.cryptokara.jpg
 bugbounty: 
 meta: removed

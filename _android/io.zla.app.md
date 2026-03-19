@@ -12,7 +12,6 @@ version: 2.6.3
 reviews: 45
 website: https://zla.io
 repository: 
-issue: 
 icon: io.zla.app.png
 bugbounty: 
 meta: removed

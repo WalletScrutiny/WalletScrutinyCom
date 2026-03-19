@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://paypack.company#deadLink
 repository: 
-issue: 
 icon: com.paypack.company.png
 bugbounty: 
 meta: removed

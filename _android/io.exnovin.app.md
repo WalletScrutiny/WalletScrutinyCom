@@ -13,7 +13,6 @@ version: 3.5.9
 reviews: 52
 website: https://exnovin.io
 repository: 
-issue: 
 icon: io.exnovin.app.png
 bugbounty: 
 meta: ok

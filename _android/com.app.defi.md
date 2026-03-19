@@ -13,7 +13,6 @@ version: 1.11.25
 reviews: 29
 website: https://lachain.io
 repository: 
-issue: 
 icon: com.app.defi.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '3.57'
 reviews: 
 website: https://www.coinomo.com#deadLink
 repository: 
-issue: 
 icon: com.cappuu.png
 bugbounty: 
 meta: removed

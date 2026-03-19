@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 
 website: https://quantfolio.io
 repository: 
-issue: 
 icon: quantit.saiv.rabit.png
 bugbounty: 
 meta: removed

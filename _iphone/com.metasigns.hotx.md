@@ -13,7 +13,6 @@ version: 1.0.19
 reviews: 2
 website: https://themetasigns.com/
 repository: 
-issue: 
 icon: com.metasigns.hotx.jpg
 bugbounty: 
 meta: removed

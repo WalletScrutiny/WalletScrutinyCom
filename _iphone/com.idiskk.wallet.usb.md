@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 19
 website: 
 repository: 
-issue: 
 icon: com.idiskk.wallet.usb.jpg
 bugbounty: 
 meta: removed

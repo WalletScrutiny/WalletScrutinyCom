@@ -13,7 +13,6 @@ version: '4'
 reviews: 5
 website: https://asbazar.com/en/home#deadLink
 repository: 
-issue: 
 icon: com.app.asbazar59.png
 bugbounty: 
 meta: removed

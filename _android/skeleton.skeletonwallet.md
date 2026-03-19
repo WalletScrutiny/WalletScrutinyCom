@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://defiskeletons.com/
 repository: 
-issue: 
 icon: skeleton.skeletonwallet.png
 bugbounty: 
 meta: removed

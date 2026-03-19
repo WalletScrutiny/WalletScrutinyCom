@@ -13,7 +13,6 @@ version: '1.127'
 reviews: 
 website: https://www.decoin.io
 repository: 
-issue: 
 icon: com.decoin.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 1
 website: https://probos.io/
 repository: 
-issue: 
 icon: io.probos.support.jpg
 bugbounty: 
 meta: obsolete

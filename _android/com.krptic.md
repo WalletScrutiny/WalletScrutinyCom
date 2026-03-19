@@ -12,7 +12,6 @@ version: 4.2.2
 reviews: 
 website: https://www.krptic.com
 repository: 
-issue: 
 icon: com.krptic.png
 bugbounty: 
 meta: defunct

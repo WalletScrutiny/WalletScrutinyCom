@@ -12,7 +12,6 @@ provider: Wizardsardine
 providerWebsite: 
 website: https://wizardsardine.com/liana
 repository: https://github.com/wizardsardine/liana
-issue: 
 icon: liana.png
 bugbounty: 
 meta: ok

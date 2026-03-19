@@ -13,7 +13,6 @@ version: 2.4.14
 reviews: 13
 website: https://www.coinsuper.com/
 repository: 
-issue: 
 icon: com.coinsuper.app.jpg
 bugbounty: 
 meta: removed

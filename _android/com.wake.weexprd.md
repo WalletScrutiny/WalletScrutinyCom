@@ -13,7 +13,6 @@ version: 4.5.3
 reviews: 347
 website: https://www.weex.com
 repository: 
-issue: 
 icon: com.wake.weexprd.png
 bugbounty: 
 meta: ok

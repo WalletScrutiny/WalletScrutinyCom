@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://nakhlex.com#deadLink
 repository: 
-issue: 
 icon: com.nakhlex.exchange.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: https://www.bynery.com
 repository: 
-issue: 
 icon: bynery.bce.png
 bugbounty: 
 meta: removed

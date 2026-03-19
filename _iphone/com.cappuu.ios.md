@@ -13,7 +13,6 @@ version: '3.56'
 reviews: 0
 website: https://web.archive.org/web/20241213133502/https://coinomo.com/
 repository: 
-issue: 
 icon: com.cappuu.ios.jpg
 bugbounty: 
 meta: removed

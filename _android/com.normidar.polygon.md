@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.normidar.polygon.png
 bugbounty: 
 meta: ok

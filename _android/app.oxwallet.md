@@ -13,7 +13,6 @@ version: 2.2.3
 reviews: 
 website: https://oxwallet.app
 repository: 
-issue: 
 icon: app.oxwallet.png
 bugbounty: 
 meta: defunct

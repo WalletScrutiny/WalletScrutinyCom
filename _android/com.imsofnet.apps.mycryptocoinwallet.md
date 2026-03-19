@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.imsofnet.com#deadLink
 repository: 
-issue: 
 icon: com.imsofnet.apps.mycryptocoinwallet.png
 bugbounty: 
 meta: removed

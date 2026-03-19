@@ -13,7 +13,6 @@ version: 1.0.104
 reviews: 9
 website: https://oppiwallet.com/en
 repository: 
-issue: 
 icon: com.oppi.wallet.png
 bugbounty: 
 meta: ok

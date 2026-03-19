@@ -13,7 +13,6 @@ version: 4.0.14
 reviews: 82
 website: https://www.sylo.io/wallet/
 repository: 
-issue: 
 icon: io.sylo.dapp.jpg
 bugbounty: 
 meta: removed

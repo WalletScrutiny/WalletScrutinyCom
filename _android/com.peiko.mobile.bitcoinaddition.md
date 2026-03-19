@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.peiko.mobile.bitcoinaddition.jpg
 bugbounty: 
 meta: removed

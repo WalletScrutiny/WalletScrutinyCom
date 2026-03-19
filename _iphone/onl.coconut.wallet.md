@@ -12,7 +12,6 @@ version: 0.6.1
 reviews: 0
 website: https://www.coconut.onl/
 repository: 
-issue: 
 icon: onl.coconut.wallet.jpg
 bugbounty: 
 meta: ok

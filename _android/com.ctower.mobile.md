@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://crosstower.com#deadLink
 repository: 
-issue: 
 icon: com.ctower.mobile.png
 bugbounty: 
 meta: removed

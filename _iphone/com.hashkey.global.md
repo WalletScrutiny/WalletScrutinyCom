@@ -13,7 +13,6 @@ version: 1.59.0
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.hashkey.global.jpg
 bugbounty: 
 meta: ok

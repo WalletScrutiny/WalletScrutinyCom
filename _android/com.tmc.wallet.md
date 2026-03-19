@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://themembersclub.vip#deadLink
 repository: 
-issue: 
 icon: com.tmc.wallet.png
 bugbounty: 
 meta: removed

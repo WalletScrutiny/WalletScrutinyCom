@@ -13,7 +13,6 @@ version: 1.2.19
 reviews: 
 website: https://www.bxb.io#deadLink
 repository: 
-issue: 
 icon: com.bxb.io.png
 bugbounty: 
 meta: removed

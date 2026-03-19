@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: https://www.bravepay.net/
 repository: 
-issue: 
 icon: com.bravecorporation.bravepro.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 2.0.22
 reviews: 154
 website: https://atswallet.io/
 repository: 
-issue: 
 icon: com.aos.wallet.token.png
 bugbounty: 
 meta: removed

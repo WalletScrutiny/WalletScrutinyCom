@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 35
 website: https://keyst.one/
 repository: 
-issue: 
 icon: keystone.mobile.jpg
 bugbounty: 
 meta: stale

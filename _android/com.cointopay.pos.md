@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://cointopay.com
 repository: 
-issue: 
 icon: com.cointopay.pos.png
 bugbounty: 
 meta: obsolete

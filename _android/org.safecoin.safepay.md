@@ -13,7 +13,6 @@ version: 7.2.8
 reviews: 5
 website: https://safepay.safecoin.org
 repository: 
-issue: 
 icon: org.safecoin.safepay.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.37.1
 reviews: 6359
 website: http://www.foxbit.com.br
 repository: 
-issue: 
 icon: br.com.foxbit.foxbitandroid.png
 bugbounty: 
 meta: ok

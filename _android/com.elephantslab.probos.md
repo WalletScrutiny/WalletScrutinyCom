@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: https://probos.io/
 repository: 
-issue: 
 icon: com.elephantslab.probos.png
 bugbounty: 
 meta: removed

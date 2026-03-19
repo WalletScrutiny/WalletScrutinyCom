@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hashcash.bitrump.png
 bugbounty: 
 meta: removed

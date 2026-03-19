@@ -13,7 +13,6 @@ version: 2.6.9
 reviews: 87
 website: https://exnovin.net
 repository: 
-issue: 
 icon: com.exnovin.png
 bugbounty: 
 meta: ok

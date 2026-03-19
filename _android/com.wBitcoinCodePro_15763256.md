@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBitcoinCodePro_15763256.png
 bugbounty: 
 meta: removed

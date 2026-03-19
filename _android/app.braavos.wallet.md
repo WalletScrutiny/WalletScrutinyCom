@@ -13,7 +13,6 @@ version: 4.19.6
 reviews: 36
 website: https://braavos.app/
 repository: 
-issue: 
 icon: app.braavos.wallet.png
 bugbounty: 
 meta: ok

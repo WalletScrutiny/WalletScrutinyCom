@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitzapp.png
 bugbounty: 
 meta: removed

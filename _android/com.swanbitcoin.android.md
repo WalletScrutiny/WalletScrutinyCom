@@ -13,7 +13,6 @@ version: 3.12.0
 reviews: 263
 website: https://www.swanbitcoin.com
 repository: 
-issue: 
 icon: com.swanbitcoin.android.png
 bugbounty: 
 meta: ok

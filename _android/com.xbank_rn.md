@@ -13,7 +13,6 @@ version: 4.0.1
 reviews: 7
 website: https://xbank.plus
 repository: 
-issue: 
 icon: com.xbank_rn.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.yield.demosp.jpg
 bugbounty: 
 meta: removed

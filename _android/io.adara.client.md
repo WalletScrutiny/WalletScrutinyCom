@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://adara.io/
 repository: 
-issue: 
 icon: io.adara.client.png
 bugbounty: 
 meta: removed

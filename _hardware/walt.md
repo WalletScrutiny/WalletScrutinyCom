@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/AngainorDev/WALT_WALLET_BASIC
-issue: 
 icon: walt.png
 bugbounty: 
 meta: obsolete

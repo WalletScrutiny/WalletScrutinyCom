@@ -13,7 +13,6 @@ version: 1.7.9
 reviews: 
 website: https://matbea.com
 repository: 
-issue: 
 icon: com.matbea.png
 bugbounty: 
 meta: ok

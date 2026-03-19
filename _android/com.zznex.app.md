@@ -12,7 +12,6 @@ version: 4.0.0
 reviews: 
 website: https://zznex.in#deadLink
 repository: 
-issue: 
 icon: com.zznex.app.png
 bugbounty: 
 meta: removed

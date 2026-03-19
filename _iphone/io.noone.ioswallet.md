@@ -13,7 +13,6 @@ version: 1.31.0
 reviews: 166
 website: https://noone.io
 repository: 
-issue: 
 icon: io.noone.ioswallet.jpg
 bugbounty: 
 meta: ok

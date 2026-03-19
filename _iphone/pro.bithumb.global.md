@@ -13,7 +13,6 @@ version: 2.6.5
 reviews: 77
 website: https://www.bithumb.pro/alliance#deadLink
 repository: 
-issue: 
 icon: pro.bithumb.global.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 8
 website: https://moonwallet.net/
 repository: 
-issue: 
 icon: com.decomlab.wallet.jpg
 bugbounty: 
 meta: removed

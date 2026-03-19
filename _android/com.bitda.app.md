@@ -12,7 +12,6 @@ version: 4.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitda.app.png
 bugbounty: 
 meta: removed

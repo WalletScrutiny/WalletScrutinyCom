@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.bcnex.net#deadLink
 repository: 
-issue: 
 icon: com.bcnex.png
 bugbounty: 
 meta: removed

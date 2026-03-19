@@ -13,7 +13,6 @@ version: 1.0.95
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.oppi.wallet.jpg
 bugbounty: 
 meta: ok

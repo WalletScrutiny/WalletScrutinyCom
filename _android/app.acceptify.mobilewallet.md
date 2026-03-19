@@ -12,7 +12,6 @@ version: 0.0.4
 reviews: 
 website: https://acceptify.io#deadLink
 repository: 
-issue: 
 icon: app.acceptify.mobilewallet.png
 bugbounty: 
 meta: removed

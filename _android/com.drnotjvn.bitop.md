@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.drnotjvn.bitop.png
 bugbounty: 
 meta: removed

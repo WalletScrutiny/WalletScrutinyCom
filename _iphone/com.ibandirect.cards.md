@@ -13,7 +13,6 @@ version: 1.9.2
 reviews: 1
 website: https://ibandirect.com/
 repository: 
-issue: 
 icon: com.ibandirect.cards.jpg
 bugbounty: 
 meta: removed

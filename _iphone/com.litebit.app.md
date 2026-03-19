@@ -13,7 +13,6 @@ version: 3.1.17
 reviews: 10
 website: https://www.litebit.eu/en/
 repository: 
-issue: 
 icon: com.litebit.app.jpg
 bugbounty: 
 meta: removed

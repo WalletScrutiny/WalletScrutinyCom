@@ -13,7 +13,6 @@ version: 1.15.7
 reviews: 162
 website: http://abbcpayment.com
 repository: 
-issue: 
 icon: com.abbc.aladdin.pro.png
 bugbounty: 
 meta: removed

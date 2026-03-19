@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://lyomerchant.com
 repository: 
-issue: 
 icon: com.lyo.merchant.png
 bugbounty: 
 meta: removed

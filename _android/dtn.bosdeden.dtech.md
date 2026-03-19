@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://bisnis188.tech#deadLink
 repository: 
-issue: 
 icon: dtn.bosdeden.dtech.png
 bugbounty: 
 meta: removed

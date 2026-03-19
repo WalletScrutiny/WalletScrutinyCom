@@ -13,7 +13,6 @@ version: 14.0.0
 reviews: 10
 website: https://maicoin.com
 repository: 
-issue: 
 icon: com.maicoin.maicoin.png
 bugbounty: 
 meta: ok

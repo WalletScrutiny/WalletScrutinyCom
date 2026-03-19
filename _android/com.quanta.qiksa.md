@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://www.quantapay.com
 repository: 
-issue: 
 icon: com.quanta.qiksa.png
 bugbounty: 
 meta: removed

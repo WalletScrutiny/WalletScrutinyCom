@@ -13,7 +13,6 @@ version: 3.3.9
 reviews: 17
 website: 
 repository: 
-issue: 
 icon: io.jubit.pro.jpg
 bugbounty: 
 meta: ok

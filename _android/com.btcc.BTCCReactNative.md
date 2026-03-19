@@ -13,7 +13,6 @@ version: 3.5.40
 reviews: 85
 website: 
 repository: 
-issue: 
 icon: com.btcc.BTCCReactNative.jpg
 bugbounty: 
 meta: ok

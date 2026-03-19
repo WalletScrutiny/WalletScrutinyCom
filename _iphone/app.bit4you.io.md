@@ -13,7 +13,6 @@ version: '3.2'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: app.bit4you.io.jpg
 bugbounty: 
 meta: removed

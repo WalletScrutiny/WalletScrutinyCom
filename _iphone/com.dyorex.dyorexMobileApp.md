@@ -13,7 +13,6 @@ version: 1.8.2
 reviews: 23
 website: https://dyorex.com/
 repository: 
-issue: 
 icon: com.dyorex.dyorexMobileApp.jpg
 bugbounty: 
 meta: ok

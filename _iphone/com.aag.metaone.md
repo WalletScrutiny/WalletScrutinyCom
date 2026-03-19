@@ -13,7 +13,6 @@ version: 6.1.0
 reviews: 55
 website: https://saakuru.com/app
 repository: 
-issue: 
 icon: com.aag.metaone.jpg
 bugbounty: 
 meta: removed

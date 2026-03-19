@@ -13,7 +13,6 @@ version: '1.15'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.AlfredWallet.jpg
 bugbounty: 
 meta: removed

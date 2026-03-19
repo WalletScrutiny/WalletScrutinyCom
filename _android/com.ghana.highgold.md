@@ -12,7 +12,6 @@ version: 0.0.5
 reviews: 
 website: https://highandgold.com#deadLink
 repository: 
-issue: 
 icon: com.ghana.highgold.png
 bugbounty: 
 meta: removed

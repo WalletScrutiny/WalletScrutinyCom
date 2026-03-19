@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://interestinate.com
 repository: 
-issue: 
 icon: com.interestinate.flutter_cryptowallet.png
 bugbounty: 
 meta: removed

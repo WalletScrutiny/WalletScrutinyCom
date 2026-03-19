@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.kaiserex.com
 repository: 
-issue: 
 icon: com.kaiserex.png
 bugbounty: 
 meta: removed

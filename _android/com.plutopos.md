@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://www.spartanhill.com/pluto-crypto-pos/
 repository: 
-issue: 
 icon: com.plutopos.png
 bugbounty: 
 meta: removed

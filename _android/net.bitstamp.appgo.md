@@ -13,7 +13,6 @@ version: '1.10'
 reviews: 26
 website: https://www.bitstamp.net
 repository: 
-issue: 
 icon: net.bitstamp.appgo.png
 bugbounty: 
 meta: removed

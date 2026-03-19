@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://noid.cards/
 repository: 
-issue: 
 icon: com.noid.cards.png
 bugbounty: 
 meta: removed

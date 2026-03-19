@@ -13,7 +13,6 @@ version: 3.24.0
 reviews: 297
 website: https://www.bitunix.com
 repository: 
-issue: 
 icon: com.bitunix.ios-.jpg
 bugbounty: 
 meta: ok

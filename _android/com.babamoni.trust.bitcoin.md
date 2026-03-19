@@ -12,7 +12,6 @@ version: '2'
 reviews: 
 website: https://baba-moni.co
 repository: 
-issue: 
 icon: com.babamoni.trust.bitcoin.png
 bugbounty: 
 meta: removed

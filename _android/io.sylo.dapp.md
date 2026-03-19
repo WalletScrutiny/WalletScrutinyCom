@@ -13,7 +13,6 @@ version: 4.0.14
 reviews: 46
 website: http://www.sylo.io
 repository: 
-issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 7.1.4
 reviews: 
 website: https://monetum.com
 repository: 
-issue: 
 icon: com.monetum.wallet.png
 bugbounty: 
 meta: obsolete

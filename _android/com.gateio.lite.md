@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 9
 website: https://gate.io/
 repository: 
-issue: 
 icon: com.gateio.lite.png
 bugbounty: 
 meta: removed

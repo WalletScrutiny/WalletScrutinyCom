@@ -14,7 +14,6 @@ version: 0.0068beta
 reviews: 15
 website: http://insense.tech#deadLink
 repository: 
-issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
 meta: removed

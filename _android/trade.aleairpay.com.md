@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://web.archive.org/web/20240430163439/https://trade.aleairpay.com/
 repository: 
-issue: 
 icon: trade.aleairpay.com.png
 bugbounty: 
 meta: removed

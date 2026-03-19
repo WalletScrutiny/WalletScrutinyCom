@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 202
 website: 
 repository: 
-issue: 
 icon: com.btccloudminer.easy.png
 bugbounty: 
 meta: removed

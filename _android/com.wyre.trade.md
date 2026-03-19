@@ -13,7 +13,6 @@ version: 1.1.7
 reviews: 4
 website: https://wyretrade.com#deadLink
 repository: 
-issue: 
 icon: com.wyre.trade.png
 bugbounty: 
 meta: removed

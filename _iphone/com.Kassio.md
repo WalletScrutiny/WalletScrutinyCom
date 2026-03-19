@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 12
 website: https://web.archive.org/web/20230201082314/https://www.kassio.com/contact
 repository: 
-issue: 
 icon: com.Kassio.jpg
 bugbounty: 
 meta: removed

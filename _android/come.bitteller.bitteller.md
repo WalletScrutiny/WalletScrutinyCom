@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bit-teller.com
 repository: 
-issue: 
 icon: come.bitteller.bitteller.png
 bugbounty: 
 meta: removed

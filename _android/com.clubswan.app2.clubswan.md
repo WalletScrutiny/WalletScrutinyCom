@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.clubswan.app2.clubswan.jpg
 bugbounty: 
 meta: removed

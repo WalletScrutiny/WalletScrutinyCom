@@ -13,7 +13,6 @@ version: 4.8.13
 reviews: 245
 website: https://www.coincola.com
 repository: 
-issue: 
 icon: com.coincola.beta.jpg
 bugbounty: 
 meta: removed

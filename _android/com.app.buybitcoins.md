@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://mobapibbc.buybitcoins.app#deadLink
 repository: 
-issue: 
 icon: com.app.buybitcoins.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fintoda.wallet.png
 bugbounty: 
 meta: removed

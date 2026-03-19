@@ -13,7 +13,6 @@ version: 1.11.21
 reviews: 5869
 website: https://rebellionpay.com#deadLink
 repository: 
-issue: 
 icon: com.rebellionpay.app.jpg
 bugbounty: 
 meta: removed

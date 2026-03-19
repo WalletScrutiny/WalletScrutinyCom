@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 
 website: http://www.crypstone.com
 repository: 
-issue: 
 icon: com.crypstone.android.crypstone.png
 bugbounty: 
 meta: removed

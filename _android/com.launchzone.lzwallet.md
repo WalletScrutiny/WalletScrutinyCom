@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: https://lz.finance/#&deadLink
 repository: 
-issue: 
 icon: com.launchzone.lzwallet.png
 bugbounty: 
 meta: removed

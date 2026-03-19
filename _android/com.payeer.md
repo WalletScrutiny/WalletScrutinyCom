@@ -13,7 +13,6 @@ version: VARY
 reviews: 206
 website: https://payeer.com#deadLink
 repository: 
-issue: 
 icon: com.payeer.png
 bugbounty: 
 meta: removed

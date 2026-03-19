@@ -13,7 +13,6 @@ version: 4.5.4
 reviews: 184
 website: https://www.mathwallet.org/
 repository: 
-issue: 
 icon: com.medishares.android.png
 bugbounty: 
 meta: removed

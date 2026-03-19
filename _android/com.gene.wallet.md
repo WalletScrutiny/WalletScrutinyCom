@@ -13,7 +13,6 @@ version: 1.4.1
 reviews: 
 website: https://parkgene.io
 repository: 
-issue: 
 icon: com.gene.wallet.png
 bugbounty: 
 meta: removed

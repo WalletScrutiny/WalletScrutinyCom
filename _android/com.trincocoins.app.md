@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.trincocoins.uk#deadLink
 repository: 
-issue: 
 icon: com.trincocoins.app.png
 bugbounty: 
 meta: removed

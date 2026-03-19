@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://hyperpay.tech
 repository: 
-issue: 
 icon: com.legend.offlinewallet.png
 bugbounty: 
 meta: removed

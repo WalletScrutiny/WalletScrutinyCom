@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 0
 website: https://trustlesswallet.github.io/Trustless/
 repository: https://github.com/TrustlessWallet/Trustless
-issue: 
 icon: com.btc.trustless.png
 bugbounty: 
 meta: ok

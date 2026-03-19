@@ -12,7 +12,6 @@ version: 1.0.19
 reviews: 
 website: https://abonocripto.com.ar#deadLink
 repository: 
-issue: 
 icon: com.mundocripto.app.png
 bugbounty: 
 meta: removed

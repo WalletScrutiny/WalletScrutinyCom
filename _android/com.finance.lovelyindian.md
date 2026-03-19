@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: https://indialovely.finance#deadLink
 repository: 
-issue: 
 icon: com.finance.lovelyindian.png
 bugbounty: 
 meta: removed

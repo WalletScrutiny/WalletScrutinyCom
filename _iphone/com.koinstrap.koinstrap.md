@@ -13,7 +13,6 @@ version: 3.3.7
 reviews: 34
 website: https://koinstrap.com/
 repository: 
-issue: 
 icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
 meta: obsolete

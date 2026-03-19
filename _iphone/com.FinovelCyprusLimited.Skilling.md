@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 11
 website: https://skilling.com
 repository: 
-issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
 meta: ok

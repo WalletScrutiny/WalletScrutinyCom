@@ -17,7 +17,6 @@ shop:
 country: FI
 price: 49 EUR
 repository: 
-issue: 
 icon: xellox.zifer.png
 bugbounty: 
 meta: ok

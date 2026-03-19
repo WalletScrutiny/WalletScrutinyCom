@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
 icon: keyfortk300.png
 bugbounty: 
 meta: defunct

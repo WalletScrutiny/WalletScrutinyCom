@@ -12,7 +12,6 @@ version: '10.03'
 reviews: 
 website: https://ajaxcash.com#deadLink
 repository: 
-issue: 
 icon: com.ajaxcash.ajc.png
 bugbounty: 
 meta: removed

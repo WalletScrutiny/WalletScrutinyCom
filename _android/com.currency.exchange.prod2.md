@@ -14,7 +14,6 @@ version: 2.18.19
 reviews: 1
 website: http://dzengi.com
 repository: 
-issue: 
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 meta: ok

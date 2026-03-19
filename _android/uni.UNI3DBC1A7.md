@@ -12,7 +12,6 @@ version: 1.9.4
 reviews: 
 website: https://3fwallet.com#deadLink
 repository: 
-issue: 
 icon: uni.UNI3DBC1A7.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: https://msc.exchange#deadLink
 repository: 
-issue: 
 icon: io.metex.exchange.png
 bugbounty: 
 meta: removed

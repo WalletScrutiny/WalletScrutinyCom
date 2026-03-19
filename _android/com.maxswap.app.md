@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://maxswap.cc
 repository: 
-issue: 
 icon: com.maxswap.app.jpg
 bugbounty: 
 meta: ok

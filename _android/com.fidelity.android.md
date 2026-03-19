@@ -13,7 +13,6 @@ version: '4.27'
 reviews: 56398
 website: https://www.fidelity.com
 repository: 
-issue: 
 icon: com.fidelity.android.png
 bugbounty: 
 meta: ok

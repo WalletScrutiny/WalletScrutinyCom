@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://ettawallet.app#deadLink
 repository: https://github.com/EttaWallet/EttaWallet
-issue: 
 icon: com.ettaln.png
 bugbounty: 
 meta: removed

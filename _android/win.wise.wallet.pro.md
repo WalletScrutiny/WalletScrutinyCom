@@ -12,7 +12,6 @@ version: '1.46'
 reviews: 
 website: https://wise.win#deadLink
 repository: 
-issue: 
 icon: win.wise.wallet.pro.png
 bugbounty: 
 meta: removed

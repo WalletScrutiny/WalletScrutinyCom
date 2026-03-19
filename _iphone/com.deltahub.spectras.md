@@ -12,7 +12,6 @@ version: 3.3.4
 reviews: 1965
 website: 
 repository: 
-issue: 
 icon: com.deltahub.spectras.jpg
 bugbounty: 
 meta: ok

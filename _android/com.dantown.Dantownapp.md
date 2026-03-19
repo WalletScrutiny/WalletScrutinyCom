@@ -13,7 +13,6 @@ version: 2.0.76
 reviews: 42
 website: https://www.dantownms.com
 repository: 
-issue: 
 icon: com.dantown.Dantownapp.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 10.1.2
 reviews: 2486
 website: https://busha.co
 repository: 
-issue: 
 icon: co.busha.apple.jpg
 bugbounty: 
 meta: ok

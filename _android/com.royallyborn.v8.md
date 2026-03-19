@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 17
 website: https://www.8v.com
 repository: 
-issue: 
 icon: com.royallyborn.v8.jpg
 bugbounty: 
 meta: ok

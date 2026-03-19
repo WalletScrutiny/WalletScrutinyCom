@@ -12,7 +12,6 @@ version: 0.1.5
 reviews: 9
 website: https://koinex.in#deadLink
 repository: 
-issue: 
 icon: in.koinex.android.png
 bugbounty: 
 meta: removed

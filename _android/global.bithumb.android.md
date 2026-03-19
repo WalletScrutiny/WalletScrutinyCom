@@ -13,7 +13,6 @@ version: 2.6.25
 reviews: 78
 website: https://www.bithumb.pro
 repository: 
-issue: 
 icon: global.bithumb.android.png
 bugbounty: 
 meta: removed

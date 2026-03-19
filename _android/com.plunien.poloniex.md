@@ -13,7 +13,6 @@ version: 2.34.0
 reviews: 240
 website: https://support.poloniex.com/
 repository: 
-issue: 
 icon: com.plunien.poloniex.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: https://budgetcoinz.com
 repository: 
-issue: 
 icon: org.budgetcoinz.app.jpg
 bugbounty: 
 meta: ok

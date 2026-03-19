@@ -13,7 +13,6 @@ version: 4.1.3
 reviews: 14
 website: https://truzact.com#deadLink
 repository: 
-issue: 
 icon: com.truzact.truzact-mobile-app.jpg
 bugbounty: 
 meta: removed

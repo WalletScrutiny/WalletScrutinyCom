@@ -13,7 +13,6 @@ version: 1.6.1
 reviews: 0
 website: https://www.therocktrading.com/
 repository: 
-issue: 
 icon: com.therocktrading.tradingapp.jpg
 bugbounty: 
 meta: removed

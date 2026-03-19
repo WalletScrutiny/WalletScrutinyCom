@@ -12,7 +12,6 @@ version: 4.3.1
 reviews: 
 website: https://www.ecxx.com
 repository: 
-issue: 
 icon: com.ecxx.png
 bugbounty: 
 meta: removed

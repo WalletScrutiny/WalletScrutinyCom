@@ -13,7 +13,6 @@ version: 5.3.5
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.uni.uniexchange.png
 bugbounty: 
 meta: removed

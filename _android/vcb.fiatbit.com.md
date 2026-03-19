@@ -12,7 +12,6 @@ version: 2.5.3
 reviews: 
 website: https://www.fiatbit.com#deadLink
 repository: 
-issue: 
 icon: vcb.fiatbit.com.png
 bugbounty: 
 meta: removed

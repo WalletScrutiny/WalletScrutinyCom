@@ -13,7 +13,6 @@ version: 5.0.02
 reviews: 10
 website: https://www.kikitrade.com#deadLink
 repository: 
-issue: 
 icon: org.evg.kikitrade.jpg
 bugbounty: 
 meta: removed

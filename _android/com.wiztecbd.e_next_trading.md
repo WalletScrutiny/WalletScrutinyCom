@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: https://ginexttradingcorp.com#deadLink
 repository: 
-issue: 
 icon: com.wiztecbd.e_next_trading.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.29
 reviews: 
 website: https://tap-protocol.com
 repository: 
-issue: 
 icon: com.tapwalletmobile.png
 bugbounty: 
 meta: ok

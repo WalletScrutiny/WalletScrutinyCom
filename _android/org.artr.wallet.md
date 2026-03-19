@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 1008
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
-issue: 
 icon: org.artr.wallet.jpg
 bugbounty: 
 meta: removed

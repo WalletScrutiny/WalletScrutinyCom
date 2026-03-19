@@ -13,7 +13,6 @@ version: 2.4.14
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: vip.trcoin.global.jpg
 bugbounty: 
 meta: removed

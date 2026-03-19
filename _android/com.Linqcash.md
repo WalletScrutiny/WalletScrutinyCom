@@ -12,7 +12,6 @@ version: 0.0.2
 reviews: 
 website: https://www.linqcash.com/
 repository: 
-issue: 
 icon: com.Linqcash.png
 bugbounty: 
 meta: removed

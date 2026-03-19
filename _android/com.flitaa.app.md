@@ -13,7 +13,6 @@ version: 1.51.8
 reviews: 569
 website: https://flitaa.com
 repository: 
-issue: 
 icon: com.flitaa.app.png
 bugbounty: 
 meta: ok

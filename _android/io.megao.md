@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://megao.io#deadLink
 repository: 
-issue: 
 icon: io.megao.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://labs.wonder.fi
 repository: 
-issue: 
 icon: fi.wonder.labs.wallet.png
 bugbounty: 
 meta: stale

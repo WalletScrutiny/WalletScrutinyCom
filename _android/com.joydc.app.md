@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://www.creativecodez.com
 repository: 
-issue: 
 icon: com.joydc.app.png
 bugbounty: 
 meta: removed

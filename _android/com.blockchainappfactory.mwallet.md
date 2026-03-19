@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://mwallet.step.holdings#deadLink
 repository: 
-issue: 
 icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 
 website: https://betweenbits.io/
 repository: 
-issue: 
 icon: com.between.wallet.png
 bugbounty: 
 meta: ok

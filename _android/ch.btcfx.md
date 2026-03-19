@@ -12,7 +12,6 @@ version: 1.3.0.1
 reviews: 304
 website: 
 repository: 
-issue: 
 icon: ch.btcfx.png
 bugbounty: 
 meta: removed

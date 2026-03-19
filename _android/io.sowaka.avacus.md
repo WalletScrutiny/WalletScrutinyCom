@@ -12,7 +12,6 @@ version: 7.11.0
 reviews: 
 website: https://avacus.cc
 repository: 
-issue: 
 icon: io.sowaka.avacus.png
 bugbounty: 
 meta: removed

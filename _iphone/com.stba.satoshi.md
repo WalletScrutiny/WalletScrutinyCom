@@ -12,7 +12,6 @@ version: 1.0.16
 reviews: 37
 website: https://satoshi.money/
 repository: 
-issue: 
 icon: com.stba.satoshi.jpg
 bugbounty: 
 meta: ok

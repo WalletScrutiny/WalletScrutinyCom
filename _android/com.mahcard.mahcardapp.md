@@ -12,7 +12,6 @@ version: '2.6'
 reviews: 
 website: https://mahcard.co
 repository: 
-issue: 
 icon: com.mahcard.mahcardapp.png
 bugbounty: 
 meta: removed

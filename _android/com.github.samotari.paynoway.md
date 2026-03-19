@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://github.com/samotari/paynoway
 repository: 
-issue: 
 icon: com.github.samotari.paynoway.png
 bugbounty: 
 meta: removed

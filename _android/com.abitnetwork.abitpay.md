@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.abitnetwork.abitpay.png
 bugbounty: 
 meta: removed

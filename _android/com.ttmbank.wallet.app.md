@@ -13,7 +13,6 @@ version: 2.3.10
 reviews: 
 website: https://ttmwallet.io
 repository: 
-issue: 
 icon: com.ttmbank.wallet.app.png
 bugbounty: 
 meta: stale

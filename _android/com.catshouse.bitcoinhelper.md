@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://y84060b34.app-ads-txt.com
 repository: 
-issue: 
 icon: com.catshouse.bitcoinhelper.png
 bugbounty: 
 meta: stale

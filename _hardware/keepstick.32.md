@@ -20,7 +20,6 @@ shop: https://keepstick.com/cart
 country: UK
 price: 69GBP
 repository: 
-issue: 
 icon: keepstick.32.png
 bugbounty: 
 meta: ok

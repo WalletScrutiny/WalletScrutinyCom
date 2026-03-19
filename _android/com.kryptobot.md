@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: https://kryptobot.net
 repository: 
-issue: 
 icon: com.kryptobot.png
 bugbounty: 
 meta: removed

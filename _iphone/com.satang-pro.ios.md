@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 6
 website: https://satangcorp.com
 repository: 
-issue: 
 icon: com.satang-pro.ios.jpg
 bugbounty: 
 meta: removed

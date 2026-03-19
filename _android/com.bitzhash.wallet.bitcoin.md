@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://github.com/ilyapr/bitcoin-wallet-android
 repository: 
-issue: 
 icon: com.bitzhash.wallet.bitcoin.png
 bugbounty: 
 meta: removed

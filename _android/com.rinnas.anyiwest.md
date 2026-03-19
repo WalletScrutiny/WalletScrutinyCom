@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://anyiwest.com#deadLink
 repository: 
-issue: 
 icon: com.rinnas.anyiwest.png
 bugbounty: 
 meta: removed

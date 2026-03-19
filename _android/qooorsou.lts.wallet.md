@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://wp.k8s.df.org.ua
 repository: 
-issue: 
 icon: qooorsou.lts.wallet.png
 bugbounty: 
 meta: removed

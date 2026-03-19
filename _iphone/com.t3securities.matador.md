@@ -13,7 +13,6 @@ version: 5.0.26
 reviews: 79037
 website: https://public.com
 repository: 
-issue: 
 icon: com.t3securities.matador.jpg
 bugbounty: 
 meta: ok

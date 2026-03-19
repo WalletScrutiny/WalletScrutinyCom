@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: xzen.png
 bugbounty: 
 meta: defunct

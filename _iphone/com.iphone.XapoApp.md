@@ -13,7 +13,6 @@ version: 6.12.0
 reviews: 149
 website: https://xapo.com
 repository: 
-issue: 
 icon: com.iphone.XapoApp.jpg
 bugbounty: 
 meta: removed

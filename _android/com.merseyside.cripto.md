@@ -13,7 +13,6 @@ version: '1.34'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.merseyside.cripto.png
 bugbounty: 
 meta: removed

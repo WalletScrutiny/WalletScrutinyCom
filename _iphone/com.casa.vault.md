@@ -13,7 +13,6 @@ version: 5.8.0
 reviews: 1195
 website: https://www.casa.io
 repository: 
-issue: 
 icon: com.casa.vault.jpg
 bugbounty: 
 meta: ok

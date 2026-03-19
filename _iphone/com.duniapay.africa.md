@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 11
 website: https://www.duniapay.net
 repository: 
-issue: 
 icon: com.duniapay.africa.jpg
 bugbounty: 
 meta: removed

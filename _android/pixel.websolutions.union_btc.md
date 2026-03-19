@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://web.archive.org/web/20250713062216/https://unionbtc.io/
 repository: 
-issue: 
 icon: pixel.websolutions.union_btc.png
 bugbounty: 
 meta: removed

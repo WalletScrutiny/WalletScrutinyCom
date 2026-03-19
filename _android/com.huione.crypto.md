@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.huione.crypto.png
 bugbounty: 
 meta: removed

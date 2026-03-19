@@ -13,7 +13,6 @@ version: '3.4'
 reviews: 118
 website: https://coincred.org#deadLink
 repository: 
-issue: 
 icon: com.coincred.jpg
 bugbounty: 
 meta: removed

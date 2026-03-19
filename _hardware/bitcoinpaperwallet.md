@@ -18,7 +18,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/cantonbecker/bitcoinpaperwallet
-issue: 
 icon: bitcoinpaperwallet.png
 bugbounty: 
 meta: ok

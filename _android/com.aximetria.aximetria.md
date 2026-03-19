@@ -13,7 +13,6 @@ version: 1.5.51
 reviews: 215
 website: https://www.aximetria.com#deadLink
 repository: 
-issue: 
 icon: com.aximetria.aximetria.png
 bugbounty: 
 meta: removed

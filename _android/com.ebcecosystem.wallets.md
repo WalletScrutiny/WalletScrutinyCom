@@ -13,7 +13,6 @@ version: 0.0.7
 reviews: 61
 website: https://ebc.eco#deadLink
 repository: 
-issue: 
 icon: com.ebcecosystem.wallets.png
 bugbounty: 
 meta: removed

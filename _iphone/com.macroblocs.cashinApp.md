@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 1153
 website: https://cash-in.app/
 repository: 
-issue: 
 icon: com.macroblocs.cashinApp.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 0.9.004
 reviews: 17
 website: https://qcan.com
 repository: 
-issue: 
 icon: com.qcan.qcan.jpg
 bugbounty: 
 meta: removed

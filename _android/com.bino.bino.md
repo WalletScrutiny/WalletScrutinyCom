@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://adastimes.com#deadLink
 repository: 
-issue: 
 icon: com.bino.bino.png
 bugbounty: 
 meta: removed

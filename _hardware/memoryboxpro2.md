@@ -18,7 +18,6 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
 icon: memoryboxpro2.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.5.0
 reviews: 
 website: https://www.krypterz.com#deadLink
 repository: 
-issue: 
 icon: com.app.exchangejl.jpg
 bugbounty: 
 meta: removed

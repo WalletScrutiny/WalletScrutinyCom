@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://xerium.info#deadLink
 repository: 
-issue: 
 icon: com.xerium.wallet.png
 bugbounty: 
 meta: removed

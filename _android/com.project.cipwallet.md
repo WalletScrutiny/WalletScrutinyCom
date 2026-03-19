@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.project.cipwallet.png
 bugbounty: 
 meta: removed

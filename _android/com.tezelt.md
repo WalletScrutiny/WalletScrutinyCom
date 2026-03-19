@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: https://tezelt.com#deadLink
 repository: 
-issue: 
 icon: com.tezelt.png
 bugbounty: 
 meta: removed

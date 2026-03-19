@@ -13,7 +13,6 @@ version: 1.4.50
 reviews: 9
 website: https://www.btcex.com#deadLink
 repository: 
-issue: 
 icon: com.btcex.exchange.png
 bugbounty: 
 meta: removed

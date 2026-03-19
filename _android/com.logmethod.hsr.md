@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://www.halostar.org#deadLink
 repository: 
-issue: 
 icon: com.logmethod.hsr.png
 bugbounty: 
 meta: removed

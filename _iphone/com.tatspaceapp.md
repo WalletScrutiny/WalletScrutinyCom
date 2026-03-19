@@ -13,7 +13,6 @@ version: 1.17.6
 reviews: 66
 website: https://www.tatcoin.com
 repository: 
-issue: 
 icon: com.tatspaceapp.jpg
 bugbounty: 
 meta: obsolete

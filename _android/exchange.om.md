@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://om.exchange#deadLink
 repository: 
-issue: 
 icon: exchange.om.png
 bugbounty: 
 meta: removed

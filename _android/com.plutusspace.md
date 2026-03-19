@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://plutus.space#deadLink
 repository: 
-issue: 
 icon: com.plutusspace.jpg
 bugbounty: 
 meta: removed

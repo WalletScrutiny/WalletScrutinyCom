@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.si14wallet.jpg
 bugbounty: 
 meta: ok

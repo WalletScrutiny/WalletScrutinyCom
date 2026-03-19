@@ -13,7 +13,6 @@ version: 5.4.12
 reviews: 9
 website: http://www.scallop.exchange
 repository: 
-issue: 
 icon: com.chainup.exchange.Exchange.png
 bugbounty: 
 meta: removed

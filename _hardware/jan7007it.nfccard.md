@@ -17,7 +17,6 @@ shop: https://www.ebay.com/itm/173960390859
 country: IT
 price: 35EUR
 repository: 
-issue: 
 icon: jan7007it.nfccard.png
 bugbounty: 
 meta: ok

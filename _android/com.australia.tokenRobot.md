@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: http://www.tokenrobot.net#deadLink
 repository: 
-issue: 
 icon: com.australia.tokenRobot.png
 bugbounty: 
 meta: removed

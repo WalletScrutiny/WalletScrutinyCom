@@ -13,7 +13,6 @@ version: 8.9.72
 reviews: 3762
 website: https://www.btcc.com/en-US
 repository: 
-issue: 
 icon: com.btcc.hy.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://www.coinfib.com#deadLink
 repository: 
-issue: 
 icon: com.coinfib.coinfibmobile.png
 bugbounty: 
 meta: removed

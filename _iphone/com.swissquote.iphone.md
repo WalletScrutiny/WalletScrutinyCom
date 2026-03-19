@@ -13,7 +13,6 @@ version: 11.26.0
 reviews: 20
 website: https://www.swissquote.com
 repository: 
-issue: 
 icon: com.swissquote.iphone.jpg
 bugbounty: 
 meta: ok

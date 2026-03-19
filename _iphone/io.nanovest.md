@@ -13,7 +13,6 @@ version: 5.1.1
 reviews: 16
 website: https://nanovest.io/
 repository: 
-issue: 
 icon: io.nanovest.jpg
 bugbounty: 
 meta: ok

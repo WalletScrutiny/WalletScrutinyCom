@@ -13,7 +13,6 @@ version: 2.5.3
 reviews: 21
 website: 
 repository: 
-issue: 
 icon: com.suniwallet.app.jpg
 bugbounty: 
 meta: removed

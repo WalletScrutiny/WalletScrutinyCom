@@ -12,7 +12,6 @@ version: 0.2.1
 reviews: 
 website: https://nbd.wtf
 repository: 
-issue: 
 icon: wtf.nbd.obw.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: http://www.lynengine.com#deadLink
 repository: 
-issue: 
 icon: com.lynengine.beautycryptowallet.png
 bugbounty: 
 meta: removed

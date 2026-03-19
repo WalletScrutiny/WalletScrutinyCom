@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 3
 website: https://touchwallet.com/
 repository: 
-issue: 
 icon: ru.webtronics.touchwallet2.jpg
 bugbounty: 
 meta: removed

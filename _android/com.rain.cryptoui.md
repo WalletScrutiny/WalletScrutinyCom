@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 
 website: https://www.raininfotech.in
 repository: 
-issue: 
 icon: com.rain.cryptoui.png
 bugbounty: 
 meta: removed

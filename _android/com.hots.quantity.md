@@ -13,7 +13,6 @@ version: 3.20.1
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: com.hots.quantity.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.55
 reviews: 
 website: http://tehran.exchange
 repository: 
-issue: 
 icon: com.tehranExchangeGroup.tehran_exchange.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: US
 price: 250USD
 repository: 
-issue: 
 icon: ilmatic.wearable.png
 bugbounty: 
 meta: ok

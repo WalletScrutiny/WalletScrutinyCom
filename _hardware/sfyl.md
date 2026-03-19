@@ -17,7 +17,6 @@ shop:
 country: IT
 price: 
 repository: https://github.com/valerio-vaccaro/SFYL-Wallet
-issue: 
 icon: sfyl.png
 bugbounty: 
 meta: ok

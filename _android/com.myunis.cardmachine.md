@@ -12,7 +12,6 @@ version: v1.0
 reviews: 
 website: https://universecoin.io
 repository: 
-issue: 
 icon: com.myunis.cardmachine.png
 bugbounty: 
 meta: removed

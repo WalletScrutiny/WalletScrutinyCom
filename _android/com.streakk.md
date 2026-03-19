@@ -13,7 +13,6 @@ version: '3.7'
 reviews: 2
 website: https://odbdrwodqyzixyxti.earn.world/
 repository: 
-issue: 
 icon: com.streakk.png
 bugbounty: 
 meta: removed

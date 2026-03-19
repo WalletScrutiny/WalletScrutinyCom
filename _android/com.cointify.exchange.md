@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://ex.cointify.com#deadLink
 repository: 
-issue: 
 icon: com.cointify.exchange.png
 bugbounty: 
 meta: removed

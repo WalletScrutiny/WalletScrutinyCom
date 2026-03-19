@@ -13,7 +13,6 @@ version: 1.0.14
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
 meta: removed

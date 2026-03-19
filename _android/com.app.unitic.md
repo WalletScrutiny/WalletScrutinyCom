@@ -13,7 +13,6 @@ version: 0.1.9
 reviews: 
 website: https://uniticexchange.com/
 repository: 
-issue: 
 icon: com.app.unitic.png
 bugbounty: 
 meta: ok

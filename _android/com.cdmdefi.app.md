@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cdmdefi.app.jpg
 bugbounty: 
 meta: removed

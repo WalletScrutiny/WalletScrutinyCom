@@ -12,7 +12,6 @@ version: 0.2.3
 reviews: 
 website: https://tw.yahoo.com/
 repository: 
-issue: 
 icon: com.bobi.maintl.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.41.0.20
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mobiroller.mobi1940242759392.png
 bugbounty: 
 meta: removed

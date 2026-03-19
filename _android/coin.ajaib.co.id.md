@@ -13,7 +13,6 @@ version: 2.92.0
 reviews: 35
 website: https://kripto.ajaib.co.id/
 repository: 
-issue: 
 icon: coin.ajaib.co.id.png
 bugbounty: 
 meta: ok

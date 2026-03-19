@@ -13,7 +13,6 @@ version: 5.2.2b270
 reviews: 1
 website: http://www.xinfinity.io/
 repository: 
-issue: 
 icon: app.xif.com.jpg
 bugbounty: 
 meta: removed

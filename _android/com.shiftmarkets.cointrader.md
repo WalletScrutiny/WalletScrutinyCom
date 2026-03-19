@@ -13,7 +13,6 @@ version: 4.14.0
 reviews: 
 website: https://www.shiftmarkets.com/
 repository: 
-issue: 
 icon: com.shiftmarkets.cointrader.png
 bugbounty: 
 meta: removed

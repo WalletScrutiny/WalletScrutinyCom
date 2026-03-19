@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://quasark.io/
 repository: 
-issue: 
 icon: com.milkywayapps.cryptowallet.png
 bugbounty: 
 meta: obsolete

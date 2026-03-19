@@ -13,7 +13,6 @@ version: 2.3.3
 reviews: 0
 website: https://cwallet.com
 repository: 
-issue: 
 icon: com.wallet.cctip.jpg
 bugbounty: 
 meta: removed

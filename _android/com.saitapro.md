@@ -13,7 +13,6 @@ version: '1.54'
 reviews: 331
 website: http://Saitamatoken.com
 repository: 
-issue: 
 icon: com.saitapro.png
 bugbounty: 
 meta: removed

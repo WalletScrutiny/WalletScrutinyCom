@@ -17,7 +17,6 @@ shop: https://ttmwallet.io/order.html
 country: 
 price: 70USD
 repository: 
-issue: 
 icon: ttmcard.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://www.noblecoins.net#deadLink
 repository: 
-issue: 
 icon: com.noblecoins.noble_coins.png
 bugbounty: 
 meta: removed

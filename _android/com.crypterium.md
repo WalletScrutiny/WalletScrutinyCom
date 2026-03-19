@@ -13,7 +13,6 @@ version: '13.0'
 reviews: 439
 website: https://choise.com
 repository: 
-issue: 
 icon: com.crypterium.png
 bugbounty: 
 meta: removed

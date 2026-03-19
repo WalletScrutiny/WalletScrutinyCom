@@ -12,7 +12,6 @@ version: 2.3.0
 reviews: 
 website: http://www.vcb.com/
 repository: 
-issue: 
 icon: com.coldlar.vcb.png
 bugbounty: 
 meta: removed

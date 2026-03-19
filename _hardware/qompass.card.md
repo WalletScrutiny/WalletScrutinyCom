@@ -17,7 +17,6 @@ shop:
 country: HK
 price: 
 repository: 
-issue: 
 icon: qompass.card.png
 bugbounty: 
 meta: ok

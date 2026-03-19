@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.yz123.yunzhifu.png
 bugbounty: 
 meta: removed

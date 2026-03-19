@@ -13,7 +13,6 @@ version: 5.9.1_push_v2
 reviews: 10
 website: https://www.burency.com#deadLink
 repository: 
-issue: 
 icon: com.chainup.exchange.Burency.png
 bugbounty: 
 meta: removed

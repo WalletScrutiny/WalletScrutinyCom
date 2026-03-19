@@ -13,7 +13,6 @@ version: 2.60.0
 reviews: 168
 website: 
 repository: 
-issue: 
 icon: org.talkapp.jpg
 bugbounty: 
 meta: ok

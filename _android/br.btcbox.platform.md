@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.btcbox.com.br
 repository: 
-issue: 
 icon: br.btcbox.platform.png
 bugbounty: 
 meta: removed

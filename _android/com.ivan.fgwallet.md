@@ -13,7 +13,6 @@ version: 4.1.6
 reviews: 
 website: http://www.srsfc.com
 repository: 
-issue: 
 icon: com.ivan.fgwallet.png
 bugbounty: 
 meta: ok

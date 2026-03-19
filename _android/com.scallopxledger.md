@@ -13,7 +13,6 @@ version: 1.9.8
 reviews: 10
 website: https://emoney.io/
 repository: 
-issue: 
 icon: com.scallopxledger.png
 bugbounty: 
 meta: ok

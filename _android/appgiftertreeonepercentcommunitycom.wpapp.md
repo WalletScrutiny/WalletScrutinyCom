@@ -12,7 +12,6 @@ version: '10.0'
 reviews: 7
 website: http://www.theonepercentcommunity.com
 repository: 
-issue: 
 icon: appgiftertreeonepercentcommunitycom.wpapp.png
 bugbounty: 
 meta: removed

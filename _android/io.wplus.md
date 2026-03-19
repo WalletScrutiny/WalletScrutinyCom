@@ -12,7 +12,6 @@ version: 0.1.1
 reviews: 
 website: https://wplus.io#deadLink
 repository: 
-issue: 
 icon: io.wplus.png
 bugbounty: 
 meta: removed

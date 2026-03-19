@@ -13,7 +13,6 @@ version: 1.22.0
 reviews: 105
 website: https://quidax.io
 repository: 
-issue: 
 icon: com.quidax.lite.png
 bugbounty: 
 meta: removed

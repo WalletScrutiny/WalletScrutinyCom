@@ -13,7 +13,6 @@ version: '1.26'
 reviews: 19
 website: https://slavi.io#deadLink
 repository: https://github.com/SlvLabs/slavi-wallet
-issue: 
 icon: io.slavi.wallet.jpg
 bugbounty: 
 meta: stale

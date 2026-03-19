@@ -13,7 +13,6 @@ version: 3.2.3
 reviews: 0
 website: https://www.crypto2cash.com/
 repository: 
-issue: 
 icon: com.c2c.B.V.Crypto2Cash.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.2.3
 reviews: 
 website: https://blockbee.io
 repository: 
-issue: 
 icon: io.blockbee.pos.png
 bugbounty: 
 meta: removed

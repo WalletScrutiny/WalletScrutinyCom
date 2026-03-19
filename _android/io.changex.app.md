@@ -13,7 +13,6 @@ version: 2.9.8
 reviews: 7
 website: https://changex.io/
 repository: 
-issue: 
 icon: io.changex.app.png
 bugbounty: 
 meta: removed

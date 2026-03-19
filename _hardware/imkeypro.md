@@ -20,7 +20,6 @@ shop:
 country: SG
 price: 109USD
 repository: 
-issue: 
 icon: imkeypro.png
 bugbounty: 
 meta: ok

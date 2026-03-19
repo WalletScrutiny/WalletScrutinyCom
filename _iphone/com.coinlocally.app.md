@@ -13,7 +13,6 @@ version: 3.1.6
 reviews: 125
 website: https://coinlocally.com
 repository: 
-issue: 
 icon: com.coinlocally.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.7.9
 reviews: 31
 website: https://www.coinhub.org
 repository: 
-issue: 
 icon: com.coinhub.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 11.10.6
 reviews: 625
 website: http://www.korbit.co.kr
 repository: 
-issue: 
 icon: com.korbit.exchange.jpg
 bugbounty: 
 meta: ok

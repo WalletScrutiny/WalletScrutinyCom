@@ -12,7 +12,6 @@ version: 2.3.21
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.oasisexcflutter.app.png
 bugbounty: 
 meta: removed

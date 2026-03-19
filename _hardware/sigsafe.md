@@ -17,7 +17,6 @@ shop:
 country: 
 price: 8USD
 repository: 
-issue: 
 icon: sigsafe.png
 bugbounty: 
 meta: ok

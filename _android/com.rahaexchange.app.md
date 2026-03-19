@@ -13,7 +13,6 @@ version: '1.007'
 reviews: 5
 website: https://rahaexchange.com
 repository: 
-issue: 
 icon: com.rahaexchange.app.png
 bugbounty: 
 meta: removed

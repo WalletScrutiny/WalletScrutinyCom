@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.amaxg.bizapaywallet.png
 bugbounty: 
 meta: ok

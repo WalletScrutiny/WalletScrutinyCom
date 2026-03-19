@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 
 website: https://business.elegro.eu/elegro-business-wallet
 repository: 
-issue: 
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok

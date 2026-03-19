@@ -12,7 +12,6 @@ version: 2.3.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ixxgoogle_android.png
 bugbounty: 
 meta: removed

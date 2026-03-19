@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 724
 website: https://www.oobit.com/
 repository: 
-issue: 
 icon: com.oobit.jpg
 bugbounty: 
 meta: ok

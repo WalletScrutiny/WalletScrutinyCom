@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tallin.wallet.png
 bugbounty: 
 meta: removed

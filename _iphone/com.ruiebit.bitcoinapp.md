@@ -12,7 +12,6 @@ version: 3.6.4
 reviews: 132
 website: 
 repository: 
-issue: 
 icon: com.ruiebit.bitcoinapp.jpg
 bugbounty: 
 meta: ok

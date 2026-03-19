@@ -12,7 +12,6 @@ version: '5.37'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.blockchainacuity.wallet.jpg
 bugbounty: 
 meta: removed

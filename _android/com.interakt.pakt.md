@@ -12,7 +12,6 @@ version: 0.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.interakt.pakt.png
 bugbounty: 
 meta: removed

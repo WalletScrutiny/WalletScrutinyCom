@@ -13,7 +13,6 @@ version: 2.8.39
 reviews: 6023
 website: https://swyftx.com
 repository: 
-issue: 
 icon: au.com.swyftx.ios.jpg
 bugbounty: 
 meta: ok

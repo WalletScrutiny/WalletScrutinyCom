@@ -12,7 +12,6 @@ version: 1.1.93
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.palotraders.app.png
 bugbounty: 
 meta: removed

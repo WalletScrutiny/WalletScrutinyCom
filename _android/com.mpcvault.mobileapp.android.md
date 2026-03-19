@@ -13,7 +13,6 @@ version: 3.9.7
 reviews: 3
 website: https://mpcvault.com/
 repository: 
-issue: 
 icon: com.mpcvault.mobileapp.android.png
 bugbounty: 
 meta: ok

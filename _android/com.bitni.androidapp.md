@@ -12,7 +12,6 @@ version: '1.05'
 reviews: 111
 website: http://bitni.com#deadLink
 repository: 
-issue: 
 icon: com.bitni.androidapp.png
 bugbounty: 
 meta: removed

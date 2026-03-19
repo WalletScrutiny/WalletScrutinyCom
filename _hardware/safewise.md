@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: safewise.png
 bugbounty: 
 meta: ok

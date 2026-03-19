@@ -14,7 +14,6 @@ version: 2.28.21
 reviews: 87
 website: https://exmo.com/en
 repository: 
-issue: 
 icon: com.exmo.enfins.jpg
 bugbounty: 
 meta: ok

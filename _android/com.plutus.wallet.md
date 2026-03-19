@@ -13,7 +13,6 @@ version: '146.0'
 reviews: 2893
 website: https://www.abra.com/
 repository: 
-issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
 meta: obsolete

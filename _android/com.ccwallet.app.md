@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://www.coinsclone.com/
 repository: 
-issue: 
 icon: com.ccwallet.app.png
 bugbounty: 
 meta: removed

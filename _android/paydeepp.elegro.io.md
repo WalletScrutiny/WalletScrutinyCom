@@ -13,7 +13,6 @@ version: 5.4.9
 reviews: 1
 website: https://elegro.eu/
 repository: 
-issue: 
 icon: paydeepp.elegro.io.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.10.0
 reviews: 43
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
-issue: 
 icon: com.pundix.functionx.png
 bugbounty: 
 meta: ok

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: esecubit.png
 bugbounty: 
 meta: defunct

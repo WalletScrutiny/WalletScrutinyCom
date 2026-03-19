@@ -13,7 +13,6 @@ version: 2.4.2
 reviews: 
 website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo
-issue: 
 icon: com.cypherstack.stackduo.png
 bugbounty: 
 meta: ok

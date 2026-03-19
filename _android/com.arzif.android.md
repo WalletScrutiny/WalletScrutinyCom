@@ -13,7 +13,6 @@ version: '2'
 reviews: 21
 website: https://arzif.com/
 repository: 
-issue: 
 icon: com.arzif.android.jpg
 bugbounty: 
 meta: obsolete

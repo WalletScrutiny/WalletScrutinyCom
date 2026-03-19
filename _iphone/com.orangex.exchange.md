@@ -13,7 +13,6 @@ version: 0.3.2
 reviews: 7
 website: https://www.orangex.com
 repository: 
-issue: 
 icon: com.orangex.exchange.jpg
 bugbounty: 
 meta: ok

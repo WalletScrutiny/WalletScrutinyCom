@@ -12,7 +12,6 @@ version: '11.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.pockan.aicryptotrade.png
 bugbounty: 
 meta: removed

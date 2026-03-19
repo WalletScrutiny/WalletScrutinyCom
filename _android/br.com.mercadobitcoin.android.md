@@ -13,7 +13,6 @@ version: 2.101.0
 reviews: 73
 website: http://www.mercadobitcoin.com.br
 repository: 
-issue: 
 icon: br.com.mercadobitcoin.android.png
 bugbounty: 
 meta: ok

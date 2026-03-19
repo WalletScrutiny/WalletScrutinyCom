@@ -13,7 +13,6 @@ version: 1.2.10
 reviews: 
 website: https://acornbit.com
 repository: 
-issue: 
 icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
 meta: removed

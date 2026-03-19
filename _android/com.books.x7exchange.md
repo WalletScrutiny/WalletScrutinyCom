@@ -13,7 +13,6 @@ version: '2.3'
 reviews: 
 website: https://x7exchange.com/
 repository: 
-issue: 
 icon: com.books.x7exchange.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: plus.Bit.Mart.png
 bugbounty: 
 meta: removed

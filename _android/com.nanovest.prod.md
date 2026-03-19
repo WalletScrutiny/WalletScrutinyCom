@@ -13,7 +13,6 @@ version: 5.3.2
 reviews: 30
 website: https://nanovest.zendesk.com/hc/en-us
 repository: 
-issue: 
 icon: com.nanovest.prod.png
 bugbounty: 
 meta: ok

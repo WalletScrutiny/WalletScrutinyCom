@@ -13,7 +13,6 @@ version: 2.0.9
 reviews: 644
 website: https://www.pionex.us/
 repository: 
-issue: 
 icon: com.pionex.us.client.png
 bugbounty: 
 meta: ok

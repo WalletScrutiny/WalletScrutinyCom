@@ -12,7 +12,6 @@ version: '0.24'
 reviews: 
 website: http://satochip.io
 repository: 
-issue: 
 icon: org.satochip.satochip2fa.satochip2fa.png
 bugbounty: 
 meta: obsolete

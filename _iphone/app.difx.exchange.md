@@ -13,7 +13,6 @@ version: 5.1.3
 reviews: 0
 website: https://difx.com
 repository: 
-issue: 
 icon: app.difx.exchange.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.stipend.com
 repository: 
-issue: 
 icon: com.stipenx.wallet.png
 bugbounty: 
 meta: removed

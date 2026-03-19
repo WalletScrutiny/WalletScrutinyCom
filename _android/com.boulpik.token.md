@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.boulpik.token.png
 bugbounty: 
 meta: removed

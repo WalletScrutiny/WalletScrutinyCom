@@ -13,7 +13,6 @@ version: 5.5.1
 reviews: 46
 website: https://www.mathwallet.org
 repository: 
-issue: 
 icon: com.mathglobal.mathwallet5.jpg
 bugbounty: 
 meta: ok

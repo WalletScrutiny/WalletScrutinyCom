@@ -13,7 +13,6 @@ version: 5.8.1
 reviews: 492
 website: http://indodax.com
 repository: 
-issue: 
 icon: id.co.bitcoin.png
 bugbounty: 
 meta: ok

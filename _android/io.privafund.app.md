@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://privafund.io/
 repository: 
-issue: 
 icon: io.privafund.app.png
 bugbounty: 
 meta: removed

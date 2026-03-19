@@ -12,7 +12,6 @@ version: 1.0.0.60
 reviews: 
 website: https://www.afincoin.io/
 repository: 
-issue: 
 icon: kr.co.keypair.afintouch.png
 bugbounty: 
 meta: removed

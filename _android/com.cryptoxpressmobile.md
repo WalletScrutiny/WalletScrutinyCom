@@ -13,7 +13,6 @@ version: 1.40.37
 reviews: 
 website: https://cryptoxpress.com
 repository: 
-issue: 
 icon: com.cryptoxpressmobile.png
 bugbounty: 
 meta: ok

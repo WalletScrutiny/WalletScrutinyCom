@@ -13,7 +13,6 @@ version: '1.21'
 reviews: 
 website: https://bitturk.com
 repository: 
-issue: 
 icon: com.bitturkmobile.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.18.7
 reviews: 4
 website: https://satangcorp.com/
 repository: 
-issue: 
 icon: com.satang.pro.png
 bugbounty: 
 meta: ok

@@ -14,7 +14,6 @@ version: 1.1.0
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.crypto.blockchain.jpg
 bugbounty: 
 meta: removed

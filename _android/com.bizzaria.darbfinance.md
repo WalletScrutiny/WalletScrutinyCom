@@ -12,7 +12,6 @@ version: 1.3.3
 reviews: 
 website: https://darbfinance.com
 repository: 
-issue: 
 icon: com.bizzaria.darbfinance.png
 bugbounty: 
 meta: removed

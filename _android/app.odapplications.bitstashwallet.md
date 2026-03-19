@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: https://payments.bitstash.co#deadLink
 repository: 
-issue: 
 icon: app.odapplications.bitstashwallet.png
 bugbounty: 
 meta: removed

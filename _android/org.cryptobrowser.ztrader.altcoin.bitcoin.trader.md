@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.jpg
 bugbounty: 
 meta: removed

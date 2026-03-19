@@ -13,7 +13,6 @@ version: 5.5.2
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.bitzlato.mobile.jpg
 bugbounty: 
 meta: removed

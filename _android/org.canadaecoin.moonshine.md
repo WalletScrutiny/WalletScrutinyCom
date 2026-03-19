@@ -12,7 +12,6 @@ version: 0.6.4
 reviews: 
 website: https://ecoincore.com
 repository: 
-issue: 
 icon: org.canadaecoin.moonshine.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://kswappay.com#deadLink
 repository: 
-issue: 
 icon: com.archgroup.kswappay.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://becoin.exchange#deadLink
 repository: 
-issue: 
 icon: com.app.becoin.png
 bugbounty: 
 meta: removed

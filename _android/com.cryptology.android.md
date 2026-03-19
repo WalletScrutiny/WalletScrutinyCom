@@ -13,7 +13,6 @@ version: 3.19.0
 reviews: 3
 website: https://cryptology.com/
 repository: 
-issue: 
 icon: com.cryptology.android.png
 bugbounty: 
 meta: removed

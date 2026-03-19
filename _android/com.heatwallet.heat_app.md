@@ -12,7 +12,6 @@ version: 2.5.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.heatwallet.heat_app.png
 bugbounty: 
 meta: stale

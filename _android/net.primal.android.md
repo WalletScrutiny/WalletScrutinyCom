@@ -13,7 +13,6 @@ version: 2.6.21
 reviews: 27
 website: https://www.primal.net
 repository: 
-issue: 
 icon: net.primal.android.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 3.7.9
 reviews: 44
 website: https://owallet.io/
 repository: 
-issue: 
 icon: io.orai.owallet.jpg
 bugbounty: 
 meta: ok

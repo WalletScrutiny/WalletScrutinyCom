@@ -13,7 +13,6 @@ version: 5.3.3
 reviews: 7374
 website: https://bitbuy.ca/
 repository: 
-issue: 
 icon: com.bitbuy.mobileApp.jpg
 bugbounty: 
 meta: ok

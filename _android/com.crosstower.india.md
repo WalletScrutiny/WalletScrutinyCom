@@ -13,7 +13,6 @@ version: '3.27'
 reviews: 2
 website: https://www.crosstower.com#deadLink
 repository: 
-issue: 
 icon: com.crosstower.india.png
 bugbounty: 
 meta: removed

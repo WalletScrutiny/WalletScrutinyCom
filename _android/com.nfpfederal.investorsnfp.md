@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://nfpfederal.com#deadLink
 repository: 
-issue: 
 icon: com.nfpfederal.investorsnfp.png
 bugbounty: 
 meta: removed

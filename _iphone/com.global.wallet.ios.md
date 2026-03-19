@@ -12,7 +12,6 @@ version: 2.18.1
 reviews: 657
 website: https://web.archive.org/web/20260119041716/https://www.tpglobalwallet.net/
 repository: 
-issue: 
 icon: com.global.wallet.ios.jpg
 bugbounty: 
 meta: ok

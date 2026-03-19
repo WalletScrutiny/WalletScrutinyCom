@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 51
 website: https://web.payfrequent.com#deadLink
 repository: 
-issue: 
 icon: com.payfrequent.png
 bugbounty: 
 meta: removed

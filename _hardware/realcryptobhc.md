@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: realcryptobhc.png
 bugbounty: 
 meta: defunct

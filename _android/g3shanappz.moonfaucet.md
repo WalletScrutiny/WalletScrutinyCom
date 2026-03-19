@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 295
 website: 
 repository: 
-issue: 
 icon: g3shanappz.moonfaucet.jpg
 bugbounty: 
 meta: removed

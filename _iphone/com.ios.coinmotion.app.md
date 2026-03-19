@@ -13,7 +13,6 @@ version: 1.11.6
 reviews: 0
 website: https://coinmotion.com/
 repository: 
-issue: 
 icon: com.ios.coinmotion.app.jpg
 bugbounty: 
 meta: removed

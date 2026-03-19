@@ -13,7 +13,6 @@ version: 3.6.4
 reviews: 26
 website: http://www.bitvo.com
 repository: 
-issue: 
 icon: com.bitvoapp.bitvo.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://impily.com
 repository: 
-issue: 
 icon: impily.app.png
 bugbounty: 
 meta: removed

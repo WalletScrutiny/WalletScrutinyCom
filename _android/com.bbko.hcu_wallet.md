@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: https://healthchainus.com#deadLink
 repository: 
-issue: 
 icon: com.bbko.hcu_wallet.png
 bugbounty: 
 meta: removed

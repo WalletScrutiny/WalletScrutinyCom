@@ -12,7 +12,6 @@ version: 1.17.1
 reviews: 360
 website: 
 repository: 
-issue: 
 icon: io.uun.clet.png
 bugbounty: 
 meta: removed

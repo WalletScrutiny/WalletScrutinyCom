@@ -12,7 +12,6 @@ version: 3.1.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.baz.code.png
 bugbounty: 
 meta: removed

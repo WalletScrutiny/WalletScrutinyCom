@@ -12,7 +12,6 @@ version: 18.2.15
 reviews: 
 website: https://inbitwetrust.com#deadLink
 repository: 
-issue: 
 icon: com.InBit.app.png
 bugbounty: 
 meta: removed

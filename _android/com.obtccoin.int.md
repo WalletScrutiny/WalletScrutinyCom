@@ -13,7 +13,6 @@ version: 1.3.5
 reviews: 
 website: https://www.obtccoin.com
 repository: 
-issue: 
 icon: com.obtccoin.int.jpg
 bugbounty: 
 meta: removed

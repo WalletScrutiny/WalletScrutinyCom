@@ -13,7 +13,6 @@ version: 1.0.12
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: sone.finance.wallet.png
 bugbounty: 
 meta: removed

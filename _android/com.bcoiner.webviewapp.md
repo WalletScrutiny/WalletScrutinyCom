@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 1251
 website: https://bcoiner.com
 repository: 
-issue: 
 icon: com.bcoiner.webviewapp.png
 bugbounty: 
 meta: removed

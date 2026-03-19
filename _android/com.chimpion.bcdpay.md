@@ -13,7 +13,6 @@ version: 7.1.63
 reviews: 13
 website: https://www.chimpion.io/
 repository: 
-issue: 
 icon: com.chimpion.bcdpay.png
 bugbounty: 
 meta: removed

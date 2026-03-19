@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://touchsocial.xyz
 repository: 
-issue: 
 icon: xyz.touchsocial.app.jpg
 bugbounty: 
 meta: removed

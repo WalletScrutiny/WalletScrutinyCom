@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.premiax.com/
 repository: 
-issue: 
 icon: com.crassula.premiax.png
 bugbounty: 
 meta: removed

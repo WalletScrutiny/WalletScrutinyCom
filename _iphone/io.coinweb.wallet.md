@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 4
 website: https://coinweb.io
 repository: 
-issue: 
 icon: io.coinweb.wallet.jpg
 bugbounty: 
 meta: ok

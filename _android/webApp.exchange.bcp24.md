@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://ex.bcp24.io
 repository: 
-issue: 
 icon: webApp.exchange.bcp24.png
 bugbounty: 
 meta: removed

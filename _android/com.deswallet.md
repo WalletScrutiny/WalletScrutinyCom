@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://dtechno.tech#deadLink
 repository: 
-issue: 
 icon: com.deswallet.png
 bugbounty: 
 meta: removed

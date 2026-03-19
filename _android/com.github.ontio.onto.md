@@ -13,7 +13,6 @@ version: 4.9.20
 reviews: 128
 website: https://onto.app/
 repository: https://github.com/ONTO-Data-Wallet/ONTO#deadLink
-issue: 
 icon: com.github.ontio.onto.png
 bugbounty: 
 meta: ok

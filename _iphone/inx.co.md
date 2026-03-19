@@ -13,7 +13,6 @@ version: 2.0.12
 reviews: 16
 website: 
 repository: 
-issue: 
 icon: inx.co.jpg
 bugbounty: 
 meta: ok

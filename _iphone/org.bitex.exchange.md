@@ -13,7 +13,6 @@ version: '2.8'
 reviews: 15
 website: https://web.archive.org/web/20230928122134/https://bitex.com/
 repository: 
-issue: 
 icon: org.bitex.exchange.jpg
 bugbounty: 
 meta: removed

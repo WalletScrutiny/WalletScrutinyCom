@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: pinurcoin.android.png
 bugbounty: 
 meta: removed

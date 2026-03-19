@@ -12,7 +12,6 @@ version: '1.02'
 reviews: 
 website: https://centralex.com#deadLink
 repository: 
-issue: 
 icon: com.centralex.app.png
 bugbounty: 
 meta: removed

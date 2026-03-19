@@ -12,7 +12,6 @@ version: 0.1.9-3
 reviews: 56
 website: 
 repository: 
-issue: 
 icon: wallet.snowgem.bitfrost.png
 bugbounty: 
 meta: removed

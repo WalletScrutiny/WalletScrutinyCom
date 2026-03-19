@@ -12,7 +12,6 @@ version: 3.17.27
 reviews: 
 website: https://www.hopex.com#deadLink
 repository: 
-issue: 
 icon: com.hopex.app.png
 bugbounty: 
 meta: removed

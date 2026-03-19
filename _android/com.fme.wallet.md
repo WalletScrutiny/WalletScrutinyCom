@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://wallet.fmetoken.io
 repository: 
-issue: 
 icon: com.fme.wallet.jpg
 bugbounty: 
 meta: removed

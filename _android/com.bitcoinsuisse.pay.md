@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://www.bitcoinsuisse.com/
 repository: 
-issue: 
 icon: com.bitcoinsuisse.pay.png
 bugbounty: 
 meta: obsolete

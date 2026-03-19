@@ -12,7 +12,6 @@ version: '1.721'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.BitcoinEraPlatform.net.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.7.2
 reviews: 2
 website: https://colodax.com#deadLink
 repository: 
-issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
 meta: removed

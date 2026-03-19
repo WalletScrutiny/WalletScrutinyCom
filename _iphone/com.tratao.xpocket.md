@@ -13,7 +13,6 @@ version: 4.7.0
 reviews: 167
 website: https://xbank.plus/
 repository: 
-issue: 
 icon: com.tratao.xpocket.jpg
 bugbounty: 
 meta: removed

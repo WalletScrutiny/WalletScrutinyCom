@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 
 website: https://ibtc.com.hk
 repository: 
-issue: 
 icon: com.quanli.ibtc.png
 bugbounty: 
 meta: removed

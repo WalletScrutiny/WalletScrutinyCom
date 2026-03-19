@@ -12,7 +12,6 @@ version: 1.0.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.whalecomp.whalecomp.png
 bugbounty: 
 meta: removed

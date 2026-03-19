@@ -13,7 +13,6 @@ version: 1.4.5
 reviews: 22
 website: https://mercadobitcoin.pt/mobile/ios
 repository: 
-issue: 
 icon: com.mbeu.mbeuapp.jpg
 bugbounty: 
 meta: ok

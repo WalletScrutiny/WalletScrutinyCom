@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: pundixbob.png
 bugbounty: 
 meta: ok

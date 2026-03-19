@@ -14,7 +14,6 @@ version: 3.25.1
 reviews: 575
 website: https://www.tenx.tech#deadLink
 repository: 
-issue: 
 icon: com.onebit.app.png
 bugbounty: 
 meta: removed

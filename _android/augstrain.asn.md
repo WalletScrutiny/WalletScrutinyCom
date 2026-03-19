@@ -13,7 +13,6 @@ version: '8.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: augstrain.asn.png
 bugbounty: 
 meta: removed

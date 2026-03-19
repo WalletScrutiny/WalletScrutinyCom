@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://picomediacoin.com#deadLink
 repository: 
-issue: 
 icon: com.zeligz.picomedia.png
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 4.10.0
 reviews: 547
 website: http://www.ellipal.com
 repository: 
-issue: 
 icon: com.ellipal.wallet.png
 bugbounty: 
 meta: ok

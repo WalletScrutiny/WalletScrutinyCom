@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: https://nayuta.co
 repository: 
-issue: 
 icon: co.nayuta.wallet.png
 bugbounty: 
 meta: removed

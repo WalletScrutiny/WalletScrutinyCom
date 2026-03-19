@@ -13,7 +13,6 @@ version: '5.0'
 reviews: 61
 website: https://www.pillow.fund#deadLink
 repository: 
-issue: 
 icon: com.pillow.fund.jpg
 bugbounty: 
 meta: removed

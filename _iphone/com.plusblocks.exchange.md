@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.plusblocks.exchange.jpg
 bugbounty: 
 meta: stale

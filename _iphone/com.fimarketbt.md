@@ -13,7 +13,6 @@ version: '5.8'
 reviews: 23
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract
-issue: 
 icon: com.fimarketbt.jpg
 bugbounty: 
 meta: obsolete

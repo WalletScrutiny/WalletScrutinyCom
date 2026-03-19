@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.galaxy.exchange.jpg
 bugbounty: 
 meta: removed

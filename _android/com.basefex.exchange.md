@@ -12,7 +12,6 @@ version: 2.5.67
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.basefex.exchange.png
 bugbounty: 
 meta: removed

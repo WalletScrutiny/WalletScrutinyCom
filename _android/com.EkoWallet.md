@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: https://ekowallet.com
 repository: 
-issue: 
 icon: com.EkoWallet.png
 bugbounty: 
 meta: removed

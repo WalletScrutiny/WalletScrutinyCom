@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: https://www.btearn.com#deadLink
 repository: 
-issue: 
 icon: com.bitearn.png
 bugbounty: 
 meta: removed

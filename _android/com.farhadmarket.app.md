@@ -13,7 +13,6 @@ version: 1.9.124
 reviews: 14
 website: https://farhadmarket.com#deadLink
 repository: 
-issue: 
 icon: com.farhadmarket.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.3.3
 reviews: 5
 website: https://coinsquare.com
 repository: 
-issue: 
 icon: com.coinsquare.app.quicktrade.png
 bugbounty: 
 meta: ok

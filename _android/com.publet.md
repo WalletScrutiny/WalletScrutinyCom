@@ -13,7 +13,6 @@ version: '1.9'
 reviews: 
 website: https://www.publet.io/
 repository: 
-issue: 
 icon: com.publet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.0.9
 reviews: 129
 website: https://www.aofex.com/#/
 repository: 
-issue: 
 icon: com.aofex.exchange1.jpg
 bugbounty: 
 meta: removed

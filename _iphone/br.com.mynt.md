@@ -13,7 +13,6 @@ version: 1.103.0
 reviews: 1843
 website: 
 repository: 
-issue: 
 icon: br.com.mynt.jpg
 bugbounty: 
 meta: ok

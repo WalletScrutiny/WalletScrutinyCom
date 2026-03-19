@@ -13,7 +13,6 @@ version: 1.4.10
 reviews: 10
 website: http://pockie.io
 repository: 
-issue: 
 icon: com.pilab.pockie.jpg
 bugbounty: 
 meta: ok

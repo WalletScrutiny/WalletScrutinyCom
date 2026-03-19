@@ -13,7 +13,6 @@ version: 1.7.0.2
 reviews: 47
 website: http://bytefederal.com/vault
 repository: 
-issue: 
 icon: com.bytefederal.bytewallet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2026.03.0
 reviews: 
 website: http://flowee.org
 repository: 
-issue: 
 icon: org.flowee.pay.png
 bugbounty: 
 meta: ok

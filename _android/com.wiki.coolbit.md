@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: http://www.coolbit.com
 repository: 
-issue: 
 icon: com.wiki.coolbit.png
 bugbounty: 
 meta: removed

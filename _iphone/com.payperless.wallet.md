@@ -13,7 +13,6 @@ version: '1.38'
 reviews: 0
 website: https://www.payperless.com
 repository: 
-issue: 
 icon: com.payperless.wallet.jpg
 bugbounty: 
 meta: ok

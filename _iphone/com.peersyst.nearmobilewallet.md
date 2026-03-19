@@ -13,7 +13,6 @@ version: '2.35'
 reviews: 808
 website: https://nearmobile.app/
 repository: 
-issue: 
 icon: com.peersyst.nearmobilewallet.jpg
 bugbounty: 
 meta: ok

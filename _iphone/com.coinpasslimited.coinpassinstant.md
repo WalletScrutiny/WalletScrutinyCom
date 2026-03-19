@@ -13,7 +13,6 @@ version: 3.13.0
 reviews: 18
 website: https://coinpass.com/
 repository: 
-issue: 
 icon: com.coinpasslimited.coinpassinstant.jpg
 bugbounty: 
 meta: ok

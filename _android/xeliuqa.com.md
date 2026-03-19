@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: https://web.archive.org/web/20250710001739/http://www.xeliuqa.app/
 repository: 
-issue: 
 icon: xeliuqa.com.png
 bugbounty: 
 meta: removed

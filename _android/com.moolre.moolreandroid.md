@@ -13,7 +13,6 @@ version: 3.5.21
 reviews: 14
 website: https://moolre.com
 repository: 
-issue: 
 icon: com.moolre.moolreandroid.png
 bugbounty: 
 meta: removed

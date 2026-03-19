@@ -12,7 +12,6 @@ version: 1.14.1
 reviews: 8
 website: https://www.fcoin.com#deadLink
 repository: 
-issue: 
 icon: com.fcoin.exchange.png
 bugbounty: 
 meta: removed

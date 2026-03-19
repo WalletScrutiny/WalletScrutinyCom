@@ -12,7 +12,6 @@ version: '1.7'
 reviews: 
 website: https://web.archive.org/web/20190703222321/http://fincryptglobal.com/
 repository: 
-issue: 
 icon: bitsafe.bitsafe_app.png
 bugbounty: 
 meta: removed

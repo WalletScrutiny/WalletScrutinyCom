@@ -12,7 +12,6 @@ version: 5.3.2
 reviews: 51
 website: 
 repository: 
-issue: 
 icon: com.eyalabs.eyawallet.png
 bugbounty: 
 meta: removed

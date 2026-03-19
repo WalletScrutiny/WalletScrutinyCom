@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://wallet.tkeycoin.com#deadLink
 repository: 
-issue: 
 icon: io.space.tkey.jpg
 bugbounty: 
 meta: removed

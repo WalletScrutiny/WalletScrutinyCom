@@ -12,7 +12,6 @@ version: '35.0'
 reviews: 
 website: https://www.bitandpay.com
 repository: 
-issue: 
 icon: com.easyex.easyex.png
 bugbounty: 
 meta: removed

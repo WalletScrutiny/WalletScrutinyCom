@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 1566
 website: https://jaxx.io
 repository: 
-issue: 
 icon: com.liberty.jaxx.jpg
 bugbounty: 
 meta: removed

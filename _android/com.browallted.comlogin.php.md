@@ -12,7 +12,6 @@ version: '3.4'
 reviews: 
 website: https://browallted.com#deadLink
 repository: 
-issue: 
 icon: com.browallted.comlogin.php.png
 bugbounty: 
 meta: removed

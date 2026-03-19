@@ -13,7 +13,6 @@ version: 1.19.0
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.quantum.wallet.app.jpg
 bugbounty: 
 meta: ok

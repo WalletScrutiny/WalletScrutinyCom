@@ -12,7 +12,6 @@ version: 3.5.8
 reviews: 
 website: https://quintex.io#deadLink
 repository: 
-issue: 
 icon: com.app.quintex.png
 bugbounty: 
 meta: removed

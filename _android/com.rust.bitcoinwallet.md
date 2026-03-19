@@ -13,7 +13,6 @@ version: 3.04.30
 reviews: 
 website: https://altrafinance.io#deadLink
 repository: 
-issue: 
 icon: com.rust.bitcoinwallet.png
 bugbounty: 
 meta: removed

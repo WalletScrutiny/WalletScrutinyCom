@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: http://thebetc.com#deadLink
 repository: 
-issue: 
 icon: com.application.betchips.png
 bugbounty: 
 meta: removed

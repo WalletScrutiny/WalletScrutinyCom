@@ -13,7 +13,6 @@ version: 1.1.52
 reviews: 16
 website: https://zondacrypto.com
 repository: 
-issue: 
 icon: net.bitbay.bitcoin.png
 bugbounty: 
 meta: ok

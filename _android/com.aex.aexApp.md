@@ -12,7 +12,6 @@ version: 3.36.4
 reviews: 11
 website: https://www.aex.com
 repository: 
-issue: 
 icon: com.aex.aexApp.png
 bugbounty: 
 meta: removed

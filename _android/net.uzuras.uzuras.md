@@ -12,7 +12,6 @@ version: '4.0'
 reviews: 
 website: https://www.uzuras.net/
 repository: 
-issue: 
 icon: net.uzuras.uzuras.png
 bugbounty: 
 meta: removed

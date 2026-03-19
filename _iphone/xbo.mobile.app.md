@@ -13,7 +13,6 @@ version: 3.1.1
 reviews: 7
 website: https://www.xbo.com/
 repository: 
-issue: 
 icon: xbo.mobile.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: https://smile-bit.com#deadLink
 repository: 
-issue: 
 icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
 bugbounty: 
 meta: removed

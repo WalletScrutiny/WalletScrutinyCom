@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.bcmholdings.io#deadLink
 repository: 
-issue: 
 icon: com.bcm.bcm_alpha_app.png
 bugbounty: 
 meta: removed

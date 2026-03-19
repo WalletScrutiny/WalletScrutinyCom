@@ -17,7 +17,6 @@ shop: https://www.ebay.com/itm/165746123556?ViewItem=&item=165746123556&nma=true
 country: UK
 price: 3.69 GBP
 repository: 
-issue: 
 icon: walliT.png
 bugbounty: 
 meta: ok

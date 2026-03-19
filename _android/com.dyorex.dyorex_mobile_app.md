@@ -13,7 +13,6 @@ version: 1.9.5
 reviews: 
 website: https://www.dyorex.com
 repository: 
-issue: 
 icon: com.dyorex.dyorex_mobile_app.png
 bugbounty: 
 meta: ok

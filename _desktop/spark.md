@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: https://github.com/shesek/spark-wallet
-issue: 
 icon: 
 bugbounty: 
 meta: obsolete

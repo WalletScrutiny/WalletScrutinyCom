@@ -12,7 +12,6 @@ version: 1.18.0
 reviews: 
 website: https://www.bitronit.com
 repository: 
-issue: 
 icon: com.bitronit.mobile.png
 bugbounty: 
 meta: removed

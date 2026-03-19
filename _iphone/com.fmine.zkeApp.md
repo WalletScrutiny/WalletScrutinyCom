@@ -13,7 +13,6 @@ version: 6.5.2
 reviews: 270
 website: https://www.zke.com/
 repository: 
-issue: 
 icon: com.fmine.zkeApp.jpg
 bugbounty: 
 meta: ok

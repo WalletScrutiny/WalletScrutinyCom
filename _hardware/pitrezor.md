@@ -18,7 +18,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/heneault/trezor-firmware
-issue: 
 icon: pitrezor.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 5.8.2
 reviews: 211
 website: https://knaken.eu/
 repository: 
-issue: 
 icon: nl.knaken.ios.jpg
 bugbounty: 
 meta: ok

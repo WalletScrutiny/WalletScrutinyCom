@@ -12,7 +12,6 @@ version: 1.0.11
 reviews: 
 website: https://www.xliquidus.com/
 repository: 
-issue: 
 icon: com.usscyber.xliquiduss.app.png
 bugbounty: 
 meta: removed

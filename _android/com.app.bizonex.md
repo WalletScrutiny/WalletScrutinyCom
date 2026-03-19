@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: https://bizonex.com/
 repository: 
-issue: 
 icon: com.app.bizonex.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.25
 reviews: 
 website: https://korvio.io#deadLink
 repository: 
-issue: 
 icon: com.wallet.korvio.png
 bugbounty: 
 meta: removed

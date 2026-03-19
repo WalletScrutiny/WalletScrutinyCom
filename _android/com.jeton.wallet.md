@@ -13,7 +13,6 @@ version: 3.7.3
 reviews: 20
 website: https://jeton.com/
 repository: 
-issue: 
 icon: com.jeton.wallet.png
 bugbounty: 
 meta: stale

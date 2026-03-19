@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://tetrazus.com#deadLink
 repository: 
-issue: 
 icon: com.tetrazus.png
 bugbounty: 
 meta: removed

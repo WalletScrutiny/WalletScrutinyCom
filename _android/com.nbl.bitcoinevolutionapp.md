@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 11
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoinevolutionapp.png
 bugbounty: 
 meta: removed

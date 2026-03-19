@@ -13,7 +13,6 @@ version: 1.0.12
 reviews: 16
 website: https://magnumwallet.co
 repository: 
-issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
 meta: removed

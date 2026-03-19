@@ -13,7 +13,6 @@ version: '2.7'
 reviews: 55
 website: 
 repository: 
-issue: 
 icon: com.shido.wallet.jpg
 bugbounty: 
 meta: removed

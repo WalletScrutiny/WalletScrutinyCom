@@ -14,7 +14,6 @@ version: 0.9.007
 reviews: 12
 website: https://qcan.com
 repository: 
-issue: 
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
 meta: ok

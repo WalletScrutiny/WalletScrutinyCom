@@ -12,7 +12,6 @@ version: 7.5.11
 reviews: 
 website: https://www.deskoin.com/
 repository: 
-issue: 
 icon: com.deskoin.app.png
 bugbounty: 
 meta: ok

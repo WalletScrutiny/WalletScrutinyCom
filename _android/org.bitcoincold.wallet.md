@@ -12,7 +12,6 @@ version: 1.4.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.bitcoincold.wallet.png
 bugbounty: 
 meta: removed

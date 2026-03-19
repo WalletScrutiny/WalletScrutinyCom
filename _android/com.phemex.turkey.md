@@ -13,7 +13,6 @@ version: 1.2.5
 reviews: 1
 website: https://phemex.com.tr#deadLink
 repository: 
-issue: 
 icon: com.phemex.turkey.png
 bugbounty: 
 meta: removed

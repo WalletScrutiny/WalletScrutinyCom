@@ -13,7 +13,6 @@ version: 6.161.0
 reviews: 37
 website: 
 repository: 
-issue: 
 icon: com.okx.wallet.png
 bugbounty: 
 meta: ok

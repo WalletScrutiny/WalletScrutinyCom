@@ -12,7 +12,6 @@ version: 1.2.8
 reviews: 
 website: https://zebitex.com
 repository: 
-issue: 
 icon: com.digy.png
 bugbounty: 
 meta: removed

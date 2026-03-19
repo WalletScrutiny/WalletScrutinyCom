@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: safemoon.hwallet.png
 bugbounty: 
 meta: ok

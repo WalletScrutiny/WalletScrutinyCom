@@ -12,7 +12,6 @@ version: 0.19.0
 reviews: 
 website: https://bintexfutures.com
 repository: 
-issue: 
 icon: com.bintex.futures.png
 bugbounty: 
 meta: removed

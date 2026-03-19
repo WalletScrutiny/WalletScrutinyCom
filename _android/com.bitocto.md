@@ -13,7 +13,6 @@ version: '3.23'
 reviews: 6
 website: https://bitocto.com
 repository: 
-issue: 
 icon: com.bitocto.png
 bugbounty: 
 meta: removed

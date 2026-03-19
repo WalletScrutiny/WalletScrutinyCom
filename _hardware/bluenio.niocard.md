@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 59.99 GBP
 repository: 
-issue: 
 icon: bluenio.niocard.png
 bugbounty: 
 meta: ok

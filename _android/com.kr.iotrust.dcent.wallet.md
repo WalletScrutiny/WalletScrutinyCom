@@ -13,7 +13,6 @@ version: 9.0.2
 reviews: 995
 website: https://dcentwallet.com/
 repository: 
-issue: 
 icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
 meta: ok

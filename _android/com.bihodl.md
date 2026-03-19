@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: https://bihodl.com
 repository: 
-issue: 
 icon: com.bihodl.png
 bugbounty: 
 meta: removed

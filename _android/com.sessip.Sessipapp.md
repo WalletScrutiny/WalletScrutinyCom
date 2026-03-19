@@ -13,7 +13,6 @@ version: VARY
 reviews: 9
 website: https://sessip.com
 repository: 
-issue: 
 icon: com.sessip.Sessipapp.png
 bugbounty: 
 meta: obsolete

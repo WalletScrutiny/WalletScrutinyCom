@@ -14,7 +14,6 @@ version: 5.12.2
 reviews: 2701
 website: https://phemex.com
 repository: 
-issue: 
 icon: com.phemex.submit.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 0
 website: http://www.biteeu.com
 repository: 
-issue: 
 icon: com.idea-soft.biteeu.jpg
 bugbounty: 
 meta: removed

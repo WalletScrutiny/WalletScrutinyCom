@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 
 website: https://prostocash.com
 repository: 
-issue: 
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
 meta: removed

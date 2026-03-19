@@ -12,7 +12,6 @@ version: 3.9.0
 reviews: 
 website: https://www.top1groups.com#deadLink
 repository: 
-issue: 
 icon: com.top1.group.international.android.png
 bugbounty: 
 meta: removed

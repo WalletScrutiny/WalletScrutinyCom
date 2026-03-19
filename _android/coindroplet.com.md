@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://www.coindroplet.com
 repository: 
-issue: 
 icon: coindroplet.com.png
 bugbounty: 
 meta: obsolete

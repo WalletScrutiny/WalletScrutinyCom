@@ -13,7 +13,6 @@ version: 3.5.2
 reviews: 425
 website: 
 repository: 
-issue: 
 icon: com.haxwallet.app.jpg
 bugbounty: 
 meta: ok

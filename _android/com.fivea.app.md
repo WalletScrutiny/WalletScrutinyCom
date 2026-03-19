@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fivea.app.jpg
 bugbounty: 
 meta: removed

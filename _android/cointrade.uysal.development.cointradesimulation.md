@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://www.okanuysal.com/
 repository: 
-issue: 
 icon: cointrade.uysal.development.cointradesimulation.png
 bugbounty: 
 meta: removed

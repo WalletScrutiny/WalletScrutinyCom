@@ -13,7 +13,6 @@ version: 0.9.8
 reviews: 276
 website: 
 repository: 
-issue: 
 icon: com.thein1.app.jpg
 bugbounty: 
 meta: ok

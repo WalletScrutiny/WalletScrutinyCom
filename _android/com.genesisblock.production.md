@@ -13,7 +13,6 @@ version: 0.2.9
 reviews: 17
 website: https://hightop.com/
 repository: 
-issue: 
 icon: com.genesisblock.production.png
 bugbounty: 
 meta: removed

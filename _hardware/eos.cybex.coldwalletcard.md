@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: eos.cybex.coldwalletcard.png
 bugbounty: 
 meta: ok

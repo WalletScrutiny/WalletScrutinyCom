@@ -12,7 +12,6 @@ version: 0.1.3
 reviews: 
 website: https://lndroid.org
 repository: 
-issue: 
 icon: org.lndroid.messenger.testnet.png
 bugbounty: 
 meta: removed

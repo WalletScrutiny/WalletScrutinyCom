@@ -13,7 +13,6 @@ version: 3.0.68
 reviews: 12
 website: https://www.bitnovo.com
 repository: 
-issue: 
 icon: com.bitnovo.Wallet.png
 bugbounty: 
 meta: ok

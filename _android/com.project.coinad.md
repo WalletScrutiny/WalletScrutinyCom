@@ -12,7 +12,6 @@ version: '1.26'
 reviews: 
 website: http://gmnc.net#deadLink
 repository: 
-issue: 
 icon: com.project.coinad.jpg
 bugbounty: 
 meta: removed

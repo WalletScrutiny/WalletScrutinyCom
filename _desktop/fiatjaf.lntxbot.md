@@ -12,7 +12,6 @@ provider: fiatjaf
 providerWebsite: 
 website: https://fiatjaf.com
 repository: https://github.com/fiatjaf/lntxbot
-issue: 
 icon: 
 bugbounty: 
 meta: ok

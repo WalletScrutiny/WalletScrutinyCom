@@ -12,7 +12,6 @@ version: 1.10.19
 reviews: 
 website: https://abcc-plus.com/
 repository: 
-issue: 
 icon: com.unicoin.dcx.limited.abcc.wallet.png
 bugbounty: 
 meta: ok

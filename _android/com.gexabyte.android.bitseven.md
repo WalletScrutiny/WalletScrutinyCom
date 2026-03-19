@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://bit7wallet.com#deadLink
 repository: 
-issue: 
 icon: com.gexabyte.android.bitseven.png
 bugbounty: 
 meta: removed

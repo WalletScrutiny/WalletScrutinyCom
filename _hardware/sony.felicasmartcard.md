@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: sony.felicasmartcard.png
 bugbounty: 
 meta: ok

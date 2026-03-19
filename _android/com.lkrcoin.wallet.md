@@ -12,7 +12,6 @@ version: v1.0.0
 reviews: 
 website: http://lkrcoin.io#deadLink
 repository: 
-issue: 
 icon: com.lkrcoin.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptocurrencersltd.bitcoin.invest.app.png
 bugbounty: 
 meta: removed

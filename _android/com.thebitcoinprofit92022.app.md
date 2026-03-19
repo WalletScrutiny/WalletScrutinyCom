@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.thebitcoinprofit92022.app.jpg
 bugbounty: 
 meta: removed

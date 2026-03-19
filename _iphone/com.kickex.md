@@ -13,7 +13,6 @@ version: 1.9.7
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.kickex.jpg
 bugbounty: 
 meta: removed

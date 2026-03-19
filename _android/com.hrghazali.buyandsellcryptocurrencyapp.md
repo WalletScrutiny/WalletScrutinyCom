@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
 meta: removed

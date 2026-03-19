@@ -21,7 +21,6 @@ shop: https://satochip.io/shop
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin
-issue: 
 icon: satochip.png
 bugbounty: 
 meta: ok

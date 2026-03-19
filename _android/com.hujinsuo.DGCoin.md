@@ -12,7 +12,6 @@ version: 1.4.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hujinsuo.DGCoin.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.5.0_push_v2
 reviews: 6
 website: https://www.idax.exchange
 repository: 
-issue: 
 icon: com.idax.exchange.png
 bugbounty: 
 meta: removed

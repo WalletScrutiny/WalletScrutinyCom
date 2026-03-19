@@ -13,7 +13,6 @@ version: 1.37.2
 reviews: 22
 website: https://paytomat.com
 repository: 
-issue: 
 icon: com.app.paytomat.wallet.jpg
 bugbounty: 
 meta: removed

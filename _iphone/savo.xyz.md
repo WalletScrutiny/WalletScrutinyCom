@@ -12,7 +12,6 @@ version: 1.3.53
 reviews: 136
 website: 
 repository: 
-issue: 
 icon: savo.xyz.jpg
 bugbounty: 
 meta: ok

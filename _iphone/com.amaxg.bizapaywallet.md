@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 1
 website: https://iron-sturgeon-db2.notion.site/BizaPAY-Wallet-f7fa49ebb4c64eb3817fe2360b54fa6a?pvs=4
 repository: 
-issue: 
 icon: com.amaxg.bizapaywallet.jpg
 bugbounty: 
 meta: ok

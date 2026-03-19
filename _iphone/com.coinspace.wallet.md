@@ -13,7 +13,6 @@ version: 6.24.0
 reviews: 466
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
-issue: 
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 meta: ok

@@ -14,7 +14,6 @@ version: 3.1.0
 reviews: 64
 website: https://www.mathwallet.org
 repository: 
-issue: 
 icon: com.medishares.ios.pro.jpg
 bugbounty: 
 meta: removed

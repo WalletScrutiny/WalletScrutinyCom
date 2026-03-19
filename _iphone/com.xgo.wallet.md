@@ -13,7 +13,6 @@ version: 1.15.0
 reviews: 0
 website: https://xgo.com
 repository: 
-issue: 
 icon: com.xgo.wallet.jpg
 bugbounty: 
 meta: removed

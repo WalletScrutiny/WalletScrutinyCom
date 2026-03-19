@@ -20,7 +20,6 @@ shop: https://www.amazon.co.jp/dp/B08DNN7LGK
 country: JP
 price: 27000JPY
 repository: 
-issue: 
 icon: morix.png
 bugbounty: 
 meta: ok

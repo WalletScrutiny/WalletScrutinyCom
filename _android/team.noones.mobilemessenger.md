@@ -13,7 +13,6 @@ version: 1.23.7
 reviews: 146
 website: https://noones.com/
 repository: 
-issue: 
 icon: team.noones.mobilemessenger.png
 bugbounty: 
 meta: ok

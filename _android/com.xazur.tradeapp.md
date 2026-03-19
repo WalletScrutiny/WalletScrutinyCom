@@ -12,7 +12,6 @@ version: 61.6.1
 reviews: 
 website: https://xazur.digital#deadLink
 repository: 
-issue: 
 icon: com.xazur.tradeapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://www.mediatec.org
 repository: 
-issue: 
 icon: org.mediatec.coinsnex.png
 bugbounty: 
 meta: removed

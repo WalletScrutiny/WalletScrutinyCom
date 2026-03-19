@@ -13,7 +13,6 @@ version: 1.18.4
 reviews: 29
 website: https://www.liquid.com
 repository: 
-issue: 
 icon: com.quoine.liquid.production.jpg
 bugbounty: 
 meta: removed

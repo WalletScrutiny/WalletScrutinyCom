@@ -12,7 +12,6 @@ version: 1.0.7.1
 reviews: 
 website: http://www.pentasecurity.com
 repository: 
-issue: 
 icon: com.pentasecurity.pallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://duxreserve.com
 repository: 
-issue: 
 icon: duxreserve.keymanager.png
 bugbounty: 
 meta: ok

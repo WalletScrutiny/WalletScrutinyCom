@@ -13,7 +13,6 @@ version: 1.10.20
 reviews: 63
 website: https://ixfi.com
 repository: 
-issue: 
 icon: com.ixfi.png
 bugbounty: 
 meta: ok

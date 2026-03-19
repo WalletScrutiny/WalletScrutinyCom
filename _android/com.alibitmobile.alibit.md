@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 
 website: https://alibit.tech#deadLink
 repository: 
-issue: 
 icon: com.alibitmobile.alibit.jpg
 bugbounty: 
 meta: removed

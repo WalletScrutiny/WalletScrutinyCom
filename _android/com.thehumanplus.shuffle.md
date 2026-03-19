@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 
 website: https://www.hupayx.com/
 repository: 
-issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
 meta: ok

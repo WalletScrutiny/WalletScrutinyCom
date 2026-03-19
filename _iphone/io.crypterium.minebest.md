@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 0
 website: https://mydreambit.com/
 repository: 
-issue: 
 icon: io.crypterium.minebest.jpg
 bugbounty: 
 meta: stale

@@ -13,7 +13,6 @@ version: 1.0.12
 reviews: 
 website: http://www.monex.co.jp/
 repository: 
-issue: 
 icon: jp.co.monex.ms.mt_crypto.png
 bugbounty: 
 meta: ok

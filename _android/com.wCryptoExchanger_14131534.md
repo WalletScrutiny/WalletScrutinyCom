@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wCryptoExchanger_14131534.jpg
 bugbounty: 
 meta: removed

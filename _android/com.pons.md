@@ -13,7 +13,6 @@ version: 1.0.0.11
 reviews: 11
 website: http://pons.group#deadLink
 repository: 
-issue: 
 icon: com.pons.jpg
 bugbounty: 
 meta: removed

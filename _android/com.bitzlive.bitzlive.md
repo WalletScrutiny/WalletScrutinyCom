@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitzlive.com
 repository: 
-issue: 
 icon: com.bitzlive.bitzlive.png
 bugbounty: 
 meta: removed

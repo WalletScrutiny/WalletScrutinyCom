@@ -16,7 +16,6 @@ version: 0.12.5
 reviews: 36
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
-issue: 
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok

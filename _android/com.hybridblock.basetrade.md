@@ -12,7 +12,6 @@ version: '5.8'
 reviews: 
 website: https://basetrade.io#deadLink
 repository: 
-issue: 
 icon: com.hybridblock.basetrade.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.21
 reviews: 8
 website: https://www.probit.kr#deadLink
 repository: 
-issue: 
 icon: com.probit.app.android2.release.korea.png
 bugbounty: 
 meta: removed

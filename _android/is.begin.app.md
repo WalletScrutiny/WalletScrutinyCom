@@ -13,7 +13,6 @@ version: 2.5.0
 reviews: 3
 website: https://begin.is
 repository: https://github.com/BeginWallet/begin-core
-issue: 
 icon: is.begin.app.png
 bugbounty: 
 meta: ok

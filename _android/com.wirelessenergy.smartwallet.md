@@ -12,7 +12,6 @@ version: 2.16.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wirelessenergy.smartwallet.png
 bugbounty: 
 meta: ok

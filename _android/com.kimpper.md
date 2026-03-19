@@ -12,7 +12,6 @@ version: 1.1.8
 reviews: 
 website: https://www.kimpper.com#deadLink
 repository: 
-issue: 
 icon: com.kimpper.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.15.1
 reviews: 
 website: https://www.tokenomy.com
 repository: 
-issue: 
 icon: com.tokenomy.app.png
 bugbounty: 
 meta: removed

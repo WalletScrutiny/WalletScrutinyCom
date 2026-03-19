@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.tradebtccoin.com
 repository: 
-issue: 
 icon: com.tradebtccoin.png
 bugbounty: 
 meta: removed

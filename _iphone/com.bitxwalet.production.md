@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 61
 website: https://bitx-bitcoinwallet.com/privacy#deadLink
 repository: 
-issue: 
 icon: com.bitxwalet.production.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.11.12
 reviews: 88
 website: https://bynex.io/en
 repository: 
-issue: 
 icon: by.erpbel.hermes.jpg
 bugbounty: 
 meta: ok

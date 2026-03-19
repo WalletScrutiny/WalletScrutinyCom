@@ -12,7 +12,6 @@ version: 1.6.2
 reviews: 
 website: https://www.tatacoabitcoin.com/
 repository: 
-issue: 
 icon: com.tatacoabitcoin.wallet.png
 bugbounty: 
 meta: removed

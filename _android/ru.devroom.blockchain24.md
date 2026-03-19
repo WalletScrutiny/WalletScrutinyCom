@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://blockchain24.pro
 repository: 
-issue: 
 icon: ru.devroom.blockchain24.png
 bugbounty: 
 meta: obsolete

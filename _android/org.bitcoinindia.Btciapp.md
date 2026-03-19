@@ -12,7 +12,6 @@ version: 3.2.54
 reviews: 
 website: https://bitcoin-india.org/en
 repository: 
-issue: 
 icon: org.bitcoinindia.Btciapp.jpg
 bugbounty: 
 meta: ok

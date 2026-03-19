@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 
 website: https://onlinecoldwallet.com/
 repository: 
-issue: 
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
 meta: removed

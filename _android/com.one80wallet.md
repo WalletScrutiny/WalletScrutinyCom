@@ -12,7 +12,6 @@ version: 1.0.12
 reviews: 
 website: https://one80wallet.io/
 repository: 
-issue: 
 icon: com.one80wallet.png
 bugbounty: 
 meta: ok

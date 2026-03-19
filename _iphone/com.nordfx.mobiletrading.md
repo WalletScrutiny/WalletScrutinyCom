@@ -13,7 +13,6 @@ version: '15.0'
 reviews: 1
 website: https://nordfx.com/
 repository: 
-issue: 
 icon: com.nordfx.mobiletrading.jpg
 bugbounty: 
 meta: removed

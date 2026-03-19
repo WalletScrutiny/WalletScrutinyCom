@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: skill.techespo.fivestarexchange.png
 bugbounty: 
 meta: removed

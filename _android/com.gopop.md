@@ -12,7 +12,6 @@ version: 3.0.2
 reviews: 
 website: https://www.gopop.app
 repository: 
-issue: 
 icon: com.gopop.png
 bugbounty: 
 meta: obsolete

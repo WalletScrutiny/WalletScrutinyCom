@@ -13,7 +13,6 @@ version: 1.0.201
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: org.reactjs.native.example.AccruApp.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.p2exchange.ph.png
 bugbounty: 
 meta: removed

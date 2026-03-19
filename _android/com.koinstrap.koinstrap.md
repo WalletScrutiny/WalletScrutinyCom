@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 
 website: https://koinstrap.com
 repository: 
-issue: 
 icon: com.koinstrap.koinstrap.png
 bugbounty: 
 meta: ok

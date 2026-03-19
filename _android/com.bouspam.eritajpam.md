@@ -13,7 +13,6 @@ version: 3.0.2
 reviews: 22
 website: https://bousechanj.com/
 repository: 
-issue: 
 icon: com.bouspam.eritajpam.png
 bugbounty: 
 meta: ok

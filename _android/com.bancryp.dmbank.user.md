@@ -13,7 +13,6 @@ version: 1.4.5
 reviews: 
 website: https://www.dmbank.com.br
 repository: 
-issue: 
 icon: com.bancryp.dmbank.user.png
 bugbounty: 
 meta: removed

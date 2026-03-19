@@ -13,7 +13,6 @@ version: 1.3.12
 reviews: 
 website: https://acewallet.finance#deadLink
 repository: 
-issue: 
 icon: com.doubleace.wallet.png
 bugbounty: 
 meta: removed

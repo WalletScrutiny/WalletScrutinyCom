@@ -12,7 +12,6 @@ version: 0.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.usscyber.xl.png
 bugbounty: 
 meta: removed

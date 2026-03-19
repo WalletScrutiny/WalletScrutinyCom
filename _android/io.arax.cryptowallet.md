@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 156
 website: 
 repository: 
-issue: 
 icon: io.arax.cryptowallet.jpg
 bugbounty: 
 meta: removed

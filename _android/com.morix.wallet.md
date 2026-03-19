@@ -13,7 +13,6 @@ version: v2.0.11
 reviews: 
 website: https://morixjp.com/contact
 repository: 
-issue: 
 icon: com.morix.wallet.png
 bugbounty: 
 meta: removed

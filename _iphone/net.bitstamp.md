@@ -13,7 +13,6 @@ version: '4.11'
 reviews: 7220
 website: https://www.bitstamp.net/
 repository: 
-issue: 
 icon: net.bitstamp.jpg
 bugbounty: 
 meta: ok

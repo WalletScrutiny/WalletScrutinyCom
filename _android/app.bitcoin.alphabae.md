@@ -12,7 +12,6 @@ version: 1.1.34
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.bitcoin.alphabae.png
 bugbounty: 
 meta: removed

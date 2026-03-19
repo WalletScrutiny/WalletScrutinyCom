@@ -13,7 +13,6 @@ version: '2.5'
 reviews: 2
 website: https://www.fatbtc.com/
 repository: 
-issue: 
 icon: com.fatbtc.FatBTCApp.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.9.11
 reviews: 
 website: https://cryptere.com#deadLink
 repository: 
-issue: 
 icon: com.cryptere.wallet.png
 bugbounty: 
 meta: removed

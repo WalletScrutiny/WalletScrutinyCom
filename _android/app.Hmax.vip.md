@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.Hmax.vip.png
 bugbounty: 
 meta: removed

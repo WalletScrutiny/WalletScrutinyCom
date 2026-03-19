@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 45
 website: http://www.echooo.xyz
 repository: 
-issue: 
 icon: com.soundVelly.echoooLab.jpg
 bugbounty: 
 meta: removed

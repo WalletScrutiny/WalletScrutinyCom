@@ -12,7 +12,6 @@ version: 1.1.8
 reviews: 
 website: https://bfxstandard.com/
 repository: 
-issue: 
 icon: com.enigma.trading.jpg
 bugbounty: 
 meta: removed

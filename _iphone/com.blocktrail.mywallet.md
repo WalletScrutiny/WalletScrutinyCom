@@ -12,7 +12,6 @@ version: 4.4.9
 reviews: 424
 website: https://btc.com
 repository: https://github.com/blocktrail/blocktrail-wallet
-issue: 
 icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.32.2
 reviews: 19
 website: https://www.mobi.me/
 repository: 
-issue: 
 icon: com.btcc.mobiwallet.png
 bugbounty: 
 meta: removed

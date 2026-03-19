@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: http://adappterwallet.io
 repository: 
-issue: 
 icon: com.sinest.adappterwallet.png
 bugbounty: 
 meta: ok

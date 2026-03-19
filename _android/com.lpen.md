@@ -12,7 +12,6 @@ version: 1.0.1260
 reviews: 
 website: https://lpenwallet.com#deadLink
 repository: 
-issue: 
 icon: com.lpen.png
 bugbounty: 
 meta: removed

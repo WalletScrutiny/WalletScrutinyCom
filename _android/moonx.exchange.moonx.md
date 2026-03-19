@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://web.archive.org/web/20241111010507/http://moonx.pro/
 repository: 
-issue: 
 icon: moonx.exchange.moonx.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.36.3
 reviews: 68
 website: https://primexbt.com/
 repository: 
-issue: 
 icon: com.primexbt.trade.png
 bugbounty: 
 meta: ok

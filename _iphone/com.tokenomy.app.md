@@ -13,7 +13,6 @@ version: 2.16.0
 reviews: 0
 website: https://www.tokenomy.com
 repository: 
-issue: 
 icon: com.tokenomy.app.jpg
 bugbounty: 
 meta: removed

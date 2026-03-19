@@ -13,7 +13,6 @@ version: 1.28.0
 reviews: 
 website: https://watt.me
 repository: 
-issue: 
 icon: watt.wallet.png
 bugbounty: 
 meta: removed

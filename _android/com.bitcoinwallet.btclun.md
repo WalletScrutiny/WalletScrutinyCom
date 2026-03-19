@@ -13,7 +13,6 @@ version: 3.04.28
 reviews: 33
 website: https://bitefinance.net#deadLink
 repository: 
-issue: 
 icon: com.bitcoinwallet.btclun.png
 bugbounty: 
 meta: removed

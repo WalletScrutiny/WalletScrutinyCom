@@ -13,7 +13,6 @@ version: 2.7.7
 reviews: 25
 website: https://genesis.vision
 repository: https://github.com/GenesisVision/android-client
-issue: 
 icon: vision.genesis.clientapp.investor.png
 bugbounty: 
 meta: removed

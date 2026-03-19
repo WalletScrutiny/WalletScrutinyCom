@@ -14,7 +14,6 @@ version: 1.0.1281
 reviews: 19
 website: https://ptpwallet.com
 repository: 
-issue: 
 icon: com.ptpwallet.png
 bugbounty: 
 meta: removed

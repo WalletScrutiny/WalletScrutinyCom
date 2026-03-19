@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://gitlab.com/nemanjan/hwallet
-issue: 
 icon: nemanjan.hwallet.png
 bugbounty: 
 meta: obsolete

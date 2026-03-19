@@ -12,7 +12,6 @@ version: 5.3.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.chainup.exchange.BITBE.png
 bugbounty: 
 meta: removed

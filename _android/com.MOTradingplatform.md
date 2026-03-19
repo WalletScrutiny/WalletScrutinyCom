@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://web.archive.org/web/20230607060147/http://1minuteoptions.com/
 repository: 
-issue: 
 icon: com.MOTradingplatform.png
 bugbounty: 
 meta: removed

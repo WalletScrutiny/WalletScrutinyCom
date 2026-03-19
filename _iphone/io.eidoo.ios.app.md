@@ -13,7 +13,6 @@ version: 1.14.3
 reviews: 22
 website: https://eidoo.app
 repository: 
-issue: 
 icon: io.eidoo.ios.app.jpg
 bugbounty: 
 meta: removed

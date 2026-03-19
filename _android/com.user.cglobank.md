@@ -13,7 +13,6 @@ version: '16'
 reviews: 15
 website: https://cglobank.com#deadLink
 repository: 
-issue: 
 icon: com.user.cglobank.jpg
 bugbounty: 
 meta: removed

@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: xeeda.png
 bugbounty: 
 meta: ok

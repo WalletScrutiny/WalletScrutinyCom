@@ -12,7 +12,6 @@ version: 2.4.6
 reviews: 
 website: https://easyexchangepro.com/
 repository: 
-issue: 
 icon: com.application.easyexchangrpro.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '0.9'
 reviews: 
 website: http://www.coinchat.im#deadLink
 repository: 
-issue: 
 icon: com.coinchat.hdwallet.png
 bugbounty: 
 meta: removed

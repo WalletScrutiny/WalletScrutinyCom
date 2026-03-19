@@ -14,7 +14,6 @@ version: '1.2'
 reviews: 186
 website: https://iqwallet.io#deadLink
 repository: 
-issue: 
 icon: com.iqpandroidinterface.png
 bugbounty: 
 meta: removed

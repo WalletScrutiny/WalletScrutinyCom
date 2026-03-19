@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.goodx.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.1.21
 reviews: 
 website: http://www.net-cents.com
 repository: 
-issue: 
 icon: com.netcents.merchantterminal.png
 bugbounty: 
 meta: ok

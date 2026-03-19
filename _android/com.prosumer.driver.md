@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.prosumer.driver.png
 bugbounty: 
 meta: removed

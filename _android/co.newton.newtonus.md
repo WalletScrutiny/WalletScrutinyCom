@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://www.newton.co/us/support
 repository: 
-issue: 
 icon: co.newton.newtonus.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.3
 reviews: 
 website: https://brick.global
 repository: 
-issue: 
 icon: com.brick.wallet.png
 bugbounty: 
 meta: removed

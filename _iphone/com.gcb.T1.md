@@ -13,7 +13,6 @@ version: 1.69.13
 reviews: 2
 website: https://www.t1markets.com/
 repository: 
-issue: 
 icon: com.gcb.T1.jpg
 bugbounty: 
 meta: removed

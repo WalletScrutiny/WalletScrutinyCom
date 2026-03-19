@@ -12,7 +12,6 @@ version: 0.18.0
 reviews: 
 website: https://www.koyn.io#deadLink
 repository: 
-issue: 
 icon: io.koyn.com.jpg
 bugbounty: 
 meta: removed

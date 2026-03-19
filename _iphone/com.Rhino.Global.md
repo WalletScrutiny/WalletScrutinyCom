@@ -12,7 +12,6 @@ version: 2.12.11
 reviews: 20
 website: https://www.rhinobitcoin.com/
 repository: 
-issue: 
 icon: com.Rhino.Global.jpg
 bugbounty: 
 meta: ok

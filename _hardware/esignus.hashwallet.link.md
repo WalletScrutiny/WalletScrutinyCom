@@ -20,7 +20,6 @@ shop: https://shop.esignus.com/products/hashwallet-link-cobalt
 country: ES
 price: 95 USD
 repository: 
-issue: 
 icon: esignus.hashwallet.link.png
 bugbounty: 
 meta: ok

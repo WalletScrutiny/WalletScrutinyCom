@@ -13,7 +13,6 @@ version: 1.5.0
 reviews: 
 website: https://pocketbitcoin.com
 repository: 
-issue: 
 icon: com.bitkipi.png
 bugbounty: 
 meta: removed

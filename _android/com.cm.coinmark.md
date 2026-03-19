@@ -12,7 +12,6 @@ version: 1.3.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cm.coinmark.png
 bugbounty: 
 meta: removed

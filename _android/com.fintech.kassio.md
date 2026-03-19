@@ -13,7 +13,6 @@ version: 3.1.1
 reviews: 
 website: https://kassio.com
 repository: 
-issue: 
 icon: com.fintech.kassio.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.7
 reviews: 
 website: https://wapxnigeria.com/
 repository: 
-issue: 
 icon: com.wapxnigeria.wapx.png
 bugbounty: 
 meta: removed

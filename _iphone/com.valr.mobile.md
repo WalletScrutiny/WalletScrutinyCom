@@ -14,7 +14,6 @@ version: 1.1.33
 reviews: 1
 website: https://www.valr.com
 repository: 
-issue: 
 icon: com.valr.mobile.jpg
 bugbounty: 
 meta: ok

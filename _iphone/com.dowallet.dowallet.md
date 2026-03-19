@@ -13,7 +13,6 @@ version: 1.1.39
 reviews: 225
 website: https://www.dowallet.app#deadLink
 repository: 
-issue: 
 icon: com.dowallet.dowallet.jpg
 bugbounty: 
 meta: removed

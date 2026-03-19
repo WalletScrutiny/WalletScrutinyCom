@@ -13,7 +13,6 @@ version: 2.7.1
 reviews: 
 website: https://www.liquidityx.com/eu/
 repository: 
-issue: 
 icon: com.capitalsecurities.liqx.png
 bugbounty: 
 meta: removed

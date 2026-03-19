@@ -13,7 +13,6 @@ version: 3.2.3
 reviews: 5
 website: http://www.VegaWallet.com
 repository: 
-issue: 
 icon: com.vegawallet.in.png
 bugbounty: 
 meta: removed

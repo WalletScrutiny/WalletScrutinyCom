@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://xeggex.com
 repository: 
-issue: 
 icon: com.xeggex.wallet.jpg
 bugbounty: 
 meta: removed

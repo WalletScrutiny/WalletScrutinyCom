@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 6
 website: https://glamster.me
 repository: 
-issue: 
 icon: com.glamster.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptonews.bitcoin.investment.hub.jpg
 bugbounty: 
 meta: removed

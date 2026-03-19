@@ -12,7 +12,6 @@ version: 1.20-testnet
 reviews: 
 website: 
 repository: 
-issue: 
 icon: it.casatta.testnet.png
 bugbounty: 
 meta: removed

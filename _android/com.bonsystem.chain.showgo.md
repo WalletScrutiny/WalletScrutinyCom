@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bonsystem.chain.showgo.png
 bugbounty: 
 meta: removed

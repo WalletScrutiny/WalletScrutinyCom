@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: https://web.archive.org/web/20241006170009/https://www.lemoon.cash/
 repository: 
-issue: 
 icon: cash.lemoon.png
 bugbounty: 
 meta: removed

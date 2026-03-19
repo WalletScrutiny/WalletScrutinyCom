@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.makingmillionswithcrypto.bitcoin.investment.apps.jpg
 bugbounty: 
 meta: removed

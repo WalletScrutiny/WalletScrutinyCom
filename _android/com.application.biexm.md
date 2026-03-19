@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://biexm.com/
 repository: 
-issue: 
 icon: com.application.biexm.png
 bugbounty: 
 meta: removed

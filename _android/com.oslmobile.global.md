@@ -13,7 +13,6 @@ version: 1.10.7
 reviews: 
 website: https://osl.com
 repository: 
-issue: 
 icon: com.oslmobile.global.png
 bugbounty: 
 meta: ok

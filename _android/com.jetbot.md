@@ -12,7 +12,6 @@ version: '1.19'
 reviews: 
 website: https://jetbot.live#deadLink
 repository: 
-issue: 
 icon: com.jetbot.png
 bugbounty: 
 meta: removed

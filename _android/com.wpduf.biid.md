@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wpduf.biid.png
 bugbounty: 
 meta: removed

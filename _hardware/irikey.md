@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: irikey.png
 bugbounty: 
 meta: defunct

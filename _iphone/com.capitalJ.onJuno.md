@@ -13,7 +13,6 @@ version: 4.3.0
 reviews: 1010
 website: https://juno.finance
 repository: 
-issue: 
 icon: com.capitalJ.onJuno.jpg
 bugbounty: 
 meta: removed

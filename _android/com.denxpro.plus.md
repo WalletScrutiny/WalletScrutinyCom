@@ -12,7 +12,6 @@ version: 1.6.4
 reviews: 
 website: https://goldexplus.com#deadLink
 repository: 
-issue: 
 icon: com.denxpro.plus.png
 bugbounty: 
 meta: removed

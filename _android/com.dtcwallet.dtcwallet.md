@@ -12,7 +12,6 @@ version: 1.9.20
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.dtcwallet.dtcwallet.png
 bugbounty: 
 meta: removed

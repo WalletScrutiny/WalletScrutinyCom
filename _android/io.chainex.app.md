@@ -13,7 +13,6 @@ version: 2.1.39
 reviews: 
 website: https://chainex.io/
 repository: 
-issue: 
 icon: io.chainex.app.png
 bugbounty: 
 meta: ok

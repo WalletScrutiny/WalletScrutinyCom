@@ -13,7 +13,6 @@ version: 9.1.8
 reviews: 146517
 website: https://coinswitch.co
 repository: 
-issue: 
 icon: com.coinswitch.kuber.png
 bugbounty: 
 meta: ok

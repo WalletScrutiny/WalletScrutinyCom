@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://justbit.in#deadLink
 repository: 
-issue: 
 icon: com.app.justbit.jpg
 bugbounty: 
 meta: removed

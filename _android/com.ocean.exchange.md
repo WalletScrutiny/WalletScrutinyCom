@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 15
 website: https://oceanex.pro
 repository: 
-issue: 
 icon: com.ocean.exchange.png
 bugbounty: 
 meta: removed

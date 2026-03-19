@@ -13,7 +13,6 @@ version: 1.2.5.1
 reviews: 9
 website: https://coinbaazar.com
 repository: 
-issue: 
 icon: com.coinbaazarDistribution.jpg
 bugbounty: 
 meta: obsolete

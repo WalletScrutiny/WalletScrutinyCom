@@ -13,7 +13,6 @@ version: 1.0.15
 reviews: 
 website: https://expo.biz/
 repository: 
-issue: 
 icon: com.expo.wallet.png
 bugbounty: 
 meta: removed

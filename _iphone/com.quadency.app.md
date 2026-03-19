@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 24
 website: https://quadency.com
 repository: 
-issue: 
 icon: com.quadency.app.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://www.tmebit.co.kr#deadLink
 repository: 
-issue: 
 icon: com.tmebit.exchange.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 7.0.4
 reviews: 23
 website: 
 repository: 
-issue: 
 icon: com.uni.uniwallet.png
 bugbounty: 
 meta: removed

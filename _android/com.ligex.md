@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://ligex.exchange#deadLink
 repository: 
-issue: 
 icon: com.ligex.png
 bugbounty: 
 meta: removed

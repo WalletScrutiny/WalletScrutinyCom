@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.gbpay.cc/et#deadLink
 repository: 
-issue: 
 icon: com.gbsystems.gbpayappsafe.png
 bugbounty: 
 meta: removed

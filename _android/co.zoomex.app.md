@@ -13,7 +13,6 @@ version: 3.11.7
 reviews: 39
 website: 
 repository: 
-issue: 
 icon: co.zoomex.app.png
 bugbounty: 
 meta: ok

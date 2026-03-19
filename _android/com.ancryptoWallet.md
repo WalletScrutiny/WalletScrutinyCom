@@ -13,7 +13,6 @@ version: 1.53.0
 reviews: 30
 website: https://gemspocket.com/
 repository: 
-issue: 
 icon: com.ancryptoWallet.png
 bugbounty: 
 meta: ok

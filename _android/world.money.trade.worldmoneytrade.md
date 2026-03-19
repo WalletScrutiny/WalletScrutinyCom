@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 
 website: https://worldmoneytrade.com#deadLink
 repository: 
-issue: 
 icon: world.money.trade.worldmoneytrade.png
 bugbounty: 
 meta: removed

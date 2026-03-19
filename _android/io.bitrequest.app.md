@@ -12,7 +12,6 @@ version: 1.6.1
 reviews: 
 website: https://www.bitrequest.io
 repository: 
-issue: 
 icon: io.bitrequest.app.png
 bugbounty: 
 meta: ok

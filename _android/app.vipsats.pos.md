@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://vipsats.app
 repository: 
-issue: 
 icon: app.vipsats.pos.png
 bugbounty: 
 meta: removed

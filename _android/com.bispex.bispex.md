@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: https://www.bispex.com/
 repository: 
-issue: 
 icon: com.bispex.bispex.png
 bugbounty: 
 meta: removed

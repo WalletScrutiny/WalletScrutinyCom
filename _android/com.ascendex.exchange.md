@@ -13,7 +13,6 @@ version: 3.7.0
 reviews: 76
 website: https://www.ascendex.com/
 repository: 
-issue: 
 icon: com.ascendex.exchange.png
 bugbounty: 
 meta: ok

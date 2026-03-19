@@ -14,7 +14,6 @@ version: 5.9.0
 reviews: 28
 website: https://keys.casa
 repository: 
-issue: 
 icon: casa.keymaster.png
 bugbounty: 
 meta: ok

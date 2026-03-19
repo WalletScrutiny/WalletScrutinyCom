@@ -13,7 +13,6 @@ version: 2.4.8
 reviews: 6
 website: https://arzypto.com
 repository: 
-issue: 
 icon: com.arzypto.my.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.hccapital.hcinv.png
 bugbounty: 
 meta: removed

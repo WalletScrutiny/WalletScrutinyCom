@@ -20,7 +20,6 @@ shop: https://secuxtech.com/products/secux-w20c-plus#deadLink
 country: TW
 price: 119USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: 
 icon: secuxw20cplus.png
 bugbounty: 
 meta: ok

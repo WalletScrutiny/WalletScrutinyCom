@@ -13,7 +13,6 @@ version: '1.23'
 reviews: 2
 website: https://simplehold.io/
 repository: 
-issue: 
 icon: com.simplehold.app.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.12
 reviews: 36
 website: https://hodlit.com
 repository: 
-issue: 
 icon: com.savechange.hodlit.png
 bugbounty: 
 meta: removed

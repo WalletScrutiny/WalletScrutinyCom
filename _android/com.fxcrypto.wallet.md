@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 
 website: https://forexrobottraders.com/
 repository: 
-issue: 
 icon: com.fxcrypto.wallet.png
 bugbounty: 
 meta: removed

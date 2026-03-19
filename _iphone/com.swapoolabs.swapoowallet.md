@@ -13,7 +13,6 @@ version: 1.45.30
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.swapoolabs.swapoowallet.jpg
 bugbounty: 
 meta: removed

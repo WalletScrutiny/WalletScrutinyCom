@@ -12,7 +12,6 @@ version: '0.18'
 reviews: 
 website: http://www.orillia.be
 repository: 
-issue: 
 icon: orillia.com.orilliamerchantapp.png
 bugbounty: 
 meta: removed

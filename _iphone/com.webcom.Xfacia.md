@@ -13,7 +13,6 @@ version: '4.1'
 reviews: 0
 website: https://xfacia.com/
 repository: 
-issue: 
 icon: com.webcom.Xfacia.jpg
 bugbounty: 
 meta: removed

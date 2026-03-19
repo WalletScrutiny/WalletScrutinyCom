@@ -12,7 +12,6 @@ version: 2.19.0
 reviews: 3
 website: https://vault.coinex.com
 repository: 
-issue: 
 icon: com.coinex.vault.jpg
 bugbounty: 
 meta: ok

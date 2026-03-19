@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://lightxwallet.io#deadLink
 repository: 
-issue: 
 icon: com.lightx.wallet.png
 bugbounty: 
 meta: removed

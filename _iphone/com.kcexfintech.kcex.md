@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 2568
 website: 
 repository: 
-issue: 
 icon: com.kcexfintech.kcex.jpg
 bugbounty: 
 meta: ok

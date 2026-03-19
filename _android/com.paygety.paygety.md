@@ -12,7 +12,6 @@ version: 1.5.5
 reviews: 
 website: https://paygety.com#deadLink
 repository: 
-issue: 
 icon: com.paygety.paygety.png
 bugbounty: 
 meta: removed

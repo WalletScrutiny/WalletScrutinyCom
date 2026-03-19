@@ -12,7 +12,6 @@ version: 0.3.2
 reviews: 
 website: https://satodime.io/
 repository: 
-issue: 
 icon: org.satochip.satodimeapp.png
 bugbounty: 
 meta: stale

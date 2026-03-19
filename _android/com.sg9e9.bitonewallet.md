@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sg9e9.bitonewallet.png
 bugbounty: 
 meta: removed

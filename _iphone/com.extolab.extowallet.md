@@ -13,7 +13,6 @@ version: 1.6.4
 reviews: 0
 website: https://extowallet.com
 repository: 
-issue: 
 icon: com.extolab.extowallet.jpg
 bugbounty: 
 meta: removed

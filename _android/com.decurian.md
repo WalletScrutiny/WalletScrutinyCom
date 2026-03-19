@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 18
 website: https://decurian.com#deadLink
 repository: 
-issue: 
 icon: com.decurian.jpg
 bugbounty: 
 meta: removed

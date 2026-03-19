@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://hermesus.com
 repository: 
-issue: 
 icon: com.hermesus.android.png
 bugbounty: 
 meta: removed

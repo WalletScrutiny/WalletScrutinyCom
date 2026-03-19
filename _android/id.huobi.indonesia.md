@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 
 website: http://www.huobi.com.co
 repository: 
-issue: 
 icon: id.huobi.indonesia.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: chby.ru.png
 bugbounty: 
 meta: removed

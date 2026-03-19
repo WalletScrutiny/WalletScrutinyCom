@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: http://inout-blockchain-fiatexchanger.demo.inoutscripts.net
 repository: 
-issue: 
 icon: net.inoutscripts.demo.inoutblockchainfiatexchanger.png
 bugbounty: 
 meta: removed

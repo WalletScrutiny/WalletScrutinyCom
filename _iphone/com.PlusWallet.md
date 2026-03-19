@@ -13,7 +13,6 @@ version: '3.12'
 reviews: 36
 website: 
 repository: 
-issue: 
 icon: com.PlusWallet.jpg
 bugbounty: 
 meta: ok

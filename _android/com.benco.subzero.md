@@ -12,7 +12,6 @@ version: 1.5.5
 reviews: 
 website: https://subzeropay.com#deadLink
 repository: 
-issue: 
 icon: com.benco.subzero.png
 bugbounty: 
 meta: removed

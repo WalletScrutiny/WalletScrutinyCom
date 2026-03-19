@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 179
 website: 
 repository: 
-issue: 
 icon: com.tbws1.app.jpg
 bugbounty: 
 meta: removed

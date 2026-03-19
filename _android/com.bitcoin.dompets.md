@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.bitcoin.dompets.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 51
 website: 
 repository: 
-issue: 
 icon: com.nhgames.pwc.barcodereader.png
 bugbounty: 
 meta: removed

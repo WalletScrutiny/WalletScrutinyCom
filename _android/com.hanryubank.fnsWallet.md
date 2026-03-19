@@ -13,7 +13,6 @@ version: 2.1.2
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.hanryubank.fnsWallet.png
 bugbounty: 
 meta: removed

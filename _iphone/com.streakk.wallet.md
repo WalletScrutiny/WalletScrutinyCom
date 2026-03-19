@@ -13,7 +13,6 @@ version: '2.6'
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.streakk.wallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.35
 reviews: 12
 website: https://chain.com
 repository: 
-issue: 
 icon: com.chainwallet.app.png
 bugbounty: 
 meta: removed

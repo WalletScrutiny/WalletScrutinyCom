@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: http://www.saveure.com
 repository: 
-issue: 
 icon: com.gyliewallet.app.png
 bugbounty: 
 meta: removed

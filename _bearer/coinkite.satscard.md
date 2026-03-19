@@ -20,7 +20,6 @@ shop: https://store.coinkite.com/store/satscard
 country: CA
 price: 6.99 USD
 repository: 
-issue: 
 icon: coinkite.satscard.png
 bugbounty: 
 meta: ok

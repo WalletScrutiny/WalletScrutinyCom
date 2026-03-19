@@ -13,7 +13,6 @@ version: 1.25.0
 reviews: 18
 website: https://blog.naver.com/flybit
 repository: 
-issue: 
 icon: com.koreadigit.flybit.jpg
 bugbounty: 
 meta: ok

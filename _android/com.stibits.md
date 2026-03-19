@@ -13,7 +13,6 @@ version: 0.16BETA
 reviews: 3
 website: https://stibits.com
 repository: 
-issue: 
 icon: com.stibits.png
 bugbounty: 
 meta: removed

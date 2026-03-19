@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 31
 website: https://zap.africa
 repository: 
-issue: 
 icon: com.zapapp.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://www.q9capital.com
 repository: 
-issue: 
 icon: com.q9.capital.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.15.0
 reviews: 
 website: https://www.okasan-online.co.jp/
 repository: 
-issue: 
 icon: jp.co.okasan_online.okasanonline.crypto.prd.png
 bugbounty: 
 meta: removed

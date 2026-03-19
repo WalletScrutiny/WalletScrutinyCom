@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 13
 website: https://www.bitamp.com
 repository: 
-issue: 
 icon: com.bitamp.mobile.png
 bugbounty: 
 meta: removed

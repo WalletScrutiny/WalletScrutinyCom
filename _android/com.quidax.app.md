@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 1584
 website: https://www.quidax.com
 repository: 
-issue: 
 icon: com.quidax.app.png
 bugbounty: 
 meta: removed

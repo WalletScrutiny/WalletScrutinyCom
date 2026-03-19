@@ -12,7 +12,6 @@ version: 1.1.11
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.onpie.mobile.wallet.png
 bugbounty: 
 meta: removed

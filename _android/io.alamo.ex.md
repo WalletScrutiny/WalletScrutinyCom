@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://www.alamotrading.io/
 repository: 
-issue: 
 icon: io.alamo.ex.jpg
 bugbounty: 
 meta: removed

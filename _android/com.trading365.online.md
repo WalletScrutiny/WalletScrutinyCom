@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trading365.online.png
 bugbounty: 
 meta: removed

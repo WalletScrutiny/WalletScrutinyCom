@@ -13,7 +13,6 @@ version: 6.11.0
 reviews: 
 website: https://coinmerce.io/
 repository: 
-issue: 
 icon: io.coinmerce.app.png
 bugbounty: 
 meta: ok

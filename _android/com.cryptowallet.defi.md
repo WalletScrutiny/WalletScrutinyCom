@@ -12,7 +12,6 @@ version: 0.21.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptowallet.defi.png
 bugbounty: 
 meta: removed

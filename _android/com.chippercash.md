@@ -14,7 +14,6 @@ version: 1.147.0
 reviews: 3247
 website: https://chippercash.com
 repository: 
-issue: 
 icon: com.chippercash.png
 bugbounty: 
 meta: ok

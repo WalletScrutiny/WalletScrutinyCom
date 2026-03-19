@@ -13,7 +13,6 @@ version: 0.76.3
 reviews: 1113
 website: https://www.leapwallet.io/mobile
 repository: 
-issue: 
 icon: com.LeapCosmosWallet.jpg
 bugbounty: 
 meta: ok

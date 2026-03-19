@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 
 website: https://www.b4uglobal.com
 repository: 
-issue: 
 icon: com.b4uglobal.app.png
 bugbounty: 
 meta: removed

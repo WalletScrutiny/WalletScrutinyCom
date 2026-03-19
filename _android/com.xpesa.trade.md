@@ -13,7 +13,6 @@ version: 2.1.6
 reviews: 
 website: https://xpesa.io/
 repository: 
-issue: 
 icon: com.xpesa.trade.jpg
 bugbounty: 
 meta: removed

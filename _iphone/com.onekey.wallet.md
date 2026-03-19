@@ -14,7 +14,6 @@ version: 2.12.2
 reviews: 18
 website: https://www.onekey.so
 repository: 
-issue: 
 icon: com.onekey.wallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.imtrx.dhou.png
 bugbounty: 
 meta: removed

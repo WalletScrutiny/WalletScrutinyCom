@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://spendthebits.com/
 repository: 
-issue: 
 icon: com.bitcon.png
 bugbounty: 
 meta: ok

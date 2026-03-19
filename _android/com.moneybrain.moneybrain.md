@@ -13,7 +13,6 @@ version: 3.14.0-retail
 reviews: 
 website: https://www.moneybrain.com
 repository: 
-issue: 
 icon: com.moneybrain.moneybrain.png
 bugbounty: 
 meta: ok

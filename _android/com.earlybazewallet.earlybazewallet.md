@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: http://eazyblaze.com#deadLink
 repository: 
-issue: 
 icon: com.earlybazewallet.earlybazewallet.png
 bugbounty: 
 meta: removed

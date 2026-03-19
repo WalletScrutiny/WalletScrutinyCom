@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://cryptorobotics.co
 repository: 
-issue: 
 icon: net.cryptorobotics.app.png
 bugbounty: 
 meta: removed

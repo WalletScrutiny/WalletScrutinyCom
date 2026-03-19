@@ -13,7 +13,6 @@ version: '6.7'
 reviews: 2
 website: https://betconix.com/
 repository: 
-issue: 
 icon: com.betconix.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0-R
 reviews: 
 website: https://131t.kr#deadLink
 repository: 
-issue: 
 icon: kr.co.a131t.png
 bugbounty: 
 meta: removed

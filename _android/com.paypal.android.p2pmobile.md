@@ -14,7 +14,6 @@ version: 8.101.0
 reviews: 433961
 website: https://www.paypal.com/mobile
 repository: 
-issue: 
 icon: com.paypal.android.p2pmobile.png
 bugbounty: 
 meta: ok

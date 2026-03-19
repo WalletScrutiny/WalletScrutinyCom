@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 
 website: http://seadex.io#deadLink
 repository: 
-issue: 
 icon: com.seadex.seadex.png
 bugbounty: 
 meta: removed

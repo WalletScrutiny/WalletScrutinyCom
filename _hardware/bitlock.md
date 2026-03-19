@@ -20,7 +20,6 @@ shop:
 country: SG
 price: 79USD
 repository: 
-issue: 
 icon: bitlock.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.12.3
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: wirebit.digital.app.jpg
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://bullionblock.ltd
 repository: 
-issue: 
 icon: com.chat.bullionblock.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.0.52
 reviews: 
 website: https://www.teroxx.com/
 repository: 
-issue: 
 icon: com.teroxx.png
 bugbounty: 
 meta: ok

@@ -21,7 +21,6 @@ shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S#deadLink
 country: CH
 price: 3280CNY
 repository: 
-issue: 
 icon: bepalpros.png
 bugbounty: 
 meta: defunct

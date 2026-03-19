@@ -13,7 +13,6 @@ version: 1.13.0
 reviews: 
 website: http://www.colover.com/
 repository: 
-issue: 
 icon: com.colover.coin.png
 bugbounty: 
 meta: removed

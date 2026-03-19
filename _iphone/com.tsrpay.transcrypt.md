@@ -13,7 +13,6 @@ version: 2.09.3
 reviews: 23
 website: https://tizer.io#deadLink
 repository: 
-issue: 
 icon: com.tsrpay.transcrypt.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.49.1
 reviews: 7
 website: https://exchanger101.com
 repository: 
-issue: 
 icon: com.exchanger101.app.png
 bugbounty: 
 meta: ok

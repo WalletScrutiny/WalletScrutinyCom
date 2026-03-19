@@ -13,7 +13,6 @@ version: 5.5.2_push_v2
 reviews: 
 website: https://fuzionx.io
 repository: 
-issue: 
 icon: com.chainup.exchange.Zenith.jpg
 bugbounty: 
 meta: removed

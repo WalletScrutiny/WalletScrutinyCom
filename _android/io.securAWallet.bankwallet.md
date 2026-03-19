@@ -12,7 +12,6 @@ version: 0.26.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.securAWallet.bankwallet.png
 bugbounty: 
 meta: removed

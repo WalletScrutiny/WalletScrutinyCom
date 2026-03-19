@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://icte.io#deadLink
 repository: 
-issue: 
 icon: com.icte.io.jpg
 bugbounty: 
 meta: removed

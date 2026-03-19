@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://dartafrica.io
 repository: 
-issue: 
 icon: com.dartafrica.png
 bugbounty: 
 meta: removed

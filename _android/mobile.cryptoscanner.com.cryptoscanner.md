@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 3
 website: http://foxmedia.ag#deadLink
 repository: 
-issue: 
 icon: mobile.cryptoscanner.com.cryptoscanner.png
 bugbounty: 
 meta: removed

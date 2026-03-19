@@ -12,7 +12,6 @@ version: 0.0.4
 reviews: 
 website: https://www.tobases.com#deadLink
 repository: 
-issue: 
 icon: com.australia.tobase.jpg
 bugbounty: 
 meta: removed

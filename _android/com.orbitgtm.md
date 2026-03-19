@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 
 website: http://orbitgt-m.com#deadLink
 repository: 
-issue: 
 icon: com.orbitgtm.png
 bugbounty: 
 meta: removed

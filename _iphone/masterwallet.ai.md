@@ -13,7 +13,6 @@ version: 2.2.4
 reviews: 0
 website: https://masterwallet.ai/
 repository: 
-issue: 
 icon: masterwallet.ai.jpg
 bugbounty: 
 meta: removed

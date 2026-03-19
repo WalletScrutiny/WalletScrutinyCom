@@ -13,7 +13,6 @@ version: 1.3.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.habi.bitone.in.png
 bugbounty: 
 meta: removed

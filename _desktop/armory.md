@@ -12,7 +12,6 @@ provider: Armory Technologies
 providerWebsite: 
 website: https://www.bitcoinarmory.com
 repository: https://github.com/goatpig/BitcoinArmory
-issue: 
 icon: armory.png
 bugbounty: 
 meta: obsolete

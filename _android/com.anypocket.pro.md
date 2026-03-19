@@ -12,7 +12,6 @@ version: Beta1.0.7
 reviews: 
 website: http://anypocket.io#deadLink
 repository: 
-issue: 
 icon: com.anypocket.pro.png
 bugbounty: 
 meta: removed

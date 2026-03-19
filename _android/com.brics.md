@@ -13,7 +13,6 @@ version: 0.0.10
 reviews: 
 website: https://www.brics-pay.com/BRICS-Pay-Retail
 repository: 
-issue: 
 icon: com.brics.png
 bugbounty: 
 meta: ok

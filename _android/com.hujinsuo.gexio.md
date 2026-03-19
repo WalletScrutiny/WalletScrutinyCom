@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.hujinsuo.gexio.png
 bugbounty: 
 meta: removed

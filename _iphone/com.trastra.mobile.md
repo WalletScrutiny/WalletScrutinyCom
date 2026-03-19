@@ -13,7 +13,6 @@ version: 5.0.9
 reviews: 2
 website: https://mobile-app.trastra.com/
 repository: 
-issue: 
 icon: com.trastra.mobile.jpg
 bugbounty: 
 meta: stale

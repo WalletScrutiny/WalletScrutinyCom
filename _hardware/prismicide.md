@@ -20,7 +20,6 @@ shop: https://www.indiegogo.com/projects/prismicide-world-s-most-secure-bitcoin-
 country: FR
 price: 
 repository: 
-issue: 
 icon: prismicide.png
 bugbounty: 
 meta: defunct

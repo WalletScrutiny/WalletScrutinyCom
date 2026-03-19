@@ -17,7 +17,6 @@ shop:
 country: KR
 price: 
 repository: 
-issue: 
 icon: pentasecurity.walletcard.png
 bugbounty: 
 meta: ok

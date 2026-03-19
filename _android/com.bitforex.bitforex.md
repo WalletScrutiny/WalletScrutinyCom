@@ -13,7 +13,6 @@ version: 3.5.5
 reviews: 44
 website: https://www.bitforex.com
 repository: 
-issue: 
 icon: com.bitforex.bitforex.png
 bugbounty: 
 meta: removed

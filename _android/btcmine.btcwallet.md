@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: btcmine.btcwallet.png
 bugbounty: 
 meta: removed

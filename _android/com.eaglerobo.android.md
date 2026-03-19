@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: http://eaglerobo.com
 repository: 
-issue: 
 icon: com.eaglerobo.android.png
 bugbounty: 
 meta: removed

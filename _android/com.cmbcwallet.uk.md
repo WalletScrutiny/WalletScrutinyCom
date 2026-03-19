@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: https://www.cmbcwallet.uk#deadLink
 repository: 
-issue: 
 icon: com.cmbcwallet.uk.png
 bugbounty: 
 meta: removed

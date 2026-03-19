@@ -13,7 +13,6 @@ version: 1.1.24
 reviews: 
 website: http://www.worldexchange.life#deadLink
 repository: 
-issue: 
 icon: com.exchangeworld.app.png
 bugbounty: 
 meta: removed

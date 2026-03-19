@@ -13,7 +13,6 @@ version: 1.4.0.1582
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.zbpro.global.png
 bugbounty: 
 meta: removed

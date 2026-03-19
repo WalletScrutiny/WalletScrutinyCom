@@ -13,7 +13,6 @@ version: 4.10.1
 reviews: 972
 website: https://bitso.com/app
 repository: 
-issue: 
 icon: com.bitso.wallet.jpg
 bugbounty: 
 meta: ok

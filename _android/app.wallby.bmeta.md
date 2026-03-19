@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.wallby.bmeta.png
 bugbounty: 
 meta: obsolete

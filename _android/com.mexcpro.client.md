@@ -13,7 +13,6 @@ version: 6.47.0
 reviews: 2763
 website: https://www.mexc.com
 repository: 
-issue: 
 icon: com.mexcpro.client.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sinohope.pro.png
 bugbounty: 
 meta: ok

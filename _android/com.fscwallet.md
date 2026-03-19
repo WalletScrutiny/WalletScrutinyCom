@@ -13,7 +13,6 @@ version: 4.0.2
 reviews: 
 website: https://www.fsdex.io/
 repository: 
-issue: 
 icon: com.fscwallet.png
 bugbounty: 
 meta: removed

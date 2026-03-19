@@ -17,7 +17,6 @@ shop:
 country: FR
 price: 12€
 repository: 
-issue: 
 icon: goochaincitadelle.png
 bugbounty: 
 meta: ok

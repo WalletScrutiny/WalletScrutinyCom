@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://www.millycrypto.com#deadLink
 repository: 
-issue: 
 icon: com.ideal.studio.milly_crypto.png
 bugbounty: 
 meta: removed

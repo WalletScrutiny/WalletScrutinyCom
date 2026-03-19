@@ -13,7 +13,6 @@ version: 4.0.6
 reviews: 
 website: https://tux-wallet.com/
 repository: 
-issue: 
 icon: io.tux.wallet.png
 bugbounty: 
 meta: ok

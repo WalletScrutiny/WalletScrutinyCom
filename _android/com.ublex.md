@@ -12,7 +12,6 @@ version: 0.0.8
 reviews: 
 website: https://www.ublex.com/
 repository: 
-issue: 
 icon: com.ublex.png
 bugbounty: 
 meta: removed

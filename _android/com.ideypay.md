@@ -13,7 +13,6 @@ version: 1.0.69
 reviews: 7
 website: https://ideypay.com
 repository: 
-issue: 
 icon: com.ideypay.png
 bugbounty: 
 meta: removed

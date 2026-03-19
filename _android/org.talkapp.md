@@ -13,7 +13,6 @@ version: 3.2.0
 reviews: 
 website: https://talkapp.org
 repository: 
-issue: 
 icon: org.talkapp.png
 bugbounty: 
 meta: ok

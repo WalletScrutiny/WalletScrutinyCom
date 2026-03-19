@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: https://bigines.com
 repository: 
-issue: 
 icon: com.bigines.crypto.png
 bugbounty: 
 meta: removed

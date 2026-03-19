@@ -12,7 +12,6 @@ version: 1.3.6
 reviews: 3
 website: https://pine.pm
 repository: 
-issue: 
 icon: se.blockfirm.Pine.jpg
 bugbounty: 
 meta: obsolete

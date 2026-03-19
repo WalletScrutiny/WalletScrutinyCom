@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.onlybit.wallet.png
 bugbounty: 
 meta: removed

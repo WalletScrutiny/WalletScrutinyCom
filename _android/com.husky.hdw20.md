@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://www.huskywallet.com/
 repository: 
-issue: 
 icon: com.husky.hdw20.png
 bugbounty: 
 meta: removed

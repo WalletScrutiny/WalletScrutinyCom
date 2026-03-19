@@ -13,7 +13,6 @@ version: 2.10.2
 reviews: 163
 website: https://ari10.com/exchange
 repository: 
-issue: 
 icon: com.ari10.bitcan.jpg
 bugbounty: 
 meta: ok

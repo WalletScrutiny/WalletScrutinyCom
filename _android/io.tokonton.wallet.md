@@ -12,7 +12,6 @@ version: 0.16.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.tokonton.wallet.png
 bugbounty: 
 meta: removed

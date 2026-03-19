@@ -13,7 +13,6 @@ version: 3.12.13
 reviews: 10
 website: https://tapswap.io
 repository: 
-issue: 
 icon: io.ts.converter.png
 bugbounty: 
 meta: ok

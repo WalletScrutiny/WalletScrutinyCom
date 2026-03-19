@@ -13,7 +13,6 @@ version: '8.4'
 reviews: 0
 website: https://www.bcpmarkets.co.uk/
 repository: 
-issue: 
 icon: com.cashin.store.jpg
 bugbounty: 
 meta: ok

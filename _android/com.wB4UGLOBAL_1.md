@@ -12,7 +12,6 @@ version: 1.2.92
 reviews: 
 website: https://s4782b2ec.app-ads-txt.com
 repository: 
-issue: 
 icon: com.wB4UGLOBAL_1.png
 bugbounty: 
 meta: removed

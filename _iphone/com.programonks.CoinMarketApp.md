@@ -13,7 +13,6 @@ version: 16.0.3
 reviews: 619
 website: https://www.dopamineapp.com/
 repository: 
-issue: 
 icon: com.programonks.CoinMarketApp.jpg
 bugbounty: 
 meta: ok

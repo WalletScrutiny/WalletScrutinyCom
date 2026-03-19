@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 1
 website: https://nexdax.com/
 repository: 
-issue: 
 icon: com.nexdax.Nexdax.jpg
 bugbounty: 
 meta: obsolete

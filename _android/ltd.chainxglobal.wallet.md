@@ -12,7 +12,6 @@ version: 1.0.93
 reviews: 
 website: https://chainxglobal.ltd
 repository: 
-issue: 
 icon: ltd.chainxglobal.wallet.png
 bugbounty: 
 meta: ok

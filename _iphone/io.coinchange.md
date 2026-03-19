@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 40
 website: https://www.coinchange.io
 repository: 
-issue: 
 icon: io.coinchange.jpg
 bugbounty: 
 meta: obsolete

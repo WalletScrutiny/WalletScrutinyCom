@@ -13,7 +13,6 @@ version: 3.0.18
 reviews: 10
 website: https://www.bitsacard.com
 repository: 
-issue: 
 icon: com.bitsacard.BitsaApp.png
 bugbounty: 
 meta: ok

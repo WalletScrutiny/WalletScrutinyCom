@@ -13,7 +13,6 @@ version: prod-1.18.7
 reviews: 
 website: https://easycrypto.com/
 repository: 
-issue: 
 icon: com.octopass.app.png
 bugbounty: 
 meta: deprecated

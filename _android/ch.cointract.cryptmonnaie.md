@@ -12,7 +12,6 @@ version: 2.0.28
 reviews: 
 website: https://cointract.ch
 repository: 
-issue: 
 icon: ch.cointract.cryptmonnaie.png
 bugbounty: 
 meta: removed

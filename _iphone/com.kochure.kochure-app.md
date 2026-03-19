@@ -13,7 +13,6 @@ version: 1.1.6
 reviews: 237
 website: 
 repository: 
-issue: 
 icon: com.kochure.kochure-app.jpg
 bugbounty: 
 meta: stale

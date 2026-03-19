@@ -13,7 +13,6 @@ version: 0.0.96
 reviews: 8
 website: https://openwallet.finance/
 repository: 
-issue: 
 icon: com.finverselabs.openwallet.png
 bugbounty: 
 meta: ok

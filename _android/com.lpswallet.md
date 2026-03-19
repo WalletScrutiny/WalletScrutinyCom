@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://www.lpschain.com
 repository: 
-issue: 
 icon: com.lpswallet.png
 bugbounty: 
 meta: removed

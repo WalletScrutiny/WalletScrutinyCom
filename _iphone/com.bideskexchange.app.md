@@ -13,7 +13,6 @@ version: 3.1.2
 reviews: 12
 website: https://www.bidesk.com/
 repository: 
-issue: 
 icon: com.bideskexchange.app.jpg
 bugbounty: 
 meta: removed

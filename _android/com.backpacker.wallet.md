@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://wallet.backpackercoin.com/
 repository: 
-issue: 
 icon: com.backpacker.wallet.png
 bugbounty: 
 meta: removed

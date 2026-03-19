@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 
 website: http://nextgenius.com.au
 repository: 
-issue: 
 icon: com.nextgenius.wallet.png
 bugbounty: 
 meta: removed

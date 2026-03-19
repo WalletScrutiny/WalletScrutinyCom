@@ -12,7 +12,6 @@ version: 1.1.7
 reviews: 
 website: https://deus.finance
 repository: 
-issue: 
 icon: finance.deus.deus_mobile.png
 bugbounty: 
 meta: removed

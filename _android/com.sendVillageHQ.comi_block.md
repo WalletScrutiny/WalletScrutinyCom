@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: https://comiblock.com#deadLink
 repository: 
-issue: 
 icon: com.sendVillageHQ.comi_block.png
 bugbounty: 
 meta: removed

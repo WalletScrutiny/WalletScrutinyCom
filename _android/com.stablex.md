@@ -13,7 +13,6 @@ version: 3.0.47
 reviews: 
 website: https://stablex.com.tr
 repository: 
-issue: 
 icon: com.stablex.png
 bugbounty: 
 meta: ok

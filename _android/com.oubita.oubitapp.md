@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://www.oubita.com
 repository: 
-issue: 
 icon: com.oubita.oubitapp.png
 bugbounty: 
 meta: removed

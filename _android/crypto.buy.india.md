@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: crypto.buy.india.jpg
 bugbounty: 
 meta: removed

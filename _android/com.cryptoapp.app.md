@@ -12,7 +12,6 @@ version: 1.1.b
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptoapp.app.png
 bugbounty: 
 meta: removed

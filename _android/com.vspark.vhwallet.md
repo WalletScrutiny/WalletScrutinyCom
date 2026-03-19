@@ -13,7 +13,6 @@ version: 6.4.13
 reviews: 
 website: http://vspark.co
 repository: 
-issue: 
 icon: com.vspark.vhwallet.png
 bugbounty: 
 meta: removed

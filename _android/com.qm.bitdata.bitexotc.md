@@ -13,7 +13,6 @@ version: 1.8.6
 reviews: 
 website: https://www.bitex.sg/
 repository: 
-issue: 
 icon: com.qm.bitdata.bitexotc.png
 bugbounty: 
 meta: removed

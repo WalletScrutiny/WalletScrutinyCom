@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: bitmain.safeprime.png
 bugbounty: 
 meta: defunct

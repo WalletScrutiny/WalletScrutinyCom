@@ -12,7 +12,6 @@ version: 0.10.0
 reviews: 
 website: https://q8ecoin.com
 repository: 
-issue: 
 icon: io.q8ecoin.bankwallet.png
 bugbounty: 
 meta: removed

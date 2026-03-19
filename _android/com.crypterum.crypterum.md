@@ -13,7 +13,6 @@ version: 0.1.13
 reviews: 
 website: https://crypterum.com#deadLink
 repository: 
-issue: 
 icon: com.crypterum.crypterum.png
 bugbounty: 
 meta: removed

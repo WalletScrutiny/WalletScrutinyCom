@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.maarcodev.dormantbitcoin.png
 bugbounty: 
 meta: removed

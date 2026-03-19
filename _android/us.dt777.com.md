@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: us.dt777.com.png
 bugbounty: 
 meta: removed

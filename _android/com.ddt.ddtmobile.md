@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 
 website: https://www.ddtwallet.com#deadLink
 repository: 
-issue: 
 icon: com.ddt.ddtmobile.png
 bugbounty: 
 meta: removed

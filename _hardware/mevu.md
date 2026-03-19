@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: mevu.png
 bugbounty: 
 meta: ok

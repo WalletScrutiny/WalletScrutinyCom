@@ -12,7 +12,6 @@ version: '2.3'
 reviews: 7
 website: http://www.veroxai.io
 repository: 
-issue: 
 icon: com.veroxai.jpg
 bugbounty: 
 meta: removed

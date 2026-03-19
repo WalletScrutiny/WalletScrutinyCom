@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 36
 website: https://flarewallet.io
 repository: 
-issue: 
 icon: org.flarewallet.flare.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.23
 reviews: 
 website: https://xsats.com
 repository: 
-issue: 
 icon: com.xsats.xsatsag.png
 bugbounty: 
 meta: removed

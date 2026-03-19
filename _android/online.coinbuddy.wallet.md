@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: http://coinbuddy.online#deadLink
 repository: 
-issue: 
 icon: online.coinbuddy.wallet.png
 bugbounty: 
 meta: removed

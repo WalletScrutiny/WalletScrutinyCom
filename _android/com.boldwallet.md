@@ -12,7 +12,6 @@ version: 3.0.1
 reviews: 
 website: https://boldbitcoinwallet.com
 repository: 
-issue: 
 icon: com.boldwallet.png
 bugbounty: 
 meta: ok

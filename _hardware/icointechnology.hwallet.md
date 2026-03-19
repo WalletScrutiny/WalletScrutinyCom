@@ -17,7 +17,6 @@ shop: https://www.icointechnology.store#deadLink
 country: US
 price: 199USD
 repository: 
-issue: 
 icon: icointechnology.hwallet.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 22
 website: https://exonyx.ir#deadLink
 repository: 
-issue: 
 icon: com.exonyxapp.trader.png
 bugbounty: 
 meta: removed

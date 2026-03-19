@@ -13,7 +13,6 @@ version: '1.12'
 reviews: 50
 website: http://firstdaotrust.com#deadLink
 repository: 
-issue: 
 icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
 meta: removed

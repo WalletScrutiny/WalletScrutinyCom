@@ -12,7 +12,6 @@ version: 2.11.2
 reviews: 1
 website: http://amber.app/
 repository: 
-issue: 
 icon: app.amber.v2.jpg
 bugbounty: 
 meta: ok

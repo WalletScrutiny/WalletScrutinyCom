@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://biteclipse.com/query
 repository: 
-issue: 
 icon: com.tdtc.vtrade.biteclipse.png
 bugbounty: 
 meta: removed

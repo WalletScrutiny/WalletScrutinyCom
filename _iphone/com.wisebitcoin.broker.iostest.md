@@ -13,7 +13,6 @@ version: 3.9.0
 reviews: 0
 website: https://web.archive.org/web/20231201135609/https://www.wisebitcoin.com:443/
 repository: 
-issue: 
 icon: com.wisebitcoin.broker.iostest.jpg
 bugbounty: 
 meta: removed

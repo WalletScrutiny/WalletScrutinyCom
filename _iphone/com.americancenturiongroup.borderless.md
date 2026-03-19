@@ -13,7 +13,6 @@ version: '1.17'
 reviews: 10
 website: https://overline.network
 repository: 
-issue: 
 icon: com.americancenturiongroup.borderless.jpg
 bugbounty: 
 meta: removed

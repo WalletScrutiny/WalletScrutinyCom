@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://lyonxchange.com#deadLink
 repository: 
-issue: 
 icon: com.app.lyonxchange.jpg
 bugbounty: 
 meta: removed

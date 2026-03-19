@@ -13,7 +13,6 @@ version: 1.5.4
 reviews: 0
 website: https://oceanex.pro/
 repository: 
-issue: 
 icon: pro.oceanex.exapp.jpg
 bugbounty: 
 meta: obsolete

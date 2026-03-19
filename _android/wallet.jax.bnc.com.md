@@ -14,7 +14,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: wallet.jax.bnc.com.png
 bugbounty: 
 meta: removed

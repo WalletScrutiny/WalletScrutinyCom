@@ -12,7 +12,6 @@ version: 1.6.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hyerdesign.diver.wallet.png
 bugbounty: 
 meta: removed

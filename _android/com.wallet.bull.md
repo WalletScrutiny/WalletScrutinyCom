@@ -13,7 +13,6 @@ version: 1.4.1-947
 reviews: 28
 website: https://bullcoin.finance/
 repository: 
-issue: 
 icon: com.wallet.bull.png
 bugbounty: 
 meta: removed

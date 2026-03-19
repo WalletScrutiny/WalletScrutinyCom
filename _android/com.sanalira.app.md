@@ -13,7 +13,6 @@ version: 1.0.32
 reviews: 
 website: https://www.sanalira.com
 repository: 
-issue: 
 icon: com.sanalira.app.png
 bugbounty: 
 meta: removed

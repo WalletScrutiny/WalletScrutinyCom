@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 
 website: https://www.nakitcoins.com#deadLink
 repository: 
-issue: 
 icon: com.nakitcoins.wallet.png
 bugbounty: 
 meta: removed

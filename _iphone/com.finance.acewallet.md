@@ -13,7 +13,6 @@ version: 1.3.12
 reviews: 0
 website: https://acewallet.finance#deadLink
 repository: 
-issue: 
 icon: com.finance.acewallet.jpg
 bugbounty: 
 meta: removed

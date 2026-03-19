@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 23
 website: http://einstein.exchange
 repository: 
-issue: 
 icon: exchange.einstein.mobile.release.png
 bugbounty: 
 meta: removed

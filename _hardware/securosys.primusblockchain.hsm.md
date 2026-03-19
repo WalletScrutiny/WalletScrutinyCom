@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
 icon: securosys.primusblockchain.hsm.png
 bugbounty: 
 meta: ok

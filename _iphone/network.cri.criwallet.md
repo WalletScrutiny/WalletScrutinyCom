@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 14
 website: https://cos-in.com/
 repository: 
-issue: 
 icon: network.cri.criwallet.jpg
 bugbounty: 
 meta: removed

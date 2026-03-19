@@ -12,7 +12,6 @@ version: 1.3.3
 reviews: 15
 website: 
 repository: 
-issue: 
 icon: com.rsk.rwallet.reactnative.png
 bugbounty: 
 meta: removed

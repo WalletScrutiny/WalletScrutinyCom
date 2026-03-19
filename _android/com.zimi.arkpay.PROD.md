@@ -13,7 +13,6 @@ version: 2.15.0
 reviews: 
 website: https://www.arkpay.site/
 repository: 
-issue: 
 icon: com.zimi.arkpay.PROD.png
 bugbounty: 
 meta: removed

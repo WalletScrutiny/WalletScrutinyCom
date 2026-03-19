@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 1
 website: https://www.youtube.com/watch?v=62iDBVDlhIU
 repository: 
-issue: 
 icon: com.bitfortip.bitfortipapp.jpg
 bugbounty: 
 meta: removed

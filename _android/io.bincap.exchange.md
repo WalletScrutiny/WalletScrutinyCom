@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://bincap.io
 repository: 
-issue: 
 icon: io.bincap.exchange.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptoidlemine.invest.on.bitcoin.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://wellswallet.com#deadLink
 repository: 
-issue: 
 icon: com.wellswallet.wells.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 84
 website: https://coinflip.tech/
 repository: 
-issue: 
 icon: tech.coinflip.png
 bugbounty: 
 meta: ok

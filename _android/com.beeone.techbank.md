@@ -13,7 +13,6 @@ version: 4.9.11
 reviews: 43
 website: https://techbank.finance/
 repository: 
-issue: 
 icon: com.beeone.techbank.png
 bugbounty: 
 meta: removed

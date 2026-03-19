@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.vxxl.wallet.png
 bugbounty: 
 meta: removed

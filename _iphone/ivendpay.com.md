@@ -13,7 +13,6 @@ version: 3.0.1
 reviews: 0
 website: https://ivpay.io
 repository: 
-issue: 
 icon: ivendpay.com.jpg
 bugbounty: 
 meta: stale

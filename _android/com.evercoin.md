@@ -13,7 +13,6 @@ version: 2.8.8
 reviews: 59
 website: https://evercoin.com#deadLink
 repository: 
-issue: 
 icon: com.evercoin.png
 bugbounty: 
 meta: removed

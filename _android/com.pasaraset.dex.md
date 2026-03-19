@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://pasaraset.com
 repository: 
-issue: 
 icon: com.pasaraset.dex.png
 bugbounty: 
 meta: removed

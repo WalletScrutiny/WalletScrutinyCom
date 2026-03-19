@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.paradise.finance.png
 bugbounty: 
 meta: removed

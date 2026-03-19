@@ -13,7 +13,6 @@ version: 0.117.0
 reviews: 19
 website: https://www.finbloxapp.com/
 repository: 
-issue: 
 icon: com.finbloxapp.finblox.jpg
 bugbounty: 
 meta: removed

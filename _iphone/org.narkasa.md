@@ -13,7 +13,6 @@ version: '1.27'
 reviews: 0
 website: https://narkasa.com#deadLink
 repository: 
-issue: 
 icon: org.narkasa.jpg
 bugbounty: 
 meta: removed

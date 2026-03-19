@@ -13,7 +13,6 @@ version: 4.10.0
 reviews: 2949
 website: https://www.ellipal.com/
 repository: 
-issue: 
 icon: com.Ellipal.Ellipal.jpg
 bugbounty: 
 meta: ok

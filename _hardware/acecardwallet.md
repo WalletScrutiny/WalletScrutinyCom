@@ -20,7 +20,6 @@ shop:
 country: SK
 price: 
 repository: 
-issue: 
 icon: acecardwallet.png
 bugbounty: 
 meta: ok

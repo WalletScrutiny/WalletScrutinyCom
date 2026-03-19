@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 
 website: http://conglex.com
 repository: 
-issue: 
 icon: com.conglex.conglex.png
 bugbounty: 
 meta: ok

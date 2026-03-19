@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 
 website: https://exchaino.com
 repository: 
-issue: 
 icon: com.xchaino.png
 bugbounty: 
 meta: removed

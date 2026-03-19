@@ -13,7 +13,6 @@ version: 2.15.3
 reviews: 21
 website: https://skyewallet.com
 repository: 
-issue: 
 icon: com.skyewallet.skye_wallet.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ provider: Decentral Inc.
 providerWebsite: 
 website: https://jaxx.io/
 repository: 
-issue: 
 icon: jaxxliberty.png
 bugbounty: 
 meta: defunct

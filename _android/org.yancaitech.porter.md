@@ -12,7 +12,6 @@ version: V0.2.1
 reviews: 
 website: https://github.com/yancaitech
 repository: 
-issue: 
 icon: org.yancaitech.porter.png
 bugbounty: 
 meta: removed

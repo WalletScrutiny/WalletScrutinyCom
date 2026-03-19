@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://exchange.tradingtoken.io#deadLink
 repository: 
-issue: 
 icon: com.trading.token_app.png
 bugbounty: 
 meta: removed

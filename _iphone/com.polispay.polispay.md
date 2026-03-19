@@ -13,7 +13,6 @@ version: 8.9.3
 reviews: 7
 website: https://www.polispay.com#deadLink
 repository: 
-issue: 
 icon: com.polispay.polispay.jpg
 bugbounty: 
 meta: removed

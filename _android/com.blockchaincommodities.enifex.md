@@ -12,7 +12,6 @@ version: 1.4.1
 reviews: 
 website: https://enifex.com/
 repository: 
-issue: 
 icon: com.blockchaincommodities.enifex.png
 bugbounty: 
 meta: ok

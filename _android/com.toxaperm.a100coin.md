@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://100coin.ru
 repository: 
-issue: 
 icon: com.toxaperm.a100coin.jpg
 bugbounty: 
 meta: removed

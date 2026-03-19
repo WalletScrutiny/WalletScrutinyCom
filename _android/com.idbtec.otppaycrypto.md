@@ -13,7 +13,6 @@ version: '1.21'
 reviews: 4
 website: https://www.otppay.com
 repository: 
-issue: 
 icon: com.idbtec.otppaycrypto.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://coinstradecenter.com#deadLink
 repository: 
-issue: 
 icon: com.coinstradecenter.android.jpg
 bugbounty: 
 meta: removed

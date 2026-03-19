@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.shiftshape.app.png
 bugbounty: 
 meta: removed

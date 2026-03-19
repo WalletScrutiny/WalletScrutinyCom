@@ -13,7 +13,6 @@ version: v1.36.1
 reviews: 278
 website: 
 repository: 
-issue: 
 icon: com.maxbit.app.jpg
 bugbounty: 
 meta: ok

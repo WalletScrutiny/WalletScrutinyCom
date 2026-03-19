@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: https://investxe.com
 repository: 
-issue: 
 icon: com.pandats.investxe.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.0.57
 reviews: 
 website: https://www.quickx.io#deadLink
 repository: 
-issue: 
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
 meta: removed

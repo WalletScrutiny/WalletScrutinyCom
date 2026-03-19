@@ -12,7 +12,6 @@ version: '1.20'
 reviews: 
 website: https://scarlettglobal.io
 repository: 
-issue: 
 icon: com.espsoft.ScarlettInvest.png
 bugbounty: 
 meta: removed

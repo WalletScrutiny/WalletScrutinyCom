@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: http://spowide.com
 repository: 
-issue: 
 icon: com.spowide.www.png
 bugbounty: 
 meta: removed

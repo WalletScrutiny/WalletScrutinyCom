@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
 bugbounty: 
 meta: removed

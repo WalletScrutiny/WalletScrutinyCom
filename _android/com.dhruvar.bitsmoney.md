@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: http://bitsmoney.co#deadLink
 repository: 
-issue: 
 icon: com.dhruvar.bitsmoney.png
 bugbounty: 
 meta: removed

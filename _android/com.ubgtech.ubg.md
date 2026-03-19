@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://ubgtech.my#deadLink
 repository: 
-issue: 
 icon: com.ubgtech.ubg.png
 bugbounty: 
 meta: removed

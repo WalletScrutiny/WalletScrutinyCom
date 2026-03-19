@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.troyin.com/
 repository: 
-issue: 
 icon: com.troyintr.app.jpg
 bugbounty: 
 meta: removed

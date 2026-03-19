@@ -13,7 +13,6 @@ version: 4.4.0
 reviews: 1
 website: http://www.devere-crypto.com
 repository: 
-issue: 
 icon: com.devere.dcx.png
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 2.4.46
 reviews: 39
 website: https://web.archive.org/web/20250916230349/http://vision-crypto.com/
 repository: 
-issue: 
 icon: com.visionsoftware.vision.jpg
 bugbounty: 
 meta: removed

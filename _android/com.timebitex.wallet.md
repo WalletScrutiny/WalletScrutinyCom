@@ -12,7 +12,6 @@ version: 3.2.0
 reviews: 
 website: https://timebitex.com/
 repository: 
-issue: 
 icon: com.timebitex.wallet.png
 bugbounty: 
 meta: removed

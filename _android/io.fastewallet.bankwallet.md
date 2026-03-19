@@ -13,7 +13,6 @@ version: 0.26.4
 reviews: 
 website: http://crypto.fastewallet.com#deadLink
 repository: 
-issue: 
 icon: io.fastewallet.bankwallet.png
 bugbounty: 
 meta: removed

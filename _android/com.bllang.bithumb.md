@@ -12,7 +12,6 @@ version: 1.3.13
 reviews: 15
 website: 
 repository: 
-issue: 
 icon: com.bllang.bithumb.png
 bugbounty: 
 meta: removed

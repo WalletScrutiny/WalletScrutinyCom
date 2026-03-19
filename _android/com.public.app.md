@@ -13,7 +13,6 @@ version: 3.236.0
 reviews: 9374
 website: https://public.com
 repository: 
-issue: 
 icon: com.public.app.png
 bugbounty: 
 meta: ok

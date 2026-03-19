@@ -13,7 +13,6 @@ version: 2.0.59
 reviews: 
 website: https://www.corex.mn/
 repository: 
-issue: 
 icon: mn.ailab.corex.png
 bugbounty: 
 meta: ok

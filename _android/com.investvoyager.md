@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 8249
 website: https://www.investvoyager.com/
 repository: 
-issue: 
 icon: com.investvoyager.png
 bugbounty: 
 meta: removed

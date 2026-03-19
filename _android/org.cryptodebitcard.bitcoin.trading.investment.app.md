@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptodebitcard.bitcoin.trading.investment.app.jpg
 bugbounty: 
 meta: removed

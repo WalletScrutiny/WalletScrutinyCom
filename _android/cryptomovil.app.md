@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://cryptomovil.app#deadLink
 repository: 
-issue: 
 icon: cryptomovil.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://mikodes.com
 repository: 
-issue: 
 icon: com.mikodes.cryptowallerlite.png
 bugbounty: 
 meta: removed

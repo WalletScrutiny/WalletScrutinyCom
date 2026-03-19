@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 15
 website: https://tidex.com/
 repository: 
-issue: 
 icon: com.tidex.exchange.app.jpg
 bugbounty: 
 meta: removed

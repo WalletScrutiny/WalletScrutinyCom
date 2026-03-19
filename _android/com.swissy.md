@@ -13,7 +13,6 @@ version: '3.3'
 reviews: 9
 website: https://swissy.io/
 repository: 
-issue: 
 icon: com.swissy.jpg
 bugbounty: 
 meta: removed

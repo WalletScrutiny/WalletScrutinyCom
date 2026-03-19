@@ -13,7 +13,6 @@ version: 1.2.7
 reviews: 1
 website: http://www.cpay.finance/
 repository: 
-issue: 
 icon: com.ljkj.blockpay.png
 bugbounty: 
 meta: removed

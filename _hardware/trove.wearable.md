@@ -17,7 +17,6 @@ shop:
 country: GB
 price: 
 repository: 
-issue: 
 icon: trove.wearable.png
 bugbounty: 
 meta: obsolete

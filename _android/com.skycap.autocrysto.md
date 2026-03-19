@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://autocrysto.trade#deadLink
 repository: 
-issue: 
 icon: com.skycap.autocrysto.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.4.0
 reviews: 116
 website: 
 repository: 
-issue: 
 icon: xyz.lava.mobile.jpg
 bugbounty: 
 meta: ok

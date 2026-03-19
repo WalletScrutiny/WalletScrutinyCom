@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: https://pixelplex.io/
 repository: 
-issue: 
 icon: io.ccview.wallet.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 0.8.6.3
 reviews: 
 website: https://tokenbacon.com
 repository: 
-issue: 
 icon: com.tokenbacon.TokenBaconApp.jpg
 bugbounty: 
 meta: removed

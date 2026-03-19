@@ -13,7 +13,6 @@ version: '5.4'
 reviews: 15
 website: 
 repository: 
-issue: 
 icon: com.app.Inocyx.jpg
 bugbounty: 
 meta: ok

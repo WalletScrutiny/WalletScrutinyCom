@@ -17,7 +17,6 @@ shop:
 country: RU
 price: 99EUR
 repository: 
-issue: 
 icon: coinplace.coinphone.png
 bugbounty: 
 meta: ok

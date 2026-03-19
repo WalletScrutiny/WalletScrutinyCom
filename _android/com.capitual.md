@@ -13,7 +13,6 @@ version: 3.44.6
 reviews: 6
 website: https://capitual.com
 repository: 
-issue: 
 icon: com.capitual.png
 bugbounty: 
 meta: removed

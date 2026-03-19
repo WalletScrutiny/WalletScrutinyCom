@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ahyoxsoft.elite.png
 bugbounty: 
 meta: removed

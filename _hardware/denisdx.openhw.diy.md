@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/DenisDx/openHW
-issue: 
 icon: denisdx.openhw.diy.png
 bugbounty: 
 meta: obsolete

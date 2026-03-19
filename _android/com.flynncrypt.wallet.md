@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: http://flynncrypt.com#deadLink
 repository: 
-issue: 
 icon: com.flynncrypt.wallet.png
 bugbounty: 
 meta: removed

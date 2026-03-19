@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.vercel.buy_btc_kohl.twa.jpg
 bugbounty: 
 meta: removed

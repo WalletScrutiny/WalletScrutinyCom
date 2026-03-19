@@ -13,7 +13,6 @@ version: 2.5.7
 reviews: 22
 website: http://bitcoinkeeper.app
 repository: https://github.com/bithyve/bitcoin-keeper
-issue: 
 icon: io.hexawallet.keeper.jpg
 bugbounty: 
 meta: ok

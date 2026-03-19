@@ -13,7 +13,6 @@ version: 1.0.3200
 reviews: 
 website: https://www.cybavo.com/
 repository: 
-issue: 
 icon: com.cybavo.btc.wallet.png
 bugbounty: 
 meta: removed

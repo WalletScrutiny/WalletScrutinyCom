@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://distwallet.com#deadLink
 repository: 
-issue: 
 icon: com.distwallet.app.png
 bugbounty: 
 meta: removed

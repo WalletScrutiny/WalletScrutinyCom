@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 25
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoincircuitapp.png
 bugbounty: 
 meta: removed

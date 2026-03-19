@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hrai.android.png
 bugbounty: 
 meta: removed

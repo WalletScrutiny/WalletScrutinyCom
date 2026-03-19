@@ -13,7 +13,6 @@ version: '3.09'
 reviews: 129
 website: https://www.spend.com
 repository: 
-issue: 
 icon: com.spend.app.png
 bugbounty: 
 meta: removed

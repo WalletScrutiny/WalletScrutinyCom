@@ -13,7 +13,6 @@ version: 80.0.0
 reviews: 
 website: https://yusetoken.io/
 repository: 
-issue: 
 icon: com.yuse.wallet.jpg
 bugbounty: 
 meta: ok

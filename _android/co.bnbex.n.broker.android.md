@@ -12,7 +12,6 @@ version: 3.9.3
 reviews: 
 website: https://www.bnbex.co#deadLink
 repository: 
-issue: 
 icon: co.bnbex.n.broker.android.png
 bugbounty: 
 meta: removed

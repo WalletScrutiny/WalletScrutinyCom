@@ -12,7 +12,6 @@ version: 1.2.9
 reviews: 
 website: https://www.definnpay.com#deadLink
 repository: 
-issue: 
 icon: com.definnpay.business.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://www.digitide.us/bittide#deadLink
 repository: 
-issue: 
 icon: com.bittide.png
 bugbounty: 
 meta: removed

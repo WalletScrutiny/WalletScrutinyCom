@@ -13,7 +13,6 @@ version: '5.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.drbtb.btbmatcoinbuerqi.png
 bugbounty: 
 meta: removed

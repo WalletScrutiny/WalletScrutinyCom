@@ -13,7 +13,6 @@ version: 8.64.4
 reviews: 540
 website: https://km.iqoption.com/en
 repository: 
-issue: 
 icon: com.iqoption.jpg
 bugbounty: 
 meta: ok

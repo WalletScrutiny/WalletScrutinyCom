@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://globalswift.net
 repository: 
-issue: 
 icon: net.globalswift.png
 bugbounty: 
 meta: removed

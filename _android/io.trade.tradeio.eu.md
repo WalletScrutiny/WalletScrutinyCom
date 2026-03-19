@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 6
 website: http://trade.io#deadLink
 repository: 
-issue: 
 icon: io.trade.tradeio.eu.png
 bugbounty: 
 meta: removed

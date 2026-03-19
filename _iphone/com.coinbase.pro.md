@@ -13,7 +13,6 @@ version: 1.0.104
 reviews: 173326
 website: https://pro.coinbase.com
 repository: 
-issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
 meta: removed

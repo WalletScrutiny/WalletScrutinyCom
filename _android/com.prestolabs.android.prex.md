@@ -13,7 +13,6 @@ version: 3.9.103
 reviews: 75
 website: https://flipster.io
 repository: 
-issue: 
 icon: com.prestolabs.android.prex.png
 bugbounty: 
 meta: ok

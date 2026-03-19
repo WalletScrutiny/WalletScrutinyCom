@@ -12,7 +12,6 @@ version: '2.6'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: singular.defi.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://www.fujidon.io#deadLink
 repository: 
-issue: 
 icon: io.fujidon.android.png
 bugbounty: 
 meta: removed

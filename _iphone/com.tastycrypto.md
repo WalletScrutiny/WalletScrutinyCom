@@ -13,7 +13,6 @@ version: 0.4.26
 reviews: 20
 website: https://www.tastycrypto.com/
 repository: 
-issue: 
 icon: com.tastycrypto.jpg
 bugbounty: 
 meta: ok

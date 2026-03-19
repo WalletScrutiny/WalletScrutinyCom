@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 
 website: https://futuretradelink.com/
 repository: 
-issue: 
 icon: com.futuretradelink.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.7
 reviews: 1261
 website: https://www.bitwells.com
 repository: 
-issue: 
 icon: com.bitwells.android.png
 bugbounty: 
 meta: removed

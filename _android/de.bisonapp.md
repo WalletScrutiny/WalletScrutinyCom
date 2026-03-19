@@ -13,7 +13,6 @@ version: 4.28.0
 reviews: 2
 website: https://bisonapp.com
 repository: 
-issue: 
 icon: de.bisonapp.png
 bugbounty: 
 meta: ok

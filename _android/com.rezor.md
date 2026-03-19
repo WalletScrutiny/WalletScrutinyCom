@@ -13,7 +13,6 @@ version: '1'
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: com.rezor.png
 bugbounty: 
 meta: ok

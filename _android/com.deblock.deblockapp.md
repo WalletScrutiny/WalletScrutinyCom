@@ -13,7 +13,6 @@ version: 5.2.1
 reviews: 11
 website: https://deblock.com/
 repository: 
-issue: 
 icon: com.deblock.deblockapp.png
 bugbounty: 
 meta: ok

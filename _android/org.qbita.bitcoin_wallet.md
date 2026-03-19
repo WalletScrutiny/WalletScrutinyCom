@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 11
 website: https://qbita.org
 repository: 
-issue: 
 icon: org.qbita.bitcoin_wallet.png
 bugbounty: 
 meta: obsolete

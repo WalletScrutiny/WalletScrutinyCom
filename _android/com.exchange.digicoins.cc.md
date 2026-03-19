@@ -12,7 +12,6 @@ version: 3.5.43
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.exchange.digicoins.cc.jpg
 bugbounty: 
 meta: removed

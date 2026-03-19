@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 6.2.74
 reviews: 1572
 website: https://www.unocoin.com
 repository: 
-issue: 
 icon: com.unocoin.mainapp.production.jpg
 bugbounty: 
 meta: ok

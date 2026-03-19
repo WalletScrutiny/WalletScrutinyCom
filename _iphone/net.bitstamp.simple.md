@@ -13,7 +13,6 @@ version: '1.9'
 reviews: 262
 website: https://www.bitstamp.net/
 repository: 
-issue: 
 icon: net.bitstamp.simple.jpg
 bugbounty: 
 meta: removed

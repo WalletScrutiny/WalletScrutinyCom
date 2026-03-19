@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.app.traderzspace_cryptoexchange.png
 bugbounty: 
 meta: removed

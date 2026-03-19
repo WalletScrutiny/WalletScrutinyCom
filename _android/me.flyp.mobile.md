@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://flyp.me
 repository: 
-issue: 
 icon: me.flyp.mobile.png
 bugbounty: 
 meta: removed

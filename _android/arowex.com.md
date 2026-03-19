@@ -12,7 +12,6 @@ version: 0.0.0.1
 reviews: 
 website: https://www.arowex.com#deadLink
 repository: 
-issue: 
 icon: arowex.com.png
 bugbounty: 
 meta: removed

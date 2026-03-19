@@ -12,7 +12,6 @@ version: '5.12'
 reviews: 275
 website: https://suncrypto.in
 repository: 
-issue: 
 icon: com.suncrypto.in.png
 bugbounty: 
 meta: ok

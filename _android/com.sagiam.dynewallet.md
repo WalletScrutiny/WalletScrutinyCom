@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sagiam.dynewallet.png
 bugbounty: 
 meta: ok

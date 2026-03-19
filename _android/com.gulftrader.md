@@ -13,7 +13,6 @@ version: 3.0.8
 reviews: 
 website: https://www.gulftrader.com
 repository: 
-issue: 
 icon: com.gulftrader.png
 bugbounty: 
 meta: removed

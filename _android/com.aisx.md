@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://ais-ex.com#deadLink
 repository: 
-issue: 
 icon: com.aisx.png
 bugbounty: 
 meta: removed

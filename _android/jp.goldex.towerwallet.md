@@ -13,7 +13,6 @@ version: 3.3.35
 reviews: 
 website: https://www.goldex.jp#deadLink
 repository: 
-issue: 
 icon: jp.goldex.towerwallet.png
 bugbounty: 
 meta: removed

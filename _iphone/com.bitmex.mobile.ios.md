@@ -13,7 +13,6 @@ version: 1.1.13
 reviews: 
 website: https://BitMEX.com/mobile
 repository: 
-issue: 
 icon: com.bitmex.mobile.ios.jpg
 bugbounty: 
 meta: removed

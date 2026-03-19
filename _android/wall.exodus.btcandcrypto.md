@@ -14,7 +14,6 @@ version: '6.045'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: wall.exodus.btcandcrypto.png
 bugbounty: 
 meta: removed

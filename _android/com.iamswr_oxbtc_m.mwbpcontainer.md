@@ -13,7 +13,6 @@ version: 1.3.8
 reviews: 9
 website: https://www.oxbtc.com
 repository: 
-issue: 
 icon: com.iamswr_oxbtc_m.mwbpcontainer.png
 bugbounty: 
 meta: removed

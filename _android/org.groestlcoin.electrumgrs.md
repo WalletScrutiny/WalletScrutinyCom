@@ -12,7 +12,6 @@ version: 4.5.8
 reviews: 
 website: https://groestlcoin.org
 repository: 
-issue: 
 icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
 meta: ok

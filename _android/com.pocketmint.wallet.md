@@ -13,7 +13,6 @@ version: 1.9.0
 reviews: 8
 website: http://pocketmint.ai
 repository: 
-issue: 
 icon: com.pocketmint.wallet.png
 bugbounty: 
 meta: ok

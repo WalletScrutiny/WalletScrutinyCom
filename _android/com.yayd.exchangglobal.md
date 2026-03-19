@@ -13,7 +13,6 @@ version: 7.30.2
 reviews: 50
 website: 
 repository: 
-issue: 
 icon: com.yayd.exchangglobal.png
 bugbounty: 
 meta: removed

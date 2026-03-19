@@ -12,7 +12,6 @@ version: '1.020180512'
 reviews: 
 website: https://www.excoinge.com#deadLink
 repository: 
-issue: 
 icon: excoinge.excoinge.png
 bugbounty: 
 meta: removed

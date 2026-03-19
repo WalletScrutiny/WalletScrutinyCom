@@ -13,7 +13,6 @@ version: 1.5.2
 reviews: 16
 website: https://www.liteforex.com
 repository: 
-issue: 
 icon: com.ittrendex.liteforex.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.hashfinanciero.com#deadLink
 repository: 
-issue: 
 icon: com.hashfinanciero.prod.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://ownrwallet.com
 repository: 
-issue: 
 icon: ownrwallet.png
 bugbounty: 
 meta: ok

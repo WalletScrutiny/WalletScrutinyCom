@@ -13,7 +13,6 @@ version: 1.16.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.argotrade.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.7.4
 reviews: 843
 website: https://coinbox.org
 repository: 
-issue: 
 icon: com.polehin.android.png
 bugbounty: 
 meta: removed

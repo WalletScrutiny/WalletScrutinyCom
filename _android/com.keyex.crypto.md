@@ -12,7 +12,6 @@ version: 1.3.64
 reviews: 
 website: https://www.keyex.com.tr#deadLink
 repository: 
-issue: 
 icon: com.keyex.crypto.png
 bugbounty: 
 meta: removed

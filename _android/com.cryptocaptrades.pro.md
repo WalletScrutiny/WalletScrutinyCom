@@ -12,7 +12,6 @@ version: 1.0.2.210816
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptocaptrades.pro.png
 bugbounty: 
 meta: removed

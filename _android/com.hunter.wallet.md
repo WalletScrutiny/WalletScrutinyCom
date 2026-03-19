@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 
 website: http://www.hunter-wallet.com
 repository: 
-issue: 
 icon: com.hunter.wallet.png
 bugbounty: 
 meta: removed

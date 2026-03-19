@@ -13,7 +13,6 @@ version: '20.04'
 reviews: 233
 website: 
 repository: 
-issue: 
 icon: com.strikeXWallet.jpg
 bugbounty: 
 meta: ok

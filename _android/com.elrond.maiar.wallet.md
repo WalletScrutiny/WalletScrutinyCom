@@ -13,7 +13,6 @@ version: 2.92.1 (2964)
 reviews: 408
 website: https://xportal.com/
 repository: 
-issue: 
 icon: com.elrond.maiar.wallet.png
 bugbounty: 
 meta: ok

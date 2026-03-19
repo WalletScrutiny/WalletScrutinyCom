@@ -13,7 +13,6 @@ version: 3.177.0
 reviews: 8525
 website: https://www.skrill.com/
 repository: 
-issue: 
 icon: com.skrill.ios.SkrillPayments.jpg
 bugbounty: 
 meta: ok

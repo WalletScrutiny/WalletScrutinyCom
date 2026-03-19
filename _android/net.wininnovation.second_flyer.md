@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://wininnovation.net
 repository: 
-issue: 
 icon: net.wininnovation.second_flyer.png
 bugbounty: 
 meta: removed

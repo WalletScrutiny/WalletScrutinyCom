@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://ldvbank.com
 repository: 
-issue: 
 icon: ldvbank_test.ldvbank_test.png
 bugbounty: 
 meta: removed

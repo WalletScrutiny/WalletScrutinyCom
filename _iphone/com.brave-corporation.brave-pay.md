@@ -13,7 +13,6 @@ version: 1.7.1
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.brave-corporation.brave-pay.jpg
 bugbounty: 
 meta: removed

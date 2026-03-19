@@ -12,7 +12,6 @@ version: 7.0.3(1)
 reviews: 
 website: https://www.ainvestments.com/
 repository: 
-issue: 
 icon: com.esos.ainvestments.png
 bugbounty: 
 meta: removed

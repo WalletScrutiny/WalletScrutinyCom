@@ -13,7 +13,6 @@ version: 2.5.6
 reviews: 15
 website: https://boundlesspay.com
 repository: 
-issue: 
 icon: com.bitfxt.boundlesspay.png
 bugbounty: 
 meta: ok

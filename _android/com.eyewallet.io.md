@@ -13,7 +13,6 @@ version: 4.5.7
 reviews: 
 website: https://eyewallet.com
 repository: 
-issue: 
 icon: com.eyewallet.io.jpg
 bugbounty: 
 meta: removed

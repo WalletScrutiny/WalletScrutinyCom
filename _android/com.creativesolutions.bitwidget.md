@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.creativesolutions.bitwidget.png
 bugbounty: 
 meta: removed

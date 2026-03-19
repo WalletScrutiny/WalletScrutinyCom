@@ -13,7 +13,6 @@ version: '50'
 reviews: 20
 website: https://gemspocket.com
 repository: 
-issue: 
 icon: com.antiersolutions.Ancrypto.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.3.7
 reviews: 
 website: https://alterdice.com
 repository: 
-issue: 
 icon: com.alterdice.android.png
 bugbounty: 
 meta: removed

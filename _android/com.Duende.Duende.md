@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://duende.me
 repository: 
-issue: 
 icon: com.Duende.Duende.png
 bugbounty: 
 meta: removed

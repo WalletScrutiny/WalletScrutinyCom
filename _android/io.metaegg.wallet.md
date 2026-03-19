@@ -13,7 +13,6 @@ version: 0.1.2
 reviews: 1
 website: https://metaegg.io
 repository: 
-issue: 
 icon: io.metaegg.wallet.png
 bugbounty: 
 meta: removed

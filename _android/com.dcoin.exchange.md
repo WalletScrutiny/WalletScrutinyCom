@@ -13,7 +13,6 @@ version: 5.7.8-play
 reviews: 43
 website: https://www.dcoin.com
 repository: 
-issue: 
 icon: com.dcoin.exchange.png
 bugbounty: 
 meta: removed

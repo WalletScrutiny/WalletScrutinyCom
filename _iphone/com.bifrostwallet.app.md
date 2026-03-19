@@ -13,7 +13,6 @@ version: 0.7.42
 reviews: 205
 website: https://bifrostwallet.com
 repository: 
-issue: 
 icon: com.bifrostwallet.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 
 website: https://smdex.io#deadLink
 repository: 
-issue: 
 icon: in.spiegeltechnologies.smdex.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.201
 reviews: 
 website: https://aqru.io/
 repository: 
-issue: 
 icon: com.accru.png
 bugbounty: 
 meta: removed

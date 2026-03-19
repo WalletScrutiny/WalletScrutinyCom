@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.crypto-stone.io/
 repository: 
-issue: 
 icon: com.cryptostone.ewallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 6.0.0
 reviews: 91
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo
-issue: 
 icon: so.onekey.app.wallet.png
 bugbounty: 
 meta: ok

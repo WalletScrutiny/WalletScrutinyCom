@@ -17,7 +17,6 @@ shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 
 repository: 
-issue: 
 icon: inigma.card.png
 bugbounty: 
 meta: ok

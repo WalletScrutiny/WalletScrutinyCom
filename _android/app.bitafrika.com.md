@@ -13,7 +13,6 @@ version: 5.0.2
 reviews: 169
 website: https://bitafrika.com
 repository: 
-issue: 
 icon: app.bitafrika.com.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.3.3
 reviews: 18
 website: https://www.ethos.io
 repository: 
-issue: 
 icon: com.ethos2.prod.png
 bugbounty: 
 meta: ok

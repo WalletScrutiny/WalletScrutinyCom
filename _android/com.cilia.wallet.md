@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://getcilia.com#deadLink
 repository: 
-issue: 
 icon: com.cilia.wallet.png
 bugbounty: 
 meta: removed

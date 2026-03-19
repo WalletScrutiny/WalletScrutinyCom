@@ -13,7 +13,6 @@ version: 2.08.9
 reviews: 20
 website: https://tizer.io#deadLink
 repository: 
-issue: 
 icon: com.transcrypt.armadillo.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.0.6
 reviews: 9
 website: https://firstkudi.com
 repository: 
-issue: 
 icon: com.ferrum.kudi.png
 bugbounty: 
 meta: removed

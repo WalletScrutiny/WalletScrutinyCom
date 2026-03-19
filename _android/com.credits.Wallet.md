@@ -13,7 +13,6 @@ version: 9.0.0.9
 reviews: 6
 website: https://credits.com/contacts.html
 repository: 
-issue: 
 icon: com.credits.Wallet.png
 bugbounty: 
 meta: ok

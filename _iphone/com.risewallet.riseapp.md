@@ -13,7 +13,6 @@ version: 1.8.3
 reviews: 31
 website: https://wellwallet.ca/
 repository: 
-issue: 
 icon: com.risewallet.riseapp.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.bitcoinforall.crypto.invest.india.jpg
 bugbounty: 
 meta: removed

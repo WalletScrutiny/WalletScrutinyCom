@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 9
 website: https://www.bitwells.com/
 repository: 
-issue: 
 icon: com.bitwells.ios.jpg
 bugbounty: 
 meta: removed

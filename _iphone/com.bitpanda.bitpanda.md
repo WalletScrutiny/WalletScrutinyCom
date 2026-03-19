@@ -13,7 +13,6 @@ version: 3.17.0
 reviews: 24992
 website: https://www.bitpanda.com/app#deadLink
 repository: 
-issue: 
 icon: com.bitpanda.bitpanda.jpg
 bugbounty: 
 meta: ok

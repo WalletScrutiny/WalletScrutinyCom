@@ -12,7 +12,6 @@ version: 0.8.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: uni.UNI869AEDF.png
 bugbounty: 
 meta: removed

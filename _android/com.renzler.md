@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://renzler.one#deadLink
 repository: 
-issue: 
 icon: com.renzler.png
 bugbounty: 
 meta: removed

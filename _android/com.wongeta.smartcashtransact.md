@@ -13,7 +13,6 @@ version: '200'
 reviews: 
 website: https://mysmartcash.tech
 repository: 
-issue: 
 icon: com.wongeta.smartcashtransact.png
 bugbounty: 
 meta: ok

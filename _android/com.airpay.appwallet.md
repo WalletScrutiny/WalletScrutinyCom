@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: https://airpayfinance.com/#
 repository: 
-issue: 
 icon: com.airpay.appwallet.png
 bugbounty: 
 meta: removed

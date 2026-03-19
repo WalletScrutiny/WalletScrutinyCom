@@ -14,7 +14,6 @@ version: 3.03.06.003
 reviews: 185
 website: https://www.itoken.com/
 repository: 
-issue: 
 icon: com.huobionchainwallet.gp.png
 bugbounty: 
 meta: removed

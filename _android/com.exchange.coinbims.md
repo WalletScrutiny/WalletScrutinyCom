@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://coinbims.com#deadLink
 repository: 
-issue: 
 icon: com.exchange.coinbims.png
 bugbounty: 
 meta: removed

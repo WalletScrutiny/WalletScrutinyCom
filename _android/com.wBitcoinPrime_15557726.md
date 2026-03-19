@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBitcoinPrime_15557726.jpg
 bugbounty: 
 meta: removed

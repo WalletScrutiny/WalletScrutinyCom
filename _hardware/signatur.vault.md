@@ -17,7 +17,6 @@ shop:
 country: IE
 price: 
 repository: 
-issue: 
 icon: signatur.vault.png
 bugbounty: 
 meta: ok

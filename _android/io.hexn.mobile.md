@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 5
 website: https://hexn.io
 repository: 
-issue: 
 icon: io.hexn.mobile.png
 bugbounty: 
 meta: stale

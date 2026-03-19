@@ -17,7 +17,6 @@ shop:
 country: GI
 price: 
 repository: 
-issue: 
 icon: xcard.png
 bugbounty: 
 meta: ok

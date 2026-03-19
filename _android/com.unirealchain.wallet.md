@@ -12,7 +12,6 @@ version: 3.40.5
 reviews: 
 website: https://unirealchain.com/
 repository: 
-issue: 
 icon: com.unirealchain.wallet.png
 bugbounty: 
 meta: removed

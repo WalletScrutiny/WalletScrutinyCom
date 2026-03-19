@@ -13,7 +13,6 @@ version: 5.12.0
 reviews: 168
 website: 
 repository: 
-issue: 
 icon: com.bybit.eu.jpg
 bugbounty: 
 meta: ok

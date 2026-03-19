@@ -12,7 +12,6 @@ provider: Lily Technologies, Inc.
 providerWebsite: 
 website: https://lily-wallet.com
 repository: https://github.com/Lily-Technologies/lily-wallet
-issue: 
 icon: lilywallet.png
 bugbounty: 
 meta: stale

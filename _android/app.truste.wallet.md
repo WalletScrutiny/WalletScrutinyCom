@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.truste.wallet.png
 bugbounty: 
 meta: removed

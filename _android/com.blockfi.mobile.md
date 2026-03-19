@@ -13,7 +13,6 @@ version: 6.2.0
 reviews: 1544
 website: https://blockfi.com/
 repository: 
-issue: 
 icon: com.blockfi.mobile.png
 bugbounty: 
 meta: removed

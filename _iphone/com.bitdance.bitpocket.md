@@ -13,7 +13,6 @@ version: 1.3.19
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.bitdance.bitpocket.jpg
 bugbounty: 
 meta: ok

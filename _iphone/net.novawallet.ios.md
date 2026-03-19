@@ -13,7 +13,6 @@ version: 2.2.3
 reviews: 82
 website: 
 repository: 
-issue: 
 icon: net.novawallet.ios.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.2.74
 reviews: 24
 website: https://suprafin.io/
 repository: 
-issue: 
 icon: com.suprafin.usa.app.jpg
 bugbounty: 
 meta: removed

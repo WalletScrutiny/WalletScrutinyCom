@@ -13,7 +13,6 @@ version: 1.39.0
 reviews: 60
 website: https://www.bitvalve.com
 repository: 
-issue: 
 icon: com.bitvalve.android.png
 bugbounty: 
 meta: ok

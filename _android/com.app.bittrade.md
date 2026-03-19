@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.bittrade.biz#deadLink
 repository: 
-issue: 
 icon: com.app.bittrade.png
 bugbounty: 
 meta: removed

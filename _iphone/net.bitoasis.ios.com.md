@@ -13,7 +13,6 @@ version: 2.3.8
 reviews: 4489
 website: https://bitoasis.net/en/home
 repository: 
-issue: 
 icon: net.bitoasis.ios.com.jpg
 bugbounty: 
 meta: ok

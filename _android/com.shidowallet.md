@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 36
 website: https://shido.io
 repository: 
-issue: 
 icon: com.shidowallet.png
 bugbounty: 
 meta: removed

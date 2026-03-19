@@ -12,7 +12,6 @@ provider: Atomex OÜ
 providerWebsite: https://atomex.me#deadLink
 website: 
 repository: 
-issue: 
 icon: atomex.png
 bugbounty: 
 meta: defunct

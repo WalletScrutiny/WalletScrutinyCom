@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://www.swissquote.com/robo-advisory#deadLink
 repository: 
-issue: 
 icon: com.swissquote.epb.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 8.0.2
 reviews: 8
 website: https://profittradingapp.com?utm_source=bitmex_gp
 repository: 
-issue: 
 icon: com.profittrading.forbitmex.png
 bugbounty: 
 meta: ok

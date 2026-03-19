@@ -13,7 +13,6 @@ version: '1.39'
 reviews: 37
 website: https://openwallet.finance/
 repository: 
-issue: 
 icon: com.finverse-labs.openwallet-mainnet.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.27'
 reviews: 2
 website: https://sapienwallet.com/
 repository: 
-issue: 
 icon: com.sapien.sapienwallet.jpg
 bugbounty: 
 meta: removed

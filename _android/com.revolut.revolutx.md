@@ -13,7 +13,6 @@ version: '1.49'
 reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: https://github.com/orgs/revolut-engineering/repositories
-issue: 
 icon: com.revolut.revolutx.png
 bugbounty: 
 meta: ok

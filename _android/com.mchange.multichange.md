@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.mchange.multichange.png
 bugbounty: 
 meta: removed

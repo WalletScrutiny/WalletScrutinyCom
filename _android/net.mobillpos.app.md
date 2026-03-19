@@ -12,7 +12,6 @@ version: Version 2.1.40
 reviews: 
 website: http://www.okongpos.com#deadLink
 repository: 
-issue: 
 icon: net.mobillpos.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.77
 reviews: 2
 website: https://www.bitmama.io/
 repository: 
-issue: 
 icon: com.bitmama.bitmama.ios.jpg
 bugbounty: 
 meta: removed

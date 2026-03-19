@@ -13,7 +13,6 @@ version: 5.13.0
 reviews: 7147
 website: https://www.bybit.com
 repository: 
-issue: 
 icon: com.bybit.app.png
 bugbounty: 
 meta: ok

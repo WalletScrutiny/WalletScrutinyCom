@@ -13,7 +13,6 @@ version: 3.69.4
 reviews: 1334
 website: https://whitebit.com/
 repository: 
-issue: 
 icon: com.whitebit.android.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 4.9.0
 reviews: 1475
 website: https://www.coinex.com/
 repository: 
-issue: 
 icon: com.coinex.trade.play.png
 bugbounty: 
 meta: ok

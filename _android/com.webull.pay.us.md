@@ -13,7 +13,6 @@ version: 2.1.6.19
 reviews: 1156
 website: http://www.webullpay.com
 repository: 
-issue: 
 icon: com.webull.pay.us.png
 bugbounty: 
 meta: ok

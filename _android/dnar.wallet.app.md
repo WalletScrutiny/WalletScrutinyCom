@@ -13,7 +13,6 @@ version: '4.0'
 reviews: 11
 website: https://dnar.io
 repository: 
-issue: 
 icon: dnar.wallet.app.jpg
 bugbounty: 
 meta: defunct

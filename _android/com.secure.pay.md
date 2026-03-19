@@ -12,7 +12,6 @@ version: '2.6'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.secure.pay.png
 bugbounty: 
 meta: removed

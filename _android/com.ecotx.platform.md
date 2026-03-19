@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://ecotx.io#deadLink
 repository: 
-issue: 
 icon: com.ecotx.platform.png
 bugbounty: 
 meta: removed

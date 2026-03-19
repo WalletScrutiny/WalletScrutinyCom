@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://prestopayments.eu/
 repository: 
-issue: 
 icon: prestopaybusiness.eu.jpg
 bugbounty: 
 meta: removed

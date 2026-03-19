@@ -13,7 +13,6 @@ version: '2.512'
 reviews: 10
 website: https://www.fatbtc.com
 repository: 
-issue: 
 icon: com.fatbtc.App.png
 bugbounty: 
 meta: removed

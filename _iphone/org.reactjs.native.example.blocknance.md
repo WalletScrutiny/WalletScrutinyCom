@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: org.reactjs.native.example.blocknance.jpg
 bugbounty: 
 meta: removed

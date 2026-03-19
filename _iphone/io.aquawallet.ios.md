@@ -13,7 +13,6 @@ version: 0.3.6
 reviews: 70
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
-issue: 
 icon: io.aquawallet.ios.jpg
 bugbounty: 
 meta: ok

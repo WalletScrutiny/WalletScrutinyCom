@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ttchain.poseidon.png
 bugbounty: 
 meta: removed

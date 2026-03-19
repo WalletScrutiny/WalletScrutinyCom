@@ -13,7 +13,6 @@ version: 4.1.4
 reviews: 9
 website: http://blocktrade.com
 repository: 
-issue: 
 icon: com.blocktrade.android.png
 bugbounty: 
 meta: stale

@@ -13,7 +13,6 @@ version: 5.4.0
 reviews: 4
 website: https://keyring.app
 repository: 
-issue: 
 icon: co.bacoor.keyring.png
 bugbounty: 
 meta: ok

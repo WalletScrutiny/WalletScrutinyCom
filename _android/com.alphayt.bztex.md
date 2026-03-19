@@ -12,7 +12,6 @@ version: 1.1.9
 reviews: 
 website: https://www.bztex.co#deadLink
 repository: 
-issue: 
 icon: com.alphayt.bztex.png
 bugbounty: 
 meta: removed

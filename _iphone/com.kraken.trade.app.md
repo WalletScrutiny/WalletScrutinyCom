@@ -13,7 +13,6 @@ version: 5.39.0
 reviews: 23668
 website: https://www.kraken.com
 repository: 
-issue: 
 icon: com.kraken.trade.app.jpg
 bugbounty: 
 meta: ok

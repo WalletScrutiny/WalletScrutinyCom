@@ -13,7 +13,6 @@ version: '2.2'
 reviews: 2
 website: https://sessip.com/
 repository: 
-issue: 
 icon: com.sessipapp.Sessip.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0.93
 reviews: 
 website: http://bcdxchange.com#deadLink
 repository: 
-issue: 
 icon: com.bcdex.wallet.png
 bugbounty: 
 meta: removed

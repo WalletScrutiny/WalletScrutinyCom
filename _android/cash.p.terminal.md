@@ -13,7 +13,6 @@ version: 0.52.0
 reviews: 
 website: https://p.cash/
 repository: https://github.com/piratecash/pcash-wallet-android
-issue: 
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok

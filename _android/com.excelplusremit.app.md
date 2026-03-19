@@ -12,7 +12,6 @@ version: 3.0.8
 reviews: 
 website: https://excelplusremit.com/
 repository: 
-issue: 
 icon: com.excelplusremit.app.png
 bugbounty: 
 meta: removed

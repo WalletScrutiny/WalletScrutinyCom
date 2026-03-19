@@ -13,7 +13,6 @@ version: '0.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.hibana.hibana.png
 bugbounty: 
 meta: removed

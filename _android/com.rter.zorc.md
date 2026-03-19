@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.rter.zorc.png
 bugbounty: 
 meta: removed

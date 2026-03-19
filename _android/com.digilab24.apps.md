@@ -13,7 +13,6 @@ version: 1.9.18
 reviews: 
 website: https://cpass.exchange#deadLink
 repository: 
-issue: 
 icon: com.digilab24.apps.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 5.7.0_push_v2
 reviews: 
 website: https://xm.im#deadLink
 repository: 
-issue: 
 icon: com.chainup.exchange.XM.png
 bugbounty: 
 meta: removed

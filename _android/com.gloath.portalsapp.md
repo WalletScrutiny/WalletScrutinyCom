@@ -13,7 +13,6 @@ version: 0.0.4a
 reviews: 24
 website: https://portals.nz
 repository: 
-issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: 2.7.3
 reviews: 
 website: http://www.pdfae.ph#deadLink
 repository: 
-issue: 
 icon: com.gungen.chainup.png
 bugbounty: 
 meta: removed

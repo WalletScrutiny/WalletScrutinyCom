@@ -12,7 +12,6 @@ version: 1.1.16
 reviews: 
 website: https://x-wallet.io
 repository: 
-issue: 
 icon: com.ansslimited.xwallet.png
 bugbounty: 
 meta: ok

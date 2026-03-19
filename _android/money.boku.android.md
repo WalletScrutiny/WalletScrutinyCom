@@ -13,7 +13,6 @@ version: 1.3.186
 reviews: 12
 website: https://neverless.com
 repository: 
-issue: 
 icon: money.boku.android.jpg
 bugbounty: 
 meta: ok

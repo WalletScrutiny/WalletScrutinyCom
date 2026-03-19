@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://www.currencylifecard.com#deadLink
 repository: 
-issue: 
 icon: com.baanx.currencylife.png
 bugbounty: 
 meta: removed

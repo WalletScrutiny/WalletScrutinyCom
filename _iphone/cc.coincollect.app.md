@@ -13,7 +13,6 @@ version: 1.7.6
 reviews: 1
 website: https://coincollect.cc/
 repository: 
-issue: 
 icon: cc.coincollect.app.jpg
 bugbounty: 
 meta: obsolete

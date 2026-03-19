@@ -13,7 +13,6 @@ version: 2.0.20
 reviews: 4
 website: https://capitalika.com/
 repository: 
-issue: 
 icon: com.capitalika.exhange.png
 bugbounty: 
 meta: stale

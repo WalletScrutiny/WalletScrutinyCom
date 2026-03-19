@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ittoken.appos.jpg
 bugbounty: 
 meta: removed

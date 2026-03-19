@@ -12,7 +12,6 @@ version: '3.25'
 reviews: 
 website: https://skb-coin.jp/en#deadLink
 repository: 
-issue: 
 icon: com.skb_app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '2.5'
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: swapitway.sw.jpg
 bugbounty: 
 meta: removed

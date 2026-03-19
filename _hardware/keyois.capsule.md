@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: keyois.capsule.png
 bugbounty: 
 meta: defunct

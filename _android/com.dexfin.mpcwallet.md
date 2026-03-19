@@ -13,7 +13,6 @@ version: 0.2.7
 reviews: 
 website: https://www.dexfin.com
 repository: 
-issue: 
 icon: com.dexfin.mpcwallet.png
 bugbounty: 
 meta: removed

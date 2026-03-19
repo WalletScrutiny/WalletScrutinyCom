@@ -13,7 +13,6 @@ version: 3.0.47
 reviews: 1
 website: https://teroxxapp.com#deadLink
 repository: 
-issue: 
 icon: Teroxx.jpg
 bugbounty: 
 meta: ok

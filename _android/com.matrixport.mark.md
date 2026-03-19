@@ -13,7 +13,6 @@ version: 3.7.3
 reviews: 871
 website: https://invest.matrixport.com
 repository: 
-issue: 
 icon: com.matrixport.mark.png
 bugbounty: 
 meta: ok

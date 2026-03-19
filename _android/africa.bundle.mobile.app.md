@@ -13,7 +13,6 @@ version: 4.6.9
 reviews: 371
 website: https://bundle.africa
 repository: 
-issue: 
 icon: africa.bundle.mobile.app.png
 bugbounty: 
 meta: removed

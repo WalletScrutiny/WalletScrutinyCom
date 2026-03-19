@@ -13,7 +13,6 @@ version: 2.1.2
 reviews: 69
 website: http://pewall.org
 repository: 
-issue: 
 icon: com.Pepelabs.Pepewallet.png
 bugbounty: 
 meta: removed

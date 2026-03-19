@@ -13,7 +13,6 @@ version: '4.46'
 reviews: 16
 website: http://sticpay.com
 repository: 
-issue: 
 icon: com.sticpay.app.sticpay.png
 bugbounty: 
 meta: ok

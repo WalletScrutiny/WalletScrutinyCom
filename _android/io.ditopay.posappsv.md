@@ -13,7 +13,6 @@ version: '1.31'
 reviews: 
 website: https://ditobanx.com
 repository: 
-issue: 
 icon: io.ditopay.posappsv.png
 bugbounty: 
 meta: obsolete

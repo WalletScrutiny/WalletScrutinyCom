@@ -12,7 +12,6 @@ version: 1.0.14
 reviews: 
 website: https://www.lotuscfd.com#deadLink
 repository: 
-issue: 
 icon: com.lotuscfd.app.png
 bugbounty: 
 meta: removed

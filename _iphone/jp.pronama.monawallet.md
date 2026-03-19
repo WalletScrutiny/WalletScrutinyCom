@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 1
 website: https://monawallet.net
 repository: 
-issue: 
 icon: jp.pronama.monawallet.jpg
 bugbounty: 
 meta: obsolete

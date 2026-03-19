@@ -13,7 +13,6 @@ version: 1.14.0
 reviews: 12
 website: https://wallet.io
 repository: 
-issue: 
 icon: io.wallet.png
 bugbounty: 
 meta: removed

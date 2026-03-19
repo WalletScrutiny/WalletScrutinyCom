@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://escrowblock.net
 repository: 
-issue: 
 icon: com.idmid9e01m0afjvnmq1wu.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 50USD
 repository: https://github.com/selfcustody/krux
-issue: 
 icon: kruxdiyhw.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.0.6
 reviews: 1
 website: https://www.nitroex.io/
 repository: 
-issue: 
 icon: com.nitroex.nitroexexchangeapp.jpg
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: '2.2'
 reviews: 
 website: https://monabey.com
 repository: 
-issue: 
 icon: com.monabey.monachanger.png
 bugbounty: 
 meta: removed

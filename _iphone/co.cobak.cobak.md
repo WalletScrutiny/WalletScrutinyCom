@@ -13,7 +13,6 @@ version: 1.8.36
 reviews: 17
 website: https://cobak.co.kr
 repository: 
-issue: 
 icon: co.cobak.cobak.jpg
 bugbounty: 
 meta: removed

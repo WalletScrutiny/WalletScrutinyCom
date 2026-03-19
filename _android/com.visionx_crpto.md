@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://test2.visionxcrypto.com#deadLink
 repository: 
-issue: 
 icon: com.visionx_crpto.png
 bugbounty: 
 meta: removed

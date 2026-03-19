@@ -13,7 +13,6 @@ version: 1.9.26
 reviews: 
 website: https://www.salletone.com
 repository: 
-issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
 meta: obsolete

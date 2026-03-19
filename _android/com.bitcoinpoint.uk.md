@@ -12,7 +12,6 @@ version: 6.4.6
 reviews: 
 website: https://www.bitcoinpoint.com/
 repository: 
-issue: 
 icon: com.bitcoinpoint.uk.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.etroquer.com#deadLink
 repository: 
-issue: 
 icon: appinventor.ai_mlmsolution88.Troquer.png
 bugbounty: 
 meta: removed

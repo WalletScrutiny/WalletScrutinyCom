@@ -13,7 +13,6 @@ version: 1.1.41
 reviews: 
 website: https://www.sonicwallet.com
 repository: 
-issue: 
 icon: com.sonicwallet.png
 bugbounty: 
 meta: removed

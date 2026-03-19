@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 9
 website: http://www.cryptokeeperllc.com
 repository: 
-issue: 
 icon: com.flx.cryptokeeper.png
 bugbounty: 
 meta: ok

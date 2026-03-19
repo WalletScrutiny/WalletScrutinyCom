@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 0
 website: https://www.coincorner.com/checkout
 repository: 
-issue: 
 icon: com.coincorner.checkout.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://easyexchangepro.com
 repository: 
-issue: 
 icon: easyexchangepro.com.easy_pro.png
 bugbounty: 
 meta: removed

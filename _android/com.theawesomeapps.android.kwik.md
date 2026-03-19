@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.kwikcoin.info#deadLink
 repository: 
-issue: 
 icon: com.theawesomeapps.android.kwik.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.32
 reviews: 
 website: https://www.lacero.io/flowos/
 repository: 
-issue: 
 icon: gaikagroup.com.lacero.release.jpg
 bugbounty: 
 meta: removed

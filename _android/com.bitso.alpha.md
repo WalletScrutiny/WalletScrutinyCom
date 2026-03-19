@@ -13,7 +13,6 @@ version: 1.37.0
 reviews: 588
 website: https://bitso.com/alpha/landing
 repository: 
-issue: 
 icon: com.bitso.alpha.png
 bugbounty: 
 meta: ok

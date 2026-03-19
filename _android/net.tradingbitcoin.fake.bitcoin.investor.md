@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.7.0
 reviews: 11
 website: https://coinflex.com/home#deadLink
 repository: 
-issue: 
 icon: com.lxd.java_websocketclient.png
 bugbounty: 
 meta: removed

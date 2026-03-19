@@ -13,7 +13,6 @@ version: 5.0.4
 reviews: 265
 website: https://bananatok.io
 repository: 
-issue: 
 icon: com.xiangjiao.tg.jpg
 bugbounty: 
 meta: defunct

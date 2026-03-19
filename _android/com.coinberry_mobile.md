@@ -13,7 +13,6 @@ version: 137.6.4
 reviews: 655
 website: https://www.coinberry.com
 repository: 
-issue: 
 icon: com.coinberry_mobile.png
 bugbounty: 
 meta: removed

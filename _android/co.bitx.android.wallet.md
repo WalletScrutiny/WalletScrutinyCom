@@ -13,7 +13,6 @@ version: 8.102.1
 reviews: 1408
 website: https://www.luno.com
 repository: 
-issue: 
 icon: co.bitx.android.wallet.jpg
 bugbounty: 
 meta: ok

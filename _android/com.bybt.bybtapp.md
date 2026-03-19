@@ -13,7 +13,6 @@ version: 1.0.1.7
 reviews: 49
 website: https://www.bybt.com/
 repository: 
-issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
 meta: removed

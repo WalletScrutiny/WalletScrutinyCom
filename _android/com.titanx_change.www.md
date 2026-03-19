@@ -12,7 +12,6 @@ version: 1.4.3
 reviews: 
 website: https://titan-xchange.com#deadLink
 repository: 
-issue: 
 icon: com.titanx_change.www.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://cryp2.in#deadLink
 repository: 
-issue: 
 icon: com.cryp2pay.customerfinal.png
 bugbounty: 
 meta: removed

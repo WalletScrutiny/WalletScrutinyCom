@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://ybitwallet.com/
 repository: 
-issue: 
 icon: com.ybit.app.png
 bugbounty: 
 meta: ok

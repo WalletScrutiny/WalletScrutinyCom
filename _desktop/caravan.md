@@ -12,7 +12,6 @@ provider: Unchained Capital
 providerWebsite: https://unchained.com/
 website: https://unchained-capital.github.io/caravan/
 repository: https://github.com/unchained-capital/caravan
-issue: 
 icon: caravan.png
 bugbounty: 
 meta: deprecated

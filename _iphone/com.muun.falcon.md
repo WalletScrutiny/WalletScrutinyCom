@@ -13,7 +13,6 @@ version: 2.12.0
 reviews: 317
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
-issue: 
 icon: com.muun.falcon.jpg
 bugbounty: 
 meta: ok

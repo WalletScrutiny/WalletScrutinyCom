@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 16
 website: 
 repository: 
-issue: 
 icon: com.edss.pones.png
 bugbounty: 
 meta: removed

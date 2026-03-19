@@ -12,7 +12,6 @@ version: 1.2.26
 reviews: 
 website: http://www.dalongpay.com
 repository: 
-issue: 
 icon: com.dalongpay.dalongpay.png
 bugbounty: 
 meta: removed

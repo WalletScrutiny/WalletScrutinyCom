@@ -12,7 +12,6 @@ version: 1.1.43
 reviews: 
 website: https://www.quotatrade.com/
 repository: 
-issue: 
 icon: com.quotatrade.app.png
 bugbounty: 
 meta: removed

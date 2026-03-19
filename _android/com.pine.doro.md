@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 34
 website: 
 repository: 
-issue: 
 icon: com.pine.doro.jpg
 bugbounty: 
 meta: removed

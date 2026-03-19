@@ -13,7 +13,6 @@ version: 6.34.0003
 reviews: 111
 website: https://coindcx.com
 repository: 
-issue: 
 icon: com.coindcx.png
 bugbounty: 
 meta: stale

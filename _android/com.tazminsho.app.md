@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://tazminsho.com#deadLink
 repository: 
-issue: 
 icon: com.tazminsho.app.png
 bugbounty: 
 meta: removed

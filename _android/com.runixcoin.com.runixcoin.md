@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://www.runixcoin.com#deadLink
 repository: 
-issue: 
 icon: com.runixcoin.com.runixcoin.png
 bugbounty: 
 meta: removed

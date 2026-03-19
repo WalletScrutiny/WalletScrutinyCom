@@ -12,7 +12,6 @@ version: 1.3.8
 reviews: 188
 website: https://gethaven.app/
 repository: https://github.com/OpenBazaar/haven
-issue: 
 icon: io.ob1.native-ios.jpg
 bugbounty: 
 meta: removed

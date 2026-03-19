@@ -12,7 +12,6 @@ version: 1.1.93
 reviews: 
 website: https://www.livetraderfx.com/
 repository: 
-issue: 
 icon: com.livetrader.app.png
 bugbounty: 
 meta: removed

@@ -22,7 +22,6 @@ shop: https://kasseusa.com/kasse-hk-1000-cryptocurrency-hardware-wallet/
 country: US
 price: 42.95USD
 repository: 
-issue: 
 icon: kasse.png
 bugbounty: 
 meta: ok

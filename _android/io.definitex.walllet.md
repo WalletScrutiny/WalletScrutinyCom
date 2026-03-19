@@ -12,7 +12,6 @@ version: 0.18.2
 reviews: 29
 website: http://definitex.org/
 repository: 
-issue: 
 icon: io.definitex.walllet.png
 bugbounty: 
 meta: removed

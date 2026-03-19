@@ -13,7 +13,6 @@ version: 3.23.0
 reviews: 1306
 website: https://blofin.com
 repository: 
-issue: 
 icon: com.blofin.app.jpg
 bugbounty: 
 meta: ok

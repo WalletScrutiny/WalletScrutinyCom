@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitcoin.era.app3.png
 bugbounty: 
 meta: removed

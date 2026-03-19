@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 
 website: https://emercoin.com
 repository: 
-issue: 
 icon: com.aspanta.emcsec.png
 bugbounty: 
 meta: removed

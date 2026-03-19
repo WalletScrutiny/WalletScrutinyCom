@@ -13,7 +13,6 @@ version: 5.1.6
 reviews: 1093
 website: https://blockstream.com/app
 repository: https://github.com/Blockstream/green_ios
-issue: 
 icon: io.blockstream.green.jpg
 bugbounty: 
 meta: ok

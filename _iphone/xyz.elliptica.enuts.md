@@ -13,7 +13,6 @@ version: 0.3.0
 reviews: 1
 website: https://enuts.cash
 repository: 
-issue: 
 icon: xyz.elliptica.enuts.jpg
 bugbounty: 
 meta: removed

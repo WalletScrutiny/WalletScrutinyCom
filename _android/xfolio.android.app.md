@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: xfolio.android.app.png
 bugbounty: 
 meta: removed

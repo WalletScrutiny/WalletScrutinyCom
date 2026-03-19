@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: noID.cards.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version:
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptocurrencys.bestwallet.png
 bugbounty: 
 meta: removed

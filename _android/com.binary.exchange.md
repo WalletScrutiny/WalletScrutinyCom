@@ -12,7 +12,6 @@ version: 4.0.0
 reviews: 
 website: https://www.binary-exchange.com#deadLink
 repository: 
-issue: 
 icon: com.binary.exchange.png
 bugbounty: 
 meta: removed

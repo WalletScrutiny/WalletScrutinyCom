@@ -13,7 +13,6 @@ version: 3.3.6
 reviews: 8
 website: https://indodax.com
 repository: 
-issue: 
 icon: id.co.bitcoin.Bitcoin-Trading-Platform.jpg
 bugbounty: 
 meta: removed

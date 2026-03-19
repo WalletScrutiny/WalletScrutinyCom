@@ -12,7 +12,6 @@ version: 3.3.5
 reviews: 
 website: https://x4e4cd6f4.app-ads-txt.com
 repository: 
-issue: 
 icon: com.necen.coinpara.react.png
 bugbounty: 
 meta: removed

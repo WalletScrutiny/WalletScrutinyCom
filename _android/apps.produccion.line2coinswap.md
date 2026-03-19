@@ -12,7 +12,6 @@ version: 1.0.0.4
 reviews: 
 website: https://line2coin.com#deadLink
 repository: 
-issue: 
 icon: apps.produccion.line2coinswap.jpg
 bugbounty: 
 meta: removed

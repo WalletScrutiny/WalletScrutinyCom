@@ -20,7 +20,6 @@ shop:
 country: PT
 price: 
 repository: https://github.com/hkjn/lnhw
-issue: 
 icon: blockchainhackathon2018.lnhw.diy.png
 bugbounty: 
 meta: defunct

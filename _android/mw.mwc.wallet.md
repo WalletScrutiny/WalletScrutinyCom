@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.mwc.mw/
 repository: 
-issue: 
 icon: mw.mwc.wallet.jpg
 bugbounty: 
 meta: removed

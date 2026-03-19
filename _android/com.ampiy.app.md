@@ -12,7 +12,6 @@ version: 5.0.1
 reviews: 
 website: https://ampiy.com
 repository: 
-issue: 
 icon: com.ampiy.app.png
 bugbounty: 
 meta: ok

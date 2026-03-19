@@ -14,7 +14,6 @@ version: 1.156.40
 reviews: 797
 website: https://changenow.io
 repository: 
-issue: 
 icon: io.changenow.changenow.png
 bugbounty: 
 meta: ok

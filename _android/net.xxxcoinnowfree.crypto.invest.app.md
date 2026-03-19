@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.xxxcoinnowfree.crypto.invest.app.jpg
 bugbounty: 
 meta: removed

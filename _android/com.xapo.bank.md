@@ -13,7 +13,6 @@ version: 11.1.0
 reviews: 42
 website: https://www.xapobank.com/
 repository: 
-issue: 
 icon: com.xapo.bank.png
 bugbounty: 
 meta: ok

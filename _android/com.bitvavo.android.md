@@ -13,7 +13,6 @@ version: 2.97.0
 reviews: 3634
 website: https://bitvavo.com/
 repository: 
-issue: 
 icon: com.bitvavo.android.png
 bugbounty: 
 meta: ok

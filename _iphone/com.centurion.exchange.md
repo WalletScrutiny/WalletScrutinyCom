@@ -13,7 +13,6 @@ version: '6'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.centurion.exchange.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 60
 website: http://aegisbtc.com#deadLink
 repository: https://github.com/bsimic0001/AegisWallet
-issue: 
 icon: com.aegiswallet.png
 bugbounty: 
 meta: removed

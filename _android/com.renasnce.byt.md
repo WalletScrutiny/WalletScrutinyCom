@@ -12,7 +12,6 @@ version: 0.30.29
 reviews: 
 website: https://renasnce.com
 repository: 
-issue: 
 icon: com.renasnce.byt.png
 bugbounty: 
 meta: removed

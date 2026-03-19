@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 330
 website: https://ftx.com
 repository: 
-issue: 
 icon: org.reactjs.native.example.FTXMobile.FTX.jpg
 bugbounty: 
 meta: removed

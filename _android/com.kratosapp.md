@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.kratosapp.com/
 repository: 
-issue: 
 icon: com.kratosapp.png
 bugbounty: 
 meta: removed

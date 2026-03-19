@@ -13,7 +13,6 @@ version: 1.10.4
 reviews: 9
 website: https://abcc.com/
 repository: 
-issue: 
 icon: com.abcc.exchange.ios.jpg
 bugbounty: 
 meta: removed

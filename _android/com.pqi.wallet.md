@@ -12,7 +12,6 @@ version: v2.0.11
 reviews: 
 website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
 repository: 
-issue: 
 icon: com.pqi.wallet.png
 bugbounty: 
 meta: removed

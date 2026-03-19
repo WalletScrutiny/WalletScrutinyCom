@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://easyflip.io#deadLink
 repository: 
-issue: 
 icon: com.easyflip.io.png
 bugbounty: 
 meta: removed

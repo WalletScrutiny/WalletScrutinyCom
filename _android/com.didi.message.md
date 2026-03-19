@@ -13,7 +13,6 @@ version: 1.16.0
 reviews: 14
 website: https://didimessage.com#deadLink
 repository: 
-issue: 
 icon: com.didi.message.png
 bugbounty: 
 meta: removed

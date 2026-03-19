@@ -13,7 +13,6 @@ version: 9.36.0
 reviews: 5327
 website: https://web3.bitget.com
 repository: 
-issue: 
 icon: com.bitkeep.os.jpg
 bugbounty: 
 meta: ok

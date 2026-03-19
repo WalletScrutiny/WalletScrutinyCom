@@ -13,7 +13,6 @@ version: 3.0.14
 reviews: 34
 website: https://ditobanx.com/
 repository: 
-issue: 
 icon: com.dito.ditowallet.png
 bugbounty: 
 meta: ok

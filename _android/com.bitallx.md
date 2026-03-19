@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitallx.png
 bugbounty: 
 meta: removed

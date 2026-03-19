@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://dispurseapp.com#deadLink
 repository: 
-issue: 
 icon: com.AppInstitute.d3952.png
 bugbounty: 
 meta: removed

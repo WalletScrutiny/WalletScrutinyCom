@@ -13,7 +13,6 @@ version: 3.2.1.7
 reviews: 560
 website: https://www.pionex.com
 repository: 
-issue: 
 icon: com.pionex.client.jpg
 bugbounty: 
 meta: ok

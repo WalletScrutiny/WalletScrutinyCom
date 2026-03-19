@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://tudirich.com#deadLink
 repository: 
-issue: 
 icon: com.tudirich.jpg
 bugbounty: 
 meta: removed

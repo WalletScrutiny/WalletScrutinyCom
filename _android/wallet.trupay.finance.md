@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://trupay.finance#deadLink
 repository: 
-issue: 
 icon: wallet.trupay.finance.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 18
 website: https://www.huoancoin.com#deadLink
 repository: 
-issue: 
 icon: com.app.huoancoin.png
 bugbounty: 
 meta: removed

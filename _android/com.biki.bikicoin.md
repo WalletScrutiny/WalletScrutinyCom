@@ -13,7 +13,6 @@ version: 4.9.1
 reviews: 17
 website: https://www.biki.com#deadLink
 repository: 
-issue: 
 icon: com.biki.bikicoin.png
 bugbounty: 
 meta: removed

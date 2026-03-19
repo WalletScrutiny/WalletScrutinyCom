@@ -13,7 +13,6 @@ version: 1.1.22
 reviews: 0
 website: https://zaif.jp/
 repository: 
-issue: 
 icon: jp.fcce.zaifapps.jpg
 bugbounty: 
 meta: removed

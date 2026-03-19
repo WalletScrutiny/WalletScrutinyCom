@@ -13,7 +13,6 @@ version: 1.10.10
 reviews: 11
 website: https://waves.exchange/investments
 repository: 
-issue: 
 icon: exchange.waves.invest.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://qilinlab.com
 repository: 
-issue: 
 icon: com.qlexchange.png
 bugbounty: 
 meta: removed

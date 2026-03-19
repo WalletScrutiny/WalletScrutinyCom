@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://pulpal.ir
 repository: 
-issue: 
 icon: ir.pulpal.app.png
 bugbounty: 
 meta: removed

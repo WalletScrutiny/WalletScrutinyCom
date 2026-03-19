@@ -12,7 +12,6 @@ version: 1.0.170
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.hardwayder.bastionwallet.jpg
 bugbounty: 
 meta: ok

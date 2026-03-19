@@ -12,7 +12,6 @@ version: 0.1.2
 reviews: 
 website: https://www.speza.exchange#deadLink
 repository: 
-issue: 
 icon: com.exchange.speza.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://bolsadx.lat#deadLink
 repository: 
-issue: 
 icon: com.cloud.dli.app.png
 bugbounty: 
 meta: removed

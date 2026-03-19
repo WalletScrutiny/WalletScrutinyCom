@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://yusetoken.io/
 repository: 
-issue: 
 icon: com.yusewallet.png
 bugbounty: 
 meta: removed

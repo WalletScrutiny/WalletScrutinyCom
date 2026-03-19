@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://trade4fastpay.com#deadLink
 repository: 
-issue: 
 icon: com.trade4fastpay.trade4fastpay.png
 bugbounty: 
 meta: removed

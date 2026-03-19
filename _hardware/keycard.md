@@ -21,7 +21,6 @@ shop: https://get.keycard.tech/
 country: 
 price: 24.9EUR
 repository: https://github.com/status-im/status-keycard
-issue: 
 icon: keycard.png
 bugbounty: 
 meta: ok

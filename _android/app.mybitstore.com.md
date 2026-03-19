@@ -13,7 +13,6 @@ version: 7.0.9
 reviews: 7
 website: https://mybitstore.com
 repository: 
-issue: 
 icon: app.mybitstore.com.png
 bugbounty: 
 meta: ok

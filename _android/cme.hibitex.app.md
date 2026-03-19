@@ -12,7 +12,6 @@ version: '1.02'
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: cme.hibitex.app.png
 bugbounty: 
 meta: removed

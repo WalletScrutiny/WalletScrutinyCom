@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://www.bitoex.com/?locale=en
 repository: 
-issue: 
 icon: com.bitoex.bitoexapp.png
 bugbounty: 
 meta: removed

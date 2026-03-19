@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: excusd.com.png
 bugbounty: 
 meta: removed

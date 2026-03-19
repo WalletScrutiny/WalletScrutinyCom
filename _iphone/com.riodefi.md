@@ -13,7 +13,6 @@ version: 2.9.7
 reviews: 5
 website: https://riodefi.com/
 repository: 
-issue: 
 icon: com.riodefi.jpg
 bugbounty: 
 meta: removed

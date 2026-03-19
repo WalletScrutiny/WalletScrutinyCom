@@ -14,7 +14,6 @@ version: '0.92'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.edhnbus.wxcgr.png
 bugbounty: 
 meta: removed

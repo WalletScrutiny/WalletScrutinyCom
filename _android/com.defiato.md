@@ -13,7 +13,6 @@ version: 1.2.9
 reviews: 5
 website: https://defiato.com/
 repository: 
-issue: 
 icon: com.defiato.png
 bugbounty: 
 meta: removed

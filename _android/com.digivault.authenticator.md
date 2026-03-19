@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://www.digivault.com
 repository: 
-issue: 
 icon: com.digivault.authenticator.png
 bugbounty: 
 meta: removed

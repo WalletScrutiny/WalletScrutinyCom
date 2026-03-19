@@ -13,7 +13,6 @@ version: 12.0.13
 reviews: 22
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forbittrex.png
 bugbounty: 
 meta: removed

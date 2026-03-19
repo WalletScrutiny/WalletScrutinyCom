@@ -22,7 +22,6 @@ shop: https://web.archive.org/web/20220928153643/https://bithd.com/BITHD-Razor.h
 country: CN
 price: 
 repository: https://github.com/bithd/bithd-mcu
-issue: 
 icon: bithdrazor.png
 bugbounty: 
 meta: discontinued

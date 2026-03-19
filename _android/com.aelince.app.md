@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://aelince.com#deadLink
 repository: 
-issue: 
 icon: com.aelince.app.png
 bugbounty: 
 meta: removed

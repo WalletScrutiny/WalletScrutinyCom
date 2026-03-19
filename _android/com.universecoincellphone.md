@@ -12,7 +12,6 @@ version: '4.0'
 reviews: 
 website: https://universecoin.io
 repository: 
-issue: 
 icon: com.universecoincellphone.png
 bugbounty: 
 meta: removed

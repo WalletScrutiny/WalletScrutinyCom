@@ -13,7 +13,6 @@ version: 2.3.5
 reviews: 83
 website: 
 repository: 
-issue: 
 icon: com.wiseki.sekiapp.new.jpg
 bugbounty: 
 meta: ok

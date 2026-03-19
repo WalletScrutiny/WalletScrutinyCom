@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://www.ezbitex.io/en_US#deadLink
 repository: 
-issue: 
 icon: global.bitex.bitexpay.android.png
 bugbounty: 
 meta: removed

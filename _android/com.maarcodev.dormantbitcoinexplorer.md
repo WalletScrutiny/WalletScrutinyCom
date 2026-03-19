@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.maarcodev.dormantbitcoinexplorer.png
 bugbounty: 
 meta: removed

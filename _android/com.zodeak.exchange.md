@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.cryptocurrencyscript.com/
 repository: 
-issue: 
 icon: com.zodeak.exchange.png
 bugbounty: 
 meta: removed

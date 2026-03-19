@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 
 website: https://dextrade.com/
 repository: 
-issue: 
 icon: org.dextrade.wallet.png
 bugbounty: 
 meta: ok

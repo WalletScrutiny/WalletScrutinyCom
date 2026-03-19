@@ -13,7 +13,6 @@ version: 6.0.4
 reviews: 8
 website: https://hollox.finance/
 repository: 
-issue: 
 icon: finance.hollox.app.png
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: pe.bluemountain419.jungledex.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.14.0-coinpass
 reviews: 
 website: https://www.coinpass.com/
 repository: 
-issue: 
 icon: com.coinpassmobile.png
 bugbounty: 
 meta: ok

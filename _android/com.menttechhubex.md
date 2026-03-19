@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://exchange.e-dome.net/trading/ltcbtc#deadLink
 repository: 
-issue: 
 icon: com.menttechhubex.png
 bugbounty: 
 meta: removed

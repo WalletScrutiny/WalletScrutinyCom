@@ -12,7 +12,6 @@ version: '2.2'
 reviews: 
 website: https://foruspf.com
 repository: 
-issue: 
 icon: com.foruspf.com.png
 bugbounty: 
 meta: removed

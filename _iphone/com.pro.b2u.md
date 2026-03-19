@@ -13,7 +13,6 @@ version: '2.4'
 reviews: 167
 website: https://www.bitcointoyou.com
 repository: 
-issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 30.6.0
 reviews: 13035
 website: https://www.bunq.com
 repository: 
-issue: 
 icon: com.bunq.ios.jpg
 bugbounty: 
 meta: ok

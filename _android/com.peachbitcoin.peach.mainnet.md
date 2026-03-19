@@ -13,7 +13,6 @@ version: 0.69.0
 reviews: 
 website: https://peachbitcoin.com
 repository: https://github.com/Peach2Peach/peach-app
-issue: 
 icon: com.peachbitcoin.peach.mainnet.png
 bugbounty: 
 meta: ok

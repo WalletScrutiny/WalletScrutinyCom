@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://paywithflash.com
 repository: 
-issue: 
 icon: com.paywithflash.flash_wallet.beta.png
 bugbounty: 
 meta: ok

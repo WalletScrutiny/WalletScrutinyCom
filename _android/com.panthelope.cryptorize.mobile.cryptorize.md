@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 22
 website: 
 repository: 
-issue: 
 icon: com.panthelope.cryptorize.mobile.cryptorize.png
 bugbounty: 
 meta: removed

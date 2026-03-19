@@ -12,7 +12,6 @@ version: 1.0.2.0
 reviews: 
 website: https://fast-gateway.com/
 repository: 
-issue: 
 icon: com.fastgateway.app.jpg
 bugbounty: 
 meta: removed

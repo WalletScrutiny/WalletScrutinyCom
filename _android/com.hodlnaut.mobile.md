@@ -13,7 +13,6 @@ version: 1.4.15
 reviews: 76
 website: https://www.hodlnaut.com
 repository: 
-issue: 
 icon: com.hodlnaut.mobile.jpg
 bugbounty: 
 meta: removed

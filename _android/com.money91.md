@@ -13,7 +13,6 @@ version: 3.2.20-Rovi Trading-rovi-genesis-month-
 reviews: 136
 website: 
 repository: 
-issue: 
 icon: com.money91.png
 bugbounty: 
 meta: removed

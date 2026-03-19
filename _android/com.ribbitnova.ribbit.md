@@ -12,7 +12,6 @@ version: 1.8.1
 reviews: 
 website: https://ribbitwallet.com
 repository: 
-issue: 
 icon: com.ribbitnova.ribbit.png
 bugbounty: 
 meta: ok

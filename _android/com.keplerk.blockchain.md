@@ -13,7 +13,6 @@ version: 3.5.4
 reviews: 
 website: https://bykep.com#deadLink
 repository: 
-issue: 
 icon: com.keplerk.blockchain.jpg
 bugbounty: 
 meta: removed

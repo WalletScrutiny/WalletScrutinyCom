@@ -13,7 +13,6 @@ version: 3.23.2
 reviews: 222
 website: https://simple.app/
 repository: 
-issue: 
 icon: app.simple.com.jpg
 bugbounty: 
 meta: ok

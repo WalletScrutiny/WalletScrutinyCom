@@ -12,7 +12,6 @@ version: 1.1.85
 reviews: 
 website: https://app.wirewallet.org#deadLink
 repository: 
-issue: 
 icon: com.fiber.fiberwallet.png
 bugbounty: 
 meta: removed

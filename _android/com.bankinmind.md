@@ -12,7 +12,6 @@ version: 1.0.71
 reviews: 
 website: https://bankinmind.com#deadLink
 repository: 
-issue: 
 icon: com.bankinmind.png
 bugbounty: 
 meta: removed

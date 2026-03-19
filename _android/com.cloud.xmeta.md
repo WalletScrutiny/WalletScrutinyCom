@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 8
 website: https://x-meta.com
 repository: 
-issue: 
 icon: com.cloud.xmeta.png
 bugbounty: 
 meta: obsolete

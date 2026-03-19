@@ -13,7 +13,6 @@ version: 3.1.2
 reviews: 51
 website: http://hkd.com
 repository: 
-issue: 
 icon: com.hkd.hkdex.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: http://upay.company#deadLink
 repository: 
-issue: 
 icon: com.upaybusiness.png
 bugbounty: 
 meta: removed

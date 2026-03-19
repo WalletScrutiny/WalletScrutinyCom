@@ -12,7 +12,6 @@ version: 1.0.14
 reviews: 46
 website: 
 repository: 
-issue: 
 icon: com.walletapp.walletapp.png
 bugbounty: 
 meta: removed

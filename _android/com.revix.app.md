@@ -13,7 +13,6 @@ version: 2.9.8
 reviews: 
 website: https://altify.app
 repository: 
-issue: 
 icon: com.revix.app.png
 bugbounty: 
 meta: ok

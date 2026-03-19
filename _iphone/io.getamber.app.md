@@ -13,7 +13,6 @@ version: 5.11.1
 reviews: 284
 website: http://amber.app/
 repository: 
-issue: 
 icon: io.getamber.app.jpg
 bugbounty: 
 meta: ok

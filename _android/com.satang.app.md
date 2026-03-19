@@ -12,7 +12,6 @@ version: 1.5.3
 reviews: 
 website: https://satang.com
 repository: 
-issue: 
 icon: com.satang.app.png
 bugbounty: 
 meta: removed

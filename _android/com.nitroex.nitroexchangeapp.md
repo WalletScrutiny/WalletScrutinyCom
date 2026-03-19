@@ -13,7 +13,6 @@ version: 3.2.5
 reviews: 159
 website: https://www.nitroex.io/
 repository: 
-issue: 
 icon: com.nitroex.nitroexchangeapp.png
 bugbounty: 
 meta: stale

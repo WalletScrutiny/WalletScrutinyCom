@@ -13,7 +13,6 @@ version: 1.7.4
 reviews: 
 website: https://www.eqifi.com/
 repository: 
-issue: 
 icon: com.eqifi.eqifi.png
 bugbounty: 
 meta: ok

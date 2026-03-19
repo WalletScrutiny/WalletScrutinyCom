@@ -13,7 +13,6 @@ version: 2.0.46
 reviews: 
 website: https://sonitixexchange.in#deadLink
 repository: 
-issue: 
 icon: com.sonitix_mobility.png
 bugbounty: 
 meta: removed

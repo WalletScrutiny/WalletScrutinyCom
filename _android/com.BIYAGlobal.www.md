@@ -13,7 +13,6 @@ version: 2.9.080
 reviews: 15
 website: https://cn.biyapay.com/
 repository: 
-issue: 
 icon: com.BIYAGlobal.www.png
 bugbounty: 
 meta: ok

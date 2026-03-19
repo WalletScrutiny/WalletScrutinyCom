@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.xtrm.world.png
 bugbounty: 
 meta: removed

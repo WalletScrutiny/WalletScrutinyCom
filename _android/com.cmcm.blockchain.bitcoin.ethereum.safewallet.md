@@ -12,7 +12,6 @@ version: 3.2.5
 reviews: 1214
 website: https://safewallet.cmcmbc.com#deadLink
 repository: 
-issue: 
 icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
 bugbounty: 
 meta: removed

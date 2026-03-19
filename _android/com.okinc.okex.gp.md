@@ -13,7 +13,6 @@ version: 6.160.1
 reviews: 3826
 website: https://www.okx.com/
 repository: 
-issue: 
 icon: com.okinc.okex.gp.png
 bugbounty: 
 meta: ok

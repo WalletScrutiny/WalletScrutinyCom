@@ -12,7 +12,6 @@ version: 1.0.6.210910
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wafacoin.pro.png
 bugbounty: 
 meta: removed

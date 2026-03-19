@@ -13,7 +13,6 @@ version: 1.1.122
 reviews: 14
 website: https://www.bitmama.io
 repository: 
-issue: 
 icon: com.bitmama.bitmama.png
 bugbounty: 
 meta: ok

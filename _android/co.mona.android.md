@@ -14,7 +14,6 @@ version: 3.228.01
 reviews: 56286
 website: https://crypto.com/
 repository: 
-issue: 
 icon: co.mona.android.jpg
 bugbounty: 
 meta: ok

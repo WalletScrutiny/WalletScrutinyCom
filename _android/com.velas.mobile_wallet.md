@@ -15,7 +15,6 @@ version: 2.3.19
 reviews: 
 website: https://velas.com
 repository: 
-issue: 
 icon: com.velas.mobile_wallet.png
 bugbounty: 
 meta: obsolete

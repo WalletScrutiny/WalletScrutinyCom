@@ -12,7 +12,6 @@ version: 0.7.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fluidcoins.fluidcoins.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: https://swappy.finance#deadLink
 repository: 
-issue: 
 icon: finance.swappy.swappy.png
 bugbounty: 
 meta: removed

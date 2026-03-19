@@ -13,7 +13,6 @@ version: '1.34'
 reviews: 44
 website: https://www.bitexen.com
 repository: 
-issue: 
 icon: com.bitexen.exchange.jpg
 bugbounty: 
 meta: ok

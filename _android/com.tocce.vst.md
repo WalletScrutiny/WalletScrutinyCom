@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 
 website: https://www.vstmex.com#deadLink
 repository: 
-issue: 
 icon: com.tocce.vst.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://cryptopay.ng/
 repository: 
-issue: 
 icon: ng.crytopay.pwa.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.4'
 reviews: 
 website: https://www.valuecoin.money/
 repository: 
-issue: 
 icon: com.valuecoin.wallet.png
 bugbounty: 
 meta: removed

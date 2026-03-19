@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.northcrypto.com
 repository: 
-issue: 
 icon: com.northcrypto.northcrypto_wearos_app.png
 bugbounty: 
 meta: removed

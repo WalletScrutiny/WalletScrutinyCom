@@ -13,7 +13,6 @@ version: 3.26.1
 reviews: 109709
 website: https://www.binance.us
 repository: 
-issue: 
 icon: us.binance.fiat.jpg
 bugbounty: 
 meta: ok

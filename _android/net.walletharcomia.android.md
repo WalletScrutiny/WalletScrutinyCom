@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://wallet.harcomia.com
 repository: 
-issue: 
 icon: net.walletharcomia.android.png
 bugbounty: 
 meta: removed

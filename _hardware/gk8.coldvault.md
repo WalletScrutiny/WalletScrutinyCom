@@ -17,7 +17,6 @@ shop:
 country: IL
 price: 
 repository: 
-issue: 
 icon: gk8.coldvault.png
 bugbounty: 
 meta: ok

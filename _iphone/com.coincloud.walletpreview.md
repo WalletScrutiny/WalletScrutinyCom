@@ -13,7 +13,6 @@ version: 12.9.27
 reviews: 50
 website: https://www.coin.cloud#deadLink
 repository: 
-issue: 
 icon: com.coincloud.walletpreview.jpg
 bugbounty: 
 meta: removed

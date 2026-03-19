@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 1
 website: https://prostocash.com
 repository: 
-issue: 
 icon: com.xchangecapital.prostocash.jpg
 bugbounty: 
 meta: removed

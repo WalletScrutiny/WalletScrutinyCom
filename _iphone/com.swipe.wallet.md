@@ -13,7 +13,6 @@ version: '1.900'
 reviews: 939
 website: https://swipe.io
 repository: 
-issue: 
 icon: com.swipe.wallet.jpg
 bugbounty: 
 meta: removed

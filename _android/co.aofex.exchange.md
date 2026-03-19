@@ -13,7 +13,6 @@ version: 3.0.3
 reviews: 333
 website: http://www.aofex.co#deadLink
 repository: 
-issue: 
 icon: co.aofex.exchange.jpg
 bugbounty: 
 meta: removed

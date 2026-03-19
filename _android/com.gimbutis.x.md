@@ -12,7 +12,6 @@ version: 1.6.3
 reviews: 
 website: https://gimbutiscoin.com/
 repository: 
-issue: 
 icon: com.gimbutis.x.png
 bugbounty: 
 meta: ok

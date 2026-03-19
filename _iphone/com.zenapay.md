@@ -13,7 +13,6 @@ version: '5.2'
 reviews: 0
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 
-issue: 
 icon: com.zenapay.jpg
 bugbounty: 
 meta: stale

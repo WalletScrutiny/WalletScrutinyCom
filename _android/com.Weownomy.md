@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 67
 website: 
 repository: 
-issue: 
 icon: com.Weownomy.png
 bugbounty: 
 meta: removed

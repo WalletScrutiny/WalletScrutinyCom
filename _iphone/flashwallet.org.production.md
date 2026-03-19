@@ -13,7 +13,6 @@ version: '29'
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: flashwallet.org.production.jpg
 bugbounty: 
 meta: ok

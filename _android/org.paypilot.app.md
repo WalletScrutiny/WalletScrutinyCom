@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.paypilot.org
 repository: 
-issue: 
 icon: org.paypilot.app.png
 bugbounty: 
 meta: ok

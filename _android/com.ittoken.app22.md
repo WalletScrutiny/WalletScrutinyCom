@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ittoken.app22.jpg
 bugbounty: 
 meta: removed

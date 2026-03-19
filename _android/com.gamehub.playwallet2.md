@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 
 website: http://www.playwallet.io#deadLink
 repository: 
-issue: 
 icon: com.gamehub.playwallet2.png
 bugbounty: 
 meta: removed

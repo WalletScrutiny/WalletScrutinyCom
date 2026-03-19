@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBinanceBitcoinExchangeAndCryptocurrencyExchangeTrade_14058627.jpg
 bugbounty: 
 meta: removed

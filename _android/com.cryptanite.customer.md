@@ -12,7 +12,6 @@ version: 2.0.8
 reviews: 8
 website: http://cryptanite.com
 repository: 
-issue: 
 icon: com.cryptanite.customer.png
 bugbounty: 
 meta: removed

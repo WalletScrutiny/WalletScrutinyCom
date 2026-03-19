@@ -12,7 +12,6 @@ version: 1.0.0.45
 reviews: 
 website: http://www.banco.id
 repository: 
-issue: 
 icon: kr.co.keypair.purplecardtouch.png
 bugbounty: 
 meta: removed

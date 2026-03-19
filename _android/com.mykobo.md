@@ -12,7 +12,6 @@ version: 2.0.15
 reviews: 
 website: https://www.mykobo.co
 repository: 
-issue: 
 icon: com.mykobo.png
 bugbounty: 
 meta: removed

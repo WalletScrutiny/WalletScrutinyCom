@@ -13,7 +13,6 @@ version: 1.2.8
 reviews: 27
 website: https://www.grow3.io
 repository: 
-issue: 
 icon: com.mufin.iconfi.png
 bugbounty: 
 meta: ok

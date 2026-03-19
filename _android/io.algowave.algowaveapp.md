@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://www.algowave.io
 repository: 
-issue: 
 icon: io.algowave.algowaveapp.png
 bugbounty: 
 meta: removed

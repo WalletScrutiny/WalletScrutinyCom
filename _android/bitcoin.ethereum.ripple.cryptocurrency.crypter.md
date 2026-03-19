@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 62
 website: 
 repository: 
-issue: 
 icon: bitcoin.ethereum.ripple.cryptocurrency.crypter.png
 bugbounty: 
 meta: removed

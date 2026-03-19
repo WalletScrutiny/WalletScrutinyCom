@@ -13,7 +13,6 @@ version: 6.9.2
 reviews: 23
 website: http://www.swft.pro
 repository: 
-issue: 
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
 meta: ok

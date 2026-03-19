@@ -13,7 +13,6 @@ version: 2.426.4
 reviews: 1065375
 website: http://www.mercadopago.com
 repository: 
-issue: 
 icon: com.mercadopago.wallet.png
 bugbounty: 
 meta: ok

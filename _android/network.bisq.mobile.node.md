@@ -12,7 +12,6 @@ version: 0.4.0
 reviews: 
 website: https://bisq.network
 repository: 
-issue: 
 icon: network.bisq.mobile.node.png
 bugbounty: 
 meta: ok

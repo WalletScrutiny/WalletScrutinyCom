@@ -13,7 +13,6 @@ version: 13.5.0
 reviews: 4
 website: https://tarality.com
 repository: 
-issue: 
 icon: com.taralwallet.png
 bugbounty: 
 meta: removed

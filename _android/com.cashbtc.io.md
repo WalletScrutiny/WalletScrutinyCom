@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://cashbtc.io#deadLink
 repository: 
-issue: 
 icon: com.cashbtc.io.png
 bugbounty: 
 meta: removed

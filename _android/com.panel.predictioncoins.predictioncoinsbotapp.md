@@ -12,7 +12,6 @@ version: '1'
 reviews: 3
 website: https://predictioncoins.com
 repository: 
-issue: 
 icon: com.panel.predictioncoins.predictioncoinsbotapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://trade6ix.com
 repository: 
-issue: 
 icon: com.devoioapps.trade6ix.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 1.7.7
 reviews: 5
 website: https://hexawallet.io/
 repository: 
-issue: 
 icon: io.hexawallet.hexa.jpg
 bugbounty: 
 meta: removed

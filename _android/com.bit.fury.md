@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://bitfury.com
 repository: 
-issue: 
 icon: com.bit.fury.png
 bugbounty: 
 meta: removed

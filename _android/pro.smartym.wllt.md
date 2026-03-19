@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://smartym.pro
 repository: 
-issue: 
 icon: pro.smartym.wllt.png
 bugbounty: 
 meta: removed

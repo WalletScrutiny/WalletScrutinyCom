@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 
 website: https://deffio.com/wallet
 repository: 
-issue: 
 icon: com.deffio.app.png
 bugbounty: 
 meta: ok

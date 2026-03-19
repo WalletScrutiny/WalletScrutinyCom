@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ckgdesigns.com.bitlord_us.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: http://stiwallet.com#deadLink
 repository: 
-issue: 
 icon: com.stiwallet.png
 bugbounty: 
 meta: removed

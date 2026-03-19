@@ -13,7 +13,6 @@ version: 5.22.1
 reviews: 1026
 website: 
 repository: 
-issue: 
 icon: kr.co.coinone.officialapp.jpg
 bugbounty: 
 meta: ok

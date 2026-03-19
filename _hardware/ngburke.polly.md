@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/ngburke/polly
-issue: 
 icon: 
 bugbounty: 
 meta: ok

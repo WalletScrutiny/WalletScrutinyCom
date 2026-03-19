@@ -13,7 +13,6 @@ version: 651.1201.4
 reviews: 3765
 website: https://www.etoro.com/
 repository: 
-issue: 
 icon: com.etoro.openbook.jpg
 bugbounty: 
 meta: ok

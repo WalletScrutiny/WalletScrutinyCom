@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://saymatik.com
 repository: 
-issue: 
 icon: com.scimatic.saymatik.png
 bugbounty: 
 meta: ok

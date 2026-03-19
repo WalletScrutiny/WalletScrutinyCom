@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://changella.com#deadLink
 repository: 
-issue: 
 icon: changella.changella.png
 bugbounty: 
 meta: removed

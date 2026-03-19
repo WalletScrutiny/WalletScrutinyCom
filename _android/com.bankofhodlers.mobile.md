@@ -13,7 +13,6 @@ version: 3.0.3
 reviews: 87
 website: https://vauld.com
 repository: 
-issue: 
 icon: com.bankofhodlers.mobile.png
 bugbounty: 
 meta: ok

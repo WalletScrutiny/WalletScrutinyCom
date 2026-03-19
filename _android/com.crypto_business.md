@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://www.cryptocashfast.com
 repository: 
-issue: 
 icon: com.crypto_business.png
 bugbounty: 
 meta: removed

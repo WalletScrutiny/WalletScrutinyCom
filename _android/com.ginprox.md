@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 488
 website: https://gincoin.co#deadLink
 repository: 
-issue: 
 icon: com.ginprox.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 3
 website: https://tdex.network
 repository: 
-issue: 
 icon: io.sevenlabs.app.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 1.45.0
 reviews: 167
 website: https://lulubit.app
 repository: 
-issue: 
 icon: lulubitLLC.lulubit.jpg
 bugbounty: 
 meta: ok

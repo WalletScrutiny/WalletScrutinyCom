@@ -12,7 +12,6 @@ version: '1.01'
 reviews: 
 website: https://universalbordersolutions.com/
 repository: 
-issue: 
 icon: com.ubsdreamdigital.png
 bugbounty: 
 meta: removed

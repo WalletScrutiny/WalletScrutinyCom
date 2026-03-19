@@ -13,7 +13,6 @@ version: 2.3.5
 reviews: 
 website: http://www.nicex.com
 repository: 
-issue: 
 icon: com.metallum.nicex.png
 bugbounty: 
 meta: removed

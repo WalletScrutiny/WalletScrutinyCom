@@ -13,7 +13,6 @@ version: 1.18.0
 reviews: 7
 website: https://www.sovereignwallet.network
 repository: 
-issue: 
 icon: exchange.sovereignwallet.mui.jpg
 bugbounty: 
 meta: removed

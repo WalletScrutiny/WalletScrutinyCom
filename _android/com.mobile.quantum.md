@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 1
 website: https://quan2um.com
 repository: 
-issue: 
 icon: com.mobile.quantum.png
 bugbounty: 
 meta: ok

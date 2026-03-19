@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://coinovy.com/
 repository: 
-issue: 
 icon: com.coinovy.coin.png
 bugbounty: 
 meta: removed

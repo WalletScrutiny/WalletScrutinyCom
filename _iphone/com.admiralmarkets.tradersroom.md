@@ -13,7 +13,6 @@ version: 5.55.0
 reviews: 3
 website: https://admiralmarkets.com/
 repository: 
-issue: 
 icon: com.admiralmarkets.tradersroom.jpg
 bugbounty: 
 meta: ok

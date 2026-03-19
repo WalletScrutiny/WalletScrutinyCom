@@ -13,7 +13,6 @@ version: '2.8'
 reviews: 40
 website: http://www.finq.com#deadLink
 repository: 
-issue: 
 icon: com.trader.finq.jpg
 bugbounty: 
 meta: removed

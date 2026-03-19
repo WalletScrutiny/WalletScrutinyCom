@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 39
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoineraapp.png
 bugbounty: 
 meta: removed

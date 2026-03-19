@@ -13,7 +13,6 @@ version: '2.6'
 reviews: 3
 website: https://www.bitfortip.com/
 repository: 
-issue: 
 icon: com.rishabh.bitfortip.jpg
 bugbounty: 
 meta: removed

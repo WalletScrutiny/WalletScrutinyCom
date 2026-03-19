@@ -12,7 +12,6 @@ version: 1.2.05
 reviews: 
 website: http://crocobit.net
 repository: 
-issue: 
 icon: com.edc.crocobit.wallets.png
 bugbounty: 
 meta: removed

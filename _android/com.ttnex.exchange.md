@@ -12,7 +12,6 @@ version: 2.0.11
 reviews: 
 website: https://ttnex.io
 repository: 
-issue: 
 icon: com.ttnex.exchange.png
 bugbounty: 
 meta: removed

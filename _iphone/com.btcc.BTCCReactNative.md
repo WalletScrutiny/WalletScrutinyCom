@@ -13,7 +13,6 @@ version: 3.5.40
 reviews: 183
 website: https://h5.btpiccdn.com/en-US/article/Customer_Service2
 repository: 
-issue: 
 icon: com.btcc.BTCCReactNative.jpg
 bugbounty: 
 meta: ok

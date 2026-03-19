@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://bitpay.com/
 repository: https://github.com/bitpay/wallet
-issue: 
 icon: bitpay.png
 bugbounty: 
 meta: obsolete

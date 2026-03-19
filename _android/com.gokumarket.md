@@ -13,7 +13,6 @@ version: '1.35'
 reviews: 1228
 website: https://www.gokumarket.com#deadLink
 repository: 
-issue: 
 icon: com.gokumarket.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://nexdax.com
 repository: 
-issue: 
 icon: com.nexdax.png
 bugbounty: 
 meta: ok

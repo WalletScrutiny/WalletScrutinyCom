@@ -13,7 +13,6 @@ version: 4.4.35
 reviews: 80
 website: https://fxtrendo.com/
 repository: 
-issue: 
 icon: ios.m3.Trendo.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptoplanetgreencg.bitcoin.trading.investment.app.png
 bugbounty: 
 meta: removed

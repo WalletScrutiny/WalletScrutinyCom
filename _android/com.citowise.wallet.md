@@ -14,7 +14,6 @@ version: '1.355'
 reviews: 525
 website: https://www.citowise.com
 repository: 
-issue: 
 icon: com.citowise.wallet.png
 bugbounty: 
 meta: removed

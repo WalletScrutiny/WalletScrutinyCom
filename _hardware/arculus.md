@@ -17,7 +17,6 @@ shop: https://www.getarculus.com/products/cold-storage-wallet/
 country: IN
 price: 99USD
 repository: 
-issue: 
 icon: arculus.png
 bugbounty: 
 meta: ok

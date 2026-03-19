@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trustdx.cryptogt.png
 bugbounty: 
 meta: removed

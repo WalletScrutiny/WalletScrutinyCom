@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 18
 website: https://www.ztb.im/
 repository: 
-issue: 
 icon: com.zhengtong.zcoin.png
 bugbounty: 
 meta: removed

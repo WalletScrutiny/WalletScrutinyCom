@@ -13,7 +13,6 @@ version: 1.0.31.111
 reviews: 
 website: https://smartvalor.com/
 repository: 
-issue: 
 icon: com.smartvalor.smartvalor.png
 bugbounty: 
 meta: stale

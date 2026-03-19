@@ -13,7 +13,6 @@ version: 2.11.15
 reviews: 3
 website: http://www.net-cents.com
 repository: 
-issue: 
 icon: com.net_cents.netcents2.png
 bugbounty: 
 meta: removed

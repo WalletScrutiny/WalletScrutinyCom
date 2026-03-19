@@ -13,7 +13,6 @@ version: 2.1.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tigerandpartners.leo_react_native.png
 bugbounty: 
 meta: removed

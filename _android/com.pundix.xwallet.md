@@ -15,7 +15,6 @@ version: 2.8.7
 reviews: 210
 website: https://www.pundix.com
 repository: 
-issue: 
 icon: com.pundix.xwallet.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 1.28.0
 reviews: 3
 website: https://titanprojects.co
 repository: 
-issue: 
 icon: com.coin.titan.jpg
 bugbounty: 
 meta: removed

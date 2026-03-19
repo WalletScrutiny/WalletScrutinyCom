@@ -13,7 +13,6 @@ version: 2.7.3
 reviews: 
 website: https://www.fexobit.com/
 repository: 
-issue: 
 icon: com.futurance.futurex.png
 bugbounty: 
 meta: ok

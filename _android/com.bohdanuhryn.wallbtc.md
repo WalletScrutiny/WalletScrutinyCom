@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: http://wallbtc.com
 repository: 
-issue: 
 icon: com.bohdanuhryn.wallbtc.png
 bugbounty: 
 meta: removed

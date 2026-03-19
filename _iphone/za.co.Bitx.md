@@ -13,7 +13,6 @@ version: 8.97.1
 reviews: 3634
 website: https://www.luno.com
 repository: 
-issue: 
 icon: za.co.Bitx.jpg
 bugbounty: 
 meta: ok

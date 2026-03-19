@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 
 website: https://www.huobilbn.com
 repository: 
-issue: 
 icon: com.huobilbn.appstore.png
 bugbounty: 
 meta: removed

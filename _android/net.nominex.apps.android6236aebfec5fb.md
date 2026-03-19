@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://nominex.io/?r=90687
 repository: 
-issue: 
 icon: net.nominex.apps.android6236aebfec5fb.png
 bugbounty: 
 meta: removed

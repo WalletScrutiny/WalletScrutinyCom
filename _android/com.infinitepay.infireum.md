@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://infireum.com
 repository: 
-issue: 
 icon: com.infinitepay.infireum.png
 bugbounty: 
 meta: removed

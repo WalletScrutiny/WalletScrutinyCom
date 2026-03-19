@@ -13,7 +13,6 @@ version: '2.8'
 reviews: 10
 website: http://kamix.fr
 repository: 
-issue: 
 icon: io.kamix.app.jpg
 bugbounty: 
 meta: removed

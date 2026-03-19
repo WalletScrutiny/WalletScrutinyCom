@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitcoin_trader_932833.app.jpg
 bugbounty: 
 meta: removed

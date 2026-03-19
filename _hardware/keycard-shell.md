@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/keycard-tech/keycard-shell
-issue: 
 icon: keycard-shell.png
 bugbounty: 
 meta: ok

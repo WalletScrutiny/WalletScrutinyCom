@@ -13,7 +13,6 @@ version: 2.1.1
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: app.coinplug.ng.jpg
 bugbounty: 
 meta: ok

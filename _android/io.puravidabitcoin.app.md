@@ -12,7 +12,6 @@ version: 2.3.0
 reviews: 1
 website: https://puravidabitcoin.io
 repository: 
-issue: 
 icon: io.puravidabitcoin.app.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.6.11
 reviews: 5
 website: https://usenobi.com
 repository: 
-issue: 
 icon: com.usenobi.png
 bugbounty: 
 meta: ok

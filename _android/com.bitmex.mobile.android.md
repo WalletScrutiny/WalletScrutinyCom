@@ -13,7 +13,6 @@ version: 1.1.13
 reviews: 1
 website: https://www.bitmex.com/
 repository: 
-issue: 
 icon: com.bitmex.mobile.android.png
 bugbounty: 
 meta: removed

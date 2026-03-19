@@ -20,7 +20,6 @@ shop: https://asicvault.io/preorder/reserve-mark-ii.html
 country: EE
 price: 
 repository: https://github.com/AsicVault/asicvault-hardware
-issue: 
 icon: asicvault.png
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://walahala.com/payWala#deadLink
 repository: 
-issue: 
 icon: com.walahala.paywala.png
 bugbounty: 
 meta: removed

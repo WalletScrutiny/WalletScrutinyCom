@@ -13,7 +13,6 @@ version: 5.8.4_push_v2
 reviews: 37
 website: https://zke.com
 repository: 
-issue: 
 icon: com.chainup.exchange.ZKE.png
 bugbounty: 
 meta: removed

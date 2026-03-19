@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 2
 website: https://www.idax.exchange
 repository: 
-issue: 
 icon: com.idax.exchange.jpg
 bugbounty: 
 meta: removed

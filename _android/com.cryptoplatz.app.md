@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.cryptoplatz.ch#deadLink
 repository: 
-issue: 
 icon: com.cryptoplatz.app.png
 bugbounty: 
 meta: removed

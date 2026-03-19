@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.zstrx.owigv.png
 bugbounty: 
 meta: removed

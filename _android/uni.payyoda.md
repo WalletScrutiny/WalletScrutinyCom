@@ -12,7 +12,6 @@ version: 4.5.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: uni.payyoda.png
 bugbounty: 
 meta: removed

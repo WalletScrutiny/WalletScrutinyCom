@@ -12,7 +12,6 @@ version: 1.25.251
 reviews: 
 website: https://www.bokka.com
 repository: 
-issue: 
 icon: com.bokka.ex.png
 bugbounty: 
 meta: removed

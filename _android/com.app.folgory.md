@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 
 website: https://folgory.com#deadLink
 repository: 
-issue: 
 icon: com.app.folgory.png
 bugbounty: 
 meta: removed

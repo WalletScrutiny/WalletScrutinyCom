@@ -13,7 +13,6 @@ version: 2.5.14
 reviews: 4
 website: https://web.archive.org/web/20211209012719/https://www.zbx.one/
 repository: 
-issue: 
 icon: com.zbx.www.jpg
 bugbounty: 
 meta: removed

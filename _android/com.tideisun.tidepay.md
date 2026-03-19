@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 
 website: https://isun.one
 repository: 
-issue: 
 icon: com.tideisun.tidepay.png
 bugbounty: 
 meta: removed

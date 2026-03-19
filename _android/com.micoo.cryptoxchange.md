@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.micoo.cryptoxchange.png
 bugbounty: 
 meta: removed

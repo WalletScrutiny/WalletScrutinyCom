@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://stakelead.com
 repository: 
-issue: 
 icon: com.stakelead.stakelead.png
 bugbounty: 
 meta: removed

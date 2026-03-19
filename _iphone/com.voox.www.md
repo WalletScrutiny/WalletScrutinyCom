@@ -13,7 +13,6 @@ version: 1.4.9
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: com.voox.www.jpg
 bugbounty: 
 meta: ok

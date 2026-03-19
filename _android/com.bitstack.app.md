@@ -13,7 +13,6 @@ version: 3.6.5
 reviews: 
 website: https://bitstack-app.com
 repository: 
-issue: 
 icon: com.bitstack.app.png
 bugbounty: 
 meta: ok

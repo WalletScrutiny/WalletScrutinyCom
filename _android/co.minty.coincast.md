@@ -13,7 +13,6 @@ version: 1.2.15
 reviews: 30
 website: https://coincast.app
 repository: 
-issue: 
 icon: co.minty.coincast.png
 bugbounty: 
 meta: removed

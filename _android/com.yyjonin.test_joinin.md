@@ -12,7 +12,6 @@ version: '4.2'
 reviews: 
 website: https://joinin.vip#deadLink
 repository: 
-issue: 
 icon: com.yyjonin.test_joinin.png
 bugbounty: 
 meta: removed

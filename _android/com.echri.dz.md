@@ -13,7 +13,6 @@ version: 4.0.1
 reviews: 
 website: https://algeriahost.com
 repository: 
-issue: 
 icon: com.echri.dz.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://test.ghostpoket.pro
 repository: 
-issue: 
 icon: pro.ghostpoket.app.png
 bugbounty: 
 meta: ok

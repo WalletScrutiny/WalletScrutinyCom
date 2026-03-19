@@ -13,7 +13,6 @@ version: 1.8.52
 reviews: 
 website: https://scitechnologyinc.com/mostwallet
 repository: 
-issue: 
 icon: com.most.wallet.png
 bugbounty: 
 meta: ok

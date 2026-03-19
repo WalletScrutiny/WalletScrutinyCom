@@ -13,7 +13,6 @@ version: 2.9.1
 reviews: 8
 website: https://ceffu.com
 repository: 
-issue: 
 icon: com.binance.custody.png
 bugbounty: 
 meta: removed

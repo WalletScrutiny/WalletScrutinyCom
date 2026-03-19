@@ -21,7 +21,6 @@ shop: https://www.amazon.com/dp/B084Q4FRPT
 country: TW
 price: 120USD
 repository: 
-issue: 
 icon: atwallet.png
 bugbounty: 
 meta: ok

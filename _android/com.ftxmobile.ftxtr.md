@@ -13,7 +13,6 @@ version: 2.0.9
 reviews: 
 website: https://ftxtr.com
 repository: 
-issue: 
 icon: com.ftxmobile.ftxtr.png
 bugbounty: 
 meta: removed

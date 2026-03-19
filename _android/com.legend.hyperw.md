@@ -12,7 +12,6 @@ version: 2.4.1
 reviews: 
 website: http://hyperw.com
 repository: 
-issue: 
 icon: com.legend.hyperw.png
 bugbounty: 
 meta: removed

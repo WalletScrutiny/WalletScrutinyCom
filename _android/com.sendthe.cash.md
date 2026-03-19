@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://www.sendthe.cash/
 repository: 
-issue: 
 icon: com.sendthe.cash.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.89
 reviews: 38
 website: 
 repository: 
-issue: 
 icon: io.proxycard.proxy.png
 bugbounty: 
 meta: removed

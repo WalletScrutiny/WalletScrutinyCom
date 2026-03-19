@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.vezures.novabank.jpg
 bugbounty: 
 meta: removed

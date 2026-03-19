@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 394
 website: https://monarchwallet.com
 repository: 
-issue: 
 icon: com.sf.monarch.jpg
 bugbounty: 
 meta: stale

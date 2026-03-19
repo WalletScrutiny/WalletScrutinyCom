@@ -13,7 +13,6 @@ version: 4.2.2
 reviews: 4108
 website: https://www.bitwala.com
 repository: 
-issue: 
 icon: com.bitwala.app.jpg
 bugbounty: 
 meta: ok

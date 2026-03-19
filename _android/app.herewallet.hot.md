@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 61
 website: https://hot-labs.org/privacypolicy
 repository: 
-issue: 
 icon: app.herewallet.hot.png
 bugbounty: 
 meta: ok

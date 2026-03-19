@@ -13,7 +13,6 @@ version: 2.4.0
 reviews: 30
 website: http://www.volt.id
 repository: 
-issue: 
 icon: bitmesh.volt.wallet.png
 bugbounty: 
 meta: removed

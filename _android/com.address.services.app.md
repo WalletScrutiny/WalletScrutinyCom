@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://address.services
 repository: 
-issue: 
 icon: com.address.services.app.png
 bugbounty: 
 meta: ok

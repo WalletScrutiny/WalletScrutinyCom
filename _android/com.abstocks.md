@@ -13,7 +13,6 @@ version: 1.6.106
 reviews: 
 website: https://abstocks.com#deadLink
 repository: 
-issue: 
 icon: com.abstocks.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.5.3
 reviews: 5
 website: https://web.tokero.com
 repository: 
-issue: 
 icon: com.ldvtech.tokero.png
 bugbounty: 
 meta: ok

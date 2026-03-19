@@ -12,7 +12,6 @@ version: 1.11.0
 reviews: 
 website: https://bitjeem.com
 repository: 
-issue: 
 icon: com.bitjeem.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.20'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: ru.exap.cccoin.png
 bugbounty: 
 meta: removed

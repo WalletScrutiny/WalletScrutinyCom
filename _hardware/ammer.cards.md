@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 50 CHF
 repository: 
-issue: 
 icon: ammer.cards.png
 bugbounty: 
 meta: ok

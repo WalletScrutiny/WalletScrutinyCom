@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: telxsim.png
 bugbounty: 
 meta: defunct

@@ -13,7 +13,6 @@ version: 1.0.75
 reviews: 238
 website: https://www.bitclover.io#deadLink
 repository: 
-issue: 
 icon: io.hotbit.shouyi.flavor.kr.jpg
 bugbounty: 
 meta: removed

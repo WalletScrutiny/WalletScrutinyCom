@@ -13,7 +13,6 @@ version: 7.0.2
 reviews: 4540
 website: https://www.nicehash.com/
 repository: 
-issue: 
 icon: com.nicehash.mobile.jpg
 bugbounty: 
 meta: ok

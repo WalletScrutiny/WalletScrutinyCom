@@ -13,7 +13,6 @@ version: 1.2.9
 reviews: 
 website: https://cs9.io
 repository: 
-issue: 
 icon: com.csesg.cs9.png
 bugbounty: 
 meta: removed

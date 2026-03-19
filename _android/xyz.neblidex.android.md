@@ -12,7 +12,6 @@ version: 11.0.2
 reviews: 
 website: https://www.neblidex.xyz
 repository: 
-issue: 
 icon: xyz.neblidex.android.png
 bugbounty: 
 meta: removed

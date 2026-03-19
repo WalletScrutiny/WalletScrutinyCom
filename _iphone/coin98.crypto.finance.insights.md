@@ -13,7 +13,6 @@ version: 16.9.0
 reviews: 654
 website: https://coin98.com
 repository: 
-issue: 
 icon: coin98.crypto.finance.insights.jpg
 bugbounty: 
 meta: ok

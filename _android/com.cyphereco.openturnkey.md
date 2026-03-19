@@ -12,7 +12,6 @@ version: 2.0.21
 reviews: 
 website: https://openturnkey.com#deadLink
 repository: 
-issue: 
 icon: com.cyphereco.openturnkey.png
 bugbounty: 
 meta: removed

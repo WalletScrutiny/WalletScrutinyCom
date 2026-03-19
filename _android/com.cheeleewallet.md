@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 51
 website: https://cheeleewallet.io/
 repository: 
-issue: 
 icon: com.cheeleewallet.png
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: 1.5.26
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bittoken.security.png
 bugbounty: 
 meta: removed

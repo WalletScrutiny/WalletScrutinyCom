@@ -12,7 +12,6 @@ version: 3.0.3
 reviews: 
 website: https://quraswallet.org
 repository: 
-issue: 
 icon: io.quras.plus.png
 bugbounty: 
 meta: removed

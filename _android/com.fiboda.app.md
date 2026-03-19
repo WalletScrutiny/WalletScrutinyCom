@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 2
 website: http://www.fiboda.com
 repository: 
-issue: 
 icon: com.fiboda.app.png
 bugbounty: 
 meta: removed

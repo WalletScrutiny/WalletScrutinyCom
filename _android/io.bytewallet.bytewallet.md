@@ -13,7 +13,6 @@ version: VARY
 reviews: 54
 website: https://www.bytefederal.com
 repository: 
-issue: 
 icon: io.bytewallet.bytewallet.png
 bugbounty: 
 meta: ok

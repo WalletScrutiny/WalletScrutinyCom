@@ -13,7 +13,6 @@ version: 1.9.4
 reviews: 0
 website: https://vipsfinstock.com/
 repository: 
-issue: 
 icon: com.vips.vipsfinstock.jpg
 bugbounty: 
 meta: removed

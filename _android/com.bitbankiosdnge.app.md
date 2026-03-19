@@ -12,7 +12,6 @@ version: '456'
 reviews: 
 website: https://24bitbank.io/
 repository: 
-issue: 
 icon: com.bitbankiosdnge.app.png
 bugbounty: 
 meta: removed

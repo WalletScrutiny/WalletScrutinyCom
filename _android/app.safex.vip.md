@@ -13,7 +13,6 @@ version: 5.7.0
 reviews: 
 website: https://www.yubit.com
 repository: 
-issue: 
 icon: app.safex.vip.png
 bugbounty: 
 meta: ok

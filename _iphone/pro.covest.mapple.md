@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: pro.covest.mapple.jpg
 bugbounty: 
 meta: obsolete

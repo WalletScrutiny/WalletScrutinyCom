@@ -12,7 +12,6 @@ version: 1.17.1
 reviews: 
 website: https://freyawallet.com#deadLink
 repository: 
-issue: 
 icon: com.secure.freyawallet.png
 bugbounty: 
 meta: removed

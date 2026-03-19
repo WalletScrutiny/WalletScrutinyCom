@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 16
 website: https://getjara.xyz
 repository: 
-issue: 
 icon: xyz.getjara.jpg
 bugbounty: 
 meta: stale

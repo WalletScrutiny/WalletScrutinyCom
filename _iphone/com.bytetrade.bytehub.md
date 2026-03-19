@@ -13,7 +13,6 @@ version: 1.1.210116
 reviews: 4
 website: https://www.bytetrade.io/
 repository: 
-issue: 
 icon: com.bytetrade.bytehub.jpg
 bugbounty: 
 meta: removed

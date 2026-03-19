@@ -13,7 +13,6 @@ version: 0.2.44
 reviews: 36
 website: https://jiggle.app
 repository: 
-issue: 
 icon: com.jiggle.wallet.jpg
 bugbounty: 
 meta: deprecated

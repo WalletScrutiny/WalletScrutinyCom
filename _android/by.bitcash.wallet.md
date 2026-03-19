@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: https://wbitcash.com/
 repository: 
-issue: 
 icon: by.bitcash.wallet.png
 bugbounty: 
 meta: ok

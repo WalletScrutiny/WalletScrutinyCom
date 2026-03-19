@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: com.coinbase.airdrop.png
 bugbounty: 
 meta: removed

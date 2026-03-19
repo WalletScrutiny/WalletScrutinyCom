@@ -12,7 +12,6 @@ version: 4.0.13
 reviews: 
 website: https://www.cyclebit.com
 repository: 
-issue: 
 icon: com.my2can.cyclebit.png
 bugbounty: 
 meta: removed

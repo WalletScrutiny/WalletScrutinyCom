@@ -13,7 +13,6 @@ version: 2.17.0
 reviews: 18
 website: https://lbfinanzas.com
 repository: 
-issue: 
 icon: com.letsbit.app.png
 bugbounty: 
 meta: ok

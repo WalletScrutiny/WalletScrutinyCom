@@ -13,7 +13,6 @@ version: 5.2.1
 reviews: 677
 website: https://www.nicehash.com/my/
 repository: 
-issue: 
 icon: com.nicehash.metallum.png
 bugbounty: 
 meta: ok

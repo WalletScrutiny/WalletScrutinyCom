@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.any1pro.com/
 repository: 
-issue: 
 icon: com.pandats.any1profit.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: buy.sell.trade.crypto1.jpg
 bugbounty: 
 meta: removed

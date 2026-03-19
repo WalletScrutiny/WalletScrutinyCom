@@ -12,7 +12,6 @@ version: '2.3'
 reviews: 
 website: https://web.archive.org/web/20250330224629/http://zakzak.me/
 repository: 
-issue: 
 icon: me.zakzak.zakzakwallet.png
 bugbounty: 
 meta: removed

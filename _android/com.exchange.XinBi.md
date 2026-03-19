@@ -12,7 +12,6 @@ version: 4.0.8
 reviews: 
 website: https://www.xinbipro.com#deadLink
 repository: 
-issue: 
 icon: com.exchange.XinBi.png
 bugbounty: 
 meta: removed

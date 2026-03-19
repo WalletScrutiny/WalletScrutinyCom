@@ -13,7 +13,6 @@ version: 2.12.2
 reviews: 17
 website: https://citadel.one/
 repository: 
-issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
 meta: ok

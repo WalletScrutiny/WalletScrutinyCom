@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 5
 website: https://wc-s.com/wallet#deadLink
 repository: 
-issue: 
 icon: com.worldpay.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.24'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: androidapp.digiebot.vizzweb.android.digiebot.png
 bugbounty: 
 meta: removed

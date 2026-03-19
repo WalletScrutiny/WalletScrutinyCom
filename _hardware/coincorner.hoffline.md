@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
 icon: coincorner.hoffline.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.106'
 reviews: 
 website: https://coinpiggy.io#deadLink
 repository: 
-issue: 
 icon: io.bsys.coinpiggy.png
 bugbounty: 
 meta: removed

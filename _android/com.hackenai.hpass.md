@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://hackenpass.com
 repository: 
-issue: 
 icon: com.hackenai.hpass.png
 bugbounty: 
 meta: removed

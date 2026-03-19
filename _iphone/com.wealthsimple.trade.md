@@ -13,7 +13,6 @@ version: 2.212.0
 reviews: 127639
 website: https://www.wealthsimple.com/en-ca/
 repository: 
-issue: 
 icon: com.wealthsimple.trade.jpg
 bugbounty: 
 meta: ok

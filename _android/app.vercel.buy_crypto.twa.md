@@ -12,7 +12,6 @@ version: '1'
 reviews: 22
 website: http://cryptogeek.info
 repository: 
-issue: 
 icon: app.vercel.buy_crypto.twa.jpg
 bugbounty: 
 meta: removed

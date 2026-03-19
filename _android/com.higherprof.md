@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://higherprof.pro#deadLink
 repository: 
-issue: 
 icon: com.higherprof.jpg
 bugbounty: 
 meta: removed

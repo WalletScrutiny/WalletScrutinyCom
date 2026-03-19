@@ -13,7 +13,6 @@ version: 1.7.20
 reviews: 24
 website: https://www.dunamu.com/
 repository: 
-issue: 
 icon: com.dunamu.upbit.global.jpg
 bugbounty: 
 meta: removed

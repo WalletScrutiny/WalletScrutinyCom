@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://codecraftng.com#deadLink
 repository: 
-issue: 
 icon: adt.ng.app.png
 bugbounty: 
 meta: removed

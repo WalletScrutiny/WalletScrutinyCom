@@ -13,7 +13,6 @@ version: 2.9.4
 reviews: 86
 website: https://pundix.com
 repository: 
-issue: 
 icon: com.pundix.wallet.jpg
 bugbounty: 
 meta: obsolete

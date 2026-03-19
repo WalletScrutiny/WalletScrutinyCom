@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 78
 website: 
 repository: 
-issue: 
 icon: com.coinsecure.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.02'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.gbtc.finance.jpg
 bugbounty: 
 meta: ok

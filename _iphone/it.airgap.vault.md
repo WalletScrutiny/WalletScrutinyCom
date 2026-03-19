@@ -13,7 +13,6 @@ version: 3.34.2
 reviews: 26
 website: 
 repository: https://github.com/airgap-it/airgap-vault
-issue: 
 icon: it.airgap.vault.jpg
 bugbounty: 
 meta: ok

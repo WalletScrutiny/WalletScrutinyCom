@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.cloudmining.mineresp.jpg
 bugbounty: 
 meta: removed

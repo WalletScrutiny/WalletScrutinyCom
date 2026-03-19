@@ -13,7 +13,6 @@ version: 3.21.0
 reviews: 72
 website: https://www.unixcrypto.net
 repository: 
-issue: 
 icon: bu.app.android.png
 bugbounty: 
 meta: ok

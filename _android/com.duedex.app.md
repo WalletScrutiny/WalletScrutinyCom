@@ -13,7 +13,6 @@ version: 1.2.18
 reviews: 38
 website: http://www.duedex.com#deadLink
 repository: 
-issue: 
 icon: com.duedex.app.png
 bugbounty: 
 meta: removed

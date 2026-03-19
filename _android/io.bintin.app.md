@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bintin.io
 repository: 
-issue: 
 icon: io.bintin.app.jpg
 bugbounty: 
 meta: removed

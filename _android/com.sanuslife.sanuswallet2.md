@@ -13,7 +13,6 @@ version: 2.1.17
 reviews: 1
 website: http://www.sanuslife.com
 repository: 
-issue: 
 icon: com.sanuslife.sanuswallet2.png
 bugbounty: 
 meta: obsolete

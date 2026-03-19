@@ -12,7 +12,6 @@ version: Version 2.2.1
 reviews: 
 website: http://www.okongpos.com#deadLink
 repository: 
-issue: 
 icon: com.okongpos.app.png
 bugbounty: 
 meta: removed

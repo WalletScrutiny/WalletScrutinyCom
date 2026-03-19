@@ -13,7 +13,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: ja.xx.exch.ange.png
 bugbounty: 
 meta: removed

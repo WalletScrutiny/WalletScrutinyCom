@@ -13,7 +13,6 @@ version: 6.3.14
 reviews: 482
 website: https://monnos.com
 repository: 
-issue: 
 icon: com.monnos.android.png
 bugbounty: 
 meta: stale

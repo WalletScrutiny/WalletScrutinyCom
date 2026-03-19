@@ -13,7 +13,6 @@ version: 3.28.0
 reviews: 3317
 website: https://www.bitmart.com/
 repository: 
-issue: 
 icon: com.bitmart.exchange.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.2.211231
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.nucoin.pro.png
 bugbounty: 
 meta: removed

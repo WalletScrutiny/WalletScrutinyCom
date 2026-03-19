@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://tenet.org/eva
 repository: 
-issue: 
 icon: com.tenet.eva.png
 bugbounty: 
 meta: removed

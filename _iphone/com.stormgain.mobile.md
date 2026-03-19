@@ -13,7 +13,6 @@ version: 1.33.0
 reviews: 1173
 website: https://stormgain.com
 repository: 
-issue: 
 icon: com.stormgain.mobile.jpg
 bugbounty: 
 meta: removed

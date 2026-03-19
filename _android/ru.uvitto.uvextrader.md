@@ -12,7 +12,6 @@ version: 2.0.2
 reviews: 
 website: http://exmo.uvitto.ru#deadLink
 repository: 
-issue: 
 icon: ru.uvitto.uvextrader.jpg
 bugbounty: 
 meta: removed

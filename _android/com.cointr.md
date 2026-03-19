@@ -13,7 +13,6 @@ version: 3.24.1
 reviews: 9
 website: https://support.cointr.com
 repository: 
-issue: 
 icon: com.cointr.jpg
 bugbounty: 
 meta: ok

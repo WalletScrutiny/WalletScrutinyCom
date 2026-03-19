@@ -13,7 +13,6 @@ version: 1.17.18
 reviews: 95
 website: https://coins.coinpaprika.com/
 repository: 
-issue: 
 icon: com.coinpaprika.coins.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: uni.UNICB29B91.png
 bugbounty: 
 meta: removed

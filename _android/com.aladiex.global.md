@@ -13,7 +13,6 @@ version: 1.7.9
 reviews: 
 website: https://aladiex.com
 repository: 
-issue: 
 icon: com.aladiex.global.png
 bugbounty: 
 meta: removed

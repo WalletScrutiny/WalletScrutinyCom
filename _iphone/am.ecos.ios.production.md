@@ -13,7 +13,6 @@ version: 3.1.9
 reviews: 209
 website: https://ecos.am/
 repository: 
-issue: 
 icon: am.ecos.ios.production.jpg
 bugbounty: 
 meta: ok

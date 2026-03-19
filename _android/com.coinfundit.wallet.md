@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://coinfundit.com
 repository: 
-issue: 
 icon: com.coinfundit.wallet.png
 bugbounty: 
 meta: removed

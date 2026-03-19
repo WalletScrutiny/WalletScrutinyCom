@@ -13,7 +13,6 @@ version: 3.13.3
 reviews: 8
 website: https://ducatus.net/
 repository: 
-issue: 
 icon: io.ducatus.walnew.png
 bugbounty: 
 meta: ok

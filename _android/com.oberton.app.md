@@ -13,7 +13,6 @@ version: 2.16.1
 reviews: 27
 website: https://bytehub.io
 repository: 
-issue: 
 icon: com.oberton.app.png
 bugbounty: 
 meta: ok

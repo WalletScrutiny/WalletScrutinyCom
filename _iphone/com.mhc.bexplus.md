@@ -14,7 +14,6 @@ version: 2.2.1
 reviews: 225
 website: https://www.bexplus.com/activity/cash_back
 repository: 
-issue: 
 icon: com.mhc.bexplus.jpg
 bugbounty: 
 meta: removed

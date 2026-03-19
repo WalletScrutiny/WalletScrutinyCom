@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://afrofoundation.com/
 repository: 
-issue: 
 icon: com.afrowallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.30.2
 reviews: 7
 website: https://www.capex.com
 repository: 
-issue: 
 icon: com.cfdglobal.android.png
 bugbounty: 
 meta: removed

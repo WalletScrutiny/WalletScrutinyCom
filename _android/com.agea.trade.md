@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 3
 website: https://www.agea.com
 repository: 
-issue: 
 icon: com.agea.trade.png
 bugbounty: 
 meta: removed

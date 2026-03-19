@@ -13,7 +13,6 @@ version: 3.0.7
 reviews: 1011
 website: https://www.redotpay.com
 repository: 
-issue: 
 icon: com.redotpay.png
 bugbounty: 
 meta: ok

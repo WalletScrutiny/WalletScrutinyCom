@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: https://www.defixwallet.io#deadLink
 repository: 
-issue: 
 icon: com.defixwallet.jpg
 bugbounty: 
 meta: removed

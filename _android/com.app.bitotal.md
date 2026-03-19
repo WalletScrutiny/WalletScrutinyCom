@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitotal.com
 repository: 
-issue: 
 icon: com.app.bitotal.png
 bugbounty: 
 meta: removed

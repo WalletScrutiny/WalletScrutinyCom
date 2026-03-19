@@ -14,7 +14,6 @@ version: '2.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.xmzys.binance73.png
 bugbounty: 
 meta: removed

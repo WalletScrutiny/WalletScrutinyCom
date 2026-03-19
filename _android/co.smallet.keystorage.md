@@ -12,7 +12,6 @@ version: 0.9.1.45
 reviews: 
 website: http://smallet.co#deadLink
 repository: 
-issue: 
 icon: co.smallet.keystorage.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0.57
 reviews: 
 website: http://www.eunex.co
 repository: 
-issue: 
 icon: kr.co.keypair.nextouch.png
 bugbounty: 
 meta: removed

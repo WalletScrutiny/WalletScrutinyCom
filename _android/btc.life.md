@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://btclife.cash#deadLink
 repository: 
-issue: 
 icon: btc.life.png
 bugbounty: 
 meta: removed

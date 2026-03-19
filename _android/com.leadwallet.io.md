@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: https://www.leadwallet.io
 repository: 
-issue: 
 icon: com.leadwallet.io.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 11.15.0
 reviews: 494
 website: http://www.hbg.com
 repository: 
-issue: 
 icon: pro.huobi.png
 bugbounty: 
 meta: ok

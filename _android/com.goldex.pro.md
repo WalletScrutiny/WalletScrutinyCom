@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://goldexco.in
 repository: 
-issue: 
 icon: com.goldex.pro.jpg
 bugbounty: 
 meta: removed

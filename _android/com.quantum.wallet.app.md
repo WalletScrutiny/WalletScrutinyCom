@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 4
 website: https://quantum.press/
 repository: 
-issue: 
 icon: com.quantum.wallet.app.jpg
 bugbounty: 
 meta: ok

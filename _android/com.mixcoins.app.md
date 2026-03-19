@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mixcoins.app.png
 bugbounty: 
 meta: removed

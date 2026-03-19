@@ -14,7 +14,6 @@ version: 1.15.2
 reviews: 87
 website: https://tokenizemalaysia.com/
 repository: 
-issue: 
 icon: com.tokenize.malaysia.tradingapp.png
 bugbounty: 
 meta: removed

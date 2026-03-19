@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://nexzonex.com#deadLink
 repository: 
-issue: 
 icon: com.cmcodes.NexZone.png
 bugbounty: 
 meta: removed

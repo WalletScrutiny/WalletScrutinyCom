@@ -12,7 +12,6 @@ version: 1.10.3
 reviews: 
 website: http://www.cybex.io
 repository: 
-issue: 
 icon: com.cybexmobile.google.png
 bugbounty: 
 meta: removed

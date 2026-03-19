@@ -13,7 +13,6 @@ version: '1.51'
 reviews: 7
 website: http://www.capex.com/
 repository: 
-issue: 
 icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
 meta: removed

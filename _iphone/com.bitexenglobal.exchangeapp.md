@@ -13,7 +13,6 @@ version: '2.22'
 reviews: 1
 website: https://global.bitexen.com
 repository: 
-issue: 
 icon: com.bitexenglobal.exchangeapp.jpg
 bugbounty: 
 meta: ok

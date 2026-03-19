@@ -13,7 +13,6 @@ version: 2.5.13
 reviews: 23
 website: https://poolin.fi/
 repository: 
-issue: 
 icon: com.blockin.wallet.png
 bugbounty: 
 meta: removed

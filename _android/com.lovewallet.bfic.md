@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://lovewallet.online
 repository: 
-issue: 
 icon: com.lovewallet.bfic.png
 bugbounty: 
 meta: removed

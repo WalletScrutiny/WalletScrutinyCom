@@ -12,7 +12,6 @@ version: 9120.10.10
 reviews: 
 website: https://bitmate.io#deadLink
 repository: 
-issue: 
 icon: com.bitmate.wallet.png
 bugbounty: 
 meta: removed

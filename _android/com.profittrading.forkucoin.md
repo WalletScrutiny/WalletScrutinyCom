@@ -13,7 +13,6 @@ version: 7.1.4
 reviews: 17
 website: https://profittradingapp.com?utm_source=kucoin_gp
 repository: 
-issue: 
 icon: com.profittrading.forkucoin.png
 bugbounty: 
 meta: ok

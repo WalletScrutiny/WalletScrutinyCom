@@ -12,7 +12,6 @@ version: 0.7.5
 reviews: 
 website: https://inexlatam.com/panther-by-inex/
 repository: 
-issue: 
 icon: com.inexlatam.panther.png
 bugbounty: 
 meta: ok

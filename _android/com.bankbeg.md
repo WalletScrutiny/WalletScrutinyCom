@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://www.bankbeg.com
 repository: 
-issue: 
 icon: com.bankbeg.png
 bugbounty: 
 meta: removed

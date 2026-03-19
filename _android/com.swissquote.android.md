@@ -13,7 +13,6 @@ version: 8.27.0
 reviews: 43
 website: https://www.swissquote.com/
 repository: 
-issue: 
 icon: com.swissquote.android.png
 bugbounty: 
 meta: ok

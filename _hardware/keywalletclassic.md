@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: keywalletclassic.png
 bugbounty: 
 meta: defunct

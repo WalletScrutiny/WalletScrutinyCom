@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptoblastersltd.bitcoin.wallet.account.jpg
 bugbounty: 
 meta: removed

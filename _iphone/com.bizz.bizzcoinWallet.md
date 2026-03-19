@@ -13,7 +13,6 @@ version: '1.10'
 reviews: 4
 website: https://web.archive.org/web/20210924123416/http://bizzmartdirect.com/
 repository: 
-issue: 
 icon: com.bizz.bizzcoinWallet.jpg
 bugbounty: 
 meta: removed

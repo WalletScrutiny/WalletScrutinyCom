@@ -12,7 +12,6 @@ version: 511.0.0
 reviews: 516
 website: https://saraf.app
 repository: 
-issue: 
 icon: com.parsa.saraf.png
 bugbounty: 
 meta: stale

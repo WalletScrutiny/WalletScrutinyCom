@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://minerglobal.org#deadLink
 repository: 
-issue: 
 icon: com.efc.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.18
 reviews: 
 website: http://bitcoiner.asia
 repository: 
-issue: 
 icon: com.bitcoinerasia.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 1.9.2
 reviews: 
 website: https://coincardi.com
 repository: 
-issue: 
 icon: com.ibandirect.card.png
 bugbounty: 
 meta: stale

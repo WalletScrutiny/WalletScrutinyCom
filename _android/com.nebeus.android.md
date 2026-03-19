@@ -13,7 +13,6 @@ version: 2.1.6
 reviews: 
 website: https://nebeus.com
 repository: 
-issue: 
 icon: com.nebeus.android.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wTheBitcoinBankApp_16672065.png
 bugbounty: 
 meta: removed

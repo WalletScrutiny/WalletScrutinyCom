@@ -12,7 +12,6 @@ version: 3.0.16
 reviews: 93
 website: https://www.cyclebas.com#deadLink
 repository: 
-issue: 
 icon: com.cyclebas.png
 bugbounty: 
 meta: removed

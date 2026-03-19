@@ -12,7 +12,6 @@ version: 5.4.0_push_v2
 reviews: 
 website: http://xinvestor.com/
 repository: 
-issue: 
 icon: com.chainup.exchange.xinvestor.png
 bugbounty: 
 meta: removed

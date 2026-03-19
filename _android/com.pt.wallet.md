@@ -12,7 +12,6 @@ version: '1.27'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.pt.wallet.png
 bugbounty: 
 meta: removed

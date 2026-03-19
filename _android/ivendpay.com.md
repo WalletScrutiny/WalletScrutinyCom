@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 
 website: https://ivendpay.com
 repository: 
-issue: 
 icon: ivendpay.com.png
 bugbounty: 
 meta: removed

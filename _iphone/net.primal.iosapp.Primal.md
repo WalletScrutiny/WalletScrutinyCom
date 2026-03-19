@@ -13,7 +13,6 @@ version: 2.5.65
 reviews: 827
 website: https://primal.net
 repository: 
-issue: 
 icon: net.primal.iosapp.Primal.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 8.4.4
 reviews: 11
 website: https://www.youhodler.com/
 repository: 
-issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
 meta: ok

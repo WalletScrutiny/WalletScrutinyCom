@@ -12,7 +12,6 @@ version: v3.0.3
 reviews: 101
 website: http://www.bastionpay.com
 repository: 
-issue: 
 icon: com.bastionpay.bastionpay.png
 bugbounty: 
 meta: removed

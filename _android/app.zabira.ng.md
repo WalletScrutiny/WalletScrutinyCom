@@ -13,7 +13,6 @@ version: 1.0.28
 reviews: 15
 website: https://www.zabira.ng
 repository: 
-issue: 
 icon: app.zabira.ng.png
 bugbounty: 
 meta: removed

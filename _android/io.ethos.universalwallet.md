@@ -12,7 +12,6 @@ version: 2.0.5
 reviews: 193
 website: https://www.ethos.io/
 repository: 
-issue: 
 icon: io.ethos.universalwallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.2.7.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.unicorn.shiftbuy.png
 bugbounty: 
 meta: removed

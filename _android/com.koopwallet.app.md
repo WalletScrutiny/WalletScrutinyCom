@@ -13,7 +13,6 @@ version: 21.0.0
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.koopwallet.app.png
 bugbounty: 
 meta: removed

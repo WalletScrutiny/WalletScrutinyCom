@@ -13,7 +13,6 @@ version: 9.70.0
 reviews: 386
 website: https://www.excoino.com/
 repository: 
-issue: 
 icon: com.excoino.excoino.png
 bugbounty: 
 meta: ok

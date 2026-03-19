@@ -13,7 +13,6 @@ version: '4.0'
 reviews: 
 website: https://bitflash.io
 repository: 
-issue: 
 icon: com.bitflash.exchange.png
 bugbounty: 
 meta: removed

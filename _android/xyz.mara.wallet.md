@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 146
 website: https://mara.xyz
 repository: 
-issue: 
 icon: xyz.mara.wallet.png
 bugbounty: 
 meta: removed

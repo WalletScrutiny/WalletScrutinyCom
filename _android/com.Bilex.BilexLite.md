@@ -12,7 +12,6 @@ version: 2.5.5
 reviews: 
 website: http://bilex.org#deadLink
 repository: 
-issue: 
 icon: com.Bilex.BilexLite.png
 bugbounty: 
 meta: removed

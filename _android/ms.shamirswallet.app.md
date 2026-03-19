@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://shamirswallet.com#deadLink
 repository: 
-issue: 
 icon: ms.shamirswallet.app.png
 bugbounty: 
 meta: removed

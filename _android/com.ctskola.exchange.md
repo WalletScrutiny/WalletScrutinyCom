@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://ctskola.com
 repository: 
-issue: 
 icon: com.ctskola.exchange.png
 bugbounty: 
 meta: removed

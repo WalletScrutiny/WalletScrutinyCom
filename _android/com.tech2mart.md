@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://tech2mart.com#deadLink
 repository: 
-issue: 
 icon: com.tech2mart.png
 bugbounty: 
 meta: removed

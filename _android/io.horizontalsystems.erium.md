@@ -13,7 +13,6 @@ version: 0.21.17
 reviews: 
 website: https://erium.exchange#deadLink
 repository: 
-issue: 
 icon: io.horizontalsystems.erium.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.11ai
 reviews: 
 website: http://www.nwsoft.co.kr
 repository: 
-issue: 
 icon: nwsoft.com.cryptotrader.png
 bugbounty: 
 meta: removed

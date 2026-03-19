@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://nd-exk.com#deadLink
 repository: 
-issue: 
 icon: com.ndex.web.png
 bugbounty: 
 meta: removed

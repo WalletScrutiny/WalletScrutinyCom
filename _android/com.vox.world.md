@@ -13,7 +13,6 @@ version: 1.4.8.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.vox.world.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.investing.bit.index.ai.app.png
 bugbounty: 
 meta: removed

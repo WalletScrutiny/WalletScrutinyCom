@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: http://www.tradetoolsfx.com
 repository: 
-issue: 
 icon: com.tradetoolsfx.cryptoexchange.png
 bugbounty: 
 meta: removed

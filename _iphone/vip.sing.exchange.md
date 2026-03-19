@@ -13,7 +13,6 @@ version: 4.3.36
 reviews: 12
 website: 
 repository: 
-issue: 
 icon: vip.sing.exchange.jpg
 bugbounty: 
 meta: ok

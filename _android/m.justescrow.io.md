@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 2
 website: https://justescrow.io
 repository: 
-issue: 
 icon: m.justescrow.io.png
 bugbounty: 
 meta: removed

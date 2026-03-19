@@ -13,7 +13,6 @@ version: 1.1.9
 reviews: 2
 website: https://walletv.io
 repository: 
-issue: 
 icon: prod.walletv.virgo.jpg
 bugbounty: 
 meta: ok

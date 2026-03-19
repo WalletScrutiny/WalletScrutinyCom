@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://coin24.app/ko
 repository: 
-issue: 
 icon: coin24.mobile.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.22
 reviews: 11
 website: https://808exchange.net
 repository: 
-issue: 
 icon: com.ex.exchange808.png
 bugbounty: 
 meta: removed

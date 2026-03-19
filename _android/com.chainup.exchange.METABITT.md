@@ -13,7 +13,6 @@ version: 5.6.5
 reviews: 
 website: https://www.mt-bitt.com/en_US#deadLink
 repository: 
-issue: 
 icon: com.chainup.exchange.METABITT.png
 bugbounty: 
 meta: removed

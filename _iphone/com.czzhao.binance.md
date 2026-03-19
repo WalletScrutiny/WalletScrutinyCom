@@ -13,7 +13,6 @@ version: 3.10.3
 reviews: 49903
 website: https://www.binance.com
 repository: 
-issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
 meta: ok

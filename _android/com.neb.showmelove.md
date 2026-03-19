@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://nebpay.io#deadLink
 repository: 
-issue: 
 icon: com.neb.showmelove.jpg
 bugbounty: 
 meta: removed

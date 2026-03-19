@@ -12,7 +12,6 @@ version: v1.0.4
 reviews: 8
 website: https://slicex.cc/
 repository: 
-issue: 
 icon: cc.slicex.png
 bugbounty: 
 meta: removed

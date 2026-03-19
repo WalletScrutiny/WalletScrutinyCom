@@ -13,7 +13,6 @@ version: 3.5.40
 reviews: 14
 website: https://www.btcc.com/wallet
 repository: 
-issue: 
 icon: com.btcc.wallets.png
 bugbounty: 
 meta: ok

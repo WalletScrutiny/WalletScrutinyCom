@@ -13,7 +13,6 @@ version: 1.54.17
 reviews: 
 website: https://inocyx.com/
 repository: 
-issue: 
 icon: com.application.inocyx.png
 bugbounty: 
 meta: ok

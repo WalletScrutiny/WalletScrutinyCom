@@ -13,7 +13,6 @@ version: '4.35'
 reviews: 
 website: https://www.ilcoincrypto.com/
 repository: 
-issue: 
 icon: ilcbtc.wallet.png
 bugbounty: 
 meta: ok

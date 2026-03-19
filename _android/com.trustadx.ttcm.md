@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trustadx.ttcm.png
 bugbounty: 
 meta: removed

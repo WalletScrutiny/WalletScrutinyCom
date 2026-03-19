@@ -13,7 +13,6 @@ version: 0.9.1
 reviews: 
 website: https://www.bit4you.io
 repository: 
-issue: 
 icon: com.bit4you.app.png
 bugbounty: 
 meta: removed

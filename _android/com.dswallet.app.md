@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.dswallet.app.png
 bugbounty: 
 meta: ok

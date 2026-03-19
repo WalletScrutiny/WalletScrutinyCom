@@ -12,7 +12,6 @@ version: '29'
 reviews: 14
 website: http://www.hena.io
 repository: 
-issue: 
 icon: com.hena.henawallet.png
 bugbounty: 
 meta: removed

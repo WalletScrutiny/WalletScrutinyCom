@@ -13,7 +13,6 @@ version: 1.0.23
 reviews: 
 website: https://goodpayglobal.io#deadLink
 repository: 
-issue: 
 icon: io.goodpayglobal.wallet.png
 bugbounty: 
 meta: removed

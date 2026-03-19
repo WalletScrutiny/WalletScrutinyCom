@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 0
 website: https://blackfort.exchange/
 repository: 
-issue: 
 icon: exchange.blackfort.wallet.jpg
 bugbounty: 
 meta: removed

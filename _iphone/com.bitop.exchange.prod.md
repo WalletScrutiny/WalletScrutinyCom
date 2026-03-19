@@ -13,7 +13,6 @@ version: 0.1.32
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.bitop.exchange.prod.jpg
 bugbounty: 
 meta: ok

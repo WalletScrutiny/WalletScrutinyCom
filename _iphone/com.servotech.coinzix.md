@@ -13,7 +13,6 @@ version: '1.9'
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.servotech.coinzix.jpg
 bugbounty: 
 meta: removed

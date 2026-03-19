@@ -13,7 +13,6 @@ version: 1.12.11
 reviews: 4
 website: https://www.admiralmarkets.com
 repository: 
-issue: 
 icon: com.admiralmarkets.android.png
 bugbounty: 
 meta: ok

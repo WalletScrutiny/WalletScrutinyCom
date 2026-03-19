@@ -13,7 +13,6 @@ version: 2.2.16
 reviews: 
 website: https://bottlepay.com
 repository: 
-issue: 
 icon: com.bottlepay.png
 bugbounty: 
 meta: removed

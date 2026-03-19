@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://betadeal.net#deadLink
 repository: 
-issue: 
 icon: com.mobile.BetaDeal.png
 bugbounty: 
 meta: removed

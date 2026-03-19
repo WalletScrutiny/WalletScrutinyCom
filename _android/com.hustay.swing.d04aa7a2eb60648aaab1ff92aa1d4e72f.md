@@ -13,7 +13,6 @@ version: '0.3'
 reviews: 
 website: https://www.f-x5.com#deadLink
 repository: 
-issue: 
 icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
 bugbounty: 
 meta: removed

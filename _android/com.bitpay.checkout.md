@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 135
 website: 
 repository: 
-issue: 
 icon: com.bitpay.checkout.png
 bugbounty: 
 meta: removed

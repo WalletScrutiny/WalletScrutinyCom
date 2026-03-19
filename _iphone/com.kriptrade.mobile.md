@@ -13,7 +13,6 @@ version: 3.2.5
 reviews: 43
 website: https://kriptrade.com
 repository: 
-issue: 
 icon: com.kriptrade.mobile.jpg
 bugbounty: 
 meta: ok

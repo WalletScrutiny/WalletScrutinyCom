@@ -12,7 +12,6 @@ version: 1.2.3
 reviews: 
 website: https://tkeep.io#deadLink
 repository: 
-issue: 
 icon: com.oriovo.dolphin.tkeep.gp.png
 bugbounty: 
 meta: removed

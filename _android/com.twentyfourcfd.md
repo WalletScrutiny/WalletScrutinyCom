@@ -12,7 +12,6 @@ version: 1.0.14
 reviews: 
 website: https://www.24cfd.com#deadLink
 repository: 
-issue: 
 icon: com.twentyfourcfd.png
 bugbounty: 
 meta: removed

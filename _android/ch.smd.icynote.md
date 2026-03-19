@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 
 website: https://icynote.ch
 repository: 
-issue: 
 icon: ch.smd.icynote.png
 bugbounty: 
 meta: removed

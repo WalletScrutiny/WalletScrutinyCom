@@ -13,7 +13,6 @@ version: '2.26'
 reviews: 1
 website: https://www.split-loyalty.com
 repository: 
-issue: 
 icon: com.splitloyalty.app.Split-Rewards.jpg
 bugbounty: 
 meta: ok

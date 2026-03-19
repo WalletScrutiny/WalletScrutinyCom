@@ -13,7 +13,6 @@ version: 5.4.3
 reviews: 41
 website: https://defiantapp.tech
 repository: 
-issue: 
 icon: ar.com.andinasmart.defiant.png
 bugbounty: 
 meta: removed

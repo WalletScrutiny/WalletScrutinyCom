@@ -13,7 +13,6 @@ version: 0.7.33
 reviews: 35
 website: 
 repository: 
-issue: 
 icon: io.rayyo.jpg
 bugbounty: 
 meta: ok

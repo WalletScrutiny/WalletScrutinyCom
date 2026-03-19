@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 4
 website: http://www.umifi.com
 repository: 
-issue: 
 icon: com.umifi.app.png
 bugbounty: 
 meta: removed

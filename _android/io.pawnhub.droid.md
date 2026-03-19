@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://pawnhub.io#deadLink
 repository: 
-issue: 
 icon: io.pawnhub.droid.png
 bugbounty: 
 meta: removed

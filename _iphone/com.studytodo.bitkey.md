@@ -13,7 +13,6 @@ version: 3.0.5
 reviews: 27
 website: 
 repository: 
-issue: 
 icon: com.studytodo.bitkey.jpg
 bugbounty: 
 meta: removed

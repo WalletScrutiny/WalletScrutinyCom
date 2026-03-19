@@ -13,7 +13,6 @@ version: 5.4.4
 reviews: 32
 website: 
 repository: 
-issue: 
 icon: com.yykj.bitfree.en.png
 bugbounty: 
 meta: ok

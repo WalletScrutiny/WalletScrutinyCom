@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://ringworld.live#deadLink
 repository: 
-issue: 
 icon: com.app.ringworld.png
 bugbounty: 
 meta: removed

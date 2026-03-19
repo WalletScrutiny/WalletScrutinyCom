@@ -12,7 +12,6 @@ version: 1.7.2
 reviews: 
 website: https://babel.finance/
 repository: 
-issue: 
 icon: com.babel.pro.png
 bugbounty: 
 meta: removed

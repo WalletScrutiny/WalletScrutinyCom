@@ -12,7 +12,6 @@ version: 2.0.4
 reviews: 
 website: http://www.wenlite.io
 repository: 
-issue: 
 icon: com.wenlite.dcx.png
 bugbounty: 
 meta: removed

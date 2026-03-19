@@ -12,7 +12,6 @@ version: 4.0.0
 reviews: 
 website: https://ugainindia.com#deadLink
 repository: 
-issue: 
 icon: com.primebot.app.png
 bugbounty: 
 meta: removed

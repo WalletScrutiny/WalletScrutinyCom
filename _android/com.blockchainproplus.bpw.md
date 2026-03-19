@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 29
 website: 
 repository: 
-issue: 
 icon: com.blockchainproplus.bpw.jpg
 bugbounty: 
 meta: removed

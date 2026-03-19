@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
 bugbounty: 
 meta: removed

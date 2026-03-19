@@ -13,7 +13,6 @@ version: 3.16.6
 reviews: 787
 website: https://walletnow.app
 repository: 
-issue: 
 icon: io.changenow.wallet-now.jpg
 bugbounty: 
 meta: ok

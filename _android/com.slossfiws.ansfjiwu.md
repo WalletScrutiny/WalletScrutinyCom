@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.slossfiws.ansfjiwu.jpg
 bugbounty: 
 meta: removed

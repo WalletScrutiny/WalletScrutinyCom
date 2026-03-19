@@ -13,7 +13,6 @@ version: production/v4.2.61
 reviews: 
 website: https://kyrrex.com
 repository: 
-issue: 
 icon: com.kyrrex.jpg
 bugbounty: 
 meta: ok

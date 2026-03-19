@@ -12,7 +12,6 @@ version: 3.14.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: cloud.antalpha.app.png
 bugbounty: 
 meta: ok

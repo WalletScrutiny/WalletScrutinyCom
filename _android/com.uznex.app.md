@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 
 website: https://uznex.com
 repository: 
-issue: 
 icon: com.uznex.app.png
 bugbounty: 
 meta: removed

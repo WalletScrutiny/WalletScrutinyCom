@@ -13,7 +13,6 @@ version: 2026.10.1
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 
-issue: 
 icon: com.robinhood.global.png
 bugbounty: 
 meta: ok

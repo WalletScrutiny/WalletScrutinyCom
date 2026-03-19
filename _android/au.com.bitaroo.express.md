@@ -13,7 +13,6 @@ version: 3.3.0
 reviews: 
 website: https://www.bitaroo.com.au
 repository: 
-issue: 
 icon: au.com.bitaroo.express.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 3.2.1
 reviews: 323
 website: 
 repository: 
-issue: 
 icon: com.cryptomkt.app.png
 bugbounty: 
 meta: removed

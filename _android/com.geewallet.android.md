@@ -12,7 +12,6 @@ version: 0.7.444.0
 reviews: 
 website: http://github.com/knocte/geewallet
 repository: https://github.com/knocte/geewallet
-issue: 
 icon: com.geewallet.android.png
 bugbounty: 
 meta: removed

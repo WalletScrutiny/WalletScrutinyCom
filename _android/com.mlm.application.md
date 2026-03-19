@@ -13,7 +13,6 @@ version: '2.6'
 reviews: 
 website: http://peer2btc.com/
 repository: 
-issue: 
 icon: com.mlm.application.png
 bugbounty: 
 meta: removed

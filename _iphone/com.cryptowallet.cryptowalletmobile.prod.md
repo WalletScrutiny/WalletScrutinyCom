@@ -13,7 +13,6 @@ version: 1.11.4
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.cryptowallet.cryptowalletmobile.prod.jpg
 bugbounty: 
 meta: removed

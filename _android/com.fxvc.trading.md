@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: https://fxvc.com
 repository: 
-issue: 
 icon: com.fxvc.trading.png
 bugbounty: 
 meta: removed

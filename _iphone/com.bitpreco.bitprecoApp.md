@@ -13,7 +13,6 @@ version: 2.0.04
 reviews: 665
 website: https://bitpreco.com/
 repository: 
-issue: 
 icon: com.bitpreco.bitprecoApp.jpg
 bugbounty: 
 meta: removed

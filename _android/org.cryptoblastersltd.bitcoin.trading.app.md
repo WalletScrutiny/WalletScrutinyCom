@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptoblastersltd.bitcoin.trading.app.jpg
 bugbounty: 
 meta: removed

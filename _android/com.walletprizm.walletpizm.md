@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://walletprizm.com/
 repository: 
-issue: 
 icon: com.walletprizm.walletpizm.jpg
 bugbounty: 
 meta: removed

@@ -20,7 +20,6 @@ shop: https://aercrypt.net/store
 country: 
 price: 
 repository: 
-issue: 
 icon: aercrypt.png
 bugbounty: 
 meta: ok

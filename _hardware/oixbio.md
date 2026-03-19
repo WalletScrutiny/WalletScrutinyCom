@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: oixbio.png
 bugbounty: 
 meta: ok

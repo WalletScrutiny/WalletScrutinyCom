@@ -13,7 +13,6 @@ version: 1.3.3
 reviews: 
 website: https://www.mydicewallet.com
 repository: 
-issue: 
 icon: com.anxintl.mythology.png
 bugbounty: 
 meta: removed

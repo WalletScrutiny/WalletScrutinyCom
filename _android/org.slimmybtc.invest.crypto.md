@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.slimmybtc.invest.crypto.png
 bugbounty: 
 meta: removed

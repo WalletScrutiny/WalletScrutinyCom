@@ -13,7 +13,6 @@ version: 2.24.3
 reviews: 0
 website: https://custody.bitpanda.com/about
 repository: 
-issue: 
 icon: io.trustology.trustvault.jpg
 bugbounty: 
 meta: ok

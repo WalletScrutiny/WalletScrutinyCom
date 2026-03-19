@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 1078
 website: https://www.xverse.app/
 repository: 
-issue: 
 icon: com.secretkeylabs.xverse.png
 bugbounty: 
 meta: ok

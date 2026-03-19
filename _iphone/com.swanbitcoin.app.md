@@ -13,7 +13,6 @@ version: 3.9.0
 reviews: 3849
 website: http://www.swanbitcoin.com
 repository: 
-issue: 
 icon: com.swanbitcoin.app.jpg
 bugbounty: 
 meta: ok

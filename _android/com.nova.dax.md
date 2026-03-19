@@ -13,7 +13,6 @@ version: 3.6.2
 reviews: 42
 website: https://www.novadax.com
 repository: 
-issue: 
 icon: com.nova.dax.png
 bugbounty: 
 meta: ok

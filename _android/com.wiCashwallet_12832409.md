@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://icashweb.com/
 repository: 
-issue: 
 icon: com.wiCashwallet_12832409.jpg
 bugbounty: 
 meta: removed

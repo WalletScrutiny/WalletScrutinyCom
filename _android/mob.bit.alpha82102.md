@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: mob.bit.alpha82102.png
 bugbounty: 
 meta: removed

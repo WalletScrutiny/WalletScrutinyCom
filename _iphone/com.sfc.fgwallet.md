@@ -13,7 +13,6 @@ version: 4.1.0
 reviews: 2
 website: https://fg-wallet.com/
 repository: 
-issue: 
 icon: com.sfc.fgwallet.jpg
 bugbounty: 
 meta: ok

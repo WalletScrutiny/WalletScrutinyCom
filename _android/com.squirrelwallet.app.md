@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 
 website: https://squirrel-wallet.gitbook.io
 repository: 
-issue: 
 icon: com.squirrelwallet.app.png
 bugbounty: 
 meta: ok

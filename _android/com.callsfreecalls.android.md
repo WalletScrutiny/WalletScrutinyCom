@@ -13,7 +13,6 @@ version: 5.6.1
 reviews: 3745
 website: https://cfc.io#deadLink
 repository: 
-issue: 
 icon: com.callsfreecalls.android.png
 bugbounty: 
 meta: removed

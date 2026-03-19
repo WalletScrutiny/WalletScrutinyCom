@@ -12,7 +12,6 @@ version: 0.2.1
 reviews: 
 website: http://chronobank.io
 repository: 
-issue: 
 icon: io.chronobank.chronomint.webview.png
 bugbounty: 
 meta: removed

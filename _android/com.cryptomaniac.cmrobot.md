@@ -13,7 +13,6 @@ version: 2.2.1
 reviews: 
 website: https://www.cmrobot.id#deadLink
 repository: 
-issue: 
 icon: com.cryptomaniac.cmrobot.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.7.5
 reviews: 301
 website: https://www.withtap.com
 repository: 
-issue: 
 icon: com.tapngo.tap.png
 bugbounty: 
 meta: ok

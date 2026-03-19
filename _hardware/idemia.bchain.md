@@ -17,7 +17,6 @@ shop: https://www.idemia.com/contact/?product=10013
 country: FR
 price: 
 repository: 
-issue: 
 icon: idemia.bchain.png
 bugbounty: 
 meta: ok

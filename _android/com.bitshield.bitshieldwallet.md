@@ -13,7 +13,6 @@ version: '1.28'
 reviews: 1287
 website: https://bitshieldwallet.com
 repository: 
-issue: 
 icon: com.bitshield.bitshieldwallet.png
 bugbounty: 
 meta: removed

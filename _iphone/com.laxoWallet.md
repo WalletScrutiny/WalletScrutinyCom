@@ -13,7 +13,6 @@ version: 2.3.9
 reviews: 55
 website: https://volt.id#deadLink
 repository: 
-issue: 
 icon: com.laxoWallet.jpg
 bugbounty: 
 meta: removed

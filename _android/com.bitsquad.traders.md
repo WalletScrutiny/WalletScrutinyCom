@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.bitsquadtraders.com#deadLink
 repository: 
-issue: 
 icon: com.bitsquad.traders.png
 bugbounty: 
 meta: removed

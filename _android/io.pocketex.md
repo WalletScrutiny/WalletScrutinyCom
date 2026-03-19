@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://pocketexchange.io
 repository: 
-issue: 
 icon: io.pocketex.png
 bugbounty: 
 meta: removed

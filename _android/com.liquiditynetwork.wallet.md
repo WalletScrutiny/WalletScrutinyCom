@@ -12,7 +12,6 @@ version: 1.27.2
 reviews: 
 website: https://liquidity.network#deadLink
 repository: 
-issue: 
 icon: com.liquiditynetwork.wallet.png
 bugbounty: 
 meta: removed

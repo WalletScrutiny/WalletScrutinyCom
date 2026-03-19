@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 
 website: https://wirebit.com/
 repository: 
-issue: 
 icon: com.wirebitapppv.jpg
 bugbounty: 
 meta: removed

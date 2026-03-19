@@ -13,7 +13,6 @@ version: 3.2.3
 reviews: 0
 website: https://www.bitmex.com/
 repository: 
-issue: 
 icon: com.bitmex.app.ios.jpg
 bugbounty: 
 meta: ok

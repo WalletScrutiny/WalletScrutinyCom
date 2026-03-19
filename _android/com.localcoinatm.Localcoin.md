@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 5
 website: https://www.localcoinatm.com
 repository: 
-issue: 
 icon: com.localcoinatm.Localcoin.png
 bugbounty: 
 meta: removed

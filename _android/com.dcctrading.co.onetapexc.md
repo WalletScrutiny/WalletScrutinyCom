@@ -12,7 +12,6 @@ version: '3.1'
 reviews: 
 website: https://onetapexc.com#deadLink
 repository: 
-issue: 
 icon: com.dcctrading.co.onetapexc.png
 bugbounty: 
 meta: ok

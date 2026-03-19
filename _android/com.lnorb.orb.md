@@ -12,7 +12,6 @@ version: 0.21.11.0
 reviews: 
 website: https://lnorb.com
 repository: 
-issue: 
 icon: com.lnorb.orb.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.10.4
 reviews: 14199
 website: https://www.safepal.com
 repository: 
-issue: 
 icon: walletapp.safepal.io.jpg
 bugbounty: 
 meta: ok

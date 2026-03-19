@@ -13,7 +13,6 @@ version: 3.4.0
 reviews: 
 website: https://neutron.me/app
 repository: 
-issue: 
 icon: neutronpay.wallet.png
 bugbounty: 
 meta: ok

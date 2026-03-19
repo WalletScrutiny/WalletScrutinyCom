@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://metisbay.com#deadLink
 repository: 
-issue: 
 icon: com.techbros.metisbay.jpg
 bugbounty: 
 meta: removed

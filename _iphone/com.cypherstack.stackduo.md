@@ -13,7 +13,6 @@ version: 2.4.2
 reviews: 7
 website: https://duo.stackwallet.com#deadLink
 repository: https://github.com/cypherstack/stack_duo
-issue: 
 icon: com.cypherstack.stackduo.jpg
 bugbounty: 
 meta: ok

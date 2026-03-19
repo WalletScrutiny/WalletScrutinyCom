@@ -13,7 +13,6 @@ version: 3.5.90
 reviews: 5
 website: https://atx.com.vn/
 repository: 
-issue: 
 icon: io.attlas.png
 bugbounty: 
 meta: ok

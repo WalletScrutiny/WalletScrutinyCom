@@ -13,7 +13,6 @@ version: 2.3.3
 reviews: 1
 website: https://www.pallapay.com
 repository: 
-issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
 meta: ok

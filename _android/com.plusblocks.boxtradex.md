@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 6
 website: https://www.boxtradex.io/
 repository: 
-issue: 
 icon: com.plusblocks.boxtradex.png
 bugbounty: 
 meta: stale

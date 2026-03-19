@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 11
 website: https://ruufpay.app
 repository: 
-issue: 
 icon: com.ruufpay.ruufpaymobileapp.png
 bugbounty: 
 meta: ok

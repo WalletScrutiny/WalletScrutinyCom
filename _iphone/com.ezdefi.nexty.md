@@ -14,7 +14,6 @@ version: 0.4.1
 reviews: 19
 website: https://ezdefi.com/
 repository: 
-issue: 
 icon: com.ezdefi.nexty.jpg
 bugbounty: 
 meta: removed

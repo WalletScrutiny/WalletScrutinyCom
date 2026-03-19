@@ -13,7 +13,6 @@ version: 6.21.0
 reviews: 978
 website: https://www.markets4you.com/en/contact-us/
 repository: 
-issue: 
 icon: com.forex4you.ios.jpg
 bugbounty: 
 meta: ok

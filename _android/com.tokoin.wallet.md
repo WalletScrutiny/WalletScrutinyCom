@@ -13,7 +13,6 @@ version: 3.6.1
 reviews: 6
 website: https://tokoin.io
 repository: 
-issue: 
 icon: com.tokoin.wallet.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 2.6.0
 reviews: 5239
 website: https://www.coinglass.com
 repository: 
-issue: 
 icon: com.xiandanxiaohai.Bybt.jpg
 bugbounty: 
 meta: ok

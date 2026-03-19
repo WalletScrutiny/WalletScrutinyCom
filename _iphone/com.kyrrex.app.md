@@ -13,7 +13,6 @@ version: 4.0.6
 reviews: 15
 website: https://kyrrex.com
 repository: 
-issue: 
 icon: com.kyrrex.app.jpg
 bugbounty: 
 meta: removed

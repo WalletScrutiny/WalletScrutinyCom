@@ -13,7 +13,6 @@ version: '1.72'
 reviews: 14
 website: https://www.koinpark.com/
 repository: 
-issue: 
 icon: com.application.koinpark.png
 bugbounty: 
 meta: ok

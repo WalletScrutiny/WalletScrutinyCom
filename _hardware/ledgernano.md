@@ -18,7 +18,6 @@ shop:
 country: FR
 price: 
 repository: 
-issue: 
 icon: ledgernano.png
 bugbounty: 
 meta: defunct

@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://www.blockfinex.com
 repository: 
-issue: 
 icon: com.cloud.blockfinex.png
 bugbounty: 
 meta: removed

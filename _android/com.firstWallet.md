@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: https://firstwallet.pro#deadLink
 repository: 
-issue: 
 icon: com.firstWallet.png
 bugbounty: 
 meta: removed

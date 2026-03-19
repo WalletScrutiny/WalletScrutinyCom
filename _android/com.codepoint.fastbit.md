@@ -12,7 +12,6 @@ version: '2.4'
 reviews: 
 website: https://fastbitng.com#deadLink
 repository: 
-issue: 
 icon: com.codepoint.fastbit.png
 bugbounty: 
 meta: removed

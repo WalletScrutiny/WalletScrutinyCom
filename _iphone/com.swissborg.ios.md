@@ -13,7 +13,6 @@ version: 1.127.0
 reviews: 2420
 website: https://swissborg.com
 repository: 
-issue: 
 icon: com.swissborg.ios.jpg
 bugbounty: 
 meta: ok

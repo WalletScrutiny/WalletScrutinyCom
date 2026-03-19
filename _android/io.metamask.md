@@ -14,7 +14,6 @@ version: 7.67.3
 reviews: 6537
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
-issue: 
 icon: io.metamask.png
 bugbounty: 
 meta: ok

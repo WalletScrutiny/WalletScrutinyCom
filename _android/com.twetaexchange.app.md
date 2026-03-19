@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://twetaexchange.com#deadLink
 repository: 
-issue: 
 icon: com.twetaexchange.app.png
 bugbounty: 
 meta: removed

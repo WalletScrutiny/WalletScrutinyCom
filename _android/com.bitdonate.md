@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: https://bitdonate.com
 repository: 
-issue: 
 icon: com.bitdonate.jpg
 bugbounty: 
 meta: removed

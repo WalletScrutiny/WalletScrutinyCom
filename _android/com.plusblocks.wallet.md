@@ -12,7 +12,6 @@ version: 1.3.4
 reviews: 
 website: https://www.boxtradex.io/
 repository: 
-issue: 
 icon: com.plusblocks.wallet.png
 bugbounty: 
 meta: removed

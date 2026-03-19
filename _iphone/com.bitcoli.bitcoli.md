@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 1
 website: https://bitcoli.com
 repository: 
-issue: 
 icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
 meta: removed

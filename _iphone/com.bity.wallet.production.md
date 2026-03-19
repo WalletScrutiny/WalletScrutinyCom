@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 34
 website: https://bity.com/en/personal/wallet#deadLink
 repository: 
-issue: 
 icon: com.bity.wallet.production.jpg
 bugbounty: 
 meta: ok

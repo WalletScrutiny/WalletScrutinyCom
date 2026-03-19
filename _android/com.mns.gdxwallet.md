@@ -12,7 +12,6 @@ version: '1.86'
 reviews: 
 website: http://gdxwallet.com/
 repository: 
-issue: 
 icon: com.mns.gdxwallet.png
 bugbounty: 
 meta: removed

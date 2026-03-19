@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 44
 website: https://www.kysenpool.io/en/
 repository: 
-issue: 
 icon: io.kysenpool.mirror.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://honorfx.com/
 repository: 
-issue: 
 icon: com.app.honorfx.png
 bugbounty: 
 meta: removed

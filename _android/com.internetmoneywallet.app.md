@@ -13,7 +13,6 @@ version: '2.3'
 reviews: 85
 website: https://internetmoney.io/
 repository: 
-issue: 
 icon: com.internetmoneywallet.app.png
 bugbounty: 
 meta: ok

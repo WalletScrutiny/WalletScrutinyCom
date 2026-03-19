@@ -13,7 +13,6 @@ version: 5.12.0
 reviews: 
 website: https://www.bybit.eu/help-center
 repository: 
-issue: 
 icon: com.bybit.eu.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.multidev.forcebtc.png
 bugbounty: 
 meta: removed

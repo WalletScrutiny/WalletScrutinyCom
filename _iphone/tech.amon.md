@@ -13,7 +13,6 @@ version: 3.7.31
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: tech.amon.jpg
 bugbounty: 
 meta: removed

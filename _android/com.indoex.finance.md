@@ -13,7 +13,6 @@ version: 1.0.40
 reviews: 4
 website: https://international.indoex.io
 repository: 
-issue: 
 icon: com.indoex.finance.png
 bugbounty: 
 meta: stale

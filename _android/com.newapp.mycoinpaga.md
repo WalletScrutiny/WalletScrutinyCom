@@ -13,7 +13,6 @@ version: '1.11'
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.newapp.mycoinpaga.png
 bugbounty: 
 meta: removed

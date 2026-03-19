@@ -12,7 +12,6 @@ version: 1.0.11
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.newbit.tech.png
 bugbounty: 
 meta: removed

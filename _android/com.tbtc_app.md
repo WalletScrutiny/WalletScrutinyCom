@@ -13,7 +13,6 @@ version: 0.1.37
 reviews: 21
 website: https://thebitcoincompany.com
 repository: 
-issue: 
 icon: com.tbtc_app.png
 bugbounty: 
 meta: ok

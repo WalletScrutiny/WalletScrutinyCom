@@ -17,7 +17,6 @@ shop: https://mydorj.com/?page_id=367
 country: IR
 price: 
 repository: 
-issue: 
 icon: dorj.T.png
 bugbounty: 
 meta: ok

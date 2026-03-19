@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: http://www.coinviva.com
 repository: 
-issue: 
 icon: io.fchain.coinviva.png
 bugbounty: 
 meta: removed

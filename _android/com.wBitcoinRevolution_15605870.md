@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBitcoinRevolution_15605870.jpg
 bugbounty: 
 meta: removed

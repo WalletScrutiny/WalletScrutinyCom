@@ -12,7 +12,6 @@ version: 2.6.0
 reviews: 
 website: https://www.bluepips.co#deadLink
 repository: 
-issue: 
 icon: com.bluepipscapital.webviewapp.png
 bugbounty: 
 meta: removed

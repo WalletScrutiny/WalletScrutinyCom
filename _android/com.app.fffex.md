@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 
 website: https://main.fffex.co#deadLink
 repository: 
-issue: 
 icon: com.app.fffex.png
 bugbounty: 
 meta: removed

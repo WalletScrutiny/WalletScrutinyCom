@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://trueil.com
 repository: 
-issue: 
 icon: com.app.truil.png
 bugbounty: 
 meta: removed

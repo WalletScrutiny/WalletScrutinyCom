@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: bitkee.png
 bugbounty: 
 meta: defunct

@@ -13,7 +13,6 @@ version: 13.2.10
 reviews: 
 website: https://imxapp.io/
 repository: 
-issue: 
 icon: com.crypto.croytowallet.png
 bugbounty: 
 meta: ok

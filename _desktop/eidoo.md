@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://web.archive.org/web/20220418212420/https://eidoo.io/desktop-download
 repository: 
-issue: 
 icon: eidoo.png
 bugbounty: 
 meta: defunct

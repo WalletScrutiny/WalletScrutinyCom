@@ -14,7 +14,6 @@ version: 5.20.0
 reviews: 30
 website: https://www.coinhako.com
 repository: 
-issue: 
 icon: com.coinhako.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.248'
 reviews: 38
 website: https://www.forex.com
 repository: 
-issue: 
 icon: com.gaincapital.forex.png
 bugbounty: 
 meta: ok

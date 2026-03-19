@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 7
 website: https://swapp.ee
 repository: 
-issue: 
 icon: ee.swapp.idapp.png
 bugbounty: 
 meta: removed

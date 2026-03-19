@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.shreelox.com#deadLink
 repository: 
-issue: 
 icon: com.arhamtechnolabs.shreelox.png
 bugbounty: 
 meta: removed

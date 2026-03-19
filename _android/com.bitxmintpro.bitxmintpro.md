@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bitxmintpro.com#deadLink
 repository: 
-issue: 
 icon: com.bitxmintpro.bitxmintpro.png
 bugbounty: 
 meta: removed

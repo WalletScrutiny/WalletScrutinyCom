@@ -12,7 +12,6 @@ version: 2.9.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: nz.lightningpay.wallet.png
 bugbounty: 
 meta: ok

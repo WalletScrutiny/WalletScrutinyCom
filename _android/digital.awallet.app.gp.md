@@ -13,7 +13,6 @@ version: 1.3.5
 reviews: 15
 website: https://awallet.digital
 repository: 
-issue: 
 icon: digital.awallet.app.gp.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.1.6
 reviews: 508
 website: https://uglycash.app/
 repository: 
-issue: 
 icon: rsv.walletapp.reserve.png
 bugbounty: 
 meta: ok

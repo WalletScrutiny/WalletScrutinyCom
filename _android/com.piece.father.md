@@ -12,7 +12,6 @@ version: 1.11.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.piece.father.png
 bugbounty: 
 meta: removed

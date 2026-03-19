@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 602
 website: https://www.sbivc.co.jp/
 repository: 
-issue: 
 icon: com.taotao-ex.TaotaoTrade.jpg
 bugbounty: 
 meta: ok

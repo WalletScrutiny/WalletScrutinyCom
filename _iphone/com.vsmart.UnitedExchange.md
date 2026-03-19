@@ -13,7 +13,6 @@ version: '14.0'
 reviews: 1
 website: https://unitedexchange.io
 repository: 
-issue: 
 icon: com.vsmart.UnitedExchange.jpg
 bugbounty: 
 meta: removed

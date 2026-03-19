@@ -13,7 +13,6 @@ version: 1.3.4
 reviews: 0
 website: https://www.unodax.com
 repository: 
-issue: 
 icon: com.unodax.exchange.jpg
 bugbounty: 
 meta: removed

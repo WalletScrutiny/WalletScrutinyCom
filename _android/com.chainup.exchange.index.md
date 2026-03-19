@@ -12,7 +12,6 @@ version: 4.4.7
 reviews: 
 website: https://www.indexex.biz#deadLink
 repository: 
-issue: 
 icon: com.chainup.exchange.index.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://niuupeak.com#deadLink
 repository: 
-issue: 
 icon: com.niuupeak.app.png
 bugbounty: 
 meta: removed

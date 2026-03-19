@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://gpcio.org/index_m.html#deadLink
 repository: 
-issue: 
 icon: com.gpc.gpcwallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.3.2
 reviews: 
 website: https://www.kozjin.io
 repository: 
-issue: 
 icon: io.kozjin.wallet.png
 bugbounty: 
 meta: removed

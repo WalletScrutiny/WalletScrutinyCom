@@ -13,7 +13,6 @@ version: 3.0.39
 reviews: 26
 website: https://www.giottus.com
 repository: 
-issue: 
 icon: com.giottus.giottus_mobile.png
 bugbounty: 
 meta: ok

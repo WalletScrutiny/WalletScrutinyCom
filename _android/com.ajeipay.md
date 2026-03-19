@@ -12,7 +12,6 @@ version: '2.2'
 reviews: 
 website: https://ajeipay.com#deadLink
 repository: 
-issue: 
 icon: com.ajeipay.png
 bugbounty: 
 meta: removed

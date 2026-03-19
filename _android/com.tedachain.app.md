@@ -13,7 +13,6 @@ version: 2.6.7
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.tedachain.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: quanterall.com.cryptoexchange.png
 bugbounty: 
 meta: removed

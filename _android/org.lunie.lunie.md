@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://lunie.io
 repository: 
-issue: 
 icon: org.lunie.lunie.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.coinorbis.wallet.png
 bugbounty: 
 meta: removed

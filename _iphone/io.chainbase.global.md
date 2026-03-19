@@ -13,7 +13,6 @@ version: 1.4.13
 reviews: 718
 website: https://www.hotbit.io#deadLink
 repository: 
-issue: 
 icon: io.chainbase.global.jpg
 bugbounty: 
 meta: removed

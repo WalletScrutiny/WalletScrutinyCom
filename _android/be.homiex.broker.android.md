@@ -12,7 +12,6 @@ version: 4.1.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: be.homiex.broker.android.png
 bugbounty: 
 meta: removed

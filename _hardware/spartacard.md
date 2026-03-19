@@ -17,7 +17,6 @@ shop: https://www.indiegogo.com/projects/spartacard-transactional-crypto-hardwar
 country: AU
 price: 99USD
 repository: 
-issue: 
 icon: spartacard.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.18.0
 reviews: 37
 website: https://vcc.exchange/
 repository: 
-issue: 
 icon: com.vccexchange.png
 bugbounty: 
 meta: removed

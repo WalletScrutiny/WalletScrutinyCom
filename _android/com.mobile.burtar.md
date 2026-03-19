@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 8
 website: https://burtar.com#deadLink
 repository: 
-issue: 
 icon: com.mobile.burtar.png
 bugbounty: 
 meta: removed

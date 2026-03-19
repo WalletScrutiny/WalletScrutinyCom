@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: 
 repository: 
-issue: 
 icon: exchange.sustain.png
 bugbounty: 
 meta: removed

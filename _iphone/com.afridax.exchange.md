@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: com.afridax.exchange.jpg
 bugbounty: 
 meta: ok

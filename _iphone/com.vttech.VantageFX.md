@@ -13,7 +13,6 @@ version: 3.85.0
 reviews: 69
 website: https://www.vantagemarkets.com/
 repository: 
-issue: 
 icon: com.vttech.VantageFX.jpg
 bugbounty: 
 meta: ok

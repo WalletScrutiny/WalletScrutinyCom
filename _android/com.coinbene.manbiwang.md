@@ -14,7 +14,6 @@ version: 4.1.6
 reviews: 461
 website: https://www.coinbene.com#deadLink
 repository: 
-issue: 
 icon: com.coinbene.manbiwang.png
 bugbounty: 
 meta: removed

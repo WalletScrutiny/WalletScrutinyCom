@@ -12,7 +12,6 @@ version: 0.0.5
 reviews: 
 website: https://shifupay.net
 repository: 
-issue: 
 icon: com.shifupay.shifupay.png
 bugbounty: 
 meta: removed

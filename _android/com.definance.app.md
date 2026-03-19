@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://definance.app/
 repository: 
-issue: 
 icon: com.definance.app.png
 bugbounty: 
 meta: removed

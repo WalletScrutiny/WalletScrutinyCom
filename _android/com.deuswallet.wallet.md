@@ -12,7 +12,6 @@ version: 2.0.3
 reviews: 
 website: https://deuswallet.com
 repository: 
-issue: 
 icon: com.deuswallet.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://twenty-two.xyz/
 repository: 
-issue: 
 icon: xyz.twenty_two.portal_manager.png
 bugbounty: 
 meta: ok

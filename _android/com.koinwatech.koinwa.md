@@ -13,7 +13,6 @@ version: 3.2.3
 reviews: 
 website: https://koinwa.com#deadLink
 repository: 
-issue: 
 icon: com.koinwatech.koinwa.png
 bugbounty: 
 meta: removed

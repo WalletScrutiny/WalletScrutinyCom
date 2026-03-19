@@ -12,7 +12,6 @@ version: 1.7.2
 reviews: 
 website: https://imtechng.com
 repository: 
-issue: 
 icon: com.im.tech.imcard.jpg
 bugbounty: 
 meta: removed

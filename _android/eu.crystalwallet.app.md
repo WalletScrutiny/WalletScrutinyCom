@@ -13,7 +13,6 @@ version: '1.77'
 reviews: 9
 website: https://crystalwallet.eu#deadLink
 repository: 
-issue: 
 icon: eu.crystalwallet.app.png
 bugbounty: 
 meta: removed

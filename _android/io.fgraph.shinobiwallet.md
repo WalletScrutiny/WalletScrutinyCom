@@ -13,7 +13,6 @@ version: 1.8.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.fgraph.shinobiwallet.png
 bugbounty: 
 meta: obsolete

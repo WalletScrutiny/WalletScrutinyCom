@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 0
 website: https://excelon.io
 repository: 
-issue: 
 icon: com.excelon.excelon.go.jpg
 bugbounty: 
 meta: obsolete

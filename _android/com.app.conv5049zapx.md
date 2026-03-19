@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://zap.exchange
 repository: 
-issue: 
 icon: com.app.conv5049zapx.jpg
 bugbounty: 
 meta: removed

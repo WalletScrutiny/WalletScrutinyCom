@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://gho.group#deadLink
 repository: 
-issue: 
 icon: com.gbs.gho.wallet.png
 bugbounty: 
 meta: removed

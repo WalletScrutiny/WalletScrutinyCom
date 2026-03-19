@@ -13,7 +13,6 @@ version: 2.0.32
 reviews: 10
 website: https://www.bitfia.io
 repository: 
-issue: 
 icon: com.pint.app.png
 bugbounty: 
 meta: removed

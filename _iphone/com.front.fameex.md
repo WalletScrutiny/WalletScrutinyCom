@@ -13,7 +13,6 @@ version: 2.13.17
 reviews: 112
 website: https://www.fameex.com
 repository: 
-issue: 
 icon: com.front.fameex.jpg
 bugbounty: 
 meta: removed

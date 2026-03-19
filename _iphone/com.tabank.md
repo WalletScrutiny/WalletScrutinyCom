@@ -13,7 +13,6 @@ version: 1.3.5
 reviews: 24
 website: https://web.tabus.co/ecommerce
 repository: 
-issue: 
 icon: com.tabank.jpg
 bugbounty: 
 meta: removed

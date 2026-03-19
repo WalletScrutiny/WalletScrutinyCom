@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 
 website: https://inflowchange.com
 repository: 
-issue: 
 icon: com.inflowchange.inflowchange.png
 bugbounty: 
 meta: removed

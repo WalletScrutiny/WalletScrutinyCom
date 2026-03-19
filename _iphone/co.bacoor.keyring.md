@@ -13,7 +13,6 @@ version: 5.4.0
 reviews: 11
 website: 
 repository: 
-issue: 
 icon: co.bacoor.keyring.jpg
 bugbounty: 
 meta: ok

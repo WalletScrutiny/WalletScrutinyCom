@@ -13,7 +13,6 @@ version: 1.0-prod2
 reviews: 60
 website: https://theblackwallstreet.com
 repository: 
-issue: 
 icon: com.tbws.jpg
 bugbounty: 
 meta: removed

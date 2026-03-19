@@ -21,7 +21,6 @@ shop: https://www.blockchain.com/
 country: UK
 price: 
 repository: 
-issue: 
 icon: lockbox.png
 bugbounty: 
 meta: discontinued

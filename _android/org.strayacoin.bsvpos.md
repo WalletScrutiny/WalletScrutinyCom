@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://web.archive.org/web/20210410140507/https://www.strayacoin.org/index.php/strayapos/
 repository: 
-issue: 
 icon: org.strayacoin.bsvpos.png
 bugbounty: 
 meta: removed

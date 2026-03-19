@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: ukeys.png
 bugbounty: 
 meta: defunct

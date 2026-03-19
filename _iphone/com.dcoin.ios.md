@@ -13,7 +13,6 @@ version: 5.7.2
 reviews: 19
 website: https://www.dcoin.com/
 repository: 
-issue: 
 icon: com.dcoin.ios.jpg
 bugbounty: 
 meta: removed

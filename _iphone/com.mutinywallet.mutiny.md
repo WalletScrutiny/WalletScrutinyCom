@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 18
 website: https://web.archive.org/web/20250321052421/https://www.mutinywallet.com/
 repository: https://github.com/MutinyWallet/mutiny-web
-issue: 
 icon: com.mutinywallet.mutiny.jpg
 bugbounty: 
 meta: removed

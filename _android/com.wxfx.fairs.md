@@ -12,7 +12,6 @@ version: 1.2.9
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.wxfx.fairs.jpg
 bugbounty: 
 meta: removed

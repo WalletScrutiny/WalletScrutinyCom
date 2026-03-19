@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: app.patricia.jpg
 bugbounty: 
 meta: removed

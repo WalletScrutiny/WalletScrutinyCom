@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 24
 website: https://www.cointree.com
 repository: 
-issue: 
 icon: com.cointree.mobileapp.jpg
 bugbounty: 
 meta: stale

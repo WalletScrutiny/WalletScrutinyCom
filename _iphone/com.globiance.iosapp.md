@@ -13,7 +13,6 @@ version: '2.07'
 reviews: 86
 website: https://globiance.com
 repository: 
-issue: 
 icon: com.globiance.iosapp.jpg
 bugbounty: 
 meta: removed

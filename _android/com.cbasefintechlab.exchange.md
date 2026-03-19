@@ -13,7 +13,6 @@ version: 1.2.3
 reviews: 
 website: https://www.crossexchange.io/cross/home#deadLink
 repository: 
-issue: 
 icon: com.cbasefintechlab.exchange.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://tarmex.io
 repository: 
-issue: 
 icon: com.tarmex.tarmex.png
 bugbounty: 
 meta: removed

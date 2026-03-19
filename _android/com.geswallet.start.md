@@ -12,7 +12,6 @@ version: 0.0.2
 reviews: 
 website: https://portaltest.gesgame.io#deadLink
 repository: 
-issue: 
 icon: com.geswallet.start.png
 bugbounty: 
 meta: removed

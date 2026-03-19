@@ -12,7 +12,6 @@ version: 1.4.1
 reviews: 
 website: https://redratel.com#deadLink
 repository: 
-issue: 
 icon: com.redratel.bitratel.png
 bugbounty: 
 meta: removed

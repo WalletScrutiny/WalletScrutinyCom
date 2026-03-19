@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://bt360pro.com#deadLink
 repository: 
-issue: 
 icon: com.bt360.app.png
 bugbounty: 
 meta: removed

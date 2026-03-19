@@ -13,7 +13,6 @@ version: 9.1.0
 reviews: 18360
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
-issue: 
 icon: com.tradestation.MobileTrading.jpg
 bugbounty: 
 meta: ok

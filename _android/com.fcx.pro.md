@@ -12,7 +12,6 @@ version: 1.0.9.220803
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fcx.pro.png
 bugbounty: 
 meta: removed

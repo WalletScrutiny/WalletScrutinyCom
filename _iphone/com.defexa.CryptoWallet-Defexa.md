@@ -13,7 +13,6 @@ version: 2.4.0
 reviews: 0
 website: https://defexa.io/wallet
 repository: 
-issue: 
 icon: com.defexa.CryptoWallet-Defexa.jpg
 bugbounty: 
 meta: ok

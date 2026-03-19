@@ -12,7 +12,6 @@ version: 1.2.8
 reviews: 125
 website: https://bicool.in#deadLink
 repository: 
-issue: 
 icon: com.bicool.app.png
 bugbounty: 
 meta: removed

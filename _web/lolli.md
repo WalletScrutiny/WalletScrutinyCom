@@ -12,7 +12,6 @@ provider: Lolli, Inc.
 providerWebsite: 
 website: https://www.lolli.com
 repository: 
-issue: 
 icon: lolli.png
 bugbounty: 
 meta: ok

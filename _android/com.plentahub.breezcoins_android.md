@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.plentahub.breezcoins_android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '4.0'
 reviews: 
 website: http://xnano.com.br#deadLink
 repository: 
-issue: 
 icon: com.inf.os.xnanoandroid.png
 bugbounty: 
 meta: removed

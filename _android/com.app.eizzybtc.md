@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://eizzybtc.com#deadLink
 repository: 
-issue: 
 icon: com.app.eizzybtc.png
 bugbounty: 
 meta: removed

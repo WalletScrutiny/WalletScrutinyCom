@@ -13,7 +13,6 @@ version: 5.6.5_push_v2
 reviews: 
 website: https://vaex.tech/
 repository: 
-issue: 
 icon: com.chainup.exchange.VAEX.png
 bugbounty: 
 meta: removed

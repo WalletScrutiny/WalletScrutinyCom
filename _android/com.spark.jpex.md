@@ -13,7 +13,6 @@ version: 2.83.848
 reviews: 
 website: http://jp-ex.io
 repository: 
-issue: 
 icon: com.spark.jpex.jpg
 bugbounty: 
 meta: removed

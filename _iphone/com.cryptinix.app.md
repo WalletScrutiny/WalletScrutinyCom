@@ -13,7 +13,6 @@ version: 1.2.7
 reviews: 0
 website: https://cryptinix.com
 repository: 
-issue: 
 icon: com.cryptinix.app.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ruby.coin.png
 bugbounty: 
 meta: removed

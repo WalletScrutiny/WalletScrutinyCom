@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://yopay.co
 repository: 
-issue: 
 icon: co.yopay.wallet.png
 bugbounty: 
 meta: removed

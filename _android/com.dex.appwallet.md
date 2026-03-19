@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.dex.appwallet.png
 bugbounty: 
 meta: removed

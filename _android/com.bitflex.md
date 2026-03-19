@@ -12,7 +12,6 @@ version: 2.0-beta
 reviews: 
 website: https://bit-flex.com/
 repository: 
-issue: 
 icon: com.bitflex.png
 bugbounty: 
 meta: removed

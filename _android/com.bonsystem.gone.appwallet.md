@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: http://www.gonechain.io#deadLink
 repository: 
-issue: 
 icon: com.bonsystem.gone.appwallet.png
 bugbounty: 
 meta: removed

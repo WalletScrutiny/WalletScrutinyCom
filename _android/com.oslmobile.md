@@ -13,7 +13,6 @@ version: 3.6.15
 reviews: 35
 website: https://osl.com
 repository: 
-issue: 
 icon: com.oslmobile.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '3.31'
 reviews: 3
 website: https://www.rapixchange.com/
 repository: 
-issue: 
 icon: com.rapiexchange.png
 bugbounty: 
 meta: ok

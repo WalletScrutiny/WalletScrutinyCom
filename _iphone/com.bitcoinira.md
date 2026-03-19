@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 1166
 website: https://bitcoinira.com/
 repository: 
-issue: 
 icon: com.bitcoinira.jpg
 bugbounty: 
 meta: ok

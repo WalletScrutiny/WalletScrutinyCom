@@ -12,7 +12,6 @@ version: 1.0.46
 reviews: 13
 website: http://wallet.parler.com/
 repository: 
-issue: 
 icon: com.parlerpay.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.vbotadvisor.com#deadLink
 repository: 
-issue: 
 icon: com.vbot.vinance.png
 bugbounty: 
 meta: removed

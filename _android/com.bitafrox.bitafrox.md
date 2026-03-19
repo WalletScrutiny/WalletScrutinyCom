@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.bitafrox.com#deadLink
 repository: 
-issue: 
 icon: com.bitafrox.bitafrox.png
 bugbounty: 
 meta: removed

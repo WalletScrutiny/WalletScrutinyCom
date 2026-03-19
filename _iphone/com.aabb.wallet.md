@@ -13,7 +13,6 @@ version: 1.0.265
 reviews: 99
 website: https://aabbgmine2token.com/
 repository: 
-issue: 
 icon: com.aabb.wallet.jpg
 bugbounty: 
 meta: removed

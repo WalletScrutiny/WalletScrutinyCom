@@ -12,7 +12,6 @@ version: 5.84.10
 reviews: 
 website: https://www.xchange-coins.com#deadLink
 repository: 
-issue: 
 icon: xchange_coins.com.png
 bugbounty: 
 meta: removed

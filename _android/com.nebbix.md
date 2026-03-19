@@ -12,7 +12,6 @@ version: 0.1.2
 reviews: 
 website: https://nebbix.com
 repository: 
-issue: 
 icon: com.nebbix.jpg
 bugbounty: 
 meta: removed

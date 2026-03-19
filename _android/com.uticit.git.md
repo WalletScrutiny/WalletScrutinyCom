@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://www.liyeplimalcryptoinvestments.com#deadLink
 repository: 
-issue: 
 icon: com.uticit.git.png
 bugbounty: 
 meta: removed

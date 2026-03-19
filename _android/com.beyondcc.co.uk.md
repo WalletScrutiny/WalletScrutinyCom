@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: https://beyondcc.co.uk#deadLink
 repository: 
-issue: 
 icon: com.beyondcc.co.uk.png
 bugbounty: 
 meta: removed

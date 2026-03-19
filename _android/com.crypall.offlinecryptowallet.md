@@ -12,7 +12,6 @@ version: '2.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.crypall.offlinecryptowallet.png
 bugbounty: 
 meta: removed

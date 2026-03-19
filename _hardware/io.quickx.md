@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: io.quickx.png
 bugbounty: 
 meta: ok

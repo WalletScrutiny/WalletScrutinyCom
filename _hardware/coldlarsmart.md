@@ -18,7 +18,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: coldlarsmart.png
 bugbounty: 
 meta: discontinued

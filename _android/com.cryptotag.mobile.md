@@ -12,7 +12,6 @@ version: 1.14.40.00000
 reviews: 
 website: http://www.cryptotag.financial#deadLink
 repository: 
-issue: 
 icon: com.cryptotag.mobile.png
 bugbounty: 
 meta: removed

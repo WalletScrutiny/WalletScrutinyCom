@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.mybeyondwallet.com
 repository: 
-issue: 
 icon: com.beyondwallet.app.png
 bugbounty: 
 meta: removed

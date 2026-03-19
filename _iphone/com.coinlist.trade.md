@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 144
 website: https://coinlist.co
 repository: 
-issue: 
 icon: com.coinlist.trade.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: https://drypwallet.com/
 repository: 
-issue: 
 icon: com.dryp.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://botcrypto.mygreat.app#deadLink
 repository: 
-issue: 
 icon: com.botcrypto.finance.mygreatapp.png
 bugbounty: 
 meta: removed

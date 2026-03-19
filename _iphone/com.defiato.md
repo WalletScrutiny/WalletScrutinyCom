@@ -13,7 +13,6 @@ version: 1.2.8
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.defiato.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: https://www.bitholic.com
 repository: 
-issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.4.210302
 reviews: 
 website: https://terra-bit.io#deadLink
 repository: 
-issue: 
 icon: com.terracredit.pro.png
 bugbounty: 
 meta: removed

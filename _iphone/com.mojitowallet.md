@@ -13,7 +13,6 @@ version: 0.4.2
 reviews: 9
 website: https://www.mintlayer.org/
 repository: 
-issue: 
 icon: com.mojitowallet.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 9.10.51
 reviews: 
 website: https://xellar.co
 repository: 
-issue: 
 icon: com.xellar.wallets.png
 bugbounty: 
 meta: ok

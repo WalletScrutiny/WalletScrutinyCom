@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 1
 website: https://wallet.coremultichain.com/
 repository: 
-issue: 
 icon: com.corewallet.png
 bugbounty: 
 meta: removed

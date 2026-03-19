@@ -12,7 +12,6 @@ version: 3.4.5
 reviews: 4748
 website: https://www.tronwallet.me
 repository: 
-issue: 
 icon: com.tronwallet2.png
 bugbounty: 
 meta: removed

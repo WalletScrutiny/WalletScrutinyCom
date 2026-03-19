@@ -13,7 +13,6 @@ version: '3.74'
 reviews: 1365
 website: https://www.ziglu.io
 repository: 
-issue: 
 icon: hippotech.bank.ios.jpg
 bugbounty: 
 meta: ok

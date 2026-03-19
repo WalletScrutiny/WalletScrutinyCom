@@ -13,7 +13,6 @@ version: 1.5.2
 reviews: 1
 website: https://www.nicex.com
 repository: 
-issue: 
 icon: com.nicehash.NiceX.jpg
 bugbounty: 
 meta: removed

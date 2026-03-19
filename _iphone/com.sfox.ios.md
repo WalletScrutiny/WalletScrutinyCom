@@ -13,7 +13,6 @@ version: 1.16.2
 reviews: 14
 website: https://www.sfox.com/
 repository: 
-issue: 
 icon: com.sfox.ios.jpg
 bugbounty: 
 meta: ok

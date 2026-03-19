@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.bitsblockchain.net/
 repository: 
-issue: 
 icon: bitsblockchain.net.png
 bugbounty: 
 meta: removed

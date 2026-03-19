@@ -12,7 +12,6 @@ version: 1.5.4
 reviews: 
 website: https://rubicoin.money
 repository: 
-issue: 
 icon: ua.rubicon.crypto.wallet.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.87
 reviews: 3
 website: https://techbank.finance
 repository: 
-issue: 
 icon: com.techbank.dwallettb.jpg
 bugbounty: 
 meta: ok

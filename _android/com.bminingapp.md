@@ -13,7 +13,6 @@ version: 1.4.1
 reviews: 
 website: https://www.bmining.com/
 repository: 
-issue: 
 icon: com.bminingapp.png
 bugbounty: 
 meta: removed

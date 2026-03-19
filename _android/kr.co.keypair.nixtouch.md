@@ -12,7 +12,6 @@ version: 1.0.0.65
 reviews: 
 website: https://www.nixblock.com/
 repository: 
-issue: 
 icon: kr.co.keypair.nixtouch.png
 bugbounty: 
 meta: removed

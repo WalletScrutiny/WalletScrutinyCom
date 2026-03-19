@@ -12,7 +12,6 @@ version: 1.0-RELEASE
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.primitives.bitdefender.release.png
 bugbounty: 
 meta: obsolete

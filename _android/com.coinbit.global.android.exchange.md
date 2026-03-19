@@ -13,7 +13,6 @@ version: 2.4.03
 reviews: 
 website: https://www.coinbit.co.kr/
 repository: 
-issue: 
 icon: com.coinbit.global.android.exchange.png
 bugbounty: 
 meta: removed

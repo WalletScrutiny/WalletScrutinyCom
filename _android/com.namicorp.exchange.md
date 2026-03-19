@@ -13,7 +13,6 @@ version: 3.0.2
 reviews: 11
 website: https://nami.exchange
 repository: 
-issue: 
 icon: com.namicorp.exchange.png
 bugbounty: 
 meta: ok

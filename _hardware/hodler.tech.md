@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-issue: 
 icon: hodler.tech.png
 bugbounty: 
 meta: ok

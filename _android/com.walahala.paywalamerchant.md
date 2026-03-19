@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://walahala.com#deadLink
 repository: 
-issue: 
 icon: com.walahala.paywalamerchant.png
 bugbounty: 
 meta: removed

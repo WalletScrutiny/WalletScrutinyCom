@@ -13,7 +13,6 @@ version: '5.6'
 reviews: 80
 website: https://www.koinpark.com/
 repository: 
-issue: 
 icon: com.app.KoinParkios.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: http://cc-communications.net/
 repository: 
-issue: 
 icon: com.ezbitcoin.wallet.png
 bugbounty: 
 meta: removed

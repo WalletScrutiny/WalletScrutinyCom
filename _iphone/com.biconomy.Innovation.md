@@ -13,7 +13,6 @@ version: 2.3.18
 reviews: 148
 website: http://www.biconomy.com/
 repository: 
-issue: 
 icon: com.biconomy.Innovation.jpg
 bugbounty: 
 meta: ok

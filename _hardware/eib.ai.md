@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
 icon: eib.ai.png
 bugbounty: 
 meta: ok

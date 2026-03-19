@@ -13,7 +13,6 @@ version: 4.2.2
 reviews: 139
 website: https://www.afrbtc.com
 repository: 
-issue: 
 icon: com.afrbtcapp.png
 bugbounty: 
 meta: stale

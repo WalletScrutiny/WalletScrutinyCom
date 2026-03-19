@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: https://newchange.io
 repository: 
-issue: 
 icon: web2application.a651021638715596.com.myapplication.png
 bugbounty: 
 meta: removed

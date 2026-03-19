@@ -20,7 +20,6 @@ shop:
 country: US
 price: 50USD
 repository: 
-issue: 
 icon: nativault.png
 bugbounty: 
 meta: ok

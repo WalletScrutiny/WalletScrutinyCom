@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 0
 website: https://exchange.lordtoken.com/
 repository: 
-issue: 
 icon: com.cloud.lordtoken.jpg
 bugbounty: 
 meta: removed

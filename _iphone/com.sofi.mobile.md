@@ -13,7 +13,6 @@ version: 3.80.0
 reviews: 383625
 website: https://www.sofi.com
 repository: 
-issue: 
 icon: com.sofi.mobile.jpg
 bugbounty: 
 meta: ok

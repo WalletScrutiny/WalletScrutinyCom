@@ -13,7 +13,6 @@ version: 2.0.28
 reviews: 
 website: https://stratum.hk
 repository: 
-issue: 
 icon: br.com.coinbr.smartwallet.png
 bugbounty: 
 meta: removed

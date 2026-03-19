@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 
 website: https://changecoins.io/
 repository: 
-issue: 
 icon: com.application.changecoin.png
 bugbounty: 
 meta: removed

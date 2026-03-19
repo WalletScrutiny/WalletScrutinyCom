@@ -13,7 +13,6 @@ version: 1.1.39
 reviews: 
 website: https://www.valr.com
 repository: 
-issue: 
 icon: com.valr.app.png
 bugbounty: 
 meta: ok

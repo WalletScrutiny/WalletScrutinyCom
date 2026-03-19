@@ -13,7 +13,6 @@ version: 3.38.0
 reviews: 5531
 website: https://foxbit.com.br/negociar-criptoativos/
 repository: 
-issue: 
 icon: br.com.foxbit.jpg
 bugbounty: 
 meta: ok

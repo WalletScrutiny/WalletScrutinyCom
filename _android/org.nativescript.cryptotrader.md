@@ -12,7 +12,6 @@ version: '0.17'
 reviews: 
 website: https://web.archive.org/web/20240415210021/https://www.pipxplosion.com/
 repository: 
-issue: 
 icon: org.nativescript.cryptotrader.jpg
 bugbounty: 
 meta: removed

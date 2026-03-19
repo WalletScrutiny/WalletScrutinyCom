@@ -12,7 +12,6 @@ version: '12.08'
 reviews: 
 website: http://www.kingmax.com
 repository: 
-issue: 
 icon: com.kingmax.wallet.png
 bugbounty: 
 meta: obsolete

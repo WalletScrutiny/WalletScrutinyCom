@@ -13,7 +13,6 @@ version: 1.7.3
 reviews: 209
 website: https://cropty.io/
 repository: 
-issue: 
 icon: com.cropty.app.jpg
 bugbounty: 
 meta: ok

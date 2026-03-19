@@ -14,7 +14,6 @@ version: '4.0'
 reviews: 12
 website: https://vidulum.app
 repository: https://github.com/vidulum/vidulum.app
-issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
 meta: removed

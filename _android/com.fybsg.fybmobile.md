@@ -12,7 +12,6 @@ version: 0.5 BETA
 reviews: 
 website: https://www.fybsg.com#deadLink
 repository: 
-issue: 
 icon: com.fybsg.fybmobile.png
 bugbounty: 
 meta: removed

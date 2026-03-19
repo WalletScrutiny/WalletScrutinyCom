@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 26
 website: 
 repository: 
-issue: 
 icon: com.cryptocurrency.jtechtrade.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 5
 website: https://www.cextor.com
 repository: 
-issue: 
 icon: com.cextor.pro.png
 bugbounty: 
 meta: ok

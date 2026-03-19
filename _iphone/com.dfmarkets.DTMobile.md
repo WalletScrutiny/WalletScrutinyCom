@@ -13,7 +13,6 @@ version: 5.9.8
 reviews: 16
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
-issue: 
 icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
 meta: ok

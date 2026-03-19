@@ -12,7 +12,6 @@ version: '6.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.rightmoney.png
 bugbounty: 
 meta: removed

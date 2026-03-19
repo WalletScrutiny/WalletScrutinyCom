@@ -13,7 +13,6 @@ version: 4.1.6
 reviews: 247
 website: https://lumiwallet.com
 repository: 
-issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
 meta: removed

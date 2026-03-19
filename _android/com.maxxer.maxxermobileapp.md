@@ -12,7 +12,6 @@ version: 1.0.28
 reviews: 
 website: https://www.maxxer.com
 repository: 
-issue: 
 icon: com.maxxer.maxxermobileapp.jpg
 bugbounty: 
 meta: removed

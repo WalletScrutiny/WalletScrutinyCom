@@ -13,7 +13,6 @@ version: 0.0.1
 reviews: 
 website: https://www.vipsmartbot.com#deadLink
 repository: 
-issue: 
 icon: com.vipsmartbot.vsb.png
 bugbounty: 
 meta: removed

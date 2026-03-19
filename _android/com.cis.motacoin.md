@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://mota.money#deadLink
 repository: 
-issue: 
 icon: com.cis.motacoin.png
 bugbounty: 
 meta: removed

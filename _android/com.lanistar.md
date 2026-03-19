@@ -13,7 +13,6 @@ version: 2.0.64
 reviews: 58
 website: https://www.lanistar.com#deadLink
 repository: 
-issue: 
 icon: com.lanistar.png
 bugbounty: 
 meta: removed

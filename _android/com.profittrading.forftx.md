@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 3
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forftx.png
 bugbounty: 
 meta: removed

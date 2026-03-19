@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.hodlercrypto.invest.bitcoin.mining2.jpg
 bugbounty: 
 meta: removed

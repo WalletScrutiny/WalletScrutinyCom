@@ -13,7 +13,6 @@ version: 1.0.47
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: io.vircap.main.jpg
 bugbounty: 
 meta: removed

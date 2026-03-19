@@ -13,7 +13,6 @@ version: 1.1.9
 reviews: 546
 website: 
 repository: 
-issue: 
 icon: io.quidax.pro.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: http://ssok.info/
 repository: 
-issue: 
 icon: io.ssok.png
 bugbounty: 
 meta: removed

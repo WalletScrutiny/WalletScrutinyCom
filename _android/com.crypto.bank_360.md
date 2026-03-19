@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cryptocash-360.com
 repository: 
-issue: 
 icon: com.crypto.bank_360.jpg
 bugbounty: 
 meta: removed

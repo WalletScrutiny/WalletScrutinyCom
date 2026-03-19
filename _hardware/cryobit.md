@@ -20,7 +20,6 @@ shop: https://www.cryobit.co/products/
 country: 
 price: 
 repository: 
-issue: 
 icon: cryobit.png
 bugbounty: 
 meta: defunct

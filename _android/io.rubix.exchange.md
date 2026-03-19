@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://rubix.io
 repository: 
-issue: 
 icon: io.rubix.exchange.jpg
 bugbounty: 
 meta: removed

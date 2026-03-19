@@ -13,7 +13,6 @@ version: 7.8.2
 reviews: 838
 website: https://www.lbank.com
 repository: 
-issue: 
 icon: com.superchain.lbankgoogle.png
 bugbounty: 
 meta: ok

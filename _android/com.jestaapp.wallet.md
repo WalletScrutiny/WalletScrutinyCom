@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 60
 website: https://burtar.com#deadLink
 repository: 
-issue: 
 icon: com.jestaapp.wallet.png
 bugbounty: 
 meta: removed

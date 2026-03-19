@@ -13,7 +13,6 @@ version: 1.6.1
 reviews: 16
 website: https://vidulum.app
 repository: 
-issue: 
 icon: com.vidulum.app.jpg
 bugbounty: 
 meta: removed

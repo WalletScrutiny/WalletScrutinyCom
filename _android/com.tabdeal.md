@@ -13,7 +13,6 @@ version: 6.1.2
 reviews: 190
 website: https://tabdeal.org
 repository: 
-issue: 
 icon: com.tabdeal.png
 bugbounty: 
 meta: ok

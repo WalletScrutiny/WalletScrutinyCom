@@ -13,7 +13,6 @@ version: '1.46'
 reviews: 32
 website: https://www.theya.us/
 repository: 
-issue: 
 icon: com.theya.customerapp.jpg
 bugbounty: 
 meta: ok

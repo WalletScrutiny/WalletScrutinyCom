@@ -13,7 +13,6 @@ version: 1.0.75
 reviews: 48
 website: https://tapwallet.com/
 repository: 
-issue: 
 icon: com.humbl.wallet.app.jpg
 bugbounty: 
 meta: ok

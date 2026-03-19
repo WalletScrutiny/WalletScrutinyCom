@@ -12,7 +12,6 @@ version: '1.8'
 reviews: 
 website: https://www.kryptox.com
 repository: 
-issue: 
 icon: com.kryptox.app.png
 bugbounty: 
 meta: removed

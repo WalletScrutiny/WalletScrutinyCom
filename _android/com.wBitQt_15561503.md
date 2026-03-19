@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBitQt_15561503.jpg
 bugbounty: 
 meta: removed

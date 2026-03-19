@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.upreactiveboilerplate.png
 bugbounty: 
 meta: removed

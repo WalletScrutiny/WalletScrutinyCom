@@ -13,7 +13,6 @@ version: 1.0.26
 reviews: 30
 website: 
 repository: 
-issue: 
 icon: com.wLocalCrytoBTC_13166476.png
 bugbounty: 
 meta: removed

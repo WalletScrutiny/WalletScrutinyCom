@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://solidus-vc.io#deadLink
 repository: 
-issue: 
 icon: com.sold.wallet.png
 bugbounty: 
 meta: removed

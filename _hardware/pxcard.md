@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: pxcard.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://destreet.co#deadLink
 repository: 
-issue: 
 icon: com.wiser.app.png
 bugbounty: 
 meta: removed

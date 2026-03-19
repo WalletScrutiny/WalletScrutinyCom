@@ -13,7 +13,6 @@ version: 1.15.29
 reviews: 43
 website: https://walletverse.io
 repository: 
-issue: 
 icon: ilink.walletverse.jpg
 bugbounty: 
 meta: ok

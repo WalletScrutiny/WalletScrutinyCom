@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 3
 website: https://vynksafe.com#deadLink
 repository: 
-issue: 
 icon: com.pixels.vynksafe.jpg
 bugbounty: 
 meta: removed

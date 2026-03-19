@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 4
 website: https://gosats.io
 repository: 
-issue: 
 icon: io.gosats.png
 bugbounty: 
 meta: ok

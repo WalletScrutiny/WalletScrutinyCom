@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.modules.tradingbots.getextrabtc.png
 bugbounty: 
 meta: removed

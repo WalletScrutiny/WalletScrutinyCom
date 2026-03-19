@@ -20,7 +20,6 @@ shop: https://shop.ledger.com/products/ledger-nano-s-plus
 country: FR
 price: 79USD
 repository: https://github.com/LedgerHQ/app-bitcoin
-issue: 
 icon: ledger.nano.splus.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '18.2'
 reviews: 13215
 website: 
 repository: 
-issue: 
 icon: com.garanti.cepsube.jpg
 bugbounty: 
 meta: ok

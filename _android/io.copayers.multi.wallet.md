@@ -12,7 +12,6 @@ version: '0.21838'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.copayers.multi.wallet.png
 bugbounty: 
 meta: removed

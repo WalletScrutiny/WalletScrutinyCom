@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: web.xusdt.app.png
 bugbounty: 
 meta: removed

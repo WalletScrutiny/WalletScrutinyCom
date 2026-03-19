@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: xyz.must.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.5.14
 reviews: 2
 website: https://www.bitbucks.io/
 repository: 
-issue: 
 icon: de.fuf.bitbucks.png
 bugbounty: 
 meta: ok

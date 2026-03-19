@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wallet.falcon.png
 bugbounty: 
 meta: removed

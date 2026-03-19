@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: bitcoin.bot.finaladstest.png
 bugbounty: 
 meta: removed

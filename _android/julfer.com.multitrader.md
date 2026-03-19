@@ -12,7 +12,6 @@ version: '1.10'
 reviews: 
 website: https://julienfer.github.io/app#deadLink
 repository: 
-issue: 
 icon: julfer.com.multitrader.png
 bugbounty: 
 meta: removed

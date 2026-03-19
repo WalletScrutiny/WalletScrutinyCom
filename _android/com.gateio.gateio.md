@@ -13,7 +13,6 @@ version: 8.10.5
 reviews: 7103
 website: https://www.gate.com/
 repository: 
-issue: 
 icon: com.gateio.gateio.png
 bugbounty: 
 meta: ok

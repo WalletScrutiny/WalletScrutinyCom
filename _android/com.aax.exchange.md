@@ -13,7 +13,6 @@ version: 3.3.7
 reviews: 89
 website: https://www.aax.com#deadLink
 repository: 
-issue: 
 icon: com.aax.exchange.png
 bugbounty: 
 meta: removed

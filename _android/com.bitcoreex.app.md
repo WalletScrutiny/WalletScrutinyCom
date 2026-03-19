@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitcoreex.app.png
 bugbounty: 
 meta: stale

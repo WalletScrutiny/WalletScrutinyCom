@@ -12,7 +12,6 @@ version: '2005311702'
 reviews: 
 website: https://fdao.vn#deadLink
 repository: 
-issue: 
 icon: com.fdao.dawallet.png
 bugbounty: 
 meta: removed

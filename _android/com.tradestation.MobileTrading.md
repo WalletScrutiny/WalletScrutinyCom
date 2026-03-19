@@ -13,7 +13,6 @@ version: 9.2.1
 reviews: 2057
 website: http://tradestation.com/contact-us/
 repository: 
-issue: 
 icon: com.tradestation.MobileTrading.png
 bugbounty: 
 meta: ok

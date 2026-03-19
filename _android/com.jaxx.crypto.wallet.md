@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.jaxx.crypto.wallet.png
 bugbounty: 
 meta: removed

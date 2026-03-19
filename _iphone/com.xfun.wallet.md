@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.xfun.wallet.jpg
 bugbounty: 
 meta: obsolete

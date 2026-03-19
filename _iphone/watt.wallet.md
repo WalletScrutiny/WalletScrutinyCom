@@ -13,7 +13,6 @@ version: '1.29'
 reviews: 56
 website: 
 repository: 
-issue: 
 icon: watt.wallet.jpg
 bugbounty: 
 meta: removed

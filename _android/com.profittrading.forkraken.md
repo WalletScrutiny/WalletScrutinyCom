@@ -13,7 +13,6 @@ version: VARY
 reviews: 11
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forkraken.png
 bugbounty: 
 meta: removed

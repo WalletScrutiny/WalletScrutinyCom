@@ -13,7 +13,6 @@ version: 3.0.8
 reviews: 1
 website: https://power.trade/
 repository: 
-issue: 
 icon: com.pt.powertrade.jpg
 bugbounty: 
 meta: obsolete

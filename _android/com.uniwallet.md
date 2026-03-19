@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 2
 website: https://uniwall.et/
 repository: 
-issue: 
 icon: com.uniwallet.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.7.8
 reviews: 68
 website: https://coldwallet.com/
 repository: 
-issue: 
 icon: com.PlusWallet.png
 bugbounty: 
 meta: ok

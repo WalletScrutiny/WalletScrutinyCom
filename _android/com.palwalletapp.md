@@ -13,7 +13,6 @@ version: 1.0.29
 reviews: 
 website: https://palwallet.com
 repository: 
-issue: 
 icon: com.palwalletapp.png
 bugbounty: 
 meta: ok

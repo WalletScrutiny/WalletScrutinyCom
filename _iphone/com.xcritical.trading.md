@@ -13,7 +13,6 @@ version: 2.23.6
 reviews: 0
 website: https://xcritical.com/
 repository: 
-issue: 
 icon: com.xcritical.trading.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 8.99.0
 reviews: 6299986
 website: https://www.paypal.com/mobile
 repository: 
-issue: 
 icon: com.yourcompany.PPClient.jpg
 bugbounty: 
 meta: ok

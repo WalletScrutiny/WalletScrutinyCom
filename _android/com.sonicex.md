@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://www.sonicex.com/welcome
 repository: 
-issue: 
 icon: com.sonicex.png
 bugbounty: 
 meta: removed

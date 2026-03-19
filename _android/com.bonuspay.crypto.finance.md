@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://bonuspay.io
 repository: 
-issue: 
 icon: com.bonuspay.crypto.finance.png
 bugbounty: 
 meta: removed

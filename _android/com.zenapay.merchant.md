@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: http://www.zenapay.com
 repository: 
-issue: 
 icon: com.zenapay.merchant.png
 bugbounty: 
 meta: stale

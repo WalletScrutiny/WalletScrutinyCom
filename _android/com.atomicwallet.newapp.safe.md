@@ -14,7 +14,6 @@ version: 1.5.2
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: com.atomicwallet.newapp.safe.png
 bugbounty: 
 meta: removed

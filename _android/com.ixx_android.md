@@ -12,7 +12,6 @@ version: 2.2.2
 reviews: 83
 website: 
 repository: 
-issue: 
 icon: com.ixx_android.png
 bugbounty: 
 meta: removed

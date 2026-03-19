@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://elquirex.net/
 repository: 
-issue: 
 icon: net.elquirex.elquirexapplication.png
 bugbounty: 
 meta: removed

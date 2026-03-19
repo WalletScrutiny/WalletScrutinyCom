@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: http://k-pap.com/
 repository: 
-issue: 
 icon: com.kpapwallet.png
 bugbounty: 
 meta: removed

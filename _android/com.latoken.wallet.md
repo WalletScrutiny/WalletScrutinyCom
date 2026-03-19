@@ -13,7 +13,6 @@ version: 1.206.00
 reviews: 110
 website: http://latoken.com
 repository: 
-issue: 
 icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
 meta: ok

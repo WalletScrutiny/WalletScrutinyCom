@@ -12,7 +12,6 @@ version: 1.0.19
 reviews: 
 website: https://tenetx.io
 repository: 
-issue: 
 icon: io.shdigital.tenetx.android.png
 bugbounty: 
 meta: removed

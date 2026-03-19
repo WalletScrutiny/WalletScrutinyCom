@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.swifty.global/
 repository: 
-issue: 
 icon: com.swiftywallet.png
 bugbounty: 
 meta: removed

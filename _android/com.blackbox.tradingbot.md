@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.youtube.com/c/CryptoCrasher/live
 repository: 
-issue: 
 icon: com.blackbox.tradingbot.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.cursdaq.com#deadLink
 repository: 
-issue: 
 icon: fcm.cursdaq.com.jpg
 bugbounty: 
 meta: removed

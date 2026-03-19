@@ -17,7 +17,6 @@ shop:
 country: EE
 price: 
 repository: 
-issue: 
 icon: scallop.png
 bugbounty: 
 meta: ok

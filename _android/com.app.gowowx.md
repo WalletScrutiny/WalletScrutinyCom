@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: http://www.gowowx.com
 repository: 
-issue: 
 icon: com.app.gowowx.png
 bugbounty: 
 meta: removed

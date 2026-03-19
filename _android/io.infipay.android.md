@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 1
 website: http://www.infipay.io/
 repository: 
-issue: 
 icon: io.infipay.android.png
 bugbounty: 
 meta: removed

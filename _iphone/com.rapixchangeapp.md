@@ -13,7 +13,6 @@ version: '2.4'
 reviews: 2
 website: https://www.rapixchange.com/
 repository: 
-issue: 
 icon: com.rapixchangeapp.jpg
 bugbounty: 
 meta: removed

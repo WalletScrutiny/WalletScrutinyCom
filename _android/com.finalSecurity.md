@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://final-security.com
 repository: 
-issue: 
 icon: com.finalSecurity.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.9.8
 reviews: 5
 website: https://www.mayex.com/referral
 repository: 
-issue: 
 icon: com.mayex.trading.jpg
 bugbounty: 
 meta: removed

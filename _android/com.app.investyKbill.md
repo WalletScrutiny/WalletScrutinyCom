@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.app.investyKbill.png
 bugbounty: 
 meta: removed

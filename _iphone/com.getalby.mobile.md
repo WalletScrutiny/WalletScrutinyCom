@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 21
 website: https://getalby.com/
 repository: 
-issue: 
 icon: com.getalby.mobile.jpg
 bugbounty: 
 meta: ok

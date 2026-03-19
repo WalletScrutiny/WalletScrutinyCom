@@ -13,7 +13,6 @@ version: 3.0.9
 reviews: 187
 website: https://www.modeapp.com
 repository: 
-issue: 
 icon: com.fibermode.mode.android.png
 bugbounty: 
 meta: removed

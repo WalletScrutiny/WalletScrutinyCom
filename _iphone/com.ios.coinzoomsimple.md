@@ -13,7 +13,6 @@ version: 3.2.28
 reviews: 499
 website: http://www.coinzoom.com
 repository: 
-issue: 
 icon: com.ios.coinzoomsimple.jpg
 bugbounty: 
 meta: ok

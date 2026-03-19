@@ -12,7 +12,6 @@ version: 1.0.18
 reviews: 
 website: https://nagax.com/
 repository: 
-issue: 
 icon: nagax.mobile.png
 bugbounty: 
 meta: removed

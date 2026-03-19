@@ -20,7 +20,6 @@ shop: https://www.kelvinwallet.com/product-page#deadLink
 country: TW
 price: 3000TWD
 repository: 
-issue: 
 icon: chelpis.kelvinwallet.png
 bugbounty: 
 meta: ok

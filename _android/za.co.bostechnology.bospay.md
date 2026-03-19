@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://bospay.co/
 repository: 
-issue: 
 icon: za.co.bostechnology.bospay.png
 bugbounty: 
 meta: removed

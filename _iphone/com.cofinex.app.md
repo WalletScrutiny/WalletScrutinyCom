@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://web.archive.org/web/20230406135322/https://exchange.cofinex.io/
 repository: 
-issue: 
 icon: com.cofinex.app.jpg
 bugbounty: 
 meta: removed

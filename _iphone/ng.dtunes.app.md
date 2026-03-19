@@ -13,7 +13,6 @@ version: 2.2.5
 reviews: 504
 website: 
 repository: 
-issue: 
 icon: ng.dtunes.app.jpg
 bugbounty: 
 meta: ok

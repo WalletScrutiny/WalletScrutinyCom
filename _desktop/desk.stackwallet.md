@@ -12,7 +12,6 @@ provider: Cypher Stack
 providerWebsite: 
 website: https://stackwallet.com/
 repository: https://github.com/cypherstack/stack_wallet
-issue: 
 icon: desk.stackwallet.png
 bugbounty: 
 meta: ok

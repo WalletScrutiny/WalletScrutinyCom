@@ -12,7 +12,6 @@ version: '2.8'
 reviews: 
 website: https://minichange.me/
 repository: 
-issue: 
 icon: me.minichange.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.4.2
 reviews: 0
 website: https://vipsats.app
 repository: 
-issue: 
 icon: app.vipsats.satos.jpg
 bugbounty: 
 meta: stale

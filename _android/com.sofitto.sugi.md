@@ -12,7 +12,6 @@ version: 1.8.2
 reviews: 
 website: https://sugi.io
 repository: 
-issue: 
 icon: com.sofitto.sugi.png
 bugbounty: 
 meta: removed

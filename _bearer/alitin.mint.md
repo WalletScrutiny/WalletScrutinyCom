@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: alitin.mint.png
 bugbounty: 
 meta: defunct

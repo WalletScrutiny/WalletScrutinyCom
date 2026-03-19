@@ -13,7 +13,6 @@ version: '38.0'
 reviews: 2535
 website: https://www.emberfund.io/
 repository: 
-issue: 
 icon: com.emberfund.ember.jpg
 bugbounty: 
 meta: ok

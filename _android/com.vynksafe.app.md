@@ -13,7 +13,6 @@ version: '2.6'
 reviews: 
 website: https://vynksafe.com#deadLink
 repository: 
-issue: 
 icon: com.vynksafe.app.png
 bugbounty: 
 meta: removed

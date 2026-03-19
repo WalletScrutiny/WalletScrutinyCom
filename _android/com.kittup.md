@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://kittup.app#deadLink
 repository: 
-issue: 
 icon: com.kittup.png
 bugbounty: 
 meta: removed

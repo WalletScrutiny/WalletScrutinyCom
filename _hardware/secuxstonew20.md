@@ -21,7 +21,6 @@ shop: https://shop.secuxtech.com/products/w20-hardware-wallet-for-computer-mobil
 country: TW
 price: 119USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: 
 icon: secuxstonew20.png
 bugbounty: 
 meta: ok

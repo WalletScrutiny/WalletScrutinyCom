@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: http://www.qume.io
 repository: 
-issue: 
 icon: com.qume.app.png
 bugbounty: 
 meta: removed

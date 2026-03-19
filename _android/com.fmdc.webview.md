@@ -12,7 +12,6 @@ version: 1.0.build4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fmdc.webview.png
 bugbounty: 
 meta: removed

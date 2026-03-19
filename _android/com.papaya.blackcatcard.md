@@ -13,7 +13,6 @@ version: 1.3.14
 reviews: 2254
 website: https://blackcatcard.com
 repository: 
-issue: 
 icon: com.papaya.blackcatcard.png
 bugbounty: 
 meta: ok

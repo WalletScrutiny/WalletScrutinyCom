@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 
 website: https://rewindbitcoin.com
 repository: 
-issue: 
 icon: com.rewindbitcoin.app.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 38
 website: https://nominex.io/defi-nmx
 repository: 
-issue: 
 icon: com.nominex.app.png
 bugbounty: 
 meta: removed

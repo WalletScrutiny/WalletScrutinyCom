@@ -13,7 +13,6 @@ version: 4.1.3
 reviews: 30
 website: https://blocktrade.com
 repository: 
-issue: 
 icon: com.blocktrade.ios.jpg
 bugbounty: 
 meta: removed

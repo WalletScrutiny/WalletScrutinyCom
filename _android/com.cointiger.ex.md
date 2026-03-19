@@ -13,7 +13,6 @@ version: 5.13.2
 reviews: 156
 website: https://www.cointiger.com#deadLink
 repository: 
-issue: 
 icon: com.cointiger.ex.png
 bugbounty: 
 meta: removed

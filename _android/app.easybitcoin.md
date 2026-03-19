@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 21
 website: https://easybitcoin.app/
 repository: 
-issue: 
 icon: app.easybitcoin.png
 bugbounty: 
 meta: ok

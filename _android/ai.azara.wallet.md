@@ -13,7 +13,6 @@ version: 0.01.18
 reviews: 
 website: https://www.azara.ai#deadLink
 repository: 
-issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
 meta: removed

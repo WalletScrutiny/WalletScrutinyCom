@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 31
 website: 
 repository: 
-issue: 
 icon: com.ICMarkets.ICMarkets-app.jpg
 bugbounty: 
 meta: obsolete

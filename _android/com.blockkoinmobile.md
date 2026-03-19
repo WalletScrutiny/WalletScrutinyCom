@@ -12,7 +12,6 @@ version: 1.6.12
 reviews: 
 website: https://blockkoin.io
 repository: 
-issue: 
 icon: com.blockkoinmobile.png
 bugbounty: 
 meta: removed

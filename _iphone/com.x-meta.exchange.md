@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 3
 website: https://x-meta.com/
 repository: 
-issue: 
 icon: com.x-meta.exchange.jpg
 bugbounty: 
 meta: removed

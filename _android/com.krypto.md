@@ -13,7 +13,6 @@ version: '8.5'
 reviews: 19
 website: https://letskrypto.com
 repository: 
-issue: 
 icon: com.krypto.png
 bugbounty: 
 meta: removed

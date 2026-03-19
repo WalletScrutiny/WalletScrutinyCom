@@ -13,7 +13,6 @@ version: 4.1.4
 reviews: 26
 website: https://www.cryptonator.com
 repository: 
-issue: 
 icon: com.cryptonator.ios.jpg
 bugbounty: 
 meta: removed

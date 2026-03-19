@@ -13,7 +13,6 @@ version: 3.51.0
 reviews: 32
 website: https://www.buenbit.com
 repository: 
-issue: 
 icon: com.buengroup.buenbit.png
 bugbounty: 
 meta: ok

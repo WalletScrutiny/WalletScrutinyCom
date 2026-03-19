@@ -13,7 +13,6 @@ version: 2.159.1
 reviews: 208
 website: http://www.xtb.com
 repository: 
-issue: 
 icon: com.xtb.xmobile2.png
 bugbounty: 
 meta: ok

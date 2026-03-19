@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 20
 website: https://bitkap.africa
 repository: 
-issue: 
 icon: net.bitkap.frontEnd.jpg
 bugbounty: 
 meta: ok

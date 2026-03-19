@@ -13,7 +13,6 @@ version: 3.0.1
 reviews: 3080
 website: https://goarbit.com/
 repository: 
-issue: 
 icon: com.goarbit.goarbit.png
 bugbounty: 
 meta: removed

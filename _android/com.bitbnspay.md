@@ -13,7 +13,6 @@ version: 1.9.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitbnspay.png
 bugbounty: 
 meta: obsolete

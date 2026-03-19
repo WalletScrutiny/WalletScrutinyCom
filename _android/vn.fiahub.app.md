@@ -13,7 +13,6 @@ version: 2.20.5
 reviews: 
 website: http://www.fiahub.com
 repository: 
-issue: 
 icon: vn.fiahub.app.png
 bugbounty: 
 meta: ok

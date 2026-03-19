@@ -13,7 +13,6 @@ version: 1.41.0
 reviews: 
 website: https://hitbtc.com/wallet
 repository: 
-issue: 
 icon: com.hitbtc.wallet.jpg
 bugbounty: 
 meta: ok

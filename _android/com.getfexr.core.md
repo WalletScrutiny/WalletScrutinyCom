@@ -12,7 +12,6 @@ version: 3.2.0
 reviews: 
 website: https://getfexr.com
 repository: 
-issue: 
 icon: com.getfexr.core.png
 bugbounty: 
 meta: ok

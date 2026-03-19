@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://www.cryptomerchant.eu
 repository: 
-issue: 
 icon: eu.cryptomerchant.pos.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://inanomo.com/
 repository: 
-issue: 
 icon: com.inanomo.market.png
 bugbounty: 
 meta: removed

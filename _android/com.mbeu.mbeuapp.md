@@ -13,7 +13,6 @@ version: 1.5.1
 reviews: 
 website: https://mercadobitcoin.pt/
 repository: 
-issue: 
 icon: com.mbeu.mbeuapp.png
 bugbounty: 
 meta: ok

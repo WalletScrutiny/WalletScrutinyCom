@@ -13,7 +13,6 @@ version: '6.0'
 reviews: 20
 website: https://pionechain.com
 repository: 
-issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
 meta: ok

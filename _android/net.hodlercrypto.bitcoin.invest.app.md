@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.hodlercrypto.bitcoin.invest.app.jpg
 bugbounty: 
 meta: removed

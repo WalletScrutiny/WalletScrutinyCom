@@ -13,7 +13,6 @@ version: 1.24.1
 reviews: 50
 website: https://zypto.com/
 repository: 
-issue: 
 icon: com.zypto.zypto.jpg
 bugbounty: 
 meta: ok

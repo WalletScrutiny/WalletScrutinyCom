@@ -13,7 +13,6 @@ version: 1.3.12
 reviews: 
 website: http://www.financex.io#deadLink
 repository: 
-issue: 
 icon: com.financex.png
 bugbounty: 
 meta: removed

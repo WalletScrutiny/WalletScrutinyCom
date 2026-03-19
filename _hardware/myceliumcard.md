@@ -17,7 +17,6 @@ shop: https://card.mycelium.com/
 country: US
 price: 
 repository: 
-issue: 
 icon: myceliumcard.png
 bugbounty: 
 meta: ok

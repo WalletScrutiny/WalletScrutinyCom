@@ -13,7 +13,6 @@ version: 1.5.5
 reviews: 16
 website: https://ggp.gg/
 repository: 
-issue: 
 icon: com.ggp__wallet.jpg
 bugbounty: 
 meta: ok

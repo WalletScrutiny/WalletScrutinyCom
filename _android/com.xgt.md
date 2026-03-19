@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://gxt.global#deadLink
 repository: 
-issue: 
 icon: com.xgt.png
 bugbounty: 
 meta: removed

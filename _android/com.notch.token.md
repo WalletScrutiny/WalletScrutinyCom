@@ -12,7 +12,6 @@ version: V1.0
 reviews: 
 website: https://notchtoken.com
 repository: 
-issue: 
 icon: com.notch.token.png
 bugbounty: 
 meta: removed

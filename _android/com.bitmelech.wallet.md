@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 
 website: https://bitmelech.com#deadLink
 repository: 
-issue: 
 icon: com.bitmelech.wallet.png
 bugbounty: 
 meta: removed

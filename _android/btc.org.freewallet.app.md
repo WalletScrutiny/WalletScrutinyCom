@@ -13,7 +13,6 @@ version: 2.6.8
 reviews: 561
 website: https://freewallet.org/
 repository: 
-issue: 
 icon: btc.org.freewallet.app.png
 bugbounty: 
 meta: removed

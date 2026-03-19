@@ -13,7 +13,6 @@ version: 1.5.1
 reviews: 
 website: https://wallet.lyofi.com#deadLink
 repository: 
-issue: 
 icon: com.lyofi.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitdd.co
 repository: 
-issue: 
 icon: xyz.snazy.snazazizventures.bitdd.png
 bugbounty: 
 meta: removed

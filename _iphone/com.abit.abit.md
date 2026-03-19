@@ -13,7 +13,6 @@ version: 2.3.2
 reviews: 
 website: https://www.abit.com
 repository: 
-issue: 
 icon: com.abit.abit.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 22
 website: https://vizo.app
 repository: 
-issue: 
 icon: app.zupago.app.png
 bugbounty: 
 meta: removed

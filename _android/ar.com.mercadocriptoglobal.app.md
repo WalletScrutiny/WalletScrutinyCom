@@ -12,7 +12,6 @@ version: 2.4.1
 reviews: 
 website: https://www.mercadocriptoglobal.com/
 repository: 
-issue: 
 icon: ar.com.mercadocriptoglobal.app.png
 bugbounty: 
 meta: removed

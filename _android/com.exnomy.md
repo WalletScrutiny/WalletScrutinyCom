@@ -12,7 +12,6 @@ version: 1.0.18
 reviews: 
 website: https://www.exnomy.com/
 repository: 
-issue: 
 icon: com.exnomy.jpg
 bugbounty: 
 meta: removed

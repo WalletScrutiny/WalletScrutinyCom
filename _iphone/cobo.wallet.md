@@ -13,7 +13,6 @@ version: 5.19.17
 reviews: 6
 website: https://cobo.com
 repository: 
-issue: 
 icon: cobo.wallet.jpg
 bugbounty: 
 meta: ok

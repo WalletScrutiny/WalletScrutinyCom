@@ -13,7 +13,6 @@ version: 3.10.2
 reviews: 3449
 website: https://lumiwallet.com/
 repository: 
-issue: 
 icon: com.lumiwallet.HD.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.33
 reviews: 
 website: https://hotx.pro/en/home
 repository: 
-issue: 
 icon: com.exchange.hotxapp.png
 bugbounty: 
 meta: removed

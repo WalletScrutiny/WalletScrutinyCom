@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://web.archive.org/web/20220208202705/https://tmginvesting.com/
 repository: 
-issue: 
 icon: tmg.investing2.jpg
 bugbounty: 
 meta: removed

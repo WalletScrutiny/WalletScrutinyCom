@@ -13,7 +13,6 @@ version: 1.4.21
 reviews: 
 website: http://mudra.exchange/
 repository: 
-issue: 
 icon: mudra.exchange.png
 bugbounty: 
 meta: removed

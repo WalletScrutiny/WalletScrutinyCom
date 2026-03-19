@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptoplanetgreencg.bitcoin.investment.app.india.png
 bugbounty: 
 meta: removed

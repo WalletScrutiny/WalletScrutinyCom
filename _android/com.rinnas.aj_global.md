@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 13
 website: https://ajglobalv.com/
 repository: 
-issue: 
 icon: com.rinnas.aj_global.png
 bugbounty: 
 meta: removed

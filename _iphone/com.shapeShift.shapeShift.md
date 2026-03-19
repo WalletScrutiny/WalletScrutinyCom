@@ -13,7 +13,6 @@ version: 3.6.1
 reviews: 76
 website: https://shapeshift.com
 repository: 
-issue: 
 icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
 meta: ok

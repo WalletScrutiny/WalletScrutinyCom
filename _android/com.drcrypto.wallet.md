@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 64
 website: 
 repository: 
-issue: 
 icon: com.drcrypto.wallet.png
 bugbounty: 
 meta: removed

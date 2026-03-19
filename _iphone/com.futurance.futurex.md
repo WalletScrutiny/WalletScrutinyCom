@@ -13,7 +13,6 @@ version: 5.7.3
 reviews: 136
 website: 
 repository: 
-issue: 
 icon: com.futurance.futurex.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 7
 website: https://dtrax.io
 repository: 
-issue: 
 icon: com.sculptech.dtrax.png
 bugbounty: 
 meta: removed

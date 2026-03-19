@@ -13,7 +13,6 @@ version: 3.14.0
 reviews: 
 website: https://exchange.youngplatform.com
 repository: 
-issue: 
 icon: com.youngplatform.exchange.png
 bugbounty: 
 meta: ok

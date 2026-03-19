@@ -13,7 +13,6 @@ version: 3.109.0
 reviews: 26462
 website: 
 repository: 
-issue: 
 icon: com.kucoin.KuCoin.iOS.jpg
 bugbounty: 
 meta: removed

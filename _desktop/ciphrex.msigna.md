@@ -12,7 +12,6 @@ provider: Ciphrex
 providerWebsite: https://web.archive.org/web/20170905112722/https://ciphrex.com/
 website: 
 repository: https://github.com/ciphrex/mSIGNA
-issue: 
 icon: ciphrex.msigna.png
 bugbounty: 
 meta: obsolete

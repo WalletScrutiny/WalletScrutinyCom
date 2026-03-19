@@ -12,7 +12,6 @@ version: 5.129.20
 reviews: 
 website: https://bitexly.com
 repository: 
-issue: 
 icon: bitexly.com.png
 bugbounty: 
 meta: removed

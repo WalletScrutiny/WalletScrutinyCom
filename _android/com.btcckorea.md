@@ -13,7 +13,6 @@ version: 1.0.19
 reviews: 
 website: https://jetfinex.com/
 repository: 
-issue: 
 icon: com.btcckorea.png
 bugbounty: 
 meta: removed

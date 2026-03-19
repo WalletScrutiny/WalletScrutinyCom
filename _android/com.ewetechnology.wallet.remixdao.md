@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://benty.ewetechnology.com/
 repository: 
-issue: 
 icon: com.ewetechnology.wallet.remixdao.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.1.4
 reviews: 100
 website: https://plantcoin.com
 repository: 
-issue: 
 icon: com.zb.zhongbi.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.1.10
 reviews: 1
 website: https://swiftcoin.io/
 repository: 
-issue: 
 icon: io.swiftcoin.png
 bugbounty: 
 meta: ok

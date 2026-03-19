@@ -12,7 +12,6 @@ version: 1.0.44
 reviews: 
 website: http://eternitywall.it
 repository: 
-issue: 
 icon: it.eternitywall.eternitywall.png
 bugbounty: 
 meta: removed

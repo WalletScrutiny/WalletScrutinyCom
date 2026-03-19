@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://github.com/ethicnology/subterfuge
 repository: 
-issue: 
 icon: org.ethicnology.subterfuge.png
 bugbounty: 
 meta: removed

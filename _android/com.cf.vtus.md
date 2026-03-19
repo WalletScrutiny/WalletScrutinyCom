@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cf.vtus.png
 bugbounty: 
 meta: removed

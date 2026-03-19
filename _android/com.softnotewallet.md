@@ -12,7 +12,6 @@ version: 1.8.4
 reviews: 3
 website: https://softnote.com
 repository: 
-issue: 
 icon: com.softnotewallet.png
 bugbounty: 
 meta: ok

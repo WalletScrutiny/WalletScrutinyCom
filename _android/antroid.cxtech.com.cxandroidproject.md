@@ -13,7 +13,6 @@ version: 1.3.12
 reviews: 
 website: https://dx.exchange
 repository: 
-issue: 
 icon: antroid.cxtech.com.cxandroidproject.png
 bugbounty: 
 meta: removed

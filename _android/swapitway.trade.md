@@ -13,7 +13,6 @@ version: '5'
 reviews: 47
 website: https://swapitway.com
 repository: 
-issue: 
 icon: swapitway.trade.jpg
 bugbounty: 
 meta: ok

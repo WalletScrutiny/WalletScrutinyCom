@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.1.3
 reviews: 170
 website: https://www.iconomi.com
 repository: 
-issue: 
 icon: net.iconomi.android.png
 bugbounty: 
 meta: ok

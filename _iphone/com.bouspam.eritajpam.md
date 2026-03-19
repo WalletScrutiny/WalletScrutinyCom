@@ -13,7 +13,6 @@ version: 2.4.7
 reviews: 1
 website: https://vcards.eritajpam.com#deadLink
 repository: 
-issue: 
 icon: com.bouspam.eritajpam.jpg
 bugbounty: 
 meta: defunct

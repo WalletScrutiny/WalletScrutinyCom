@@ -13,7 +13,6 @@ version: 2.81.0
 reviews: 5
 website: https://www.leather.io
 repository: https://github.com/leather-io/mono/
-issue: 
 icon: io.leather.mobilewallet.jpg
 bugbounty: 
 meta: ok

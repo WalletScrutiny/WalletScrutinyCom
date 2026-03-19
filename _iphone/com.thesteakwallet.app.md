@@ -12,7 +12,6 @@ version: 3.7.0
 reviews: 98
 website: https://omni.app/
 repository: 
-issue: 
 icon: com.thesteakwallet.app.jpg
 bugbounty: 
 meta: ok

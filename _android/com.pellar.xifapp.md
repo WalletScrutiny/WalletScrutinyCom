@@ -13,7 +13,6 @@ version: 5.3.7
 reviews: 4
 website: http://www.xinfinity.io
 repository: 
-issue: 
 icon: com.pellar.xifapp.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://exchange.panthira.com/
 repository: 
-issue: 
 icon: com.cloud.panthira.png
 bugbounty: 
 meta: removed

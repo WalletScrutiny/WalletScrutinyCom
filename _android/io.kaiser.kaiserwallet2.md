@@ -13,7 +13,6 @@ version: 2.9.11
 reviews: 
 website: https://bizblocks.io
 repository: 
-issue: 
 icon: io.kaiser.kaiserwallet2.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.2.2
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: io.cheeleewallet.app.jpg
 bugbounty: 
 meta: stale

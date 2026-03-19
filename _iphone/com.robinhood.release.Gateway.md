@@ -13,7 +13,6 @@ version: 2026.4.0
 reviews: 4215
 website: https://robinhood.com/web3-wallet
 repository: 
-issue: 
 icon: com.robinhood.release.Gateway.jpg
 bugbounty: 
 meta: ok

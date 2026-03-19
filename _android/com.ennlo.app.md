@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: https://ennlo.com
 repository: 
-issue: 
 icon: com.ennlo.app.png
 bugbounty: 
 meta: removed

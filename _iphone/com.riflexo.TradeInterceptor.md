@@ -13,7 +13,6 @@ version: 9.2.1
 reviews: 757
 website: https://www.thinkmarkets.com/en/about-us/
 repository: 
-issue: 
 icon: com.riflexo.TradeInterceptor.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 4.2.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hopex.global.png
 bugbounty: 
 meta: removed

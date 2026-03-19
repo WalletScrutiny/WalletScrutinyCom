@@ -12,7 +12,6 @@ version: 4.8.0
 reviews: 5678
 website: https://www.coinex.com/
 repository: 
-issue: 
 icon: com.coinex.trade.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 6.3.12
 reviews: 
 website: https://bluebiz.opensecu.com#deadLink
 repository: 
-issue: 
 icon: com.wallet.bluebiz.png
 bugbounty: 
 meta: removed

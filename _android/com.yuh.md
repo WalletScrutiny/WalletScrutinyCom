@@ -13,7 +13,6 @@ version: 1.41.1
 reviews: 4
 website: https://www.yuh.com
 repository: 
-issue: 
 icon: com.yuh.png
 bugbounty: 
 meta: ok

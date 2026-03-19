@@ -13,7 +13,6 @@ version: 30.8.2
 reviews: 229
 website: http://www.bunq.com
 repository: 
-issue: 
 icon: com.bunq.android.png
 bugbounty: 
 meta: ok

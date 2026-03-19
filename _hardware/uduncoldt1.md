@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: uduncoldt1.png
 bugbounty: 
 meta: ok

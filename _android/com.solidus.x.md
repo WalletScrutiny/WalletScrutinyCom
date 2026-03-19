@@ -12,7 +12,6 @@ version: '188.5'
 reviews: 
 website: https://solidusx.com#deadLink
 repository: 
-issue: 
 icon: com.solidus.x.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.3.3
 reviews: 2
 website: https://www.ethosdefi.com
 repository: 
-issue: 
 icon: com.ethos2.app.jpg
 bugbounty: 
 meta: ok

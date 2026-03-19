@@ -12,7 +12,6 @@ version: 2.2.0
 reviews: 27
 website: https://surecrypto.io
 repository: 
-issue: 
 icon: io.surecrypto.wallet.png
 bugbounty: 
 meta: removed

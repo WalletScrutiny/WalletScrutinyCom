@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: offline.cash.png
 bugbounty: 
 meta: ok

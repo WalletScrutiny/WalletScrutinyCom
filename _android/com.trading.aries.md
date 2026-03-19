@@ -13,7 +13,6 @@ version: 3.7.6
 reviews: 
 website: https://tradearies.com
 repository: 
-issue: 
 icon: com.trading.aries.png
 bugbounty: 
 meta: removed

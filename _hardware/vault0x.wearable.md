@@ -17,7 +17,6 @@ shop:
 country: IN
 price: 
 repository: 
-issue: 
 icon: vault0x.wearable.png
 bugbounty: 
 meta: ok

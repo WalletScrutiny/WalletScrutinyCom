@@ -17,7 +17,6 @@ shop:
 country: MY
 price: 
 repository: 
-issue: 
 icon: everusworld.hwallet.png
 bugbounty: 
 meta: ok

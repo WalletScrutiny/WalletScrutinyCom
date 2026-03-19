@@ -12,7 +12,6 @@ version: 0.2.37
 reviews: 
 website: https://axirwallet.com/
 repository: 
-issue: 
 icon: com.axir.axrwallet.png
 bugbounty: 
 meta: stale

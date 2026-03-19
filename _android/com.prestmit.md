@@ -13,7 +13,6 @@ version: 7.2.488
 reviews: 829
 website: https://staging.prestmit.com
 repository: 
-issue: 
 icon: com.prestmit.png
 bugbounty: 
 meta: ok

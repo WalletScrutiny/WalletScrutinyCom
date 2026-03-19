@@ -12,7 +12,6 @@ version: v2.0.5
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.bastionpay.alphawallet.png
 bugbounty: 
 meta: removed

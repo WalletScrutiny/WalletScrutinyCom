@@ -12,7 +12,6 @@ version: 2.2.3
 reviews: 
 website: https://oasisexc.com/
 repository: 
-issue: 
 icon: com.oasisexc.app.png
 bugbounty: 
 meta: removed

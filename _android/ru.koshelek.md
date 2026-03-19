@@ -13,7 +13,6 @@ version: 1.16.6
 reviews: 149
 website: https://koshelek.ru/
 repository: 
-issue: 
 icon: ru.koshelek.png
 bugbounty: 
 meta: ok

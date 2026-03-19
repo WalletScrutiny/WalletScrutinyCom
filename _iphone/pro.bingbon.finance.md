@@ -14,7 +14,6 @@ version: 4.71.0
 reviews: 2678
 website: https://bingbon.com#deadLink
 repository: 
-issue: 
 icon: pro.bingbon.finance.jpg
 bugbounty: 
 meta: ok

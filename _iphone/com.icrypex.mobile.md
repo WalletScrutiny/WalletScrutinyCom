@@ -13,7 +13,6 @@ version: '4.1'
 reviews: 1
 website: https://www.icrypex.com/
 repository: 
-issue: 
 icon: com.icrypex.mobile.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 
 website: 
 repository: https://github.com/META-1-Official/litewallet-native#deadLink
-issue: 
 icon: com.litewallet.app.png
 bugbounty: 
 meta: removed

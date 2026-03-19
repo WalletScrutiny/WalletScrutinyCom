@@ -14,7 +14,6 @@ version: 2.4.7
 reviews: 947
 website: https://ascendex.com
 repository: 
-issue: 
 icon: io.bitmax.exchange.png
 bugbounty: 
 meta: removed

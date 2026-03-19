@@ -13,7 +13,6 @@ version: 3.2.2
 reviews: 
 website: https://laqira.com/
 repository: 
-issue: 
 icon: com.laqira.exchange.png
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: 2.4.16
 reviews: 
 website: https://www.tokenup.org
 repository: 
-issue: 
 icon: org.tokenup.app.png
 bugbounty: 
 meta: ok

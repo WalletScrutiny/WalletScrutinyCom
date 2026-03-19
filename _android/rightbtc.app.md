@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://www.rightbtc.com#deadLink
 repository: 
-issue: 
 icon: rightbtc.app.png
 bugbounty: 
 meta: removed

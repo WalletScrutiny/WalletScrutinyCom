@@ -13,7 +13,6 @@ version: 3.1.5
 reviews: 13
 website: https://trade.mn
 repository: 
-issue: 
 icon: mn.trade.png
 bugbounty: 
 meta: defunct

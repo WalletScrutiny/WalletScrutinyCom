@@ -13,7 +13,6 @@ version: 3.1.29
 reviews: 11
 website: https://bitay.com.tr
 repository: 
-issue: 
 icon: com.app.bitay.png
 bugbounty: 
 meta: obsolete

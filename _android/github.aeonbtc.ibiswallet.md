@@ -13,7 +13,6 @@ version: 2.2-beta
 reviews: 0
 website: 
 repository: https://github.com/aeonBTC/IbisWallet
-issue: 
 icon: 
 bugbounty: 
 meta: ok

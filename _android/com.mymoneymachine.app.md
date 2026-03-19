@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mymoneymachine.app.jpg
 bugbounty: 
 meta: removed

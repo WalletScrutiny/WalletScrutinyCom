@@ -12,7 +12,6 @@ version: 0.0.36
 reviews: 
 website: https://www.metahubcoin.com/
 repository: 
-issue: 
 icon: com.newToken.hubcoin.png
 bugbounty: 
 meta: removed

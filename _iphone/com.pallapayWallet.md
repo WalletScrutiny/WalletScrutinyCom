@@ -13,7 +13,6 @@ version: '1.6'
 reviews: 9
 website: https://www.pallapay.com/
 repository: 
-issue: 
 icon: com.pallapayWallet.jpg
 bugbounty: 
 meta: removed

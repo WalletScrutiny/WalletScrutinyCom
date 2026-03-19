@@ -12,7 +12,6 @@ version: 5.0.0
 reviews: 
 website: https://www.lcpay.io/
 repository: 
-issue: 
 icon: com.lc.lcpay.png
 bugbounty: 
 meta: removed

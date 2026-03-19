@@ -13,7 +13,6 @@ version: 2.6.7
 reviews: 
 website: https://www.headline.net
 repository: 
-issue: 
 icon: com.mc900.mc900.jpg
 bugbounty: 
 meta: removed

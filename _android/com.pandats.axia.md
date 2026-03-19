@@ -13,7 +13,6 @@ version: 3.6.0
 reviews: 7
 website: https://axiainvestments.com/
 repository: 
-issue: 
 icon: com.pandats.axia.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 
 website: https://www.unicornx.exchange/
 repository: 
-issue: 
 icon: com.unicornx.exchange.png
 bugbounty: 
 meta: removed

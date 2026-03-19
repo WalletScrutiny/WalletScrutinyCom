@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://arcmarket.capital
 repository: 
-issue: 
 icon: com.arc.capital.arcmarket.png
 bugbounty: 
 meta: removed

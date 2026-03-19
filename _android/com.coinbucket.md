@@ -12,7 +12,6 @@ version: PRODUCTION (v1580502023)
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.coinbucket.png
 bugbounty: 
 meta: removed

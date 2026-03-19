@@ -12,7 +12,6 @@ version: 2.1.1
 reviews: 
 website: https://dfx.swiss/bitcoin#deadLink
 repository: 
-issue: 
 icon: com.defichain.app.dfx.bitcoin.png
 bugbounty: 
 meta: removed

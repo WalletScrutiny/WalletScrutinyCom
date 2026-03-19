@@ -13,7 +13,6 @@ version: 3.2.7
 reviews: 27
 website: https://www.trofi.group#deadLink
 repository: 
-issue: 
 icon: com.trofi.png
 bugbounty: 
 meta: removed

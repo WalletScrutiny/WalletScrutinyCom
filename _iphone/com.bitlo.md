@@ -13,7 +13,6 @@ version: 2.1.49
 reviews: 4017
 website: https://www.bitlo.com/
 repository: 
-issue: 
 icon: com.bitlo.jpg
 bugbounty: 
 meta: ok

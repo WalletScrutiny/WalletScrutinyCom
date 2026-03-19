@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: magicseed.png
 bugbounty: 
 meta: ok

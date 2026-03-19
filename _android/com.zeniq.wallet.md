@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://zeniq.com/
 repository: 
-issue: 
 icon: com.zeniq.wallet.png
 bugbounty: 
 meta: removed

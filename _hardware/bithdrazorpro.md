@@ -20,7 +20,6 @@ shop: https://shop91729164.m.youzan.com/wscgoods/detail/36d2b34v2wj3o6t
 country: CN
 price: 69.99 USD
 repository: 
-issue: 
 icon: bithdrazorpro.png
 bugbounty: 
 meta: ok

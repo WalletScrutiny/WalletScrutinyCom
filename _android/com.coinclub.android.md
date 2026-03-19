@@ -12,7 +12,6 @@ version: 1.6.7
 reviews: 57
 website: https://coinclub.global/
 repository: 
-issue: 
 icon: com.coinclub.android.png
 bugbounty: 
 meta: removed

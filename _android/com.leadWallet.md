@@ -13,7 +13,6 @@ version: 1.0.39
 reviews: 54
 website: https://leadwallet.io
 repository: 
-issue: 
 icon: com.leadWallet.png
 bugbounty: 
 meta: removed

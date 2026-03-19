@@ -12,7 +12,6 @@ version: '100024'
 reviews: 27
 website: https://www.coinup.io/
 repository: 
-issue: 
 icon: com.t21.coinup.jpg
 bugbounty: 
 meta: ok

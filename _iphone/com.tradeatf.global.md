@@ -13,7 +13,6 @@ version: 1.69.13
 reviews: 
 website: https://global.tradeatf.com#deadLink
 repository: 
-issue: 
 icon: com.tradeatf.global.jpg
 bugbounty: 
 meta: removed

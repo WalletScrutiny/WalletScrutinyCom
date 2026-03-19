@@ -13,7 +13,6 @@ version: 4.1.42
 reviews: 8848
 website: https://bipa.app
 repository: 
-issue: 
 icon: bipa.app.Bipa.jpg
 bugbounty: 
 meta: ok

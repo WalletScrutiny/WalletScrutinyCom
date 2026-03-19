@@ -13,7 +13,6 @@ version: '1.61'
 reviews: 85
 website: https://www.mtpelerin.com/
 repository: 
-issue: 
 icon: com.mtpelerin.bridge.jpg
 bugbounty: 
 meta: ok

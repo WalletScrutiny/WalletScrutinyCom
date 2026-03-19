@@ -12,7 +12,6 @@ version: 0.21.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.smartkey.wallet.png
 bugbounty: 
 meta: removed

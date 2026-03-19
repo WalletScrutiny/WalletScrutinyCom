@@ -13,7 +13,6 @@ version: 2.1.50
 reviews: 
 website: https://www.iforexcrypto.com
 repository: 
-issue: 
 icon: iforexcrypto.clients.android.png
 bugbounty: 
 meta: removed

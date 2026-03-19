@@ -12,7 +12,6 @@ version: 0.9.65
 reviews: 
 website: https://whitebit.com/
 repository: 
-issue: 
 icon: com.whitebit.whitebitu.png
 bugbounty: 
 meta: removed

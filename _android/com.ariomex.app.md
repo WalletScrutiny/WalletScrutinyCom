@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 6
 website: https://ariomex.com
 repository: 
-issue: 
 icon: com.ariomex.app.png
 bugbounty: 
 meta: removed

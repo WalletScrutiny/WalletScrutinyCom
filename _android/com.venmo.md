@@ -13,7 +13,6 @@ version: 26.4.1
 reviews: 347938
 website: https://venmo.com/
 repository: 
-issue: 
 icon: com.venmo.png
 bugbounty: 
 meta: ok

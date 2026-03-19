@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.bitcoinheroes.crypto.earn.jpg
 bugbounty: 
 meta: removed

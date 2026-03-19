@@ -13,7 +13,6 @@ version: 2.11.1
 reviews: 5
 website: http://www.finq.com#deadLink
 repository: 
-issue: 
 icon: com.finq.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.6.9
 reviews: 
 website: https://riccardoodissea.wixsite.com/innapp
 repository: 
-issue: 
 icon: com.bigminebitcoin1rd0.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 23
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoinsystemapp.png
 bugbounty: 
 meta: removed

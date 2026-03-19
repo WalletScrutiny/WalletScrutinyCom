@@ -13,7 +13,6 @@ version: 0.3.2
 reviews: 5
 website: https://sevenb.io/
 repository: 
-issue: 
 icon: io.sevenb.terminal.png
 bugbounty: 
 meta: removed

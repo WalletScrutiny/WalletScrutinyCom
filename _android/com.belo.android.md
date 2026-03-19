@@ -13,7 +13,6 @@ version: 7.13.0
 reviews: 67
 website: https://belo.app
 repository: 
-issue: 
 icon: com.belo.android.png
 bugbounty: 
 meta: ok

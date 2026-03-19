@@ -14,7 +14,6 @@ version: 5.24.0
 reviews: 5
 website: https://futures.kraken.com
 repository: 
-issue: 
 icon: com.krakenfutures.png
 bugbounty: 
 meta: removed

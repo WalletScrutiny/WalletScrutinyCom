@@ -13,7 +13,6 @@ version: 7.4.0
 reviews: 195
 website: https://bake.io
 repository: 
-issue: 
 icon: com.cakedefi.app.png
 bugbounty: 
 meta: ok

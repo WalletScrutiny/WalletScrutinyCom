@@ -13,7 +13,6 @@ version: 4.7.7
 reviews: 2508
 website: http://bitazza.com/
 repository: 
-issue: 
 icon: com.bitazza.android.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 5
 website: http://www.liqi.com.br
 repository: 
-issue: 
 icon: com.liqidigitalassets.liqi.jpg
 bugbounty: 
 meta: removed

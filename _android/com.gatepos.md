@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.mercury.cash
 repository: 
-issue: 
 icon: com.gatepos.png
 bugbounty: 
 meta: removed

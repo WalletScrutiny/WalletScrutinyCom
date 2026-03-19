@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.digidinar.com
 repository: 
-issue: 
 icon: com.application.digidinar.png
 bugbounty: 
 meta: removed

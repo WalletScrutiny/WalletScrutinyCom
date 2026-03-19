@@ -13,7 +13,6 @@ version: 3.3.3
 reviews: 
 website: https://pro.changelly.com/
 repository: 
-issue: 
 icon: com.pro.changelly.png
 bugbounty: 
 meta: stale

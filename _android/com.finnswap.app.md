@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://finn.exchange#deadLink
 repository: 
-issue: 
 icon: com.finnswap.app.png
 bugbounty: 
 meta: removed

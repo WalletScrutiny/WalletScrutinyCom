@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://poutineswap.com
 repository: 
-issue: 
 icon: poutineswap.app.png
 bugbounty: 
 meta: removed

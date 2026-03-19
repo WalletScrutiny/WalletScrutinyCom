@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: https://visioncrypto.net/
 repository: 
-issue: 
 icon: net.visioncrypto.app.png
 bugbounty: 
 meta: ok

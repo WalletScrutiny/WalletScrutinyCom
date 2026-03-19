@@ -13,7 +13,6 @@ version: 1.0.9.5489
 reviews: 5
 website: https://sirinlabs.com/
 repository: 
-issue: 
 icon: com.sirinlabs.os.wallet.png
 bugbounty: 
 meta: removed

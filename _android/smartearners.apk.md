@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://teamsmartearners.com#deadLink
 repository: 
-issue: 
 icon: smartearners.apk.jpg
 bugbounty: 
 meta: removed

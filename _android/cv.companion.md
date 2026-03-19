@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://keyst.one/
 repository: 
-issue: 
 icon: cv.companion.png
 bugbounty: 
 meta: removed

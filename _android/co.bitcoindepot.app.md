@@ -13,7 +13,6 @@ version: 4.2.2
 reviews: 265
 website: https://www.bitcoindepot.com/
 repository: 
-issue: 
 icon: co.bitcoindepot.app.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 192
 website: 
 repository: 
-issue: 
 icon: com.uphold.card.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: https://cryptoapis.io
 repository: 
-issue: 
 icon: cryptoapis.mobile.png
 bugbounty: 
 meta: removed

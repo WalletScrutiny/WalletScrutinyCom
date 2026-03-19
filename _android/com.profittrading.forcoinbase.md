@@ -13,7 +13,6 @@ version: VARY
 reviews: 27
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forcoinbase.png
 bugbounty: 
 meta: removed

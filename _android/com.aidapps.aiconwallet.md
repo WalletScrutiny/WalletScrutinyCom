@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://www.aicon.online/
 repository: 
-issue: 
 icon: com.aidapps.aiconwallet.png
 bugbounty: 
 meta: removed

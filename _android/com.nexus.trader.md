@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.nexus.trader.png
 bugbounty: 
 meta: removed

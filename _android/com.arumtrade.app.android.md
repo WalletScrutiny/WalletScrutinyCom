@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: https://arumtrade.com
 repository: 
-issue: 
 icon: com.arumtrade.app.android.png
 bugbounty: 
 meta: removed

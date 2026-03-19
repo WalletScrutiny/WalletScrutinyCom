@@ -12,7 +12,6 @@ version: 1.8.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.btc.lumi.bestofwallet.png
 bugbounty: 
 meta: removed

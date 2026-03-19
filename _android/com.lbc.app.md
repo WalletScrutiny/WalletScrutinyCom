@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.coinsclone.com/
 repository: 
-issue: 
 icon: com.lbc.app.png
 bugbounty: 
 meta: removed

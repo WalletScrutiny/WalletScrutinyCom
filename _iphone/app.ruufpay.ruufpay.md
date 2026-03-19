@@ -13,7 +13,6 @@ version: 3.1.0
 reviews: 20
 website: 
 repository: 
-issue: 
 icon: app.ruufpay.ruufpay.jpg
 bugbounty: 
 meta: ok

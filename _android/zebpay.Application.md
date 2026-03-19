@@ -13,7 +13,6 @@ version: 3.64.0
 reviews: 82
 website: https://www.zebpay.com
 repository: 
-issue: 
 icon: zebpay.Application.png
 bugbounty: 
 meta: ok

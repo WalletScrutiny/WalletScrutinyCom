@@ -13,7 +13,6 @@ version: 5.7.9
 reviews: 5
 website: https://www.bvox.com
 repository: 
-issue: 
 icon: io.bitvenus.app.first.jpg
 bugbounty: 
 meta: ok

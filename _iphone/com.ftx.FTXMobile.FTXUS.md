@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 260
 website: 
 repository: 
-issue: 
 icon: com.ftx.FTXMobile.FTXUS.jpg
 bugbounty: 
 meta: removed

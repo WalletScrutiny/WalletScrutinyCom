@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: hodl.universa.png
 bugbounty: 
 meta: ok

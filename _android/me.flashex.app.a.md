@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: me.flashex.app.a.png
 bugbounty: 
 meta: removed

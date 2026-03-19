@@ -13,7 +13,6 @@ version: 1.1.52
 reviews: 36
 website: https://www.hotbit.co.kr/
 repository: 
-issue: 
 icon: io.hotbit.shouyi.flavor.korea.jpg
 bugbounty: 
 meta: removed

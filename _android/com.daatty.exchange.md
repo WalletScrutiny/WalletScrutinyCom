@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://daattyexchange.com#deadLink
 repository: 
-issue: 
 icon: com.daatty.exchange.jpg
 bugbounty: 
 meta: removed

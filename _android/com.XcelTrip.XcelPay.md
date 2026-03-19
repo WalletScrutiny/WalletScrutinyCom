@@ -13,7 +13,6 @@ version: 2.91.0
 reviews: 83
 website: http://www.xcelpay.io
 repository: 
-issue: 
 icon: com.XcelTrip.XcelPay.png
 bugbounty: 
 meta: ok

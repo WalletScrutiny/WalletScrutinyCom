@@ -13,7 +13,6 @@ version: 1.15.0
 reviews: 197
 website: https://www.frwt.app/
 repository: 
-issue: 
 icon: app.frwt.wallet.png
 bugbounty: 
 meta: ok

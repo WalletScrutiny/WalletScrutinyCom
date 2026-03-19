@@ -13,7 +13,6 @@ version: 1.65.5
 reviews: 2054
 website: https://www.coinomi.com/en/about/
 repository: 
-issue: 
 icon: com.coinomi.wallet.jpg
 bugbounty: 
 meta: ok

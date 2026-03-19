@@ -13,7 +13,6 @@ version: 26.0.4
 reviews: 24
 website: 
 repository: 
-issue: 
 icon: com.mexdigital.app.jpg
 bugbounty: 
 meta: ok

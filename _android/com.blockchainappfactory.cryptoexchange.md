@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.blockchainappfactory.com/
 repository: 
-issue: 
 icon: com.blockchainappfactory.cryptoexchange.png
 bugbounty: 
 meta: removed

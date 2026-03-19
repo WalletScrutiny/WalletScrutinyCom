@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://icynote.ch
 repository: 
-issue: 
 icon: ch.digitaladmin.icynote.png
 bugbounty: 
 meta: ok

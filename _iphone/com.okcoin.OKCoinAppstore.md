@@ -13,7 +13,6 @@ version: 5.3.110
 reviews: 3489
 website: https://www.okcoin.com/mobile
 repository: 
-issue: 
 icon: com.okcoin.OKCoinAppstore.jpg
 bugbounty: 
 meta: removed

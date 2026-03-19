@@ -13,7 +13,6 @@ provider: Bitcoin Core Developers
 providerWebsite: 
 website: https://bitcoincore.org
 repository: https://github.com/bitcoin/bitcoin
-issue: 
 icon: bitcoincore.png
 bugbounty: 
 meta: ok

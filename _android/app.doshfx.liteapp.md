@@ -12,7 +12,6 @@ version: '4.5'
 reviews: 
 website: https://doshfx.io/
 repository: 
-issue: 
 icon: app.doshfx.liteapp.png
 bugbounty: 
 meta: removed

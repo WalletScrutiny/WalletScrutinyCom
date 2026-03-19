@@ -13,7 +13,6 @@ version: 1.9.18
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.digilab24.apps.jpg
 bugbounty: 
 meta: removed

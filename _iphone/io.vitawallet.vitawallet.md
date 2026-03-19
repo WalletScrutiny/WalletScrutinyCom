@@ -13,7 +13,6 @@ version: 7.3.1
 reviews: 264
 website: https://www.vitawallet.io
 repository: 
-issue: 
 icon: io.vitawallet.vitawallet.jpg
 bugbounty: 
 meta: ok

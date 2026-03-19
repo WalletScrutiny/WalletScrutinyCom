@@ -13,7 +13,6 @@ version: 2.9.0
 reviews: 8
 website: https://lava.xyz
 repository: 
-issue: 
 icon: com.lavamobile.png
 bugbounty: 
 meta: ok

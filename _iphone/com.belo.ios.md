@@ -13,7 +13,6 @@ version: 7.13.0
 reviews: 41
 website: https://belo.app
 repository: 
-issue: 
 icon: com.belo.ios.jpg
 bugbounty: 
 meta: ok

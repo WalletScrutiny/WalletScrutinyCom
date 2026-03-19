@@ -13,7 +13,6 @@ version: 2.7.0
 reviews: 4
 website: https://www.oxbtc.com
 repository: 
-issue: 
 icon: com.oxmiing.mw.jpg
 bugbounty: 
 meta: removed

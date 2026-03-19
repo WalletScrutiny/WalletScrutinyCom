@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://yuwapp.com#deadLink
 repository: 
-issue: 
 icon: com.yuwapp.app.jpg
 bugbounty: 
 meta: removed

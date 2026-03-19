@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.cryptoswisshub.com/
 repository: 
-issue: 
 icon: com.cryptoswisshub.png
 bugbounty: 
 meta: removed

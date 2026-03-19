@@ -13,7 +13,6 @@ version: 2.2.1
 reviews: 1590
 website: http://www.bexplus.com
 repository: 
-issue: 
 icon: com.lingxi.bexplus.png
 bugbounty: 
 meta: removed

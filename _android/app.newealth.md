@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://newealth.app#deadLink
 repository: 
-issue: 
 icon: app.newealth.png
 bugbounty: 
 meta: removed

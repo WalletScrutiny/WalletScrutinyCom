@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://contacripto.com.br
 repository: 
-issue: 
 icon: com.contacripto.app.png
 bugbounty: 
 meta: removed

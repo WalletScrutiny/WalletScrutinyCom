@@ -13,7 +13,6 @@ version: 1.93.0
 reviews: 13
 website: https://btse.com
 repository: 
-issue: 
 icon: com.btse.BTSE.jpg
 bugbounty: 
 meta: removed

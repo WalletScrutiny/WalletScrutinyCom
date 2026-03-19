@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cedigo.png
 bugbounty: 
 meta: removed

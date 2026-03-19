@@ -13,7 +13,6 @@ version: 5.8.21
 reviews: 
 website: https://www.nowory.com
 repository: 
-issue: 
 icon: com.wallet.noworry.png
 bugbounty: 
 meta: ok

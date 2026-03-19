@@ -13,7 +13,6 @@ version: 1.3.3.10300
 reviews: 244
 website: https://coincircle.com
 repository: 
-issue: 
 icon: com.coincircle.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 5.8.1
 reviews: 80
 website: https://netcoins.com
 repository: 
-issue: 
 icon: com.netcoins.app.jpg
 bugbounty: 
 meta: ok

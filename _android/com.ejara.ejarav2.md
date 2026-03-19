@@ -13,7 +13,6 @@ version: 3.9.9
 reviews: 26
 website: https://www.ejara.io
 repository: 
-issue: 
 icon: com.ejara.ejarav2.png
 bugbounty: 
 meta: ok

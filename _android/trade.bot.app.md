@@ -12,7 +12,6 @@ version: 2025.04.10.23
 reviews: 
 website: https://bot.trade
 repository: 
-issue: 
 icon: trade.bot.app.png
 bugbounty: 
 meta: removed

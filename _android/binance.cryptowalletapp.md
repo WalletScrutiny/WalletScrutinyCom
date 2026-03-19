@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 11
 website: 
 repository: 
-issue: 
 icon: binance.cryptowalletapp.png
 bugbounty: 
 meta: removed

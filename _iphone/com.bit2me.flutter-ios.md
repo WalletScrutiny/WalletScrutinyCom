@@ -13,7 +13,6 @@ version: 3.61.0
 reviews: 3748
 website: https://bit2me.com
 repository: 
-issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
 meta: ok

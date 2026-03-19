@@ -12,7 +12,6 @@ version: 2.9.10
 reviews: 
 website: https://bizblocks.io
 repository: 
-issue: 
 icon: io.kaiser.kaiserwallet2.ble_reader.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.3.210330
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.btcus.pro.png
 bugbounty: 
 meta: removed

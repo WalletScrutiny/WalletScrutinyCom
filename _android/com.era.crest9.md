@@ -12,7 +12,6 @@ version: 1.0.12
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.era.crest9.png
 bugbounty: 
 meta: removed

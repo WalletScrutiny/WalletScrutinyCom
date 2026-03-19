@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.upay2.wallet.jpg
 bugbounty: 
 meta: ok

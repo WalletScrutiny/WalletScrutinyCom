@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://www.otppay.com
 repository: 
-issue: 
 icon: com.idbtec.otppaymerchant.png
 bugbounty: 
 meta: removed

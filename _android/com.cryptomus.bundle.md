@@ -13,7 +13,6 @@ version: 2.8.0(153)
 reviews: 73
 website: https://cryptomus.com/
 repository: 
-issue: 
 icon: com.cryptomus.bundle.jpg
 bugbounty: 
 meta: ok

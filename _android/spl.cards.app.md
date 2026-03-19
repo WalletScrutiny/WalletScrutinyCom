@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://www.spl.cards#deadLink
 repository: 
-issue: 
 icon: spl.cards.app.jpg
 bugbounty: 
 meta: removed

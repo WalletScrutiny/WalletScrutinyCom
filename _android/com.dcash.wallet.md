@@ -13,7 +13,6 @@ version: 1.7.6
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.dcash.wallet.png
 bugbounty: 
 meta: removed

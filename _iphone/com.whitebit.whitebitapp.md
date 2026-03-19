@@ -13,7 +13,6 @@ version: 3.67.0
 reviews: 3655
 website: https://whitebit.com
 repository: 
-issue: 
 icon: com.whitebit.whitebitapp.jpg
 bugbounty: 
 meta: ok

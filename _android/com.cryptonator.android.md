@@ -13,7 +13,6 @@ version: '4.2'
 reviews: 139
 website: https://www.cryptonator.com
 repository: 
-issue: 
 icon: com.cryptonator.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.7
 reviews: 
 website: https://www.indocodex.com#deadLink
 repository: 
-issue: 
 icon: app.indocodex.com.png
 bugbounty: 
 meta: removed

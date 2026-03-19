@@ -13,7 +13,6 @@ version: 3.58.0
 reviews: 7542
 website: http://www.kinvo.com.br
 repository: 
-issue: 
 icon: com.everestti.kinvo.png
 bugbounty: 
 meta: ok

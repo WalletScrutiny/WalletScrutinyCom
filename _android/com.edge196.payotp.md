@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://payotp.com
 repository: 
-issue: 
 icon: com.edge196.payotp.png
 bugbounty: 
 meta: removed

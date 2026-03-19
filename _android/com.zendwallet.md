@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.centralcoin.io#deadLink
 repository: 
-issue: 
 icon: com.zendwallet.png
 bugbounty: 
 meta: removed

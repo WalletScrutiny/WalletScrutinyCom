@@ -13,7 +13,6 @@ version: 1.2.3
 reviews: 3
 website: https://kochure.com/
 repository: 
-issue: 
 icon: com.kochure.kochureApp.png
 bugbounty: 
 meta: ok

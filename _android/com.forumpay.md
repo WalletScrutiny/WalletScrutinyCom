@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://forumpay.com/
 repository: 
-issue: 
 icon: com.forumpay.png
 bugbounty: 
 meta: removed

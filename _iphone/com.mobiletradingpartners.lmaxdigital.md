@@ -13,7 +13,6 @@ version: 5.1.60
 reviews: 0
 website: https://www.lmax.com/mobile
 repository: 
-issue: 
 icon: com.mobiletradingpartners.lmaxdigital.jpg
 bugbounty: 
 meta: ok

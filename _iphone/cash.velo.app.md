@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: cash.velo.app.jpg
 bugbounty: 
 meta: ok

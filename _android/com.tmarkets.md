@@ -13,7 +13,6 @@ version: 1.5.78-tmarkets
 reviews: 
 website: https://www.t1markets.com
 repository: 
-issue: 
 icon: com.tmarkets.png
 bugbounty: 
 meta: removed

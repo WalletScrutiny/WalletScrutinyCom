@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://payus.io/
 repository: 
-issue: 
 icon: com.worldex.payus.png
 bugbounty: 
 meta: removed

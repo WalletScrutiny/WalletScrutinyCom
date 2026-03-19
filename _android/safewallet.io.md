@@ -13,7 +13,6 @@ version: 1.0.15
 reviews: 
 website: https://amgenwallet.com#deadLink
 repository: 
-issue: 
 icon: safewallet.io.png
 bugbounty: 
 meta: removed

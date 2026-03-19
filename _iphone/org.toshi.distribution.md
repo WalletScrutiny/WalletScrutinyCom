@@ -13,7 +13,6 @@ version: '29.71'
 reviews: 160970
 website: https://www.coinbase.com/wallet
 repository: 
-issue: 
 icon: org.toshi.distribution.jpg
 bugbounty: 
 meta: ok

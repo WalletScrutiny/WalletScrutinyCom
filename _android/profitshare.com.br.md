@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://profitshare.com.br#deadLink
 repository: 
-issue: 
 icon: profitshare.com.br.png
 bugbounty: 
 meta: removed

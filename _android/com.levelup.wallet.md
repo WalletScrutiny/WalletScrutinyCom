@@ -12,7 +12,6 @@ version: 0.20.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.levelup.wallet.jpg
 bugbounty: 
 meta: removed

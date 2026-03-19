@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: https://www.supremecrypx.com#deadLink
 repository: 
-issue: 
 icon: com.supremexchange.png
 bugbounty: 
 meta: removed

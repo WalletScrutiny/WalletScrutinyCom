@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://webdevelopers.store/
 repository: 
-issue: 
 icon: com.invest4you.png
 bugbounty: 
 meta: removed

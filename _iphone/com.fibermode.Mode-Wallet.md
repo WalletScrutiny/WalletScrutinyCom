@@ -13,7 +13,6 @@ version: 5.7.3
 reviews: 1018
 website: https://www.modeapp.com
 repository: 
-issue: 
 icon: com.fibermode.Mode-Wallet.jpg
 bugbounty: 
 meta: removed

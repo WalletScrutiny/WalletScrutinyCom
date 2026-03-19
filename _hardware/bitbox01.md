@@ -18,7 +18,6 @@ shop: https://www.amazon.com/Digital-Bitbox-DBB1707-Cryptocurrency-Hardware/dp/B
 country: CH
 price: 54.75 USD
 repository: 
-issue: 
 icon: bitbox01.png
 bugbounty: 
 meta: discontinued

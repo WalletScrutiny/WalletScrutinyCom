@@ -12,7 +12,6 @@ version: 1.4.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.coinsunion.production.png
 bugbounty: 
 meta: removed

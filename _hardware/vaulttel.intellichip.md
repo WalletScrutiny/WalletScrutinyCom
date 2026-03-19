@@ -17,7 +17,6 @@ shop:
 country: US
 price: 98USD
 repository: 
-issue: 
 icon: vaulttel.intellichip.png
 bugbounty: 
 meta: ok

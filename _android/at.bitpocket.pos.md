@@ -13,7 +13,6 @@ version: 1.1.8
 reviews: 
 website: http://bitpocket.at
 repository: https://github.com/getbitpocket/bitpocket-mobile-app
-issue: 
 icon: at.bitpocket.pos.png
 bugbounty: 
 meta: removed

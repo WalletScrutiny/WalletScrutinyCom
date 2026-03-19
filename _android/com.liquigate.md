@@ -12,7 +12,6 @@ version: 1.1.9
 reviews: 
 website: https://www.liquigate.com
 repository: 
-issue: 
 icon: com.liquigate.png
 bugbounty: 
 meta: removed

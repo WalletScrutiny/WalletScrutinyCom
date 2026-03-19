@@ -13,7 +13,6 @@ version: 1.0.16
 reviews: 108
 website: https://www.core.app/
 repository: 
-issue: 
 icon: org.avalabs.corewallet.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.4.1
 reviews: 1
 website: https://koinkoin.io#deadLink
 repository: 
-issue: 
 icon: com.koinkoin.app.jpg
 bugbounty: 
 meta: ok

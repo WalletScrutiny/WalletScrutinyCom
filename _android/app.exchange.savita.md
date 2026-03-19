@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://savitaglobal.com/
 repository: 
-issue: 
 icon: app.exchange.savita.png
 bugbounty: 
 meta: ok

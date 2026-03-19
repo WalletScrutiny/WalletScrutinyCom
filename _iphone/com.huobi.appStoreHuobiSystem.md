@@ -13,7 +13,6 @@ version: 11.13.0
 reviews: 1393
 website: https://www.htx.com
 repository: 
-issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://app.snapbots.io/
 repository: 
-issue: 
 icon: com.snapresearch.snapbotmobile.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.3.3
 reviews: 1
 website: https://abbccoin.com/
 repository: 
-issue: 
 icon: com.abbc.wallet.jpg
 bugbounty: 
 meta: removed

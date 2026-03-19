@@ -13,7 +13,6 @@ version: 2.8.0
 reviews: 180
 website: https://s-wallet.ai
 repository: 
-issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
 meta: stale

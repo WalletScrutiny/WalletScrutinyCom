@@ -13,7 +13,6 @@ version: 3.9.2
 reviews: 44
 website: https://jeton.com
 repository: 
-issue: 
 icon: jetonwallet.JetonWallet.jpg
 bugbounty: 
 meta: removed

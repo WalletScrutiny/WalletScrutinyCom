@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.plus.bumpt.app.png
 bugbounty: 
 meta: removed

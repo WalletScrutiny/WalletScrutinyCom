@@ -12,7 +12,6 @@ version: 0.3.6
 reviews: 
 website: https://payscript.io
 repository: 
-issue: 
 icon: com.payscript.png
 bugbounty: 
 meta: removed

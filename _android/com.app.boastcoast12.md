@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 2
 website: https://boastcoast.com
 repository: 
-issue: 
 icon: com.app.boastcoast12.png
 bugbounty: 
 meta: obsolete

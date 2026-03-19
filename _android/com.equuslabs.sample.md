@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://exxbank.com/
 repository: 
-issue: 
 icon: com.equuslabs.sample.png
 bugbounty: 
 meta: removed

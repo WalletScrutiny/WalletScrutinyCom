@@ -13,7 +13,6 @@ version: 2.2.2
 reviews: 
 website: http://www.doex.com
 repository: 
-issue: 
 icon: io.doex.app.png
 bugbounty: 
 meta: removed

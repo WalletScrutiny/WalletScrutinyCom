@@ -13,7 +13,6 @@ version: v0.2.6
 reviews: 2
 website: https://logos-foundation.org/logos
 repository: 
-issue: 
 icon: com.wallet.logos.jpg
 bugbounty: 
 meta: removed

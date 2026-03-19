@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://watchain.site/
 repository: 
-issue: 
 icon: com.solidex.watchain.png
 bugbounty: 
 meta: ok

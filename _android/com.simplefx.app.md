@@ -13,7 +13,6 @@ version: 3.0.83
 reviews: 7
 website: https://simplefx.com
 repository: 
-issue: 
 icon: com.simplefx.app.png
 bugbounty: 
 meta: ok

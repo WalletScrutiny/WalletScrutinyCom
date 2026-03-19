@@ -13,7 +13,6 @@ version: 8.64.0
 reviews: 1706
 website: https://bitflyer.com
 repository: 
-issue: 
 icon: com.bitflyer.android.bfwallet.png
 bugbounty: 
 meta: ok

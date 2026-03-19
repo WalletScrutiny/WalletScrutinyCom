@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 5
 website: https://geefi.io
 repository: 
-issue: 
 icon: com.gee_fi.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.130.0
 reviews: 977
 website: https://swissborg.com
 repository: 
-issue: 
 icon: com.swissborg.android.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '16'
 reviews: 
 website: https://arducrypto.com#deadLink
 repository: 
-issue: 
 icon: com.arduprime.arducrypto.png
 bugbounty: 
 meta: removed

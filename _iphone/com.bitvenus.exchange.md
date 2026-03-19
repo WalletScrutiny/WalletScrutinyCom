@@ -13,7 +13,6 @@ version: 5.7.4
 reviews: 12
 website: 
 repository: 
-issue: 
 icon: com.bitvenus.exchange.jpg
 bugbounty: 
 meta: ok

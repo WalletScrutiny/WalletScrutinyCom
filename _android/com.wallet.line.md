@@ -13,7 +13,6 @@ version: 12.0.0
 reviews: 
 website: https://linechain.io#deadLink
 repository: 
-issue: 
 icon: com.wallet.line.png
 bugbounty: 
 meta: removed

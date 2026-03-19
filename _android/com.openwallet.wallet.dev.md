@@ -12,7 +12,6 @@ version: v1.0.1
 reviews: 11
 website: 
 repository: 
-issue: 
 icon: com.openwallet.wallet.dev.png
 bugbounty: 
 meta: removed

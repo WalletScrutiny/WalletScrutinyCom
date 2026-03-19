@@ -12,7 +12,6 @@ version: 1.0.0.0
 reviews: 
 website: https://createsafe.io
 repository: 
-issue: 
 icon: xyz.createsafe.twa.png
 bugbounty: 
 meta: removed

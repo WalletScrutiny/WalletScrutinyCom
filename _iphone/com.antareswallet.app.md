@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: https://antareswallet.com#deadLink
 repository: 
-issue: 
 icon: com.antareswallet.app.jpg
 bugbounty: 
 meta: removed

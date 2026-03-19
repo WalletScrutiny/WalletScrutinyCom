@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://www.bimax.io/
 repository: 
-issue: 
 icon: kr.co.binaries.bimaxbeta.png
 bugbounty: 
 meta: removed

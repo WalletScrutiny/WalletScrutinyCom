@@ -12,7 +12,6 @@ version: 1.0.16
 reviews: 3
 website: https://defi.app
 repository: 
-issue: 
 icon: com.defi.mobile.png
 bugbounty: 
 meta: ok
