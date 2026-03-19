@@ -13,7 +13,6 @@ version: 1.3.4
 reviews: 7
 website: http://abbcpayment.com
 repository: 
-issue: 
 icon: com.abbc.abbcmobile.png
 bugbounty: 
 meta: removed

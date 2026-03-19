@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.wallet.cointrust.jpg
 bugbounty: 
 meta: removed

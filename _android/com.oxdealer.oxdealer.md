@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://0xdealer.com#deadLink
 repository: 
-issue: 
 icon: com.oxdealer.oxdealer.png
 bugbounty: 
 meta: removed

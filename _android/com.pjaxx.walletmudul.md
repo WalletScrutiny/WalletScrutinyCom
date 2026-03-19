@@ -14,7 +14,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.pjaxx.walletmudul.png
 bugbounty: 
 meta: removed

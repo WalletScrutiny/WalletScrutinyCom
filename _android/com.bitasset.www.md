@@ -13,7 +13,6 @@ version: 3.4.12
 reviews: 29
 website: https://bitasset.com#deadLink
 repository: 
-issue: 
 icon: com.bitasset.www.png
 bugbounty: 
 meta: removed

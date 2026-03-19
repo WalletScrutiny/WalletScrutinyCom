@@ -12,7 +12,6 @@ version: '1.24'
 reviews: 
 website: https://www.trackonbtcguide.com#deadLink
 repository: 
-issue: 
 icon: com.application.bit900.png
 bugbounty: 
 meta: removed

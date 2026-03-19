@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 31
 website: 
 repository: 
-issue: 
 icon: finance.hollox.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 2.2.9
 reviews: 
 website: https://www.tbitex.com/
 repository: 
-issue: 
 icon: com.tbit.android.png
 bugbounty: 
 meta: removed

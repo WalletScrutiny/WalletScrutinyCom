@@ -14,7 +14,6 @@ version: 8.89.0
 reviews: 20985
 website: https://trustwallet.com/
 repository: 
-issue: 
 icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 meta: ok

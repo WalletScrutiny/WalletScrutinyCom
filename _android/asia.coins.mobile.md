@@ -13,7 +13,6 @@ version: 7.9.24.0
 reviews: 552
 website: https://coins.ph
 repository: 
-issue: 
 icon: asia.coins.mobile.png
 bugbounty: 
 meta: ok

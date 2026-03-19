@@ -13,7 +13,6 @@ version: 3.2.1
 reviews: 84
 website: http://www.iconomi.com
 repository: 
-issue: 
 icon: net.iconomi.iconomi.jpg
 bugbounty: 
 meta: obsolete

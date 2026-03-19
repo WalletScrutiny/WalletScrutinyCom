@@ -13,7 +13,6 @@ version: 1.24.0
 reviews: 
 website: https://kickex.com/en
 repository: 
-issue: 
 icon: com.kickex.android.png
 bugbounty: 
 meta: removed

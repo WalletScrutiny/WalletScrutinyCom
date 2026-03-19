@@ -13,7 +13,6 @@ version: 8.4.40
 reviews: 9722
 website: 
 repository: 
-issue: 
 icon: com.pay99.wallet.png
 bugbounty: 
 meta: ok

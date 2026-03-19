@@ -13,7 +13,6 @@ version: 4.27.0
 reviews: 10637
 website: https://zbd.gg
 repository: 
-issue: 
 icon: io.zebedee.wallet.jpg
 bugbounty: 
 meta: ok

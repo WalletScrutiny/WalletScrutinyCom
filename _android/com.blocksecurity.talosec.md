@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: http://talosec.io#deadLink
 repository: 
-issue: 
 icon: com.blocksecurity.talosec.png
 bugbounty: 
 meta: removed

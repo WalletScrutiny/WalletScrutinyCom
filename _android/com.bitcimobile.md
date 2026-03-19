@@ -13,7 +13,6 @@ version: 22.0.2
 reviews: 14
 website: https://www.safebit.com
 repository: 
-issue: 
 icon: com.bitcimobile.png
 bugbounty: 
 meta: ok

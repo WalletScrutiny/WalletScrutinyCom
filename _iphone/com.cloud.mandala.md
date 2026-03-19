@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 56
 website: https://mandala.exchange
 repository: 
-issue: 
 icon: com.cloud.mandala.jpg
 bugbounty: 
 meta: removed

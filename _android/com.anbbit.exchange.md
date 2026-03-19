@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://anbbit.com
 repository: 
-issue: 
 icon: com.anbbit.exchange.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.9.1_push_v2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
 meta: removed

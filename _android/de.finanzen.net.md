@@ -13,7 +13,6 @@ version: 5.8.9
 reviews: 64
 website: http://www.finanzen.net/apps
 repository: 
-issue: 
 icon: de.finanzen.net.png
 bugbounty: 
 meta: ok

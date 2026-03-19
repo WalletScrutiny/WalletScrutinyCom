@@ -13,7 +13,6 @@ version: 1.12.3
 reviews: 
 website: http://www.biteeu.com
 repository: 
-issue: 
 icon: com.bit.eu.png
 bugbounty: 
 meta: obsolete

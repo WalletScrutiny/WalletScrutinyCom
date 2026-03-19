@@ -13,7 +13,6 @@ version: 1.1.85
 reviews: 18
 website: https://buycoins.africa
 repository: 
-issue: 
 icon: africa.buycoins.buycoinsx.basic.png
 bugbounty: 
 meta: removed

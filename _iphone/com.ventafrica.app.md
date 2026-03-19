@@ -13,7 +13,6 @@ version: 1.8.4
 reviews: 58
 website: 
 repository: 
-issue: 
 icon: com.ventafrica.app.jpg
 bugbounty: 
 meta: removed

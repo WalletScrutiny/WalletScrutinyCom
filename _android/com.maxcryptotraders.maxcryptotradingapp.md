@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://maxcryptotraders.com/
 repository: 
-issue: 
 icon: com.maxcryptotraders.maxcryptotradingapp.png
 bugbounty: 
 meta: removed

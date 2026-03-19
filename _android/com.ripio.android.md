@@ -13,7 +13,6 @@ version: 6.5.4
 reviews: 177
 website: https://ripio.com
 repository: 
-issue: 
 icon: com.ripio.android.png
 bugbounty: 
 meta: ok

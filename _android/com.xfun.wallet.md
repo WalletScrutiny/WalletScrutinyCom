@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 12
 website: https://xfun.io#deadLink
 repository: 
-issue: 
 icon: com.xfun.wallet.png
 bugbounty: 
 meta: removed

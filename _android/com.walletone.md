@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://walletone.io
 repository: 
-issue: 
 icon: com.walletone.png
 bugbounty: 
 meta: removed

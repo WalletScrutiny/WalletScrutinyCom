@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 6
 website: http://hitapi.oblade.net
 repository: 
-issue: 
 icon: net.benoitbasset.hitapi.png
 bugbounty: 
 meta: obsolete

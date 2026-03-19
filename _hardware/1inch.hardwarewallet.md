@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok

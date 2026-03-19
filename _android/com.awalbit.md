@@ -12,7 +12,6 @@ version: 0.29.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.awalbit.png
 bugbounty: 
 meta: removed

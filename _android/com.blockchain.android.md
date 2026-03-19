@@ -12,7 +12,6 @@ version: 1.0.7.5
 reviews: 532
 website: 
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
-issue: 
 icon: com.blockchain.android.png
 bugbounty: 
 meta: removed

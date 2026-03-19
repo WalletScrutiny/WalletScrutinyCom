@@ -13,7 +13,6 @@ version: 2.20.16
 reviews: 24481
 website: https://www.newton.co
 repository: 
-issue: 
 icon: co.newton.newtonios.jpg
 bugbounty: 
 meta: ok

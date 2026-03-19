@@ -12,7 +12,6 @@ version: '1.08'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.escrowspace.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://citioption.com/
 repository: 
-issue: 
 icon: com.citioption.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 4.18.3
 reviews: 108666
 website: https://coincheck.com
 repository: 
-issue: 
 icon: jp.coincheck.ios.jpg
 bugbounty: 
 meta: ok

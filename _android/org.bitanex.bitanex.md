@@ -13,7 +13,6 @@ version: 1.2.49
 reviews: 6
 website: http://bitanex.com
 repository: 
-issue: 
 icon: org.bitanex.bitanex.png
 bugbounty: 
 meta: removed

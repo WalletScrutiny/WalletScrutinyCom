@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 2
 website: https://shamlatech.com/
 repository: 
-issue: 
 icon: com.cryptopay.png
 bugbounty: 
 meta: removed

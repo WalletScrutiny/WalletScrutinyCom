@@ -13,7 +13,6 @@ version: 8.2.7
 reviews: 284
 website: http://www.finanzen.net/apps
 repository: 
-issue: 
 icon: de.smarthouse.finanzen.jpg
 bugbounty: 
 meta: ok

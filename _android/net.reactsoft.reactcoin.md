@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: http://reactsoft.net
 repository: 
-issue: 
 icon: net.reactsoft.reactcoin.png
 bugbounty: 
 meta: removed

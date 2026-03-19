@@ -12,7 +12,6 @@ version: 1.5.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.steaker.steaker_android.png
 bugbounty: 
 meta: removed

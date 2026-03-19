@@ -13,7 +13,6 @@ version: 2.36.7
 reviews: 18
 website: http://moonstake.io
 repository: 
-issue: 
 icon: io.moonstake.wallet.jpg
 bugbounty: 
 meta: ok

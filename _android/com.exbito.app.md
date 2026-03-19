@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 30
 website: https://exbito.com
 repository: 
-issue: 
 icon: com.exbito.app.png
 bugbounty: 
 meta: removed

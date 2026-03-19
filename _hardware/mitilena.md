@@ -17,7 +17,6 @@ shop: https://mitelena.com/
 country: CZ
 price: 146.9USD
 repository: 
-issue: 
 icon: 
 bugbounty: 
 meta: ok

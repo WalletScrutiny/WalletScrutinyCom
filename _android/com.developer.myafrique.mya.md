@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.developer.myafrique.mya.png
 bugbounty: 
 meta: removed

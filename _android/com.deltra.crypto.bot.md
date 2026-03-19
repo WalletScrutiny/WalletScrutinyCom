@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: https://www.xrstudio.in#deadLink
 repository: 
-issue: 
 icon: com.deltra.crypto.bot.png
 bugbounty: 
 meta: removed

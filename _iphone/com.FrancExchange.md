@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 1
 website: https://trade.francexchange.com/
 repository: 
-issue: 
 icon: com.FrancExchange.jpg
 bugbounty: 
 meta: removed

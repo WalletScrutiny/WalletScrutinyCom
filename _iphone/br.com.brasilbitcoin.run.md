@@ -13,7 +13,6 @@ version: 4.1.03
 reviews: 2279
 website: 
 repository: 
-issue: 
 icon: br.com.brasilbitcoin.run.jpg
 bugbounty: 
 meta: ok

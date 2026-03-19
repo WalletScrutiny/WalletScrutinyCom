@@ -13,7 +13,6 @@ version: 3.2.0
 reviews: 46
 website: https://www.zbg.com#deadLink
 repository: 
-issue: 
 icon: com.zsdk.exchange.png
 bugbounty: 
 meta: removed

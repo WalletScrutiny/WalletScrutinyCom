@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://extons.io/
 repository: 
-issue: 
 icon: com.thisoption.extons.png
 bugbounty: 
 meta: removed

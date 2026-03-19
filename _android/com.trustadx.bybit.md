@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trustadx.bybit.png
 bugbounty: 
 meta: removed

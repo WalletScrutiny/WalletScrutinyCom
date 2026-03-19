@@ -12,7 +12,6 @@ version: 1.7.4
 reviews: 3
 website: https://safle.com/
 repository: 
-issue: 
 icon: com.safle.safle-mobile.jpg
 bugbounty: 
 meta: ok

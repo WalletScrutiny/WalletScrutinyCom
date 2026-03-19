@@ -12,7 +12,6 @@ version: '3.8'
 reviews: 
 website: https://www.bestla.io#deadLink
 repository: 
-issue: 
 icon: com.usdg.wallet.png
 bugbounty: 
 meta: removed

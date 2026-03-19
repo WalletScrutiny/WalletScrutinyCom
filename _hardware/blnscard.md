@@ -17,7 +17,6 @@ shop: http://18.158.244.64/waiting-list/
 country: CH
 price: 
 repository: 
-issue: 
 icon: blnscard.png
 bugbounty: 
 meta: ok

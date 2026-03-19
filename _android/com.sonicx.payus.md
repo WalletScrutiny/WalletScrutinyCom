@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.payus.io/
 repository: 
-issue: 
 icon: com.sonicx.payus.png
 bugbounty: 
 meta: removed

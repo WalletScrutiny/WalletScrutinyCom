@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://Bemnex.com
 repository: 
-issue: 
 icon: com.bemnex.png
 bugbounty: 
 meta: removed

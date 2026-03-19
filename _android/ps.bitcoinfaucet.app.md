@@ -13,7 +13,6 @@ version: 1.29b
 reviews: 366
 website: http://bitcoinfaucet.promo-miner.com/
 repository: 
-issue: 
 icon: ps.bitcoinfaucet.app.png
 bugbounty: 
 meta: removed

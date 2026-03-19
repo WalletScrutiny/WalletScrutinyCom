@@ -12,7 +12,6 @@ version: 2.1.9
 reviews: 
 website: https://ninjapay.me/
 repository: 
-issue: 
 icon: com.ninja.ninjapay.me.png
 bugbounty: 
 meta: ok

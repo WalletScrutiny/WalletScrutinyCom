@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 2
 website: https://web.archive.org/web/20240914094707/https://nakitcoins.com/
 repository: 
-issue: 
 icon: com.nakitcoins.wallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.5.19
 reviews: 51
 website: http://zam.io
 repository: 
-issue: 
 icon: zam.wallet.jpg
 bugbounty: 
 meta: removed

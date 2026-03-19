@@ -13,7 +13,6 @@ version: 2.7.1
 reviews: 
 website: https://www.obrinvest.com#deadLink
 repository: 
-issue: 
 icon: com.obrinvestment.obrinvest.png
 bugbounty: 
 meta: removed

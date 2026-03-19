@@ -13,7 +13,6 @@ version: 4.21.0
 reviews: 
 website: https://www.coinhouse.com
 repository: 
-issue: 
 icon: com.coinhouse.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://web.archive.org/web/20200627113118/https://zap.jackmallers.com/
 repository: https://github.com/LN-Zap/zap-android
-issue: 
 icon: zapsolutions.zap.png
 bugbounty: 
 meta: removed

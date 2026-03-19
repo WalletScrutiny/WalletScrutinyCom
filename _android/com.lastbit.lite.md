@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: https://lastbit.io/
 repository: 
-issue: 
 icon: com.lastbit.lite.png
 bugbounty: 
 meta: removed

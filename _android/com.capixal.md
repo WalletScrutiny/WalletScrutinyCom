@@ -13,7 +13,6 @@ version: 1.5.78-capixal
 reviews: 
 website: https://www.capixal.com/
 repository: 
-issue: 
 icon: com.capixal.png
 bugbounty: 
 meta: removed

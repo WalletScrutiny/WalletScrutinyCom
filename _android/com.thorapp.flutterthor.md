@@ -12,7 +12,6 @@ version: 1.3.9
 reviews: 
 website: https://www.thorbot.io#deadLink
 repository: 
-issue: 
 icon: com.thorapp.flutterthor.png
 bugbounty: 
 meta: removed

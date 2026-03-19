@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://www.orbitex.space
 repository: 
-issue: 
 icon: com.exchange.orbitex.png
 bugbounty: 
 meta: removed

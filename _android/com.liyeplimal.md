@@ -13,7 +13,6 @@ version: '1.18'
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.liyeplimal.jpg
 bugbounty: 
 meta: removed

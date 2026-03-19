@@ -13,7 +13,6 @@ version: '5.2'
 reviews: 
 website: https://techpay.io/
 repository: 
-issue: 
 icon: crypto.base.baseexchange.png
 bugbounty: 
 meta: removed

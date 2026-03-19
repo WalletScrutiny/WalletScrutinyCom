@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.alpha.bank.png
 bugbounty: 
 meta: removed

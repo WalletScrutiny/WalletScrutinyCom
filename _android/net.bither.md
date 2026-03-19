@@ -15,7 +15,6 @@ version: 2.1.7
 reviews: 30
 website: http://Bither.net
 repository: https://github.com/bither/bither-android
-issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
 meta: removed
@@ -156,3 +155,4 @@ android {
         }
 ```
 
+An issue has been opened at [https://github.com/bither/bither-android/issues/69](https://github.com/bither/bither-android/issues/69)

@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 
 website: http://www.echangerbd.com/
 repository: 
-issue: 
 icon: www.echangerbd.com.png
 bugbounty: 
 meta: obsolete

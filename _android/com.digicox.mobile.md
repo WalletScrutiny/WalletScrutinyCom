@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 4
 website: https://digicox.com
 repository: 
-issue: 
 icon: com.digicox.mobile.png
 bugbounty: 
 meta: removed

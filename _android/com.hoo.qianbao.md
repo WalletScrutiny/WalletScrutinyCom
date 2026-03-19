@@ -13,7 +13,6 @@ version: 4.7.79
 reviews: 84
 website: https://hoo.com#deadLink
 repository: 
-issue: 
 icon: com.hoo.qianbao.png
 bugbounty: 
 meta: removed

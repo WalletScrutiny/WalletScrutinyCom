@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 
 website: https://www.sinance.net
 repository: 
-issue: 
 icon: com.sinance.exchange.jpg
 bugbounty: 
 meta: removed

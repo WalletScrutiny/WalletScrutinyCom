@@ -13,7 +13,6 @@ version: 1.3.26
 reviews: 
 website: https://www.bitdance.network/
 repository: 
-issue: 
 icon: com.bitdance.bitpocket.google.png
 bugbounty: 
 meta: ok

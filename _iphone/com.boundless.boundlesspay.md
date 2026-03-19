@@ -13,7 +13,6 @@ version: 2.3.9
 reviews: 71
 website: https://www.boundlesspay.com
 repository: 
-issue: 
 icon: com.boundless.boundlesspay.jpg
 bugbounty: 
 meta: ok

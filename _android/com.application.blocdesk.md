@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://www.velcomex.com
 repository: 
-issue: 
 icon: com.application.blocdesk.png
 bugbounty: 
 meta: removed

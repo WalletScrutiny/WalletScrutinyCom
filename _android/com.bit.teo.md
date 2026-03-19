@@ -12,7 +12,6 @@ version: '1.014'
 reviews: 
 website: http://facoin.info#deadLink
 repository: 
-issue: 
 icon: com.bit.teo.png
 bugbounty: 
 meta: removed

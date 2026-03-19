@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trustdx.binance.png
 bugbounty: 
 meta: removed

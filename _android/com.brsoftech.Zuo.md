@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://zuobox.com#deadLink
 repository: 
-issue: 
 icon: com.brsoftech.Zuo.jpg
 bugbounty: 
 meta: removed

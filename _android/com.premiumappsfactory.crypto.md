@@ -12,7 +12,6 @@ version: 6.0.0
 reviews: 
 website: http://drone.onlinestore.digital
 repository: 
-issue: 
 icon: com.premiumappsfactory.crypto.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 6.10.2
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.joycoin.hicoin.jpg
 bugbounty: 
 meta: ok

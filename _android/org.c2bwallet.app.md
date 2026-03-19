@@ -13,7 +13,6 @@ version: 1.5.0
 reviews: 
 website: https://cash2bitcoin.com/
 repository: 
-issue: 
 icon: org.c2bwallet.app.png
 bugbounty: 
 meta: ok

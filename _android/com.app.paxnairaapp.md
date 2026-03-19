@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.paxnaira.com#deadLink
 repository: 
-issue: 
 icon: com.app.paxnairaapp.png
 bugbounty: 
 meta: removed

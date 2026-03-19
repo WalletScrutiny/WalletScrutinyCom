@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://bitango.app
 repository: 
-issue: 
 icon: com.bitango.android.png
 bugbounty: 
 meta: removed

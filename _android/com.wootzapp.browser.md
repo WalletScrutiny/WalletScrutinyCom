@@ -12,7 +12,6 @@ version: 1.7.1
 reviews: 
 website: https://www.wootzapp.com
 repository: 
-issue: 
 icon: com.wootzapp.browser.png
 bugbounty: 
 meta: removed

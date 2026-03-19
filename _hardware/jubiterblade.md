@@ -21,7 +21,6 @@ shop: https://www.amazon.com/gp/product/B07K446Y57
 country: CN
 price: 79USD
 repository: 
-issue: 
 icon: jubiterblade.png
 bugbounty: 
 meta: ok

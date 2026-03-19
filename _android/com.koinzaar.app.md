@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://www.koinzaar.com#deadLink
 repository: 
-issue: 
 icon: com.koinzaar.app.png
 bugbounty: 
 meta: removed

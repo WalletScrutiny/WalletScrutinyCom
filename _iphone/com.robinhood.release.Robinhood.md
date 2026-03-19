@@ -13,7 +13,6 @@ version: 2026.4.0
 reviews: 4685855
 website: https://robinhood.com/
 repository: 
-issue: 
 icon: com.robinhood.release.Robinhood.jpg
 bugbounty: 
 meta: ok

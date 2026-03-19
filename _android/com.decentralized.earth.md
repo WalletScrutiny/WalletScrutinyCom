@@ -13,7 +13,6 @@ version: 2.19.3
 reviews: 
 website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt#deadLink
 repository: 
-issue: 
 icon: com.decentralized.earth.png
 bugbounty: 
 meta: removed

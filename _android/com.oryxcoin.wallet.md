@@ -12,7 +12,6 @@ version: v5.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.oryxcoin.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.bitalgopayment.com#deadLink
 repository: 
-issue: 
 icon: com.bitalgopayment.android.png
 bugbounty: 
 meta: removed

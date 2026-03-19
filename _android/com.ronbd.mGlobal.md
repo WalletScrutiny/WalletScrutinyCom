@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://www.mineglobed.com#deadLink
 repository: 
-issue: 
 icon: com.ronbd.mGlobal.png
 bugbounty: 
 meta: removed

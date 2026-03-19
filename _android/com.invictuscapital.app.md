@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://invictuscapital.com
 repository: 
-issue: 
 icon: com.invictuscapital.app.jpg
 bugbounty: 
 meta: removed

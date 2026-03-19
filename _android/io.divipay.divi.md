@@ -13,7 +13,6 @@ version: 2.2.01218
 reviews: 13
 website: http://diviproject.org
 repository: 
-issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
 meta: removed
@@ -59,3 +58,5 @@ While [there is a repository](https://github.com/DiviProject/Divi-Desktop-Public
 for the Desktop App, we cannot find source for the Google Play app. We have
 created [an issue in GitHub.](https://github.com/DiviProject/Divi-Desktop-Public/issues/214)
 and the provider confirmed the app is closed source and therefore **not verifiable**.
+
+An issue has been opened at [https://github.com/DiviProject/Divi-Desktop-Public/issues/214](https://github.com/DiviProject/Divi-Desktop-Public/issues/214)

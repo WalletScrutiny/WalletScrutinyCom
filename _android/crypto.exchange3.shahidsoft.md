@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: crypto.exchange3.shahidsoft.jpg
 bugbounty: 
 meta: removed

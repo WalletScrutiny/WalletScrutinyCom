@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 46
 website: 
 repository: 
-issue: 
 icon: com.chivowalletapp.co.png
 bugbounty: 
 meta: removed

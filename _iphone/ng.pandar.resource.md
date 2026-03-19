@@ -13,7 +13,6 @@ version: 1.9.5
 reviews: 4326
 website: 
 repository: 
-issue: 
 icon: ng.pandar.resource.jpg
 bugbounty: 
 meta: ok

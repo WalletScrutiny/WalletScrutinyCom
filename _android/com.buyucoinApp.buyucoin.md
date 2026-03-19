@@ -13,7 +13,6 @@ version: '3.45'
 reviews: 12
 website: https://www.buyucoin.com
 repository: 
-issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
 meta: stale

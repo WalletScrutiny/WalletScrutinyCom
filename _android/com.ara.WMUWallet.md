@@ -12,7 +12,6 @@ version: 1.00.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ara.WMUWallet.png
 bugbounty: 
 meta: removed

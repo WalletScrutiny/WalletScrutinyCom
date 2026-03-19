@@ -17,7 +17,6 @@ shop:
 country: TW
 price: 
 repository: 
-issue: 
 icon: taisys.simgap.png
 bugbounty: 
 meta: ok

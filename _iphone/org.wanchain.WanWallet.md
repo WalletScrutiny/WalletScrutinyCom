@@ -13,7 +13,6 @@ version: '6.0'
 reviews: 24
 website: https://www.wanchain.org
 repository: 
-issue: 
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
 meta: obsolete

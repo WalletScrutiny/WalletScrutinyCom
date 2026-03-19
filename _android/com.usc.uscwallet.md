@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://useongcoin.com#deadLink
 repository: 
-issue: 
 icon: com.usc.uscwallet.png
 bugbounty: 
 meta: removed

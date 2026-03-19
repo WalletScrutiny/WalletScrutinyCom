@@ -12,7 +12,6 @@ version: '1.12'
 reviews: 
 website: http://inout.fm#deadLink
 repository: 
-issue: 
 icon: com.lastthink.numbify.png
 bugbounty: 
 meta: removed

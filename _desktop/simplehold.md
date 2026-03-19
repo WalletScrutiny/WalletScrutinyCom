@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: 
 repository: 
-issue: 
 icon: simplehold.png
 bugbounty: 
 meta: ok

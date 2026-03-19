@@ -13,7 +13,6 @@ version: 3.0.1
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: io.oberton.jpg
 bugbounty: 
 meta: ok

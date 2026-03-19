@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://elevation-markets.com#deadLink
 repository: 
-issue: 
 icon: em.elevationmarkets.png
 bugbounty: 
 meta: removed

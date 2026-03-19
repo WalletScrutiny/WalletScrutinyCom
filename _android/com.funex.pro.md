@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://funexpro.com/
 repository: 
-issue: 
 icon: com.funex.pro.png
 bugbounty: 
 meta: stale

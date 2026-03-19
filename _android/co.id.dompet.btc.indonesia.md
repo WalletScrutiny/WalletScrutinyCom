@@ -13,7 +13,6 @@ version: 2.4.9
 reviews: 31
 website: https://www.indodax.com/
 repository: 
-issue: 
 icon: co.id.dompet.btc.indonesia.png
 bugbounty: 
 meta: removed

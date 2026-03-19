@@ -13,7 +13,6 @@ version: 3.2.23
 reviews: 
 website: https://bitdenex.com
 repository: 
-issue: 
 icon: com.bitdenex.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 369
 website: https://www.lvl.co#deadLink
 repository: 
-issue: 
 icon: co.lvl.firstapp.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.9.2
 reviews: 16
 website: https://www.biki.cc/
 repository: 
-issue: 
 icon: com.bikipro.exchange.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.7.43
 reviews: 98
 website: https://www.ixfi.com/landing
 repository: 
-issue: 
 icon: com.ixfi.app.jpg
 bugbounty: 
 meta: ok

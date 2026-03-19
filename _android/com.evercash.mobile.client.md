@@ -12,7 +12,6 @@ version: 3.0.0-a46a024b
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.evercash.mobile.client.jpg
 bugbounty: 
 meta: removed

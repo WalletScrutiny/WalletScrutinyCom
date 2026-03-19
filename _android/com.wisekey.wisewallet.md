@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: http://www.wisekey.com
 repository: 
-issue: 
 icon: com.wisekey.wisewallet.png
 bugbounty: 
 meta: removed

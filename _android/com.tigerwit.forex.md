@@ -13,7 +13,6 @@ version: 6.1.5
 reviews: 
 website: https://www.tigerwit.com#deadLink
 repository: 
-issue: 
 icon: com.tigerwit.forex.png
 bugbounty: 
 meta: removed

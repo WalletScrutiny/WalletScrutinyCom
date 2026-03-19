@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 6
 website: https://javvy.com
 repository: 
-issue: 
 icon: com.javvy.png
 bugbounty: 
 meta: removed

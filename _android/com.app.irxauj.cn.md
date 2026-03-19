@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://mmex.cc
 repository: 
-issue: 
 icon: com.app.irxauj.cn.png
 bugbounty: 
 meta: removed

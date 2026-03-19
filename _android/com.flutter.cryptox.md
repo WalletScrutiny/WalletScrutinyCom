@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://opuslab.works/apps/crypto-nft
 repository: 
-issue: 
 icon: com.flutter.cryptox.png
 bugbounty: 
 meta: removed

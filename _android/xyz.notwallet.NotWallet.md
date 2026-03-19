@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: https://notwallet.eu/
 repository: 
-issue: 
 icon: xyz.notwallet.NotWallet.png
 bugbounty: 
 meta: ok

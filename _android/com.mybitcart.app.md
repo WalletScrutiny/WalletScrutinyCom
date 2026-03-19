@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://mybitcart.com
 repository: 
-issue: 
 icon: com.mybitcart.app.png
 bugbounty: 
 meta: removed

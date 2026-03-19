@@ -14,7 +14,6 @@ version: '2.35'
 reviews: 46
 website: http://insense.tech#deadLink
 repository: 
-issue: 
 icon: com.iwallet.iwallet.jpg
 bugbounty: 
 meta: removed

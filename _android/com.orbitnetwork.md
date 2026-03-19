@@ -13,7 +13,6 @@ version: '2.2'
 reviews: 18
 website: https://orbitnetwork.com/
 repository: 
-issue: 
 icon: com.orbitnetwork.png
 bugbounty: 
 meta: removed

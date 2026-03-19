@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://morebit.io
 repository: 
-issue: 
 icon: com.application.morebit.png
 bugbounty: 
 meta: removed

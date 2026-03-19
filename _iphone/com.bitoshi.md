@@ -13,7 +13,6 @@ version: 1.4.7
 reviews: 1805
 website: 
 repository: 
-issue: 
 icon: com.bitoshi.jpg
 bugbounty: 
 meta: ok

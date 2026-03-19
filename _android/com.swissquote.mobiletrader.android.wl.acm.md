@@ -13,7 +13,6 @@ version: 3.13.0
 reviews: 4
 website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
 repository: 
-issue: 
 icon: com.swissquote.mobiletrader.android.wl.acm.png
 bugbounty: 
 meta: ok

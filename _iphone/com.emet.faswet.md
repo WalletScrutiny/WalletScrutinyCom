@@ -13,7 +13,6 @@ version: 2.9.7
 reviews: 2
 website: https://emetenjoy.com/
 repository: 
-issue: 
 icon: com.emet.faswet.jpg
 bugbounty: 
 meta: removed

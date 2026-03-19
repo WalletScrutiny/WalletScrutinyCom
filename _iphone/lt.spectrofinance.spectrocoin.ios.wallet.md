@@ -13,7 +13,6 @@ version: 2.10.0
 reviews: 11
 website: https://spectrocoin.com/
 repository: 
-issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
 meta: ok

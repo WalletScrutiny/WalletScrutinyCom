@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.etorexchange.in#deadLink
 repository: 
-issue: 
 icon: com.etorexchange.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 169 USD
 repository: 
-issue: 
 icon: ukiss.hugware.h2.png
 bugbounty: 
 meta: ok

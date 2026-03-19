@@ -13,7 +13,6 @@ version: 2.3.7
 reviews: 24
 website: https://sekiapp.com
 repository: 
-issue: 
 icon: com.wiseki.sekiapp.png
 bugbounty: 
 meta: ok

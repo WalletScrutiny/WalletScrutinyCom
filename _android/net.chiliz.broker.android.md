@@ -13,7 +13,6 @@ version: 5.12.1
 reviews: 5
 website: https://www.chiliz.net
 repository: 
-issue: 
 icon: net.chiliz.broker.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 
 website: https://covest.pro
 repository: 
-issue: 
 icon: com.covest.covestM.png
 bugbounty: 
 meta: ok

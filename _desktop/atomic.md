@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://atomicwallet.io/
 repository: 
-issue: 
 icon: atomic.png
 bugbounty: 
 meta: ok

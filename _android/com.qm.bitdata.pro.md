@@ -12,7 +12,6 @@ version: 5.0.3
 reviews: 
 website: https://www.bitdata.site
 repository: 
-issue: 
 icon: com.qm.bitdata.pro.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 28
 website: 
 repository: 
-issue: 
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: CZ
 price: 
 repository: 
-issue: 
 icon: bitnotes.png
 bugbounty: 
 meta: ok

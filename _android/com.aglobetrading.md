@@ -13,7 +13,6 @@ version: '1.6'
 reviews: 27
 website: 
 repository: 
-issue: 
 icon: com.aglobetrading.png
 bugbounty: 
 meta: removed

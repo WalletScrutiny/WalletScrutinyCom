@@ -13,7 +13,6 @@ version: 0.12.3
 reviews: 
 website: http://www.instaforex.com
 repository: 
-issue: 
 icon: com.instaforex.bitcoin.png
 bugbounty: 
 meta: removed

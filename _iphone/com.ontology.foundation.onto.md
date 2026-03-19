@@ -13,7 +13,6 @@ version: 4.9.19
 reviews: 88
 website: https://www.onto.app
 repository: 
-issue: 
 icon: com.ontology.foundation.onto.jpg
 bugbounty: 
 meta: ok

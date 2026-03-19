@@ -13,7 +13,6 @@ version: 2.1 (18)
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.hawex.cryptowallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.5.18
 reviews: 454
 website: https://www.foxwallet.com/en
 repository: 
-issue: https://github.com/foxwallet/issue/issues/1
 icon: com.foxwallet.play.png
 bugbounty: 
 meta: ok
@@ -90,3 +89,5 @@ The FoxWallet GitHub organization currently has 38 repositories, but it is uncle
 *This list represents the repositories currently under the FoxWallet GitHub organization. None are clearly identified as the main Android app source code. Further clarification from the developers is needed.*
 
 For the meantime, we created this [issue](https://github.com/foxwallet/issue/issues/1) and posted on [x.com](https://x.com/dannybuntu/status/1947207402857841022). We will update the verdict, once this is addressed.
+
+An issue has been opened at [https://github.com/foxwallet/issue/issues/1](https://github.com/foxwallet/issue/issues/1)

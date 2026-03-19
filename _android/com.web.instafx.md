@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://instfx.com/
 repository: 
-issue: 
 icon: com.web.instafx.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.0.1
 reviews: 130
 website: https://www.hbtc.com/
 repository: 
-issue: 
 icon: io.bhex.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.7
 reviews: 7
 website: https://mannabitcoin.com
 repository: 
-issue: 
 icon: com.lightning.manna.jpg
 bugbounty: 
 meta: ok

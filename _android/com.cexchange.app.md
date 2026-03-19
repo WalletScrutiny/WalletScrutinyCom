@@ -13,7 +13,6 @@ version: 13.0.2
 reviews: 
 website: https://c-exchange.com/
 repository: 
-issue: 
 icon: com.cexchange.app.png
 bugbounty: 
 meta: stale

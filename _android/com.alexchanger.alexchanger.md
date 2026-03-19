@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 26
 website: https://alexchanger.com/
 repository: 
-issue: 
 icon: com.alexchanger.alexchanger.png
 bugbounty: 
 meta: removed

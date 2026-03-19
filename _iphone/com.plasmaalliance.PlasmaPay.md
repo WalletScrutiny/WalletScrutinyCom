@@ -13,7 +13,6 @@ version: v3.1.8
 reviews: 2
 website: https://plasma-wallet.com
 repository: 
-issue: 
 icon: com.plasmaalliance.PlasmaPay.jpg
 bugbounty: 
 meta: defunct

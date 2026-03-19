@@ -12,7 +12,6 @@ version: '20220120'
 reviews: 
 website: https://favorpay.io#deadLink
 repository: 
-issue: 
 icon: com.favorpay.favwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '71'
 reviews: 1
 website: https://zipwalletpay.com
 repository: 
-issue: 
 icon: com.zipwallet.ios.jpg
 bugbounty: 
 meta: obsolete

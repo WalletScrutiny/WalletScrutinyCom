@@ -13,7 +13,6 @@ version: '1.01'
 reviews: 18
 website: 
 repository: 
-issue: 
 icon: com.BitcoinWalletExchange.org.png
 bugbounty: 
 meta: removed

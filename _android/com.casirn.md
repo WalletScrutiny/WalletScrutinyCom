@@ -12,7 +12,6 @@ version: 4.0.1
 reviews: 
 website: https://theblockbox.io
 repository: 
-issue: 
 icon: com.casirn.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 
 website: https://mobilinktoken.com/
 repository: 
-issue: 
 icon: com.mobilink.token.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 0
 website: https://payizadlt.com/
 repository: 
-issue: 
 icon: com.payiza.dlt.jpg
 bugbounty: 
 meta: removed

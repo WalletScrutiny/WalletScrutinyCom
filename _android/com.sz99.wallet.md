@@ -12,7 +12,6 @@ version: 3.7.2
 reviews: 
 website: https://www.nineuniverse.com
 repository: 
-issue: 
 icon: com.sz99.wallet.png
 bugbounty: 
 meta: removed

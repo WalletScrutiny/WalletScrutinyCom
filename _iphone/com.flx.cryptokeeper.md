@@ -12,7 +12,6 @@ version: '5'
 reviews: 48
 website: https://cryptokeeperllc.com/policy/privacy-policy/
 repository: 
-issue: 
 icon: com.flx.cryptokeeper.jpg
 bugbounty: 
 meta: ok

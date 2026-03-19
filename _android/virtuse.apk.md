@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://virtuse.com/
 repository: 
-issue: 
 icon: virtuse.apk.png
 bugbounty: 
 meta: removed

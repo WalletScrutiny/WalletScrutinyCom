@@ -13,7 +13,6 @@ version: 1.0.18
 reviews: 
 website: https://airtokenwallet.com#deadLink
 repository: 
-issue: 
 icon: com.token.airtoken.png
 bugbounty: 
 meta: removed

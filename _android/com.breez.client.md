@@ -16,7 +16,6 @@ version: VARY
 reviews: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
-issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
 meta: stale
@@ -253,3 +252,5 @@ $ git tag
 Had there been a `0.8`... in the breez project, we would have had a clue
 where to go next but absent that, there is no hope of reproducing the app. For
 now our verdict is: **not verifiable**.
+
+An issue has been opened at [https://github.com/breez/breezmobile/issues/247](https://github.com/breez/breezmobile/issues/247)

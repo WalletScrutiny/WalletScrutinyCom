@@ -13,7 +13,6 @@ version: 6.0.7
 reviews: 
 website: https://moneypipe.com#deadLink
 repository: 
-issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
 meta: removed

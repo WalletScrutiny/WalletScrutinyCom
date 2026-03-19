@@ -13,7 +13,6 @@ version: V0.2.0
 reviews: 
 website: https://github.com/yancaitech
 repository: https://github.com/yancaitech/hodler-wallet
-issue: 
 icon: org.yancaitech.hodler.png
 bugbounty: 
 meta: removed

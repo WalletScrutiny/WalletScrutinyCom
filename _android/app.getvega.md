@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: https://getvega.app#deadLink
 repository: 
-issue: 
 icon: app.getvega.png
 bugbounty: 
 meta: removed

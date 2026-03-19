@@ -13,7 +13,6 @@ version: '1.7'
 reviews: 1165
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
-issue: 
 icon: network.artery.network.jpg
 bugbounty: 
 meta: removed

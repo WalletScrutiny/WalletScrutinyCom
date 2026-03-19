@@ -14,7 +14,6 @@ version: 0.3.9
 reviews: 13
 website: https://ezdefi.com/
 repository: 
-issue: 
 icon: com.ezdefi.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://gopay.mn
 repository: 
-issue: 
 icon: mn.godeal.gopay.png
 bugbounty: 
 meta: removed

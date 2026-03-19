@@ -13,7 +13,6 @@ version: 1.8.7
 reviews: 153
 website: 
 repository: 
-issue: 
 icon: com.bitbns.bnspay.jpg
 bugbounty: 
 meta: obsolete

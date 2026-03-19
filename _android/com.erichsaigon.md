@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://www.erichsaigon.com#deadLink
 repository: 
-issue: 
 icon: com.erichsaigon.jpg
 bugbounty: 
 meta: removed

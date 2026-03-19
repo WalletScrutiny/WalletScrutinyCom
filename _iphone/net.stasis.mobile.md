@@ -13,7 +13,6 @@ version: 8.2.2
 reviews: 0
 website: https://stasis.net
 repository: 
-issue: 
 icon: net.stasis.mobile.jpg
 bugbounty: 
 meta: removed

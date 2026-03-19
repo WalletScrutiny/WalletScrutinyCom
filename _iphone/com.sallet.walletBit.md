@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 2
 website: https://www.salletone.com
 repository: 
-issue: 
 icon: com.sallet.walletBit.jpg
 bugbounty: 
 meta: removed

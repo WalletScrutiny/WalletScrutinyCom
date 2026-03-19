@@ -12,7 +12,6 @@ version: 2.19.1
 reviews: 10703
 website: https://hi.com/
 repository: 
-issue: 
 icon: com.hi.dollars.png
 bugbounty: 
 meta: removed

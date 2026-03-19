@@ -14,7 +14,6 @@ version: 12.35.0
 reviews: 12915
 website: https://cex.io
 repository: 
-issue: 
 icon: io.cex.app.jpg
 bugbounty: 
 meta: ok

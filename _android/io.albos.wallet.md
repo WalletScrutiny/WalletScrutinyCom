@@ -12,7 +12,6 @@ version: 2.5.1
 reviews: 
 website: http://www.albos.io/
 repository: 
-issue: 
 icon: io.albos.wallet.png
 bugbounty: 
 meta: ok

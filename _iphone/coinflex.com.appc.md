@@ -13,7 +13,6 @@ version: 2.7.0
 reviews: 8
 website: https://coinflex.com/home#deadLink
 repository: 
-issue: 
 icon: coinflex.com.appc.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.12.7
 reviews: 71
 website: http://www.buysellhodlapp.com
 repository: 
-issue: 
 icon: com.buysellhodl.png
 bugbounty: 
 meta: removed

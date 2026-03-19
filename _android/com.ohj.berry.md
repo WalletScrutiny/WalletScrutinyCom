@@ -13,7 +13,6 @@ version: '1.0001'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.ohj.berry.png
 bugbounty: 
 meta: removed

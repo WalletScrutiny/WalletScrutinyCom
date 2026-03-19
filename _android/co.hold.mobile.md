@@ -13,7 +13,6 @@ version: 3.15.1
 reviews: 9
 website: https://hold.io
 repository: 
-issue: 
 icon: co.hold.mobile.png
 bugbounty: 
 meta: removed

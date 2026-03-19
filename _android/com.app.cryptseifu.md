@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: http://cryptseifu.com#deadLink
 repository: 
-issue: 
 icon: com.app.cryptseifu.png
 bugbounty: 
 meta: removed

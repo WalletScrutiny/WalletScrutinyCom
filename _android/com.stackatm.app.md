@@ -12,7 +12,6 @@ version: 1.12.0
 reviews: 2
 website: https://stackatm.com/
 repository: 
-issue: 
 icon: com.stackatm.app.png
 bugbounty: 
 meta: ok

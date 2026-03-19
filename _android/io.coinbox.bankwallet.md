@@ -12,7 +12,6 @@ version: 0.26.4.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.coinbox.bankwallet.png
 bugbounty: 
 meta: removed

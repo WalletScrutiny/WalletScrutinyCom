@@ -15,7 +15,6 @@ version: 3.34.3
 reviews: 15
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
-issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
@@ -72,3 +71,5 @@ This app is **source available**.
 {% include featureEvidence.html feature="companion" quote="AirGap Wallet The companion application to AirGap Vault installed on your every-day phone and not aware of any secrets." source="Website" %}
 
 {% include featureEvidence.html feature="foss" quote="Fully Open Source" source="Website" comment="App Description states 'source available' which would normally disqualify, but the website explicitly states 'Fully Open Source'. The License file returned 404, so this is uncertain — omitting per conservative rule." %}
+
+An issue has been opened at [https://github.com/airgap-it/airgap-vault/issues/197](https://github.com/airgap-it/airgap-vault/issues/197)

@@ -14,7 +14,6 @@ version: 9.37.0
 reviews: 3815
 website: https://bitkeep.com
 repository: 
-issue: 
 icon: com.bitkeep.wallet.png
 bugbounty: 
 meta: ok

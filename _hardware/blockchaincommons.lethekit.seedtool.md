@@ -17,7 +17,6 @@ shop:
 country: US
 price: 58.03USD
 repository: https://github.com/BlockchainCommons/lethekit
-issue: 
 icon: blockchaincommons.lethekit.seedtool.png
 bugbounty: 
 meta: ok

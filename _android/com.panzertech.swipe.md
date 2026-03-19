@@ -12,7 +12,6 @@ version: '1.7'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.panzertech.swipe.png
 bugbounty: 
 meta: removed

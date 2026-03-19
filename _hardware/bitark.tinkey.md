@@ -17,7 +17,6 @@ shop: http://tinkey.io/#/shop&deadLink
 country: CN
 price: 
 repository: 
-issue: 
 icon: bitark.tinkey.png
 bugbounty: 
 meta: defunct

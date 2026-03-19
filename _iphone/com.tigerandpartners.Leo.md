@@ -13,7 +13,6 @@ version: 2.0.7
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.tigerandpartners.Leo.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://kriptode.com
 repository: 
-issue: 
 icon: com.pseudozach.pushln.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.4.8
 reviews: 
 website: https://lifpay.me
 repository: 
-issue: 
 icon: flutter.android.LifePay.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.15
 reviews: 
 website: https://xoibit.com
 repository: 
-issue: 
 icon: com.xoibit.holdingsapp.jpg
 bugbounty: 
 meta: ok

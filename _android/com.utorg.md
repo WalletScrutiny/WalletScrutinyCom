@@ -13,7 +13,6 @@ version: 2.86.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.utorg.png
 bugbounty: 
 meta: ok

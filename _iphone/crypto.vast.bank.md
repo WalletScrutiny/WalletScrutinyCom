@@ -13,7 +13,6 @@ version: 1.7.15
 reviews: 83
 website: https://www.vast.bank/
 repository: 
-issue: 
 icon: crypto.vast.bank.jpg
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 6.5.15
 reviews: 56
 website: https://yellowcard.io
 repository: 
-issue: 
 icon: io.yellowcard.app.jpg
 bugbounty: 
 meta: removed

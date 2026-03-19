@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: sentinel.wallet.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 300
 website: 
 repository: 
-issue: 
 icon: com.coin.base.png
 bugbounty: 
 meta: removed

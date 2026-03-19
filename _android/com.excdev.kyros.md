@@ -13,7 +13,6 @@ version: 3.2.0
 reviews: 
 website: https://kyros.team#deadLink
 repository: 
-issue: 
 icon: com.excdev.kyros.png
 bugbounty: 
 meta: removed

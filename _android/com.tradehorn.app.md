@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://tradehorn.com/
 repository: 
-issue: 
 icon: com.tradehorn.app.png
 bugbounty: 
 meta: removed

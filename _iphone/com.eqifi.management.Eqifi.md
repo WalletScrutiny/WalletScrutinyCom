@@ -13,7 +13,6 @@ version: 1.7.3
 reviews: 0
 website: https://www.eqifi.com/
 repository: 
-issue: 
 icon: com.eqifi.management.Eqifi.jpg
 bugbounty: 
 meta: removed

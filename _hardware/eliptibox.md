@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: eliptibox.png
 bugbounty: 
 meta: obsolete

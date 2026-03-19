@@ -12,7 +12,6 @@ version: '1.17'
 reviews: 
 website: https://web.archive.org/web/20200204184428/https://www.hitpaywallet.com/
 repository: 
-issue: 
 icon: www.hitpaywallet.com.png
 bugbounty: 
 meta: removed

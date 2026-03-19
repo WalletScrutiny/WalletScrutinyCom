@@ -12,7 +12,6 @@ version: 1.0.12
 reviews: 
 website: https://pgoldapp.com/
 repository: 
-issue: 
 icon: com.rinnas.pgold.jpg
 bugbounty: 
 meta: removed

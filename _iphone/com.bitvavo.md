@@ -13,7 +13,6 @@ version: 2.99.0
 reviews: 8476
 website: https://bitvavo.com
 repository: 
-issue: 
 icon: com.bitvavo.jpg
 bugbounty: 
 meta: ok

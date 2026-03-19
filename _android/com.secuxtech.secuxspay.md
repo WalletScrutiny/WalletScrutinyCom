@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: http://www.secuxtech.com
 repository: 
-issue: 
 icon: com.secuxtech.secuxspay.png
 bugbounty: 
 meta: removed

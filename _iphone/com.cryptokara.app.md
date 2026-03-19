@@ -13,7 +13,6 @@ version: 7.4.3
 reviews: 45
 website: https://crypto-kara-site.vercel.app/
 repository: 
-issue: 
 icon: com.cryptokara.app.jpg
 bugbounty: 
 meta: removed

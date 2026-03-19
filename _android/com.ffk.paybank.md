@@ -13,7 +13,6 @@ version: 2.6.6
 reviews: 
 website: https://www.paybank.com#deadLink
 repository: 
-issue: 
 icon: com.ffk.paybank.png
 bugbounty: 
 meta: removed

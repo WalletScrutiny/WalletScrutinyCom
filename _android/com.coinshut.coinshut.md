@@ -12,7 +12,6 @@ version: 0.1.1
 reviews: 
 website: https://coinshut.africa#deadLink
 repository: 
-issue: 
 icon: com.coinshut.coinshut.jpg
 bugbounty: 
 meta: removed

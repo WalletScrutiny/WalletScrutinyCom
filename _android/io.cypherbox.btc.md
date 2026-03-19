@@ -13,7 +13,6 @@ version: 0.0.4
 reviews: 
 website: https://cypherbox.io
 repository: https://github.com/Bamskki/Cypher-Box
-issue: 
 icon: io.cypherbox.btc.png
 bugbounty: 
 meta: ok

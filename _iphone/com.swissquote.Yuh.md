@@ -13,7 +13,6 @@ version: 1.37.2
 reviews: 20243
 website: https://www.yuh.com
 repository: 
-issue: 
 icon: com.swissquote.Yuh.jpg
 bugbounty: 
 meta: ok

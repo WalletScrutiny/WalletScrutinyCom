@@ -13,7 +13,6 @@ version: 1.1.26
 reviews: 16
 website: 
 repository: 
-issue: 
 icon: com.coinsdo.wallet.jpg
 bugbounty: 
 meta: removed

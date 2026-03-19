@@ -13,7 +13,6 @@ version: 2.3.15
 reviews: 21
 website: https://web.archive.org/web/20240713055326/https://blockbank.ai/
 repository: 
-issue: 
 icon: com.aibb.wallet1.jpg
 bugbounty: 
 meta: removed

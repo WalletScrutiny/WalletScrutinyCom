@@ -12,7 +12,6 @@ version: 1.0.30
 reviews: 
 website: https://www.spaceground.io#deadLink
 repository: 
-issue: 
 icon: com.spaceground.png
 bugbounty: 
 meta: removed

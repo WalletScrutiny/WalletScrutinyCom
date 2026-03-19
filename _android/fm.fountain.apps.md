@@ -13,7 +13,6 @@ version: 1.4.10
 reviews: 260
 website: https://www.fountain.fm
 repository: 
-issue: 
 icon: fm.fountain.apps.png
 bugbounty: 
 meta: ok

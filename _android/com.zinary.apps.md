@@ -12,7 +12,6 @@ version: 0.28.7
 reviews: 
 website: https://zinary.com
 repository: 
-issue: 
 icon: com.zinary.apps.png
 bugbounty: 
 meta: removed

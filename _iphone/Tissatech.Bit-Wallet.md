@@ -13,7 +13,6 @@ version: 4.5.0
 reviews: 565
 website: 
 repository: 
-issue: 
 icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
 meta: removed

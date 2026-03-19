@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 34
 website: https://bity.com/en/personal/wallet
 repository: 
-issue: 
 icon: com.bity.wallet.production.jpg
 bugbounty: 
 meta: ok

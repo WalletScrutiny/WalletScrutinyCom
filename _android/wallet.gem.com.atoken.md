@@ -13,7 +13,6 @@ version: 4.2.1
 reviews: 2460
 website: https://www.atoken.com
 repository: 
-issue: 
 icon: wallet.gem.com.atoken.png
 bugbounty: 
 meta: removed

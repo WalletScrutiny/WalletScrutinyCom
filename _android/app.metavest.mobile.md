@@ -13,7 +13,6 @@ version: 3.4.0
 reviews: 
 website: https://metavest.app/
 repository: 
-issue: 
 icon: app.metavest.mobile.png
 bugbounty: 
 meta: ok

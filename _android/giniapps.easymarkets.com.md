@@ -13,7 +13,6 @@ version: 3.2.5
 reviews: 39
 website: https://www.easymarkets.com/
 repository: 
-issue: 
 icon: giniapps.easymarkets.com.png
 bugbounty: 
 meta: ok

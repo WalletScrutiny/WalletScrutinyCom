@@ -12,7 +12,6 @@ version: '5.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.iqpartner.iq2.jpg
 bugbounty: 
 meta: removed

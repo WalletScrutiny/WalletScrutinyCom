@@ -13,7 +13,6 @@ version: '3.1'
 reviews: 13
 website: https://www.bitex.com#deadLink
 repository: 
-issue: 
 icon: com.bitexuae.jpg
 bugbounty: 
 meta: removed

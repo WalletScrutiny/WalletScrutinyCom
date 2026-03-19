@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 23
 website: https://wallet.rumble.com
 repository: 
-issue: 
 icon: com.rumble.wallet.jpg
 bugbounty: 
 meta: ok

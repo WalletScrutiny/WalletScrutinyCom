@@ -13,7 +13,6 @@ version: 1.8.5
 reviews: 322
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
-issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
 meta: removed
@@ -30,3 +29,5 @@ developerName:
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/TP-Lab/tp-ios/issues/1](https://github.com/TP-Lab/tp-ios/issues/1)

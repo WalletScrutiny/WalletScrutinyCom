@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://exchange.bitcoindefi.eu
 repository: 
-issue: 
 icon: com.exchange.bitcoindefi.png
 bugbounty: 
 meta: removed

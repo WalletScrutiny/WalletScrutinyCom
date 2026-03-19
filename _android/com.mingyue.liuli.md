@@ -12,7 +12,6 @@ version: 4.2.2
 reviews: 
 website: https://www.coinbene.com#deadLink
 repository: 
-issue: 
 icon: com.mingyue.liuli.png
 bugbounty: 
 meta: removed

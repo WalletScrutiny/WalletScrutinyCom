@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 8
 website: https://keys.casa
 repository: 
-issue: 
 icon: com.satsapp.png
 bugbounty: 
 meta: removed

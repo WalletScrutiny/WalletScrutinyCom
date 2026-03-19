@@ -13,7 +13,6 @@ version: 1.52.52
 reviews: 
 website: http://cointong.io/
 repository: 
-issue: 
 icon: semaphore.coinclient.png
 bugbounty: 
 meta: defunct

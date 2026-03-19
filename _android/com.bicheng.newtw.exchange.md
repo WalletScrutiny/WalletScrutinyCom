@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://www.btcboxtw.com#deadLink
 repository: 
-issue: 
 icon: com.bicheng.newtw.exchange.png
 bugbounty: 
 meta: removed

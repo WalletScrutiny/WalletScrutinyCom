@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 2
 website: https://www.kasta.io
 repository: 
-issue: 
 icon: io.kasta.app.ios.jpg
 bugbounty: 
 meta: ok

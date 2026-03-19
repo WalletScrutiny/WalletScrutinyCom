@@ -13,7 +13,6 @@ version: 1.0.13
 reviews: 4
 website: https://haladinar.io
 repository: 
-issue: 
 icon: com.haladinarwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: v8.26.1
 reviews: 23
 website: https://zelcore.io
 repository: 
-issue: 
 icon: com.zelcash.zelcore.jpg
 bugbounty: 
 meta: ok

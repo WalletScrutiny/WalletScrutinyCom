@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 24
 website: https://sonitix.exchange/
 repository: 
-issue: 
 icon: org.sonitix-private-limited-sonitix-mobility.jpg
 bugbounty: 
 meta: defunct

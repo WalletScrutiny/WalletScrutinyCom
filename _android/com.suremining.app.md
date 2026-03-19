@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://sureminingtradeoptions.com#deadLink
 repository: 
-issue: 
 icon: com.suremining.app.png
 bugbounty: 
 meta: removed

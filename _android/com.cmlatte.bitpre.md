@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.cmlatte.bitpre.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://fluttermarket.com/view/flutter-crypto-app-theme
 repository: 
-issue: 
 icon: com.geekyants.fluttercryptocurrency.png
 bugbounty: 
 meta: removed

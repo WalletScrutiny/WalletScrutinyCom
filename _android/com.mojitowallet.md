@@ -14,7 +14,6 @@ version: 0.4.1
 reviews: 
 website: https://www.mintlayer.org/en/mojito-wallet/
 repository: https://github.com/mintlayer/mojito_mobile_wallet
-issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
 meta: stale
@@ -106,3 +105,5 @@ This app was previously [due to be verified](https://gitlab.com/walletscrutiny/w
   > The build instructions are not very strict about tools to be used, making reproducibility unlikely. The repository did not use tags or releases, making finding matching versions difficult. Given this commit incremented the version from 0.2.7 to 0.2.10 with Google Play featuring version v0.2.9, we can say with certainty that reproducing the version on Google Play is impossible.
   >
   > A **nonverifiable** verdict is warranted until we check if compilation works at all.
+
+An issue has been opened at [https://github.com/mintlayer/mojito_mobile_wallet/issues/101](https://github.com/mintlayer/mojito_mobile_wallet/issues/101)

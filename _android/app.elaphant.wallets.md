@@ -12,7 +12,6 @@ version: 1.99.15
 reviews: 1
 website: https://elaphant.app
 repository: 
-issue: 
 icon: app.elaphant.wallets.png
 bugbounty: 
 meta: removed

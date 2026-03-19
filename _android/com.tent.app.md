@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://tent.app
 repository: 
-issue: 
 icon: com.tent.app.png
 bugbounty: 
 meta: removed

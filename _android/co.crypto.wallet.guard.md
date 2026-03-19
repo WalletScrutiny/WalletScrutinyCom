@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.crypto.wallet.guard.png
 bugbounty: 
 meta: removed

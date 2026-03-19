@@ -13,7 +13,6 @@ version: 1.16.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.QuickX.png
 bugbounty: 
 meta: removed

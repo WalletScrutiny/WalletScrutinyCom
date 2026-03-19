@@ -12,7 +12,6 @@ version: 1.0.28
 reviews: 
 website: https://otcxpert.com/
 repository: 
-issue: 
 icon: hk.unisoft.otcxpert.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 22.0.2
 reviews: 1392
 website: https://www.safebit.com.tr/
 repository: 
-issue: 
 icon: com.bitcimobil.com.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://unix.finance
 repository: 
-issue: 
 icon: com.unix.unix_finance.png
 bugbounty: 
 meta: removed

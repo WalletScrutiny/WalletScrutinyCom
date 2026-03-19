@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: http://obolon9.com#deadLink
 repository: 
-issue: 
 icon: com.obolon9_mobile.jpg
 bugbounty: 
 meta: removed

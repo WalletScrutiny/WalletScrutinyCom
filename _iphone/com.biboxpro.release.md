@@ -13,7 +13,6 @@ version: 5.3.0
 reviews: 56
 website: https://www.bibox.pro
 repository: 
-issue: 
 icon: com.biboxpro.release.jpg
 bugbounty: 
 meta: obsolete

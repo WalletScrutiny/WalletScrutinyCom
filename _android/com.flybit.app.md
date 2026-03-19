@@ -13,7 +13,6 @@ version: 1.34.04
 reviews: 
 website: https://flybit.com
 repository: 
-issue: 
 icon: com.flybit.app.png
 bugbounty: 
 meta: ok

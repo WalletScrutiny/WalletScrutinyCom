@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://truewallet.dev/
 repository: 
-issue: 
 icon: com.truewallet.app.png
 bugbounty: 
 meta: ok

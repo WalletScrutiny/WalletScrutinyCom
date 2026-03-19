@@ -13,7 +13,6 @@ version: 1.4.33
 reviews: 1606
 website: https://www.hotbit.io#deadLink
 repository: 
-issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
 meta: removed

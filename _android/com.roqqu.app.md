@@ -14,7 +14,6 @@ version: 2.5.82
 reviews: 903
 website: https://roqqu.com
 repository: 
-issue: 
 icon: com.roqqu.app.png
 bugbounty: 
 meta: ok

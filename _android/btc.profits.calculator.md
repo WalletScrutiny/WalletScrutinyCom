@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 24
 website: 
 repository: 
-issue: 
 icon: btc.profits.calculator.png
 bugbounty: 
 meta: removed

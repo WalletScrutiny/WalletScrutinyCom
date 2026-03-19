@@ -13,7 +13,6 @@ version: 4.18.0
 reviews: 12194
 website: https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
-issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
 meta: obsolete
@@ -32,3 +31,5 @@ developerName: breadwallet LLC
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/breadwallet/brd-mobile/issues/13](https://github.com/breadwallet/brd-mobile/issues/13)

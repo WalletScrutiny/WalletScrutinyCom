@@ -13,7 +13,6 @@ version: 1.2.8
 reviews: 117
 website: https://www.okminer.io#deadLink
 repository: 
-issue: 
 icon: io.okminer.app.png
 bugbounty: 
 meta: removed

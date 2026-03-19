@@ -12,7 +12,6 @@ version: 1.3.90
 reviews: 
 website: https://yibi.co
 repository: 
-issue: 
 icon: com.yibiexchange.app.png
 bugbounty: 
 meta: ok

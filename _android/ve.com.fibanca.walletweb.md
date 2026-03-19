@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://fibanca.com
 repository: 
-issue: 
 icon: ve.com.fibanca.walletweb.png
 bugbounty: 
 meta: removed

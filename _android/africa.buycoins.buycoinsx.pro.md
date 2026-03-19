@@ -13,7 +13,6 @@ version: 1.1.96
 reviews: 3
 website: https://pro.buycoins.africa
 repository: 
-issue: 
 icon: africa.buycoins.buycoinsx.pro.png
 bugbounty: 
 meta: obsolete

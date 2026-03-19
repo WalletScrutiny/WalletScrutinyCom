@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://stamining.com
 repository: 
-issue: 
 icon: com.dashwallet.png
 bugbounty: 
 meta: removed

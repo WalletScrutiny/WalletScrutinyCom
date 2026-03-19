@@ -13,7 +13,6 @@ version: '3.75'
 reviews: 
 website: https://www.ziglu.io
 repository: 
-issue: 
 icon: hippotech.bank.droid.png
 bugbounty: 
 meta: ok

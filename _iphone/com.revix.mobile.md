@@ -13,7 +13,6 @@ version: 2.9.5
 reviews: 64
 website: https://www.altify.app/
 repository: 
-issue: 
 icon: com.revix.mobile.jpg
 bugbounty: 
 meta: ok

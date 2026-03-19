@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: http://rolbeetservices.com#deadLink
 repository: 
-issue: 
 icon: com.rolbeet.app.png
 bugbounty: 
 meta: removed

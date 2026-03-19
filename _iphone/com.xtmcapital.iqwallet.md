@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 3
 website: https://iqwallet.io#deadLink
 repository: 
-issue: 
 icon: com.xtmcapital.iqwallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 8.23.0.9
 reviews: 29
 website: http://www.bitkan.com
 repository: 
-issue: 
 icon: com.bitcan.app.png
 bugbounty: 
 meta: removed

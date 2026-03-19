@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://cofinex.io
 repository: 
-issue: 
 icon: com.app.cofinexexchange34.png
 bugbounty: 
 meta: removed

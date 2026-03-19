@@ -13,7 +13,6 @@ version: 2.2.6
 reviews: 29
 website: 
 repository: https://github.com/Foundation-Devices/envoy
-issue: 
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok

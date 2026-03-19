@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 0
 website: https://nebeus.com
 repository: 
-issue: 
 icon: com.nebeus.appmobile.jpg
 bugbounty: 
 meta: ok

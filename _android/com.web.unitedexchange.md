@@ -13,7 +13,6 @@ version: '3.7'
 reviews: 2
 website: https://unitedexchange.io/
 repository: 
-issue: 
 icon: com.web.unitedexchange.png
 bugbounty: 
 meta: removed

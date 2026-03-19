@@ -13,7 +13,6 @@ version: 3.38.0
 reviews: 6360
 website: http://www.foxbit.com.br
 repository: 
-issue: 
 icon: br.com.foxbit.foxbitandroid.png
 bugbounty: 
 meta: ok

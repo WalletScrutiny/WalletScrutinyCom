@@ -12,7 +12,6 @@ version: '40.0'
 reviews: 
 website: https://www.cryptocashfast.com
 repository: 
-issue: 
 icon: com.mkgf_nr.png
 bugbounty: 
 meta: removed

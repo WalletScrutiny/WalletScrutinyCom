@@ -12,7 +12,6 @@ provider: zkSNACKs Ltd.
 providerWebsite: https://zksnacks.com/
 website: https://wasabiwallet.io
 repository: https://github.com/WalletWasabi/WalletWasabi
-issue: 
 icon: wasabi.png
 bugbounty: 
 meta: ok

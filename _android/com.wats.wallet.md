@@ -12,7 +12,6 @@ version: 2.0.9
 reviews: 
 website: https://watswallet.com
 repository: 
-issue: 
 icon: com.wats.wallet.jpg
 bugbounty: 
 meta: ok

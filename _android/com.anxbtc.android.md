@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 10
 website: https://anxintl.com
 repository: 
-issue: 
 icon: com.anxbtc.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.0.8
 reviews: 6
 website: https://yusetoken.io/yuse-wallet/
 repository: 
-issue: 
 icon: io.yusewallet.jpg
 bugbounty: 
 meta: removed

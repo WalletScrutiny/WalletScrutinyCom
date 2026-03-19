@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.zabtechnologies.net/
 repository: 
-issue: 
 icon: com.zab.lbc.app.png
 bugbounty: 
 meta: removed

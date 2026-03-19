@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://wmprotrade.com#deadLink
 repository: 
-issue: 
 icon: com.wmprotrade.droidapp.jpg
 bugbounty: 
 meta: removed

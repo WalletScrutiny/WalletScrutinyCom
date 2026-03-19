@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 619
 website: https://mypatricia.co/
 repository: 
-issue: 
 icon: com.patricia.build.jpg
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 1.0.16
 reviews: 22
 website: https://bitfreezer.app/
 repository: 
-issue: 
 icon: bitfreezer.app.wallet.png
 bugbounty: 
 meta: removed

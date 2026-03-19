@@ -13,7 +13,6 @@ version: 2.30.0
 reviews: 55726
 website: https://www.tokocrypto.com
 repository: 
-issue: 
 icon: com.binance.cloud.tokocrypto.png
 bugbounty: 
 meta: ok

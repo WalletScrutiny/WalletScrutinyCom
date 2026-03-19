@@ -13,7 +13,6 @@ version: 10.78.0
 reviews: 15455977
 website: https://venmo.com/
 repository: 
-issue: 
 icon: net.kortina.labs.Venmo.jpg
 bugbounty: 
 meta: ok

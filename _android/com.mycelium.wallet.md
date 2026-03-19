@@ -14,7 +14,6 @@ version: 3.21.0.0
 reviews: 1155
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: 
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok

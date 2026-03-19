@@ -13,7 +13,6 @@ version: 3.1.6
 reviews: 274
 website: https://pandar.ng
 repository: 
-issue: 
 icon: i.brains.pandax.png
 bugbounty: 
 meta: ok

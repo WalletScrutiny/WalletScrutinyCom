@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 62
 website: https://web.archive.org/web/20250910205356/http://lvl.co/
 repository: 
-issue: 
 icon: co.lvl.firstapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.4.5
 reviews: 
 website: https://trade.coinsate.com#deadLink
 repository: 
-issue: 
 icon: com.coinsate.droidapp.png
 bugbounty: 
 meta: removed

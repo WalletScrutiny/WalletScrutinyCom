@@ -12,7 +12,6 @@ version: 2.0.3
 reviews: 
 website: https://defii.app/
 repository: 
-issue: 
 icon: io.defii.png
 bugbounty: 
 meta: removed

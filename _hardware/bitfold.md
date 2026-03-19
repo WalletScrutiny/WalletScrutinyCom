@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
 icon: bitfold.png
 bugbounty: 
 meta: ok

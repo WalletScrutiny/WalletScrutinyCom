@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://clusterwallet.com
 repository: 
-issue: 
 icon: com.aic.cluster.png
 bugbounty: 
 meta: removed

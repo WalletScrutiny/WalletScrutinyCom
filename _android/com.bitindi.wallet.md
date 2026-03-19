@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://bitindi.com
 repository: 
-issue: 
 icon: com.bitindi.wallet.png
 bugbounty: 
 meta: removed

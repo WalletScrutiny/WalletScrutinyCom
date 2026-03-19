@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://savox.io#deadLink
 repository: 
-issue: 
 icon: io.savox.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cricketrade.com
 repository: 
-issue: 
 icon: app.cricketrade.com.png
 bugbounty: 
 meta: removed

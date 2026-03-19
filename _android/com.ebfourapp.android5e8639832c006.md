@@ -12,7 +12,6 @@ version: '2.5'
 reviews: 
 website: http://goforsage.com/app#deadLink
 repository: 
-issue: 
 icon: com.ebfourapp.android5e8639832c006.png
 bugbounty: 
 meta: removed

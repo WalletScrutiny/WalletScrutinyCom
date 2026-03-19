@@ -13,7 +13,6 @@ version: 1.53.1
 reviews: 
 website: https://hoyabit.com/
 repository: 
-issue: 
 icon: com.hoyabit.cex.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://web.archive.org/web/20221120043914/https://matinex.com/
 repository: 
-issue: 
 icon: com.matinex.matinex.png
 bugbounty: 
 meta: removed

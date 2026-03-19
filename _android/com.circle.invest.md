@@ -13,7 +13,6 @@ version: 1.5.5
 reviews: 270
 website: https://invest.circle.com
 repository: 
-issue: 
 icon: com.circle.invest.png
 bugbounty: 
 meta: removed

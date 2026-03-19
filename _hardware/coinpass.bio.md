@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: coinpass.bio.png
 bugbounty: 
 meta: ok

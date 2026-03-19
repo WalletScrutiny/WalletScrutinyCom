@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: http://mond.vision#deadLink
 repository: 
-issue: 
 icon: mond.vision.png
 bugbounty: 
 meta: removed

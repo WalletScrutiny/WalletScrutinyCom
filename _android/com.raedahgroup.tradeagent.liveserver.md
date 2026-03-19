@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.raedahgroup.tradeagent.liveserver.png
 bugbounty: 
 meta: removed

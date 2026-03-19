@@ -12,7 +12,6 @@ version: 0.16.3
 reviews: 
 website: https://theluxurybank.com
 repository: 
-issue: 
 icon: com.theluxurybank.bankwallet.png
 bugbounty: 
 meta: removed

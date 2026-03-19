@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://volex.io#deadLink
 repository: 
-issue: 
 icon: com.algovision.volex.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.1
 reviews: 1179
 website: 
 repository: 
-issue: 
 icon: com.pionex.lite.appstore.jpg
 bugbounty: 
 meta: ok

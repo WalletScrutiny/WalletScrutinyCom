@@ -12,7 +12,6 @@ version: 1.0.0.18
 reviews: 268
 website: 
 repository: 
-issue: 
 icon: blockchains.my.png
 bugbounty: 
 meta: removed

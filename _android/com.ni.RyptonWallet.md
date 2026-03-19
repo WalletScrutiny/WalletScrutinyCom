@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://rhypton.io#deadLink
 repository: 
-issue: 
 icon: com.ni.RyptonWallet.jpg
 bugbounty: 
 meta: removed

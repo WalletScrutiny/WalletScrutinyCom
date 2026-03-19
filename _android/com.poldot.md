@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://poldotmining.com#deadLink
 repository: 
-issue: 
 icon: com.poldot.png
 bugbounty: 
 meta: removed

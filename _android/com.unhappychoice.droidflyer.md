@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://github.com/unhappychoice/DroidFlyer
 repository: 
-issue: 
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
 meta: obsolete

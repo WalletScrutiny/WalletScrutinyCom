@@ -12,7 +12,6 @@ version: 7.7.2
 reviews: 
 website: http://www.hamilton-systems.io
 repository: 
-issue: 
 icon: com.hslwallet.png
 bugbounty: 
 meta: stale

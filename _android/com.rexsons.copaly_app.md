@@ -12,7 +12,6 @@ version: 5.2.8
 reviews: 
 website: https://copaly.com
 repository: 
-issue: 
 icon: com.rexsons.copaly_app.png
 bugbounty: 
 meta: ok

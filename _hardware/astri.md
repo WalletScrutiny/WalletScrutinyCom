@@ -17,7 +17,6 @@ shop:
 country: HK
 price: 
 repository: 
-issue: 
 icon: 
 bugbounty: 
 meta: ok

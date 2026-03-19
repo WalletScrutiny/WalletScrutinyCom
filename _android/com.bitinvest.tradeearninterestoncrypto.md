@@ -12,7 +12,6 @@ version: '9.03'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitinvest.tradeearninterestoncrypto.jpg
 bugbounty: 
 meta: removed

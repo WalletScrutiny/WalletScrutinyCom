@@ -23,7 +23,6 @@ shop: https://onekey.so/en-US/hardware
 country: SG
 price: 42USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.png
 bugbounty: 
 meta: ok
@@ -286,3 +285,5 @@ otherwise empty issue tracker of the most likely candidate for being the source
 code repository of this product but until confirmation of tis, we have to file
 this product as closed source as their website doesn't link to any actual
 firmware source code. As such the product is **not verifiable**.
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406)

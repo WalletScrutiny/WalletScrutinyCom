@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://sonidex.sonikchain.com
 repository: 
-issue: 
 icon: com.sonikchain.sonidex.png
 bugbounty: 
 meta: obsolete

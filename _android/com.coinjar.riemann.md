@@ -13,7 +13,6 @@ version: 3.50.0
 reviews: 1162
 website: https://www.coinjar.com
 repository: 
-issue: 
 icon: com.coinjar.riemann.png
 bugbounty: 
 meta: ok

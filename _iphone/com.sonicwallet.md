@@ -13,7 +13,6 @@ version: '3.2'
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.sonicwallet.jpg
 bugbounty: 
 meta: removed

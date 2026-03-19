@@ -12,7 +12,6 @@ version: 0.0.4
 reviews: 
 website: https://wallet.vistamoney.cc
 repository: 
-issue: 
 icon: app.vistamoney.mobilewallet.png
 bugbounty: 
 meta: removed

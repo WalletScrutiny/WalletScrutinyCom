@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 5
 website: https://defexa.io/wallet/
 repository: 
-issue: 
 icon: com.defexa.wallet.png
 bugbounty: 
 meta: ok

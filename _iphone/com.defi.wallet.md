@@ -13,7 +13,6 @@ version: 2.50.0
 reviews: 20040
 website: https://crypto.com/onchain
 repository: 
-issue: 
 icon: com.defi.wallet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://eurekax.io
 repository: 
-issue: 
 icon: io.eurekax.app.png
 bugbounty: 
 meta: removed

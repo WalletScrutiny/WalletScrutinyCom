@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: https://dentrocoin.com
 repository: 
-issue: 
 icon: xyz.appmaker.mevpis.png
 bugbounty: 
 meta: removed

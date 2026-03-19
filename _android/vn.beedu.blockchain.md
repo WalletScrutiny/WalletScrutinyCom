@@ -13,7 +13,6 @@ version: 1.4.20
 reviews: 31
 website: https://lynkey.com/
 repository: 
-issue: 
 icon: vn.beedu.blockchain.png
 bugbounty: 
 meta: removed

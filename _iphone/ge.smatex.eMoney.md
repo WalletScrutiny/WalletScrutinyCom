@@ -13,7 +13,6 @@ version: 11.5.7
 reviews: 6
 website: http://emoney.ge
 repository: 
-issue: 
 icon: ge.smatex.eMoney.jpg
 bugbounty: 
 meta: ok

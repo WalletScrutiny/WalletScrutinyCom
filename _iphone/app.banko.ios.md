@@ -13,7 +13,6 @@ version: 1.5.6
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: app.banko.ios.jpg
 bugbounty: 
 meta: removed

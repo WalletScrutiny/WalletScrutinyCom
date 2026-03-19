@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.blocklink.live#deadLink
 repository: 
-issue: 
 icon: com.wBlocklink_11263223.png
 bugbounty: 
 meta: removed

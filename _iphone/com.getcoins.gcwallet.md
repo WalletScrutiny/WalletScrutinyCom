@@ -13,7 +13,6 @@ version: 15.4.0
 reviews: 16
 website: https://getcoins.com/
 repository: 
-issue: 
 icon: com.getcoins.gcwallet.jpg
 bugbounty: 
 meta: removed

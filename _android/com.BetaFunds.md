@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: https://betafunds.com
 repository: 
-issue: 
 icon: com.BetaFunds.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.22.28
 reviews: 34
 website: https://www.dunamu.com
 repository: 
-issue: 
 icon: com.dunamu.exchange.global.png
 bugbounty: 
 meta: ok

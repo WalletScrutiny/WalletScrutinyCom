@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://symverse.com
 repository: 
-issue: 
 icon: com.symverse.wallet.png
 bugbounty: 
 meta: removed

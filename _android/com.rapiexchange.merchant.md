@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.rapixchange.com/
 repository: 
-issue: 
 icon: com.rapiexchange.merchant.png
 bugbounty: 
 meta: obsolete

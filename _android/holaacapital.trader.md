@@ -12,7 +12,6 @@ version: 2.3.40
 reviews: 
 website: https://www.holacapital.ae
 repository: 
-issue: 
 icon: holaacapital.trader.png
 bugbounty: 
 meta: removed

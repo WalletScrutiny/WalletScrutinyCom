@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 
 website: https://www.moneypartners.co.jp/
 repository: 
-issue: 
 icon: jp.co.moneypartners.CryptoTrade.png
 bugbounty: 
 meta: ok

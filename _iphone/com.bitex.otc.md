@@ -13,7 +13,6 @@ version: 1.8.8
 reviews: 8
 website: https://www.bitex.sg/
 repository: 
-issue: 
 icon: com.bitex.otc.jpg
 bugbounty: 
 meta: stale

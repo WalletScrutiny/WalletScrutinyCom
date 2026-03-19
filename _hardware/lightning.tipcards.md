@@ -17,7 +17,6 @@ shop:
 country: DE
 price: 
 repository: https://github.com/Satoshi-Engineering/tip-cards/tags
-issue: 
 icon: lightning.tipcards.png
 bugbounty: 
 meta: ok

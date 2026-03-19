@@ -14,7 +14,6 @@ version: 3.26.1
 reviews: 7
 website: https://capital.com/
 repository: 
-issue: 
 icon: com.capital.etf.trade.png
 bugbounty: 
 meta: ok

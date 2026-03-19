@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 1
 website: https://kyccoin.io
 repository: 
-issue: 
 icon: com.mobile.kyc.png
 bugbounty: 
 meta: removed

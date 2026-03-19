@@ -13,7 +13,6 @@ version: 4.19.0
 reviews: 8
 website: https://vivid.money/
 repository: 
-issue: 
 icon: vivid.money.png
 bugbounty: 
 meta: ok

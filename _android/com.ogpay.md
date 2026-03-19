@@ -13,7 +13,6 @@ version: VARY
 reviews: 34
 website: https://www.ogpaywallet.com
 repository: 
-issue: 
 icon: com.ogpay.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.5.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.xsjys.bbtc.cdex.png
 bugbounty: 
 meta: removed

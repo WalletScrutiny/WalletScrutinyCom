@@ -13,7 +13,6 @@ version: 3.10.1
 reviews: 18
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-iOS
-issue: 
 icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok

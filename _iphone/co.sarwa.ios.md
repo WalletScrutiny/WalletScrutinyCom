@@ -13,7 +13,6 @@ version: 7.4.0
 reviews: 106
 website: https://www.sarwa.co/blog
 repository: 
-issue: 
 icon: co.sarwa.ios.jpg
 bugbounty: 
 meta: ok

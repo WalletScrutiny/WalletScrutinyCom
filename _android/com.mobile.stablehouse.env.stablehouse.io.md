@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://www.stablehouse.com
 repository: 
-issue: 
 icon: com.mobile.stablehouse.env.stablehouse.io.png
 bugbounty: 
 meta: removed

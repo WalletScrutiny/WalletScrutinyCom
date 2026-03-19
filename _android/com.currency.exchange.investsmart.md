@@ -13,7 +13,6 @@ version: 2.18.19
 reviews: 276
 website: https://dzengi.com/
 repository: 
-issue: 
 icon: com.currency.exchange.investsmart.png
 bugbounty: 
 meta: ok

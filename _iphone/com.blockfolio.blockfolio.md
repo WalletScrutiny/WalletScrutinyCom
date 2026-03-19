@@ -13,7 +13,6 @@ version: 4.10.1
 reviews: 54939
 website: https://ftx.com
 repository: 
-issue: 
 icon: com.blockfolio.blockfolio.jpg
 bugbounty: 
 meta: removed

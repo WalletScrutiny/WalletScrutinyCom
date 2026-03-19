@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://nominex.mygreat.app#deadLink
 repository: 
-issue: 
 icon: com.nominex.finance.referralprogram.png
 bugbounty: 
 meta: removed

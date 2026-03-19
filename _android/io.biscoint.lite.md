@@ -13,7 +13,6 @@ version: 2.9.11
 reviews: 6
 website: https://www.bity.com.br/policies/
 repository: 
-issue: 
 icon: io.biscoint.lite.png
 bugbounty: 
 meta: ok

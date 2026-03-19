@@ -12,7 +12,6 @@ version: 1.0.38
 reviews: 3
 website: https://w3wallet.app
 repository: 
-issue: 
 icon: app.w3wallet.wallet.jpg
 bugbounty: 
 meta: ok

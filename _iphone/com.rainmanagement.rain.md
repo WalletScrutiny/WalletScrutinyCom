@@ -13,7 +13,6 @@ version: 3.9.1
 reviews: 2887
 website: https://www.rain.bh/
 repository: 
-issue: 
 icon: com.rainmanagement.rain.jpg
 bugbounty: 
 meta: ok

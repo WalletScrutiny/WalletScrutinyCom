@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://omptrading.capital#deadLink
 repository: 
-issue: 
 icon: com.omptradingcapital.app.png
 bugbounty: 
 meta: removed

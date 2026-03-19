@@ -13,7 +13,6 @@ version: 90.4.010
 reviews: 
 website: https://www.gcmasia.com
 repository: 
-issue: 
 icon: com.gcmasia.pro.png
 bugbounty: 
 meta: removed

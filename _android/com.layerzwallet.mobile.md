@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 
 website: https://layerzwallet.com
 repository: 
-issue: 
 icon: com.layerzwallet.mobile.jpg
 bugbounty: 
 meta: ok

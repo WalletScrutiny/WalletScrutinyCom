@@ -13,7 +13,6 @@ version: 1.8.1
 reviews: 1
 website: https://ammer.cards/
 repository: 
-issue: 
 icon: ammer.wallet.png
 bugbounty: 
 meta: ok

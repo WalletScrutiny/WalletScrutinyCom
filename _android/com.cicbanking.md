@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://cicbanking.com#deadLink
 repository: 
-issue: 
 icon: com.cicbanking.png
 bugbounty: 
 meta: removed

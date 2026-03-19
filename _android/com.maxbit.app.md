@@ -13,7 +13,6 @@ version: 1.37.0
 reviews: 
 website: https://www.maxbit.com
 repository: 
-issue: 
 icon: com.maxbit.app.png
 bugbounty: 
 meta: ok

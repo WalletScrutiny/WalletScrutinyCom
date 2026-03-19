@@ -13,7 +13,6 @@ version: 3.3.86
 reviews: 32
 website: 
 repository: 
-issue: 
 icon: com.live.epocket.jpg
 bugbounty: 
 meta: ok

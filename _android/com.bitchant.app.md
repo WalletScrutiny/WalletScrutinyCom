@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://bitchant.co#deadLink
 repository: 
-issue: 
 icon: com.bitchant.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.bxen.io/tickets#deadLink
 repository: 
-issue: 
 icon: com.IcmTech_Bxen.myapp.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.41.0
 reviews: 
 website: https://gleecbtc.com/
 repository: 
-issue: 
 icon: exchange.gleec.com.png
 bugbounty: 
 meta: ok

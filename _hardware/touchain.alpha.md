@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: touchain.alpha.png
 bugbounty: 
 meta: defunct

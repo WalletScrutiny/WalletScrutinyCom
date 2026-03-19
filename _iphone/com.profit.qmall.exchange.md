@@ -13,7 +13,6 @@ version: 1.1.59
 reviews: 9
 website: https://qmall.io/
 repository: 
-issue: 
 icon: com.profit.qmall.exchange.jpg
 bugbounty: 
 meta: stale

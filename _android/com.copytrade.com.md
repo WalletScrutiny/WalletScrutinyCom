@@ -13,7 +13,6 @@ version: 1.5.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.copytrade.com.png
 bugbounty: 
 meta: removed

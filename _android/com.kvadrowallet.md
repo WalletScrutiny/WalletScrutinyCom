@@ -13,7 +13,6 @@ version: 1.2.13
 reviews: 34
 website: https://kvadrowallet.com#deadLink
 repository: 
-issue: 
 icon: com.kvadrowallet.png
 bugbounty: 
 meta: removed

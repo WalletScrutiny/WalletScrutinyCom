@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: missionburg.png
 bugbounty: 
 meta: ok

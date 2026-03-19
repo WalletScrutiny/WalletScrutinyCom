@@ -15,7 +15,6 @@ version: 2.3.18
 reviews: 10
 website: https://velas.com
 repository: 
-issue: 
 icon: com.velas.walletmobile.jpg
 bugbounty: 
 meta: stale

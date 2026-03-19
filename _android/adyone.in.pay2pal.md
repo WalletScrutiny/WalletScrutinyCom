@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 
 website: https://pay2pal.io#deadLink
 repository: 
-issue: 
 icon: adyone.in.pay2pal.png
 bugbounty: 
 meta: removed

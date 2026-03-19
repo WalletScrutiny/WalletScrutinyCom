@@ -13,7 +13,6 @@ version: 2.4.7
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.prominentwiselimited.lifpay.jpg
 bugbounty: 
 meta: ok

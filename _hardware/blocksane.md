@@ -20,7 +20,6 @@ shop:
 country: SG
 price: 150USD
 repository: 
-issue: 
 icon: blocksane.png
 bugbounty: 
 meta: ok

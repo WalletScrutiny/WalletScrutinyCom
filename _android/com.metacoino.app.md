@@ -12,7 +12,6 @@ version: 3.5.9
 reviews: 
 website: https://coinoverse.com
 repository: 
-issue: 
 icon: com.metacoino.app.png
 bugbounty: 
 meta: ok

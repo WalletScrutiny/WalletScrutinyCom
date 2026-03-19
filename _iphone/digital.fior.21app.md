@@ -13,7 +13,6 @@ version: 2.0.58
 reviews: 1
 website: https://21bitcoin.app/en/home
 repository: 
-issue: 
 icon: digital.fior.21app.jpg
 bugbounty: 
 meta: ok

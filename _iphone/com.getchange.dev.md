@@ -13,7 +13,6 @@ version: 30.62.2
 reviews: 38
 website: https://www.changeinvest.com/
 repository: 
-issue: 
 icon: com.getchange.dev.jpg
 bugbounty: 
 meta: removed

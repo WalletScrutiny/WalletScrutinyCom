@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://amanpuri.io
 repository: 
-issue: 
 icon: com.amanpuriexchange.png
 bugbounty: 
 meta: removed

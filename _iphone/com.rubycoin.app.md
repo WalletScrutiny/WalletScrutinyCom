@@ -13,7 +13,6 @@ version: '5.0'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.rubycoin.app.jpg
 bugbounty: 
 meta: removed

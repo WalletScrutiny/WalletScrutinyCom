@@ -12,7 +12,6 @@ version: 0.0.108 (5683)
 reviews: 
 website: http://daemtech.com/
 repository: 
-issue: 
 icon: com.ixwallet.app.png
 bugbounty: 
 meta: removed

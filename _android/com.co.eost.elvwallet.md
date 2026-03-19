@@ -12,7 +12,6 @@ version: 2.0.3
 reviews: 
 website: https://e-leven.io/
 repository: 
-issue: 
 icon: com.co.eost.elvwallet.png
 bugbounty: 
 meta: removed

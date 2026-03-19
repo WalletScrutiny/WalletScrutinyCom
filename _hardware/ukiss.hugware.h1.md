@@ -17,7 +17,6 @@ shop: https://www.ukiss.io/launch-bundle
 country: SG
 price: 169USD
 repository: 
-issue: 
 icon: ukiss.hugware.h1.png
 bugbounty: 
 meta: ok

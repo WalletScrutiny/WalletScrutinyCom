@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://paapaasi.com
 repository: 
-issue: 
 icon: com.paapaasi.png
 bugbounty: 
 meta: removed

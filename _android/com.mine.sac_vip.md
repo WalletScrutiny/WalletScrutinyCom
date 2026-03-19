@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.sac-mine.vip
 repository: 
-issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
 meta: stale

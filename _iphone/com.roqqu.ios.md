@@ -15,7 +15,6 @@ version: 2.5.74
 reviews: 7
 website: https://roqqu.com
 repository: 
-issue: 
 icon: com.roqqu.ios.jpg
 bugbounty: 
 meta: ok

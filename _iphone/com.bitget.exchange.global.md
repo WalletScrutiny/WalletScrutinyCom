@@ -13,7 +13,6 @@ version: 2.78.0
 reviews: 2170
 website: https://www.bitget.com/en
 repository: 
-issue: 
 icon: com.bitget.exchange.global.jpg
 bugbounty: 
 meta: ok

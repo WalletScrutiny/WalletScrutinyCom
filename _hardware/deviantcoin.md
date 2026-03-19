@@ -17,7 +17,6 @@ shop:
 country: SG
 price: 
 repository: 
-issue: 
 icon: deviantcoin.png
 bugbounty: 
 meta: ok

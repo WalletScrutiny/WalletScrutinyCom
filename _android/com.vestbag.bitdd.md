@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://la-colinares.github.io/portfolio/
 repository: 
-issue: 
 icon: com.vestbag.bitdd.png
 bugbounty: 
 meta: stale

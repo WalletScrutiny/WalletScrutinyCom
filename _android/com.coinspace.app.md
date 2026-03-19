@@ -13,7 +13,6 @@ version: 6.24.0
 reviews: 108
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace
-issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 meta: ok
@@ -177,3 +176,5 @@ having to guess and so we remain until further notice with our prior verdict:
 {% include featureEvidence.html feature="buyWithCC" quote="Buy Arbitrum Avalanche Base Binance Smart Chain Bitcoin Bitcoin Cash Cardano Dash Dogecoin EOS Ethereum Ethereum Classic Kaspa Litecoin Optimism Polygon Solana Sonic Stellar Sui Toncoin TRON XRP" source="Website" %}
 
 {% include featureEvidence.html feature="TOR" quote="Tor Wallet Launch now" source="Website" %}
+
+An issue has been opened at [https://github.com/CoinSpace/CoinSpace/issues/30](https://github.com/CoinSpace/CoinSpace/issues/30)

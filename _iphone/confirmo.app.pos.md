@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 0
 website: http://www.confirmo.net/
 repository: 
-issue: 
 icon: confirmo.app.pos.jpg
 bugbounty: 
 meta: removed

@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: orasaifu.png
 bugbounty: 
 meta: ok

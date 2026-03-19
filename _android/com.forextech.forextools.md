@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: http://app.forextoolsapp.com
 repository: 
-issue: 
 icon: com.forextech.forextools.png
 bugbounty: 
 meta: removed

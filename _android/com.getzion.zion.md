@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 27
 website: https://getzion.com#deadLink
 repository: 
-issue: 
 icon: com.getzion.zion.png
 bugbounty: 
 meta: removed

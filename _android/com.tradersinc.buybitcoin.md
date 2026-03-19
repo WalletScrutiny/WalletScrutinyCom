@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: http://www.tradersinc.mobi#deadLink
 repository: 
-issue: 
 icon: com.tradersinc.buybitcoin.png
 bugbounty: 
 meta: removed

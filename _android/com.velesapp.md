@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://veles.finance/
 repository: 
-issue: 
 icon: com.velesapp.png
 bugbounty: 
 meta: removed

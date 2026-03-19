@@ -18,7 +18,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/someone42/hardware-bitcoin-wallet
-issue: 
 icon: bitsafe.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.92
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.dex.digitalexchangeid.jpg
 bugbounty: 
 meta: removed

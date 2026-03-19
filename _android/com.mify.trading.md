@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://www.192trade.biz#deadLink
 repository: 
-issue: 
 icon: com.mify.trading.jpg
 bugbounty: 
 meta: removed

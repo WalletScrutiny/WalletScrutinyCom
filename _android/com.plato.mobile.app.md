@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.plato.mobile.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 10.0.95
 reviews: 61
 website: https://www.coinw.com
 repository: 
-issue: 
 icon: com.coinw.win.png
 bugbounty: 
 meta: ok

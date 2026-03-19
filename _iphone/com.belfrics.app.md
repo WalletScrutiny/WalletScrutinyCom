@@ -13,7 +13,6 @@ version: 2.5.21
 reviews: 25
 website: https://www.belfrics.io/
 repository: 
-issue: 
 icon: com.belfrics.app.jpg
 bugbounty: 
 meta: removed

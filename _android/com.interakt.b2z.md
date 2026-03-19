@@ -13,7 +13,6 @@ version: 1.11.0
 reviews: 
 website: https://www.b2z.exchange/en/home
 repository: 
-issue: 
 icon: com.interakt.b2z.png
 bugbounty: 
 meta: ok

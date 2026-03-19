@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bitmetavest.com/en#deadLink
 repository: 
-issue: 
 icon: com.bitmetavest.crypto_investment.png
 bugbounty: 
 meta: removed

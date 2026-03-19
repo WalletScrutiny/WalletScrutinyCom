@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://bitcointrader.icu#deadLink
 repository: 
-issue: 
 icon: com.bitcoin.trader2022.png
 bugbounty: 
 meta: removed

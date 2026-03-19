@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 1
 website: https://trxcryptobank.com/
 repository: 
-issue: 
 icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
 bugbounty: 
 meta: removed

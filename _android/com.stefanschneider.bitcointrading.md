@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://bitcoin-trading.global#deadLink
 repository: 
-issue: 
 icon: com.stefanschneider.bitcointrading.png
 bugbounty: 
 meta: removed

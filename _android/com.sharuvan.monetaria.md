@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://sharuvan.com
 repository: 
-issue: 
 icon: com.sharuvan.monetaria.png
 bugbounty: 
 meta: removed

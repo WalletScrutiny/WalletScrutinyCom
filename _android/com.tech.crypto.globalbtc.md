@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: com.tech.crypto.globalbtc.png
 bugbounty: 
 meta: removed

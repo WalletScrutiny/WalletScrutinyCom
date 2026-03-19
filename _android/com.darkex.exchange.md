@@ -13,7 +13,6 @@ version: 7.0.0
 reviews: 
 website: https://darkex.com
 repository: 
-issue: 
 icon: com.darkex.exchange.png
 bugbounty: 
 meta: ok

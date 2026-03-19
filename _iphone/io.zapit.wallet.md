@@ -13,7 +13,6 @@ version: v0.9.64
 reviews: 8
 website: https://zapit.io
 repository: 
-issue: 
 icon: io.zapit.wallet.jpg
 bugbounty: 
 meta: ok

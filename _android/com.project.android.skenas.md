@@ -13,7 +13,6 @@ version: 8.0.2
 reviews: 6
 website: https://skenas.app/
 repository: 
-issue: 
 icon: com.project.android.skenas.png
 bugbounty: 
 meta: removed

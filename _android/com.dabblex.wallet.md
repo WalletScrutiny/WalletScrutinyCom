@@ -12,7 +12,6 @@ version: 0.21.3
 reviews: 
 website: http://dabblex.com
 repository: 
-issue: 
 icon: com.dabblex.wallet.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: http://www.coindigitalbank.com/
 repository: 
-issue: 
 icon: br.com.cdb.png
 bugbounty: 
 meta: removed

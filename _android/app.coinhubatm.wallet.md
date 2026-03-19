@@ -13,7 +13,6 @@ version: 4.16.0
 reviews: 14
 website: https://coinhubatm.com/
 repository: 
-issue: 
 icon: app.coinhubatm.wallet.png
 bugbounty: 
 meta: ok

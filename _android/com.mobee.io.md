@@ -13,7 +13,6 @@ version: 2.0.7
 reviews: 2
 website: https://mobee.com/
 repository: 
-issue: 
 icon: com.mobee.io.png
 bugbounty: 
 meta: ok

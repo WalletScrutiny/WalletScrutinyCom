@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 
 website: https://juspay.app
 repository: 
-issue: 
 icon: com.pkg.JusPay.png
 bugbounty: 
 meta: removed

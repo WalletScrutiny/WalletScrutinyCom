@@ -14,7 +14,6 @@ version: 3.0.60
 reviews: 16
 website: http://keywallet.co.kr/en/
 repository: 
-issue: 
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 meta: ok

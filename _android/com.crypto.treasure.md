@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 5
 website: https://treasurewallet.co
 repository: 
-issue: 
 icon: com.crypto.treasure.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 16
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
-issue: 
 icon: com.getalby.mobile.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 10.0.92
 reviews: 95
 website: 
 repository: 
-issue: 
 icon: com.coinwapp.legend.jpg
 bugbounty: 
 meta: ok

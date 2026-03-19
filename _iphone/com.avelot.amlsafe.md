@@ -13,7 +13,6 @@ version: 2.43.813
 reviews: 51
 website: https://Safe3.app
 repository: 
-issue: 
 icon: com.avelot.amlsafe.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.10.5
 reviews: 
 website: https://monya-wallet.github.io
 repository: https://github.com/monya-wallet/monya
-issue: https://github.com/monya-wallet/monya/issues/130
 icon: org.missmonacoin.monya.png
 bugbounty: 
 meta: removed
@@ -71,4 +70,4 @@ Their site is a [Github hosted website](https://monya-wallet.github.io/).
 
 We tried the app. Some portions of it were in Japanese, although you can choose to receive your mnemonics in English. After the user is provided with a passphrase, the app asks you to set a password. You can add several other cryptocurrencies including Bitcoin. It is possible to send and receive Bitcoin.
 
-
+An issue has been opened at [https://github.com/monya-wallet/monya/issues/130](https://github.com/monya-wallet/monya/issues/130)

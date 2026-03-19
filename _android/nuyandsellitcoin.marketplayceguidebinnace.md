@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://markouscraff.blogspot.com/
 repository: 
-issue: 
 icon: nuyandsellitcoin.marketplayceguidebinnace.png
 bugbounty: 
 meta: removed

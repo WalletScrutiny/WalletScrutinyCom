@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: cn.bizzan.app.png
 bugbounty: 
 meta: removed

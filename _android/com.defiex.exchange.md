@@ -12,7 +12,6 @@ version: 1.3.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.defiex.exchange.png
 bugbounty: 
 meta: removed

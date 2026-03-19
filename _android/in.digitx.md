@@ -12,7 +12,6 @@ version: 34.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: in.digitx.png
 bugbounty: 
 meta: removed

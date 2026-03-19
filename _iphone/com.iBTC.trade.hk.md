@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 0
 website: https://ibtc.com.hk/
 repository: 
-issue: 
 icon: com.iBTC.trade.hk.jpg
 bugbounty: 
 meta: removed

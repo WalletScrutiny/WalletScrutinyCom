@@ -13,7 +13,6 @@ version: 2.0.6
 reviews: 17
 website: 
 repository: 
-issue: 
 icon: chat.n2n2.Chat.jpg
 bugbounty: 
 meta: removed

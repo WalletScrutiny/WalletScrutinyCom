@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wallet.serecoin.png
 bugbounty: 
 meta: removed

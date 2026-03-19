@@ -13,7 +13,6 @@ version: 2.90.1
 reviews: 3502
 website: https://alpha.ajaib.co.id/
 repository: 
-issue: 
 icon: id.ajaib-coin.co.jpg
 bugbounty: 
 meta: ok

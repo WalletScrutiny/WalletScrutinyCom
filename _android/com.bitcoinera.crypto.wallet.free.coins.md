@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitcoinera.crypto.wallet.free.coins.jpg
 bugbounty: 
 meta: removed

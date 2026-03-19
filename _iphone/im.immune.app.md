@@ -13,7 +13,6 @@ version: 2.2.2
 reviews: 4
 website: https://immune.im/
 repository: 
-issue: 
 icon: im.immune.app.jpg
 bugbounty: 
 meta: ok

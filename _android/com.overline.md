@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 4
 website: https://overline.network
 repository: 
-issue: 
 icon: com.overline.png
 bugbounty: 
 meta: removed

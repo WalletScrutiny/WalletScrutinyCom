@@ -12,7 +12,6 @@ version: 1.2.590
 reviews: 
 website: https://1502.app/
 repository: 
-issue: 
 icon: com.nosapps.android.i5o2.png
 bugbounty: 
 meta: ok

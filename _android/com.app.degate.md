@@ -12,7 +12,6 @@ version: 1.0.21
 reviews: 
 website: https://degate.com/
 repository: 
-issue: 
 icon: com.app.degate.png
 bugbounty: 
 meta: ok

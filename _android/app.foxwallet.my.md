@@ -12,7 +12,6 @@ version: '1.29'
 reviews: 
 website: https://web.archive.org/web/20250516203145/http://severus.finance/
 repository: 
-issue: 
 icon: app.foxwallet.my.png
 bugbounty: 
 meta: removed

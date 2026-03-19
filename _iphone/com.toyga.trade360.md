@@ -13,7 +13,6 @@ version: 7.4.0
 reviews: 0
 website: https://www.trade360.com
 repository: 
-issue: 
 icon: com.toyga.trade360.jpg
 bugbounty: 
 meta: removed

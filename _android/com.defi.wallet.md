@@ -14,7 +14,6 @@ version: 2.50.0
 reviews: 3719
 website: https://www.crypto.com
 repository: 
-issue: 
 icon: com.defi.wallet.png
 bugbounty: 
 meta: ok

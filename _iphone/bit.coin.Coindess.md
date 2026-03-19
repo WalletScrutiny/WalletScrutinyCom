@@ -13,7 +13,6 @@ version: 2.17.7
 reviews: 2
 website: https://www.fiahub.com
 repository: 
-issue: 
 icon: bit.coin.Coindess.jpg
 bugbounty: 
 meta: removed

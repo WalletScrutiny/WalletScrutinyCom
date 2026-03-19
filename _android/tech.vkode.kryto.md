@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://vkode-dev.github.io/
 repository: 
-issue: 
 icon: tech.vkode.kryto.png
 bugbounty: 
 meta: ok

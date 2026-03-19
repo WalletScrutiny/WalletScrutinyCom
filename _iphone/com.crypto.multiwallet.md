@@ -13,7 +13,6 @@ version: 3.1.3
 reviews: 935
 website: https://guarda.com/
 repository: 
-issue: 
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.64
 reviews: 4
 website: https://redot.com/
 repository: 
-issue: 
 icon: com.redot.app.png
 bugbounty: 
 meta: stale

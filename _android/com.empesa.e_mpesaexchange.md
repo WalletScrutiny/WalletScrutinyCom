@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://e-mpesaexchange.com/
 repository: 
-issue: 
 icon: com.empesa.e_mpesaexchange.png
 bugbounty: 
 meta: removed

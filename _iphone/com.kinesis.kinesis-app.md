@@ -13,7 +13,6 @@ version: 2.14.0
 reviews: 10
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
-issue: 
 icon: com.kinesis.kinesis-app.jpg
 bugbounty: 
 meta: ok

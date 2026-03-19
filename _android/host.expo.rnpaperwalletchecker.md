@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: host.expo.rnpaperwalletchecker.png
 bugbounty: 
 meta: removed

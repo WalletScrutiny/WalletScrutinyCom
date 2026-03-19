@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 
 website: https://xchange.ltd
 repository: 
-issue: 
 icon: com.xccg.xchange.jpg
 bugbounty: 
 meta: removed

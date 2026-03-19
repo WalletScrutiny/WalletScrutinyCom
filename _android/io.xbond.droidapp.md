@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://xbond.io
 repository: 
-issue: 
 icon: io.xbond.droidapp.png
 bugbounty: 
 meta: removed

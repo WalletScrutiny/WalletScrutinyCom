@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 1
 website: https://web.archive.org/web/20250420060222/https://vstmex.com/
 repository: 
-issue: 
 icon: com.vstmexvstmex1.vstmexvstmex.jpg
 bugbounty: 
 meta: removed

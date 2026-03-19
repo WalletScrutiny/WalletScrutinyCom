@@ -12,7 +12,6 @@ version: 3.9.2
 reviews: 
 website: http://tycotrader.com
 repository: 
-issue: 
 icon: com.tycotrader.myapplication.png
 bugbounty: 
 meta: removed

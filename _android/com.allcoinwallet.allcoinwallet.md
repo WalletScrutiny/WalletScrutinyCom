@@ -13,7 +13,6 @@ version: 1.2.22
 reviews: 1
 website: http://www.allcoinwallet.com
 repository: 
-issue: 
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.9.3
 reviews: 43
 website: https://www.osmowallet.com/
 repository: 
-issue: 
 icon: com.osmo.smt.jpg
 bugbounty: 
 meta: ok

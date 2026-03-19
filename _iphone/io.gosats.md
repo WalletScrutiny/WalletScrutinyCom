@@ -13,7 +13,6 @@ version: 2.7.9
 reviews: 805
 website: https://gosats.io
 repository: 
-issue: 
 icon: io.gosats.jpg
 bugbounty: 
 meta: ok

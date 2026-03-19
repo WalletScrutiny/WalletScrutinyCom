@@ -13,7 +13,6 @@ version: 3.23.3.01
 reviews: 
 website: https://amir.capital/
 repository: 
-issue: 
 icon: capital.amir.wallet.jpg
 bugbounty: 
 meta: removed

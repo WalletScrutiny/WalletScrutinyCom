@@ -14,7 +14,6 @@ version: 3.21.1
 reviews: 55
 website: https://fintap.app
 repository: 
-issue: 
 icon: com.exscudo.channels.jpg
 bugbounty: 
 meta: ok

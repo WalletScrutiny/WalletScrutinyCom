@@ -12,7 +12,6 @@ version: 1.2.3 Release
 reviews: 
 website: https://bitfairex.com#deadLink
 repository: 
-issue: 
 icon: com.bitfairex.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://ex.tcapex.com#deadLink
 repository: 
-issue: 
 icon: com.tcapital.exchange.png
 bugbounty: 
 meta: removed

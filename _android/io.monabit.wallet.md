@@ -13,7 +13,6 @@ version: '4.3'
 reviews: 3
 website: https://monabit.io
 repository: 
-issue: 
 icon: io.monabit.wallet.png
 bugbounty: 
 meta: ok

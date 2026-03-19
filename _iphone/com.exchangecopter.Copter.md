@@ -13,7 +13,6 @@ version: 1.5.7
 reviews: 1
 website: https://exchangecopter.com
 repository: 
-issue: 
 icon: com.exchangecopter.Copter.jpg
 bugbounty: 
 meta: removed

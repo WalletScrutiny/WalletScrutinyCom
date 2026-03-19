@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.hikmahbd.com/
 repository: 
-issue: 
 icon: com.app.fxschool_ai.jpg
 bugbounty: 
 meta: removed

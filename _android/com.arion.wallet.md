@@ -12,7 +12,6 @@ version: v1.0.1
 reviews: 
 website: https://www.arioncoin.com
 repository: 
-issue: 
 icon: com.arion.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.12
 reviews: 5
 website: https://biswap.com
 repository: 
-issue: 
 icon: com.biswap.app.jpg
 bugbounty: 
 meta: obsolete

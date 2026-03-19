@@ -13,7 +13,6 @@ version: 5.9.0
 reviews: 64
 website: https://pundi.ai/
 repository: https://github.com/FunctionX/fx-wallet-android
-issue: 
 icon: com.pundix.fx.connect.jpg
 bugbounty: 
 meta: ok

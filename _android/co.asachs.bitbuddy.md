@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 
 website: https://bitbuddy.app
 repository: 
-issue: 
 icon: co.asachs.bitbuddy.png
 bugbounty: 
 meta: removed

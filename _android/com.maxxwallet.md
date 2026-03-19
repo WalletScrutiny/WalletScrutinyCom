@@ -13,7 +13,6 @@ version: 3.7.3
 reviews: 
 website: http://bitcoinwalletcoin.com
 repository: 
-issue: 
 icon: com.maxxwallet.png
 bugbounty: 
 meta: removed

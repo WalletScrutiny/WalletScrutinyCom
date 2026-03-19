@@ -13,7 +13,6 @@ version: 4.7.1
 reviews: 220
 website: 
 repository: 
-issue: 
 icon: primexbtcom.jpg
 bugbounty: 
 meta: removed

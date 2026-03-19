@@ -13,7 +13,6 @@ version: 3.22.0
 reviews: 58
 website: https://pintu.co.id/
 repository: 
-issue: 
 icon: com.valar.pintu.jpg
 bugbounty: 
 meta: removed

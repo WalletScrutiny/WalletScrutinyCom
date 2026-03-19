@@ -13,7 +13,6 @@ version: '1.7'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.keyperwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '4.4'
 reviews: 
 website: https://vynkpay.app#deadLink
 repository: 
-issue: 
 icon: com.vynkpay.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.3.3
 reviews: 
 website: https://stage-fortvax-landing.goldalles.com/
 repository: 
-issue: 
 icon: com.tnp.fortvax.png
 bugbounty: 
 meta: ok

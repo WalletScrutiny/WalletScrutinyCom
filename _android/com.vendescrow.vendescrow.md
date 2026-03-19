@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://vendescrow.com#deadLink
 repository: 
-issue: 
 icon: com.vendescrow.vendescrow.png
 bugbounty: 
 meta: removed

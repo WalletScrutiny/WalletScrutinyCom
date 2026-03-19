@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.bitdax.io
 repository: 
-issue: 
 icon: io.bitdax.app.png
 bugbounty: 
 meta: removed

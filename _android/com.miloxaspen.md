@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://milox.exchange#deadLink
 repository: 
-issue: 
 icon: com.miloxaspen.jpg
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: cryptoring.png
 bugbounty: 
 meta: defunct

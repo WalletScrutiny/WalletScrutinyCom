@@ -21,7 +21,6 @@ shop: https://shop.onekey.so/products/onekey-pro
 country: CN
 price: 270USD
 repository: https://github.com/OneKeyHQ/firmware-pro
-issue: https://github.com/OneKeyHQ/firmware-pro/issues/238
 icon: onekey.pro.png
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
@@ -72,4 +71,6 @@ features:
 
 5. Is it reproducible? - **?**
 
-    For now, the device is **for verification**. 
+    For now, the device is **for verification**.
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware-pro/issues/238](https://github.com/OneKeyHQ/firmware-pro/issues/238)

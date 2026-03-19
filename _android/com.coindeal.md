@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: https://coindeal.com#deadLink
 repository: 
-issue: 
 icon: com.coindeal.png
 bugbounty: 
 meta: removed

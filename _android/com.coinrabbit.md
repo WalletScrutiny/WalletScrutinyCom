@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://coinrabbit.io/
 repository: 
-issue: 
 icon: com.coinrabbit.png
 bugbounty: 
 meta: ok

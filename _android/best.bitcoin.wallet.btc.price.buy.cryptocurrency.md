@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 27
 website: 
 repository: 
-issue: 
 icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.png
 bugbounty: 
 meta: removed

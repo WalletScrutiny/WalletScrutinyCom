@@ -13,7 +13,6 @@ version: 12.1.0
 reviews: 16
 website: https://sparkpoint.io/
 repository: 
-issue: 
 icon: io.sparkpoint.ios.wallet.jpg
 bugbounty: 
 meta: removed

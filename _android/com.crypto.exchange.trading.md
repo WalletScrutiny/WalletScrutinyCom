@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://swapcrypto.ca#deadLink
 repository: 
-issue: 
 icon: com.crypto.exchange.trading.jpg
 bugbounty: 
 meta: removed

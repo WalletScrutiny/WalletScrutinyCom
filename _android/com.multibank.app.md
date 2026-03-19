@@ -13,7 +13,6 @@ version: 26.0.15
 reviews: 7
 website: https://mb.io/
 repository: 
-issue: 
 icon: com.multibank.app.png
 bugbounty: 
 meta: ok

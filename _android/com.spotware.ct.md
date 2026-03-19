@@ -13,7 +13,6 @@ version: 5.7.160
 reviews: 365
 website: https://ctrader.com/forum
 repository: 
-issue: 
 icon: com.spotware.ct.png
 bugbounty: 
 meta: ok

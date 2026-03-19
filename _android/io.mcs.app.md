@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://mycoinstory.com
 repository: 
-issue: 
 icon: io.mcs.app.png
 bugbounty: 
 meta: removed

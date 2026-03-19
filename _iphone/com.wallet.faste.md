@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.wallet.faste.jpg
 bugbounty: 
 meta: obsolete

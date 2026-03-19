@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 74
 website: https://gekkoin.com/index.html
 repository: 
-issue: 
 icon: com.papaya.gekkard.png
 bugbounty: 
 meta: stale

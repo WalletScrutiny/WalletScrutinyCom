@@ -13,7 +13,6 @@ version: 1.0.20
 reviews: 55
 website: https://nodawallet.com
 repository: https://github.com/nodawallet/NodaWallet-Android
-issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
 meta: removed
@@ -59,3 +58,4 @@ This app is **not-custodial.** When it comes to the source code, however, althou
 
 Although the source has been released publicly, it is far from up to date. Meaning that this app **does not provide complete and accurate source code.**
 
+An issue has been opened at [https://github.com/nodawallet/NodaWallet-Android/issues/1](https://github.com/nodawallet/NodaWallet-Android/issues/1)

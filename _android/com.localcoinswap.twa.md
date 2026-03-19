@@ -12,7 +12,6 @@ version: 1.0.0.0
 reviews: 8
 website: https://localcoinswap.com
 repository: 
-issue: 
 icon: com.localcoinswap.twa.png
 bugbounty: 
 meta: removed

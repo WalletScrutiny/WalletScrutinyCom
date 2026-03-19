@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.metauco.com#deadLink
 repository: 
-issue: 
 icon: com.metau.droidapp.png
 bugbounty: 
 meta: removed

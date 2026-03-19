@@ -13,7 +13,6 @@ version: 4.2.8
 reviews: 27
 website: https://tradestrike.io/strikex-wallet/
 repository: 
-issue: 
 icon: com.tradestrike.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.4.40
 reviews: 1
 website: https://web.archive.org/web/20220624213527/http://uollar.io/policy
 repository: 
-issue: 
 icon: com.lh2424.uollar.jpg
 bugbounty: 
 meta: obsolete

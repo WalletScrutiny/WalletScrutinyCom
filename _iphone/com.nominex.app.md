@@ -13,7 +13,6 @@ version: 1.4.1
 reviews: 32
 website: https://nominex.io
 repository: 
-issue: 
 icon: com.nominex.app.jpg
 bugbounty: 
 meta: removed

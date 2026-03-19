@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 0
 website: https://capex.mn
 repository: 
-issue: 
 icon: com.capexcapital.capex.jpg
 bugbounty: 
 meta: removed

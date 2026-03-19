@@ -13,7 +13,6 @@ version: 1.0.80
 reviews: 
 website: https://gameper.io
 repository: 
-issue: 
 icon: com.bitro2.png
 bugbounty: 
 meta: removed

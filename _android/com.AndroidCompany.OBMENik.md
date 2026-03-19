@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 446
 website: 
 repository: 
-issue: 
 icon: com.AndroidCompany.OBMENik.png
 bugbounty: 
 meta: removed

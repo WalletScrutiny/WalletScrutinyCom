@@ -13,7 +13,6 @@ version: 1.2.6
 reviews: 
 website: https://www.cointree.com/
 repository: 
-issue: 
 icon: com.cointree.mobileapp.png
 bugbounty: https://www.cointree.com/company/bug-bounty
 meta: removed

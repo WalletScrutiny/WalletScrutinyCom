@@ -13,7 +13,6 @@ version: 1.9.30.cfd3
 reviews: 1540
 website: https://www.gopax.co.kr
 repository: 
-issue: 
 icon: kr.co.gopax.png
 bugbounty: 
 meta: ok

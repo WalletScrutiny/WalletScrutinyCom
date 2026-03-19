@@ -13,7 +13,6 @@ version: 0.5.2
 reviews: 63
 website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS
-issue: 
 icon: com.jackmallers.zap.jpg
 bugbounty: 
 meta: removed

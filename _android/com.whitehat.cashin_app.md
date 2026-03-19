@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 105
 website: https://cash-in.app
 repository: 
-issue: 
 icon: com.whitehat.cashin_app.png
 bugbounty: 
 meta: stale

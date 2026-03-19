@@ -13,7 +13,6 @@ version: 4.6.4
 reviews: 6
 website: https://www.rapidz.io/
 repository: 
-issue: 
 icon: io.rapidz.rapidzpay.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: https://www.ready.co/ready-wallet
 repository: 
-issue: 
 icon: com.ready.wallet.png
 bugbounty: 
 meta: ok

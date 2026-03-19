@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 
 website: https://monifiex.com#deadLink
 repository: 
-issue: 
 icon: com.monifiex.png
 bugbounty: 
 meta: removed

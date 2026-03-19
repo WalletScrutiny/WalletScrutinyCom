@@ -13,7 +13,6 @@ version: 3.0.7
 reviews: 304
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
-issue: https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15
 icon: com.bitcoin.wallet.btc.png
 bugbounty: 
 meta: removed
@@ -70,3 +69,5 @@ Upon further investigation of their app, we find it is obfuscated. This is a big
 red flag for a wallet that claims to be open source. We put those wallets in
 their own category as they clearly are worse than closed source. **Do not trust
 this wallet!**
+
+An issue has been opened at [https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15](https://github.com/hoanghiephui/Bitcoin-Wallet/issues/15)

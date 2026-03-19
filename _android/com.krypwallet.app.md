@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://159.65.248.120/
 repository: 
-issue: 
 icon: com.krypwallet.app.png
 bugbounty: 
 meta: removed

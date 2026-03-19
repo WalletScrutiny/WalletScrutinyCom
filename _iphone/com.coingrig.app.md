@@ -13,7 +13,6 @@ version: 1.3.11
 reviews: 0
 website: https://coingrig.com
 repository: https://github.com/coingrig/coingrig-wallet
-issue: 
 icon: com.coingrig.app.jpg
 bugbounty: 
 meta: removed

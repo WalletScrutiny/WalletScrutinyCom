@@ -13,7 +13,6 @@ version: 0.8.0
 reviews: 290
 website: https://b21.io
 repository: 
-issue: 
 icon: io.b21.invest.png
 bugbounty: 
 meta: removed

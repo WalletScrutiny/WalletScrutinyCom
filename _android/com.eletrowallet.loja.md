@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://eletrowallet.com#deadLink
 repository: 
-issue: 
 icon: com.eletrowallet.loja.png
 bugbounty: 
 meta: removed

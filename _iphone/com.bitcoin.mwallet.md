@@ -13,7 +13,6 @@ version: 9.14.0
 reviews: 42686
 website: https://wallet.bitcoin.com/
 repository: 
-issue: 
 icon: com.bitcoin.mwallet.jpg
 bugbounty: 
 meta: ok

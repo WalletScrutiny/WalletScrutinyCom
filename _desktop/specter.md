@@ -12,7 +12,6 @@ provider: Crypto Advance GmbH
 providerWebsite: 
 website: https://specter.solutions
 repository: https://github.com/cryptoadvance/specter-desktop
-issue: 
 icon: specter.png
 bugbounty: 
 meta: ok

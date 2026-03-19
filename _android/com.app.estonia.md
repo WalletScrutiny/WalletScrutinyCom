@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://www.bitayglobal.com#deadLink
 repository: 
-issue: 
 icon: com.app.estonia.png
 bugbounty: 
 meta: removed

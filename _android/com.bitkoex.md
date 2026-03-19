@@ -12,7 +12,6 @@ version: '2.19'
 reviews: 
 website: https://www.bitkoex.com/
 repository: 
-issue: 
 icon: com.bitkoex.png
 bugbounty: 
 meta: removed

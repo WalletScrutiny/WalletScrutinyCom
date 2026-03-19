@@ -13,7 +13,6 @@ version: 2.6.0
 reviews: 28
 website: https://s-wallet.ai
 repository: 
-issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
 meta: obsolete

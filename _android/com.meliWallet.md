@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 3
 website: https://meliora.finance/
 repository: 
-issue: 
 icon: com.meliWallet.png
 bugbounty: 
 meta: removed

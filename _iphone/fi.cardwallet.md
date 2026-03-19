@@ -13,7 +13,6 @@ version: '2.2'
 reviews: 1
 website: https://cwallet.finance/
 repository: 
-issue: 
 icon: fi.cardwallet.jpg
 bugbounty: 
 meta: removed

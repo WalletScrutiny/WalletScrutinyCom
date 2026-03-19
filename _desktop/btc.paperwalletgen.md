@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://chromewebstore.google.com/detail/ncncnbgglmejlbnhoangkekhigfdioeg
 repository: https://github.com/chandler-stimson/bitcoin-paper-wallet
-issue: 
 icon: btc.paperwalletgen.png
 bugbounty: 
 meta: obsolete

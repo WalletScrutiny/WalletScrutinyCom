@@ -13,7 +13,6 @@ version: 3.2.10
 reviews: 5765
 website: https://coinme.com/
 repository: 
-issue: 
 icon: com.coinme.CoinMe.jpg
 bugbounty: 
 meta: ok

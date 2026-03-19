@@ -12,7 +12,6 @@ version: '22.01'
 reviews: 
 website: https://ceetwe.com#deadLink
 repository: 
-issue: 
 icon: ceetwe.ceetwe.png
 bugbounty: 
 meta: removed

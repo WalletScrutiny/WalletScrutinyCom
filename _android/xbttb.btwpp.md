@@ -12,7 +12,6 @@ version: '3'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: xbttb.btwpp.jpg
 bugbounty: 
 meta: removed

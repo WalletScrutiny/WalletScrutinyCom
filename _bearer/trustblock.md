@@ -20,7 +20,6 @@ shop: https://www.trustblock.io/product/buy
 country: 
 price: 599USD
 repository: 
-issue: 
 icon: trustblock.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 5
 website: https://pouch.ph/
 repository: 
-issue: 
 icon: pouch.ph.jpg
 bugbounty: 
 meta: removed

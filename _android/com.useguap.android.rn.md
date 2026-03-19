@@ -12,7 +12,6 @@ version: 0.8.4
 reviews: 
 website: https://useguap.com
 repository: 
-issue: 
 icon: com.useguap.android.rn.png
 bugbounty: 
 meta: ok

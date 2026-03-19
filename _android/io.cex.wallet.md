@@ -13,7 +13,6 @@ version: 2.7.8
 reviews: 61
 website: https://wallet.cex.io
 repository: 
-issue: 
 icon: io.cex.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.4.3
 reviews: 23
 website: https://www.moonxbt.com#deadLink
 repository: 
-issue: 
 icon: com.nano.moonxbt.png
 bugbounty: 
 meta: removed

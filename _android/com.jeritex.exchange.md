@@ -13,7 +13,6 @@ version: 1.1.22
 reviews: 
 website: https://jeritex.com
 repository: 
-issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
 meta: removed

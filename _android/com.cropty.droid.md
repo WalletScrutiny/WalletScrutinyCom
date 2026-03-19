@@ -13,7 +13,6 @@ version: 2.11.1
 reviews: 59
 website: https://www.cropty.io/
 repository: 
-issue: 
 icon: com.cropty.droid.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://www.fintoken.pro/
 repository: 
-issue: 
 icon: com.digitalasset.fintoken.png
 bugbounty: 
 meta: ok

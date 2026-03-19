@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://web.archive.org/web/20240224084937/https://www.bhex.sg:443/
 repository: 
-issue: 
 icon: sg.bhex.app.png
 bugbounty: 
 meta: removed

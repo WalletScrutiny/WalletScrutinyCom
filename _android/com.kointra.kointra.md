@@ -13,7 +13,6 @@ version: 3.5.7
 reviews: 
 website: http://www.kointra.com
 repository: 
-issue: 
 icon: com.kointra.kointra.png
 bugbounty: 
 meta: ok

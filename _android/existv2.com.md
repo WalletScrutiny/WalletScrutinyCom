@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 4
 website: https://nyecoin.io#deadLink
 repository: 
-issue: 
 icon: existv2.com.png
 bugbounty: 
 meta: removed

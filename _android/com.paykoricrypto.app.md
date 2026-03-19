@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://paykoricrypto.com
 repository: 
-issue: 
 icon: com.paykoricrypto.app.png
 bugbounty: 
 meta: removed

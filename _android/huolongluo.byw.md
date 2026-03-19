@@ -12,7 +12,6 @@ version: 9.5.21
 reviews: 108
 website: 
 repository: 
-issue: 
 icon: huolongluo.byw.png
 bugbounty: 
 meta: removed

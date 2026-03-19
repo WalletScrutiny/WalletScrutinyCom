@@ -12,7 +12,6 @@ version: '1.23'
 reviews: 
 website: http://noblecoin.io#deadLink
 repository: 
-issue: 
 icon: digiiblip.com.nobelhold.png
 bugbounty: 
 meta: removed

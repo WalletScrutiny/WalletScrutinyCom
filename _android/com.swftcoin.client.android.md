@@ -13,7 +13,6 @@ version: 5.19.23
 reviews: 146
 website: http://www.swft.pro/
 repository: 
-issue: 
 icon: com.swftcoin.client.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.24.0
 reviews: 77
 website: https://www.echooo.xyz/
 repository: 
-issue: 
 icon: com.smartwallet.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '4'
 reviews: 
 website: https://swap.flamer.life#deadLink
 repository: 
-issue: 
 icon: com.flamer.swap.png
 bugbounty: 
 meta: removed

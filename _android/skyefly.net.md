@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://skyefly.net#deadLink
 repository: 
-issue: 
 icon: skyefly.net.png
 bugbounty: 
 meta: removed

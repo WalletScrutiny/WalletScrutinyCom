@@ -13,7 +13,6 @@ version: 1.1.20
 reviews: 251
 website: https://web.archive.org/web/20220601075516/https://www.protonchain.com/
 repository: 
-issue: 
 icon: com.metallicus.proton.jpg
 bugbounty: 
 meta: removed

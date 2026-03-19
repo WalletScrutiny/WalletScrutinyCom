@@ -17,7 +17,6 @@ shop:
 country: DE
 price: 
 repository: 
-issue: 
 icon: stohr.trezorone.clone.diy.png
 bugbounty: 
 meta: ok

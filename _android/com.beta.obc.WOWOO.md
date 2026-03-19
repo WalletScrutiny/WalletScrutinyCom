@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: http://wowoonet.com
 repository: 
-issue: 
 icon: com.beta.obc.WOWOO.jpg
 bugbounty: 
 meta: removed

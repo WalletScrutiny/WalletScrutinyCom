@@ -13,7 +13,6 @@ version: 1.8.9
 reviews: 0
 website: https://mirai.finance/
 repository: 
-issue: 
 icon: io.fgraph.wallet.jpg
 bugbounty: 
 meta: stale

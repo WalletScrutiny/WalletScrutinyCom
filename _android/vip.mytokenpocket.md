@@ -14,7 +14,6 @@ version: 2.16.2
 reviews: 631
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android
-issue: https://github.com/TP-Lab/tp-android/issues/15
 icon: vip.mytokenpocket.png
 bugbounty: 
 meta: ok
@@ -68,3 +67,5 @@ A quick look at the code though reveals several issues:
 So for now we have to file it as "obfuscated" and recommend to be careful as some
 things don't add up. At least the "open source" claim is probably false. In any
 case the app is **not verifiable** as is.
+
+An issue has been opened at [https://github.com/TP-Lab/tp-android/issues/15](https://github.com/TP-Lab/tp-android/issues/15)

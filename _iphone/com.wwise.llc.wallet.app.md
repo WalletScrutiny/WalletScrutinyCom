@@ -13,7 +13,6 @@ version: 2.6.4
 reviews: 0
 website: https://wise.win#deadLink
 repository: 
-issue: 
 icon: com.wwise.llc.wallet.app.jpg
 bugbounty: 
 meta: removed

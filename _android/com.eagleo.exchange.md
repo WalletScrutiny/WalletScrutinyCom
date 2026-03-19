@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://eagleoxchange.com/
 repository: 
-issue: 
 icon: com.eagleo.exchange.png
 bugbounty: 
 meta: removed

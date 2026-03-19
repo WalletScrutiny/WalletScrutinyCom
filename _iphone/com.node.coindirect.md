@@ -15,7 +15,6 @@ version: 1.2.7
 reviews: 14
 website: https://www.coindirect.com/
 repository: 
-issue: 
 icon: com.node.coindirect.jpg
 bugbounty: 
 meta: removed

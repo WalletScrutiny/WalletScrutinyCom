@@ -12,7 +12,6 @@ version: 2.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.finovation.fxvc.jpg
 bugbounty: 
 meta: removed

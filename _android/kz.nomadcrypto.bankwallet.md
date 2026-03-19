@@ -12,7 +12,6 @@ version: 0.2.1
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: kz.nomadcrypto.bankwallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 3
 website: https://getbull.app
 repository: 
-issue: 
 icon: crypto.wallet.chainapp.jpg
 bugbounty: 
 meta: removed

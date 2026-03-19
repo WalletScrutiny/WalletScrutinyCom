@@ -13,7 +13,6 @@ version: 3.3.8
 reviews: 73
 website: http://zam.io
 repository: 
-issue: 
 icon: zamzam.wallet.app.jpg
 bugbounty: 
 meta: ok

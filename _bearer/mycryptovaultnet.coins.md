@@ -17,7 +17,6 @@ shop:
 country: US
 price: 15USD
 repository: 
-issue: 
 icon: mycryptovaultnet.coins.png
 bugbounty: 
 meta: defunct

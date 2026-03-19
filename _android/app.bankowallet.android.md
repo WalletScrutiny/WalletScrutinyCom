@@ -13,7 +13,6 @@ version: 1.3.17851
 reviews: 
 website: http://www.bankowallet.com
 repository: 
-issue: 
 icon: app.bankowallet.android.png
 bugbounty: 
 meta: removed

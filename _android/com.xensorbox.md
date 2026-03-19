@@ -13,7 +13,6 @@ version: 1.3.6
 reviews: 
 website: https://xensor.cc#deadLink
 repository: 
-issue: 
 icon: com.xensorbox.png
 bugbounty: 
 meta: removed

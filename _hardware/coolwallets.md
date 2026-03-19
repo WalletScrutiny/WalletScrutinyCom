@@ -21,7 +21,6 @@ shop: https://www.coolwallet.io/product/coolwallet/
 country: TW
 price: 99USD
 repository: 
-issue: 
 icon: coolwallets.png
 bugbounty: 
 meta: ok

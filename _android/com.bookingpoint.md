@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: http://www.bookingpoint.vip#deadLink
 repository: 
-issue: 
 icon: com.bookingpoint.png
 bugbounty: 
 meta: removed

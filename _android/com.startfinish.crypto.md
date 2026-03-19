@@ -12,7 +12,6 @@ version: 5.3.10
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.startfinish.crypto.png
 bugbounty: 
 meta: removed

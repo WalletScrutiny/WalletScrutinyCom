@@ -13,7 +13,6 @@ version: 3.0.2
 reviews: 
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forhuobi.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.30.1
 reviews: 
 website: https://etherio.org
 repository: 
-issue: 
 icon: etherio.wallet.com.png
 bugbounty: 
 meta: removed

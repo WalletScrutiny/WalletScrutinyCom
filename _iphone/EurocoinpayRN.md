@@ -13,7 +13,6 @@ version: '6.11'
 reviews: 10
 website: https://eurocoinpay.io
 repository: 
-issue: 
 icon: EurocoinpayRN.jpg
 bugbounty: 
 meta: ok

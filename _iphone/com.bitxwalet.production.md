@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 63
 website: https://bitx-bitcoinwallet.com/privacy
 repository: 
-issue: 
 icon: com.bitxwalet.production.jpg
 bugbounty: 
 meta: ok

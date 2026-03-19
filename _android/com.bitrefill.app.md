@@ -13,7 +13,6 @@ version: 7.0.0
 reviews: 269
 website: https://www.bitrefill.com
 repository: 
-issue: 
 icon: com.bitrefill.app.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://unitechcapital.net
 repository: 
-issue: 
 icon: com.koub.wallet.png
 bugbounty: 
 meta: stale

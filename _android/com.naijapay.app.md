@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://naijapay.io#deadLink
 repository: 
-issue: 
 icon: com.naijapay.app.png
 bugbounty: 
 meta: removed

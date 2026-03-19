@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://pro.coiny.io/
 repository: 
-issue: 
 icon: io.coiny.pro.png
 bugbounty: 
 meta: removed

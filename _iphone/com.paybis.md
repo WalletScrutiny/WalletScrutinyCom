@@ -12,7 +12,6 @@ version: 1.7.28
 reviews: 2879
 website: https://paybis.com/
 repository: 
-issue: 
 icon: com.paybis.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://www.lio-coin.eu/
 repository: 
-issue: 
 icon: com.liowallet.app.png
 bugbounty: 
 meta: removed

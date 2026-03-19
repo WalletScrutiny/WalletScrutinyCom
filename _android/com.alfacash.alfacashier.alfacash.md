@@ -12,7 +12,6 @@ version: 1.11.8
 reviews: 
 website: https://wallet.alfa.cash/
 repository: 
-issue: 
 icon: com.alfacash.alfacashier.alfacash.png
 bugbounty: 
 meta: removed

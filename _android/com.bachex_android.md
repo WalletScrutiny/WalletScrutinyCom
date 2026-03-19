@@ -12,7 +12,6 @@ version: 1.2.8
 reviews: 
 website: https://bachex.com
 repository: 
-issue: 
 icon: com.bachex_android.png
 bugbounty: 
 meta: removed

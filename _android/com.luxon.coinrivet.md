@@ -12,7 +12,6 @@ version: 1.0.0.53
 reviews: 
 website: https://coinrivet.com/
 repository: 
-issue: 
 icon: com.luxon.coinrivet.png
 bugbounty: 
 meta: removed

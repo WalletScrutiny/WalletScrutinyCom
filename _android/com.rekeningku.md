@@ -13,7 +13,6 @@ version: 4.5.07
 reviews: 50
 website: https://reku.id
 repository: 
-issue: 
 icon: com.rekeningku.jpg
 bugbounty: 
 meta: ok

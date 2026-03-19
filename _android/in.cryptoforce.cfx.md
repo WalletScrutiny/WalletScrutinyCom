@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 
 website: https://cryptoforce.in
 repository: 
-issue: 
 icon: in.cryptoforce.cfx.png
 bugbounty: 
 meta: ok

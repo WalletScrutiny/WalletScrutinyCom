@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.husky.hdw20.jpg
 bugbounty: 
 meta: removed

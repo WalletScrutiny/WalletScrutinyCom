@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://trustvault-app.com
 repository: 
-issue: 
 icon: com.trustvault.wallet.png
 bugbounty: 
 meta: ok

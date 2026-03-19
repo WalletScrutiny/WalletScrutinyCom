@@ -13,7 +13,6 @@ version: 2.2.11
 reviews: 213
 website: https://www.hashcashconsultants.com
 repository: 
-issue: 
 icon: com.hashcash.paybito.png
 bugbounty: 
 meta: removed

@@ -20,7 +20,6 @@ shop: https://materialbitcoin.com/en/product/material-bitcoin-standard/
 country: ES
 price: 89USD
 repository: 
-issue: 
 icon: materialbitcoincard.png
 bugbounty: 
 meta: ok

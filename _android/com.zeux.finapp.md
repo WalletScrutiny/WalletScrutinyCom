@@ -13,7 +13,6 @@ version: 2.20.0
 reviews: 1233
 website: https://www.zeux.com
 repository: 
-issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
 meta: removed

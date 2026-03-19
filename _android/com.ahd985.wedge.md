@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 19
 website: https://wedge.us
 repository: 
-issue: 
 icon: com.ahd985.wedge.png
 bugbounty: 
 meta: removed

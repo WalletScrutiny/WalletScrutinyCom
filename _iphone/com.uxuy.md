@@ -13,7 +13,6 @@ version: 1.3.13
 reviews: 18
 website: https://web.archive.org/web/20250422220123/https://uxuy.com/wallet
 repository: 
-issue: 
 icon: com.uxuy.jpg
 bugbounty: 
 meta: removed

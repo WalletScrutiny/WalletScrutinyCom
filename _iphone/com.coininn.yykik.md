@@ -13,7 +13,6 @@ version: 5.0.25
 reviews: 46
 website: https://www.coininn.com
 repository: 
-issue: 
 icon: com.coininn.yykik.jpg
 bugbounty: 
 meta: removed

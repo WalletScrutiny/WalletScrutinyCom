@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 6
 website: http://bittapi.oblade.net
 repository: 
-issue: 
 icon: net.benoitbasset.bittapi.png
 bugbounty: 
 meta: obsolete

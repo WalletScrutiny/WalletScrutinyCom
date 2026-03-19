@@ -13,7 +13,6 @@ version: 13.1.1
 reviews: 18
 website: https://lykke.com#deadLink
 repository: 
-issue: 
 icon: com.lykkex.LykkeWallet.png
 bugbounty: 
 meta: removed

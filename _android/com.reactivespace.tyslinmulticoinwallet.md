@@ -12,7 +12,6 @@ version: 2.1.38
 reviews: 8
 website: https://tyslin.com/
 repository: 
-issue: 
 icon: com.reactivespace.tyslinmulticoinwallet.png
 bugbounty: 
 meta: removed

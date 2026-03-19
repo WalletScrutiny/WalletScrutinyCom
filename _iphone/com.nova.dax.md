@@ -12,7 +12,6 @@ version: 3.6.2
 reviews: 2665
 website: 
 repository: 
-issue: 
 icon: com.nova.dax.jpg
 bugbounty: 
 meta: ok

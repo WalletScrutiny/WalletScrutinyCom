@@ -13,7 +13,6 @@ version: 2.4.0
 reviews: 145
 website: https://genesis.vision/
 repository: 
-issue: 
 icon: vision.genesis.ios.investor.jpg
 bugbounty: 
 meta: removed

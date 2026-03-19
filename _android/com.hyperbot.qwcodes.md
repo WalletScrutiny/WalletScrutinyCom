@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://hyperbot.solutions#deadLink
 repository: 
-issue: 
 icon: com.hyperbot.qwcodes.png
 bugbounty: 
 meta: removed

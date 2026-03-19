@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://globe.exchange/support
 repository: 
-issue: 
 icon: com.frt.globe.png
 bugbounty: 
 meta: ok

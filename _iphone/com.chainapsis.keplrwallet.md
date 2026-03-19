@@ -13,7 +13,6 @@ version: 2.1.163
 reviews: 269
 website: 
 repository: 
-issue: 
 icon: com.chainapsis.keplrwallet.jpg
 bugbounty: 
 meta: ok

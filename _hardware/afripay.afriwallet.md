@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: afripay.afriwallet.png
 bugbounty: 
 meta: ok

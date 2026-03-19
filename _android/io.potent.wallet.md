@@ -12,7 +12,6 @@ version: 0.20.0
 reviews: 
 website: http://potent.finance
 repository: 
-issue: 
 icon: io.potent.wallet.png
 bugbounty: 
 meta: removed

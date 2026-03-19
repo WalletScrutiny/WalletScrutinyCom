@@ -15,7 +15,6 @@ version: 9.6.0
 reviews: 594
 website: https://www.zengo.com
 repository: 
-issue: 
 icon: com.zengo.wallet.png
 bugbounty: 
 meta: ok

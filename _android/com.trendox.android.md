@@ -13,7 +13,6 @@ version: 3.9.40_googleplay
 reviews: 72
 website: https://fxtrendo.com
 repository: 
-issue: 
 icon: com.trendox.android.png
 bugbounty: 
 meta: removed

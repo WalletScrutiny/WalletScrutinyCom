@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: https://bitoket.com
 repository: 
-issue: 
 icon: com.bitoket.app.png
 bugbounty: 
 meta: ok

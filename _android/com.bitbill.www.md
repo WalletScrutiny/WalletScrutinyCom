@@ -14,7 +14,6 @@ version: 4.62.0
 reviews: 14
 website: https://ownbit.io
 repository: 
-issue: 
 icon: com.bitbill.www.png
 bugbounty: 
 meta: ok

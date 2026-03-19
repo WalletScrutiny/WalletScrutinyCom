@@ -13,7 +13,6 @@ version: 4.12.60
 reviews: 1111
 website: https://wirexapp.com
 repository: 
-issue: 
 icon: com.wirex.png
 bugbounty: 
 meta: ok

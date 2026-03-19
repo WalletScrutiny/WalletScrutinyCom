@@ -12,7 +12,6 @@ version: 2.0.2
 reviews: 
 website: https://kong.cash
 repository: 
-issue: 
 icon: ch.vrfy.png
 bugbounty: 
 meta: removed

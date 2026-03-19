@@ -13,7 +13,6 @@ version: 3.0.1
 reviews: 
 website: https://bitrah.com/
 repository: 
-issue: 
 icon: com.bitrah.pos.png
 bugbounty: 
 meta: obsolete

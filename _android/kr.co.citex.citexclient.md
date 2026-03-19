@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 6
 website: https://www.citex.io
 repository: 
-issue: 
 icon: kr.co.citex.citexclient.png
 bugbounty: 
 meta: removed

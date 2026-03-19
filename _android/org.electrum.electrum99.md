@@ -12,7 +12,6 @@ version: 5.3.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.electrum.electrum99.png
 bugbounty: 
 meta: removed

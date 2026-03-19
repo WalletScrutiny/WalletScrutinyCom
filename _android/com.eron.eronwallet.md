@@ -12,7 +12,6 @@ version: 3.40.91
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.eron.eronwallet.jpg
 bugbounty: 
 meta: removed

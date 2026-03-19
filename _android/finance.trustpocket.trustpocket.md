@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://trustpocket.finance#deadLink
 repository: 
-issue: 
 icon: finance.trustpocket.trustpocket.png
 bugbounty: 
 meta: removed

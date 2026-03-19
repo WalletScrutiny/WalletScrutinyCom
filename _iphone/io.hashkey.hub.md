@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: io.hashkey.hub.jpg
 bugbounty: 
 meta: removed

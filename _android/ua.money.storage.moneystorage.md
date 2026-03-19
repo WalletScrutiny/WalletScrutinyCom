@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: ua.money.storage.moneystorage.png
 bugbounty: 
 meta: removed

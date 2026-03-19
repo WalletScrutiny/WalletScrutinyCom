@@ -13,7 +13,6 @@ version: 3.5.0
 reviews: 26
 website: https://moolre.com
 repository: 
-issue: 
 icon: com.moolre.moolreios.jpg
 bugbounty: 
 meta: removed

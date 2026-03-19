@@ -17,7 +17,6 @@ shop: https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitc
 country: CN
 price: 
 repository: 
-issue: 
 icon: bitcube.png
 bugbounty: 
 meta: ok

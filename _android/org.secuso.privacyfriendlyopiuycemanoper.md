@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.secuso.privacyfriendlyopiuycemanoper.png
 bugbounty: 
 meta: removed

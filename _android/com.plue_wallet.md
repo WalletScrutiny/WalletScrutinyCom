@@ -12,7 +12,6 @@ version: 2.4.2
 reviews: 
 website: http://www.plue.io#deadLink
 repository: 
-issue: 
 icon: com.plue_wallet.png
 bugbounty: 
 meta: removed

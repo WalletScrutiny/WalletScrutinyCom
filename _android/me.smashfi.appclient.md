@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://smashfi.me
 repository: 
-issue: 
 icon: me.smashfi.appclient.png
 bugbounty: 
 meta: ok

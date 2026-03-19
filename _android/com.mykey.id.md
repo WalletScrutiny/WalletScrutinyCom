@@ -12,7 +12,6 @@ version: 3.5.0
 reviews: 82
 website: 
 repository: 
-issue: 
 icon: com.mykey.id.png
 bugbounty: 
 meta: removed

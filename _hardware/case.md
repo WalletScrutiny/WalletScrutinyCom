@@ -18,7 +18,6 @@ shop: https://choosecase.com
 country: US
 price: 
 repository: 
-issue: 
 icon: case.png
 bugbounty: 
 meta: defunct

@@ -13,7 +13,6 @@ version: 3.3.1
 reviews: 19
 website: https://o3.network#deadLink
 repository: 
-issue: 
 icon: com.fengsheng.new.o3Wallet.jpg
 bugbounty: 
 meta: removed

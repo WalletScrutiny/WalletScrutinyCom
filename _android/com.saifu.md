@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://saifu.ai/
 repository: 
-issue: 
 icon: com.saifu.png
 bugbounty: 
 meta: removed

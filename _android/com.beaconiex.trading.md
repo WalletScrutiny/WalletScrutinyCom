@@ -12,7 +12,6 @@ version: 1.2.12
 reviews: 
 website: https://www.beaconiex.com
 repository: 
-issue: 
 icon: com.beaconiex.trading.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.4.8
 reviews: 
 website: https://web.archive.org/web/20220111124040/http://muskbot.io/
 repository: 
-issue: 
 icon: uni.UNI2A1D818.jpg
 bugbounty: 
 meta: removed

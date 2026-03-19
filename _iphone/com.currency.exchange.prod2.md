@@ -13,7 +13,6 @@ version: 2.18.10
 reviews: 4430
 website: https://dzengi.com/ads
 repository: 
-issue: 
 icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 meta: ok

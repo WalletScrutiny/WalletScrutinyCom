@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 
 website: https://www.aaatrade.com#deadLink
 repository: 
-issue: 
 icon: com.aaatrade.CryptoExchange.png
 bugbounty: 
 meta: removed

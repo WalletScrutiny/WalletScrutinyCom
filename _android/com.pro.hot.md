@@ -13,7 +13,6 @@ version: 6.1.0
 reviews: 21
 website: https://hotcoin.com/
 repository: 
-issue: 
 icon: com.pro.hot.png
 bugbounty: 
 meta: defunct

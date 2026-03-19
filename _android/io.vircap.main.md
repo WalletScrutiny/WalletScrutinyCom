@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://vircap.io#deadLink
 repository: 
-issue: 
 icon: io.vircap.main.png
 bugbounty: 
 meta: removed

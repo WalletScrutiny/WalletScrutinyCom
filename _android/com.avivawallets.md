@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://avivawallets.com#deadLink
 repository: 
-issue: 
 icon: com.avivawallets.png
 bugbounty: 
 meta: removed

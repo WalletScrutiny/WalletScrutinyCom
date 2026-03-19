@@ -13,7 +13,6 @@ version: 1.18.3.1
 reviews: 36
 website: https://www.liquid.com
 repository: 
-issue: 
 icon: com.quoine.liquid.png
 bugbounty: 
 meta: removed

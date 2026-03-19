@@ -20,7 +20,6 @@ shop: https://shop.onekey.so/products/onekey-classic-1s
 country: SG
 price: 99USD
 repository: https://github.com/OneKeyHQ/firmware-classic1s
-issue: 
 icon: onekey.classic.1s.png
 bugbounty: 
 meta: ok

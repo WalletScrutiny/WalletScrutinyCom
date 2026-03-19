@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 0
 website: 
 repository: https://github.com/DFXswiss/btc-wallet
-issue: https://github.com/DFXswiss/btc-wallet/issues/167
 icon: swiss.dfx.bitcoin.jpg
 bugbounty: 
 meta: ok
@@ -39,3 +38,5 @@ developerName: DFX AG
 {% include featureEvidence.html feature="segwit" quote="SegWit-first. Replace-By-Fee support" source="GitHub README" %}
 
 {% include featureEvidence.html feature="foss" quote="LICENSE MIT" source="GitHub README" %}
+
+An issue has been opened at [https://github.com/DFXswiss/btc-wallet/issues/167](https://github.com/DFXswiss/btc-wallet/issues/167)

@@ -13,7 +13,6 @@ version: 4.5.0
 reviews: 9
 website: https://www.unido.us
 repository: 
-issue: 
 icon: com.worldwebms.MultiPAC.jpg
 bugbounty: 
 meta: removed

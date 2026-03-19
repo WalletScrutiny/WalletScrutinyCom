@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitkolma.com#deadLink
 repository: 
-issue: 
 icon: com.bitkolma.png
 bugbounty: 
 meta: removed

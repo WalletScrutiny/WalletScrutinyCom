@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 37
 website: https://www.delio.foundation#deadLink
 repository: 
-issue: 
 icon: io.DelioHybrid.jpg
 bugbounty: 
 meta: removed

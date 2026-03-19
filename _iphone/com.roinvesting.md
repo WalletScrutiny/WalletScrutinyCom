@@ -13,7 +13,6 @@ version: 1.68.10
 reviews: 1
 website: https://www.roinvesting.com/
 repository: 
-issue: 
 icon: com.roinvesting.jpg
 bugbounty: 
 meta: removed

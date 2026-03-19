@@ -13,7 +13,6 @@ version: 6.154.1
 reviews: 2147
 website: https://tr.okx.com/download
 repository: 
-issue: 
 icon: com.okx.tr.jpg
 bugbounty: 
 meta: ok

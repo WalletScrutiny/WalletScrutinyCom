@@ -13,7 +13,6 @@ version: 2.20.16
 reviews: 4
 website: https://newton.co
 repository: 
-issue: 
 icon: web.tradenewton.com.png
 bugbounty: 
 meta: ok

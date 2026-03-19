@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://chainblock.it/flash/
 repository: 
-issue: 
 icon: com.app.Chainblock.png
 bugbounty: 
 meta: removed

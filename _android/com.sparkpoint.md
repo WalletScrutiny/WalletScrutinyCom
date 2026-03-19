@@ -14,7 +14,6 @@ version: 12.1.1
 reviews: 67
 website: https://sparkpoint.io/
 repository: 
-issue: 
 icon: com.sparkpoint.png
 bugbounty: 
 meta: removed

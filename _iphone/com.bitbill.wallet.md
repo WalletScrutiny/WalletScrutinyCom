@@ -13,7 +13,6 @@ version: 4.62.1
 reviews: 147
 website: http://www.bitbill.com#deadLink
 repository: 
-issue: 
 icon: com.bitbill.wallet.jpg
 bugbounty: 
 meta: ok

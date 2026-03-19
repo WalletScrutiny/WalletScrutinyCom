@@ -12,7 +12,6 @@ version: '4.0'
 reviews: 
 website: https://dbx24.com
 repository: 
-issue: 
 icon: fcm.dbx24.com.png
 bugbounty: 
 meta: removed

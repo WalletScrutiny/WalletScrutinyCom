@@ -13,7 +13,6 @@ version: '1.28'
 reviews: 21
 website: https://www.secrypto.io#deadLink
 repository: 
-issue: 
 icon: com.secrypto.png
 bugbounty: 
 meta: removed

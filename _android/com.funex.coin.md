@@ -13,7 +13,6 @@ version: 1.0.37
 reviews: 
 website: https://funexcoin.com/
 repository: 
-issue: 
 icon: com.funex.coin.png
 bugbounty: 
 meta: ok

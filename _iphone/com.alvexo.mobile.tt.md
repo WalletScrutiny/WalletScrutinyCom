@@ -13,7 +13,6 @@ version: 3.3.118
 reviews: 1
 website: https://www.alvexo.eu
 repository: 
-issue: 
 icon: com.alvexo.mobile.tt.jpg
 bugbounty: 
 meta: removed

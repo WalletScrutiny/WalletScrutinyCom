@@ -13,7 +13,6 @@ version: 5.2.0
 reviews: 1750
 website: https://celsius.network
 repository: 
-issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
 meta: removed

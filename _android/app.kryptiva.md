@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.kryptiva.jpg
 bugbounty: 
 meta: removed

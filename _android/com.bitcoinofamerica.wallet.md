@@ -13,7 +13,6 @@ version: 1.1.3
 reviews: 58
 website: https://www.bitcoinofamerica.org
 repository: 
-issue: 
 icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
 meta: removed

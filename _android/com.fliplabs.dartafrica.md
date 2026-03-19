@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://dartafrica.io
 repository: 
-issue: 
 icon: com.fliplabs.dartafrica.png
 bugbounty: 
 meta: obsolete

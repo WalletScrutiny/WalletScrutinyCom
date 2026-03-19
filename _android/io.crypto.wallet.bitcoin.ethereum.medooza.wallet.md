@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://medooza.io
 repository: 
-issue: 
 icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
 bugbounty: 
 meta: removed

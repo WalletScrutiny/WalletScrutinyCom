@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://app.tradepal.finance#deadLink
 repository: 
-issue: 
 icon: finance.tradepal.app.png
 bugbounty: 
 meta: removed

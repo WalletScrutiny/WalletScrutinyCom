@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: hodllabs.vault.e.png
 bugbounty: 
 meta: ok

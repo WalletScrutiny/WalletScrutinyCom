@@ -12,7 +12,6 @@ version: 2.27.1
 reviews: 29
 website: 
 repository: 
-issue: 
 icon: com.fxfi.fxwallet.jpg
 bugbounty: 
 meta: ok

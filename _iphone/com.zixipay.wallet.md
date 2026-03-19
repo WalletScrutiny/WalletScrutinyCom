@@ -13,7 +13,6 @@ version: '1.96'
 reviews: 27
 website: https://zixipay.com/
 repository: 
-issue: 
 icon: com.zixipay.wallet.jpg
 bugbounty: 
 meta: ok

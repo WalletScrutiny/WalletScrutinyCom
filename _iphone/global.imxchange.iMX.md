@@ -13,7 +13,6 @@ version: 1.7.3
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: global.imxchange.iMX.jpg
 bugbounty: 
 meta: stale

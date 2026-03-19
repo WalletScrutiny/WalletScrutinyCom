@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: https://paperbgs.com/
 repository: 
-issue: 
 icon: com.paperbgs.app.jpg
 bugbounty: 
 meta: removed

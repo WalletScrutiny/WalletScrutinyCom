@@ -17,7 +17,6 @@ shop:
 country: US
 price: 16.99USD
 repository: 
-issue: 
 icon: versocards.png
 bugbounty: 
 meta: defunct

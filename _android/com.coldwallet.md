@@ -12,7 +12,6 @@ version: 1.2.8.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.coldwallet.png
 bugbounty: 
 meta: removed

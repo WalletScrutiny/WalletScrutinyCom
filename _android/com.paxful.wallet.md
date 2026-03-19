@@ -13,7 +13,6 @@ version: 3.3.1.727
 reviews: 1962
 website: https://Paxful.com
 repository: 
-issue: 
 icon: com.paxful.wallet.png
 bugbounty: https://paxful.com/bug-bounty-policy
 meta: removed

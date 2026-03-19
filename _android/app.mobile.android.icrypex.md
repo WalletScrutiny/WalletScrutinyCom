@@ -13,7 +13,6 @@ version: '21.2'
 reviews: 10
 website: https://www.icrypex.com.tr/
 repository: 
-issue: 
 icon: app.mobile.android.icrypex.png
 bugbounty: 
 meta: ok

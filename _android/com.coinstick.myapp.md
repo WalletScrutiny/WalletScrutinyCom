@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 6
 website: https://www.coinstick.co
 repository: 
-issue: 
 icon: com.coinstick.myapp.png
 bugbounty: 
 meta: ok

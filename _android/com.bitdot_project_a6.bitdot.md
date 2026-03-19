@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://bitdotglobal.com#deadLink
 repository: 
-issue: 
 icon: com.bitdot_project_a6.bitdot.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.57.0
 reviews: 
 website: http://afcash.app#deadLink
 repository: 
-issue: 
 icon: com.afcashapp.app.png
 bugbounty: 
 meta: removed

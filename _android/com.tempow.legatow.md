@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: https://www.legatow.com#deadLink
 repository: 
-issue: 
 icon: com.tempow.legatow.png
 bugbounty: 
 meta: removed

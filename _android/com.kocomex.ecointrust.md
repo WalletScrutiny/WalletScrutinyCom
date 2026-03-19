@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://ecointrust.com
 repository: 
-issue: 
 icon: com.kocomex.ecointrust.png
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 4.12.2
 reviews: 13976
 website: https://www.bitkub.com/download
 repository: 
-issue: 
 icon: com.bitkub.app.jpg
 bugbounty: 
 meta: ok

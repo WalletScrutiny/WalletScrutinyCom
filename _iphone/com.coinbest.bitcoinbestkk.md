@@ -13,7 +13,6 @@ version: 4.1.7
 reviews: 13
 website: https://coinbest.com
 repository: 
-issue: 
 icon: com.coinbest.bitcoinbestkk.jpg
 bugbounty: 
 meta: ok

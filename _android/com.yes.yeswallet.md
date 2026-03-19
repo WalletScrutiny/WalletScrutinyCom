@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 31
 website: http://www.yeswallet.io
 repository: 
-issue: 
 icon: com.yes.yeswallet.png
 bugbounty: 
 meta: removed

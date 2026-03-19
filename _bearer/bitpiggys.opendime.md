@@ -17,7 +17,6 @@ shop: https://www.bitpiggys.com/online-store
 country: 
 price: 
 repository: 
-issue: 
 icon: bitpiggys.opendime.png
 bugbounty: 
 meta: defunct

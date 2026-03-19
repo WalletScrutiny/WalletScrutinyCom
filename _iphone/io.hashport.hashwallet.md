@@ -12,7 +12,6 @@ version: 3.5.1
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: io.hashport.hashwallet.jpg
 bugbounty: 
 meta: ok

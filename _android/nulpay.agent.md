@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: https://nulpay.com
 repository: 
-issue: 
 icon: nulpay.agent.jpg
 bugbounty: 
 meta: removed

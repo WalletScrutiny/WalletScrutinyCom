@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.molecule.jointwallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.8.1
 reviews: 
 website: http://www.africrypt.io#deadLink
 repository: 
-issue: 
 icon: app.africoin.pellar.png
 bugbounty: 
 meta: removed

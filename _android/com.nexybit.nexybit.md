@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: https://nexybit.com/
 repository: 
-issue: 
 icon: com.nexybit.nexybit.png
 bugbounty: 
 meta: removed

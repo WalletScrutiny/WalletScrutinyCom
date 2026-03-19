@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: balletcrypto.bitcoinblock.png
 bugbounty: 
 meta: ok

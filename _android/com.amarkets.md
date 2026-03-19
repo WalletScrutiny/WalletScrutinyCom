@@ -13,7 +13,6 @@ version: 2.1.128
 reviews: 296
 website: https://www.amarkets.com
 repository: 
-issue: 
 icon: com.amarkets.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.2.33
 reviews: 80
 website: 
 repository: 
-issue: 
 icon: rs.ecd.ECD.jpg
 bugbounty: 
 meta: ok

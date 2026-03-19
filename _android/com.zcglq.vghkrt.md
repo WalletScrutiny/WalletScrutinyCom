@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.zcglq.vghkrt.png
 bugbounty: 
 meta: removed

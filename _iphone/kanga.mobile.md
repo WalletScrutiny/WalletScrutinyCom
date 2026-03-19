@@ -13,7 +13,6 @@ version: 1.27.1
 reviews: 7
 website: http://kanga.exchange
 repository: 
-issue: 
 icon: kanga.mobile.jpg
 bugbounty: 
 meta: ok

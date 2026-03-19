@@ -13,7 +13,6 @@ version: 3.49.0
 reviews: 15137
 website: https://www.coinjar.com/au
 repository: 
-issue: 
 icon: com.coinjar.mobius.jpg
 bugbounty: 
 meta: ok

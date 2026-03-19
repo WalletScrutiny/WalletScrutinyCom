@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 10
 website: https://quasarwallet.com
 repository: 
-issue: 
 icon: com.quasarwallet.android.png
 bugbounty: 
 meta: stale

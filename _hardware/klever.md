@@ -17,7 +17,6 @@ shop: https://kleversafe.io/cart/
 country: BR
 price: 199USD
 repository: 
-issue: 
 icon: klever.png
 bugbounty: 
 meta: ok

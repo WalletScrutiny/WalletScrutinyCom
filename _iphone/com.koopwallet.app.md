@@ -13,7 +13,6 @@ version: '20.0'
 reviews: 0
 website: https://koopwallet.com/privacy.html#deadLink
 repository: 
-issue: 
 icon: com.koopwallet.app.jpg
 bugbounty: 
 meta: removed

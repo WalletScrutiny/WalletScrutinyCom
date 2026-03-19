@@ -13,7 +13,6 @@ version: 3.4.10
 reviews: 13
 website: https://wexopay.com
 repository: 
-issue: 
 icon: cz.hundredspires.wexo.png
 bugbounty: 
 meta: removed

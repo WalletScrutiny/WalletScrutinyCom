@@ -13,7 +13,6 @@ version: 6.6.3
 reviews: 169
 website: https://www.coincola.com
 repository: 
-issue: 
 icon: com.newgo.coincola.png
 bugbounty: 
 meta: ok

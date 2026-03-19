@@ -13,7 +13,6 @@ version: 1.17.2
 reviews: 115
 website: 
 repository: 
-issue: 
 icon: com.ourbit.www.jpg
 bugbounty: 
 meta: ok

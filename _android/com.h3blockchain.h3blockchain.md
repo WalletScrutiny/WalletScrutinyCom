@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://h3plex.com#deadLink
 repository: 
-issue: 
 icon: com.h3blockchain.h3blockchain.png
 bugbounty: 
 meta: removed

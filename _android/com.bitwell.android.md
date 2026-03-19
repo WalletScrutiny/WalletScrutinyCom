@@ -12,7 +12,6 @@ version: 1.8.1
 reviews: 3
 website: http://www.bitwellex.com#deadLink
 repository: 
-issue: 
 icon: com.bitwell.android.png
 bugbounty: 
 meta: removed

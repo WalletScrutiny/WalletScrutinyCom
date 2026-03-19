@@ -13,7 +13,6 @@ version: 5.52.5
 reviews: 363
 website: https://coinmetro.com/
 repository: 
-issue: 
 icon: app.coinmetro.jpg
 bugbounty: 
 meta: ok

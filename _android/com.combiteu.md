@@ -13,7 +13,6 @@ version: 200.5.4
 reviews: 
 website: https://bit.eu
 repository: 
-issue: 
 icon: com.combiteu.png
 bugbounty: 
 meta: ok

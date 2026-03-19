@@ -12,7 +12,6 @@ version: 0.21.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.waletrust.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 5.21.0
 reviews: 22
 website: https://coinhako.com
 repository: 
-issue: 
 icon: com.coinhako.png
 bugbounty: 
 meta: ok

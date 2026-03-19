@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 22
 website: 
 repository: 
-issue: 
 icon: com.zb.international.jpg
 bugbounty: 
 meta: removed

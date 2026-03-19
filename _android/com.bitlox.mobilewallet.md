@@ -12,7 +12,6 @@ version: 4.0.4
 reviews: 
 website: https://bitlox.com
 repository: 
-issue: 
 icon: com.bitlox.mobilewallet.png
 bugbounty: 
 meta: removed

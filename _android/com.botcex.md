@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://www.botcex.com
 repository: 
-issue: 
 icon: com.botcex.png
 bugbounty: 
 meta: removed

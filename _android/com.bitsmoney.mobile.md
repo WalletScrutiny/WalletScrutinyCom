@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 6
 website: https://bitsmoney.co.com
 repository: 
-issue: 
 icon: com.bitsmoney.mobile.png
 bugbounty: 
 meta: removed

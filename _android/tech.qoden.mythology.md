@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://web.archive.org/web/20220102193531/https://cryptotradeengine.com/
 repository: 
-issue: 
 icon: tech.qoden.mythology.png
 bugbounty: 
 meta: removed

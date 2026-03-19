@@ -17,7 +17,6 @@ shop:
 country: HK
 price: 
 repository: 
-issue: 
 icon: thingyfy.nxtringcrypto.png
 bugbounty: 
 meta: defunct

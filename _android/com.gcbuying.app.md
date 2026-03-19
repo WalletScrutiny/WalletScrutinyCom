@@ -13,7 +13,6 @@ version: 1.0.10
 reviews: 84
 website: http://www.gcbuying.com
 repository: 
-issue: 
 icon: com.gcbuying.app.jpg
 bugbounty: 
 meta: removed

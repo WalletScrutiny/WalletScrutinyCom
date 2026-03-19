@@ -12,7 +12,6 @@ version: 0.22.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.cryptonest.bankwallet.png
 bugbounty: 
 meta: removed

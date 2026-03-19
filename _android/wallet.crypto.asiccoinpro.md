@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: wallet.crypto.asiccoinpro.png
 bugbounty: 
 meta: removed

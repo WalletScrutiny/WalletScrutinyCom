@@ -13,7 +13,6 @@ version: 10.0.0.0
 reviews: 13
 website: https://zipwalletpay.com
 repository: 
-issue: 
 icon: com.zipwallet.app.png
 bugbounty: 
 meta: removed

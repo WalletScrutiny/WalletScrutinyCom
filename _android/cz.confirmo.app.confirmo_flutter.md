@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: http://confirmo.net
 repository: 
-issue: 
 icon: cz.confirmo.app.confirmo_flutter.png
 bugbounty: 
 meta: removed

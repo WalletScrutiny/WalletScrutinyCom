@@ -13,7 +13,6 @@ version: 1.15.0
 reviews: 
 website: https://www.npbfx.com/
 repository: 
-issue: 
 icon: com.npbfx.app.jpg
 bugbounty: 
 meta: ok

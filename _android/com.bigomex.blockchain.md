@@ -13,7 +13,6 @@ version: 1.2.7
 reviews: 6
 website: https://www.bigomex.com
 repository: 
-issue: 
 icon: com.bigomex.blockchain.jpg
 bugbounty: 
 meta: removed

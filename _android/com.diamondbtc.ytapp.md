@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://diamondbtc.net#deadLink
 repository: 
-issue: 
 icon: com.diamondbtc.ytapp.png
 bugbounty: 
 meta: removed

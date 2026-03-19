@@ -13,7 +13,6 @@ version: 1.122.0
 reviews: 76
 website: https://btse.com
 repository: 
-issue: 
 icon: com.btse.finance.png
 bugbounty: 
 meta: ok

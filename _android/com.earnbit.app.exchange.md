@@ -12,7 +12,6 @@ version: 1.0.26
 reviews: 
 website: https://earnbit.com/
 repository: 
-issue: 
 icon: com.earnbit.app.exchange.png
 bugbounty: 
 meta: ok

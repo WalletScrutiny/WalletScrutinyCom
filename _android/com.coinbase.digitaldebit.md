@@ -12,7 +12,6 @@ version: 3.0.3
 reviews: 
 website: https://digitaldebit.com#deadLink
 repository: 
-issue: 
 icon: com.coinbase.digitaldebit.png
 bugbounty: 
 meta: removed

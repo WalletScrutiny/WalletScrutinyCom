@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://wallet.app
 repository: 
-issue: 
 icon: app.wallet.crypto.png
 bugbounty: 
 meta: removed

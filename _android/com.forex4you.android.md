@@ -13,7 +13,6 @@ version: 6.21.1
 reviews: 263
 website: https://www.markets4you.com/en/
 repository: 
-issue: 
 icon: com.forex4you.android.png
 bugbounty: 
 meta: ok

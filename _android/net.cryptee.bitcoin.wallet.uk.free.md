@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptee.bitcoin.wallet.uk.free.jpg
 bugbounty: 
 meta: removed

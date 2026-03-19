@@ -13,7 +13,6 @@ version: 6.156.1
 reviews: 21936
 website: https://www.okx.com/download
 repository: 
-issue: 
 icon: com.okex.OKExAppstoreFull.jpg
 bugbounty: 
 meta: ok

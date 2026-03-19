@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://plusbit.tech#deadLink
 repository: 
-issue: 
 icon: com.plusbit.png
 bugbounty: 
 meta: removed

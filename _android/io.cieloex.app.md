@@ -12,7 +12,6 @@ version: 5.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.cieloex.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: http://info.gooplex.com.br#deadLink
 repository: 
-issue: 
 icon: com.cloud.gooplex.png
 bugbounty: 
 meta: removed

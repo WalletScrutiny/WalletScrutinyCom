@@ -13,7 +13,6 @@ version: '24.0527'
 reviews: 39
 website: https://yield.app/
 repository: 
-issue: 
 icon: app.yield.jpg
 bugbounty: 
 meta: removed

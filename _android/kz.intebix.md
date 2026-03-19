@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://www.intebix.kz
 repository: 
-issue: 
 icon: kz.intebix.png
 bugbounty: 
 meta: ok

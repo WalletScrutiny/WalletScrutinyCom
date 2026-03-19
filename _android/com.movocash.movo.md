@@ -13,7 +13,6 @@ version: 4.3.3
 reviews: 143
 website: http://movo.cash
 repository: 
-issue: 
 icon: com.movocash.movo.jpg
 bugbounty: 
 meta: removed

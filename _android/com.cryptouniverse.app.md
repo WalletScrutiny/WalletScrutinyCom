@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://cryptouniversep2p.com#deadLink
 repository: 
-issue: 
 icon: com.cryptouniverse.app.png
 bugbounty: 
 meta: removed

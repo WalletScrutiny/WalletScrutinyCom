@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 48
 website: https://coinsbit.io/
 repository: 
-issue: 
 icon: com.coinsbit.coinsbit.png
 bugbounty: 
 meta: removed

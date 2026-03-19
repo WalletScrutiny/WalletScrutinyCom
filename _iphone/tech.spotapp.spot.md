@@ -13,7 +13,6 @@ version: '5.25'
 reviews: 6989
 website: https://spot-wallet.com#deadLink
 repository: 
-issue: 
 icon: tech.spotapp.spot.jpg
 bugbounty: 
 meta: removed

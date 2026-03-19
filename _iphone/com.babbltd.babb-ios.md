@@ -13,7 +13,6 @@ version: 2.5.3
 reviews: 85
 website: https://getbabb.com/
 repository: 
-issue: 
 icon: com.babbltd.babb-ios.jpg
 bugbounty: 
 meta: stale

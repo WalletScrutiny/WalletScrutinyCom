@@ -12,7 +12,6 @@ version: 2.5.1
 reviews: 
 website: https://markka.com
 repository: 
-issue: 
 icon: com.markka.markkawallet.png
 bugbounty: 
 meta: stale

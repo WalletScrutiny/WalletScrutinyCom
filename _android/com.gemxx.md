@@ -12,7 +12,6 @@ version: 1.0.1260
 reviews: 
 website: https://ammolitetoken.com
 repository: 
-issue: 
 icon: com.gemxx.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.5.23
 reviews: 1
 website: https://frostwallet.cc
 repository: 
-issue: 
 icon: ru.trustpool.wallet.jpg
 bugbounty: 
 meta: removed

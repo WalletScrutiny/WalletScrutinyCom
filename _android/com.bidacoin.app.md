@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bidacoin.io/#/
 repository: 
-issue: 
 icon: com.bidacoin.app.png
 bugbounty: 
 meta: removed

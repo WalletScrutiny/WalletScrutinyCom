@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 23
 website: https://www.guapcoin.org
 repository: 
-issue: 
 icon: org.guapcoin.multiwallet.png
 bugbounty: 
 meta: removed

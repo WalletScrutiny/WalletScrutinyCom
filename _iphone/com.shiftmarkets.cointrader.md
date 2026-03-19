@@ -13,7 +13,6 @@ version: 4.1.0
 reviews: 0
 website: https://exchange.shiftmarkets.com#deadLink
 repository: 
-issue: 
 icon: com.shiftmarkets.cointrader.jpg
 bugbounty: 
 meta: removed

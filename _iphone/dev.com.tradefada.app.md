@@ -13,7 +13,6 @@ version: 1.3.13
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: dev.com.tradefada.app.jpg
 bugbounty: 
 meta: removed

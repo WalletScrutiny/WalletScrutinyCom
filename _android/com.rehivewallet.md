@@ -12,7 +12,6 @@ version: 7.11.36
 reviews: 
 website: https://www.rehive.com
 repository: 
-issue: 
 icon: com.rehivewallet.png
 bugbounty: 
 meta: ok

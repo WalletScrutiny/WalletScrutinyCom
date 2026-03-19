@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.digitide.us/foxtide#deadLink
 repository: 
-issue: 
 icon: com.foxtide.jpg
 bugbounty: 
 meta: removed

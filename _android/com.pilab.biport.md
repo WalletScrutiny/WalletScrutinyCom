@@ -13,7 +13,6 @@ version: '0.45'
 reviews: 8
 website: https://pilab.co
 repository: 
-issue: 
 icon: com.pilab.biport.png
 bugbounty: 
 meta: stale

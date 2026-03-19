@@ -13,7 +13,6 @@ version: 3.0.7
 reviews: 28
 website: https://www.primal.net
 repository: 
-issue: 
 icon: net.primal.android.png
 bugbounty: 
 meta: ok

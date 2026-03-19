@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bankledger.safegem.png
 bugbounty: 
 meta: removed

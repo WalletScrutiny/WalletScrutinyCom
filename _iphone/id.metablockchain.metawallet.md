@@ -13,7 +13,6 @@ version: 3.2.1
 reviews: 0
 website: https://swnglobal.com
 repository: 
-issue: 
 icon: id.metablockchain.metawallet.jpg
 bugbounty: 
 meta: ok

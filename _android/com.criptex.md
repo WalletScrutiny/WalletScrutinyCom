@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://criptex.com/
 repository: 
-issue: 
 icon: com.criptex.jpg
 bugbounty: 
 meta: removed

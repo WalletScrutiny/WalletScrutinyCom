@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 2065
 website: http://swapwallet.com#deadLink
 repository: 
-issue: 
 icon: com.swapwalletltd.swap.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.5.9
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: uni.PAC62A36.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '2.0005'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.arbismart.hotwallets.jpg
 bugbounty: 
 meta: removed

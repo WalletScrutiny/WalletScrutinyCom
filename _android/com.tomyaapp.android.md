@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 
 website: https://www.tomya.com/
 repository: 
-issue: 
 icon: com.tomyaapp.android.png
 bugbounty: 
 meta: removed

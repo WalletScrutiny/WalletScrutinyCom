@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://relampago.bigsun.xyz#deadLink
 repository: 
-issue: 
 icon: xyz.bigsun.relampago.png
 bugbounty: 
 meta: removed

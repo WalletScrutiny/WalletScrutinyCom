@@ -13,7 +13,6 @@ version: 1.0.2.6
 reviews: 
 website: https://coinboxfinance.com/
 repository: 
-issue: 
 icon: com.coinboxwallet.png
 bugbounty: 
 meta: removed

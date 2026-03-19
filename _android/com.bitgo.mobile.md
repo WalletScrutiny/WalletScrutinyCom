@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 6
 website: https://bitgo.com
 repository: 
-issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
 meta: removed

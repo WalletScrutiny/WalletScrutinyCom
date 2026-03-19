@@ -13,7 +13,6 @@ version: 1.8.8
 reviews: 4
 website: https://web.archive.org/web/20250409012753/https://www.coinlink.tech/
 repository: 
-issue: 
 icon: com.coinlinksec.jpg
 bugbounty: 
 meta: ok

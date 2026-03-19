@@ -13,7 +13,6 @@ version: '1.47'
 reviews: 200
 website: 
 repository: 
-issue: 
 icon: com.app.mystarwallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://coinhub8899.web.app
 repository: 
-issue: 
 icon: com.blockchain.nft.explore.png
 bugbounty: 
 meta: removed

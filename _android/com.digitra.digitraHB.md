@@ -13,7 +13,6 @@ version: 1.0.168
 reviews: 10
 website: https://www.digitra.com
 repository: 
-issue: 
 icon: com.digitra.digitraHB.png
 bugbounty: 
 meta: ok

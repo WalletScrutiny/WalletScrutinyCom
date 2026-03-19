@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://larewallet.cc#deadLink
 repository: 
-issue: 
 icon: io.laresystems.bankwallet.png
 bugbounty: 
 meta: removed

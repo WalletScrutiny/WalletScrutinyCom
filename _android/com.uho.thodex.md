@@ -12,7 +12,6 @@ version: 1.0.10
 reviews: 56
 website: https://www.thodex.com/tr
 repository: 
-issue: 
 icon: com.uho.thodex.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 0.4.8
 reviews: 0
 website: https://getflash.io
 repository: https://github.com/lnflash/flash-mobile
-issue: 
 icon: com.lnflash.jpg
 bugbounty: 
 meta: ok

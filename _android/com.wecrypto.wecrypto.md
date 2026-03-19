@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://wecrypto.net#deadLink
 repository: 
-issue: 
 icon: com.wecrypto.wecrypto.png
 bugbounty: 
 meta: removed

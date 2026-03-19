@@ -13,7 +13,6 @@ version: '1.12'
 reviews: 
 website: https://sites.google.com/view/globlacryptotrading/home
 repository: 
-issue: 
 icon: com.global.trading.company.png
 bugbounty: 
 meta: removed

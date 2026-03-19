@@ -13,7 +13,6 @@ version: 8.0.451
 reviews: 200
 website: http://www.naga.com
 repository: 
-issue: 
 icon: swipestox.mobile.png
 bugbounty: 
 meta: ok

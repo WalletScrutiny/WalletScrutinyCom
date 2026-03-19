@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 
 website: https://www.xyt.com#deadLink
 repository: 
-issue: 
 icon: com.xytwww.png
 bugbounty: 
 meta: removed

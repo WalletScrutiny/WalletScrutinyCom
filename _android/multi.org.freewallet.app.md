@@ -13,7 +13,6 @@ version: 1.0.69
 reviews: 148
 website: https://freewallet.org/
 repository: 
-issue: 
 icon: multi.org.freewallet.app.png
 bugbounty: 
 meta: removed

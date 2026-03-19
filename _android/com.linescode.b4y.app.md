@@ -12,7 +12,6 @@ version: 1.0.22
 reviews: 
 website: https://www.bank4you.life
 repository: 
-issue: 
 icon: com.linescode.b4y.app.png
 bugbounty: 
 meta: removed

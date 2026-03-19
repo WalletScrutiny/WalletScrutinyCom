@@ -13,7 +13,6 @@ version: 3.9.1
 reviews: 1154
 website: https://www.bydfi.com/
 repository: 
-issue: 
 icon: com.bydfi.app.jpg
 bugbounty: 
 meta: ok

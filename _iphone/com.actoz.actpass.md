@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.actoz.actpass.jpg
 bugbounty: 
 meta: removed

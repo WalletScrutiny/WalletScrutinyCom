@@ -12,7 +12,6 @@ version: 3.0.3.1
 reviews: 
 website: https://www.pletobnb.io#deadLink
 repository: 
-issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png
 bugbounty: 
 meta: removed

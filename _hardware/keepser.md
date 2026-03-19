@@ -20,7 +20,6 @@ shop: https://www.keepser.com/shop
 country: AD
 price: 149EUR
 repository: 
-issue: 
 icon: keepser.png
 bugbounty: 
 meta: ok

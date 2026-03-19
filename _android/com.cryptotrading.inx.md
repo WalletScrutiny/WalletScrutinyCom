@@ -13,7 +13,6 @@ version: 2.0.12
 reviews: 18
 website: https://www.inx.co
 repository: 
-issue: 
 icon: com.cryptotrading.inx.png
 bugbounty: 
 meta: ok

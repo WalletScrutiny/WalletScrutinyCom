@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: com.glorymeta.atlas.png
 bugbounty: 
 meta: ok

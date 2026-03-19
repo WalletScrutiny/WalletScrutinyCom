@@ -17,7 +17,6 @@ shop:
 country: CA
 price: 
 repository: 
-issue: 
 icon: blockchainmind.png
 bugbounty: 
 meta: ok

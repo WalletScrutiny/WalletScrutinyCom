@@ -13,7 +13,6 @@ version: 1.1.3
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: com.fibit.ios.jpg
 bugbounty: 
 meta: removed

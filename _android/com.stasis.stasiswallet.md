@@ -13,7 +13,6 @@ version: 1.15.0
 reviews: 5
 website: https://stasis.net
 repository: 
-issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
 meta: removed

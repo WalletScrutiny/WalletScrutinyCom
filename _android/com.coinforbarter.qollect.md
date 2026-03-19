@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://coinforbarter.com
 repository: 
-issue: 
 icon: com.coinforbarter.qollect.png
 bugbounty: 
 meta: removed

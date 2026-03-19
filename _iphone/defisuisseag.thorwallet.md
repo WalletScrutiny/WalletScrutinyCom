@@ -13,7 +13,6 @@ version: 3.3.6
 reviews: 39
 website: http://thorwallet.org
 repository: 
-issue: 
 icon: defisuisseag.thorwallet.jpg
 bugbounty: 
 meta: ok

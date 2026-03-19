@@ -13,7 +13,6 @@ version: 2.10.4
 reviews: 
 website: https://myabcwallet.io
 repository: 
-issue: 
 icon: io.myabcwallet.mpc.png
 bugbounty: 
 meta: ok

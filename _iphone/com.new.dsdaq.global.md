@@ -13,7 +13,6 @@ version: 5.3.2
 reviews: 0
 website: http://dsdaq.io
 repository: 
-issue: 
 icon: com.new.dsdaq.global.jpg
 bugbounty: 
 meta: removed

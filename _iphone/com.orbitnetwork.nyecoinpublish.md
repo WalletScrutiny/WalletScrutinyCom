@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 15
 website: https://nyecoin.io#deadLink
 repository: 
-issue: 
 icon: com.orbitnetwork.nyecoinpublish.jpg
 bugbounty: 
 meta: defunct

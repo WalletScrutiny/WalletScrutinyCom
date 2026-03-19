@@ -12,7 +12,6 @@ version: 0.3.5
 reviews: 
 website: https://launch.smartrader.io/
 repository: 
-issue: 
 icon: io.smartrader.smartapp.png
 bugbounty: 
 meta: removed

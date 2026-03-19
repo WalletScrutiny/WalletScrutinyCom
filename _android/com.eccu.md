@@ -12,7 +12,6 @@ version: '1.12'
 reviews: 
 website: http://www.eccu.xyz#deadLink
 repository: 
-issue: 
 icon: com.eccu.png
 bugbounty: 
 meta: removed

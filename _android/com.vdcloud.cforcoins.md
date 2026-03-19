@@ -13,7 +13,6 @@ version: 2.7.0
 reviews: 
 website: http://www.cforcoins.com
 repository: 
-issue: 
 icon: com.vdcloud.cforcoins.png
 bugbounty: 
 meta: removed

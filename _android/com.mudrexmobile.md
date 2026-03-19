@@ -13,7 +13,6 @@ version: '12.98'
 reviews: 4
 website: https://mudrex.com/
 repository: 
-issue: 
 icon: com.mudrexmobile.png
 bugbounty: 
 meta: ok

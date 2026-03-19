@@ -13,7 +13,6 @@ version: 3.15.3
 reviews: 6
 website: http://cryptology.com
 repository: 
-issue: 
 icon: com.cryptology.ios.jpg
 bugbounty: 
 meta: removed

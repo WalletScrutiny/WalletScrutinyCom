@@ -13,7 +13,6 @@ version: 2.2.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.atomwallets.app.png
 bugbounty: 
 meta: ok

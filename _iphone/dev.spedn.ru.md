@@ -13,7 +13,6 @@ version: 1.16.5
 reviews: 118
 website: https://koshelek.ru/
 repository: 
-issue: 
 icon: dev.spedn.ru.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.5.5
 reviews: 88
 website: https://coindex.money
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
-issue: 
 icon: com.blockchain.btc.coinhub.png
 bugbounty: 
 meta: ok

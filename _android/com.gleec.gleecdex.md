@@ -12,7 +12,6 @@ version: 0.9.1
 reviews: 
 website: https://gleecbtc.com/
 repository: 
-issue: 
 icon: com.gleec.gleecdex.png
 bugbounty: 
 meta: stale

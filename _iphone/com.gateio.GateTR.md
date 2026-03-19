@@ -13,7 +13,6 @@ version: 6.15.28
 reviews: 629
 website: https://www.gate.com.tr
 repository: 
-issue: 
 icon: com.gateio.GateTR.jpg
 bugbounty: 
 meta: ok

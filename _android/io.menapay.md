@@ -12,7 +12,6 @@ version: 1.8.7
 reviews: 4
 website: http://menapay.io
 repository: 
-issue: 
 icon: io.menapay.png
 bugbounty: 
 meta: removed

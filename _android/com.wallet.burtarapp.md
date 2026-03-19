@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 7
 website: https://burtar.com#deadLink
 repository: 
-issue: 
 icon: com.wallet.burtarapp.png
 bugbounty: 
 meta: removed

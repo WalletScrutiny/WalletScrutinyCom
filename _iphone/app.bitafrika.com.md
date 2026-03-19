@@ -13,7 +13,6 @@ version: 4.2.0
 reviews: 635
 website: https://bitafrika.com/contact
 repository: 
-issue: 
 icon: app.bitafrika.com.jpg
 bugbounty: 
 meta: removed

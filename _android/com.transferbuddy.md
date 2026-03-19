@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://transferbuddy.org#deadLink
 repository: 
-issue: 
 icon: com.transferbuddy.png
 bugbounty: 
 meta: removed

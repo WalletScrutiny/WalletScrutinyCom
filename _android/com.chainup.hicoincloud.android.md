@@ -13,7 +13,6 @@ version: 6.10.3
 reviews: 
 website: https://custody.chainup.com/
 repository: 
-issue: 
 icon: com.chainup.hicoincloud.android.png
 bugbounty: 
 meta: ok

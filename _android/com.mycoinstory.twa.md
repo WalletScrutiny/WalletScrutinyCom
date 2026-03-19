@@ -12,7 +12,6 @@ version: '2'
 reviews: 
 website: https://mycoinstory.com
 repository: 
-issue: 
 icon: com.mycoinstory.twa.png
 bugbounty: 
 meta: removed

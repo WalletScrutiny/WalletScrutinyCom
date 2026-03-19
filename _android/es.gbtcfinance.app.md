@@ -13,7 +13,6 @@ version: '1.16'
 reviews: 
 website: https://gbtcfinance.com/
 repository: 
-issue: 
 icon: es.gbtcfinance.app.png
 bugbounty: 
 meta: ok

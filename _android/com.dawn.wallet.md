@@ -12,7 +12,6 @@ version: 3.0.2
 reviews: 
 website: https://dawn.org
 repository: 
-issue: 
 icon: com.dawn.wallet.png
 bugbounty: 
 meta: removed

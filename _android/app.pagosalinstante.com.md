@@ -13,7 +13,6 @@ version: 1.08.1102
 reviews: 41
 website: https://paiexchange.com
 repository: 
-issue: 
 icon: app.pagosalinstante.com.png
 bugbounty: 
 meta: ok

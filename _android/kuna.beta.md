@@ -13,7 +13,6 @@ version: 2.1.1891
 reviews: 15
 website: https://kuna.io/
 repository: 
-issue: 
 icon: kuna.beta.png
 bugbounty: 
 meta: removed

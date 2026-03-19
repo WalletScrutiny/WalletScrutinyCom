@@ -12,7 +12,6 @@ version: v1.0.4
 reviews: 
 website: https://ciclex.com
 repository: 
-issue: 
 icon: com.ciclex.app.png
 bugbounty: 
 meta: removed

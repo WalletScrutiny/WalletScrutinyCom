@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 
 website: https://m.excoin.cloud#deadLink
 repository: 
-issue: 
 icon: app.excoin.com.png
 bugbounty: 
 meta: removed

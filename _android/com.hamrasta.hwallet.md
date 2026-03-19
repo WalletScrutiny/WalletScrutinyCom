@@ -13,7 +13,6 @@ version: '2.7'
 reviews: 7
 website: https://hamrasta.com/hamrastamarket#deadLink
 repository: 
-issue: 
 icon: com.hamrasta.hwallet.png
 bugbounty: 
 meta: removed

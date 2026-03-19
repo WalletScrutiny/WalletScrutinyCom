@@ -12,7 +12,6 @@ version: 2.7.00
 reviews: 
 website: https://wallet.wallex.global/
 repository: 
-issue: 
 icon: com.wallex.app.png
 bugbounty: 
 meta: removed

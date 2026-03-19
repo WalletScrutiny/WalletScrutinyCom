@@ -21,7 +21,6 @@ shop: https://salletone.com/?r=front/product&S_ID=20210520114827&ID=994
 country: CN
 price: 100USD
 repository: https://github.com/SalletOne/sallet-one-cold
-issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
 meta: defunct
@@ -101,3 +100,5 @@ instructions. Together with the lack of actual product pictures or videos, the
 code being only two commits, the companion apps not having many users/ratings
 and the rather lacking documentation we have little hope for this product to be
 very interesting but for now simply consider it as **not verifiable**.
+
+An issue has been opened at [https://github.com/SalletOne/sallet-one-cold/issues/6](https://github.com/SalletOne/sallet-one-cold/issues/6)

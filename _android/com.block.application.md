@@ -13,7 +13,6 @@ version: 2.4.40
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.block.application.png
 bugbounty: 
 meta: obsolete

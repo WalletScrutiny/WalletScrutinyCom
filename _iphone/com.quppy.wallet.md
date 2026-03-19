@@ -13,7 +13,6 @@ version: 2.0.145
 reviews: 3
 website: https://quppy.com
 repository: 
-issue: 
 icon: com.quppy.wallet.jpg
 bugbounty: 
 meta: ok

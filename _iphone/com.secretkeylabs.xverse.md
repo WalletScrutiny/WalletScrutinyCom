@@ -13,7 +13,6 @@ version: v1.60.0
 reviews: 1
 website: https://twitter.com/xverse
 repository: 
-issue: 
 icon: com.secretkeylabs.xverse.jpg
 bugbounty: 
 meta: ok

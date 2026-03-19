@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 2
 website: https://meta-exchange.vision/home#deadLink
 repository: https://github.com/META-1-Official/litewallet-native#deadLink
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500
 icon: io.meta1.appbeta.png
 bugbounty: 
 meta: removed
@@ -59,4 +58,6 @@ features:
   - Followed up on April 17, 2024
   - [Tweeted](https://x.com/dannybuntu/status/1805812717602881767) on June 26, 2024
 - Meanwhile, the Google Play version is already 2.0.3, while the latest version on GitHub is 2.0, updated in 2022.
-- At this point we will have to mark this app as **not source-available**.    
+- At this point we will have to mark this app as **not source-available**.
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500)

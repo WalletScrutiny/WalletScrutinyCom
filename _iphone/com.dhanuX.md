@@ -13,7 +13,6 @@ version: 1.6.1
 reviews: 0
 website: https://web.archive.org/web/20231129221500/https://www.dhanux.com:443/
 repository: 
-issue: 
 icon: com.dhanuX.jpg
 bugbounty: 
 meta: removed

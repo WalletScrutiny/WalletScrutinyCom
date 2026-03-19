@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://web.archive.org/web/20240722011202/https://vrontonode.org/
 repository: 
-issue: 
 icon: org.vrontonode.wallet.png
 bugbounty: 
 meta: removed

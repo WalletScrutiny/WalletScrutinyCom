@@ -13,7 +13,6 @@ version: 3.4.0
 reviews: 0
 website: https://metavest.app/affiliate
 repository: 
-issue: 
 icon: app.metavest.client.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.44'
 reviews: 1278
 website: https://www.revolut.com/revolut-x/
 repository: 
-issue: 
 icon: com.revolut.revolutx.jpg
 bugbounty: 
 meta: ok

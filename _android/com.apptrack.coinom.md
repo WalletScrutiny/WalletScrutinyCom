@@ -14,7 +14,6 @@ version: 1.0.12
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.apptrack.coinom.png
 bugbounty: 
 meta: removed

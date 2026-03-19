@@ -13,7 +13,6 @@ version: 1.51.10
 reviews: 0
 website: https://trusteeglobal.com/
 repository: 
-issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 2.00.43
 reviews: 
 website: https://www.getbit.money
 repository: 
-issue: 
 icon: com.getbitmoney.getbit.png
 bugbounty: 
 meta: ok

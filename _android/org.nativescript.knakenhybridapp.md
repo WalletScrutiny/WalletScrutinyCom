@@ -13,7 +13,6 @@ version: 3.0.1
 reviews: 
 website: https://knaken.eu/
 repository: 
-issue: 
 icon: org.nativescript.knakenhybridapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 3.0.18
 reviews: 
 website: https://quantia.io
 repository: 
-issue: 
 icon: com.quantiamobile.png
 bugbounty: 
 meta: ok

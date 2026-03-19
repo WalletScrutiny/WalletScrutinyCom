@@ -13,7 +13,6 @@ version: 4.4.90
 reviews: 48
 website: https://www.matrixport.com
 repository: 
-issue: 
 icon: com.matrixport.mark.jpg
 bugbounty: 
 meta: ok

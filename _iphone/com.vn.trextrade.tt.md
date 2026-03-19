@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 1
 website: http://m.trexfx.com#deadLink
 repository: 
-issue: 
 icon: com.vn.trextrade.tt.jpg
 bugbounty: 
 meta: removed

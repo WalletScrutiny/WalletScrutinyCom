@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://exchange.citifymarketplace.com/
 repository: 
-issue: 
 icon: com.citify.crypto.exchange.png
 bugbounty: 
 meta: removed

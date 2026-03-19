@@ -14,7 +14,6 @@ version: '1.13'
 reviews: 138
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios
-issue: 
 icon: co.hodlwallet.jpg
 bugbounty: 
 meta: removed

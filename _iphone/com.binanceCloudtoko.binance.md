@@ -14,7 +14,6 @@ version: 1.10.0
 reviews: 1
 website: https://www.tokocrypto.com
 repository: 
-issue: 
 icon: com.binanceCloudtoko.binance.jpg
 bugbounty: 
 meta: removed

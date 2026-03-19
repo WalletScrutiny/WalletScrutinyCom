@@ -13,7 +13,6 @@ version: 3.19.0
 reviews: 25168
 website: https://www.bitpanda.com/app
 repository: 
-issue: 
 icon: com.bitpanda.bitpanda.jpg
 bugbounty: 
 meta: ok

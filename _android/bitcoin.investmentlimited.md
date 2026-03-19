@@ -13,7 +13,6 @@ version: '9.0'
 reviews: 46
 website: http://www.forexsignals99.com#deadLink
 repository: 
-issue: 
 icon: bitcoin.investmentlimited.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '0.7'
 reviews: 
 website: http://letknow.com
 repository: 
-issue: 
 icon: news.letknow.png
 bugbounty: 
 meta: removed

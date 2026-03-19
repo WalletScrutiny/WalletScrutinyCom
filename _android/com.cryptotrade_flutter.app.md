@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://mobterest.com#deadLink
 repository: 
-issue: 
 icon: com.cryptotrade_flutter.app.png
 bugbounty: 
 meta: removed

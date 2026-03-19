@@ -13,7 +13,6 @@ version: 2.3.3
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.exchange.wethio.io.png
 bugbounty: 
 meta: removed

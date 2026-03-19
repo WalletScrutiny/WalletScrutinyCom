@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://dmexchange.com
 repository: 
-issue: 
 icon: com.exchangedm.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.0.11
 reviews: 
 website: https://coinfinity.co/
 repository: 
-issue: 
 icon: co.coinfinity.coinfinity.mobile.png
 bugbounty: 
 meta: ok

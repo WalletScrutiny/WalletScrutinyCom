@@ -13,7 +13,6 @@ version: 1.3.7
 reviews: 6
 website: https://pocketbits.in/
 repository: 
-issue: 
 icon: com.pocketbits.png
 bugbounty: 
 meta: obsolete

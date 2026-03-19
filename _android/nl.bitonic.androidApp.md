@@ -13,7 +13,6 @@ version: 3.22.1
 reviews: 
 website: https://bitonic.nl
 repository: 
-issue: 
 icon: nl.bitonic.androidApp.jpg
 bugbounty: 
 meta: ok

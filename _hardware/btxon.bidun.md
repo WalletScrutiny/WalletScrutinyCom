@@ -20,7 +20,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: btxon.bidun.png
 bugbounty: 
 meta: ok

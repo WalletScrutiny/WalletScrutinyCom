@@ -13,7 +13,6 @@ version: 0.1.7
 reviews: 4
 website: https://satoshipayments.company
 repository: 
-issue: 
 icon: company.satoshipayments.png
 bugbounty: 
 meta: removed

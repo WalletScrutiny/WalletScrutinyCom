@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 0
 website: https://mchange.net
 repository: 
-issue: 
 icon: com.xchange.mchange.jpg
 bugbounty: 
 meta: removed

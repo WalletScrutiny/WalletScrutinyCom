@@ -13,7 +13,6 @@ version: 1.7.11
 reviews: 18
 website: https://unisat.io/
 repository: 
-issue: 
 icon: io.unisat.png
 bugbounty: 
 meta: ok

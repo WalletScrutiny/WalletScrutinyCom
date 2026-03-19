@@ -20,7 +20,6 @@ shop: https://walahala.com/Products#deadLink
 country: EE
 price: 149USDT
 repository: 
-issue: 
 icon: walahala.png
 bugbounty: 
 meta: ok

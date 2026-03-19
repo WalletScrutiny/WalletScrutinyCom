@@ -13,7 +13,6 @@ version: '3.30'
 reviews: 2
 website: https://www.e-pocketexchange.com/
 repository: 
-issue: 
 icon: w3axis.com.epocket.png
 bugbounty: 
 meta: ok

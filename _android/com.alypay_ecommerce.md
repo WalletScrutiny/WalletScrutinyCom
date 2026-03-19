@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.alypay_ecommerce.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.1.3
 reviews: 
 website: https://satoshipoint.io
 repository: https://github.com/SatoshiWallet/ui
-issue: 
 icon: co.satoshiwallet.app.png
 bugbounty: 
 meta: removed

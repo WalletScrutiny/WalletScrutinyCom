@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: https://bixter.org/
 repository: 
-issue: 
 icon: org.bixter.twa.png
 bugbounty: 
 meta: removed

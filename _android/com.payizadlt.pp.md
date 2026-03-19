@@ -13,7 +13,6 @@ version: '8.0'
 reviews: 
 website: https://payizadlt.com/
 repository: 
-issue: 
 icon: com.payizadlt.pp.png
 bugbounty: 
 meta: removed

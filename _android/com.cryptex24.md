@@ -13,7 +13,6 @@ version: 2.16.0
 reviews: 
 website: https://www.cryptex24.io#deadLink
 repository: 
-issue: 
 icon: com.cryptex24.png
 bugbounty: 
 meta: removed

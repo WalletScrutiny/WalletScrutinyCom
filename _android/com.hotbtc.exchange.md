@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 19
 website: 
 repository: 
-issue: 
 icon: com.hotbtc.exchange.png
 bugbounty: 
 meta: removed

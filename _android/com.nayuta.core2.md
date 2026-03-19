@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://nayuta.co/nayuta-wallet-2022/
 repository: https://github.com/nayutaco/NayutaWalletApp
-issue: https://github.com/nayutaco/NayutaWalletApp/pull/2/files
 icon: com.nayuta.core2.png
 bugbounty: 
 meta: removed
@@ -63,3 +62,5 @@ Their [GitHub repository](https://github.com/nayutaco/NayutaWalletApp/blob/andro
 The provider has disabled public access for the Issue tracker in their repository. There are also no build instructions for the Android app. In order to make a suggestion for them, we forked their repository and created a [pull request](https://github.com/nayutaco/NayutaWalletApp/pull/2/files) instead of an issue.
 
 Until such time this is addressed, this app should be considered as **not source-available**.
+
+An issue has been opened at [https://github.com/nayutaco/NayutaWalletApp/pull/2/files](https://github.com/nayutaco/NayutaWalletApp/pull/2/files)

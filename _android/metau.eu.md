@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: metau.eu.png
 bugbounty: 
 meta: removed

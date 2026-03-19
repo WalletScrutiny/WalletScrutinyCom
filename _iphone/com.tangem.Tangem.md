@@ -13,7 +13,6 @@ version: 5.32.1
 reviews: 20226
 website: 
 repository: 
-issue: 
 icon: com.tangem.Tangem.jpg
 bugbounty: 
 meta: ok

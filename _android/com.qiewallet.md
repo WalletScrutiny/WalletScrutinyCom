@@ -12,7 +12,6 @@ version: 0.3.57
 reviews: 
 website: https://qiewallet.qiblockchain.online/
 repository: 
-issue: 
 icon: com.qiewallet.png
 bugbounty: 
 meta: ok

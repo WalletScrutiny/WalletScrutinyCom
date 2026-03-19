@@ -12,7 +12,6 @@ version: 1.3.7
 reviews: 173
 website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven
-issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
 meta: removed
@@ -147,3 +146,5 @@ BUILD FAILED in 4m 14s
 ```
 
 At this point we give up and give the verdict **not verifiable**.
+
+An issue has been opened at [https://github.com/OpenBazaar/haven/issues/3](https://github.com/OpenBazaar/haven/issues/3)

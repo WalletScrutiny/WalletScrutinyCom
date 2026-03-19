@@ -12,7 +12,6 @@ version: 0.16.1
 reviews: 
 website: https://indexchain.org#deadLink
 repository: 
-issue: 
 icon: io.horizontalsystems.indexwallet.png
 bugbounty: 
 meta: removed

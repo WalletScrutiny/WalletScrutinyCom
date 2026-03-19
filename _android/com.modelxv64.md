@@ -13,7 +13,6 @@ version: 1.6.9
 reviews: 
 website: https://www.stratum.hk/
 repository: 
-issue: 
 icon: com.modelxv64.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tusker.bytexio.png
 bugbounty: 
 meta: removed

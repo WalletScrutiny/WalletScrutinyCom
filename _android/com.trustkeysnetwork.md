@@ -13,7 +13,6 @@ version: 2.4.3
 reviews: 25
 website: https://trustkeys.network
 repository: 
-issue: 
 icon: com.trustkeysnetwork.png
 bugbounty: 
 meta: stale

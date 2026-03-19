@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://genesisblockhk.com/
 repository: 
-issue: 
 icon: com.gbotc.png
 bugbounty: 
 meta: removed

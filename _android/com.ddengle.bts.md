@@ -13,7 +13,6 @@ version: 1.1.9
 reviews: 
 website: https://www.youbit.co.kr
 repository: 
-issue: 
 icon: com.ddengle.bts.png
 bugbounty: 
 meta: removed

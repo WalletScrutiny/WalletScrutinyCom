@@ -13,7 +13,6 @@ version: 3.4.0
 reviews: 11
 website: https://www.coinmena.com/
 repository: 
-issue: 
 icon: com.coinmena.coinmenaapp.jpg
 bugbounty: 
 meta: ok

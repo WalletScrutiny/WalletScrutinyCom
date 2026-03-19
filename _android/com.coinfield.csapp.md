@@ -13,7 +13,6 @@ version: 3.1.5
 reviews: 118
 website: http://www.coinfield.com
 repository: 
-issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
 meta: removed

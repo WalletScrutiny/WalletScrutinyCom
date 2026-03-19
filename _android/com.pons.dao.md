@@ -13,7 +13,6 @@ version: 1.0.0.20
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.pons.dao.jpg
 bugbounty: 
 meta: removed

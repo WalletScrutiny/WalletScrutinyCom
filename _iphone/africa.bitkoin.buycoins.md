@@ -13,7 +13,6 @@ version: 5.6.0
 reviews: 46
 website: https://buycoins.africa
 repository: 
-issue: 
 icon: africa.bitkoin.buycoins.jpg
 bugbounty: 
 meta: removed

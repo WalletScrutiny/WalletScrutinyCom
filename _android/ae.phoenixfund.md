@@ -13,7 +13,6 @@ version: 1.1.4
 reviews: 
 website: https://plana.ae
 repository: 
-issue: 
 icon: ae.phoenixfund.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.55
 reviews: 
 website: https://www.btcdex.app/bitcoin/faq#contact
 repository: 
-issue: 
 icon: com.btcdex.app.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.OnlineBusness.b4uglobal.png
 bugbounty: 
 meta: removed

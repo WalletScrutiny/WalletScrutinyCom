@@ -21,7 +21,6 @@ shop: https://tangem.com/en/pricing/
 country: CH
 price: 54.9
 repository: 
-issue: 
 icon: tangem.png
 bugbounty: 
 meta: ok

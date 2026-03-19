@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 31
 website: 
 repository: 
-issue: 
 icon: com.bitcoinmining.android786.png
 bugbounty: 
 meta: removed

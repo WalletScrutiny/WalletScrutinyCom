@@ -12,7 +12,6 @@ version: '0.6'
 reviews: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 
-issue: 
 icon: com.molnike.crypto.seed.png
 bugbounty: 
 meta: obsolete

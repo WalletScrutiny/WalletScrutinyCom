@@ -12,7 +12,6 @@ provider: Coin Wallet
 providerWebsite: 
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
-issue: 
 icon: coinwallet.png
 bugbounty: 
 meta: ok

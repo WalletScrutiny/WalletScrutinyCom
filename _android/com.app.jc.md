@@ -13,7 +13,6 @@ version: 3.3.11
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: com.app.jc.png
 bugbounty: 
 meta: ok

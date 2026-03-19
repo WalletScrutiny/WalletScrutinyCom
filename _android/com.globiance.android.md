@@ -13,7 +13,6 @@ version: '2.07'
 reviews: 45
 website: https://globiance.com
 repository: 
-issue: 
 icon: com.globiance.android.png
 bugbounty: 
 meta: removed

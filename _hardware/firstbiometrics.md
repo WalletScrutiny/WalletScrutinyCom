@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: firstbiometrics.png
 bugbounty: 
 meta: stale

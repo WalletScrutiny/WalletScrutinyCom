@@ -13,7 +13,6 @@ version: 3.7.0
 reviews: 58
 website: https://ompfinex.com
 repository: 
-issue: 
 icon: com.ompfinex.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '4'
 reviews: 
 website: https://planetabank.com.br#deadLink
 repository: 
-issue: 
 icon: com.gmail.planetabank1.myproject.jpg
 bugbounty: 
 meta: removed

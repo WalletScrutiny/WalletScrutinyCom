@@ -13,7 +13,6 @@ version: 1.11.0
 reviews: 
 website: https://coincollect.cc/
 repository: 
-issue: 
 icon: com.coincollect.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: http://www.gifatoken.com
 repository: 
-issue: 
 icon: com.gifa.app.png
 bugbounty: 
 meta: removed

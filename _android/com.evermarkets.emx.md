@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://www.emx.com#deadLink
 repository: 
-issue: 
 icon: com.evermarkets.emx.png
 bugbounty: 
 meta: removed

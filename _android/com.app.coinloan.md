@@ -13,7 +13,6 @@ version: 1.7.7
 reviews: 79
 website: https://coinloan.io/
 repository: 
-issue: 
 icon: com.app.coinloan.png
 bugbounty: 
 meta: removed

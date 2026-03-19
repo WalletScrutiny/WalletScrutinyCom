@@ -13,7 +13,6 @@ version: '18.0'
 reviews: 15
 website: https://softnote.com
 repository: 
-issue: 
 icon: com.softnote.wallet.jpg
 bugbounty: 
 meta: ok

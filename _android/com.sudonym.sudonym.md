@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://sudonym.app#deadLink
 repository: 
-issue: 
 icon: com.sudonym.sudonym.png
 bugbounty: 
 meta: removed

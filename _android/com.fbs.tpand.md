@@ -13,7 +13,6 @@ version: 1.58.6
 reviews: 78
 website: https://fbs.com/
 repository: 
-issue: 
 icon: com.fbs.tpand.png
 bugbounty: 
 meta: removed

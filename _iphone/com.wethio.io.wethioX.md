@@ -13,7 +13,6 @@ version: 3.0.6
 reviews: 4
 website: https://www.wethiox.io/landing
 repository: 
-issue: 
 icon: com.wethio.io.wethioX.jpg
 bugbounty: 
 meta: obsolete

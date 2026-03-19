@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://opermizer.zone
 repository: 
-issue: 
 icon: com.opi.optimizer.png
 bugbounty: 
 meta: obsolete

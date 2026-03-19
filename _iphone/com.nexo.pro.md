@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.nexo.pro.jpg
 bugbounty: 
 meta: removed

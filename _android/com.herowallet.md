@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://purchasa.com/
 repository: 
-issue: 
 icon: com.herowallet.png
 bugbounty: 
 meta: removed

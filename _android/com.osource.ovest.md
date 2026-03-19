@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://myovest.com#deadLink
 repository: 
-issue: 
 icon: com.osource.ovest.png
 bugbounty: 
 meta: removed

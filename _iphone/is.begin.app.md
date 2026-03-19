@@ -13,7 +13,6 @@ version: 2.4.1
 reviews: 12
 website: https://begin.is
 repository: 
-issue: 
 icon: is.begin.app.jpg
 bugbounty: 
 meta: ok

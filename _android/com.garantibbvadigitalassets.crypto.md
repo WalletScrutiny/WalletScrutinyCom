@@ -13,7 +13,6 @@ version: 1.13.1
 reviews: 3
 website: https://www.garantibbvakripto.com.tr
 repository: 
-issue: 
 icon: com.garantibbvadigitalassets.crypto.png
 bugbounty: 
 meta: ok

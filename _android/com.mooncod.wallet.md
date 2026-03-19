@@ -12,7 +12,6 @@ version: 7.0.1
 reviews: 
 website: https://mooncod.com
 repository: 
-issue: 
 icon: com.mooncod.wallet.png
 bugbounty: 
 meta: removed

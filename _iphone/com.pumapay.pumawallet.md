@@ -13,7 +13,6 @@ version: '2.102'
 reviews: 17
 website: https://pumapay.io
 repository: 
-issue: 
 icon: com.pumapay.pumawallet.jpg
 bugbounty: 
 meta: removed

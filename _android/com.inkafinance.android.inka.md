@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://inka.finance#deadLink
 repository: 
-issue: 
 icon: com.inkafinance.android.inka.png
 bugbounty: 
 meta: removed

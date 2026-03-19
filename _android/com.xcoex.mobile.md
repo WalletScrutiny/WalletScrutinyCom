@@ -13,7 +13,6 @@ version: 1.44.0
 reviews: 6
 website: https://xcoex.com/
 repository: 
-issue: 
 icon: com.xcoex.mobile.png
 bugbounty: 
 meta: removed

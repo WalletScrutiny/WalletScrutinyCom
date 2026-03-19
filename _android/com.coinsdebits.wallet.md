@@ -12,7 +12,6 @@ version: 0.0.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.coinsdebits.wallet.png
 bugbounty: 
 meta: removed

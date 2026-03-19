@@ -13,7 +13,6 @@ version: 2.0.21
 reviews: 17
 website: https://tokenize.exchange/
 repository: 
-issue: 
 icon: com.tokenize.exchange.tradingapp.png
 bugbounty: 
 meta: removed

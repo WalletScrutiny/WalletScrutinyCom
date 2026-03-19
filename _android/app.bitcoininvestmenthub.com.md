@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 4
 website: https://bitcoininvestmenthub.com/
 repository: 
-issue: 
 icon: app.bitcoininvestmenthub.com.png
 bugbounty: 
 meta: removed

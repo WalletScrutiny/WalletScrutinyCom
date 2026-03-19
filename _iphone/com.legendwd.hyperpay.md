@@ -13,7 +13,6 @@ version: 5.6.160900
 reviews: 131
 website: https://hyperpay.tech
 repository: 
-issue: 
 icon: com.legendwd.hyperpay.jpg
 bugbounty: 
 meta: defunct

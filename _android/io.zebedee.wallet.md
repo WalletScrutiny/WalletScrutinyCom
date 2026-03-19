@@ -13,7 +13,6 @@ version: 4.28.0
 reviews: 9664
 website: https://zbd.gg/z/support
 repository: 
-issue: 
 icon: io.zebedee.wallet.png
 bugbounty: 
 meta: ok

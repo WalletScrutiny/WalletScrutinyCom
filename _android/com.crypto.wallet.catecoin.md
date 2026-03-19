@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 45
 website: https://catecoin.club
 repository: 
-issue: 
 icon: com.crypto.wallet.catecoin.png
 bugbounty: 
 meta: removed

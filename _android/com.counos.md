@@ -13,7 +13,6 @@ version: 1.9.94
 reviews: 21
 website: https://www.counos.io
 repository: 
-issue: 
 icon: com.counos.png
 bugbounty: 
 meta: removed

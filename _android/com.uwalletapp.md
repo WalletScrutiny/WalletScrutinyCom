@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 58
 website: https://utrust.com
 repository: 
-issue: 
 icon: com.uwalletapp.png
 bugbounty: 
 meta: removed

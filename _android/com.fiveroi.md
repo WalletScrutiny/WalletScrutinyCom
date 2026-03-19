@@ -13,7 +13,6 @@ version: 4.3.4
 reviews: 24
 website: https://www.5roi.com#deadLink
 repository: 
-issue: 
 icon: com.fiveroi.png
 bugbounty: 
 meta: removed

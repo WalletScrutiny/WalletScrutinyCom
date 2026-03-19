@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 
 website: https://unionex.com/
 repository: 
-issue: 
 icon: com.unionex.exchange.png
 bugbounty: 
 meta: ok

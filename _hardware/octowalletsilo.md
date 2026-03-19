@@ -20,7 +20,6 @@ shop: https://shop.octowallet.com#deadLink
 country: AU
 price: 
 repository: 
-issue: 
 icon: octowalletsilo.png
 bugbounty: 
 meta: defunct

@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 107
 website: 
 repository: 
-issue: 
 icon: com.patriciauniverse.app.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: http://cyclebit.io
 repository: 
-issue: 
 icon: io.cyclebit.wallet.png
 bugbounty: 
 meta: removed

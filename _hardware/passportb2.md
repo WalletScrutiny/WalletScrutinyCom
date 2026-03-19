@@ -24,7 +24,6 @@ shop: https://foundationdevices.com/passport/
 country: US
 price: 199USD
 repository: https://github.com/Foundation-Devices/passport2
-issue: 
 icon: passportb2.png
 bugbounty: https://foundationdevices.com/security/
 meta: ok

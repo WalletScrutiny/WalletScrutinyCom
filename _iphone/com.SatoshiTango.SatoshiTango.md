@@ -14,7 +14,6 @@ version: 5.11.0
 reviews: 2
 website: https://www.satoshitango.com/
 repository: 
-issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.0.213
 reviews: 347
 website: https://bitpie.com
 repository: 
-issue: 
 icon: com.bitpie.wallet.jpg
 bugbounty: 
 meta: ok

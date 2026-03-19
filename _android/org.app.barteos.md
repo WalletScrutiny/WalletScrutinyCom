@@ -12,7 +12,6 @@ version: 1.0.16
 reviews: 
 website: https://barteos.org
 repository: 
-issue: 
 icon: org.app.barteos.png
 bugbounty: 
 meta: stale

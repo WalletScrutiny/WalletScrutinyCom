@@ -12,7 +12,6 @@ version: 1.0.17
 reviews: 
 website: https://www.bitaroo.nz
 repository: 
-issue: 
 icon: nz.bitaroo.buy.png
 bugbounty: 
 meta: removed

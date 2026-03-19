@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 0
 website: http://www.infipay.io/
 repository: 
-issue: 
 icon: com.antier.infipay.jpg
 bugbounty: 
 meta: removed

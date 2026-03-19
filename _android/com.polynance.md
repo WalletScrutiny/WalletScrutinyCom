@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://www.polynance.com#deadLink
 repository: 
-issue: 
 icon: com.polynance.jpg
 bugbounty: 
 meta: removed

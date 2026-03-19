@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: https://web.archive.org/web/20250411071812/https://copy.tiger.trade/
 repository: 
-issue: 
 icon: trade.tiger.copytrading.png
 bugbounty: 
 meta: removed

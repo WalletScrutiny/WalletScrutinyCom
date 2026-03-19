@@ -13,7 +13,6 @@ version: 4.0.12
 reviews: 
 website: https://capecrypto.com
 repository: 
-issue: 
 icon: com.capecrypto.png
 bugbounty: 
 meta: ok

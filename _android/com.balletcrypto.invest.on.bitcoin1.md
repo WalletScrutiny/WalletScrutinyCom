@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.balletcrypto.invest.on.bitcoin1.jpg
 bugbounty: 
 meta: removed

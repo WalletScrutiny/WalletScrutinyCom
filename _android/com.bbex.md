@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://www.bluebelt.asia/
 repository: 
-issue: 
 icon: com.bbex.png
 bugbounty: 
 meta: removed

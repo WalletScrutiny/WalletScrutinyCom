@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.eliex.andrapp.png
 bugbounty: 
 meta: removed

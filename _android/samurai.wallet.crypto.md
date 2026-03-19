@@ -14,7 +14,6 @@ version: '9.8'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: samurai.wallet.crypto.png
 bugbounty: 
 meta: removed

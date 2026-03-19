@@ -14,7 +14,6 @@ version: 6.0.2
 reviews: 644
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.cakewallet.cake_wallet.png
 bugbounty: 
 meta: ok
@@ -62,3 +61,5 @@ Cake Wallet is a non-custodial, open-source cryptocurrency wallet available on A
 {% include featureEvidence.html feature="coinCtrl" quote="Bitcoin coin control (specify specific outputs to spend)" source="GitHub README" %}
 
 {% include featureEvidence.html feature="multiSig" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/cake-tech/cake_wallet/issues/337](https://github.com/cake-tech/cake_wallet/issues/337)

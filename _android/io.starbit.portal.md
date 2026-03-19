@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: https://home.star-bit.io
 repository: 
-issue: 
 icon: io.starbit.portal.png
 bugbounty: 
 meta: removed

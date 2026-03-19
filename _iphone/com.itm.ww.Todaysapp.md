@@ -12,7 +12,6 @@ version: '2'
 reviews: 1
 website: http://wampum1st.com#deadLink
 repository: 
-issue: 
 icon: com.itm.ww.Todaysapp.jpg
 bugbounty: 
 meta: obsolete

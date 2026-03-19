@@ -21,7 +21,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: keywallettouch.png
 bugbounty: 
 meta: ok

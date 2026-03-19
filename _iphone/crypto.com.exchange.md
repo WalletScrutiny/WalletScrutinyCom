@@ -14,7 +14,6 @@ version: 2.76.2
 reviews: 110
 website: https://crypto.com/exchange
 repository: 
-issue: 
 icon: crypto.com.exchange.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 26.3.8
 reviews: 14
 website: https://www.ig.com
 repository: 
-issue: 
 icon: com.iggroup.android.cfd.png
 bugbounty: 
 meta: ok

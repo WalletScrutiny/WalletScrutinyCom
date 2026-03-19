@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 
 website: https://www.coinhub.africa#deadLink
 repository: 
-issue: 
 icon: africa.coinhub.coinhubapp.png
 bugbounty: 
 meta: removed

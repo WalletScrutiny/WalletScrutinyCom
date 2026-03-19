@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: http://www.mob1apps.com#deadLink
 repository: 
-issue: 
 icon: com.appsquest.tionchuantung.iqc.png
 bugbounty: 
 meta: removed

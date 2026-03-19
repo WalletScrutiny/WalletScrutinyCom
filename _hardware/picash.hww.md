@@ -20,7 +20,6 @@ shop:
 country: UK
 price: 24.99 EUR
 repository: 
-issue: 
 icon: picash.hww.png
 bugbounty: 
 meta: ok

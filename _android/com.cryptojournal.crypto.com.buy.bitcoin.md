@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
 bugbounty: 
 meta: removed

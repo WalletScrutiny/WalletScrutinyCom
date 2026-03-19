@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: hardbit.png
 bugbounty: 
 meta: defunct

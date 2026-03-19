@@ -13,7 +13,6 @@ version: 1.0.962
 reviews: 180
 website: https://ncwallet.net/
 repository: 
-issue: 
 icon: com.ncwallet.jpg
 bugbounty: 
 meta: ok

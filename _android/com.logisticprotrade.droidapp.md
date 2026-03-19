@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://logisticprotrade.com#deadLink
 repository: 
-issue: 
 icon: com.logisticprotrade.droidapp.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 4
 website: http://www.bityard.com
 repository: 
-issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://fmx.trade
 repository: 
-issue: 
 icon: fmx.trade.cryptocurrency.exchange.finance.png
 bugbounty: 
 meta: removed

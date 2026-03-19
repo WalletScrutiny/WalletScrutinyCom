@@ -13,7 +13,6 @@ version: 2.5.8
 reviews: 
 website: https://www.unodax.com
 repository: 
-issue: 
 icon: com.unodax.exchange.png
 bugbounty: 
 meta: removed

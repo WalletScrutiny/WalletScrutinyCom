@@ -12,7 +12,6 @@ version: 1.1.8
 reviews: 
 website: https://www.turinlabs.com/turinwallet#deadLink
 repository: 
-issue: 
 icon: com.turinlabs.wallet.png
 bugbounty: 
 meta: removed

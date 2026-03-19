@@ -17,7 +17,6 @@ shop:
 country: 
 price: 29.9USD
 repository: 
-issue: 
 icon: vexblock.nano.png
 bugbounty: 
 meta: defunct

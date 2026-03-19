@@ -14,7 +14,6 @@ version: 2.12.3
 reviews: 10
 website: https://onekey.so
 repository: 
-issue: https://github.com/OneKeyHQ/android_app/issues/1#deadLink
 icon: com.bixin.wallet.mainnet.png
 bugbounty: 
 meta: removed
@@ -70,3 +69,4 @@ The first options were to Create or Restore a wallet. If you select 'Create' you
 
 This app is evidently **self-custodial**. The repository only contains *one commit* from March 26, 2021 and the Google Play app has last been updated on June 29, 2021. Due to **missing sources,** we conclude that this app is **not verifiable.**
 
+An issue has been opened at [https://github.com/OneKeyHQ/android_app/issues/1#deadLink](https://github.com/OneKeyHQ/android_app/issues/1#deadLink)

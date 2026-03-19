@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 
 website: https://freedx.com/
 repository: 
-issue: 
 icon: com.app.freedx.prod.png
 bugbounty: 
 meta: ok

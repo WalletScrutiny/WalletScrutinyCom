@@ -13,7 +13,6 @@ version: 1.4.165
 reviews: 3011
 website: https://www.amarkets.com/
 repository: 
-issue: 
 icon: amarkets.app.jpg
 bugbounty: 
 meta: defunct

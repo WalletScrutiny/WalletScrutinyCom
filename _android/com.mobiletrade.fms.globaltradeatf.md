@@ -13,7 +13,6 @@ version: 1.5.78-mobiletrade.fms.globaltradeatf
 reviews: 318
 website: https://global.tradeatf.com#deadLink
 repository: 
-issue: 
 icon: com.mobiletrade.fms.globaltradeatf.png
 bugbounty: 
 meta: removed

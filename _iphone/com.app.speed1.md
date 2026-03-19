@@ -13,7 +13,6 @@ version: 1.13.12
 reviews: 1051
 website: https://www.speed.app/
 repository: 
-issue: 
 icon: com.app.speed1.jpg
 bugbounty: 
 meta: ok

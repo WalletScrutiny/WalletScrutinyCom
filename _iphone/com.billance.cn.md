@@ -13,7 +13,6 @@ version: 4.3.0
 reviews: 50
 website: 
 repository: 
-issue: 
 icon: com.billance.cn.jpg
 bugbounty: 
 meta: ok

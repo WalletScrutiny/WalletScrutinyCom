@@ -12,7 +12,6 @@ version: '2.2'
 reviews: 
 website: https://splishpay.com/
 repository: 
-issue: 
 icon: com.splishpay.png
 bugbounty: 
 meta: removed

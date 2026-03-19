@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.joybit.io/#&deadLink
 repository: 
-issue: 
 icon: io.bilian.contract.joybit.png
 bugbounty: 
 meta: removed

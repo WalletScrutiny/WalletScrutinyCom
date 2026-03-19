@@ -12,7 +12,6 @@ version: 3.3.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.probe.wallet.png
 bugbounty: 
 meta: removed

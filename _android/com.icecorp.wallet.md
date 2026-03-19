@@ -13,7 +13,6 @@ version: '2.8'
 reviews: 
 website: https://www.icewal.com/
 repository: 
-issue: 
 icon: com.icecorp.wallet.png
 bugbounty: 
 meta: stale

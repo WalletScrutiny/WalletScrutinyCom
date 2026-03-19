@@ -12,7 +12,6 @@ version: 4.23.0
 reviews: 
 website: https://cryptobaseatm.com
 repository: 
-issue: 
 icon: com.cryptobasewallet.app.png
 bugbounty: 
 meta: removed

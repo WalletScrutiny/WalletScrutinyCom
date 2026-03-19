@@ -13,7 +13,6 @@ version: 3.0.0-dreambit
 reviews: 9
 website: http://www.dreambit.com
 repository: 
-issue: 
 icon: com.dreambit.png
 bugbounty: 
 meta: removed

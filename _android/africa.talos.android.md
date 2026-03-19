@@ -13,7 +13,6 @@ version: 2.2.5
 reviews: 
 website: https://talos.africa#deadLink
 repository: 
-issue: 
 icon: africa.talos.android.png
 bugbounty: 
 meta: removed

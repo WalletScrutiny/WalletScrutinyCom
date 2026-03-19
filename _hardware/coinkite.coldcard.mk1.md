@@ -17,7 +17,6 @@ shop:
 country: CA
 price: 49.99USD
 repository: https://github.com/Coldcard/firmware
-issue: 
 icon: coinkite.coldcard.mk1.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued

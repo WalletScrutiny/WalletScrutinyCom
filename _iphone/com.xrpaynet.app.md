@@ -13,7 +13,6 @@ version: 5.0.5+377
 reviews: 30
 website: https://xrpaynet.com
 repository: 
-issue: 
 icon: com.xrpaynet.app.jpg
 bugbounty: 
 meta: ok

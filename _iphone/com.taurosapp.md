@@ -13,7 +13,6 @@ version: 9.6.4
 reviews: 182
 website: 
 repository: 
-issue: 
 icon: com.taurosapp.jpg
 bugbounty: 
 meta: removed

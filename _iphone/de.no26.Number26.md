@@ -13,7 +13,6 @@ version: '4.43'
 reviews: 11018
 website: https://n26.com/en-eu?utm_source=appstore&utm_medium=description
 repository: 
-issue: 
 icon: de.no26.Number26.jpg
 bugbounty: 
 meta: ok

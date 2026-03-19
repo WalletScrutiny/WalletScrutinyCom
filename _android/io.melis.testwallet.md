@@ -12,7 +12,6 @@ version: 1.7.1
 reviews: 
 website: https://www.melis.io
 repository: 
-issue: 
 icon: io.melis.testwallet.png
 bugbounty: 
 meta: removed

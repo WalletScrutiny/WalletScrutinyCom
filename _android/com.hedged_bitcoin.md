@@ -13,7 +13,6 @@ version: 0.7.0
 reviews: 2
 website: https://hedgedbitcoin.com
 repository: 
-issue: 
 icon: com.hedged_bitcoin.png
 bugbounty: 
 meta: removed

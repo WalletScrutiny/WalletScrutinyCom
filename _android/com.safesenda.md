@@ -12,7 +12,6 @@ version: 1.1.10
 reviews: 
 website: https://safesenda.com
 repository: 
-issue: 
 icon: com.safesenda.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '7.0'
 reviews: 
 website: https://meeyinvest.com
 repository: 
-issue: 
 icon: com.org.meeyinvest.png
 bugbounty: 
 meta: removed

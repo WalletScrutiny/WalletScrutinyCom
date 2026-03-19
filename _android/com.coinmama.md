@@ -13,7 +13,6 @@ version: 1.03.02
 reviews: 18
 website: https://www.coinmama.com/
 repository: 
-issue: 
 icon: com.coinmama.png
 bugbounty: 
 meta: removed

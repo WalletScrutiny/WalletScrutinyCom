@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.swiftxchange.com.ng#deadLink
 repository: 
-issue: 
 icon: com.tradedigitals.swiftxchange.png
 bugbounty: 
 meta: removed

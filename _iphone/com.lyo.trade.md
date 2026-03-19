@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 0
 website: https://www.lyotrade.com/
 repository: 
-issue: 
 icon: com.lyo.trade.jpg
 bugbounty: 
 meta: removed

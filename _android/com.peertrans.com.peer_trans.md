@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://peertrans.com#deadLink
 repository: 
-issue: 
 icon: com.peertrans.com.peer_trans.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 4
 website: https://www.sac-mine.vip#deadLink
 repository: 
-issue: 
 icon: com.cspmine.jpg
 bugbounty: 
 meta: removed

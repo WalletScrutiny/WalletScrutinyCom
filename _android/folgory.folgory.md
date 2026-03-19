@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 14
 website: https://folgory.com#deadLink
 repository: 
-issue: 
 icon: folgory.folgory.png
 bugbounty: 
 meta: removed

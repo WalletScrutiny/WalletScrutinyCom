@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/frostsnap/frostsnap
-issue: 
 icon: frostsnap.png
 bugbounty: 
 meta: ok

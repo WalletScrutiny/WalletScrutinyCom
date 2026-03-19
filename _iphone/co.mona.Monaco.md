@@ -13,7 +13,6 @@ version: '3.229'
 reviews: 325125
 website: https://crypto.com/
 repository: 
-issue: 
 icon: co.mona.Monaco.jpg
 bugbounty: 
 meta: ok

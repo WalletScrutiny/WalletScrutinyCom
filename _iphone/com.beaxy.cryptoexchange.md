@@ -13,7 +13,6 @@ version: '2.10'
 reviews: 74
 website: https://www.beaxy.com/
 repository: 
-issue: 
 icon: com.beaxy.cryptoexchange.jpg
 bugbounty: 
 meta: removed

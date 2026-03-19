@@ -13,7 +13,6 @@ version: 8.23.2
 reviews: 31
 website: https://www.paymium.com/
 repository: 
-issue: 
 icon: com.paymium.mobile.jpg
 bugbounty: 
 meta: ok

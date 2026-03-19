@@ -13,7 +13,6 @@ version: 1.6.1
 reviews: 
 website: https://coiny.io#deadLink
 repository: 
-issue: 
 icon: io.coiny.android.png
 bugbounty: 
 meta: removed

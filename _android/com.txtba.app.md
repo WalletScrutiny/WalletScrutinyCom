@@ -13,7 +13,6 @@ version: 1.2.10
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.txtba.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.danmdevelopers.com#deadLink
 repository: 
-issue: 
 icon: com.danmdevelopers.cryptox.png
 bugbounty: 
 meta: removed

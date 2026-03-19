@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://ntrade.com.my#deadLink
 repository: 
-issue: 
 icon: com.neurogine.taurus.png
 bugbounty: 
 meta: removed

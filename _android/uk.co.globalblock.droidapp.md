@@ -12,7 +12,6 @@ version: '1.7'
 reviews: 
 website: https://globalblock.co.uk#deadLink
 repository: 
-issue: 
 icon: uk.co.globalblock.droidapp.jpg
 bugbounty: 
 meta: removed

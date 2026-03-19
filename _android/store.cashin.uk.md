@@ -13,7 +13,6 @@ version: 4.5.0
 reviews: 28
 website: https://www.bitcoinpoint.com/
 repository: 
-issue: 
 icon: store.cashin.uk.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.43.48
 reviews: 
 website: https://cobak.co.kr/
 repository: 
-issue: 
 icon: com.cobak.android.png
 bugbounty: 
 meta: removed

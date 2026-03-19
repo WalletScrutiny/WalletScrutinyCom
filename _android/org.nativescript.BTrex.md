@@ -13,7 +13,6 @@ version: 1.0.6.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.nativescript.BTrex.png
 bugbounty: 
 meta: removed

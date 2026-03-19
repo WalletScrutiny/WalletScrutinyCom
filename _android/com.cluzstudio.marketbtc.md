@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://marketbtc.net#deadLink
 repository: 
-issue: 
 icon: com.cluzstudio.marketbtc.png
 bugbounty: 
 meta: removed

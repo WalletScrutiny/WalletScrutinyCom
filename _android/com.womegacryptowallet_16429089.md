@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://findhereall.com
 repository: 
-issue: 
 icon: com.womegacryptowallet_16429089.png
 bugbounty: 
 meta: removed

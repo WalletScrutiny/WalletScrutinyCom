@@ -13,7 +13,6 @@ version: 1.5.20
 reviews: 82
 website: https://www.protonchain.com#deadLink
 repository: 
-issue: 
 icon: com.metallicus.protonwallet.png
 bugbounty: 
 meta: removed

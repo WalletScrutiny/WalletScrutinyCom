@@ -13,7 +13,6 @@ version: 2.3.8
 reviews: 37
 website: 
 repository: 
-issue: 
 icon: io.honesto.honesto.jpg
 bugbounty: 
 meta: ok

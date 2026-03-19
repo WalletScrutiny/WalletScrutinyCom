@@ -13,7 +13,6 @@ version: 1.4.7
 reviews: 36
 website: https://bitoshi.africa
 repository: 
-issue: 
 icon: com.bitoshi.png
 bugbounty: 
 meta: ok

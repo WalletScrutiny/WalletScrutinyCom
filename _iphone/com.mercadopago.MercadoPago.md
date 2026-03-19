@@ -13,7 +13,6 @@ version: 2.421.5
 reviews: 2280095
 website: http://www.mercadopago.com
 repository: 
-issue: 
 icon: com.mercadopago.MercadoPago.jpg
 bugbounty: 
 meta: ok

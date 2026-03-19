@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://www.otcfy.com/
 repository: 
-issue: 
 icon: com.otcfy.crypto.png
 bugbounty: 
 meta: removed

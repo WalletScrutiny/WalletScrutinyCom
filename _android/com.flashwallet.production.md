@@ -13,7 +13,6 @@ version: '32.0'
 reviews: 
 website: https://flash-wallet.com/
 repository: 
-issue: 
 icon: com.flashwallet.production.jpg
 bugbounty: 
 meta: ok

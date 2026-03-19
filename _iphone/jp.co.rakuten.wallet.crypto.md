@@ -13,7 +13,6 @@ version: 1.6.2
 reviews: 9566
 website: https://www.rakuten-wallet.co.jp/
 repository: 
-issue: 
 icon: jp.co.rakuten.wallet.crypto.jpg
 bugbounty: 
 meta: ok

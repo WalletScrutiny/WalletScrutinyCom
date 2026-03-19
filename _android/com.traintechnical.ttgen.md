@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: http://support.train-technical.com#deadLink
 repository: 
-issue: 
 icon: com.traintechnical.ttgen.png
 bugbounty: 
 meta: removed

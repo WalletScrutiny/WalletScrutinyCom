@@ -12,7 +12,6 @@ version: 1.54.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: me.skycryptowallet.skymobile.png
 bugbounty: 
 meta: ok

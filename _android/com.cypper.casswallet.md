@@ -12,7 +12,6 @@ version: 2.0.7.6
 reviews: 
 website: http://www.cashlesstoken.com#deadLink
 repository: 
-issue: 
 icon: com.cypper.casswallet.png
 bugbounty: 
 meta: removed

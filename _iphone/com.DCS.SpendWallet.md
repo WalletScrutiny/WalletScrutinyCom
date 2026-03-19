@@ -13,7 +13,6 @@ version: 3.2.6
 reviews: 326
 website: https://spend.com
 repository: 
-issue: 
 icon: com.DCS.SpendWallet.jpg
 bugbounty: 
 meta: removed

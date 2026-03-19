@@ -13,7 +13,6 @@ version: 1.0.23
 reviews: 8
 website: https://balancenetwork.io#deadLink
 repository: 
-issue: 
 icon: io.balancenetwork.wallet.png
 bugbounty: 
 meta: removed

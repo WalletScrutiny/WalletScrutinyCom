@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 
 website: https://nnn.am
 repository: 
-issue: 
 icon: com.currency.nnn.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.88.0
 reviews: 5144
 website: https://www.vantagemarkets.com/
 repository: 
-issue: 
 icon: cn.com.vau.png
 bugbounty: 
 meta: ok

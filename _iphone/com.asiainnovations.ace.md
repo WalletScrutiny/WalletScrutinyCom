@@ -13,7 +13,6 @@ version: 51.0.0
 reviews: 2
 website: https://www.ace.io
 repository: 
-issue: 
 icon: com.asiainnovations.ace.jpg
 bugbounty: 
 meta: removed

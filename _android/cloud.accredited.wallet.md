@@ -12,7 +12,6 @@ version: 3.2.54
 reviews: 
 website: 
 repository: 
-issue: 
 icon: cloud.accredited.wallet.jpg
 bugbounty: 
 meta: removed

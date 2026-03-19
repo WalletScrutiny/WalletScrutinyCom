@@ -12,7 +12,6 @@ version: '1.68'
 reviews: 21
 website: 
 repository: 
-issue: 
 icon: com.ittrendex.liteforex.jpg
 bugbounty: 
 meta: removed

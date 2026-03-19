@@ -12,7 +12,6 @@ version: v2.1.2029-cabinet-release
 reviews: 82
 website: https://www.liteforex.eu
 repository: 
-issue: 
 icon: com.litefinance.cabinet.png
 bugbounty: 
 meta: ok

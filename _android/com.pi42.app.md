@@ -13,7 +13,6 @@ version: 1.1.0
 reviews: 
 website: https://pi42.exchange/
 repository: 
-issue: 
 icon: com.pi42.app.png
 bugbounty: 
 meta: ok

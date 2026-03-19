@@ -14,7 +14,6 @@ version: 2.6.3
 reviews: 132
 website: http://splashfactory.com
 repository: 
-issue: 
 icon: com.sf.monarch.png
 bugbounty: 
 meta: removed

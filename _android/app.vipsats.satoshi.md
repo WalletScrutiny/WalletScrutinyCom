@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 4
 website: https://vipsats.app
 repository: 
-issue: 
 icon: app.vipsats.satoshi.png
 bugbounty: 
 meta: removed

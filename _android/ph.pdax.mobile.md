@@ -13,7 +13,6 @@ version: 14.8.0
 reviews: 3527
 website: https://pdax.ph
 repository: 
-issue: 
 icon: ph.pdax.mobile.png
 bugbounty: 
 meta: ok

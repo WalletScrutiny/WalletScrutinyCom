@@ -13,7 +13,6 @@ version: 2.4.39
 reviews: 40
 website: https://roseon.finance/
 repository: 
-issue: 
 icon: com.roseon.finance.production.jpg
 bugbounty: 
 meta: removed

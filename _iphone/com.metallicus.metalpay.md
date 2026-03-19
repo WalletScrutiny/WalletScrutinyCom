@@ -13,7 +13,6 @@ version: 3.1.189
 reviews: 4315
 website: https://metalpay.com
 repository: 
-issue: 
 icon: com.metallicus.metalpay.jpg
 bugbounty: 
 meta: ok

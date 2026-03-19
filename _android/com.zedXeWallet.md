@@ -13,7 +13,6 @@ version: '1.8'
 reviews: 
 website: https://www.zedxe.com
 repository: 
-issue: 
 icon: com.zedXeWallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 311
 website: https://www.bithumb.com
 repository: 
-issue: 
 icon: com.btckorea.bithumba.png
 bugbounty: 
 meta: removed

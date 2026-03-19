@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.quicrypto.invest.in.bitcoin.jpg
 bugbounty: 
 meta: removed

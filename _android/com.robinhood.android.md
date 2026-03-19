@@ -13,7 +13,6 @@ version: 2026.11.3
 reviews: 264196
 website: https://robinhood.com/
 repository: 
-issue: 
 icon: com.robinhood.android.png
 bugbounty: 
 meta: ok

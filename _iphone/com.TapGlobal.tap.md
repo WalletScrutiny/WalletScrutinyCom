@@ -13,7 +13,6 @@ version: 3.7.6
 reviews: 1898
 website: https://www.withtap.com
 repository: 
-issue: 
 icon: com.TapGlobal.tap.jpg
 bugbounty: 
 meta: ok

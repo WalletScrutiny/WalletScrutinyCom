@@ -13,7 +13,6 @@ version: 1.2.7
 reviews: 0
 website: https://gwallet.tech/
 repository: 
-issue: 
 icon: gwallet.tech.jpg
 bugbounty: 
 meta: removed

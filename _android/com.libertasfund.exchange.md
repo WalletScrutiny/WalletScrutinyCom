@@ -12,7 +12,6 @@ version: '2.4'
 reviews: 
 website: https://www.libertas-fund.com#deadLink
 repository: 
-issue: 
 icon: com.libertasfund.exchange.png
 bugbounty: 
 meta: removed

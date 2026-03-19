@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://botrado.com
 repository: 
-issue: 
 icon: com.botrado.botrado.png
 bugbounty: 
 meta: removed

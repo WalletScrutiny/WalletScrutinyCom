@@ -13,7 +13,6 @@ version: 2.3.0
 reviews: 4
 website: https://kitefinancial.io
 repository: 
-issue: 
 icon: io.kitefinancial.wallet.png
 bugbounty: 
 meta: removed

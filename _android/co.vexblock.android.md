@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 18
 website: https://web.archive.org/web/20200805051007/http://vexblock.co/
 repository: 
-issue: 
 icon: co.vexblock.android.png
 bugbounty: 
 meta: removed

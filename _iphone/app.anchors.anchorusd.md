@@ -13,7 +13,6 @@ version: 1.22.5
 reviews: 5323
 website: https://www.tryanchor.com/
 repository: 
-issue: 
 icon: app.anchors.anchorusd.jpg
 bugbounty: 
 meta: ok

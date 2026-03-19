@@ -13,7 +13,6 @@ version: 2.1.55
 reviews: 86
 website: https://webauth.com/
 repository: 
-issue: 
 icon: com.metallicus.webauth.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 
 website: https://nicechange.net/
 repository: 
-issue: 
 icon: com.xchange.nicechange.png
 bugbounty: 
 meta: removed

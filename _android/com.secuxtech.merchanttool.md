@@ -12,7 +12,6 @@ version: 2.2.1
 reviews: 
 website: https://www.secuxtech.com
 repository: 
-issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
 meta: obsolete

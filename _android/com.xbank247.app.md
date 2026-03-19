@@ -12,7 +12,6 @@ version: 16.1.0
 reviews: 
 website: https://www.xbank247.com
 repository: 
-issue: 
 icon: com.xbank247.app.png
 bugbounty: 
 meta: defunct

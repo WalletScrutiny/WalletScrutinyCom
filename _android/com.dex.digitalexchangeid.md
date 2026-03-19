@@ -13,7 +13,6 @@ version: 1.3.33
 reviews: 
 website: http://digitalexchange.id
 repository: 
-issue: 
 icon: com.dex.digitalexchangeid.png
 bugbounty: 
 meta: ok

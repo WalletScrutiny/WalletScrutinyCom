@@ -13,7 +13,6 @@ version: 10.5.0
 reviews: 1
 website: https://portal.thekingdombank.com/signup
 repository: 
-issue: 
 icon: com.kingdom.TheKingdomBank.jpg
 bugbounty: 
 meta: ok

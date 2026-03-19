@@ -13,7 +13,6 @@ version: 3.6.0
 reviews: 3
 website: https://bitbank.cc
 repository: 
-issue: 
 icon: cc.bitbank.bitbank.png
 bugbounty: 
 meta: ok

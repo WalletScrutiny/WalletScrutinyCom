@@ -13,7 +13,6 @@ version: 1.0.70
 reviews: 52
 website: https://vizo.app
 repository: 
-issue: 
 icon: app.zupago.zp.jpg
 bugbounty: 
 meta: stale

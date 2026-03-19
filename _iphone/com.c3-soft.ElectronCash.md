@@ -12,7 +12,6 @@ version: 4.2.5
 reviews: 38
 website: https://www.electroncash.org
 repository: 
-issue: 
 icon: com.c3-soft.ElectronCash.jpg
 bugbounty: 
 meta: obsolete

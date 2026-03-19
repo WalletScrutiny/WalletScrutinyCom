@@ -12,7 +12,6 @@ version: 2.2.3.1
 reviews: 
 website: http://www.salvadorjesus.com/
 repository: 
-issue: 
 icon: com.salvadorjesus.PagameConBitcoin.png
 bugbounty: 
 meta: obsolete

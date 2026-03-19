@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 3
 website: https://miraclecash.com
 repository: 
-issue: 
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
 meta: removed

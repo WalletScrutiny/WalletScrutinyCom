@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://novapago.com
 repository: 
-issue: 
 icon: com.novapago.novapagopay.png
 bugbounty: 
 meta: removed

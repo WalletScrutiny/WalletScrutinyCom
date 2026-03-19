@@ -12,7 +12,6 @@ provider: J-Dog
 providerWebsite: 
 website: https://freewallet.io/
 repository: https://github.com/jdogresorg/freewallet-desktop
-issue: 
 icon: freewallet.png
 bugbounty: 
 meta: ok

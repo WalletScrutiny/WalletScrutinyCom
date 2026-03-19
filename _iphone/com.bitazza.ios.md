@@ -13,7 +13,6 @@ version: 4.2.0
 reviews: 2243
 website: https://www.bitazza.com
 repository: 
-issue: 
 icon: com.bitazza.ios.jpg
 bugbounty: 
 meta: ok

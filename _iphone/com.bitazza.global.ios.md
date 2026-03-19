@@ -13,7 +13,6 @@ version: 3.9.26
 reviews: 188
 website: https://www.bitazza.com
 repository: 
-issue: 
 icon: com.bitazza.global.ios.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.1.1075
 reviews: 38
 website: https://cexchangenex.com#deadLink
 repository: 
-issue: 
 icon: com.cexchangenex.cexchangenex.png
 bugbounty: 
 meta: removed

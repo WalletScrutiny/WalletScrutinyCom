@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://cryptoocean.in#deadLink
 repository: 
-issue: 
 icon: com.tech.cryptoocean.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.lianghua.png
 bugbounty: 
 meta: removed

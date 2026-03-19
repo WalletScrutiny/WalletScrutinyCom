@@ -13,7 +13,6 @@ version: 4.0.7
 reviews: 31
 website: https://obiex.finance/
 repository: 
-issue: 
 icon: africa.obiex.app.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.25.0
 reviews: 5
 website: https://atomex.me#deadLink
 repository: https://github.com/atomex-me/atomex.mobile#deadLink
-issue: https://github.com/atomex-me/atomex.mobile/issues/24#deadLink
 icon: com.atomex.android.png
 bugbounty: 
 meta: removed
@@ -47,3 +46,5 @@ review that was built in Visual Studio using C#. As there are no build
 instructions I can only hope for
 [help from the provider](https://github.com/atomex-me/atomex.mobile/issues/24#deadLink)
 and conclude for now that the app is **not verifiable**.
+
+An issue has been opened at [https://github.com/atomex-me/atomex.mobile/issues/24#deadLink](https://github.com/atomex-me/atomex.mobile/issues/24#deadLink)

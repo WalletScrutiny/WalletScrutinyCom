@@ -13,7 +13,6 @@ version: 2.1.4
 reviews: 26
 website: https://ataix.com
 repository: 
-issue: 
 icon: com.ataix.exchange.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 26.217.0
 reviews: 107864
 website: https://www.gemini.com
 repository: 
-issue: 
 icon: com.gemini.ios.jpg
 bugbounty: 
 meta: ok

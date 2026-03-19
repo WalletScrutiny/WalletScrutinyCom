@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://cashu.cc/
 repository: 
-issue: 
 icon: com.cashuwallet.android.png
 bugbounty: 
 meta: ok

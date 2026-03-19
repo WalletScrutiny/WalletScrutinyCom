@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/NewEconoLab/NeoDun
-issue: 
 icon: neodun.nel.png
 bugbounty: 
 meta: ok

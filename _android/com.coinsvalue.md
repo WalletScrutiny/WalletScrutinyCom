@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: http://zezo.in
 repository: 
-issue: 
 icon: com.coinsvalue.png
 bugbounty: 
 meta: removed

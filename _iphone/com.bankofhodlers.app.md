@@ -13,7 +13,6 @@ version: 2.9.0.1
 reviews: 299
 website: https://www.vauld.com/
 repository: 
-issue: 
 icon: com.bankofhodlers.app.jpg
 bugbounty: 
 meta: removed

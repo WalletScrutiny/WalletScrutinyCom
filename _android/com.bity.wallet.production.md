@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 2
 website: https://bity.com
 repository: 
-issue: 
 icon: com.bity.wallet.production.jpg
 bugbounty: 
 meta: removed

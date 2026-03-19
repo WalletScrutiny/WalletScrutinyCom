@@ -12,7 +12,6 @@ version: 1.2.9
 reviews: 
 website: https://sana.money
 repository: 
-issue: 
 icon: xyz.sanafi.app.png
 bugbounty: 
 meta: ok

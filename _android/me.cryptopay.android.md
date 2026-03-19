@@ -12,7 +12,6 @@ version: 1.68.0
 reviews: 64
 website: https://cryptopay.me
 repository: 
-issue: 
 icon: me.cryptopay.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 
 website: https://bitcoinet.net#deadLink
 repository: 
-issue: 
 icon: com.bitcoinet.bitcoinet.png
 bugbounty: 
 meta: removed

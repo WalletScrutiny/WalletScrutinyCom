@@ -13,7 +13,6 @@ version: 1.37.2
 reviews: 14
 website: http://www.paytomat.com
 repository: 
-issue: 
 icon: com.paytomat.png
 bugbounty: 
 meta: removed

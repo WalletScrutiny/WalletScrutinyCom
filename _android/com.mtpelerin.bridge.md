@@ -14,7 +14,6 @@ version: '1.62'
 reviews: 34
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
-issue: 
 icon: com.mtpelerin.bridge.png
 bugbounty: 
 meta: ok

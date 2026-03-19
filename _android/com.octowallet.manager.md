@@ -12,7 +12,6 @@ version: 1.1.0.146
 reviews: 
 website: http://www.octowallet.com
 repository: 
-issue: 
 icon: com.octowallet.manager.png
 bugbounty: 
 meta: removed

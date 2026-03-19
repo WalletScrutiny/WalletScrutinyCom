@@ -13,7 +13,6 @@ version: 1.4.1
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: co.digitalmoney.dmapp.jpg
 bugbounty: 
 meta: removed

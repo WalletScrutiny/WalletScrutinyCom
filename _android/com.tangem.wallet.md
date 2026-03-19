@@ -14,7 +14,6 @@ version: 5.34.1
 reviews: 1681
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android
-issue: 
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok

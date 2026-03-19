@@ -12,7 +12,6 @@ version: '3.8'
 reviews: 
 website: http://www.otomation.tech#deadLink
 repository: 
-issue: 
 icon: com.crypto_wallet_arnold.png
 bugbounty: 
 meta: removed

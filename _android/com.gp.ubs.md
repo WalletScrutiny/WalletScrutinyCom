@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 5
 website: 
 repository: 
-issue: 
 icon: com.gp.ubs.png
 bugbounty: 
 meta: removed

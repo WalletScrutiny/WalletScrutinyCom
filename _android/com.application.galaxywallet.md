@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.bluekeymarket.com
 repository: 
-issue: 
 icon: com.application.galaxywallet.png
 bugbounty: 
 meta: removed

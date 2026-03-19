@@ -13,7 +13,6 @@ version: 8.0.1
 reviews: 36
 website: https://elly.com
 repository: 
-issue: 
 icon: io.eligma.btcwallet.jpg
 bugbounty: 
 meta: removed

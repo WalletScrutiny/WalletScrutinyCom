@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://xmonitoring.ru#deadLink
 repository: 
-issue: 
 icon: com.buratinoapps.fmicropayment.png
 bugbounty: 
 meta: removed

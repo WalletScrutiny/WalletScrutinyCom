@@ -13,7 +13,6 @@ version: 1.1.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.planb.wallet.png
 bugbounty: 
 meta: removed

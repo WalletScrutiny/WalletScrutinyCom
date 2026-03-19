@@ -13,7 +13,6 @@ version: 2.7.1
 reviews: 146
 website: https://www.forextb.com/eu/
 repository: 
-issue: 
 icon: com.forextb.forextb.png
 bugbounty: 
 meta: removed

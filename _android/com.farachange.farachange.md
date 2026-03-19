@@ -13,7 +13,6 @@ version: 1.1.20
 reviews: 26
 website: 
 repository: 
-issue: 
 icon: com.farachange.farachange.png
 bugbounty: 
 meta: removed

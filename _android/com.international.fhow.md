@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://combaijialesfvbwe.xyz#deadLink
 repository: 
-issue: 
 icon: com.international.fhow.png
 bugbounty: 
 meta: removed

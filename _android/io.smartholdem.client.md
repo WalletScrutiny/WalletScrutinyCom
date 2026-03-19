@@ -12,7 +12,6 @@ version: 1.0.16
 reviews: 
 website: https://smartholdem.io
 repository: 
-issue: 
 icon: io.smartholdem.client.png
 bugbounty: 
 meta: removed

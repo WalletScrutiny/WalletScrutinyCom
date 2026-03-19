@@ -13,7 +13,6 @@ version: 1.2.6.0
 reviews: 31
 website: http://www.xzen.io/app
 repository: 
-issue: 
 icon: com.xzen.wallet.png
 bugbounty: 
 meta: removed

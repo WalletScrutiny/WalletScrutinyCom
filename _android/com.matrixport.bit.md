@@ -13,7 +13,6 @@ version: 2.2.5
 reviews: 29
 website: https://www.bit.com
 repository: 
-issue: 
 icon: com.matrixport.bit.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '31.1'
 reviews: 1
 website: https://gleec.com/
 repository: 
-issue: 
 icon: com.gleecard.ios.jpg
 bugbounty: 
 meta: ok

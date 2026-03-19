@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: http://bitcoin-hubs.com#deadLink
 repository: 
-issue: 
 icon: com.youngphubs.app.png
 bugbounty: 
 meta: removed

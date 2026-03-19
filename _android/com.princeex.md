@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://princeex.com/
 repository: 
-issue: 
 icon: com.princeex.png
 bugbounty: 
 meta: removed

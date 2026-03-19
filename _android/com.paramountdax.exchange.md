@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://www.paramountdax.com
 repository: 
-issue: 
 icon: com.paramountdax.exchange.png
 bugbounty: 
 meta: removed

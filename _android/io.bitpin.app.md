@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 126
 website: https://bitpin.ir
 repository: 
-issue: 
 icon: io.bitpin.app.png
 bugbounty: 
 meta: ok

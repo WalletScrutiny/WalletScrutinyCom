@@ -18,7 +18,6 @@ shop:
 country: FR
 price: 
 repository: 
-issue: 
 icon: ledgerhw1.png
 bugbounty: 
 meta: defunct

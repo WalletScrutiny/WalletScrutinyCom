@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: https://obliowallet.com
 repository: 
-issue: 
 icon: com.oblio.wallet.png
 bugbounty: 
 meta: ok

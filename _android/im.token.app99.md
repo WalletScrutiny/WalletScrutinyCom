@@ -14,7 +14,6 @@ version: 2.9.6
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: im.token.app99.png
 bugbounty: 
 meta: removed

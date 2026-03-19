@@ -13,7 +13,6 @@ version: 7.0.0.3
 reviews: 
 website: https://www.bitcoke.com
 repository: 
-issue: 
 icon: com.bitcoke.activity.png
 bugbounty: 
 meta: removed

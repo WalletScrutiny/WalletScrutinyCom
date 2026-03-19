@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 0
 website: https://conglex.com#deadLink
 repository: 
-issue: 
 icon: com.conglex.mobile.jpg
 bugbounty: 
 meta: ok

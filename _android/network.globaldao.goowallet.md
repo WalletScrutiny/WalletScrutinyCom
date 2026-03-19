@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://web.archive.org/web/20230304212439/http://goorewards.com/
 repository: 
-issue: 
 icon: network.globaldao.goowallet.png
 bugbounty: 
 meta: removed

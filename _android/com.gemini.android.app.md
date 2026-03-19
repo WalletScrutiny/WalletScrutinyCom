@@ -13,7 +13,6 @@ version: 26.316.0
 reviews: 8434
 website: https://www.gemini.com
 repository: 
-issue: 
 icon: com.gemini.android.app.png
 bugbounty: 
 meta: ok

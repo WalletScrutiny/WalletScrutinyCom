@@ -12,7 +12,6 @@ version: 0.0.5
 reviews: 
 website: https://peachwallet.com
 repository: 
-issue: 
 icon: wallet.peach.com.png
 bugbounty: 
 meta: removed

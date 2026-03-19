@@ -12,7 +12,6 @@ version: 0.0.8
 reviews: 
 website: https://glions.io#deadLink
 repository: 
-issue: 
 icon: app.glions.wallet.png
 bugbounty: 
 meta: removed

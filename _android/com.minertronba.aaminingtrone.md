@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://mfappsprivacypolicy.blogspot.com/ads.txt
 repository: 
-issue: 
 icon: com.minertronba.aaminingtrone.png
 bugbounty: 
 meta: removed

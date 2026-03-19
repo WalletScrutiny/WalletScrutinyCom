@@ -12,7 +12,6 @@ version: '2.6'
 reviews: 
 website: http://www.ddtotal.com.br
 repository: 
-issue: 
 icon: com.payout.jpg
 bugbounty: 
 meta: removed

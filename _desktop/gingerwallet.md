@@ -12,7 +12,6 @@ provider: GingerPrivacy
 providerWebsite: https://gingerwallet.io
 website: https://gingerwallet.io
 repository: https://github.com/GingerPrivacy/GingerWallet
-issue: 
 icon: gingerwallet.jpg
 bugbounty: 
 meta: ok

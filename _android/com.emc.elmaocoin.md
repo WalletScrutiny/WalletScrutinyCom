@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://elmaocoin.com#deadLink
 repository: 
-issue: 
 icon: com.emc.elmaocoin.png
 bugbounty: 
 meta: removed

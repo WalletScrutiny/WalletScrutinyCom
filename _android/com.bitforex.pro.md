@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 71
 website: 
 repository: 
-issue: 
 icon: com.bitforex.pro.png
 bugbounty: 
 meta: removed

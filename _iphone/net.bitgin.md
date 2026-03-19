@@ -13,7 +13,6 @@ version: 2.2.2
 reviews: 19
 website: https://www.bitgin.net/
 repository: 
-issue: 
 icon: net.bitgin.jpg
 bugbounty: 
 meta: removed

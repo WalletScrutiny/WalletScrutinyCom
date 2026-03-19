@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 0
 website: https://wallet.polyx.net
 repository: 
-issue: 
 icon: net.polyx.wallet-app.jpg
 bugbounty: 
 meta: removed

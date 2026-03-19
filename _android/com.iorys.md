@@ -12,7 +12,6 @@ version: 1.7.14
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.iorys.png
 bugbounty: 
 meta: removed

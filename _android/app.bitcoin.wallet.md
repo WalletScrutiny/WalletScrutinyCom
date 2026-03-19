@@ -12,7 +12,6 @@ version: '10.00'
 reviews: 1
 website: https://bitcoin.flarfly.com#deadLink
 repository: 
-issue: 
 icon: app.bitcoin.wallet.png
 bugbounty: 
 meta: removed

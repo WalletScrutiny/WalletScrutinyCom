@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 
 website: https://dashboard.criptohub.com.br#deadLink
 repository: 
-issue: 
 icon: com.criptohub.png
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 7.62.2
 reviews: 73499
 website: https://metamask.io/
 repository: 
-issue: 
 icon: io.metamask.MetaMask.jpg
 bugbounty: 
 meta: ok

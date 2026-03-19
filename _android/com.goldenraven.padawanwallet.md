@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://github.com/thunderbiscuit/padawan-wallet
 repository: 
-issue: 
 icon: com.goldenraven.padawanwallet.png
 bugbounty: 
 meta: removed

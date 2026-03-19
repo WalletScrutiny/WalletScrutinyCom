@@ -12,7 +12,6 @@ version: v1.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fenixcoin.wallet.png
 bugbounty: 
 meta: removed

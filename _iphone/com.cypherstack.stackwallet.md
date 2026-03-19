@@ -13,7 +13,6 @@ version: 2.4.4
 reviews: 22
 website: https://stackwallet.com/
 repository: 
-issue: 
 icon: com.cypherstack.stackwallet.jpg
 bugbounty: 
 meta: ok

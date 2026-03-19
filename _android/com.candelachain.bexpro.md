@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: https://www.bexpro.ph
 repository: 
-issue: 
 icon: com.candelachain.bexpro.png
 bugbounty: 
 meta: removed

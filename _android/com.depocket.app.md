@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: https://depocket.com/
 repository: 
-issue: 
 icon: com.depocket.app.png
 bugbounty: 
 meta: removed

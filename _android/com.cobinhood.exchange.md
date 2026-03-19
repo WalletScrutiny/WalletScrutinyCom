@@ -13,7 +13,6 @@ version: 3.50.1
 reviews: 118
 website: https://cobinhood.com#deadLink
 repository: 
-issue: 
 icon: com.cobinhood.exchange.png
 bugbounty: 
 meta: removed

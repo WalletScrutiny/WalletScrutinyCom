@@ -12,7 +12,6 @@ provider: Denton LLC
 providerWebsite: 
 website: https://fullynoded.app/
 repository: https://github.com/Fonta1n3/FullyNoded
-issue: 
 icon: fullynoded.png
 bugbounty: 
 meta: ok

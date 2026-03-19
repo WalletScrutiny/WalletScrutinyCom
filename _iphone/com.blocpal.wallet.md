@@ -13,7 +13,6 @@ version: 2.0.38
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.blocpal.wallet.jpg
 bugbounty: 
 meta: defunct

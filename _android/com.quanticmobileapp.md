@@ -12,7 +12,6 @@ version: 2.0.37
 reviews: 
 website: http://quan-tic.com#deadLink
 repository: 
-issue: 
 icon: com.quanticmobileapp.png
 bugbounty: 
 meta: removed

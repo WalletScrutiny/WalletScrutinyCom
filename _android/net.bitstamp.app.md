@@ -13,7 +13,6 @@ version: '4.15'
 reviews: 675
 website: https://www.bitstamp.net
 repository: 
-issue: 
 icon: net.bitstamp.app.png
 bugbounty: 
 meta: ok

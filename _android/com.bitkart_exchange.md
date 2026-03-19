@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: http://bitkart.io#deadLink
 repository: 
-issue: 
 icon: com.bitkart_exchange.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.11
 reviews: 
 website: https://xetaai.io
 repository: 
-issue: 
 icon: com.xetaai.xiwallet.png
 bugbounty: 
 meta: ok

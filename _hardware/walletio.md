@@ -21,7 +21,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: walletio.png
 bugbounty: 
 meta: ok

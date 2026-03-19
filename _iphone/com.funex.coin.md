@@ -13,7 +13,6 @@ version: 1.0.26
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.funex.coin.jpg
 bugbounty: 
 meta: removed

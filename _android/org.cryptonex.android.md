@@ -13,7 +13,6 @@ version: 2.4.9
 reviews: 5
 website: https://cryptonex.org/
 repository: 
-issue: 
 icon: org.cryptonex.android.png
 bugbounty: 
 meta: removed

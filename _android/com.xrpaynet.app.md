@@ -13,7 +13,6 @@ version: 5.0.5.prod
 reviews: 45
 website: 
 repository: 
-issue: 
 icon: com.xrpaynet.app.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '5.34'
 reviews: 21922
 website: https://xapo.com
 repository: 
-issue: 
 icon: com.xapo.png
 bugbounty: 
 meta: removed

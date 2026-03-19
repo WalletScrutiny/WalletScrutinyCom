@@ -20,7 +20,6 @@ shop: https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetoot
 country: CN
 price: 38.99USD
 repository: 
-issue: 
 icon: icoldwallet.png
 bugbounty: 
 meta: ok

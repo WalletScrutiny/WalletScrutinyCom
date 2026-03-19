@@ -13,7 +13,6 @@ version: 5.7.1
 reviews: 133
 website: https://www.batonex.com
 repository: 
-issue: 
 icon: com.wisebitcoin.broker.android.png
 bugbounty: 
 meta: ok

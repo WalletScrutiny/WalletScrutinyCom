@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://bitazure.com
 repository: 
-issue: 
 icon: io.bitazure.wallet.png
 bugbounty: 
 meta: removed

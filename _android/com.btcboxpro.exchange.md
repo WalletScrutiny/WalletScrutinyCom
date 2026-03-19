@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: http://www.btcboxpro.com/
 repository: 
-issue: 
 icon: com.btcboxpro.exchange.png
 bugbounty: 
 meta: removed

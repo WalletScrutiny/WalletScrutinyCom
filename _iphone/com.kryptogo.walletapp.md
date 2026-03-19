@@ -13,7 +13,6 @@ version: 3.82.0
 reviews: 3
 website: https://kryptogo.com/wallet
 repository: 
-issue: 
 icon: com.kryptogo.walletapp.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://www.coinplus.com
 repository: 
-issue: 
 icon: com.coinplus.mobile.png
 bugbounty: 
 meta: removed

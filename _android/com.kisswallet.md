@@ -13,7 +13,6 @@ version: 0.3.6
 reviews: 
 website: https://www.moonshinewallet.com#deadLink
 repository: https://github.com/coreyphillips/moonshine
-issue: 
 icon: com.kisswallet.png
 bugbounty: 
 meta: removed

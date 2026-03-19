@@ -13,7 +13,6 @@ version: 0.8.5
 reviews: 15
 website: https://coinut.com
 repository: 
-issue: 
 icon: com.coinut.app.png
 bugbounty: 
 meta: obsolete

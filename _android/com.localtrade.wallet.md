@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://lab.localtrade.cc#deadLink
 repository: 
-issue: 
 icon: com.localtrade.wallet.png
 bugbounty: 
 meta: removed

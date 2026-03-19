@@ -23,7 +23,6 @@ shop: https://store.coinkite.com/store/mk4
 country: CA
 price: 158USD
 repository: https://github.com/Coldcard/firmware
-issue: 
 icon: coldcardMk4.png
 bugbounty: 
 meta: ok

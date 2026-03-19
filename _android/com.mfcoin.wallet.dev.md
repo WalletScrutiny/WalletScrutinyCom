@@ -12,7 +12,6 @@ version: v4.0.0
 reviews: 
 website: http://mfcoin.net
 repository: 
-issue: 
 icon: com.mfcoin.wallet.dev.png
 bugbounty: 
 meta: removed

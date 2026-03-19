@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://cryptomindex.com#deadLink
 repository: 
-issue: 
 icon: com.cryptomindex.png
 bugbounty: 
 meta: removed

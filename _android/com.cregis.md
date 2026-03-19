@@ -12,7 +12,6 @@ version: 3.7.0
 reviews: 
 website: https://www.cregis.com
 repository: 
-issue: 
 icon: com.cregis.png
 bugbounty: 
 meta: ok

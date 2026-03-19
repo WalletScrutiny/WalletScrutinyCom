@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 5
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
-issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.png
 bugbounty: 
 meta: removed
@@ -124,3 +123,4 @@ See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:comm
 
 And that's where we give it up and conclude with the verdict: **not verifiable**
 
+An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](https://github.com/COINiD/COINiDWallet/issues/24)

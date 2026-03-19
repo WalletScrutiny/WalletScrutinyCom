@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 121
 website: 
 repository: 
-issue: 
 icon: trade.iqforex.png
 bugbounty: 
 meta: removed

@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 
 const PLATFORMS = ['_android', '_iphone', '_hardware', '_bearer', '_desktop', '_others'];
-const URL_FIELDS = ['website', 'repository', 'issue', 'bugbounty', 'providerWebsite', 'shop'];
+const URL_FIELDS = ['website', 'repository', 'bugbounty', 'providerWebsite', 'shop'];
 
 // Parse args
 const args = process.argv.slice(2);

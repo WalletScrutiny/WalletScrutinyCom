@@ -12,7 +12,6 @@ version: 0.6.3
 reviews: 
 website: http://globalctb.com/
 repository: 
-issue: 
 icon: com.globalctb.png
 bugbounty: 
 meta: removed

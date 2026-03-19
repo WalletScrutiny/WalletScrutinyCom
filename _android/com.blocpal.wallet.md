@@ -13,7 +13,6 @@ version: 2.0.39
 reviews: 
 website: http://www.blocpal.com
 repository: 
-issue: 
 icon: com.blocpal.wallet.png
 bugbounty: 
 meta: stale

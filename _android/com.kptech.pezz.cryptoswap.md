@@ -12,7 +12,6 @@ version: '1.8'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.kptech.pezz.cryptoswap.png
 bugbounty: 
 meta: removed

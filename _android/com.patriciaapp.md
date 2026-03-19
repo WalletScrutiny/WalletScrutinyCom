@@ -13,7 +13,6 @@ version: 1.5.2
 reviews: 442
 website: https://mypatricia.co
 repository: 
-issue: 
 icon: com.patriciaapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tropiky.png
 bugbounty: 
 meta: removed

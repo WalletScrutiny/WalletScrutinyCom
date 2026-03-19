@@ -13,7 +13,6 @@ version: 0.70.8
 reviews: 39
 website: https://coinsavi.com
 repository: 
-issue: 
 icon: com.coinsavi.android.jpg
 bugbounty: 
 meta: ok

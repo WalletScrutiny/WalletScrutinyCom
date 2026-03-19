@@ -14,7 +14,6 @@ version: 4.88.4
 reviews: 514
 website: https://www.spot-wallet.com#deadLink
 repository: 
-issue: 
 icon: com.spot.spot.png
 bugbounty: 
 meta: removed

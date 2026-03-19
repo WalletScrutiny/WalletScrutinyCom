@@ -13,7 +13,6 @@ version: 0.30.27
 reviews: 
 website: https://bizblocks.io
 repository: 
-issue: 
 icon: io.bizblocks.kaiserbank.png
 bugbounty: 
 meta: removed

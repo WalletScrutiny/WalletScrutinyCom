@@ -13,7 +13,6 @@ version: 2.88.3
 reviews: 2
 website: https://www.midaskripto.com/
 repository: 
-issue: 
 icon: com.getmidas.crypto.png
 bugbounty: 
 meta: ok

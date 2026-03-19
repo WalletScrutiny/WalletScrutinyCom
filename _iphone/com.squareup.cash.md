@@ -13,7 +13,6 @@ version: '5.36'
 reviews: 8118002
 website: https://cash.app
 repository: 
-issue: 
 icon: com.squareup.cash.jpg
 bugbounty: 
 meta: ok

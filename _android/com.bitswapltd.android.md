@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitswapltd.com#deadLink
 repository: 
-issue: 
 icon: com.bitswapltd.android.png
 bugbounty: 
 meta: removed

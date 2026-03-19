@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: http://vimepay.com
 repository: 
-issue: 
 icon: com.vimepaypeer2peer.png
 bugbounty: 
 meta: removed

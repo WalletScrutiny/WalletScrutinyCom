@@ -12,7 +12,6 @@ version: 1.0.0.5-finx
 reviews: 
 website: https://finx.global/
 repository: 
-issue: 
 icon: com.finx.png
 bugbounty: 
 meta: removed

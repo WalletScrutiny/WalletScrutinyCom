@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.tippin.android.wallet.png
 bugbounty: 
 meta: removed

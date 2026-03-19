@@ -12,7 +12,6 @@ version: 2.1.8
 reviews: 
 website: https://github.com/mikebutrimov/bip38decrypt
 repository: 
-issue: 
 icon: org.unhack.bip38decrypt.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 8.8.79
 reviews: 135
 website: https://pointpay.io/
 repository: 
-issue: 
 icon: com.pointpay.bank.png
 bugbounty: 
 meta: ok

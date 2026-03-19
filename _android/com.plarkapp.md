@@ -12,7 +12,6 @@ version: 2.5.0
 reviews: 
 website: https://plark.io
 repository: 
-issue: 
 icon: com.plarkapp.png
 bugbounty: 
 meta: removed

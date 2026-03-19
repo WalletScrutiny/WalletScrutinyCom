@@ -13,7 +13,6 @@ version: 1.1.39
 reviews: 20
 website: https://agoradesk.com
 repository: 
-issue: 
 icon: com.agoradesk.app.jpg
 bugbounty: 
 meta: removed

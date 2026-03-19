@@ -14,7 +14,6 @@ version: VARY
 reviews: 
 website: https://blixtwallet.github.io
 repository: https://github.com/BlixtWallet/blixt-wallet
-issue: https://github.com/BlixtWallet/blixt-wallet/issues/318
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
@@ -120,3 +119,5 @@ from what he got from Google play. This app is currently **not verifiable**.
 {% include featureEvidence.html feature="TOR" quote="- [x] Integrated Tor support" source="GitHub README" %}
 
 {% include featureEvidence.html feature="bip158spv" quote="Blixt Wallet uses the Lightning Network client lnd and the Bitcoin SPV client Neutrino under the hood, directly on the phone, respecting your privacy." source="Website" %}
+
+An issue has been opened at [https://github.com/BlixtWallet/blixt-wallet/issues/318](https://github.com/BlixtWallet/blixt-wallet/issues/318)

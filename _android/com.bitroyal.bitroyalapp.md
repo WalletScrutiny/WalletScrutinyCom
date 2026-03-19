@@ -12,7 +12,6 @@ version: '2.1'
 reviews: 
 website: https://bitroyalexchange.com#deadLink
 repository: 
-issue: 
 icon: com.bitroyal.bitroyalapp.png
 bugbounty: 
 meta: removed

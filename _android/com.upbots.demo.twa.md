@@ -12,7 +12,6 @@ version: '1'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.upbots.demo.twa.png
 bugbounty: 
 meta: removed

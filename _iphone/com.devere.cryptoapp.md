@@ -13,7 +13,6 @@ version: '5.1'
 reviews: 1
 website: http://www.devere-crypto.com
 repository: 
-issue: 
 icon: com.devere.cryptoapp.jpg
 bugbounty: 
 meta: removed

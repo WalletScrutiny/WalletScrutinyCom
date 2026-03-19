@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://tmdstudios.wordpress.com/
 repository: 
-issue: 
 icon: com.tmdstudios.cryptoledgerkotlin.png
 bugbounty: 
 meta: removed

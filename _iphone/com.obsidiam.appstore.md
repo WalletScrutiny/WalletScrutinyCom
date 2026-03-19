@@ -13,7 +13,6 @@ version: 3.1.0
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.obsidiam.appstore.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.101
 reviews: 
 website: https://excelon.money
 repository: 
-issue: 
 icon: io.excelon.excelongo.png
 bugbounty: 
 meta: ok

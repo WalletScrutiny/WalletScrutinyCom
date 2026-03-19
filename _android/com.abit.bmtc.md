@@ -13,7 +13,6 @@ version: 2.3.2
 reviews: 
 website: http://www.abit.com
 repository: 
-issue: 
 icon: com.abit.bmtc.png
 bugbounty: 
 meta: removed

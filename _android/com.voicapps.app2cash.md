@@ -13,7 +13,6 @@ version: 2.1.00
 reviews: 2
 website: http://www.2cash.io
 repository: 
-issue: 
 icon: com.voicapps.app2cash.png
 bugbounty: 
 meta: removed

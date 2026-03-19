@@ -13,7 +13,6 @@ version: 6.24.3790
 reviews: 
 website: https://www.ubfx.co.uk/
 repository: 
-issue: 
 icon: com.ubankfx.forex.jpg
 bugbounty: 
 meta: removed

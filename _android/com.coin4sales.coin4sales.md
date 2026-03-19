@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 
 website: https://www.coin4sales.com/tos#deadLink
 repository: 
-issue: 
 icon: com.coin4sales.coin4sales.png
 bugbounty: 
 meta: removed

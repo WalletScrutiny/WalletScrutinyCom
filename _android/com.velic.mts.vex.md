@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 
 website: http://www.velic.io
 repository: 
-issue: 
 icon: com.velic.mts.vex.png
 bugbounty: 
 meta: removed

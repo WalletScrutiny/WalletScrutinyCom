@@ -13,7 +13,6 @@ version: 2.123.0
 reviews: 226234
 website: https://www.maya.ph/
 repository: 
-issue: 
 icon: com.paymaya.ios.jpg
 bugbounty: 
 meta: ok

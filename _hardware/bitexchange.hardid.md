@@ -17,7 +17,6 @@ shop: https://www.lightningasic.com/product/Bitcoinminer/45.html
 country: CN
 price: 149USD
 repository: https://github.com/lightningasic/BitExchange-Hardware-Wallet
-issue: 
 icon: bitexchange.hardid.png
 bugbounty: 
 meta: defunct

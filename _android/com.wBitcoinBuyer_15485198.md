@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wBitcoinBuyer_15485198.jpg
 bugbounty: 
 meta: removed

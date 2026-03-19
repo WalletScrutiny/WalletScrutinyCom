@@ -13,7 +13,6 @@ version: 1.64.7
 reviews: 5
 website: https://bitcoiva.com
 repository: 
-issue: 
 icon: com.application.bitcoiva.png
 bugbounty: 
 meta: ok

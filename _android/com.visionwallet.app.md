@@ -13,7 +13,6 @@ version: 1.3.2
 reviews: 
 website: https://visionwallet.com/en/
 repository: 
-issue: 
 icon: com.visionwallet.app.png
 bugbounty: 
 meta: removed

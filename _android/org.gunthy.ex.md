@@ -12,7 +12,6 @@ version: 1.26.0
 reviews: 
 website: https://gunthy.org
 repository: 
-issue: 
 icon: org.gunthy.ex.png
 bugbounty: 
 meta: removed

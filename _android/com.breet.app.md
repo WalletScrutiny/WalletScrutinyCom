@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 71
 website: 
 repository: 
-issue: 
 icon: com.breet.app.png
 bugbounty: 
 meta: removed

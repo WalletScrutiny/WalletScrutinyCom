@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 8
 website: https://maskex.com/en
 repository: 
-issue: 
 icon: com.maskexnnew.app.jpg
 bugbounty: 
 meta: stale

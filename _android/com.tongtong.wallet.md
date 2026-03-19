@@ -13,7 +13,6 @@ version: 1.7.18
 reviews: 
 website: https://tongtongwallet.com/
 repository: 
-issue: 
 icon: com.tongtong.wallet.png
 bugbounty: 
 meta: ok

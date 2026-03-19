@@ -13,7 +13,6 @@ version: 2.1.1
 reviews: 
 website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower/releases
-issue: https://github.com/crypto-power/cryptopower/issues/448
 icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
 meta: ok
@@ -41,3 +40,5 @@ Crytopower allows you to choose between restoring an existing wallet or creating
 The source code was available on GitHub. 
 
 We previously built this app successfully, but failed to replicate it on a different computer when the other computer broke down. We will try again when this app has a sufficient userbase.
+
+An issue has been opened at [https://github.com/crypto-power/cryptopower/issues/448](https://github.com/crypto-power/cryptopower/issues/448)

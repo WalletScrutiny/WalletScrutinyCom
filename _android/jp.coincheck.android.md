@@ -13,7 +13,6 @@ version: 4.18.8
 reviews: 13
 website: https://coincheck.com
 repository: 
-issue: 
 icon: jp.coincheck.android.png
 bugbounty: 
 meta: ok

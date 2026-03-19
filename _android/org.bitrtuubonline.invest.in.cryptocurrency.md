@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.bitrtuubonline.invest.in.cryptocurrency.png
 bugbounty: 
 meta: removed

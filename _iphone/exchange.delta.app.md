@@ -13,7 +13,6 @@ version: 1.8.1
 reviews: 0
 website: https://www.delta.exchange/
 repository: 
-issue: 
 icon: exchange.delta.app.jpg
 bugbounty: 
 meta: obsolete

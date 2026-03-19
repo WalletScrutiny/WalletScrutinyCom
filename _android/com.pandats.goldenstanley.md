@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://goldenstanley.com#deadLink
 repository: 
-issue: 
 icon: com.pandats.goldenstanley.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.0.39-cryptoshark
 reviews: 
 website: https://crypshark.com/
 repository: 
-issue: 
 icon: com.crypshark.png
 bugbounty: 
 meta: removed

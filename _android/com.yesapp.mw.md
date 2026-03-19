@@ -13,7 +13,6 @@ version: 11.3.10
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.yesapp.mw.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.26.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.codebrew.bankwallet.png
 bugbounty: 
 meta: removed

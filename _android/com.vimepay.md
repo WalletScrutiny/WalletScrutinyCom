@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://vimepay.com
 repository: 
-issue: 
 icon: com.vimepay.png
 bugbounty: 
 meta: removed

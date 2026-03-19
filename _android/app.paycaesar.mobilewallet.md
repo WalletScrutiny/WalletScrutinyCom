@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://aurilia.io/
 repository: 
-issue: 
 icon: app.paycaesar.mobilewallet.png
 bugbounty: 
 meta: removed

@@ -15,7 +15,6 @@ version: 2.7.5
 reviews: 10
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
-issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
@@ -44,3 +43,5 @@ features:
 {% include featureEvidence.html feature="hd" quote="when creating a new wallet, a 12-words recovery phrase is generated. Only you have it. It is your responsibility to make a backup of that recovery phrase." source="GitHub README" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https://github.com/ACINQ/phoenix/issues/112)

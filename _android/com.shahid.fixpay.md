@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://ringme.us/Privacy-Policy.html
 repository: 
-issue: 
 icon: com.shahid.fixpay.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://kingcrypto.exchange/
 repository: 
-issue: 
 icon: com.kingcrypto.android.png
 bugbounty: 
 meta: removed

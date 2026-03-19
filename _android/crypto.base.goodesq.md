@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://goodesq.com#deadLink
 repository: 
-issue: 
 icon: crypto.base.goodesq.png
 bugbounty: 
 meta: removed

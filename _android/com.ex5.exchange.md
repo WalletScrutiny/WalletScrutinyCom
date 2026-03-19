@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://ex5.com
 repository: 
-issue: 
 icon: com.ex5.exchange.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.36'
 reviews: 29
 website: https://thebitcoincompany.com
 repository: 
-issue: 
 icon: com.thebitcoincompany.app.ios.jpg
 bugbounty: 
 meta: stale

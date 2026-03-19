@@ -12,7 +12,6 @@ version: 2.6.400
 reviews: 112
 website: http://www.bigone.com
 repository: 
-issue: 
 icon: base.big.one.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.1.45
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.bitcoinindia.Btciapp.jpg
 bugbounty: 
 meta: removed

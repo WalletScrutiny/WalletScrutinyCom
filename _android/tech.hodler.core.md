@@ -13,7 +13,6 @@ version: 0.4.6
 reviews: 
 website: https://web.archive.org/web/20250822122845/https://hodler.tech/
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
-issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
 icon: tech.hodler.core.png
 bugbounty: 
 meta: removed
@@ -87,3 +86,5 @@ All in all I'd like to understand more what's going on but as the project has
 only 1000 downloads, a rather unconventional code base and basically two years
 of silence on all levels, I won't dig deeper for now and file it as
 **not verifiable**.
+
+An issue has been opened at [https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165](https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165)

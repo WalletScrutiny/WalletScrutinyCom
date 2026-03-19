@@ -13,7 +13,6 @@ version: 5.7.6
 reviews: 62
 website: https://www.mathwallet.org/
 repository: 
-issue: 
 icon: com.mathwallet.android.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 6.5.4
 reviews: 
 website: https://centurioninvest.com/
 repository: 
-issue: 
 icon: com.exchange.Ciexv2.png
 bugbounty: 
 meta: ok

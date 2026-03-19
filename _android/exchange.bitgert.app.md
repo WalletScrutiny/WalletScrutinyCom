@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 31
 website: https://bitgert.exchange
 repository: 
-issue: 
 icon: exchange.bitgert.app.png
 bugbounty: 
 meta: stale

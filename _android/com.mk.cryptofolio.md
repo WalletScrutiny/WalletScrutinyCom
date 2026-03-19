@@ -13,7 +13,6 @@ version: 1.0.51
 reviews: 
 website: http://www.thecryptofolioapp.com#deadLink
 repository: 
-issue: 
 icon: com.mk.cryptofolio.png
 bugbounty: 
 meta: removed

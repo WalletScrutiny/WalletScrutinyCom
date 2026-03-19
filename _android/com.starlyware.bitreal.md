@@ -12,7 +12,6 @@ version: 1.3.2
 reviews: 141
 website: 
 repository: 
-issue: 
 icon: com.starlyware.bitreal.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.14.0
 reviews: 2
 website: https://www.okasan-online.co.jp
 repository: 
-issue: 
 icon: jp.co.okasan-online.okasanonline.crypto.prd.jpg
 bugbounty: 
 meta: removed

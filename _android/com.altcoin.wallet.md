@@ -12,7 +12,6 @@ version: v1.6
 reviews: 11
 website: https://altcoin-wallet.online/
 repository: 
-issue: 
 icon: com.altcoin.wallet.png
 bugbounty: 
 meta: removed

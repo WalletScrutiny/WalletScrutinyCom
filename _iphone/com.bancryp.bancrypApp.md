@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 2
 website: https://bancryp.com/
 repository: 
-issue: 
 icon: com.bancryp.bancrypApp.jpg
 bugbounty: 
 meta: removed

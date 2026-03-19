@@ -13,7 +13,6 @@ version: '4.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.Kprit.theappkeyonebit.png
 bugbounty: 
 meta: removed

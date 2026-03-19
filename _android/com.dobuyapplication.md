@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://dobuy.site#deadLink
 repository: 
-issue: 
 icon: com.dobuyapplication.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 2.0.92
 reviews: 
 website: https://www.msamex.com
 repository: 
-issue: 
 icon: com.mesh.msamexexchange.jpg
 bugbounty: 
 meta: removed

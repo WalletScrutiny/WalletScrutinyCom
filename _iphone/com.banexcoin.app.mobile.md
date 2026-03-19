@@ -12,7 +12,6 @@ version: 1.1.103
 reviews: 5
 website: https://www.banexcoin.com/
 repository: 
-issue: 
 icon: com.banexcoin.app.mobile.jpg
 bugbounty: 
 meta: removed

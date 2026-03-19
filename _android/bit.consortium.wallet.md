@@ -12,7 +12,6 @@ version: '9.02'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: bit.consortium.wallet.png
 bugbounty: 
 meta: removed

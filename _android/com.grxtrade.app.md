@@ -12,7 +12,6 @@ version: 0.7.4
 reviews: 
 website: https://www.growdex.com/
 repository: 
-issue: 
 icon: com.grxtrade.app.png
 bugbounty: 
 meta: removed

@@ -15,7 +15,6 @@ version: 1.51.10
 reviews: 62
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
-issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: stale
@@ -53,3 +52,5 @@ This app is **source available**.
 This app is from the same developer of {% include walletLink.html wallet='android/com.trusteeplus' verdict='true' %}. 
 
 We verified that both apps are linked from their homepage.
+
+An issue has been opened at [https://github.com/trustee-wallet/trusteeWallet/issues/180](https://github.com/trustee-wallet/trusteeWallet/issues/180)

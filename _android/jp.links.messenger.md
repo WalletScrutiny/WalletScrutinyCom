@@ -13,7 +13,6 @@ version: 1.35.9
 reviews: 
 website: https://getlinks.jp
 repository: 
-issue: 
 icon: jp.links.messenger.jpg
 bugbounty: 
 meta: removed

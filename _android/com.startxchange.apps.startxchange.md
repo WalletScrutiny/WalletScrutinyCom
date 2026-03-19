@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://startxchange.com.gh#deadLink
 repository: 
-issue: 
 icon: com.startxchange.apps.startxchange.jpg
 bugbounty: 
 meta: removed

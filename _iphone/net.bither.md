@@ -15,7 +15,6 @@ version: 2.1.4
 reviews: 62
 website: https://bither.net
 repository: https://github.com/bither/bither-ios
-issue: 
 icon: net.bither.jpg
 bugbounty: 
 meta: stale

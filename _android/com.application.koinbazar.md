@@ -13,7 +13,6 @@ version: 3.0.88
 reviews: 3485
 website: https://koinbx.com/
 repository: 
-issue: 
 icon: com.application.koinbazar.png
 bugbounty: 
 meta: ok

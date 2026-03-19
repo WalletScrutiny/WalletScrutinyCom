@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://absurdapps.netlify.app#deadLink
 repository: 
-issue: 
 icon: com.mobuyg.nmx.png
 bugbounty: 
 meta: removed

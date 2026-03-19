@@ -12,7 +12,6 @@ version: '1.06'
 reviews: 
 website: https://www.g-wallet.io#deadLink
 repository: 
-issue: 
 icon: com.gwallet.main.png
 bugbounty: 
 meta: removed

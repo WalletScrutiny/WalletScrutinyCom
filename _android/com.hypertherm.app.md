@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 
 website: https://www.c2cx.com
 repository: 
-issue: 
 icon: com.hypertherm.app.png
 bugbounty: 
 meta: removed

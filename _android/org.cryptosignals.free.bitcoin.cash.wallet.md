@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptosignals.free.bitcoin.cash.wallet.jpg
 bugbounty: 
 meta: removed

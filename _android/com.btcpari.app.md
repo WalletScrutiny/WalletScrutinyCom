@@ -12,7 +12,6 @@ version: 1.0.13
 reviews: 
 website: https://btcpari.com#deadLink
 repository: 
-issue: 
 icon: com.btcpari.app.png
 bugbounty: 
 meta: removed

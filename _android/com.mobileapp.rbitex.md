@@ -13,7 +13,6 @@ version: 3.0.2
 reviews: 
 website: https://rbitex.com
 repository: 
-issue: 
 icon: com.mobileapp.rbitex.png
 bugbounty: 
 meta: removed

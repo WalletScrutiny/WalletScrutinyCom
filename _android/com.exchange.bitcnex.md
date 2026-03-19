@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.exchange.bitcnex.png
 bugbounty: 
 meta: removed

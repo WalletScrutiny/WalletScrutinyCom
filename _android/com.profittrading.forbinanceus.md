@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 9
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forbinanceus.png
 bugbounty: 
 meta: removed

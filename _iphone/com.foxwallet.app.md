@@ -13,7 +13,6 @@ version: 5.5.16
 reviews: 87
 website: https://foxwallet.com/
 repository: 
-issue: 
 icon: com.foxwallet.app.jpg
 bugbounty: 
 meta: ok

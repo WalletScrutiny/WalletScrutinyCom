@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://crosstower.com#deadLink
 repository: 
-issue: 
 icon: com.ctower.wallet.png
 bugbounty: 
 meta: removed

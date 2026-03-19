@@ -13,7 +13,6 @@ version: 1.7.6
 reviews: 2
 website: https://www.vipsfinstock.com
 repository: 
-issue: 
 icon: com.vipsfinstock.vipsapp.png
 bugbounty: 
 meta: removed

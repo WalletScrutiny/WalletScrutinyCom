@@ -13,7 +13,6 @@ version: 3.0.34
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.qkex.png
 bugbounty: 
 meta: removed

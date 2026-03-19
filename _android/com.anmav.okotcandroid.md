@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://okotc.io#deadLink
 repository: 
-issue: 
 icon: com.anmav.okotcandroid.jpg
 bugbounty: 
 meta: removed

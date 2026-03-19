@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 10
 website: https://www.altcointrader.co.za/
 repository: 
-issue: 
 icon: co.za.altcointrader.png
 bugbounty: 
 meta: ok

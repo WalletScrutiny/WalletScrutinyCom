@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://www.coinzo.com
 repository: 
-issue: 
 icon: com.coinzo.app.png
 bugbounty: 
 meta: removed

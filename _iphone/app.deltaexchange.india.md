@@ -13,7 +13,6 @@ version: 2.12.0
 reviews: 18795
 website: https://india.delta.exchange/
 repository: 
-issue: 
 icon: app.deltaexchange.india.jpg
 bugbounty: 
 meta: ok

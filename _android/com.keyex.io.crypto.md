@@ -12,7 +12,6 @@ version: 1.1.39
 reviews: 
 website: https://www.keyex.io
 repository: 
-issue: 
 icon: com.keyex.io.crypto.png
 bugbounty: 
 meta: ok

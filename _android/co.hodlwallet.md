@@ -14,7 +14,6 @@ version: 3.3.5
 reviews: 51
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android
-issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50
 icon: co.hodlwallet.png
 bugbounty: 
 meta: removed
@@ -256,3 +255,5 @@ beyond human review.
 That is not good enough.
 
 Our verdict for now: **not verifiable**.
+
+An issue has been opened at [https://github.com/hodlwallet/hodl-wallet-android/issues/50](https://github.com/hodlwallet/hodl-wallet-android/issues/50)

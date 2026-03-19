@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://goldtradeuk.com/
 repository: 
-issue: 
 icon: com.goldtradeuk.io.jpg
 bugbounty: 
 meta: removed

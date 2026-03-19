@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 0
 website: http://www.bekonta.com
 repository: 
-issue: 
 icon: com.bekonta.app.jpg
 bugbounty: 
 meta: removed

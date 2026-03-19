@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 4
 website: https://mal.io
 repository: 
-issue: 
 icon: io.mal.exchange.jpg
 bugbounty: 
 meta: ok

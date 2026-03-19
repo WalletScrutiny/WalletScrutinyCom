@@ -13,7 +13,6 @@ version: 7.20.1
 reviews: 172
 website: https://www.bitfinex.com/mobile-trading/
 repository: 
-issue: 
 icon: com.bitfinex.bfxprod.jpg
 bugbounty: 
 meta: ok

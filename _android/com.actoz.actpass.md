@@ -13,7 +13,6 @@ version: 2.2.2
 reviews: 1
 website: https://www.actpass.com
 repository: 
-issue: 
 icon: com.actoz.actpass.png
 bugbounty: 
 meta: ok

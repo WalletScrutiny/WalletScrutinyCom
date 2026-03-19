@@ -13,7 +13,6 @@ version: 0.1.29
 reviews: 4
 website: https://app.xbts.io
 repository: https://github.com/XBTS/app
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/499
 icon: io.xbts.app.png
 bugbounty: 
 meta: removed
@@ -52,3 +51,5 @@ features:
 - The app's repository could be found [here](https://github.com/XBTS/app).
 
 This app is **for verification**.
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/499](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/499)

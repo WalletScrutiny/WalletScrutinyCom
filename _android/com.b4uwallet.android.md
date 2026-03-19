@@ -13,7 +13,6 @@ version: 4.3.4
 reviews: 
 website: https://b4uwallet.com
 repository: 
-issue: 
 icon: com.b4uwallet.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.2.33
 reviews: 
 website: https://criptan.com
 repository: 
-issue: 
 icon: com.criptan.app.png
 bugbounty: 
 meta: ok

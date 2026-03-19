@@ -13,7 +13,6 @@ version: 2.11.17
 reviews: 8
 website: https://www.net-cents.com
 repository: 
-issue: 
 icon: com.net-cents.app.jpg
 bugbounty: 
 meta: removed

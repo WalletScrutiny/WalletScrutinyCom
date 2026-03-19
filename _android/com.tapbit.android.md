@@ -13,7 +13,6 @@ version: 4.3.0
 reviews: 32
 website: 
 repository: 
-issue: 
 icon: com.tapbit.android.png
 bugbounty: 
 meta: ok

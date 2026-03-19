@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://www.viktraders.com
 repository: 
-issue: 
 icon: com.viktraders.www.png
 bugbounty: 
 meta: removed

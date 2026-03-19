@@ -13,7 +13,6 @@ version: 2.6.4
 reviews: 1
 website: https://swiss-bitcoin-pay.ch
 repository: https://github.com/SwissBitcoinPay/app
-issue: 
 icon: ch.swissbitcoinpay.checkout.jpg
 bugbounty: 
 meta: ok

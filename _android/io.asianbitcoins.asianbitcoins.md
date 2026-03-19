@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 113
 website: https://asianbitcoins.org#deadLink
 repository: 
-issue: 
 icon: io.asianbitcoins.asianbitcoins.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.3
 reviews: 1
 website: https://web.archive.org/web/20240419054942/http://www.btcbcheth.net/
 repository: 
-issue: 
 icon: com.BTC.BTC_BCH.png
 bugbounty: 
 meta: removed

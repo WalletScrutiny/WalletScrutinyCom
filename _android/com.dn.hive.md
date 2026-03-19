@@ -12,7 +12,6 @@ version: 10.0.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.dn.hive.png
 bugbounty: 
 meta: removed

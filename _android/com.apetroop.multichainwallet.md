@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://globaltoken.vip
 repository: 
-issue: 
 icon: com.apetroop.multichainwallet.png
 bugbounty: 
 meta: removed

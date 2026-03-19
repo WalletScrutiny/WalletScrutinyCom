@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: https://lightning.engineering
 repository: https://github.com/lightninglabs/lightning-app
-issue: https://github.com/lightninglabs/lightning-app/issues/67
 icon: engineering.lightning.LightningMainnet.png
 bugbounty: 
 meta: removed
@@ -109,3 +108,5 @@ each release.
 
 So for now we hope for better build instructions so we can soon give it another
 try and conclude this provider probably shares the source but it's **not verifiable**.
+
+An issue has been opened at [https://github.com/lightninglabs/lightning-app/issues/67](https://github.com/lightninglabs/lightning-app/issues/67)

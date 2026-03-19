@@ -17,7 +17,6 @@ shop: https://www.coincorner.com/BuyTheBoltCard
 country: UK
 price: £4.99
 repository: 
-issue: 
 icon: coincorner.boltcard.png
 bugbounty: 
 meta: ok

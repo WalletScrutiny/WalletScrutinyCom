@@ -12,7 +12,6 @@ version: 1.0.38
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.heatwallet.heat_wallet.png
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptobrowser.bitcoin.era.app.jpg
 bugbounty: 
 meta: removed

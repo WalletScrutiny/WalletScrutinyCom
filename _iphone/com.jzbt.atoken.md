@@ -13,7 +13,6 @@ version: 4.2.0
 reviews: 263
 website: 
 repository: 
-issue: 
 icon: com.jzbt.atoken.jpg
 bugbounty: 
 meta: removed

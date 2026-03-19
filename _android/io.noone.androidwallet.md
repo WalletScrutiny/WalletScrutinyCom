@@ -13,7 +13,6 @@ version: 1.32.0
 reviews: 291
 website: https://noone.io
 repository: 
-issue: 
 icon: io.noone.androidwallet.png
 bugbounty: 
 meta: ok

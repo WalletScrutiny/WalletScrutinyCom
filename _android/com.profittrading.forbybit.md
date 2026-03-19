@@ -13,7 +13,6 @@ version: 6.0.5
 reviews: 3
 website: https://profittradingapp.com?utm_source=bybit_gp
 repository: 
-issue: 
 icon: com.profittrading.forbybit.png
 bugbounty: 
 meta: ok

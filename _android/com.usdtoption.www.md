@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 14
 website: https://www.usdtoption.com
 repository: 
-issue: 
 icon: com.usdtoption.www.png
 bugbounty: 
 meta: removed

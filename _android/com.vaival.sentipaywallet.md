@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.sentipaywallet.com
 repository: 
-issue: 
 icon: com.vaival.sentipaywallet.png
 bugbounty: 
 meta: removed

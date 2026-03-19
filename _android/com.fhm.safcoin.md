@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 
 website: http://www.safcoin.co.za
 repository: 
-issue: 
 icon: com.fhm.safcoin.png
 bugbounty: 
 meta: removed

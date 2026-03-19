@@ -13,7 +13,6 @@ version: 1.12.2
 reviews: 2
 website: https://btcmarkets.net
 repository: 
-issue: 
 icon: com.btcmarket.btcm.png
 bugbounty: 
 meta: ok

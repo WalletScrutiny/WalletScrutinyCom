@@ -12,7 +12,6 @@ version: '0.6'
 reviews: 
 website: https://www.earnfinex.com/
 repository: 
-issue: 
 icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.png
 bugbounty: 
 meta: removed

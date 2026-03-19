@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: ca.ewallet.web3.mobile.png
 bugbounty: 
 meta: removed

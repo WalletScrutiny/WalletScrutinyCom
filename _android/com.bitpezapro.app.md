@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: https://bekonta.com
 repository: 
-issue: 
 icon: com.bitpezapro.app.png
 bugbounty: 
 meta: removed

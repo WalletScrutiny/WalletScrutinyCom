@@ -13,7 +13,6 @@ version: 2026.01.28
 reviews: 60
 website: https://www.digifinex.com
 repository: 
-issue: 
 icon: com.digifinex.app.jpg
 bugbounty: 
 meta: defunct

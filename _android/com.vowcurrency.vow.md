@@ -13,7 +13,6 @@ version: 10.3.7
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.vowcurrency.vow.png
 bugbounty: 
 meta: removed

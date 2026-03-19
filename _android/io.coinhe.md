@@ -13,7 +13,6 @@ version: 1.0.6.7
 reviews: 5
 website: https://coinhe.io/
 repository: 
-issue: 
 icon: io.coinhe.png
 bugbounty: 
 meta: removed

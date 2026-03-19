@@ -12,7 +12,6 @@ provider: Cake Labs
 providerWebsite: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue: 
 icon: cakewallet.png
 bugbounty: 
 meta: ok

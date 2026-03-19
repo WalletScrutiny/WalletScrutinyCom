@@ -13,7 +13,6 @@ version: 2.36.3
 reviews: 0
 website: http://www.mobi.me
 repository: 
-issue: 
 icon: me.mobi.app.jpg
 bugbounty: 
 meta: obsolete

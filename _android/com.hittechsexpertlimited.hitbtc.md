@@ -13,7 +13,6 @@ version: 3.3.5
 reviews: 5
 website: https://hitbtc.com/
 repository: 
-issue: 
 icon: com.hittechsexpertlimited.hitbtc.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.5.6
 reviews: 
 website: https://www.cd-ex.com/index#deadLink
 repository: 
-issue: 
 icon: com.xsjys.bbtc.png
 bugbounty: 
 meta: removed

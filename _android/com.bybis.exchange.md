@@ -13,7 +13,6 @@ version: '1.13'
 reviews: 
 website: https://bybis.com
 repository: 
-issue: 
 icon: com.bybis.exchange.png
 bugbounty: 
 meta: removed

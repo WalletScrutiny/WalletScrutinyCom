@@ -13,7 +13,6 @@ version: 11.16.1
 reviews: 495
 website: http://www.hbg.com
 repository: 
-issue: 
 icon: pro.huobi.png
 bugbounty: 
 meta: ok

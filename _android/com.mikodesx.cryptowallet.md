@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: https://mikodes.com
 repository: 
-issue: 
 icon: com.mikodesx.cryptowallet.png
 bugbounty: 
 meta: removed

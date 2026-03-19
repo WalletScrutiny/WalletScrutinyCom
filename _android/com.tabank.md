@@ -13,7 +13,6 @@ version: 1.3.7
 reviews: 
 website: https://web.tabus.co/
 repository: 
-issue: 
 icon: com.tabank.png
 bugbounty: 
 meta: removed

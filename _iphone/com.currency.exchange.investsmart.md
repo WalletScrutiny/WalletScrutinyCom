@@ -13,7 +13,6 @@ version: 1.32.0
 reviews: 23
 website: https://currency.com/
 repository: 
-issue: 
 icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
 meta: removed

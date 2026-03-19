@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/stepansnigirev/m5stack_hardware_wallet
-issue: 
 icon: 
 bugbounty: 
 meta: obsolete

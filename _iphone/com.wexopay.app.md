@@ -13,7 +13,6 @@ version: 3.4.0
 reviews: 554
 website: https://wexopay.com/
 repository: 
-issue: 
 icon: com.wexopay.app.jpg
 bugbounty: 
 meta: removed

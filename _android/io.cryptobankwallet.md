@@ -12,7 +12,6 @@ version: 0.12.0
 reviews: 
 website: http://www.gexpay.com
 repository: 
-issue: 
 icon: io.cryptobankwallet.jpg
 bugbounty: 
 meta: removed

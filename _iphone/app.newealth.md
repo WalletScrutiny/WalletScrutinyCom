@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: app.newealth.jpg
 bugbounty: 
 meta: removed

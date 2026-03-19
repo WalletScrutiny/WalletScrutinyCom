@@ -12,7 +12,6 @@ version: 0.3.1-beta
 reviews: 
 website: https://ehanoc.github.io/xwallet#deadLink
 repository: 
-issue: 
 icon: com.bytetobyte.xwallet.png
 bugbounty: 
 meta: removed

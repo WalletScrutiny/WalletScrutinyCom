@@ -13,7 +13,6 @@ version: '168.6'
 reviews: 11
 website: http://www.avatrade.com
 repository: 
-issue: 
 icon: com.avatrade.mobile.png
 bugbounty: 
 meta: ok

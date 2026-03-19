@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://hurbito.com#deadLink
 repository: 
-issue: 
 icon: com.hurbito.app.jpg
 bugbounty: 
 meta: removed

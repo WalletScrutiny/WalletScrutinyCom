@@ -12,7 +12,6 @@ version: '8.0'
 reviews: 
 website: https://forgingblock.io
 repository: 
-issue: 
 icon: io.app.forgingblock.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.5.3
 reviews: 9
 website: https://rootone.com#deadLink
 repository: 
-issue: 
 icon: com.rootone.wallet.png
 bugbounty: 
 meta: removed

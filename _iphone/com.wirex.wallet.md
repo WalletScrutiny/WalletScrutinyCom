@@ -13,7 +13,6 @@ version: 2.5.4
 reviews: 10
 website: https://www.coca.xyz/
 repository: 
-issue: 
 icon: com.wirex.wallet.jpg
 bugbounty: 
 meta: ok

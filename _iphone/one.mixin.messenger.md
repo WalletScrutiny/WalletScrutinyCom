@@ -15,7 +15,6 @@ version: 3.6.0
 reviews: 1084
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork/android-app
-issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.jpg
 bugbounty: 
 meta: ok
@@ -35,3 +34,5 @@ developerName: Mixin Ltd
 **Note:** iPhone products are not verifiable.
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/2559](https://github.com/MixinNetwork/android-app/issues/2559)

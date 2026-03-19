@@ -13,7 +13,6 @@ version: 1.0.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.project.wmc.png
 bugbounty: 
 meta: removed

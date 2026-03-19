@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 
 website: https://safepay.live#deadLink
 repository: 
-issue: 
 icon: com.safepay.live.png
 bugbounty: 
 meta: removed

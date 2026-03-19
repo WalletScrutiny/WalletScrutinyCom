@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://shopperoo.com#deadLink
 repository: 
-issue: 
 icon: com.shopperoo.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptee.bitcoin.trading.app.free.jpg
 bugbounty: 
 meta: removed

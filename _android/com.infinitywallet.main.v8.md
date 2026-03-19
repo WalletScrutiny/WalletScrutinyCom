@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.infinitywallet.main.v8.png
 bugbounty: 
 meta: removed

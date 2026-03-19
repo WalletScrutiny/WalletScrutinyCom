@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://finfreeotc.com
 repository: 
-issue: 
 icon: com.pulsedigital.finfreeotc.jpg
 bugbounty: 
 meta: removed

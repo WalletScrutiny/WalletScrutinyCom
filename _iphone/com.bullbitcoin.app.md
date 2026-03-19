@@ -12,7 +12,6 @@ version: 6.5.4
 reviews: 14
 website: https://bullbitcoin.com
 repository: 
-issue: 
 icon: com.bullbitcoin.app.jpg
 bugbounty: 
 meta: ok

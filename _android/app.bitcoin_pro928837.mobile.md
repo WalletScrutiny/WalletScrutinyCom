@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.bitcoin_pro928837.mobile.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 3
 website: https://hub.hashkey.com#deadLink
 repository: 
-issue: 
 icon: com.hashkey.hub.png
 bugbounty: 
 meta: removed

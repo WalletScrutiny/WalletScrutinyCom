@@ -13,7 +13,6 @@ version: 2.2.7
 reviews: 36
 website: https://dtunes.ng
 repository: 
-issue: 
 icon: ng.dtunes.app.png
 bugbounty: 
 meta: ok

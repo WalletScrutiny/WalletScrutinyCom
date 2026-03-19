@@ -13,7 +13,6 @@ version: 2.4.56
 reviews: 112
 website: https://vision-crypto.com#deadLink
 repository: 
-issue: 
 icon: com.eletac.tronwallet.png
 bugbounty: 
 meta: removed

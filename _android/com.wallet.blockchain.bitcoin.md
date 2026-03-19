@@ -13,7 +13,6 @@ version: 0.2.7
 reviews: 
 website: https://coinhub8899.web.app
 repository: https://github.com/hoanghiephui/coindex-wallet-android
-issue: 
 icon: com.wallet.blockchain.bitcoin.png
 bugbounty: 
 meta: stale

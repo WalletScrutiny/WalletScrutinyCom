@@ -13,7 +13,6 @@ version: 3.5.4
 reviews: 9
 website: https://web.archive.org/web/20250325221559/https://coinsbank.com/
 repository: 
-issue: 
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
 meta: removed

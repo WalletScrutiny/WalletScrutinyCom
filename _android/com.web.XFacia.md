@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 
 website: http://xfacia.com/
 repository: 
-issue: 
 icon: com.web.XFacia.png
 bugbounty: 
 meta: removed

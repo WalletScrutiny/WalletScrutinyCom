@@ -13,7 +13,6 @@ version: 2.9.3
 reviews: 10
 website: https://web.archive.org/web/20220826010753/https://kcash.com/
 repository: 
-issue: 
 icon: com.kcw.kcash.jpg
 bugbounty: 
 meta: removed

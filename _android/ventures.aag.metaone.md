@@ -13,7 +13,6 @@ version: 6.2.0
 reviews: 14
 website: https://getmeta.one/
 repository: 
-issue: 
 icon: ventures.aag.metaone.png
 bugbounty: 
 meta: ok

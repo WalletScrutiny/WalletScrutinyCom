@@ -14,7 +14,6 @@ version: 3.0.0
 reviews: 14224
 website: https://www.chivowallet.com
 repository: 
-issue: 
 icon: com.chivo.wallet.png
 bugbounty: 
 meta: ok

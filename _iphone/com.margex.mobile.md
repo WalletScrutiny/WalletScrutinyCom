@@ -13,7 +13,6 @@ version: 4.9.2
 reviews: 566
 website: 
 repository: 
-issue: 
 icon: com.margex.mobile.jpg
 bugbounty: 
 meta: ok

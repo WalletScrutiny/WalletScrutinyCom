@@ -13,7 +13,6 @@ version: 1.6.0
 reviews: 
 website: http://bancryp.com
 repository: 
-issue: 
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.14
 reviews: 
 website: https://www.hedgerx.com
 repository: 
-issue: 
 icon: com.hedgerx.exchange.png
 bugbounty: 
 meta: ok

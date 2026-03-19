@@ -13,7 +13,6 @@ version: 1.13.0
 reviews: 
 website: https://delta.exchange
 repository: 
-issue: 
 icon: exchange.delta.png
 bugbounty: 
 meta: ok

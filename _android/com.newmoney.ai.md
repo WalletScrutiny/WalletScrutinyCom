@@ -13,7 +13,6 @@ version: 1.8.10
 reviews: 10
 website: https://newmoney.ai/
 repository: 
-issue: 
 icon: com.newmoney.ai.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.1.2
 reviews: 
 website: https://s3wallet.io#deadLink
 repository: 
-issue: 
 icon: io.s3.wallet.png
 bugbounty: 
 meta: removed

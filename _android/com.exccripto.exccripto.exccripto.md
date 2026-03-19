@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://exccripto.com#deadLink
 repository: 
-issue: 
 icon: com.exccripto.exccripto.exccripto.png
 bugbounty: 
 meta: removed

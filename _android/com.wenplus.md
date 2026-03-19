@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wenplus.jpg
 bugbounty: 
 meta: removed

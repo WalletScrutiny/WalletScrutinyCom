@@ -17,7 +17,6 @@ shop:
 country: ID
 price: 
 repository: 
-issue: 
 icon: belibitcoin.png
 bugbounty: 
 meta: ok

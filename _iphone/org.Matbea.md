@@ -13,7 +13,6 @@ version: 1.4.9
 reviews: 127
 website: 
 repository: 
-issue: 
 icon: org.Matbea.jpg
 bugbounty: 
 meta: removed

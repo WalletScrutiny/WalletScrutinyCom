@@ -17,7 +17,6 @@ shop: https://www.yubico.com/ph/product/yubikey-5ci/
 country: US
 price: 70USD
 repository: 
-issue: 
 icon: evercoin.png
 bugbounty: 
 meta: ok

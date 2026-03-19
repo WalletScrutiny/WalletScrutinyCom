@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://bitfin.io
 repository: 
-issue: 
 icon: com.bitfin.BitFin.png
 bugbounty: 
 meta: removed

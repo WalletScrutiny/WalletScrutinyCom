@@ -13,7 +13,6 @@ version: 2.2.7
 reviews: 37
 website: 
 repository: 
-issue: 
 icon: io.kitefinancial.bitcoin.jpg
 bugbounty: 
 meta: obsolete

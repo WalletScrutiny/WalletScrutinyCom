@@ -13,7 +13,6 @@ version: 2.5.5
 reviews: 27
 website: https://coincred.org/
 repository: 
-issue: 
 icon: com.coincred.android.png
 bugbounty: 
 meta: ok

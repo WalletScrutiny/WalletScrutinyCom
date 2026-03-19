@@ -12,7 +12,6 @@ version: 18.0.1
 reviews: 
 website: https://www.gk8.io/contact-us/
 repository: 
-issue: 
 icon: com.gk8.network.png
 bugbounty: 
 meta: ok

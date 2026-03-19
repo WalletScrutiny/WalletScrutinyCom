@@ -13,7 +13,6 @@ version: 0.18.4
 reviews: 
 website: http://bitcoinrd.do
 repository: 
-issue: 
 icon: com.bitcoinrd.BitcoinRD.png
 bugbounty: 
 meta: ok

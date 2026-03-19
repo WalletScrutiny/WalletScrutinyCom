@@ -13,7 +13,6 @@ version: 3.0.39
 reviews: 1105
 website: 
 repository: 
-issue: 
 icon: com.giottus.app.jpg
 bugbounty: 
 meta: ok

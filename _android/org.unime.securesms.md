@@ -12,7 +12,6 @@ version: 4.3.0
 reviews: 19
 website: https://web.archive.org/web/20240807052643/http://about.unime.world/
 repository: 
-issue: 
 icon: org.unime.securesms.png
 bugbounty: 
 meta: removed

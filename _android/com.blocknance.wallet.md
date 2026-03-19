@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 3
 website: https://blockchain.com.do
 repository: 
-issue: 
 icon: com.blocknance.wallet.png
 bugbounty: 
 meta: removed

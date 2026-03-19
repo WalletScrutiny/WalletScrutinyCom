@@ -13,7 +13,6 @@ version: '4.2'
 reviews: 
 website: https://www.dhanu.org#deadLink
 repository: 
-issue: 
 icon: com.cryptoex.dhanux.png
 bugbounty: 
 meta: removed

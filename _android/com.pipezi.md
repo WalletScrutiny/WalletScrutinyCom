@@ -12,7 +12,6 @@ version: 2.5.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.pipezi.jpg
 bugbounty: 
 meta: removed

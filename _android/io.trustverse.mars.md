@@ -13,7 +13,6 @@ version: 2.4.0G
 reviews: 
 website: http://www.trustverse.io
 repository: 
-issue: 
 icon: io.trustverse.mars.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.9.2
 reviews: 
 website: https://faswet.com
 repository: 
-issue: 
 icon: com.emet.faswet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 4
 website: https://tkblockchain.net
 repository: 
-issue: 
 icon: org.openstars.tkblockchain.jpg
 bugbounty: 
 meta: removed

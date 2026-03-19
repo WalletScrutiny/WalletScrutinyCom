@@ -21,7 +21,6 @@ shop: https://security-arts.com/order
 country: UA
 price: 49USD
 repository: 
-issue: https://github.com/SecurityArts/QuantumManager/issues/14
 icon: quantum.png
 bugbounty: 
 meta: ok
@@ -88,4 +87,4 @@ As noted in Leo's [comment on GitLab](https://gitlab.com/walletscrutiny/walletSc
 >
 > [Here](https://github.com/SecurityArts/QuantumManager/blob/1a3ad5d4aec89c4ae06752f21b8f9bc44da35fc4/app/js/updates.js#L11) the "Quantum Manager" requests the firmware, providing a random number and the hardware wallet's serial number. This would allow to send a different firmware to each different client. Notably not providing a serial number or just random guessed integers returns errors.
 
-
+An issue has been opened at [https://github.com/SecurityArts/QuantumManager/issues/14](https://github.com/SecurityArts/QuantumManager/issues/14)

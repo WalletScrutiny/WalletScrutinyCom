@@ -13,7 +13,6 @@ version: '9.8'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: coinvest.investment.png
 bugbounty: 
 meta: removed

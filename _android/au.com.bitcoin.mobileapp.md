@@ -13,7 +13,6 @@ version: 14.3.0
 reviews: 
 website: https://www.bitcoin.com.au
 repository: 
-issue: 
 icon: au.com.bitcoin.mobileapp.png
 bugbounty: 
 meta: ok

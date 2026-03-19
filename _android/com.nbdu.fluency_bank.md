@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 8
 website: https://www.fluencybank.com#deadLink
 repository: 
-issue: 
 icon: com.nbdu.fluency_bank.png
 bugbounty: 
 meta: removed

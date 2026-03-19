@@ -12,7 +12,6 @@ version: 4.3.0
 reviews: 
 website: https://endopay.com
 repository: 
-issue: 
 icon: com.endopay.app.png
 bugbounty: 
 meta: removed

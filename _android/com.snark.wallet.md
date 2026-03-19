@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://snarkwallet.app/
 repository: 
-issue: 
 icon: com.snark.wallet.jpg
 bugbounty: 
 meta: removed

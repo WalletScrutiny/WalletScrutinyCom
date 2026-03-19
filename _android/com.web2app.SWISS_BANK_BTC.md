@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.web2app.SWISS_BANK_BTC.jpg
 bugbounty: 
 meta: removed

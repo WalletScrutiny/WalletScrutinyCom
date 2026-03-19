@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.wetrade.app#deadLink
 repository: 
-issue: 
 icon: com.wetrade.android.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.flashtrade.club#deadLink
 repository: 
-issue: 
 icon: com.am.flashtrade.png
 bugbounty: 
 meta: removed

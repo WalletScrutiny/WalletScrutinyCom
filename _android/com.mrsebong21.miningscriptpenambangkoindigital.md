@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://z31aec014.app-ads-txt.com
 repository: 
-issue: 
 icon: com.mrsebong21.miningscriptpenambangkoindigital.png
 bugbounty: 
 meta: removed

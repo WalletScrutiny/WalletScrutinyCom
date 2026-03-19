@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://thisapp.io
 repository: 
-issue: 
 icon: io.thisapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.31
 reviews: 
 website: https://bitcoinupbit.com/
 repository: 
-issue: 
 icon: com.bitcoinupbit.exchange.png
 bugbounty: 
 meta: obsolete

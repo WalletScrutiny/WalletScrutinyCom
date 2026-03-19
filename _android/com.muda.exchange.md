@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://www.muda.exchange#deadLink
 repository: 
-issue: 
 icon: com.muda.exchange.png
 bugbounty: 
 meta: removed

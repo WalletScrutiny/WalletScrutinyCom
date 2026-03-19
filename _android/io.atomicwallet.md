@@ -14,7 +14,6 @@ version: 1.40.4
 reviews: 5830
 website: https://atomicwallet.io
 repository: 
-issue: 
 icon: io.atomicwallet.png
 bugbounty: 
 meta: ok

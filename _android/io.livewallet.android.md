@@ -12,7 +12,6 @@ version: 1.5.3
 reviews: 
 website: https://livewallet.io#deadLink
 repository: 
-issue: 
 icon: io.livewallet.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bit.eu
 repository: 
-issue: 
 icon: com.Bit.Eu.png
 bugbounty: 
 meta: removed

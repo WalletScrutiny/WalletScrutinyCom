@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: io.crypto.wallet.png
 bugbounty: 
 meta: removed

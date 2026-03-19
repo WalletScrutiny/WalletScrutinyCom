@@ -13,7 +13,6 @@ version: 145.0.0
 reviews: 160
 website: 
 repository: 
-issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
 meta: stale

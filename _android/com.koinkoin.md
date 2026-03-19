@@ -13,7 +13,6 @@ version: 6.2.5
 reviews: 
 website: https://koinkoin.io/
 repository: 
-issue: 
 icon: com.koinkoin.png
 bugbounty: 
 meta: stale

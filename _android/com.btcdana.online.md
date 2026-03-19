@@ -13,7 +13,6 @@ version: 2.6.2
 reviews: 171
 website: https://www.btcdana.com/
 repository: 
-issue: 
 icon: com.btcdana.online.png
 bugbounty: 
 meta: ok

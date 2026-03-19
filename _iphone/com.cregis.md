@@ -13,7 +13,6 @@ version: 3.6.2
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.cregis.jpg
 bugbounty: 
 meta: ok

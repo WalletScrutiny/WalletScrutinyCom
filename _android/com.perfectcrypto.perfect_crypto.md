@@ -13,7 +13,6 @@ version: 1.1.6
 reviews: 29
 website: https://perfectcrypto.net/
 repository: 
-issue: 
 icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
 meta: removed

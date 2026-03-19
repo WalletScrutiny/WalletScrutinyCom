@@ -13,7 +13,6 @@ version: '1.33'
 reviews: 958
 website: https://www.buyucoin.com
 repository: 
-issue: 
 icon: com.buyucoin.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 7.4.0
 reviews: 20
 website: https://www.sarwa.co
 repository: 
-issue: 
 icon: co.sarwa.png
 bugbounty: 
 meta: ok

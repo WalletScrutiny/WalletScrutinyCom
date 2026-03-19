@@ -13,7 +13,6 @@ version: 3.9.9
 reviews: 23
 website: http://pumapay.io
 repository: 
-issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
 meta: removed

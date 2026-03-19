@@ -13,7 +13,6 @@ version: 1.0.9
 reviews: 
 website: https://buy-bitcoin.pro
 repository: 
-issue: 
 icon: buy_bitcoin.pro.png
 bugbounty: 
 meta: removed

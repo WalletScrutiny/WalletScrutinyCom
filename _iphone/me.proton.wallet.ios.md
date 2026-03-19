@@ -13,7 +13,6 @@ version: 1.2.3
 reviews: 153
 website: https://proton.me/wallet
 repository: 
-issue: 
 icon: me.proton.wallet.ios.jpg
 bugbounty: 
 meta: ok

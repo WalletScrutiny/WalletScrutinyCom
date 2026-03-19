@@ -20,7 +20,6 @@ shop: https://www.amazon.com/-/es/Temexe-Cryptocurrency-Bluetooth-Encryption-rec
 country: US
 price: 
 repository: 
-issue: 
 icon: temexex.png
 bugbounty: 
 meta: defunct

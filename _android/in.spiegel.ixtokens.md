@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: https://ixtokens.com/
 repository: 
-issue: 
 icon: in.spiegel.ixtokens.png
 bugbounty: 
 meta: removed

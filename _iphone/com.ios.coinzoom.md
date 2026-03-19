@@ -14,7 +14,6 @@ version: 1.2.0
 reviews: 163
 website: http://www.coinzoom.com
 repository: 
-issue: 
 icon: com.ios.coinzoom.jpg
 bugbounty: 
 meta: removed

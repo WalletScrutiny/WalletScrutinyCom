@@ -13,7 +13,6 @@ version: 3.0.391
 reviews: 17
 website: https://iflux.app
 repository: 
-issue: 
 icon: com.fluxpayment.png
 bugbounty: 
 meta: removed

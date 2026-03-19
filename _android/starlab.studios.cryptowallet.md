@@ -13,7 +13,6 @@ version: '10.0'
 reviews: 
 website: https://web.archive.org/web/20250216120614/https://starlabstudiosapps.xyz/
 repository: 
-issue: 
 icon: starlab.studios.cryptowallet.png
 bugbounty: 
 meta: removed

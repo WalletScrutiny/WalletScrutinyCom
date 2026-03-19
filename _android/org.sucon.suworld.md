@@ -12,7 +12,6 @@ version: 1.0.0.6
 reviews: 
 website: https://web.archive.org/web/20250129180741/https://suworld.net/
 repository: 
-issue: 
 icon: org.sucon.suworld.png
 bugbounty: 
 meta: removed

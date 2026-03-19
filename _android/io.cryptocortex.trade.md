@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://cryptocortex.io/
 repository: 
-issue: 
 icon: io.cryptocortex.trade.png
 bugbounty: 
 meta: removed

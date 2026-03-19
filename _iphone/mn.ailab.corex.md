@@ -13,7 +13,6 @@ version: 2.0.68
 reviews: 9
 website: https://www.corexchain.io/?page_id=1479&lang=en
 repository: 
-issue: 
 icon: mn.ailab.corex.jpg
 bugbounty: 
 meta: ok

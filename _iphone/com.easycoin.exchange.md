@@ -13,7 +13,6 @@ version: 1.0.78
 reviews: 1
 website: https://www.easycoins.com/
 repository: 
-issue: 
 icon: com.easycoin.exchange.jpg
 bugbounty: 
 meta: removed

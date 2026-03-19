@@ -13,7 +13,6 @@ version: 6.15.41
 reviews: 
 website: https://gate.com.tr/
 repository: 
-issue: 
 icon: com.gateio.turkey.png
 bugbounty: 
 meta: ok

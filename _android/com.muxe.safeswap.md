@@ -12,7 +12,6 @@ version: 2.1.1
 reviews: 
 website: https://safeswap.online/
 repository: 
-issue: 
 icon: com.muxe.safeswap.png
 bugbounty: 
 meta: removed

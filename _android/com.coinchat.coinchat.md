@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 29
 website: http://www.coinchat.im#deadLink
 repository: 
-issue: 
 icon: com.coinchat.coinchat.png
 bugbounty: 
 meta: removed

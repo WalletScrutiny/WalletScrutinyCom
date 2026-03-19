@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://lemonexchange.africa#deadLink
 repository: 
-issue: 
 icon: app.exchange.lemon.png
 bugbounty: 
 meta: removed

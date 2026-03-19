@@ -13,7 +13,6 @@ version: '0.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.CryptAppsBtc.Life.png
 bugbounty: 
 meta: removed

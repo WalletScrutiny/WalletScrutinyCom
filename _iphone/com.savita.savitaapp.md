@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 0
 website: https://savitaglobal.com
 repository: 
-issue: 
 icon: com.savita.savitaapp.jpg
 bugbounty: 
 meta: removed

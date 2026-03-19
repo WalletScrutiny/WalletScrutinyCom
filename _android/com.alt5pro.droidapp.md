@@ -13,7 +13,6 @@ version: '1.9'
 reviews: 
 website: http://alt5pro.com
 repository: 
-issue: 
 icon: com.alt5pro.droidapp.png
 bugbounty: 
 meta: removed

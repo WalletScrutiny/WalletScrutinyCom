@@ -13,7 +13,6 @@ version: 2.0.0.1
 reviews: 
 website: https://unicoindcx.com/
 repository: 
-issue: 
 icon: com.trade.unicoindcx.png
 bugbounty: 
 meta: removed

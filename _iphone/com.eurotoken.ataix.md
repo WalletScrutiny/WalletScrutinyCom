@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 0
 website: https://ataix.com
 repository: 
-issue: 
 icon: com.eurotoken.ataix.jpg
 bugbounty: 
 meta: removed

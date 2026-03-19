@@ -13,7 +13,6 @@ version: 4.31.2
 reviews: 169
 website: https://www.muchbetter.com
 repository: 
-issue: 
 icon: com.mirlimited.muchbetter.png
 bugbounty: 
 meta: ok

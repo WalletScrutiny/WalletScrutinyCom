@@ -12,7 +12,6 @@ version: 3.2.8
 reviews: 2325
 website: https://apexnetwork.ng
 repository: 
-issue: 
 icon: ng.apexnetwork.apexNetwork.jpg
 bugbounty: 
 meta: ok

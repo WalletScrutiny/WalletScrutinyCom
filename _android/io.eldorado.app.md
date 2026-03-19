@@ -13,7 +13,6 @@ version: 1.3.1931
 reviews: 484
 website: https://eldorado.io
 repository: 
-issue: 
 icon: io.eldorado.app.png
 bugbounty: 
 meta: ok

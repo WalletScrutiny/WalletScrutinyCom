@@ -13,7 +13,6 @@ version: 1.1.603
 reviews: 3
 website: https://get2coin.com
 repository: 
-issue: 
 icon: com.nosapps.android.get2cloudsx.png
 bugbounty: 
 meta: removed

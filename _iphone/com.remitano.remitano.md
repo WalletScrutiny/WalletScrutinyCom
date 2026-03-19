@@ -13,7 +13,6 @@ version: 8.8.4
 reviews: 378
 website: https://remitano.com
 repository: 
-issue: 
 icon: com.remitano.remitano.jpg
 bugbounty: 
 meta: ok

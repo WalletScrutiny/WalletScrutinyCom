@@ -13,7 +13,6 @@ version: 2.9.56
 reviews: 6263
 website: https://sigen.pro#deadLink
 repository: 
-issue: 
 icon: com.sigen.sigen.png
 bugbounty: 
 meta: removed

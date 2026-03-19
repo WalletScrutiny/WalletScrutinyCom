@@ -12,7 +12,6 @@ version: 3.8.8
 reviews: 
 website: http://www.bitchk.com
 repository: 
-issue: 
 icon: com.bitchk.bitchk.png
 bugbounty: 
 meta: removed

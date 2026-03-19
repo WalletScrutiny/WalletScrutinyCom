@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 
 website: https://heru.finance#deadLink
 repository: 
-issue: 
 icon: com.herufinance.png
 bugbounty: 
 meta: removed

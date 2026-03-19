@@ -12,7 +12,6 @@ version: 1.1.77
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.coinsmartcanada.app.png
 bugbounty: 
 meta: removed

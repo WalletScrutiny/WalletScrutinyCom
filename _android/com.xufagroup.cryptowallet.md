@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.xufagroup.cryptowallet.png
 bugbounty: 
 meta: removed

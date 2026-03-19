@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://bull-trade.net
 repository: 
-issue: 
 icon: com.bullcoin.app.png
 bugbounty: 
 meta: removed

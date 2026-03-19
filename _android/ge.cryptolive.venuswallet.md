@@ -12,7 +12,6 @@ version: 1.0.15
 reviews: 
 website: https://www.cryptolive.ge#deadLink
 repository: 
-issue: 
 icon: ge.cryptolive.venuswallet.png
 bugbounty: 
 meta: removed

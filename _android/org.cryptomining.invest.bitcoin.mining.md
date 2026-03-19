@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptomining.invest.bitcoin.mining.jpg
 bugbounty: 
 meta: removed

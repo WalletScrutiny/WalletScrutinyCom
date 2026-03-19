@@ -13,7 +13,6 @@ version: 2.10.1
 reviews: 11
 website: https://changex.io
 repository: 
-issue: 
 icon: io.changex.app.jpg
 bugbounty: 
 meta: obsolete

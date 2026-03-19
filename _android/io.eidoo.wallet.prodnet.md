@@ -13,7 +13,6 @@ version: 3.6.3
 reviews: 97
 website: https://eidoo.io
 repository: 
-issue: 
 icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.n2blockchain.io#deadLink
 repository: 
-issue: 
 icon: com.premiumNextFolio.app.png
 bugbounty: 
 meta: removed

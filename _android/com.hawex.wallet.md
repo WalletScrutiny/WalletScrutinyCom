@@ -13,7 +13,6 @@ version: '2.1'
 reviews: 
 website: http://hawexdao.com
 repository: 
-issue: 
 icon: com.hawex.wallet.png
 bugbounty: 
 meta: removed

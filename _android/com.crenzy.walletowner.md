@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: http://www.crenzy.com#deadLink
 repository: 
-issue: 
 icon: com.crenzy.walletowner.png
 bugbounty: 
 meta: removed

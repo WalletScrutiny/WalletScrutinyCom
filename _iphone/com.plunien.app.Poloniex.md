@@ -14,7 +14,6 @@ version: 1.39.1
 reviews: 2030
 website: https://www.poloniex.com
 repository: 
-issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
 meta: removed

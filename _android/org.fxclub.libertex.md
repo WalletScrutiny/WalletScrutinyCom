@@ -13,7 +13,6 @@ version: 2.55.0
 reviews: 1270
 website: https://libertex.org
 repository: 
-issue: 
 icon: org.fxclub.libertex.png
 bugbounty: 
 meta: ok

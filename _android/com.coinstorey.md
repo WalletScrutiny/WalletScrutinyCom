@@ -12,7 +12,6 @@ version: '9.0'
 reviews: 
 website: https://www.coinstorey.com/
 repository: 
-issue: 
 icon: com.coinstorey.jpg
 bugbounty: 
 meta: removed

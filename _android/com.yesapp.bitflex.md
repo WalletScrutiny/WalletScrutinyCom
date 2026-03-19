@@ -12,7 +12,6 @@ version: 3.1.12
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.yesapp.bitflex.png
 bugbounty: 
 meta: removed

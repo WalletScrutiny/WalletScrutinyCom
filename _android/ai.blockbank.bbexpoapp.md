@@ -13,7 +13,6 @@ version: 4.4.7
 reviews: 13
 website: https://pairs.xyz
 repository: 
-issue: 
 icon: ai.blockbank.bbexpoapp.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://sencoinex.com#deadLink
 repository: 
-issue: 
 icon: com.sencoinex.android.png
 bugbounty: 
 meta: removed

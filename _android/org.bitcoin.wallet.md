@@ -14,7 +14,6 @@ version: '1.0'
 reviews: 4
 website: https://bitcoin.org
 repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
-issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7
 icon: org.bitcoin.wallet.png
 bugbounty: 
 meta: removed
@@ -190,3 +189,5 @@ Only in fromGoogle: stamp-cert-sha256
 
 which is still a lot. We have to give up here and hope for the provider to help
 with build reproduction. In the meantime this app is **not verifiable**.
+
+An issue has been opened at [https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7](https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7)

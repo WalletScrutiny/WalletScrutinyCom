@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wSryptoGenius_15089239.jpg
 bugbounty: 
 meta: removed

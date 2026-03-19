@@ -14,7 +14,6 @@ version: 0.4.18
 reviews: 42
 website: https://acinq.co
 repository: https://github.com/ACINQ/eclair-mobile
-issue: https://github.com/ACINQ/eclair-mobile/issues/232
 icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
 meta: removed
@@ -141,3 +140,5 @@ root@d0cf683a144a:~# mvn install -DskipTests
 
 So following the instructions we didn't get far and for now hope for better
 documentation and remain with the verdict: This app is **not verifiable**.
+
+An issue has been opened at [https://github.com/ACINQ/eclair-mobile/issues/232](https://github.com/ACINQ/eclair-mobile/issues/232)

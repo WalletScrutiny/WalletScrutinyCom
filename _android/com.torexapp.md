@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://torex.one/ru/
 repository: 
-issue: 
 icon: com.torexapp.png
 bugbounty: 
 meta: removed

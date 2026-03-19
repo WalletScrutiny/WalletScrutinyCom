@@ -13,7 +13,6 @@ version: 4.2.1
 reviews: 1295
 website: https://bitcoindepot.com/
 repository: 
-issue: 
 icon: com.cashtocrypto.wallet.jpg
 bugbounty: 
 meta: ok

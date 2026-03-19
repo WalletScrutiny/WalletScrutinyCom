@@ -12,7 +12,6 @@ version: 0.1.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.safeblast.wallet.png
 bugbounty: 
 meta: removed

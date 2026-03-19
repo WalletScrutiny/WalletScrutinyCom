@@ -13,7 +13,6 @@ version: 2.5.163
 reviews: 3
 website: https://pay.cool
 repository: 
-issue: 
 icon: cool.pay.paycool.png
 bugbounty: 
 meta: removed

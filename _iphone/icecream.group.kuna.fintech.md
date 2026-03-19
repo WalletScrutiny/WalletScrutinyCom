@@ -13,7 +13,6 @@ version: 5.6.4
 reviews: 10
 website: https://kuna.io
 repository: 
-issue: 
 icon: icecream.group.kuna.fintech.jpg
 bugbounty: 
 meta: removed

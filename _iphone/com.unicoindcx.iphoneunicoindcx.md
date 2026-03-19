@@ -13,7 +13,6 @@ version: 3.5.3
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.unicoindcx.iphoneunicoindcx.jpg
 bugbounty: 
 meta: ok

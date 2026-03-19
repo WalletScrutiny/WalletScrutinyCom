@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://dtsasset.io#deadLink
 repository: 
-issue: 
 icon: com.dts.io.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.15.7
 reviews: 21
 website: https://abbccoin.com
 repository: 
-issue: 
 icon: com.aladdin.pro.jpg
 bugbounty: 
 meta: removed

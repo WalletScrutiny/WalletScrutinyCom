@@ -12,7 +12,6 @@ version: '0.3'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hustay.swing.p70cfa875ab84420989521c15808266b8.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '7.0'
 reviews: 
 website: https://trycircleapp.com
 repository: 
-issue: 
 icon: com.trycircleapp.wallets.png
 bugbounty: 
 meta: removed

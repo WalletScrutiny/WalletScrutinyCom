@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://swapcrypto.ca#deadLink
 repository: 
-issue: 
 icon: com.swapcrypto.wallet.jpg
 bugbounty: 
 meta: removed

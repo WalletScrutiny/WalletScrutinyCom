@@ -13,7 +13,6 @@ version: '8.80'
 reviews: 5179
 website: https://mudrex.com/
 repository: 
-issue: 
 icon: com.mudrex.ios.jpg
 bugbounty: 
 meta: ok

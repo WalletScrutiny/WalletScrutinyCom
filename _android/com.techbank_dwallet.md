@@ -13,7 +13,6 @@ version: 2.0.7
 reviews: 12
 website: https://techbank.finance/
 repository: 
-issue: 
 icon: com.techbank_dwallet.jpg
 bugbounty: 
 meta: ok

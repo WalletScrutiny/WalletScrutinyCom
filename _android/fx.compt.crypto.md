@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://story3app.web.app/
 repository: 
-issue: 
 icon: fx.compt.crypto.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.8'
 reviews: 5
 website: https://bitblinx.com
 repository: 
-issue: 
 icon: com.bitblinx.exchange.png
 bugbounty: 
 meta: removed

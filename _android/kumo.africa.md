@@ -12,7 +12,6 @@ version: 8.0.0
 reviews: 
 website: https://kumo.africa
 repository: 
-issue: 
 icon: kumo.africa.jpg
 bugbounty: 
 meta: removed

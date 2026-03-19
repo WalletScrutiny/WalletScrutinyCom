@@ -13,7 +13,6 @@ version: 1.0.25
 reviews: 138
 website: http://core.app
 repository: 
-issue: 
 icon: com.avaxwallet.png
 bugbounty: 
 meta: ok

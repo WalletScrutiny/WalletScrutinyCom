@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 5
 website: https://mutinywallet.com#deadLink
 repository: https://github.com/MutinyWallet/mutiny-web
-issue: 
 icon: com.mutinywallet.mutinywallet.png
 bugbounty: 
 meta: removed

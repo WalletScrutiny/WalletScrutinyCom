@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 
 website: https://www.ini.bitcaps.club#deadLink
 repository: 
-issue: 
 icon: com.bitcaps.png
 bugbounty: 
 meta: removed

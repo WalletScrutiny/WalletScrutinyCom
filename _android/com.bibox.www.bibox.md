@@ -13,7 +13,6 @@ version: 4.8.5
 reviews: 579
 website: https://www.bibox.com
 repository: 
-issue: 
 icon: com.bibox.www.bibox.png
 bugbounty: 
 meta: removed

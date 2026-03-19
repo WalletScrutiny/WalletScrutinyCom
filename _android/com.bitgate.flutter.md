@@ -13,7 +13,6 @@ version: 0.9.4
 reviews: 
 website: http://www.bitgate.io
 repository: 
-issue: 
 icon: com.bitgate.flutter.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.19.0
 reviews: 16
 website: https://www.pexpay.com#deadLink
 repository: 
-issue: 
 icon: com.peaceful.pexpay.app.ios.jpg
 bugbounty: 
 meta: removed

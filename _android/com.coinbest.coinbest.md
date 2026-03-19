@@ -13,7 +13,6 @@ version: 4.2.2
 reviews: 
 website: https://osl.com/jp
 repository: 
-issue: 
 icon: com.coinbest.coinbest.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.ggidream.com#deadLink
 repository: 
-issue: 
 icon: com.ggidream.app.png
 bugbounty: 
 meta: removed

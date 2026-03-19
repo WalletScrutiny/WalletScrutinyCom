@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 56
 website: https://www.juancash.com
 repository: 
-issue: 
 icon: com.zybitechinc.juanworld.jpg
 bugbounty: 
 meta: ok

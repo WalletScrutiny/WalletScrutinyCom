@@ -13,7 +13,6 @@ version: 5.1.34
 reviews: 274
 website: https://www.paribu.com
 repository: 
-issue: 
 icon: com.codevist.paribu.jpg
 bugbounty: 
 meta: ok

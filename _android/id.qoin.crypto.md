@@ -13,7 +13,6 @@ version: 1.4.31
 reviews: 
 website: 
 repository: 
-issue: 
 icon: id.qoin.crypto.png
 bugbounty: 
 meta: removed

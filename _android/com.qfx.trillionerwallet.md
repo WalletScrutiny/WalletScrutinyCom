@@ -13,7 +13,6 @@ version: '22.0'
 reviews: 3
 website: https://trillioner.io
 repository: 
-issue: 
 icon: com.qfx.trillionerwallet.png
 bugbounty: 
 meta: obsolete

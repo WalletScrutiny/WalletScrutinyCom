@@ -17,7 +17,6 @@ shop:
 country: RU
 price: 400XCW
 repository: 
-issue: 
 icon: cryptowatch.png
 bugbounty: 
 meta: ok

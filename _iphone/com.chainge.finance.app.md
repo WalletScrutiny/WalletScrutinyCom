@@ -13,7 +13,6 @@ version: 0.8.3
 reviews: 88
 website: https://web.archive.org/web/20251115045754/https://chainge.finance/
 repository: 
-issue: 
 icon: com.chainge.finance.app.jpg
 bugbounty: 
 meta: stale

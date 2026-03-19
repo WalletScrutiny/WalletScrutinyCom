@@ -13,7 +13,6 @@ version: 4.6.96
 reviews: 148
 website: https://hoo.com#deadLink
 repository: 
-issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
 meta: removed

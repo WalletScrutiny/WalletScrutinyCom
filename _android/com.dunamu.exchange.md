@@ -13,7 +13,6 @@ version: 1.34.34
 reviews: 21
 website: https://upbit.com
 repository: 
-issue: 
 icon: com.dunamu.exchange.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: free.crypto.coin.png
 bugbounty: 
 meta: removed

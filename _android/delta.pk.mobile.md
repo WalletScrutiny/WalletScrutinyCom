@@ -13,7 +13,6 @@ version: 5.9.13
 reviews: 59
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
-issue: 
 icon: delta.pk.mobile.png
 bugbounty: 
 meta: ok

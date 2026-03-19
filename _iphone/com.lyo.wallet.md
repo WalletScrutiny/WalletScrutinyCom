@@ -13,7 +13,6 @@ version: 1.5.1
 reviews: 1
 website: https://lyowallet.com#deadLink
 repository: 
-issue: 
 icon: com.lyo.wallet.jpg
 bugbounty: 
 meta: removed

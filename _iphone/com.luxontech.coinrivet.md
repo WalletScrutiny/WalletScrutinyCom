@@ -13,7 +13,6 @@ version: 1.3.22
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.luxontech.coinrivet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://flashift.app
 repository: 
-issue: 
 icon: com.flashift.flashift.png
 bugbounty: 
 meta: removed

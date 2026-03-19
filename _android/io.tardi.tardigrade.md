@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://keywa.io
 repository: 
-issue: 
 icon: io.tardi.tardigrade.png
 bugbounty: 
 meta: removed

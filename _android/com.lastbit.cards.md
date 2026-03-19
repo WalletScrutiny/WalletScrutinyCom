@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.lastbit.cards.png
 bugbounty: 
 meta: removed

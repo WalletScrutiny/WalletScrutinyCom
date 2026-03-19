@@ -13,7 +13,6 @@ version: 1.2.2
 reviews: 
 website: 
 repository: https://github.com/Paymint-Labs/Paymint
-issue: 
 icon: com.paymintlabs.paymint.png
 bugbounty: 
 meta: removed

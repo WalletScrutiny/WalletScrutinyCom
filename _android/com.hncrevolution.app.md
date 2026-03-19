@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://hnc-revolution.com/
 repository: 
-issue: 
 icon: com.hncrevolution.app.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.38
 reviews: 
 website: https://omc-group.co/
 repository: 
-issue: 
 icon: com.omc.wallet.png
 bugbounty: 
 meta: removed

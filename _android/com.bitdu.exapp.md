@@ -12,7 +12,6 @@ version: 3.0.3
 reviews: 6
 website: https://www.bitdu.com
 repository: 
-issue: 
 icon: com.bitdu.exapp.png
 bugbounty: 
 meta: removed

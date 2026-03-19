@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 69
 website: 
 repository: 
-issue: 
 icon: jb.tech.bitpiewallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://onyze.com/
 repository: 
-issue: 
 icon: com.onyze.wallet.png
 bugbounty: 
 meta: removed

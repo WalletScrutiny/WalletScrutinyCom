@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://fbyt.io
 repository: 
-issue: 
 icon: com.firstbyt.mobileclient.jpg
 bugbounty: 
 meta: removed

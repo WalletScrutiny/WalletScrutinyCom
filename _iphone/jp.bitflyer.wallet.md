@@ -13,7 +13,6 @@ version: 7.62.0
 reviews: 131874
 website: https://bitflyer.com/
 repository: 
-issue: 
 icon: jp.bitflyer.wallet.jpg
 bugbounty: 
 meta: ok

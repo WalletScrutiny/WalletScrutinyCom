@@ -12,7 +12,6 @@ version: '1.8'
 reviews: 
 website: https://coinbag.me/
 repository: 
-issue: 
 icon: me.coinbag.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.10.32
 reviews: 9
 website: https://vent.africa
 repository: 
-issue: 
 icon: com.vent.app.png
 bugbounty: 
 meta: ok

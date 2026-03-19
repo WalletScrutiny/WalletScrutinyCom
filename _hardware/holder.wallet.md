@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: holder.wallet.png
 bugbounty: 
 meta: ok

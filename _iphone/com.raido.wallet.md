@@ -13,7 +13,6 @@ version: 3.8.0
 reviews: 0
 website: https://raidofinance.eu
 repository: 
-issue: 
 icon: com.raido.wallet.jpg
 bugbounty: 
 meta: removed

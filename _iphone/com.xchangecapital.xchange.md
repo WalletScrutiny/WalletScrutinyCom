@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.xchangecapital.xchange.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 3
 website: https://satoshiwalletapp.com
 repository: 
-issue: 
 icon: com.satoshiwallet.png
 bugbounty: 
 meta: removed

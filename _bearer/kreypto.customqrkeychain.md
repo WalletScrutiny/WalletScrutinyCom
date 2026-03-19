@@ -17,7 +17,6 @@ shop:
 country: ES
 price: 
 repository: 
-issue: 
 icon: kreypto.customqrkeychain.png
 bugbounty: 
 meta: ok

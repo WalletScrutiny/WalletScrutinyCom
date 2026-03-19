@@ -12,7 +12,6 @@ provider: Luke Dash Jr
 providerWebsite: 
 website: https://bitcoinknots.org
 repository: https://github.com/bitcoinknots/bitcoin
-issue: 
 icon: bitcoinknots.png
 bugbounty: 
 meta: ok

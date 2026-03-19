@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://aneep.tech/
 repository: 
-issue: 
 icon: com.im.crypto.png
 bugbounty: 
 meta: removed

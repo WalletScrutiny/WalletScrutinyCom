@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 261
 website: 
 repository: 
-issue: 
 icon: com.iqfinex.png
 bugbounty: 
 meta: removed

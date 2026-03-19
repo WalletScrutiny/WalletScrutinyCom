@@ -13,7 +13,6 @@ version: 1.18.6
 reviews: 1304
 website: https://freewallet.org
 repository: 
-issue: 
 icon: mw.org.freewallet.app.jpg
 bugbounty: 
 meta: removed

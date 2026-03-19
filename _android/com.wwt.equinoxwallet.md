@@ -12,7 +12,6 @@ version: 3.40.9
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wwt.equinoxwallet.png
 bugbounty: 
 meta: removed

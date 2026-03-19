@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://afridax.com
 repository: 
-issue: 
 icon: com.afridax.exchange.png
 bugbounty: 
 meta: ok

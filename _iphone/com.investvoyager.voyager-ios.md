@@ -13,7 +13,6 @@ version: 3.2.33
 reviews: 102802
 website: https://www.investvoyager.com/
 repository: 
-issue: 
 icon: com.investvoyager.voyager-ios.jpg
 bugbounty: 
 meta: removed

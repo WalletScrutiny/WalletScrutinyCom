@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://plutx.io#deadLink
 repository: 
-issue: 
 icon: com.plutxwallet.png
 bugbounty: 
 meta: removed

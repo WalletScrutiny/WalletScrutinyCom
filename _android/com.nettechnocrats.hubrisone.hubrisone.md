@@ -12,7 +12,6 @@ version: 2.1.6
 reviews: 8
 website: http://www.hubrisone.com
 repository: 
-issue: 
 icon: com.nettechnocrats.hubrisone.hubrisone.png
 bugbounty: 
 meta: removed

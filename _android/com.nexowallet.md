@@ -13,7 +13,6 @@ version: 6.8.0
 reviews: 1860
 website: https://nexo.com
 repository: 
-issue: 
 icon: com.nexowallet.png
 bugbounty: 
 meta: ok

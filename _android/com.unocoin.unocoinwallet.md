@@ -13,7 +13,6 @@ version: 5.3.41
 reviews: 54
 website: https://www.unocoin.com
 repository: 
-issue: 
 icon: com.unocoin.unocoinwallet.png
 bugbounty: 
 meta: ok

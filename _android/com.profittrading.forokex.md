@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forokex.png
 bugbounty: 
 meta: removed

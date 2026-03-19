@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cyrus-mall.com#deadLink
 repository: 
-issue: 
 icon: com.xearth.cyrusmall.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://www.bizonbit.com#deadLink
 repository: 
-issue: 
 icon: com.bizonbit.png
 bugbounty: 
 meta: removed

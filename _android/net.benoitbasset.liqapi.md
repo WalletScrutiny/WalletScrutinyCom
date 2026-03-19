@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: net.benoitbasset.liqapi.png
 bugbounty: 
 meta: removed

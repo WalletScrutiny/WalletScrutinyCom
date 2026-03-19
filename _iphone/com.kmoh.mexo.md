@@ -13,7 +13,6 @@ version: 3.7.13
 reviews: 135
 website: https://help.trubit.com/en
 repository: 
-issue: 
 icon: com.kmoh.mexo.jpg
 bugbounty: 
 meta: ok

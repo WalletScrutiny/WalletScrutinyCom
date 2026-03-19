@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 10
 website: https://cryptmi.com
 repository: 
-issue: 
 icon: com.milesblue.milesblue.jpg
 bugbounty: 
 meta: obsolete

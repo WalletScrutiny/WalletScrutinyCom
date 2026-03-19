@@ -13,7 +13,6 @@ version: 1.2.4
 reviews: 61
 website: 
 repository: 
-issue: 
 icon: jp.co.rakuten.wallet.leverage.jpg
 bugbounty: 
 meta: removed

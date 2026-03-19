@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://www.dxone.com/
 repository: 
-issue: 
 icon: com.mobile.dxone.png
 bugbounty: 
 meta: removed

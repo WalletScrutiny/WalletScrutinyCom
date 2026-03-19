@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.cryptobubbles.bitcoin.invest.canada.jpg
 bugbounty: 
 meta: removed

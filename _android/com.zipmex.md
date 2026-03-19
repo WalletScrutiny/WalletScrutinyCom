@@ -13,7 +13,6 @@ version: 22.7.3.644
 reviews: 11575
 website: https://zipmex.co.th/
 repository: 
-issue: 
 icon: com.zipmex.png
 bugbounty: 
 meta: removed

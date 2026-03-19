@@ -13,7 +13,6 @@ version: '1.6'
 reviews: 1
 website: https://www.cryptex24.io#deadLink
 repository: 
-issue: 
 icon: io.cryptex24.mobile.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://newbitwallet.com#deadLink
 repository: 
-issue: 
 icon: com.newbit.wallet.png
 bugbounty: 
 meta: removed

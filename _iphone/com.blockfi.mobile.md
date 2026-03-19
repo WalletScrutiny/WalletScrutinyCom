@@ -12,7 +12,6 @@ version: 5.12.15
 reviews: 1295
 website: https://blockfi.com/
 repository: 
-issue: 
 icon: com.blockfi.mobile.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 7.3.1
 reviews: 60
 website: http://www.trade360.com
 repository: 
-issue: 
 icon: com.trade360.png
 bugbounty: 
 meta: removed

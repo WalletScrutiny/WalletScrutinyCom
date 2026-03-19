@@ -13,7 +13,6 @@ version: 8.7.0
 reviews: 3
 website: https://www.gluwa.com
 repository: 
-issue: 
 icon: com.gluwa.android.png
 bugbounty: 
 meta: removed

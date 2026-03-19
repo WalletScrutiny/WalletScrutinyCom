@@ -13,7 +13,6 @@ version: 5.6.2
 reviews: 4
 website: http://totalcoin.io
 repository: 
-issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
 meta: obsolete

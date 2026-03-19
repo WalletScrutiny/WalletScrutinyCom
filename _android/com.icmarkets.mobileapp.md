@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 11
 website: https://icmarkets.com
 repository: 
-issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
 meta: obsolete

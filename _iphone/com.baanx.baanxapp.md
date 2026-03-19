@@ -13,7 +13,6 @@ version: 3.1.1
 reviews: 7
 website: https://baanxapp.com#deadLink
 repository: 
-issue: 
 icon: com.baanx.baanxapp.jpg
 bugbounty: 
 meta: removed

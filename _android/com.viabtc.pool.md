@@ -13,7 +13,6 @@ version: 3.13.1
 reviews: 335
 website: https://www.viabtc.com/
 repository: 
-issue: 
 icon: com.viabtc.pool.png
 bugbounty: 
 meta: ok

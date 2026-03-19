@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://rodiniawallet.com#deadLink
 repository: 
-issue: 
 icon: com.rodiniawallet.app.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.5.1
 reviews: 
 website: https://fox.exchange#deadLink
 repository: 
-issue: 
 icon: exchange.fox.android.png
 bugbounty: 
 meta: removed

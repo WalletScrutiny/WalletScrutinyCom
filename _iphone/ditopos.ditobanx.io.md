@@ -13,7 +13,6 @@ version: 1.1.1
 reviews: 2
 website: https://ditobanx.com
 repository: 
-issue: 
 icon: ditopos.ditobanx.io.jpg
 bugbounty: 
 meta: obsolete

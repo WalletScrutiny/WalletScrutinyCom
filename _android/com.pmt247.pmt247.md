@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.pmt247.com#deadLink
 repository: 
-issue: 
 icon: com.pmt247.pmt247.png
 bugbounty: 
 meta: removed

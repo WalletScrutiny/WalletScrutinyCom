@@ -12,7 +12,6 @@ version: 1.3.8
 reviews: 
 website: https://worldofwallet.io
 repository: 
-issue: 
 icon: io.worldofwallet.png
 bugbounty: 
 meta: removed

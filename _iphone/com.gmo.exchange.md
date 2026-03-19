@@ -13,7 +13,6 @@ version: 3.2.5
 reviews: 31
 website: https://ex.z.com/
 repository: 
-issue: 
 icon: com.gmo.exchange.jpg
 bugbounty: 
 meta: ok

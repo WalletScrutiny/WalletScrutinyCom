@@ -12,7 +12,6 @@ version: 4.15.0
 reviews: 
 website: https://fabriik.com#deadLink
 repository: 
-issue: 
 icon: com.fabriik.app.png
 bugbounty: 
 meta: removed

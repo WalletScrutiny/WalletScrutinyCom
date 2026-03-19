@@ -13,7 +13,6 @@ version: 1.68.10
 reviews: 
 website: https://www.101investing.com/
 repository: 
-issue: 
 icon: com.101investing.jpg
 bugbounty: 
 meta: removed

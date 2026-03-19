@@ -13,7 +13,6 @@ version: 1.23.2
 reviews: 10
 website: https://hippowallet.io
 repository: 
-issue: 
 icon: com.blockchaincommodities.hippoWallet.jpg
 bugbounty: 
 meta: ok

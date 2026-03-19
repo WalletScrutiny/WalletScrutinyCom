@@ -13,7 +13,6 @@ version: 1.0.22
 reviews: 6
 website: https://www.bravepay.net/
 repository: 
-issue: 
 icon: com.bravecorporation.BraveID.png
 bugbounty: 
 meta: removed

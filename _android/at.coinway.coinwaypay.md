@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: https://coinwaypay.com/
 repository: 
-issue: 
 icon: at.coinway.coinwaypay.png
 bugbounty: 
 meta: removed

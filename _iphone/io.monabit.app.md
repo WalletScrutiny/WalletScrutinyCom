@@ -13,7 +13,6 @@ version: '4.3'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: io.monabit.app.jpg
 bugbounty: 
 meta: ok

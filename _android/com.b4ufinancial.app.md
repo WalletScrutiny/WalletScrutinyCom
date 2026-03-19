@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://b4ufinancial.com
 repository: 
-issue: 
 icon: com.b4ufinancial.app.png
 bugbounty: 
 meta: removed

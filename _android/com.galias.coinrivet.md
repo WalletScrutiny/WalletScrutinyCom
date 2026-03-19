@@ -13,7 +13,6 @@ version: 1.5.1.1242
 reviews: 
 website: https://coinrivet.com/
 repository: 
-issue: 
 icon: com.galias.coinrivet.png
 bugbounty: 
 meta: ok

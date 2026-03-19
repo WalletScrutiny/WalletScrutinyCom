@@ -13,7 +13,6 @@ version: 1.13.2
 reviews: 
 website: https://coinmotion.com/
 repository: 
-issue: 
 icon: com.coinmotion.png
 bugbounty: 
 meta: ok

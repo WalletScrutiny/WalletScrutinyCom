@@ -13,7 +13,6 @@ version: 2.36.16
 reviews: 111
 website: https://www.infinitowallet.io
 repository: 
-issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
 meta: removed

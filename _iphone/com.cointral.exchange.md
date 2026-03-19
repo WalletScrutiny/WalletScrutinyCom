@@ -13,7 +13,6 @@ version: 1.3.6
 reviews: 0
 website: https://cointral.com#deadLink
 repository: 
-issue: 
 icon: com.cointral.exchange.jpg
 bugbounty: 
 meta: removed

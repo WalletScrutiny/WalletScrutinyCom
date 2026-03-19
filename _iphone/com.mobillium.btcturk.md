@@ -13,7 +13,6 @@ version: 2.1.0
 reviews: 26309
 website: https://www.btcturk.com
 repository: 
-issue: 
 icon: com.mobillium.btcturk.jpg
 bugbounty: 
 meta: removed

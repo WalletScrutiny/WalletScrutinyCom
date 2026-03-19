@@ -13,7 +13,6 @@ version: 4.78.0
 reviews: 1408
 website: https://bingx.com
 repository: 
-issue: 
 icon: pro.bingbon.app.png
 bugbounty: 
 meta: ok

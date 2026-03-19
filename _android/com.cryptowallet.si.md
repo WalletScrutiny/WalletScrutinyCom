@@ -12,7 +12,6 @@ version: v2.0.9
 reviews: 
 website: https://app.cryptowallet.si
 repository: 
-issue: 
 icon: com.cryptowallet.si.png
 bugbounty: 
 meta: ok

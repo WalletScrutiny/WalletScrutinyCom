@@ -13,7 +13,6 @@ version: 1.19.0
 reviews: 172
 website: 
 repository: 
-issue: 
 icon: com.coincatch.global.jpg
 bugbounty: 
 meta: removed

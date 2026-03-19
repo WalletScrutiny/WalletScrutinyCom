@@ -13,7 +13,6 @@ version: 2.4.13
 reviews: 56
 website: https://www.cointr.pro
 repository: 
-issue: 
 icon: pro.cointr.jpg
 bugbounty: 
 meta: removed

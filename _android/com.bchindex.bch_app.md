@@ -12,7 +12,6 @@ version: 6.2.2
 reviews: 
 website: https://bchindex.com#deadLink
 repository: 
-issue: 
 icon: com.bchindex.bch_app.png
 bugbounty: 
 meta: removed

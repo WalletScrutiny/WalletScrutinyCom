@@ -13,7 +13,6 @@ version: 5.2.0_5210
 reviews: 
 website: https://www.ace.io
 repository: 
-issue: 
 icon: com.asiainnovations.ace.taiwan.png
 bugbounty: 
 meta: removed

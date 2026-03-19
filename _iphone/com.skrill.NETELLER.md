@@ -13,7 +13,6 @@ version: 3.177.0
 reviews: 1109
 website: 
 repository: 
-issue: 
 icon: com.skrill.NETELLER.jpg
 bugbounty: 
 meta: ok

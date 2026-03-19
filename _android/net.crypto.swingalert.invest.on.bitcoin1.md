@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.crypto.swingalert.invest.on.bitcoin1.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.50.0
 reviews: 13862
 website: https://www.binance.th/en
 repository: 
-issue: 
 icon: com.tiger.cloudbase.thailand.jpg
 bugbounty: 
 meta: ok

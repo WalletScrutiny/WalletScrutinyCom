@@ -14,7 +14,6 @@ version: 2.7.0
 reviews: 
 website: http://www.jubiterwallet.com
 repository: 
-issue: 
 icon: com.jubiter.app.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop: https://keybox.magicw.net/buyen.html
 country: CN
 price: 999 CNY
 repository: https://github.com/KeyboxWallet/keyboxd
-issue: 
 icon: magicw.keybox.png
 bugbounty: 
 meta: ok

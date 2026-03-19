@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.hordeswallet.com#deadLink
 repository: 
-issue: 
 icon: com.sato.hordes.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.77
 reviews: 
 website: https://www.mciinvestments.com
 repository: 
-issue: 
 icon: com.finantick.app.png
 bugbounty: 
 meta: removed

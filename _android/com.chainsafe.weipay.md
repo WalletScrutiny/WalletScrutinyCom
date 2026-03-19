@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: http://chainsafe.io
 repository: https://github.com/ChainSafe/WeiPay
-issue: 
 icon: com.chainsafe.weipay.png
 bugbounty: 
 meta: removed

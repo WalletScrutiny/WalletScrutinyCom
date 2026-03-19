@@ -15,7 +15,6 @@ version: 5.2.0
 reviews: 149
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
-issue: https://github.com/Blockstream/green_android/issues/253
 icon: com.greenaddress.greenbits_android_wallet.jpg
 bugbounty: 
 meta: ok
@@ -52,3 +51,5 @@ This app is **source available**
 {% include featureEvidence.html feature="foss" quote="Blockstream App is released under the terms of the GNU General Public License. See LICENSE for more information or see https://opensource.org/licenses/GPL-3.0" source="GitHub README" %}
 
 {% include featureEvidence.html feature="multiSig" quote="our unique multisig security model" source="GitHub README" %}
+
+An issue has been opened at [https://github.com/Blockstream/green_android/issues/253](https://github.com/Blockstream/green_android/issues/253)

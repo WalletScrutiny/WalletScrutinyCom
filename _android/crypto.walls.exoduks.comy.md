@@ -13,7 +13,6 @@ version: '19.28'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: crypto.walls.exoduks.comy.png
 bugbounty: 
 meta: removed

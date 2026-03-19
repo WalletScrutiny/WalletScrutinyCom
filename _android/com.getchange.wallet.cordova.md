@@ -14,7 +14,6 @@ version: 30.65.1
 reviews: 23
 website: https://changeinvest.com
 repository: 
-issue: 
 icon: com.getchange.wallet.cordova.png
 bugbounty: 
 meta: ok

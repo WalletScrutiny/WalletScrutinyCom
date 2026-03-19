@@ -13,7 +13,6 @@ version: 3.1.19
 reviews: 0
 website: https://tux-wallet.com/
 repository: 
-issue: 
 icon: net.tuxglobal.wallet.jpg
 bugbounty: 
 meta: ok

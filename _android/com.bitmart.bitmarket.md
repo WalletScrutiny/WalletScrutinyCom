@@ -13,7 +13,6 @@ version: 3.29.0
 reviews: 3734
 website: http://www.bitmart.com
 repository: 
-issue: 
 icon: com.bitmart.bitmarket.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.04'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.digitalcrypto.xchange.png
 bugbounty: 
 meta: removed

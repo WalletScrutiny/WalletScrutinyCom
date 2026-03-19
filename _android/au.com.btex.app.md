@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://btex.com.au/en#deadLink
 repository: 
-issue: 
 icon: au.com.btex.app.png
 bugbounty: 
 meta: removed

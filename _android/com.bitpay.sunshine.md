@@ -12,7 +12,6 @@ version: 3.7.3
 reviews: 
 website: http://www.sunshine-wallet.com#deadLink
 repository: 
-issue: 
 icon: com.bitpay.sunshine.png
 bugbounty: 
 meta: removed

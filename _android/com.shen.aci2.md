@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.shen.aci2.jpg
 bugbounty: 
 meta: removed

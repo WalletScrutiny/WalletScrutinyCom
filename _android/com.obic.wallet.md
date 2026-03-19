@@ -12,7 +12,6 @@ version: 3.5.3
 reviews: 
 website: https://obictrade.com#deadLink
 repository: 
-issue: 
 icon: com.obic.wallet.png
 bugbounty: 
 meta: removed

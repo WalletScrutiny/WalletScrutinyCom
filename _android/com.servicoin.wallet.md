@@ -13,7 +13,6 @@ version: 0.21.0
 reviews: 
 website: https://www.mysrvcoin.com/index.php#deadLink
 repository: 
-issue: 
 icon: com.servicoin.wallet.png
 bugbounty: 
 meta: removed

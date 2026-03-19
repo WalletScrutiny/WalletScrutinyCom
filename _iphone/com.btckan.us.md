@@ -13,7 +13,6 @@ version: 8.38.1
 reviews: 51
 website: https://bitkan.com/
 repository: 
-issue: 
 icon: com.btckan.us.jpg
 bugbounty: 
 meta: ok

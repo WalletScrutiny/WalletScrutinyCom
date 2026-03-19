@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bytedex.io
 repository: 
-issue: 
 icon: io.bytedex.mobile.png
 bugbounty: 
 meta: removed

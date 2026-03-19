@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 4
 website: https://coininno.com/
 repository: 
-issue: 
 icon: com.coininno.android.png
 bugbounty: 
 meta: removed

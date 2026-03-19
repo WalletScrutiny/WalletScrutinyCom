@@ -12,7 +12,6 @@ version: 1.0.26
 reviews: 
 website: https://itrader.cc#deadLink
 repository: 
-issue: 
 icon: com.itarder.myapp.png
 bugbounty: 
 meta: removed

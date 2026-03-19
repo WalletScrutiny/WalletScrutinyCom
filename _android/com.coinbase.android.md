@@ -13,7 +13,6 @@ version: 14.9.65
 reviews: 116863
 website: https://coinbase.com/
 repository: 
-issue: 
 icon: com.coinbase.android.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.1.8
 reviews: 25350
 website: 
 repository: 
-issue: 
 icon: com.webull.pay.us.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.40.0
 reviews: 0
 website: https://gleecbtc.com#deadLink
 repository: 
-issue: 
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
 meta: ok

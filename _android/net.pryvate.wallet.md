@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://pryvate-technologies.com
 repository: 
-issue: 
 icon: net.pryvate.wallet.png
 bugbounty: 
 meta: removed

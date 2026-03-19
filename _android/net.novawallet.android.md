@@ -13,7 +13,6 @@ version: 2.2.5
 reviews: 704
 website: http://www.vsolidus.com/
 repository: 
-issue: 
 icon: net.novawallet.android.png
 bugbounty: 
 meta: removed

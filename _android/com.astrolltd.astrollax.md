@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://astrollax.com#deadLink
 repository: 
-issue: 
 icon: com.astrolltd.astrollax.png
 bugbounty: 
 meta: removed

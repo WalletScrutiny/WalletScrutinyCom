@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://bitfinix.tech#deadLink
 repository: 
-issue: 
 icon: com.bit.finx.jpg
 bugbounty: 
 meta: removed

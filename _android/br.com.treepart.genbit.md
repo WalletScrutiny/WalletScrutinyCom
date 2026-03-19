@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: https://web.archive.org/web/20250624214402/https://genbit.com.br/
 repository: 
-issue: 
 icon: br.com.treepart.genbit.jpg
 bugbounty: 
 meta: removed

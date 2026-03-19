@@ -14,7 +14,6 @@ version: 3.5.0
 reviews: 1364
 website: https://enjin.io/products/wallet
 repository: 
-issue: 
 icon: com.enjin.mobile.wallet.jpg
 bugbounty: 
 meta: ok

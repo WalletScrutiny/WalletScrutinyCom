@@ -20,7 +20,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/UseKeyp/gamewallet
-issue: 
 icon: gamewallet.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2.3.9
 reviews: 
 website: https://www.rosify.ng#deadLink
 repository: 
-issue: 
 icon: com.rosifynigeria.rosify.png
 bugbounty: 
 meta: removed

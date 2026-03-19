@@ -12,7 +12,6 @@ version: 1.5.2
 reviews: 9
 website: https://www.coinsher.com/
 repository: 
-issue: 
 icon: com.coinsher.coinsherapp.png
 bugbounty: 
 meta: ok

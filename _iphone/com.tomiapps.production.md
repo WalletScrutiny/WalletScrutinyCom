@@ -13,7 +13,6 @@ version: '217'
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.tomiapps.production.jpg
 bugbounty: 
 meta: ok

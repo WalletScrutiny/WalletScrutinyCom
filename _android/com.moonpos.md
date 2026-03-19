@@ -12,7 +12,6 @@ version: 1.2.8
 reviews: 
 website: http://moonposapp.com
 repository: 
-issue: 
 icon: com.moonpos.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://tanga.uz/
 repository: 
-issue: 
 icon: uz.tanga.app.png
 bugbounty: 
 meta: removed

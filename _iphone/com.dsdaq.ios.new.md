@@ -13,7 +13,6 @@ version: 3.2.0
 reviews: 2
 website: http://dsdaq.com#deadLink
 repository: 
-issue: 
 icon: com.dsdaq.ios.new.jpg
 bugbounty: 
 meta: removed

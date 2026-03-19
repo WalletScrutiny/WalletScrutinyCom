@@ -14,7 +14,6 @@ version: 17.0.24
 reviews: 25
 website: https://nash.io
 repository: 
-issue: 
 icon: io.nash.app.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://apluswallet.com
 repository: 
-issue: 
 icon: com.sarnado.apluswallet.png
 bugbounty: 
 meta: removed

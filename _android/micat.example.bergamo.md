@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: micat.example.bergamo.png
 bugbounty: 
 meta: stale

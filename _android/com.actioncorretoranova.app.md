@@ -12,7 +12,6 @@ version: 1.1.77
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.actioncorretoranova.app.png
 bugbounty: 
 meta: removed

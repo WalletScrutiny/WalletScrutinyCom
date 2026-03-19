@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 3
 website: https://www.sfox.com/
 repository: 
-issue: 
 icon: com.sfox.android.png
 bugbounty: 
 meta: removed

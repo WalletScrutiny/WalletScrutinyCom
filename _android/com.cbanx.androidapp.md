@@ -12,7 +12,6 @@ version: 2.1.20
 reviews: 
 website: https://www.cbanx.com
 repository: 
-issue: 
 icon: com.cbanx.androidapp.png
 bugbounty: 
 meta: removed

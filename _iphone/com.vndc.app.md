@@ -13,7 +13,6 @@ version: 6.0.7
 reviews: 1327
 website: https://goonus.io/en
 repository: 
-issue: 
 icon: com.vndc.app.jpg
 bugbounty: 
 meta: removed

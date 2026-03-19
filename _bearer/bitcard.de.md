@@ -17,7 +17,6 @@ shop:
 country: DE
 price: 1USD
 repository: 
-issue: 
 icon: bitcard.de.png
 bugbounty: 
 meta: defunct

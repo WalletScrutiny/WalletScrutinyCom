@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://crebit.io/
 repository: 
-issue: 
 icon: com.crebit.png
 bugbounty: 
 meta: removed

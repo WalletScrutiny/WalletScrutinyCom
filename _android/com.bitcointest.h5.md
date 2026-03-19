@@ -12,7 +12,6 @@ version: '5.5'
 reviews: 388
 website: 
 repository: 
-issue: 
 icon: com.bitcointest.h5.png
 bugbounty: 
 meta: removed

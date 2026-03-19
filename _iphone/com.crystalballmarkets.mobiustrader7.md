@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 0
 website: https://crystalballmarkets.com/platform
 repository: 
-issue: 
 icon: com.crystalballmarkets.mobiustrader7.jpg
 bugbounty: 
 meta: obsolete

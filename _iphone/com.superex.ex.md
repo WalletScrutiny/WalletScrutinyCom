@@ -12,7 +12,6 @@ version: 2.9.29
 reviews: 184
 website: https://www.superex.com
 repository: 
-issue: 
 icon: com.superex.ex.jpg
 bugbounty: 
 meta: ok

@@ -14,7 +14,6 @@ version: 26.3.6
 reviews: 8566
 website: https://exodus.com/mobile
 repository: 
-issue: 
 icon: exodusmovement.exodus.png
 bugbounty: 
 meta: ok

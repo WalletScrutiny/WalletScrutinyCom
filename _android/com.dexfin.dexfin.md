@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://www.dexfin.com
 repository: 
-issue: 
 icon: com.dexfin.dexfin.png
 bugbounty: 
 meta: removed

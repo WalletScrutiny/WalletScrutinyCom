@@ -13,7 +13,6 @@ version: 101.5.0
 reviews: 65
 website: https://www.hashcashconsultants.com
 repository: 
-issue: 
 icon: com.hashcashconsultants.payBitoTrade.jpg
 bugbounty: 
 meta: ok

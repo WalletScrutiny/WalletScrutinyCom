@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 
 website: https://factpocket.com#deadLink
 repository: 
-issue: 
 icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
 meta: removed

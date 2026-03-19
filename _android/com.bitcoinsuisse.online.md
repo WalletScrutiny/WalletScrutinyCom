@@ -13,7 +13,6 @@ version: 3.0.3
 reviews: 
 website: https://www.bitcoinsuisse.com
 repository: 
-issue: 
 icon: com.bitcoinsuisse.online.png
 bugbounty: 
 meta: ok

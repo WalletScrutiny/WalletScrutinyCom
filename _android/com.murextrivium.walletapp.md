@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: http://murexbitcoinsolutions.com#deadLink
 repository: 
-issue: 
 icon: com.murextrivium.walletapp.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop: https://frogwallets.com/index.php?route=product/product&product_id=53
 country: US
 price: 9.95 USD
 repository: 
-issue: 
 icon: frogwallets.png
 bugbounty: 
 meta: ok

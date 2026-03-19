@@ -13,7 +13,6 @@ version: '3.12'
 reviews: 15
 website: https://dokwallet.com/
 repository: 
-issue: 
 icon: com.dok.wallet.png
 bugbounty: 
 meta: ok

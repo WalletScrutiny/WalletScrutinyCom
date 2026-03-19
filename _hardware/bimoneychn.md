@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: 
-issue: 
 icon: bimoneychn.png
 bugbounty: 
 meta: ok

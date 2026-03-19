@@ -13,7 +13,6 @@ version: 3.3.1
 reviews: 4
 website: https://ctrl.xyz
 repository: 
-issue: 
 icon: xyz.ctrl.wallet.png
 bugbounty: 
 meta: ok

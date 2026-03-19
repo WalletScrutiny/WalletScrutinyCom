@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.freedx.app.prod.jpg
 bugbounty: 
 meta: ok

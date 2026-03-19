@@ -13,7 +13,6 @@ version: 1.5.9
 reviews: 25
 website: https://tongtongwallet.com/
 repository: 
-issue: 
 icon: com.etomato.wallet.jpg
 bugbounty: 
 meta: ok

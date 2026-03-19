@@ -13,7 +13,6 @@ version: 2.10.1
 reviews: 125
 website: https://mercuryo.io
 repository: 
-issue: 
 icon: com.mercuryo.app.png
 bugbounty: 
 meta: ok

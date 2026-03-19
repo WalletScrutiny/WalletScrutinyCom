@@ -13,7 +13,6 @@ version: 1.12.3
 reviews: 40
 website: https://bitpapa.com
 repository: 
-issue: 
 icon: com.bitpapa.png
 bugbounty: 
 meta: removed

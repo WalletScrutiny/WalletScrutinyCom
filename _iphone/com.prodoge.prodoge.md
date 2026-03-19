@@ -13,7 +13,6 @@ version: '3.35'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
 meta: stale

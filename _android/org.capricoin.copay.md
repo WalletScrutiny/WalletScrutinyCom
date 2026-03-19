@@ -12,7 +12,6 @@ version: 5.5.5
 reviews: 
 website: https://www.capricoin.org/
 repository: 
-issue: 
 icon: org.capricoin.copay.png
 bugbounty: 
 meta: removed

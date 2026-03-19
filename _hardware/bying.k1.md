@@ -20,7 +20,6 @@ shop: https://weidian.com/item.html?itemID=2622692395
 country: 
 price: 
 repository: 
-issue: 
 icon: bying.k1.png
 bugbounty: 
 meta: defunct

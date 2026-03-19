@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://gfbtrading-group.com#deadLink
 repository: 
-issue: 
 icon: gfb.trading.group.jpg
 bugbounty: 
 meta: removed

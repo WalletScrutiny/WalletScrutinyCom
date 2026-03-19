@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://hifast.io
 repository: 
-issue: 
 icon: com.hifasthq.hifast.png
 bugbounty: 
 meta: removed

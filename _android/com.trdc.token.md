@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 7
 website: https://trdctoken.com
 repository: 
-issue: 
 icon: com.trdc.token.png
 bugbounty: 
 meta: removed

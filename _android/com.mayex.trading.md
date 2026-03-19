@@ -13,7 +13,6 @@ version: 1.9.80
 reviews: 9
 website: https://www.mayex.com
 repository: 
-issue: 
 icon: com.mayex.trading.jpg
 bugbounty: 
 meta: removed

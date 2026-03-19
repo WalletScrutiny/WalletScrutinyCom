@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://vaultex.co/
 repository: 
-issue: 
 icon: co.vaultex.wallet.jpg
 bugbounty: 
 meta: stale

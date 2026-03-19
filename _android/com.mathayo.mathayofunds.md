@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://mathayofunds.com#deadLink
 repository: 
-issue: 
 icon: com.mathayo.mathayofunds.png
 bugbounty: 
 meta: removed

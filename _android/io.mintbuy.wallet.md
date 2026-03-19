@@ -12,7 +12,6 @@ version: 0.21.1
 reviews: 
 website: https://mintmoney.org
 repository: 
-issue: 
 icon: io.mintbuy.wallet.png
 bugbounty: 
 meta: removed

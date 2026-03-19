@@ -13,7 +13,6 @@ version: 3.1.23
 reviews: 0
 website: https://www.iforex.com
 repository: 
-issue: 
 icon: com.bootleg.iforexCryptoWrapper.jpg
 bugbounty: 
 meta: removed

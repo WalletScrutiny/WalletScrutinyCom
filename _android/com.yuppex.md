@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://yuppex.com
 repository: 
-issue: 
 icon: com.yuppex.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.epocash.com
 repository: 
-issue: 
 icon: com.epocash.epocash.jpg
 bugbounty: 
 meta: removed

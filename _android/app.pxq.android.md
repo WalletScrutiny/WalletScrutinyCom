@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 4
 website: https://pxq.app
 repository: 
-issue: 
 icon: app.pxq.android.png
 bugbounty: 
 meta: removed

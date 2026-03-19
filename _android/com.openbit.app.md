@@ -12,7 +12,6 @@ version: 1.1.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.openbit.app.png
 bugbounty: 
 meta: removed

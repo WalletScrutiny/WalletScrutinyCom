@@ -13,7 +13,6 @@ version: 3.4.1
 reviews: 0
 website: https://credits.com
 repository: 
-issue: 
 icon: com.credits.CryptoWallet.jpg
 bugbounty: 
 meta: ok

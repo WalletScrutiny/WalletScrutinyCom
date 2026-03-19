@@ -13,7 +13,6 @@ version: 7.6.33
 reviews: 26
 website: https://www.deepcoin.com
 repository: 
-issue: 
 icon: com.deepcoin.app.global.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.1.13
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sylth.globals.png
 bugbounty: 
 meta: removed

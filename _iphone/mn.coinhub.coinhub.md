@@ -13,7 +13,6 @@ version: 1.3.3
 reviews: 11
 website: https://about.coinhub.mn
 repository: 
-issue: 
 icon: mn.coinhub.coinhub.jpg
 bugbounty: 
 meta: removed

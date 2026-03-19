@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: kash.vault1.png
 bugbounty: 
 meta: ok

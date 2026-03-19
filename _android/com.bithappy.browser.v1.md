@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 
 website: http://bithappy.co.uk#deadLink
 repository: 
-issue: 
 icon: com.bithappy.browser.v1.png
 bugbounty: 
 meta: removed

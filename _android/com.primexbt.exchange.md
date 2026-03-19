@@ -12,7 +12,6 @@ version: 144.5.0-release
 reviews: 471
 website: 
 repository: 
-issue: 
 icon: com.primexbt.exchange.png
 bugbounty: 
 meta: removed

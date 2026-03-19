@@ -13,7 +13,6 @@ version: '31.0'
 reviews: 15
 website: http://gleec.com/
 repository: 
-issue: 
 icon: com.gleec.png
 bugbounty: 
 meta: defunct

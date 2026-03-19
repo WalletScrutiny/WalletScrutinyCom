@@ -13,7 +13,6 @@ version: 2.1.5
 reviews: 
 website: http://payble.io
 repository: 
-issue: 
 icon: com.app.payble.png
 bugbounty: 
 meta: removed

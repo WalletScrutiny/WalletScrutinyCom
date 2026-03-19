@@ -12,7 +12,6 @@ version: 7.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: se.example.starboyexchange.png
 bugbounty: 
 meta: removed

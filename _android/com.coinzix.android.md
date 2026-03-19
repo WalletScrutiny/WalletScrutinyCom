@@ -13,7 +13,6 @@ version: '1.96'
 reviews: 4
 website: https://www.coinzix.com
 repository: 
-issue: 
 icon: com.coinzix.android.png
 bugbounty: 
 meta: removed

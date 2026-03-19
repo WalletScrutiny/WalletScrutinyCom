@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://chankura.com
 repository: 
-issue: 
 icon: com.barong.chankura.png
 bugbounty: 
 meta: removed

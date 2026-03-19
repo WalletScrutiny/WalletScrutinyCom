@@ -13,7 +13,6 @@ version: 4.0.0
 reviews: 
 website: https://www.sbivc.co.jp/
 repository: 
-issue: 
 icon: com.taotao_ex.android.jpg
 bugbounty: 
 meta: removed

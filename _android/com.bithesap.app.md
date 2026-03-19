@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 
 website: https://www.bithesap.com
 repository: 
-issue: 
 icon: com.bithesap.app.png
 bugbounty: 
 meta: removed

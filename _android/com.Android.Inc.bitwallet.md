@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 262
 website: https://www.bitwallet.org
 repository: 
-issue: 
 icon: com.Android.Inc.bitwallet.png
 bugbounty: 
 meta: removed

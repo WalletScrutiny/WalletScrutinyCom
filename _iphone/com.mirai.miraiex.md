@@ -13,7 +13,6 @@ version: 3.7.0
 reviews: 10135
 website: 
 repository: 
-issue: 
 icon: com.mirai.miraiex.jpg
 bugbounty: 
 meta: ok

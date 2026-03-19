@@ -13,7 +13,6 @@ version: 1.41.0
 reviews: 236
 website: 
 repository: 
-issue: 
 icon: com.fastex.fastexapp.jpg
 bugbounty: 
 meta: ok

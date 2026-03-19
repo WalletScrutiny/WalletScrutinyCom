@@ -13,7 +13,6 @@ version: 5.0.1
 reviews: 
 website: https://bitcointry.com
 repository: 
-issue: 
 icon: com.bitcointry.com.png
 bugbounty: 
 meta: ok

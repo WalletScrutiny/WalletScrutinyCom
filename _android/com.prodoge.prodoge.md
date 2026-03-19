@@ -13,7 +13,6 @@ version: '3.36'
 reviews: 5
 website: https://alxwallet.com
 repository: 
-issue: 
 icon: com.prodoge.prodoge.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://aerotoken.org/
 repository: 
-issue: 
 icon: com.aerotoken.png
 bugbounty: 
 meta: removed

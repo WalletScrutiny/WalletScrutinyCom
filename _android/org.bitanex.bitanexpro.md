@@ -13,7 +13,6 @@ version: 3.1.22
 reviews: 2
 website: http://bitanex.com
 repository: 
-issue: 
 icon: org.bitanex.bitanexpro.jpg
 bugbounty: 
 meta: removed

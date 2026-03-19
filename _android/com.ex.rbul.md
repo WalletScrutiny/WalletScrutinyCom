@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://www.rbul.io#deadLink
 repository: 
-issue: 
 icon: com.ex.rbul.png
 bugbounty: 
 meta: removed

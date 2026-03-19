@@ -13,7 +13,6 @@ version: '3.0'
 reviews: 8
 website: https://www.eesty.ee#deadLink
 repository: 
-issue: 
 icon: ee.eesty.production.jpg
 bugbounty: 
 meta: removed

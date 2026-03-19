@@ -13,7 +13,6 @@ version: 2.33.2
 reviews: 4929
 website: https://coinext.com.br/
 repository: 
-issue: 
 icon: br.com.coinext.Coinext.jpg
 bugbounty: 
 meta: ok

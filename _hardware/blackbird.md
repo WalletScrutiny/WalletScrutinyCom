@@ -17,7 +17,6 @@ shop:
 country: LU
 price: 
 repository: 
-issue: 
 icon: blackbird.png
 bugbounty: 
 meta: defunct

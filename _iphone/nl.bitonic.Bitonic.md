@@ -13,7 +13,6 @@ version: 3.15.0
 reviews: 2554
 website: https://bitonic.nl
 repository: 
-issue: 
 icon: nl.bitonic.Bitonic.jpg
 bugbounty: 
 meta: ok

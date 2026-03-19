@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://payterminal.ng#deadLink
 repository: 
-issue: 
 icon: com.payterminal.payterminal.jpg
 bugbounty: 
 meta: removed

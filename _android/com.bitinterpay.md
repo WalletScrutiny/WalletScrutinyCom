@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitinterpay.com
 repository: 
-issue: 
 icon: com.bitinterpay.png
 bugbounty: 
 meta: removed

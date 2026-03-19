@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 11
 website: https://dtswallet.io#deadLink
 repository: 
-issue: 
 icon: com.wallex.dts.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.buybitcoin.traidercrypto.jpg
 bugbounty: 
 meta: removed

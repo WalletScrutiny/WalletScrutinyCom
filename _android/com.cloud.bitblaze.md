@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: http://bitblaze.co
 repository: 
-issue: 
 icon: com.cloud.bitblaze.png
 bugbounty: 
 meta: removed

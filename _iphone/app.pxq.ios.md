@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 0
 website: https://pxq.app
 repository: 
-issue: 
 icon: app.pxq.ios.jpg
 bugbounty: 
 meta: removed

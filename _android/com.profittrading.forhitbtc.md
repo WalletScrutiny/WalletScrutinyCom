@@ -13,7 +13,6 @@ version: VARY
 reviews: 3
 website: https://profittradingapp.com/
 repository: 
-issue: 
 icon: com.profittrading.forhitbtc.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 
 website: https://tajirwallet.io/
 repository: 
-issue: 
 icon: com.tajir.wallet.app.jpg
 bugbounty: 
 meta: ok

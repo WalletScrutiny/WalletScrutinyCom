@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 
 website: http://www.turismobtc.com#deadLink
 repository: 
-issue: 
 icon: com.turismobtc.app.png
 bugbounty: 
 meta: removed

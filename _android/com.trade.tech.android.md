@@ -12,7 +12,6 @@ version: 1.15.0
 reviews: 
 website: https://www.finalto.com/
 repository: 
-issue: 
 icon: com.trade.tech.android.png
 bugbounty: 
 meta: obsolete

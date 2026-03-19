@@ -13,7 +13,6 @@ version: 1.9.6
 reviews: 3
 website: http://bitsonic.co.kr
 repository: 
-issue: 
 icon: kr.co.bitsonic.png
 bugbounty: 
 meta: removed

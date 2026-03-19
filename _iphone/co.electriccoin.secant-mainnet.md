@@ -12,7 +12,6 @@ version: 3.1.0
 reviews: 101
 website: http://zodl.com
 repository: 
-issue: 
 icon: co.electriccoin.secant-mainnet.jpg
 bugbounty: 
 meta: ok

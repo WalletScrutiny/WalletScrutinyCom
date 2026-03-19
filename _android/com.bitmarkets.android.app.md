@@ -13,7 +13,6 @@ version: 3.8.9
 reviews: 
 website: https://www.bitmarkets.com/
 repository: 
-issue: 
 icon: com.bitmarkets.android.app.png
 bugbounty: 
 meta: ok

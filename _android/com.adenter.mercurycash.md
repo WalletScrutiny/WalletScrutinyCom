@@ -13,7 +13,6 @@ version: 4.4.3
 reviews: 17
 website: http://mercurycash.us
 repository: 
-issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://milleniumone.com#deadLink
 repository: 
-issue: 
 icon: com.pandats.milleniumone.png
 bugbounty: 
 meta: removed

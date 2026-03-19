@@ -12,7 +12,6 @@ version: 3.10.6
 reviews: 999
 website: https://www.arculus.co/
 repository: 
-issue: 
 icon: com.arculus.wallet.jpg
 bugbounty: 
 meta: ok

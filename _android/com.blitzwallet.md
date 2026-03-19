@@ -13,7 +13,6 @@ version: 0.7.7
 reviews: 
 website: https://blitzwalletapp.com/
 repository: https://github.com/BlitzWallet/BlitzWallet
-issue: 
 icon: com.blitzwallet.png
 bugbounty: 
 meta: ok

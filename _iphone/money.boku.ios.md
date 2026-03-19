@@ -13,7 +13,6 @@ version: 1.11.22
 reviews: 58
 website: https://neverless.com
 repository: 
-issue: 
 icon: money.boku.ios.jpg
 bugbounty: 
 meta: ok

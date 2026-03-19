@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 739
 website: https://mobee.com/
 repository: 
-issue: 
 icon: io.mobee.finance.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.0.3
 reviews: 80
 website: https://Arz8.com
 repository: 
-issue: 
 icon: com.arz8x.app.arz8x.png
 bugbounty: 
 meta: removed

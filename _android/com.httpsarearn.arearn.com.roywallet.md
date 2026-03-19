@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.roywallet.app#deadLink
 repository: 
-issue: 
 icon: com.httpsarearn.arearn.com.roywallet.jpg
 bugbounty: 
 meta: removed

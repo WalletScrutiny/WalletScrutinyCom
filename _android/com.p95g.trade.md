@@ -12,7 +12,6 @@ version: 1.5.0
 reviews: 
 website: https://www.p95g.com#deadLink
 repository: 
-issue: 
 icon: com.p95g.trade.png
 bugbounty: 
 meta: removed

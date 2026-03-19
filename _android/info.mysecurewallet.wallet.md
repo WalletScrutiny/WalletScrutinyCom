@@ -14,7 +14,6 @@ version: '1.1'
 reviews: 42
 website: 
 repository: 
-issue: 
 icon: info.mysecurewallet.wallet.png
 bugbounty: 
 meta: removed

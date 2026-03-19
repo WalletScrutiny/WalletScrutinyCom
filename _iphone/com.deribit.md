@@ -13,7 +13,6 @@ version: 3.18.0
 reviews: 6
 website: http://www.deribit.com
 repository: 
-issue: 
 icon: com.deribit.jpg
 bugbounty: 
 meta: ok

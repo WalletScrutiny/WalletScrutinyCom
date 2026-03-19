@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://secuxtech.com
 repository: 
-issue: 
 icon: com.secuxtech.spaymerchanttool.png
 bugbounty: 
 meta: removed

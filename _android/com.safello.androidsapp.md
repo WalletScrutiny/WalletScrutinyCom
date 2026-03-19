@@ -13,7 +13,6 @@ version: 1.59.2
 reviews: 
 website: https://safello.com/
 repository: 
-issue: 
 icon: com.safello.androidsapp.png
 bugbounty: 
 meta: ok

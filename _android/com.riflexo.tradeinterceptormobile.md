@@ -13,7 +13,6 @@ version: 7.0.5.11
 reviews: 350
 website: http://www.thinkmarkets.com
 repository: 
-issue: 
 icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
 meta: ok

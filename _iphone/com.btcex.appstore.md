@@ -13,7 +13,6 @@ version: 1.4.4
 reviews: 0
 website: https://www.btcex.com#deadLink
 repository: 
-issue: 
 icon: com.btcex.appstore.jpg
 bugbounty: 
 meta: removed

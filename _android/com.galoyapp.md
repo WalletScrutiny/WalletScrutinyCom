@@ -14,7 +14,6 @@ version: 2.4.15
 reviews: 46
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
-issue: 
 icon: com.galoyapp.png
 bugbounty: 
 meta: ok

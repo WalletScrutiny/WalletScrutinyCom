@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: saitamatoken.saitasafe.png
 bugbounty: 
 meta: ok

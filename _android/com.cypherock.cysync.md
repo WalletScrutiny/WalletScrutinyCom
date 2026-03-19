@@ -12,7 +12,6 @@ version: 0.1.17
 reviews: 
 website: https://www.cypherock.com/
 repository: 
-issue: 
 icon: com.cypherock.cysync.png
 bugbounty: 
 meta: ok

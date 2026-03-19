@@ -13,7 +13,6 @@ version: 3.0.32
 reviews: 107
 website: https://stablex.com.tr
 repository: 
-issue: 
 icon: net.stablex.app.jpg
 bugbounty: 
 meta: ok

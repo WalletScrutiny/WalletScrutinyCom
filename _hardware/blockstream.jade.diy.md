@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/epiccurious/jade-diy
-issue: 
 icon: blockstream.jade.diy.png
 bugbounty: 
 meta: ok

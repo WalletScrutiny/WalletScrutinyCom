@@ -12,7 +12,6 @@ version: 3.0.0.0
 reviews: 
 website: https://www.remibit.com#deadLink
 repository: 
-issue: 
 icon: com.remibit.wallet.twa.png
 bugbounty: 
 meta: removed

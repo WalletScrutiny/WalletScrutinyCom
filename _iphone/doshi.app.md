@@ -13,7 +13,6 @@ version: 1.0.130
 reviews: 16
 website: https://doshi.app
 repository: 
-issue: 
 icon: doshi.app.jpg
 bugbounty: 
 meta: removed

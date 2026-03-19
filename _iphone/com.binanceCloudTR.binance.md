@@ -13,7 +13,6 @@ version: 4.1.2
 reviews: 170738
 website: https://www.trbinance.com/
 repository: 
-issue: 
 icon: com.binanceCloudTR.binance.jpg
 bugbounty: 
 meta: ok

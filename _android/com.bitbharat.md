@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://bitbharat.world#deadLink
 repository: 
-issue: 
 icon: com.bitbharat.png
 bugbounty: 
 meta: removed

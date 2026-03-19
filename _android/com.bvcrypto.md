@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: http://www.bvcrypto.com
 repository: 
-issue: 
 icon: com.bvcrypto.png
 bugbounty: 
 meta: removed

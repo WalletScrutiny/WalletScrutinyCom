@@ -12,7 +12,6 @@ version: '0.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.gtayo.crpt.jpg
 bugbounty: 
 meta: removed

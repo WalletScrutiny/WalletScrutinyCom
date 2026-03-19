@@ -13,7 +13,6 @@ version: 2.155.0
 reviews: 1190
 website: https://www.maya.ph/
 repository: 
-issue: 
 icon: com.paymaya.png
 bugbounty: 
 meta: ok

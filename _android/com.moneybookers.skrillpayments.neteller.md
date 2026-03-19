@@ -13,7 +13,6 @@ version: 3.180.0-2026030916
 reviews: 279
 website: https://www.neteller.com
 repository: 
-issue: 
 icon: com.moneybookers.skrillpayments.neteller.png
 bugbounty: 
 meta: ok

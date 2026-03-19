@@ -13,7 +13,6 @@ version: '3.3'
 reviews: 9
 website: https://vegawallet.com
 repository: 
-issue: 
 icon: com.vegawallet.in.jpg
 bugbounty: 
 meta: removed

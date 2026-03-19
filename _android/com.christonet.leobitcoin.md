@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://leobitcoin.com/
 repository: 
-issue: 
 icon: com.christonet.leobitcoin.png
 bugbounty: 
 meta: obsolete

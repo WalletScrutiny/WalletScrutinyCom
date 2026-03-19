@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoinbankapp.png
 bugbounty: 
 meta: removed

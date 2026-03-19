@@ -12,7 +12,6 @@ version: 6.39.0
 reviews: 7143
 website: 
 repository: 
-issue: 
 icon: mobile.mexcglobal.www.jpg
 bugbounty: 
 meta: ok

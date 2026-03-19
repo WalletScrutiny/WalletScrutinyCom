@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 139
 website: https://www.burency.com#deadLink
 repository: 
-issue: 
 icon: com.burency.app.png
 bugbounty: 
 meta: removed

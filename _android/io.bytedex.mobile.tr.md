@@ -13,7 +13,6 @@ version: 2.0.16
 reviews: 
 website: https://bexc.io
 repository: 
-issue: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
 meta: obsolete

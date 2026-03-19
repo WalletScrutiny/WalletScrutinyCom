@@ -12,7 +12,6 @@ version: 2.5.1
 reviews: 19
 website: https://www.safepal.io/
 repository: 
-issue: 
 icon: com.anbi.safepal.jpg
 bugbounty: 
 meta: removed

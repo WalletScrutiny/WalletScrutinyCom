@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://crypto-plane.com#deadLink
 repository: 
-issue: 
 icon: co.cryptoplane.app.cryptoplane.jpg
 bugbounty: 
 meta: removed

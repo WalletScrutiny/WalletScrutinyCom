@@ -13,7 +13,6 @@ version: 3.18.0
 reviews: 18
 website: https://www.bitpanda.com
 repository: 
-issue: 
 icon: com.bitpanda.bitpanda.png
 bugbounty: 
 meta: ok

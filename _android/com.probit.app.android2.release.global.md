@@ -13,7 +13,6 @@ version: 1.77.3
 reviews: 361
 website: https://www.probit.com
 repository: 
-issue: 
 icon: com.probit.app.android2.release.global.png
 bugbounty: 
 meta: removed

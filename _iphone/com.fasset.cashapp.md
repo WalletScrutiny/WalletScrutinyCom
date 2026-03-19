@@ -13,7 +13,6 @@ version: '4.0'
 reviews: 28
 website: https://fasset.io/
 repository: 
-issue: 
 icon: com.fasset.cashapp.jpg
 bugbounty: 
 meta: ok

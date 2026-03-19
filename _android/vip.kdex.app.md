@@ -12,7 +12,6 @@ version: 1.9.2
 reviews: 
 website: http://demo.kdex.vip/#&deadLink
 repository: 
-issue: 
 icon: vip.kdex.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.squirrelwallet.onekey.jpg
 bugbounty: 
 meta: ok

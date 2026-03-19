@@ -12,7 +12,6 @@ version: '21.0'
 reviews: 
 website: https://seppulsa.com
 repository: 
-issue: 
 icon: com.bikinaplikasi.appseppulsa.png
 bugbounty: 
 meta: removed

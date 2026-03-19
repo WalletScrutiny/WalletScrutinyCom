@@ -13,7 +13,6 @@ version: 1.7.9
 reviews: 27
 website: https://unisat.io
 repository: 
-issue: 
 icon: io.unisat.mobile.jpg
 bugbounty: 
 meta: ok

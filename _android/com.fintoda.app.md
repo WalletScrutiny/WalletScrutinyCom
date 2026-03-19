@@ -13,7 +13,6 @@ version: 1.7.4
 reviews: 
 website: https://fintoda.com
 repository: 
-issue: 
 icon: com.fintoda.app.png
 bugbounty: 
 meta: ok

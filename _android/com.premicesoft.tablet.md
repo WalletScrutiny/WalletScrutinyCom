@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: http://www.premicesoft.com
 repository: 
-issue: 
 icon: com.premicesoft.tablet.png
 bugbounty: 
 meta: removed

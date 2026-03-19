@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.cloudminingespapp.espapp.jpg
 bugbounty: 
 meta: removed

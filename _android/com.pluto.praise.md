@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: http://praise.pe.kr#deadLink
 repository: 
-issue: 
 icon: com.pluto.praise.png
 bugbounty: 
 meta: removed

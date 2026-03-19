@@ -13,7 +13,6 @@ version: 7.30.1
 reviews: 286
 website: http://www.bkex.vip#deadLink
 repository: 
-issue: 
 icon: com.bkex.exchange.jpg
 bugbounty: 
 meta: removed

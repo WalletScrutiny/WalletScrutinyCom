@@ -12,7 +12,6 @@ version: 1.9.18
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.okinc.info.jpg
 bugbounty: 
 meta: removed

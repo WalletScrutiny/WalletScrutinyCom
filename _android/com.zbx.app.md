@@ -13,7 +13,6 @@ version: 2.5.26
 reviews: 
 website: https://www.zbx.com/
 repository: 
-issue: 
 icon: com.zbx.app.png
 bugbounty: 
 meta: ok

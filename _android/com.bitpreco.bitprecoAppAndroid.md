@@ -13,7 +13,6 @@ version: 2.0.04
 reviews: 726
 website: https://bitpreco.com/
 repository: 
-issue: 
 icon: com.bitpreco.bitprecoAppAndroid.png
 bugbounty: 
 meta: removed

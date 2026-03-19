@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://chukwukaobeleagu.com#deadLink
 repository: 
-issue: 
 icon: com.andromo.dev630323.app659193.jpg
 bugbounty: 
 meta: removed

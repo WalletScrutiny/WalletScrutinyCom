@@ -12,7 +12,6 @@ version: '1.7'
 reviews: 
 website: https://stakeseeker.com/
 repository: 
-issue: 
 icon: com.btcs.stakeseeker.png
 bugbounty: 
 meta: removed

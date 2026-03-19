@@ -12,7 +12,6 @@ version: 1.5.78-etfinance
 reviews: 
 website: https://www.etfinance.eu
 repository: 
-issue: 
 icon: com.etfinance.png
 bugbounty: 
 meta: removed

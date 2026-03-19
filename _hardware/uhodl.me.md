@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 219 USD
 repository: 
-issue: 
 icon: uhodl.me.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 12.5.6
 reviews: 180
 website: https://copay.io
 repository: 
-issue: 
 icon: com.bitpay.copay.jpg
 bugbounty: 
 meta: obsolete

@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 29
 website: 
 repository: 
-issue: 
 icon: com.aidbit.highapp.png
 bugbounty: 
 meta: removed

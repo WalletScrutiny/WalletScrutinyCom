@@ -12,7 +12,6 @@ version: 1.0.32
 reviews: 
 website: http://binanceautotrade.myreport-live.be#deadLink
 repository: 
-issue: 
 icon: be.myreportlive.binanceautotrade.png
 bugbounty: 
 meta: removed

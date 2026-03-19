@@ -13,7 +13,6 @@ version: 1.3.0
 reviews: 28
 website: https://dex-trade.com
 repository: 
-issue: 
 icon: com.dextrade.android.png
 bugbounty: 
 meta: obsolete

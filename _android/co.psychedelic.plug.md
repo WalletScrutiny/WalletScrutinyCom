@@ -13,7 +13,6 @@ version: 2.7.4
 reviews: 17
 website: https://plugwallet.ooo
 repository: 
-issue: 
 icon: co.psychedelic.plug.png
 bugbounty: 
 meta: ok

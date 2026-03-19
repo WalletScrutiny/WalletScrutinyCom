@@ -13,7 +13,6 @@ version: 5.14.0
 reviews: 64
 website: https://incognito.org#deadLink
 repository: https://github.com/incognitochain/incognito-wallet#deadLink
-issue: https://github.com/incognitochain/incognito-wallet/issues/1422#deadLink
 icon: com.incognito.wallet.png
 bugbounty: 
 meta: removed
@@ -45,3 +44,5 @@ reproducible builds or otherwise build instructions for that purpose.
 We reached out to them in
 [this issue](https://github.com/incognitochain/incognito-wallet/issues/1422#deadLink)
 and hope to get feedback, soon but for now the app is **not verifiable**.
+
+An issue has been opened at [https://github.com/incognitochain/incognito-wallet/issues/1422#deadLink](https://github.com/incognitochain/incognito-wallet/issues/1422#deadLink)

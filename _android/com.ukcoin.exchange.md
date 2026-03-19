@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://ukcoins.exchange#deadLink
 repository: 
-issue: 
 icon: com.ukcoin.exchange.png
 bugbounty: 
 meta: removed

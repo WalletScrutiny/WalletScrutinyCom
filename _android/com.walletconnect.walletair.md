@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 75
 website: 
 repository: 
-issue: 
 icon: com.walletconnect.walletair.png
 bugbounty: 
 meta: removed

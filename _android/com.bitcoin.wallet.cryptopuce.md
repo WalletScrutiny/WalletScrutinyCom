@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 3
 website: https://cryptopuce.com
 repository: 
-issue: 
 icon: com.bitcoin.wallet.cryptopuce.png
 bugbounty: 
 meta: removed

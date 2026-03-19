@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://vesto.io
 repository: 
-issue: 
 icon: io.vesto.app.png
 bugbounty: 
 meta: removed

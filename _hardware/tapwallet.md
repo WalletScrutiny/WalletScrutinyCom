@@ -17,7 +17,6 @@ shop: https://web.archive.org/web/20231129150507/http://tapwallet.com/store.html
 country: US
 price: 249USD
 repository: 
-issue: 
 icon: tapwallet.png
 bugbounty: 
 meta: ok

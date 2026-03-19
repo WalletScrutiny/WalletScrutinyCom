@@ -13,7 +13,6 @@ version: 5.9.1
 reviews: 688
 website: https://www.lbank.com/
 repository: 
-issue: 
 icon: com.LBank.LBankNavApp.jpg
 bugbounty: 
 meta: ok

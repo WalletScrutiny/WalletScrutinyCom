@@ -12,7 +12,6 @@ version: 1.4.1
 reviews: 
 website: https://radiuswallet.com#deadLink
 repository: 
-issue: 
 icon: com.radiuswallet.png
 bugbounty: 
 meta: removed

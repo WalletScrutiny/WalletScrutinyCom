@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitstone.org
 repository: 
-issue: 
 icon: info.androidhive.btn.png
 bugbounty: 
 meta: removed

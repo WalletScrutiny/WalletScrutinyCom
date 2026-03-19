@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 90
 website: http://www.hagglex.com
 repository: 
-issue: 
 icon: com.hagglex.hagglex.png
 bugbounty: 
 meta: removed

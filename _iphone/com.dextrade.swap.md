@@ -13,7 +13,6 @@ version: 2.0.106
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.dextrade.swap.jpg
 bugbounty: 
 meta: ok

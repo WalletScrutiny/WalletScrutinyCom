@@ -12,7 +12,6 @@ version: 1.4.2
 reviews: 
 website: https://www.linkdada.com/
 repository: 
-issue: 
 icon: com.linkdada.application.png
 bugbounty: 
 meta: removed

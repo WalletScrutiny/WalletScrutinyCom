@@ -12,7 +12,6 @@ version: 1.1.2025071502
 reviews: 
 website: https://www.usbc.xyz
 repository: 
-issue: 
 icon: xyz.usbc.app.png
 bugbounty: 
 meta: removed

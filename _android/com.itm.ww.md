@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: http://www.wampum1st.com#deadLink
 repository: 
-issue: 
 icon: com.itm.ww.png
 bugbounty: 
 meta: removed

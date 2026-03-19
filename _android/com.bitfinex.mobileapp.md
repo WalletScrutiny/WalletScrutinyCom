@@ -13,7 +13,6 @@ version: 7.20.1
 reviews: 76
 website: https://www.bitfinex.com
 repository: 
-issue: 
 icon: com.bitfinex.mobileapp.png
 bugbounty: 
 meta: ok

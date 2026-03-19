@@ -13,7 +13,6 @@ version: 23.0.0
 reviews: 127
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 
-issue: 
 icon: com.zipmex.app.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://kmoxx.com/
 repository: 
-issue: 
 icon: com.kmoxxllp.cryptozone.png
 bugbounty: 
 meta: removed

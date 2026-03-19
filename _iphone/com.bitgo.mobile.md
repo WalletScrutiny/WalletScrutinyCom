@@ -13,7 +13,6 @@ version: 2.0.57
 reviews: 14
 website: https://bitgo.com
 repository: 
-issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
 meta: ok

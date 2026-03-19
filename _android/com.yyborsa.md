@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://724borsa.com#deadLink
 repository: 
-issue: 
 icon: com.yyborsa.png
 bugbounty: 
 meta: removed

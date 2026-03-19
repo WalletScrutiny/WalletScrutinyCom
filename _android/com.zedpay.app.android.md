@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 
 website: https://zed-pay.com
 repository: 
-issue: 
 icon: com.zedpay.app.android.png
 bugbounty: 
 meta: ok

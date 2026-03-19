@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 21
 website: 
 repository: 
-issue: 
 icon: com.rezor.jpg
 bugbounty: 
 meta: ok

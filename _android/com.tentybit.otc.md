@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.tentybit.com#deadLink
 repository: 
-issue: 
 icon: com.tentybit.otc.png
 bugbounty: 
 meta: removed

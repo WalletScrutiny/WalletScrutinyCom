@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://bitnuk.com/
 repository: 
-issue: 
 icon: com.isun.ag.bitnuk.png
 bugbounty: 
 meta: removed

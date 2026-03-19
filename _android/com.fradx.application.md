@@ -12,7 +12,6 @@ version: 1.4.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fradx.application.png
 bugbounty: 
 meta: removed

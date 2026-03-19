@@ -12,7 +12,6 @@ provider: Craig Raw
 providerWebsite: 
 website: https://www.sparrowwallet.com
 repository: https://github.com/sparrowwallet/sparrow
-issue: 
 icon: sparrow.png
 bugbounty: 
 meta: ok

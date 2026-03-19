@@ -13,7 +13,6 @@ version: 4.6.5
 reviews: 100
 website: https://margex.com
 repository: 
-issue: 
 icon: com.margex.margex_mobile.png
 bugbounty: 
 meta: removed

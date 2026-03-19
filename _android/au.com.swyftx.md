@@ -13,7 +13,6 @@ version: 2.8.40
 reviews: 
 website: https://swyftx.com/
 repository: 
-issue: 
 icon: au.com.swyftx.png
 bugbounty: 
 meta: ok

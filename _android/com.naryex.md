@@ -12,7 +12,6 @@ version: 1.2.4
 reviews: 
 website: https://naryex.com#deadLink
 repository: 
-issue: 
 icon: com.naryex.png
 bugbounty: 
 meta: removed

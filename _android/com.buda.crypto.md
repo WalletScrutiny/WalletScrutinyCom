@@ -13,7 +13,6 @@ version: 2025.11.3
 reviews: 18
 website: https://buda.com
 repository: 
-issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
 meta: ok

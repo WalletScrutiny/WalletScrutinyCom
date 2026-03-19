@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptorabbitlite.cryptorabbitlite.png
 bugbounty: 
 meta: removed

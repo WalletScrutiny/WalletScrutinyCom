@@ -13,7 +13,6 @@ version: 6.1.22
 reviews: 722
 website: https://www.bitrue.com/
 repository: 
-issue: 
 icon: com.bitrue.currency.exchange.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://qwertynetworks.com
 repository: 
-issue: 
 icon: com.qwertynetworks.png
 bugbounty: 
 meta: removed

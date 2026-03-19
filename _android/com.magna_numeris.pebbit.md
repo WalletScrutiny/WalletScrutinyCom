@@ -12,7 +12,6 @@ version: 0.9.39
 reviews: 
 website: https://pebbit.app
 repository: 
-issue: 
 icon: com.magna_numeris.pebbit.jpg
 bugbounty: 
 meta: removed

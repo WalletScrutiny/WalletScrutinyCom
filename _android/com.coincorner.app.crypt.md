@@ -13,7 +13,6 @@ version: 5.2.3
 reviews: 5
 website: https://www.coincorner.com
 repository: 
-issue: 
 icon: com.coincorner.app.crypt.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.11.5
 reviews: 0
 website: https://www.bitlifi.com
 repository: 
-issue: 
 icon: com.bitlifi.app.jpg
 bugbounty: 
 meta: ok

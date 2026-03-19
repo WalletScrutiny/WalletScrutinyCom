@@ -12,7 +12,6 @@ version: 1.15.0
 reviews: 
 website: https://www.lmex.io/
 repository: 
-issue: 
 icon: mobile.lmex.io.png
 bugbounty: 
 meta: ok

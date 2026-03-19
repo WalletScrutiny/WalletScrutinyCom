@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://www.trade99.com
 repository: 
-issue: 
 icon: com.pandats.trade99.png
 bugbounty: 
 meta: removed

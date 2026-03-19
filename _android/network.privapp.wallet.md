@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 20
 website: https://privapp.network/
 repository: 
-issue: 
 icon: network.privapp.wallet.jpg
 bugbounty: 
 meta: ok

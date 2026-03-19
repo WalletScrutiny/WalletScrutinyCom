@@ -12,7 +12,6 @@ version: v5.0.0
 reviews: 
 website: http://www.binexus.co#deadLink
 repository: 
-issue: 
 icon: com.binexus.wallet.png
 bugbounty: 
 meta: removed

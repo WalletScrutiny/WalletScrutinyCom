@@ -13,7 +13,6 @@ version: '9.0'
 reviews: 0
 website: https://ammer.cards
 repository: 
-issue: 
 icon: io.trustody.wallet.jpg
 bugbounty: 
 meta: ok

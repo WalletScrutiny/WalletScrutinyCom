@@ -13,7 +13,6 @@ version: 4.24.14
 reviews: 593
 website: https://klever.org/
 repository: 
-issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
 meta: removed

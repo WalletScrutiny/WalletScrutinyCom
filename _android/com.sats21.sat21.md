@@ -12,7 +12,6 @@ version: 0.8.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sats21.sat21.png
 bugbounty: 
 meta: removed

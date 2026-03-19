@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 
 website: https://bokucoin.com#deadLink
 repository: 
-issue: 
 icon: com.bokucoin.app.png
 bugbounty: 
 meta: removed

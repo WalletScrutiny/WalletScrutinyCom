@@ -13,7 +13,6 @@ version: 1.9.0
 reviews: 81
 website: https://sarmayex.com
 repository: 
-issue: 
 icon: com.arzjoo.png
 bugbounty: 
 meta: ok

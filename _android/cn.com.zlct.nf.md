@@ -13,7 +13,6 @@ version: 2.1.3
 reviews: 
 website: https://nf35.com/#/
 repository: 
-issue: 
 icon: cn.com.zlct.nf.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '5.0'
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.hqdevteam.bitcoinbxthailandpro.png
 bugbounty: 
 meta: removed

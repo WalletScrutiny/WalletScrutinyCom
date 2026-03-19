@@ -12,7 +12,6 @@ version: 1.0.81
 reviews: 
 website: http://omnic.website/innovation#deadLink
 repository: 
-issue: 
 icon: com.omnic.png
 bugbounty: 
 meta: removed

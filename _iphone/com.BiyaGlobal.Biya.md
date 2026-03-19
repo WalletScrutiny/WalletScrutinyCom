@@ -13,7 +13,6 @@ version: 2.9.090
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.BiyaGlobal.Biya.jpg
 bugbounty: 
 meta: ok

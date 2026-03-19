@@ -13,7 +13,6 @@ version: '3.26'
 reviews: 3
 website: https://www.crosstower.in/
 repository: 
-issue: 
 icon: com.crosstower.trading.jpg
 bugbounty: 
 meta: removed

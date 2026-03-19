@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://wallet.gex.exchange
 repository: 
-issue: 
 icon: site.globex.bankwallet.png
 bugbounty: 
 meta: removed

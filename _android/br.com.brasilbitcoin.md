@@ -13,7 +13,6 @@ version: 4.1.02
 reviews: 5621
 website: https://brasilbitcoin.com.br
 repository: 
-issue: 
 icon: br.com.brasilbitcoin.png
 bugbounty: 
 meta: ok

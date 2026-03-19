@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: https://www.asserosapphiremoney.com#deadLink
 repository: 
-issue: 
 icon: com.assero.asserowallet.png
 bugbounty: 
 meta: removed

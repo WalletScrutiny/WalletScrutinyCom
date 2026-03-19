@@ -13,7 +13,6 @@ version: 6.8.1
 reviews: 5573
 website: https://weareblox.com
 repository: 
-issue: 
 icon: com.weareblox.app.jpg
 bugbounty: 
 meta: ok

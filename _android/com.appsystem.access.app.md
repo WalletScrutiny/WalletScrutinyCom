@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://m.facebook.com/Access-100628795474693/?_rdr
 repository: 
-issue: 
 icon: com.appsystem.access.app.png
 bugbounty: 
 meta: removed

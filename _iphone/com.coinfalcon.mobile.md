@@ -13,7 +13,6 @@ version: 2.1.14
 reviews: 16
 website: https://coinfalcon.com
 repository: 
-issue: 
 icon: com.coinfalcon.mobile.jpg
 bugbounty: 
 meta: removed

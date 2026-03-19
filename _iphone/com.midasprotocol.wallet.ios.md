@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 90
 website: https://midasprotocol.io/
 repository: 
-issue: 
 icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
 meta: removed

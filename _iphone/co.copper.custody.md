@@ -13,7 +13,6 @@ version: 2.6.589
 reviews: 4
 website: https://copper.co
 repository: 
-issue: 
 icon: co.copper.custody.jpg
 bugbounty: 
 meta: ok

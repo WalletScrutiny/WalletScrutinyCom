@@ -17,7 +17,6 @@ shop:
 country: FI
 price: 
 repository: 
-issue: 
 icon: denarium.png
 bugbounty: 
 meta: discontinued

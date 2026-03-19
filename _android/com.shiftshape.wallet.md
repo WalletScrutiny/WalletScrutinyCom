@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 18
 website: 
 repository: 
-issue: 
 icon: com.shiftshape.wallet.png
 bugbounty: 
 meta: removed

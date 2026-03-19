@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://www.perproject.io/
 repository: 
-issue: 
 icon: com.perwallet.png
 bugbounty: 
 meta: removed

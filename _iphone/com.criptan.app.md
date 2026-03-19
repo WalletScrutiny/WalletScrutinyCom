@@ -13,7 +13,6 @@ version: 3.2.32
 reviews: 497
 website: https://criptan.es
 repository: 
-issue: 
 icon: com.criptan.app.jpg
 bugbounty: 
 meta: ok

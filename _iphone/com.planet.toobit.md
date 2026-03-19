@@ -13,7 +13,6 @@ version: 2.1.7
 reviews: 3707
 website: https://www.toobit.com/
 repository: 
-issue: 
 icon: com.planet.toobit.jpg
 bugbounty: 
 meta: ok

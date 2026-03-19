@@ -12,7 +12,6 @@ version: 4.1.0
 reviews: 
 website: https://www.oxis.com
 repository: 
-issue: 
 icon: com.oxisapp2.png
 bugbounty: 
 meta: removed

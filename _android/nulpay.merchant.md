@@ -12,7 +12,6 @@ version: '4'
 reviews: 
 website: https://nulpay.com
 repository: 
-issue: 
 icon: nulpay.merchant.jpg
 bugbounty: 
 meta: obsolete

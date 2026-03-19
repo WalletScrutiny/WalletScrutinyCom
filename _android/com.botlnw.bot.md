@@ -12,7 +12,6 @@ version: 2.1.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.botlnw.bot.png
 bugbounty: 
 meta: removed

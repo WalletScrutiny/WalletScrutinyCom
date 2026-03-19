@@ -12,7 +12,6 @@ version: 0.0.4
 reviews: 
 website: https://bitwyre.com
 repository: 
-issue: 
 icon: com.bitwyre.bitwyreapp.png
 bugbounty: 
 meta: removed

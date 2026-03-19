@@ -13,7 +13,6 @@ version: 1.1.8
 reviews: 1
 website: https://amazewallet.com
 repository: 
-issue: 
 icon: com.walletamaze.nftwallet.png
 bugbounty: 
 meta: removed

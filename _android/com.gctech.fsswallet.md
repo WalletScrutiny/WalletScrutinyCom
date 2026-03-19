@@ -12,7 +12,6 @@ version: '2.4'
 reviews: 
 website: https://fourssh.org#deadLink
 repository: 
-issue: 
 icon: com.gctech.fsswallet.png
 bugbounty: 
 meta: removed

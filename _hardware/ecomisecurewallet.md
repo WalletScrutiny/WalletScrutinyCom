@@ -17,7 +17,6 @@ shop: https://securewallet.shop/products/secure-wallet
 country: SG
 price: 199USD
 repository: 
-issue: 
 icon: ecomisecurewallet.png
 bugbounty: 
 meta: obsolete

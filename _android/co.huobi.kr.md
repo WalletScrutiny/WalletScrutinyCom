@@ -13,7 +13,6 @@ version: 3.8.8
 reviews: 752
 website: https://www.huobi.co.kr
 repository: 
-issue: 
 icon: co.huobi.kr.jpg
 bugbounty: 
 meta: removed

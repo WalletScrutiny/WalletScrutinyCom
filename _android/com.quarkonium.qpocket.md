@@ -13,7 +13,6 @@ version: 5.5.0
 reviews: 4
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
-issue: https://github.com/QuarkChain/QPocket-Android/issues/2
 icon: com.quarkonium.qpocket.png
 bugbounty: 
 meta: removed
@@ -53,4 +52,6 @@ We tried the app. We were provided with the 12-word mnemonic and then asked to s
 The repositories last commit is from "Jun 18, 2020" and contains only 5 commits for version 5.3.1.
 On the other hand, the Play Store app was last updated in May 6, 2021, at version 5.4.2 and has had several versions before that.
 
-Unfortunately, as this source code is outdated, we cannot verify this app. 
+Unfortunately, as this source code is outdated, we cannot verify this app.
+
+An issue has been opened at [https://github.com/QuarkChain/QPocket-Android/issues/2](https://github.com/QuarkChain/QPocket-Android/issues/2)

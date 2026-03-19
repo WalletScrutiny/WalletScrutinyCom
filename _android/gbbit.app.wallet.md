@@ -13,7 +13,6 @@ version: '10.61'
 reviews: 
 website: https://www.gbbit.com
 repository: 
-issue: 
 icon: gbbit.app.wallet.png
 bugbounty: 
 meta: removed

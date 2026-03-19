@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://www.vistabitz.com
 repository: 
-issue: 
 icon: com.vistabitz.app.png
 bugbounty: 
 meta: removed

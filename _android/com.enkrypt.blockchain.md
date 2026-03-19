@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://enkryptwallet.us#deadLink
 repository: 
-issue: 
 icon: com.enkrypt.blockchain.png
 bugbounty: 
 meta: removed

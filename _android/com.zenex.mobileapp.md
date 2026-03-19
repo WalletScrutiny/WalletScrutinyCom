@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://zenextoken.in#deadLink
 repository: 
-issue: 
 icon: com.zenex.mobileapp.png
 bugbounty: 
 meta: removed

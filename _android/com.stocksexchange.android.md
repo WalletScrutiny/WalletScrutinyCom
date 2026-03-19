@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 41
 website: https://stex.com#deadLink
 repository: 
-issue: 
 icon: com.stocksexchange.android.png
 bugbounty: 
 meta: removed

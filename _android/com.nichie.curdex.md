@@ -12,7 +12,6 @@ version: 5.02.0
 reviews: 
 website: https://scurdexcapital.com
 repository: 
-issue: 
 icon: com.nichie.curdex.png
 bugbounty: 
 meta: removed

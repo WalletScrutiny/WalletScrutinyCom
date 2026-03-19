@@ -13,7 +13,6 @@ version: 7.1.3
 reviews: 122
 website: https://pluang.com
 repository: 
-issue: 
 icon: com.EmasDigi.png
 bugbounty: 
 meta: ok

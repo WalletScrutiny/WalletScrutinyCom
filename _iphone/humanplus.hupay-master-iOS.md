@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 16
 website: https://www.hupayx.com/
 repository: 
-issue: 
 icon: humanplus.hupay-master-iOS.jpg
 bugbounty: 
 meta: defunct

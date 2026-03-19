@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 12
 website: https://asin.vip#deadLink
 repository: 
-issue: 
 icon: com.asin.app.png
 bugbounty: 
 meta: removed

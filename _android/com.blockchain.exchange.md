@@ -13,7 +13,6 @@ version: 202310.1.1
 reviews: 44
 website: https://www.blockchain.com
 repository: 
-issue: 
 icon: com.blockchain.exchange.png
 bugbounty: 
 meta: removed

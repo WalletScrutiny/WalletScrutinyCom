@@ -13,7 +13,6 @@ version: 2.4.4
 reviews: 150
 website: https://goodcrypto.app
 repository: 
-issue: 
 icon: app.goodcrypto.png
 bugbounty: 
 meta: ok

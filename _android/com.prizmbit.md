@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 270
 website: https://prizmbit.com#deadLink
 repository: 
-issue: 
 icon: com.prizmbit.png
 bugbounty: 
 meta: removed

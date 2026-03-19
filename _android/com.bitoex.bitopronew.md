@@ -13,7 +13,6 @@ version: 1.52.9
 reviews: 
 website: https://www.bitopro.com
 repository: 
-issue: 
 icon: com.bitoex.bitopronew.png
 bugbounty: 
 meta: ok

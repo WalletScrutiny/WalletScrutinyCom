@@ -13,7 +13,6 @@ version: '8.7'
 reviews: 20
 website: https://catecoin.club
 repository: 
-issue: 
 icon: com.catecoin.crypto.wallet.jpg
 bugbounty: 
 meta: removed

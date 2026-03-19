@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: altswitch.hardwallet.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.12.1
 reviews: 31
 website: https://www.opz.io
 repository: 
-issue: 
 icon: com.opz.dev.png
 bugbounty: 
 meta: ok

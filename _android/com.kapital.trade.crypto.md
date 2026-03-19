@@ -14,7 +14,6 @@ version: 3.26.1
 reviews: 32
 website: https://capital.com/
 repository: 
-issue: 
 icon: com.kapital.trade.crypto.png
 bugbounty: 
 meta: ok

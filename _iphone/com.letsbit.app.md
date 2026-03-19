@@ -13,7 +13,6 @@ version: 1.57.0
 reviews: 404
 website: https://www.lbfinanzas.com
 repository: 
-issue: 
 icon: com.letsbit.app.jpg
 bugbounty: 
 meta: ok

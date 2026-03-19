@@ -13,7 +13,6 @@ version: 1.0.25
 reviews: 13
 website: 
 repository: 
-issue: 
 icon: com.bitcoinstore.bitcoinstorewallet.jpg
 bugbounty: 
 meta: ok

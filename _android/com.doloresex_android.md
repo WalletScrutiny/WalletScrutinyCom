@@ -12,7 +12,6 @@ version: 2.5.5
 reviews: 
 website: https://ix.com
 repository: 
-issue: 
 icon: com.doloresex_android.png
 bugbounty: 
 meta: removed

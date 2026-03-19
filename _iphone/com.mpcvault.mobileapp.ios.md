@@ -13,7 +13,6 @@ version: 1.129.0
 reviews: 139
 website: https://mpcvault.com/
 repository: 
-issue: 
 icon: com.mpcvault.mobileapp.ios.jpg
 bugbounty: 
 meta: ok

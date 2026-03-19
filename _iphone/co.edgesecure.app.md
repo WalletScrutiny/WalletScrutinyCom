@@ -14,7 +14,6 @@ version: 4.45.0
 reviews: 2719
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
-issue: 
 icon: co.edgesecure.app.jpg
 bugbounty: 
 meta: ok

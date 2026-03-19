@@ -12,7 +12,6 @@ version: 3.8.0
 reviews: 
 website: https://www.bexfor.com#deadLink
 repository: 
-issue: 
 icon: com.bexfor.broker.android.png
 bugbounty: 
 meta: removed

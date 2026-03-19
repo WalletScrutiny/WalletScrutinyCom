@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: https://nonamewallet.com
 repository: 
-issue: 
 icon: com.rasoulj.jozapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: https://kryptokafe.com/
 repository: 
-issue: 
 icon: com.parabolus.kryptokafe.jpg
 bugbounty: 
 meta: removed

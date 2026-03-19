@@ -13,7 +13,6 @@ version: 5.3.2
 reviews: 39
 website: https://www.bibox.com
 repository: 
-issue: 
 icon: com.box.pro.png
 bugbounty: 
 meta: removed

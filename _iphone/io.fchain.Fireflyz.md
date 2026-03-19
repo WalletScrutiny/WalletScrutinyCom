@@ -13,7 +13,6 @@ version: 3.1.6
 reviews: 7
 website: https://wallet.fchain.io
 repository: https://github.com/fchainio/firefly#readme
-issue: 
 icon: io.fchain.Fireflyz.jpg
 bugbounty: 
 meta: removed

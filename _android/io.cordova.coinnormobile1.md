@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://bluedrive.ro
 repository: 
-issue: 
 icon: io.cordova.coinnormobile1.png
 bugbounty: 
 meta: removed

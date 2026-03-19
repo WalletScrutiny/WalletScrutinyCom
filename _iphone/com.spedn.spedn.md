@@ -13,7 +13,6 @@ version: 23.11.1
 reviews: 108
 website: https://spedn.io
 repository: 
-issue: 
 icon: com.spedn.spedn.jpg
 bugbounty: 
 meta: obsolete

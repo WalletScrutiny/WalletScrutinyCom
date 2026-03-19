@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: https://Bitplicity.com
 repository: 
-issue: 
 icon: com.Bitplicity.Bitplicityapp.png
 bugbounty: 
 meta: removed

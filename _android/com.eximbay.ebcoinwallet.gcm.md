@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.eximbay.ebcoinwallet.gcm.png
 bugbounty: 
 meta: removed

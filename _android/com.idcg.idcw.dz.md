@@ -12,7 +12,6 @@ version: 5.4.9
 reviews: 
 website: https://www.proof.la/
 repository: 
-issue: 
 icon: com.idcg.idcw.dz.png
 bugbounty: 
 meta: removed

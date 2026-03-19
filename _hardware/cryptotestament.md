@@ -17,7 +17,6 @@ shop:
 country: CA
 price: 
 repository: 
-issue: 
 icon: cryptotestament.png
 bugbounty: 
 meta: ok

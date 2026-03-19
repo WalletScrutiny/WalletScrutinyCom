@@ -12,7 +12,6 @@ version: 4.4.1
 reviews: 
 website: https://standardsats.github.io
 repository: 
-issue: 
 icon: com.btcontract.walletfiat.png
 bugbounty: 
 meta: removed

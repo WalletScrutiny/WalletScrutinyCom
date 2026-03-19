@@ -13,7 +13,6 @@ version: 15.3.3
 reviews: 11
 website: https://max.maicoin.com
 repository: 
-issue: 
 icon: com.maicoin.max.png
 bugbounty: 
 meta: ok

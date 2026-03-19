@@ -13,7 +13,6 @@ version: 0.4.0
 reviews: 
 website: https://www.melis.io
 repository: 
-issue: 
 icon: io.melis.walletlite.png
 bugbounty: 
 meta: removed

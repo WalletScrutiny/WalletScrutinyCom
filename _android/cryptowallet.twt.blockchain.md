@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://0597a31f-59cf-452c-b6fc-9a1e99002a3c.app-ads-host.com/app-ads.txt
 repository: 
-issue: 
 icon: cryptowallet.twt.blockchain.png
 bugbounty: 
 meta: removed

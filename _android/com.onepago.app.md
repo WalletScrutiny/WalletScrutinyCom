@@ -12,7 +12,6 @@ version: 1.3.0
 reviews: 
 website: https://www.onepago.com#deadLink
 repository: 
-issue: 
 icon: com.onepago.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.25.0
 reviews: 1040
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
-issue: 
 icon: com.kraken.superwallet.app.jpg
 bugbounty: 
 meta: ok

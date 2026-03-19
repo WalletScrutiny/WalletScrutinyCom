@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.ocdigital.flashtrade.png
 bugbounty: 
 meta: removed

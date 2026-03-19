@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 
 website: https://www.ayrextrading.com
 repository: 
-issue: 
 icon: com.ayrex.trading.dlvc.png
 bugbounty: 
 meta: removed

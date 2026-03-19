@@ -12,7 +12,6 @@ version: 3.8.2
 reviews: 37
 website: 
 repository: 
-issue: 
 icon: com.BKExchange.appstore.jpg
 bugbounty: 
 meta: ok

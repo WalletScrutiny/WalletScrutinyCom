@@ -12,7 +12,6 @@ version: 1.8.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: mybuho.buhogo.png
 bugbounty: 
 meta: ok

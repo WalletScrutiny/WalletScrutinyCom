@@ -13,7 +13,6 @@ version: 3.3.0
 reviews: 1945
 website: https://wallet.magiceden.io/
 repository: 
-issue: 
 icon: com.magiceden.wallet.jpg
 bugbounty: 
 meta: ok

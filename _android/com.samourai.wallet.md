@@ -15,7 +15,6 @@ version: VARY
 reviews: 
 website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android
-issue: 
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: removed

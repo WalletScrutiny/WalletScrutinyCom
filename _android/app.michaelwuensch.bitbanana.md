@@ -14,7 +14,6 @@ version: 1.0.0
 reviews: 4
 website: https://bitbanana.app/
 repository: https://github.com/michaelWuensch/BitBanana
-issue: https://github.com/michaelWuensch/BitBanana/issues/95
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
@@ -66,3 +65,5 @@ features:
 {% include featureEvidence.html feature="coinCtrl" quote="Coin Control" source="README" %}
 
 {% include featureEvidence.html feature="nfc" quote="NFC support" source="README" %}
+
+An issue has been opened at [https://github.com/michaelWuensch/BitBanana/issues/95](https://github.com/michaelWuensch/BitBanana/issues/95)

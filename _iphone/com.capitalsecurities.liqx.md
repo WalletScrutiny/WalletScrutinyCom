@@ -13,7 +13,6 @@ version: 2.6.8
 reviews: 0
 website: https://www.liquidityx.com/eu/
 repository: 
-issue: 
 icon: com.capitalsecurities.liqx.jpg
 bugbounty: 
 meta: removed

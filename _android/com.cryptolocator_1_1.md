@@ -12,7 +12,6 @@ version: 1.3.31
 reviews: 
 website: http://cryptolocator.com
 repository: 
-issue: 
 icon: com.cryptolocator_1_1.png
 bugbounty: 
 meta: removed

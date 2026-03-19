@@ -14,7 +14,6 @@ version: 2021.10.19
 reviews: 110
 website: https://www.coinpayapp.com#deadLink
 repository: 
-issue: 
 icon: com.coinpayapp.CoinPay.jpg
 bugbounty: 
 meta: removed

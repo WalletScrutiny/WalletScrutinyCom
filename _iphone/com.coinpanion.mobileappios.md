@@ -13,7 +13,6 @@ version: 4.4.7
 reviews: 1
 website: https://coinpanion.com/en#deadLink
 repository: 
-issue: 
 icon: com.coinpanion.mobileappios.jpg
 bugbounty: 
 meta: removed

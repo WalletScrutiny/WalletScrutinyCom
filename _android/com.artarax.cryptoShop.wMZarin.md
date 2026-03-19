@@ -13,7 +13,6 @@ version: 2.026.148-GooglePlay
 reviews: 2
 website: https://wmzarin.com
 repository: 
-issue: 
 icon: com.artarax.cryptoShop.wMZarin.png
 bugbounty: 
 meta: removed

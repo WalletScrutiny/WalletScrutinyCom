@@ -13,7 +13,6 @@ version: 2.5.8
 reviews: 98
 website: https://www.coinsuper.com/
 repository: 
-issue: 
 icon: com.coinsuper.app.png
 bugbounty: 
 meta: removed

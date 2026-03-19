@@ -12,7 +12,6 @@ version: '6771'
 reviews: 
 website: http://www.ethegram.net#deadLink
 repository: 
-issue: 
 icon: com.ethegram.app.png
 bugbounty: 
 meta: removed

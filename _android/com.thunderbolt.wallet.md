@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 33
 website: https://thunderboltwallet.us#deadLink
 repository: 
-issue: 
 icon: com.thunderbolt.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 14.3.0
 reviews: 3
 website: https://www.independentreserve.com
 repository: 
-issue: 
 icon: com.independentreserve.mobileapp.png
 bugbounty: 
 meta: ok

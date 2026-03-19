@@ -12,7 +12,6 @@ version: 3.8.5
 reviews: 
 website: https://www.espacioculturalbitcoin.com/
 repository: 
-issue: 
 icon: com.espaciobitcoin.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.2
 reviews: 26
 website: https://www.jackocoins.com/
 repository: 
-issue: 
 icon: com.jackocoins.app.png
 bugbounty: 
 meta: removed

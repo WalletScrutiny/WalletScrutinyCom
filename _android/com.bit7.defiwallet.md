@@ -12,7 +12,6 @@ version: 1.1.12
 reviews: 
 website: https://www.dexoo.io#deadLink
 repository: 
-issue: 
 icon: com.bit7.defiwallet.png
 bugbounty: 
 meta: removed

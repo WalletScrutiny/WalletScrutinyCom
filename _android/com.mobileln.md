@@ -13,7 +13,6 @@ version: pre-alpha v0.2b
 reviews: 
 website: 
 repository: https://github.com/hihidev/MobileLN
-issue: 
 icon: com.mobileln.png
 bugbounty: 
 meta: removed

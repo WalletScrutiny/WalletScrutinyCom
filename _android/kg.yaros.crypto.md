@@ -12,7 +12,6 @@ version: '1.017'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: kg.yaros.crypto.png
 bugbounty: 
 meta: ok

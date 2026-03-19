@@ -20,7 +20,6 @@ shop: https://store.blockstream.com/products/jade-plus
 country: US
 price: 149USD
 repository: https://github.com/Blockstream/jade
-issue: 
 icon: blockstreamjadeplus.png
 bugbounty: 
 meta: ok

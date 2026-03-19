@@ -13,7 +13,6 @@ version: 1.1.6
 reviews: 
 website: https://mtobit.com
 repository: 
-issue: 
 icon: com.mtobit.aos.png
 bugbounty: 
 meta: removed

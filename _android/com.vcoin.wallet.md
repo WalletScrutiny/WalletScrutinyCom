@@ -12,7 +12,6 @@ version: '1.3'
 reviews: 
 website: https://vcoin.com
 repository: 
-issue: 
 icon: com.vcoin.wallet.png
 bugbounty: 
 meta: removed

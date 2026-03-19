@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 
 website: https://www.bitmake.com#deadLink
 repository: 
-issue: 
 icon: com.bitmake.app.png
 bugbounty: 
 meta: removed

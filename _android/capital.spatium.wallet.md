@@ -14,7 +14,6 @@ version: 3.2.5
 reviews: 
 website: https://web.archive.org/web/20250404155959/https://www.spatium.net/
 repository: 
-issue: 
 icon: capital.spatium.wallet.png
 bugbounty: 
 meta: removed

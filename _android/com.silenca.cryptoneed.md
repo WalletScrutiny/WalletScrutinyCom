@@ -13,7 +13,6 @@ version: 1.0.31
 reviews: 
 website: https://www.cryptoneed.pro#deadLink
 repository: 
-issue: 
 icon: com.silenca.cryptoneed.png
 bugbounty: 
 meta: removed

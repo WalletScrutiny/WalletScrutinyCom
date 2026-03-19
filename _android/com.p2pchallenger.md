@@ -13,7 +13,6 @@ version: 1.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.p2pchallenger.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 41
 website: 
 repository: 
-issue: 
 icon: com.production.bitnovawallets.jpg
 bugbounty: 
 meta: ok

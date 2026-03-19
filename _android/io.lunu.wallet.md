@@ -12,7 +12,6 @@ version: 1.3.12
 reviews: 
 website: https://wallet.lunu.io
 repository: 
-issue: 
 icon: io.lunu.wallet.png
 bugbounty: 
 meta: removed

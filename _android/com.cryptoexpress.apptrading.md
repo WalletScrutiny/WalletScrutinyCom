@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://www.cryptoxpress.io/
 repository: 
-issue: 
 icon: com.cryptoexpress.apptrading.png
 bugbounty: 
 meta: removed

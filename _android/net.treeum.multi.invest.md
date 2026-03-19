@@ -13,7 +13,6 @@ version: 1.0.31
 reviews: 
 website: http://multi.ua
 repository: 
-issue: 
 icon: net.treeum.multi.invest.png
 bugbounty: 
 meta: removed

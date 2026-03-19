@@ -12,7 +12,6 @@ version: 3.6.0
 reviews: 
 website: http://www.tyco.link/#/
 repository: 
-issue: 
 icon: com.cuckoo.wallet.png
 bugbounty: 
 meta: removed

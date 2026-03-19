@@ -13,7 +13,6 @@ version: '1.30'
 reviews: 3
 website: https://ankerpay.com/mobile-wallet/
 repository: 
-issue: 
 icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
 meta: removed

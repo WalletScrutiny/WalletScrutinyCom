@@ -13,7 +13,6 @@ version: 2.83.848
 reviews: 4
 website: https://jp-ex.io/
 repository: 
-issue: 
 icon: io.jp-ex.iosapp2.jpg
 bugbounty: 
 meta: removed

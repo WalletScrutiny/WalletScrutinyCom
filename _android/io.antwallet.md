@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://antwallet.io
 repository: 
-issue: 
 icon: io.antwallet.png
 bugbounty: 
 meta: removed

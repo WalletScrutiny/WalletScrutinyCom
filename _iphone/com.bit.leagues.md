@@ -13,7 +13,6 @@ version: '2.15'
 reviews: 23
 website: https://www.bitleague.com
 repository: 
-issue: 
 icon: com.bit.leagues.jpg
 bugbounty: 
 meta: removed

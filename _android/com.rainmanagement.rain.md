@@ -13,7 +13,6 @@ version: 3.10.4
 reviews: 3329
 website: https://rain.com
 repository: 
-issue: 
 icon: com.rainmanagement.rain.png
 bugbounty: 
 meta: ok

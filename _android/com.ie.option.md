@@ -12,7 +12,6 @@ version: 1.1.4
 reviews: 1329
 website: https://www.ieoption.com/
 repository: 
-issue: 
 icon: com.ie.option.png
 bugbounty: 
 meta: removed

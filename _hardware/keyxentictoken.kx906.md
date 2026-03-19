@@ -20,7 +20,6 @@ shop:
 country: TW
 price: 299USD
 repository: 
-issue: 
 icon: keyxentictoken.kx906.png
 bugbounty: 
 meta: ok

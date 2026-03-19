@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 6
 website: https://btc6x.com
 repository: 
-issue: 
 icon: exchange.btc6x.com.jpg
 bugbounty: 
 meta: removed

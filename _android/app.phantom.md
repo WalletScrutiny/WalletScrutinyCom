@@ -13,7 +13,6 @@ version: 26.9.0
 reviews: 2128
 website: https://phantom.com/
 repository: 
-issue: 
 icon: app.phantom.png
 bugbounty: 
 meta: ok

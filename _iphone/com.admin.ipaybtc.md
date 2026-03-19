@@ -12,7 +12,6 @@ version: 3.1.4
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.admin.ipaybtc.jpg
 bugbounty: 
 meta: ok

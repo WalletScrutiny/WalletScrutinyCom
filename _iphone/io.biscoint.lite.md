@@ -13,7 +13,6 @@ version: 2.9.8
 reviews: 8596
 website: https://bitybank.com.br/
 repository: 
-issue: 
 icon: io.biscoint.lite.jpg
 bugbounty: 
 meta: ok

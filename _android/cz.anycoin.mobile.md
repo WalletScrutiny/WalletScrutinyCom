@@ -13,7 +13,6 @@ version: 1.32.29
 reviews: 1
 website: https://www.anycoin.cz
 repository: 
-issue: 
 icon: cz.anycoin.mobile.png
 bugbounty: 
 meta: ok

@@ -17,7 +17,6 @@ shop: https://beyond.link/preorder.html
 country: US
 price: 
 repository: 
-issue: 
 icon: beyondprotocol.png
 bugbounty: 
 meta: ok

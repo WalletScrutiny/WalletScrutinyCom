@@ -13,7 +13,6 @@ version: 0.4.1
 reviews: 56
 website: https://hightop.com
 repository: 
-issue: 
 icon: com.genesisblock.GenesisBlock.jpg
 bugbounty: 
 meta: ok

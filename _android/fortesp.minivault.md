@@ -12,7 +12,6 @@ version: 1.3.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: fortesp.minivault.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 17
 website: https://plasmapay.com#deadLink
 repository: 
-issue: 
 icon: com.plasmapay.androidapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: nl.tudelft.trustchain.png
 bugbounty: 
 meta: removed

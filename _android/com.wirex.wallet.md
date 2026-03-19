@@ -13,7 +13,6 @@ version: 2.6.3
 reviews: 16
 website: https://wirexapp.com/wirex-wallet#deadLink
 repository: 
-issue: 
 icon: com.wirex.wallet.png
 bugbounty: 
 meta: ok

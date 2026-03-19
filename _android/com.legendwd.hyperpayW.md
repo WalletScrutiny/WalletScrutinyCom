@@ -14,7 +14,6 @@ version: 5.6.180600
 reviews: 192
 website: https://hyperpay.tech
 repository: 
-issue: 
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
 meta: ok

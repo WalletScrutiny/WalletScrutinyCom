@@ -13,7 +13,6 @@ version: 1.1.5
 reviews: 3
 website: https://www.openex.xyz
 repository: 
-issue: 
 icon: com.aex.exchanges.png
 bugbounty: 
 meta: removed

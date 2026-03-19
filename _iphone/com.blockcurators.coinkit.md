@@ -13,7 +13,6 @@ version: 1.2.1
 reviews: 3
 website: https://coinkit.de#deadLink
 repository: 
-issue: 
 icon: com.blockcurators.coinkit.jpg
 bugbounty: 
 meta: obsolete

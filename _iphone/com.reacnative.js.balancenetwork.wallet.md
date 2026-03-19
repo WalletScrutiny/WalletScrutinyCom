@@ -13,7 +13,6 @@ version: 1.1.2
 reviews: 10
 website: https://web.archive.org/web/20240917143207/https://wallet-balancenetwork.io/
 repository: 
-issue: 
 icon: com.reacnative.js.balancenetwork.wallet.jpg
 bugbounty: 
 meta: removed

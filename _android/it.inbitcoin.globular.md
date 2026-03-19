@@ -12,7 +12,6 @@ version: 1.2.0
 reviews: 
 website: https://inbitcoin.it/
 repository: 
-issue: 
 icon: it.inbitcoin.globular.png
 bugbounty: 
 meta: removed

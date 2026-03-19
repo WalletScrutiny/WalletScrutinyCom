@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.bitcoinup.invest.crypto.jpg
 bugbounty: 
 meta: removed

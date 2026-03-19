@@ -13,7 +13,6 @@ version: 8.0.1
 reviews: 
 website: https://elly.com
 repository: 
-issue: 
 icon: com.eliminatum.app.png
 bugbounty: 
 meta: removed

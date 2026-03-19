@@ -13,7 +13,6 @@ version: 4.4.7
 reviews: 
 website: https://coinpanion.com
 repository: 
-issue: 
 icon: com.coinpanion.mobileapp.jpg
 bugbounty: 
 meta: removed

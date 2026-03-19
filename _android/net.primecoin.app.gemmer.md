@@ -12,7 +12,6 @@ version: 0.5.2
 reviews: 
 website: https://github.com/primecoin/gemmer
 repository: 
-issue: 
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
 meta: ok

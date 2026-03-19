@@ -13,7 +13,6 @@ version: 5.17.0
 reviews: 1454
 website: https://www.xt.com
 repository: 
-issue: 
 icon: com.xt.app.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 5.1.7
 reviews: 
 website: https://kolicoin.com#deadLink
 repository: 
-issue: 
 icon: com.ubakasi.kolicoin.png
 bugbounty: 
 meta: removed

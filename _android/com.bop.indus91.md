@@ -12,7 +12,6 @@ version: 0.0.3
 reviews: 
 website: https://indus91.com#deadLink
 repository: 
-issue: 
 icon: com.bop.indus91.jpg
 bugbounty: 
 meta: removed

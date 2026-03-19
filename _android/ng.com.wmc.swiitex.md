@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://web.archive.org/web/20250710015234/http://swiitex.com/
 repository: 
-issue: 
 icon: ng.com.wmc.swiitex.png
 bugbounty: 
 meta: removed

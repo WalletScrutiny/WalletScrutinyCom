@@ -13,7 +13,6 @@ version: 1.190.0
 reviews: 38
 website: https://bitnob.com
 repository: 
-issue: 
 icon: com.app.bitnob.png
 bugbounty: 
 meta: ok

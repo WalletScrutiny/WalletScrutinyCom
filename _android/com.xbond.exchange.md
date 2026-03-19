@@ -12,7 +12,6 @@ version: '2.4'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.xbond.exchange.png
 bugbounty: 
 meta: removed

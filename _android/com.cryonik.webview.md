@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://cryonik.io
 repository: 
-issue: 
 icon: com.cryonik.webview.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.12.48
 reviews: 
 website: https://blockchainwebservices.com.br
 repository: 
-issue: 
 icon: com.bitfyapp.png
 bugbounty: 
 meta: removed

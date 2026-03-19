@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://solidi.co
 repository: 
-issue: 
 icon: com.solidimobileapp4.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.1.8
 reviews: 17
 website: 
 repository: 
-issue: 
 icon: com.cryptore.nine99.jpg
 bugbounty: 
 meta: removed

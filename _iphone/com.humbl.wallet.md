@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 493
 website: https://tapinvest.com
 repository: 
-issue: 
 icon: com.humbl.wallet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://easycryptos.io#deadLink
 repository: 
-issue: 
 icon: pixel.websolutions.ecrytpos.easy_cryptos.png
 bugbounty: 
 meta: removed

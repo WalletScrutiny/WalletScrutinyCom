@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitlus.png
 bugbounty: 
 meta: removed

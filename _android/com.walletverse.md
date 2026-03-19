@@ -13,7 +13,6 @@ version: 1.16.4
 reviews: 10
 website: https://walletverse.io/
 repository: 
-issue: 
 icon: com.walletverse.png
 bugbounty: 
 meta: ok

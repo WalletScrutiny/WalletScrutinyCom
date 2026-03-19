@@ -13,7 +13,6 @@ version: 2.4.34.0.0.0.fp.gps
 reviews: 1188
 website: https://www.speed.app/
 repository: 
-issue: 
 icon: com.app.speedwallet.png
 bugbounty: 
 meta: ok

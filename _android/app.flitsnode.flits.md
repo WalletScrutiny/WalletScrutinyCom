@@ -13,7 +13,6 @@ version: '4.4'
 reviews: 71
 website: https://flitswallet.app/
 repository: 
-issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 14
 website: https://muna.app#deadLink
 repository: 
-issue: 
 icon: com.munawallet.muna.png
 bugbounty: 
 meta: removed

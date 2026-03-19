@@ -13,7 +13,6 @@ version: 2.1.88
 reviews: 14
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
-issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.app.jpg
 bugbounty: 
 meta: defunct
@@ -30,3 +29,5 @@ developerName: Exchangily LLC
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile-app/issues/1](https://github.com/blockchaingate/exchangily-mobile-app/issues/1)

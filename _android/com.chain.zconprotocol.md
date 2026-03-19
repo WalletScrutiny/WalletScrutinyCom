@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 5
 website: https://biskit.global/
 repository: 
-issue: 
 icon: com.chain.zconprotocol.png
 bugbounty: 
 meta: removed

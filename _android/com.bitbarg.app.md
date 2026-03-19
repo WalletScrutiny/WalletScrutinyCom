@@ -13,7 +13,6 @@ version: 3.5.2
 reviews: 44
 website: https://bitbarg.com
 repository: 
-issue: 
 icon: com.bitbarg.app.png
 bugbounty: 
 meta: ok

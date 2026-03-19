@@ -12,7 +12,6 @@ version: 2.2.12
 reviews: 
 website: https://yiksi.com/
 repository: 
-issue: 
 icon: com.yiksi.app.png
 bugbounty: 
 meta: removed

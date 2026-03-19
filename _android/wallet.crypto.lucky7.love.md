@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://www.lucky7.love
 repository: 
-issue: 
 icon: wallet.crypto.lucky7.love.png
 bugbounty: 
 meta: removed

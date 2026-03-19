@@ -13,7 +13,6 @@ version: 1.4.8
 reviews: 289
 website: 
 repository: 
-issue: 
 icon: com.jiggle.cryptowallet.jpg
 bugbounty: 
 meta: deprecated

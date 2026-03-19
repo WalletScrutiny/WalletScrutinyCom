@@ -13,7 +13,6 @@ version: 1.7.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.blockabc.abcwallet.png
 bugbounty: 
 meta: removed

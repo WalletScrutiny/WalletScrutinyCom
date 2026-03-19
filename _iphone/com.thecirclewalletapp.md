@@ -13,7 +13,6 @@ version: '2.1'
 reviews: 0
 website: https://trycircleapp.com/
 repository: 
-issue: 
 icon: com.thecirclewalletapp.jpg
 bugbounty: 
 meta: obsolete

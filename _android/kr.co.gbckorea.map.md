@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://mapgbc.com
 repository: 
-issue: 
 icon: kr.co.gbckorea.map.png
 bugbounty: 
 meta: removed

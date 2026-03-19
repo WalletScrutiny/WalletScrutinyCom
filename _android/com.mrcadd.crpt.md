@@ -12,7 +12,6 @@ version: '0.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.mrcadd.crpt.png
 bugbounty: 
 meta: removed

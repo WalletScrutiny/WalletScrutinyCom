@@ -12,7 +12,6 @@ version: 2.10.23
 reviews: 
 website: https://www.bitcoinwin.io
 repository: 
-issue: 
 icon: com.lr.bitcoinwin.png
 bugbounty: 
 meta: removed

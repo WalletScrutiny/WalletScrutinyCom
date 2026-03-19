@@ -12,7 +12,6 @@ version: '2.5'
 reviews: 
 website: https://bitlivenow.com/
 repository: 
-issue: 
 icon: com.bltwallet.mobileapp.png
 bugbounty: 
 meta: removed

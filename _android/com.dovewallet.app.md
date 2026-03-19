@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 5
 website: https://dovewallet.com
 repository: 
-issue: 
 icon: com.dovewallet.app.png
 bugbounty: 
 meta: removed

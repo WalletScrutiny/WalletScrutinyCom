@@ -12,7 +12,6 @@ version: 1.6.7
 reviews: 4
 website: https://bgogo.com/
 repository: 
-issue: 
 icon: com.bgg.bgg_exchange.png
 bugbounty: 
 meta: removed

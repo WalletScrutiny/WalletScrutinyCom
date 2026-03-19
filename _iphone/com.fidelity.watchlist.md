@@ -13,7 +13,6 @@ version: '4.26'
 reviews: 3001876
 website: http://www.fidelity.com
 repository: 
-issue: 
 icon: com.fidelity.watchlist.jpg
 bugbounty: 
 meta: ok

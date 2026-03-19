@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://harungoker.com#deadLink
 repository: 
-issue: 
 icon: com.harungoker.bitcrypto.png
 bugbounty: 
 meta: removed

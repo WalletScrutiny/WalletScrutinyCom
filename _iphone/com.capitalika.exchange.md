@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 7
 website: https://capitalika.com/
 repository: 
-issue: 
 icon: com.capitalika.exchange.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 4.0.3
 reviews: 61
 website: https://www.chainzilla.io
 repository: 
-issue: 
 icon: com.chameleon.wallet.png
 bugbounty: 
 meta: removed

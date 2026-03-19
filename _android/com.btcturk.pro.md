@@ -13,7 +13,6 @@ version: 2.39.0
 reviews: 232
 website: https://kripto.btcturk.com
 repository: 
-issue: 
 icon: com.btcturk.pro.png
 bugbounty: https://pro.btcturk.com/en/bug-bounty
 meta: ok

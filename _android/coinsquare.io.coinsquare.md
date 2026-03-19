@@ -13,7 +13,6 @@ version: 2.13.15
 reviews: 15
 website: http://coinsquare.com
 repository: 
-issue: 
 icon: coinsquare.io.coinsquare.png
 bugbounty: 
 meta: removed

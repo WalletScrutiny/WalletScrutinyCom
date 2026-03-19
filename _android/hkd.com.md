@@ -13,7 +13,6 @@ version: 2.9.4
 reviews: 16
 website: http://hkd.com
 repository: 
-issue: 
 icon: hkd.com.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.3.1
 reviews: 48
 website: https://fullynoded.app
 repository: https://github.com/Fonta1n3/FullyNoded
-issue: 
 icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
 meta: ok

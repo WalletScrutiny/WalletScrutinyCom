@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: https://ukcoin.money#deadLink
 repository: 
-issue: 
 icon: com.ukcoin.wallet.png
 bugbounty: 
 meta: removed

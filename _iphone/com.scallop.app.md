@@ -13,7 +13,6 @@ version: 1.8.8
 reviews: 0
 website: https://emoney.io/
 repository: 
-issue: 
 icon: com.scallop.app.jpg
 bugbounty: 
 meta: ok

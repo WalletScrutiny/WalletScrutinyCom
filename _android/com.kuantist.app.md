@@ -12,7 +12,6 @@ version: 1.0.49
 reviews: 
 website: https://www.kuantist.com/
 repository: 
-issue: 
 icon: com.kuantist.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.6.12
 reviews: 85
 website: https://usenobi.com
 repository: 
-issue: 
 icon: com.usenobi.ios.jpg
 bugbounty: 
 meta: ok

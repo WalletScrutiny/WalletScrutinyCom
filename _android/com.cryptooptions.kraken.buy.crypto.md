@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.cryptooptions.kraken.buy.crypto.png
 bugbounty: 
 meta: removed

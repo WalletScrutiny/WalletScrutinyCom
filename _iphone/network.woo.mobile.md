@@ -13,7 +13,6 @@ version: 3.65.0
 reviews: 7
 website: https://woox.io/
 repository: 
-issue: 
 icon: network.woo.mobile.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.cryptojournal.crypto.com.buy.bitcoin.now.png
 bugbounty: 
 meta: removed

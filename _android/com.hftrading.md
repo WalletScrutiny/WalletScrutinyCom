@@ -12,7 +12,6 @@ version: 1.5.69-hftrading
 reviews: 
 website: https://www.hftrading.com
 repository: 
-issue: 
 icon: com.hftrading.png
 bugbounty: 
 meta: removed

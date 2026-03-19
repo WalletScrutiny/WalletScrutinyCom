@@ -13,7 +13,6 @@ version: 1.7.0
 reviews: 14
 website: https://www.fairdesk.com
 repository: 
-issue: 
 icon: com.Fairdesk.fairdesk.jpg
 bugbounty: 
 meta: removed

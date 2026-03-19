@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://www.gtradingapp.com#deadLink
 repository: 
-issue: 
 icon: com.gcointrading.app.png
 bugbounty: 
 meta: removed

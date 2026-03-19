@@ -21,7 +21,6 @@ shop: https://onekey.so/products/onekey-touch-hardware-wallet/
 country: SG
 price: 249 USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.touch.png
 bugbounty: 
 meta: ok
@@ -72,3 +71,5 @@ We'll go by the assumption that the hardware wallet does not share the private k
 
 We followed the steps that provider sent to us and ran a script which is based on their
 [Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-touch.yml).
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406)

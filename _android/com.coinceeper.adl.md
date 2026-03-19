@@ -12,7 +12,6 @@ version: 1.0.38
 reviews: 
 website: https://coinceeper.com/
 repository: 
-issue: 
 icon: com.coinceeper.adl.png
 bugbounty: 
 meta: ok

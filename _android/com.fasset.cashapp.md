@@ -13,7 +13,6 @@ version: '6.2'
 reviews: 11
 website: https://www.fasset.io/
 repository: 
-issue: 
 icon: com.fasset.cashapp.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.1.20
 reviews: 26
 website: https://atmoption.in#deadLink
 repository: 
-issue: 
 icon: com.gaifang.ATM.png
 bugbounty: 
 meta: removed

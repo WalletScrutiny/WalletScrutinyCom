@@ -13,7 +13,6 @@ version: 2.0.5
 reviews: 0
 website: https://vuollet.io#deadLink
 repository: 
-issue: 
 icon: com.newapp.vuollet.jpg
 bugbounty: 
 meta: removed

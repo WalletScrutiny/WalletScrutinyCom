@@ -12,7 +12,6 @@ version: 0.16.6
 reviews: 
 website: https://sezame.app
 repository: 
-issue: 
 icon: org.maze2.sezamewallet.png
 bugbounty: 
 meta: ok

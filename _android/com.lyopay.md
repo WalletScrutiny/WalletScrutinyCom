@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://lyopay.com
 repository: 
-issue: 
 icon: com.lyopay.png
 bugbounty: 
 meta: removed

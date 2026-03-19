@@ -12,7 +12,6 @@ version: 1.1.10
 reviews: 9
 website: https://wallmine.com
 repository: 
-issue: 
 icon: com.wallmine.android.png
 bugbounty: 
 meta: removed

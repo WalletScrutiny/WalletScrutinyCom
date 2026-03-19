@@ -13,7 +13,6 @@ version: 7.0.0
 reviews: 25
 website: https://max.maicoin.com
 repository: 
-issue: 
 icon: com.maicoin.max.jpg
 bugbounty: 
 meta: removed

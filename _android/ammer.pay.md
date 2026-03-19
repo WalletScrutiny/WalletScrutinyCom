@@ -12,7 +12,6 @@ version: 2.0.5
 reviews: 
 website: https://ammer.cards
 repository: 
-issue: 
 icon: ammer.pay.png
 bugbounty: 
 meta: ok

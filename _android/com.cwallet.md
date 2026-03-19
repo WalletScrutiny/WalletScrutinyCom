@@ -13,7 +13,6 @@ version: 0.741.11
 reviews: 6
 website: https://xapawallet.com
 repository: 
-issue: 
 icon: com.cwallet.png
 bugbounty: 
 meta: removed

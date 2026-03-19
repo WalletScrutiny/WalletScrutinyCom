@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 170
 website: 
 repository: 
-issue: 
 icon: app.magic_wallet.io.png
 bugbounty: 
 meta: removed

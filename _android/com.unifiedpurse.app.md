@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 
 website: https://unifiedpurse.com
 repository: 
-issue: 
 icon: com.unifiedpurse.app.png
 bugbounty: 
 meta: removed

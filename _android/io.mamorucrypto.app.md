@@ -12,7 +12,6 @@ version: 1.1.2
 reviews: 
 website: https://www.mamoru.com/
 repository: 
-issue: 
 icon: io.mamorucrypto.app.png
 bugbounty: 
 meta: removed

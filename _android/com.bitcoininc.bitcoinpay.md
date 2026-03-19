@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 14
 website: http://Bitcoin.org
 repository: 
-issue: 
 icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
 meta: removed

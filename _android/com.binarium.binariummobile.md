@@ -13,7 +13,6 @@ version: 1.2.0.1
 reviews: 17
 website: http://binarium.support
 repository: 
-issue: 
 icon: com.binarium.binariummobile.png
 bugbounty: 
 meta: ok

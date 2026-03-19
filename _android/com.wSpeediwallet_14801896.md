@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://speediwallet.com#deadLink
 repository: 
-issue: 
 icon: com.wSpeediwallet_14801896.png
 bugbounty: 
 meta: removed

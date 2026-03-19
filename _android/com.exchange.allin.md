@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 
 website: https://www.allinx.io
 repository: 
-issue: 
 icon: com.exchange.allin.png
 bugbounty: 
 meta: ok

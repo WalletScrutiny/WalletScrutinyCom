@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://www.exchange1.com
 repository: 
-issue: 
 icon: com.exchange1.ex1.png
 bugbounty: 
 meta: ok

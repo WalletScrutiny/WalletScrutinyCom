@@ -12,7 +12,6 @@ version: 2.1.1
 reviews: 
 website: https://www.rentcoin.me
 repository: 
-issue: 
 icon: me.rentcoin.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 6
 website: 
 repository: 
-issue: 
 icon: com.xbt.watcher.png
 bugbounty: 
 meta: removed

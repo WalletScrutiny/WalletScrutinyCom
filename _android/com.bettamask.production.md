@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://bettamask.com
 repository: 
-issue: 
 icon: com.bettamask.production.png
 bugbounty: 
 meta: removed

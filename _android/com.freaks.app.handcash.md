@@ -12,7 +12,6 @@ version: 1.5.17
 reviews: 205
 website: https://handcash.io
 repository: 
-issue: 
 icon: com.freaks.app.handcash.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.22.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.twallet.wallet.jpg
 bugbounty: 
 meta: removed

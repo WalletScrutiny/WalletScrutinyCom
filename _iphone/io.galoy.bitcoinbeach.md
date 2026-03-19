@@ -13,7 +13,6 @@ version: 2.4.15
 reviews: 64
 website: https://www.blink.sv/en/features
 repository: https://github.com/GaloyMoney/galoy-mobile
-issue: 
 icon: io.galoy.bitcoinbeach.jpg
 bugbounty: 
 meta: ok

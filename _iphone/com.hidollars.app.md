@@ -13,7 +13,6 @@ version: 2.19.0
 reviews: 278
 website: https://hi.com/
 repository: 
-issue: 
 icon: com.hidollars.app.jpg
 bugbounty: 
 meta: stale

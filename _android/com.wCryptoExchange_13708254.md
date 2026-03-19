@@ -12,7 +12,6 @@ version: 1.1.45
 reviews: 
 website: https://m2f5ac532.app-ads-txt.com
 repository: 
-issue: 
 icon: com.wCryptoExchange_13708254.png
 bugbounty: 
 meta: removed

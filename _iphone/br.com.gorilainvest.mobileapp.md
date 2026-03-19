@@ -13,7 +13,6 @@ version: 8.5.0
 reviews: 234
 website: https://gorila.com.br/
 repository: 
-issue: 
 icon: br.com.gorilainvest.mobileapp.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 4.5.10
 reviews: 21
 website: https://shakepay.com
 repository: 
-issue: 
 icon: com.shaketh.png
 bugbounty: 
 meta: ok

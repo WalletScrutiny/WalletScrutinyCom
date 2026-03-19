@@ -12,7 +12,6 @@ version: 2.31.0
 reviews: 132
 website: http://www.banksocial.io
 repository: 
-issue: 
 icon: Com.BankSocial.app.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.6.9
 reviews: 19
 website: https://bitvo.com#deadLink
 repository: 
-issue: 
 icon: com.vog.bitvo.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.14.3
 reviews: 39
 website: https://skyewallet.com/
 repository: 
-issue: 
 icon: com.skyewallet.app.jpg
 bugbounty: 
 meta: removed

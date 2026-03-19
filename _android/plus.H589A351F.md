@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: plus.H589A351F.png
 bugbounty: 
 meta: removed

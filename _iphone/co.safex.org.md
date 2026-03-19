@@ -13,7 +13,6 @@ version: 5.7.0
 reviews: 209
 website: 
 repository: 
-issue: 
 icon: co.safex.org.jpg
 bugbounty: 
 meta: ok

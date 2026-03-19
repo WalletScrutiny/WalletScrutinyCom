@@ -13,7 +13,6 @@ version: VARY
 reviews: 128
 website: https://www.coinpayments.net/
 repository: 
-issue: 
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
 meta: removed

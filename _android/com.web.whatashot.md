@@ -12,7 +12,6 @@ version: '1.7'
 reviews: 
 website: https://whatashot.io/
 repository: 
-issue: 
 icon: com.web.whatashot.png
 bugbounty: 
 meta: removed

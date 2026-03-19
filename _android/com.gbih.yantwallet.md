@@ -13,7 +13,6 @@ version: 1.1.28
 reviews: 
 website: https://www.gbih.org#deadLink
 repository: 
-issue: 
 icon: com.gbih.yantwallet.png
 bugbounty: 
 meta: removed

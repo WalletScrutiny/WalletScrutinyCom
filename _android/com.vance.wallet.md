@@ -12,7 +12,6 @@ version: 0.21.0
 reviews: 
 website: https://vancetoken.us#deadLink
 repository: 
-issue: 
 icon: com.vance.wallet.jpg
 bugbounty: 
 meta: removed

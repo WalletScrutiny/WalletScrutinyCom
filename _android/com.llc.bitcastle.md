@@ -13,7 +13,6 @@ version: 1.13.8
 reviews: 15
 website: https://bitcastle.io/
 repository: 
-issue: 
 icon: com.llc.bitcastle.png
 bugbounty: 
 meta: ok

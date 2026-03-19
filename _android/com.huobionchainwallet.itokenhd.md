@@ -13,7 +13,6 @@ version: 4.00.05.003
 reviews: 2
 website: https://www.itoken.com/
 repository: 
-issue: 
 icon: com.huobionchainwallet.itokenhd.png
 bugbounty: 
 meta: removed

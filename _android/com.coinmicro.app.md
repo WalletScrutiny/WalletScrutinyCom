@@ -12,7 +12,6 @@ version: 1.0.23
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.coinmicro.app.png
 bugbounty: 
 meta: removed

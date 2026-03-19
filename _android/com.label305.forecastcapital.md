@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://www.frcst.com
 repository: 
-issue: 
 icon: com.label305.forecastcapital.png
 bugbounty: 
 meta: removed

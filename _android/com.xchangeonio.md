@@ -13,7 +13,6 @@ version: 1.1.3
 reviews: 12
 website: https://www.xchangeon.io#deadLink
 repository: 
-issue: 
 icon: com.xchangeonio.png
 bugbounty: 
 meta: defunct

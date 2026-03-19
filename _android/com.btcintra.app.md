@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://btcintratrade.com/
 repository: 
-issue: 
 icon: com.btcintra.app.jpg
 bugbounty: 
 meta: removed

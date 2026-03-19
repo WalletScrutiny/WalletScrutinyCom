@@ -13,7 +13,6 @@ version: '1.20'
 reviews: 2
 website: 
 repository: 
-issue: 
 icon: com.vexel.jpg
 bugbounty: 
 meta: obsolete

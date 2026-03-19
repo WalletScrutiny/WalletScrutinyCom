@@ -13,7 +13,6 @@ version: 1.0.1
 reviews: 25
 website: https://web.archive.org/web/20250125022752/https://www.burency.com/
 repository: 
-issue: 
 icon: com.burency.app.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 3.1.2
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: com.icecorp.wallet.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: http://www.blocpal.com
 repository: 
-issue: 
 icon: com.blocpal.terminal.png
 bugbounty: 
 meta: removed

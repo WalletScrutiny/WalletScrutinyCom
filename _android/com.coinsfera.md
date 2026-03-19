@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.bitfera.com
 repository: 
-issue: 
 icon: com.coinsfera.png
 bugbounty: 
 meta: removed

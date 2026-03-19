@@ -19,7 +19,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 meta: defunct

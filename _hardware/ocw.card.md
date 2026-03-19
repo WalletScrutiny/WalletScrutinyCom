@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: ocw.card.png
 bugbounty: 
 meta: ok

@@ -14,7 +14,6 @@ version: 3.7.1
 reviews: 511
 website: https://ShapeShift.com
 repository: https://github.com/shapeshift/mobile-app
-issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
@@ -91,3 +90,5 @@ therefore **not verifiable**.
 {% include featureEvidence.html feature="buyWithCC" quote="fiat on/off-ramps are available via credit/debit cards and bank transfers in over 160 countries" source="App Description" %}
 
 {% include featureEvidence.html feature="multiSig" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/shapeshift/mobile-app/issues/104](https://github.com/shapeshift/mobile-app/issues/104)

@@ -13,7 +13,6 @@ version: 3.180.0-2026030916
 reviews: 3828
 website: https://www.skrill.com
 repository: 
-issue: 
 icon: com.moneybookers.skrillpayments.png
 bugbounty: 
 meta: ok

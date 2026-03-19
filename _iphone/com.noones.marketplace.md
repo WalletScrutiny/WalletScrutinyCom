@@ -13,7 +13,6 @@ version: 1.5.7
 reviews: 17
 website: https://noones.com
 repository: 
-issue: 
 icon: com.noones.marketplace.jpg
 bugbounty: 
 meta: removed

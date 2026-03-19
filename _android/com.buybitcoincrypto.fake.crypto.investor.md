@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.buybitcoincrypto.fake.crypto.investor.png
 bugbounty: 
 meta: removed

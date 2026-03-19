@@ -12,7 +12,6 @@ version: '1.8'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: armory.appvmz.bt.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.6.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.foxone.exchange.png
 bugbounty: 
 meta: removed

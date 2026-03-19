@@ -12,7 +12,6 @@ version: 2.1.2
 reviews: 
 website: https://tgcoin4.com#deadLink
 repository: 
-issue: 
 icon: com.currency.tgcoin.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.01'
 reviews: 
 website: https://keepmyseed.com#deadLink
 repository: 
-issue: 
 icon: com.KeepMySeed.nfc.png
 bugbounty: 
 meta: removed

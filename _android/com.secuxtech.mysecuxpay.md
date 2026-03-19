@@ -12,7 +12,6 @@ version: 2.2.3
 reviews: 
 website: https://www.secuxtech.com
 repository: 
-issue: 
 icon: com.secuxtech.mysecuxpay.png
 bugbounty: 
 meta: stale

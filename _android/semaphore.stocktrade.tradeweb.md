@@ -13,7 +13,6 @@ version: 4.1.1.15
 reviews: 
 website: http://stocktong.io
 repository: 
-issue: 
 icon: semaphore.stocktrade.tradeweb.png
 bugbounty: 
 meta: removed

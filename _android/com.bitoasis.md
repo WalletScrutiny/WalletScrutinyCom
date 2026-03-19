@@ -13,7 +13,6 @@ version: 4.1.1
 reviews: 663
 website: https://bitoasis.net/
 repository: 
-issue: 
 icon: com.bitoasis.png
 bugbounty: 
 meta: ok

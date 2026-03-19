@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://www.anwonder.com
 repository: 
-issue: 
 icon: com.anwonder.wallet.png
 bugbounty: 
 meta: removed

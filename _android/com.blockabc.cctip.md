@@ -12,7 +12,6 @@ version: 5.3.3
 reviews: 483
 website: https://cwallet.com
 repository: 
-issue: 
 icon: com.blockabc.cctip.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.nbl.bitcoinchampionapp.png
 bugbounty: 
 meta: removed

@@ -17,7 +17,6 @@ shop:
 country: FR
 price: 
 repository: 
-issue: 
 icon: ledgerunplugged.png
 bugbounty: 
 meta: defunct

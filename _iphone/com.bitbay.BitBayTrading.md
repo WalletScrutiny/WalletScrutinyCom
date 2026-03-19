@@ -13,7 +13,6 @@ version: 1.4.16
 reviews: 3
 website: https://zondacrypto.com
 repository: 
-issue: 
 icon: com.bitbay.BitBayTrading.jpg
 bugbounty: 
 meta: ok

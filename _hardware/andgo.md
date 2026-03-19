@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: andgo.png
 bugbounty: 
 meta: ok

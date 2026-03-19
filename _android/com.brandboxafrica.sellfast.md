@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 1
 website: https://sellfastpayfast.com
 repository: 
-issue: 
 icon: com.brandboxafrica.sellfast.png
 bugbounty: 
 meta: removed

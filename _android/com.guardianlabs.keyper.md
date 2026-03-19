@@ -12,7 +12,6 @@ version: 2.3.0
 reviews: 
 website: https://myguardian.network/
 repository: 
-issue: 
 icon: com.guardianlabs.keyper.png
 bugbounty: 
 meta: stale

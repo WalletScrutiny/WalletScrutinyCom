@@ -12,7 +12,6 @@ version: 1.0.1209
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.banqy.png
 bugbounty: 
 meta: removed

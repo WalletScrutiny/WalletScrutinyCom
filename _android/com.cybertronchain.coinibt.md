@@ -13,7 +13,6 @@ version: '1.13'
 reviews: 4
 website: http://www.coinibt.io#deadLink
 repository: 
-issue: 
 icon: com.cybertronchain.coinibt.png
 bugbounty: 
 meta: removed

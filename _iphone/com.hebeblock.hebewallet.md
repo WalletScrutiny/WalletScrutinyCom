@@ -13,7 +13,6 @@ version: 1.5.0
 reviews: 12
 website: https://hebe.cc
 repository: 
-issue: 
 icon: com.hebeblock.hebewallet.jpg
 bugbounty: 
 meta: removed

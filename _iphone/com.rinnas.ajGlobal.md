@@ -13,7 +13,6 @@ version: 2.2.0
 reviews: 36
 website: https://ajglobalv.com/
 repository: 
-issue: 
 icon: com.rinnas.ajGlobal.jpg
 bugbounty: 
 meta: stale

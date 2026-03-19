@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://tradegm.eu/
 repository: 
-issue: 
 icon: com.tradegm.app.png
 bugbounty: 
 meta: removed

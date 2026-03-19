@@ -12,7 +12,6 @@ version: 0.4.0
 reviews: 
 website: https://www.melis.io
 repository: 
-issue: 
 icon: io.melis.testlite.png
 bugbounty: 
 meta: removed

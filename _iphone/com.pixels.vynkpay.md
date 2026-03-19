@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.pixels.vynkpay.jpg
 bugbounty: 
 meta: removed

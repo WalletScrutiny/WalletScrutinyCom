@@ -13,7 +13,6 @@ version: 2.2.8
 reviews: 
 website: https://auth.sketchwallet.io:28446/sketch/conditions
 repository: 
-issue: 
 icon: com.sketch.wallet.png
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 3.8.4
 reviews: 
 website: http://www.tosblock.com#deadLink
 repository: 
-issue: 
 icon: com.keepercustomerapp.png
 bugbounty: 
 meta: removed

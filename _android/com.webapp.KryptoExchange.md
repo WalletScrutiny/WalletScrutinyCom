@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: http://xexxchange.com#deadLink
 repository: 
-issue: 
 icon: com.webapp.KryptoExchange.png
 bugbounty: 
 meta: removed

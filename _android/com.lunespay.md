@@ -13,7 +13,6 @@ version: 1.0.7
 reviews: 
 website: https://lunespay.com.br#deadLink
 repository: https://github.com/orgs/lunes-platform/repositories
-issue: 
 icon: com.lunespay.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 11
 website: https://coinpal.me
 repository: 
-issue: 
 icon: me.coinpal.xapp.jpg
 bugbounty: 
 meta: removed

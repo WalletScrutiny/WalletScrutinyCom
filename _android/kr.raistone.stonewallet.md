@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: http://www.raistone.kr
 repository: 
-issue: 
 icon: kr.raistone.stonewallet.png
 bugbounty: 
 meta: removed

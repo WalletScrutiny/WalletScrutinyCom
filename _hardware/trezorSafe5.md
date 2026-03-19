@@ -21,7 +21,6 @@ shop: https://trezor.io/trezor-safe-5
 country: CZ
 price: 169USD
 repository: https://github.com/trezor/data/tree/master/firmware/t3t1
-issue: https://github.com/trezor/trezor-firmware/issues/4586
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
@@ -66,3 +65,5 @@ Built on the technology behind the {% include walletLink.html wallet='hardware/t
 - Bitcoin-only and Universal (1000 coins and tokens) variants
 
 {% include featureEvidence.html feature="selfBuild" comment="Not tagged selfBuild: unlike Trezor One/T, the Safe 5 hardware designs are not published in the trezor-hardware repo (which only contains One and T). The EAL 6+ Secure Element is the TROPIC01 chip by Tropic Square — open architecture and auditable, but sold to companies rather than individual builders, and no self-build instructions for the Safe 5 PCB exist." %}
+
+An issue has been opened at [https://github.com/trezor/trezor-firmware/issues/4586](https://github.com/trezor/trezor-firmware/issues/4586)

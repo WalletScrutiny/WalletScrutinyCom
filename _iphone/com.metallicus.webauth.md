@@ -13,7 +13,6 @@ version: 2.1.48
 reviews: 213
 website: https://xprnetwork.org/
 repository: 
-issue: 
 icon: com.metallicus.webauth.jpg
 bugbounty: 
 meta: ok

@@ -17,7 +17,6 @@ shop: https://www.polymerbit.com/shop
 country: UK
 price: 20USD
 repository: 
-issue: 
 icon: polymerbit.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.4.1
 reviews: 7
 website: http://www.icncde.com#deadLink
 repository: 
-issue: 
 icon: com.dssj.currencytradinggoogle.png
 bugbounty: 
 meta: removed

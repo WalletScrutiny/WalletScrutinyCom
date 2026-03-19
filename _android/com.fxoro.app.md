@@ -13,7 +13,6 @@ version: 1.6.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.fxoro.app.png
 bugbounty: 
 meta: removed

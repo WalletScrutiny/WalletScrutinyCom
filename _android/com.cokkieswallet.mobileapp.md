@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 
 website: https://cokkieswallet.com#deadLink
 repository: 
-issue: 
 icon: com.cokkieswallet.mobileapp.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: chukstem.xcoinance.jpg
 bugbounty: 
 meta: removed

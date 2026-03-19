@@ -12,7 +12,6 @@ version: 4.7.10
 reviews: 
 website: https://web.archive.org/web/20211206092528/https://albrex.io/
 repository: 
-issue: 
 icon: pay.albrex.io.png
 bugbounty: 
 meta: removed

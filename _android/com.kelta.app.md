@@ -13,7 +13,6 @@ version: 3.1.2
 reviews: 1102
 website: https://kelta.com/
 repository: 
-issue: 
 icon: com.kelta.app.jpg
 bugbounty: 
 meta: removed

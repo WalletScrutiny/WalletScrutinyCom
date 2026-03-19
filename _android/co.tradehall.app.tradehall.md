@@ -13,7 +13,6 @@ version: 1.0.14
 reviews: 
 website: https://www.tradehall.co#deadLink
 repository: 
-issue: 
 icon: co.tradehall.app.tradehall.png
 bugbounty: 
 meta: removed

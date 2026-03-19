@@ -13,7 +13,6 @@ version: '1.18'
 reviews: 
 website: https://alfwallet.io#deadLink
 repository: 
-issue: 
 icon: com.alfredwallet.wallet.png
 bugbounty: 
 meta: removed

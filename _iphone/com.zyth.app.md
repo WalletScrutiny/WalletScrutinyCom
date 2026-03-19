@@ -13,7 +13,6 @@ version: '4.0'
 reviews: 1
 website: https://www.uzyth.com#deadLink
 repository: 
-issue: 
 icon: com.zyth.app.jpg
 bugbounty: 
 meta: removed

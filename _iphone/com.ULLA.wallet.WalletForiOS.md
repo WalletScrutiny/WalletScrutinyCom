@@ -13,7 +13,6 @@ version: 3.6.4
 reviews: 85
 website: 
 repository: 
-issue: 
 icon: com.ULLA.wallet.WalletForiOS.jpg
 bugbounty: 
 meta: ok

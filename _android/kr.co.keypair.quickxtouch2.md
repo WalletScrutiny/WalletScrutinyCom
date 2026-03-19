@@ -12,7 +12,6 @@ version: 1.0.0.60
 reviews: 
 website: http://keywalletpro.io
 repository: 
-issue: 
 icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
 meta: removed

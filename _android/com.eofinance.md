@@ -12,7 +12,6 @@ version: 2.0.1
 reviews: 13
 website: https://eo.finance
 repository: 
-issue: 
 icon: com.eofinance.png
 bugbounty: 
 meta: removed

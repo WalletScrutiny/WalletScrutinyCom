@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: 
 repository: 
-issue: 
 icon: at.frhlch.cdtm.bluewallet.png
 bugbounty: 
 meta: removed

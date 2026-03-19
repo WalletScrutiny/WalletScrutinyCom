@@ -12,7 +12,6 @@ version: 1.28.100
 reviews: 
 website: https://www.sbicxw.com/
 repository: 
-issue: 
 icon: sbivc.coolxwallet.png
 bugbounty: 
 meta: removed

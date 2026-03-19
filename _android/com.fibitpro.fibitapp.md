@@ -13,7 +13,6 @@ version: 0.9.1
 reviews: 61
 website: https://fibitpro.com
 repository: 
-issue: 
 icon: com.fibitpro.fibitapp.png
 bugbounty: 
 meta: removed

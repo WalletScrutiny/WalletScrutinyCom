@@ -12,7 +12,6 @@ version: '1.4'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.blockcloud.png
 bugbounty: 
 meta: removed

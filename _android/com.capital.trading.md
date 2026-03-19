@@ -13,7 +13,6 @@ version: 3.26.1
 reviews: 36
 website: https://capital.com
 repository: 
-issue: 
 icon: com.capital.trading.png
 bugbounty: 
 meta: ok

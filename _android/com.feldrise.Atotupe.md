@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.feldrise.com#deadLink
 repository: 
-issue: 
 icon: com.feldrise.Atotupe.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 2
 website: https://b4uwallet.com/
 repository: 
-issue: 
 icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
 meta: removed

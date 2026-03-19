@@ -20,7 +20,6 @@ shop:
 country: CH
 price: 19.90USD
 repository: 
-issue: 
 icon: tangemnote.png
 bugbounty: 
 meta: defunct

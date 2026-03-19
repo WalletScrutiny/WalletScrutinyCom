@@ -12,7 +12,6 @@ version: 2.2.6
 reviews: 
 website: https://openblock.com
 repository: 
-issue: 
 icon: com.openblock.wallet.png
 bugbounty: 
 meta: ok

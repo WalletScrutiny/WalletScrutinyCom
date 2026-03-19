@@ -13,7 +13,6 @@ version: 3.9.0
 reviews: 1093
 website: https://youngplatform.com
 repository: 
-issue: 
 icon: com.youngplatform.exchange.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 1.1.9
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.yibi.jpg
 bugbounty: 
 meta: removed

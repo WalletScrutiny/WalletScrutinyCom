@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 1
 website: https://pro.nexo.com/
 repository: 
-issue: 
 icon: io.nexo.pro.png
 bugbounty: 
 meta: removed

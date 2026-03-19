@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
 icon: digitalbank.vault.png
 bugbounty: 
 meta: ok

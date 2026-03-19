@@ -13,7 +13,6 @@ version: 2.0.25
 reviews: 118
 website: https://www.coinsdo.com
 repository: 
-issue: 
 icon: com.coinsdo.wallet.png
 bugbounty: 
 meta: ok

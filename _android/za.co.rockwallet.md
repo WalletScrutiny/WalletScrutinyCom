@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://web.archive.org/web/20240714160607/https://rockwallet.co.za/
 repository: 
-issue: 
 icon: za.co.rockwallet.png
 bugbounty: 
 meta: removed

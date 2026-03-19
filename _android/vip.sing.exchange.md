@@ -13,7 +13,6 @@ version: 4.3.3.24
 reviews: 3
 website: https://www.starex.sg/
 repository: 
-issue: 
 icon: vip.sing.exchange.png
 bugbounty: 
 meta: ok

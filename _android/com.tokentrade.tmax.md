@@ -12,7 +12,6 @@ version: 3.5.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.tokentrade.tmax.png
 bugbounty: 
 meta: removed

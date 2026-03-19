@@ -12,7 +12,6 @@ version: '0.6'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.Go9tro.newwallet.png
 bugbounty: 
 meta: removed

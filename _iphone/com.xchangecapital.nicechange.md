@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: com.xchangecapital.nicechange.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.4
 reviews: 
 website: https://flavioflima.com#deadLink
 repository: 
-issue: 
 icon: com.bitcointrainee.br.png
 bugbounty: 
 meta: removed

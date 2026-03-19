@@ -12,7 +12,6 @@ version: 1.2.2
 reviews: 
 website: https://www.bitlink.pro
 repository: 
-issue: 
 icon: com.bitlink.smarttrade.png
 bugbounty: 
 meta: removed

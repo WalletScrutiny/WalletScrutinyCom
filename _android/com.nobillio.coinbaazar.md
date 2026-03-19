@@ -13,7 +13,6 @@ version: 1.3.24
 reviews: 
 website: https://coinbaazar.com
 repository: 
-issue: 
 icon: com.nobillio.coinbaazar.jpg
 bugbounty: 
 meta: obsolete

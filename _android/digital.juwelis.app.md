@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://juwelis.digital#deadLink
 repository: 
-issue: 
 icon: digital.juwelis.app.png
 bugbounty: 
 meta: removed

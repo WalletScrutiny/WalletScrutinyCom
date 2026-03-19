@@ -13,7 +13,6 @@ version: 2.16.0
 reviews: 109
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
-issue: https://github.com/KinesisNetwork/wallet-mobile/issues/5
 icon: com.kinesis.kinesisapp.png
 bugbounty: 
 meta: ok
@@ -71,3 +70,5 @@ On the web application, we are able to import an existing wallet via a 12-word p
 From the above, we can conclude that this app is **non-custodial.**
 
 However, with the app's latest update being on 2021-08-09 and the Github repository having last been updated back in 2018, it's doubtable that the source code will match up. As such, this app is **not verifiable.**
+
+An issue has been opened at [https://github.com/KinesisNetwork/wallet-mobile/issues/5](https://github.com/KinesisNetwork/wallet-mobile/issues/5)

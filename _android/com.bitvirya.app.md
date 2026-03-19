@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitvirya.com#deadLink
 repository: 
-issue: 
 icon: com.bitvirya.app.png
 bugbounty: 
 meta: removed

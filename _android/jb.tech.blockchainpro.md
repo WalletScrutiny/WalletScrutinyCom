@@ -13,7 +13,6 @@ version: '2.5'
 reviews: 194
 website: 
 repository: 
-issue: 
 icon: jb.tech.blockchainpro.png
 bugbounty: 
 meta: removed

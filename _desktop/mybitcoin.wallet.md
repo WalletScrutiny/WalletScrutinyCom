@@ -12,7 +12,6 @@ provider: Panteam Ltd.
 providerWebsite: http://panteam.net
 website: 
 repository: https://github.com/panteam-net/pt.BTC
-issue: 
 icon: 
 bugbounty: 
 meta: obsolete

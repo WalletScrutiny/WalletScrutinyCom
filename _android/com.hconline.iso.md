@@ -13,7 +13,6 @@ version: R02.03.06.478
 reviews: 4
 website: https://www.starteos.io#deadLink
 repository: 
-issue: 
 icon: com.hconline.iso.png
 bugbounty: 
 meta: removed

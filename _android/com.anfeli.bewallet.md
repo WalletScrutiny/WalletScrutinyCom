@@ -12,7 +12,6 @@ version: 1.2.24
 reviews: 
 website: http://www.anfeli.com
 repository: 
-issue: 
 icon: com.anfeli.bewallet.jpg
 bugbounty: 
 meta: removed

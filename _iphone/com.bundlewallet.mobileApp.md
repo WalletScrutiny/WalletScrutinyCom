@@ -13,7 +13,6 @@ version: 3.0.0
 reviews: 208
 website: https://bundle.africa/
 repository: 
-issue: 
 icon: com.bundlewallet.mobileApp.jpg
 bugbounty: 
 meta: removed

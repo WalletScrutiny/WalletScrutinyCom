@@ -14,7 +14,6 @@ version: 3.3.0
 reviews: 212
 website: http://www.walletofsatoshi.com
 repository: 
-issue: 
 icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 meta: ok

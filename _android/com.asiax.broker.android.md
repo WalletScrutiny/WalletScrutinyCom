@@ -12,7 +12,6 @@ version: 4.0.2
 reviews: 3
 website: 
 repository: 
-issue: 
 icon: com.asiax.broker.android.png
 bugbounty: 
 meta: removed

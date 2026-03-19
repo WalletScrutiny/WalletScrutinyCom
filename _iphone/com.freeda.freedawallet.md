@@ -13,7 +13,6 @@ version: 2.3.2
 reviews: 90
 website: https://www.freeda.io#deadLink
 repository: 
-issue: 
 icon: com.freeda.freedawallet.jpg
 bugbounty: 
 meta: removed

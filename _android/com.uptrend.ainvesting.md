@@ -13,7 +13,6 @@ version: 7.0.32
 reviews: 
 website: http://www.uptrend.bg
 repository: 
-issue: 
 icon: com.uptrend.ainvesting.png
 bugbounty: 
 meta: stale

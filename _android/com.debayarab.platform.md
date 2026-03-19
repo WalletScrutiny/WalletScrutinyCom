@@ -12,7 +12,6 @@ version: 1.2.3
 reviews: 
 website: http://ar.debay.io#deadLink
 repository: 
-issue: 
 icon: com.debayarab.platform.jpg
 bugbounty: 
 meta: removed

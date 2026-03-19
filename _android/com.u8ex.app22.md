@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.u8ex.app22.png
 bugbounty: 
 meta: removed

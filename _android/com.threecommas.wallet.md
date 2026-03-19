@@ -13,7 +13,6 @@ version: '1.7'
 reviews: 3
 website: https://3commas.io
 repository: 
-issue: 
 icon: com.threecommas.wallet.png
 bugbounty: 
 meta: removed

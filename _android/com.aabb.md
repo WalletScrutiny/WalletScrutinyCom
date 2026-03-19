@@ -13,7 +13,6 @@ version: 1.0.1271
 reviews: 32
 website: https://aabbgoldtoken.com#deadLink
 repository: 
-issue: 
 icon: com.aabb.png
 bugbounty: 
 meta: removed

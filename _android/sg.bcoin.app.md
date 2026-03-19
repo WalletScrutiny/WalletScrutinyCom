@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 26
 website: 
 repository: 
-issue: 
 icon: sg.bcoin.app.png
 bugbounty: 
 meta: removed

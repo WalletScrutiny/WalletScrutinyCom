@@ -13,7 +13,6 @@ version: 1.2.4
 reviews: 14
 website: https://www.exir.io/
 repository: 
-issue: 
 icon: com.exir.mobile.jpg
 bugbounty: 
 meta: removed

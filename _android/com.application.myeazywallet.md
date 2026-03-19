@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://myeazywallet.com#deadLink
 repository: 
-issue: 
 icon: com.application.myeazywallet.jpg
 bugbounty: 
 meta: removed

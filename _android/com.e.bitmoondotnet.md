@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://bitmoon.net
 repository: 
-issue: 
 icon: com.e.bitmoondotnet.png
 bugbounty: 
 meta: removed

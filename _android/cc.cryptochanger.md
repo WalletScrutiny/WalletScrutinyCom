@@ -12,7 +12,6 @@ version: '0.4'
 reviews: 20
 website: 
 repository: 
-issue: 
 icon: cc.cryptochanger.png
 bugbounty: 
 meta: removed

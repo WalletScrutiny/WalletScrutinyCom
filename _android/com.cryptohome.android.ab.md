@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cryptohome.ng#deadLink
 repository: 
-issue: 
 icon: com.cryptohome.android.ab.jpg
 bugbounty: 
 meta: removed

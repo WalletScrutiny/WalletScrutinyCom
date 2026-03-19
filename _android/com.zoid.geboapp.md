@@ -12,7 +12,6 @@ version: 2.0.0
 reviews: 
 website: https://gebo.io#deadLink
 repository: 
-issue: 
 icon: com.zoid.geboapp.jpg
 bugbounty: 
 meta: removed

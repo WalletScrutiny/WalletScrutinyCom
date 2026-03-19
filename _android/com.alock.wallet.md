@@ -12,7 +12,6 @@ version: 4.3.11
 reviews: 
 website: https://a-fun.co.kr#deadLink
 repository: 
-issue: 
 icon: com.alock.wallet.png
 bugbounty: 
 meta: removed

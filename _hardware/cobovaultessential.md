@@ -19,7 +19,6 @@ shop:
 country: CH
 price: 119USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: cobovaultessential.png
 bugbounty: 
 meta: ok
@@ -132,3 +131,5 @@ For the time being we have to consider this product **not verifiable**.
 {% include featureEvidence.html feature="foss" quote="This project is licensed under the GPL License. See the LICENSE file for details." source="License" %}
 
 {% include featureEvidence.html feature="hd" quote="Our BIP32, BIP39, and BIP44 compliant firmware is also open source." source="Existing WalletScrutiny review" %}
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380)

@@ -13,7 +13,6 @@ version: '2.0'
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: com.wasabiwallet.dev.png
 bugbounty: 
 meta: removed

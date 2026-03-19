@@ -13,7 +13,6 @@ version: 1.6.7
 reviews: 
 website: https://dochcoin.com/
 repository: 
-issue: 
 icon: com.shashank.doch.png
 bugbounty: 
 meta: removed

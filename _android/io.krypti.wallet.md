@@ -12,7 +12,6 @@ version: 4.0.18
 reviews: 
 website: https://krypti.io/
 repository: 
-issue: 
 icon: io.krypti.wallet.png
 bugbounty: 
 meta: removed

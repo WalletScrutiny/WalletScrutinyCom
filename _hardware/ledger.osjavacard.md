@@ -20,7 +20,6 @@ shop:
 country: FR
 price: 29EUR
 repository: https://github.com/LedgerHQ/ledger-javacard
-issue: 
 icon: ledger.osjavacard.png
 bugbounty: 
 meta: defunct

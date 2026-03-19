@@ -13,7 +13,6 @@ version: 5.45.0
 reviews: 199
 website: https://klever.io
 repository: 
-issue: 
 icon: finance.klever.bitcoin.wallet.png
 bugbounty: 
 meta: ok

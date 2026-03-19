@@ -13,7 +13,6 @@ version: 6.12.0
 reviews: 7147
 website: https://river.com/buy-bitcoin
 repository: 
-issue: 
 icon: com.river.riverapp.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptonews.bitcoin.loan.without.collateral.jpg
 bugbounty: 
 meta: removed

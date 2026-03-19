@@ -13,7 +13,6 @@ version: 4.5.1
 reviews: 
 website: https://unido.us/
 repository: 
-issue: 
 icon: com.worldwebms.multisigwallet.png
 bugbounty: 
 meta: removed

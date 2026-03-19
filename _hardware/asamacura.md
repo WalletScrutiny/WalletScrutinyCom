@@ -18,7 +18,6 @@ shop: https://www.amazon.com/dp/B07FKWKBJ2
 country: 
 price: 
 repository: 
-issue: 
 icon: asamacura.png
 bugbounty: 
 meta: discontinued

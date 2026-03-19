@@ -12,7 +12,6 @@ version: '1.12'
 reviews: 
 website: https://gow.com
 repository: 
-issue: 
 icon: com.gow.jpg
 bugbounty: 
 meta: removed

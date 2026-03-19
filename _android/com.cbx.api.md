@@ -12,7 +12,6 @@ version: 2.2.5
 reviews: 
 website: https://www.cbx.one
 repository: 
-issue: 
 icon: com.cbx.api.png
 bugbounty: 
 meta: removed

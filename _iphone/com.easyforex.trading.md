@@ -13,7 +13,6 @@ version: 6.2.2
 reviews: 222
 website: https://www.easy-markets.com/syc/en-gb/platforms/easymarkets-mobile-app/
 repository: 
-issue: 
 icon: com.easyforex.trading.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 0.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.planb.savings.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 4.21.0
 reviews: 54
 website: https://wallet.coinex.com/
 repository: 
-issue: 
 icon: com.viabtc.ViaWallet.jpg
 bugbounty: 
 meta: ok

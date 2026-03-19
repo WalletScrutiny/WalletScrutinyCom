@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.zed-pay.app.ios.jpg
 bugbounty: 
 meta: ok

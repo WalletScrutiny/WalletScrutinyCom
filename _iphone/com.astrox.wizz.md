@@ -13,7 +13,6 @@ version: 1.9.11
 reviews: 16
 website: https://wizzwallet.io/
 repository: 
-issue: 
 icon: com.astrox.wizz.jpg
 bugbounty: 
 meta: ok

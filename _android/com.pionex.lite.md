@@ -13,7 +13,6 @@ version: 1.1.9
 reviews: 16
 website: https://www.pionex.sg/blog#deadLink
 repository: 
-issue: 
 icon: com.pionex.lite.png
 bugbounty: 
 meta: removed

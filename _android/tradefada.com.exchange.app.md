@@ -13,7 +13,6 @@ version: 3.3.0
 reviews: 
 website: https://tradefada.com
 repository: 
-issue: 
 icon: tradefada.com.exchange.app.png
 bugbounty: 
 meta: removed

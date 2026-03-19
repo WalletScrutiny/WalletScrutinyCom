@@ -12,7 +12,6 @@ version: 1.3.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.hammermining.walletpro.png
 bugbounty: 
 meta: ok

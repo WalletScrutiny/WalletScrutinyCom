@@ -22,7 +22,6 @@ shop: https://trezor.io/trezor-safe-3
 country: CZ
 price: 79USD
 repository: https://github.com/trezor/trezor-firmware
-issue: https://github.com/trezor/trezor-firmware/issues/4586
 icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
@@ -115,3 +114,4 @@ TREZOR_DISC1 = DISC1
 TREZOR_DISC2 = DISC2
 ```
 
+An issue has been opened at [https://github.com/trezor/trezor-firmware/issues/4586](https://github.com/trezor/trezor-firmware/issues/4586)

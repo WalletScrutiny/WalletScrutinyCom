@@ -13,7 +13,6 @@ version: 0.9.6
 reviews: 2
 website: https://coinspaid.com
 repository: 
-issue: 
 icon: com.coinspaid.wallet.png
 bugbounty: 
 meta: removed

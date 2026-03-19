@@ -13,7 +13,6 @@ version: '0.68'
 reviews: 5
 website: https://www.bitexen.com
 repository: 
-issue: 
 icon: com.Bitexen.ExchangeApp.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ provider: Taegeun Moon
 providerWebsite: https://lunatk.github.io/
 website: 
 repository: https://github.com/LunaTK/Simple-Bitcoinj-GUI-Wallet
-issue: 
 icon: simple.bitcoinj.png
 bugbounty: 
 meta: defunct

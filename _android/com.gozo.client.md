@@ -12,7 +12,6 @@ version: 4.39.8
 reviews: 
 website: https://ihodl.com
 repository: 
-issue: 
 icon: com.gozo.client.png
 bugbounty: 
 meta: removed

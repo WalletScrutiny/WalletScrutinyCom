@@ -13,7 +13,6 @@ version: 2.5.9
 reviews: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper
-issue: https://github.com/bithyve/bitcoin-keeper/issues/6097
 icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
 meta: ok
@@ -68,3 +67,5 @@ This app is **for verification**
 {% include featureEvidence.html feature="multiSig" quote="Supports hot wallets and multi-key offline vaults with customizable m-of-n configurations" source="App Description" %}
 
 {% include featureEvidence.html feature="coinCtrl" quote="UTXO management for improved transaction control" source="App Description" %}
+
+An issue has been opened at [https://github.com/bithyve/bitcoin-keeper/issues/6097](https://github.com/bithyve/bitcoin-keeper/issues/6097)

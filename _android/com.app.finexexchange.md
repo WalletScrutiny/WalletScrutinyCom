@@ -12,7 +12,6 @@ version: 11.5.0
 reviews: 
 website: https://finexchanges.com
 repository: 
-issue: 
 icon: com.app.finexexchange.png
 bugbounty: 
 meta: removed

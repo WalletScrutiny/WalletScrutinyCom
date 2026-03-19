@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://netlink.exchange#deadLink
 repository: 
-issue: 
 icon: com.netlink.exchange.png
 bugbounty: 
 meta: removed

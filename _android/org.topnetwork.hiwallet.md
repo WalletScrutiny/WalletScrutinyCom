@@ -12,7 +12,6 @@ version: V2.3.2
 reviews: 28
 website: 
 repository: 
-issue: 
 icon: org.topnetwork.hiwallet.jpg
 bugbounty: 
 meta: removed

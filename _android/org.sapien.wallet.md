@@ -13,7 +13,6 @@ version: 1.88.0
 reviews: 
 website: https://sapienwallet.com/
 repository: 
-issue: 
 icon: org.sapien.wallet.png
 bugbounty: 
 meta: removed

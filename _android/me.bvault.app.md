@@ -12,7 +12,6 @@ version: 2.2.7
 reviews: 
 website: 
 repository: 
-issue: 
 icon: me.bvault.app.png
 bugbounty: 
 meta: removed

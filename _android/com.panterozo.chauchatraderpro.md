@@ -12,7 +12,6 @@ version: 4.3.1
 reviews: 
 website: https://chauchatraderpro.cl#deadLink
 repository: 
-issue: 
 icon: com.panterozo.chauchatraderpro.png
 bugbounty: 
 meta: removed

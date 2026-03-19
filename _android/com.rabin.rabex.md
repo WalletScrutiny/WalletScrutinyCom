@@ -13,7 +13,6 @@ version: 2.7.0-Rabex
 reviews: 10
 website: https://rabex.ir
 repository: 
-issue: 
 icon: com.rabin.rabex.png
 bugbounty: 
 meta: ok

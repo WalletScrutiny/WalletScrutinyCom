@@ -13,7 +13,6 @@ version: '5.0'
 reviews: 11
 website: https://www.wanchain.org
 repository: 
-issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
 meta: removed

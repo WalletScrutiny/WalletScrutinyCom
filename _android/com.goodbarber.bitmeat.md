@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.goodbarber.bitmeat.png
 bugbounty: 
 meta: removed

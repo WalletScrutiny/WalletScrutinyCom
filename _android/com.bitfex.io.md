@@ -13,7 +13,6 @@ version: 1.1.3
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.bitfex.io.png
 bugbounty: 
 meta: removed

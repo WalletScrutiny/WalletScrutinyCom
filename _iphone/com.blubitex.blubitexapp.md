@@ -13,7 +13,6 @@ version: 3.1.341
 reviews: 3
 website: https://www.blubitex.com#deadLink
 repository: 
-issue: 
 icon: com.blubitex.blubitexapp.jpg
 bugbounty: 
 meta: removed

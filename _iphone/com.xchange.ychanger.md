@@ -13,7 +13,6 @@ version: 2.0.4
 reviews: 0
 website: https://ychanger.net
 repository: 
-issue: 
 icon: com.xchange.ychanger.jpg
 bugbounty: 
 meta: removed

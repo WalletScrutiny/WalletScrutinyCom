@@ -12,7 +12,6 @@ version: 1.1.6
 reviews: 
 website: https://itez.com
 repository: 
-issue: 
 icon: com.itez.wallet.png
 bugbounty: 
 meta: stale

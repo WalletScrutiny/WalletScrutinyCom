@@ -12,7 +12,6 @@ version: '1.9'
 reviews: 
 website: https://bitcoinblink.com/
 repository: 
-issue: 
 icon: com.bitcoinblink.wallet.png
 bugbounty: 
 meta: removed

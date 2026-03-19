@@ -13,7 +13,6 @@ version: '1.1'
 reviews: 
 website: https://tehranramzarz.com
 repository: 
-issue: 
 icon: app.xpay.tehranramzarz.png
 bugbounty: 
 meta: removed

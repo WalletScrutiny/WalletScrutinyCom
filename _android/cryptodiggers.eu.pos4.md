@@ -12,7 +12,6 @@ version: 1.1.16
 reviews: 
 website: https://www.cdpay.eu/
 repository: 
-issue: 
 icon: cryptodiggers.eu.pos4.png
 bugbounty: 
 meta: removed

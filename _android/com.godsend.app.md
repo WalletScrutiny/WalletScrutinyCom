@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.godsend.app.png
 bugbounty: 
 meta: removed

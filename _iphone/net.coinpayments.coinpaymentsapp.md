@@ -13,7 +13,6 @@ version: 2.4.8
 reviews: 52
 website: https://www.coinpayments.net/
 repository: 
-issue: 
 icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
 meta: removed

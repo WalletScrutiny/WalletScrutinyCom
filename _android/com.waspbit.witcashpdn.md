@@ -13,7 +13,6 @@ version: 2.0.9
 reviews: 
 website: http://witcash.io#deadLink
 repository: 
-issue: 
 icon: com.waspbit.witcashpdn.jpg
 bugbounty: 
 meta: removed

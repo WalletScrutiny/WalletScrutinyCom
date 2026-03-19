@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://cryptotrile.com#deadLink
 repository: 
-issue: 
 icon: com.cryptotrile.trader.png
 bugbounty: 
 meta: removed

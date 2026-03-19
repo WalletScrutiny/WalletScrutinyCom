@@ -12,7 +12,6 @@ version: 3.5.15
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.goldbitpro.wallet.png
 bugbounty: 
 meta: obsolete

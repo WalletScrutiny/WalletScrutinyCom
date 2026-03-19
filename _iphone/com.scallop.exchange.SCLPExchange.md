@@ -13,7 +13,6 @@ version: 1.0.2
 reviews: 10
 website: http://www.scallop.exchange
 repository: 
-issue: 
 icon: com.scallop.exchange.SCLPExchange.jpg
 bugbounty: 
 meta: removed

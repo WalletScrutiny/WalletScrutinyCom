@@ -17,7 +17,6 @@ shop:
 country: CN
 price: 
 repository: https://github.com/wangganggithub/btczen_public
-issue: 
 icon: btczen.smartcard.png
 bugbounty: 
 meta: ok

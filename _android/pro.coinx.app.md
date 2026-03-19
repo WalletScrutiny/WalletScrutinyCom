@@ -12,7 +12,6 @@ version: 1.0.23
 reviews: 
 website: https://www.coinx.pro/index
 repository: 
-issue: 
 icon: pro.coinx.app.png
 bugbounty: 
 meta: removed

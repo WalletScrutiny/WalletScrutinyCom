@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: http://www.PalmPay.io
 repository: 
-issue: 
 icon: cy.agorise.palmpay.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://lexaascan.com
 repository: 
-issue: 
 icon: com.lexaawallet.user.png
 bugbounty: 
 meta: ok

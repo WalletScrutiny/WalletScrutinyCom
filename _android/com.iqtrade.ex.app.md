@@ -13,7 +13,6 @@ version: 3.2.2
 reviews: 20
 website: https://www.iq-trading.com
 repository: 
-issue: 
 icon: com.iqtrade.ex.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 1.18.2
 reviews: 57
 website: https://www.ourbit.com
 repository: 
-issue: 
 icon: com.ourbit.client.png
 bugbounty: 
 meta: ok

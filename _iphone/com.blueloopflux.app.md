@@ -13,7 +13,6 @@ version: 3.0.391
 reviews: 93
 website: https://iflux.app/
 repository: 
-issue: 
 icon: com.blueloopflux.app.jpg
 bugbounty: 
 meta: removed

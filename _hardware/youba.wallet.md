@@ -17,7 +17,6 @@ shop:
 country: DE
 price: 
 repository: 
-issue: 
 icon: youba.wallet.png
 bugbounty: 
 meta: ok

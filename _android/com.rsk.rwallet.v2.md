@@ -15,7 +15,6 @@ version: 2.0.1
 reviews: 
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
-issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
 meta: removed
@@ -90,3 +89,5 @@ we intend to work with an unsigned app. How can we build an unsigned version of
 the released app?
 
 We conclude, this app is currently **not verifiable**.
+
+An issue has been opened at [https://github.com/rsksmart/rwallet/issues/726](https://github.com/rsksmart/rwallet/issues/726)

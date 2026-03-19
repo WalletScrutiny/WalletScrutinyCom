@@ -13,7 +13,6 @@ version: 1.1.20
 reviews: 12
 website: https://www.dcipher.io
 repository: 
-issue: 
 icon: com.androidwallet.png
 bugbounty: 
 meta: removed

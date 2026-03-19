@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://crypt8.com#deadLink
 repository: 
-issue: 
 icon: com.crypt8.crypt8.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.9.0
 reviews: 0
 website: https://www.coinus.io/
 repository: 
-issue: 
 icon: com.theblockchain.coinus.wallet.jpg
 bugbounty: 
 meta: removed

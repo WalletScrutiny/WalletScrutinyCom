@@ -13,7 +13,6 @@ version: '12.003'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: jax.wallet.liberty.png
 bugbounty: 
 meta: removed

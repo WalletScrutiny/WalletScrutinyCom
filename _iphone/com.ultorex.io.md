@@ -13,7 +13,6 @@ version: 1.1.18
 reviews: 0
 website: https://ultorex.io/about-us
 repository: 
-issue: 
 icon: com.ultorex.io.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 2.8.7
 reviews: 5
 website: https://www.bitnovo.com
 repository: 
-issue: 
 icon: com.bitnovo.app.jpg
 bugbounty: 
 meta: removed

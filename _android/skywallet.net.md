@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://skywallet.net
 repository: 
-issue: 
 icon: skywallet.net.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.9
 reviews: 4
 website: http://alp.com
 repository: 
-issue: 
 icon: com.btc-alpha.jpg
 bugbounty: 
 meta: ok

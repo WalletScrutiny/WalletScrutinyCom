@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 1
 website: https://keepkey.com
 repository: 
-issue: 
 icon: com.shapeshift.keepkey.png
 bugbounty: 
 meta: removed

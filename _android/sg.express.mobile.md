@@ -13,7 +13,6 @@ version: 1.23.0
 reviews: 14
 website: https://stormgainexpress.com/
 repository: 
-issue: 
 icon: sg.express.mobile.png
 bugbounty: 
 meta: removed

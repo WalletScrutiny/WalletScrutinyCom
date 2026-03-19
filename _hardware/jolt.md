@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: https://github.com/joltwallet/jolt_wallet
-issue: 
 icon: jolt.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.wCryptoEngine_15484990.jpg
 bugbounty: 
 meta: removed

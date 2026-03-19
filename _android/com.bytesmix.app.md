@@ -13,7 +13,6 @@ version: 2.4.7
 reviews: 276
 website: https://www.bytesmix.com
 repository: 
-issue: 
 icon: com.bytesmix.app.png
 bugbounty: 
 meta: removed

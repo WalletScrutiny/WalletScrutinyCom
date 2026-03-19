@@ -13,7 +13,6 @@ version: 1.4.8
 reviews: 4
 website: https://pouch.ph
 repository: 
-issue: 
 icon: pouch.ph.png
 bugbounty: 
 meta: ok

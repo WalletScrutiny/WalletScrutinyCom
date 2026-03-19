@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: http://neo-forex.com/
 repository: 
-issue: 
 icon: com.world.bestinfo.png
 bugbounty: 
 meta: removed

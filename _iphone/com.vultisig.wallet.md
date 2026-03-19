@@ -13,7 +13,6 @@ version: '1.32'
 reviews: 39
 website: https://vultisig.com
 repository: 
-issue: 
 icon: com.vultisig.wallet.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 2.2.1
 reviews: 
 website: https://cryptotae.com/
 repository: 
-issue: 
 icon: com.bicasoft_labs.crypto_tae.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.0.18
 reviews: 
 website: https://www.inigmasys.com#deadLink
 repository: 
-issue: 
 icon: com.inigma.wallet.jpg
 bugbounty: 
 meta: removed

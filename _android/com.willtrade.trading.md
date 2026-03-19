@@ -13,7 +13,6 @@ version: 1.3.45
 reviews: 21
 website: 
 repository: 
-issue: 
 icon: com.willtrade.trading.png
 bugbounty: 
 meta: ok

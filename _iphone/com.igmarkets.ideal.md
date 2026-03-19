@@ -13,7 +13,6 @@ version: 10.3013.0
 reviews: 2904
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 
-issue: 
 icon: com.igmarkets.ideal.jpg
 bugbounty: 
 meta: ok

@@ -14,7 +14,6 @@ version: 3.0.0
 reviews: 16
 website: https://www.crypto.com/exchange
 repository: 
-issue: 
 icon: com.crypto.exchange.png
 bugbounty: 
 meta: ok

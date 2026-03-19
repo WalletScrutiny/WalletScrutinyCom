@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: icecase.png
 bugbounty: 
 meta: ok

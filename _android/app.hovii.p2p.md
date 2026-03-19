@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://p2p.hovii.app#deadLink
 repository: 
-issue: 
 icon: app.hovii.p2p.png
 bugbounty: 
 meta: removed

@@ -14,7 +14,6 @@ version: 1.0.4
 reviews: 
 website: https://personal.elegro.eu/exchange#deadLink
 repository: 
-issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
 meta: removed

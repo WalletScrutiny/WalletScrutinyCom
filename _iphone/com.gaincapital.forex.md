@@ -13,7 +13,6 @@ version: 1.244.7582
 reviews: 230
 website: https://www.forex.com/en-uk/
 repository: 
-issue: 
 icon: com.gaincapital.forex.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.btckr.jpg
 bugbounty: 
 meta: removed

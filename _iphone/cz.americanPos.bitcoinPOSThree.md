@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 0
 website: https://bitcoinpos.americanposllc.com/
 repository: 
-issue: 
 icon: cz.americanPos.bitcoinPOSThree.jpg
 bugbounty: 
 meta: ok

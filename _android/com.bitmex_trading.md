@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 4
 website: http://goliquid.app
 repository: 
-issue: 
 icon: com.bitmex_trading.png
 bugbounty: 
 meta: removed

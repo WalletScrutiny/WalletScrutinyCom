@@ -12,7 +12,6 @@ version: 2.9.0
 reviews: 30
 website: https://web.archive.org/web/20240910152549/https://www.swapwallet.com/
 repository: 
-issue: 
 icon: com.swap.wallet.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.6.4
 reviews: 56
 website: https://www.b1.zone/
 repository: 
-issue: 
 icon: one.big.png
 bugbounty: 
 meta: ok

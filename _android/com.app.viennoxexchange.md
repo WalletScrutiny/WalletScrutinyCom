@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://viennox.com#deadLink
 repository: 
-issue: 
 icon: com.app.viennoxexchange.png
 bugbounty: 
 meta: removed

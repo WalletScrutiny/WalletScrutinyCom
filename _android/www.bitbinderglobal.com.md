@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://bitbinderglobal.com/
 repository: 
-issue: 
 icon: www.bitbinderglobal.com.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 
 website: https://bitenium.com/
 repository: 
-issue: 
 icon: com.bitenium.apptrading.png
 bugbounty: 
 meta: removed

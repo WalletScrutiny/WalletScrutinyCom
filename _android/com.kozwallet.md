@@ -12,7 +12,6 @@ version: '2.3'
 reviews: 
 website: https://www.kozjin.io
 repository: 
-issue: 
 icon: com.kozwallet.png
 bugbounty: 
 meta: removed

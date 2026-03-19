@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 1
 website: https://cointopay.com/
 repository: 
-issue: 
 icon: com.cointopay.iosapp.jpg
 bugbounty: 
 meta: removed

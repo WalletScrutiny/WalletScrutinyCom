@@ -13,7 +13,6 @@ version: 3.3.0
 reviews: 18
 website: 
 repository: 
-issue: 
 icon: neutronpay.wallet.jpg
 bugbounty: 
 meta: ok

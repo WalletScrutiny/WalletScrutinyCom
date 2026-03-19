@@ -20,7 +20,6 @@ shop:
 country: UK
 price: 24.99 EUR
 repository: 
-issue: 
 icon: picash.cryptovault.png
 bugbounty: 
 meta: ok

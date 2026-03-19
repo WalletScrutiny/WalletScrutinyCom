@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: coinvest.hww.png
 bugbounty: 
 meta: ok

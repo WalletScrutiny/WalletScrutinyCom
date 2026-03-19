@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 639
 website: https://ftx.us/
 repository: 
-issue: 
 icon: com.ftxmobile.ftxus.png
 bugbounty: 
 meta: removed

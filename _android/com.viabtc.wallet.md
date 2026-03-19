@@ -14,7 +14,6 @@ version: 4.22.2
 reviews: 60
 website: https://viawallet.com
 repository: 
-issue: 
 icon: com.viabtc.wallet.png
 bugbounty: 
 meta: ok

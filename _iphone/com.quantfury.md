@@ -13,7 +13,6 @@ version: 1.92.0
 reviews: 74
 website: https://quantfury.com/
 repository: 
-issue: 
 icon: com.quantfury.jpg
 bugbounty: 
 meta: ok

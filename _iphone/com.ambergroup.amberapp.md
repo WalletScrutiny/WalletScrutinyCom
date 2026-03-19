@@ -13,7 +13,6 @@ version: 3.6.5
 reviews: 191
 website: https://www.ambr.io/global
 repository: 
-issue: 
 icon: com.ambergroup.amberapp.jpg
 bugbounty: 
 meta: ok

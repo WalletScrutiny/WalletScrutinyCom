@@ -17,7 +17,6 @@ shop: https://www.ebay.ca/itm/374996589808
 country: CA
 price: 21 EUR
 repository: 
-issue: 
 icon: alluk-798.bitcoin.BTC.coldwallet.notes.png
 bugbounty: 
 meta: ok

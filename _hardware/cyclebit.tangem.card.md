@@ -20,7 +20,6 @@ shop: https://www.cyclebit.io/card
 country: SE
 price: 
 repository: 
-issue: 
 icon: cyclebit.tangem.card.png
 bugbounty: 
 meta: ok

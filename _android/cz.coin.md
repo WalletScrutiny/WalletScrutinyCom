@@ -12,7 +12,6 @@ version: 0.7.0
 reviews: 
 website: https://generalbytes.com
 repository: 
-issue: 
 icon: cz.coin.png
 bugbounty: 
 meta: ok

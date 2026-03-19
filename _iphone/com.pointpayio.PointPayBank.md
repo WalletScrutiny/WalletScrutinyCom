@@ -14,7 +14,6 @@ version: 8.8.76
 reviews: 696
 website: https://wallet.pointpay.io
 repository: 
-issue: 
 icon: com.pointpayio.PointPayBank.jpg
 bugbounty: 
 meta: ok

@@ -13,7 +13,6 @@ version: 5.0.9
 reviews: 89
 website: https://coinlocally.com
 repository: 
-issue: 
 icon: com.coinlocally.android.png
 bugbounty: 
 meta: ok

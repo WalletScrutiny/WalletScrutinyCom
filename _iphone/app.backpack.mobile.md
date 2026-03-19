@@ -12,7 +12,6 @@ version: 2.71.1
 reviews: 216
 website: https://www.backpack.app/
 repository: 
-issue: 
 icon: app.backpack.mobile.jpg
 bugbounty: 
 meta: ok

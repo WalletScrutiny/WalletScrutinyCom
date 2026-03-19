@@ -12,7 +12,6 @@ version: 2.3.82
 reviews: 4
 website: https://www.ruyiwallet.com#deadLink
 repository: 
-issue: 
 icon: com.ruyiwallet.app.png
 bugbounty: 
 meta: removed

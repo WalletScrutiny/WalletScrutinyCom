@@ -12,7 +12,6 @@ version: 0.1.6-testnet
 reviews: 
 website: https://lndroid.org
 repository: 
-issue: 
 icon: org.lndroid.wallet.testnet.png
 bugbounty: 
 meta: removed

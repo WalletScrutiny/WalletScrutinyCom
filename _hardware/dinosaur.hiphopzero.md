@@ -17,7 +17,6 @@ shop:
 country: 
 price: 75USD
 repository: https://github.com/trezor/trezor-mcu
-issue: 
 icon: dinosaur.hiphopzero.png
 bugbounty: 
 meta: obsolete

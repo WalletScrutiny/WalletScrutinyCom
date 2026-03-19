@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://www.theblockbox.io
 repository: 
-issue: 
 icon: com.tbbapego.png
 bugbounty: 
 meta: removed

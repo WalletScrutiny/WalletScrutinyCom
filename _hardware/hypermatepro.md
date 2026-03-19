@@ -22,7 +22,6 @@ shop: https://web.archive.org/web/20211026011641/https://shop.hyperpay.tech/coll
 country: HK
 price: 229USD
 repository: https://github.com/hyperpayorg/hardwallet
-issue: https://github.com/hyperpayorg/hardwallet/issues/4
 icon: hypermatepro.png
 bugbounty: 
 meta: ok
@@ -106,3 +105,5 @@ the latest release, we find this product to be **not verifiable**.
 
 
 {% include featureEvidence.html feature="nfc" quote="Bluetooth 5.0" source="Website" %}
+
+An issue has been opened at [https://github.com/hyperpayorg/hardwallet/issues/4](https://github.com/hyperpayorg/hardwallet/issues/4)

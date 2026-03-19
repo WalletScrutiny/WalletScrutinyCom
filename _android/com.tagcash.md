@@ -13,7 +13,6 @@ version: 8.0.4
 reviews: 
 website: http://tagcash.com
 repository: 
-issue: 
 icon: com.tagcash.png
 bugbounty: 
 meta: removed

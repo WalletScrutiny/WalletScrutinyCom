@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: my.service.cryptonx.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.2.0.0.0.1.fp.gps
 reviews: 
 website: https://www.tryspeed.com/
 repository: 
-issue: 
 icon: com.app.speedpos.png
 bugbounty: 
 meta: removed

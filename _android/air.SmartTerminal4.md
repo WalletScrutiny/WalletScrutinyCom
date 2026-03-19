@@ -12,7 +12,6 @@ version: '0_43'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: air.SmartTerminal4.png
 bugbounty: 
 meta: removed

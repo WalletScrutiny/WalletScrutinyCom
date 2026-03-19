@@ -13,7 +13,6 @@ version: 2.15.2
 reviews: 132
 website: https://www.bitleague.com
 repository: 
-issue: 
 icon: com.bitleague.png
 bugbounty: 
 meta: removed

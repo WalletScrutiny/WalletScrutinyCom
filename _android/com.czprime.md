@@ -13,7 +13,6 @@ version: 1.5.69
 reviews: 418
 website: https://www.coinzoom.com
 repository: 
-issue: 
 icon: com.czprime.png
 bugbounty: 
 meta: removed

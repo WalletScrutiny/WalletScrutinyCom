@@ -12,7 +12,6 @@ version: 1.2.6
 reviews: 2
 website: https://riv-technologies.com
 repository: 
-issue: 
 icon: com.riv_wallet.png
 bugbounty: 
 meta: ok

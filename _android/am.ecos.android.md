@@ -13,7 +13,6 @@ version: 3.1.10
 reviews: 211
 website: https://ecos.am
 repository: 
-issue: 
 icon: am.ecos.android.png
 bugbounty: 
 meta: ok

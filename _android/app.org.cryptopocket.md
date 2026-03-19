@@ -13,7 +13,6 @@ version: 1.2.8
 reviews: 
 website: http://www.cryptopocket.info#deadLink
 repository: 
-issue: 
 icon: app.org.cryptopocket.jpg
 bugbounty: 
 meta: removed

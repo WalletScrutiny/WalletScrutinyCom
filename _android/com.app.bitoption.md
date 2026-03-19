@@ -12,7 +12,6 @@ version: 1.1.8
 reviews: 
 website: https://www.bitoption.app/client#deadLink
 repository: 
-issue: 
 icon: com.app.bitoption.png
 bugbounty: 
 meta: removed

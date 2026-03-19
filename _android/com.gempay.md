@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://gempay.io#deadLink
 repository: 
-issue: 
 icon: com.gempay.png
 bugbounty: 
 meta: removed

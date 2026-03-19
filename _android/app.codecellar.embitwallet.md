@@ -12,7 +12,6 @@ version: '6.11'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: app.codecellar.embitwallet.png
 bugbounty: 
 meta: removed

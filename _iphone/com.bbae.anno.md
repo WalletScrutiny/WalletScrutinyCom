@@ -13,7 +13,6 @@ version: 7.0.3
 reviews: 785
 website: https://www.bbae.com
 repository: 
-issue: 
 icon: com.bbae.anno.jpg
 bugbounty: 
 meta: ok

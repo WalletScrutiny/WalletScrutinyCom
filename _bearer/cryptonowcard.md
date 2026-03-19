@@ -17,7 +17,6 @@ shop: https://www.cryptonow.ch/en-ch/where-to-buy#deadLink
 country: CH
 price: 
 repository: 
-issue: 
 icon: cryptonowcard.png
 bugbounty: 
 meta: ok

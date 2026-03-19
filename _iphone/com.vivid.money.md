@@ -12,7 +12,6 @@ version: 4.12.0
 reviews: 17
 website: https://vivid.money/en-de
 repository: 
-issue: 
 icon: com.vivid.money.jpg
 bugbounty: 
 meta: ok

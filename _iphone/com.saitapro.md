@@ -13,7 +13,6 @@ version: '1.95'
 reviews: 771
 website: 
 repository: 
-issue: 
 icon: com.saitapro.jpg
 bugbounty: 
 meta: removed

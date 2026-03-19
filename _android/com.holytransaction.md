@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://holytransaction.com
 repository: 
-issue: 
 icon: com.holytransaction.png
 bugbounty: 
 meta: removed

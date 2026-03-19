@@ -13,7 +13,6 @@ version: 1.0.5
 reviews: 14
 website: 
 repository: 
-issue: 
 icon: by.bitcash.cryptowallet.jpg
 bugbounty: 
 meta: ok

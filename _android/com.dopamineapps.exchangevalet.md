@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://exchangevalet.com#deadLink
 repository: 
-issue: 
 icon: com.dopamineapps.exchangevalet.png
 bugbounty: 
 meta: removed

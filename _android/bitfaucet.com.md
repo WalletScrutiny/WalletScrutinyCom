@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://websiapps.blogspot.com
 repository: 
-issue: 
 icon: bitfaucet.com.png
 bugbounty: 
 meta: removed

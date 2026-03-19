@@ -13,7 +13,6 @@ version: 6.0.20
 reviews: 
 website: http://www.kikitrade.com#deadLink
 repository: 
-issue: 
 icon: com.kikitrade.png
 bugbounty: 
 meta: removed

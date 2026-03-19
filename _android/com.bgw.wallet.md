@@ -13,7 +13,6 @@ version: 0.3.8
 reviews: 
 website: https://walletgo.ai/
 repository: 
-issue: 
 icon: com.bgw.wallet.png
 bugbounty: 
 meta: stale

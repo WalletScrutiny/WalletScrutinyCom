@@ -13,7 +13,6 @@ version: 2.2.6
 reviews: 19
 website: https://cobo.com/
 repository: https://github.com/CoboVault/cobo-vault-cold
-issue: 
 icon: com.vaulthotpro.png
 bugbounty: 
 meta: removed

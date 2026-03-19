@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 9
 website: https://private-wallet.net#deadLink
 repository: 
-issue: 
 icon: com.privated.wallet.png
 bugbounty: 
 meta: removed

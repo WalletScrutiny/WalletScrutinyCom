@@ -13,7 +13,6 @@ version: 1.52.9
 reviews: 4565
 website: http://taplink.cc/bitogroup
 repository: 
-issue: 
 icon: com.bitoex.bitopronew.jpg
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 0.0.1
 reviews: 
 website: https://www.hipcibot.com#deadLink
 repository: 
-issue: 
 icon: com.hipcibot.hip.png
 bugbounty: 
 meta: removed

@@ -20,7 +20,6 @@ shop:
 country: 
 price: 85GBP
 repository: 
-issue: 
 icon: pixel3a.samourai.png
 bugbounty: 
 meta: ok

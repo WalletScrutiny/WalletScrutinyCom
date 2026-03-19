@@ -13,7 +13,6 @@ version: 3.4.11
 reviews: 131
 website: https://wowearn.com/
 repository: 
-issue: 
 icon: com.hxg.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.49
 reviews: 2572
 website: https://www.bitlo.com/
 repository: 
-issue: 
 icon: com.bitlo.bitloandroid.png
 bugbounty: 
 meta: ok

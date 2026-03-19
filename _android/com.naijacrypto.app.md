@@ -13,7 +13,6 @@ version: 5.1.2
 reviews: 
 website: https://naijacrypto.com#deadLink
 repository: 
-issue: 
 icon: com.naijacrypto.app.png
 bugbounty: 
 meta: removed

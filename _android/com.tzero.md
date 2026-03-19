@@ -13,7 +13,6 @@ version: 2.0.10733
 reviews: 137
 website: http://www.tzero.com/crypto-app#deadLink
 repository: 
-issue: 
 icon: com.tzero.png
 bugbounty: 
 meta: removed

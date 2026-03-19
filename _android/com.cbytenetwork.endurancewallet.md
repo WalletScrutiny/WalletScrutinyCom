@@ -12,7 +12,6 @@ version: 0.01.0
 reviews: 
 website: https://cbyte.network#deadLink
 repository: 
-issue: 
 icon: com.cbytenetwork.endurancewallet.png
 bugbounty: 
 meta: removed

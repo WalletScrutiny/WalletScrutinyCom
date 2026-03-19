@@ -12,7 +12,6 @@ version: 7.0.4
 reviews: 
 website: 
 repository: 
-issue: 
 icon: org.doichain.doiwallet.png
 bugbounty: 
 meta: stale

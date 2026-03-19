@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 
 website: https://www.pccryptomarket.com#deadLink
 repository: 
-issue: 
 icon: com.pccryptomarket.png
 bugbounty: 
 meta: removed

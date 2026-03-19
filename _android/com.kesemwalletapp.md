@@ -12,7 +12,6 @@ version: '2.17'
 reviews: 
 website: https://www.kesem.io
 repository: 
-issue: 
 icon: com.kesemwalletapp.png
 bugbounty: 
 meta: removed

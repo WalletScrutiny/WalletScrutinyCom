@@ -12,7 +12,6 @@ version: '1.2'
 reviews: 
 website: https://coinways.io#deadLink
 repository: 
-issue: 
 icon: com.mysurvey.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://naijaexchange.vip
 repository: 
-issue: 
 icon: vip.naijaexchange.app.android.png
 bugbounty: 
 meta: removed

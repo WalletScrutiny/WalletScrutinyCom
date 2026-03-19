@@ -13,7 +13,6 @@ version: 1.4.2
 reviews: 7
 website: http://bitberry.app
 repository: 
-issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
 meta: removed

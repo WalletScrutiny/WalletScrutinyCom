@@ -13,7 +13,6 @@ version: 1.32.47
 reviews: 25
 website: https://trusteeglobal.com
 repository: 
-issue: 
 icon: com.trusteeplus.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.12
 reviews: 12
 website: 
 repository: 
-issue: 
 icon: tech.vontech.blockchain.jetoken.png
 bugbounty: 
 meta: removed

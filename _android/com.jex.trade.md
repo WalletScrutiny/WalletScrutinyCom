@@ -13,7 +13,6 @@ version: 2.8.4
 reviews: 713
 website: https://www.jex.com#deadLink
 repository: 
-issue: 
 icon: com.jex.trade.png
 bugbounty: 
 meta: removed

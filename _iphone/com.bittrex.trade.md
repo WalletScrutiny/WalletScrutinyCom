@@ -13,7 +13,6 @@ version: 1.22.0
 reviews: 4357
 website: https://web.archive.org/web/20231003135011/https://bittrex.com/mobile
 repository: 
-issue: 
 icon: com.bittrex.trade.jpg
 bugbounty: 
 meta: removed

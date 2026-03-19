@@ -12,7 +12,6 @@ version: 4.0.4
 reviews: 
 website: https://web.archive.org/web/20250227125010/http://www.neenote.net/
 repository: 
-issue: 
 icon: net.neenote.wallet.png
 bugbounty: 
 meta: removed

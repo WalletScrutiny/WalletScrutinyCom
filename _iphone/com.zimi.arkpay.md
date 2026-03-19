@@ -13,7 +13,6 @@ version: 2.14.0
 reviews: 9
 website: 
 repository: 
-issue: 
 icon: com.zimi.arkpay.jpg
 bugbounty: 
 meta: stale

@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: https://www.kuffstudios.com
 repository: 
-issue: 
 icon: com.kuffgames.cryptoinvestinggame.png
 bugbounty: 
 meta: removed

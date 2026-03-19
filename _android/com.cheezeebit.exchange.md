@@ -13,7 +13,6 @@ version: 1.3.2
 reviews: 
 website: https://cheezeebit.com/
 repository: 
-issue: 
 icon: com.cheezeebit.exchange.png
 bugbounty: 
 meta: ok

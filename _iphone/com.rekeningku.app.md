@@ -13,7 +13,6 @@ version: 2.1.91
 reviews: 30
 website: https://www.reku.id/
 repository: 
-issue: 
 icon: com.rekeningku.app.jpg
 bugbounty: 
 meta: removed

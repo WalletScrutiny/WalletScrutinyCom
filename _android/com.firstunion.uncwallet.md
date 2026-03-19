@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://first-union.com#deadLink
 repository: 
-issue: 
 icon: com.firstunion.uncwallet.png
 bugbounty: 
 meta: removed

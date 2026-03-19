@@ -13,7 +13,6 @@ version: 5.2.0
 reviews: 203
 website: https://haruinvest.com/
 repository: 
-issue: 
 icon: com.bchi.haruinvestapp.jpg
 bugbounty: 
 meta: removed

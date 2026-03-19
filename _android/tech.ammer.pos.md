@@ -12,7 +12,6 @@ version: 3.0.0
 reviews: 
 website: https://trustody.io/
 repository: 
-issue: 
 icon: tech.ammer.pos.png
 bugbounty: 
 meta: removed

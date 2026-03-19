@@ -13,7 +13,6 @@ version: 1.2.9
 reviews: 
 website: https://wallet.io/
 repository: 
-issue: 
 icon: io.wallet.pro.png
 bugbounty: 
 meta: removed

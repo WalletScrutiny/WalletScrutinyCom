@@ -13,7 +13,6 @@ version: '1.4'
 reviews: 2
 website: https://personal.elegro.eu/certified-coins#deadLink
 repository: 
-issue: 
 icon: cryptoex.elegro.io.jpg
 bugbounty: 
 meta: obsolete

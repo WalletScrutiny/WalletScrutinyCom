@@ -13,7 +13,6 @@ version: 3.0.188
 reviews: 21
 website: https://www.alvexo.com#deadLink
 repository: 
-issue: 
 icon: com.alvexo.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: http://hobutrading.com
 repository: 
-issue: 
 icon: jaytesrac.com.hobu_app.png
 bugbounty: 
 meta: removed

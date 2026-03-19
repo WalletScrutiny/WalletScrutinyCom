@@ -17,7 +17,6 @@ shop:
 country: US
 price: 
 repository: https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
-issue: 
 icon: icywallet.png
 bugbounty: 
 meta: ok

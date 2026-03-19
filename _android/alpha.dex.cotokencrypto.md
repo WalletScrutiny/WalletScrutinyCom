@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: alpha.dex.cotokencrypto.png
 bugbounty: 
 meta: removed

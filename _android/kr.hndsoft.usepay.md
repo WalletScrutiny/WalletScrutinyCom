@@ -12,7 +12,6 @@ version: 1.2.1
 reviews: 
 website: https://dfmeco.io
 repository: 
-issue: 
 icon: kr.hndsoft.usepay.png
 bugbounty: 
 meta: removed

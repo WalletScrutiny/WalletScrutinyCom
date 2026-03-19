@@ -13,7 +13,6 @@ version: '1.5'
 reviews: 
 website: https://web.archive.org/web/20090828171643/http://multipi.net:80/
 repository: 
-issue: 
 icon: multico.in.btctrade.png
 bugbounty: 
 meta: removed

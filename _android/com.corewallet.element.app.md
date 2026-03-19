@@ -13,7 +13,6 @@ version: 1.13.0
 reviews: 313
 website: https://www.elementwallet.com/
 repository: 
-issue: 
 icon: com.corewallet.element.app.jpg
 bugbounty: 
 meta: ok

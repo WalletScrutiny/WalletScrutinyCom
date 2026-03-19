@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.logik.cmcinsight.png
 bugbounty: 
 meta: removed

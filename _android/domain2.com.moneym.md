@@ -12,7 +12,6 @@ version: '19.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: domain2.com.moneym.png
 bugbounty: 
 meta: removed

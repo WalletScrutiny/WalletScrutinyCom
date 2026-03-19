@@ -13,7 +13,6 @@ version: 1.3.4
 reviews: 6
 website: https://web.archive.org/web/20230603102041/https://vowcurrency.com/knowledge-base/
 repository: 
-issue: 
 icon: com.vowcurrency.vow.jpg
 bugbounty: 
 meta: removed

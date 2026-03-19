@@ -17,7 +17,6 @@ shop: https://dorj.io/product/dorjoneplus/
 country: IR
 price: 
 repository: 
-issue: 
 icon: dorj.one.plus.png
 bugbounty: 
 meta: ok

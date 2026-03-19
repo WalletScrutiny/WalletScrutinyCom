@@ -12,7 +12,6 @@ version: 0.21.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.quattro.wallet.png
 bugbounty: 
 meta: removed

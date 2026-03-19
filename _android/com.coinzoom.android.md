@@ -13,7 +13,6 @@ version: 1.2.1.6550
 reviews: 120
 website: https://www.coinzoom.com
 repository: 
-issue: 
 icon: com.coinzoom.android.png
 bugbounty: 
 meta: ok

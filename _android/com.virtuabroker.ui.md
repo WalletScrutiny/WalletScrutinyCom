@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 24
 website: https://virtuabroker.com
 repository: 
-issue: 
 icon: com.virtuabroker.ui.png
 bugbounty: 
 meta: obsolete

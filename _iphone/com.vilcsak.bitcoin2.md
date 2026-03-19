@@ -13,7 +13,6 @@ version: 14.3.37
 reviews: 1786978
 website: http://www.coinbase.com
 repository: 
-issue: 
 icon: com.vilcsak.bitcoin2.jpg
 bugbounty: 
 meta: ok

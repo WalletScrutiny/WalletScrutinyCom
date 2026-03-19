@@ -12,7 +12,6 @@ version: 2.4.1
 reviews: 
 website: https://www.bibo.gold
 repository: 
-issue: 
 icon: com.bibo.exchange.jpg
 bugbounty: 
 meta: removed

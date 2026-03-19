@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: 
 repository: 
-issue: 
 icon: jha.cwallet.png
 bugbounty: 
 meta: removed

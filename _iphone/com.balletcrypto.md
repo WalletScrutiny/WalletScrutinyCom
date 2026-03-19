@@ -12,7 +12,6 @@ version: 2.26.0
 reviews: 1506
 website: https://www.ballet.com/
 repository: 
-issue: 
 icon: com.balletcrypto.jpg
 bugbounty: 
 meta: ok

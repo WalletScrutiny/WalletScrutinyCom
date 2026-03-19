@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://sendenero.com
 repository: 
-issue: 
 icon: com.techio.sendenero.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '9.8'
 reviews: 
 website: https://santiagocelentano.wixsite.com/esantrix#deadLink
 repository: 
-issue: 
 icon: esantrix.bsas.png
 bugbounty: 
 meta: removed

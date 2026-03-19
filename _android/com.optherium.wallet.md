@@ -13,7 +13,6 @@ version: 1.3.5
 reviews: 11
 website: https://vivuspay.io
 repository: 
-issue: 
 icon: com.optherium.wallet.png
 bugbounty: 
 meta: removed

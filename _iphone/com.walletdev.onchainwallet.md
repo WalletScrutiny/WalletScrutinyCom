@@ -14,7 +14,6 @@ version: 3.3.6
 reviews: 136
 website: https://www.itoken.com/en/
 repository: 
-issue: 
 icon: com.walletdev.onchainwallet.jpg
 bugbounty: 
 meta: removed

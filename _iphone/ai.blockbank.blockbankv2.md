@@ -13,7 +13,6 @@ version: 3.3.6
 reviews: 13
 website: https://twitter.com/BLOCKBANKapp
 repository: 
-issue: 
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
 meta: removed

@@ -15,7 +15,6 @@ version: 1.3.4
 reviews: 1
 website: https://www.bhexchain.com#deadLink
 repository: 
-issue: https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink
 icon: com.bluehelix.wallet.ios.jpg
 bugbounty: 
 meta: removed
@@ -33,3 +32,5 @@ developerName:
 **Update 2022-10-21**: This app is not available anymore.
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink](https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink)

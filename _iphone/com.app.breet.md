@@ -13,7 +13,6 @@ version: 7.2.3
 reviews: 1111
 website: https://breet.io
 repository: 
-issue: 
 icon: com.app.breet.jpg
 bugbounty: 
 meta: ok

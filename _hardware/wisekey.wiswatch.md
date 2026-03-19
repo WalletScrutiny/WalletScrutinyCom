@@ -17,7 +17,6 @@ shop:
 country: US
 price: 499CHF
 repository: 
-issue: 
 icon: wisekey.wiswatch.png
 bugbounty: 
 meta: ok

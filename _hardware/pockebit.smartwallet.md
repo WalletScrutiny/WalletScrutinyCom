@@ -18,7 +18,6 @@ shop:
 country: JP
 price: 
 repository: 
-issue: 
 icon: pockebit.smartwallet.png
 bugbounty: 
 meta: ok

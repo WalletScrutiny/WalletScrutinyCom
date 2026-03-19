@@ -13,7 +13,6 @@ version: 4.7.10
 reviews: 978
 website: http://ripio.com/br/ripiotrade/
 repository: 
-issue: 
 icon: com.root.BitcoinTrade.jpg
 bugbounty: 
 meta: removed

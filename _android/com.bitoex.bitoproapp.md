@@ -13,7 +13,6 @@ version: 4.4.7
 reviews: 2
 website: https://www.bitopro.com
 repository: 
-issue: 
 icon: com.bitoex.bitoproapp.png
 bugbounty: 
 meta: removed

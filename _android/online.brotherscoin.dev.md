@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: online.brotherscoin.dev.png
 bugbounty: 
 meta: removed

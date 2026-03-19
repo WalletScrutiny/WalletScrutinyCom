@@ -13,7 +13,6 @@ version: 1.6.90
 reviews: 5
 website: https://www.vibra.one#deadLink
 repository: 
-issue: 
 icon: com.abl.vibra.png
 bugbounty: 
 meta: removed

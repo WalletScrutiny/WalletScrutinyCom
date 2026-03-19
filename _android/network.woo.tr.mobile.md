@@ -12,7 +12,6 @@ version: 3.4.0
 reviews: 
 website: https://wootr.com/
 repository: 
-issue: 
 icon: network.woo.tr.mobile.png
 bugbounty: 
 meta: removed

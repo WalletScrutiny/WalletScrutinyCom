@@ -13,7 +13,6 @@ version: '11.73'
 reviews: 195749
 website: https://trustwallet.com
 repository: 
-issue: 
 icon: com.sixdays.trust.jpg
 bugbounty: 
 meta: ok

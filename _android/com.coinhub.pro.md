@@ -13,7 +13,6 @@ version: 3.0.9
 reviews: 9
 website: https://coinhub.mn/
 repository: 
-issue: 
 icon: com.coinhub.pro.png
 bugbounty: 
 meta: ok

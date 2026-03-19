@@ -13,7 +13,6 @@ version: 3.1.9
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: com.app.Bitay.jpg
 bugbounty: 
 meta: removed

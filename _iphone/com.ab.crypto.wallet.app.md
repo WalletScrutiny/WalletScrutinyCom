@@ -13,7 +13,6 @@ version: 1.19.0
 reviews: 201
 website: https://alicebob.com/
 repository: 
-issue: 
 icon: com.ab.crypto.wallet.app.jpg
 bugbounty: 
 meta: ok

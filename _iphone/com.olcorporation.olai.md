@@ -13,7 +13,6 @@ version: 12.2.3
 reviews: 7822
 website: https://imem.app/
 repository: 
-issue: 
 icon: com.olcorporation.olai.jpg
 bugbounty: 
 meta: ok

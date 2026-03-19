@@ -13,7 +13,6 @@ version: 3.5.0
 reviews: 2032
 website: https://www.coinex.com
 repository: 
-issue: 
 icon: com.viabtc.trader.jpg
 bugbounty: 
 meta: removed

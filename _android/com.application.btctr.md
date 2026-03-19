@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 
 website: https://btc-bank.co/
 repository: 
-issue: 
 icon: com.application.btctr.png
 bugbounty: 
 meta: removed

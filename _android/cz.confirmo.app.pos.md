@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://confirmo.net
 repository: 
-issue: 
 icon: cz.confirmo.app.pos.png
 bugbounty: 
 meta: ok

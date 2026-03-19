@@ -13,7 +13,6 @@ version: 2.5.0
 reviews: 0
 website: https://emcd.io/about
 repository: 
-issue: 
 icon: io.emcd.app.jpg
 bugbounty: 
 meta: removed

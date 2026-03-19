@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: justsafe.png
 bugbounty: 
 meta: defunct

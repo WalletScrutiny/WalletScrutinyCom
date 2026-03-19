@@ -13,7 +13,6 @@ version: 4.3.0
 reviews: 
 website: http://betepal.com#deadLink
 repository: 
-issue: 
 icon: com.betepal.wallet.png
 bugbounty: 
 meta: removed

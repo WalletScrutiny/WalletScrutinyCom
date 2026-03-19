@@ -12,7 +12,6 @@ version: 0.8.5
 reviews: 9
 website: https://tweetoshi.com
 repository: 
-issue: 
 icon: com.tweetoshi.client.png
 bugbounty: 
 meta: obsolete

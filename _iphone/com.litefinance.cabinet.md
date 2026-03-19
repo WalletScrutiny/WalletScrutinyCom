@@ -13,7 +13,6 @@ version: 3.1.7
 reviews: 66
 website: https://www.liteforex.com
 repository: 
-issue: 
 icon: com.litefinance.cabinet.jpg
 bugbounty: 
 meta: ok

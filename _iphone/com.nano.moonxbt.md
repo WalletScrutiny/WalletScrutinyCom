@@ -13,7 +13,6 @@ version: 6.4.0
 reviews: 19
 website: https://www.pumpkin.xyz
 repository: 
-issue: 
 icon: com.nano.moonxbt.jpg
 bugbounty: 
 meta: ok

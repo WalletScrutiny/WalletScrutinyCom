@@ -13,7 +13,6 @@ version: '2.6'
 reviews: 
 website: https://deviantcoin.io
 repository: 
-issue: 
 icon: com.cryptowallet.deviantx.jpg
 bugbounty: 
 meta: removed

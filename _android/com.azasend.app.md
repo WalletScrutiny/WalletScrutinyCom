@@ -13,7 +13,6 @@ version: 3.9.1
 reviews: 77
 website: https://azasend.com
 repository: 
-issue: 
 icon: com.azasend.app.jpg
 bugbounty: 
 meta: ok

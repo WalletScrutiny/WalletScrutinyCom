@@ -13,7 +13,6 @@ version: 2.26.1
 reviews: 36
 website: https://emcd.io/ru
 repository: 
-issue: 
 icon: io.emcd.emcd_flutter.prod.png
 bugbounty: 
 meta: ok

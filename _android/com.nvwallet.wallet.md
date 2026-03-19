@@ -12,7 +12,6 @@ version: 0.1.0
 reviews: 
 website: https://www.nvxowallet.com/
 repository: 
-issue: 
 icon: com.nvwallet.wallet.png
 bugbounty: 
 meta: ok

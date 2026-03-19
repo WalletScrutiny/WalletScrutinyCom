@@ -12,7 +12,6 @@ version: Varies with device
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.stash.wallet.png
 bugbounty: 
 meta: removed

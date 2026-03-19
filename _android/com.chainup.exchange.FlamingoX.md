@@ -12,7 +12,6 @@ version: 5.3.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.chainup.exchange.FlamingoX.png
 bugbounty: 
 meta: removed

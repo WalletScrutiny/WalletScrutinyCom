@@ -13,7 +13,6 @@ version: '1.7'
 reviews: 10
 website: 
 repository: 
-issue: 
 icon: kifpool.me.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://s-trade.com
 repository: 
-issue: 
 icon: com.strade.app.png
 bugbounty: 
 meta: obsolete

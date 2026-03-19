@@ -12,7 +12,6 @@ version: 2.0.24
 reviews: 91
 website: 
 repository: 
-issue: 
 icon: com.coinsdo.coinsdowallet.jpg
 bugbounty: 
 meta: ok

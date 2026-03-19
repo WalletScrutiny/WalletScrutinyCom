@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://botrado.net#deadLink
 repository: 
-issue: 
 icon: app.botrado.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: v1.0.6
 reviews: 
 website: https://iq.cash#deadLink
 repository: 
-issue: 
 icon: com.iqcash.wallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.54.1
 reviews: 1561
 website: https://pro.btcturk.com
 repository: 
-issue: 
 icon: com.btcturk.pro.jpg
 bugbounty: 
 meta: removed

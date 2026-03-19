@@ -12,7 +12,6 @@ version: 1.1.0
 reviews: 
 website: https://www.wallexcustody.com/
 repository: 
-issue: 
 icon: com.ebanq.wallexcustody.png
 bugbounty: 
 meta: removed

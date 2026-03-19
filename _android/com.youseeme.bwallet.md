@@ -12,7 +12,6 @@ version: '1.27'
 reviews: 
 website: https://www.bartwallet.pro
 repository: 
-issue: 
 icon: com.youseeme.bwallet.jpg
 bugbounty: 
 meta: removed

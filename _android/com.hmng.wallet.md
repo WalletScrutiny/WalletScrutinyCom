@@ -12,7 +12,6 @@ version: 1.0.8
 reviews: 7
 website: https://www.hummingbirdbsc.org/
 repository: 
-issue: 
 icon: com.hmng.wallet.png
 bugbounty: 
 meta: removed

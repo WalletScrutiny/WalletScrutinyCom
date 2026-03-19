@@ -12,7 +12,6 @@ version: '1.1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.png
 bugbounty: 
 meta: removed

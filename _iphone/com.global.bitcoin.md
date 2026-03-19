@@ -13,7 +13,6 @@ version: 2.12.0
 reviews: 60
 website: https://bitcoin.global/
 repository: 
-issue: 
 icon: com.global.bitcoin.jpg
 bugbounty: 
 meta: obsolete

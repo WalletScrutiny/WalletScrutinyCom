@@ -12,7 +12,6 @@ version: v2.6.0
 reviews: 24
 website: https://www.purewallet.org#deadLink
 repository: 
-issue: 
 icon: pro.bitapp.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.6.23
 reviews: 93
 website: https://freewallet.org/btc-wallet
 repository: 
-issue: 
 icon: btc.org.freewallet.app.jpg
 bugbounty: 
 meta: removed

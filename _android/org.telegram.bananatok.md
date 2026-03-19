@@ -13,7 +13,6 @@ version: 5.0.8
 reviews: 1364
 website: http://www.bananatok.com
 repository: 
-issue: 
 icon: org.telegram.bananatok.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://easywallet.me
 repository: 
-issue: 
 icon: com.easywallet.android.png
 bugbounty: 
 meta: removed

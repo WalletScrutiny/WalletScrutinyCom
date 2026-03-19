@@ -13,7 +13,6 @@ version: 2.8.8
 reviews: 5
 website: https://bitcoinox.com/
 repository: 
-issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
 meta: stale

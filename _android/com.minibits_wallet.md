@@ -13,7 +13,6 @@ version: VARY
 reviews: 
 website: https://www.minibits.cash
 repository: 
-issue: 
 icon: com.minibits_wallet.png
 bugbounty: 
 meta: ok

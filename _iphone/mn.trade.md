@@ -13,7 +13,6 @@ version: 3.0.8
 reviews: 29
 website: https://trade.mn
 repository: 
-issue: 
 icon: mn.trade.jpg
 bugbounty: 
 meta: removed

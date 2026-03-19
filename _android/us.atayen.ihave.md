@@ -12,7 +12,6 @@ version: 1.5.4
 reviews: 
 website: https://dapp.satt.io/
 repository: 
-issue: 
 icon: us.atayen.ihave.png
 bugbounty: 
 meta: removed

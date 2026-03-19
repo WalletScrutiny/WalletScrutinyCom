@@ -13,7 +13,6 @@ version: 3.6.12
 reviews: 524
 website: https://osl.com
 repository: 
-issue: 
 icon: com.osl.mobile.OslMobile.jpg
 bugbounty: 
 meta: ok

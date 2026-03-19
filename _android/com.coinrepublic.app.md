@@ -13,7 +13,6 @@ version: 4.1.2
 reviews: 
 website: https://www.coinrepublic.com.au/
 repository: 
-issue: 
 icon: com.coinrepublic.app.png
 bugbounty: 
 meta: ok

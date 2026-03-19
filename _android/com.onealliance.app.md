@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: http://client.onechange.com.br#deadLink
 repository: 
-issue: 
 icon: com.onealliance.app.png
 bugbounty: 
 meta: removed

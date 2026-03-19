@@ -13,7 +13,6 @@ version: 3.0.7
 reviews: 61
 website: https://www.pionex.com
 repository: 
-issue: 
 icon: org.pionex.jpg
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 0.1.8
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.econobit.app.png
 bugbounty: 
 meta: obsolete

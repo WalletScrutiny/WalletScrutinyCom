@@ -17,7 +17,6 @@ shop: https://shop.cryptnox.com/
 country: CH
 price: 49CHF
 repository: https://github.com/Cryptnox-Software/cryptnoxpro
-issue: 
 icon: cryptnox.bg1card.png
 bugbounty: 
 meta: ok

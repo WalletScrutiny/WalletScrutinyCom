@@ -13,7 +13,6 @@ version: 1.6.9
 reviews: 0
 website: 
 repository: 
-issue: 
 icon: saw.stratumadvancedwallet.jpg
 bugbounty: 
 meta: removed

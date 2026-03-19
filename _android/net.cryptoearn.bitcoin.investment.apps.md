@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.cryptoearn.bitcoin.investment.apps.png
 bugbounty: 
 meta: removed

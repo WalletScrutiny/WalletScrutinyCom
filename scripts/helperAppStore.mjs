@@ -16,7 +16,7 @@ const stats = {
 const category = 'iphone';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
-                'updated version reviews website repository issue ' +
+                'updated version reviews website repository ' +
                 'icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social features developerName').split(' ');
 

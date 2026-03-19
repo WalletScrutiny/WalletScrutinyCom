@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://worldshare.network#deadLink
 repository: 
-issue: 
 icon: network.worldshare.safewallet.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://brastoken.com/
 repository: 
-issue: 
 icon: wallet.brastoken.com.png
 bugbounty: 
 meta: removed

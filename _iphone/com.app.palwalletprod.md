@@ -13,7 +13,6 @@ version: 1.0.10
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.app.palwalletprod.jpg
 bugbounty: 
 meta: ok

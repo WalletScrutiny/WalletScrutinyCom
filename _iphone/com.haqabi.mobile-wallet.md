@@ -13,7 +13,6 @@ version: '1.21'
 reviews: 4
 website: 
 repository: 
-issue: 
 icon: com.haqabi.mobile-wallet.jpg
 bugbounty: 
 meta: ok

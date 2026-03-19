@@ -13,7 +13,6 @@ version: 1.8.0
 reviews: 
 website: https://www.cabital.com#deadLink
 repository: 
-issue: 
 icon: com.cabital.cabital.png
 bugbounty: 
 meta: removed

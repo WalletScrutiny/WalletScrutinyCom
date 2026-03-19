@@ -13,7 +13,6 @@ version: 3.9.6
 reviews: 2187
 website: https://www.coinspot.com.au
 repository: 
-issue: 
 icon: com.coinspot.app.png
 bugbounty: 
 meta: ok

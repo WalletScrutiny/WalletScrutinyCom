@@ -17,7 +17,6 @@ shop: https://www.facebook.com/commerce/products/vaultsquare---carbon-black/1875
 country: US
 price: 19 USD
 repository: 
-issue: 
 icon: keyream.vaultsquare.png
 bugbounty: 
 meta: defunct

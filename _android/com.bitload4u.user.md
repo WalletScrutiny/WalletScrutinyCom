@@ -12,7 +12,6 @@ version: 2.1.5
 reviews: 
 website: https://www.bitload4u.com
 repository: 
-issue: 
 icon: com.bitload4u.user.png
 bugbounty: 
 meta: removed

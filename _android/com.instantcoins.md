@@ -13,7 +13,6 @@ version: 1.0.6
 reviews: 161
 website: https://instantcoins.ng#deadLink
 repository: 
-issue: 
 icon: com.instantcoins.png
 bugbounty: 
 meta: removed

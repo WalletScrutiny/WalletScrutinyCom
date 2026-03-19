@@ -13,7 +13,6 @@ version: 1.5.6
 reviews: 22
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
-issue: 
 icon: org.coinid.jpg
 bugbounty: 
 meta: removed

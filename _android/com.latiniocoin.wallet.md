@@ -12,7 +12,6 @@ version: v1.0.0
 reviews: 
 website: https://latinio.io/
 repository: 
-issue: 
 icon: com.latiniocoin.wallet.png
 bugbounty: 
 meta: removed

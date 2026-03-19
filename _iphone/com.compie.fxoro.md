@@ -13,7 +13,6 @@ version: 1.6.3
 reviews: 0
 website: http://fxoro.com
 repository: 
-issue: 
 icon: com.compie.fxoro.jpg
 bugbounty: 
 meta: ok

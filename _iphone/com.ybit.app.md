@@ -12,7 +12,6 @@ version: 1.0.9
 reviews: 24
 website: 
 repository: 
-issue: 
 icon: com.ybit.app.jpg
 bugbounty: 
 meta: ok

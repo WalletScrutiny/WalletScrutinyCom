@@ -13,7 +13,6 @@ version: 0.0.145 (7755)
 reviews: 9
 website: https://cryppter.com/
 repository: 
-issue: 
 icon: com.cryppter.app.release.png
 bugbounty: 
 meta: obsolete

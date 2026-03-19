@@ -13,7 +13,6 @@ version: '9.65'
 reviews: 
 website: https://europefx.com
 repository: 
-issue: 
 icon: com.europefx.app.png
 bugbounty: 
 meta: removed

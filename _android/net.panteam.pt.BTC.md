@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://github.com/AdminPanteam/pt.BTC
 repository: 
-issue: 
 icon: net.panteam.pt.BTC.png
 bugbounty: 
 meta: removed

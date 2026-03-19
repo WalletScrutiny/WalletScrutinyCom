@@ -13,7 +13,6 @@ version: 3.54.0
 reviews: 7713
 website: https://www.kraken.com
 repository: 
-issue: 
 icon: com.kraken.invest.app.png
 bugbounty: 
 meta: ok

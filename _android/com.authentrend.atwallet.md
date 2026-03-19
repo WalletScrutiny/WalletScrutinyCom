@@ -12,7 +12,6 @@ version: v2.0.12
 reviews: 
 website: https://www.authentrend.com/contact
 repository: 
-issue: 
 icon: com.authentrend.atwallet.png
 bugbounty: 
 meta: obsolete

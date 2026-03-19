@@ -13,7 +13,6 @@ version: 3.0.4
 reviews: 11
 website: https://dsdaq.com#deadLink
 repository: 
-issue: 
 icon: com.dsdaq.mobiletrader.png
 bugbounty: 
 meta: removed

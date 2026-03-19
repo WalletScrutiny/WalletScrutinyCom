@@ -12,7 +12,6 @@ version: 1.2.7
 reviews: 0
 website: https://purplex.io
 repository: 
-issue: 
 icon: com.purplexapp.cpi.jpg
 bugbounty: 
 meta: ok

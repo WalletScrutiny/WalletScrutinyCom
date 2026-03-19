@@ -13,7 +13,6 @@ version: 1.51.2
 reviews: 
 website: https://vexel.com
 repository: 
-issue: 
 icon: vexel.com.jpg
 bugbounty: 
 meta: removed

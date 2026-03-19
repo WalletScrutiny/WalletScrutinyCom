@@ -12,7 +12,6 @@ version: '3.0'
 reviews: 
 website: https://bobmint.com
 repository: 
-issue: 
 icon: com.clic.bobmint.jpg
 bugbounty: 
 meta: removed

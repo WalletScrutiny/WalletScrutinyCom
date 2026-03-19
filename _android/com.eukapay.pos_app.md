@@ -12,7 +12,6 @@ version: 1.2.12
 reviews: 
 website: https://eukapay.com
 repository: 
-issue: 
 icon: com.eukapay.pos_app.png
 bugbounty: 
 meta: removed

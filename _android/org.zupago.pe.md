@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 2
 website: https://web.archive.org/web/20230127211140/https://zupago.pe/
 repository: 
-issue: 
 icon: org.zupago.pe.png
 bugbounty: 
 meta: removed

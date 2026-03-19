@@ -12,7 +12,6 @@ version: 1.3.9
 reviews: 
 website: https://plisio.net
 repository: 
-issue: 
 icon: net.plisio.app.png
 bugbounty: 
 meta: removed

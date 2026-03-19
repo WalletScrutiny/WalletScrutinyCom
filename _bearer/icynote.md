@@ -17,7 +17,6 @@ shop:
 country: CH
 price: 
 repository: 
-issue: 
 icon: icynote.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 11.6.6
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.etherenmbean.app.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 9.1.1
 reviews: 207
 website: https://unitywallet.com
 repository: 
-issue: 
 icon: com.savl.png
 bugbounty: 
 meta: ok

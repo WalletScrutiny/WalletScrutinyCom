@@ -13,7 +13,6 @@ version: 3.1.1
 reviews: 525
 website: https://www.gopax.co.kr/notice
 repository: 
-issue: 
 icon: kr.co.gopax.jpg
 bugbounty: 
 meta: ok

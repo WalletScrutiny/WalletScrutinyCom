@@ -12,7 +12,6 @@ version: 2.0.16
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sanctuaryex.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.1.8.22
 reviews: 1157
 website: http://www.webullpay.com
 repository: 
-issue: 
 icon: com.webull.pay.us.png
 bugbounty: 
 meta: ok

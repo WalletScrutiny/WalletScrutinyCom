@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: net.tradingbitcoin.bitcoin.coin.invest.jpg
 bugbounty: 
 meta: removed

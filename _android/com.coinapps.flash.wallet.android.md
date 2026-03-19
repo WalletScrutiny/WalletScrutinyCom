@@ -12,7 +12,6 @@ version: 2.4.1
 reviews: 25
 website: 
 repository: 
-issue: 
 icon: com.coinapps.flash.wallet.android.png
 bugbounty: 
 meta: removed

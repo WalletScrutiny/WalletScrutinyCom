@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://www.aieve.io#deadLink
 repository: 
-issue: 
 icon: com.aievemobile.png
 bugbounty: 
 meta: removed

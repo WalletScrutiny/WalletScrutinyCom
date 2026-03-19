@@ -13,7 +13,6 @@ version: 1.32.36
 reviews: 114
 website: 
 repository: 
-issue: 
 icon: com.trusteeplus1.jpg
 bugbounty: 
 meta: removed

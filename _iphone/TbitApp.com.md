@@ -13,7 +13,6 @@ version: 2.2.9
 reviews: 1
 website: 
 repository: 
-issue: 
 icon: TbitApp.com.jpg
 bugbounty: 
 meta: removed

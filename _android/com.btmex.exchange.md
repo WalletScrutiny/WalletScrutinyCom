@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: http://www.bitanmt.com#deadLink
 repository: 
-issue: 
 icon: com.btmex.exchange.png
 bugbounty: 
 meta: removed

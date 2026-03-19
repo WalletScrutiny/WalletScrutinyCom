@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://web.archive.org/web/20211222185832/https://coinwallet.id/
 repository: 
-issue: 
 icon: pkg.coinwallet.id.png
 bugbounty: 
 meta: removed

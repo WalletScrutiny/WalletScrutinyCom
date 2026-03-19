@@ -13,7 +13,6 @@ version: 0.7.50
 reviews: 
 website: https://rayyo.mx
 repository: 
-issue: 
 icon: io.rayyo.png
 bugbounty: 
 meta: ok

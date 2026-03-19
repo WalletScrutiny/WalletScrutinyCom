@@ -13,7 +13,6 @@ version: 1.2.0
 reviews: 
 website: https://www.gccglobalplatform.com
 repository: 
-issue: 
 icon: com.baanx.gcc.png
 bugbounty: 
 meta: removed

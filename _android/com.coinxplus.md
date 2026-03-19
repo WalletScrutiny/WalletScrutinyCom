@@ -12,7 +12,6 @@ version: 1.0.1
 reviews: 
 website: https://coinxplus.io/
 repository: 
-issue: 
 icon: com.coinxplus.png
 bugbounty: 
 meta: removed

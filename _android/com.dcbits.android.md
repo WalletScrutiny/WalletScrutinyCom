@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: http://dcbits.io#deadLink
 repository: 
-issue: 
 icon: com.dcbits.android.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: 1.1.5
 reviews: 
 website: https://flashxchanger.com/
 repository: 
-issue: 
 icon: com.flashxchanger.app.png
 bugbounty: 
 meta: removed

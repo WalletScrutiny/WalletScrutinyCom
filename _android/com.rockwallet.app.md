@@ -13,7 +13,6 @@ version: 5.17.8
 reviews: 271
 website: http://www.rockwallet.com
 repository: 
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
@@ -50,3 +49,5 @@ features:
 - There was a BTC wallet with a legacy address.
 - Users can opt to not sign up with the service. 
 - The developers claim that this app was derived from {% include walletLink.html wallet='android/com.breadwallet' verdict='true' %} which was code-available in the past.
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498)

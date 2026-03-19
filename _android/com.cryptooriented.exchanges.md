@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://cryptooriented.com
 repository: 
-issue: 
 icon: com.cryptooriented.exchanges.png
 bugbounty: 
 meta: obsolete

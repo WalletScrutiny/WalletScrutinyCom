@@ -13,7 +13,6 @@ version: 2.1.1
 reviews: 6
 website: https://inlock.io/
 repository: 
-issue: 
 icon: io.inlock.mobileapp.png
 bugbounty: 
 meta: removed

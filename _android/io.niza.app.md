@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 
 website: https://niza.io
 repository: 
-issue: 
 icon: io.niza.app.png
 bugbounty: 
 meta: ok

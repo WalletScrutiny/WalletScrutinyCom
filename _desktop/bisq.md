@@ -12,7 +12,6 @@ provider:
 providerWebsite: 
 website: https://bisq.network
 repository: https://github.com/bisq-network/bisq
-issue: 
 icon: bisq.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 0.0.6
 reviews: 
 website: http://rpm.market#deadLink
 repository: 
-issue: 
 icon: com.rpm.market.png
 bugbounty: 
 meta: removed

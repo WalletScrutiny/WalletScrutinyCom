@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: co.bitfrost.png
 bugbounty: 
 meta: removed

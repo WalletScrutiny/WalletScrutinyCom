@@ -13,7 +13,6 @@ version: 1.9.3
 reviews: 121
 website: https://admiraloption.com#deadLink
 repository: 
-issue: 
 icon: com.admiral.png
 bugbounty: 
 meta: removed

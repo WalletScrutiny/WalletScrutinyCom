@@ -13,7 +13,6 @@ version: 2.7.0
 reviews: 0
 website: http://www.jubiterwallet.com
 repository: 
-issue: 
 icon: com.feitian.jubiterwallet.jpg
 bugbounty: 
 meta: obsolete

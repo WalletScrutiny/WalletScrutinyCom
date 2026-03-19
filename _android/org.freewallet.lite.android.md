@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: https://freewallet.org
 repository: 
-issue: 
 icon: org.freewallet.lite.android.png
 bugbounty: 
 meta: removed

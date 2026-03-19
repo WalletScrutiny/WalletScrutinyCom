@@ -12,7 +12,6 @@ version: '1.5'
 reviews: 
 website: https://coins.black
 repository: 
-issue: 
 icon: com.coins.black.exchanger.png
 bugbounty: 
 meta: ok

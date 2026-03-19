@@ -12,7 +12,6 @@ version: '1.6'
 reviews: 
 website: https://bryptoxchange.com#deadLink
 repository: 
-issue: 
 icon: com.wallet.bryptoxchange.png
 bugbounty: 
 meta: removed

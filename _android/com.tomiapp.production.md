@@ -13,7 +13,6 @@ version: '267.0'
 reviews: 4
 website: https://tomi.com
 repository: 
-issue: 
 icon: com.tomiapp.production.png
 bugbounty: 
 meta: ok

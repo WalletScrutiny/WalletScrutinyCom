@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: 
-issue: 
 icon: skynance.skyport.png
 bugbounty: 
 meta: ok

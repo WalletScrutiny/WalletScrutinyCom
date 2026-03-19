@@ -12,7 +12,6 @@ version: 5.3.6
 reviews: 23
 website: https://thepulsewallet.org/
 repository: 
-issue: 
 icon: com.wallet.thepulse.png
 bugbounty: 
 meta: ok

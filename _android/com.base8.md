@@ -12,7 +12,6 @@ version: 2.1.0
 reviews: 
 website: https://base8.app/
 repository: 
-issue: 
 icon: com.base8.png
 bugbounty: 
 meta: ok

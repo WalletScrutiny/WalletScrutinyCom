@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://www.xeniosmarkets.com#deadLink
 repository: 
-issue: 
 icon: com.xeniosmarkets.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 
 website: https://libertypool.com/
 repository: 
-issue: 
 icon: com.libertypool.lpx.png
 bugbounty: 
 meta: removed

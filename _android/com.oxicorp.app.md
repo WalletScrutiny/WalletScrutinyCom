@@ -13,7 +13,6 @@ version: 6.0.1
 reviews: 
 website: https://oxi-corp.com/
 repository: 
-issue: 
 icon: com.oxicorp.app.png
 bugbounty: 
 meta: removed

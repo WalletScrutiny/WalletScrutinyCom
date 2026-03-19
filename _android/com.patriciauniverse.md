@@ -13,7 +13,6 @@ version: '1.2'
 reviews: 23
 website: https://mypatricia.co
 repository: 
-issue: 
 icon: com.patriciauniverse.png
 bugbounty: 
 meta: removed

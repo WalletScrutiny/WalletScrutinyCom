@@ -15,7 +15,6 @@ version: 3.10.1
 reviews: 152
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app
-issue: https://github.com/MixinNetwork/android-app/issues/4980
 icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
@@ -63,4 +62,6 @@ It appears that this wallet is **non-custodial** and that source-code is availab
 
 An issue has been made on Gitlab with the corresponding [results](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/344). 
 
-Issue has been raised in MixinNetwork's [Github Issues page](https://github.com/MixinNetwork/android-app/issues/2490). 
+Issue has been raised in MixinNetwork's [Github Issues page](https://github.com/MixinNetwork/android-app/issues/2490).
+
+An issue has been opened at [https://github.com/MixinNetwork/android-app/issues/4980](https://github.com/MixinNetwork/android-app/issues/4980)

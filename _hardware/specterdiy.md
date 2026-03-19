@@ -20,7 +20,6 @@ shop:
 country: DE
 price: 
 repository: https://github.com/cryptoadvance/specter-diy
-issue: 
 icon: specterdiy.png
 bugbounty: 
 meta: ok

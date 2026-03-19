@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://eybinary.xtrading.co#deadLink
 repository: 
-issue: 
 icon: xtrading.eybinary.co.png
 bugbounty: 
 meta: removed

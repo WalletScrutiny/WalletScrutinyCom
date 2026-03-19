@@ -13,7 +13,6 @@ version: 7.40.0001
 reviews: 42643
 website: https://coindcx.com
 repository: 
-issue: 
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
 meta: ok

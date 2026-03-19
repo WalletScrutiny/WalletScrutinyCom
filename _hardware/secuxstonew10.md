@@ -21,7 +21,6 @@ shop: https://shop.secuxtech.com/products/w10-hardware-wallet-for-computer/
 country: TW
 price: 69USD
 repository: 
-issue: 
 icon: secuxstonew10.png
 bugbounty: 
 meta: ok

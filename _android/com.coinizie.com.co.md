@@ -12,7 +12,6 @@ version: '9.0'
 reviews: 
 website: https://www.coinizie.com#deadLink
 repository: 
-issue: 
 icon: com.coinizie.com.co.png
 bugbounty: 
 meta: removed

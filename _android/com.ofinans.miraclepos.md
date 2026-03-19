@@ -12,7 +12,6 @@ version: 2.0.8
 reviews: 
 website: https://miraclecash.com
 repository: 
-issue: 
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
 meta: removed

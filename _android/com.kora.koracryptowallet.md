@@ -12,7 +12,6 @@ version: 1.0.5
 reviews: 
 website: https://koracryptowallet.web.app
 repository: 
-issue: 
 icon: com.kora.koracryptowallet.png
 bugbounty: 
 meta: removed

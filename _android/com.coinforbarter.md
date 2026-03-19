@@ -12,7 +12,6 @@ version: '2.0'
 reviews: 
 website: https://coinforbarter.com
 repository: 
-issue: 
 icon: com.coinforbarter.png
 bugbounty: 
 meta: removed

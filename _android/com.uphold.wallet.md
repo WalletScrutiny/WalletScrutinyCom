@@ -13,7 +13,6 @@ version: 6.79.0
 reviews: 8106
 website: https://uphold.com
 repository: 
-issue: 
 icon: com.uphold.wallet.png
 bugbounty: 
 meta: ok

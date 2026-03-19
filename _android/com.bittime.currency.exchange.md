@@ -13,7 +13,6 @@ version: 2.0.8
 reviews: 
 website: http://www.bittime.com
 repository: 
-issue: 
 icon: com.bittime.currency.exchange.png
 bugbounty: 
 meta: ok

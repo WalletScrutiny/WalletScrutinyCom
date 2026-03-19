@@ -13,7 +13,6 @@ version: 4.2.2
 reviews: 21
 website: https://bhex.co#deadLink
 repository: 
-issue: 
 icon: com.bh.android.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.2.2
 reviews: 20
 website: https://nami.io/
 repository: 
-issue: 
 icon: com.namicorp.exchange.jpg
 bugbounty: 
 meta: removed

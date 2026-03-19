@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://chascom.tech
 repository: 
-issue: 
 icon: com.maocular.chascom.jpg
 bugbounty: 
 meta: removed

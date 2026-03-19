@@ -20,7 +20,6 @@ shop:
 country: KR
 price: 
 repository: 
-issue: 
 icon: sctechone.touchxwallet.png
 bugbounty: 
 meta: defunct

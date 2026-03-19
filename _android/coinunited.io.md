@@ -13,7 +13,6 @@ version: 5.1.0
 reviews: 237
 website: https://coinunited.io/
 repository: 
-issue: 
 icon: coinunited.io.jpg
 bugbounty: 
 meta: removed

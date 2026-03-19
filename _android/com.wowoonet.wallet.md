@@ -12,7 +12,6 @@ version: 1.4.3
 reviews: 7
 website: 
 repository: 
-issue: 
 icon: com.wowoonet.wallet.png
 bugbounty: 
 meta: removed

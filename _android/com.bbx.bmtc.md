@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 63
 website: https://www.bbx.com/
 repository: 
-issue: 
 icon: com.bbx.bmtc.png
 bugbounty: 
 meta: removed

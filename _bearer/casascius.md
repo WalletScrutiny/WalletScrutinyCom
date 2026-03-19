@@ -20,7 +20,6 @@ shop:
 country: US
 price: 
 repository: 
-issue: 
 icon: casascius.png
 bugbounty: 
 meta: defunct

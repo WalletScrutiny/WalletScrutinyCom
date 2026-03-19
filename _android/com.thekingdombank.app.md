@@ -13,7 +13,6 @@ version: 10.6.1
 reviews: 8
 website: https://thekingdombank.com
 repository: 
-issue: 
 icon: com.thekingdombank.app.png
 bugbounty: 
 meta: ok

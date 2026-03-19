@@ -12,7 +12,6 @@ version: '1.21'
 reviews: 
 website: http://pay4y.com#deadLink
 repository: 
-issue: 
 icon: com.gefarapay.png
 bugbounty: 
 meta: removed

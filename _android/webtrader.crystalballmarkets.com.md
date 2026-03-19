@@ -13,7 +13,6 @@ version: 8.0.0
 reviews: 45
 website: https://crystalballmarkets.com/
 repository: 
-issue: 
 icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
 meta: ok

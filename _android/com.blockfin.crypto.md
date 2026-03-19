@@ -12,7 +12,6 @@ version: 1.0.0
 reviews: 
 website: https://www.wallstbulls.ai#deadLink
 repository: 
-issue: 
 icon: com.blockfin.crypto.png
 bugbounty: 
 meta: removed

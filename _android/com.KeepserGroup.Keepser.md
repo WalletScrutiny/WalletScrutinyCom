@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 
 website: https://web.archive.org/web/20210918112918/https://www.keepser.io/
 repository: 
-issue: 
 icon: com.KeepserGroup.Keepser.png
 bugbounty: 
 meta: removed

@@ -12,7 +12,6 @@ version: '1.11'
 reviews: 
 website: http://appswedo.com
 repository: 
-issue: 
 icon: com.appswedo.cryptomakemoney.png
 bugbounty: 
 meta: removed

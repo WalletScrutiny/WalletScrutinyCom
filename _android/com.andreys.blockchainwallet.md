@@ -12,7 +12,6 @@ version: '21'
 reviews: 362
 website: 
 repository: 
-issue: 
 icon: com.andreys.blockchainwallet.png
 bugbounty: 
 meta: removed

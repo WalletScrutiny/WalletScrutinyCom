@@ -12,7 +12,6 @@ version: '1.0'
 reviews: 4
 website: https://stormprofit.trade#deadLink
 repository: 
-issue: 
 icon: com.stormprofit.stormprofit.png
 bugbounty: 
 meta: removed

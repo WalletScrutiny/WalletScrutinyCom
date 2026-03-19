@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: 
 repository: 
-issue: 
 icon: bittdog.com.png
 bugbounty: 
 meta: removed

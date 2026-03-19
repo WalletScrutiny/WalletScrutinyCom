@@ -13,7 +13,6 @@ version: 2.0.149
 reviews: 41
 website: https://quppy.com/
 repository: 
-issue: 
 icon: com.quppy.png
 bugbounty: 
 meta: ok

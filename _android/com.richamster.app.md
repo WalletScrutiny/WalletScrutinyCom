@@ -13,7 +13,6 @@ version: 3.2.2
 reviews: 
 website: https://richamster.com/
 repository: 
-issue: 
 icon: com.richamster.app.png
 bugbounty: 
 meta: removed

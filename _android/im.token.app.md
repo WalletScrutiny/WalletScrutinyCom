@@ -14,7 +14,6 @@ version: 2.18.1
 reviews: 240
 website: https://token.im
 repository: 
-issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.png
 bugbounty: 
 meta: ok
@@ -110,3 +109,5 @@ in an issue opened by our contributor [Emanuel](/authors/emanuel). It's
 
 So for now we conclude this app is closed source and therefore
 **not verifiable**.
+
+An issue has been opened at [https://github.com/consenlabs/token-core/issues/97](https://github.com/consenlabs/token-core/issues/97)

@@ -12,7 +12,6 @@ version: 0.4.19
 reviews: 
 website: https://www.whalechat.app
 repository: 
-issue: 
 icon: club.whalechat.app.png
 bugbounty: 
 meta: removed

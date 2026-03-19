@@ -12,7 +12,6 @@ version: '1.01'
 reviews: 
 website: https://thecryptoyo.com#deadLink
 repository: 
-issue: 
 icon: cryptowallets.n101.png
 bugbounty: 
 meta: removed

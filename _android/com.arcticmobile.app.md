@@ -13,7 +13,6 @@ version: '1.35'
 reviews: 1
 website: https://arcticwallet.io
 repository: 
-issue: 
 icon: com.arcticmobile.app.png
 bugbounty: 
 meta: stale

@@ -13,7 +13,6 @@ version: 0.8.5
 reviews: 14
 website: https://ledn.io
 repository: 
-issue: 
 icon: io.ledn.app.jpg
 bugbounty: 
 meta: removed

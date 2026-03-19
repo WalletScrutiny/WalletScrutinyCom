@@ -13,7 +13,6 @@ version: 1.5.78-investlite
 reviews: 100
 website: https://www.investlite.com/
 repository: 
-issue: 
 icon: com.investlite.png
 bugbounty: 
 meta: removed

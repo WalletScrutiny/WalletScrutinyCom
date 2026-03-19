@@ -13,7 +13,6 @@ version: 2.4.2
 reviews: 40
 website: https://lcx.com
 repository: 
-issue: 
 icon: com.lcx.app.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 7.0.0
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.numiner.nuwallet.png
 bugbounty: 
 meta: removed

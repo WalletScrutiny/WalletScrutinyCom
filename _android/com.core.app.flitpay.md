@@ -13,7 +13,6 @@ version: 1.0.66
 reviews: 2602
 website: https://www.flitpay.com/
 repository: 
-issue: 
 icon: com.core.app.flitpay.png
 bugbounty: 
 meta: ok

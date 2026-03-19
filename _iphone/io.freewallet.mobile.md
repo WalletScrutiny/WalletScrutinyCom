@@ -14,7 +14,6 @@ version: 1.0.9
 reviews: 38
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
-issue: 
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete

@@ -13,7 +13,6 @@ version: 0.1.9
 reviews: 29
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
-issue: https://github.com/jdogresorg/freewallet-mobile/issues/34
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete
@@ -61,3 +60,5 @@ since March 2019 but this looks like open source.
 
 Unfortunately there is no build instructions so we cannot reproduce the app and
 it remains **not verifiable**.
+
+An issue has been opened at [https://github.com/jdogresorg/freewallet-mobile/issues/34](https://github.com/jdogresorg/freewallet-mobile/issues/34)

@@ -13,7 +13,6 @@ version: '2.1'
 reviews: 0
 website: https://www.muda.exchange#deadLink
 repository: 
-issue: 
 icon: com.muda.exchange.jpg
 bugbounty: 
 meta: removed

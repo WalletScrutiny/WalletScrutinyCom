@@ -13,7 +13,6 @@ version: 1.0.3
 reviews: 42
 website: http://hot-labs.org/wallet
 repository: 
-issue: 
 icon: app.here.dev.wallet.jpg
 bugbounty: 
 meta: ok

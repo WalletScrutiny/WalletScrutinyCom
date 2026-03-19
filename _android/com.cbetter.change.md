@@ -12,7 +12,6 @@ version: 1.1.1
 reviews: 
 website: https://www.coinbetter.com#deadLink
 repository: 
-issue: 
 icon: com.cbetter.change.png
 bugbounty: 
 meta: removed

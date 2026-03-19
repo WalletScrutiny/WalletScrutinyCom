@@ -12,7 +12,6 @@ version: 3.0.0.2
 reviews: 
 website: https://omenda.com
 repository: 
-issue: 
 icon: com.omenda.binary.png
 bugbounty: 
 meta: removed

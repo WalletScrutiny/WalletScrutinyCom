@@ -13,7 +13,6 @@ version: '6.11'
 reviews: 4
 website: https://www.lpntoken.io
 repository: 
-issue: 
 icon: com.token.lpnt.png
 bugbounty: 
 meta: removed

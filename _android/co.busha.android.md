@@ -13,7 +13,6 @@ version: 10.1.3
 reviews: 212
 website: https://busha.co
 repository: 
-issue: 
 icon: co.busha.android.png
 bugbounty: 
 meta: ok

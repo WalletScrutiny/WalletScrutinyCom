@@ -13,7 +13,6 @@ version: 5.4.0
 reviews: 6
 website: https://banq.com
 repository: 
-issue: 
 icon: com.banqreactnative.png
 bugbounty: 
 meta: removed

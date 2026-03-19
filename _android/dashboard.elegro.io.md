@@ -12,7 +12,6 @@ version: 3.0.3
 reviews: 
 website: https://business.elegro.eu/acceptance#deadLink
 repository: 
-issue: 
 icon: dashboard.elegro.io.png
 bugbounty: 
 meta: removed

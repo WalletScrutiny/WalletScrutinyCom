@@ -14,7 +14,6 @@ version: 1.72.0
 reviews: 110
 website: https://ownrwallet.com
 repository: 
-issue: 
 icon: com.ownrwallet.wallet.png
 bugbounty: 
 meta: obsolete

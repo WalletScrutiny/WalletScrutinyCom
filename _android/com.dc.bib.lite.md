@@ -12,7 +12,6 @@ version: 1.2.9
 reviews: 8
 website: 
 repository: 
-issue: 
 icon: com.dc.bib.lite.png
 bugbounty: 
 meta: removed

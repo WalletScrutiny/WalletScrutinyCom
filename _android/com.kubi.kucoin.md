@@ -13,7 +13,6 @@ version: 4.18.0
 reviews: 5034
 website: https://www.kucoin.com
 repository: 
-issue: 
 icon: com.kubi.kucoin.jpg
 bugbounty: 
 meta: ok

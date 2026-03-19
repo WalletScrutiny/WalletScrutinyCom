@@ -13,7 +13,6 @@ version: 1.4.3
 reviews: 59
 website: 
 repository: 
-issue: 
 icon: com.ahd985.wedge.jpg
 bugbounty: 
 meta: removed

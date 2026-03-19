@@ -13,7 +13,6 @@ version: 4.24.6
 reviews: 
 website: https://www.cashierest.com
 repository: 
-issue: 
 icon: kr.co.newlinkcorp.cashierest.png
 bugbounty: 
 meta: removed

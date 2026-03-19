@@ -13,7 +13,6 @@ version: 1.4.9
 reviews: 
 website: https://dmexchange.com
 repository: 
-issue: 
 icon: co.digitalmoney.dmapp.png
 bugbounty: 
 meta: removed

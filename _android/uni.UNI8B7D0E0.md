@@ -12,7 +12,6 @@ version: 1.2.5
 reviews: 2
 website: https://www.vitatoken.io/
 repository: 
-issue: 
 icon: uni.UNI8B7D0E0.jpg
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '1'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.sdjaxx.wallet2sx.png
 bugbounty: 
 meta: removed

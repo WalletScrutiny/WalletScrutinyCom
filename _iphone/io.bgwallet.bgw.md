@@ -13,7 +13,6 @@ version: 0.3.7
 reviews: 0
 website: https://walletgo.ai/
 repository: 
-issue: 
 icon: io.bgwallet.bgw.jpg
 bugbounty: 
 meta: removed

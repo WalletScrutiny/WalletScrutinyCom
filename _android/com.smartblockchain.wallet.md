@@ -13,7 +13,6 @@ version: 2.5.0
 reviews: 33
 website: https://smartwallet.com
 repository: 
-issue: 
 icon: com.smartblockchain.wallet.png
 bugbounty: 
 meta: ok

@@ -12,7 +12,6 @@ version: 1.0.2
 reviews: 
 website: https://www.nguwallet.com#deadLink
 repository: 
-issue: 
 icon: com.vp.nguwallet.png
 bugbounty: 
 meta: removed

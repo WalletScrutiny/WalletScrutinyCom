@@ -13,7 +13,6 @@ version: 1.4.0
 reviews: 
 website: http://ryder.id
 repository: 
-issue: 
 icon: id.ryder.ryderone.png
 bugbounty: 
 meta: ok

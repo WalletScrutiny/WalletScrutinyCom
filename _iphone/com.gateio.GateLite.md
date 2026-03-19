@@ -13,7 +13,6 @@ version: 3.10.2
 reviews: 29
 website: 
 repository: 
-issue: 
 icon: com.gateio.GateLite.jpg
 bugbounty: 
 meta: removed

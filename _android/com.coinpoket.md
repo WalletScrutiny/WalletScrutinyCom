@@ -12,7 +12,6 @@ version: 1.0.3
 reviews: 
 website: https://www.coinpoket.com#deadLink
 repository: 
-issue: 
 icon: com.coinpoket.png
 bugbounty: 
 meta: removed

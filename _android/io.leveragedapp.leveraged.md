@@ -12,7 +12,6 @@ version: 1.0.6
 reviews: 8
 website: http://leveragedapp.io#deadLink
 repository: 
-issue: 
 icon: io.leveragedapp.leveraged.png
 bugbounty: 
 meta: removed

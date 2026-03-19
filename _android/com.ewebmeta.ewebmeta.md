@@ -13,7 +13,6 @@ version: 2.0.0
 reviews: 
 website: https://pera.cx
 repository: 
-issue: 
 icon: com.ewebmeta.ewebmeta.png
 bugbounty: 
 meta: removed

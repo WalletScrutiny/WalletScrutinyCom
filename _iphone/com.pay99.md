@@ -13,7 +13,6 @@ version: 8.4.32
 reviews: 1949
 website: 
 repository: 
-issue: 
 icon: com.pay99.jpg
 bugbounty: 
 meta: ok

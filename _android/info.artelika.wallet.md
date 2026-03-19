@@ -12,7 +12,6 @@ version: 1.0.7
 reviews: 
 website: http://artelika.com#deadLink
 repository: 
-issue: 
 icon: info.artelika.wallet.png
 bugbounty: 
 meta: removed

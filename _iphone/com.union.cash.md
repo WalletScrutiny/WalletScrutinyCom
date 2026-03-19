@@ -13,7 +13,6 @@ version: '1.40'
 reviews: 0
 website: https://union.cash
 repository: 
-issue: 
 icon: com.union.cash.jpg
 bugbounty: 
 meta: stale

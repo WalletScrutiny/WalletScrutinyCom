@@ -12,7 +12,6 @@ version: VARY
 reviews: 
 website: https://spruceid.dev/docs/credible
 repository: 
-issue: 
 icon: com.spruceid.app.credible.png
 bugbounty: 
 meta: removed

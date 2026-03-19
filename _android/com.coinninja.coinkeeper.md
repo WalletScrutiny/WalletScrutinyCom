@@ -12,7 +12,6 @@ version: 3.2.7
 reviews: 149
 website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
-issue: https://github.com/coinninjadev/dropbit-android/issues/2
 icon: com.coinninja.coinkeeper.png
 bugbounty: 
 meta: removed
@@ -49,3 +48,5 @@ on-chain bitcoin wallet. As all funds on the lightning side are locked up with
 no comment from the provider
 ([who apparently is in jail](https://www.reddit.com/r/DropBit/comments/fmgoad/sats_stuck_in_dropbit_lightning_side/)),
 we mark this wallet as defunct for now.
+
+An issue has been opened at [https://github.com/coinninjadev/dropbit-android/issues/2](https://github.com/coinninjadev/dropbit-android/issues/2)

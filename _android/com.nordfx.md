@@ -13,7 +13,6 @@ version: '15'
 reviews: 43
 website: http://nordfx.com
 repository: 
-issue: 
 icon: com.nordfx.png
 bugbounty: 
 meta: removed

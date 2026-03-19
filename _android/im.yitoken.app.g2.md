@@ -12,7 +12,6 @@ version: 1.3.5
 reviews: 
 website: https://yitoken.im#deadLink
 repository: 
-issue: 
 icon: im.yitoken.app.g2.png
 bugbounty: 
 meta: removed

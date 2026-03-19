@@ -14,7 +14,6 @@ version: 2.5.8
 reviews: 34
 website: 
 repository: https://github.com/Tactical-Advantage-Trading/wallet
-issue: 
 icon: com.btcontract.wallet.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 1
 website: https://www.wadzpay.com/
 repository: 
-issue: 
 icon: com.wadz.wadzapp.jpg
 bugbounty: 
 meta: removed

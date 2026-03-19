@@ -13,7 +13,6 @@ version: 6.3.9
 reviews: 228
 website: https://monnos.com
 repository: 
-issue: 
 icon: com.monnos.jpg
 bugbounty: 
 meta: removed

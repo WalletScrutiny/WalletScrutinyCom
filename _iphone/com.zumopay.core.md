@@ -13,7 +13,6 @@ version: 5.13.1
 reviews: 307
 website: https://app.zumo.tech
 repository: 
-issue: 
 icon: com.zumopay.core.jpg
 bugbounty: 
 meta: removed

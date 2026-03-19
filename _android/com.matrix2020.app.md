@@ -12,7 +12,6 @@ version: 1.6.0
 reviews: 
 website: https://matrix2020.com
 repository: 
-issue: 
 icon: com.matrix2020.app.jpg
 bugbounty: 
 meta: removed

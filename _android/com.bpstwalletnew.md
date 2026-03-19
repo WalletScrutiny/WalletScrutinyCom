@@ -12,7 +12,6 @@ version: 1.44.1
 reviews: 
 website: https://bps.money
 repository: 
-issue: 
 icon: com.bpstwalletnew.png
 bugbounty: 
 meta: removed

@@ -13,7 +13,6 @@ version: '5.0'
 reviews: 17
 website: https://fxwallet.info#deadLink
 repository: 
-issue: 
 icon: com.fxwallet.png
 bugbounty: 
 meta: removed

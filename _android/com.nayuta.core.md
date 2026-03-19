@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: https://nayuta.co/core#deadLink
 repository: https://github.com/nayutaco/NayutaCore
-issue: 
 icon: com.nayuta.core.png
 bugbounty: 
 meta: removed

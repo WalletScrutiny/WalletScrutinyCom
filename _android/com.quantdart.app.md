@@ -13,7 +13,6 @@ version: 1.1.25
 reviews: 
 website: https://www.quantdart.com/
 repository: 
-issue: 
 icon: com.quantdart.app.png
 bugbounty: 
 meta: removed

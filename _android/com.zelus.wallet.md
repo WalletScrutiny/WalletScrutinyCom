@@ -13,7 +13,6 @@ version: 1.5.3
 reviews: 37
 website: https://zelus.io/
 repository: 
-issue: 
 icon: com.zelus.wallet.png
 bugbounty: 
 meta: defunct

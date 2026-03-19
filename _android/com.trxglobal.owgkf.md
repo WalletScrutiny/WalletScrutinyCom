@@ -13,7 +13,6 @@ version: '1.3'
 reviews: 
 website: 
 repository: 
-issue: 
 icon: com.trxglobal.owgkf.png
 bugbounty: 
 meta: removed

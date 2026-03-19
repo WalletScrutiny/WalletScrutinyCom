@@ -17,7 +17,6 @@ shop:
 country: UK
 price: 
 repository: 
-issue: 
 icon: meek.png
 bugbounty: 
 meta: ok

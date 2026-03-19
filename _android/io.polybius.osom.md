@@ -13,7 +13,6 @@ version: 1.24.74
 reviews: 
 website: https://osom.finance
 repository: 
-issue: 
 icon: io.polybius.osom.png
 bugbounty: 
 meta: removed

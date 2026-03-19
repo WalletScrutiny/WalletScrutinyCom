@@ -13,7 +13,6 @@ version: 3.23.0
 reviews: 0
 website: https://www.aximetria.com/help#deadLink
 repository: 
-issue: 
 icon: com.aximetria.prod.jpg
 bugbounty: 
 meta: removed

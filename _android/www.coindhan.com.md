@@ -13,7 +13,6 @@ version: '1.0'
 reviews: 
 website: https://www.coindhan.com
 repository: 
-issue: 
 icon: www.coindhan.com.png
 bugbounty: 
 meta: removed

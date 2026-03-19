@@ -12,7 +12,6 @@ version: 1.44.1
 reviews: 
 website: https://nearpay.co#deadLink
 repository: 
-issue: 
 icon: co.nearpay.android.png
 bugbounty: 
 meta: removed

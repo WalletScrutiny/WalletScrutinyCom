@@ -13,7 +13,6 @@ version: '4.4'
 reviews: 73
 website: https://flitsnode.app
 repository: 
-issue: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
 meta: obsolete

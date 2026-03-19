@@ -13,7 +13,6 @@ version: 3.7.14
 reviews: 18
 website: http://www.mexo.io
 repository: 
-issue: 
 icon: io.mexo.app.png
 bugbounty: 
 meta: ok

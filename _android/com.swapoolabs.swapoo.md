@@ -13,7 +13,6 @@ version: 1.28.125
 reviews: 25
 website: 
 repository: 
-issue: 
 icon: com.swapoolabs.swapoo.png
 bugbounty: 
 meta: removed
