@@ -13,7 +13,6 @@ version: 1.6.21
 reviews: 0
 website: http://melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
-issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.jpg
 bugbounty: 
 meta: removed
@@ -40,3 +39,5 @@ developerName: Melis s.r.l.
 {% include featureEvidence.html feature="multiSig" source="[Website](http://melis.io)" quote="multi-signature accounts (N of M signatures)" %}
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/melis-wallet/melis-cm-client/issues/1](https://github.com/melis-wallet/melis-cm-client/issues/1)

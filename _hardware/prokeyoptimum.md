@@ -22,7 +22,6 @@ shop: https://prokey.io/prokey-optimum
 country: MY
 price: 59USD
 repository: https://github.com/prokey-io/prokey-optimum-firmware
-issue: https://github.com/prokey-io/prokey-optimum-firmware/issues/28
 icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
@@ -87,3 +86,5 @@ Sadly the device has a fundamental flaw when it comes to verifiability: It does
 not show which binary the user is about to update, at least judging by
 [this video](https://www.youtube.com/watch?v=pHWKXho0nLM). Without that, the
 firmware is **not verifiable**.
+
+An issue has been opened at [https://github.com/prokey-io/prokey-optimum-firmware/issues/28](https://github.com/prokey-io/prokey-optimum-firmware/issues/28)

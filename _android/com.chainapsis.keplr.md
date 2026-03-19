@@ -13,7 +13,6 @@ version: 2.1.165
 reviews: 203
 website: https://keplr.app
 repository: https://github.com/chainapsis/keplr-wallet
-issue: https://github.com/chainapsis/keplr-wallet/issues/1554
 icon: com.chainapsis.keplr.png
 bugbounty: 
 meta: ok
@@ -42,3 +41,4 @@ Keplr is a self-custodial, multichain crypto wallet for Android designed to supp
 
 After a comprehensive review of the official Keplr Wallet repository, we found no source code or build instructions for the Android app. The repository focuses on the browser extension and related JavaScript/TypeScript packages. Searches for Android, mobile, React Native, or Gradle files yielded no results, and attempts to initialize git submodules failed due to inaccessible private repositories. As a result, the Keplr Android app is **not source available** at the time of testing. For further details and to track any updates, see our public inquiry: [GitHub Issue #1554](https://github.com/chainapsis/keplr-wallet/issues/1554).
 
+An issue has been opened at [https://github.com/chainapsis/keplr-wallet/issues/1554](https://github.com/chainapsis/keplr-wallet/issues/1554)

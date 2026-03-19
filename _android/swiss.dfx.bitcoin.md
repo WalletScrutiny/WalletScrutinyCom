@@ -13,7 +13,6 @@ version: 2.0.3
 reviews: 
 website: https://dfx.swiss/
 repository: https://github.com/DFXswiss/btc-wallet
-issue: https://github.com/DFXswiss/btc-wallet/issues/167
 icon: swiss.dfx.bitcoin.png
 bugbounty: 
 meta: ok
@@ -66,3 +65,5 @@ This app is **source-available** and **for verification**.
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
 
 {% include featureEvidence.html feature="hd" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/DFXswiss/btc-wallet/issues/167](https://github.com/DFXswiss/btc-wallet/issues/167)

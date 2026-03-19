@@ -18,7 +18,6 @@ shop: https://shop.onekey.so/products/onekey-mini-hardware-wallet?variant=411690
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekeymini.png
 bugbounty: 
 meta: ok
@@ -134,3 +133,5 @@ Digging deeper into their User Service Agreement, we find this:
 The key word is "partial". Making the **source code only partially available** indicates that certain functions are not made public. This is noted in an [issue on OneKey's Github](https://github.com/OneKeyHQ/firmware/issues/17), but it has not received any attention.
 
 Whether it's a few lines of code that references a script downloaded from another source, users simply would not know.
+
+An issue has been opened at [https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406)

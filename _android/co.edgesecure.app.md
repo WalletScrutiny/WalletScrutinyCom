@@ -16,7 +16,6 @@ version: 4.44.0
 reviews: 742
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
-issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
 icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
@@ -50,3 +49,5 @@ Edge is a non-custodial, open-source mobile wallet supporting over 120 cryptocur
 {% include featureEvidence.html feature="foss" quote="BSD 3-Clause License Copyright (c) 2017, Airbitz Inc (dba Edge) All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:" source="GitHub README" %}
 
 {% include featureEvidence.html feature="tradeAlts" quote="Edge also includes built-in exchange functionality, allowing users to swap supported assets directly within the app." source="Edge – Technical Overview" %}
+
+An issue has been opened at [https://github.com/EdgeApp/edge-react-gui/issues/1748](https://github.com/EdgeApp/edge-react-gui/issues/1748)

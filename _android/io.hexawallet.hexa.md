@@ -13,7 +13,6 @@ version: 1.7.4
 reviews: 14
 website: https://hexawallet.io
 repository: https://github.com/bithyve/bitcointribe-classic
-issue: https://github.com/bithyve/bitcointribe-classic/issues/2544
 icon: io.hexawallet.hexa.png
 bugbounty: 
 meta: removed
@@ -81,3 +80,5 @@ Done in 132.25s.
 and as the above is only the good guesses out of 35 commands typed so far, this
 is where we give up and consider the app **not verifiable** due to lacking build
 instructions.
+
+An issue has been opened at [https://github.com/bithyve/bitcointribe-classic/issues/2544](https://github.com/bithyve/bitcointribe-classic/issues/2544)

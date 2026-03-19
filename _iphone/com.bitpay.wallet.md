@@ -14,7 +14,6 @@ version: 14.39.15
 reviews: 3422
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
-issue: https://github.com/bitpay/bitpay-app/issues/686
 icon: com.bitpay.wallet.jpg
 bugbounty: 
 meta: ok
@@ -32,3 +31,5 @@ developerName: BitPay, Inc.
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/bitpay/bitpay-app/issues/686](https://github.com/bitpay/bitpay-app/issues/686)

@@ -22,7 +22,6 @@ shop: https://shop.hyperpay.tech/products/crypto-hardware-wallet-hypermate-g
 country: HK
 price: 129USD
 repository: https://github.com/hyperpayorg/hardwallet
-issue: https://github.com/hyperpayorg/hardwallet/issues/4
 icon: hypermateg.png
 bugbounty: 
 meta: ok
@@ -91,3 +90,5 @@ After setting up the hardware wallet, you can create a wallet and set a PIN. Aft
 {% include featureEvidence.html feature="secEl" quote="CC EAL 6+ graded secure element" source="Website" %}
 
 {% include featureEvidence.html feature="multiSig" quote="Hardware-Level MultiSig Support" source="Website" %}
+
+An issue has been opened at [https://github.com/hyperpayorg/hardwallet/issues/4](https://github.com/hyperpayorg/hardwallet/issues/4)

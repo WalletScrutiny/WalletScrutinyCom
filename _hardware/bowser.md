@@ -17,7 +17,6 @@ shop:
 country: 
 price: 
 repository: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet
-issue: https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13
 icon: bowser.png
 bugbounty: 
 meta: ok
@@ -67,4 +66,6 @@ Yes, but ... as can be seen in their
 
 ## Is it reproducible?
 
-Bowser is a **diy-project**. 
+Bowser is a **diy-project**.
+
+An issue has been opened at [https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13](https://github.com/arcbtc/bowser-bitcoin-hardware-wallet/issues/13)

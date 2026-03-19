@@ -22,7 +22,6 @@ shop: https://shapeshift.com/keepkey#deadLink
 country: US
 price: 49USD
 repository: https://github.com/keepkey/keepkey-firmware
-issue: https://github.com/keepkey/keepkey-firmware/issues/342
 icon: keepKey.png
 bugbounty: 
 meta: ok
@@ -76,3 +75,5 @@ they also clarify:
 This device is **source available**.
 
 {% include featureEvidence.html feature="foss" quote="If license is not specified in the header of a file, it can be assumed that it is licensed under LGPLv3." source="GitHub README" comment="LGPLv3 is an OSI-approved FOSS license. The README confirms the default license is LGPLv3 with no Commons Clause or commercial-use restrictions mentioned." %}
+
+An issue has been opened at [https://github.com/keepkey/keepkey-firmware/issues/342](https://github.com/keepkey/keepkey-firmware/issues/342)

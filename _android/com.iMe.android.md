@@ -13,7 +13,6 @@ version: 12.3.3
 reviews: 797
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
-issue: https://github.com/imemessenger/iMe-Android/issues/10
 icon: com.iMe.android.png
 bugbounty: 
 meta: ok
@@ -49,3 +48,5 @@ features:
 - The app isn’t directly labeled as Open Source, but there is a [GitHub link](https://github.com/imemessenger/iMe-Android) on their page.
 - The repository hasn’t been updated in 4 years, so it doesn’t qualify as source-available. 
 - We opened an [issue](https://github.com/imemessenger/iMe-Android/issues/10) to inquire about the app's current status.
+
+An issue has been opened at [https://github.com/imemessenger/iMe-Android/issues/10](https://github.com/imemessenger/iMe-Android/issues/10)

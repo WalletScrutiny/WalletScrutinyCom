@@ -14,7 +14,6 @@ version: VARY
 reviews: 
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android
-issue: https://github.com/inbitcoin/altana-android/issues/5
 icon: it.inbitcoin.altana.png
 bugbounty: 
 meta: removed
@@ -54,3 +53,5 @@ Emanuel also managed to build the wallet but with plenty of differences to the
 version from Google Play. Until those are resolved, the app is
 **not verifiable**. Check [the issue](https://github.com/inbitcoin/altana-android/issues/1)
 for details.
+
+An issue has been opened at [https://github.com/inbitcoin/altana-android/issues/5](https://github.com/inbitcoin/altana-android/issues/5)

@@ -13,7 +13,6 @@ version: v1.10.43
 reviews: 223
 website: 
 repository: https://github.com/cosmostation/cosmostation-ios
-issue: https://github.com/cosmostation/cosmostation-android/issues/729
 icon: io.wannabit.cosmostation.jpg
 bugbounty: 
 meta: ok
@@ -43,3 +42,5 @@ developerName: Stamper Co., Ltd.
 {% include featureEvidence.html feature="hd" quote="Every integration follows either the BIP44 HD path standard or the official specification of each chain." source="Store" %}
 
 {% include featureEvidence.html feature="foss" quote="Licensed under the MIT." source="GitHub README" %}
+
+An issue has been opened at [https://github.com/cosmostation/cosmostation-android/issues/729](https://github.com/cosmostation/cosmostation-android/issues/729)

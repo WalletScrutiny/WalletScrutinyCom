@@ -14,7 +14,6 @@ version: '1.1'
 reviews: 17
 website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
-issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg
 bugbounty: 
 meta: removed
@@ -34,3 +33,5 @@ developerName:
 **Update 2021-09-11**: This app is not on the App Store anymore.
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](https://github.com/coincasso/ccwallet/issues/1)

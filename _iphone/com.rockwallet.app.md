@@ -13,7 +13,6 @@ version: 5.17.8
 reviews: 725
 website: https://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-ios#deadLink
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
@@ -38,3 +37,5 @@ developerName: RockWallet, LLC
 {% include featureEvidence.html feature="tradeAlts" quote="swap and store top digital assets like BTC, ETH, BSV, XRP and many more" source="Store" %}
 
 {% include featureEvidence.html feature="buyWithCC" quote="Purchase digital assets with your debit or credit card right from your mobile device" source="Store" %}
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498)

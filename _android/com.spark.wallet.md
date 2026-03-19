@@ -14,7 +14,6 @@ version: 0.3.1
 reviews: 1
 website: https://github.com/shesek/spark-wallet
 repository: https://github.com/shesek/spark-wallet
-issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
 meta: removed
@@ -106,3 +105,5 @@ Ok. That was not successful. Dependencies can go away and reproduction might
 succeed with a newer version of this now unavailable dependency. We will wait
 for the provider to figure out if the reproducible build still works after a
 short fix and consider the app in the meantime as **not verifiable**.
+
+An issue has been opened at [https://github.com/shesek/spark-wallet/issues/192](https://github.com/shesek/spark-wallet/issues/192)

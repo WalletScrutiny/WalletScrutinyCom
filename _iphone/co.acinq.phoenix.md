@@ -14,7 +14,6 @@ version: 2.7.4
 reviews: 20
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix-kmm
-issue: https://github.com/ACINQ/phoenix/issues/112
 icon: co.acinq.phoenix.jpg
 bugbounty: 
 meta: ok
@@ -34,3 +33,5 @@ developerName: ACINQ
 {% include featureEvidence.html feature="foss" source="[App Store](https://apps.apple.com/app/co.acinq.phoenix)" quote="Phoenix is a non-custodial wallet, and is fully open source." %}
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/ACINQ/phoenix/issues/112](https://github.com/ACINQ/phoenix/issues/112)

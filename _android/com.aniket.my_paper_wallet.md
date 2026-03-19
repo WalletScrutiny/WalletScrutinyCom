@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 
 website: 
 repository: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet
-issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1
 icon: com.aniket.my_paper_wallet.png
 bugbounty: 
 meta: removed
@@ -103,4 +102,4 @@ Execution failed for task ':app:compileFlutterBuildRelease'.
 > Process 'command '/home/appuser/app/sdk/flutter/bin/flutter'' finished with non-zero exit value 1
 ```
 
-
+An issue has been opened at [https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1](https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1)

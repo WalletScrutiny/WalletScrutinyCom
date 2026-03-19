@@ -12,7 +12,6 @@ provider: ACINQ
 providerWebsite: https://acinq.co/
 website: https://phoenix.acinq.co/server
 repository: https://github.com/ACINQ/phoenixd
-issue: https://github.com/ACINQ/phoenixd/issues
 icon: phoenixd.png
 bugbounty: 
 meta: ok
@@ -40,3 +39,5 @@ We cloned `https://github.com/ACINQ/phoenixd`, switched to tag `v0.7.1`, and bui
 This program is source-available and **for verification**.
 
 {% include featureEvidence.html feature="foss" quote="[](LICENSE)" source="GitHub README" comment="The README badge links to a LICENSE file. However, the License source returned 404: Not Found, so the actual license text cannot be confirmed as OSI-approved. Cannot verify FOSS status — omitting per conservative rules." %}
+
+An issue has been opened at [https://github.com/ACINQ/phoenixd/issues](https://github.com/ACINQ/phoenixd/issues)

@@ -14,7 +14,6 @@ version: 0.4.1
 reviews: 19
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
-issue: https://github.com/AquaWallet/aqua-wallet/issues/9
 icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
@@ -114,3 +113,5 @@ and thus, now
 {% include featureEvidence.html feature="tradeAlts" quote="AQUA enables support for Tether USDt native on Liquid and across the most popular USDt chains." source="Website" comment="FAQ confirms swaps via SideShift: 'USDt transfers via Tron or Ethereum, which depend on SideShift's liquidity'" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/AquaWallet/aqua-wallet/issues/9](https://github.com/AquaWallet/aqua-wallet/issues/9)

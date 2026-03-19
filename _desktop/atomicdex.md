@@ -12,7 +12,6 @@ provider: KomodoPlatform
 providerWebsite: https://komodoplatform.com/
 website: https://atomicdex.io/
 repository: https://github.com/KomodoPlatform/komodo-wallet-desktop
-issue: https://github.com/KomodoPlatform/komodo-wallet-desktop/issues/35
 icon: atomicdex.png
 bugbounty: 
 meta: deprecated
@@ -39,3 +38,5 @@ The source code is public on GitHub, but the `KomodoPlatform/komodo-wallet-deskt
 Komodo announced in December 12, 2025, that Gleec acquired the full Komodo Platform technology stack, brand, online assets, token infrastructure, and core team (https://komodoplatform.com/en/blog/gleec-acquires-komodo-ecosystem/). This places Komodo's wallet technology and roadmap within Gleec's ecosystem, which is relevant context for any future distribution or maintenance of the desktop wallet. 
 
 We are marking this as **deprecated.**
+
+An issue has been opened at [https://github.com/KomodoPlatform/komodo-wallet-desktop/issues/35](https://github.com/KomodoPlatform/komodo-wallet-desktop/issues/35)

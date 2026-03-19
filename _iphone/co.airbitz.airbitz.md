@@ -13,7 +13,6 @@ version: 2.4.12
 reviews: 82
 website: http://airbitz.co
 repository: https://github.com/EdgeApp/airbitz-android-gui
-issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
 icon: co.airbitz.airbitz.jpg
 bugbounty: 
 meta: obsolete
@@ -29,3 +28,5 @@ developerName: Airbitz Inc
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/EdgeApp/airbitz-android-gui/issues/21](https://github.com/EdgeApp/airbitz-android-gui/issues/21)

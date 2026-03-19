@@ -13,7 +13,6 @@ version: 0.22.1
 reviews: 9
 website: https://deploystarship.com
 repository: https://github.com/deploystarship/StarBase_android
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477
 icon: com.starbase.wallet.jpg
 bugbounty: 
 meta: removed
@@ -43,3 +42,5 @@ features:
 - The app provided the mnemonic phrase and even individual private key backup for every coin it supports. This includes Bitcoin. 
 - It claims to be Open Source, but there is no link from its website to a repository. We found the possible [repository](https://github.com/deploystarship/StarBase_android) nonetheless.
 - This app is for verification.
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477)

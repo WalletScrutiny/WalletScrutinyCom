@@ -14,7 +14,6 @@ version: 2.2.2
 reviews: 440
 website: https://nunchuk.io
 repository: 
-issue: https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5
 icon: io.nunchuk.ios.jpg
 bugbounty: 
 meta: ok
@@ -47,3 +46,5 @@ for source for the iPhone version.
 {% include featureEvidence.html feature="coinCtrl" quote="Utilize advanced coin control for organization and privacy." source="Store description" %}
 
 {% include featureEvidence.html feature="ownFullNode" quote="Connect to your own full node." source="Store description" %}
+
+An issue has been opened at [https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5](https://github.com/nunchuk-io/nunchuk-mobile-issues/issues/5)

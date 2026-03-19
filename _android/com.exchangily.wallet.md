@@ -14,7 +14,6 @@ version: 2.2.106
 reviews: 6
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
-issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.wallet.png
 bugbounty: 
 meta: obsolete
@@ -54,3 +53,5 @@ Notably their website does not link to this Play Store app!
 But unfortunately there are no build instructions and
 [Emanuel failed to build it](https://github.com/blockchaingate/exchangily-mobile-app/issues/1)
 and I have no further ideas to make it build after all. This app is **not verifiable**.
+
+An issue has been opened at [https://github.com/blockchaingate/exchangily-mobile-app/issues/1](https://github.com/blockchaingate/exchangily-mobile-app/issues/1)

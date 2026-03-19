@@ -13,7 +13,6 @@ version: 1.8.6
 reviews: 5
 website: https://ecoinwallet.org
 repository: https://github.com/ecoin-finance/ecoinwallet
-issue: https://github.com/ecoin-finance/ecoinwallet/issues/1
 icon: org.ecoinwallet.png
 bugbounty: 
 meta: ok
@@ -64,3 +63,5 @@ A 24-word seed phrase was provided which we successfully exported to Electrum de
 {% include featureEvidence.html feature="secEl" quote="Modern Android devices equipped with a dedicated Secure Element (SE) chip feature their own CPU, dedicated RAM, and secure storage, ensuring sensitive information remains protected against threats." source="Website" %}
 
 {% include featureEvidence.html feature="customNode" quote="Custom RPCs: Switch between auto and manual nodes, or enter a custom for greater control." source="Website" %}
+
+An issue has been opened at [https://github.com/ecoin-finance/ecoinwallet/issues/1](https://github.com/ecoin-finance/ecoinwallet/issues/1)

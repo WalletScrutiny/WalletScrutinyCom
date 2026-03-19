@@ -13,7 +13,6 @@ version: 1.26.0 (5)
 reviews: 116
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
-issue: https://github.com/krakenfx/wallet/discussions/59
 icon: com.kraken.superwallet.png
 bugbounty: 
 meta: ok
@@ -58,3 +57,5 @@ The wallet is **source-available** and should be verified using Nostr verificati
 {% include featureEvidence.html feature="hd" quote="Import Wallets (BIP39 standard)" source="GitHub README" %}
 
 {% include featureEvidence.html feature="fingerprint" quote="Data encryption using password and/or biometrics" source="GitHub README" %}
+
+An issue has been opened at [https://github.com/krakenfx/wallet/discussions/59](https://github.com/krakenfx/wallet/discussions/59)

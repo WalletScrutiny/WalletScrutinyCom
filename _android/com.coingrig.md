@@ -13,7 +13,6 @@ version: 1.3.11
 reviews: 
 website: https://coingrig.com
 repository: https://github.com/coingrig/coingrig-wallet
-issue: https://github.com/coingrig/coingrig-wallet/issues/22
 icon: com.coingrig.png
 bugbounty: 
 meta: removed
@@ -58,3 +57,5 @@ We installed the app and found that it supports sending and receiving BTC as wel
 There is an option to back up the seed phrases.
 
 This app is [for verification](https://github.com/coingrig/coingrig-wallet/issues/22).
+
+An issue has been opened at [https://github.com/coingrig/coingrig-wallet/issues/22](https://github.com/coingrig/coingrig-wallet/issues/22)

@@ -13,7 +13,6 @@ version: 2.0.1
 reviews: 5
 website: https://iovlabs.org/
 repository: https://github.com/rsksmart/rwallet
-issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
 meta: removed
@@ -31,3 +30,5 @@ developerName: IOV Labs S.A
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/rsksmart/rwallet/issues/726](https://github.com/rsksmart/rwallet/issues/726)

@@ -20,7 +20,6 @@ shop: https://www.cardwarewallet.com/btcproducts
 country: ZA
 price: 77USD
 repository: https://github.com/cardware-wallet/cardware-hardware
-issue: https://github.com/cardware-wallet/cardware-hardware/issues/1
 icon: cardware.png
 bugbounty: 
 meta: ok
@@ -102,3 +101,5 @@ We filed an [issue](https://github.com/cardware-wallet/cardware-hardware/issues/
 {% include featureEvidence.html feature="camera" quote="Transaction Signing: Secure transaction signing via QR codes while keeping private keys isolated." source="Device Description" %}
 
 {% include featureEvidence.html feature="airGapped" quote="Air-Gapped Security: 100% air-gapped device with no internet, Bluetooth, or Wi-Fi connectivity, operating completely offline." source="Device Description" %}
+
+An issue has been opened at [https://github.com/cardware-wallet/cardware-hardware/issues/1](https://github.com/cardware-wallet/cardware-hardware/issues/1)

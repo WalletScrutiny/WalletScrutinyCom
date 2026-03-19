@@ -13,7 +13,6 @@ version: 1.5.5
 reviews: 3
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
-issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
 meta: removed
@@ -87,3 +86,5 @@ non-deterministic because of Apple?
 
 For now we consider this app **not verifiable** and hope to see the issues
 resolved soon.
+
+An issue has been opened at [https://github.com/COINiD/COINiDVault/issues/14](https://github.com/COINiD/COINiDVault/issues/14)

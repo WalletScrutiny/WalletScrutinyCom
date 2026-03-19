@@ -12,7 +12,6 @@ provider: Nunchuk Inc.
 providerWebsite: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-desktop
-issue: https://github.com/nunchuk-io/nunchuk-desktop/issues/86
 icon: nunchuk.png
 bugbounty: 
 meta: ok
@@ -56,3 +55,5 @@ It is also source-available and **for verification**
 {% include featureEvidence.html feature="coinCtrl" quote="It features multisig, group wallets, coin control and hardware support." source="Store" %}
 
 {% include featureEvidence.html feature="foss" quote="GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007" source="License" %}
+
+An issue has been opened at [https://github.com/nunchuk-io/nunchuk-desktop/issues/86](https://github.com/nunchuk-io/nunchuk-desktop/issues/86)

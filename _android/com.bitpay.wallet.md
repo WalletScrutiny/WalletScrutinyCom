@@ -16,7 +16,6 @@ version: 14.39.17
 reviews: 2293
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
-issue: https://github.com/bitpay/bitpay-app/issues/1431
 icon: com.bitpay.wallet.png
 bugbounty: https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
@@ -53,3 +52,5 @@ Copay has a
 {% include featureEvidence.html feature="foss" quote="The MIT License (MIT) Copyright (c) 2014-2023 BitPay, Inc. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
 
 {% include featureEvidence.html feature="ln" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/bitpay/bitpay-app/issues/1431](https://github.com/bitpay/bitpay-app/issues/1431)

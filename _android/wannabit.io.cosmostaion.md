@@ -13,7 +13,6 @@ version: 1.10.47
 reviews: 137
 website: https://cosmostation.io
 repository: https://github.com/cosmostation/cosmostation-android
-issue: https://github.com/cosmostation/cosmostation-android/issues/729
 icon: wannabit.io.cosmostaion.png
 bugbounty: 
 meta: ok
@@ -71,3 +70,5 @@ This app is **sourceavailable** and **for verification**.
 {% include featureEvidence.html feature="hd" quote="follows BIP44 HD standards or official chain specifications, including support for Bitcoin Taproot, Native SegWit, SegWit, and Legacy addresses" source="App Description" %}
 
 {% include featureEvidence.html feature="foss" quote="Licensed under the MIT." source="GitHub README" %}
+
+An issue has been opened at [https://github.com/cosmostation/cosmostation-android/issues/729](https://github.com/cosmostation/cosmostation-android/issues/729)

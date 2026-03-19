@@ -15,7 +15,6 @@ version: 0.9.2
 reviews: 9
 website: https://atomicdex.io
 repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
-issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157
 icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: removed
@@ -62,3 +61,4 @@ The web version is available [here](https://app.komodoplatform.com/wallet).
 - We found the [repository](https://github.com/KomodoPlatform/komodo-wallet-mobile) for the mobile app.
 - This app is **source available**.
 
+An issue has been opened at [https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157](https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157)

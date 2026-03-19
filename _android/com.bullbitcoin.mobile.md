@@ -13,7 +13,6 @@ version: 6.5.2
 reviews: 5
 website: http://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
-issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326
 icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
@@ -83,3 +82,5 @@ features:
 {% include featureEvidence.html feature="foss" quote="MIT License Copyright (c) 2023 Satoshi Portal Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software" source="GitHub README" %}
 
 {% include featureEvidence.html feature="nfc" quote="Users can import watch-only wallets via QR code, copy-pasting an Xpub/Ypub/Zpub, uploading a Coldcard file or via NFC (for Coldcard)." source="GitHub README" %}
+
+An issue has been opened at [https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326](https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326)

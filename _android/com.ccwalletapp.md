@@ -14,7 +14,6 @@ version: 1.3.1
 reviews: 70
 website: https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
-issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png
 bugbounty: 
 meta: removed
@@ -168,3 +167,5 @@ would automatically get compiled into the wallet. Lastly it's also problematic
 because the build instructions might change.
 
 In summary, this app is **not verifiable**.
+
+An issue has been opened at [https://github.com/coincasso/ccwallet/issues/1](https://github.com/coincasso/ccwallet/issues/1)

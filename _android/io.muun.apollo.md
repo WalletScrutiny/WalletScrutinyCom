@@ -15,7 +15,6 @@ version: '55.6'
 reviews: 228
 website: https://muun.com
 repository: https://github.com/muun/apollo
-issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
@@ -52,3 +51,5 @@ This app is **source available**.
 {% include featureEvidence.html feature="taproot" quote="The wallet includes Bech32 address support, taproot compatibility, and fee selection options." source="App Description" %}
 
 {% include featureEvidence.html feature="multiSig" quote="Muun is a self-custodial Bitcoin and Lightning Network wallet for Android, featuring a 2-of-2 multi-signature model that enhances security by storing only one key on the device and providing the other in an exportable Emergency Kit." source="App Description" %}
+
+An issue has been opened at [https://github.com/muun/apollo/issues/54](https://github.com/muun/apollo/issues/54)

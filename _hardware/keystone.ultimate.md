@@ -17,7 +17,6 @@ shop: https://shop.keyst.one/products/keystone-ultimate#deadLink
 country: HK
 price: 479USD
 repository: https://github.com/KeystoneHQ/Keystone-cold-app
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380
 icon: keystone.ultimate.png
 bugbounty: 
 meta: ok
@@ -51,3 +50,5 @@ This product is currently out of stock.
 {% include featureEvidence.html feature="camera" quote="Interaction with the mobile application Keystone companion app via QR code." source="GitHub README" %}
 
 {% include featureEvidence.html feature="airGapped" quote="Keystone is an air-gapped, open source hardware wallet that uses completely transparent QR code data transmissions." source="GitHub README" %}
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/380)

@@ -13,7 +13,6 @@ version: 0.4.8
 reviews: 61
 website: http://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet#deadLink
-issue: https://github.com/btcontract/lnwallet/issues/20#deadLink
 icon: com.lightning.walletapp.png
 bugbounty: 
 meta: removed
@@ -138,3 +137,5 @@ So if there is a good reason for using an old gradle version (2.3 is from
 
 Sadly we again fail to compile due to lack of sufficiently clear build
 instructions and come to the verdict **not verifiable**.
+
+An issue has been opened at [https://github.com/btcontract/lnwallet/issues/20#deadLink](https://github.com/btcontract/lnwallet/issues/20#deadLink)

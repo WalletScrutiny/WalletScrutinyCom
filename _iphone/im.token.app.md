@@ -13,7 +13,6 @@ version: 2.18.0
 reviews: 1087
 website: https://token.im
 repository: 
-issue: https://github.com/consenlabs/token-core/issues/97
 icon: im.token.app.jpg
 bugbounty: 
 meta: ok
@@ -104,3 +103,5 @@ So for now we conclude this app is closed source and therefore
 {% include featureEvidence.html feature="fingerprint" quote="Comprehensive security features including offline storage, hardware wallets, pin codes, biometrics and more." source="Store" %}
 
 {% include featureEvidence.html feature="multiAccount" quote="Easily generate and manage up to 100 accounts, with the flexibility to add, delete, and customize tags for each account." source="Store" %}
+
+An issue has been opened at [https://github.com/consenlabs/token-core/issues/97](https://github.com/consenlabs/token-core/issues/97)

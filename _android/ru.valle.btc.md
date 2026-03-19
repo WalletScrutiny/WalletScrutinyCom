@@ -13,7 +13,6 @@ version: VARY
 reviews: 17
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
-issue: https://github.com/ValleZ/Paper-Wallet/issues/42
 icon: ru.valle.btc.png
 bugbounty: 
 meta: removed
@@ -182,3 +181,5 @@ of App Bundle can be detected in `META-INF/MANIFEST.MF`:
 $ cat fromGoogle/original/META-INF/MANIFEST.MF | grep Built-By
 Built-By: BundleTool
 ```
+
+An issue has been opened at [https://github.com/ValleZ/Paper-Wallet/issues/42](https://github.com/ValleZ/Paper-Wallet/issues/42)

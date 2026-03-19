@@ -13,7 +13,6 @@ version: Varies with device
 reviews: 
 website: http://www.shangoapp.com
 repository: 
-issue: https://github.com/neogeno/shango-lightning-wallet/issues/84
 icon: com.shango.png
 bugbounty: 
 meta: removed
@@ -67,3 +66,5 @@ but there we see some 20 files that are definitely not an Android app and no
 activity in over a year.
 
 This app is for all we can see closed source and thus **not verifiable**.
+
+An issue has been opened at [https://github.com/neogeno/shango-lightning-wallet/issues/84](https://github.com/neogeno/shango-lightning-wallet/issues/84)

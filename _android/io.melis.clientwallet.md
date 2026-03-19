@@ -13,7 +13,6 @@ version: 1.6.24
 reviews: 
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
-issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
 meta: removed
@@ -147,3 +146,5 @@ as a git submodule.
 
 We are looking forward to finally reproducing a build but for now remain with
 the verdict: **not verifiable**.
+
+An issue has been opened at [https://github.com/melis-wallet/melis-cm-client/issues/1](https://github.com/melis-wallet/melis-cm-client/issues/1)

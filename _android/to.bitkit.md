@@ -15,7 +15,6 @@ version: 2.0.3
 reviews: 3
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
-issue: https://github.com/synonymdev/bitkit/issues/2414#deadLink
 icon: to.bitkit.png
 bugbounty: 
 meta: ok
@@ -149,3 +148,5 @@ With all the diffs, this binary is **not verifiable**.
 {% include featureEvidence.html feature="foss" quote="This project is licensed under the MIT License." source="GitHub README" %}
 
 {% include featureEvidence.html feature="segwit" quote="The app has a Bech32 BTC address" source="Analysis" %}
+
+An issue has been opened at [https://github.com/synonymdev/bitkit/issues/2414#deadLink](https://github.com/synonymdev/bitkit/issues/2414#deadLink)

@@ -13,7 +13,6 @@ version: v0.12.2
 reviews: 70
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
-issue: https://github.com/ZeusLN/zeus/issues/416
 icon: com.zeusln.zeus.jpg
 bugbounty: 
 meta: ok
@@ -73,3 +72,5 @@ unresolved issue which leaves this app to be open source but still
 {% include featureEvidence.html feature="batching" quote="Batch on-chain transactions" source="GitHub README" %}
 
 {% include featureEvidence.html feature="multiAccount" quote="Manage multiple lightning nodes at once" source="GitHub README" %}
+
+An issue has been opened at [https://github.com/ZeusLN/zeus/issues/416](https://github.com/ZeusLN/zeus/issues/416)

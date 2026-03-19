@@ -14,7 +14,6 @@ version: 2.2.6
 reviews: 6
 website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy
-issue: https://github.com/Foundation-Devices/envoy/issues/1395
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
@@ -77,3 +76,5 @@ A blog post states that this is not an ordinary "companion app", it is a fully-c
 {% include featureEvidence.html feature="companion" quote="Use Envoy alongside your Passport hardware wallet for setup, firmware updates, and more." source="Store" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/Foundation-Devices/envoy/issues/1395](https://github.com/Foundation-Devices/envoy/issues/1395)

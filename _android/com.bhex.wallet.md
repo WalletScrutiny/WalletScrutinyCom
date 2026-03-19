@@ -15,7 +15,6 @@ version: 1.3.5
 reviews: 4
 website: https://www.bhexchain.com#deadLink
 repository: 
-issue: https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink
 icon: com.bhex.wallet.png
 bugbounty: 
 meta: removed
@@ -77,3 +76,4 @@ This is a **self-custodial** app. The website has linked to a [repository](https
 
 We await further information before we can make a verdict.
 
+An issue has been opened at [https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink](https://github.com/bluehelix-chain/wallet-android/issues/4#deadLink)

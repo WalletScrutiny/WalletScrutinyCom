@@ -13,7 +13,6 @@ version: 4.18.0
 reviews: 1433
 website: https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
-issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg
 bugbounty: 
 meta: removed
@@ -134,3 +133,5 @@ Our verdict
 
 We conclude that we hope for a quick resolution of the issues but for now
 this wallet remains **not verifiable**.
+
+An issue has been opened at [https://github.com/breadwallet/brd-mobile/issues/13](https://github.com/breadwallet/brd-mobile/issues/13)

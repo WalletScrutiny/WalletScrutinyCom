@@ -16,7 +16,6 @@ version: 4.7.1
 reviews: 364
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
@@ -66,3 +65,5 @@ For developers and security researchers, Electrum provides extensive documentati
 {% include featureEvidence.html feature="customNode" quote="How to run your own Electrum server: Install Guide" source="Website" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/spesmilo/electrum/issues/8838](https://github.com/spesmilo/electrum/issues/8838)

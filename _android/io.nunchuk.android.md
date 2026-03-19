@@ -16,7 +16,6 @@ version: 2.2.8
 reviews: 40
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android
-issue: https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
@@ -68,3 +67,5 @@ The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-andr
 {% include featureEvidence.html feature="coinCtrl" quote="Additional capabilities include advanced coin control for managing transaction inputs, tagging, and filtering coins" source="App Description" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936](https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2723364936)

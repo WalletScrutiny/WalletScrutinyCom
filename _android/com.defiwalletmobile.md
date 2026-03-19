@@ -14,7 +14,6 @@ version: 1.26.2
 reviews: 133
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
-issue: https://github.com/SlvLabs/slavi-wallet/issues/8
 icon: com.defiwalletmobile.png
 bugbounty: 
 meta: stale
@@ -86,3 +85,5 @@ The build for the Slavi Wallet was unsuccessful due to issues with npm install. 
 We tried reaching out to the [developers on GitHub](https://github.com/SlvLabs/slavi-wallet/issues/6), but they have not responded. 
 
 The build instructions were very sparse, resulting in a lot of guess work on how the dockerfile was built. This did not result in a completed build. With no tags and releases, there is no way this app can be reproduced. This app is **non-verifiable**.
+
+An issue has been opened at [https://github.com/SlvLabs/slavi-wallet/issues/8](https://github.com/SlvLabs/slavi-wallet/issues/8)

@@ -14,7 +14,6 @@ version: 2.4.4
 reviews: 13
 website: 
 repository: https://github.com/cypherstack/stack_wallet/tags
-issue: https://github.com/cypherstack/stack_wallet/issues/984
 icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
@@ -92,3 +91,5 @@ The Stack Wallet build was not successful due to the failure of the `build_app.s
 {% include featureEvidence.html feature="customNode" quote="Custom Nodes." source="Store" %}
 
 {% include featureEvidence.html feature="tradeAlts" quote="Trading cryptocurrencies through our partners." source="Store" %}
+
+An issue has been opened at [https://github.com/cypherstack/stack_wallet/issues/984](https://github.com/cypherstack/stack_wallet/issues/984)

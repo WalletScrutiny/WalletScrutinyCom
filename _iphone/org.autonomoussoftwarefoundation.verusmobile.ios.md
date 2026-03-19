@@ -13,7 +13,6 @@ version: 1.0.34
 reviews: 19
 website: https://verus.io
 repository: https://github.com/VerusCoin/Verus-Mobile
-issue: https://github.com/VerusCoin/Verus-Mobile/issues/207
 icon: org.autonomoussoftwarefoundation.verusmobile.ios.jpg
 bugbounty: 
 meta: ok
@@ -40,3 +39,5 @@ developerName: Autonomous Software Foundation
 {% include featureEvidence.html feature="camera" quote="Camera and Audio access: The Verus Mobile application's VerusPay QR code scanner is designed to read and parse VerusQR codes, or VerusPay invoices through the camera, and requires camera access to work properly." source="GitHub README" %}
 
 {% include featureEvidence.html feature="fingerprint" quote="Secure your keys and assets on your device using Face ID, Touch ID, or traditional passwords." source="Store description" %}
+
+An issue has been opened at [https://github.com/VerusCoin/Verus-Mobile/issues/207](https://github.com/VerusCoin/Verus-Mobile/issues/207)

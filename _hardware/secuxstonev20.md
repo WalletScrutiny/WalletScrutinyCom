@@ -22,7 +22,6 @@ shop: https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobil
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: https://github.com/secuxtech/SecuXMCU/issues/18
 icon: secuxstonev20.png
 bugbounty: 
 meta: obsolete
@@ -91,3 +90,5 @@ compromised firmware, the product could generate backups/keys known to the
 provider.
 
 Without further information this product is **not verifiable**.
+
+An issue has been opened at [https://github.com/secuxtech/SecuXMCU/issues/18](https://github.com/secuxtech/SecuXMCU/issues/18)

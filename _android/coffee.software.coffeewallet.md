@@ -15,7 +15,6 @@ version: '0.22'
 reviews: 7
 website: https://wallet.coffee/
 repository: https://github.com/coffee-software/coffee.wallet
-issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 
 meta: obsolete
@@ -59,3 +58,5 @@ From Google Play page:
 ## Analysis 
 
 We downloaded the app and created a wallet. It is possible to back up the BTC wallet using BIP39 compliant seed words.
+
+An issue has been opened at [https://github.com/coffee-software/coffee.wallet/issues/89](https://github.com/coffee-software/coffee.wallet/issues/89)

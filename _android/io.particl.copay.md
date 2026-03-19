@@ -13,7 +13,6 @@ version: 5.5.1
 reviews: 17
 website: https://particl.io
 repository: https://github.com/particl/copay/commits/ratefix
-issue: https://github.com/particl/copay/issues/58
 icon: io.particl.copay.png
 bugbounty: 
 meta: removed
@@ -64,4 +63,6 @@ This app is obsolete and there are some scam allegations. We did not download th
 
 ## Analysis 
 
-As [pointed out in GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/417#note_1354084910), this is Open Source software. We temporarily marked this as a work in progress while creating an [issue in their GitHub](https://github.com/particl/copay/issues/58) as well as [tweeting them.](https://twitter.com/BitcoinWalletz/status/1648153163382530048)  
+As [pointed out in GitLab](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/417#note_1354084910), this is Open Source software. We temporarily marked this as a work in progress while creating an [issue in their GitHub](https://github.com/particl/copay/issues/58) as well as [tweeting them.](https://twitter.com/BitcoinWalletz/status/1648153163382530048)
+
+An issue has been opened at [https://github.com/particl/copay/issues/58](https://github.com/particl/copay/issues/58)

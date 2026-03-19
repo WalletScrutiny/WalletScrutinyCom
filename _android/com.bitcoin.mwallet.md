@@ -14,7 +14,6 @@ version: 9.11.1
 reviews: 4044
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
-issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
 bugbounty: 
 meta: ok
@@ -50,3 +49,5 @@ this wallet is closed source until further notice. There is no indication that t
 {% include featureEvidence.html feature="multiSig" quote="Intuitive, multisignature security for personal or shared wallets" source="GitHub README" %}
 
 {% include featureEvidence.html feature="batching" quote="Easy spending proposal flow for shared wallets and group payments" source="GitHub README" %}
+
+An issue has been opened at [https://github.com/Bitcoin-com/Wallet/issues/39](https://github.com/Bitcoin-com/Wallet/issues/39)

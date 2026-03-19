@@ -14,7 +14,6 @@ version: 1.8.2
 reviews: 24
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
-issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.jpg
 bugbounty: 
 meta: removed
@@ -33,3 +32,5 @@ developerName: COINiD Group
 {% include featureEvidence.html feature="companion" source="[Website](https://coinid.org)" quote="COINiD Vault Holds your private keys away from your COINiD Wallet and is used to sign transactions." %}
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://github.com/COINiD/COINiDWallet/issues/24](https://github.com/COINiD/COINiDWallet/issues/24)

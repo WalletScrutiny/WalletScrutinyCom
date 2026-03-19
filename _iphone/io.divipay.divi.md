@@ -13,7 +13,6 @@ version: 2.2.01215
 reviews: 28
 website: https://web.archive.org/web/20210919220325/https://wallet.diviproject.org/
 repository: 
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg
 bugbounty: 
 meta: removed
@@ -32,3 +31,5 @@ developerName: Qbito Technologies S.A.
 ---
 
 {% include copyFromAndroid.html %}
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366)

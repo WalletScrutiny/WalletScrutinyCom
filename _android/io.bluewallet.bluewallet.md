@@ -17,7 +17,6 @@ version: 7.2.7
 reviews: 372
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/6409
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
@@ -110,3 +109,5 @@ This binary is **not verifiable**.
 {% include featureEvidence.html feature="batching" quote="Transactions control Choose your fees when sending. Easily Bump, Cancel or Batch transactions." source="Website" %}
 
 {% include featureEvidence.html feature="ownLN" quote="LNDhub LNDhub on VPS with Ubuntu LNDHub on Mac OSX LNDhub with raspibolt Recover lndhub account" source="Website" %}
+
+An issue has been opened at [https://github.com/BlueWallet/BlueWallet/issues/6409](https://github.com/BlueWallet/BlueWallet/issues/6409)

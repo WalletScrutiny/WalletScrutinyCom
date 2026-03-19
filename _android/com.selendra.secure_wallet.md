@@ -13,7 +13,6 @@ version: 1.0.0
 reviews: 4
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
-issue: https://github.com/bitriel/bitriel-wallet/issues/26
 icon: com.selendra.secure_wallet.png
 bugbounty: 
 meta: defunct
@@ -108,3 +107,5 @@ The bitriel repository seems to have been forked from Selendra which explains wh
 
 ### Verification
 [We were **not able to verify** this app.](https://github.com/bitriel/bitriel-wallet/issues/26)
+
+An issue has been opened at [https://github.com/bitriel/bitriel-wallet/issues/26](https://github.com/bitriel/bitriel-wallet/issues/26)

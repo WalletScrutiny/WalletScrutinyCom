@@ -13,7 +13,6 @@ version: 5.9.0
 reviews: 4122
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
-issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 meta: ok
@@ -92,3 +91,5 @@ have no public issue tracker.
 {% include featureEvidence.html feature="multiAccount" quote="Create several wallets" source="README" %}
 
 {% include featureEvidence.html feature="segwit" comment="(no justification provided by LLM)" %}
+
+An issue has been opened at [https://github.com/cake-tech/cake_wallet/issues/337](https://github.com/cake-tech/cake_wallet/issues/337)

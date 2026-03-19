@@ -13,7 +13,6 @@ version: 1.9.7
 reviews: 63
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet
-issue: https://github.com/Ironwallet/IronWallet/issues/1
 icon: com.wallet.crypto.btc.eth.png
 bugbounty: 
 meta: ok
@@ -49,3 +48,5 @@ This app seems to be new but strangely already has 500,000 users.  Social media 
 {% include featureEvidence.html feature="tradeAlts" quote="Cross‑chain swap integrations with decentralized liquidity protocols" source="GitHub README" %}
 
 {% include featureEvidence.html feature="nfc" quote="NFC Info" source="Website" %}
+
+An issue has been opened at [https://github.com/Ironwallet/IronWallet/issues/1](https://github.com/Ironwallet/IronWallet/issues/1)

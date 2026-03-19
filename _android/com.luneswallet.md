@@ -13,7 +13,6 @@ version: '2.1'
 reviews: 184
 website: https://luneswallet.app#deadLink
 repository: https://github.com/Lunes-platform/Wallet-mobile
-issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
 icon: com.luneswallet.png
 bugbounty: 
 meta: removed
@@ -69,3 +68,5 @@ A problem occurred evaluating project ':react-native-linear-gradient'.
 ```
 
 and consider it **not verifiable**.
+
+An issue has been opened at [https://github.com/Lunes-platform/Wallet-mobile/issues/9](https://github.com/Lunes-platform/Wallet-mobile/issues/9)

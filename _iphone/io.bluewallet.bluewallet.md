@@ -13,7 +13,6 @@ version: 7.2.3
 reviews: 826
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
@@ -58,3 +57,5 @@ developerName: Bluewallet Services, S. R. L.
 {% include featureEvidence.html feature="batching" quote="Transactions control - Choose your fees when sending. Easily Bump, Cancel or Batch transactions." source="Website" %}
 
 {% include featureEvidence.html feature="ownLN" quote="LNDhub" source="Website" %}
+
+An issue has been opened at [https://github.com/BlueWallet/BlueWallet/issues/758](https://github.com/BlueWallet/BlueWallet/issues/758)

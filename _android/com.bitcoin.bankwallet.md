@@ -13,7 +13,6 @@ version: 0.3.7
 reviews: 15
 website: https://wallet-markets.web.app
 repository: 
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494
 icon: com.bitcoin.bankwallet.png
 bugbounty: 
 meta: removed
@@ -47,3 +46,5 @@ features:
 - The app is a fork of {% include walletLink.html wallet='android/io.horizontalsystems.bankwallet' verdict='true' %} 
 - The app provides a SegWit address. 
 - This app is [**for verification**.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494)
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494)

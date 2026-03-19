@@ -13,7 +13,6 @@ version: 4.10.6
 reviews: 16
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-im
-issue: https://github.com/Adamant-im/adamant-im/issues/666
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
@@ -56,3 +55,4 @@ We took a look at its repository and found 21 of these component parts - however
 
 This goes to say that while it may have been publicly available for a time, the Android app's **source code hasn't been for a long time**. What's noteworthy about this is that their Google Play app has recently been updated on March 2023.
 
+An issue has been opened at [https://github.com/Adamant-im/adamant-im/issues/666](https://github.com/Adamant-im/adamant-im/issues/666)

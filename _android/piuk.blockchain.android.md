@@ -14,7 +14,6 @@ version: 202603.1.1
 reviews: 6333
 website: https://www.blockchain.com
 repository: 
-issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 meta: ok
@@ -58,3 +57,5 @@ For beginners, Blockchain.com offers a simplified UI and the ability to purchase
 {% include featureEvidence.html feature="tradeAlts" quote="built-in swapping capabilities" source="App Description" %}
 
 {% include featureEvidence.html feature="buyWithCC" quote="ability to purchase crypto using a bank card or account" source="App Description" %}
+
+An issue has been opened at [https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456](https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456)

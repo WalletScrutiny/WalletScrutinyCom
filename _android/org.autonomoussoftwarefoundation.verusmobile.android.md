@@ -13,7 +13,6 @@ version: 1.0.34
 reviews: 35
 website: https://verus.io/
 repository: https://github.com/VerusCoin/Verus-Mobile
-issue: https://github.com/VerusCoin/Verus-Mobile/issues/207
 icon: org.autonomoussoftwarefoundation.verusmobile.android.png
 bugbounty: 
 meta: ok
@@ -41,3 +40,5 @@ The Verus Android mobile app is an app that supports Verus, Bitcoin and Ethereum
 {% include featureEvidence.html feature="multiAccount" quote="Multiple account support, the ability to use different keys on the same phone" source="GitHub README" %}
 
 {% include featureEvidence.html feature="camera" quote="Camera and Audio access: The Verus Mobile application's VerusPay QR code scanner is designed to read and parse VerusQR codes, or VerusPay invoices through the camera, and requires camera access to work properly." source="GitHub README" %}
+
+An issue has been opened at [https://github.com/VerusCoin/Verus-Mobile/issues/207](https://github.com/VerusCoin/Verus-Mobile/issues/207)

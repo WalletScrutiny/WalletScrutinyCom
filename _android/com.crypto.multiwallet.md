@@ -14,7 +14,6 @@ version: 3.1.4
 reviews: 565
 website: https://guarda.com
 repository: 
-issue: https://github.com/guardaco/guarda-android-wallets/issues/42
 icon: com.crypto.multiwallet.jpg
 bugbounty: 
 meta: ok
@@ -83,3 +82,5 @@ wallets but no app with the application ID `com.crypto.multiwallet`. In fact a
 didn't yield results neither.
 
 Without source code available, our verdict is: **not verifiable**.
+
+An issue has been opened at [https://github.com/guardaco/guarda-android-wallets/issues/42](https://github.com/guardaco/guarda-android-wallets/issues/42)

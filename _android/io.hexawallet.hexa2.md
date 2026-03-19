@@ -14,7 +14,6 @@ version: 2.4.6
 reviews: 6
 website: https://bitcointribe.app/
 repository: https://github.com/bithyve/bitcointribe-classic
-issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: removed
@@ -62,6 +61,4 @@ Seeds are split into Recovery Keys:
 
 > Recovery Keys are encrypted parts of your seed that are split and shared with your Keepers. Hexa creates 5 Recovery Keys, and having access to any 3 enables you to recover your wallet. These Keys are encrypted, so no one can read them without you requesting for them in the event of an emergency.
 
-
-
-
+An issue has been opened at [https://github.com/bithyve/bitcointribe/issues/2544](https://github.com/bithyve/bitcointribe/issues/2544)

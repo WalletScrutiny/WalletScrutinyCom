@@ -22,7 +22,6 @@ shop: https://www.bitlox.com/products/bitlox-ultimate
 country: HK
 price: 148USD
 repository: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
-issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty: 
 meta: obsolete
@@ -82,3 +81,5 @@ contribution to the firmware repository dates back to 2017, making the project
 the product and the provider claimed it was still being actively maintained - in
 February 2021 but with no update following this, we stick to our verdict until
 further notice.
+
+An issue has been opened at [https://github.com/BitLox/bitlox-firmware/issues/3](https://github.com/BitLox/bitlox-firmware/issues/3)

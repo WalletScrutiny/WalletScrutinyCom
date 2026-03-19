@@ -12,7 +12,6 @@ provider: Brave Software
 providerWebsite: 
 website: https://brave.com
 repository: https://github.com/brave/brave-browser
-issue: https://github.com/brave/brave-browser/issues/51721
 icon: brave.browser.png
 bugbounty: https://hackerone.com/brave
 meta: ok
@@ -86,3 +85,5 @@ We did not attempt a like-for-like rebuild of the official Brave binaries, so re
 We filed a [GitHub issue](https://github.com/brave/brave-browser/issues/51721) regarding reproducibility in the brave repository. 
 
 This app is **for verification**.
+
+An issue has been opened at [https://github.com/brave/brave-browser/issues/51721](https://github.com/brave/brave-browser/issues/51721)

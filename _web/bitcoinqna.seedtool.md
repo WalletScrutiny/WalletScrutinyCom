@@ -12,7 +12,6 @@ provider: Foundation Devices
 providerWebsite: 
 website: https://bitcoiner.guide/seed/
 repository: https://github.com/BitcoinQnA/seedtool
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/709
 icon: 
 bugbounty: 
 meta: ok
@@ -29,3 +28,5 @@ features:
 It's a web-based tool that can be downloaded locally to generate seed phrases, xprv, xpub, addresses - and run offline. 
 
 An [issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/709) has been created to deal with the handling of PWA's.
+
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/709](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/709)

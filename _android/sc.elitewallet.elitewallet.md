@@ -13,7 +13,6 @@ version: 1.3.1
 reviews: 3
 website: https://elitewallet.sc#deadLink
 repository: https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
 meta: removed
@@ -442,7 +441,4 @@ somebody could prove otherwise.
 
 We also take note that elitewallet has opened a [merge request](https://gitlab.com/fdroid/fdroiddata/-/merge_requests/12936) on F-Droid in 2023. Multiple build failures led to the MR not getting merged.
 
-
-
-
-
+An issue has been opened at [https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497)
