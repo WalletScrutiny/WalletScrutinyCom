@@ -18,7 +18,6 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const APPLY = process.argv.includes('--apply');
 
 const issueLineRegex = /^issue:.*$/m;
-const issueWithValueRegex = /^issue:[ \t]*\S/m;
 const issueValueRegex = /^issue:[ \t]*(.*)$/m;
 const urlRegex = /(https?:\/\/[^\s'"]+)/;
 
@@ -74,9 +73,6 @@ for (const folder of folders) {
 
     const hasIssue = issueLineRegex.test(parsed.frontmatter);
     if (!hasIssue) continue;
-
-    const hasIssueValue = issueWithValueRegex.test(parsed.frontmatter);
-    if (!hasIssueValue) continue;
 
     const newFrontmatter = removeIssueFromFrontmatter(parsed.frontmatter);
     let newBody = parsed.rest;
