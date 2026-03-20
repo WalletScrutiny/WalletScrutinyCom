@@ -80,9 +80,18 @@ sudo npm install
 ```bash
 sudo mkdir -p /opt/build-server-builds
 sudo chown -R build-server:build-server /opt/build-server-builds
-sudo setfacl -R -m u:build-server:rwx /opt/build-server-builds
-sudo setfacl -R -d -m u:build-server:rwx /opt/build-server-builds
 ```
+
+- Add rm script to the visudo file:
+```bash
+sudo visudo
+```
+
+Add the following line to the end of the file:
+```bash
+build-server ALL=(ALL) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh
+```
+and save the file.
 
 ### Install the service
 
