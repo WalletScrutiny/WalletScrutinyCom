@@ -1,5 +1,6 @@
 node_modules/
-scripts/
+scripts/*
+!scripts/build-server-safe-rmdir.sh
 *.log
 .tmp/
 temp/

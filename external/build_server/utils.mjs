@@ -1,6 +1,8 @@
-import { execSync } from 'child_process';
+import { execSync, spawnSync } from 'child_process';
 import fs from 'fs';
 import minimist from 'minimist';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { appLog } from './logger.js';
 import { WS_BOT_NOSTR_PUBKEY_HEX, shouldProcessAppId, DEBUG_APP_IDS } from './config/config.mjs';
 import { getEventsFromEventIds } from './nostr-utils.mjs';
@@ -253,34 +255,79 @@ export function saveScriptFromEventMakeExecutable(fileEvent, filePath) {
 }
 
 /**
- * Remove a directory recursively. On Unix tries rm -rf first; on failure falls
- * back to fs.rmSync with retries (handles ENOTEMPTY/EBUSY and permission issues).
+ * Remove a directory recursively.
+ *
+ * First tries a normal (non-sudo) deletion via fs.rmSync with retries.
+ * If that fails and the directory is under /opt/build-server-builds,
+ * it falls back to a privileged removal via a hardened script (sudo).
  */
 export function removeDirectoryRecursive(dir) {
   if (!fs.existsSync(dir)) return;
 
-  try {
-    const escaped = "'" + dir.replace(/'/g, "'\\''") + "'";
-    execSync(`rm -rf ${escaped}`, { stdio: ['ignore', 'pipe', 'pipe'] });
+  // Safety check: never delete arbitrary paths.
+  // In production, the build artifacts live under /opt/build-server-builds.
+  // In debug mode, they live under external/build_server/build_server_build_dir.
+  const allowedProdBase = '/opt/build-server-builds';
+  const allowedDebugBase = fileURLToPath(new URL('./build_server_build_dir', import.meta.url));
+
+  const dirResolved = path.resolve(dir);
+  const isUnderProdBase = dirResolved === allowedProdBase || dirResolved.startsWith(allowedProdBase + '/');
+  const isUnderDebugBase = dirResolved === allowedDebugBase || dirResolved.startsWith(allowedDebugBase + '/');
+
+  if (!isUnderProdBase && !isUnderDebugBase) {
+    appLog.error(`Refusing to delete directory outside allowed bases. dir=${dirResolved} allowedProdBase=${allowedProdBase} allowedDebugBase=${allowedDebugBase}`);
     return;
-  } catch (rmErr) {
-    const stderr = rmErr.stderr ? String(rmErr.stderr).trim() : '';
-    appLog.warn(`rm -rf failed for ${dir}${stderr ? ': ' + stderr : ''}, falling back to fs.rmSync`);
   }
 
+  // Extra safety: avoid deleting the base directories themselves.
+  if (dirResolved === allowedProdBase || dirResolved === allowedDebugBase) {
+    appLog.error(`Refusing to delete base directories themselves. dir=${dirResolved}`);
+    return;
+  }
+
+  // 1) First try: user-level deletion (no sudo).
   const maxRetries = 3;
+  let lastErr = null;
   for (let i = 0; i < maxRetries; i++) {
     try {
       fs.rmSync(dir, { recursive: true, force: true });
       return;
     } catch (err) {
+      lastErr = err;
       if ((err.code === 'ENOTEMPTY' || err.code === 'EBUSY') && i < maxRetries - 1) {
         const deadline = Date.now() + 500 * (i + 1);
         while (Date.now() < deadline) {}
-      } else {
-        throw err;
+        continue;
       }
+      break;
     }
+  }
+
+  // 2) Fallback: privileged removal via sudo + hardened script.
+  // Only allow this path-based escalation in production builds.
+  if (isUnderProdBase) {
+    try {
+      const safeScriptPath = fileURLToPath(new URL('./scripts/build-server-safe-rmdir.sh', import.meta.url));
+      const sudoResult = spawnSync('sudo', [safeScriptPath, dir], {
+        stdio: ['ignore', 'pipe', 'pipe'],
+        encoding: 'utf8'
+      });
+
+      if (sudoResult.status === 0) {
+        appLog.info(`sudo safe-rmdir succeeded for ${dir}`);
+        return;
+      }
+
+      const sudoStderr = sudoResult.stderr ? String(sudoResult.stderr).trim() : '';
+      appLog.warn(`sudo safe-rmdir failed for ${dir}${sudoStderr ? ': ' + sudoStderr : ''}`);
+    } catch (sudoErr) {
+      appLog.warn(`sudo safe-rmdir invocation failed for ${dir}: ${String(sudoErr)}`);
+    }
+  }
+
+  // If both deletion attempts failed, surface the original error.
+  if (lastErr) {
+    throw lastErr;
   }
 }
 
