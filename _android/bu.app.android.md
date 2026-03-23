@@ -8,9 +8,9 @@ users: 500000
 appId: bu.app.android
 appCountry: 
 released: 2025-04-29
-updated: 2026-03-15
+updated: 2026-03-22
 version: 3.27.0
-reviews: 75
+reviews: 76
 website: https://www.unixcrypto.net
 repository: 
 icon: bu.app.android.png

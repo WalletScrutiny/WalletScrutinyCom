@@ -10,7 +10,7 @@ appCountry: br
 released: 2019-01-28
 updated: 2026-03-05
 version: 3.38.0
-reviews: 6360
+reviews: 6363
 website: http://www.foxbit.com.br
 repository: 
 icon: br.com.foxbit.foxbitandroid.png

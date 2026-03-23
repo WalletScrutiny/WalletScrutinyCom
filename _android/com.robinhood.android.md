@@ -10,7 +10,7 @@ appCountry: us
 released: 2015-08-12
 updated: 2026-03-18
 version: 2026.11.3
-reviews: 264196
+reviews: 264213
 website: https://robinhood.com/
 repository: 
 icon: com.robinhood.android.png

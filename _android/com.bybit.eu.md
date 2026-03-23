@@ -8,8 +8,8 @@ users: 100000
 appId: com.bybit.eu
 appCountry: 
 released: 
-updated: 2026-03-05
-version: 5.12.5
+updated: 2026-03-18
+version: 5.14.0
 reviews: 
 website: https://www.bybit.eu/help-center
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: iMeMessenger
-title: 'iMe: AI Messenger for Telegram'
+title: 'iMe: Telegram AI Messenger'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-22
 updated: 2026-03-06
 version: 12.3.4
-reviews: 799
+reviews: 801
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
 icon: com.iMe.android.png

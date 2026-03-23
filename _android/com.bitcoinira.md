@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-06-15
 updated: 2026-03-10
 version: 2.0.4
-reviews: 543
+reviews: 545
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.png

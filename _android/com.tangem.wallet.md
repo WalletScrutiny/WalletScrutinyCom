@@ -11,7 +11,7 @@ appCountry:
 released: 2018-10-24
 updated: 2026-03-11
 version: 5.34.1
-reviews: 1681
+reviews: 1690
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android
 icon: com.tangem.wallet.png

@@ -1,6 +1,6 @@
 ---
 wsId: lcxExchange
-title: 'LCX: Regulated Crypto Exchange'
+title: Buy Bitcoin & Crypto - LCX
 altTitle: 
 authors:
 - danny

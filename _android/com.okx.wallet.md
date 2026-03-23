@@ -9,8 +9,8 @@ appId: com.okx.wallet
 appCountry: 
 released: 2025-03-21
 updated: 2026-03-16
-version: 6.162.0
-reviews: 38
+version: 6.163.0
+reviews: 40
 website: 
 repository: 
 icon: com.okx.wallet.png

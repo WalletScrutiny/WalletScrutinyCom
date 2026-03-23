@@ -8,9 +8,9 @@ appId: com.bydfi.app
 appCountry: us
 idd: '6444251506'
 released: 2023-02-09
-updated: 2026-02-06
-version: 3.9.1
-reviews: 1154
+updated: 2026-03-21
+version: 3.9.3
+reviews: 1165
 website: https://www.bydfi.com/
 repository: 
 icon: com.bydfi.app.jpg

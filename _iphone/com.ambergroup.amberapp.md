@@ -10,7 +10,7 @@ idd: '1515652068'
 released: 2020-09-21
 updated: 2026-03-03
 version: 3.6.5
-reviews: 191
+reviews: 192
 website: https://www.ambr.io/global
 repository: 
 icon: com.ambergroup.amberapp.jpg

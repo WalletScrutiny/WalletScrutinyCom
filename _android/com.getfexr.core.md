@@ -7,8 +7,8 @@ users: 100
 appId: com.getfexr.core
 appCountry: 
 released: 2022-06-08
-updated: 2026-03-17
-version: 3.3.0
+updated: 2026-03-20
+version: 3.3.1
 reviews: 
 website: https://getfexr.com
 repository: 

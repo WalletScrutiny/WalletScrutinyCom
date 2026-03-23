@@ -10,7 +10,7 @@ appCountry:
 released: 2023-01-03
 updated: 2026-03-05
 version: 3.0.14
-reviews: 34
+reviews: 35
 website: https://ditobanx.com/
 repository: 
 icon: com.dito.ditowallet.png

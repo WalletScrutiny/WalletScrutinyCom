@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-07
 updated: 2026-03-12
 version: 2.6.1
-reviews: 35
+reviews: 36
 website: https://www.oobit.com/
 repository: 
 icon: com.oobit.png

@@ -9,7 +9,7 @@ idd: '1672392439'
 released: 2024-03-28
 updated: 2026-03-12
 version: 3.1.0
-reviews: 101
+reviews: 102
 website: http://zodl.com
 repository: 
 icon: co.electriccoin.secant-mainnet.jpg

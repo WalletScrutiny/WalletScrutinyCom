@@ -8,9 +8,9 @@ appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
 released: 2020-12-01
-updated: 2026-02-16
-version: 9.1.5
-reviews: 60314
+updated: 2026-03-02
+version: 9.1.7
+reviews: 60426
 website: https://coinswitch.co
 repository: 
 icon: com.coinswitch.kuber.jpg

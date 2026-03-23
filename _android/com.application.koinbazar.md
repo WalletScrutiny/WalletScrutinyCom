@@ -10,7 +10,7 @@ appCountry: in
 released: 2021-05-17
 updated: 2025-12-26
 version: 3.0.88
-reviews: 3485
+reviews: 3486
 website: https://koinbx.com/
 repository: 
 icon: com.application.koinbazar.png

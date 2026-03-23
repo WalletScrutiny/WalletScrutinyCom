@@ -7,8 +7,8 @@ users: 100
 appId: com.base8
 appCountry: 
 released: 2023-12-29
-updated: 2026-01-16
-version: 2.1.0
+updated: 2026-03-22
+version: 2.1.1
 reviews: 
 website: https://base8.app/
 repository: 

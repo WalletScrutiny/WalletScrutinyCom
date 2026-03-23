@@ -1,6 +1,6 @@
 ---
 wsId: breetBitcoin
-title: Breet
+title: Breet - Buy, Swap, Sell Crypto
 altTitle: 
 authors:
 - danny

@@ -11,7 +11,7 @@ appCountry:
 released: 2018-07-07
 updated: 2026-02-26
 version: 1.147.0
-reviews: 3247
+reviews: 3248
 website: https://chippercash.com
 repository: 
 icon: com.chippercash.png

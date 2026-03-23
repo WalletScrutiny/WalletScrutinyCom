@@ -7,8 +7,8 @@ users: 100
 appId: com.tnp.fortvax
 appCountry: 
 released: 2022-04-19
-updated: 2026-01-16
-version: 1.3.3
+updated: 2026-03-20
+version: 1.3.4
 reviews: 
 website: https://stage-fortvax-landing.goldalles.com/
 repository: 

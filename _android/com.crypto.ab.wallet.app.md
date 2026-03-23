@@ -10,7 +10,7 @@ appCountry:
 released: 2023-09-27
 updated: 2026-02-17
 version: 1.20.0
-reviews: 202
+reviews: 206
 website: https://alicebob.com/
 repository: 
 icon: com.crypto.ab.wallet.app.png

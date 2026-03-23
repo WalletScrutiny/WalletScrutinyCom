@@ -10,7 +10,7 @@ idd: '6468561188'
 released: 2023-10-29
 updated: 2026-03-05
 version: 1.52.9
-reviews: 4565
+reviews: 4580
 website: http://taplink.cc/bitogroup
 repository: 
 icon: com.bitoex.bitopronew.jpg

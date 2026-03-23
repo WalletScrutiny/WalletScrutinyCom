@@ -15,10 +15,10 @@ website: https://www.cointree.com
 repository: 
 icon: com.cointree.mobileapp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2026-02-02
+date: 2026-03-23
 signer: 
 twitter: CointreeAus
 social:

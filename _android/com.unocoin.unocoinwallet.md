@@ -10,7 +10,7 @@ appCountry:
 released: 2016-11-30
 updated: 2026-01-12
 version: 5.3.41
-reviews: 54
+reviews: 55
 website: https://www.unocoin.com
 repository: 
 icon: com.unocoin.unocoinwallet.png

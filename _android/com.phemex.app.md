@@ -10,7 +10,7 @@ appCountry:
 released: 2020-02-19
 updated: 2026-03-17
 version: 5.14.0
-reviews: 1465
+reviews: 1466
 website: https://phemex.com
 repository: 
 icon: com.phemex.app.png

@@ -10,7 +10,7 @@ idd: '1567360326'
 released: 2021-06-02
 updated: 2026-02-19
 version: 4.1.22
-reviews: 152
+reviews: 153
 website: https://www.koinbx.com/
 repository: 
 icon: com.app.koinbazar.jpg

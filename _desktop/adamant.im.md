@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2017-11-22
 discontinued: 
-updated: 2024-03-20
-version: 4.10.6
+updated: 2026-03-22
+version: 4.11.1
 binaries: 
 provider: Adamant
 providerWebsite: 

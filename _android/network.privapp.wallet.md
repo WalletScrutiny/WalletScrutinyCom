@@ -15,10 +15,10 @@ website: https://privapp.network/
 repository: 
 icon: network.privapp.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-12-15
+date: 2026-03-23
 signer: 
 twitter: PrivappNetwork
 social:

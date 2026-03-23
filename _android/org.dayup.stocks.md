@@ -10,8 +10,8 @@ appId: org.dayup.stocks
 appCountry: 
 released: 
 updated: 2026-03-09
-version: 11.7.5.57
-reviews: 41334
+version: 11.8.0.38
+reviews: 41344
 website: https://www.webull.com
 repository: 
 icon: org.dayup.stocks.png

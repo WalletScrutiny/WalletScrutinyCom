@@ -11,7 +11,7 @@ appCountry: us
 released: 2018-10-25
 updated: 2026-03-14
 version: 5.6.180600
-reviews: 192
+reviews: 193
 website: https://hyperpay.tech
 repository: 
 icon: com.legendwd.hyperpayW.png

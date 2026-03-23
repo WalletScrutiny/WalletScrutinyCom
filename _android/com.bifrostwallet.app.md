@@ -8,8 +8,8 @@ users: 100000
 appId: com.bifrostwallet.app
 appCountry: 
 released: 2021-09-09
-updated: 2026-03-06
-version: 0.7.42
+updated: 2026-03-23
+version: 0.7.43
 reviews: 108
 website: https://bifrostwallet.com
 repository: 

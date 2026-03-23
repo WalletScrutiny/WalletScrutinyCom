@@ -10,7 +10,7 @@ appCountry:
 released: 2019-06-28
 updated: 2026-03-13
 version: 6.8.0
-reviews: 1860
+reviews: 1862
 website: https://nexo.com
 repository: 
 icon: com.nexowallet.png

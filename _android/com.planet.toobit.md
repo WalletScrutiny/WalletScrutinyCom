@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-14
 updated: 2026-03-11
 version: 2.2.0
-reviews: 327
+reviews: 328
 website: https://www.toobit.com
 repository: 
 icon: com.planet.toobit.jpg

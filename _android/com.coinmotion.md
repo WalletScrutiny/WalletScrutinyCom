@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
-updated: 2026-03-06
-version: 1.13.2
+updated: 2026-03-20
+version: 1.13.3
 reviews: 
 website: https://coinmotion.com/
 repository: 

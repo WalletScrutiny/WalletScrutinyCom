@@ -7,8 +7,8 @@ appId: app.amber.v2
 appCountry: us
 idd: '6480584472'
 released: 2024-04-04
-updated: 2026-03-05
-version: 2.11.2
+updated: 2026-03-20
+version: 2.12.0
 reviews: 1
 website: http://amber.app/
 repository: 

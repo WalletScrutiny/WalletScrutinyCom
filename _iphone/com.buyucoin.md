@@ -10,7 +10,7 @@ idd: 1539456610
 released: 2020-11-17
 updated: 2023-02-13
 version: '1.33'
-reviews: 958
+reviews: 960
 website: https://www.buyucoin.com
 repository: 
 icon: com.buyucoin.jpg

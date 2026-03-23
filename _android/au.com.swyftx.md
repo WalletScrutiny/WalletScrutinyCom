@@ -9,7 +9,7 @@ appId: au.com.swyftx
 appCountry: 
 released: 
 updated: 2026-03-15
-version: 2.8.40
+version: 2.8.41
 reviews: 
 website: https://swyftx.com/
 repository: 

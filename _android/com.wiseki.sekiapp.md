@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-31
 updated: 2026-03-16
 version: 2.3.7
-reviews: 24
+reviews: 25
 website: https://sekiapp.com
 repository: 
 icon: com.wiseki.sekiapp.png

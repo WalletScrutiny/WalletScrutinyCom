@@ -9,8 +9,8 @@ appId: com.public.app
 appCountry: 
 released: 2019-09-06
 updated: 2026-03-17
-version: 3.236.0
-reviews: 9385
+version: 3.237.0
+reviews: 9394
 website: https://public.com
 repository: 
 icon: com.public.app.png

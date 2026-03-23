@@ -11,7 +11,7 @@ appCountry:
 released: 2017-09-20
 updated: 2026-03-13
 version: 29.86.0
-reviews: 14032
+reviews: 14039
 website: https://wallet.coinbase.com/
 repository: 
 icon: org.toshi.png

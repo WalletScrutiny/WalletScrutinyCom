@@ -1,6 +1,6 @@
 ---
 wsId: ventAfrica
-title: 'Vent: Sell BTC & Crypto'
+title: 'Vent: Sell BTC, USDT & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: com.vent.app
 appCountry: 
 released: 2022-01-26
-updated: 2025-12-21
-version: 1.10.32
-reviews: 9
+updated: 2026-03-22
+version: 2.0.2
+reviews: 10
 website: https://vent.africa
 repository: 
 icon: com.vent.app.png

@@ -8,9 +8,9 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2026-02-03
-version: 1.65.5
-reviews: 2054
+updated: 2026-02-26
+version: 1.65.6
+reviews: 2065
 website: https://www.coinomi.com/en/about/
 repository: 
 icon: com.coinomi.wallet.jpg

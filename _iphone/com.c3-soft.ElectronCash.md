@@ -9,7 +9,7 @@ idd: '1359700089'
 released: 2018-07-30
 updated: 2021-11-25
 version: 4.2.5
-reviews: 38
+reviews: 39
 website: https://www.electroncash.org
 repository: 
 icon: com.c3-soft.ElectronCash.jpg

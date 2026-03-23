@@ -9,7 +9,7 @@ appCountry:
 released: 2024-08-12
 updated: 2026-03-16
 version: 1.12.0
-reviews: 2
+reviews: 3
 website: https://stackatm.com/
 repository: 
 icon: com.stackatm.app.png

@@ -10,7 +10,7 @@ idd: 1571975471
 released: 2021-08-27
 updated: 2025-10-29
 version: 1.0.25
-reviews: 129
+reviews: 130
 website: https://www.flitpay.com
 repository: 
 icon: com.core.ios.flitpay.jpg

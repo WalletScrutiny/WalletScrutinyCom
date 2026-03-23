@@ -10,7 +10,7 @@ idd: '1602652484'
 released: 2022-01-12
 updated: 2026-03-18
 version: 1.0.5
-reviews: 14
+reviews: 15
 website: 
 repository: 
 icon: by.bitcash.cryptowallet.jpg

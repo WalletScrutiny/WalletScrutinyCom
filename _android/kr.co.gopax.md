@@ -10,7 +10,7 @@ appCountry: cn
 released: 2018-11-05
 updated: 2026-03-11
 version: 1.9.30.cfd3
-reviews: 1540
+reviews: 1539
 website: https://www.gopax.co.kr
 repository: 
 icon: kr.co.gopax.png

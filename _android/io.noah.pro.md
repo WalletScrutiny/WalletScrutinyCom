@@ -10,7 +10,7 @@ appCountry:
 released: 2025-09-23
 updated: 2026-01-22
 version: 1.2.5
-reviews: 13
+reviews: 14
 website: https://www.bitradex.com/
 repository: 
 icon: io.noah.pro.png

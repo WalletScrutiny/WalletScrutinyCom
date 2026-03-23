@@ -10,7 +10,7 @@ idd: '6444394282'
 released: 2022-11-28
 updated: 2026-03-11
 version: 14.3.0
-reviews: 1432
+reviews: 1431
 website: https://www.bitcoin.com.au
 repository: 
 icon: au.com.bitcoin.mobileapp.jpg

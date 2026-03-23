@@ -10,7 +10,7 @@ idd: '6444903066'
 released: 2023-03-14
 updated: 2025-02-06
 version: 4.16.0
-reviews: 9
+reviews: 10
 website: 
 repository: 
 icon: app.coinhubatm.wallet.jpg

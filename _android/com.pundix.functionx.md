@@ -10,7 +10,7 @@ appCountry: us
 released: 2021-03-25
 updated: 2026-01-19
 version: 5.10.0
-reviews: 43
+reviews: 42
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
 icon: com.pundix.functionx.png

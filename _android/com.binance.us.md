@@ -10,7 +10,7 @@ appCountry:
 released: 2019-12-23
 updated: 2026-03-14
 version: 3.33.1
-reviews: 6947
+reviews: 6949
 website: https://www.binance.us
 repository: 
 icon: com.binance.us.png

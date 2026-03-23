@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: 'Matrixport: Crypto Services'
+title: BIT (fka Matrixport):CryptoLab
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2026-03-09
-version: 3.7.3
+updated: 2026-03-13
+version: 3.7.4
 reviews: 872
 website: https://invest.matrixport.com
 repository: 

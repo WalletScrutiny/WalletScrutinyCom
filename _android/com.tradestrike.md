@@ -10,7 +10,7 @@ appCountry:
 released: 2022-09-26
 updated: 2025-11-13
 version: 4.2.8
-reviews: 27
+reviews: 26
 website: https://tradestrike.io/strikex-wallet/
 repository: 
 icon: com.tradestrike.png

@@ -7,8 +7,8 @@ users: 50
 appId: com.unicoin.dcx.limited.abcc.wallet
 appCountry: 
 released: 
-updated: 2026-01-26
-version: 1.10.19
+updated: 2026-03-16
+version: 1.10.20
 reviews: 
 website: https://abcc-plus.com/
 repository: 

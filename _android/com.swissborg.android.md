@@ -10,7 +10,7 @@ appCountry: gb
 released: 2020-06-16
 updated: 2026-03-17
 version: 1.131.0
-reviews: 978
+reviews: 979
 website: https://swissborg.com
 repository: 
 icon: com.swissborg.android.png

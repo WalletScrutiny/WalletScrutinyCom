@@ -9,8 +9,8 @@ appId: com.paymaya
 appCountry: 
 released: 2016-06-05
 updated: 2026-03-12
-version: 2.155.0
-reviews: 1190
+version: 2.156.0
+reviews: 1193
 website: https://www.maya.ph/
 repository: 
 icon: com.paymaya.png

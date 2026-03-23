@@ -9,7 +9,7 @@ appId: com.syfe
 appCountry: 
 released: 2020-02-13
 updated: 2026-03-13
-version: 15.6.1
+version: 15.7.0
 reviews: 4
 website: https://www.syfe.com
 repository: 

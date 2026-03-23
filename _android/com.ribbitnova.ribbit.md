@@ -7,8 +7,8 @@ users: 1000
 appId: com.ribbitnova.ribbit
 appCountry: 
 released: 2025-08-20
-updated: 2026-02-14
-version: 1.8.1
+updated: 2026-03-23
+version: 1.9.2
 reviews: 
 website: https://ribbitwallet.com
 repository: 

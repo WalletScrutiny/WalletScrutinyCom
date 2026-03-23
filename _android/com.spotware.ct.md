@@ -1,6 +1,6 @@
 ---
 wsId: cTrader
-title: 'cTrader: CFD Trading Platform'
+title: 'cTrader: Trading & Charting'
 altTitle: 
 authors:
 - danny
@@ -10,7 +10,7 @@ appCountry:
 released: 2014-02-10
 updated: 2026-03-16
 version: 5.7.160
-reviews: 365
+reviews: 367
 website: https://ctrader.com/forum
 repository: 
 icon: com.spotware.ct.png

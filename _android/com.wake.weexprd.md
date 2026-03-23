@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-23
 updated: 2026-03-16
 version: 4.5.10
-reviews: 346
+reviews: 344
 website: https://www.weex.com
 repository: 
 icon: com.wake.weexprd.png

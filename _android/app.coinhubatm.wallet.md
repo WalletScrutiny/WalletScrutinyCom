@@ -15,10 +15,10 @@ website: https://coinhubatm.com/
 repository: 
 icon: app.coinhubatm.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2026-03-23
 signer: 
 twitter: Coinhubusa
 social:

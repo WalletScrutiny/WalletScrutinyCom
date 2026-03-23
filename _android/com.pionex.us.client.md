@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-25
 updated: 2025-12-29
 version: 2.0.9
-reviews: 644
+reviews: 647
 website: https://www.pionex.us/
 repository: 
 icon: com.pionex.us.client.png

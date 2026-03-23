@@ -8,9 +8,9 @@ appId: com.coinmena.coinmenaapp
 appCountry: us
 idd: 1573112964
 released: 2021-09-26
-updated: 2025-12-17
-version: 3.4.0
-reviews: 11
+updated: 2026-03-08
+version: 3.5.0
+reviews: 12
 website: https://www.coinmena.com/
 repository: 
 icon: com.coinmena.coinmenaapp.jpg

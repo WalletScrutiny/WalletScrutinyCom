@@ -8,8 +8,8 @@ users: 100000
 appId: co.psychedelic.plug
 appCountry: 
 released: 2022-07-01
-updated: 2026-03-12
-version: 2.7.4
+updated: 2026-03-17
+version: 2.7.5
 reviews: 17
 website: https://plugwallet.ooo
 repository: 

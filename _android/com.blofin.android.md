@@ -8,8 +8,8 @@ users: 100000
 appId: com.blofin.android
 appCountry: 
 released: 2022-05-13
-updated: 2026-02-10
-version: 3.24.0
+updated: 2026-03-19
+version: 3.26.0
 reviews: 117
 website: https://blofin.com
 repository: 

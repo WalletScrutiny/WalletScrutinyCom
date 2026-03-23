@@ -10,7 +10,7 @@ appCountry:
 released: 2013-10-29
 updated: 2026-03-09
 version: 3.180.0-2026030916
-reviews: 3828
+reviews: 3834
 website: https://www.skrill.com
 repository: 
 icon: com.moneybookers.skrillpayments.png

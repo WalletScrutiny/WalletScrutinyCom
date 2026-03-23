@@ -7,8 +7,8 @@ users: 5000
 appId: io.ccview.wallet
 appCountry: 
 released: 2025-12-02
-updated: 2026-02-27
-version: 1.5.0
+updated: 2026-03-19
+version: 1.6.0
 reviews: 
 website: https://pixelplex.io/
 repository: 
