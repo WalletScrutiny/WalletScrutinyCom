@@ -14,7 +14,7 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 ## Requirements
 - Node.js >= 18.6.0
 - asciinema
-- GitHub token (to refresh the desktop and hardware apps)
+- GitHub token (to refresh the desktop and hardware apps, and to download other assets and dependencies from GitHub)
 - Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage
