@@ -152,7 +152,7 @@ export async function downloadFileFromBlossom(fileHash, destinationPath) {
   }
 }
 
-export async function verifyAssetsFromRegistry(verifications, appInfo) {
+export async function verifyAssetsFromRegistry(verifications, appInfo, githubToken) {
   appLog.debug(`# verifications: ${verifications.size}`);
   const verificationsWithBuildShFiles = await filterVerificationsWithBuildScripts(verifications);
   appLog.debug(`# verificationsWithBuildShFiles: ${Object.keys(verificationsWithBuildShFiles).length}`);
@@ -219,12 +219,13 @@ export async function verifyAssetsFromRegistry(verifications, appInfo) {
       fileHash,
       jobType: 'asset',
       buildShFileEvent: verification.buildShFileEvent,
-      downloadedFileName
+      downloadedFileName,
+      githubToken
     });
   }
 }
 
-export async function processNewReleaseVerification(verification, newWalletVersion, appInfo, wsBotVerifications) {
+export async function processNewReleaseVerification(verification, newWalletVersion, appInfo, wsBotVerifications, githubToken) {
   try {
     // Capture ndk instance at the start to ensure it's available in async callbacks
     const ndkInstance = getNdk();
@@ -313,7 +314,8 @@ export async function processNewReleaseVerification(verification, newWalletVersi
           fileHash: null,
           jobType: 'newRelease',
           buildShFileEvent: fileEvent,
-          outputFileName
+          outputFileName,
+          githubToken
         });
       }
     }
@@ -342,7 +344,8 @@ export async function addJobToQueue({
   jobType,
   buildShFileEvent,
   downloadedFileName,
-  outputFileName
+  outputFileName,
+  githubToken
 }) {
   const scriptPathForLog = jobType === 'asset'
     ? `${appId}_${fileHash}_script.sh`
@@ -361,7 +364,8 @@ export async function addJobToQueue({
     jobType,
     buildShFileEvent,
     downloadedFileName,
-    outputFileName
+    outputFileName,
+    githubToken
   };
 
   const job = queue.add(
@@ -415,7 +419,8 @@ async function runJobWithPreparation({
   jobType,
   buildShFileEvent,
   downloadedFileName,
-  outputFileName
+  outputFileName,
+  githubToken
 }) {
   const buildDirForThisVerification = jobType === 'asset'
     ? path.join(BUILD_DIR_PREFIX, appId + '_' + fileHash + '_' + newWalletVersion + (architecture ? '_' + architecture : '') + (type ? '_' + type : ''))
@@ -442,7 +447,7 @@ async function runJobWithPreparation({
   appLog.debug(`     - saving script to ${scriptWithPath}`);
   saveScriptFromEventMakeExecutable(buildShFileEvent, scriptWithPath);
 
-  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId);
+  const result = await startCompilationJob(buildDirForThisVerification, scriptWithPath, newWalletVersion, architecture, type, binaryFilePath, platform, appId, githubToken);
   return { ...result, binaryFilePath };
 }
 
@@ -470,7 +475,7 @@ export function readComparisonResults(buildDirForThisVerification, architecture,
   }
 }
 
-export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null) {
+export async function startCompilationJob(buildDirForThisVerification, script, newWalletVersion, architecture, type, binaryFilePath = null, platform, appId = null, githubToken = null) {
   const jobInfo = `appId=${appId ?? 'n/a'} version=${newWalletVersion} platform=${platform} arch=${architecture ?? 'n/a'} type=${type ?? 'n/a'}`;
 
   return new Promise((resolve, reject) => {
@@ -522,7 +527,8 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
         PATH: process.env.PATH || '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
         HOME: process.env.HOME || '/tmp',
         XDG_CONFIG_HOME: process.env.XDG_CONFIG_HOME || '/tmp/.config',
-        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config'
+        ASCIINEMA_CONFIG_HOME: process.env.ASCIINEMA_CONFIG_HOME || '/tmp/.config',
+        GITHUB_TOKEN: githubToken || process.env.GITHUB_TOKEN || null
       }
     });
 

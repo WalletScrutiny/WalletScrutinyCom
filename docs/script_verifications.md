@@ -16,7 +16,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 6. The call parameters for the script must be the following:
 
 * For `android`, `desktop` or `hardware` wallets when a binary file is provided by the user:
-  - `--binary`: binary file of the app to test
+  - `--binary`: path to the binary file of the app to test
 
 * For `desktop` or `hardware` wallets, when a new version of the app is released (no binary file is provided by the user):
   - `--version`: version of the app (without the v prefix)
@@ -24,6 +24,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
   - `--type`: type of the app (bitcoin, multi, ...)
 
 7. Several combinations of architectures and types for the same application will be launched in parallel. The script must use different names for resources specific to each combination to avoid conflicts.
+8. If the script needs to download assets from GitHub, like dependencies or other files, it can use the GitHub token that the Automated Build Server provides. An environment variable called `GITHUB_TOKEN` will be available to the script.
 
 # Results File
 

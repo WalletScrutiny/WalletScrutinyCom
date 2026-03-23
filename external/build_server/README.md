@@ -1,6 +1,6 @@
 # Build Server App
 
-This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found.
+This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found, or an asset has been registered by a user into our Asset Registry.
 
 ## What does it do?
 
@@ -14,7 +14,7 @@ This Node.js application connects to Nostr to fetch verification scripts from wa
 ## Requirements
 - Node.js >= 18.6.0
 - asciinema
-- GitHub token (to refresh the desktop and hardware apps)
+- GitHub token (to refresh the desktop and hardware apps, and to download other assets and dependencies from GitHub)
 - Nostr private key from the `WalletScrutiny Bot` account
 
 ## Usage
@@ -80,9 +80,18 @@ sudo npm install
 ```bash
 sudo mkdir -p /opt/build-server-builds
 sudo chown -R build-server:build-server /opt/build-server-builds
-sudo setfacl -R -m u:build-server:rwx /opt/build-server-builds
-sudo setfacl -R -d -m u:build-server:rwx /opt/build-server-builds
 ```
+
+- Add rm script to the visudo file:
+```bash
+sudo visudo
+```
+
+Add the following line to the end of the file:
+```bash
+build-server ALL=(ALL) NOPASSWD: /opt/build-server/walletScrutinyCom/external/build_server/scripts/build-server-safe-rmdir.sh
+```
+and save the file.
 
 ### Install the service
 

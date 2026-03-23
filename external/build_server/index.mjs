@@ -42,7 +42,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
     await connectToNostr(wsBotNostrPrivateKey);
     const allVerificationsRaw = await getAllVerifications([WS_BOT_NOSTR_PUBKEY_HEX, ...APPROVED_VERIFIERS_PUBKEY_HEX]);
 
-    await verifyAssetsFromRegistry(allVerificationsRaw, appInfo);
+    await verifyAssetsFromRegistry(allVerificationsRaw, appInfo, githubToken);
 
     appLog.info('[QUEUE_INFO] Waiting for queue to drain...');
     await queue.onIdle();
@@ -110,7 +110,7 @@ async function mainProcess(githubToken, wsBotNostrPrivateKey) {
 
       if (compareVersions(highestVersionVerification.version, walletInfo.latestVersion) > 0) {
         appLog.info(`Wallet ${appId} has a newer version: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo)`);
-        await processNewReleaseVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications);
+        await processNewReleaseVerification(highestVersionVerification.verification, walletInfo.latestVersion, appInfo, wsBotVerifications, githubToken);
       } else {
         appLog.info(`There is no newer version of ${appId}: ${highestVersionVerification.version} (latest verification) ==> ${walletInfo.latestVersion} (latest version in wallet repo). Skipping...`);
         continue;
