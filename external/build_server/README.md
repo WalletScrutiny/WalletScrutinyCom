@@ -1,6 +1,6 @@
 # Build Server App
 
-This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found.
+This Node.js application connects to Nostr to fetch verification scripts from wallets that have "reproducible" status and downloads them locally for execution if a new version of the wallet is found, or an asset has been registered by a user into our Asset Registry.
 
 ## What does it do?
 
