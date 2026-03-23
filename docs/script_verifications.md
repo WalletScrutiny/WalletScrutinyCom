@@ -16,7 +16,7 @@ If you plan on creating a script to reproduce a Bitcoin wallet, we recommend tha
 6. The call parameters for the script must be the following:
 
 * For `android`, `desktop` or `hardware` wallets when a binary file is provided by the user:
-  - `--binary`: binary file of the app to test
+  - `--binary`: path to the binary file of the app to test
 
 * For `desktop` or `hardware` wallets, when a new version of the app is released (no binary file is provided by the user):
   - `--version`: version of the app (without the v prefix)
