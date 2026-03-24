@@ -1,5 +1,25 @@
 #!/bin/bash
 
+# This script performs a full WalletScrutiny data/content refresh pipeline.
+# It updates app metadata from stores, refreshes desktop/hardware sources,
+# updates donations data, regenerates derived assets, feature verification,
+# and more.
+#
+# You don't need to run this script unless you are actively testing or maintaining
+# a fork of WalletScrutiny. It can make broad repository changes, trigger external
+# API calls, and regenerate many files that are not intended for routine local work.
+#
+# Parameters:
+# -k <btcPayKey>   BTCPay API key used by refreshDonations.mjs.
+# -a <apps>        Comma-separated app IDs to refresh explicitly
+#                  (example: android/xx.yy.zz,iphone/aa.bb.cc).
+#                  If omitted, all apps are refreshed.
+# -g <githubToken> GitHub token required for desktop/hardware refresh tasks.
+#                  If omitted, desktop/hardware refresh is skipped.
+#
+# Environment:
+# PPQ_API_KEY      Optional key that enables the feature verification step.
+
 set -e    # Enable strict mode: stop on any error
 
 # run this using Docker:
