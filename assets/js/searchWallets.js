@@ -1,6 +1,7 @@
 // Core search functions
 function searchByWords(query, wallet) {
   const searchTermWords = query.length > 0 ? query.split(" ") : false;
+  const walletTitleUpper = String(wallet.title || '').toUpperCase();
   let walletAsStr = '';
   for (const [key, value] of Object.entries(wallet)) {
     walletAsStr += `${wallet.altTitle}${JSON.stringify(value)}${key}`;
@@ -14,7 +15,7 @@ function searchByWords(query, wallet) {
     const word2 =searchTermWords[i + 1] ? word + searchTermWords[i + 1] : false;
     const word3 =searchTermWords[i + 1] ? `${word} ${searchTermWords[i + 1]}` : false;
     const word4 = String(query);
-    if (wallet.title.indexOf(word4) >= 0) {
+    if (walletTitleUpper.indexOf(word4) >= 0) {
       result = wallet;
       wallet.matchRank = 0;
       wallet.matchData = "word4 title " + word4;
@@ -28,7 +29,7 @@ function searchByWords(query, wallet) {
     }
     if (walletAsStr.indexOf(word3) >= 0) {
       result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word4);
+      wallet.matchRank = walletAsStr.indexOf(word3);
       wallet.matchData = "word3 " + word3;
       break;
     }
