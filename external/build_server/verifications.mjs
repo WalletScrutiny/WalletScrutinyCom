@@ -22,6 +22,7 @@ import yaml from 'js-yaml';
 import { appLog, verificationsLog } from './logger.js';
 import { BLOSSOM_SERVER_URL, QUEUE_TIMEOUT_HOURS, QUEUE_CONCURRENCY, QUEUE_DEBUG_TIMEOUT_MINUTES, QUEUE_STATUS_INTERVAL_MINUTES } from './config/config.mjs';
 import { BUILD_DIR_PREFIX } from './index.mjs';
+import { open as openZip } from 'yauzl';
 
 // Tracks appIds of currently running jobs. Used by AppIdAwareQueue to prefer jobs from different apps.
 const runningAppIds = new Set();
@@ -150,6 +151,45 @@ export async function downloadFileFromBlossom(fileHash, destinationPath) {
       }
     }
   }
+}
+
+async function zipContainsBaseApk(zipFilePath) {
+  return new Promise((resolve, reject) => {
+    openZip(zipFilePath, { lazyEntries: true }, (err, zipFile) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      let resolved = false;
+
+      const finish = (value) => {
+        if (resolved) return;
+        resolved = true;
+        try {
+          zipFile.close();
+        } catch {
+          // Ignore close errors; we only care about the boolean result.
+        }
+        resolve(value);
+      };
+
+      zipFile.on('entry', (entry) => {
+        const fileName = entry.fileName;
+        const baseName = path.posix.basename(fileName);
+        if (baseName === 'base.apk') {
+          finish(true);
+          return;
+        }
+        zipFile.readEntry();
+      });
+
+      zipFile.on('end', () => finish(false));
+      zipFile.on('error', (zipErr) => reject(zipErr));
+
+      zipFile.readEntry();
+    });
+  });
 }
 
 export async function verifyAssetsFromRegistry(verifications, appInfo, githubToken) {
@@ -437,6 +477,20 @@ async function runJobWithPreparation({
       throw new Error(`File not found in Blossom (${downloadResult.error})`);
     }
     appLog.debug(`     - saved to ${downloadedFileNamePath}`);
+
+    if (
+      platform === 'android' &&
+      downloadedFileNamePath.toLowerCase().endsWith('.zip')
+    ) {
+      const hasBaseApk = await zipContainsBaseApk(downloadedFileNamePath);
+      if (!hasBaseApk) {
+        appLog.warn(
+          `     - base.apk not found inside ${downloadedFileNamePath}. Cannot run Android verification from this asset; skipping job.`
+        );
+        return null;
+      }
+    }
+
     binaryFilePath = downloadedFileNamePath;
   }
 
