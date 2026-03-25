@@ -394,6 +394,9 @@ window.renderAssetsTable = async function({
 
       const eventId = binary.id;
       const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
+      const artifactType = getFirstTagValue(binary, 'artifact_type');
+      const transportHash = getFirstTagValue(binary, 'transport-hash');
+      const transportUrl = getFirstTagValue(binary, 'transport-url');
 
       const sha256HashKey = item.sha256;
       const version = getFirstTagValue(binary, 'version');
@@ -495,6 +498,9 @@ window.renderAssetsTable = async function({
         }
       });
       const sanitizedFileName = fileName ? fileName.replace(/\s+/g, '-') : '';
+      const downloadableHashes = artifactType === 'split_apk_set' && transportHash
+        ? [{ hash: transportHash, url: transportUrl }]
+        : sha256Hashes.map(hash => ({ hash: hash[1], url: null }));
 
       const row = document.createElement('tr');
       // Use a class to track initially hidden rows instead of inline style
@@ -526,8 +532,8 @@ window.renderAssetsTable = async function({
           </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
-          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+          ${downloadableHashes.length > 0 ? downloadableHashes.map(download => `
+            <span id="blossom-${download.hash}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" data-url="${download.url || ''}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
           `).join('') : '-'}
         </td>
         <td>${verificationsList}</td>
@@ -709,9 +715,11 @@ window.renderAssetsTable = async function({
   const downloadBlossomFileWithDownloadIcon = async (hash, downloadIcon) => {
     showToast('Preparing file to download, wait a moment...', 'info', 12000);
     try {
+      const explicitDownloadUrl = downloadIcon.getAttribute('data-url');
+      const downloadUrl = explicitDownloadUrl || getBlossomFileURL(hash);
       // This makes the download process way slower, but it's
       // the only way to change to a different filename
-      const response = await fetch(getBlossomFileURL(hash));
+      const response = await fetch(downloadUrl);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
       const filenameFromURL = response.url?.split('/').pop() ?? hash;
