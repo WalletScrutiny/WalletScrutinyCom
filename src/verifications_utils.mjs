@@ -236,15 +236,26 @@ const getNostrProfile = async function (pubkey) {
   }
 
   // Fetch from network
-  await ensureNdkConnected();
-  const user = ndk.getUser({ pubkey });
-  const profile = await user.fetchProfile();
+  let profile;
+  try {
+    await ensureNdkConnected();
+    const user = ndk.getUser({ pubkey });
+    profile = await user.fetchProfile();
+  } catch (e) {
+    // NDK can throw if the remote profile content is not valid JSON.
+    // Treat this as "profile not available" rather than a hard failure.
+    console.debug(
+      `Nostr profile fetch failed for ${pubkey.substring(0, 8)}...`,
+      e && e.message ? e.message : e
+    );
+    return null;
+  }
   console.debug('🔄 Got profile from Nostr network for pubkey', pubkey, profile);
 
   const sanitizedProfile = {};
   const profileObj = profile && typeof profile === 'object' ? profile : {};
   Object.keys(profileObj).forEach(key => {
-    sanitizedProfile[key] = DOMPurify.sanitize(profileObj[key]);
+    sanitizedProfile[key] = DOMPurify.sanitize(String(profileObj[key] ?? ""));
   });
 
   console.debug('🔄 Sanitized profile for pubkey', pubkey, sanitizedProfile);
@@ -1084,7 +1095,10 @@ const backgroundSyncEvents = async function() {
       try {
         await getNostrProfile(pubkey);
       } catch (e) {
-        console.warn(`Failed to fetch profile for ${pubkey.substring(0, 8)}...`, e);
+        console.warn(
+          `Failed to fetch profile for ${pubkey.substring(0, 8)}...`,
+          e && e.message ? e.message : e
+        );
       }
     }
 
