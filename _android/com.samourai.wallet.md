@@ -14,7 +14,7 @@ updated: 2024-03-29
 version: VARY
 reviews: 
 website: https://samouraiwallet.com
-repository: https://code.samourai.io/wallet/samourai-wallet-android
+repository: https://github.com/Samourai-Wallet/samourai-wallet-android
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: removed
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Note:** This project is now maintained at [code.samourai.io/wallet/samourai-wallet-android](https://code.samourai.io/wallet/samourai-wallet-android).
 
 **Update 2024-04-29**: As of this date, {{ page.title }} has been taken down from Google Play Store. The website [has been seized by the US government](http://www.samouraiwallet.com). For more information detailing the founders' arrest, here is the article from the website of the [United States Attorney's Office.](https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering)
 

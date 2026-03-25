@@ -12,7 +12,7 @@ updated: 2024-03-25
 version: 1.3.1
 reviews: 3
 website: https://elitewallet.sc#deadLink
-repository: https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet
+repository: 
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
 meta: removed
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Note:** The recorded repository for this is [this Web Archive link](https://web.archive.org/web/20250316083801/https://github.com/Elite-Labs/EliteWallet).
 
 ## App Description from Google Play
 

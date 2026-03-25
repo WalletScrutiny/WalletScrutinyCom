@@ -16,7 +16,7 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/stakwork/sphinx-key/releases
+repository: https://github.com/stakwork/sphinx-key
 icon: 
 bugbounty: 
 meta: ok

@@ -12,7 +12,7 @@ updated: 2025-08-19
 version: 2.1.1
 reviews: 
 website: https://cryptopower.dev/
-repository: https://github.com/crypto-power/cryptopower/releases
+repository: https://github.com/crypto-power/cryptopower
 icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
 meta: ok

@@ -11,7 +11,7 @@ binaries:
 provider: Bitfury Holding B.V.
 providerWebsite: https://bitfury.com
 website: https://bitfurypeach.com
-repository: https://github.com/LightningPeach/peach-wallet-desktop/releases
+repository: https://github.com/LightningPeach/peach-wallet-desktop
 icon: lightningpeach.png
 bugbounty: 
 meta: obsolete
@@ -25,4 +25,3 @@ builds:
 features: 
 
 ---
-
