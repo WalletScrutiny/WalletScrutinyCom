@@ -12,7 +12,7 @@ updated: 2026-03-19
 version: '1.50'
 reviews: 1
 website: https://www.revolut.com/revolut-x/
-repository: https://github.com/orgs/revolut-engineering/repositories
+repository: 
 icon: com.revolut.revolutx.png
 bugbounty: 
 meta: ok
@@ -32,6 +32,8 @@ builds:
 features: 
 
 ---
+
+**Note:** The recorded repository for this points to the [Revolut Engineering GitHub organization repositories page](https://github.com/orgs/revolut-engineering/repositories), not to a specific repository.
 
 Revolut X [supports Bitcoin (BTC) deposits and withdrawals](https://help.revolut.com/help/wealth/cryptocurrencies/transferring-cryptocurrencies/withdrawing-cryptocurrencies/how-do-i-send-crypto-to-an-external-wallet) via the Bitcoin blockchain. This functionality is accessible to verified users, though still managed under a custodial framework. 
 

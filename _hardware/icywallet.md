@@ -16,7 +16,7 @@ website: https://icywallet.com
 shop: 
 country: US
 price: 
-repository: https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet
+repository: 
 icon: icywallet.png
 bugbounty: 
 meta: ok
@@ -30,6 +30,8 @@ builds:
 features: 
 
 ---
+
+**Note:** The recorded repository for this is [this Web Archive link](https://web.archive.org/web/20201113132658/https://github.com/neatnik/icywallet). Currently it is 404.
 
 ## Product Description 
 

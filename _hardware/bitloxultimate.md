@@ -21,7 +21,7 @@ website: https://www.bitlox.com/products/bitlox-ultimate
 shop: https://www.bitlox.com/products/bitlox-ultimate
 country: HK
 price: 148USD
-repository: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
+repository: https://github.com/BitLox/bitlox-firmware
 icon: bitloxultimate.png
 bugbounty: 
 meta: obsolete

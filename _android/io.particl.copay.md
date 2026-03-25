@@ -12,7 +12,7 @@ updated: 2020-05-30
 version: 5.5.1
 reviews: 17
 website: https://particl.io
-repository: https://github.com/particl/copay/commits/ratefix
+repository: https://github.com/particl/copay
 icon: io.particl.copay.png
 bugbounty: 
 meta: removed
@@ -28,6 +28,8 @@ builds:
 features: 
 
 ---
+
+**Note:** The recorded repository path for this is [particl/copay/commits/ratefix](https://github.com/particl/copay/commits/ratefix).
 
 This app is obsolete and there are some scam allegations. We did not download this app, as it was meant for an older version of Android.   
 

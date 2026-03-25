@@ -20,7 +20,7 @@ website: https://trezor.io
 shop: https://trezor.io/trezor-safe-5
 country: CZ
 price: 169USD
-repository: https://github.com/trezor/data/tree/master/firmware/t3t1
+repository: https://github.com/trezor/trezor-firmware
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
@@ -47,6 +47,8 @@ builds:
 features: 
 
 ---
+
+**Note:** Trezor's repository is structured in this way for this device: [trezor/data/tree/master/firmware/t3t1](https://github.com/trezor/data/tree/master/firmware/t3t1)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1EVzbNPn6bc?si=vv88okupfrEmtEff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

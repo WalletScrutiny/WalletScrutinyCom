@@ -13,7 +13,7 @@ updated: 2026-02-05
 version: 2.4.4
 reviews: 13
 website: 
-repository: https://github.com/cypherstack/stack_wallet/tags
+repository: https://github.com/cypherstack/stack_wallet
 icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
