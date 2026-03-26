@@ -232,7 +232,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     // For split APK assets (Android zip uploads), x[0] is the zip transport hash
     // and x[1] is the base APK hash. Verifications are indexed by the APK hash
     // (matching the site-side MR !1405 asset lookup key), so use x[1] when present.
-    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
     const verificationHash = (platform === 'android' && allHashes.length > 1)
       ? allHashes[1]
       : fileHash;

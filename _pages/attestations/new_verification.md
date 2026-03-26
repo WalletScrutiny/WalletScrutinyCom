@@ -715,7 +715,7 @@ permalink: /new_verification/
     const action = urlParams.get('action');
 
     if ((draftVerificationEventId || verificationEventId) && action) {
-      if (draftVerificationEventId) {
+      if (draftVerificationEventId && draftVerificationEventId.length === 64) {
         const draftButton = document.querySelector('button[name="draft"]');
         if (draftButton) {
           draftButton.textContent = 'Save Draft Verification';
@@ -786,7 +786,7 @@ permalink: /new_verification/
         document.getElementById('content').value = eventContent.content || '';
         document.getElementById('issueTrackerUrl').value = getFirstTagValue(verificationEvent, 'issue-tracker-url') || '';
 
-        const hashes = verificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+        const hashes = verificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64) || [];
         hashes.forEach(hash => addHash(hash));
       } else {
         showToast('Draft or verification not found', 'error');

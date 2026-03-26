@@ -693,7 +693,7 @@ const getEndorsementsFromVerificationEventIds = async function(verificationEvent
   // Group endorsements by the value of the 'e' tag (verification event id)
   const grouped = {};
   for (const endorsement of endorsements) {
-    const eTag = endorsement.tags.find(tag => tag[0] === 'e');
+    const eTag = endorsement.tags.find(tag => tag[0] === 'e').filter(id => id.length === 64);
     if (eTag && eTag[1]) {
       if (!grouped[eTag[1]]) {
         grouped[eTag[1]] = [];
@@ -1190,7 +1190,7 @@ function processEventsToResult(events, oldestEventTimestamp) {
   const draftVerificationsMap = new Map();
 
   const getAssetLookupHash = asset => {
-    const hashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    const hashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
     if (hashes.length === 0) {
       return null;
     }
@@ -1511,7 +1511,7 @@ function getAppInfoFromEventInfo(eventInfo) {
   const status = getFirstTagValue(eventInfo, 'status');
   const url = getFirstTagValue(eventInfo, 'url');
   const gitRevision = getFirstTagValue(eventInfo, 'git_revision');
-  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
 
   return {
     isAsset,
