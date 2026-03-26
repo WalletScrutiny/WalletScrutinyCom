@@ -1183,7 +1183,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>`;
 
   const basedOn = getFirstTagValue(verification, 'based-on');
-  if (basedOn && basedOn.length === 64) {
+  if (basedOn) {
     content.innerHTML += `<p><strong>Based on an attempt by:</strong> <span id="based-on-attempt-by"></span></p>`;
   }
 
