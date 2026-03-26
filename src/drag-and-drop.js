@@ -247,6 +247,8 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
   platform    = appInfoFromNostr?.platform ?? app?.folder ?? null;
   appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
 
+  const platformLegacy = ['linux', 'windows', 'macos'].includes(platform) ? 'desktop' : platform;
+
   let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
 
   if (appId) {
@@ -311,7 +313,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
   }
 
   if (app && !isPageForAppId(appId)) {
-    fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
+    fileInfoHtml += `<li>You can go to the <a href="/${platformLegacy}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
   }
 
   fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
