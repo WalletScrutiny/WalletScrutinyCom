@@ -229,6 +229,15 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
     const fileHash = getFirstTagValue(asset, 'x');
     appLog.debug(`     - file hash found: ${fileHash}`);
 
+    // For split APK assets (Android zip uploads), x[0] is the zip transport hash
+    // and x[1] is the base APK hash. Verifications are indexed by the APK hash
+    // (matching the site-side MR !1405 asset lookup key), so use x[1] when present.
+    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    const verificationHash = (platform === 'android' && allHashes.length > 1)
+      ? allHashes[1]
+      : fileHash;
+    appLog.debug(`     - verification hash: ${verificationHash}`);
+
     let archAndType = null;
     if (legacyPlatform === 'android') {
       archAndType = { architecture: null, type: null };
@@ -257,6 +266,7 @@ export async function verifyAssetsFromRegistry(verifications, appInfo, githubTok
       type,
       fileEventIdsForSHFiles: [verification.buildShFileEvent.id],
       fileHash,
+      verificationHash,
       jobType: 'asset',
       buildShFileEvent: verification.buildShFileEvent,
       downloadedFileName,
@@ -381,6 +391,7 @@ export async function addJobToQueue({
   type,
   fileEventIdsForSHFiles,
   fileHash,
+  verificationHash,
   jobType,
   buildShFileEvent,
   downloadedFileName,
@@ -401,6 +412,7 @@ export async function addJobToQueue({
     type,
     fileEventIdsForSHFiles,
     fileHash,
+    verificationHash,
     jobType,
     buildShFileEvent,
     downloadedFileName,
@@ -441,7 +453,7 @@ export async function addJobToQueue({
       architecture,
       type,
       fileEventIdsForSHFiles,
-      fileHash,
+      verificationHash ?? fileHash,
       binaryFilePath
     );
   });
@@ -456,6 +468,7 @@ async function runJobWithPreparation({
   type,
   fileEventIdsForSHFiles,
   fileHash,
+  verificationHash,
   jobType,
   buildShFileEvent,
   downloadedFileName,

@@ -223,12 +223,26 @@ export function filterAssetsWithoutVerification(assets, verifications) {
   );
 
   for (const asset of assets) {
-    const sha256 = getFirstTagValue(asset, 'x');
     const appId = getFirstTagValue(asset, 'i');
     const version = getFirstTagValue(asset, 'version');
+    const platform = getFirstTagValue(asset, 'platform');
     const isInDebugList = debugPairs.has(`${appId}\0${version}`);
 
-    const hasNoVerification = sha256 && !verifications.has(sha256);
+    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    const isSplitAndroid = platform === 'android' && allHashes.length > 1;
+
+    // Primary lookup hash: x[1] (inner APK hash) for split Android assets going
+    // forward; x[0] for everything else (single APK, desktop, hardware).
+    const sha256 = isSplitAndroid ? allHashes[1] : (allHashes[0] ?? null);
+
+    // For split Android assets, also accept old verifications keyed on x[0]
+    // (zip hash) so assets verified before the hash-model change are not
+    // re-queued and do not produce duplicate verifications.
+    const isVerified = isSplitAndroid
+      ? (verifications.has(allHashes[0]) || verifications.has(allHashes[1]))
+      : (sha256 && verifications.has(sha256));
+
+    const hasNoVerification = sha256 && !isVerified;
     const shouldInclude = (hasNoVerification || isInDebugList) && sha256 && !seenSha256.has(sha256);
 
     if (shouldInclude) {
