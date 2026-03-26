@@ -13,6 +13,17 @@ let attachments = [];
 let endorsements = [];
 const attachmentDataStore = {};   // Define a store for attachment data globally accessible (from the global table and from each verification)
 
+const getHashTags = event => (event.tags?.filter(tag => tag[0] === 'x') || []);
+const getDownloadHash = event => getHashTags(event)[0]?.[1] || null;
+const getVerificationLookupHash = event => getHashTags(event)[1]?.[1] || getHashTags(event)[0]?.[1] || null;
+const getPrimaryFileName = event => {
+  const primaryFileTag = event.tags?.find(tag => tag[0] === 'file');
+  if (primaryFileTag?.[1]) {
+    return primaryFileTag[1];
+  }
+  return getFirstTagValue(event, 'file-name');
+};
+
 // Filter table rows
 async function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
@@ -393,7 +404,9 @@ window.renderAssetsTable = async function({
       const date = formatDate(binary.created_at);
 
       const eventId = binary.id;
-      const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
+      const sha256Hashes = getHashTags(binary).slice(0, 6);
+      const downloadHash = getDownloadHash(binary);
+      const verificationLookupHash = item.sha256 || getVerificationLookupHash(binary);
 
       const sha256HashKey = item.sha256;
       const version = getFirstTagValue(binary, 'version');
@@ -419,8 +432,8 @@ window.renderAssetsTable = async function({
       // Get description, guess if it's an asset or a verification
       const itemDescription = binary.kind === assetRegistrationKind ? binary.content : JSON.parse(binary.content).description;
 
-      const standardAttestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
-      const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const standardAttestations = response.verifications.get(verificationLookupHash) || [];
+      const draftAttestations = response.draftVerifications.get(verificationLookupHash) || [];
       const attestations = [...standardAttestations, ...draftAttestations];
 
       let verificationsList;
@@ -488,7 +501,7 @@ window.renderAssetsTable = async function({
       let fileName = '';
       item.items.forEach(item => {
         if (item.kind === assetRegistrationKind) {
-          const fileNameFromAssetRegistration = getFirstTagValue(item, 'file-name');
+          const fileNameFromAssetRegistration = getPrimaryFileName(item);
           if (fileNameFromAssetRegistration) {
             fileName = fileNameFromAssetRegistration.replace(/\s+/g, '-');
           }
@@ -526,9 +539,9 @@ window.renderAssetsTable = async function({
           </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
-          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
-          `).join('') : '-'}
+          ${downloadHash ? `
+            <span id="blossom-${downloadHash}" data-appid="${identifier}" data-platform="${platform}" data-version="${version}" data-filename="${sanitizedFileName}" class="blossom-download" style="display: none; cursor: pointer;" title="Download from Blossom">💾</span>
+          ` : '-'}
         </td>
         <td>${verificationsList}</td>
         <td>${date}</td>`;

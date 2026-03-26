@@ -1189,8 +1189,16 @@ function processEventsToResult(events, oldestEventTimestamp) {
   const verificationsMap = new Map();
   const draftVerificationsMap = new Map();
 
+  const getAssetLookupHash = asset => {
+    const hashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    if (hashes.length === 0) {
+      return null;
+    }
+    return hashes.length > 1 ? hashes[1] : hashes[0];
+  };
+
   assets.forEach(asset => {
-    const sha256FromEventTag = getFirstTagValue(asset, 'x', null);
+    const sha256FromEventTag = getAssetLookupHash(asset);
     if (sha256FromEventTag) {
       if (!assetsMap.has(sha256FromEventTag)) {
         assetsMap.set(sha256FromEventTag, []);
