@@ -146,7 +146,7 @@ export function getAppIdsFromVerifications(verifications) {
 }
 
 export function getFileAttachmentIDsForVerificationEvent(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
+  return event.getMatchingTags("file-attachment").map(tag => tag[1]).filter(id => id.length === 64) || [];
 }
 
 export async function filterVerificationsWithBuildScripts(verifications) {
@@ -228,7 +228,7 @@ export function filterAssetsWithoutVerification(assets, verifications) {
     const platform = getFirstTagValue(asset, 'platform');
     const isInDebugList = debugPairs.has(`${appId}\0${version}`);
 
-    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+    const allHashes = asset.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]).filter(id => id.length === 64);
     const isSplitAndroid = platform === 'android' && allHashes.length > 1;
 
     // Primary lookup hash: x[1] (inner APK hash) for split Android assets going
