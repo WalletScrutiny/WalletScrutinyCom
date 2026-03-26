@@ -633,7 +633,7 @@ function eventSanitize(event) {
 }
 
 const getFileAttachmentIDsForVerificationEvent = function(event) {
-  return event.getMatchingTags("file-attachment").map(tag => tag[1]) || [];
+  return event.getMatchingTags("file-attachment").map(tag => tag[1]).filter(id => id.length === 64) || [];
 }
 
 const uploadFileAttachment = async function({ fileName, fileType, fileSize, base64Data }) {
