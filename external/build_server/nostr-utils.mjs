@@ -298,7 +298,7 @@ export async function createVerification(ndkInstance, {
   }
 
   const ndkEvent = new NDKEvent(ndkInstance);
-  ndkEvent.kind = 30301;
+  ndkEvent.kind = verificationKind;
   ndkEvent.content = fullContent;
   ndkEvent.created_at = Math.floor(new Date(createdAt).getTime() / 1000);
   ndkEvent.tags = tags;
