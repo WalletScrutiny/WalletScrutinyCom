@@ -91,7 +91,7 @@ Note: for "based-on", we save the author-pubkey alongside the verification-event
 
 A user can endorse a verification by creating an event with the structure defined here: https://nostrhub.io/naddr1qvzqqqrcvypzp384u7n44r8rdq74988lqcmggww998jjg0rtzfd6dpufrxy9djk8qqxxzar5v4ehgct5d9hkuucwjpt8v
 
-Only the part of the specification for events with kind 31871 (Attestation)will be implemented.
+Only the part of the specification for events with kind 31871 (Attestation) will be implemented.
 
 #### Verification Draft
 
