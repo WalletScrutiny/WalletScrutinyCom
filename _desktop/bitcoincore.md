@@ -33,6 +33,18 @@ builds:
   types:
     tarball:
     - bitcoin-*-arm-linux-gnueabihf.tar.gz
+- arch: riscv64-linux
+  types:
+    tarball:
+    - bitcoin-*-riscv64-linux-gnu.tar.gz
+- arch: ppc64-linux
+  types:
+    tarball:
+    - bitcoin-*-powerpc64-linux-gnu.tar.gz
+- arch: ppc64le-linux
+  types:
+    tarball:
+    - bitcoin-*-powerpc64le-linux-gnu.tar.gz
 - arch: x86_64-windows
   types:
     zip:
