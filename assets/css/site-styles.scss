@@ -7,6 +7,11 @@
 @use "verifications.css";
 @use "user-profile.css";
 
+/* Fix oversized cursor/text in asciicast player (#887) */
+.asciicast-player pre.ap-terminal {
+  font-size: 14px !important;
+}
+
 // START Verdicts
 .verdict {
   font-weight: bold;
