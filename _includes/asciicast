@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.min.css" />
-<div id="ascii_cast_player"></div>
+<div id="ascii_cast_player" class="asciicast-player"></div>
 <script src="/assets/js/asciinema-player.min.js"></script>
 <script>
   AsciinemaPlayer.create(
