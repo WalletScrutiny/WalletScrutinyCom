@@ -41,13 +41,12 @@ features:
 - segwit
 - taproot
 - multiSig
-- selfBuild
 
 ---
 
 ## Device Description
 
-OneKey Classic is a hardware Bitcoin and multi-cryptocurrency wallet running C firmware on an STM32F205 ARM Cortex-M3 MCU, derived from the Trezor One open-source codebase and extended with support for 100+ assets (Bitcoin, EVM chains, Solana, Aptos, ADA, TRON, and more) via a Poetry-orchestrated protobuf message pipeline. The device features a 1.54-inch 128×64 OLED display and physical confirmation buttons for offline transaction signing, with private keys generated and stored exclusively on-device. Firmware is built using an ARM GCC cross-compiler in a Nix-pinned shell environment with `SOURCE_DATE_EPOCH` set to a fixed epoch and SHA-locked submodules including libopencm3 and secp256k1-zkp.
+OneKey Classic is a hardware Bitcoin and multi-cryptocurrency wallet whose C firmware is a fork of the Trezor One codebase, licensed under GPL v3 and built with an ARM cross-compiler inside a Nix-pinned shell (`prebuild.yml` installs dependencies via `nix-shell --run "poetry install"`). The device has a 1.54-inch 128×64 OLED display and physical confirmation buttons; signing logic in `legacy/firmware/signing.c` covers SegWit, Taproot, and multisig inputs. Private keys are derived from a BIP39 mnemonic and, per the provider, are created and stored exclusively on-device.
 
 ## Private keys are created offline - ✔️
 
@@ -85,9 +84,8 @@ The wallet can then be connected to the OneKey [Desktop client](https://onekey.s
 
 This device is **source-available**.
 
-{% include featureEvidence.html feature="hd" source="[GitHub README](https://github.com/OneKeyHQ/firmware)" quote="All accounts and keys are derived from a BIP39 mnemonic seed." %}
-{% include featureEvidence.html feature="foss" source="[GitHub repo](https://github.com/OneKeyHQ/firmware)" quote="GNU GENERAL PUBLIC LICENSE Version 3" %}
-{% include featureEvidence.html feature="segwit" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Bech32/SegWit address types supported in signing pipeline" %}
-{% include featureEvidence.html feature="taproot" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Taproot/Bech32m (P2TR) address type supported" %}
-{% include featureEvidence.html feature="multiSig" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Multisig signing supported in firmware" %}
-{% include featureEvidence.html feature="selfBuild" source="[GitHub Actions](https://github.com/OneKeyHQ/firmware/blob/onekey/.github/workflows/build-classic.yml)" quote="CI builds Classic firmware from source using Nix-pinned toolchain" %}
+{% include featureEvidence.html feature="hd" source="[firmware/fsm_msg_common.h](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/fsm_msg_common.h)" quote="Mnemonic with wrong checksum provided" %}
+{% include featureEvidence.html feature="foss" source="[COPYING](https://github.com/OneKeyHQ/firmware/blob/onekey/COPYING)" quote="GNU GENERAL PUBLIC LICENSE Version 3" %}
+{% include featureEvidence.html feature="segwit" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Segwit not enabled on this coin" %}
+{% include featureEvidence.html feature="taproot" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Taproot not enabled on this coin." %}
+{% include featureEvidence.html feature="multiSig" source="[firmware/signing.c](https://github.com/OneKeyHQ/firmware/blob/onekey/legacy/firmware/signing.c)" quote="Error computing multisig fingerprint" %}
