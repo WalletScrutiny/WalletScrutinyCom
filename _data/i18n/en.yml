@@ -1,0 +1,19 @@
+# English translations (default)
+lang_name: "English"
+
+# Navigation
+nav_verifications: "Verifications"
+nav_methodology: "Methodology"
+nav_about: "About"
+nav_donate: "Donate"
+
+# Common strings
+search_placeholder: "Search wallet reviews..."
+notifications: "Notifications"
+toggle_theme: "Toggle light/dark website theme"
+
+# Navigation HTML (with div tags)
+nav_verifications_html: "Verifications"
+nav_methodology_html: "Methodology"
+nav_about_html: "About"
+nav_donate_html: "Donate"

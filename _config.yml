@@ -323,9 +323,19 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 plugins:
   - jekyll-redirect-from
   - jekyll-include-cache
+  - jekyll-polyglot
 whitelist:
   - jekyll-feed
   - jemoji
+
+# Polyglot (Multi-language support)
+languages: ["en"]
+default_lang: "en"
+exclude_from_localization: ["assets", "images", "css", "js"]
+parallel_localization: true
+lang_from_lang:
+  en: "English"
+  es: "Español"
 
 # HTML Compression - http://jch.penibelst.de/
 compress_html:

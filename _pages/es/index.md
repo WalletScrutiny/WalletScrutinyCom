@@ -1,9 +1,10 @@
 ---
 permalink: /
+lang: es
 page_id: home
-title: "Know your wallet like you built it."
-summary: "WalletScrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure."
-excerpt: "Not everyone is a developer. Not everyone has to be."
+title: "Conoce tu wallet como si la hubieras construido."
+summary: "WalletScrutiny ayuda a usuarios cotidianos de bitcoin a verificar si su wallet es verdaderamente open-source y segura."
+excerpt: "No todos son desarrolladores. No todos tienen que serlo."
 author_profile: true
 ---
 

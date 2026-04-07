@@ -1,0 +1,19 @@
+# Spanish translations
+lang_name: "Español"
+
+# Navigation
+nav_verifications: "Verificaciones"
+nav_methodology: "Metodología"
+nav_about: "Acerca de"
+nav_donate: "Donar"
+
+# Common strings
+search_placeholder: "Buscar reseñas de wallets..."
+notifications: "Notificaciones"
+toggle_theme: "Cambiar tema claro/oscuro"
+
+# Navigation HTML (with div tags)
+nav_verifications_html: "<div>Verificaciones</div>"
+nav_methodology_html: "<div>Metodología</div>"
+nav_about_html: "<div>Acerca de</div>"
+nav_donate_html: "<div>Donar</div>"

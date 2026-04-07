@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+page_id: about
 author_profile: true
 ---
 
