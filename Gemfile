@@ -18,6 +18,7 @@ gem "jekyll", "~> 4.4.1"
 group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-include-cache'
+  gem 'jekyll-polyglot'
 end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"

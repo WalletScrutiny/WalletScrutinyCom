@@ -1,0 +1,74 @@
+{% include base_path %}
+
+<div class="language-selector">
+  <select id="language-select" aria-label="Select language">
+    {% for lang in site.languages %}
+      <option value="{{ lang }}">
+        {{ site.lang_from_lang[lang] }}
+      </option>
+    {% endfor %}
+  </select>
+</div>
+
+<script>
+  (function() {
+    const defaultLang = '{{ site.default_lang }}';
+    const langs = {{ site.languages | jsonify }};
+    const currentPath = window.location.pathname;
+    const select = document.getElementById('language-select');
+    
+    // Detect current language from URL
+    let currentLang = defaultLang;
+    for (let i = 0; i < langs.length; i++) {
+      const langCode = langs[i];
+      if (langCode !== defaultLang && (currentPath === '/' + langCode || currentPath.startsWith('/' + langCode + '/'))) {
+        currentLang = langCode;
+        break;
+      }
+    }
+    
+    // Set selected language
+    select.value = currentLang;
+    
+    // Add change event
+    select.addEventListener('change', function() {
+      switchLanguage(this.value);
+    });
+  })();
+  
+  function switchLanguage(targetLang) {
+    const currentPath = window.location.pathname;
+    const defaultLang = '{{ site.default_lang }}';
+    const langs = {{ site.languages | jsonify }};
+    
+    // Remove current language prefix if present
+    let pathWithoutLang = currentPath;
+    for (let i = 0; i < langs.length; i++) {
+      const langCode = langs[i];
+      if (langCode !== defaultLang) {
+        const prefix = '/' + langCode;
+        if (currentPath.startsWith(prefix + '/')) {
+          pathWithoutLang = currentPath.substring(prefix.length);
+          break;
+        } else if (currentPath === prefix) {
+          pathWithoutLang = '/';
+          break;
+        }
+      }
+    }
+    
+    // Add new language prefix if not default
+    let newPath;
+    if (targetLang === defaultLang) {
+      newPath = pathWithoutLang;
+    } else {
+      if (pathWithoutLang === '/') {
+        newPath = '/' + targetLang;
+      } else {
+        newPath = '/' + targetLang + pathWithoutLang;
+      }
+    }
+    
+    window.location.href = newPath;
+  }
+</script>
