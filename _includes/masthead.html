@@ -1,6 +1,4 @@
 {% include base_path %}
-{% assign lang = page.lang | default: site.active_lang | default: site.default_lang %}
-{% assign i18n = site.data.i18n[lang] %}
 
 <div class="masthead" {% if site.environment == "development" %}
   style="background-color: #83ae23"
@@ -10,7 +8,7 @@
       <a class="masthead-logo-link" href="{{ base_path }}/" alt="{{ site.title }}"><div class="masthead-logo" alt="{{ site.title }}" title="{{ site.title }}" ></div></a>
       {% if include.is_home == false %}
       <div class="wallet-search">
-        <input class="searchbar" type="text" placeholder="{{ i18n.search_placeholder }}" />
+        <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
         <div class="search-controls">
           <i class="fas fa-circle-notch"></i>
           <i class="fas fa-times reset-search"></i>
@@ -24,13 +22,16 @@
         <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
         <ul class="visible-links">
           <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
-          <li class="masthead__menu-item"><a href="{{ base_path }}/verifications/"><div>{{ i18n.nav_verifications_html }}</div></a></li>
-          <li class="masthead__menu-item"><a href="{{ base_path }}/methodology/"><div>{{ i18n.nav_methodology_html }}</div></a></li>
-          <li class="masthead__menu-item"><a href="{{ base_path }}/about/"><div>{{ i18n.nav_about_html }}</div></a></li>
-          <li class="masthead__menu-item"><a href="{{ base_path }}/donate/"><div>{{ i18n.nav_donate_html }}</div></a></li>
-          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="{{ i18n.notifications }}"><i class="fas fa-bell"></i></a></li>
-          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="{{ i18n.toggle_theme }}"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
-          <li class="masthead__menu-item">{% include language-selector.html %}</li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications"><i class="fas fa-bell"></i></a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
         </ul>
         <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
@@ -45,7 +46,7 @@
 
 <div id="notificationsPanel" class="notifications-panel" style="display: none;">
   <div class="notifications-header">
-    <h3>{{ i18n.notifications }}</h3>
+    <h3>Notifications</h3>
     <button class="close-notifications" onclick="hideNotifications()"><i class="fas fa-times"></i></button>
   </div>
   <div class="notifications-list"></div>
