@@ -449,33 +449,3 @@
     font-weight: 700;
   }
 }
-
-/* Language Selector */
-/* Hide by default. Set display: flex to enable the language selector. */
-.language-selector {
-  display: none;
-  align-items: center;
-  list-style-type: none;
-
-  select {
-    background: var(--accent-50, #f0f0f0);
-    color: var(--accent-text, #333);
-    border: 1px solid var(--border-color, #ccc);
-    border-radius: 3px;
-    padding: 5px 10px;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    height: auto;
-    line-height: 1;
-    
-    &:hover {
-      box-shadow: 0 0 0 1px var(--accent, #666);
-    }
-
-    &:focus {
-      outline: none;
-      box-shadow: 0 0 0 2px var(--accent, #666);
-    }
-  }
-}

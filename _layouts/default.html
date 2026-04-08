@@ -12,8 +12,7 @@ layout: compress
   <body class="vibrant">
     {% include_cached browser-upgrade.html %}
     {% if page.url == "/" %}{% assign is_home = true %}{% else %}{% assign is_home = false %}{% endif %}
-    {% assign current_lang = site.active_lang | default: site.default_lang %}
-    {% include_cached masthead.html is_home=is_home lang=current_lang %}
+    {% include_cached masthead.html is_home=is_home %}
 
     {{ content }}
 

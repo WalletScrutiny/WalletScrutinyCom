@@ -41,8 +41,6 @@ GEM
       webrick (~> 1.7)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
-    jekyll-polyglot (1.12.0)
-      jekyll (>= 4.0, >= 3.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
@@ -89,7 +87,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4.1)
   jekyll-include-cache
-  jekyll-polyglot
   jekyll-redirect-from
   sass-embedded (= 1.79.6)
   tzinfo (~> 1.2)
