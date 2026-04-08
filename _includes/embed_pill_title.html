@@ -1,5 +1,0 @@
-{% assign pill_verdicts = "obfuscated,sourceavailable" | split: "," %}
-
-{% if pill_verdicts contains page.verdict and page.meta == "ok" %}
-    <div class="label" data-for="embed-pill" data-text="Embed" data-suffix="a button on your website"></div>
-{% endif %}

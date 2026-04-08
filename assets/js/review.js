@@ -36,17 +36,6 @@ function verdictBadge(v) {
   return `<a id="${v}" href="/methodology/#${v}" class="verdictBadge ${v}"><span>${window.verdicts[v].short}</span></a>`
 }
 
-// TAB VIEW
-
-document.querySelectorAll(".tab-view .label").forEach((ele) => {
-  ele.addEventListener("click", (event) => {
-    const self = event.target
-    document.querySelectorAll(".active").forEach((active) => { active.classList.remove('active') })
-    self.classList.add("active")
-    document.querySelector(`.${self.getAttribute("data-for")}`).classList.add("active")
-  })
-})
-
 
 if (document.querySelector(".app_logo_big")) {
   let imgObj = new Image();
