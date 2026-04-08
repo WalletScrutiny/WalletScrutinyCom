@@ -49,10 +49,6 @@ body.dark .markdown-content code {
   max-width: 100%;
 }
 
-/* Asciinema player text size */
-pre.ap-terminal .ap-line span {
-  font-size: 13px;
-}
 
 /* Tables */
 thead {
