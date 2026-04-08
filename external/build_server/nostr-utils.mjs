@@ -8,9 +8,9 @@ import {
   wsBotPublicKey,
   nip89ClientTagD,
   mainRelayUrl
-} from '../../src/nostr-constants.mjs';
+} from './nostr-constants.mjs';
 import { appLog } from './logger.js';
-import { calculateFileHash, isDebugEnv, getFirstTagValue } from './utils.mjs';
+import { calculateFileHash, getFirstTagValue } from './utils.mjs';
 
 const blossomServerUrl = 'https://files.nostr.info';
 
