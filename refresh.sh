@@ -108,19 +108,6 @@ if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   fi
 fi
 
-echo " * Generating Twitter cards..."
-if ! node scripts/twitterCardGen.mjs; then
-  echo "❌ ERROR: Failed to generate Twitter cards"
-  exit 1
-fi
-
-wait
-
-echo " * Generating verdict pills..."
-if ! ./scripts/pillGen.sh; then
-    echo "❌ ERROR: Failed to generate verdict pills (pillGen.sh)"
-    exit 1
-fi
 wait
 
 echo " * Calling refreshResults.sh..."
