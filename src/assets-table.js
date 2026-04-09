@@ -1284,21 +1284,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>
   </p>`;
 
-  // Asciicast special treatment (legacy asciasts can only be played on old verifications)
-  if (firstAsciicastFileSHA256 || (verification.content.includes('ascii_cast_player') && verification.created_at < 1746607369)) {
-    let castURL;
-    if (firstAsciicastFileSHA256) {
-      castURL = getBlossomFileURL(firstAsciicastFileSHA256);
-    } else {
-      if (!platform) {    // Extract platform from the URL path
-        const urlParts = window.location.pathname.split('/').filter(Boolean);
-        if (urlParts.length > 0) {
-          platform = urlParts[0];
-        }
-      }
-
-      castURL = '/assets/casts/' + platform + '/' + appId + '.cast';
-    }
+  if (firstAsciicastFileSHA256) {
+    const castURL = getBlossomFileURL(firstAsciicastFileSHA256);
 
     // Check if asciinema player assets are already loaded
     const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
