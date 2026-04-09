@@ -24,7 +24,7 @@ signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
 twitter:
 social:
 redirect_from:
-developerName: anton kumaigorodski
+developerName: 
 builds:
 features:
   - ln
