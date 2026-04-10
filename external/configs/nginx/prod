@@ -1,12 +1,19 @@
 server {
     server_name walletscrutiny.com;
-    add_header Permissions-Policy "interest-cohort=()";
-    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
-    location /.well-known/nostr.json {
-        add_header Access-Control-Allow-Origin "*";
-    }
     root /home/leo/wsg;
     index index.html;
+    listen 443 ssl;
+    http2 on;
+    server_tokens off;
+    brotli_static on;
+    sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+
+    ssl_certificate /etc/letsencrypt/live/walletscrutiny.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/walletscrutiny.com/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
     access_log /var/log/nginx/access_walletscrutiny.log;
     error_log /var/log/nginx/error_walletscrutiny.log;
@@ -20,51 +27,34 @@ server {
         internal;
     }
 
-    listen 443 ssl http2;
-    ssl_certificate /etc/letsencrypt/live/beta.walletscrutiny.com/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/beta.walletscrutiny.com/privkey.pem; # managed by Certbot
-    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-    server_tokens off;
-    brotli_static on;
-
-    sendfile on;
-    tcp_nopush on;
-    tcp_nodelay on;
-
+    location /.well-known/nostr.json {
+        add_header Access-Control-Allow-Origin "*";
+    }
     location ~* \.(html|htm)$ {
         expires 1h;
-        add_header Cache-Control "public, must-revalidate";
-        add_header Vary Accept-Encoding;
     }
     location ~* bundle\.min\.js$ {
         expires 100y;
-        add_header Cache-Control "public, immutable";
-        add_header Vary Accept-Encoding;
     }
     location ~* \.(css|js)$ {
         expires 3h;
-        add_header Cache-Control "public, immutable";
-        add_header Vary Accept-Encoding;
     }
     location ~* \.(jpg|jpeg|png|gif|ico|svg)$ {
         expires 1d;
-        add_header Cache-Control "public, immutable";
     }
     location ~* \.(woff|woff2|ttf)$ {
         expires 1y;
-        add_header Cache-Control "public, must-revalidate";
-        add_header Vary Accept-Encoding;
     }
+
+    add_header Permissions-Policy "interest-cohort=()";
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
+    add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src *; font-src 'self'; connect-src *; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' 'https://pos.btcpay.nz';" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 }
 
 server {
-    add_header Permissions-Policy "interest-cohort=()";
-    if ($host = walletscrutiny.com) {
-        return 301 https://$host$request_uri;
-    }
-
     server_name walletscrutiny.com;
     listen 80;
-    return 404;
+    return 301 https://$host$request_uri;
 }
