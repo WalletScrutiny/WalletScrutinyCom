@@ -1,8 +1,11 @@
 server {
     server_name beta.walletscrutiny.com;
-    add_header  Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
     root /home/leo/wsg_beta/www;
     index index.html;
+    listen 443 ssl;
+    http2 on;
+    server_tokens off;
+    brotli_static on;
 
     access_log /var/log/nginx/access_walletscrutiny_beta.log;
 
@@ -11,21 +14,20 @@ server {
         internal;
     }
 
-    listen 443 ssl http2;
     ssl_certificate /etc/letsencrypt/live/beta.walletscrutiny.com/fullchain.pem; # managed by Certbot
     ssl_certificate_key /etc/letsencrypt/live/beta.walletscrutiny.com/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-    server_tokens off;
-    brotli_static on;
+
+    add_header Permissions-Policy "interest-cohort=()";
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload;";
+    add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src *; font-src 'self'; connect-src *; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' 'https://pos.btcpay.nz';" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
 }
 
 server {
-    if ($host = beta.walletscrutiny.com) {
-        return 301 https://$host$request_uri;
-    }
-
     server_name beta.walletscrutiny.com;
     listen 80;
-    return 404;
+    return 301 https://$host$request_uri;
 }
