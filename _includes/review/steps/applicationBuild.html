@@ -26,6 +26,7 @@
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',
+              appPlatform: '{{ include.platform }}',
               hideConfig: { wallet: true },
               showOnlyRows: 5,
               sortByVersion: true,

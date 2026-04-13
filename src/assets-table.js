@@ -108,6 +108,7 @@ window.renderAssetsTable = async function({
                                             htmlElementId,
                                             pubkey,
                                             appId,
+                                            appPlatform,
                                             sha256,
                                             hideConfig,
                                             showOnlyRows = 100,
@@ -359,6 +360,21 @@ window.renderAssetsTable = async function({
   let endorsementEventIDs = [];
 
   if (sortedItems.length > 0) {
+    if (appPlatform) {
+      sortedItems.forEach((itemsForThisSha256) => {
+        itemsForThisSha256.items = itemsForThisSha256.items.filter(
+          item => appPlatform === getFirstTagValue(item, 'platform')
+        );
+      });
+
+      // Remove groups with no remaining items
+      for (let i = sortedItems.length - 1; i >= 0; i--) {
+        if (sortedItems[i].items.length === 0) {
+          sortedItems.splice(i, 1);
+        }
+      }
+    }
+
     sortedItems.forEach((itemsForThisSha256, index) => {
       itemsForThisSha256.items.forEach(item => {
         // Attachments
