@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 - leo
-users: 500000
+users: 1000000
 appId: com.etoro.wallet
 appCountry: 
 released: 2018-11-27

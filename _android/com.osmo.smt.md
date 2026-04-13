@@ -10,7 +10,7 @@ appCountry:
 released: 2022-07-01
 updated: 2026-03-11
 version: 4.9.3
-reviews: 43
+reviews: 44
 website: https://www.osmowallet.com/
 repository: 
 icon: com.osmo.smt.jpg

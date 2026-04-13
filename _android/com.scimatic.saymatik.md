@@ -7,8 +7,8 @@ users: 1000
 appId: com.scimatic.saymatik
 appCountry: 
 released: 2022-10-10
-updated: 2025-08-16
-version: 0.1.0
+updated: 2026-03-24
+version: 0.2.0
 reviews: 
 website: https://saymatik.com
 repository: 

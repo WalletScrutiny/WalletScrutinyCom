@@ -4,13 +4,13 @@ title: CoinFlip Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: tech.coinflip
 appCountry: 
 released: 2024-08-19
 updated: 2026-03-12
 version: 4.1.0
-reviews: 85
+reviews: 89
 website: https://coinflip.tech/
 repository: 
 icon: tech.coinflip.png

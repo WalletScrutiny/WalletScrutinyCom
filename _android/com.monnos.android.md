@@ -4,7 +4,7 @@ title: Monnos | Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.monnos.android
 appCountry: br
 released: 2019-09-17

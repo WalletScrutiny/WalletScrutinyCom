@@ -10,7 +10,7 @@ idd: '1574175142'
 released: 2021-06-30
 updated: 2026-01-04
 version: 1.4.3
-reviews: 152
+reviews: 155
 website: https://gcbuying.com/
 repository: 
 icon: com.GCBuying.GCBuying.jpg

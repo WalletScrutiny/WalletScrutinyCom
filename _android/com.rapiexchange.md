@@ -8,8 +8,8 @@ users: 10000
 appId: com.rapiexchange
 appCountry: 
 released: 2022-04-19
-updated: 2026-03-09
-version: '3.31'
+updated: 2026-04-10
+version: '3.35'
 reviews: 3
 website: https://www.rapixchange.com/
 repository: 

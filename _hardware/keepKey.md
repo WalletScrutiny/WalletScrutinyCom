@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2014-08-01
 discontinued: 
-updated: 2025-02-12
-version: 7.10.0
+updated: 2026-04-05
+version: 7.14.0
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38

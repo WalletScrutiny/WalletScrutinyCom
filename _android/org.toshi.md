@@ -9,9 +9,9 @@ users: 10000000
 appId: org.toshi
 appCountry: 
 released: 2017-09-20
-updated: 2026-03-13
-version: 29.86.0
-reviews: 14039
+updated: 2026-04-06
+version: 29.89.0
+reviews: 14063
 website: https://wallet.coinbase.com/
 repository: 
 icon: org.toshi.png

@@ -10,7 +10,7 @@ appCountry:
 released: 2018-06-26
 updated: 2026-03-20
 version: 2026.03.18
-reviews: 114
+reviews: 112
 website: https://www.digifinex.com/
 repository: 
 icon: com.digifinex.app.png

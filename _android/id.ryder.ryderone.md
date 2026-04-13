@@ -4,12 +4,12 @@ title: Ryder
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: id.ryder.ryderone
 appCountry: 
 released: 2025-04-02
-updated: 2026-02-02
-version: 1.4.0
+updated: 2026-03-26
+version: 1.5.0
 reviews: 
 website: http://ryder.id
 repository: 

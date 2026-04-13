@@ -8,24 +8,24 @@ users: 5000000
 appId: com.xfr.xtrade
 appCountry: 
 released: 2014-10-02
-updated: 2025-12-16
-version: 7.0.20
-reviews: 77
+updated: 2026-03-25
+version: 7.0.24
+reviews: 76
 website: http://www.xtrade.com
 repository: 
 icon: com.xfr.xtrade.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-03-11
+date: 2026-04-13
 signer: 
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade
 - https://www.facebook.com/XTrade
 redirect_from: 
-developerName: XTrade Global
+developerName: XTRADE
 builds: 
 features: 
 

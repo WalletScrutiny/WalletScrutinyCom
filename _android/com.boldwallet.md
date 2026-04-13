@@ -3,12 +3,12 @@ wsId:
 title: Bold Bitcoin Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.boldwallet
 appCountry: 
 released: 2025-07-15
-updated: 2026-03-15
-version: 3.0.5
+updated: 2026-04-03
+version: 3.1.0
 reviews: 
 website: https://boldbitcoinwallet.com
 repository: 

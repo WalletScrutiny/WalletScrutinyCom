@@ -15,10 +15,10 @@ website: https://www.bitazza.com
 repository: 
 icon: com.bitazza.global.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-03-09
+date: 2026-04-13
 signer: 
 twitter: BitazzaGlobal
 social:

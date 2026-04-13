@@ -1,6 +1,6 @@
 ---
 wsId: anycoinCZ
-title: 'Anycoin.cz: Crypto exchange'
+title: 'Anycoin: crypto exchange'
 altTitle: 
 authors:
 - danny

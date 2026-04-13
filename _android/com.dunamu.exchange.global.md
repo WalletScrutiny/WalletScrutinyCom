@@ -4,12 +4,12 @@ title: Upbit (Global)
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
-updated: 2026-03-10
-version: 1.22.28
+updated: 2026-04-08
+version: 1.22.31
 reviews: 34
 website: https://www.dunamu.com
 repository: 

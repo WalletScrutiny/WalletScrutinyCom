@@ -4,13 +4,13 @@ title: Noone Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.noone.androidwallet
 appCountry: 
 released: 2023-03-17
 updated: 2026-02-12
 version: 1.32.0
-reviews: 293
+reviews: 300
 website: https://noone.io
 repository: 
 icon: io.noone.androidwallet.png

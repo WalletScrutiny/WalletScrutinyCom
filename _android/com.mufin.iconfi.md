@@ -8,8 +8,8 @@ users: 10000
 appId: com.mufin.iconfi
 appCountry: 
 released: 2021-01-27
-updated: 2025-12-09
-version: 1.2.8
+updated: 2026-03-26
+version: 1.2.9
 reviews: 27
 website: https://www.grow3.io
 repository: 

@@ -15,10 +15,10 @@ website: https://jiggle.app
 repository: 
 icon: com.jiggle.wallet.jpg
 bugbounty: 
-meta: deprecated
+meta: stale
 verdict: wip
 appHashes: 
-date: 2025-11-19
+date: 2026-04-13
 signer: 
 twitter: jiggle_app
 social: 

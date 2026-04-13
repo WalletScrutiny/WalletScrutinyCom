@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-25
 updated: 2025-12-29
 version: 2.0.9
-reviews: 647
+reviews: 648
 website: https://www.pionex.us/
 repository: 
 icon: com.pionex.us.client.png
@@ -25,7 +25,7 @@ social:
 - https://discord.com/invite/dZbvbeXK46
 - https://t.me/pionexus
 redirect_from: 
-developerName: Pionex US
+developerName: Webot Global
 builds: 
 features: 
 

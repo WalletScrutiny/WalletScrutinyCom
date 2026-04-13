@@ -4,7 +4,7 @@ title: GWallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: gwallet.tech
 appCountry: be
 released: 2021-02-16

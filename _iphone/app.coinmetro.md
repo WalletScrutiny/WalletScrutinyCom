@@ -1,6 +1,6 @@
 ---
 wsId: coinmetro
-title: Coinmetro Tap Buy Hold Crypto
+title: 'Coinmetro: Buy Crypto & Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: app.coinmetro
 appCountry: us
 idd: '1397585225'
 released: 2018-07-25
-updated: 2026-03-18
-version: 5.52.6
-reviews: 363
+updated: 2026-04-01
+version: 5.54.7
+reviews: 364
 website: https://coinmetro.com/
 repository: 
 icon: app.coinmetro.jpg

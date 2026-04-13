@@ -8,8 +8,8 @@ users: 100000
 appId: com.finverselabs.openwallet
 appCountry: 
 released: 2024-07-01
-updated: 2026-03-18
-version: 0.0.100
+updated: 2026-04-09
+version: 2026.4.24
 reviews: 8
 website: https://openwallet.finance/
 repository: 

@@ -4,7 +4,7 @@ title: 'GoSats: Gold and BTC Rewards'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: io.gosats
 appCountry: 
 released: 2021-01-06

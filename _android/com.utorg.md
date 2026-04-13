@@ -8,8 +8,8 @@ users: 10000
 appId: com.utorg
 appCountry: 
 released: 2023-06-02
-updated: 2026-01-12
-version: 2.86.0
+updated: 2026-04-05
+version: 2.88.0
 reviews: 
 website: 
 repository: 

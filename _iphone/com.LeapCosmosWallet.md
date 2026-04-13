@@ -8,9 +8,9 @@ appId: com.LeapCosmosWallet
 appCountry: us
 idd: '1642465549'
 released: 2022-11-02
-updated: 2026-01-05
-version: 0.76.3
-reviews: 1116
+updated: 2026-04-01
+version: 0.77.0
+reviews: 1125
 website: https://www.leapwallet.io/mobile
 repository: 
 icon: com.LeapCosmosWallet.jpg

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-02-13
 updated: 2024-09-09
 version: 1.4.9
-reviews: 9
+reviews: 10
 website: https://www.tatcoin.com
 repository: 
 icon: com.tatspace.jpg

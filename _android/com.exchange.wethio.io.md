@@ -15,10 +15,10 @@ website:
 repository: 
 icon: com.exchange.wethio.io.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-02-28
+date: 2026-04-13
 signer: 
 twitter: wethiox
 social:
@@ -27,7 +27,7 @@ social:
 - https://t.me/joinchat/VvLjmtVVAVJiMTQ0
 - https://wethio.medium.com/
 redirect_from: 
-developerName: Ihk7
+developerName: Karim Ahmed BENABDELKADER
 builds: 
 features: 
 

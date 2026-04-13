@@ -15,10 +15,10 @@ website: https://lulubit.app
 repository: 
 icon: com.lulubit.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-11-19
+date: 2026-04-13
 signer: 
 twitter: lulubitapp
 social:

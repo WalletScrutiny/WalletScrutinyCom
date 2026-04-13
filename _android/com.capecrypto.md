@@ -4,12 +4,12 @@ title: Cape Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.capecrypto
 appCountry: 
 released: 2022-04-25
-updated: 2025-12-08
-version: 4.0.12
+updated: 2026-04-01
+version: 4.1.3
 reviews: 
 website: https://capecrypto.com
 repository: 

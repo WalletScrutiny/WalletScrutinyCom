@@ -3,7 +3,7 @@ wsId:
 title: 'Wonder Wallet: Crypto & Web3'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: fi.wonder.labs.wallet
 appCountry: 
 released: 2024-12-20
@@ -15,7 +15,7 @@ repository:
 icon: fi.wonder.labs.wallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-11
 signer: 

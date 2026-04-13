@@ -4,7 +4,7 @@ title: Coin Wallet - Bitcoin & Crypto
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.coinspace.app
 appCountry: 
 released: 2015-05-01

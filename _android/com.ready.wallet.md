@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Ready Wallet (formerly Argent)
+title: Ready X
 altTitle: 
 authors: 
 users: 1000
 appId: com.ready.wallet
 appCountry: 
 released: 2025-09-18
-updated: 2026-03-18
-version: 1.4.0
+updated: 2026-04-09
+version: 1.4.1
 reviews: 
 website: https://www.ready.co/ready-wallet
 repository: 

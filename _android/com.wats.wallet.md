@@ -3,7 +3,7 @@ wsId:
 title: Wats Wallet
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.wats.wallet
 appCountry: 
 released: 2024-07-02

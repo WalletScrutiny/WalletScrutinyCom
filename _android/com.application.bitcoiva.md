@@ -24,7 +24,7 @@ twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169
 redirect_from: 
-developerName: Bitcoiva Crypto Exchange
+developerName: Hyperux Developers
 builds: 
 features: 
 

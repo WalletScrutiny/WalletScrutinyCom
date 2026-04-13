@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-05
 updated: 2024-07-12
 version: 4.2.2
-reviews: 138
+reviews: 139
 website: https://www.afrbtc.com
 repository: 
 icon: com.afrbtcapp.png

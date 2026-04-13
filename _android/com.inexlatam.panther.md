@@ -10,7 +10,7 @@ released: 2025-06-05
 updated: 2026-03-17
 version: 0.7.7
 reviews: 
-website: https://inexlatam.com/panther-by-inex/
+website: https://mypanther.io
 repository: 
 icon: com.inexlatam.panther.png
 bugbounty: 
@@ -22,7 +22,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Inex Technology
+developerName: Veltrix Technologies OÜ
 builds: 
 features: 
 

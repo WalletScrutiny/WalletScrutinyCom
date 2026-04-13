@@ -3,7 +3,7 @@ wsId:
 title: Crypto  Change App
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.premiumappsfactory.crypto
 appCountry: 
 released: 2021-09-05

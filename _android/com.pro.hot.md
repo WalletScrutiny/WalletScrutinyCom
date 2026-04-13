@@ -8,9 +8,9 @@ users: 100000
 appId: com.pro.hot
 appCountry: 
 released: 2021-05-27
-updated: 2026-02-09
-version: 6.1.0
-reviews: 21
+updated: 2026-04-09
+version: 6.1.3
+reviews: 32
 website: https://hotcoin.com/
 repository: 
 icon: com.pro.hot.png

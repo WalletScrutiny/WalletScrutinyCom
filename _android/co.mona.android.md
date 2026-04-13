@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 - danny
-users: 10000000
+users: 50000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2026-03-17
-version: 3.229.0
-reviews: 56341
+updated: 2026-04-08
+version: 3.230.12
+reviews: 56414
 website: https://crypto.com/
 repository: 
 icon: co.mona.android.jpg

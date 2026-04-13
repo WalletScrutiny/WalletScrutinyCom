@@ -8,8 +8,8 @@ users: 10000
 appId: app.pagosalinstante.com
 appCountry: 
 released: 2019-02-03
-updated: 2026-02-05
-version: 1.08.1102
+updated: 2026-03-28
+version: 1.08.1107
 reviews: 41
 website: https://paiexchange.com
 repository: 

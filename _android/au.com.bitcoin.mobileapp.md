@@ -8,8 +8,8 @@ users: 50000
 appId: au.com.bitcoin.mobileapp
 appCountry: 
 released: 
-updated: 2026-03-10
-version: 14.3.0
+updated: 2026-03-31
+version: 14.4.0
 reviews: 
 website: https://www.bitcoin.com.au
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: ng.dtunes.app
 appCountry: 
 released: 2021-12-29
-updated: 2026-01-28
-version: 2.2.7
+updated: 2026-03-23
+version: 3.0.0
 reviews: 36
 website: https://dtunes.ng
 repository: 

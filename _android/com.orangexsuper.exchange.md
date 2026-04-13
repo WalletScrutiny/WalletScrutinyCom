@@ -8,8 +8,8 @@ users: 50000
 appId: com.orangexsuper.exchange
 appCountry: 
 released: 2023-08-20
-updated: 2025-12-31
-version: 0.9.4
+updated: 2026-04-09
+version: 1.0.1
 reviews: 5
 website: https://www.orangex.com/
 repository: 

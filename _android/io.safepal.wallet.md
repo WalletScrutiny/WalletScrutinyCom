@@ -9,9 +9,9 @@ users: 5000000
 appId: io.safepal.wallet
 appCountry: 
 released: 2019-05-26
-updated: 2026-03-13
-version: 4.11.0
-reviews: 1076
+updated: 2026-03-26
+version: 4.11.1
+reviews: 1082
 website: https://www.safepal.com
 repository: 
 icon: io.safepal.wallet.png

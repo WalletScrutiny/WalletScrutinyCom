@@ -15,10 +15,10 @@ website:
 repository: https://github.com/aeonBTC/IbisWallet
 icon: 
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2026-03-06
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

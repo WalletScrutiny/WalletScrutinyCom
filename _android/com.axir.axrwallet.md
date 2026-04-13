@@ -3,7 +3,7 @@ wsId:
 title: Axir Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.axir.axrwallet
 appCountry: 
 released: 2024-05-22
@@ -15,7 +15,7 @@ repository:
 icon: com.axir.axrwallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

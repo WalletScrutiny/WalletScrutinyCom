@@ -15,10 +15,10 @@ website: http://blocktrade.com
 repository: 
 icon: com.blocktrade.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-04-22
+date: 2026-04-13
 signer: 
 twitter: Blocktradecom
 social:

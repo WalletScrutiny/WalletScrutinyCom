@@ -3,7 +3,7 @@ wsId:
 title: Crypto Exchange - Trade Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: yadav.sachin.earn.free.crypto.cryptoexchange
 appCountry: 
 released: 2022-08-25

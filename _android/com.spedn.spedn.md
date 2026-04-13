@@ -8,17 +8,17 @@ users: 10000
 appId: com.spedn.spedn
 appCountry: 
 released: 2021-05-26
-updated: 2023-11-22
-version: 23.11.1
+updated: 2026-02-26
+version: 25.0.0
 reviews: 118
 website: https://spedn.io
 repository: 
 icon: com.spedn.spedn.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2025-11-26
+date: 2026-04-13
 signer: 
 twitter: FlexaHQ
 social:

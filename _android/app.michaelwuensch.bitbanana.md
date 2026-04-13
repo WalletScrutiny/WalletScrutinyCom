@@ -9,9 +9,9 @@ users: 5000
 appId: app.michaelwuensch.bitbanana
 appCountry: 
 released: 2023-03-26
-updated: 2025-09-05
-version: 1.0.0
-reviews: 4
+updated: 2026-04-11
+version: 1.0.1
+reviews: 3
 website: https://bitbanana.app/
 repository: https://github.com/michaelWuensch/BitBanana
 icon: app.michaelwuensch.bitbanana.png

@@ -4,12 +4,12 @@ title: 'Mobee: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.mobee.io
 appCountry: 
 released: 2022-11-14
-updated: 2026-03-18
-version: 2.0.8
+updated: 2026-04-02
+version: 2.0.9
 reviews: 2
 website: https://mobee.com/
 repository: 

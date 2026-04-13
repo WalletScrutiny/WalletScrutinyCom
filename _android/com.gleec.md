@@ -10,7 +10,7 @@ appCountry:
 released: 2021-02-26
 updated: 2026-01-23
 version: '31.0'
-reviews: 15
+reviews: 16
 website: http://gleec.com/
 repository: 
 icon: com.gleec.png
@@ -25,7 +25,7 @@ social:
 - https://www.facebook.com/gleecofficial
 - https://t.me/officialgleecoin
 redirect_from: 
-developerName: Gleec Holding OU
+developerName: Gleec Pay OU
 builds: 
 features: 
 

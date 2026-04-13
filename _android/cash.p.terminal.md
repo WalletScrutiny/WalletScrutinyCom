@@ -8,8 +8,8 @@ users: 10000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2026-03-18
-version: 0.52.2
+updated: 2026-04-03
+version: 0.54.1
 reviews: 
 website: https://p.cash/
 repository: https://github.com/piratecash/pcash-wallet-android

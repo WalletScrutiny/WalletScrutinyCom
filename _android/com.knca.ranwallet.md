@@ -3,7 +3,7 @@ wsId:
 title: RAN Wallet - Crypto & NFTs
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.knca.ranwallet
 appCountry: 
 released: 2023-05-03

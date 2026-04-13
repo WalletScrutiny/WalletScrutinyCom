@@ -8,7 +8,7 @@ users: 1000
 appId: com.minibits_wallet
 appCountry: 
 released: 
-updated: 2026-03-21
+updated: 2026-03-31
 version: VARY
 reviews: 
 website: https://www.minibits.cash

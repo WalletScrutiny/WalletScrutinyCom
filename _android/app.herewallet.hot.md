@@ -10,7 +10,7 @@ appCountry:
 released: 2025-03-26
 updated: 2025-06-15
 version: '1.0'
-reviews: 62
+reviews: 63
 website: https://hot-labs.org/privacypolicy
 repository: 
 icon: app.herewallet.hot.png

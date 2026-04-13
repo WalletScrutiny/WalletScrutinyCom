@@ -15,10 +15,10 @@ website: https://zixipay.com
 repository: 
 icon: com.zixipay.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-17
+date: 2026-04-13
 signer: 
 twitter: zixipay
 social:

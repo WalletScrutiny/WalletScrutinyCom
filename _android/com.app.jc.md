@@ -10,7 +10,7 @@ appCountry:
 released: 2025-01-13
 updated: 2026-03-16
 version: 3.3.11
-reviews: 10
+reviews: 11
 website: 
 repository: 
 icon: com.app.jc.png

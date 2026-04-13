@@ -15,10 +15,10 @@ website: https://bekonta.com
 repository: 
 icon: com.bitpezapro.app.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-03-14
+date: 2026-04-13
 signer: 
 twitter: 
 social:

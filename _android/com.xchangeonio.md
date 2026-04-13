@@ -8,10 +8,10 @@ users: 100000
 appId: com.xchangeonio
 appCountry: 
 released: 2022-11-15
-updated: 2026-02-14
-version: 1.1.3
+updated: 2026-04-03
+version: 1.1.7
 reviews: 12
-website: https://www.xchangeon.io#deadLink
+website: https://www.xchangeon.io/
 repository: 
 icon: com.xchangeonio.png
 bugbounty: 

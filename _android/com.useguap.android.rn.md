@@ -7,8 +7,8 @@ users: 1000
 appId: com.useguap.android.rn
 appCountry: 
 released: 2025-12-05
-updated: 2026-03-21
-version: 0.8.5
+updated: 2026-04-03
+version: 0.8.7
 reviews: 
 website: https://useguap.com
 repository: 

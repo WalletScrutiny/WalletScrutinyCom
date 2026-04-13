@@ -11,7 +11,7 @@ appCountry:
 released: 2018-05-31
 updated: 2026-03-02
 version: 2.18.1
-reviews: 239
+reviews: 241
 website: https://token.im
 repository: 
 icon: im.token.app.png

@@ -8,9 +8,9 @@ appId: co.safex.org
 appCountry: us
 idd: '6476754762'
 released: 2024-03-04
-updated: 2026-02-28
-version: 5.7.0
-reviews: 209
+updated: 2026-04-02
+version: 5.9.2
+reviews: 208
 website: 
 repository: 
 icon: co.safex.org.jpg

@@ -3,7 +3,7 @@ wsId:
 title: Enifex
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.blockchaincommodities.enifex
 appCountry: 
 released: 2022-12-14

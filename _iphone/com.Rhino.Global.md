@@ -10,7 +10,7 @@ idd: '1564149079'
 released: 2022-06-29
 updated: 2026-03-27
 version: 2.12.14
-reviews: 20
+reviews: 21
 website: https://www.rhinobitcoin.com/
 repository: 
 icon: com.Rhino.Global.jpg
@@ -24,7 +24,7 @@ twitter: RhinoBitcoin
 social:
 - https://www.linkedin.com/company/rhino-bitcoin
 - https://www.instagram.com/RhinoBTCapp
-- https://www.facebook.com/RhinoBTCapp 
+- https://www.facebook.com/RhinoBTCapp
 features: 
 developerName: Rhino Global Inc
 

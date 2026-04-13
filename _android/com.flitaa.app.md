@@ -4,7 +4,7 @@ title: 'Flitaa: your crypto wallet'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.flitaa.app
 appCountry: ng
 released: 2021-05-15

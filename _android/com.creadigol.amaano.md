@@ -7,8 +7,8 @@ users: 500
 appId: com.creadigol.amaano
 appCountry: 
 released: 2022-02-14
-updated: 2025-12-01
-version: 1.6.1
+updated: 2026-03-30
+version: 1.6.2
 reviews: 
 website: https://amaano.com/
 repository: 

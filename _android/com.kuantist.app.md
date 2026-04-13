@@ -3,12 +3,12 @@ wsId:
 title: Kuantist | Bitcoin ve Kripto
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.kuantist.app
 appCountry: 
 released: 
-updated: 2026-03-13
-version: 1.0.49
+updated: 2026-04-02
+version: 1.0.51
 reviews: 
 website: https://www.kuantist.com/
 repository: 

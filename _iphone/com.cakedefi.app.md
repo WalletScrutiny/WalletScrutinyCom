@@ -15,10 +15,10 @@ website: https://bake.io
 repository: 
 icon: com.cakedefi.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-10-25
+date: 2026-04-13
 signer: 
 twitter: cakedefi
 social:

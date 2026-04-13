@@ -9,7 +9,7 @@ idd: '1575425801'
 released: 2021-10-05
 updated: 2026-02-27
 version: 3.10.6
-reviews: 1005
+reviews: 1040
 website: https://www.arculus.co/
 repository: 
 icon: com.arculus.wallet.jpg

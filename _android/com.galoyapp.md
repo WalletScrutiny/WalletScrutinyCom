@@ -11,7 +11,7 @@ appCountry:
 released: 2020-11-24
 updated: 2025-12-17
 version: 2.4.15
-reviews: 46
+reviews: 47
 website: https://blink.sv/
 repository: https://github.com/GaloyMoney/galoy-mobile
 icon: com.galoyapp.png

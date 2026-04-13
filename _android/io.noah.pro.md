@@ -8,9 +8,9 @@ users: 50000
 appId: io.noah.pro
 appCountry: 
 released: 2025-09-23
-updated: 2026-01-22
-version: 1.2.5
-reviews: 14
+updated: 2026-04-10
+version: 1.2.7
+reviews: 16
 website: https://www.bitradex.com/
 repository: 
 icon: io.noah.pro.png

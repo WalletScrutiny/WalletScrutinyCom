@@ -10,7 +10,7 @@ appCountry:
 released: 2023-04-24
 updated: 2026-03-20
 version: 3.25.0
-reviews: 1851
+reviews: 1852
 website: https://simple.app/
 repository: 
 icon: app.simple.com.png

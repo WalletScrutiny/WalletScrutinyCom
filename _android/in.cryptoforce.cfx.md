@@ -15,10 +15,10 @@ website: https://cryptoforce.in
 repository: 
 icon: in.cryptoforce.cfx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-08-18
+date: 2026-04-13
 signer: 
 twitter: cryptoforce_in
 social:

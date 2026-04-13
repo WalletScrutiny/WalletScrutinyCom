@@ -4,12 +4,12 @@ title: 'BVOX: Trade BTC, ETH & Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 100000
 appId: io.bitvenus.app.first
 appCountry: 
 released: 2023-07-28
-updated: 2026-02-28
-version: 5.7.9
+updated: 2026-04-03
+version: 5.7.12
 reviews: 6
 website: https://www.bvox.com
 repository: 

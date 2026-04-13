@@ -4,7 +4,7 @@ title: easyMarkets Online Trading
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: giniapps.easymarkets.com
 appCountry: us
 released: 2017-04-05

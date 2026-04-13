@@ -8,8 +8,8 @@ users: 10000
 appId: com.oppi.wallet
 appCountry: 
 released: 2024-05-13
-updated: 2026-03-20
-version: 1.0.105
+updated: 2026-03-30
+version: 1.0.106
 reviews: 9
 website: https://oppiwallet.com/en
 repository: 

@@ -3,12 +3,12 @@ wsId:
 title: Bisq Easy
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: network.bisq.mobile.node
 appCountry: 
 released: 2025-10-05
-updated: 2026-03-13
-version: 0.4.1
+updated: 2026-03-24
+version: 0.5.0
 reviews: 
 website: https://bisq.network
 repository: 

@@ -4,12 +4,12 @@ title: Indodax Crypto Simple & Secure
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: id.co.bitcoin
 appCountry: 
 released: 2014-12-15
-updated: 2026-03-11
-version: 5.8.2
+updated: 2026-04-08
+version: 5.8.4
 reviews: 492
 website: http://indodax.com
 repository: 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.ultorexapp.io
 appCountry: 
 released: 2022-07-01
-updated: 2025-05-26
-version: 1.1.18
+updated: 2025-07-07
+version: 1.1.19
 reviews: 
 website: https://ultorex.io/
 repository: 

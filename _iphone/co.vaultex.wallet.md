@@ -15,10 +15,10 @@ website: https://vaultex.co
 repository: 
 icon: co.vaultex.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2026-01-16
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

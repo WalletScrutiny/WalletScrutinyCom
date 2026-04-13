@@ -4,7 +4,7 @@ title: RAYYO Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.rayyo
 appCountry: 
 released: 2025-10-03

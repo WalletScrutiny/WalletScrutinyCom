@@ -4,7 +4,7 @@ title: Manna Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.lightning.manna
 appCountry: 
 released: 2025-05-14

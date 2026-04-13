@@ -3,13 +3,13 @@ wsId:
 title: 'Defi App: Buy & Sell Crypto'
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.defi.mobile
 appCountry: 
 released: 2025-07-16
-updated: 2026-03-21
-version: 1.0.19
-reviews: 3
+updated: 2026-03-30
+version: 1.0.20
+reviews: 4
 website: https://defi.app
 repository: 
 icon: com.defi.mobile.png

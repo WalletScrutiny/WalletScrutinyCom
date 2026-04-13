@@ -4,7 +4,7 @@ title: Coinstick
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.coinstick.myapp
 appCountry: 
 released: 2023-01-23

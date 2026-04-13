@@ -15,10 +15,10 @@ website: https://cobo.com
 repository: 
 icon: cobo.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2022-05-31
+date: 2026-04-13
 signer: 
 twitter: Cobo_Wallet
 social:

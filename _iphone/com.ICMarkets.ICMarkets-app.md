@@ -10,7 +10,7 @@ idd: '1552875348'
 released: 2021-02-24
 updated: 2022-06-09
 version: 1.1.2
-reviews: 31
+reviews: 33
 website: 
 repository: 
 icon: com.ICMarkets.ICMarkets-app.jpg

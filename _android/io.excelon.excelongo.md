@@ -4,7 +4,7 @@ title: 'Excelon : Payments unleashed'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.excelon.excelongo
 appCountry: 
 released: 2021-08-09

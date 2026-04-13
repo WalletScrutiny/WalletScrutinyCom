@@ -10,7 +10,7 @@ appCountry:
 released: 2019-10-29
 updated: 2025-09-23
 version: 1.39.0
-reviews: 60
+reviews: 61
 website: https://www.bitvalve.com
 repository: 
 icon: com.bitvalve.android.png

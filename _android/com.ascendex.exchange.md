@@ -4,12 +4,12 @@ title: 'AscendEX: Buy & Sell Crypto'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2026-03-23
-version: 3.7.1
+updated: 2026-04-10
+version: 3.7.3
 reviews: 76
 website: https://www.ascendex.com/
 repository: 

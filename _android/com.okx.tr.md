@@ -8,8 +8,8 @@ users: 500000
 appId: com.okx.tr
 appCountry: 
 released: 
-updated: 2026-03-03
-version: 6.161.0
+updated: 2026-04-02
+version: 6.165.1
 reviews: 
 website: https://tr.okx.com
 repository: 

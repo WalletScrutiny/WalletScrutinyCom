@@ -4,7 +4,7 @@ title: 'Bitcoin Wallet : BTC & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.flx.cryptokeeper
 appCountry: 
 released: 2025-06-02

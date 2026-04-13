@@ -8,8 +8,8 @@ users: 10000
 appId: ch.cryptonow.wallet
 appCountry: 
 released: 
-updated: 2025-11-03
-version: 2.2.1
+updated: 2026-04-07
+version: 2.3.0
 reviews: 
 website: https://cryptonow.ch
 repository: 

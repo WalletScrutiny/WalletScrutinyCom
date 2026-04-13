@@ -10,8 +10,8 @@ users: 5000
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07
-updated: 2026-03-18
-version: 2.1.1
+updated: 2026-04-08
+version: 2.2.0
 reviews: 3
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit

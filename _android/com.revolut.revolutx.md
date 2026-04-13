@@ -4,12 +4,12 @@ title: 'Revolut X: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.revolut.revolutx
 appCountry: 
 released: 
-updated: 2026-03-19
-version: '1.50'
+updated: 2026-04-07
+version: '1.53'
 reviews: 1
 website: https://www.revolut.com/revolut-x/
 repository: 

@@ -15,10 +15,10 @@ website: https://eurocoinpay.io
 repository: 
 icon: EurocoinpayRN.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-24
+date: 2026-04-13
 signer: 
 twitter: eurocoinpay
 social:

@@ -15,10 +15,10 @@ website: https://www.elementwallet.com/
 repository: 
 icon: com.corewallet.element.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2025-11-13
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

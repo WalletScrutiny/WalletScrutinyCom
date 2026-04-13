@@ -8,8 +8,8 @@ users: 50000
 appId: com.safello.androidsapp
 appCountry: 
 released: 
-updated: 2026-03-06
-version: 1.59.2
+updated: 2026-04-07
+version: 1.61.1
 reviews: 
 website: https://safello.com/
 repository: 

@@ -4,13 +4,13 @@ title: 'CoinEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.coinex.trade.play
 appCountry: 
 released: 2019-12-27
 updated: 2026-03-20
 version: 4.10.0
-reviews: 1473
+reviews: 1218
 website: https://www.coinex.com/
 repository: 
 icon: com.coinex.trade.play.png

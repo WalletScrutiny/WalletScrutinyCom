@@ -1,16 +1,16 @@
 ---
 wsId: 
-title: Lightning Pay Wallet (BETA)
+title: Stacked Wallet
 altTitle: 
 authors: 
 users: 100
 appId: nz.lightningpay.wallet
 appCountry: 
 released: 
-updated: 2026-03-19
-version: 2.9.9
+updated: 2026-04-07
+version: 3.0.6
 reviews: 
-website: 
+website: https://stackedbitcoin.com
 repository: 
 icon: nz.lightningpay.wallet.png
 bugbounty: 

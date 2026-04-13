@@ -4,7 +4,7 @@ title: Hollox:Bitcoin & Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: finance.hollox.app
 appCountry: 
 released: 2022-11-13

@@ -4,12 +4,12 @@ title: 'Netcoins: Buy Crypto Easily'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.netcoins.app
 appCountry: 
 released: 2022-12-10
-updated: 2026-02-27
-version: 5.10.0
+updated: 2026-04-02
+version: 5.12.0
 reviews: 15
 website: https://www.netcoins.com
 repository: 

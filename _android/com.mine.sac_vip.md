@@ -14,10 +14,10 @@ website: https://www.sac-mine.vip
 repository: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2026-02-20
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

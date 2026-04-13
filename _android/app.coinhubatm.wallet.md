@@ -8,17 +8,17 @@ users: 10000
 appId: app.coinhubatm.wallet
 appCountry: 
 released: 2022-12-11
-updated: 2025-03-24
-version: 4.16.0
-reviews: 14
+updated: 2026-03-19
+version: 4.46.0
+reviews: 15
 website: https://coinhubatm.com/
 repository: 
 icon: app.coinhubatm.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2026-03-23
+date: 2026-04-13
 signer: 
 twitter: Coinhubusa
 social:

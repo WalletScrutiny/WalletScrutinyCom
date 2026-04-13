@@ -10,9 +10,9 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2026-03-06
+updated: 2026-04-08
 version: 5.2.0
-reviews: 149
+reviews: 150
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
 icon: com.greenaddress.greenbits_android_wallet.jpg

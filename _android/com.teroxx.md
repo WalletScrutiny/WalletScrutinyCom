@@ -8,8 +8,8 @@ users: 1000
 appId: com.teroxx
 appCountry: us
 released: 2019-08-26
-updated: 2026-01-21
-version: 3.0.52
+updated: 2026-03-24
+version: 3.0.54
 reviews: 
 website: https://www.teroxx.com/
 repository: 

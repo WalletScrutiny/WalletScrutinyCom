@@ -3,7 +3,7 @@ wsId:
 title: TAP Protocol Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.tapwalletmobile
 appCountry: 
 released: 2025-07-24
@@ -15,7 +15,7 @@ repository:
 icon: com.tapwalletmobile.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

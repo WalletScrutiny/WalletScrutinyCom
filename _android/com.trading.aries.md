@@ -1,6 +1,6 @@
 ---
 wsId: TradeAries
-title: 'Aries: Investing & Trading'
+title: 'Aries: Trade. Invest.'
 altTitle: 
 authors:
 - danny
@@ -8,17 +8,17 @@ users: 5000
 appId: com.trading.aries
 appCountry: ng
 released: 2021-06-23
-updated: 2024-08-13
-version: 3.7.6
+updated: 2026-04-08
+version: 3.7.15
 reviews: 
 website: https://tradearies.com
 repository: 
 icon: com.trading.aries.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2024-11-22
+date: 2026-04-13
 signer: 
 twitter: TradeAries
 social:

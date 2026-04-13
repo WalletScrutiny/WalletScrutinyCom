@@ -3,7 +3,7 @@ wsId:
 title: GK8
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.gk8.network
 appCountry: 
 released: 2021-09-01

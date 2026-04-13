@@ -8,9 +8,9 @@ users: 5000000
 appId: com.sofi.mobile
 appCountry: 
 released: 2017-04-10
-updated: 2026-03-19
-version: 3.87.0
-reviews: 20430
+updated: 2026-04-10
+version: 3.90.0
+reviews: 20685
 website: https://www.sofi.com
 repository: 
 icon: com.sofi.mobile.png

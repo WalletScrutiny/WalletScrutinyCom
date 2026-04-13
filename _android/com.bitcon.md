@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcon
 appCountry: 
 released: 2026-01-22
-updated: 2026-01-18
-version: 3.0.0
+updated: 2026-04-06
+version: 3.2.0
 reviews: 
 website: https://spendthebits.com/
 repository: 

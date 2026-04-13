@@ -8,9 +8,9 @@ users: 100000
 appId: io.leapwallet.cosmos
 appCountry: 
 released: 2023-02-14
-updated: 2025-12-30
-version: 0.76.3
-reviews: 98
+updated: 2026-03-27
+version: 0.77.0
+reviews: 99
 website: https://www.leapwallet.io/mobile
 repository: 
 icon: io.leapwallet.cosmos.png

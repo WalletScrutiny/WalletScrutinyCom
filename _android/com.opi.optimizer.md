@@ -14,10 +14,10 @@ website: https://opermizer.zone
 repository: 
 icon: com.opi.optimizer.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-08-18
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

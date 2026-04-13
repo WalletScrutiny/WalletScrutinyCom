@@ -8,12 +8,12 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2026-03-17
-version: 3.237.0
-reviews: 9394
+updated: 2026-04-08
+version: 3.240.0
+reviews: 9426
 website: https://public.com
 repository: 
-icon: com.public.app.png
+icon: com.public.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive

@@ -4,7 +4,7 @@ title: EurocoinPay
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.something.marcelo.eurocoinandroid5
 appCountry: 
 released: 2018-11-17

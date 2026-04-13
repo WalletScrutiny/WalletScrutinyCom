@@ -8,8 +8,8 @@ users: 10000
 appId: fior.digital21app
 appCountry: 
 released: 
-updated: 2026-02-19
-version: 2.0.60
+updated: 2026-04-09
+version: 2.1.1
 reviews: 
 website: https://21bitcoin.app/
 repository: 

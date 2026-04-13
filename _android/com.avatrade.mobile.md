@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Trading & Investing: AvaTrade'
+title: 'AvaTrade: Multi Asset Trading'
 altTitle: 
 authors:
 - danny

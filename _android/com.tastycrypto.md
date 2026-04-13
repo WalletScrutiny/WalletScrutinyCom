@@ -10,7 +10,7 @@ appCountry:
 released: 2023-05-02
 updated: 2025-03-12
 version: 0.4.1
-reviews: 8
+reviews: 9
 website: https://www.tastycrypto.com/
 repository: 
 icon: com.tastycrypto.png

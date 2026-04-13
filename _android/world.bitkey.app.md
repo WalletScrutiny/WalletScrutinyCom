@@ -10,7 +10,7 @@ appCountry: US
 released: 2024-02-28
 updated: 2026-03-16
 version: 2026.2.1 (2)
-reviews: 31
+reviews: 32
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 icon: world.bitkey.app.png

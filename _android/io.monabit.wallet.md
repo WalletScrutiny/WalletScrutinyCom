@@ -4,7 +4,7 @@ title: MonaBit Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.monabit.wallet
 appCountry: 
 released: 2021-12-17

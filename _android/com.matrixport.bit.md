@@ -15,10 +15,10 @@ website: https://www.bit.com
 repository: 
 icon: com.matrixport.bit.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-03
+date: 2026-04-13
 signer: 
 twitter: bitcom_exchange
 social:

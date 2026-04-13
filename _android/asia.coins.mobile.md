@@ -1,6 +1,6 @@
 ---
 wsId: coinsph
-title: 'Coins: Buy Crypto & Send Money'
+title: 'Coins: Buy Crypto & Pay Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 10000000
 appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
-updated: 2026-03-21
-version: 7.9.25.2
+updated: 2026-03-31
+version: 7.9.27.0
 reviews: 552
 website: https://coins.ph
 repository: 

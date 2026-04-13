@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-06-15
 updated: 2025-08-19
 version: 1.17.18
-reviews: 95
+reviews: 94
 website: https://coins.coinpaprika.com/
 repository: 
 icon: com.coinpaprika.coins.png

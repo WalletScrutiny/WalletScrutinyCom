@@ -4,13 +4,13 @@ title: Deblock - Banking app
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.deblock.deblockapp
 appCountry: 
 released: 
-updated: 2026-03-17
-version: 5.4.0
-reviews: 11
+updated: 2026-04-07
+version: 5.7.0
+reviews: 10
 website: https://deblock.com/
 repository: 
 icon: com.deblock.deblockapp.png

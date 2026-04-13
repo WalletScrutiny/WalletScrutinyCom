@@ -3,7 +3,7 @@ wsId:
 title: BOP - Bitcoin On Paper
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.ejfhp.bitonpaper
 appCountry: 
 released: 2021-02-13

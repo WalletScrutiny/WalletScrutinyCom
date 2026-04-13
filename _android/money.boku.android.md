@@ -4,12 +4,12 @@ title: 'Neverless: Buy Crypto & Metals'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: money.boku.android
 appCountry: 
 released: 2023-10-17
-updated: 2026-03-20
-version: 1.3.188
+updated: 2026-04-09
+version: 1.3.191
 reviews: 14
 website: https://neverless.com
 repository: 

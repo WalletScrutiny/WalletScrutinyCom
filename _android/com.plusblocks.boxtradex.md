@@ -4,7 +4,7 @@ title: BOXVERSE
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.plusblocks.boxtradex
 appCountry: 
 released: 2021-05-04

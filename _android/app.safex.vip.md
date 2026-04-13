@@ -15,10 +15,10 @@ website: https://www.yubit.com
 repository: 
 icon: app.safex.vip.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2026-01-15
+date: 2026-04-13
 signer: 
 twitter: YUBIT_Official
 social:

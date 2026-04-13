@@ -7,8 +7,8 @@ users: 5000
 appId: com.maxwallet.cc
 appCountry: 
 released: 
-updated: 2025-11-20
-version: 1.0.17
+updated: 2026-03-26
+version: 1.2.0
 reviews: 
 website: https://maxwallet.cc/contact-us
 repository: 

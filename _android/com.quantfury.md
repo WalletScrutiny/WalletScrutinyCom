@@ -4,12 +4,12 @@ title: 'Quantfury: Your Global Broker'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.quantfury
 appCountry: gb
 released: 2018-11-26
-updated: 2026-01-22
-version: v1.92.0.25154
+updated: 2026-04-06
+version: v1.93.2.25502
 reviews: 23
 website: https://www.quantfury.com/
 repository: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.savl
 appCountry: ru
 released: 2018-07-24
-updated: 2026-03-06
-version: 9.1.1
+updated: 2026-03-31
+version: 9.2.0
 reviews: 207
 website: https://unitywallet.com
 repository: 

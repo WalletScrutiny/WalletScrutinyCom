@@ -4,12 +4,12 @@ title: Kriptrade
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.kriptrade.mobile
 appCountry: 
 released: 2021-10-20
-updated: 2026-03-06
-version: 3.2.6
+updated: 2026-04-08
+version: 3.2.7
 reviews: 
 website: https://kriptrade.com
 repository: 

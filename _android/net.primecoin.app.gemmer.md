@@ -3,7 +3,7 @@ wsId:
 title: Gemmer
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: net.primecoin.app.gemmer
 appCountry: 
 released: 2020-12-20
@@ -15,7 +15,7 @@ repository:
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-18
 signer: 

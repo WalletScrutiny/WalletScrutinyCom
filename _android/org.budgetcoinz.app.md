@@ -3,7 +3,7 @@ wsId:
 title: BudgetCoinz Bitcoin Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: org.budgetcoinz.app
 appCountry: 
 released: 2024-02-29
@@ -15,7 +15,7 @@ repository:
 icon: org.budgetcoinz.app.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

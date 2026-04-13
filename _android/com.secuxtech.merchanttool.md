@@ -3,7 +3,7 @@ wsId:
 title: StreamMerchant
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.secuxtech.merchanttool
 appCountry: 
 released: 2020-05-22

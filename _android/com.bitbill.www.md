@@ -9,8 +9,8 @@ users: 10000
 appId: com.bitbill.www
 appCountry: 
 released: 2018-03-22
-updated: 2026-01-21
-version: 4.62.0
+updated: 2026-04-11
+version: 4.62.1
 reviews: 14
 website: https://ownbit.io
 repository: 

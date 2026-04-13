@@ -4,7 +4,7 @@ title: Delta Trading – FX&Shares CFDs
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: delta.pk.mobile
 appCountry: bg
 released: 2013-03-29

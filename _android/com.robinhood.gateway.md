@@ -8,9 +8,9 @@ users: 100000
 appId: com.robinhood.gateway
 appCountry: 
 released: 2024-03-12
-updated: 2026-03-13
-version: 2026.11.0
-reviews: 164
+updated: 2026-04-06
+version: 2026.14.1
+reviews: 175
 website: https://robinhood.com/web3-wallet/
 repository: 
 icon: com.robinhood.gateway.png

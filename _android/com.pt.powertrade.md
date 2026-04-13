@@ -4,7 +4,7 @@ title: PowerTrade
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.pt.powertrade
 appCountry: 
 released: 2021-07-27

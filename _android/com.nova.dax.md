@@ -8,8 +8,8 @@ users: 1000000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
-updated: 2025-12-22
-version: 3.6.2
+updated: 2026-04-03
+version: 3.6.3
 reviews: 42
 website: https://www.novadax.com
 repository: 

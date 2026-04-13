@@ -10,7 +10,7 @@ appCountry:
 released: 2025-08-03
 updated: 2026-01-25
 version: 1.13.0
-reviews: 8
+reviews: 12
 website: 
 repository: 
 icon: com.bytefederal.bytemobile.png

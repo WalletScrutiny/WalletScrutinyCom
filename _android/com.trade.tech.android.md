@@ -3,7 +3,7 @@ wsId:
 title: Finalto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.trade.tech.android
 appCountry: 
 released: 2019-01-02

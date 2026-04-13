@@ -11,7 +11,7 @@ released: 2020-04-01
 updated: 2022-02-12
 version: 2.2.7
 reviews: 12
-website: https://cobo.com/hardware-wallet#deadLink
+website: https://cobo.com/hardware-wallet
 repository: https://github.com/CoboVault/cobo-vault-cold
 icon: cobo.vault.hot.re.jpg
 bugbounty: 

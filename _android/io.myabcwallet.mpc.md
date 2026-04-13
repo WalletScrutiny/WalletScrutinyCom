@@ -8,8 +8,8 @@ users: 10000
 appId: io.myabcwallet.mpc
 appCountry: 
 released: 2022-12-22
-updated: 2025-10-31
-version: 2.10.4
+updated: 2026-03-27
+version: 2.10.5
 reviews: 
 website: https://myabcwallet.io
 repository: 

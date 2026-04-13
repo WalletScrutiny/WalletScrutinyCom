@@ -10,7 +10,7 @@ appCountry:
 released: 2017-12-16
 updated: 2026-02-12
 version: 3.13.1
-reviews: 335
+reviews: 317
 website: https://www.viabtc.com/
 repository: 
 icon: com.viabtc.pool.png

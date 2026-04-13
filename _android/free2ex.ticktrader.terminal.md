@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: FREE2EX Trade
+title: 'FREE2EX Trade: Crypto & Stocks'
 altTitle: 
 authors: 
 users: 10000

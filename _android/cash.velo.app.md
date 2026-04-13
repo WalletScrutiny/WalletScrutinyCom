@@ -3,7 +3,7 @@ wsId:
 title: 'VELO: Bitcoin & USDT Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: cash.velo.app
 appCountry: 
 released: 2025-12-16

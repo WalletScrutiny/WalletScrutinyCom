@@ -10,7 +10,7 @@ idd: '1554353496'
 released: 2021-04-12
 updated: 2026-02-18
 version: 7.4.0
-reviews: 107
+reviews: 110
 website: https://www.sarwa.co/blog
 repository: 
 icon: co.sarwa.ios.jpg

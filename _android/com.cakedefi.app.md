@@ -10,15 +10,15 @@ appCountry: us
 released: 2021-06-16
 updated: 2025-04-09
 version: 7.4.0
-reviews: 195
+reviews: 196
 website: https://bake.io
 repository: 
 icon: com.cakedefi.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-10-04
+date: 2026-04-13
 signer: 
 twitter: cakedefi
 social:

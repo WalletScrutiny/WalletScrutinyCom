@@ -3,7 +3,7 @@ wsId:
 title: Trust Vault Crypto Web3 Wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.trustvault.wallet
 appCountry: 
 released: 2025-12-08

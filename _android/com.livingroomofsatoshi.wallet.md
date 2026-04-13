@@ -11,7 +11,7 @@ appCountry:
 released: 2019-05-19
 updated: 2026-03-12
 version: 3.3.0
-reviews: 214
+reviews: 215
 website: http://www.walletofsatoshi.com
 repository: 
 icon: com.livingroomofsatoshi.wallet.png

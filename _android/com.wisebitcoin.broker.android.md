@@ -10,7 +10,7 @@ appCountry: cn
 released: 2021-01-04
 updated: 2025-12-26
 version: 5.7.1
-reviews: 133
+reviews: 132
 website: https://www.batonex.com
 repository: 
 icon: com.wisebitcoin.broker.android.png

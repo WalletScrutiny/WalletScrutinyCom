@@ -4,7 +4,7 @@ title: BitFree
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.yykj.bitfree.en
 appCountry: 
 released: 2019-01-26

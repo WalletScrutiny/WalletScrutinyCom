@@ -8,8 +8,8 @@ users: 10000
 appId: com.hitbtc.wallet
 appCountry: au
 released: 2021-08-31
-updated: 2026-02-17
-version: 1.41.0
+updated: 2026-04-02
+version: 1.42.0
 reviews: 
 website: https://hitbtc.com/wallet
 repository: 

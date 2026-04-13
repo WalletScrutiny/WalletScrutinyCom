@@ -3,7 +3,7 @@ wsId:
 title: Vision Crypto
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: net.visioncrypto.app
 appCountry: 
 released: 2025-05-23

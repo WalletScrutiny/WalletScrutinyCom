@@ -3,7 +3,7 @@ wsId:
 title: BitcoinUpBit
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitcoinupbit.exchange
 appCountry: 
 released: 2021-12-13
@@ -15,7 +15,7 @@ repository:
 icon: com.bitcoinupbit.exchange.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

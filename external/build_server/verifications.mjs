@@ -579,11 +579,13 @@ export async function startCompilationJob(buildDirForThisVerification, script, n
     const binaryParam = binaryFilePath ? `--binary ${binaryFilePath}` : null;
     const versionString = platform !== 'android' ? `--version ${newWalletVersion}` : null;
     const scriptArgs = [versionString, binaryParam, architectureFlag, typeFlag].filter(Boolean).join(' ');
+
     const finalScriptExecutionCommand = `${script} ${scriptArgs}`;
+    const escapedFinalScriptExecutionCommand = finalScriptExecutionCommand.replace(/(["\\$`!()])/g, '\\$1');
 
     let castFileName = script.replace(/\.sh$/, '');
     castFileName += `${architecture ? `_${architecture}` : ''}${type ? `_${type}` : ''}.cast`;
-    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${finalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
+    const asciinemaCommand = `cd ${buildDirForThisVerification} && asciinema rec --overwrite -c "sleep 2; ${escapedFinalScriptExecutionCommand} ; echo scriptrc=\\$? ; sleep 5" ${castFileName}`;
     appLog.info(`Recording and executing script: ${asciinemaCommand}`);
 
     const child = spawn(asciinemaCommand, {

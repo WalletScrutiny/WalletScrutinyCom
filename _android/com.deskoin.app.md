@@ -3,12 +3,12 @@ wsId:
 title: Deskoin - Investir en cryptos
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.deskoin.app
 appCountry: 
 released: 
-updated: 2026-03-06
-version: 7.5.11
+updated: 2026-04-07
+version: 7.5.14
 reviews: 
 website: https://www.deskoin.com/
 repository: 

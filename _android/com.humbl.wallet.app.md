@@ -4,7 +4,7 @@ title: TAP Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.humbl.wallet.app
 appCountry: 
 released: 2022-07-04

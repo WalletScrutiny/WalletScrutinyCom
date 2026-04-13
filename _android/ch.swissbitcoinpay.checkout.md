@@ -11,7 +11,7 @@ appCountry:
 released: 2022-11-15
 updated: 2025-10-29
 version: 2.6.5
-reviews: 2
+reviews: 3
 website: https://swiss-bitcoin-pay.ch
 repository: https://github.com/SwissBitcoinPay/app
 icon: ch.swissbitcoinpay.checkout.png

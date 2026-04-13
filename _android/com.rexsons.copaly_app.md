@@ -3,19 +3,19 @@ wsId:
 title: Copaly -Trade Bitcoin & Crypto
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.rexsons.copaly_app
 appCountry: 
 released: 2022-07-25
-updated: 2025-12-28
-version: 5.2.8
+updated: 2026-04-08
+version: 5.2.9
 reviews: 
 website: https://copaly.com
 repository: 
 icon: com.rexsons.copaly_app.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 

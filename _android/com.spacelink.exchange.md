@@ -3,7 +3,7 @@ wsId:
 title: SpaceLink - Crypto Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.spacelink.exchange
 appCountry: 
 released: 2021-05-21

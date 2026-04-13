@@ -8,9 +8,9 @@ users: 500000
 appId: com.PlusWallet
 appCountry: 
 released: 2023-10-06
-updated: 2026-02-06
-version: 5.7.8
-reviews: 70
+updated: 2026-04-08
+version: 5.7.9
+reviews: 71
 website: https://coldwallet.com/
 repository: 
 icon: com.PlusWallet.png

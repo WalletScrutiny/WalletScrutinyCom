@@ -8,8 +8,8 @@ users: 500000
 appId: com.garantibbvadigitalassets.crypto
 appCountry: 
 released: 2023-12-11
-updated: 2026-03-10
-version: 1.13.1
+updated: 2026-03-25
+version: 1.14.0
 reviews: 3
 website: https://www.garantibbvakripto.com.tr
 repository: 

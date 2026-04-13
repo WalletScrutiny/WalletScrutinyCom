@@ -15,10 +15,10 @@ website: https://flitsnode.app
 repository: 
 icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2026-02-02
+date: 2026-04-13
 signer: 
 twitter: FlitsNode
 social:

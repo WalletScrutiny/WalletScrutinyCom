@@ -8,8 +8,8 @@ users: 100
 appId: io.cypherbox.btc
 appCountry: 
 released: 2025-01-17
-updated: 2026-03-01
-version: 0.0.5
+updated: 2026-03-29
+version: 0.0.8
 reviews: 
 website: https://cypherbox.io
 repository: https://github.com/Bamskki/Cypher-Box

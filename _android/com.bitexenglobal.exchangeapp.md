@@ -4,7 +4,7 @@ title: Bitexen Global
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 

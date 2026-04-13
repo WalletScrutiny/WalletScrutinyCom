@@ -8,9 +8,9 @@ appId: ch.cryptonow.wallet
 appCountry: ch
 idd: '1607143703'
 released: 2022-07-07
-updated: 2025-11-04
-version: 2.2.1
-reviews: 92
+updated: 2026-04-07
+version: 2.3.0
+reviews: 93
 website: 
 repository: 
 icon: ch.cryptonow.wallet.jpg

@@ -3,7 +3,7 @@ wsId:
 title: 'FunexPro: Secure Crypto Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.funex.pro
 appCountry: 
 released: 2022-10-13

@@ -8,8 +8,8 @@ users: 100000
 appId: mn.trade
 appCountry: us
 released: 2018-04-13
-updated: 2026-02-02
-version: 3.1.5
+updated: 2026-04-02
+version: 3.1.6
 reviews: 13
 website: https://trade.mn
 repository: 

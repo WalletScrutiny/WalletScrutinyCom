@@ -3,7 +3,7 @@ wsId:
 title: Gio Exchange
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.gioexchange.app
 appCountry: 
 released: 2020-05-07

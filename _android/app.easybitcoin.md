@@ -8,9 +8,9 @@ users: 10000
 appId: app.easybitcoin
 appCountry: 
 released: 2025-09-01
-updated: 2026-03-06
-version: 1.2.1
-reviews: 21
+updated: 2026-04-10
+version: 1.2.2
+reviews: 23
 website: https://easybitcoin.app/
 repository: 
 icon: app.easybitcoin.png

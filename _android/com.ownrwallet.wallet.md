@@ -11,7 +11,7 @@ appCountry:
 released: 2019-05-20
 updated: 2023-09-20
 version: 1.72.0
-reviews: 109
+reviews: 108
 website: https://ownrwallet.com
 repository: 
 icon: com.ownrwallet.wallet.png

@@ -8,17 +8,17 @@ users: 500000
 appId: com.bitbns
 appCountry: 
 released: 2019-09-21
-updated: 2025-03-07
+updated: 2026-04-06
 version: 6.21.0
 reviews: 44
 website: https://bitbns.com/
 repository: 
 icon: com.bitbns.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2026-03-03
+date: 2026-04-13
 signer: 
 twitter: bitbns
 social:

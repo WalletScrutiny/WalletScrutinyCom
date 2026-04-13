@@ -15,10 +15,10 @@ website: https://arcticwallet.io/
 repository: 
 icon: com.arcticmobile.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-07-14
+date: 2026-04-13
 signer: 
 twitter: 
 social:

@@ -8,9 +8,9 @@ users: 100000
 appId: com.ourbit.client
 appCountry: 
 released: 2024-04-05
-updated: 2026-03-10
-version: 1.18.2
-reviews: 57
+updated: 2026-04-11
+version: 1.19.3
+reviews: 56
 website: https://www.ourbit.com
 repository: 
 icon: com.ourbit.client.png

@@ -10,15 +10,15 @@ appCountry:
 released: 2021-09-01
 updated: 2025-04-16
 version: 2.5.5
-reviews: 27
+reviews: 26
 website: https://coincred.org/
 repository: 
 icon: com.coincred.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2022-06-27
+date: 2026-04-13
 signer: 
 twitter: CoinCRED_
 social:

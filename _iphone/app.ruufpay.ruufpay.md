@@ -15,10 +15,10 @@ website:
 repository: 
 icon: app.ruufpay.ruufpay.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-03-14
+date: 2026-04-13
 signer: 
 twitter: ruufpay
 social:

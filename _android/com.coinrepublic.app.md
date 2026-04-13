@@ -4,7 +4,7 @@ title: 'CoinRepublic: Buy BTC Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02

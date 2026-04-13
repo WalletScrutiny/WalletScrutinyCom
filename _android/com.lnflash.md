@@ -8,8 +8,8 @@ users: 1000
 appId: com.lnflash
 appCountry: 
 released: 2024-01-07
-updated: 2026-02-09
-version: 0.4.9
+updated: 2026-04-02
+version: 0.5.0
 reviews: 
 website: https://getflash.io
 repository: https://github.com/lnflash/flash-mobile

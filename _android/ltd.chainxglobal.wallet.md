@@ -7,8 +7,8 @@ users: 100
 appId: ltd.chainxglobal.wallet
 appCountry: 
 released: 2025-09-10
-updated: 2026-03-16
-version: 1.0.94
+updated: 2026-04-06
+version: 1.0.96
 reviews: 
 website: https://chainxglobal.ltd
 repository: 

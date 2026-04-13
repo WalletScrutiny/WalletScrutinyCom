@@ -8,9 +8,9 @@ appId: com.app.koinbazar
 appCountry: in
 idd: '1567360326'
 released: 2021-06-02
-updated: 2026-02-19
-version: 4.1.22
-reviews: 153
+updated: 2026-04-08
+version: 4.2.1
+reviews: 158
 website: https://www.koinbx.com/
 repository: 
 icon: com.app.koinbazar.jpg

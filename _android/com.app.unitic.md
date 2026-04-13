@@ -8,8 +8,8 @@ users: 1000
 appId: com.app.unitic
 appCountry: 
 released: 2024-06-19
-updated: 2026-01-08
-version: 0.1.9
+updated: 2026-03-30
+version: 0.2.0
 reviews: 
 website: https://uniticexchange.com/
 repository: 

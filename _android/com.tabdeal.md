@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-14
 updated: 2026-01-06
 version: 6.1.2
-reviews: 190
+reviews: 179
 website: https://tabdeal.org
 repository: 
 icon: com.tabdeal.png

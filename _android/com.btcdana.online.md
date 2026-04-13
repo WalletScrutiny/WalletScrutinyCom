@@ -8,9 +8,9 @@ users: 10000000
 appId: com.btcdana.online
 appCountry: 
 released: 2019-07-23
-updated: 2026-03-19
-version: 2.6.2
-reviews: 172
+updated: 2026-04-03
+version: 2.8.0
+reviews: 173
 website: https://www.btcdana.com/
 repository: 
 icon: com.btcdana.online.png

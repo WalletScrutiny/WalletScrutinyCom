@@ -4,7 +4,7 @@ title: 'Gate.TR: Bitcoin ve Kripto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.gateio.turkey
 appCountry: 
 released: 

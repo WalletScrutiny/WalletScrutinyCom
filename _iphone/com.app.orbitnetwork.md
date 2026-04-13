@@ -15,10 +15,10 @@ website: https://orbitnetwork.com/
 repository: 
 icon: com.app.orbitnetwork.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2025-04-01
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

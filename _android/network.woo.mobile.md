@@ -4,7 +4,7 @@ title: 'WOO X: Smart Crypto Trading'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: network.woo.mobile
 appCountry: 
 released: 2021-12-17

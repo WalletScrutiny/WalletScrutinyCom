@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-14
 updated: 2025-09-08
 version: 5.17.8
-reviews: 271
+reviews: 276
 website: http://www.rockwallet.com
 repository: 
 icon: com.rockwallet.app.jpg
@@ -26,7 +26,7 @@ social:
 - https://www.instagram.com/rockwallet
 - https://www.linkedin.com/company/rockwallet
 redirect_from: 
-developerName: Rockwallet
+developerName: RockWallet
 builds: 
 features: 
 

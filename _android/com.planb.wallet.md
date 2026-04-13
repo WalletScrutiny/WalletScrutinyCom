@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Plan B Wallet
+title: Stacks Tower Games
 altTitle: 
 authors:
 - danny
@@ -8,17 +8,17 @@ users: 1000
 appId: com.planb.wallet
 appCountry: 
 released: 2021-07-08
-updated: 2021-09-14
-version: 1.1.4
+updated: 2026-03-31
+version: 9.8.9
 reviews: 
 website: 
 repository: 
 icon: com.planb.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
 appHashes: 
-date: 2024-07-05
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

@@ -5,13 +5,13 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000000
+users: 5000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
 updated: 2026-02-11
 version: 2.50.0
-reviews: 3725
+reviews: 3736
 website: https://www.crypto.com
 repository: 
 icon: com.defi.wallet.png

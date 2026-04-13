@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-30
 updated: 2026-03-19
 version: 3.1.7
-reviews: 510
+reviews: 515
 website: https://uglycash.app/
 repository: 
 icon: rsv.walletapp.reserve.png

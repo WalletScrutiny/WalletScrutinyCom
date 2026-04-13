@@ -1,23 +1,23 @@
 ---
 wsId: 
-title: digitdax.com
+title: FlashLexiconn
 altTitle: 
 authors: 
 users: 50
 appId: com.webview.digitdax
 appCountry: 
 released: 2020-08-13
-updated: 2020-08-13
-version: 10.00.02
+updated: 2026-04-09
+version: '15.1'
 reviews: 
 website: 
 repository: 
 icon: com.webview.digitdax.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
-date: 2024-04-19
+date: 2026-04-13
 signer: 
 twitter: 
 social: 

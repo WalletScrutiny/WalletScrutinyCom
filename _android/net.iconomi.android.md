@@ -10,7 +10,7 @@ appCountry: si
 released: 2017-10-17
 updated: 2026-02-25
 version: 4.1.3
-reviews: 170
+reviews: 171
 website: https://www.iconomi.com
 repository: 
 icon: net.iconomi.android.png

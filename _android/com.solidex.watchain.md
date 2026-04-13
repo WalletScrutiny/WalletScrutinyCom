@@ -3,7 +3,7 @@ wsId:
 title: Quantum Code - AI Tracker
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.solidex.watchain
 appCountry: 
 released: 2025-10-19
@@ -15,7 +15,7 @@ repository:
 icon: com.solidex.watchain.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 
