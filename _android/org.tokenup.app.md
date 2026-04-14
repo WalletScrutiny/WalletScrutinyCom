@@ -2,7 +2,8 @@
 wsId: 
 title: 'TokenUp: Multi-chain Wallet'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: org.tokenup.app
 appCountry: 
@@ -15,9 +16,9 @@ repository:
 icon: org.tokenup.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2026-01-14
+date: 2026-04-09
 signer: 
 twitter: 
 social: 
@@ -28,3 +29,11 @@ features:
 
 ---
 
+## App Description
+
+TokenUp is a multi-cryptocurrency wallet application that supports various digital assets but does not 
+explicitly demonstrate native Bitcoin support or verifiable self-custody mechanisms.
+
+## Testing and Analysis
+
+Our testing [reveals](https://x.com/BitcoinWalletz/status/2037450502804557960) that this app **does not support Bitcoin.**
