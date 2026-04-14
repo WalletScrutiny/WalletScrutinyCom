@@ -29,7 +29,9 @@ redirect_from:
 - /io.muun.apollo/
 - /posts/io.muun.apollo/
 developerName: muun
-builds: 
+builds:
+- arch: arm64-v8a
+- arch: armeabi-v7a
 features:
 - ln
 - multiSig
