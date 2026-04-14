@@ -134,6 +134,12 @@ if ! node ./scripts/nostr/backupNostrVerificationEvents.mjs; then
   exit 1
 fi
 
+echo " * Doing Blossom Spam / Orphaned Files Check..."
+if ! node ./scripts/verifications/checkBlossomSpam.mjs; then
+  echo "❌ ERROR: Failed to check for Blossom Spam / Orphaned Files"
+  exit 1
+fi
+
 echo " * Running feature verification..."
 if [ -n "$PPQ_API_KEY" ]; then
   echo "   PPQ_API_KEY detected, running featureVerifier..."
