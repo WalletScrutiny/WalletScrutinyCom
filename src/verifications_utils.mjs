@@ -1893,9 +1893,6 @@ function isSamePlatform(platform1, platform2) {
 }
 
 function getLastVerificationStatusForAppId(appId, platform) {
-  console.log('appId', appId);
-  console.log('platform', platform);
-
   let verification = null;
   let maxVersion = null;
 
