@@ -362,9 +362,14 @@ window.renderAssetsTable = async function({
   if (sortedItems.length > 0) {
     if (appPlatform) {
       sortedItems.forEach((itemsForThisSha256) => {
-        itemsForThisSha256.items = itemsForThisSha256.items.filter(
-          item => appPlatform === getFirstTagValue(item, 'platform')
-        );
+        itemsForThisSha256.items = itemsForThisSha256.items.filter(item => {
+          const itemPlatform = getFirstTagValue(item, 'platform');
+          // 'desktop' in page layouts maps to 'linux'/'windows'/'macos' in verification events
+          if (appPlatform === 'desktop') {
+            return itemPlatform === 'linux' || itemPlatform === 'windows' || itemPlatform === 'macos';
+          }
+          return appPlatform === itemPlatform;
+        });
       });
 
       // Remove groups with no remaining items
