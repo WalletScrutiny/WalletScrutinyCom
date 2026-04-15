@@ -1,6 +1,6 @@
 ---
 wsId: huskyhdw20
-title: Husky HDW20 Hardware Walle‪t
+title: Husky HDW20 Hardware Wallet
 altTitle: 
 authors: 
 users: 10
