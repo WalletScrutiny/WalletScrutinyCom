@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
  * For each _iphone wallet markdown file whose wsId also exists on some _android
- * file, report iPhone files that omit the copyFromAndroid include token and
- * have a post-frontmatter body of at most SHORT_BODY_MAX_CHARS characters
- * (after trim; see constant below).
+ * file, report iPhone files that omit the copyFromAndroid include token, have
+ * a post-frontmatter body of at most SHORT_BODY_MAX_CHARS characters (after
+ * trim), and have at least one matching Android page whose trimmed body length
+ * is greater than SHORT_BODY_MAX_CHARS (see constant below).
  *
  * Usage: node scripts/checkIphoneCopyFromAndroid.mjs
  * Optional: --root /path/to/repo  (defaults to parent of this script directory)
@@ -69,14 +70,21 @@ async function main () {
   const iphoneDir = path.join(root, '_iphone');
   const androidDir = path.join(root, '_android');
 
+  /** @type {Map<string, { paths: string[], maxBodyLen: number }>} */
   const androidByWsId = new Map();
   for (const file of await listMdFiles(androidDir)) {
     const raw = await fs.readFile(file, 'utf8');
-    const { frontmatter } = splitFrontmatter(raw);
+    const { frontmatter, body } = splitFrontmatter(raw);
     const wsId = extractWsId(frontmatter);
     if (!wsId) continue;
-    if (!androidByWsId.has(wsId)) androidByWsId.set(wsId, []);
-    androidByWsId.get(wsId).push(path.relative(root, file));
+    const rel = path.relative(root, file);
+    const androidBodyLen = body.trim().length;
+    if (!androidByWsId.has(wsId)) {
+      androidByWsId.set(wsId, { paths: [], maxBodyLen: 0 });
+    }
+    const agg = androidByWsId.get(wsId);
+    agg.paths.push(rel);
+    agg.maxBodyLen = Math.max(agg.maxBodyLen, androidBodyLen);
   }
 
   const issues = [];
@@ -86,15 +94,20 @@ async function main () {
     const wsId = extractWsId(frontmatter);
     if (!wsId || !androidByWsId.has(wsId)) continue;
 
+    const { paths: androidPaths, maxBodyLen: androidMaxBodyLen } =
+      androidByWsId.get(wsId);
+    const androidLongBody = androidMaxBodyLen > SHORT_BODY_MAX_CHARS;
+
     const hasCopyToken = raw.includes('copyFromAndroid');
     const bodyLen = body.trim().length;
     const shortBody = bodyLen <= SHORT_BODY_MAX_CHARS;
-    if (!hasCopyToken && shortBody) {
+    if (!hasCopyToken && shortBody && androidLongBody) {
       const rel = path.relative(root, file);
-      const androidRefs = androidByWsId.get(wsId).join(', ');
+      const androidRefs = androidPaths.join(', ');
       const reasons = [
         'missing copyFromAndroid token',
-        `body length ${bodyLen} (need >${SHORT_BODY_MAX_CHARS})`,
+        `iPhone body length ${bodyLen} (need >${SHORT_BODY_MAX_CHARS})`,
+        `Android max trimmed body length ${androidMaxBodyLen}`,
       ];
       issues.push({
         file: rel,
@@ -109,13 +122,13 @@ async function main () {
 
   if (issues.length === 0) {
     console.log(
-      'No iPhone files with a matching Android wsId violate both copyFromAndroid and short-body rules.'
+      'No iPhone files match all of: missing copyFromAndroid, short iPhone body, and substantive Android body.'
     );
     process.exit(0);
   }
 
   console.log(
-    `Found ${issues.length} iPhone file(s) with matching Android wsId, missing copyFromAndroid, and short body (<=${SHORT_BODY_MAX_CHARS} chars):\n`
+    `Found ${issues.length} iPhone file(s): missing copyFromAndroid, short iPhone body (<=${SHORT_BODY_MAX_CHARS} chars), Android body >${SHORT_BODY_MAX_CHARS}:\n`
   );
   for (const row of issues) {
     console.log(`${row.file}`);
