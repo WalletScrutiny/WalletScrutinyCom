@@ -27,3 +27,4 @@ developerName: BITROCK PTE. LTD.
 
 ---
 
+{% include copyFromAndroid.html %}
