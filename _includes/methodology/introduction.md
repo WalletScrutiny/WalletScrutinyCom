@@ -57,7 +57,12 @@ Tests and verifications on WalletScrutiny are now primarily contributed by users
 
 Users can contribute their own verification results, which are then displayed on the wallet's page. This distributed approach ensures that no single entity is responsible for all verifications, increasing trust in the results.
 
-We encourage wallet users to [participate in the verification process](/verifications/) and contribute their findings to help the community.
+We encourage wallet users to [participate in the verification process](/verifications/) and
+contribute their findings to help the community. If you follow our
+[Script Guidelines](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/docs/script_verifications.md?ref_type=heads)
+when creating a script to reproduce a wallet, we will try to run it again automatically when
+a new version of the wallet is released, and add verifications to the wallet's page automatically,
+giving you the credit.
 
 ## Review process:
 
