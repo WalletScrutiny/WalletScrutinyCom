@@ -158,11 +158,11 @@ permalink: /donate/
 
 Leo Wandersleb founded WalletScrutiny, along with contributions by Kristina Tezieva, Matthew Lamb, and others. While
 this is a free-time project for all of us, we hope to work on WalletScrutiny full-time to expand it to more apps, app
-classes, platforms, and markets. Currently, we only cover testing for reproducibility on the App Store, Google Play
-Store, and bitcoin hardware wallets. In addition, we hope to add:
+classes, platforms, and markets. Currently, we only cover testing for reproducibility on the Google Play Store, Linux
+and Mac desktop apps, and bitcoin hardware wallets. In addition, we hope to add:
 
 * incentives for actual code reviews
-* Mac/Windows/Linux
+* App Store / Windows build verifications
 * alt-coins/chat apps/privacy apps
 * real time alerts
 
