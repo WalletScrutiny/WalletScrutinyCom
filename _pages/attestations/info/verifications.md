@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "User Created Verifications on Nostr"
+title: "User Created Build Verifications on Nostr"
 permalink: /verifications/
 ---
 
@@ -49,37 +49,37 @@ pre {
 </div>
 
 <div class="verifications-intro">
-    <h2>What are User Created Nostr Verifications?</h2>
+    <h2>What are User Created Nostr Build Verifications?</h2>
 
-    <p>Nostr Verifications represent a novel approach to software binary verification, enabling users to independently reproduce binaries from source code and share their findings with the community. This system leverages the decentralized Nostr network to store and distribute verification messages.</p>
+    <p>Nostr Build Verifications represent a novel approach to software binary build verification, enabling users to independently reproduce binaries from source code and share their findings with the community. This system leverages the decentralized Nostr network to store and distribute verification messages.</p>
 
-    <p>When users compile software from source code and verify that the resulting binary matches or doesn't match the distributed version, they can create a verification - a signed message confirming or denying this verification. These verifications are then broadcast through the Nostr network, creating a public record of independent verifications that other users can see and reference. Users are able to upload the scripts used to reproduce each binary and the output of the execution, so that other users can verify the reproducibility of the binary themselves.</p>
+    <p>When users compile software from source code and verify that the resulting binary matches or doesn't match the distributed version, they can create a build verification - a signed message confirming or denying this verification. These build verifications are then broadcast through the Nostr network, creating a public record of independent build verifications that other users can see and reference. Users are able to upload the scripts used to reproduce each binary and the output of the execution, so that other users can verify the reproducibility of the binary themselves.</p>
 
-    <p>This community-driven verification system helps enhance software security and transparency by:</p>
+    <p>This community-driven build verification system helps enhance software security and transparency by:</p>
 
     <ul>
-        <li>Allowing users to verify software authenticity independently</li>
-        <li>Creating a decentralized record of verifications</li>
-        <li>Making binary verification results publicly accessible</li>
+        <li>Allowing users to verify software build authenticity independently</li>
+        <li>Creating a decentralized record of build verifications</li>
+        <li>Making binary build verification results publicly accessible</li>
         <li>Building trust through community participation</li>
     </ul>
 </div>
 
 <div class="getting-started">
     <h2>Where to Start?</h2>
-    <p>There are four main ways to explore verifications in our system:</p>
+    <p>There are four main ways to explore build verifications in our system:</p>
     <ul style="margin-bottom: 0;">
         <li><a href="/assets/">Browse the Asset Registry</a> - View all the wallet binaries that have been added to our system</li>
-        <li><a href="/verifiers/">Top Build Verifiers</a> - See the most active community members who verify wallet binaries</li>
-        <li>Use the Wallet Search - Find verifications for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
-        <li>Verify a specific binary - Use a computer to drop your binary file in our verification tool to check existing verifications or create new ones.</li>
+        <li><a href="/verifiers/">Top Build Verifiers</a> - See the most active community members who verify wallet builds</li>
+        <li>Use the Wallet Search - Find build verifications for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
+        <li>Verify a specific binary - Use a computer to drop your binary file in our verification tool to check existing build verifications or create new ones.</li>
     </ul>
 
     {% include /verifications/dragAndDropArea.html %}
 
     <p>If the <b>binary is new to the network</b>, you'll be prompted to register it providing some additional information so testers know where it came from and for which product it is.</p>
-    <p>If the <b>binary is already known</b>, you'll be able to view existing verifications, access build instructions, or create your own verification.</p>
-    <p class="note">Note that not all Bitcoin wallets have verifications available, as this is a community-driven effort.</p>
+    <p>If the <b>binary is already known</b>, you'll be able to view existing build verifications, access build instructions, or create your own build verification.</p>
+    <p class="note">Note that not all Bitcoin wallets have build verifications available, as this is a community-driven effort.</p>
 </div>
 
 <div class="prerequisites">
