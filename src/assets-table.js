@@ -1210,7 +1210,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML += `
     <p><strong>Created At:</strong> ${ formatDate(verification.created_at) }</p>
-    <p><strong>Status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
+    <p><strong>Build status: </strong> ${getStatusIcon(status)} ${getStatusText(status)}</p>
     <p style="display: none;" id="zaps"></p>
     <p style="display: none;" id="endorsements"></p>`;
 
