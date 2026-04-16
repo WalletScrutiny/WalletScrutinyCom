@@ -76,10 +76,12 @@ permalink: /donate/
     box-shadow: 0 0 0 1px var(--neutral-6);
     font-weight: 400;
     border-radius: 3px;
-    margin-right: 5px;
+    /* Override _forms.scss input margin-bottom so the flex row aligns evenly */
+    margin: 0 5px 0 0;
   }
 
-  select[name="currency"] {
+  /* Specificity must beat `.btcpay-form select` / `.btcpay-form--block select` in _navigation.scss */
+  form.btcpay-form select[name="currency"] {
     font-size: 1rem;
     padding: 11px;
     border: 0;
@@ -91,9 +93,11 @@ permalink: /donate/
     -moz-appearance: none;
     appearance: none;
     cursor: pointer;
+    margin: 0;
   }
 
-  .submit {
+  form.btcpay-form button.submit {
+    margin-top: 0.75rem;
     padding: 10px;
     text-align: center;
     width: 100%;
@@ -103,7 +107,7 @@ permalink: /donate/
     border: 0;
   }
 
-  .submit::active {
+  form.btcpay-form button.submit:active {
     background-color: var(--accent);
   }
 
