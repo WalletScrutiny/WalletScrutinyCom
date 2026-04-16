@@ -34,12 +34,11 @@ We will list as we stumble into them things like
 
 ## What could still go wrong?
 
-The verdict {% include verdictBadge.html verdict="reproducible" type='short' %}
-unfortunately means very little. It means that
-at the random point in time that we decided to verify the code to match the
-binary, the code actually did match the binary. It does not mean that the next update
-will or that the prior one did and it does not mean that the reproducible code is
-not doing evil things.
+For a version of a wallet to have a <b><i>Reproducible</i></b> build verification
+unfortunately means very little. It means that it matches the binary at the
+random point in time that we decided to verify the code against the binary.
+It does not mean that the next update will, or that the prior one did, and it
+does not mean that the reproducible code is not doing evil things.
 
 In fact, we believe the most likely scenario for an exit scam is that the wallet
 would bait-and-switch. It would see to how many users it could grow the product or

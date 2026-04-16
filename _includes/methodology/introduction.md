@@ -25,8 +25,7 @@ start, which probably is the case for some wallets, too.
 ## What we do not do
 
 * **<span id="noAudit">We do not</span>** provide a security audit of the wallet.
-  The empty row "Audited?" on [the landing page](/) is merely to emphasize
-  this fact. As any public source wallet gets potentially audited all the time
+  As any public source wallet gets potentially audited all the time
   and paid audits certainly help the team to improve their product, those audits
   do not help prevent exit scams or most other ways where all users lose all
   their funds at once, which we are mainly focused on.

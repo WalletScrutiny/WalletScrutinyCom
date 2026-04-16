@@ -97,7 +97,7 @@ pre {
 
     {% include /verifications/dragAndDropArea.html %}
 
-    <h3>Option 2: Using sha256sum (Command Line)</h3>
+    <h3>Option 2: Using Command Line Tools</h3>
     <p class="p-pre-code">On Linux or macOS, open a terminal and run:</p>
     <pre><code>sha256sum path/to/your/file</code></pre>
     <p class="p-pre-code">On Windows, use:</p>
