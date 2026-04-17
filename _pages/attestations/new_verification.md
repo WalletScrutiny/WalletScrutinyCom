@@ -48,7 +48,12 @@ permalink: /new_verification/
         margin: 0;
         border-radius: 0 0 5px 5px;
       }
-      
+
+      #content::placeholder {
+        color: var(--neutral-2);
+        opacity: 0.75;
+      }
+
       /* Markdown preview styling */
       #markdownPreview h1, #markdownPreview h2, #markdownPreview h3, 
       #markdownPreview h4, #markdownPreview h5, #markdownPreview h6 {
@@ -412,7 +417,7 @@ permalink: /new_verification/
         </div>
 
         <div class="form-group">
-            <label for="content">Content (*):</label>
+            <label for="content">Description (*):</label>
             <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
             <div id="editorTabs" style="display: flex; gap: 0.5em;">
                 <button type="button" id="writeTab" class="tab-button active">Write</button>
@@ -420,10 +425,10 @@ permalink: /new_verification/
             </div>
 
             <div id="editorContainer">
-                <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+                <textarea id="content" name="content" class="form-control" rows="10" required placeholder="Describe how you performed the verification and what you found (steps, commands you ran manually, conclusions, and references to hashes or diffs). This will appear on the verification page and should be detailed enough to let other users reproduce the verification.&#10;&#10;Use the fields below to upload the scripts you used to build the asset, and the output files (logs, asciicasts, diffoscope reports, etc.). Avoid pasting very large logs here unless a short excerpt is enough for context."></textarea>
                 <div id="markdownPreview" class="form-control" style="display:none; padding:1em; background:var(--neutral-6); border:1px solid var(--neutral-4); border-radius:4px; min-height:10em; color:var(--text);"></div>
             </div>
-            <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
+            <small class="form-text">Minimum 20 characters, maximum 60000. Markdown is supported. Prefer the script and file sections below for scripts and bulky logs.</small>
         </div>
 
         <div class="form-group">
@@ -822,7 +827,7 @@ permalink: /new_verification/
       hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
     } else {
       hashesLabel.textContent = 'Asset hashes*:';
-      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
+      hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying and press the (+) button to add it. Each hash must be 64 hexadecimal characters.';
     }
 
     let message = '';
@@ -1089,7 +1094,7 @@ permalink: /new_verification/
       charCounter.style.fontWeight = 'bold';
       charCounter.style.fontSize = '1.2em';
     } else {
-      charCounter.style.color = '#666';
+      charCounter.style.color = '#c1c1c1';
       charCounter.style.fontWeight = 'normal';
       charCounter.style.fontSize = '1em';
     }
