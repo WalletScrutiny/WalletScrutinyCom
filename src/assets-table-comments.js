@@ -82,6 +82,29 @@ function addCommentStyles() {
       display: flex;
       align-items: center;
       gap: 8px;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .comment-delete-btn {
+      flex-shrink: 0;
+      padding: 4px 6px;
+      border: none;
+      background: transparent;
+      color: #666;
+      cursor: pointer;
+      border-radius: 4px;
+      line-height: 1;
+    }
+    .comment-delete-btn:hover {
+      color: #c00;
+      background-color: rgba(0, 0, 0, 0.06);
+    }
+    body.dark .comment-delete-btn {
+      color: #aaa;
+    }
+    body.dark .comment-delete-btn:hover {
+      color: #f66;
+      background-color: rgba(255, 255, 255, 0.08);
     }
     .comment-author-name {
       font-weight: bold;
@@ -158,7 +181,7 @@ async function fetchComments(verificationKey) {
       const content = comment.content;
       const date = formatCommentDate(comment.created_at);
       const pubkey = comment.pubkey;
-      return { author, content, date, pubkey, created_at: comment.created_at };
+      return { author, content, date, pubkey, created_at: comment.created_at, id: comment.id };
     })
     .sort((a, b) => b.created_at - a.created_at);
 }
@@ -226,6 +249,10 @@ export async function renderCommentsSection(container, verificationKey, authorPu
           <div class="comment comment-profile-${comment.pubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
               <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
+              ${window.userPubkey && comment.pubkey === window.userPubkey ? `
+              <button type="button" class="comment-delete-btn" data-comment-id="${comment.id}" title="Delete comment" aria-label="Delete comment">
+                <i class="fas fa-trash-alt" aria-hidden="true"></i>
+              </button>` : ''}
             </div>
             <div class="comment-content">
               <p>${marked.parse(comment.content)}</p>
@@ -292,4 +319,21 @@ export async function renderCommentsSection(container, verificationKey, authorPu
       }
     });
   }
+
+  container.querySelectorAll('.comment-delete-btn').forEach((deleteBtn) => {
+    deleteBtn.addEventListener('click', async (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      const commentEventId = deleteBtn.getAttribute('data-comment-id');
+      if (!commentEventId || typeof window.deleteVerificationComment !== 'function') {
+        return;
+      }
+      deleteBtn.disabled = true;
+      try {
+        await window.deleteVerificationComment(commentEventId);
+      } finally {
+        deleteBtn.disabled = false;
+      }
+    });
+  });
 }
