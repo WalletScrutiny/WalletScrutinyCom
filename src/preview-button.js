@@ -40,6 +40,8 @@ function setupPreviewButtons() {
       e.preventDefault();
       writeTab.classList.add('active');
       previewTab.classList.remove('active');
+      previewArea.style.height = '';
+      previewArea.style.overflowY = '';
       contentArea.style.display = 'block';
       previewArea.style.display = 'none';
     });
@@ -49,8 +51,11 @@ function setupPreviewButtons() {
       e.preventDefault();
       previewTab.classList.add('active');
       writeTab.classList.remove('active');
-      contentArea.style.display = 'none';
-      
+
+      const editorHeightPx = `${contentArea.offsetHeight}px`;
+      previewArea.style.height = editorHeightPx;
+      previewArea.style.overflowY = 'auto';
+
       try {
         // Parse markdown content using the imported marked library
         const markdownText = contentArea.value;
@@ -59,7 +64,8 @@ function setupPreviewButtons() {
         console.error('Error parsing markdown:', error);
         previewArea.innerHTML = '<p style="color: red;">Error parsing markdown content</p>';
       }
-      
+
+      contentArea.style.display = 'none';
       previewArea.style.display = 'block';
     });
 
