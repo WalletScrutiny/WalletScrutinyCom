@@ -557,4 +557,32 @@ body.dark #endorsementModalContent {
   cursor: pointer;
 }
 
+/* Verification modal: discreet delete action */
+.verification-modal-delete-link {
+  margin-left: 10px;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #b84c4c;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  opacity: 0.92;
+}
+
+.verification-modal-delete-link:hover,
+.verification-modal-delete-link:focus {
+  color: #a02020;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+body.dark .verification-modal-delete-link {
+  color: #c46a6a;
+}
+
+body.dark .verification-modal-delete-link:hover,
+body.dark .verification-modal-delete-link:focus {
+  color: #e09090;
+}
+
 /*# sourceMappingURL=verifications.css.map */
