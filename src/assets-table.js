@@ -1184,6 +1184,9 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
     <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
   </button>`;
+  content.innerHTML += isMine
+    ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
+    : '';
   content.innerHTML += '</p>';
 
   const version = getFirstTagValue(verification, 'version');
@@ -1540,6 +1543,23 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     container: "#verificationActionButtons",
     verificationId: verification.id
   });
+
+  const deleteVerificationLink = content.querySelector('#deleteVerificationLink');
+  if (deleteVerificationLink) {
+    deleteVerificationLink.addEventListener('click', async (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      try {
+        if (isDraft) {
+          await window.deleteDraftVerification(verification.id);
+        } else {
+          await window.deletePublishedVerification(verification.id);
+        }
+      } catch (err) {
+        showToast((err && err.message) || String(err), 'error');
+      }
+    });
+  }
 
   let shareMessage = "Check out this verification!";
   if (verification.content.includes('i')) {

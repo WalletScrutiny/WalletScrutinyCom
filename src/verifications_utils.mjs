@@ -494,6 +494,7 @@ const createVerification = async function ({
     if (draftVerificationEvent) {
       await draftVerificationEvent.delete('deleting draft, as verification was published', true);
     }
+    await deleteCachedEventById(draftVerificationEventId);
   }
 
   return ndkEvent;
@@ -847,6 +848,37 @@ const saveEventsToIDB = async (events) => {
       resolve(savedCount);
     };
     transaction.onerror = () => reject("Error saving events to IDB");
+  });
+};
+
+/**
+ * Removes a single Nostr event from the IndexedDB cache (events store keyPath: id).
+ * Used after publishing a deletion (kind 5) so reload does not resurrect stale data.
+ */
+const deleteCachedEventById = async (eventId) => {
+  if (!eventId) {
+    return;
+  }
+  const db = await initDB().catch(() => null);
+  if (!db) {
+    return;
+  }
+
+  return new Promise((resolve) => {
+    const transaction = db.transaction([eventsStoreName], 'readwrite');
+    const objectStore = transaction.objectStore(eventsStoreName);
+    const request = objectStore.delete(eventId);
+    request.onerror = () => {
+      console.warn('Failed to remove event from IDB cache:', eventId, request.error);
+    };
+    transaction.oncomplete = () => {
+      console.debug(`Removed event ${eventId} from IDB cache`);
+      resolve();
+    };
+    transaction.onerror = () => {
+      console.warn('IDB transaction error removing cached event:', eventId);
+      resolve();
+    };
   });
 };
 
@@ -1767,6 +1799,8 @@ const deleteDraftVerification = async function(draftVerificationEventId, moveToU
         await draftVerificationEvent.delete(reason, true);
       }
 
+      await deleteCachedEventById(draftVerificationEventId);
+
       showToast('Draft verification deleted successfully');
 
       if (moveToURL) {
@@ -1779,6 +1813,51 @@ const deleteDraftVerification = async function(draftVerificationEventId, moveToU
     }
   }
 }
+
+const deletePublishedVerification = async function(verificationEventId, reason = 'User deleted verification via WalletScrutiny') {
+  if (!verificationEventId) {
+    showToast('No verification event ID found', 'error');
+    return;
+  }
+
+  if (!confirm('Are you sure you want to delete this verification? A Nostr deletion request (kind 5) will be sent to relays. This action cannot be undone.')) {
+    return;
+  }
+
+  try {
+    await ensureNdkConnected();
+    const verificationEvent = await getVerificationEvent(verificationEventId);
+    if (!verificationEvent) {
+      showToast('Verification event not found on relays', 'error');
+      return;
+    }
+
+    if (verificationEvent.kind === verificationDraftKind) {
+      showToast('Draft verifications are removed with the draft delete action.', 'error');
+      return;
+    }
+
+    let myPubkey;
+    try {
+      myPubkey = await getUserPubkey();
+    } catch {
+      showToast('You need a Nostr signer (browser extension or site identity) to delete a verification.', 'error');
+      return;
+    }
+
+    if (verificationEvent.pubkey !== myPubkey) {
+      showToast('You can only delete verifications you authored.', 'error');
+      return;
+    }
+
+    await verificationEvent.delete(reason, true);
+    await deleteCachedEventById(verificationEventId);
+    showToast('Verification deleted successfully');
+    window.location.reload();
+  } catch (error) {
+    showToast(error.message || String(error), 'error');
+  }
+};
 
 const loadDraftVerificationsNotifications = async function () {
   const myPubkey = await getUserPubkey();
@@ -2165,6 +2244,7 @@ if (typeof window !== 'undefined') {
   window.doDraftVerificationAction = doDraftVerificationAction;
   window.getVerificationEvent = getVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
+  window.deletePublishedVerification = deletePublishedVerification;
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
   window.getEventsFromEventIds = getEventsFromEventIds;
@@ -2206,6 +2286,7 @@ export {
   doDraftVerificationAction,
   getVerificationEvent,
   deleteDraftVerification,
+  deletePublishedVerification,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
   getEventsFromEventIds,
