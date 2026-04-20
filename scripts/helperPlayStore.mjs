@@ -108,12 +108,15 @@ function updateFromApp (header, app) {
   header.title = app.title || header.title;
   header.version = (app.version || 'various').replace(/["\\]*/g, ''); // strip " and \ that won't be missed in the version string
   header.released = header.released || app.released;
-  if ((header.verdict === '' || header.verdict === 'wip') && app.minInstalls < 1000) {
-    header.verdict = 'fewusers';
-  } else if (header.verdict === 'fewusers' && app.minInstalls >= 1000) {
-    header.verdict = 'wip';
+
+  if (header.meta !== 'obsolete' && header.meta !== 'defunct' && header.meta !== 'removed' && app.minInstalls < 1000) {
+    header.meta = 'fewusers';
+  } else if (header.meta === 'fewusers' && app.minInstalls >= 1000) {
+    header.meta = 'ok';
   }
+
   header.meta = header.meta || 'ok';
+
   // if api reports an older updated date than what we determined, keep our data
   if (app.updated && !isNaN(new Date(app.updated))) {
   header.updated = header.updated && new Date(header.updated) > new Date(app.updated)

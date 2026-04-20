@@ -64,7 +64,7 @@
 
               if (pageVerdict === 'sourceavailable') {
                 document.getElementById('verificationMessage').innerHTML = "This application has its source code available. You can register an asset for a newer version so somebody can verify its reproducibility by dropping the binary file there.";
-              } else if (['wip', 'fewusers'].includes(pageVerdict)) {
+              } else if (pageVerdict === 'wip') {
                 document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
               }
             }

@@ -46,7 +46,6 @@
   comment: The product by design requires the exposure of the keys to other potentially less secure systems or blindly signs on behalf of such less secure systems.
 - key: notRelevant
   verdicts:
-  - fewusers
   - vapor
   - unreleased
   - nobtc

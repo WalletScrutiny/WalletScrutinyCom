@@ -6,7 +6,6 @@ android:
     our findings.
   verdicts:
     - wip
-    - fewusers
     - fake
     - nowallet
     - nobtc

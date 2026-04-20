@@ -19,7 +19,7 @@ function getStatusFromVerdict(verdict) {
 console.debug = function() {};
 
 async function parseFile(filePath, folderName) {
-  const verdictsToIgnore = ['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'];
+  const verdictsToIgnore = ['custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'];
   try {
     console.debug(`Reading file: ${filePath}`);
     const content = fs.readFileSync(filePath, 'utf8');

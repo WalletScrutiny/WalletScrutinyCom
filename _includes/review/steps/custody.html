@@ -29,6 +29,7 @@
             {% else %}
           {% endcase %}
         {% endfor %}
+        <p class="custody-debug-indices" style="font-size:0.85rem;color:#666;">custodyIndex={{ custodyIndex }}, verdictIndex={{ verdictIndex }}</p>
 
         {% comment %}Check if product has any features with custody alerts{% endcomment %}
         {% assign hasCustodyAlert = false %}
@@ -38,7 +39,11 @@
 
         {% if custodyIndex > verdictIndex %}
           {{ site.data.verdicts[page.verdict].short }}
-          {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+          {% if verdictIndex > 1 %}
+            {% capture answer %}<p>However, we did not run this test because we failed at a <a href="#{{page.verdict}}">preceding test</a>.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+          {% else %}
+            {% capture answer %}<p>However, we didn't yet have the time or resources to run the tests for this wallet.<br><a href="#custodial">Read more</a></p>{% endcapture %}
+          {% endif %}
           {% assign conjunctionText = 'Also' %}
         {% elsif page.verdict == 'custodial' %}
           {{ site.data.verdicts[page.verdict].short }}
