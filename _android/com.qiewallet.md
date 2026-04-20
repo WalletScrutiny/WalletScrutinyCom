@@ -7,8 +7,8 @@ users: 1000
 appId: com.qiewallet
 appCountry: 
 released: 2023-06-20
-updated: 2026-03-25
-version: 0.3.58
+updated: 2026-04-17
+version: 0.3.59
 reviews: 
 website: https://qiewallet.qiblockchain.online/
 repository: 

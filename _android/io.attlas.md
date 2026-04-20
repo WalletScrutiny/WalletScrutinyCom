@@ -8,8 +8,8 @@ users: 500000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2026-04-09
-version: 3.5.94
+updated: 2026-04-19
+version: 3.5.97
 reviews: 5
 website: https://atx.com.vn/
 repository: 

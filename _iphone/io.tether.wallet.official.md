@@ -7,7 +7,7 @@ authors:
 appId: io.tether.wallet.official
 appCountry: us
 idd: '6759002210'
-released: '2026-04-14T07:00:00Z'
+released: 2026-04-14
 updated: 2026-04-15
 version: 1.0.1
 reviews: 2

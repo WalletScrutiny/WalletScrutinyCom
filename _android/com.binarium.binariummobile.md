@@ -4,7 +4,7 @@ title: Binarium
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.binarium.binariummobile
 appCountry: 
 released: 2019-09-16

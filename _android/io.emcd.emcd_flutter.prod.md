@@ -9,7 +9,7 @@ appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
 updated: 2026-04-05
-version: 2.27.1
+version: 2.27.2
 reviews: 36
 website: https://emcd.io/ru
 repository: 

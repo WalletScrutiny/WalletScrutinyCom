@@ -7,8 +7,8 @@ users: 500
 appId: xyz.sanafi.app
 appCountry: 
 released: 2025-10-26
-updated: 2026-03-18
-version: 1.2.9
+updated: 2026-04-20
+version: 1.3.0
 reviews: 
 website: https://sana.money
 repository: 

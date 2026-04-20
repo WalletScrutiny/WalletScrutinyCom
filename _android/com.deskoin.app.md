@@ -9,9 +9,9 @@ appId: com.deskoin.app
 appCountry: 
 released: 
 updated: 2026-04-07
-version: 7.5.14
+version: 7.5.15
 reviews: 
-website: https://www.deskoin.com
+website: https://www.deskoin.com/
 repository: 
 icon: com.deskoin.app.png
 bugbounty: 

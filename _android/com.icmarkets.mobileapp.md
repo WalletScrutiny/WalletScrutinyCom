@@ -1,6 +1,6 @@
 ---
 wsId: iCMarkets
-title: IC Markets
+title: IC
 altTitle: 
 authors:
 - danny
@@ -11,7 +11,7 @@ released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
 reviews: 11
-website: https://icmarkets.com
+website: https://ic.com
 repository: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 

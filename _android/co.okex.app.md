@@ -10,7 +10,7 @@ appCountry:
 released: 2019-09-11
 updated: 2025-12-22
 version: 7.4.9
-reviews: 385
+reviews: 375
 website: https://ok-ex.co
 repository: 
 icon: co.okex.app.png

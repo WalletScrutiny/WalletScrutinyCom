@@ -8,8 +8,8 @@ users: 100000
 appId: com.yuh
 appCountry: 
 released: 2021-04-06
-updated: 2026-04-08
-version: 1.42.1
+updated: 2026-04-17
+version: 1.43.1
 reviews: 4
 website: https://www.yuh.com
 repository: 

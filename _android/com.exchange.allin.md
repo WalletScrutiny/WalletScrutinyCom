@@ -8,8 +8,8 @@ users: 10000
 appId: com.exchange.allin
 appCountry: 
 released: 
-updated: 2026-03-26
-version: 1.2.1
+updated: 2026-04-17
+version: 1.2.2
 reviews: 
 website: https://www.allinx.io
 repository: 

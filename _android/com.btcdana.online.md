@@ -10,7 +10,7 @@ appCountry:
 released: 2019-07-23
 updated: 2026-04-03
 version: 2.8.0
-reviews: 173
+reviews: 172
 website: https://www.btcdana.com/
 repository: 
 icon: com.btcdana.online.png

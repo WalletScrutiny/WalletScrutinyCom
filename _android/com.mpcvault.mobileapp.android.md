@@ -8,8 +8,8 @@ users: 5000
 appId: com.mpcvault.mobileapp.android
 appCountry: 
 released: 2022-09-13
-updated: 2026-04-01
-version: 3.13.1
+updated: 2026-04-17
+version: 3.14.5
 reviews: 3
 website: https://mpcvault.com/
 repository: 

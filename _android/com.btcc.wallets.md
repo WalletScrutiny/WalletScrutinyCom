@@ -10,7 +10,7 @@ appCountry:
 released: 2023-11-16
 updated: 2026-03-24
 version: 3.5.42
-reviews: 14
+reviews: 15
 website: https://www.btcc.com/wallet
 repository: 
 icon: com.btcc.wallets.png

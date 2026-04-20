@@ -10,7 +10,7 @@ appCountry: cn
 released: 2018-10-16
 updated: 2026-04-08
 version: 9.0.5
-reviews: 997
+reviews: 998
 website: https://dcentwallet.com/
 repository: 
 icon: com.kr.iotrust.dcent.wallet.png

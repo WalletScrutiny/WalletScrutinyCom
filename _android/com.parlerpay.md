@@ -7,8 +7,8 @@ users: 1000
 appId: com.parlerpay
 appCountry: 
 released: 2025-02-10
-updated: 2026-04-09
-version: 1.0.52
+updated: 2026-04-14
+version: 1.0.53
 reviews: 13
 website: http://wallet.parler.com/
 repository: 
@@ -22,7 +22,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Parler Technologies
+developerName: Sovren Technologies
 builds: 
 features: 
 

@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-12
 updated: 2025-10-20
 version: 3.5.9
-reviews: 34
+reviews: 33
 website: https://exnovin.io
 repository: 
 icon: io.exnovin.app.png

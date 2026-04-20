@@ -10,7 +10,7 @@ appCountry:
 released: 2022-07-04
 updated: 2026-03-03
 version: 2.11.1
-reviews: 60
+reviews: 59
 website: https://www.cropty.io/
 repository: 
 icon: com.cropty.droid.jpg

@@ -8,8 +8,8 @@ users: 100000
 appId: com.pi42.app
 appCountry: 
 released: 
-updated: 2026-03-25
-version: 1.1.2
+updated: 2026-04-19
+version: 1.1.7
 reviews: 
 website: https://pi42.exchange/
 repository: 

@@ -4,13 +4,13 @@ title: Quidax -  Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.quidax.app
 appCountry: 
 released: 2025-04-21
-updated: 2026-04-02
-version: 1.2.7
-reviews: 11
+updated: 2026-04-16
+version: 1.2.10
+reviews: 12
 website: https://www.quidax.io/
 repository: 
 icon: io.quidax.app.png

@@ -10,7 +10,7 @@ appCountry:
 released: 2025-06-02
 updated: 2025-08-30
 version: 3.0.0
-reviews: 9
+reviews: 10
 website: http://www.cryptokeeperllc.com
 repository: 
 icon: com.flx.cryptokeeper.png

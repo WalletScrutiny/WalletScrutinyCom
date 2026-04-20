@@ -8,9 +8,9 @@ users: 10000
 appId: com.walletverse
 appCountry: 
 released: 2023-06-29
-updated: 2026-04-03
-version: 1.16.8
-reviews: 11
+updated: 2026-04-14
+version: 1.16.9
+reviews: 12
 website: https://walletverse.io/
 repository: 
 icon: com.walletverse.png

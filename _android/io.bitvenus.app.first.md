@@ -8,8 +8,8 @@ users: 100000
 appId: io.bitvenus.app.first
 appCountry: 
 released: 2023-07-28
-updated: 2026-04-03
-version: 5.7.12
+updated: 2026-04-18
+version: 5.7.13
 reviews: 6
 website: https://www.bvox.com
 repository: 

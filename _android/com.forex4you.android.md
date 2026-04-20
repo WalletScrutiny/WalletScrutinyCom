@@ -9,7 +9,7 @@ appId: com.forex4you.android
 appCountry: th
 released: 2015-10-06
 updated: 2026-04-10
-version: 6.21.1
+version: 6.22.0
 reviews: 267
 website: https://www.markets4you.com/en/
 repository: 

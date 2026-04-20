@@ -4,12 +4,12 @@ title: 'Midas Kripto: Bitcoin Al Sat'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.getmidas.crypto
 appCountry: 
 released: 2024-12-01
-updated: 2026-04-10
-version: 2.92.1
+updated: 2026-04-17
+version: 2.93.2
 reviews: 2
 website: https://www.midaskripto.com/
 repository: 

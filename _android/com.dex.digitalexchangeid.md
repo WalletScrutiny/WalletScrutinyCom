@@ -8,8 +8,8 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 2024-09-04
-updated: 2026-02-13
-version: 1.3.33
+updated: 2026-04-17
+version: 1.3.34
 reviews: 
 website: http://digitalexchange.id
 repository: 

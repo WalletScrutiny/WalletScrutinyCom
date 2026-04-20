@@ -1,6 +1,6 @@
 ---
 wsId: onekeySo.new
-title: 'OneKey: Crypto DeFi Wallet'
+title: 'OneKey Wallet: Bitcoin & Web3'
 altTitle: 
 authors:
 - danny

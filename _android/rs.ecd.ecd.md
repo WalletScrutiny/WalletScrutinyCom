@@ -8,8 +8,8 @@ users: 10000
 appId: rs.ecd.ecd
 appCountry: 
 released: 2024-10-22
-updated: 2026-04-04
-version: 1.4.87
+updated: 2026-04-15
+version: 1.4.88
 reviews: 
 website: https://ecd.rs/
 repository: 

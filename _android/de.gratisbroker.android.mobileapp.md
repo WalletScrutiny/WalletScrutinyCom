@@ -10,7 +10,7 @@ appCountry:
 released: 2021-06-02
 updated: 2026-03-19
 version: 5.12.0
-reviews: 9
+reviews: 8
 website: https://www.finanzen.net/zero
 repository: 
 icon: de.gratisbroker.android.mobileapp.png

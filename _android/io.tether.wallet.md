@@ -11,8 +11,8 @@ released: 2026-03-19
 updated: 2026-04-14
 version: 1.0.1
 reviews: 5
-website: https://wallet.tether.io
-repository: https://github.com/tetherto/tether-wallet-app-releases # APK releases only, not full source
+website: https://wallet.tether.io/support/
+repository: https://github.com/tetherto/tether-wallet-app-releases
 icon: io.tether.wallet.png
 bugbounty: 
 meta: ok

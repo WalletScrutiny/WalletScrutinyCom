@@ -8,7 +8,7 @@ users: 100000
 appId: com.coinhouse
 appCountry: 
 released: 2025-01-13
-updated: 2026-03-25
+updated: 2026-04-13
 version: 5.0.1
 reviews: 
 website: https://www.coinhouse.com

@@ -17,7 +17,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2025-06-09
+date: 2026-04-20
 signer: 
 twitter: 
 social: 

@@ -7,7 +7,7 @@ authors:
 appId: com.deskoin.app
 appCountry: fr
 idd: '6451258830'
-released: '2023-12-02T08:00:00Z'
+released: 2023-12-02
 updated: 2026-04-09
 version: 7.5.15
 reviews: 393

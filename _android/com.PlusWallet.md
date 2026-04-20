@@ -10,7 +10,7 @@ appCountry:
 released: 2023-10-06
 updated: 2026-04-08
 version: 5.7.9
-reviews: 71
+reviews: 70
 website: https://coldwallet.com/
 repository: 
 icon: com.PlusWallet.png

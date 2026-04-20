@@ -3,7 +3,7 @@ wsId:
 title: Pura Vida Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.puravidabitcoin.app
 appCountry: 
 released: 2023-04-10

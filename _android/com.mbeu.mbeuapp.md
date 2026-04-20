@@ -8,8 +8,8 @@ users: 10000
 appId: com.mbeu.mbeuapp
 appCountry: 
 released: 
-updated: 2026-02-24
-version: 1.5.1
+updated: 2026-04-16
+version: 2.0.1
 reviews: 
 website: https://mercadobitcoin.pt/
 repository: 

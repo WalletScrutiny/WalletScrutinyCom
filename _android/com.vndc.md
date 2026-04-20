@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-03-07
 updated: 2026-03-08
 version: 6.4.7
-reviews: 1466
+reviews: 1467
 website: https://goonus.io
 repository: 
 icon: com.vndc.png

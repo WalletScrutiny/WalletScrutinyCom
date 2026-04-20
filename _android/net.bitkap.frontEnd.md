@@ -15,10 +15,10 @@ website: https://bitkap.africa
 repository: 
 icon: net.bitkap.frontEnd.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-03
+date: 2026-04-20
 signer: 
 twitter: BitkapO
 social:

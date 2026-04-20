@@ -25,7 +25,7 @@ social:
 - https://www.linkedin.com/company/bitbuyca
 - https://www.facebook.com/bitbuyCA
 redirect_from: 
-developerName: Bitbuy
+developerName: WF - Bitbuy
 builds: 
 features: 
 

@@ -9,7 +9,7 @@ appCountry:
 released: 2025-08-13
 updated: 2026-02-20
 version: 1.1.4
-reviews: 
+reviews: 2
 website: https://tajirwallet.io/
 repository: 
 icon: com.tajir.wallet.app.jpg

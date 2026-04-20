@@ -8,8 +8,8 @@ users: 1000
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2026-04-06
-version: 3.0.10
+updated: 2026-04-17
+version: 3.2.0
 reviews: 8
 website: https://lava.xyz
 repository: 

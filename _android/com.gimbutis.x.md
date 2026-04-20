@@ -3,7 +3,7 @@ wsId:
 title: Gimbutis X
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.gimbutis.x
 appCountry: 
 released: 

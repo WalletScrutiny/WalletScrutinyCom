@@ -8,7 +8,7 @@ appId: com.ready.wallet
 appCountry: 
 released: 2025-09-18
 updated: 2026-04-09
-version: 1.4.1
+version: 1.5.0
 reviews: 
 website: https://www.ready.co/ready-wallet
 repository: 

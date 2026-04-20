@@ -4,18 +4,18 @@ title: Rhino Bitcoin
 altTitle: 
 authors:
 - danny
-users: 500
+users: 1000
 appId: com.rhinoglobal
 appCountry: 
 released: 2024-08-30
-updated: 2026-03-26
-version: 2.12.14
-reviews: 5
+updated: 2026-04-14
+version: 2.12.15
+reviews: 6
 website: 
 repository: 
 icon: com.rhinoglobal.png
 bugbounty: 
-meta: fewusers
+meta: ok
 verdict: wip
 appHashes: 
 date: 2026-04-09

@@ -15,10 +15,10 @@ website: https://www.bitmama.io
 repository: 
 icon: com.bitmama.bitmama.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-11-10
+date: 2026-04-20
 signer: 
 twitter: bitmama
 social:

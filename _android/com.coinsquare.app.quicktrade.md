@@ -27,7 +27,7 @@ social:
 - https://www.linkedin.com/company/coinsquare
 - https://www.reddit.com/r/coinsquare
 redirect_from: 
-developerName: Bitbuy
+developerName: WF - Bitbuy
 builds: 
 features: 
 

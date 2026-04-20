@@ -24,7 +24,7 @@ twitter: ctrl_wallet
 social:
 - https://discord.gg/ctrlwallet#deadLink
 redirect_from: 
-developerName: Ctrl Wallet
+developerName: EMURGO Fintech Inc.
 builds: 
 features: 
 

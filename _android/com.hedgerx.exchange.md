@@ -3,7 +3,7 @@ wsId:
 title: HedgerX-Buy Bitcoin & Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hedgerx.exchange
 appCountry: 
 released: 2025-12-13

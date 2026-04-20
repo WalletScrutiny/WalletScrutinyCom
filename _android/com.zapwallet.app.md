@@ -15,10 +15,10 @@ website: https://zap.africa
 repository: 
 icon: com.zapwallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-12-26
+date: 2026-04-20
 signer: 
 twitter: getzapnow
 social:

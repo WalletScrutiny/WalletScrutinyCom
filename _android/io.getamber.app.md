@@ -8,8 +8,8 @@ users: 10000
 appId: io.getamber.app
 appCountry: 
 released: 2021-06-21
-updated: 2026-04-08
-version: 6.4.0
+updated: 2026-04-18
+version: 6.5.0
 reviews: 26
 website: http://amber.app
 repository: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-03-28
 updated: 2026-04-09
 version: 3.1.1
-reviews: 23
+reviews: 24
 website: https://bousechanj.com/
 repository: 
 icon: com.bouspam.eritajpam.png

@@ -8,8 +8,8 @@ users: 1000
 appId: com.bitdance.bitpocket.google
 appCountry: 
 released: 2025-08-22
-updated: 2026-03-14
-version: 1.3.26
+updated: 2026-03-18
+version: 1.3.27
 reviews: 
 website: https://www.bitdance.network/
 repository: 

@@ -8,7 +8,7 @@ users: 10000
 appId: world.bitkey.app
 appCountry: US
 released: 2024-02-28
-updated: 2026-03-16
+updated: 2026-04-17
 version: 2026.2.1 (2)
 reviews: 32
 website: https://bitkey.world

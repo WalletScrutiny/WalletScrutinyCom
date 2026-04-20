@@ -8,8 +8,8 @@ users: 500000
 appId: com.mobee.io
 appCountry: 
 released: 2022-11-14
-updated: 2026-04-02
-version: 2.0.9
+updated: 2026-04-17
+version: 2.0.10
 reviews: 2
 website: https://mobee.com/
 repository: 

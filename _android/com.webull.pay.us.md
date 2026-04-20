@@ -10,7 +10,7 @@ appCountry:
 released: 2023-05-26
 updated: 2026-03-19
 version: 2.2.0.29
-reviews: 1162
+reviews: 1163
 website: http://www.webullpay.com
 repository: 
 icon: com.webull.pay.us.png

@@ -22,7 +22,7 @@ signer:
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitbuy
+developerName: WF - Bitbuy
 builds: 
 features: 
 

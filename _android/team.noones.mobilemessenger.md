@@ -10,7 +10,7 @@ appCountry:
 released: 2023-05-04
 updated: 2026-04-08
 version: 1.26.0
-reviews: 148
+reviews: 150
 website: https://noones.com/
 repository: 
 icon: team.noones.mobilemessenger.png

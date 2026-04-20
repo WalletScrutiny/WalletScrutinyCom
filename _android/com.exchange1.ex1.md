@@ -7,8 +7,8 @@ users: 1000
 appId: com.exchange1.ex1
 appCountry: 
 released: 
-updated: 2026-03-27
-version: 1.1.1
+updated: 2026-04-14
+version: 1.1.3
 reviews: 
 website: https://www.exchange1.com
 repository: 

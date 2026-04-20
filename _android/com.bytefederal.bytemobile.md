@@ -4,13 +4,13 @@ title: ByteWallet - Buy Bitcoin
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bytefederal.bytemobile
 appCountry: 
 released: 2025-08-03
 updated: 2026-01-25
 version: 1.13.0
-reviews: 12
+reviews: 15
 website: 
 repository: 
 icon: com.bytefederal.bytemobile.png

@@ -8,8 +8,8 @@ users: 100000
 appId: com.nowwallet
 appCountry: 
 released: 2021-10-20
-updated: 2026-04-02
-version: 3.18.3
+updated: 2026-04-13
+version: 3.18.4
 reviews: 198
 website: https://walletnow.app
 repository: 

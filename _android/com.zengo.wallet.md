@@ -12,7 +12,7 @@ appCountry:
 released: 2020-01-19
 updated: 2026-03-31
 version: 9.6.2
-reviews: 596
+reviews: 597
 website: https://www.zengo.com
 repository: 
 icon: com.zengo.wallet.png

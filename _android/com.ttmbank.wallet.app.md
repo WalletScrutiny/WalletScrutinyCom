@@ -15,10 +15,10 @@ website: https://ttmwallet.io
 repository: 
 icon: com.ttmbank.wallet.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2026-02-20
+date: 2026-04-20
 signer: 
 twitter: 0xMarsDAO
 social:

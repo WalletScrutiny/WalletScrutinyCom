@@ -11,7 +11,7 @@ appCountry:
 released: 2020-09-01
 updated: 2026-04-06
 version: 7.72.0
-reviews: 6576
+reviews: 6579
 website: https://support.metamask.io/
 repository: https://github.com/MetaMask/metamask-mobile
 icon: io.metamask.png

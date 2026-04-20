@@ -8,8 +8,8 @@ users: 100000
 appId: wannabit.io.cosmostaion
 appCountry: 
 released: 2019-03-17
-updated: 2026-02-10
-version: 1.10.47
+updated: 2026-04-16
+version: 1.10.48
 reviews: 137
 website: https://cosmostation.io
 repository: https://github.com/cosmostation/cosmostation-android

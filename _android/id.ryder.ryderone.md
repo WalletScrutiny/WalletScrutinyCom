@@ -8,8 +8,8 @@ users: 500
 appId: id.ryder.ryderone
 appCountry: 
 released: 2025-04-02
-updated: 2026-03-26
-version: 1.5.0
+updated: 2026-04-14
+version: 1.5.1
 reviews: 
 website: http://ryder.id
 repository: 

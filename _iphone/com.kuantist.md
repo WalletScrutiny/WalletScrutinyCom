@@ -3,11 +3,11 @@ wsId: kuantist
 title: Kuantist | Bitcoin ve Kripto
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.kuantist
 appCountry: tr
 idd: '6502112789'
-released: '2024-07-18T07:00:00Z'
+released: 2024-07-18
 updated: 2026-04-03
 version: 1.0.51
 reviews: 35
@@ -24,7 +24,7 @@ twitter: kuantist
 social:
 - https://www.linkedin.com/company/kuantist
 - https://www.instagram.com/kuantist
-- https://www.facebook.com/kuantist 
+- https://www.facebook.com/kuantist
 features: 
 developerName: Kuantist
 

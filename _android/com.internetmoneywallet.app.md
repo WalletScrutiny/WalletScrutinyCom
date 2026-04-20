@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-12
 updated: 2026-04-01
 version: '2.6'
-reviews: 85
+reviews: 88
 website: https://internetmoney.io/
 repository: 
 icon: com.internetmoneywallet.app.png

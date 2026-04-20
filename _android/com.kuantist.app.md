@@ -11,7 +11,7 @@ released: 2024-07-18
 updated: 2026-04-02
 version: 1.0.51
 reviews: 
-website: https://www.kuantist.com
+website: https://www.kuantist.com/
 repository: 
 icon: com.kuantist.app.jpg
 bugbounty: 

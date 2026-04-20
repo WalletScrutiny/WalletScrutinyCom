@@ -10,7 +10,7 @@ appCountry:
 released: 2022-09-23
 updated: 2026-03-04
 version: 3.5.0
-reviews: 
+reviews: 3
 website: https://bitqik.com/
 repository: 
 icon: com.bitqik.png
