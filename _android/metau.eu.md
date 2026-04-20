@@ -15,7 +15,7 @@ repository:
 icon: metau.eu.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-09
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.quotatrade.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-05-10
 signer: 

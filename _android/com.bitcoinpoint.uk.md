@@ -15,7 +15,7 @@ repository:
 icon: com.bitcoinpoint.uk.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

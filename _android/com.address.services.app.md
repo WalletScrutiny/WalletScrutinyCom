@@ -14,8 +14,8 @@ website: https://address.services
 repository: 
 icon: com.address.services.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

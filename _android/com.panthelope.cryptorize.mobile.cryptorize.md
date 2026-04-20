@@ -15,7 +15,7 @@ repository:
 icon: com.panthelope.cryptorize.mobile.cryptorize.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-01-15
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.guardianlabs.keyper.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-05
 signer: 

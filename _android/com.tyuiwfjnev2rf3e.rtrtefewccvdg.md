@@ -15,7 +15,7 @@ repository:
 icon: com.tyuiwfjnev2rf3e.rtrtefewccvdg.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-01-02
 signer: 

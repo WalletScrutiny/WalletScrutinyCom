@@ -14,8 +14,8 @@ website:
 repository: 
 icon: com.digiwrecks.bitcoingocard.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-25
 signer: 

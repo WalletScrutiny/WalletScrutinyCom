@@ -15,7 +15,7 @@ repository:
 icon: com.trade.tech.android.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

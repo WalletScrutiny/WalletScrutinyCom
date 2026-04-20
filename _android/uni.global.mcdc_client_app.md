@@ -14,8 +14,8 @@ website: https://uni.global
 repository: 
 icon: uni.global.mcdc_client_app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-04-22
 signer: 

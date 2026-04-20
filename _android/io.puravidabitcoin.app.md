@@ -14,8 +14,8 @@ website: https://puravidabitcoin.io
 repository: 
 icon: io.puravidabitcoin.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-09
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.gopop.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-29
 signer: 

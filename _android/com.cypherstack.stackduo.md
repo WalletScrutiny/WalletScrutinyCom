@@ -15,8 +15,8 @@ website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo
 icon: com.cypherstack.stackduo.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-31
 signer: 

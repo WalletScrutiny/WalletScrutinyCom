@@ -14,8 +14,8 @@ website: https://www.cregis.com
 repository: 
 icon: com.cregis.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

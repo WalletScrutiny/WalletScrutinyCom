@@ -15,7 +15,7 @@ repository:
 icon: com.novapago.novapagopay.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-06
 signer: 

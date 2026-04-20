@@ -15,7 +15,7 @@ repository:
 icon: com.doloresex_android.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 

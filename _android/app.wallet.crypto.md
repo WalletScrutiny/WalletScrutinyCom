@@ -15,7 +15,7 @@ repository:
 icon: app.wallet.crypto.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-10-15
 signer: 

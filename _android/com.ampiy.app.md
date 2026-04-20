@@ -14,8 +14,8 @@ website: https://ampiy.com
 repository: 
 icon: com.ampiy.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2022-07-31
 signer: 

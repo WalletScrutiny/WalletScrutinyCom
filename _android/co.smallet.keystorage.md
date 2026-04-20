@@ -15,7 +15,7 @@ repository:
 icon: co.smallet.keystorage.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-10-03
 signer: 

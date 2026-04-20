@@ -15,7 +15,7 @@ repository:
 icon: com.hustay.swing.d3eb20b045a364ee3b70c5ec8debc40d3.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 

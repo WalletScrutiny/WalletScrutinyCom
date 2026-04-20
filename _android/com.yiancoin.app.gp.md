@@ -15,7 +15,7 @@ repository:
 icon: com.yiancoin.app.gp.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-04-25
 signer: 

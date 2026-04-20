@@ -16,7 +16,7 @@ repository:
 icon: com.lightning.denryu.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-18
 signer: 

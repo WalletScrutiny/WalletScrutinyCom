@@ -15,7 +15,7 @@ repository:
 icon: com.hubI.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-01-15
 signer: 

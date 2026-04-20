@@ -15,7 +15,7 @@ repository:
 icon: com.tomato.coinworld.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-24
 signer: 

@@ -14,8 +14,8 @@ website: https://satodime.io/
 repository: 
 icon: org.satochip.satodimeapp.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-23
 signer: 

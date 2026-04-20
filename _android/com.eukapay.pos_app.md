@@ -15,7 +15,7 @@ repository:
 icon: com.eukapay.pos_app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-30
 signer: 

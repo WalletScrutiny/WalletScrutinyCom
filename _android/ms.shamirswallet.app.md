@@ -15,7 +15,7 @@ repository:
 icon: ms.shamirswallet.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-04-25
 signer: 

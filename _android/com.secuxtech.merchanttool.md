@@ -15,7 +15,7 @@ repository:
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-12-15
 signer: 

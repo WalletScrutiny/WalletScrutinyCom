@@ -16,7 +16,7 @@ repository:
 icon: com.mobile.burtar.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-05-31
 signer: 

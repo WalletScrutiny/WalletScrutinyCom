@@ -15,7 +15,7 @@ repository:
 icon: com.bitcoinerasia.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-18
 signer: 

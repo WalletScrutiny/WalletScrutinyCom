@@ -15,7 +15,7 @@ repository:
 icon: web2application.a651021638715596.com.myapplication.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.yz123.yunzhifu.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-04-16
 signer: 

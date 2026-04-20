@@ -15,7 +15,7 @@ repository:
 icon: com.rinnas.pgold.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-01-02
 signer: 

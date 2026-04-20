@@ -16,7 +16,7 @@ repository: https://github.com/Paymint-Labs/Paymint
 icon: com.paymintlabs.paymint.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

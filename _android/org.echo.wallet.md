@@ -15,7 +15,7 @@ repository:
 icon: org.echo.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

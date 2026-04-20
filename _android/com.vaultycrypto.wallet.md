@@ -15,7 +15,7 @@ repository:
 icon: com.vaultycrypto.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-16
 signer: 

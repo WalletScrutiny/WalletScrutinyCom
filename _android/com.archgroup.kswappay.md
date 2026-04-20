@@ -15,7 +15,7 @@ repository:
 icon: com.archgroup.kswappay.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-11
 signer: 

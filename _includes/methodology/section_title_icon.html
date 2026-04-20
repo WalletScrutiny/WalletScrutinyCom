@@ -1,6 +1,5 @@
 {% case include.verdict %}
   {% when 'wip' %}                {% assign iconClass="fas fa-square" %}
-  {% when 'fewusers' %}           {% assign iconClass="fas fa-users" %}
   {% when 'nowallet' %}           {% assign iconClass="i-wallet" %}
   {% when 'nosendreceive' %}      {% assign iconClass="i-arrows" %}
   {% when 'custodial', 'noita', 'ecash' %} {% assign iconClass="i-key" %}

@@ -15,7 +15,7 @@ repository:
 icon: com.monetum.quicktrade.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-03-14
 signer: 

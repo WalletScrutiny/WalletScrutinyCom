@@ -15,8 +15,8 @@ website: http://ryder.id
 repository: 
 icon: id.ryder.ryderone.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-10-03
 signer: 

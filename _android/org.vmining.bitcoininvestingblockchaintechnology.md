@@ -15,7 +15,7 @@ repository:
 icon: org.vmining.bitcoininvestingblockchaintechnology.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-10-06
 signer: 

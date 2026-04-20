@@ -15,7 +15,7 @@ repository: https://github.com/knocte/geewallet
 icon: com.geewallet.android.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-28
 signer: 

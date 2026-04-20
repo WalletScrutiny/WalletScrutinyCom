@@ -15,7 +15,7 @@ repository:
 icon: io.securAWallet.bankwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

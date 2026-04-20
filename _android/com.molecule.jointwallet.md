@@ -15,7 +15,7 @@ repository:
 icon: com.molecule.jointwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-16
 signer: 

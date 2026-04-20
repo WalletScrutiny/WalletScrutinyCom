@@ -14,8 +14,8 @@ website: https://sana.money
 repository: 
 icon: xyz.sanafi.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.clovrlabs.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-09-15
 signer: 

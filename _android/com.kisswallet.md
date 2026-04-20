@@ -16,7 +16,7 @@ repository: https://github.com/coreyphillips/moonshine
 icon: com.kisswallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-05
 signer: 

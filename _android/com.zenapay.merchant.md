@@ -15,7 +15,7 @@ repository:
 icon: com.zenapay.merchant.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-06-09
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: kr.co.coin5.ba.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

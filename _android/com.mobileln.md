@@ -16,7 +16,7 @@ repository: https://github.com/hihidev/MobileLN
 icon: com.mobileln.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-04-30
 signer: 

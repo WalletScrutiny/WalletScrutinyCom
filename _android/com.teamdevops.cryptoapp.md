@@ -15,7 +15,7 @@ repository:
 icon: com.teamdevops.cryptoapp.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-11-02
 signer: 

@@ -15,8 +15,8 @@ website: https://cypherbox.io
 repository: https://github.com/Bamskki/Cypher-Box
 icon: io.cypherbox.btc.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

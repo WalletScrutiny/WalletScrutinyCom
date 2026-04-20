@@ -15,7 +15,7 @@ repository:
 icon: com.s_archive.fx_city.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

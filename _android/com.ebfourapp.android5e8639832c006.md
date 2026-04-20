@@ -15,7 +15,7 @@ repository:
 icon: com.ebfourapp.android5e8639832c006.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-05
 signer: 

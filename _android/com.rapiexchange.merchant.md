@@ -15,7 +15,7 @@ repository:
 icon: com.rapiexchange.merchant.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-15
 signer: 

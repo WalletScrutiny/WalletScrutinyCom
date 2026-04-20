@@ -14,8 +14,8 @@ website:
 repository: 
 icon: com.sinohope.pro.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-12-31
 signer: 

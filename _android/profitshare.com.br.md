@@ -15,7 +15,7 @@ repository:
 icon: profitshare.com.br.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-18
 signer: 

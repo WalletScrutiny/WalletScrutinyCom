@@ -15,7 +15,7 @@ repository:
 icon: co.bitfrost.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-06-06
 signer: 

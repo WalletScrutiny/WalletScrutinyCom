@@ -15,7 +15,7 @@ repository:
 icon: com.bitdot_project_a6.bitdot.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-01-02
 signer: 

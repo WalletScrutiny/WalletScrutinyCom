@@ -15,7 +15,7 @@ repository:
 icon: io.fulmo.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-11-10
 signer: 

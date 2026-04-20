@@ -15,7 +15,7 @@ repository:
 icon: com.shah.bit.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-31
 signer: 

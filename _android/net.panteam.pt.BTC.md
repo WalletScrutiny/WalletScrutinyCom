@@ -15,7 +15,7 @@ repository:
 icon: net.panteam.pt.BTC.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-04-22
 signer: 

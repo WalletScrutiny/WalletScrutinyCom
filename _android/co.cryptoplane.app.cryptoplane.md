@@ -15,7 +15,7 @@ repository:
 icon: co.cryptoplane.app.cryptoplane.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 

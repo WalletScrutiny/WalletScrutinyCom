@@ -15,7 +15,7 @@ repository:
 icon: com.coinizie.com.co.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-25
 signer: 

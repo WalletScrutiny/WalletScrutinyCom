@@ -15,7 +15,7 @@ repository:
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-12-15
 signer: 

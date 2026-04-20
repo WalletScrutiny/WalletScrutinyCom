@@ -15,7 +15,7 @@ repository:
 icon: io.livewallet.android.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-19
 signer: 

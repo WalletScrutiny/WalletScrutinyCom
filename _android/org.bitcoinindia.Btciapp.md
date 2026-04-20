@@ -14,8 +14,8 @@ website: https://bitcoin-india.org/en
 repository: 
 icon: org.bitcoinindia.Btciapp.jpg
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

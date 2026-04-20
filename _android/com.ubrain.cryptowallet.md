@@ -15,7 +15,7 @@ repository:
 icon: com.ubrain.cryptowallet.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-04-09
 signer: 

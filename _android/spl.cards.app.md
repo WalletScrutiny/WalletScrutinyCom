@@ -15,7 +15,7 @@ repository:
 icon: spl.cards.app.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

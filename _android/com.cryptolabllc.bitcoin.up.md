@@ -15,7 +15,7 @@ repository:
 icon: com.cryptolabllc.bitcoin.up.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-10-01
 signer: 

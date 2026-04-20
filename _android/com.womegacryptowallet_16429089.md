@@ -15,7 +15,7 @@ repository:
 icon: com.womegacryptowallet_16429089.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-03-14
 signer: 

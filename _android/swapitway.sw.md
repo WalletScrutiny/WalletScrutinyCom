@@ -15,7 +15,7 @@ repository:
 icon: swapitway.sw.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-09-06
 signer: 

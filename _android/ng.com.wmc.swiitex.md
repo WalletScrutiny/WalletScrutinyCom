@@ -15,7 +15,7 @@ repository:
 icon: ng.com.wmc.swiitex.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

@@ -16,7 +16,7 @@ repository: https://github.com/EttaWallet/EttaWallet
 icon: com.ettaln.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-07
 signer: 

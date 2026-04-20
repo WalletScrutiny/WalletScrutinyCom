@@ -15,7 +15,7 @@ repository:
 icon: com.bt360.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-11-02
 signer: 

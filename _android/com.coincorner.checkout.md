@@ -15,8 +15,8 @@ website: https://coincorner.com/checkout
 repository: 
 icon: com.coincorner.checkout.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-17
 signer: 

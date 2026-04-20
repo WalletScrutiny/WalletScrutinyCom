@@ -15,7 +15,7 @@ repository:
 icon: io.fchain.coinviva.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-10-16
 signer: 

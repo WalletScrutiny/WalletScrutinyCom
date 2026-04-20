@@ -15,7 +15,7 @@ repository:
 icon: com.bonsystem.chain.eliac.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-03-02
 signer: 

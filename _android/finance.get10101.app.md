@@ -17,7 +17,7 @@ repository: https://github.com/get10101/10101
 icon: finance.get10101.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-05-30
 signer: 

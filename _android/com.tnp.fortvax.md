@@ -14,8 +14,8 @@ website: https://stage-fortvax-landing.goldalles.com/
 repository: 
 icon: com.tnp.fortvax.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2022-07-31
 signer: 

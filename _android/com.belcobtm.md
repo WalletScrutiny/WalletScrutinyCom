@@ -15,7 +15,7 @@ repository:
 icon: com.belcobtm.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-05-17
 signer: 

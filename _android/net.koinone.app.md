@@ -15,7 +15,7 @@ repository:
 icon: net.koinone.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-12-05
 signer: 

@@ -16,7 +16,7 @@ repository:
 icon: com.morix.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-10-10
 signer: 

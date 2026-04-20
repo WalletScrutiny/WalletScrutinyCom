@@ -15,7 +15,7 @@ repository:
 icon: eu.cryptomerchant.pos.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-23
 signer: 

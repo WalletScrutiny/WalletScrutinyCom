@@ -15,7 +15,7 @@ repository:
 icon: com.forumpay.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-26
 signer: 

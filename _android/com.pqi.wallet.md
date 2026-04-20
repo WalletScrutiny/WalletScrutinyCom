@@ -15,7 +15,7 @@ repository:
 icon: com.pqi.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-26
 signer: 

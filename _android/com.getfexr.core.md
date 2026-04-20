@@ -14,8 +14,8 @@ website: https://getfexr.com
 repository: 
 icon: com.getfexr.core.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-13
 signer: 

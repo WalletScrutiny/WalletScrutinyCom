@@ -14,8 +14,8 @@ website: https://www.hedgerx.com
 repository: 
 icon: com.hedgerx.exchange.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

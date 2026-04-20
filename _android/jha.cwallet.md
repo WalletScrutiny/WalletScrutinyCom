@@ -15,7 +15,7 @@ repository:
 icon: jha.cwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-10-31
 signer: 

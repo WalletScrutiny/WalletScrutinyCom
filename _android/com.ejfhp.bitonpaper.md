@@ -15,7 +15,7 @@ repository:
 icon: com.ejfhp.bitonpaper.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-08
 signer: 

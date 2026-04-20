@@ -15,7 +15,7 @@ repository:
 icon: com.hslwallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-24
 signer: 

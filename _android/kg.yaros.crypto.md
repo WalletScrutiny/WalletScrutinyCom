@@ -14,8 +14,8 @@ website:
 repository: 
 icon: kg.yaros.crypto.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

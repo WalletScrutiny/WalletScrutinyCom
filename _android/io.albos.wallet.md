@@ -14,8 +14,8 @@ website: http://www.albos.io/
 repository: 
 icon: io.albos.wallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-05
 signer: 

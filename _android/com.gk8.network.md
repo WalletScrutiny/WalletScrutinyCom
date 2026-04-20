@@ -14,8 +14,8 @@ website: https://www.gk8.io/contact-us/
 repository: 
 icon: com.gk8.network.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2022-07-31
 signer: 

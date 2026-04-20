@@ -15,8 +15,8 @@ website:
 repository: 
 icon: com.rhinoglobal.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-04-09
 signer: 

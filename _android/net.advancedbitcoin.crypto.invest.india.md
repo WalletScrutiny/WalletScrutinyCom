@@ -15,7 +15,7 @@ repository:
 icon: net.advancedbitcoin.crypto.invest.india.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-10-01
 signer: 

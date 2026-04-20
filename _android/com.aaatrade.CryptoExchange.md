@@ -15,7 +15,7 @@ repository:
 icon: com.aaatrade.CryptoExchange.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-09-04
 signer: 

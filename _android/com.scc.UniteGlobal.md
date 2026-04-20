@@ -15,7 +15,7 @@ repository:
 icon: com.scc.UniteGlobal.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-05-14
 signer: 

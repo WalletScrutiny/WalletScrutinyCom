@@ -16,7 +16,7 @@ repository:
 icon: kr.co.keypair.quickxtouch.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-03-07
 signer: 

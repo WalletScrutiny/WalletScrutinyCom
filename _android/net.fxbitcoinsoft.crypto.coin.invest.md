@@ -15,7 +15,7 @@ repository:
 icon: net.fxbitcoinsoft.crypto.coin.invest.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-09-23
 signer: 

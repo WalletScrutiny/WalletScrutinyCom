@@ -15,7 +15,7 @@ repository:
 icon: com.bitlox.mobilewallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-18
 signer: 

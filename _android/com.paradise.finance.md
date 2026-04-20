@@ -15,7 +15,7 @@ repository:
 icon: com.paradise.finance.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-03-14
 signer: 
