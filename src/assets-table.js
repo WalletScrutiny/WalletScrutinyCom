@@ -1300,13 +1300,12 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML += `
-  <p><strong>Information:</strong>
-    <div class="markdown-content">
+  <p><strong>Information:</strong></p>
+  <div class="markdown-content">
       ${diffoscopeHTML}
       ${asciicastHTML}
       <div>${marked.parse(itemContent)}</div>
-    </div>
-  </p>`;
+  </div>`;
 
   if (firstAsciicastFileSHA256) {
     const castURL = getBlossomFileURL(firstAsciicastFileSHA256);

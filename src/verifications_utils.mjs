@@ -1,4 +1,4 @@
-import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, generateZapRequest, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
+import NDK, {NDKEvent, NDKRelaySet, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError, NDKZapper, zapInvoiceFromEvent, generateZapRequest, getNip57ZapSpecFromLud} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import {
@@ -1859,6 +1859,57 @@ const deletePublishedVerification = async function(verificationEventId, reason =
   }
 };
 
+const deleteVerificationComment = async function(commentEventId, reason = 'User deleted verification comment') {
+  if (!commentEventId) {
+    showToast('No comment event ID found', 'error');
+    return false;
+  }
+
+  if (!confirm('Do you want to delete this comment?')) {
+    return false;
+  }
+
+  try {
+    await ensureNdkConnected();
+    const commentEvent = await ndk.fetchEvent(commentEventId);
+    if (!commentEvent) {
+      showToast('Comment not found on relays', 'error');
+      return false;
+    }
+
+    if (commentEvent.kind !== verificationCommentKind) {
+      showToast('This event is not a verification comment.', 'error');
+      return false;
+    }
+
+    let myPubkey;
+    try {
+      myPubkey = await getUserPubkey();
+    } catch {
+      showToast('You need a Nostr signer (browser extension or site identity) to delete a comment.', 'error');
+      return false;
+    }
+
+    if (commentEvent.pubkey !== myPubkey) {
+      showToast('You can only delete comments you authored.', 'error');
+      return false;
+    }
+
+    const deletionRequestEvent = await commentEvent.delete(reason, false);
+    const relaySet = NDKRelaySet.fromRelayUrls(explicitRelayUrls, ndk);
+    void showToast('Deleting comment, please wait...', 'info', 5000);
+    await deletionRequestEvent.publish(relaySet, 5000, 1);
+    showToast('Comment deleted successfully');
+    await deleteCachedEventById(commentEventId);
+
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    window.location.reload();
+  } catch (error) {
+    showToast(error.message || String(error), 'error');
+    return false;
+  }
+};
+
 const loadDraftVerificationsNotifications = async function () {
   const myPubkey = await getUserPubkey();
   if (!myPubkey) {
@@ -2245,6 +2296,7 @@ if (typeof window !== 'undefined') {
   window.getVerificationEvent = getVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
   window.deletePublishedVerification = deletePublishedVerification;
+  window.deleteVerificationComment = deleteVerificationComment;
   window.getFileAttachmentIDsForVerificationEvent = getFileAttachmentIDsForVerificationEvent;
   window.uploadFileAttachment = uploadFileAttachment;
   window.getEventsFromEventIds = getEventsFromEventIds;
@@ -2287,6 +2339,7 @@ export {
   getVerificationEvent,
   deleteDraftVerification,
   deletePublishedVerification,
+  deleteVerificationComment,
   getFileAttachmentIDsForVerificationEvent,
   uploadFileAttachment,
   getEventsFromEventIds,

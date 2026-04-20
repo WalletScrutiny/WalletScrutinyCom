@@ -3,7 +3,8 @@
 import sys
 import json
 
-ALLOWED_KINDS = { 
+ALLOWED_KINDS = {
+    5,              # event deletion (NIP-09); required for clients to delete events we store
     1267, 1063,     # asset registration
     32304, 30301,   # verification
     30901, 30801,   # verification draft

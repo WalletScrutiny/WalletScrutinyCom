@@ -1,5 +1,3 @@
-import {marked} from 'marked';
-
 let assetTableCommentsContainer = null;
 let assetTableCommentsVerificationKey = null;
 let verificationAuthorPubkey = null;
@@ -8,10 +6,19 @@ let messageCounter = 0;
 
 const MAX_COMMENTS_TO_SHOW = 3;
 
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 function addCommentStyles() {
   const styleId = 'comments-section-styles';
   if (document.getElementById(styleId)) {
-    return; // Styles already added
+    return;
   }
 
   const style = document.createElement('style');
@@ -61,27 +68,59 @@ function addCommentStyles() {
       background-color: #45a049;
     }
     .comments-list {
-      display: flex;
-      flex-direction: column;
+      display: block;
+      width: 100%;
     }
-    .comment {
+    .comments-section .ws-v-comment {
       display: flex;
       flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      align-content: flex-start;
+      justify-content: flex-start;
+      gap: 4px;
+      flex: 0 0 auto;
+      height: auto;
+      min-height: 0;
+      max-height: none;
       background-color: #f0f0f0;
-      padding: 8px;
-      margin: 0.3em 0;
+      padding: 6px 10px;
+      margin: 6px 0;
       border-radius: 8px;
       font-size: 0.9em;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       border: 1px solid #707070 !important;
     }
-    body.dark .comment {
+    body.dark .comments-section .ws-v-comment {
       background-color: #232323;
     }
     .comment-author {
       display: flex;
       align-items: center;
       gap: 8px;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .comment-delete-btn {
+      flex-shrink: 0;
+      padding: 4px 6px;
+      border: none;
+      background: transparent;
+      color: #666;
+      cursor: pointer;
+      border-radius: 4px;
+      line-height: 1;
+    }
+    .comment-delete-btn:hover {
+      color: #c00;
+      background-color: rgba(0, 0, 0, 0.06);
+    }
+    body.dark .comment-delete-btn {
+      color: #aaa;
+    }
+    body.dark .comment-delete-btn:hover {
+      color: #f66;
+      background-color: rgba(255, 255, 255, 0.08);
     }
     .comment-author-name {
       font-weight: bold;
@@ -105,21 +144,27 @@ function addCommentStyles() {
     .comment-author-name a:hover {
       color: inherit;
     }
-    .comment-content {
+    .comments-section .comment-content {
       color: black;
+      overflow-wrap: break-word;
+      flex: none;
+      display: block;
+      min-height: 0;
+      line-height: 1.35;
     }
-    body.dark .comment-content {
+    body.dark .comments-section .comment-content {
       color: white;
     }
-    .comment-content p {
+    .comments-section .comment-body {
       margin: 0;
-      margin-top: 0 !important;
     }
-    .comment-date {
+    .comments-section .comment-date {
       font-size: 0.8em;
       color: #888;
+      margin-top: 2px;
+      flex-shrink: 0;
     }
-    body.dark .comment-date {
+    body.dark .comments-section .comment-date {
       color: #aaa;
     }
     .see-more-container {
@@ -158,7 +203,7 @@ async function fetchComments(verificationKey) {
       const content = comment.content;
       const date = formatCommentDate(comment.created_at);
       const pubkey = comment.pubkey;
-      return { author, content, date, pubkey, created_at: comment.created_at };
+      return { author, content, date, pubkey, created_at: comment.created_at, id: comment.id };
     })
     .sort((a, b) => b.created_at - a.created_at);
 }
@@ -223,12 +268,16 @@ export async function renderCommentsSection(container, verificationKey, authorPu
       </div>
       <div class="comments-list">
         ${commentsForThisVerification.map((comment, index) => `
-          <div class="comment comment-profile-${comment.pubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
+          <div class="ws-v-comment comment-profile-${comment.pubkey}" ${index >= MAX_COMMENTS_TO_SHOW ? 'hidden' : ''}>
             <div class="comment-author">
               <span class="comment-author-name" data-pubkey="${comment.pubkey}">${comment.author}</span>
+              ${window.userPubkey && comment.pubkey === window.userPubkey ? `
+              <button type="button" class="comment-delete-btn" data-comment-id="${comment.id}" title="Delete comment" aria-label="Delete comment">
+                <i class="fas fa-trash-alt" aria-hidden="true"></i>
+              </button>` : ''}
             </div>
             <div class="comment-content">
-              <p>${marked.parse(comment.content)}</p>
+              <div class="comment-body">${escapeHtml(comment.content)}</div>
             </div>
             <div class="comment-date">
               <span>${comment.date}</span>
@@ -249,7 +298,7 @@ export async function renderCommentsSection(container, verificationKey, authorPu
     if (seeMoreLink) {
       seeMoreLink.addEventListener('click', (event) => {
         event.preventDefault();
-        container.querySelectorAll('.comment[hidden]').forEach(comment => {
+        container.querySelectorAll('.ws-v-comment[hidden]').forEach(comment => {
           comment.removeAttribute('hidden');
         });
         seeMoreLink.parentElement.remove();
@@ -292,4 +341,21 @@ export async function renderCommentsSection(container, verificationKey, authorPu
       }
     });
   }
+
+  container.querySelectorAll('.comment-delete-btn').forEach((deleteBtn) => {
+    deleteBtn.addEventListener('click', async (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      const commentEventId = deleteBtn.getAttribute('data-comment-id');
+      if (!commentEventId || typeof window.deleteVerificationComment !== 'function') {
+        return;
+      }
+      deleteBtn.disabled = true;
+      try {
+        await window.deleteVerificationComment(commentEventId);
+      } finally {
+        deleteBtn.disabled = false;
+      }
+    });
+  });
 }
