@@ -15,7 +15,7 @@ repository:
 icon: com.knca.ranwallet.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

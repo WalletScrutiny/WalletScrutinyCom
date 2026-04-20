@@ -14,8 +14,8 @@ website: https://vkode-dev.github.io/
 repository: 
 icon: tech.vkode.kryto.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.pockan.aicryptotrade.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-15
 signer: 

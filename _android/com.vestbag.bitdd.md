@@ -15,7 +15,7 @@ repository:
 icon: com.vestbag.bitdd.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-17
 signer: 

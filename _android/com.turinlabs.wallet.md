@@ -15,7 +15,7 @@ repository:
 icon: com.turinlabs.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-19
 signer: 

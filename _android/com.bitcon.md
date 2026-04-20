@@ -14,8 +14,8 @@ website: https://spendthebits.com/
 repository: 
 icon: com.bitcon.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

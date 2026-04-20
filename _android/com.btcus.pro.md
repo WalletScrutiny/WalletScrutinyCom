@@ -15,7 +15,7 @@ repository:
 icon: com.btcus.pro.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-03-07
 signer: 

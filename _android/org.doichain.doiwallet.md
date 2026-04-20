@@ -15,7 +15,7 @@ repository:
 icon: org.doichain.doiwallet.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-12-01
 signer: 

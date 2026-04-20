@@ -15,7 +15,7 @@ repository:
 icon: com.app.proflinsmartwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-09-28
 signer: 

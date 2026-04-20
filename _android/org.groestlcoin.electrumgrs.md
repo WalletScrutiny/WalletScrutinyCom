@@ -14,8 +14,8 @@ website: https://groestlcoin.org
 repository: 
 icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-05-14
 signer: 

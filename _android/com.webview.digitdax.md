@@ -14,8 +14,8 @@ website:
 repository: 
 icon: com.webview.digitdax.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-04-13
 signer: 

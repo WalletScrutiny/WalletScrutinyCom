@@ -15,7 +15,7 @@ repository:
 icon: com.milesblue.milesblue.jpg
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-05
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: pe.bluemountain419.jungledex.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

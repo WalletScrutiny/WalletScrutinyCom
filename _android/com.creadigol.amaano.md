@@ -15,7 +15,7 @@ repository:
 icon: com.creadigol.amaano.png
 bugbounty: 
 meta: defunct
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-03-21
 signer: 

@@ -16,7 +16,7 @@ repository: https://github.com/aeonBTC/IbisWallet
 icon: 
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-04-13
 signer: 

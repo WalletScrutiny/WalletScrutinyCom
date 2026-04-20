@@ -15,7 +15,7 @@ repository:
 icon: com.hackenai.hpass.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-05
 signer: 

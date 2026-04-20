@@ -15,7 +15,7 @@ repository:
 icon: im.yitoken.app.g2.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-18
 signer: 

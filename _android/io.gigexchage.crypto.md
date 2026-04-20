@@ -15,7 +15,7 @@ repository:
 icon: io.gigexchage.crypto.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-22
 signer: 

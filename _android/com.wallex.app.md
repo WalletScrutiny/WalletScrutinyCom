@@ -15,7 +15,7 @@ repository:
 icon: com.wallex.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-03-19
 signer: 

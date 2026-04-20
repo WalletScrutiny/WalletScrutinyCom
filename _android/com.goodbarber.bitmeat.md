@@ -16,7 +16,7 @@ repository:
 icon: com.goodbarber.bitmeat.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-10-30
 signer: 

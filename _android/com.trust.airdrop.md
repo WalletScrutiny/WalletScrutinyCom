@@ -15,7 +15,7 @@ repository:
 icon: com.trust.airdrop.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-09-16
 signer: 

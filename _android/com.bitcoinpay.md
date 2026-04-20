@@ -14,8 +14,8 @@ website: https://bitcoinpay.trade
 repository: 
 icon: com.bitcoinpay.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-01
 signer: 

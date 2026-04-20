@@ -15,7 +15,7 @@ repository:
 icon: com.wQ7Trades_15018357.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 

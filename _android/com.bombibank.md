@@ -15,7 +15,7 @@ repository:
 icon: com.bombibank.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-05
 signer: 

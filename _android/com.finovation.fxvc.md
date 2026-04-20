@@ -15,7 +15,7 @@ repository:
 icon: com.finovation.fxvc.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-11-01
 signer: 

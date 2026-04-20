@@ -15,7 +15,7 @@ repository:
 icon: com.bitcointrainee.br.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-02-05
 signer: 

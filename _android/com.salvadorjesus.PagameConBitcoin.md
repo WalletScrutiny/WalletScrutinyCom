@@ -15,7 +15,7 @@ repository:
 icon: com.salvadorjesus.PagameConBitcoin.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-02-25
 signer: 

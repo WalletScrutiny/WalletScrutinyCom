@@ -15,7 +15,7 @@ repository:
 icon: org.capricoin.copay.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-04
 signer: 

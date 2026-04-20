@@ -14,8 +14,8 @@ website: https://www.bitdata.site
 repository: 
 icon: com.qm.bitdata.pro.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2021-08-08
 signer: 

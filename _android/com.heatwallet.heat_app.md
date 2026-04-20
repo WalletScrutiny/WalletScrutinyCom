@@ -15,7 +15,7 @@ repository:
 icon: com.heatwallet.heat_app.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-20
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.wootzapp.browser.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-25
 signer: 

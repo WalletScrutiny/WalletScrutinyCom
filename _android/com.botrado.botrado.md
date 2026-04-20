@@ -15,7 +15,7 @@ repository:
 icon: com.botrado.botrado.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

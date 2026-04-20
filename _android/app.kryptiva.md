@@ -15,7 +15,7 @@ repository:
 icon: app.kryptiva.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-17
 signer: 

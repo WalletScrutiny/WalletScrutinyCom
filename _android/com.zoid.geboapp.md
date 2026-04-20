@@ -15,7 +15,7 @@ repository:
 icon: com.zoid.geboapp.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-26
 signer: 

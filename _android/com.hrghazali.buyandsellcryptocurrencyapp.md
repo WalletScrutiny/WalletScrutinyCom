@@ -15,7 +15,7 @@ repository:
 icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-28
 signer: 

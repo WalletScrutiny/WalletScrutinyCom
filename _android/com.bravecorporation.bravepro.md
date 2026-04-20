@@ -15,7 +15,7 @@ repository:
 icon: com.bravecorporation.bravepro.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-10-15
 signer: 

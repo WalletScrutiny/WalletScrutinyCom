@@ -15,7 +15,7 @@ repository:
 icon: com.buybitcoincrypto.fake.crypto.investor.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-08-13
 signer: 

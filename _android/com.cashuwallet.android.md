@@ -14,8 +14,8 @@ website: https://cashu.cc/
 repository: 
 icon: com.cashuwallet.android.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-28
 signer: 

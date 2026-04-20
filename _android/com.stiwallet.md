@@ -15,7 +15,7 @@ repository:
 icon: com.stiwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-12
 signer: 

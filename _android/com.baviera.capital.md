@@ -15,7 +15,7 @@ repository:
 icon: com.baviera.capital.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-22
 signer: 

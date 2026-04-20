@@ -15,7 +15,7 @@ repository:
 icon: io.rebix.app.android.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-21
 signer: 

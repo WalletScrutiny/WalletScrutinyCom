@@ -15,7 +15,7 @@ repository:
 icon: changella.changella.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-29
 signer: 

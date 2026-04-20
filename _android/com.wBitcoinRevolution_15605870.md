@@ -15,7 +15,7 @@ repository:
 icon: com.wBitcoinRevolution_15605870.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-16
 signer: 

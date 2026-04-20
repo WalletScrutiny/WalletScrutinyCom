@@ -15,7 +15,7 @@ repository:
 icon: io.rubix.exchange.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-08
 signer: 

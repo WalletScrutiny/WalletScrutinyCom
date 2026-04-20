@@ -15,8 +15,8 @@ website: http://mannabitcoin.com/
 repository: 
 icon: com.lightning.manna.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-10-10
 signer: 

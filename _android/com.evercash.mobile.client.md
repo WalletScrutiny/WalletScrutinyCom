@@ -15,7 +15,7 @@ repository:
 icon: com.evercash.mobile.client.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-26
 signer: 

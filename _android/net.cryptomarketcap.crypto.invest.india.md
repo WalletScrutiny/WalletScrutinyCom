@@ -15,7 +15,7 @@ repository:
 icon: net.cryptomarketcap.crypto.invest.india.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-08-13
 signer: 

@@ -14,8 +14,8 @@ website: https://confirmo.net
 repository: 
 icon: cz.confirmo.app.pos.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

@@ -15,8 +15,8 @@ website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower
 icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-02-05
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: kr.co.keypair.afintouch.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-08
 signer: 

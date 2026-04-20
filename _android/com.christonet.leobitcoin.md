@@ -15,7 +15,7 @@ repository:
 icon: com.christonet.leobitcoin.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-08
 signer: 

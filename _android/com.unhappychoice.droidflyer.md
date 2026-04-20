@@ -15,7 +15,7 @@ repository:
 icon: com.unhappychoice.droidflyer.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

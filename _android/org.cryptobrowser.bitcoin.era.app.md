@@ -15,7 +15,7 @@ repository:
 icon: org.cryptobrowser.bitcoin.era.app.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-10-01
 signer: 

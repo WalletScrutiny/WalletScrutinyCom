@@ -14,8 +14,8 @@ website: https://quantia.io
 repository: 
 icon: com.quantiamobile.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.premiumappsfactory.crypto.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-08
 signer: 

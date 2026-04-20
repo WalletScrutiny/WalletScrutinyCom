@@ -15,7 +15,7 @@ repository:
 icon: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

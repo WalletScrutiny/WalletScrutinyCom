@@ -15,7 +15,7 @@ repository:
 icon: com.chainup.exchange.index.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-04
 signer: 

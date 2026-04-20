@@ -15,7 +15,7 @@ repository:
 icon: com.binexus.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-07
 signer: 

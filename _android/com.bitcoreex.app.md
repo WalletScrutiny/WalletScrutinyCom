@@ -15,7 +15,7 @@ repository:
 icon: com.bitcoreex.app.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-01
 signer: 

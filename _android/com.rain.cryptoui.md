@@ -15,7 +15,7 @@ repository:
 icon: com.rain.cryptoui.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-08
 signer: 

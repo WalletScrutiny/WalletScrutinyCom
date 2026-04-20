@@ -15,7 +15,7 @@ repository:
 icon: com.cloud.blockfinex.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-08
 signer: 

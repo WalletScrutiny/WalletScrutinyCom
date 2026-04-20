@@ -15,7 +15,7 @@ repository:
 icon: com.opi.optimizer.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-04-13
 signer: 

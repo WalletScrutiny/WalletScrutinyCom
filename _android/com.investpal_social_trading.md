@@ -15,7 +15,7 @@ repository:
 icon: com.investpal_social_trading.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-05
 signer: 

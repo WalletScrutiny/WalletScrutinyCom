@@ -15,7 +15,7 @@ repository:
 icon: com.profx.mining.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-07-14
 signer: 

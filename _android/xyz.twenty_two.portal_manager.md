@@ -15,8 +15,8 @@ website: https://twenty-two.xyz/
 repository: 
 icon: xyz.twenty_two.portal_manager.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-10-03
 signer: 

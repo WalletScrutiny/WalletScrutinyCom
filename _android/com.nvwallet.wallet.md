@@ -14,8 +14,8 @@ website: https://www.nvxowallet.com/
 repository: 
 icon: com.nvwallet.wallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-09
 signer: 

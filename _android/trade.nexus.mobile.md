@@ -15,7 +15,7 @@ repository:
 icon: trade.nexus.mobile.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-03-02
 signer: 

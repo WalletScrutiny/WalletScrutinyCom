@@ -15,7 +15,7 @@ repository:
 icon: yadav.sachin.earn.free.crypto.cryptoexchange.jpg
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-31
 signer: 

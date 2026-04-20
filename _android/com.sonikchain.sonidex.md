@@ -15,7 +15,7 @@ repository:
 icon: com.sonikchain.sonidex.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-01-19
 signer: 

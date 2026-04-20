@@ -15,7 +15,7 @@ repository:
 icon: com.gpc.gpcwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-11-02
 signer: 

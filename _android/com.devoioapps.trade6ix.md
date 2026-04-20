@@ -15,7 +15,7 @@ repository:
 icon: com.devoioapps.trade6ix.png
 bugbounty: 
 meta: obsolete
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-24
 signer: 

@@ -14,8 +14,8 @@ website: https://bitoket.com
 repository: 
 icon: com.bitoket.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-04
 signer: 

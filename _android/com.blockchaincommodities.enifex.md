@@ -14,8 +14,8 @@ website: https://enifex.com/
 repository: 
 icon: com.blockchaincommodities.enifex.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-06-03
 signer: 

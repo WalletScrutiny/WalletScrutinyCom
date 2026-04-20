@@ -15,7 +15,7 @@ repository:
 icon: za.co.bostechnology.bospay.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-08
 signer: 

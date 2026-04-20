@@ -14,8 +14,8 @@ website: https://blns.io
 repository: 
 icon: io.blns.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-31
 signer: 

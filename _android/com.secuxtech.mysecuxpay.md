@@ -15,7 +15,7 @@ repository:
 icon: com.secuxtech.mysecuxpay.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-03-18
 signer: 

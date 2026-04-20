@@ -15,7 +15,7 @@ repository:
 icon: com.mykobo.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-07
 signer: 

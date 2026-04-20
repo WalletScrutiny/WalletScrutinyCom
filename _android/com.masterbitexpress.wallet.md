@@ -14,8 +14,8 @@ website: https://www.masterbitexpress.com
 repository: 
 icon: com.masterbitexpress.wallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-19
 signer: 

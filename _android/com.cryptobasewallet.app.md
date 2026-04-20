@@ -15,7 +15,7 @@ repository:
 icon: com.cryptobasewallet.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2026-02-02
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.gleec.gleecdex.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-05-30
 signer: 

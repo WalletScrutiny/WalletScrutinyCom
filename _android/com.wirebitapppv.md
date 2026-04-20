@@ -15,7 +15,7 @@ repository:
 icon: com.wirebitapppv.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-30
 signer: 

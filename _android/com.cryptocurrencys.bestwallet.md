@@ -15,7 +15,7 @@ repository:
 icon: com.cryptocurrencys.bestwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2020-12-04
 signer: 

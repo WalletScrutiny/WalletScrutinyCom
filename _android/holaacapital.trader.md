@@ -15,7 +15,7 @@ repository:
 icon: holaacapital.trader.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-15
 signer: 

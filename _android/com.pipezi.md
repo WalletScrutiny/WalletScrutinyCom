@@ -15,7 +15,7 @@ repository:
 icon: com.pipezi.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

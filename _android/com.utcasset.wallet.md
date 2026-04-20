@@ -15,7 +15,7 @@ repository:
 icon: com.utcasset.wallet.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-19
 signer: 

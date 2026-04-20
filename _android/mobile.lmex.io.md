@@ -14,8 +14,8 @@ website: https://www.lmex.io/
 repository: 
 icon: mobile.lmex.io.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 

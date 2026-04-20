@@ -15,7 +15,7 @@ repository:
 icon: uni.UNI869AEDF.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-08-25
 signer: 

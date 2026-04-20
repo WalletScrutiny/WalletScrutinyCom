@@ -15,7 +15,7 @@ repository:
 icon: com.keyex.crypto.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-09-03
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-09-15
 signer: 

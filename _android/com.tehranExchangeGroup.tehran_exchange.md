@@ -15,7 +15,7 @@ repository:
 icon: com.tehranExchangeGroup.tehran_exchange.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-17
 signer: 

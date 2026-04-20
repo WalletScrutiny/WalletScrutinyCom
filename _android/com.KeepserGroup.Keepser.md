@@ -16,7 +16,7 @@ repository:
 icon: com.KeepserGroup.Keepser.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-05
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: trade.bot.app.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-06-18
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: org.cryptodebitcard.best.bitcoin.investment.app.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-09-23
 signer: 

@@ -14,8 +14,8 @@ website: https://smashfi.me
 repository: 
 icon: me.smashfi.appclient.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-11-10
 signer: 

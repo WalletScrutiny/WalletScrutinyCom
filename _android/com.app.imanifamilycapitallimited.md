@@ -15,7 +15,7 @@ repository:
 icon: com.app.imanifamilycapitallimited.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-13
 signer: 

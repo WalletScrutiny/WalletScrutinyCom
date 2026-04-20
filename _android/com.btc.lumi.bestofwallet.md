@@ -15,7 +15,7 @@ repository:
 icon: com.btc.lumi.bestofwallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2021-06-16
 signer: 

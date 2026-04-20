@@ -15,7 +15,7 @@ repository:
 icon: io.blockbee.pos.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-04-09
 signer: 

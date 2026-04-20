@@ -15,7 +15,7 @@ repository:
 icon: micat.example.bergamo.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-18
 signer: 

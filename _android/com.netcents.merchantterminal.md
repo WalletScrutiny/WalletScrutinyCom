@@ -14,8 +14,8 @@ website: http://www.net-cents.com
 repository: 
 icon: com.netcents.merchantterminal.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-07-21
 signer: 

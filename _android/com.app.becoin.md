@@ -15,7 +15,7 @@ repository:
 icon: com.app.becoin.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-13
 signer: 

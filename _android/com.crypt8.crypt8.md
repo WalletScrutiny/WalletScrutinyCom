@@ -15,7 +15,7 @@ repository:
 icon: com.crypt8.crypt8.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-04
 signer: 

@@ -15,7 +15,7 @@ repository:
 icon: com.sanctuaryex.wallet.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-04
 signer: 

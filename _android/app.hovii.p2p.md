@@ -15,7 +15,7 @@ repository:
 icon: app.hovii.p2p.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-04-03
 signer: 

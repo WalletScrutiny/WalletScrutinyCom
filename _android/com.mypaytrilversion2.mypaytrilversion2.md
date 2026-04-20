@@ -15,7 +15,7 @@ repository:
 icon: com.mypaytrilversion2.mypaytrilversion2.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-19
 signer: 

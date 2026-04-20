@@ -15,7 +15,7 @@ repository:
 icon: com.gatepos.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2025-02-28
 signer: 

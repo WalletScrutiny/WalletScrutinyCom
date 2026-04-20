@@ -15,7 +15,7 @@ repository:
 icon: io.kaiser.kaiserwallet2.ble_reader.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-09-10
 signer: 

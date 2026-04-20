@@ -15,7 +15,7 @@ repository:
 icon: com.coinpoket.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-05-07
 signer: 

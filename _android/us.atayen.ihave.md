@@ -15,7 +15,7 @@ repository:
 icon: us.atayen.ihave.png
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-12-08
 signer: 

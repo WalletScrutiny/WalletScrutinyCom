@@ -15,8 +15,8 @@ website: https://covebitcoinwallet.com
 repository: 
 icon: org.bitcoinppl.cove.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-29
 signer: 

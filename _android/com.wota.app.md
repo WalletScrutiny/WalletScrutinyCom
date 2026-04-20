@@ -14,8 +14,8 @@ website: https://enterwota.com
 repository: 
 icon: com.wota.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2025-08-07
 signer: 

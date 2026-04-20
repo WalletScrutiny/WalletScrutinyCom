@@ -15,7 +15,7 @@ repository:
 icon: com.thebitcoinprofit92022.app.jpg
 bugbounty: 
 meta: removed
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-02-05
 signer: 

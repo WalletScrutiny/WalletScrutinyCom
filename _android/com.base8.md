@@ -14,8 +14,8 @@ website: https://base8.app/
 repository: 
 icon: com.base8.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 

@@ -14,8 +14,8 @@ website: https://www.bitrequest.io
 repository: 
 icon: io.bitrequest.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2023-12-01
 signer: 

@@ -14,8 +14,8 @@ website: https://sezame.app
 repository: 
 icon: org.maze2.sezamewallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2024-11-23
 signer: 

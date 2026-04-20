@@ -14,8 +14,8 @@ website: https://boldbitcoinwallet.com
 repository: 
 icon: com.boldwallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: fewusers
+verdict: wip
 appHashes: 
 date: 2026-01-14
 signer: 
