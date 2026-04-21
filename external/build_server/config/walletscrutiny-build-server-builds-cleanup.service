@@ -1,0 +1,9 @@
+[Unit]
+Description=Remove build directories under /opt/build-server-builds older than 7 days (by mtime)
+Documentation=file:/opt/build-server/walletScrutinyCom/external/build_server/README.md
+
+[Service]
+Type=oneshot
+User=build-server
+Group=build-server
+ExecStart=/opt/build-server/walletScrutinyCom/external/build_server/scripts/cleanup-old-build-dirs.sh

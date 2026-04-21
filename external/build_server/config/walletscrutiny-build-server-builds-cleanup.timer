@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily cleanup of old directories in /opt/build-server-builds
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+
+[Install]
+WantedBy=timers.target
