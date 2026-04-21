@@ -2,7 +2,8 @@
 wsId: 
 title: 'Pulse Wallet: Crypto & Web3'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.wallet.thepulse
 appCountry: 
@@ -15,9 +16,9 @@ repository:
 icon: com.wallet.thepulse.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2026-01-14
+date: 2026-04-21
 signer: 
 twitter: 
 social: 
@@ -28,3 +29,10 @@ features:
 
 ---
 
+## App Description
+
+Pulse Wallet is described as a non-custodial Web3 wallet with MPC-based key management, biometric/PIN security, and optional social-login recovery flows. The listing states support for multiple EVM networks plus Solana and includes built-in dApp access with malicious-site detection. Supported assets listed in the description include ETH, USDT, USDC, MATIC, SOL, DAI, DOGE, TON, and ARB.
+
+## Analysis
+
+The listing describes a multi-chain Web3 wallet focused on EVM networks and Solana. **Bitcoin or BTC support is not listed** in the provided supported networks and assets.

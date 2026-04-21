@@ -2,7 +2,8 @@
 wsId: 
 title: Xellar - Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 5000
 appId: com.xellar.wallets
 appCountry: 
@@ -15,9 +16,9 @@ repository:
 icon: com.xellar.wallets.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nobtc
 appHashes: 
-date: 2026-01-14
+date: 2026-04-21
 signer: 
 twitter: 
 social: 
@@ -28,3 +29,10 @@ features:
 
 ---
 
+## App Description
+
+Xellar is listed as a non-custodial web3 wallet app by Xellar Technology. The Play description states that it is used for managing digital assets and includes support for connecting a proprietary cold wallet card. The listing also describes a cold wallet storage mode for offline asset storage.
+
+## Analysis
+
+The current Play listing text **does not mention Bitcoin or BTC support**. Based on the available description, this app is currently presented as a general web3/digital asset wallet rather than a Bitcoin wallet.
