@@ -700,7 +700,7 @@ export async function createVerificationAfterCompilation(returnParamsFromCompila
 
     verificationsLog.info(`+++ ${appId} ${newWalletVersion} | Verification created: ${architecture ? architecture : ''} ${type ? type : ''} ${verdict} ${fileHash} - verificationEventId: ${verificationEventId.id}`);
 
-    if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification)) {
+    if (buildDirForThisVerification && fs.existsSync(buildDirForThisVerification) && verdict === 'reproducible') {
       removeDirectoryRecursive(buildDirForThisVerification);
       appLog.info(`Deleted build directory: ${buildDirForThisVerification}`);
     }
