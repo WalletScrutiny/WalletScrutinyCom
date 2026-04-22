@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationKind, verificationDraftKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, verificationDraftKind, isWalletScrutinySiteAdmin } from "./nostr-constants.mjs";
 import { formatDate, formatZapAmount, getAttachmentInfo, getStatusIcon, getStatusText, showIssueTrackerHtmlWidget } from "./assets-table-utils.js";
 import { getFirstTagValue } from "./verifications_common.mjs";
 import { renderCommentsSection } from './assets-table-comments.js';
@@ -1014,6 +1014,141 @@ window.renderAssetsTable = async function({
   };
 };
 
+let pendingVerificationReport = null;
+
+function closeVerificationReportConfirmModal() {
+  const modal = document.getElementById('verificationReportConfirmModal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
+  pendingVerificationReport = null;
+}
+
+function ensureVerificationReportConfirmModal() {
+  if (document.getElementById('verificationReportConfirmModal')) {
+    return;
+  }
+  const wrap = document.createElement('div');
+  wrap.id = 'verificationReportConfirmModal';
+  wrap.style.display = 'none';
+  wrap.style.position = 'fixed';
+  wrap.style.left = '0';
+  wrap.style.top = '0';
+  wrap.style.width = '100%';
+  wrap.style.height = '100%';
+  wrap.style.background = 'rgba(0,0,0,0.6)';
+  wrap.style.zIndex = '10004';
+  wrap.innerHTML = `
+    <div id="verificationReportConfirmInner" style="background-color: #fefefe; margin: 12% auto; padding: 20px; border: 1px solid #888; width: 90%; max-width: 520px; border-radius: 8px; color: #000; position: relative;">
+      <span id="closeVerificationReportConfirmModal" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; line-height: 1;">&times;</span>
+      <h3 style="margin-top: 0;">Confirm report</h3>
+      <div id="verificationReportConfirmText" style="margin-bottom: 16px; font-size: 14px;"></div>
+      <p style="margin-bottom: 12px; font-weight: 600;">Are you sure?</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <button type="button" id="verificationReportConfirmYes" class="btn btn-danger">Yes</button>
+        <button type="button" id="verificationReportConfirmNo" class="btn btn-secondary">No</button>
+      </div>
+    </div>`;
+  document.body.appendChild(wrap);
+
+  document.getElementById('closeVerificationReportConfirmModal').onclick = () => {
+    closeVerificationReportConfirmModal();
+  };
+  document.getElementById('verificationReportConfirmNo').onclick = () => {
+    closeVerificationReportConfirmModal();
+  };
+  wrap.onclick = (event) => {
+    if (event.target === wrap) {
+      closeVerificationReportConfirmModal();
+    }
+  };
+  document.getElementById('verificationReportConfirmYes').onclick = async () => {
+    const pending = pendingVerificationReport;
+    if (!pending) {
+      return;
+    }
+    try {
+      await window.createVerificationReport({
+        verificationEventId: pending.verification.id,
+        reportedPubkey: pending.verification.pubkey,
+        reason: pending.reason
+      });
+      closeVerificationReportConfirmModal();
+      await showToast('Report published.', 'success');
+      window.location.reload();
+    } catch (e) {
+      closeVerificationReportConfirmModal();
+      showToast('Failed to publish report: ' + (e.message || e), 'error');
+    }
+  };
+}
+
+function openVerificationReportConfirmModal(verification, reason) {
+  ensureVerificationReportConfirmModal();
+  pendingVerificationReport = { verification, reason };
+  const inner = document.getElementById('verificationReportConfirmInner');
+  if (inner) {
+    inner.style.backgroundColor = window.theme === 'dark' ? '#2d2d2d' : '#fefefe';
+    inner.style.color = window.theme === 'dark' ? '#fff' : '#000';
+  }
+  const text = document.getElementById('verificationReportConfirmText');
+  text.innerHTML = [
+    '<p>The following <strong>Nostr kind 1984</strong> report will be sent to the configured relays:</p>',
+    `<p><strong>Verification event id (e):</strong> ${verification.id}</p>`,
+    `<p><strong>Reported pubkey (p):</strong> ${verification.pubkey}</p>`,
+    `<p><strong>Reason (r):</strong> ${reason}</p>`
+  ].join('');
+  document.getElementById('verificationReportConfirmModal').style.display = 'block';
+}
+
+function initVerificationAdminReportControls(verification) {
+  const wrap = document.getElementById('adminReportVerificationWrap');
+  const menu = document.getElementById('adminReportVerificationMenu');
+  const reportBtn = document.getElementById('adminReportVerificationBtn');
+  if (!wrap || !menu || !reportBtn) {
+    return;
+  }
+  menu.style.display = 'none';
+  if (!isWalletScrutinySiteAdmin(window.userPubkey)) {
+    wrap.style.display = 'none';
+    return;
+  }
+  wrap.style.display = 'inline-block';
+
+  const applyAdminReportMenuTheme = () => {
+    const isDark = window.theme === 'dark';
+    menu.style.background = isDark ? '#2d2d2d' : '#fff';
+    menu.style.color = isDark ? '#fff' : '#000';
+    menu.style.borderColor = isDark ? '#555' : '#ccc';
+    const hoverBg = isDark ? 'rgba(255,255,255,0.12)' : 'rgba(0,0,0,0.08)';
+    menu.querySelectorAll('.admin-report-reason').forEach((el) => {
+      el.style.setProperty('color', isDark ? '#ffffff' : '#000000', 'important');
+      el.style.setProperty('background', 'transparent', 'important');
+      el.onmouseenter = () => {
+        el.style.setProperty('background', hoverBg, 'important');
+      };
+      el.onmouseleave = () => {
+        el.style.setProperty('background', 'transparent', 'important');
+      };
+      el.onclick = (e) => {
+        e.stopPropagation();
+        menu.style.display = 'none';
+        openVerificationReportConfirmModal(verification, el.getAttribute('data-reason'));
+      };
+    });
+  };
+  applyAdminReportMenuTheme();
+
+  reportBtn.onclick = (e) => {
+    e.stopPropagation();
+    const opening = menu.style.display === 'none' || menu.style.display === '';
+    if (opening) {
+      applyAdminReportMenuTheme();
+    }
+    menu.style.display = opening ? 'block' : 'none';
+  };
+}
+
 window.showVerificationModal = async function(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
 
@@ -1181,9 +1316,18 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px;" onclick="event.stopPropagation(); window.openEndorsementModal('${verification.id}', '${sha256Hash}')" title="Endorse this verification">👍 👎 Endorse this verification</button>`;
   }
   content.innerHTML += `<button class="btn btn-info" style="margin: 0; padding: 0; border: 0; background: transparent; margin-left: 10px;" id="verificationActionButtons"></button>`;
-  content.innerHTML += `<button class="btn btn-info" style="margin-left: 10px; display: none; padding-bottom: 7px;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
-    <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
-  </button>`;
+  content.innerHTML += `<span id="verificationZapReportGroup" style="margin-left: 10px; display: inline-flex; align-items: center; flex-wrap: wrap; gap: 8px;">
+    <button class="btn btn-info" style="display: none; padding-bottom: 7px; margin: 0;" id="zapButton" onclick="showZapModal({onClose: () => {}, setZapped: (ok) => {}});">
+      <i class="fab fa-bitcoin" style="font-size: 23px;"></i> Zap this verification
+    </button>
+    <span id="adminReportVerificationWrap" style="display: none; position: relative; vertical-align: middle;">
+      <button type="button" class="btn btn-secondary" id="adminReportVerificationBtn" style="font-size: 16px; margin: 0;">Report as spam/incorrect</button>
+      <div id="adminReportVerificationMenu" style="display: none; position: absolute; left: 0; top: 100%; z-index: 10003; margin-top: 4px; min-width: 160px; border: 1px solid #ccc; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); background: #fff; color: #000;">
+        <button type="button" class="admin-report-reason" data-reason="spam" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as spam</button>
+        <button type="button" class="admin-report-reason" data-reason="incorrect" style="display: block; width: 100%; text-align: left; padding: 8px 12px; border: 0; background: transparent; cursor: pointer; font-size: 16px;">Report as incorrect</button>
+      </div>
+    </span>
+  </span>`;
   content.innerHTML += isMine
     ? '<a href="#" id="deleteVerificationLink" class="verification-modal-delete-link">Delete Verification</a>'
     : '';
@@ -1356,6 +1500,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   const verificationKey = `${appIdForTheKey}:${versionForTheKey}:${platformForTheKey}:${authorPubkeyForTheKey}:${verification.id}`;
 
   renderCommentsSection(document.getElementById('comments-container'), verificationKey, authorPubkeyForTheKey);
+
+  initVerificationAdminReportControls(verification);
 
   if (diffoscopeFiles.length > 0) {
     insertDiffoscopeAssets();

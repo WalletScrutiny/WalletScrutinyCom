@@ -23,6 +23,25 @@ export const verificationCommentKind = isDebugEnv() ? 30902 : 30802;
 export const codeSnippetKind = 1337;
 export const endorsementKind = isDebugEnv() ? 31971 : 31871;
 
+/** NIP-56: reporting; used by site admins to flag bogus verifications. */
+export const verificationReportKind = 1984;
+
+/**
+ * Hex pubkeys (64-char) of WalletScrutiny.com administrators.
+ * Only these accounts see the in-app "Report as wrong/spam" control.
+ * (Visibility of verifications uses any kind-1984 that references the event id.)
+ */
+export const siteAdminPubkeys = [
+  '1f9e547c2f31942623b8ad1d07713282e8640fd8cf474e9f79f18ace8af216ed', // danny
+  '6274e238b289e1b2e98e4e6ce600dcc0cb2e2c03db9b850260ff8bdd6bbf2a45', // keraliss
+  '46fcbe3065eaf1ae7811465924e48923363ff3f526bd6f73d7c184b16bd8ce4d', // Leo
+  '03b5036dc3db82604307c1964d2b926417a91c3b11ef75ba6ca55019e9b7a62a', // Luis
+];
+
+export function isWalletScrutinySiteAdmin(pubkey) {
+  return Boolean(pubkey && siteAdminPubkeys.includes(pubkey));
+}
+
 // Opinions
 export const opinionKind = 30023; // Long-form Content (NIP-23)
 

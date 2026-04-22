@@ -8,6 +8,7 @@ import {
   verificationDraftKind,
   verificationCommentKind,
   codeSnippetKind,
+  verificationReportKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
   mainRelayUrl,
@@ -499,6 +500,73 @@ const createVerification = async function ({
 
   return ndkEvent;
 }
+
+const REPORT_REASONS = new Set(['spam', 'incorrect']);
+
+/**
+ * Fetches kind-1984 (NIP-56) reports that reference the given verification event ids.
+ * Any author is considered for hiding matching verifications on the site.
+ * @param {string[]} verificationEventIds
+ * @returns {Promise<Set<string>>}
+ */
+async function fetchReportsForVerificationIds(verificationEventIds) {
+  const reported = new Set();
+  if (!verificationEventIds.length) {
+    return reported;
+  }
+  await ensureNdkConnected();
+  const CHUNK = 30;
+  for (let i = 0; i < verificationEventIds.length; i += CHUNK) {
+    const chunk = verificationEventIds.slice(i, i + CHUNK);
+    try {
+      const batch = await ndk.fetchEvents({
+        kinds: [verificationReportKind],
+        '#e': chunk,
+        since: verificationEventsSinceTS
+      });
+      for (const ev of batch) {
+        const eTags = ev.tags?.filter(t => t[0] === 'e') || [];
+        for (const t of eTags) {
+          if (t[1] && /^[0-9a-f]{64}$/i.test(t[1])) {
+            reported.add(t[1]);
+          }
+        }
+      }
+    } catch (e) {
+      console.warn('fetchReportsForVerificationIds: chunk failed', e);
+    }
+  }
+  return reported;
+}
+
+function shouldLoadAdminVerificationReports({ appId, sha256, pubkey }) {
+  return Boolean(appId || sha256 || pubkey);
+}
+
+const createVerificationReport = async function ({
+  verificationEventId,
+  reportedPubkey,
+  reason
+}) {
+  await ensureNdkConnected();
+  if (!verificationEventId || !reportedPubkey) {
+    throw new Error('Missing required parameters');
+  }
+  if (!REPORT_REASONS.has(reason)) {
+    throw new Error('Invalid report reason');
+  }
+
+  const tags = [
+    ['e', verificationEventId],
+    ['p', reportedPubkey],
+    ['r', reason]
+  ];
+  const body = `WalletScrutiny.com admin report: verification ${verificationEventId} as ${reason}.`;
+  const ndkEvent = createNdkEvent(verificationReportKind, body, tags);
+  eventSanitize(ndkEvent);
+  await publishNdkEvent(ndkEvent, 'verification report');
+  return ndkEvent;
+};
 
 const createEndorsement = async function ({validity = null, verificationEventId, endorserNpubkey}) {
   await ensureNdkConnected();
@@ -1205,7 +1273,11 @@ const backgroundSyncEvents = async function() {
  * Helper function to process raw NDK events into our application structure
  * Applies deduplication: For verifications, keeps only newest per (hash, pubkey) pair
  */
-function processEventsToResult(events, oldestEventTimestamp) {
+function processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds = null) {
+  const reported = reportedVerificationIds && reportedVerificationIds.size
+    ? reportedVerificationIds
+    : null;
+
   events.forEach(event => {
     eventSanitize(event);
   });
@@ -1213,9 +1285,15 @@ function processEventsToResult(events, oldestEventTimestamp) {
   // Relaxed filtering: Accept verifications from any client to prevent data loss
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
 
-  const verifications = Array.from(events).filter(event => event.kind === verificationKind);
+  const verifications = Array.from(events).filter(event =>
+    event.kind === verificationKind && (!reported || !reported.has(event.id))
+  );
 
-  const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstTagValue(event, 'client') === 'WalletScrutiny.com');
+  const draftVerifications = Array.from(events).filter(event =>
+    event.kind === verificationDraftKind &&
+    getFirstTagValue(event, 'client') === 'WalletScrutiny.com' &&
+    (!reported || !reported.has(event.id))
+  );
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
@@ -1300,6 +1378,16 @@ const getAllAssetInformation = async function({ months,
   const randomNumber = Math.floor(Math.random() * 100);
   console.time('getAllAssetInformation' + randomNumber);
 
+  const resolveReportedVerificationIds = async (eventSet) => {
+    if (!shouldLoadAdminVerificationReports({ appId, sha256, pubkey })) {
+      return new Set();
+    }
+    const verificationEventIds = [...eventSet].filter(
+      e => e.kind === verificationKind || e.kind === verificationDraftKind
+    ).map(e => e.id);
+    return fetchReportsForVerificationIds(verificationEventIds);
+  };
+
   let events = new Set();
   let loadedFromIDB = false;
   let oldestEventTimestamp = null;
@@ -1358,7 +1446,8 @@ const getAllAssetInformation = async function({ months,
 
       if (loadedFromIDB && onCachedDataLoaded) {
         console.debug('Triggering onCachedDataLoaded callback with IDB data');
-        const result = processEventsToResult(new Set(events), oldestEventTimestamp);
+        const reportedIds = await resolveReportedVerificationIds(new Set(events));
+        const result = processEventsToResult(new Set(events), oldestEventTimestamp, reportedIds);
         onCachedDataLoaded(result);
       }
     }
@@ -1523,7 +1612,8 @@ const getAllAssetInformation = async function({ months,
 
   console.debug(`Total unique events (IDB + Network): ${events.size}`);
 
-  const finalResult = processEventsToResult(events, oldestEventTimestamp);
+  const reportedVerificationIds = await resolveReportedVerificationIds(events);
+  const finalResult = processEventsToResult(events, oldestEventTimestamp, reportedVerificationIds);
 
   console.log(`Final result: ${finalResult.verifications.size} verifications, ${finalResult.assets.size} assets`);
   console.timeEnd('getAllAssetInformation' + randomNumber);
@@ -2278,6 +2368,7 @@ if (typeof window !== 'undefined') {
   window.createAssetRegistration = createAssetRegistration;
   window.createVerification = createVerification;
   window.createEndorsement = createEndorsement;
+  window.createVerificationReport = createVerificationReport;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
   window.getAllAssetInformation = getAllAssetInformation;
@@ -2323,6 +2414,7 @@ export {
   createAssetRegistration,
   createVerification,
   createEndorsement,
+  createVerificationReport,
   createNostrNote,
   getNostrProfile,
   getAllAssetInformation,
