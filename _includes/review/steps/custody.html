@@ -29,8 +29,6 @@
             {% else %}
           {% endcase %}
         {% endfor %}
-        <p class="custody-debug-indices" style="font-size:0.85rem;color:#666;">custodyIndex={{ custodyIndex }}, verdictIndex={{ verdictIndex }}</p>
-
         {% comment %}Check if product has any features with custody alerts{% endcomment %}
         {% assign hasCustodyAlert = false %}
         {% if page.features contains 'cashu' or page.features contains 'fedimint' or page.features contains 'liquid' %}
