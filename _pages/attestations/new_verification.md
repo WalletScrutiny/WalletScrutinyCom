@@ -294,6 +294,11 @@ permalink: /new_verification/
         font-size: 0.95em; /* Slightly smaller font */
         color: var(--neutral-0);
     }
+    .script-item .pubkey-link {
+        color: inherit;
+        text-decoration: underline;
+        cursor: pointer;
+    }
     .add-script {
         color: green;
         cursor: pointer;
@@ -503,6 +508,7 @@ permalink: /new_verification/
   let uploadedFiles = []; // Store File objects
   let reusedFileIds = [];
   let outputFiles = []; // Store files for Blossom upload
+  const codeSnippetKind = 1337;
 
   document.getElementById('loadingSpinner').style.display = 'block';
 
@@ -701,7 +707,6 @@ permalink: /new_verification/
   // --- End Output File Handling Functions ---
 
   async function loadUrlParamsAndGetAssetInfo() {
-    const codeSnippetKind = 1337;
     const showError = (message) => {
       document.querySelector('.form-container').style.display = 'none';
 
@@ -896,23 +901,38 @@ permalink: /new_verification/
         if (attachments.length > 0 && scriptUsageSelector.value === 'reuse') {
           availableScriptsContainer.style.display = 'block';
           attachments.forEach(attachment => {
-            const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || 'Unnamed Script';
+            let name;
+            if (attachment.kind === codeSnippetKind) {
+              const attachmentName = getFirstTagValue(attachment, 'name');
+              const extension = getFirstTagValue(attachment, 'extension');
+              name = `${attachmentName}.${extension}`;
+            } else {
+              name = getFirstTagValue(attachment, 'filename');
+            }
+            if (!name || name === '.') {
+              name = 'Unnamed Script';
+            }
             const size = getFirstTagValue(attachment, 'size', null);
             const sizeText = size ? `(${(size / 1024).toFixed(1)} KB)` : '';
             const attachmentContent = atob(attachment.content);
             const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
-
             const parentVerificationEvent = attachment.parentVerificationEvent;
             const version = getFirstTagValue(parentVerificationEvent, 'version', null);
             const status = getFirstTagValue(parentVerificationEvent, 'status', null);
+            const pubkey = parentVerificationEvent.pubkey;
+            const pubkeyShort = `${pubkey.slice(0, 4)}...${pubkey.slice(-4)}`;
+            const verifierHref = `/verifier/?pubkey=${encodeURIComponent(pubkey)}`;
 
             const app = window.wallets.find(it => it.appId === appId) ?? null;
             const appTitle = app?.title ?? appId;
+            const provenance = version
+              ? ` - (from verification for ${appTitle} v${version}${status ? ` - ${status}` : ''})`
+              : '';
 
             const scriptItem = document.createElement('div');
             scriptItem.className = 'script-item';
             scriptItem.innerHTML = `
-            <span>${name} ${sizeText} ${version ? ` - (used in verification for ${appTitle} v${version} ${status ? ` - ${status}` : ''})` : ''}</span>
+            <span>${name} ${sizeText}${provenance} - by <a href="${verifierHref}" class="pubkey-link" target="_blank" rel="noopener noreferrer">${pubkeyShort}</a></span>
             <button type="button" class="add-script" title="Mark this script as used in this verification">
               <i class="fas fa-plus"></i>
             </button>`;
@@ -963,6 +983,15 @@ permalink: /new_verification/
             });
 
             availableScriptsList.appendChild(scriptItem);
+
+            const verifierLinkEl = scriptItem.querySelector('.pubkey-link');
+            if (verifierLinkEl) {
+              getNostrProfile(pubkey).then(profile => {
+                if (profile && profile.name) {
+                  verifierLinkEl.textContent = profile.name;
+                }
+              });
+            }
           });
         }
       } catch (error) {

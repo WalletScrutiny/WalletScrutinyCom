@@ -789,11 +789,12 @@ const getAllAttachmentsForAppId = async function(appId, appAssetInformation = nu
       if (fileEventIds.length > 0) {
         promises.push(
           getEventsFromEventIds(fileEventIds).then(fileAttachmentEvents => {
-            // Process each fetched attachment event
             fileAttachmentEvents.forEach(attachmentEvent => {
-              // Add the parent verification event to the attachment
-              attachmentEvent.parentVerificationEvent = verification;
-              attachments.push(attachmentEvent);
+              if (attachmentEvent.kind === codeSnippetKind) {
+                // Add the parent verification event to the attachment
+                attachmentEvent.parentVerificationEvent = verification;
+                attachments.push(attachmentEvent);
+              }
             });
           })
         );
