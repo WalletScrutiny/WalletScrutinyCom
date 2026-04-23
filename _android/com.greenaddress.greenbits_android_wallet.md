@@ -8,6 +8,8 @@ authors:
 - keraliss
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2015-01-01
 updated: 2026-04-08

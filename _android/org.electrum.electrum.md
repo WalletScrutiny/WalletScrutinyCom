@@ -9,6 +9,8 @@ authors:
 - keraliss
 users: 1000000
 appId: org.electrum.electrum
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2016-03-02
 updated: 2026-04-09

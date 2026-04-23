@@ -8,6 +8,8 @@ authors:
 - keraliss
 users: 100000
 appId: io.horizontalsystems.bankwallet
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2018-12-18
 updated: 2026-04-16

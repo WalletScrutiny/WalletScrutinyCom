@@ -7,6 +7,8 @@ authors:
 - emanuel
 users: 1000
 appId: com.greenaddress.abcore
+alternativeStores:
+- fdroid
 appCountry: 
 released: 
 updated: 2019-10-16

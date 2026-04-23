@@ -8,6 +8,8 @@ authors:
 - danny
 users: 100000
 appId: com.btcontract.wallet
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2015-07-15
 updated: 2023-10-27

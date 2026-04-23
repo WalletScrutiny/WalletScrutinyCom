@@ -7,6 +7,8 @@ authors:
 - keraliss
 users: 5000
 appId: app.michaelwuensch.bitbanana
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2023-03-26
 updated: 2026-04-11

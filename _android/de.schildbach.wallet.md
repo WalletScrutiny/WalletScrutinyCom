@@ -8,6 +8,8 @@ authors:
 - keraliss
 users: 10000000
 appId: de.schildbach.wallet
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2011-03-01
 updated: 2025-03-06
