@@ -6,6 +6,8 @@ authors:
 - danny
 users: 10000
 appId: cash.p.terminal
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2023-02-10
 updated: 2026-04-03

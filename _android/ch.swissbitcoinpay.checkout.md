@@ -7,6 +7,8 @@ authors:
 - keraliss
 users: 1000
 appId: ch.swissbitcoinpay.checkout
+alternativeStores:
+- fdroid
 appCountry: 
 released: 2022-11-15
 updated: 2025-10-29

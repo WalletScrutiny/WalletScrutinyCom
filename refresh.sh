@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # This script performs a full WalletScrutiny data/content refresh pipeline.
-# It updates app metadata from stores, refreshes desktop/hardware sources,
+# It updates app metadata from stores, syncs F-Droid alternativeStores on
+# Android source-available pages, refreshes desktop/hardware sources,
 # updates donations data, regenerates derived assets, feature verification,
 # and more.
 #
@@ -71,6 +72,12 @@ if [ -z "$apps" ]; then
       exit 1
     fi
   fi
+fi
+
+echo " * Checking F-Droid for Android source-available wallets (alternativeStores)..."
+if ! node scripts/fdroidSourceAvailableCheck.mjs; then
+  echo "❌ ERROR: Failed to run fdroidSourceAvailableCheck.mjs"
+  exit 1
 fi
 
 echo " * Refreshing Desktop apps..."
