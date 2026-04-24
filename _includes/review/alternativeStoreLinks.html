@@ -1,0 +1,9 @@
+{% if page.alternativeStores %}
+  {% for store in page.alternativeStores %}
+    {% assign alt = store | strip | downcase %}
+    {% case alt %}
+      {% when 'fdroid' %}
+        <a title="F-Droid" href="https://f-droid.org/packages/{{ page.appId }}/" class="{% if include.link_class %}{{ include.link_class }}{% else %}link-web subtle{% endif %} distribution-store-link"><i class="fac fa-f-droid" aria-hidden="true"></i> F-Droid</a>
+    {% endcase %}
+  {% endfor %}
+{% endif %}

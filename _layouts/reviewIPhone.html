@@ -31,9 +31,11 @@ layout: default
             {% endif %}
           </h1>
 
-          <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle">
-            <i class="i-app-store"></i> App Store
-          </a>
+          <div class="distribution-store-links">
+            <a title="App Store" href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle distribution-store-link">
+              <i class="i-app-store" aria-hidden="true"></i> App Store
+            </a>
+          </div>
 
           <div class="secondary-text" id="version-number"></div>
         </div>

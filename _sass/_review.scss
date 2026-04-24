@@ -132,6 +132,46 @@
   }
 }
 
+.distribution-store-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.65rem;
+  margin-top: 0.45rem;
+
+  .distribution-store-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    padding: 0.28em 0.7em;
+    border-radius: 6px;
+    border: 1px solid var(--neutral-4);
+    background: var(--neutral-7);
+    font-size: 0.94em;
+    line-height: 1.35;
+    transition:
+      border-color 0.12s ease,
+      background 0.12s ease,
+      color 0.12s ease;
+
+    i {
+      font-size: 1em;
+      opacity: 0.92;
+    }
+
+    &:hover {
+      text-decoration: none;
+      border-color: var(--accent);
+      color: var(--accent-text);
+      background: var(--accent-50);
+    }
+  }
+}
+
+.steps.linked .step .title .distribution-store-links .distribution-store-link:hover {
+  text-decoration: none;
+}
+
 .article-after {
   margin-bottom: 80px;
 }

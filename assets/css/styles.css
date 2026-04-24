@@ -52,8 +52,9 @@ body, input {
 }
 
 .fa-f-droid:before {
+  font-family: "ws-custom" !important;
+  font-weight: normal !important;
   content: "\e900";
-  /* color: #1976d2; */
 }
 
 /* MISSING FONT */
