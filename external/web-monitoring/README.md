@@ -111,15 +111,6 @@ If `UPTIME_KUMA_PUSH_URL` is unset, the script only runs the browser check and p
 
 When `UPTIME_KUMA_PUSH_URL` is set, the script also sends `status=up` or `status=down` to Uptime Kuma. If that HTTP request fails after a successful page check, the process exits with `1` so the scheduler can surface a delivery problem.
 
-## Run once
-
-```bash
-export UPTIME_KUMA_PUSH_URL='https://your-kuma-host/api/push/yourToken'
-npm run check-nostr
-```
-
-Uptime Kuma marks the Push monitor **Up** when it receives `status=up` within the heartbeat interval you configured on the monitor (set the interval slightly longer than your cron period).
-
 ## Discord alerts
 
 Uptime Kuma does not send Discord messages by itself; you add a **notification** and attach it to your Push monitor (or use a default policy).
