@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: br.com.cdb
+alternativeStores: 
 appCountry: 
 released: 2020-08-07
 updated: 2020-11-01

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.blockchainacuity.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-08-01
 updated: 2018-08-01

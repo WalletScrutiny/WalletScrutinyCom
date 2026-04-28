@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fatbtc.App
+alternativeStores: 
 appCountry: us
 released: 2018-06-02
 updated: 2023-02-16

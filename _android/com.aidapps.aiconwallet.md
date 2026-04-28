@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aidapps.aiconwallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-05
 updated: 2021-03-04

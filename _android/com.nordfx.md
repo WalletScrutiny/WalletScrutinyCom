@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.nordfx
+alternativeStores: 
 appCountry: lv
 released: 2021-02-28
 updated: 2022-05-24

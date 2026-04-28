@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoke.activity
+alternativeStores: 
 appCountry: 
 released: 2022-02-13
 updated: 2022-10-07

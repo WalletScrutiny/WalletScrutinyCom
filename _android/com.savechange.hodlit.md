@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.savechange.hodlit
+alternativeStores: 
 appCountry: 
 released: 2020-04-18
 updated: 2020-11-16

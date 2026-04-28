@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: org.coinid.vault
+alternativeStores: 
 appCountry: 
 released: 2018-10-14
 updated: 2021-02-20

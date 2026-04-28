@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.qume.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-10-07

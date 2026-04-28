@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: de.bisonapp
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-11
-version: 4.29.0
+updated: 2026-04-24
+version: 4.31.1
 reviews: 2
 website: https://bisonapp.com
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.uxuy
+alternativeStores: 
 appCountry: 
 released: 2023-08-09
 updated: 2025-02-08

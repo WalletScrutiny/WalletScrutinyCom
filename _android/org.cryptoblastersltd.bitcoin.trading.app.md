@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: org.cryptoblastersltd.bitcoin.trading.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

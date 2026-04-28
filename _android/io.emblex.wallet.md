@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.emblex.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2021-11-30

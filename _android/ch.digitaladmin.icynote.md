@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: ch.digitaladmin.icynote
+alternativeStores: 
 appCountry: 
 released: 2025-03-14
 updated: 2025-09-02

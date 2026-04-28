@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.anxintl.mythology
+alternativeStores: 
 appCountry: 
 released: 2016-04-18
 updated: 2016-10-29

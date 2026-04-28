@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.chainup.exchange.BITBE
+alternativeStores: 
 appCountry: 
 released: 2021-10-13
 updated: 2021-10-13

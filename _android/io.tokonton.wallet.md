@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.tokonton.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-20
 updated: 2021-02-20

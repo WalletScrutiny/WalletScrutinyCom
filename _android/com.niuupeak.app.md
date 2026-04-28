@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.niuupeak.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-02
 updated: 2020-07-02

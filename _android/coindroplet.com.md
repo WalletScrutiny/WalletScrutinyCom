@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: coindroplet.com
+alternativeStores: 
 appCountry: 
 released: 2022-09-29
 updated: 2022-12-05

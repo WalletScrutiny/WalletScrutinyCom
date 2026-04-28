@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.crypto.ab.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-09-27
 updated: 2026-02-17
 version: 1.20.0
-reviews: 217
+reviews: 222
 website: https://alicebob.com/
 repository: 
 icon: com.crypto.ab.wallet.app.png

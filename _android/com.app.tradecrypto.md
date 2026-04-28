@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.app.tradecrypto
+alternativeStores: 
 appCountry: 
 released: 2021-06-26
 updated: 2021-08-03

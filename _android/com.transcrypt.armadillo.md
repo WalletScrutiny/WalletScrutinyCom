@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.transcrypt.armadillo
+alternativeStores: 
 appCountry: ru
 released: 2018-05-23
 updated: 2022-03-09

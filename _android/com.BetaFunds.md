@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.BetaFunds
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-05-18

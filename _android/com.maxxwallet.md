@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.maxxwallet
+alternativeStores: 
 appCountry: 
 released: 2019-03-25
 updated: 2019-06-12

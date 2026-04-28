@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: kifpool.me
+alternativeStores: 
 appCountry: 
 released: 2022-09-13
 updated: 2022-12-11

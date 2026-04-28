@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.ghana.highgold
+alternativeStores: 
 appCountry: 
 released: 2022-04-02
 updated: 2022-05-25

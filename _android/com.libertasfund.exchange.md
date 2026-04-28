@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.libertasfund.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-07-27
 updated: 2022-03-24

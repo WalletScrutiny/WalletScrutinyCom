@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.vidulumwallet.app
+alternativeStores: 
 appCountry: 
 released: 2019-04-04
 updated: 2024-01-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: su.akoda.walletgun
+alternativeStores: 
 appCountry: 
 released: 2021-10-13
 updated: 2021-10-13

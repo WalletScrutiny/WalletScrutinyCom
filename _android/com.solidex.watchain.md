@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.solidex.watchain
+alternativeStores: 
 appCountry: 
 released: 2025-10-19
 updated: 2025-11-14

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: cc.bitbank.bitbank
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-06

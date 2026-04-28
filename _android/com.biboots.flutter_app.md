@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.biboots.flutter_app
+alternativeStores: 
 appCountry: 
 released: 2021-09-25
 updated: 2024-08-23

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: w3axis.com.epocket
+alternativeStores: 
 appCountry: 
 released: 2018-06-23
 updated: 2026-04-16

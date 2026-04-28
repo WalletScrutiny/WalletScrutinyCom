@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.risewallet.riseapp
+alternativeStores: 
 appCountry: ca
 released: 2019-03-08
 updated: 2022-04-14

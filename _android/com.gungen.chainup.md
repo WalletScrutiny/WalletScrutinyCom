@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gungen.chainup
+alternativeStores: 
 appCountry: 
 released: 2020-08-17
 updated: 2022-07-11

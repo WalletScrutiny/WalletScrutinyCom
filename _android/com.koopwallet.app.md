@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.koopwallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-12-20
 updated: 2023-07-11

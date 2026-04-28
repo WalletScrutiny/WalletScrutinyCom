@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 500
 appId: com.lightning.denryu
+alternativeStores: 
 appCountry: 
 released: 2018-12-14
 updated: 2018-12-26

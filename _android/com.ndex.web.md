@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ndex.web
+alternativeStores: 
 appCountry: 
 released: 2018-10-10
 updated: 2020-04-02

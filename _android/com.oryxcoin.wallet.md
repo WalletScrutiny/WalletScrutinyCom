@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.oryxcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-03-29
 updated: 2018-03-29

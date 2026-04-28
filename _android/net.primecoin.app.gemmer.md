@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: net.primecoin.app.gemmer
+alternativeStores: 
 appCountry: 
 released: 2020-12-20
 updated: 2026-03-13

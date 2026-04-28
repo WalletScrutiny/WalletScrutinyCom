@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinsquare.app.quicktrade
+alternativeStores: 
 appCountry: 
 released: 2022-11-02
 updated: 2025-12-05

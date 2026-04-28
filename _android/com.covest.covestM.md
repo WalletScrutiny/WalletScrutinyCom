@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.covest.covestM
+alternativeStores: 
 appCountry: 
 released: 2022-11-03
 updated: 2025-10-16

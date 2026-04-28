@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.theluxurybank.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-22
 updated: 2020-11-22

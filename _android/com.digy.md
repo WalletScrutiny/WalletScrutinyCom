@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.digy
+alternativeStores: 
 appCountry: 
 released: 2021-05-16
 updated: 2021-08-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mrsebong21.miningscriptpenambangkoindigital
+alternativeStores: 
 appCountry: 
 released: 2020-06-29
 updated: 2020-12-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: me.cryptopay.android
+alternativeStores: 
 appCountry: de
 released: 2017-11-09
 updated: 2025-08-14

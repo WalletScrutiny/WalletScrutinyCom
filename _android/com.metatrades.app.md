@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.metatrades.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-05

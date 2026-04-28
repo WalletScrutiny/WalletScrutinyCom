@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: app.phantom
+alternativeStores: 
 appCountry: 
 released: 2022-04-12
-updated: 2026-04-17
-version: 26.11.3
-reviews: 2194
+updated: 2026-04-24
+version: 26.13.1
+reviews: 2199
 website: https://phantom.com/
 repository: 
 icon: app.phantom.png

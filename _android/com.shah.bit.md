@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.shah.bit
+alternativeStores: 
 appCountry: 
 released: 2022-08-17
 updated: 2022-08-25

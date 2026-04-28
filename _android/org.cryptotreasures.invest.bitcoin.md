@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: org.cryptotreasures.invest.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

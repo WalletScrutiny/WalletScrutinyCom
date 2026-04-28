@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.coinbase.pro
+alternativeStores: 
 appCountry: 
 released: 2020-01-06
 updated: 2022-10-17

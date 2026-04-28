@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: wallet.smart.szty.com.smartwallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-25
 updated: 2021-11-15

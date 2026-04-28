@@ -7,6 +7,7 @@ authors:
 - danny
 users: 500
 appId: com.jubiter.app
+alternativeStores: 
 appCountry: 
 released: 2020-11-19
 updated: 2022-04-26

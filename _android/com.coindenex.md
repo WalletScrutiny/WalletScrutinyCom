@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coindenex
+alternativeStores: 
 appCountry: 
 released: 2021-05-02
 updated: 2021-05-02

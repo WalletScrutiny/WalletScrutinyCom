@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.devere.dcx
+alternativeStores: 
 appCountry: 
 released: 2018-01-29
 updated: 2023-04-20

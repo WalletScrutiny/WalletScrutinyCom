@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.inanomo.market
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2022-08-23

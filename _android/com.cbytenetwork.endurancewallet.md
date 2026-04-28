@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cbytenetwork.endurancewallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-27
 updated: 2023-02-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitturkmobile.android
+alternativeStores: 
 appCountry: 
 released: 2019-04-05
 updated: 2022-02-08

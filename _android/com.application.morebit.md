@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.application.morebit
+alternativeStores: 
 appCountry: 
 released: 2019-05-06
 updated: 2019-10-23

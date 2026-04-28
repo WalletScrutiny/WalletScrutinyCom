@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: kr.co.a131t
+alternativeStores: 
 appCountry: 
 released: 2019-06-26
 updated: 2019-06-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.defi
+alternativeStores: 
 appCountry: 
 released: 2022-01-23
 updated: 2022-11-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitubu.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-19
 updated: 2023-01-19

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.ditepayhub.app
+alternativeStores: 
 appCountry: 
 released: 2020-12-11
 updated: 2020-12-11

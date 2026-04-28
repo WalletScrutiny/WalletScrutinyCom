@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.defexa.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-04-28
 updated: 2025-12-10

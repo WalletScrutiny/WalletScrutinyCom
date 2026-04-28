@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.webview.digitdax
+alternativeStores: 
 appCountry: 
 released: 2020-08-13
 updated: 2026-04-09

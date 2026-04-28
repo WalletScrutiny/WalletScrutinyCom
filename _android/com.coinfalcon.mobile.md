@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.coinfalcon.mobile
+alternativeStores: 
 appCountry: 
 released: 2019-07-10
 updated: 2022-02-07

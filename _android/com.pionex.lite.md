@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pionex.lite
+alternativeStores: 
 appCountry: cn
 released: 2021-05-14
 updated: 2021-12-17

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.blockchain.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-27
 updated: 2023-10-08

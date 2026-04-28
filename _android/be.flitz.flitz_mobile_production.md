@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: be.flitz.flitz_mobile_production
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-21

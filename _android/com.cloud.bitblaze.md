@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cloud.bitblaze
+alternativeStores: 
 appCountry: 
 released: 2022-10-28
 updated: 2023-02-23

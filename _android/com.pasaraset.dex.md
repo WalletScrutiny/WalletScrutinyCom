@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.pasaraset.dex
+alternativeStores: 
 appCountry: 
 released: 2021-04-18
 updated: 2021-04-21

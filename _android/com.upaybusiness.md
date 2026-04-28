@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.upaybusiness
+alternativeStores: 
 appCountry: 
 released: 2020-07-13
 updated: 2020-09-20

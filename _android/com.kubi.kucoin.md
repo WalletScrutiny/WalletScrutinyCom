@@ -6,11 +6,12 @@ authors:
 - leo
 users: 10000000
 appId: com.kubi.kucoin
+alternativeStores: 
 appCountry: 
 released: 2018-05-03
-updated: 2026-04-16
-version: 4.22.0
-reviews: 5034
+updated: 2026-04-23
+version: 4.24.0
+reviews: 5032
 website: https://www.kucoin.com
 repository: 
 icon: com.kubi.kucoin.jpg

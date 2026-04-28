@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.gbih.yantwallet
+alternativeStores: 
 appCountry: 
 released: 2019-02-26
 updated: 2019-09-24

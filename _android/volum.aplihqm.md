@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: volum.aplihqm
+alternativeStores: 
 appCountry: 
 released: 2021-11-20
 updated: 2021-11-21

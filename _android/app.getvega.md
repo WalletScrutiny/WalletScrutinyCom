@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50
 appId: app.getvega
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-05-22

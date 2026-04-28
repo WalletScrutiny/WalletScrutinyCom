@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000000
 appId: com.etoro.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-27
 updated: 2026-02-09

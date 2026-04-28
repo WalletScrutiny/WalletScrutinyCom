@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.co.eost.elvwallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-30
 updated: 2022-09-08

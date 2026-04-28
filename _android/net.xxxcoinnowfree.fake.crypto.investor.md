@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: net.xxxcoinnowfree.fake.crypto.investor
+alternativeStores: 
 appCountry: 
 released: 2021-07-22
 updated: 2021-07-22

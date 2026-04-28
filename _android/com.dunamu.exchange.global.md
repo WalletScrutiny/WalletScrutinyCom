@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.dunamu.exchange.global
+alternativeStores: 
 appCountry: us
 released: 2018-11-06
-updated: 2026-04-08
-version: 1.22.31
+updated: 2026-04-21
+version: 1.22.32
 reviews: 34
 website: https://www.dunamu.com
 repository: 

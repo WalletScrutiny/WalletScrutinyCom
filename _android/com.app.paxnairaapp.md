@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.app.paxnairaapp
+alternativeStores: 
 appCountry: 
 released: 2019-07-29
 updated: 2019-07-29

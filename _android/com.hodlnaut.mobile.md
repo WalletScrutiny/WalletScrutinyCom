@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.hodlnaut.mobile
+alternativeStores: 
 appCountry: SG
 released: 2021-10-26
 updated: 2022-08-21

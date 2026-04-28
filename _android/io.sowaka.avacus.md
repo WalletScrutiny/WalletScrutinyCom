@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: io.sowaka.avacus
+alternativeStores: 
 appCountry: 
 released: 2023-06-26
 updated: 2025-12-18

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.syfe
+alternativeStores: 
 appCountry: 
 released: 2020-02-13
-updated: 2026-04-17
-version: 15.9.0
+updated: 2026-04-27
+version: 15.9.1
 reviews: 4
 website: https://www.syfe.com
 repository: 

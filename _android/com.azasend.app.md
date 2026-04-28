@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.azasend.app
+alternativeStores: 
 appCountry: 
 released: 2023-10-04
 updated: 2025-11-03

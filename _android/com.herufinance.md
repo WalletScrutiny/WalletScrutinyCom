@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.herufinance
+alternativeStores: 
 appCountry: 
 released: 2022-08-03
 updated: 2022-12-05

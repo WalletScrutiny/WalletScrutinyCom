@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.allcoinwallet.allcoinwallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-28
 updated: 2019-11-22

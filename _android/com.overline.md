@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.overline
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2021-09-16

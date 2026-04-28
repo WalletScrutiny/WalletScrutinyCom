@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.merseyside.cripto
+alternativeStores: 
 appCountry: 
 released: 2018-08-20
 updated: 2021-02-12

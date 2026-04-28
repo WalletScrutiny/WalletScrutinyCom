@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wBitcoinBuyer_15485198
+alternativeStores: 
 appCountry: 
 released: 2022-05-05
 updated: 2022-05-05

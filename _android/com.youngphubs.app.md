@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.youngphubs.app
+alternativeStores: 
 appCountry: 
 released: 2019-10-06
 updated: 2019-10-06

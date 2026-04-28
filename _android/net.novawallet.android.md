@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: net.novawallet.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-25
 updated: 2022-07-26

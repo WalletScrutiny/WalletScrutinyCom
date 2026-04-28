@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.qlexchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-05-03

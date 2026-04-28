@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: co.nearpay.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-03

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000000
 appId: com.btckorea.bithumb
+alternativeStores: 
 appCountry: 
 released: 2017-09-26
 updated: 2026-04-14

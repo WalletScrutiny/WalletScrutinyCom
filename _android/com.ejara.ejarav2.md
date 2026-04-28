@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.ejara.ejarav2
+alternativeStores: 
 appCountry: 
 released: 2021-03-08
 updated: 2026-03-10

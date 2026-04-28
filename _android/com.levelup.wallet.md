@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.levelup.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-16
 updated: 2021-11-16

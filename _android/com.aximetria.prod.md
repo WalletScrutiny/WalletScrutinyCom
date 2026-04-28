@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aximetria.prod
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-07-27

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: by.bitcash.wallet
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-17
-version: 1.0.5
+updated: 2026-04-17
+version: 1.1.0
 reviews: 
 website: https://wbitcash.com/
 repository: 

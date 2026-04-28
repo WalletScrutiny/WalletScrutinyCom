@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: gr.cryptocurrencies.bitcoinpos
+alternativeStores: 
 appCountry: 
 released: 2016-11-01
 updated: 2018-11-02

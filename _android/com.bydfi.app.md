@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bydfi.app
+alternativeStores: 
 appCountry: 
 released: 2023-01-20
 updated: 2026-03-27

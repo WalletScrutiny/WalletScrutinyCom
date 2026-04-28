@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: mn.godeal.gopay
+alternativeStores: 
 appCountry: 
 released: 2018-02-10
 updated: 2019-01-20

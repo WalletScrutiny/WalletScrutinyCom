@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000
 appId: it.inbitcoin.altana
+alternativeStores: 
 appCountry: 
 released: 2017-04-18
 updated: 2024-09-15

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.fasset.cashapp
+alternativeStores: 
 appCountry: 
 released: 2021-12-14
-updated: 2026-03-29
-version: '6.4'
+updated: 2026-04-27
+version: '6.6'
 reviews: 13
 website: https://www.fasset.io/
 repository: 

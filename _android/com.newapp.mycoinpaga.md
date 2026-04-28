@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.newapp.mycoinpaga
+alternativeStores: 
 appCountry: 
 released: 2020-11-29
 updated: 2020-12-07

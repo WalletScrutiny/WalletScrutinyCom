@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.felixo.mobile
+alternativeStores: 
 appCountry: 
 released: 2019-10-17
 updated: 2022-08-22

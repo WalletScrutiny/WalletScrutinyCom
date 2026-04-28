@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.chat.bullionblock
+alternativeStores: 
 appCountry: 
 released: 2020-06-06
 updated: 2020-10-14

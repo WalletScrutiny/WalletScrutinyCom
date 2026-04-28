@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50
 appId: com.KeepserGroup.Keepser
+alternativeStores: 
 appCountry: 
 released: 2021-07-22
 updated: 2024-12-17

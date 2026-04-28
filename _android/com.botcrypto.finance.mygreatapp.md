@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.botcrypto.finance.mygreatapp
+alternativeStores: 
 appCountry: 
 released: 2022-03-22
 updated: 2022-03-23

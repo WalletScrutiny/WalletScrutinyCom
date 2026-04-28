@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitfxservice.bitfxservice
+alternativeStores: 
 appCountry: 
 released: 2019-10-08
 updated: 2019-10-08

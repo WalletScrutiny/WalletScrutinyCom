@@ -7,11 +7,12 @@ authors:
 - danny
 users: 50000000
 appId: com.wallet.crypto.trustapp
+alternativeStores: 
 appCountry: 
 released: 2017-10-01
-updated: 2026-04-16
-version: 8.94.0
-reviews: 21059
+updated: 2026-04-25
+version: 26.17.1
+reviews: 21074
 website: https://trustwallet.com/
 repository: 
 icon: com.wallet.crypto.trustapp.png

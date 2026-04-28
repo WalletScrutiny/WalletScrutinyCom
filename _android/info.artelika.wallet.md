@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: info.artelika.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-07
 updated: 2023-07-10

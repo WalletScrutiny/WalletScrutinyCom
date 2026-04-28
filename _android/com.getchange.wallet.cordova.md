@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.getchange.wallet.cordova
+alternativeStores: 
 appCountry: nl
 released: 2018-06-07
 updated: 2026-03-26

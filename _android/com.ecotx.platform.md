@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ecotx.platform
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-10-04

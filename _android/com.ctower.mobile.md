@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ctower.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-07-17
 updated: 2020-08-20

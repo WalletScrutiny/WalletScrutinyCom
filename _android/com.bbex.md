@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bbex
+alternativeStores: 
 appCountry: 
 released: 2019-07-12
 updated: 2019-11-06

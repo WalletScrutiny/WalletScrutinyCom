@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.arzif.android
+alternativeStores: 
 appCountry: 
 released: 2020-10-09
 updated: 2023-09-09

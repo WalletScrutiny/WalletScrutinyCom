@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 5000000
 appId: pro.bingbon.app
+alternativeStores: 
 appCountry: us
 released: 2019-05-18
 updated: 2026-03-03
@@ -15,10 +16,10 @@ website: https://bingx.com
 repository: 
 icon: pro.bingbon.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-04-21
+date: 2026-04-28
 signer: 
 twitter: BingbonOfficial
 social:

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fdao.dawallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-29

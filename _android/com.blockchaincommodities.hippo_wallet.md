@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.blockchaincommodities.hippo_wallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-05
 updated: 2026-02-23

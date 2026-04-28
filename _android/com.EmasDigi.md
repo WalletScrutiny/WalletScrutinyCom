@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.EmasDigi
+alternativeStores: 
 appCountry: 
 released: 2018-01-21
-updated: 2026-04-12
-version: 7.1.9
-reviews: 122
+updated: 2026-04-27
+version: 7.2.0
+reviews: 123
 website: https://pluang.com
 repository: 
 icon: com.EmasDigi.png

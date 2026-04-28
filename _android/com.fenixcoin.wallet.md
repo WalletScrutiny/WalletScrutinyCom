@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fenixcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-04-09
 updated: 2018-04-09

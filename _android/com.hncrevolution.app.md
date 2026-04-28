@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hncrevolution.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-07
 updated: 2021-08-20

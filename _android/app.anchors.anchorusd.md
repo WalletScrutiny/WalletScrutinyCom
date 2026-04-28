@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: app.anchors.anchorusd
+alternativeStores: 
 appCountry: us
 released: 2020-06-18
 updated: 2026-04-05

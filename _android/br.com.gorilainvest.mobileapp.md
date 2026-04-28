@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: br.com.gorilainvest.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2019-05-13
-updated: 2026-04-09
-version: 8.6.1
+updated: 2026-04-23
+version: 8.7.0
 reviews: 25
 website: https://gorila.com.br
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.lunespay
+alternativeStores: 
 appCountry: 
 released: 2021-07-14
 updated: 2021-08-10

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.kcex
+alternativeStores: 
 appCountry: 
 released: 2023-12-21
 updated: 2026-03-16
@@ -15,10 +16,10 @@ website: https://www.kcex.com/
 repository: 
 icon: com.kcex.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-11-19
+date: 2026-04-28
 signer: 
 twitter: KCEX_official
 social:

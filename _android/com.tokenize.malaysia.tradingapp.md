@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10000
 appId: com.tokenize.malaysia.tradingapp
+alternativeStores: 
 appCountry: 
 released: 2020-11-26
 updated: 2021-06-23

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.org.meeyinvest
+alternativeStores: 
 appCountry: 
 released: 2020-03-23
 updated: 2020-07-13

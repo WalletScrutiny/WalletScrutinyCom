@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.uecent.viv
+alternativeStores: 
 appCountry: 
 released: 2022-09-22
 updated: 2022-11-23

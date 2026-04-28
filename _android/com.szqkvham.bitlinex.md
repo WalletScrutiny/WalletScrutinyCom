@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.szqkvham.bitlinex
+alternativeStores: 
 appCountry: 
 released: 2021-11-05
 updated: 2021-11-05

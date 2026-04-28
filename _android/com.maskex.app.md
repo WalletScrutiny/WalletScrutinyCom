@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.maskex.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-20
 updated: 2025-02-15

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.safepay.live
+alternativeStores: 
 appCountry: 
 released: 2021-11-12
 updated: 2022-03-30

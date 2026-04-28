@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: us.atayen.ihave
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2023-04-24

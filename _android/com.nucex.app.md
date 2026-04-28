@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nucex.app
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2019-05-23

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.chainwallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-01-03
 updated: 2024-08-07

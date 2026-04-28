@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: app.coinmetro
+alternativeStores: 
 appCountry: us
 released: 2017-12-10
-updated: 2026-04-02
-version: 5.54.8
+updated: 2026-04-24
+version: 5.55.2
 reviews: 89
 website: https://coinmetro.com/
 repository: 

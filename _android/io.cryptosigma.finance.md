@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.cryptosigma.finance
+alternativeStores: 
 appCountry: 
 released: 2021-07-26
 updated: 2022-06-30

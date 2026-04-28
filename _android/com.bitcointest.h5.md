@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcointest.h5
+alternativeStores: 
 appCountry: 
 released: 2021-09-03
 updated: 2021-09-03

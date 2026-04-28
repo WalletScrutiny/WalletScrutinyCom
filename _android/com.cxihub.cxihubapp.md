@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cxihub.cxihubapp
+alternativeStores: 
 appCountry: 
 released: 2022-01-03
 updated: 2022-01-08

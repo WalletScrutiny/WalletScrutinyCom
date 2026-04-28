@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.rootone.wallet
+alternativeStores: 
 appCountry: us
 released: 2018-10-08
 updated: 2024-01-19

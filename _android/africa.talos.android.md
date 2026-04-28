@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: africa.talos.android
+alternativeStores: 
 appCountry: 
 released: 2021-07-04
 updated: 2022-05-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.defixwallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-22
 updated: 2022-12-12

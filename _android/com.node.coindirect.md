@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.node.coindirect
+alternativeStores: 
 appCountry: 
 released: 2018-10-10
 updated: 2021-07-07

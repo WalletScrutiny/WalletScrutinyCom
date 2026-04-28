@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcoinupbit.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2023-04-04

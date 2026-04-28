@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ukcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-16
 updated: 2020-07-16

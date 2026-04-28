@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.newbit.tech
+alternativeStores: 
 appCountry: 
 released: 2022-07-14
 updated: 2022-08-29

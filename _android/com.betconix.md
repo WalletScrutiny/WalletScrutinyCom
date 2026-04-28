@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.betconix
+alternativeStores: 
 appCountry: 
 released: 2021-07-01
 updated: 2021-12-14

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.aes.aesexchange
+alternativeStores: 
 appCountry: 
 released: 2019-11-26
 updated: 2019-11-27

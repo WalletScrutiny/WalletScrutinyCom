@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.worldofwallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-16
 updated: 2022-04-16

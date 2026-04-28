@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: xyz.mara.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2023-10-19

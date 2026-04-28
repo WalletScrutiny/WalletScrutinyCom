@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.trust_fresh
+alternativeStores: 
 appCountry: 
 released: 2025-07-02
 updated: 2026-02-12

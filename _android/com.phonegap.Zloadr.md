@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.phonegap.Zloadr
+alternativeStores: 
 appCountry: 
 released: 2019-06-17
 updated: 2019-07-15

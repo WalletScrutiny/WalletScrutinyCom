@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.pillow.fund
+alternativeStores: 
 appCountry: 
 released: 2022-02-03
 updated: 2023-07-31

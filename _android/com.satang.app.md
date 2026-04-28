@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.satang.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-07
 updated: 2021-02-18

@@ -8,9 +8,9 @@ appId: com.bifrostwallet.app
 appCountry: us
 idd: '1577198351'
 released: 2021-09-21
-updated: 2026-03-16
-version: 0.7.43
-reviews: 206
+updated: 2026-04-22
+version: 0.7.45
+reviews: 209
 website: https://bifrostwallet.com
 repository: 
 icon: com.bifrostwallet.app.jpg

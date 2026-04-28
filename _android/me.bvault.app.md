@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: me.bvault.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-16
 updated: 2023-12-18

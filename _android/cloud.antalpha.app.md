@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cloud.antalpha.app
+alternativeStores: 
 appCountry: 
 released: 2023-02-21
 updated: 2026-02-04

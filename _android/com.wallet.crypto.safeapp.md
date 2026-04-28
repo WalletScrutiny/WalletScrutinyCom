@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wallet.crypto.safeapp
+alternativeStores: 
 appCountry: 
 released: 2020-05-23
 updated: 2020-05-24

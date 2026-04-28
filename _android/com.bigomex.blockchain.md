@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bigomex.blockchain
+alternativeStores: 
 appCountry: 
 released: 2020-09-14
 updated: 2021-06-22

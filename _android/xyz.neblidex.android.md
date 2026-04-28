@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: xyz.neblidex.android
+alternativeStores: 
 appCountry: 
 released: 2019-09-29
 updated: 2020-05-14

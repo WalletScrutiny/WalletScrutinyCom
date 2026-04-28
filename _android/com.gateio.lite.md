@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.gateio.lite
+alternativeStores: 
 appCountry: 
 released: 2022-07-01
 updated: 2023-08-30

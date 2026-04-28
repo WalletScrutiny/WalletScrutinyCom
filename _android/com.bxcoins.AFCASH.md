@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bxcoins.AFCASH
+alternativeStores: 
 appCountry: 
 released: 2021-02-19
 updated: 2021-02-20

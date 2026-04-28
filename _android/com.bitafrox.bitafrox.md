@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.bitafrox.bitafrox
+alternativeStores: 
 appCountry: 
 released: 2019-07-25
 updated: 2019-07-25

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.Contracoin
+alternativeStores: 
 appCountry: 
 released: 2020-11-19
 updated: 2020-11-19

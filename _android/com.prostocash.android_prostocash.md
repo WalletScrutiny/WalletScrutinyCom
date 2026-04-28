@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.prostocash.android_prostocash
+alternativeStores: 
 appCountry: 
 released: 2021-06-27
 updated: 2024-08-05

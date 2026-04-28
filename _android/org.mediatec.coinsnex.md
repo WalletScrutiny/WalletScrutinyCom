@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.mediatec.coinsnex
+alternativeStores: 
 appCountry: 
 released: 2018-07-19
 updated: 2018-07-19

@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.pro.bitcointoyou
+alternativeStores: 
 appCountry: 
 released: 2019-10-31
 updated: 2023-09-26

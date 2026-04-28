@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bgw.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-07-14
 updated: 2025-01-09

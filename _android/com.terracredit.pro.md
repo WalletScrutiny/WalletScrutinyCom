@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.terracredit.pro
+alternativeStores: 
 appCountry: 
 released: 2020-12-30
 updated: 2021-03-02

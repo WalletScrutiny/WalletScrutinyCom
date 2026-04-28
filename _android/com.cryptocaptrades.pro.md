@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptocaptrades.pro
+alternativeStores: 
 appCountry: 
 released: 2021-07-23
 updated: 2021-08-16

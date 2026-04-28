@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: io.hccapital.hcinv
+alternativeStores: 
 appCountry: 
 released: 2021-05-28
 updated: 2021-06-03

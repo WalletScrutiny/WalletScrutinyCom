@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.salvadorjesus.PagameConBitcoin
+alternativeStores: 
 appCountry: 
 released: 2018-01-24
 updated: 2020-03-06

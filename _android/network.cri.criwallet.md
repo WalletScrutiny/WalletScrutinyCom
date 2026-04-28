@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: network.cri.criwallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-14
 updated: 2022-07-31

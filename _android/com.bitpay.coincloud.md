@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.bitpay.coincloud
+alternativeStores: 
 appCountry: 
 released: 2018-09-06
 updated: 2022-02-16

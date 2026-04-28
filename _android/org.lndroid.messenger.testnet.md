@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.lndroid.messenger.testnet
+alternativeStores: 
 appCountry: 
 released: 2020-03-23
 updated: 2020-03-23

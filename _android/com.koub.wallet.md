@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.koub.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-01-09
 updated: 2025-01-09
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

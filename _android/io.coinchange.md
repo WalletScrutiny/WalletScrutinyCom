@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.coinchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-31
 updated: 2023-11-29

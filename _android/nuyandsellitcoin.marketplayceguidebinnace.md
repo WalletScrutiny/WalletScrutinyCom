@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: nuyandsellitcoin.marketplayceguidebinnace
+alternativeStores: 
 appCountry: 
 released: 2021-11-10
 updated: 2022-09-09

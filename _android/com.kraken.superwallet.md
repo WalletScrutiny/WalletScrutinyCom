@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.kraken.superwallet
+alternativeStores: 
 appCountry: 
 released: 2024-04-11
 updated: 2026-04-10

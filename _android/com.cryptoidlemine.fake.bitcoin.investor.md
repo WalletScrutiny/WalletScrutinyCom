@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptoidlemine.fake.bitcoin.investor
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20

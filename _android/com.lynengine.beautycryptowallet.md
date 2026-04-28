@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.lynengine.beautycryptowallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-23
 updated: 2018-08-29

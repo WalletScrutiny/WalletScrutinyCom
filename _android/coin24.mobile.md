@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: coin24.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-09-28
 updated: 2020-09-28

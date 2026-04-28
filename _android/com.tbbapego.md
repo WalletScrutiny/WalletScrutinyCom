@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tbbapego
+alternativeStores: 
 appCountry: 
 released: 2020-10-07
 updated: 2020-10-07

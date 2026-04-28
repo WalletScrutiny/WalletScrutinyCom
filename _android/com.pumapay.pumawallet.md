@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.pumapay.pumawallet
+alternativeStores: 
 appCountry: 
 released: 2018-05-07
 updated: 2021-10-25

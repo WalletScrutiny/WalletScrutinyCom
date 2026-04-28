@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.banqy
+alternativeStores: 
 appCountry: 
 released: 2020-03-20
 updated: 2020-03-20

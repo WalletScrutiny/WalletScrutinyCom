@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zedpay.app.android
+alternativeStores: 
 appCountry: 
 released: 2022-10-25
 updated: 2026-02-10

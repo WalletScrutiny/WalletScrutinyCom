@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tradehub360
+alternativeStores: 
 appCountry: 
 released: 2022-10-10
 updated: 2023-06-13

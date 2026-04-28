@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: com.bittrex.trade
+alternativeStores: 
 appCountry: 
 released: 2019-12-19
 updated: 2023-08-29

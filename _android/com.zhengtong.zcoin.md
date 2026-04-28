@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.zhengtong.zcoin
+alternativeStores: 
 appCountry: 
 released: 2021-12-01
 updated: 2022-11-23

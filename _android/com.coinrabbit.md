@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.coinrabbit
+alternativeStores: 
 appCountry: 
 released: 2025-07-21
 updated: 2026-01-23

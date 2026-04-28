@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mfinance.android.mfcrypto
+alternativeStores: 
 appCountry: 
 released: 2021-10-07
 updated: 2021-10-08

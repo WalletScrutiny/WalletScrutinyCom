@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ni.RyptonWallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-13
 updated: 2020-04-13

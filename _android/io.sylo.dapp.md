@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: io.sylo.dapp
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2022-10-27

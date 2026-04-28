@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: multi.org.freewallet.app
+alternativeStores: 
 appCountry: 
 released: 2017-08-10
 updated: 2018-10-29

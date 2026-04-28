@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.nova.dax
+alternativeStores: 
 appCountry: 
 released: 2019-09-20
 updated: 2026-04-03

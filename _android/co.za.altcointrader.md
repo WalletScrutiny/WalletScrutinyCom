@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.za.altcointrader
+alternativeStores: 
 appCountry: 
 released: 2020-05-06
 updated: 2025-05-13

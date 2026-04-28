@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: kr.co.keypair.afintouch
+alternativeStores: 
 appCountry: 
 released: 2018-10-04
 updated: 2019-12-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.project.wmc
+alternativeStores: 
 appCountry: 
 released: 2019-09-30
 updated: 2020-03-25

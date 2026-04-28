@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.koinstrap.koinstrap
+alternativeStores: 
 appCountry: us
 released: 2020-08-28
 updated: 2026-03-26

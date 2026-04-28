@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.geswallet.start
+alternativeStores: 
 appCountry: 
 released: 2020-04-14
 updated: 2020-04-17

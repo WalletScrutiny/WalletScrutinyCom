@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.netcoins.app
+alternativeStores: 
 appCountry: 
 released: 2022-12-10
 updated: 2026-04-02

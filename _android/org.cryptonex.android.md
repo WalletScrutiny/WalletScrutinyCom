@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: org.cryptonex.android
+alternativeStores: 
 appCountry: 
 released: 2019-06-15
 updated: 2020-03-18

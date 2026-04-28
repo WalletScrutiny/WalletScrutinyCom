@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cobru.cobru
+alternativeStores: 
 appCountry: 
 released: 2021-06-26
 updated: 2023-12-19

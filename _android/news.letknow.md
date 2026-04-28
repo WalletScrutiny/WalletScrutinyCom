@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: news.letknow
+alternativeStores: 
 appCountry: 
 released: 2018-04-27
 updated: 2020-01-13

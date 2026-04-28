@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nebbix
+alternativeStores: 
 appCountry: 
 released: 2021-10-31
 updated: 2021-12-08

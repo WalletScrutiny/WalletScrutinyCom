@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.zeligz.picomedia
+alternativeStores: 
 appCountry: 
 released: 2019-09-03
 updated: 2020-01-27

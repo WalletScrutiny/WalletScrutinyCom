@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pccryptomarket
+alternativeStores: 
 appCountry: 
 released: 2019-08-18
 updated: 2019-08-31

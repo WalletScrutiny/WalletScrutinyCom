@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.fiveroi
+alternativeStores: 
 appCountry: 
 released: 2022-03-31
 updated: 2022-05-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.github.ontio.onto
+alternativeStores: 
 appCountry: us
 released: 2018-06-27
 updated: 2026-04-02

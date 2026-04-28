@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoli.bitcoli
+alternativeStores: 
 appCountry: 
 released: 2023-01-13
 updated: 2024-10-09

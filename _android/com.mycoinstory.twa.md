@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mycoinstory.twa
+alternativeStores: 
 appCountry: 
 released: 2021-02-22
 updated: 2021-02-23

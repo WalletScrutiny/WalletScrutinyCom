@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sanctuaryex.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-05-10
 updated: 2022-09-02

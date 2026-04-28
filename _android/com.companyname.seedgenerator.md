@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.companyname.seedgenerator
+alternativeStores: 
 appCountry: 
 released: 2022-12-11
 updated: 2022-12-12

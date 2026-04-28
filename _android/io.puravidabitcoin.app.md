@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.puravidabitcoin.app
+alternativeStores: 
 appCountry: 
 released: 2023-04-10
 updated: 2026-02-25

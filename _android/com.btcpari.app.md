@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.btcpari.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-23
 updated: 2022-04-19

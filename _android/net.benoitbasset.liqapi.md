@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.benoitbasset.liqapi
+alternativeStores: 
 appCountry: 
 released: 2018-10-24
 updated: 2019-01-25

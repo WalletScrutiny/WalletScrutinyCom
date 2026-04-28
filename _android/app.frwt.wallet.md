@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000
 appId: app.frwt.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-01-03
 updated: 2026-02-12
 version: 1.15.0
-reviews: 202
+reviews: 200
 website: https://www.frwt.app/
 repository: 
 icon: app.frwt.wallet.png

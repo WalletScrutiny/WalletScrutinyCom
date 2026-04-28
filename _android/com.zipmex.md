@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.zipmex
+alternativeStores: 
 appCountry: cn
 released: 2020-03-30
 updated: 2022-07-20

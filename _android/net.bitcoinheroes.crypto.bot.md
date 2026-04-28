@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.bitcoinheroes.crypto.bot
+alternativeStores: 
 appCountry: 
 released: 2021-06-15
 updated: 2021-06-15

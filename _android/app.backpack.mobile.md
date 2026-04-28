@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: app.backpack.mobile
+alternativeStores: 
 appCountry: 
 released: 2023-11-02
-updated: 2026-04-02
-version: 2.73.0
+updated: 2026-04-20
+version: 2.74.0
 reviews: 65
 website: https://backpack.app
 repository: 

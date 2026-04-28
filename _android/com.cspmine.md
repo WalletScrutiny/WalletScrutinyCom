@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.cspmine
+alternativeStores: 
 appCountry: 
 released: 2021-07-30
 updated: 2021-10-27

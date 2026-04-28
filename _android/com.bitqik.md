@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitqik
+alternativeStores: 
 appCountry: 
 released: 2022-09-23
 updated: 2026-03-04

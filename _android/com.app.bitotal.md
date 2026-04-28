@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.app.bitotal
+alternativeStores: 
 appCountry: 
 released: 2021-11-27
 updated: 2021-11-27

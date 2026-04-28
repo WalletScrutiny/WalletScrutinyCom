@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: net.inoutscripts.demo.inoutblockchainfiatexchanger
+alternativeStores: 
 appCountry: 
 released: 2021-10-01
 updated: 2024-03-05

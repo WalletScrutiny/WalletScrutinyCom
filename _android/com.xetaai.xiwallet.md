@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.xetaai.xiwallet
+alternativeStores: 
 appCountry: 
 released: 2025-09-18
 updated: 2025-11-25

@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: wallet.gem.com.atoken
+alternativeStores: 
 appCountry: 
 released: 2020-03-01
 updated: 2021-12-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.bitpay.checkout
+alternativeStores: 
 appCountry: 
 released: 2014-11-03
 updated: 2020-08-11

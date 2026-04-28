@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.kmoxxllp.cryptozone
+alternativeStores: 
 appCountry: 
 released: 2022-02-16
 updated: 2022-02-25

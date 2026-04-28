@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.swapcrypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-06
 updated: 2021-12-06

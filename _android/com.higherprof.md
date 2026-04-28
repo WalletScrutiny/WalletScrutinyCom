@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.higherprof
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-11-12

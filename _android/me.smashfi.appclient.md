@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: me.smashfi.appclient
+alternativeStores: 
 appCountry: 
 released: 2025-04-02
 updated: 2025-11-12

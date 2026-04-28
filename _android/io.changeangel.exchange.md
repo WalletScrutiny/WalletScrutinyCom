@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.changeangel.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2024-08-30

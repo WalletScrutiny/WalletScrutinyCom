@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.delio.deliohybrid
+alternativeStores: 
 appCountry: cn
 released: 2020-02-27
 updated: 2023-03-16

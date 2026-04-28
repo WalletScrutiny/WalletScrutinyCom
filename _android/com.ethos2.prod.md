@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ethos2.prod
+alternativeStores: 
 appCountry: 
 released: 2023-06-26
 updated: 2026-01-30

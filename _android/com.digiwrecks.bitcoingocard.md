@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.digiwrecks.bitcoingocard
+alternativeStores: 
 appCountry: 
 released: 2022-02-01
 updated: 2025-07-29

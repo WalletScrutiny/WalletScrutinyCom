@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: wallet.peach.com
+alternativeStores: 
 appCountry: 
 released: 2022-04-09
 updated: 2022-06-06

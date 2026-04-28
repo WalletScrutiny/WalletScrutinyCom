@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.bitcoinindia.Btciapp
+alternativeStores: 
 appCountry: 
 released: 2018-06-11
 updated: 2021-07-29

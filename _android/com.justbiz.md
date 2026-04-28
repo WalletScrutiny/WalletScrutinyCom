@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.justbiz
+alternativeStores: 
 appCountry: 
 released: 2020-02-22
 updated: 2020-02-22

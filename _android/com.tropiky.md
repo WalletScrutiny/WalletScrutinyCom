@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.tropiky
+alternativeStores: 
 appCountry: 
 released: 2021-09-26
 updated: 2022-03-05

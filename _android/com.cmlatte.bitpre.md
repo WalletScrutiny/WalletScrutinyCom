@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cmlatte.bitpre
+alternativeStores: 
 appCountry: 
 released: 2017-06-12
 updated: 2018-08-10

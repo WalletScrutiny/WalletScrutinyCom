@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wallet.online
+alternativeStores: 
 appCountry: 
 released: 2019-11-08
 updated: 2021-04-22

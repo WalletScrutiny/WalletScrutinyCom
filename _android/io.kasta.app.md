@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.kasta.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-07-03

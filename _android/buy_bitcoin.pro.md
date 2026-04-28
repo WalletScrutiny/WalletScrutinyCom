@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: buy_bitcoin.pro
+alternativeStores: 
 appCountry: 
 released: 2018-12-09
 updated: 2020-05-19

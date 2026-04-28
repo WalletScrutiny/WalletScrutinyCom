@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.capitalika.exhange
+alternativeStores: 
 appCountry: 
 released: 2019-03-18
 updated: 2025-01-28

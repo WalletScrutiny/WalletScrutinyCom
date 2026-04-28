@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.raido_wallet
+alternativeStores: 
 appCountry: us
 released: 2020-07-27
 updated: 2023-09-21

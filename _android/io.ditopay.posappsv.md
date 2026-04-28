@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.ditopay.posappsv
+alternativeStores: 
 appCountry: 
 released: 2021-10-03
 updated: 2024-03-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.flashwallet.production
+alternativeStores: 
 appCountry: 
 released: 2023-10-23
 updated: 2026-01-29

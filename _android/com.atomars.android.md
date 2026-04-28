@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.atomars.android
+alternativeStores: 
 appCountry: 
 released: 2019-07-01
 updated: 2019-07-01

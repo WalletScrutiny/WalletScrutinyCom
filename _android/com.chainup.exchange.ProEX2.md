@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.chainup.exchange.ProEX2
+alternativeStores: 
 appCountry: 
 released: 2022-04-06
 updated: 2023-11-28

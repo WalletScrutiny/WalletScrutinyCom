@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.exchange1.ex1
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-14
@@ -12,7 +13,7 @@ version: 1.1.3
 reviews: 
 website: https://www.exchange1.com
 repository: 
-icon: com.exchange1.ex1.png
+icon: com.exchange1.ex1.jpg
 bugbounty: 
 meta: ok
 verdict: wip

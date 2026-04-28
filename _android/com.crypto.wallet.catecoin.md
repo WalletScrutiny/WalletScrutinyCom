@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.crypto.wallet.catecoin
+alternativeStores: 
 appCountry: 
 released: 2022-04-16
 updated: 2023-07-01

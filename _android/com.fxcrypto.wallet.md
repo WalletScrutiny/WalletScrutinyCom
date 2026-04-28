@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.fxcrypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-08-11
 updated: 2019-11-04

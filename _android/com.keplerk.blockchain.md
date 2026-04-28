@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.keplerk.blockchain
+alternativeStores: 
 appCountry: 
 released: 2020-02-14
 updated: 2022-06-21

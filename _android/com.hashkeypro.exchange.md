@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.hashkeypro.exchange
+alternativeStores: 
 appCountry: 
 released: 2023-11-01
-updated: 2026-04-02
-version: 1.75.0
+updated: 2026-04-21
+version: 1.76.0
 reviews: 30
 website: https://www.hashkey.com/
 repository: 

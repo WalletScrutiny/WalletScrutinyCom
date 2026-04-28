@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: it.eternitywall.eternitywall
+alternativeStores: 
 appCountry: 
 released: 2015-09-02
 updated: 2016-10-14

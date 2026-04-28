@@ -5,6 +5,7 @@ altTitle: '(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade'
 authors: 
 users: 10
 appId: etherio.wallet.com
+alternativeStores: 
 appCountry: 
 released: 2021-04-28
 updated: 2021-04-28

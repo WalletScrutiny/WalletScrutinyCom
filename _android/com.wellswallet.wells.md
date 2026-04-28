@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wellswallet.wells
+alternativeStores: 
 appCountry: 
 released: 2021-07-10
 updated: 2021-07-10

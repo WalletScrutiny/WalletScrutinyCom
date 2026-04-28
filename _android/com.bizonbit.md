@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bizonbit
+alternativeStores: 
 appCountry: 
 released: 2020-02-09
 updated: 2020-03-28

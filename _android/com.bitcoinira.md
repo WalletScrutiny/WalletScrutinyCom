@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.bitcoinira
+alternativeStores: 
 appCountry: us
 released: 2021-06-15
-updated: 2026-04-14
-version: 2.0.7
-reviews: 550
+updated: 2026-04-21
+version: 2.0.8
+reviews: 549
 website: https://bitcoinira.com/
 repository: 
 icon: com.bitcoinira.png

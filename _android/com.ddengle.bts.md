@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ddengle.bts
+alternativeStores: 
 appCountry: 
 released: 2014-09-23
 updated: 2017-12-08

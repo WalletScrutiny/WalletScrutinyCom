@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.chronobank.chronomint.webview
+alternativeStores: 
 appCountry: 
 released: 2017-08-09
 updated: 2017-10-11

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.lyo.merchant
+alternativeStores: 
 appCountry: 
 released: 2022-09-23
 updated: 2023-07-31

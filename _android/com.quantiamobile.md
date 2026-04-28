@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 500
 appId: com.quantiamobile
+alternativeStores: 
 appCountry: 
 released: 2022-07-19
-updated: 2026-04-14
-version: 3.0.20
+updated: 2026-04-24
+version: 3.0.21
 reviews: 
 website: https://quantia.io
 repository: 

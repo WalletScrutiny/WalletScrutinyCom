@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: com.bitbarg.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-12
-updated: 2026-01-06
-version: 3.5.2
+updated: 2026-04-26
+version: 3.5.3
 reviews: 44
 website: https://bitbarg.com
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.galax.vap
+alternativeStores: 
 appCountry: 
 released: 2021-10-03
 updated: 2021-10-03

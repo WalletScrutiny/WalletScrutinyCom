@@ -5,11 +5,12 @@ altTitle:
 authors: 
 users: 500000
 appId: com.litefinance.cabinet
+alternativeStores: 
 appCountry: 
 released: 2022-02-09
 updated: 2026-03-16
 version: v2.1.2030-cabinet-release
-reviews: 82
+reviews: 83
 website: https://www.liteforex.eu
 repository: 
 icon: com.litefinance.cabinet.png

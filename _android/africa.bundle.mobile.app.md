@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: africa.bundle.mobile.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-20
 updated: 2023-07-27

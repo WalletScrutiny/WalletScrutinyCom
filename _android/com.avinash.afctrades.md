@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.avinash.afctrades
+alternativeStores: 
 appCountry: 
 released: 2020-08-20
 updated: 2020-08-20

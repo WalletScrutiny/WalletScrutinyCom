@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.icmarkets.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-01-19
 updated: 2022-06-22

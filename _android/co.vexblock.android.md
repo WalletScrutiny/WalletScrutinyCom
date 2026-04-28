@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: co.vexblock.android
+alternativeStores: 
 appCountry: 
 released: 2019-09-17
 updated: 2019-10-15

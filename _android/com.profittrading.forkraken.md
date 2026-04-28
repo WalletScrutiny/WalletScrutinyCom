@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forkraken
+alternativeStores: 
 appCountry: 
 released: 2018-07-15
 updated: 2021-08-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: sone.finance.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-09
 updated: 2022-10-18

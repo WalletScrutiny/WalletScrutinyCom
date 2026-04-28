@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.koinkoin
+alternativeStores: 
 appCountry: 
 released: 2021-02-22
 updated: 2025-01-31
@@ -15,10 +16,10 @@ website: https://koinkoin.io/
 repository: 
 icon: com.koinkoin.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2026-01-28
+date: 2026-04-28
 signer: 
 twitter: koinkoin13
 social:

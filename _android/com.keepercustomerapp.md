@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.keepercustomerapp
+alternativeStores: 
 appCountry: 
 released: 2019-02-25
 updated: 2023-02-17

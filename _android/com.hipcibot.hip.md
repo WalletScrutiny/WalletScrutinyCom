@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.hipcibot.hip
+alternativeStores: 
 appCountry: 
 released: 2021-03-01
 updated: 2021-03-01

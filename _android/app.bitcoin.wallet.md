@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.bitcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-10
 updated: 2021-11-02

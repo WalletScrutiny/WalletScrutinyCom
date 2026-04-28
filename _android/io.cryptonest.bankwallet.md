@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.cryptonest.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-10
 updated: 2021-11-10

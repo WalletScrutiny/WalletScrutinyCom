@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.zcglq.vghkrt
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
 updated: 2022-04-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: plus.Bit.Mart
+alternativeStores: 
 appCountry: 
 released: 2022-07-23
 updated: 2023-06-13

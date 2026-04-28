@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.renasnce.byt
+alternativeStores: 
 appCountry: 
 released: 2022-06-30
 updated: 2023-02-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.oasisexc.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-19
 updated: 2021-04-30

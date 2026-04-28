@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: crypto.wallet.chainapp
+alternativeStores: 
 appCountry: 
 released: 2021-03-24
 updated: 2023-03-23

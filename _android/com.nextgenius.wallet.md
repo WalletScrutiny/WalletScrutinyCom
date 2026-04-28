@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nextgenius.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-08-05
 updated: 2020-06-20

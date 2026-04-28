@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.fme.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-26
 updated: 2020-06-22

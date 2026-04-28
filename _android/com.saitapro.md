@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.saitapro
+alternativeStores: 
 appCountry: 
 released: 2022-07-29
 updated: 2024-09-27

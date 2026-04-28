@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: mybuho.buhogo
+alternativeStores: 
 appCountry: 
 released: 2025-09-26
 updated: 2026-03-09

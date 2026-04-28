@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.skgcryptocurrencyapp
+alternativeStores: 
 appCountry: 
 released: 2022-07-20
 updated: 2022-07-20

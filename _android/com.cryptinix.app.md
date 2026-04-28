@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptinix.app
+alternativeStores: 
 appCountry: us
 released: 2020-11-24
 updated: 2025-10-14

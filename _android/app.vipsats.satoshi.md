@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.vipsats.satoshi
+alternativeStores: 
 appCountry: 
 released: 2022-11-06
 updated: 2023-08-20

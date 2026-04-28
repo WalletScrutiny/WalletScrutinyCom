@@ -6,10 +6,11 @@ authors:
 - leo
 users: 10000000
 appId: id.co.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2014-12-15
-updated: 2026-04-08
-version: 5.8.4
+updated: 2026-04-23
+version: 5.8.5
 reviews: 492
 website: http://indodax.com
 repository: 

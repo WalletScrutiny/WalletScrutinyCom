@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.timexapp
+alternativeStores: 
 appCountry: 
 released: 2023-01-27
 updated: 2023-09-25

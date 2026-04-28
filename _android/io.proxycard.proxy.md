@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.proxycard.proxy
+alternativeStores: 
 appCountry: 
 released: 2018-01-31
 updated: 2018-05-03

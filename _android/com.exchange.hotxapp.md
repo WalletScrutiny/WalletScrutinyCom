@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.exchange.hotxapp
+alternativeStores: 
 appCountry: 
 released: 2022-02-27
 updated: 2023-07-14

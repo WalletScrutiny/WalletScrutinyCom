@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000
 appId: com.lcx.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-26
 updated: 2026-04-15
 version: 2.4.5
-reviews: 40
+reviews: 39
 website: https://lcx.com
 repository: 
 icon: com.lcx.app.png

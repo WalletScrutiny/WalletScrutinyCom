@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000
 appId: com.fintoda.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-26
-updated: 2025-12-23
-version: 1.7.4
+updated: 2026-04-23
+version: 1.7.5
 reviews: 
 website: https://fintoda.com
 repository: 

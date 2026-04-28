@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.actoz.actpass
+alternativeStores: 
 appCountry: 
 released: 2022-11-29
 updated: 2025-10-15

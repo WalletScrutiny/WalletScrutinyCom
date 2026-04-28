@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.agea.trade
+alternativeStores: 
 appCountry: 
 released: 2020-01-21
 updated: 2020-08-26

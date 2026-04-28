@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.bunq.android
+alternativeStores: 
 appCountry: 
 released: 2015-11-25
-updated: 2026-03-25
-version: 30.10.1
-reviews: 231
+updated: 2026-04-24
+version: 31.0.3
+reviews: 230
 website: http://www.bunq.com
 repository: 
 icon: com.bunq.android.png

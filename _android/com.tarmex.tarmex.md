@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tarmex.tarmex
+alternativeStores: 
 appCountry: 
 released: 2022-12-22
 updated: 2023-11-09

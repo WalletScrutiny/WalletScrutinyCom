@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: net.benoitbasset.bittapi
+alternativeStores: 
 appCountry: 
 released: 2017-12-09
 updated: 2018-11-13

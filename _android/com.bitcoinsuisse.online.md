@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitcoinsuisse.online
+alternativeStores: 
 appCountry: pl
 released: 2021-09-21
 updated: 2026-02-02

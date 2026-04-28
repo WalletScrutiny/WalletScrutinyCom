@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.crescentshine.monswallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-22
 updated: 2023-08-29

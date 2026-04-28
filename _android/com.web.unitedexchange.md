@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.web.unitedexchange
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2023-05-04

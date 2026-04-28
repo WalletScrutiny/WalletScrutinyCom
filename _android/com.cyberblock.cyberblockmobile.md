@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cyberblock.cyberblockmobile
+alternativeStores: 
 appCountry: 
 released: 2018-10-22
 updated: 2018-10-22

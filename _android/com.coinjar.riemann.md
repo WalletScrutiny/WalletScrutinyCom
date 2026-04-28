@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.coinjar.riemann
+alternativeStores: 
 appCountry: au
 released: 2019-11-21
-updated: 2026-04-10
-version: 3.52.1
-reviews: 1166
+updated: 2026-04-17
+version: 3.53.0
+reviews: 1167
 website: https://www.coinjar.com
 repository: 
 icon: com.coinjar.riemann.png

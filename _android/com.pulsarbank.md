@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pulsarbank
+alternativeStores: 
 appCountry: 
 released: 2021-04-28
 updated: 2021-04-28

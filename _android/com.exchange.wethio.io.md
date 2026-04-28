@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.exchange.wethio.io
+alternativeStores: 
 appCountry: 
 released: 2021-10-21
 updated: 2022-11-24

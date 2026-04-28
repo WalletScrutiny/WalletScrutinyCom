@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: cryptowallets.n101
+alternativeStores: 
 appCountry: 
 released: 2021-12-24
 updated: 2021-12-24

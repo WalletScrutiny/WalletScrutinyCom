@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btcmarket.btcm
+alternativeStores: 
 appCountry: 
 released: 2022-03-17
 updated: 2025-11-07

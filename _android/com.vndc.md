@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.vndc
+alternativeStores: 
 appCountry: us
 released: 2020-03-07
 updated: 2026-03-08

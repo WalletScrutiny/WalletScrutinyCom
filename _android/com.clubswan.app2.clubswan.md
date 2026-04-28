@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.clubswan.app2.clubswan
+alternativeStores: 
 appCountry: 
 released: 2021-10-12
 updated: 2021-11-10

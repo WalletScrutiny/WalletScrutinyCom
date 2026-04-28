@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.titanx_change.www
+alternativeStores: 
 appCountry: 
 released: 2022-10-19
 updated: 2023-07-24

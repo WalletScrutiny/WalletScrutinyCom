@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: io.rapidz.rapidzpay
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
-updated: 2026-04-09
-version: 4.6.9
+updated: 2026-04-24
+version: 4.7.3
 reviews: 6
 website: https://www.rapidz.io/
 repository: 

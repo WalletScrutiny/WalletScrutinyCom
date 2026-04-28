@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: cn.com.zlct.nf
+alternativeStores: 
 appCountry: 
 released: 2021-06-10
 updated: 2021-08-30

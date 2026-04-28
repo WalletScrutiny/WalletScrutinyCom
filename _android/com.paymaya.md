@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: com.paymaya
+alternativeStores: 
 appCountry: 
 released: 2016-06-05
-updated: 2026-04-11
-version: 2.158.0
-reviews: 1208
+updated: 2026-04-24
+version: 2.159.0
+reviews: 1210
 website: https://www.maya.ph/
 repository: 
 icon: com.paymaya.png

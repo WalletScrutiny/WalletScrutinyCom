@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitcoinpoint.uk
+alternativeStores: 
 appCountry: 
 released: 2022-04-28
 updated: 2023-10-08

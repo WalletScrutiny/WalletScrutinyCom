@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.base8
+alternativeStores: 
 appCountry: 
 released: 2023-12-29
 updated: 2026-03-22

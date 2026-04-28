@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: bitsblockchain.net
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-05-08

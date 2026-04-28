@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: ammer.pay
+alternativeStores: 
 appCountry: 
 released: 2022-08-22
 updated: 2025-12-03

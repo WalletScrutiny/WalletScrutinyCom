@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.mobee.io
+alternativeStores: 
 appCountry: 
 released: 2022-11-14
 updated: 2026-04-17

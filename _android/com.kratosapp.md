@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kratosapp
+alternativeStores: 
 appCountry: 
 released: 2021-02-01
 updated: 2021-02-01

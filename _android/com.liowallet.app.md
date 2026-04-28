@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.liowallet.app
+alternativeStores: 
 appCountry: 
 released: 2019-02-27
 updated: 2021-06-24

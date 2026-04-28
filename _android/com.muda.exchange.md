@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.muda.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-05-04
 updated: 2023-12-06

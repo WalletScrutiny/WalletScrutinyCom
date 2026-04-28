@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forbinanceus
+alternativeStores: 
 appCountry: 
 released: 2019-10-25
 updated: 2021-04-27

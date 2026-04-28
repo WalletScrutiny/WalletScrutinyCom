@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.megao
+alternativeStores: 
 appCountry: 
 released: 2021-12-07
 updated: 2022-04-07

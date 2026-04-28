@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.alphayt.bztex
+alternativeStores: 
 appCountry: 
 released: 2022-02-18
 updated: 2022-04-28

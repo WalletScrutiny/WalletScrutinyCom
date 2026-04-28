@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hrdgcoin.hrdgwallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-09
 updated: 2025-01-16

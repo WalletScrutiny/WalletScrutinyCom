@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.trading365.online
+alternativeStores: 
 appCountry: 
 released: 2019-08-29
 updated: 2019-08-29

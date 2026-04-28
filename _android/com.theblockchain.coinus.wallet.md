@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.theblockchain.coinus.wallet
+alternativeStores: 
 appCountry: bj
 released: 2018-04-23
 updated: 2021-12-10

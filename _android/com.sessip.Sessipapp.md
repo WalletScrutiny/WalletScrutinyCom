@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.sessip.Sessipapp
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2022-12-10

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: rs.ecd.ecd
+alternativeStores: 
 appCountry: 
 released: 2024-10-22
-updated: 2026-04-15
-version: 1.4.88
+updated: 2026-04-24
+version: 1.4.90
 reviews: 
 website: https://ecd.rs/
 repository: 

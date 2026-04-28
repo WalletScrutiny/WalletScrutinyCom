@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.folgory
+alternativeStores: 
 appCountry: 
 released: 2019-08-14
 updated: 2019-08-14

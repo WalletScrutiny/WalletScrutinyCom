@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.cryptomkt.app
+alternativeStores: 
 appCountry: 
 released: 2017-08-03
 updated: 2020-07-20

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.richamster.app
+alternativeStores: 
 appCountry: 
 released: 2018-11-24
 updated: 2023-07-12

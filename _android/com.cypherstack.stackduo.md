@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.cypherstack.stackduo
+alternativeStores: 
 appCountry: 
 released: 2024-06-29
 updated: 2025-11-26

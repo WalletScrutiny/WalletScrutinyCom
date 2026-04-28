@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: org.ecoinwallet
+alternativeStores: 
 appCountry: 
 released: 2024-01-21
 updated: 2026-01-14

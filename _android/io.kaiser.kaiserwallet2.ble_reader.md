@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.kaiser.kaiserwallet2.ble_reader
+alternativeStores: 
 appCountry: 
 released: 2018-12-04
 updated: 2020-02-28

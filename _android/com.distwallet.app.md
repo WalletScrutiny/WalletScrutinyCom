@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.distwallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-02-01
 updated: 2023-02-01

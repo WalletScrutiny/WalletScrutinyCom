@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.cloud.thailand
+alternativeStores: 
 appCountry: 
 released: 2023-10-31
 updated: 2026-04-14
-version: 1.53.0
+version: 1.54.0
 reviews: 4
 website: 
 repository: 

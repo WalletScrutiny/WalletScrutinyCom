@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptotrade_flutter.app
+alternativeStores: 
 appCountry: 
 released: 2019-07-01
 updated: 2019-07-02

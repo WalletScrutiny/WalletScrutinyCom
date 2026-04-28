@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: adyone.in.pay2pal
+alternativeStores: 
 appCountry: 
 released: 2023-03-04
 updated: 2023-09-07

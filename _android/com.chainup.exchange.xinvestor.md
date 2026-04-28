@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.chainup.exchange.xinvestor
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-07-12

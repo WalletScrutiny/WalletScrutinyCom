@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: intowin.co.kr.p2coin
+alternativeStores: 
 appCountry: 
 released: 2018-08-30
 updated: 2018-08-31

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: cv.companion
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2021-09-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.fxbitcoinsoft.crypto.coin.invest
+alternativeStores: 
 appCountry: 
 released: 2021-07-18
 updated: 2021-07-18

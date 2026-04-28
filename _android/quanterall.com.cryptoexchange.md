@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: quanterall.com.cryptoexchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-06-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.blackbox.tradingbot
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-09-11

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: appinventor.ai_Traid777.WALLETBTC
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-16

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bybis.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-07-12

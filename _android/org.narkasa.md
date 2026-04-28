@@ -6,9 +6,10 @@ authors:
 - danny
 users: 50000
 appId: org.narkasa
+alternativeStores: 
 appCountry: 
 released: 2020-10-30
-updated: 2026-02-13
+updated: 2026-04-27
 version: 5.8.16
 reviews: 
 website: https://narkasa.com

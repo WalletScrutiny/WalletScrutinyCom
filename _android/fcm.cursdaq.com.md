@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: fcm.cursdaq.com
+alternativeStores: 
 appCountry: 
 released: 2021-08-01
 updated: 2021-08-02

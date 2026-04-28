@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: jp.links.messenger
+alternativeStores: 
 appCountry: 
 released: 2021-03-21
 updated: 2022-05-19

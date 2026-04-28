@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blockcurators.coinkit
+alternativeStores: 
 appCountry: 
 released: 2021-12-19
 updated: 2022-01-19

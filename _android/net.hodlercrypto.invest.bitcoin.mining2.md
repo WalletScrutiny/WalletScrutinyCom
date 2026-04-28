@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.hodlercrypto.invest.bitcoin.mining2
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

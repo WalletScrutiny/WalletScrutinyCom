@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.msline.mw
+alternativeStores: 
 appCountry: 
 released: 2019-06-20
 updated: 2022-06-20

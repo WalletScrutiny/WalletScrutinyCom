@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.farachange.farachange
+alternativeStores: 
 appCountry: 
 released: 2021-12-24
 updated: 2022-11-23

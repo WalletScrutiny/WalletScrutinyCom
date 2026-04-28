@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.androidwallet
+alternativeStores: 
 appCountry: 
 released: 2019-07-04
 updated: 2020-04-09

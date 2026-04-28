@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cryptoswisshub
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-11-07

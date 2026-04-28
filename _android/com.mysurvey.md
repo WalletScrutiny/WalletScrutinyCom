@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mysurvey
+alternativeStores: 
 appCountry: 
 released: 2019-10-22
 updated: 2019-11-12

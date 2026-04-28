@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: org.ethicnology.subterfuge
+alternativeStores: 
 appCountry: 
 released: 2022-09-11
 updated: 2022-09-11

@@ -6,10 +6,11 @@ authors:
 - leo
 users: 500000
 appId: net.bitstamp.app
+alternativeStores: 
 appCountry: 
 released: 2019-01-29
-updated: 2026-02-23
-version: '4.15'
+updated: 2026-04-21
+version: '4.16'
 reviews: 675
 website: https://www.bitstamp.net
 repository: 

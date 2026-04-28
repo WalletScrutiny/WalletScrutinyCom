@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.barong.chankura
+alternativeStores: 
 appCountry: 
 released: 2020-10-28
 updated: 2020-11-02

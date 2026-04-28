@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.milesblue.milesblue
+alternativeStores: 
 appCountry: 
 released: 2021-10-10
 updated: 2023-10-26

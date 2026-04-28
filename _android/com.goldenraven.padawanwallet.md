@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.goldenraven.padawanwallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-10-28

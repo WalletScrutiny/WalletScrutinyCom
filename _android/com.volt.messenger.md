@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.volt.messenger
+alternativeStores: 
 appCountry: 
 released: 2019-02-18
 updated: 2020-06-18

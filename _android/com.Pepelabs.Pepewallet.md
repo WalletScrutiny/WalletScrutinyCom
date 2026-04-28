@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.Pepelabs.Pepewallet
+alternativeStores: 
 appCountry: 
 released: 2023-05-17
 updated: 2023-12-29

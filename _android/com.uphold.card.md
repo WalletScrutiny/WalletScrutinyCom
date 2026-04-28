@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.uphold.card
+alternativeStores: 
 appCountry: 
 released: 2020-03-27
 updated: 2021-05-28

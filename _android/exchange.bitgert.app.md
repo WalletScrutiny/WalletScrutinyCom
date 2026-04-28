@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: exchange.bitgert.app
+alternativeStores: 
 appCountry: 
 released: 2023-01-13
 updated: 2025-02-06

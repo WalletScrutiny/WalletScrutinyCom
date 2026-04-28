@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: www.hitpaywallet.com
+alternativeStores: 
 appCountry: 
 released: 2019-12-21
 updated: 2020-01-27

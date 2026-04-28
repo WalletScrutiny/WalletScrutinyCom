@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.superx.isupex
+alternativeStores: 
 appCountry: 
 released: 2020-05-02
 updated: 2020-05-02

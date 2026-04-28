@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: key.cn
+alternativeStores: 
 appCountry: 
 released: 2021-08-19
 updated: 2021-11-23

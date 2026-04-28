@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.adenter.mercurycash
+alternativeStores: 
 appCountry: 
 released: 2017-07-28
 updated: 2022-09-06

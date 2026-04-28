@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: united.network
+alternativeStores: 
 appCountry: 
 released: 2025-04-14
 updated: 2025-07-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.metahash.metawallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-11-14

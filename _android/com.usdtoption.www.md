@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.usdtoption.www
+alternativeStores: 
 appCountry: 
 released: 2020-05-10
 updated: 2020-05-10

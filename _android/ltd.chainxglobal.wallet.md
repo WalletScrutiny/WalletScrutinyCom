@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: ltd.chainxglobal.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-09-10
 updated: 2026-04-06

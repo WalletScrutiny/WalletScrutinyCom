@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.leveragedapp.leveraged
+alternativeStores: 
 appCountry: 
 released: 2019-10-12
 updated: 2019-11-05

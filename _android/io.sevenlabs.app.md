@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.sevenlabs.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-05
 updated: 2023-06-12

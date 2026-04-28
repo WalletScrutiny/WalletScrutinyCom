@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.sdb.app
+alternativeStores: 
 appCountry: 
 released: 2022-12-07
 updated: 2023-03-28

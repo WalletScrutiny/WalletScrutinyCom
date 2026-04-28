@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: flutter.android.LifePay
+alternativeStores: 
 appCountry: 
 released: 2022-09-21
 updated: 2025-08-25

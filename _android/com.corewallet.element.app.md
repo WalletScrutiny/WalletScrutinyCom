@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.corewallet.element.app
+alternativeStores: 
 appCountry: 
 released: 2024-06-05
 updated: 2025-04-02
 version: 1.13.0
-reviews: 315
+reviews: 317
 website: https://www.elementwallet.com/
 repository: 
 icon: com.corewallet.element.app.jpg

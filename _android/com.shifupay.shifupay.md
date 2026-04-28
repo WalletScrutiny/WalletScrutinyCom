@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.shifupay.shifupay
+alternativeStores: 
 appCountry: 
 released: 2022-08-24
 updated: 2022-10-15

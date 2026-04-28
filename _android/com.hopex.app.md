@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hopex.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-20
 updated: 2021-10-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.wallet.bryptoxchange
+alternativeStores: 
 appCountry: 
 released: 2022-11-01
 updated: 2023-02-01

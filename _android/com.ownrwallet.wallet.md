@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.ownrwallet.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2023-09-20

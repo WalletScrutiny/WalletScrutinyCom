@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.baz.code
+alternativeStores: 
 appCountry: 
 released: 2022-06-23
 updated: 2022-09-28

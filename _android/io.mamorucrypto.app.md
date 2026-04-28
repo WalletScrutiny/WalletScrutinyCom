@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.mamorucrypto.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-03-09

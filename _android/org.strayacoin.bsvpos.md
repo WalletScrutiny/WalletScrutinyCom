@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.strayacoin.bsvpos
+alternativeStores: 
 appCountry: 
 released: 2019-07-13
 updated: 2021-04-17

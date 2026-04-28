@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: finance.orderbook.trade
+alternativeStores: 
 appCountry: 
 released: 2021-12-29
 updated: 2021-12-29

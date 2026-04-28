@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: wannabit.io.cosmostaion
+alternativeStores: 
 appCountry: 
 released: 2019-03-17
 updated: 2026-04-16

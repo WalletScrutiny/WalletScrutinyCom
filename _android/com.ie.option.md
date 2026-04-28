@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.ie.option
+alternativeStores: 
 appCountry: 
 released: 2019-12-17
 updated: 2020-08-14

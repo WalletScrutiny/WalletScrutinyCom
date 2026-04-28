@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: cryptopia.mobile
+alternativeStores: 
 appCountry: 
 released: 2019-09-05
 updated: 2019-09-08

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.sketch.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2026-01-16

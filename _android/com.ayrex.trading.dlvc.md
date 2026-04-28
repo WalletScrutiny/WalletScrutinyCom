@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ayrex.trading.dlvc
+alternativeStores: 
 appCountry: 
 released: 2020-05-14
 updated: 2020-05-14

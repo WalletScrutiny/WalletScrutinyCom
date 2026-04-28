@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitmate.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-30
 updated: 2021-10-13

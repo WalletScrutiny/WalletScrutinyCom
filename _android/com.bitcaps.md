@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcaps
+alternativeStores: 
 appCountry: 
 released: 2020-10-30
 updated: 2021-04-06

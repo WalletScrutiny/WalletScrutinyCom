@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.box.pro
+alternativeStores: 
 appCountry: 
 released: 2022-01-06
 updated: 2024-05-21

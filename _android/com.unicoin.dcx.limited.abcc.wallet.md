@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 50
 appId: com.unicoin.dcx.limited.abcc.wallet
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-02
-version: 1.10.21
+updated: 2026-04-17
+version: 1.10.22
 reviews: 
 website: https://abcc-plus.com/
 repository: 

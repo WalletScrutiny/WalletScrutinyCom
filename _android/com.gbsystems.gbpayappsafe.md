@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gbsystems.gbpayappsafe
+alternativeStores: 
 appCountry: 
 released: 2019-06-01
 updated: 2019-06-02

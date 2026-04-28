@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: ae.efatoora.emal
+alternativeStores: 
 appCountry: 
 released: 2018-07-16
 updated: 2020-01-02

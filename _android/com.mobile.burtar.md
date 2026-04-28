@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.mobile.burtar
+alternativeStores: 
 appCountry: 
 released: 2021-06-26
 updated: 2021-06-26

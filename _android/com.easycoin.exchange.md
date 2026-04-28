@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.easycoin.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-05-16
 updated: 2023-07-07

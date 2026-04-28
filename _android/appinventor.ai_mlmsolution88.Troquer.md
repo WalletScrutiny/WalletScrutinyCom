@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: appinventor.ai_mlmsolution88.Troquer
+alternativeStores: 
 appCountry: 
 released: 2020-06-25
 updated: 2020-06-25

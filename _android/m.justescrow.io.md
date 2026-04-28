@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: m.justescrow.io
+alternativeStores: 
 appCountry: 
 released: 2018-05-30
 updated: 2018-05-31

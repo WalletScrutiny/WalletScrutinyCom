@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.dexfin.mpcwallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-01
 updated: 2023-02-01

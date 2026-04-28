@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ejfhp.bitonpaper
+alternativeStores: 
 appCountry: 
 released: 2021-02-13
 updated: 2025-01-11
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

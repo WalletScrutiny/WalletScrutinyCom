@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tocce.vst
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-04

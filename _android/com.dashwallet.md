@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.dashwallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-05
 updated: 2020-11-30

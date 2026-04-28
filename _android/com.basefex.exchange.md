@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.basefex.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-07-16
 updated: 2020-08-13

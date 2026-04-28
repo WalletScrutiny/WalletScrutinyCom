@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bicheng.newtw.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-06-04
 updated: 2021-03-02

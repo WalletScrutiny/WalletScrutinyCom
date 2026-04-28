@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.uni.uniwallet
+alternativeStores: 
 appCountry: 
 released: 2018-06-05
 updated: 2019-02-19

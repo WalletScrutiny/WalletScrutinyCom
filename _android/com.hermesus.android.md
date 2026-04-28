@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hermesus.android
+alternativeStores: 
 appCountry: 
 released: 2022-04-17
 updated: 2022-04-17

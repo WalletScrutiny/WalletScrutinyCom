@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.trioace.global
+alternativeStores: 
 appCountry: 
 released: 2022-01-02
 updated: 2022-01-03

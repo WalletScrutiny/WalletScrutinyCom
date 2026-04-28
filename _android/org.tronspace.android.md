@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: org.tronspace.android
+alternativeStores: 
 appCountry: 
 released: 2021-07-03
 updated: 2023-01-04

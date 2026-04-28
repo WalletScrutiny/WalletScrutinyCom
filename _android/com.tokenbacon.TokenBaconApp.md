@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tokenbacon.TokenBaconApp
+alternativeStores: 
 appCountry: 
 released: 2019-10-07
 updated: 2020-07-29

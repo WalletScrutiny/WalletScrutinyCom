@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: wtf.nbd.obw
+alternativeStores: 
 appCountry: 
 released: 2022-09-23
 updated: 2022-12-31

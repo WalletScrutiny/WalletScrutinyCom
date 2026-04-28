@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptooriented.exchanges
+alternativeStores: 
 appCountry: 
 released: 2018-01-10
 updated: 2022-01-10

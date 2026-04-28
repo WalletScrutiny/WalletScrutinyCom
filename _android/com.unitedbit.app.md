@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.unitedbit.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-07
 updated: 2022-04-19

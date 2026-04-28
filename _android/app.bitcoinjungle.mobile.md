@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.bitcoinjungle.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-12-05
 updated: 2025-10-07

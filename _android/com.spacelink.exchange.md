@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.spacelink.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-05-21
 updated: 2021-05-21

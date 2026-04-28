@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.esos.ainvestments
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-05-22

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.tempow.legatow
+alternativeStores: 
 appCountry: 
 released: 2018-07-04
 updated: 2019-01-30

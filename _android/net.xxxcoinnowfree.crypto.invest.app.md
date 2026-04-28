@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.xxxcoinnowfree.crypto.invest.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-22
 updated: 2021-07-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.sinblock.blockchain
+alternativeStores: 
 appCountry: 
 released: 2022-09-22
 updated: 2026-01-26

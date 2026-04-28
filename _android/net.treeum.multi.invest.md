@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: net.treeum.multi.invest
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-09-01

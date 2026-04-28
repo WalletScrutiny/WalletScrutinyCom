@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tbws
+alternativeStores: 
 appCountry: 
 released: 2021-05-27
 updated: 2024-05-20

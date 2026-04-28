@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.etfinance
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-11-29

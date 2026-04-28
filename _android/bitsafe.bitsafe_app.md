@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: bitsafe.bitsafe_app
+alternativeStores: 
 appCountry: 
 released: 2017-07-28
 updated: 2017-11-28

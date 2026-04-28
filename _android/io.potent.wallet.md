@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.potent.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-12
 updated: 2021-08-13

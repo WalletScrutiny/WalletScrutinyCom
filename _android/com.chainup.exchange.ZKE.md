@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.chainup.exchange.ZKE
+alternativeStores: 
 appCountry: 
 released: 2022-10-19
 updated: 2023-07-25

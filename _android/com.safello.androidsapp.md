@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: com.safello.androidsapp
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-07
-version: 1.61.1
+updated: 2026-04-22
+version: 1.62.1
 reviews: 
 website: https://safello.com/
 repository: 

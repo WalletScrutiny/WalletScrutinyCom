@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.wCryptoExchange_13708254
+alternativeStores: 
 appCountry: 
 released: 2021-05-11
 updated: 2021-12-18

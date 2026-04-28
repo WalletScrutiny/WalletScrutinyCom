@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mymoneymachine.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-19
 updated: 2022-08-05

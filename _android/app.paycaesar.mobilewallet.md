@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: app.paycaesar.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-08
 updated: 2021-07-07

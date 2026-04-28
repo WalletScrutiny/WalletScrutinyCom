@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.movocash.movo
+alternativeStores: 
 appCountry: 
 released: 2021-04-01
 updated: 2022-12-13

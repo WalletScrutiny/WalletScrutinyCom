@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.funex.coin
+alternativeStores: 
 appCountry: 
 released: 2022-02-18
 updated: 2025-10-30

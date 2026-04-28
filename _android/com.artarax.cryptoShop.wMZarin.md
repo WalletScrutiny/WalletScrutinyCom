@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.artarax.cryptoShop.wMZarin
+alternativeStores: 
 appCountry: 
 released: 2020-09-02
 updated: 2022-06-27

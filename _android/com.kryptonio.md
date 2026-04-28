@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kryptonio
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-03

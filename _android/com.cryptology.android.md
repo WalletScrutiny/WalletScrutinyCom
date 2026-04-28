@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.cryptology.android
+alternativeStores: 
 appCountry: gb
 released: 2018-03-23
 updated: 2024-01-17

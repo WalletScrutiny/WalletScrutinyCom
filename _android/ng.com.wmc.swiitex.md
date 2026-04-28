@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: ng.com.wmc.swiitex
+alternativeStores: 
 appCountry: 
 released: 2021-10-26
 updated: 2023-01-04

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bity.wallet.production
+alternativeStores: 
 appCountry: 
 released: 2024-02-23
 updated: 2026-02-02

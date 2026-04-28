@@ -8,9 +8,9 @@ appId: com.billance.cn
 appCountry: us
 idd: '1610497530'
 released: 2022-03-01
-updated: 2026-03-20
-version: 4.3.1
-reviews: 50
+updated: 2026-04-17
+version: 4.3.4
+reviews: 51
 website: 
 repository: 
 icon: com.billance.cn.jpg

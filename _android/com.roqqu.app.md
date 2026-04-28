@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000000
 appId: com.roqqu.app
+alternativeStores: 
 appCountry: 
 released: 2019-09-30
 updated: 2026-04-19

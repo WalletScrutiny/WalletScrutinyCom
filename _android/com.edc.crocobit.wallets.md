@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.edc.crocobit.wallets
+alternativeStores: 
 appCountry: 
 released: 2020-06-18
 updated: 2021-07-15

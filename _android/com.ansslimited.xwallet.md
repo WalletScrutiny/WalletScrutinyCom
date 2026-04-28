@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ansslimited.xwallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2025-10-01

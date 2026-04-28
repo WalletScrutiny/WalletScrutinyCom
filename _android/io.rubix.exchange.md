@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.rubix.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-12-22
 updated: 2023-10-10

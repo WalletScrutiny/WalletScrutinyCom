@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.aabb
+alternativeStores: 
 appCountry: ca
 released: 2021-03-08
 updated: 2023-06-30

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100000
 appId: io.bitmax.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-25

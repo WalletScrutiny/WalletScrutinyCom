@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.bittime.currency.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-09-23
 updated: 2026-04-15

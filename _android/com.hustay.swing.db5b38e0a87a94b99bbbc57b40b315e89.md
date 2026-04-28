@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89
+alternativeStores: 
 appCountry: 
 released: 2022-04-13
 updated: 2022-08-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.capitalsecurities.liqx
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-07-02

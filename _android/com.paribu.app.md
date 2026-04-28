@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000000
 appId: com.paribu.app
+alternativeStores: 
 appCountry: 
 released: 2019-06-14
-updated: 2026-04-08
-version: 5.2.1
+updated: 2026-04-22
+version: 5.2.2
 reviews: 115
 website: https://www.paribu.com
 repository: 

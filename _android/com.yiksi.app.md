@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.yiksi.app
+alternativeStores: 
 appCountry: 
 released: 2022-06-11
 updated: 2022-12-08

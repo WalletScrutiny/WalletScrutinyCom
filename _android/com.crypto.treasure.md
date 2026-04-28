@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.crypto.treasure
+alternativeStores: 
 appCountry: 
 released: 2022-12-01
 updated: 2023-02-08

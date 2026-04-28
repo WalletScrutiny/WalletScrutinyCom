@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.scalpex.mobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-08-09

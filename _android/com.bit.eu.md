@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bit.eu
+alternativeStores: 
 appCountry: 
 released: 2019-07-03
 updated: 2023-10-03

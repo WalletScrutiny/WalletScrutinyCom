@@ -7,8 +7,9 @@ authors:
 - emanuel
 - mohammad
 - keraliss
-users: 10000
+users: 50000
 appId: com.breez.client
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-01-14

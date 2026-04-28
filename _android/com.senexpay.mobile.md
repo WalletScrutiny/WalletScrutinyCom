@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.senexpay.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-08-16
 updated: 2025-11-17

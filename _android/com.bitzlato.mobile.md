@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitzlato.mobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-12

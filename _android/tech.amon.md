@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: tech.amon
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2023-07-04

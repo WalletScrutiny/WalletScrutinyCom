@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitxmintpro.bitxmintpro
+alternativeStores: 
 appCountry: 
 released: 2021-10-01
 updated: 2021-10-01

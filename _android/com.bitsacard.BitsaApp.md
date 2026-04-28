@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitsacard.BitsaApp
+alternativeStores: 
 appCountry: gb
 released: 2019-04-09
 updated: 2026-04-13

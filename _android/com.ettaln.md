@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10
 appId: com.ettaln
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-09-06

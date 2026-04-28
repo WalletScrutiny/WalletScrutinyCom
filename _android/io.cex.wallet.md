@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.cex.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-21
 updated: 2024-03-06

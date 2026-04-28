@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.swipe.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-13
 updated: 2021-05-13

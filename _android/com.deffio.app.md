@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.deffio.app
+alternativeStores: 
 appCountry: 
 released: 2025-03-14
 updated: 2026-03-09

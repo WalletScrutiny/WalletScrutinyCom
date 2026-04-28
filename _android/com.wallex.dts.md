@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wallex.dts
+alternativeStores: 
 appCountry: 
 released: 2023-01-05
 updated: 2023-08-07

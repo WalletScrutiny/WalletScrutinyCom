@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.payscript
+alternativeStores: 
 appCountry: 
 released: 2020-10-13
 updated: 2022-09-15

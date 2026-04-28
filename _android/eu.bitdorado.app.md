@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: eu.bitdorado.app
+alternativeStores: 
 appCountry: 
 released: 2021-05-01
 updated: 2022-05-02

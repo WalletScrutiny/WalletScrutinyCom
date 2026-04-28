@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.atomex.android
+alternativeStores: 
 appCountry: 
 released: 2020-12-06
 updated: 2023-02-24

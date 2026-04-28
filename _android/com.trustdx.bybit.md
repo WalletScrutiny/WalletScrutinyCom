@@ -5,6 +5,7 @@ altTitle: '*Fake app!* Bybit: Trade cryptocurrency, bitcoin'
 authors: 
 users: 1000
 appId: com.trustdx.bybit
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-07-19

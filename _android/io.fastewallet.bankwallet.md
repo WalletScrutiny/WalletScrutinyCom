@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.fastewallet.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-31
 updated: 2023-01-18

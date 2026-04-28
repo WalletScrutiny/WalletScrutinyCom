@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.starbit.portal
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2020-03-15

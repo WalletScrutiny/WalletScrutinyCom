@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.horizontalsystems.indexwallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-13
 updated: 2020-07-15

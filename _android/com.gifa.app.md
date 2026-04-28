@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gifa.app
+alternativeStores: 
 appCountry: 
 released: 2020-09-21
 updated: 2022-06-09

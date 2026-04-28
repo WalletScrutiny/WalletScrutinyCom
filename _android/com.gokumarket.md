@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.gokumarket
+alternativeStores: 
 appCountry: 
 released: 2019-11-16
 updated: 2022-04-29

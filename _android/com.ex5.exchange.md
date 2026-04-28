@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ex5.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-10-31

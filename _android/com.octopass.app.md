@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.octopass.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-19

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.dreacotdigital.cryptopower.mainnet
+alternativeStores: 
 appCountry: 
 released: 2024-01-20
 updated: 2025-08-19

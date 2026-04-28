@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.raedahgroup.tradeagent.liveserver
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-01

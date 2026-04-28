@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.finx
+alternativeStores: 
 appCountry: 
 released: 2022-03-11
 updated: 2022-07-29

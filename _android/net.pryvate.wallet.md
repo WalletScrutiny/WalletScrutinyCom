@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.pryvate.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-30

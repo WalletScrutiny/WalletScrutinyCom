@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.safecoin.safecoinwallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-10
 updated: 2019-03-18

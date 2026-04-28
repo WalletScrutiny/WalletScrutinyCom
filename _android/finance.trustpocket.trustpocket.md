@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: finance.trustpocket.trustpocket
+alternativeStores: 
 appCountry: 
 released: 2021-08-06
 updated: 2021-10-04

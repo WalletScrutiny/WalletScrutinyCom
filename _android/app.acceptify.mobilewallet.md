@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.acceptify.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-17
 updated: 2021-03-11

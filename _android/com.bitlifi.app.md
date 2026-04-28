@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitlifi.app
+alternativeStores: 
 appCountry: 
 released: 2023-05-04
 updated: 2025-12-22

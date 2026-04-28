@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.bitcoin.heaven
+alternativeStores: 
 appCountry: 
 released: 2020-07-14
 updated: 2020-07-14

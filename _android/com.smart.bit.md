@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.smart.bit
+alternativeStores: 
 appCountry: 
 released: 2021-11-24
 updated: 2021-12-30

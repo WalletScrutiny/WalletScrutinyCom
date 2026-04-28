@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.kickex.android
+alternativeStores: 
 appCountry: 
 released: 2022-06-15
 updated: 2024-12-26

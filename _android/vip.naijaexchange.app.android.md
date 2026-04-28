@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: vip.naijaexchange.app.android
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2021-09-14

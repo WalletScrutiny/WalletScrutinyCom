@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.exchange.speza
+alternativeStores: 
 appCountry: 
 released: 2019-08-07
 updated: 2019-12-21

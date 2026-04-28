@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.keystone.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-06-01
 updated: 2024-07-19

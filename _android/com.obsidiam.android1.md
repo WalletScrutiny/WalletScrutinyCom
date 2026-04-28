@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.obsidiam.android1
+alternativeStores: 
 appCountry: 
 released: 2020-08-24
 updated: 2024-03-22

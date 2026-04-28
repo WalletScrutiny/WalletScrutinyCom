@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.blocksmatic
+alternativeStores: 
 appCountry: 
 released: 2022-01-18
 updated: 2022-02-12

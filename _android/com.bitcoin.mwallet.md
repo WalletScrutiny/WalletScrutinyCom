@@ -7,11 +7,12 @@ authors:
 - danny
 users: 10000000
 appId: com.bitcoin.mwallet
+alternativeStores: 
 appCountry: 
 released: 2017-06-19
-updated: 2026-04-15
-version: 9.18.0
-reviews: 4101
+updated: 2026-04-28
+version: 9.19.3
+reviews: 4109
 website: https://www.bitcoin.com
 repository: https://github.com/Bitcoin-com/Wallet
 icon: com.bitcoin.mwallet.png

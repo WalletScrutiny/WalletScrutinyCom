@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: multico.in.btctrade
+alternativeStores: 
 appCountry: 
 released: 2017-01-30
 updated: 2018-09-05

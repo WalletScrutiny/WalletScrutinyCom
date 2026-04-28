@@ -7,10 +7,11 @@ authors:
 - danny
 users: 1000000
 appId: im.token.app
+alternativeStores: 
 appCountry: 
 released: 2018-05-31
 updated: 2026-04-17
-version: 2.18.1
+version: 2.19.0
 reviews: 242
 website: https://token.im
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: global.bitex.bitexpay.android
+alternativeStores: 
 appCountry: 
 released: 2020-09-10
 updated: 2020-11-15

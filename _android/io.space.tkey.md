@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.space.tkey
+alternativeStores: 
 appCountry: 
 released: 2020-02-14
 updated: 2020-04-27

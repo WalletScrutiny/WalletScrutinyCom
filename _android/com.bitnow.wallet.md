@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitnow.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

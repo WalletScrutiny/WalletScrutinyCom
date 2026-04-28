@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcoinmining.android786
+alternativeStores: 
 appCountry: 
 released: 2021-06-01
 updated: 2021-06-01

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.gcointrading.app
+alternativeStores: 
 appCountry: 
 released: 2018-08-19
 updated: 2018-08-20

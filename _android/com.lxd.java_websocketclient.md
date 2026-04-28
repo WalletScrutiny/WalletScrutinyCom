@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.lxd.java_websocketclient
+alternativeStores: 
 appCountry: us
 released: 2020-05-01
 updated: 2021-11-12

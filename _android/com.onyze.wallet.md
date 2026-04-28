@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.onyze.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-07-14

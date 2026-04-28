@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: org.vxxl.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-26
 updated: 2023-03-02

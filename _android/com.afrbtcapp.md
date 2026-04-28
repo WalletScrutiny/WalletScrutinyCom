@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.afrbtcapp
+alternativeStores: 
 appCountry: 
 released: 2019-05-05
 updated: 2024-07-12

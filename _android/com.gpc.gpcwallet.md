@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.gpc.gpcwallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-14
 updated: 2020-08-05

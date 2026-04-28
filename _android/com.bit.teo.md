@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bit.teo
+alternativeStores: 
 appCountry: 
 released: 2019-12-27
 updated: 2021-05-24

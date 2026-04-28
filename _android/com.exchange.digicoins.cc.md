@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.exchange.digicoins.cc
+alternativeStores: 
 appCountry: 
 released: 2021-12-06
 updated: 2023-03-27

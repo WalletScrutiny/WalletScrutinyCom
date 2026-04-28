@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wafbbail.flutter_wafbbail_notebook
+alternativeStores: 
 appCountry: 
 released: 2021-09-20
 updated: 2021-10-24

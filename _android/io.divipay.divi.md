@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.divipay.divi
+alternativeStores: 
 appCountry: gb
 released: 2021-04-28
 updated: 2024-04-22

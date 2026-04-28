@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.sofi.mobile
+alternativeStores: 
 appCountry: 
 released: 2017-04-10
-updated: 2026-04-17
-version: 3.91.0
-reviews: 20755
+updated: 2026-04-24
+version: 3.92.0
+reviews: 20825
 website: https://www.sofi.com
 repository: 
 icon: com.sofi.mobile.png

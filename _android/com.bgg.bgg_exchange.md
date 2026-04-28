@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bgg.bgg_exchange
+alternativeStores: 
 appCountry: 
 released: 2018-10-29
 updated: 2020-09-09

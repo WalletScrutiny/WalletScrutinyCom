@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.digitra.digitraHB
+alternativeStores: 
 appCountry: 
 released: 2022-03-05
 updated: 2026-03-19

@@ -7,10 +7,11 @@ authors:
 - keraliss
 users: 1000
 appId: com.foundationdevices.envoy
+alternativeStores: 
 appCountry: US
 released: 2022-04-01
-updated: 2026-03-26
-version: 2.2.12
+updated: 2026-04-21
+version: 2.2.14
 reviews: 6
 website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy

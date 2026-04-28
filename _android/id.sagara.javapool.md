@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: id.sagara.javapool
+alternativeStores: 
 appCountry: 
 released: 2021-08-30
 updated: 2021-08-30

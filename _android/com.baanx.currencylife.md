@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.baanx.currencylife
+alternativeStores: 
 appCountry: 
 released: 2020-02-06
 updated: 2021-02-26

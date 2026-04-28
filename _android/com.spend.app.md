@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.spend.app
+alternativeStores: 
 appCountry: 
 released: 2018-08-07
 updated: 2020-07-15

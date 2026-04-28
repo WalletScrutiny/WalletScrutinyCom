@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: ru.valle.btc
+alternativeStores: 
 appCountry: 
 released: 2013-04-19
 updated: 2023-12-01

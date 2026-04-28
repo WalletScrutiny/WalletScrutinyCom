@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: io.rayyo
+alternativeStores: 
 appCountry: 
 released: 2025-10-03
-updated: 2026-03-12
-version: 0.7.50
+updated: 2026-04-20
+version: 0.7.55
 reviews: 
 website: https://rayyo.mx
 repository: 

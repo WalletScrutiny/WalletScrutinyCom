@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: org.missmonacoin.monya
+alternativeStores: 
 appCountry: 
 released: 2018-01-02
 updated: 2021-12-14

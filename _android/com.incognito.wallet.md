@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.incognito.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-08-12
 updated: 2023-09-07

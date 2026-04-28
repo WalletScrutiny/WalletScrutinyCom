@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bideskcom.app
+alternativeStores: 
 appCountry: us
 released: 2020-06-13
 updated: 2021-03-27

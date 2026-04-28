@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cryptoxpressmobile
+alternativeStores: 
 appCountry: 
 released: 2021-09-20
 updated: 2026-02-04

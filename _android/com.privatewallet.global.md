@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.privatewallet.global
+alternativeStores: 
 appCountry: 
 released: 2023-07-13
 updated: 2023-07-13

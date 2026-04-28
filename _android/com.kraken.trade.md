@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.kraken.trade
+alternativeStores: 
 appCountry: 
 released: 2019-10-24
-updated: 2026-04-17
-version: 5.50.0
-reviews: 4667
+updated: 2026-04-24
+version: 5.51.1
+reviews: 4669
 website: https://www.kraken.com
 repository: 
 icon: com.kraken.trade.png

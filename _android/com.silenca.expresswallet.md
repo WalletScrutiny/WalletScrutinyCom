@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.silenca.expresswallet
+alternativeStores: 
 appCountry: 
 released: 2020-05-14
 updated: 2020-05-14

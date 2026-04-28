@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.hotbtc.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-01-17
 updated: 2020-08-19

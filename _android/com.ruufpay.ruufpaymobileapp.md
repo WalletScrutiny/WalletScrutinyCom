@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ruufpay.ruufpaymobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2025-08-26

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.robinhood.global
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-17
-version: 2026.15.0
+updated: 2026-04-20
+version: 2026.17.0
 reviews: 
 website: https://robinhood.com/eu/en/about/crypto/
 repository: 

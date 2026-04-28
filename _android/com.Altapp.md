@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.Altapp
+alternativeStores: 
 appCountry: 
 released: 2019-06-27
 updated: 2019-08-02

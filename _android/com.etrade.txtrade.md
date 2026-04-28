@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.etrade.txtrade
+alternativeStores: 
 appCountry: 
 released: 2022-10-23
 updated: 2022-10-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.buratinoapps.fmicropayment
+alternativeStores: 
 appCountry: 
 released: 2022-05-06
 updated: 2022-07-11

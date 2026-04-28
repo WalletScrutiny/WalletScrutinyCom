@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.nhgames.pwc.barcodereader
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-02-20

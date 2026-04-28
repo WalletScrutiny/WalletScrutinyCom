@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fmdc.webview
+alternativeStores: 
 appCountry: 
 released: 2022-10-28
 updated: 2022-11-08

@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 100
 appId: com.tnp.fortvax
+alternativeStores: 
 appCountry: 
 released: 2022-04-19
-updated: 2026-03-20
-version: 1.3.4
+updated: 2026-04-24
+version: 1.3.5
 reviews: 
 website: https://stage-fortvax-landing.goldalles.com/
 repository: 

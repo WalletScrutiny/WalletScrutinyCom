@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.hashcash.paybitoadmin
+alternativeStores: 
 appCountry: 
 released: 2022-06-16
 updated: 2023-05-12

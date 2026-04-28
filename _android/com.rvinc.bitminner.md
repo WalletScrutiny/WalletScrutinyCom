@@ -5,6 +5,7 @@ altTitle: (Fake) Bitcoin Chivo -  Chivo Bitcoin
 authors: 
 users: 100
 appId: com.rvinc.bitminner
+alternativeStores: 
 appCountry: 
 released: 2021-09-28
 updated: 2021-09-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.savox.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-26
 updated: 2022-10-17

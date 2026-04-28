@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.abit.abitraderapp
+alternativeStores: 
 appCountry: 
 released: 2021-05-18
 updated: 2021-12-11

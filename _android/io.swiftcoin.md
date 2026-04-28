@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.swiftcoin
+alternativeStores: 
 appCountry: 
 released: 2022-09-12
 updated: 2025-09-30

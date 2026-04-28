@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.eubcompany.com
+alternativeStores: 
 appCountry: 
 released: 2021-12-04
 updated: 2021-12-04

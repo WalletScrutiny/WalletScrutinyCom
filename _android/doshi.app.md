@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: doshi.app
+alternativeStores: 
 appCountry: 
 released: 2022-08-22
 updated: 2023-11-17

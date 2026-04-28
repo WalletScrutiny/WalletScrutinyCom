@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.runixcoin.com.runixcoin
+alternativeStores: 
 appCountry: 
 released: 2022-04-13
 updated: 2022-04-19

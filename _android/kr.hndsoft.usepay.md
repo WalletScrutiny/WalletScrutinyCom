@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: kr.hndsoft.usepay
+alternativeStores: 
 appCountry: 
 released: 2022-06-06
 updated: 2022-12-21

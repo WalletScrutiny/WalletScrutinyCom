@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.ixx_android
+alternativeStores: 
 appCountry: 
 released: 2019-08-15
 updated: 2021-09-09

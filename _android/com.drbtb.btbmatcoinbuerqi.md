@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.drbtb.btbmatcoinbuerqi
+alternativeStores: 
 appCountry: 
 released: 2021-10-28
 updated: 2021-10-28

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.gcbuying.app
+alternativeStores: 
 appCountry: ng
 released: 2021-01-26
 updated: 2021-09-17

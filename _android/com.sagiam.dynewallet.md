@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.sagiam.dynewallet
+alternativeStores: 
 appCountry: 
 released: 2021-01-12
 updated: 2025-11-13

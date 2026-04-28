@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.magic_wallet.io
+alternativeStores: 
 appCountry: 
 released: 2021-05-26
 updated: 2021-06-06

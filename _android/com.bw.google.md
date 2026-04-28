@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bw.google
+alternativeStores: 
 appCountry: 
 released: 2021-07-26
 updated: 2021-08-16

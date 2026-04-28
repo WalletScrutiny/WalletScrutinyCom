@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.icte.io
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-27

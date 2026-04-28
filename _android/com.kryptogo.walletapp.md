@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.kryptogo.walletapp
+alternativeStores: 
 appCountry: 
 released: 2021-12-28
 updated: 2026-04-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.maocular.chascom
+alternativeStores: 
 appCountry: 
 released: 2022-05-05
 updated: 2022-05-05

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wBitcoinTrader_15119149
+alternativeStores: 
 appCountry: 
 released: 2022-02-02
 updated: 2022-02-02

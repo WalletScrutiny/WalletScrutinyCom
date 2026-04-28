@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.beeex.broker.android
+alternativeStores: 
 appCountry: 
 released: 2020-07-08
 updated: 2020-10-09

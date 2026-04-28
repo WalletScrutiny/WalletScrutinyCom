@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.plutusspace
+alternativeStores: 
 appCountry: 
 released: 2022-01-22
 updated: 2022-01-22

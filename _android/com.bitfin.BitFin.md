@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitfin.BitFin
+alternativeStores: 
 appCountry: 
 released: 2020-02-05
 updated: 2020-02-19

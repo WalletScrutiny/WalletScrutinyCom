@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.kointra.kointra
+alternativeStores: 
 appCountry: 
 released: 2019-01-25
 updated: 2026-04-09

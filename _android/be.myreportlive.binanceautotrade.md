@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: be.myreportlive.binanceautotrade
+alternativeStores: 
 appCountry: 
 released: 2021-05-30
 updated: 2022-05-26

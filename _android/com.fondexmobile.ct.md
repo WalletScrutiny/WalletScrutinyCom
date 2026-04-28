@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.fondexmobile.ct
+alternativeStores: 
 appCountry: au
 released: 2017-11-02
 updated: 2023-09-15

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.sfox.android
+alternativeStores: 
 appCountry: 
 released: 2021-12-24
 updated: 2024-11-15

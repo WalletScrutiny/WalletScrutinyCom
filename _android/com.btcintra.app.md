@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.btcintra.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-03
 updated: 2021-12-15

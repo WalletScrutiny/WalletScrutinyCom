@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.oxdealer.oxdealer
+alternativeStores: 
 appCountry: 
 released: 2020-06-20
 updated: 2020-06-20

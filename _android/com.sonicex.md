@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.sonicex
+alternativeStores: 
 appCountry: 
 released: 2019-08-05
 updated: 2020-04-15

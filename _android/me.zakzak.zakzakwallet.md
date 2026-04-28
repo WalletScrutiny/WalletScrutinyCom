@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: me.zakzak.zakzakwallet
+alternativeStores: 
 appCountry: 
 released: 2019-04-01
 updated: 2020-06-10

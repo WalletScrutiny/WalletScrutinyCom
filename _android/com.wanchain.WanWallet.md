@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wanchain.WanWallet
+alternativeStores: 
 appCountry: us
 released: 2019-08-18
 updated: 2021-04-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.baviera.capital
+alternativeStores: 
 appCountry: 
 released: 2022-10-04
 updated: 2024-04-09

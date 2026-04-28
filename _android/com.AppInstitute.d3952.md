@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.AppInstitute.d3952
+alternativeStores: 
 appCountry: 
 released: 2021-12-10
 updated: 2021-12-10

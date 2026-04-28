@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: com.thein1.app
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-01
-version: 0.11.3
+updated: 2026-04-17
+version: 0.11.4
 reviews: 
 website: https://www.in1.io
 repository: 

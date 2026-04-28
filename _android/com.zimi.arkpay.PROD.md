@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zimi.arkpay.PROD
+alternativeStores: 
 appCountry: 
 released: 2020-06-03
 updated: 2024-12-16

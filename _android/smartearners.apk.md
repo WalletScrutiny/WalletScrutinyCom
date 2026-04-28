@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: smartearners.apk
+alternativeStores: 
 appCountry: 
 released: 2022-08-11
 updated: 2022-08-11

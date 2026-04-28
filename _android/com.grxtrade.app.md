@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.grxtrade.app
+alternativeStores: 
 appCountry: 
 released: 2020-02-14
 updated: 2020-11-30

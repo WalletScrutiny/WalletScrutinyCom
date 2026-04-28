@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcoin.m.bitcoinera.official
+alternativeStores: 
 appCountry: 
 released: 2022-09-15
 updated: 2022-09-15

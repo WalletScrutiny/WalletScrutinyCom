@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mkgf_nr
+alternativeStores: 
 appCountry: 
 released: 2021-10-06
 updated: 2022-02-19

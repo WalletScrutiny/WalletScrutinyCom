@@ -6,9 +6,10 @@ authors:
 - danny
 users: 500000
 appId: com.gaincapital.forex
+alternativeStores: 
 appCountry: gb
 released: 2021-01-11
-updated: 2026-04-10
+updated: 2026-04-21
 version: '1.252'
 reviews: 38
 website: https://www.forex.com

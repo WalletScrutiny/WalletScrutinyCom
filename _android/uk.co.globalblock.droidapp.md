@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: uk.co.globalblock.droidapp
+alternativeStores: 
 appCountry: 
 released: 2021-02-08
 updated: 2022-03-24

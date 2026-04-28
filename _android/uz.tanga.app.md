@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: uz.tanga.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-09-17

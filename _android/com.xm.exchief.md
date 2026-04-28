@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.xm.exchief
+alternativeStores: 
 appCountry: 
 released: 2019-12-18
 updated: 2020-01-28

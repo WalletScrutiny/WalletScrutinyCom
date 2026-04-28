@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mavrlast.cryptochange
+alternativeStores: 
 appCountry: 
 released: 2017-09-27
 updated: 2017-09-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.moolre.moolreandroid
+alternativeStores: 
 appCountry: 
 released: 2019-02-28
 updated: 2024-01-26

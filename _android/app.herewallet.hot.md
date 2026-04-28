@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: app.herewallet.hot
+alternativeStores: 
 appCountry: 
 released: 2025-03-26
 updated: 2025-06-15
 version: '1.0'
-reviews: 63
+reviews: 64
 website: https://hot-labs.org/privacypolicy
 repository: 
 icon: app.herewallet.hot.png

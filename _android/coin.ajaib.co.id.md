@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: coin.ajaib.co.id
+alternativeStores: 
 appCountry: 
 released: 2022-07-15
-updated: 2026-04-09
-version: 2.95.0
+updated: 2026-04-22
+version: 2.96.0
 reviews: 37
 website: https://kripto.ajaib.co.id/
 repository: 

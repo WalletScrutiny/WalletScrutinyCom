@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.global.trading.company
+alternativeStores: 
 appCountry: 
 released: 2020-11-11
 updated: 2021-03-26

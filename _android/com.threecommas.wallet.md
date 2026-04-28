@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.threecommas.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-19
 updated: 2022-10-05

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.tcapital.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-12-10
 updated: 2021-03-27

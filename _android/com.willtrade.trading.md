@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.willtrade.trading
+alternativeStores: 
 appCountry: 
 released: 2021-08-19
 updated: 2026-04-15

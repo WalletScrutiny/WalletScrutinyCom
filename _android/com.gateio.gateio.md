@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.gateio.gateio
+alternativeStores: 
 appCountry: id
 released: 2017-11-03
-updated: 2026-04-16
-version: 8.16.1
-reviews: 7141
+updated: 2026-04-21
+version: 8.17.0
+reviews: 7129
 website: https://www.gate.com/
 repository: 
 icon: com.gateio.gateio.png

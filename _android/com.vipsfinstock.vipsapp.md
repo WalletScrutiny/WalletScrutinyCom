@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.vipsfinstock.vipsapp
+alternativeStores: 
 appCountry: 
 released: 2021-11-28
 updated: 2023-10-02

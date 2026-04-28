@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptere.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-17
 updated: 2022-07-01

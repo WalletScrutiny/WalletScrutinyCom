@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.wallet.backpacker
+alternativeStores: 
 appCountry: 
 released: 2020-01-11
 updated: 2021-02-17

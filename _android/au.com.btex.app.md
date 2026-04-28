@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: au.com.btex.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-15
 updated: 2020-01-19

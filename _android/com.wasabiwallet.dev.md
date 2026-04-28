@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.wasabiwallet.dev
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-12-01

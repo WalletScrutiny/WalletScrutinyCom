@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: au.com.swyftx
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-01

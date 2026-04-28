@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.quidax.lite
+alternativeStores: 
 appCountry: 
 released: 2022-01-08
 updated: 2025-02-07

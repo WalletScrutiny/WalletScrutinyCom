@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tech.cryptoocean
+alternativeStores: 
 appCountry: 
 released: 2022-07-20
 updated: 2022-08-18

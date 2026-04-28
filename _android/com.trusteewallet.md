@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 500000
 appId: com.trusteewallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-01
 updated: 2026-03-18

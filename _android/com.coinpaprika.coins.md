@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinpaprika.coins
+alternativeStores: 
 appCountry: us
 released: 2020-06-15
 updated: 2025-08-19

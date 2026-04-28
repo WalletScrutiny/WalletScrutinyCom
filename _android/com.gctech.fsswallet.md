@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gctech.fsswallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-29
 updated: 2021-02-26

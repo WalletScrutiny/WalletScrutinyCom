@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.bifrostwallet.app
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
-updated: 2026-03-23
-version: 0.7.44
-reviews: 108
+updated: 2026-04-16
+version: 0.7.45
+reviews: 107
 website: https://bifrostwallet.com
 repository: 
 icon: com.bifrostwallet.app.png

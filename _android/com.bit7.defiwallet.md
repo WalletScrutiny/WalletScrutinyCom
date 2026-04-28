@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bit7.defiwallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-18
 updated: 2022-12-26

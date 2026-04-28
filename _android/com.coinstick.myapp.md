@@ -6,9 +6,10 @@ authors:
 - danny
 users: 5000
 appId: com.coinstick.myapp
+alternativeStores: 
 appCountry: 
 released: 2023-01-23
-updated: 2025-10-22
+updated: 2026-04-24
 version: 1.0.0
 reviews: 6
 website: https://www.coinstick.co

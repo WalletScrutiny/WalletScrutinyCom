@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gtayo.crpt
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-04-08

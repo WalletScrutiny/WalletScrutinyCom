@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coinbest.coinbest
+alternativeStores: 
 appCountry: 
 released: 2021-05-17
 updated: 2026-01-30

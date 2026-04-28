@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bithesap.app
+alternativeStores: 
 appCountry: 
 released: 2018-08-03
 updated: 2019-05-08

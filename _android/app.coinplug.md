@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.coinplug
+alternativeStores: 
 appCountry: 
 released: 2021-10-19
 updated: 2025-07-07

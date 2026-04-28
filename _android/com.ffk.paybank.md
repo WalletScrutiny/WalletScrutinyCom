@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ffk.paybank
+alternativeStores: 
 appCountry: 
 released: 2019-09-19
 updated: 2023-06-21

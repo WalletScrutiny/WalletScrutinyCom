@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.truzact.truzact_mobile
+alternativeStores: 
 appCountry: 
 released: 2022-02-13
 updated: 2023-07-12

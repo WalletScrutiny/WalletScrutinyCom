@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: binance.cryptowalletapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-05

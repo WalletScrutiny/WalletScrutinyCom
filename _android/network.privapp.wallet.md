@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: network.privapp.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-14
 updated: 2025-03-24

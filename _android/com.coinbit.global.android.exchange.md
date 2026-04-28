@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinbit.global.android.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-08-12
 updated: 2021-05-11

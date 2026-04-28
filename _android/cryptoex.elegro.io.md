@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000
 appId: cryptoex.elegro.io
+alternativeStores: 
 appCountry: 
 released: 2019-06-26
 updated: 2021-04-29

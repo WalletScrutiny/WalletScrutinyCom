@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.mirlimited.muchbetter
+alternativeStores: 
 appCountry: gb
 released: 2017-05-30
 updated: 2026-03-19

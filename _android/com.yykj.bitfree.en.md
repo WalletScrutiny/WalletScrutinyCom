@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.yykj.bitfree.en
+alternativeStores: 
 appCountry: 
 released: 2019-01-26
 updated: 2026-03-20

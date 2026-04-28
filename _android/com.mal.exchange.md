@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.mal.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-11-11
 updated: 2025-12-22

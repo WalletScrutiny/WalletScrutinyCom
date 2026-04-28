@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 5000
 appId: com.dswallet.app
+alternativeStores: 
 appCountry: 
 released: 2025-03-19
-updated: 2026-04-03
-version: 2.1.5
+updated: 2026-04-21
+version: 2.1.6
 reviews: 
 website: 
 repository: 

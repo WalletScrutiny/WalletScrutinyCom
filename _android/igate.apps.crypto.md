@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: igate.apps.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-07-10
 updated: 2021-07-12

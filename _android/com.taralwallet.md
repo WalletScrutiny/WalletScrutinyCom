@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.taralwallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-22
 updated: 2024-12-19

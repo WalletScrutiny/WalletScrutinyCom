@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.digilab24.apps
+alternativeStores: 
 appCountry: 
 released: 2022-04-06
 updated: 2023-05-18

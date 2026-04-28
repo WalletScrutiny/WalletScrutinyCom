@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vipsmartbot.vsb
+alternativeStores: 
 appCountry: 
 released: 2020-11-17
 updated: 2020-11-18

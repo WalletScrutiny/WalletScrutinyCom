@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.myneogroup.neotrade
+alternativeStores: 
 appCountry: 
 released: 2022-04-08
 updated: 2022-05-12

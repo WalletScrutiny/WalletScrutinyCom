@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wapxnigeria.wapx
+alternativeStores: 
 appCountry: 
 released: 2022-09-29
 updated: 2022-11-03

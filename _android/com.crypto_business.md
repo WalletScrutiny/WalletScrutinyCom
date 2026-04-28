@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.crypto_business
+alternativeStores: 
 appCountry: 
 released: 2021-10-08
 updated: 2021-10-14

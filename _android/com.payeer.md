@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000000
 appId: com.payeer
+alternativeStores: 
 appCountry: 
 released: 2018-01-03
 updated: 2022-10-18

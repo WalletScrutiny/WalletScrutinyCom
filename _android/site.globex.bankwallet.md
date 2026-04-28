@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: site.globex.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2019-06-28
 updated: 2019-06-28

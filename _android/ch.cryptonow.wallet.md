@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ch.cryptonow.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-07

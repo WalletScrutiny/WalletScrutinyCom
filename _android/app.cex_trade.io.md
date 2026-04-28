@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.cex_trade.io
+alternativeStores: 
 appCountry: 
 released: 2022-07-10
 updated: 2022-07-10

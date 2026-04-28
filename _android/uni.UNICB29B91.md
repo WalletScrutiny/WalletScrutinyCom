@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: uni.UNICB29B91
+alternativeStores: 
 appCountry: 
 released: 2021-10-29
 updated: 2021-10-29

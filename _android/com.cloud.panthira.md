@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.cloud.panthira
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-12-21

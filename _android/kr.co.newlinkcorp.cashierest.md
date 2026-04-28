@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: kr.co.newlinkcorp.cashierest
+alternativeStores: 
 appCountry: 
 released: 2022-10-27
 updated: 2023-10-18

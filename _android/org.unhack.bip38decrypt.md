@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.unhack.bip38decrypt
+alternativeStores: 
 appCountry: 
 released: 2016-06-17
 updated: 2016-12-26

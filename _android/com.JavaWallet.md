@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.JavaWallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-23
 updated: 2021-02-05

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.securAWallet.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-31
 updated: 2023-01-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.koinzaar.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-13
 updated: 2020-01-24

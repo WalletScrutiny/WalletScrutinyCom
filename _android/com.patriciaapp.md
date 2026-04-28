@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.patriciaapp
+alternativeStores: 
 appCountry: us
 released: 2020-02-14
 updated: 2023-05-25

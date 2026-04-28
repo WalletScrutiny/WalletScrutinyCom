@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: ventures.aag.metaone
+alternativeStores: 
 appCountry: 
 released: 2022-12-22
 updated: 2025-08-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptosa
+alternativeStores: 
 appCountry: 
 released: 2019-08-27
 updated: 2019-08-27

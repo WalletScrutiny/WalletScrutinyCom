@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: 'Bitrefill: Gift Cards & eSIM'
+title: 'Bitrefill: eSIMs & Gift Cards'
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ appId: com.bitrefill.bitrefill
 appCountry: 
 idd: 1378102623
 released: 2018-06-05
-updated: 2026-03-10
-version: 7.0.0
-reviews: 445
+updated: 2026-04-23
+version: 7.4.0
+reviews: 459
 website: https://www.bitrefill.com
 repository: 
 icon: com.bitrefill.bitrefill.jpg

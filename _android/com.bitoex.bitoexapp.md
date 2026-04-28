@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitoex.bitoexapp
+alternativeStores: 
 appCountry: 
 released: 2019-11-18
 updated: 2019-11-19

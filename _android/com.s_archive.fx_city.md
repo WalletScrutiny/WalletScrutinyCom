@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.s_archive.fx_city
+alternativeStores: 
 appCountry: 
 released: 2020-04-17
 updated: 2020-05-21

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wallet.burtarapp
+alternativeStores: 
 appCountry: 
 released: 2022-09-01
 updated: 2022-09-01

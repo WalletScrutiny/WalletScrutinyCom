@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.profittrading.forokex
+alternativeStores: 
 appCountry: 
 released: 2020-06-11
 updated: 2020-07-23

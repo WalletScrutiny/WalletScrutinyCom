@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: in.spiegel.ixtokens
+alternativeStores: 
 appCountry: 
 released: 2021-07-21
 updated: 2021-11-29

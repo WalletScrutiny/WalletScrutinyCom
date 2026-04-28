@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bitdd.appoo
+alternativeStores: 
 appCountry: 
 released: 2022-05-14
 updated: 2022-05-19

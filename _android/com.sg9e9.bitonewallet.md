@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sg9e9.bitonewallet
+alternativeStores: 
 appCountry: 
 released: 2020-06-07
 updated: 2020-07-17

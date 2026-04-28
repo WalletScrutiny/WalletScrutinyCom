@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.axir.axrwallet
+alternativeStores: 
 appCountry: 
 released: 2024-05-22
 updated: 2025-01-15

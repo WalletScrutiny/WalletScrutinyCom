@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.indoex.finance
+alternativeStores: 
 appCountry: 
 released: 2022-08-04
 updated: 2024-11-30

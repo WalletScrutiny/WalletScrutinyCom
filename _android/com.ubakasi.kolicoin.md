@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ubakasi.kolicoin
+alternativeStores: 
 appCountry: 
 released: 2021-11-05
 updated: 2023-02-21

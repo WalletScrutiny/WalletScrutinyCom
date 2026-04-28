@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.fxvc.trading
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-02-23

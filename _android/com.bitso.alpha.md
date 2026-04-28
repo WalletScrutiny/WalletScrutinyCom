@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitso.alpha
+alternativeStores: 
 appCountry: GI
 released: 2021-09-28
 updated: 2025-11-05

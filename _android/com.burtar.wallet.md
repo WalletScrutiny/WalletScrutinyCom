@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.burtar.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-29
 updated: 2021-07-30

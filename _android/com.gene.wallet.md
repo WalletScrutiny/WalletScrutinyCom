@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.gene.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-03-06
 updated: 2019-02-08

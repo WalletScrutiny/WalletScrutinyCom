@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: ve.com.fibanca.walletweb
+alternativeStores: 
 appCountry: 
 released: 2019-06-28
 updated: 2019-06-28

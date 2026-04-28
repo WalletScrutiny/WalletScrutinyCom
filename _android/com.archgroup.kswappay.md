@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.archgroup.kswappay
+alternativeStores: 
 appCountry: 
 released: 2022-11-13
 updated: 2025-11-10

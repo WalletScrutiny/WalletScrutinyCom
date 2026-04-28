@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: team.noones.mobilemessenger
+alternativeStores: 
 appCountry: 
 released: 2023-05-04
 updated: 2026-04-08
 version: 1.26.0
-reviews: 150
+reviews: 151
 website: https://noones.com/
 repository: 
 icon: team.noones.mobilemessenger.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: co.bnbex.n.broker.android
+alternativeStores: 
 appCountry: 
 released: 2021-02-18
 updated: 2021-02-25

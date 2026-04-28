@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.metachainx.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-05-03
 updated: 2022-05-06

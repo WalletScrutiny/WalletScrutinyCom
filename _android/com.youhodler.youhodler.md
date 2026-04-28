@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.youhodler.youhodler
+alternativeStores: 
 appCountry: 
 released: 2019-07-11
 updated: 2026-03-02

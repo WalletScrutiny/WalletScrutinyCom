@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.b21.invest
+alternativeStores: 
 appCountry: in
 released: 2020-02-24
 updated: 2022-01-30

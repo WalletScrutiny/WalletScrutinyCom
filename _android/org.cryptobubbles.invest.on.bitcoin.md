@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.cryptobubbles.invest.on.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-18

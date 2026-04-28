@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: appgiftertreeonepercentcommunitycom.wpapp
+alternativeStores: 
 appCountry: 
 released: 2019-12-04
 updated: 2019-12-05

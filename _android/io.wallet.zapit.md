@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.wallet.zapit
+alternativeStores: 
 appCountry: 
 released: 2021-03-23
 updated: 2025-08-29

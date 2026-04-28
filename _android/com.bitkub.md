@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000000
 appId: com.bitkub
+alternativeStores: 
 appCountry: 
 released: 2019-04-20
-updated: 2026-04-03
-version: 4.13.1
+updated: 2026-04-24
+version: 4.13.2
 reviews: 44
 website: http://www.bitkub.com
 repository: 

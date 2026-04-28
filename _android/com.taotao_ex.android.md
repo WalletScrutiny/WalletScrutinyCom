@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.taotao_ex.android
+alternativeStores: 
 appCountry: 
 released: 2019-05-29
 updated: 2026-01-09

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.alfredwallet.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-12
 updated: 2023-08-23

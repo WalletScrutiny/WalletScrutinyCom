@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: id.ryder.ryderone
+alternativeStores: 
 appCountry: 
 released: 2025-04-02
 updated: 2026-04-14

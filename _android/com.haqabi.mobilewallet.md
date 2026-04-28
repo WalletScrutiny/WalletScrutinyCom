@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.haqabi.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-07-16

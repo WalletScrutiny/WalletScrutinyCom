@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.app.honorfx
+alternativeStores: 
 appCountry: 
 released: 2021-09-22
 updated: 2021-10-09

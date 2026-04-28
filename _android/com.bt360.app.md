@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bt360.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-10-02

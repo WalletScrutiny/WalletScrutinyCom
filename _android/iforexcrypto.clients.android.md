@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: iforexcrypto.clients.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-06-18

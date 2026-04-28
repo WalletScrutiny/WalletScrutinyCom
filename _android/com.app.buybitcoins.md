@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.buybitcoins
+alternativeStores: 
 appCountry: 
 released: 2021-03-20
 updated: 2021-04-08

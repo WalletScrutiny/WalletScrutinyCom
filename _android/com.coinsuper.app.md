@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinsuper.app
+alternativeStores: 
 appCountry: us
 released: 2018-04-24
 updated: 2021-11-04

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: nagax.mobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-04-07

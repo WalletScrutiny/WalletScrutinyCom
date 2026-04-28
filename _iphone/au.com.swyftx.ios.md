@@ -10,7 +10,7 @@ idd: '1516986805'
 released: 2020-07-01
 updated: 2026-04-06
 version: 2.8.43
-reviews: 6028
+reviews: 6030
 website: https://swyftx.com
 repository: 
 icon: au.com.swyftx.ios.jpg

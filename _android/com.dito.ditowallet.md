@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.dito.ditowallet
+alternativeStores: 
 appCountry: 
 released: 2023-01-03
 updated: 2026-03-05

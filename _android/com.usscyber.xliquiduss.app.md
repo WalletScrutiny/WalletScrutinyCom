@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.usscyber.xliquiduss.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-23
 updated: 2024-01-15

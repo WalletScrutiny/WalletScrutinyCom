@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.clovrlabs.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-12-08
 updated: 2023-03-11

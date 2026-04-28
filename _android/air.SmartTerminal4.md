@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: air.SmartTerminal4
+alternativeStores: 
 appCountry: 
 released: 2019-07-28
 updated: 2019-09-08

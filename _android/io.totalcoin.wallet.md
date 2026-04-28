@@ -6,11 +6,12 @@ authors:
 - leo
 users: 500000
 appId: io.totalcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-04-01
 updated: 2025-12-19
 version: 5.8.2.3277
-reviews: 67
+reviews: 68
 website: http://totalcoin.io
 repository: 
 icon: io.totalcoin.wallet.png

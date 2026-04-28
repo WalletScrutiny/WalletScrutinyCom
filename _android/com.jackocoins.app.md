@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.jackocoins.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-18
 updated: 2023-12-06

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.maarcodev.dormantbitcoin
+alternativeStores: 
 appCountry: 
 released: 2021-01-01
 updated: 2023-01-06

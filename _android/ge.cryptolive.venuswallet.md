@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ge.cryptolive.venuswallet
+alternativeStores: 
 appCountry: 
 released: 2018-12-27
 updated: 2020-03-10

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: fi.wonder.labs.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-12-20
 updated: 2025-03-11

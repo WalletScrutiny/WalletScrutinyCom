@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.balletcrypto
+alternativeStores: 
 appCountry: 
 released: 2019-08-08
 updated: 2026-04-20

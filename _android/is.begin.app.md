@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: is.begin.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-30
 updated: 2026-02-23

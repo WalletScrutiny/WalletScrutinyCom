@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: prince.darlington.DashWallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-06
 updated: 2020-10-06

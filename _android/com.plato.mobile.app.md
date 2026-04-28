@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.plato.mobile.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-15
 updated: 2021-11-18

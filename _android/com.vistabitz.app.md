@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.vistabitz.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-03
 updated: 2022-02-02

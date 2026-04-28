@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.ggidream.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-07
 updated: 2019-08-07

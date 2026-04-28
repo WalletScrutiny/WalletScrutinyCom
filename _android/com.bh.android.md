@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bh.android
+alternativeStores: 
 appCountry: us
 released: 2021-04-24
 updated: 2021-10-11

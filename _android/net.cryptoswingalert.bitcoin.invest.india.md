@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: net.cryptoswingalert.bitcoin.invest.india
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-17

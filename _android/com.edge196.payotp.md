@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.edge196.payotp
+alternativeStores: 
 appCountry: 
 released: 2019-07-17
 updated: 2019-07-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.contacripto.app
+alternativeStores: 
 appCountry: 
 released: 2022-06-07
 updated: 2022-06-08

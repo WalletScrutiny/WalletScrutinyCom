@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.paperwallet.top
+alternativeStores: 
 appCountry: 
 released: 2019-06-12
 updated: 2020-10-18

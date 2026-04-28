@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.csesg.cs9
+alternativeStores: 
 appCountry: 
 released: 2020-09-28
 updated: 2021-07-28

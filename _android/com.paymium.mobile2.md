@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.paymium.mobile2
+alternativeStores: 
 appCountry: us
 released: 2018-09-24
 updated: 2026-04-16

@@ -7,11 +7,12 @@ authors:
 - danny
 users: 5000000
 appId: io.safepal.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-26
-updated: 2026-03-26
+updated: 2026-04-21
 version: 4.11.1
-reviews: 1082
+reviews: 1084
 website: https://www.safepal.com
 repository: 
 icon: io.safepal.wallet.png

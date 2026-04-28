@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: world.money.trade.worldmoneytrade
+alternativeStores: 
 appCountry: 
 released: 2020-07-24
 updated: 2020-08-04

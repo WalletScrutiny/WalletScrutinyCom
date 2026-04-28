@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.swissborg.android
+alternativeStores: 
 appCountry: gb
 released: 2020-06-16
-updated: 2026-04-14
-version: 1.133.1
+updated: 2026-04-24
+version: 1.134.0
 reviews: 979
 website: https://swissborg.com
 repository: 

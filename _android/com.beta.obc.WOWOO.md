@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.beta.obc.WOWOO
+alternativeStores: 
 appCountry: 
 released: 2020-01-02
 updated: 2021-10-13

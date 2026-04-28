@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: finance.deus.deus_mobile
+alternativeStores: 
 appCountry: 
 released: 2021-05-13
 updated: 2021-07-23

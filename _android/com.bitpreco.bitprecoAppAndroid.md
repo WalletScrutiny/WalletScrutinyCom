@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitpreco.bitprecoAppAndroid
+alternativeStores: 
 appCountry: br
 released: 2021-02-21
 updated: 2022-12-26

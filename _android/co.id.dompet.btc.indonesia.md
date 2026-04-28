@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: co.id.dompet.btc.indonesia
+alternativeStores: 
 appCountry: 
 released: 2017-01-15
 updated: 2021-10-26

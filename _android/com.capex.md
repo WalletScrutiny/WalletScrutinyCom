@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.capex
+alternativeStores: 
 appCountry: 
 released: 2022-02-15
 updated: 2023-09-21

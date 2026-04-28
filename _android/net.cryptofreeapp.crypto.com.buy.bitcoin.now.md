@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: net.cryptofreeapp.crypto.com.buy.bitcoin.now
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-28

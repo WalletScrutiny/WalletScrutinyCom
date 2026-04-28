@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.bitcoin_pro928837.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-11-10
 updated: 2022-11-11

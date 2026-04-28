@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.turismobtc.app
+alternativeStores: 
 appCountry: 
 released: 2019-04-22
 updated: 2019-06-27

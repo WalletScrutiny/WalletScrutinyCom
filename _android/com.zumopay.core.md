@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.zumopay.core
+alternativeStores: 
 appCountry: 
 released: 2019-10-28
 updated: 2025-06-16

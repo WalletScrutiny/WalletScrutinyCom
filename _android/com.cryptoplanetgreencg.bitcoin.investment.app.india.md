@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.cryptoplanetgreencg.bitcoin.investment.app.india
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-28

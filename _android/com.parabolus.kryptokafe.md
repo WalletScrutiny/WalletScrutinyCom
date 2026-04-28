@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.parabolus.kryptokafe
+alternativeStores: 
 appCountry: 
 released: 2021-02-19
 updated: 2022-05-18

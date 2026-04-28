@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.dodiexchange
+alternativeStores: 
 appCountry: 
 released: 2022-01-21
 updated: 2022-01-21

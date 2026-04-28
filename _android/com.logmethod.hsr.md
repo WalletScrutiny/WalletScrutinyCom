@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.logmethod.hsr
+alternativeStores: 
 appCountry: 
 released: 2022-02-18
 updated: 2022-02-18

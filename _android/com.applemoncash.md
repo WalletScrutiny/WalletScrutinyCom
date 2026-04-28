@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000000
 appId: com.applemoncash
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-13
-version: 2.7.96
+updated: 2026-04-21
+version: 2.7.97
 reviews: 11
 website: https://lemon.me
 repository: 

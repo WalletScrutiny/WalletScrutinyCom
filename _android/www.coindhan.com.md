@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: www.coindhan.com
+alternativeStores: 
 appCountry: 
 released: 2021-09-05
 updated: 2024-04-07

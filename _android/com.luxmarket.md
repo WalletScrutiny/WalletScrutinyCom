@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.luxmarket
+alternativeStores: 
 appCountry: 
 released: 2021-01-11
 updated: 2021-11-07

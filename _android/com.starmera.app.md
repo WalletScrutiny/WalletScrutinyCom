@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.starmera.app
+alternativeStores: 
 appCountry: 
 released: 2022-11-17
 updated: 2023-03-15

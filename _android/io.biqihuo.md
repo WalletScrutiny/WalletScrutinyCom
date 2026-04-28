@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.biqihuo
+alternativeStores: 
 appCountry: 
 released: 2019-08-21
 updated: 2019-08-21

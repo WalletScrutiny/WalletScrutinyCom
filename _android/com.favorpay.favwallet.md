@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.favorpay.favwallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-14
 updated: 2022-01-20

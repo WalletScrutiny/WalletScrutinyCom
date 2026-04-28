@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcon
+alternativeStores: 
 appCountry: 
 released: 2026-01-22
 updated: 2026-04-06

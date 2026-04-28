@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.mobillium.btcturk
+alternativeStores: 
 appCountry: tr
 released: 2020-05-06
 updated: 2025-09-26

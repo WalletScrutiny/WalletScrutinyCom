@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.twallet.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-13
 updated: 2021-07-13

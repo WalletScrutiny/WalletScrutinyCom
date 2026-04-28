@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.imermarket.invesacapital
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-07-04

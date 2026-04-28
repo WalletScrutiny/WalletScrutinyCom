@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinlocally.android
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
 updated: 2026-04-10

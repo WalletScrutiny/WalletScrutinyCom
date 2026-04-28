@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.mexo.app
+alternativeStores: 
 appCountry: us
 released: 2020-08-30
 updated: 2026-04-06

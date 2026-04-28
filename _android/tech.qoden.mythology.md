@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: tech.qoden.mythology
+alternativeStores: 
 appCountry: 
 released: 2020-01-31
 updated: 2020-01-31

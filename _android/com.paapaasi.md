@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.paapaasi
+alternativeStores: 
 appCountry: 
 released: 2021-08-24
 updated: 2021-09-15

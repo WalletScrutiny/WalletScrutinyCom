@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.miriswa.p2p
+alternativeStores: 
 appCountry: 
 released: 2022-08-29
 updated: 2022-09-01

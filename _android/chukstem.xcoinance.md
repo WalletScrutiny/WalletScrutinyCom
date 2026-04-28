@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: chukstem.xcoinance
+alternativeStores: 
 appCountry: 
 released: 2022-01-18
 updated: 2024-03-05

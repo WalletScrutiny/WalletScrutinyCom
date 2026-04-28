@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: moonx.exchange.moonx
+alternativeStores: 
 appCountry: 
 released: 2019-08-09
 updated: 2020-07-16

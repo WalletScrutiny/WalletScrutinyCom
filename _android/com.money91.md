@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000000
 appId: com.money91
+alternativeStores: 
 appCountry: 
 released: 2018-10-12
 updated: 2024-08-26

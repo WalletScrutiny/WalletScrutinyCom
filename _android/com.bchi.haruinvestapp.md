@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bchi.haruinvestapp
+alternativeStores: 
 appCountry: us
 released: 2021-08-11
 updated: 2023-05-22

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinut.app
+alternativeStores: 
 appCountry: 
 released: 2018-02-04
 updated: 2023-12-07

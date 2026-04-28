@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: paydeepp.elegro.io
+alternativeStores: 
 appCountry: 
 released: 2018-11-09
 updated: 2026-03-03

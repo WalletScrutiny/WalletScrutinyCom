@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.viabtc.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-15
 updated: 2026-04-20

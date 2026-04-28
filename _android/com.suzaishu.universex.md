@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.suzaishu.universex
+alternativeStores: 
 appCountry: 
 released: 2021-10-22
 updated: 2021-10-22

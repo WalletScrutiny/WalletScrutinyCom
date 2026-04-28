@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: trade.iqforex
+alternativeStores: 
 appCountry: 
 released: 2019-09-09
 updated: 2019-11-26

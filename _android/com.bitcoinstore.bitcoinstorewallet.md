@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoinstore.bitcoinstorewallet
+alternativeStores: 
 appCountry: 
 released: 2023-01-03
 updated: 2025-10-31

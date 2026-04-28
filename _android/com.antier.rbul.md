@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.antier.rbul
+alternativeStores: 
 appCountry: 
 released: 2021-12-24
 updated: 2022-02-17

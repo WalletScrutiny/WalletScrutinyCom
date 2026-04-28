@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: org.canadaecoin.moonshine
+alternativeStores: 
 appCountry: 
 released: 2022-07-22
 updated: 2024-03-09

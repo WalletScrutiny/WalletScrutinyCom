@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.trendo.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-05
 updated: 2025-02-18

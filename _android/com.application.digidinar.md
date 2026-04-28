@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.application.digidinar
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-03-02

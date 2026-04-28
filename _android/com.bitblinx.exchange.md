@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bitblinx.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-11-16
 updated: 2020-05-01

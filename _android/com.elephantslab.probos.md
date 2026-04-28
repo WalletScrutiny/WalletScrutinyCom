@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.elephantslab.probos
+alternativeStores: 
 appCountry: 
 released: 2022-09-20
 updated: 2022-09-30

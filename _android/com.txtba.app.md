@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.txtba.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-21
 updated: 2022-10-20

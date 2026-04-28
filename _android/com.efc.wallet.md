@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.efc.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-30
 updated: 2021-04-05

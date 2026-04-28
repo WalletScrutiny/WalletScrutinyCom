@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.bitgate.flutter
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-04-14

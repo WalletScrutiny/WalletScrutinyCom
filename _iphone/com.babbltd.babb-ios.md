@@ -8,17 +8,17 @@ appId: com.babbltd.babb-ios
 appCountry: us
 idd: '1474391121'
 released: 2020-04-14
-updated: 2024-12-16
-version: 2.5.3
+updated: 2026-04-13
+version: 2.5.4
 reviews: 85
 website: https://getbabb.com/
 repository: 
 icon: com.babbltd.babb-ios.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-12-18
+date: 2026-04-28
 signer: 
 twitter: getbabb
 social:

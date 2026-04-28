@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: orillia.com.orilliamerchantapp
+alternativeStores: 
 appCountry: 
 released: 2015-06-03
 updated: 2015-06-03

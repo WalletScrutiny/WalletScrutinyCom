@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.rapidz.rapidzcheckout
+alternativeStores: 
 appCountry: 
 released: 2022-06-06
 updated: 2024-02-08

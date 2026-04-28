@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.edss.pones
+alternativeStores: 
 appCountry: 
 released: 2021-04-29
 updated: 2021-04-29

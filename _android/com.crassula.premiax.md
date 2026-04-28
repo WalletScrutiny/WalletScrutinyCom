@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crassula.premiax
+alternativeStores: 
 appCountry: 
 released: 2022-05-26
 updated: 2023-08-28

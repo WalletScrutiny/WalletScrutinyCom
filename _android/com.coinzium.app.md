@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.coinzium.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-19
 updated: 2021-11-19

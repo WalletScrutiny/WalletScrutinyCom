@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000000
 appId: com.btcturk.pro
+alternativeStores: 
 appCountry: 
 released: 2020-09-10
 updated: 2026-04-02

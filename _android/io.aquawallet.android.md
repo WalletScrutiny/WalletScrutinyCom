@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 50000
 appId: io.aquawallet.android
+alternativeStores: 
 appCountry: 
 released: 2024-01-02
 updated: 2026-04-08

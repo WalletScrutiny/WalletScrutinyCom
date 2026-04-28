@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.hrai.android
+alternativeStores: 
 appCountry: 
 released: 2022-04-26
 updated: 2022-05-26

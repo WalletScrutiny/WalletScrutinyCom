@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wBitcoinPrime_15557726
+alternativeStores: 
 appCountry: 
 released: 2022-05-26
 updated: 2022-05-26

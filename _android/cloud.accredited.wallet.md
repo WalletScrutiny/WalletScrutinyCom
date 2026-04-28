@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cloud.accredited.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-02
 updated: 2023-06-29

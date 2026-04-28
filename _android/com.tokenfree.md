@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tokenfree
+alternativeStores: 
 appCountry: 
 released: 2021-09-10
 updated: 2021-10-22

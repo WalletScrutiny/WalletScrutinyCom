@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.coinsvalue
+alternativeStores: 
 appCountry: 
 released: 2021-09-10
 updated: 2021-11-07

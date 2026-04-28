@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: kr.co.binaries.bimaxbeta
+alternativeStores: 
 appCountry: 
 released: 2018-10-01
 updated: 2018-10-02

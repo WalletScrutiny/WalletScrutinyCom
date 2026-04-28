@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.blockchain.android
+alternativeStores: 
 appCountry: 
 released: 2020-06-15
 updated: 2021-01-04

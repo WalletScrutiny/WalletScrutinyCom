@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.chainup.exchange.exchange365
+alternativeStores: 
 appCountry: 
 released: 2022-09-09
 updated: 2022-09-27

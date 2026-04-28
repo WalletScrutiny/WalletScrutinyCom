@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crenzy.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-25
 updated: 2020-05-14

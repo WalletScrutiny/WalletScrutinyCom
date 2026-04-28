@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.kora.koracryptowallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2022-10-26

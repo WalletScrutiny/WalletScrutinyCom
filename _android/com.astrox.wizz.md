@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.astrox.wizz
+alternativeStores: 
 appCountry: 
 released: 2023-07-10
 updated: 2025-10-13

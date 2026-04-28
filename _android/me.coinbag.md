@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: me.coinbag
+alternativeStores: 
 appCountry: 
 released: 2022-01-07
 updated: 2022-11-30

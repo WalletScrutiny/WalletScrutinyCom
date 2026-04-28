@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: uni.UNI2A1D818
+alternativeStores: 
 appCountry: 
 released: 2021-09-23
 updated: 2021-12-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: fortesp.minivault
+alternativeStores: 
 appCountry: 
 released: 2020-10-18
 updated: 2020-11-25

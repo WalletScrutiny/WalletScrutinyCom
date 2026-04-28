@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bithappy.browser.v1
+alternativeStores: 
 appCountry: 
 released: 2016-06-21
 updated: 2017-11-23

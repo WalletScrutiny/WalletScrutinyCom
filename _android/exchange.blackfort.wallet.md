@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: exchange.blackfort.wallet
+alternativeStores: 
 appCountry: ee
 released: 2020-08-31
 updated: 2021-10-27

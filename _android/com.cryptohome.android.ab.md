@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptohome.android.ab
+alternativeStores: 
 appCountry: 
 released: 2021-11-10
 updated: 2021-11-10

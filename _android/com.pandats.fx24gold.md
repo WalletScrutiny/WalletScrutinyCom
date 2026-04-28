@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.pandats.fx24gold
+alternativeStores: 
 appCountry: 
 released: 2020-12-17
 updated: 2020-12-23

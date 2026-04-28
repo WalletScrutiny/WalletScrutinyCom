@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: kr.co.rocketchart.gorillabit.v1
+alternativeStores: 
 appCountry: 
 released: 2021-06-23
 updated: 2021-09-17

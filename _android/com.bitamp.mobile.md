@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitamp.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-04-10
 updated: 2021-04-27

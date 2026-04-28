@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: dtn.bosdeden.dtech
+alternativeStores: 
 appCountry: 
 released: 2021-03-05
 updated: 2021-03-05

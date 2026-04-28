@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: co.hodlwallet
+alternativeStores: 
 appCountry: 
 released: 2018-09-24
 updated: 2020-05-18

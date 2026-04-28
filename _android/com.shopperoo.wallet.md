@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.shopperoo.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-07
 updated: 2022-08-08

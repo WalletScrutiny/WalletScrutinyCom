@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.lopeer.lopeer
+alternativeStores: 
 appCountry: 
 released: 2022-08-13
 updated: 2023-12-05

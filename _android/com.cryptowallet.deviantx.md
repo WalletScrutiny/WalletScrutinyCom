@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptowallet.deviantx
+alternativeStores: 
 appCountry: 
 released: 2018-11-12
 updated: 2019-08-01

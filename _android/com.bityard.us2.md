@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bityard.us2
+alternativeStores: 
 appCountry: 
 released: 2021-03-31
 updated: 2021-03-31

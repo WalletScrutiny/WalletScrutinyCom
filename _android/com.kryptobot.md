@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.kryptobot
+alternativeStores: 
 appCountry: 
 released: 2019-06-07
 updated: 2021-01-15

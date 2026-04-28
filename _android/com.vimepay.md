@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.vimepay
+alternativeStores: 
 appCountry: 
 released: 2021-09-18
 updated: 2021-09-18

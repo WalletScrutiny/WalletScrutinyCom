@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.hashfinanciero.prod
+alternativeStores: 
 appCountry: 
 released: 2020-02-08
 updated: 2020-02-08

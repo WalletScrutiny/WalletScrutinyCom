@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: crypto.exchange3.shahidsoft
+alternativeStores: 
 appCountry: 
 released: 2021-07-12
 updated: 2021-07-12

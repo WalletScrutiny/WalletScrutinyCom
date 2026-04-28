@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ciclex.app
+alternativeStores: 
 appCountry: 
 released: 2021-03-11
 updated: 2021-05-11

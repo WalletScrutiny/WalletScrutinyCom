@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.tux.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-28
 updated: 2026-04-17

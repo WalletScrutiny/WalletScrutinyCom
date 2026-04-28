@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vdcloud.cforcoins
+alternativeStores: 
 appCountry: 
 released: 2018-05-13
 updated: 2020-05-13

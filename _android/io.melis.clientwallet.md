@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: io.melis.clientwallet
+alternativeStores: 
 appCountry: 
 released: 2017-01-30
 updated: 2021-09-30

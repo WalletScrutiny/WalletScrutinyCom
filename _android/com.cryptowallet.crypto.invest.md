@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.cryptowallet.crypto.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.cryptocurrencys.bestwallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-30

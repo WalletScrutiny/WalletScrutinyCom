@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cbank2.android
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2021-10-07

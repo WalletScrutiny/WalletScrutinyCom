@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: secfutures.aab
+alternativeStores: 
 appCountry: 
 released: 2022-04-30
 updated: 2022-04-30

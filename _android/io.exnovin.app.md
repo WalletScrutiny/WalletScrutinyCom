@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: io.exnovin.app
+alternativeStores: 
 appCountry: 
 released: 2020-12-12
 updated: 2025-10-20
 version: 3.5.9
-reviews: 33
+reviews: 32
 website: https://exnovin.io
 repository: 
 icon: io.exnovin.app.png

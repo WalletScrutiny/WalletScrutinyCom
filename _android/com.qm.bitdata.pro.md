@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.qm.bitdata.pro
+alternativeStores: 
 appCountry: 
 released: 2019-05-21
 updated: 2026-03-03

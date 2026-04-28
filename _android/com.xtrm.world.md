@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.xtrm.world
+alternativeStores: 
 appCountry: 
 released: 2020-02-16
 updated: 2020-06-09

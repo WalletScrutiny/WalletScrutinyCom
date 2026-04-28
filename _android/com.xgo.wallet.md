@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xgo.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-05-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.asiainnovations.ace.taiwan
+alternativeStores: 
 appCountry: us
 released: 2019-01-28
 updated: 2024-12-04

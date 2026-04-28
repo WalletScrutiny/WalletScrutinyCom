@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: www.echangerbd.com
+alternativeStores: 
 appCountry: 
 released: 2020-03-21
 updated: 2020-04-23

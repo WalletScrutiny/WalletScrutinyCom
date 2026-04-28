@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.kelta.app
+alternativeStores: 
 appCountry: sk
 released: 2018-05-15
 updated: 2022-07-29

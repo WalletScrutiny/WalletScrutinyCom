@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wadz.wadzapp
+alternativeStores: 
 appCountry: 
 released: 2020-12-29
 updated: 2022-06-26

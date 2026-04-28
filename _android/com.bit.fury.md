@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bit.fury
+alternativeStores: 
 appCountry: 
 released: 2022-10-17
 updated: 2023-02-26

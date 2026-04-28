@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: pixel.websolutions.ecrytpos.easy_cryptos
+alternativeStores: 
 appCountry: 
 released: 2022-02-10
 updated: 2022-02-10

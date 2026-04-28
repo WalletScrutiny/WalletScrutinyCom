@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.honesto.honesto
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-10-23

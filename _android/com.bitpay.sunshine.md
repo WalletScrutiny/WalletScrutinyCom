@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitpay.sunshine
+alternativeStores: 
 appCountry: 
 released: 2017-08-12
 updated: 2017-08-18

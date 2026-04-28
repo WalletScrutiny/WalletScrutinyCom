@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: plus.H589A351F
+alternativeStores: 
 appCountry: 
 released: 2023-03-29
 updated: 2023-04-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.decomlab.wallet
+alternativeStores: 
 appCountry: us
 released: 2021-07-26
 updated: 2021-09-02

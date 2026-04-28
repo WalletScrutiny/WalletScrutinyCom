@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: io.bitazure.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-01
 updated: 2021-07-20

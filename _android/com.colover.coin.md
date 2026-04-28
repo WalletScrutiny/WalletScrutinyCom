@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.colover.coin
+alternativeStores: 
 appCountry: 
 released: 2018-09-18
 updated: 2019-03-11

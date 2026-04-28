@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.guardianlabs.keyper
+alternativeStores: 
 appCountry: 
 released: 2022-08-06
 updated: 2024-11-05
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

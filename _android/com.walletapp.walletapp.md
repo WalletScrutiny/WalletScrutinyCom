@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.walletapp.walletapp
+alternativeStores: 
 appCountry: 
 released: 2020-08-04
 updated: 2021-01-28

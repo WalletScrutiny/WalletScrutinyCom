@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: co.bacoor.keyring
+alternativeStores: 
 appCountry: 
 released: 2021-01-21
 updated: 2026-03-16

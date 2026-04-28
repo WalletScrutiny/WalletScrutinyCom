@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: starlab.studios.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-01
 updated: 2024-01-30

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: ch.smd.icynote
+alternativeStores: 
 appCountry: 
 released: 2021-07-11
 updated: 2023-09-22

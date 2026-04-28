@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.weareblox.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-08
-version: 6.8.1
+version: 6.8.2
 reviews: 
 website: https://weareblox.com
 repository: 

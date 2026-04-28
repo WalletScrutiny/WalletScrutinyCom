@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.agaegae.cryptotrader
+alternativeStores: 
 appCountry: 
 released: 2021-10-23
 updated: 2021-10-24

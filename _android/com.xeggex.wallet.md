@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.xeggex.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-07-12
 updated: 2022-07-12

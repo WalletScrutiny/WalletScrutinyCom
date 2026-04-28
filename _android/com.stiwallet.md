@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.stiwallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-09
 updated: 2021-04-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.timebitex.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-25
 updated: 2023-02-08

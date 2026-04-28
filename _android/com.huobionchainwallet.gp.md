@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000000
 appId: com.huobionchainwallet.gp
+alternativeStores: 
 appCountry: 
 released: 2019-10-17
 updated: 2023-06-05

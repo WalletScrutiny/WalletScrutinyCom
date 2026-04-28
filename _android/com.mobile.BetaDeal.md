@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.mobile.BetaDeal
+alternativeStores: 
 appCountry: 
 released: 2021-06-30
 updated: 2022-01-26

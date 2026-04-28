@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.spaceground
+alternativeStores: 
 appCountry: 
 released: 2022-06-09
 updated: 2023-07-10

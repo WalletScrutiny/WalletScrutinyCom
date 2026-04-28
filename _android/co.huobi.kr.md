@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.huobi.kr
+alternativeStores: 
 appCountry: cn
 released: 2018-04-12
 updated: 2023-08-09

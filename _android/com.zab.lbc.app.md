@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.zab.lbc.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-13
 updated: 2020-08-07

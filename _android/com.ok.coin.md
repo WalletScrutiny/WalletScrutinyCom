@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ok.coin
+alternativeStores: 
 appCountry: 
 released: 2018-08-30
 updated: 2018-09-06

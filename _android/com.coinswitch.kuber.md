@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: com.coinswitch.kuber
+alternativeStores: 
 appCountry: in
 released: 2020-05-31
-updated: 2026-04-12
-version: 9.2.4
-reviews: 146695
+updated: 2026-04-28
+version: 9.2.6
+reviews: 146703
 website: https://coinswitch.co
 repository: 
 icon: com.coinswitch.kuber.png

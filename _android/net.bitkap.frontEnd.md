@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: net.bitkap.frontEnd
+alternativeStores: 
 appCountry: 
 released: 2021-11-21
 updated: 2025-04-21

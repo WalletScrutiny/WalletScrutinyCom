@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: net.mobillpos.app
+alternativeStores: 
 appCountry: 
 released: 2019-10-04
 updated: 2020-12-18

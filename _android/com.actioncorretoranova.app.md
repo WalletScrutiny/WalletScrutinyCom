@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.actioncorretoranova.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-06-06

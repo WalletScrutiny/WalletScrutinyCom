@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bltwallet.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2021-12-24
 updated: 2022-02-01

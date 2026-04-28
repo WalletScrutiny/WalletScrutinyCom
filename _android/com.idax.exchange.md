@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.idax.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-04-24
 updated: 2022-09-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bixin.bixin_android
+alternativeStores: 
 appCountry: 
 released: 2017-03-22
 updated: 2026-01-09

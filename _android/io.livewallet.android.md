@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.livewallet.android
+alternativeStores: 
 appCountry: 
 released: 2023-03-04
 updated: 2023-04-09

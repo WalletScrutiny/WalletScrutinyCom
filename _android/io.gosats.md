@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: io.gosats
+alternativeStores: 
 appCountry: 
 released: 2021-01-06
-updated: 2026-04-17
-version: 3.0.3
+updated: 2026-04-22
+version: 3.0.4
 reviews: 4
 website: https://gosats.io
 repository: 

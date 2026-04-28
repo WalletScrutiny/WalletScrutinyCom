@@ -8,10 +8,11 @@ authors:
 - leo
 users: 100000
 appId: one.mixin.messenger
+alternativeStores: 
 appCountry: us
 released: 2018-05-24
-updated: 2026-04-16
-version: 4.1.1
+updated: 2026-04-24
+version: 4.1.3
 reviews: 153
 website: https://mixin.one/messenger
 repository: https://github.com/MixinNetwork/android-app

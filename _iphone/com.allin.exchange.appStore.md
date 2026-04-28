@@ -8,8 +8,8 @@ appId: com.allin.exchange.appStore
 appCountry: us
 idd: '6736860332'
 released: 2025-02-10
-updated: 2026-03-27
-version: 1.2.1
+updated: 2026-04-23
+version: 1.2.4
 reviews: 3
 website: https://www.allinx.io
 repository: 

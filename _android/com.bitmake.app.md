@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitmake.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-04
 updated: 2024-01-26

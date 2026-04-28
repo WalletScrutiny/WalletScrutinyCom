@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ampiy.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-06
 updated: 2025-09-30

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.meta1.appbeta
+alternativeStores: 
 appCountry: 
 released: 2022-03-31
 updated: 2024-05-20

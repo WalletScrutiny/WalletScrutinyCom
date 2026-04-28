@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.myunis.cardmachine
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-03-11

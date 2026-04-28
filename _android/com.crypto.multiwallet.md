@@ -7,11 +7,12 @@ authors:
 - danny
 users: 500000
 appId: com.crypto.multiwallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-01
-updated: 2026-04-15
-version: 3.1.7
-reviews: 560
+updated: 2026-04-21
+version: 3.1.9
+reviews: 561
 website: https://guarda.com
 repository: 
 icon: com.crypto.multiwallet.jpg

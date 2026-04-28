@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.conglex.conglex
+alternativeStores: 
 appCountry: 
 released: 2022-05-12
 updated: 2025-08-14

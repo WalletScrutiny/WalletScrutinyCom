@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wise.llc.wallet.app
+alternativeStores: 
 appCountry: fi
 released: 2020-09-03
 updated: 2021-07-02

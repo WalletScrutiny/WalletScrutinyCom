@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.ideal.studio.milly_crypto
+alternativeStores: 
 appCountry: 
 released: 2021-01-11
 updated: 2021-02-23

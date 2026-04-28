@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.moonpos
+alternativeStores: 
 appCountry: 
 released: 2018-05-04
 updated: 2024-08-12

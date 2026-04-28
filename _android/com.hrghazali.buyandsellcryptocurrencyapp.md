@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hrghazali.buyandsellcryptocurrencyapp
+alternativeStores: 
 appCountry: 
 released: 2021-07-24
 updated: 2023-02-27

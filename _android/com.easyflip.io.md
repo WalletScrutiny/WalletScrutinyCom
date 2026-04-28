@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.easyflip.io
+alternativeStores: 
 appCountry: 
 released: 2022-07-11
 updated: 2022-12-04

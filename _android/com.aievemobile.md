@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.aievemobile
+alternativeStores: 
 appCountry: 
 released: 2018-11-13
 updated: 2019-05-25

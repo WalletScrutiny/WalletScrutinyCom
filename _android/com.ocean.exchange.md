@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ocean.exchange
+alternativeStores: 
 appCountry: us
 released: 2019-07-04
 updated: 2023-08-24

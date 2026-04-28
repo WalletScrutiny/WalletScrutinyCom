@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50
 appId: com.jaxx.crypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-11
 updated: 2021-10-12

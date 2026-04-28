@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.coinberry_mobile
+alternativeStores: 
 appCountry: ca
 released: 2018-12-19
 updated: 2023-06-01

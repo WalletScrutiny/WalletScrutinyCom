@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.defichain.app.dfx.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2023-02-23
 updated: 2023-08-18

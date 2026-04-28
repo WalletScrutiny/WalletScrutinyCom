@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.oxwallet
+alternativeStores: 
 appCountry: 
 released: 2024-10-14
 updated: 2025-04-06

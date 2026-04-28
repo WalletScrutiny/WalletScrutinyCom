@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: web.tradenewton.com
+alternativeStores: 
 appCountry: 
 released: 2019-11-18
-updated: 2026-04-10
-version: 2.20.20
+updated: 2026-04-24
+version: 2.20.22
 reviews: 4
 website: https://newton.co
 repository: 

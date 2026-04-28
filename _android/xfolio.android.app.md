@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: xfolio.android.app
+alternativeStores: 
 appCountry: 
 released: 2019-02-13
 updated: 2020-03-08

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: jp.co.okasan_online.okasanonline.crypto.prd
+alternativeStores: 
 appCountry: 
 released: 2022-01-28
 updated: 2024-02-21

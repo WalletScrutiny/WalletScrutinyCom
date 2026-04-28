@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.cpeddle
+alternativeStores: 
 appCountry: 
 released: 2020-04-09
 updated: 2020-04-10

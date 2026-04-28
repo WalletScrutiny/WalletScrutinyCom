@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.coinbucket
+alternativeStores: 
 appCountry: 
 released: 2018-05-26
 updated: 2022-05-02

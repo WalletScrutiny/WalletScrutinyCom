@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.CryptAppsBtc.Life
+alternativeStores: 
 appCountry: 
 released: 2022-03-28
 updated: 2022-03-28

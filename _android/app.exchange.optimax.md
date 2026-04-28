@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: app.exchange.optimax
+alternativeStores: 
 appCountry: 
 released: 2022-02-10
 updated: 2022-02-11

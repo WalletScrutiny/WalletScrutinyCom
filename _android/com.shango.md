@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.shango
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-06-01

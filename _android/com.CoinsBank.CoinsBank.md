@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.CoinsBank.CoinsBank
+alternativeStores: 
 appCountry: 
 released: 2016-04-03
 updated: 2020-12-30

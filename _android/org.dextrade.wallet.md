@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: org.dextrade.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-22
 updated: 2025-09-29

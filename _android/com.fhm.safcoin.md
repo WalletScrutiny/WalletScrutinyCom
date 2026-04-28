@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.fhm.safcoin
+alternativeStores: 
 appCountry: 
 released: 2018-12-13
 updated: 2022-03-30

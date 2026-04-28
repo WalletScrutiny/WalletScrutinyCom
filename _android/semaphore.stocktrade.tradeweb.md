@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: semaphore.stocktrade.tradeweb
+alternativeStores: 
 appCountry: 
 released: 2018-01-22
 updated: 2020-08-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: uni.PAC62A36
+alternativeStores: 
 appCountry: 
 released: 2022-12-25
 updated: 2023-05-17

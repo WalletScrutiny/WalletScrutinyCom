@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: org.bitcoinup.invest.in.cryptocurrency
+alternativeStores: 
 appCountry: 
 released: 2021-06-17
 updated: 2021-06-17

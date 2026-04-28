@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: id.huobi.indonesia
+alternativeStores: 
 appCountry: 
 released: 2020-03-09
 updated: 2021-07-01

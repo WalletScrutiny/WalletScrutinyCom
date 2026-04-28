@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tehranExchangeGroup.tehran_exchange
+alternativeStores: 
 appCountry: 
 released: 2022-12-08
 updated: 2023-10-24

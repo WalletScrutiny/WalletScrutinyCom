@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.cryptoblastersltd.bitcoin.wallet.account
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.bixter.twa
+alternativeStores: 
 appCountry: 
 released: 2020-12-19
 updated: 2020-12-07

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gow
+alternativeStores: 
 appCountry: 
 released: 2021-11-14
 updated: 2021-12-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.sonicx.payus
+alternativeStores: 
 appCountry: 
 released: 2021-02-06
 updated: 2021-02-10

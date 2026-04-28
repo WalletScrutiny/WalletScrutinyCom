@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.application.koinpark
+alternativeStores: 
 appCountry: 
 released: 2023-02-04
 updated: 2026-03-24

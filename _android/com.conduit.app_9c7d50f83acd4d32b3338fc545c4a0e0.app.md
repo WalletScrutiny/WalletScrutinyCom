@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app
+alternativeStores: 
 appCountry: 
 released: 2021-03-31
 updated: 2021-03-31

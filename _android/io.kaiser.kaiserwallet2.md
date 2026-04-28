@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.kaiser.kaiserwallet2
+alternativeStores: 
 appCountry: 
 released: 2018-10-03
 updated: 2022-11-12

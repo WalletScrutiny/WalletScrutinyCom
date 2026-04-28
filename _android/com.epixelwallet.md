@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.epixelwallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-20
 updated: 2020-01-07

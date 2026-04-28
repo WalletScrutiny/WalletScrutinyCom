@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pro.changelly
+alternativeStores: 
 appCountry: 
 released: 2020-07-03
 updated: 2025-01-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.blockbee.pos
+alternativeStores: 
 appCountry: 
 released: 2022-08-30
 updated: 2024-10-07

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.pt.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-14
 updated: 2021-02-25

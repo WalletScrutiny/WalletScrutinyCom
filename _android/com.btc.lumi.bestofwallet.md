@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.btc.lumi.bestofwallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2021-04-06

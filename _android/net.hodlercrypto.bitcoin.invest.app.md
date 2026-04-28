@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.hodlercrypto.bitcoin.invest.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

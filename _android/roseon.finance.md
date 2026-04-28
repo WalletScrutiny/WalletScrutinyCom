@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: roseon.finance
+alternativeStores: 
 appCountry: vn
 released: 2021-03-16
 updated: 2024-10-31

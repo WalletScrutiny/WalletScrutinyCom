@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gcs.pro
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-05-09

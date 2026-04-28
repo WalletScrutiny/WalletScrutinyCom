@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tycotrader.myapplication
+alternativeStores: 
 appCountry: 
 released: 2019-04-12
 updated: 2020-03-19

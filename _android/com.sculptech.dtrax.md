@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.sculptech.dtrax
+alternativeStores: 
 appCountry: 
 released: 2019-01-24
 updated: 2020-05-24

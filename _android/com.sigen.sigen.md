@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.sigen.sigen
+alternativeStores: 
 appCountry: ru
 released: 2020-04-18
 updated: 2025-04-17

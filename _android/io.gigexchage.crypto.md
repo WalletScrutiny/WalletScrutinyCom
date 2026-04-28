@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.gigexchage.crypto
+alternativeStores: 
 appCountry: 
 released: 2022-03-21
 updated: 2022-04-30

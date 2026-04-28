@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.trustadx.bybit
+alternativeStores: 
 appCountry: 
 released: 2021-09-03
 updated: 2022-01-18

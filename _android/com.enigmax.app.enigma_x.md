@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.enigmax.app.enigma_x
+alternativeStores: 
 appCountry: 
 released: 2022-01-17
 updated: 2022-11-03

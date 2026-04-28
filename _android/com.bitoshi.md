@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitoshi
+alternativeStores: 
 appCountry: 
 released: 2022-10-13
 updated: 2026-04-16

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.mobile.kyc
+alternativeStores: 
 appCountry: 
 released: 2022-01-21
 updated: 2022-10-28

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: app.braavos.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-07-12
 updated: 2026-02-04

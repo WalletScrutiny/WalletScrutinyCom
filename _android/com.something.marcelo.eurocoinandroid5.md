@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.something.marcelo.eurocoinandroid5
+alternativeStores: 
 appCountry: 
 released: 2018-11-17
 updated: 2025-10-03

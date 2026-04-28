@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: btc.org.freewallet.app
+alternativeStores: 
 appCountry: 
 released: 2016-06-13
 updated: 2021-09-20

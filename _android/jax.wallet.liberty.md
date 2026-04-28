@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: jax.wallet.liberty
+alternativeStores: 
 appCountry: 
 released: 2021-08-30
 updated: 2021-08-31

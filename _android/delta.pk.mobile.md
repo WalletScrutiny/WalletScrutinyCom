@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: delta.pk.mobile
+alternativeStores: 
 appCountry: bg
 released: 2013-03-29
 updated: 2025-10-21

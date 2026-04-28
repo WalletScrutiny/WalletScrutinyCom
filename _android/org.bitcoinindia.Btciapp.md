@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: org.bitcoinindia.Btciapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-08-25

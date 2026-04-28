@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: web.xusdt.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-15
 updated: 2022-05-14

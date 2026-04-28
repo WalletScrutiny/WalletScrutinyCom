@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: xchange_coins.com
+alternativeStores: 
 appCountry: 
 released: 2021-03-26
 updated: 2021-03-26

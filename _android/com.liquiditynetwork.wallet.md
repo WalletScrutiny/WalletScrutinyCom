@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.liquiditynetwork.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-06-07
 updated: 2020-07-16

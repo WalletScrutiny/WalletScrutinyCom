@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.freeda.freedaapp
+alternativeStores: 
 appCountry: us
 released: 2021-04-13
 updated: 2022-08-17

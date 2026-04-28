@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bicasoft_labs.crypto_tae
+alternativeStores: 
 appCountry: 
 released: 2021-08-15
 updated: 2021-09-08

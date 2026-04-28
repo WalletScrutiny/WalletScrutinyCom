@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.circle.invest
+alternativeStores: 
 appCountry: 
 released: 2018-03-13
 updated: 2022-04-28

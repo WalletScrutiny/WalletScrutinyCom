@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.trust.airdrop
+alternativeStores: 
 appCountry: 
 released: 2021-07-09
 updated: 2021-07-22

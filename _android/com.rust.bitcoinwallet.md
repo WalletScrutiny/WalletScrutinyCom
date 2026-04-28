@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.rust.bitcoinwallet
+alternativeStores: 
 appCountry: 
 released: 2023-04-15
 updated: 2023-05-15

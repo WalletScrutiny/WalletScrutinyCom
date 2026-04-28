@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000
 appId: com.trading.aries
+alternativeStores: 
 appCountry: ng
 released: 2021-06-23
-updated: 2026-04-14
-version: 3.7.17
+updated: 2026-04-24
+version: 3.8.0
 reviews: 
 website: https://tradearies.com
 repository: 

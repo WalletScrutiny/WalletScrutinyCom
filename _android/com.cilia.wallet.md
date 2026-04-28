@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cilia.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-05-18
 updated: 2021-05-18

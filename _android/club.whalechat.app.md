@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: club.whalechat.app
+alternativeStores: 
 appCountry: 
 released: 2019-10-13
 updated: 2020-03-07

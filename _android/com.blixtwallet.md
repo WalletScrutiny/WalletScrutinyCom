@@ -7,6 +7,7 @@ authors:
 - danny
 users: 5000
 appId: com.blixtwallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-02-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.switchere.switchere
+alternativeStores: 
 appCountry: 
 released: 2021-11-15
 updated: 2025-10-13

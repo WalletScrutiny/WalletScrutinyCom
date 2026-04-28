@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wTheTesler_15223307
+alternativeStores: 
 appCountry: 
 released: 2022-02-24
 updated: 2022-02-24

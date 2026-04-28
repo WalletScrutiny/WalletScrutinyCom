@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ru.webtronics.touch_wallet
+alternativeStores: 
 appCountry: 
 released: 2022-10-29
 updated: 2025-04-30
@@ -15,10 +16,10 @@ website: https://touchwallet.com/
 repository: 
 icon: ru.webtronics.touch_wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-07-02
+date: 2026-04-28
 signer: 
 twitter: Touch_Wallet
 social:

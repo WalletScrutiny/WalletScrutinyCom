@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: co.tradehall.app.tradehall
+alternativeStores: 
 appCountry: 
 released: 2022-08-02
 updated: 2023-03-02

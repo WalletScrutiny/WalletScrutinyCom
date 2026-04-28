@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000000
 appId: com.xfr.xtrade
+alternativeStores: 
 appCountry: 
 released: 2014-10-02
 updated: 2026-03-25

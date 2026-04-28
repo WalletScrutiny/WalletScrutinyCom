@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: changella.changella
+alternativeStores: 
 appCountry: 
 released: 2022-06-08
 updated: 2023-08-20

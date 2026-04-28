@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.spruceid.app.credible
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-27

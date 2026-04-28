@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.korvio
+alternativeStores: 
 appCountry: 
 released: 2019-06-21
 updated: 2021-03-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.walletconnect.walletair
+alternativeStores: 
 appCountry: 
 released: 2021-08-23
 updated: 2021-08-23

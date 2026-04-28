@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: me.minichange.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-26
 updated: 2022-01-13

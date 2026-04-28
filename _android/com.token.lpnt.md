@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.token.lpnt
+alternativeStores: 
 appCountry: 
 released: 2021-05-03
 updated: 2023-06-15

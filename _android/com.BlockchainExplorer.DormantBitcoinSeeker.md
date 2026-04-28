@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.BlockchainExplorer.DormantBitcoinSeeker
+alternativeStores: 
 appCountry: 
 released: 2022-06-04
 updated: 2023-01-15

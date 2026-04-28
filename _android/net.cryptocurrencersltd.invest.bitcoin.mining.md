@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.cryptocurrencersltd.invest.bitcoin.mining
+alternativeStores: 
 appCountry: 
 released: 2021-07-18
 updated: 2021-07-18

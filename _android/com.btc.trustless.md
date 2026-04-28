@@ -6,6 +6,7 @@ authors:
 - Pechen987 https://github.com/Pechen987
 users: 10
 appId: com.btc.trustless
+alternativeStores: 
 appCountry: it
 released: 2026-02-03
 updated: 2026-02-03

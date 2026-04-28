@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.logos
+alternativeStores: 
 appCountry: 
 released: 2020-09-16
 updated: 2025-10-20

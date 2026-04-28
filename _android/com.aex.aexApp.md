@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.aex.aexApp
+alternativeStores: 
 appCountry: 
 released: 2019-10-09
 updated: 2022-09-21

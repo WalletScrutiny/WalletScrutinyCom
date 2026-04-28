@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.trxglobal.owgkf
+alternativeStores: 
 appCountry: 
 released: 2022-03-27
 updated: 2022-09-05

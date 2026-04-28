@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vowcurrency.vow
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2024-03-28

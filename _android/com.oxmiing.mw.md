@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.oxmiing.mw
+alternativeStores: 
 appCountry: 
 released: 2022-01-13
 updated: 2022-04-07

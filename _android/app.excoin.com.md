@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.excoin.com
+alternativeStores: 
 appCountry: 
 released: 2022-03-20
 updated: 2022-09-16

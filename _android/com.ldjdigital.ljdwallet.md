@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.ldjdigital.ljdwallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-29
 updated: 2020-09-03

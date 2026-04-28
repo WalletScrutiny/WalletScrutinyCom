@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forftx
+alternativeStores: 
 appCountry: 
 released: 2021-08-25
 updated: 2022-09-13

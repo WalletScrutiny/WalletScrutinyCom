@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.scc.UniteGlobal
+alternativeStores: 
 appCountry: 
 released: 2019-08-08
 updated: 2019-08-08

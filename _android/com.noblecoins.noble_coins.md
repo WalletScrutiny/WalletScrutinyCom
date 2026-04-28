@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.noblecoins.noble_coins
+alternativeStores: 
 appCountry: 
 released: 2021-12-01
 updated: 2022-08-12

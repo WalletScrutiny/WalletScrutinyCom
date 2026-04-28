@@ -7,6 +7,7 @@ authors:
 - emanuel
 users: 10000
 appId: com.ccwalletapp
+alternativeStores: 
 appCountry: 
 released: 2019-06-26
 updated: 2020-07-29

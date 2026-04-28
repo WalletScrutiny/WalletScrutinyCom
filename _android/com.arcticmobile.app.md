@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.arcticmobile.app
+alternativeStores: 
 appCountry: 
 released: 2022-12-15
 updated: 2024-07-17

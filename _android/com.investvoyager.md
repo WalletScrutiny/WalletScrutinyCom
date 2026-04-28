@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.investvoyager
+alternativeStores: 
 appCountry: 
 released: 2020-02-25
 updated: 2023-07-13

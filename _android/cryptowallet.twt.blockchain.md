@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cryptowallet.twt.blockchain
+alternativeStores: 
 appCountry: 
 released: 2023-02-22
 updated: 2023-02-22

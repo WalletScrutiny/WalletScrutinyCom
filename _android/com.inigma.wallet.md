@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.inigma.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-03-29
 updated: 2020-12-22

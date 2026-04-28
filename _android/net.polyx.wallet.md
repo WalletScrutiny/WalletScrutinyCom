@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: net.polyx.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-01
 updated: 2022-09-16

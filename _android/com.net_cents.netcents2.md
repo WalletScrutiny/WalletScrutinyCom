@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.net_cents.netcents2
+alternativeStores: 
 appCountry: us
 released: 2017-10-12
 updated: 2022-11-19

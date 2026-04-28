@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.ezdefi
+alternativeStores: 
 appCountry: 
 released: 2019-11-29
 updated: 2021-09-08

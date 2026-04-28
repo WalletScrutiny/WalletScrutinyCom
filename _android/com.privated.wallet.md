@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.privated.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-01-27
 updated: 2023-04-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.miloxaspen
+alternativeStores: 
 appCountry: 
 released: 2022-02-08
 updated: 2022-03-16

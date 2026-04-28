@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.quanta.qiksa
+alternativeStores: 
 appCountry: 
 released: 2020-05-03
 updated: 2020-09-07

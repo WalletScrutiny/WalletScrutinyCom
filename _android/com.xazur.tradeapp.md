@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.xazur.tradeapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-06-14

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.sanuslife.sanuswallet2
+alternativeStores: 
 appCountry: 
 released: 2020-09-04
 updated: 2023-11-07

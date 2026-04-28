@@ -1,15 +1,16 @@
 ---
 wsId: etomato
-title: 통통지갑 – 내 손안의 블록체인 지갑
+title: Tomato Wallet(구 통통지갑)
 altTitle: 
 authors:
 - danny
 users: 10000
 appId: com.tongtong.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
-updated: 2026-04-02
-version: 1.7.20
+updated: 2026-04-28
+version: 2.1.3
 reviews: 
 website: https://tongtongwallet.com/
 repository: 

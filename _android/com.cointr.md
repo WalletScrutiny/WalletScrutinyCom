@@ -6,9 +6,10 @@ authors:
 - danny
 users: 100000
 appId: com.cointr
+alternativeStores: 
 appCountry: 
 released: 2022-08-17
-updated: 2026-04-03
+updated: 2026-04-26
 version: 3.26.0
 reviews: 9
 website: https://support.cointr.com

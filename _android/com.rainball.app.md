@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rainball.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-15
 updated: 2021-06-16

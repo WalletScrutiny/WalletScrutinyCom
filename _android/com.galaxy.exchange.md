@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.galaxy.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-12-15
 updated: 2021-12-16

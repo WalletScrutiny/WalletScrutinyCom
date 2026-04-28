@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: poutineswap.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-06
 updated: 2022-02-04

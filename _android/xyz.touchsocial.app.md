@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: xyz.touchsocial.app
+alternativeStores: 
 appCountry: 
 released: 2020-02-27
 updated: 2020-08-11

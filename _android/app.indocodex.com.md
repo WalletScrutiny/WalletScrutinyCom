@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.indocodex.com
+alternativeStores: 
 appCountry: 
 released: 2020-06-23
 updated: 2021-05-18

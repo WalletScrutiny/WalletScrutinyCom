@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.centralex.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-16
 updated: 2022-04-07

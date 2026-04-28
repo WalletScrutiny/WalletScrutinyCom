@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 1000
 appId: io.hexawallet.hexa2
+alternativeStores: 
 appCountry: in
 released: 2021-09-30
 updated: 2024-06-17

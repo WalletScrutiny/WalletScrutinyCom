@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ru.exap.cccoin
+alternativeStores: 
 appCountry: 
 released: 2017-11-22
 updated: 2018-05-03

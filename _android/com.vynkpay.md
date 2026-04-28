@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vynkpay
+alternativeStores: 
 appCountry: 
 released: 2020-06-30
 updated: 2024-02-08

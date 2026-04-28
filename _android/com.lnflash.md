@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.lnflash
+alternativeStores: 
 appCountry: 
 released: 2024-01-07
 updated: 2026-04-18

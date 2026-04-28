@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.holdings.choice
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2025-09-22

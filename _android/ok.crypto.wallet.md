@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: ok.crypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-21
 updated: 2020-09-21

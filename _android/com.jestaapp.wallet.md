@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.jestaapp.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-02
 updated: 2022-09-02

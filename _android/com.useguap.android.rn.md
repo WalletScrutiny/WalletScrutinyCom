@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.useguap.android.rn
+alternativeStores: 
 appCountry: 
 released: 2025-12-05
 updated: 2026-04-03

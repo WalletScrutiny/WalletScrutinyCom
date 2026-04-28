@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hifasthq.hifast
+alternativeStores: 
 appCountry: 
 released: 2022-10-15
 updated: 2023-11-15

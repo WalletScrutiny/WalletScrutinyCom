@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.test.circle
+alternativeStores: 
 appCountry: 
 released: 2022-09-22
 updated: 2022-09-22

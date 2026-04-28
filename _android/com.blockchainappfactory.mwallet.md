@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.blockchainappfactory.mwallet
+alternativeStores: 
 appCountry: 
 released: 2020-03-08
 updated: 2020-03-09

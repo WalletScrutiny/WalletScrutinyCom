@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: androidapp.digiebot.vizzweb.android.digiebot
+alternativeStores: 
 appCountry: 
 released: 2019-01-24
 updated: 2021-08-16

@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 10000
 appId: com.komodoplatform.atomicdex
+alternativeStores: 
 appCountry: 
 released: 2022-12-15
 updated: 2024-07-02

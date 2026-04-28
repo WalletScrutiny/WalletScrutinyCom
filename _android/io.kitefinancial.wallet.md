@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.kitefinancial.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-22
 updated: 2023-12-07

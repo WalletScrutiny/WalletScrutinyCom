@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.snark.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-25
 updated: 2020-02-05

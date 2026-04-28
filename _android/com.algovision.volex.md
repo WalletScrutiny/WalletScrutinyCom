@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.algovision.volex
+alternativeStores: 
 appCountry: 
 released: 2021-10-04
 updated: 2022-02-02

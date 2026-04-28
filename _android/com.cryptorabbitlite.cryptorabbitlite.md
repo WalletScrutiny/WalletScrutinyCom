@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptorabbitlite.cryptorabbitlite
+alternativeStores: 
 appCountry: 
 released: 2019-06-26
 updated: 2020-06-26

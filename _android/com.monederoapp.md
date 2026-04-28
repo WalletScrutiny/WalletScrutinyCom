@@ -7,6 +7,7 @@ authors:
 - danny
 users: 5000
 appId: com.monederoapp
+alternativeStores: 
 appCountry: 
 released: 2020-03-13
 updated: 2021-06-25

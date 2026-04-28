@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.chainup.exchange.VAEX
+alternativeStores: 
 appCountry: 
 released: 2022-02-09
 updated: 2023-02-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.twetaexchange.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-01
 updated: 2021-12-01

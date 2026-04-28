@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.coinsher.coinsherapp
+alternativeStores: 
 appCountry: 
 released: 2024-05-25
 updated: 2025-12-27

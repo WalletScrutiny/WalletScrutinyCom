@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.unicornx.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-05-13
 updated: 2020-07-28

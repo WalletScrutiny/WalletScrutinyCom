@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitwyre.bitwyreapp
+alternativeStores: 
 appCountry: 
 released: 2022-02-21
 updated: 2022-04-02

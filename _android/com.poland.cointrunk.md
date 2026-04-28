@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.poland.cointrunk
+alternativeStores: 
 appCountry: 
 released: 2022-04-18
 updated: 2022-04-28

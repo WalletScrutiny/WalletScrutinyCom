@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ahd985.wedge
+alternativeStores: 
 appCountry: 
 released: 2021-09-29
 updated: 2023-04-04

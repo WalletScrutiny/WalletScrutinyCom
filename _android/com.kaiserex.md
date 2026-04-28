@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.kaiserex
+alternativeStores: 
 appCountry: 
 released: 2020-05-09
 updated: 2020-05-09

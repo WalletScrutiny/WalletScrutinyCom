@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: deex.exchange.android
+alternativeStores: 
 appCountry: 
 released: 2019-11-29
 updated: 2020-04-21

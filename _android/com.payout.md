@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.payout
+alternativeStores: 
 appCountry: 
 released: 2020-01-14
 updated: 2020-10-16

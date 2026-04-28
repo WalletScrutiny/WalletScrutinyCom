@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.trex.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-12-19
 updated: 2022-06-20

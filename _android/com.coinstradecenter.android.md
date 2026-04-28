@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.coinstradecenter.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-01-21

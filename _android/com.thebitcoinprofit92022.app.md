@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.thebitcoinprofit92022.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-25
 updated: 2022-07-25

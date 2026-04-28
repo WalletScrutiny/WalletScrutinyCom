@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ruby.coin
+alternativeStores: 
 appCountry: 
 released: 2022-09-21
 updated: 2022-11-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.mushino
+alternativeStores: 
 appCountry: 
 released: 2020-07-01
 updated: 2021-07-05

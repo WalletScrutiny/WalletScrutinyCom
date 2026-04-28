@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.sendthe.cash
+alternativeStores: 
 appCountry: 
 released: 2022-08-17
 updated: 2023-01-11

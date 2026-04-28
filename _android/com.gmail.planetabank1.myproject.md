@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.gmail.planetabank1.myproject
+alternativeStores: 
 appCountry: 
 released: 2021-07-01
 updated: 2021-07-08

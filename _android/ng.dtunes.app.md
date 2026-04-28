@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: ng.dtunes.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-29
 updated: 2026-03-23

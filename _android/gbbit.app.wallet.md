@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: gbbit.app.wallet
+alternativeStores: 
 appCountry: 
 released: 2017-12-11
 updated: 2020-05-07

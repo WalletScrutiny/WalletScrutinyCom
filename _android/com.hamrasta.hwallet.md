@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.hamrasta.hwallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-22
 updated: 2020-08-03

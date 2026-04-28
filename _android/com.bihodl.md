@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bihodl
+alternativeStores: 
 appCountry: 
 released: 2019-09-08
 updated: 2019-10-31

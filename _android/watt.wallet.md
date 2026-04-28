@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: watt.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-29
 updated: 2022-06-11

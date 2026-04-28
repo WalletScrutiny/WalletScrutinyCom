@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crypment
+alternativeStores: 
 appCountry: 
 released: 2020-01-27
 updated: 2021-10-22

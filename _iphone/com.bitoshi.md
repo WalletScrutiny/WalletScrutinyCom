@@ -8,9 +8,9 @@ appId: com.bitoshi
 appCountry: us
 idd: '1627285591'
 released: 2022-10-17
-updated: 2025-12-22
-version: 1.4.7
-reviews: 1810
+updated: 2026-04-16
+version: 1.5.0
+reviews: 1830
 website: 
 repository: 
 icon: com.bitoshi.jpg

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.plentahub.breezcoins_android
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2021-07-04

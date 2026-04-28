@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.zabira.ng
+alternativeStores: 
 appCountry: 
 released: 2022-02-23
 updated: 2024-05-07

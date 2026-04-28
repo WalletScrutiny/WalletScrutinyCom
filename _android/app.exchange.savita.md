@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: app.exchange.savita
+alternativeStores: 
 appCountry: 
 released: 2023-01-05
 updated: 2026-03-16

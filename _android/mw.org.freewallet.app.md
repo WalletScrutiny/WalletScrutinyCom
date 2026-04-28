@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: mw.org.freewallet.app
+alternativeStores: 
 appCountry: 
 released: 2017-08-10
 updated: 2021-09-16

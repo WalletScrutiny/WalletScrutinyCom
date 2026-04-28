@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.btcs.stakeseeker
+alternativeStores: 
 appCountry: 
 released: 2023-03-10
 updated: 2023-03-31

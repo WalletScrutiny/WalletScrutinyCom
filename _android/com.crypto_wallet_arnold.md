@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.crypto_wallet_arnold
+alternativeStores: 
 appCountry: 
 released: 2022-08-16
 updated: 2023-03-07

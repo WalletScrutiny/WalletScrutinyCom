@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.thehumanplus.shuffle
+alternativeStores: 
 appCountry: 
 released: 2020-04-06
 updated: 2025-11-06

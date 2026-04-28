@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: ivendpay.com
+alternativeStores: 
 appCountry: 
 released: 2023-01-26
 updated: 2023-11-10

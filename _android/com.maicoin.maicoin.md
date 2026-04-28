@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.maicoin.maicoin
+alternativeStores: 
 appCountry: us
 released: 2018-12-19
 updated: 2026-04-13

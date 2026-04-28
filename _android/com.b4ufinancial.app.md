@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.b4ufinancial.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-12
 updated: 2020-05-12

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.nitroex.nitroexchangeapp
+alternativeStores: 
 appCountry: tt
 released: 2021-06-23
 updated: 2025-01-02

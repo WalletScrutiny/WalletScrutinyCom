@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.ledn.app
+alternativeStores: 
 appCountry: us
 released: 2021-01-04
 updated: 2023-08-24

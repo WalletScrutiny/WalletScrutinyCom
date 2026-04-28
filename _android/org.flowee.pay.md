@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.flowee.pay
+alternativeStores: 
 appCountry: 
 released: 2023-06-19
 updated: 2026-03-16

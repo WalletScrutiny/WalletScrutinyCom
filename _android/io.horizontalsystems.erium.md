@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.horizontalsystems.erium
+alternativeStores: 
 appCountry: 
 released: 2021-09-28
 updated: 2022-10-14

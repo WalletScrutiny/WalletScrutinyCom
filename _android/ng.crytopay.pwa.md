@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ng.crytopay.pwa
+alternativeStores: 
 appCountry: 
 released: 2020-08-20
 updated: 2020-10-22

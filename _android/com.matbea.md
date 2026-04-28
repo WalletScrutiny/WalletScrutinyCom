@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.matbea
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-02-16

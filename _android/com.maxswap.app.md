@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.maxswap.app
+alternativeStores: 
 appCountry: 
 released: 2024-06-19
 updated: 2025-07-22

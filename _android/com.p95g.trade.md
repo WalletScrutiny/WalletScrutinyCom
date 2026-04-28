@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.p95g.trade
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2020-03-10

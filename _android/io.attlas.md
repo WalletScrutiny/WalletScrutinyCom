@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: io.attlas
+alternativeStores: 
 appCountry: 
 released: 2021-05-16
-updated: 2026-04-19
-version: 3.5.97
+updated: 2026-04-26
+version: 3.5.99
 reviews: 5
 website: https://atx.com.vn/
 repository: 

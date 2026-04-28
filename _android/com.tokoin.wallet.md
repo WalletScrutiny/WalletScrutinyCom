@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tokoin.wallet
+alternativeStores: 
 appCountry: us
 released: 2019-12-11
 updated: 2023-08-15

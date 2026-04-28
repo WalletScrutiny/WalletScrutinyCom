@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: app.kryptiva
+alternativeStores: 
 appCountry: 
 released: 2022-07-06
 updated: 2023-02-18

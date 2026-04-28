@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.safeblast.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-14
 updated: 2021-07-14

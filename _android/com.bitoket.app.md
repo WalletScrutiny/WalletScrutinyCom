@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitoket.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-10
 updated: 2026-03-31

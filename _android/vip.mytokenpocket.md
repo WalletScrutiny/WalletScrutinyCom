@@ -7,6 +7,7 @@ authors:
 - danny
 users: 5000000
 appId: vip.mytokenpocket
+alternativeStores: 
 appCountry: 
 released: 2018-06-29
 updated: 2026-04-17

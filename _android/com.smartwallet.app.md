@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.smartwallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-02-10
 updated: 2025-10-16

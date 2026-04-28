@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.codecellar.embitwallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-01
 updated: 2025-01-27

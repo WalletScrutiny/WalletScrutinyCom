@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.earlybazewallet.earlybazewallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-06
 updated: 2022-12-15

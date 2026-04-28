@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.changex.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2024-01-23

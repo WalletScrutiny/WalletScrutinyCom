@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.nominex.app
+alternativeStores: 
 appCountry: ru
 released: 2021-06-01
 updated: 2021-12-13

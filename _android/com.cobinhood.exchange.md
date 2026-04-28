@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.cobinhood.exchange
+alternativeStores: 
 appCountry: 
 released: 2017-12-25
 updated: 2019-04-29

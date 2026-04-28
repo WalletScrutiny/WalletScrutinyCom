@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bytesmix.app
+alternativeStores: 
 appCountry: cn
 released: 2019-08-11
 updated: 2023-09-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.creativesolutions.bitwidget
+alternativeStores: 
 appCountry: 
 released: 2021-04-25
 updated: 2021-04-29

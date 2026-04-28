@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.gcox.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-05
 updated: 2020-10-29

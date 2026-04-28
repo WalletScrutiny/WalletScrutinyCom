@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 500
 appId: finance.get10101.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-11-13

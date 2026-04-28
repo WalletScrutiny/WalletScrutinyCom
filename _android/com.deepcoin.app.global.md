@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.deepcoin.app.global
+alternativeStores: 
 appCountry: 
 released: 2020-12-08
-updated: 2026-02-27
-version: 7.6.33
+updated: 2026-04-21
+version: 7.6.49
 reviews: 26
 website: https://www.deepcoin.com
 repository: 

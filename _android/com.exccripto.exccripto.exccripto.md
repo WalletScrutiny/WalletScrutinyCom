@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.exccripto.exccripto.exccripto
+alternativeStores: 
 appCountry: 
 released: 2018-11-04
 updated: 2018-11-05

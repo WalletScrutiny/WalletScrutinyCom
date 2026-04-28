@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.idmid9e01m0afjvnmq1wu
+alternativeStores: 
 appCountry: 
 released: 2018-06-09
 updated: 2018-06-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.neenote.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-26
 updated: 2021-04-26

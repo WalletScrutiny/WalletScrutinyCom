@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: 'Tap: Money & 8% Cashback'
+title: 'Tap: Crypto, Card & Cashback'
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: '1492263993'
 released: 2019-12-20
-updated: 2026-03-19
-version: 3.7.7
-reviews: 1903
+updated: 2026-04-27
+version: 3.7.9
+reviews: 1905
 website: https://www.withtap.com
 repository: 
 icon: com.TapGlobal.tap.jpg

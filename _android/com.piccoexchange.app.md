@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.piccoexchange.app
+alternativeStores: 
 appCountry: 
 released: 2019-12-25
 updated: 2019-12-25

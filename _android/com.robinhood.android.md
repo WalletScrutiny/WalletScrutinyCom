@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: com.robinhood.android
+alternativeStores: 
 appCountry: us
 released: 2015-08-12
-updated: 2026-04-14
-version: 2026.15.2
-reviews: 264408
+updated: 2026-04-27
+version: 2026.16.3
+reviews: 264462
 website: https://robinhood.com/
 repository: 
 icon: com.robinhood.android.png

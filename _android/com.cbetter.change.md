@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cbetter.change
+alternativeStores: 
 appCountry: 
 released: 2021-09-29
 updated: 2022-11-24

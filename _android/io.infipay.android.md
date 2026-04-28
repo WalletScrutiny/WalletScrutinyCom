@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.infipay.android
+alternativeStores: 
 appCountry: in
 released: 2020-10-28
 updated: 2021-04-08

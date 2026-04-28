@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cextor.pro
+alternativeStores: 
 appCountry: 
 released: 2024-07-10
 updated: 2025-09-05

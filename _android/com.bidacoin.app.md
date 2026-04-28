@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bidacoin.app
+alternativeStores: 
 appCountry: 
 released: 2022-08-08
 updated: 2022-08-02

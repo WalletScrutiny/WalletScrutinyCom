@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.vmining.bitcoininvestingblockchaintechnology
+alternativeStores: 
 appCountry: 
 released: 2020-11-12
 updated: 2020-11-12

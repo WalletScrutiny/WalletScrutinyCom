@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.cakedefi.app
+alternativeStores: 
 appCountry: us
 released: 2021-06-16
 updated: 2025-04-09

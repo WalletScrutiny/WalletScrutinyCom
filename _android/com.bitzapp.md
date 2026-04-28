@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitzapp
+alternativeStores: 
 appCountry: 
 released: 2020-03-15
 updated: 2020-08-11

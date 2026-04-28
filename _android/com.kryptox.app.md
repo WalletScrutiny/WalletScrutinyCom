@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kryptox.app
+alternativeStores: 
 appCountry: 
 released: 2021-04-21
 updated: 2021-05-07

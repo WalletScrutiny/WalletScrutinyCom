@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hypertherm.app
+alternativeStores: 
 appCountry: 
 released: 2018-08-23
 updated: 2021-03-22

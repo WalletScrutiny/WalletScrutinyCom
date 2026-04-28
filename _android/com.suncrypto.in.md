@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000000
 appId: com.suncrypto.in
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2026-03-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.gcmasia.pro
+alternativeStores: 
 appCountry: HK
 released: 2017-04-24
 updated: 2024-08-18

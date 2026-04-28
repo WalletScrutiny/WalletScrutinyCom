@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: tech.vkode.kryto
+alternativeStores: 
 appCountry: 
 released: 2024-07-27
 updated: 2025-07-30

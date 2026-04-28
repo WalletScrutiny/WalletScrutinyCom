@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coinchat.hdwallet
+alternativeStores: 
 appCountry: 
 released: 2018-10-14
 updated: 2018-10-15

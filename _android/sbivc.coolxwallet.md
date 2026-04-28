@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: sbivc.coolxwallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-31
 updated: 2022-03-31

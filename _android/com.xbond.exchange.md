@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.xbond.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-11-01
 updated: 2021-03-02

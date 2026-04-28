@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.espsoft.ScarlettInvest
+alternativeStores: 
 appCountry: 
 released: 2020-08-25
 updated: 2022-03-07

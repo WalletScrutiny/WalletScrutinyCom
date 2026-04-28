@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.sarwa
+alternativeStores: 
 appCountry: 
 released: 2021-04-04
 updated: 2026-03-27

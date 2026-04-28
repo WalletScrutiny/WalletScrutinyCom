@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xbt.watcher
+alternativeStores: 
 appCountry: 
 released: 2020-10-08
 updated: 2021-06-25

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
+alternativeStores: 
 appCountry: 
 released: 2012-11-01
 updated: 2026-02-06

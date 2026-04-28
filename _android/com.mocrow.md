@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mocrow
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-09-13

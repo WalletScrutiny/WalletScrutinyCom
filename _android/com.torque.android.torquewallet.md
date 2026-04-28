@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.torque.android.torquewallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-11
 updated: 2021-02-03

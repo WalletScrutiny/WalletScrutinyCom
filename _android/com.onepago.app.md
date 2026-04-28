@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.onepago.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-03
 updated: 2022-05-17

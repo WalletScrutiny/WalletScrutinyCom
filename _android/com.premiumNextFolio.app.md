@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.premiumNextFolio.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-10
 updated: 2020-01-16

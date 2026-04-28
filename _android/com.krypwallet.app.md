@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.krypwallet.app
+alternativeStores: 
 appCountry: 
 released: 2021-05-06
 updated: 2021-08-31

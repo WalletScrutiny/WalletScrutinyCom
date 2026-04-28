@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.boldwallet
+alternativeStores: 
 appCountry: 
 released: 2025-07-15
 updated: 2026-04-03

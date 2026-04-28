@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.rockwallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-11-14
 updated: 2025-09-08
 version: 5.17.8
-reviews: 276
+reviews: 279
 website: http://www.rockwallet.com
 repository: 
 icon: com.rockwallet.app.jpg

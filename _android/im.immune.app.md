@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: im.immune.app
+alternativeStores: 
 appCountry: 
 released: 2019-11-29
 updated: 2025-02-28

@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.eletac.tronwallet
+alternativeStores: 
 appCountry: 
 released: 2018-05-13
 updated: 2023-03-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ammer.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-12-05
 updated: 2025-12-18

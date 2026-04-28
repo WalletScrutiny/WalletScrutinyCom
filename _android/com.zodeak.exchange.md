@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.zodeak.exchange
+alternativeStores: 
 appCountry: 
 released: 2023-01-18
 updated: 2023-01-18

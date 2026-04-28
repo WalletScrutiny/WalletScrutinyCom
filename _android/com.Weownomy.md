@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.Weownomy
+alternativeStores: 
 appCountry: 
 released: 2021-11-08
 updated: 2022-08-01

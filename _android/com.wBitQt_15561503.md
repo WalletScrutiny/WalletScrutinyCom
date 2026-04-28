@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wBitQt_15561503
+alternativeStores: 
 appCountry: 
 released: 2022-05-27
 updated: 2022-05-27

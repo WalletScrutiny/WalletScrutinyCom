@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sylth.globals
+alternativeStores: 
 appCountry: 
 released: 2022-11-22
 updated: 2022-11-22

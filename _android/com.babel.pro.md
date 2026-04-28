@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.babel.pro
+alternativeStores: 
 appCountry: 
 released: 2021-09-27
 updated: 2022-05-30

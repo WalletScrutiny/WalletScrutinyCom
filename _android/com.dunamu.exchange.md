@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000000
 appId: com.dunamu.exchange
+alternativeStores: 
 appCountry: 
 released: 2017-10-23
-updated: 2026-04-15
-version: 1.34.38p1
+updated: 2026-04-21
+version: 1.34.39
 reviews: 21
 website: https://upbit.com
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.app.finexexchange
+alternativeStores: 
 appCountry: 
 released: 2022-07-18
 updated: 2022-11-30

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitcifr.us
+alternativeStores: 
 appCountry: 
 released: 2023-04-10
 updated: 2023-04-10

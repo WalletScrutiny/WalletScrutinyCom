@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.vercel.buy_btc_kohl.twa
+alternativeStores: 
 appCountry: 
 released: 2023-03-20
 updated: 2023-03-20

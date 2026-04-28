@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.uho.thodex
+alternativeStores: 
 appCountry: 
 released: 2020-03-13
 updated: 2020-08-18

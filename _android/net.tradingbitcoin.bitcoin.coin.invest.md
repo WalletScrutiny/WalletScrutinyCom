@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.tradingbitcoin.bitcoin.coin.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21

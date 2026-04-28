@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.paykoricrypto.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-26
 updated: 2022-11-15

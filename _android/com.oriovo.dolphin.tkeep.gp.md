@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.oriovo.dolphin.tkeep.gp
+alternativeStores: 
 appCountry: 
 released: 2021-05-17
 updated: 2021-09-08

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.kittup
+alternativeStores: 
 appCountry: 
 released: 2022-11-02
 updated: 2023-06-23

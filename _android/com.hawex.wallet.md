@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hawex.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-06-06
 updated: 2024-05-06

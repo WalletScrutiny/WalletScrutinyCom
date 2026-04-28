@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: profitshare.com.br
+alternativeStores: 
 appCountry: 
 released: 2021-09-29
 updated: 2022-04-23

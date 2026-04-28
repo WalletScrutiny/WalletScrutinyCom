@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitlo.bitloandroid
+alternativeStores: 
 appCountry: TR
 released: 2020-12-18
 updated: 2026-04-17

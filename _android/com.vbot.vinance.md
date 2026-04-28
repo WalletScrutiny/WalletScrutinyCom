@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.vbot.vinance
+alternativeStores: 
 appCountry: 
 released: 2022-02-03
 updated: 2022-02-04

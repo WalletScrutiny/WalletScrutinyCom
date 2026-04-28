@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.bytedex.mobile.tr
+alternativeStores: 
 appCountry: 
 released: 2022-12-16
 updated: 2024-03-15

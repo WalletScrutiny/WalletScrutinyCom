@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.digicox.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-07-13
 updated: 2021-07-13

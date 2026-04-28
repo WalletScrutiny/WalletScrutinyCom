@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.jeton.wallet
+alternativeStores: 
 appCountry: us
 released: 2018-12-27
 updated: 2024-09-04

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.hanryubank.fnsWallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-30
 updated: 2022-10-17

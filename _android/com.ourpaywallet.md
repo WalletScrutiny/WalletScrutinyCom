@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ourpaywallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-18
 updated: 2021-02-22

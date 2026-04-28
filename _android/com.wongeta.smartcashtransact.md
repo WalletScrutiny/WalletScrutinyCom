@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.wongeta.smartcashtransact
+alternativeStores: 
 appCountry: 
 released: 2018-12-31
 updated: 2025-07-12

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zsdk.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-01-18
 updated: 2022-10-07

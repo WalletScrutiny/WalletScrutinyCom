@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crypto.qonia
+alternativeStores: 
 appCountry: 
 released: 2021-05-21
 updated: 2021-05-26

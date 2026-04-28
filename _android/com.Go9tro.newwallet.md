@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.Go9tro.newwallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-24
 updated: 2020-10-24

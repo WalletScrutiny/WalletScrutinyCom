@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.wxfx.fairs
+alternativeStores: 
 appCountry: 
 released: 2022-04-09
 updated: 2022-07-21

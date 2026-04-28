@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: cobo.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-01
 updated: 2025-09-04

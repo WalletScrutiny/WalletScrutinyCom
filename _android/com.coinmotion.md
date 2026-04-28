@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinmotion
+alternativeStores: 
 appCountry: in
 released: 2020-08-20
 updated: 2026-04-14

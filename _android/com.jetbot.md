@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.jetbot
+alternativeStores: 
 appCountry: 
 released: 2022-03-08
 updated: 2022-04-28

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: fi.cardwallet.android
+alternativeStores: 
 appCountry: pt
 released: 2021-08-31
 updated: 2023-07-11

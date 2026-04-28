@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.jingyang.eceapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-21

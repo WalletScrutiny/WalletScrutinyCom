@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.binarium.binariummobile
+alternativeStores: 
 appCountry: 
 released: 2019-09-16
 updated: 2026-01-28

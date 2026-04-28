@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.shashank.doch
+alternativeStores: 
 appCountry: 
 released: 2019-08-07
 updated: 2020-08-11

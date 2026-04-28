@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.everestti.kinvo
+alternativeStores: 
 appCountry: BR
 released: 2017-12-22
-updated: 2026-03-12
-version: 3.59.0
-reviews: 7545
+updated: 2026-04-16
+version: 3.60.0
+reviews: 7546
 website: http://www.kinvo.com.br
 repository: 
 icon: com.everestti.kinvo.png

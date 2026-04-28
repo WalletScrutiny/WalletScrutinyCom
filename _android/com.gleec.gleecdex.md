@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gleec.gleecdex
+alternativeStores: 
 appCountry: 
 released: 2021-05-16
 updated: 2024-06-02
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.coinspot.app
+alternativeStores: 
 appCountry: au
 released: 2020-10-07
 updated: 2026-04-13

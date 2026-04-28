@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: comp.kippoiiiuyy.kuipf
+alternativeStores: 
 appCountry: 
 released: 2021-11-29
 updated: 2021-11-29

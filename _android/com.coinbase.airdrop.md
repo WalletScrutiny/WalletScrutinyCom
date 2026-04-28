@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.coinbase.airdrop
+alternativeStores: 
 appCountry: 
 released: 2021-05-31
 updated: 2021-05-31

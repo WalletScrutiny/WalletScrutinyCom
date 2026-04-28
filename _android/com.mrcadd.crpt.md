@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mrcadd.crpt
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-04-28

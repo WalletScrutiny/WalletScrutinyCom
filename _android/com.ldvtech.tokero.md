@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ldvtech.tokero
+alternativeStores: 
 appCountry: 
 released: 2021-06-02
 updated: 2025-04-18

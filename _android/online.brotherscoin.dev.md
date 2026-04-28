@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: online.brotherscoin.dev
+alternativeStores: 
 appCountry: 
 released: 2020-09-23
 updated: 2020-09-24

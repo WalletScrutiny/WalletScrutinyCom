@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitfyapp
+alternativeStores: 
 appCountry: us
 released: 2019-10-14
 updated: 2024-03-05

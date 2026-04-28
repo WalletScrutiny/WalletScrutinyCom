@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.yuh
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
-updated: 2026-04-17
-version: 1.43.1
+updated: 2026-04-23
+version: 1.44.2
 reviews: 4
 website: https://www.yuh.com
 repository: 

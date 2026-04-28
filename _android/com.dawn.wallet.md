@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.dawn.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-01-13
 updated: 2021-04-24

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.bitunix.android
+alternativeStores: 
 appCountry: 
 released: 2023-07-26
 updated: 2024-09-05

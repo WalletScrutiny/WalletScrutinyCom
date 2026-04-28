@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.endopay.app
+alternativeStores: 
 appCountry: 
 released: 2018-01-13
 updated: 2020-04-26

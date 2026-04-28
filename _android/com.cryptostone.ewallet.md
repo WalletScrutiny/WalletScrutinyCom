@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptostone.ewallet
+alternativeStores: 
 appCountry: 
 released: 2023-04-23
 updated: 2023-04-23

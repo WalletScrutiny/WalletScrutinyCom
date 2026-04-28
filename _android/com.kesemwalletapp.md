@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kesemwalletapp
+alternativeStores: 
 appCountry: 
 released: 2019-01-09
 updated: 2019-05-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kevinpetters.bitcointrading
+alternativeStores: 
 appCountry: 
 released: 2019-06-30
 updated: 2019-06-30

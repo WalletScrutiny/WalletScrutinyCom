@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.coinpanion.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2021-02-26
 updated: 2023-07-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.yayd.exchangglobal
+alternativeStores: 
 appCountry: 
 released: 2022-03-15
 updated: 2023-05-23

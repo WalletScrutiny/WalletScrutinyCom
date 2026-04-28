@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.huobionchainwallet.itokenhd
+alternativeStores: 
 appCountry: 
 released: 2023-04-12
 updated: 2023-08-30

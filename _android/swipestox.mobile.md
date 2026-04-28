@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: swipestox.mobile
+alternativeStores: 
 appCountry: gb
 released: 2015-10-20
-updated: 2026-04-09
-version: 8.0.461
+updated: 2026-04-23
+version: 8.0.462
 reviews: 200
 website: http://www.naga.com
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: esantrix.bsas
+alternativeStores: 
 appCountry: 
 released: 2021-01-30
 updated: 2022-04-11

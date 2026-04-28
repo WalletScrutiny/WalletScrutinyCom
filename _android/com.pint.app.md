@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.pint.app
+alternativeStores: 
 appCountry: 
 released: 2018-04-25
 updated: 2021-03-06

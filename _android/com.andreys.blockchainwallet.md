@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.andreys.blockchainwallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-08-30

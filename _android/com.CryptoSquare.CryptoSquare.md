@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.CryptoSquare.CryptoSquare
+alternativeStores: 
 appCountry: 
 released: 2021-08-16
 updated: 2021-08-16

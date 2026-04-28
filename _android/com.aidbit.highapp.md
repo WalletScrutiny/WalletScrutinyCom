@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.aidbit.highapp
+alternativeStores: 
 appCountry: 
 released: 2022-01-10
 updated: 2022-02-23

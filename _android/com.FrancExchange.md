@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.FrancExchange
+alternativeStores: 
 appCountry: us
 released: 2020-12-02
 updated: 2020-12-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.sats21.sat21
+alternativeStores: 
 appCountry: 
 released: 2020-12-30
 updated: 2021-01-13

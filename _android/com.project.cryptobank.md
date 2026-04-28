@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.project.cryptobank
+alternativeStores: 
 appCountry: 
 released: 2021-05-27
 updated: 2021-06-02

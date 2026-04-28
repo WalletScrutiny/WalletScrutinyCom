@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.farhadmarket.app
+alternativeStores: 
 appCountry: 
 released: 2019-07-08
 updated: 2021-12-05

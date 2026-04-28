@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.nettechnocrats.hubrisone.hubrisone
+alternativeStores: 
 appCountry: 
 released: 2018-12-13
 updated: 2020-10-29

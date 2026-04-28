@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.dex.appwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-15
 updated: 2022-08-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: kr.co.keypair.nextouch
+alternativeStores: 
 appCountry: 
 released: 2018-10-01
 updated: 2019-07-22

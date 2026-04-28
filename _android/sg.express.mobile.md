@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: sg.express.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-07-10
 updated: 2022-02-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.am.flashtrade
+alternativeStores: 
 appCountry: 
 released: 2020-10-13
 updated: 2020-10-13

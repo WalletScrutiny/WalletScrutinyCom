@@ -6,6 +6,7 @@ authors:
 - danny
 users: 0
 appId: org.yancaitech.hodler
+alternativeStores: 
 appCountry: 
 released: 2020-06-01
 updated: 2020-06-08

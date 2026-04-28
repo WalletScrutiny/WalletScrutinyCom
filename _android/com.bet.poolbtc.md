@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bet.poolbtc
+alternativeStores: 
 appCountry: 
 released: 2020-05-07
 updated: 2020-05-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bit4you.app
+alternativeStores: 
 appCountry: 
 released: 2018-01-18
 updated: 2022-11-10

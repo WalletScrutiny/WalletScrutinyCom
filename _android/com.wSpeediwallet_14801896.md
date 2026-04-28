@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wSpeediwallet_14801896
+alternativeStores: 
 appCountry: 
 released: 2021-12-08
 updated: 2021-12-08

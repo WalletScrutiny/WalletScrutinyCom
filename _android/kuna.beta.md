@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: kuna.beta
+alternativeStores: 
 appCountry: us
 released: 2019-07-22
 updated: 2024-12-02

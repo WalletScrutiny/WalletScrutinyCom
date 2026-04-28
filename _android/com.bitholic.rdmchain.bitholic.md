@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.bitholic.rdmchain.bitholic
+alternativeStores: 
 appCountry: 
 released: 2019-01-20
 updated: 2021-08-02

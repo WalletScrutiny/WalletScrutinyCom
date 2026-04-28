@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.dc.bib.lite
+alternativeStores: 
 appCountry: 
 released: 2023-02-06
 updated: 2024-05-15

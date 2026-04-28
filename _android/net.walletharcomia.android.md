@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.walletharcomia.android
+alternativeStores: 
 appCountry: 
 released: 2020-11-01
 updated: 2020-11-23

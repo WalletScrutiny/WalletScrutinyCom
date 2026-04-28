@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.babamoni.trust.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2020-06-22
 updated: 2020-06-22

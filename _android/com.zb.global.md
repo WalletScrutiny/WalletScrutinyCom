@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zb.global
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2022-06-24

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.zeniq.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-10-31

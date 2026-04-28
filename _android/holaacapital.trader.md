@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: holaacapital.trader
+alternativeStores: 
 appCountry: 
 released: 2021-05-13
 updated: 2023-04-04

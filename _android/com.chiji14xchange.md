@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.chiji14xchange
+alternativeStores: 
 appCountry: ng
 released: 2019-04-22
 updated: 2021-05-22

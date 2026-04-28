@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.ronbd.mGlobal
+alternativeStores: 
 appCountry: 
 released: 2020-09-02
 updated: 2020-09-26

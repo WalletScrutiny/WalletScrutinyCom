@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: io.changenow.changenow
+alternativeStores: 
 appCountry: 
 released: 2018-09-07
 updated: 2026-04-16

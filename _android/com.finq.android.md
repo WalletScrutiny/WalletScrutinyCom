@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.finq.android
+alternativeStores: 
 appCountry: 
 released: 2017-10-02
 updated: 2024-09-05

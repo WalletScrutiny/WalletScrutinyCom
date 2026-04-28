@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gwallet.main
+alternativeStores: 
 appCountry: 
 released: 2021-08-11
 updated: 2022-07-22

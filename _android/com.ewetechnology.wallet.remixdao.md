@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ewetechnology.wallet.remixdao
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-11-26

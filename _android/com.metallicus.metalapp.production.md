@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.metallicus.metalapp.production
+alternativeStores: 
 appCountry: us
 released: 2020-01-14
-updated: 2026-04-15
-version: 3.1.198
-reviews: 392
+updated: 2026-04-27
+version: 3.1.199
+reviews: 393
 website: https://metalpay.com
 repository: 
 icon: com.metallicus.metalapp.production.png

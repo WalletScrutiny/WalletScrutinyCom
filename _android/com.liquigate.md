@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.liquigate
+alternativeStores: 
 appCountry: 
 released: 2020-08-29
 updated: 2021-02-01

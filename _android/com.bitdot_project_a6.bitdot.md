@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitdot_project_a6.bitdot
+alternativeStores: 
 appCountry: 
 released: 2022-06-13
 updated: 2022-06-14

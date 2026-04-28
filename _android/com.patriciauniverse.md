@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.patriciauniverse
+alternativeStores: 
 appCountry: 
 released: 2023-01-27
 updated: 2023-11-20

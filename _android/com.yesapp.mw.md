@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.yesapp.mw
+alternativeStores: 
 appCountry: 
 released: 2022-10-11
 updated: 2023-03-05

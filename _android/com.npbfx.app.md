@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.npbfx.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-04
 updated: 2025-08-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.secure.pay
+alternativeStores: 
 appCountry: 
 released: 2016-09-21
 updated: 2020-06-21

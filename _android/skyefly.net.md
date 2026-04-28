@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: skyefly.net
+alternativeStores: 
 appCountry: 
 released: 2020-11-11
 updated: 2020-11-11

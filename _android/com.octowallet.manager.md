@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.octowallet.manager
+alternativeStores: 
 appCountry: 
 released: 2019-05-05
 updated: 2019-05-29

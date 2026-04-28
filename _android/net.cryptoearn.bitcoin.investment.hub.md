@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: net.cryptoearn.bitcoin.investment.hub
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-06-29

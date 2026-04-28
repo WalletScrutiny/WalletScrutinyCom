@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.digibot99.dgb
+alternativeStores: 
 appCountry: 
 released: 2020-11-07
 updated: 2020-11-07

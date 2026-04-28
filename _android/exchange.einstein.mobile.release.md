@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: exchange.einstein.mobile.release
+alternativeStores: 
 appCountry: 
 released: 2019-02-01
 updated: 2019-10-17

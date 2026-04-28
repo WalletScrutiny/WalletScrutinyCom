@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.exbito.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-17
 updated: 2024-05-05

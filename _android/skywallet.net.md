@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: skywallet.net
+alternativeStores: 
 appCountry: 
 released: 2020-05-11
 updated: 2020-05-11

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.airpay.appwallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-15
 updated: 2022-04-15

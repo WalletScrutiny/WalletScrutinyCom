@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.pockan.aicryptotrade
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2022-04-04

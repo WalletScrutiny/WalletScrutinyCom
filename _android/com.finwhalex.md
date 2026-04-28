@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.finwhalex
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-04-07

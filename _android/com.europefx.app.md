@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.europefx.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-09-14

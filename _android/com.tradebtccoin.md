@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.tradebtccoin
+alternativeStores: 
 appCountry: 
 released: 2019-08-20
 updated: 2019-08-20

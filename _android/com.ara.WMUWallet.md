@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.ara.WMUWallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-27

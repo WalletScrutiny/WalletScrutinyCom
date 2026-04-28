@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.tangem.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-10-24
 updated: 2026-04-15

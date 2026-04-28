@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.metavest.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-07-06
 updated: 2025-07-27

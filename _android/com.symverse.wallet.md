@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.symverse.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-29
 updated: 2021-04-20

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.kocomex.ecointrust
+alternativeStores: 
 appCountry: 
 released: 2019-06-10
 updated: 2020-06-19

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btccloudminer.easy
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

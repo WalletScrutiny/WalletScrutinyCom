@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ofinans.miraclepos
+alternativeStores: 
 appCountry: 
 released: 2022-04-30
 updated: 2024-11-15

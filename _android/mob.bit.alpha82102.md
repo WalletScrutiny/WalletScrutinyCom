@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: mob.bit.alpha82102
+alternativeStores: 
 appCountry: 
 released: 2022-08-19
 updated: 2022-08-19

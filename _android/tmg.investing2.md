@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: tmg.investing2
+alternativeStores: 
 appCountry: 
 released: 2021-01-22
 updated: 2023-02-20

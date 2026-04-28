@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: com.bitget.exchange
+alternativeStores: 
 appCountry: us
 released: 2020-04-03
-updated: 2026-04-15
-version: 2.81.1
-reviews: 1663
+updated: 2026-04-21
+version: 2.81.2
+reviews: 1666
 website: https://www.bitget.com/
 repository: 
 icon: com.bitget.exchange.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.exchange.bdwallets.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-29
 updated: 2022-01-08

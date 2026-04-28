@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitdance.bitpocket.google
+alternativeStores: 
 appCountry: 
 released: 2025-08-22
 updated: 2026-03-18

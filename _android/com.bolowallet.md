@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bolowallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-12-12

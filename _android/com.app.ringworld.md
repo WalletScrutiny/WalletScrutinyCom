@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.app.ringworld
+alternativeStores: 
 appCountry: 
 released: 2022-02-26
 updated: 2022-02-27

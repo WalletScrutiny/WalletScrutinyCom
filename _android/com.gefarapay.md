@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.gefarapay
+alternativeStores: 
 appCountry: 
 released: 2018-08-02
 updated: 2021-03-03

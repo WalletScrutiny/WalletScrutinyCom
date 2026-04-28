@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coinforbarter.qollect
+alternativeStores: 
 appCountry: 
 released: 2022-03-15
 updated: 2022-09-22

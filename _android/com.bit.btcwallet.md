@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bit.btcwallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-17
 updated: 2019-11-25

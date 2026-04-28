@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wota.app
+alternativeStores: 
 appCountry: 
 released: 2021-01-11
 updated: 2025-08-31

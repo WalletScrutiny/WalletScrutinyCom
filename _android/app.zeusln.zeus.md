@@ -9,10 +9,11 @@ authors:
 - keraliss
 users: 10000
 appId: app.zeusln.zeus
+alternativeStores: 
 appCountry: 
 released: 2020-07-07
-updated: 2026-04-04
-version: 0.12.6
+updated: 2026-04-24
+version: 13.0.0
 reviews: 36
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus

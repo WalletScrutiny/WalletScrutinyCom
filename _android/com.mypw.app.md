@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mypw.app
+alternativeStores: 
 appCountry: 
 released: 2019-07-22
 updated: 2019-08-12

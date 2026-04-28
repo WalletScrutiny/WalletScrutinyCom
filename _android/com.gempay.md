@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gempay
+alternativeStores: 
 appCountry: 
 released: 2021-09-23
 updated: 2021-10-08

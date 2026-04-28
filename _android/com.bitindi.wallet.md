@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitindi.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-28
 updated: 2022-09-29

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: kr.co.keypair.quickxtouch
+alternativeStores: 
 appCountry: 
 released: 2018-10-09
 updated: 2019-07-17

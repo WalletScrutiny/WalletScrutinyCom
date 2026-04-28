@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xchange.ychanger
+alternativeStores: 
 appCountry: 
 released: 2021-06-08
 updated: 2024-07-31

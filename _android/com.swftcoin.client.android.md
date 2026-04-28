@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.swftcoin.client.android
+alternativeStores: 
 appCountry: 
 released: 2018-01-15
 updated: 2023-02-08

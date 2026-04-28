@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.benco.subzero
+alternativeStores: 
 appCountry: 
 released: 2022-01-28
 updated: 2022-06-22

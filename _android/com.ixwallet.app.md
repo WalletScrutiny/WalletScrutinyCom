@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ixwallet.app
+alternativeStores: 
 appCountry: 
 released: 2021-01-15
 updated: 2024-03-15

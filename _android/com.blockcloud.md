@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.blockcloud
+alternativeStores: 
 appCountry: 
 released: 2021-01-08
 updated: 2021-02-16

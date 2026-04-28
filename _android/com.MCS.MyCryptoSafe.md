@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.MCS.MyCryptoSafe
+alternativeStores: 
 appCountry: 
 released: 2020-10-08
 updated: 2020-10-08

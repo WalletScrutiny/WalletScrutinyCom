@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.quicrypto.bitcoin.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.timebit.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-02-18
 updated: 2022-01-07

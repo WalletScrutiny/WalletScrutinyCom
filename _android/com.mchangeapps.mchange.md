@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.mchangeapps.mchange
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2024-08-10

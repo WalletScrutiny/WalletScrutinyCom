@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.algowave.algowaveapp
+alternativeStores: 
 appCountry: 
 released: 2018-07-09
 updated: 2021-04-29

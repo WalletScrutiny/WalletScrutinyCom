@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.tatacoabitcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-29
 updated: 2023-08-17

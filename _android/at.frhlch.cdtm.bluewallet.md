@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: at.frhlch.cdtm.bluewallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-03-01

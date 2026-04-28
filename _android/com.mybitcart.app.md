@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mybitcart.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-23
 updated: 2020-04-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.moonex
+alternativeStores: 
 appCountry: 
 released: 2020-08-18
 updated: 2020-08-18

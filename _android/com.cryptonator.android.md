@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.cryptonator.android
+alternativeStores: 
 appCountry: 
 released: 2018-11-01
 updated: 2022-01-30

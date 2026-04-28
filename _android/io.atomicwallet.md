@@ -7,11 +7,12 @@ authors:
 - danny
 users: 1000000
 appId: io.atomicwallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-30
-updated: 2026-03-02
-version: 1.40.4
-reviews: 5836
+updated: 2026-04-23
+version: 1.41.5
+reviews: 5835
 website: https://atomicwallet.io
 repository: 
 icon: io.atomicwallet.png

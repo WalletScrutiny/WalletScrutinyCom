@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rewindbitcoin.app
+alternativeStores: 
 appCountry: 
 released: 2025-05-30
 updated: 2025-09-25

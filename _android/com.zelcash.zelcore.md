@@ -7,10 +7,11 @@ authors:
 - danny
 users: 100000
 appId: com.zelcash.zelcore
+alternativeStores: 
 appCountry: 
 released: 2018-09-21
-updated: 2026-04-09
-version: 8.30.2
+updated: 2026-04-22
+version: 8.31.0
 reviews: 140
 website: https://zelcore.io
 repository: 

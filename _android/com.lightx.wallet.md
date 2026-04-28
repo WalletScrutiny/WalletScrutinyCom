@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.lightx.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-11
 updated: 2023-03-26

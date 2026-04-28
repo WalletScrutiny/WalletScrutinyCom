@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.inlock.mobileapp
+alternativeStores: 
 appCountry: us
 released: 2020-08-04
 updated: 2023-04-01

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.quotatrade.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-13
 updated: 2020-12-23

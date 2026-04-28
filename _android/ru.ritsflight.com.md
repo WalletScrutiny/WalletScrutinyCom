@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: ru.ritsflight.com
+alternativeStores: 
 appCountry: 
 released: 2022-01-09
 updated: 2022-01-10

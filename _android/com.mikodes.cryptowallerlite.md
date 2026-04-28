@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.mikodes.cryptowallerlite
+alternativeStores: 
 appCountry: 
 released: 2021-12-08
 updated: 2021-12-08

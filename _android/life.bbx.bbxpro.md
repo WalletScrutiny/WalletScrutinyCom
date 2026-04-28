@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: life.bbx.bbxpro
+alternativeStores: 
 appCountry: 
 released: 2021-05-08
 updated: 2022-01-13

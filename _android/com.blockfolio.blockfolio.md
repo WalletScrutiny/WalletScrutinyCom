@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000000
 appId: com.blockfolio.blockfolio
+alternativeStores: 
 appCountry: us
 released: 2015-10-01
 updated: 2022-11-01

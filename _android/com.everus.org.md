@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.everus.org
+alternativeStores: 
 appCountry: 
 released: 2018-04-07
 updated: 2021-03-07

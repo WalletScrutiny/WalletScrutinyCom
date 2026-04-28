@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.qwertynetworks
+alternativeStores: 
 appCountry: 
 released: 2022-08-10
 updated: 2022-09-02

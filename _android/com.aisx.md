@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.aisx
+alternativeStores: 
 appCountry: 
 released: 2020-02-11
 updated: 2020-07-29

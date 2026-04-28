@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: ru.mosapp.mobile.android5c9f540a7a6d7
+alternativeStores: 
 appCountry: 
 released: 2019-03-30
 updated: 2019-03-30

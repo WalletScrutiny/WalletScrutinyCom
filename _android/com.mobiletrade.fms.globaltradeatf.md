@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.mobiletrade.fms.globaltradeatf
+alternativeStores: 
 appCountry: ag
 released: 2020-06-10
 updated: 2021-11-22

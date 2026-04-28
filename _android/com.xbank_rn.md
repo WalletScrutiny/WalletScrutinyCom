@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.xbank_rn
+alternativeStores: 
 appCountry: 
 released: 2022-11-04
 updated: 2023-08-01

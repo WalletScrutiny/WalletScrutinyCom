@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.brickstream.gluwallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-12
 updated: 2020-12-29

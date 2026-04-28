@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.exchangeworld.app
+alternativeStores: 
 appCountry: 
 released: 2022-08-02
 updated: 2022-12-01

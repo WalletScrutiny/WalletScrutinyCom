@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: quantit.saiv.rabit
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-02-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitcoinbuyerapppro.com
+alternativeStores: 
 appCountry: 
 released: 2022-10-13
 updated: 2022-10-13

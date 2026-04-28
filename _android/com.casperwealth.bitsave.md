@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.casperwealth.bitsave
+alternativeStores: 
 appCountry: 
 released: 2024-04-01
 updated: 2026-02-16

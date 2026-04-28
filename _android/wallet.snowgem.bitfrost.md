@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: wallet.snowgem.bitfrost
+alternativeStores: 
 appCountry: 
 released: 2020-05-26
 updated: 2021-07-30

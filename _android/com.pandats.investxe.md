@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pandats.investxe
+alternativeStores: 
 appCountry: 
 released: 2020-12-09
 updated: 2021-06-10

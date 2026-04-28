@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.tomyaapp.android
+alternativeStores: 
 appCountry: 
 released: 2020-11-06
 updated: 2023-08-23

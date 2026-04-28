@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.tenet.eva
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-05-02

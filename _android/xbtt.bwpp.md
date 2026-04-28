@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: xbtt.bwpp
+alternativeStores: 
 appCountry: 
 released: 2022-04-27
 updated: 2022-04-27

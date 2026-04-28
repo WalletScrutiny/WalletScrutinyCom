@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.bitcoin.alphabae
+alternativeStores: 
 appCountry: 
 released: 2020-10-19
 updated: 2021-07-10

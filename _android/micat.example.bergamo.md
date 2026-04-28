@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: micat.example.bergamo
+alternativeStores: 
 appCountry: 
 released: 2022-09-16
 updated: 2024-08-14
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

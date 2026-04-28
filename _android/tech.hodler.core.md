@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: tech.hodler.core
+alternativeStores: 
 appCountry: 
 released: 2018-09-02
 updated: 2019-10-29

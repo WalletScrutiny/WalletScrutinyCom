@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.herowallet
+alternativeStores: 
 appCountry: 
 released: 2022-11-23
 updated: 2023-02-24

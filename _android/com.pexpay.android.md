@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.pexpay.android
+alternativeStores: 
 appCountry: 
 released: 2022-03-24
 updated: 2023-06-15

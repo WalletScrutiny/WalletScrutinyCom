@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: coinunited.io
+alternativeStores: 
 appCountry: cn
 released: 2021-04-30
 updated: 2025-08-27

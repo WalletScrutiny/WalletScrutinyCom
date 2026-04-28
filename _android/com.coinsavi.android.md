@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.coinsavi.android
+alternativeStores: 
 appCountry: 
 released: 2023-07-10
 updated: 2025-11-17

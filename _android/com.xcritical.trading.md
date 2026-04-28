@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.xcritical.trading
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-02-02

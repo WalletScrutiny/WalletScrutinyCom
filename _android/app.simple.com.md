@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: app.simple.com
+alternativeStores: 
 appCountry: 
 released: 2023-04-24
 updated: 2026-04-15

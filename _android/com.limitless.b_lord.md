@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.limitless.b_lord
+alternativeStores: 
 appCountry: 
 released: 2020-11-04
 updated: 2020-11-04

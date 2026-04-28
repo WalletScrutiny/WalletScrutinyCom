@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.slossfiws.ansfjiwu
+alternativeStores: 
 appCountry: 
 released: 2022-03-24
 updated: 2022-03-24

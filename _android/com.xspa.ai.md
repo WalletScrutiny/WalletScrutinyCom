@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.xspa.ai
+alternativeStores: 
 appCountry: 
 released: 2025-08-23
 updated: 2026-04-10

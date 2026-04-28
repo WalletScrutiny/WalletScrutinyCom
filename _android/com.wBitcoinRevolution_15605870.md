@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wBitcoinRevolution_15605870
+alternativeStores: 
 appCountry: 
 released: 2022-06-09
 updated: 2022-06-09

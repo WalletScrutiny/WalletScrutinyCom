@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.fcoin.exchange
+alternativeStores: 
 appCountry: 
 released: 2018-07-13
 updated: 2020-01-19

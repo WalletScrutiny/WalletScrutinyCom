@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.kinesis.kinesisapp
+alternativeStores: 
 appCountry: us
 released: 2020-02-28
 updated: 2026-03-28

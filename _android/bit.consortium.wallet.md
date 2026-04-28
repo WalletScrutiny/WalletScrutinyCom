@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: bit.consortium.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-10
 updated: 2021-08-10

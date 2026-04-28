@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.yiancoin.app.gp
+alternativeStores: 
 appCountry: 
 released: 2021-08-02
 updated: 2021-08-03

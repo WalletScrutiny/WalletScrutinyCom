@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.arumtrade.app.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-11-18

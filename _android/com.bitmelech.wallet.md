@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitmelech.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-05

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitinvest.tradeearninterestoncrypto
+alternativeStores: 
 appCountry: 
 released: 2021-10-25
 updated: 2021-10-25

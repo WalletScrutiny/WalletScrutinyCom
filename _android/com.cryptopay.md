@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000
 appId: com.cryptopay
+alternativeStores: 
 appCountry: 
 released: 2018-12-17
 updated: 2019-02-14

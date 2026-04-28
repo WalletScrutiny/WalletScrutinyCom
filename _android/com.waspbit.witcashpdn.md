@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.waspbit.witcashpdn
+alternativeStores: 
 appCountry: 
 released: 2018-12-10
 updated: 2021-07-14

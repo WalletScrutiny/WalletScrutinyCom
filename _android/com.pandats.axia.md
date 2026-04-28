@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.pandats.axia
+alternativeStores: 
 appCountry: il
 released: 2020-11-16
 updated: 2025-12-29

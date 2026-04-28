@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.mcs.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-01-20

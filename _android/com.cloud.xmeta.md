@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cloud.xmeta
+alternativeStores: 
 appCountry: 
 released: 2022-02-14
 updated: 2022-12-19

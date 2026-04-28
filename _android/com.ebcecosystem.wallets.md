@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.ebcecosystem.wallets
+alternativeStores: 
 appCountry: 
 released: 2018-12-07
 updated: 2019-01-30

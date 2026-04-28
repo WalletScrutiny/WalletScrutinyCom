@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: exchange.waves.invest
+alternativeStores: 
 appCountry: 
 released: 2021-09-11
 updated: 2022-12-19

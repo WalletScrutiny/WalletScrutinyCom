@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bicool.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-11
 updated: 2022-07-28

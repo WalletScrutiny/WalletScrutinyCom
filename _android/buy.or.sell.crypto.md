@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: buy.or.sell.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-16

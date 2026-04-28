@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.coiny.pro
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-08-07

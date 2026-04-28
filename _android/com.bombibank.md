@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bombibank
+alternativeStores: 
 appCountry: 
 released: 2022-01-21
 updated: 2022-01-21

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.itez.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-11-19

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: kumo.africa
+alternativeStores: 
 appCountry: 
 released: 2022-06-03
 updated: 2024-04-25

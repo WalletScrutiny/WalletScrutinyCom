@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.truewallet.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-12-20

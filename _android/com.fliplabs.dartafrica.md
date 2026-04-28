@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.fliplabs.dartafrica
+alternativeStores: 
 appCountry: 
 released: 2023-05-24
 updated: 2024-02-29

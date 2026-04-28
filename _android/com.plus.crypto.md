@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.plus.crypto
+alternativeStores: 
 appCountry: 
 released: 2023-01-26
 updated: 2023-05-21

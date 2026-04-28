@@ -6,9 +6,10 @@ authors:
 - danny
 users: 10000
 appId: com.utorg
+alternativeStores: 
 appCountry: 
 released: 2023-06-02
-updated: 2026-04-05
+updated: 2026-04-27
 version: 2.88.0
 reviews: 
 website: 

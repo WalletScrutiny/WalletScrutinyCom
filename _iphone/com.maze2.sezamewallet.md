@@ -3,11 +3,11 @@ wsId: sezameWallet
 title: Sezame Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.maze2.sezamewallet
 appCountry: us
 idd: '1618252953'
-released: '2022-05-13T07:00:00Z'
+released: 2022-05-13
 updated: 2026-02-14
 version: 0.15.9
 reviews: 0

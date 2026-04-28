@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: rightbtc.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-02
 updated: 2020-08-07

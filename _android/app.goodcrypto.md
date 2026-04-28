@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: app.goodcrypto
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2026-03-11

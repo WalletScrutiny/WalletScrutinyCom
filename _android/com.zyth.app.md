@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.zyth.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-07
 updated: 2021-12-17

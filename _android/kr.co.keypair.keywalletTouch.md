@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: kr.co.keypair.keywalletTouch
+alternativeStores: 
 appCountry: 
 released: 2018-05-13
 updated: 2026-01-14

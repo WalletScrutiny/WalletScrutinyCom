@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.tradersinc.buybitcoin
+alternativeStores: 
 appCountry: 
 released: 2017-06-26
 updated: 2017-06-26

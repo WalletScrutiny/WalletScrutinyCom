@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.llc.bitcastle
+alternativeStores: 
 appCountry: 
 released: 2022-07-29
-updated: 2026-04-13
-version: 1.13.9
+updated: 2026-04-20
+version: 1.13.10
 reviews: 16
 website: https://bitcastle.io/
 repository: 

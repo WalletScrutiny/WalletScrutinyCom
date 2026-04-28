@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.IcmTech_Bxen.myapp
+alternativeStores: 
 appCountry: 
 released: 2019-09-28
 updated: 2019-09-28

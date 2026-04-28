@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: app.foxwallet.my
+alternativeStores: 
 appCountry: 
 released: 2022-04-10
 updated: 2022-09-05

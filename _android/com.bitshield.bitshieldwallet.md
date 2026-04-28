@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.bitshield.bitshieldwallet
+alternativeStores: 
 appCountry: 
 released: 2020-06-09
 updated: 2021-04-12

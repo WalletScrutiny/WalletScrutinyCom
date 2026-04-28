@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.primexbt.trade
+alternativeStores: 
 appCountry: 
 released: 2022-02-10
 updated: 2026-04-17
-version: 4.38.2
+version: 4.39.1
 reviews: 68
 website: https://primexbt.com/
 repository: 

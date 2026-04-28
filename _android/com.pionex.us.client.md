@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.pionex.us.client
+alternativeStores: 
 appCountry: 
 released: 2022-02-25
-updated: 2026-04-17
-version: 2.1.3
-reviews: 648
+updated: 2026-04-23
+version: 2.1.4
+reviews: 649
 website: https://www.pionex.us/
 repository: 
 icon: com.pionex.us.client.png

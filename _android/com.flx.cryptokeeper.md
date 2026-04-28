@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.flx.cryptokeeper
+alternativeStores: 
 appCountry: 
 released: 2025-06-02
 updated: 2025-08-30

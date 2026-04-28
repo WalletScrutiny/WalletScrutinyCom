@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.flitaa.app
+alternativeStores: 
 appCountry: ng
 released: 2021-05-15
 updated: 2025-06-13

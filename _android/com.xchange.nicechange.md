@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xchange.nicechange
+alternativeStores: 
 appCountry: 
 released: 2021-05-25
 updated: 2024-08-01

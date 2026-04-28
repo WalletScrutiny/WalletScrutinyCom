@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rinnas.anyiwest
+alternativeStores: 
 appCountry: 
 released: 2021-06-04
 updated: 2021-06-20

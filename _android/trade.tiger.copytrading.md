@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: trade.tiger.copytrading
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-09

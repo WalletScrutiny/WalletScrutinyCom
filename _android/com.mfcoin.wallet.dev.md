@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.mfcoin.wallet.dev
+alternativeStores: 
 appCountry: 
 released: 2018-03-22
 updated: 2020-10-04

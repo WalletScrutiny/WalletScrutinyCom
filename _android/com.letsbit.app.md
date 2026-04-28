@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.letsbit.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-06
 updated: 2026-03-23

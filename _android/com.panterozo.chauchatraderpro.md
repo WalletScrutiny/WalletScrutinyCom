@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.panterozo.chauchatraderpro
+alternativeStores: 
 appCountry: 
 released: 2018-01-19
 updated: 2022-07-31

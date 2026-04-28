@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.fybsg.fybmobile
+alternativeStores: 
 appCountry: 
 released: 2018-07-05
 updated: 2018-11-19

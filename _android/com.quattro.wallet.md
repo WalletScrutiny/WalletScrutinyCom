@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.quattro.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-12
 updated: 2021-07-12

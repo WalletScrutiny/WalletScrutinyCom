@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.application.inocyx
+alternativeStores: 
 appCountry: 
 released: 2022-11-16
 updated: 2026-04-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: free2ex.ticktrader.terminal
+alternativeStores: 
 appCountry: 
 released: 2020-04-13
 updated: 2024-10-07

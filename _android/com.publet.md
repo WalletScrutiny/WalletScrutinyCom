@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.publet
+alternativeStores: 
 appCountry: 
 released: 2020-06-11
 updated: 2020-11-20

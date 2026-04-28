@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: app.difx.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-07-16

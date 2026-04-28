@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.bitcimobile
+alternativeStores: 
 appCountry: 
 released: 2020-03-30
-updated: 2026-03-10
-version: 22.0.2
+updated: 2026-04-27
+version: 22.0.4
 reviews: 14
 website: https://www.safebit.com
 repository: 

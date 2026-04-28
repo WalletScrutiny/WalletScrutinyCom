@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.mke.investcrypto
+alternativeStores: 
 appCountry: 
 released: 2020-04-25
 updated: 2020-04-25

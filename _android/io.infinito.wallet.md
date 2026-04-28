@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: io.infinito.wallet
+alternativeStores: 
 appCountry: 
 released: 2017-11-15
 updated: 2022-09-06

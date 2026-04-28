@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.zstrx.owigv
+alternativeStores: 
 appCountry: 
 released: 2022-03-29
 updated: 2022-09-05

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.exchangecopter.Copter
+alternativeStores: 
 appCountry: 
 released: 2021-12-09
 updated: 2022-09-16

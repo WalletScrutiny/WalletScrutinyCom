@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cdcoding.securewallet
+alternativeStores: 
 appCountry: 
 released: 2024-07-05
 updated: 2026-01-11

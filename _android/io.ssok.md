@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.ssok
+alternativeStores: 
 appCountry: 
 released: 2021-08-02
 updated: 2021-08-23

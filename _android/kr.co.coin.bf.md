@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: kr.co.coin.bf
+alternativeStores: 
 appCountry: 
 released: 2020-02-25
 updated: 2020-02-26

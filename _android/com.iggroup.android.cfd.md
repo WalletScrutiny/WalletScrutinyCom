@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.iggroup.android.cfd
+alternativeStores: 
 appCountry: br
 released: 2015-05-11
-updated: 2026-04-15
-version: 26.4.13
+updated: 2026-04-23
+version: 26.4.16
 reviews: 14
 website: https://www.ig.com
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.companyname.swaptobe
+alternativeStores: 
 appCountry: 
 released: 2021-10-14
 updated: 2026-03-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.pxq.android
+alternativeStores: 
 appCountry: 
 released: 2023-04-19
 updated: 2024-03-17

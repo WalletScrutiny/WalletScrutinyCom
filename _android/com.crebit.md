@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.crebit
+alternativeStores: 
 appCountry: 
 released: 2019-06-23
 updated: 2019-06-24

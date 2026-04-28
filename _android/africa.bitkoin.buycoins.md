@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: africa.bitkoin.buycoins
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-16

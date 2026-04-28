@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.tapbit.android
+alternativeStores: 
 appCountry: 
 released: 2022-09-20
 updated: 2026-04-19
-version: 4.3.3
+version: 4.3.4
 reviews: 32
 website: 
 repository: 

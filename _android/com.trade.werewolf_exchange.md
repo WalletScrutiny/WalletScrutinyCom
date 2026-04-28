@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.trade.werewolf_exchange
+alternativeStores: 
 appCountry: 
 released: 2022-07-11
 updated: 2022-09-29

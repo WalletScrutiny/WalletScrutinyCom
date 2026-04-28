@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.quantum.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2024-07-29
 updated: 2025-07-03

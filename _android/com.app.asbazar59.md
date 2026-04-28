@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.app.asbazar59
+alternativeStores: 
 appCountry: 
 released: 2021-06-15
 updated: 2021-10-14

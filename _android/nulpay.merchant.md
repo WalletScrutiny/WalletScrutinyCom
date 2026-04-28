@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: nulpay.merchant
+alternativeStores: 
 appCountry: 
 released: 2022-09-02
 updated: 2024-03-23

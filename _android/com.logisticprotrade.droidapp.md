@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.logisticprotrade.droidapp
+alternativeStores: 
 appCountry: 
 released: 2021-05-18
 updated: 2022-02-16

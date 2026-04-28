@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: wallet.trupay.finance
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-04

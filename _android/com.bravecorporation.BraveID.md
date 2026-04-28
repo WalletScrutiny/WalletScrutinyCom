@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bravecorporation.BraveID
+alternativeStores: 
 appCountry: 
 released: 2022-05-11
 updated: 2023-11-28

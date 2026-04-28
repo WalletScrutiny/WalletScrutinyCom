@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: spl.cards.app
+alternativeStores: 
 appCountry: 
 released: 2021-09-23
 updated: 2021-11-22

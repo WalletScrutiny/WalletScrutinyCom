@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: network.woo.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-12-17
 updated: 2025-12-08

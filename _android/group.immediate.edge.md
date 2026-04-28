@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: group.immediate.edge
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
 updated: 2022-04-22

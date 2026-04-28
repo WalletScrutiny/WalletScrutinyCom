@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: fior.digital21app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: sg.bhex.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-02-09

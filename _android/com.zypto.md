@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.zypto
+alternativeStores: 
 appCountry: 
 released: 2024-04-26
 updated: 2026-04-08
 version: 1.27.0
-reviews: 37
+reviews: 38
 website: https://zypto.com
 repository: 
 icon: com.zypto.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.heatwallet.heat_app
+alternativeStores: 
 appCountry: 
 released: 2024-10-24
 updated: 2025-02-07
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

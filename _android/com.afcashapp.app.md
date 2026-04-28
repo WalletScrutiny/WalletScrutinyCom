@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.afcashapp.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-17
 updated: 2022-06-23

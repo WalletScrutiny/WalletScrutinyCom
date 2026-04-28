@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.bitcoindepot.app
+alternativeStores: 
 appCountry: us
 released: 2020-11-04
 updated: 2026-03-04

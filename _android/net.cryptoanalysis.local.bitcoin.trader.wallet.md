@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: net.cryptoanalysis.local.bitcoin.trader.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2021-06-28

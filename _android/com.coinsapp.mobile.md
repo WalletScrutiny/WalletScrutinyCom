@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.coinsapp.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-07-21
 updated: 2020-12-24

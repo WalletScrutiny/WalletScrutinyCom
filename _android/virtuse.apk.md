@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: virtuse.apk
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-01

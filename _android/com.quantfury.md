@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.quantfury
+alternativeStores: 
 appCountry: gb
 released: 2018-11-26
-updated: 2026-04-06
-version: v1.93.2.25502
+updated: 2026-04-16
+version: v1.94.0.25682
 reviews: 23
 website: https://www.quantfury.com/
 repository: 

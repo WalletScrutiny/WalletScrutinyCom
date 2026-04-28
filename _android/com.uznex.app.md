@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.uznex.app
+alternativeStores: 
 appCountry: 
 released: 2020-04-28
 updated: 2024-02-19

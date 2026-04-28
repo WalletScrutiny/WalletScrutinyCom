@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ai.blockbank.bbexpoapp
+alternativeStores: 
 appCountry: 
 released: 2021-10-21
 updated: 2025-06-11
@@ -15,10 +16,10 @@ website: https://pairs.xyz
 repository: 
 icon: ai.blockbank.bbexpoapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-20
+date: 2026-04-28
 signer: 
 twitter: BLOCKBANKapp
 social:

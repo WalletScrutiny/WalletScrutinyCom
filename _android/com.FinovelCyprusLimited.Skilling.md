@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.FinovelCyprusLimited.Skilling
+alternativeStores: 
 appCountry: gb
 released: 2020-05-05
-updated: 2026-03-24
-version: 3.0.2
+updated: 2026-04-27
+version: 3.0.4
 reviews: 6
 website: https://skilling.com/
 repository: 

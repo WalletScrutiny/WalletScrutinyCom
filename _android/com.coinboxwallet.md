@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coinboxwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-13
 updated: 2023-03-02

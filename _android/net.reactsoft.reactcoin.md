@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: net.reactsoft.reactcoin
+alternativeStores: 
 appCountry: 
 released: 2017-08-09
 updated: 2017-11-13

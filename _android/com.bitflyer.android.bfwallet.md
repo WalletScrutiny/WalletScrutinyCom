@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.bitflyer.android.bfwallet
+alternativeStores: 
 appCountry: jp
 released: 2019-10-19
 updated: 2026-04-08

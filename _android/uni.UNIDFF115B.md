@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: uni.UNIDFF115B
+alternativeStores: 
 appCountry: 
 released: 2022-02-09
 updated: 2022-01-25

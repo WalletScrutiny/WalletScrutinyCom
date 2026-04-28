@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.u8ex.app22
+alternativeStores: 
 appCountry: 
 released: 2022-04-08
 updated: 2022-04-09

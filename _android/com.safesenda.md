@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.safesenda
+alternativeStores: 
 appCountry: 
 released: 2022-03-11
 updated: 2022-08-16

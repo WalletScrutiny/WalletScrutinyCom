@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.metex.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-10-24
 updated: 2019-11-07

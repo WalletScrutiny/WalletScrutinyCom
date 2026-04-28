@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: hr.apps.n114615
+alternativeStores: 
 appCountry: 
 released: 2019-11-25
 updated: 2019-11-25

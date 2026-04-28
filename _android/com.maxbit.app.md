@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.maxbit.app
+alternativeStores: 
 appCountry: 
 released: 2024-09-24
-updated: 2026-04-10
-version: 1.38.0
+updated: 2026-04-22
+version: 1.38.1
 reviews: 
 website: https://www.maxbit.com
 repository: 

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.unitic
+alternativeStores: 
 appCountry: 
 released: 2024-06-19
 updated: 2026-03-30

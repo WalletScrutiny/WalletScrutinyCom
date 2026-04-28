@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.rainmanagement.rain
+alternativeStores: 
 appCountry: bh
 released: 2018-11-02
 updated: 2026-04-16

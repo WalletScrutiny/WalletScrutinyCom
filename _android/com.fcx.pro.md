@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.fcx.pro
+alternativeStores: 
 appCountry: 
 released: 2021-08-06
 updated: 2022-08-03

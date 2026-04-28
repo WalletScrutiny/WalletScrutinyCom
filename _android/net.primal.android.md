@@ -6,11 +6,12 @@ authors:
 - danny
 users: 50000
 appId: net.primal.android
+alternativeStores: 
 appCountry: 
 released: 2024-07-09
 updated: 2026-04-06
 version: 3.0.21
-reviews: 30
+reviews: 29
 website: https://www.primal.net
 repository: 
 icon: net.primal.android.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.satang.pro
+alternativeStores: 
 appCountry: 
 released: 2020-04-12
 updated: 2026-03-18

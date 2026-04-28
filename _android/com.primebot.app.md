@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.primebot.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-27
 updated: 2022-05-27

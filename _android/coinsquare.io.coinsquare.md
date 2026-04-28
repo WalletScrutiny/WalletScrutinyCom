@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: coinsquare.io.coinsquare
+alternativeStores: 
 appCountry: 
 released: 2017-08-30
 updated: 2022-03-18

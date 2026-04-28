@@ -6,9 +6,10 @@ authors:
 - danny
 users: 50000
 appId: com.metallicus.webauth
+alternativeStores: 
 appCountry: 
 released: 2021-12-11
-updated: 2026-03-24
+updated: 2026-04-22
 version: 2.1.59
 reviews: 86
 website: https://webauth.com/

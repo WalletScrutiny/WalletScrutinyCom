@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: jp.co.rakuten.wallet.crypto
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-06

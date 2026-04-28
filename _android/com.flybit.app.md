@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.flybit.app
+alternativeStores: 
 appCountry: us
 released: 2021-02-04
 updated: 2026-03-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.coincorner.checkout
+alternativeStores: 
 appCountry: 
 released: 2022-09-29
 updated: 2025-09-15

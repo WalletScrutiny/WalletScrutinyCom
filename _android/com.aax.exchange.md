@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.aax.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-03-04
 updated: 2022-10-31

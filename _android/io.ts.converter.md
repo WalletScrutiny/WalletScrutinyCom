@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: io.ts.converter
+alternativeStores: 
 appCountry: 
 released: 2023-02-26
 updated: 2025-12-16

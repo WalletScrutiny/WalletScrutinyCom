@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: jp.co.moneypartners.CryptoTrade
+alternativeStores: 
 appCountry: 
 released: 2021-11-23
 updated: 2025-06-26

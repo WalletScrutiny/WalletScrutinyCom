@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.transferbuddy
+alternativeStores: 
 appCountry: 
 released: 2021-01-28
 updated: 2021-02-17

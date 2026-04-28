@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.vezures.novabank
+alternativeStores: 
 appCountry: 
 released: 2020-03-24
 updated: 2020-03-24

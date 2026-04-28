@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: co.bitindia
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-02-06

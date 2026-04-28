@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wallet.cointrust
+alternativeStores: 
 appCountry: 
 released: 2022-12-13
 updated: 2022-12-14

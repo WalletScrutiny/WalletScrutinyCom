@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.uticit.git
+alternativeStores: 
 appCountry: 
 released: 2021-10-22
 updated: 2021-12-01

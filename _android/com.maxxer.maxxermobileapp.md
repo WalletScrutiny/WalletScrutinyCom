@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.maxxer.maxxermobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-07-09
 updated: 2022-12-06

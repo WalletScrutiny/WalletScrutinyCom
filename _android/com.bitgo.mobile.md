@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitgo.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-04-15
 updated: 2023-01-19

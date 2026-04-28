@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wTheBitcoinBankApp_16672065
+alternativeStores: 
 appCountry: 
 released: 2023-02-24
 updated: 2023-02-24

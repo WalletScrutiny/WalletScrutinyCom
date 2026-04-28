@@ -4,11 +4,12 @@ title: Sezame Wallet
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: org.maze2.sezamewallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-31
-updated: 2025-06-17
+updated: 2026-02-12
 version: 0.16.6
 reviews: 
 website: https://sezame.app

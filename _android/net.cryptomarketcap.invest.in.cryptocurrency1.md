@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: net.cryptomarketcap.invest.in.cryptocurrency1
+alternativeStores: 
 appCountry: 
 released: 2021-06-22
 updated: 2021-06-22

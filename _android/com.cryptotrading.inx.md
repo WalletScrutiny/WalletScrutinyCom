@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cryptotrading.inx
+alternativeStores: 
 appCountry: 
 released: 2022-06-11
 updated: 2025-09-10

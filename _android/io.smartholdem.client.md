@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.smartholdem.client
+alternativeStores: 
 appCountry: 
 released: 2020-03-01
 updated: 2021-11-14

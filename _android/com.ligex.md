@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ligex
+alternativeStores: 
 appCountry: 
 released: 2021-10-09
 updated: 2022-03-05

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: io.hotbit.shouyi
+alternativeStores: 
 appCountry: 
 released: 2019-09-19
 updated: 2023-04-11

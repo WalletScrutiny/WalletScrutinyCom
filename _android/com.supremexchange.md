@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.supremexchange
+alternativeStores: 
 appCountry: 
 released: 2018-12-21
 updated: 2020-11-23

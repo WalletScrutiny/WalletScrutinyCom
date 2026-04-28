@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.dcctrading.co.onetapexc
+alternativeStores: 
 appCountry: 
 released: 2023-04-10
 updated: 2025-05-12

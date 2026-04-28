@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.crypto.croytowallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-16
 updated: 2025-10-10

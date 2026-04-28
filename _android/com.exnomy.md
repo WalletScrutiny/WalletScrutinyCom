@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.exnomy
+alternativeStores: 
 appCountry: 
 released: 2020-11-24
 updated: 2021-09-21

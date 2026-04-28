@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.g3shanappz.claimerbox
+alternativeStores: 
 appCountry: 
 released: 2020-06-19
 updated: 2020-06-19

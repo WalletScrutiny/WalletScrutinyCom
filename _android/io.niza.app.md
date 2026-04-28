@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.niza.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-05-07

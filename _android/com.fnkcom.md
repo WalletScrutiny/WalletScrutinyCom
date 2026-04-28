@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.fnkcom
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-07

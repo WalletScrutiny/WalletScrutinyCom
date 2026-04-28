@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.beeone.techbank
+alternativeStores: 
 appCountry: 
 released: 2019-07-14
 updated: 2022-02-15

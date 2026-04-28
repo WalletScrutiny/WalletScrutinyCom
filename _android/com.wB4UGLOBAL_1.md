@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.wB4UGLOBAL_1
+alternativeStores: 
 appCountry: 
 released: 2020-08-17
 updated: 2021-04-16

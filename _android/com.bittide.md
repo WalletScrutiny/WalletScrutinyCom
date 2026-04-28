@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bittide
+alternativeStores: 
 appCountry: 
 released: 2020-02-08
 updated: 2020-05-07

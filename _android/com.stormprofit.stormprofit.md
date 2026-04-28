@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.stormprofit.stormprofit
+alternativeStores: 
 appCountry: 
 released: 2021-09-17
 updated: 2021-09-17

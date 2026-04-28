@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.cryptocortex.trade
+alternativeStores: 
 appCountry: 
 released: 2019-09-18
 updated: 2019-09-18

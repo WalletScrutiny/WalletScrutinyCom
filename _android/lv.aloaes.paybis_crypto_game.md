@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: lv.aloaes.paybis_crypto_game
+alternativeStores: 
 appCountry: 
 released: 2022-06-01
 updated: 2022-06-01

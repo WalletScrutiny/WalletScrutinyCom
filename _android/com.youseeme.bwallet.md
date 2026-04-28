@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.youseeme.bwallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-22
 updated: 2019-05-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.peiko.mobile.bitcoinaddition
+alternativeStores: 
 appCountry: 
 released: 2021-05-21
 updated: 2021-11-16

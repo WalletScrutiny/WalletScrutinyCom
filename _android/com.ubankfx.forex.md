@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ubankfx.forex
+alternativeStores: 
 appCountry: th
 released: 2017-05-17
 updated: 2022-03-31

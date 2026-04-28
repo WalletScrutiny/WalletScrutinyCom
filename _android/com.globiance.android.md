@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.globiance.android
+alternativeStores: 
 appCountry: 
 released: 2021-09-29
 updated: 2024-06-27

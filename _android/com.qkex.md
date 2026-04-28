@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.qkex
+alternativeStores: 
 appCountry: 
 released: 2022-11-10
 updated: 2023-12-21

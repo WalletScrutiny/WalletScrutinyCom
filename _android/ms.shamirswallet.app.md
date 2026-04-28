@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: ms.shamirswallet.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-28
 updated: 2020-12-04

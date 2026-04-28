@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.sinance.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-01-07
 updated: 2022-07-06

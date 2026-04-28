@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.finbloxapp.finblox
+alternativeStores: 
 appCountry: 
 released: 2021-12-28
 updated: 2023-11-06

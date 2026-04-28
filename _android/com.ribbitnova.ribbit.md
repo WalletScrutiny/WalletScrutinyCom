@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.ribbitnova.ribbit
+alternativeStores: 
 appCountry: 
 released: 2025-08-20
 updated: 2026-03-23

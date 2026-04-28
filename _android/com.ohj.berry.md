@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ohj.berry
+alternativeStores: 
 appCountry: 
 released: 2023-03-17
 updated: 2023-03-21

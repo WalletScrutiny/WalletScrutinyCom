@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: br.btcbox.platform
+alternativeStores: 
 appCountry: 
 released: 2021-09-30
 updated: 2021-09-30

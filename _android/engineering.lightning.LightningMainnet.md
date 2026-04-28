@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: engineering.lightning.LightningMainnet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-10-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wQ7Trades_15018357
+alternativeStores: 
 appCountry: 
 released: 2022-01-13
 updated: 2022-01-13

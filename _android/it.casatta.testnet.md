@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: it.casatta.testnet
+alternativeStores: 
 appCountry: 
 released: 2020-05-17
 updated: 2021-08-06

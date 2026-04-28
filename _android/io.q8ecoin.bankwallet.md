@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.q8ecoin.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-09
 updated: 2020-01-14

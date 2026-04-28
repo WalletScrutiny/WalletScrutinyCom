@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.bizblocks.kaiserbank
+alternativeStores: 
 appCountry: 
 released: 2019-01-04
 updated: 2022-10-23

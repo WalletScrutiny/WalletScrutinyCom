@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000000
 appId: com.breadwallet
+alternativeStores: 
 appCountry: 
 released: 2016-07-21
 updated: 2022-03-18

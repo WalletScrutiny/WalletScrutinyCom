@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.mtctrader
+alternativeStores: 
 appCountry: 
 released: 2022-02-07
 updated: 2022-02-07

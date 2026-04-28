@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ubrain.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-22
 updated: 2023-04-18

@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000
 appId: com.getalby.mobile
+alternativeStores: 
 appCountry: 
 released: 2024-09-16
 updated: 2026-01-22
 version: 2.0.1
-reviews: 16
+reviews: 17
 website: https://getalby.com/
 repository: https://github.com/getAlby/go
 icon: com.getalby.mobile.png

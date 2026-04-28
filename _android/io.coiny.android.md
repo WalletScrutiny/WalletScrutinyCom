@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.coiny.android
+alternativeStores: 
 appCountry: 
 released: 2018-04-11
 updated: 2019-01-17

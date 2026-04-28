@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.magiceden.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-05-17
 updated: 2026-04-01

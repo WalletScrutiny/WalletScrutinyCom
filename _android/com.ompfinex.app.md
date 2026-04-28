@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.ompfinex.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2024-04-21

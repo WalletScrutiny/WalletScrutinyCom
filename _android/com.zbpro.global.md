@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.zbpro.global
+alternativeStores: 
 appCountry: 
 released: 2022-08-30
 updated: 2022-10-30

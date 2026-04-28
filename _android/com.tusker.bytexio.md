@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.tusker.bytexio
+alternativeStores: 
 appCountry: 
 released: 2022-04-28
 updated: 2022-11-25

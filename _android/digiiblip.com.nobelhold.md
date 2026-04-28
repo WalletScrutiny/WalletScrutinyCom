@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: digiiblip.com.nobelhold
+alternativeStores: 
 appCountry: 
 released: 2019-06-24
 updated: 2019-10-05

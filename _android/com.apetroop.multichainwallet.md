@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.apetroop.multichainwallet
+alternativeStores: 
 appCountry: 
 released: 2020-08-10
 updated: 2020-09-04

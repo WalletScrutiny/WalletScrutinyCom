@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pandats.trade99
+alternativeStores: 
 appCountry: 
 released: 2019-07-02
 updated: 2020-10-01

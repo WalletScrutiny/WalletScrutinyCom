@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.spedn.spedn
+alternativeStores: 
 appCountry: 
 released: 2021-05-26
 updated: 2026-02-26

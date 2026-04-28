@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.isun.ag.bitnuk
+alternativeStores: 
 appCountry: 
 released: 2020-02-16
 updated: 2020-03-09

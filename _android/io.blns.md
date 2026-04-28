@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.blns
+alternativeStores: 
 appCountry: 
 released: 2021-05-29
 updated: 2025-10-27
@@ -14,10 +15,10 @@ website: https://blns.io
 repository: 
 icon: io.blns.png
 bugbounty: 
-meta: fewusers
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-08-31
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

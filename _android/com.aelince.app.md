@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aelince.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-25
 updated: 2022-11-21

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.arindamdawn.coinflow
+alternativeStores: 
 appCountry: 
 released: 2017-07-26
 updated: 2017-07-27

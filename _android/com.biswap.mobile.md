@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.biswap.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-07-22
 updated: 2023-07-18

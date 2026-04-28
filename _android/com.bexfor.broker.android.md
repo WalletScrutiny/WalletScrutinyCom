@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bexfor.broker.android
+alternativeStores: 
 appCountry: 
 released: 2020-12-21
 updated: 2020-12-22

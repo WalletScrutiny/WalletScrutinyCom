@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.viennoxexchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-12
 updated: 2021-10-18

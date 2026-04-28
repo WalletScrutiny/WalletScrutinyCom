@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.nayuta.core
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-16

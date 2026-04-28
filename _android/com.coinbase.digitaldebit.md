@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.coinbase.digitaldebit
+alternativeStores: 
 appCountry: 
 released: 2019-11-12
 updated: 2019-11-12

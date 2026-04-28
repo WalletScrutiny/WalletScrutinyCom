@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.combiteu
+alternativeStores: 
 appCountry: 
 released: 2024-07-10
 updated: 2026-02-24

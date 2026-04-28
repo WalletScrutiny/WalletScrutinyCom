@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.bincap.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-08-08
 updated: 2020-05-02

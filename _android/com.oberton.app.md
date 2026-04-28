@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.oberton.app
+alternativeStores: 
 appCountry: 
 released: 2021-09-15
 updated: 2025-08-24

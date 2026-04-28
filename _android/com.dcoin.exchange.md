@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.dcoin.exchange
+alternativeStores: 
 appCountry: us
 released: 2018-11-25
 updated: 2023-05-30

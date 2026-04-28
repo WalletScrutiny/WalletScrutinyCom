@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.orum.orichalcum
+alternativeStores: 
 appCountry: 
 released: 2019-09-19
 updated: 2019-09-20

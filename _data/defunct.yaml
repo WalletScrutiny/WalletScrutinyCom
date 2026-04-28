@@ -1,21 +1,3 @@
-2026-04-13:
-- _android/ai.blockbank.bbexpoapp
-- _android/com.bitazza.android.gl
-- _android/com.coincorner.app.crypt
-- _android/com.coinw.win
-- _android/com.ibandirect.card
-- _android/com.kcex
-- _android/com.koinkoin
-- _android/com.metacoino.app
-- _android/com.techbank_dwallet
-- _android/com.yibiexchange.app
-- _android/io.blns
-- _android/pro.bingbon.app
-- _iphone/app.w3wallet.wallet
-- _iphone/com.admin.ipaybtc
-- _iphone/com.ambergroup.amberapp
-- _iphone/com.antiersolutions.Ancrypto
-- _iphone/com.app.bitnob
 2026-04-20:
 - _android/app.anchors.anchorusd
 - _android/co.sarwa
@@ -29,3 +11,10 @@
 - _android/com.pointpay.bank
 - _android/com.stablex
 - _iphone/co.sarwa.ios
+2026-04-28:
+- _android/com.orangexsuper.exchange
+- _android/com.paymium.mobile2
+- _android/com.tastycrypto
+- _android/cz.confirmo.app.pos
+- _android/io.bytedex.mobile.tr
+- _android/kg.yaros.crypto

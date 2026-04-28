@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wallet.line
+alternativeStores: 
 appCountry: 
 released: 2022-03-31
 updated: 2023-01-12

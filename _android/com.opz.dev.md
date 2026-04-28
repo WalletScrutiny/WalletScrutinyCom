@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.opz.dev
+alternativeStores: 
 appCountry: 
 released: 2023-08-16
 updated: 2025-05-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitsquad.traders
+alternativeStores: 
 appCountry: 
 released: 2022-02-09
 updated: 2022-02-09

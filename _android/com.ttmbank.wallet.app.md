@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ttmbank.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-05
 updated: 2024-04-25

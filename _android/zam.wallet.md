@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: zam.wallet
+alternativeStores: 
 appCountry: ru
 released: 2018-09-17
 updated: 2024-03-11

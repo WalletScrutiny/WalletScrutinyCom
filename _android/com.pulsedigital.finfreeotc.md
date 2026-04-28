@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pulsedigital.finfreeotc
+alternativeStores: 
 appCountry: 
 released: 2020-08-13
 updated: 2020-09-04

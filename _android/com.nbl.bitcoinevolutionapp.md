@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.nbl.bitcoinevolutionapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-02-23

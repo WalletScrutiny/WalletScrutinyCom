@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bvcrypto
+alternativeStores: 
 appCountry: 
 released: 2019-05-28
 updated: 2019-05-28

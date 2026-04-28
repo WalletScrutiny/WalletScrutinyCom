@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinchat.coinchat
+alternativeStores: 
 appCountry: 
 released: 2018-05-20
 updated: 2020-03-11

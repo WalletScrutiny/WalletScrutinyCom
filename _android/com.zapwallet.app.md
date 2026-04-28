@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zapwallet.app
+alternativeStores: 
 appCountry: 
 released: 2025-03-11
 updated: 2025-04-18

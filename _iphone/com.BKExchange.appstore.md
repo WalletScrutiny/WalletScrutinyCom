@@ -9,7 +9,7 @@ idd: '6466607380'
 released: 2023-10-17
 updated: 2026-03-29
 version: 3.8.4
-reviews: 37
+reviews: 38
 website: 
 repository: 
 icon: com.BKExchange.appstore.jpg

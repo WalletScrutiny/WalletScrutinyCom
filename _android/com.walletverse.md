@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.walletverse
+alternativeStores: 
 appCountry: 
 released: 2023-06-29
 updated: 2026-04-14

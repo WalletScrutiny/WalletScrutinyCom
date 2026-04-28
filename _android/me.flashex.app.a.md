@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: me.flashex.app.a
+alternativeStores: 
 appCountry: 
 released: 2020-08-25
 updated: 2020-08-26

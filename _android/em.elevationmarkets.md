@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: em.elevationmarkets
+alternativeStores: 
 appCountry: 
 released: 2021-12-21
 updated: 2021-12-22

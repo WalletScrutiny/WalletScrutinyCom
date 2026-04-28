@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.aaatrade.CryptoExchange
+alternativeStores: 
 appCountry: 
 released: 2018-09-20
 updated: 2021-03-19

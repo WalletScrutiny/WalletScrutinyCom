@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.mathwallet.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-26
 updated: 2026-04-17

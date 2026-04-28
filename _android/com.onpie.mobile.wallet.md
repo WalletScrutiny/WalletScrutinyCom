@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.onpie.mobile.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-13
 updated: 2022-11-04

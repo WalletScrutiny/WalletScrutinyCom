@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.eukapay.pos_app
+alternativeStores: 
 appCountry: 
 released: 2023-03-20
 updated: 2024-04-05

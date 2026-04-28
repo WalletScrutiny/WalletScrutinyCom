@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.finovation.fxvc
+alternativeStores: 
 appCountry: 
 released: 2021-04-23
 updated: 2021-11-12

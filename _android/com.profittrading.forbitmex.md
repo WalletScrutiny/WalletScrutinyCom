@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.profittrading.forbitmex
+alternativeStores: 
 appCountry: 
 released: 2019-06-11
 updated: 2026-03-25

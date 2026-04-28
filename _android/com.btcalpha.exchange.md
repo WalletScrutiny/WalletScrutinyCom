@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.btcalpha.exchange
+alternativeStores: 
 appCountry: us
 released: 2021-07-23
 updated: 2022-08-08

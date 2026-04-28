@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.kozjin.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2020-01-04

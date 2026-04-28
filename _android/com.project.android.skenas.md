@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.project.android.skenas
+alternativeStores: 
 appCountry: 
 released: 2019-01-12
 updated: 2021-12-18

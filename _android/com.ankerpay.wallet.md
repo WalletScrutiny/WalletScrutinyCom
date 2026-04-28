@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.ankerpay.wallet
+alternativeStores: 
 appCountry: us
 released: 2019-09-17
 updated: 2024-06-11

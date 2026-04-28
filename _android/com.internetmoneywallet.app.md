@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.internetmoneywallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-11-12
 updated: 2026-04-01

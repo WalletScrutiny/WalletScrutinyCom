@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bcm.bcm_alpha_app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-09-26

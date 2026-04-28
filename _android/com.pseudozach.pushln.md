@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pseudozach.pushln
+alternativeStores: 
 appCountry: 
 released: 2020-02-08
 updated: 2020-02-09

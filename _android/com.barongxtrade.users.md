@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.barongxtrade.users
+alternativeStores: 
 appCountry: 
 released: 2022-10-28
 updated: 2025-04-17

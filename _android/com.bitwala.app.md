@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitwala.app
+alternativeStores: 
 appCountry: gd
 released: 2019-07-11
 updated: 2026-02-17

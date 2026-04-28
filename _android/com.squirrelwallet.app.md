@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.squirrelwallet.app
+alternativeStores: 
 appCountry: 
 released: 2025-06-26
 updated: 2026-02-09

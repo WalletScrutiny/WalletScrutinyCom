@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mahcard.mahcardapp
+alternativeStores: 
 appCountry: 
 released: 2019-10-05
 updated: 2019-10-06

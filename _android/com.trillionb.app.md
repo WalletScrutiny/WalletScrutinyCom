@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.trillionb.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-14
 updated: 2022-01-27

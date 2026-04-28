@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.valobit
+alternativeStores: 
 appCountry: 
 released: 2020-03-17
 updated: 2020-03-17

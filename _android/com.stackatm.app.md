@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 500
 appId: com.stackatm.app
+alternativeStores: 
 appCountry: 
 released: 2024-08-12
-updated: 2026-03-16
-version: 1.12.0
+updated: 2026-04-24
+version: 1.12.1
 reviews: 4
 website: https://stackatm.com/
 repository: 

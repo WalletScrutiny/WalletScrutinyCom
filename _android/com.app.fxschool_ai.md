@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.fxschool_ai
+alternativeStores: 
 appCountry: 
 released: 2022-03-04
 updated: 2024-01-21

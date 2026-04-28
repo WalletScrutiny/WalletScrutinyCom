@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.stocksexchange.android
+alternativeStores: 
 appCountry: us
 released: 2018-05-15
 updated: 2023-04-18

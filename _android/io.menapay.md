@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: io.menapay
+alternativeStores: 
 appCountry: 
 released: 2019-03-08
 updated: 2020-09-18

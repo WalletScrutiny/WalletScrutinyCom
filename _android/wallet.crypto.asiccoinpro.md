@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: wallet.crypto.asiccoinpro
+alternativeStores: 
 appCountry: 
 released: 2021-11-01
 updated: 2021-11-01

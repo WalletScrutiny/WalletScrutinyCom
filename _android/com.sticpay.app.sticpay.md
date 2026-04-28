@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.sticpay.app.sticpay
+alternativeStores: 
 appCountry: us
 released: 2017-08-31
 updated: 2026-03-23

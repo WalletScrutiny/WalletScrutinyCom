@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitpie
+alternativeStores: 
 appCountry: 
 released: 2016-10-23
 updated: 2025-05-14

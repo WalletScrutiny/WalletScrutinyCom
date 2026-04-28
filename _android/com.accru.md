@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.accru
+alternativeStores: 
 appCountry: 
 released: 2021-11-01
 updated: 2023-01-10

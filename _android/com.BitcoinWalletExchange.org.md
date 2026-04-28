@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 50000
 appId: com.BitcoinWalletExchange.org
+alternativeStores: 
 appCountry: 
 released: 2020-10-12
 updated: 2020-10-13

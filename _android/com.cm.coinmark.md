@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cm.coinmark
+alternativeStores: 
 appCountry: 
 released: 2021-09-17
 updated: 2022-08-27

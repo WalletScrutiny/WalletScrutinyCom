@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.lc.lcpay
+alternativeStores: 
 appCountry: 
 released: 2021-03-07
 updated: 2021-04-13

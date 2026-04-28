@@ -7,8 +7,8 @@ appId: app.backpack.mobile
 appCountry: us
 idd: '6445964121'
 released: 2023-10-26
-updated: 2026-04-02
-version: 2.73.0
+updated: 2026-04-22
+version: 2.74.0
 reviews: 218
 website: https://www.backpack.app/
 repository: 

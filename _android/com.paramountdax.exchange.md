@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.paramountdax.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-11-25
 updated: 2022-11-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitjeem.android
+alternativeStores: 
 appCountry: 
 released: 2020-11-16
 updated: 2022-12-03

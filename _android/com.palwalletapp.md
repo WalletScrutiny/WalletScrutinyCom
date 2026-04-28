@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.palwalletapp
+alternativeStores: 
 appCountry: 
 released: 2023-03-20
 updated: 2025-10-09

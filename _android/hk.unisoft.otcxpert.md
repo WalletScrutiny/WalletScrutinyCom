@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: hk.unisoft.otcxpert
+alternativeStores: 
 appCountry: 
 released: 2020-03-17
 updated: 2021-09-28

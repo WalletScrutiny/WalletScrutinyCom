@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.streakk
+alternativeStores: 
 appCountry: 
 released: 2022-07-29
 updated: 2023-09-26

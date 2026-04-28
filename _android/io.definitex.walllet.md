@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.definitex.walllet
+alternativeStores: 
 appCountry: 
 released: 2021-04-14
 updated: 2021-04-14

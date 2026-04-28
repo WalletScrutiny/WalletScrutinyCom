@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.pmt247.pmt247
+alternativeStores: 
 appCountry: 
 released: 2019-10-02
 updated: 2019-10-02

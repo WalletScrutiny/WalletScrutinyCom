@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.trdc.token
+alternativeStores: 
 appCountry: 
 released: 2021-11-10
 updated: 2022-06-13

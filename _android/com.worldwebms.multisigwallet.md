@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.worldwebms.multisigwallet
+alternativeStores: 
 appCountry: 
 released: 2019-02-15
 updated: 2025-01-17

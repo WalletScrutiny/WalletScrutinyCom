@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.walletprizm.walletpizm
+alternativeStores: 
 appCountry: 
 released: 2019-11-13
 updated: 2019-11-14

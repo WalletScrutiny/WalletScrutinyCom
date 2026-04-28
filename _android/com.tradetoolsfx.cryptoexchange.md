@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tradetoolsfx.cryptoexchange
+alternativeStores: 
 appCountry: 
 released: 2018-08-10
 updated: 2019-07-31

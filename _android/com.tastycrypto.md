@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.tastycrypto
+alternativeStores: 
 appCountry: 
 released: 2023-05-02
 updated: 2025-03-12

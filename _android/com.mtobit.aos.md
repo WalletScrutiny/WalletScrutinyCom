@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.mtobit.aos
+alternativeStores: 
 appCountry: 
 released: 2020-02-22
 updated: 2020-09-29

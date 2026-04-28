@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.trendox.android
+alternativeStores: 
 appCountry: 
 released: 2022-01-02
 updated: 2025-02-18

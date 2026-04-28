@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.wallet.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-10-30
 updated: 2024-01-12

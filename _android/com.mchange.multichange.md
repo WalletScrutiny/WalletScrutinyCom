@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mchange.multichange
+alternativeStores: 
 appCountry: 
 released: 2020-08-10
 updated: 2020-08-10

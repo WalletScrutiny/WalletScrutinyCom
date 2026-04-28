@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: singular.defi.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-25
 updated: 2024-02-07

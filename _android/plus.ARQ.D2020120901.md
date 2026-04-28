@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: plus.ARQ.D2020120901
+alternativeStores: 
 appCountry: 
 released: 2020-12-09
 updated: 2021-01-06

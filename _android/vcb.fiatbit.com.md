@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: vcb.fiatbit.com
+alternativeStores: 
 appCountry: 
 released: 2019-09-12
 updated: 2023-03-03

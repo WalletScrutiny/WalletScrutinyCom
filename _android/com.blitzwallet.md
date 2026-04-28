@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.blitzwallet
+alternativeStores: 
 appCountry: 
 released: 2025-09-29
 updated: 2026-04-07

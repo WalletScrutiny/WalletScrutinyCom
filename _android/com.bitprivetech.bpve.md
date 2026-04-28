@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitprivetech.bpve
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-07-21

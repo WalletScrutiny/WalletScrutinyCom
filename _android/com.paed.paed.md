@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.paed.paed
+alternativeStores: 
 appCountry: 
 released: 2022-02-18
 updated: 2022-02-25

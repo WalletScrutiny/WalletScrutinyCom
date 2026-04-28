@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: br.com.mynt
+alternativeStores: 
 appCountry: 
 released: 2022-06-21
 updated: 2026-04-13
-version: 1.104.1
+version: 1.105.0
 reviews: 5
 website: 
 repository: 

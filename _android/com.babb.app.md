@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.babb.app
+alternativeStores: 
 appCountry: 
 released: 2020-02-27
 updated: 2026-04-09

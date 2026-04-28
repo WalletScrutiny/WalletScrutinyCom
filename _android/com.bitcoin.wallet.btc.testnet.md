@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bitcoin.wallet.btc.testnet
+alternativeStores: 
 appCountry: 
 released: 2019-07-04
 updated: 2019-07-05

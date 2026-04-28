@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.upbots.demo.twa
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21

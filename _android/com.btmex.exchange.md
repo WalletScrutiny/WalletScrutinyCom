@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.btmex.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-09-11
 updated: 2019-12-03

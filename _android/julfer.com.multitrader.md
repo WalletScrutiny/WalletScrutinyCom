@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: julfer.com.multitrader
+alternativeStores: 
 appCountry: 
 released: 2017-09-15
 updated: 2021-01-15

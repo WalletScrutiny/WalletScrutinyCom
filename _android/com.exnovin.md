@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.exnovin
+alternativeStores: 
 appCountry: 
 released: 2018-07-06
 updated: 2025-12-15

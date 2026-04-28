@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000000
 appId: com.btcdana.online
+alternativeStores: 
 appCountry: 
 released: 2019-07-23
-updated: 2026-04-03
-version: 2.8.0
+updated: 2026-04-23
+version: 2.9.0
 reviews: 172
 website: https://www.btcdana.com/
 repository: 

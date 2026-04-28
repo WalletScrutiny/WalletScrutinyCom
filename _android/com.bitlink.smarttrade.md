@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitlink.smarttrade
+alternativeStores: 
 appCountry: 
 released: 2021-05-04
 updated: 2021-05-05

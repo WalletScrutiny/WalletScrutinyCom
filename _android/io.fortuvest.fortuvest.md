@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.fortuvest.fortuvest
+alternativeStores: 
 appCountry: 
 released: 2020-03-27
 updated: 2020-03-27

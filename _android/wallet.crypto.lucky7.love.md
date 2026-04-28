@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: wallet.crypto.lucky7.love
+alternativeStores: 
 appCountry: 
 released: 2019-10-30
 updated: 2019-11-07

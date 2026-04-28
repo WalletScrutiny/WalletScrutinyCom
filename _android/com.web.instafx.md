@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.web.instafx
+alternativeStores: 
 appCountry: 
 released: 2021-10-29
 updated: 2021-12-30

@@ -7,11 +7,12 @@ authors:
 - leo
 users: 10000000
 appId: org.dayup.stocks
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-18
+updated: 2026-04-23
 version: 12.0.0.66
-reviews: 41432
+reviews: 41454
 website: https://www.webull.com
 repository: 
 icon: org.dayup.stocks.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.topcoinfx
+alternativeStores: 
 appCountry: 
 released: 2019-08-12
 updated: 2020-02-11

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.flutter.litebit
+alternativeStores: 
 appCountry: 
 released: 2019-12-12
 updated: 2023-05-16

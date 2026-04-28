@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.zinary.apps
+alternativeStores: 
 appCountry: 
 released: 2024-03-11
 updated: 2024-03-11

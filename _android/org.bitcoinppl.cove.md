@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: org.bitcoinppl.cove
+alternativeStores: 
 appCountry: 
 released: 2026-02-12
 updated: 2026-03-19

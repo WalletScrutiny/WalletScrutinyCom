@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cryptocurrency.jtechtrade
+alternativeStores: 
 appCountry: 
 released: 2021-05-18
 updated: 2021-06-14

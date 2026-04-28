@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.iqfinex
+alternativeStores: 
 appCountry: 
 released: 2018-09-10
 updated: 2019-01-24

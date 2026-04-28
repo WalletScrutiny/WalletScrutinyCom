@@ -8,8 +8,8 @@ appId: com.binance.custody
 appCountry: sg
 idd: '1595828184'
 released: 2021-12-01
-updated: 2026-03-19
-version: 5.8.1
+updated: 2026-04-23
+version: 5.10.0
 reviews: 0
 website: https://www.ceffu.com
 repository: 
@@ -25,7 +25,7 @@ social:
 - https://www.linkedin.com/company/ceffu
 features:
 - multiSig
-developerName: Block Custody
+developerName: Block Technologies Pte Ltd
 
 ---
 

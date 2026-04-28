@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.mcways.hb.netcoin
+alternativeStores: 
 appCountry: 
 released: 2018-05-31
 updated: 2018-06-04

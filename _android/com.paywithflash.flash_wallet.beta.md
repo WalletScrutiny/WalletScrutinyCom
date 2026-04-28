@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.paywithflash.flash_wallet.beta
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-12-30

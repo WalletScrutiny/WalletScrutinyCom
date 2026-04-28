@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.maxsoftlab.findextrader
+alternativeStores: 
 appCountry: 
 released: 2022-11-07
 updated: 2023-12-25

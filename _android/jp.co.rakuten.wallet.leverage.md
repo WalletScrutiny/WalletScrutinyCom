@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: jp.co.rakuten.wallet.leverage
+alternativeStores: 
 appCountry: 
 released: 2020-03-22
 updated: 2023-02-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wallex.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-13
 updated: 2024-06-03

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.okinc.info
+alternativeStores: 
 appCountry: 
 released: 2020-05-25
 updated: 2020-07-05

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.blofin.android
+alternativeStores: 
 appCountry: 
 released: 2022-05-13
 updated: 2026-04-18

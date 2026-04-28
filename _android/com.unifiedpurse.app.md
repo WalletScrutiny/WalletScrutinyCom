@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.unifiedpurse.app
+alternativeStores: 
 appCountry: 
 released: 2018-05-19
 updated: 2018-08-30

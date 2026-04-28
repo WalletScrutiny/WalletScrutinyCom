@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.BTC.BtcPlannet
+alternativeStores: 
 appCountry: 
 released: 2022-06-20
 updated: 2022-06-20

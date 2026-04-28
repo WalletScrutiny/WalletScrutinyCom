@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.vwallet.vwallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2021-12-14

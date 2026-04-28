@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: org.qbita.bitcoin_wallet
+alternativeStores: 
 appCountry: 
 released: 2019-08-28
 updated: 2019-08-28

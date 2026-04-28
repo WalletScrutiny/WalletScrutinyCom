@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.stablex
+alternativeStores: 
 appCountry: 
 released: 2021-10-27
 updated: 2026-02-24

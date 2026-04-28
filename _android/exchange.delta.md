@@ -6,9 +6,10 @@ authors:
 - danny
 users: 500000
 appId: exchange.delta
+alternativeStores: 
 appCountry: nz
 released: 2021-05-07
-updated: 2026-02-04
+updated: 2026-04-21
 version: 1.13.0
 reviews: 
 website: https://delta.exchange

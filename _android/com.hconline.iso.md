@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.hconline.iso
+alternativeStores: 
 appCountry: us
 released: 2020-07-19
 updated: 2022-10-28

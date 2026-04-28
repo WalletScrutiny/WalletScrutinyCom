@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: bitfaucet.com
+alternativeStores: 
 appCountry: 
 released: 2021-09-16
 updated: 2021-09-20

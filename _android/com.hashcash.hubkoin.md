@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hashcash.hubkoin
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2023-02-16

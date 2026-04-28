@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.creadigol.amaano
+alternativeStores: 
 appCountry: 
 released: 2022-02-14
 updated: 2026-03-30

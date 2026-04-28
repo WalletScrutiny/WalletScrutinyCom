@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.blockkoinmobile
+alternativeStores: 
 appCountry: 
 released: 2020-08-17
 updated: 2023-07-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.whitebit.whitebitu
+alternativeStores: 
 appCountry: 
 released: 2023-04-06
 updated: 2023-06-23

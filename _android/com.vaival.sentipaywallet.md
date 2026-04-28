@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.vaival.sentipaywallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-31
 updated: 2021-03-31

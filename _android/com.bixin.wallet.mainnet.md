@@ -7,6 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.bixin.wallet.mainnet
+alternativeStores: 
 appCountry: us
 released: 2020-09-16
 updated: 2022-02-15

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.fchain.firefly
+alternativeStores: 
 appCountry: 
 released: 2019-05-08
 updated: 2022-02-10

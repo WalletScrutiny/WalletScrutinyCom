@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: net.ethylyte.com
+alternativeStores: 
 appCountry: 
 released: 2019-05-18
 updated: 2020-03-07

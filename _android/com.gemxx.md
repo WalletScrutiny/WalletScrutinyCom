@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gemxx
+alternativeStores: 
 appCountry: 
 released: 2021-10-30
 updated: 2022-05-11

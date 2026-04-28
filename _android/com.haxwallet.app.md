@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.haxwallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-05-23
 updated: 2025-12-14

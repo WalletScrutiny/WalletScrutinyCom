@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.idbtec.otppaymerchant
+alternativeStores: 
 appCountry: 
 released: 2018-12-05
 updated: 2019-06-18

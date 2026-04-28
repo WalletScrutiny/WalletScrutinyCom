@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.btcltcwallet.cryptsaver.v2
+alternativeStores: 
 appCountry: 
 released: 2020-10-09
 updated: 2020-10-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.h3blockchain.h3blockchain
+alternativeStores: 
 appCountry: 
 released: 2019-08-21
 updated: 2019-08-21

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.livetrader.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-05

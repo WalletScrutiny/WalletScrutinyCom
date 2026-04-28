@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.infinitywallet.main.v8
+alternativeStores: 
 appCountry: 
 released: 2021-10-16
 updated: 2021-10-17

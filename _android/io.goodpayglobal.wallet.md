@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.goodpayglobal.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-07
 updated: 2023-09-19

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.citex.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-09
 updated: 2020-02-08

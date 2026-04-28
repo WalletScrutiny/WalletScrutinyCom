@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.dreambit
+alternativeStores: 
 appCountry: lv
 released: 2021-02-16
 updated: 2022-12-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: come.bitteller.bitteller
+alternativeStores: 
 appCountry: 
 released: 2021-12-30
 updated: 2021-12-31

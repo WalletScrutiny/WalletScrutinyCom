@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.nastokenwalet.com
+alternativeStores: 
 appCountry: 
 released: 2021-03-10
 updated: 2021-03-10

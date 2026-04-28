@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fxoro.app
+alternativeStores: 
 appCountry: 
 released: 2022-06-16
 updated: 2025-08-06

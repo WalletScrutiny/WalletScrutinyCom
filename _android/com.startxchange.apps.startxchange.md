@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.startxchange.apps.startxchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-10
 updated: 2021-10-11

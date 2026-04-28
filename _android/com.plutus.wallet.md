@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.plutus.wallet
+alternativeStores: 
 appCountry: 
 released: 2015-03-04
 updated: 2024-01-12

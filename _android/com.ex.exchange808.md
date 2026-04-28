@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ex.exchange808
+alternativeStores: 
 appCountry: 
 released: 2021-02-03
 updated: 2022-08-04

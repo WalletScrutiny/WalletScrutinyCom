@@ -6,11 +6,12 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.kr.iotrust.dcent.wallet
+alternativeStores: 
 appCountry: cn
 released: 2018-10-16
 updated: 2026-04-08
 version: 9.0.5
-reviews: 998
+reviews: 999
 website: https://dcentwallet.com/
 repository: 
 icon: com.kr.iotrust.dcent.wallet.png

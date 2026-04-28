@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.dhruvar.bitsmoney
+alternativeStores: 
 appCountry: 
 released: 2021-09-14
 updated: 2021-09-23

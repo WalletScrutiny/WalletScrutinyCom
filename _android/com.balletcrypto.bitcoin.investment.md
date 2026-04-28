@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.balletcrypto.bitcoin.investment
+alternativeStores: 
 appCountry: 
 released: 2021-06-20
 updated: 2021-06-20

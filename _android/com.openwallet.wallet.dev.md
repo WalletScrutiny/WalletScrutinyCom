@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.openwallet.wallet.dev
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2017-09-18

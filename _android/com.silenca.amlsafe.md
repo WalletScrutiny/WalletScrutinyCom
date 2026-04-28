@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.silenca.amlsafe
+alternativeStores: 
 appCountry: 
 released: 2020-10-26
 updated: 2026-03-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.app.speedpos
+alternativeStores: 
 appCountry: 
 released: 2023-03-14
 updated: 2023-04-13

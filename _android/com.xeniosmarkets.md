@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.xeniosmarkets
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-01-24

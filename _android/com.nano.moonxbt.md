@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.nano.moonxbt
+alternativeStores: 
 appCountry: us
 released: 2021-05-11
 updated: 2023-01-11

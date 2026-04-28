@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.goldex.pro
+alternativeStores: 
 appCountry: 
 released: 2022-03-11
 updated: 2022-10-18

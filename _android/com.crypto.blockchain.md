@@ -7,6 +7,7 @@ authors:
 - leo
 users: 5000
 appId: com.crypto.blockchain
+alternativeStores: 
 appCountry: 
 released: 2021-06-22
 updated: 2021-08-17

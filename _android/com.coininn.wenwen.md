@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coininn.wenwen
+alternativeStores: 
 appCountry: 
 released: 2020-03-05
 updated: 2025-04-02

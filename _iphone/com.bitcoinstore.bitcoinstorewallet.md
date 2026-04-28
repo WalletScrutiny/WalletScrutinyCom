@@ -8,8 +8,8 @@ appId: com.bitcoinstore.bitcoinstorewallet
 appCountry: hr
 idd: '1661281314'
 released: 2023-01-09
-updated: 2026-01-19
-version: 1.0.25
+updated: 2026-03-31
+version: 1.0.26
 reviews: 13
 website: 
 repository: 

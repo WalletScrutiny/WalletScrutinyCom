@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kodexpaywallet
+alternativeStores: 
 appCountry: 
 released: 2023-03-29
 updated: 2023-06-30

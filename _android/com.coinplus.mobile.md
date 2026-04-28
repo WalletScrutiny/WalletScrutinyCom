@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.coinplus.mobile
+alternativeStores: 
 appCountry: 
 released: 2018-03-15
 updated: 2020-12-15

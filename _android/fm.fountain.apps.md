@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: fm.fountain.apps
+alternativeStores: 
 appCountry: 
 released: 2021-08-02
-updated: 2026-03-04
-version: 1.4.10
+updated: 2026-04-21
+version: 1.5.0
 reviews: 260
 website: https://www.fountain.fm
 repository: 

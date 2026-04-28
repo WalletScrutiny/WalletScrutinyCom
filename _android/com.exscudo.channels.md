@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exscudo.channels
+alternativeStores: 
 appCountry: ru
 released: 2018-05-17
 updated: 2026-04-08

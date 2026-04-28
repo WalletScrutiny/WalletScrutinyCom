@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.asianbitcoins.asianbitcoins
+alternativeStores: 
 appCountry: 
 released: 2020-08-11
 updated: 2020-08-11

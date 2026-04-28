@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ittoken.appos
+alternativeStores: 
 appCountry: 
 released: 2022-05-10
 updated: 2022-05-10

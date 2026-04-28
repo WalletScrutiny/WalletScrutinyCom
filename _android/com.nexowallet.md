@@ -6,11 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: com.nexowallet
+alternativeStores: 
 appCountry: 
 released: 2019-06-28
-updated: 2026-04-17
-version: 6.11.1
-reviews: 1869
+updated: 2026-04-24
+version: 6.12.0
+reviews: 1872
 website: https://nexo.com
 repository: 
 icon: com.nexowallet.png

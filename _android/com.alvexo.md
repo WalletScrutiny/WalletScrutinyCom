@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.alvexo
+alternativeStores: 
 appCountry: gb
 released: 2018-07-13
 updated: 2023-11-07

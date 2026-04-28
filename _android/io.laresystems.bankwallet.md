@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.laresystems.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-07
 updated: 2022-03-20

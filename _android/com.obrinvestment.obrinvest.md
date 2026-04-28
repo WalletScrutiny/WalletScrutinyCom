@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.obrinvestment.obrinvest
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-07-02

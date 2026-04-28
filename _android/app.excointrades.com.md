@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.excointrades.com
+alternativeStores: 
 appCountry: 
 released: 2022-03-28
 updated: 2023-02-13

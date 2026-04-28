@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.firstWallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-12
 updated: 2022-07-30

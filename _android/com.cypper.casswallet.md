@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cypper.casswallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-29
 updated: 2019-12-07

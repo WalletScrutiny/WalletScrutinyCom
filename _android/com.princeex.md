@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.princeex
+alternativeStores: 
 appCountry: 
 released: 2022-03-15
 updated: 2023-02-13

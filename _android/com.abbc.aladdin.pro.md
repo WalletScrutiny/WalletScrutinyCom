@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.abbc.aladdin.pro
+alternativeStores: 
 appCountry: us
 released: 2019-11-15
 updated: 2023-02-03

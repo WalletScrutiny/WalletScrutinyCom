@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.goodx
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-03-23

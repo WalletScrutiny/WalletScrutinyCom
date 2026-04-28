@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.trade.btctradelink
+alternativeStores: 
 appCountry: 
 released: 2019-07-27
 updated: 2019-07-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.metallum.nicex
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-08-27

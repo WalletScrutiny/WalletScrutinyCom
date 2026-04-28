@@ -8,9 +8,9 @@ appId: app.deltaexchange.india
 appCountry: in
 idd: '6478332344'
 released: 2024-08-16
-updated: 2026-04-02
-version: 2.13.0
-reviews: 19422
+updated: 2026-04-24
+version: 2.15.0
+reviews: 19530
 website: https://india.delta.exchange/
 repository: 
 icon: app.deltaexchange.india.jpg

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hyd.bitfrog
+alternativeStores: 
 appCountry: 
 released: 2022-08-31
 updated: 2023-03-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tabanix.tade
+alternativeStores: 
 appCountry: 
 released: 2022-10-12
 updated: 2022-10-12

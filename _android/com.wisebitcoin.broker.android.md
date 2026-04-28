@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wisebitcoin.broker.android
+alternativeStores: 
 appCountry: cn
 released: 2021-01-04
 updated: 2025-12-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.econobit.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-29
 updated: 2023-11-06

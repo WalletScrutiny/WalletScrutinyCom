@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: in.spiegel.arthbit
+alternativeStores: 
 appCountry: 
 released: 2021-11-19
 updated: 2021-11-23

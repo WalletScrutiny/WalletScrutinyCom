@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitmex_trading
+alternativeStores: 
 appCountry: 
 released: 2019-11-18
 updated: 2020-05-19

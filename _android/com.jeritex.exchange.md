@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.jeritex.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-05-05
 updated: 2025-02-28

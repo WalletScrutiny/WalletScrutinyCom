@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wootzapp.browser
+alternativeStores: 
 appCountry: 
 released: 2022-10-30
 updated: 2024-03-09

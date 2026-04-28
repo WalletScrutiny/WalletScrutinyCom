@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: lk.suncapital.chp
+alternativeStores: 
 appCountry: 
 released: 2020-11-02
 updated: 2021-09-22

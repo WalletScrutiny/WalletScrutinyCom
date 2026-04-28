@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.zznex.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-18
 updated: 2023-04-06

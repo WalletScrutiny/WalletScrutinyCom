@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.swift.finance.solutions
+alternativeStores: 
 appCountry: 
 released: 2022-04-26
 updated: 2022-10-29

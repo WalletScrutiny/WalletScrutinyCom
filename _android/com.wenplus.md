@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wenplus
+alternativeStores: 
 appCountry: 
 released: 2022-09-09
 updated: 2023-01-03

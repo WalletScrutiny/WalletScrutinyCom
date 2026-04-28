@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.suremining.app
+alternativeStores: 
 appCountry: 
 released: 2020-03-24
 updated: 2020-03-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: io.uutoken
+alternativeStores: 
 appCountry: 
 released: 2022-12-08
 updated: 2022-12-14

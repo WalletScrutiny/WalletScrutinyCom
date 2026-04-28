@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wiser.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.valuecoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-20
 updated: 2022-08-24

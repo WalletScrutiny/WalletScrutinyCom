@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pandats.any1profit
+alternativeStores: 
 appCountry: 
 released: 2019-05-02
 updated: 2019-05-02

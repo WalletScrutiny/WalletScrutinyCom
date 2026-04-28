@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.uptrend.ainvesting
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-12-21

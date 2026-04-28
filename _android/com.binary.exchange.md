@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.binary.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-08-19
 updated: 2020-09-27

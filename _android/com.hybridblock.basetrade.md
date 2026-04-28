@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.hybridblock.basetrade
+alternativeStores: 
 appCountry: 
 released: 2019-05-23
 updated: 2020-02-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ttnex.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-01-05
 updated: 2021-08-24

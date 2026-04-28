@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.fujidon.android
+alternativeStores: 
 appCountry: 
 released: 2021-05-06
 updated: 2023-05-29

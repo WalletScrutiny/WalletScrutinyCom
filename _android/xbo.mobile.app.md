@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: xbo.mobile.app
+alternativeStores: 
 appCountry: 
 released: 2022-09-24
 updated: 2026-03-03

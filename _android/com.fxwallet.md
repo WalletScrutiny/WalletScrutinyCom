@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fxwallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-26
 updated: 2021-09-30

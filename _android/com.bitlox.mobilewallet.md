@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitlox.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 2018-12-16
 updated: 2019-09-18

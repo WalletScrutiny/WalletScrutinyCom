@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pallapayWallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-06
 updated: 2022-03-02

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.roinvesting
+alternativeStores: 
 appCountry: us
 released: 
 updated: 2021-08-25

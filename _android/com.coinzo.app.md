@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinzo.app
+alternativeStores: 
 appCountry: 
 released: 2021-02-24
 updated: 2021-05-11

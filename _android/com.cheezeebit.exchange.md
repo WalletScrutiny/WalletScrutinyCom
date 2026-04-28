@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.cheezeebit.exchange
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-13
-version: 1.3.4
+updated: 2026-04-21
+version: 1.3.4.1
 reviews: 
 website: https://cheezeebit.com/
 repository: 

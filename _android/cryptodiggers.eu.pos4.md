@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cryptodiggers.eu.pos4
+alternativeStores: 
 appCountry: 
 released: 2016-04-26
 updated: 2020-02-19

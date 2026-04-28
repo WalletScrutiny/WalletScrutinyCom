@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.app.alcoin4naira
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2022-04-04

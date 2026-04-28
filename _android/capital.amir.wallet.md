@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: capital.amir.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-03
 updated: 2024-03-21

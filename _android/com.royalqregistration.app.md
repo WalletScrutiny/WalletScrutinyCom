@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.royalqregistration.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-22
 updated: 2021-12-27

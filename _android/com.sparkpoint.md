@@ -7,6 +7,7 @@ authors:
 - emanuel
 users: 10000
 appId: com.sparkpoint
+alternativeStores: 
 appCountry: us
 released: 2019-07-20
 updated: 2023-08-24

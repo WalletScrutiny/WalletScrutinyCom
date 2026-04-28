@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.laqira.exchange
+alternativeStores: 
 appCountry: 
 released: 2023-02-09
 updated: 2023-03-03

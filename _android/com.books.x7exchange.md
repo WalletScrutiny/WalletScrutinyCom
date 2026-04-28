@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.books.x7exchange
+alternativeStores: 
 appCountry: 
 released: 2022-01-02
 updated: 2023-01-12

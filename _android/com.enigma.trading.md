@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.enigma.trading
+alternativeStores: 
 appCountry: 
 released: 2022-04-27
 updated: 2022-09-29

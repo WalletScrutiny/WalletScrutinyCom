@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bcnex
+alternativeStores: 
 appCountry: 
 released: 2020-02-02
 updated: 2020-02-03

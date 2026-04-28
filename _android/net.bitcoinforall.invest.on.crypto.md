@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: net.bitcoinforall.invest.on.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-06-17
 updated: 2021-06-17

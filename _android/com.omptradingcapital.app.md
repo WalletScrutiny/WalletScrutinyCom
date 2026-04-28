@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.omptradingcapital.app
+alternativeStores: 
 appCountry: 
 released: 2020-12-12
 updated: 2020-12-12

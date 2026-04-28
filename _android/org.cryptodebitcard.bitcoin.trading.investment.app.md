@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.cryptodebitcard.bitcoin.trading.investment.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-06-29

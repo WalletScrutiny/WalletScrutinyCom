@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.uwalletapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-06-08

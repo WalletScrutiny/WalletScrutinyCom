@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: app.bitcoininvestmenthub.com
+alternativeStores: 
 appCountry: 
 released: 2020-05-04
 updated: 2020-05-04

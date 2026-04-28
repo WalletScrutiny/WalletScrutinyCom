@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ahyoxsoft.elite
+alternativeStores: 
 appCountry: 
 released: 2020-06-15
 updated: 2020-08-06

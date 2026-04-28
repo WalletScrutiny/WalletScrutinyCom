@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.solidus.x
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-07-20

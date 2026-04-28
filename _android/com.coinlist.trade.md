@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.coinlist.trade
+alternativeStores: 
 appCountry: us
 released: 2020-08-10
 updated: 2021-12-06

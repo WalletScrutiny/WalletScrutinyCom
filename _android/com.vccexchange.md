@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vccexchange
+alternativeStores: 
 appCountry: 
 released: 2019-12-12
 updated: 2021-10-06

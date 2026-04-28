@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: mx.goi.goimwallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-10
 updated: 2021-07-19

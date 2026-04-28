@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: cc.cryptochanger
+alternativeStores: 
 appCountry: 
 released: 2017-11-30
 updated: 2018-02-19

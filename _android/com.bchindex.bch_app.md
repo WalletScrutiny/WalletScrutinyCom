@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bchindex.bch_app
+alternativeStores: 
 appCountry: 
 released: 2022-12-28
 updated: 2023-04-11

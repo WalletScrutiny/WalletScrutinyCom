@@ -6,9 +6,10 @@ authors:
 - danny
 users: 1000000
 appId: com.rekeningku
+alternativeStores: 
 appCountry: us
 released: 2018-02-21
-updated: 2026-03-12
+updated: 2026-04-23
 version: 4.5.07
 reviews: 50
 website: https://reku.id

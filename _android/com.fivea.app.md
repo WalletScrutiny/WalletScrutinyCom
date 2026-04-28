@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.fivea.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-15
 updated: 2023-02-17

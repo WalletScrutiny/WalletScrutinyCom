@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.frt.globe
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-08-06

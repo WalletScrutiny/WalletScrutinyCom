@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.tmarkets
+alternativeStores: 
 appCountry: us
 released: 
 updated: 2021-12-01

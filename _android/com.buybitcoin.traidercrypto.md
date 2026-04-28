@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.buybitcoin.traidercrypto
+alternativeStores: 
 appCountry: 
 released: 2022-04-15
 updated: 2022-04-15

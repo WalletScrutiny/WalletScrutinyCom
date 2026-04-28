@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.freaks.app.handcash
+alternativeStores: 
 appCountry: 
 released: 2018-06-01
 updated: 2019-09-16

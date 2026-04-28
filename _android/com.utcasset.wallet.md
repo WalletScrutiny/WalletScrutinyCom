@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.utcasset.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-26
 updated: 2021-08-27

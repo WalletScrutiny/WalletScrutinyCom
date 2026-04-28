@@ -7,6 +7,7 @@ authors:
 - danny
 users: 50000
 appId: com.sf.monarch
+alternativeStores: 
 appCountry: 
 released: 2018-10-19
 updated: 2023-11-21

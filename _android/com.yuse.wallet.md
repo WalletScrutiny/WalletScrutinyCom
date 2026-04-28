@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.yuse.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-05-19
 updated: 2025-07-02

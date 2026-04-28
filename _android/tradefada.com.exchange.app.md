@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: tradefada.com.exchange.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-10-26

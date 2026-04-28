@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tazminsho.app
+alternativeStores: 
 appCountry: 
 released: 2020-02-22
 updated: 2020-07-12

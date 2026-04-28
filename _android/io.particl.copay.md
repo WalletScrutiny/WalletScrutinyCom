@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.particl.copay
+alternativeStores: 
 appCountry: 
 released: 2017-09-18
 updated: 2020-05-30

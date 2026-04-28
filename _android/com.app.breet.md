@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.app.breet
+alternativeStores: 
 appCountry: 
 released: 2022-02-21
-updated: 2026-02-24
-version: 7.2.3
-reviews: 201
+updated: 2026-04-28
+version: 7.3.1
+reviews: 205
 website: https://breet.app
 repository: 
 icon: com.app.breet.jpg

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.cloudwallet.android
+alternativeStores: 
 appCountry: 
 released: 2019-05-11
 updated: 2020-01-22

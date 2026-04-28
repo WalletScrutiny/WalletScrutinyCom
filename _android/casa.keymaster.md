@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: casa.keymaster
+alternativeStores: 
 appCountry: 
 released: 2019-03-01
 updated: 2026-04-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.lovewallet.bfic
+alternativeStores: 
 appCountry: 
 released: 2022-04-12
 updated: 2022-04-13

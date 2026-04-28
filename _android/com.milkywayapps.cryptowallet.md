@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.milkywayapps.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2023-07-25
 updated: 2024-03-19

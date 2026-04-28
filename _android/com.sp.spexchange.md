@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sp.spexchange
+alternativeStores: 
 appCountry: 
 released: 2022-01-16
 updated: 2022-03-03

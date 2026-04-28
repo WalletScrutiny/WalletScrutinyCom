@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.digitalasset.fintoken
+alternativeStores: 
 appCountry: 
 released: 2023-05-24
 updated: 2025-10-26

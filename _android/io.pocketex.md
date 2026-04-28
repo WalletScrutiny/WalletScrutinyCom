@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: io.pocketex
+alternativeStores: 
 appCountry: 
 released: 2022-05-18
 updated: 2023-08-25

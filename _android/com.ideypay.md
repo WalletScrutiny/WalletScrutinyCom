@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ideypay
+alternativeStores: 
 appCountry: 
 released: 2020-09-03
 updated: 2022-10-30

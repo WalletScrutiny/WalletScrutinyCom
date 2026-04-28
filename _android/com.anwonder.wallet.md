@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.anwonder.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-05-30
 updated: 2021-05-31

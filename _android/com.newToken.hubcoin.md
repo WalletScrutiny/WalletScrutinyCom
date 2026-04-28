@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.newToken.hubcoin
+alternativeStores: 
 appCountry: 
 released: 2022-05-04
 updated: 2022-06-03

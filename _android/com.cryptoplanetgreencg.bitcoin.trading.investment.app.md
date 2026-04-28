@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptoplanetgreencg.bitcoin.trading.investment.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2021-07-28

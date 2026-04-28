@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: com.morix.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-15
 updated: 2023-01-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: tech.ammer.pos
+alternativeStores: 
 appCountry: 
 released: 2022-03-23
 updated: 2022-07-14

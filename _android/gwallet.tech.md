@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: gwallet.tech
+alternativeStores: 
 appCountry: be
 released: 2021-02-16
 updated: 2023-03-07

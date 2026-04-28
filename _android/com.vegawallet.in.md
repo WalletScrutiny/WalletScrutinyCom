@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vegawallet.in
+alternativeStores: 
 appCountry: us
 released: 2018-12-19
 updated: 2020-07-02

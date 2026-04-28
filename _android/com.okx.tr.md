@@ -6,9 +6,10 @@ authors:
 - danny
 users: 500000
 appId: com.okx.tr
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-02
+updated: 2026-04-20
 version: 6.165.1
 reviews: 
 website: https://tr.okx.com

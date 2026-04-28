@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.zupago.app
+alternativeStores: 
 appCountry: us
 released: 2021-04-30
 updated: 2024-05-16

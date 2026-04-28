@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.rezor
+alternativeStores: 
 appCountry: 
 released: 2025-04-05
 updated: 2026-03-30

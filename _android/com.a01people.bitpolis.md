@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.a01people.bitpolis
+alternativeStores: 
 appCountry: 
 released: 2019-10-31
 updated: 2020-05-19

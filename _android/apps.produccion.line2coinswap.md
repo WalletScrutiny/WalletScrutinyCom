@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: apps.produccion.line2coinswap
+alternativeStores: 
 appCountry: 
 released: 2022-07-22
 updated: 2022-07-24

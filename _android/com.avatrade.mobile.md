@@ -6,9 +6,10 @@ authors:
 - danny
 users: 1000000
 appId: com.avatrade.mobile
+alternativeStores: 
 appCountry: 
 released: 2017-05-23
-updated: 2026-03-04
+updated: 2026-04-21
 version: '168.6'
 reviews: 11
 website: http://www.avatrade.com

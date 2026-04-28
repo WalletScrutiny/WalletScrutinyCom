@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.lastbit.lite
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-05-11

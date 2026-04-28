@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.m2.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-12-15

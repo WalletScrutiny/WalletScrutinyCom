@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wCryptoExchanger_14131534
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20

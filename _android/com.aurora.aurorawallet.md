@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.aurora.aurorawallet
+alternativeStores: 
 appCountry: 
 released: 2022-12-23
 updated: 2022-12-23

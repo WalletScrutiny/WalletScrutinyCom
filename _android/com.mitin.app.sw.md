@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.mitin.app.sw
+alternativeStores: 
 appCountry: 
 released: 2021-04-14
 updated: 2021-05-13

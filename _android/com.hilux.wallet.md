@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hilux.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-03-31
 updated: 2019-12-04

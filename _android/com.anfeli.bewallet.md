@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.anfeli.bewallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-05
 updated: 2019-05-28

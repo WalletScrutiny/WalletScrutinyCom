@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50
 appId: com.chainsafe.weipay
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-02-18

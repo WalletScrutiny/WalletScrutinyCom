@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.investpal_social_trading
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2021-04-14

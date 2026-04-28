@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.npaswallet.viichainteam
+alternativeStores: 
 appCountry: 
 released: 2022-02-25
 updated: 2022-07-07

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.crex.trade
+alternativeStores: 
 appCountry: 
 released: 2020-05-20
 updated: 2020-05-26

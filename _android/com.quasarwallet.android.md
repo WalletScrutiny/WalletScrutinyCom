@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.quasarwallet.android
+alternativeStores: 
 appCountry: 
 released: 2022-04-05
 updated: 2024-08-29

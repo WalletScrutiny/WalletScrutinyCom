@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.valr.app
+alternativeStores: 
 appCountry: 
 released: 2019-09-13
 updated: 2026-04-10

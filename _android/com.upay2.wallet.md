@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.upay2.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-07-27
 updated: 2026-01-13

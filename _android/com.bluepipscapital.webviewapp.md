@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bluepipscapital.webviewapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-11-12

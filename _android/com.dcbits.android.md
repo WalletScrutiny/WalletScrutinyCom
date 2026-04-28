@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.dcbits.android
+alternativeStores: 
 appCountry: 
 released: 2022-08-02
 updated: 2023-01-23

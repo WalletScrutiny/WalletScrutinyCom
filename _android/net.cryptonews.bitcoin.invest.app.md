@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.cryptonews.bitcoin.invest.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-23
 updated: 2021-06-23

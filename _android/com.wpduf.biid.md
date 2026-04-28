@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.wpduf.biid
+alternativeStores: 
 appCountry: 
 released: 2022-05-12
 updated: 2022-05-24

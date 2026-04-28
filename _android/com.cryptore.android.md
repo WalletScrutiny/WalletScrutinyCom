@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cryptore.android
+alternativeStores: 
 appCountry: 
 released: 2021-12-16
 updated: 2024-11-05

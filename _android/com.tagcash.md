@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tagcash
+alternativeStores: 
 appCountry: 
 released: 2016-10-19
 updated: 2022-10-30

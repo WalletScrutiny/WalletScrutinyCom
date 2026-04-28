@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.smartblockchain.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-07-20
 updated: 2026-03-24

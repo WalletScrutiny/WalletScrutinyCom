@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.echri.dz
+alternativeStores: 
 appCountry: 
 released: 2019-05-18
 updated: 2020-01-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.browallted.comlogin.php
+alternativeStores: 
 appCountry: 
 released: 2022-07-13
 updated: 2022-07-13

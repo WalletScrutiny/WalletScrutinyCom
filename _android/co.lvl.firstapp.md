@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: co.lvl.firstapp
+alternativeStores: 
 appCountry: us
 released: 2020-06-30
 updated: 2021-09-09

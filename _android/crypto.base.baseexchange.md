@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: crypto.base.baseexchange
+alternativeStores: 
 appCountry: 
 released: 2019-06-05
 updated: 2022-03-29

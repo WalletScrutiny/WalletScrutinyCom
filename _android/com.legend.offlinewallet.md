@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.legend.offlinewallet
+alternativeStores: 
 appCountry: 
 released: 2020-05-09
 updated: 2020-07-25

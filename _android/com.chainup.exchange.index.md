@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.chainup.exchange.index
+alternativeStores: 
 appCountry: 
 released: 2020-05-23
 updated: 2020-05-25

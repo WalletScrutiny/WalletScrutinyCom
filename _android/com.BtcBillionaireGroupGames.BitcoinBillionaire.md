@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.BtcBillionaireGroupGames.BitcoinBillionaire
+alternativeStores: 
 appCountry: 
 released: 2022-03-21
 updated: 2022-03-21

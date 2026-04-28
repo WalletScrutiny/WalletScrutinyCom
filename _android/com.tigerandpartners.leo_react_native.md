@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.tigerandpartners.leo_react_native
+alternativeStores: 
 appCountry: 
 released: 2022-06-14
 updated: 2024-09-02

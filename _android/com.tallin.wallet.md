@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tallin.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2021-11-22

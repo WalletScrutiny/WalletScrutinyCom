@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.matrixport.bit
+alternativeStores: 
 appCountry: 
 released: 2021-03-15
 updated: 2025-12-24

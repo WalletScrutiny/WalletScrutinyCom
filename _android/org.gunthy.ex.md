@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: org.gunthy.ex
+alternativeStores: 
 appCountry: 
 released: 2021-01-12
 updated: 2021-01-14

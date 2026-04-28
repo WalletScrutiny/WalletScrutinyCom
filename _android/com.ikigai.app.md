@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.ikigai.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-08
 updated: 2022-02-08

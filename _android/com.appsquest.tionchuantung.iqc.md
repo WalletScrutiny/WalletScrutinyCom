@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.appsquest.tionchuantung.iqc
+alternativeStores: 
 appCountry: 
 released: 2018-06-01
 updated: 2019-01-04

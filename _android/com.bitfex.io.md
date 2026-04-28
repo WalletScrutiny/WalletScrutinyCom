@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitfex.io
+alternativeStores: 
 appCountry: 
 released: 2023-02-12
 updated: 2023-08-04

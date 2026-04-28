@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.cryptointerest.free.bitcoin.bot
+alternativeStores: 
 appCountry: 
 released: 2021-07-06
 updated: 2021-07-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.e.tswallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20

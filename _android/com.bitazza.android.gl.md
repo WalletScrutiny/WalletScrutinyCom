@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitazza.android.gl
+alternativeStores: 
 appCountry: 
 released: 2022-03-01
 updated: 2026-03-17
@@ -15,10 +16,10 @@ website: http://bitazza.com/
 repository: 
 icon: com.bitazza.android.gl.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-03-09
+date: 2026-04-28
 signer: 
 twitter: BitazzaGlobal
 social:

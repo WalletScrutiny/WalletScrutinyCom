@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.quidax.app
+alternativeStores: 
 appCountry: 
 released: 2025-04-21
 updated: 2026-04-16

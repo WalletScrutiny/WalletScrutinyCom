@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.decentralized.earth
+alternativeStores: 
 appCountry: 
 released: 2022-12-15
 updated: 2023-03-18

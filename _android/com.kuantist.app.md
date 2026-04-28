@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.kuantist.app
+alternativeStores: 
 appCountry: 
 released: 2024-07-18
-updated: 2026-04-02
-version: 1.0.51
+updated: 2026-04-16
+version: 1.0.53
 reviews: 
 website: https://www.kuantist.com/
 repository: 

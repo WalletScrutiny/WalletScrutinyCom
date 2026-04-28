@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.ryi.pay
+alternativeStores: 
 appCountry: 
 released: 2021-06-12
 updated: 2022-06-14

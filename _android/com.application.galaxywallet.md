@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.application.galaxywallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-09
 updated: 2020-05-19

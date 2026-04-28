@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.lanistar
+alternativeStores: 
 appCountry: 
 released: 2020-10-18
 updated: 2024-07-09

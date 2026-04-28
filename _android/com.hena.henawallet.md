@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.hena.henawallet
+alternativeStores: 
 appCountry: 
 released: 2019-03-12
 updated: 2020-06-04

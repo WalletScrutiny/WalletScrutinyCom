@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.techbros.metisbay
+alternativeStores: 
 appCountry: 
 released: 2020-12-18
 updated: 2021-01-12

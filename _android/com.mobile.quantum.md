@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.mobile.quantum
+alternativeStores: 
 appCountry: 
 released: 2022-04-18
 updated: 2025-10-02

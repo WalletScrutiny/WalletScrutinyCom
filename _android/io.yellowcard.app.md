@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: io.yellowcard.app
+alternativeStores: 
 appCountry: za
 released: 2019-05-14
 updated: 2025-11-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.libertypool.lpx
+alternativeStores: 
 appCountry: 
 released: 2020-01-01
 updated: 2020-01-01

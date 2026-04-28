@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tmebit.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-04-14
 updated: 2021-04-05

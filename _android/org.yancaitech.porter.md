@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: org.yancaitech.porter
+alternativeStores: 
 appCountry: 
 released: 2020-06-01
 updated: 2020-06-08

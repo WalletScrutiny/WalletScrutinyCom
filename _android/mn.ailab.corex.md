@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: mn.ailab.corex
+alternativeStores: 
 appCountry: 
 released: 2021-11-24
 updated: 2026-01-20

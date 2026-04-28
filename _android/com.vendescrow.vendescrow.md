@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.vendescrow.vendescrow
+alternativeStores: 
 appCountry: 
 released: 2021-12-05
 updated: 2021-12-06

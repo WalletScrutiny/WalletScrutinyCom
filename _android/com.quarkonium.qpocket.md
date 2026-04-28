@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.quarkonium.qpocket
+alternativeStores: 
 appCountry: us
 released: 2019-07-22
 updated: 2022-12-22

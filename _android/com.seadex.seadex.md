@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.seadex.seadex
+alternativeStores: 
 appCountry: 
 released: 2018-08-11
 updated: 2018-09-05

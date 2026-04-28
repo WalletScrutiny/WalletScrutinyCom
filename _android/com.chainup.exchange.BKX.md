@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.chainup.exchange.BKX
+alternativeStores: 
 appCountry: 
 released: 2022-01-14
 updated: 2022-09-19

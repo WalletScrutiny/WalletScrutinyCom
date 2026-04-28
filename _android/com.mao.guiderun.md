@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.mao.guiderun
+alternativeStores: 
 appCountry: 
 released: 2022-05-08
 updated: 2022-05-20

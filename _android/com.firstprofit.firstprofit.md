@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.firstprofit.firstprofit
+alternativeStores: 
 appCountry: 
 released: 2020-08-31
 updated: 2020-09-25

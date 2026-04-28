@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.hmng.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-09
 updated: 2022-08-31

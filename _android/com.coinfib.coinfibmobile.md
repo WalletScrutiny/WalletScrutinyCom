@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coinfib.coinfibmobile
+alternativeStores: 
 appCountry: 
 released: 2022-03-16
 updated: 2022-04-01

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.coinmama
+alternativeStores: 
 appCountry: 
 released: 2022-11-21
 updated: 2023-12-13

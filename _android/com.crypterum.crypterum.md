@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.crypterum.crypterum
+alternativeStores: 
 appCountry: 
 released: 2018-09-28
 updated: 2020-09-23

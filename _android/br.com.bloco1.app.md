@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: br.com.bloco1.app
+alternativeStores: 
 appCountry: 
 released: 2019-01-12
 updated: 2021-07-05

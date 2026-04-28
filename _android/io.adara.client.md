@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.adara.client
+alternativeStores: 
 appCountry: 
 released: 2019-11-25
 updated: 2020-02-05

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.crosstower.india
+alternativeStores: 
 appCountry: 
 released: 2021-09-08
 updated: 2023-04-02

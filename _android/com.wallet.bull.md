@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wallet.bull
+alternativeStores: 
 appCountry: us
 released: 2021-06-28
 updated: 2021-10-13

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xrpaynet.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-05
 updated: 2025-12-16

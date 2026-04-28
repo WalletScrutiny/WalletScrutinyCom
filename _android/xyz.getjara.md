@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: xyz.getjara
+alternativeStores: 
 appCountry: 
 released: 2024-04-06
 updated: 2024-12-16

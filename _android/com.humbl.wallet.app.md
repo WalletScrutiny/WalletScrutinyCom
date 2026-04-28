@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000
 appId: com.humbl.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-04
-updated: 2025-11-26
-version: 1.0.75
+updated: 2026-04-23
+version: 1.0.92
 reviews: 48
 website: https://tapwallet.com/
 repository: 

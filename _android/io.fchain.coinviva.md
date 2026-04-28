@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.fchain.coinviva
+alternativeStores: 
 appCountry: 
 released: 2020-02-21
 updated: 2020-08-17

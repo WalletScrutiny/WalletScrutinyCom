@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wallet.blockchain.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2023-12-21
 updated: 2024-11-22

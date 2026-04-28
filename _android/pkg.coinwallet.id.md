@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: pkg.coinwallet.id
+alternativeStores: 
 appCountry: 
 released: 2021-04-13
 updated: 2021-04-23

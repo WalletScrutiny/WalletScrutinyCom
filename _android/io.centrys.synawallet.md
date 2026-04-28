@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.centrys.synawallet
+alternativeStores: 
 appCountry: 
 released: 2018-12-13
 updated: 2019-05-15

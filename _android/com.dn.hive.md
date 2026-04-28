@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.dn.hive
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2023-02-21

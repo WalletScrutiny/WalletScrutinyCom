@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.flynncrypt.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-16
 updated: 2022-06-16

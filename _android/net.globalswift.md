@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: net.globalswift
+alternativeStores: 
 appCountry: 
 released: 2022-08-21
 updated: 2022-08-22

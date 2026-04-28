@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: app.getcoinsafe.android
+alternativeStores: 
 appCountry: 
 released: 2019-02-15
 updated: 2019-05-16

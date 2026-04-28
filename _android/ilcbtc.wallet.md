@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: ilcbtc.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-02-27
 updated: 2025-08-29

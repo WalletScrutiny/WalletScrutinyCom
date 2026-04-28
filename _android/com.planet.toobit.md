@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.planet.toobit
+alternativeStores: 
 appCountry: 
 released: 2023-02-14
-updated: 2026-04-09
-version: 2.2.2
-reviews: 331
+updated: 2026-04-27
+version: 2.2.4
+reviews: 330
 website: https://www.toobit.com
 repository: 
 icon: com.planet.toobit.jpg

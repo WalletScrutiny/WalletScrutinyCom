@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.multibank.app
+alternativeStores: 
 appCountry: 
 released: 2023-04-04
-updated: 2026-04-16
-version: 26.0.19
+updated: 2026-04-24
+version: 26.0.20
 reviews: 7
 website: https://mb.io/
 repository: 

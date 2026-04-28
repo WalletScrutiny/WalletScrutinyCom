@@ -37,7 +37,7 @@ features:
 
 ---
 
-Link to companion app: {% include walletLink.html wallet='android/org.satochip.satodimeapp' verdict='true' %}
+Link to companion app: {% include walletLinkArchived.html wallet='android/org.satochip.satodimeapp' %}
 
 
 ## Product Description

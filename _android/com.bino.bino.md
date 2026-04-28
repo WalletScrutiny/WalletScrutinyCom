@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bino.bino
+alternativeStores: 
 appCountry: 
 released: 2021-08-21
 updated: 2021-08-21

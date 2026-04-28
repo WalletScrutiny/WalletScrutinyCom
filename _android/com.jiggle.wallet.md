@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.jiggle.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-05-19
 updated: 2025-04-11

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: by.erpbel.hermes
+alternativeStores: 
 appCountry: 
 released: 2022-10-06
 updated: 2026-03-30

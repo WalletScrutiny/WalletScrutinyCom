@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.justbit
+alternativeStores: 
 appCountry: 
 released: 2022-06-24
 updated: 2022-10-20

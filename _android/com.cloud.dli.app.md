@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cloud.dli.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-15
 updated: 2023-05-12

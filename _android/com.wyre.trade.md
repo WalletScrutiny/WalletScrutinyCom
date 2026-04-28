@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.wyre.trade
+alternativeStores: 
 appCountry: 
 released: 2021-04-30
 updated: 2021-07-19

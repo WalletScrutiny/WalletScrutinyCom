@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xensorbox
+alternativeStores: 
 appCountry: 
 released: 2019-09-27
 updated: 2019-12-02

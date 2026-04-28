@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pilab.biport
+alternativeStores: 
 appCountry: 
 released: 2023-02-09
 updated: 2025-03-10

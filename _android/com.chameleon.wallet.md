@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.chameleon.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-02-22
 updated: 2019-10-16

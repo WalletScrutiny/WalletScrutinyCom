@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.iamswr_oxbtc_m.mwbpcontainer
+alternativeStores: 
 appCountry: 
 released: 2021-08-23
 updated: 2021-08-24

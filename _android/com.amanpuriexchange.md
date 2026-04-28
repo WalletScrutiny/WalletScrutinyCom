@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.amanpuriexchange
+alternativeStores: 
 appCountry: 
 released: 2020-01-15
 updated: 2020-10-02

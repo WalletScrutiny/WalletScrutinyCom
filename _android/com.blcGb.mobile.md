@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.blcGb.mobile
+alternativeStores: 
 appCountry: 
 released: 2023-02-14
 updated: 2023-02-23

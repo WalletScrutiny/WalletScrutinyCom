@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptoasx.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-06

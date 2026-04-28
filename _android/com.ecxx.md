@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ecxx
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-02-28

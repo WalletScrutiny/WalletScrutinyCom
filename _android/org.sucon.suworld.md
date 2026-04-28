@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.sucon.suworld
+alternativeStores: 
 appCountry: 
 released: 2019-04-21
 updated: 2019-09-16

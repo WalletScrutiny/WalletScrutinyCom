@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.profittrading.forcoinbase
+alternativeStores: 
 appCountry: 
 released: 2018-05-15
 updated: 2021-05-16

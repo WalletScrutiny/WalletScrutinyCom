@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.yieldapp_mobile
+alternativeStores: 
 appCountry: 
 released: 2022-06-10
 updated: 2024-05-31

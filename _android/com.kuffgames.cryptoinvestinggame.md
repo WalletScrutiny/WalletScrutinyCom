@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.kuffgames.cryptoinvestinggame
+alternativeStores: 
 appCountry: 
 released: 2021-07-08
 updated: 2021-07-31

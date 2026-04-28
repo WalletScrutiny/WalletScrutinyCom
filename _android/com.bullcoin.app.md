@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bullcoin.app
+alternativeStores: 
 appCountry: 
 released: 2021-02-22
 updated: 2023-07-11

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitkipi
+alternativeStores: 
 appCountry: 
 released: 2021-12-23
 updated: 2022-09-30

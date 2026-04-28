@@ -4,8 +4,9 @@ title: NexDAX
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.nexdax
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-09-08

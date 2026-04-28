@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.mutinywallet.mutinywallet
+alternativeStores: 
 appCountry: 
 released: 2024-02-27
 updated: 2024-09-03

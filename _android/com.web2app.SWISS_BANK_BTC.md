@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.web2app.SWISS_BANK_BTC
+alternativeStores: 
 appCountry: 
 released: 2020-11-27
 updated: 2020-11-30

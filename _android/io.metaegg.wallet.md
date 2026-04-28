@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.metaegg.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-04
 updated: 2022-09-11

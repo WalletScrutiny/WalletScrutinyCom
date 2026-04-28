@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.nfpfederal.investorsnfp
+alternativeStores: 
 appCountry: 
 released: 2020-09-23
 updated: 2020-09-23

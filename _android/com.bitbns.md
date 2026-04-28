@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.bitbns
+alternativeStores: 
 appCountry: 
 released: 2019-09-21
 updated: 2026-04-06

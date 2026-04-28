@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cis.motacoin
+alternativeStores: 
 appCountry: 
 released: 2021-10-02
 updated: 2022-05-05

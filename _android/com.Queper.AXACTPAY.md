@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.Queper.AXACTPAY
+alternativeStores: 
 appCountry: 
 released: 2020-07-08
 updated: 2023-01-10

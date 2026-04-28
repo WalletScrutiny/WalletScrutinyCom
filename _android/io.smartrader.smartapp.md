@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.smartrader.smartapp
+alternativeStores: 
 appCountry: 
 released: 2022-01-25
 updated: 2022-08-17

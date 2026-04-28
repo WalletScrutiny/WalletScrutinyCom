@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: net.coinpayments.coinpaymentsapp
+alternativeStores: 
 appCountry: 
 released: 2016-11-15
 updated: 2024-12-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.wplus
+alternativeStores: 
 appCountry: 
 released: 2018-11-27
 updated: 2019-05-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mntex.monetiumexchange
+alternativeStores: 
 appCountry: 
 released: 2020-11-03
 updated: 2020-11-17

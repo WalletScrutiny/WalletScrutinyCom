@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitleague
+alternativeStores: 
 appCountry: us
 released: 2019-05-06
 updated: 2021-05-14

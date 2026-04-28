@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bigines.crypto
+alternativeStores: 
 appCountry: 
 released: 2022-02-14
 updated: 2023-01-12

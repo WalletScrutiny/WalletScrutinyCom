@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pkg.JusPay
+alternativeStores: 
 appCountry: 
 released: 2020-09-16
 updated: 2020-11-10

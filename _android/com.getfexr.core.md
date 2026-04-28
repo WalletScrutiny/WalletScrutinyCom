@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 100
 appId: com.getfexr.core
+alternativeStores: 
 appCountry: 
 released: 2022-06-08
-updated: 2026-04-16
-version: 3.4.2
+updated: 2026-04-27
+version: 3.5.0
 reviews: 
 website: https://getfexr.com
 repository: 

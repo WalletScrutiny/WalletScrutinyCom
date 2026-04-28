@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.drnotjvn.bitop
+alternativeStores: 
 appCountry: 
 released: 2021-10-12
 updated: 2021-10-13

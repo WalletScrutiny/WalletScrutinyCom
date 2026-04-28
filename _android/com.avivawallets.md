@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.avivawallets
+alternativeStores: 
 appCountry: 
 released: 2022-05-02
 updated: 2022-05-02

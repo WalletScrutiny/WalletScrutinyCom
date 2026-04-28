@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: bitcoin.bank2
+alternativeStores: 
 appCountry: 
 released: 2022-04-23
 updated: 2022-04-23

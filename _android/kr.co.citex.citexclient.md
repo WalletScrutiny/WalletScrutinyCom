@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: kr.co.citex.citexclient
+alternativeStores: 
 appCountry: 
 released: 2019-12-25
 updated: 2022-02-18

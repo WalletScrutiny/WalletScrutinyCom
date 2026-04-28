@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tradegm.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-12-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bachex_android
+alternativeStores: 
 appCountry: 
 released: 2021-03-28
 updated: 2021-06-25

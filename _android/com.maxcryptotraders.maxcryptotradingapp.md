@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.maxcryptotraders.maxcryptotradingapp
+alternativeStores: 
 appCountry: 
 released: 2022-06-06
 updated: 2022-06-06

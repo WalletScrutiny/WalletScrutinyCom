@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.boulpik.token
+alternativeStores: 
 appCountry: 
 released: 2022-09-11
 updated: 2022-09-12

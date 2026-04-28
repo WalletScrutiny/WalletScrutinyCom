@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.futur
+alternativeStores: 
 appCountry: 
 released: 2022-06-09
 updated: 2022-06-09

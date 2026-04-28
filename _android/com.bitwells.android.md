@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitwells.android
+alternativeStores: 
 appCountry: us
 released: 2021-05-17
 updated: 2022-05-09

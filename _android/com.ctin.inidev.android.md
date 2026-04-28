@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ctin.inidev.android
+alternativeStores: 
 appCountry: 
 released: 2021-05-22
 updated: 2021-06-04

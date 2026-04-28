@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bastionpay.bastionpay
+alternativeStores: 
 appCountry: 
 released: 2019-01-04
 updated: 2019-11-20

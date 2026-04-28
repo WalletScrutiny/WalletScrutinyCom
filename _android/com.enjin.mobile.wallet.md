@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000000
 appId: com.enjin.mobile.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-01-01
 updated: 2026-04-07

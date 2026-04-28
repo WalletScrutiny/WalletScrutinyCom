@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.turinlabs.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-14
 updated: 2023-03-06

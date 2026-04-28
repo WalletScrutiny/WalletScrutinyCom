@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.sarnado.apluswallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-28
 updated: 2021-01-04

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: i.brains.pandax
+alternativeStores: 
 appCountry: 
 released: 2020-06-14
-updated: 2026-03-19
-version: 3.1.6
+updated: 2026-04-27
+version: 3.1.7
 reviews: 275
 website: https://pandar.ng
 repository: 

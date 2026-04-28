@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wiki.coolbit
+alternativeStores: 
 appCountry: 
 released: 2021-03-09
 updated: 2021-05-10

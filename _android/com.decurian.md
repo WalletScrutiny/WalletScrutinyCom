@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.decurian
+alternativeStores: 
 appCountry: 
 released: 2021-12-27
 updated: 2022-03-02

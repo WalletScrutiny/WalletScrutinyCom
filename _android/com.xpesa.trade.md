@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xpesa.trade
+alternativeStores: 
 appCountry: 
 released: 2018-08-31
 updated: 2020-09-04

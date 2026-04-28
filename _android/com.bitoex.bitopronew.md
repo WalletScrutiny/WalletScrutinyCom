@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitoex.bitopronew
+alternativeStores: 
 appCountry: 
 released: 2023-08-08
 updated: 2026-02-26

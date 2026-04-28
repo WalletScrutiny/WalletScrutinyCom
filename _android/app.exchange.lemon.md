@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.exchange.lemon
+alternativeStores: 
 appCountry: 
 released: 2022-11-16
 updated: 2022-11-16

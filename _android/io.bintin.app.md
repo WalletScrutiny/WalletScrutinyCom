@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.bintin.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2022-03-16

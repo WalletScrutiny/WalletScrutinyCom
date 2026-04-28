@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.nexybit.nexybit
+alternativeStores: 
 appCountry: 
 released: 2018-12-31
 updated: 2019-02-18

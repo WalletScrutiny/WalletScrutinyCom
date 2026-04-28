@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: pouch.ph
+alternativeStores: 
 appCountry: 
 released: 2021-09-08
 updated: 2026-02-26

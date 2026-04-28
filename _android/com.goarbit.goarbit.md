@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.goarbit.goarbit
+alternativeStores: 
 appCountry: 
 released: 2020-11-17
 updated: 2021-08-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: app.hashx.online
+alternativeStores: 
 appCountry: 
 released: 2021-09-03
 updated: 2021-09-13

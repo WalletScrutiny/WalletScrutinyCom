@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.upreactiveboilerplate
+alternativeStores: 
 appCountry: 
 released: 2021-01-16
 updated: 2021-05-25

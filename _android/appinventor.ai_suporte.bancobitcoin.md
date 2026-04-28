@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: appinventor.ai_suporte.bancobitcoin
+alternativeStores: 
 appCountry: 
 released: 2020-12-18
 updated: 2020-12-18

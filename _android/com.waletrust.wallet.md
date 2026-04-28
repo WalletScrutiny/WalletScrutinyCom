@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.waletrust.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-24
 updated: 2021-07-24

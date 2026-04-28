@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.klepon.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-29
 updated: 2022-03-29

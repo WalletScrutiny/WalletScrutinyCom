@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.newealth
+alternativeStores: 
 appCountry: 
 released: 2021-01-06
 updated: 2021-04-16

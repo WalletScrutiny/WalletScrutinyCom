@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.asyasoftware.metropuli
+alternativeStores: 
 appCountry: 
 released: 2022-03-09
 updated: 2023-08-22

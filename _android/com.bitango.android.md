@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitango.android
+alternativeStores: 
 appCountry: 
 released: 2021-12-17
 updated: 2022-06-04

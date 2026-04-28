@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: xeliuqa.com
+alternativeStores: 
 appCountry: 
 released: 2021-01-29
 updated: 2024-01-29

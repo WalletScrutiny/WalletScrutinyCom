@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: com.kangamobile
+alternativeStores: 
 appCountry: 
 released: 2020-01-03
-updated: 2026-04-20
-version: 1.29.0
+updated: 2026-04-24
+version: 1.29.1
 reviews: 6
 website: https://kanga.exchange
 repository: 

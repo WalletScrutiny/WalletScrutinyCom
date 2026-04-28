@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.splishpay
+alternativeStores: 
 appCountry: 
 released: 2021-07-28
 updated: 2022-02-13

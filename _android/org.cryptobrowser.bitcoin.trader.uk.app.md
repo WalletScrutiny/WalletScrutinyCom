@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: org.cryptobrowser.bitcoin.trader.uk.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2021-06-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.xufagroup.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-05
 updated: 2020-06-03

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinrepublic.app
+alternativeStores: 
 appCountry: 
 released: 2020-12-02
 updated: 2026-03-10

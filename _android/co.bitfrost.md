@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: co.bitfrost
+alternativeStores: 
 appCountry: 
 released: 2022-05-12
 updated: 2022-06-02

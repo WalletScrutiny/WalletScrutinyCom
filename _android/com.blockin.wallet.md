@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blockin.wallet
+alternativeStores: 
 appCountry: us
 released: 2020-03-23
 updated: 2024-08-21

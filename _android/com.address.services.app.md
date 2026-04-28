@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.address.services.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-07-24

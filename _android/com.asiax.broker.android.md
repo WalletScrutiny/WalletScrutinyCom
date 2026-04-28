@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.asiax.broker.android
+alternativeStores: 
 appCountry: 
 released: 2021-05-04
 updated: 2021-05-14

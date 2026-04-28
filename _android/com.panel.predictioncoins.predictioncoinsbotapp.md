@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.panel.predictioncoins.predictioncoinsbotapp
+alternativeStores: 
 appCountry: 
 released: 2019-03-16
 updated: 2019-03-16

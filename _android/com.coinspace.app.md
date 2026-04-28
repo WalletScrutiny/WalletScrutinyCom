@@ -6,11 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.coinspace.app
+alternativeStores: 
 appCountry: 
 released: 2015-05-01
 updated: 2026-04-14
 version: 6.26.0
-reviews: 109
+reviews: 110
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace
 icon: com.coinspace.app.png

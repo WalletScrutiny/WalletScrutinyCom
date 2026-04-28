@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.bilian.contract.joybit
+alternativeStores: 
 appCountry: 
 released: 2022-07-04
 updated: 2022-07-08

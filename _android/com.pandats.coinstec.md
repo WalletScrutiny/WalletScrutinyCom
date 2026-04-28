@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.pandats.coinstec
+alternativeStores: 
 appCountry: 
 released: 2017-12-24
 updated: 2018-01-04

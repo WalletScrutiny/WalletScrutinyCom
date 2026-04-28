@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gbs.gho.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-05-06
 updated: 2020-12-30

@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: ph.pdax.mobile
+alternativeStores: 
 appCountry: ph
 released: 2021-01-18
-updated: 2026-04-15
-version: 14.9.1
-reviews: 3563
+updated: 2026-04-23
+version: 14.9.2
+reviews: 3561
 website: https://pdax.ph
 repository: 
 icon: ph.pdax.mobile.png

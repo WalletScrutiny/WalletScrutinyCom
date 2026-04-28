@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vent.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-26
 updated: 2026-04-13

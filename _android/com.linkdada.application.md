@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.linkdada.application
+alternativeStores: 
 appCountry: 
 released: 2021-04-13
 updated: 2021-06-18

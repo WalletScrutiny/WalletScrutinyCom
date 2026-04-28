@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.getamber.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2026-04-18

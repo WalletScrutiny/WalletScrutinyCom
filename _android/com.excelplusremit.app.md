@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.excelplusremit.app
+alternativeStores: 
 appCountry: 
 released: 2021-03-17
 updated: 2022-07-12

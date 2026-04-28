@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: io.zla.app
+alternativeStores: 
 appCountry: 
 released: 2018-04-19
 updated: 2019-12-12

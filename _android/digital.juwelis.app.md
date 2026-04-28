@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: digital.juwelis.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-02-19

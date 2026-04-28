@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.geewallet.android
+alternativeStores: 
 appCountry: 
 released: 2019-09-23
 updated: 2024-03-20

@@ -6,10 +6,11 @@ authors:
 - leo
 users: 10000000
 appId: com.bitso.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-02-19
 updated: 2026-04-17
-version: 4.13.4
+version: 4.14.0
 reviews: 310
 website: https://bitso.com/app
 repository: 

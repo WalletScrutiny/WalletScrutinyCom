@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.interakt.b2z
+alternativeStores: 
 appCountry: 
 released: 2022-04-12
 updated: 2026-02-10

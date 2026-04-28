@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cointrade.uysal.development.cointradesimulation
+alternativeStores: 
 appCountry: 
 released: 2018-02-18
 updated: 2018-02-20

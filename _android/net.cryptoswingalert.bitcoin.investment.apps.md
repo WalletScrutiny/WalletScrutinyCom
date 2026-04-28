@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.cryptoswingalert.bitcoin.investment.apps
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-17

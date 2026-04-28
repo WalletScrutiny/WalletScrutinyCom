@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitallx
+alternativeStores: 
 appCountry: 
 released: 2021-12-09
 updated: 2022-01-15

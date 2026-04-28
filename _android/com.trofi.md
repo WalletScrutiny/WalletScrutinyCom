@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.trofi
+alternativeStores: 
 appCountry: 
 released: 2022-04-12
 updated: 2023-03-16

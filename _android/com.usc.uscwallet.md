@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.usc.uscwallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-13
 updated: 2020-12-21

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bastionpay.betrapay
+alternativeStores: 
 appCountry: 
 released: 2019-10-30
 updated: 2019-11-20

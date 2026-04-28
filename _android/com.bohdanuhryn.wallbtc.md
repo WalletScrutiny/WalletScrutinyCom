@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bohdanuhryn.wallbtc
+alternativeStores: 
 appCountry: 
 released: 2016-09-28
 updated: 2017-11-04

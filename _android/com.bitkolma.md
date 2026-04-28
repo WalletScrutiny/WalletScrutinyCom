@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.bitkolma
+alternativeStores: 
 appCountry: 
 released: 2021-01-21
 updated: 2021-01-21

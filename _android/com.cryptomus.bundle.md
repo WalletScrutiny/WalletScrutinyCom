@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: com.cryptomus.bundle
+alternativeStores: 
 appCountry: 
 released: 2024-12-19
-updated: 2026-03-30
-version: 2.8.2(164)
+updated: 2026-04-22
+version: 2.9.0(173)
 reviews: 71
 website: https://cryptomus.com/
 repository: 

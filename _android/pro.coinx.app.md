@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: pro.coinx.app
+alternativeStores: 
 appCountry: 
 released: 2018-10-11
 updated: 2020-01-15

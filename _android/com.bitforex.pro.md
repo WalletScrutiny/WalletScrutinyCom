@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.bitforex.pro
+alternativeStores: 
 appCountry: 
 released: 2020-07-19
 updated: 2020-07-20

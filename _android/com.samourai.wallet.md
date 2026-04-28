@@ -8,6 +8,7 @@ authors:
 - leo
 users: 100000
 appId: com.samourai.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-03-29

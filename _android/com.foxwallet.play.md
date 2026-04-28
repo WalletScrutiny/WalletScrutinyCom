@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.foxwallet.play
+alternativeStores: 
 appCountry: 
 released: 2021-12-05
 updated: 2026-04-10

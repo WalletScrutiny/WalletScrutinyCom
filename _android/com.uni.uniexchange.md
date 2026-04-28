@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.uni.uniexchange
+alternativeStores: 
 appCountry: 
 released: 2018-06-06
 updated: 2019-02-14

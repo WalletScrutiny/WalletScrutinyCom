@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.fido.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-01
 updated: 2022-07-12

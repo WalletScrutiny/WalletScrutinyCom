@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: cv.bitbox.bitbox
+alternativeStores: 
 appCountry: 
 released: 2021-12-18
 updated: 2022-03-10

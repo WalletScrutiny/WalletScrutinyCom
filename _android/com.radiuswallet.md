@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.radiuswallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-06
 updated: 2023-02-03

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.deswallet
+alternativeStores: 
 appCountry: 
 released: 2020-03-04
 updated: 2020-03-12

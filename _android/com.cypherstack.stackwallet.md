@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 10000
 appId: com.cypherstack.stackwallet
+alternativeStores: 
 appCountry: 
 released: 2024-05-13
 updated: 2026-02-05

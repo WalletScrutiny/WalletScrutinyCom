@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: co.hold.mobile
+alternativeStores: 
 appCountry: de
 released: 2018-09-27
 updated: 2022-07-26

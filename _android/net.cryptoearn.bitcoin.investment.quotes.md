@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.cryptoearn.bitcoin.investment.quotes
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-06-29

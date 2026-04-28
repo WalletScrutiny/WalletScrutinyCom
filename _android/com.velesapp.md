@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.velesapp
+alternativeStores: 
 appCountry: 
 released: 2022-05-30
 updated: 2022-05-30

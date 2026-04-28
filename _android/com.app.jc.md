@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.app.jc
+alternativeStores: 
 appCountry: 
 released: 2025-01-13
-updated: 2026-04-15
-version: 3.3.12
+updated: 2026-04-22
+version: 3.3.13
 reviews: 12
 website: 
 repository: 

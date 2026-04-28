@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: se.example.starboyexchange
+alternativeStores: 
 appCountry: 
 released: 2022-01-10
 updated: 2022-01-31

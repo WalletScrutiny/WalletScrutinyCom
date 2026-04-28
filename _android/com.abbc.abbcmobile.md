@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.abbc.abbcmobile
+alternativeStores: 
 appCountry: 
 released: 2019-08-08
 updated: 2023-07-02

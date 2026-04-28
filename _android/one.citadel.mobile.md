@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: one.citadel.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-12-29
 updated: 2026-01-24

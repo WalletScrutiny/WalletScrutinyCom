@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.chainup.exchange.DsdaqGlobal
+alternativeStores: 
 appCountry: 
 released: 2021-10-26
 updated: 2022-07-18

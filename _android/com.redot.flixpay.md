@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.redot.flixpay
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2022-05-02

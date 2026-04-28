@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bitlish.bitlish
+alternativeStores: 
 appCountry: 
 released: 2017-07-11
 updated: 2020-01-20

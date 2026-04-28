@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.moneybrain.moneybrain
+alternativeStores: 
 appCountry: gb
 released: 2019-10-17
 updated: 2026-04-17

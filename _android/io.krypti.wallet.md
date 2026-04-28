@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: io.krypti.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-17
 updated: 2020-11-19

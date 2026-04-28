@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.tokenomy.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-09
 updated: 2023-09-27

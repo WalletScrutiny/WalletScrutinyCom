@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.coinovy.coin
+alternativeStores: 
 appCountry: 
 released: 2021-08-27
 updated: 2022-04-07

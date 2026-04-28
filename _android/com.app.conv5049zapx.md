@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.conv5049zapx
+alternativeStores: 
 appCountry: 
 released: 2021-05-12
 updated: 2021-05-12

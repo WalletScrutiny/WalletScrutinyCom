@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: uk.co.blockfort.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-05-24
 updated: 2023-05-05

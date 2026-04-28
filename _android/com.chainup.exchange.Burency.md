@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.chainup.exchange.Burency
+alternativeStores: 
 appCountry: 
 released: 2021-11-20
 updated: 2023-12-15

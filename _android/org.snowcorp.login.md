@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.snowcorp.login
+alternativeStores: 
 appCountry: 
 released: 2019-04-23
 updated: 2019-06-20

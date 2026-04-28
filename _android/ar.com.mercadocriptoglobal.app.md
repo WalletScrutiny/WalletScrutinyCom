@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: ar.com.mercadocriptoglobal.app
+alternativeStores: 
 appCountry: 
 released: 2018-03-21
 updated: 2018-03-21

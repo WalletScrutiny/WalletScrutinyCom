@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitkoex
+alternativeStores: 
 appCountry: 
 released: 2018-09-30
 updated: 2021-03-01

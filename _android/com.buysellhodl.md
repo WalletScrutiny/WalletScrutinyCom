@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.buysellhodl
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-10-11

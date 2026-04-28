@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.coinstorey
+alternativeStores: 
 appCountry: 
 released: 2021-11-30
 updated: 2021-12-01

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000
 appId: com.ultorexapp.io
+alternativeStores: 
 appCountry: 
 released: 2022-07-01
-updated: 2025-07-07
-version: 1.1.19
+updated: 2026-04-24
+version: 1.1.20
 reviews: 
 website: https://ultorex.io/
 repository: 

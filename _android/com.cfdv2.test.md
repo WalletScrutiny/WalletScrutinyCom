@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.cfdv2.test
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-06-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: finance.tradepal.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-02
 updated: 2022-04-02

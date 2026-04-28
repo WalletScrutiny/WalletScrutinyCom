@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bigminebitcoin1rd0.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-20
 updated: 2021-10-20

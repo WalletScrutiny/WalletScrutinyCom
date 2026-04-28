@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.northcrypto.northcrypto_wearos_app
+alternativeStores: 
 appCountry: 
 released: 2020-07-17
 updated: 2020-07-31

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nine
+alternativeStores: 
 appCountry: 
 released: 2020-07-20
 updated: 2020-10-08

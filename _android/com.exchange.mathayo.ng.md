@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.exchange.mathayo.ng
+alternativeStores: 
 appCountry: 
 released: 2021-12-17
 updated: 2021-12-18

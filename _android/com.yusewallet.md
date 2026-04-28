@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.yusewallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2023-02-18

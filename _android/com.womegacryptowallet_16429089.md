@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.womegacryptowallet_16429089
+alternativeStores: 
 appCountry: 
 released: 2022-12-25
 updated: 2023-06-06

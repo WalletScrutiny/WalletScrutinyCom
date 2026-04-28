@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: org.thecryptoapps.buy.crypto.india
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-16

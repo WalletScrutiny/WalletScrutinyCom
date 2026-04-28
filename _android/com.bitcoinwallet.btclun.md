@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitcoinwallet.btclun
+alternativeStores: 
 appCountry: 
 released: 2023-02-07
 updated: 2023-06-01

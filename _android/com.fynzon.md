@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fynzon
+alternativeStores: 
 appCountry: 
 released: 2021-07-18
 updated: 2021-11-03

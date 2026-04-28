@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: net.uzuras.uzuras
+alternativeStores: 
 appCountry: 
 released: 2019-02-01
 updated: 2021-10-15

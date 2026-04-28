@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.buybitcoincrypto.crypto.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

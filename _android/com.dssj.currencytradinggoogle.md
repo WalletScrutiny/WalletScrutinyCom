@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.dssj.currencytradinggoogle
+alternativeStores: 
 appCountry: 
 released: 2020-02-12
 updated: 2021-03-11

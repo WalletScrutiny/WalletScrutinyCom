@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: at.coinway.coinwaypay
+alternativeStores: 
 appCountry: 
 released: 2019-02-06
 updated: 2021-10-11

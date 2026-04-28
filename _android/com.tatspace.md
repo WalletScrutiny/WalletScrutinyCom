@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tatspace
+alternativeStores: 
 appCountry: 
 released: 2022-02-13
 updated: 2024-09-09

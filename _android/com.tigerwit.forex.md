@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.tigerwit.forex
+alternativeStores: 
 appCountry: 
 released: 2018-01-24
 updated: 2023-04-12

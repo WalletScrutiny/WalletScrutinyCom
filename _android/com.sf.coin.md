@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.sf.coin
+alternativeStores: 
 appCountry: 
 released: 2018-11-23
 updated: 2019-09-09

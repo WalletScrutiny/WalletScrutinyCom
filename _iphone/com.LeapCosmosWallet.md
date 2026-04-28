@@ -10,7 +10,7 @@ idd: '1642465549'
 released: 2022-11-02
 updated: 2026-04-01
 version: 0.77.0
-reviews: 1125
+reviews: 1128
 website: https://www.leapwallet.io/mobile
 repository: 
 icon: com.LeapCosmosWallet.jpg

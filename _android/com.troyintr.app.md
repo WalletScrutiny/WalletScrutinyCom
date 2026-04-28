@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.troyintr.app
+alternativeStores: 
 appCountry: 
 released: 2019-05-23
 updated: 2019-05-23

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: xyz.must.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-10
 updated: 2020-09-18

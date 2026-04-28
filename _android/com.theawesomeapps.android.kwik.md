@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.theawesomeapps.android.kwik
+alternativeStores: 
 appCountry: 
 released: 2020-07-05
 updated: 2020-07-05

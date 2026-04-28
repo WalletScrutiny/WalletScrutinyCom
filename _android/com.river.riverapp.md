@@ -6,11 +6,12 @@ authors:
 - danny
 users: 50000
 appId: com.river.riverapp
+alternativeStores: 
 appCountry: 
 released: 2023-10-20
-updated: 2026-04-16
-version: 6.233.1
-reviews: 299
+updated: 2026-04-24
+version: 7.12.3
+reviews: 298
 website: https://river.com/
 repository: 
 icon: com.river.riverapp.png

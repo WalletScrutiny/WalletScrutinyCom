@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.masterbitexpress.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-04-21
 updated: 2025-10-31

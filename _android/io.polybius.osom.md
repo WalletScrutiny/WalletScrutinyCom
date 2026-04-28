@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.polybius.osom
+alternativeStores: 
 appCountry: 
 released: 2019-10-02
 updated: 2022-11-28

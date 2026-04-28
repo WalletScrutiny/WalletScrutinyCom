@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.hashcash.bitrump
+alternativeStores: 
 appCountry: 
 released: 2020-02-18
 updated: 2021-03-05

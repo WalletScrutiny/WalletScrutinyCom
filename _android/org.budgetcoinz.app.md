@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.budgetcoinz.app
+alternativeStores: 
 appCountry: 
 released: 2024-02-29
 updated: 2025-12-25

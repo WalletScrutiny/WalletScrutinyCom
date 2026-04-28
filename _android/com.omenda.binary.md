@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.omenda.binary
+alternativeStores: 
 appCountry: 
 released: 2017-05-28
 updated: 2017-05-28

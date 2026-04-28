@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.nakitcoins.wallet
+alternativeStores: 
 appCountry: us
 released: 2021-03-30
 updated: 2022-03-29

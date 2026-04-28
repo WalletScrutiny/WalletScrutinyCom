@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mooncod.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-02
 updated: 2022-11-08

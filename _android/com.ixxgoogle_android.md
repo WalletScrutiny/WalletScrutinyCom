@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ixxgoogle_android
+alternativeStores: 
 appCountry: 
 released: 2021-09-23
 updated: 2021-11-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.one80wallet
+alternativeStores: 
 appCountry: 
 released: 2025-06-20
 updated: 2025-12-15

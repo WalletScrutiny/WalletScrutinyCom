@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.numiner.nuwallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-23
 updated: 2023-04-18

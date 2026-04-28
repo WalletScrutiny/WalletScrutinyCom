@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.spowide.www
+alternativeStores: 
 appCountry: 
 released: 2019-10-17
 updated: 2020-01-30

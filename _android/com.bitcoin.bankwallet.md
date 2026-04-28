@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitcoin.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-23
 updated: 2022-04-10

@@ -7,11 +7,12 @@ authors:
 - danny
 users: 1000000
 appId: com.livingroomofsatoshi.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-19
-updated: 2026-03-12
-version: 3.3.0
-reviews: 215
+updated: 2026-04-21
+version: 3.3.1
+reviews: 216
 website: http://www.walletofsatoshi.com
 repository: 
 icon: com.livingroomofsatoshi.wallet.png

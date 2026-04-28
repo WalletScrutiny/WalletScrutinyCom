@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.cryptobrowser.ztrader.altcoin.bitcoin.trader
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2021-06-29

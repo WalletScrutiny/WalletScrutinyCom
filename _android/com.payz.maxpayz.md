@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.payz.maxpayz
+alternativeStores: 
 appCountry: 
 released: 2022-06-13
 updated: 2022-06-13

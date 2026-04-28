@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: net.bitstamp.appgo
+alternativeStores: 
 appCountry: 
 released: 2023-07-20
 updated: 2024-05-22

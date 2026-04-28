@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.rter.zorc
+alternativeStores: 
 appCountry: 
 released: 2021-09-20
 updated: 2021-09-20

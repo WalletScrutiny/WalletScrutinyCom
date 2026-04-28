@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: jp.goldex.towerwallet
+alternativeStores: 
 appCountry: 
 released: 2018-10-22
 updated: 2020-07-16

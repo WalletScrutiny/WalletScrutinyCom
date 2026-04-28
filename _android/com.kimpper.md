@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.kimpper
+alternativeStores: 
 appCountry: 
 released: 2021-12-22
 updated: 2022-11-11

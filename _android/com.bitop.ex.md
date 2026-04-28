@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitop.ex
+alternativeStores: 
 appCountry: 
 released: 2023-12-04
 updated: 2024-09-09

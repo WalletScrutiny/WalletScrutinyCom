@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: btm.wlw
+alternativeStores: 
 appCountry: 
 released: 2018-10-25
 updated: 2018-11-28

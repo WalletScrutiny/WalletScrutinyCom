@@ -6,11 +6,12 @@ authors:
 - danny
 users: 500000
 appId: com.application.koinbazar
+alternativeStores: 
 appCountry: in
 released: 2021-05-17
 updated: 2026-04-10
 version: 3.1.5
-reviews: 3496
+reviews: 3499
 website: https://koinbx.com/
 repository: 
 icon: com.application.koinbazar.png

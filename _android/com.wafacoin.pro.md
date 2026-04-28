@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wafacoin.pro
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-09-10

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.cryptoearningapps.bitcoin.investment.app.india
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-06-29

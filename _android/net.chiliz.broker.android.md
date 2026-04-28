@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: net.chiliz.broker.android
+alternativeStores: 
 appCountry: 
 released: 2020-01-22
 updated: 2023-12-14

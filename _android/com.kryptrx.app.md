@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.kryptrx.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-18
 updated: 2021-11-19

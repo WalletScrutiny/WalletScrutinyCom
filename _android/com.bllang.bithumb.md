@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bllang.bithumb
+alternativeStores: 
 appCountry: 
 released: 2017-07-23
 updated: 2017-12-16

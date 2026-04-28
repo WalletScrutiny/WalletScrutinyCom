@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.kisswallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-16
 updated: 2020-05-30

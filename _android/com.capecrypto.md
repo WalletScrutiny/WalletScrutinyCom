@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.capecrypto
+alternativeStores: 
 appCountry: 
 released: 2022-04-25
 updated: 2026-04-01

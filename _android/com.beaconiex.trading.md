@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.beaconiex.trading
+alternativeStores: 
 appCountry: 
 released: 2019-11-14
 updated: 2020-05-09

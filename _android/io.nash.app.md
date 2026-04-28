@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: io.nash.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-31
 updated: 2025-10-29

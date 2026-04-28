@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: cn.bizzan.app
+alternativeStores: 
 appCountry: 
 released: 2020-09-03
 updated: 2020-11-09

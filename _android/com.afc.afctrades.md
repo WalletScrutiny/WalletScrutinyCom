@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.afc.afctrades
+alternativeStores: 
 appCountry: 
 released: 2020-08-23
 updated: 2020-08-23

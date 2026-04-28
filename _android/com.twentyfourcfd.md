@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.twentyfourcfd
+alternativeStores: 
 appCountry: 
 released: 2019-09-25
 updated: 2019-09-25

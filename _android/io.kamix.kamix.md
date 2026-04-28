@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.kamix.kamix
+alternativeStores: 
 appCountry: 
 released: 2019-03-14
 updated: 2025-04-25
@@ -15,10 +16,10 @@ website: https://kamix.io
 repository: 
 icon: io.kamix.kamix.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-11-17
+date: 2026-04-28
 signer: 
 twitter: KamixApp
 social:

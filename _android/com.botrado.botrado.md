@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.botrado.botrado
+alternativeStores: 
 appCountry: 
 released: 2021-05-01
 updated: 2021-05-01

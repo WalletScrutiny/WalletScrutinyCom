@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.wirebitdigitalapp
+alternativeStores: 
 appCountry: 
 released: 2021-08-20
 updated: 2023-09-27

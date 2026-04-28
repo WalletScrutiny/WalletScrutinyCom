@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.binance.us
+alternativeStores: 
 appCountry: 
 released: 2019-12-23
-updated: 2026-04-12
-version: 3.35.2
-reviews: 6969
+updated: 2026-04-22
+version: 3.36.1
+reviews: 6937
 website: https://www.binance.us
 repository: 
 icon: com.binance.us.png

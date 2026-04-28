@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.redratel.bitratel
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2021-05-14

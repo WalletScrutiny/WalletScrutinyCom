@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.p2pchallenger
+alternativeStores: 
 appCountry: 
 released: 2021-04-16
 updated: 2021-05-24

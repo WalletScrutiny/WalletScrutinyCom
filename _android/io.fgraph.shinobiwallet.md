@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.fgraph.shinobiwallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-02
 updated: 2024-03-02

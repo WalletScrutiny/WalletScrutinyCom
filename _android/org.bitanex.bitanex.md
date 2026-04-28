@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: org.bitanex.bitanex
+alternativeStores: 
 appCountry: 
 released: 2017-03-17
 updated: 2019-04-27

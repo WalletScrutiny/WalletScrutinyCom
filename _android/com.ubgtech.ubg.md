@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ubgtech.ubg
+alternativeStores: 
 appCountry: 
 released: 2022-02-27
 updated: 2021-11-01

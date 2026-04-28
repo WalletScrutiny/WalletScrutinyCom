@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.starlyware.bitreal
+alternativeStores: 
 appCountry: 
 released: 2021-03-29
 updated: 2021-09-04

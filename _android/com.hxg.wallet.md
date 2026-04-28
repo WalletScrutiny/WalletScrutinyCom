@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.hxg.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-30
 updated: 2025-03-06

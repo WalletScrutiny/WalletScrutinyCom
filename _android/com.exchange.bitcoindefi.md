@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.exchange.bitcoindefi
+alternativeStores: 
 appCountry: 
 released: 2021-08-26
 updated: 2021-08-26

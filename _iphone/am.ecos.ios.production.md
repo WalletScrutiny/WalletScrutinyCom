@@ -8,9 +8,9 @@ appId: am.ecos.ios.production
 appCountry: us
 idd: '1528964374'
 released: 2020-11-25
-updated: 2026-04-16
-version: 3.1.14
-reviews: 218
+updated: 2026-04-24
+version: 3.1.15
+reviews: 219
 website: https://ecos.am/
 repository: 
 icon: am.ecos.ios.production.jpg

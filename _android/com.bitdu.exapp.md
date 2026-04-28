@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitdu.exapp
+alternativeStores: 
 appCountry: 
 released: 2021-07-21
 updated: 2023-10-31

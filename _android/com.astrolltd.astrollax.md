@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.astrolltd.astrollax
+alternativeStores: 
 appCountry: 
 released: 2022-01-16
 updated: 2022-01-16

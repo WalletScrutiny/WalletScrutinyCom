@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: io.fulmo
+alternativeStores: 
 appCountry: 
 released: 2019-01-09
 updated: 2019-06-11

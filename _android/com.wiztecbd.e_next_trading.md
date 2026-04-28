@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wiztecbd.e_next_trading
+alternativeStores: 
 appCountry: 
 released: 2022-03-18
 updated: 2023-01-01

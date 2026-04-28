@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.krakenfutures
+alternativeStores: 
 appCountry: 
 released: 2019-10-07
 updated: 2021-03-24

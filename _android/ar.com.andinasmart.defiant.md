@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ar.com.andinasmart.defiant
+alternativeStores: 
 appCountry: ar
 released: 2019-11-19
 updated: 2024-04-05

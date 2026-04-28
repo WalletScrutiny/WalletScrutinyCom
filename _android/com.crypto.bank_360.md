@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crypto.bank_360
+alternativeStores: 
 appCountry: 
 released: 2022-04-18
 updated: 2022-04-19

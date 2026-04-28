@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.techbank_dwallet
+alternativeStores: 
 appCountry: in
 released: 2020-10-09
 updated: 2025-12-12
@@ -15,10 +16,10 @@ website: https://techbank.finance/
 repository: 
 icon: com.techbank_dwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-15
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

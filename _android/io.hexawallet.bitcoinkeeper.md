@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.hexawallet.bitcoinkeeper
+alternativeStores: 
 appCountry: UK
 released: 2022-12-12
 updated: 2026-04-09

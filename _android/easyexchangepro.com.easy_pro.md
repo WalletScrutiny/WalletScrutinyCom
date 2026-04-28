@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: easyexchangepro.com.easy_pro
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-04-11

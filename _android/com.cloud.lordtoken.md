@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cloud.lordtoken
+alternativeStores: 
 appCountry: 
 released: 2022-05-13
 updated: 2023-05-30

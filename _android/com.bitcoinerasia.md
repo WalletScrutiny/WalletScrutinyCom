@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcoinerasia
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2016-11-25

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ctrade.mobile
+alternativeStores: 
 appCountry: us
 released: 2020-12-19
 updated: 2022-08-02

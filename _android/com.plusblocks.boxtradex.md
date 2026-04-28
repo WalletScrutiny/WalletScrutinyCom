@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.plusblocks.boxtradex
+alternativeStores: 
 appCountry: 
 released: 2021-05-04
 updated: 2024-10-30

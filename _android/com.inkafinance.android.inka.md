@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.inkafinance.android.inka
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-01

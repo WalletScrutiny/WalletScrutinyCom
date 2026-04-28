@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pocketmint.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-05-03
 updated: 2025-12-24

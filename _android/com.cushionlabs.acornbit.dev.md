@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.cushionlabs.acornbit.dev
+alternativeStores: 
 appCountry: 
 released: 2021-12-09
 updated: 2022-12-17

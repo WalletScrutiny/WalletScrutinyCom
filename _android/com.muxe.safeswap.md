@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.muxe.safeswap
+alternativeStores: 
 appCountry: 
 released: 2021-10-14
 updated: 2022-12-31

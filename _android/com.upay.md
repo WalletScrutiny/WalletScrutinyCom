@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.upay
+alternativeStores: 
 appCountry: 
 released: 2020-07-13
 updated: 2021-01-07

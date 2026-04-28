@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.arzpaya.arzpaya
+alternativeStores: 
 appCountry: 
 released: 2022-02-06
 updated: 2025-11-10

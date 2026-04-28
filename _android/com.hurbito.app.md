@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hurbito.app
+alternativeStores: 
 appCountry: 
 released: 2021-01-20
 updated: 2021-01-20

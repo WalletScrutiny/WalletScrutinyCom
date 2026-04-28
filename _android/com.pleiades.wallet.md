@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.pleiades.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-28
 updated: 2022-02-28

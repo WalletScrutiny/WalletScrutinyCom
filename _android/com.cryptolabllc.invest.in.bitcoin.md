@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.cryptolabllc.invest.in.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

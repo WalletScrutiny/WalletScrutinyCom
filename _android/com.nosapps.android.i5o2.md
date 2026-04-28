@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 100
 appId: com.nosapps.android.i5o2
+alternativeStores: 
 appCountry: 
 released: 2022-06-03
-updated: 2026-04-16
-version: 1.2.604
+updated: 2026-04-23
+version: 1.2.609
 reviews: 
 website: https://1502.app/
 repository: 

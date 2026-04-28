@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: co.ocdigital.flashtrade
+alternativeStores: 
 appCountry: 
 released: 2018-01-02
 updated: 2018-01-21

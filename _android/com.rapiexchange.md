@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.rapiexchange
+alternativeStores: 
 appCountry: 
 released: 2022-04-19
-updated: 2026-04-10
-version: '3.35'
+updated: 2026-04-23
+version: '3.38'
 reviews: 3
 website: https://www.rapixchange.com/
 repository: 

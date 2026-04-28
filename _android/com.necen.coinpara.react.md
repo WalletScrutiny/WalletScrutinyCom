@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.necen.coinpara.react
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2023-12-06

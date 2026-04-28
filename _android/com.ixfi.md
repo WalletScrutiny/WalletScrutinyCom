@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.ixfi
+alternativeStores: 
 appCountry: 
 released: 2022-01-19
 updated: 2025-11-21

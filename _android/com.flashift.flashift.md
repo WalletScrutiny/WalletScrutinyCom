@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.flashift.flashift
+alternativeStores: 
 appCountry: 
 released: 2021-01-17
 updated: 2021-01-17

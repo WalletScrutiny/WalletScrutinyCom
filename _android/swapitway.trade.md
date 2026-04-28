@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: swapitway.trade
+alternativeStores: 
 appCountry: 
 released: 2021-11-01
 updated: 2025-06-17

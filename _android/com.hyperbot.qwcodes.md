@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hyperbot.qwcodes
+alternativeStores: 
 appCountry: 
 released: 2022-07-22
 updated: 2022-07-22

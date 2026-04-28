@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.forex4you.android
+alternativeStores: 
 appCountry: th
 released: 2015-10-06
 updated: 2026-04-10

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.xuni.coinbax
+alternativeStores: 
 appCountry: 
 released: 2021-10-14
 updated: 2021-10-14

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.httpsarearn.arearn.com.roywallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-22
 updated: 2021-10-22

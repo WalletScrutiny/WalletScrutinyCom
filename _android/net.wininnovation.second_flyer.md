@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.wininnovation.second_flyer
+alternativeStores: 
 appCountry: 
 released: 2019-08-17
 updated: 2019-09-30

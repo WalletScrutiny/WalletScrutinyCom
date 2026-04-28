@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.cointree.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-10-12
 updated: 2024-03-18

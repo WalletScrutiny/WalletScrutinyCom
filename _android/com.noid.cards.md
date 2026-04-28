@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1
 appId: com.noid.cards
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-03-26

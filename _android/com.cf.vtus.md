@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cf.vtus
+alternativeStores: 
 appCountry: 
 released: 2022-04-26
 updated: 2023-03-08

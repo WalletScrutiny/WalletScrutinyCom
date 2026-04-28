@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ttchain.masex.beta
+alternativeStores: 
 appCountry: 
 released: 2020-08-13
 updated: 2020-10-30

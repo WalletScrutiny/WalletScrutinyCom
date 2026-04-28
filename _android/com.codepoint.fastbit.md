@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.codepoint.fastbit
+alternativeStores: 
 appCountry: 
 released: 2020-09-13
 updated: 2021-11-24

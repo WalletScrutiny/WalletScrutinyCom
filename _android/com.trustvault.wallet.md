@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.trustvault.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-12-08
 updated: 2026-02-02

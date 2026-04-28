@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: in.koinex.android
+alternativeStores: 
 appCountry: 
 released: 2018-02-11
 updated: 2019-02-13

@@ -15,10 +15,10 @@ website: https://bitnob.com
 repository: 
 icon: com.app.bitnob.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2026-04-28
 signer: 
 twitter: Bitnob_official
 social:

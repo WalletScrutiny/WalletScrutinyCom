@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.credtech
+alternativeStores: 
 appCountry: 
 released: 2021-02-07
 updated: 2021-02-11

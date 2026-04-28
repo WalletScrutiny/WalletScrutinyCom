@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: www.bitbinderglobal.com
+alternativeStores: 
 appCountry: 
 released: 2022-01-19
 updated: 2022-01-19

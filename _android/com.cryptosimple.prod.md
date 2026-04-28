@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cryptosimple.prod
+alternativeStores: 
 appCountry: 
 released: 2022-06-01
 updated: 2022-12-08

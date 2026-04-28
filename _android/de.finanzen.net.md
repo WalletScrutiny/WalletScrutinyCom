@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: de.finanzen.net
+alternativeStores: 
 appCountry: 
 released: 2012-03-26
-updated: 2026-02-20
-version: 5.8.9
+updated: 2026-04-20
+version: 5.9.0
 reviews: 64
 website: http://www.finanzen.net/apps
 repository: 

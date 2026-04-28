@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: id.qoin.crypto
+alternativeStores: 
 appCountry: 
 released: 2022-08-16
 updated: 2024-12-03

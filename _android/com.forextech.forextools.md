@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.forextech.forextools
+alternativeStores: 
 appCountry: 
 released: 2016-10-19
 updated: 2018-01-11

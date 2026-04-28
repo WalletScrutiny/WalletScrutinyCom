@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: am.ecos.android
+alternativeStores: 
 appCountry: us
 released: 2020-09-22
-updated: 2026-04-15
-version: 3.1.14
-reviews: 217
+updated: 2026-04-23
+version: 3.1.15
+reviews: 218
 website: https://ecos.am
 repository: 
 icon: am.ecos.android.png

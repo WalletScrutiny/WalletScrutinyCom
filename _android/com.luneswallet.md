@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.luneswallet
+alternativeStores: 
 appCountry: 
 released: 2018-01-31
 updated: 2018-12-06

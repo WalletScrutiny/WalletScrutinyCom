@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitkart_exchange
+alternativeStores: 
 appCountry: 
 released: 2019-07-18
 updated: 2020-03-12

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.probit.app.android2.release.global
+alternativeStores: 
 appCountry: 
 released: 2019-06-19
 updated: 2025-11-27

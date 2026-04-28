@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: net.cryptowallets.bitcoin.invest.india
+alternativeStores: 
 appCountry: 
 released: 2021-06-27
 updated: 2021-06-28

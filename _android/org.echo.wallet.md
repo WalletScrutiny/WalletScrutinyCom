@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: org.echo.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-04-04
 updated: 2019-11-21

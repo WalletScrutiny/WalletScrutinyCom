@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.worldex.payus
+alternativeStores: 
 appCountry: 
 released: 2019-02-01
 updated: 2019-02-05

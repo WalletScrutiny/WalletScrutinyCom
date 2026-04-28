@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.exchangedm
+alternativeStores: 
 appCountry: 
 released: 2022-08-22
 updated: 2022-08-22

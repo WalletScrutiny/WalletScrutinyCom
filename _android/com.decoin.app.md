@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.decoin.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-11
 updated: 2022-07-26

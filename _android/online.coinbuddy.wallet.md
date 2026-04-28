@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: online.coinbuddy.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-12
 updated: 2022-05-20

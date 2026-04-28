@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.oduwamultiwallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-24
 updated: 2022-10-07

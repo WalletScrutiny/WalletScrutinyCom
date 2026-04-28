@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.kptech.pezz.cryptoswap
+alternativeStores: 
 appCountry: 
 released: 2019-03-25
 updated: 2019-05-31

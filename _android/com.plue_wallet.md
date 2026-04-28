@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.plue_wallet
+alternativeStores: 
 appCountry: 
 released: 2019-04-01
 updated: 2021-08-04

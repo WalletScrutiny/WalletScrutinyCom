@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.spot.spot
+alternativeStores: 
 appCountry: 
 released: 2018-08-02
 updated: 2024-02-06

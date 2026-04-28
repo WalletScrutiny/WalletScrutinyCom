@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.pointpay.bank
+alternativeStores: 
 appCountry: 
 released: 2020-07-21
 updated: 2026-04-07

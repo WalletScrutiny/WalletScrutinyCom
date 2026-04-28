@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.netcents.merchantterminal
+alternativeStores: 
 appCountry: 
 released: 2018-02-11
 updated: 2025-07-18

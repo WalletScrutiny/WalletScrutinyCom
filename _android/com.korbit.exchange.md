@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.korbit.exchange
+alternativeStores: 
 appCountry: us
 released: 2018-07-22
 updated: 2026-04-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitenium.apptrading
+alternativeStores: 
 appCountry: 
 released: 2021-08-15
 updated: 2022-07-19

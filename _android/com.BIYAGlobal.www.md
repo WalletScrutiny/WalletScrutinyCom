@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.BIYAGlobal.www
+alternativeStores: 
 appCountry: 
 released: 2021-04-13
-updated: 2026-04-15
-version: 3.0.001
+updated: 2026-04-23
+version: 3.0.010
 reviews: 15
 website: https://cn.biyapay.com/
 repository: 

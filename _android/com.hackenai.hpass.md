@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hackenai.hpass
+alternativeStores: 
 appCountry: 
 released: 2021-11-24
 updated: 2022-09-15

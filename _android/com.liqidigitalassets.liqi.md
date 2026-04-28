@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.liqidigitalassets.liqi
+alternativeStores: 
 appCountry: 
 released: 2022-08-08
 updated: 2023-03-13

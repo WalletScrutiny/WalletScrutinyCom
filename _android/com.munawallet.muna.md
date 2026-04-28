@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.munawallet.muna
+alternativeStores: 
 appCountry: 
 released: 2021-03-28
 updated: 2023-11-03

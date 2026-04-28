@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitexenglobal.exchangeapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-01-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.cordova.coinnormobile1
+alternativeStores: 
 appCountry: 
 released: 2018-07-08
 updated: 2018-07-08

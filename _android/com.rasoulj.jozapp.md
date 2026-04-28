@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.rasoulj.jozapp
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2022-05-20

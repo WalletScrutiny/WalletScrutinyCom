@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: dashboard.elegro.io
+alternativeStores: 
 appCountry: 
 released: 2018-08-03
 updated: 2020-06-16

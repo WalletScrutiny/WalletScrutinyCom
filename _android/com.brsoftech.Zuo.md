@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.brsoftech.Zuo
+alternativeStores: 
 appCountry: 
 released: 2017-12-03
 updated: 2017-12-04

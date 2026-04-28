@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.latoken.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-03-17
 updated: 2025-10-27

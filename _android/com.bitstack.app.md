@@ -6,9 +6,10 @@ authors:
 - danny
 users: 500000
 appId: com.bitstack.app
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-13
+updated: 2026-04-22
 version: 3.8.3
 reviews: 
 website: https://bitstack-app.com

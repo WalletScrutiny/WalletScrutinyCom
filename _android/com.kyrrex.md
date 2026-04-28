@@ -6,10 +6,11 @@ authors:
 - danny
 users: 5000
 appId: com.kyrrex
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-02-09
-version: production/v4.2.61
+updated: 2026-04-24
+version: production/v4.2.62
 reviews: 
 website: https://kyrrex.com
 repository: 

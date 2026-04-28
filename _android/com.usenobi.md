@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.usenobi
+alternativeStores: 
 appCountry: 
 released: 2020-07-15
 updated: 2025-09-24

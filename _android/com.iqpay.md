@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.iqpay
+alternativeStores: 
 appCountry: 
 released: 2021-03-22
 updated: 2021-03-22

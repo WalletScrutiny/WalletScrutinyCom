@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.alterdice.android
+alternativeStores: 
 appCountry: 
 released: 2018-09-24
 updated: 2018-11-22

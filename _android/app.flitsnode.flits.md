@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: app.flitsnode.flits
+alternativeStores: 
 appCountry: 
 released: 2019-04-05
 updated: 2021-02-09

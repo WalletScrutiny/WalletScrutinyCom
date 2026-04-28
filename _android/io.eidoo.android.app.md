@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.eidoo.android.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-26
 updated: 2023-07-18

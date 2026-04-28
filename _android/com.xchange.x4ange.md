@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xchange.x4ange
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2024-08-04

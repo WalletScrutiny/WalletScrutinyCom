@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bytetrade.bytehub
+alternativeStores: 
 appCountry: ph
 released: 2019-02-02
 updated: 2021-09-09

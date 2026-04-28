@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: me.flyp.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-03-13
 updated: 2020-10-09

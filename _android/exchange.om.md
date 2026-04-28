@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: exchange.om
+alternativeStores: 
 appCountry: 
 released: 2022-10-23
 updated: 2022-10-23

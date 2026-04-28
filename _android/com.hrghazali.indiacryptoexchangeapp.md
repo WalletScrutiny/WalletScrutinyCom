@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hrghazali.indiacryptoexchangeapp
+alternativeStores: 
 appCountry: 
 released: 2021-09-12
 updated: 2023-02-26

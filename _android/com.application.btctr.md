@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.application.btctr
+alternativeStores: 
 appCountry: 
 released: 2022-03-18
 updated: 2022-04-30

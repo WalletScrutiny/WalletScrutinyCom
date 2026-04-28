@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcoreex.app
+alternativeStores: 
 appCountry: 
 released: 2022-09-27
 updated: 2024-07-05
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

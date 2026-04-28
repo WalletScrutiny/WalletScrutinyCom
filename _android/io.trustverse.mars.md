@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.trustverse.mars
+alternativeStores: 
 appCountry: 
 released: 2020-05-27
 updated: 2022-11-22

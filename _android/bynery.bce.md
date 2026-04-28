@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: bynery.bce
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2022-06-02

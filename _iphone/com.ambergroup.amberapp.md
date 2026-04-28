@@ -15,10 +15,10 @@ website: https://www.ambr.io/global
 repository: 
 icon: com.ambergroup.amberapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-11
+date: 2026-04-28
 signer: 
 twitter: ambergroup_io
 social:

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sesacash.app
+alternativeStores: 
 appCountry: 
 released: 2020-03-15
 updated: 2020-03-15

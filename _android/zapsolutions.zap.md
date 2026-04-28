@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: zapsolutions.zap
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-04-16

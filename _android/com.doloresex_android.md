@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.doloresex_android
+alternativeStores: 
 appCountry: 
 released: 2019-05-06
 updated: 2021-02-19

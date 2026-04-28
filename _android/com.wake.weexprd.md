@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.wake.weexprd
+alternativeStores: 
 appCountry: 
 released: 2022-02-23
-updated: 2026-04-11
-version: 4.5.15
+updated: 2026-04-27
+version: 4.5.18
 reviews: 345
 website: https://www.weex.com
 repository: 

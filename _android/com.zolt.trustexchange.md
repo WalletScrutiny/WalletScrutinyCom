@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.zolt.trustexchange
+alternativeStores: 
 appCountry: 
 released: 2020-12-07
 updated: 2020-12-07

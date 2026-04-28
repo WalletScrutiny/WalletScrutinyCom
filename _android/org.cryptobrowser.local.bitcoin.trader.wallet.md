@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.cryptobrowser.local.bitcoin.trader.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2021-06-29

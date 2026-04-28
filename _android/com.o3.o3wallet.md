@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.o3.o3wallet
+alternativeStores: 
 appCountry: us
 released: 2020-08-27
 updated: 2023-05-18

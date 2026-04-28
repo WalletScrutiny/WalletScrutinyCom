@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.vp.nguwallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-04
 updated: 2022-05-09

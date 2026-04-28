@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coincred.android
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2025-04-16

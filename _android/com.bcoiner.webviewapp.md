@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.bcoiner.webviewapp
+alternativeStores: 
 appCountry: 
 released: 2014-12-01
 updated: 2018-01-05

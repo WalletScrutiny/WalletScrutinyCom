@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.exchange.bitcnex
+alternativeStores: 
 appCountry: 
 released: 2019-04-19
 updated: 2019-04-19

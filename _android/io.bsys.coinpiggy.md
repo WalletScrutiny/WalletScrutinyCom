@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.bsys.coinpiggy
+alternativeStores: 
 appCountry: 
 released: 2018-11-05
 updated: 2020-09-10

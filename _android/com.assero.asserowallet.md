@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.assero.asserowallet
+alternativeStores: 
 appCountry: 
 released: 2020-06-01
 updated: 2020-07-13

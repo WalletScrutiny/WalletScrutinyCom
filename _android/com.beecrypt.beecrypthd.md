@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.beecrypt.beecrypthd
+alternativeStores: 
 appCountry: us
 released: 2020-05-27
 updated: 2023-05-05

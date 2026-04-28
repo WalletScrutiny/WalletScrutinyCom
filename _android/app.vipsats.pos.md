@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: app.vipsats.pos
+alternativeStores: 
 appCountry: 
 released: 2022-08-13
 updated: 2022-10-05

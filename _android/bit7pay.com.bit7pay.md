@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: bit7pay.com.bit7pay
+alternativeStores: 
 appCountry: 
 released: 2019-05-18
 updated: 2020-04-08

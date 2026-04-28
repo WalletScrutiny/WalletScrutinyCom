@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.emc.elmaocoin
+alternativeStores: 
 appCountry: 
 released: 2022-01-03
 updated: 2022-01-03

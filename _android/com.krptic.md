@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.krptic
+alternativeStores: 
 appCountry: 
 released: 2021-08-13
 updated: 2025-08-31

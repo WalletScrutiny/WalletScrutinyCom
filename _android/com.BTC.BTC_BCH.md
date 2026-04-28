@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.BTC.BTC_BCH
+alternativeStores: 
 appCountry: 
 released: 2022-07-21
 updated: 2022-07-21

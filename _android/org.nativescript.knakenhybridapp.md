@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: org.nativescript.knakenhybridapp
+alternativeStores: 
 appCountry: 
 released: 2022-07-06
 updated: 2024-06-18

@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000
 appId: com.exchangily.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-05
 updated: 2023-07-20

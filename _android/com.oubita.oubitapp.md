@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.oubita.oubitapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-07-27

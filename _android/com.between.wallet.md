@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000
 appId: com.between.wallet
+alternativeStores: 
 appCountry: 
 released: 2025-04-22
-updated: 2026-03-05
-version: 1.2.0
+updated: 2026-04-24
+version: 1.2.1
 reviews: 
 website: https://betweenbits.io/
 repository: 

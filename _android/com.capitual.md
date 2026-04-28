@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.capitual
+alternativeStores: 
 appCountry: 
 released: 2019-03-28
 updated: 2023-10-05

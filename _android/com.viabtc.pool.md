@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.viabtc.pool
+alternativeStores: 
 appCountry: 
 released: 2017-12-16
 updated: 2026-04-14

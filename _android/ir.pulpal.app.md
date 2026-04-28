@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ir.pulpal.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-06
 updated: 2022-09-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.remibit.wallet.twa
+alternativeStores: 
 appCountry: 
 released: 2021-03-17
 updated: 2021-05-17

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: com.crypterium
+alternativeStores: 
 appCountry: 
 released: 2018-01-21
 updated: 2025-01-29

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: io.bitvenus.app.first
+alternativeStores: 
 appCountry: 
 released: 2023-07-28
-updated: 2026-04-18
-version: 5.7.13
+updated: 2026-04-25
+version: 5.7.15
 reviews: 6
 website: https://www.bvox.com
 repository: 

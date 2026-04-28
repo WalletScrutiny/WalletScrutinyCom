@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.cmcm.blockchain.bitcoin.ethereum.safewallet
+alternativeStores: 
 appCountry: 
 released: 2018-01-31
 updated: 2019-05-30

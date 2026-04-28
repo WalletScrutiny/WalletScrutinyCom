@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.perfectcrypto.perfect_crypto
+alternativeStores: 
 appCountry: 
 released: 2020-11-09
 updated: 2022-01-25

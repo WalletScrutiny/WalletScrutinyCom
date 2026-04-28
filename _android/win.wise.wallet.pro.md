@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: win.wise.wallet.pro
+alternativeStores: 
 appCountry: 
 released: 2021-08-13
 updated: 2021-10-14

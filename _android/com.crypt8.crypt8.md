@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.crypt8.crypt8
+alternativeStores: 
 appCountry: 
 released: 2022-05-06
 updated: 2023-08-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.eyalabs.eyawallet
+alternativeStores: 
 appCountry: 
 released: 2015-12-03
 updated: 2019-02-20

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: fmx.trade.cryptocurrency.exchange.finance
+alternativeStores: 
 appCountry: 
 released: 2021-05-24
 updated: 2021-05-25

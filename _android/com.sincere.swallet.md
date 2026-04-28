@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.sincere.swallet
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2023-04-21

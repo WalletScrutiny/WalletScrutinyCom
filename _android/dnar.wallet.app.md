@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: dnar.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2019-11-24
 updated: 2025-07-31

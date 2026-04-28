@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.paygety.paygety
+alternativeStores: 
 appCountry: 
 released: 2018-06-04
 updated: 2018-10-31

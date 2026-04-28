@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.xrex.mobile
+alternativeStores: 
 appCountry: au
 released: 2020-02-20
-updated: 2026-03-27
-version: 2.1.862
+updated: 2026-04-20
+version: 2.1.878
 reviews: 
 website: https://xrex.io/
 repository: 

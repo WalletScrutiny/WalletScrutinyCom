@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bancryp.mobuser.v2
+alternativeStores: 
 appCountry: 
 released: 2020-05-18
 updated: 2023-04-14

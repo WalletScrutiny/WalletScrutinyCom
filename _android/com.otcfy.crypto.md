@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.otcfy.crypto
+alternativeStores: 
 appCountry: 
 released: 2022-12-29
 updated: 2022-12-30

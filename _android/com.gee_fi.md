@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.gee_fi
+alternativeStores: 
 appCountry: 
 released: 2025-03-18
 updated: 2026-01-14

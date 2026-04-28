@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: io.cypherbox.btc
+alternativeStores: 
 appCountry: 
 released: 2025-01-17
 updated: 2026-03-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.mingyue.liuli
+alternativeStores: 
 appCountry: 
 released: 2021-06-04
 updated: 2021-08-20

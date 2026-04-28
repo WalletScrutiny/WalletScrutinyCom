@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.buyucoinApp.buyucoin
+alternativeStores: 
 appCountry: 
 released: 2019-02-15
 updated: 2025-03-19

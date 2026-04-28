@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.blockchain.bitcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-01-19
 updated: 2023-08-26

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.exchange.Ciexv2
+alternativeStores: 
 appCountry: 
 released: 2022-07-20
 updated: 2025-09-09

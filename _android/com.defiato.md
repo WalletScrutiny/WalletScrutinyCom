@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.defiato
+alternativeStores: 
 appCountry: 
 released: 2021-10-26
 updated: 2023-01-18

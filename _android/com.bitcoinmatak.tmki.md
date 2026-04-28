@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitcoinmatak.tmki
+alternativeStores: 
 appCountry: 
 released: 2022-04-27
 updated: 2022-06-22

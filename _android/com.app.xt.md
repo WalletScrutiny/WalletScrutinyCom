@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.app.xt
+alternativeStores: 
 appCountry: 
 released: 2021-04-14
 updated: 2026-04-20
 version: 5.22.1
-reviews: 266
+reviews: 268
 website: http://www.xt.com
 repository: 
 icon: com.app.xt.jpg

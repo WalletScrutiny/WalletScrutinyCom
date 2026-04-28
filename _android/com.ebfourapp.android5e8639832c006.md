@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.ebfourapp.android5e8639832c006
+alternativeStores: 
 appCountry: 
 released: 2020-06-24
 updated: 2020-08-10

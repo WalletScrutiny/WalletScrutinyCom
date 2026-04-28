@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.scimatic.saymatik
+alternativeStores: 
 appCountry: 
 released: 2022-10-10
 updated: 2026-03-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.exchange.XinBi
+alternativeStores: 
 appCountry: 
 released: 2019-09-23
 updated: 2020-01-14

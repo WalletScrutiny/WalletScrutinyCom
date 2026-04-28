@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: org.c2bwallet.app
+alternativeStores: 
 appCountry: 
 released: 2024-07-25
 updated: 2025-12-25

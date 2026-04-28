@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.cetoex.cetoex
+alternativeStores: 
 appCountry: 
 released: 2022-08-13
 updated: 2025-09-04

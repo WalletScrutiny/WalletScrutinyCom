@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hustay.swing.da688fa802d034bdf8e82fa910d35e4a4
+alternativeStores: 
 appCountry: 
 released: 2021-02-03
 updated: 2021-02-04

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pellar.xifapp
+alternativeStores: 
 appCountry: 
 released: 2018-06-11
 updated: 2021-06-15

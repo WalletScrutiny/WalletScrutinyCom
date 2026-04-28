@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.goldbitpro.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-14
 updated: 2024-03-06

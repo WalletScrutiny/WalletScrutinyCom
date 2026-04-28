@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: mobile.cryptoscanner.com.cryptoscanner
+alternativeStores: 
 appCountry: 
 released: 2018-07-10
 updated: 2020-05-14

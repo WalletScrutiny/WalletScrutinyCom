@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.oxiinc.bmkoin
+alternativeStores: 
 appCountry: 
 released: 2020-10-24
 updated: 2020-11-25

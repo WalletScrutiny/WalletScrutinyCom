@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000000
 appId: com.crypto.exchange
+alternativeStores: 
 appCountry: nz
 released: 2021-05-26
 updated: 2026-04-15

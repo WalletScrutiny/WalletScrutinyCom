@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cryptouniverse.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-03
 updated: 2020-07-03

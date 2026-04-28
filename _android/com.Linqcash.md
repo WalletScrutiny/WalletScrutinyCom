@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.Linqcash
+alternativeStores: 
 appCountry: 
 released: 2020-04-28
 updated: 2020-05-18

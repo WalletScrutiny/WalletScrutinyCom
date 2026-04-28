@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcoinet.bitcoinet
+alternativeStores: 
 appCountry: 
 released: 2020-06-25
 updated: 2020-06-20

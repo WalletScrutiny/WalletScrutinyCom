@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vnc.trex.bit
+alternativeStores: 
 appCountry: 
 released: 2023-03-05
 updated: 2024-07-12

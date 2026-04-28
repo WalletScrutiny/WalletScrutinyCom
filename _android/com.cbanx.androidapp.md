@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cbanx.androidapp
+alternativeStores: 
 appCountry: 
 released: 2018-08-25
 updated: 2019-06-25

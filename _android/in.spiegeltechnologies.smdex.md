@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: in.spiegeltechnologies.smdex
+alternativeStores: 
 appCountry: 
 released: 2022-03-07
 updated: 2022-04-01

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptobasewallet.app
+alternativeStores: 
 appCountry: 
 released: 2024-10-10
 updated: 2025-03-14

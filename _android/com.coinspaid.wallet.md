@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coinspaid.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-17
 updated: 2023-06-06

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitgin.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-05-24

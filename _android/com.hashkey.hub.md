@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.hashkey.hub
+alternativeStores: 
 appCountry: 
 released: 2019-03-17
 updated: 2022-04-07

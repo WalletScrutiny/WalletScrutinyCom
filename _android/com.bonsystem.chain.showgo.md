@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bonsystem.chain.showgo
+alternativeStores: 
 appCountry: 
 released: 2022-03-24
 updated: 2022-03-24

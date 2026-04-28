@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.osource.ovest
+alternativeStores: 
 appCountry: 
 released: 2021-09-04
 updated: 2022-03-04

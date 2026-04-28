@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.verico.tradn
+alternativeStores: 
 appCountry: 
 released: 2020-04-24
 updated: 2021-07-19

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hedgerx.exchange
+alternativeStores: 
 appCountry: 
 released: 2025-12-13
 updated: 2025-12-20

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.webapp.KryptoExchange
+alternativeStores: 
 appCountry: 
 released: 2019-11-02
 updated: 2019-11-02

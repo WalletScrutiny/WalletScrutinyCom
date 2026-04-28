@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.wirex
+alternativeStores: 
 appCountry: 
 released: 2016-03-31
 updated: 2026-04-08

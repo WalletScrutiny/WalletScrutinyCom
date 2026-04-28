@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: co.busha.android
+alternativeStores: 
 appCountry: 
 released: 2019-01-21
 updated: 2026-04-18

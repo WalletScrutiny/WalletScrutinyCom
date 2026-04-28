@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ittoken.app22
+alternativeStores: 
 appCountry: 
 released: 2022-05-09
 updated: 2022-05-09

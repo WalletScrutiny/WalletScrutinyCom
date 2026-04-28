@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: net.elquirex.elquirexapplication
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-11-15

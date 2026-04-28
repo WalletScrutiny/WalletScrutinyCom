@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.spark.jpex
+alternativeStores: 
 appCountry: jp
 released: 2020-07-30
 updated: 2023-08-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mesh.msamexexchange
+alternativeStores: 
 appCountry: 
 released: 2021-06-02
 updated: 2024-03-08

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.w2.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-17
 updated: 2023-03-10

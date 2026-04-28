@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.bankbeg
+alternativeStores: 
 appCountry: 
 released: 2021-10-31
 updated: 2021-10-31

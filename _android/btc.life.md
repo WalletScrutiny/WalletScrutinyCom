@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: btc.life
+alternativeStores: 
 appCountry: 
 released: 2020-10-20
 updated: 2020-10-20

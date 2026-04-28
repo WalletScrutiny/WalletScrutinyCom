@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.noone.androidwallet
+alternativeStores: 
 appCountry: 
 released: 2023-03-17
 updated: 2026-02-12

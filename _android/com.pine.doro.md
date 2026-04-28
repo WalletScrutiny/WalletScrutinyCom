@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.pine.doro
+alternativeStores: 
 appCountry: 
 released: 2021-04-10
 updated: 2021-05-05

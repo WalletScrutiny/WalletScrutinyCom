@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.most.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-04
 updated: 2025-10-28

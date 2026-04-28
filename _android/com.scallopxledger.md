@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.scallopxledger
+alternativeStores: 
 appCountry: 
 released: 2021-11-28
 updated: 2026-02-06

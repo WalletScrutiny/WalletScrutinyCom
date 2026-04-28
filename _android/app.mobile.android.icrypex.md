@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: app.mobile.android.icrypex
+alternativeStores: 
 appCountry: 
 released: 2021-09-02
 updated: 2025-07-03

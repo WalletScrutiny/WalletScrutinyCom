@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.lyopay
+alternativeStores: 
 appCountry: eg
 released: 2020-10-02
 updated: 2023-08-10

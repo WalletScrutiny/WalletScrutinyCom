@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bminingapp
+alternativeStores: 
 appCountry: 
 released: 2020-08-20
 updated: 2020-09-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: app.Kudiro.io
+alternativeStores: 
 appCountry: 
 released: 2022-07-11
 updated: 2022-07-12

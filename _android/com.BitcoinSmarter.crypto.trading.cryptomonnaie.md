@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.BitcoinSmarter.crypto.trading.cryptomonnaie
+alternativeStores: 
 appCountry: 
 released: 2022-06-19
 updated: 2022-06-19

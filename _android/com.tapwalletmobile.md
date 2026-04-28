@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.tapwalletmobile
+alternativeStores: 
 appCountry: 
 released: 2025-07-24
 updated: 2026-01-19

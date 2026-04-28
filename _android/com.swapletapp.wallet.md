@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.swapletapp.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-01
 updated: 2019-12-08

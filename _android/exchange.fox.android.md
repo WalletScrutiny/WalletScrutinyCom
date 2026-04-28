@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: exchange.fox.android
+alternativeStores: 
 appCountry: 
 released: 2019-06-11
 updated: 2020-04-20

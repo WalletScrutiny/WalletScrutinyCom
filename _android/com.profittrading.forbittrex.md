@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.profittrading.forbittrex
+alternativeStores: 
 appCountry: 
 released: 2018-06-20
 updated: 2021-04-27

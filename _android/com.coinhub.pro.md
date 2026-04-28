@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.coinhub.pro
+alternativeStores: 
 appCountry: 
 released: 2021-08-20
 updated: 2025-12-31

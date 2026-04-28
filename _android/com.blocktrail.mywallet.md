@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000000
 appId: com.blocktrail.mywallet
+alternativeStores: 
 appCountry: 
 released: 2015-09-09
 updated: 2019-04-03

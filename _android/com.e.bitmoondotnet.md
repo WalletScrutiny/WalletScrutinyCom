@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.e.bitmoondotnet
+alternativeStores: 
 appCountry: 
 released: 2020-02-03
 updated: 2020-02-03

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.trustadx.ttcm
+alternativeStores: 
 appCountry: 
 released: 2022-02-11
 updated: 2022-02-13

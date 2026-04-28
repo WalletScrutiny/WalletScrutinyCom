@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.agoradesk.app
+alternativeStores: 
 appCountry: 
 released: 2022-08-18
 updated: 2024-05-28

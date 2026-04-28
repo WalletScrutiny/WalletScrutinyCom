@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: ge.mobility.emoney
+alternativeStores: 
 appCountry: 
 released: 2015-08-22
 updated: 2026-03-04

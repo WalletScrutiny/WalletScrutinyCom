@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: buyor.sell.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-17

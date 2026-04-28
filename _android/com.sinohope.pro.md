@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 100
 appId: com.sinohope.pro
+alternativeStores: 
 appCountry: 
 released: 2025-11-02
-updated: 2026-04-16
-version: 2.1.0
+updated: 2026-04-21
+version: 2.1.1
 reviews: 
 website: 
 repository: 

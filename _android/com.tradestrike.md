@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tradestrike
+alternativeStores: 
 appCountry: 
 released: 2022-09-26
 updated: 2025-11-13

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coininno.android
+alternativeStores: 
 appCountry: 
 released: 2022-06-27
 updated: 2024-02-27

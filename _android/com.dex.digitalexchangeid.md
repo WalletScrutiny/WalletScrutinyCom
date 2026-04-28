@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.dex.digitalexchangeid
+alternativeStores: 
 appCountry: us
 released: 2024-09-04
 updated: 2026-04-17

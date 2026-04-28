@@ -8,9 +8,9 @@ appId: com.Rhino.Global
 appCountry: us
 idd: '1564149079'
 released: 2022-06-29
-updated: 2026-03-27
-version: 2.12.14
-reviews: 21
+updated: 2026-04-24
+version: 2.12.16
+reviews: 20
 website: https://www.rhinobitcoin.com/
 repository: 
 icon: com.Rhino.Global.jpg

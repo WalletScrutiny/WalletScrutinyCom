@@ -7,6 +7,7 @@ authors:
 - emanuel
 users: 1000
 appId: com.bitorzo.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-22
 updated: 2021-01-03

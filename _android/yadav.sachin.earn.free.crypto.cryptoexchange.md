@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: yadav.sachin.earn.free.crypto.cryptoexchange
+alternativeStores: 
 appCountry: 
 released: 2022-08-25
 updated: 2023-01-07

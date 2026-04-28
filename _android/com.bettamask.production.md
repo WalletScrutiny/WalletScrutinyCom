@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bettamask.production
+alternativeStores: 
 appCountry: 
 released: 2022-10-12
 updated: 2022-10-12

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bop.indus91
+alternativeStores: 
 appCountry: 
 released: 2021-10-27
 updated: 2021-11-18

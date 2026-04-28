@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.swissquote.android
+alternativeStores: 
 appCountry: 
 released: 2010-06-17
-updated: 2026-04-10
-version: 8.30.0
+updated: 2026-04-22
+version: 9.0.0
 reviews: 43
 website: https://www.swissquote.com/
 repository: 

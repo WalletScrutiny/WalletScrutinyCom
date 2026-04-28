@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.dts.io
+alternativeStores: 
 appCountry: 
 released: 2021-11-05
 updated: 2021-11-05

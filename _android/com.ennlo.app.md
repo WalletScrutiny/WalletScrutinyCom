@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ennlo.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-01
 updated: 2019-09-11

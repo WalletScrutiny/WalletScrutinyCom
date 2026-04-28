@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cryptopaymentapp
+alternativeStores: 
 appCountry: 
 released: 2020-07-23
 updated: 2020-11-11

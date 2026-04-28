@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 5000
 appId: com.mojitowallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-12-15

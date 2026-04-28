@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.whitebit.android
+alternativeStores: 
 appCountry: ua
 released: 2019-06-07
-updated: 2026-04-16
-version: 3.72.0
-reviews: 1339
+updated: 2026-04-25
+version: 3.72.2
+reviews: 1340
 website: https://whitebit.com/
 repository: 
 icon: com.whitebit.android.png

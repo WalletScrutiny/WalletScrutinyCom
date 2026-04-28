@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.github.samotari.paynoway
+alternativeStores: 
 appCountry: 
 released: 2020-01-14
 updated: 2021-04-10

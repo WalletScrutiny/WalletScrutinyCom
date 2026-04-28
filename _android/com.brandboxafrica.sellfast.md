@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.brandboxafrica.sellfast
+alternativeStores: 
 appCountry: 
 released: 2020-09-22
 updated: 2021-03-15

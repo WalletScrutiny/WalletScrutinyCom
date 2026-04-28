@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cmcodes.NexZone
+alternativeStores: 
 appCountry: 
 released: 2021-12-28
 updated: 2021-12-28

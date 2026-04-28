@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.psychedelic.plug
+alternativeStores: 
 appCountry: 
 released: 2022-07-01
 updated: 2026-03-30

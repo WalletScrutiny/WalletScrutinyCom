@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.payble
+alternativeStores: 
 appCountry: 
 released: 2018-01-07
 updated: 2021-03-01

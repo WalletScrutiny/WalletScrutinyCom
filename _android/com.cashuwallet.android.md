@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cashuwallet.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-09-17

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.coinhub.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-13
 updated: 2023-05-18

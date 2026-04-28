@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.stash.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-12-03

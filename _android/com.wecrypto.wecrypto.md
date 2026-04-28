@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wecrypto.wecrypto
+alternativeStores: 
 appCountry: 
 released: 2018-01-12
 updated: 2018-01-12

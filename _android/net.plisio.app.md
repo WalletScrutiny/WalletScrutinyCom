@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: net.plisio.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-27
 updated: 2022-02-02

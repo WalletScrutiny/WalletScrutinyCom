@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.app.bitnob
+alternativeStores: 
 appCountry: us
 released: 2020-05-25
 updated: 2026-03-23

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.quantdart.app
+alternativeStores: 
 appCountry: us
 released: 2020-09-16
 updated: 2022-01-27

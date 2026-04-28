@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.depocket.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-20
 updated: 2023-01-12

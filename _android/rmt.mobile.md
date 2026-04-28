@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: rmt.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-05-19
 updated: 2020-05-19

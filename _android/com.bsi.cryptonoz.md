@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bsi.cryptonoz
+alternativeStores: 
 appCountry: 
 released: 2020-01-03
 updated: 2020-03-17

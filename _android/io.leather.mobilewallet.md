@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.leather.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 2025-03-25
 updated: 2026-02-09

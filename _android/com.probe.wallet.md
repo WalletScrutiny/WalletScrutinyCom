@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.probe.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-04
 updated: 2022-10-17

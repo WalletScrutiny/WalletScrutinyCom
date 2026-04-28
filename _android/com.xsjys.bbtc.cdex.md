@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.xsjys.bbtc.cdex
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2023-06-07

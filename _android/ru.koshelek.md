@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: ru.koshelek
+alternativeStores: 
 appCountry: ru
 released: 2020-07-28
-updated: 2026-02-19
-version: 2.0.0
+updated: 2026-04-23
+version: 2.3.0
 reviews: 149
 website: https://koshelek.ru/
 repository: 

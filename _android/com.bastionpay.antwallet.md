@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bastionpay.antwallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-23
 updated: 2019-10-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: co.cryptoplane.app.cryptoplane
+alternativeStores: 
 appCountry: 
 released: 2021-09-11
 updated: 2021-10-07

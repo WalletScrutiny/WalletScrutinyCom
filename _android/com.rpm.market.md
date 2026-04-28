@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.rpm.market
+alternativeStores: 
 appCountry: 
 released: 2021-04-20
 updated: 2021-06-15

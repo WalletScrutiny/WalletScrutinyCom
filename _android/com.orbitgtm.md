@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.orbitgtm
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-01-11

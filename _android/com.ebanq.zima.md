@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ebanq.zima
+alternativeStores: 
 appCountry: 
 released: 2022-09-06
 updated: 2023-08-28

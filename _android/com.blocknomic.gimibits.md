@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.blocknomic.gimibits
+alternativeStores: 
 appCountry: 
 released: 2019-10-30
 updated: 2020-06-11

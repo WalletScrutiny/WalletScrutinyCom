@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: skill.techespo.fivestarexchange
+alternativeStores: 
 appCountry: 
 released: 2020-08-26
 updated: 2020-08-27

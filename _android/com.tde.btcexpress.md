@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tde.btcexpress
+alternativeStores: 
 appCountry: 
 released: 2020-06-10
 updated: 2020-06-17

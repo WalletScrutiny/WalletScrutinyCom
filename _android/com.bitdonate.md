@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitdonate
+alternativeStores: 
 appCountry: 
 released: 2021-04-28
 updated: 2021-07-26

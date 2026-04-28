@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.oxicorp.app
+alternativeStores: 
 appCountry: 
 released: 2020-05-09
 updated: 2021-01-26

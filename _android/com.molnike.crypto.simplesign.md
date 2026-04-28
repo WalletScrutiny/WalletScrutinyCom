@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.molnike.crypto.simplesign
+alternativeStores: 
 appCountry: 
 released: 2023-01-11
 updated: 2023-03-09

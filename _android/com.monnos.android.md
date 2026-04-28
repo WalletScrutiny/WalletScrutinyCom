@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.monnos.android
+alternativeStores: 
 appCountry: br
 released: 2019-09-17
 updated: 2024-11-29

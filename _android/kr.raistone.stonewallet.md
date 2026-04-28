@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: kr.raistone.stonewallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-10
 updated: 2019-10-01

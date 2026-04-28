@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: crypto.vast.bank
+alternativeStores: 
 appCountry: 
 released: 2021-08-22
 updated: 2023-12-18

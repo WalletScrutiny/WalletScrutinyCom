@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wmprotrade.droidapp
+alternativeStores: 
 appCountry: 
 released: 2020-05-17
 updated: 2021-02-06

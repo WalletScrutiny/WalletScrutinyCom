@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.therocktrading.tradingapp
+alternativeStores: 
 appCountry: 
 released: 2018-10-29
 updated: 2022-07-11

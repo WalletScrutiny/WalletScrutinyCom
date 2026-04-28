@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.xapo.bank
+alternativeStores: 
 appCountry: 
 released: 2021-05-27
 updated: 2026-02-25

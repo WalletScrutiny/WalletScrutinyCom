@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryppter.app.release
+alternativeStores: 
 appCountry: 
 released: 2020-05-21
 updated: 2023-02-06

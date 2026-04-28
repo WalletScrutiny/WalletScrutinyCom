@@ -6,9 +6,10 @@ authors:
 - danny
 users: 500000
 appId: com.youngplatform.exchange
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-17
+updated: 2026-04-27
 version: 3.24.0
 reviews: 
 website: https://exchange.youngplatform.com

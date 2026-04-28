@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: mobile.lmex.io
+alternativeStores: 
 appCountry: 
 released: 2022-11-14
 updated: 2026-01-06

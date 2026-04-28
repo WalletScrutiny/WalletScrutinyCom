@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.plarkapp
+alternativeStores: 
 appCountry: 
 released: 2020-04-14
 updated: 2022-04-06

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: pro.cointr
+alternativeStores: 
 appCountry: 
 released: 2022-10-30
 updated: 2024-07-27

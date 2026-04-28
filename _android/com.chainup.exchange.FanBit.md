@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.chainup.exchange.FanBit
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2022-06-24

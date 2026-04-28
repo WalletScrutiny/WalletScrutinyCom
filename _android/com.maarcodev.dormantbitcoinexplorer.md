@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.maarcodev.dormantbitcoinexplorer
+alternativeStores: 
 appCountry: 
 released: 2021-10-17
 updated: 2023-01-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.cryptomining.bitcoin.up
+alternativeStores: 
 appCountry: 
 released: 2021-07-21
 updated: 2021-07-21

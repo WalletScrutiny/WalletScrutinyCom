@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.cryptoadvantagemobile
+alternativeStores: 
 appCountry: 
 released: 2020-03-10
 updated: 2023-09-08

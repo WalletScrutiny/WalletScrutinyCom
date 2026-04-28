@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.selendra.secure_wallet
+alternativeStores: 
 appCountry: 
 released: 2021-02-22
 updated: 2024-04-29

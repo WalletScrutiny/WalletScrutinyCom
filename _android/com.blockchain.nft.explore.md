@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.blockchain.nft.explore
+alternativeStores: 
 appCountry: 
 released: 2022-12-17
 updated: 2022-12-18

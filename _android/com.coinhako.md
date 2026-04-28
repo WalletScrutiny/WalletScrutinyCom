@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.coinhako
+alternativeStores: 
 appCountry: 
 released: 2018-05-06
 updated: 2026-04-15

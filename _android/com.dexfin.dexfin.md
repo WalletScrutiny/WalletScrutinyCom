@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: com.dexfin.dexfin
+alternativeStores: 
 appCountry: 
 released: 2021-05-24
 updated: 2021-11-30

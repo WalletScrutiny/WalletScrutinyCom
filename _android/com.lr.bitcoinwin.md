@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.lr.bitcoinwin
+alternativeStores: 
 appCountry: 
 released: 2020-06-27
 updated: 2023-05-18

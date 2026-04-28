@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.Chainblock
+alternativeStores: 
 appCountry: 
 released: 2021-03-22
 updated: 2023-12-04

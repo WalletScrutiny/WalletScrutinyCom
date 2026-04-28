@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.chainup.exchange.XM
+alternativeStores: 
 appCountry: 
 released: 2022-09-05
 updated: 2023-02-14

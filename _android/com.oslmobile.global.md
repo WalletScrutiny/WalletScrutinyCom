@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.oslmobile.global
+alternativeStores: 
 appCountry: 
 released: 2025-05-08
-updated: 2026-04-03
-version: 1.10.11
+updated: 2026-04-24
+version: 1.10.12
 reviews: 
 website: https://osl.com
 repository: 

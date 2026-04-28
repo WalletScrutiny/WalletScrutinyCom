@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: africa.obiex.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-09
 updated: 2026-04-13

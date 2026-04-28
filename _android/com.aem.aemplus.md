@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.aem.aemplus
+alternativeStores: 
 appCountry: 
 released: 2022-02-27
 updated: 2024-03-08

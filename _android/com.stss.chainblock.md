@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.stss.chainblock
+alternativeStores: 
 appCountry: 
 released: 2020-01-21
 updated: 2020-01-21

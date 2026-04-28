@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.stss.bloxxwop
+alternativeStores: 
 appCountry: 
 released: 2021-05-10
 updated: 2025-07-07

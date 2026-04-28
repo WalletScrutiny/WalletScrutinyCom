@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10
 appId: com.mobileln
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-04-11

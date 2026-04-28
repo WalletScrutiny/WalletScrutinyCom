@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hashcash.emetexchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-05
 updated: 2022-11-16

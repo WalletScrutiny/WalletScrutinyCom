@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.toropal
+alternativeStores: 
 appCountry: 
 released: 2019-02-18
 updated: 2023-01-14

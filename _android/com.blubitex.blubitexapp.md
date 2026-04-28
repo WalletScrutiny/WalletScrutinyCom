@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.blubitex.blubitexapp
+alternativeStores: 
 appCountry: us
 released: 2020-10-03
 updated: 2022-04-14

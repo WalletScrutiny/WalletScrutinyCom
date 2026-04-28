@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.block.application
+alternativeStores: 
 appCountry: 
 released: 2022-02-07
 updated: 2023-01-13

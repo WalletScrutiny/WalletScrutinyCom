@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: org.cryptosignals.free.wallet.bitcoinand.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-06-19
 updated: 2021-06-19

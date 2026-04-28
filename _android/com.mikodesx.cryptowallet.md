@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.mikodesx.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-06
 updated: 2021-12-06

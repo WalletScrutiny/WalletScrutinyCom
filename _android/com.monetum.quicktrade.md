@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.monetum.quicktrade
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-03-24

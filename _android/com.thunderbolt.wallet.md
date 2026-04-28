@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.thunderbolt.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-08-29
 updated: 2021-08-29

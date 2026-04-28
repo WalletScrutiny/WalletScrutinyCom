@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.financex
+alternativeStores: 
 appCountry: 
 released: 2019-01-15
 updated: 2020-01-13

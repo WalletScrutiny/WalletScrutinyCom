@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.crypto.exchange.trading
+alternativeStores: 
 appCountry: 
 released: 2022-06-11
 updated: 2022-06-11

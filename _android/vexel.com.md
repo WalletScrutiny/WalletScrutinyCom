@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: vexel.com
+alternativeStores: 
 appCountry: 
 released: 2021-04-27
 updated: 2023-10-20

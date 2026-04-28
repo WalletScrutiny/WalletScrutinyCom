@@ -7,11 +7,12 @@ authors:
 - keraliss
 users: 100000
 appId: com.cakewallet.cake_wallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-01
-updated: 2026-04-18
-version: 6.0.3
-reviews: 647
+updated: 2026-04-23
+version: 6.1.2
+reviews: 650
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 icon: com.cakewallet.cake_wallet.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.lnorb.orb
+alternativeStores: 
 appCountry: 
 released: 2022-07-14
 updated: 2022-09-26

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.obtccoin.int
+alternativeStores: 
 appCountry: 
 released: 2022-06-28
 updated: 2022-12-30

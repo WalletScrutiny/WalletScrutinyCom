@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: fx.compt.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-03-25
 updated: 2021-03-25

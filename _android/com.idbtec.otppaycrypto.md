@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.idbtec.otppaycrypto
+alternativeStores: 
 appCountry: 
 released: 2018-08-13
 updated: 2020-04-01

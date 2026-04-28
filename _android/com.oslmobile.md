@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.oslmobile
+alternativeStores: 
 appCountry: CN
 released: 
 updated: 2026-04-16

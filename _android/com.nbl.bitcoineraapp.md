@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.nbl.bitcoineraapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-02-10

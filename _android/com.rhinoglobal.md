@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000
 appId: com.rhinoglobal
+alternativeStores: 
 appCountry: 
 released: 2024-08-30
-updated: 2026-04-14
-version: 2.12.15
-reviews: 6
+updated: 2026-04-22
+version: 2.12.16
+reviews: 8
 website: 
 repository: 
 icon: com.rhinoglobal.png

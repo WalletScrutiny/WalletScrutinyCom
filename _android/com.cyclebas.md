@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.cyclebas
+alternativeStores: 
 appCountry: 
 released: 2021-08-30
 updated: 2022-10-06

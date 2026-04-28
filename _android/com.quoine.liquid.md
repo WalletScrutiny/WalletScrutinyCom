@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.quoine.liquid
+alternativeStores: 
 appCountry: us
 released: 2019-01-10
 updated: 2022-10-24

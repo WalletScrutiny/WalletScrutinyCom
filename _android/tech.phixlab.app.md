@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: tech.phixlab.app
+alternativeStores: 
 appCountry: 
 released: 2019-06-12
 updated: 2019-06-12

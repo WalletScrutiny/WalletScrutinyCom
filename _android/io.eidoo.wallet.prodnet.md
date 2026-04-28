@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: io.eidoo.wallet.prodnet
+alternativeStores: 
 appCountry: 
 released: 2017-09-25
 updated: 2021-11-08

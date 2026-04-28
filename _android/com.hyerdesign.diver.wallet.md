@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.hyerdesign.diver.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-10-04
 updated: 2024-12-09

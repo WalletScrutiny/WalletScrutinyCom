@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.zenapay.merchant
+alternativeStores: 
 appCountry: 
 released: 2018-01-02
 updated: 2024-06-12
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

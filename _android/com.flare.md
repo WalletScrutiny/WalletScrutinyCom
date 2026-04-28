@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.flare
+alternativeStores: 
 appCountry: 
 released: 2020-02-22
 updated: 2021-03-13

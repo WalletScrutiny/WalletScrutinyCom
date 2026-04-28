@@ -8,9 +8,9 @@ appId: com.Ellipal.Ellipal
 appCountry: us
 idd: '1426179665'
 released: 2018-08-25
-updated: 2026-03-12
-version: 4.11.0
-reviews: 2948
+updated: 2026-04-16
+version: 4.12.0
+reviews: 2950
 website: https://www.ellipal.com/
 repository: 
 icon: com.Ellipal.Ellipal.jpg

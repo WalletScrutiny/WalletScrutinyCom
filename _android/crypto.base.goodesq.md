@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: crypto.base.goodesq
+alternativeStores: 
 appCountry: 
 released: 2019-06-06
 updated: 2019-06-06

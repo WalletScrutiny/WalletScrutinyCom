@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.avaxwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-30
-updated: 2026-04-08
-version: 1.0.27
+updated: 2026-04-22
+version: 1.0.28
 reviews: 138
 website: http://core.app
 repository: 

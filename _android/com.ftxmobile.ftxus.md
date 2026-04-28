@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.ftxmobile.ftxus
+alternativeStores: 
 appCountry: us
 released: 2020-05-18
 updated: 2022-10-14

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.application.changecoin
+alternativeStores: 
 appCountry: us
 released: 2020-05-12
 updated: 2022-02-10

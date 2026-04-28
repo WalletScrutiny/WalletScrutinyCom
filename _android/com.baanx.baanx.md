@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.baanx.baanx
+alternativeStores: 
 appCountry: us
 released: 2019-10-10
 updated: 2023-02-02

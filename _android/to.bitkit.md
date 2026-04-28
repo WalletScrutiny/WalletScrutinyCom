@@ -1,6 +1,6 @@
 ---
 wsId: bitkit
-title: 'Bitkit: Bitcoin & LN Wallet'
+title: 'Bitkit: Bitcoin Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 5000
 appId: to.bitkit
+alternativeStores: 
 appCountry: 
 released: 2024-06-07
 updated: 2026-04-08

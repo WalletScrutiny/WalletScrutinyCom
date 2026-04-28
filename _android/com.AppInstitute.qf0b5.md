@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.AppInstitute.qf0b5
+alternativeStores: 
 appCountry: 
 released: 2018-10-04
 updated: 2018-10-12

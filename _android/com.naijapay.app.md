@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.naijapay.app
+alternativeStores: 
 appCountry: 
 released: 2021-01-21
 updated: 2021-08-10

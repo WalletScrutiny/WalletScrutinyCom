@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.coinshut.coinshut
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-10-29

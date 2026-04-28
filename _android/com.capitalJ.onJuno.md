@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.capitalJ.onJuno
+alternativeStores: 
 appCountry: 
 released: 2021-03-01
 updated: 2024-11-11

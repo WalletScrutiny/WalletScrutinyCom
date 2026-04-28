@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tezelt
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-05-18

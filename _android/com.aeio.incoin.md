@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.aeio.incoin
+alternativeStores: 
 appCountry: 
 released: 2021-05-17
 updated: 2021-05-14

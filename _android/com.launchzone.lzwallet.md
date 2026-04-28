@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.launchzone.lzwallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-30
 updated: 2022-09-08

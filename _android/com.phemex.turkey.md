@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.phemex.turkey
+alternativeStores: 
 appCountry: 
 released: 2021-09-30
 updated: 2022-09-27

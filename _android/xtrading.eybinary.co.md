@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: xtrading.eybinary.co
+alternativeStores: 
 appCountry: 
 released: 2022-09-13
 updated: 2022-09-26

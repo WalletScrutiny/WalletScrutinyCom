@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000000
 appId: com.hi.dollars
+alternativeStores: 
 appCountry: EE
 released: 2021-11-04
 updated: 2024-11-06

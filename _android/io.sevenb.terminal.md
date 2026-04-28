@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.sevenb.terminal
+alternativeStores: 
 appCountry: 
 released: 2021-05-04
 updated: 2022-12-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.techio.sendenero
+alternativeStores: 
 appCountry: 
 released: 2021-02-24
 updated: 2022-05-02

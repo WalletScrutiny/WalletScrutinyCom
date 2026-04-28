@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.app.investyKbill
+alternativeStores: 
 appCountry: 
 released: 2021-02-26
 updated: 2021-08-25

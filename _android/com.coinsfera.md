@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.coinsfera
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-08-23

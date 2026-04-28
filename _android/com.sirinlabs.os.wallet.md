@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.sirinlabs.os.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-13
 updated: 2020-09-15

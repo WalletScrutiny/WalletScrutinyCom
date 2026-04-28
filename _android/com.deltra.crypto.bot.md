@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.deltra.crypto.bot
+alternativeStores: 
 appCountry: 
 released: 2022-07-10
 updated: 2023-05-03

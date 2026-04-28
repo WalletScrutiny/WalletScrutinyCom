@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.SatoshiTango.SatoshiTango
+alternativeStores: 
 appCountry: 
 released: 2015-06-24
 updated: 2026-01-28

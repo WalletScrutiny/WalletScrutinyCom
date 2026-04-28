@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.counos
+alternativeStores: 
 appCountry: 
 released: 2018-07-03
 updated: 2022-04-20

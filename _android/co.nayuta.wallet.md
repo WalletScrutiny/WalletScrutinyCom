@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: co.nayuta.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-10-15

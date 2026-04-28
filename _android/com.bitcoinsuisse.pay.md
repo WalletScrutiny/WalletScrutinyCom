@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcoinsuisse.pay
+alternativeStores: 
 appCountry: 
 released: 2021-06-06
 updated: 2023-06-05

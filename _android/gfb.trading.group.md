@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: gfb.trading.group
+alternativeStores: 
 appCountry: 
 released: 2020-02-14
 updated: 2020-02-18

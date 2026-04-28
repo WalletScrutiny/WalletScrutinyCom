@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.github.bitteryapp.pro
+alternativeStores: 
 appCountry: 
 released: 2021-06-26
 updated: 2021-07-02

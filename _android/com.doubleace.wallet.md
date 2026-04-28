@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.doubleace.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-06-05

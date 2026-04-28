@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tudirich
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-09-25

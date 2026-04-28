@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.velic.mts.vex
+alternativeStores: 
 appCountry: 
 released: 2019-04-03
 updated: 2021-08-04

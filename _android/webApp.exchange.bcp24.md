@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: webApp.exchange.bcp24
+alternativeStores: 
 appCountry: 
 released: 2021-05-28
 updated: 2021-05-28

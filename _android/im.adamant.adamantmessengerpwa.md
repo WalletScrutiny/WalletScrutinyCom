@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: im.adamant.adamantmessengerpwa
+alternativeStores: 
 appCountry: 
 released: 2020-06-13
 updated: 2026-03-23

@@ -6,11 +6,12 @@ authors:
 - leo
 users: 10000
 appId: io.freewallet.mobile
+alternativeStores: 
 appCountry: 
 released: 2016-09-01
 updated: 2019-03-17
 version: 0.1.9
-reviews: 29
+reviews: 30
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 icon: io.freewallet.mobile.jpg

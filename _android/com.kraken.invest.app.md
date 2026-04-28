@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.kraken.invest.app
+alternativeStores: 
 appCountry: 
 released: 2020-12-30
-updated: 2026-04-17
-version: 3.60.0
-reviews: 7878
+updated: 2026-04-24
+version: 3.61.0
+reviews: 7920
 website: https://www.kraken.com
 repository: 
 icon: com.kraken.invest.app.png

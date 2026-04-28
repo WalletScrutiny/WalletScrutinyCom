@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.gulftrader
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-11-13

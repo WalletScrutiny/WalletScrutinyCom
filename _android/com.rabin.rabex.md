@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.rabin.rabex
+alternativeStores: 
 appCountry: 
 released: 2023-02-19
 updated: 2026-01-05

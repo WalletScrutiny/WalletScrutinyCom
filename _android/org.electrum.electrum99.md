@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.electrum.electrum99
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-18

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.coinhouse
+alternativeStores: 
 appCountry: 
 released: 2025-01-13
-updated: 2026-04-13
-version: 5.0.1
+updated: 2026-04-21
+version: 5.2.0
 reviews: 
 website: https://www.coinhouse.com
 repository: 

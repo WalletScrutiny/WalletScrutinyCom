@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: de.fuf.bitbucks
+alternativeStores: 
 appCountry: 
 released: 2019-09-03
 updated: 2025-10-06

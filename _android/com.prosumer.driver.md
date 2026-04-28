@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.prosumer.driver
+alternativeStores: 
 appCountry: 
 released: 2020-12-29
 updated: 2021-01-14

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: net.crypto.swingalert.invest.on.bitcoin1
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-17

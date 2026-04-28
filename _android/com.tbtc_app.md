@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tbtc_app
+alternativeStores: 
 appCountry: 
 released: 2022-03-17
 updated: 2025-08-26

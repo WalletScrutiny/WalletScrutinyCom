@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.feldrise.Atotupe
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-09-04

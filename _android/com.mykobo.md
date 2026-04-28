@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mykobo
+alternativeStores: 
 appCountry: 
 released: 2020-10-29
 updated: 2023-07-04

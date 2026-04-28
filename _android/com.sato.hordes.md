@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sato.hordes
+alternativeStores: 
 appCountry: 
 released: 2023-08-04
 updated: 2024-11-21

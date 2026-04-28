@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.lastthink.numbify
+alternativeStores: 
 appCountry: 
 released: 2018-01-24
 updated: 2018-01-30

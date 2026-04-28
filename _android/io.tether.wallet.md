@@ -4,13 +4,14 @@ title: Tether Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.tether.wallet
+alternativeStores: 
 appCountry: 
 released: 2026-03-19
 updated: 2026-04-14
 version: 1.0.1
-reviews: 5
+reviews: 6
 website: https://wallet.tether.io/support/
 repository: https://github.com/tetherto/tether-wallet-app-releases
 icon: io.tether.wallet.png

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.PlusWallet
+alternativeStores: 
 appCountry: 
 released: 2023-10-06
 updated: 2026-04-08

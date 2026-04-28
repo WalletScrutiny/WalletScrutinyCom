@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.xsats.xsats
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-02-22

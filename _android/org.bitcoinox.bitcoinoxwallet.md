@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: org.bitcoinox.bitcoinoxwallet
+alternativeStores: 
 appCountry: 
 released: 2019-02-04
 updated: 2024-12-22

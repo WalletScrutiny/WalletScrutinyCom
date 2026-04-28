@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cfdv2.demo
+alternativeStores: 
 appCountry: 
 released: 2020-02-13
 updated: 2020-02-14

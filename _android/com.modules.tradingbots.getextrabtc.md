@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.modules.tradingbots.getextrabtc
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-12-04

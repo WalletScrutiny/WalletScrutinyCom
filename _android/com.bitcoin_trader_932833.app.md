@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitcoin_trader_932833.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-21
 updated: 2022-07-21

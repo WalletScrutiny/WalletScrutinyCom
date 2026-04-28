@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.hashkey.me.google
+alternativeStores: 
 appCountry: 
 released: 2021-06-23
 updated: 2023-07-08

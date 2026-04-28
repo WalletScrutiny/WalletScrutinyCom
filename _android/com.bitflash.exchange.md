@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitflash.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-04-07
 updated: 2022-04-28

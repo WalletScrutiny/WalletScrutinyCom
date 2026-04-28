@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.orbitnetwork
+alternativeStores: 
 appCountry: 
 released: 2019-12-20
 updated: 2021-08-20

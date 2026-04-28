@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.btcontract.walletfiat
+alternativeStores: 
 appCountry: 
 released: 2023-10-09
 updated: 2024-05-07

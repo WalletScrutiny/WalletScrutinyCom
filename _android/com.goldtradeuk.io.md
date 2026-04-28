@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.goldtradeuk.io
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2022-05-29

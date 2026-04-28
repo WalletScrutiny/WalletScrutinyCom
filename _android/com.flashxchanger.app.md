@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.flashxchanger.app
+alternativeStores: 
 appCountry: 
 released: 2021-04-29
 updated: 2021-10-12

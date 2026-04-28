@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000000
 appId: com.iqoption
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-14
-version: 8.65.6
-reviews: 544
+version: 8.66.1
+reviews: 542
 website: https://km.iqoption.com/en
 repository: 
 icon: com.iqoption.jpg

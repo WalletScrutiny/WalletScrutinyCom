@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.BitcoinProfit.com
+alternativeStores: 
 appCountry: 
 released: 2022-06-18
 updated: 2022-06-18

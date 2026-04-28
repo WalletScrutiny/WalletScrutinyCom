@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.trade4fastpay.trade4fastpay
+alternativeStores: 
 appCountry: 
 released: 2021-10-15
 updated: 2023-04-15

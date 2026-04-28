@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.aic.cluster
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-05-24

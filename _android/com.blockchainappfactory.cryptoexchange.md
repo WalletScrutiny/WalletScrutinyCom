@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.blockchainappfactory.cryptoexchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-13

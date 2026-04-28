@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ninja.ninjapay.me
+alternativeStores: 
 appCountry: 
 released: 2023-01-10
 updated: 2025-10-16

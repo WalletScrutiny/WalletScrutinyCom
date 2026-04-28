@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pibexa
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-08-26

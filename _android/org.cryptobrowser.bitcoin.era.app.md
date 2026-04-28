@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.cryptobrowser.bitcoin.era.app
+alternativeStores: 
 appCountry: 
 released: 2021-06-28
 updated: 2021-06-29

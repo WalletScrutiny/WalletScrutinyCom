@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: sc.elitewallet.elitewallet
+alternativeStores: 
 appCountry: 
 released: 2022-11-22
 updated: 2024-03-25

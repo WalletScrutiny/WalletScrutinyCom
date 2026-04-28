@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.paritex.paritex_exchange_mobile
+alternativeStores: 
 appCountry: tr
 released: 2021-03-21
 updated: 2022-08-30

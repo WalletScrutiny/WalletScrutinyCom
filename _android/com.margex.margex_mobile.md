@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.margex.margex_mobile
+alternativeStores: 
 appCountry: 
 released: 2022-01-21
 updated: 2025-04-18

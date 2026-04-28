@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xoibit.holdingsapp
+alternativeStores: 
 appCountry: 
 released: 2025-07-05
 updated: 2026-04-04

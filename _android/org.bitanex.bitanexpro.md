@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: org.bitanex.bitanexpro
+alternativeStores: 
 appCountry: 
 released: 2018-11-09
 updated: 2019-04-26

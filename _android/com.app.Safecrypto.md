@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.Safecrypto
+alternativeStores: 
 appCountry: 
 released: 2022-09-02
 updated: 2022-09-02

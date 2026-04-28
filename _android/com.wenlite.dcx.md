@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.wenlite.dcx
+alternativeStores: 
 appCountry: 
 released: 2022-03-11
 updated: 2023-02-22

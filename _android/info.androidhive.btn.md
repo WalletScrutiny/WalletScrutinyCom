@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: info.androidhive.btn
+alternativeStores: 
 appCountry: 
 released: 2018-10-05
 updated: 2018-10-05

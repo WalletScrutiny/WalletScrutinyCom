@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.unicorn.shiftbuy
+alternativeStores: 
 appCountry: 
 released: 2020-01-03
 updated: 2020-04-21

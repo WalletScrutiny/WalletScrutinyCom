@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: buy.sell.trade.crypto1
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-17

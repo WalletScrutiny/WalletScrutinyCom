@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.usscyber.xl
+alternativeStores: 
 appCountry: 
 released: 2022-06-01
 updated: 2022-06-01

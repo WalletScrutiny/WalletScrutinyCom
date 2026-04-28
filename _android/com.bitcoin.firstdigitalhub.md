@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bitcoin.firstdigitalhub
+alternativeStores: 
 appCountry: 
 released: 2020-12-04
 updated: 2021-05-15

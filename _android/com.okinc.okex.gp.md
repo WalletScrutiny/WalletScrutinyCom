@@ -6,11 +6,12 @@ authors:
 - leo
 users: 10000000
 appId: com.okinc.okex.gp
+alternativeStores: 
 appCountry: 
 released: 2019-10-29
-updated: 2026-04-15
+updated: 2026-04-21
 version: 6.166.1
-reviews: 3863
+reviews: 3868
 website: https://www.okx.com/
 repository: 
 icon: com.okinc.okex.gp.png

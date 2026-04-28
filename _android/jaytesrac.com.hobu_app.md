@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: jaytesrac.com.hobu_app
+alternativeStores: 
 appCountry: 
 released: 2021-11-24
 updated: 2022-01-02

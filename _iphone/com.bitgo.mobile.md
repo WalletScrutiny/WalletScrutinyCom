@@ -8,9 +8,9 @@ appId: com.bitgo.mobile
 appCountry: us
 idd: '1608937235'
 released: 2022-05-09
-updated: 2026-03-05
-version: 2.0.57
-reviews: 14
+updated: 2026-03-26
+version: 2.0.66
+reviews: 15
 website: https://bitgo.com
 repository: 
 icon: com.bitgo.mobile.jpg

@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.oobit
+alternativeStores: 
 appCountry: 
 released: 2022-02-07
-updated: 2026-03-12
+updated: 2026-04-24
 version: 2.6.1
-reviews: 37
+reviews: 39
 website: https://www.oobit.com/
 repository: 
 icon: com.oobit.png

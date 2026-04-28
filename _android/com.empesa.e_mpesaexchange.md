@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.empesa.e_mpesaexchange
+alternativeStores: 
 appCountry: 
 released: 2020-02-28
 updated: 2020-02-28

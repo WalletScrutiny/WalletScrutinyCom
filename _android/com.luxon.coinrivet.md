@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.luxon.coinrivet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-05-12

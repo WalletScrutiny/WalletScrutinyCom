@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: uni.global.mcdc_client_app
+alternativeStores: 
 appCountry: 
 released: 2022-01-24
 updated: 2025-08-31

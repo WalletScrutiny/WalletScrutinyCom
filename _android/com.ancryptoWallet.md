@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.ancryptoWallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-27
 updated: 2025-09-04

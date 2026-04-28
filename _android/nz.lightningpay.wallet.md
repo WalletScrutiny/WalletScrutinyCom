@@ -3,12 +3,13 @@ wsId:
 title: Stacked Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: nz.lightningpay.wallet
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-07
-version: 3.0.6
+updated: 2026-04-23
+version: 3.1.0
 reviews: 
 website: https://stackedbitcoin.com
 repository: 

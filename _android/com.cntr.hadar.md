@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cntr.hadar
+alternativeStores: 
 appCountry: 
 released: 2021-05-19
 updated: 2021-06-21

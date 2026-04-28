@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.dalongpay.dalongpay
+alternativeStores: 
 appCountry: 
 released: 2017-12-05
 updated: 2018-12-26

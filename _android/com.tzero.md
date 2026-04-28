@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.tzero
+alternativeStores: 
 appCountry: us
 released: 2019-07-24
 updated: 2023-01-30

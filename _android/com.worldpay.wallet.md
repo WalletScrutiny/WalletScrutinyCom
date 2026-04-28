@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.worldpay.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-02-11
 updated: 2019-06-19

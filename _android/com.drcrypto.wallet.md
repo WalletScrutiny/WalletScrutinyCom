@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.drcrypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-23
 updated: 2021-10-21

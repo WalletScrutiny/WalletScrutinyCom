@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.itm.ww
+alternativeStores: 
 appCountry: 
 released: 2018-10-14
 updated: 2019-03-22

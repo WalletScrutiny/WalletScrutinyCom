@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bitalgopayment.android
+alternativeStores: 
 appCountry: 
 released: 2020-09-10
 updated: 2020-09-10

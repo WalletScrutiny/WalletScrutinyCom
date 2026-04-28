@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.tradehorn.app
+alternativeStores: 
 appCountry: 
 released: 2020-06-23
 updated: 2020-11-23

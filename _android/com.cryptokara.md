@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.cryptokara
+alternativeStores: 
 appCountry: 
 released: 2021-09-28
 updated: 2024-04-08

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.frostwallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-01
 updated: 2025-01-24

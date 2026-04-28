@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.newmoney.ai
+alternativeStores: 
 appCountry: 
 released: 2025-04-28
 updated: 2025-08-15

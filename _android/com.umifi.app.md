@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.umifi.app
+alternativeStores: 
 appCountry: us
 released: 2021-08-18
 updated: 2021-12-23

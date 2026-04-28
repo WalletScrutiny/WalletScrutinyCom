@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: ru.devroom.blockchain24
+alternativeStores: 
 appCountry: 
 released: 2021-03-16
 updated: 2023-06-29

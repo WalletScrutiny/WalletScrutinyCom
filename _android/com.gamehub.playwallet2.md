@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.gamehub.playwallet2
+alternativeStores: 
 appCountry: 
 released: 2020-02-19
 updated: 2020-04-08

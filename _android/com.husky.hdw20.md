@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.husky.hdw20
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2021-04-06

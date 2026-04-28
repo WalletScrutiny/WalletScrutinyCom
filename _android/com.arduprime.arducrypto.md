@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.arduprime.arducrypto
+alternativeStores: 
 appCountry: 
 released: 2022-07-26
 updated: 2023-08-23

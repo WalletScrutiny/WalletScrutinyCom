@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.gluwa.android
+alternativeStores: 
 appCountry: 
 released: 2015-09-20
 updated: 2024-03-27

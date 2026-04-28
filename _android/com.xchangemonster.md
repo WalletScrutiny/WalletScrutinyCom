@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.xchangemonster
+alternativeStores: 
 appCountry: 
 released: 2022-05-04
 updated: 2022-08-24

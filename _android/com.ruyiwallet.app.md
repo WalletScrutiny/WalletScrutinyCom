@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ruyiwallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-05
 updated: 2022-07-22

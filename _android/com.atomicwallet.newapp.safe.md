@@ -7,6 +7,7 @@ authors:
 - leo
 users: 500
 appId: com.atomicwallet.newapp.safe
+alternativeStores: 
 appCountry: 
 released: 2021-06-14
 updated: 2021-06-14

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.didi.message
+alternativeStores: 
 appCountry: 
 released: 2020-04-30
 updated: 2022-05-26

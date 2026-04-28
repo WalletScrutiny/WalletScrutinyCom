@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.aaatrade.aaatrader
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-09-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.nativescript.cryptotrader
+alternativeStores: 
 appCountry: 
 released: 2019-02-13
 updated: 2019-04-04

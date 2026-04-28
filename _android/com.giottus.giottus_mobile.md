@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.giottus.giottus_mobile
+alternativeStores: 
 appCountry: us
 released: 2021-02-01
-updated: 2026-04-07
-version: 3.0.42
+updated: 2026-04-21
+version: 3.0.43
 reviews: 26
 website: https://www.giottus.com
 repository: 

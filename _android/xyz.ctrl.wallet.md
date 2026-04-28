@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: xyz.ctrl.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-11-29
 updated: 2026-03-02

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.suprafin.app.usa
+alternativeStores: 
 appCountry: 
 released: 2021-11-29
 updated: 2022-05-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.gamemobile.bitcoinprime
+alternativeStores: 
 appCountry: 
 released: 2021-06-25
 updated: 2021-06-25

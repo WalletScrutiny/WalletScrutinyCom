@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitmetavest.crypto_investment
+alternativeStores: 
 appCountry: 
 released: 2022-03-08
 updated: 2022-03-18

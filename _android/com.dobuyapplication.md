@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.dobuyapplication
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2021-11-30

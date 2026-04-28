@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.chiba.client
+alternativeStores: 
 appCountry: 
 released: 2018-04-19
 updated: 2018-05-08

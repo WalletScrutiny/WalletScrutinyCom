@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.profittrading.forhitbtc
+alternativeStores: 
 appCountry: 
 released: 2018-07-23
 updated: 2021-08-07

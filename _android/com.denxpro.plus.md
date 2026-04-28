@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.denxpro.plus
+alternativeStores: 
 appCountry: 
 released: 2022-02-10
 updated: 2023-03-10

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.token.airtoken
+alternativeStores: 
 appCountry: 
 released: 2019-06-18
 updated: 2019-07-11

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: www.satoshibot.org
+alternativeStores: 
 appCountry: 
 released: 2022-05-20
 updated: 2022-05-20

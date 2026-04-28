@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wallet.falcon
+alternativeStores: 
 appCountry: 
 released: 2021-04-01
 updated: 2021-09-21

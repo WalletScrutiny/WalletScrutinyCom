@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vaulthotpro
+alternativeStores: 
 appCountry: us
 released: 2020-03-30
 updated: 2021-03-22

@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: cn.com.vau
+alternativeStores: 
 appCountry: cn
 released: 2019-07-06
 updated: 2026-04-15
 version: 4.00.2
-reviews: 5979
+reviews: 6263
 website: https://www.vantagemarkets.com/
 repository: 
 icon: cn.com.vau.png

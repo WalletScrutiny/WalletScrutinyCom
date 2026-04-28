@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: co.yopay.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-06-01

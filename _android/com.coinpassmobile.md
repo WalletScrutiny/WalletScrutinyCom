@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.coinpassmobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-25

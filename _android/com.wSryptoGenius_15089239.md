@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wSryptoGenius_15089239
+alternativeStores: 
 appCountry: 
 released: 2022-01-27
 updated: 2022-01-27

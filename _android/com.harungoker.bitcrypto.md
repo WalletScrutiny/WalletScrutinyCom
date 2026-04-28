@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.harungoker.bitcrypto
+alternativeStores: 
 appCountry: 
 released: 2022-06-27
 updated: 2022-06-27

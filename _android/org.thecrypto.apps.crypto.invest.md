@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.thecrypto.apps.crypto.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-22
 updated: 2021-06-22

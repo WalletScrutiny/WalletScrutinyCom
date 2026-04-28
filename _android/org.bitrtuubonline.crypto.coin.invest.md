@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.bitrtuubonline.crypto.coin.invest
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-17

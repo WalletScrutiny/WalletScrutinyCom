@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: au.com.bitcoin.mobileapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-31

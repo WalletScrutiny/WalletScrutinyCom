@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.bitcoin.m.bitcoinbankbreaker.official
+alternativeStores: 
 appCountry: 
 released: 2022-09-07
 updated: 2022-09-07

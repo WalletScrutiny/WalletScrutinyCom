@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.sinest.adappterwallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-21
 updated: 2026-02-19

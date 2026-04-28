@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: finance.hollox.app
+alternativeStores: 
 appCountry: 
 released: 2022-11-13
 updated: 2024-10-04

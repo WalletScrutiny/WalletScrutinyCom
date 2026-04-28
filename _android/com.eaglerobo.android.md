@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.eaglerobo.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-20
 updated: 2021-11-22

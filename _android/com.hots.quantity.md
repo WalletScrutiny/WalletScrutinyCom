@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.hots.quantity
+alternativeStores: 
 appCountry: 
 released: 2022-06-15
 updated: 2024-04-02

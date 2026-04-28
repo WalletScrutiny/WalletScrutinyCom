@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: io.bitpin.app
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2025-06-09

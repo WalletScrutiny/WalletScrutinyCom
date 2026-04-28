@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zeux.finapp
+alternativeStores: 
 appCountry: gb
 released: 2019-05-22
 updated: 2021-10-07

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.lohitgroup.start
+alternativeStores: 
 appCountry: 
 released: 2020-05-04
 updated: 2020-10-05

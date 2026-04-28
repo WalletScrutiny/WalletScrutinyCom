@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wiCashwallet_12832409
+alternativeStores: 
 appCountry: 
 released: 2020-12-22
 updated: 2020-12-22

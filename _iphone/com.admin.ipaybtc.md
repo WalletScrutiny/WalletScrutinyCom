@@ -14,10 +14,10 @@ website:
 repository: 
 icon: com.admin.ipaybtc.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
 appHashes: 
-date: 2026-01-14
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

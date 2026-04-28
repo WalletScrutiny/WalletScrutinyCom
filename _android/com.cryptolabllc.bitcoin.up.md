@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptolabllc.bitcoin.up
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-06-18

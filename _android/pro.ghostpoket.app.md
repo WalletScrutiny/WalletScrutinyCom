@@ -6,12 +6,13 @@ authors:
 - danny
 users: 500
 appId: pro.ghostpoket.app
+alternativeStores: 
 appCountry: 
 released: 2025-06-21
 updated: 2026-01-15
 version: 1.1.5
 reviews: 
-website: https://ghostwallet.io
+website: https://test.ghostpoket.pro
 repository: 
 icon: pro.ghostpoket.app.png
 bugbounty: 
@@ -22,7 +23,7 @@ date: 2026-04-23
 signer: 
 twitter: Ghost_Wallet_
 social:
-- https://www.instagram.com/ghost.wallet 
+- https://www.instagram.com/ghost.wallet
 redirect_from: 
 developerName: GhostWallet Global
 builds: 

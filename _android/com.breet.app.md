@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.breet.app
+alternativeStores: 
 appCountry: 
 released: 2021-05-26
 updated: 2021-05-26

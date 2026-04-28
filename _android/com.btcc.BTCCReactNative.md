@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.btcc.BTCCReactNative
+alternativeStores: 
 appCountry: 
 released: 2022-11-17
-updated: 2026-01-23
-version: 3.5.40
+updated: 2026-04-14
+version: 3.5.41
 reviews: 85
 website: 
 repository: 

@@ -3,9 +3,10 @@ wsId: triskelWallet
 title: Triskel Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.triskel
+alternativeStores: 
 appCountry: 
 released: 2023-06-27
 updated: 2026-01-03
@@ -22,7 +23,7 @@ date: 2026-04-21
 signer: 
 twitter: TriskelWallet
 social:
-- https://www.linkedin.com/company/grupo-triskel 
+- https://www.linkedin.com/company/grupo-triskel
 redirect_from: 
 developerName: Triskel Capital
 builds: 

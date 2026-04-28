@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.neb.showmelove
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-09-16

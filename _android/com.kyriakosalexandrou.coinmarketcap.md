@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.kyriakosalexandrou.coinmarketcap
+alternativeStores: 
 appCountry: us
 released: 2015-05-16
 updated: 2026-04-18

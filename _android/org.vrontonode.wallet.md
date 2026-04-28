@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: org.vrontonode.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-29
 updated: 2019-11-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.irxauj.cn
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-01

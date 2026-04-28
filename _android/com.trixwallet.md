@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.trixwallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-20
 updated: 2021-12-20

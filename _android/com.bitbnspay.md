@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.bitbnspay
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-11-23

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.unocoin.unocoinwallet
+alternativeStores: 
 appCountry: 
 released: 2016-11-30
 updated: 2026-01-12

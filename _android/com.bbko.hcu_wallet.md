@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bbko.hcu_wallet
+alternativeStores: 
 appCountry: 
 released: 2020-07-27
 updated: 2021-08-11

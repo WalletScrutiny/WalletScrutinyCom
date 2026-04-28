@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vultisig.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-07-01
 updated: 2026-03-30

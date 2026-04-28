@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.pawnhub.droid
+alternativeStores: 
 appCountry: 
 released: 2020-01-16
 updated: 2020-03-25

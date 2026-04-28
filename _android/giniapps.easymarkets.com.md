@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: giniapps.easymarkets.com
+alternativeStores: 
 appCountry: us
 released: 2017-04-05
-updated: 2026-03-09
-version: 3.2.5
+updated: 2026-04-27
+version: 3.3.0
 reviews: 39
 website: https://www.easymarkets.com/
 repository: 

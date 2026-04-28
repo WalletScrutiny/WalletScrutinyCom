@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: digital.awallet.app.gp
+alternativeStores: 
 appCountry: 
 released: 2022-03-09
 updated: 2023-08-24

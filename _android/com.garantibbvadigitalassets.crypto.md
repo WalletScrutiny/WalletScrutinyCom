@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.garantibbvadigitalassets.crypto
+alternativeStores: 
 appCountry: 
 released: 2023-12-11
 updated: 2026-03-25

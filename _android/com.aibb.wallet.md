@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.aibb.wallet
+alternativeStores: 
 appCountry: us
 released: 2019-04-04
 updated: 2021-10-04

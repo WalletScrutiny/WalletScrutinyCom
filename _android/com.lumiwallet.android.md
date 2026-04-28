@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.lumiwallet.android
+alternativeStores: 
 appCountry: 
 released: 2018-01-15
 updated: 2023-07-11

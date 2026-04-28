@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
+alternativeStores: 
 appCountry: 
 released: 2014-12-05
 updated: 2025-10-06

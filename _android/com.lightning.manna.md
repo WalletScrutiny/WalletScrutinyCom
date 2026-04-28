@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500
 appId: com.lightning.manna
+alternativeStores: 
 appCountry: 
 released: 2025-05-14
 updated: 2025-11-10

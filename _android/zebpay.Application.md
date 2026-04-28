@@ -6,11 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: zebpay.Application
+alternativeStores: 
 appCountry: 
 released: 2014-12-23
-updated: 2026-04-08
-version: 3.70.0
-reviews: 84
+updated: 2026-04-17
+version: 3.80.0
+reviews: 83
 website: https://www.zebpay.com
 repository: 
 icon: zebpay.Application.png

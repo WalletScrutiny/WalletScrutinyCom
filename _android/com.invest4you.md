@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.invest4you
+alternativeStores: 
 appCountry: 
 released: 2021-06-16
 updated: 2021-06-16

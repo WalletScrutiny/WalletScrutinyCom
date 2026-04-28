@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.myabcwallet.mpc
+alternativeStores: 
 appCountry: 
 released: 2022-12-22
 updated: 2026-03-27

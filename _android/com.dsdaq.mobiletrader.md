@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.dsdaq.mobiletrader
+alternativeStores: 
 appCountry: us
 released: 2019-12-24
 updated: 2022-01-20

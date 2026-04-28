@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.smartvalor.smartvalor
+alternativeStores: 
 appCountry: 
 released: 2024-10-02
 updated: 2024-11-15

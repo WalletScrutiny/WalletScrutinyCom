@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.exchange.coinbims
+alternativeStores: 
 appCountry: 
 released: 2019-08-20
 updated: 2019-09-09

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.blocknance.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-11
 updated: 2023-03-14

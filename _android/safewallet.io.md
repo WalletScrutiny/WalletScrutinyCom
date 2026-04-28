@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: safewallet.io
+alternativeStores: 
 appCountry: 
 released: 2022-03-29
 updated: 2023-10-19

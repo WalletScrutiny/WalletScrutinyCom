@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptotrile.trader
+alternativeStores: 
 appCountry: 
 released: 2022-08-09
 updated: 2023-09-02

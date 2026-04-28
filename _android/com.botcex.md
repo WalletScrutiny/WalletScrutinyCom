@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.botcex
+alternativeStores: 
 appCountry: 
 released: 2021-05-29
 updated: 2021-05-30

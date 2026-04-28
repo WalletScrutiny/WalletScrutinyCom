@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.btc.bitcoin.crypto.okpro.binance.coinbase
+alternativeStores: 
 appCountry: 
 released: 2021-09-13
 updated: 2021-09-13

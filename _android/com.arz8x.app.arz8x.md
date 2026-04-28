@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.arz8x.app.arz8x
+alternativeStores: 
 appCountry: 
 released: 2020-05-08
 updated: 2024-08-29

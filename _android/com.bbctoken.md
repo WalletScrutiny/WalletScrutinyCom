@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bbctoken
+alternativeStores: 
 appCountry: 
 released: 2019-07-20
 updated: 2020-09-16

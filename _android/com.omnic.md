@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.omnic
+alternativeStores: 
 appCountry: 
 released: 2019-09-03
 updated: 2021-05-04

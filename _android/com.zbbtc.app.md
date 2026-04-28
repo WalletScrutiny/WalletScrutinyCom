@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.zbbtc.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-09
 updated: 2022-04-09

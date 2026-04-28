@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.blockchaincommodities.enifex
+alternativeStores: 
 appCountry: 
 released: 2022-12-14
 updated: 2025-08-11

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.defiex.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-07-09
 updated: 2020-08-21

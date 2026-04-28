@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.yuwapp.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-02
 updated: 2022-07-28

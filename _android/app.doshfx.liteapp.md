@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: app.doshfx.liteapp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-03-29

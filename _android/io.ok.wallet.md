@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.ok.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-10
 updated: 2021-04-13

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.airwalletofficial.air_wallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-19
 updated: 2019-10-29

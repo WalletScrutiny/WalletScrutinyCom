@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.molnike.crypto.backup
+alternativeStores: 
 appCountry: 
 released: 2023-01-08
 updated: 2023-02-28

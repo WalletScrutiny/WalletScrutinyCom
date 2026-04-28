@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cryptolocator_1_1
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-04-03

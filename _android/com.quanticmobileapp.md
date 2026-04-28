@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.quanticmobileapp
+alternativeStores: 
 appCountry: 
 released: 2021-02-16
 updated: 2022-09-08

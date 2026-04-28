@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: trade.bot.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-12
 updated: 2025-04-10

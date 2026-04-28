@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoin.wallet.cryptopuce
+alternativeStores: 
 appCountry: 
 released: 2021-03-07
 updated: 2021-05-20

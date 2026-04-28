@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.ftxmobile.ftxtr
+alternativeStores: 
 appCountry: 
 released: 2022-02-21
 updated: 2022-11-01

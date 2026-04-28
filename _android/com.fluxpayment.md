@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fluxpayment
+alternativeStores: 
 appCountry: us
 released: 2020-09-02
 updated: 2023-04-13

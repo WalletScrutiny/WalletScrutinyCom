@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.cryptooptionstrading.bitcoin.wallet.account
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20

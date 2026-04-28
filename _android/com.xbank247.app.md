@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.xbank247.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-30
 updated: 2023-11-10

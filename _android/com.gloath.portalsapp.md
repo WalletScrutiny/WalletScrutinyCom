@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.gloath.portalsapp
+alternativeStores: 
 appCountry: 
 released: 2018-03-20
 updated: 2020-12-20

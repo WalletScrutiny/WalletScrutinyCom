@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitroyal.bitroyalapp
+alternativeStores: 
 appCountry: 
 released: 2021-03-06
 updated: 2021-03-07

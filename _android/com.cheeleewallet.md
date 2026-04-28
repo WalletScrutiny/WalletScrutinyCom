@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.cheeleewallet
+alternativeStores: 
 appCountry: 
 released: 2023-11-02
 updated: 2023-11-02
 version: 1.2.1
-reviews: 53
+reviews: 54
 website: https://cheeleewallet.io/
 repository: 
 icon: com.cheeleewallet.png

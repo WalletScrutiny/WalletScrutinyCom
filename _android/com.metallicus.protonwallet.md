@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.metallicus.protonwallet
+alternativeStores: 
 appCountry: us
 released: 2021-02-22
 updated: 2021-10-21

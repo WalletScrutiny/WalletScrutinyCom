@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.galoyapp
+alternativeStores: 
 appCountry: 
 released: 2020-11-24
 updated: 2025-12-17

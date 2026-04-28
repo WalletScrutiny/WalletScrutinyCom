@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: network.globaldao.goowallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-10
 updated: 2020-10-25

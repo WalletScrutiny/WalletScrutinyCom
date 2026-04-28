@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cedigo
+alternativeStores: 
 appCountry: 
 released: 2020-08-19
 updated: 2020-10-29

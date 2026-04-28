@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.openbit.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-10
 updated: 2022-03-25

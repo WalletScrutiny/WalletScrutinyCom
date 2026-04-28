@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.qiewallet
+alternativeStores: 
 appCountry: 
 released: 2023-06-20
 updated: 2026-04-17

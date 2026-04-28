@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitvirya.app
+alternativeStores: 
 appCountry: 
 released: 2020-11-20
 updated: 2020-11-20

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: org.groestlcoin.electrumgrs
+alternativeStores: 
 appCountry: 
 released: 2018-06-02
 updated: 2025-04-29
@@ -14,10 +15,10 @@ website: https://groestlcoin.org
 repository: 
 icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
-meta: fewusers
+meta: stale
 verdict: wip
 appHashes: 
-date: 2025-05-14
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

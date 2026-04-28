@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.daeil.bitfit
+alternativeStores: 
 appCountry: 
 released: 2019-09-10
 updated: 2019-09-11

@@ -6,6 +6,7 @@ authors:
 - bit-aloo
 users: 
 appId: com.litewallet.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-29
 updated: 2022-06-28

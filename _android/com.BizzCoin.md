@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.BizzCoin
+alternativeStores: 
 appCountry: in
 released: 2020-01-02
 updated: 2021-10-28

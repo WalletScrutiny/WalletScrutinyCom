@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.fast.trustedupcryptoexchange
+alternativeStores: 
 appCountry: 
 released: 2021-05-20
 updated: 2021-05-20

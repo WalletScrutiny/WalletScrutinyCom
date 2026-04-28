@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.lilliangreen.gdbeyhfy
+alternativeStores: 
 appCountry: 
 released: 2021-12-02
 updated: 2021-12-02

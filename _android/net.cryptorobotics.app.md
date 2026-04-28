@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: net.cryptorobotics.app
+alternativeStores: 
 appCountry: 
 released: 2019-10-07
 updated: 2019-10-07

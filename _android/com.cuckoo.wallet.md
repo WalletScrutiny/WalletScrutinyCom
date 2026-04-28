@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cuckoo.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2022-06-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.cryptoearningapps.bitcoin.investment.south.africa
+alternativeStores: 
 appCountry: 
 released: 2021-06-29
 updated: 2021-06-29

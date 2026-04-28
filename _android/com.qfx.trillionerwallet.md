@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.qfx.trillionerwallet
+alternativeStores: 
 appCountry: 
 released: 2023-03-26
 updated: 2023-10-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tcws.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-15
 updated: 2019-10-15

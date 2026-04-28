@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.coinmore.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-07-03
 updated: 2018-07-26

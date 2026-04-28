@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.shiftshape.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-16
 updated: 2021-07-16

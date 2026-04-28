@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.aex.exchanges
+alternativeStores: 
 appCountry: 
 released: 2023-02-24
 updated: 2023-08-18

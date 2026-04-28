@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: sg.bcoin.app
+alternativeStores: 
 appCountry: 
 released: 2018-08-02
 updated: 2018-11-22

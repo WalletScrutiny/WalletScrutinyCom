@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: coinvest.investment
+alternativeStores: 
 appCountry: 
 released: 2020-12-12
 updated: 2020-12-18

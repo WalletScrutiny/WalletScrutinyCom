@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ibandirect.card
+alternativeStores: 
 appCountry: sg
 released: 2020-11-08
 updated: 2024-10-06
@@ -15,10 +16,10 @@ website: https://coincardi.com
 repository: 
 icon: com.ibandirect.card.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-10-02
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

@@ -5,6 +5,7 @@ altTitle: (Fake) Copay Wallet
 authors: 
 users: 100
 appId: io.copayers.multi.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-16
 updated: 2021-12-16

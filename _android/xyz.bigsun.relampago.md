@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: xyz.bigsun.relampago
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-12-03

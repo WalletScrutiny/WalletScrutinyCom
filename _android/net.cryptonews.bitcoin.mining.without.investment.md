@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.cryptonews.bitcoin.mining.without.investment
+alternativeStores: 
 appCountry: 
 released: 2021-07-19
 updated: 2021-07-19

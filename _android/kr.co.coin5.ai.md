@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: kr.co.coin5.ai
+alternativeStores: 
 appCountry: 
 released: 2020-06-13
 updated: 2020-06-14

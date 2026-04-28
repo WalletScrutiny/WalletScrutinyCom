@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.gemwallet.android
+alternativeStores: 
 appCountry: ae
 released: 2023-06-26
-updated: 2026-04-14
-version: '2.32'
+updated: 2026-04-24
+version: '2.36'
 reviews: 5
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android

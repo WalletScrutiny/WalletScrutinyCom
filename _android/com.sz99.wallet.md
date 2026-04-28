@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.sz99.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-23
 updated: 2023-02-01

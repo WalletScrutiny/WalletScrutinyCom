@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.bitmex.app.android
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-10
-version: 3.2.7
+updated: 2026-04-22
+version: 3.2.8
 reviews: 
 website: https://www.bitmex.com/
 repository: 

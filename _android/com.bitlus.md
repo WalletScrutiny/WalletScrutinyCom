@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bitlus
+alternativeStores: 
 appCountry: 
 released: 2020-12-24
 updated: 2021-11-27

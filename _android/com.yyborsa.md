@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.yyborsa
+alternativeStores: 
 appCountry: 
 released: 2021-08-20
 updated: 2021-08-20

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.factwallet.crypto.factwallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-23
 updated: 2020-11-13

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ferrum.kudi
+alternativeStores: 
 appCountry: 
 released: 2019-01-13
 updated: 2020-10-19

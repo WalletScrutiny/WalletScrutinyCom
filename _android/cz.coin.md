@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: cz.coin
+alternativeStores: 
 appCountry: 
 released: 2025-10-01
 updated: 2026-02-15

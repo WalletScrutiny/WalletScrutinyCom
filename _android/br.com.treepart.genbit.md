@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: br.com.treepart.genbit
+alternativeStores: 
 appCountry: 
 released: 2019-11-10
 updated: 2019-11-16

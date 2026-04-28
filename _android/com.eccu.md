@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.eccu
+alternativeStores: 
 appCountry: 
 released: 2020-07-06
 updated: 2020-11-06

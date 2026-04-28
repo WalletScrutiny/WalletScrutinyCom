@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50000
 appId: com.swapwalletltd.swap
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-11-14

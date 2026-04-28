@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coincorner.app.crypt
+alternativeStores: 
 appCountry: 
 released: 2014-09-10
 updated: 2025-10-10
@@ -15,10 +16,10 @@ website: https://www.coincorner.com
 repository: 
 icon: com.coincorner.app.crypt.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-05-02
+date: 2026-04-28
 signer: 
 twitter: CoinCorner
 social:

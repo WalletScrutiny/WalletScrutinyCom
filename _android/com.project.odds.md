@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.project.odds
+alternativeStores: 
 appCountry: 
 released: 2022-03-29
 updated: 2024-02-01

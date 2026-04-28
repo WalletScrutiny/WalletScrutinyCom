@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.chivowalletapp.co
+alternativeStores: 
 appCountry: 
 released: 2021-08-12
 updated: 2021-08-13

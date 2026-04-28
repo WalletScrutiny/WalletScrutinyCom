@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bokka.ex
+alternativeStores: 
 appCountry: 
 released: 2018-03-28
 updated: 2019-05-03

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.qm.bitdata.bitexotc
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2024-08-22

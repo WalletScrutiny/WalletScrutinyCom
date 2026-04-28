@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.bdb.bdbwallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-05
 updated: 2021-02-17

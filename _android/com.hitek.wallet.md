@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hitek.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-03-28
 updated: 2018-03-28

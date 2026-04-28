@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: impily.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-25
 updated: 2021-11-26

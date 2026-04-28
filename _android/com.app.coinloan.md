@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.app.coinloan
+alternativeStores: 
 appCountry: us
 released: 2019-11-28
 updated: 2023-05-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wallet.ntc
+alternativeStores: 
 appCountry: 
 released: 2022-06-02
 updated: 2022-06-03

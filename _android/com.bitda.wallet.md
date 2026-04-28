@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitda.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.logik.cmcinsight
+alternativeStores: 
 appCountry: 
 released: 2020-11-02
 updated: 2020-11-02

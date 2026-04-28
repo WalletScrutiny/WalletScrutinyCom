@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: br.com.coinext
+alternativeStores: 
 appCountry: 
 released: 2019-11-19
-updated: 2026-04-17
-version: 2.35.2
+updated: 2026-04-24
+version: 2.35.8
 reviews: 7
 website: https://coinext.com.br
 repository: 

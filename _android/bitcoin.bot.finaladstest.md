@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: bitcoin.bot.finaladstest
+alternativeStores: 
 appCountry: 
 released: 2020-10-17
 updated: 2020-10-17

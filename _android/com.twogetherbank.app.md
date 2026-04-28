@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.twogetherbank.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-06-14

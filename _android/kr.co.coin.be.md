@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: kr.co.coin.be
+alternativeStores: 
 appCountry: 
 released: 2020-02-22
 updated: 2020-02-23

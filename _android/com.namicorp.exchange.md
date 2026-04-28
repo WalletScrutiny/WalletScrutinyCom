@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.namicorp.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-11-06
 updated: 2026-03-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.tradedigitals.swiftxchange
+alternativeStores: 
 appCountry: 
 released: 2021-09-16
 updated: 2021-09-16

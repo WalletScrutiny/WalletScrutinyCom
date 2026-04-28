@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.blockproex
+alternativeStores: 
 appCountry: 
 released: 2022-02-24
 updated: 2022-03-25

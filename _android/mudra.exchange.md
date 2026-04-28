@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: mudra.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-02-04
 updated: 2024-05-24

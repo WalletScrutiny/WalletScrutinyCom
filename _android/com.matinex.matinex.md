@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.matinex.matinex
+alternativeStores: 
 appCountry: 
 released: 2021-11-07
 updated: 2021-11-22

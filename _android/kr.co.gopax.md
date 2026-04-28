@@ -6,11 +6,12 @@ authors:
 - danny
 users: 500000
 appId: kr.co.gopax
+alternativeStores: 
 appCountry: cn
 released: 2018-11-05
-updated: 2026-04-20
-version: 1.9.41.9cf7
-reviews: 1539
+updated: 2026-04-23
+version: 1.9.42.cacb
+reviews: 1538
 website: https://www.gopax.co.kr
 repository: 
 icon: kr.co.gopax.png

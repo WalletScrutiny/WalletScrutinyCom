@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ataix.exchange
+alternativeStores: 
 appCountry: ee
 released: 2019-09-20
 updated: 2022-06-07

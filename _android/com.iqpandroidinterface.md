@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10000
 appId: com.iqpandroidinterface
+alternativeStores: 
 appCountry: ru
 released: 2021-10-01
 updated: 2021-10-13

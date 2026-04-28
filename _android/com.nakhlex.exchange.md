@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nakhlex.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-12-08

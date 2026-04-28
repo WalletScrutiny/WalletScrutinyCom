@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: g3shanappz.moonfaucet
+alternativeStores: 
 appCountry: 
 released: 2020-06-29
 updated: 2020-06-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.alibitmobile.alibit
+alternativeStores: 
 appCountry: 
 released: 2021-05-09
 updated: 2021-05-09

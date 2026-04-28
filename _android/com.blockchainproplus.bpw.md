@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.blockchainproplus.bpw
+alternativeStores: 
 appCountry: 
 released: 2021-04-02
 updated: 2021-04-23

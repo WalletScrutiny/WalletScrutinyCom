@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.bitcoinexc
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2025-07-11

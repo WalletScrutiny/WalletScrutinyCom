@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptobasex.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-31
 updated: 2020-04-23

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: exchange.gleec.com
+alternativeStores: 
 appCountry: 
 released: 2021-02-17
 updated: 2026-02-17

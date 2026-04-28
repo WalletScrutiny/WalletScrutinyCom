@@ -6,11 +6,12 @@ authors:
 - leo
 users: 500000
 appId: com.bitrefill.app
+alternativeStores: 
 appCountry: 
 released: 2018-04-10
-updated: 2026-04-17
-version: 7.3.0
-reviews: 278
+updated: 2026-04-23
+version: 7.4.0
+reviews: 280
 website: https://www.bitrefill.com
 repository: 
 icon: com.bitrefill.app.png

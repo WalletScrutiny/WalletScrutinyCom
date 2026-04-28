@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.bitpanda.bitpanda
+alternativeStores: 
 appCountry: 
 released: 2018-11-07
-updated: 2026-04-16
-version: 3.21.1
+updated: 2026-04-22
+version: 3.21.2
 reviews: 18
 website: https://www.bitpanda.com
 repository: 

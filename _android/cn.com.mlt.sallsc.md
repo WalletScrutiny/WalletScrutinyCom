@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: cn.com.mlt.sallsc
+alternativeStores: 
 appCountry: 
 released: 2021-11-21
 updated: 2021-12-08

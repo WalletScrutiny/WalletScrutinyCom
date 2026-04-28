@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.abitnetwork.abitpay
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-10-09

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.eofinance
+alternativeStores: 
 appCountry: 
 released: 2018-08-14
 updated: 2020-04-30

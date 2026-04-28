@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.awalbit
+alternativeStores: 
 appCountry: 
 released: 2022-02-26
 updated: 2022-09-11

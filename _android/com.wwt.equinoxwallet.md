@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.wwt.equinoxwallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-17
 updated: 2022-05-09

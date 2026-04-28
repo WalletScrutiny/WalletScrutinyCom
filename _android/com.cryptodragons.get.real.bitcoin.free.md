@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cryptodragons.get.real.bitcoin.free
+alternativeStores: 
 appCountry: 
 released: 2021-06-19
 updated: 2021-06-19

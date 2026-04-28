@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: kr.co.keypair.nixtouch
+alternativeStores: 
 appCountry: 
 released: 2018-10-19
 updated: 2019-12-27

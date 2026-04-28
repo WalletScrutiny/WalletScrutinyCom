@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.OnlineBusness.b4uglobal
+alternativeStores: 
 appCountry: 
 released: 2021-01-04
 updated: 2021-01-22

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.chainup.exchange.METABITT
+alternativeStores: 
 appCountry: 
 released: 2022-12-30
 updated: 2023-01-17

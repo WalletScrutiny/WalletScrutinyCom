@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.shiftmarkets.cointrader
+alternativeStores: 
 appCountry: 
 released: 2019-01-28
 updated: 2025-01-24

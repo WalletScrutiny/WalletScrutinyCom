@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.undertheactmedia.swipesurfer
+alternativeStores: 
 appCountry: 
 released: 2020-07-03
 updated: 2020-08-31

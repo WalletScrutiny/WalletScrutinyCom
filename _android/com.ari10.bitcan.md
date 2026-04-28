@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ari10.bitcan
+alternativeStores: 
 appCountry: 
 released: 2022-06-14
 updated: 2026-02-11

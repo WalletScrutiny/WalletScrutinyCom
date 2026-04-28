@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50
 appId: io.melis.walletlite
+alternativeStores: 
 appCountry: 
 released: 2019-06-03
 updated: 2019-06-03

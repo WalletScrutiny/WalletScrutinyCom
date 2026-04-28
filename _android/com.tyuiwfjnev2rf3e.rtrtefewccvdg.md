@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.tyuiwfjnev2rf3e.rtrtefewccvdg
+alternativeStores: 
 appCountry: 
 released: 2022-04-08
 updated: 2022-04-08

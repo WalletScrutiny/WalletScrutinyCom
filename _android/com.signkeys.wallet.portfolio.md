@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.signkeys.wallet.portfolio
+alternativeStores: 
 appCountry: 
 released: 2019-07-17
 updated: 2020-10-26

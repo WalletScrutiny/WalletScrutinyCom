@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.investing.bit.index.ai.app
+alternativeStores: 
 appCountry: 
 released: 2023-01-24
 updated: 2023-01-24

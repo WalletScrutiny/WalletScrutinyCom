@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.payterminal.payterminal
+alternativeStores: 
 appCountry: 
 released: 2022-09-06
 updated: 2022-09-06

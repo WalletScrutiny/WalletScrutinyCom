@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.localbitcoins.app.android
+alternativeStores: 
 appCountry: us
 released: 2021-09-06
 updated: 2023-02-08

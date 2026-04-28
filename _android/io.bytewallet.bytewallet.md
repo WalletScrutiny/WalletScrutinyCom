@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.bytewallet.bytewallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2025-10-02

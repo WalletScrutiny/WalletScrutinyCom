@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.polehin.android
+alternativeStores: 
 appCountry: 
 released: 2019-01-01
 updated: 2022-01-09

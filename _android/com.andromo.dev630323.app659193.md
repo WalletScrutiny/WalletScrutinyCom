@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.andromo.dev630323.app659193
+alternativeStores: 
 appCountry: 
 released: 2017-09-20
 updated: 2019-07-11

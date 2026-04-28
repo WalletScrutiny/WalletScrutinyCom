@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: org.bitcoincrypto.bitcoin.up
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

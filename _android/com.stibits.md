@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.stibits
+alternativeStores: 
 appCountry: 
 released: 2022-03-10
 updated: 2022-11-23

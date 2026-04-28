@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.lunu.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-08
 updated: 2022-08-24

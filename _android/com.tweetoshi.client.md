@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.tweetoshi.client
+alternativeStores: 
 appCountry: 
 released: 2022-02-15
 updated: 2023-02-06

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bytefederal.bytemobile
+alternativeStores: 
 appCountry: 
 released: 2025-08-03
 updated: 2026-01-25

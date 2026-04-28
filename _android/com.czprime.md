@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.czprime
+alternativeStores: 
 appCountry: 
 released: 2020-06-11
 updated: 2024-02-14

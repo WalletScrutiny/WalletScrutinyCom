@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: app.odapplications.bitstashwallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-10
 updated: 2019-11-24

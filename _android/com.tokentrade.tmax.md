@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tokentrade.tmax
+alternativeStores: 
 appCountry: 
 released: 2020-11-03
 updated: 2020-11-04

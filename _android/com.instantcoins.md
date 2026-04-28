@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.instantcoins
+alternativeStores: 
 appCountry: ng
 released: 2020-06-19
 updated: 2021-04-05

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.safex.vip
+alternativeStores: 
 appCountry: 
 released: 2025-05-16
 updated: 2026-02-24

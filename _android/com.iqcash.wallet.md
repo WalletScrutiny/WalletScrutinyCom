@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.iqcash.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-05-05
 updated: 2020-05-05

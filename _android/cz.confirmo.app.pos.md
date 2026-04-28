@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: cz.confirmo.app.pos
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-08-21

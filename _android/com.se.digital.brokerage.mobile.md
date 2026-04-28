@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.se.digital.brokerage.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-12-08
 updated: 2025-07-15

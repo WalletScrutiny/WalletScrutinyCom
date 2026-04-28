@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.crenzy.walletowner
+alternativeStores: 
 appCountry: 
 released: 2020-04-25
 updated: 2020-05-16

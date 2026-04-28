@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2017-08-06
 updated: 2025-08-20

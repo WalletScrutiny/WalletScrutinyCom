@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.solidimobileapp4
+alternativeStores: 
 appCountry: 
 released: 2023-01-26
 updated: 2023-01-26

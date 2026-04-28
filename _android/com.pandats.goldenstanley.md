@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pandats.goldenstanley
+alternativeStores: 
 appCountry: 
 released: 2020-11-02
 updated: 2020-12-02

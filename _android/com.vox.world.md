@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.vox.world
+alternativeStores: 
 appCountry: 
 released: 2025-07-09
 updated: 2026-01-20

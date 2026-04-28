@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptotag.mobile
+alternativeStores: 
 appCountry: 
 released: 2017-11-06
 updated: 2021-09-30

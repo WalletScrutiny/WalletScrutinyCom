@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: kz.nomadcrypto.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-23
 updated: 2021-09-26

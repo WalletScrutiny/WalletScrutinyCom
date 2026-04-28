@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.payfrequent
+alternativeStores: 
 appCountry: 
 released: 2020-08-06
 updated: 2020-08-15

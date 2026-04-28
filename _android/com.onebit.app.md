@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.onebit.app
+alternativeStores: 
 appCountry: 
 released: 2017-11-23
 updated: 2020-11-11

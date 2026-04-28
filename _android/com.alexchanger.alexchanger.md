@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.alexchanger.alexchanger
+alternativeStores: 
 appCountry: 
 released: 2020-06-12
 updated: 2020-06-12

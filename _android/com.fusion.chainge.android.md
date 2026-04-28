@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.fusion.chainge.android
+alternativeStores: 
 appCountry: us
 released: 2021-05-17
 updated: 2024-10-17

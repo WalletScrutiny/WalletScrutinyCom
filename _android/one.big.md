@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: one.big
+alternativeStores: 
 appCountry: us
 released: 2019-10-30
 updated: 2026-04-03

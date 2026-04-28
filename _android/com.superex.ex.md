@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.superex.ex
+alternativeStores: 
 appCountry: 
 released: 2022-03-23
 updated: 2026-04-10

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitrah.pos
+alternativeStores: 
 appCountry: 
 released: 2020-07-21
 updated: 2023-02-07

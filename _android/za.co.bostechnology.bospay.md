@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: za.co.bostechnology.bospay
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-03

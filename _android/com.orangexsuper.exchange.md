@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.orangexsuper.exchange
+alternativeStores: 
 appCountry: 
 released: 2023-08-20
 updated: 2026-04-09

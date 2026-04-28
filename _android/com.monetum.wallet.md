@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.monetum.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-05
 updated: 2022-09-07

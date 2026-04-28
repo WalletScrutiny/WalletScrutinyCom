@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.chainup.exchange.Exchange
+alternativeStores: 
 appCountry: 
 released: 2022-06-21
 updated: 2022-09-30

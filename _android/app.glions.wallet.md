@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.glions.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-07
 updated: 2021-05-05

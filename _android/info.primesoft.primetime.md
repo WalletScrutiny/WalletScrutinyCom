@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: info.primesoft.primetime
+alternativeStores: 
 appCountry: 
 released: 2020-04-02
 updated: 2025-08-15

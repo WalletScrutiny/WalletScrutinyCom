@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.voicapps.app2cash
+alternativeStores: 
 appCountry: us
 released: 2019-09-17
 updated: 2024-04-28

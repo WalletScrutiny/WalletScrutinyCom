@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.application.nodawallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-14
 updated: 2022-05-20

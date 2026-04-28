@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bobi.maintl
+alternativeStores: 
 appCountry: 
 released: 2021-03-18
 updated: 2021-06-17

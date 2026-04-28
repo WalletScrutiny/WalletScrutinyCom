@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.prod.aspen
+alternativeStores: 
 appCountry: 
 released: 2022-06-28
 updated: 2025-09-22

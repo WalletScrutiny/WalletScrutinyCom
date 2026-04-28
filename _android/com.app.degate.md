@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 1000
 appId: com.app.degate
+alternativeStores: 
 appCountry: 
 released: 2025-06-09
-updated: 2026-04-15
-version: 1.0.23
+updated: 2026-04-24
+version: 1.0.24
 reviews: 
 website: https://degate.com/
 repository: 

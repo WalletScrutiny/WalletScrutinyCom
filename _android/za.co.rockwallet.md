@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: za.co.rockwallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-30
 updated: 2021-10-17

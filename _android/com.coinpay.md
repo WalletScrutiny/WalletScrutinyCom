@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinpay
+alternativeStores: 
 appCountry: 
 released: 2020-05-26
 updated: 2020-08-23

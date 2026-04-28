@@ -7,6 +7,7 @@ authors:
 - danny
 users: 10000
 appId: fr.acinq.eclair.wallet.mainnet2
+alternativeStores: 
 appCountry: 
 released: 2018-04-12
 updated: 2022-03-01

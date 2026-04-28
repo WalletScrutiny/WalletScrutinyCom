@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.jax.peaceWallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-14
 updated: 2023-10-05

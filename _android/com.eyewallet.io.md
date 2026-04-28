@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.eyewallet.io
+alternativeStores: 
 appCountry: 
 released: 2019-07-26
 updated: 2020-07-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.trade.tech.android
+alternativeStores: 
 appCountry: 
 released: 2019-01-02
 updated: 2022-07-29

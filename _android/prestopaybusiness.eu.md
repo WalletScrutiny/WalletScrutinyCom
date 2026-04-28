@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: prestopaybusiness.eu
+alternativeStores: 
 appCountry: 
 released: 2021-03-23
 updated: 2022-12-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.wallet.crypto.skgapp
+alternativeStores: 
 appCountry: 
 released: 2019-06-17
 updated: 2019-07-22

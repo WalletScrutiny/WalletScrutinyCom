@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: io.ob1.nativeandroid
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-09-27

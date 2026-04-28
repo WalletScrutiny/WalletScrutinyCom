@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.swappy.forint
+alternativeStores: 
 appCountry: 
 released: 2022-05-16
 updated: 2023-04-12

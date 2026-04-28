@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cloudminingespapp.espapp
+alternativeStores: 
 appCountry: 
 released: 2021-09-08
 updated: 2021-09-08

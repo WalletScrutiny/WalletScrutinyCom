@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.dopamineapps.exchangevalet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-01-24

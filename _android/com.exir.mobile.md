@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.exir.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-11-12
 updated: 2023-02-23

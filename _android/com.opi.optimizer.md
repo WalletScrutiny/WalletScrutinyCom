@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.opi.optimizer
+alternativeStores: 
 appCountry: 
 released: 2022-02-24
 updated: 2023-08-28

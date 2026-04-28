@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: xyz.snazy.snazazizventures.bitdd
+alternativeStores: 
 appCountry: 
 released: 2022-09-07
 updated: 2022-09-08

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.abit.bmtc
+alternativeStores: 
 appCountry: ae
 released: 2020-03-03
 updated: 2021-04-25

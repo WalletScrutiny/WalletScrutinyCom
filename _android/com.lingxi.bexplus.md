@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.lingxi.bexplus
+alternativeStores: 
 appCountry: 
 released: 2018-10-29
 updated: 2022-06-17

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aniket.my_paper_wallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-24
 updated: 2020-12-24

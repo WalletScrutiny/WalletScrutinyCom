@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.onealliance.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-09-28

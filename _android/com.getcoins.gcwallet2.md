@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.getcoins.gcwallet2
+alternativeStores: 
 appCountry: 
 released: 2019-03-21
 updated: 2023-04-24

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.haladinarwallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-04
 updated: 2019-09-23

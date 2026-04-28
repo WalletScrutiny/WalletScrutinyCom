@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ldvbank_test.ldvbank_test
+alternativeStores: 
 appCountry: 
 released: 2020-12-20
 updated: 2020-08-26

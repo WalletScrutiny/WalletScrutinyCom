@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.meliWallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2022-04-11

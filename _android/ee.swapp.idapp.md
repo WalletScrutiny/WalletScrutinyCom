@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: ee.swapp.idapp
+alternativeStores: 
 appCountry: 
 released: 2022-03-14
 updated: 2022-03-17

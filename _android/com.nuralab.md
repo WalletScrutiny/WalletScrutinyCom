@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.nuralab
+alternativeStores: 
 appCountry: 
 released: 2025-06-15
 updated: 2025-08-03

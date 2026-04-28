@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cointral.exchange
+alternativeStores: 
 appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18

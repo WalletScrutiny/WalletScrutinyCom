@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.dbx_mobile_app
+alternativeStores: 
 appCountry: 
 released: 2022-04-03
 updated: 2022-07-01

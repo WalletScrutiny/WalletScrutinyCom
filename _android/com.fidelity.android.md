@@ -6,11 +6,12 @@ authors:
 - danny
 users: 5000000
 appId: com.fidelity.android
+alternativeStores: 
 appCountry: 
 released: 2010-12-15
-updated: 2026-04-13
-version: '4.29'
-reviews: 56757
+updated: 2026-04-27
+version: '4.30'
+reviews: 56788
 website: https://www.fidelity.com
 repository: 
 icon: com.fidelity.android.png

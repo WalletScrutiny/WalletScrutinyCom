@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mobiroller.mobi1940242759392
+alternativeStores: 
 appCountry: 
 released: 2022-06-17
 updated: 2023-11-16

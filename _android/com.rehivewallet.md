@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.rehivewallet
+alternativeStores: 
 appCountry: 
 released: 2018-10-01
 updated: 2026-01-07

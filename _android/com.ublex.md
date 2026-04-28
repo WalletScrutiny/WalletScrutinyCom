@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ublex
+alternativeStores: 
 appCountry: 
 released: 2019-10-21
 updated: 2019-10-24

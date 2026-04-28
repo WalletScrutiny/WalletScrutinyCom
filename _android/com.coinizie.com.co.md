@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.coinizie.com.co
+alternativeStores: 
 appCountry: 
 released: 2020-09-11
 updated: 2020-09-11

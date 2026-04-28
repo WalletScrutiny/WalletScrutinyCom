@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.btcex.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-10-25
 updated: 2023-07-05

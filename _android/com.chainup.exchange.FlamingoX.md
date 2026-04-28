@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.chainup.exchange.FlamingoX
+alternativeStores: 
 appCountry: 
 released: 2022-04-13
 updated: 2022-04-13

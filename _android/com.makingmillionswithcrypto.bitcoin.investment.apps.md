@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.makingmillionswithcrypto.bitcoin.investment.apps
+alternativeStores: 
 appCountry: 
 released: 2021-06-17
 updated: 2021-06-17

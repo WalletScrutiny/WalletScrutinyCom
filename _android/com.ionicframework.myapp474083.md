@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.ionicframework.myapp474083
+alternativeStores: 
 appCountry: 
 released: 2017-06-16
 updated: 2018-10-22

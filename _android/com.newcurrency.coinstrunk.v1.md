@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.newcurrency.coinstrunk.v1
+alternativeStores: 
 appCountry: 
 released: 2020-10-15
 updated: 2022-03-09

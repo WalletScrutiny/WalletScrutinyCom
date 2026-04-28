@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: org.bitcoincold.wallet
+alternativeStores: 
 appCountry: 
 released: 2017-08-23
 updated: 2017-08-23

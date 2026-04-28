@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: web2application.a651021638715596.com.myapplication
+alternativeStores: 
 appCountry: 
 released: 2021-12-07
 updated: 2021-12-07

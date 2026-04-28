@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.platinx.exchange.flutter_platinx_exchange
+alternativeStores: 
 appCountry: 
 released: 2022-07-02
 updated: 2024-02-14

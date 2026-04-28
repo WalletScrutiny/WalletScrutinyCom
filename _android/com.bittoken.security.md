@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bittoken.security
+alternativeStores: 
 appCountry: 
 released: 2022-05-23
 updated: 2023-06-05

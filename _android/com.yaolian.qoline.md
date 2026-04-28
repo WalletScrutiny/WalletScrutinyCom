@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100
 appId: com.yaolian.qoline
+alternativeStores: 
 appCountry: 
 released: 2021-07-14
 updated: 2024-02-19

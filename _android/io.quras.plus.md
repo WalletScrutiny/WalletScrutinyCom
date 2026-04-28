@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.quras.plus
+alternativeStores: 
 appCountry: 
 released: 2021-01-19
 updated: 2022-01-21

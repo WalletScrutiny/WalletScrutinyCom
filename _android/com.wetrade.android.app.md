@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.wetrade.android.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-11
 updated: 2022-12-23

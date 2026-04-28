@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: webtrader.crystalballmarkets.com
+alternativeStores: 
 appCountry: 
 released: 2022-05-25
 updated: 2026-03-04

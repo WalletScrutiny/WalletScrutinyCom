@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gk8.network
+alternativeStores: 
 appCountry: 
 released: 2021-09-01
 updated: 2026-03-21

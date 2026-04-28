@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.lexaawallet.user
+alternativeStores: 
 appCountry: 
 released: 2025-10-09
 updated: 2025-12-05

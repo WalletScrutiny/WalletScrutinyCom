@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.mybitstore.com
+alternativeStores: 
 appCountry: 
 released: 2021-08-12
 updated: 2025-06-05

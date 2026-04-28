@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.satochip.satochip2fa.satochip2fa
+alternativeStores: 
 appCountry: 
 released: 2021-03-17
 updated: 2023-03-02

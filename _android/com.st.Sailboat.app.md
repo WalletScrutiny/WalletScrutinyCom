@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.st.Sailboat.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-16
 updated: 2022-03-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.zoid.geboapp
+alternativeStores: 
 appCountry: 
 released: 2021-05-12
 updated: 2021-05-12

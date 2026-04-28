@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.fastex.app
+alternativeStores: 
 appCountry: 
 released: 2023-10-07
 updated: 2025-10-07

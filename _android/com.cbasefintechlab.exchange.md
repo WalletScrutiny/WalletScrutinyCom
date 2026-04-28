@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.cbasefintechlab.exchange
+alternativeStores: 
 appCountry: 
 released: 2018-11-23
 updated: 2020-02-25

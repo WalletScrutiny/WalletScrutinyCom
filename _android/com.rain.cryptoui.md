@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rain.cryptoui
+alternativeStores: 
 appCountry: 
 released: 2021-05-13
 updated: 2025-10-16

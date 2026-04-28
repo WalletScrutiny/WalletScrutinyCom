@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.fradx.application
+alternativeStores: 
 appCountry: 
 released: 2021-07-14
 updated: 2022-09-21

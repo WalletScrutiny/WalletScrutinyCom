@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.p2exchange.ph
+alternativeStores: 
 appCountry: 
 released: 2022-05-16
 updated: 2022-05-30

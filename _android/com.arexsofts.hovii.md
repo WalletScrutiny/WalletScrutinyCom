@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.arexsofts.hovii
+alternativeStores: 
 appCountry: 
 released: 2022-04-22
 updated: 2022-04-22

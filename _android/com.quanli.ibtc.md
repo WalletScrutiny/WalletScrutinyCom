@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.quanli.ibtc
+alternativeStores: 
 appCountry: 
 released: 2019-12-09
 updated: 2023-09-07

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: net.advancedbitcoin.crypto.coin.invest
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

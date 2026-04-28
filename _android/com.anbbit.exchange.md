@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.anbbit.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-10-16
 updated: 2020-12-31

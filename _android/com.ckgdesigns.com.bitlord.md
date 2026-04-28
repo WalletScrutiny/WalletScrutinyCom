@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ckgdesigns.com.bitlord
+alternativeStores: 
 appCountry: 
 released: 2019-09-21
 updated: 2019-09-26

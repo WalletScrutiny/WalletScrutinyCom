@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.taurosapp
+alternativeStores: 
 appCountry: 
 released: 2019-10-03
 updated: 2023-03-31

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.cappuu
+alternativeStores: 
 appCountry: 
 released: 2020-12-04
 updated: 2023-08-24

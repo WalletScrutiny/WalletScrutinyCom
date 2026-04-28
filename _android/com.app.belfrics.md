@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.app.belfrics
+alternativeStores: 
 appCountry: us
 released: 2017-10-17
 updated: 2022-08-06

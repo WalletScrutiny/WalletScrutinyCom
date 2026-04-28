@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000
 appId: com.lavamobile
+alternativeStores: 
 appCountry: 
 released: 2024-05-25
-updated: 2026-04-17
-version: 3.2.0
+updated: 2026-04-23
+version: 3.3.0
 reviews: 8
 website: https://lava.xyz
 repository: 

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: games.fair.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-12
 updated: 2020-03-13

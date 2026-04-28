@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gioexchange.app
+alternativeStores: 
 appCountry: 
 released: 2020-05-07
 updated: 2024-07-16
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

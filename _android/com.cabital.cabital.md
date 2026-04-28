@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cabital.cabital
+alternativeStores: 
 appCountry: 
 released: 2021-06-07
 updated: 2022-06-23

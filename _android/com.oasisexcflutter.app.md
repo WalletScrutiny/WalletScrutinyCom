@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.oasisexcflutter.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-17
 updated: 2024-02-15

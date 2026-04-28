@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.kochure.kochureApp
+alternativeStores: 
 appCountry: 
 released: 2021-11-13
 updated: 2026-02-17

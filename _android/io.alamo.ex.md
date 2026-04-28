@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.alamo.ex
+alternativeStores: 
 appCountry: 
 released: 2022-08-12
 updated: 2022-08-23

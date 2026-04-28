@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.kodular.yogeshmaurya72.PletoBNB
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2022-04-11

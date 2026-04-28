@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.sofitto.sugi
+alternativeStores: 
 appCountry: 
 released: 2019-03-20
 updated: 2020-10-12

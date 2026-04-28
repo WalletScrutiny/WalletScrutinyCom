@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rolbeet.app
+alternativeStores: 
 appCountry: 
 released: 2020-06-04
 updated: 2020-10-28

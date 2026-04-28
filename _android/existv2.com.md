@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: existv2.com
+alternativeStores: 
 appCountry: 
 released: 2019-06-29
 updated: 2019-06-30

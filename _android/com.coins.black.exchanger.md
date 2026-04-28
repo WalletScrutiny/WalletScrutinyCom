@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.coins.black.exchanger
+alternativeStores: 
 appCountry: 
 released: 2021-04-11
 updated: 2025-08-29

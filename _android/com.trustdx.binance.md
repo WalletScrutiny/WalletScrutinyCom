@@ -5,6 +5,7 @@ altTitle: '*Fake app!* B I N A N C E : Trade cryptocurrency (Binance)'
 authors: 
 users: 100
 appId: com.trustdx.binance
+alternativeStores: 
 appCountry: 
 released: 2021-08-20
 updated: 2021-08-21

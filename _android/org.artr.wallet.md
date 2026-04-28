@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: org.artr.wallet
+alternativeStores: 
 appCountry: ru
 released: 2020-10-01
 updated: 2022-09-27

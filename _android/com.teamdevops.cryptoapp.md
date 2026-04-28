@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.teamdevops.cryptoapp
+alternativeStores: 
 appCountry: 
 released: 2021-08-18
 updated: 2021-08-19

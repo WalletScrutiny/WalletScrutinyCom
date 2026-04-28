@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.crypshark
+alternativeStores: 
 appCountry: 
 released: 2021-05-20
 updated: 2022-07-19

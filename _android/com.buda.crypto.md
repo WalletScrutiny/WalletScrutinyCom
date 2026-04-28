@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.buda.crypto
+alternativeStores: 
 appCountry: 
 released: 2018-01-04
 updated: 2026-04-08

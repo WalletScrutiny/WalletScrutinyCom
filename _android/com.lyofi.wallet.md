@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.lyofi.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-20
 updated: 2023-12-27

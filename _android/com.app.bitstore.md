@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.app.bitstore
+alternativeStores: 
 appCountry: 
 released: 2019-03-19
 updated: 2019-07-24

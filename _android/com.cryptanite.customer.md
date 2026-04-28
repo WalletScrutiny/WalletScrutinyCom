@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cryptanite.customer
+alternativeStores: 
 appCountry: 
 released: 2018-05-11
 updated: 2019-05-08

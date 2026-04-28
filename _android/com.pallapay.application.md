@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.pallapay.application
+alternativeStores: 
 appCountry: 
 released: 2022-05-06
 updated: 2022-05-07

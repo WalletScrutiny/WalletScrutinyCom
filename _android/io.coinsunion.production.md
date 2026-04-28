@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: io.coinsunion.production
+alternativeStores: 
 appCountry: 
 released: 2021-10-20
 updated: 2022-01-18

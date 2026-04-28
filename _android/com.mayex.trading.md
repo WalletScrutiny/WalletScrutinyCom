@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.mayex.trading
+alternativeStores: 
 appCountry: 
 released: 2022-03-07
 updated: 2023-03-29

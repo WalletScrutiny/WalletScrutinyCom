@@ -7,6 +7,7 @@ authors:
 - danny
 users: 500000
 appId: coin98.crypto.finance.media
+alternativeStores: 
 appCountry: us
 released: 2019-12-19
 updated: 2026-04-20

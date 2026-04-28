@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.BitcoinEraPlatform.net
+alternativeStores: 
 appCountry: 
 released: 2022-04-05
 updated: 2022-04-05

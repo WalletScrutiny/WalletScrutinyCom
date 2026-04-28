@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: org.guapcoin.multiwallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-27
 updated: 2022-09-14

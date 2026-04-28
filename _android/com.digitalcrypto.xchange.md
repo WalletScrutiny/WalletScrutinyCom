@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.digitalcrypto.xchange
+alternativeStores: 
 appCountry: 
 released: 2021-09-06
 updated: 2021-09-17

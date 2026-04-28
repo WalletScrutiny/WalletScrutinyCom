@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.colodax.colodax
+alternativeStores: 
 appCountry: us
 released: 2020-01-31
 updated: 2021-09-17

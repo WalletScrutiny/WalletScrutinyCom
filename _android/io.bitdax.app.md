@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.bitdax.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-19
 updated: 2021-08-19

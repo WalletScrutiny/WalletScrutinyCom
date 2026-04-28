@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.developer.myafrique.mya
+alternativeStores: 
 appCountry: 
 released: 2020-06-27
 updated: 2021-01-27

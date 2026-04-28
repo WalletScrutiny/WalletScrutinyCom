@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.brick.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-11-26
 updated: 2020-08-19

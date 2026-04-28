@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.bitbuy.mobileApp
+alternativeStores: 
 appCountry: ca
 released: 2019-10-15
 updated: 2025-12-05
 version: 5.3.3
-reviews: 1381
+reviews: 1382
 website: https://bitbuy.ca/
 repository: 
 icon: com.bitbuy.mobileApp.jpg

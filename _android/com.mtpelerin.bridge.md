@@ -7,6 +7,7 @@ authors:
 - danny
 users: 100000
 appId: com.mtpelerin.bridge
+alternativeStores: 
 appCountry: us
 released: 2020-04-07
 updated: 2026-04-04

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.planb.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-08
 updated: 2026-03-31

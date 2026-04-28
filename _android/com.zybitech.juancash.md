@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.zybitech.juancash
+alternativeStores: 
 appCountry: 
 released: 2019-07-22
 updated: 2024-08-05

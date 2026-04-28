@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: huolongluo.byw
+alternativeStores: 
 appCountry: 
 released: 2021-10-24
 updated: 2022-10-14

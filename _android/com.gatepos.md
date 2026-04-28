@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gatepos
+alternativeStores: 
 appCountry: 
 released: 2021-05-14
 updated: 2021-05-21

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.banexcoin.app.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-02-02
 updated: 2024-09-26

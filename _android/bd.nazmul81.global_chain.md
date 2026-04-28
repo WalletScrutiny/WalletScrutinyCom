@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: bd.nazmul81.global_chain
+alternativeStores: 
 appCountry: 
 released: 2021-01-28
 updated: 2021-01-29

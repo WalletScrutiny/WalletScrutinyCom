@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.visionwallet.app
+alternativeStores: 
 appCountry: 
 released: 2020-09-07
 updated: 2020-11-05

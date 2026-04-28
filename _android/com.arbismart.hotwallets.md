@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.arbismart.hotwallets
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-06-18

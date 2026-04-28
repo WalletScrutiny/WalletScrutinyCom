@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xfun.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-08
 updated: 2024-04-24

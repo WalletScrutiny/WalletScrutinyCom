@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.buengroup.buenbit
+alternativeStores: 
 appCountry: 
 released: 2021-12-30
 updated: 2026-04-06

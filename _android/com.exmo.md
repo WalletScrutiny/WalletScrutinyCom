@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.exmo
+alternativeStores: 
 appCountry: 
 released: 2019-11-12
 updated: 2026-04-17

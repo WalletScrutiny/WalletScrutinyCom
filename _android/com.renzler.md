@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.renzler
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-08-22

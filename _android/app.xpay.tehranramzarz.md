@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.xpay.tehranramzarz
+alternativeStores: 
 appCountry: 
 released: 2019-10-05
 updated: 2019-11-11

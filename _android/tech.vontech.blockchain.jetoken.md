@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: tech.vontech.blockchain.jetoken
+alternativeStores: 
 appCountry: 
 released: 2019-04-10
 updated: 2019-06-21

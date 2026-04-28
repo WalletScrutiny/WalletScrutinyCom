@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cloud.gooplex
+alternativeStores: 
 appCountry: 
 released: 2020-12-28
 updated: 2021-10-20

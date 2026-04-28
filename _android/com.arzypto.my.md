@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.arzypto.my
+alternativeStores: 
 appCountry: 
 released: 2020-08-15
 updated: 2025-01-11

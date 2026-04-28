@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: net.iconomi.android
+alternativeStores: 
 appCountry: si
 released: 2017-10-17
 updated: 2026-02-25

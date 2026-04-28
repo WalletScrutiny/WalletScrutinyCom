@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.teroxx
+alternativeStores: 
 appCountry: us
 released: 2019-08-26
 updated: 2026-03-24

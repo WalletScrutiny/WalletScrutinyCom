@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.aspanta.emcsec
+alternativeStores: 
 appCountry: 
 released: 2017-11-28
 updated: 2018-12-25

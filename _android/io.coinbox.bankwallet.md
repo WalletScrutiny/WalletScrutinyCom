@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.coinbox.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-30
 updated: 2023-09-13

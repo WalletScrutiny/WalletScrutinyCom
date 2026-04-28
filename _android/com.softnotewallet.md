@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.softnotewallet
+alternativeStores: 
 appCountry: 
 released: 2024-08-18
 updated: 2025-10-17

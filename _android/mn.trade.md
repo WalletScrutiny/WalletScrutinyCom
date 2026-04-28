@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: mn.trade
+alternativeStores: 
 appCountry: us
 released: 2018-04-13
 updated: 2026-04-02

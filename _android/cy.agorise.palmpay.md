@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: cy.agorise.palmpay
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-01-20

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.utilitypay.co22
+alternativeStores: 
 appCountry: 
 released: 2021-06-18
 updated: 2021-09-14

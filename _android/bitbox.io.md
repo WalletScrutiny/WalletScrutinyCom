@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: bitbox.io
+alternativeStores: 
 appCountry: 
 released: 2019-05-16
 updated: 2019-07-30

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: ru.uvitto.uvextrader
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-04-05

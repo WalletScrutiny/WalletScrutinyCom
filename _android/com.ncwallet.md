@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.ncwallet
+alternativeStores: 
 appCountry: 
 released: 2022-10-18
 updated: 2026-02-27

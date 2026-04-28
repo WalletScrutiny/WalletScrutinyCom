@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.mixcoins.app
+alternativeStores: 
 appCountry: 
 released: 2019-07-03
 updated: 2019-07-03

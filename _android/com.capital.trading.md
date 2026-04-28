@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000000
 appId: com.capital.trading
+alternativeStores: 
 appCountry: 
 released: 2017-10-18
-updated: 2026-04-17
-version: 3.31.0
+updated: 2026-04-23
+version: 3.32.0
 reviews: 36
 website: https://capital.com
 repository: 

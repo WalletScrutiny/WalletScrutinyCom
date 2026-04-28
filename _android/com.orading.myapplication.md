@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.orading.myapplication
+alternativeStores: 
 appCountry: 
 released: 2023-02-23
 updated: 2023-02-23

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.devoioapps.trade6ix
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2022-05-31

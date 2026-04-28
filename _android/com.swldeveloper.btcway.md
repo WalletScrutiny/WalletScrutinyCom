@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.swldeveloper.btcway
+alternativeStores: 
 appCountry: 
 released: 2020-06-15
 updated: 2020-06-15

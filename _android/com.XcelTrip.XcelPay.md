@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.XcelTrip.XcelPay
+alternativeStores: 
 appCountry: 
 released: 2019-05-30
 updated: 2025-04-22

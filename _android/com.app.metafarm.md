@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.metafarm
+alternativeStores: 
 appCountry: 
 released: 2022-09-15
 updated: 2022-11-24

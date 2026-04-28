@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: store.cashin.uk
+alternativeStores: 
 appCountry: gb
 released: 2021-04-02
 updated: 2022-02-10

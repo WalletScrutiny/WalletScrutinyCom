@@ -6,10 +6,11 @@ authors:
 - leo
 users: 10000
 appId: io.ducatus.walnew
+alternativeStores: 
 appCountry: 
 released: 2019-12-05
-updated: 2026-03-30
-version: 3.13.4
+updated: 2026-04-23
+version: 3.13.5
 reviews: 8
 website: https://ducatus.net/
 repository: 

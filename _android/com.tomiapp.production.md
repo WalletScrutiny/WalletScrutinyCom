@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.tomiapp.production
+alternativeStores: 
 appCountry: 
 released: 2022-09-08
 updated: 2026-02-06

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.app.fffex
+alternativeStores: 
 appCountry: 
 released: 2019-06-16
 updated: 2019-11-24

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mobile.stablehouse.env.stablehouse.io
+alternativeStores: 
 appCountry: 
 released: 2022-10-24
 updated: 2023-10-06

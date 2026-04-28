@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.rinnas.aj_global
+alternativeStores: 
 appCountry: us
 released: 2020-05-29
 updated: 2025-03-24

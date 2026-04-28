@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.cobak.android
+alternativeStores: 
 appCountry: us
 released: 2018-03-08
 updated: 2024-08-28

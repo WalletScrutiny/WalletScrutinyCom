@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.syarpa.app
+alternativeStores: 
 appCountry: 
 released: 2022-09-30
 updated: 2024-09-11

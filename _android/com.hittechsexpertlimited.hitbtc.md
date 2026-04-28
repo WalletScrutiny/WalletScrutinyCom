@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.hittechsexpertlimited.hitbtc
+alternativeStores: 
 appCountry: 
 released: 2020-03-04
 updated: 2025-10-10

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.primexbt.exchange
+alternativeStores: 
 appCountry: 
 released: 2019-05-08
 updated: 2020-07-16

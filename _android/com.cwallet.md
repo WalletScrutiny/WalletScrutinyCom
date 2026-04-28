@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.cwallet
+alternativeStores: 
 appCountry: 
 released: 2019-06-28
 updated: 2021-07-24

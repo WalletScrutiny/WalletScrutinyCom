@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.mercuryo.app
+alternativeStores: 
 appCountry: 
 released: 2019-09-03
 updated: 2025-11-11

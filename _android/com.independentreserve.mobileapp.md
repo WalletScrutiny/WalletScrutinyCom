@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.independentreserve.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2021-10-18
 updated: 2026-03-31

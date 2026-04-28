@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.io.coinstore
+alternativeStores: 
 appCountry: 
 released: 2021-03-29
 updated: 2026-03-27

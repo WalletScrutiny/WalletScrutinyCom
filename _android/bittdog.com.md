@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: bittdog.com
+alternativeStores: 
 appCountry: 
 released: 2022-03-22
 updated: 2022-03-30

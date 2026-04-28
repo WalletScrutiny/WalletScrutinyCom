@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.evercoin
+alternativeStores: 
 appCountry: 
 released: 2017-11-20
 updated: 2020-11-22

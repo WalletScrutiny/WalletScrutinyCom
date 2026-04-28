@@ -7,6 +7,7 @@ authors:
 - leo
 users: 1000
 appId: capital.spatium.wallet
+alternativeStores: 
 appCountry: us
 released: 2018-08-31
 updated: 2024-02-22

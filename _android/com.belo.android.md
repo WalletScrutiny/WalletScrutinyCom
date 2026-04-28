@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.belo.android
+alternativeStores: 
 appCountry: 
 released: 2021-08-23
 updated: 2026-03-19

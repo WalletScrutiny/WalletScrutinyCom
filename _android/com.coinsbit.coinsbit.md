@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.coinsbit.coinsbit
+alternativeStores: 
 appCountry: 
 released: 2019-10-28
 updated: 2024-06-04

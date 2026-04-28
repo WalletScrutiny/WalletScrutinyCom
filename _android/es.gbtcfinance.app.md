@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: es.gbtcfinance.app
+alternativeStores: 
 appCountry: 
 released: 2025-02-11
 updated: 2026-02-26

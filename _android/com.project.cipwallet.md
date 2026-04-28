@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.project.cipwallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-20
 updated: 2021-09-20

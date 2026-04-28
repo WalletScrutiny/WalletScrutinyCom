@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.okongpos.app
+alternativeStores: 
 appCountry: 
 released: 2020-11-25
 updated: 2020-11-26

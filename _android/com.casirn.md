@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.casirn
+alternativeStores: 
 appCountry: 
 released: 2020-11-01
 updated: 2020-12-29

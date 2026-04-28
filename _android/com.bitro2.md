@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitro2
+alternativeStores: 
 appCountry: 
 released: 2020-12-09
 updated: 2021-12-30

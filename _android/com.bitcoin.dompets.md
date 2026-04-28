@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcoin.dompets
+alternativeStores: 
 appCountry: 
 released: 2017-09-29
 updated: 2017-09-30

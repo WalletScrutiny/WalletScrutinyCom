@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.secuxtech.merchanttool
+alternativeStores: 
 appCountry: 
 released: 2020-05-22
 updated: 2023-12-19

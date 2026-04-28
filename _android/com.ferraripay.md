@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ferraripay
+alternativeStores: 
 appCountry: 
 released: 2021-06-01
 updated: 2023-05-19

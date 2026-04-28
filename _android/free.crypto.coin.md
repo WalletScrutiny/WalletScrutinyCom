@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: free.crypto.coin
+alternativeStores: 
 appCountry: 
 released: 2020-02-24
 updated: 2020-09-22

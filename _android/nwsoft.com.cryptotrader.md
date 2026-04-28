@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: nwsoft.com.cryptotrader
+alternativeStores: 
 appCountry: 
 released: 2018-04-19
 updated: 2018-07-19

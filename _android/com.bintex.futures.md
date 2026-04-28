@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bintex.futures
+alternativeStores: 
 appCountry: 
 released: 2021-03-10
 updated: 2021-03-10

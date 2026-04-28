@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.peertradedigital.bitcointrade
+alternativeStores: 
 appCountry: br
 released: 2017-12-01
 updated: 2024-05-20

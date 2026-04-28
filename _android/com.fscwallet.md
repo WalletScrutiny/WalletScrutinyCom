@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.fscwallet
+alternativeStores: 
 appCountry: 
 released: 2019-12-23
 updated: 2021-06-18

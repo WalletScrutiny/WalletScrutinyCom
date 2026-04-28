@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ezbitcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-09
 updated: 2020-11-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitcoinglobal
+alternativeStores: 
 appCountry: us
 released: 2020-09-25
 updated: 2025-08-05

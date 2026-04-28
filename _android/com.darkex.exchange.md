@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.darkex.exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-02-06

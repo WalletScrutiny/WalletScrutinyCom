@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitmove
+alternativeStores: 
 appCountry: 
 released: 2022-04-14
 updated: 2022-04-14

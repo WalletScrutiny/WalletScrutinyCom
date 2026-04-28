@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: de.followmytrader
+alternativeStores: 
 appCountry: 
 released: 2020-03-09
 updated: 2025-08-27

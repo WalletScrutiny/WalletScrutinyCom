@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.getmidas.crypto
+alternativeStores: 
 appCountry: 
 released: 2024-12-01
-updated: 2026-04-17
-version: 2.93.2
+updated: 2026-04-21
+version: 2.94.0
 reviews: 2
 website: https://www.midaskripto.com/
 repository: 

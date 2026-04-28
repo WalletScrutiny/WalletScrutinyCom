@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ariston.Ariston
+alternativeStores: 
 appCountry: 
 released: 2019-07-02
 updated: 2019-07-09

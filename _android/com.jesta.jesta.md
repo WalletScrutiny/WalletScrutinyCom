@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.jesta.jesta
+alternativeStores: 
 appCountry: 
 released: 2022-04-15
 updated: 2022-04-15

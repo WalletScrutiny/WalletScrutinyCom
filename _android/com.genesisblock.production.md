@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.genesisblock.production
+alternativeStores: 
 appCountry: us
 released: 2020-05-06
 updated: 2022-07-16

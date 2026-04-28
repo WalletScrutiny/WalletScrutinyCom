@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.mahfazah
+alternativeStores: 
 appCountry: 
 released: 2018-09-19
 updated: 2018-11-22

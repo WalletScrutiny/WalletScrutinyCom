@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.pay99.wallet
+alternativeStores: 
 appCountry: br
 released: 2021-09-23
 updated: 2026-04-16
-version: 8.4.48
-reviews: 9762
+version: 8.4.52
+reviews: 9774
 website: 
 repository: 
 icon: com.pay99.wallet.png

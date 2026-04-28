@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.abcc.exchange
+alternativeStores: 
 appCountry: us
 released: 2018-08-23
 updated: 2023-03-01

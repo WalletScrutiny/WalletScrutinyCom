@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: be.homiex.broker.android
+alternativeStores: 
 appCountry: 
 released: 2021-08-03
 updated: 2021-08-04

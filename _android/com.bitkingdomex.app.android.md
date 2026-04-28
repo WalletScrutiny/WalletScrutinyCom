@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitkingdomex.app.android
+alternativeStores: 
 appCountry: 
 released: 2020-12-23
 updated: 2021-01-19

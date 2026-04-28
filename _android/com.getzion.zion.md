@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.getzion.zion
+alternativeStores: 
 appCountry: 
 released: 2021-12-21
 updated: 2023-05-12

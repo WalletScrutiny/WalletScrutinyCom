@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ocw.onlinecoldwallet
+alternativeStores: 
 appCountry: 
 released: 2021-10-01
 updated: 2022-05-27

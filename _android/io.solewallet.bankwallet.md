@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.solewallet.bankwallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-31
 updated: 2023-01-18

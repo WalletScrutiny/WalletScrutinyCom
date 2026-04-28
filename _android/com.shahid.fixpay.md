@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.shahid.fixpay
+alternativeStores: 
 appCountry: 
 released: 2021-10-05
 updated: 2021-10-05

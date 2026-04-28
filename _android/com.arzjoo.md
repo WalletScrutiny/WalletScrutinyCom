@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.arzjoo
+alternativeStores: 
 appCountry: 
 released: 2019-04-25
 updated: 2026-03-13

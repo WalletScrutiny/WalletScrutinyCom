@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.profittrading.forbybit
+alternativeStores: 
 appCountry: 
 released: 2020-03-22
 updated: 2026-03-25

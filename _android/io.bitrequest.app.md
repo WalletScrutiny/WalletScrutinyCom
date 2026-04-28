@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.bitrequest.app
+alternativeStores: 
 appCountry: 
 released: 2019-11-01
 updated: 2026-02-24

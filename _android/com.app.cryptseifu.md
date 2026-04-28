@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.cryptseifu
+alternativeStores: 
 appCountry: 
 released: 2019-10-23
 updated: 2019-10-24

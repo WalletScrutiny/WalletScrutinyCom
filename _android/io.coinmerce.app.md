@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.coinmerce.app
+alternativeStores: 
 appCountry: 
 released: 2018-07-09
 updated: 2026-03-06

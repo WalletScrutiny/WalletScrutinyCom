@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.monabey.monachanger
+alternativeStores: 
 appCountry: 
 released: 2020-09-01
 updated: 2020-09-16

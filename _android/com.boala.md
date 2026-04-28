@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.boala
+alternativeStores: 
 appCountry: 
 released: 2021-07-06
 updated: 2021-07-06

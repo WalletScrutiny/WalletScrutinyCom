@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.evercash.mobile.client
+alternativeStores: 
 appCountry: 
 released: 2022-07-23
 updated: 2023-12-04

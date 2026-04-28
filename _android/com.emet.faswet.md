@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.emet.faswet
+alternativeStores: 
 appCountry: 
 released: 2020-06-08
 updated: 2021-07-14

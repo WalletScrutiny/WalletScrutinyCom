@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: co.newton.newtonus
+alternativeStores: 
 appCountry: 
 released: 2022-07-22
 updated: 2023-01-20

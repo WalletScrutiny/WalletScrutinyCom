@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ddt.ddtmobile
+alternativeStores: 
 appCountry: 
 released: 2019-10-07
 updated: 2020-03-24

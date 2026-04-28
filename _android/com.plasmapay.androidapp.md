@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.plasmapay.androidapp
+alternativeStores: 
 appCountry: us
 released: 2019-07-31
 updated: 2021-10-07

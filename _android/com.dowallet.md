@@ -6,6 +6,7 @@ authors:
 - leo
 users: 50000
 appId: com.dowallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-01
 updated: 2022-11-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.foxtide
+alternativeStores: 
 appCountry: 
 released: 2020-04-23
 updated: 2020-05-09

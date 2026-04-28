@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ps.bitcoinfaucet.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-09
 updated: 2022-02-17

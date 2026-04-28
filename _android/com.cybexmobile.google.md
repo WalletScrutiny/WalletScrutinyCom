@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cybexmobile.google
+alternativeStores: 
 appCountry: 
 released: 2018-10-10
 updated: 2019-04-28

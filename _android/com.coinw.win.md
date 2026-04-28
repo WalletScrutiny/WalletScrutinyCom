@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinw.win
+alternativeStores: 
 appCountry: 
 released: 2022-12-07
 updated: 2026-03-20
@@ -15,10 +16,10 @@ website: https://www.coinw.com
 repository: 
 icon: com.coinw.win.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2026-02-20
+date: 2026-04-28
 signer: 
 twitter: CoinWOfficial
 social:

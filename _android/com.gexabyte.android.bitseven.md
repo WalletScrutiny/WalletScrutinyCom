@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gexabyte.android.bitseven
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-10-18

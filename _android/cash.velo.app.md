@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: cash.velo.app
+alternativeStores: 
 appCountry: 
 released: 2025-12-16
 updated: 2026-01-02

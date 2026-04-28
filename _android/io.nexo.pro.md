@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.nexo.pro
+alternativeStores: 
 appCountry: 
 released: 2023-03-02
 updated: 2023-08-31

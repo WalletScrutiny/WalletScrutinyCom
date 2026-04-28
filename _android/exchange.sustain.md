@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: exchange.sustain
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2022-03-21

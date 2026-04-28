@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.stasis.stasiswallet
+alternativeStores: 
 appCountry: 
 released: 2018-06-13
 updated: 2024-01-19

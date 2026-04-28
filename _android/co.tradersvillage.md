@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: co.tradersvillage
+alternativeStores: 
 appCountry: 
 released: 2020-06-08
 updated: 2020-06-08

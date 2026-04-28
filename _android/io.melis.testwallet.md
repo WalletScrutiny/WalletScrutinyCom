@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.melis.testwallet
+alternativeStores: 
 appCountry: 
 released: 2017-05-05
 updated: 2021-11-05

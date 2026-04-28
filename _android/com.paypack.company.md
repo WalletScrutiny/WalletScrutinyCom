@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.paypack.company
+alternativeStores: 
 appCountry: 
 released: 2021-01-04
 updated: 2021-02-04

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.copytrade.com
+alternativeStores: 
 appCountry: 
 released: 2021-09-14
 updated: 2021-08-24

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.si14
+alternativeStores: 
 appCountry: 
 released: 2025-05-05
 updated: 2025-10-09

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.zedXeWallet
+alternativeStores: 
 appCountry: 
 released: 2020-05-07
 updated: 2020-06-11

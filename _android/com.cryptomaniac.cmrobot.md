@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptomaniac.cmrobot
+alternativeStores: 
 appCountry: 
 released: 2019-08-21
 updated: 2019-09-11

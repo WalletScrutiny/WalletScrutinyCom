@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: cz.confirmo.app.confirmo_flutter
+alternativeStores: 
 appCountry: 
 released: 2022-08-12
 updated: 2023-08-01

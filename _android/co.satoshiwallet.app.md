@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: co.satoshiwallet.app
+alternativeStores: 
 appCountry: 
 released: 2019-08-16
 updated: 2020-01-17

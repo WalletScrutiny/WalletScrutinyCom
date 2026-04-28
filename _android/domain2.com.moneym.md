@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: domain2.com.moneym
+alternativeStores: 
 appCountry: 
 released: 2019-06-29
 updated: 2021-05-29

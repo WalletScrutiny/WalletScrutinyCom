@@ -6,6 +6,7 @@ authors:
 - danny
 users: 0
 appId: github.aeonbtc.ibiswallet
+alternativeStores: 
 appCountry: 
 released: 2026-02-09
 updated: 2026-03-06

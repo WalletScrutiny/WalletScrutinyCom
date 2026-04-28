@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cointopay.pos
+alternativeStores: 
 appCountry: 
 released: 2018-10-10
 updated: 2023-03-09

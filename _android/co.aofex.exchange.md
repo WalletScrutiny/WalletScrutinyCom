@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.aofex.exchange
+alternativeStores: 
 appCountry: us
 released: 2021-09-01
 updated: 2021-12-03

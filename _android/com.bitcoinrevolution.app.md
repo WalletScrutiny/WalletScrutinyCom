@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitcoinrevolution.app
+alternativeStores: 
 appCountry: 
 released: 2021-05-11
 updated: 2021-05-11

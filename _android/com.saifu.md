@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.saifu
+alternativeStores: 
 appCountry: 
 released: 2018-08-21
 updated: 2019-02-15

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.bitcan.app
+alternativeStores: 
 appCountry: us
 released: 2017-10-18
 updated: 2024-08-30

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.stefanschneider.bitcointrading
+alternativeStores: 
 appCountry: 
 released: 2019-07-01
 updated: 2019-10-12

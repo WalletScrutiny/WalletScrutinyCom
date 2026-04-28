@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500000
 appId: com.centralway.numbrs
+alternativeStores: 
 appCountry: 
 released: 2019-02-12
 updated: 2022-04-14

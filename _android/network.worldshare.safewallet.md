@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: network.worldshare.safewallet
+alternativeStores: 
 appCountry: 
 released: 2020-02-11
 updated: 2020-02-12

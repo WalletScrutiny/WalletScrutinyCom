@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.marswap.io
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-11-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.jukai.tutou
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
 updated: 2022-04-21

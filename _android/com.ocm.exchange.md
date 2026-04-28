@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ocm.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-02-22
 updated: 2022-03-22

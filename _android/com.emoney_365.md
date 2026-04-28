@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.emoney_365
+alternativeStores: 
 appCountry: 
 released: 2020-10-16
 updated: 2020-10-16

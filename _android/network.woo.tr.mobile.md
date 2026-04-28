@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: network.woo.tr.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-10-20
 updated: 2023-05-04

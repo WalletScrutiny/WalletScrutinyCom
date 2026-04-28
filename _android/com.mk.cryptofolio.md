@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.mk.cryptofolio
+alternativeStores: 
 appCountry: 
 released: 2018-05-02
 updated: 2020-08-19

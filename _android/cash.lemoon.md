@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: cash.lemoon
+alternativeStores: 
 appCountry: 
 released: 2022-11-20
 updated: 2023-06-17

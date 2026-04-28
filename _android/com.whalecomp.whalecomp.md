@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.whalecomp.whalecomp
+alternativeStores: 
 appCountry: 
 released: 2021-12-08
 updated: 2022-02-25

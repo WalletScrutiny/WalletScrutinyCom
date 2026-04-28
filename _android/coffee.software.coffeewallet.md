@@ -8,6 +8,7 @@ authors:
 - leo
 users: 5000
 appId: coffee.software.coffeewallet
+alternativeStores: 
 appCountry: 
 released: 2018-06-04
 updated: 2022-07-13

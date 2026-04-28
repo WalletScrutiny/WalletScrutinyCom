@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitcointrainee.br
+alternativeStores: 
 appCountry: 
 released: 2018-09-09
 updated: 2018-09-10

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.klever.secure.exchange
+alternativeStores: 
 appCountry: us
 released: 2021-06-30
 updated: 2023-08-07

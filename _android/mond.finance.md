@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: mond.finance
+alternativeStores: 
 appCountry: 
 released: 2022-08-26
 updated: 2022-09-13

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pundix.functionx
+alternativeStores: 
 appCountry: us
 released: 2021-03-25
 updated: 2026-03-26

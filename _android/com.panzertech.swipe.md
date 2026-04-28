@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.panzertech.swipe
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2020-03-30

@@ -7,11 +7,12 @@ authors:
 - danny
 users: 50000000
 appId: co.mona.android
+alternativeStores: 
 appCountry: 
 released: 2017-08-30
-updated: 2026-04-16
-version: 3.231.01
-reviews: 56437
+updated: 2026-04-27
+version: 3.232.0
+reviews: 56446
 website: https://crypto.com/
 repository: 
 icon: co.mona.android.jpg

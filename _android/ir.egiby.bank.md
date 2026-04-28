@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: ir.egiby.bank
+alternativeStores: 
 appCountry: 
 released: 2021-11-16
 updated: 2021-11-22

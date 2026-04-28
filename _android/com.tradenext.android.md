@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tradenext.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-06-26

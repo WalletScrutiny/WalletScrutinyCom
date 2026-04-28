@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.web.moneyplant
+alternativeStores: 
 appCountry: 
 released: 2022-04-26
 updated: 2022-06-14

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.world.bestinfo
+alternativeStores: 
 appCountry: 
 released: 2020-02-29
 updated: 2020-02-29

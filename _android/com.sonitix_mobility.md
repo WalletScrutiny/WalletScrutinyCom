@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.sonitix_mobility
+alternativeStores: 
 appCountry: 
 released: 2022-03-05
 updated: 2024-04-03

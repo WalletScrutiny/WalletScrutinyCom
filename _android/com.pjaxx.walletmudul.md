@@ -7,6 +7,7 @@ authors:
 - leo
 users: 100
 appId: com.pjaxx.walletmudul
+alternativeStores: 
 appCountry: 
 released: 2021-07-05
 updated: 2021-07-05

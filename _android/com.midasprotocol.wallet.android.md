@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.midasprotocol.wallet.android
+alternativeStores: 
 appCountry: 
 released: 2018-11-02
 updated: 2021-12-20

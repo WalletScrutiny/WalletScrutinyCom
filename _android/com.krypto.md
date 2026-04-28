@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 500000
 appId: com.krypto
+alternativeStores: 
 appCountry: 
 released: 2020-04-29
 updated: 2022-06-17

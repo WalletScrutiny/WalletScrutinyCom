@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.polynance
+alternativeStores: 
 appCountry: 
 released: 2019-07-26
 updated: 2019-10-15

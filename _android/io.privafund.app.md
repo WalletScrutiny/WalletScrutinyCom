@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.privafund.app
+alternativeStores: 
 appCountry: 
 released: 2021-04-30
 updated: 2021-06-15

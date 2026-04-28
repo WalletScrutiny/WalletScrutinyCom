@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.coinorbis.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-11-27
 updated: 2019-01-25

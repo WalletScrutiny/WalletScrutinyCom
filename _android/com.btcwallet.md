@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.btcwallet
+alternativeStores: 
 appCountry: 
 released: 2019-08-29
 updated: 2019-10-23

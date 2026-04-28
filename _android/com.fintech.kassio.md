@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.fintech.kassio
+alternativeStores: 
 appCountry: 
 released: 2022-02-18
 updated: 2023-10-27

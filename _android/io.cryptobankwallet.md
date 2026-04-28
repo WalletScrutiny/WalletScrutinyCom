@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.cryptobankwallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-10
 updated: 2020-12-10

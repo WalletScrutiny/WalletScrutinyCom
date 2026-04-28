@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: pro.smartym.wllt
+alternativeStores: 
 appCountry: 
 released: 2019-03-19
 updated: 2019-03-21

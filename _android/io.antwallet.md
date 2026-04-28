@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.antwallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-15
 updated: 2021-11-23

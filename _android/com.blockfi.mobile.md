@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.blockfi.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-04-30
 updated: 2023-10-04

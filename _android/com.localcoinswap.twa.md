@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.localcoinswap.twa
+alternativeStores: 
 appCountry: 
 released: 2023-03-10
 updated: 2023-03-11

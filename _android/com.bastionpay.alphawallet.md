@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bastionpay.alphawallet
+alternativeStores: 
 appCountry: 
 released: 2019-05-12
 updated: 2019-09-04

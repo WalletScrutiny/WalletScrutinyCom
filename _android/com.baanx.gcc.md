@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.baanx.gcc
+alternativeStores: 
 appCountry: 
 released: 2020-06-14
 updated: 2020-09-17

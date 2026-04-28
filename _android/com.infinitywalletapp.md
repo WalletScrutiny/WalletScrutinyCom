@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.infinitywalletapp
+alternativeStores: 
 appCountry: 
 released: 2022-04-13
 updated: 2023-02-23

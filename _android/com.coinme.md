@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.coinme
+alternativeStores: 
 appCountry: 
 released: 2021-05-06
 updated: 2026-04-15

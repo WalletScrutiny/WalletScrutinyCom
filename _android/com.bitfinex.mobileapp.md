@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500000
 appId: com.bitfinex.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2019-02-11
 updated: 2026-02-04

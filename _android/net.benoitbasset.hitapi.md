@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: net.benoitbasset.hitapi
+alternativeStores: 
 appCountry: 
 released: 2018-02-07
 updated: 2019-05-07

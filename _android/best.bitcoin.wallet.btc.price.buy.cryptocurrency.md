@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: best.bitcoin.wallet.btc.price.buy.cryptocurrency
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-03-13

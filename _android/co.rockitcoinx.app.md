@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: co.rockitcoinx.app
+alternativeStores: 
 appCountry: 
 released: 2019-09-20
 updated: 2026-04-13

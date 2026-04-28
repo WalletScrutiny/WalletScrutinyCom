@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: app.alpha.bank
+alternativeStores: 
 appCountry: 
 released: 2021-05-30
 updated: 2021-06-02

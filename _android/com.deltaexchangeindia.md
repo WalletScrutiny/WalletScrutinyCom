@@ -4,12 +4,13 @@ title: 'Delta Exchange: Crypto Options'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.deltaexchangeindia
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-10
-version: 2.14.0
+updated: 2026-04-24
+version: 2.11.5
 reviews: 1
 website: https://india.delta.exchange
 repository: 

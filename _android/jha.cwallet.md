@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: jha.cwallet
+alternativeStores: 
 appCountry: 
 released: 2022-01-03
 updated: 2023-06-30

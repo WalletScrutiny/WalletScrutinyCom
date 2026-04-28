@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.trustkeysnetwork
+alternativeStores: 
 appCountry: us
 released: 2019-03-02
 updated: 2024-10-22

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.berrywallet.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-11-10
 updated: 2022-12-12

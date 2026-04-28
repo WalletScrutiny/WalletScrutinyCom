@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.triunits.android.triunits.triunits
+alternativeStores: 
 appCountry: 
 released: 2022-06-05
 updated: 2023-09-26

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: jp.co.monex.ms.mt_crypto
+alternativeStores: 
 appCountry: 
 released: 2020-07-07
 updated: 2025-11-27

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.redot.app
+alternativeStores: 
 appCountry: 
 released: 2020-03-03
 updated: 2025-03-06

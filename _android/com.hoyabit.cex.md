@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.hoyabit.cex
+alternativeStores: 
 appCountry: 
 released: 2023-03-10
 updated: 2026-04-13

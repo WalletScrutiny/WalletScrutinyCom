@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: kr.coinprice.coinprice
+alternativeStores: 
 appCountry: 
 released: 2017-08-19
 updated: 2017-10-23

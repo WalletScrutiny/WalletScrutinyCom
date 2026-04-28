@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.deribit
+alternativeStores: 
 appCountry: 
 released: 2018-01-10
 updated: 2025-12-19

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.bikinaplikasi.appseppulsa
+alternativeStores: 
 appCountry: 
 released: 2020-07-06
 updated: 2020-09-15

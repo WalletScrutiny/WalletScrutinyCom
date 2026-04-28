@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.glamster
+alternativeStores: 
 appCountry: 
 released: 2020-08-19
 updated: 2023-06-28

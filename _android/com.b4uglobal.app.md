@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.b4uglobal.app
+alternativeStores: 
 appCountry: 
 released: 2020-09-15
 updated: 2021-04-12

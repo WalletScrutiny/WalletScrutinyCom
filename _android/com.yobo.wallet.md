@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.yobo.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-01-17
 updated: 2023-02-01

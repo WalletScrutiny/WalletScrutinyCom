@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.web.XFacia
+alternativeStores: 
 appCountry: 
 released: 2022-04-21
 updated: 2022-12-21

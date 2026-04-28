@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.excoino.excoino
+alternativeStores: 
 appCountry: 
 released: 2018-09-27
 updated: 2026-01-05

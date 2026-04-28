@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.exchanger12
+alternativeStores: 
 appCountry: 
 released: 2021-03-27
 updated: 2021-03-27

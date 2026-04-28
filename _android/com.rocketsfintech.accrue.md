@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.rocketsfintech.accrue
+alternativeStores: 
 appCountry: 
 released: 2021-10-09
-updated: 2026-04-11
-version: 4.9.33
-reviews: 65
+updated: 2026-04-20
+version: 4.9.34
+reviews: 67
 website: https://useaccrue.com
 repository: 
 icon: com.rocketsfintech.accrue.png

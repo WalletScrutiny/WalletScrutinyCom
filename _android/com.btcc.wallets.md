@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.btcc.wallets
+alternativeStores: 
 appCountry: 
 released: 2023-11-16
 updated: 2026-03-24

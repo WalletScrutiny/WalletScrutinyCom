@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: eu.cryptomerchant.pos
+alternativeStores: 
 appCountry: 
 released: 2019-03-04
 updated: 2023-10-19

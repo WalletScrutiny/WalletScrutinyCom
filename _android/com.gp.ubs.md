@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gp.ubs
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-06-20

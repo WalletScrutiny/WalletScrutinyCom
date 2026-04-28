@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.obic.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-14
 updated: 2023-05-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.magna_numeris.pebbit
+alternativeStores: 
 appCountry: 
 released: 2021-11-12
 updated: 2022-02-23

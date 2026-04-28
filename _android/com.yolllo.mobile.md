@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.yolllo.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-04-29
 updated: 2022-06-23

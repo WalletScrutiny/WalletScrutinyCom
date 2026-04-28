@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining
+alternativeStores: 
 appCountry: 
 released: 2021-07-17
 updated: 2021-07-17

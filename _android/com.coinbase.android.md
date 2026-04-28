@@ -6,11 +6,12 @@ authors:
 - leo
 users: 50000000
 appId: com.coinbase.android
+alternativeStores: 
 appCountry: 
 released: 2013-03-01
-updated: 2026-04-09
-version: 14.14.27
-reviews: 117199
+updated: 2026-04-24
+version: 14.15.19
+reviews: 117242
 website: https://coinbase.com/
 repository: 
 icon: com.coinbase.android.jpg

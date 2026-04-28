@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000000
 appId: com.fbs.tpand
+alternativeStores: 
 appCountry: 
 released: 2019-03-25
 updated: 2023-12-22

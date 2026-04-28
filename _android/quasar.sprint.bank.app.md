@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: quasar.sprint.bank.app
+alternativeStores: 
 appCountry: 
 released: 2021-12-12
 updated: 2021-12-23

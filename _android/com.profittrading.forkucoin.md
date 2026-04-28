@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.profittrading.forkucoin
+alternativeStores: 
 appCountry: 
 released: 2020-12-27
 updated: 2026-03-25

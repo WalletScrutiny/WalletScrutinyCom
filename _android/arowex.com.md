@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: arowex.com
+alternativeStores: 
 appCountry: 
 released: 2021-07-16
 updated: 2021-07-17

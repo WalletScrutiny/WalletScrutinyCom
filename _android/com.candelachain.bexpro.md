@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.candelachain.bexpro
+alternativeStores: 
 appCountry: 
 released: 2019-03-25
 updated: 2021-02-20

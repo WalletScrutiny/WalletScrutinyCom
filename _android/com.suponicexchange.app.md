@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.suponicexchange.app
+alternativeStores: 
 appCountry: 
 released: 2020-01-23
 updated: 2020-01-23

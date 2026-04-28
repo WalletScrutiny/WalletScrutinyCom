@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.openblock.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-06
 updated: 2026-03-10

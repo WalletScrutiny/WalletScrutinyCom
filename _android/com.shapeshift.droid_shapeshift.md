@@ -7,6 +7,7 @@ authors:
 - danny
 users: 500000
 appId: com.shapeshift.droid_shapeshift
+alternativeStores: 
 appCountry: 
 released: 2015-10-26
 updated: 2026-02-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.localtrade.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-18
 updated: 2022-06-29

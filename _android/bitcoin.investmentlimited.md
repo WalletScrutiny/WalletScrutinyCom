@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: bitcoin.investmentlimited
+alternativeStores: 
 appCountry: 
 released: 2019-01-02
 updated: 2021-08-04

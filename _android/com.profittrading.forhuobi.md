@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.profittrading.forhuobi
+alternativeStores: 
 appCountry: 
 released: 2018-11-21
 updated: 2021-12-03

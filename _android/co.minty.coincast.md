@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: co.minty.coincast
+alternativeStores: 
 appCountry: 
 released: 2021-07-18
 updated: 2022-05-13

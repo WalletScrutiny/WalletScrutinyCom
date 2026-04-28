@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.xchaino
+alternativeStores: 
 appCountry: 
 released: 2021-09-22
 updated: 2022-06-14

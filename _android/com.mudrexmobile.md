@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.mudrexmobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-04-18

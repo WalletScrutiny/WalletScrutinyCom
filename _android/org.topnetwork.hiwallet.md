@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: org.topnetwork.hiwallet
+alternativeStores: 
 appCountry: 
 released: 2020-04-08
 updated: 2021-08-13

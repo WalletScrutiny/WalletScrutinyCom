@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.veroxai
+alternativeStores: 
 appCountry: 
 released: 2021-12-19
 updated: 2022-04-12

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.itarder.myapp
+alternativeStores: 
 appCountry: 
 released: 2022-05-27
 updated: 2022-11-14

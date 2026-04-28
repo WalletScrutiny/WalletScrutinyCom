@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: pixel.websolutions.union_btc
+alternativeStores: 
 appCountry: 
 released: 2021-09-29
 updated: 2022-09-07

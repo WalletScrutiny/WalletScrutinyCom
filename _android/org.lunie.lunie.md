@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.lunie.lunie
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-11-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.nichie.curdex
+alternativeStores: 
 appCountry: 
 released: 2020-09-23
 updated: 2024-03-31

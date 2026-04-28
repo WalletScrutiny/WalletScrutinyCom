@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.criptan.app
+alternativeStores: 
 appCountry: 
 released: 2020-08-23
 updated: 2026-04-06

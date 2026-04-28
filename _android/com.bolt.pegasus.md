@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.bolt.pegasus
+alternativeStores: 
 appCountry: 
 released: 2019-08-26
 updated: 2023-07-20

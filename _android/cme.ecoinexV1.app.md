@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: cme.ecoinexV1.app
+alternativeStores: 
 appCountry: 
 released: 2018-12-19
 updated: 2018-12-19

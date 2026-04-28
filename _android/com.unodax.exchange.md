@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.unodax.exchange
+alternativeStores: 
 appCountry: us
 released: 2018-04-04
 updated: 2022-03-10

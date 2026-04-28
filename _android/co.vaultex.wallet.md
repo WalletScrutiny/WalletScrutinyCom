@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: co.vaultex.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-05-20
 updated: 2024-05-20

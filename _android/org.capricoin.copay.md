@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: org.capricoin.copay
+alternativeStores: 
 appCountry: 
 released: 2020-05-14
 updated: 2020-07-06

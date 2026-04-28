@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.abstocks
+alternativeStores: 
 appCountry: 
 released: 2021-08-30
 updated: 2022-02-07

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.eagleo.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-12-10
 updated: 2021-12-10

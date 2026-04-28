@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptoex.dhanux
+alternativeStores: 
 appCountry: 
 released: 2022-03-02
 updated: 2023-01-12

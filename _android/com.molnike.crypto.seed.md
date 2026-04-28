@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.molnike.crypto.seed
+alternativeStores: 
 appCountry: 
 released: 2022-12-23
 updated: 2023-02-28

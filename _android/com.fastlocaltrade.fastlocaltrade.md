@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fastlocaltrade.fastlocaltrade
+alternativeStores: 
 appCountry: 
 released: 2019-05-11
 updated: 2019-12-06

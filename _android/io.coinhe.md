@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.coinhe
+alternativeStores: 
 appCountry: 
 released: 2019-03-19
 updated: 2020-06-05

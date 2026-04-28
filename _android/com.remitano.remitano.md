@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.remitano.remitano
+alternativeStores: 
 appCountry: 
 released: 2016-07-24
 updated: 2026-01-17
 version: 8.8.6
-reviews: 515
+reviews: 514
 website: https://remitano.com
 repository: 
 icon: com.remitano.remitano.jpg

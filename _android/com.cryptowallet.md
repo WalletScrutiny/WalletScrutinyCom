@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-07-28

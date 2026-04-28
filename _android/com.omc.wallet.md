@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.omc.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-03-15
 updated: 2022-02-15

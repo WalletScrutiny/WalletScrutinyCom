@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.shapeshift.keepkey
+alternativeStores: 
 appCountry: 
 released: 2020-12-09
 updated: 2020-12-10

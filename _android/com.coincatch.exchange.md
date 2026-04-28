@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.coincatch.exchange
+alternativeStores: 
 appCountry: 
 released: 2023-04-07
 updated: 2025-12-04

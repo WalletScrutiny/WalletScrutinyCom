@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.strade.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-09-14

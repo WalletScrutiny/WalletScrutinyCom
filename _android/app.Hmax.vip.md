@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: app.Hmax.vip
+alternativeStores: 
 appCountry: 
 released: 2021-09-17
 updated: 2021-10-07

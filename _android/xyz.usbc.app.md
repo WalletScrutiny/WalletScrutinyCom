@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: xyz.usbc.app
+alternativeStores: 
 appCountry: 
 released: 2025-07-14
 updated: 2025-07-16

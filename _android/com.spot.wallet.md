@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.spot.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2022-01-16

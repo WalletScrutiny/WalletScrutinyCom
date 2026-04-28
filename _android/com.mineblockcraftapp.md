@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.mineblockcraftapp
+alternativeStores: 
 appCountry: 
 released: 2020-04-14
 updated: 2020-04-14

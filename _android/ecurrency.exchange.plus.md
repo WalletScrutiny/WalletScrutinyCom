@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: ecurrency.exchange.plus
+alternativeStores: 
 appCountry: 
 released: 2019-09-28
 updated: 2019-09-28

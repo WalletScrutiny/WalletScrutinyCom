@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: vip.sing.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-05-11
 updated: 2026-04-16

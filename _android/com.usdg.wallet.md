@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.usdg.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-05
 updated: 2023-08-23

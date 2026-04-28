@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.dovewallet.app
+alternativeStores: 
 appCountry: 
 released: 2020-09-09
 updated: 2020-12-23

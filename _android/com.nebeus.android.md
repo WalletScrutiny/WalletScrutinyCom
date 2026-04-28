@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.nebeus.android
+alternativeStores: 
 appCountry: gt
 released: 2021-05-24
 updated: 2026-02-11

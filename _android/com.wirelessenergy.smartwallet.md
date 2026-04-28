@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.wirelessenergy.smartwallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-24
 updated: 2026-03-02

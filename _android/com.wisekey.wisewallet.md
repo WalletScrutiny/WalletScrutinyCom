@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.wisekey.wisewallet
+alternativeStores: 
 appCountry: 
 released: 2018-04-23
 updated: 2020-10-28

@@ -10,8 +10,8 @@ alternativeStores:
 - fdroid
 appCountry: 
 released: 2023-02-10
-updated: 2026-04-03
-version: 0.54.1
+updated: 2026-04-26
+version: 0.54.2
 reviews: 
 website: https://p.cash/
 repository: https://github.com/piratecash/pcash-wallet-android

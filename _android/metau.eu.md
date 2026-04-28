@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: metau.eu
+alternativeStores: 
 appCountry: 
 released: 2023-03-23
 updated: 2023-05-22

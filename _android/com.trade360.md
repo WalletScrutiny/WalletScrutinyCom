@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.trade360
+alternativeStores: 
 appCountry: gb
 released: 2015-06-18
 updated: 2022-09-29

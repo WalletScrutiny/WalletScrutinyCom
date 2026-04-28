@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.callsfreecalls.android
+alternativeStores: 
 appCountry: 
 released: 2012-10-15
 updated: 2020-10-07

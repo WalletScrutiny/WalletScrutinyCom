@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.paxful.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-04-30
 updated: 2025-10-06

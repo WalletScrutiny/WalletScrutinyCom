@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.mobuyg.nmx
+alternativeStores: 
 appCountry: 
 released: 2021-08-16
 updated: 2022-05-19

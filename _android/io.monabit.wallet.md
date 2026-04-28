@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.monabit.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-17
 updated: 2026-03-21

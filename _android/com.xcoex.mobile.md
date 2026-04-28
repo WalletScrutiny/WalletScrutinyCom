@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.xcoex.mobile
+alternativeStores: 
 appCountry: 
 released: 2019-01-17
 updated: 2024-08-07

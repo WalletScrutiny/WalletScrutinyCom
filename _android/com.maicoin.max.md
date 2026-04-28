@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.maicoin.max
+alternativeStores: 
 appCountry: us
 released: 2018-07-01
 updated: 2026-03-24

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.app.fameex
+alternativeStores: 
 appCountry: us
 released: 2020-08-10
 updated: 2024-10-21

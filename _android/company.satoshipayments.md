@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: company.satoshipayments
+alternativeStores: 
 appCountry: 
 released: 2023-01-23
 updated: 2024-04-06

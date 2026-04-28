@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.clic.bobmint
+alternativeStores: 
 appCountry: 
 released: 2022-09-08
 updated: 2022-09-14

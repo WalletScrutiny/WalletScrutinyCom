@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.architech.act.plutowallet
+alternativeStores: 
 appCountry: 
 released: 2019-03-26
 updated: 2019-04-19

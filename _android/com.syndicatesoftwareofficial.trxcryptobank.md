@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.syndicatesoftwareofficial.trxcryptobank
+alternativeStores: 
 appCountry: 
 released: 2019-08-06
 updated: 2019-08-07

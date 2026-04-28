@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.yibiexchange.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2025-07-24
@@ -14,10 +15,10 @@ website: https://yibi.co
 repository: 
 icon: com.yibiexchange.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-07
+date: 2026-04-28
 signer: 
 twitter: OfficialYibi
 social:

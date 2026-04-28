@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.kisco.app.android
+alternativeStores: 
 appCountry: 
 released: 2020-12-23
 updated: 2021-01-19

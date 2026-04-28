@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: com.bitmart.bitmarket
+alternativeStores: 
 appCountry: 
 released: 2018-05-09
-updated: 2026-04-15
+updated: 2026-04-27
 version: 4.2.1
-reviews: 3736
+reviews: 3741
 website: http://www.bitmart.com
 repository: 
 icon: com.bitmart.bitmarket.png

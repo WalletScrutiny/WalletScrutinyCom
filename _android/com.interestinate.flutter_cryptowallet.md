@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.interestinate.flutter_cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-06
 updated: 2020-01-06

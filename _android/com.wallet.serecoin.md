@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.wallet.serecoin
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-06-15

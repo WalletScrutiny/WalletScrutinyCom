@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: net.bitbay.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2018-11-19
 updated: 2025-11-03

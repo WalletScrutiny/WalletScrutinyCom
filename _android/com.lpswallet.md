@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.lpswallet
+alternativeStores: 
 appCountry: 
 released: 2022-01-14
 updated: 2022-01-19

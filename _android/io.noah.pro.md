@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: io.noah.pro
+alternativeStores: 
 appCountry: 
 released: 2025-09-23
-updated: 2026-04-10
-version: 1.2.7
+updated: 2026-04-24
+version: 1.2.8
 reviews: 16
 website: https://www.bitradex.com/
 repository: 

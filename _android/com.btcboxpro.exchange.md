@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.btcboxpro.exchange
+alternativeStores: 
 appCountry: 
 released: 2020-05-06
 updated: 2020-07-21

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: net.panteam.pt.BTC
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-02-22

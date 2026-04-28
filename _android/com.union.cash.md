@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.union.cash
+alternativeStores: 
 appCountry: 
 released: 2021-06-25
 updated: 2025-12-25

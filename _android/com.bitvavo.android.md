@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.bitvavo.android
+alternativeStores: 
 appCountry: nl
 released: 2020-08-19
-updated: 2026-04-20
-version: 2.103.0
-reviews: 3642
+updated: 2026-04-22
+version: 2.104.0
+reviews: 3645
 website: https://bitvavo.com/
 repository: 
 icon: com.bitvavo.android.png

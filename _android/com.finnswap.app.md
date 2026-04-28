@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.finnswap.app
+alternativeStores: 
 appCountry: 
 released: 2022-03-14
 updated: 2022-03-14

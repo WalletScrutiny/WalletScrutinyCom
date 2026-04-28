@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: nl.tudelft.trustchain
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2024-02-28

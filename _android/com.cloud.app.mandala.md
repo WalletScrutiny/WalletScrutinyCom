@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cloud.app.mandala
+alternativeStores: 
 appCountry: us
 released: 2021-08-19
 updated: 2022-12-01

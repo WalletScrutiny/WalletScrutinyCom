@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.cryptosignals.bitcoin.wallet.india.free
+alternativeStores: 
 appCountry: 
 released: 2021-06-19
 updated: 2021-06-19

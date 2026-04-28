@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.dryp.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-18
 updated: 2021-11-18

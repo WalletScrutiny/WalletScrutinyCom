@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.paytomat
+alternativeStores: 
 appCountry: 
 released: 2018-06-20
 updated: 2021-02-01

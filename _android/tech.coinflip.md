@@ -6,10 +6,11 @@ authors:
 - danny
 users: 50000
 appId: tech.coinflip
+alternativeStores: 
 appCountry: 
 released: 2024-08-19
-updated: 2026-03-12
-version: 4.1.0
+updated: 2026-04-16
+version: 4.2.0
 reviews: 92
 website: https://coinflip.tech/
 repository: 

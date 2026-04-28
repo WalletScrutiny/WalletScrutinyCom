@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 50000
 appId: net.bither
+alternativeStores: 
 appCountry: 
 released: 2014-02-27
 updated: 2024-11-21

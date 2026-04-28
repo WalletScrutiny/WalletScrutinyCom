@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.exchanger101.app
+alternativeStores: 
 appCountry: 
 released: 2021-09-30
 updated: 2026-02-26

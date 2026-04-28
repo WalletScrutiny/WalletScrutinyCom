@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.geekyants.fluttercryptocurrency
+alternativeStores: 
 appCountry: 
 released: 2020-04-30
 updated: 2020-04-30

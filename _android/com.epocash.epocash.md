@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.epocash.epocash
+alternativeStores: 
 appCountry: 
 released: 2020-09-20
 updated: 2020-10-21

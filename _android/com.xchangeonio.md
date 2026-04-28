@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.xchangeonio
+alternativeStores: 
 appCountry: 
 released: 2022-11-15
 updated: 2026-04-03

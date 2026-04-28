@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zbx.app
+alternativeStores: 
 appCountry: us
 released: 2019-10-18
 updated: 2026-03-27

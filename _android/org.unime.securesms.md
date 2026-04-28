@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: org.unime.securesms
+alternativeStores: 
 appCountry: 
 released: 2021-03-28
 updated: 2022-11-01

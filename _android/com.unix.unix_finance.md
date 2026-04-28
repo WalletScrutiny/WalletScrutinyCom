@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.unix.unix_finance
+alternativeStores: 
 appCountry: 
 released: 2021-06-22
 updated: 2021-07-10

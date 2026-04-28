@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.a1in1.crypto_coin
+alternativeStores: 
 appCountry: 
 released: 2021-06-14
 updated: 2021-06-19

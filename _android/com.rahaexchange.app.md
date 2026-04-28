@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.rahaexchange.app
+alternativeStores: 
 appCountry: 
 released: 2021-03-14
 updated: 2022-09-01

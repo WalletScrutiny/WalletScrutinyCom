@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.mobiletradingpartners.lmaxdigital
+alternativeStores: 
 appCountry: gb
 released: 2018-05-18
 updated: 2025-10-09

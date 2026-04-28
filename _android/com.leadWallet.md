@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.leadWallet
+alternativeStores: 
 appCountry: ng
 released: 2021-07-29
 updated: 2022-07-30

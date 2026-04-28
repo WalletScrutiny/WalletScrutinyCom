@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.cryptoleaders.crypto.investing
+alternativeStores: 
 appCountry: 
 released: 2021-06-15
 updated: 2021-06-15

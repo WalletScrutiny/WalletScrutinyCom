@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: it.baloo.bitcoinpeople
+alternativeStores: 
 appCountry: 
 released: 2020-07-08
 updated: 2021-02-06

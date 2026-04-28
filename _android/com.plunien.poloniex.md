@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000000
 appId: com.plunien.poloniex
+alternativeStores: 
 appCountry: 
 released: 2017-06-19
 updated: 2026-04-07

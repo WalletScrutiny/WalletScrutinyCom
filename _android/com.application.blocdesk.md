@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.application.blocdesk
+alternativeStores: 
 appCountry: 
 released: 2020-02-05
 updated: 2020-03-03

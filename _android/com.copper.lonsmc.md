@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.copper.lonsmc
+alternativeStores: 
 appCountry: 
 released: 2022-12-29
 updated: 2022-12-29

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coinzix.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-27
 updated: 2023-06-02

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.liberty.jaxx
+alternativeStores: 
 appCountry: 
 released: 2018-09-01
 updated: 2022-06-15

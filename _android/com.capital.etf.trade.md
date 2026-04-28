@@ -7,10 +7,11 @@ authors:
 - leo
 users: 5000000
 appId: com.capital.etf.trade
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-04-17
-version: 3.31.0
+updated: 2026-04-23
+version: 3.32.0
 reviews: 7
 website: https://capital.com/
 repository: 

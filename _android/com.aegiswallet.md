@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.aegiswallet
+alternativeStores: 
 appCountry: 
 released: 2014-06-01
 updated: 2017-12-20

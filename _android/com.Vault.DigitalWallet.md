@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.Vault.DigitalWallet
+alternativeStores: 
 appCountry: 
 released: 2022-12-13
 updated: 2023-04-28

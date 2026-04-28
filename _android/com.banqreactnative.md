@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.banqreactnative
+alternativeStores: 
 appCountry: 
 released: 2020-03-13
 updated: 2021-12-10

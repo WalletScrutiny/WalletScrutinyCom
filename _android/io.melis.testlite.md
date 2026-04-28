@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: io.melis.testlite
+alternativeStores: 
 appCountry: 
 released: 2019-08-06
 updated: 2019-08-06

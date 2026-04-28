@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.blackwallet
+alternativeStores: 
 appCountry: 
 released: 2022-11-29
 updated: 2023-05-02

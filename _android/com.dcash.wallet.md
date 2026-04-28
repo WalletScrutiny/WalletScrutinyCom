@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.dcash.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-07-27

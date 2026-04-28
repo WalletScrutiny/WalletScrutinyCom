@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.EkoWallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-23
 updated: 2023-02-23

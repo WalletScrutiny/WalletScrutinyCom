@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.javvy
+alternativeStores: 
 appCountry: 
 released: 2018-07-14
 updated: 2019-05-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.im.crypto
+alternativeStores: 
 appCountry: 
 released: 2021-09-05
 updated: 2021-10-26

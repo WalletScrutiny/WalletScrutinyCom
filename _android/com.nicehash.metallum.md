@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.nicehash.metallum
+alternativeStores: 
 appCountry: 
 released: 2020-04-17
 updated: 2026-04-20

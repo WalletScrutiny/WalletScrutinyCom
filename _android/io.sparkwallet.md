@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.sparkwallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-09
 updated: 2023-12-07

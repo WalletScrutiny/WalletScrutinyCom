@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: dev.waterhole
+alternativeStores: 
 appCountry: 
 released: 2018-09-14
 updated: 2021-07-08

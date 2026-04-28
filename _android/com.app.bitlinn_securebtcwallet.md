@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.app.bitlinn_securebtcwallet
+alternativeStores: 
 appCountry: 
 released: 2022-07-08
 updated: 2022-07-08

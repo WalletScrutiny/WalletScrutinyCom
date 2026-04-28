@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.pilab.pockie
+alternativeStores: 
 appCountry: 
 released: 2023-07-24
 updated: 2025-08-06

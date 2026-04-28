@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.gyliewallet.app
+alternativeStores: 
 appCountry: 
 released: 2021-08-08
 updated: 2022-01-12

@@ -6,10 +6,11 @@ authors:
 - leo
 users: 500000
 appId: com.digifinex.app
+alternativeStores: 
 appCountry: 
 released: 2018-06-26
-updated: 2026-03-20
-version: 2026.03.18
+updated: 2026-04-20
+version: 2026.04.15
 reviews: 112
 website: https://www.digifinex.com/
 repository: 

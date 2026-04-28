@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitcoinrd.BitcoinRD
+alternativeStores: 
 appCountry: 
 released: 2023-03-13
 updated: 2026-02-04

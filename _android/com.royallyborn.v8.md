@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.royallyborn.v8
+alternativeStores: 
 appCountry: 
 released: 2022-02-07
 updated: 2025-12-22

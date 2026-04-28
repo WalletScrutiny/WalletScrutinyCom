@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.hftrading
+alternativeStores: 
 appCountry: 
 released: 2021-03-10
 updated: 2021-08-25

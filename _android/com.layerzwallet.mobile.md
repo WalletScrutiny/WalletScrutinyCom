@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 100
 appId: com.layerzwallet.mobile
+alternativeStores: 
 appCountry: 
 released: 2025-12-19
-updated: 2026-04-14
-version: 1.5.3
+updated: 2026-04-20
+version: 1.5.4
 reviews: 
 website: https://layerzwallet.com
 repository: 

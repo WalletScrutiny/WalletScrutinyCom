@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: org.lndroid.wallet.testnet
+alternativeStores: 
 appCountry: 
 released: 2020-03-23
 updated: 2020-04-14

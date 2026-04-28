@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.simplefx.app
+alternativeStores: 
 appCountry: 
 released: 2017-12-18
 updated: 2026-04-20

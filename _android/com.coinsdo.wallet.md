@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.coinsdo.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-06-26
 updated: 2026-04-06

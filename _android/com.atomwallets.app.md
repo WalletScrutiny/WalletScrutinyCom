@@ -6,12 +6,13 @@ authors:
 - danny
 users: 10000
 appId: com.atomwallets.app
+alternativeStores: 
 appCountry: 
 released: 2025-10-10
-updated: 2026-04-20
-version: 2.2.8
+updated: 2026-04-22
+version: 2.2.9
 reviews: 
-website: 
+website: https://atomwallets.com
 repository: 
 icon: com.atomwallets.app.png
 bugbounty: 

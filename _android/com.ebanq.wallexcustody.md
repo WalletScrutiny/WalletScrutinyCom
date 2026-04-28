@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ebanq.wallexcustody
+alternativeStores: 
 appCountry: 
 released: 2021-04-14
 updated: 2021-06-17

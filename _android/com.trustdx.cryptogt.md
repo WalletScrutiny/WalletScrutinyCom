@@ -5,6 +5,7 @@ altTitle: '*Fake app!* C r y p t o G T : Trade cryptocurrency (cryptogt)'
 authors: 
 users: 10
 appId: com.trustdx.cryptogt
+alternativeStores: 
 appCountry: 
 released: 2021-07-02
 updated: 2021-08-13

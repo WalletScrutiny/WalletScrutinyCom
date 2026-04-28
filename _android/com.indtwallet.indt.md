@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.indtwallet.indt
+alternativeStores: 
 appCountry: 
 released: 2022-09-26
 updated: 2023-05-23

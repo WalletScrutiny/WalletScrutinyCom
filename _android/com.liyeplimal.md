@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.liyeplimal
+alternativeStores: 
 appCountry: 
 released: 2019-08-29
 updated: 2021-11-17

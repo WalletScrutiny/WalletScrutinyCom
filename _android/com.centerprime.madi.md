@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.centerprime.madi
+alternativeStores: 
 appCountry: 
 released: 2021-05-17
 updated: 2021-06-02

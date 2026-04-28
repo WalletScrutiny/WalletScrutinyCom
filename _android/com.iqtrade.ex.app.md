@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.iqtrade.ex.app
+alternativeStores: 
 appCountry: 
 released: 2022-10-18
 updated: 2025-03-17

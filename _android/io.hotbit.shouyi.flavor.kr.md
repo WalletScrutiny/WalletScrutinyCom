@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.hotbit.shouyi.flavor.kr
+alternativeStores: 
 appCountry: cn
 released: 2020-07-07
 updated: 2022-04-12

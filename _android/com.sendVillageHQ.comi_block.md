@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.sendVillageHQ.comi_block
+alternativeStores: 
 appCountry: 
 released: 2022-09-11
 updated: 2023-08-27

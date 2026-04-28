@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.rapiexchange.merchant
+alternativeStores: 
 appCountry: 
 released: 2022-08-25
 updated: 2022-08-25

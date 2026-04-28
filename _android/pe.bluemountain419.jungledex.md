@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: pe.bluemountain419.jungledex
+alternativeStores: 
 appCountry: 
 released: 2020-02-11
 updated: 2020-02-20

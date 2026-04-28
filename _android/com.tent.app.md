@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tent.app
+alternativeStores: 
 appCountry: 
 released: 2023-10-26
 updated: 2024-07-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: club.sevenstar.sevenstarapp
+alternativeStores: 
 appCountry: 
 released: 2021-08-31
 updated: 2022-05-31

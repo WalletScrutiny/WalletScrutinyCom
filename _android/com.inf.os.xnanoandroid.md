@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.inf.os.xnanoandroid
+alternativeStores: 
 appCountry: 
 released: 2020-12-04
 updated: 2020-10-08

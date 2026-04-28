@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.application.bitzdeal
+alternativeStores: 
 appCountry: 
 released: 2020-08-03
 updated: 2020-08-12

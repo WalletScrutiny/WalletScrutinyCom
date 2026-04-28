@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.dantown.Dantownapp
+alternativeStores: 
 appCountry: 
 released: 2021-03-27
 updated: 2026-04-03

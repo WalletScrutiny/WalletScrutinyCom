@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: hippotech.bank.droid
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-11-01

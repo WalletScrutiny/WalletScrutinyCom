@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.bitvalve.android
+alternativeStores: 
 appCountry: 
 released: 2019-10-29
 updated: 2026-04-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bcdex.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-05-17
 updated: 2018-05-29

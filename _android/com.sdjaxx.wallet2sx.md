@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.sdjaxx.wallet2sx
+alternativeStores: 
 appCountry: 
 released: 2021-09-10
 updated: 2021-09-11

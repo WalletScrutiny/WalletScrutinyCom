@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: cryptoapis.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-11-11
 updated: 2022-02-24

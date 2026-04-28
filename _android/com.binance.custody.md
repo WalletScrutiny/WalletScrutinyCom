@@ -6,6 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.binance.custody
+alternativeStores: 
 appCountry: 
 released: 2021-11-25
 updated: 2023-08-17

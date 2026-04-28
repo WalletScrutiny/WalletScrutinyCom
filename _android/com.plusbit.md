@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.plusbit
+alternativeStores: 
 appCountry: 
 released: 2020-04-07
 updated: 2020-07-12

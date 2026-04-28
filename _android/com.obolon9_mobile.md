@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.obolon9_mobile
+alternativeStores: 
 appCountry: 
 released: 2018-04-18
 updated: 2021-10-09

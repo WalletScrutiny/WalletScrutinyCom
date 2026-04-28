@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.walletamaze.nftwallet
+alternativeStores: 
 appCountry: 
 released: 2023-06-26
 updated: 2024-01-18

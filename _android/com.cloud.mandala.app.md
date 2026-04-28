@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: com.cloud.mandala.app
+alternativeStores: 
 appCountry: 
 released: 2021-07-13
 updated: 2021-07-19

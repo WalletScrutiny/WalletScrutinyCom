@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ewebmeta.ewebmeta
+alternativeStores: 
 appCountry: 
 released: 2022-03-13
 updated: 2023-07-06

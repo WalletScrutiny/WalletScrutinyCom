@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bitchk.bitchk
+alternativeStores: 
 appCountry: 
 released: 2017-11-17
 updated: 2017-11-29

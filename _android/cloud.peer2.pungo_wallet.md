@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: cloud.peer2.pungo_wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-08

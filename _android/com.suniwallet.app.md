@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.suniwallet.app
+alternativeStores: 
 appCountry: 
 released: 2023-03-06
 updated: 2025-08-27

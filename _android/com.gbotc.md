@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gbotc
+alternativeStores: 
 appCountry: 
 released: 2021-07-19
 updated: 2022-06-01

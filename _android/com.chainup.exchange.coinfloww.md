@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.chainup.exchange.coinfloww
+alternativeStores: 
 appCountry: 
 released: 2022-08-18
 updated: 2022-09-18

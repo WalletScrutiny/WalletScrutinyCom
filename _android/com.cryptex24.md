@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cryptex24
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-01-05

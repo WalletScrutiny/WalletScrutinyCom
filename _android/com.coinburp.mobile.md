@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coinburp.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-06-17
 updated: 2022-01-05

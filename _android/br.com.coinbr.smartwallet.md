@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: br.com.coinbr.smartwallet
+alternativeStores: 
 appCountry: us
 released: 2017-11-03
 updated: 2021-10-29

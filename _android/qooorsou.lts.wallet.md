@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: qooorsou.lts.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-09-06
 updated: 2019-09-06

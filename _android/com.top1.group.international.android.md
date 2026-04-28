@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.top1.group.international.android
+alternativeStores: 
 appCountry: 
 released: 2019-07-10
 updated: 2020-08-03

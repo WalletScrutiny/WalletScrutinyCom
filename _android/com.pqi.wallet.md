@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.pqi.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-24
 updated: 2023-01-17

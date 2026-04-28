@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: adt.ng.app
+alternativeStores: 
 appCountry: 
 released: 2021-05-22
 updated: 2021-05-14

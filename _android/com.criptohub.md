@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.criptohub
+alternativeStores: 
 appCountry: 
 released: 2019-07-30
 updated: 2019-10-10

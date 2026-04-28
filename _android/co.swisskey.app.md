@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: co.swisskey.app
+alternativeStores: 
 appCountry: 
 released: 2020-02-04
 updated: 2020-02-04

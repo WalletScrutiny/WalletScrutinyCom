@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.cloud.bitfirst
+alternativeStores: 
 appCountry: 
 released: 2021-11-01
 updated: 2021-11-01

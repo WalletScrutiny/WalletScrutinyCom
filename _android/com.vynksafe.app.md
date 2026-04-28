@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vynksafe.app
+alternativeStores: 
 appCountry: 
 released: 2022-05-31
 updated: 2024-02-05

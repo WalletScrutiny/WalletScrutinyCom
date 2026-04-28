@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 1000000
 appId: com.bankofhodlers.mobile
+alternativeStores: 
 appCountry: 
 released: 2020-04-30
 updated: 2026-04-17

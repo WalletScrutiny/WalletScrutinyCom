@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.kriptrade.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-10-20
 updated: 2026-04-08

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: com.hebeblock.hebewallet
+alternativeStores: 
 appCountry: us
 released: 2019-03-04
 updated: 2022-06-27

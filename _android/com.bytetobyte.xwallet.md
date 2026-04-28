@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bytetobyte.xwallet
+alternativeStores: 
 appCountry: 
 released: 2017-04-27
 updated: 2017-09-03

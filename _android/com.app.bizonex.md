@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.bizonex
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-11-12

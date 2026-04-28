@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.skb_app
+alternativeStores: 
 appCountry: 
 released: 2018-07-21
 updated: 2020-10-21

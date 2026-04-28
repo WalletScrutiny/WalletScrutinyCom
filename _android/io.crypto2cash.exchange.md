@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: io.crypto2cash.exchange
+alternativeStores: 
 appCountry: 
 released: 2018-12-06
 updated: 2026-01-14

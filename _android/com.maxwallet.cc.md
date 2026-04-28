@@ -3,9 +3,10 @@ wsId: maxwallet
 title: MaxWallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.maxwallet.cc
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-26
@@ -22,7 +23,7 @@ date: 2026-01-14
 signer: 
 twitter: MaxWalletEN
 social:
-- https://t.me/maxwalletapp 
+- https://t.me/maxwalletapp
 redirect_from: 
 developerName: MaxWallet
 builds: 

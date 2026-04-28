@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.idcg.idcw.dz
+alternativeStores: 
 appCountry: 
 released: 2019-03-25
 updated: 2024-05-15

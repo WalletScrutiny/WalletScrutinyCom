@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.bitpapa
+alternativeStores: 
 appCountry: 
 released: 2020-08-18
 updated: 2024-01-22

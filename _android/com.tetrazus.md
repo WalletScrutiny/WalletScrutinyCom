@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.tetrazus
+alternativeStores: 
 appCountry: 
 released: 2019-11-06
 updated: 2020-02-11

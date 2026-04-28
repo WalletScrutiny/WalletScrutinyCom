@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000000
 appId: com.tronwallet2
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-07-23

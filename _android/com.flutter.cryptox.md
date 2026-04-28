@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.flutter.cryptox
+alternativeStores: 
 appCountry: 
 released: 2021-07-31
 updated: 2022-07-29

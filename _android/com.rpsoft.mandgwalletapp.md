@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.rpsoft.mandgwalletapp
+alternativeStores: 
 appCountry: 
 released: 2021-03-29
 updated: 2021-03-29

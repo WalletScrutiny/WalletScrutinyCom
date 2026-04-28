@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.markka.markkawallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-06
 updated: 2025-02-07
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

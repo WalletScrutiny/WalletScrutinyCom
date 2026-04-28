@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.riodefi.store
+alternativeStores: 
 appCountry: us
 released: 2021-04-29
 updated: 2022-08-11

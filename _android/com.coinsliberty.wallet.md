@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coinsliberty.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-12-21
 updated: 2021-02-02

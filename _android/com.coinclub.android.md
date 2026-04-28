@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100000
 appId: com.coinclub.android
+alternativeStores: 
 appCountry: 
 released: 2018-09-21
 updated: 2019-02-20

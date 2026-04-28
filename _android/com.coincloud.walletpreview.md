@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.coincloud.walletpreview
+alternativeStores: 
 appCountry: 
 released: 2022-02-02
 updated: 2023-03-09

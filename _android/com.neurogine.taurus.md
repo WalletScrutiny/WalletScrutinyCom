@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.neurogine.taurus
+alternativeStores: 
 appCountry: 
 released: 2021-09-27
 updated: 2022-04-27

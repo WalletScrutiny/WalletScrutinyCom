@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.thisapp
+alternativeStores: 
 appCountry: 
 released: 2018-09-27
 updated: 2024-10-19

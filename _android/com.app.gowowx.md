@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.gowowx
+alternativeStores: 
 appCountry: 
 released: 2019-10-11
 updated: 2020-07-13

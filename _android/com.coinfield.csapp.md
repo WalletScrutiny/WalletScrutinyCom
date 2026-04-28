@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.coinfield.csapp
+alternativeStores: 
 appCountry: ca
 released: 2019-05-16
 updated: 2022-12-19

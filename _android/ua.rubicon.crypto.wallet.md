@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: ua.rubicon.crypto.wallet
+alternativeStores: 
 appCountry: 
 released: 2023-05-11
 updated: 2025-12-29

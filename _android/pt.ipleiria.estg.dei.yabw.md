@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: pt.ipleiria.estg.dei.yabw
+alternativeStores: 
 appCountry: 
 released: 2018-05-02
 updated: 2018-06-25

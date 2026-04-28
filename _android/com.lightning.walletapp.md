@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.lightning.walletapp
+alternativeStores: 
 appCountry: 
 released: 2018-05-01
 updated: 2021-03-13

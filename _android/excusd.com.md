@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: excusd.com
+alternativeStores: 
 appCountry: 
 released: 2021-04-06
 updated: 2021-04-06

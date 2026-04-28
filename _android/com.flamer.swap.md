@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.flamer.swap
+alternativeStores: 
 appCountry: 
 released: 2021-09-25
 updated: 2021-09-25

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.imtrx.dhou
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2022-09-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: demoapp.acceptify.mobilewallet
+alternativeStores: 
 appCountry: 
 released: 2021-05-28
 updated: 2021-05-28

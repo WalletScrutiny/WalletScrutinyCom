@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.probit.app.android2.release.korea
+alternativeStores: 
 appCountry: 
 released: 2019-06-19
 updated: 2024-03-15

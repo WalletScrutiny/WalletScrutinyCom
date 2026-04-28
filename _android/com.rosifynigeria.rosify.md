@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.rosifynigeria.rosify
+alternativeStores: 
 appCountry: 
 released: 2020-07-25
 updated: 2020-07-25

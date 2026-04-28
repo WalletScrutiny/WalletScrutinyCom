@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.mahdi.app
+alternativeStores: 
 appCountry: 
 released: 2022-07-02
 updated: 2022-11-06

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.virtualcoins.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2020-06-09
 updated: 2020-06-29

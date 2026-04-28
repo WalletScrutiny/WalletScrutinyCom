@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.project.coinad
+alternativeStores: 
 appCountry: 
 released: 2018-03-27
 updated: 2019-12-12

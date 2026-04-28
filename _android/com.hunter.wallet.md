@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.hunter.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-03-25
 updated: 2022-10-12

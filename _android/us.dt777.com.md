@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: us.dt777.com
+alternativeStores: 
 appCountry: 
 released: 2022-04-20
 updated: 2022-04-20

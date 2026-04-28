@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.cryptoapp.app
+alternativeStores: 
 appCountry: 
 released: 2018-07-26
 updated: 2018-07-30

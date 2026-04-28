@@ -8,11 +8,12 @@ authors:
 - danny
 users: 1000000
 appId: com.zengo.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-01-19
-updated: 2026-03-31
-version: 9.6.2
-reviews: 597
+updated: 2026-04-26
+version: 9.6.3
+reviews: 598
 website: https://www.zengo.com
 repository: 
 icon: com.zengo.wallet.png

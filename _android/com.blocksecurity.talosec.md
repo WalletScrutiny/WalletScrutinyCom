@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.blocksecurity.talosec
+alternativeStores: 
 appCountry: 
 released: 2020-05-28
 updated: 2020-06-14

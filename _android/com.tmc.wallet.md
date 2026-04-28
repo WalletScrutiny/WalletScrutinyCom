@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.tmc.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-11-04
 updated: 2023-05-04

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: net.apo.com
+alternativeStores: 
 appCountry: 
 released: 2020-12-27
 updated: 2021-01-05

@@ -9,11 +9,12 @@ authors:
 - keraliss
 users: 1000000
 appId: com.bitpay.wallet
+alternativeStores: 
 appCountry: 
 released: 2016-10-01
-updated: 2026-04-02
-version: 14.40.4
-reviews: 2296
+updated: 2026-04-22
+version: 14.40.5
+reviews: 2295
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 icon: com.bitpay.wallet.png

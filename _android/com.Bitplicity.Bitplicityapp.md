@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.Bitplicity.Bitplicityapp
+alternativeStores: 
 appCountry: 
 released: 2020-06-06
 updated: 2020-06-19

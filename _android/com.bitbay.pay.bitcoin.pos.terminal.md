@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitbay.pay.bitcoin.pos.terminal
+alternativeStores: 
 appCountry: 
 released: 2019-03-18
 updated: 2023-11-07

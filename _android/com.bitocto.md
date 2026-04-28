@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitocto
+alternativeStores: 
 appCountry: 
 released: 2019-07-18
 updated: 2023-05-29

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.ljkj.blockpay
+alternativeStores: 
 appCountry: 
 released: 2022-04-08
 updated: 2023-02-08

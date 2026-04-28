@@ -6,11 +6,12 @@ authors:
 - leo
 users: 1000000
 appId: io.zebedee.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-10-20
-updated: 2026-03-17
+updated: 2026-04-17
 version: 4.29.12
-reviews: 9849
+reviews: 9879
 website: https://zbd.gg/z/support
 repository: 
 icon: io.zebedee.wallet.png

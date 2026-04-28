@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.iccbank.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-01-29
 updated: 2021-01-29

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.alpha.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2018-05-31

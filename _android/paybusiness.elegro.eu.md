@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: paybusiness.elegro.eu
+alternativeStores: 
 appCountry: 
 released: 2020-07-15
 updated: 2025-05-09

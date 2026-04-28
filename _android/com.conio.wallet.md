@@ -6,10 +6,11 @@ authors:
 - leo
 users: 100000
 appId: com.conio.wallet
+alternativeStores: 
 appCountry: 
 released: 
-updated: 2026-03-04
-version: 10.3.0
+updated: 2026-04-27
+version: 10.4.0
 reviews: 
 website: https://www.conio.com
 repository: 

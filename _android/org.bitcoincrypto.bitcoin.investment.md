@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: org.bitcoincrypto.bitcoin.investment
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

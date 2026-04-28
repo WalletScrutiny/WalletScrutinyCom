@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: inc.lireneosoft.counterparty
+alternativeStores: 
 appCountry: us
 released: 2015-04-28
 updated: 2019-06-14

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.wire.wirewalletapp
+alternativeStores: 
 appCountry: 
 released: 2021-04-14
 updated: 2021-04-14

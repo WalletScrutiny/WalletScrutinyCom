@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000000
 appId: de.number26.android
+alternativeStores: 
 appCountry: 
 released: 2015-01-23
-updated: 2026-04-15
-version: 4.48.1
-reviews: 2168
+updated: 2026-04-24
+version: 4.49.1
+reviews: 2169
 website: https://n26.com/?utm_source=appstore&utm_medium=description
 repository: 
 icon: de.number26.android.png

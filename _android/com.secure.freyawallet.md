@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.secure.freyawallet
+alternativeStores: 
 appCountry: 
 released: 2022-12-28
 updated: 2023-02-05

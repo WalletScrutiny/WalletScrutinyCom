@@ -5,6 +5,7 @@ altTitle: (old) RWallet
 authors: 
 users: 1000
 appId: com.rsk.rwallet.reactnative
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-10-29

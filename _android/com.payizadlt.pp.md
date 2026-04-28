@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.payizadlt.pp
+alternativeStores: 
 appCountry: us
 released: 2021-03-02
 updated: 2021-04-17

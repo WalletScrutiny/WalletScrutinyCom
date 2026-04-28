@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.bravecorporation.bravepro
+alternativeStores: 
 appCountry: 
 released: 2022-05-15
 updated: 2023-10-22

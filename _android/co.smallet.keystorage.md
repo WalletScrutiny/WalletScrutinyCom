@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: co.smallet.keystorage
+alternativeStores: 
 appCountry: 
 released: 2018-07-03
 updated: 2024-03-15

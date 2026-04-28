@@ -7,6 +7,7 @@ authors:
 - leo
 users: 50
 appId: com.xmzys.binance73
+alternativeStores: 
 appCountry: 
 released: 2021-07-03
 updated: 2021-07-03

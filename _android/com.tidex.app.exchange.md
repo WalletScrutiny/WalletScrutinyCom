@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.tidex.app.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-06-30
 updated: 2024-03-08

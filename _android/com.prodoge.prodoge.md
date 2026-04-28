@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.prodoge.prodoge
+alternativeStores: 
 appCountry: 
 released: 2019-09-17
 updated: 2025-05-05

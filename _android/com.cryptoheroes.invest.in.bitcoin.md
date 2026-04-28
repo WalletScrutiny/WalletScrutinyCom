@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.cryptoheroes.invest.in.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2021-06-22
 updated: 2021-06-22

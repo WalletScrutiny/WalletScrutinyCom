@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.daeapp
+alternativeStores: 
 appCountry: 
 released: 2021-01-02
 updated: 2021-09-12

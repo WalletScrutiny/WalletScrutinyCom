@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitcoinblockchain.suyd
+alternativeStores: 
 appCountry: 
 released: 2021-02-10
 updated: 2021-03-06

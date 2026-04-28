@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: com.cryptoidlemine.bitcoin.invest.india
+alternativeStores: 
 appCountry: 
 released: 2021-07-20
 updated: 2021-07-20

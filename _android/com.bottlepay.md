@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bottlepay
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2023-07-24

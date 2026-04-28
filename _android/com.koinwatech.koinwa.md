@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.koinwatech.koinwa
+alternativeStores: 
 appCountry: 
 released: 2021-08-08
 updated: 2024-02-24

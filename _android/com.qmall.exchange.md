@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.qmall.exchange
+alternativeStores: 
 appCountry: 
 released: 2021-12-14
 updated: 2024-07-31

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.thorapp.flutterthor
+alternativeStores: 
 appCountry: 
 released: 2021-09-30
 updated: 2022-08-29

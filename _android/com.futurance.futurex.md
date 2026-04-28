@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.futurance.futurex
+alternativeStores: 
 appCountry: 
 released: 2022-07-07
 updated: 2026-04-10

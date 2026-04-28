@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.arion.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-10
 updated: 2019-10-10

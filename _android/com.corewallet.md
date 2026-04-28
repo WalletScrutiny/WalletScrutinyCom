@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.corewallet
+alternativeStores: 
 appCountry: 
 released: 2023-02-01
 updated: 2023-02-01

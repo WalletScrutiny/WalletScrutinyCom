@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.daiospay
+alternativeStores: 
 appCountry: 
 released: 2019-08-05
 updated: 2019-08-16

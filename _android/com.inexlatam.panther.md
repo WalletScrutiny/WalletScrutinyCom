@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.inexlatam.panther
+alternativeStores: 
 appCountry: 
 released: 2025-06-05
 updated: 2026-03-17

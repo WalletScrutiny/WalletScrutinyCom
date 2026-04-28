@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.ctower.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-12-22
 updated: 2022-02-15

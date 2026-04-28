@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.pluto.praise
+alternativeStores: 
 appCountry: 
 released: 2021-06-23
 updated: 2021-07-01

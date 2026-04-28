@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.bitcoininc.bitcoinpay
+alternativeStores: 
 appCountry: 
 released: 2016-05-13
 updated: 2017-07-06

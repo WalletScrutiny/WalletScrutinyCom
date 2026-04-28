@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cexchangenex.cexchangenex
+alternativeStores: 
 appCountry: th
 released: 2020-10-02
 updated: 2021-06-29

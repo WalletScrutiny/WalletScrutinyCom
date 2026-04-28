@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.instaforex.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2016-12-15
 updated: 2020-08-26

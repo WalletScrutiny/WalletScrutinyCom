@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.trade.unicoindcx
+alternativeStores: 
 appCountry: 
 released: 2018-08-29
 updated: 2023-04-28

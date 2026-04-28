@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.trade.tradeio.eu
+alternativeStores: 
 appCountry: 
 released: 2019-07-22
 updated: 2019-09-20

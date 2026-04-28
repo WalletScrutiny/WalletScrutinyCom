@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: io.ambergroup.amber
+alternativeStores: 
 appCountry: us
 released: 2020-09-21
 updated: 2026-03-24

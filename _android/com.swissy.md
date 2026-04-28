@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.swissy
+alternativeStores: 
 appCountry: 
 released: 2020-09-01
 updated: 2021-01-27

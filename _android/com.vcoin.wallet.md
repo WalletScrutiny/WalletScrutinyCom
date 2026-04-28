@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.vcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-19
 updated: 2022-09-25

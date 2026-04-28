@@ -6,11 +6,12 @@ authors:
 - danny
 users: 50000
 appId: com.coincircle
+alternativeStores: 
 appCountry: us
 released: 2021-04-26
 updated: 2024-02-29
 version: 1.3.3.10300
-reviews: 244
+reviews: 245
 website: https://coincircle.com
 repository: 
 icon: com.coincircle.png

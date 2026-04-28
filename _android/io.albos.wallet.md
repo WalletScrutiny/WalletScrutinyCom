@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.albos.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-07-01
 updated: 2026-03-04

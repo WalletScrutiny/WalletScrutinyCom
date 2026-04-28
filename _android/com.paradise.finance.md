@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.paradise.finance
+alternativeStores: 
 appCountry: 
 released: 2021-07-06
 updated: 2024-08-30

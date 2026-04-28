@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.Kprit.theappkeyonebit
+alternativeStores: 
 appCountry: 
 released: 2021-11-01
 updated: 2021-11-12

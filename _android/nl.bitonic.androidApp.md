@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: nl.bitonic.androidApp
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-17

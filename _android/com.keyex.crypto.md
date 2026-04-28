@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.keyex.crypto
+alternativeStores: 
 appCountry: 
 released: 2022-03-09
 updated: 2024-11-12

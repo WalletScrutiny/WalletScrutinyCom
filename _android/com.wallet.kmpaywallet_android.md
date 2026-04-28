@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.wallet.kmpaywallet_android
+alternativeStores: 
 appCountry: 
 released: 2022-03-07
 updated: 2022-03-07

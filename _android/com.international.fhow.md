@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.international.fhow
+alternativeStores: 
 appCountry: 
 released: 2022-03-24
 updated: 2022-09-08

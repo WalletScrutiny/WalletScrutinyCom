@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.Coinpayex.appbi
+alternativeStores: 
 appCountry: 
 released: 2022-08-16
 updated: 2022-08-16

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.core.voltpay
+alternativeStores: 
 appCountry: 
 released: 2022-04-07
 updated: 2023-11-07

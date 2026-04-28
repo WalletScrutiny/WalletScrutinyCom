@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.peertrans.com.peer_trans
+alternativeStores: 
 appCountry: 
 released: 2023-02-10
 updated: 2023-02-11

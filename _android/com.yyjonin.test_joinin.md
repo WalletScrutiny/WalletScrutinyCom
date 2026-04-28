@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.yyjonin.test_joinin
+alternativeStores: 
 appCountry: 
 released: 2022-04-28
 updated: 2022-07-20

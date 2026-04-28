@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: app.pagosalinstante.com
+alternativeStores: 
 appCountry: 
 released: 2019-02-03
 updated: 2026-03-28

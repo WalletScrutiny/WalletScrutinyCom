@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.forextb.forextb
+alternativeStores: 
 appCountry: dk
 released: 2020-09-24
 updated: 2024-07-02

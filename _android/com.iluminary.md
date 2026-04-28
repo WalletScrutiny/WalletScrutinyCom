@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.iluminary
+alternativeStores: 
 appCountry: 
 released: 2024-03-27
 updated: 2026-03-06

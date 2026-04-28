@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.unionex.exchange
+alternativeStores: 
 appCountry: 
 released: 2025-08-27
 updated: 2026-02-27

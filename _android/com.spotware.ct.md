@@ -1,16 +1,17 @@
 ---
 wsId: cTrader
-title: 'cTrader: Trading & Charting'
+title: 'cTrader: CFD Trading & Charts'
 altTitle: 
 authors:
 - danny
 users: 1000000
 appId: com.spotware.ct
+alternativeStores: 
 appCountry: 
 released: 2014-02-10
-updated: 2026-04-14
-version: 5.8.150
-reviews: 374
+updated: 2026-04-21
+version: 5.8.170
+reviews: 375
 website: https://ctrader.com/forum
 repository: 
 icon: com.spotware.ct.png

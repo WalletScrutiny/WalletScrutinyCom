@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.sicuradata.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-09-15
 updated: 2020-11-07

@@ -6,11 +6,12 @@ authors:
 - leo
 users: 5000000
 appId: com.coinex.trade.play
+alternativeStores: 
 appCountry: 
 released: 2019-12-27
 updated: 2026-04-14
 version: 4.11.0
-reviews: 1204
+reviews: 1199
 website: https://www.coinex.com/
 repository: 
 icon: com.coinex.trade.play.png

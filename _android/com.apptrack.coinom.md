@@ -7,6 +7,7 @@ authors:
 - leo
 users: 10
 appId: com.apptrack.coinom
+alternativeStores: 
 appCountry: 
 released: 2021-05-25
 updated: 2021-05-25

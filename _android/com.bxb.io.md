@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bxb.io
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2022-03-11

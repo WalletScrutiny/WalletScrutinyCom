@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.globalctb
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-04-07

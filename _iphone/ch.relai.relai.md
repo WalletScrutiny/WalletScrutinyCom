@@ -10,7 +10,7 @@ idd: '1513185997'
 released: 2020-07-01
 updated: 2026-04-15
 version: 3.13.0
-reviews: 3238
+reviews: 3250
 website: https://relai.app/
 repository: 
 icon: ch.relai.relai.jpg

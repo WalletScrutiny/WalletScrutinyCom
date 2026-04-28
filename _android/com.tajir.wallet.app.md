@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 500
 appId: com.tajir.wallet.app
+alternativeStores: 
 appCountry: 
 released: 2025-08-13
-updated: 2026-02-20
-version: 1.1.4
+updated: 2026-04-22
+version: 2.0.3
 reviews: 2
 website: https://tajirwallet.io/
 repository: 

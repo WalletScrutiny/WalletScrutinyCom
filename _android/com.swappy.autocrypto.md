@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.swappy.autocrypto
+alternativeStores: 
 appCountry: 
 released: 2022-05-20
 updated: 2022-06-02

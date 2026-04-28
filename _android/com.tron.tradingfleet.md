@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.tron.tradingfleet
+alternativeStores: 
 appCountry: 
 released: 2022-08-05
 updated: 2022-08-05

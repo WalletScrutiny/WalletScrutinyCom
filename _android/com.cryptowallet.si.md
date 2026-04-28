@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.cryptowallet.si
+alternativeStores: 
 appCountry: 
 released: 2018-09-14
 updated: 2025-10-18

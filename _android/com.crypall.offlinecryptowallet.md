@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.crypall.offlinecryptowallet
+alternativeStores: 
 appCountry: 
 released: 2019-06-12
 updated: 2019-07-12

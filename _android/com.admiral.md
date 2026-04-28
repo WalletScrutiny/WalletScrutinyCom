@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.admiral
+alternativeStores: 
 appCountry: 
 released: 2021-01-22
 updated: 2021-03-10

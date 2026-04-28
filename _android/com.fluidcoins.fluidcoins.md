@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fluidcoins.fluidcoins
+alternativeStores: 
 appCountry: 
 released: 2020-11-14
 updated: 2021-06-16

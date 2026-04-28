@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.fibitpro.fibitapp
+alternativeStores: 
 appCountry: 
 released: 2021-11-27
 updated: 2023-10-23

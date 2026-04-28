@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.titan.coin
+alternativeStores: 
 appCountry: us
 released: 2019-11-02
 updated: 2021-12-22

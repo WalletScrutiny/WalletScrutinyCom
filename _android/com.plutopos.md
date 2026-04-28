@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.plutopos
+alternativeStores: 
 appCountry: 
 released: 2022-04-28
 updated: 2022-06-08

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: com.paymintlabs.paymint
+alternativeStores: 
 appCountry: 
 released: 2020-06-29
 updated: 2020-10-05

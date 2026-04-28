@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitfxt.boundlesspay
+alternativeStores: 
 appCountry: 
 released: 2021-09-19
 updated: 2026-03-02

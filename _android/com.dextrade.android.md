@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.dextrade.android
+alternativeStores: 
 appCountry: us
 released: 2019-07-03
 updated: 2023-05-10

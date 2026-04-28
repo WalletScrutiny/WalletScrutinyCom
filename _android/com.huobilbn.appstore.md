@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.huobilbn.appstore
+alternativeStores: 
 appCountry: 
 released: 2020-11-05
 updated: 2020-11-17

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.fabriik.app
+alternativeStores: 
 appCountry: 
 released: 2022-04-18
 updated: 2022-10-25

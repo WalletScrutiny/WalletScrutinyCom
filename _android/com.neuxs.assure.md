@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.neuxs.assure
+alternativeStores: 
 appCountry: 
 released: 2022-01-27
 updated: 2023-02-06

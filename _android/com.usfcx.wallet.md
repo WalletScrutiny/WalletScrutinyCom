@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.usfcx.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-04-19
 updated: 2021-08-25

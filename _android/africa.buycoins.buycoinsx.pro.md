@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: africa.buycoins.buycoinsx.pro
+alternativeStores: 
 appCountry: us
 released: 2021-04-16
 updated: 2023-09-19

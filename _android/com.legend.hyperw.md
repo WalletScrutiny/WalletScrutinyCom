@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.legend.hyperw
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-12-29

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: com.gmo.exchange
+alternativeStores: 
 appCountry: th
 released: 2020-08-07
-updated: 2025-12-08
-version: 3.2.5
+updated: 2026-04-10
+version: 3.2.6
 reviews: 34
 website: https://ex.z.com/
 repository: 

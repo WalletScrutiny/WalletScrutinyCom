@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.borabit.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2020-06-17
 updated: 2022-10-19

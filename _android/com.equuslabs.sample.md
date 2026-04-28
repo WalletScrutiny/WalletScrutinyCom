@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.equuslabs.sample
+alternativeStores: 
 appCountry: 
 released: 2020-07-04
 updated: 2020-07-04

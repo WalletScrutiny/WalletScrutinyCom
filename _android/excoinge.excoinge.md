@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: excoinge.excoinge
+alternativeStores: 
 appCountry: 
 released: 2017-12-04
 updated: 2018-05-13

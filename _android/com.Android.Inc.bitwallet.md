@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100000
 appId: com.Android.Inc.bitwallet
+alternativeStores: 
 appCountry: 
 released: 2019-07-22
 updated: 2024-11-26

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.coinceeper.adl
+alternativeStores: 
 appCountry: 
 released: 2025-08-19
 updated: 2025-11-04

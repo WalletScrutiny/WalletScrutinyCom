@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.magnumwallet.bitcoin.invest.uk
+alternativeStores: 
 appCountry: 
 released: 2021-07-18
 updated: 2021-07-18

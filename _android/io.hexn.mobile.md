@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.hexn.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-12-12
 updated: 2025-02-20

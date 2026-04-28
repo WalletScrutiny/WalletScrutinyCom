@@ -6,6 +6,7 @@ authors:
 - leo
 users: 1000
 appId: btcmine.btcwallet
+alternativeStores: 
 appCountry: 
 released: 2017-08-13
 updated: 2017-08-13

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.afripayx.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-04
 updated: 2022-04-21

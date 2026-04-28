@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bucdev.bestforexbroker
+alternativeStores: 
 appCountry: 
 released: 2018-04-17
 updated: 2020-10-09

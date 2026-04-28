@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.nexus.trader
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2020-01-19

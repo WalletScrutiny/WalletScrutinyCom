@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.StiBLabs.StiBp2p
+alternativeStores: 
 appCountry: 
 released: 2019-10-07
 updated: 2020-03-11

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.bitzhash.wallet.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2020-03-11
 updated: 2020-04-28

@@ -6,6 +6,7 @@ authors:
 - leo
 users: 10000
 appId: com.magnum.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-04-23
 updated: 2019-08-29

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cointopay.app
+alternativeStores: 
 appCountry: us
 released: 2018-05-29
 updated: 2022-06-02

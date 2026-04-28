@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.app.estonia
+alternativeStores: 
 appCountry: 
 released: 2022-11-18
 updated: 2022-12-04

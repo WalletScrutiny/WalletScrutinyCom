@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: app.bankowallet.android
+alternativeStores: 
 appCountry: 
 released: 2019-07-22
 updated: 2020-06-29

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.app.bitay
+alternativeStores: 
 appCountry: us
 released: 2019-04-15
 updated: 2023-11-21

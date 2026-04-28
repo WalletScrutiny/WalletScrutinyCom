@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: io.bytedex.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-12-16
 updated: 2023-01-05

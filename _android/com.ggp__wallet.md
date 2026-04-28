@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.ggp__wallet
+alternativeStores: 
 appCountry: 
 released: 2024-06-05
 updated: 2026-03-06

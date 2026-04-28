@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: app.hovii.p2p
+alternativeStores: 
 appCountry: 
 released: 2022-10-23
 updated: 2022-10-23

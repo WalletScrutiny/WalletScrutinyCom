@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: btc.profits.calculator
+alternativeStores: 
 appCountry: 
 released: 2019-11-07
 updated: 2019-11-07

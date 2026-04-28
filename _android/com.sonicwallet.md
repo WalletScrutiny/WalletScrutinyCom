@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.sonicwallet
+alternativeStores: 
 appCountry: 
 released: 2022-02-17
 updated: 2024-11-16

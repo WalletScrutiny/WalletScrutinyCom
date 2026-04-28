@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: me.skycryptowallet.skymobile
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-01-27

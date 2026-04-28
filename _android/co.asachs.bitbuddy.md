@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: co.asachs.bitbuddy
+alternativeStores: 
 appCountry: 
 released: 2019-09-19
 updated: 2020-09-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.eximbay.ebcoinwallet.gcm
+alternativeStores: 
 appCountry: 
 released: 2017-10-30
 updated: 2017-12-06

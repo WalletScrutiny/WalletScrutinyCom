@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.vog.bitvo
+alternativeStores: 
 appCountry: ca
 released: 2020-03-16
 updated: 2023-02-15

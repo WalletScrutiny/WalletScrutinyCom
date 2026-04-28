@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: it.inbitcoin.globular
+alternativeStores: 
 appCountry: 
 released: 2019-06-07
 updated: 2020-01-26

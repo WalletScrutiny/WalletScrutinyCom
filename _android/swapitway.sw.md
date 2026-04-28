@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: swapitway.sw
+alternativeStores: 
 appCountry: 
 released: 2021-02-10
 updated: 2021-02-21

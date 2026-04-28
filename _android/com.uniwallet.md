@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.uniwallet
+alternativeStores: 
 appCountry: 
 released: 2025-01-05
 updated: 2025-09-18

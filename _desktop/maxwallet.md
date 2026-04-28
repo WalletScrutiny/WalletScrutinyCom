@@ -20,8 +20,8 @@ date: 2026-04-24
 twitter: MaxWalletEN
 social:
 - https://t.me/maxwalletapp
-builds:
-features:
+builds: 
+features: 
 
 ---
 

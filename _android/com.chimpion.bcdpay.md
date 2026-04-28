@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.chimpion.bcdpay
+alternativeStores: 
 appCountry: 
 released: 2019-05-21
 updated: 2020-03-16

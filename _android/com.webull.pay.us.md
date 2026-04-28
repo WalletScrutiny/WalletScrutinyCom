@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: com.webull.pay.us
+alternativeStores: 
 appCountry: 
 released: 2023-05-26
 updated: 2026-03-19
 version: 2.2.0.29
-reviews: 1163
+reviews: 1164
 website: http://www.webullpay.com
 repository: 
 icon: com.webull.pay.us.png

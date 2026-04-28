@@ -6,10 +6,11 @@ authors:
 - danny
 users: 500000
 appId: com.trusteeplus
+alternativeStores: 
 appCountry: 
 released: 2022-07-01
-updated: 2026-04-02
-version: 1.32.51
+updated: 2026-04-23
+version: 1.32.52
 reviews: 26
 website: https://trusteeglobal.com
 repository: 

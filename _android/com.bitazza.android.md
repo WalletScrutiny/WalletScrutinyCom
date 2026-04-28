@@ -6,11 +6,12 @@ authors:
 - danny
 users: 500000
 appId: com.bitazza.android
+alternativeStores: 
 appCountry: th
 released: 2020-09-29
 updated: 2026-04-02
-version: 4.7.8
-reviews: 2512
+version: 4.7.9
+reviews: 2513
 website: http://bitazza.com/
 repository: 
 icon: com.bitazza.android.png

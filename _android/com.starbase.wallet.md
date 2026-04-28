@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.starbase.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-09-09
 updated: 2021-10-20

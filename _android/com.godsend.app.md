@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.godsend.app
+alternativeStores: 
 appCountry: 
 released: 2022-01-24
 updated: 2022-02-21

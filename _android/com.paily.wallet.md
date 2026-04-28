@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.paily.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-10-20
 updated: 2022-11-28

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.fintoda.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-08-02

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.alt5pro.droidapp
+alternativeStores: 
 appCountry: 
 released: 2020-03-23
 updated: 2022-02-16

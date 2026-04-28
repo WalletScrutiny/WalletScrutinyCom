@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: co.crypto.wallet.guard
+alternativeStores: 
 appCountry: 
 released: 2021-05-07
 updated: 2021-05-07

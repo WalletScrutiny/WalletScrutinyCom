@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.btckr
+alternativeStores: 
 appCountry: 
 released: 2019-09-11
 updated: 2019-09-11

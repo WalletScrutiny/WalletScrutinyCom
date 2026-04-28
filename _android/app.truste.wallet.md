@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: app.truste.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-07-01
 updated: 2021-07-01

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: in.cryptoforce.cfx
+alternativeStores: 
 appCountry: 
 released: 2022-09-27
 updated: 2025-04-01

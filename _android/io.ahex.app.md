@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: io.ahex.app
+alternativeStores: 
 appCountry: 
 released: 2022-06-23
 updated: 2022-06-23

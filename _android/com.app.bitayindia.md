@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.app.bitayindia
+alternativeStores: 
 appCountry: 
 released: 2022-05-25
 updated: 2022-05-25

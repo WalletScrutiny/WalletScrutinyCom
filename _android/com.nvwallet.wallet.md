@@ -5,10 +5,11 @@ altTitle:
 authors: 
 users: 500
 appId: com.nvwallet.wallet
+alternativeStores: 
 appCountry: 
 released: 2024-12-27
-updated: 2025-10-31
-version: 0.1.0
+updated: 2026-04-18
+version: 0.1.1
 reviews: 
 website: https://www.nvxowallet.com/
 repository: 

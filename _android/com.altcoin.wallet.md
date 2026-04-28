@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.altcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-03-19
 updated: 2020-01-21

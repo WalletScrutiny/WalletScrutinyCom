@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.InBit.app
+alternativeStores: 
 appCountry: 
 released: 2020-07-29
 updated: 2022-05-26

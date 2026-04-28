@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.blocpal.wallet
+alternativeStores: 
 appCountry: us
 released: 2018-10-30
 updated: 2024-05-07
@@ -15,10 +16,10 @@ website: http://www.blocpal.com
 repository: 
 icon: com.blocpal.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2026-02-02
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

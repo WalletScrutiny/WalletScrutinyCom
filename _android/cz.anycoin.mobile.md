@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: cz.anycoin.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-05-07
 updated: 2026-03-18

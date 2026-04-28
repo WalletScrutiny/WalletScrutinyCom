@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitni.androidapp
+alternativeStores: 
 appCountry: 
 released: 2021-09-24
 updated: 2021-11-08

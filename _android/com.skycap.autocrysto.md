@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.skycap.autocrysto
+alternativeStores: 
 appCountry: 
 released: 2019-11-18
 updated: 2020-04-27

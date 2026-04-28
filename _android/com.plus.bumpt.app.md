@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.plus.bumpt.app
+alternativeStores: 
 appCountry: 
 released: 2022-12-01
 updated: 2022-12-01

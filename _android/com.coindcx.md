@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000000
 appId: com.coindcx
+alternativeStores: 
 appCountry: 
 released: 2018-11-02
 updated: 2024-07-12

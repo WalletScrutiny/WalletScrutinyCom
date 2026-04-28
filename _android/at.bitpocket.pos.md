@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 500
 appId: at.bitpocket.pos
+alternativeStores: 
 appCountry: 
 released: 2016-07-08
 updated: 2017-10-20

@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.tapngo.tap
+alternativeStores: 
 appCountry: gb
 released: 2019-12-19
-updated: 2026-03-18
-version: 3.7.7
+updated: 2026-04-24
+version: 3.7.9
 reviews: 301
 website: https://www.withtap.com
 repository: 

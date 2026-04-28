@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.chainup.exchange.Zenith
+alternativeStores: 
 appCountry: 
 released: 2022-03-06
 updated: 2022-11-19

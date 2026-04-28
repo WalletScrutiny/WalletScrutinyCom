@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.icecorp.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-08-24
 updated: 2025-01-15

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: ae.phoenixfund
+alternativeStores: 
 appCountry: 
 released: 2021-01-29
 updated: 2022-04-12

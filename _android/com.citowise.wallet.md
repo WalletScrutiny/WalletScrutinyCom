@@ -7,6 +7,7 @@ authors:
 - leo
 users: 50000
 appId: com.citowise.wallet
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-12-25

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5000
 appId: com.viktraders.www
+alternativeStores: 
 appCountry: 
 released: 2019-06-24
 updated: 2019-06-25

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.everdreamsoft.casatookan
+alternativeStores: 
 appCountry: 
 released: 2018-09-19
 updated: 2025-08-26

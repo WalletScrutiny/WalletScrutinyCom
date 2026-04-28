@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: finance.swappy.swappy
+alternativeStores: 
 appCountry: 
 released: 2022-03-11
 updated: 2022-05-05

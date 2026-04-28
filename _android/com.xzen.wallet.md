@@ -6,6 +6,7 @@ authors:
 - leo
 users: 5000
 appId: com.xzen.wallet
+alternativeStores: 
 appCountry: 
 released: 2018-12-25
 updated: 2019-09-19

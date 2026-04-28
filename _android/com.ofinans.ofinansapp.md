@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.ofinans.ofinansapp
+alternativeStores: 
 appCountry: 
 released: 2021-06-10
 updated: 2025-08-28

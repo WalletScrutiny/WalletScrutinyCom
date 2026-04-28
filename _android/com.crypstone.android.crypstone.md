@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.crypstone.android.crypstone
+alternativeStores: 
 appCountry: 
 released: 2018-07-03
 updated: 2018-07-03

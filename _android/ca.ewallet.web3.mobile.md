@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: ca.ewallet.web3.mobile
+alternativeStores: 
 appCountry: 
 released: 2022-10-24
 updated: 2022-10-24

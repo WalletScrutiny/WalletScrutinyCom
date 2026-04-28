@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitload4u.user
+alternativeStores: 
 appCountry: 
 released: 2017-10-29
 updated: 2019-08-27

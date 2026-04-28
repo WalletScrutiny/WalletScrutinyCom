@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.coindeal
+alternativeStores: 
 appCountry: 
 released: 2019-11-04
 updated: 2020-08-18

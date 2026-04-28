@@ -6,10 +6,11 @@ authors:
 - danny
 users: 1000000
 appId: com.amarkets
+alternativeStores: 
 appCountry: us
 released: 2019-05-31
-updated: 2026-04-15
-version: 2.1.133
+updated: 2026-04-24
+version: 2.1.134
 reviews: 294
 website: https://www.amarkets.com
 repository: 

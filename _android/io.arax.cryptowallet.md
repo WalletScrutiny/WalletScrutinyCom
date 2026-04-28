@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: io.arax.cryptowallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-15
 updated: 2019-11-25

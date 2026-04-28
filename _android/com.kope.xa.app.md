@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.kope.xa.app
+alternativeStores: 
 appCountry: 
 released: 2023-04-21
 updated: 2023-04-22

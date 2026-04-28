@@ -7,6 +7,7 @@ authors:
 - keraliss
 users: 100000
 appId: com.defiwalletmobile
+alternativeStores: 
 appCountry: 
 released: 2021-12-13
 updated: 2024-06-01

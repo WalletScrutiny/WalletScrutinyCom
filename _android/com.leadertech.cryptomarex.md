@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.leadertech.cryptomarex
+alternativeStores: 
 appCountry: 
 released: 2021-01-12
 updated: 2021-01-12

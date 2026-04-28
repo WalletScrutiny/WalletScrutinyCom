@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: prod.walletv.virgo
+alternativeStores: 
 appCountry: 
 released: 2025-04-03
 updated: 2026-02-03

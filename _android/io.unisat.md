@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.unisat
+alternativeStores: 
 appCountry: 
 released: 2024-03-16
 updated: 2026-03-07

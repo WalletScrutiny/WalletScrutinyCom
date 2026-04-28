@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.fibermode.mode.android
+alternativeStores: 
 appCountry: gb
 released: 2021-02-11
 updated: 2023-01-26

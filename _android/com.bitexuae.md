@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.bitexuae
+alternativeStores: 
 appCountry: ae
 released: 2020-02-23
 updated: 2022-02-12

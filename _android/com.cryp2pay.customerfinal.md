@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.cryp2pay.customerfinal
+alternativeStores: 
 appCountry: 
 released: 2022-02-11
 updated: 2022-05-22

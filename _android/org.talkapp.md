@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: org.talkapp
+alternativeStores: 
 appCountry: 
 released: 2021-01-05
 updated: 2026-02-05

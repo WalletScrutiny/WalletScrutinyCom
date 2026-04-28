@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.btuprotocol.btu_exchange
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2021-05-06

@@ -7,6 +7,7 @@ authors:
 - danny
 users: 1000000
 appId: com.currency.exchange.prod2
+alternativeStores: 
 appCountry: 
 released: 2019-04-15
 updated: 2026-03-26

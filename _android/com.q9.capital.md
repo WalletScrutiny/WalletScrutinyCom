@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.q9.capital
+alternativeStores: 
 appCountry: 
 released: 2021-11-19
 updated: 2022-09-22

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.gimbutis.x
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2026-03-09

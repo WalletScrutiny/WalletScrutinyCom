@@ -6,11 +6,12 @@ authors:
 - leo
 users: 50000000
 appId: com.venmo
+alternativeStores: 
 appCountry: 
 released: 2010-05-17
 updated: 2026-04-15
-version: 26.6.0
-reviews: 351280
+version: 26.7.0
+reviews: 351844
 website: https://venmo.com/
 repository: 
 icon: com.venmo.png

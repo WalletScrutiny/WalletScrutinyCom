@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.inflowchange.inflowchange
+alternativeStores: 
 appCountry: 
 released: 2023-02-17
 updated: 2023-06-25

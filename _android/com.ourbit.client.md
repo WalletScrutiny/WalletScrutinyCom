@@ -6,10 +6,11 @@ authors:
 - danny
 users: 100000
 appId: com.ourbit.client
+alternativeStores: 
 appCountry: 
 released: 2024-04-05
-updated: 2026-04-16
-version: 1.19.5
+updated: 2026-04-24
+version: 1.19.7
 reviews: 56
 website: https://www.ourbit.com
 repository: 

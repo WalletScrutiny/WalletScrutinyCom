@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: cool.pay.paycool
+alternativeStores: 
 appCountry: 
 released: 2022-09-16
 updated: 2024-03-04

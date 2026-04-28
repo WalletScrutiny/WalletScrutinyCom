@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: io.biscoint.lite
+alternativeStores: 
 appCountry: 
 released: 2022-04-05
 updated: 2026-03-16

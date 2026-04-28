@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.cfdglobal.android
+alternativeStores: 
 appCountry: gb
 released: 2017-10-04
 updated: 2024-11-11

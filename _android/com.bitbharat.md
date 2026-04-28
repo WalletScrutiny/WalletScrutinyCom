@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.bitbharat
+alternativeStores: 
 appCountry: 
 released: 2023-01-04
 updated: 2023-01-18

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.inf.os.xbitcoinandroid
+alternativeStores: 
 appCountry: 
 released: 2020-12-04
 updated: 2020-10-11

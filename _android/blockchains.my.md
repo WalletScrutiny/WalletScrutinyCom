@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: blockchains.my
+alternativeStores: 
 appCountry: 
 released: 2017-05-08
 updated: 2019-01-07

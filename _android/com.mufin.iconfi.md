@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.mufin.iconfi
+alternativeStores: 
 appCountry: 
 released: 2021-01-27
 updated: 2026-03-26

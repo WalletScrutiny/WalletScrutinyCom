@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.lulubit
+alternativeStores: 
 appCountry: 
 released: 2023-04-30
 updated: 2026-02-27

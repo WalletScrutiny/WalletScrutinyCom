@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: io.excelon.excelongo
+alternativeStores: 
 appCountry: 
 released: 2021-08-09
 updated: 2025-11-23

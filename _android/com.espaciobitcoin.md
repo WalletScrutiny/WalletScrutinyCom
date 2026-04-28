@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.espaciobitcoin
+alternativeStores: 
 appCountry: 
 released: 2022-11-07
 updated: 2022-11-07

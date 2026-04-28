@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.dok.wallet
+alternativeStores: 
 appCountry: il
 released: 2020-09-28
 updated: 2026-04-06

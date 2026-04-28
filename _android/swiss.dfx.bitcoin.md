@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: swiss.dfx.bitcoin
+alternativeStores: 
 appCountry: 
 released: 2023-09-25
 updated: 2025-07-23

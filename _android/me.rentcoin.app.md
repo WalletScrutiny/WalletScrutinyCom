@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: me.rentcoin.app
+alternativeStores: 
 appCountry: 
 released: 2020-06-29
 updated: 2021-10-26

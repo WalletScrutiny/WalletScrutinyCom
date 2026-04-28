@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.vspark.vhwallet
+alternativeStores: 
 appCountry: 
 released: 2018-06-07
 updated: 2019-10-04

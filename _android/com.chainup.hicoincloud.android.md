@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.chainup.hicoincloud.android
+alternativeStores: 
 appCountry: 
 released: 2022-12-09
 updated: 2026-04-07

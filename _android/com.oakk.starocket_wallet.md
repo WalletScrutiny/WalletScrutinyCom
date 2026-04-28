@@ -6,6 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.oakk.starocket_wallet
+alternativeStores: 
 appCountry: 
 released: 2022-05-29
 updated: 2026-02-05

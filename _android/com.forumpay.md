@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.forumpay
+alternativeStores: 
 appCountry: 
 released: 2020-11-27
 updated: 2020-11-27

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: in.digitx
+alternativeStores: 
 appCountry: 
 released: 2020-12-20
 updated: 2021-11-29

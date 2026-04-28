@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: ch.btcfx
+alternativeStores: 
 appCountry: 
 released: 2013-07-13
 updated: 2019-12-20

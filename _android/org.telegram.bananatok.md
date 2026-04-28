@@ -6,11 +6,12 @@ authors:
 - danny
 users: 100000
 appId: org.telegram.bananatok
+alternativeStores: 
 appCountry: KR
 released: 2019-08-11
 updated: 2025-09-05
 version: 5.0.8
-reviews: 1355
+reviews: 1354
 website: http://www.bananatok.com
 repository: 
 icon: org.telegram.bananatok.png

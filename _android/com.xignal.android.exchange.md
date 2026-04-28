@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.xignal.android.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-04-04
 updated: 2022-04-05

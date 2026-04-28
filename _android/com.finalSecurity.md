@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 5
 appId: com.finalSecurity
+alternativeStores: 
 appCountry: 
 released: 2020-04-17
 updated: 2020-12-16

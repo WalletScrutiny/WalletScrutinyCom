@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.cryptizo.app
+alternativeStores: 
 appCountry: 
 released: 2022-02-20
 updated: 2022-06-07

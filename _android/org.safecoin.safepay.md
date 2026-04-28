@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: org.safecoin.safepay
+alternativeStores: 
 appCountry: 
 released: 2019-05-20
 updated: 2020-08-14

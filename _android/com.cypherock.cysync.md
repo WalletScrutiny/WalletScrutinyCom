@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.cypherock.cysync
+alternativeStores: 
 appCountry: 
 released: 2025-03-28
 updated: 2026-02-10

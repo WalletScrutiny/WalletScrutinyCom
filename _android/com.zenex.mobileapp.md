@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.zenex.mobileapp
+alternativeStores: 
 appCountry: 
 released: 2022-05-24
 updated: 2022-05-28

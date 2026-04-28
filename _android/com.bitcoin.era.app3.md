@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitcoin.era.app3
+alternativeStores: 
 appCountry: 
 released: 2021-07-15
 updated: 2021-07-15

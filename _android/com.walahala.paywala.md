@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.walahala.paywala
+alternativeStores: 
 appCountry: 
 released: 2020-02-20
 updated: 2020-07-23

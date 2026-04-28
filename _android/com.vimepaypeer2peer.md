@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.vimepaypeer2peer
+alternativeStores: 
 appCountry: 
 released: 2021-05-09
 updated: 2021-05-09

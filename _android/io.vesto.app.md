@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: io.vesto.app
+alternativeStores: 
 appCountry: 
 released: 2022-06-01
 updated: 2022-06-01

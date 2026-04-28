@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.bitzlive.bitzlive
+alternativeStores: 
 appCountry: 
 released: 2019-08-12
 updated: 2019-08-13

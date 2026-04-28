@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.chain.zconprotocol
+alternativeStores: 
 appCountry: 
 released: 2022-01-05
 updated: 2022-01-26

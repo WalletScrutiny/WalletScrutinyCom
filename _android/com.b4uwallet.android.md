@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 10000
 appId: com.b4uwallet.android
+alternativeStores: 
 appCountry: 
 released: 2018-10-19
 updated: 2021-04-22

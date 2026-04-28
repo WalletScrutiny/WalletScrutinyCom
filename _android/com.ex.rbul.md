@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.ex.rbul
+alternativeStores: 
 appCountry: 
 released: 2022-01-11
 updated: 2022-02-15

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.virtuabroker.ui
+alternativeStores: 
 appCountry: 
 released: 2021-09-14
 updated: 2022-02-24

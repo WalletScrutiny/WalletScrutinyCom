@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.nbdu.fluency_bank
+alternativeStores: 
 appCountry: 
 released: 2020-02-27
 updated: 2020-04-29

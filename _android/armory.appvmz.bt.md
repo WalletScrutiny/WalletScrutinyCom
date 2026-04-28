@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: armory.appvmz.bt
+alternativeStores: 
 appCountry: 
 released: 2022-06-07
 updated: 2022-06-08

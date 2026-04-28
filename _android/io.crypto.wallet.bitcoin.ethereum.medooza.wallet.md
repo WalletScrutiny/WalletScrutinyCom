@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: io.crypto.wallet.bitcoin.ethereum.medooza.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-04
 updated: 2019-01-04

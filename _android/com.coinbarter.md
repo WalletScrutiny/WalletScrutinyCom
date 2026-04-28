@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coinbarter
+alternativeStores: 
 appCountry: 
 released: 2022-06-30
 updated: 2022-06-30

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitopapps.fanhukj
+alternativeStores: 
 appCountry: 
 released: 2021-12-10
 updated: 2021-12-10

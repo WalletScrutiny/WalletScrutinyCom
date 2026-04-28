@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.lkrcoin.wallet
+alternativeStores: 
 appCountry: 
 released: 2019-01-19
 updated: 2019-01-19

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: io.xbts.app
+alternativeStores: 
 appCountry: 
 released: 2021-04-26
 updated: 2022-08-17

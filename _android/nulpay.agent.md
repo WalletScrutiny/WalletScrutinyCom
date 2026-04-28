@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: nulpay.agent
+alternativeStores: 
 appCountry: 
 released: 2022-09-02
 updated: 2022-09-02

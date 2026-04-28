@@ -6,10 +6,11 @@ authors:
 - danny
 users: 10000
 appId: app.bitafrika.com
+alternativeStores: 
 appCountry: GH
 released: 2021-07-19
-updated: 2026-04-14
-version: 5.0.2
+updated: 2026-04-21
+version: 5.1.5
 reviews: 170
 website: https://bitafrika.com
 repository: 

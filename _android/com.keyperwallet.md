@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.keyperwallet
+alternativeStores: 
 appCountry: 
 released: 2019-10-22
 updated: 2020-09-02

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.asin.app
+alternativeStores: 
 appCountry: 
 released: 2021-11-05
 updated: 2021-12-31

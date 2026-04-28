@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.rexsons.copaly_app
+alternativeStores: 
 appCountry: 
 released: 2022-07-25
 updated: 2026-04-08

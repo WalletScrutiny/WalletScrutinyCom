@@ -9,11 +9,12 @@ authors:
 - keraliss
 users: 500000
 appId: co.edgesecure.app
+alternativeStores: 
 appCountry: 
 released: 2018-03-01
-updated: 2026-04-08
-version: 4.47.0
-reviews: 742
+updated: 2026-04-23
+version: 4.48.0
+reviews: 743
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 icon: co.edgesecure.app.png

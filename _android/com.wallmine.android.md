@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.wallmine.android
+alternativeStores: 
 appCountry: 
 released: 2019-11-21
 updated: 2020-07-29

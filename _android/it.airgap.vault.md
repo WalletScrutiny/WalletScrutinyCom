@@ -8,6 +8,7 @@ authors:
 - keraliss
 users: 10000
 appId: it.airgap.vault
+alternativeStores: 
 appCountry: 
 released: 2018-08-06
 updated: 2026-03-24

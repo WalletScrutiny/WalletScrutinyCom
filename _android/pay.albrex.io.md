@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 0
 appId: pay.albrex.io
+alternativeStores: 
 appCountry: 
 released: 2021-08-24
 updated: 2021-08-24

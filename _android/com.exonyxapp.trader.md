@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.exonyxapp.trader
+alternativeStores: 
 appCountry: 
 released: 2020-08-25
 updated: 2022-06-18

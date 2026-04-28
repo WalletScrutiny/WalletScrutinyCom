@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.perwallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-10
 updated: 2021-06-14

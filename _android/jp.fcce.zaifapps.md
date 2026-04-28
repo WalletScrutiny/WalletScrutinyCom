@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: jp.fcce.zaifapps
+alternativeStores: 
 appCountry: in
 released: 2020-05-07
 updated: 2023-10-05

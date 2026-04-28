@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.bitflex
+alternativeStores: 
 appCountry: 
 released: 2021-09-27
 updated: 2021-09-27

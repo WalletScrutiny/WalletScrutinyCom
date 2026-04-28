@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.cryptoplatz.app
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2022-10-05

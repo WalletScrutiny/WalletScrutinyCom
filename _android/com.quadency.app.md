@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.quadency.app
+alternativeStores: 
 appCountry: 
 released: 2021-10-24
 updated: 2023-03-06

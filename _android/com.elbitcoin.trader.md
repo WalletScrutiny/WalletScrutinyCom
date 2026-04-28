@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1
 appId: com.elbitcoin.trader
+alternativeStores: 
 appCountry: 
 released: 2021-09-17
 updated: 2021-09-20

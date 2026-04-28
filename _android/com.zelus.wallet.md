@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.zelus.wallet
+alternativeStores: 
 appCountry: 
 released: 2021-11-29
 updated: 2025-04-04

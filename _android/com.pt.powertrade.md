@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.pt.powertrade
+alternativeStores: 
 appCountry: 
 released: 2021-07-27
 updated: 2025-12-11

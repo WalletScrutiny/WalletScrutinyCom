@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.trading.token_app
+alternativeStores: 
 appCountry: 
 released: 2022-04-11
 updated: 2022-04-14

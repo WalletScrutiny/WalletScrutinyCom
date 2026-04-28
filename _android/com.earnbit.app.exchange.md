@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.earnbit.app.exchange
+alternativeStores: 
 appCountry: 
 released: 2022-10-30
 updated: 2026-02-25

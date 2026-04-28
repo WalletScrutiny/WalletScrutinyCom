@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.gdywgydggwf.wtewsd
+alternativeStores: 
 appCountry: 
 released: 2022-03-26
 updated: 2022-03-27

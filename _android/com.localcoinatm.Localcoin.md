@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.localcoinatm.Localcoin
+alternativeStores: 
 appCountry: 
 released: 2019-05-30
 updated: 2020-10-26

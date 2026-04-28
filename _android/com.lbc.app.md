@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.lbc.app
+alternativeStores: 
 appCountry: 
 released: 2020-06-25
 updated: 2020-08-07

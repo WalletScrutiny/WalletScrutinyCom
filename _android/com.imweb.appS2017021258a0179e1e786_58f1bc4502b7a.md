@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a
+alternativeStores: 
 appCountry: 
 released: 2019-04-11
 updated: 2022-07-20

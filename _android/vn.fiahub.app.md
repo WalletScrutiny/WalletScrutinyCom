@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: vn.fiahub.app
+alternativeStores: 
 appCountry: 
 released: 2019-10-11
 updated: 2025-08-25

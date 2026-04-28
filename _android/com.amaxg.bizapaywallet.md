@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.amaxg.bizapaywallet
+alternativeStores: 
 appCountry: 
 released: 2025-01-13
 updated: 2026-02-06

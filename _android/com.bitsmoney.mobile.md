@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.bitsmoney.mobile
+alternativeStores: 
 appCountry: 
 released: 2021-04-01
 updated: 2021-05-17

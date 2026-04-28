@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.coinfundit.wallet
+alternativeStores: 
 appCountry: 
 released: 2022-03-17
 updated: 2023-03-12

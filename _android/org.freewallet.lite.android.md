@@ -6,6 +6,7 @@ authors:
 - leo
 users: 500
 appId: org.freewallet.lite.android
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2019-03-01

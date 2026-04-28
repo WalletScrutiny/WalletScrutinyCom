@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.menttechhubex
+alternativeStores: 
 appCountry: 
 released: 2020-06-01
 updated: 2020-06-04

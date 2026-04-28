@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.shidowallet
+alternativeStores: 
 appCountry: 
 released: 2022-09-30
 updated: 2023-07-28

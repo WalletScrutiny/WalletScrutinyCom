@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.quicrypto.bitcoin.buyer
+alternativeStores: 
 appCountry: 
 released: 2021-06-24
 updated: 2021-06-24

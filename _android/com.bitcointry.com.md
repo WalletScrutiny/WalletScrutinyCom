@@ -6,6 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.bitcointry.com
+alternativeStores: 
 appCountry: 
 released: 2023-01-03
 updated: 2025-11-07

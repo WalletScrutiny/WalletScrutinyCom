@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.dyorex.dyorex_mobile_app
+alternativeStores: 
 appCountry: 
 released: 2022-02-24
 updated: 2026-04-10

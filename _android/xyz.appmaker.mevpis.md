@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: xyz.appmaker.mevpis
+alternativeStores: 
 appCountry: 
 released: 2022-02-20
 updated: 2022-02-20

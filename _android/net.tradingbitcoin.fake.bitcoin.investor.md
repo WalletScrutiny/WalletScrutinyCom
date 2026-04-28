@@ -6,6 +6,7 @@ authors:
 - leo
 users: 100
 appId: net.tradingbitcoin.fake.bitcoin.investor
+alternativeStores: 
 appCountry: 
 released: 2021-06-21
 updated: 2021-06-21

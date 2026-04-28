@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 1000
 appId: com.finance.lovelyindian
+alternativeStores: 
 appCountry: 
 released: 2022-02-10
 updated: 2022-08-02

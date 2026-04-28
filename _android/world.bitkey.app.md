@@ -6,11 +6,12 @@ authors:
 - danny
 users: 10000
 appId: world.bitkey.app
+alternativeStores: 
 appCountry: US
 released: 2024-02-28
-updated: 2026-04-17
-version: 2026.2.1 (2)
-reviews: 32
+updated: 2026-04-24
+version: 2026.7.0 (2)
+reviews: 31
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 icon: world.bitkey.app.png

@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: bitcoin.ethereum.ripple.cryptocurrency.crypter
+alternativeStores: 
 appCountry: 
 released: 2018-07-07
 updated: 2019-09-14

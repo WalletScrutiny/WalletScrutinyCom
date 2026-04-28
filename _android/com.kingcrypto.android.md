@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.kingcrypto.android
+alternativeStores: 
 appCountry: 
 released: 2021-10-17
 updated: 2021-11-17

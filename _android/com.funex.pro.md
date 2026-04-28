@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 500
 appId: com.funex.pro
+alternativeStores: 
 appCountry: 
 released: 2022-10-13
 updated: 2024-08-31
@@ -17,7 +18,7 @@ bugbounty:
 meta: stale
 verdict: wip
 appHashes: 
-date: 2026-04-20
+date: 2026-04-28
 signer: 
 twitter: 
 social: 

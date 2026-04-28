@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.onlybit.wallet
+alternativeStores: 
 appCountry: 
 released: 2020-11-13
 updated: 2021-02-08

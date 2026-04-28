@@ -6,6 +6,7 @@ authors:
 - danny
 users: 100000
 appId: cz.hundredspires.wexo
+alternativeStores: 
 appCountry: 
 released: 2021-11-29
 updated: 2025-09-10

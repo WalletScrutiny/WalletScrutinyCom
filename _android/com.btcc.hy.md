@@ -6,11 +6,12 @@ authors:
 - danny
 users: 1000000
 appId: com.btcc.hy
+alternativeStores: 
 appCountry: us
 released: 2020-08-04
-updated: 2026-04-09
-version: 8.9.81
-reviews: 3987
+updated: 2026-04-21
+version: 8.9.83
+reviews: 4010
 website: https://www.btcc.com/en-US
 repository: 
 icon: com.btcc.hy.png

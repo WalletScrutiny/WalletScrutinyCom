@@ -6,6 +6,7 @@ authors:
 - kiwilamb
 users: 100000
 appId: com.secrypto
+alternativeStores: 
 appCountry: 
 released: 2018-06-18
 updated: 2019-02-26

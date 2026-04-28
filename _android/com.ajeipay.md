@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ajeipay
+alternativeStores: 
 appCountry: 
 released: 2020-05-30
 updated: 2021-10-09

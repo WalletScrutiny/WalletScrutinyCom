@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.assisttm
+alternativeStores: 
 appCountry: 
 released: 2021-08-02
 updated: 2022-05-10

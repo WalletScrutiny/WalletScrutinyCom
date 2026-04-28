@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.brand101investing
+alternativeStores: 
 appCountry: cy
 released: 2020-08-18
 updated: 2021-12-01

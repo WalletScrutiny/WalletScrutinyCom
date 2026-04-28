@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10000
 appId: ua.money.storage.moneystorage
+alternativeStores: 
 appCountry: 
 released: 2018-02-08
 updated: 2024-02-01

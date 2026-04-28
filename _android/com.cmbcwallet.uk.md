@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.cmbcwallet.uk
+alternativeStores: 
 appCountry: 
 released: 2019-06-10
 updated: 2019-07-02

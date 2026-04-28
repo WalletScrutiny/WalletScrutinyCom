@@ -6,6 +6,7 @@ authors:
 - danny
 users: 10
 appId: xyz.twenty_two.portal_manager
+alternativeStores: 
 appCountry: 
 released: 
 updated: 2025-05-14

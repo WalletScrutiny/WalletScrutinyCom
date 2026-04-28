@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: bitcoin.twenty.twenty
+alternativeStores: 
 appCountry: 
 released: 2019-06-24
 updated: 2019-07-18

@@ -6,6 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.eqifi.eqifi
+alternativeStores: 
 appCountry: 
 released: 2022-04-03
 updated: 2025-05-28

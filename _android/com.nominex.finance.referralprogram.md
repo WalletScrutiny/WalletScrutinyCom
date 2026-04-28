@@ -5,6 +5,7 @@ altTitle:
 authors: 
 users: 50
 appId: com.nominex.finance.referralprogram
+alternativeStores: 
 appCountry: 
 released: 2022-05-19
 updated: 2022-05-19
