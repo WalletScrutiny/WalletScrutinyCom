@@ -14,8 +14,8 @@ const stats = {
 
 const category = 'android';
 const folder = `_${category}/`;
-const headers = ('wsId title altTitle authors users appId appCountry released ' +
-                'updated version reviews website repository ' +
+const headers = ('wsId title altTitle authors users appId alternativeStores ' +
+                'appCountry released updated version reviews website repository ' +
                 'icon bugbounty meta verdict appHashes date signer ' +
                 'twitter social redirect_from developerName builds features').split(' ');
 
