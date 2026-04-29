@@ -31,4 +31,4 @@ DigiByte Wallet is a Blazor WebAssembly PWA served at `dgbwallet.app`, where BIP
 
 The wallet's `_web` classification applies because it is a browser-based application with no native installable binary; the PWA manifest allows installation as a shortcut, but the runtime is entirely web-delivered. The repository's `src/DigiByte.Crypto/Networks/DigiByteNetwork.cs` confirms the sole supported network uses crypto code `"DGB"` with DigiByte-specific consensus parameters — no Bitcoin (`BTC`) network is registered or reachable in the codebase. All five `wallet-v*` releases (v0.1.0 through v0.1.4) were created within 73 minutes on 2026-04-26, the same day the project cut its first stable tag. The app's `connect-src` CSP directive includes the permissive `ws: wss:` tokens, allowing WebSocket connections to any origin, which was not disclosed in the review request.
 
-This app is exclusively for DigiByte and **does not have support for BTC**.
+We tested the app, and posted the video on [X.com](https://x.com/BitcoinWalletz/status/2049338205498134883). This app is exclusively for DigiByte and **does not have support for BTC**.
