@@ -55,7 +55,7 @@ The new hardware revision adds an OLED touchscreen and retains the fingerprint b
 
 ## Key Handling and Custody
 
-Bitkey explicitly has **no seed phrase**. There is no BIP39 mnemonic to back up or export. This is an intentional design choice. Bitkey instead promotes a seedless 2-of-3 multisig model with cloud-backed recovery and an Emergency Exit Kit. See [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works) and [The end of seed phrase scams](https://bitkey.build/the-end-of-seed-phrase-scams/).
+Bitkey explicitly has **no seed phrase**. There is no BIP39 mnemonic to back up or export. This is an intentional design choice. Bitkey instead promotes a seedless 2-of-3 multisig model with cloud-backed recovery and an "Emergency Exit Kit". See [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works) and [The end of seed phrase scams](https://bitkey.build/the-end-of-seed-phrase-scams/).
 
 The practical consequence is more specific than that. If a user still has their hardware device, access to the encrypted Emergency Exit Kit PDF stored in their cloud account, and a phone environment that still has the locally cached CSEK in Bitkey's encrypted store, Bitkey says its [Emergency Exit Kit](https://support.bitkey.world/hc/en-us/articles/24395170222868-What-is-an-Emergency-Exit-Kit-and-how-does-it-work) lets them move funds without relying on Block's servers. But if the user loses both their phone and hardware at the same time, recovery depends on having set up a Recovery Contact in advance and on Bitkey's cloud-backed recovery flow.
 
