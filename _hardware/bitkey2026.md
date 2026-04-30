@@ -23,7 +23,7 @@ repository: https://github.com/proto-at-block/bitkey
 icon: bitkey2026.png
 bugbounty: https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
-verdict: custodial
+verdict: nosource
 appHashes: 
 date: 2026-04-30
 signer: 
@@ -35,7 +35,6 @@ social:
 builds: 
 features:
 - fingerprint
-- foss
 - multiSig
 - nfc
 
@@ -45,36 +44,36 @@ features:
 
 This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}. For the previous screenless hardware revision, see {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}.
 
-Block announced a new Bitkey device at Bitcoin 2026 (April 27–29, 2026). The new hardware features an OLED touchscreen — a significant departure from the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}, which had no screen or physical buttons. The original form factor (56×62×13mm, 65g, $150) is superseded; the new device ships at 66×60×13.6mm, 79g, and $250.
+Block announced a new Bitkey device at the [Bitcoin2026](https://2026.b.tc/) conference (April 27–29, 2026). The new hardware features an OLED touchscreen — a significant departure from the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}, which had no screen or physical buttons. The original form factor (56×62×13mm, 65g, $150) is superseded; the new device ships at 66×60×13.6mm, 79g, and $250. All analysis below reflects the **new 2026 revision**.
 
 ## Description
 
-Bitkey is a hardware wallet made from Corian solid surface and stainless steel. Unlike traditional hardware wallets, Bitkey uses a 2-of-3 multisignature scheme: one key lives on the hardware device, one on the companion mobile app, and one on Block's servers. Any transaction requires two of the three keys. The server key is encrypted and [described as inaccessible without the customer's participation](https://bitkey.build/not-our-keys-not-our-business/).
+Bitkey is a hardware wallet made from [Corian®](https://www.dupont.com/content/dam/dupont/amer/us/en/corian/public/documents/en/what_is_corian_r_.pdf) solid-surface composite. Bitkey uses a 2-of-3 multisignature scheme: one key lives on the hardware device, one on the companion mobile app, and one on Block's servers. Any transaction requires two of the three keys. The server key is encrypted and [described as inaccessible without the customer's participation](https://bitkey.build/not-our-keys-not-our-business/).
 
-The new hardware revision adds an OLED touchscreen and retains the fingerprint biometric sensor, NFC connectivity, and the Corian/stainless steel casing. Bitkey's current product documentation emphasizes touchscreen and fingerprint interaction and does not describe traditional physical navigation buttons.
+The new hardware revision adds an OLED touchscreen and retains the fingerprint biometric sensor, NFC connectivity, and the Corian casing. Bitkey's current product documentation emphasizes touchscreen and fingerprint interaction and does not describe traditional physical navigation buttons.
 
 ## Key Handling and Custody
 
-Bitkey explicitly has **no seed phrase**. There is no BIP39 mnemonic to back up or export. This is an intentional design choice. Bitkey instead promotes a seedless 2-of-3 multisig model with cloud-backed recovery and an "Emergency Exit Kit". See [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works) and [The end of seed phrase scams](https://bitkey.build/the-end-of-seed-phrase-scams/).
+Bitkey explicitly has **no user-facing seed phrase**. There is no BIP39 mnemonic backup or export flow for the user. This is an intentional design choice. Bitkey instead promotes a seedless 2-of-3 multisig model with cloud-backed recovery and an **"Emergency Exit Kit"**. See [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works) and [The end of seed phrase scams](https://bitkey.build/the-end-of-seed-phrase-scams/).
 
-The practical consequence is more specific than that. If a user still has their hardware device, access to the encrypted Emergency Exit Kit PDF stored in their cloud account, and a phone environment that still has the locally cached CSEK in Bitkey's encrypted store, Bitkey says its [Emergency Exit Kit](https://support.bitkey.world/hc/en-us/articles/24395170222868-What-is-an-Emergency-Exit-Kit-and-how-does-it-work) lets them move funds without relying on Block's servers. But if the user loses both their phone and hardware at the same time, recovery depends on having set up a Recovery Contact in advance and on Bitkey's cloud-backed recovery flow.
+The practical consequence is more specific than that. If a user still has their hardware device, access to the encrypted Emergency Exit Kit PDF stored in their cloud account, and a compatible phone to run the Bitkey emergency recovery flow, Bitkey says its [Emergency Exit Kit](https://support.bitkey.world/hc/en-us/articles/24395170222868-What-is-an-Emergency-Exit-Kit-and-how-does-it-work) lets them move funds without relying on Block's servers. In the current app code, the recovery flow asks the hardware device over NFC to unseal the EEK's sealed key, stores that key in the app's local encrypted CSEK store, and then restores the app spending key from the PDF payload. But if the user loses both their phone and hardware at the same time, recovery depends on having set up a Recovery Contact in advance and on Bitkey's cloud-backed recovery flow.
 
 Additionally, if the user enables Bitkey's optional Transfer without hardware feature, Block's server key can co-sign transactions **up to the user's configured spending limit** without requiring the hardware device. In that mode, the hardware wallet is not a mandatory participant in all fund movements.
 
 Whether this constitutes custody depends on framing:
-- Block does not control funds unilaterally (2-of-3 always requires the customer's key for high-value transactions).
-- But Block can co-sign below the spending limit without hardware, and recovery ultimately depends on Block's servers.
-- Users cannot export a standard BIP39 seed or restore Bitkey through a seed phrase.
+- Block does not control funds unilaterally (2-of-3 always requires at least one of the customer's keys).
+- But Block can co-sign below the spending limit without hardware, and most recovery flows depend on Block's servers.
+- Users cannot export a standard user-facing BIP39 seed or restore Bitkey through a seed phrase.
 
 ## Analysis
 
 | Question | Answer | Evidence |
 |---|---|---|
-| Can the private keys be created offline? | ✔️ | Bitkey's product page states: "Bitkey's hardware key is generated and stored completely offline in a secure enclave." Note that the system also includes a server-held key (generated by Block) and an app key (generated on the phone during setup), neither of which is offline. The question applies to the hardware device key specifically. |
-| Are the private keys shared? | ✔️ | Block independently generates and holds one of the three keys on its servers — it is not a copy of the user's keys, but it is a required participant in the signing topology. Two of three keys are needed to authorize any transaction, and Block's server key is one of them. For the optional [Transfer without hardware](https://support.bitkey.world/hc/en-us/articles/19427218356500-How-do-I-set-up-Transfer-without-hardware-and-a-transfer-limit) feature, Block co-signs transactions up to the user's spending limit without the hardware device being present. The user's own hardware key and app key are never disclosed to Block, but the wallet cannot function without Block's key. Source: [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works). |
-| Does the device display the receive address? | ✔️ | Address verification on the hardware device is implemented in the app code and gated exclusively to W3 hardware (the 2026 device). When the user taps "Review on Bitkey," the app opens an NFC session and calls `commands.getAddress(session, index)` on the hardware, which displays the address on the device's OLED screen for verification. The prompt subline reads: "Display your address on your Bitkey for verification." This feature is absent for the original screenless hardware. Source: `AddressQrCodeUiStateMachineImpl.kt`, `AddressVerificationPromptBodyModel.kt` at `app/2026.7.0`. |
-| Does the interface have a display screen and buttons? | ✔️ | The new device has an OLED touchscreen display and a fingerprint sensor used for unlocking and approvals. Bitkey's current product documentation does not describe any traditional physical navigation buttons. |
-| Is it reproducible? | ❓ | The Android companion app has a [verifiable build process](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md) in the repository. Device firmware is published under the MIT License, but byte-identical reproducible builds of the firmware have not been independently confirmed. |
+| Can the private keys be created offline? | Yes (hardware key) | Bitkey's product page states: "Bitkey's hardware key is generated and stored completely offline in a secure enclave." The system also includes a server-held key (generated by Block) and an app key (generated on the phone during setup), neither of which is offline. The question applies to the hardware device key specifically. |
+| Are the private keys shared? | No | The user's hardware key and app key are never disclosed to Block. Block independently generates and holds a third key on its own servers — not a copy of the user's keys. The wallet uses a 2-of-3 signing topology: the hardware key and app key can sign together without involving Block's server at all. Block's key is used in server-assisted signing paths, such as the optional [Transfer without hardware](https://support.bitkey.world/hc/en-us/articles/19427218356500-How-do-I-set-up-Transfer-without-hardware-and-a-transfer-limit) feature, which allows co-signing up to the user's spending limit when the hardware device is not present, and in recovery flows where the hardware is unavailable. Source: [How Bitkey Works](https://bitkey.world/learning-hub/how-bitkey-works). |
+| Does the device display the receive address? | Yes | Address verification on the hardware device is implemented in the app code and gated exclusively to W3 hardware (the 2026 device). When the user taps "Review on Bitkey," the app opens an NFC session and calls `commands.getAddress(session, index)` on the hardware, which displays the address on the device's OLED screen for verification. The prompt subline reads: "Display your address on your Bitkey for verification." This feature is absent for the original screenless hardware. Source: `AddressQrCodeUiStateMachineImpl.kt`, `AddressVerificationPromptBodyModel.kt` at `app/2026.7.0`. |
+| Does the interface have a display screen and buttons? | Yes | The new device has an OLED touchscreen display. The fingerprint sensor replaces traditional physical navigation buttons, serving as the primary input mechanism for unlocking and approving transactions. |
+| Is the source available? | No (firmware) | The Android companion app source is available and has a [verifiable build process](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md). The firmware source is published under the MIT License at `firmware/` in the same repository, but it cannot be built by external parties. The [firmware README](https://github.com/proto-at-block/bitkey/tree/main/firmware#a-note-on-building) states: *"we use a 3rd party fingerprint sensor that comes with a proprietary matching algorithm and we are contractually obligated not to publicly release the library that implements this functionality."* This is confirmed at the code level: `firmware/hal/biometrics/src/fpc_biometrics.c` includes six FPC BEP headers (`fpc_bep_algorithms.h`, `fpc_bep_bio.h`, `fpc_bep_image.h`, `fpc_bep_sensor.h`, `fpc_bep_sensor_test.h`, `fpc_bep_types.h`) and calls FPC BEP functions throughout. The build system (`hal/biometrics/meson.build` line 31) lists `fpc_bep_dep` as a required dependency. None of these headers exist anywhere in the repository, no compiled binary (`.a`, `.so`) is present, and `fpc_bep_dep` is never declared in any `meson.build` file. The dependency is wired in but has nothing to resolve to. |
 
 ### Setup
 
@@ -89,9 +88,8 @@ Whether this constitutes custody depends on framing:
 
 - Three keys: hardware device, mobile app, Block's servers.
 - Two of three required to authorize any transaction.
-- Block's server key co-signs when:
-  - The hardware device is used (hardware + server), or
-  - The transaction is below the customer's configured spending limit (phone + server, no hardware required).
+- Standard spending: hardware device + mobile app. Block's server is not involved.
+- Transfer without hardware (optional): mobile app + Block's server, up to the user's configured spending limit, when the hardware device is not present.
 
 ### Recovery Options
 
@@ -101,9 +99,9 @@ Available recovery options [per Bitkey support](https://support.bitkey.world/hc/
 - **Delay + Notify**: Lost/replaced phone without cloud backup; or lost/replaced hardware device.
 - **Cloud Health Check**: Lost/replaced cloud account.
 - **Trusted Contacts**: Lost both hardware device and phone near simultaneously.
-- **Emergency Exit Kit**: Bitkey app unavailable, or the user wants to exit without relying on Bitkey servers. Bitkey says this was formerly called the Emergency Access Kit.
+- **Emergency Exit Kit**: Bitkey app unavailable, or the user wants to exit without relying on Bitkey servers. The flow still requires the user's Bitkey hardware device and a compatible phone (iOS or Android) to run the emergency recovery app. Bitkey says this was formerly called the Emergency Access Kit.
 
-The first four recovery methods are still part of Bitkey's hosted recovery design. The Emergency Exit Kit is different: Bitkey says it lets users move funds without connecting to Block or Bitkey servers, but the repo's restore path also depends on the locally cached CSEK in the app's encrypted store.
+The first four recovery methods are still part of Bitkey's hosted recovery design. The Emergency Exit Kit is different: Bitkey says it lets users move funds without connecting to Block or Bitkey servers. In `app/2026.7.0`, the W3 recovery state machine unseals the EEK key through the hardware over NFC and writes it to `CsekStore` before the payload restorer decrypts the app spending key.
 
 ### Fingerprint Scanner
 
@@ -111,46 +109,30 @@ The fingerprint scanner unlocks the device and authorizes actions in the app. Bi
 
 ## Verdict
 
-Bitkey makes the following non-custodial claims, all of which are accurate as far as they go:
+The Android companion app source is publicly available and has a [verifiable build process](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md). The firmware source is published under the MIT License at `firmware/` in the same repository.
 
-- The user holds two of the three keys (hardware device and mobile app).
-- Block [states](https://bitkey.build/not-our-keys-not-our-business/) it cannot move funds without the customer's participation.
-- For transactions above the user's spending limit, the hardware device must be present.
-- An [Emergency Exit Kit](https://support.bitkey.world/hc/en-us/articles/24395170222868-What-is-an-Emergency-Exit-Kit-and-how-does-it-work) exists as a way to move funds without Bitkey servers if the user still has their hardware device, the encrypted PDF backup, and the locally cached CSEK in the app's encrypted store.
-- The 2026 revision adds an OLED touchscreen, addressing the original blind-signing concern.
+However, **the firmware cannot be built or independently verified by external parties.** The [firmware README](https://github.com/proto-at-block/bitkey/tree/main/firmware#a-note-on-building) states:
 
-WalletScrutiny's [custodial verdict definition](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_data/verdicts/custodial.yml?ref_type=heads#L17) addresses this class of argument directly:
+> *"Currently, external parties will not be able to build Bitkey firmware, because we use a 3rd party fingerprint sensor that comes with a proprietary matching algorithm and we are contractually obligated not to publicly release the library that implements this functionality."*
 
-> *"Some services might claim their setup is super secure, that they don't actually have access to the funds, or that the access is shared between multiple parties. For our evaluation of it being a wallet, these details are irrelevant."*
+This is confirmed at the code level. The fingerprint matching is not a peripheral feature — it is the only supported mechanism for unlocking the device and authorizing transactions. `firmware/hal/biometrics/src/fpc_biometrics.c` imports six FPC BEP headers (`fpc_bep_algorithms.h`, `fpc_bep_bio.h`, `fpc_bep_image.h`, `fpc_bep_sensor.h`, `fpc_bep_sensor_test.h`, `fpc_bep_types.h`) that do not exist anywhere in the repository. The build system (`hal/biometrics/meson.build`) lists `fpc_bep_dep` as a required dependency that is never declared in any `meson.build` file in the repo. There is no compiled binary (`.a`, `.so`) either. The library is entirely absent — not vendored, not stubbed, not present in any form.
 
-The relevant test is not whether Block's architecture is well-designed or whether the claims above are true. The test is: **is the user unconditionally sovereign, under all conditions, without depending on any external party?**
+Without the ability to build and verify the firmware, WalletScrutiny's analysis stops here. The device's security-critical firmware cannot be fully audited or reproduced by external parties. Users must take Block's word that the firmware running on the device matches the published source plus the unreleased fingerprint library.
 
-The answer is no, for two reasons:
-
-**1. Block is structurally part of the signing topology.**
-Bitkey says one of the three keys is held on the Bitkey server. For the optional [Transfer without hardware](https://support.bitkey.world/hc/en-us/articles/19427218356500-How-do-I-set-up-Transfer-without-hardware-and-a-transfer-limit) feature, Bitkey co-signs transactions up to the user's daily limit without requiring the hardware device. In that mode, the hardware wallet is not a mandatory participant in all fund movements. Block is therefore not merely a backup key holder; it can also act as an active co-signer for user-enabled spending flows.
-
-**2. There is no standard seed backup, and most recovery flows are still Bitkey-defined.**
-Bitkey [explicitly does not issue a BIP39 mnemonic](https://bitkey.world/learning-hub/how-bitkey-works). Most recovery flows — cloud recovery, Delay+Notify, Cloud Health Check, and Trusted Contacts — remain part of Bitkey's own recovery design. Bitkey does document a server-independent Emergency Exit Kit, but that path only helps if the user still has their hardware device, the encrypted PDF backup, and the locally cached CSEK available through the app's encrypted local store.
-
-Bitkey removes single-point failure, but it also makes Block part of the wallet's supported spending and recovery model. Even after accounting for the Emergency Exit Kit, the provider remains inside the signing topology and inside most recovery flows. That dependency is part of the product's intended design. Under a strict reading of [WalletScrutiny's methodology](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_data/verdicts/custodial.yml?ref_type=heads#L17), that is enough to classify Bitkey as custodial.
-
-**Verdict: custodial.**
+**Verdict: nosource.**
 
 ## Firmware
 
-Bitkey's firmware source is published in the same repository as the app: [github.com/proto-at-block/bitkey](https://github.com/proto-at-block/bitkey), under the `firmware/` directory. The most recent source publish at the time of writing is commit [`1afa949`](https://github.com/proto-at-block/bitkey/commit/1afa949) (2026-04-25).
+Bitkey's firmware source is published in the same repository as the app: [github.com/proto-at-block/bitkey](https://github.com/proto-at-block/bitkey), under the `firmware/` directory. The most recent source publish at the time of writing is commit [`34c4399`](https://github.com/proto-at-block/bitkey/commit/34c439915fc0aa00101f4146515dbcede0f778fd) (2026-04-24).
 
-The firmware and app ship together under the same `app/YEAR.WEEK.PATCH` version scheme. There are no separate firmware-only release tags. The latest release is [`app/2026.7.0`](https://github.com/proto-at-block/bitkey/releases/tag/app%2F2026.7.0), published 2026-04-26.
+The firmware and app ship together under the same `app/YEAR.WEEK.PATCH` version scheme. There are no separate firmware-only release tags. The latest release is [`app/2026.7.0`](https://github.com/proto-at-block/bitkey/releases/tag/app%2F2026.7.0), published 2026-04-24.
 
 Block publishes the firmware source under the MIT License. However, the firmware **cannot be fully built by external parties** as-is: the fingerprint sensor relies on a proprietary third-party matching library that Block is contractually prohibited from releasing. Stubs for that library must be implemented to produce a complete build. This is documented in the [firmware README](https://github.com/proto-at-block/bitkey/tree/main/firmware#a-note-on-building).
 
 The build system is [Meson](https://mesonbuild.com/), with an `invoke` wrapper. Toolchain management uses [Hermit](https://cashapp.github.io/hermit/). The firmware communicates with the companion app over NFC using two interfaces: standard NDEF (used for firmware updates) and WCA (Wallet Custom APDUs — protobufs over APDUs, used for all other app-to-firmware communication). The [WCA command set is documented in the repository](https://github.com/proto-at-block/bitkey/tree/main/firmware/lib/wca).
 
-{% include featureEvidence.html feature="foss" quote="Software is licensed by Block, Inc. under the following MIT License (the &quot;License&quot;), and with no warranties or guarantees." source="GitHub README" %}
-
 {% include featureEvidence.html feature="multiSig" quote="Bitkey's 2-of-3 multisig setup is built into every wallet. You hold two keys: one on your Bitkey device and one in the app. A third is encrypted on a server and can't be used without one of your other keys." source="Website" %}
 
 {% include featureEvidence.html feature="fingerprint" quote="Fingerprint authentication is currently the only supported way to secure and unlock the hardware device." source="Bitkey Support: Do I have to use a fingerprint to secure my Bitkey hardware device? (support.bitkey.world/hc/en-us/articles/18843390579860)" %}
 
-{% include featureEvidence.html feature="nfc" quote="The device does not need to be charged before initial pairing." source="Bitkey Support: How do I set up my Bitkey wallet? (support.bitkey.world/hc/en-us/articles/18929976655892-How-do-I-set-up-my-Bitkey-wallet)" %}
+{% include featureEvidence.html feature="nfc" quote="Connectivity: Near-field Communication (NFC). Phone Requirements: Android 7.0/Nougat or later and NFC capability." source="Bitkey Product Page: Specs (bitkey.world/product)" %}
