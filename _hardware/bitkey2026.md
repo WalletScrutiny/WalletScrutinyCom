@@ -45,9 +45,7 @@ features:
 
 This product has a companion app: {% include walletLink.html wallet='android/world.bitkey.app' verdict='true' %}. For the previous screenless hardware revision, see {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}.
 
-## Update, 2026-04-29: New Hardware Revision
-
-Block announced a new Bitkey device at Bitcoin 2026 (April 27–29, 2026). The new hardware features an OLED touchscreen — a significant departure from the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}, which had no screen or physical buttons. The original form factor (56×62×13mm, 65g, $150) is superseded; the new device ships at 66×60×13.6mm, 79g, and $250. All analysis below reflects the **new 2026 revision**.
+Block announced a new Bitkey device at Bitcoin 2026 (April 27–29, 2026). The new hardware features an OLED touchscreen — a significant departure from the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}, which had no screen or physical buttons. The original form factor (56×62×13mm, 65g, $150) is superseded; the new device ships at 66×60×13.6mm, 79g, and $250.
 
 ## Description
 
