@@ -46,7 +46,7 @@ features:
 
 ## Analysis 
 
-This is the **companion app** to the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %}. It requires an NFC-capable phone, otherwise the app would not be installed.
+This is the **companion app** to the {% include walletLink.html wallet='hardware/blockhww' verdict='true' %} (screenless, 2024) and the {% include walletLink.html wallet='hardware/bitkey2026' verdict='true' %} (with OLED touchscreen, 2026). It requires an NFC-capable phone, otherwise the app would not be installed.
 
 <hr>
 
